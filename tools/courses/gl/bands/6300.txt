@@ -1,0 +1,100 @@
+1	6201	mamífero	mamíferos
+2	6202	usual	usuais
+3	6203	manía	manías
+4	6204	capucha	capuchas
+5	6205	tentador	tentadoras
+6	6206	sobredose	sobredoses
+7	6207	ferri	ferris
+8	6208	agrícola	agrícolas
+9	6209	quintal	quintais
+10	6210	celular	celulares
+11	6211	carrusel	carruseis
+12	6212	toupa	toupas
+13	6213	servidume	servidumes
+14	6214	baleeiro	baleeira baleeiros
+15	6215	embusteiro	embusteira
+16	6216	historial	historiais
+17	6217	chelín	chelíns
+18	6218	resentido	resentida
+19	6219	radiador	radiadores
+20	6220	lúgubre	lúgubres
+21	6221	sustancia	sustancias
+22	6222	visual	visuais
+23	6223	decadente	decadentes
+24	6224	liteira	liteiras
+25	6225	címbalo	címbalos
+26	6226	feiticeiro	feiticeira
+27	6227	encubrimento	encubrimentos
+28	6228	voceiro	voceiros
+29	6229	cíclico	cíclica
+30	6230	cariñoso	cariñosa cariñosos
+31	6231	municipio	municipios
+32	6232	mafioso	mafiosos
+33	6233	atroz	atroces
+34	6234	faba	fabas
+35	6235	patín	patíns
+36	6236	travesío	travesía travesías
+37	6237	recrutamento	recrutamentos
+38	6238	error	errores
+39	6239	réplica	réplicas
+40	6240	aio	aia aios
+41	6241	fervenza	fervenzas
+42	6242	pistoleiro	pistoleiros
+43	6243	colaborador	colaboradores
+44	6244	opositor	opositores
+45	6245	cáliz	cálices
+46	6246	sandalia	sandalias
+47	6247	hormona	hormonas
+48	6248	cella	cellas
+49	6249	deportación	deportacións
+50	6250	concepción	concepcións
+51	6251	santuario	santuarios
+52	6252	remorso	remorsos
+53	6253	transistor	transistores
+54	6254	conmemorativo	conmemorativa conmemorativas
+55	6255	cimento	cimentos
+56	6256	literario	literaria literarios
+57	6257	mondar	monda monde mondes
+58	6258	melón	melóns
+59	6259	estalido	estalidos
+60	6260	inválido	inválidos
+61	6261	ditador	ditadores
+62	6262	inventor	inventores
+63	6263	telexornal	telexornais
+64	6264	ambientar	ambientada ambientado ambientados
+65	6265	visiblemente	visibelmente
+66	6266	poni	ponis
+67	6267	obediente	obedientes
+68	6268	radicar	radica radicaba
+69	6269	escultor	escultores
+70	6270	racional	racionais
+71	6271	marsopa	marsopas
+72	6272	pequerrecho	pequerrechas pequerrechos
+73	6273	embarazoso	embarazosa
+74	6274	substancia	substancias
+75	6275	lancha	lanchas
+76	6276	recipiente	recipientes
+77	6277	temperán	temperá temperáns
+78	6278	exitoso	exitosa exitosas
+79	6279	mítico	mítica míticos
+80	6280	aspirante	aspirantes
+81	6281	deshonesto	deshonestas deshonestos
+82	6282	amorodo	amorodos
+83	6283	balazo	balazos
+84	6284	variación	variacións
+85	6285	faixa	faixas
+86	6286	triángulo	triángulos
+87	6287	indulxente	indulxentes
+88	6288	nadador	nadadora
+89	6289	residencial	residenciais
+90	6290	reliquia	reliquias
+91	6291	peón	peóns
+92	6292	apto	apta aptos
+93	6293	elevador	elevadora elevadores
+94	6294	emigrar	emigra emigraron emigrei
+95	6295	canadense	canadenses
+96	6296	rebordar	reborda rebordada rebordado rebordaron
+97	6297	inoportuno	inoportuna inoportunas
+98	6298	incompetente	incompetentes
+99	6299	controverter	controvertida controvertido
+100	6300	persiano	persiana persianas

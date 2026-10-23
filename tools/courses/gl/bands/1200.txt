@@ -1,0 +1,100 @@
+1	1101	fe	
+2	1102	apenas	
+3	1103	sexo	sexos
+4	1104	misión	misións
+5	1105	rosa	rosas
+6	1106	artista	artistas
+7	1107	informar	informa informaban informada informade informado informados informamos informan informando informaran informarei informaremos informaron informarás informei informen informo informou informásemos
+8	1108	afectar	afecta afectada afectadas afectado afectados afectan afectaron afectará afectaría afectas afectase afecte afecten afecto afectos afectou
+9	1109	gana	ganas
+10	1110	amañar	amaña amañaba amañabas amañaches amañada amañadas amañado amañala amañalo amañamos amañan amañando amañarche amañarei amañareille amañaremos amañarme amañarnos amañarse amañarte amañarán amañarémoslle amañaría amañas amañase amañe amañei amañeino amaño amañou amañáchelas amañáchelo amañácheste amañámolo amañámonos amañárono amañáronse amáñao amáñate
+11	1111	miúdo	miúda miúdas miúdos
+12	1112	apartar	aparta apartaba apartada apartadas apartade apartado apartados apartalos apartan apartarme apartarnos apartarse apartaría apartas aparte apartei apartemos aparten apartes apartou apartouno apartádeas apártate
+13	1113	copar	copa copas copo copos
+14	1114	pista	pistas
+15	1115	té	tés
+16	1116	aposto	aposta apostas apostos
+17	1117	amolar	amola amolaba amolaban amolada amoladas amolades amolado amolados amolala amolalo amolamos amolan amolando amolao amolarei amolarme amolarnos amolarte amolará amolaría amolaríame amolarían amolas amolase amolastes amole amolei amolen amoles amolo amolou amoloume amolounos amolouse amolándome amólalle amólame amólanos amólao
+18	1118	posuír	posesos posuades posuirei posuirá posuiría posuiríaa posuía posuían posuída posuídas posuído posuídos posuílo posuímos posuín posuíndo posuíra posuíran posuírnos posuíu posúa posúan posúe posúen posúo
+19	1119	leite	
+20	1120	carón	
+21	1121	orgulloso	orgullosa orgullosas orgullosos
+22	1122	cliente	clienta clientas clientes
+23	1123	atravesar	atravesa atravesaba atravesaban atravesaches atravesada atravesadas atravesado atravesados atravesamos atravesan atravesando atravesaremos atravesaron atravesará atravesas atravese atravesei atravesemos atraveses atraveso atravesou
+24	1124	monte	montes
+25	1125	fumar	fuma fumaba fumabamos fumabas fumaches fumada fumalos fumamos fuman fumando fumara fumarse fumas fumases fumei fumemos fumen fumes fumo fumos fumou fúmonos
+26	1126	corre	corres
+27	1127	crecer	crece crecemos crecen crecendo crecera creceran creceras crecerei creceron crecerá crecería creces crecese crecesen creceses creceu creciches crecida crecéndolle crecía crecín creza crezan
+28	1128	setembro	
+29	1129	propiedade	propiedades
+30	1130	intelixente	intelixentes
+31	1131	responsable	responsables responsábel
+32	1132	devolver	devolta devoltas devolto devoltos devolva devolvan devolvas devolve devolvemos devolven devolvendo devolverei devolveron devolverá devolverán devolvería devolves devolvese devolveu devolviamos devolviches devolvo devolvía devolvían devolvín
+33	1133	conter	contedes contela contelo contelos contemos contendo conterme conterá conteñen contida contido contidos contivemos contiña contiñan contén
+34	1134	aspecto	aspectos
+35	1135	arroaz	arroaces
+36	1136	pistola	pistolas
+37	1137	planeta	planetas
+38	1138	diario	diaria diarias diarios
+39	1139	respirar	respira respiraba respirado respiralo respiramos respiran respirando respirara respirarei respiraremos respiraren respirares respiraron respiraría respiras respire respiren respiro respirou respírase
+40	1140	primavera	primaveras
+41	1141	vacación	vacacións
+42	1142	fogo	fogos
+43	1143	cantidade	cantidades
+44	1144	exacto	exacta exactas exactos
+45	1145	contrato	contratos
+46	1146	rostro	rostros
+47	1147	xuntar	axuntar xuntaba xuntaban xuntaches xuntados xuntalo xuntalos xuntamos xuntan xuntando xuntara xuntarei xuntarme xuntarnos xuntaron xuntarse xuntas xunte xuntedes xuntei xunteime xunteinos xuntemos xunten xuntou xuntouna xuntounos xuntábanse xuntábase xuntácheste xuntámonos xuntásedes xúntalas xúntanse xúntase xúntate xúntense
+48	1148	regra	regras
+49	1149	trato	tratos
+50	1150	comunidade	comunidades
+51	1151	solución	solucións
+52	1152	especialmente	
+53	1153	furacán	furacáns
+54	1154	bosque	bosques
+55	1155	pensamento	pensamentos
+56	1156	render	renda rendades rendamos rendan rendas rende rendemos renden rendendo rendera renderedes renderei renderemos renderlle renderme rendernos renderon renderse renderte renderán rendería rendes rendese rendesen rendeu rendida rendido rendo rendéramos rendía rendíache rendín réndeche réndenlle réndese
+57	1157	caste	castes
+58	1158	pa	pas pá
+59	1159	enfermidade	enfermidades
+60	1160	tumbar	tumba tumbada tumbaron tumbas
+61	1161	motivo	motivos
+62	1162	namorado	namorada namoradas namorados
+63	1163	fronteiro	fronteira fronteiras
+64	1164	debaixo	
+65	1165	terrible	terribles
+66	1166	sensación	sensacións
+67	1167	modelo	modelos
+68	1168	aguantar	aguanta aguantaches aguantade aguantado aguantamos aguantan aguantando aguantara aguantará aguantarán aguantarás aguantas aguante aguantes aguanto aguantou
+69	1169	deseñar	deseña deseñaba deseñada deseñadas deseñado deseñados deseñalo deseñalos deseñamos deseñaron deseñarse deseñe deseñei deseñeino deseñemos deseñes deseño deseños deseñou deseñábase
+70	1170	praia	praias
+71	1171	estudante	estudantes
+72	1172	nervioso	nerviosa nerviosas nerviosos
+73	1173	cemiterio	cemiterios
+74	1174	internacional	internacionais
+75	1175	declaración	declaracións
+76	1176	onda	ondas
+77	1177	peza	pezas
+78	1178	afogar	afoga afogaba afogaban afogaches afogada afogadas afogado afogados afogalo afogan afogando afogara afogarme afogarnos afogaron afogarse afogarte afogaría afogaríame afogas afogo afogou afogounos afogouse afogue afoguemos afogues afóganche afógome
+79	1179	arroz	
+80	1180	concienciar	conciencia concienciado concienciados conciencias
+81	1181	trono	tronos
+82	1182	grave	graves
+83	1183	criminal	criminais
+84	1184	económico	económica económicas económicos
+85	1185	asumir	asuma asumamos asume asumen asumes asumida asumido asumila asumilo asumimos asumindo asumirei asumiremos asumires asumiron asumirás asumiu asumo asumámolo asumían asumín asúmeo
+86	1186	abril	abrís
+87	1187	pescozo	pescozos
+88	1188	cultura	culturas
+89	1189	especie	especies
+90	1190	correo	correos
+91	1191	atender	atenda atendamos atendan atendas atende atendede atendelo atendelos atendemos atenden atendendo atenderei atendereino atenderme atenderon atenderte atendida atendidas atendido atendidos atendo atendéndoo atendía aténdea aténdelle aténdeme aténdeno aténdeo aténdolle
+92	1192	adorar	adora adoraba adorabas adorada adorades adorado adoramos adoran adoraremos adoraron adoraría adorasen adorei adoremos adoro adorou adorábaa adorábala adorábanos adorámoste adórame adóranas adóranme adórano adóranos adórante adórase adóroo adóroos adórote adórovos
+93	1193	terreo	terreos
+94	1194	xuíz	xuíces
+95	1195	vaca	vacas
+96	1196	participar	participa participaba participaban participabas participado participamos participan participando participantes participara participaran participarei participaren participaron participará participaría participarían participase participe participei participen participes participo participou
+97	1197	poderoso	poderosa poderosas poderosos
+98	1198	converter	converta convertan convertas converte converten convertendo convertera converteramos convertermos converteron convertes convertestes converteu convertiches convertida convertido convertidos convertían convertías convertín
+99	1199	apuntar	apunta apuntaba apuntaban apuntada apuntade apuntades apuntado apuntados apuntamos apuntan apuntando apuntara apuntaran apuntarei apuntaron apuntaría apuntas apuntase apunte apuntei apunten apuntes apunto apuntou
+100	1200	farto	farta fartas fartos

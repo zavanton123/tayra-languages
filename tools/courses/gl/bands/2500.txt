@@ -1,0 +1,100 @@
+1	2401	alternativo	alternativa alternativas alternativos
+2	2402	autor	autora autores
+3	2403	ilegal	ilegais
+4	2404	especialista	especialistas
+5	2405	submarino	submarina submarinas submarinos
+6	2406	tensar	tensa tensade tensan tensas tense tenso tensos
+7	2407	conectar	conecta conectabamos conectaches conectada conectadas conectado conectados conectamos conectara conectas
+8	2408	ignorancia	
+9	2409	acá	
+10	2410	profe	
+11	2411	dignidade	
+12	2412	chuvia	chuvias
+13	2413	treboada	treboadas
+14	2414	esencial	esenciais
+15	2415	pavo	pavos
+16	2416	concepto	conceptos
+17	2417	sesión	sesións
+18	2418	asociación	asociacións
+19	2419	regalo	regalos
+20	2420	israelí	israelís
+21	2421	independente	independentes
+22	2422	acusación	acusacións
+23	2423	manta	mantas
+24	2424	comentario	comentarios
+25	2425	atractivo	atractiva atractivas atractivos
+26	2426	tinto	tinta tintas tintos
+27	2427	tellado	tellados
+28	2428	almorzar	almorcei almorcemos almorzaches almorzamos almorzando almorzaran almorzarmos almorzará almorzas
+29	2429	protestar	protestaba protestaban protestan protestando protestas protestei protesto protestou
+30	2430	acougo	acouga acougas
+31	2431	dobrar	dobra dobraba dobraches dobradas dobrade dobrado dobrados dobrala dobralas dobralo dobran dobrando dobrariades dobrarme dobrarse dobraríamos dobrarían dobren dobres dobro dóbranse
+32	2432	encaixar	encaixa encaixaba encaixadas encaixados encaixan encaixara encaixarche encaixará encaixarán encaixas encaixes encaixo encaixou
+33	2433	viúva	viúvas
+34	2434	pata	patas
+35	2435	criticar	critica criticaches criticada criticado criticalo criticas critico criticou criticáchela critique critiquei critiques critícala critícame
+36	2436	ceder	ceda cedan cedemos ceden cedendo cedera cederemos cederon cederá cederán cedería cedese cedeu cedía cedín
+37	2437	animar	anima animaba animaban animada animadas animade animado animados animan animando animaron animei animes animo animou
+38	2438	regular	regulaba regulada regulados regulan regulares
+39	2439	deprimir	deprimas deprime deprimida deprimido deprimidos
+40	2440	represión	
+41	2441	prata	
+42	2442	furgoneta	furgonetas
+43	2443	tabaco	tabacos
+44	2444	ausencia	ausencias
+45	2445	bolso	bolsos
+46	2446	escala	escalas
+47	2447	vital	vitais
+48	2448	teta	tetas
+49	2449	espantoso	espantosa espantosas espantosos
+50	2450	gay	gays
+51	2451	localización	localizacións
+52	2452	materia	materias
+53	2453	exiliar	exiliado exiliados exilio
+54	2454	pensión	pensións
+55	2455	proletario	proletaria proletarios
+56	2456	adoptar	adopta adoptaba adoptada adoptado adoptamos adoptando adoptaron adoptará adoptas adopten adoptou adoptoume adoptouna adoptouno adoptámola adoptáronos
+57	2457	avergoñar	avergoña avergoñaba avergoñaches avergoñada avergoñadas avergoñado avergoñados avergoñando avergoñarei avergoñas avergoñe avergoñen avergoñes avergoño
+58	2458	mallar	malla mallaba mallaban mallade mallado mallados mallalos mallamos mallan mallando mallarei mallaren mallaron mallas mallei malleina malleino mallen mallou málládeo
+59	2459	reconstruír	reconstruiremos reconstruída reconstruído reconstruídos reconstruílo reconstruílos reconstruímola reconstruímos reconstruíra reconstruíren reconstruíron reconstruíronse reconstruírse reconstrúe reconstrúese
+60	2460	concentrar	concentra concentrada concentradas concentrado concentrados concentrando concentraras concentraron concentras concentrasen concentre concentrei
+61	2461	comprometer	comprometa comprometades compromete comprometendo comprometeremos comprometeren comprometeron comprometes comprometida comprometidas comprometido comprometidos comprometían
+62	2462	orquestrar	orquestra orquestrada orquestrado orquestras
+63	2463	decorar	decoraban decorada decorado decorados decoramos decoraría decorei decoreina decorábana
+64	2464	sumir	some suma sumas sume sumida sumo súmase
+65	2465	ledo	leda ledas ledos
+66	2466	collón	collóns
+67	2467	beizo	beizos
+68	2468	pobreza	
+69	2469	recoñecemento	
+70	2470	soidade	soidades
+71	2471	lama	lamas
+72	2472	rula	rulas
+73	2473	colo	colos
+74	2474	facultar	facultade facultades facultado
+75	2475	xuventude	xuventudes
+76	2476	estatal	estatais
+77	2477	dominio	dominios
+78	2478	análise	análises
+79	2479	perspectiva	perspectivas
+80	2480	fenómeno	fenómenos
+81	2481	anano	anana ananos
+82	2482	polaco	polaca polacos
+83	2483	soviético	soviéticas soviéticos
+84	2484	medalla	medallas
+85	2485	espectador	espectadora espectadores
+86	2486	achar	acha achaba achada achado achamos achan achando acharmos acharon acharán acharían achas achei achemos aches acho achou achábame achábase áchoas
+87	2487	seco	secas secos
+88	2488	opor	opordes oporse oporás oposta opostas opostos opoña opoñamos opoñas opoño opus opuxen opuxeron opuxese opuxéronse opuña opuñan opón opós opóñome opúñanos
+89	2489	plantar	plantaches plantada plantadas plantado plantados plantamos plantan plantaran plantaremos plantaron plantaría plantases plante plantei planto plantou
+90	2490	duchar	ducha duchades duchamos duchas duche
+91	2491	consultar	consulta consultadas consultado consultados consultan consultando consultas consulten consultou
+92	2492	relaxar	relaxa relaxada relaxadas relaxado relaxados relaxares relaxaría relaxas relaxe relaxou
+93	2493	completar	completada completade completado completados completamos completan completando completarei completei completou
+94	2494	pendurar	pendura penduraba penduraban pendurada pendurado pendurados penduran pendurando pendurate pendurábanlles pendúrase
+95	2495	chicar	chico chique
+96	2496	baldar	baldado balde baldes
+97	2497	socorrer	socorreu socorro
+98	2498	creación	creacións
+99	2499	fanar	fanada fanas fane fano fanos
+100	2500	mandarín	mandarina mandarinas

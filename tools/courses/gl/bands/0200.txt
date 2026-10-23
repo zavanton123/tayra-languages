@@ -1,0 +1,100 @@
+1	101	sobre	sobres
+2	102	nin	
+3	103	grande	gran grandes grans
+4	104	algún	algunha algunhas algúns
+5	105	quedar	queda quedaba quedaban quedaches quedade quedades quedado quedamos quedan quedando quedara quedaras quedarei quedaremos quedarme quedaron quedarse quedarte quedará quedarán quedarás quedaría quedas quedase quede quedei quedeime quedemos queden quedes quedo quedos quedou quedámonos quédache quédanche quédanme quédate quédese
+6	106	ata	até
+7	107	sempre	
+8	108	pai	pais
+9	109	gustar	gusta gustaba gustaban gustado gustan gustarche gustarlle gustarme gustaron gustará gustaría gustaríache gustaríalle gustaríalles gustaríanos gustas gustase guste gustei gusten gustou gustouche gustoulle gustoume gustounos gustábache gustáballe gustábame gústache gústalle gústalles gústame gústanche gústanlle gústanme gústanos gústasme gústavos gústoche
+10	110	traballo	traballos
+11	111	primeiro	primeira primeiras primeiros
+12	112	muller	mulleres
+13	113	fillo	filliña filliño fillos
+14	114	atopar	atopa atopaba atopaches atopada atopado atopala atopalo atopamos atopan atopara atoparei atoparemos atoparme atoparon atoparse atopará atoparán atoparás atoparía atopas atopase atope atopei atopeime atopeina atopeino atopemos atopen atopes atopo atopou atopouse atopámolo atopámonos atópanse atópase atópaste atópome topar
+15	115	matar	mata mataba mataban mataches matado matala matalo matalos matamos matan matando matara mataran matarei matarme matarnos mataron matarse matarte matará matarás mataría matas matase matasen mate matei mateino maten mates mato matou matouno matárono mátaa mátame mátao mátaos mátoo
+16	116	marchar	marcha marchaba marchabamos marchaban marchabas marchaches marchade marchades marchado marchai marchais marchamos marchan marchando marchara marcharan marcharas marcharei marcharemos marcharmos marcharon marcharse marchará marcharán marcharás marcharía marcharían marchas marchase marche marchedes marchei marchemos marchen marches marcho marchou marchábamos marchádevos
+17	117	antes	
+18	118	saír	sae saen saes saia saiades saiamos saian saias saio sairei sairemos sairá sairán sairás sairía saía saían saíches saídas saíde saídes saído saímos saín saíndo saíra saíran saíren saírmos saíron saíronselle saírse saíse saísemos saísen saíu saíume saïamos sáeme
+19	119	contar	conta contaba contaban contaches contado contalo contamos contan contando contara contarche contarcho contarei contarlle contarlles contarllo contarme contarmo contarnos contaron contarvos contas contase conte contei conteille contes conto contos contou contouche contoumo contounos cóntalle cóntame cóntamo cóntanos cónteme cóntoche
+20	120	mundo	mundos
+21	121	coñecer	coñece coñecedes coñecela coñecelo coñecelos coñecemos coñecen coñecendo coñecera coñecerme coñecernos coñeceron coñecerte coñecerán coñeces coñecese coñeceses coñeceu coñeciches coñecida coñecidas coñecido coñecidos coñecémonos coñecía coñecían coñecías coñecín coñeza coñezan coñezas coñezo coñécela coñécelo coñéceme coñéceo coñécesme coñézoo coñézote
+22	122	parecer	parece parecedes parecemos parecen parecendo parecerei parecerlle pareceron parecerá parecería pareces parecese pareceu pareceulle pareceulles pareciades parecida parecidas parecido parecidos parecémonos parecía parecíalle parecíame parecían parecías parecíase pareza parezan parezas parezo paréceche parécelle parécelles paréceme parécenche parécese parécevos parézoche
+23	123	seguir	segue seguen segues seguiamos seguiches seguida seguidas seguide seguides seguido seguidos seguila seguilo seguimos seguindo seguirei seguiremos seguirme seguiron seguirá seguirán seguise seguiu seguía seguían seguídeme seguín siga sigamos sigan sigas sigo sigue ségueme ségueo séguete sígame síganme sígueme
+24	124	pouco	pouca poucas poucos pouquiño
+25	125	aí	
+26	126	poñer	pon pona ponlle ponme pono ponse pos posme posta posto postos poña poñan poñas poñede poñela poñelo poñemos poñen poñendo poñerlle poñerme poñernos poñerse poñerte poño poñía puxeches puxemos puxen puxeron puxo puxéronse póñame póñase póñense póñome púxome púxose
+27	127	grazas	graciñas
+28	128	verdade	verdades
+29	129	logo	logos
+30	130	tomar	toma tomaba tomaban tomaches tomada tomadas tomade tomado tomala tomalas tomalo tomamos toman tomando tomara tomaran tomarei tomaremos tomarlle tomaron tomarse tomará tomarán tomarás tomaría tomas tome tomei tomeina tomemos tomen tomes tomo tomou tómame tómao tómasme tómate tómeo
+31	131	despois	
+32	132	escoitar	escoita escoitaba escoitaches escoitada escoitade escoitades escoitado escoitados escoitala escoitalo escoitalos escoitamos escoitan escoitando escoitara escoitaramos escoitarme escoitaron escoitará escoitarán escoitas escoitase escoitastes escoite escoitei escoiten escoites escoito escoitou escoitáchesme escoitádeme escoitámoste escóitame escóitanos escóitao escóitase escóitasme escóiteme escóitoos
+33	133	morrer	morra morralla morramos morran morras morre morrede morredes morremos morren morrendo morrera morreran morreras morreredes morrerei morreremos morreren morreres morrerme morreron morrerá morrerán morrerás morrería morrerían morrerías morres morrese morreses morreu morreume morriches morro morros morría morrían morrías morrín
+34	134	traballar	traballa traballaba traballabamos traballaban traballabas traballaches traballada traballade traballades traballado traballala traballalo traballamos traballan traballando traballara traballaran traballaras traballarei traballaremos traballaren traballares traballaron traballará traballarán traballaría traballas traballase traballastes traballe traballei traballemos traballen traballes traballou traballábamos traballándoa traballáramos trabállase
+35	135	neno	nena nenas nenos
+36	136	entón	
+37	137	amigo	amiga amigas amigos amiguiño
+38	138	irmán	irmanciña irmanciño irmao irmaos irmá irmáns irmás
+39	139	favor	favores
+40	140	alí	
+41	141	rapaz	rapaces rapaciño rapaza rapazas
+42	142	eles	
+43	143	canto	cantas cantos
+44	144	agardar	agarda agardaba agardabamos agardaban agardabas agardabámoste agardaches agardade agardades agardado agardalos agardamos agardan agardando agardara agardaredes agardarei agardareite agardaremos agardaron agardaría agardas agardases agarde agardedes agardei agardemos agarden agardes agardo agardou agardándoa agardándoo agardándote agárdame agárdanos agárdao agárdase agárdote
+45	145	ninguén	ninguéns
+46	146	deus	deusa deusas deuses
+47	147	entender	entenda entendades entendan entendas entende entendedes entendela entendelo entendelos entendemos entenden entendendo entenderme entendernos entenderon entenderse entenderte entenderá entenderás entendería entenderían entenderías entendes entendese entendeu entendeume entendiches entendido entendo entendía entendían entendín enténdelo enténdeme enténdeo enténdesme enténdoche enténdoo enténdote
+48	148	esperar	espera esperaba esperabamos esperaban esperabas esperade esperades esperado esperala esperalo esperamos esperan esperando esperarei esperareite esperarme esperarmos esperaron esperará esperaría esperas esperase espere esperei esperemos esperen esperes espero esperou esperábamos esperándome esperándonos esperándote espérache espérame espérante espérate espérense espérote
+49	149	coller	colla collamos collan collas colle collede colleitas collelo collelos collemos collen collendo collera colleran collerei colleremos colleron collerá collerán collería colles collestes colleu colleume colleuno colliches collido collidos collo collédeo collérono collía collían collín cóllao cóllea cólleme cólleo cólloo
+50	150	nai	mai nais
+51	151	tanto	tanta tantas tantos
+52	152	comezar	comece comecei comecemos comecen comeces comenzar comeza comezaba comezaban comezaches comezada comezade comezades comezado comezamos comezan comezando comezara comezaramos comezaran comezarei comezaremos comezaron comezará comezarán comezarás comezaría comezarían comezas comezase comezasen comezastes comezo comezos comezou comezouse comézalle comézame comézase
+53	153	perder	perda perdamos perdan perdas perde perdela perdelo perdemos perden perdendo perdera perderamos perderan perderemos perderen perdermos perderon perderte perderá perderás perdería perdes perdestes perdeu perdeuno perdeuse perdiches perdida perdidas perdido perdidos perdo perdémolo perdémolos perdéronse perdía perdín pérdese pérdete
+54	154	cada	
+55	155	man	mans mao maos
+56	156	vós	vola volo vos
+57	157	parte	partes
+58	158	moza	mociña mozas mozo mozos
+59	159	alguén	
+60	160	cara	caras
+61	161	lugar	lugares
+62	162	mañá	mañás
+63	163	problema	problemas
+64	164	entre	
+65	165	guerra	guerras
+66	166	hoxe	
+67	167	claro	clara claras claros
+68	168	hora	horas
+69	169	ningún	ningunha ningunhas ningúns
+70	170	ola	olas
+71	171	axudar	axudaba axudade axudado axudala axudalo axudalos axudamos axudan axudando axudara axudarache axudarche axudarei axudareiche axudarlle axudarme axudarnos axudaron axudarte axudarvos axudará axudarán axudaría axudas axudase axude axuden axudes axudo axudou axudoume axudounos axúdame axúdanos axúdao axúdasme axúdeme axúdennos axúdoche
+72	172	tres	
+73	173	menos	
+74	174	certo	certa certas certos
+75	175	buscar	busca buscaba buscabamos buscaban buscabas buscade buscado buscala buscalo buscalos buscamos buscan buscando buscarche buscarei buscaremos buscarme buscarnos buscaron buscarse buscarte buscará buscas busco buscou buscouno buscándoa buscándoo buscándote busque busquei busqueino busqueite busquemos busquen busques búscame búscase búscate
+76	176	persoa	persoas
+77	177	seguro	segura seguras seguros
+78	178	pedir	pediches pedido pedidos pedimos pedindo pedira pedirche pedirei pediremos pedirlle pedirlles pedirllo pedirme pediron pedirvos pediría pedise pediu pediulle pediume pedía pedían pedímoslle pedín pedíronlle pedíronme pida pidas pide piden pides pido pídelle pídeme pídenos pídoche pídocho pídolle pídolles
+79	179	ler	le lea lean leas lela lelas lelo lelos lemo lemos len lena lendo leo lera leras lerei lereina leria lerias lerlle lerme leron les lese leste lestes leu li liamos liches lida lido lidos lin lino léao léo lía
+80	180	pagar	paga pagaba pagaches pagado pagados pagalas pagalo pagalos pagamos pagan pagando pagarche pagarei pagareiche pagareille pagaremos pagarlle pagarme pagarnos pagaron pagará pagarán pagarás pagaría pagarías pagas pago pagos pagou pague paguei paguen pagues págalle págame páganlle páganme págase págoche
+81	181	contra	
+82	182	cidade	cidades
+83	183	pequeno	pequena pequenas pequenos
+84	184	oh	
+85	185	dende	
+86	186	traer	trae traede traela traelo traeme traemos traen traendo traerei traereiche traerme traerá traerán traes traia traian traias traio traédeme traía traída traído trouxeches trouxemos trouxen trouxeron trouxese trouxo trouxéchesme tráelle tráeme tráemo tráeno tráenos tráeo tráiame tróuxenche tróuxenlle tróuxome
+87	187	preguntar	preguntaba preguntaban preguntaches preguntado preguntamos preguntan preguntando preguntara preguntarche preguntarei preguntareille preguntarlle preguntarlles preguntarme preguntarnos preguntaron preguntarse preguntas pregunte preguntei pregunteiche pregunteille pregunteime pregunten preguntes pregunto preguntou preguntoume preguntábame preguntáronme pregúntalle pregúntame pregúntanme pregúntanse pregúntase pregúntelle pregúntello pregúntoche pregúntolle
+88	188	valer	vale valedes valemos valen valendo valera valeralle valeria valerme valernos valeron valerse valerte valerá valerán valería valeríame vales valeu valeuna valiches valido valla vallas vallo valéndome valéndose valía valían váleche váleme válense válevos
+89	189	lembrar	lembra lembraba lembrade lembrades lembrado lembrala lembralo lembramos lembran lembrando lembrarei lembrareino lembrarlle lembrarlles lembrarme lembrarte lembrará lembrarán lembras lembre lembrei lembreime lembren lembro lémbralo lémbrame lémbranos lémbrao lémbrase lémbrasme lémbraste lémbrate lémbrese lémbroche lémbrolle lémbrolles lémbrome lémbroo lémbrote
+90	190	voso	vosa vosas vosos
+91	191	tarde	tardes
+92	192	rei	raíña raíñas reis
+93	193	fóra	
+94	194	nome	nomes
+95	195	botar	bota botaba botaches botade botado botala botalo botamos botan botando botara botarche botarei botarlle botarme botarnos botaron botarse botará botas bote botei boteille boteite botemos boten botes boto botou botoume botouse botáchesme botáronnos bótaa bótalle bótame bótao bótoche bótote
+96	196	ollo	ollos
+97	197	vello	vella vellas vellos
+98	198	acabar	acaba acababa acababan acabaches acabada acabade acabades acabado acabados acabamos acaban acabando acabara acabarase acabarei acabaremos acabares acabaron acabará acabarán acabarás acabaría acabarían acabarías acabas acabase acabases acabe acabei acabemos acaben acabes acabo acabou acabouse acábame acábanse acábao acábase
+99	199	momento	momentos
+100	200	entrar	entra entraba entrabamos entraban entrabas entraches entradas entrade entrades entrado entramos entran entrando entrara entraran entrarei entraremos entraren entrarmos entraron entrará entrarán entrarás entraría entrarían entras entrase entrases entrastes entredes entrei entremos entren entres entro entrou entroume entrábase éntrame

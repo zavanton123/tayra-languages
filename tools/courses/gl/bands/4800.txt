@@ -1,0 +1,100 @@
+1	4701	lendario	lendaria
+2	4702	servidor	servidores
+3	4703	fazaña	fazañas
+4	4704	súbdito	súbditos
+5	4705	compositor	compositora compositores
+6	4706	tirador	tiradores
+7	4707	acariciar	acaricia acariciado acarician acariciaría acaricien
+8	4708	aldeán	aldeáns aldeás
+9	4709	agresor	agresoras agresores
+10	4710	papán	papana papáns
+11	4711	boxeador	boxeadores
+12	4712	muralla	murallas
+13	4713	semanal	semanais
+14	4714	desconcertar	desconcertada desconcertado desconcertados desconcertarían desconcerto
+15	4715	franquista	franquistas
+16	4716	purificador	purificadora purificadoras
+17	4717	fuciño	fuciños
+18	4718	coartar	coartada coartadas coartan coartará
+19	4719	camelo	camelos
+20	4720	establecemento	establecementos
+21	4721	aristócrata	aristócratas
+22	4722	montañés	montañesa montañeses
+23	4723	suspenso	suspensos
+24	4724	pastilla	pastillas
+25	4725	chino	chinos
+26	4726	perdedor	perdedores
+27	4727	araña	arañas
+28	4728	magnético	magnética magnéticos
+29	4729	soberano	soberana soberanos
+30	4730	lunar	lunares
+31	4731	pasquín	pasquíns
+32	4732	palmeira	palmeiras
+33	4733	morno	morna mornas
+34	4734	oínte	oíntes
+35	4735	serbio	serbia serbias serbios
+36	4736	erróneo	errónea erróneas
+37	4737	barraca	barracas
+38	4738	túzaro	túzara túzaros
+39	4739	poético	poética poéticas
+40	4740	bombón	bombóns
+41	4741	ril	riles
+42	4742	sanción	sancións
+43	4743	tentación	tentacións
+44	4744	felicitación	felicitacións
+45	4745	escaparate	escaparates
+46	4746	marxista	marxistas
+47	4747	cardíaco	cardíaca cardíacas cardíacos
+48	4748	maldicir	maldicindo maldiga maldigan
+49	4749	minúsculo	minúscula minúsculas minúsculos
+50	4750	fero	fera feras feros
+51	4751	extraterrestre	extraterrestres
+52	4752	histérico	histérica histéricas histéricos
+53	4753	analfabeto	analfabeta analfabetos
+54	4754	desangrar	desangrada desangraron desangrarán desangrou
+55	4755	inquedo	inqueda inquedos
+56	4756	conquistador	conquistadores
+57	4757	paisano	paisana paisanos
+58	4758	obsesionar	obsesionada obsesionado obsesionados obsesionas obsesionou
+59	4759	liquidar	liquidade liquidado liquidando liquidaremos liquidaron liquide liquiden liquidou
+60	4760	nu	nus núa
+61	4761	místico	mística místicas místicos
+62	4762	desaloxar	desaloxada desaloxade desaloxado desaloxarei desaloxe desaloxen desaloxo
+63	4763	reorganizar	reorganicemos reorganiza reorganizalo reorganizamos reorganizaremos reorganizarse reorganizaría reorganize reorganizámonos
+64	4764	piar	piaches piando piares pie pío
+65	4765	furtivo	furtiva furtivas furtivos
+66	4766	especializar	especializada especializadas especializado especializados
+67	4767	miar	mia mio mía mío
+68	4768	carrexar	carrexa carrexando carrexaron carrexen carrexo carrexándote
+69	4769	decretar	decreta decretadas decretado decretando decretara decrete decretou
+70	4770	estrito	estrita estritas estritos
+71	4771	crucificar	crucificada crucificado crucificados crucificarme crucifiquen crucifíqueno
+72	4772	inscribir	inscribe inscribes inscribimos inscribira inscrita inscrito inscritos
+73	4773	bautizar	bautiza bautizada bautizado bautizados bautizara bautizaran bautizaron bautizase
+74	4774	transferir	transferida transferido transferidos transferindo transferín transfiran transfiras transfire
+75	4775	atropelar	atropela atropelaba atropelado atropelados atropelasen atropelou
+76	4776	escachar	escachada escachados escachala escachei escachen escaches escachou escachoume
+77	4777	derribar	derriba derribado derribados derriban derribará derribase
+78	4778	ouvear	ouvea ouveaban ouveando ouveo ouveos
+79	4779	devorar	devora devoradas devorades devorados devoran devorando devoraron devore devorou
+80	4780	conmover	conmove conmoven conmoveu conmovida conmovidas conmovido
+81	4781	desmaiar	desmaia desmaiado desmaiam desmaiaria desmaiaríase desmaiase desmaiei desmaies desmaio desmáiome
+82	4782	desprender	desprende desprendera desprenderme desprenderon desprenderte despréndete
+83	4783	avellentar	avellenta avellentada avellentado avellentando avellentaremos avellentaren avellentares avellente avellentou
+84	4784	firma	firmas
+85	4785	asar	asada asadas asando ase ases aso
+86	4786	empecer	empece empecei empecemos empecen empeces empeceu empecía empeza empezamos empezan empezas
+87	4787	fita	fitas
+88	4788	neneira	neneiras
+89	4789	funda	fundas
+90	4790	duplicar	duplicados duplicala duplicaron duplicará duplicouse duplicárase duplicáronse dupliquei
+91	4791	fortalecer	fortalece fortalecede fortalecerá fortalecía fortalezas fortalécenos
+92	4792	carteiro	carteiras carteiros
+93	4793	cercar	cercada cercados cercan cercanas cercando cercanos cercaron cercas cercáronos cerquem
+94	4794	prometedor	prometedora prometedores
+95	4795	repentino	repentina repentinas
+96	4796	pampo	pampa pampos
+97	4797	beato	beata beatos
+98	4798	promotor	promotora promotores
+99	4799	barroco	barroca barrocos
+100	4800	napoleón	

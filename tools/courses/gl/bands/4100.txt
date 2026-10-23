@@ -1,0 +1,100 @@
+1	4001	tecer	tece tecen teciamos tecidas tecidos
+2	4002	ateigado	ateigada ateigadas ateigados
+3	4003	compoñer	compostas composto compostos compoñen compoñía compuxeron compuxo compón
+4	4004	mollar	molla mollaba mollada molladas mollados mollando mollarnos mollarse mollas molle molles mollou móllame
+5	4005	ingresar	ingresa ingresado ingresarán ingresei ingresen ingresou
+6	4006	concibir	concibe concibes concibida concibido concibira concibiron concibín
+7	4007	recuar	recuamos recuaron recuemos recúa recúen recúo
+8	4008	editar	edita editada editado editando editaremos editaron editemos editou
+9	4009	demorar	demora demoran demorando demoras demore demorou
+10	4010	desempeñar	desempeña desempeñaba desempeñado desempeñados desempeñando desempeñara desempeñas desempeño desempeñou
+11	4011	arrolar	arrola arrolaba arrolaban arrolando arrolarvos arroledes arrolei arrolo arrolos
+12	4012	destrozar	destroza destrozada destrozadas destrozades destrozado destrozados destrozando destrozou
+13	4013	conspirar	conspira conspiran conspirando conspirara conspiraren conspiraron conspirará conspirei conspirou
+14	4014	reprimir	reprimas reprime reprimen reprimidas reprimido reprimidos reprimiu reprimía
+15	4015	disimular	disimula disimulada disimulado disimularei disimularon disimularía disimules disimulo
+16	4016	exhibir	exhibe exhiben exhibida exhibidos exhibindo exhibiron exhibiría exhibiu exhibiuse exhibía exhibían exhíbeo
+17	4017	silenciar	silenciada silenciadas silenciado silenciados silenciala silenciamos silencian silenciarán
+18	4018	absorber	absorbe absorbela absorberon absorberte absorberá absorbes absorbida absorbidas absorbido absórbeo
+19	4019	inchar	incha inchada inchado inchados inchando incharlle incharse inchas inche inchen inchou
+20	4020	oler	oleron oles olo
+21	4021	recluso	reclusa reclusos
+22	4022	riquiño	riquiña riquiñas riquiños
+23	4023	descifrar	descifrada descifraron descifre descifrou
+24	4024	groseiro	groseira groseiras groseiros
+25	4025	pasmar	pasma pasmada pasmado pasmas pasmo
+26	4026	recortar	recorta recortaba recortaran recorte recortei recortes
+27	4027	cuidar	cuida cuidado cuidados cuidan cuido
+28	4028	tino	
+29	4029	ruptura	
+30	4030	to	
+31	4031	federal	federais
+32	4032	mantemento	
+33	4033	vixiancia	
+34	4034	asemade	
+35	4035	desafortunadamente	
+36	4036	agricultura	
+37	4037	dinamita	
+38	4038	armamento	
+39	4039	calefacción	
+40	4040	suficientemente	
+41	4041	pó	
+42	4042	burocracia	
+43	4043	boxeo	
+44	4044	negación	
+45	4045	timbrar	timbre
+46	4046	recén	
+47	4047	escoura	
+48	4048	crucifixión	
+49	4049	marine	marines
+50	4050	inusual	
+51	4051	selección	
+52	4052	sucesión	
+53	4053	fato	
+54	4054	imperialismo	
+55	4055	humidade	
+56	4056	mandíbula	mandíbulas
+57	4057	delegación	delegacións
+58	4058	accionista	accionistas
+59	4059	vingador	vingadores
+60	4060	apousentar	apousentasen apousentos
+61	4061	lamentábel	lamentábeis
+62	4062	maldade	maldades
+63	4063	fachenda	fachendas
+64	4064	cargamento	cargamentos
+65	4065	bombeiro	bombeiros
+66	4066	gravitacional	gravitacionais
+67	4067	gabia	gabias
+68	4068	fraga	fragas
+69	4069	cirurxía	cirurxías
+70	4070	dieta	dietas
+71	4071	cuco	cucos
+72	4072	cumio	cumios
+73	4073	cranio	cranios
+74	4074	impaciente	impacientes
+75	4075	recanto	recantos
+76	4076	saqueador	saqueadores
+77	4077	reflexión	reflexións
+78	4078	seguranza	seguranzas
+79	4079	inspección	inspeccións
+80	4080	téxtil	téxtiles
+81	4081	pota	potas
+82	4082	ironía	ironías
+83	4083	xersei	xerseis
+84	4084	conversación	conversacións
+85	4085	armenio	armenia armenios
+86	4086	horda	hordas
+87	4087	crego	cregos
+88	4088	logro	logros
+89	4089	prusiano	prusiana prusianos
+90	4090	chicle	chicles
+91	4091	loiro	loira
+92	4092	autorretrato	autorretratos
+93	4093	procedemento	procedementos
+94	4094	dixital	dixitais
+95	4095	bispo	bispos
+96	4096	muíño	muíños
+97	4097	ostra	ostras
+98	4098	tomate	tomates
+99	4099	existente	existentes
+100	4100	tronco	troncos

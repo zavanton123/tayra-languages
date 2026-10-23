@@ -1,0 +1,100 @@
+1	301	mamá	mamaíña mamás
+2	302	contigo	
+3	303	necesitar	necesita necesitaba necesitabamos necesitaban necesitabas necesitada necesitadas necesitades necesitados necesitalo necesitamos necesitan necesitaras necesitaremos necesitará necesitarán necesitarás necesitaría necesitas necesitase necesite necesitemos necesiten necesites necesito necesitou necesitábamos necesitámoste necesítame necesítanse necesítao necesítase necesítate necesítavos necesítoa necesítoas necesítoche necesítoo necesítote
+4	304	lado	lados
+5	305	forza	forzas
+6	306	recibir	recebe reciba recibamos reciban recibas recibe reciben recibes recibiches recibida recibidas recibido recibidos recibila recibilo recibimos recibindo recibira recibiran recibirano recibirei recibirme recibirmos recibiron recibirte recibirá recibirás recibiría recibise recibises recibiu recibiunos recibo recibos recibía recibían recibín recíbeme recíbenme
+7	307	caso	casos
+8	308	vender	venda vendan vendas vende vendela vendelas vendelo vendelos vendemos venden vendendo vendera venderei venderlla venderlle venderme venderon venderse venderá vendería venderías vendes vendese vendesen vendeu vendeullo vendeuse vendida vendidas vendido vendidos vendo vendércho vendía vendían vendíanse vendín véndense véndese
+9	309	importante	importantes
+10	310	cinco	
+11	311	adeus	adeuses
+12	312	supoñer	suposta supostas suposto supostos supoña supoñades supoñamos supoñan supoñede supoñemos supoñen supoñendo supoño supoñoo supoñía supuxeches supuxen supuxera supuxese supuxo supón supónse supós supúxeno
+13	313	catro	
+14	314	xogar	xoga xogaba xogabamos xogaban xogaches xogada xogade xogado xogamos xogan xogando xogaras xogaredes xogarei xogaremos xogares xogaron xogará xogarás xogaría xogarían xogas xogase xogastes xogou xogue xoguedes xoguei xogueima xoguemos xoguen xogues xogábamos xogábase xogándonos xógase xógasma xógaste xógome
+15	315	preparar	prepara preparaba preparaban preparaches preparada preparadas preparade preparado preparados preparalo preparamos preparan preparando preparara prepararan prepararei prepararlle prepararme prepararnos prepararon prepararse prepararte preparas prepare preparei prepareille prepareino preparen preparo preparou preparouse preparámonos preparándose preparáronse prepárame prepárase prepárate prepárese prepároa
+16	316	papá	papás
+17	317	subir	sobe soben sobes suba suban subas sube subiches subida subidas subide subido subidos subila subilos subimos subindo subira subiran subirei subireino subiremos subirlle subiron subirse subirá subiría subise subiu subo subía subíamos subían subías subídea subídeo subín súbase súbea
+18	318	arma	armas
+19	319	pé	pés
+20	320	corazón	corazóns
+21	321	filla	fillas
+22	322	servir	serve serven serves servida servides servido servilo servilos servimos servindo servira serviranos servirei serviremos servirlle servirlles servirme servirnos serviron servirse servirte servirá servirás serviría servise serviu servía servín sirva sirvades sirvan sirve sirvo sérveme sérvenos sérvete sírvase sírvete sírvolle
+23	323	soldado	soldados
+24	324	quitar	quita quitaba quitaches quitade quitala quitalas quitalo quitalos quitamos quitan quitando quitarche quitarllas quitarlle quitarlles quitarme quitarnos quitaron quitas quite quitei quiteille quiten quites quito quitou quitoume quitádelle quitámoslle quitáronlle quitáronme quítaa quítalle quítallo quítame quítamo quítanmos quítao quítelle
+25	325	mover	mova movades movan movas move movede movedes movelo movemos moven movendo movera moverase moverme movernos moverse moverte moverán movería moves moveses moveu moveuse movida movidas movido movo movédeas movémonos movéndose movéndote movía movíase móvase móvense móvese móveste móvete móvome
+26	326	puta	putas
+27	327	feliz	felices
+28	328	corpo	corpos
+29	329	beber	beba bebades bebamos beban bebas bebe bebede bebedes bebela bebelo bebemos beben bebendo bebera beberdes beberei bebereina beberemos beberlle beberon beberás beberémolo bebería bebes bebese bebeses bebeu bebeuno bebiches bebida bebidas bebo bebía bebían bebín bébea bébelo bébeo béboo
+30	330	forma	formas
+31	331	realmente	
+32	332	decidir	decida decidamos decidan decidas decide deciden decides decidiches decidida decidide decidides decidido decididos decidilo decidimos decidira decidiramos decidiras decidirei decidiremos decidirme decidirnos decidiron decidirse decidirá decidirán decidirémonos decidise decidiu decidiuse decido decidía decidín decidírono decídase decídelle decídeme decídenos decídete
+33	333	partido	partida partidas partidos
+34	334	forte	fortes
+35	335	número	números
+36	336	mandar	mandaba mandado mandados mandala mandalo mandalos mandamos mandan mandando mandarche mandarei mandareiche mandarlle mandarlles mandarme mandaron mandarte mandas mandase mandastes mande mandei mandeiche mandes mando mandos mandou mandoulle mandoume mandounos mandáronme mandárono mándaa mándache mándame mándanche mándanos mándao mándoche
+37	337	paz	paces
+38	338	manter	mantede mantemos mantende mantendo manteren manterme manternos manterse manterte mantervos manterá manterán manteña manteñamos manteñan manteñas manteñen manteño mantida mantido mantiveches mantiven mantiveron mantivese mantivesen mantivo mantiña mantiñamos mantiñan mantédevos mantén manténme mantés mantéñanse mantéñase mantéñennos mantéñense mantíveno mantívose
+39	339	carta	cartas
+40	340	calar	cala calaba calaban calaches calada caladas calade calades calado calados calais calala calalo calan calaran calaras calaredes calaremos calarme calarnos calaron calarás calarían calas calase calases calastes cale calei calen cales calo calou caládevos cálache cálame cálase cáleo
+41	341	sitio	sitios
+42	342	aló	
+43	343	rápido	rápida rápidas rápidos
+44	344	ocorrer	ocorra ocorre ocorren ocorrendo ocorrera ocorreran ocorreron ocorrerá ocorrería ocorrerían ocorreríaselle ocorrese ocorreu ocorreulles ocorreuseme ocorrido ocorridos ocorréronme ocorréuseche ocorréuselle ocorréusema ocorréuseme ocorréusenos ocorría ocorrían ocórreche ocórreme ocórrenseme ocórreselle ocórreseme ocórresevos
+45	345	serio	serios
+46	346	roubar	rouba roubaba roubaban roubache roubaches roubada roubadas roubado roubados roubala roubamos rouban roubando roubanlles roubara roubaran roubarlle roubarlles roubarme roubarnos roubaron roubaría roubas roubastes roubei roubeino roubo roubos roubou roubouche rouboume roubounos roubáchesme roubándolle roubáronche roubáronlle roubáronnos róubanvos róuboche
+47	347	amar	amaba amabamos amaban amabas amabámolo amaches amada amades amado amados amais amala amalo amamos aman amando amarei amaremos amarme amarte amará amaría amas ame amei ameite amen amou amábaa amámonos amámoste amóseme ámame ámanse ámao ámasme ámoa ámoche ámoo
+48	348	xusto	xusta xustas xustos
+49	349	difícil	difíciles
+50	350	punto	puntos
+51	351	significar	significa significaba significaban significados significan significando significara significaron significará significaría significas significo significou signifique signifícao
+52	352	sorte	sortes
+53	353	santo	sa san sans santa santos sas
+54	354	fermoso	fermosa fermosas fermosos
+55	355	goberno	gobernos
+56	356	cortar	corta cortabamos cortaban cortaches cortada cortadas cortade cortado cortados cortala cortamos cortan cortando cortaran cortarche cortarlle cortarme cortaron cortarse cortará cortaría cortas cortase cortei corteime cortemos corten cortes corto cortou cortoulle cortoume cortouse cortáchesme cortácheste cortáronlle córtalle córtao córtase
+57	357	axiña	
+58	358	pobre	pobres
+59	359	permitir	permita permitan permitas permite permiten permites permitiches permitida permitidas permitide permitido permitidos permitilo permitimos permitindo permitirche permitirei permitirlles permitirme permitirmo permitirnos permitiron permitirse permitirá permitirán permitiría permitirían permitisen permitiu permito permitía permitían permitírvolo permítelle permítelles permíteme permítenche permítenos permítome
+60	360	luz	luces
+61	361	temer	tema temades teman temas teme temedes temela temelo tememos temen temendo temerei temeres temerlle temerme temes temeu temiamos temida temido temidos temo temía temían temíano temíao temías temíase temín témelle témenlles témome témonos
+62	362	empezar	empece empecei empecemos empecen empeces empeza empezaba empezaban empezaches empezade empezado empezamos empezan empezando empezara empezaran empezarei empezaremos empezaren empezaron empezará empezarán empezarás empezaría empezaríamos empezas empezase empezastes empezo empezos empezou empezoulle empezouse empezáramos
+63	363	duro	dura duras duros
+64	364	ah	
+65	365	maior	maiores
+66	366	axuda	axudas
+67	367	diñeiro	
+68	368	escola	escolas
+69	369	imaxinar	imaxina imaxinaba imaxinabas imaxinade imaxinado imaxinala imaxinalo imaxinamos imaxinan imaxinando imaxinara imaxinarme imaxinarmos imaxinaron imaxinarse imaxinarte imaxinaría imaxinas imaxinase imaxine imaxinei imaxineina imaxinen imaxines imaxino imaxinou imaxinábame imaxinábao imaxinádeo imaxínache imaxínalo imaxínao imaxínase imaxínaste imaxínate imaxínese imaxínome imaxínoo imaxínoos
+70	370	traballador	traballadora traballadoras traballadores
+71	371	adiante	
+72	372	pregunta	preguntas
+73	373	continuar	continua continuaba continuabamos continuaban continuade continuades continuado continuamos continuara continuardes continuarei continuaremos continuaren continuaron continuará continuarás continuarémola continuaría continuas continuase continue continuei continuemos continuo continuos continuou continuouno continúa continúan continúas continúe continúen continúo
+74	374	cadrar	cadra cadraba cadrada cadradas cadrados cadran cadras cadre cadrelos cadrou
+75	375	bonito	bonita bonitas bonitos
+76	376	foto	fotos
+77	377	garda	gardas
+78	378	sangue	
+79	379	lonxe	
+80	380	ei	
+81	381	abondo	abonda abondas abondos
+82	382	animal	animais
+83	383	americano	americana americanas americanos
+84	384	longo	longa longas longos
+85	385	chorar	chora choraba choraban chorabas choraches chorades chorado choramos choran chorando chorara chorarme choraron chorará chorarán choraría chorarían choras chorasen chore chorei choren chores choro choros chorou chorándolle chórame
+86	386	soño	soños
+87	387	cantar	canta cantaba cantabamos cantaban cantada cantadas cantade cantado cantala cantalo cantamos cantan cantando cantara cantarei cantareina cantaremos cantares cantarlle cantarme cantarmos cantaron cantarán cantaría cantas cantasen cante cantei cantemos canten cantes cantou cantoume cantábame cantámolo cantándolle cántaa cántanos cántoas
+88	388	liberdade	liberdades
+89	389	demais	
+90	390	comunista	comunistas
+91	391	libro	libriño libros
+92	392	can	cans
+93	393	quizais	
+94	394	presidente	presidenta presidentes
+95	395	aceptar	acepta aceptaba aceptada aceptade aceptades aceptado aceptados aceptala aceptalo aceptamos aceptan aceptando aceptara aceptarei aceptaremos aceptaron aceptará aceptarán aceptarás aceptaría aceptaríao aceptas aceptase aceptasen acepte aceptei acepten aceptes acepto aceptou aceptádeo aceptámolo acéptaas acéptao acéptase acéptasme acépteo acéptome acéptoo
+96	396	existir	exista existades existamos existan existas existe existen existes existiamos existido existimos existira existiran existiron existirá existirán existiría existirían existise existiu existo existía existían
+97	397	amosar	amosa amosaba amosaban amosaches amosada amosadas amosade amosalo amosamos amosan amosando amosara amosarche amosarei amosarlle amosarlles amosarllo amosarme amosarnos amosaron amosarvos amosases amose amosei amoseille amosen amoses amoso amosou amosoume amosounos amosouse amosáronnos amósalle amósalles amósame amósamo amósanos amósase
+98	398	supor	supolo suporá suporán suporía suposta supostas suposto supostos supoña supoñades supoñamos supoñan supoño supuxeches supuxen supuxera supuxese supuxo supuña supón supós supúñase
+99	399	preto	pretas pretos
+100	400	correr	corra corrades corran corras correde corredes correi corremos corren correndo correra correrei correremos correrme correron correrse correrá correrán correrás correría corres correstes correu correunos correuse corriamos corriches corrichos corridas corro corros corría corrían corríanse corrías corríase corrín córreste córrome

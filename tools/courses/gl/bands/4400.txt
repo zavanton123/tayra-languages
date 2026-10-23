@@ -1,0 +1,100 @@
+1	4301	desposuír	desposuiría desposuída desposuídas desposuído desposuídos desposuín desposúen
+2	4302	ondear	ondea ondeaba ondeaban ondeado ondean ondeando ondee
+3	4303	disculpar	disculpa disculpan disculpas disculpe disculpen disculpes
+4	4304	concernir	concerne concernidos concerniu concirna concirne
+5	4305	apodrecer	apodrece apodrecen apodrecendo apodrecerán apodreceu apodrezo
+6	4306	repasar	repasa repasabamos repasado repasamos repasarei repasas repaso repasou
+7	4307	vacilar	vacila vacilades vacilamos vacilan vacilando vacilaría vacile
+8	4308	designar	designa designada designadas designado designados designalo designe
+9	4309	rosmar	rosma rosmaba rosmades rosman rosmando rosmas rosmes rosmou
+10	4310	apuñalar	apuñalaches apuñalado apuñalan apuñalei apuñalen apuñalou
+11	4311	aforcar	aforcado aforcados aforcan aforcaron aforcou aforque aforquei
+12	4312	inverter	invertemos invertendo inverteu inverteuse invertida invertido invertía invertíase invertín
+13	4313	orar	orais oramos oran orei oremos oro
+14	4314	esparexer	esparexe esparexemos esparexen esparexendo esparexera esparexeu esparexidas esparexido esparexidos esparexo esparéxoos
+15	4315	manifestar	manifesta manifestaba manifestamos manifestan manifestando manifestas manifestasen manifestou
+16	4316	frecuentar	frecuenta frecuentada frecuentado frecuentan frecuentando frecuentares frecuentas frecuentou
+17	4317	mutilar	mutilada mutiladas mutilado mutilados mutilan mutilaron
+18	4318	presumir	presumen presumes presumido presumidos presumindo presumo
+19	4319	deteriorar	deterioraban deteriorada deterioradas deteriorado deteriorados deteriorando deterioraron deteriorase deterioro
+20	4320	predicar	predica predicades predicado predicalo predicamos predican predicando predico predicou predique predícao
+21	4321	reprochar	reprocha reprochando reprochará reprochasen reproche reproches reprocho reprochou
+22	4322	podrecer	podrece podrecendo podreceren podreceron podrecerá podreceu podrecida podrecido
+23	4323	multiplicar	multiplica multiplicado multiplicados multiplican multiplicando multiplicarse multiplicou multiplicáronse multiplícanse
+24	4324	espionaxe	
+25	4325	coidadosamente	
+26	4326	asistencia	
+27	4327	cadaquén	
+28	4328	impotencia	
+29	4329	zume	
+30	4330	paracaídas	
+31	4331	reciclaxe	
+32	4332	paréntese	
+33	4333	arestora	
+34	4334	peta	
+35	4335	presencia	
+36	4336	artillería	
+37	4337	cabalería	
+38	4338	ansiedade	
+39	4339	preparación	
+40	4340	carraxe	
+41	4341	pementa	
+42	4342	funcionamento	
+43	4343	fodidamente	
+44	4344	banca	
+45	4345	terriblemente	
+46	4346	abundancia	
+47	4347	adorábel	
+48	4348	admiración	
+49	4349	dozura	
+50	4350	bono	bonos
+51	4351	distribución	distribucións
+52	4352	tacto	tactos
+53	4353	síntese	sínteses
+54	4354	tartaruga	tartarugas
+55	4355	bombardeiro	bombardeiros
+56	4356	monopolio	monopolios
+57	4357	acubillo	acubillos
+58	4358	taxista	taxistas
+59	4359	alienación	alienacións
+60	4360	apetito	apetitos
+61	4361	documentación	documentacións
+62	4362	lector	lectores
+63	4363	manipulación	manipulacións
+64	4364	clemente	clementes
+65	4365	esmeralda	esmeraldas
+66	4366	um	umha
+67	4367	silveira	silveiras
+68	4368	acuario	acuarios
+69	4369	alpendre	alpendres
+70	4370	mentalidade	mentalidades
+71	4371	tarta	tartas
+72	4372	matrícula	matrículas
+73	4373	orgasmo	orgasmos
+74	4374	botín	botíns
+75	4375	perla	perlas
+76	4376	capela	capelas
+77	4377	competición	competicións
+78	4378	chamamento	chamamentos
+79	4379	arxentino	arxentina arxentinos
+80	4380	certificar	certificada certificado certificados
+81	4381	ansia	ansias
+82	4382	porteiro	porteira porteiras
+83	4383	aquelar	aquelado aquelo aquelou
+84	4384	despedimento	despedimentos
+85	4385	cálculo	cálculos
+86	4386	cacharro	cacharros
+87	4387	agoniar	agoniando agonía
+88	4388	advertencia	advertencias
+89	4389	insoportable	insoportables
+90	4390	torpe	torpes
+91	4391	desconto	descontos
+92	4392	linchamento	linchamentos
+93	4393	expectativa	expectativas
+94	4394	francotirador	francotiradores
+95	4395	turba	turbas
+96	4396	esixencia	esixencias
+97	4397	inversión	inversións
+98	4398	torneo	torneos
+99	4399	erupción	erupcións
+100	4400	caramelo	caramelos

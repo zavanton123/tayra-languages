@@ -1,0 +1,100 @@
+1	2801	parente	parentes
+2	2802	galiña	galiñas
+3	2803	queixa	queixas
+4	2804	parir	paira parades paramos paras pare paren pares paria parida parindo paris parise parisen pariu paro
+5	2805	fino	fina finas finos
+6	2806	rescatar	rescatabamos rescataban rescataches rescatada rescatado rescatados rescatalo rescatamos rescatara rescataron rescatarte rescatei rescates rescato rescatou rescatoume rescatouna
+7	2807	sospeita	sospeitas
+8	2808	torrar	torradas torrado torrello torres torro
+9	2809	captar	capta captaba captalo captan captarei captaron captarán captas capten capto captou captouno cáptanse cáptasme
+10	2810	restar	resta restaba restaban restaches restan restando restará restei
+11	2811	colaborar	colabora colaboraba colaboramos colaborando colaborara colaborarías colaboras colabore colaborei colaborou
+12	2812	imitar	imita imitaba imitala imitan imitando imitarme imiten imito imitábase
+13	2813	asociar	asocia asociada asociadas asociado asociados asociarme asociarse
+14	2814	aparcar	aparca aparcaba aparcada aparcado aparcados aparcamos aparcarei aparcas
+15	2815	abraiar	abraia abraiaba abraiada abraiado abraiados abraiala abraiará abraies abraiou abraioume abráiase
+16	2816	axustar	axusta axustada axustade axustado axustados axustan axustando axustarei axuste axustes axustou
+17	2817	cravar	crava cravaba cravaban cravado cravados cravan cravara cravaras cravarei cravaron cravastes cravou
+18	2818	reflectir	reflectido reflectidos reflectindo reflectirnos reflectirse reflectiría reflectiu reflectía reflectían reflectíndose reflicte reflicten reflicto reflíctese
+19	2819	mariscal	
+20	2820	purificación	
+21	2821	fama	
+22	2822	efectivamente	
+23	2823	clima	
+24	2824	indochino	indochina
+25	2825	fase	fases
+26	2826	compaña	compañas
+27	2827	bondade	bondades
+28	2828	cero	ceros
+29	2829	transmisión	transmisións
+30	2830	guinea	guineas
+31	2831	sombreiro	sombreiros
+32	2832	sensible	sensibles
+33	2833	autoestrada	autoestradas
+34	2834	moble	mobles
+35	2835	ambición	ambicións
+36	2836	egoísta	egoístas
+37	2837	conselleiro	conselleiros
+38	2838	candidato	candidata candidatas candidatos
+39	2839	incómodo	incómoda incómodas incómodos
+40	2840	táctico	táctica tácticas tácticos
+41	2841	vagabundo	vagabunda vagabundas vagabundos
+42	2842	decreto	decretos
+43	2843	celebración	celebracións
+44	2844	postal	postais
+45	2845	mensaxeiro	mensaxeiras mensaxeiros
+46	2846	profundidade	profundidades
+47	2847	órgano	órganos
+48	2848	ancho	ancha anchas anchos
+49	2849	obradoiro	obradoiros
+50	2850	placa	placas
+51	2851	moreno	morena morenas morenos
+52	2852	alegrar	alegra alegrame alegran alegraras alegrarme alegrarse alegrará alegraría alegraríame alegras alegren alegres alegro alegrou alégranos alégraste alégrate
+53	2853	regalar	regala regalaban regalado regalalo regalarche regalarlle regalaron regalei regaleillo regalen regalou regaloulla regalouma regaloume regaloumo regalounos regaláronma regáloas regálocha regálochas regálocho regálochos regálolles
+54	2854	morder	morda mordan morde mordela mordendo mordera morderei morderte mordeu mordeulle mordeuno mordido mordo mordín mórdeche mórdelle mórdeo
+55	2855	bañar	baña bañaba bañada bañado bañados bañaras bañarnos bañarte bañas bañei bañeime bañou bañounos bañábame báñase
+56	2856	consumir	consome consomen consuma consumas consume consumides consumido consumidos consumindo consumirme consumirán consumisen consumían consumíanse consumíndome consúmese
+57	2857	granxeiro	granxeira granxeiros
+58	2858	aclarar	aclara aclarado aclarados aclaramos aclarara aclarará aclare aclaremos aclares
+59	2859	fichar	ficha fichada fichado fichados fichando fichas fichou
+60	2860	ascender	ascenda ascende ascenden ascendendo ascenderon ascenderá ascendes ascendeu ascendida ascendido ascendía
+61	2861	desfrutar	desfruta desfrutabamos desfrutade desfrutando desfrutará desfrutarán desfrutas desfrutase desfrute desfruten desfrutes desfruto
+62	2862	fusilar	fusiladas fusilado fusilados fusilamos fusilara fusilaren fusilaría fusiles fusilo fusilou
+63	2863	despegar	despega despegadas despegado despegamos despegan despegará despegarán despegas despegue despegues
+64	2864	magoar	magoa magoada magoadas magoado magoados magoamos magoan magoando magoaron magoará magoándome magóame
+65	2865	ousar	ousa ousaba ousaban ousaches ousada ousades ousado ousarei ousaron ousaría ousas ouse ouses ousou
+66	2866	anotar	anota anotadas anotade anotado anotados anotan anotaramos anotará anotas anote anotei anoten anotou
+67	2867	frota	
+68	2868	catorce	
+69	2869	oriente	
+70	2870	embargo	
+71	2871	selva	
+72	2872	aninovo	
+73	2873	principalmente	
+74	2874	fuga	
+75	2875	rodaxe	rodaxes
+76	2876	golfar	golfo golfos
+77	2877	solpor	solpores
+78	2878	supervivencia	supervivencias
+79	2879	fundición	fundicións
+80	2880	explotación	explotacións
+81	2881	misa	misas
+82	2882	goma	gomas
+83	2883	rumbar	rumba rumbo
+84	2884	inicio	inicios
+85	2885	ánimo	ánimos
+86	2886	matanza	matanzas
+87	2887	luxar	luxo luxos
+88	2888	dispositivo	dispositivos
+89	2889	alianza	alianzas
+90	2890	estratexia	estratexias
+91	2891	inferior	inferiores
+92	2892	incendio	incendios
+93	2893	formal	formais
+94	2894	brincadeira	brincadeiras
+95	2895	canalla	canallas
+96	2896	pallaso	pallasos
+97	2897	gravación	gravacións
+98	2898	delincuente	delincuentes
+99	2899	lacaio	lacaios
+100	2900	internar	internada internado internados internaron

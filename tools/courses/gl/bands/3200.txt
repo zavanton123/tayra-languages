@@ -1,0 +1,100 @@
+1	3101	dispoñible	dispoñibles dispoñíbel
+2	3102	impresionar	impresiona impresionada impresionado impresionados impresionan impresionaran impresionou
+3	3103	tolerar	tolera tolerada tolerado tolerados toleralo toleran tolerarei tolerarán toleraría toleras tolero
+4	3104	enredar	enredades enredado enredan enredando enredarme enredarse enredas enredes enredo enredos
+5	3105	barón	baróns
+6	3106	potencial	potenciais
+7	3107	inconsciente	inconscientes
+8	3108	capítulo	capítulos
+9	3109	risa	risas
+10	3110	cabaza	cabazas
+11	3111	glorioso	gloriosa gloriosas gloriosos
+12	3112	explosivo	explosiva explosivas explosivos
+13	3113	inevitable	inevitables inevitábel
+14	3114	chaira	chairas
+15	3115	fenda	fendas
+16	3116	curva	curvas
+17	3117	computadora	computadoras
+18	3118	crebar	crebado crebados crebamos creban crebando crebaron crebará crebas crebe crebei crebemos crebou crebáronlle quebrar
+19	3119	mobilizar	mobilicen mobiliza mobilizaban mobilizados mobilizamos mobilizan mobilizando mobilizarse mobilizaría mobilizou mobilizándose mobilízanse
+20	3120	acumular	acumula acumulaba acumulada acumuladas acumulado acumulan acumulando acumulara acumularon acumularán acumulei acumuláronse acumuláronselle acumúlanse acumúlase acumúlaselles
+21	3121	esforzar	esforcei esforces esforza esforzadas esforzado esforzados esforzan esforzarme esforzarte esforzas esforzase esforzastes esfórzanse esfórzaste esfórzome
+22	3122	corresponder	corresponda corresponde corresponden correspondidas correspondido correspondidos correspondía correspondían correspondín
+23	3123	agradar	agrada agradaba agradan agradaron agradaría agradase agrade agraden
+24	3124	detestar	detesta detestaba detestado detestan detestara detestas deteste detestei detesto
+25	3125	concluír	concluída concluímos concluíntes concluíu conclúa conclúe conclúen conclúo
+26	3126	arrodear	arrodea arrodeaba arrodeaban arrodeada arrodeado arrodeados arrodeamos arrodean arrodeando arrodeou
+27	3127	profundamente	
+28	3128	berce	
+29	3129	chumbo	
+30	3130	respiración	
+31	3131	tenis	
+32	3132	senon	
+33	3133	peste	
+34	3134	encima	
+35	3135	novamente	
+36	3136	caldeiro	caldeiros
+37	3137	xamón	xamóns
+38	3138	porqué	porqués
+39	3139	casamento	casamentos
+40	3140	victoria	victorias
+41	3141	xornada	xornadas
+42	3142	pazo	pazos
+43	3143	unlla	unllas
+44	3144	escopeta	escopetas
+45	3145	suízo	suíza suízos
+46	3146	mandato	mandatos
+47	3147	televisor	televisores
+48	3148	descubrimento	descubrimentos
+49	3149	bici	bicis
+50	3150	dominante	dominantes
+51	3151	cráter	cráteres
+52	3152	xastre	xastres
+53	3153	posiblemente	posibelmente
+54	3154	ingreso	ingresos
+55	3155	prioridade	prioridades
+56	3156	cartón	cartóns
+57	3157	excepción	excepcións
+58	3158	legar	legado legados legando legará legou
+59	3159	automóbil	automóbiles
+60	3160	tráxico	tráxica tráxicas tráxicos
+61	3161	autónomo	autónoma autónomas autónomos
+62	3162	ave	aves
+63	3163	dirixente	dirixentes
+64	3164	tímido	tímida tímidas tímidos
+65	3165	visible	visibles visíbel
+66	3166	severo	severa severas
+67	3167	famento	famenta famentas famentos
+68	3168	pobriño	pobriña pobriños
+69	3169	deportar	deportada deportadas deportado deportados deportaran deportaron deportedes
+70	3170	burro	burra burras burros
+71	3171	sólido	sólida sólidas sólidos
+72	3172	cruzado	cruzada cruzadas cruzados
+73	3173	calmar	calmaches calmada calmade calmado calmarei calmaron calme calmen calmou
+74	3174	empeorar	empeora empeoramos empeoran empeorando empeoraron empeorará empeoras empeorou
+75	3175	embarcar	embarca embarcaches embarcada embarcado embarcando embarcaron embarcou embarque embarquei embarquen
+76	3176	louco	louca loucos
+77	3177	escocés	escoceses
+78	3178	alleo	allea alleas alleos
+79	3179	matemática	matemáticas
+80	3180	trazar	trazada trazadas trazado trazados trazan trazas trazo trazos trazou trazouse trazánse trázase
+81	3181	mariña	mariñas
+82	3182	barreira	barreiras
+83	3183	podar	poda podades podalos podamos podan podando podas pode podedes podemos poden podes podo
+84	3184	nomeado	nomeada nomeados
+85	3185	cadela	cadelas
+86	3186	cadelo	cadelas cadelos
+87	3187	enfermar	enferma enfermaba enferman enfermante enfermaras enfermaron enfermas enfermase enferme enfermes enfermou enférmanlle enférmanme
+88	3188	traseira	traseiras
+89	3189	entrevistar	entrevistado entrevistados entrevistalo entrevistamos entrevistando entrevistara entrevistaremos entrevistarme entrevistarte entrevistarvos entrevistará entrevistas entrevistei entrevisteime entrevisteino entrevisto entrevistou entrevistouse entrevístalo
+90	3190	etiquetar	etiqueta etiquetades etiquetamos etiquetan etiquetaran etiquetaría etiquetas etiqueto etiquetámolo
+91	3191	proporcionar	proporciona proporcionaba proporcionada proporcionado proporcionan proporcionara proporcionaremos proporcionaren proporcionastes proporcione proporcionou
+92	3192	rogar	rogan rogando rogaron rogarvos rogo rogos rogou rogoume rógoche rógolle rógolles rógollo rógovolo rógovos
+93	3193	acceder	acceda accedas accede acceden accedendo accederan accederon accederá accedeu
+94	3194	forxar	forxa forxada forxado forxados forxala forxamos forxan forxaron forxas forxou forxouse
+95	3195	purificar	purifica purificada purificadas purificado purificados purificamos purificara purificasen purifiquei
+96	3196	empuxar	empuxa empuxaba empuxade empuxala empuxando empuxarte empuxaríamos empuxas empuxe empuxes empuxo empúxalo
+97	3197	correctamente	
+98	3198	suavemente	
+99	3199	esencia	
+100	3200	desesperación	

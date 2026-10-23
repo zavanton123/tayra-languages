@@ -1,0 +1,100 @@
+1	6301	forasteiro	forasteiros
+2	6302	compasivo	compasiva
+3	6303	afouto	afouta afoutos
+4	6304	obús	obuses
+5	6305	leopardo	leopardos
+6	6306	frenético	frenética frenéticas frenéticos
+7	6307	exportar	exporta exportaron exporten
+8	6308	perfeccionar	perfeccionaches perfeccionando perfeccionou
+9	6309	piadoso	piadosa
+10	6310	reiseñor	reiseñores
+11	6311	ampliar	ampliada ampliado
+12	6312	bolchevique	bolcheviques
+13	6313	eloxio	eloxios
+14	6314	colectar	colecta colectas
+15	6315	colisión	colisións
+16	6316	inflexible	inflexibles inflexíbel
+17	6317	impreso	impresos
+18	6318	copiloto	copilotos
+19	6319	estallar	estalle estalles estallo
+20	6320	interferencia	interferencias
+21	6321	martelar	martelaban martelando martelen
+22	6322	chabola	chabolas
+23	6323	subministración	subministracións
+24	6324	comparecer	comparece comparecerei compareceu
+25	6325	partitura	partituras
+26	6326	grallar	grallando grallas grallo
+27	6327	estafador	estafadores
+28	6328	vibración	vibracións
+29	6329	pulga	pulgas
+30	6330	cupón	cupóns
+31	6331	demoler	demoleran demolerei demolido
+32	6332	falsidade	falsidades
+33	6333	cualificación	cualificacións
+34	6334	marroquí	marroquís
+35	6335	ataúde	ataúdes
+36	6336	vestimenta	vestimentas
+37	6337	meteorito	meteoritos
+38	6338	distribuidor	distribuidora distribuidores
+39	6339	peruano	peruanos
+40	6340	tropical	tropicais
+41	6341	subxectivo	subxectiva subxectivos
+42	6342	puntada	puntadas
+43	6343	instantáneo	instantánea instantáneas
+44	6344	obrigación	obrigacións
+45	6345	persistir	persistan persiste persisten
+46	6346	trola	trolas
+47	6347	arrendador	arrendadores
+48	6348	artefacto	artefactos
+49	6349	accesorio	accesorios
+50	6350	especulación	especulacións
+51	6351	proteína	proteínas
+52	6352	lagarto	lagarta lagartos
+53	6353	testificar	testificaría testifico testificou testifiquen
+54	6354	teso	tesa tesas
+55	6355	monótono	monótona
+56	6356	asear	aseo aseos
+57	6357	col	coles
+58	6358	bear	bea beo
+59	6359	enchufar	enchufe enchufes
+60	6360	refinar	refinada refinado refinados refinaría
+61	6361	titor	titora titores
+62	6362	diminuto	diminuta diminutos
+63	6363	extenso	extensa extensas
+64	6364	bobada	bobadas
+65	6365	cargador	cargadores
+66	6366	condecorar	condecorado condecorados
+67	6367	abanear	abanea abanean abaneas abaneo
+68	6368	xestionar	xestiona xestionada xestionadas xestionados
+69	6369	consultor	consultora
+70	6370	precario	precaria precarias precarios
+71	6371	propinar	propina propinas
+72	6372	consumar	consumada consumado consumou
+73	6373	apampar	apampada apampado apampados
+74	6374	hispano	hispana hispanos
+75	6375	urna	urnas
+76	6376	despistar	despistada despistado despistamos
+77	6377	mouro	moura mouros
+78	6378	horto	hortos
+79	6379	abrollar	abrolla abrollan
+80	6380	manipulador	manipuladora manipuladores
+81	6381	quebrantar	quebrantan quebrantaron quebrantei
+82	6382	atemorizar	atemoriza atemorizaba atemorizada atemorizados atemorizan
+83	6383	caveira	caveiras
+84	6384	laretar	lareta laretas
+85	6385	sanguiñento	sanguiñenta sanguiñentos
+86	6386	maligno	maligna malignas malignos
+87	6387	farrapento	farrapenta farrapentos
+88	6388	alfinete	alfinetes
+89	6389	entristecer	entristece entristecen entristéceme
+90	6390	devecer	devecen devecía devezo
+91	6391	almacenar	almacenado almacenados almacenando almacenen
+92	6392	razoar	razoa razoamos razoemos razoen
+93	6393	electrificar	electrificada electrificado electrificados electrificamos electrificaron
+94	6394	intensivo	intensiva intensivos
+95	6395	grabar	grabadas grabando grabei
+96	6396	lustrar	lustrado lustrados lustre lustrei lustrou
+97	6397	preceder	precede precederon precedida precedido
+98	6398	construtivo	construtiva construtivas
+99	6399	filosófico	filosófica filosóficas filosóficos
+100	6400	denegar	denegada denegado denegou

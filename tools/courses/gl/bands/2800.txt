@@ -1,0 +1,100 @@
+1	2701	touro	touros
+2	2702	xoia	xoias
+3	2703	sumidoiro	sumidoiros
+4	2704	turco	turca turcos
+5	2705	novidade	novidades
+6	2706	institución	institucións
+7	2707	comerciante	comerciantes
+8	2708	lexítimo	lexítima lexítimas lexítimos
+9	2709	monxe	monxa monxas monxes
+10	2710	urbano	urbana urbanas urbanos
+11	2711	gañador	gañadora gañadores
+12	2712	torta	tortas
+13	2713	baleirar	baleira baleiraba baleiraches baleiradas baleirade baleirala baleiran baleirarme baleiraron baleirarse baleirarán baleiras baleirei baleiren baleirou baleirouse baleiráronse
+14	2714	seca	secas
+15	2715	sacudir	sacode sacoden sacuda sacudas sacude sacudiches sacudida sacudidas sacudido sacudila sacudilas sacudilo sacudindo sacudirme sacudirá sacudise sacudiu sacudiunos sacudo sacudían sacudín sacódeche sacúdelle sacúdeo sacúdete
+16	2716	combinar	combina combinada combinado combinados combinalas combinalos combinamos combinan combinando combinara combinarmos combinarse combinas combine combinei combínanse
+17	2717	recomendar	recomenda recomendado recomendados recomendala recomendamos recomendando recomendara recomendarche recomendarllo recomendaría recomendaríalles recomendas recomenden recomendo recomendou recomendoume recomendounos recomendoute recoméndalles recoméndame recoméndase recoméndocho
+18	2718	recrear	recrea recreaban recreamos recreando recrease recreo recreos recreou
+19	2719	abusar	abusa abusaches abusada abusado abusan abusando abusara abuso abusos abusou
+20	2720	estirar	estira estirada estirado estiraredes estiras estire estires estiro estirou estiráramos estíralle estírase
+21	2721	involucrar	involucra involucrada involucradas involucrado involucrados involucran involucrarás involucrase involucre involucrei involucren involucro involucrou
+22	2722	conxelar	conxela conxelada conxeladas conxelades conxelado conxelados conxelalo conxelan conxelando conxelarte conxele conxélanse
+23	2723	divorciar	divorciada divorciado divorciados divorciaras divorciarme divorciaron divorciarse divorcias divorciase divorciei divorciemos divorciou divorciouse divorciáronse divórciaste
+24	2724	mergullar	mergullabamos mergullada mergullado mergullados mergullamos mergullan mergullando mergullarnos mergullarse mergullarte mergullen mergullou mergullouse mergullándonos mergúllanse
+25	2725	raposo	raposos
+26	2726	representación	representacións
+27	2727	emocionante	emocionantes
+28	2728	florido	florida floridas
+29	2729	pioneiro	pioneira pioneiras pioneiros
+30	2730	razoable	razoables razoábel
+31	2731	inxenuo	inxenua inxenuos
+32	2732	asiático	asiática asiáticas asiáticos
+33	2733	mendigar	mendiga mendigando mendigo mendigos
+34	2734	actualmente	
+35	2735	tráfico	
+36	2736	algures	
+37	2737	definitivamente	
+38	2738	vaites	
+39	2739	disque	
+40	2740	chocolate	chocolates
+41	2741	depresión	depresións
+42	2742	ministerio	ministerios
+43	2743	saba	sabas
+44	2744	personalidade	personalidades
+45	2745	reivindicación	reivindicacións
+46	2746	brigada	brigadas
+47	2747	tesouro	tesouros
+48	2748	ángulo	ángulos
+49	2749	elefante	elefantes
+50	2750	supremo	suprema
+51	2751	confuso	confusa confusas confusos
+52	2752	cortina	cortinas
+53	2753	feminino	feminina femininas femininos
+54	2754	evento	eventos
+55	2755	beixo	beixos
+56	2756	honorable	honorables honorábel
+57	2757	bóla	bólas
+58	2758	xogador	xogadora xogadores
+59	2759	envexa	envexas
+60	2760	prima	primas
+61	2761	distribuír	distribuirá distribuían distribuídas distribuído distribuídos distribuílas distribuímos distribuíndo distribuíse distribúan distribúe distribúelas distribúen distribúense distribúes distribúo distribúoas
+62	2762	aborrecer	aborrece aborrecelo aborrecemos aborrecen aborrecerme aborrecida aborrecido aborrecidos aborrecía aborrecín aborreza aborrezamos aborrezo aborréceme aborrécennos aborrécenos aborrézoa
+63	2763	suspender	suspendan suspende suspendera suspenderemos suspenderon suspenderá suspendeu suspendida suspendidas suspendido suspendidos suspendía suspendín
+64	2764	bulir	bula bulamos bulan bule bulide buliu
+65	2765	difundir	difunde difundidas difundide difundido difundindo difundiron
+66	2766	solucionar	soluciona solucionada solucionado solucionamos solucionarei solucionaremos solucionaren solucionará solucionas solucionase solucione solucionou
+67	2767	premer	prema preme premen premeres premes premo premían prémennos prémeo
+68	2768	ulir	ula ulan ulas ule ulindo ulises ulo ulía ulín
+69	2769	iniciar	inicia iniciamos inician iniciando iniciara iniciaremos iniciaron iniciará inicie iniciou
+70	2770	alterar	altera alterada alterado alterados alterando alterara alteras altere alteremos alteren alteres alterárao altérase
+71	2771	trabar	traba trabada trabadas traban trabara trabas trabe trabes trabo trabou traboume trabouno trábame trábate
+72	2772	confusión	confusións
+73	2773	satisfacción	satisfaccións
+74	2774	separación	separacións
+75	2775	moto	motos
+76	2776	marta	martas
+77	2777	embarazado	embarazada embarazadas embarazados
+78	2778	equilibrio	equilibrios
+79	2779	imán	imáns
+80	2780	coiro	coiros
+81	2781	tempada	tempadas
+82	2782	carniceiro	carniceiros
+83	2783	residir	residan reside residen residía residían
+84	2784	xordo	xorda xordos
+85	2785	desurdir	desorde desorden desordes
+86	2786	honestamente	
+87	2787	montaxe	
+88	2788	misericordia	
+89	2789	igualmente	
+90	2790	vixilancia	
+91	2791	consumo	consumos
+92	2792	concentración	concentracións
+93	2793	tubo	tubos
+94	2794	martelo	martelos
+95	2795	confesión	confesións
+96	2796	cable	cables
+97	2797	conexión	conexións
+98	2798	humilde	humildes
+99	2799	aparencia	aparencias
+100	2800	casco	cascos

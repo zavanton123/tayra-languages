@@ -1,0 +1,100 @@
+1	2001	pasaxeiro	pasaxeira pasaxeiros
+2	2002	capitalista	capitalistas
+3	2003	dispoñer	disposta dispostas disposto dispostos dispoña dispoñemos dispoñen dispoño dispoñía dispuxera dispuxo dispón dispós dispóñense
+4	2004	mesturar	mesturaba mesturaban mesturaches mesturada mesturadas mesturado mesturados mesturamos mesturan mesturando mesturaran mesturarme mesturarnos mesturarse mesturarte mesturará mesturas mesturei mesturen mestures mesturou mesturouse mestúranse mestúrase
+5	2005	rebentar	rebenta rebentada rebentado rebentados rebentalo rebentalos rebentan rebentarche rebentarme rebentaron rebentarte rebente rebentei rebenten rebento rebentou rebéntalle rebéntolle
+6	2006	petróleo	
+7	2007	azucre	
+8	2008	universo	universos
+9	2009	cremar	crema creme
+10	2010	crítica	críticas
+11	2011	máximo	máxima máximas
+12	2012	colectivo	colectiva colectivas colectivos
+13	2013	medicina	medicinas
+14	2014	mencionar	menciona mencionaches mencionado mencionamos mencionan mencionara mencionaras mencionaron mencionas mencionei menciones menciono mencionou
+15	2015	evacuar	evacuaba evacuada evacuadas evacuado evacuados evacuamos evacuando evacuaran evacuaron evacuase evacuou evacúe evacúen
+16	2016	enxergar	enxerga enxergaba enxergabas enxergala enxergalo enxergamos enxergan enxergará enxergaría enxergas enxergo enxergou enxerguei
+17	2017	atrasar	atrasa atrasada atrasadas atrasado atrasados atrasan atrase atraso atrasos atrasou
+18	2018	reter	retedes retela retelo retelos reterte reteña reteñan reteñen retida retido retidos retivestes retivo retén reténs retívonos
+19	2019	firme	firmes
+20	2020	satisfacer	satisfacelo satisfacendo satisfacerme satisfacernos satisfacerte satisfacía satisfaga satisfai satisfaina satisfaino satisfará satisfaría satisfeita satisfeitas satisfeitos satisfixo satisfás
+21	2021	molesto	molesta molestas molestos
+22	2022	arar	ara arado arados aramos aran arando arandos araren aras are aremos ares aro aros arou
+23	2023	transporte	transportes
+24	2024	xira	xiras
+25	2025	chocar	choca chocamos chocan chocarnos chocaron chocará chocas chocou chocoume choque choquedes choquei choqueille chócaa chócame chócaslle
+26	2026	graza	
+27	2027	orgullo	orgullos
+28	2028	maldición	maldicións
+29	2029	velocidade	velocidades
+30	2030	cinta	cintas
+31	2031	peirao	peiraos
+32	2032	bébedo	bébeda bébedas bébedos
+33	2033	axudante	axudantes
+34	2034	ilusión	ilusións
+35	2035	marqués	marquesa
+36	2036	oración	oracións
+37	2037	morea	moreas
+38	2038	escudo	escudos
+39	2039	mono	mona monos
+40	2040	instrumento	argumentos instrumentos
+41	2041	básico	básica básicas básicos
+42	2042	brillar	brillaba brillan brillando brillaron brillará brillarán brille brillo brillos brillou
+43	2043	dourado	dourada douradas dourados
+44	2044	física	físicas
+45	2045	vixía	vixías
+46	2046	illar	illada illadas illado illados illalas illalo illarán illas íllase
+47	2047	tapar	tapa tapado tapala tapalas tapalos tapando tapara taparei taparemos taparnos taparse taparía tapas tapei tapeime tapen tapes tapo tápaa tápama tápame tápate
+48	2048	traizoar	traizoa traizoaba traizoaches traizoada traizoado traizoados traizoando traizoara traizoaran traizoaron traizoará traizoaría traizoas traizoase traizoastes traizoe traizoei traizoou
+49	2049	arrepentir	arrepentida arrepentidas arrepentido arrepentidos arrepentimos arrepentiraste arrepentiredes arrepentirse arrepentirás arrepentirémonos arrepentises arrepentiuse arrepentídevos arrepentísemos arrepinta arrepintamos arrepintas arrepintes arrepinto arrepíntese arrepínteste arrepíntome
+50	2050	pasta	
+51	2051	agradable	agradables
+52	2052	señoría	señorías
+53	2053	cuba	cubas
+54	2054	certeza	certezas
+55	2055	instituto	institutos
+56	2056	existencia	existencias
+57	2057	aviso	avisos
+58	2058	aluguer	alugueres
+59	2059	templo	templos
+60	2060	compromiso	compromisos
+61	2061	capacidade	capacidades
+62	2062	decente	decentes
+63	2063	gaiola	gaiolas
+64	2064	pescador	pescadores
+65	2065	froito	froitos
+66	2066	experimento	experimentos
+67	2067	fascista	fascistas
+68	2068	vagón	vagóns
+69	2069	romántico	romántica románticas románticos
+70	2070	simpático	simpática simpáticas simpáticos
+71	2071	portar	portaba portaban portaches portadas portais portamos portan portando portarme portarse portarte portas portase porte portei porteime portes porteslle portou portábanse portábase portámonos pórtache pórtanse pórtase pórtate
+72	2072	músico	músicas músicos
+73	2073	capa	capas
+74	2074	debuxar	debuxa debuxaban debuxaches debuxada debuxadas debuxado debuxalas debuxalo debuxan debuxando debuxarcho debuxaron debuxará debuxaría debuxas debuxase debuxasen debuxe debuxei debuxes debuxou debúxase
+75	2075	carbón	
+76	2076	corenta	
+77	2077	martes	
+78	2078	embaixo	
+79	2079	basicamente	
+80	2080	socialismo	
+81	2081	ultimamente	
+82	2082	guión	guións
+83	2083	céntimo	céntimos
+84	2084	constante	constantes
+85	2085	tractor	tractores
+86	2086	pintor	pintora pintores
+87	2087	emoción	emocións
+88	2088	efectivo	efectiva efectivas efectivos
+89	2089	impacto	impactos
+90	2090	estadounidense	estadounidenses
+91	2091	desagradable	desagradables desagradábel
+92	2092	burlar	burla burlaban burlaches burlado burlamos burlan burlando burlara burlarme burlarse burlarte burlarvos burlas burlen burles burlo búrlase búrlaste
+93	2093	pesca	pescas
+94	2094	significado	significados
+95	2095	trabucar	trabuca trabucaban trabucaches trabucada trabucadas trabucado trabucados trabucamos trabucan trabucarme trabucarse trabucarías trabucas trabucase trabucastes trabucou trabucámonos trabuque trabuquedes trabuquem trabuquen
+96	2096	trocar	troca trocaban trocado trocala trocando trocarmos trocaron trocaría trocase trocou trocáronme trocárono troquei troquen troques
+97	2097	estimar	estima estimaba estimabas estimada estimadas estimado estimados estimamos estiman estimando estimei estimen estimo estímase
+98	2098	secuestrar	secuestrada secuestradas secuestrado secuestrados secuestran secuestrando secuestraran secuestraron secuestre secuestrei secuestro secuestros secuestrou
+99	2099	adiantar	adianta adiantada adiantado adiantados adiantalo adiantamos adiantan adiantando adiantara adiantarnos adiantaron adiantarse adiantase adianten adianto adiantou adiantoume adiantáronse adiántanche
+100	2100	eterno	eterna eternas eternos

@@ -1,0 +1,100 @@
+1	9301	figurino	figurinos
+2	9302	figurón	figuróns
+3	9303	feixó	feixós
+4	9304	condimentar	condimento condimentos
+5	9305	provinciano	provinciana
+6	9306	insípido	insípidas
+7	9307	papoula	papoulas
+8	9308	inédito	inédita inéditos
+9	9309	reprensíbel	reprensíbeis
+10	9310	tato	tata
+11	9311	latifundista	latifundistas
+12	9312	paramilitar	paramilitares
+13	9313	lavadoiro	lavadoiros
+14	9314	persa	persas
+15	9315	suministrar	suministro
+16	9316	climático	climáticos
+17	9317	ostentoso	ostentosos
+18	9318	marusía	marusías maruxía
+19	9319	rillote	rillotes
+20	9320	colector	colectores
+21	9321	mitigar	mitigadas
+22	9322	arela	arelas
+23	9323	reciclar	reciclados reciclando
+24	9324	vaidoso	vaidosa
+25	9325	dala	dalas
+26	9326	depravar	depravadas depravado
+27	9327	reempregar	reemprego
+28	9328	claustrofóbico	claustrofóbica
+29	9329	desaliñar	desaliñado desaliñados
+30	9330	pomada	pomadas
+31	9331	polea	poleas
+32	9332	figo	figos
+33	9333	subxacente	subxacentes
+34	9334	conxurar	conxuro
+35	9335	churro	churra churros
+36	9336	gardalama	gardalamas
+37	9337	intrigante	intrigantes
+38	9338	pomar	pomares
+39	9339	ampola	ampolas
+40	9340	tendón	tendóns
+41	9341	extasiar	extasiada extasiado
+42	9342	cuadrícula	cuadrículas
+43	9343	convalecente	convalecentes
+44	9344	anotación	anotacións
+45	9345	larpeiro	larpeira larpeiros
+46	9346	rebuscar	rebuscou
+47	9347	responsar	responso responsos
+48	9348	tataravó	tataravós
+49	9349	campaíña	campaíñas
+50	9350	azular	azulada azulado
+51	9351	mormoso	mormosa
+52	9352	queimador	queimadores
+53	9353	ourive	ourives
+54	9354	samaritano	samaritanos
+55	9355	paternalismo	paternalismos
+56	9356	microbio	microbios
+57	9357	calamidade	calamidades
+58	9358	escoar	escoaran
+59	9359	trópico	trópicos
+60	9360	desatender	desatenden desatendín
+61	9361	tarado	tarados
+62	9362	alerxia	alerxias
+63	9363	arrecife	arrecifes
+64	9364	sopeiro	sopeira sopeiros
+65	9365	brión	brións
+66	9366	impasíbel	impasíbeis
+67	9367	insólito	insólitos
+68	9368	desarraigar	desarraigados desarraigo
+69	9369	sintomático	sintomáticos
+70	9370	poeirento	poeirenta poeirentos
+71	9371	valeroso	valerosos
+72	9372	poeira	poeiras
+73	9373	charlatán	charlatáns
+74	9374	caralla	carallas
+75	9375	catacumba	catacumbas
+76	9376	intrépido	intrépida intrépidos
+77	9377	borra	borras
+78	9378	flamenco	flamencos
+79	9379	acalorar	acalorado acalorados
+80	9380	retrousar	retrouso retrousos
+81	9381	camelia	camelias
+82	9382	precursor	precursora precursores
+83	9383	incinerador	incineradores
+84	9384	teclado	teclados
+85	9385	incapacitar	incapacitado incapacitados
+86	9386	frívolo	frívolos
+87	9387	contrapartida	contrapartidas
+88	9388	inmortalizar	inmortalizado
+89	9389	negrón	negróns
+90	9390	imparcial	imparciais
+91	9391	intervalar	intervalo intervalos
+92	9392	casopa	casopas
+93	9393	vienés	vienesa
+94	9394	sobaco	sobacos
+95	9395	partilla	partillas
+96	9396	periplo	periplos
+97	9397	transitorio	transitoria
+98	9398	saciar	sacia
+99	9399	anestésico	anestésicos
+100	9400	tumultuoso	tumultuosa tumultuosos

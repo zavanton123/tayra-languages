@@ -1,0 +1,100 @@
+1	4401	mamón	mamona mamóns
+2	4402	carpinteiro	carpinteiros
+3	4403	machada	machadas
+4	4404	mérito	méritos
+5	4405	acta	actas
+6	4406	descontentar	descontenta descontento descontentos
+7	4407	gorro	gorros
+8	4408	reparación	reparacións
+9	4409	factoría	factorías
+10	4410	educativo	educativa educativas educativos
+11	4411	psiquiatra	psiquiatras
+12	4412	informático	informática informáticos
+13	4413	estándar	estándares
+14	4414	antro	antros
+15	4415	fanático	fanáticos
+16	4416	oitavo	oitava
+17	4417	carteirista	carteiristas
+18	4418	diverso	diversa diversas diversos
+19	4419	rublo	rublos
+20	4420	filete	filetes
+21	4421	libanés	libanesas libaneses
+22	4422	boi	bois
+23	4423	lesión	lesións
+24	4424	rito	ritos
+25	4425	frecuente	frecuentes
+26	4426	plantación	plantacións
+27	4427	posterior	posteriores
+28	4428	abstracto	abstracta abstractas abstractos
+29	4429	fileira	fileiras
+30	4430	suicida	suicidas
+31	4431	externo	externa externas externos
+32	4432	infinito	infinita infinitas infinitos
+33	4433	panfleto	panfletos
+34	4434	húngaro	húngara húngaros
+35	4435	radioactivo	radioactiva radioactivas radioactivos
+36	4436	cru	crus crúa
+37	4437	subterráneo	subterránea subterráneas subterráneos
+38	4438	rabioso	rabiosa rabiosas rabiosos
+39	4439	próspero	próspera prósperas prósperos
+40	4440	operario	operaria operarias operarios
+41	4441	constar	consta constaba conste
+42	4442	mollado	mollada molladas mollados
+43	4443	teimar	teiman teimarei teimaremos teimarán teimarían teimas teime teimei teimes teimo teimou
+44	4444	sublimar	sublime sublimes
+45	4445	convite	convites
+46	4446	nostalxia	nostalxias
+47	4447	chalana	chalanas
+48	4448	homiño	homiños
+49	4449	prostitución	prostitucións
+50	4450	apio	apios
+51	4451	mediado	mediadas mediados
+52	4452	contorna	contornas
+53	4453	insolente	insolentes
+54	4454	cafetería	cafeterías
+55	4455	habano	habana habanos
+56	4456	dinastía	dinastías
+57	4457	matador	matadores
+58	4458	entornar	entornados entorno
+59	4459	látego	látegos
+60	4460	amador	amadora
+61	4461	insoportábel	insoportábeis
+62	4462	portón	portóns
+63	4463	cepillo	cepillos
+64	4464	pender	penda pendía
+65	4465	chulo	chula chulos
+66	4466	horroroso	horrorosa horrorosos
+67	4467	testemuñar	testemuñado testemuñara testemuñará testemuñou
+68	4468	aterrador	aterradora aterradoras aterradores
+69	4469	contrariar	contraria contrariada contrariado contrarias
+70	4470	xubilar	xubilaches xubilado xubilados xubiles
+71	4471	destrutor	destrutora destrutores
+72	4472	substituto	substituta substitutos
+73	4473	satisfactorio	satisfactoria satisfactorias
+74	4474	canciño	cadeliña canciños
+75	4475	afroamericano	afroamericana afroamericanas afroamericanos
+76	4476	louro	loura louras
+77	4477	tendeiro	tendeiras tendeiros
+78	4478	cómico	cómica cómicas cómicos
+79	4479	liar	liaches liados liou lío líos
+80	4480	semellanza	semellanzas
+81	4481	fértil	férteis fértiles
+82	4482	observador	observadores
+83	4483	perverso	perversa perversos
+84	4484	gardería	garderías
+85	4485	sofisticar	sofisticada sofisticadas sofisticado sofisticados
+86	4486	trofeo	trofeos
+87	4487	sentinela	sentinelas
+88	4488	derrocar	derrocado derrocan derrocara derrocaremos derrocaron derrocastes derroque
+89	4489	domar	doma domado domo
+90	4490	tremor	tremores
+91	4491	enmascarar	enmascara enmascarado enmascarados
+92	4492	roer	roa roe roelo roen roerá roerás roio
+93	4493	ídolo	ídolos
+94	4494	resistente	resistentes
+95	4495	caverna	cavernas
+96	4496	amoroso	amorosa amorosas amorosos
+97	4497	lacrimóxeno	lacrimóxenas lacrimóxenos
+98	4498	amorear	amorea amoreadas amoreados amoreamos amorean amorearon amoreen amoreáronse
+99	4499	vencedor	vencedora vencedoras vencedores
+100	4500	emprender	emprende emprendemos emprenderás emprendeu emprendida emprendido emprendo emprendín

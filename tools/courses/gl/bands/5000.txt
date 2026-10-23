@@ -1,0 +1,100 @@
+1	4901	serenar	serena sereno serenos
+2	4902	póliza	pólizas
+3	4903	indispensábel	indispensábeis
+4	4904	folgo	folgos
+5	4905	expediente	expedientes
+6	4906	cachorro	cachorros
+7	4907	intérprete	intérpretes
+8	4908	noz	noces
+9	4909	ración	racións
+10	4910	arteria	arterias
+11	4911	deprimente	deprimentes
+12	4912	incursión	incursións
+13	4913	incerto	incerta incertos
+14	4914	tranvía	tranvías
+15	4915	aspirina	aspirinas
+16	4916	belga	belgas
+17	4917	bolo	bolos
+18	4918	escultura	esculturas
+19	4919	tirano	tiranos
+20	4920	glándula	glándulas
+21	4921	engurrar	engurra engurrado engurras engurro
+22	4922	astuto	astuta astutos
+23	4923	mediano	mediana medianas
+24	4924	publicación	publicacións
+25	4925	desgastar	desgasta desgastada desgastados desgaste desgastemos
+26	4926	trapallada	trapalladas
+27	4927	leproso	leprosos
+28	4928	cívico	cívica cívicas cívicos
+29	4929	redactar	redactada redactarei redacte redactedes
+30	4930	finalizar	finalizaba finalizada finalizan finalizase finalizou
+31	4931	vanar	vana vanas vano vanos
+32	4932	competente	competentes
+33	4933	aduanar	aduana aduanas
+34	4934	costeiro	costeira costeiras
+35	4935	enxeñoso	enxeñosa enxeñosas enxeñosos
+36	4936	estafar	estafa estafadas estafados estafando estafas estafes
+37	4937	xigantesco	xigantesca xigantescas xigantescos
+38	4938	produtivo	produtiva produtivas produtivos
+39	4939	leiteiro	leiteira leiteiras leiteiros
+40	4940	vulnerable	vulnerables vulnerábel
+41	4941	pemento	pementos pimento pimentos
+42	4942	pequecho	pequecha pequechos
+43	4943	deducir	deduce deducimos deducirei deduciría deduzo dedúcese
+44	4944	coitado	coitada coitados
+45	4945	delatar	delatada delatado delatados delatamos delataría delatas delate delates
+46	4946	ideolóxico	ideolóxica ideolóxicas ideolóxicos
+47	4947	mailo	maila mailas mailos
+48	4948	ganar	ganando ganarei ganaron ganarán ganarás ganases ganei ganou
+49	4949	neutro	neutra neutras neutros
+50	4950	contemporáneo	contemporánea contemporáneos
+51	4951	incrementar	incrementa incrementan incrementando incrementaron incrementarán incremente incrementou
+52	4952	centrar	centraba centraches centrada centrado centrados
+53	4953	restrinxir	restrinxen restrinxida restrinxidas restrinxido restrinxiron
+54	4954	rañar	rañala rañando rañares rañarse rañas
+55	4955	coquetear	coqueteamos coquetean coqueteando coquetearía coqueteo
+56	4956	apelar	apela apelamos apelando apelaría apelo apelou
+57	4957	prover	prova proverán provista provistas provisto provistos prové
+58	4958	linchar	lincha linchado linchados lincharme lincharon
+59	4959	recobrar	recobra recobrada recobre recobrei recobrou
+60	4960	debilitar	debilita debilitado debilitados debilitaran debilitaron debilitemos
+61	4961	prosperar	prospera prosperamos prosperaremos prosperaron prosperase prospere prosperou
+62	4962	erótico	erótica eróticas eróticos
+63	4963	festexar	festexa festexabamos festexaban festexalo festexos festéxao
+64	4964	expandir	expanda expanden expandindo expandiron expandiu expandín
+65	4965	emerxer	emerxe emerxentes emerxera emerxeran emerxeu emerxía
+66	4966	aterrorizar	aterroriza aterrorizaban aterrorizada aterrorizado aterrorizados
+67	4967	reemprazar	reemprace reemprazada reemprazadas reemprazado reemprazados reemprazamos reemprazaran
+68	4968	rebaixar	rebaixa rebaixada rebaixado rebaixas
+69	4969	interferir	interferida interferindo interferiu interferín interfira interfiran interfiras interfire interfiren
+70	4970	coordinar	coordinada coordinado coordinados coordinan coordinando coordinaron coordino
+71	4971	precipitar	precipitada precipitadas precipitado precipitara precipitemos precipites precipitou
+72	4972	absolver	absolto absolva absolve absolveran absolves absolvese absolvo absólvoo
+73	4973	defraudar	defraudado defraudas defraude defraudei defraudes defraudou
+74	4974	arroxar	arroxa arroxadas arroxado arroxando arroxaron arroxarías arroxase arroxasen arroxei arroxou
+75	4975	retorcer	retorce retorcen retorceres retorces retorcida retorcidas retorcido retorcidos
+76	4976	rozar	rocei roza rozalo rozamos rozando rozou rozándolle
+77	4977	escurecer	escurece escurecemos escurecendo escureceu escureceuse escurecida escurecía escurecían escureza
+78	4978	cercado	cercados
+79	4979	talla	tallas
+80	4980	merecido	merecida
+81	4981	cana	canas
+82	4982	ladrar	ladra ladraba ladrais ladrando ladráballe
+83	4983	portada	portadas
+84	4984	vendimar	vendimamos vendimando vendimas vendimos
+85	4985	galar	galas galen gales
+86	4986	indíxena	indíxenas
+87	4987	cueiro	cueiros
+88	4988	chaleco	chalecos
+89	4989	orxía	orxías
+90	4990	rima	rimas
+91	4991	presidencial	presidenciais
+92	4992	espadachín	espadachíns
+93	4993	hóspede	hóspedes
+94	4994	excursión	excursións
+95	4995	espontáneo	espontánea
+96	4996	garfo	garfos
+97	4997	freo	freos
+98	4998	precaución	precaucións
+99	4999	moneca	monecas
+100	5000	circuíto	circuítos

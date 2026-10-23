@@ -1,0 +1,100 @@
+1	3801	frustrar	frustra frustrada frustradas frustrade frustrado frustrados
+2	3802	cima	
+3	3803	amabilidade	
+4	3804	recuperación	
+5	3805	nobreza	
+6	3806	compaixón	
+7	3807	literatura	
+8	3808	lepra	
+9	3809	tenrura	
+10	3810	hidróxeno	
+11	3811	setenta	
+12	3812	dezasete	
+13	3813	integridade	
+14	3814	normalidade	
+15	3815	internet	
+16	3816	censura	
+17	3817	barriga	
+18	3818	determinación	
+19	3819	paraugas	
+20	3820	aparato	
+21	3821	mola	molas
+22	3822	barril	barrís
+23	3823	expedición	expedicións
+24	3824	confidencial	confidenciais
+25	3825	equipaxe	equipaxes
+26	3826	chiste	chistes
+27	3827	fígado	fígados
+28	3828	pipa	pipas
+29	3829	arrepiante	arrepiantes
+30	3830	correa	correas
+31	3831	ferreiro	ferreiros
+32	3832	xerente	xerentes
+33	3833	misericordioso	misericordiosa misericordiosos
+34	3834	elo	elos
+35	3835	distante	distantes
+36	3836	taxa	taxas
+37	3837	bufón	bufóns
+38	3838	clave	claves
+39	3839	balcón	balcóns
+40	3840	serea	sereas
+41	3841	sutil	sutís
+42	3842	bordel	bordeis
+43	3843	aguia	aguias
+44	3844	iraquí	iraquís
+45	3845	enigma	enigmas
+46	3846	eficaz	eficaces
+47	3847	porno	pornos
+48	3848	vea	veas
+49	3849	comodidade	comodidades
+50	3850	lavabo	lavabos
+51	3851	cascallo	cascallos
+52	3852	demandante	demandantes
+53	3853	agricultor	agricultores
+54	3854	crente	crentes
+55	3855	misto	mistos
+56	3856	gráfico	gráfica gráficos
+57	3857	ganancia	ganancias
+58	3858	artificial	artificiais
+59	3859	horta	hortas
+60	3860	apache	apaches
+61	3861	ordenador	ordenadores
+62	3862	acolledor	acolledora
+63	3863	caldo	caldas
+64	3864	cadaleito	cadaleitos
+65	3865	serpente	serpentes
+66	3866	sindicalista	sindicalistas
+67	3867	cartel	carteis
+68	3868	murmurio	murmurios
+69	3869	noveno	novena
+70	3870	litro	litros
+71	3871	simbólico	simbólica simbólicas simbólicos
+72	3872	ruidoso	ruidosa ruidosas ruidosos
+73	3873	pastar	pasto pastos
+74	3874	norteamericano	norteamericana norteamericanas norteamericanos
+75	3875	pecador	pecadora pecadores
+76	3876	acelerar	acelera acelerada acelerado aceleran acelere
+77	3877	carreta	carretas
+78	3878	vara	varas
+79	3879	bobina	bobinas
+80	3880	rubio	rubia rubias
+81	3881	copiar	copiabamos copiada copiadas copiado copiala copialo copiando copiaron copias copiedes copiou
+82	3882	mariño	mariñas mariños
+83	3883	compensar	compensa compensaba compensaches compensado compensarei compensase compense
+84	3884	favorecer	favorece favorecen favorecendo favoreciches favorecido favorecidos favorecía favoreza
+85	3885	investir	investiches investido investila investimos investiren investiron investirá investise investían investín invista
+86	3886	engordar	engorda engordaches engordalo engordan engordando engordaría engordas engorde engordei
+87	3887	acampar	acampa acampaba acampabamos acampada acampados acampando acamparemos acampas acampe
+88	3888	errar	erra erraches erramos erran errando erraron erras errei errou
+89	3889	enriquecer	enriquece enriquecelo enriquecen enriqueceron enriquecerse enriquecervos enriqueceu enriquecida enriquecidas
+90	3890	beixar	beixa beixada beixala beixalas beixalo beixalos beixarei beixarte beixe beixei beixollas béixase béixeme béixote
+91	3891	derreter	derreta derrete derretera derreterse derretería derreteu derretido derreto derretía derrétese derrétome
+92	3892	desmontar	desmonta desmontabamos desmontadas desmontade desmontan desmonte desmontei desmonten desmonto desmontou
+93	3893	outorgar	outorga outorgada outorgado outorgan outorgando outorgarlles outorgaron outorgas outorgou outorgue outorgues outórgalle
+94	3894	indultar	indultado indultando indulto indultos
+95	3895	relevar	relevado relevan relevo relevos
+96	3896	deshonrar	deshonra deshonraches deshonran deshonrara deshonrarei deshonrou
+97	3897	velenoso	velenosa velenosas velenosos
+98	3898	carecer	carece carecen carecendo carecía careza carécese
+99	3899	anular	anula anulada anulado anulados anulan anulando anularon anulou
+100	3900	refrescar	refresca refrescamos refrescando refresco refrescos

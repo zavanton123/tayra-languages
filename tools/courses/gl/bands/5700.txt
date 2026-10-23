@@ -1,0 +1,100 @@
+1	5601	bufarda	bufardas
+2	5602	tarifar	tarifa tarifas
+3	5603	inquilino	inquilinos
+4	5604	laborista	laboristas
+5	5605	transferencia	transferencias
+6	5606	mantela	mantelas
+7	5607	luxoso	luxosas luxosos
+8	5608	mosquito	mosquitos
+9	5609	proximidade	proximidades
+10	5610	comunitario	comunitaria
+11	5611	contratista	contratistas
+12	5612	disciplinar	disciplinado disciplinados
+13	5613	complicación	complicacións
+14	5614	hemorraxia	hemorraxias
+15	5615	capricho	caprichos
+16	5616	salarial	salariais
+17	5617	nómina	nóminas
+18	5618	tonto	tonta tontas
+19	5619	gorra	gorras
+20	5620	espreitar	espreita espreitamos espreitarmos espreito espréitase
+21	5621	parche	parches
+22	5622	camisola	camisolas
+23	5623	pracenteiro	pracenteira pracenteiras
+24	5624	válvula	válvulas
+25	5625	escada	escadas
+26	5626	disecar	diseca disecado disecados disecou
+27	5627	peregrino	peregrinos
+28	5628	arrecender	arrecende arrecendo arrecendos
+29	5629	competitivo	competitivos
+30	5630	paterno	paterna
+31	5631	laico	laica laicas laicos
+32	5632	parrulo	parrulos
+33	5633	pasivo	pasiva pasivas pasivos
+34	5634	aterrecedor	aterrecedoras aterrecedores
+35	5635	cañón	cañóns
+36	5636	vilán	viláns
+37	5637	vixiante	vixiantes
+38	5638	chiar	chiando chiara chía chío
+39	5639	remar	reman remando
+40	5640	sanguinario	sanguinarios
+41	5641	invasor	invasora invasoras invasores
+42	5642	problemático	problemática problemáticas problemáticos
+43	5643	couce	couces
+44	5644	característica	características
+45	5645	carburador	carburadores
+46	5646	cósmico	cósmica cósmicos
+47	5647	sustentar	sustentades sustentado sustentamos sustentando sustento
+48	5648	estimular	estimulado estimulados estimulalos estimularte
+49	5649	fabricante	fabricantes
+50	5650	agoiro	agoiros
+51	5651	caracol	caracois
+52	5652	elástico	elástica elásticas elásticos
+53	5653	instaurar	instaurado instaurados instaurando instauraremos
+54	5654	trotar	trotando trote trotes
+55	5655	esgotador	esgotadora esgotadores
+56	5656	vulto	vultos
+57	5657	admirable	admirables admirábel
+58	5658	espinaca	espinacas
+59	5659	discográfico	discográfica discográficas
+60	5660	deterxente	deterxentes
+61	5661	bocoi	bocois
+62	5662	parceiro	parceiros
+63	5663	formalidade	formalidades
+64	5664	boliviano	bolivianos
+65	5665	exercitar	exercitades exercitados exercitando exercito
+66	5666	adoptivo	adoptiva adoptivos
+67	5667	contaxioso	contaxiosa
+68	5668	calumniar	calumnia calumniado calumnias
+69	5669	imprevisto	imprevista imprevistas imprevistos
+70	5670	buque	buques
+71	5671	recargar	recarga recargaba recargade recargo
+72	5672	alienar	alienadas alienado alienados alienaron
+73	5673	deseñador	deseñadora deseñadores
+74	5674	abolir	abolido abolimos aboliron abolirse
+75	5675	olvidar	olvidada olvidado olvidara olvidarades olvidarei olviden olvidou
+76	5676	sanguíneo	sanguínea sanguíneos
+77	5677	pratear	prateada prateadas prateado prateados
+78	5678	rapar	rapada rapadas rapado rapas
+79	5679	xitano	xitana xitanos
+80	5680	desencadear	desencadea desencadeada desencadeados desencadeara desencadeou
+81	5681	bosquexar	bosquexa bosquexamos bosquexo bosquexos bosquexou
+82	5682	remontar	remontan remontando remontariamos remontou remóntanse remóntase
+83	5683	dispersar	dispersa dispersando dispersaron dispersas
+84	5684	clamar	clama clamaba claman clamando clamaron
+85	5685	irritar	irrita irritada irritado irritados irrites
+86	5686	suxeitar	suxeitaba suxeitando suxeite suxeiten
+87	5687	apoderar	apodera apoderaron apoderaría apoderou
+88	5688	desamparar	desamparada desamparado desamparados desamparo
+89	5689	amistoso	amistosa amistosas amistosos
+90	5690	petrificar	petrificaba petrificada petrificadas petrificado petrificados
+91	5691	inzar	inzadas inzado inzados inzaron
+92	5692	infectar	infectada infectadas infectado infecto
+93	5693	aflixir	aflixe aflixida aflixido aflixidos
+94	5694	escravizar	escravizada escravizadas escravizado escravizamos escravizan escravizando
+95	5695	anegar	anegada anegado anegara anegou aneguen
+96	5696	apretar	apretando apretas apretase aprete apreten apretou
+97	5697	alumar	aluma alumada alumado alumedes alumo
+98	5698	sobrevoar	sobrevoa sobrevoamos sobrevoan sobrevoando sobrevoen
+99	5699	contraditorio	contraditoria contraditorias contraditorios
+100	5700	codificar	codificada codificadas codificado codificados

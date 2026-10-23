@@ -1,0 +1,100 @@
+1	4101	regato	regatos
+2	4102	medicamento	medicamentos
+3	4103	vertical	verticais
+4	4104	hetero	heteros
+5	4105	recomendación	recomendacións
+6	4106	puntual	puntuais
+7	4107	himno	himnos
+8	4108	liso	lisa lisos
+9	4109	inseguro	insegura inseguros
+10	4110	cifrar	cifra cifrada cifras
+11	4111	hipócrita	hipócritas
+12	4112	descarado	descarada descarados
+13	4113	arbusto	arbustos
+14	4114	comprador	compradoras compradores
+15	4115	aplauso	aplausos
+16	4116	sirio	siria sirias sirios
+17	4117	esfera	esferas
+18	4118	penique	peniques
+19	4119	ventá	ventás
+20	4120	operador	operadora operadores
+21	4121	defensor	defensora defensores
+22	4122	espeso	espesa espesas
+23	4123	tambor	tambores
+24	4124	válido	válida válidas válidos
+25	4125	pera	peras
+26	4126	admirador	admiradora admiradores
+27	4127	violador	violadores
+28	4128	respectable	respectables respectábel
+29	4129	oliveira	oliveiras
+30	4130	intrigar	intriga intrigado intrigados intrigan intrigas
+31	4131	monárquico	monárquica monárquicas monárquicos
+32	4132	vasto	vasta vastas vastos
+33	4133	luminoso	luminosa luminosos
+34	4134	químico	químicas químicos
+35	4135	remoto	remota remotas remotos
+36	4136	serra	serras
+37	4137	raia	raias
+38	4138	pousada	pousadas
+39	4139	oposto	oposta opostas opostos
+40	4140	marear	mareaches mareada mareado marearme marearnos marearon marearvos mareas marees maréame maréaste
+41	4141	instrución	instrucións
+42	4142	revivir	revividos revivimos revivindo reviviran revivirá revivisen
+43	4143	procesar	procesa procesada procesado procesando
+44	4144	poboar	poboada poboadas poboado poboados poboan poboando poboen
+45	4145	dimitir	dimite dimitindo dimitise dimitiu dimito
+46	4146	patinar	patina patinaba patinaches patinando patino
+47	4147	suspirar	suspira suspiran suspiras suspiro suspiros suspirou
+48	4148	aparentar	aparenta aparentaban aparente aparentes aparento
+49	4149	lamber	lambamos lambendo lamberlle lambes lambo lambéndome lambéndose
+50	4150	intercambiar	intercambia intercambian intercambiando intercambiaron intercambiei intercambiemos intercambien intercambiou
+51	4151	encarnar	encarna encarnada encarnadas encarnado encarnados encarnan encarnas
+52	4152	florecer	florece florecen floreceron florecese floreceu florecía florezan
+53	4153	esvarar	esvaraba esvaraban esvaran esvarando esvaras esvarei esvaro esvarou
+54	4154	exceder	exceda excede exceden excederon excederán excedes excediches excedido
+55	4155	suplicar	suplica suplicaban suplicamos suplicando suplicaría suplico suplicou
+56	4156	promover	promoveremos promoveron promoverán promoviamos promovida promovido promovidos
+57	4157	aboiar	aboa aboado aboei aboia aboiaba aboiado aboian aboiando aboias
+58	4158	facilitar	facilita facilitade facilitados facilitalo facilitando facilitarnos facilitará facilitas facilítacho facilítase
+59	4159	requisar	requisa requisada requisadas requisado requisados requisamos requisarán requisas requisei
+60	4160	abordar	aborda abordaba abordada abordamos abordan abordaron abordemos abordo
+61	4161	fascinar	fascina fascinada fascinado fascinando fascinou fascinoume fascinounos fascínanos
+62	4162	vomitar	vomita vomitaba vomitaches vomitando vomitaras vomitará vomitei vomites vomito vomitou
+63	4163	aniquilar	aniquila aniquilada aniquiladas aniquilado aniquilados aniquilaron aniquilará
+64	4164	rascar	rasca rascada rascado rascando rascara rasco rascou ráscame
+65	4165	atribuír	atribuían atribuída atribuídas atribuídos atribuíran atribúe atribúen atribúenselle
+66	4166	resucitar	resucita resucitado resucitan resucitaron resucitará resucitase resucite resucitedes resucitou
+67	4167	planificar	planifica planificada planificadas planificado planificados planificando planificara planificaron planificou
+68	4168	devastar	devasta devastada devastadas devastado devastados devastan devastara devastou
+69	4169	seleccionar	selecciona seleccionadas seleccionado seleccionados seleccionamos seleccionan seleccionando seleccionara seleccionaron seleccionei seleccionou
+70	4170	maltratar	maltrata maltratadas maltratado maltratados maltratalos maltratan maltratarme maltrate maltraten maltrato maltrátanos
+71	4171	zoupar	zoupa zoupaba zoupaban zoupado zoupando zouparlle zouparme zoupe zoupes zóupalla zóupeme
+72	4172	rebelar	rebela rebelaban rebelado rebelados rebelamos rebelan rebelaran rebelaron rebelastes rebelen
+73	4173	inundar	inunda inundabamos inundada inundadas inundando inundara inundaron inunde inundou
+74	4174	tese	teses
+75	4175	compensación	compensacións
+76	4176	rexente	rexentes
+77	4177	especialidade	especialidades
+78	4178	proxección	proxeccións
+79	4179	alquimista	alquimistas
+80	4180	tristura	tristuras
+81	4181	duelo	duelos
+82	4182	contribución	contribucións
+83	4183	reclamación	reclamacións
+84	4184	palla	pallas
+85	4185	emisión	emisións
+86	4186	prohibición	prohibicións
+87	4187	ácido	ácida ácidos
+88	4188	árbitro	árbitros
+89	4189	parcial	parciais
+90	4190	traxecto	traxectos
+91	4191	gota	gotas
+92	4192	vil	viles
+93	4193	valo	valos
+94	4194	catedral	catedrais
+95	4195	sardiña	sardiñas
+96	4196	pillabán	pillabana pillabáns
+97	4197	vergoñento	vergoñenta vergoñentas
+98	4198	incorrecto	incorrecta incorrectas incorrectos
+99	4199	irónico	irónica irónicos
+100	4200	cántiga	cantiga cantigas cántigas

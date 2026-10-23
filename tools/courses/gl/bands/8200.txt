@@ -1,0 +1,100 @@
+1	8101	entorpecer	entorpecendo entorpecería entorpecían
+2	8102	gótico	góticas góticos
+3	8103	retardar	retardará retarde retardo
+4	8104	rememorar	rememoraba rememorando rememoraron
+5	8105	brusco	brusca bruscos
+6	8106	adúltero	adúltera adúlteros
+7	8107	resplandecer	resplandece resplandecen resplandeceu resplandecía
+8	8108	impostor	impostora impostores
+9	8109	gabear	gabean gabees
+10	8110	prematuro	prematura prematuros
+11	8111	usurpar	usurpei usurpou
+12	8112	reiniciar	reinicie reinicio
+13	8113	sobordar	soborda sobordados
+14	8114	ilusionar	ilusionada ilusionado ilusionados ilusiones
+15	8115	curtir	curtidas curtido curtidos
+16	8116	cachear	cachean cachearan cacheo cachéannos
+17	8117	periférico	periférica periféricas periféricos
+18	8118	arquitectónico	arquitectónica arquitectónicas
+19	8119	fílmico	fílmica fílmicos
+20	8120	agravar	agrava agravado agravando agraves
+21	8121	adverso	adversa adversas adversos
+22	8122	gasear	gaseada gaseade gaseado gaseados
+23	8123	expirar	expira expiraron expirase expirou
+24	8124	orbitar	orbita orbitan orbitando orbitas
+25	8125	corroer	corroen corroese corroia corroída
+26	8126	fogoso	fogosa fogosos
+27	8127	falsear	falseado falsean falsease
+28	8128	sitiar	sitiado sitiados sitian sitiando
+29	8129	alumear	alumea alumeada alumeado aluméao
+30	8130	raquítico	raquíticas raquíticos
+31	8131	esculpir	esculpida esculpido esculpiron
+32	8132	parodiar	parodia parodiada paródiaas
+33	8133	desafinar	desafinaches desafinada desafinado
+34	8134	coxear	coxea coxean coxeas coxeou
+35	8135	perseverar	perseveran perseverando perseveras
+36	8136	xermano	xermana xermanas xermanos
+37	8137	apropiar	apropiara apropiaron apropiasen
+38	8138	encirrar	encirrabas encirrarme encirras
+39	8139	turbiar	turbia turbias turbio turbios
+40	8140	neurótico	neurótica neuróticas neuróticos
+41	8141	redobrar	redobrado redobre
+42	8142	erradicar	erradicadas erradicala erradicalos
+43	8143	divagar	divaga divagando divagas
+44	8144	escangallar	escangallada escangallado escangallaron
+45	8145	reafirmar	reafirmada reafirmado reafirmarmos
+46	8146	enlamar	enlamada enlamado enlamados
+47	8147	narrativo	narrativa narrativas
+48	8148	obstaculizar	obstaculicen obstaculiza obstaculizaba obstaculizado
+49	8149	desinchar	desincha desinchada desinchado
+50	8150	disuadir	disuade disuadiron disuadín
+51	8151	rutinario	rutinaria rutinarios
+52	8152	arrebatar	arrebatada arrebatados arrebato arrebatos
+53	8153	emparellar	emparella emparellabas emparellada emparellando
+54	8154	lagosta	lagostas langosta langostas
+55	8155	escintilar	escintilaba escintilaban escintilando escintilou
+56	8156	traficar	traficando trafico trafiquei
+57	8157	piratear	pirateaba piratearon pirateas
+58	8158	fecundar	fecunda fecundado fecundados fecundo
+59	8159	adoecer	adoece adoeceu adoecidos adoecín
+60	8160	enfurecer	enfurecen enfureceu enfureceuse enfurecido enfurecidos
+61	8161	interceder	interceda intercedas intercede intercedese
+62	8162	chufar	chufa chufando chufas chufándose
+63	8163	omitir	omiten omitiches omitindo omitiu
+64	8164	franquear	franquea franqueados franquearei franqueei
+65	8165	enfeitizar	enfeiticei enfeitiza enfeitizado enfeitizando enfeitízame
+66	8166	alucinar	alucinado alucinan alucinaredes alucine
+67	8167	drenar	drenada drenado drenamos drenei
+68	8168	perpetuar	perpetuaba perpetuada perpetuando perpetuarán
+69	8169	ridiculizar	ridiculiza ridiculizado ridiculizas ridiculizou
+70	8170	obviar	obviadas obviando obviei obviou
+71	8171	bordear	bordea bordeade bordeamos bordeando
+72	8172	distanciar	distanciaches distanciado distanciados distancian
+73	8173	rebotar	rebota rebotan rebotaran reboto
+74	8174	embebedar	embebeda embebedarnos embebedarse embebedou
+75	8175	aleitar	aleitaban aleitei aleiteina aleitábanse
+76	8176	avivar	aviva avivado avivando avivemos
+77	8177	alagar	alagada alagado alagados alagou
+78	8178	enfeitar	enfeita enfeitarme enfeiten enfeites
+79	8179	colmo	colma
+80	8180	rebanda	rebandas
+81	8181	enferruxado	enferruxada enferruxadas
+82	8182	eiva	eivas
+83	8183	chaga	chagas
+84	8184	frade	frades
+85	8185	bazo	bazas bazos
+86	8186	duplicado	duplicados
+87	8187	encrucillada	encrucilladas
+88	8188	comerciar	comercia comerciais comercias
+89	8189	apor	aposta apostas apostos apón apónselles
+90	8190	baralla	barallas
+91	8191	puxar	puxada puxemos puxen puxo puxou
+92	8192	estruturar	estruturado estruturas
+93	8193	raiar	raias
+94	8194	blasfemar	blasfema blasfeme blasfemes
+95	8195	tripar	tripando tripas
+96	8196	baza	bazas
+97	8197	clínico	clínicas clínicos
+98	8198	marabillar	marabillado marabillas marabilles marabillo marabíllasme
+99	8199	mazar	mace mazas
+100	8200	presupoñer	presuposto

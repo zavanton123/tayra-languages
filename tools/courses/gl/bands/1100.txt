@@ -1,0 +1,100 @@
+1	1001	dedo	dedos
+2	1002	popular	populares
+3	1003	zapato	zapatos
+4	1004	picar	picada picadelas picado picados pican picando picaron picarvos picas picou picoulle picoume picáronme pique piquei piqueime piques pícache pícame pícanche pícao pícaos
+5	1005	faltar	faltaba faltaban faltabas faltamos faltan faltara faltaran faltarche faltarlle faltarme faltaron faltarvos faltará faltaría faltas faltase faltasen falte faltei faltes falto faltos faltou faltoume faltáballe faltábame fáltache fáltalle fáltalles fáltame fáltanche fáltanlle fáltanme fáltannos fáltavos
+6	1006	bombardear	bombardea bombardeaban bombardeada bombardeadas bombardeade bombardeado bombardeados bombardeamos bombardean bombardeando bombardearon bombardeará bombardeasen bombardeen bombardeo bombardeos bombardeou
+7	1007	oeste	
+8	1008	cervexa	cervexas
+9	1009	accidente	accidentes
+10	1010	balea	baleas
+11	1011	enterrar	enterra enterrabamos enterraban enterraches enterrada enterradas enterrado enterrados enterrala enterralo enterramos enterran enterraran enterrarei enterrareiche enterraremos enterrarme enterraron enterrarémola enterrarémolo enterras enterrase enterrasen enterrei enterreino enterren enterro enterros enterrou enterrouno enterráchelos enterrámolos enterrárono entérraos entérrate entérroo
+12	1012	finalmente	
+13	1013	recordo	recordos
+14	1014	material	materiais
+15	1015	famoso	famosa famosas famosos
+16	1016	riba	
+17	1017	vontade	vontades
+18	1018	beleza	belezas
+19	1019	delito	delitos
+20	1020	industria	industrias
+21	1021	proxecto	proxectos
+22	1022	produción	producións
+23	1023	plan	
+24	1024	aquilo	
+25	1025	agás	aga
+26	1026	corte	cortes
+27	1027	gozar	goce gocedes gocei gocemos gocen goza gozaba gozabamos gozaban gozabas gozaches gozada gozade gozades gozado gozalo gozamos gozan gozando gozaron gozaría gozase gozo gozos gozou gozouno gozáchelo gozárades gózoo
+28	1028	declarar	declara declaraba declaraban declaraches declarada declaradas declarade declarado declarados declaralo declaramos declaran declarando declarara declararon declararse declarará declararán declararía declare declarei declareime declareino declaren declaro declarou declarouse declarámonos declaráronme declaráronse declárano decláranse declárase declárome declároo declároos declárovos
+29	1029	acusar	acusa acusaba acusabamos acusaban acusada acusadas acusado acusados acusamos acusan acusando acusaron acusará acusei acusemos acusen acuso acusou
+30	1030	departamento	departamentos
+31	1031	bico	bicos biquiño
+32	1032	contestar	contesta contestaba contestado contestan contestando contestaron contestará contestarás contestas contestase conteste contestei contestes contesto contestou
+33	1033	enorme	enormes
+34	1034	derradeiro	derradeira derradeiras derradeiros
+35	1035	so	
+36	1036	salvo	salva salvas salvos
+37	1037	privado	privada privadas privados
+38	1038	guiar	guia guiaba guiabamos guiada guiadas guiado guiados guialos guiando guiara guiarase guiarate guiarche guiarei guiarmos guiarnos guiaron guiarte guiará guiarás guiaría guias guiándome guiándose guía guíaa guíaas guíame guían guíanos guías guíate guíe guíeme guíen
+39	1039	acompañar	acompaña acompañaba acompañaban acompañada acompañadas acompañade acompañado acompañados acompañala acompañalo acompañalos acompañamos acompañan acompañando acompañara acompañarme acompañarnos acompañarte acompañarvos acompañará acompañas acompañe acompañei acompaño acompañábame acompañábao acompañámolo acompañámoste acompañándome acompáñalo acompáñalos acompáñame acompáñao acompáñeme acompáñoche acompáñolle acompáñoo acompáñoos acompáñovos
+40	1040	fracasar	fracasa fracasaba fracasaban fracasaches fracasado fracasados fracasamos fracasan fracasando fracasara fracasaran fracasaron fracasará fracasarán fracasaría fracasas fracase fracasei fracaso fracasos fracasou
+41	1041	bendicir	bendicen bendicida bendicido bendicimos bendiga bendigan bendiremos bendita benditas bendito benditos bendixo bendiza bendizan bendí bendígame bendío
+42	1042	enerxía	enerxías
+43	1043	investigación	investigacións
+44	1044	palestino	palestina palestinas palestinos
+45	1045	anoxar	anoxa anoxaba anoxaban anoxada anoxadas anoxado anoxados anoxan anoxando anoxarnos anoxarte anoxarías anoxas anoxase anoxaste anoxe anoxes anoxo anoxou anoxoume anoxouse anoxábaa anoxábate anóxabase anóxache anóxame anóxase anóxasme anóxavos
+46	1046	sombra	sombras
+47	1047	cargo	cargos
+48	1048	adoitar	adoita adoitaba adoitabamos adoitaban adoitabas adoitades adoitamos adoitan adoitas adoitábamos adóitase
+49	1049	encontrar	encontra encontraban encontraches encontrados encontrala encontralo encontramos encontranse encontraredes encontrarei encontrareina encontrares encontrarme encontrarmos encontrarnos encontrarse encontrarte encontrarvos encontrará encontrarán encontras encontrastes encontrava encontre encontrei encontreime encontreino encontremos encontren encontres encontrou encontrouna encontrouse encontrábanse encontráchesme encontrámonos encóntrame encóntrenos encóntrome
+50	1050	labrego	labrega labregas labregos
+51	1051	decatar	decata decataba decataches decatades decatamos decatan decatara decatarades decataran decatarase decataremos decatares decatariamos decatarme decatarnos decataron decatarte decatarvos decatará decatarían decatarías decatas decatase decatasen decate decatei decaten decates decatou decatouse decatábame decatácheste decátanse decátate
+52	1052	contacto	contactos
+53	1053	beira	beiras
+54	1054	efecto	efectos
+55	1055	responsabilidade	responsabilidades
+56	1056	puro	pura puras puros
+57	1057	veciño	veciña veciñas veciños
+58	1058	prisión	prisións
+59	1059	sorrir	sorride sorrin sorrinche sorrindo sorrinlle sorrinos sorrio sorrirche sorrirlle sorrirá sorrirían sorrises sorriu sorriulle sorriume sorriute sorrí sorría sorrían sorrías sorrín sorríndolle sorrío sorrís
+60	1060	bueno	
+61	1061	sabelo	sabelos
+62	1062	voda	vodas
+63	1063	inocente	inocentes
+64	1064	retirar	retira retirada retirade retirado retirados retiramos retiran retiraran retirarei retiraremos retiraron retirará retirarás retirarían retiras retirasen retiredes retirei retiremos retiren retiro retirou
+65	1065	cárcere	cárceres
+66	1066	colocar	coloca colocaba colocaches colocada colocadas colocade colocado colocados colocala colocalos colocamos colocan colocando colocaramos colocarlle colocarnos colocarse colocarte colocarvos colocas coloco colocou colocouna colocounos colocouse colocámolas coloque coloquedes coloquei coloqueillo coloqueime coloquemos colócanche colócanse colócao colócase colócaste colócoo colóqueos
+67	1067	inventar	inventa inventaba inventaches inventada inventadas inventado inventalo inventamos inventan inventando inventara inventaran inventaremos inventaron inventarían inventas inventase invente inventei inventen invento inventos inventou inventouno inventouse inventáchelas inventáchelo inventándoo inventárono invéntano invéntao invéntase invéntense
+68	1068	mellorar	mellora melloraban melloraches mellorada melloradas mellorado mellorados mellorala melloralas melloralo melloramos melloran mellorando melloraran melloraren mellorarme melloraron mellorarse mellorará melloraría mellorarían melloras mellorase mellore mellorou mellorándoo mellorándoos mellórate mellóreo
+69	1069	xustiza	
+70	1070	tarefa	tarefas
+71	1071	benvido	benvidas benvidos
+72	1072	cubrir	cobren cobres cubra cubran cubre cubren cubres cubriamos cubride cubrila cubrilo cubrimos cubrindo cubrira cubriranos cubrirao cubriredes cubrirei cubriremos cubriron cubrirse cubrirán cubrirás cubrirémoslles cubriu cubro cubría cubrían cubrías cubrídeme cubrímoste cubrírono cubríronse cubríusenos cúbranse cúbreme cúbrenos cúbrese cúbrete
+73	1073	atrever	atreva atrevan atrevas atreve atrevedes atreven atrevera atreveras atreverei atreveron atreverá atreverán atreverás atrevería atreveríame atreverían atreverías atreves atreveu atreveuse atrevida atrevido atrevo atrevédesvos atrevía atrevían atrevín atrévense atrévese atréveste atrévete atrévome
+74	1074	celebrar	celebra celebraba celebraban celebrada celebrades celebrado celebrados celebrala celebralo celebramos celebran celebrando celebrantes celebraredes celebraremos celebraron celebrarse celebrarías celebras celebrase celebre celebredes celebremos celebren celebro celebrou celebrouse celebrábamos celebrábano celebrándoo celébrao celébrase
+75	1075	verme	vermes
+76	1076	esforzo	esforzos
+77	1077	mundial	mundiais
+78	1078	colgar	colga colgaba colgabamos colgada colgadas colgado colgados colgalo colgalos colgamos colgan colgando colgantes colgara colgaran colgaras colgarei colgareino colgareivos colgaremos colgarme colgaron colgarse colgou colgoume colgouse colgue colguei colguemos colguen colgues colguémolos colgámolo colgámolos colgáronlle cólganse cólgao cólgase cólguenos
+79	1079	variar	variada variadas variados varias variou varían
+80	1080	piso	pisos
+81	1081	súpeto	
+82	1082	total	totais
+83	1083	ferro	ferros
+84	1084	defensa	defensas
+85	1085	senador	senadores
+86	1086	capaz	capaces
+87	1087	golpe	golpes
+88	1088	local	locais
+89	1089	afastar	afasta afastaba afastada afastadas afastade afastados afastala afastalo afastan afastando afastanse afastara afastaras afastarase afastarei afastareina afastarme afastarnos afastarse afastarte afastará afastas afastases afaste afastei afasteime afasteino afastemos afasten afastes afastábase afastásemos afastémonos afástache afástanse afástaos afástase afástaste
+90	1090	xulgar	xulga xulgada xulgado xulgados xulgalo xulgalos xulgamos xulgan xulgando xulgara xulgaraos xulgaredes xulgarlle xulgarme xulgarmos xulgarse xulgarte xulgará xulgaría xulgas xulgo xulgou xulgue xulguei xulguemos xulguen xulgues xulgámoste xulgándoo xulgándote xúlgoo
+91	1091	pretender	pretendan pretendas pretende pretendedes pretendemos pretenden pretendendo pretenderá pretendes pretendese pretendesemos pretendiamos pretendidas pretendido pretendo pretendía pretendíamos pretendín
+92	1092	educación	
+93	1093	ho	
+94	1094	prensa	prensas
+95	1095	risco	riscos
+96	1096	verde	verdes
+97	1097	vestir	veste vesti vestiamos vestida vestidas vestides vestidos vestila vestimos vestindo vestira vestirei vestireite vestirme vestirse vestirte vestirá vestía vestían vestíase vestímolo vestín vestíndoos vistamos vistan vistas viste visten vistes visto vístenche vístense
+98	1098	respectar	respecta respectaba respectaban respectada respectadas respectado respectados respectala respectalo respectalos respectamos respectan respectando respectarei respectaremos respectarme respectaron respectas respectase respectasen respecte respectedes respectei respectemos respecten respectes respectou respectoume respectámola respectámonos respéctame respéctanme respéctanse respéctoas respéctoche respéctoo respéctote
+99	1099	reunir	reuniches reunida reunidas reunide reunido reunidos reunimos reunindo reunira reuniran reunirei reuniren reunirmos reunirá reuniu reuniunos reuniuse reunía reunían reúna reúnas reúne reúnen reúno
+100	1100	provocar	provoca provocaba provocada provocadas provocado provocados provocan provocando provocara provocaremos provocaron provocará provocaría provocarían provocas provocasen provocases provoco provocou provoque provoquedes provoquemos provoquen provoques

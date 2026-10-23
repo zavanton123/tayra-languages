@@ -1,0 +1,100 @@
+1	3501	evocar	evoca evocaba evocadas evocan evocando evocou
+2	3502	redondo	redonda redondas redondos
+3	3503	clasificar	clasificada clasificado clasificados clasificarán clasificou clasifiquei
+4	3504	destacar	destaca destacaches destacada destacado destacados destacan destacaren destacase destacou
+5	3505	atascar	atasca atascadas atascado atascados atascamos atascaron atasco atascos atasquemos
+6	3506	cabrear	cabrea cabreaban cabreada cabreado cabrean cabreando cabrearía cabreo
+7	3507	renovar	renova renovada renovadas renovado renovados renovaron renovasen renovo
+8	3508	atormentar	atormenta atormentada atormentadas atormentado atormentados atormentan atormentas atormentes atormentou
+9	3509	lanzamento	
+10	3510	artillar	artillaría
+11	3511	gratis	
+12	3512	xustamente	
+13	3513	trece	
+14	3514	oficialmente	
+15	3515	mafia	
+16	3516	suor	
+17	3517	béisbol	
+18	3518	rolda	
+19	3519	fraternidade	
+20	3520	taba	tabas
+21	3521	decir	decindo
+22	3522	disturbio	disturbios
+23	3523	brutalidade	brutalidades
+24	3524	conduta	condutas
+25	3525	tripulación	tripulacións
+26	3526	academia	academias
+27	3527	ascenso	ascensos
+28	3528	ficción	ficcións
+29	3529	retorno	retornos
+30	3530	zapatilla	zapatillas
+31	3531	tradución	traducións
+32	3532	comparación	comparacións
+33	3533	diálogo	diálogos
+34	3534	transformación	transformacións
+35	3535	maletín	maletíns
+36	3536	lira	liras
+37	3537	neveira	neveiras
+38	3538	violín	violíns
+39	3539	persecución	persecucións
+40	3540	macho	machos
+41	3541	sermón	sermóns
+42	3542	trama	tramas
+43	3543	caixeiro	caixeira caixeiros
+44	3544	adiviña	adiviñas
+45	3545	ciclo	ciclos
+46	3546	fantasma	fantasmas
+47	3547	insecto	insectos
+48	3548	toalla	toallas
+49	3549	defunto	defunta defuntos
+50	3550	bambú	bambús
+51	3551	ardente	ardentes
+52	3552	reixa	reixas
+53	3553	altofalante	altofalantes
+54	3554	virtude	virtudes
+55	3555	consignar	consigna consignado consignas
+56	3556	viaxeiro	viaxeiros
+57	3557	pílula	pílulas
+58	3558	anual	anuais
+59	3559	potente	potentes
+60	3560	célula	células
+61	3561	excepcional	excepcionais
+62	3562	hábito	hábitos
+63	3563	líquido	líquida líquidas líquidos
+64	3564	estaca	estacas
+65	3565	multinacional	multinacionais
+66	3566	cincocentos	cincocentas
+67	3567	precedente	precedentes
+68	3568	prado	prados
+69	3569	inicial	iniciais
+70	3570	somnámbulo	somnámbula somnámbulos
+71	3571	riso	risos
+72	3572	versar	verso versos
+73	3573	ombro	ombros
+74	3574	fráxil	fráxiles
+75	3575	eco	ecos
+76	3576	temor	temores
+77	3577	disputar	disputa disputan disputando disputarán disputas
+78	3578	telefónico	telefónica telefónicas
+79	3579	supervivente	sobrevivente sobreviventes superviventes
+80	3580	inhumano	inhumana inhumanas inhumanos
+81	3581	universitario	universitaria universitarias universitarios
+82	3582	tendencia	tendencias
+83	3583	cabina	cabinas
+84	3584	vestiario	vestiarios
+85	3585	beirarrúa	beirarrúas
+86	3586	fraco	fraca fracas fracos
+87	3587	tecido	tecidos
+88	3588	fregar	frega fregamos fregan fregando fregarei frego fregou fregue fregues frégase
+89	3589	chimpar	chimpa chimpabas chimpando chimpara chimpasen chimpei chimpeima chimpo chimpos chimpou chímpoma
+90	3590	aplaudir	aplauda aplaudan aplaudas aplaude aplauden aplaudide aplaudidos aplaudimos aplaudiran aplaudirei aplaudirán aplaudiu aplaudo aplaudía aplaudían
+91	3591	adaptar	adapta adaptaches adaptadas adaptado adaptados adaptalo adaptando adaptarme adaptaron adaptarvos adapte adaptes adaptou adaptouse adáptase
+92	3592	conformar	conformaban conformamos conforman conformarvos conformaría conformas conforme conformes confórmanse
+93	3593	enfocar	enfoca enfocabamos enfocada enfocado enfocados enfocaron enfocaría enfocas enfoque enfoquei
+94	3594	atracar	atracado atracando atracaremos atracaron atraco atracos atracou atraque
+95	3595	padecer	padece padecemos padecen padecendo padecera padeceron padeces padeceu padecían padezan padezo
+96	3596	programar	programada programado programando programaramos programo programou
+97	3597	desperdiciar	desperdicia desperdiciados desperdiciamos desperdician desperdiciando desperdicie desperdiciei desperdicio
+98	3598	acento	acentos
+99	3599	veo	veos
+100	3600	terratenente	terratenentes

@@ -1,0 +1,100 @@
+1	201	xeito	xeitos
+2	202	comer	comamos coman come comede comedes comela comelo comemos comen comendo comera comerei comeremos comeren comerlle comerme comeron comerá comerán comerás comería comes comese comeses comestes comeu comiamos comiches comidas comido coméndoa comía comían comías comíchelo comín cómeme cómenos cómeo
+3	203	tipo	tipa tipas tipos
+4	204	mal	males
+5	205	negro	negra negras negros
+6	206	terra	terras
+7	207	rematar	remata remataba remataban remataches rematada rematade rematado rematalas rematalo rematamos rematan rematando rematara remataran remataras remataredes rematareino remataremos remataron rematará rematarán rematarás remataría rematas rematase rematastes remate rematedes rematei rematemos rematen remates remato rematou rematouse rematádeo remátao remátase remátoo
+8	208	pois	
+9	209	oír	oe oen oes oia oian oias oiches oio oirán oía oíchelo oíches oíchesme oída oíde oído oídos oíla oílas oílo oílos oímos oín oíndo oínlle oínllo oíno oírme oíron oírte oírvos oístes oíu oíuno óelo óense óese óesme óiote
+10	210	morto	morta mortas mortos
+11	211	tal	tales
+12	212	tentar	tenta tentaba tentaban tentabas tentaches tentado tentados tentalo tentamos tentan tentando tentara tentaredes tentarei tentareino tentaremos tentaron tentará tentarán tentas tentase tentastes tente tentedes tentei tenteino tentemos tenten tentes tento tentou tentouno tentámolo tentámonos tentándoo tentárono tentémolo téntao téntoo
+13	213	durante	
+14	214	sentar	senta sentaba sentada sentadas sentade sentades sentado sentados sentalo sentamos sentan sentando sentao sentaremos sentarme sentarnos sentaron sentarse sentarte sentará sentarás sentaría sentas sentase sente sentei senten sentes sento sentou sentouse sentámonos séntalle séntame séntanse séntase séntaste séntate séntome
+15	215	medio	media medias medios
+16	216	amor	amores
+17	217	conseguir	consegue conseguen consegues conseguiches conseguides conseguido conseguila conseguilo conseguilos conseguimos conseguindo conseguira conseguiralo conseguiran conseguiras conseguirche conseguirei conseguiremos conseguirme conseguiron conseguirá conseguirán conseguirás conseguirémolo conseguiría conseguirías conseguise conseguiu conseguiuno conseguía conseguíchelo conseguímolo conseguín consiga consigamos consigas consigo consigue conségueno
+18	218	calquera	
+19	219	importar	importa importaba importaban importada importades importado importados importalas importamos importan importando importara importarche importarlle importarlles importarme importarnos importará importaría importaríache importaríalle importaríalles importaríame importaríate importaríavos importase importe importen importo importou importoulle importábache importábame impórtache impórtalle impórtalles impórtame impórtanme ímportame
+20	220	único	única únicas únicos
+21	221	durmir	dorme dormen dormes durma durman durmas durme durmiamos durmiches durmida durmidas durmide durmides durmido durmidos durmilo durmimos durmindo durmirei durmiremos durmires durmiron durmirse durmirte durmirá durmirás durmiría durmirían durmise durmiu durmo durmía durmíame durmíamos durmían durmías durmín durmíramos durmísedes
+22	222	propio	propia propias propios
+23	223	esquecer	esquece esquecede esquecela esquecelo esquecemos esquecen esquecendo esquecera esquecerei esqueceremos esqueceron esquecerse esquecerte esquecerá esquecería esqueces esquecestes esqueceu esqueceume esqueciches esquecida esquecidas esquecido esquecidos esquecía esquecícheste esquecín esqueza esquezades esquezamos esquezan esquezas esquezo esquezámolo esquéceo esquécese esquécete esquézao esquézome
+24	224	país	paises países
+25	225	historia	historias
+26	226	abrir	aberta abertas aberto abertos abra abrades abran abras abre abren abres abriches abride abrila abrilas abrimos abrindo abrira abriren abrirlle abrirme abrirnos abriron abrirá abrise abriu abriuse abro abría abríase abrídeas abrín abrírono ábrao ábrea ábreme ábrense ábreo ábrese
+27	227	coidar	coida coidaba coidaban coidabas coidadas coidade coidados coidala coidalos coidamos coidan coidando coidao coidara coidaran coidarei coidareite coidaremos coidarse coidarte coidará coidarémolo coidaría coidas coidase coide coidei coiden coideo coides coido coidou coidádesvos coidásedes cóidaa cóidao cóidaos cóidate cóidese
+28	228	pobo	pobos
+29	229	auga	agua augas
+30	230	preciso	precisa precisas precisos
+31	231	merda	merdas
+32	232	último	última últimas últimos
+33	233	escribir	escriba escriban escribas escribe escriben escribes escribiches escribilo escribimos escribindo escribira escribirei escribireiche escribireille escribireinos escribirlle escribirlles escribirme escribiron escribirse escribirá escribiría escribise escribiu escribiume escribiuno escribo escribía escribímonos escribín escrita escritas escrito escritos escríbelle escríbeme escríbenos escríbeo escríbese
+34	234	cartos	
+35	235	medo	medos
+36	236	segundo	segunda segundas segundos
+37	237	baixo	baixa baixas baixos
+38	238	familia	familias
+39	239	tratar	trata trataba tratabamos trataban trataches tratadas tratade tratado tratados tratala tratalo tratamos tratan tratando tratara trataran tratarei tratareina trataremos tratarme trataron trataría tratas tratase trate tratei tratemos traten trates tratou tratábase tratáchelas tratándose trátame trátannos trátanos trátante trátao trátase
+40	240	cabeza	cabezas
+41	241	filme	filmes
+42	242	dereito	dereita dereitas dereitos
+43	243	parar	paraba parabamos paraban paraches parada paradas parade parades parado parados paralo paralos paramos paran parando parara pararei pararemos pararme pararnos pararon pararse parará parase parastes pare parei pareime paremos paren pares paro parou paroume parouno parádeo párao páraos párate
+44	244	gañar	gaña gañaba gañabamos gañaches gañada gañado gañala gañalo gañamos gañan gañando gañara gañaramos gañaran gañarei gañaremos gañares gañariamos gañarlle gañarme gañarnos gañaron gañarse gañará gañarán gañarás gañaría gañarían gañas gañase gañe gañei gañeino gañen gañes gaño gañou gáñanse gáñolle
+45	245	palabra	palabras
+46	246	usar	usa usaba usabamos usaban usaches usada usadas usade usado usados usala usalas usalo usalos usamos usan usando usara usarei usaremos usaren usaron usarse usarán usas usase usasen use usei useino uses uso usos usou úsanos úsanse úsao úsase úseo
+47	247	caer	cae caemos caen caendo caera caeramos caeran caeron caerá caerán caerás caerían caes caese caesen caesme caeu caeuche caeulle caeume caia caian caias caio caéuseche caéuselle caía caíalle caíame caían caíches caída caídas caído caídos caín cáeche cáelle cáeme
+48	248	morte	mortes
+49	249	sacar	saca sacaba sacaches sacada sacade sacado sacala sacalo sacalos sacamos sacan sacando sacara sacarche sacarlle sacarme sacaron sacarte sacará sacas saco sacos sacou sacoume sacouno sacádeme sacárona sacáronme sacárono saque saquei saquemos saquen saques sácaa sácame sácao sácate sáqueno
+50	250	porta	portas
+51	251	idea	ideas
+52	252	policía	policías
+53	253	razón	razóns
+54	254	branco	branca brancas brancos
+55	255	comigo	
+56	256	semana	semanas
+57	257	xunto	xunta xuntas xuntos
+58	258	desde	
+59	259	rúa	rúas
+60	260	mes	meses
+61	261	pór	pomos pon pondo porei poreilles poreime poreinas poremos porá porán porás porémolo poría pos posta postas posto postos poña poñamos poñan poñas poño puxeches puxemos puxen puxera puxeron puxese puxeses puxo puña puñan pólo pórlle pórme pórse pórte púñao
+62	262	tío	tía tías tíos
+63	263	andar	anda andaba andabamos andaban andabas andabámoste andaches andades andado andamos andan andando andarei andares andariamos andarse andará andarán andarás andaría andas andase ande andedes andei andeille andeis andemos anden andes ando andou andoulle andábamos andábate andárais ándalo ándalos ándate
+64	264	cal	cales
+65	265	fin	fins
+66	266	precisar	precisa precisaba precisabamos precisaban precisabas precisades precisalo precisamos precisan precisando precisarei precisaremos precisares precisaron precisará precisarán precisarás precisaría precisarías precisas precisase precise precisei precisemos precisen precises precisou precisábao precisábase precisámolo precisámoste precísalo precísame precísanse precísao precísase precísate precísoa precísoo
+67	267	acordo	acordos
+68	268	ficar	fica ficaba ficabamos ficaban ficabas ficaches ficade ficades ficado ficamos fican ficando ficara ficaran ficaras ficarei ficaremos ficaren ficares ficariamos ficarmos ficaron ficará ficarán ficarás ficaría ficarían ficarías ficas ficase ficasen fico ficou ficásemos fique fiquei fiquemos fiquen fiques
+69	269	malo	mala malas malos má más
+70	270	disparar	dispara disparaba disparaban disparaches disparada disparade disparado disparados disparamos disparan disparando dispararche dispararlle dispararnos dispararon dispararte disparas disparase disparasen disparate dispare disparedes disparei dispareille disparen dispares disparo disparos disparou disparoulle disparoulles disparouse disparádelle disparáronche disparáronlle disparáronlles disparáronnos dispáralle dispárame
+71	271	dentro	
+72	272	tirar	tira tiraba tiraban tiraches tirada tiradas tirade tirado tirados tirala tiralo tiramos tiran tirando tiraran tiraras tirarei tirarme tirarnos tiraron tirarse tiras tirase tire tirei tireino tiren tires tiro tiros tirou tirouno tirouse tiráronse tíraa tíralle tírame tírase tírate
+73	273	mentres	namentres
+74	274	mercar	merca mercaba mercaches mercada mercades mercado mercados mercala mercalo mercalos mercamos mercan mercando mercarei mercarlle mercarme mercaron mercaría mercas merco mercou mercouna mercáballe merque merquedes merquei merqueiche merqueille merqueina merqueinas merqueino merqueinos merquen merques mércame mércao mércate mércolle mérqueme
+75	275	demasiado	demasiada demasiadas demasiados
+76	276	camiño	camiños
+77	277	meter	meta metais metan metas mete metela metelas metelo metemos meten metendo metera meterei meterlle meterme meternos meteron meterse meterte metería metes meteu meteume metiches metida metido metidos meto metéronme metéronse metía metícheste metín méteme métense méteo métese métete métote
+78	278	tocar	toca tocaba tocaban tocaches tocada tocades tocados tocala tocalo tocamos tocan tocando tocara tocarche tocarei tocareina tocarme tocaron tocarte tocará tocaría tocas tocase toco tocos tocou tocoulle tocoume toque toquedes toquei toquen toques tócaa tócache tócalle tócalles tócame tóqueo
+79	279	volta	voltas
+80	280	tolo	tola tolas tolos
+81	281	alto	alta altas altos
+82	282	minuto	minutos
+83	283	case	
+84	284	loitar	loitaba loitabamos loitaban loitaches loitade loitades loitado loitamos loitan loitando loitara loitaran loitarei loitaremos loitaren loitarmos loitaron loitará loitarán loitarás loitaría loitarían loitas loitastes loite loitedes loitei loitemos loiten loites loito loitos loitou loitouse
+85	285	casar	casaba casaban casaches casada casadas casade casades casado casados casamos casan casando casara casaras casaredes casarei casaremos casaren casariamos casarme casarmos casaron casarse casará casarán casarás casarémonos casaría casase casases casei caseime casemos cases casou casouse casámonos casándose casásemos
+86	286	ca	có
+87	287	clase	clases
+88	288	cambiar	cambia cambiaba cambiache cambiaches cambiada cambiado cambiala cambialas cambialo cambiamos cambian cambiando cambiara cambiaremos cambiarlle cambiarme cambiarnos cambiaron cambiarte cambiará cambiarán cambiarás cambiaría cambiarían cambias cambiase cambie cambiei cambiemos cambien cambies cambiou cambiouse cambiámolo cambiárona cámbiame cámbiao cámbiase cámbienme
+89	289	aquel	aquela aquelas aqueles aqueloutra aqueloutro aquil
+90	290	preocupar	preocupa preocupaba preocupaban preocupaches preocupada preocupadas preocupades preocupado preocupados preocupamos preocupan preocupara preocupariamos preocuparon preocupará preocuparía preocuparías preocupas preocupase preocupe preocupedes preocupei preocupemos preocupen preocupes preocupo preocupou
+91	291	xefe	xefa xefes
+92	292	aprender	aprenda aprendan aprendas aprende aprendede aprendedes aprendelo aprendemos aprenden aprendendo aprendera aprenderan aprenderas aprenderche aprenderei aprenderlle aprenderlles aprenderllo aprenderme aprenderon aprenderá aprenderán aprenderás aprendes aprendese aprendesen aprendeu aprendeume aprendeunos aprendiamos aprendiches aprendido aprendo aprendéronme aprendía aprendín apresa apréndenlles apréndese
+93	293	cuarto	cuarta cuartas cuartos
+94	294	igual	iguais
+95	295	orde	ordes
+96	296	pechar	pecha pechaba pechaches pechada pechadas pechade pechado pechados pechala pechalo pechamos pechan pechando pecharei pecharemos pecharme pecharon pecharse pecharán pecharían pechas pechase peche pechei pechemos pechen peches pecho pechou pechoume pechouse pechábame pechándoas pechándose pechárono péchame péchanse péchao péchase
+97	297	campo	campos
+98	298	exército	exércitos
+99	299	coche	coches
+100	300	enviar	enviaban enviaches enviada enviadas enviade enviado enviados enviala enviamos enviando enviara enviarei enviareiche enviareille enviarlle enviarme enviaron enviarte enviarán enviaría enviei envieino enviou envioume enviouna enviounos envioute enviárona enviáronme enviáronnos enviárono envía envíalle envíame envían envíe envíen envío envíoche

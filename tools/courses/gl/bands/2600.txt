@@ -1,0 +1,100 @@
+1	2501	holandés	holandesa holandesas holandeses
+2	2502	facturar	factura facturas facturo
+3	2503	alento	
+4	2504	capitalismo	
+5	2505	lóxica	
+6	2506	após	
+7	2507	cubo	cubos
+8	2508	conferenciar	conferencia conferencias
+9	2509	helicóptero	helicópteros
+10	2510	incapaz	incapaces
+11	2511	bruxa	bruxas bruxo
+12	2512	homicidio	homicidios
+13	2513	convención	convencións
+14	2514	detective	detectives
+15	2515	obvio	obvia obvias
+16	2516	definitivo	definitiva definitivas
+17	2517	débil	débiles
+18	2518	campá	campás
+19	2519	desempregar	desempregada desempregado desempregados desemprego
+20	2520	máxico	máxica máxicas máxicos
+21	2521	flotar	flota flotaba flotamos flotan flotando flotaría flotas flote flotou
+22	2522	fundir	fundamos fundas funde funden fundes fundida fundidas fundido fundindo fundiu fúndase fúndense fúndese
+23	2523	ar	ares
+24	2524	papa	papas
+25	2525	termo	termos
+26	2526	aperta	apertas
+27	2527	raparigo	raparigas raparigos
+28	2528	emprestar	emprestada emprestadas emprestado emprestados emprestarche emprestarlle emprestarme emprestaron emprestarías emprestas emprestei empresteillo emprestou emprestoumo empréstasmo
+29	2529	desafiar	desafiaban desafiaches desafiada desafiado desafiando desafiei desafiou desafía desafían desafías desafíes desafío
+30	2530	comportar	comporta comportaban comportado comportan comportara comportaren comportares comportaron comportarán comportas comportase comportei comporten comporto comportou
+31	2531	acudir	acode acoden acuda acudan acude acudiches acudide acudindo acudiron acudirá acudises acudiu acudía acudían acudín
+32	2532	proclamar	proclama proclamabas proclamada proclamade proclamado proclamamos proclaman proclamando proclamara proclamaron proclamas proclamase proclamemos proclamo proclamou
+33	2533	derramar	derrama derramadas derramades derramado derraman derramando derramarei derramaron derramaronse derramaría derramas derramase derrame derramei derrameinos derramemos derramou derramoume derramouse
+34	2534	impulsar	impulsa impulsado impulsados impulsamos impulsando impulsara impulso impulsos impulsou
+35	2535	curiosidade	curiosidades
+36	2536	iniciativa	iniciativas
+37	2537	lámpada	lámpadas
+38	2538	cravo	cravos
+39	2539	aula	aulas
+40	2540	pelota	pelotas
+41	2541	oco	oca ocas ocos
+42	2542	valioso	valiosa valiosas valiosos
+43	2543	artístico	artística artísticas artísticos
+44	2544	liderar	lideraba liderada liderado liderados lideran lideraron liderará liderou
+45	2545	soprar	sopra sopraba soprado sopramos soprando sopre sopro soprou
+46	2546	fundar	fundada fundadas fundado fundando fundaron fundemos fundou
+47	2547	descender	descenda descendamos descende descenden descendendo descenderon descendeu descendo descendía descendín
+48	2548	reputación	
+49	2549	lentamente	
+50	2550	arquitectura	
+51	2551	enseguida	
+52	2552	malleira	malleiras
+53	2553	urxente	urxentes
+54	2554	aumento	aumentos
+55	2555	demostración	demostracións
+56	2556	habitual	habituais
+57	2557	pasaporte	pasaportes
+58	2558	idioma	idiomas
+59	2559	inxustiza	inxustizas
+60	2560	bicicleta	bicicletas
+61	2561	monumento	monumentos
+62	2562	supervisor	supervisora supervisores
+63	2563	fantasía	fantasías
+64	2564	mísil	mísiles
+65	2565	frecha	frechas
+66	2566	oliva	olivas
+67	2567	específico	específica específicas específicos
+68	2568	republicano	republicana republicanas republicanos
+69	2569	fortaleza	fortalezas
+70	2570	transportar	transporta transportabamos transportaban transportadas transportades transportado transportados transportalo transportamos transportan transportando transportaron transportes transpórtannos
+71	2571	rescate	rescates
+72	2572	conversar	conversaba conversamos conversan conversando conversarei conversas converse conversei conversemos converso conversou conversábamos
+73	2573	pelar	pelada peladas pelado pelados pelando pelei peleille peles pélase
+74	2574	navegar	navega navegaba navegabamos navegaban navegado navegan navegando navegarei navegaremos navegaron navegarán navegarás navegas navegastes navego navegou
+75	2575	ferver	fervan ferve fervela fervendo ferveu fervida fervidas fervido fervidos fervéndolles fervía férvelle férvenos férvese
+76	2576	intimidar	intimida intimidaba intimidada intimidade intimidades intimidado intimidados intimidame intimidando intimidarme intimiden intimido intimídache intimídame
+77	2577	envelenar	envelena envelenada envelenado envelenados envelenan envelenando envelenara envelenaran envelenaremos envelenaron envelenastes envelenei envelenes envelenou
+78	2578	acoller	acolla acolle acollede acolleito acollelos acollemos acolleremos acollermos acollernos acolleron acollerá acollesen acolleu acolleuna acollida acollido acollo acolléronme acóllome
+79	2579	saquear	saquea saqueaba saqueada saqueadas saqueado saqueamos saquean saqueando saquearan saquearemos saquearon saquearán saquearía saquease saqueo saqueos
+80	2580	rachar	rachaba rachada rachadas rachado rachalos rachamos rachan rachando rachara racharme rachará rache raches rachos rachou rachouno ráchase
+81	2581	alertar	alerta alertada alertado alertara
+82	2582	sobrar	sobra sobraba sobraban sobraron sobrarían sobras sobrou
+83	2583	adquirir	adquiran adquire adquirido adquiridos adquirimos adquiriren adquirirmos adquiriron adquiristes adquiriu adquirías adquirín
+84	2584	titular	titula titulaba titulaban titulada titulado titulados titulares
+85	2585	néboa	
+86	2586	fascismo	
+87	2587	proletariado	
+88	2588	ira	
+89	2589	recentemente	
+90	2590	caos	
+91	2591	algodón	algodóns
+92	2592	casualidade	casualidades
+93	2593	garaxe	garaxes
+94	2594	doncela	doncelas
+95	2595	edición	edicións
+96	2596	influencia	influencias
+97	2597	duque	duquesa
+98	2598	continente	continentes
+99	2599	xuntanza	xuntanzas
+100	2600	pluma	plumas

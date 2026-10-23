@@ -1,0 +1,100 @@
+1	5401	navío	navíos
+2	5402	pagán	pagáns pagás
+3	5403	insensato	insensata insensatas insensatos
+4	5404	comprimir	comprimida comprimido comprimidos
+5	5405	rexer	rexe rexen rexendo rexeron rexerán rexidos
+6	5406	orientar	orientada orientado orientasen
+7	5407	anoitecer	anoitece anoitecendo anoiteceu anoiteza
+8	5408	sobrecargar	sobrecarga sobrecargada sobrecargado sobrecargados sobrecarguemos
+9	5409	testar	teste testes
+10	5410	ermo	erma ermos
+11	5411	biolóxico	biolóxica biolóxicas biolóxicos
+12	5412	alcohólico	alcohólicos alcólico
+13	5413	anticuado	anticuada anticuadas
+14	5414	devoto	devota devotos
+15	5415	solidario	solidaria solidarias solidarios
+16	5416	bombear	bombea bombeando bombeo bombéase
+17	5417	asfixiar	asfixia asfixiadas asfixiados asfixian asfixiando
+18	5418	desterrar	desterrado desterrando desterrarme desterraría desterro destérrote
+19	5419	estabilizar	estabilice estabilizado estabilizando estabilizaran estabilizaremos estabilizo
+20	5420	atinar	atinaba atinado atinamos atinas atinen atinou
+21	5421	costar	costan costará coste costes costou
+22	5422	unificar	unifica unificada unificado unificados unificou unificouse
+23	5423	supervisar	supervisa supervisadas supervisado supervisase superviso supervisou
+24	5424	mesquiño	mesquiña mesquiñas mesquiños
+25	5425	corromper	corrompe corrompen corromperon corrompida corrompido corrompidos
+26	5426	subordinar	subordina subordinada subordinadas subordinado subordinados
+27	5427	encarar	encara encarado encaramos encarando encarou
+28	5428	disolver	disolta disolvan disolve disolveron disolvería
+29	5429	subestimar	subestimada subestimado subestimaron subestimedes subestimei subestimes subestimou
+30	5430	vitorioso	vitoriosa vitoriosas vitoriosos
+31	5431	abaixar	abaixa abaixadas abaixado abaixan abáixome
+32	5432	irromper	irrompe irrompen irromperon irrompeu
+33	5433	decapitar	decapita decapitaban decapitado decapitasemos decapitei decapitou decapitásemos
+34	5434	apegar	apegaba apegada apegadas apegado apegan apego
+35	5435	igualar	iguala igualaban igualado igualará igualemos iguales igualou
+36	5436	albiscar	albiscadas albiscado albiscamos albiscaron albisco albiscou albisquei
+37	5437	renxer	renxe renxen renxente renxido renxía
+38	5438	compadecer	compadecemos compadecen compadeceron compadeza compadezades compadezas compadezo
+39	5439	resoar	resoa resoaba resoaban resoan resoando resoaría resoou
+40	5440	elaborar	elaborada elaboradas elaborado elaborados elaboraron elaboro
+41	5441	transcorrer	transcorra transcorre transcorren transcorrendo transcorreu transcorrido transcorrían
+42	5442	engulir	engole engulida engulidas engulido engulidos engulila engulindo
+43	5443	datar	datada datadas datado datan daten dato
+44	5444	falsificar	falsificaches falsificada falsificadas falsificado falsificados falsifican falsificaron
+45	5445	elevar	eleva elevaban elevamos elevan elevando elevaron elevou
+46	5446	abafar	abafa abafaba abafada abafadas abafado abafan abafo abafábao
+47	5447	contradicir	contradicilo contradicindo contradicirme contradigan contradigas contradiría contradita contradí contradín
+48	5448	esfameado	esfameada esfameadas esfameados
+49	5449	entraña	entrañas
+50	5450	dinámica	dinámicas
+51	5451	composta	compostas
+52	5452	asentar	asenta asentados asentarme asentarse asentará asente asentou
+53	5453	ucraíno	ucraínas ucraínos
+54	5454	folgar	folgada folgadas folgado folgados folgando folgas
+55	5455	compor	compondo compostas composto compostos compuxeron compuxo compuña compón
+56	5456	ditar	ditadas ditados ditando ditas dite diten ditou
+57	5457	valar	vala valados valaran valas vale valedes valemos valen vales
+58	5458	tinguir	tinguia tinguida tinguido tinguira tintas tintos tinxir tinxirse
+59	5459	carretar	carretan carretando carretas carrete carretes
+60	5460	mostaza	
+61	5461	duramente	
+62	5462	sabotaxe	
+63	5463	gravemente	
+64	5464	particular	particulares
+65	5465	ballet	
+66	5466	temperamento	
+67	5467	altamente	
+68	5468	gatillo	
+69	5469	hixiene	
+70	5470	enxeñería	
+71	5471	menstruación	
+72	5472	holocausto	
+73	5473	tope	
+74	5474	estabilidade	
+75	5475	ferralla	
+76	5476	deseguida	
+77	5477	vertixe	
+78	5478	serenidade	
+79	5479	maleteiro	
+80	5480	distinción	
+81	5481	deserción	
+82	5482	mollo	
+83	5483	celuloide	
+84	5484	saturnino	
+85	5485	pucha	
+86	5486	exactitude	
+87	5487	estancia	
+88	5488	fusión	
+89	5489	magnetismo	
+90	5490	frecuentemente	
+91	5491	abismar	abismo
+92	5492	colapso	
+93	5493	posguerra	
+94	5494	marfil	
+95	5495	ilegalmente	
+96	5496	conque	
+97	5497	retagarda	
+98	5498	chófer	
+99	5499	daga	
+100	5500	virus	

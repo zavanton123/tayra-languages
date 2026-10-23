@@ -1,0 +1,100 @@
+1	2201	relixioso	relixiosa relixiosas relixiosos
+2	2202	lata	latas
+3	2203	documental	documentais
+4	2204	expoñer	exposta expostas exposto expostos expoñan expoñelo expoñen expoñendo expoñerse expoño expoñéndose expoñía expuxeches expuxemos expuxen expuxera expuxeron expuxese expuxesen expuxo expuxéchesme expuxéronse expón expóñense expóñoos
+5	2205	sabio	sabia sabias sabios
+6	2206	quentar	quenta quentada quentade quentado quentala quentamos quentan quentando quentarme quentarnos quentarse quentarte quentas quentes quentádea quéntase quéntate quéntevos
+7	2207	pregar	prega pregaba pregado pregala pregamos pregando pregarei pregaria pregarias pregaron pregaría prego pregoche preguemos pregándolles prégalle prégase prégolles prégovolo prégovos
+8	2208	aterrar	aterra aterraba aterrada aterradas aterrado aterrados aterrara aterras aterre aterredes aterrei aterremos aterres aterrou
+9	2209	proceder	proceda procedamos procedan procede procedede proceden procederemos procederon procedeu procedo procedía procedían procédese
+10	2210	fabricar	fabrica fabricaba fabricaban fabricada fabricadas fabricado fabricados fabricamos fabrican fabricando fabricara fabricarmos fabricará fabricarán fabricase fabricou fabrique
+11	2211	aplicar	aplica aplicaba aplicaban aplicada aplicadas aplicado aplicados aplicala aplicamos aplicando aplicaremos aplicarse aplicou aplicóuselles aplique aplícase
+12	2212	carácter	caracteres carácteres
+13	2213	pastel	pasteis
+14	2214	mortal	mortais
+15	2215	elegante	elegantes
+16	2216	suxeito	suxeita suxeitas suxeitos
+17	2217	mércores	
+18	2218	persoalmente	
+19	2219	mor	
+20	2220	bordo	bordos
+21	2221	avenida	avenidas
+22	2222	pantalla	pantallas
+23	2223	taller	talleres
+24	2224	mental	mentais
+25	2225	depósito	depósitos
+26	2226	enfermeiro	enfermeira enfermeiras enfermeiros
+27	2227	probable	probábel
+28	2228	nocturno	nocturna nocturnas nocturnos
+29	2229	cubano	cubana cubanas cubanos
+30	2230	cova	covas
+31	2231	estrutura	estruturas
+32	2232	semente	sementes
+33	2233	interromper	interrompa interrompan interrompas interrompe interrompemos interrompen interrompendo interromperon interrompes interrompesen interrompeu interrompida interrompidas interrompido interrompo interrompín
+34	2234	consolar	consola consolalos consolarme consolarnos consolarte consolará consolaría consolas consolase consolo consólaa consólame
+35	2235	suar	sua suabas suando suas sue súama súan súe súes súo
+36	2236	afirmar	afirma afirmadas afirmado afirmalo afirman afirmando afirmaron afirmarían afirme afirmo afirmou afírmao
+37	2237	vídeo	vídeos
+38	2238	oficiar	oficia oficio oficios
+39	2239	debuxo	debuxos
+40	2240	divino	divina divinas divinos
+41	2241	cristián	cristiá cristiáns
+42	2242	europeo	europea europeas europeos
+43	2243	servente	serventa serventas serventes
+44	2244	decote	
+45	2245	excepto	
+46	2246	testa	
+47	2247	once	
+48	2248	reverendo	
+49	2249	traxedia	traxedias
+50	2250	condado	condados
+51	2251	positivo	positiva positivos
+52	2252	radical	radicais
+53	2253	errado	errada erradas errados
+54	2254	marea	mareas
+55	2255	pisar	pisa pisadas pisamos pisan pisando pisarche pisarnos pisaron pisas pisase pisen pises pisou pisoulle pisámola pisándoche pisárono písalle písao
+56	2256	concordar	concorda concordaba concordades concordamos concordan concordaredes concordaron concordas concorde concorden concordo
+57	2257	derrotar	derrotada derrotadas derrotado derrotados derrotando derrotara derrotaran derrotaremos derrotaron derrotarán derrotei derrotes derrotou
+58	2258	inda	
+59	2259	pánico	
+60	2260	salvación	
+61	2261	infernal	
+62	2262	alguacil	alguacís
+63	2263	acceso	accesos
+64	2264	categoría	categorías
+65	2265	horror	horrores
+66	2266	encanto	encantos
+67	2267	recto	recta rectas rectos
+68	2268	cheque	cheques
+69	2269	pantasma	pantasmas
+70	2270	afortunado	afortunada afortunados
+71	2271	pau	paus
+72	2272	terrorista	terroristas
+73	2273	conflito	conflitos
+74	2274	solteiro	solteira solteiras solteiros
+75	2275	complexo	complexa complexas complexos
+76	2276	pálido	pálida pálidas pálidos
+77	2277	comedia	comedias
+78	2278	aburrir	aburras aburre aburren aburres aburriches aburrida aburridas aburridos aburrimos aburrirei aburrirme aburrirte aburrirvos aburrirá aburriría aburro aburrías aburrícheste aburrímonos aburrín abúrreme abúrrenme abúrrese abúrresme abúrreste abúrrolle abúrrome
+79	2279	secar	secaba secade secado secados secalo secalos secan secando secaron secarse secará secas secou secoute seque sequen sécalle sécame sécanse sécao sécate sécome séquea séquese
+80	2280	proposta	propostas
+81	2281	decepcionar	decepciona decepcionaches decepcionada decepcionado decepcionados decepcionalo decepcionalos decepcionan decepcionando decepcionarei decepcionarse decepcionarte decepcionase decepcione decepcionedes decepcionei decepcionemos decepcionou decepcionoume decepcionouno
+82	2282	recrutar	recruta recrutaban recrutaches recrutado recrutados recrutando recrutaran recrutarnos recrutaron recrutarán recrutas recrute recruten recrutou recrutoume recrutárono
+83	2283	pronunciar	pronuncia pronunciaba pronunciaban pronunciabas pronunciaches pronunciada pronunciadas pronunciades pronunciado pronunciados pronunciala pronuncialo pronuncian pronunciarei pronunciarnos pronunciaron pronunciarse pronuncias pronuncie pronunciei pronuncieino pronuncies pronuncio pronunciou pronunciábaste
+84	2284	brincar	brinca brincaba brincabamos brincade brincando brinco brincos brinquemos
+85	2285	inspirar	inspira inspiraba inspirada inspiradas inspirado inspirados inspiran inspirando inspiraron inspirará inspiras inspiren inspirou
+86	2286	desenvolvemento	
+87	2287	facilmente	
+88	2288	ron	
+89	2289	manteiga	
+90	2290	poesía	poesías
+91	2291	comportamento	comportamentos
+92	2292	loucura	loucuras
+93	2293	navalla	navallas
+94	2294	armario	armarios
+95	2295	ducia	ducias
+96	2296	colonia	colonias
+97	2297	pila	pilas
+98	2298	tremendo	tremenda tremendas tremendos
+99	2299	vivenda	vivendas
+100	2300	tribo	tribos

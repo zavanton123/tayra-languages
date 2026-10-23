@@ -1,0 +1,100 @@
+1	1901	vietnamita	vietnamitas
+2	1902	guerreiro	guerreira guerreiras guerreiros
+3	1903	democrático	democrática democráticas democráticos
+4	1904	metal	metais
+5	1905	xirar	xirados xiramos xiran xirando xirarme xirarnos xirarse xirará xiras xiraste xire xirei xireime xiremos xiren xires xirou xirouse xírame xírao xírase xírate xírome
+6	1906	distinguir	distingo distingue distinguen distingues distinguida distinguido distinguidos distinguimos distinguirías distinguían distinguíanse distinta distintas distintos
+7	1907	cuspir	cospe cospen cuspa cuspe cuspiches cuspida cuspido cuspila cuspimos cuspindo cuspirei cuspiron cuspirá cuspirán cuspisen cuspiu cuspiulle cuspo cuspía cuspías cuspícheslle cuspín cuspíndolle cúspenos cúspeo
+8	1908	punta	puntas
+9	1909	amencer	amence amencendo amenceres amencerá amencese amenceu
+10	1910	entusiasmar	entusiasma entusiasmada entusiasmado entusiasmados entusiasmaran entusiasme entusiasmes entusiasmo entusiasmou
+11	1911	potenciar	potencia potencias
+12	1912	pacífico	pacífica pacíficas pacíficos
+13	1913	quilo	kilos quilos
+14	1914	provincia	provincias
+15	1915	mecánico	mecánica mecánicas mecánicos
+16	1916	aéreo	aérea aéreas aéreos
+17	1917	comparar	compara comparaba comparabades comparada comparadas comparado comparados comparalo comparalos comparamos comparando compararei compararse comparen comparou comparouse comparándoo compárao
+18	1918	violar	violaban violaches violada violadas violado violados violamos violan violando violara violaran violarei violaren violares violaron violarían violase violastes violou
+19	1919	rapidamente	
+20	1920	nacemento	nacementos
+21	1921	enderezo	enderezos
+22	1922	despacho	despachos
+23	1923	herdeiro	herdeira herdeiros
+24	1924	cabra	cabras
+25	1925	año	años
+26	1926	lembranza	lembranzas
+27	1927	magnífico	magnífica magníficas magníficos
+28	1928	lixeiro	lixeira lixeiras lixeiros
+29	1929	esgotar	esgota esgotada esgotadas esgotado esgotados esgotan esgotando esgotaron esgotase esgote esgotei esgotou esgotouse esgotándose esgótanse esgótao
+30	1930	fallar	fallaba fallaban fallaches fallado fallamos fallan fallando fallaras fallarei fallaron fallará fallarán falle falledes fallei falles fallou
+31	1931	copia	copias
+32	1932	sacrificar	sacrifica sacrificaban sacrificada sacrificadas sacrificado sacrificados sacrificamos sacrifican sacrificaremos sacrificariamos sacrificarmos sacrificaron sacrificaría sacrificas sacrificase sacrifico sacrificou sacrifiquei sacrifiquen sacrifiques
+33	1933	sangrar	sangra sangraba sangrabas sangraches sangrado sangran sangrando sangrante sangrares sangrará sangrarán sangrase sangrastes sangre sangredes sangrou
+34	1934	admirar	admira admiradas admirade admirado admirados admiralo admiralos admiramos admiran admirando admiraren admiraron admirarte admiras admirase admirei admiren admiro admirámolos admírao admíroa admíroo admírote admírovos
+35	1935	dividir	divida dividas divide dividen dividese dividida divididas dividido divididos dividila dividilo dividimos dividindo dividiran dividiron dividirse dividiu dividía dividíase dividín divídeo divídese
+36	1936	aeroporto	aeroportos
+37	1937	humor	humores
+38	1938	rifle	rifles
+39	1939	mínimo	mínima mínimos
+40	1940	paisaxe	paisaxes
+41	1941	danzar	dancemos danza danzadas danzando danzantes danzas
+42	1942	asento	asentos
+43	1943	quinto	quinta quintas quintos
+44	1944	basear	basea baseaba baseada baseadas baseado baseados baseamos basean baseei
+45	1945	católico	católica católicas católicos
+46	1946	explotar	explota explotaba explotada explotadas explotado explotados explotamos explotan explotando explotaron explotas explote exploten exploto explotou
+47	1947	confundir	confunda confundades confundan confunde confunden confundes confundiches confundida confundidas confundido confundidos confundimos confundindo confundira confundiran confundiron confundiu confundo
+48	1948	naturalmente	
+49	1949	obviamente	
+50	1950	quince	
+51	1951	senado	
+52	1952	administración	
+53	1953	grolo	grolos
+54	1954	superficie	superficies
+55	1955	pesadelo	pesadelos
+56	1956	océano	océanos
+57	1957	mercadoría	mercadorías
+58	1958	industrial	industriais
+59	1959	método	métodos
+60	1960	establecer	establece establecemos establecen establecera estableceremos establecerán estableces estableceu establecida establecidas establecido establecidos establecín estableza establezades establezan
+61	1961	atraer	atrae atraedes atraelos atraeme atraen atraendo atraeno atraeron atraerá atraerás atraerían atraes atraese atraeu atraeume atraeuno atraio atraía atraída atraído atraídos atráeme atráeno atráeo atráete
+62	1962	impoñer	imposta impostas imposto impostos impoña impoñan impoñelo impoñemos impoñen impoñendo impoñerme impoñerse impuxen impuxeron impuxo impón
+63	1963	dificultade	dificultades
+64	1964	asistir	asista asistan asistas asiste asisten asistila asistimos asistira asistiren asistiron asistirá asistiu asistiunos asistía asistían asistín asistíronnos
+65	1965	conceder	conceda concedan concede concedera concederan concederlle concederme concedernos concederon concederá concederávolo concedese concedesen concedeu concedeulle concedeume concedeuselle concedida concedido concedéronme concedéronse concedía concédame concédelle concédeme
+66	1966	coraxe	coraxes
+67	1967	esquina	esquinas
+68	1968	texto	textos
+69	1969	pozo	pozos
+70	1970	xenio	xenios
+71	1971	pastor	pastora pastores
+72	1972	munición	municións
+73	1973	consecuencia	consecuencias
+74	1974	individuo	individua individuos
+75	1975	ruína	ruínas
+76	1976	ancián	anciá anciáns anciás
+77	1977	mariñeiro	mariñeira mariñeiras mariñeiros
+78	1978	instalar	instala instalada instalado instalados instalalo instalamos instalando instalaran instalaranse instalaron instalarse instalarte instalarán instalase instale instalen instalou instalouse instalándose instaláramos instaláronse instálase instálese
+79	1979	xoves	
+80	1980	exposición	exposicións
+81	1981	incidente	incidentes
+82	1982	aceite	aceites
+83	1983	acostumar	acostuma acostumaba acostumabamos acostumaban acostumabas acostumada acostumado acostumados acostuman acostumando acostumara acostumarei acostumarnos acostumarán acostumarás acostume acostumei acostumen acostumo acostumou acostumouse acostumábamos acostumándome acostumándose acostúmase
+84	1984	ofender	ofenda ofendas ofende ofendelo ofenden ofenderme ofenderon ofenderse ofenderte ofendervos ofendeu ofendeuse ofendiches ofendido ofendo ofendíchela ofendín ofendínche oféndelo oféndeme oféndenme
+85	1985	aprobar	aproba aprobaba aprobabas aprobaches aprobada aprobadas aprobades aprobado aprobamos aproban aprobara aprobarei aprobaren aprobará aprobarán aprobarás aprobaría aprobas aprobase aprobe aprobei aproben aprobo aprobou
+86	1986	arrastrar	arrastra arrastraban arrastrabas arrastraches arrastrada arrastradas arrastrades arrastrado arrastrados arrastramos arrastran arrastrando arrastrara arrastraron arrastrarán arrastrarías arrastrase arrastre arrastrei arrastren arrastres arrastrou
+87	1987	certamente	
+88	1988	comunismo	
+89	1989	lentes	
+90	1990	outono	outonos
+91	1991	mapa	mapas
+92	1992	recompensar	recompensa recompensado recompensando recompensará recompensarán recompensas recompense
+93	1993	besta	bestas
+94	1994	acontecemento	acontecementos
+95	1995	signo	signos
+96	1996	delicado	delicada delicadas delicados
+97	1997	desgraciar	desgracia desgraciada desgraciado desgraciados desgracias
+98	1998	favorito	favorita favoritas favoritos
+99	1999	execución	execucións
+100	2000	dormitorio	dormitorios

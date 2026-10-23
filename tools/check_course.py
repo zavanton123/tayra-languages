@@ -336,6 +336,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return catalan_tokens(text, ranks)
     if code == "es":
         return spanish_tokens(text, ranks, names, verbs)
+    if code == "gl":
+        return galician_tokens(text, ranks, names, verbs)
     if code in ("ru", "uk", "hu"):
         return russian_tokens(text)
     if code == "it":
@@ -683,6 +685,79 @@ def spanish_tokens(text, ranks, names=frozenset(), verbs=None):
                 continue
             # A name is never a verb with pronouns, though Chile ends like one.
             split = None if part.lower() in ranks or part.lower() in names else spanish_clitics(part, ranks, verbs)
+            out.extend(split or [part])
+    return out
+
+
+# The pronouns a Galician verb carries joined to its end (díxolle, chámase, vémonos, fíxeno, facelo, déuno), as the
+# RAG norms write them: the indirect and reflexive ones, the direct ones in their three shapes (o; lo after a dropped
+# -r or -s: facelo, vémolo; no after a diphthong: déuno, faino) and the contracted pairs (mo, cho, llo, llelo, nolo).
+GALICIAN_INDIRECT = ("me", "te", "che", "lle", "lles", "nos", "vos", "se")
+GALICIAN_DIRECT = ("o", "a", "os", "as")
+GALICIAN_DIRECT_L = ("lo", "la", "los", "las")
+GALICIAN_DIRECT_N = ("no", "na", "nos", "nas")
+GALICIAN_PAIRS = ("mo", "ma", "mos", "mas", "cho", "cha", "chos", "chas", "llo", "lla", "llos", "llas", "llelo", "llela", "llelos",
+                  "llelas", "nolo", "nola", "nolos", "nolas", "volo", "vola", "volos", "volas")
+GALICIAN_PRONOUNS = GALICIAN_INDIRECT + GALICIAN_DIRECT + GALICIAN_DIRECT_L + GALICIAN_DIRECT_N + GALICIAN_PAIRS
+GALICIAN_ENDINGS = sorted(set(GALICIAN_PRONOUNS) | {"se" + p for p in GALICIAN_PRONOUNS if p != "se"}, key=lambda p: (-len(p), p))
+GALICIAN_INFINITIVES = ("ar", "er", "ir", "ír", "ór")
+GALICIAN_VOWELS = "aeiouáéíóú"
+
+
+def galician_verb_forms(words):
+    """Every form of the list's verbs, the words whose headword is an infinitive (falar, saír, pór, supor; not por)."""
+    return {form for key, (_, _, forms) in words.items()
+            if key.endswith(GALICIAN_INFINITIVES) or key.endswith("por") and len(key) > 3 for form in [key] + forms}
+
+
+def galician_clitics(word, ranks, verbs):
+    """
+    A verb carrying pronouns split into the verb and them, as a learner reads it: díxolle is dixo + lle, chámase is
+    chama + se, vémonos is vemos + nos, facelo is facer + lo, déuno is deu + no, dígollo is digo + llo, fóiselle is
+    foi + se + lle. The written accent the joined form needs comes off the verb. None when the word does not split.
+    """
+    lower = word.lower()
+    for ending in GALICIAN_ENDINGS:
+        if not lower.endswith(ending) or len(lower) <= len(ending) + 1:
+            continue
+        stem = lower[: -len(ending)]
+        pieces = ["se", ending[2:]] if ending.startswith("se") and ending != "se" else [ending]
+        last = pieces[-1]
+        diphthong = stem[-1] in "iu" and len(stem) > 1 and stem[-2] in GALICIAN_VOWELS
+        bases = [stem, stem.translate(UNACCENTED)]
+        candidates = bases
+        if last in GALICIAN_DIRECT_L:
+            # o after a verb ending in -r or -s is lo, and the -r or -s goes: facelo (facer), vémolo (vemos).
+            candidates = [base + end for base in bases for end in ("r", "s")]
+        elif last in ("no", "na", "nas") and not diphthong:
+            # o after a diphthong is no (déuno, faino); after anything else, no is no pronoun.
+            continue
+        elif last in GALICIAN_DIRECT and (stem.endswith(("r", "s")) or diphthong):
+            # A bare o follows neither -r, -s nor a diphthong: falara is no verb with a.
+            continue
+        if last == "nos" and stem.endswith(("mo", "mó")):
+            # The -s of a first person plural goes before nos: vámonos (vamos), sentémonos (sentemos).
+            candidates = candidates + [base + "s" for base in bases]
+        for candidate in candidates:
+            if candidate in ranks and candidate in verbs:
+                return [candidate] + pieces
+    return None
+
+
+def galician_tokens(text, ranks, names=frozenset(), verbs=None):
+    """
+    Galician words as the list counts them: split at hyphens, and a verb's joined pronouns counted as words of their
+    own (díxolle is dixo + lle). The contractions (do, na, ao, á, polo, cun, desta, niso) are forms of their
+    preposition in the list and stay whole, as do the joined forms the list has (díxome, síntoo). The º and ª of an
+    ordinal (1.º, 2.ª) belong to its number.
+    """
+    out = []
+    for match in WORD.finditer(re.sub(r"(?<=\d)\.?[ºª]", "", text)):
+        for part in match.group(0).split("-"):
+            if not part:
+                continue
+            lower = part.lower()
+            split = None if lower in ranks or lower in names else galician_clitics(part, ranks, verbs or set())
             out.extend(split or [part])
     return out
 
@@ -1329,6 +1404,8 @@ def check(path, brief=False):
     code = course["id"].split("-")[0]
     ranks, words = load_list(code)
     verbs = spanish_verb_forms(words) if code == "es" else italian_verb_forms(words) if code == "it" else None
+    if code == "gl":
+        verbs = galician_verb_forms(words)
     up_to = course["rankUpTo"]
     band_start = up_to - BAND + 1
     need, shortest, longest = rules(up_to)
@@ -1339,6 +1416,9 @@ def check(path, brief=False):
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
     long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "ca", "id", "hr") else []
+    # So is a Galician one (A Coruña, Santiago de Compostela, O Porriño).
+    if code == "gl":
+        long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
     # Chinese writes no spaces, so every name is matched whole, the longest first.
     if code in ("zh", "ja"):
         long_names = sorted(course.get("names", []), key=len, reverse=True)
@@ -1429,11 +1509,18 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Preguntes:", "", text)
         if code == "id":
             text = re.sub(r"(?m)^Pertanyaan:", "", text)
+        if code == "gl":
+            text = re.sub(r"(?m)^Preguntas:", "", text)
         if code == "hr":
             text = re.sub(r"(?m)^Pitanja:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk", "ca", "hr"):
+            numerals = sum(1 for t in toks if ROMAN.fullmatch(t))
+            toks = [t for t in toks if not ROMAN.fullmatch(t)]
+            whole_names += numerals
+        # And in Galician (o século XIX).
+        if code == "gl":
             numerals = sum(1 for t in toks if ROMAN.fullmatch(t))
             toks = [t for t in toks if not ROMAN.fullmatch(t)]
             whole_names += numerals

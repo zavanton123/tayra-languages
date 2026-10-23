@@ -1,0 +1,100 @@
+1	9001	suburbano	suburbana
+2	9002	cheirento	cheirenta cheirentos
+3	9003	desvalido	desvalida desvalidos
+4	9004	contentar	contentaría contente
+5	9005	drogadicto	drogadictos
+6	9006	enlouquecer	enlouquecese enlouquecido enlouquecidos
+7	9007	predominar	predominaban predominan predominando
+8	9008	traumatizar	traumatizada traumatizados traumatizaron
+9	9009	satánico	satánicas satánicos
+10	9010	hospitalizar	hospitalizada hospitalizado hospitalizados
+11	9011	nugallán	nugallá nugalláns
+12	9012	amplificar	amplifica amplificado amplifícase
+13	9013	cubeta	cubetas
+14	9014	bucina	bucinas
+15	9015	figurar	figurado figuraron figuraría
+16	9016	concesionario	concesionarios
+17	9017	cruento	cruenta cruentos
+18	9018	corroborar	corroborado corroborando
+19	9019	lascivo	lasciva lascivos
+20	9020	legalizar	legaliza legalizados legalizaron
+21	9021	magnificar	magnifica magnificada magnificamos
+22	9022	incrustar	incrustada incrustadas incrustemos
+23	9023	gorila	gorilas
+24	9024	iraniano	iraniana iranianos
+25	9025	ávido	ávida ávidos
+26	9026	repregar	reprega repregado repregan
+27	9027	respectivo	respectiva respectivas respectivos
+28	9028	espantar	espanta espantáramos
+29	9029	desprezábel	desprezábeis
+30	9030	forzoso	forzosa forzosos
+31	9031	asolagar	asolaga asolagadas asolagado
+32	9032	lesionar	lesionado lesionei lesionou
+33	9033	revolucionar	revolucionados revolucionou
+34	9034	deformar	deforma deformada deformado
+35	9035	diabólico	diabólica diabólicos
+36	9036	arremeter	arremete arremetiches arremetida
+37	9037	repenicar	repenicaba repenican repenicando repeniquen
+38	9038	entolecer	entolece entolecidas entolecido entolecidos
+39	9039	enroscar	enroscada enroscado enroscados enroscares
+40	9040	horrendo	horrenda horrendas horrendos
+41	9041	pulverizar	pulverice pulverizada pulverizado pulverizarán
+42	9042	aliñar	aliñaba aliño aliños
+43	9043	desembocar	desembocado desembocan desemboquei
+44	9044	calificar	calificaba calificado calificados
+45	9045	responsabilizar	responsabilices responsabiliza responsabilizamos responsabilizo
+46	9046	menosprezar	menospreces menospreza menosprezado menosprezan
+47	9047	desvergonzado	desvergonzada desvergonzadas desvergonzados
+48	9048	escandalizar	escandalice escandalizados escandalizando escandalizo
+49	9049	desposar	desposa desposada desposou
+50	9050	engaiolar	engaiolada engaiolado engaiolados
+51	9051	decimar	decimado decimados decimo
+52	9052	pospor	posporei pospón pospós
+53	9053	valoroso	valorosa valorosas valorosos
+54	9054	embalar	embala embalade embalen
+55	9055	redimir	redime redimidos redimirá redimiu
+56	9056	reprender	reprenderon reprendeu reprendidos
+57	9057	condensar	condensadas condensado condensaron condensou
+58	9058	enlazar	enlazadas enlazado enlazados enlazan
+59	9059	enumerar	enumera enumerando enumeras
+60	9060	congregar	congrega congregados congregan
+61	9061	sintonizar	sintonice sintonizada sintonizado sintonizando
+62	9062	exorcizar	exorcice exorciza exorcizaban
+63	9063	aludir	aludindo aludiu aludo aludín
+64	9064	extraviar	extraviada extraviado extraviados extraviou
+65	9065	partillar	partillada partillades partillamos
+66	9066	trunfar	trunfará trunfas trunfo
+67	9067	escorrer	escorre escorrendo escorrerme
+68	9068	despachar	despachada despachado despache
+69	9069	triplicar	triplicaba triplicado triplicando
+70	9070	aplacar	aplacada aplacado aplacou
+71	9071	deshabitar	deshabitada deshabitadas deshabitado deshabitados
+72	9072	condicionar	condicionaren condicionaron condiciones condicionou
+73	9073	nórdico	nórdica nórdicas nórdicos
+74	9074	difamar	difamado difamados difamou
+75	9075	recubrir	recuberto recubertos recubre
+76	9076	descolgar	descolgaron descolgou descolguei
+77	9077	raspar	raspa raspada raspan rasparan
+78	9078	inmobilizar	inmobilizado inmobilizados inmobilizan inmobilizou
+79	9079	instigar	instigados instigastes instigou
+80	9080	denominar	denominado denominan denominaron denominou
+81	9081	inflamar	inflamas inflamei inflamen inflamou
+82	9082	promulgar	promulgado promulgamos promulgaron promulgou
+83	9083	motivador	motivadora motivadoras motivadores
+84	9084	eloxiar	eloxiaba eloxiado eloxian eloxiaron
+85	9085	tapiar	tapiado tapiados tapiei
+86	9086	desconsolar	desconsolaches desconsolada desconsolado desconsolo
+87	9087	personificar	personificaba personificada personificado personificou
+88	9088	purgar	purga purgas purgou
+89	9089	readmitir	readmita readmiten readmitido
+90	9090	petroleira	petroleiras
+91	9091	escote	escotes
+92	9092	chafallada	chafalladas
+93	9093	xiringa	xeringa xiringas
+94	9094	malferido	malferida malferidos
+95	9095	atuar	atua atuamos
+96	9096	cano	canas
+97	9097	distribuir	distribuirá distribuiu distribuí distribuídas distribuído distribuídos distribuímos
+98	9098	fozar	foces fozando
+99	9099	chantado	chantada
+100	9100	xudío	xudía xudías xudíos

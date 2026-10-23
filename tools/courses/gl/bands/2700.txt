@@ -1,0 +1,100 @@
+1	2601	colar	colada colamos colares colarlle colarme colarte
+2	2602	explorador	exploradores
+3	2603	crianza	crianzas
+4	2604	íntimo	íntima íntimas íntimos
+5	2605	licenciar	licencia licenciada licenciado licenciados licenciaras licenciaron licencias licencien
+6	2606	receita	receitas
+7	2607	colección	coleccións
+8	2608	abraiante	abraiantes
+9	2609	ordinario	ordinaria ordinarias ordinarios
+10	2610	primo	primas primos
+11	2611	físico	físicas físicos
+12	2612	expor	expolo expormos exporse exposta expostas exposto expostos expoñan expoño expuxeches expuxemos expuxen expuxera expuxeron expuxese expuxesen expuxo expuñan expón
+13	2613	largo	larga largas largos
+14	2614	aconsellar	aconsella aconsellaba aconsellaban aconsellade aconsellado aconsellan aconsellarlle aconsellarlles aconsellarnos aconsellarte aconsellarías aconsellas aconselle aconsello aconselloche aconsellou aconselloume aconséllache aconséllalle aconséllase aconsélloche aconséllolle aconséllote aconséllovos
+15	2615	comandar	comanda comandaban comandades comandados comande comandei comando comandos comandou
+16	2616	afeitar	afeita afeitaches afeitada afeitado afeitados afeitarlle afeitarme afeitarnos afeitaron afeitarse afeitarte afeitas afeitase afeite afeitei afeiteime afeitárono
+17	2617	operar	operaba operaban operaches operado operan operando operaran operaras operaron opere operen operes
+18	2618	introducir	introduce introducen introducida introducidas introducidos introducimos introduciremos introduciron introducirá introduciría introduciu introduciume introducía introducían introdúcese
+19	2619	exercer	exerce exercen exercendo exerceron exercerá exercida exercidas exercido exercía exercín exerza exerzo
+20	2620	desviar	desviado desviados desviamos desviaran desviaron desviou desvía desvían desvíe desvío desvíos
+21	2621	cuestionar	cuestiona cuestionada cuestionado cuestionados cuestionalo cuestionamos cuestionan cuestionando cuestionaran cuestionarme cuestionarse cuestione cuestionei cuestiones cuestionou
+22	2622	espallar	espalla espallada espalladas espallade espallado espallados espallan espallarse espallas espalle espalládea espalládevos espállaos espállase
+23	2623	convocar	convoca convocaba convocada convocadas convocado convocados convocamos convocara convocaron convocas convocou convocouse convocáronse convoque convoquei convoques convócavos
+24	2624	cotián	cotiá cotiás
+25	2625	camareiro	camareira camareiras camareiros
+26	2626	gamma	
+27	2627	medianoite	
+28	2628	holanda	
+29	2629	ton	
+30	2630	nazi	nazis
+31	2631	publicidade	
+32	2632	filosofía	
+33	2633	imperio	imperios
+34	2634	lealdade	lealdades
+35	2635	instante	instantes
+36	2636	sorprendente	sorprendentes
+37	2637	lote	lotes
+38	2638	descrición	descricións
+39	2639	derrota	derrotas
+40	2640	prazo	prazos
+41	2641	cabana	cabanas
+42	2642	remolcar	remolcaban remolcado remolcando remolque remolques
+43	2643	produtor	produtora produtoras produtores
+44	2644	túnel	túneis túneles
+45	2645	policial	policiais
+46	2646	molestia	molestias
+47	2647	fundamental	fundamentais
+48	2648	pailán	pailana pailáns
+49	2649	patada	patadas
+50	2650	poste	postes
+51	2651	agulla	agullas
+52	2652	delicioso	deliciosa deliciosas deliciosos
+53	2653	empresario	empresarias empresarios
+54	2654	individual	individuais
+55	2655	intelectual	intelectuais
+56	2656	burócrata	burócratas
+57	2657	ensaio	ensaios
+58	2658	funcionario	funcionarios
+59	2659	occidental	occidentais
+60	2660	silencioso	silenciosa silenciosas silenciosos
+61	2661	neto	neta netas netos
+62	2662	impresionante	impresionantes
+63	2663	catástrofe	catástrofes
+64	2664	numeroso	numerosa numerosas numerosos
+65	2665	vaga	vagas
+66	2666	clínica	clínicas
+67	2667	consistir	consiste consisten consistiría consistiu consistía consistían
+68	2668	definir	defina define definen definida definidas definido definidos definila definindo definirse definise definíndoo defínese
+69	2669	arrancar	arranca arrancado arrancados arrancamos arrancarei arrancaron arrancaría arrancas arranco arrancou arranque arranquei arranques
+70	2670	axitar	axita axitaba axitada axitadas axitado axitados axitamos axitan axitando axitedes axites axitou
+71	2671	iluminar	ilumina iluminaba iluminada iluminadas iluminade iluminado iluminados iluminan iluminarse iluminase ilumine ilumínaa ilumínanse ilumínase
+72	2672	acercar	acerca acercou acerque
+73	2673	maxia	
+74	2674	datos	
+75	2675	practicamente	
+76	2676	caridade	
+77	2677	napalm	
+78	2678	racismo	
+79	2679	sinceramente	
+80	2680	parroquia	parroquias
+81	2681	gravidade	gravidades
+82	2682	mi	mis
+83	2683	fatal	fatais
+84	2684	maxestade	maxestades
+85	2685	actuación	actuacións
+86	2686	invasión	invasións
+87	2687	profesión	profesións
+88	2688	oposición	oposicións
+89	2689	gueto	guetos
+90	2690	asemblea	asembleas
+91	2691	marxe	marxes
+92	2692	espectacular	espectaculares
+93	2693	rural	rurais
+94	2694	axencia	axencias
+95	2695	urxencia	urxencias
+96	2696	xinete	xinetes
+97	2697	colonial	coloniais
+98	2698	sacerdote	sacerdotes
+99	2699	grego	grega gregos
+100	2700	vantaxe	vantaxes

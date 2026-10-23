@@ -1,0 +1,100 @@
+1	701	estranxeiro	estranxeira estranxeiras estranxeiros
+2	702	arredor	arredores
+3	703	civil	civís
+4	704	montaña	montañas
+5	705	comuna	comunas
+6	706	imposible	imposibles imposíbel
+7	707	talvez	
+8	708	oito	oitos
+9	709	escena	escenas
+10	710	necesario	necesaria necesarias necesarios
+11	711	notar	nota notaban notaches notada notades notado notalas notalo notamos notan notando notaron notará notarás notaría notaríase notas notase notases note notei noteiche noteino noten noto notou notouno notáramos nótase nótaselle nótaselles nótaseme nótoo nótoos
+12	712	saudar	saudabas saudaches saudade saudades saudala saudalo saudalos saudamos saudando saudara saudarei saudarme saudaron saudarán saudarás saudei saudeina saudeino saudou saudoume saudámonos saudámoste saúda saúdaa saúdamos saúdan saúdante saúdao saúdaos saúdas saúden saúdes saúdo saúdos saúdote saúdovos
+13	713	dúbida	dúbidas
+14	714	pelexar	pelexa pelexaba pelexabamos pelexaban pelexabas pelexaches pelexade pelexades pelexado pelexamos pelexan pelexando pelexara pelexaran pelexarei pelexaremos pelexarme pelexarnos pelexaron pelexarán pelexas pelexe pelexedes pelexei pelexen pelexes pelexo pelexou pelexámonos pelexáronse peléxase
+15	715	ante	
+16	716	pronto	pronta prontas prontos
+17	717	votar	vota votaba votaban votabas votaches votade votado votalo votamos votan votando votara votaran votarei votaremos votarmos votaron votarán votaría votas votastes vote votedes votei votemos voten votou votouvos votámolo votámolos vótalle vótanos
+18	718	referir	refere referida referido referidos referimos referirse referise refería referíame referían referíanse referías referíase referímonos referín refira refire refiren refires refireste refiro refirome refírense refíresche refírese refíreste refírome
+19	719	ponte	pontes
+20	720	agradecer	agradece agradecemos agradecen agradecerche agradecercho agradecerlle agradecerlles agradecerllo agradecermo agradecerte agradecervos agradecerá agradecerán agradecería agradeceríalles agradeceríallo agradeceríao agradecerías agradeceríavos agradeces agradecese agradeceu agradecida agradecidas agradecido agradecidos agradecémosche agradecémoslle agradecía agradecín agradezan agradezas agradezo agradézoche agradézolle agradézolles agradézollo agradézovolo agradézovos
+21	721	prometer	prometades prometas promete prometedes prometemos prometen prometendo prometera prometeran prometeras prometeron prometes prometestes prometeu prometiamos prometiches prometida prometido prometidos prometo prometía prometín
+22	722	viño	viños
+23	723	prezo	prezos
+24	724	espazo	espazos
+25	725	molestar	molesta molestaba molestabamos molestaches molestades molestado molestala molestalo molestalos molestame molestamos molestan molestando molestarche molestarei molestarme molestarnos molestarse molestarte molestarvos molestarán molestaría molestarían molestasen moleste molestedes molestemos molesten molestes molestou molestoume molestáballe molestábame molestáronse moléstache moléstalle moléstame moléstanos moléstoche
+26	726	repetir	repetiches repetidas repetide repetido repetila repetilo repetimos repetindo repetirei repetirlles repetirme repetirse repetirá repetisen repetiu repetiuse repetíanolo repetídeo repetíndocho repetíronse repita repitades repitan repitas repite repito repítao repítelle repítello repíteme repítemo repítennos repítense repíteo repítese repítocho repítolle repítollo repítoos
+27	727	arte	artes
+28	728	inglés	inglesa inglesas ingleses
+29	729	flor	flores
+30	730	separar	separa separaba separaban separaches separada separadas separado separados separalas separalo separalos separamos separan separando separaren separarme separarnos separaron separarse separarte separarán separaría separaríame separas separase separasen separe separei separo separou separouse separámonos separáronnos separáronse sepáranse sepárase sepárate sepárenos sepárense
+31	731	valor	valores
+32	732	elixir	electo electos elixa elixan elixas elixe elixen elixes elixiches elixida elixidas elixido elixidos elixilo eliximos elixindo elixira elixirnos elixiron elixirán elixirían elixise elixisen elixistes elixiu elixiume elixiuna elixo elixía elixían elixíchelo elixín elixíraa elixíronche elixíronme elíxese
+33	733	sala	salas
+34	734	condición	condicións
+35	735	odio	odios
+36	736	horrible	horribles horríbel
+37	737	avogado	avogada avogados
+38	738	interese	intereses
+39	739	prender	prenda prendamos prendan prendas prende prendelo prendelos prendemos prenden prenderalle prendereille prenderen prenderlle prenderme prenderon prenderías prendes prendese prendesen prendeu prendida prendidas prendido prendo prendédeo prendéronlle prendéronlles prendéronme prendérono prendéronse prendía prendín presas presos préndano préndanos préndelle préndenlle préndeo
+40	740	perigo	perigos
+41	741	cruzar	cruce crucei crucemos crucen cruza cruzaba cruzabamos cruzaban cruzabas cruzaches cruzade cruzades cruzamos cruzan cruzando cruzara cruzaran cruzaredes cruzarei cruzariamos cruzaron cruzará cruzarán cruzas cruzase cruzasen cruzo cruzou
+42	742	experiencia	experiencias
+43	743	mensaxe	mensaxes
+44	744	distinto	distinta distintas distintos
+45	745	bebé	bebés
+46	746	cadea	cadeas
+47	747	probablemente	probabelmente
+48	748	refuxiar	refuxiado refuxiados refuxio refuxios refuxiásemos
+49	749	causa	causas
+50	750	fácil	fáciles
+51	751	actor	actores actrices actriz
+52	752	acadar	acada acadaba acadada acadado acadados acadalas acadalo acadamos acadan acadando acadanse acadara acadaran acadarei acadareino acadarmos acadaron acadarse acadará acadarán acadarás acadaríamos acadarían acadarías acadas acade acadei academos acaden acado acadou acadouna
+53	753	negar	nega negaches negada negades negado negalo negan negando negaran negaras negarche negarei negaren negarlle negarme negaron negarse negarte negará negaría negas nego negou negue neguedes negues negáchesche negáchesme negácheste negándolle negándoo negáronlle négano néganse négao négase négaselles négaste négoos
+54	754	información	informacións
+55	755	esperanza	esperanzas
+56	756	medir	medi medias mediches medida medidas medido medila medilo medimos medindo medirán mediría medía medían medín mida mide miden mido mídeno mídese
+57	757	mestre	mestra mestras mestres
+58	758	baleiro	baleira baleiras baleiros
+59	759	odiar	odia odiaba odiaban odiabas odiades odiado odialo odialos odiamos odian odiarei odiarte odiarvos odiaría odias odiasen odiastes odie odiei odiábala odiábanme odiábano odiábao odiábasme odiámosnos odiándome ódiaas ódiache ódialo ódialos ódiame ódianme ódianse ódiao ódiate ódioo ódioos ódiote ódiovos
+60	760	deitar	deita deitaba deitaban deitaches deitada deitadas deitado deitados deitala deitalo deitalos deitan deitando deitarei deitarme deitarnos deitarse deitarte deitas deitase deitaste deite deitei deites deito deitou deitouse deitábame deitábase deitáchesche déitaa déitannos déitase déitasme déitaste déitese
+61	761	verter	verta verte vertede vertemos verten vertentes vertera verteron vertes verteses verteu vertida vérteo vértese
+62	762	cabrón	cabrona cabróns
+63	763	saúde	
+64	764	príncipe	príncipes
+65	765	domingo	domingos
+66	766	obxectivo	obxectiva obxectivas obxectivos
+67	767	estúpido	estúpida estúpidas estúpidos
+68	768	século	séculos
+69	769	acto	actos
+70	770	folga	folgas
+71	771	televisión	televisións
+72	772	reino	reinos
+73	773	perna	pernas
+74	774	montar	monta montaba montaban montaches montada montadas montades montado montados montala montalas montalo montamos montan montando montara montaramos montarche montarei montareino montaremos montaron montará montaría montas montei montemos monten montes monto montou montoulle montouno montábame montáronos móntao móntase
+75	775	despedir	despedida despedidas despedido despedidos despedila despedilo despedimos despediran despedirme despedirnos despediron despedirse despedirte despedirás despediría despedisen despediu despediume despediuse despedía despedín despedírona despedíronme despedírono despedíronte despida despidan despidas despide despiden despides despidete despido despidos despídeme despídense despídeo despídeste despídome
+76	776	honrar	honra honraba honraches honrada honradas honrado honrados honran honrarei honrará honras honre honredes honrou
+77	777	profesor	profesora profesoras profesores
+78	778	permiso	permisos
+79	779	chea	cheas
+80	780	cedo	
+81	781	salvaxe	salvaxes
+82	782	dor	dores
+83	783	barrio	barrios barro barros
+84	784	ataque	ataques
+85	785	memoria	memorias
+86	786	político	políticas políticos
+87	787	ai	
+88	788	simple	simples
+89	789	baño	baños
+90	790	decisión	decisións
+91	791	sinal	sinais
+92	792	medrar	medra medraba medraban medraches medrada medrado medramos medran medrando medrara medraran medrares medrarme medraron medrará medrarás medras medre medrei medremos medren medres medrou médranlles
+93	793	pertencer	pertence pertencedes pertencemos pertencen pertencendo pertenceran pertencerche pertencerme pertencería pertences pertencesen pertenceu pertencémoslles pertencía pertencían pertencín pertenza pertenzan pertenzas pertenzo perténceche perténcelle perténceme perténcennos perténcenos perténcete perténcevos perténzolle
+94	794	ren	
+95	795	anaco	anacos
+96	796	vento	ventos
+97	797	obra	obras
+98	798	perdón	perdóns
+99	799	espectáculo	espectáculos
+100	800	perigoso	perigosa perigosas perigosos

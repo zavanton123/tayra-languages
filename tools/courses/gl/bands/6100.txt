@@ -1,0 +1,100 @@
+1	6001	machete	machetes
+2	6002	estacionar	estaciona estacionado estacione
+3	6003	letal	letais
+4	6004	arcaico	arcaica arcaicas arcaicos
+5	6005	pesqueiro	pesqueiros
+6	6006	corporal	corporais
+7	6007	tiburón	tiburóns
+8	6008	encallar	encalla encallados encallara encallou
+9	6009	maioritario	maioritaria maioritarios
+10	6010	enfrentar	enfrenta enfrentado enfrentan enfrente enfrento
+11	6011	imputar	imputado imputados
+12	6012	saborear	saboreaba saboreala saborealo saboreo
+13	6013	reaparecer	reaparece reapareceron reaparecía
+14	6014	recaer	recae recaese recaeu recaía
+15	6015	estratéxico	estratéxica estratéxicas estratéxicos
+16	6016	merdento	merdenta merdentos
+17	6017	predicir	predicilo predicimos predicía predixen predí
+18	6018	acoitelar	acoitelada acoitelado acoitelados acoitele acoitelou
+19	6019	coidadoso	coidadosa coidadosos
+20	6020	animador	animadora animadoras
+21	6021	veado	veada veados
+22	6022	pneumático	pneumáticas pneumáticos
+23	6023	infiltrar	infiltradas infiltrado infiltrados
+24	6024	degolar	degolado degolados degolalo degolo
+25	6025	autoritario	autoritaria autoritarios
+26	6026	propiciar	propiciamos propiciaremos propiciará propicias propicio
+27	6027	marítimo	marítima marítimas marítimos
+28	6028	capacitar	capacitada capacitado capacitados
+29	6029	escorrentar	escorrenta escorrentada escorrento escorréntalas escorréntalos
+30	6030	galés	galesa galeses
+31	6031	impuro	impura impuras impuros
+32	6032	humanitario	humanitaria humanitarias humanitarios
+33	6033	asimilar	asimila asimilado asimilala asimilalo asimilara asimilou
+34	6034	teimudo	teimuda teimudas teimudos
+35	6035	apalpar	apalpadas apalpando apalparme apalpas apalpou
+36	6036	bohemio	bohemia bohemios
+37	6037	roncar	ronca roncando roncas
+38	6038	agredir	agredilo agrediu agrediume agredín
+39	6039	frouxo	frouxa frouxas frouxos
+40	6040	evolucionar	evolucionada evolucionados evolucionan evolucionando evolucionou
+41	6041	centralizar	centraliza centralizadas centralizado
+42	6042	instruír	instruirás instruía instruída instruído instruídos instruílo
+43	6043	inhalar	inhalades inhalado inhalados inhalan inhalou
+44	6044	escorregar	escorregaba escorregaban escorregan escorregarse escorregarte escorreguei
+45	6045	graduar	graduaches graduado graduados graduara graduei gradúen
+46	6046	asomar	asoma asomando asome asomen asomo asomou asomándose
+47	6047	dexenerar	dexenerada dexenerado dexeneraría dexenerarían dexenere dexenerou
+48	6048	decaer	decae decaendo decaeu decaia decaias decaída decaídos
+49	6049	cavilar	cavila cavilaba cavilade cavilei cavilo
+50	6050	sucumbir	sucumbe sucumbes sucumbido sucumbirá sucumbise sucumbiu
+51	6051	asexar	asexa asexaba asexado asexando asexo asexándoo
+52	6052	alistar	alistado alistados alistan alistaron alistará alistes alístanse
+53	6053	gabar	gaba gabado gaban gabe gabes gabou gábanme
+54	6054	izar	iza izaban izada izadas izade izando izaron
+55	6055	emborrachar	emborracha emborrachara emborracharte emborrachas emborrache emborrachei emborraches
+56	6056	agasallar	agasallada agasallalo agasallando agasallarei agasallarme agasallaron agasalláronos
+57	6057	alongar	alongada alongadas alongados alongaron alongarse alongarte alongase alongáronse
+58	6058	esganar	esganados esganando esganarnos esganaron esganen esgano esgánoa esgánote
+59	6059	tella	tellas
+60	6060	vendima	vendimas
+61	6061	pingar	pingado pingando pingas
+62	6062	dianteira	dianteiras
+63	6063	cocido	cocida cocidas cocidos
+64	6064	xear	xea xeadas xeados xearse xeará xeen xeou xéaseme
+65	6065	dormir	dorme dormes dormides dormidos durma durmas durmo
+66	6066	pita	pitas
+67	6067	morada	moradas
+68	6068	latir	latas late latidos latindo latía
+69	6069	esvaer	esvae esvaerá esvaeu esvaeuse esvaían esvaída esváese
+70	6070	aspiradora	aspiradoras
+71	6071	fluído	fluídos
+72	6072	relear	relea relean relees releo
+73	6073	furar	fura furada furadas furados furas fures furou
+74	6074	cordo	cordas cordos
+75	6075	brandir	brandas brandes brandiches brandido brandila brandiu brandín
+76	6076	urdir	ordea orden ordeo ordes urdimos
+77	6077	periferia	
+78	6078	acolá	
+79	6079	limoada	
+80	6080	xerra	
+81	6081	ablación	
+82	6082	caloría	calorías
+83	6083	ximnasia	
+84	6084	clero	
+85	6085	racionamento	
+86	6086	manar	mano
+87	6087	humildade	
+88	6088	popularidade	
+89	6089	preocupante	
+90	6090	fascinación	
+91	6091	soberanía	
+92	6092	segregación	
+93	6093	turismo	
+94	6094	socialmente	
+95	6095	santidade	
+96	6096	lavandaría	
+97	6097	kremlin	
+98	6098	impensábel	
+99	6099	lexislación	
+100	6100	rebumbio	

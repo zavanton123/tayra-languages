@@ -1,0 +1,100 @@
+1	6801	cripta	criptas
+2	6802	vicioso	viciosa viciosos
+3	6803	enreixar	enreixada enreixado enreixados
+4	6804	faisán	faisáns
+5	6805	arqueiro	arqueiros
+6	6806	silva	silvas
+7	6807	nádega	nádegas
+8	6808	opoñente	opoñentes
+9	6809	solleiro	solleira
+10	6810	flexible	flexibles flexíbel
+11	6811	xinecólogo	xinecóloga
+12	6812	refacer	refacela refixo
+13	6813	camioneiro	camioneiros
+14	6814	atoar	atoada atoadas atoado
+15	6815	ambiguo	ambigua ambiguos
+16	6816	testículo	testículos
+17	6817	gordecho	gordecha gordechas gordechos
+18	6818	deportista	deportistas
+19	6819	contracción	contraccións
+20	6820	desolar	desolada desoladas desolado
+21	6821	intermediario	intermediaria intermediarios
+22	6822	terremoto	terremotos
+23	6823	rateiro	rateira rateiros
+24	6824	tirafonda	tirafondas
+25	6825	quiosco	quioscos
+26	6826	esborrallar	esborrallando esborrallaremos esborrallaron
+27	6827	ilimitado	ilimitada ilimitadas
+28	6828	esquizofrénico	esquizofrénica esquizofrénicas
+29	6829	familiarizar	familiarizada familiarizado familiarizados
+30	6830	intensificar	intensifica intensifican intensificaron intensificou
+31	6831	exipcio	exipcia exipcias
+32	6832	caótico	caótica caóticas
+33	6833	grotesco	grotesca grotescos
+34	6834	traumático	traumática traumáticas
+35	6835	regar	rega regada
+36	6836	escavar	escavabamos escavan escavando escavo
+37	6837	livián	liviá liviáns
+38	6838	neutralizar	neutraliza neutralizada neutralizados neutralizamos
+39	6839	académico	académica académicos
+40	6840	pegañento	pegañenta pegañentas
+41	6841	aferrar	aferra aferrado aferramos aferro
+42	6842	malicioso	maliciosa maliciosas maliciosos
+43	6843	maquillar	maquillaches maquillaría maquillas maquille
+44	6844	naufragar	naufraga naufragada naufragamos naufragou
+45	6845	supersticioso	supersticiosa supersticiosas supersticiosos
+46	6846	remarcar	remarcado remarcaremos remarco remarcou
+47	6847	empeñar	empeñadas empeñado empeñados empeñarei empéñome
+48	6848	empaquetar	empaquetada empaquetado empaquetou
+49	6849	fomentar	fomenta fomentan fomentando fomentaremos fomenten
+50	6850	implorar	implora imploraba implorando imploras
+51	6851	ilícito	ilícita ilícitas ilícitos
+52	6852	lercho	lercha lerchas
+53	6853	madrugar	madrugache madrugaches madrugo madrugou
+54	6854	esquivar	esquivando esquivei
+55	6855	devir	deveu devirán deviría deviñeron devén
+56	6856	sortear	sorteaba sortearon sorteo
+57	6857	totalitario	totalitaria totalitarios
+58	6858	modelar	modela modeladas modelado modelan
+59	6859	regatear	regatea regateei regateo
+60	6860	declinar	declinan declinara declinaron declinou
+61	6861	privatizar	privaticei privatizada privatizados
+62	6862	apresurar	apresurado apresuran apresure apresures
+63	6863	hospitalario	hospitalaria hospitalarios
+64	6864	obsceno	obscena obscenas obscenos
+65	6865	aledar	aleda aledan aledas aledo
+66	6866	desvariar	desvariados desvaría desvarías desvaríos
+67	6867	flirtear	flirtea flirteaba flirteo
+68	6868	tecnolóxico	tecnolóxica tecnolóxicas
+69	6869	reconsiderar	reconsiderando reconsiderarei reconsiderarmos reconsidere
+70	6870	anoréxico	anoréxica anoréxicas
+71	6871	prófugo	prófugas prófugos
+72	6872	mimar	mimada mimado mimes
+73	6873	repudiar	repudiada repudiado repudiaron repudiou
+74	6874	suplementar	suplementaria suplementarias suplemento suplementos
+75	6875	agrandar	agranda agrandado agrandaremos
+76	6876	antiaéreo	antiaérea antiaéreas antiaéreos
+77	6877	nostálxico	nostálxica nostálxicos
+78	6878	voluptuoso	voluptuosa voluptuosas voluptuosos
+79	6879	enfiar	enfiade enfiados enfiou enfío
+80	6880	redescubrir	redescobres redescubrirse redescubriu
+81	6881	nivelar	nivelado niveles
+82	6882	delirar	delira deliraban delirando
+83	6883	atlético	atlética atléticas atléticos
+84	6884	subliñar	subliña subliñaches subliñado subliñamos subliñan
+85	6885	reportar	reportando reportaron reporte reportou
+86	6886	inaugurar	inaugura inaugurada inauguran inaugurou
+87	6887	trepar	trepa trepan trepas trepei
+88	6888	enerxético	enerxética enerxéticas enerxéticos
+89	6889	embotellar	embotella embotellada embotellado embotellados embotellara embotellou
+90	6890	enxoito	enxoita enxoitas enxoitos
+91	6891	chancear	chancea chanceaba chancees chanceo
+92	6892	inculcar	inculca inculcamos inculcarlle inculcaron
+93	6893	abalar	abala abalada abalando abalarte abalo
+94	6894	consolidar	consolidada consolidadas consolidado consolidados consolide
+95	6895	meditar	medita meditado meditando meditas mediten
+96	6896	untar	untaba untada untadas untaron
+97	6897	desmantelar	desmantela desmantelada desmantelado desmantelou
+98	6898	infestar	infestada infestado infestados infestou
+99	6899	espetar	espetadas espetado espetará espete espetes espetou
+100	6900	desatar	desatadas desatado desataría desatarían desaten

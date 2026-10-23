@@ -1,0 +1,100 @@
+1	401	comida	comidas
+2	402	dez	
+3	403	intentar	intenta intentaba intentabamos intentaban intentabas intentaches intentade intentado intentamos intentan intentando intentara intentarei intentaremos intentaron intentará intentarán intentaría intentas intentase intentasen intente intentei intentemos intenten intentes intento intentos intentou intentásemos
+4	404	onte	
+5	405	millón	millóns
+6	406	romper	rompa rompades rompamos rompan rompas rompe rompela rompelo rompemos rompen rompendo rompera romperan romperche romperei romperlle romperme romperon romperse romperá rompería rompes rompesen rompeu rompeume rompeuse rompiches rompidos rompámolo rompéronlle rompéronme rompíchesme rompín rota rotas roto rotos rómpeo rómpesme
+7	407	mudar	muda mudaba mudaches mudala mudalo mudamos mudan mudando mudara mudaran mudarei mudaremos mudarme mudarnos mudaron mudarse mudarte mudarvos mudará mudarán mudarás mudaría mudarían mudas mudase mude mudei mudeime mudemos muden mudo mudos mudou mudouse mudámonos mudáronse múdase múdate múdome
+8	408	mil	miles
+9	409	semellar	semella semellaba semellabades semellaban semellabas semellades semellan semellará semellaría semellas semellase semellasen semelle semelledes semellen semello semellou semelloume semellábame semelládesvos seméllame seméllanse seméllase
+10	410	situación	situacións
+11	411	libre	libres
+12	412	posible	posibles posíbel
+13	413	senón	
+14	414	maneira	maneiras
+15	415	final	
+16	416	diante	
+17	417	frío	fría frías fríos
+18	418	humano	humana humanas humanos
+19	419	chama	chamas
+20	420	grupo	grupos
+21	421	baixar	baixaba baixaches baixada baixadas baixade baixado baixados baixala baixalo baixamos baixan baixando baixara baixaran baixarei baixaremos baixaron baixará baixaría baixarían baixas baixase baixasen baixastes baixe baixei baixemos baixen baixes baixou baixoume baixádea baixádeo baixáronme báixaa báixanos báixao báixense báixeo
+22	422	abaixo	
+23	423	público	pública públicas públicos
+24	424	diferente	diferentes
+25	425	lei	leis
+26	426	espertar	esperta espertaba espertaches espertades espertado espertala espertamos espertan espertara espertarei espertareite espertarme espertaron espertarse espertará espertarás espertarías espertas espertase espertastes esperte espertei esperteiche esperteime espertemos esperten espertes esperto espertos espertou espertoume espertounos espertáchesme espertáronme espertáronnos espértame espértao espértenos espérteo
+27	427	desculpar	desculpa desculpaches desculpade desculpades desculpados desculpan desculpando desculpas desculpase desculpe desculpen desculpes desculpo
+28	428	francés	francesa francesas franceses
+29	429	cámara	cámaras
+30	430	estraño	estraña estrañas estraños
+31	431	presentar	presenta presentaba presentada presentadas presentado presentados presentala presentalo presentamos presentan presentando presentarche presentarei presentareime presentarlle presentarlles presentarme presentaron presentarse presentarte presentarvos presentará presentase presentei presenten presentes presento presentou presentoulle presentoume presentouno presentouse presentámoslles presentáronse preséntanos preséntanse preséntase preséntate preséntese
+32	432	cama	camas
+33	433	culpa	culpas
+34	434	peor	peores
+35	435	negocio	negocios
+36	436	sol	soles
+37	437	coidado	
+38	438	futuro	futura futuras futuros
+39	439	foder	foda fodades fodamos fodan fodas fode fodedes fodela fodelos fodemos foden fodendo fodereite foderme fodernos foderon foderse foderte foderás fodería fodes fodese fodeses fodeu fodeuse fodiches fodida fodidas fodido fodidos fodo fodédeas fodéronme fodía fodíame fodíchelo fódeme fódesme fódeste
+40	440	director	directora directores
+41	441	arriba	
+42	442	seguinte	seguintes
+43	443	norte	
+44	444	listo	listos
+45	445	probar	probaba probaban probaches probada probado probados probala probalo probalos probamos proban probando probara probarei probaremos probarmos probaron probará probarán probaría probas probase probe probei probeino probemos proben probou probádeme probádeo probándome probándoo probárona probárono próbaa próbao próbelle próbena próbeo
+46	446	alá	
+47	447	seis	
+48	448	sur	
+49	449	imaxe	imaxes
+50	450	carallo	carallos
+51	451	cabalo	cabalos egua
+52	452	construír	construamos construirei construireiche construiremos construirá construirían construiríanse construían construíches construícheslles construída construídas construído construídos construíla construílas construílo construímolo construímos construín construíndo construíndome construíno construíra construíran construírmos construíron construírona construírono construíu construíuse constrúa constrúan constrúanlle constrúe constrúen constrúena constrúes constrúo
+53	453	partir	parta partan parten partes partida partidos partilas partilo partimos partindo partira partiras partirche partiredes partirei partireille partiremos partires partirlle partiron partirse partirá partiráseche partirémoslle partise partiu partiume partiuno partiuse parto partos partía partían partín partíronlle partísemos párteme párteo pártoche
+54	454	regresar	regresa regresaba regresabamos regresaches regresade regresado regresados regresamos regresan regresando regresanse regresara regresaras regresarei regresaremos regresaren regresares regresariamos regresaron regresará regresarán regresarás regresaría regresarían regresas regrese regresedes regresei regreseina regresemos regresen regreses regreso regresou
+55	455	escoller	escolla escollan escollas escolle escollede escollelo escollemos escollen escollendo escollera escolleran escolleremos escollerme escollermos escolleron escollerá escollería escollerías escolleríasme escolles escollese escollestes escolleu escolleunos escolliches escollida escollidas escollido escollidos escollo escolléronme escollía escollíamos escollín escóllea escóllelas escólleno escólloos escóllote
+56	456	bailar	baila bailaba bailabamos bailaban bailaches bailadas bailade bailades bailado bailalo bailamos bailan bailando bailarei bailaremos bailaren bailariamos bailaron bailará bailarán bailarás bailaría bailas baile bailei bailemos bailen bailes bailo bailou bailáramos báilao
+57	457	sequera	
+58	458	funcionar	funciona funcionaba funcionaban funcionamos funcionan funcionando funcionaran funcionaron funcionará funcionarán funcionaría funcionarían funcionase funcione funcionen funcionou
+59	459	explicar	explica explicaba explicada explicado explicala explicalo explican explicando explicarche explicarcho explicaremos explicarlle explicarlles explicarllo explicarme explicarnos explicarse explicarte explicarvos explicarán explicas explico explicou explicouche explicoulle explicoume explicoumo explique expliquei expliqueille expliques explícame explícamo explícanos explícao explícate explícocho explícolle explícome
+60	460	vermello	vermella vermellas vermellos
+61	461	perdoar	perdoa perdoaba perdoaches perdoada perdoade perdoado perdoados perdoamos perdoan perdoaredes perdoarei perdoaron perdoará perdoaría perdoarían perdoarías perdoas perdoe perdoei perdoen perdoo perdoou
+62	462	papel	papeis
+63	463	mar	mares
+64	464	loita	loitas
+65	465	atrás	
+66	466	dirixir	dirixa dirixan dirixas dirixe dirixen dirixes dirixiamos dirixiches dirixida dirixidas dirixides dirixido dirixidos dirixila dirixilo diriximos dirixindo dirixirei dirixireinos dirixirnos dirixiron dirixirse dirixirá dirixirás dirixise dirixiu dirixiuse dirixiámonos dirixo dirixía dirixín dirixíndonos dirixíndose diríxanse diríxense diríxese diríxeste diríxete diríxome
+67	467	bastante	bastantes
+68	468	visitar	visita visitaba visitabamos visitaches visitado visitados visitala visitalas visitalo visitalos visitamos visitan visitando visitara visitarche visitarei visitaren visitarme visitarnos visitarte visitará visitarás visitaría visitas visitase visite visitei visiteina visiteinos visito visitou visitoume visitouna visitounos visitábao visitáse visitásedes visítaa visítannos
+69	469	asunto	asuntos
+70	470	pesar	pesa pesaba pesaban pesada pesadas pesado pesados pesalas pesalo pesamos pesan pesando pesara pesarache pesardes pesares pesaron pesarse pesarías pesas pese pesen pesou pesounas pesámolo pésao
+71	471	descubrir	descobre descobren descobres descuberta descubertas descuberto descubertos descubra descubran descubras descubre descubren descubriches descubride descubrila descubrilo descubrimos descubrindo descubrira descubriran descubriremos descubrires descubriron descubrirá descubrirán descubrirémolo descubrise descubristes descubriu descubro descubrámolo descubrían descubrídeo descubrímolos descubrín descóbreo descóbrese descúbrao descúbrase
+72	472	deter	detede detela detelas detelo detelos detendo determe deternos deterse deterte deterá deterán deteña deteñamos deteñan deteñas deteñen detida detido detidos detiven detivera detiveran detiveron detivese detivo detivéronme detivérono detiña detiñan detédeo detén detérente detéñano detéñanos detéñanse detéñao detéñase detéñense
+73	473	parvo	parva parvas parvos
+74	474	realidade	realidades
+75	475	fuxir	foxe foxen foxes fuxa fuxamos fuxas fuxe fuxiches fuxida fuxidas fuxide fuxido fuxidos fuximos fuxindo fuxira fuxiran fuxirei fuxires fuxiron fuxirá fuxirán fuxiría fuxirían fuxise fuxisen fuxistes fuxiu fuxo fuxía fuxían fuxín
+76	476	acó	
+77	477	esquerdo	esquerda esquerdas
+78	478	berrar	berra berraba berrabamos berraban berraches berrade berrades berramos berran berrando berrara berrarlle berrarme berraron berrarvos berraría berraríache berras berrase berre berredes berrei berreille berres berro berros berrou berroulle berroume berrádeo berrámoslles berráronlle berráronnos bérralle bérralles bérranlle bérraselle bérrasme bérroche
+79	479	salvar	salva salvaches salvada salvadas salvado salvados salvala salvalo salvamos salvando salvara salvariamos salvarlle salvarme salvarmos salvaron salvarse salvarte salvará salvaría salvas salvase salve salvei salveille salveime salveina salvemos salven salvou salvoulle salvoume salvouse salváronse sálvame sálvao sálvase sálvate sálveme
+80	480	xogo	xogos
+81	481	fábrica	fábricas
+82	482	acontecer	acontece acontecen acontecendo acontecera aconteceran acontecerlle aconteceron acontecerá acontecería acontecese aconteceu aconteceume acontecido acontecidos acontecía aconteza acontezan acontéceme
+83	483	nacer	nace nacemos nacen nacera naceran nacerei naceres naceron nacerá nacería naces nacese nacestes naceu naciches nacida nacido nacidos nacín nadas nados naza nazan nazas
+84	484	proba	probas
+85	485	tampouco	
+86	486	limpar	limpa limpaba limpabamos limpaban limpaches limpada limpade limpado limpala limpalo limpalos limpamos limpan limpando limparamos limparche limparei limpareino limparlle limparon limparte limparvos limparás limparía limpas limpe limpedes limpeino limpemos limpen limpo limpos limpou limpáballe limpádelle limpárona límpao límpate límpeo
+87	487	comprender	comprenda comprendan comprendas comprende comprendedes comprendemos comprenden comprendera comprenderan comprenderei comprenderemos comprenderen comprenderiamos comprenderon comprenderá comprenderás comprendería comprendes comprendesen comprendeu comprendiches comprendida comprendidas comprendido comprendo comprendía comprendían comprendín
+88	488	fronte	frontes
+89	489	ceo	ceos
+90	490	resto	restos
+91	491	camiñar	camiña camiñaba camiñabamos camiñaban camiñada camiñadas camiñade camiñado camiñamos camiñan camiñando camiñaramos camiñaran camiñarei camiñaremos camiñaron camiñas camiñase camiñe camiñei camiñemos camiñen camiñes camiñou camiñásemos
+92	492	ensinar	ensina ensinaban ensinaches ensinamos ensinan ensinando ensinarche ensinarlla ensinarlle ensinarlles ensinarllo ensinarme ensinarnos ensinaron ensinarvos ensinaría ensinas ensinase ensine ensinei ensineiche ensineille ensinen ensino ensinou ensinouche ensinoume ensinounos ensinándolle ensináronche ensináronme ensináronos ensínalle ensínalles ensíname ensínanos ensínao ensínase ensínoche
+93	493	sentido	sentidos
+94	494	dólar	dólares
+95	495	médico	médica médicas médicos
+96	496	lume	lumes
+97	497	voar	voa voaba voabamos voaban voaches voamos voan voando voara voarche voarei voareite voarlle voarme voaron voará voarán voarás voaría voaríalle voarían voaríao voas voase voasen voe voei voemos voen voo voos voou vooulle voouse voáchelo vóanlle vóano vóao
+98	498	esposa	esposas esposo esposos
+99	499	unir	una unamos unan unas une unen uniches unide unides unido unimos unindo unira uniremos uniron unirá uniría unise uniu uno unía unín
+100	500	desexar	desexa desexaba desexaban desexabas desexada desexades desexado desexados desexamos desexan desexando desexara desexaras desexarei desexariamos desexarlle desexarnos desexarvos desexarán desexaría desexaríalo desexarían desexas desexasen desexe desexedes desexei desexen desexes desexou desexádesme desexámoslles desexámosvos deséxanlle deséxanme deséxoche deséxolle deséxote deséxovos

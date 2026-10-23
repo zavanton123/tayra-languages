@@ -1,0 +1,100 @@
+1	501	revolución	revolucións
+2	502	boca	bocas
+3	503	centro	centros
+4	504	velar	velaba velada veladas velade velado velamos velan velará velas velase velo
+5	505	inimigo	inimiga inimigas inimigos
+6	506	maldito	maldita malditas malditos
+7	507	preferir	preferiamos preferida preferidas preferides preferido preferidos preferimos preferiremos preferiren preferiron preferiría preferiríamos preferirían preferirías preferisen preferiu prefería preferíala preferían preferías preferín prefira prefiras prefire prefiren prefires prefiresme prefiro prefiroas prefírelo prefíreme prefírese prefíresme prefírete prefíroa prefíroas prefíroo
+8	508	señorito	señorita señoritas señoritos
+9	509	empresa	empresas
+10	510	nacional	nacionais
+11	511	barco	barcos
+12	512	protexer	protexa protexan protexe protexede protexedes protexela protexelo protexelos protexemos protexen protexena protexeredes protexerme protexernos protexerse protexerte protexervos protexerá protexería protexese protexestes protexeu protexeuna protexiches protexida protexidas protexido protexidos protexía protexían protexíchesme protexín protéxanos protéxanse protéxeas protéxeche protéxela protéxeme protéxenos
+13	513	voz	voces
+14	514	roupa	roupas
+15	515	política	políticas
+16	516	porco	porca porcas porcos
+17	517	festa	festas
+18	518	aparecer	aparece aparecemos aparecen aparecendo aparecera apareceran apareceren apareceron aparecerá aparecerán aparecerás aparecería aparecerías apareces aparecese aparecesen apareceu apareciches aparecidas aparecido aparecidos aparecéuselle aparecía aparecían aparecín apareza aparezan aparezas aparezo aparéceche
+19	519	bater	bata batamos batas bate batede batemos baten batendo batera bateran baterlle baterme bateron baterse baterías bates batese bateu bateume batiamos batiches batida batidas batido bato batémonos batéronlle batéronme batía batíame batían batín bátanlle bátelle báteme bátente bátese báteslle bátete
+20	520	fame	
+21	521	obreiro	obreira obreiras obreiros
+22	522	detrás	
+23	523	sistema	sistemas
+24	524	alemán	alemá alemáns alemás
+25	525	responder	responda respondan respondas responde respondedes respondemos responden respondendo responderei responderemos responderes responderlle responderme responderon respondervos responderá respondería responderías respondes respondeselles respondeu respondeulle respondiches respondido respondo respondéronme respondía respondían respondíanme respondías respondín respóndame respóndeche respóndelle respóndeme respóndenos respóndese respóndolle respóndolles
+26	526	bomba	bombas
+27	527	falta	faltas
+28	528	confiar	confiaba confiaches confiada confiadas confiade confiades confiado confiados confiamos confiando confiara confiarei confiares confiarmos confiarás confiaría confiedes confiei confiemos confiou confía confían confías confíe confíen confíes confío
+29	529	cabaleiro	cabaleiros
+30	530	costa	costas
+31	531	desaparecer	desaparece desaparecede desaparecemos desaparecen desaparecendo desaparecera desapareceran desaparecerei desapareceremos desapareceren desaparecermos desapareceron desaparecerá desaparecerán desaparecerás desaparecería desaparecerían desapareces desaparecese desapareceu desapareciches desaparecida desaparecidas desaparecido desaparecidos desaparecía desaparecían desaparecías desaparecín desapareza desaparezamos desaparezan desaparezo
+32	532	real	reais
+33	533	tranquilo	tranquila tranquilas tranquilos
+34	534	música	músicas
+35	535	película	películas
+36	536	doutor	doutora doutoras doutores
+37	537	cariño	
+38	538	tras	trala tralas tralo tralos
+39	539	equipo	equipos
+40	540	crear	crea creaba creaban creaches creada creadas creades creado creados creamos crean creando creara crearan crearei crearemos crearme crearmos crearon crearse creará crearía creas creastes cree creei creemos creen creou creouno creounos creouse creáronnos creásemos créalo créelo créeme créeo créeste
+41	541	voltar	voltaba voltabas voltaches voltade voltado voltamos voltan voltando voltara voltarei voltareicho voltaremos voltaren voltariamos voltarllos voltaron voltará voltarán voltarás voltaría voltarías voltas voltase volte voltei voltemos volten voltes volto voltou voltouse voltádelle voltándose
+42	542	sociedade	sociedades
+43	543	erguer	erga ergades ergan ergas ergo ergue erguede ergueita ergueito erguelo erguen erguendo erguera erguerei ergueremos erguerme ergueron erguerse erguerte erguerá ergues erguese ergueu erguiches erguida erguidas erguido erguédea erguémonos erguéndose erguérase erguícheste erguín ergúedevos érganse érgase érgueo érguese érgueste
+44	544	ofrecer	ofrece ofrecelas ofrecemos ofrecen ofrecendo ofrecerche ofrecereille ofrecerlle ofrecerlles ofrecerme ofrecernos ofreceron ofreceronlle ofreceu ofreceulle ofreceulles ofreceume ofreceuse ofrecida ofrecido ofrecémoslle ofrecéronme ofrecéronse ofrecía ofrecían ofrecíaos ofrecín ofrecínlle ofreza ofrezo ofrécelle ofrécelles ofréceme ofrécenos ofrécense ofrézoche ofrézolle ofrézome ofrézovos
+45	545	evitar	evita evitaba evitabamos evitaban evitadas evitade evitado evitalas evitalo evitalos evitamos evitan evitando evitaredes evitarei evitaren evitares evitarme evitaron evitarán evitas evite evitei evitemos eviten evito evitou evitándoo evítalles evítannos evítante evítao evítasme
+46	546	café	cafés
+47	547	ouvir	ouve ouven ouves ouviches ouvida ouvide ouvido ouvidos ouvimos ouvira ouviremos ouvires ouvirme ouvirmos ouvirnos ouviron ouvirte ouvirá ouvirás ouviríamos ouvises ouvistes ouviu ouviuno ouviuse ouvía ouvíaos ouvíchesme ouvín ouvístelo ouza ouzan ouzas ouzo óuvelo óuveme óuvense óuvesme óuzoo
+48	548	capitán	capitá capitáns
+49	549	intre	intres
+50	550	cor	cores
+51	551	chan	chans chao chá
+52	552	muro	muros
+53	553	arranxar	arranxa arranxaba arranxaban arranxaches arranxado arranxados arranxala arranxalas arranxalo arranxamos arranxan arranxando arranxara arranxarei arranxareino arranxaremos arranxarlle arranxarme arranxarnos arranxaron arranxarse arranxarte arranxará arranxarán arranxarás arranxas arranxe arranxei arranxeime arranxemos arranxes arranxo arranxos arranxou arranxouse arranxábase arranxándoa arránxao arránxase
+54	554	exemplo	exemplos
+55	555	cuestión	cuestións
+56	556	oficial	oficiais
+57	557	hospital	hospitais
+58	558	teléfono	teléfonos
+59	559	liña	liñas
+60	560	militar	militaba militabas militamos militan militando militares militas milite milito militásemos
+61	561	gardar	gardaba gardaban gardaches gardadas gardade gardado gardados gardalas gardalo gardalos gardamos gardan gardando gardara gardaran gardarse gardará gardaría gardarían gardas gardasen garde gardei gardeino garden gardes gardo gardou gardouno gardábao gárdaa gárdaas gárdalo gárdame gárdamo gárdao gárdase gárdoa gárdoas
+62	562	membro	membros
+63	563	azul	azuis
+64	564	ollar	olla ollaba ollaban ollabas olladas ollade ollades ollado ollala ollamos ollan ollando ollares ollarme ollaron ollará ollaría ollas olle ollei ollemos ollen olles ollou olládevos ollándome ollándonos ollándote óllaa óllame óllao óllasme óllea
+65	565	cambio	cambios
+66	566	considerar	considera consideraba consideraban consideraches considerada consideradas considerade considerado considerados considerala consideralo consideramos consideran considerando considerara consideraramos considerarase consideraron considerarse consideraría consideras considerase considere considerei consideremos consideren considero considerou considerádeo considerámolos considerásemos considérala considérame considéranse considérao considérase considéraseme considérense considérome
+67	567	ferir	fere feren feres feri feriches feridas ferido feridos ferilo ferimos ferindo ferira feriremos ferirme feriron ferirse ferirte feriría ferise ferisen ferises feriu feriume feriuse ferín feríndose ferírona feríronme ferírono feríronte fire fíreme
+68	568	sete	setes
+69	569	avión	avións
+70	570	próximo	próxima próximas próximos
+71	571	rir	ri riamos riches ride rides rimos rin rina rindo rinse rio rios rira rirei rireime riremos rirnos riron rirse rirte rirán ris rise risen riste riu riuse ría rían ríanse rías rímonos ríndome ríndonos ríome
+72	572	verdadeiro	verdadeira verdadeiras verdadeiros
+73	573	viaxe	viaxes
+74	574	atención	atencións
+75	575	movemento	movementos
+76	576	acción	accións
+77	577	silencio	silencios
+78	578	raro	rara raras raros
+79	579	filmar	filma filmaba filmabamos filmaban filmaches filmada filmadas filmade filmado filmados filmala filmalo filmalos filmamos filman filmando filmara filmaras filmarme filmaron filmarte filmas filmase filmastes filmei filmeina filmeino filmeinos filmemos filmes filmo filmou filmáchelo filmádeme filmámolos filmándoa filmándome filmáronse fílmote
+80	580	modo	modos
+81	581	marabilloso	marabillosa marabillosas marabillosos
+82	582	recoller	recolla recollan recolle recollede recolleita recollela recollelas recollello recollelo recollelos recollemos recollen recollendo recolleredes recollereina recollerme recollerte recollerá recolles recolleses recolleu recolleume recolleunos recollida recollidas recollido recollidos recollo recolléronnos recollía recollíamos recollían recollín recóllao recóllea recólleme recólleo recólloo recóllote
+83	583	pegar	cumprido pega pegaches pegada pegadas pegado pegados pegamos pegan pegando pegara pegaran pegarlle pegarme pegaron pegarte pegará pegaría pegas pegasen pego pegou pegouche pegoulle pegue peguei pegueime peguen pegues pegábanos pegáchesme pegáronche pegáronlle pegáronos pégalle pégame pégao pégase pégoche
+84	584	comité	comités
+85	585	conducir	conduce conducen conducenme conduces conduciamos conduciches conducida conducidas conducido conducidos conducila conducilo conducimos conducindo conduciran conducirei conduciren conducirnos conduciron conducirá conducirás conduciu conduciunos conducía conducían conducías conducímola conducín conducíndoos conducíronnos conducíronos conduza conduzan conduzas conduzo condúcese condúzanos condúzao
+86	586	destruír	destruamos destruiremos destruirá destruirán destruiría destruía destruíase destruíches destruída destruídas destruíde destruído destruídos destruíla destruílas destruílo destruílos destruímos destruín destruíndo destruíra destruíren destruírnos destruíron destruírono destruírse destruíse destruíu destruíuno destrúa destrúao destrúe destrúea destrúen destrúena destrúeo destrúes destrúeste destrúo
+87	587	tren	trens
+88	588	marido	maridos
+89	589	camarada	camaradas
+90	590	recoñecer	recoñece recoñecedes recoñecelo recoñecemos recoñecen recoñecera recoñeceremos recoñecerse recoñecerte recoñecerá recoñecerás recoñecería recoñecerían recoñeces recoñecese recoñeceses recoñeceu recoñecida recoñecidas recoñecido recoñecidos recoñecémolo recoñecía recoñecían recoñecías recoñecín recoñeza recoñezo recoñécea recoñéceas recoñécelos recoñéceme recoñéceno recoñéceo recoñécese recoñécesme recoñécete recoñézollo recoñézoo
+91	591	cumprir	cumpra cumprades cumpran cumpras cumpre cumpren cumpres cumpriamos cumpriches cumprida cumprides cumprido cumprila cumprilo cumprilos cumprimos cumprindo cumprira cumprirase cumpriron cumprirá cumprirás cumpriría cumpriríanos cumprise cumpriu cumpro cumpría cumpríame cumprían cumpríanos cumprímolas cumprín cómpre cómprelle cómprelles cómpreme cómprenos cúmprenos
+92	592	banda	bandas
+93	593	sindicato	sindicatos
+94	594	sufrir	sofre sofren sofres sufra suframos sufran sufras sufre sufriamos sufriches sufrida sufridas sufrides sufrido sufrilas sufrimos sufrindo sufrira sufriras sufriron sufrirá sufrirán sufriría sufrirían sufrise sufristes sufriu sufro sufría sufrían sufrímolo sufrín
+95	595	atacar	ataca atacaba atacaban atacada atacadas atacado atacados atacala atacalo atacalos atacamos atacan atacando atacaran atacaranos atacaredes atacaremos atacarlle atacarme atacarnos atacaron atacase atacasen atacastes ataco atacou atacoume atacouno atacounos atacouse atacándoo atacáronme atacárono ataquen ataques atácame atácannos atácao atácasme
+96	596	brazo	brazos
+97	597	estudar	estuda estudaba estudaches estudalo estudamos estudan estudando estudara estudaran estudaremos estudarmos estudaron estudarse estudarás estudas estudases estudastes estudei estudes estudo estudos estudou estudounos estudámolo estudáramos estudáraos éstúdase
+98	598	entregar	entrega entregaba entregada entregadas entregade entregado entregados entregala entregalo entregamos entregan entregando entregaran entregarei entregaren entregarlle entregarllo entregarme entregarnos entregaron entregarvos entregará entregas entregases entrego entregou entregouma entregouse entregue entreguedes entreguei entreguemos entreguen entregues entregábao entregáronnos entrégate entrégoche entrégueo
+99	599	doce	doces
+100	600	axente	axentes

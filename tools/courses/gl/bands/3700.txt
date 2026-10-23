@@ -1,0 +1,100 @@
+1	3601	veredicto	veredictos
+2	3602	excitante	excitantes
+3	3603	abrazo	abrazos
+4	3604	amnistía	amnistías
+5	3605	maquillaxe	maquillaxes
+6	3606	vestíbulo	vestíbulos
+7	3607	suxestión	suxestións
+8	3608	espiritual	espirituais
+9	3609	capataz	capataces
+10	3610	perpetuo	perpetua perpetuas
+11	3611	emboscar	emboscada emboscadas emboscado emboscados
+12	3612	rodeo	arrodeo arrodeos rodeos
+13	3613	fuxitivo	fuxitiva fuxitivos
+14	3614	babeco	babeca babecos
+15	3615	inofensivo	inofensiva inofensivas inofensivos
+16	3616	subversivo	subversiva subversivas subversivos
+17	3617	dramático	dramática dramáticas dramáticos
+18	3618	decisivo	decisiva decisivas decisivos
+19	3619	adecuado	adecuada adecuadas adecuados
+20	3620	tranquilidade	
+21	3621	poñente	
+22	3622	lolo	lola
+23	3623	detentar	detente
+24	3624	illamento	
+25	3625	consciencia	
+26	3626	césar	
+27	3627	anaconda	
+28	3628	gratitude	
+29	3629	necesariamente	
+30	3630	prol	
+31	3631	decontado	
+32	3632	súper	
+33	3633	quizabes	
+34	3634	lagoa	lagoas
+35	3635	escritorio	escritorios
+36	3636	contrasinal	contrasinais
+37	3637	frecuencia	frecuencias
+38	3638	miolo	miolos
+39	3639	equipamento	equipamentos
+40	3640	pulso	pulsos
+41	3641	altar	altares
+42	3642	arame	arames aramio aramios
+43	3643	bobo	boba bobas bobos
+44	3644	podre	podres
+45	3645	gravador	gravadora gravadoras
+46	3646	crítico	críticos
+47	3647	creador	creadores
+48	3648	sentimental	sentimentais
+49	3649	demócrata	demócratas
+50	3650	patético	patética patéticas patéticos
+51	3651	etapa	etapas
+52	3652	pico	picos
+53	3653	organismo	organismos
+54	3654	licor	licores
+55	3655	racial	raciais
+56	3656	vidro	vidros
+57	3657	eido	eidos
+58	3658	teórico	teórica teóricas teóricos
+59	3659	desertor	desertores
+60	3660	caseiro	caseira caseiras
+61	3661	pulmón	pulmóns
+62	3662	fachada	fachadas
+63	3663	directivo	directiva directivos
+64	3664	volcánico	volcánica volcánicas volcánicos
+65	3665	deambular	deambula deambulando deambulas deambulen
+66	3666	psicolóxico	psicolóxica psicolóxicas psicolóxicos
+67	3667	valado	valados
+68	3668	fluír	fluída fluídos fluíndo flúas flúe flúen
+69	3669	morar	mora moraba moraban moradas morado morados morais moran morará moro
+70	3670	portal	portais
+71	3671	pato	patas patos
+72	3672	brindar	brinda brindan brindando brindaren brindarlle brindarlles brindemos brindes brindo
+73	3673	puñar	puña puñada puñadas puñado puñados puñamos puñan puñas
+74	3674	incomodar	incomoda incomodaba incomodado incomodan incomodando incomode incomoden incomodo incomodou
+75	3675	preservar	preserva preservadas preservado preservados preservala preservaron preservarse preservará preservasen preservo presérvao
+76	3676	extraer	extrae extraen extraendo extraeren extraeron extraeu extraían extraída extraídas extraído extraídos extraín
+77	3677	modificar	modifica modificaba modificado modificalo modificamos modificaren modificou modifiquemos
+78	3678	percibir	percibe percibes percibilos percibimos percibirse percibirá percibiu percibo percibía percibín percíbese percíbeseme
+79	3679	diminuír	diminuirá diminuiría diminuirían diminuída diminuído diminuíndo diminuíron diminuíu diminúa diminúe
+80	3680	inclinar	inclina inclinada inclinado inclinados inclinando inclinaron inclinará inclinarán inclinarána inclinase incline inclinemos inclinándose
+81	3681	corrixir	corrixe corrixen corrixida corrixido corrixilo corriximos corrixircho corrixirnos corrixirse corrixín corríxeme corríxese
+82	3682	esfolar	esfola esfolaba esfoladas esfolado esfolalo esfolame esfolando esfolarme esfolará esfolas esfole esfolen esfólanos
+83	3683	descoidar	descoida descoidada descoidado descoidados descoidala descoidamos descoidando descoidaren descoidaron descoide descoido descoidou
+84	3684	adormecer	adormece adormecemos adormecen adormeces adormeceu adormecida adormecidas adormecido adormecidos adormecín adormezades adormezas adormezo
+85	3685	filtrar	filtra filtran filtrara filtro filtros filtrou
+86	3686	repoñer	repor reposta repostas reposto repostos repoñelas repuxen repón
+87	3687	escalar	escalaba escalada escalado escalamos escalando escalarei escalaron escalei escalou
+88	3688	proxectar	proxecta proxectaba proxectaban proxectada proxectadas proxectado proxectaron proxectará proxectas proxéctase
+89	3689	calibrar	calibrada calibrando calibre calibren
+90	3690	inmobiliario	inmobiliaria inmobiliarias inmobiliarios
+91	3691	feder	fede feden fedes fedo fedían
+92	3692	explorar	explora exploradas exploramos explorando exploraremos
+93	3693	atrancar	atranca atrancado atrancas atranco atrancos
+94	3694	acaer	acae acaia acaída acaído acaídos acáelle acáeme acáevos
+95	3695	prexudicar	prexudica prexudicada prexudicado prexudicaren prexudicaron prexudicase prexudicou
+96	3696	contaminar	contaminada contaminadas contaminado contaminados contaminando contaminantes contaminas
+97	3697	cancelar	cancelada cancelado cancelara cancelaron cancelemos cancelen
+98	3698	corisco	
+99	3699	balón	
+100	3700	leito	

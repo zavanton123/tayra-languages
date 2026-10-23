@@ -1,0 +1,100 @@
+1	3401	teima	teimas
+2	3402	nevar	neva nevaba nevada nevadas nevando neves nevou
+3	3403	arriscado	arriscada arriscados
+4	3404	pica	picas
+5	3405	seducir	seduce seduciches seducida seducido seducidos seducila seducilos seducira seducirá seduciu seduciume seduciute seducíchesme seduza sedúceo
+6	3406	presionar	presiona presionaba presionado presionados presionamos presionan presionando presionaron presionen presiones presiono presionou
+7	3407	influír	influirei influirá influía influída influídos influíu inflúa inflúe inflúen inflúente
+8	3408	aspirar	aspira aspiraba aspirabamos aspirado aspiramos aspiran aspirando aspiraremos aspiras aspiro aspirou aspíralle
+9	3409	envolver	envolva envolvan envolvas envolve envolvera envolverei envolves envolveses envolvida envolvido envolvo envolvía
+10	3410	comentar	comenta comentabamos comentaches comentado comentados comentalo comentarllo comentou comentouche comentoulle coméntachesllo
+11	3411	varrer	varre varren varrendo varrera varreremos varrernos varreron varreu varreuno varrido varridos varrían varrín
+12	3412	paralizar	paraliza paralizada paralizado paralizados paralizarían paralizou paralizouse paralízao
+13	3413	fotografar	fotografa fotografaches fotografada fotografado fotografamos fotografaron fotografei fotografo fotografou
+14	3414	laiar	laiaba laiades laian laiarme laiarse laias laie laies laio laios laiouse laiándose láiase
+15	3415	competir	compete competindo competisen competía competían compiten
+16	3416	desertar	deserta desertaban desertado desertamos desertan desertaron desertas desertei desertou
+17	3417	manipular	manipula manipulaban manipulada manipulades manipulado manipulados manipulan manipularen manipulou
+18	3418	pausa	pausas
+19	3419	baúl	baúles
+20	3420	circo	circos
+21	3421	seo	seos
+22	3422	estufar	estufa estufado
+23	3423	vulgar	vulgares
+24	3424	aloxamento	aloxamentos
+25	3425	matadoiro	matadoiros
+26	3426	crocodilo	crocodilos
+27	3427	mineral	minerais
+28	3428	diplomar	diploma diplomado diplomados diplomas
+29	3429	paralelo	paralela paralelas paralelos
+30	3430	marica	maricas
+31	3431	terzo	terzas terzos
+32	3432	veterano	veteranos
+33	3433	cacahuete	cacahuetes
+34	3434	primario	primaria primarias primarios
+35	3435	observación	observacións
+36	3436	sexto	sexta sextos
+37	3437	angustiar	angustia angustiada angustiado angustiados angustie angusties angustio
+38	3438	acreditar	acredita acreditadas acreditarei acreditaría acreditas acredito
+39	3439	sanguento	sanguenta sanguentas sanguentos
+40	3440	asubiar	asubiaba asubiando asubiarme asubiarán asubía asubían
+41	3441	estreito	estreita estreitas estreitos
+42	3442	acosar	acosa acosaba acosado acosados acosan acosando acosaron acosas acoso
+43	3443	sabedoría	
+44	3444	tina	
+45	3445	obstante	
+46	3446	castro	
+47	3447	rol	
+48	3448	azar	
+49	3449	rutina	
+50	3450	nana	
+51	3451	tu	
+52	3452	diamantes	
+53	3453	madrugada	
+54	3454	ditadura	ditaduras
+55	3455	rabaño	rabaños
+56	3456	tabú	tabús
+57	3457	horario	horarios
+58	3458	decepción	decepcións
+59	3459	exemplar	exemplares
+60	3460	cuñado	cuñada cuñados
+61	3461	recuncho	recunchos
+62	3462	traficante	traficantes
+63	3463	prexuízo	prexuízos
+64	3464	castrón	castróns
+65	3465	crenza	crenzas
+66	3466	lazo	lazos
+67	3467	póla	pólas
+68	3468	discreto	discreta discretas discretos
+69	3469	táboa	táboas
+70	3470	folleto	folletos
+71	3471	ansioso	ansiosa ansiosos
+72	3472	delgado	delgada delgadas
+73	3473	musulmán	musulmá musulmáns
+74	3474	conservador	conservadora conservadoras conservadores
+75	3475	limpador	limpadora limpadoras limpadores
+76	3476	civilizar	civilizada civilizadas civilizado civilizados
+77	3477	húmido	húmida húmidas húmidos
+78	3478	latexar	latexa latexo latexos
+79	3479	bordar	borda bordado bordados borde bordes
+80	3480	orfo	orfa orfas orfos
+81	3481	eléctrico	eléctricas eléctricos
+82	3482	furado	furada furadas furados
+83	3483	incendiar	incendia incendiada incendiadas incendiado incendiaria incendiarias incendiaron incendiei incéndiase
+84	3484	asado	asada asadas
+85	3485	atado	atada atadas atados
+86	3486	protesta	protestas
+87	3487	solto	soltas soltos
+88	3488	restaurar	restaurada restauradas restaurade restaurado restauralo restauraredes restauremos restaurou restaurouna
+89	3489	alporizar	alporicen alporices alporiza alporizaba alporizada alporizado alporizados alporizando alporizaremos alporizou alporizábanos
+90	3490	malgastar	malgasta malgastada malgastado malgastados malgastamos malgastan malgastando malgaste malgastes malgasto malgastou
+91	3491	consentir	consenten consentes consentida consentido consentimos consentirei consentiría consentirían consentín consinto
+92	3492	pinchar	pincha pinchada pinchado pincharme pincharon pincharte pinche pinchei pinchen pinchos pinchou pínchame
+93	3493	calcular	calcula calculaba calculada calculado calculan calculando calcule calculo calcúlanse calcúlase
+94	3494	resumir	resume resumen resumes resumiches resumida resumidas resumilo resumindo resumirse
+95	3495	ario	aria arios
+96	3496	pactar	pactado pacte pacto pactou
+97	3497	apaixonar	apaixona apaixonaba apaixonada apaixonadas apaixonado apaixonados
+98	3498	atinxir	atinxa atinxe atinxen atinxida atinxidos atinxín atínxenos
+99	3499	masculino	masculina masculinas masculinos
+100	3500	desarmar	desarma desarmada desarmado desarmados desarmarei desarmase desarmou

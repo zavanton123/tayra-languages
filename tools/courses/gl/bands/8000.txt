@@ -1,0 +1,100 @@
+1	7901	espellismo	espellismos
+2	7902	desenfrear	desenfreada desenfreado
+3	7903	campionato	campionatos
+4	7904	revogar	revogan revogou
+5	7905	engrenaxe	engrenaxes
+6	7906	contrarrevolucionario	contrarrevolucionaria contrarrevolucionarias contrarrevolucionarios
+7	7907	abano	abanos
+8	7908	fósil	fósiles
+9	7909	desenfundar	desenfundade desenfundando
+10	7910	afectivo	afectiva afectivas
+11	7911	secador	secadora secadores
+12	7912	tobo	tobos
+13	7913	índice	índices
+14	7914	redentor	redentora redentoras
+15	7915	turno	turnos
+16	7916	escéptico	escéptica escépticos
+17	7917	fastidiar	fastidies fastidio fastidiou
+18	7918	delator	delatores
+19	7919	vaguear	vagueando
+20	7920	mazo	mazos
+21	7921	perforación	perforacións
+22	7922	misil	misís
+23	7923	escrebar	escrebe escrebemos escreben
+24	7924	pulseira	pulseiras
+25	7925	estela	estelas
+26	7926	enchoupar	enchoupada enchoupe
+27	7927	indescifrábel	indescifrábeis
+28	7928	trasnada	trasnadas
+29	7929	enérxico	enérxica
+30	7930	viscoso	viscosa viscosas viscosos
+31	7931	extremista	extremistas
+32	7932	oxidar	oxidado oxidados
+33	7933	desilusionar	desilusionada desilusionado
+34	7934	banana	bananas
+35	7935	esmoleiro	esmoleiros
+36	7936	notificación	notificacións
+37	7937	calafrío	calafríos
+38	7938	tolerante	tolerantes
+39	7939	machucar	machucan machucarlle
+40	7940	indonesio	indonesia
+41	7941	bagatela	bagatelas
+42	7942	mercancía	mercancías
+43	7943	ferradura	ferraduras
+44	7944	empreñar	empreñada empreñadas empreñase
+45	7945	desenterrar	desenterrado desenterraredes
+46	7946	picadura	picaduras
+47	7947	informante	informantes
+48	7948	cobizoso	cobizosos
+49	7949	condecoración	condecoracións
+50	7950	complexidade	complexidades
+51	7951	subdesenvolvido	subdesenvolvida subdesenvolvidas
+52	7952	furto	furtos
+53	7953	cacería	cacerías
+54	7954	xurídico	xurídica
+55	7955	desagradecido	desagradecida desagradecidos
+56	7956	inepto	inepta ineptas
+57	7957	elector	electores
+58	7958	ofensa	ofensas
+59	7959	equilibrar	equilibran equilibren
+60	7960	esponxa	esponxas
+61	7961	blusa	blusas
+62	7962	teimoso	teimosa teimosos
+63	7963	requintar	requintada requintado
+64	7964	economista	economistas
+65	7965	acentuar	acentuado acentúa
+66	7966	arca	arcas
+67	7967	costeleta	costeletas
+68	7968	sobresaínte	sobresaíntes
+69	7969	meseta	mesetas
+70	7970	hoste	hostes
+71	7971	átomo	átomos
+72	7972	reformista	reformistas
+73	7973	tatuar	tatuada tatuado
+74	7974	porción	porcións
+75	7975	áspero	áspera ásperas
+76	7976	accionar	accionou
+77	7977	bebedor	bebedores
+78	7978	coiote	coiotes
+79	7979	individualista	individualistas
+80	7980	erisipela	erisipelas
+81	7981	profecía	profecías
+82	7982	inadecuado	inadecuada inadecuados
+83	7983	atacante	atacantes
+84	7984	atusmar	atusmando
+85	7985	tarro	tarros
+86	7986	bilingüe	bilingües
+87	7987	innecesario	innecesaria innecesarios
+88	7988	cúbico	cúbica cúbicas cúbicos
+89	7989	drástico	drástica drásticas
+90	7990	tapiz	tapices
+91	7991	cegador	cegadora
+92	7992	influenciar	influenciada influenciados
+93	7993	xenital	xenitais
+94	7994	rectificar	rectificada
+95	7995	bagoar	bagoando bagoas esbagoar
+96	7996	demitir	demite
+97	7997	procedente	procedentes
+98	7998	biscoito	biscoitos
+99	7999	pasteleiro	pasteleira
+100	8000	transportador	transportadora transportadores

@@ -1,0 +1,100 @@
+1	8801	resentimento	resentimentos
+2	8802	doutrina	doutrinas
+3	8803	desprezable	desprezables
+4	8804	cabezal	cabezais
+5	8805	reticente	reticentes
+6	8806	deformación	deformacións
+7	8807	contador	contadores
+8	8808	subproduto	subprodutos
+9	8809	gasolineira	gasolineiras
+10	8810	neurose	neuroses
+11	8811	molusco	moluscos
+12	8812	prestamista	prestamistas
+13	8813	pastorear	pastoreado pastoreo
+14	8814	indicador	indicadores
+15	8815	compracente	compracentes
+16	8816	fábula	fábulas
+17	8817	frechazo	frechazos
+18	8818	maravilloso	maravillosa
+19	8819	aeronáutico	aeronáutica aeronáuticas
+20	8820	siamés	siamesas siameses
+21	8821	cinéfilo	cinéfila cinéfilos
+22	8822	maxestoso	maxestosa maxestosos
+23	8823	petardo	petardos
+24	8824	entrante	entrantes
+25	8825	liberador	liberadora liberadores
+26	8826	stalinista	stalinistas
+27	8827	compatible	compatibles
+28	8828	edificación	edificacións
+29	8829	corporativo	corporativa corporativas
+30	8830	discapacitado	discapacitada discapacitados
+31	8831	sancionar	sanciona sancionado
+32	8832	pior	piores
+33	8833	descerebrar	descerebrada descerebrado
+34	8834	poción	pocións
+35	8835	inmundo	inmunda inmundos
+36	8836	agonizar	agoniza agonizaba agonizando
+37	8837	remollar	remolla remollados
+38	8838	inmerso	inmersos
+39	8839	involuntario	involuntaria involuntarios
+40	8840	adxectivo	adxectivos
+41	8841	institutriz	institutrices
+42	8842	segmento	segmentos
+43	8843	toro	toros
+44	8844	opcional	opcionais
+45	8845	marisco	mariscos
+46	8846	irregularidade	irregularidades
+47	8847	talo	talos
+48	8848	provocador	provocadoras provocadores
+49	8849	ambiental	ambientais
+50	8850	respiratorio	respiratoria respiratorias respiratorios
+51	8851	brasa	brasas
+52	8852	rosquilla	rosquillas
+53	8853	desequilibrar	desequilibrada desequilibrado desequilibran
+54	8854	estibador	estibadores
+55	8855	ciclón	ciclóns
+56	8856	complementar	complementa complemento complementos
+57	8857	críptico	críptica crípticas
+58	8858	polisón	polisóns
+59	8859	nasal	nasais
+60	8860	indeterminado	indeterminada
+61	8861	fronteirizo	fronteiriza fronteirizos
+62	8862	adobiar	adobiado adobiados adobían
+63	8863	desobediente	desobedientes
+64	8864	saloucar	saloucando salouco
+65	8865	xiratorio	xiratoria
+66	8866	coqueto	coqueta coquetas
+67	8867	balear	baleado baleares balearon
+68	8868	narrar	narra narrado narrou
+69	8869	caír	caímos caíra caíron
+70	8870	epiléptico	epiléptica epilépticos
+71	8871	desfalecer	desfalece desfalezo
+72	8872	acariñar	acariñarche acariñas
+73	8873	coio	coios
+74	8874	disentir	disentirían disentían
+75	8875	temerario	temerarios
+76	8876	bucear	buceaba buceo
+77	8877	impensable	impensables
+78	8878	odioso	odiosa
+79	8879	eliminatorio	eliminatoria eliminatorias
+80	8880	porro	porros
+81	8881	parlamentario	parlamentaria parlamentarios
+82	8882	buxía	buxías
+83	8883	balístico	balística balísticos
+84	8884	limoeiro	limoeiros
+85	8885	obseso	obsesos
+86	8886	apoucar	apoucada apoucadas apoucado
+87	8887	sigla	siglas
+88	8888	simpatizante	simpatizantes
+89	8889	comestible	comestibles
+90	8890	seccionar	seccionada seccionando seccionou
+91	8891	vacilante	vacilantes
+92	8892	fraqueza	fraquezas
+93	8893	incinerar	incinerado incineren incinerou
+94	8894	pavoroso	pavorosa pavorosas
+95	8895	impío	impíos
+96	8896	traveseiro	traveseiros
+97	8897	intuír	intuía intúe intúo
+98	8898	dramaturgo	dramaturga dramaturgos
+99	8899	alaranxado	alaranxada
+100	8900	desvergoñado	desvergoñada desvergoñados

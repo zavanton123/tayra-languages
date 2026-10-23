@@ -1,0 +1,100 @@
+1	6701	costureiro	costureira costureiras
+2	6702	xunco	xuncos
+3	6703	farol	farois
+4	6704	cerco	cercos
+5	6705	ameazante	ameazantes
+6	6706	fardo	fardos
+7	6707	despezar	despece despezadas despezado
+8	6708	alicate	alicates
+9	6709	salgueiro	salgueiros
+10	6710	educador	educadores
+11	6711	filósofo	filósofos
+12	6712	concelleiro	concelleira concelleiros
+13	6713	norvietnamita	norvietnamitas
+14	6714	imprudente	imprudentes
+15	6715	infarto	infartos
+16	6716	expiatorio	expiatoria expiatorios
+17	6717	choza	chozas
+18	6718	dicionario	diccionario dicionarios
+19	6719	perverter	pervertido pervertidos
+20	6720	vándalo	vándalos
+21	6721	degradación	degradacións
+22	6722	olor	olores
+23	6723	resplandecente	resplandecentes
+24	6724	improbable	improbábel
+25	6725	ámbito	ámbitos
+26	6726	infiel	infieis
+27	6727	dardo	dardos
+28	6728	desprazamento	desprazamentos
+29	6729	sedutor	sedutora sedutoras
+30	6730	asemellar	asemella asemellan
+31	6731	persuadir	persuadiron persuadiu
+32	6732	poza	pozas
+33	6733	insignia	insignias
+34	6734	contable	contables
+35	6735	amazona	amazonas
+36	6736	comparable	comparables comparábel
+37	6737	difuso	difusa
+38	6738	extractar	extracto extractos
+39	6739	prestación	prestacións
+40	6740	represivo	represiva represivas
+41	6741	lapote	lapotes
+42	6742	metropolitano	metropolitana
+43	6743	implacable	implacables
+44	6744	psicose	psicoses
+45	6745	sirena	sirenas
+46	6746	cera	ceras
+47	6747	inquedanza	inquedanzas
+48	6748	chalar	chalada chaladas chalado
+49	6749	equivaler	equivale equivalería equivalían
+50	6750	mexer	mexa mexamos mexan mexas mexe mexei mexelos mexendo mexerme mexes mexidas
+51	6751	inevitablemente	inevitabelmente
+52	6752	carracha	carrachas
+53	6753	lenzo	lenzos
+54	6754	pereira	pereiras
+55	6755	aroma	aromas
+56	6756	dactilar	dactilares
+57	6757	variable	variables variábel
+58	6758	naval	navais
+59	6759	brazalete	brazaletes
+60	6760	libreiro	libreira
+61	6761	atarefado	atarefados
+62	6762	nocello	nocellos
+63	6763	trivial	triviais
+64	6764	emotivo	emotiva emotivos
+65	6765	escintilante	escintilantes
+66	6766	previsión	previsións
+67	6767	provocación	provocacións
+68	6768	inaceptábel	inaceptábeis
+69	6769	antiatómico	antiatómicos
+70	6770	épico	épica épicas
+71	6771	comediante	comediantes
+72	6772	plebeo	plebea plebeas plebeos
+73	6773	tibetano	tibetana tibetanas tibetanos
+74	6774	túnica	túnicas
+75	6775	cuncha	cunchas
+76	6776	dependencia	dependencias
+77	6777	flanco	flancos
+78	6778	pancarta	pancartas
+79	6779	magnate	magnates
+80	6780	rochoso	rochosa rochosas rochosos
+81	6781	murcho	murcha murchas murchos
+82	6782	rollo	rollos
+83	6783	incentivar	incentivo incentivos
+84	6784	lituano	lituanos
+85	6785	pupitre	pupitres
+86	6786	ferroviario	ferroviarias ferroviarios
+87	6787	caldeira	caldeiras
+88	6788	repleto	repletas repletos
+89	6789	preventivo	preventiva
+90	6790	carreteiro	carreteiras carreteiros
+91	6791	arenque	arenques
+92	6792	fotocopiar	fotocopia fotocopiadas fotocopias
+93	6793	cromo	cromos
+94	6794	morcego	morcegos
+95	6795	xeográfico	xeográfica xeográficas
+96	6796	zapateiro	zapateiros
+97	6797	xeolóxico	xeolóxica xeolóxicos
+98	6798	panadaría	panadería
+99	6799	escravista	escravistas
+100	6800	bisavó	bisavós

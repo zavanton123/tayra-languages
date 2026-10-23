@@ -1,0 +1,100 @@
+1	8701	rancio	rancia
+2	8702	bocha	bochas
+3	8703	cartilla	cartillas
+4	8704	insán	insá
+5	8705	enmeigar	enmeigada enmeigado
+6	8706	agraviar	agravio agravios
+7	8707	incalculábel	incalculábeis
+8	8708	meteorólogo	meteoróloga meteorólogos
+9	8709	indesexable	indesexables
+10	8710	microfilmar	microfilmados microfilme
+11	8711	viñedo	viñedos
+12	8712	viticultor	viticultora viticultores
+13	8713	redactor	redactores
+14	8714	lindar	linden
+15	8715	esperanzado	esperanzada
+16	8716	emanación	emanacións
+17	8717	punzante	punzantes
+18	8718	cadeado	cadeados
+19	8719	alba	albas
+20	8720	xenético	xenéticas
+21	8721	espiño	espiños
+22	8722	peido	peidos
+23	8723	moca	mocas
+24	8724	traveso	travesa
+25	8725	exemplificar	exemplifica exemplificou
+26	8726	esquivo	esquiva
+27	8727	lexislativo	lexislativa
+28	8728	irremediablemente	irremediabelmente
+29	8729	fiable	fiables
+30	8730	cuestionable	cuestionables
+31	8731	queixeiro	queixeiros
+32	8732	abusón	abusóns
+33	8733	fochicar	fochicas
+34	8734	traizoeiro	traizoeira
+35	8735	guindastre	guindastres
+36	8736	tártaro	tártaros
+37	8737	peregrinación	peregrinacións
+38	8738	incontrolable	incontrolábel
+39	8739	desalmado	desalmada
+40	8740	apolítico	apolítica
+41	8741	festín	festíns
+42	8742	palestra	palestras
+43	8743	ramaxe	ramaxes
+44	8744	porreiro	porreira
+45	8745	arqueolóxico	arqueolóxicos
+46	8746	faragulla	faragullas
+47	8747	cuneta	cunetas
+48	8748	adversidade	adversidades
+49	8749	albornoz	albornoces
+50	8750	meticuloso	meticulosos
+51	8751	vacina	vacinas
+52	8752	resaltar	resaltará
+53	8753	hipocrisía	hipocrisías
+54	8754	vibrar	vibraba
+55	8755	antibiótico	antibióticos
+56	8756	pardal	pardais
+57	8757	crisantemo	crisantemos
+58	8758	bruar	brúa
+59	8759	integrante	integrantes
+60	8760	peleteiro	peleteiras peleteiros
+61	8761	epitafio	epitafios
+62	8762	atardecer	atardeceres
+63	8763	intoxicar	intoxicado intoxicados
+64	8764	puntuación	puntuacións
+65	8765	pendello	pendellos
+66	8766	avinzar	avinzamos
+67	8767	comentarista	comentaristas
+68	8768	deparar	depara deparará
+69	8769	alambrar	alambrada alambradas
+70	8770	fento	fentos
+71	8771	informal	informais
+72	8772	chinche	chinches
+73	8773	cordel	cordeis
+74	8774	rimar	rime
+75	8775	tugurio	tugurios
+76	8776	pedagóxico	pedagóxica
+77	8777	refrescante	refrescantes
+78	8778	indefinido	indefinida
+79	8779	pincel	pinceis
+80	8780	rapeiro	rapeira rapeiros
+81	8781	visionario	visionaria
+82	8782	restabelecer	restabelecen
+83	8783	agridoce	agridoces
+84	8784	sobrenatural	sobrenaturais
+85	8785	centinela	centinelas
+86	8786	fresar	fresa fresas
+87	8787	gaita	gaitas
+88	8788	mormón	mormoa
+89	8789	inquietante	inquietantes
+90	8790	momia	momias
+91	8791	opereta	operetas
+92	8792	vasoira	vasoiras
+93	8793	intolerábel	intolerábeis
+94	8794	gol	goles
+95	8795	maoísta	maoístas
+96	8796	presunto	presuntos
+97	8797	menstrual	menstruais
+98	8798	muscular	musculares
+99	8799	sonámbulo	sonámbula
+100	8800	pousadeiro	pousadeiros

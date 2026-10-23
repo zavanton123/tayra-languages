@@ -1,0 +1,100 @@
+1	601	oportunidade	oportunidades
+2	602	abandonar	abandona abandonaches abandonada abandonadas abandonade abandonado abandonados abandonala abandonalo abandonamos abandonan abandonando abandonarei abandonaremos abandonaren abandonarme abandonaron abandonarte abandonarvos abandonará abandonarías abandonas abandonasen abandone abandonedes abandonei abandoneino abandonemos abandonen abandones abandono abandonoo abandonou abandonoume abandonouna abandonáchesnos abandonádenos abandonárono abandónate
+3	603	hotel	hoteis
+4	604	cen	cento centos
+5	605	fondo	fonda fondas fondos
+6	606	triste	tristes
+7	607	relación	relacións
+8	608	interesar	interesa interesaba interesaban interesache interesaches interesada interesadas interesades interesados interesan interesanche interesanos interesao interesarlle interesarme interesarnos interesaron interesarse interesarte interesará interesaría interesaríame interesaríate interesas interesase interesasen interesen intereso interesou interesouse interesábanos interésache interésalle interésalles interésame interésanche interésanlle interésanme interésanos
+9	609	combater	combata combatamos combatan combate combatela combatelo combatelos combatemos combaten combatendo combatera combateremos combates combatestes combateu combatiamos combatidas combatía combatían
+10	610	compañía	compañías
+11	611	metro	metros
+12	612	cativo	cativa cativas cativos
+13	613	asasinar	asasina asasinaches asasinada asasinadas asasinado asasinados asasinalo asasinan asasinando asasinaran asasinaren asasinarme asasinaron asasinas asasine asasinei asasineino asasinou asasináchelos asasinárona asasináronme asasinárono
+14	614	servizo	servizos
+15	615	divertir	divertida divertidas divertido divertidos divertimos divertindo divertiremos divertiren divertirme divertirnos divertirte divertirán divertirémonos divertiu divertía divertíame divertíase divertímonos divertíndonos divertíndovos divirta divirtan divirtas divirte divirten divirto divírtanse divírtase divírteche divírtelle divírteme divírtenos divírtense divírtese divírtoos
+16	616	simplemente	
+17	617	dirección	direccións
+18	618	correcto	correcta correctas correctos
+19	619	queimar	queima queimaba queimaban queimada queimadas queimade queimado queimados queimala queimalo queimalos queimamos queiman queimando queimara queimarase queimaremos queimarlles queimarme queimaron queimarse queimarte queimará queimaría queimasen queime queimei queimeime queimou queimoume queimouse queimádeo queimádeos queimándome queimándoos queimándose queimáronse quéimaa quéimanse
+20	620	través	
+21	621	persoal	persoais
+22	622	don	dona donas dons
+23	623	cinema	
+24	624	illa	illas
+25	625	exactamente	
+26	626	oficina	oficinas
+27	627	suceder	suceda sucedan sucede suceden sucedendo sucedera sucederalles sucederan sucederlle sucederme sucederon sucederse sucederá sucedería sucedese sucedeu sucedeume sucedido sucedéndolles sucedéronse sucedía sucédeme sucédense
+28	628	actuar	actuaba actuaches actuade actuades actuado actuamos actuando actuara actuarei actuaremos actuaren actuarmos actuaron actuará actuarán actuarás actuaría actuarían actuase actuei actuemos actuou actuásemos actúa actúan actúas actúe actúen actúo
+29	629	batalla	batallas
+30	630	franco	franca francos
+31	631	xornal	xornais
+32	632	pena	penas
+33	633	antigo	antiga antigas antigos
+34	634	liberar	libera liberache liberada liberadas liberade liberades liberado liberados liberais liberalos liberamos liberando liberaran liberarei liberareite liberarme liberarnos liberarse liberarte liberarvos liberará liberarás liberaría libere liberei libereino liberen libero liberou liberoume liberándoo libérame libéranos libérao libéraos libérate libéravos libérote libérovos
+35	635	normal	normais
+36	636	rico	rica ricas ricos
+37	637	río	ríos
+38	638	xeneral	xenerais
+39	639	opinión	opinións
+40	640	perfecto	perfecta perfectas perfectos
+41	641	canción	cancións
+42	642	respecto	respectos
+43	643	alma	almas
+44	644	cheo	cheas chen cheos
+45	645	compartir	comparta compartamos compartas comparte comparten compartes compartiamos compartiches compartida compartide compartido compartidos compartilas compartilo compartilos compartimos compartindo compartira compartirei compartiremos compartirmos compartirá compartirán compartiría compartiríamos compartiu comparto compartía compartían compartías compartímolo compartíndoa compártea
+46	646	canso	cansa cansas cansos
+47	647	edificio	edificios
+48	648	terceiro	terceira terceiras terceiros
+49	649	comprar	compra compraba compraches comprado comprados comprala compralas compralo compramos compran comprara comprarcha comprarei comprareino comprarlle comprarme comprarmos compraron comprará compraría compras comprases compre comprei compreime compreinos compremos compro comprou comprouche comprouna compráchelo comprámolo compráramos cómprame cómprao cómpraslle cómproche cómprolle
+50	650	danar	danada danado danados danando danaron danaría danas dano danos
+51	651	enfermo	enferma enfermas enfermos
+52	652	seguridade	
+53	653	xudeu	xudeus xudía xudías
+54	654	resposta	respostas
+55	655	defender	defenda defende defendede defendedes defendela defendelas defendelo defendelos defendemos defenden defendendo defendera defenderei defenderemos defenderen defenderme defendernos defenderon defenderse defenderte defenderán defenderémoste defendes defendeu defendeuno defendeute defendida defendo defendédeo defendémonos defendía defendían defendíanse defendín deféndase deféndeche deféndelo deféndese deféndete
+56	656	levantar	levanta levantaba levantada levantade levantado levantalas levantalo levantan levantando levantaras levantarme levantaron levantarse levantarte levantas levantase levante levantei levantemos levanten levantes levanto levantou levantoume levantouna levantouse levantábame levantácheste levantádea levantádeo levantáronse levántache levántano levántanse levántao levántase levántate levántese levántome
+57	657	enganar	engana enganaba enganaban enganaches enganada enganado enganados enganala enganalos enganamos enganan enganando enganaran enganaredes enganarlle enganarme enganarnos enganarte enganarvos enganará enganarás enganaselle enganei enganeino enganeinos enganen enganes engano enganos enganou enganoume enganounos enganouvos enganábavos enganándome enganándoos enganárono engánao engánase
+58	658	idade	idades
+59	659	carne	carnes
+60	660	cidadán	cidadá cidadáns cidadás instrucións
+61	661	tenda	tendas
+62	662	pan	pans
+63	663	maioría	
+64	664	descansar	descansa descansaba descansaches descansade descansado descansamos descansan descansando descansardes descansarei descansaremos descansará descansas descansase descansases descanse descansei descansen descanses descanso
+65	665	xurar	xuraba xuraches xurada xuradas xurade xurado xurados xuralo xuramos xuran xurando xuraron xuraría xuras xurastes xure xurei xureille xuremos xuren xurou xurouno xuráchesme xurámosche xuráranse xuráronvos xuróvolo xúralle xúralo xúrame xúranse xúrao xúrasmo xúroche xúrocho xúrolle xúrollo xúroo xúrovos
+66	666	social	sociais
+67	667	par	
+68	668	radio	radios
+69	669	igrexa	igrexas
+70	670	árbore	árbores
+71	671	achegar	achega achegaba achegaban achegabámonos achegaches achegada achegado achegados achegamos achegan achegando acheganos achegara achegarme achegarnos achegaron achegarse achegarte achegará achegaría achegaríame achegas achegase achegou achegue acheguedes acheguen achegues achegábame achegábase achegándonos achegándote achegáronse achegóuseme achégame achégaseme achégasme achéguense achéguese
+72	672	mentir	menten mentes mentiches mentides mentido mentimos mentindo mentiranas mentiras mentirche mentirei mentirlle mentirlles mentirme mentirá mentirán mentiráns mentiría mentirías mentise mentiu mentiuche mentiume mentía mentíache mentías mentímoslles mentín mentíndote mentíulle minta mintamos mintas minte minto méntese ménteslle míntolle míntome
+73	673	principio	principios
+74	674	gato	gata gatas gatiño gatos
+75	675	vila	vilas
+76	676	recuperar	recupera recuperaba recuperaches recuperada recuperadas recuperado recuperados recuperala recuperalas recuperalo recuperalos recuperan recuperando recuperaredes recuperarei recuperaremos recuperares recuperarme recuperarmos recuperaron recuperarse recuperará recuperarás recuperas recupere recuperei recupereime recupereina recuperemos recuperen recuperes recuperou recuperouse recuperábase recuperácheste recuperándose recuperásemos recupérao recupérase
+77	677	escapar	escapa escapaba escapaban escapada escapadas escapado escapamos escapan escapando escapara escaparan escaparei escapariamos escaparme escaparon escapará escaparás escaparían escapas escape escapei escapemos escapen escapes escapou escapouche escapoume escapounos escapouse escapáronvos escapóuseme escápame
+78	678	asasino	asasina asasinas asasinos
+79	679	enriba	
+80	680	xeral	xerais
+81	681	encantar	encanta encantaba encantabame encantada encantado encantados encantan encantarlles encantará encantarálle encantaría encantaríache encantaríalle encantaríanos encante encantou encantoulles encantábache encantáballe encantábame encantábanos encantábao encántache encántalle encántalles encántanche encántanlles encántanos encántanvos encántate encántavos
+82	682	pelo	pelos
+83	683	ouro	
+84	684	soñar	soña soñaba soñabamos soñaban soñaches soñada soñadas soñado soñalo soñamos soñan soñando soñara soñaran soñaras soñaremos soñaron soñas soñase soñases soñe soñei soñeino soñes soñou
+85	685	compañeiro	compañeira compañeiras compañeiros
+86	686	zona	zonas
+87	687	lista	listas
+88	688	pedra	pedras
+89	689	mesa	mesas
+90	690	calor	
+91	691	lavar	lava lavaba lavaches lavada lavadas lavades lavado lavados lavala lavalas lavalo lavalos lavamos lavan lavando lavara lavarche lavarlle lavarme lavarnos lavaron lavarse lavarte lavarvos lavas lavedes laven laves lavo lavou lavámolo lavámolos lavámonos lávame lávao lávaos lávase lávate lávolle
+92	692	aire	aires
+93	693	alteza	altezas
+94	694	organizar	organice organicei organicemos organicen organiza organizaba organizaban organizada organizadas organizado organizados organizala organizalo organizamos organizan organizando organizara organizaren organizarmos organizarnos organizaron organizarse organizarte organizarán organizas organizo organizou organizouse organizábase organizámola organizámolo organizámonos organizárense organizárono organízanos organízanse organízaronse organízase organízate
+95	695	maio	
+96	696	pracer	prace pracen praceres práceme
+97	697	aldea	aldeas
+98	698	máquina	máquinas
+99	699	ademais	
+100	700	especial	especiais

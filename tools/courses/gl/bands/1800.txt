@@ -1,0 +1,100 @@
+1	1701	xeado	xeada xeadas xeados xiada
+2	1702	alugar	aluga alugada alugado alugados alugalo alugalos alugamos alugan alugarei alugarme alugaron alugarse alugas alugou aluguei alugueino alugues alúgase
+3	1703	cabalgar	cabalga cabalgabamos cabalgaches cabalgada cabalgade cabalgades cabalgamos cabalgan cabalgando cabalgara cabalgarades cabalgaredes cabalgarei cabalgaremos cabalgaron cabalgará cabalgarás cabalgases cabalgou cabalgue cabalguei cabalguemos
+4	1704	mediodía	
+5	1705	liberación	
+6	1706	oxalá	
+7	1707	area	areas
+8	1708	amizade	amizades
+9	1709	ocupación	ocupacións
+10	1710	relixión	relixións
+11	1711	camisa	camisas
+12	1712	raza	razas
+13	1713	exercicio	exercicios
+14	1714	discusión	discusións
+15	1715	nube	nubes
+16	1716	opción	opcións
+17	1717	meniña	meniñas meniño meniños
+18	1718	cerca	cercas
+19	1719	mosca	moscas
+20	1720	colleita	colleitas
+21	1721	lisca	liscas
+22	1722	vagar	vagaba vagaban vagabas vagada vagadas vagando vagas vago vagos vagou vague vaguedes vaguei vágase
+23	1723	ligar	liga ligaba ligabamos ligada ligadas ligado ligados ligando ligas ligasen ligo ligou ligue liguemos lígalle lígueme
+24	1724	gris	grises
+25	1725	campesiño	campesiña campesiñas campesiños
+26	1726	canda	
+27	1727	febreiro	
+28	1728	seguramente	
+29	1729	tele	
+30	1730	resistencia	
+31	1731	piedade	
+32	1732	piscina	piscinas
+33	1733	emerxencia	emerxencias
+34	1734	comercio	comercios
+35	1735	deserto	desertos
+36	1736	sorriso	sorrisos
+37	1737	cruel	crueis
+38	1738	león	leóns
+39	1739	ovella	ovellas
+40	1740	círculo	círculos
+41	1741	pintura	pinturas
+42	1742	bandido	bandidos
+43	1743	costume	costumes
+44	1744	lento	lenta lentas lentos
+45	1745	extremo	extrema extremas extremos
+46	1746	británico	británica británicas británicos
+47	1747	basto	basta bastos
+48	1748	comercial	comerciais
+49	1749	guindar	guinda guindaba guindaban guindaches guindade guindados guindala guindalos guindamos guindan guindando guindara guindarate guindarlle guindarme guindarnos guindaron guindarían guindase guindei guindeille guindemos guinden guindou guindouna guindouse guindáronme guindásemos guíndame guíndao guíndase
+50	1750	vingar	vinga vingabades vingalo vingalos vingan vingando vingarei vingaremos vingarme vingarnos vingarse vingarte vingarían vingase vinguemos vingues vinguémonos víngao
+51	1751	apetecer	apetece apetecese apetecía apetecíame apeteza apetéceche apetécelle apetéceme apetécevos apéteceme
+52	1752	ambiente	ambientes
+53	1753	circunstancia	circunstancias
+54	1754	trucar	trucado trucados trucan truco trucos
+55	1755	dominar	domina dominaba dominaban dominada dominado dominados dominamos dominan dominando dominará dominarán dominaría domine dominen domino dominou dominándoa domínaa domínano
+56	1756	determinar	determina determinaches determinada determinadas determinado determinados determinan determinaron determinarán determinasen determine determinemos determínase
+57	1757	venres	
+58	1758	tenente	
+59	1759	fortuna	fortunas
+60	1760	novela	novelas
+61	1761	criatura	criaturas
+62	1762	pinta	pintas
+63	1763	apostar	aposta apostala apostalo apostamos apostan apostando apostares apostaron apostaría apostas apostei apostes apostou apóstoche
+64	1764	arruinar	arruinaches arruinada arruinado arruinados arruinamos arruinando arruinaremos arruinaron arruinaría arruine arruinei arruines arruino arruinou arruínes
+65	1765	xiro	xiros
+66	1766	curioso	curiosa curiosas curiosos
+67	1767	barricada	barricadas
+68	1768	claramente	
+69	1769	newton	
+70	1770	decembro	
+71	1771	crime	crimes
+72	1772	cobre	
+73	1773	palacio	palacios
+74	1774	laboratorio	laboratorios
+75	1775	cunca	cuncas
+76	1776	cerimonia	cerimonias
+77	1777	comunicación	comunicacións
+78	1778	tanque	tanques
+79	1779	aburrido	aburrida aburridas aburridos
+80	1780	desprezar	despreces despreza desprezaba desprezaban desprezada desprezadas desprezado desprezados desprezamos desprezan desprezas desprezo desprezos desprezábanme desprézanme desprézannos desprézaste desprézoa desprézoos
+81	1781	estourar	estoura estouramos estouran estourando estouraran estouraron estourará estoure estourei estouros estourou
+82	1782	soterrar	soterra soterrabamos soterrada soterradas soterrado soterrados soterrala soterralas soterralo soterralos soterramos soterran soterraran soterrarana soterraremos soterrarnos soterraron soterrarse soterrarémola soterras soterre soterrei soterremos soterrou
+83	1783	termar	terma termaba termaban termade terman termará termasen terme termei térmalle térmame térmonos
+84	1784	aumentar	aumenta aumentaban aumentada aumentalo aumentamos aumentan aumentando aumentarche aumentaremos aumentaron aumentará aumentaría aumentasen aumentei aumentemos aumenten aumentou
+85	1785	revisar	revisa revisaba revisada revisado revisados revisamos revisan revisando revisara revisarei revisaron revisei revisemos reviso revisou
+86	1786	invitar	invita invitaches invitada invitado invitados invitalo invitalos invitamos invitarei invitaron invitas invitei invito invitou
+87	1787	bloquear	bloquea bloqueaba bloqueada bloqueadas bloqueado bloqueados bloqueamos bloquean bloqueando bloquearemos bloquearnos bloquearon bloquearse bloquearán bloqueas bloquee bloqueei bloqueen bloquees bloqueo bloqueou bloqueounos bloquéase
+88	1788	al	
+89	1789	sufrimento	sufrimentos
+90	1790	oferta	ofertas
+91	1791	reparar	repara reparabamos reparaban reparaches reparada reparade reparado reparala reparalo reparamos reparan reparara repararas reparará repararás repare reparei reparen repares reparo reparos reparou repáranse
+92	1792	expulsar	expulsa expulsada expulsade expulsado expulsados expulsamos expulsan expulsando expulsaran expulsaron expulsaría expulsarían expulse expulsemos expulsen expulsou
+93	1793	lago	lagos
+94	1794	sobriño	sobriña sobriñas sobriños
+95	1795	estudio	estudios
+96	1796	cazador	cazadora cazadores
+97	1797	elemento	elementos
+98	1798	irlandés	irlandesa irlandeses
+99	1799	cagar	caga cagaba cagabades cagaban cagaches cagada cagado cagados cagala cagan cagarías cagas cago cagou cagouna caguen cagues cagábanlle cágase
+100	1800	investigar	investiga investigaba investigada investigadas investigado investigalas investigalo investigamos investigan investigando investigarse investigas investigase investigo investigou investigouno investiguei investiguemos investígannos investígao investígase

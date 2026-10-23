@@ -1,0 +1,100 @@
+1	1801	educar	educa educada educadas educado educados educalo educalos educamos educan educaron educarte educará educáronme eduque eduquei edúcana
+2	1802	independencia	
+3	1803	infancia	
+4	1804	destrución	
+5	1805	alegría	alegrías
+6	1806	museo	museos
+7	1807	corredor	corredores
+8	1808	trampa	trampas
+9	1809	figura	figuras
+10	1810	adulto	adulta adultas adultos
+11	1811	voluntario	voluntaria voluntarias voluntarios
+12	1812	reaccionar	reacciona reaccionabamos reaccionaban reaccionado reaccionan reaccionando reaccionardes reaccionaron reaccionarían reaccionas reaccionei reacciono reaccionou
+13	1813	cola	colas
+14	1814	cultural	culturais
+15	1815	máscara	máscaras
+16	1816	sexual	sexuais
+17	1817	feble	febles
+18	1818	orella	orellas
+19	1819	bravo	brava bravas bravos
+20	1820	dedicar	dedica dedicada dedicadas dedicado dedicados dedicamos dedican dedicando dedicara dedicarlle dedicarme dedicarse dedicará dedicarás dedicas dedico dedicou dedicoulle dediquei dedícame dedícase
+21	1821	vinganza	
+22	1822	encol	
+23	1823	tolemia	tolemias
+24	1824	whisky	whiskys
+25	1825	armadura	armaduras
+26	1826	función	funcións
+27	1827	tarxeta	tarxetas
+28	1828	froita	froitas
+29	1829	canle	canles
+30	1830	serpe	serpes
+31	1831	xesto	xestos
+32	1832	burgués	burguesa burguesas burgueses
+33	1833	superar	supera superaban superaches superada superadas superado superados superamos superan superara superaramos superaron superará superas superase supere superei superou
+34	1834	hostia	hostias
+35	1835	restaurante	restaurantes
+36	1836	atentar	atenta atentado atentados atentas atento atentos atentou
+37	1837	manda	mandas
+38	1838	espido	espida espidas espidos
+39	1839	diferenciar	diferencia diferenciado diferencias diferencio
+40	1840	concertar	concertada concertadas concertarei concerto concertos concertou
+41	1841	manexar	manexa manexaba manexado manexados manexala manexalas manexalo manexalos manexan manexara manexarao manexarei manexarse manexarvos manexas manexo
+42	1842	repartir	reparta repartamos repartan reparte reparten repartes repartido repartidos repartimos repartindo repartirei repartiremos repartiren repartiría reparto repartía repartían repartín
+43	1843	xurdir	xorde xorden xordes xurdan xurdida xurdidas xurdido xurdiran xurdiron xurdirá xurdiría xurdiu xurdiume xurdía xurdían
+44	1844	pillar	pilla pillaban pillaches pillades pillado pillados pillamos pillan pillarei pillaremos pillaron pillarán pillarás pillas pillasen pille pillei pillen pillo pillos pillou
+45	1845	ningures	
+46	1846	intelixencia	
+47	1847	novembro	
+48	1848	ledicia	ledicias
+49	1849	tecnoloxía	tecnoloxías
+50	1850	asistente	asistenta asistentes
+51	1851	progreso	progresos
+52	1852	culpable	culpables
+53	1853	lobo	loba lobos
+54	1854	bloque	bloques
+55	1855	débeda	débedas
+56	1856	finxir	finxa finxamos finxas finxe finxen finxes finxiches finxida finxido finximos finxindo finxiu finxo finxía finxín
+57	1857	oso	osos
+58	1858	rastro	rastros
+59	1859	escándalo	escándalos
+60	1860	queixo	queixos
+61	1861	lear	leais lean leas lee leo
+62	1862	acougar	acouga acougaba acougada acougade acougado acougala acougalo acougalos acougarme acougaron acougará acougas acougou acougue acouguen
+63	1863	arrincar	arrinca arrincaba arrincaches arrincada arrincadas arrincalo arrincan arrincarche arrincarlle arrincarlles arrincarme arrincaron arrincarte arrincaría arrincaríache arrincas arrincasen arrinco arrincou arrincoulle arrincouse arrincáchesme arrinque arrinquen arrinques arríncalle arríncanllos arríncante arríncase arríncocha arríncoume
+64	1864	autorizar	autorice autoricei autoriza autorizada autorizadas autorizado autorizados autorizalo autorizamos autorizan autorizando autorizaron autorizarte autorizase autorizo autorizou autorizoume autorizounos autorízao autorízase
+65	1865	estender	estenda estendan estende estendela estendemos estenden estendera estenderase estenderei estenderemos estenderse estendería estendeu estendida estendidas estendido estendidos estendérase estendía estendín esténdeme esténdense esténdeo esténdete
+66	1866	amarelo	amarela amarelas amarelos
+67	1867	desesperado	desesperada desesperadas desesperados
+68	1868	esaxerar	esaxera esaxeraba esaxerada esaxeradas esaxerado esaxerados esaxeramos esaxeran esaxerando esaxerarei esaxeraron esaxeras esaxeremos esaxeres esaxero esaxerou
+69	1869	chisco	
+70	1870	verdadeiramente	
+71	1871	tamaño	tamaños
+72	1872	participación	participacións
+73	1873	símbolo	símbolos
+74	1874	fulano	fulanos
+75	1875	orixinal	orixinais
+76	1876	pano	panos
+77	1877	corvo	corvos
+78	1878	ferramenta	ferramentas
+79	1879	diaño	diaños
+80	1880	rumor	rumores
+81	1881	norma	normas
+82	1882	aliado	aliada aliadas aliados
+83	1883	extraordinario	extraordinaria extraordinarias extraordinarios
+84	1884	nomear	nomea nomeada nomeade nomeados nomeala nomealo nomealos nomeamos nomean nomeando nomeara nomearei nomearemos nomearon nomearía nomearíavos nomee nomees nomeo nomeou nomeoume nomeoute nomeárono noméano noméante noméao
+85	1885	relacionar	relaciona relacionabamos relacionada relacionadas relacionado relacionados relacionan relacionas relacionedes relaciones relaciono
+86	1886	practicar	practica practicaba practicaban practicada practicado practicamos practican practicando practicaran practicaras practicaron practicase practico practicou practiquei practiquen practiques
+87	1887	rifar	rifa rifabamos rifamos rifan rifando rifara rifaran rifarme rifarmos rifaron rifará rifaríades rifas rifastes rife rifei rifemos rifes rifou rifáronme
+88	1888	percorrer	percorre percorremos percorren percorrendo percorrera percorrerei percorreron percorrerá percorrería percorres percorrestes percorreu percorriches percorrido percorridos percorro percorría percorrían percorrín
+89	1889	perfectamente	
+90	1890	parabéns	
+91	1891	electricidade	
+92	1892	biblioteca	bibliotecas
+93	1893	identidade	identidades
+94	1894	chaqueta	chaquetas
+95	1895	explicación	explicacións
+96	1896	castaño	castañas castaños
+97	1897	territorio	territorios
+98	1898	orixe	orixes
+99	1899	batallón	batallóns
+100	1900	forno	fornos

@@ -1,0 +1,100 @@
+1	5901	naipe	naipes
+2	5902	xoieiro	xoieiros
+3	5903	fraternal	fraternais
+4	5904	ganga	gangas
+5	5905	tifón	tifóns
+6	5906	infiltración	infiltracións
+7	5907	aparcadoiro	aparcadoiros
+8	5908	escandaloso	escandalosas escandalosos
+9	5909	referente	referentes
+10	5910	rareza	rarezas
+11	5911	editorial	editoriais
+12	5912	reprodución	reproducións
+13	5913	calvo	calvas calvos
+14	5914	inerte	inertes
+15	5915	hipoteca	hipotecas
+16	5916	evasión	evasións
+17	5917	regulamentar	regulamentado regulamento regulamentos
+18	5918	loxístico	loxística loxísticos
+19	5919	cínico	cínica cínicos
+20	5920	talón	talóns
+21	5921	pardo	parda
+22	5922	maiúsculo	maiúscula maiúsculas
+23	5923	reembolsar	reembolsada reembolsado reembolso reembolsou
+24	5924	devandito	devandita devanditas
+25	5925	parcela	parcelas
+26	5926	tranquilizante	tranquilizantes
+27	5927	bastón	bastóns
+28	5928	convivir	convivan convivindo
+29	5929	pinza	pinzas
+30	5930	cocho	cochos
+31	5931	melancólico	melancólica melancólicas melancólicos
+32	5932	triplo	tripla
+33	5933	invernadoiro	invernadoiros
+34	5934	impropio	impropia impropias
+35	5935	costado	costados
+36	5936	trebón	trebóns
+37	5937	intestino	intestinos
+38	5938	virtuoso	virtuosa virtuosas
+39	5939	cometa	cometas
+40	5940	campeiro	campeiros
+41	5941	lerchán	lercháns
+42	5942	meco	meca mecos
+43	5943	gobernante	gobernanta gobernantes
+44	5944	fundamento	fundamentos
+45	5945	cuanto	cuantos
+46	5946	ala	alas
+47	5947	cofre	cofres
+48	5948	irregular	irregulares
+49	5949	cerna	cerne
+50	5950	adxunto	adxunta adxuntas
+51	5951	estacionamento	estacionamentos
+52	5952	albará	albarás
+53	5953	icona	iconas
+54	5954	sucesor	sucesora sucesores
+55	5955	cordial	cordiais
+56	5956	calella	calellas
+57	5957	mamut	mamuts
+58	5958	afondar	afonda afondado afondei
+59	5959	motivar	motivado motivados
+60	5960	olímpico	olímpica olímpicos
+61	5961	carballo	carballos
+62	5962	publicitario	publicitarias publicitarios
+63	5963	descartar	descartada descartado descartei
+64	5964	alicerce	alicerces
+65	5965	tempestade	tempestades
+66	5966	feudal	feudais
+67	5967	budista	budistas
+68	5968	sociólogo	sociólogos
+69	5969	agregar	agregada agregado agregados agregando
+70	5970	albanés	albanesa albanesas albaneses
+71	5971	investigador	investigadores
+72	5972	precio	precios
+73	5973	privación	privacións
+74	5974	xema	xemas
+75	5975	xeque	xeques
+76	5976	paifoco	paifocos
+77	5977	escaravello	escaravellos
+78	5978	adhesivo	adhesiva adhesivos
+79	5979	cullerada	culleradas
+80	5980	islámico	islámica
+81	5981	socialdemócrata	socialdemócratas
+82	5982	efémero	efémera efémeras
+83	5983	arrepentimento	arrepentimentos
+84	5984	noticiario	noticiarios
+85	5985	custoso	custosa custosas
+86	5986	destrutivo	destrutiva destrutivas destrutivos
+87	5987	canguro	canguros
+88	5988	subsidiar	subsidiada subsidiado subsidio subsidios
+89	5989	preferencia	preferencias
+90	5990	esquimó	esquimós
+91	5991	erixir	erixa erixido erixidos erixiu
+92	5992	contraatacar	contraatacan contraatacarán contraataque contraataquen contraataques
+93	5993	patriótico	patriótica patrióticas patrióticos
+94	5994	hiena	hienas
+95	5995	búnker	búnkeres
+96	5996	vergonzoso	vergonzosa vergonzosas
+97	5997	fungo	fungos
+98	5998	favorable	favorables favorábel
+99	5999	intruso	intrusos
+100	6000	barcaza	barcazas

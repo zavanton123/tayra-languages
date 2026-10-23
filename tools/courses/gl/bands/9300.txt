@@ -1,0 +1,100 @@
+1	9201	trebello	trebellos
+2	9202	decorador	decoradora
+3	9203	predecesor	predecesora
+4	9204	rotación	rotacións
+5	9205	siso	sisos
+6	9206	momentáneo	momentánea
+7	9207	armería	armerías
+8	9208	frondoso	frondosa frondosas
+9	9209	malhumorado	malhumorada
+10	9210	partidista	partidistas
+11	9211	fragmentar	fragmentaria
+12	9212	pulular	pululaban pululan
+13	9213	depresivo	depresiva
+14	9214	gandulo	gandulos
+15	9215	empacar	empacaban
+16	9216	bidón	bidóns
+17	9217	prendedor	prendedores
+18	9218	nacionalsocialista	nacionalsocialistas
+19	9219	venéreo	venérea venéreas
+20	9220	transcrición	transcricións
+21	9221	internacionalista	internacionalistas
+22	9222	pacificador	pacificadores
+23	9223	desherdado	desherdada desherdadas
+24	9224	incurable	incurables
+25	9225	sensacionalista	sensacionalistas
+26	9226	eventualidade	eventualidades
+27	9227	embalsamar	embalsamado embalsame
+28	9228	desprovisto	desprovistas
+29	9229	dinosauro	dinosauros
+30	9230	opresivo	opresiva opresivas
+31	9231	capotar	capota capote
+32	9232	arrear	arrea arreando
+33	9233	batedor	batedores
+34	9234	superfluo	superfluos
+35	9235	combustión	combustións
+36	9236	modista	modistas
+37	9237	bíblico	bíblica
+38	9238	medusa	medusas
+39	9239	marioneta	marionetas
+40	9240	empinar	empinado empinados
+41	9241	plataneiro	plataneiros
+42	9242	ligazón	ligazóns
+43	9243	vascular	vasculares
+44	9244	cronolóxico	cronolóxica
+45	9245	incoherencia	incoherencias
+46	9246	posesivo	posesiva
+47	9247	tabicar	tabique tabiques
+48	9248	alcoholismo	alcolismo
+49	9249	comprometedor	comprometedoras comprometedores
+50	9250	liberto	libertos
+51	9251	buxo	buxos
+52	9252	impreciso	imprecisa
+53	9253	ratificar	ratificada ratificou
+54	9254	adoutrinar	adoutrina
+55	9255	eufórico	eufórica
+56	9256	gratificación	gratificacións
+57	9257	equitativo	equitativa
+58	9258	subverter	subverteran subverteron
+59	9259	dereitista	dereitistas
+60	9260	inxurioso	inxuriosa inxuriosos
+61	9261	fríxido	fríxida fríxidos
+62	9262	canada	caneta
+63	9263	pernicioso	perniciosa
+64	9264	egocéntrico	egocéntricas
+65	9265	secuaz	secuaces
+66	9266	habitáculo	habitáculos
+67	9267	cardeal	cardeais
+68	9268	rasgar	rasgados rasgos
+69	9269	vicario	vicaria
+70	9270	veloz	veloces
+71	9271	carraspeira	carraspeiras
+72	9272	tónico	tónica
+73	9273	faísca	faíscas
+74	9274	canear	caneando
+75	9275	cincento	cincenta cincentos
+76	9276	estrofa	estrofas
+77	9277	certeiro	certeiros
+78	9278	autómata	autómatas
+79	9279	manchea	mancheas
+80	9280	implacábel	implacábeis
+81	9281	desnatar	desnatada desnatado
+82	9282	inculpar	inculpado inculpados
+83	9283	lacar	laca lacas
+84	9284	garrote	garrotes
+85	9285	sondar	sonda sondas
+86	9286	matogueira	matogueiras
+87	9287	guarnición	guarnicións
+88	9288	negociante	negociantes
+89	9289	adurmiñar	adurmiñado adurmiño
+90	9290	autocracia	autocracias
+91	9291	zombi	zombis
+92	9292	barullar	barulla barullando
+93	9293	pedimento	pedimentos
+94	9294	figurante	figurantes
+95	9295	trasto	trastos
+96	9296	careto	caretos
+97	9297	pasarela	pasarelas
+98	9298	chorón	chorona
+99	9299	andróxino	andróxina
+100	9300	atraente	atraentes

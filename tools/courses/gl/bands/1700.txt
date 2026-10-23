@@ -1,0 +1,100 @@
+1	1601	triunfar	triunfa triunfaba triunfaches triunfado triunfamos triunfan triunfaras triunfaremos triunfaron triunfará triunfas triunfe triunfei triunfes triunfo triunfos triunfou
+2	1602	garantir	garanta garante garanten garantes garantida garantidas garantido garantilas garantirche garantirlles garantirá garantiu garantía garantías garánteche garántese
+3	1603	tradición	tradicións
+4	1604	calidade	calidades
+5	1605	fila	filas
+6	1606	fusil	fusís
+7	1607	arquivo	arquivos
+8	1608	planta	plantas
+9	1609	rata	ratas
+10	1610	acaso	
+11	1611	conexo	
+12	1612	cruz	cruces
+13	1613	funeral	funerais
+14	1614	actual	actuais
+15	1615	ciencia	ciencias
+16	1616	curmán	curmá curmáns
+17	1617	cómodo	cómoda cómodas cómodos
+18	1618	negativo	negativa negativas negativos
+19	1619	tragar	traga tragado tragala tragalo tragamos tragan tragando tragaron tragaría tragas tragase trago tragos tragou tragouche tragoulle trague traguei traguen tragues tragándoo trágaa trágalo trágao trágome
+20	1620	conversa	conversas
+21	1621	coser	cosa cosan cosas cose cosela coselo cosen cosendo coserche cosería coseu cosiamos cosida cosido cosidos cosía cosín cósea cóseo
+22	1622	suxerir	suxeriches suxerida suxerides suxerimos suxerindo suxerirlle suxeriron suxeriría suxerirían suxerise suxeriu suxeriume suxeriute suxerían suxerín suxire suxiren suxires suxiro suxírevos suxírote
+23	1623	comprobar	comproba comprobaches comprobado comprobamos comprobando comprobarei comprobaron comprobasen comprobe comprobei comprobemos comproben comprobes comprobo comprobou
+24	1624	precisamente	
+25	1625	presenza	
+26	1626	soamente	
+27	1627	talento	talentos
+28	1628	comisión	comisións
+29	1629	coñecemento	coñecementos
+30	1630	vehículo	vehículos
+31	1631	dique	diques
+32	1632	desfilar	desfila desfilaba desfilaban desfilaches desfilan desfilando desfilaron desfilas desfile desfiles
+33	1633	privilexiar	privilexiada privilexiado privilexiados privilexio privilexios
+34	1634	obriga	obrigas
+35	1635	absolutamente	
+36	1636	cincuenta	
+37	1637	patio	patios
+38	1638	encontro	encontros
+39	1639	recurso	recursos
+40	1640	turista	turistas
+41	1641	promesa	promesas
+42	1642	profesional	profesionais
+43	1643	ambulancia	ambulancias
+44	1644	peto	petos
+45	1645	páxina	páxinas
+46	1646	sagrado	sagrada sagradas sagrados
+47	1647	italiano	italiana italianas italianos
+48	1648	habitante	habitantes
+49	1649	milagre	milagres
+50	1650	conquistar	conquista conquistada conquistadas conquistado conquistados conquistalo conquistamos conquistan conquistando conquistara conquistaron conquistará conquistas conquistei conquistou conquistoute conquistáronlla
+51	1651	experimentar	experimenta experimentaba experimentaches experimentada experimentades experimentado experimentados experimentamos experimentan experimentando experimentara experimentaran experimentaron experimentas experimentei experimentemos experimentou
+52	1652	lanzar	lancen lanzaban lanzaches lanzada lanzadas lanzade lanzado lanzados lanzamos lanzan lanzando lanzaremos lanzaron lanzará lanzo lanzou lanzásedes
+53	1653	linguaxe	
+54	1654	agosto	
+55	1655	redor	
+56	1656	sopa	sopas
+57	1657	teoría	teorías
+58	1658	uniforme	uniformes
+59	1659	culpábel	culpábeis
+60	1660	frase	frases
+61	1661	manifestación	manifestacións
+62	1662	poeta	poetas poetisa
+63	1663	representante	representantes
+64	1664	honesto	honesta honestas honestos
+65	1665	bágoa	bágoas
+66	1666	réxime	réximes
+67	1667	sospeitoso	sospeitosa sospeitosas sospeitosos
+68	1668	barato	barata baratas baratos
+69	1669	sair	sai saiades saiamos saias saimos saindo sairedes sairei sairemos sairlle sairmos sairá sairás saise saiu saiuche saiume saiuse saí saía saíamos saías saídas saíde saídes saído saídos saímos saíra saírades saíras saíres saístes
+70	1670	finar	fina finaches finado finados finais finas fines finou
+71	1671	pescar	pescaba pescado pescalo pescalos pescan pescando pescantes pescarei pescas pesco pescou pescouna pesquei péscano
+72	1672	libra	libras
+73	1673	reclamar	reclama reclamaban reclamada reclamadas reclamades reclamados reclamamos reclaman reclamando reclamara reclamaremos reclamará reclamas reclame reclamei reclamen reclamo reclamos reclamou
+74	1674	substituír	substituirá substituirán substituirían substituía substituída substituído substituíla substituílo substituímos substituíndo substituíra substituírao substituírme substituíron substituísen substituíu substituíume substitúa substitúame substitúan substitúe substitúen substitúo substitúoas
+75	1675	campión	campioa campións
+76	1676	histórico	histórica históricas históricos
+77	1677	cheiro	cheiros
+78	1678	paixón	paixóns
+79	1679	almorzo	almorzos
+80	1680	paquete	paquetes
+81	1681	consciente	conscientes
+82	1682	revolta	revoltas
+83	1683	maleta	maletas
+84	1684	belo	bela belas belos
+85	1685	división	divisións
+86	1686	inmediato	inmediata inmediatas inmediatos
+87	1687	roda	rodas
+88	1688	mexar	mexa mexaba mexabas mexaches mexada mexamos mexan mexando mexarvos mexas mexe mexei mexes mexo mexos mexou mexándoo méxome
+89	1689	cultivar	cultiva cultivaba cultivada cultivade cultivado cultivamos cultivan cultivando cultivaredes cultivaron cultivaría cultivo cultivos cultivou
+90	1690	protección	proteccións
+91	1691	campaña	campañas
+92	1692	economía	economías
+93	1693	xuramento	xuramentos
+94	1694	versión	versións
+95	1695	centavo	centavos
+96	1696	condutor	condutora condutoras condutores
+97	1697	cela	celas
+98	1698	exame	exames
+99	1699	mazá	mazás
+100	1700	preocupación	preocupacións

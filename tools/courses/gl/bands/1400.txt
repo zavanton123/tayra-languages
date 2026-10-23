@@ -1,0 +1,100 @@
+1	1301	sábado	sábados
+2	1302	terríbel	terríbeis
+3	1303	castelo	castelos
+4	1304	bolsa	bolsas
+5	1305	queixar	queixaba queixabas queixada queixades queixado queixamos queixan queixando queixarche queixarme queixarnos queixaron queixarse queixarte queixarvos queixarás queixas queixase queixedes queixei queixen queixes queixou queixámonos queixándovos quéixanse quéixase quéixate quéixense
+6	1306	varios	
+7	1307	agasallo	agasallos
+8	1308	noxento	noxenta noxentas noxentos
+9	1309	chinés	chinesa chinesas chineses
+10	1310	excelente	excelentes
+11	1311	brillante	brilante brillantes
+12	1312	voto	votos
+13	1313	prever	prevexo previa previas previches previla previmos previr previra previran previrmos previrnos previron prevista previstas previsto previstos previñeses prevé prevén prevía
+14	1314	esconder	escondas esconde escondela escondelo escondemos esconden escondendo esconderei esconderiamos esconderme escondernos esconderse esconderte esconderá escondes escondese escondeu escondeumo escondeuna escondeuno escondida escondidas escondido escondidos escondo escondémonos escondéndome escondía escondían escondías escondín escóndeas escóndella escóndeme escóndeno escóndense escóndeo escóndese escóndete
+15	1315	cine	cines
+16	1316	ritmo	ritmos
+17	1317	granxa	granxas
+18	1318	ocasión	ocasións
+19	1319	quieto	quieta quietas quietos
+20	1320	fresco	fresca frescas frescos
+21	1321	drogar	droga drogado drogados drogarse drogaría drogas drogo drogue drógase
+22	1322	honor	honores
+23	1323	altura	alturas
+24	1324	monstro	monstros
+25	1325	rocha	rochas
+26	1326	auténtico	auténtica auténticas auténticos
+27	1327	dobre	dobres
+28	1328	desenvolver	desenvolva desenvolve desenvolvelas desenvolvelos desenvolvemos desenvolven desenvolvendo desenvolvera desenvolveren desenvolvermos desenvolveron desenvolvervos desenvolves desenvolvese desenvolveu desenvolveuse desenvolvida desenvolvidas desenvolvido desenvolvidos desenvolvo desenvolvéronse desenvolvín desenvólvenas desenvólvense desenvólvese
+29	1329	cristo	
+30	1330	pantalóns	
+31	1331	coronel	coroneis
+32	1332	coitelo	coitelos
+33	1333	nuclear	nucleares
+34	1334	anxo	anxos
+35	1335	portugués	portuguesa portuguesas portugueses
+36	1336	empregado	empregada empregadas empregados
+37	1337	obedecer	obedece obedecedes obedecela obedecelo obedecemos obedecen obedeceredes obedecerei obedecereite obedecerme obedecerte obedecervos obedecerían obedeces obedecese obedecesen obedeceses obedeceu obedecido obedecémoslle obedecía obedecían obedecín obedeza obedezamos obedezan obedezas obedezo obedécea obedézoas
+38	1338	perseguir	persegue perseguen persegues perseguida perseguides perseguido perseguidos perseguilos perseguimos perseguindo perseguiremos perseguiron perseguirte perseguirá perseguirán perseguise perseguiu perseguiuno perseguiunos perseguiute perseguía perseguíao perseguías perseguíndoa perseguíndonos perseguíndoo persiga persigan persigo persigue perségueme perséguenme perséguenos perséguente perséguete persígueme persígueo
+39	1339	pantera	panteras
+40	1340	chover	chova chove choven chovendo chovera chovese choveu chovía chovían chóvelle
+41	1341	perante	
+42	1342	concello	concellos
+43	1343	república	repúblicas
+44	1344	praza	prazas
+45	1345	parella	parellas
+46	1346	bar	bares
+47	1347	dono	donas donos
+48	1348	presa	presas
+49	1349	alcalde	alcaldes alcaldesa
+50	1350	taxi	taxis
+51	1351	nadal	
+52	1352	poboación	poboacións
+53	1353	tropa	tropas
+54	1354	autobús	autobuses
+55	1355	reloxo	reloxos
+56	1356	marca	marcas
+57	1357	engadir	engadamos engade engades engadiamos engadida engadidas engadido engadidos engadilo engadimos engadindo engadira engadirche engadiredes engadirei engadireina engadirlle engadirse engadirá engadirán engadiría engadiu engadiulle engadiuse engado engados engadía engadímoslle engadín engádea engádelle engádese engádolle
+58	1358	aforrar	aforra aforraba aforraches aforrade aforrades aforrado aforralos aforran aforrando aforrara aforrarase aforrarei aforraremos aforrarlle aforrarlles aforrarma aforraron aforrarte aforrarás aforrarémonos aforras aforrei aforremos aforro aforros aforrou aforrádeme aforrádemo aforrádeo aforrásemos afórrame afórrao afórrate
+59	1359	complicar	complica complicada complicadao complicadas complicado complicados complican complicando complicas compliquen complícao complícase
+60	1360	cerebro	cerebros
+61	1361	puto	putos
+62	1362	título	títulos
+63	1363	discursar	discurso discursos
+64	1364	familiar	familiares
+65	1365	colega	colegas
+66	1366	custa	
+67	1367	escuridade	escuridades
+68	1368	personaxe	personaxes
+69	1369	escaleira	escaleiras
+70	1370	impedir	impede impediches impedidos impedilo impedimos impedindo impedircho impedirei impedireillo impediren impedirlle impedirllo impedirnos impediron impedirá impediría impedirían impedise impediu impedía impedíndonos impedírllelo impida impidamos impidan impide impiden impides impido impídeme impídenos impídeo
+71	1371	dubidar	dubida dubidaba dubidades dubidalo dubidamos dubidan dubidando dubidaremos dubidares dubidaron dubidará dubidaría dubidas dubidastes dubide dubidei dubiden dubides dubido dubidou dubídoo dúbidoo dúbídoo
+72	1372	petar	petan petando petarlle petarlles petaron petase petate pete petei peten petes petou petáronlle pétoa
+73	1373	ordenar	ordena ordenaba ordenaban ordenaches ordenada ordenadas ordenado ordenan ordenando ordenara ordenarei ordenaremos ordenaron ordenas ordenase ordenasen ordene ordenedes ordenei ordenen ordeno ordenou
+74	1374	colexio	colexios
+75	1375	cabelo	cabelos
+76	1376	socialista	socialistas
+77	1377	adestrar	adestra adestraba adestraches adestrada adestrado adestrados adestralo adestralos adestramos adestran adestrando adestrara adestrarme adestraron adestras adestrasen adestrei adestreina adestro adestrou adestroume adestrounos adestráronme adestrárono
+78	1378	resistir	resista resistan resiste resisten resistes resistide resistimos resistindo resistirei resistirá resistiría resistiu resistiuse resisto resistía resistín
+79	1379	convencer	convence convencen convencendo convencera convenceron convencerá convences convenceses convenceu convenciches convencida convencido convencidos convencía convencín convenza convenzan
+80	1380	enfadar	enfada enfadada enfadado enfadados enfadando enfadarme enfadaron enfadarse enfadarte enfadará enfadaría enfadarías enfadas enfade enfadei enfadeime enfades enfado enfados enfadándonos enfadáronse enfádame enfádaste enfádome
+81	1381	salón	salóns
+82	1382	construción	construcións
+83	1383	semellante	semellantes
+84	1384	moderno	moderna modernas modernos
+85	1385	torre	torres
+86	1386	librar	libraba librada libradas librado librados libramos libran libraremos librarme librarnos librarse librarte librarás libraría libraríame librarías libras librei libreime librería librerías libres librou líbranos líbrase líbrate líbreme líbrese
+87	1387	cansar	cansa cansabamos cansaches cansada cansadas cansado cansados cansamos cansan cansando cansarei cansarme cansarse cansarías cansas cansase cansasen canse cansei canseime cansen canses cansou cansácheste cansándome cansándote cánsame cánsanme cánsase cánsate
+88	1388	ferida	feridas
+89	1389	desembarcar	desembarca desembarcado desembarcan desembarcara desembarcaron desembarco desembarcou desembarque desembarquedes
+90	1390	sorprender	sorprenda sorprendades sorprendan sorprende sorprendemos sorprenderedes sorprenderei sorprenderá sorprendería sorprenderías sorprendeu sorprendiches sorprendida sorprendidas sorprendido sorprendidos sorprendo sorprendía
+91	1391	confirmar	confirma confirmaches confirmada confirmadas confirmado confirmados confirmalo confirman confirmando confirmaron confirmarán confirmarían confirmase confirmasen confirmei confirmemos confirmen confirmo confirmou confirmouse confirmándome confirmáronas confirmárono confírmoo
+92	1392	inmediatamente	
+93	1393	luns	
+94	1394	alén	
+95	1395	moda	modas
+96	1396	gobernador	gobernadora gobernadores
+97	1397	xornalista	xornalistas
+98	1398	dragón	dragóns
+99	1399	salario	salarios
+100	1400	científico	científica científicas científicos

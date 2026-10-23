@@ -1,0 +1,100 @@
+1	7401	dexergar	dexergaba dexergamos dexergando
+2	7402	simbolizar	simbolizadas simbolizan simbolizando
+3	7403	lusitano	lusitana lusitanos
+4	7404	saldar	salda saldamos saldarei
+5	7405	turrar	turraron turres turrou
+6	7406	imperativo	imperativa imperativos
+7	7407	danés	danesa daneses
+8	7408	tostado	tostadas tostados
+9	7409	opaco	opaca opacas
+10	7410	asombrar	asombra asombremos asombro
+11	7411	desacreditar	desacreditaban desacreditada desacreditado
+12	7412	explícito	explícita explícitos
+13	7413	sucesivo	sucesivas sucesivos
+14	7414	recíproco	recíproca recíprocos
+15	7415	desacougar	desacouga desacougada desacougado desacougues
+16	7416	especular	especula especulan especulou
+17	7417	descontrolar	descontrolado descontrolara descontrolaron
+18	7418	ebrio	ebria ebrias ebrios
+19	7419	repeler	repele repelen repeleron
+20	7420	reformar	reformado reformados reforme
+21	7421	proscrito	proscrita proscritas proscritos
+22	7422	deslizar	desliza deslizaba deslizan
+23	7423	notificar	notificado notificados notificamos
+24	7424	avariar	avariaba avariados avaría avarías
+25	7425	centenario	centenaria centenarias centenarios
+26	7426	zarpar	zarpa zarpará zarpemos zarpou
+27	7427	diferir	diferindo difire difiren
+28	7428	reconverter	reconverteron reconverterá reconvertidas reconvertido
+29	7429	chantaxear	chantaxeados chantaxeando chantaxeándome
+30	7430	simpatizar	simpatiza simpatizando simpatizaron simpatizase
+31	7431	chuchar	chucha chuchas chúchalles chúchanos
+32	7432	patexar	patexa patexei patexo patexou
+33	7433	balar	balaba balada baladas balado balados
+34	7434	enlatar	enlatada enlatadas enlatado enlatando
+35	7435	temperar	tempera temperada temperadas temperado
+36	7436	escarallar	escarallades escarallado escarallando escarallei
+37	7437	esterilizar	esterilizada esterilizadas esterilizado esterilizalos
+38	7438	envorcar	envorcados envorcarme envorcaría envorco
+39	7439	inducir	inducidas inducido inducimos inducindo
+40	7440	ensanguentar	ensanguentada ensanguentadas ensanguentado ensanguentados
+41	7441	venerar	venerado veneramos veneran veneras
+42	7442	actualizar	actualizada actualizado actualizados
+43	7443	empuñar	empuña empuñado empuñe empuñei
+44	7444	coar	coada coadas coarse coou
+45	7445	salpicar	salpica salpicada salpicado salpicando
+46	7446	murchar	murchamos murchan murchando murcharon
+47	7447	inquietar	inquieta inquietaba inquietedes inquietes inquieto
+48	7448	simular	simulados simulan simule
+49	7449	obstruír	obstruída obstruírme obstrúe
+50	7450	domesticar	domesticadas domesticados domesticou
+51	7451	asolar	asola asoladas asolo asolou
+52	7452	mortífero	mortífera mortíferas mortíferos
+53	7453	sumario	sumaria sumarias sumarios
+54	7454	estreitar	estreitabamos estreitaban estreiten estreitou
+55	7455	infrinxir	infrinxa infrinxe infrinxindo infrinxiu
+56	7456	postular	postula postulado postulamos postule postulo
+57	7457	gotear	gotea goteaba goteando goteo
+58	7458	constatar	constata constatamos constatei constatou
+59	7459	apreixar	apreixados apreixando apreixou apreixounos
+60	7460	esmorecer	esmoreceron esmoreceu esmorecido esmorecía
+61	7461	agrupar	agrupados agrupan agrúpanse
+62	7462	dobregar	dobregado dobregados dobregamos dobregues
+63	7463	desorganizar	desorganizada desorganizado desorganizados desorganizaredes
+64	7464	deleitar	deleitado deleitarme deleitas deleite
+65	7465	especificar	especifica especifican especificando especificaran
+66	7466	pulsar	pulsa pulsamos pulsas pulsei
+67	7467	limar	limado limando lime limos
+68	7468	orixinar	orixinan orixinaron orixinei orixinou
+69	7469	abrandar	abrandado abrandarme abrandarnos abrandarse abrandarán
+70	7470	confrontar	confrontabamos confrontado confrontados confrontarme confrontará
+71	7471	resignar	resignadas resignado resignados resigno resígnome
+72	7472	evadir	evaden evadindo evadiren evadiu evadiuse
+73	7473	arquivar	arquiva arquivaban arquivaches arquivado arquivados
+74	7474	querela	querelas
+75	7475	gala	galas
+76	7476	maza	mazas
+77	7477	espelido	espelidos
+78	7478	deliberado	deliberada
+79	7479	cam	cans
+80	7480	blasfemo	blasfema blasfemos
+81	7481	fa	fas
+82	7482	ucraína	ucraínas
+83	7483	ateigar	ateigada ateigadas ateigados ateigaredes
+84	7484	viúvo	viúvas
+85	7485	incendiario	incendiaria incendiarias incendiarios
+86	7486	poxar	poxan poxas poxo
+87	7487	chantar	chantada chantalo chantaran chantes
+88	7488	meigo	meigas meigos
+89	7489	avogar	avoga avogada avogados avogando avogou avogue
+90	7490	mol	molle
+91	7491	parola	parolas
+92	7492	pam	pans
+93	7493	andel	andeis
+94	7494	bastir	basta bastide
+95	7495	afagar	afaga afagada afagado afagamos afagan afagando afagas afagase afago
+96	7496	dizer	di diga digades digamos digas digo diredes direi diremos dirá dirás diríamos dis disse ditas ditos dixeche dixemos dixer dixera dixeras dixeres dixestes dixo dixéchelle dixéramos
+97	7497	deliberar	deliberaban deliberada deliberan deliberou deliberáramos
+98	7498	raer	rae raias raído
+99	7499	cobizar	cobice cobizado cobizados cobizarás cobizas cobizo
+100	7500	ruar	rua ruas rue rúas

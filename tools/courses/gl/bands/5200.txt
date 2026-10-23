@@ -1,0 +1,100 @@
+1	5101	rolo	rolos
+2	5102	hostilidade	hostilidades
+3	5103	represalia	represalias
+4	5104	pao	paos
+5	5105	provisional	provisionais
+6	5106	colexial	colexiais colexiala colexialas
+7	5107	antena	antenas
+8	5108	perfil	perfís
+9	5109	alusión	alusións
+10	5110	bocadillo	bocadillos
+11	5111	transparente	transparentes
+12	5112	carruaxe	carruaxes
+13	5113	proxectil	proxectís
+14	5114	silvestre	silvestres
+15	5115	mestizo	mestizos
+16	5116	glorificar	glorificaba glorificada glorificado
+17	5117	adega	adegas
+18	5118	mediocre	mediocres
+19	5119	radar	radares
+20	5120	repousar	repousa repousan
+21	5121	lúcido	lúcida lúcidos
+22	5122	asombroso	asombrosa asombrosos
+23	5123	agarimoso	agarimosa agarimosas agarimosos
+24	5124	presaxiar	presaxia presaxiaba presaxio presaxios
+25	5125	sanitario	sanitaria sanitarios
+26	5126	coidador	coidadora coidadores
+27	5127	opresor	opresora opresores
+28	5128	ingrato	ingrata ingratos
+29	5129	loar	loado louvados louvalo louvalos louvar
+30	5130	borroso	borrosa borrosas
+31	5131	burocrático	burocrática burocráticos
+32	5132	festivo	festiva festivos
+33	5133	afiliar	afiliado afiliados afilian afiliará
+34	5134	coreano	coreana coreanos
+35	5135	suculento	suculenta suculentas
+36	5136	explotador	explotadora explotadores
+37	5137	estalar	estalaban estalados estalando estalase estalou
+38	5138	calzar	calza calzado calzas calzo
+39	5139	imprimir	imprimide imprimindo imprimiron imprimían
+40	5140	sándwich	sándwiches sándwichs
+41	5141	exótico	exótica exóticas exóticos
+42	5142	astronauta	astronautas
+43	5143	neumático	neumáticos
+44	5144	carallada	caralladas
+45	5145	secuestrador	secuestradores
+46	5146	bicho	bichos
+47	5147	barbear	barbeado barbearme barbearse barbearvos
+48	5148	contaxiar	contaxia contaxiaches contaxies contaxio
+49	5149	cinsa	cinsas cinza
+50	5150	manuscrito	manuscritos
+51	5151	indicación	indicacións
+52	5152	atleta	atletas
+53	5153	fotográfico	fotográfica fotográficas fotográficos
+54	5154	suprimir	suprime suprimido suprimimos suprimindo suprimía
+55	5155	interpor	interporá interpuxo interpón interpós
+56	5156	tranquilizar	tranquilice tranquilices tranquiliza tranquilizada
+57	5157	tramar	traman tramando tramarei tramo
+58	5158	orgánico	orgánica orgánicos
+59	5159	adornar	adorna adornado adornan adornando adornara adorno adornos
+60	5160	despertar	desperta despertaba despertade despertes desperto
+61	5161	brotar	brotando brotara brote brotes brotou
+62	5162	ficticio	ficticia ficticios
+63	5163	turístico	turística turísticas turísticos
+64	5164	rondar	ronda rondan rondando rondas
+65	5165	cortexar	cortexa cortexaba cortexo
+66	5166	callar	callado callados callan callase calle callos
+67	5167	desordenar	desordena desordenada desordenadas desordenado desordenados desordenamos
+68	5168	re	res reses
+69	5169	prezar	prece prezada prezadas prezado prezados
+70	5170	encomendar	encomenda encomendada encomendamos encomendaron encomendo
+71	5171	memorizar	memoricei memoriza memorizaba memorizaches memorizan memorizas
+72	5172	sueco	sueca suecos
+73	5173	avaliar	avaliaban avaliados avaliou avalían avalías
+74	5174	estancar	estancada estancado estancados estanque
+75	5175	detonar	detonadas detonados detonara detonaron detonará detonou
+76	5176	abrochar	abrocha abrochada abroche abrochen abrocho abrochos
+77	5177	peitear	peitea peiteaches peitealos peitearse peitearvos peiteo
+78	5178	raptar	raptadas raptado raptan rapto raptou
+79	5179	perforar	perfora perforaban perforados perfore perforou
+80	5180	insinuar	insinuando insinuou insinúa insinúas insinúe
+81	5181	azoutar	azoutaba azoutada azoutado azoutados azoute azoutei azoutes
+82	5182	aloumiñar	aloumiña aloumiñaban aloumiñarme aloumiñe aloumiño aloumiños
+83	5183	efectuar	efectuaban efectuada efectuado efectuados efectuando efectuou efectúa
+84	5184	moderar	moderada moderado moderados modere
+85	5185	formular	formulada formuladas formulamos formulando formulou
+86	5186	gratuíto	gratuíta gratuítas gratuítos
+87	5187	renegar	renegaches renegado renegados renegan renegando renegas renegou renegue
+88	5188	contraer	contrae contraendo contraera contraeron contraes contraído
+89	5189	aproximar	aproxima aproximaban aproximada aproximadas aproximado aproximamos aproximando aproximedes
+90	5190	implantar	implantado implantados implantaron implante
+91	5191	aloxar	aloxa aloxaba aloxaban aloxada aloxadas aloxados aloxarán
+92	5192	trastornar	trastorna trastornada trastornadas trastornado trastornan trastornaron trastornaría trastornas trastorne
+93	5193	discriminar	discrimina discriminada discriminado discriminados discriminan discriminen
+94	5194	acochar	acochada acochados acochamos acochan acocharon acocharte acochas acocho
+95	5195	incitar	incita incitaba incitades incitamos incitando incitaron incitarían incitastes incitei incitou
+96	5196	aldraxar	aldraxada aldraxadas aldraxado aldraxados aldraxara aldraxaron aldraxen
+97	5197	prolongar	prolonga prolongada prolongado prolongados prolongarme prolongarse prolongará prolóngase
+98	5198	aportar	aporta aportado aportamos aportaran aportaron aportarán aportas aportei aportou
+99	5199	recitar	recita recitaba recitaban recitando recito recitou recitáballe recítaa
+100	5200	acomodar	acomodaba acomodada acomodadas acomodados acomodala acomodarte acomode acomodes acomodo

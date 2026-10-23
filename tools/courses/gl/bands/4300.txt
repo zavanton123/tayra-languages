@@ -1,0 +1,100 @@
+1	4201	grandioso	grandiosa grandiosas grandiosos
+2	4202	conmovedor	conmovedora conmovedoras
+3	4203	ático	áticas áticos
+4	4204	halar	hala halamos hale halo halos
+5	4205	millonario	millonaria millonarias millonarios
+6	4206	servo	serva servas servos
+7	4207	pícaro	pícara pícaras pícaros
+8	4208	maleducar	maleducada maleducado maleducados
+9	4209	foco	foca focas focos
+10	4210	arrepiar	arrepiada arrepiados arrepía arrepíame arrepío arrepíos
+11	4211	tropezar	tropecei tropezaches tropezamos tropezando tropezaremos tropezará tropezou
+12	4212	reforzar	reforza reforzada reforzado reforzando reforzas refórzase
+13	4213	minar	minada minado minados minando minara minaría
+14	4214	dezaoito	
+15	4215	metralla	
+16	4216	data	datas
+17	4217	arre	
+18	4218	xaora	
+19	4219	rexeitamento	
+20	4220	leña	
+21	4221	atentamente	
+22	4222	evolución	
+23	4223	cortello	
+24	4224	continuamente	
+25	4225	ni	nis
+26	4226	discriminación	
+27	4227	indiferenza	
+28	4228	carbono	
+29	4229	noventa	
+30	4230	inspiración	
+31	4231	yang	
+32	4232	avante	
+33	4233	desaparición	
+34	4234	radiante	
+35	4235	grandeza	
+36	4236	colorado	colorada
+37	4237	mansión	mansións
+38	4238	véspera	vésperas
+39	4239	intercambio	intercambios
+40	4240	trincheira	trincheiras
+41	4241	bandullo	bandullos
+42	4242	billa	billas
+43	4243	cóbado	cóbados
+44	4244	noción	nocións
+45	4245	gabinete	gabinetes
+46	4246	escuadrón	escuadróns
+47	4247	labio	labios
+48	4248	caravana	caravanas
+49	4249	camiseta	camisetas
+50	4250	reverenciar	reverencia reverencias
+51	4251	trapo	trapos
+52	4252	carcereiro	carcereiros
+53	4253	variedade	variedades
+54	4254	pagamento	pagamentos
+55	4255	machado	machados
+56	4256	lunático	lunática lunáticos
+57	4257	sinatura	sinaturas
+58	4258	adicional	adicionais
+59	4259	celar	celo celos
+60	4260	raso	rasos
+61	4261	ringleira	ringleiras
+62	4262	orador	oradora oradores
+63	4263	lebre	lebres
+64	4264	latino	latina latinos
+65	4265	vampiro	vampiros
+66	4266	obstáculo	obstáculos
+67	4267	ramo	ramos
+68	4268	baioneta	baionetas
+69	4269	sensíbel	sensíbeis
+70	4270	homosexual	homosexuais
+71	4271	mantelo	mantelos
+72	4272	bulevar	bulevares
+73	4273	rinoceronte	rinocerontes
+74	4274	mordomo	mordomos
+75	4275	monstruoso	monstruosa monstruosas
+76	4276	tribal	tribais
+77	4277	imperialista	imperialistas
+78	4278	exhausto	exhausta exhaustos
+79	4279	organizador	organizadora organizadores
+80	4280	inmaculado	inmaculada inmaculados
+81	4281	heroico	heroica heroicas heroicos
+82	4282	reaccionario	reaccionaria reaccionarias reaccionarios
+83	4283	faiado	faiados
+84	4284	tolleito	tolleita tolleitos
+85	4285	espiar	espiaba espiades espiando espiaren espiarme espiaría espiei espieinos espíalos espías espíes
+86	4286	cocer	cocemos cocen cocendo coceron cocida cocidas cocidos cocéndose coitos cozan cócense
+87	4287	eivar	eivada eivadas eivado eivados eivas
+88	4288	anestesiar	anestesia anestesiada anestesiado
+89	4289	albergar	alberga albergaches albergaria albergues
+90	4290	lançar	lance lancei lanceime lanceino
+91	4291	indignar	indigna indignada indignado indignas indigno indignos
+92	4292	inspeccionar	inspeccionados inspeccionalo inspeccionas inspeccionemos inspeccionou
+93	4293	checo	checa checos
+94	4294	desistir	desistas desistido desistindo desistirán desistiu desistín
+95	4295	minguar	mingua minguadas minguados minguan minguando minguase mingüe
+96	4296	filipino	filipina filipinas filipinos
+97	4297	incorporar	incorpora incorporaba incorporada incorporadas incorporados incorporei incorporou
+98	4298	cenar	cena cenaches cenamos cenarán cenas
+99	4299	desconectar	desconecta desconectaba desconectadas desconectado desconectase desconectei desconectou
+100	4300	lixar	lixa lixaches lixada lixado lixasen lixaste lixe lixes lixou

@@ -1,0 +1,100 @@
+1	901	patrón	patroa patróns
+2	902	empregar	emprega empregaba empregaban empregada empregadas empregade empregades empregados empregala empregalo empregamos empregan empregando empregaremos empregaren empregarnos empregaron empregarse empregarte empregaría empregase empregasen empregou empregouse empregue empreguei empreguen empregádeos empregámolas empregámolo empréganas emprégano empréganse emprégase
+3	903	bicar	bica bicaches bicade bicala bicalo bicamos bicando bicaremos bicarlle bicarme bicarnos bicaron bicarse bicarte bicarvos bicará bicas bicase bicou bicoume bicoute bicábanme bicáchelo bicáchesme bicádeme bicámonos bicándolles bicándome bicándonos bicándose bique biquei biqueina biqueino biquen bícaa bícame bícao bícoo
+4	904	principal	principais
+5	905	segredo	segredos
+6	906	vestido	vestida vestidas vestidos
+7	907	encher	encha enchamos enche enchela enchelo enchemos enchen enchendo encherao encherdes encherei encherme encheron encherse encherte encherá enches encheu encheuse enchiches enchida enchido encho enchéndoa enchéndolles enchéronse enchésemos enchéuselle enchía enchían enchíao enchín énchea éncheme énchenme éncheo énchese énchete énchoo
+8	908	caixa	caixas
+9	909	ambos	ambas
+10	910	absoluto	absoluta absolutas absolutos
+11	911	tardar	tarda tardaches tardades tardamos tardan tardando tardaredes tardarei tardaremos tardariamos tardaron tardará tardarán tardaría tardarían tardarías tardas tardastes tardedes tardei tarden tardes tardo tardou tárdanse tárdase
+12	912	asinar	asina asinaba asinaban asinada asinadas asinado asinados asinalo asinamos asinando asinara asinarei asinaremos asinares asinarme asinarmo asinaron asinará asinarían asinas asine asinei asinen asino asinou asinouna asinouno asinouse asinárase asíname asínase asínoche
+13	913	castigar	castiga castigada castigado castigados castigalo castigalos castigamos castigan castigando castigarei castigarme castigarte castigará castigase castigo castigos castigou castigoume castigue castiguemos castiguen castigues castigándonos castigándoos castígannos castígoos castígueo
+14	914	formar	formaba formabamos formaban formada formadas formade formado formados formamos forman formando formaramos formaran formaremos formaren formaron formará formase forme formei formemos formen formes formo formou formásemos
+15	915	connosco	
+16	916	informe	informes
+17	917	heroe	heroes heroína heroínas
+18	918	neve	neves
+19	919	habitación	habitacións
+20	920	ruso	rusa rusas rusos
+21	921	escuro	escura escuras escuros
+22	922	revolucionario	revolucionaria revolucionarias revolucionarios
+23	923	mostrar	mostraba mostrade mostralas mostralle mostralo mostramos mostran mostrando mostrara mostraredes mostrarlle mostrarlles mostrarme mostraron mostrarse mostrará mostrarán mostraránola mostras mostrase mostre mostrei mostreille mostren mostro mostrou mostrounos mostrouse mostrábase mostrádevos mostrárllelos mostrárlles mostrárono móstrame móstrana móstranos móstrate móstroche móstrolle
+24	924	controlar	controla controlaba controlaban controlada controladas controlado controlados controlamos controlan controlando controlaremos controlarán controlaría controlarían controlas controlase controle controlemos controlen controlo controlou
+25	925	arder	arda ardamos arde arden ardenas ardendo ardera arderon arderá arderán ardería ardes ardeu ardo ardía ardían ardín árdeme árdenme
+26	926	fiestra	fiestras
+27	927	documento	documentos
+28	928	camión	camións
+29	929	cargar	cargaba cargaban cargaches cargada cargadas cargade cargado cargados cargalo cargalos cargamos cargan cargando cargante cargaran cargaremos cargarme cargaron cargarse cargará cargarás cargas cargou cargouse cargue carguei cargueille cargueime carguen cargues cargáchelo cargádeo cargámola cárgao cárgase cárgate cárgomos
+30	930	resultar	resulta resultaba resultaban resultan resultando resultarche resultarlle resultaron resultará resultaráme resultaría resultaríame resultarían resultas resultase resulte resulten resulto resultou resultoume resultáballe resultáballes resúltache resúltalle resúltalles resúltame resúltasme resúltavos
+31	931	demostrar	demostra demostraba demostraban demostraches demostrado demostrados demostrala demostralo demostramos demostran demostrando demostrarei demostrareicho demostrareillo demostrareite demostrarlle demostrarlles demostrarme demostraron demostrarvos demostrará demostraría demostras demostre demostredes demostrei demostren demostrou demostroulle demostroulles demostrounos demostrouse demostrámolo demostrárllelo demóstranos demóstrao demóstrase
+32	932	parvada	parvadas
+33	933	millo	milla millas millos
+34	934	paxaro	paxara paxaros páxaro
+35	935	avó	avoas avóa avós
+36	936	base	bases
+37	937	plano	plana planas planos
+38	938	líder	líderes
+39	939	obrigado	obrigada obrigadas obrigados
+40	940	doer	doa doas doe doeme doen doera doerá doese doeu doeuche doeulle doeume doia doía doíame doían doíanme doída doídas doído dóeche dóelle dóelles dóeme dóenos dóevos
+41	941	recordar	recorda recordaba recordade recordado recordados recordalas recordalo recordamos recordan recordarche recordarei recordareicho recordarlles recordarllo recordarmos recordarte recordarvos recordarán recordaría recordas recorde recordei recordeime recordemos recordome recordádeme recordámoslles recórdala recórdalo recórdame recórdanme recórdanos recórdao recórdasme recórdoa recórdoche recórdolle recórdome recórdovos
+42	942	arrestar	arresta arrestabas arrestada arrestadas arrestado arrestados arrestamos arrestan arrestando arrestaran arrestaren arrestaron arrestarán arrestarás arrestarían arrestase arrestasen arreste arresten arresto arrestos arrestou
+43	943	vitoria	vitorias
+44	944	proceso	procesos
+45	945	programa	programas
+46	946	soltar	soltaba soltabas soltade soltades soltala soltalo soltan soltando soltarche soltarei soltarme soltarmos soltaron soltarse soltarte soltas soltase soltases solte soltedes soltei solteina solten soltes soltou soltádea soltádeme soltáronme soltárono soltáronos sóltaa sóltache sóltalle sóltame sóltao sóltaos sóltate sólteo sóltese
+47	947	convidar	convida convidaba convidaban convidaches convidada convidados convidala convidalas convidalo convidan convidara convidarche convidarme convidaron convidarte convidaría convidas convide convidei convideinos convido convidou convidoume convidouno convidounos convidábanme convidámola convidáronme convídaa convídame convídanme convídanos convídao convídoa convídoche convídoo convídoos convídote convídovos
+48	948	avisar	avisa avisaban avisaches avisade avisado avisala avisalo avisalos avisan avisando avisara avisaran avisarei avisareino avisareite avisaremos avisarlle avisarme avisaron avisarte avisarás avisas avisases avise avisei aviseino aviseite aviseivos avisen avisote avisou avisáchelos avisáronme avísanos avíseme avísenos avísoo avísote avísovos
+49	949	cometer	cometades cometan comete cometedes cometemos cometen cometendo cometera cometeran cometeras cometerei cometeriades cometermos cometeron cometes cometese cometeses cometestes cometeu cometiches cometida cometidas cometido cometidos cometía cometían cometín
+50	950	bala	balas
+51	951	anunciar	anuncia anunciaba anunciada anunciadas anunciado anunciados anuncialo anunciamos anuncian anunciando anunciara anunciarche anunciaremos anunciarlles anunciaron anunciarvos anuncien anuncio anuncios anunciou anunciouse anunciábao anúnciase anúnciolles anúnciovos
+52	952	traxe	traxes
+53	953	vela	velas
+54	954	condenar	condena condenada condenadas condenado condenados condenalo condenan condenando condenarlle condenaron condenarán condenaría condenas condenasen condene condenen condeno condenou condenáronme condenáronnos condénoo
+55	955	gravar	grava gravaba gravabamos gravaches gravada gravadas gravade gravado gravados gravamos gravan gravando gravara gravaron gravarían gravas gravei gravo gravou
+56	956	golpear	golpea golpeaba golpeaban golpeaches golpeada golpeadas golpeado golpeados golpeala golpealo golpealos golpean golpeando golpearan golpearemos golpearme golpearon golpearse golpearte golpeará golpeasen golpee golpeei golpeeina golpeen golpees golpeo golpeou golpeoulle golpeoume golpeouno golpeouse golpeábanos golpeábase golpeácheste golpeándoo golpeáronme golpeéilles golpéalo
+57	957	citar	cita citaba citaban citada citadas citado citados citamos citando citas citase citei cito citou
+58	958	obter	obtelas obtemos obtendo obterei obteremos obterlle obtermos obterá obterán obterás obtería obteña obteñan obteñen obteño obtida obtido obtidos obtiveches obtivemos obtiven obtiveran obtiveron obtivestes obtivo obtiña obtiñan obtén obtés obtéñense
+59	959	gastar	gasta gastaba gastaban gastaches gastada gastadas gastado gastados gastalo gastalos gastamos gastan gastando gastaremos gastaron gastarás gastaría gastaríaas gastarían gastase gastastes gaste gastei gasten gastes gasto gastos gastou gastáramos gástano gástanos gástao gásteos
+60	960	calma	
+61	961	central	centrais
+62	962	disco	discos
+63	963	xardín	xardíns
+64	964	carro	carros
+65	965	unidade	unidades
+66	966	resultado	resultados
+67	967	peixe	peixes
+68	968	cigarro	cigarros
+69	969	vítima	vítimas
+70	970	pintar	pintaba pintabamos pintaban pintaches pintada pintadas pintado pintados pintala pintalas pintalos pintamos pintan pintando pintara pintaremos pintares pintarlle pintaron pintará pintas pintase pintases pintei pinteiche pinteime pinteino pintes pinto pintou pintouse píntame píntanme píntao píntoas píntoo
+71	971	nadar	nadaba nadaban nadamos nadan nadando nadaron nadas nadase nade nadei nado nados nadou
+72	972	apoiar	apoia apoiaba apoiaban apoiada apoiadas apoiades apoiado apoialo apoiamos apoian apoiando apoiara apoiarei apoiarlles apoiarnos apoiaron apoiarse apoiarte apoiarás apoiarías apoias apoiase apoiei apoieime apoieino apoien apoiou apoioume apoiábaa apoiámola apoiándose apoiáronme apóiame apóianos apóiao apóiase apóiate apóioo apóiote
+73	973	galego	
+74	974	nove	noves
+75	975	carreira	carreiras
+76	976	xuízo	xuízos
+77	977	ama	amas
+78	978	mágoa	mágoas
+79	979	destino	destinos
+80	980	ruído	ruido ruídos
+81	981	dama	damas
+82	982	broma	bromas
+83	983	distrito	distritos
+84	984	apagar	apaga apagaban apagaches apagada apagadas apagado apagados apagala apagalo apagando apagarei apagarse apagas apagase apago apagou apagouse apague apaguedes apaguei apagueino apaguen apagues apágaa apágao apágate apáguea apágueno apágueo
+85	985	dabondo	
+86	986	padre	padres
+87	987	comandante	comandantes
+88	988	caza	cazas
+89	989	área	áreas
+90	990	vergoña	
+91	991	pel	
+92	992	natureza	naturezas
+93	993	felicidade	felicidades
+94	994	organización	organizacións
+95	995	cear	ceaches ceamos cean ceando ceara cearemos ceará cearán ceas cee ceei ceemos ceou céase
+96	996	pra	
+97	997	teatro	teatros
+98	998	interior	interiores
+99	999	posibilidade	posibilidades
+100	1000	rexistrar	rexistra rexistraban rexistrada rexistrade rexistrado rexistrados rexistralo rexistramos rexistran rexistraren rexistrarnos rexistraron rexistrarse rexistrará rexistrarán rexistre rexistrei rexistren rexistro rexistros rexistrou rexistrouse rexistrádeo rexistrámolo rexístrase rexístreme rexístrena rexístreo

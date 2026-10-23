@@ -1,0 +1,100 @@
+1	9601	plácido	plácida plácidas plácidos
+2	9602	sucar	sucado sucan sucando
+3	9603	escrupuloso	escrupulosa escrupulosos
+4	9604	gravitar	gravitaba gravitan
+5	9605	relamber	relambida relambido relambidos
+6	9606	inexperto	inexperta inexpertos
+7	9607	arrexuntar	arrexuntarei arrexuntaron
+8	9608	atallar	atalla atallou
+9	9609	segregar	segregada segregado segregados
+10	9610	impartir	imparten impartido impartise
+11	9611	concorrer	concorre concorrido concorridos
+12	9612	culminar	culminando culminaron culminará
+13	9613	hospedar	hospedado hospedados hospedas
+14	9614	recluír	recluída recluído recluídos
+15	9615	apiñar	apiñada apiñados
+16	9616	atrofiar	atrofia atrofiada atrofiado
+17	9617	vagabundear	vagabundeaban vagabundeamos vagabundeando
+18	9618	nacionalizar	nacionalizada nacionalizou
+19	9619	esgazar	esgazaches esgazada esgazadas
+20	9620	patrocinar	patrocinaban patrocinada patrocinou
+21	9621	alborotar	alboroto alborotos
+22	9622	disipar	disipando disipen
+23	9623	fungar	funga fungaba fúngama
+24	9624	latricar	latrican latricando latricas
+25	9625	zumegar	zumega zumegan
+26	9626	exclamar	exclamaron exclamou
+27	9627	aterecer	aterecido aterecía aterezo
+28	9628	homenaxear	homenaxeado homenaxeados
+29	9629	expatriar	expatriado expatriados expatriase
+30	9630	bocexar	bocexarei bocexo
+31	9631	retocar	retocaches retocaron retocou
+32	9632	caboverdiano	caboverdiana caboverdianos
+33	9633	delongar	delongaba delongara delonguemos
+34	9634	ortodoxo	ortodoxa ortodoxos
+35	9635	chamuscar	chamuscado chamuscou
+36	9636	escordar	escordei escordeina escordou
+37	9637	enmarcar	enmarca enmarcado
+38	9638	expedir	expedida expiden
+39	9639	automobilístico	automobilística automobilísticos
+40	9640	carbonizar	carbonizadas carbonizados
+41	9641	subscribir	subscrito subscritos
+42	9642	rehabilitar	rehabilitado rehabilitados
+43	9643	pular	pulando pulou
+44	9644	alardear	alardeando alardeedes
+45	9645	endereitar	endereitado endereitaremos endereitaren
+46	9646	indagar	indagaron indagase indaguei
+47	9647	empobrecer	empobrecido empobrecidos
+48	9648	avergonzar	avergonce avergonzados avergonzo
+49	9649	achicar	achicados achicaron
+50	9650	peidar	peidamos peidou
+51	9651	badoco	badoca badocos
+52	9652	dilapidar	dilapidada dilapidan dilapidando
+53	9653	erudito	erudita eruditos
+54	9654	reanimar	reanima reanime
+55	9655	devorador	devoradora devoradores
+56	9656	bélico	bélicas bélicos
+57	9657	guisar	guisa guisalo
+58	9658	milagroso	milagrosa milagrosas
+59	9659	caracterizar	caracteriza caracterizada
+60	9660	moldear	moldeada moldearon moldease
+61	9661	conversador	conversadora conversadores
+62	9662	habituar	habituadas habituado habituados
+63	9663	arroiar	arroio arroios
+64	9664	desempacar	desempacarei desempaque
+65	9665	lírico	lírica líricos
+66	9666	roedor	roedora roedores
+67	9667	fertilizar	fertiliza fertilizan
+68	9668	dramatizar	dramaticemos dramatices
+69	9669	escarmentar	escarmentaremos escarmentaron escarmento
+70	9670	industrializar	industrializada industrializados industrializou
+71	9671	zoscar	zoscala zosquen
+72	9672	catalogar	catalogadas catalogado
+73	9673	miliciano	miliciana milicianas milicianos
+74	9674	mitolóxico	mitolóxica mitolóxicos
+75	9675	recomezar	recomecei recomeza recomezando
+76	9676	arrimar	arrimaba arrimando arrimándose
+77	9677	viñateiro	viñateira viñateiros
+78	9678	desvelar	desvela desvelarei
+79	9679	rexo	rexa rexos
+80	9680	recompilar	recompilada recompilado recompilei
+81	9681	mecanizar	mecanizada mecanizados
+82	9682	sepultar	sepultada sepultado sepultados
+83	9683	redondear	redondea redondeadas redondeamos
+84	9684	intimar	intimaches intimando intimas
+85	9685	aviar	aviado aviando avías
+86	9686	aclamar	aclama aclamando aclamou
+87	9687	alicerzar	alicerzada alicerzade alicerzan
+88	9688	importador	importadoras importadores
+89	9689	casoupa	
+90	9690	áxil	
+91	9691	xeneralísimo	
+92	9692	letargo	
+93	9693	preponderante	
+94	9694	interrogación	
+95	9695	perdición	
+96	9696	estadía	
+97	9697	predominantemente	
+98	9698	casca	
+99	9699	popa	
+100	9700	disolución	

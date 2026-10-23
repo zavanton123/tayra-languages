@@ -1,0 +1,100 @@
+1	3201	occidente	
+2	3202	balbordo	
+3	3203	babilonio	babilonia
+4	3204	oitenta	
+5	3205	presentación	presentacións
+6	3206	listaxe	listaxes
+7	3207	axenda	axendas
+8	3208	divorcio	divorcios
+9	3209	homenaxe	homenaxes
+10	3210	fraude	fraudes
+11	3211	irmandade	irmandades
+12	3212	barranca	barrancas
+13	3213	crecente	crecentes
+14	3214	dentista	dentistas
+15	3215	padriño	padriños
+16	3216	lombo	lombos
+17	3217	cruceiro	cruceiros
+18	3218	culler	culleres
+19	3219	camiñante	camiñantes
+20	3220	nave	naves
+21	3221	almofada	almofadas
+22	3222	posesión	posesións
+23	3223	esmola	esmolas
+24	3224	supermercado	supermercados
+25	3225	tea	teas
+26	3226	tradicional	tradicionais
+27	3227	dia	dias
+28	3228	calmo	calmas calmos
+29	3229	editor	editora editores
+30	3230	axitador	axitadoras axitadores
+31	3231	atracción	atraccións
+32	3232	pendente	pendentes
+33	3233	pasaxe	pasaxes
+34	3234	anarquista	anarquistas
+35	3235	pantano	pantanos
+36	3236	chanzo	chanzos
+37	3237	aparello	aparellos
+38	3238	tenro	tenra tenros
+39	3239	amplo	ampla amplas
+40	3240	laboral	laborais
+41	3241	inesperado	inesperada inesperadas inesperados
+42	3242	foguete	foguetes
+43	3243	bailarín	bailarina bailarinas bailaríns
+44	3244	brando	branda brandas brandos
+45	3245	computador	computadoras computadores
+46	3246	firmar	firmada firmado firmalo firmaron firmará firmas firmase firmei firmeinos firmes firmo firmou firmouse
+47	3247	eléctrica	eléctricas
+48	3248	compracer	comprace compracelo compracerme compracerte compracervos compracería compracidas compracido compracidos comprazan comprazo comprácea compráceo compráceos comprácese
+49	3249	cooperar	coopera cooperamos cooperando cooperarei cooperarmos cooperaría cooperas coopere cooperei cooperemos
+50	3250	amarrar	amarraban amarraches amarrada amarrado amarrados amarraras amarras amarravam amarre amarren amarrou amarrouse
+51	3251	lucir	loce locen loces lucida lucido lucimos lucindo lucirei luciron lucirse lucise lucía luza luzo
+52	3252	acertar	acertaba acertaches acertada acertades acertado acertamos acertares acertará acertei acerteille acerto acertou acertoulle
+53	3253	recorrer	recorra recorran recorre recorremos recorren recorreron recorro recorría
+54	3254	progresar	progresa progresades progresamos progresando progresaramos progresaremos progresará progresei progresen
+55	3255	intervir	interveu interveñan interveño intervindo intervirá interviñeron intervén
+56	3256	pescudar	pescuda pescudalo pescudamos pescudarei pescudaremos pescudas pescude pescudou
+57	3257	frear	frea freada freadas freará frearía frease free freei freou
+58	3258	argumentar	argumentan argumentaron argumento argumentou
+59	3259	manobrar	manobra manobrando manobras
+60	3260	reflexionar	reflexiona reflexionara reflexionarmos reflexionarás reflexionei reflexionemos
+61	3261	dotar	dotada dotadas dotado dotados dotan dote dotes
+62	3262	penetrar	penetra penetran penetrando penetrarei penetraron penetrei penetren penetrou
+63	3263	xerar	xera xerada xeran xerando xerara xerarei xeremos xerou
+64	3264	culto	cultos
+65	3265	núcleo	núcleos
+66	3266	provisión	provisións
+67	3267	multa	multas
+68	3268	secuencia	secuencias
+69	3269	conspiración	conspiracións
+70	3270	lóxico	lóxicas lóxicos
+71	3271	fascinante	fascinantes
+72	3272	universal	universais
+73	3273	colchón	colchóns
+74	3274	guerrilla	guerrillas
+75	3275	concurso	concursos
+76	3276	estupidez	estupideces
+77	3277	bigote	bigotes
+78	3278	leira	leiras
+79	3279	referencia	referencias
+80	3280	preñar	preñada preñadas preñado preñei
+81	3281	deputado	deputada deputados
+82	3282	provir	proveñen proveño proviña proviñan provén
+83	3283	encadear	encadea encadeada encadeadas encadeado encadeados encadees encadeou
+84	3284	fundador	fundadora fundadoras fundadores
+85	3285	excitar	excita excitada excitado excitados excitan
+86	3286	particularmente	
+87	3287	direiche	
+88	3288	aparentemente	
+89	3289	xeralmente	
+90	3290	colaboración	
+91	3291	opresión	
+92	3292	claridade	
+93	3293	senso	
+94	3294	micro	micros
+95	3295	xenerosidade	xenerosidades
+96	3296	extensión	extensións
+97	3297	comisaría	comisarías
+98	3298	revólver	revólveres
+99	3299	luva	luvas
+100	3300	palco	palcos

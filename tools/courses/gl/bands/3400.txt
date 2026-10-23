@@ -1,0 +1,100 @@
+1	3301	intervención	intervencións
+2	3302	rexemento	rexementos
+3	3303	terraza	terrazas
+4	3304	lenda	lendas
+5	3305	caderno	cadernos
+6	3306	escolar	escolares
+7	3307	volume	volumes
+8	3308	robot	robots
+9	3309	cacho	cachos
+10	3310	refén	reféns
+11	3311	suceso	sucesos
+12	3312	cómplice	cómplices
+13	3313	pixama	pixamas
+14	3314	zoar	zoaba zoando zoe zoo
+15	3315	corno	cornos
+16	3316	laranxa	laranxas
+17	3317	primitivo	primitiva primitivas primitivos
+18	3318	formiga	formigas
+19	3319	cadrado	cadrada cadradas cadrados
+20	3320	espir	espiades espiches espida espidas espidos espindo espira espirme espirnos espirse espías espíndote ispa ispe íspese
+21	3321	doar	doa doaba doada doadas doade doados doan doas doe doen doou doouna doounas
+22	3322	fartar	farta fartaba fartades fartamos fartando fartaran fartares fartarme fartas fartou fártasme fártaste fártome
+23	3323	fariña	fariñas faría
+24	3324	fornecer	fornece fornecemos fornecen fornecerlle fornecerá forneceu fornecido fornecidos fornecían fornéceno fornéceo
+25	3325	humillar	humillada humillado humillados humillalo humillan humillarse humillaría humillasen humille humillei humillen humillou
+26	3326	posar	posa posaches posado posamos posando posara posas posei posen poso
+27	3327	desprazar	despracei desprazaba desprazada desprazadas desprazado desprazados desprazan desprazando desprazaron desprazaría desprazas
+28	3328	abortar	abortades abortados abortamos abortase abortasen aborten aborto abortos abortou
+29	3329	financiar	financia financiaches financiado financiados financiamos financiando financiara financiarei financiaron financien financio financiou
+30	3330	presidir	preside presidida presidido presidise presidía presidín
+31	3331	localizar	localiza localizada localizadas localizado localizados localizamos localizando localizastes localizou localizásemos
+32	3332	habitar	habita habitaban habitada habitadas habitado habitamos habitan habitando habitaran habiten habitou
+33	3333	arrasar	arrasa arrasaba arrasada arrasado arrasados arrasan arrasaremos arrasaron arrasará arrasaría arraso arrasou
+34	3334	asignar	asignada asignadas asignado asignados asignamos asignarían asignase asignasen asignen asignou asignoume
+35	3335	sensato	sensata sensatas sensatos
+36	3336	retrasar	retrasa retrasada retrasado retrasados retrasan retrasas retraso
+37	3337	confiscar	confiscada confiscadas confiscado confiscados confiscan confiscando confiscaramos confiscaron
+38	3338	continuación	
+39	3339	inocencia	
+40	3340	piano	
+41	3341	gnomo	
+42	3342	libremente	
+43	3343	salsa	
+44	3344	química	
+45	3345	virilla	brilla
+46	3346	sesenta	
+47	3347	tranquilamente	
+48	3348	beixador	
+49	3349	escudeiro	escudeiros
+50	3350	embaixada	embaixadas
+51	3351	franxa	franxas
+52	3352	chantaxe	chantaxes
+53	3353	calcetín	calcetíns
+54	3354	devanceiro	devanceiros
+55	3355	combatente	combatentes
+56	3356	herdanza	herdanzas
+57	3357	comunal	comunais
+58	3358	utilidade	utilidades
+59	3359	allo	allos
+60	3360	hipótese	hipóteses
+61	3361	municipal	municipais
+62	3362	nacionalidade	nacionalidades
+63	3363	troco	trocos
+64	3364	coincidencia	coincidencias
+65	3365	bolboreta	bolboretas
+66	3366	disposición	disposicións
+67	3367	taberna	tabernas
+68	3368	globo	globos
+69	3369	ofensivo	ofensiva
+70	3370	cinto	cintos
+71	3371	embaixador	embaixadora embaixadores
+72	3372	episodio	episodios
+73	3373	porcallada	porcalladas
+74	3374	resolución	resolucións
+75	3375	fórmula	fórmulas
+76	3376	tigre	tigres
+77	3377	barracón	barracóns
+78	3378	bruto	bruta brutos
+79	3379	tirotear	tiroteados tiroteo tiroteos
+80	3380	puño	puños
+81	3381	activista	activistas
+82	3382	mártir	mártires
+83	3383	pe	pes
+84	3384	fabuloso	fabulosa fabulosas fabulosos
+85	3385	automático	automática automáticas automáticos
+86	3386	doméstico	doméstica domésticas domésticos
+87	3387	mito	mitos
+88	3388	rango	rangos
+89	3389	ferrocarril	ferrocarrís
+90	3390	instinto	instintos
+91	3391	criterio	criterios
+92	3392	pedazo	pedazos
+93	3393	racista	racistas
+94	3394	becho	bechos
+95	3395	escaso	escasa escasas escasos
+96	3396	sinistro	sinistra sinistras sinistros
+97	3397	cicatriz	cicatrices
+98	3398	traseiro	traseiras traseiros
+99	3399	ceibar	ceiba ceibados ceibala ceibalos ceiban ceibaran ceibarme ceibarnos ceibarte ceibará ceibastes ceibes ceibou céibate
+100	3400	abondar	abonda abondaba abondan abondará abondaría abondarían abondas abondou abóndalle abóndame abóndome

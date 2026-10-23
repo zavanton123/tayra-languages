@@ -1,0 +1,100 @@
+1	1	a	ao aos as la las á ás ó ós
+2	2	de	da dalgunha dalgunhas dalgún dalgúns dalí daquel daquela daquelas daqueles daquilo daquí das del dela delas deles des desa desas dese deses desta destas deste destes diso disto do dos doutra doutras doutro doutros dun dunha dunhas duns
+3	3	que	qué
+4	4	o	lo los os
+5	5	ser	era eramos eran eras es foi foise fomos for fora foran foron fose fosen fuches fun sede sendo serei seremos seren seres seria será serán serás sería serían serías sexa sexan sexas sido sodes somos son sé é és
+6	6	non	nons
+7	7	e	
+8	8	un	unha unhas uns
+9	9	en	na nalgo nalgunha nalgunhas nalgún nalgúns naquel naquela naquelas naqueles naquilo nas nel nela nelas neles nesa nesas nese neses nesta nestas neste nestes niso nisto no nos noutra noutras noutro noutros nun nunha nunhas nuns
+10	10	estar	estaba estabades estabamos estaban estabas estades estado estados estamos estando estarei estaremos estariamos estará estarán estarás estaría estarían estarías estea esteamos estean esteas estiveches estivemos estiven estivera estiveron estivese estivesen estiveses estivo estou estouche estoume está estábamos están estás
+11	11	ter	tedes tela telo temos ten tendes tendo teno terei teremos teriamos termos terte terá terán terás tería terían terías tes teña teñamos teñan teñas teñen teño tiveches tivemos tiven tivera tiveron tivese tivo tiña tiñamos tiñan tiñas tés téñoo
+12	12	por	pela pola polas polo polos
+13	13	ir	foi fomos fora foron fose fuches fun iamos ide ides imos indo irei iremos irme irá vai vaia vaiamos vaian vaias vaino vaise vaite vamos van vas vasme vaste vou vouche voulle voume vouno voute ía ían ías ímonos
+14	14	facer	facedes facelo facemos facendo facerlle facerme facerse facía facían faga fagamos fagan fagas fago fai faime faino faise fan farei fareino faremos fará farán faría farías fas feita feito feitos fixeches fixemos fixen fixera fixeron fixese fixo fíxeno fíxoo
+15	15	se	
+16	16	poder	poda pode podedes podemos poden poderei poderemos poderes poderiades poderiamos poderá poderán poderás podería poderíamos poderían poderías podes podiamos podo podía podían podías poida poidamos poidan poidas puideches puidemos puiden puidera puideron puidese puido pódelo pódense pódese pódesme pódolle
+17	17	para	paras
+18	18	con	co coa coas cons cos cun cunha cunhas cuns
+19	19	dicir	di dicilo dicimos dicindo dicirche dicirlle dicirlles dicirllo dicirme dicía dicían diga digamos digas digo dille dilles dime dimo din direi dirá diría dis dito dixeches dixemos dixen dixera dixeron dixo dixéronme dígame dígoche dígolle díxenche díxenlle díxolle díxome
+20	20	seu	seus súa súas
+21	21	meu	meus miña miñas
+22	22	todo	toda todas todos
+23	23	querer	queira queirades queiramos queiran queiras quer quere queredes queremos queren querendo quererá quererás querería queres queriamos querida querido queridos quero quería queríamos querían querías quixeches quixen quixera quixeron quixese quixo quérelo quéreme quérennos quéreo quéresme quérete quéroa quérome quéroo
+24	24	eu	eo min
+25	25	saber	sabe sabedes sabemos saben sabendo saberei saberemos saberá saberán saberás sabería sabes sabia sabiades sabiamos sabido sabémolo sabía sabíamos sabían sabíao sabías saiba saibamos saiban saibas sei seino soubemos souben soubera soubese soubesen soubeses soubo sábelo sábeno sábeo sábese
+26	26	como	
+27	27	haber	ha habedes habemos habendo haberá habería habiamos habido habémonos había habían habías hai haino hainos halle halles hamas hame han hanme hannos hano hanse hao has hase haste haxa hei heiche heicho heille heime heino heite houbera houbese houbo
+28	28	si	sis
+29	29	ver	ve vedes velos vemos ven vendo verdes verei veremos vernos vervos verá verán verás ves vexa vexamos vexan vexas vexo viches vimos vin vina vira viran viron vise vista vistas vistes visto viu vémonos véxoo véxote vía vías víchelo
+30	30	máis	
+31	31	ben	bens
+32	32	este	esta estas estes estoutro
+33	33	pero	peros
+34	34	aquí	
+35	35	me	ma mo
+36	36	iso	
+37	37	teu	teus túa túas
+38	38	xa	
+39	39	ti	
+40	40	vir	ven veu veume veña veñan veñas veñen veño vidas vide video vides vido vimos vin vinde vindo virei virá virán virás viría viríame virías viña viñan viñas viñeches viñemos viñera viñeran viñeras viñeron viñese viñesen viñeses viñestes vén vés
+41	41	cando	
+42	42	só	soa soas sós
+43	43	ou	
+44	44	pasar	pasa pasaba pasaban pasaches pasada pasadas pasade pasado pasados pasalo pasamos pasan pasando pasara pasarei pasaremos pasarme pasaron pasará pasarán pasaría pasas pasase pase pasei paseino pasemos pasen pases paso pasos pasou pasoulle pasoume pasámolo pasándoo pásalle pásame pásao
+45	45	ese	esa esas eses esoutro
+46	46	dar	daba dada dado dados damos dan dando darche darei darlle darlles darme darnos dará daría dea dean deas deches dei deille demos dera deron deu deulle deume dou douche dá dáche dálle dámo dános dás dáte déame déronlle déronme
+47	47	deber	deba debamos debe debedes debemos deben debera deberan deberas deberemos deberes deberiades deberiamos deberon deberá deberán debería deberíamos deberían deberías debes debese debeu debiamos debiches debido debo debémonos debéramos debía debíamos debían debías debín débense débese débesme déboche débolle
+48	48	agora	
+49	49	outro	outra outras outros
+50	50	te	tes
+51	51	así	
+52	52	deixar	deixa deixaba deixaches deixade deixado deixala deixalo deixamos deixan deixando deixara deixarei deixaremos deixarme deixarnos deixaron deixarte deixará deixaría deixas deixase deixe deixei deixeino deixemos deixen deixes deixo deixou deixoume deixádeo déixaa déixame déixanos déixao déixate déixeme déixenme déixeo
+53	53	moi	
+54	54	moito	moita moitas moitos moitísima moitísimas moitísimo moitísimos muito
+55	55	lle	lla llas llelo lles llo llos
+56	56	onde	
+57	57	pensar	pensa pensaba pensabamos pensaban pensabas pensaches pensada pensade pensades pensado pensalo pensamos pensan pensando pensara pensarei pensaron pensará pensarán pensarás pensaría pensarías pensas pensase pense pensedes pensei penseino pensemos pensen penses penso pensou pensábase pensándoo pénsalo pénsao pénsase pénseo
+58	58	nada	
+59	59	falar	fala falaba falabamos falaban falabas falaches falade falades falado falamos falan falando falara falarche falarei falaremos falarlle falarme falaron falarte falará falaría falas falase fale falei falemos falen fales falo falou faloume falábase falámolo falándolle fálalle fálame fálanos fálase
+60	60	noso	nosa nosas nosos
+61	61	señor	señora señoras señores
+62	62	el	
+63	63	día	días
+64	64	bo	boa boas bos
+65	65	vez	veces
+66	66	isto	
+67	67	home	homes
+68	68	quen	
+69	69	crer	cre crea creamos crean creas credes crees crelo cremos cren crendo creo crerme creron crerá crerán crería crerías cres crese creste creu cri criamos criches crin crino créame créanme créanse créase créoche créollo créote cría crían críao crías crín
+70	70	algo	
+71	71	levar	leva levaba levaban levada levades levado levados levala levalo levalos levamos levan levando levara levarei levareite levarme levarnos levaron levarte levará levaría levas leve levei leven leves levo levou levoume levouna levounos leváronme levárono lévame lévanos lévao lévoo lévote
+72	72	porque	
+73	73	cousa	cousas cousiña
+74	74	casa	casas casiña
+75	75	mesmo	mesma mesmas mesmos
+76	76	ano	anos
+77	77	volver	voltas volto volva volvamos volvan volvas volve volvede volvedes volvelo volvemos volven volvendo volvera volverei volveremos volverme volveron volverse volverá volverán volverás volvería volves volvese volveses volveu volveuse volviches volvo volvéronse volvía volvían volvícheste volvín vólveme vólvense vólvese vólvesme
+78	78	novo	nova novas novos
+79	79	dous	duas dúas
+80	80	tempo	tempos
+81	81	xente	xentes
+82	82	mais	
+83	83	mirar	mira miraba mirabamos miraban mirada miradas mirade mirades miralo miramos miran mirando miraremos mirarme mirarnos mirarte miras mirase mire miredes mirei mireino miren mires miro mirou miroume mirádeo mirámonos mirándome míraa mírame mírante mírao míraos mírase mírate míreme míreo
+84	84	chegar	chega chegaba chegabamos chegaban chegaches chegada chegades chegado chegados chegamos chegan chegando chegara chegaran chegaredes chegarei chegaremos chegaren chegares chegarnos chegaron chegará chegarán chegarás chegaría chegarían chegas chegase chegasen chego chegou chegoume chegue cheguedes cheguei cheguemos cheguen chegues chéganos
+85	85	che	cha chas cho chos
+86	86	nós	nola nolo nos
+87	87	tamén	
+88	88	vostede	vostedes
+89	89	nunca	
+90	90	vivir	viva vivades vivamos vivan vivas vive viven vives viviamos viviches vivida vivide vivides vivido vividos vivila vivilo vivimos vivindo vivira viviras vivirei viviremos viviron vivirá vivirán vivirás viviría vivirían vivirías vivise vivisen viviu vivo vivos vivía vivían vivías vivín
+91	91	vida	vidas
+92	92	sen	sens
+93	93	chamar	chamaba chamaban chamaches chamada chamadas chamade chamado chamados chamala chamalo chamamos chaman chamando chamarei chamareino chamareite chamarlle chamarme chamaron chamarte chamaría chamas chame chamei chamen chames chamo chamou chamoume chamábase chamáchesme chámame chámanlle chámanme chámano chámao chámase chámeme chámote
+94	94	noite	noites note nuite
+95	95	aínda	
+96	96	ela	
+97	97	tan	
+98	98	mellor	mellores
+99	99	sentir	sente senten sentes sentiches sentidos sentilo sentimos sentindo sentinme sentiraste sentirme sentiron sentirse sentirte sentirá sentiría sentiríame sentise sentiu sentiuse sentía sentíame sentían sentías sentíase sentímonos sentín sinta sintan sintas sinte sinto sintoo séntense séntese sénteste síntocho síntome síntoo
+100	100	coma	comas

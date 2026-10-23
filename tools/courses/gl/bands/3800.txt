@@ -1,0 +1,100 @@
+1	3701	pando	panda
+2	3702	babel	
+3	3703	comprensión	
+4	3704	cabalaría	
+5	3705	acumulación	
+6	3706	fianza	
+7	3707	francamente	
+8	3708	extra	extras
+9	3709	corrupción	
+10	3710	supostamente	
+11	3711	rendición	
+12	3712	micho	
+13	3713	aleluia	
+14	3714	medicación	
+15	3715	definición	definicións
+16	3716	lar	lares
+17	3717	global	globais
+18	3718	reactor	reactores
+19	3719	licenza	licenzas
+20	3720	solicitude	solicitudes
+21	3721	camioneta	camionetas
+22	3722	feixón	feixóns
+23	3723	estadio	estadios
+24	3724	interpretación	interpretacións
+25	3725	bañeira	bañeiras
+26	3726	frente	frentes
+27	3727	manifestante	manifestantes
+28	3728	debilidade	debilidades
+29	3729	taza	tazas
+30	3730	rancor	rancores
+31	3731	salvador	salvadora
+32	3732	sentenza	sentenzas
+33	3733	motel	moteis
+34	3734	filisteo	filistea filisteos
+35	3735	banquete	banquetes
+36	3736	envolto	envolta envoltas envoltos
+37	3737	cordeiro	cordeira cordeiros
+38	3738	arrabalde	arrabaldes
+39	3739	obxección	obxeccións
+40	3740	barca	barcas
+41	3741	auxilio	auxilios
+42	3742	galería	galerías
+43	3743	gardián	gardiá gardiáns gardiás
+44	3744	partidario	partidaria partidarios
+45	3745	décimo	décima décimas décimos
+46	3746	creativo	creativa creativos
+47	3747	patentar	patentaron patente patentes
+48	3748	lesbiano	lesbiana lesbianas lesbianos
+49	3749	historiador	historiadora historiadores
+50	3750	preguiceiro	preguiceira preguiceiras preguiceiros
+51	3751	metálico	metálica metálicas metálicos
+52	3752	inspector	inspectores
+53	3753	indiferente	indiferentes
+54	3754	eficiente	eficientes
+55	3755	superficial	superficiais
+56	3756	interrogatorio	interrogatorios
+57	3757	melodía	melodías
+58	3758	varón	varóns
+59	3759	plataforma	plataformas
+60	3760	espacial	espaciais
+61	3761	protagonista	protagonistas
+62	3762	convicción	conviccións
+63	3763	ribeira	ribeiras
+64	3764	masivo	masiva masivas masivos
+65	3765	ausente	ausentes
+66	3766	cualificar	cualificada cualificadas cualificado cualificados
+67	3767	imaxinario	imaxinaria imaxinarias imaxinarios
+68	3768	hamburguesa	hamburguesas
+69	3769	distraer	distrae distraelo distraen distraerei distraerse distraerte distraia distraída distraído distráenos
+70	3770	creba	crebas quebra
+71	3771	privar	priva privaba privada privadas privade privados privala privando privara privaron privádeos privándome prívase
+72	3772	poxa	poxas
+73	3773	poucos	pouca poucas
+74	3774	tallar	tallada talladas tallados tallando tallarnos tallas tallei tallo tallos tallou
+75	3775	cota	cotas
+76	3776	xura	xuras
+77	3777	envexar	envexaba envexalo envexamos envexan envexaría envexarían envexas envexo envexábate envexámolos envéxoa envéxote envéxovos
+78	3778	caber	cabe cabemos caberá cabería caberían cabida cabido cabía caiba
+79	3779	estrañar	estrañaba estrañades estrañado estrañados estrañamos estrañaras estrañarei estrañaría estrañe estrañei estrañen estrañou
+80	3780	mamar	mamada mamadas mamades mamado mamamos mamando mamarme mame mamou mamouse
+81	3781	falecer	falecera faleceron falecería falecese faleceu faleciches falecido falecidos falecín
+82	3782	encubrir	encobren encuberta encuberto encubertos encubra encubrindo encubrirán encubriu
+83	3783	despregar	desprega despregadas despregade despregado despregados despregan despregou despregue despréganse desprégase
+84	3784	agachar	agacha agachaba agachabas agachada agachado agachados agachan agachase agaches agacho agachou
+85	3785	axeonllar	axeonlla axeonllaches axeonllado axeonllados axeonllara axeonllaredes axeonllarse axeonllase axeonllasen axeonlledes axeonlles axeonllo
+86	3786	recadar	recadado recadando recado recados recadou
+87	3787	telefonar	telefona telefonarlle telefone telefonei telefono telefonou telefonoute
+88	3788	murmurar	murmura murmuraban murmurando murmuras murmuro murmurou murmuroume murmúrase
+89	3789	anticipar	anticipaban anticipado anticipamos anticipando anticipara anticipo anticipos anticipou
+90	3790	agrario	agraria agrarias
+91	3791	resumo	resumos
+92	3792	mear	meando mee
+93	3793	corar	corado coro coros
+94	3794	estrear	estrea estrean estreou
+95	3795	subornar	suborna subornada subornado suborno subornos
+96	3796	veterinario	veterinaria veterinarias veterinarios
+97	3797	agresivo	agresiva agresivas agresivos
+98	3798	indefenso	indefensa indefensas indefensos
+99	3799	clandestino	clandestina clandestinas clandestinos
+100	3800	abater	abaten abatendo abateu abatida abatido abatidos abaténdoos

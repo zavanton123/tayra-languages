@@ -1,0 +1,100 @@
+1	8001	estabelecemento	estabelecementos
+2	8002	repolo	repolos
+3	8003	leninista	leninistas
+4	8004	recambiar	recambio recambios
+5	8005	usureiro	usureiros
+6	8006	garrafa	garrafas
+7	8007	vulgaridade	vulgaridades
+8	8008	matrimonial	matrimoniais
+9	8009	impúdico	impúdica impúdicas
+10	8010	ecosistema	ecosistemas
+11	8011	nicho	nichos
+12	8012	hipotético	hipotética hipotéticos
+13	8013	banalidade	banalidades
+14	8014	mirrar	mirra mirradas mirrado
+15	8015	defectuoso	defectuosa
+16	8016	desinteresar	desinteresada desinteresado desinterese
+17	8017	inesquecible	inesquecíbel
+18	8018	molécula	moléculas
+19	8019	compoñente	compoñentes
+20	8020	pirámide	pirámides
+21	8021	remitir	remite remitirá remitín
+22	8022	ateo	ateos
+23	8023	incurábel	incurábeis
+24	8024	surrealista	surrealistas
+25	8025	aba	abas
+26	8026	poncho	ponchos
+27	8027	aspereza	asperezas
+28	8028	graxento	graxentas graxentos
+29	8029	pelello	pelellos
+30	8030	arduo	ardua arduas
+31	8031	ancorar	ancorada ancorados
+32	8032	falabarato	falabaratos
+33	8033	evasivo	evasiva evasivas
+34	8034	ficheiro	ficheiros
+35	8035	froiteiro	froiteiras froiteiros
+36	8036	laparada	labaradas
+37	8037	asaltante	asaltantes
+38	8038	anal	anais
+39	8039	latente	latentes
+40	8040	escondedoiro	escondedoiros
+41	8041	acompañante	acompañantes
+42	8042	incomparable	incomparables
+43	8043	enterramento	enterramentos
+44	8044	inxectar	inxecta inxectaches
+45	8045	modificación	modificacións
+46	8046	sórdido	sórdidas sórdidos
+47	8047	leituga	leitugas
+48	8048	especulador	especuladores
+49	8049	tecedor	tecedora tecedores
+50	8050	optar	opta optamos optou
+51	8051	conduto	condutos
+52	8052	trompa	trompas
+53	8053	rutineiro	rutineiras rutineiros
+54	8054	bastión	bastións
+55	8055	lugartenente	lugartenentes
+56	8056	cobrador	cobradores
+57	8057	atmosférico	atmosférica atmosféricas
+58	8058	radiografía	radiografías
+59	8059	carrozar	carroza carrozaría carrozas
+60	8060	deda	dedas
+61	8061	postizo	postizas postizos
+62	8062	campanario	campanarios
+63	8063	insidioso	insidiosa
+64	8064	tormentoso	tormentosa
+65	8065	olmo	olmos
+66	8066	obsoleto	obsoleta
+67	8067	orquídea	orquídeas
+68	8068	progresivo	progresiva progresivas
+69	8069	intencionado	intencionada intencionados
+70	8070	numérico	numérica numéricas
+71	8071	moucho	moucha mouchos
+72	8072	sintético	sintética sintéticas sintéticos
+73	8073	restablecer	restablecida restablecidos
+74	8074	pranchar	prancha pranchaban pranchando pranchas
+75	8075	gomitar	gomitando gomitases gomito
+76	8076	caloroso	calorosas calorosos
+77	8077	erosionar	erosionan erosionando erosionaron
+78	8078	chileno	chilena chilenos
+79	8079	invalidar	invalida invalidadas invalido
+80	8080	barbudo	barbuda barbudos
+81	8081	acústico	acústica acústicas
+82	8082	prefabricado	prefabricada prefabricadas prefabricados
+83	8083	adherir	adheridas adheriu adhire
+84	8084	desafiuzar	desafiuzada desafiuzado desafiuzados desafiuzo
+85	8085	embrear	embreado embreara embreou
+86	8086	xeneralizar	xeneralizada xeneralizado xeneralizando
+87	8087	destapar	destapa destapando
+88	8088	restituír	restituída restituíde restitúe
+89	8089	inxustificado	inxustificada inxustificadas inxustificados
+90	8090	salientar	salienta salientando salientou
+91	8091	irradiar	irradia irradiaba irradiado irradian
+92	8092	incompleto	incompleta incompletos
+93	8093	amontoar	amontoada amontoados amontoan amontoando
+94	8094	perturbador	perturbadora perturbadores
+95	8095	xemer	xeme xemido xemidos
+96	8096	perdurar	perdura perduran
+97	8097	tusir	tuse tusindo tuso tusía
+98	8098	mísero	mísera míseros
+99	8099	mixto	mixta mixtas
+100	8100	refregar	refrega refregas refrégase

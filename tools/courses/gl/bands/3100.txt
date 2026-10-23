@@ -1,0 +1,100 @@
+1	3001	charlar	charla charlabamos charlamos charlando charlaron charlas charlemos charlo
+2	3002	apestar	apesta apestaba apestades apestan apestas apeste apesto
+3	3003	escoltar	escolta escoltada escoltade escoltado escoltados escoltan escoltando escoltará escoltas
+4	3004	afiar	afiada afiadas afiado afiados afiaramos afiarámolos
+5	3005	perturbar	perturba perturbaba perturbaches perturbada perturbado perturbados perturban perturbará perturbaría perturbas perturbo perturbou
+6	3006	coincidir	coincide coinciden coincidentes coincidimos coincidira coincidiron coincidiu coincido coincidía
+7	3007	contribuír	contribuímos contribuíndo contribuíron contribuíu contribúa contribúan contribúe contribúen
+8	3008	felicitar	felicita felicitados felicitala felicitalo felicitalos felicitarte felicitarvos felicite felicites felicito felicítolle felicítolles felicítoo felicítoos felicítote
+9	3009	sona	
+10	3010	constitución	
+11	3011	escravitude	
+12	3012	atmosfera	
+13	3013	perto	
+14	3014	gaza	
+15	3015	endexamais	
+16	3016	evidentemente	
+17	3017	jeep	jeeps
+18	3018	telegrama	telegramas
+19	3019	audiencia	audiencias
+20	3020	postura	posturas
+21	3021	caixón	caixóns
+22	3022	soto	sotos
+23	3023	combinación	combinacións
+24	3024	infantil	infantís
+25	3025	verba	verbas
+26	3026	salchicha	salchichas
+27	3027	musical	musicais
+28	3028	lexión	lexións
+29	3029	satélite	satélites
+30	3030	fachendoso	fachendosa fachendosos
+31	3031	ra	ras
+32	3032	bando	bandos
+33	3033	década	décadas
+34	3034	significativo	significativa significativas significativos
+35	3035	rabia	rabias
+36	3036	papar	papados papai papala papalos papando papas papeis papen papo papou pápalas
+37	3037	fritir	frita fritan fritas fritida fritidas fritido fritidos fritilos fritirse
+38	3038	fechar	fechada fechadas fechado fechados fechala fechan fecharon fechas feche fechei fechen fecho fechos féchao
+39	3039	activar	activa activada activadas activados activala activando activaran activarse activas activen activou actívao
+40	3040	convir	conveña conveñen conveño convida convidas convide convido convimos conviña convén
+41	3041	alzar	alce alcemos alza alzaba alzada alzado alzalo alzamos alzan alzaremos alzaron alzarse alzas alzo alzou alzounos álzase
+42	3042	emitir	emita emitan emite emiten emitida emitidas emitido emitidos emitimos emitindo emitiron emitiría emitiu emitían emítese
+43	3043	constituír	constituía constituído constituímos constituíndo constituíndose constituíntes constituíron constituíse constituíu constitúa constitúe constitúen
+44	3044	estabelecer	estabelecen estabelecendo estabelecera estabeleceron estabeleceu estabelecida estabelecidas estabelecido estabelecían
+45	3045	borrar	borraba borrada borradas borrado borrados borran borraron borrarán borre borren
+46	3046	analizar	analicen analices analiza analizaches analizada analizade analizalo analizamos analizan analizas analizou analízanos analízase
+47	3047	improvisar	improvisa improvisada improvisadas improvisado improvisados improvisando improvisaredes improviso improvisou improvísase
+48	3048	adicar	adica adicada adicado adican adicarlle adicarme adicarnos adicas adicou adiquei adícase adícaste
+49	3049	esvaecer	esvaece esvaeceras esvaeceron esvaecerse esvaecerá esvaeceu esvaeceuse esvaecida esvaecidas esvaecido esvaecéronse esvaecía esvaecín
+50	3050	benestar	
+51	3051	graxa	
+52	3052	seda	
+53	3053	aproximadamente	
+54	3054	estame	
+55	3055	evacuación	
+56	3056	asedio	
+57	3057	literalmente	
+58	3058	vicepresidente	
+59	3059	xix	
+60	3060	alcol	
+61	3061	mercurio	
+62	3062	zorra	
+63	3063	repente	
+64	3064	xénero	xéneros
+65	3065	pavimentar	pavimentadas pavimento
+66	3066	reno	renos
+67	3067	ventre	ventres
+68	3068	formación	formacións
+69	3069	barullo	barullos
+70	3070	insurrección	insurreccións
+71	3071	natal	natais
+72	3072	pelotón	pelotóns
+73	3073	estalo	estalos
+74	3074	galleta	galletas
+75	3075	roca	rocas
+76	3076	estable	estables estábel
+77	3077	guitarra	guitarras
+78	3078	violación	violacións
+79	3079	síntoma	síntomas
+80	3080	lectura	lecturas
+81	3081	estatua	estatuas
+82	3082	búfalo	búfalos
+83	3083	aceno	acenos
+84	3084	ignorante	ignorantes
+85	3085	alarmar	alarma alarmado alarmas
+86	3086	pito	pitos
+87	3087	fragmento	fragmentos
+88	3088	visitante	visitantes
+89	3089	tentativa	tentativas
+90	3090	construtor	construtora construtoras construtores
+91	3091	arquitecto	arquitecta arquitectos
+92	3092	doloroso	dolorosa dolorosas dolorosos
+93	3093	inxusto	inxusta inxustas inxustos
+94	3094	derivar	deriva derivada derivadas derivado derivados derivando derivaron derivei derivou
+95	3095	nora	noras xenro
+96	3096	reflexar	reflexa reflexado reflexo reflexos
+97	3097	hostil	hostís
+98	3098	intenso	intensa intensos
+99	3099	relatar	relata relataba relataban relatando relato relatos
+100	3100	coxo	coxa coxas coxos

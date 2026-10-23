@@ -1,0 +1,100 @@
+1	8601	hipnotizar	hipnotizado
+2	8602	honroso	honrosa honrosas
+3	8603	delicadeza	delicadezas
+4	8604	kurdo	kurdos
+5	8605	clavícula	clavículas
+6	8606	ilexítimo	ilexítimos
+7	8607	marsellés	marsellesa marselleses
+8	8608	corredoira	corredoiras
+9	8609	choqueiro	choqueiras
+10	8610	dentadura	dentaduras
+11	8611	maniático	maniática
+12	8612	fugado	fugada
+13	8613	vibrante	vibrantes
+14	8614	trasgar	trasgo trasgos
+15	8615	desfigurar	desfigurada desfigurado
+16	8616	enterrador	enterradores
+17	8617	aperitivo	aperitivos
+18	8618	crioulo	crioulos
+19	8619	trauma	traumas
+20	8620	centésimo	centésimas
+21	8621	expropiar	expropiados
+22	8622	formato	formatos
+23	8623	florear	floreado florean
+24	8624	inanimado	inanimados
+25	8625	capucho	capuchos
+26	8626	reencher	reenchemos reenchidas
+27	8627	pomelo	pomelos
+28	8628	saturar	saturado saturados
+29	8629	chucho	chuchos
+30	8630	vizconde	vizcondes
+31	8631	recoñecible	recoñecibles
+32	8632	mareo	mareos
+33	8633	triunfante	triunfantes
+34	8634	recender	recendes recendo
+35	8635	dispensar	dispensa
+36	8636	violinista	violinistas
+37	8637	imposición	imposicións
+38	8638	indiano	indiana indianas
+39	8639	mangante	mangantes
+40	8640	incomprensible	incomprensíbel
+41	8641	pingueira	pingueiras
+42	8642	carencia	carencias
+43	8643	cargueiro	cargueiros
+44	8644	bandoleiro	bandoleiros
+45	8645	cisne	cisnes
+46	8646	interminábel	interminábeis
+47	8647	nubrar	nubrado nubrados
+48	8648	cortés	corteses
+49	8649	cambiante	cambiantes
+50	8650	impedimento	impedimentos
+51	8651	embargar	embargados
+52	8652	elfo	elfos
+53	8653	relucir	reluciu
+54	8654	innovación	innovacións
+55	8655	minguante	minguantes
+56	8656	remordemento	remordementos
+57	8657	nabo	nabos
+58	8658	solicitante	solicitantes
+59	8659	convicto	convictos
+60	8660	toniña	toniñas
+61	8661	mirón	miróns
+62	8662	vencellar	vencellada vencellados
+63	8663	súbito	súbitos
+64	8664	acolchar	acolchada acolchado
+65	8665	térmico	térmica térmicas
+66	8666	augusto	augustos
+67	8667	coacción	coaccións
+68	8668	regadío	regadíos
+69	8669	inmoble	inmobles
+70	8670	victorioso	victoriosos
+71	8671	pavero	pavera
+72	8672	tunante	tunantes
+73	8673	avaro	avaros
+74	8674	estrutural	estruturais
+75	8675	audaz	audaces
+76	8676	arrabaldo	arrabaldos
+77	8677	inaceptable	inaceptables
+78	8678	importunar	importunen
+79	8679	sumerxir	sumerxida sumerxido
+80	8680	cobaia	cobaias
+81	8681	mortalla	mortallas
+82	8682	altivo	altiva
+83	8683	falacia	falacias
+84	8684	gabanza	gabanzas
+85	8685	conxelador	conxeladores
+86	8686	extinto	extinta
+87	8687	carreiro	carreiros
+88	8688	flotador	flotadores
+89	8689	impune	impunes
+90	8690	intromisión	intromisións
+91	8691	tintura	tinturas
+92	8692	birollo	birolla
+93	8693	salmo	salmos
+94	8694	alfándega	alfándegas
+95	8695	panxoliña	panxoliñas
+96	8696	restrición	restricións
+97	8697	imprescindible	imprescindíbel
+98	8698	rítmico	rítmica rítmicas
+99	8699	chanceler	chanceleres
+100	8700	forestal	forestais

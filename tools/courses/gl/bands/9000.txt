@@ -1,0 +1,100 @@
+1	8901	capitular	capitula capitularán capitulo
+2	8902	reintegrar	reintegrado reintegraron
+3	8903	atestar	atestará atestarían
+4	8904	vitoriano	vitoriana
+5	8905	asollar	asollado asollan asollarán
+6	8906	turbulento	turbulenta turbulentos
+7	8907	orificio	orificios
+8	8908	exento	exentas
+9	8909	empatar	empatan empate
+10	8910	prehistórico	prehistórica prehistóricos
+11	8911	doutorar	doutorado doutorados
+12	8912	irrefutable	irrefutables
+13	8913	oscilar	oscila oscilando
+14	8914	entrenar	entrenaban entrenado
+15	8915	maquinación	maquinacións
+16	8916	patolóxico	patolóxica patolóxicos
+17	8917	bengala	bengalas
+18	8918	corsario	corsaria corsarios
+19	8919	pacifista	pacifistas
+20	8920	antropolóxico	antropolóxica antropolóxicas
+21	8921	gandeiro	gandeiros
+22	8922	realzar	realce
+23	8923	latinoamericano	latinoamericana latinoamericanos
+24	8924	pez	peces
+25	8925	reformular	reformularei reformulou
+26	8926	fumigar	fumigando fumigaran
+27	8927	competidor	competidora competidores
+28	8928	cismar	cisma
+29	8929	escasear	escasea escaseaba escasean
+30	8930	multar	multado multados multen
+31	8931	trampulleiro	trampulleira trampulleiros
+32	8932	iluso	ilusa
+33	8933	emprendedor	emprendedores
+34	8934	premiar	premiado premiados
+35	8935	evanxeo	evanxeos
+36	8936	endurecer	endurece endurecidas
+37	8937	desexoso	desexosa desexosos
+38	8938	atracador	atracadores
+39	8939	sociolóxico	sociolóxica sociolóxicas
+40	8940	foraxido	foraxidos
+41	8941	xabaril	xabarís
+42	8942	ciscar	ciscadas ciscados
+43	8943	predestinar	predestinada predestinado
+44	8944	adormentar	adormentada adormentados
+45	8945	nutrir	nutren
+46	8946	superpoñer	superposta superpostas superpostos superpuxeron superpón
+47	8947	superpor	superposta superpostas superpostos superpuxeron superpón
+48	8948	estrataxema	estrataxemas
+49	8949	emblemático	emblemática emblemáticas
+50	8950	xeitoso	xeitosa xeitosos
+51	8951	uña	uñas
+52	8952	pastrán	pastráns
+53	8953	bancada	bancadas
+54	8954	horrorizar	horrorizada horrorizado horrorizados
+55	8955	cangrexo	cangrexos
+56	8956	australiano	australianos
+57	8957	mexillón	mexillóns
+58	8958	cancela	cancelas
+59	8959	falador	faladora faladores
+60	8960	conxugar	conxuga conxugadas
+61	8961	lácteo	láctea lácteos
+62	8962	delicia	delicias
+63	8963	melodramático	melodramática melodramáticos
+64	8964	seta	setas
+65	8965	afinidade	afinidades
+66	8966	reescribir	reescribimos reescribín
+67	8967	apesarar	apesarada apesarado apesarados
+68	8968	tintinar	tintinaban tintinan
+69	8969	selectivo	selectiva selectivas
+70	8970	excéntrico	excéntrica excéntricos
+71	8971	ultimar	ultima ultimas ultimo
+72	8972	adelgazar	adelgazaches
+73	8973	secundar	secundan secundo
+74	8974	engraxar	engraxado engraxan
+75	8975	desacougante	desacougantes
+76	8976	súplica	súplicas
+77	8977	acoirazado	acoirazada acoirazados
+78	8978	frutífero	frutífera frutíferos
+79	8979	chiscar	chiscada chiscando
+80	8980	constelación	constelacións
+81	8981	profanar	profanamos profano profanou
+82	8982	abondoso	abondosa abondosas
+83	8983	desmoralizar	desmoralizada desmoralizado desmoralizados
+84	8984	prostrar	prostra prostrada prostrado
+85	8985	minucioso	minuciosa minuciosos
+86	8986	deliberación	deliberacións
+87	8987	toga	togas
+88	8988	crible	cribles críbel
+89	8989	marxinado	marxinada marxinados
+90	8990	clixé	clixés
+91	8991	automatizar	automatizada automatizadas automatizados
+92	8992	ninfa	ninfas
+93	8993	endebedar	endebedada endebedado endebedados
+94	8994	utópico	utópica utópicas
+95	8995	presunción	presuncións
+96	8996	retorto	retorta retortas
+97	8997	caducar	caducado caducados caduco
+98	8998	inhabitábel	inhabitábeis
+99	8999	fertilizante	fertilizantes
+100	9000	maléfico	maléfica maléficas maléficos

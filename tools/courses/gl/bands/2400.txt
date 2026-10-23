@@ -1,0 +1,100 @@
+1	2301	mudanza	mudanzas
+2	2302	celoso	celosa celosos
+3	2303	civilización	civilizacións
+4	2304	comedor	comedores
+5	2305	choio	choios
+6	2306	típico	típica típicas típicos
+7	2307	cociñeiro	cociñeira cociñeiras cociñeiros
+8	2308	marabilla	marabillas
+9	2309	afacer	afacendo afacerme afacerte afacéndome afacía afaga afagamos afagan afagas afago afai afarei afará afarás afaría afeita afeitas afeitos afixeches afixen afixera afixo afágame afán afás afíxenme
+10	2310	torturar	torturaba torturada torturado torturados torturalos torturamos torturan torturando torturarme torturarnos torturaron torturarte torturarvos torturas torturen tortures torturábase torturámonos tortúrannos
+11	2311	moer	moa moas moe moio moo moída moído muda mudas mudos móeos
+12	2312	sementar	sementa sementaban sementada sementado sementados sementamos sementando sementaren sementaron sementas sementen sementes sementou
+13	2313	fiar	fiabas fiades fiado fiando fiarme fiarse fiarte fiarvos fiaría fiaríame fiasen fiei fieilles fieis fio fía fían fíanme fíanos fíanse fías fíes fíome
+14	2314	comunicar	comunica comunicaba comunicadas comunicado comunicados comunicando comunicarlle comunicarlles comunicarme comunicarnos comunicaron comunicarte comunicarvos comunicase comunico comunicábase comunicándose comunicáronme comunicáronse comunique comuniquen comunícaselle comuníqueme
+15	2315	trasladar	traslada trasladada trasladadas trasladado trasladados trasladamos trasladarme trasladaron trasladarse trasladarte trasladas traslades trasladou trasladámonos trasladáronme trasladáronnos trasladárono trasladáronse trasládome
+16	2316	arrefriar	arrefriaches arrefriada arrefriado arrefriados arrefriando arrefriarme arrefriarse arrefriará arrefriarán arrefriou arrefría arrefríe
+17	2317	contactar	contacta contactaba contactamos contactara contactaremos contactaron contactará contacte contactei contactou
+18	2318	xustificar	xustifica xustificaban xustificada xustificadas xustificado xustificados xustifican xustificase xustifique xustifiquen xustifiques
+19	2319	namorar	namora namoraba namorabamos namoraches namoramos namorando namorara namoras namore namorei namoro namoros namorou
+20	2320	circular	circula circulaba circulaban circulade circulan circulando circulares circule circulo circulou
+21	2321	retroceder	retroceda retrocedades retrocedan retrocede retrocedede retrocedemos retrocedendo retrocedera retrocederá retrocedería retrocedes retrocedeu retrocedín
+22	2322	cesar	cesa cesades cesan cesaron cesará cesase cese cesei cesen cesou
+23	2323	invadir	invadan invade invaden invadida invadido invadidos invadimos invadindo invadirlles invadiron invadirán invadiu
+24	2324	fútbol	
+25	2325	propaganda	
+26	2326	mediante	
+27	2327	unicamente	
+28	2328	noxo	
+29	2329	igualdade	
+30	2330	comisario	comisarios
+31	2331	residencia	residencias
+32	2332	febre	febres
+33	2333	brunir	brune brunida bruno
+34	2334	diversión	diversións
+35	2335	congreso	congresos
+36	2336	traizón	traizóns
+37	2337	plástico	plástica plásticas plásticos
+38	2338	ideoloxía	ideoloxías
+39	2339	cuartel	cuarteis
+40	2340	cantante	cantantes
+41	2341	tratamento	tratamentos
+42	2342	marrón	marróns
+43	2343	reforma	reformas
+44	2344	socio	socias socios
+45	2345	conclusión	conclusións
+46	2346	raíz	raíces
+47	2347	columna	columnas
+48	2348	amargo	amarga amargas amargos
+49	2349	invisible	invisibles invisíbel
+50	2350	misterioso	misteriosa misteriosas misteriosos
+51	2351	clan	clans
+52	2352	militante	militantes
+53	2353	afastado	afastada afastadas afastados
+54	2354	rapariga	raparigas
+55	2355	leal	leais
+56	2356	activo	activa activas activos
+57	2357	fiel	fieis
+58	2358	rever	reveses revisen revistas revistos revo revés
+59	2359	contemplar	contempla contemplaba contemplade contemplado contemplala contemplalas contemplalo contemplamos contemplando contemplaron contemplas contemple contemplei contemplemos contemplen contemples contemplo contemplou contemplándoo contémploche
+60	2360	afrontar	afronta afrontaba afrontaban afrontados afrontalo afrontalos afrontamos afrontan afrontaren afrontaría afrontas afrontemos afronto afrontámonos afróntano afróntao afróntemolo
+61	2361	someter	sometan sometas somete sometemos someten sometendo sometera someteremos sometida sometidas sometido sometidos
+62	2362	despexar	despexa despexada despexade despexado despexalo despexamos despexan despexas despexe despexei despexen despéxame
+63	2363	reinar	reina reinaba reinaban reinado reinados reinan reinando reinarei reinaría reinas reine reinou
+64	2364	paspán	paspana
+65	2365	veleno	velenos
+66	2366	evidenciar	evidencia evidenciado evidencias
+67	2367	furioso	furiosa furiosas furiosos
+68	2368	destinar	destinada destinadas destinado destinados destinaremos destinaron
+69	2369	solidariedade	
+70	2370	cancro	
+71	2371	amodo	
+72	2372	verbo	verbos
+73	2373	apelido	apelidos
+74	2374	temporal	temporais
+75	2375	tensión	tensións
+76	2376	verdura	verduras
+77	2377	pirata	piratas
+78	2378	nativo	nativa nativas nativos
+79	2379	botón	botóns
+80	2380	fotógrafo	fotógrafa fotógrafos
+81	2381	clásico	clásica clásicas clásicos
+82	2382	inmenso	inmensa inmensas inmensos
+83	2383	traducir	traduce traducido traducidos traducilo traducindo traduciría traducín traduza tradúceme tradúcese
+84	2384	escusar	escusa escusas escuse escúseme
+85	2385	sospeitar	sospeitaba sospeitaban sospeitamos sospeitan sospeitaran sospeitaras sospeitaren sospeitaron sospeitas sospeitasen sospeitei sospeiten sospeito sospeitou sospéitase
+86	2386	manchar	manchaches manchada manchadas manchado manchados manchando mancharme mancharon mancharás manchas manche manchei manchou manchoume mánchalle mánchase
+87	2387	propoñer	propostas proposto propostos propoñemos propoñen propoñendo propoñerche propoñerse propoñerte propoñervos propoño propoñía propoñíalles propuxemos propuxen propuxera propuxeron propuxo propón propós
+88	2388	alegre	alegres
+89	2389	afeito	afeita afeitas afeitos
+90	2390	negociar	negocia negociado negociamos negocian negociando negociaron negociará negociarán negocie negocies
+91	2391	examinar	examina examinaba examinada examinado examinamos examinan examinando examinas examinei examinemos examinen examinou
+92	2392	ensaiar	ensaia ensaiaba ensaiaban ensaiaches ensaiado ensaiando ensaiou
+93	2393	apropiado	apropiada apropiadas apropiados
+94	2394	adiviñar	adiviñaches adiviñade adiviñalo adiviñamos adiviñan adiviñaron adiviñas adiviñe adiviñei adiviñen adiviño adiviños adiviñásedes adivíñoo
+95	2395	disciplina	disciplinas
+96	2396	breve	breves
+97	2397	temperatura	temperaturas
+98	2398	código	códigos
+99	2399	niño	niños
+100	2400	lanza	lanzas
