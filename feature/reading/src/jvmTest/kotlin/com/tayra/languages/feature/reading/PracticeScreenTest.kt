@@ -35,6 +35,9 @@ import com.tayra.languages.core.domain.practice.PracticeResponse
 import com.tayra.languages.core.domain.practice.PracticeSetup
 import com.tayra.languages.core.domain.practice.PracticeBuilder
 import com.tayra.languages.core.domain.practice.PracticeMaterialLoader
+import com.tayra.languages.core.domain.practice.WordForms
+import com.tayra.languages.core.domain.practice.PracticeExampleStore
+import com.tayra.languages.core.data.repository.PracticeExampleRepositoryImpl
 import com.tayra.languages.core.domain.practice.PracticeSource
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
@@ -72,6 +75,7 @@ class PracticeScreenTest {
     private val languages = LanguageRepositoryImpl(provider)
     private val books = BookRepositoryImpl(provider)
     private val terms = TermRepositoryImpl(provider)
+    private val kept = PracticeExampleRepositoryImpl(provider)
     private val settings = SettingsRepositoryImpl(MapSettings())
     private val termService = TermService(terms, languages)
     private val reading = ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), termService)
@@ -94,7 +98,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), setup, PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(seed))
+        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), setup, PracticeMaterialLoader(books, languages, reading, terms), PracticeExampleStore(kept, examples, WordForms(null, terms), terms, languages, settings, translator), kept, translator, Random(seed))
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -130,7 +134,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.CHOOSE)), PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(7))
+        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.CHOOSE)), PracticeMaterialLoader(books, languages, reading, terms), PracticeExampleStore(kept, examples, WordForms(null, terms), terms, languages, settings, translator), kept, translator, Random(7))
         var closed = 0
         setContent {
             TayraTheme {
@@ -162,7 +166,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Book(bookId), PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.CHOOSE)), PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(3))
+        val viewModel = PracticeViewModel(PracticeSource.Book(bookId), PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.CHOOSE)), PracticeMaterialLoader(books, languages, reading, terms), PracticeExampleStore(kept, examples, WordForms(null, terms), terms, languages, settings, translator), kept, translator, Random(3))
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -198,7 +202,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Words(ids), PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_WORD), responses = setOf(PracticeResponse.CHOOSE)), PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(3))
+        val viewModel = PracticeViewModel(PracticeSource.Words(ids), PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_WORD), responses = setOf(PracticeResponse.CHOOSE)), PracticeMaterialLoader(books, languages, reading, terms), PracticeExampleStore(kept, examples, WordForms(null, terms), terms, languages, settings, translator), kept, translator, Random(3))
         var left = 0
         setContent {
             TayraTheme {

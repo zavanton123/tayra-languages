@@ -239,4 +239,7 @@ internal val ptReading: Map<String, String> = mapOf(
     "Read the translation and type the missing word" to "Leia a tradução e digite a palavra que falta",
     "Listen to the sentence" to "Ouça a frase",
     "Which word means “{0}”?" to "Qual palavra significa “{0}”?",
+    "A new sentence: type the missing word" to "Uma frase nova: digite a palavra que falta",
+    "Which word is a form of “{0}” (“{1}”)?" to "Qual palavra é uma forma de “{0}” (“{1}”)?",
+    "{0}, a form of {1}" to "{0}, uma forma de {1}",
 )

@@ -2,7 +2,6 @@ package com.tayra.languages.feature.reading.practice
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.tayra.languages.core.domain.flashcards.Cloze
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.practice.Exercise
@@ -15,15 +14,8 @@ import com.tayra.languages.core.domain.practice.PracticeMaterialLoader
 import com.tayra.languages.core.domain.practice.PracticeSource
 import com.tayra.languages.core.domain.practice.PracticeWord
 import com.tayra.languages.core.domain.practice.TypedResult
-import com.tayra.languages.core.domain.service.ExampleSearchQuery
-import com.tayra.languages.core.domain.service.ExampleSentencesProvider
-import com.tayra.languages.core.domain.service.ExampleSort
 import com.tayra.languages.core.domain.service.SentenceTranslator
-import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.Job
-import kotlinx.coroutines.async
-import kotlinx.coroutines.awaitAll
-import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -35,6 +27,9 @@ import kotlin.random.Random
 import kotlin.time.Duration.Companion.seconds
 import com.tayra.languages.core.domain.practice.PracticeSetup
 import com.tayra.languages.core.domain.practice.PracticeContext
+import com.tayra.languages.core.domain.practice.forPractice
+import com.tayra.languages.core.domain.practice.PracticeExampleStore
+import com.tayra.languages.core.domain.practice.PracticeExampleRepository
 
 /** How a question was answered. */
 enum class PracticeResult { CORRECT, ALMOST, WRONG }
@@ -82,9 +77,9 @@ class PracticeViewModel(
     private val source: PracticeSource,
     private val setup: PracticeSetup,
     private val material: PracticeMaterialLoader,
-    private val examples: ExampleSentencesProvider,
+    private val exampleStore: PracticeExampleStore,
+    private val keptExamples: PracticeExampleRepository,
     private val translator: SentenceTranslator,
-    private val settings: SettingsRepository,
     private val random: Random = Random.Default,
 ) : ViewModel() {
 
@@ -119,7 +114,7 @@ class PracticeViewModel(
             val lang = prepared.language
             language = lang
             val translations = if (ExerciseType.TRANSLATION in setup.types) translateSentences(prepared.words, lang) else emptyMap()
-            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, fetchExamples(prepared.words, lang), random, setup, prepared.meanings, translations)
+            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, examplesFor(prepared.words), random, setup, prepared.meanings, translations)
             _state.update {
                 it.copy(
                     loading = false,
@@ -134,27 +129,14 @@ class PracticeViewModel(
         }
     }
 
-    /** Sentences from elsewhere for a few of the words; whatever does not arrive in time is left out. */
-    private suspend fun fetchExamples(words: List<PracticeWord>, language: Language): Map<String, PracticeExample> {
-        val native = settings.current.nativeLanguage.ifBlank { "en" }
-        val asked = words.shuffled(random).take(EXAMPLE_WORDS)
-        val found = withTimeoutOrNull(EXAMPLE_WAIT) {
-            coroutineScope {
-                asked.map { word ->
-                    async {
-                        val result = attempt {
-                            examples.search(ExampleSearchQuery(word.text, language, native, minWords = 3, maxWords = 14, sort = ExampleSort.RANDOM, limit = 6))
-                        }
-                        result?.sentences.orEmpty().firstNotNullOfOrNull { example ->
-                            val range = Cloze.range(example.text, word.text)
-                            if (range == null || example.text.equals(word.sentence, ignoreCase = true)) null
-                            else word.text.lowercase() to PracticeExample(example.text, range, example.translation?.trim()?.takeIf(String::isNotEmpty))
-                        }
-                    }
-                }.awaitAll().filterNotNull()
-            }
-        }
-        return found.orEmpty().toMap()
+    /**
+     * The sentences from elsewhere kept for the words, when the setup asks for some; words short of
+     * them are looked up first, for as long as [EXAMPLE_WAIT] allows.
+     */
+    private suspend fun examplesFor(words: List<PracticeWord>): Map<String, List<PracticeExample>> {
+        if (PracticeContext.EXAMPLE !in setup.contexts) return emptyMap()
+        attempt { exampleStore.topUp(words.mapNotNull { it.termId }, EXAMPLE_WAIT) }
+        return attempt { keptExamples.forPractice(words) }.orEmpty()
     }
 
     /** The translations of the words' sentences, for questions asked through them; those not ready in time are left out. */
@@ -223,9 +205,9 @@ class PracticeViewModel(
         it.copy(
             result = result,
             correct = it.correct + if (right) 1 else 0,
-            missed = if (right || exercise.word in it.missed) it.missed else it.missed + exercise.word,
-            // A sentence from elsewhere may inflect the word; its answer is the word as practised.
-            missedTargets = if (right) it.missedTargets else it.missedTargets + (if (exercise.context == PracticeContext.EXAMPLE) exercise.answer else exercise.word).lowercase(),
+            missed = if (right || exercise.practised in it.missed) it.missed else it.missed + exercise.practised,
+            // A sentence from elsewhere may use another form of the word; the word practised is the one missed.
+            missedTargets = if (right) it.missedTargets else it.missedTargets + exercise.practised.lowercase(),
         )
     }
 
@@ -242,7 +224,6 @@ class PracticeViewModel(
     }
 
     private companion object {
-        const val EXAMPLE_WORDS = 4
         val EXAMPLE_WAIT = 4.seconds
 
         /** How long the sentences of translation questions may take to translate, all together. */

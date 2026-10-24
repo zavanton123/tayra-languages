@@ -438,4 +438,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Translating the sentences…" to "A traduzir as frases…",
     "Save as preset" to "Guardar como predefinição",
     "Remove the preset {0}" to "Remover a predefinição {0}",
+    "Looking up sentences from elsewhere…" to "A procurar frases noutras fontes…",
+    "Sentences kept for {0} of {1} words" to "Frases guardadas para {0} de {1} palavras",
 )

@@ -73,7 +73,7 @@ class PracticeMaterialLoader(
             val text = sentence.displayText
             sentence.items.filter { it.isWord && it.status.isLearning }.mapNotNull { item ->
                 val word = item.renderText
-                Cloze.range(text, word)?.let { PracticeWord(word, item.term?.translation?.trim()?.takeIf(String::isNotEmpty), text, it) }
+                Cloze.range(text, word)?.let { PracticeWord(word, item.term?.translation?.trim()?.takeIf(String::isNotEmpty), text, it, item.termId) }
             }
         }.distinctBy { it.text.lowercase() }
 
@@ -84,7 +84,7 @@ class PracticeMaterialLoader(
         val words = chosen.filter { it.languageId == lang.id }.mapNotNull { term ->
             val sentence = term.sentence?.trim()?.takeIf { it.isNotEmpty() } ?: return@mapNotNull null
             val range = Cloze.familyRange(sentence, term, terms) ?: return@mapNotNull null
-            PracticeWord(sentence.substring(range), term.translation?.trim()?.takeIf(String::isNotEmpty), sentence, range)
+            PracticeWord(sentence.substring(range), term.translation?.trim()?.takeIf(String::isNotEmpty), sentence, range, term.id)
         }.distinctBy { it.text.lowercase() }
         val pool = terms.list(TermListFilter(languageId = lang.id, minStatus = TermStatus.NEW_1, maxStatus = TermStatus.LEARNING_4), TermListSort(), 0, POOL_WORDS).items.map { it.displayText }
         return PracticeMaterial(lang, "", words, pool)

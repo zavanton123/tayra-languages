@@ -41,7 +41,7 @@ class PracticeTest {
     /** Only the kinds asked for come up: choices only, typing only, or one kind alone; a sentence from elsewhere comes as a gap, chosen or typed. */
     @Test
     fun onlyTheKindsAskedForComeUp() {
-        val examples = mapOf("comprar" to PracticeExample("Vou comprar pão.", Cloze.range("Vou comprar pão.", "comprar")!!, "I will buy bread."))
+        val examples = mapOf("comprar" to listOf(PracticeExample("Vou comprar pão.", Cloze.range("Vou comprar pão.", "comprar")!!, "I will buy bread.")))
         val choice = PracticeBuilder.build(words, pageWords, examples, Random(1), PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_WORD), responses = setOf(PracticeResponse.CHOOSE)))
         assertTrue(choice.isNotEmpty() && choice.all { it.isChoice }, "choice: ${choice.map { it.kind }}")
         assertTrue(choice.any { it.context == PracticeContext.EXAMPLE }, "a sentence from elsewhere is a choice too")
@@ -59,7 +59,7 @@ class PracticeTest {
     fun theLengthAndTheSentencesAskedForAreKept() {
         assertEquals(words.size * 4, PracticeBuilder.build(words, pageWords, random = Random(1), setup = PracticeSetup(length = null)).size)
         assertEquals(5, PracticeBuilder.build(words, pageWords, random = Random(1), setup = PracticeSetup(length = 5)).size)
-        val examples = mapOf("comprar" to PracticeExample("Vou comprar pão.", Cloze.range("Vou comprar pão.", "comprar")!!, "I will buy bread."))
+        val examples = mapOf("comprar" to listOf(PracticeExample("Vou comprar pão.", Cloze.range("Vou comprar pão.", "comprar")!!, "I will buy bread.")))
         val elsewhere = PracticeBuilder.build(words, pageWords, examples, Random(1), PracticeSetup(contexts = setOf(PracticeContext.EXAMPLE)))
         assertEquals(listOf("Vou comprar pão."), elsewhere.map { it.sentence })
     }
@@ -167,18 +167,37 @@ class PracticeTest {
         heard.forEach { assertEquals(it.word, it.answer) }
     }
 
+    /** A word with sentences from elsewhere is asked in one in its second round, after its own sentence. */
     @Test
     fun aWordWithASentenceFromElsewhereIsAskedInIt() {
         val example = "Vou comprar pão amanhã."
-        val examples = mapOf("comprar" to PracticeExample(example, Cloze.range(example, "comprar")!!, "I will buy bread tomorrow."))
+        val examples = mapOf("comprar" to listOf(PracticeExample(example, Cloze.range(example, "comprar")!!, "I will buy bread tomorrow.")))
         val exercises = PracticeBuilder.build(words, pageWords, examples, Random(5))
         assertEquals(10, exercises.size)
         val fresh = exercises.single { it.context == PracticeContext.EXAMPLE }
-        assertEquals(exercises.last(), fresh, "the new context comes last, well after the word's own sentence")
+        val own = exercises.first { it.word == "comprar" }
+        assertTrue(exercises.indexOf(own) < exercises.indexOf(fresh), "its own sentence first")
         assertEquals(example, fresh.sentence)
-        assertEquals("comprar", fresh.answer)
+        assertEquals("comprar", fresh.word)
         assertEquals("I will buy bread tomorrow.", fresh.sentenceTranslation)
-        assertTrue(fresh.answer in fresh.options)
+        assertEquals("comprar", fresh.practised)
+    }
+
+    /** A sentence from elsewhere may use another form of the word: that form is the answer, the word saved is no wrong choice, and each sentence is asked once. */
+    @Test
+    fun anotherFormOfTheWordIsAskedAsItStands() {
+        val first = "Nós compramos pão ontem."
+        val second = "Eles compram tudo aqui."
+        val examples = mapOf("comprar" to listOf(PracticeExample(first, Cloze.range(first, "compramos")!!, "We bought bread yesterday."), PracticeExample(second, Cloze.range(second, "compram")!!, null)))
+        val setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE), responses = setOf(PracticeResponse.CHOOSE), contexts = setOf(PracticeContext.EXAMPLE), length = null)
+        val asked = PracticeBuilder.build(words, pageWords + "comprar", examples, Random(1), setup)
+        assertEquals(listOf(first, second), asked.map { it.sentence }, "each sentence once, only the word that has some")
+        asked.forEach { e ->
+            assertTrue(e.otherForm)
+            assertEquals("comprar", e.practised)
+            assertEquals(e.sentence.substring(e.range), e.answer)
+            assertTrue(e.answer in e.options && "comprar" !in e.options, e.options.toString())
+        }
     }
 
     @Test

@@ -15,6 +15,7 @@ import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.tayra.languages.core.domain.flashcards.Cloze
 import com.tayra.languages.core.domain.practice.ExerciseType
 import com.tayra.languages.core.domain.practice.PracticeContext
+import com.tayra.languages.core.domain.practice.PracticeExample
 import com.tayra.languages.core.domain.practice.PracticePreset
 import com.tayra.languages.core.domain.practice.PracticeResponse
 import com.tayra.languages.core.domain.practice.PracticeSetup
@@ -48,6 +49,7 @@ class PracticeSetupDialogTest {
         ),
         meanings = listOf("house", "slowly", "the day", "to go"),
         translations = mapOf("Eu moro no Brasil." to "I live in Brazil."),
+        examples = mapOf("moro" to listOf(PracticeExample("Eu moro aqui.", 3..6, "I live here."))),
     )
 
     private var started: PracticeSetup? = null
@@ -80,6 +82,7 @@ class PracticeSetupDialogTest {
         assertEquals("For all 3 words", text("practice-availability-GAP"))
         assertEquals("For 2 of 3 words · Needs the word's translation", text("practice-availability-MEANING"))
         assertEquals("For 1 of 3 words · Needs a translation of the sentence", text("practice-availability-TRANSLATION"))
+        assertEquals("Sentences kept for 1 of 3 words", text("practice-examples"))
         assertTrue(text("practice-summary").endsWith("min"), text("practice-summary"))
     }
 

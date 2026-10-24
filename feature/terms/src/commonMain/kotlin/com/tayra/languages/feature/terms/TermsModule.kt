@@ -23,7 +23,7 @@ val termsModule = module {
     single { ExampleTerms(get(), get()) }
     viewModel { (key: TermFormKey) -> TermFormViewModel(key, get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), getOrNull(), getOrNull()) }
     viewModel { (termIds: List<Long>?) -> TermsListViewModel(termIds, get(), get(), get(), get(), get(), getOrNull()) }
-    viewModel { (source: PracticeSource) -> PracticeSetupViewModel(source, get(), get(), get()) }
+    viewModel { (source: PracticeSource) -> PracticeSetupViewModel(source, get(), get(), get(), getOrNull(), getOrNull()) }
     viewModel { (languageId: Long, text: String) -> ExamplesSearchViewModel(languageId, text, get(), get(), get(), get(), get(), get<LocalTranslation>().translator, getOrNull()) }
 }
 

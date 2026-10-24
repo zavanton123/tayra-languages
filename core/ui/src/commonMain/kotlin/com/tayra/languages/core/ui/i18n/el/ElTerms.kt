@@ -438,4 +438,6 @@ internal val elTerms: Map<String, String> = mapOf(
     "Translating the sentences…" to "Μετάφραση των προτάσεων…",
     "Save as preset" to "Αποθήκευση ως προκαθορισμένο",
     "Remove the preset {0}" to "Αφαίρεση του προκαθορισμένου {0}",
+    "Looking up sentences from elsewhere…" to "Αναζήτηση προτάσεων από αλλού…",
+    "Sentences kept for {0} of {1} words" to "Αποθηκευμένες προτάσεις για {0} από {1} λέξεις",
 )

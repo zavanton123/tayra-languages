@@ -17,31 +17,33 @@ enum class PracticeNeed {
 /** How many of the words a type of question can be asked of, and what the others lack. */
 class TypeAvailability(val type: ExerciseType, val words: Int, val need: PracticeNeed?)
 
-/** What a setup gives for the words: each type's availability and the number of questions. */
-class PracticePreview(val words: Int, val types: Map<ExerciseType, TypeAvailability>, val questions: Int) {
+/** What a setup gives for the words: each type's availability, the number of questions, and how many words have sentences from elsewhere. */
+class PracticePreview(val words: Int, val types: Map<ExerciseType, TypeAvailability>, val questions: Int, val wordsWithExamples: Int = 0) {
     fun of(type: ExerciseType): TypeAvailability = types.getValue(type)
 }
 
 /** Says what a practice will ask before it starts, by the rules [PracticeBuilder] asks by. */
 object PracticePlanner {
     /**
-     * Each type's availability for [words], ticked or not, and the questions [setup] gives, not
-     * counting sentences from elsewhere, which are only known once fetched. [meanings] and
-     * [translations] are as for [PracticeBuilder.build].
+     * Each type's availability for [words], ticked or not, and the questions [setup] gives with the
+     * sentences from elsewhere kept so far. [meanings], [translations] and [examples] are as for
+     * [PracticeBuilder.build].
      */
     fun preview(
         words: List<PracticeWord>,
         setup: PracticeSetup,
         meanings: List<String> = emptyList(),
         translations: Map<String, String> = emptyMap(),
+        /** The sentences from elsewhere kept for the words, by the word's key. */
+        examples: Map<String, List<PracticeExample>> = emptyMap(),
     ): PracticePreview {
         val targets = words.distinctBy { it.text.lowercase() }
         val types = ExerciseType.entries.associateWith { type ->
             val askable = targets.count { PracticeBuilder.canAsk(type, it, targets, meanings, translations) }
             TypeAvailability(type, askable, if (askable == targets.size) null else need(type, targets, translations))
         }
-        val questions = PracticeBuilder.build(targets, emptyList(), random = Random(0), setup = setup.copy(contexts = setup.contexts + PracticeContext.ORIGINAL), meanings = meanings, translations = translations).size
-        return PracticePreview(targets.size, types, if (PracticeContext.ORIGINAL in setup.contexts) questions else 0)
+        val questions = PracticeBuilder.build(targets, emptyList(), examples, Random(0), setup, meanings, translations).size
+        return PracticePreview(targets.size, types, questions, targets.count { examples[it.key].orEmpty().isNotEmpty() })
     }
 
     /** What most of the words that cannot be asked [type] lack. */

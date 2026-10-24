@@ -86,6 +86,10 @@ import com.tayra.languages.core.ui.components.TextInputDialog
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
+import com.tayra.languages.core.domain.practice.forPractice
+import com.tayra.languages.core.domain.practice.PracticeExampleStore
+import com.tayra.languages.core.domain.practice.PracticeExampleRepository
+import com.tayra.languages.core.domain.practice.PracticeExample
 
 /** What the setup dialog knows of the words before the practice: loaded once, when it opens. */
 data class PracticeSetupState(
@@ -96,6 +100,10 @@ data class PracticeSetupState(
     val translations: Map<String, String> = emptyMap(),
     /** Still translating the sentences, so translation questions may yet grow. */
     val translating: Boolean = false,
+    /** The sentences from elsewhere kept for the words, by the word's key. */
+    val examples: Map<String, List<PracticeExample>> = emptyMap(),
+    /** Still looking up sentences from elsewhere for words short of them. */
+    val lookingUp: Boolean = false,
 )
 
 /**
@@ -108,6 +116,8 @@ class PracticeSetupViewModel(
     private val material: PracticeMaterialLoader,
     private val translator: SentenceTranslator,
     private val settings: SettingsRepository,
+    private val exampleStore: PracticeExampleStore? = null,
+    private val keptExamples: PracticeExampleRepository? = null,
 ) : ViewModel() {
     private val _state = MutableStateFlow(PracticeSetupState())
     val state: StateFlow<PracticeSetupState> = _state.asStateFlow()
@@ -139,9 +149,22 @@ class PracticeSetupViewModel(
     init {
         viewModelScope.launch {
             val loaded = attempt { material.load(source) }
-            _state.value = PracticeSetupState(loading = false, words = loaded?.words.orEmpty(), meanings = loaded?.meanings.orEmpty(), translating = loaded != null)
-            if (loaded != null) translate(loaded.words, loaded.language)
+            val words = loaded?.words.orEmpty()
+            _state.value = PracticeSetupState(
+                loading = false, words = words, meanings = loaded?.meanings.orEmpty(), translating = loaded != null,
+                examples = attempt { keptExamples?.forPractice(words) }.orEmpty(), lookingUp = exampleStore != null && words.isNotEmpty(),
+            )
+            if (loaded == null) return@launch
+            launch { lookUpExamples(words) }
+            translate(loaded.words, loaded.language)
         }
+    }
+
+    /** Looks up sentences from elsewhere for the words short of them, then counts again. */
+    private suspend fun lookUpExamples(words: List<PracticeWord>) {
+        attempt { exampleStore?.topUp(words.mapNotNull { it.termId }, LOOKUP_WAIT) }
+        val examples = attempt { keptExamples?.forPractice(words) }
+        _state.update { it.copy(examples = examples ?: it.examples, lookingUp = false) }
     }
 
     private suspend fun translate(words: List<PracticeWord>, language: Language) {
@@ -164,6 +187,7 @@ class PracticeSetupViewModel(
 
     private companion object {
         val TRANSLATION_WAIT = 8.seconds
+        val LOOKUP_WAIT = 15.seconds
     }
 }
 
@@ -217,7 +241,7 @@ internal fun PracticeSetupContent(
     if (naming) {
         TextInputDialog(tr("Save as preset"), label = tr("Name"), onConfirm = { name -> naming = false; onSavePreset(name, setup) }, onDismiss = { naming = false })
     }
-    val preview = remember(state, setup) { PracticePlanner.preview(state.words, setup, state.meanings, state.translations) }
+    val preview = remember(state, setup) { PracticePlanner.preview(state.words, setup, state.meanings, state.translations, state.examples) }
     val minutes = ((preview.questions * SECONDS_A_QUESTION + 59) / 60).coerceAtLeast(1)
     // Sentences from elsewhere are fetched when the practice starts, so they may make questions the count does not show.
     val examplesMayAsk = PracticeContext.EXAMPLE in setup.contexts && ExerciseType.GAP in setup.types
@@ -266,8 +290,16 @@ internal fun PracticeSetupContent(
                     SelectableChip(context.label(), on, onClick = { setup = setup.copy(contexts = if (on) setup.contexts - context else setup.contexts + context) }, leading = ChipLeading.Check, modifier = Modifier.testTag("practice-context-${context.name}"))
                 }
             }
-            if (PracticeContext.EXAMPLE in setup.contexts) {
-                Text(tr("Other examples are looked up when the practice starts, and need the internet."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+            if (PracticeContext.EXAMPLE in setup.contexts && !state.loading) {
+                Text(
+                    when {
+                        state.lookingUp -> tr("Looking up sentences from elsewhere…")
+                        else -> tr("Sentences kept for {0} of {1} words", preview.wordsWithExamples, preview.words)
+                    },
+                    Modifier.testTag("practice-examples"),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = colors.onSurfaceVariant,
+                )
             }
         }
     }

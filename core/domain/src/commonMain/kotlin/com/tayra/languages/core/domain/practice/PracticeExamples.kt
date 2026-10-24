@@ -18,6 +18,15 @@ data class StoredExample(
 ) {
     /** Where the form stands in the sentence. */
     val range: IntRange get() = formStart until formStart + form.length
+
+    /** The sentence as practice asks it. */
+    fun asPractice(): PracticeExample = PracticeExample(sentence, range, translation)
+}
+
+/** The sentences kept for [words], as practice asks them, by the word's key; words without a saved term or sentences are left out. */
+suspend fun PracticeExampleRepository.forPractice(words: List<PracticeWord>): Map<String, List<PracticeExample>> {
+    val byTerm = examples(words.mapNotNull { it.termId })
+    return words.mapNotNull { word -> byTerm[word.termId]?.let { kept -> word.key to kept.map { it.asPractice() } } }.toMap()
 }
 
 /** The example sentences kept for words being learned. */

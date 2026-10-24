@@ -239,4 +239,7 @@ internal val ruReading: Map<String, String> = mapOf(
     "Read the translation and type the missing word" to "Прочитайте перевод и введите пропущенное слово",
     "Listen to the sentence" to "Послушайте предложение",
     "Which word means “{0}”?" to "Какое слово значит «{0}»?",
+    "A new sentence: type the missing word" to "Новое предложение: введите пропущенное слово",
+    "Which word is a form of “{0}” (“{1}”)?" to "Какое слово — форма «{0}» («{1}»)?",
+    "{0}, a form of {1}" to "{0}, форма слова {1}",
 )

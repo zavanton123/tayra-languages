@@ -239,4 +239,7 @@ internal val elReading: Map<String, String> = mapOf(
     "Read the translation and type the missing word" to "Διαβάστε τη μετάφραση και πληκτρολογήστε τη λέξη που λείπει",
     "Listen to the sentence" to "Ακούστε την πρόταση",
     "Which word means “{0}”?" to "Ποια λέξη σημαίνει «{0}»;",
+    "A new sentence: type the missing word" to "Μια νέα πρόταση: πληκτρολογήστε τη λέξη που λείπει",
+    "Which word is a form of “{0}” (“{1}”)?" to "Ποια λέξη είναι τύπος του «{0}» («{1}»);",
+    "{0}, a form of {1}" to "{0}, τύπος του {1}",
 )

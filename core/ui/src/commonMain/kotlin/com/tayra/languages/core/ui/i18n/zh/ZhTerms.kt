@@ -438,4 +438,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Translating the sentences…" to "正在翻译句子…",
     "Save as preset" to "存为预设",
     "Remove the preset {0}" to "删除预设 {0}",
+    "Looking up sentences from elsewhere…" to "正在查找其他来源的句子…",
+    "Sentences kept for {0} of {1} words" to "已为 {1} 个单词中的 {0} 个保存句子",
 )

@@ -239,4 +239,7 @@ internal val zhReading: Map<String, String> = mapOf(
     "Read the translation and type the missing word" to "阅读译文，输入缺少的词",
     "Listen to the sentence" to "听这个句子",
     "Which word means “{0}”?" to "哪个词的意思是“{0}”？",
+    "A new sentence: type the missing word" to "新句子：输入缺少的词",
+    "Which word is a form of “{0}” (“{1}”)?" to "哪个词是“{0}”（“{1}”）的一种形式？",
+    "{0}, a form of {1}" to "{0}，{1} 的一种形式",
 )

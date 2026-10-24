@@ -9,7 +9,12 @@ data class PracticeWord(
     val sentence: String,
     /** Where the word stands in [sentence]. */
     val range: IntRange,
-)
+    /** The saved term, for the sentences kept for it; null for a word not saved. */
+    val termId: Long? = null,
+) {
+    /** The word as words are told apart: lowercase. */
+    val key: String get() = text.lowercase()
+}
 
 /** A sentence from elsewhere that uses a word of the page. */
 data class PracticeExample(val sentence: String, val range: IntRange, val translation: String?)
@@ -144,9 +149,14 @@ data class Exercise(
     val spoken: String? = null,
     /** The answer is the whole sentence, not one word. */
     val wholeSentence: Boolean = false,
+    /** The word practised as it was saved or read; a sentence from elsewhere may use another form of it, [word]. */
+    val practised: String = word,
 ) {
     val isChoice: Boolean get() = options.isNotEmpty()
     val isListening: Boolean get() = spoken != null
+
+    /** The sentence uses another form of the word practised. */
+    val otherForm: Boolean get() = !word.equals(practised, ignoreCase = true)
 }
 
 /** Builds the questions for a page from the words being learned on it. */
@@ -157,8 +167,8 @@ object PracticeBuilder {
     /** Sentences of at most this many words are typed whole in a dictation. */
     private const val SHORT_SENTENCE_WORDS = 6
 
-    /** Sentences from elsewhere asked at most, each for a different word. */
-    private const val NEW_CONTEXTS = 2
+    /** The types a sentence from elsewhere can be asked in: those about the sentence, not the word alone or its meaning. */
+    private val EXAMPLE_TYPES = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.TRANSLATION, ExerciseType.DICTATION)
 
     /** How many questions [words] words get with [kinds] kinds of question, before any sentence from elsewhere: about two a word, at most [length]. */
     fun questionCount(words: Int, kinds: Int, length: Int? = MAX_QUESTIONS): Int =
@@ -166,15 +176,16 @@ object PracticeBuilder {
 
     /**
      * About two questions a word, [PracticeSetup.length] at most, going round the words so that a
-     * word's questions are apart, and round the setup's questions so that each comes up. Where
-     * gap questions may use sentences from elsewhere, words with an [examples] sentence get a gap
-     * question in that new context at the end. [pageWords] are the other words of the page, for
-     * wrong choices.
+     * word's questions are apart, and round the setup's questions so that each comes up. Where the
+     * setup takes sentences from elsewhere, a word's second round asks it in one of its [examples]
+     * (by the word's key), each used once, perhaps in another form of the word; with sentences
+     * from elsewhere only, only words that have some are asked. [pageWords] are the other words of
+     * the page, for wrong choices.
      */
     fun build(
         words: List<PracticeWord>,
         pageWords: List<String>,
-        examples: Map<String, PracticeExample> = emptyMap(),
+        examples: Map<String, List<PracticeExample>> = emptyMap(),
         random: Random = Random.Default,
         setup: PracticeSetup = PracticeSetup(),
         /** Meanings of other words, for wrong choices of meaning beside those of the [words]. */
@@ -182,46 +193,52 @@ object PracticeBuilder {
         /** The translations of the words' sentences, by sentence, for the questions asked through them. */
         translations: Map<String, String> = emptyMap(),
     ): List<Exercise> {
-        val targets = words.distinctBy { it.text.lowercase() }.shuffled(random)
+        val targets = words.distinctBy { it.key }.shuffled(random)
         val rotation = setup.rotation
-        if (targets.isEmpty() || rotation.isEmpty()) return emptyList()
         val original = PracticeContext.ORIGINAL in setup.contexts
-        // A sentence from elsewhere is asked as a gap, chosen where choosing is asked for, else typed.
-        val gapResponse = rotation.firstOrNull { it.first == ExerciseType.GAP }?.second
-        val inNewContext = if (gapResponse != null && PracticeContext.EXAMPLE in setup.contexts) {
-            targets.filter { it.text.lowercase() in examples }.take(if (original) NEW_CONTEXTS else setup.length ?: targets.size)
-        } else {
-            emptyList()
-        }
-        val room = setup.length?.let { it - inNewContext.size }
-        val rotated = if (original) questionCount(targets.size, rotation.size, room).coerceAtLeast(0) else 0
+        val elsewhere = if (PracticeContext.EXAMPLE in setup.contexts) examples else emptyMap()
+        val asked = if (original) targets else targets.filter { elsewhere[it.key].orEmpty().isNotEmpty() }
+        if (asked.isEmpty() || rotation.isEmpty()) return emptyList()
+        val used = mutableMapOf<String, Int>()
         val exercises = mutableListOf<Exercise>()
-        for (k in 0 until rotated) {
-            val word = targets[k % targets.size]
+        for (k in 0 until questionCount(asked.size, rotation.size, setup.length)) {
+            val word = asked[k % asked.size]
             // Each round starts one question further on, so a word meets a different one every time;
             // a question the word cannot be asked gives way to the next one that it can.
-            val start = (k % targets.size + k / targets.size) % rotation.size
-            exercises += (0 until rotation.size).firstNotNullOfOrNull { step ->
-                val (type, response) = rotation[(start + step) % rotation.size]
-                exercise(type, response, word, targets, pageWords, meanings, translations, random)
-            } ?: continue
-        }
-        for (word in inNewContext) {
-            val example = examples.getValue(word.text.lowercase())
-            exercises += Exercise(
-                type = ExerciseType.GAP,
-                response = gapResponse!!,
-                context = PracticeContext.EXAMPLE,
-                word = example.sentence.substring(example.range),
-                wordTranslation = word.translation,
-                sentence = example.sentence,
-                range = example.range,
-                sentenceTranslation = example.translation,
-                options = if (gapResponse == PracticeResponse.CHOOSE) wordChoices(word, targets, pageWords, random) else emptyList(),
-                answer = word.text,
-            )
+            val start = (k % asked.size + k / asked.size) % rotation.size
+            val steps = (0 until rotation.size).map { rotation[(start + it) % rotation.size] }
+            val pool = elsewhere[word.key].orEmpty()
+            val next = used[word.key] ?: 0
+            val inExample = next < pool.size && (!original || (k / asked.size) % 2 == 1)
+            val exercise = if (inExample) {
+                steps.firstNotNullOfOrNull { (type, response) -> exampleExercise(type, response, word, pool[next], targets, pageWords, meanings, random) }
+                    ?.also { used[word.key] = next + 1 }
+            } else {
+                null
+            } ?: if (original) steps.firstNotNullOfOrNull { (type, response) -> exercise(type, response, word, targets, pageWords, meanings, translations, random) } else null
+            exercises += exercise ?: continue
         }
         return exercises
+    }
+
+    /** The question of [type] on [word] in [example], a sentence from elsewhere that may use another form of it. */
+    private fun exampleExercise(
+        type: ExerciseType,
+        response: PracticeResponse,
+        word: PracticeWord,
+        example: PracticeExample,
+        targets: List<PracticeWord>,
+        pageWords: List<String>,
+        meanings: List<String>,
+        random: Random,
+    ): Exercise? {
+        if (type !in EXAMPLE_TYPES) return null
+        val form = PracticeWord(example.sentence.substring(example.range), word.translation, example.sentence, example.range, word.termId)
+        val translations = example.translation?.let { mapOf(example.sentence to it) }.orEmpty()
+        // The word as saved is no wrong choice beside the form the sentence uses.
+        val others = targets.filter { it.key != word.key }
+        return exercise(type, response, form, others, pageWords.filter { !it.equals(word.text, ignoreCase = true) }, meanings, translations, random)
+            ?.copy(context = PracticeContext.EXAMPLE, practised = word.text, sentenceTranslation = example.translation)
     }
 
     /**

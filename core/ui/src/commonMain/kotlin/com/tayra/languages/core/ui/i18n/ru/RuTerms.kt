@@ -438,4 +438,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Translating the sentences…" to "Перевод предложений…",
     "Save as preset" to "Сохранить как набор",
     "Remove the preset {0}" to "Удалить набор {0}",
+    "Looking up sentences from elsewhere…" to "Поиск предложений из других источников…",
+    "Sentences kept for {0} of {1} words" to "Предложения сохранены для {0} из {1} слов",
 )

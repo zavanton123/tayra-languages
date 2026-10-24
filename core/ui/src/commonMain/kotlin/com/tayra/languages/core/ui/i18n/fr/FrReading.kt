@@ -239,4 +239,7 @@ internal val frReading: Map<String, String> = mapOf(
     "Read the translation and type the missing word" to "Lisez la traduction et tapez le mot manquant",
     "Listen to the sentence" to "Écoutez la phrase",
     "Which word means “{0}”?" to "Quel mot signifie « {0} » ?",
+    "A new sentence: type the missing word" to "Une nouvelle phrase : tapez le mot manquant",
+    "Which word is a form of “{0}” (“{1}”)?" to "Quel mot est une forme de « {0} » (« {1} ») ?",
+    "{0}, a form of {1}" to "{0}, une forme de {1}",
 )

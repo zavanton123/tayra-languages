@@ -279,8 +279,8 @@ private fun ProgressStrip(state: PracticeUiState) {
 private val Exercise.instruction: String
     get() = when (type) {
         ExerciseType.GAP -> when {
+            context == PracticeContext.EXAMPLE -> if (response == PracticeResponse.TYPE) tr("A new sentence: type the missing word") else tr("A new sentence: choose the missing word")
             response == PracticeResponse.TYPE -> tr("Type the missing word")
-            context == PracticeContext.EXAMPLE -> tr("A new sentence: choose the missing word")
             else -> tr("Choose the missing word")
         }
         ExerciseType.MEANING -> tr("What does the marked word mean?")
@@ -328,7 +328,9 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         // The sentence heard is hidden; what is asked is the word with this meaning.
         if (exercise.type == ExerciseType.HEAR_SENTENCE) {
             Text(
-                tr("Which word means “{0}”?", exercise.wordTranslation.orEmpty()),
+                // A sentence from elsewhere may use another form: the question names the word practised.
+                if (exercise.otherForm) tr("Which word is a form of “{0}” (“{1}”)?", exercise.practised, exercise.wordTranslation.orEmpty())
+                else tr("Which word means “{0}”?", exercise.wordTranslation.orEmpty()),
                 style = AppText.cardSentence(if (compact) 21f else 27f).copy(color = colors.onSurface, textAlign = TextAlign.Center),
                 modifier = Modifier.testTag("practice-asked"),
             )
@@ -438,7 +440,7 @@ private fun Feedback(state: PracticeUiState, exercise: Exercise) {
     Notice(
         title,
         Modifier.testTag("practice-feedback"),
-        message = "${exercise.word}$meaning",
+        message = (if (exercise.otherForm) tr("{0}, a form of {1}", exercise.word, exercise.practised) else exercise.word) + meaning,
         tint = tint,
         icon = if (state.result == PracticeResult.WRONG) Icons.Default.Close else Icons.Default.Check,
         // A right answer's tick pops in; a wrong one only fades in, without a jolt.
