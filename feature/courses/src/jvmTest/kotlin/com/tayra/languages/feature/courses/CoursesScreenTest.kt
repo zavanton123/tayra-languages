@@ -11,9 +11,11 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.graphics.toAwtImage
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
@@ -23,6 +25,7 @@ import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performTextClearance
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
+import androidx.compose.ui.unit.Density
 import com.russhwolf.settings.MapSettings
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.db.DatabaseProvider
@@ -289,13 +292,27 @@ class CoursesScreenTest {
         onNodeWithTag("new-course").assertExists()
         onNodeWithText("1 of 10 lessons").assertExists()
         assertEquals(0, onAllNodesWithTag("view-GRID").fetchSemanticsNodes().size, "no grid or list on a phone")
+        val order = listOf("continue-card", "course-search", "status-filter", "level-header-A1", "course-pt-mini-0100")
+            .map { onNodeWithTag(it).fetchSemanticsNode().positionInRoot.y }
+        assertEquals(order.sorted(), order, "continue, browsing controls, and the catalogue keep their intended order")
+        onNodeWithTag("course-pt-mini-0100").assertIsDisplayed()
+        onNodeWithTag("course-pt-mini-0200").assertIsDisplayed()
+        onNodeWithText("10 lessons · Common words 1–100").assertExists()
+        onNodeWithText("Sample course").assertDoesNotExist()
         save("COURSES_PHONE_SCREENSHOT")
 
-        // The level opens a sheet; choosing A2 leaves the A2 courses.
+        // Status has its own compact picker, while level and tags share the Filters entry point.
+        onNodeWithTag("status-filter").performClick()
+        onAllNodesWithText("Not started").let { it[it.fetchSemanticsNodes().lastIndex].performClick() }
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.status == com.tayra.languages.core.domain.courses.LessonStatus.NOT_STARTED }
+        onNodeWithTag("status-filter").performClick()
+        onAllNodesWithText("All courses").let { it[it.fetchSemanticsNodes().lastIndex].performClick() }
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.status == null }
+
         onNodeWithTag("level-filter").performClick()
         onNodeWithText("A2 · Elementary").performClick()
         waitUntil(timeoutMillis = 5_000) { viewModel.state.value.level == com.tayra.languages.core.domain.courses.CourseLevel.A2 }
-        onNodeWithText("Level: A2").assertExists()
+        onNodeWithTag("level-filter").assertExists()
         assertTrue(viewModel.state.value.shown.all { it.course.level == com.tayra.languages.core.domain.courses.CourseLevel.A2 })
         // The sort opens a sheet too.
         onNodeWithTag("course-sort").performClick()
@@ -305,6 +322,37 @@ class CoursesScreenTest {
         onNodeWithTag("continue-course").performClick()
         waitUntil(timeoutMillis = 5_000) { read.size == 1 }
         collecting.cancel()
+    }
+
+    @Test
+    fun phoneCourseControlsFitAtLargeText() = runDesktopComposeUiTest(width = 400, height = 860) {
+        val viewModel = CoursesViewModel(service, languages, settings, packs)
+        viewModel.setStatus(com.tayra.languages.core.domain.courses.LessonStatus.IN_PROGRESS)
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    val density = LocalDensity.current
+                    CompositionLocalProvider(
+                        LocalDensity provides Density(density.density, 1.3f),
+                        LocalLearningLanguage provides LearningLanguageState(listOf(languageId to "Portuguese"), languageId) {},
+                    ) {
+                        Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
+                            val state by viewModel.state.collectAsState()
+                            Column {
+                                AppTopBar(title = "Courses", onNavigate = {}, section = NavSection.COURSES)
+                                if (!state.loading) PhoneCoursesContent(state, PhoneCoursesActions())
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("In progress").fetchSemanticsNodes().isNotEmpty() }
+        val rootWidth = onAllNodes(isRoot())[0].fetchSemanticsNode().size.width
+        listOf("status-filter", "level-filter", "course-sort").forEach { tag ->
+            val node = onNodeWithTag(tag).assertIsDisplayed().fetchSemanticsNode()
+            assertTrue(node.positionInRoot.x >= 0f && node.positionInRoot.x + node.size.width <= rootWidth, "$tag stays inside the viewport at 130% text")
+        }
     }
 
     @Test
