@@ -259,4 +259,7 @@ internal val deReading: Map<String, String> = mapOf(
     "Put the words in order" to "Bring die Wörter in die richtige Reihenfolge",
     "Tap the words in order" to "Tippe die Wörter der Reihe nach an",
     "Remove the last word" to "Letztes Wort entfernen",
+    "Is this what the marked word means?" to "Bedeutet das markierte Wort das?",
+    "Yes, it means that" to "Ja, das bedeutet es",
+    "No, it does not" to "Nein, das nicht",
 )

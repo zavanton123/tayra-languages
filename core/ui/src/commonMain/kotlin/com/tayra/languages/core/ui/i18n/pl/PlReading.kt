@@ -259,4 +259,7 @@ internal val plReading: Map<String, String> = mapOf(
     "Put the words in order" to "Ułóż słowa we właściwej kolejności",
     "Tap the words in order" to "Stukaj słowa po kolei",
     "Remove the last word" to "Usuń ostatnie słowo",
+    "Is this what the marked word means?" to "Czy to znaczy zaznaczone słowo?",
+    "Yes, it means that" to "Tak, to znaczy",
+    "No, it does not" to "Nie, nie znaczy",
 )

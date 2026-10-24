@@ -450,4 +450,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "Build the sentence" to "Construire la phrase",
     "Put the sentence's words in order from its translation" to "Remettez les mots de la phrase dans l’ordre d’après sa traduction",
     "Needs a sentence of 3 to 8 words" to "Il faut une phrase de 3 à 8 mots",
+    "True or false" to "Vrai ou faux",
+    "Say whether a meaning is the word's" to "Dites si un sens est celui du mot",
 )

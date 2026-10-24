@@ -259,4 +259,7 @@ internal val elReading: Map<String, String> = mapOf(
     "Put the words in order" to "Βάλτε τις λέξεις στη σειρά",
     "Tap the words in order" to "Πατήστε τις λέξεις με τη σειρά",
     "Remove the last word" to "Αφαίρεση της τελευταίας λέξης",
+    "Is this what the marked word means?" to "Αυτό σημαίνει η επισημασμένη λέξη;",
+    "Yes, it means that" to "Ναι, αυτό σημαίνει",
+    "No, it does not" to "Όχι, δεν σημαίνει αυτό",
 )

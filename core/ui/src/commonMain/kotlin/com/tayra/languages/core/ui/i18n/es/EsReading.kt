@@ -259,4 +259,7 @@ internal val esReading: Map<String, String> = mapOf(
     "Put the words in order" to "Ordena las palabras",
     "Tap the words in order" to "Toca las palabras en orden",
     "Remove the last word" to "Quitar la última palabra",
+    "Is this what the marked word means?" to "¿Es esto lo que significa la palabra marcada?",
+    "Yes, it means that" to "Sí, significa eso",
+    "No, it does not" to "No, no significa eso",
 )

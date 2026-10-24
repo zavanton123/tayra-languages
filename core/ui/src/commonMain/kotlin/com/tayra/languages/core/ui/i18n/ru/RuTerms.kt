@@ -450,4 +450,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Build the sentence" to "Собрать предложение",
     "Put the sentence's words in order from its translation" to "Расставьте слова предложения по порядку по его переводу",
     "Needs a sentence of 3 to 8 words" to "Нужно предложение из 3–8 слов",
+    "True or false" to "Верно или нет",
+    "Say whether a meaning is the word's" to "Скажите, верно ли значение слова",
 )

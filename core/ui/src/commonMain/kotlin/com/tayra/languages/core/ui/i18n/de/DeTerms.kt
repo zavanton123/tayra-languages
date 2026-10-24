@@ -450,4 +450,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "Build the sentence" to "Satz bauen",
     "Put the sentence's words in order from its translation" to "Bring die Wörter des Satzes anhand seiner Übersetzung in die richtige Reihenfolge",
     "Needs a sentence of 3 to 8 words" to "Braucht einen Satz mit 3 bis 8 Wörtern",
+    "True or false" to "Richtig oder falsch",
+    "Say whether a meaning is the word's" to "Sag, ob eine Bedeutung die des Wortes ist",
 )

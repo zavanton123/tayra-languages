@@ -45,6 +45,9 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
     /** The sentence whole, the word marked: choose what the word means. Needs the word's translation. */
     MEANING(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE)),
 
+    /** The word marked in its sentence with a meaning beside it, right or another word's: say whether it is right. Needs the word's translation; twice a practice at most. */
+    TRUE_FALSE(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE)),
+
     /** Up to five words and their meanings, to match up; asked once, at the start, of words with meanings that cannot be taken for each other. */
     MATCHING(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE)),
 
@@ -172,6 +175,8 @@ data class Exercise(
     val lemma: String? = null,
     /** Words and their meanings to match up, for a matching question. */
     val pairs: List<Pair<String, String>> = emptyList(),
+    /** The meaning offered, right or not, in a true-or-false question. */
+    val offered: String? = null,
 ) {
     val isChoice: Boolean get() = options.isNotEmpty()
     val isListening: Boolean get() = spoken != null
@@ -190,6 +195,13 @@ internal class WrongChoices(val pageWords: List<String>, val alikes: Map<String,
 object PracticeBuilder {
     const val MAX_QUESTIONS = PracticeSetup.DEFAULT_LENGTH
     private const val OPTIONS = 4
+
+    /** The answers of a true-or-false question. */
+    const val TRUE = "true"
+    const val FALSE = "false"
+
+    /** True-or-false questions in a practice, at most. */
+    private const val TRUE_FALSE_QUESTIONS = 2
 
     /** Pairs in a matching question: at most this many, and at least [MIN_PAIRS]. */
     private const val PAIRS = 5
@@ -254,7 +266,9 @@ object PracticeBuilder {
             // Each round starts one question further on, so a word meets a different one every time;
             // a question the word cannot be asked gives way to the next one that it can.
             val start = (k % asked.size + k / asked.size) % rotation.size
-            val steps = (0 until rotation.size).map { rotation[(start + it) % rotation.size] }
+            // True or false is quick: a couple of them, not one a word.
+            val trueFalseLeft = exercises.count { it.type == ExerciseType.TRUE_FALSE } < TRUE_FALSE_QUESTIONS
+            val steps = (0 until rotation.size).map { rotation[(start + it) % rotation.size] }.filter { trueFalseLeft || it.first != ExerciseType.TRUE_FALSE }
             val kept = elsewhere[word.key].orEmpty()
             val next = used[word.key] ?: 0
             val inExample = next < kept.size && (!original || (k / asked.size) % 2 == 1)
@@ -338,6 +352,14 @@ object PracticeBuilder {
         val base = Exercise(type, response, PracticeContext.ORIGINAL, word.text, word.translation, word.sentence, word.range, answer = word.text)
         return when (type) {
             ExerciseType.MATCHING -> null
+            ExerciseType.TRUE_FALSE -> {
+                val meaning = word.translation?.trim().orEmpty()
+                if (meaning.isEmpty()) return null
+                val wrong = meaningChoices(meaning, targets.filter { it !== word }.mapNotNull { it.translation }, meanings, random).firstOrNull()
+                // Right half the time; a wrong meaning only where there is one that cannot be taken for the right one.
+                val right = wrong == null || random.nextBoolean()
+                base.copy(options = listOf(TRUE, FALSE), answer = if (right) TRUE else FALSE, offered = if (right) meaning else wrong)
+            }
             ExerciseType.GAP -> answered(base, response, word, targets, pool, random)
             ExerciseType.MEANING -> {
                 val meaning = word.translation?.trim().orEmpty()

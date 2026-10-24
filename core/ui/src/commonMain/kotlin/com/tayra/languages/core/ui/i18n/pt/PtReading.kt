@@ -259,4 +259,7 @@ internal val ptReading: Map<String, String> = mapOf(
     "Put the words in order" to "Ponha as palavras por ordem",
     "Tap the words in order" to "Toque nas palavras pela ordem",
     "Remove the last word" to "Remover a última palavra",
+    "Is this what the marked word means?" to "É isto que a palavra marcada significa?",
+    "Yes, it means that" to "Sim, significa isso",
+    "No, it does not" to "Não, não significa",
 )

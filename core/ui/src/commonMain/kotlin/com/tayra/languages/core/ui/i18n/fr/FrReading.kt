@@ -259,4 +259,7 @@ internal val frReading: Map<String, String> = mapOf(
     "Put the words in order" to "Remettez les mots dans l’ordre",
     "Tap the words in order" to "Touchez les mots dans l’ordre",
     "Remove the last word" to "Retirer le dernier mot",
+    "Is this what the marked word means?" to "Est-ce le sens du mot marqué ?",
+    "Yes, it means that" to "Oui, c’est ce sens",
+    "No, it does not" to "Non, ce n’est pas ça",
 )

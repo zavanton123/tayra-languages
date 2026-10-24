@@ -259,4 +259,7 @@ internal val ruReading: Map<String, String> = mapOf(
     "Put the words in order" to "Расставьте слова по порядку",
     "Tap the words in order" to "Нажимайте слова по порядку",
     "Remove the last word" to "Убрать последнее слово",
+    "Is this what the marked word means?" to "Это значение выделенного слова?",
+    "Yes, it means that" to "Да, это значит это",
+    "No, it does not" to "Нет, не значит",
 )

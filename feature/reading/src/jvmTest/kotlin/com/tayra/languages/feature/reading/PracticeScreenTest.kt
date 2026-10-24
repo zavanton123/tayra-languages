@@ -381,6 +381,17 @@ class PracticeScreenTest {
         shot("dictation-check")
     }
 
+    /** True or false shows the word with a meaning and is answered yes or no. */
+    @Test
+    fun trueOrFalseIsAnsweredYesOrNo() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.TRUE_FALSE)))
+        val exercise = viewModel.state.value.exercises.first()
+        onNodeWithText("${exercise.word} — ${exercise.offered}?").assertExists()
+        shot("true-false")
+        onNodeWithText(if (exercise.answer == com.tayra.languages.core.domain.practice.PracticeBuilder.TRUE) "Yes, it means that" else "No, it does not").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+    }
+
     @Test
     fun everyQuestionCanBeAnsweredAndNothingChangesTheWords() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val viewModel = show()

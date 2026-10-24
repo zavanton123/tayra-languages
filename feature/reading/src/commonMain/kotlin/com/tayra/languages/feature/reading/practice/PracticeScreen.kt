@@ -103,6 +103,7 @@ import androidx.compose.runtime.mutableStateOf
 import com.tayra.languages.core.domain.practice.WordResult
 import com.tayra.languages.core.domain.practice.PracticeChecker
 import androidx.compose.ui.text.style.TextDecoration
+import com.tayra.languages.core.domain.practice.PracticeBuilder
 
 /** Practising the words being learned on a page, right after reading it, or words chosen in the vocabulary. */
 @Composable
@@ -293,6 +294,7 @@ private val Exercise.instruction: String
         }
         ExerciseType.MEANING -> tr("What does the marked word mean?")
         ExerciseType.MATCHING -> tr("Match each word with its meaning")
+        ExerciseType.TRUE_FALSE -> tr("Is this what the marked word means?")
         ExerciseType.HEAR_SENTENCE -> tr("Listen to the sentence")
         ExerciseType.HEAR_WORD -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
         ExerciseType.DICTATION -> if (wholeSentence) tr("Listen and type the sentence") else tr("Listen and type the missing word")
@@ -371,11 +373,18 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
                 buildAnnotatedString {
                     append(exercise.sentence.substring(0, exercise.range.first))
                     // The word is marked rather than blanked where its meaning is asked.
-                    withStyle(highlight) { append(if (answered || exercise.type == ExerciseType.MEANING) exercise.sentence.substring(exercise.range) else BLANK) }
+                    withStyle(highlight) { append(if (answered || exercise.type == ExerciseType.MEANING || exercise.type == ExerciseType.TRUE_FALSE) exercise.sentence.substring(exercise.range) else BLANK) }
                     append(exercise.sentence.substring(exercise.range.last + 1))
                 },
                 style = AppText.cardSentence(if (compact) 21f else 27f).copy(color = colors.onSurface, textAlign = TextAlign.Center, textDirection = direction),
                 modifier = Modifier.testTag("practice-sentence"),
+            )
+        }
+        exercise.offered?.let { offered ->
+            Text(
+                "${exercise.word} — $offered?",
+                style = AppText.cardSentence(if (compact) 19f else 23f).copy(color = colors.primary, textAlign = TextAlign.Center),
+                modifier = Modifier.testTag("practice-offered"),
             )
         }
         // A typed gap gets the sentence's meaning as a hint; elsewhere it would give the answer away, so it waits.
@@ -427,7 +436,12 @@ private fun Choices(state: PracticeUiState, exercise: Exercise, actions: Practic
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
         ) {
-            Text(text, Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, color = if (state.answered && tint == null) colors.onSurfaceVariant else colors.onSurface)
+            val label = when {
+                exercise.type != ExerciseType.TRUE_FALSE -> text
+                text == PracticeBuilder.TRUE -> tr("Yes, it means that")
+                else -> tr("No, it does not")
+            }
+            Text(label, Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, color = if (state.answered && tint == null) colors.onSurfaceVariant else colors.onSurface)
             when (tint) {
                 AppAccents.green -> PopIn { Icon(Icons.Default.Check, contentDescription = tr("Right answer"), tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconMedium)) }
                 AppAccents.red -> Icon(Icons.Default.Close, contentDescription = tr("Your answer"), tint = AppAccents.red, modifier = Modifier.size(AppSizes.iconMedium))

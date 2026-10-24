@@ -185,6 +185,19 @@ class PracticeTest {
         assertTrue(built.tiles != listOf("Eu", "moro", "no", "Brasil."))
     }
 
+    /** True or false offers the word's own meaning or another word's, and comes twice a practice at most. */
+    @Test
+    fun trueOrFalseOffersAMeaningRightOrNotTwiceAtMost() {
+        val setup = PracticeSetup(types = setOf(ExerciseType.TRUE_FALSE, ExerciseType.GAP), responses = setOf(PracticeResponse.CHOOSE), length = null)
+        val asked = PracticeBuilder.build(words, pageWords, random = Random(3), setup = setup)
+        val trueFalse = asked.filter { it.type == ExerciseType.TRUE_FALSE }
+        assertEquals(2, trueFalse.size)
+        trueFalse.forEach { e ->
+            assertEquals(listOf(PracticeBuilder.TRUE, PracticeBuilder.FALSE), e.options)
+            assertEquals(if (e.offered == e.wordTranslation) PracticeBuilder.TRUE else PracticeBuilder.FALSE, e.answer)
+        }
+    }
+
     /** A setup goes into a route as text and comes back the same; the kinds earlier versions named still give their questions. */
     @Test
     fun aSetupIsWrittenAndReadAsText() {
