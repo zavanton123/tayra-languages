@@ -452,4 +452,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "Needs a sentence of 3 to 8 words" to "Braucht einen Satz mit 3 bis 8 Wörtern",
     "True or false" to "Richtig oder falsch",
     "Say whether a meaning is the word's" to "Sag, ob eine Bedeutung die des Wortes ist",
+    "Sound-alike" to "Ähnlich klingend",
+    "Hear a word and pick it among words spelled nearly like it" to "Ein Wort hören und es unter fast gleich geschriebenen Wörtern finden",
 )

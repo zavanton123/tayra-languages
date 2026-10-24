@@ -123,7 +123,7 @@ class PracticeViewModel(
             language = lang
             // Translation and building questions are asked through the sentence's translation; form questions give it as their clue.
             val translations = if (setup.types.any { it in TRANSLATED }) translateSentences(prepared.words, lang) else emptyMap()
-            val families = if (ExerciseType.FORM in setup.types) attempt { familiesOf(prepared.words, lang) }.orEmpty() else emptyMap()
+            val families = if (ExerciseType.FORM in setup.types || ExerciseType.SOUND_ALIKE in setup.types) attempt { familiesOf(prepared.words, lang) }.orEmpty() else emptyMap()
             val alikes = attempt { alikesFor(prepared.words, lang) }.orEmpty()
             val exercises = PracticeBuilder.build(prepared.words, prepared.pool, examplesFor(prepared.words), random, setup, prepared.meanings, translations, alikes, families)
             _state.update {

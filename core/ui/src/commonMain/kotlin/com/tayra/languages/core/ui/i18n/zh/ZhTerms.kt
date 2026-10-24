@@ -452,4 +452,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Needs a sentence of 3 to 8 words" to "需要 3 到 8 个词的句子",
     "True or false" to "判断对错",
     "Say whether a meaning is the word's" to "判断一个意思是否属于该词",
+    "Sound-alike" to "近音词",
+    "Hear a word and pick it among words spelled nearly like it" to "听一个单词，从拼写相近的词中选出它",
 )

@@ -20,6 +20,7 @@ fun ExerciseType.label(): String = when (this) {
     ExerciseType.HEAR_WORD -> tr("Hear the word")
     ExerciseType.HEAR_SENTENCE -> tr("Hear the sentence")
     ExerciseType.DICTATION -> tr("Dictation")
+    ExerciseType.SOUND_ALIKE -> tr("Sound-alike")
     ExerciseType.TRANSLATION -> tr("From the translation")
     ExerciseType.BUILD -> tr("Build the sentence")
     ExerciseType.FORM -> tr("Right form")
@@ -34,6 +35,7 @@ fun ExerciseType.description(): String = when (this) {
     ExerciseType.HEAR_WORD -> tr("Hear a word and choose its meaning")
     ExerciseType.HEAR_SENTENCE -> tr("Hear a sentence and find the word that means what is shown")
     ExerciseType.DICTATION -> tr("Hear the sentence and type the missing word, or all of a short one")
+    ExerciseType.SOUND_ALIKE -> tr("Hear a word and pick it among words spelled nearly like it")
     ExerciseType.TRANSLATION -> tr("Read what the sentence means and find the missing word")
     ExerciseType.BUILD -> tr("Put the sentence's words in order from its translation")
     ExerciseType.FORM -> tr("Find the form of the word that fits the sentence")
@@ -47,6 +49,7 @@ fun ExerciseType.icon(): ImageVector = when (this) {
     ExerciseType.HEAR_WORD -> AppIcons.VolumeUp
     ExerciseType.HEAR_SENTENCE -> AppIcons.Headphones
     ExerciseType.DICTATION -> AppIcons.RecordVoiceOver
+    ExerciseType.SOUND_ALIKE -> AppIcons.Speed
     ExerciseType.TRANSLATION -> AppIcons.Translate
     ExerciseType.BUILD -> AppIcons.SwapVert
     ExerciseType.FORM -> AppIcons.Abc

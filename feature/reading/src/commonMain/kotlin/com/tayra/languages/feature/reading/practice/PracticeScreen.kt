@@ -294,6 +294,7 @@ private val Exercise.instruction: String
         }
         ExerciseType.MEANING -> tr("What does the marked word mean?")
         ExerciseType.MATCHING -> tr("Match each word with its meaning")
+        ExerciseType.SOUND_ALIKE -> tr("Listen and choose the word you hear")
         ExerciseType.TRUE_FALSE -> tr("Is this what the marked word means?")
         ExerciseType.HEAR_SENTENCE -> tr("Listen to the sentence")
         ExerciseType.HEAR_WORD -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
@@ -356,7 +357,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         if (fromTranslation) state.sentenceTranslation?.let { translationBox(it) }
 
         // What is heard is not shown until answered: the word of a listening choice, or a sentence typed whole.
-        val sentenceHidden = !answered && (exercise.type == ExerciseType.HEAR_WORD || exercise.type == ExerciseType.HEAR_SENTENCE || exercise.wholeSentence)
+        val sentenceHidden = !answered && (exercise.type == ExerciseType.HEAR_WORD || exercise.type == ExerciseType.HEAR_SENTENCE || exercise.type == ExerciseType.SOUND_ALIKE || exercise.wholeSentence)
         // The sentence heard is hidden; what is asked is the word with this meaning.
         if (exercise.type == ExerciseType.HEAR_SENTENCE) {
             Text(

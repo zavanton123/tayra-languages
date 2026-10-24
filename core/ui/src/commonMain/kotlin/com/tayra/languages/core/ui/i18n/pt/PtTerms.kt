@@ -452,4 +452,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Needs a sentence of 3 to 8 words" to "Precisa de uma frase de 3 a 8 palavras",
     "True or false" to "Verdadeiro ou falso",
     "Say whether a meaning is the word's" to "Diga se um significado é o da palavra",
+    "Sound-alike" to "Parecidas",
+    "Hear a word and pick it among words spelled nearly like it" to "Ouça uma palavra e escolha-a entre palavras escritas quase igual",
 )

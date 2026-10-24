@@ -452,4 +452,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "Needs a sentence of 3 to 8 words" to "Il faut une phrase de 3 à 8 mots",
     "True or false" to "Vrai ou faux",
     "Say whether a meaning is the word's" to "Dites si un sens est celui du mot",
+    "Sound-alike" to "Sons proches",
+    "Hear a word and pick it among words spelled nearly like it" to "Écoutez un mot et choisissez-le parmi des mots qui s’écrivent presque pareil",
 )

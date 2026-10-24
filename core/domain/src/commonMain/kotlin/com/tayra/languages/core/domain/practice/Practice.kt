@@ -63,6 +63,9 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
     /** The sentence is read aloud: type the missing word, or all of a short sentence. */
     DICTATION(PracticeSkill.LISTENING, setOf(PracticeResponse.TYPE)),
 
+    /** The word is read aloud alone: pick it among words spelled nearly like it (its other forms, or others). Needs three such words. */
+    SOUND_ALIKE(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE)),
+
     /** The sentence's translation over the sentence with the word blanked out: choose or type the word. Needs the translation. */
     TRANSLATION(PracticeSkill.TRANSLATION, setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES, PracticeResponse.TYPE)),
 
@@ -202,6 +205,9 @@ object PracticeBuilder {
 
     /** True-or-false questions in a practice, at most. */
     private const val TRUE_FALSE_QUESTIONS = 2
+
+    /** How many letters apart a word heard alone may be from the words offered beside it. */
+    private const val SOUND_ALIKE_DISTANCE = 3
 
     /** Pairs in a matching question: at most this many, and at least [MIN_PAIRS]. */
     private const val PAIRS = 5
@@ -352,6 +358,14 @@ object PracticeBuilder {
         val base = Exercise(type, response, PracticeContext.ORIGINAL, word.text, word.translation, word.sentence, word.range, answer = word.text)
         return when (type) {
             ExerciseType.MATCHING -> null
+            ExerciseType.SOUND_ALIKE -> {
+                val own = word.key
+                val near = (pool.families[own]?.forms.orEmpty() + pool.alikes[own].orEmpty().map { it.lowercase() })
+                    .filter { it != own && editDistance(it, own) <= SOUND_ALIKE_DISTANCE }.distinct()
+                if (near.size < OPTIONS - 1) return null
+                val written = near.shuffled(random).take(OPTIONS - 1).map { if (word.text.first().isUpperCase()) it.replaceFirstChar { c -> c.uppercase() } else it }
+                base.copy(options = (written + word.text).shuffled(random), spoken = word.text)
+            }
             ExerciseType.TRUE_FALSE -> {
                 val meaning = word.translation?.trim().orEmpty()
                 if (meaning.isEmpty()) return null
@@ -425,6 +439,18 @@ object PracticeBuilder {
         val fits = { text: String -> text.isNotEmpty() && !text.equals(meaning, ignoreCase = true) && contentWords(text).none { it in own } }
         return (practised.map { it.trim() }.filter(fits).shuffled(random) + more.map { it.trim() }.filter(fits).shuffled(random))
             .distinctBy { it.lowercase() }.take(OPTIONS - 1)
+    }
+
+    /** How many letters must be changed, added or removed to turn [a] into [b]. */
+    private fun editDistance(a: String, b: String): Int {
+        var previous = IntArray(b.length + 1) { it }
+        for (i in a.indices) {
+            val current = IntArray(b.length + 1)
+            current[0] = i + 1
+            for (j in b.indices) current[j + 1] = minOf(previous[j + 1] + 1, current[j] + 1, previous[j] + if (a[i] == b[j]) 0 else 1)
+            previous = current
+        }
+        return previous[b.length]
     }
 
     /** A meaning's words of three letters or more, lower-cased: what two meanings share when they are alike. */

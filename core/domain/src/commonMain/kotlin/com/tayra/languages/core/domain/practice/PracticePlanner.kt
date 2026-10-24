@@ -63,6 +63,7 @@ object PracticePlanner {
         ExerciseType.HEAR_SENTENCE, ExerciseType.TRUE_FALSE -> PracticeNeed.WORD_MEANING
         ExerciseType.TRANSLATION -> PracticeNeed.SENTENCE_TRANSLATION.takeIf { words.any { it.sentence !in translations } }
         ExerciseType.BUILD -> if (words.any { it.sentence !in translations }) PracticeNeed.SENTENCE_TRANSLATION else PracticeNeed.SENTENCE_LENGTH
+        ExerciseType.SOUND_ALIKE -> PracticeNeed.WORD_FORMS
         ExerciseType.FORM -> if (words.any { (families[it.key]?.forms?.size ?: 0) < 4 }) PracticeNeed.WORD_FORMS else PracticeNeed.SENTENCE_TRANSLATION
         ExerciseType.GAP, ExerciseType.HEAR_WORD, ExerciseType.DICTATION -> null
     }

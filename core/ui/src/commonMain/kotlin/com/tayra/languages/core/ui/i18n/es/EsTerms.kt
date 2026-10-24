@@ -452,4 +452,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "Needs a sentence of 3 to 8 words" to "Necesita una oración de 3 a 8 palabras",
     "True or false" to "Verdadero o falso",
     "Say whether a meaning is the word's" to "Di si un significado es el de la palabra",
+    "Sound-alike" to "Parecidas",
+    "Hear a word and pick it among words spelled nearly like it" to "Escucha una palabra y elígela entre palabras que se escriben casi igual",
 )

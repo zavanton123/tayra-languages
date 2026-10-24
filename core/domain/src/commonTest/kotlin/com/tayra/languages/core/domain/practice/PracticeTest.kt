@@ -198,6 +198,20 @@ class PracticeTest {
         }
     }
 
+    /** A word heard alone is picked among words spelled nearly like it; without three such words it is not asked. */
+    @Test
+    fun aWordHeardAloneIsPickedAmongLookAlikes() {
+        val families = mapOf("comprar" to WordFamily("comprar", setOf("comprar", "compro", "compra", "compram", "compramos")))
+        val alikes = mapOf("moro" to listOf("mora", "mole"))
+        val setup = PracticeSetup(types = setOf(ExerciseType.SOUND_ALIKE), length = null)
+        val asked = PracticeBuilder.build(words, pageWords, random = Random(2), setup = setup, alikes = alikes, families = families)
+        val heard = asked.single()
+        assertEquals("comprar", heard.answer)
+        assertEquals("comprar", heard.spoken)
+        assertEquals(4, heard.options.size)
+        assertTrue(heard.options.all { it in families.getValue("comprar").forms })
+    }
+
     /** A setup goes into a route as text and comes back the same; the kinds earlier versions named still give their questions. */
     @Test
     fun aSetupIsWrittenAndReadAsText() {

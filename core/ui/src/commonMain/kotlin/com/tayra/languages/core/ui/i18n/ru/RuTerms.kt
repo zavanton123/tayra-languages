@@ -452,4 +452,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Needs a sentence of 3 to 8 words" to "Нужно предложение из 3–8 слов",
     "True or false" to "Верно или нет",
     "Say whether a meaning is the word's" to "Скажите, верно ли значение слова",
+    "Sound-alike" to "Похожие слова",
+    "Hear a word and pick it among words spelled nearly like it" to "Прослушайте слово и выберите его среди слов с почти таким же написанием",
 )
