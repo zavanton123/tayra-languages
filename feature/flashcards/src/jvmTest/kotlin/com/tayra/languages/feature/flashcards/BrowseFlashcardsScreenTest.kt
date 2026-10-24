@@ -99,8 +99,10 @@ class BrowseFlashcardsScreenTest {
         show()
         assertEquals(3, rows())
         onNodeWithText("3 cards").assertExists()
-        // The review card shows where it stands (the group chip says Review too); the new and suspended cards have no time to come yet.
-        assertEquals(2, onAllNodesWithText("Review").fetchSemanticsNodes().size)
+        // The review card shows where it stands in the scheduling words (the group chip says Scheduled too), apart from a word's
+        // New or Learning; the first-time and suspended cards have no time to come yet.
+        assertEquals(2, onAllNodesWithText("Scheduled").fetchSemanticsNodes().size)
+        assertEquals(0, onAllNodesWithText("Review").fetchSemanticsNodes().size)
         assertEquals(2, onAllNodesWithText("Not shown yet").fetchSemanticsNodes().size)
         save("BROWSE_SCREENSHOT")
 

@@ -348,11 +348,12 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean) {
             horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.m else AppSpacing.s, Alignment.CenterHorizontally),
             verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
         ) {
-            CountPill("New", counts.new, trPlural(counts.new, "new", "new"), AppAccents.blue, compact)
+            // Scheduling words, apart from a word's New, Learning and Known: a card seen for the first time, one in its learning steps, one due.
+            CountPill("New", counts.new, trPlural(counts.new, "first time", "first time"), AppAccents.blue, compact)
             if (divided) PillDivider()
-            CountPill("Learning", counts.learning, trPlural(counts.learning, "learning", "learning"), AppAccents.orange, compact)
+            CountPill("Learning", counts.learning, trPlural(counts.learning, "in steps", "in steps"), AppAccents.orange, compact)
             if (divided) PillDivider()
-            CountPill("To review", counts.review, trPlural(counts.review, "to review", "to review"), AppAccents.green, compact)
+            CountPill("To review", counts.review, trPlural(counts.review, "due", "due"), AppAccents.green, compact)
         }
     }
     val bar: @Composable (Modifier) -> Unit = { m ->

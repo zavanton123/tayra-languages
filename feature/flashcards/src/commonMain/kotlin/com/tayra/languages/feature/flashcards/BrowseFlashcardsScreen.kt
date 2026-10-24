@@ -248,9 +248,9 @@ internal val BrowseView.label: String
     get() = when (this) {
         BrowseView.ALL -> tr("All cards")
         BrowseView.DUE -> tr("Due today")
-        BrowseView.NEW -> tr("New")
-        BrowseView.LEARNING -> tr("Learning")
-        BrowseView.REVIEW -> tr("Review")
+        BrowseView.NEW -> tr("First time")
+        BrowseView.LEARNING -> tr("In steps")
+        BrowseView.REVIEW -> tr("Scheduled")
         BrowseView.FORGOTTEN -> tr("Forgotten before")
         BrowseView.SUSPENDED -> tr("Suspended")
     }
@@ -389,7 +389,7 @@ internal fun RowMenu(row: BrowseRow, actions: BrowseActions) {
     }
 }
 
-/** The card's state on its colour; a suspended card is grey whatever its state. */
+/** The card's state on its colour, in the scheduling words rather than a word's status; a suspended card is grey whatever its state. */
 @Composable
 internal fun StatePill(row: BrowseRow, large: Boolean = false) {
     val (label, tint) = when {
@@ -406,10 +406,10 @@ internal fun stateTint(state: CardState): Color = when (state) {
 }
 
 internal fun stateName(state: CardState): String = when (state) {
-    CardState.NEW -> tr("New")
-    CardState.LEARNING -> tr("Learning")
+    CardState.NEW -> tr("First time")
+    CardState.LEARNING -> tr("In steps")
     CardState.RELEARNING -> tr("Relearning")
-    CardState.REVIEW -> tr("Review")
+    CardState.REVIEW -> tr("Scheduled")
 }
 
 /** When the card comes: now, a time today, tomorrow, in some days, or on a date; a new card has no time yet. */
