@@ -108,6 +108,7 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
+import com.tayra.languages.core.domain.practice.SpeechRecognitionSetup
 
 /** The speech engines: which one reads aloud, its runtime, and the voices to download. */
 @OptIn(ExperimentalCoroutinesApi::class)
@@ -115,6 +116,8 @@ class SpeechViewModel(
     private val settings: SettingsRepository,
     languages: LanguageRepository,
     val localSpeech: LocalSpeech,
+    /** The recogniser to set up for speaking practice, where it needs setting up (the desktop). */
+    val recognition: SpeechRecognitionSetup? = null,
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
     val settingsRepository: SettingsRepository get() = settings
@@ -200,6 +203,36 @@ class SpeechViewModel(
         }
     }
 
+    /** Whether the recogniser can hear; null until checked. */
+    val recognitionReady = MutableStateFlow<Boolean?>(null)
+    val recognitionBusy = MutableStateFlow(false)
+    val recognitionError = MutableStateFlow<String?>(null)
+    val recognitionSize = MutableStateFlow(0L)
+
+    fun checkRecognition() {
+        val setup = recognition ?: return
+        viewModelScope.launch {
+            recognitionSize.value = runCatching { setup.downloadSize() }.getOrDefault(0L)
+            recognitionReady.value = runCatching { setup.isReady() }.getOrDefault(false)
+        }
+    }
+
+    fun installRecognition() {
+        val setup = recognition ?: return
+        if (recognitionBusy.value) return
+        recognitionBusy.value = true
+        recognitionError.value = null
+        viewModelScope.launch {
+            try {
+                setup.setUp()
+            } catch (e: Exception) {
+                recognitionError.value = e.message ?: tr("unknown error")
+            }
+            recognitionReady.value = runCatching { setup.isReady() }.getOrDefault(false)
+            recognitionBusy.value = false
+        }
+    }
+
     private fun task(block: suspend () -> String) {
         if (_busy.value) return
         _busy.value = true
@@ -255,6 +288,7 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
                 if (packages.all { it.languageCode == null }) packages.forEach { ModelCard(viewModel, engine, it, settings, learning, voices) }
                 else VoicesCard(viewModel, engine, packages, settings, learning, voices)
             }
+            if (viewModel.recognition != null) RecognitionCard(viewModel)
         }
     }
 }

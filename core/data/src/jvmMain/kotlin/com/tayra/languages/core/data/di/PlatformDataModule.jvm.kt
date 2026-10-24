@@ -20,6 +20,10 @@ import com.tayra.languages.core.data.speech.FileSpeechAudioCache
 import com.tayra.languages.core.data.speech.KokoroSpeechEngine
 import com.tayra.languages.core.data.speech.PiperSpeechEngine
 import com.tayra.languages.core.data.speech.TtsWorker
+import com.tayra.languages.core.data.speech.DesktopSpeechRecognition
+import com.tayra.languages.core.domain.practice.SpeechRecognition
+import com.tayra.languages.core.domain.practice.SpeechRecognitionSetup
+import org.koin.dsl.binds
 import com.tayra.languages.core.data.translation.ArgosSentenceTranslator
 import com.tayra.languages.core.domain.export.AnkiConnection
 import com.tayra.languages.core.domain.ocr.TextRecognizer
@@ -39,6 +43,7 @@ actual val platformDataModule: Module = module {
     single { ManagedPython() }
     single { LocalTranslation(ArgosSentenceTranslator(get(), get())) }
     single { TtsWorker(get()) }
+    single { DesktopSpeechRecognition(get(), get()) } binds arrayOf(SpeechRecognition::class, SpeechRecognitionSetup::class)
     single { LocalSpeech(listOf(PiperSpeechEngine(get(), get()), KokoroSpeechEngine(get(), get()))) }
     single { DatabaseDriverFactory() }
     single { BackupFiles() }

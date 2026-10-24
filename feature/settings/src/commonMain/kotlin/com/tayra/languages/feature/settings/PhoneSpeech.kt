@@ -161,6 +161,7 @@ internal fun PhoneSpeechScreen(
                 if (packages.all { it.languageCode == null }) packages.forEach { PhoneModelCard(viewModel, engine, it) }
                 else PhoneVoices(viewModel, packages, learning)
             }
+            if (viewModel.recognition != null) RecognitionCard(viewModel)
             if (engine != null && engine.hasRuntimeSetup) AdvancedRow(viewModel, engine)
         }
     }

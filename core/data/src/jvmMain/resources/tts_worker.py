@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Speech worker for Tayra Languages: Piper and Kokoro behind one JSON-line protocol.
+"""Speech worker for Tayra Languages: Piper and Kokoro, and faster-whisper to hear speech, behind one JSON-line protocol.
 
 One request per line on stdin, one reply per line on stdout:
   {"id": 1, "cmd": "status", "engine": "piper"}  -> {"id": 1, "version": "1.8.0", "python": "3.12.14"}
@@ -7,6 +7,9 @@ One request per line on stdin, one reply per line on stdout:
   {"id": 3, "cmd": "synthesize", "engine": "kokoro", "model": "/path/kokoro.onnx", "voices": "/path/voices.bin",
    "voice": "pf_dora", "lang": "pt-br", "text": "...", "speed": "1.0", "out": "/tmp/x.wav"}
 Kokoro's status also lists the languages whose readers fail to load: {"id": 4, ..., "missing": ["zh", "ja"]}.
+  {"id": 5, "cmd": "prepare", "engine": "whisper", "model": "small", "models": "/path/whisper"}  -> {"model": "small"}
+  {"id": 6, "cmd": "transcribe", "engine": "whisper", "model": "small", "models": "/path/whisper", "lang": "pt",
+   "audio": "/tmp/x.wav"}  -> {"text": "..."}
 Any failure replies {"id": ..., "error": "..."}. Loaded models are kept for the next request.
 """
 import importlib.util
@@ -17,6 +20,7 @@ import wave
 
 PIPER = {}
 KOKORO = {}
+WHISPER = {}
 READERS = {}
 
 
@@ -42,7 +46,31 @@ def status(engine):
             except Exception:  # noqa: BLE001
                 missing.append(lang)
         return {"version": version("kokoro-onnx"), "python": sys.version.split()[0], "missing": missing}
+    if engine == "whisper":
+        import faster_whisper  # noqa: F401
+        return {"version": version("faster-whisper"), "python": sys.version.split()[0]}
     raise RuntimeError(f"unknown engine {engine!r}")
+
+
+def whisper(req):
+    """The faster-whisper model named in the request, downloaded into its folder the first time."""
+    name, folder = req["model"], req["models"]
+    if (name, folder) not in WHISPER:
+        from faster_whisper import WhisperModel
+        WHISPER[(name, folder)] = WhisperModel(name, device="cpu", compute_type="int8", download_root=folder)
+    return WHISPER[(name, folder)]
+
+
+def transcribe(req):
+    # The app records 16 kHz mono 16-bit WAV, read here as is: faster-whisper's own decoder breaks with newer PyAV.
+    import numpy
+    with wave.open(req["audio"], "rb") as w:
+        if (w.getframerate(), w.getnchannels(), w.getsampwidth()) != (16000, 1, 2):
+            raise RuntimeError("expected 16 kHz mono 16-bit audio")
+        audio = numpy.frombuffer(w.readframes(w.getnframes()), dtype=numpy.int16).astype(numpy.float32) / 32768.0
+    # One short answer: no carrying over between segments, which only makes up text after a pause.
+    segments, _ = whisper(req).transcribe(audio, language=req["lang"], beam_size=5, condition_on_previous_text=False)
+    return {"text": " ".join(s.text.strip() for s in segments).strip()}
 
 
 # The voices of these languages were trained on misaki's readers, not on eSpeak's, which
@@ -115,6 +143,11 @@ def handle(req):
         return status(req.get("engine"))
     if cmd == "synthesize":
         return synthesize(req)
+    if cmd == "prepare":
+        whisper(req)
+        return {"model": req["model"]}
+    if cmd == "transcribe":
+        return transcribe(req)
     raise RuntimeError(f"unknown command {cmd!r}")
 
 

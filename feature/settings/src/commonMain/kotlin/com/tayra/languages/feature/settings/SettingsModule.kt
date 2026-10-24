@@ -12,7 +12,7 @@ val settingsModule = module {
     viewModel { DictionariesViewModel(get(), get(), get(), get()) }
     viewModel { CoursePacksViewModel(get()) }
     viewModel { BookPacksViewModel(get()) }
-    viewModel { SpeechViewModel(get(), get(), get()) }
+    viewModel { SpeechViewModel(get(), get(), get(), getOrNull()) }
     viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }
     viewModel { BackupViewModel(get()) }
     viewModel { ClearDataViewModel(get()) }

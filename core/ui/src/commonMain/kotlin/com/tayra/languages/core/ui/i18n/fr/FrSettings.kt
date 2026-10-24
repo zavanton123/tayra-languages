@@ -293,4 +293,9 @@ internal val frSettings: Map<String, String> = mapOf(
     "{0} on this device" to "{0} sur l’appareil",
     "{0} to download" to "{0} à télécharger",
     "Try again" to "Réessayer",
+    "Speech recognition" to "Reconnaissance vocale",
+    "Hears your answers when you practise speaking. It runs on this computer, with no network once installed." to "Écoute vos réponses quand vous vous entraînez à parler. Fonctionne sur cet ordinateur, sans réseau une fois installé.",
+    "Whisper's small model and what it runs on, about {0} to download." to "Le petit modèle de Whisper et ce qu'il lui faut pour tourner : environ {0} à télécharger.",
+    "Installing speech recognition…" to "Installation de la reconnaissance vocale…",
+    "Could not install: {0}" to "Installation impossible : {0}",
 )

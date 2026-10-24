@@ -54,7 +54,16 @@ compose.desktop {
             modules("java.instrument", "java.management", "java.net.http", "java.prefs", "java.sql", "jdk.security.auth", "jdk.unsupported")
             vendor = "Tayra Languages"
             description = "Read foreign-language texts and learn their words"
-            macOS { iconFile.set(project.file("icons/TayraLanguages.icns")) }
+            macOS {
+                iconFile.set(project.file("icons/TayraLanguages.icns"))
+                // Without it macOS gives the app silence in place of the microphone, which speaking practice listens to.
+                infoPlist {
+                    extraKeysRawXml = """
+                        <key>NSMicrophoneUsageDescription</key>
+                        <string>Tayra Languages listens to your answers when you practise speaking.</string>
+                    """.trimIndent()
+                }
+            }
             windows {
                 iconFile.set(project.file("icons/TayraLanguages.ico"))
                 msiPackageVersion = installerVersion.get()

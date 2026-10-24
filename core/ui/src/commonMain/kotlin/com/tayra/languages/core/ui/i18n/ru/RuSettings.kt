@@ -293,4 +293,9 @@ internal val ruSettings: Map<String, String> = mapOf(
     "{0} on this device" to "{0} на устройстве",
     "{0} to download" to "{0} для скачивания",
     "Try again" to "Повторить попытку",
+    "Speech recognition" to "Распознавание речи",
+    "Hears your answers when you practise speaking. It runs on this computer, with no network once installed." to "Слушает ваши ответы, когда вы тренируете говорение. Работает на этом компьютере, после установки без сети.",
+    "Whisper's small model and what it runs on, about {0} to download." to "Малая модель Whisper и всё, что нужно для её работы: около {0} для загрузки.",
+    "Installing speech recognition…" to "Установка распознавания речи…",
+    "Could not install: {0}" to "Не удалось установить: {0}",
 )

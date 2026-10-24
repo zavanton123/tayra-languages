@@ -293,4 +293,9 @@ internal val zhSettings: Map<String, String> = mapOf(
     "{0} on this device" to "本设备上有 {0}",
     "{0} to download" to "需下载 {0}",
     "Try again" to "重试",
+    "Speech recognition" to "语音识别",
+    "Hears your answers when you practise speaking. It runs on this computer, with no network once installed." to "在你练习口语时听取你的回答。它在这台电脑上运行，安装后无需网络。",
+    "Whisper's small model and what it runs on, about {0} to download." to "Whisper 小型模型及其运行环境，约需下载 {0}。",
+    "Installing speech recognition…" to "正在安装语音识别…",
+    "Could not install: {0}" to "无法安装：{0}",
 )

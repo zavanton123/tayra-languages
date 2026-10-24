@@ -5,6 +5,7 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.graphics.toAwtImage
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
@@ -41,6 +42,8 @@ import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
+import com.tayra.languages.core.domain.practice.SpeechRecognitionSetup
+import kotlinx.coroutines.CompletableDeferred
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
@@ -97,7 +100,22 @@ class SpeechSettingsScreenTest {
         override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray? = null
     }
 
-    private fun ComposeUiTest.show(engine: SpeechEngine, kokoro: FakeKokoro, piper: FakePiper): SettingsRepositoryImpl {
+    /** A recogniser that is installed once [installing] lets it finish. */
+    private class FakeRecognition : SpeechRecognitionSetup {
+        override val progress = MutableStateFlow<String?>(null)
+        val installing = CompletableDeferred<Unit>()
+        var ready = false
+        override suspend fun isReady() = ready
+        override suspend fun downloadSize() = 580_000_000L
+        override suspend fun setUp() {
+            progress.value = "Downloading the recognition model (120 of 484 MB)…"
+            installing.await()
+            progress.value = null
+            ready = true
+        }
+    }
+
+    private fun ComposeUiTest.show(engine: SpeechEngine, kokoro: FakeKokoro, piper: FakePiper, recognition: SpeechRecognitionSetup? = null): SettingsRepositoryImpl {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-speech-settings", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val settings = SettingsRepositoryImpl(MapSettings())
@@ -105,7 +123,7 @@ class SpeechSettingsScreenTest {
             val portuguese = languages.save(Language(name = "Portuguese"))
             settings.update { it.copy(currentLanguageId = portuguese, speechEngine = engine, speechSpeed = 0.8f) }
         }
-        val viewModel = SpeechViewModel(settings, languages, LocalSpeech(listOf(piper, kokoro)))
+        val viewModel = SpeechViewModel(settings, languages, LocalSpeech(listOf(piper, kokoro)), recognition)
         setContent { HostedSpeech(settings) { SpeechScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
         return settings
     }
@@ -173,6 +191,28 @@ class SpeechSettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Jirka (Czechia, low)")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("phone-speech-speed").performSemanticsAction(SemanticsActions.SetProgress) { it(1.0f) }
         waitUntil(timeoutMillis = 5_000) { settings.current.speechSpeed == 1.0f }
+    }
+
+    /** Speech recognition for speaking practice is installed from its own card, which shows the download as it goes. */
+    @Test
+    fun speechRecognitionIsInstalledFromItsCard() = runDesktopComposeUiTest(width = 1586, height = 1400) {
+        val recognition = FakeRecognition()
+        show(SpeechEngine.PIPER, FakeKokoro(), FakePiper(), recognition)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("install-recognition").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("about 580.0 MB to download", substring = true).assertExists()
+        onNodeWithTag("install-recognition").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Downloading the recognition model (120 of 484 MB)…")).fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("SPEECH_SCREENSHOT")?.let { save(it.replace(".png", "-recognition.png")) }
+        recognition.installing.complete(Unit)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("install-recognition").fetchSemanticsNodes().isEmpty() }
+        onNodeWithTag("speech-recognition").assertExists()
+    }
+
+    @Test
+    fun withNothingToSetUpThereIsNoRecognitionCard() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(SpeechEngine.PIPER, FakeKokoro(), FakePiper())
+        waitForIdle()
+        onNodeWithTag("speech-recognition").assertDoesNotExist()
     }
 
     private fun ComposeUiTest.save(path: String) {
