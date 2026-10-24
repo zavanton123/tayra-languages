@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import androidx.compose.ui.test.assertCountEquals
 import com.tayra.languages.core.domain.courses.Course
 import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.Lesson
@@ -609,6 +610,23 @@ class ReadingHoverTest {
         vm.closePanel()
         delay(200)
         assertEquals(ReadingPanel.None, vm.state.value.panel)
+    }
+
+    /** A phone's reader bar opens the appearance straight away, in the part-height sheet over the text. */
+    @Test
+    fun aPhonesAppearanceButtonOpensTheAppearanceTab() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent {
+            CompositionLocalProvider(LocalWindowWidth provides WindowWidth.COMPACT) {
+                ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm)
+            }
+        }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithContentDescription("Appearance").performClick()
+        // The font is on the Appearance tab, reached without choosing the tab.
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("font-choice").fetchSemanticsNodes().isNotEmpty() }
+        rule.onAllNodesWithText("lobo dorme", substring = true).assertCountEquals(1)
     }
 
     /** On a phone the pane is a sheet over a live page: a tap on the text above it does not put it away. */
