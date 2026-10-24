@@ -105,6 +105,8 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
                     ) { n -> viewModel.update { it.copy(statsSampleSize = n) } }
                 }
             }
+            // The other settings pages, as on the desktop: a phone's index has no room for the descriptions.
+            SettingsIndex(settings, onNavigate, compact = true)
         }
     }
     if (themeSheet) {

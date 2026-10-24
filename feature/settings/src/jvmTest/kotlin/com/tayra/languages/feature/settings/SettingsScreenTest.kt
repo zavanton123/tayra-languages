@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.settings
 
+import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.domain.service.SpeechEngine
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.collectAsState
@@ -97,6 +99,29 @@ class SettingsScreenTest {
         onNodeWithText("Reset").performClick()
         onAllNodesWithText("Reset").onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.readingFontScale == 1.0f && settings.current.readingFont == "serif" }
+    }
+
+    /**
+     * A phone's settings end with the index of every other page, in the plan's groups, each with its
+     * current value where it has one; clearing the data is in Data, not a first-level choice.
+     */
+    @Test
+    fun aPhoneIndexesTheOtherSettingsWithTheirValues() = runDesktopComposeUiTest(width = 400, height = 2600) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        runBlocking { settings.update { it.copy(speechEngine = SpeechEngine.PIPER, flashcardNewPerDay = 15) } }
+        val visited = mutableListOf<Route>()
+        setContent { Hosted(settings) { SettingsScreen(onNavigate = { visited += it }, viewModel = SettingsViewModel(settings)) } }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Offline resources").fetchSemanticsNodes().isNotEmpty() }
+        for (group in listOf("Preferences", "Offline resources", "Data")) onNodeWithText(group).assertExists()
+        // The current values beside the pages: the language learned, the cards a day, the speech engine.
+        onNodeWithText("Portuguese").assertExists()
+        onNodeWithText("15 new a day").assertExists()
+        onNodeWithText("Piper").assertExists()
+        // A phone has no keyboard shortcuts page to offer.
+        onNodeWithTag("settings-link-${Route.Shortcuts}").assertDoesNotExist()
+        System.getenv("SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-phone-index.png")) }
+        onNodeWithTag("settings-link-${Route.ClearData}").performScrollTo().performClick()
+        assertEquals(listOf<Route>(Route.ClearData), visited)
     }
 
     /** The theme list shows each theme with its colours; a theme that was removed opens as the one standing in for it. */

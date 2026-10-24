@@ -1,5 +1,9 @@
 package com.tayra.languages.feature.settings
 
+import androidx.compose.ui.graphics.vector.ImageVector
+import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.domain.service.TranslationEngine
+import com.tayra.languages.core.domain.service.SpeechEngine
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -180,7 +184,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                         PreviewCard(settings)
                         InfoBanner(tr("Changes are saved automatically."))
-                        MoreSettingsCard(onNavigate)
+                        SettingsIndex(settings, onNavigate, compact = false)
                     }
                 }
             } else {
@@ -188,7 +192,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 ReadingCard(settings, viewModel)
                 PreviewCard(settings)
                 BehaviourCard(settings, viewModel)
-                MoreSettingsCard(onNavigate)
+                SettingsIndex(settings, onNavigate, compact = false)
                 if (viewModel.commandLine != null) CommandLineCard(viewModel)
                 viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
                 InfoBanner(tr("Changes are saved automatically."))
@@ -207,34 +211,77 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
     }
 }
 
-/** Every other settings page, each with what it holds, so none is found only through the menu. */
+/** A page of the settings index: its name, what it holds, where it leads, and its current value when it has one. */
+private class SettingsPage(val title: String, val description: String, val route: Route, val icon: ImageVector, val value: String? = null)
+
+/**
+ * Every other settings page, so none is found only through a menu: the preferences, the offline
+ * resources, and the data, with clearing it last and in red. Each shows its current value where
+ * it has one. A [compact] index leaves the descriptions out, and the keyboard shortcuts too.
+ */
 @Composable
-private fun MoreSettingsCard(onNavigate: (Route) -> Unit) {
-    ContentCard(tr("More settings"), subtitle = null, icon = Icons.Default.Settings) {
-        val pages = listOf(
-            Triple(tr("Languages"), tr("Choose what you learn, how translations appear, and the language of the app."), Route.Languages to AppIcons.Globe),
-            Triple(tr("Translation"), tr("Choose how translations are generated and stored."), Route.OfflineTranslation to AppIcons.Translate),
-            Triple(tr("Dictionaries"), tr("Manage offline word definitions and base-form lookup."), Route.OfflineDictionaries to AppIcons.MenuBook),
-            Triple(tr("Speech"), tr("Choose how words and passages are spoken."), Route.Speech to AppIcons.VolumeUp),
-            Triple(tr("Flashcards"), tr("Daily limits and how reviews are scheduled."), Route.FlashcardSettings to AppIcons.Style),
-            Triple(tr("Vocabulary"), tr("How much of the language you know already."), Route.VocabularySettings to AppIcons.Abc),
-            Triple(tr("Course packs"), tr("Download the ready-made courses of a language as one file, or remove them to free space."), Route.CoursePacks to AppIcons.School),
-            Triple(tr("Book packs"), tr("Download a pack of free books in a language as one file, or remove them to free space."), Route.BookPacks to AppIcons.Download),
-            Triple(tr("Keyboard shortcuts"), tr("Customise how you navigate and listen while reading."), Route.Shortcuts to AppIcons.Keyboard),
-            Triple(tr("Backups"), tr("Protect your library, vocabulary, progress, and preferences."), Route.Backups to AppIcons.UploadFile),
-        )
-        pages.forEach { (title, description, target) ->
-            NavigationRow(title, onClick = { onNavigate(target.first) }, description = description, icon = target.second, modifier = Modifier.testTag("settings-link-${target.first}"))
+internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, compact: Boolean) {
+    val learning = LocalLearningLanguage.current?.current?.label?.let { tr(it) }
+    val preferences = listOfNotNull(
+        SettingsPage(tr("Languages"), tr("Choose what you learn, how translations appear, and the language of the app."), Route.Languages, AppIcons.Globe, learning),
+        SettingsPage(tr("Flashcards"), tr("Daily limits and how reviews are scheduled."), Route.FlashcardSettings, AppIcons.Style, trPlural(settings.flashcardNewPerDay, "{0} new a day", "{0} new a day")),
+        SettingsPage(tr("Vocabulary"), tr("How much of the language you know already."), Route.VocabularySettings, AppIcons.Abc),
+        if (compact) null else SettingsPage(tr("Keyboard shortcuts"), tr("Customise how you navigate and listen while reading."), Route.Shortcuts, AppIcons.Keyboard),
+        SettingsPage(tr("About"), tr("The version of the app and where it comes from."), Route.About, Icons.Default.Info),
+    )
+    val resources = listOf(
+        SettingsPage(tr("Dictionaries"), tr("Manage offline word definitions and base-form lookup."), Route.OfflineDictionaries, AppIcons.MenuBook),
+        SettingsPage(tr("Speech"), tr("Choose how words and passages are spoken."), Route.Speech, AppIcons.VolumeUp, speechEngineName(settings.speechEngine)),
+        SettingsPage(tr("Translation"), tr("Choose how translations are generated and stored."), Route.OfflineTranslation, AppIcons.Translate, translationEngineName(settings.translationEngine)),
+        SettingsPage(tr("Course packs"), tr("Download the ready-made courses of a language as one file, or remove them to free space."), Route.CoursePacks, AppIcons.School),
+        SettingsPage(tr("Book packs"), tr("Download a pack of free books in a language as one file, or remove them to free space."), Route.BookPacks, AppIcons.Download),
+    )
+    val data = listOf(
+        SettingsPage(tr("Backups"), tr("Protect your library, vocabulary, progress, and preferences."), Route.Backups, AppIcons.UploadFile),
+        SettingsPage(tr("Book archive"), tr("Books you put away, to bring back or delete."), Route.ArchivedBooks, AppIcons.BookClosed),
+    )
+    val card: @Composable (String, ImageVector, List<SettingsPage>, @Composable () -> Unit) -> Unit = { title, icon, pages, extra ->
+        ContentCard(title, subtitle = null, icon = icon, dense = compact) {
+            pages.forEach { page ->
+                NavigationRow(
+                    page.title,
+                    onClick = { onNavigate(page.route) },
+                    value = page.value,
+                    description = if (compact) null else page.description,
+                    icon = page.icon,
+                    modifier = Modifier.testTag("settings-link-${page.route}"),
+                )
+            }
+            extra()
         }
-        NavigationRow(tr("About"), onClick = { onNavigate(Route.About) }, icon = Icons.Default.Info)
+    }
+    card(tr("Preferences"), Icons.Default.Settings, preferences) {}
+    card(tr("Offline resources"), AppIcons.Download, resources) {}
+    // The destructive action keeps to its own section, after the backups that would undo it.
+    card(tr("Data"), AppIcons.UploadFile, data) {
         NavigationRow(
             tr("Clear local data"),
             onClick = { onNavigate(Route.ClearData) },
-            description = tr("Remove your learning data and downloaded files from this device. Your preferences stay."),
+            description = if (compact) null else tr("Remove your learning data and downloaded files from this device. Your preferences stay."),
             icon = Icons.Default.Delete,
             tint = MaterialTheme.colorScheme.error,
+            modifier = Modifier.testTag("settings-link-${Route.ClearData}"),
         )
     }
+}
+
+/** The speech engine's short name, for the index: the system voices, Piper or Kokoro. */
+private fun speechEngineName(engine: SpeechEngine): String = when (engine) {
+    SpeechEngine.SYSTEM -> tr("System voices")
+    SpeechEngine.PIPER -> "Piper"
+    SpeechEngine.KOKORO -> "Kokoro"
+}
+
+/** The translator's short name, for the index: on this device, MyMemory or Google Translate. */
+private fun translationEngineName(engine: TranslationEngine): String = when (engine) {
+    TranslationEngine.ARGOS -> tr("Offline")
+    TranslationEngine.MYMEMORY -> "MyMemory"
+    TranslationEngine.GOOGLE -> "Google Translate"
 }
 
 @Composable
