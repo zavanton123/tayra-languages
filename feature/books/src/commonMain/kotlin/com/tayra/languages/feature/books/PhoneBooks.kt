@@ -8,8 +8,6 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -18,12 +16,9 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
-import androidx.compose.material.icons.filled.ArrowDropDown
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -35,15 +30,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.model.BookListItem
-import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
-import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.IconButtonSize
@@ -54,16 +45,14 @@ import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ProgressTrack
 import com.tayra.languages.core.ui.components.ScrollList
 import com.tayra.languages.core.ui.components.SearchField
+import com.tayra.languages.core.ui.components.SelectButton
 import com.tayra.languages.core.ui.components.TagFilterSheet
-import com.tayra.languages.core.ui.components.TagSize
 import com.tayra.languages.core.ui.components.TintedSurface
 import com.tayra.languages.core.ui.components.ToggleButton
 import com.tayra.languages.core.ui.components.itemMotion
 import com.tayra.languages.core.ui.components.pressScale
 import com.tayra.languages.core.ui.components.relativeTo
-import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
-import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
@@ -87,17 +76,17 @@ internal fun PhoneBooksMenu(archived: Boolean, selecting: Boolean, onSelecting: 
 }
 
 /**
- * The books on a phone: the one being read as a card to go on with, the progress tabs, the
- * search with a sort picker and a tag filter sheet, and the library as cards.
+ * The books on a phone: the one being read as a card to go on with, two compact browsing rows,
+ * and the library as a dense reading queue.
  */
 @Composable
 internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, selecting: Boolean, onDone: () -> Unit, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
     val showChecks = selecting || state.selectedBooks.isNotEmpty()
-    // The book in the continue card is not listed again under it, unless books are being chosen.
-    val books = state.continueWith?.takeIf { !state.archived && !showChecks }?.let { shown -> state.filteredBooks.filter { it.id != shown.id } } ?: state.filteredBooks
-    var sorting by remember { mutableStateOf(false) }
-    var filtering by remember { mutableStateOf(false) }
+    // Selection replaces the continue card, so a visible continued book is never repeated below it.
+    val continued = state.continueWith?.takeIf { !state.archived && !showChecks }
+    val books = continued?.let { shown -> state.filteredBooks.filter { it.id != shown.id } } ?: state.filteredBooks
+    var sheet by remember { mutableStateOf<PhoneBooksSheet?>(null) }
     ScrollList(modifier.fillMaxSize(), contentPadding = PaddingValues(horizontal = AppSpacing.l, vertical = AppSpacing.m)) {
         if (state.archived && state.books.isEmpty()) {
             item { EmptyArchive() }
@@ -110,23 +99,36 @@ internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, s
             item { EmptyLibrary(state, callbacks.onNewBook, callbacks.onDownloadBooks) }
             return@ScrollList
         } else {
-            state.continueWith?.let { book -> item { PhoneContinueCard(book) { callbacks.onOpen(book) } } }
+            continued?.let { book -> item { PhoneContinueCard(book) { callbacks.onOpen(book) } } }
         }
-        item { ProgressTabs(state.counts, state.progress, callbacks.onProgress, compact = true) }
         item { SearchField(state.search, callbacks.onSearch, tr("Search titles or tags"), Modifier.fillMaxWidth().padding(bottom = AppSpacing.m)) }
         item {
-            Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                // The sort's label is the longer, so it gets the wider button.
-                ToggleButton(tr(state.sort.label), active = false, onClick = { sorting = true }, modifier = Modifier.weight(1.45f).testTag("phone-sort"), icon = AppIcons.SwapVert, trailingIcon = Icons.Default.ArrowDropDown)
-                ToggleButton(tr("Filters"), active = state.tags.isNotEmpty(), onClick = { filtering = true }, modifier = Modifier.weight(1f).testTag("phone-filters"), icon = AppIcons.Tune, badge = state.tags.size)
+            Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.l), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                SelectButton(
+                    state.progress.tabLabel,
+                    onClick = { sheet = PhoneBooksSheet.PROGRESS },
+                    modifier = Modifier.weight(1f).testTag("phone-progress"),
+                    active = state.progress != ProgressFilter.ALL,
+                )
+                ToggleButton(
+                    tr("Filters"),
+                    active = state.tags.isNotEmpty(),
+                    onClick = { sheet = PhoneBooksSheet.FILTERS },
+                    modifier = Modifier.weight(1f).testTag("phone-filters"),
+                    badge = if (state.tags.isEmpty()) 0 else 1,
+                    enabled = state.availableTags.isNotEmpty(),
+                )
+                ToggleButton(tr("Sort"), active = false, onClick = { sheet = PhoneBooksSheet.SORT }, modifier = Modifier.weight(1f).testTag("phone-sort"))
             }
         }
         item {
             if (showChecks) {
                 BooksSelectionBar(state, callbacks, onDone)
             } else {
-                // The tabs above count the books, so the heading stands alone.
-                Text(if (state.archived) tr("Archive") else tr("Your library"), Modifier.padding(bottom = AppSpacing.m), style = AppText.headline)
+                Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
+                    Text(if (state.archived) tr("Archive") else tr("Your library"), Modifier.weight(1f), style = AppText.sectionTitle)
+                    Text(tr(state.sort.label), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                }
             }
         }
         if (books.isEmpty()) {
@@ -140,20 +142,35 @@ internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, s
         item { Footer(state) }
     }
 
-    if (sorting) {
-        PickerSheet(
+    when (sheet) {
+        PhoneBooksSheet.PROGRESS -> PickerSheet(
+            title = tr("Progress"),
+            options = ProgressFilter.entries,
+            selected = state.progress,
+            label = { tr(it.label) },
+            onDismiss = { sheet = null },
+            onPick = { callbacks.onProgress(it); sheet = null },
+        )
+        PhoneBooksSheet.SORT -> PickerSheet(
             title = tr("Sort"),
             options = BookSort.entries,
             selected = state.sort,
             label = { tr(it.label) },
-            onDismiss = { sorting = false },
-            onPick = { callbacks.onSort(it); sorting = false },
+            onDismiss = { sheet = null },
+            onPick = { callbacks.onSort(it); sheet = null },
         )
-    }
-    if (filtering) {
-        TagFilterSheet(state.availableTags, state.tags, state.matchAllTags, onApply = { tags, all -> callbacks.onTags(tags, all); filtering = false }, onDismiss = { filtering = false })
+        PhoneBooksSheet.FILTERS -> TagFilterSheet(
+            state.availableTags,
+            state.tags,
+            state.matchAllTags,
+            onApply = { tags, all -> callbacks.onTags(tags, all); sheet = null },
+            onDismiss = { sheet = null },
+        )
+        null -> {}
     }
 }
+
+private enum class PhoneBooksSheet { PROGRESS, FILTERS, SORT }
 
 /** The book being read most recently: its cover, where the reader is, the two bars and the way back in. */
 @Composable
@@ -168,26 +185,25 @@ private fun PhoneContinueCard(book: BookListItem, onContinue: () -> Unit) {
                 Text(tr("Page {0} of {1} · {2}", book.currentPage, book.pageCount, words(book.wordCount)), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
         }
-        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            LabelledBar(tr("{0}% read", book.progressPercent), book.progressPercent, AppAccents.blue)
-            LabelledBar(book.masteryPercent?.let { tr("{0}% known", it) } ?: "…", book.masteryPercent, AppAccents.green)
+        Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+            LabelledBar(tr("{0}% read", book.progressPercent), book.progressPercent, AppAccents.blue, Modifier.weight(1f))
+            LabelledBar(book.masteryPercent?.let { tr("{0}% known", it) } ?: "…", book.masteryPercent, AppAccents.green, Modifier.weight(1f))
         }
         PrimaryButton(tr("Continue"), onClick = onContinue, modifier = Modifier.fillMaxWidth().testTag("continue-reading"), size = ButtonSize.Large)
     }
 }
 
-/** A label of a fixed width and the bar it describes, with no figure after the bar. */
+/** A compact metric with its label above the bar, so translated text can grow without clipping. */
 @Composable
-private fun LabelledBar(label: String, percent: Int?, color: Color) {
+private fun LabelledBar(label: String, percent: Int?, color: Color, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        Text(label, Modifier.width(PERCENT_LABEL_WIDTH), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, softWrap = false)
-        ProgressTrack((percent ?: 0) / 100f, color, Modifier.weight(1f), height = AppSizes.trackThick)
+    Column(modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+        Text(label, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1)
+        ProgressTrack((percent ?: 0) / 100f, color, Modifier.fillMaxWidth(), height = AppSizes.trackThick)
     }
 }
 
-/** A book as a card: cover, title, its length and when it was opened, its status and tags, and the two bars. */
-@OptIn(ExperimentalLayoutApi::class)
+/** A book as a dense queue row: cover, title, one useful metadata line, and an exceptional status. */
 @Composable
 private fun PhoneBookCard(book: BookListItem, selected: Boolean, selecting: Boolean, callbacks: BooksCallbacks) {
     val colors = MaterialTheme.colorScheme
@@ -196,46 +212,46 @@ private fun PhoneBookCard(book: BookListItem, selected: Boolean, selecting: Bool
     Column(
         Modifier.fillMaxWidth().pressScale(press).clip(shape).border(AppBorders.hairline(if (selected) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), shape)
             .background(if (selected) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
-            .clickable(press, LocalIndication.current) { if (selecting) callbacks.onToggle(book) else callbacks.onOpen(book) }.padding(start = AppSpacing.l, end = AppSpacing.xs, top = AppSpacing.l, bottom = AppSpacing.l),
+            .clickable(press, LocalIndication.current) { if (selecting) callbacks.onToggle(book) else callbacks.onOpen(book) }
+            .testTag("book-row-${book.id}").padding(start = AppSpacing.m, end = AppSpacing.xs, top = AppSpacing.m, bottom = AppSpacing.m),
     ) {
-        Row(verticalAlignment = Alignment.Top) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
             if (selecting) Box(Modifier.padding(end = AppSpacing.xs)) { BookCheckbox(book, selected, callbacks) }
-            BookCover(book, 60.dp)
-            Spacer(Modifier.width(AppSpacing.l))
+            BookCover(book, 44.dp)
+            Spacer(Modifier.width(AppSpacing.m))
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-                Text(book.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
-                // Length and when it was opened share a line, and the status its tags', so more books fit on a screen.
-                FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                    val meta = MaterialTheme.typography.bodyMedium
-                    Text(words(book.wordCount), style = meta, color = colors.onSurfaceVariant)
-                    Text("·", style = meta, color = colors.onSurfaceVariant)
-                    Text(book.lastOpened?.let { tr("Opened {0}", it.relativeTo()) } ?: tr("Not opened yet"), style = meta, color = colors.onSurfaceVariant, maxLines = 1)
+                Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                    Text(book.title.inLearnedScript(), Modifier.weight(1f), style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    if (book.readingStatus == ReadingStatus.FINISHED) {
+                        Text(tr("Finished"), style = AppText.label, color = AppAccents.green, maxLines = 1)
+                    }
                 }
-                FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-                    StatusTag(book.readingStatus, TagSize.Medium)
-                    BookTags(book.tags)
-                }
+                Text(bookMetadata(book), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Text(
+                    buildList {
+                        add(tr("{0}% read", book.progressPercent))
+                        book.masteryPercent?.let { add(tr("{0}% known", it)) }
+                    }.joinToString(" · "),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = colors.onSurfaceVariant,
+                    maxLines = 1,
+                )
             }
             BookMenu(book, callbacks)
-        }
-        Spacer(Modifier.height(AppSpacing.l))
-        // The labels share one width, as wide as the longer of them, so large text never breaks a word and the bars line up.
-        val labelStyle = MaterialTheme.typography.bodyMedium
-        val measurer = rememberTextMeasurer()
-        val labels = listOf(tr("Reading"), tr("Vocabulary"))
-        val labelWidth = with(LocalDensity.current) { labels.maxOf { measurer.measure(it, labelStyle).size.width }.toDp() }.coerceAtLeast(BAR_LABEL_WIDTH)
-        Column(Modifier.padding(end = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                Text(labels[0], Modifier.width(labelWidth), style = labelStyle, color = colors.onSurfaceVariant, maxLines = 1, softWrap = false)
-                Box(Modifier.weight(1f)) { PercentBar(book.progressPercent, AppAccents.blue) }
-            }
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                Text(labels[1], Modifier.width(labelWidth), style = labelStyle, color = colors.onSurfaceVariant, maxLines = 1, softWrap = false)
-                Box(Modifier.weight(1f)) { PercentBar(book.masteryPercent, AppAccents.green) }
-            }
         }
     }
 }
 
-private val PERCENT_LABEL_WIDTH = 96.dp
-private val BAR_LABEL_WIDTH = 84.dp
+private fun bookMetadata(book: BookListItem): String = buildList {
+    add(words(book.wordCount))
+    book.sourceUri?.takeIf { it.isNotBlank() }?.let { add(compactSource(it)) }
+    add(book.lastOpened?.let { tr("Opened {0}", it.relativeTo()) } ?: tr("Not opened yet"))
+}.joinToString(" · ")
+
+/** A readable host for web sources and a filename for imported local sources. */
+private fun compactSource(source: String): String {
+    val afterScheme = source.substringAfter("://", source)
+    val host = afterScheme.substringBefore('/').removePrefix("www.")
+    val filename = source.substringAfterLast('/').substringAfterLast('\\')
+    return host.takeIf { it.isNotBlank() } ?: filename.ifBlank { source }
+}
