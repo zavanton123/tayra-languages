@@ -41,6 +41,8 @@ import kotlinx.coroutines.flow.first
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.junit4.createComposeRule
+import com.tayra.languages.core.ui.theme.AppSpacing
+import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.semantics.SemanticsActions
 import androidx.compose.ui.geometry.Offset
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
@@ -1021,6 +1023,11 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("examples-dialog").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithText("Examples for ‘lobo’").assertExists()
         assertEquals(emptyList(), visited, "the heading opens examples without replacing the reader")
+        // On a desktop window the dialog fills it but for its margin.
+        val window = rule.onAllNodes(isRoot())[0].fetchSemanticsNode().size
+        val dialog = rule.onNodeWithTag("examples-dialog").fetchSemanticsNode().size
+        val margin = with(rule.density) { 2 * AppSpacing.l.roundToPx() } + 1
+        assertTrue(dialog.width >= window.width - margin && dialog.height >= window.height - margin, "the dialog $dialog in the window $window")
         rule.onNodeWithTag("close-examples-dialog").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("examples-dialog").fetchSemanticsNodes().isEmpty() }
         rule.onNodeWithTag("term-heading").assertExists()

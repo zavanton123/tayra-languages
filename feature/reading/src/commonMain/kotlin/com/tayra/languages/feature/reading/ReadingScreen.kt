@@ -460,12 +460,13 @@ fun ReadingScreen(
         )
     }
     examplesLanguageId?.let { languageId ->
+        // Beyond a phone the examples and their word's dictionary take the whole window, inside the dialog's margin.
         AppDialogSurface(
             onDismissRequest = closeExamples,
-            modifier = Modifier.fillMaxHeight(EXAMPLES_DIALOG_HEIGHT)
+            modifier = Modifier.fillMaxHeight(if (phone) EXAMPLES_DIALOG_HEIGHT else 1f)
                 .windowInsetsPadding(WindowInsets.safeDrawing)
                 .testTag("examples-dialog"),
-            maxWidth = AppSizes.contentWidth,
+            maxWidth = if (phone) AppSizes.contentWidth else Dp.Infinity,
         ) {
             ExamplesSearchScreen(
                 languageId = languageId,
