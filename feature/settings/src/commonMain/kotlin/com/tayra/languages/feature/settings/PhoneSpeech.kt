@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.settings
 
+import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.ScrollColumn
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -181,6 +182,9 @@ private fun PhoneEngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEng
     val ready by viewModel.ready.collectAsStateWithLifecycle()
     val failed by viewModel.failed.collectAsStateWithLifecycle()
     val progress by viewModel.progress.collectAsStateWithLifecycle()
+    // The way to a voice is in the notice that says one is missing: the language's downloads.
+    var setupFor by remember { mutableStateOf<Long?>(null) }
+    val learningId = LocalLearningLanguage.current?.currentId
     val working = ready && !failed
     // Amber while the language learned has no voice, as the status pill above says.
     val tint = when {
@@ -201,13 +205,18 @@ private fun PhoneEngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEng
         // No tick while the language still has no voice: the box is amber, and says what is missing.
         icon = if (working && !voiceMissing) Icons.Default.CheckCircle else Icons.Default.Warning,
         busy = busy,
-        action = if (engine.hasRuntimeSetup && !ready && !busy) { { PrimaryButton(tr("Install"), onClick = viewModel::install) } } else null,
+        action = when {
+            engine.hasRuntimeSetup && !ready && !busy -> { { PrimaryButton(tr("Install"), onClick = viewModel::install) } }
+            working && voiceMissing && learningId != null -> { { PrimaryButton(tr("Download voice"), onClick = { setupFor = learningId }, modifier = Modifier.testTag("notice-download-voice")) } }
+            else -> null
+        },
     ) {
         progress?.let {
             Text(tr(it), style = MaterialTheme.typography.bodySmall)
             AppProgressBar(null)
         }
     }
+    setupFor?.let { LanguageSetupDialog(it, onClosed = { setupFor = null }) }
 }
 
 /** Plays the language's sample sentence with the chosen engine and voice. */

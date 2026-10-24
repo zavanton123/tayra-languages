@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.settings
 
+import androidx.compose.ui.platform.testTag
+import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -314,6 +316,9 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, 
     val failed by viewModel.failed.collectAsStateWithLifecycle()
     val progress by viewModel.progress.collectAsStateWithLifecycle()
     var advanced by remember { mutableStateOf(false) }
+    // The way to a voice is in the notice that says one is missing: the language's downloads.
+    var setupFor by remember { mutableStateOf<Long?>(null) }
+    val learningId = LocalLearningLanguage.current?.currentId
     val working = ready && !failed
     val tint = when {
         busy -> MaterialTheme.colorScheme.outline
@@ -334,13 +339,14 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, 
         icon = if (working && !voiceMissing) Icons.Default.CheckCircle else Icons.Default.Warning,
         busy = busy,
         action = {
-            if (engine.hasRuntimeSetup && !ready && !busy) {
-                PrimaryButton(tr("Install"), onClick = viewModel::install)
-            } else {
-                SecondaryButton(tr("Check installation"), onClick = viewModel::check, enabled = !busy)
+            when {
+                engine.hasRuntimeSetup && !ready && !busy -> PrimaryButton(tr("Install"), onClick = viewModel::install)
+                working && voiceMissing && learningId != null -> PrimaryButton(tr("Download voice"), onClick = { setupFor = learningId }, modifier = Modifier.testTag("notice-download-voice"))
+                else -> SecondaryButton(tr("Check installation"), onClick = viewModel::check, enabled = !busy)
             }
         },
     )
+    setupFor?.let { LanguageSetupDialog(it, onClosed = { setupFor = null }) }
     progress?.let {
         Spacer(Modifier.height(AppSpacing.m))
         Text(tr(it), style = MaterialTheme.typography.bodySmall)
