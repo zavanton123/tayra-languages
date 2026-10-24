@@ -305,6 +305,8 @@ internal fun textRoute(state: PlayerUiState): Route? = state.player.item?.let { 
 @Composable
 internal fun problemMessage(problem: PlaybackProblem): String = when (problem) {
     is PlaybackProblem.NoVoice -> tr("The {0} voice used by this playlist is not available on this device.", tr(problem.languageName))
+    is PlaybackProblem.NoText -> tr("This text has no words to read aloud.")
+    is PlaybackProblem.TextGone -> tr("\"{0}\" was deleted from your library, so it left the playlist. Listening goes on with the next text.", problem.title)
 }
 
 private val DONE_CIRCLE = 160.dp

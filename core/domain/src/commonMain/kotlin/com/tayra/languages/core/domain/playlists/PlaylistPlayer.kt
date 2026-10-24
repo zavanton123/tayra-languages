@@ -70,6 +70,15 @@ enum class RepeatMode { OFF, ALL, ONE }
 sealed interface PlaybackProblem {
     /** The speech engine chosen in the settings has no voice for the playlist's language on this device. */
     data class NoVoice(val engineName: String, val languageId: Long, val languageName: String) : PlaybackProblem
+
+    /** The text has nothing to read aloud: no page, or only empty ones. */
+    data class NoText(val title: String) : PlaybackProblem
+
+    /**
+     * The text being heard was deleted from the library, which took it out of the playlist too;
+     * listening goes on with the next one. Said once, so the text is not missed without a word.
+     */
+    data class TextGone(val title: String) : PlaybackProblem
 }
 
 /** What the player has loaded and how far it has got. */
@@ -318,9 +327,25 @@ class PlaylistPlayer(
         s.itemId?.let { if (load(it, s.page, s.sentence)) startLoop() }
     }
 
-    /** Closes the reason the text cannot be played, leaving it paused there. */
+    /** Takes the text that cannot be played out of the playlist; listening goes on with the next one. */
+    fun removeCurrent() = command {
+        val s = _state.value
+        val itemId = s.itemId ?: return@command
+        // Marked as going on, so the change to the playlist starts the next text rather than pausing on it.
+        _state.update { it.copy(problem = null, status = PlayerStatus.LOADING) }
+        service.remove(itemId)
+    }
+
+    /**
+     * Closes the reason the text cannot be played, leaving it paused there; a text deleted from the
+     * library only had to be told, and listening goes on as it was.
+     */
     fun dismissProblem() = command {
-        if (_state.value.problem != null) _state.update { it.copy(problem = null, status = PlayerStatus.PAUSED) }
+        when (_state.value.problem) {
+            null -> {}
+            is PlaybackProblem.TextGone -> _state.update { it.copy(problem = null) }
+            else -> _state.update { it.copy(problem = null, status = PlayerStatus.PAUSED) }
+        }
     }
 
     /** Stops and unloads the playlist, keeping where listening got to. */
@@ -420,6 +445,10 @@ class PlaylistPlayer(
             return false
         }
         pageLengths = books.getPages(item.bookId).map { it.text.length }
+        if (pageLengths.sum() == 0) {
+            _state.update { it.copy(status = PlayerStatus.BLOCKED, problem = PlaybackProblem.NoText(item.title), sentences = emptyList(), page = 1, pageCount = 0, sentence = 0) }
+            return false
+        }
         val pageCount = pageLengths.size
         val at = page.coerceIn(1, pageCount.coerceAtLeast(1))
         val sentences = sentencesOf(item.bookId, at)
@@ -611,11 +640,14 @@ class PlaylistPlayer(
             // The text being heard was taken out: listening goes on with the one that came after it.
             val wasPlaying = s.isPlaying
             halt()
+            // Deleted from the library rather than taken out of the playlist: that is said, once.
+            val gone = s.item?.takeIf { books.getBook(it.bookId) == null }?.let { PlaybackProblem.TextGone(it.title) }
             val next = s.order.drop(s.queueIndex + 1).firstOrNull { it in ids }
             when {
                 next == null -> if (ids.isEmpty()) unload() else complete()
                 load(next, 1, 0) -> if (wasPlaying) startLoop() else _state.update { it.copy(status = PlayerStatus.PAUSED) }
             }
+            if (gone != null && _state.value.problem == null && _state.value.playlist != null) _state.update { it.copy(problem = gone) }
         }
     }
 

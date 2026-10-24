@@ -358,4 +358,43 @@ class PlaylistPlayerTest {
         runBlocking { service.delete(setup.playlist) }
         until("the unload") { player.state.value.status == PlayerStatus.IDLE && player.state.value.playlist == null }
     }
+
+    @Test
+    fun aTextWithNothingToReadCanBeTakenOutOfThePlaylist() {
+        val setup = setUp()
+        runBlocking { books.getPages(setup.books[0]).forEach { books.updatePageText(it.id, "", 0) } }
+        player.play(setup.playlist)
+        until("the problem") { player.state.value.status == PlayerStatus.BLOCKED }
+        assertEquals(PlaybackProblem.NoText("Primeiro"), player.state.value.problem)
+        assertTrue(output.heard.isEmpty())
+
+        player.removeCurrent()
+        hear("Quatro cinco.")
+        assertEquals(listOf("Segundo"), runBlocking { service.playlist(setup.playlist)!!.items.map { it.title } })
+        assertNull(player.state.value.problem)
+    }
+
+    @Test
+    fun aTextDeletedFromTheLibraryIsToldOnceAndListeningGoesOn() {
+        val setup = setUp()
+        player.play(setup.playlist)
+        hear("Um dois.")
+        runBlocking { bookService.delete(setup.books[0]) }
+        until("the notice") { player.state.value.problem == PlaybackProblem.TextGone("Primeiro") }
+        hear("Quatro cinco.")
+        player.dismissProblem()
+        until("the notice closed") { player.state.value.problem == null }
+        assertTrue(player.state.value.isPlaying, "telling it does not pause the listening")
+        hear("Cinco seis.")
+
+        // Taken out of the playlist on purpose, a text is not reported as deleted.
+        val other = runBlocking { service.create(setup.language, PlaylistDraft("Noite"), listOf(PlaylistSource.Text(setup.books[1]))) }
+        val third = runBlocking { bookService.create(BookDraft(languageId = setup.language, title = "Terceiro", text = "Sete oito.")).also { service.add(other, listOf(PlaylistSource.Text(it))) } }
+        player.play(other)
+        hear("Quatro cinco.")
+        runBlocking { service.remove(service.playlist(other)!!.items.first().id) }
+        hear("Sete oito.")
+        assertNull(player.state.value.problem)
+        assertTrue(third > 0)
+    }
 }

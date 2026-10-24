@@ -223,6 +223,41 @@ class PlayerScreensTest {
         assertEquals("system", chosen)
     }
 
+    /** A text with nothing to read aloud can be taken out of the playlist or passed over, with no voice to offer. */
+    @Test
+    fun aTextWithNoWordsOffersToTakeItOutOrSkipIt() = runDesktopComposeUiTest(width = 400, height = 900) {
+        var chosen = ""
+        host(data) {
+            ProblemDialog(
+                com.tayra.languages.core.domain.playlists.PlaybackProblem.NoText("O vídeo da Júlia"), title = "O vídeo da Júlia", place = "Text 3 of 8",
+                onDownload = { chosen = "download" }, onSystemVoice = { chosen = "system" }, onSkip = { chosen = "skip" }, onDismiss = {}, onRemove = { chosen = "remove" },
+            )
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("This text has no words to read aloud.")).fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(onAllNodes(hasTestTag("download-voice")).fetchSemanticsNodes().isEmpty() && onAllNodes(hasTestTag("system-voice")).fetchSemanticsNodes().isEmpty())
+        onNodeWithTag("skip-text").assertExists()
+        screenshot("player-problem-no-text")
+        onNodeWithTag("remove-text").performClick()
+        assertEquals("remove", chosen)
+    }
+
+    /** A text deleted from the library is named once; there is nothing to choose, listening has gone on. */
+    @Test
+    fun aDeletedTextIsToldWithOnlyAnOk() = runDesktopComposeUiTest(width = 400, height = 900) {
+        var dismissed = 0
+        host(data) {
+            ProblemDialog(
+                com.tayra.languages.core.domain.playlists.PlaybackProblem.TextGone("O vídeo da Júlia"), title = "", place = "",
+                onDownload = {}, onSystemVoice = {}, onSkip = {}, onDismiss = { dismissed++ },
+            )
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Text no longer available")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("\"O vídeo da Júlia\" was deleted from your library, so it left the playlist. Listening goes on with the next text.").assertExists()
+        assertTrue(onAllNodes(hasTestTag("skip-text")).fetchSemanticsNodes().isEmpty())
+        onNodeWithTag("text-gone-ok").performClick()
+        assertEquals(1, dismissed)
+    }
+
     @Test
     fun theReadersPlaylistMenuPutsTheTextInAndTakesItOut() = runDesktopComposeUiTest(width = 1200, height = 800) {
         val book = data.book("O ar-condicionado em promoção", "Chamar o aparelho de porcaria não resolve nada.")

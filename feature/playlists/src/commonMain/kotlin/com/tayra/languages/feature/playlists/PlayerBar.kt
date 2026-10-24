@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.playlists
 
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -258,8 +259,10 @@ private fun Tip(label: String, control: @Composable (String) -> Unit) {
 }
 
 /**
- * Says the text cannot be played, why, and what can be done: download a voice (through the
- * language's downloads, [onDownloadVoice]), use the system's voice, or skip the text.
+ * Says the text cannot be played, why, and what can be done: with no voice, download one (through
+ * the language's downloads, [onDownloadVoice]), use the system's voice or skip the text; with no
+ * words to read, take it out of the playlist or skip it; a text deleted from the library is only
+ * told, as listening has gone on without it.
  */
 @Composable
 fun PlaybackProblemDialog(onDownloadVoice: (languageId: Long) -> Unit, viewModel: PlayerViewModel = koinViewModel()) {
@@ -273,18 +276,26 @@ fun PlaybackProblemDialog(onDownloadVoice: (languageId: Long) -> Unit, viewModel
         place = tr("Text {0} of {1}", p.queueIndex + 1, p.order.size),
         onDownload = {
             player.dismissProblem()
-            when (problem) {
-                is PlaybackProblem.NoVoice -> onDownloadVoice(problem.languageId)
-            }
+            if (problem is PlaybackProblem.NoVoice) onDownloadVoice(problem.languageId)
         },
         onSystemVoice = player::useSystemVoice,
         onSkip = player::skip,
         onDismiss = player::dismissProblem,
+        onRemove = player::removeCurrent,
     )
 }
 
 @Composable
-internal fun ProblemDialog(problem: PlaybackProblem, title: String, place: String, onDownload: () -> Unit, onSystemVoice: () -> Unit, onSkip: () -> Unit, onDismiss: () -> Unit) {
+internal fun ProblemDialog(
+    problem: PlaybackProblem,
+    title: String,
+    place: String,
+    onDownload: () -> Unit,
+    onSystemVoice: () -> Unit,
+    onSkip: () -> Unit,
+    onDismiss: () -> Unit,
+    onRemove: () -> Unit = {},
+) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     AppDialogSurface(onDismissRequest = onDismiss, maxWidth = DIALOG_WIDTH) {
@@ -294,9 +305,10 @@ internal fun ProblemDialog(problem: PlaybackProblem, title: String, place: Strin
                 Box(Modifier.size(WARNING_CIRCLE).clip(AppShapes.circle).background(AppAccents.orange.copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
                     Icon(Icons.Default.Warning, contentDescription = null, tint = AppAccents.orange, modifier = Modifier.size(WARNING_ICON))
                 }
-                Text(tr("Can't play this text"), style = AppText.screenTitle, textAlign = TextAlign.Center)
+                Text(if (problem is PlaybackProblem.TextGone) tr("Text no longer available") else tr("Can't play this text"), style = AppText.screenTitle, textAlign = TextAlign.Center)
                 Text(problemMessage(problem), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
-                Row(
+                // The text in question: the one that cannot be played; a deleted one is named in the message.
+                if (problem !is PlaybackProblem.TextGone) Row(
                     Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.surfaceContainerLow).padding(AppSpacing.l),
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
@@ -307,18 +319,25 @@ internal fun ProblemDialog(problem: PlaybackProblem, title: String, place: Strin
                         Text(place, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                     }
                 }
-                val download: @Composable (Modifier) -> Unit = { m -> PrimaryButton(tr("Download voice"), onClick = onDownload, modifier = m.testTag("download-voice")) }
-                val system: @Composable (Modifier) -> Unit = { m -> SecondaryButton(tr("Use system voice"), onClick = onSystemVoice, modifier = m.testTag("system-voice")) }
-                val skip: @Composable (Modifier) -> Unit = { m -> QuietButton(tr("Skip text"), onClick = onSkip, modifier = m.testTag("skip-text")) }
+                val actions: List<@Composable (Modifier) -> Unit> = when (problem) {
+                    is PlaybackProblem.NoVoice -> listOf(
+                        { m -> PrimaryButton(tr("Download voice"), onClick = onDownload, modifier = m.testTag("download-voice")) },
+                        { m -> SecondaryButton(tr("Use system voice"), onClick = onSystemVoice, modifier = m.testTag("system-voice")) },
+                        { m -> QuietButton(tr("Skip text"), onClick = onSkip, modifier = m.widthIn(min = SKIP_WIDTH).testTag("skip-text")) },
+                    )
+                    is PlaybackProblem.NoText -> listOf(
+                        { m -> PrimaryButton(tr("Remove from playlist"), onClick = onRemove, modifier = m.testTag("remove-text")) },
+                        { m -> QuietButton(tr("Skip text"), onClick = onSkip, modifier = m.widthIn(min = SKIP_WIDTH).testTag("skip-text")) },
+                    )
+                    is PlaybackProblem.TextGone -> listOf(
+                        { m -> PrimaryButton(tr("OK"), onClick = onDismiss, modifier = m.testTag("text-gone-ok")) },
+                    )
+                }
                 if (compact) {
-                    download(Modifier.fillMaxWidth())
-                    system(Modifier.fillMaxWidth())
-                    skip(Modifier.fillMaxWidth())
+                    actions.forEach { it(Modifier.fillMaxWidth()) }
                 } else {
                     Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
-                        download(Modifier)
-                        system(Modifier)
-                        skip(Modifier.width(SKIP_WIDTH))
+                        actions.forEach { it(Modifier) }
                     }
                 }
             }
