@@ -42,6 +42,9 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
 
     /** The sentence is read aloud: type the missing word, or all of a short sentence. */
     DICTATION(PracticeSkill.LISTENING, setOf(PracticeResponse.TYPE)),
+
+    /** The sentence's translation over the sentence with the word blanked out: choose or type the word. Needs the translation. */
+    TRANSLATION(PracticeSkill.TRANSLATION, setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE)),
 }
 
 /**
@@ -170,6 +173,8 @@ object PracticeBuilder {
         setup: PracticeSetup = PracticeSetup(),
         /** Meanings of other words, for wrong choices of meaning beside those of the [words]. */
         meanings: List<String> = emptyList(),
+        /** The translations of the words' sentences, by sentence, for the questions asked through them. */
+        translations: Map<String, String> = emptyMap(),
     ): List<Exercise> {
         val targets = words.distinctBy { it.text.lowercase() }.shuffled(random)
         val rotation = setup.rotation
@@ -192,7 +197,7 @@ object PracticeBuilder {
             val start = (k % targets.size + k / targets.size) % rotation.size
             exercises += (0 until rotation.size).firstNotNullOfOrNull { step ->
                 val (type, response) = rotation[(start + step) % rotation.size]
-                exercise(type, response, word, targets, pageWords, meanings, random)
+                exercise(type, response, word, targets, pageWords, meanings, translations, random)
             } ?: continue
         }
         for (word in inNewContext) {
@@ -214,7 +219,16 @@ object PracticeBuilder {
     }
 
     /** The question of [type] on [word], or null when the word cannot be asked it. */
-    private fun exercise(type: ExerciseType, response: PracticeResponse, word: PracticeWord, targets: List<PracticeWord>, pageWords: List<String>, meanings: List<String>, random: Random): Exercise? {
+    private fun exercise(
+        type: ExerciseType,
+        response: PracticeResponse,
+        word: PracticeWord,
+        targets: List<PracticeWord>,
+        pageWords: List<String>,
+        meanings: List<String>,
+        translations: Map<String, String>,
+        random: Random,
+    ): Exercise? {
         val base = Exercise(type, response, PracticeContext.ORIGINAL, word.text, word.translation, word.sentence, word.range, answer = word.text)
         return when (type) {
             ExerciseType.GAP -> if (response == PracticeResponse.CHOOSE) base.copy(options = wordChoices(word, targets, pageWords, random)) else base
@@ -232,6 +246,10 @@ object PracticeBuilder {
                 } else {
                     base.copy(options = wordChoices(word, targets, pageWords, random), spoken = word.text)
                 }
+            }
+            ExerciseType.TRANSLATION -> {
+                val translation = translations[word.sentence]?.trim()?.takeIf { it.isNotEmpty() } ?: return null
+                base.copy(sentenceTranslation = translation, options = if (response == PracticeResponse.CHOOSE) wordChoices(word, targets, pageWords, random) else emptyList())
             }
             ExerciseType.DICTATION -> {
                 val short = word.sentence.split(Regex("""\s+""")).count { part -> part.any { it.isLetterOrDigit() } } <= SHORT_SENTENCE_WORDS

@@ -392,4 +392,8 @@ internal val zhTerms: Map<String, String> = mapOf(
     "numeral" to "数词",
     "Choose the meaning" to "选择意思",
     "Pick what the marked word means" to "选择标出的词的意思",
+    "From the translation: choose" to "看译文：选择",
+    "From the translation: type" to "看译文：输入",
+    "Read what the sentence means, then choose the missing word" to "先读句子的意思，再选出缺少的词",
+    "Read what the sentence means, then type the missing word" to "先读句子的意思，再输入缺少的词",
 )

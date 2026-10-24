@@ -235,4 +235,6 @@ internal val deReading: Map<String, String> = mapOf(
     "Terms on this page" to "Begriffe auf dieser Seite",
     "Reset reader settings" to "Leseeinstellungen zurücksetzen",
     "What does the marked word mean?" to "Was bedeutet das markierte Wort?",
+    "Read the translation and choose the missing word" to "Lies die Übersetzung und wähle das fehlende Wort",
+    "Read the translation and type the missing word" to "Lies die Übersetzung und tippe das fehlende Wort",
 )

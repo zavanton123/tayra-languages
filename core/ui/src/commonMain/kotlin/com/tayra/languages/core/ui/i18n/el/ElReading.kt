@@ -235,4 +235,6 @@ internal val elReading: Map<String, String> = mapOf(
     "Terms on this page" to "Λέξεις σε αυτή τη σελίδα",
     "Reset reader settings" to "Επαναφορά ρυθμίσεων ανάγνωσης",
     "What does the marked word mean?" to "Τι σημαίνει η επισημασμένη λέξη;",
+    "Read the translation and choose the missing word" to "Διαβάστε τη μετάφραση και επιλέξτε τη λέξη που λείπει",
+    "Read the translation and type the missing word" to "Διαβάστε τη μετάφραση και πληκτρολογήστε τη λέξη που λείπει",
 )

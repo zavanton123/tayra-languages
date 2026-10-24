@@ -392,4 +392,8 @@ internal val ruTerms: Map<String, String> = mapOf(
     "numeral" to "числительное",
     "Choose the meaning" to "Выбрать значение",
     "Pick what the marked word means" to "Выберите, что значит выделенное слово",
+    "From the translation: choose" to "По переводу: выбрать",
+    "From the translation: type" to "По переводу: ввести",
+    "Read what the sentence means, then choose the missing word" to "Прочитайте, что значит предложение, и выберите пропущенное слово",
+    "Read what the sentence means, then type the missing word" to "Прочитайте, что значит предложение, и введите пропущенное слово",
 )

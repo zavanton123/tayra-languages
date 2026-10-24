@@ -286,6 +286,7 @@ private val Exercise.instruction: String
         ExerciseType.MEANING -> tr("What does the marked word mean?")
         ExerciseType.HEAR_WORD -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
         ExerciseType.DICTATION -> if (wholeSentence) tr("Listen and type the sentence") else tr("Listen and type the missing word")
+        ExerciseType.TRANSLATION -> if (response == PracticeResponse.CHOOSE) tr("Read the translation and choose the missing word") else tr("Read the translation and type the missing word")
     }
 
 @Composable
@@ -305,6 +306,22 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
             SecondaryButton(tr("Listen again"), onClick = { actions.onSpeak.invoke(exercise.spoken!!) }, icon = AppIcons.VolumeUp, size = ButtonSize.Large, tint = colors.primary)
         }
 
+        // Captioned, so the box says what it is whether it comes before the sentence, under it, or after the answer.
+        val translationBox: @Composable (String) -> Unit = { translation ->
+            Column(
+                Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = AppSpacing.l)
+                    .testTag("practice-translation"),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.spacedBy(AppSpacing.xs),
+            ) {
+                Text(tr("Translation"), style = AppText.overline, color = colors.onSurfaceVariant)
+                Text(translation, style = AppText.cardTranslation(compact).copy(color = colors.onSurfaceVariant, textAlign = TextAlign.Center))
+            }
+        }
+        // A translation question starts from the translation: it comes first, the sentence with its gap under it.
+        val fromTranslation = exercise.type == ExerciseType.TRANSLATION
+        if (fromTranslation) state.sentenceTranslation?.let { translationBox(it) }
+
         // What is heard is not shown until answered: the word of a listening choice, or a sentence typed whole.
         val sentenceHidden = !answered && (exercise.type == ExerciseType.HEAR_WORD || exercise.wholeSentence)
         if (!sentenceHidden) {
@@ -322,17 +339,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         }
         // A typed gap gets the sentence's meaning as a hint; elsewhere it would give the answer away, so it waits.
         val hintShown = answered || (exercise.type == ExerciseType.GAP && exercise.response == PracticeResponse.TYPE)
-        if (hintShown) state.sentenceTranslation?.let { translation ->
-            // Captioned, so the box says what it is whether it comes before the answer or after it.
-            Column(
-                Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = AppSpacing.l),
-                horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.spacedBy(AppSpacing.xs),
-            ) {
-                Text(tr("Translation"), style = AppText.overline, color = colors.onSurfaceVariant)
-                Text(translation, style = AppText.cardTranslation(compact).copy(color = colors.onSurfaceVariant, textAlign = TextAlign.Center))
-            }
-        }
+        if (hintShown && !fromTranslation) state.sentenceTranslation?.let { translationBox(it) }
 
         if (exercise.isChoice) Choices(state, exercise, actions, compact) else TypedAnswer(state, exercise, actions)
 

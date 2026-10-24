@@ -392,4 +392,8 @@ internal val ptTerms: Map<String, String> = mapOf(
     "numeral" to "numeral",
     "Choose the meaning" to "Escolher o significado",
     "Pick what the marked word means" to "Escolha o que significa a palavra marcada",
+    "From the translation: choose" to "A partir da tradução: escolher",
+    "From the translation: type" to "A partir da tradução: digitar",
+    "Read what the sentence means, then choose the missing word" to "Leia o que a frase significa e escolha a palavra que falta",
+    "Read what the sentence means, then type the missing word" to "Leia o que a frase significa e digite a palavra que falta",
 )

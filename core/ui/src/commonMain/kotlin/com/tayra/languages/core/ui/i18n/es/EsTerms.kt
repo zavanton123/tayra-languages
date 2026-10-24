@@ -392,4 +392,8 @@ internal val esTerms: Map<String, String> = mapOf(
     "numeral" to "numeral",
     "Choose the meaning" to "Elegir el significado",
     "Pick what the marked word means" to "Elige qué significa la palabra marcada",
+    "From the translation: choose" to "Desde la traducción: elegir",
+    "From the translation: type" to "Desde la traducción: escribir",
+    "Read what the sentence means, then choose the missing word" to "Lee qué significa la oración y elige la palabra que falta",
+    "Read what the sentence means, then type the missing word" to "Lee qué significa la oración y escribe la palabra que falta",
 )

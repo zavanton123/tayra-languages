@@ -733,6 +733,7 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Practise 2 words").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("practice-kind-GAP_TYPED").performClick()
         rule.onNodeWithTag("practice-kind-DICTATION").performClick()
+        rule.onNodeWithTag("practice-kind-TRANSLATION_TYPED").performClick()
         rule.onNodeWithTag("start-practice").performClick()
         rule.waitUntil(5_000) { visited.isNotEmpty() }
         val route = visited.single() as com.tayra.languages.core.ui.navigation.Route.Practice

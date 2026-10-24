@@ -392,4 +392,8 @@ internal val frTerms: Map<String, String> = mapOf(
     "numeral" to "numéral",
     "Choose the meaning" to "Choisir le sens",
     "Pick what the marked word means" to "Choisissez ce que signifie le mot marqué",
+    "From the translation: choose" to "À partir de la traduction : choisir",
+    "From the translation: type" to "À partir de la traduction : taper",
+    "Read what the sentence means, then choose the missing word" to "Lisez ce que signifie la phrase, puis choisissez le mot manquant",
+    "Read what the sentence means, then type the missing word" to "Lisez ce que signifie la phrase, puis tapez le mot manquant",
 )

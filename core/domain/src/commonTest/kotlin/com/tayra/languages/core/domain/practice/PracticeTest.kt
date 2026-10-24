@@ -85,6 +85,21 @@ class PracticeTest {
         assertEquals(emptyList(), PracticeBuilder.build(listOf(word("moro", null, "Eu moro no Brasil.")), pageWords, setup = setup))
     }
 
+    /** A translation question carries its sentence's translation; a word whose sentence has none is not asked it. */
+    @Test
+    fun translationQuestionsComeOnlyWithATranslation() {
+        val translations = mapOf("Eu moro no Brasil." to "I live in Brazil.", long to "When we need to buy something, we stop at the supermarket near home.")
+        val setup = PracticeSetup(types = setOf(ExerciseType.TRANSLATION), length = null)
+        val asked = PracticeBuilder.build(words, pageWords, random = Random(1), setup = setup, translations = translations)
+        assertEquals(setOf("moro", "comprar"), asked.map { it.word }.toSet())
+        asked.forEach { e ->
+            assertEquals(translations.getValue(e.sentence), e.sentenceTranslation)
+            assertEquals(e.word, e.answer)
+            if (e.response == PracticeResponse.CHOOSE) assertTrue(e.answer in e.options) else assertTrue(e.options.isEmpty())
+        }
+        assertEquals(setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE), asked.map { it.response }.toSet())
+    }
+
     /** A setup goes into a route as text and comes back the same; the kinds earlier versions named still give their questions. */
     @Test
     fun aSetupIsWrittenAndReadAsText() {

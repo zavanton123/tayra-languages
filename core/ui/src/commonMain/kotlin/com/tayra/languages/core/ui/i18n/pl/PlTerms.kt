@@ -392,4 +392,8 @@ internal val plTerms: Map<String, String> = mapOf(
     "numeral" to "liczebnik",
     "Choose the meaning" to "Wybierz znaczenie",
     "Pick what the marked word means" to "Wybierz, co znaczy zaznaczone słowo",
+    "From the translation: choose" to "Z tłumaczenia: wybierz",
+    "From the translation: type" to "Z tłumaczenia: wpisz",
+    "Read what the sentence means, then choose the missing word" to "Przeczytaj, co znaczy zdanie, i wybierz brakujące słowo",
+    "Read what the sentence means, then type the missing word" to "Przeczytaj, co znaczy zdanie, i wpisz brakujące słowo",
 )

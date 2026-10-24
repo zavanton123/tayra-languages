@@ -392,4 +392,8 @@ internal val deTerms: Map<String, String> = mapOf(
     "numeral" to "Numerale",
     "Choose the meaning" to "Bedeutung wählen",
     "Pick what the marked word means" to "Wählen, was das markierte Wort bedeutet",
+    "From the translation: choose" to "Aus der Übersetzung: wählen",
+    "From the translation: type" to "Aus der Übersetzung: tippen",
+    "Read what the sentence means, then choose the missing word" to "Lies, was der Satz bedeutet, und wähle das fehlende Wort",
+    "Read what the sentence means, then type the missing word" to "Lies, was der Satz bedeutet, und tippe das fehlende Wort",
 )

@@ -6,6 +6,7 @@ import com.tayra.languages.core.domain.flashcards.Cloze
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.practice.Exercise
+import com.tayra.languages.core.domain.practice.ExerciseType
 import com.tayra.languages.core.domain.practice.PracticeBuilder
 import com.tayra.languages.core.domain.practice.PracticeChecker
 import com.tayra.languages.core.domain.practice.PracticeExample
@@ -117,7 +118,8 @@ class PracticeViewModel(
             }
             val lang = prepared.language
             language = lang
-            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, fetchExamples(prepared.words, lang), random, setup, prepared.meanings)
+            val translations = if (ExerciseType.TRANSLATION in setup.types) translateSentences(prepared.words, lang) else emptyMap()
+            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, fetchExamples(prepared.words, lang), random, setup, prepared.meanings, translations)
             _state.update {
                 it.copy(
                     loading = false,
@@ -153,6 +155,17 @@ class PracticeViewModel(
             }
         }
         return found.orEmpty().toMap()
+    }
+
+    /** The translations of the words' sentences, for questions asked through them; those not ready in time are left out. */
+    private suspend fun translateSentences(words: List<PracticeWord>, language: Language): Map<String, String> {
+        val translated = mutableMapOf<String, String>()
+        withTimeoutOrNull(TRANSLATION_WAIT) {
+            for (sentence in words.map { it.sentence }.distinct()) {
+                attempt { translator.translate(sentence, language) }?.trim()?.takeIf { it.isNotEmpty() }?.let { translated[sentence] = it }
+            }
+        }
+        return translated
     }
 
     private suspend fun <T> attempt(block: suspend () -> T?): T? = try {
@@ -231,5 +244,8 @@ class PracticeViewModel(
     private companion object {
         const val EXAMPLE_WORDS = 4
         val EXAMPLE_WAIT = 4.seconds
+
+        /** How long the sentences of translation questions may take to translate, all together. */
+        val TRANSLATION_WAIT = 8.seconds
     }
 }

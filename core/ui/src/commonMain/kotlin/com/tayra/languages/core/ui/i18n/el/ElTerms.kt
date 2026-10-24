@@ -392,4 +392,8 @@ internal val elTerms: Map<String, String> = mapOf(
     "numeral" to "αριθμητικό",
     "Choose the meaning" to "Επιλέξτε τη σημασία",
     "Pick what the marked word means" to "Επιλέξτε τι σημαίνει η επισημασμένη λέξη",
+    "From the translation: choose" to "Από τη μετάφραση: επιλογή",
+    "From the translation: type" to "Από τη μετάφραση: πληκτρολόγηση",
+    "Read what the sentence means, then choose the missing word" to "Διαβάστε τι σημαίνει η πρόταση και επιλέξτε τη λέξη που λείπει",
+    "Read what the sentence means, then type the missing word" to "Διαβάστε τι σημαίνει η πρόταση και πληκτρολογήστε τη λέξη που λείπει",
 )

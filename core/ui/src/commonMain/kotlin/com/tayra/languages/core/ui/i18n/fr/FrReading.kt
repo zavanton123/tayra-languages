@@ -235,4 +235,6 @@ internal val frReading: Map<String, String> = mapOf(
     "Terms on this page" to "Termes de cette page",
     "Reset reader settings" to "Réinitialiser les paramètres de lecture",
     "What does the marked word mean?" to "Que signifie le mot marqué ?",
+    "Read the translation and choose the missing word" to "Lisez la traduction et choisissez le mot manquant",
+    "Read the translation and type the missing word" to "Lisez la traduction et tapez le mot manquant",
 )
