@@ -1,5 +1,6 @@
 package com.tayra.languages
 
+import com.tayra.languages.core.ui.components.LocalTitleBarInset
 import com.tayra.languages.core.ui.components.LocalLearnedScript
 import com.tayra.languages.core.domain.flashcards.FlashcardService
 import com.tayra.languages.core.ui.components.LocalFlashcardsDue
@@ -138,7 +139,7 @@ fun App(titleBarInset: Dp = 0.dp) {
         TayraTheme(AppThemes.byId(settings.themeId), reduceMotion = settings.reduceMotion, learningLevels = settings.showLearningLevels) {
             // Text takes the background's content colour from here, as a Surface would provide it.
             Box(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)) {
-                CompositionLocalProvider(LocalContentColor provides MaterialTheme.colorScheme.onBackground) {
+                CompositionLocalProvider(LocalContentColor provides MaterialTheme.colorScheme.onBackground, LocalTitleBarInset provides titleBarInset) {
                 Column {
                     if (titleBarInset > 0.dp) {
                         Box(Modifier.fillMaxWidth().height(titleBarInset).background(MaterialTheme.colorScheme.surfaceVariant))

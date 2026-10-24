@@ -22,6 +22,7 @@ import androidx.compose.material3.rememberTooltipState
 import androidx.compose.material3.LocalContentColor
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
@@ -80,9 +81,15 @@ fun AppDialogSurface(
     content: @Composable () -> Unit,
 ) {
     Dialog(onDismissRequest = onDismissRequest, properties = DialogProperties(usePlatformDefaultWidth = false, dismissOnClickOutside = dismissible)) {
-        Surface(modifier.padding(AppSpacing.l).widthIn(max = maxWidth).fillMaxWidth(), shape = AppShapes.large, color = color, content = content)
+        Surface(modifier.padding(top = LocalTitleBarInset.current).padding(AppSpacing.l).widthIn(max = maxWidth).fillMaxWidth(), shape = AppShapes.large, color = color, content = content)
     }
 }
+
+/**
+ * The height of a transparent native title bar the window's content runs under (macOS desktop),
+ * which a dialog stays below so its top is not under the window's buttons.
+ */
+val LocalTitleBarInset = staticCompositionLocalOf { 0.dp }
 
 /** A panel beside a page's content, such as the term form next to the text: a card of [width]. */
 @Composable
