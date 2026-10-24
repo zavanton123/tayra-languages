@@ -61,7 +61,7 @@ enum class PracticePreset(val setup: PracticeSetup) {
     QUICK_REVIEW(PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.MEANING, ExerciseType.HEAR_WORD), responses = setOf(PracticeResponse.CHOOSE))),
 
     /** Reading, listening and translation, chosen and typed. */
-    BALANCED(PracticeSetup(types = ExerciseType.entries.toSet())),
+    BALANCED(PracticeSetup(types = ExerciseType.entries.toSet(), responses = PracticeResponse.entries.toSet())),
 
     /** Every listening question. */
     LISTENING(PracticeSetup(types = ExerciseType.entries.filter { it.skill == PracticeSkill.LISTENING }.toSet())),

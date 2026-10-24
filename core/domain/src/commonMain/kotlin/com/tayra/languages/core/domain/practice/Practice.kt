@@ -22,8 +22,8 @@ data class PracticeExample(val sentence: String, val range: IntRange, val transl
 /** The skill a type of question trains; the practice setup groups the types by it. */
 enum class PracticeSkill { READING, LISTENING, TRANSLATION }
 
-/** How a question is answered. */
-enum class PracticeResponse { CHOOSE, TYPE }
+/** How a question is answered: choosing among four, building the word from its letters, or typing it. */
+enum class PracticeResponse { CHOOSE, TILES, TYPE }
 
 /** Where a question's sentence comes from. */
 enum class PracticeContext {
@@ -37,7 +37,7 @@ enum class PracticeContext {
 /** A type of question, with the [skill] it trains and the ways it can be answered. */
 enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeResponse>) {
     /** The sentence with the word blanked out: choose or type the word. */
-    GAP(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE)),
+    GAP(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES, PracticeResponse.TYPE)),
 
     /** The sentence whole, the word marked: choose what the word means. Needs the word's translation. */
     MEANING(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE)),
@@ -49,13 +49,13 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
      * The sentence is read aloud, its text hidden, and the word's meaning given: choose the word
      * among the sentence's other words, or type it. Needs the word's translation.
      */
-    HEAR_SENTENCE(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE)),
+    HEAR_SENTENCE(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES, PracticeResponse.TYPE)),
 
     /** The sentence is read aloud: type the missing word, or all of a short sentence. */
     DICTATION(PracticeSkill.LISTENING, setOf(PracticeResponse.TYPE)),
 
     /** The sentence's translation over the sentence with the word blanked out: choose or type the word. Needs the translation. */
-    TRANSLATION(PracticeSkill.TRANSLATION, setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE)),
+    TRANSLATION(PracticeSkill.TRANSLATION, setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES, PracticeResponse.TYPE)),
 }
 
 /**
@@ -65,7 +65,7 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
  */
 data class PracticeSetup(
     val types: Set<ExerciseType> = setOf(ExerciseType.GAP, ExerciseType.HEAR_WORD, ExerciseType.DICTATION),
-    val responses: Set<PracticeResponse> = PracticeResponse.entries.toSet(),
+    val responses: Set<PracticeResponse> = setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE),
     val contexts: Set<PracticeContext> = PracticeContext.entries.toSet(),
     val length: Int? = DEFAULT_LENGTH,
 ) {
@@ -143,6 +143,8 @@ data class Exercise(
     val sentenceTranslation: String? = null,
     /** The choices, the right one among them; empty when the answer is typed. */
     val options: List<String> = emptyList(),
+    /** The letters the answer is built from, shuffled, with a couple that do not belong; empty unless built from tiles. */
+    val tiles: List<String> = emptyList(),
     /** The right choice, or what is to be typed. */
     val answer: String,
     /** What is read aloud, for the listening kinds. */
@@ -169,6 +171,12 @@ internal class WrongChoices(val pageWords: List<String>, val alikes: Map<String,
 object PracticeBuilder {
     const val MAX_QUESTIONS = PracticeSetup.DEFAULT_LENGTH
     private const val OPTIONS = 4
+
+    /** Words longer than this are typed rather than built from tiles. */
+    private const val MAX_TILES = 12
+
+    /** Letters offered beside the answer's own. */
+    private const val EXTRA_TILES = 2
 
     /** Sentences of at most this many words are typed whole in a dictation. */
     private const val SHORT_SENTENCE_WORDS = 6
@@ -276,7 +284,7 @@ object PracticeBuilder {
     ): Exercise? {
         val base = Exercise(type, response, PracticeContext.ORIGINAL, word.text, word.translation, word.sentence, word.range, answer = word.text)
         return when (type) {
-            ExerciseType.GAP -> if (response == PracticeResponse.CHOOSE) base.copy(options = wordChoices(word, targets, pool, random)) else base
+            ExerciseType.GAP -> answered(base, response, word, targets, pool, random)
             ExerciseType.MEANING -> {
                 val meaning = word.translation?.trim().orEmpty()
                 val wrong = meaningChoices(meaning, targets.filter { it !== word }.mapNotNull { it.translation }, meanings, random)
@@ -294,12 +302,12 @@ object PracticeBuilder {
             }
             ExerciseType.HEAR_SENTENCE -> {
                 if (word.translation.isNullOrBlank()) return null
-                val options = if (response == PracticeResponse.CHOOSE) sentenceChoices(word, targets, pool, random) else emptyList()
-                base.copy(options = options, spoken = word.sentence)
+                val heard = base.copy(spoken = word.sentence)
+                if (response == PracticeResponse.CHOOSE) heard.copy(options = sentenceChoices(word, targets, pool, random)) else answered(heard, response, word, targets, pool, random)
             }
             ExerciseType.TRANSLATION -> {
                 val translation = translations[word.sentence]?.trim()?.takeIf { it.isNotEmpty() } ?: return null
-                base.copy(sentenceTranslation = translation, options = if (response == PracticeResponse.CHOOSE) wordChoices(word, targets, pool, random) else emptyList())
+                answered(base.copy(sentenceTranslation = translation), response, word, targets, pool, random)
             }
             ExerciseType.DICTATION -> {
                 val short = word.sentence.split(Regex("""\s+""")).count { part -> part.any { it.isLetterOrDigit() } } <= SHORT_SENTENCE_WORDS
@@ -323,6 +331,22 @@ object PracticeBuilder {
     /** A meaning's words of three letters or more, lower-cased: what two meanings share when they are alike. */
     private fun contentWords(text: String): Set<String> =
         text.lowercase().split(Regex("""[^\p{L}\p{N}]+""")).filter { it.length >= 3 }.toSet()
+
+    /** [question] answered as [response]: with the word among others to choose from, its letters to build it from, or nothing to type it. Null when the word is too long for tiles. */
+    private fun answered(question: Exercise, response: PracticeResponse, word: PracticeWord, targets: List<PracticeWord>, pool: WrongChoices, random: Random): Exercise? = when (response) {
+        PracticeResponse.CHOOSE -> question.copy(options = wordChoices(word, targets, pool, random))
+        PracticeResponse.TILES -> tiles(word.text, pool, random)?.let { question.copy(tiles = it) }
+        PracticeResponse.TYPE -> question
+    }
+
+    /** The letters of [answer], shuffled, with [EXTRA_TILES] letters of the page that are not among them; null for a long word or several. */
+    private fun tiles(answer: String, pool: WrongChoices, random: Random): List<String>? {
+        if (answer.length > MAX_TILES || answer.any { it.isWhitespace() }) return null
+        val own = answer.map { it.toString() }
+        val alphabet = pool.pageWords.flatMap { word -> word.filter { it.isLetter() }.map { it.lowercase() } }.distinct()
+            .filter { letter -> own.none { it.equals(letter, ignoreCase = true) } }
+        return (own + alphabet.shuffled(random).take(EXTRA_TILES)).shuffled(random)
+    }
 
     /**
      * The word among other words of its own sentence, which was heard whole: telling them apart

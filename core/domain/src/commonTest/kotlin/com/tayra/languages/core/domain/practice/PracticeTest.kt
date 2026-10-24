@@ -127,6 +127,20 @@ class PracticeTest {
         }
     }
 
+    /** Built from tiles, a word comes with its own letters and two that are not in it; a word too long for tiles gets another question. */
+    @Test
+    fun tilesHoldTheWordsLettersAndTwoMore() {
+        val setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.TILES, PracticeResponse.TYPE), length = null)
+        val long = word("supermercados", "supermarkets", "Há dois supermercados aqui.")
+        val asked = PracticeBuilder.build(words + long, pageWords, random = Random(1), setup = setup)
+        asked.filter { it.response == PracticeResponse.TILES }.forEach { e ->
+            assertEquals(e.answer.length + 2, e.tiles.size)
+            assertEquals(e.answer.map { it.toString() }.sorted(), (e.tiles - e.tiles.filter { t -> e.answer.none { it.toString().equals(t, ignoreCase = true) } }.toSet()).sorted())
+        }
+        assertTrue(asked.filter { it.word == "supermercados" }.none { it.response == PracticeResponse.TILES }, "too long for tiles")
+        assertTrue(asked.any { it.response == PracticeResponse.TILES })
+    }
+
     /** A setup goes into a route as text and comes back the same; the kinds earlier versions named still give their questions. */
     @Test
     fun aSetupIsWrittenAndReadAsText() {

@@ -243,4 +243,9 @@ internal val frReading: Map<String, String> = mapOf(
     "Which word is a form of “{0}” (“{1}”)?" to "Quel mot est une forme de « {0} » (« {1} ») ?",
     "{0}, a form of {1}" to "{0}, une forme de {1}",
     "Almost: mind the spelling" to "Presque : attention à l’orthographe",
+    "A new sentence: build the missing word" to "Une nouvelle phrase : formez le mot manquant",
+    "Build the missing word from the letters" to "Formez le mot manquant avec les lettres",
+    "Read the translation and build the missing word" to "Lisez la traduction et formez le mot manquant",
+    "Tap the letters in order" to "Touchez les lettres dans l’ordre",
+    "Remove the last letter" to "Retirer la dernière lettre",
 )

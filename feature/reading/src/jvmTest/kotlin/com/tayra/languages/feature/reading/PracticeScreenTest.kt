@@ -287,6 +287,31 @@ class PracticeScreenTest {
         onNodeWithTag("practice-sentence").assertExists()
     }
 
+    /** Built from tiles, the word grows as its letters are tapped, the last one can be taken back, and the built word is checked. */
+    @Test
+    fun aWordIsBuiltFromItsLetters() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.TILES)))
+        val exercise = viewModel.state.value.exercises.first()
+        assertEquals(PracticeResponse.TILES, exercise.response)
+        onNodeWithText("BUILD THE MISSING WORD FROM THE LETTERS").assertExists()
+        val taken = mutableSetOf<Int>()
+        fun tap(letter: Char) {
+            val index = exercise.tiles.indices.first { it !in taken && exercise.tiles[it] == letter.toString() }
+            taken += index
+            onNodeWithTag("practice-tile-$index").performClick()
+        }
+        tap(exercise.answer[0])
+        // A wrong letter, taken back.
+        val extra = exercise.tiles.indices.first { it !in taken && exercise.tiles[it] !in exercise.answer.map { c -> c.toString() } }
+        onNodeWithTag("practice-tile-$extra").performClick()
+        onNodeWithTag("practice-tile-back").performClick()
+        exercise.answer.drop(1).forEach(::tap)
+        assertEquals(exercise.answer, viewModel.state.value.typed)
+        shot("tiles")
+        onNodeWithText("Check").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+    }
+
     @Test
     fun everyQuestionCanBeAnsweredAndNothingChangesTheWords() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val viewModel = show()

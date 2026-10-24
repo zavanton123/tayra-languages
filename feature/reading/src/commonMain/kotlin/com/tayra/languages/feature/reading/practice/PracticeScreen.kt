@@ -98,6 +98,8 @@ import com.tayra.languages.core.domain.practice.PracticeResponse
 import com.tayra.languages.core.domain.practice.PracticeContext
 import com.tayra.languages.core.domain.practice.ExerciseType
 import com.tayra.languages.core.ui.components.label
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.mutableStateOf
 
 /** Practising the words being learned on a page, right after reading it, or words chosen in the vocabulary. */
 @Composable
@@ -278,16 +280,20 @@ private fun ProgressStrip(state: PracticeUiState) {
 
 private val Exercise.instruction: String
     get() = when (type) {
-        ExerciseType.GAP -> when {
-            context == PracticeContext.EXAMPLE -> if (response == PracticeResponse.TYPE) tr("A new sentence: type the missing word") else tr("A new sentence: choose the missing word")
-            response == PracticeResponse.TYPE -> tr("Type the missing word")
-            else -> tr("Choose the missing word")
+        ExerciseType.GAP -> when (response) {
+            PracticeResponse.CHOOSE -> if (context == PracticeContext.EXAMPLE) tr("A new sentence: choose the missing word") else tr("Choose the missing word")
+            PracticeResponse.TILES -> if (context == PracticeContext.EXAMPLE) tr("A new sentence: build the missing word") else tr("Build the missing word from the letters")
+            PracticeResponse.TYPE -> if (context == PracticeContext.EXAMPLE) tr("A new sentence: type the missing word") else tr("Type the missing word")
         }
         ExerciseType.MEANING -> tr("What does the marked word mean?")
         ExerciseType.HEAR_SENTENCE -> tr("Listen to the sentence")
         ExerciseType.HEAR_WORD -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
         ExerciseType.DICTATION -> if (wholeSentence) tr("Listen and type the sentence") else tr("Listen and type the missing word")
-        ExerciseType.TRANSLATION -> if (response == PracticeResponse.CHOOSE) tr("Read the translation and choose the missing word") else tr("Read the translation and type the missing word")
+        ExerciseType.TRANSLATION -> when (response) {
+            PracticeResponse.CHOOSE -> tr("Read the translation and choose the missing word")
+            PracticeResponse.TILES -> tr("Read the translation and build the missing word")
+            PracticeResponse.TYPE -> tr("Read the translation and type the missing word")
+        }
     }
 
 @Composable
@@ -352,7 +358,11 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         val hintShown = answered || (exercise.type == ExerciseType.GAP && exercise.response == PracticeResponse.TYPE)
         if (hintShown && !fromTranslation) state.sentenceTranslation?.let { translationBox(it) }
 
-        if (exercise.isChoice) Choices(state, exercise, actions, compact) else TypedAnswer(state, exercise, actions)
+        when {
+            exercise.isChoice -> Choices(state, exercise, actions, compact)
+            exercise.tiles.isNotEmpty() -> TilesAnswer(state, exercise, actions)
+            else -> TypedAnswer(state, exercise, actions)
+        }
 
         if (answered) Feedback(state, exercise)
 
@@ -409,6 +419,42 @@ private fun Choices(state: PracticeUiState, exercise: Exercise, actions: Practic
                     if (pair.size == 1) Spacer(Modifier.weight(1f))
                 }
             }
+        }
+    }
+}
+
+/** The word built from its letters: each tile is used once, the last one taken back with the button beside them. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun TilesAnswer(state: PracticeUiState, exercise: Exercise, actions: PracticeActions) {
+    val colors = MaterialTheme.colorScheme
+    var used by remember(state.index) { mutableStateOf(emptyList<Int>()) }
+    val build: (List<Int>) -> Unit = { picked -> used = picked; actions.onTyped(picked.joinToString("") { exercise.tiles[it] }) }
+    Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+        Box(
+            Modifier.fillMaxWidth().heightIn(min = AppSizes.row).clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(horizontal = AppSpacing.l)
+                .testTag("practice-built"),
+            contentAlignment = Alignment.Center,
+        ) {
+            Text(
+                state.typed.ifEmpty { tr("Tap the letters in order") },
+                style = if (state.typed.isEmpty()) MaterialTheme.typography.bodyLarge else MaterialTheme.typography.headlineSmall,
+                color = if (state.typed.isEmpty()) colors.onSurfaceVariant else colors.onSurface,
+            )
+        }
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.CenterHorizontally), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            exercise.tiles.forEachIndexed { index, letter ->
+                val free = index !in used && !state.answered
+                Box(
+                    Modifier.size(AppSizes.touch).clip(AppShapes.control)
+                        .background(if (free) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
+                        .border(AppBorders.hairline(if (free) colors.primary else colors.outlineVariant), AppShapes.control)
+                        .clickable(enabled = free) { build(used + index) }
+                        .testTag("practice-tile-$index"),
+                    contentAlignment = Alignment.Center,
+                ) { Text(letter, style = MaterialTheme.typography.titleLarge, color = if (free) colors.onSurface else colors.outline) }
+            }
+            AppIconButton(AppIcons.ArrowLeft, tr("Remove the last letter"), onClick = { build(used.dropLast(1)) }, enabled = used.isNotEmpty() && !state.answered, modifier = Modifier.testTag("practice-tile-back"))
         }
     }
 }

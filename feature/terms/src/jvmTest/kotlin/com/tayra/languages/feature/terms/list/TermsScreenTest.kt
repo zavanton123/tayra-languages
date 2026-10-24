@@ -196,7 +196,7 @@ class TermsScreenTest {
         val route = visited.single() as Route.PracticeWords
         val setup = PracticeSetup.decode(route.setup)
         assertEquals(PracticePreset.BALANCED.setup.types, setup.types)
-        assertEquals(setOf(PracticeResponse.CHOOSE), setup.responses)
+        assertEquals(setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES), setup.responses)
         // Kept for the next practice of chosen words, and only for those.
         waitUntil(timeoutMillis = 5_000) { settings.current.practiceSetupVocabulary == route.setup }
         assertEquals("", settings.current.practiceSetupReading)

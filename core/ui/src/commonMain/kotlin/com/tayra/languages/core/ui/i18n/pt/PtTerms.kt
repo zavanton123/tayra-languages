@@ -440,4 +440,5 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Remove the preset {0}" to "Remover a predefinição {0}",
     "Looking up sentences from elsewhere…" to "A procurar frases noutras fontes…",
     "Sentences kept for {0} of {1} words" to "Frases guardadas para {0} de {1} palavras",
+    "Letter tiles" to "Peças de letras",
 )

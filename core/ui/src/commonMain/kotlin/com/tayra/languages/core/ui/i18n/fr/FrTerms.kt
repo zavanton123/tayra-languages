@@ -440,4 +440,5 @@ internal val frTerms: Map<String, String> = mapOf(
     "Remove the preset {0}" to "Supprimer le préréglage {0}",
     "Looking up sentences from elsewhere…" to "Recherche de phrases ailleurs…",
     "Sentences kept for {0} of {1} words" to "Phrases gardées pour {0} mots sur {1}",
+    "Letter tiles" to "Tuiles de lettres",
 )

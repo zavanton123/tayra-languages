@@ -243,4 +243,9 @@ internal val ptReading: Map<String, String> = mapOf(
     "Which word is a form of “{0}” (“{1}”)?" to "Qual palavra é uma forma de “{0}” (“{1}”)?",
     "{0}, a form of {1}" to "{0}, uma forma de {1}",
     "Almost: mind the spelling" to "Quase: atenção à ortografia",
+    "A new sentence: build the missing word" to "Uma frase nova: monte a palavra que falta",
+    "Build the missing word from the letters" to "Monte a palavra que falta com as letras",
+    "Read the translation and build the missing word" to "Leia a tradução e monte a palavra que falta",
+    "Tap the letters in order" to "Toque nas letras pela ordem",
+    "Remove the last letter" to "Remover a última letra",
 )

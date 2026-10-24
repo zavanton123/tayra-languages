@@ -100,7 +100,7 @@ class PracticeSetupDialogTest {
         assertEquals(
             PracticeSetup(
                 types = ExerciseType.entries.filter { it.skill != PracticeSkill.LISTENING && it != ExerciseType.MEANING }.toSet(),
-                responses = setOf(PracticeResponse.CHOOSE),
+                responses = setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES),
                 contexts = PracticeContext.entries.toSet(),
                 length = 20,
             ),

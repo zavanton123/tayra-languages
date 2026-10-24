@@ -243,4 +243,9 @@ internal val elReading: Map<String, String> = mapOf(
     "Which word is a form of “{0}” (“{1}”)?" to "Ποια λέξη είναι τύπος του «{0}» («{1}»);",
     "{0}, a form of {1}" to "{0}, τύπος του {1}",
     "Almost: mind the spelling" to "Σχεδόν: προσοχή στην ορθογραφία",
+    "A new sentence: build the missing word" to "Μια νέα πρόταση: φτιάξτε τη λέξη που λείπει",
+    "Build the missing word from the letters" to "Φτιάξτε τη λέξη που λείπει από τα γράμματα",
+    "Read the translation and build the missing word" to "Διαβάστε τη μετάφραση και φτιάξτε τη λέξη που λείπει",
+    "Tap the letters in order" to "Πατήστε τα γράμματα με τη σειρά",
+    "Remove the last letter" to "Αφαίρεση του τελευταίου γράμματος",
 )

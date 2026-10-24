@@ -243,4 +243,9 @@ internal val zhReading: Map<String, String> = mapOf(
     "Which word is a form of “{0}” (“{1}”)?" to "哪个词是“{0}”（“{1}”）的一种形式？",
     "{0}, a form of {1}" to "{0}，{1} 的一种形式",
     "Almost: mind the spelling" to "差一点：注意拼写",
+    "A new sentence: build the missing word" to "新句子：拼出缺少的词",
+    "Build the missing word from the letters" to "用字母拼出缺少的词",
+    "Read the translation and build the missing word" to "阅读译文，拼出缺少的词",
+    "Tap the letters in order" to "按顺序点按字母",
+    "Remove the last letter" to "删除最后一个字母",
 )

@@ -243,4 +243,9 @@ internal val ruReading: Map<String, String> = mapOf(
     "Which word is a form of “{0}” (“{1}”)?" to "Какое слово — форма «{0}» («{1}»)?",
     "{0}, a form of {1}" to "{0}, форма слова {1}",
     "Almost: mind the spelling" to "Почти: следите за написанием",
+    "A new sentence: build the missing word" to "Новое предложение: соберите пропущенное слово",
+    "Build the missing word from the letters" to "Соберите пропущенное слово из букв",
+    "Read the translation and build the missing word" to "Прочитайте перевод и соберите пропущенное слово",
+    "Tap the letters in order" to "Нажимайте буквы по порядку",
+    "Remove the last letter" to "Убрать последнюю букву",
 )

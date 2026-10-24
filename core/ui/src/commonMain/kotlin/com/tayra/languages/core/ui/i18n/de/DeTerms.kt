@@ -440,4 +440,5 @@ internal val deTerms: Map<String, String> = mapOf(
     "Remove the preset {0}" to "Vorgabe {0} entfernen",
     "Looking up sentences from elsewhere…" to "Sätze von anderswo werden gesucht…",
     "Sentences kept for {0} of {1} words" to "Sätze gespeichert für {0} von {1} Wörtern",
+    "Letter tiles" to "Buchstabenkacheln",
 )
