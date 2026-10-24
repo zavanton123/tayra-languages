@@ -90,6 +90,11 @@ import com.tayra.languages.core.ui.theme.AppText
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.ui.unit.Dp
+import com.tayra.languages.core.ui.components.AppDialogSurface
+import com.tayra.languages.core.ui.components.AppIconButton
+import com.tayra.languages.core.ui.components.IconButtonStyle
 
 /** Practising the words being learned on a page, right after reading it, or words chosen in the vocabulary. */
 @Composable
@@ -98,13 +103,15 @@ fun PracticeScreen(
     kinds: Set<ExerciseKind>,
     onNavigate: (Route) -> Unit,
     onBack: () -> Unit,
+    /** In a dialog over the page that started it: no app bar, and a close button beside the title. */
+    dialog: Boolean = false,
     viewModel: PracticeViewModel = koinViewModel(key = "practice-$source-${kinds.sorted()}") { parametersOf(source, kinds) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
     DisposableEffect(speaker) { onDispose { speaker.stop() } }
     Scaffold(
-        topBar = { AppTopBar(title = tr("Practice"), onNavigate = onNavigate, section = if (source is PracticeSource.Words) NavSection.TERMS else NavSection.BOOKS, onBack = onBack) },
+        topBar = { if (!dialog) AppTopBar(title = tr("Practice"), onNavigate = onNavigate, section = if (source is PracticeSource.Words) NavSection.TERMS else NavSection.BOOKS, onBack = onBack) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {
@@ -125,7 +132,33 @@ fun PracticeScreen(
                 onSpeak = { text -> speaker.speak(text, state.languageCode) },
             ),
             modifier = Modifier.padding(padding),
+            onClose = if (dialog) onBack else null,
         )
+    }
+}
+
+/** The practice a [Route.Practice] or [Route.PracticeWords] asks for, or null for any other route. */
+internal fun practiceOf(route: Route): Pair<PracticeSource, Set<ExerciseKind>>? {
+    val (source, kindNames) = when (route) {
+        is Route.Practice -> (route.page?.let { PracticeSource.Page(route.bookId, it) } ?: PracticeSource.Book(route.bookId)) to route.kinds
+        is Route.PracticeWords -> PracticeSource.Words(route.termIds) to route.kinds
+        else -> return null
+    }
+    val kinds = kindNames.mapNotNull { name -> ExerciseKind.entries.firstOrNull { it.name == name } }.toSet().ifEmpty { PracticeBuilder.KINDS.toSet() }
+    return source to kinds
+}
+
+/** A practice in a dialog that fills the window but for its margin, over the page that started it. */
+@Composable
+fun PracticeDialog(route: Route, onNavigate: (Route) -> Unit, onClose: () -> Unit) {
+    val (source, kinds) = practiceOf(route) ?: return
+    AppDialogSurface(
+        onDismissRequest = onClose,
+        modifier = Modifier.fillMaxHeight().testTag("practice-dialog"),
+        maxWidth = Dp.Infinity,
+        color = MaterialTheme.colorScheme.surfaceContainerLow,
+    ) {
+        PracticeScreen(source, kinds, onNavigate = { onClose(); onNavigate(it) }, onBack = onClose, dialog = true)
     }
 }
 
@@ -148,7 +181,7 @@ private val RESULT_BADGE_SIZE = 64.dp
 
 /** The page under the top bar: the question on show, or the result when all are answered. */
 @Composable
-internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, modifier: Modifier = Modifier) {
+internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, modifier: Modifier = Modifier, onClose: (() -> Unit)? = null) {
     val compact = LocalWindowWidth.current.isCompact
     val exercise = state.current
     val rootFocus = remember { FocusRequester() }
@@ -185,8 +218,13 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
                 verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xl),
             ) {
                 Column {
-                    // On a phone the bar carries the title.
-                    if (!compact) Text(tr("Practice"), style = AppText.screenTitle)
+                    // On a phone the bar carries the title; in a dialog the title has the way out beside it.
+                    if (!compact) Row(verticalAlignment = Alignment.CenterVertically) {
+                        Text(tr("Practice"), Modifier.weight(1f), style = AppText.screenTitle)
+                        if (onClose != null) {
+                            AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-practice-dialog"), style = IconButtonStyle.Tonal)
+                        }
+                    }
                     Text(
                         when {
                             state.wholeBook -> trPlural(state.wordCount, "The {0} word you are learning in {1}.", "The {0} words you are learning in {1}.", state.bookTitle)

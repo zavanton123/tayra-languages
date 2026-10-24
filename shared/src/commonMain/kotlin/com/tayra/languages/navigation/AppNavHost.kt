@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -47,6 +48,8 @@ import com.tayra.languages.feature.reading.readingGraph
 import com.tayra.languages.feature.settings.settingsGraph
 import com.tayra.languages.feature.stats.statsGraph
 import com.tayra.languages.feature.terms.termsGraph
+import com.tayra.languages.feature.reading.practice.PracticeDialog
+import com.tayra.languages.core.ui.navigation.LocalPracticeDialog
 
 @Composable
 fun AppNavHost(openCourses: Int = 0) {
@@ -67,8 +70,13 @@ fun AppNavHost(openCourses: Int = 0) {
     val phoneBar = LocalWindowWidth.current.isCompact && destination != null && !destination.hasRoute<Route.Read>() && !destination.hasRoute<Route.Practice>() && !destination.hasRoute<Route.PracticeWords>() &&
         !destination.hasRoute<Route.ChooseLanguage>()
     var more by remember { mutableStateOf(false) }
+    // Pages that start a practice show it in this dialog on windows wider than a phone.
+    val practiceDialog = remember<@Composable (Route, () -> Unit) -> Unit>(navController) {
+        { route, onClose -> PracticeDialog(route, onNavigate = { navController.navigate(it) }, onClose = onClose) }
+    }
     // The language whose downloads the playlist player sent for, to get a voice for it.
     var voiceFor by remember { mutableStateOf<Long?>(null) }
+    CompositionLocalProvider(LocalPracticeDialog provides practiceDialog) {
     Scaffold(
         bottomBar = {
             // The playlist player's bar stays while anything is loaded, over the phone's tabs.
@@ -119,6 +127,7 @@ fun AppNavHost(openCourses: Int = 0) {
             statsGraph(navController)
             composable<Route.ChooseLanguage> { ChooseLanguageScreen(onBack = { navController.popBackStack() }) }
         }
+    }
     }
     PlaybackProblemDialog(onDownloadVoice = { voiceFor = it })
     PlaybackNotificationsPermission()

@@ -51,6 +51,10 @@ import kotlin.random.Random
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
+import com.tayra.languages.core.ui.components.AppDialogSurface
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.Modifier
+import androidx.compose.foundation.layout.fillMaxHeight
 
 /** The practice of a page asks about its words in every way, checks the answers and leaves the words' statuses alone. */
 @OptIn(ExperimentalTestApi::class)
@@ -103,6 +107,37 @@ class PracticeScreenTest {
         }
         waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("practice-question").fetchSemanticsNodes().isNotEmpty() }
         return viewModel
+    }
+
+    /** In a dialog over the page that started it, the practice's title has a close button beside it. */
+    @Test
+    fun aPracticeInADialogClosesFromBesideItsTitle() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        runBlocking {
+            languageId = languages.save(Language(name = "Portuguese"))
+            bookId = BookService(books, languages).create(BookDraft(languageId = languageId, title = "Long text", text = text))
+            learning.forEach { (word, meaning) -> terms.save(Term(languageId = languageId, text = word, textLc = word, status = TermStatus.NEW_1, translation = meaning)) }
+        }
+        val examples = object : ExampleSentencesProvider {
+            override suspend fun search(query: ExampleSearchQuery) = ExampleSearchResult.EMPTY
+            override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
+        }
+        val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
+        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), setOf(ExerciseKind.GAP_CHOICE), books, languages, reading, examples, translator, settings, terms, Random(7))
+        var closed = 0
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    val state by viewModel.state.collectAsState()
+                    AppDialogSurface(onDismissRequest = {}, modifier = Modifier.fillMaxHeight(), maxWidth = Dp.Infinity, color = MaterialTheme.colorScheme.surfaceContainerLow) {
+                        if (!state.loading) PracticeContent(state, PracticeActions(onChoose = viewModel::choose, onNext = viewModel::next, onSpeak = {}), onClose = { closed++ })
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("practice-question").fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("PRACTICE_DIALOG_SCREENSHOT")?.let { waitForIdle(); ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
+        onNodeWithTag("close-practice-dialog").performClick()
+        assertEquals(1, closed)
     }
 
     /** The whole text's practice asks about the words being learned on every page, each in its own sentence. */

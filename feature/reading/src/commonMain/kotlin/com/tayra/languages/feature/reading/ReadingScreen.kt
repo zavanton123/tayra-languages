@@ -141,6 +141,7 @@ import com.tayra.languages.core.ui.components.AboveTargetPositionProvider
 import androidx.compose.ui.platform.LocalDensity
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppDialogSurface
+import com.tayra.languages.core.ui.navigation.rememberPracticeOpener
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppSwitch
 import com.tayra.languages.core.ui.components.BarSurface
@@ -260,6 +261,8 @@ fun ReadingScreen(
             onNavigate(route)
         }
     }
+    // Beyond a phone the practice opens over the reader, which stays where it was.
+    val practise = rememberPracticeOpener(navigateFromReader)
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) {
         viewModel.onResumed()
         // Back in front (from the examples, say) the text takes the keys again, even with the term pane open, which the focus below leaves alone.
@@ -429,8 +432,8 @@ fun ReadingScreen(
                         ReadingBody(
                             state, viewModel, speaker, continuous,
                             onHome = leave,
-                            onPractice = { onNavigate(Route.Practice(bookId, state.pageNumber)) },
-                            onPracticeAll = { kinds -> onNavigate(Route.Practice(bookId, page = null, kinds = kinds.map { it.name })) },
+                            onPractice = { practise(Route.Practice(bookId, state.pageNumber)) },
+                            onPracticeAll = { kinds -> practise(Route.Practice(bookId, page = null, kinds = kinds.map { it.name })) },
                             onSettings = { onNavigate(Route.OfflineTranslation) },
                             onMenu = openPane,
                             onCourses = { onNavigate(Route.Courses) },

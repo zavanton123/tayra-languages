@@ -116,6 +116,7 @@ import kotlinx.datetime.toLocalDateTime
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
+import com.tayra.languages.core.ui.navigation.rememberPracticeOpener
 
 internal enum class TermSortOption(val sort: TermListSort) {
     RECENT(TermListSort(TermSortField.CREATED, ascending = false)),
@@ -205,12 +206,14 @@ fun TermsScreen(
         }
     }
 
+    // Beyond a phone the practice opens over the list, which keeps its selection.
+    val practise = rememberPracticeOpener(onNavigate)
     if (bulkEdit) {
         val keepLevels = !learningLevels
         BulkEditDialog(count = state.selected.size, onApply = { viewModel.applyBulkUpdate(it, keepLearningLevels = keepLevels); bulkEdit = false }, onDismiss = { bulkEdit = false })
     }
     if (practising) {
-        PracticeKindsDialog(count = state.selected.size, onStart = { kinds -> practising = false; onNavigate(Route.PracticeWords(state.selected.toList(), kinds.map { it.name })) }, onDismiss = { practising = false })
+        PracticeKindsDialog(count = state.selected.size, onStart = { kinds -> practising = false; practise(Route.PracticeWords(state.selected.toList(), kinds.map { it.name })) }, onDismiss = { practising = false })
     }
     if (confirmDelete) {
         ConfirmDialog(
