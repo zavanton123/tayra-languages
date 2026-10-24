@@ -30,7 +30,8 @@ import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.practice.ExerciseKind
 import com.tayra.languages.core.domain.practice.PracticeBuilder
-import com.tayra.languages.feature.reading.practice.PracticeSource
+import com.tayra.languages.core.domain.practice.PracticeMaterialLoader
+import com.tayra.languages.core.domain.practice.PracticeSource
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSearchResult
@@ -86,7 +87,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), PracticeBuilder.KINDS.toSet(), books, languages, reading, examples, translator, settings, terms, Random(seed))
+        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), PracticeBuilder.KINDS.toSet(), PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(seed))
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -122,7 +123,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), setOf(ExerciseKind.GAP_CHOICE), books, languages, reading, examples, translator, settings, terms, Random(7))
+        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), setOf(ExerciseKind.GAP_CHOICE), PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(7))
         var closed = 0
         setContent {
             TayraTheme {
@@ -154,7 +155,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Book(bookId), setOf(ExerciseKind.GAP_CHOICE), books, languages, reading, examples, translator, settings, terms, Random(3))
+        val viewModel = PracticeViewModel(PracticeSource.Book(bookId), setOf(ExerciseKind.GAP_CHOICE), PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(3))
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -190,7 +191,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Words(ids), setOf(ExerciseKind.GAP_CHOICE, ExerciseKind.HEAR_CHOOSE), books, languages, reading, examples, translator, settings, terms, Random(3))
+        val viewModel = PracticeViewModel(PracticeSource.Words(ids), setOf(ExerciseKind.GAP_CHOICE, ExerciseKind.HEAR_CHOOSE), PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(3))
         var left = 0
         setContent {
             TayraTheme {

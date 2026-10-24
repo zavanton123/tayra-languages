@@ -79,6 +79,7 @@ import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.dictionary.OnlineWiktionary
 import com.tayra.languages.core.domain.export.AnkiExportService
 import com.tayra.languages.core.domain.export.AnkiPackager
+import com.tayra.languages.core.domain.practice.PracticeMaterialLoader
 import com.tayra.languages.core.domain.flashcards.FlashcardService
 import com.tayra.languages.core.domain.frequency.VocabularyLevelRepository
 import com.tayra.languages.core.domain.news.NewsFeedReader
@@ -195,6 +196,7 @@ val dataModule: Module = module {
     single { LearningTranslations(get(), get(), get()) }
     single<AnkiPackager> { AnkiPackagerImpl() }
     single { AnkiExportService(get(), get(), get(), get(), get(), get(), get()) }
+    single { PracticeMaterialLoader(get(), get(), get(), get()) }
     single { TermService(get(), get(), translationsWanted = get<LearningTranslations>()::request, chineseTables = getOrNull()) }
     single { ExampleRecordings(KtorRecordingFetcher(get()), get()) }
     single { WordRecordings(CommonsRecordingSource(get())) }

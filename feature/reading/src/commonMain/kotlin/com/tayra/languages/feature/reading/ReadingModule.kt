@@ -4,7 +4,7 @@ import com.tayra.languages.core.domain.courses.CourseService
 import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.domain.practice.ExerciseKind
 import com.tayra.languages.feature.reading.practice.PracticeScreen
-import com.tayra.languages.feature.reading.practice.PracticeSource
+import com.tayra.languages.core.domain.practice.PracticeSource
 import com.tayra.languages.feature.reading.practice.practiceOf
 import com.tayra.languages.feature.reading.practice.PracticeViewModel
 import androidx.navigation.NavController
@@ -17,7 +17,7 @@ import org.koin.dsl.module
 
 val readingModule = module {
     viewModel { (bookId: Long, page: Int?) -> ReadingViewModel(bookId, page, get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), lessonOf = get<CourseService>()::lessonReading, isNews = get<BookRepository>().let { books -> { id: Long -> books.newsUrl(id) != null } }, wordReadings = getOrNull(), chineseScripts = getOrNull(), anki = getOrNull(), ankiConnection = getOrNull()) }
-    viewModel { (source: PracticeSource, kinds: Set<ExerciseKind>) -> PracticeViewModel(source, kinds, get(), get(), get(), get(), get(), get(), get()) }
+    viewModel { (source: PracticeSource, kinds: Set<ExerciseKind>) -> PracticeViewModel(source, kinds, get(), get(), get(), get()) }
 }
 
 fun NavGraphBuilder.readingGraph(navController: NavController) {
