@@ -1,6 +1,6 @@
 # Tayra Languages UI/UX Redesign Plan
 
-Status: implementation-ready proposal  
+Status: implemented on branch `ui-redesign`, except the items listed in section 15  
 Date: 23 October 2026  
 Scope: Android, iOS, desktop and web Compose UI, with mobile as the first implementation target
 
@@ -631,3 +631,27 @@ Existing audits:
 
 - `docs/ui-audit-2026-10-19/index.html`
 - `docs/ui-audit-2026-10-20/index.html`
+
+## 15. Implementation status
+
+Implemented on the branch `ui-redesign` (on top of `codex/mobile-reader-redesign`), one commit per change, each after the full build.
+
+| Plan section | Done |
+|---|---|
+| 5 Shared foundation | `ActiveFilterSummary` (core/ui `FilterSummary.kt`) used by Vocabulary, News, Wikipedia and Find books; the existing `Notice` serves as StatusNotice, with the missing voice's download inside it; stable bottom slot for flashcard answers; desktop scrollbars safe under intrinsic measurement |
+| 6.1 Home | Playlist under way offered after reading and the cards (phone and desktop) |
+| 6.2 Courses | Continue-first catalog (earlier commits); courses and lessons can be added to playlists from the course pages |
+| 6.3 Books | Continued book left out of the list below its card, on desktop too |
+| 6.4 Reader | Appearance opens from the phone's reader bar on its tab; the word sheet shows pronunciation and first dictionary sense at once (with the earlier compact toolbar, sentence gutter, stable playback bar and examples over the reader) |
+| 6.5 Vocabulary | One-line filter summary (`Learning 1–4 · 12 terms`) with Show all, filter badge counts groups, continuous loading on phones |
+| 6.6 Flashcards | Show answer and the ratings share one slot; scheduling words (First time, In steps, Due, Scheduled, Relearning) apart from word knowledge; session end continues the text read last |
+| 6.7 Discovery | News, Wikipedia and Find books: whole card opens, quiet card action, filters summarised after the sheet closes; Find books' level in a sheet on phones |
+| 6.8 Playlists | A text with no words offers Remove from playlist or Skip; a text deleted from the library is named once while listening goes on (missing voice already offered Download, system voice, Skip) |
+| 6.9 More and Settings | More regrouped as section 4; Settings indexes every page in Preferences, Offline resources and Data with current values; Clear data only in Data; download states Not downloaded / Downloading / Downloaded / Failed; word knowledge New / Learning / Known / Ignored |
+| 7 Desktop | Settings menu grouped and named as on phones; Continue before filters on Courses and Books |
+
+Not done:
+
+- The screenshot matrix of section 10 (dark theme and 130% font scale for every screen); screens are covered by the existing light screenshots and UI tests.
+- Journey tests 1, 2 and 5 of section 10 as single end-to-end navigation tests; their steps are covered by screen and player tests.
+- Optional assets of section 8 and news thumbnails.
