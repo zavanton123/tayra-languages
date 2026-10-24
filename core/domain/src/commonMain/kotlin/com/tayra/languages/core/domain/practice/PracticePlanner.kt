@@ -52,3 +52,27 @@ object PracticePlanner {
         ExerciseType.GAP, ExerciseType.HEAR_WORD, ExerciseType.DICTATION -> null
     }
 }
+
+/** Ready-made setups the setup dialog offers; changing anything after picking one makes a custom setup. */
+enum class PracticePreset(val setup: PracticeSetup) {
+    /** Recognising the words: choices only. */
+    QUICK_REVIEW(PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.MEANING, ExerciseType.HEAR_WORD), responses = setOf(PracticeResponse.CHOOSE))),
+
+    /** Reading, listening and translation, chosen and typed. */
+    BALANCED(PracticeSetup(types = ExerciseType.entries.toSet())),
+
+    /** Every listening question. */
+    LISTENING(PracticeSetup(types = ExerciseType.entries.filter { it.skill == PracticeSkill.LISTENING }.toSet())),
+
+    /** Recall: every question that can be typed, typed. */
+    WRITING(PracticeSetup(types = ExerciseType.entries.filter { PracticeResponse.TYPE in it.responses }.toSet(), responses = setOf(PracticeResponse.TYPE))),
+    ;
+
+    companion object {
+        /** The setup the dialog opens on the first time. */
+        val DEFAULT = BALANCED
+
+        /** The preset [setup] is, if it is one. */
+        fun of(setup: PracticeSetup): PracticePreset? = entries.firstOrNull { it.setup == setup }
+    }
+}

@@ -34,7 +34,6 @@ import com.tayra.languages.core.domain.export.AnkiExportService
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.TermDraft
 import com.tayra.languages.core.domain.model.TermStatus
-import com.tayra.languages.core.domain.practice.ExerciseType
 import com.tayra.languages.core.domain.practice.PracticeResponse
 import com.tayra.languages.core.domain.practice.PracticeSetup
 import com.tayra.languages.core.domain.service.LocalSpeech
@@ -58,6 +57,13 @@ import kotlinx.coroutines.runBlocking
 import org.koin.core.context.startKoin
 import org.koin.core.context.stopKoin
 import org.koin.dsl.module
+import org.koin.core.module.dsl.viewModel
+import com.tayra.languages.core.domain.practice.PracticeSource
+import com.tayra.languages.core.domain.practice.PracticePreset
+import com.tayra.languages.core.domain.practice.PracticeMaterialLoader
+import com.tayra.languages.core.domain.service.ReadingService
+import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
+import com.tayra.languages.core.data.repository.BookRepositoryImpl
 
 /** The vocabulary filters apply as they change: statuses ticked as chips, the days since a term was added, and removable chips for what is on. */
 @OptIn(ExperimentalTestApi::class)
@@ -69,6 +75,8 @@ class TermsScreenTest {
     private val settings = SettingsRepositoryImpl(MapSettings())
     private val service = TermService(terms, languages)
     private val sentenceAudio = SentenceAudio(LocalSpeech(emptyList()), settings, MemorySpeechAudioCache())
+
+    private var languageId = 0L
 
     @AfterTest
     fun tearDown() = stopKoin()
@@ -84,7 +92,16 @@ class TermsScreenTest {
             repeat(extra) { service.save(TermDraft(languageId = id, text = "palavra$it", status = TermStatus.NEW_1, statusExplicitlySet = true)) }
             id
         }
-        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        this@TermsScreenTest.languageId = languageId
+        val books = BookRepositoryImpl(provider)
+        val material = PracticeMaterialLoader(books, languages, ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), service), terms)
+        val noSentences = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = null }
+        startKoin {
+            modules(module {
+                single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio }
+                viewModel { (source: PracticeSource) -> PracticeSetupViewModel(source, material, noSentences) }
+            })
+        }
         val noDictionary = object : OfflineDictionary {
             override suspend fun isAvailable(dictionary: DictionaryId) = false
             override suspend fun lookup(dictionary: DictionaryId, text: String) = error("not installed")
@@ -163,20 +180,22 @@ class TermsScreenTest {
         rows[2].performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("2 of 3 selected").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithContentDescription("List actions").performClick()
+        // Practised in the sentences they were saved with.
+        runBlocking {
+            for ((text, sentence) in listOf("comprar" to "Vou comprar pão.", "produtos" to "Os produtos são bons.", "pensar" to "Vou pensar nisso.")) {
+                terms.findByTextLc(languageId, text)?.let { terms.save(it.copy(sentence = sentence)) }
+            }
+        }
         onNodeWithText("Practise 2 selected").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Practise 2 words").fetchSemanticsNodes().isNotEmpty() }
-        // Every kind is ticked to begin with; the typed ones are unticked here.
-        onNodeWithTag("practice-kind-GAP_TYPED").performClick()
-        onNodeWithTag("practice-kind-DICTATION").performClick()
-        onNodeWithTag("practice-kind-TRANSLATION_TYPED").performClick()
-        onNodeWithTag("practice-kind-HEAR_SENTENCE_TYPED").performClick()
-        onNodeWithText("5 question types selected").assertExists()
+        // Every question of the balanced setup is ticked to begin with; answering by typing is unticked here.
+        onNodeWithTag("practice-response-TYPE").performClick()
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot()).onLast().captureToImage().toAwtImage(), "png", File(it.replace(".png", "-practice-dialog.png"))) }
         onNodeWithTag("start-practice").performClick()
         waitUntil(timeoutMillis = 5_000) { visited.isNotEmpty() }
         val route = visited.single() as Route.PracticeWords
         val setup = PracticeSetup.decode(route.setup)
-        assertEquals(setOf(ExerciseType.GAP, ExerciseType.MEANING, ExerciseType.HEAR_WORD, ExerciseType.HEAR_SENTENCE, ExerciseType.TRANSLATION), setup.types)
+        assertEquals(PracticePreset.BALANCED.setup.types, setup.types)
         assertEquals(setOf(PracticeResponse.CHOOSE), setup.responses)
         assertEquals(2, route.termIds.size)
         assertTrue(route.termIds.all { id -> runBlocking { terms.getById(id) }?.text in setOf("comprar", "pensar", "produtos") })

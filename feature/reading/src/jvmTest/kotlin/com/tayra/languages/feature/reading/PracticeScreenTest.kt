@@ -212,7 +212,7 @@ class PracticeScreenTest {
         }
         waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("practice-question").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("4 words from your vocabulary.").assertExists()
-        onNodeWithText("Questions: choose the missing word, listen and choose").assertExists()
+        onNodeWithText("Questions: missing word, hear the word").assertExists()
         val exercises = viewModel.state.value.exercises
         assertTrue(exercises.isNotEmpty() && exercises.all { it.isChoice }, exercises.map { it.kind }.toString())
         assertEquals(setOf("moro", "semana", "comprar", "rotina"), exercises.map { it.word }.toSet())

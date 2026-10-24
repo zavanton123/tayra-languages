@@ -191,7 +191,6 @@ import com.tayra.languages.feature.terms.examples.ExamplesSearchScreen
 import com.tayra.languages.feature.terms.list.BulkEditDialog
 import kotlinx.coroutines.launch
 import androidx.compose.ui.platform.testTag
-import com.tayra.languages.feature.terms.list.PracticeKindsDialog
 import org.koin.compose.viewmodel.koinViewModel
 import kotlin.random.Random
 import org.koin.core.parameter.parametersOf
@@ -201,6 +200,8 @@ import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.feature.terms.anki.ankiLabel
 import com.tayra.languages.core.ui.files.saveBinaryFile
 import com.tayra.languages.core.domain.practice.PracticeSetup
+import com.tayra.languages.feature.terms.list.PracticeSetupDialog
+import com.tayra.languages.core.domain.practice.PracticeSource
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -436,7 +437,7 @@ fun ReadingScreen(
                         ReadingBody(
                             state, viewModel, speaker, continuous,
                             onHome = leave,
-                            onPractice = { practise(Route.Practice(bookId, state.pageNumber)) },
+                            onPractice = { setup -> practise(Route.Practice(bookId, state.pageNumber, setup = setup.encode())) },
                             onPracticeAll = { setup -> practise(Route.Practice(bookId, page = null, setup = setup.encode())) },
                             onSettings = { onNavigate(Route.OfflineTranslation) },
                             onMenu = openPane,
@@ -642,7 +643,7 @@ private fun ReadingBody(
     speaker: Speaker,
     continuous: ContinuousReading,
     onHome: () -> Unit,
-    onPractice: () -> Unit,
+    onPractice: (PracticeSetup) -> Unit,
     /** Practising every word being learned in the book, with the kinds of question chosen. */
     onPracticeAll: (PracticeSetup) -> Unit,
     onSettings: () -> Unit,
@@ -1189,7 +1190,7 @@ private fun PageVocabulary(state: ReadingUiState) {
 }
 
 @Composable
-private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, onHome: () -> Unit, onPractice: () -> Unit, onPracticeAll: (PracticeSetup) -> Unit, edgePadding: Dp) {
+private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, onHome: () -> Unit, onPractice: (PracticeSetup) -> Unit, onPracticeAll: (PracticeSetup) -> Unit, edgePadding: Dp) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     val uriHandler = LocalUriHandler.current
@@ -1198,8 +1199,11 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
     // At the end of the text: how many words being learned it holds, page by page, to practise them all.
     var bookWords by remember { mutableStateOf(0) }
     LaunchedEffect(last, state.items) { bookWords = if (last) viewModel.bookPracticeCount() else 0 }
-    var choosingKinds by remember { mutableStateOf(false) }
-    if (choosingKinds) PracticeKindsDialog(count = bookWords, onStart = { setup -> choosingKinds = false; onPracticeAll(setup) }, onDismiss = { choosingKinds = false })
+    // The practice of the page or of the whole text starts from its setup.
+    var settingUp by remember { mutableStateOf<PracticeSource?>(null) }
+    settingUp?.let { source ->
+        PracticeSetupDialog(source, onStart = { setup -> settingUp = null; if (source is PracticeSource.Page) onPractice(setup) else onPracticeAll(setup) }, onDismiss = { settingUp = null })
+    }
     Column(Modifier.fillMaxWidth().padding(top = AppSpacing.xxxl), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxxl)) {
         val source = state.book?.sourceUri
         if (!source.isNullOrBlank()) {
@@ -1224,7 +1228,7 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
         val practisable = remember(state.page, state.items) { state.items.any { it.isWord && it.status.isLearning } }
         // A text of one page has the same words either way, so it offers only the whole.
         val practice: @Composable () -> Unit = {
-            if (practisable && state.pageCount > 1) FooterCircle(tr("Practise this page"), AppIcons.Style, FooterCircleStyle.Outlined, onClick = onPractice)
+            if (practisable && state.pageCount > 1) FooterCircle(tr("Practise this page"), AppIcons.Style, FooterCircleStyle.Outlined) { state.book?.let { settingUp = PracticeSource.Page(it.id, state.pageNumber) } }
         }
         val practiceAll: @Composable () -> Unit = {
             if (last && bookWords > 0) {
@@ -1242,7 +1246,7 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
                     },
                     FooterCircleStyle.Outlined,
                     Modifier.testTag("practice-all"),
-                ) { choosingKinds = true }
+                ) { state.book?.let { settingUp = PracticeSource.Book(it.id) } }
             }
         }
         // The same words as the whole text's practice, into Anki: straight into a running one, or as a file.

@@ -16,11 +16,14 @@ import com.tayra.languages.feature.terms.list.TermsListViewModel
 import com.tayra.languages.feature.terms.list.TermsScreen
 import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
+import com.tayra.languages.feature.terms.list.PracticeSetupViewModel
+import com.tayra.languages.core.domain.practice.PracticeSource
 
 val termsModule = module {
     single { ExampleTerms(get(), get()) }
     viewModel { (key: TermFormKey) -> TermFormViewModel(key, get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), getOrNull(), getOrNull()) }
     viewModel { (termIds: List<Long>?) -> TermsListViewModel(termIds, get(), get(), get(), get(), get(), getOrNull()) }
+    viewModel { (source: PracticeSource) -> PracticeSetupViewModel(source, get(), get()) }
     viewModel { (languageId: Long, text: String) -> ExamplesSearchViewModel(languageId, text, get(), get(), get(), get(), get(), get<LocalTranslation>().translator, getOrNull()) }
 }
 

@@ -93,11 +93,11 @@ import com.tayra.languages.core.ui.components.AppDialogSurface
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.domain.practice.PracticeSource
-import com.tayra.languages.core.ui.components.PracticeQuestion
 import com.tayra.languages.core.domain.practice.PracticeSetup
 import com.tayra.languages.core.domain.practice.PracticeResponse
 import com.tayra.languages.core.domain.practice.PracticeContext
 import com.tayra.languages.core.domain.practice.ExerciseType
+import com.tayra.languages.core.ui.components.label
 
 /** Practising the words being learned on a page, right after reading it, or words chosen in the vocabulary. */
 @Composable
@@ -238,10 +238,10 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
                     // Fewer than all the kinds: which ones.
-                    val asked = state.setup.rotation.mapNotNull { (type, response) -> PracticeQuestion.of(type, response) }
-                    if (asked.size < PracticeQuestion.all.size) {
+                    val asked = ExerciseType.entries.filter { type -> state.setup.rotation.any { it.first == type } }
+                    if (asked.size < ExerciseType.entries.size) {
                         Text(
-                            tr("Questions: {0}", asked.joinToString(", ") { it.label.lowercase() }),
+                            tr("Questions: {0}", asked.joinToString(", ") { it.label().lowercase() }),
                             style = MaterialTheme.typography.bodyMedium,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                         )

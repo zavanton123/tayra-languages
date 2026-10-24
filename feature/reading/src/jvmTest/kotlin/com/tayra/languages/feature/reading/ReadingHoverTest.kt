@@ -133,6 +133,9 @@ class ReadingHoverTest {
     /** What the term pane needs when a click opens it on the real screen. */
     private lateinit var termPane: org.koin.core.module.Module
 
+    /** The practice setup dialog's view model, on this reader's book. */
+    private lateinit var practicePane: org.koin.core.module.Module
+
     @After
     fun tearDown() {
         Dispatchers.resetMain()
@@ -204,6 +207,15 @@ class ReadingHoverTest {
             viewModel { (id: Long, text: String) -> ExamplesSearchViewModel(id, text, languageRepository, settings, examplesProvider) }
         }
         sentenceAudio = SentenceAudio(speech, settings, MemorySpeechAudioCache())
+        practicePane = module {
+            viewModel { (source: com.tayra.languages.core.domain.practice.PracticeSource) ->
+                com.tayra.languages.feature.terms.list.PracticeSetupViewModel(
+                    source,
+                    com.tayra.languages.core.domain.practice.PracticeMaterialLoader(books, languages, readingService, terms),
+                    object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = translation },
+                )
+            }
+        }
         val vm = ReadingViewModel(
             bookId, null, readingService, books, termService,
             TermPopupBuilder(terms, languages, readingService), BookStatsService(books, languages, settings, readingService), settings,
@@ -694,7 +706,7 @@ class ReadingHoverTest {
     fun theFooterOffersPracticeOnceAWordIsBeingLearned() {
         // Several pages: a one-page text offers only the whole text's practice.
         val vm = runBlocking { reader(mainIsDefault = false, pages = 3) }
-        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, practicePane) }
         val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
@@ -703,15 +715,19 @@ class ReadingHoverTest {
         vm.markToLearn(vm.index("lobo"))
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Practise this page").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithContentDescription("Practise this page").performScrollTo().performClick()
+        // The page's practice starts from its setup.
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Practise 1 word").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("start-practice").performClick()
         rule.waitUntil(5_000) { visited.isNotEmpty() }
-        assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.Practice(1, 1)), visited)
+        val setup = com.tayra.languages.core.domain.practice.PracticePreset.DEFAULT.setup.encode()
+        assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.Practice(1, 1, setup = setup)), visited)
     }
 
     /** On the last page the footer offers every word being learned in the text, after asking for the kinds of question. */
     @Test
     fun theLastPageOffersTheWholeTextsWordsWithTheKindsChosen() {
         val vm = runBlocking { reader(mainIsDefault = false, pages = 3) }
-        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, practicePane) }
         val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
@@ -731,8 +747,7 @@ class ReadingHoverTest {
         rule.onNodeWithContentDescription("Practise the book's words").performScrollTo().performClick()
         // Both pages' words: lobo, and floresta from this one.
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Practise 2 words").fetchSemanticsNodes().isNotEmpty() }
-        // The kinds scroll in this short window.
-        for (kind in listOf("GAP_TYPED", "DICTATION", "TRANSLATION_TYPED", "HEAR_SENTENCE_TYPED")) rule.onNodeWithTag("practice-kind-$kind").performScrollTo().performClick()
+        rule.onNodeWithTag("practice-response-TYPE").performScrollTo().performClick()
         rule.onNodeWithTag("start-practice").performClick()
         rule.waitUntil(5_000) { visited.isNotEmpty() }
         val route = visited.single() as com.tayra.languages.core.ui.navigation.Route.Practice
@@ -753,7 +768,7 @@ class ReadingHoverTest {
             }
         }
         val vm = runBlocking { reader(mainIsDefault = false, pages = 3, anki = running) }
-        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, practicePane) }
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
         vm.markToLearn(vm.index("lobo"))

@@ -4,56 +4,73 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.ui.graphics.vector.ImageVector
 import com.tayra.languages.core.domain.practice.ExerciseType
+import com.tayra.languages.core.domain.practice.PracticeContext
+import com.tayra.languages.core.domain.practice.PracticeNeed
+import com.tayra.languages.core.domain.practice.PracticePreset
 import com.tayra.languages.core.domain.practice.PracticeResponse
+import com.tayra.languages.core.domain.practice.PracticeSkill
 import com.tayra.languages.core.ui.i18n.tr
 
-/** A kind of question as offered to tick: a type of question answered one way, named as earlier versions named it. */
-class PracticeQuestion(val name: String, val type: ExerciseType, val response: PracticeResponse) {
-    val label: String
-        get() = when (type) {
-            ExerciseType.GAP -> if (response == PracticeResponse.CHOOSE) tr("Choose the missing word") else tr("Type the missing word")
-            ExerciseType.MEANING -> tr("Choose the meaning")
-            ExerciseType.HEAR_WORD -> tr("Listen and choose")
-            ExerciseType.HEAR_SENTENCE -> if (response == PracticeResponse.CHOOSE) tr("Hear a sentence: choose") else tr("Hear a sentence: type")
-            ExerciseType.DICTATION -> tr("Listen and type")
-            ExerciseType.TRANSLATION -> if (response == PracticeResponse.CHOOSE) tr("From the translation: choose") else tr("From the translation: type")
-        }
+/** The type's name, as offered to tick. */
+fun ExerciseType.label(): String = when (this) {
+    ExerciseType.GAP -> tr("Missing word")
+    ExerciseType.MEANING -> tr("Meaning")
+    ExerciseType.HEAR_WORD -> tr("Hear the word")
+    ExerciseType.HEAR_SENTENCE -> tr("Hear the sentence")
+    ExerciseType.DICTATION -> tr("Dictation")
+    ExerciseType.TRANSLATION -> tr("From the translation")
+}
 
-    /** What it asks, in a few words. */
-    val description: String
-        get() = when (type) {
-            ExerciseType.GAP -> if (response == PracticeResponse.CHOOSE) tr("Pick from four options") else tr("Complete the sentence")
-            ExerciseType.MEANING -> tr("Pick what the marked word means")
-            ExerciseType.HEAR_WORD -> tr("Hear a word and choose its meaning")
-            ExerciseType.HEAR_SENTENCE -> if (response == PracticeResponse.CHOOSE) tr("Hear a sentence and pick the word that means what is shown") else tr("Hear a sentence and type the word that means what is shown")
-            ExerciseType.DICTATION -> tr("Hear the prompt and type the answer")
-            ExerciseType.TRANSLATION -> if (response == PracticeResponse.CHOOSE) tr("Read what the sentence means, then choose the missing word") else tr("Read what the sentence means, then type the missing word")
-        }
+/** What the type asks, in a few words. */
+fun ExerciseType.description(): String = when (this) {
+    ExerciseType.GAP -> tr("Choose or type the word missing from the sentence")
+    ExerciseType.MEANING -> tr("Pick what the marked word means")
+    ExerciseType.HEAR_WORD -> tr("Hear a word and choose its meaning")
+    ExerciseType.HEAR_SENTENCE -> tr("Hear a sentence and find the word that means what is shown")
+    ExerciseType.DICTATION -> tr("Hear the sentence and type the missing word, or all of a short one")
+    ExerciseType.TRANSLATION -> tr("Read what the sentence means and find the missing word")
+}
 
-    val icon: ImageVector
-        get() = when (type) {
-            ExerciseType.GAP -> if (response == PracticeResponse.CHOOSE) AppIcons.ViewList else Icons.Default.Edit
-            ExerciseType.MEANING -> AppIcons.Lightbulb
-            ExerciseType.HEAR_WORD -> AppIcons.VolumeUp
-            ExerciseType.HEAR_SENTENCE -> AppIcons.Headphones
-            ExerciseType.DICTATION -> AppIcons.RecordVoiceOver
-            ExerciseType.TRANSLATION -> AppIcons.Translate
-        }
+fun ExerciseType.icon(): ImageVector = when (this) {
+    ExerciseType.GAP -> AppIcons.ViewList
+    ExerciseType.MEANING -> AppIcons.Lightbulb
+    ExerciseType.HEAR_WORD -> AppIcons.VolumeUp
+    ExerciseType.HEAR_SENTENCE -> AppIcons.Headphones
+    ExerciseType.DICTATION -> AppIcons.RecordVoiceOver
+    ExerciseType.TRANSLATION -> AppIcons.Translate
+}
 
-    companion object {
-        /** The kinds offered, in the order they come round in a practice. */
-        val all = listOf(
-            PracticeQuestion("GAP_CHOICE", ExerciseType.GAP, PracticeResponse.CHOOSE),
-            PracticeQuestion("MEANING", ExerciseType.MEANING, PracticeResponse.CHOOSE),
-            PracticeQuestion("HEAR_CHOOSE", ExerciseType.HEAR_WORD, PracticeResponse.CHOOSE),
-            PracticeQuestion("HEAR_SENTENCE_CHOICE", ExerciseType.HEAR_SENTENCE, PracticeResponse.CHOOSE),
-            PracticeQuestion("TRANSLATION_CHOICE", ExerciseType.TRANSLATION, PracticeResponse.CHOOSE),
-            PracticeQuestion("GAP_TYPED", ExerciseType.GAP, PracticeResponse.TYPE),
-            PracticeQuestion("HEAR_SENTENCE_TYPED", ExerciseType.HEAR_SENTENCE, PracticeResponse.TYPE),
-            PracticeQuestion("DICTATION", ExerciseType.DICTATION, PracticeResponse.TYPE),
-            PracticeQuestion("TRANSLATION_TYPED", ExerciseType.TRANSLATION, PracticeResponse.TYPE),
-        )
+fun PracticeSkill.label(): String = when (this) {
+    PracticeSkill.READING -> tr("Reading")
+    PracticeSkill.LISTENING -> tr("Listening")
+    PracticeSkill.TRANSLATION -> tr("Translation")
+}
 
-        fun of(type: ExerciseType, response: PracticeResponse): PracticeQuestion? = all.firstOrNull { it.type == type && it.response == response }
-    }
+fun PracticeResponse.label(): String = when (this) {
+    PracticeResponse.CHOOSE -> tr("Choose")
+    PracticeResponse.TYPE -> tr("Type")
+}
+
+fun PracticeResponse.icon(): ImageVector = when (this) {
+    PracticeResponse.CHOOSE -> AppIcons.ViewList
+    PracticeResponse.TYPE -> Icons.Default.Edit
+}
+
+fun PracticeContext.label(): String = when (this) {
+    PracticeContext.ORIGINAL -> tr("From the text")
+    PracticeContext.EXAMPLE -> tr("Other examples")
+}
+
+/** Why a type cannot be asked of some words. */
+fun PracticeNeed.reason(): String = when (this) {
+    PracticeNeed.WORD_MEANING -> tr("Needs the word's translation")
+    PracticeNeed.OTHER_MEANINGS -> tr("Needs more saved words with meanings")
+    PracticeNeed.SENTENCE_TRANSLATION -> tr("Needs a translation of the sentence")
+}
+
+fun PracticePreset.label(): String = when (this) {
+    PracticePreset.QUICK_REVIEW -> tr("Quick review")
+    PracticePreset.BALANCED -> tr("Balanced")
+    PracticePreset.LISTENING -> tr("Listening")
+    PracticePreset.WRITING -> tr("Writing")
 }
