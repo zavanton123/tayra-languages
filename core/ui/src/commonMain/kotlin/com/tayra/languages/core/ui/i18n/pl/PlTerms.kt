@@ -436,4 +436,6 @@ internal val plTerms: Map<String, String> = mapOf(
     "For all {0} words" to "Dla tego słowa|Dla wszystkich {0} słów|Dla wszystkich {0} słów",
     "For {0} of {1} words" to "Dla {0} z {1} słów",
     "Translating the sentences…" to "Tłumaczenie zdań…",
+    "Save as preset" to "Zapisz jako zestaw",
+    "Remove the preset {0}" to "Usuń zestaw {0}",
 )

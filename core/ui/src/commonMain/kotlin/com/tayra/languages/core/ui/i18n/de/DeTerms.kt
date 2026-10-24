@@ -436,4 +436,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "For all {0} words" to "Für das Wort|Für alle {0} Wörter",
     "For {0} of {1} words" to "Für {0} von {1} Wörtern",
     "Translating the sentences…" to "Sätze werden übersetzt…",
+    "Save as preset" to "Als Vorgabe speichern",
+    "Remove the preset {0}" to "Vorgabe {0} entfernen",
 )

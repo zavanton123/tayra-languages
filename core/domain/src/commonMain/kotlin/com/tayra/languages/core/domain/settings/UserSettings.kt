@@ -86,6 +86,12 @@ data class UserSettings(
     val skippedUpdate: String = "",
     /** When the app last looked for a new release, in milliseconds since the epoch. */
     val lastUpdateCheck: Long = 0,
+    /** The setup last used for practice from the reader, as `PracticeSetup.encode` writes it; empty before the first. */
+    val practiceSetupReading: String = "",
+    /** The setup last used for practice of words chosen in the vocabulary. */
+    val practiceSetupVocabulary: String = "",
+    /** The learner's own practice presets, as `PracticePresets.encode` writes them. */
+    val practicePresets: String = "",
 ) {
     fun hotkeyFor(action: HotkeyAction): Hotkey? = hotkeys[action]
 

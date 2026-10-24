@@ -213,6 +213,7 @@ class ReadingHoverTest {
                     source,
                     com.tayra.languages.core.domain.practice.PracticeMaterialLoader(books, languages, readingService, terms),
                     object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = translation },
+                    settings,
                 )
             }
         }

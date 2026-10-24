@@ -81,6 +81,9 @@ class SettingsRepositoryImpl(
             readingFontScale = store.getFloat(Keys.FONT_SCALE, defaults.readingFontScale),
             readingLineHeight = store.getFloat(Keys.LINE_HEIGHT, defaults.readingLineHeight),
             readingFont = store.getString(Keys.READING_FONT, defaults.readingFont),
+            practiceSetupReading = store.getString(Keys.PRACTICE_SETUP_READING, defaults.practiceSetupReading),
+            practiceSetupVocabulary = store.getString(Keys.PRACTICE_SETUP_VOCABULARY, defaults.practiceSetupVocabulary),
+            practicePresets = store.getString(Keys.PRACTICE_PRESETS, defaults.practicePresets),
             readingColumnWidth = store.getInt(Keys.COLUMN_WIDTH, defaults.readingColumnWidth),
             readingJustified = store.getBoolean(Keys.JUSTIFIED, defaults.readingJustified),
             focusMode = store.getBoolean(Keys.FOCUS_MODE, defaults.focusMode),
@@ -187,6 +190,9 @@ class SettingsRepositoryImpl(
         store.putFloat(Keys.FONT_SCALE, s.readingFontScale)
         store.putFloat(Keys.LINE_HEIGHT, s.readingLineHeight)
         store.putString(Keys.READING_FONT, s.readingFont)
+        store.putString(Keys.PRACTICE_SETUP_READING, s.practiceSetupReading)
+        store.putString(Keys.PRACTICE_SETUP_VOCABULARY, s.practiceSetupVocabulary)
+        store.putString(Keys.PRACTICE_PRESETS, s.practicePresets)
         store.putInt(Keys.COLUMN_WIDTH, s.readingColumnWidth)
         store.putBoolean(Keys.JUSTIFIED, s.readingJustified)
         store.putBoolean(Keys.FOCUS_MODE, s.focusMode)
@@ -248,6 +254,9 @@ class SettingsRepositoryImpl(
         const val FONT_SCALE = "reading_font_scale"
         const val LINE_HEIGHT = "reading_line_height"
         const val READING_FONT = "reading_font"
+        const val PRACTICE_SETUP_READING = "practice_setup_reading"
+        const val PRACTICE_SETUP_VOCABULARY = "practice_setup_vocabulary"
+        const val PRACTICE_PRESETS = "practice_presets"
         const val COLUMN_WIDTH = "reading_column_width"
         const val JUSTIFIED = "reading_justified"
         const val FOCUS_MODE = "reading_focus_mode"

@@ -4,6 +4,7 @@ import com.tayra.languages.core.domain.flashcards.Cloze
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
+import kotlin.test.assertTrue
 
 class PracticePlannerTest {
     private fun word(text: String, translation: String?, sentence: String) = PracticeWord(text, translation, sentence, Cloze.range(sentence, text)!!)
@@ -38,5 +39,16 @@ class PracticePlannerTest {
         assertEquals(0, preview.of(ExerciseType.MEANING).words)
         assertEquals(PracticeNeed.OTHER_MEANINGS, preview.of(ExerciseType.MEANING).need)
         assertEquals(0, preview.questions)
+    }
+
+    /** The learner's own presets go into the settings as text and come back the same; the ready-made ones are told by their setup. */
+    @Test
+    fun presetsAreKeptAndKnown() {
+        val own = listOf(SavedPreset("Evening", PracticeSetup(types = setOf(ExerciseType.DICTATION), length = 20)), SavedPreset("Bus", PracticePreset.QUICK_REVIEW.setup))
+        assertEquals(own, SavedPreset.decode(SavedPreset.encode(own)))
+        assertEquals(emptyList(), SavedPreset.decode(""))
+        assertEquals(PracticePreset.WRITING, PracticePreset.of(PracticePreset.WRITING.setup))
+        assertNull(PracticePreset.of(PracticeSetup(types = setOf(ExerciseType.GAP))))
+        PracticePreset.entries.forEach { assertTrue(it.setup.rotation.isNotEmpty(), "$it asks something") }
     }
 }

@@ -436,4 +436,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "For all {0} words" to "Para la palabra|Para las {0} palabras",
     "For {0} of {1} words" to "Para {0} de {1} palabras",
     "Translating the sentences…" to "Traduciendo las oraciones…",
+    "Save as preset" to "Guardar como ajuste",
+    "Remove the preset {0}" to "Quitar el ajuste {0}",
 )

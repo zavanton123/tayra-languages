@@ -24,6 +24,11 @@ import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.TayraTheme
 import java.io.File
 import javax.imageio.ImageIO
+import com.tayra.languages.core.domain.practice.SavedPreset
+import androidx.compose.ui.test.hasSetTextAction
+import androidx.compose.ui.test.performTextInput
+import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.onNodeWithContentDescription
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
@@ -46,9 +51,17 @@ class PracticeSetupDialogTest {
     )
 
     private var started: PracticeSetup? = null
+    private val saved = mutableListOf<SavedPreset>()
+    private val removed = mutableListOf<String>()
 
-    private fun ComposeUiTest.show(initial: PracticeSetup = PracticePreset.DEFAULT.setup) {
-        setContent { TayraTheme { ProvideWindowWidth { PracticeSetupContent(state, initial, onStart = { started = it }, onDismiss = {}) } } }
+    private fun ComposeUiTest.show(initial: PracticeSetup = PracticePreset.DEFAULT.setup, own: List<SavedPreset> = emptyList()) {
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    PracticeSetupContent(state, initial, onStart = { started = it }, onDismiss = {}, ownPresets = own, onSavePreset = { name, setup -> saved += SavedPreset(name, setup) }, onRemovePreset = { removed += it })
+                }
+            }
+        }
         waitForIdle()
     }
 
@@ -117,5 +130,21 @@ class PracticeSetupDialogTest {
         assertTrue(start.width > start.height * 2, "Start practice is ${start.width} wide and ${start.height} high")
         onNodeWithTag("start-practice").performClick()
         assertEquals(null, started?.length)
+    }
+
+    /** The setup can be saved as a preset under a name; an own preset is picked whole, length and all, and can be removed. */
+    @Test
+    fun ownPresetsAreSavedPickedAndRemoved() = runDesktopComposeUiTest(width = 1300, height = 1000) {
+        val evening = SavedPreset("Evening", PracticeSetup(types = setOf(ExerciseType.DICTATION), length = 20))
+        show(own = listOf(evening))
+        onNodeWithTag("practice-own-preset-Evening").performClick()
+        onNodeWithTag("start-practice").performClick()
+        assertEquals(evening.setup, started)
+        onNodeWithTag("save-practice-preset").performClick()
+        onNode(hasSetTextAction()).performTextInput("Morning")
+        onNodeWithText("Save").performClick()
+        assertEquals(listOf(SavedPreset("Morning", evening.setup)), saved)
+        onNodeWithContentDescription("Remove the preset Evening").performClick()
+        assertEquals(listOf("Evening"), removed)
     }
 }

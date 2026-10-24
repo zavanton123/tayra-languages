@@ -436,4 +436,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "For all {0} words" to "Pour le mot|Pour les {0} mots",
     "For {0} of {1} words" to "Pour {0} mots sur {1}",
     "Translating the sentences…" to "Traduction des phrases…",
+    "Save as preset" to "Enregistrer comme préréglage",
+    "Remove the preset {0}" to "Supprimer le préréglage {0}",
 )

@@ -99,7 +99,7 @@ class TermsScreenTest {
         startKoin {
             modules(module {
                 single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio }
-                viewModel { (source: PracticeSource) -> PracticeSetupViewModel(source, material, noSentences) }
+                viewModel { (source: PracticeSource) -> PracticeSetupViewModel(source, material, noSentences, settings) }
             })
         }
         val noDictionary = object : OfflineDictionary {
@@ -197,6 +197,9 @@ class TermsScreenTest {
         val setup = PracticeSetup.decode(route.setup)
         assertEquals(PracticePreset.BALANCED.setup.types, setup.types)
         assertEquals(setOf(PracticeResponse.CHOOSE), setup.responses)
+        // Kept for the next practice of chosen words, and only for those.
+        waitUntil(timeoutMillis = 5_000) { settings.current.practiceSetupVocabulary == route.setup }
+        assertEquals("", settings.current.practiceSetupReading)
         assertEquals(2, route.termIds.size)
         assertTrue(route.termIds.all { id -> runBlocking { terms.getById(id) }?.text in setOf("comprar", "pensar", "produtos") })
     }

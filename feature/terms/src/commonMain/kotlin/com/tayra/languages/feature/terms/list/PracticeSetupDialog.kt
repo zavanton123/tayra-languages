@@ -80,6 +80,12 @@ import kotlinx.coroutines.withTimeoutOrNull
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 import kotlin.time.Duration.Companion.seconds
+import com.tayra.languages.core.domain.practice.SavedPreset
+import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.ui.components.TextInputDialog
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
 
 /** What the setup dialog knows of the words before the practice: loaded once, when it opens. */
 data class PracticeSetupState(
@@ -92,14 +98,43 @@ data class PracticeSetupState(
     val translating: Boolean = false,
 )
 
-/** Loads the words a practice from [source] would ask about, and translates their sentences, for the setup dialog's counts. */
+/**
+ * Loads the words a practice from [source] would ask about, and translates their sentences, for
+ * the setup dialog's counts; keeps the setup last used (one for the reader, one for the
+ * vocabulary) and the learner's own presets in the settings.
+ */
 class PracticeSetupViewModel(
-    source: PracticeSource,
+    private val source: PracticeSource,
     private val material: PracticeMaterialLoader,
     private val translator: SentenceTranslator,
+    private val settings: SettingsRepository,
 ) : ViewModel() {
     private val _state = MutableStateFlow(PracticeSetupState())
     val state: StateFlow<PracticeSetupState> = _state.asStateFlow()
+
+    private val fromVocabulary = source is PracticeSource.Words
+
+    /** The setup last used from here, or the default one the first time. */
+    val initialSetup: PracticeSetup = settings.current.let { if (fromVocabulary) it.practiceSetupVocabulary else it.practiceSetupReading }
+        .takeIf { it.isNotBlank() }?.let(PracticeSetup::decode) ?: PracticePreset.DEFAULT.setup
+
+    val presets: StateFlow<List<SavedPreset>> = settings.settings.map { SavedPreset.decode(it.practicePresets) }
+        .stateIn(viewModelScope, SharingStarted.Eagerly, SavedPreset.decode(settings.current.practicePresets))
+
+    /** Keeps [setup] as the one to open with next time from here. */
+    fun remember(setup: PracticeSetup) = viewModelScope.launch {
+        settings.update { if (fromVocabulary) it.copy(practiceSetupVocabulary = setup.encode()) else it.copy(practiceSetupReading = setup.encode()) }
+    }
+
+    /** Saves [setup] as a preset named [name], in place of one of that name. */
+    fun savePreset(name: String, setup: PracticeSetup) = viewModelScope.launch {
+        val preset = SavedPreset(name.trim(), setup)
+        settings.update { s -> s.copy(practicePresets = SavedPreset.encode(SavedPreset.decode(s.practicePresets).filter { it.name != preset.name } + preset)) }
+    }
+
+    fun removePreset(name: String) = viewModelScope.launch {
+        settings.update { s -> s.copy(practicePresets = SavedPreset.encode(SavedPreset.decode(s.practicePresets).filter { it.name != name })) }
+    }
 
     init {
         viewModelScope.launch {
@@ -139,28 +174,49 @@ private val OPTIONS_COLUMN_WIDTH = 340.dp
 private val LENGTHS = listOf(5, 10, 20, null)
 
 /**
- * Asks what to practise the words from [source] with, starting from [initial]: a preset or the
- * types of question by skill, how they are answered, which sentences, how many questions. Each
- * type says how many of the words it can ask about, or what they lack; the footer sums up.
+ * Asks what to practise the words from [source] with, starting from the setup last used there: a
+ * preset (ready-made or the learner's own) or the types of question by skill, how they are
+ * answered, which sentences, how many questions. Each type says how many of the words it can ask
+ * about, or what they lack; the footer sums up.
  */
 @Composable
 fun PracticeSetupDialog(
     source: PracticeSource,
     onStart: (PracticeSetup) -> Unit,
     onDismiss: () -> Unit,
-    initial: PracticeSetup = PracticePreset.DEFAULT.setup,
     viewModel: PracticeSetupViewModel = koinViewModel(key = "practice-setup-$source") { parametersOf(source) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
-    PracticeSetupContent(state, initial, onStart, onDismiss)
+    val presets by viewModel.presets.collectAsStateWithLifecycle()
+    PracticeSetupContent(
+        state,
+        viewModel.initialSetup,
+        onStart = { setup -> viewModel.remember(setup); onStart(setup) },
+        onDismiss = onDismiss,
+        ownPresets = presets,
+        onSavePreset = viewModel::savePreset,
+        onRemovePreset = viewModel::removePreset,
+    )
 }
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-internal fun PracticeSetupContent(state: PracticeSetupState, initial: PracticeSetup, onStart: (PracticeSetup) -> Unit, onDismiss: () -> Unit) {
+internal fun PracticeSetupContent(
+    state: PracticeSetupState,
+    initial: PracticeSetup,
+    onStart: (PracticeSetup) -> Unit,
+    onDismiss: () -> Unit,
+    ownPresets: List<SavedPreset> = emptyList(),
+    onSavePreset: (String, PracticeSetup) -> Unit = { _, _ -> },
+    onRemovePreset: (String) -> Unit = {},
+) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     var setup by remember { mutableStateOf(initial) }
+    var naming by remember { mutableStateOf(false) }
+    if (naming) {
+        TextInputDialog(tr("Save as preset"), label = tr("Name"), onConfirm = { name -> naming = false; onSavePreset(name, setup) }, onDismiss = { naming = false })
+    }
     val preview = remember(state, setup) { PracticePlanner.preview(state.words, setup, state.meanings, state.translations) }
     val minutes = ((preview.questions * SECONDS_A_QUESTION + 59) / 60).coerceAtLeast(1)
     // Sentences from elsewhere are fetched when the practice starts, so they may make questions the count does not show.
@@ -175,8 +231,21 @@ internal fun PracticeSetupContent(state: PracticeSetupState, initial: PracticeSe
                 PracticePreset.entries.forEach { preset ->
                     SelectableChip(preset.label(), current == preset, onClick = { setup = preset.setup.copy(length = setup.length) }, modifier = Modifier.testTag("practice-preset-${preset.name}"))
                 }
-                SelectableChip(tr("Custom"), current == null, onClick = {}, enabled = current == null, modifier = Modifier.testTag("practice-preset-custom"))
+                // The learner's own keep their length too: they are the whole setup saved.
+                val own = ownPresets.firstOrNull { it.setup == setup }
+                ownPresets.forEach { preset ->
+                    SelectableChip(
+                        preset.name,
+                        own == preset,
+                        onClick = { setup = preset.setup },
+                        modifier = Modifier.testTag("practice-own-preset-${preset.name}"),
+                        onRemove = { onRemovePreset(preset.name) },
+                        removeDescription = tr("Remove the preset {0}", preset.name),
+                    )
+                }
+                SelectableChip(tr("Custom"), current == null && own == null, onClick = {}, enabled = current == null && own == null, modifier = Modifier.testTag("practice-preset-custom"))
             }
+            QuietButton(tr("Save as preset"), onClick = { naming = true }, modifier = Modifier.testTag("save-practice-preset"), icon = AppIcons.BookmarkAdd)
         }
     }
     val answers: @Composable ColumnScope.() -> Unit = {

@@ -436,4 +436,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "For all {0} words" to "Для этого слова|Для всех {0} слов|Для всех {0} слов",
     "For {0} of {1} words" to "Для {0} из {1} слов",
     "Translating the sentences…" to "Перевод предложений…",
+    "Save as preset" to "Сохранить как набор",
+    "Remove the preset {0}" to "Удалить набор {0}",
 )

@@ -436,4 +436,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     "For all {0} words" to "Para a palavra|Para todas as {0} palavras",
     "For {0} of {1} words" to "Para {0} de {1} palavras",
     "Translating the sentences…" to "A traduzir as frases…",
+    "Save as preset" to "Guardar como predefinição",
+    "Remove the preset {0}" to "Remover a predefinição {0}",
 )

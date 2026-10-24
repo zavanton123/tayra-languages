@@ -76,3 +76,20 @@ enum class PracticePreset(val setup: PracticeSetup) {
         fun of(setup: PracticeSetup): PracticePreset? = entries.firstOrNull { it.setup == setup }
     }
 }
+
+/** A setup the learner saved under a [name], offered beside the ready-made presets. */
+data class SavedPreset(val name: String, val setup: PracticeSetup) {
+    companion object {
+        private const val FIELD = '\u001F'
+        private const val ENTRY = '\u001E'
+
+        /** The presets as text for the settings, names kept as typed. */
+        fun encode(presets: List<SavedPreset>): String = presets.joinToString(ENTRY.toString()) { it.name.replace(FIELD, ' ').replace(ENTRY, ' ') + FIELD + it.setup.encode() }
+
+        /** The presets [encode] wrote; entries it cannot read are left out. */
+        fun decode(text: String): List<SavedPreset> = text.split(ENTRY).mapNotNull { entry ->
+            val parts = entry.split(FIELD, limit = 2)
+            if (parts.size == 2 && parts[0].isNotBlank()) SavedPreset(parts[0], PracticeSetup.decode(parts[1])) else null
+        }
+    }
+}
