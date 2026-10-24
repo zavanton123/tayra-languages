@@ -447,4 +447,7 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Needs other forms of the word" to "Precisa de outras formas da palavra",
     "Matching pairs" to "Pares",
     "Match up to five words with their meanings" to "Ligue até cinco palavras aos seus significados",
+    "Build the sentence" to "Montar a frase",
+    "Put the sentence's words in order from its translation" to "Ponha as palavras da frase por ordem a partir da tradução",
+    "Needs a sentence of 3 to 8 words" to "Precisa de uma frase de 3 a 8 palavras",
 )

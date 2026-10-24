@@ -293,6 +293,7 @@ private val Exercise.instruction: String
         ExerciseType.HEAR_SENTENCE -> tr("Listen to the sentence")
         ExerciseType.HEAR_WORD -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
         ExerciseType.DICTATION -> if (wholeSentence) tr("Listen and type the sentence") else tr("Listen and type the missing word")
+        ExerciseType.BUILD -> tr("Put the words in order")
         ExerciseType.FORM -> when (response) {
             PracticeResponse.CHOOSE -> tr("Choose the form of “{0}” that fits", lemma.orEmpty())
             PracticeResponse.TILES -> tr("Build the form of “{0}” that fits", lemma.orEmpty())
@@ -346,7 +347,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
             }
         }
         // A translation question starts from the translation: it comes first, the sentence with its gap under it.
-        val fromTranslation = exercise.type == ExerciseType.TRANSLATION
+        val fromTranslation = exercise.type == ExerciseType.TRANSLATION || exercise.type == ExerciseType.BUILD
         if (fromTranslation) state.sentenceTranslation?.let { translationBox(it) }
 
         // What is heard is not shown until answered: the word of a listening choice, or a sentence typed whole.
@@ -495,7 +496,9 @@ private fun Matching(state: PracticeUiState, exercise: Exercise, actions: Practi
 private fun TilesAnswer(state: PracticeUiState, exercise: Exercise, actions: PracticeActions) {
     val colors = MaterialTheme.colorScheme
     var used by remember(state.index) { mutableStateOf(emptyList<Int>()) }
-    val build: (List<Int>) -> Unit = { picked -> used = picked; actions.onTyped(picked.joinToString("") { exercise.tiles[it] }) }
+    // Letters make a word; words make a sentence, with spaces between them.
+    val separator = if (exercise.wholeSentence) " " else ""
+    val build: (List<Int>) -> Unit = { picked -> used = picked; actions.onTyped(picked.joinToString(separator) { exercise.tiles[it] }) }
     Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
         Box(
             Modifier.fillMaxWidth().heightIn(min = AppSizes.row).clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(horizontal = AppSpacing.l)
@@ -503,7 +506,7 @@ private fun TilesAnswer(state: PracticeUiState, exercise: Exercise, actions: Pra
             contentAlignment = Alignment.Center,
         ) {
             Text(
-                state.typed.ifEmpty { tr("Tap the letters in order") },
+                state.typed.ifEmpty { if (exercise.wholeSentence) tr("Tap the words in order") else tr("Tap the letters in order") },
                 style = if (state.typed.isEmpty()) MaterialTheme.typography.bodyLarge else MaterialTheme.typography.headlineSmall,
                 color = if (state.typed.isEmpty()) colors.onSurfaceVariant else colors.onSurface,
             )
@@ -512,15 +515,15 @@ private fun TilesAnswer(state: PracticeUiState, exercise: Exercise, actions: Pra
             exercise.tiles.forEachIndexed { index, letter ->
                 val free = index !in used && !state.answered
                 Box(
-                    Modifier.size(AppSizes.touch).clip(AppShapes.control)
+                    Modifier.heightIn(min = AppSizes.touch).widthIn(min = AppSizes.touch).clip(AppShapes.control)
                         .background(if (free) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
                         .border(AppBorders.hairline(if (free) colors.primary else colors.outlineVariant), AppShapes.control)
                         .clickable(enabled = free) { build(used + index) }
                         .testTag("practice-tile-$index"),
                     contentAlignment = Alignment.Center,
-                ) { Text(letter, style = MaterialTheme.typography.titleLarge, color = if (free) colors.onSurface else colors.outline) }
+                ) { Text(letter, Modifier.padding(horizontal = AppSpacing.m), style = MaterialTheme.typography.titleLarge, color = if (free) colors.onSurface else colors.outline) }
             }
-            AppIconButton(AppIcons.ArrowLeft, tr("Remove the last letter"), onClick = { build(used.dropLast(1)) }, enabled = used.isNotEmpty() && !state.answered, modifier = Modifier.testTag("practice-tile-back"))
+            AppIconButton(AppIcons.ArrowLeft, if (exercise.wholeSentence) tr("Remove the last word") else tr("Remove the last letter"), onClick = { build(used.dropLast(1)) }, enabled = used.isNotEmpty() && !state.answered, modifier = Modifier.testTag("practice-tile-back"))
         }
     }
 }

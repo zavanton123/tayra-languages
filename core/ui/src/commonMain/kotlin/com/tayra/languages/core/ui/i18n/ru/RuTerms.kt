@@ -447,4 +447,7 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Needs other forms of the word" to "Нужны другие формы слова",
     "Matching pairs" to "Пары",
     "Match up to five words with their meanings" to "Сопоставьте до пяти слов с их значениями",
+    "Build the sentence" to "Собрать предложение",
+    "Put the sentence's words in order from its translation" to "Расставьте слова предложения по порядку по его переводу",
+    "Needs a sentence of 3 to 8 words" to "Нужно предложение из 3–8 слов",
 )

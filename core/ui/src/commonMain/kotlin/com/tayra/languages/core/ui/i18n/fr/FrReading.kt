@@ -256,4 +256,7 @@ internal val frReading: Map<String, String> = mapOf(
     "The pairs are shown above." to "Les paires sont indiquées ci-dessus.",
     "Every pair matched, with {0} wrong tries" to "Toutes les paires associées, avec {0} essai faux|Toutes les paires associées, avec {0} essais faux",
     "Every pair matched." to "Toutes les paires sont associées.",
+    "Put the words in order" to "Remettez les mots dans l’ordre",
+    "Tap the words in order" to "Touchez les mots dans l’ordre",
+    "Remove the last word" to "Retirer le dernier mot",
 )

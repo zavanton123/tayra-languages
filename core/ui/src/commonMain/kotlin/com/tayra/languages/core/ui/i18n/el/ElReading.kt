@@ -256,4 +256,7 @@ internal val elReading: Map<String, String> = mapOf(
     "The pairs are shown above." to "Τα ζεύγη φαίνονται παραπάνω.",
     "Every pair matched, with {0} wrong tries" to "Όλα τα ζεύγη ταίριαξαν, με {0} λάθος προσπάθεια|Όλα τα ζεύγη ταίριαξαν, με {0} λάθος προσπάθειες",
     "Every pair matched." to "Όλα τα ζεύγη ταίριαξαν.",
+    "Put the words in order" to "Βάλτε τις λέξεις στη σειρά",
+    "Tap the words in order" to "Πατήστε τις λέξεις με τη σειρά",
+    "Remove the last word" to "Αφαίρεση της τελευταίας λέξης",
 )

@@ -352,6 +352,21 @@ class PracticeScreenTest {
         onNodeWithText("Every pair matched, with 1 wrong try").assertExists()
     }
 
+    /** A sentence is built from its words, read from its translation, and checked as a whole. */
+    @Test
+    fun aSentenceIsBuiltFromItsWords() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.BUILD), responses = setOf(PracticeResponse.TILES)))
+        val exercise = viewModel.state.value.exercises.single()
+        assertEquals("Eu moro no Brasil.", exercise.answer)
+        onNodeWithText("PUT THE WORDS IN ORDER").assertExists()
+        assertEquals(0, onAllNodesWithTag("practice-sentence").fetchSemanticsNodes().size, "the sentence is what is built")
+        for (part in exercise.answer.split(" ")) onNodeWithTag("practice-tile-${exercise.tiles.indexOf(part)}").performClick()
+        assertEquals(exercise.answer, viewModel.state.value.typed)
+        shot("build")
+        onNodeWithText("Check").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+    }
+
     @Test
     fun everyQuestionCanBeAnsweredAndNothingChangesTheWords() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val viewModel = show()

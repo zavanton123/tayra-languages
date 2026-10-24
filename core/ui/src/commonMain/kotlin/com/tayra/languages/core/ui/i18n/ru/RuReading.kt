@@ -256,4 +256,7 @@ internal val ruReading: Map<String, String> = mapOf(
     "The pairs are shown above." to "Пары показаны выше.",
     "Every pair matched, with {0} wrong tries" to "Все пары сопоставлены, {0} неверная попытка|Все пары сопоставлены, {0} неверные попытки|Все пары сопоставлены, {0} неверных попыток",
     "Every pair matched." to "Все пары сопоставлены.",
+    "Put the words in order" to "Расставьте слова по порядку",
+    "Tap the words in order" to "Нажимайте слова по порядку",
+    "Remove the last word" to "Убрать последнее слово",
 )

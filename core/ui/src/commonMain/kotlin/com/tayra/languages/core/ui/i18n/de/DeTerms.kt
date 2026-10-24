@@ -447,4 +447,7 @@ internal val deTerms: Map<String, String> = mapOf(
     "Needs other forms of the word" to "Braucht andere Formen des Wortes",
     "Matching pairs" to "Paare zuordnen",
     "Match up to five words with their meanings" to "Bis zu fünf Wörtern ihre Bedeutung zuordnen",
+    "Build the sentence" to "Satz bauen",
+    "Put the sentence's words in order from its translation" to "Bring die Wörter des Satzes anhand seiner Übersetzung in die richtige Reihenfolge",
+    "Needs a sentence of 3 to 8 words" to "Braucht einen Satz mit 3 bis 8 Wörtern",
 )

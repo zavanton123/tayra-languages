@@ -256,4 +256,7 @@ internal val ptReading: Map<String, String> = mapOf(
     "The pairs are shown above." to "Os pares estão indicados acima.",
     "Every pair matched, with {0} wrong tries" to "Todos os pares ligados, com {0} tentativa errada|Todos os pares ligados, com {0} tentativas erradas",
     "Every pair matched." to "Todos os pares ligados.",
+    "Put the words in order" to "Ponha as palavras por ordem",
+    "Tap the words in order" to "Toque nas palavras pela ordem",
+    "Remove the last word" to "Remover a última palavra",
 )

@@ -447,4 +447,7 @@ internal val esTerms: Map<String, String> = mapOf(
     "Needs other forms of the word" to "Necesita otras formas de la palabra",
     "Matching pairs" to "Parejas",
     "Match up to five words with their meanings" to "Une hasta cinco palabras con su significado",
+    "Build the sentence" to "Formar la oración",
+    "Put the sentence's words in order from its translation" to "Ordena las palabras de la oración a partir de su traducción",
+    "Needs a sentence of 3 to 8 words" to "Necesita una oración de 3 a 8 palabras",
 )

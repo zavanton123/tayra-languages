@@ -63,6 +63,9 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
     /** The sentence's translation over the sentence with the word blanked out: choose or type the word. Needs the translation. */
     TRANSLATION(PracticeSkill.TRANSLATION, setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES, PracticeResponse.TYPE)),
 
+    /** The sentence's translation, and the sentence's words shuffled: put them in order. Needs the translation and a sentence of 3 to 8 words. */
+    BUILD(PracticeSkill.TRANSLATION, setOf(PracticeResponse.TILES)),
+
     /**
      * The sentence with the word blanked out and its translation as the clue: choose, build or type
      * the form of the word that fits. Needs three other forms of the word and the translation.
@@ -202,7 +205,11 @@ object PracticeBuilder {
     private const val SHORT_SENTENCE_WORDS = 6
 
     /** The types a sentence from elsewhere can be asked in: those about the sentence, not the word alone or its meaning. */
-    private val EXAMPLE_TYPES = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.TRANSLATION, ExerciseType.DICTATION)
+    private val EXAMPLE_TYPES = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.TRANSLATION, ExerciseType.BUILD, ExerciseType.DICTATION)
+
+    /** Sentences built from their words have this many words at least, and [MAX_BUILT] at most. */
+    private const val MIN_BUILT = 3
+    private const val MAX_BUILT = 8
 
     /** How many questions [words] words get with [kinds] kinds of question, before any sentence from elsewhere: about two a word, at most [length]. */
     fun questionCount(words: Int, kinds: Int, length: Int? = MAX_QUESTIONS): Int =
@@ -355,6 +362,15 @@ object PracticeBuilder {
             ExerciseType.TRANSLATION -> {
                 val translation = translations[word.sentence]?.trim()?.takeIf { it.isNotEmpty() } ?: return null
                 answered(base.copy(sentenceTranslation = translation), response, word, targets, pool, random)
+            }
+            ExerciseType.BUILD -> {
+                val translation = translations[word.sentence]?.trim()?.takeIf { it.isNotEmpty() } ?: return null
+                val parts = word.sentence.trim().split(Regex("""\s+"""))
+                if (parts.size !in MIN_BUILT..MAX_BUILT) return null
+                // Shuffled so they never stand in their own order already.
+                var tiles = parts.shuffled(random)
+                while (tiles == parts) tiles = parts.shuffled(random)
+                base.copy(sentenceTranslation = translation, tiles = tiles, answer = word.sentence.trim(), wholeSentence = true)
             }
             ExerciseType.FORM -> {
                 val family = pool.families[word.key] ?: return null

@@ -447,4 +447,7 @@ internal val elTerms: Map<String, String> = mapOf(
     "Needs other forms of the word" to "Χρειάζεται άλλους τύπους της λέξης",
     "Matching pairs" to "Αντιστοίχιση ζευγών",
     "Match up to five words with their meanings" to "Αντιστοιχίστε έως πέντε λέξεις με τις σημασίες τους",
+    "Build the sentence" to "Φτιάξτε την πρόταση",
+    "Put the sentence's words in order from its translation" to "Βάλτε τις λέξεις της πρότασης στη σειρά με βάση τη μετάφρασή της",
+    "Needs a sentence of 3 to 8 words" to "Χρειάζεται πρόταση 3 έως 8 λέξεων",
 )

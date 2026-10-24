@@ -256,4 +256,7 @@ internal val zhReading: Map<String, String> = mapOf(
     "The pairs are shown above." to "配对已显示在上方。",
     "Every pair matched, with {0} wrong tries" to "全部配对完成，错了 {0} 次",
     "Every pair matched." to "全部配对正确。",
+    "Put the words in order" to "把单词按顺序排好",
+    "Tap the words in order" to "按顺序点按单词",
+    "Remove the last word" to "删除最后一个单词",
 )

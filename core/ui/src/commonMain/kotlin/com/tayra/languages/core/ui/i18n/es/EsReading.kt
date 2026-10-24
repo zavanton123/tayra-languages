@@ -256,4 +256,7 @@ internal val esReading: Map<String, String> = mapOf(
     "The pairs are shown above." to "Las parejas se muestran arriba.",
     "Every pair matched, with {0} wrong tries" to "Todas las parejas unidas, con {0} intento fallido|Todas las parejas unidas, con {0} intentos fallidos",
     "Every pair matched." to "Todas las parejas unidas.",
+    "Put the words in order" to "Ordena las palabras",
+    "Tap the words in order" to "Toca las palabras en orden",
+    "Remove the last word" to "Quitar la última palabra",
 )

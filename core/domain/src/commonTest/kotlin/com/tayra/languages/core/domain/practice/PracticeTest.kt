@@ -171,6 +171,20 @@ class PracticeTest {
         assertEquals(listOf(ExerciseType.GAP), PracticeBuilder.build(words.take(3), pageWords, random = Random(1), setup = setup).map { it.type }.distinct())
     }
 
+    /** A sentence of three to eight words with a translation is built from its words, shuffled out of order; others are not. */
+    @Test
+    fun aShortTranslatedSentenceIsBuiltFromItsWords() {
+        val translations = words.associate { it.sentence to "[${it.sentence}]" }
+        val setup = PracticeSetup(types = setOf(ExerciseType.BUILD), responses = setOf(PracticeResponse.TILES), length = null)
+        val asked = PracticeBuilder.build(words, pageWords, random = Random(1), setup = setup, translations = translations)
+        assertEquals(listOf("Eu moro no Brasil."), asked.map { it.sentence }, "the others are longer than eight words")
+        val built = asked.single()
+        assertTrue(built.wholeSentence)
+        assertEquals(built.sentence, built.answer)
+        assertEquals(listOf("Brasil.", "Eu", "moro", "no"), built.tiles.sorted())
+        assertTrue(built.tiles != listOf("Eu", "moro", "no", "Brasil."))
+    }
+
     /** A setup goes into a route as text and comes back the same; the kinds earlier versions named still give their questions. */
     @Test
     fun aSetupIsWrittenAndReadAsText() {

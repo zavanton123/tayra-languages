@@ -447,4 +447,7 @@ internal val frTerms: Map<String, String> = mapOf(
     "Needs other forms of the word" to "Il faut d’autres formes du mot",
     "Matching pairs" to "Paires",
     "Match up to five words with their meanings" to "Associez jusqu’à cinq mots à leur sens",
+    "Build the sentence" to "Construire la phrase",
+    "Put the sentence's words in order from its translation" to "Remettez les mots de la phrase dans l’ordre d’après sa traduction",
+    "Needs a sentence of 3 to 8 words" to "Il faut une phrase de 3 à 8 mots",
 )

@@ -447,4 +447,7 @@ internal val plTerms: Map<String, String> = mapOf(
     "Needs other forms of the word" to "Wymaga innych form słowa",
     "Matching pairs" to "Łączenie w pary",
     "Match up to five words with their meanings" to "Połącz do pięciu słów z ich znaczeniami",
+    "Build the sentence" to "Ułóż zdanie",
+    "Put the sentence's words in order from its translation" to "Ułóż słowa zdania w kolejności na podstawie tłumaczenia",
+    "Needs a sentence of 3 to 8 words" to "Wymaga zdania z 3–8 słów",
 )

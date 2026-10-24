@@ -256,4 +256,7 @@ internal val deReading: Map<String, String> = mapOf(
     "The pairs are shown above." to "Die Paare stehen oben.",
     "Every pair matched, with {0} wrong tries" to "Alle Paare zugeordnet, mit {0} falschen Versuch|Alle Paare zugeordnet, mit {0} falschen Versuchen",
     "Every pair matched." to "Alle Paare zugeordnet.",
+    "Put the words in order" to "Bring die Wörter in die richtige Reihenfolge",
+    "Tap the words in order" to "Tippe die Wörter der Reihe nach an",
+    "Remove the last word" to "Letztes Wort entfernen",
 )
