@@ -38,3 +38,10 @@ VALUES (?, ?, ?, ?, ?, ?, ?, ?);
 
 deleteExamples:
 DELETE FROM practice_examples WHERE term_id = ?;
+
+selectProgress:
+SELECT * FROM practice_progress WHERE term_id IN ?;
+
+upsertProgress:
+INSERT OR REPLACE INTO practice_progress(term_id, level, streak, asked, right_answers, last_practised)
+VALUES (?, ?, ?, ?, ?, ?);

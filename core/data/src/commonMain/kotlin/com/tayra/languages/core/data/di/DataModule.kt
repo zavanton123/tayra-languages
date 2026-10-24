@@ -81,6 +81,8 @@ import com.tayra.languages.core.domain.export.AnkiExportService
 import com.tayra.languages.core.domain.export.AnkiPackager
 import com.tayra.languages.core.domain.practice.PracticeMaterialLoader
 import com.tayra.languages.core.domain.practice.PracticeExampleRepository
+import com.tayra.languages.core.domain.practice.PracticeProgressRepository
+import com.tayra.languages.core.data.repository.PracticeProgressRepositoryImpl
 import com.tayra.languages.core.domain.practice.WordForms
 import com.tayra.languages.core.data.repository.PracticeExampleRepositoryImpl
 import com.tayra.languages.core.domain.flashcards.FlashcardService
@@ -202,6 +204,7 @@ val dataModule: Module = module {
     single { AnkiExportService(get(), get(), get(), get(), get(), get(), get()) }
     single { PracticeMaterialLoader(get(), get(), get(), get()) }
     single<PracticeExampleRepository> { PracticeExampleRepositoryImpl(get()) }
+    single<PracticeProgressRepository> { PracticeProgressRepositoryImpl(get()) }
     single { WordForms(getOrNull(), get()) }
     single { PracticeExampleStore(get(), get(), get(), get(), get(), get(), get()) }
     single { TermService(get(), get(), translationsWanted = get<LearningTranslations>()::request, chineseTables = getOrNull(), learningStarted = { get<PracticeExampleStore>().request(it) }) }
