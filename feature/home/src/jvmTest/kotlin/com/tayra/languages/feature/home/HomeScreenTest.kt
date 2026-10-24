@@ -1,5 +1,10 @@
 package com.tayra.languages.feature.home
 
+import kotlin.test.assertTrue
+import com.tayra.languages.core.domain.playlists.PlaylistTextKind
+import com.tayra.languages.core.domain.playlists.PlaylistItem
+import com.tayra.languages.core.domain.playlists.Playlist
+import com.tayra.languages.core.domain.playlists.ListeningPosition
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -100,12 +105,13 @@ class HomeScreenTest {
         state: HomeUiState,
         visited: MutableList<Route> = mutableListOf(),
         padding: PaddingValues = PaddingValues(),
+        listened: () -> Unit = {},
         continued: () -> Unit = {},
     ) = setContent {
         TayraTheme {
             ProvideWindowWidth {
                 Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
-                    PageColumn(padding) { HomeContent(state, onNavigate = { visited += it }, onContinueCourse = continued) }
+                    PageColumn(padding) { HomeContent(state, onNavigate = { visited += it }, onContinueCourse = continued, onContinuePlaylist = listened) }
                 }
             }
         }
@@ -210,5 +216,24 @@ class HomeScreenTest {
         onNodeWithText("O Alquimista").assertDoesNotExist()
         onNodeWithTag("action-book").performClick()
         assertEquals(listOf<Route>(Route.Books), visited)
+    }
+
+    /** A playlist under way is offered after the reading and the cards, and plays on where it stopped. */
+    @Test
+    fun aPlaylistUnderWayIsOfferedToListenOn() = runDesktopComposeUiTest(width = 400, height = 1200) {
+        val items = listOf("Uma compra com problema", "O vídeo da Júlia").mapIndexed { i, title ->
+            PlaylistItem(id = i + 1L, bookId = i + 10L, title = title, kind = PlaylistTextKind.LESSON, pageCount = 1, length = 400, finished = i == 0)
+        }
+        val playlist = Playlist(3, 1, "Commute", "", 0, at(1), at(0), items, ListeningPosition(2, 1, 0))
+        var listened = 0
+        show(HomeUiState(loading = false, languageName = "Portuguese", activity = activity, book = book, flashcardsDue = 3, playlist = playlist), listened = { listened++ })
+        onNodeWithText("Continue listening").assertExists()
+        onNodeWithText("Commute").assertExists()
+        onNodeWithText("O vídeo da Júlia").assertExists()
+        // After the cards and the book, not before them.
+        val row = onNodeWithTag("card-playlist").fetchSemanticsNode().boundsInRoot
+        assertTrue(row.top > onNodeWithTag("card-book").fetchSemanticsNode().boundsInRoot.top)
+        onNodeWithTag("action-playlist").performClick()
+        assertEquals(1, listened)
     }
 }

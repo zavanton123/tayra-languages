@@ -1,5 +1,9 @@
 package com.tayra.languages.feature.home
 
+import kotlinx.coroutines.flow.flowOf
+import com.tayra.languages.core.domain.playlists.PlaylistService
+import com.tayra.languages.core.domain.playlists.PlaylistPlayer
+import com.tayra.languages.core.domain.playlists.Playlist
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.courses.CourseProgress
@@ -38,6 +42,8 @@ data class HomeUiState(
     /** The book being read most recently; null when no book is being read. */
     val book: BookListItem? = null,
     val flashcardsDue: Int = 0,
+    /** The playlist being listened to: started, not heard to the end, the one played last; null when there is none. */
+    val playlist: Playlist? = null,
     /** Why the course's next lesson could not be opened, if it could not. */
     val error: String? = null,
 )
@@ -56,6 +62,9 @@ class HomeViewModel(
     private val stats: StatsService,
     languages: LanguageRepository,
     settings: SettingsRepository,
+    /** The playlists, for the one under way; null leaves it out, as in tests. */
+    playlists: PlaylistService? = null,
+    private val player: PlaylistPlayer? = null,
 ) : ViewModel() {
     init {
         // A language added since the app started gets its sample courses here.
@@ -80,11 +89,19 @@ class HomeViewModel(
                     flashcardsDue = due,
                     error = problem,
                 )
+            }.combine(playlists?.observePlaylists(id) ?: flowOf(emptyList())) { state, list ->
+                state.copy(playlist = list.filter { it.position != null && !it.isComplete }.maxByOrNull { it.lastPlayedAt ?: Instant.DISTANT_PAST })
             }.mapLatest { state -> state.copy(activity = language?.let { stats.studyActivity(it.id, it.name) }) }
         }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), HomeUiState())
 
     fun refresh() = refreshes.update { it + 1 }
+
+    /** Goes on with the playlist under way, from where listening stopped. */
+    fun continuePlaylist() {
+        val id = state.value.playlist?.id ?: return
+        player?.play(id)
+    }
 
     /** Opens the next lesson of the course to go on with. */
     fun continueCourse() {

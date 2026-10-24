@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.home
 
+import com.tayra.languages.core.domain.playlists.Playlist
 import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
@@ -85,12 +86,12 @@ fun HomeScreen(onNavigate: (Route) -> Unit, viewModel: HomeViewModel = koinViewM
             LoadingIndicator(Modifier.padding(padding))
             return@Scaffold
         }
-        PageColumn(padding) { HomeContent(state, onNavigate, onContinueCourse = viewModel::continueCourse) }
+        PageColumn(padding) { HomeContent(state, onNavigate, onContinueCourse = viewModel::continueCourse, onContinuePlaylist = viewModel::continuePlaylist) }
     }
 }
 
 @Composable
-internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit) {
+internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit, onContinuePlaylist: () -> Unit = {}) {
     val width = LocalWindowWidth.current
     // A completed book is history, not something Home should offer to continue. The view-model
     // already filters it out; keeping the guard here also protects previews and direct callers.
@@ -102,7 +103,7 @@ internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onCont
     )
     val activity = shownState.activity
     if (width.isCompact) {
-        PhoneHomeContent(shownState, onNavigate, onContinueCourse)
+        PhoneHomeContent(shownState, onNavigate, onContinueCourse, onContinuePlaylist)
         return
     }
     if (activity != null) {
@@ -125,6 +126,8 @@ internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onCont
     } else {
         cards.forEach { it(Modifier, false) }
     }
+    // A playlist under way comes after the reading and the cards, as a quieter way back.
+    shownState.playlist?.let { PlaylistRow(it, onContinuePlaylist) }
     if (activity != null) StudyActivityCard(activity, onStats = { onNavigate(Route.Stats) })
 }
 
@@ -139,12 +142,12 @@ internal fun phonePrimaryActivity(state: HomeUiState): PhonePrimaryActivity = wh
 
 /** One prominent next step, followed by compact alternatives and secondary progress figures. */
 @Composable
-private fun PhoneHomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit) {
-    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { PhoneHomeItems(state, onNavigate, onContinueCourse) }
+private fun PhoneHomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit, onContinuePlaylist: () -> Unit) {
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { PhoneHomeItems(state, onNavigate, onContinueCourse, onContinuePlaylist) }
 }
 
 @Composable
-private fun PhoneHomeItems(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit) {
+private fun PhoneHomeItems(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit, onContinuePlaylist: () -> Unit) {
     val courseUnderWay = state.course?.status == LessonStatus.IN_PROGRESS && state.course.nextLesson != null
     val primary = phonePrimaryActivity(state)
     Box(Modifier.fillMaxWidth().testTag("primary-activity")) {
@@ -186,6 +189,8 @@ private fun PhoneHomeItems(state: HomeUiState, onNavigate: (Route) -> Unit, onCo
             FlashcardsRow(state.flashcardsDue, onNavigate)
         }
     }
+    // Listening comes after reading and the cards: fourth in the order of what to do next.
+    state.playlist?.let { PlaylistRow(it, onContinuePlaylist) }
     state.activity?.let { StudyActivityCard(it, onStats = { onNavigate(Route.Stats) }) }
 }
 
@@ -232,6 +237,21 @@ private fun BookRow(book: BookListItem?, onNavigate: (Route) -> Unit) {
         tint = AppAccents.purple,
         tag = "book",
         onClick = { if (active != null) onNavigate(Route.Read(active.id)) else onNavigate(Route.Books) },
+    )
+}
+
+/** The playlist under way: its name and the text it got to; a tap plays on from there. */
+@Composable
+private fun PlaylistRow(playlist: Playlist, onContinue: () -> Unit) {
+    SecondaryActivityRow(
+        label = tr("Continue listening"),
+        title = playlist.name,
+        detail = playlist.currentItem?.title?.inLearnedScript() ?: trPlural(playlist.items.size, "{0} text", "{0} texts"),
+        trailing = "${(playlist.progress * 100).toInt()}%",
+        icon = AppIcons.Headphones,
+        tint = AppAccents.orange,
+        tag = "playlist",
+        onClick = onContinue,
     )
 }
 
