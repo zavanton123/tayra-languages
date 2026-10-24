@@ -202,7 +202,7 @@ object PracticeBuilder {
     private const val EXTRA_TILES = 2
 
     /** Sentences of at most this many words are typed whole in a dictation. */
-    private const val SHORT_SENTENCE_WORDS = 6
+    private const val SHORT_SENTENCE_WORDS = 8
 
     /** The types a sentence from elsewhere can be asked in: those about the sentence, not the word alone or its meaning. */
     private val EXAMPLE_TYPES = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.TRANSLATION, ExerciseType.BUILD, ExerciseType.DICTATION)
@@ -449,6 +449,12 @@ object PracticeBuilder {
     }
 }
 
+/** How a word of a typed sentence compares with the word expected there. */
+enum class WordResult { RIGHT, ACCENT, WRONG, MISSING }
+
+/** A [word] of the expected sentence, how it was typed ([typed], null when missing), and how that compares. */
+data class WordCheck(val word: String, val result: WordResult, val typed: String? = null)
+
 /** How a typed answer compares with what was expected. */
 enum class TypedResult {
     CORRECT,
@@ -497,6 +503,52 @@ object PracticeChecker {
             b.length == a.length + 1 -> b.drop(1) == a
             else -> false
         }
+    }
+
+    /**
+     * [typed] against [expected] word by word, in [expected]'s words: each right, right but for
+     * accents, wrong (with what was typed in its place), or missing. Words typed in the right
+     * order are lined up first; what is left between them is paired in order.
+     */
+    fun compareWords(expected: String, typed: String): List<WordCheck> {
+        val wanted = expected.trim().split(Regex("""\s+""")).filter { it.isNotEmpty() }
+        val given = typed.trim().split(Regex("""\s+""")).filter { it.isNotEmpty() }
+        val a = wanted.map { unaccented(normalize(it)) }
+        val b = given.map { unaccented(normalize(it)) }
+        // The longest run of words typed in the right order, found from the end.
+        val lcs = Array(a.size + 1) { IntArray(b.size + 1) }
+        for (i in a.indices.reversed()) for (j in b.indices.reversed()) {
+            lcs[i][j] = if (a[i] == b[j]) lcs[i + 1][j + 1] + 1 else maxOf(lcs[i + 1][j], lcs[i][j + 1])
+        }
+        val checks = ArrayList<WordCheck>(wanted.size)
+        var i = 0
+        var j = 0
+        val pendingWanted = ArrayList<Int>()
+        val pendingGiven = ArrayList<Int>()
+        fun flush() {
+            pendingWanted.forEachIndexed { k, w ->
+                val g = pendingGiven.getOrNull(k)
+                checks += if (g == null) WordCheck(wanted[w], WordResult.MISSING) else WordCheck(wanted[w], WordResult.WRONG, given[g])
+            }
+            pendingWanted.clear()
+            pendingGiven.clear()
+        }
+        while (i < a.size && j < b.size) {
+            when {
+                a[i] == b[j] -> {
+                    flush()
+                    checks += WordCheck(wanted[i], if (normalize(wanted[i]) == normalize(given[j])) WordResult.RIGHT else WordResult.ACCENT, given[j])
+                    i++
+                    j++
+                }
+                lcs[i + 1][j] >= lcs[i][j + 1] -> pendingWanted += i++
+                else -> pendingGiven += j++
+            }
+        }
+        while (i < a.size) pendingWanted += i++
+        while (j < b.size) pendingGiven += j++
+        flush()
+        return checks
     }
 
     private fun normalize(text: String): String =

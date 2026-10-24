@@ -100,6 +100,9 @@ import com.tayra.languages.core.domain.practice.ExerciseType
 import com.tayra.languages.core.ui.components.label
 import androidx.compose.runtime.setValue
 import androidx.compose.runtime.mutableStateOf
+import com.tayra.languages.core.domain.practice.WordResult
+import com.tayra.languages.core.domain.practice.PracticeChecker
+import androidx.compose.ui.text.style.TextDecoration
 
 /** Practising the words being learned on a page, right after reading it, or words chosen in the vocabulary. */
 @Composable
@@ -386,6 +389,8 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         }
 
         if (answered) Feedback(state, exercise)
+        // A sentence typed whole and not quite right: which words were.
+        if (answered && exercise.wholeSentence && state.result != PracticeResult.CORRECT && state.typed.isNotBlank()) SentenceCheck(exercise.answer, state.typed)
 
         AppDivider()
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
@@ -540,6 +545,32 @@ private fun TypedAnswer(state: PracticeUiState, exercise: Exercise, actions: Pra
         placeholder = { Text(if (exercise.wholeSentence) tr("Type the sentence") else tr("Type the word")) },
         textStyle = MaterialTheme.typography.titleMedium.copy(textDirection = if (state.rightToLeft) TextDirection.Rtl else TextDirection.Ltr),
         modifier = Modifier.fillMaxWidth().focusRequester(focus).testTag("practice-input"),
+    )
+}
+
+/** The sentence expected, word by word as it was typed: right, right but for accents, wrong (with what was typed), or missing. */
+@Composable
+private fun SentenceCheck(expected: String, typed: String) {
+    val colors = MaterialTheme.colorScheme
+    val checks = remember(expected, typed) { PracticeChecker.compareWords(expected, typed) }
+    Text(
+        buildAnnotatedString {
+            checks.forEachIndexed { index, check ->
+                if (index > 0) append(" ")
+                when (check.result) {
+                    WordResult.RIGHT -> withStyle(SpanStyle(color = AppAccents.green)) { append(check.word) }
+                    WordResult.ACCENT -> withStyle(SpanStyle(color = AppAccents.amber, fontWeight = AppText.labelStrong.fontWeight)) { append(check.word) }
+                    WordResult.WRONG -> {
+                        withStyle(SpanStyle(color = AppAccents.red, fontWeight = AppText.labelStrong.fontWeight)) { append(check.word) }
+                        withStyle(SpanStyle(color = colors.onSurfaceVariant, textDecoration = TextDecoration.LineThrough)) { append(" ${check.typed}") }
+                    }
+                    WordResult.MISSING -> withStyle(SpanStyle(color = AppAccents.red, textDecoration = TextDecoration.Underline)) { append(check.word) }
+                }
+            }
+        },
+        Modifier.fillMaxWidth().testTag("practice-sentence-check"),
+        style = MaterialTheme.typography.titleMedium,
+        textAlign = TextAlign.Center,
     )
 }
 

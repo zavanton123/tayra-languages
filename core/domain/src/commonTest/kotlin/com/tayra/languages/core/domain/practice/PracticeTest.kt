@@ -289,6 +289,21 @@ class PracticeTest {
         assertEquals(TypedResult.WRONG, PracticeChecker.check("Eu moro no Brasil.", "eu moro em Brasil"))
     }
 
+    /** A typed sentence is compared word by word: right, right but for accents, wrong in place of a word, or missing. */
+    @Test
+    fun aTypedSentenceIsComparedWordByWord() {
+        assertEquals(
+            listOf(
+                WordCheck("Eu", WordResult.RIGHT, "eu"),
+                WordCheck("moro", WordResult.WRONG, "mora"),
+                WordCheck("no", WordResult.MISSING),
+                WordCheck("Brasil.", WordResult.RIGHT, "Brasil"),
+            ),
+            PracticeChecker.compareWords("Eu moro no Brasil.", "eu mora Brasil"),
+        )
+        assertEquals(listOf(WordResult.RIGHT, WordResult.ACCENT), PracticeChecker.compareWords("minha família", "minha familia").map { it.result })
+    }
+
     /** One slip of a letter inside a longer word is nearly right; one at its end, where words change their form, or in a short word, is not. */
     @Test
     fun aSlipOfALetterInsideAWordIsNearlyRight() {
