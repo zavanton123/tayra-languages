@@ -69,6 +69,7 @@ import androidx.compose.ui.input.pointer.isSecondaryPressed
 import androidx.compose.ui.input.pointer.isShiftPressed
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.stateDescription
@@ -310,10 +311,11 @@ fun ReadingText(
                 }
                 // The background takes in the sentence's translation too, beside it or under it.
                 if (twoColumns) {
+                    // The text is what is read, in larger type and beside its play button, so it takes the wider column.
                     Row(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach).padding(vertical = SENTENCE_ROW_PADDING), verticalAlignment = Alignment.Top) {
-                        if (onSpeakSentence != null) withButton(Modifier.weight(1f)) else Box(Modifier.weight(1f)) { sentence() }
+                        if (onSpeakSentence != null) withButton(Modifier.weight(TEXT_COLUMN_WEIGHT)) else Box(Modifier.weight(TEXT_COLUMN_WEIGHT)) { sentence() }
                         Box(Modifier.width(AppSpacing.xxl))
-                        Box(Modifier.weight(1f)) {
+                        Box(Modifier.weight(TRANSLATION_COLUMN_WEIGHT).testTag("side-translation")) {
                             if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight, large = true)
                         }
                     }
@@ -456,6 +458,10 @@ private val HIGHLIGHT_INSET = 8.dp
 
 /** Room above and below every sentence on its own line, which the highlight fills too. */
 private val SENTENCE_ROW_PADDING = 6.dp
+
+/** Side by side, the sentences take three fifths of the width and their translations two. */
+private const val TEXT_COLUMN_WEIGHT = 3f
+private const val TRANSLATION_COLUMN_WEIGHT = 2f
 
 /** How strongly the sentence being heard is tinted with the text colour. */
 private const val HEARD_TINT_ALPHA = 0.1f

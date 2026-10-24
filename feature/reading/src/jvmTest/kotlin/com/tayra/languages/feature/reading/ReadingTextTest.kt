@@ -3,6 +3,7 @@ package com.tayra.languages.feature.reading
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.test.click
 import androidx.compose.ui.test.junit4.createComposeRule
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onAllNodesWithContentDescription
@@ -151,6 +152,42 @@ class ReadingTextTest {
         rule.onNodeWithText("World!").performMouseInput { click(Offset(8f, 10f)) }
         rule.waitForIdle()
         assertEquals(listOf(0, 3), clicked, "the audio gutter does not offset the page's word indexes")
+    }
+
+    /** Side by side, the sentence takes the wider column, play button and all, and its translation the narrower. */
+    @Test
+    fun sideBySideGivesTheTextTheWiderColumn() {
+        rule.setContent {
+            ReadingText(
+                page = page(),
+                theme = AppThemes.default,
+                showHighlights = true,
+                marked = emptySet(),
+                hovered = null,
+                selection = null,
+                popupItem = null,
+                fontScale = 1f,
+                lineHeight = 1.5f,
+                rightToLeft = false,
+                translations = mapOf("Hello world." to com.tayra.languages.core.domain.service.SentenceTranslation.Done("Привет, мир.")),
+                sideBySide = true,
+                onSpeakSentence = {},
+                callbacks = ReadingTextCallbacks(
+                    onClick = { _, _ -> },
+                    onTap = {},
+                    onLongPress = {},
+                    onHover = {},
+                    onDragStart = {},
+                    onDrag = {},
+                    onDragEnd = { _, _ -> },
+                    popupContent = { _, _: androidx.compose.ui.unit.IntRect -> },
+                ),
+            )
+        }
+        val translation = rule.onAllNodesWithTag("side-translation")[0].fetchSemanticsNode().boundsInRoot
+        // The text column runs from the row's start to the gap before the translation.
+        val text = translation.left
+        assertTrue(text > translation.width * 1.3f, "the text column ($text) is wider than the translation's (${translation.width})")
     }
 
     /** Practising translation blurs each sentence under its translation; the mouse shows it while over it, and by touch a tap shows it and a tap beside its words hides it. */
