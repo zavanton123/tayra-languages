@@ -34,6 +34,9 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
     /** The sentence with the word blanked out: choose or type the word. */
     GAP(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE)),
 
+    /** The sentence whole, the word marked: choose what the word means. Needs the word's translation. */
+    MEANING(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE)),
+
     /** The word is read aloud: choose its meaning, or the word itself when meanings are missing. */
     HEAR_WORD(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE)),
 
@@ -165,6 +168,8 @@ object PracticeBuilder {
         examples: Map<String, PracticeExample> = emptyMap(),
         random: Random = Random.Default,
         setup: PracticeSetup = PracticeSetup(),
+        /** Meanings of other words, for wrong choices of meaning beside those of the [words]. */
+        meanings: List<String> = emptyList(),
     ): List<Exercise> {
         val targets = words.distinctBy { it.text.lowercase() }.shuffled(random)
         val rotation = setup.rotation
@@ -182,9 +187,13 @@ object PracticeBuilder {
         val exercises = mutableListOf<Exercise>()
         for (k in 0 until rotated) {
             val word = targets[k % targets.size]
-            // Each round starts one question further on, so a word meets a different one every time.
-            val (type, response) = rotation[(k % targets.size + k / targets.size) % rotation.size]
-            exercises += exercise(type, response, word, targets, pageWords, random)
+            // Each round starts one question further on, so a word meets a different one every time;
+            // a question the word cannot be asked gives way to the next one that it can.
+            val start = (k % targets.size + k / targets.size) % rotation.size
+            exercises += (0 until rotation.size).firstNotNullOfOrNull { step ->
+                val (type, response) = rotation[(start + step) % rotation.size]
+                exercise(type, response, word, targets, pageWords, meanings, random)
+            } ?: continue
         }
         for (word in inNewContext) {
             val example = examples.getValue(word.text.lowercase())
@@ -204,10 +213,16 @@ object PracticeBuilder {
         return exercises
     }
 
-    private fun exercise(type: ExerciseType, response: PracticeResponse, word: PracticeWord, targets: List<PracticeWord>, pageWords: List<String>, random: Random): Exercise {
+    /** The question of [type] on [word], or null when the word cannot be asked it. */
+    private fun exercise(type: ExerciseType, response: PracticeResponse, word: PracticeWord, targets: List<PracticeWord>, pageWords: List<String>, meanings: List<String>, random: Random): Exercise? {
         val base = Exercise(type, response, PracticeContext.ORIGINAL, word.text, word.translation, word.sentence, word.range, answer = word.text)
         return when (type) {
             ExerciseType.GAP -> if (response == PracticeResponse.CHOOSE) base.copy(options = wordChoices(word, targets, pageWords, random)) else base
+            ExerciseType.MEANING -> {
+                val meaning = word.translation?.trim().orEmpty()
+                val wrong = meaningChoices(meaning, targets.filter { it !== word }.mapNotNull { it.translation }, meanings, random)
+                if (meaning.isEmpty() || wrong.size < OPTIONS - 1) null else base.copy(options = (wrong + meaning).shuffled(random), answer = meaning)
+            }
             ExerciseType.HEAR_WORD -> {
                 val meaning = word.translation?.trim().orEmpty()
                 val others = targets.filter { it !== word }.mapNotNull { it.translation?.trim()?.takeIf(String::isNotEmpty) }
@@ -224,6 +239,22 @@ object PracticeBuilder {
             }
         }
     }
+
+    /**
+     * Three wrong meanings for [meaning]: those of the other words [practised] first, then from
+     * [more]; none twice, and none sharing a word with the right one, which could read as right
+     * too ("wallet" beside "my wallet" is left out, as is "home" beside "at home").
+     */
+    private fun meaningChoices(meaning: String, practised: List<String>, more: List<String>, random: Random): List<String> {
+        val own = contentWords(meaning)
+        val fits = { text: String -> text.isNotEmpty() && !text.equals(meaning, ignoreCase = true) && contentWords(text).none { it in own } }
+        return (practised.map { it.trim() }.filter(fits).shuffled(random) + more.map { it.trim() }.filter(fits).shuffled(random))
+            .distinctBy { it.lowercase() }.take(OPTIONS - 1)
+    }
+
+    /** A meaning's words of three letters or more, lower-cased: what two meanings share when they are alike. */
+    private fun contentWords(text: String): Set<String> =
+        text.lowercase().split(Regex("""[^\p{L}\p{N}]+""")).filter { it.length >= 3 }.toSet()
 
     /** The word among other words of the page: the other words being learned first, then any others. */
     private fun wordChoices(word: PracticeWord, targets: List<PracticeWord>, pageWords: List<String>, random: Random): List<String> {

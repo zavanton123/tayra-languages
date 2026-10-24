@@ -390,4 +390,6 @@ internal val plTerms: Map<String, String> = mapOf(
     "adverb" to "przysłówek",
     "pronoun" to "zaimek",
     "numeral" to "liczebnik",
+    "Choose the meaning" to "Wybierz znaczenie",
+    "Pick what the marked word means" to "Wybierz, co znaczy zaznaczone słowo",
 )

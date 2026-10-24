@@ -64,6 +64,27 @@ class PracticeTest {
         assertEquals(listOf("Vou comprar pão."), elsewhere.map { it.sentence })
     }
 
+    /** The meaning is chosen among four, the others from other words; one sharing a word with it is never offered, and a word without a meaning gets another question. */
+    @Test
+    fun theMeaningIsChosenAmongOthersThatCannotAlsoBeRight() {
+        val setup = PracticeSetup(types = setOf(ExerciseType.MEANING), length = null)
+        val withHome = words + word("casa", "at home", "Eu fico em casa.")
+        val asked = PracticeBuilder.build(withHome, pageWords, random = Random(1), setup = setup, meanings = listOf("home", "the house", "to go", "slowly"))
+        assertEquals(withHome.size, asked.size)
+        asked.forEach { e ->
+            assertEquals(ExerciseType.MEANING, e.type)
+            assertEquals(e.wordTranslation, e.answer)
+            assertEquals(4, e.options.size)
+            assertEquals(1, e.options.count { it == e.answer })
+        }
+        assertTrue("home" !in asked.single { it.word == "casa" }.options, "home could be read as right beside at home")
+        // Without a meaning the word is asked as a gap instead, where the gap is asked too.
+        val bare = listOf(word("moro", null, "Eu moro no Brasil.")) + words.drop(1)
+        val mixed = PracticeBuilder.build(bare, pageWords, random = Random(2), setup = PracticeSetup(types = setOf(ExerciseType.MEANING, ExerciseType.GAP), responses = setOf(PracticeResponse.CHOOSE), length = null))
+        assertTrue(mixed.filter { it.word == "moro" }.all { it.type == ExerciseType.GAP }, mixed.filter { it.word == "moro" }.toString())
+        assertEquals(emptyList(), PracticeBuilder.build(listOf(word("moro", null, "Eu moro no Brasil.")), pageWords, setup = setup))
+    }
+
     /** A setup goes into a route as text and comes back the same; the kinds earlier versions named still give their questions. */
     @Test
     fun aSetupIsWrittenAndReadAsText() {

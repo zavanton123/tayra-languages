@@ -234,4 +234,5 @@ internal val zhReading: Map<String, String> = mapOf(
     "View or add" to "查看或添加",
     "Terms on this page" to "本页词条",
     "Reset reader settings" to "重置阅读设置",
+    "What does the marked word mean?" to "标出的词是什么意思？",
 )

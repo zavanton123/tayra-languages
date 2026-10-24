@@ -234,4 +234,5 @@ internal val ruReading: Map<String, String> = mapOf(
     "View or add" to "Просмотр и добавление",
     "Terms on this page" to "Слова на странице",
     "Reset reader settings" to "Сбросить настройки чтения",
+    "What does the marked word mean?" to "Что значит выделенное слово?",
 )

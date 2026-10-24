@@ -390,4 +390,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "adverb" to "副词",
     "pronoun" to "代词",
     "numeral" to "数词",
+    "Choose the meaning" to "选择意思",
+    "Pick what the marked word means" to "选择标出的词的意思",
 )

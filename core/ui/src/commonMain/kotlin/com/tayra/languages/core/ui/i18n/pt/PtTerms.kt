@@ -390,4 +390,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     "adverb" to "advérbio",
     "pronoun" to "pronome",
     "numeral" to "numeral",
+    "Choose the meaning" to "Escolher o significado",
+    "Pick what the marked word means" to "Escolha o que significa a palavra marcada",
 )

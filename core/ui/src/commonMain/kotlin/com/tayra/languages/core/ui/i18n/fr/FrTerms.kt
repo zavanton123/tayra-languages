@@ -390,4 +390,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "adverb" to "adverbe",
     "pronoun" to "pronom",
     "numeral" to "numéral",
+    "Choose the meaning" to "Choisir le sens",
+    "Pick what the marked word means" to "Choisissez ce que signifie le mot marqué",
 )

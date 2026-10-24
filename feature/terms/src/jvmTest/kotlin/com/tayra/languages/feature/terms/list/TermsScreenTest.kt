@@ -34,6 +34,8 @@ import com.tayra.languages.core.domain.export.AnkiExportService
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.TermDraft
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.practice.ExerciseType
+import com.tayra.languages.core.domain.practice.PracticeResponse
 import com.tayra.languages.core.domain.practice.PracticeSetup
 import com.tayra.languages.core.domain.service.LocalSpeech
 import com.tayra.languages.core.domain.service.MemorySpeechAudioCache
@@ -163,15 +165,17 @@ class TermsScreenTest {
         onNodeWithContentDescription("List actions").performClick()
         onNodeWithText("Practise 2 selected").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Practise 2 words").fetchSemanticsNodes().isNotEmpty() }
-        // All four kinds are ticked to begin with; the typed ones are unticked here.
+        // Every kind is ticked to begin with; the typed ones are unticked here.
         onNodeWithTag("practice-kind-GAP_TYPED").performClick()
         onNodeWithTag("practice-kind-DICTATION").performClick()
-        onNodeWithText("2 question types selected").assertExists()
+        onNodeWithText("3 question types selected").assertExists()
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot()).onLast().captureToImage().toAwtImage(), "png", File(it.replace(".png", "-practice-dialog.png"))) }
         onNodeWithTag("start-practice").performClick()
         waitUntil(timeoutMillis = 5_000) { visited.isNotEmpty() }
         val route = visited.single() as Route.PracticeWords
-        assertEquals(PracticeSetup.ofKinds(listOf("GAP_CHOICE", "HEAR_CHOOSE")), PracticeSetup.decode(route.setup))
+        val setup = PracticeSetup.decode(route.setup)
+        assertEquals(setOf(ExerciseType.GAP, ExerciseType.MEANING, ExerciseType.HEAR_WORD), setup.types)
+        assertEquals(setOf(PracticeResponse.CHOOSE), setup.responses)
         assertEquals(2, route.termIds.size)
         assertTrue(route.termIds.all { id -> runBlocking { terms.getById(id) }?.text in setOf("comprar", "pensar", "produtos") })
     }

@@ -390,4 +390,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "adverb" to "adverbio",
     "pronoun" to "pronombre",
     "numeral" to "numeral",
+    "Choose the meaning" to "Elegir el significado",
+    "Pick what the marked word means" to "Elige qué significa la palabra marcada",
 )

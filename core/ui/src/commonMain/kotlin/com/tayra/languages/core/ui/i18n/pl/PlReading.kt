@@ -234,4 +234,5 @@ internal val plReading: Map<String, String> = mapOf(
     "View or add" to "Przeglądaj lub dodaj",
     "Terms on this page" to "Słowa na tej stronie",
     "Reset reader settings" to "Resetuj ustawienia czytania",
+    "What does the marked word mean?" to "Co znaczy zaznaczone słowo?",
 )

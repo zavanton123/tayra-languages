@@ -234,4 +234,5 @@ internal val deReading: Map<String, String> = mapOf(
     "View or add" to "Ansehen oder hinzufügen",
     "Terms on this page" to "Begriffe auf dieser Seite",
     "Reset reader settings" to "Leseeinstellungen zurücksetzen",
+    "What does the marked word mean?" to "Was bedeutet das markierte Wort?",
 )

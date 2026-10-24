@@ -61,7 +61,7 @@ fun PracticeKindsDialog(count: Int, onStart: (PracticeSetup) -> Unit, onDismiss:
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     var kinds by remember { mutableStateOf(PracticeQuestion.all.toSet()) }
-    val setup = PracticeSetup.ofKinds(kinds.map { it.name })
+    val setup = PracticeSetup(types = kinds.map { it.type }.toSet(), responses = kinds.map { it.response }.toSet())
     val minutes = ((PracticeBuilder.questionCount(count, setup.rotation.size) * SECONDS_A_QUESTION + 59) / 60).coerceAtLeast(1)
     AppDialogSurface(onDismissRequest = onDismiss, color = colors.surfaceContainerLow) {
         Column {

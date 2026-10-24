@@ -390,4 +390,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "adverb" to "наречие",
     "pronoun" to "местоимение",
     "numeral" to "числительное",
+    "Choose the meaning" to "Выбрать значение",
+    "Pick what the marked word means" to "Выберите, что значит выделенное слово",
 )

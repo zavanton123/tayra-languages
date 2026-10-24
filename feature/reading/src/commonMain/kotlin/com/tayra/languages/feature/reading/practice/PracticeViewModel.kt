@@ -110,14 +110,14 @@ class PracticeViewModel(
         _state.update { PracticeUiState(pageNumber = pageNumber, bookTitle = it.bookTitle, setup = setup, wholeBook = wholeBook) }
         viewModelScope.launch {
             val all = attempt { material.load(source) }
-            val prepared = if (all == null || only == null) all else PracticeMaterial(all.language, all.title, all.words.filter { it.text.lowercase() in only }.ifEmpty { all.words }, all.pool)
+            val prepared = if (all == null || only == null) all else PracticeMaterial(all.language, all.title, all.words.filter { it.text.lowercase() in only }.ifEmpty { all.words }, all.pool, all.meanings)
             if (prepared == null) {
                 _state.update { it.copy(loading = false) }
                 return@launch
             }
             val lang = prepared.language
             language = lang
-            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, fetchExamples(prepared.words, lang), random, setup)
+            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, fetchExamples(prepared.words, lang), random, setup, prepared.meanings)
             _state.update {
                 it.copy(
                     loading = false,

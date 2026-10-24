@@ -283,6 +283,7 @@ private val Exercise.instruction: String
             context == PracticeContext.EXAMPLE -> tr("A new sentence: choose the missing word")
             else -> tr("Choose the missing word")
         }
+        ExerciseType.MEANING -> tr("What does the marked word mean?")
         ExerciseType.HEAR_WORD -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
         ExerciseType.DICTATION -> if (wholeSentence) tr("Listen and type the sentence") else tr("Listen and type the missing word")
     }
@@ -311,7 +312,8 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
             Text(
                 buildAnnotatedString {
                     append(exercise.sentence.substring(0, exercise.range.first))
-                    withStyle(highlight) { append(if (answered) exercise.sentence.substring(exercise.range) else BLANK) }
+                    // The word is marked rather than blanked where its meaning is asked.
+                    withStyle(highlight) { append(if (answered || exercise.type == ExerciseType.MEANING) exercise.sentence.substring(exercise.range) else BLANK) }
                     append(exercise.sentence.substring(exercise.range.last + 1))
                 },
                 style = AppText.cardSentence(if (compact) 21f else 27f).copy(color = colors.onSurface, textAlign = TextAlign.Center, textDirection = direction),

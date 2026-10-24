@@ -390,4 +390,6 @@ internal val elTerms: Map<String, String> = mapOf(
     "adverb" to "επίρρημα",
     "pronoun" to "αντωνυμία",
     "numeral" to "αριθμητικό",
+    "Choose the meaning" to "Επιλέξτε τη σημασία",
+    "Pick what the marked word means" to "Επιλέξτε τι σημαίνει η επισημασμένη λέξη",
 )

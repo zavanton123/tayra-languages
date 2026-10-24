@@ -82,7 +82,7 @@ class PracticeScreenTest {
     private var bookId = 0L
     private var languageId = 0L
 
-    private fun ComposeUiTest.show(seed: Int = 7): PracticeViewModel {
+    private fun ComposeUiTest.show(seed: Int = 7, setup: PracticeSetup = PracticeSetup()): PracticeViewModel {
         runBlocking {
             languageId = languages.save(Language(name = "Portuguese"))
             bookId = BookService(books, languages).create(BookDraft(languageId = languageId, title = "Long text", text = text))
@@ -94,7 +94,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), PracticeSetup(), PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(seed))
+        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), setup, PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(seed))
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -231,6 +231,21 @@ class PracticeScreenTest {
         val folder = System.getenv("PRACTICE_SCREENSHOTS") ?: return
         waitForIdle()
         ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(folder, "practice-$name.png"))
+    }
+
+    /** Asked for a meaning, the sentence shows the word marked, not blanked, and the choices are meanings. */
+    @Test
+    fun aMeaningQuestionShowsTheWordAndOffersMeanings() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.MEANING)))
+        val exercise = viewModel.state.value.exercises.first()
+        assertEquals(ExerciseType.MEANING, exercise.type)
+        onNodeWithText("WHAT DOES THE MARKED WORD MEAN?").assertExists()
+        val shown = onNodeWithTag("practice-sentence").fetchSemanticsNode().config[androidx.compose.ui.semantics.SemanticsProperties.Text].single().text
+        assertTrue(exercise.word in shown && "[...]" !in shown, shown)
+        assertTrue(exercise.options.all { it in learning.values }, exercise.options.toString())
+        shot("meaning")
+        onNodeWithTag("practice-option-${exercise.options.indexOf(exercise.answer)}").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
     }
 
     @Test

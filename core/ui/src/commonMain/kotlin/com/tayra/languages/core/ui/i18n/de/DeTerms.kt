@@ -390,4 +390,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "adverb" to "Adverb",
     "pronoun" to "Pronomen",
     "numeral" to "Numerale",
+    "Choose the meaning" to "Bedeutung wählen",
+    "Pick what the marked word means" to "Wählen, was das markierte Wort bedeutet",
 )

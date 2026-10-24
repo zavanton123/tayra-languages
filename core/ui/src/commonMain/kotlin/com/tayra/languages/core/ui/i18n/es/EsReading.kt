@@ -234,4 +234,5 @@ internal val esReading: Map<String, String> = mapOf(
     "View or add" to "Ver o añadir",
     "Terms on this page" to "Palabras de esta página",
     "Reset reader settings" to "Restablecer los ajustes de lectura",
+    "What does the marked word mean?" to "¿Qué significa la palabra marcada?",
 )

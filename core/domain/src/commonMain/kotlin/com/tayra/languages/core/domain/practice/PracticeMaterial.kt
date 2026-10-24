@@ -23,8 +23,11 @@ sealed interface PracticeSource {
     data class Words(val termIds: List<Long>) : PracticeSource
 }
 
-/** The words a practice asks about, in their language, with other words of the text as wrong choices. */
-class PracticeMaterial(val language: Language, val title: String, val words: List<PracticeWord>, val pool: List<String>)
+/**
+ * The words a practice asks about, in their language, with other words of the text as wrong
+ * choices ([pool]) and the meanings of other saved words as wrong choices of meaning ([meanings]).
+ */
+class PracticeMaterial(val language: Language, val title: String, val words: List<PracticeWord>, val pool: List<String>, val meanings: List<String> = emptyList())
 
 /** Gathers the words of a practice, each in a sentence, from where the practice was started. */
 class PracticeMaterialLoader(
@@ -33,11 +36,19 @@ class PracticeMaterialLoader(
     private val reading: ReadingService,
     private val terms: TermRepository,
 ) {
-    suspend fun load(source: PracticeSource): PracticeMaterial? = when (source) {
-        is PracticeSource.Page -> pageWords(source)
-        is PracticeSource.Book -> bookWords(source)
-        is PracticeSource.Words -> chosenWords(source)
+    suspend fun load(source: PracticeSource): PracticeMaterial? {
+        val material = when (source) {
+            is PracticeSource.Page -> pageWords(source)
+            is PracticeSource.Book -> bookWords(source)
+            is PracticeSource.Words -> chosenWords(source)
+        } ?: return null
+        return PracticeMaterial(material.language, material.title, material.words, material.pool, meanings(material.language))
     }
+
+    /** The meanings of saved words of the language, being learned or known. */
+    private suspend fun meanings(language: Language): List<String> =
+        terms.list(TermListFilter(languageId = language.id, minStatus = TermStatus.NEW_1, maxStatus = TermStatus.WELL_KNOWN), TermListSort(), 0, POOL_WORDS).items
+            .mapNotNull { it.translation?.trim()?.takeIf(String::isNotEmpty) }
 
     private suspend fun pageWords(source: PracticeSource.Page): PracticeMaterial? {
         val book = books.getBook(source.bookId)
