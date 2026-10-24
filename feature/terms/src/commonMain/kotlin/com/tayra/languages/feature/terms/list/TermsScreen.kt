@@ -182,7 +182,7 @@ fun TermsScreen(
     ) { padding ->
         val gutter = if (compact) AppSpacing.l else AppSpacing.xxxl
         ScrollList(Modifier.padding(padding).fillMaxSize(), contentPadding = PaddingValues(horizontal = gutter, vertical = AppSpacing.l)) {
-            item { PageHeader(exporting = state.exporting, sending = state.sendingToAnki, onExport = viewModel::exportAnki, onSend = if (viewModel.canSendToAnki) ({ viewModel.sendToAnki() }) else null, onNew = { onNavigate(Route.NewTerm) }) }
+            item { PageHeader(exporting = state.exporting, sending = state.sendingToAnki, onExport = viewModel::exportAnki, onNew = { onNavigate(Route.NewTerm) }) }
             item { StatCards(state, compact) }
             item { Toolbar(state, viewModel, compact) }
             if (state.filtersVisible) item(key = "filters") { Column(itemMotion()) { FilterPanel(state, viewModel) } }
@@ -259,18 +259,20 @@ private fun ListMenu(state: TermsListUiState, actions: ListActions) {
 }
 
 @Composable
-internal fun PageHeader(exporting: String?, sending: Boolean, onExport: () -> Unit, onSend: (() -> Unit)?, onNew: () -> Unit) {
+internal fun PageHeader(exporting: String?, sending: Boolean, onExport: () -> Unit, onNew: () -> Unit) {
     Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl)) {
         ScreenHeader(tr("Vocabulary"), tr("Review and manage your vocabulary.")) {
-            // The progress shows on the button whose export is under way.
-            SecondaryButton(if (exporting == null || sending) tr("Export to Anki") else tr("Exporting {0}", exporting), onClick = onExport, icon = AppIcons.Download, enabled = exporting == null)
-            if (onSend != null) {
-                // Straight into the Anki that is open, through AnkiConnect, rather than a file to import.
-                SecondaryButton(if (exporting != null && sending) tr("Sending {0}", exporting) else tr("Send to Anki"), onClick = onSend, modifier = Modifier.testTag("send-to-anki"), icon = AppIcons.UploadFile, enabled = exporting == null)
-            }
+            SecondaryButton(ankiLabel(exporting, sending), onClick = onExport, modifier = Modifier.testTag("export-to-anki"), icon = AppIcons.Download, enabled = exporting == null)
             PrimaryButton(tr("Add term"), onClick = onNew, icon = Icons.Default.Add)
         }
     }
+}
+
+/** The Anki button's label: its progress while the words go straight into Anki or into a file. */
+internal fun ankiLabel(exporting: String?, sending: Boolean): String = when {
+    exporting == null -> tr("Export to Anki")
+    sending -> tr("Sending {0}", exporting)
+    else -> tr("Exporting {0}", exporting)
 }
 
 private data class StatCard(val label: String, val value: Int, val icon: ImageVector, val tint: Color)

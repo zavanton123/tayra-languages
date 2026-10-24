@@ -135,7 +135,7 @@ internal fun PhoneTermsScreen(
                 onNavigate = onNavigate,
                 section = NavSection.TERMS,
                 onBack = onBack,
-                actions = { PhoneListMenu(state, listActions, selecting = selecting, onSelecting = { selecting = it; if (!it) viewModel.selectAllVisible(false) }, onExport = viewModel::exportAnki, onSend = if (viewModel.canSendToAnki) ({ viewModel.sendToAnki() }) else null) },
+                actions = { PhoneListMenu(state, listActions, selecting = selecting, onSelecting = { selecting = it; if (!it) viewModel.selectAllVisible(false) }, onExport = viewModel::exportAnki) },
             )
         },
         snackbarHost = {
@@ -205,15 +205,14 @@ internal fun PhoneTermsScreen(
 }
 
 @Composable
-private fun PhoneListMenu(state: TermsListUiState, actions: ListActions, selecting: Boolean, onSelecting: (Boolean) -> Unit, onExport: () -> Unit, onSend: (() -> Unit)? = null) {
+private fun PhoneListMenu(state: TermsListUiState, actions: ListActions, selecting: Boolean, onSelecting: (Boolean) -> Unit, onExport: () -> Unit) {
     val selected = state.selected.size
     OverflowMenu(tr("List actions")) { close ->
         AppMenuItem(text = { Text(if (selecting) tr("Done selecting") else tr("Select terms")) }, onClick = { close(); onSelecting(!selecting) })
         AppMenuItem(text = { Text(if (selected > 0) tr("Bulk edit {0} selected", selected) else tr("Bulk edit selected")) }, enabled = selected > 0, onClick = { close(); actions.onBulk() })
         AppMenuItem(text = { Text(if (selected > 0) tr("Delete {0} selected", selected) else tr("Delete selected")) }, enabled = selected > 0, onClick = { close(); actions.onDelete() })
         AppMenuItem(text = { Text(if (selected > 0) tr("Practise {0} selected", selected) else tr("Practise selected")) }, enabled = selected > 0, onClick = { close(); actions.onPractice() })
-        AppMenuItem(text = { Text(if (state.exporting == null || state.sendingToAnki) tr("Export to Anki") else tr("Exporting {0}", state.exporting)) }, enabled = state.exporting == null, onClick = { close(); onExport() })
-        if (onSend != null) AppMenuItem(text = { Text(if (state.exporting != null && state.sendingToAnki) tr("Sending {0}", state.exporting) else tr("Send to Anki")) }, enabled = state.exporting == null, onClick = { close(); onSend() })
+        AppMenuItem(text = { Text(ankiLabel(state.exporting, state.sendingToAnki)) }, enabled = state.exporting == null, onClick = { close(); onExport() })
     }
 }
 
