@@ -77,6 +77,7 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextDirection
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.IntRect
@@ -236,6 +237,18 @@ private fun TermFormContent(
 
         val pack = state.dictionaryPack
         val online = state.wiktionary
+        // The compact reader summary follows the same source choice as the full dictionary below:
+        // an offline answer wins; Wiktionary stands in only while no installed pack answered.
+        val effectiveDictionary = state.dictionary.takeUnless { it.isEmpty }
+            ?: online.dictionary.takeIf { pack?.state !is PackState.Installed && !it.isEmpty }
+        val summaryEntry = effectiveDictionary?.entries?.firstOrNull { candidate -> candidate.senses.any { sense -> sense.glosses.any(String::isNotBlank) } }
+            ?: effectiveDictionary?.entries?.firstOrNull()
+        val compactSummary = CompactWordSummary(
+            // A saved/user-edited pronunciation is more specific than a dictionary reading or IPA.
+            pronunciation = listOf(draft.romanization, summaryEntry?.reading.orEmpty(), summaryEntry?.ipa.orEmpty()).firstOrNull { it.isNotBlank() }?.trim(),
+            firstSense = summaryEntry?.senses?.firstOrNull { sense -> sense.glosses.any(String::isNotBlank) }
+                ?.glosses?.filter(String::isNotBlank)?.joinToString("; "),
+        )
         val dictionaryBlock: @Composable () -> Unit = {
             val code = language?.let { LanguageCodes.codeFor(it.name) }
             // Wiktionary's table of the word opens from the Dictionary card, in a dialog of its own.
@@ -308,8 +321,10 @@ private fun TermFormContent(
                 if (empty) {
                     Text(tr("Type a word or phrase to look it up."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 } else {
+                    if (sheet) compactSummary.pronunciation?.let { CompactDetailPreview(tr("Pronunciation"), it, "term-pronunciation-preview") }
                     TranslationField(state, viewModel, compact = true)
                     StatusSelector(selected = draft.status, onSelect = viewModel::setStatus, large = true)
+                    if (sheet) compactSummary.firstSense?.let { CompactDetailPreview(tr("Dictionary"), it, "term-first-sense-preview", maxLines = 2) }
                 }
             }
             dictionaryBlock()
@@ -358,6 +373,17 @@ private fun TermFormContent(
             onConfirm = { viewModel.delete(); confirmDelete = false },
             onDismiss = { confirmDelete = false },
         )
+    }
+}
+
+private data class CompactWordSummary(val pronunciation: String?, val firstSense: String?)
+
+/** One quiet fact in the phone reader's initial word-details viewport. */
+@Composable
+private fun CompactDetailPreview(label: String, value: String, testTag: String, maxLines: Int = 1) {
+    Column(Modifier.fillMaxWidth().testTag(testTag), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+        Text(label.uppercase(), style = AppText.overline, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        Text(value, style = MaterialTheme.typography.bodyLarge, maxLines = maxLines, overflow = TextOverflow.Ellipsis)
     }
 }
 

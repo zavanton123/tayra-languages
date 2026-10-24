@@ -224,7 +224,15 @@ fun ReadingScreen(
     // they change stays in sight above it; a wider window has room for the drawer beside the text.
     val phone = LocalWindowWidth.current.isCompact
     var paneSheet by remember { mutableStateOf(false) }
-    val openPane: () -> Unit = { if (phone) paneSheet = true else scope.launch { drawerState.open() } }
+    var paneInitialTab by remember { mutableStateOf(PaneTab.READING) }
+    val openPane: () -> Unit = {
+        paneInitialTab = PaneTab.READING
+        if (phone) paneSheet = true else scope.launch { drawerState.open() }
+    }
+    val openAppearance: () -> Unit = {
+        paneInitialTab = PaneTab.APPEARANCE
+        if (phone) paneSheet = true else scope.launch { drawerState.open() }
+    }
     var bookmarkDialog by remember { mutableStateOf(false) }
     // True while a text field of the term pane is being typed in: the hotkeys then stay out of the typing.
     var typing by remember { mutableStateOf(false) }
@@ -354,7 +362,9 @@ fun ReadingScreen(
 
     if (phone && paneSheet) {
         AppBottomSheet(onDismissRequest = { paneSheet = false }, scrimColor = MaterialTheme.colorScheme.scrim.copy(alpha = AppAlpha.tint)) {
-            Box(Modifier.fillMaxWidth().fillMaxHeight(PANE_SHEET_HEIGHT)) { ReaderPane(state, viewModel, paneActions, onClose = { paneSheet = false }) }
+            Box(Modifier.fillMaxWidth().fillMaxHeight(PANE_SHEET_HEIGHT)) {
+                ReaderPane(state, viewModel, paneActions, onClose = { paneSheet = false }, initialTab = paneInitialTab)
+            }
         }
     }
     ModalNavigationDrawer(
@@ -402,7 +412,7 @@ fun ReadingScreen(
             val compact = LocalWindowWidth.current.isCompact
             when {
                 state.settings.focusMode -> FocusBar(state, viewModel, onMenu = openPane)
-                compact -> ReadingHeader(state, onMenu = openPane, onHome = leave)
+                compact -> ReadingHeader(state, onAppearance = openAppearance, onMenu = openPane, onHome = leave)
                 else -> {
                     AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = when {
                         state.lesson != null -> NavSection.COURSES
@@ -523,7 +533,7 @@ private fun SheetHandle() {
 }
 
 @Composable
-private fun ReadingHeader(state: ReadingUiState, onMenu: () -> Unit, onHome: () -> Unit) {
+private fun ReadingHeader(state: ReadingUiState, onAppearance: () -> Unit, onMenu: () -> Unit, onHome: () -> Unit) {
     BarSurface(raised = true) {
         Row(
             Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs),
@@ -554,6 +564,7 @@ private fun ReadingHeader(state: ReadingUiState, onMenu: () -> Unit, onHome: () 
                     modifier = Modifier.semantics { contentDescription = tr("Page {0} of {1}", state.pageNumber, state.pageCount) },
                 )
             }
+            AppIconButton(AppIcons.FormatSize, contentDescription = tr("Appearance"), onClick = onAppearance)
             AppIconButton(Icons.Default.Settings, contentDescription = tr("Reader settings"), onClick = onMenu)
         }
     }

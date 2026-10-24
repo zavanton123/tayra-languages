@@ -107,16 +107,22 @@ internal class ReaderPaneActions(
     val onTranslationSettings: () -> Unit,
 )
 
-private enum class PaneTab { READING, AUDIO, APPEARANCE }
+internal enum class PaneTab { READING, AUDIO, APPEARANCE }
 
 /**
  * The reader's left pane: its settings in three tabs (reading, audio, appearance) or the book's
  * bookmarks, with the reader tools always at the bottom. Every change is saved as it is made.
  */
 @Composable
-internal fun ReaderPane(state: ReadingUiState, viewModel: ReadingViewModel, actions: ReaderPaneActions, onClose: () -> Unit) {
+internal fun ReaderPane(
+    state: ReadingUiState,
+    viewModel: ReadingViewModel,
+    actions: ReaderPaneActions,
+    onClose: () -> Unit,
+    initialTab: PaneTab = PaneTab.READING,
+) {
     var showBookmarks by rememberSaveable { mutableStateOf(false) }
-    var tab by rememberSaveable { mutableStateOf(PaneTab.READING) }
+    var tab by rememberSaveable(initialTab) { mutableStateOf(initialTab) }
     var confirmReset by remember { mutableStateOf(false) }
     val bookmarks by viewModel.bookmarks.collectAsState()
     val colors = MaterialTheme.colorScheme
