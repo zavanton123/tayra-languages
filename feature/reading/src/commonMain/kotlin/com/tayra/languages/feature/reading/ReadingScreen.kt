@@ -108,7 +108,6 @@ import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.graphics.lerp
 import androidx.compose.foundation.layout.offset
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.Constraints
@@ -977,8 +976,6 @@ private val FOOTER_CONTROL_SIZE = 52.dp
 private val MOBILE_ACTION_SIZE = 48.dp
 private val MOBILE_PLAY_SIZE = 60.dp
 private val MOBILE_ACTION_BAR_HEIGHT = 76.dp
-/** How much of the well-known green the mark-known circle takes, over the surface. */
-private const val KNOWN_CIRCLE_TINT = 0.6f
 
 /** Room under the text, so the floating play controls do not cover its end. */
 private val CONTROLS_ROOM = 120.dp
@@ -1348,14 +1345,15 @@ private fun FooterCircle(label: String, icon: ImageVector, style: FooterCircleSt
     val colors = MaterialTheme.colorScheme
     val (background, tint) = when (style) {
         FooterCircleStyle.Outlined -> colors.surface to colors.primary
-        FooterCircleStyle.Known -> lerp(colors.surface, TayraTheme.current.statusColors.background(TermStatus.WELL_KNOWN), KNOWN_CIRCLE_TINT) to colors.onSurface
+        // Outlined like the practice beside it; only its icon keeps its own, darker colour.
+        FooterCircleStyle.Known -> colors.surface to colors.onSurface
         FooterCircleStyle.Filled -> colors.primary to colors.onPrimary
     }
     AppTooltip(label, modifier) {
         Box {
             Box(
                 Modifier.size(FOOTER_CONTROL_SIZE).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(background)
-                    .then(if (style == FooterCircleStyle.Outlined) Modifier.border(AppBorders.selected(colors.primary), AppShapes.circle) else Modifier)
+                    .then(if (style != FooterCircleStyle.Filled) Modifier.border(AppBorders.selected(colors.primary), AppShapes.circle) else Modifier)
                     .clickable(onClick = onClick)
                     .semantics { contentDescription = label },
                 contentAlignment = Alignment.Center,
