@@ -381,6 +381,10 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
                 modifier = Modifier.testTag("practice-sentence"),
             )
         }
+        // A sentence from a source that asks to be named, named once it is shown.
+        if (!sentenceHidden) exercise.credit?.let { credit ->
+            Text(tr("Sentence from {0}", credit), style = MaterialTheme.typography.bodySmall, color = colors.outline, modifier = Modifier.testTag("practice-credit"))
+        }
         exercise.offered?.let { offered ->
             Text(
                 "${exercise.word} — $offered?",

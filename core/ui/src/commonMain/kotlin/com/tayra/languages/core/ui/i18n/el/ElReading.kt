@@ -262,4 +262,5 @@ internal val elReading: Map<String, String> = mapOf(
     "Is this what the marked word means?" to "Αυτό σημαίνει η επισημασμένη λέξη;",
     "Yes, it means that" to "Ναι, αυτό σημαίνει",
     "No, it does not" to "Όχι, δεν σημαίνει αυτό",
+    "Sentence from {0}" to "Πρόταση από: {0}",
 )

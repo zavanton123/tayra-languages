@@ -20,7 +20,12 @@ data class StoredExample(
     val range: IntRange get() = formStart until formStart + form.length
 
     /** The sentence as practice asks it. */
-    fun asPractice(): PracticeExample = PracticeExample(sentence, range, translation)
+    fun asPractice(): PracticeExample = PracticeExample(sentence, range, translation, if (source == PracticeExampleStore.SOURCE_TATOEBA) TATOEBA_CREDIT else null)
+
+    companion object {
+        /** Tatoeba's sentences are shared under CC BY 2.0 FR, which asks for the source to be named. */
+        const val TATOEBA_CREDIT = "Tatoeba · CC BY 2.0 FR"
+    }
 }
 
 /** The sentences kept for [words], as practice asks them, by the word's key; words without a saved term or sentences are left out. */

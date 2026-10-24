@@ -277,6 +277,9 @@ class PracticeTest {
         assertEquals("comprar", fresh.word)
         assertEquals("I will buy bread tomorrow.", fresh.sentenceTranslation)
         assertEquals("comprar", fresh.practised)
+        assertEquals(null, fresh.credit)
+        val credited = PracticeBuilder.build(words, pageWords, mapOf("comprar" to listOf(examples.getValue("comprar").single().copy(credit = "Tatoeba"))), Random(5))
+        assertEquals("Tatoeba", credited.single { it.context == PracticeContext.EXAMPLE }.credit)
     }
 
     /** A sentence from elsewhere may use another form of the word: that form is the answer, the word saved is no wrong choice, and each sentence is asked once. */

@@ -262,4 +262,5 @@ internal val plReading: Map<String, String> = mapOf(
     "Is this what the marked word means?" to "Czy to znaczy zaznaczone słowo?",
     "Yes, it means that" to "Tak, to znaczy",
     "No, it does not" to "Nie, nie znaczy",
+    "Sentence from {0}" to "Zdanie z: {0}",
 )

@@ -262,4 +262,5 @@ internal val deReading: Map<String, String> = mapOf(
     "Is this what the marked word means?" to "Bedeutet das markierte Wort das?",
     "Yes, it means that" to "Ja, das bedeutet es",
     "No, it does not" to "Nein, das nicht",
+    "Sentence from {0}" to "Satz aus: {0}",
 )

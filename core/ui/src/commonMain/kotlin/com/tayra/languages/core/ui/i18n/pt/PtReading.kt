@@ -262,4 +262,5 @@ internal val ptReading: Map<String, String> = mapOf(
     "Is this what the marked word means?" to "É isto que a palavra marcada significa?",
     "Yes, it means that" to "Sim, significa isso",
     "No, it does not" to "Não, não significa",
+    "Sentence from {0}" to "Frase de: {0}",
 )

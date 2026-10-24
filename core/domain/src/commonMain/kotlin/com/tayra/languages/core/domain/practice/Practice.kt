@@ -16,8 +16,8 @@ data class PracticeWord(
     val key: String get() = text.lowercase()
 }
 
-/** A sentence from elsewhere that uses a word of the page. */
-data class PracticeExample(val sentence: String, val range: IntRange, val translation: String?)
+/** A sentence from elsewhere that uses a word of the page; [credit] names a source that asks to be named. */
+data class PracticeExample(val sentence: String, val range: IntRange, val translation: String?, val credit: String? = null)
 
 /** The skill a type of question trains; the practice setup groups the types by it. */
 enum class PracticeSkill { READING, LISTENING, TRANSLATION, WORD_FORMS }
@@ -180,6 +180,8 @@ data class Exercise(
     val pairs: List<Pair<String, String>> = emptyList(),
     /** The meaning offered, right or not, in a true-or-false question. */
     val offered: String? = null,
+    /** The source of a sentence from elsewhere, when it asks to be named. */
+    val credit: String? = null,
 ) {
     val isChoice: Boolean get() = options.isNotEmpty()
     val isListening: Boolean get() = spoken != null
@@ -327,7 +329,7 @@ object PracticeBuilder {
         // The word as saved is no wrong choice beside the form the sentence uses.
         val others = targets.filter { it.key != word.key }
         return exercise(type, response, form, others, pool.without(word.text), meanings, translations, random)
-            ?.copy(context = PracticeContext.EXAMPLE, practised = word.text, sentenceTranslation = example.translation)
+            ?.copy(context = PracticeContext.EXAMPLE, practised = word.text, sentenceTranslation = example.translation, credit = example.credit)
     }
 
     /**

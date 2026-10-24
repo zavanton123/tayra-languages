@@ -262,4 +262,5 @@ internal val frReading: Map<String, String> = mapOf(
     "Is this what the marked word means?" to "Est-ce le sens du mot marqué ?",
     "Yes, it means that" to "Oui, c’est ce sens",
     "No, it does not" to "Non, ce n’est pas ça",
+    "Sentence from {0}" to "Phrase de : {0}",
 )

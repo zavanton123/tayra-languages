@@ -262,4 +262,5 @@ internal val ruReading: Map<String, String> = mapOf(
     "Is this what the marked word means?" to "Это значение выделенного слова?",
     "Yes, it means that" to "Да, это значит это",
     "No, it does not" to "Нет, не значит",
+    "Sentence from {0}" to "Предложение из: {0}",
 )

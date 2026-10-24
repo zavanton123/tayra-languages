@@ -262,4 +262,5 @@ internal val esReading: Map<String, String> = mapOf(
     "Is this what the marked word means?" to "¿Es esto lo que significa la palabra marcada?",
     "Yes, it means that" to "Sí, significa eso",
     "No, it does not" to "No, no significa eso",
+    "Sentence from {0}" to "Oración de: {0}",
 )

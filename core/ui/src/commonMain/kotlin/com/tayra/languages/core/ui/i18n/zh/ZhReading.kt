@@ -262,4 +262,5 @@ internal val zhReading: Map<String, String> = mapOf(
     "Is this what the marked word means?" to "标出的词是这个意思吗？",
     "Yes, it means that" to "是，就是这个意思",
     "No, it does not" to "不是",
+    "Sentence from {0}" to "句子来源：{0}",
 )
