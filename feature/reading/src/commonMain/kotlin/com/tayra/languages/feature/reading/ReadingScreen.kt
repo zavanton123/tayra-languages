@@ -1215,7 +1215,7 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
                 FooterCircle(
                     if (last) tr("Mark remaining words as known") else tr("Mark the rest known and turn the page"),
                     AppIcons.DoneAll,
-                    FooterCircleStyle.Known,
+                    FooterCircleStyle.Outlined,
                     badge = unknowns,
                 ) { viewModel.markPageRead(true, if (last) 0 else 1) }
             }
@@ -1337,7 +1337,7 @@ private fun Modifier.bleed(horizontal: Dp) = layout { measurable, constraints ->
     layout(constraints.maxWidth, placeable.height) { placeable.place(-extra, 0) }
 }
 
-private enum class FooterCircleStyle { Outlined, Known, Filled }
+private enum class FooterCircleStyle { Outlined, Filled }
 
 /** A round footer button, its label shown as a tooltip and read out by screen readers; [badge] counts what it acts on. */
 @Composable
@@ -1345,15 +1345,13 @@ private fun FooterCircle(label: String, icon: ImageVector, style: FooterCircleSt
     val colors = MaterialTheme.colorScheme
     val (background, tint) = when (style) {
         FooterCircleStyle.Outlined -> colors.surface to colors.primary
-        // Outlined like the practice beside it; only its icon keeps its own, darker colour.
-        FooterCircleStyle.Known -> colors.surface to colors.onSurface
         FooterCircleStyle.Filled -> colors.primary to colors.onPrimary
     }
     AppTooltip(label, modifier) {
         Box {
             Box(
                 Modifier.size(FOOTER_CONTROL_SIZE).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(background)
-                    .then(if (style != FooterCircleStyle.Filled) Modifier.border(AppBorders.selected(colors.primary), AppShapes.circle) else Modifier)
+                    .then(if (style == FooterCircleStyle.Outlined) Modifier.border(AppBorders.selected(colors.primary), AppShapes.circle) else Modifier)
                     .clickable(onClick = onClick)
                     .semantics { contentDescription = label },
                 contentAlignment = Alignment.Center,
