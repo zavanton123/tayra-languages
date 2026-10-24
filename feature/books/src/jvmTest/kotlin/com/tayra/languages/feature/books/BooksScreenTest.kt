@@ -9,8 +9,10 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.toAwtImage
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithText
@@ -18,6 +20,7 @@ import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.assertIsNotEnabled
+import androidx.compose.ui.unit.Density
 import com.tayra.languages.core.domain.dictionary.PackState
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.tayra.languages.core.domain.model.BookListItem
@@ -50,7 +53,7 @@ class BooksScreenTest {
 
     private val now = Clock.System.now()
 
-    private fun book(id: Long, title: String, page: Int, pages: Int, words: Int, opened: kotlin.time.Duration?, finished: Boolean, unknownPercent: Int, tags: List<String> = emptyList()) = BookListItem(
+    private fun book(id: Long, title: String, page: Int, pages: Int, words: Int, opened: kotlin.time.Duration?, finished: Boolean, unknownPercent: Int, tags: List<String> = emptyList(), sourceUri: String? = null) = BookListItem(
         id = id,
         title = title,
         languageId = 1,
@@ -63,12 +66,12 @@ class BooksScreenTest {
         isCompleted = finished,
         isArchived = false,
         stats = BookStats(100, unknownPercent, unknownPercent, mapOf(TermStatus.UNKNOWN to unknownPercent, TermStatus.WELL_KNOWN to 100 - unknownPercent)),
-        sourceUri = null,
+        sourceUri = sourceUri,
     )
 
     private val books = listOf(
         book(1, "Long text", 3, 5, 1223, 2.minutes, finished = false, unknownPercent = 31, tags = listOf("news", "travel")),
-        book(2, "Um sábado tranquilo", 1, 1, 103, 54.minutes, finished = true, unknownPercent = 26, tags = listOf("travel")),
+        book(2, "Um sábado tranquilo", 1, 1, 103, 54.minutes, finished = true, unknownPercent = 26, tags = listOf("travel"), sourceUri = "https://www.example.com/books/sabado"),
         book(3, "Demo", 2, 2, 386, 1.hours, finished = true, unknownPercent = 39),
         book(4, "Short Demo", 1, 1, 96, 70.minutes, finished = true, unknownPercent = 24),
         book(5, "A Maldição", 1, 1, 163, 4.days, finished = true, unknownPercent = 61, tags = listOf("news")),
@@ -222,7 +225,19 @@ class BooksScreenTest {
         onNodeWithText("69% known").assertExists()
         onNodeWithText("Your library").assertExists()
         onNodeWithText("Read, learn, and build your vocabulary with every text.").assertDoesNotExist()
+        assertEquals(1, onAllNodesWithText("Long text").fetchSemanticsNodes().size)
+        onNodeWithTag("book-row-1").assertDoesNotExist()
+        onNodeWithText("example.com", substring = true).assertExists()
+        onNodeWithText("100% read · 74% known").assertExists()
         System.getenv("BOOKS_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
+
+        // Progress joins the other controls in a sheet rather than taking a separate tab row.
+        onNodeWithTag("phone-progress").performClick()
+        onNodeWithText("Not started").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("book-row-6").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Not opened yet", substring = true).assertExists()
+        onNodeWithTag("phone-progress").performClick()
+        onNodeWithText("All progress").performClick()
 
         // Sorting from the sheet.
         onNodeWithTag("phone-sort").performClick()
@@ -240,12 +255,39 @@ class BooksScreenTest {
         // Ticking books starts from the bar's menu.
         onNodeWithContentDescription("List actions").performClick()
         onNodeWithText("Select books").performClick()
+        onNodeWithText("Continue reading").assertDoesNotExist()
+        onNodeWithTag("book-row-1").assertExists()
         onNodeWithContentDescription("Select A Maldição").performClick()
         onNodeWithText("1 of 2 selected").assertExists()
         onNodeWithText("Archive").performClick()
         assertEquals(listOf("A Maldição"), bulk["archive"])
         onNodeWithTag("done-selecting").performClick()
         assertEquals(0, onAllNodesWithContentDescription("Select A Maldição").fetchSemanticsNodes().size)
+    }
+
+    @Test
+    fun phoneBookControlsFitAtLargeText() = runDesktopComposeUiTest(width = 400, height = 860) {
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    val density = LocalDensity.current
+                    CompositionLocalProvider(
+                        LocalDensity provides Density(density.density, 1.3f),
+                        LocalLearningLanguage provides LearningLanguageState(listOf(1L to "Portuguese"), 1L) {},
+                    ) {
+                        Surface(color = MaterialTheme.colorScheme.background) {
+                            PhoneBooksContent(BooksUiState(loading = false, books = books), BooksCallbacks(), selecting = false, onDone = {})
+                        }
+                    }
+                }
+            }
+        }
+        waitForIdle()
+        val rootWidth = onAllNodes(isRoot())[0].fetchSemanticsNode().size.width
+        listOf("phone-progress", "phone-filters", "phone-sort").forEach { tag ->
+            val node = onNodeWithTag(tag).assertIsDisplayed().fetchSemanticsNode()
+            assertTrue(node.positionInRoot.x >= 0f && node.positionInRoot.x + node.size.width <= rootWidth, "$tag stays inside the viewport at 130% text")
+        }
     }
 
     /** An empty library offers the language's free book pack, and the offer waits while it downloads. */
