@@ -1,6 +1,6 @@
 # Tayra Languages Vocabulary Practice Plan
 
-Status: phases 1–4 implemented on `main`; phase 5 (speaking) under way — see section 13
+Status: phases 1–5 implemented on `main` — see section 13
 Date: 24 October 2026
 Scope: the practice of a page, of a whole text and of words chosen in the vocabulary, on Android, iOS, desktop and web
 
@@ -364,6 +364,7 @@ Done, each with tests and the full build passing:
 - **Phase 1:** exercise types, answer modes, sentence sources and a `PracticeSetup` in place of the five fixed kinds (old route kinds still read); the meaning, translation and heard-sentence questions; `PracticePlanner`; the setup dialog with presets, skills, answer modes, sentences, length, own presets and the setup remembered per reader and vocabulary.
 - **Phase 2:** `practice_examples` and `practice_progress` (migration 26); `WordForms` from the frequency lists' word groups and the learner's linked forms, rather than the dictionary packs' untagged forms table; `PracticeExampleStore` looking sentences up when a word starts being learned and before practice; questions in kept sentences in any form of the word; wrong choices of similar frequency and spelling; Tatoeba credited under its sentences.
 - **Phase 3:** typo tolerance (not within a word's last two letters, where inflections change it); letter tiles; the right form (Word forms skill); matching pairs; building the sentence; dictation of up to eight words with a word-by-word check; true or false; sound-alike.
+- **Phase 5:** `SpeechRecognition` with a `SPEAK` answer for the missing word, the translation and the heard sentence (right when the word is heard in what is said, accents aside) and a Shadowing type (say the sentence back; all its words heard is right, 80 % almost); a Speaking preset; speaking offered only where the language can be heard, and typed when the microphone is refused or by choice. Android uses the system recogniser (offline first) and asks for the microphone on the first Speak; iOS uses `SFSpeechRecognizer` on the device; the desktop records until a pause and transcribes with faster-whisper's small model in the speech worker, installed from the Speech settings.
 - **Phase 4:** `WordProgress` levels with the rules of 3.2, recorded one answer at a time; "Adapt to my level"; the Words filter (all, new, weakest, not practised for a week); the level on the word's page (not in the list's row tooltip).
 
 Changed from the plan:
@@ -371,6 +372,9 @@ Changed from the plan:
 - Forms come from the frequency lists (offline, 33 languages) and linked terms; Wiktionary's tagged forms are not used, so choose-the-form relies on the sentence's translation as its clue.
 - Matching pairs and true-or-false moves no level; matching counts as one question.
 - Build the sentence is answered with tiles only.
+- Speaking sits at the top practice level beside typing, and is left out of the Balanced and Listening presets: it needs a quiet room and a recogniser, so it is asked for by name.
+- The desktop worker decodes the recording itself: faster-whisper's own decoder fails with current PyAV.
+- Not tried on hardware yet: real speech on Android (the emulator dies opening the Mac's microphone) and iOS (compiled only).
 
-Not done yet: phase 5 (speaking), word partners (6.7), gender and plural (6.8).
+Not done yet: word partners (6.7), gender and plural (6.8).
 
