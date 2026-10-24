@@ -215,6 +215,14 @@ class TermsListViewModel(
         page.value = 0
     }
 
+    /** A phone's list goes on as it is scrolled: the next terms join those shown, all on the one page. */
+    fun showMore() {
+        val s = state.value
+        if (s.terms.size >= s.totalCount) return
+        page.value = 0
+        pageSize.value = s.terms.size + PAGE_SIZE
+    }
+
     fun goToPage(index: Int) {
         page.value = index.coerceIn(0, state.value.pageCount - 1)
     }

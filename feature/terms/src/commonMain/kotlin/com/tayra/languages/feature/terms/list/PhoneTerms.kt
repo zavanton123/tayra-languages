@@ -1,5 +1,10 @@
 package com.tayra.languages.feature.terms.list
 
+import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.AppSpinner
+import androidx.compose.runtime.snapshotFlow
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.foundation.lazy.rememberLazyListState
 import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.chosenFor
 import com.tayra.languages.core.ui.components.shownName
@@ -117,6 +122,12 @@ internal fun PhoneTermsScreen(
     var sorting by remember { mutableStateOf(false) }
     var filtering by remember { mutableStateOf(false) }
     val showChecks = selecting || state.selected.isNotEmpty()
+    // No pages on a phone: the list loads more as its end comes near.
+    val list = rememberLazyListState()
+    LaunchedEffect(list) {
+        snapshotFlow { list.layoutInfo.visibleItemsInfo.lastOrNull()?.index to list.layoutInfo.totalItemsCount }
+            .collect { (last, total) -> if (last != null && total > 0 && last >= total - 5) viewModel.showMore() }
+    }
     Scaffold(
         topBar = {
             AppTopBar(
@@ -131,7 +142,7 @@ internal fun PhoneTermsScreen(
             state.message?.let { AppSnackbar(it, actionLabel = tr("OK"), onAction = viewModel::dismissMessage) }
         },
     ) { padding ->
-        ScrollList(Modifier.padding(padding).fillMaxSize(), contentPadding = PaddingValues(horizontal = AppSpacing.l, vertical = AppSpacing.m)) {
+        ScrollList(Modifier.padding(padding).fillMaxSize(), state = list, contentPadding = PaddingValues(horizontal = AppSpacing.l, vertical = AppSpacing.m)) {
             item {
                 Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
                     Text(
@@ -174,7 +185,9 @@ internal fun PhoneTermsScreen(
                     Spacer(Modifier.height(AppSpacing.s))
                 }}
             }
-            item { Pager(state, viewModel, compact = true) }
+            if (!state.loading && state.terms.size < state.totalCount) {
+                item { Box(Modifier.fillMaxWidth().padding(AppSpacing.l), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Small) } }
+            }
         }
     }
 

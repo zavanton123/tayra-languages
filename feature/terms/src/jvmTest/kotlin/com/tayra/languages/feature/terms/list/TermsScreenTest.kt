@@ -1,5 +1,10 @@
 package com.tayra.languages.feature.terms.list
 
+import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.performScrollToNode
+import androidx.compose.ui.test.performScrollToIndex
+import androidx.compose.ui.test.hasScrollToNodeAction
+import androidx.compose.ui.test.hasScrollToIndexAction
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
@@ -65,7 +70,7 @@ class TermsScreenTest {
     @AfterTest
     fun tearDown() = stopKoin()
 
-    private fun ComposeUiTest.show(onNavigate: (Route) -> Unit = {}) {
+    private fun ComposeUiTest.show(onNavigate: (Route) -> Unit = {}, extra: Int = 0) {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
             settings.update { it.copy(currentLanguageId = id) }
@@ -73,6 +78,7 @@ class TermsScreenTest {
                 "gostar" to TermStatus.WELL_KNOWN, "comprar" to TermStatus.NEW_1, "produtos" to TermStatus.NEW_1,
                 "expressão" to TermStatus.WELL_KNOWN, "pensar" to TermStatus.LEARNING_3, "lá" to TermStatus.IGNORED,
             ).forEach { (text, status) -> service.save(TermDraft(languageId = id, text = text, status = status, statusExplicitlySet = true)) }
+            repeat(extra) { service.save(TermDraft(languageId = id, text = "palavra$it", status = TermStatus.NEW_1, statusExplicitlySet = true)) }
             id
         }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
@@ -92,7 +98,8 @@ class TermsScreenTest {
                 }
             }
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("comprar").fetchSemanticsNodes().isNotEmpty() }
+        // The newest term comes first: with many more added, the first of them.
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText(if (extra > 0) "palavra${extra - 1}" else "comprar").fetchSemanticsNodes().isNotEmpty() }
     }
 
     private fun ComposeUiTest.listed(word: String) = onAllNodesWithText(word).fetchSemanticsNodes().isNotEmpty()
@@ -202,5 +209,19 @@ class TermsScreenTest {
         onNodeWithContentDescription("Close").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning status").fetchSemanticsNodes().isEmpty() }
         onNodeWithContentDescription("1 filter on").assertExists()
+    }
+
+    /** A phone has no pages: the list grows by the next terms as its end comes into view. */
+    @Test
+    fun aPhonesListLoadsMoreAsItScrolls() = runDesktopComposeUiTest(width = 400, height = 1100) {
+        show(extra = 120)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning 1–4 · 123 terms").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodesWithContentDescription("Next page").fetchSemanticsNodes().size, "no pager on a phone")
+        // The first 50 are listed at the start; scrolling towards their end brings the next ones, until the oldest shows.
+        for (index in 40..130 step 10) {
+            runCatching { onNode(hasScrollToIndexAction()).performScrollToIndex(index) }
+            waitForIdle()
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("palavra0").fetchSemanticsNodes().isNotEmpty() }
     }
 }
