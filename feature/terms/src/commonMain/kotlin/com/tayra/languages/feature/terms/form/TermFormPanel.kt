@@ -162,6 +162,7 @@ import com.tayra.languages.feature.terms.examples.withStatuses
 import io.ktor.http.encodeURLParameter
 import kotlin.time.Clock
 import org.koin.compose.koinInject
+import com.tayra.languages.core.domain.practice.WordProgress
 
 /**
  * The term editing form, used both standalone and embedded in the reading pane.
@@ -341,6 +342,7 @@ private fun TermFormContent(
                 InformationCard(Modifier.fillMaxWidth(), state, viewModel, direction, focusRequester)
                 StatusCard(Modifier.fillMaxWidth(), state, viewModel)
                 FlashcardCard(Modifier.fillMaxWidth(), state, viewModel)
+                PracticeCard(Modifier.fillMaxWidth(), state)
                 dictionaryBlock()
                 examplesBlock()
                 links(Modifier.fillMaxWidth())
@@ -355,6 +357,7 @@ private fun TermFormContent(
                     Column(Modifier.weight(1.1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                         StatusCard(Modifier.fillMaxWidth(), state, viewModel)
                         FlashcardCard(Modifier.fillMaxWidth(), state, viewModel)
+                        PracticeCard(Modifier.fillMaxWidth(), state)
                         links(Modifier.fillMaxWidth())
                         delete(Modifier.fillMaxWidth())
                     }
@@ -618,6 +621,34 @@ private fun FlashcardCard(modifier: Modifier, state: TermFormUiState, viewModel:
             onConfirm = { viewModel.restartFlashcard(); confirmReset = false },
             onDismiss = { confirmReset = false },
         )
+    }
+}
+
+/** How far practice has taken the term: its level of four, as steps, with its right answers and when it was last practised. */
+@Composable
+private fun PracticeCard(modifier: Modifier, state: TermFormUiState) {
+    if (!state.practiceShown || state.isNew) return
+    val colors = MaterialTheme.colorScheme
+    FormCard(modifier, AppIcons.School, tr("Practice")) {
+        val progress = state.practice
+        if (progress == null || progress.asked == 0) {
+            Text(tr("Not practised yet."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            return@FormCard
+        }
+        val level = when (progress.level) {
+            0 -> tr("Recognising")
+            1 -> tr("Recalling with help")
+            2 -> tr("Recalling")
+            else -> tr("Producing")
+        }
+        Row(Modifier.fillMaxWidth().testTag("practice-level"), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+            repeat(WordProgress.TOP + 1) { step ->
+                Box(Modifier.weight(1f).height(AppSizes.trackThin).clip(AppShapes.tiny).background(if (step <= progress.level) colors.primary else colors.surfaceContainerHighest))
+            }
+        }
+        KeyValueRow(tr("Level"), level)
+        KeyValueRow(tr("Right answers"), tr("{0} of {1}", progress.right, progress.asked))
+        progress.lastPractised?.let { KeyValueRow(tr("Last practised"), it.formatDate()) }
     }
 }
 

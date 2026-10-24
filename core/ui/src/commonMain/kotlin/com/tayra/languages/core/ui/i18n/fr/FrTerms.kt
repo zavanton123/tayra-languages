@@ -461,4 +461,11 @@ internal val frTerms: Map<String, String> = mapOf(
     "Not practised for a week" to "Pas travaillés depuis une semaine",
     "Needs four words with meanings" to "Il faut quatre mots avec un sens",
     "None of the words is of the kind chosen" to "Aucun des mots ne correspond au choix",
+    "Not practised yet." to "Pas encore travaillé.",
+    "Recognising" to "Reconnaître",
+    "Recalling with help" to "Se rappeler avec aide",
+    "Recalling" to "Se rappeler",
+    "Producing" to "Employer",
+    "Right answers" to "Bonnes réponses",
+    "Last practised" to "Dernier entraînement",
 )

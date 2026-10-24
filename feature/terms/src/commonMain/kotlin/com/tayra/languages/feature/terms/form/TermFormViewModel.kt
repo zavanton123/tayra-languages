@@ -60,6 +60,8 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlin.time.Instant
+import com.tayra.languages.core.domain.practice.WordProgress
+import com.tayra.languages.core.domain.practice.PracticeProgressRepository
 
 /** What the term form edits; [sentence] is the one the term is being read in, when it was opened from a text. */
 sealed interface TermFormKey {
@@ -122,6 +124,10 @@ data class TermFormUiState(
     val flashcard: Flashcard? = null,
     /** Whether this form can show and change the term's flashcard. */
     val flashcardsShown: Boolean = false,
+    /** How far practice has taken the term; null before it is practised. */
+    val practice: WordProgress? = null,
+    /** Whether this form shows the term's practice level. */
+    val practiceShown: Boolean = false,
     /** What Wiktionary has on the term online. */
     val wiktionary: WiktionaryUi = WiktionaryUi(),
 ) {
@@ -185,6 +191,8 @@ class TermFormViewModel(
     private val recordings: WordRecordings? = null,
     /** Wiktionary online: the term's forms, synonyms, pronunciations and, without an offline dictionary, its meanings. */
     private val wiktionary: OnlineWiktionary? = null,
+    /** How far practice has taken the term, shown beside its flashcard. */
+    private val practiceProgress: PracticeProgressRepository? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(TermFormUiState())
@@ -760,9 +768,22 @@ class TermFormViewModel(
     }
 
     private suspend fun refreshFlashcard(termId: Long?) {
+        refreshPractice(termId)
         val service = flashcards ?: return
         val card = termId?.let { service.cardFor(it) }
         _state.update { it.copy(flashcard = card, flashcardsShown = true) }
+    }
+
+    private suspend fun refreshPractice(termId: Long?) {
+        val repository = practiceProgress ?: return
+        val progress = try {
+            termId?.let { repository.progress(listOf(it))[it] }
+        } catch (e: CancellationException) {
+            throw e
+        } catch (e: Exception) {
+            null
+        }
+        _state.update { it.copy(practice = progress, practiceShown = true) }
     }
 
     /** A suspended flashcard is kept but not shown for review. */

@@ -74,6 +74,9 @@ import kotlin.test.AfterTest
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
+import com.tayra.languages.core.data.repository.PracticeProgressRepositoryImpl
+import com.tayra.languages.core.domain.practice.WordProgress
+import kotlin.time.Instant
 
 /** The term editor page shows the term, its dictionary entry, examples, status and links, and saves a new status. */
 @OptIn(ExperimentalTestApi::class)
@@ -126,7 +129,7 @@ class TermEditScreenTest {
     }
 
     /** The editor for [word], a Portuguese term being learned, with only the [installed] dictionary of the pair on the device. */
-    private fun ComposeUiTest.openEditor(word: String, installed: DictionaryId, sheet: Boolean = false): Editor {
+    private fun ComposeUiTest.openEditor(word: String, installed: DictionaryId, sheet: Boolean = false, practised: List<WordProgress.Answer> = emptyList()): Editor {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-term-edit", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val terms = TermRepositoryImpl(provider)
@@ -162,6 +165,8 @@ class TermEditScreenTest {
         ).also { runBlocking { it.refresh() } }
         val termService = TermService(terms, languages)
         val flashcards = FlashcardService(FlashcardRepositoryImpl(provider), terms, settings)
+        val progress = PracticeProgressRepositoryImpl(provider)
+        runBlocking { practised.forEachIndexed { i, answer -> progress.record(termId, answer, Instant.fromEpochMilliseconds(1_700_000_000_000L + i)) } }
         val exampleTerms = ExampleTerms(ReadingService(BookRepositoryImpl(provider), languages, terms, WordsReadRepositoryImpl(provider), termService), termService)
         startKoin {
             modules(module {
@@ -171,7 +176,7 @@ class TermEditScreenTest {
                 single { SentenceAudio(get(), settings, cache, get()) }
                 single<SettingsRepository> { settings }
                 single { WordTranslationService(terms, dictionaries, engine, settings) }
-                viewModel { (key: TermFormKey) -> TermFormViewModel(key, termService, terms, languages, settings, engine, sentences, dictionaries, dictionaries, exampleTerms, flashcards) }
+                viewModel { (key: TermFormKey) -> TermFormViewModel(key, termService, terms, languages, settings, engine, sentences, dictionaries, dictionaries, exampleTerms, flashcards, practiceProgress = progress) }
             })
         }
         val opened = Editor(termId, terms, flashcards)
@@ -203,6 +208,16 @@ class TermEditScreenTest {
         // At the top of the sheet, before the dictionary repeats them in full.
         onNode(hasText("siˈmane") and hasAnyAncestor(hasTestTag("term-pronunciation-preview")), useUnmergedTree = true).assertExists()
         onNode(hasText("week") and hasAnyAncestor(hasTestTag("term-first-sense-preview")), useUnmergedTree = true).assertExists()
+    }
+
+    /** The word's page shows how far practice has taken it, beside its flashcard. */
+    @Test
+    fun theWordsPageShowsItsPracticeLevel() = runDesktopComposeUiTest(width = 1586, height = 1400) {
+        openEditor("semana", DictionaryId("pt", "en"), practised = listOf(WordProgress.Answer.RIGHT, WordProgress.Answer.RIGHT, WordProgress.Answer.WRONG))
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("practice-level")).fetchSemanticsNodes().isNotEmpty() }
+        onNode(hasText("Recalling with help")).assertExists()
+        onNode(hasText("2 of 3")).assertExists()
+        System.getenv("TERM_PRACTICE_SCREENSHOT")?.let { save(it) }
     }
 
     private fun ComposeUiTest.save(path: String) {

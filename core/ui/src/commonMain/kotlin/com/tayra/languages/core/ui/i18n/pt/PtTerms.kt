@@ -461,4 +461,11 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Not practised for a week" to "Sem prática há uma semana",
     "Needs four words with meanings" to "Precisa de quatro palavras com significado",
     "None of the words is of the kind chosen" to "Nenhuma das palavras é do tipo escolhido",
+    "Not practised yet." to "Ainda não praticada.",
+    "Recognising" to "Reconhecer",
+    "Recalling with help" to "Lembrar com ajuda",
+    "Recalling" to "Lembrar",
+    "Producing" to "Usar",
+    "Right answers" to "Respostas certas",
+    "Last practised" to "Última prática",
 )

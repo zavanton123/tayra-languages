@@ -461,4 +461,11 @@ internal val plTerms: Map<String, String> = mapOf(
     "Not practised for a week" to "Nie ćwiczone od tygodnia",
     "Needs four words with meanings" to "Wymaga czterech słów ze znaczeniami",
     "None of the words is of the kind chosen" to "Żadne ze słów nie należy do wybranej grupy",
+    "Not practised yet." to "Jeszcze nie ćwiczone.",
+    "Recognising" to "Rozpoznawanie",
+    "Recalling with help" to "Przypominanie z pomocą",
+    "Recalling" to "Przypominanie",
+    "Producing" to "Używanie",
+    "Right answers" to "Dobre odpowiedzi",
+    "Last practised" to "Ostatnie ćwiczenie",
 )

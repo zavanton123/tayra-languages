@@ -461,4 +461,11 @@ internal val elTerms: Map<String, String> = mapOf(
     "Not practised for a week" to "Χωρίς εξάσκηση εδώ και μια εβδομάδα",
     "Needs four words with meanings" to "Χρειάζεται τέσσερις λέξεις με σημασίες",
     "None of the words is of the kind chosen" to "Καμία από τις λέξεις δεν είναι του είδους που επιλέξατε",
+    "Not practised yet." to "Δεν έχει εξασκηθεί ακόμη.",
+    "Recognising" to "Αναγνώριση",
+    "Recalling with help" to "Ανάκληση με βοήθεια",
+    "Recalling" to "Ανάκληση",
+    "Producing" to "Παραγωγή",
+    "Right answers" to "Σωστές απαντήσεις",
+    "Last practised" to "Τελευταία εξάσκηση",
 )

@@ -461,4 +461,11 @@ internal val deTerms: Map<String, String> = mapOf(
     "Not practised for a week" to "Seit einer Woche nicht geübt",
     "Needs four words with meanings" to "Braucht vier Wörter mit Bedeutungen",
     "None of the words is of the kind chosen" to "Keines der Wörter passt zur Auswahl",
+    "Not practised yet." to "Noch nicht geübt.",
+    "Recognising" to "Wiedererkennen",
+    "Recalling with help" to "Erinnern mit Hilfe",
+    "Recalling" to "Erinnern",
+    "Producing" to "Anwenden",
+    "Right answers" to "Richtige Antworten",
+    "Last practised" to "Zuletzt geübt",
 )

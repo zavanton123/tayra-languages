@@ -461,4 +461,11 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Not practised for a week" to "Не тренировались неделю",
     "Needs four words with meanings" to "Нужно четыре слова со значениями",
     "None of the words is of the kind chosen" to "Ни одно слово не подходит под выбор",
+    "Not practised yet." to "Ещё не тренировалось.",
+    "Recognising" to "Узнавание",
+    "Recalling with help" to "Вспоминание с подсказкой",
+    "Recalling" to "Вспоминание",
+    "Producing" to "Употребление",
+    "Right answers" to "Верные ответы",
+    "Last practised" to "Последняя тренировка",
 )

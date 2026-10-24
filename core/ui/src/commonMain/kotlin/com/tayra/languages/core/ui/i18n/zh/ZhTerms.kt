@@ -461,4 +461,11 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Not practised for a week" to "一周未练习",
     "Needs four words with meanings" to "需要四个带意思的单词",
     "None of the words is of the kind chosen" to "没有符合所选条件的单词",
+    "Not practised yet." to "尚未练习。",
+    "Recognising" to "认得",
+    "Recalling with help" to "借助提示回忆",
+    "Recalling" to "回忆",
+    "Producing" to "运用",
+    "Right answers" to "答对",
+    "Last practised" to "上次练习",
 )

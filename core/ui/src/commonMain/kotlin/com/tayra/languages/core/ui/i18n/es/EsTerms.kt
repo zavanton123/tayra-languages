@@ -461,4 +461,11 @@ internal val esTerms: Map<String, String> = mapOf(
     "Not practised for a week" to "Sin practicar desde hace una semana",
     "Needs four words with meanings" to "Necesita cuatro palabras con significado",
     "None of the words is of the kind chosen" to "Ninguna de las palabras es del tipo elegido",
+    "Not practised yet." to "Aún sin practicar.",
+    "Recognising" to "Reconocer",
+    "Recalling with help" to "Recordar con ayuda",
+    "Recalling" to "Recordar",
+    "Producing" to "Usar",
+    "Right answers" to "Respuestas correctas",
+    "Last practised" to "Última práctica",
 )
