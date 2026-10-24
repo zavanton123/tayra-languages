@@ -132,7 +132,7 @@ internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, s
             }
         }
         if (books.isEmpty()) {
-            item { NoBooks(state.archived, callbacks.onNewBook) }
+            item { NoBooks(state.archived, callbacks.onNewBook, onlyContinued = state.filteredBooks.isNotEmpty(), onFindBooks = callbacks.onFindBooks) }
         } else {
             items(books.size, key = { books[it].id }) { i -> Column(itemMotion()) {
                 PhoneBookCard(books[i], books[i].id in state.selected, showChecks, callbacks)

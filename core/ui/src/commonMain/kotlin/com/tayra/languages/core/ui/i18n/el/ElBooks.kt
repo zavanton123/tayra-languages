@@ -64,6 +64,7 @@ internal val elBooks: Map<String, String> = mapOf(
     "No archived books" to "Δεν υπάρχουν αρχειοθετημένα βιβλία",
     "Books you archive from their ⋮ menu wait here, out of your library, until you unarchive them." to "Τα βιβλία που αρχειοθετείτε από το μενού ⋮ τους περιμένουν εδώ, έξω από τη βιβλιοθήκη σας, μέχρι να τα επαναφέρετε.",
     "No books match these filters." to "Κανένα βιβλίο δεν ταιριάζει με αυτά τα φίλτρα.",
+    "No other books yet" to "Δεν υπάρχουν ακόμη άλλα βιβλία",
     "Create a book" to "Δημιουργία βιβλίου",
     "{1} words" to "{1} λέξη|{1} λέξεις",
 

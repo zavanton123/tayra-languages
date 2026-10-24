@@ -64,6 +64,7 @@ internal val ruBooks: Map<String, String> = mapOf(
     "No archived books" to "Архив пуст",
     "Books you archive from their ⋮ menu wait here, out of your library, until you unarchive them." to "Книги, которые вы архивируете через меню ⋮, хранятся здесь, вне библиотеки, пока вы не вернёте их из архива.",
     "No books match these filters." to "Нет книг, подходящих под фильтры.",
+    "No other books yet" to "Других книг пока нет",
     "Create a book" to "Создать книгу",
     "{1} words" to "{1} слово|{1} слова|{1} слов",
 

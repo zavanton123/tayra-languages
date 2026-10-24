@@ -81,8 +81,8 @@ class BooksScreenTest {
     /** The books a bulk action was asked for, by action. */
     private val bulk = mutableMapOf<String, List<String>>()
 
-    private fun ComposeUiTest.show() = setContent {
-        var state by remember { mutableStateOf(BooksUiState(loading = false, books = books, wordsLearned = 349)) }
+    private fun ComposeUiTest.show(library: List<BookListItem> = books) = setContent {
+        var state by remember { mutableStateOf(BooksUiState(loading = false, books = library, wordsLearned = 349)) }
         TayraTheme {
             ProvideWindowWidth {
                 CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(1L to "Portuguese"), 1L) {}) {
@@ -128,6 +128,30 @@ class BooksScreenTest {
         onNode(hasScrollToIndexAction()).performScrollToNode(hasText("6 books  ·  349 words learned"))
         onNodeWithText("6 books  ·  349 words learned").assertExists()
         onNodeWithText("Not opened yet").assertExists()
+    }
+
+    /** When the one match is the book in the continue card, the list says there is nothing else, not that the filters hide it. */
+    @Test
+    fun aFilterMatchingOnlyTheContinuedBookOffersOtherBooks() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        onNodeWithTag("progress-READING").performClick()
+        waitForIdle()
+        onNodeWithText("Continue reading").assertExists()
+        onNodeWithText("No other books yet").assertExists()
+        // The header's Find books and the empty list's own.
+        assertEquals(2, onAllNodesWithText("Find books").fetchSemanticsNodes().size)
+        onNodeWithText("No books match these filters.").assertDoesNotExist()
+    }
+
+    /** A phone library holding only the book being read shows its card and no claim that filters hide the rest. */
+    @Test
+    fun aPhoneLibraryOfOnlyTheContinuedBookOffersOtherBooks() = runDesktopComposeUiTest(width = 420, height = 900) {
+        show(books.take(1))
+        waitForIdle()
+        onNodeWithText("Continue reading").assertExists()
+        onNode(hasScrollToIndexAction()).performScrollToNode(hasText("No other books yet"))
+        onNodeWithText("No other books yet").assertExists()
+        onNodeWithText("No books match these filters.").assertDoesNotExist()
     }
 
     @Test

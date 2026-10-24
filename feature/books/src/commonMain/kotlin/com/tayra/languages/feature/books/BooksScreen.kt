@@ -274,7 +274,7 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
         }
         item {
             when {
-                books.isEmpty() -> NoBooks(state.archived, callbacks.onNewBook)
+                books.isEmpty() -> NoBooks(state.archived, callbacks.onNewBook, onlyContinued = state.filteredBooks.isNotEmpty(), onFindBooks = callbacks.onFindBooks)
                 !wide || state.view == BooksView.GRID -> BookGrid(books, state.selected, showChecks, compact, callbacks)
                 else -> BookTable(state, books, showChecks, callbacks)
             }
@@ -731,14 +731,17 @@ internal fun EmptyArchive() {
     EmptyState(AppIcons.Book, tr("No archived books"), message = tr("Books you archive from their ⋮ menu wait here, out of your library, until you unarchive them."))
 }
 
-/** No books in the archive, or none matching the filters. */
+/**
+ * No books in the archive, or none matching the filters. [onlyContinued] means the one match is the
+ * book in the continue card above: the library holds nothing else, so the way on is another book.
+ */
 @Composable
-internal fun NoBooks(archived: Boolean, onNewBook: () -> Unit) {
-    EmptyState(
-        AppIcons.Book,
-        if (archived) tr("No archived books.") else tr("No books match these filters."),
-        action = if (archived) null else ({ QuietButton(tr("Create a book"), onClick = onNewBook) }),
-    )
+internal fun NoBooks(archived: Boolean, onNewBook: () -> Unit, onlyContinued: Boolean = false, onFindBooks: () -> Unit = {}) {
+    when {
+        archived -> EmptyState(AppIcons.Book, tr("No archived books."))
+        onlyContinued -> EmptyState(AppIcons.Book, tr("No other books yet"), action = { QuietButton(tr("Find books"), onClick = onFindBooks) })
+        else -> EmptyState(AppIcons.Book, tr("No books match these filters."), action = { QuietButton(tr("Create a book"), onClick = onNewBook) })
+    }
 }
 
 internal fun words(count: Int) = trPlural(count, "{1} word", "{1} words", count.grouped())
