@@ -11,6 +11,8 @@ import com.tayra.languages.core.data.ocr.VisionTextRecognizer
 import com.tayra.languages.core.data.settings.KeychainSecureStore
 import com.tayra.languages.core.data.settings.SecureStore
 import com.tayra.languages.core.data.speech.FileSpeechAudioCache
+import com.tayra.languages.core.data.speech.IosSpeechRecognition
+import com.tayra.languages.core.domain.practice.SpeechRecognition
 import com.tayra.languages.core.domain.ocr.TextRecognizer
 import com.tayra.languages.core.domain.service.SpeechAudioCache
 import org.koin.core.module.Module
@@ -21,6 +23,7 @@ actual val platformDataModule: Module = module {
     single { DatabaseDriverFactory() }
     single { BackupFiles() }
     single<SpeechAudioCache> { FileSpeechAudioCache() }
+    single<SpeechRecognition> { IosSpeechRecognition() }
     single { DictionaryPackStorage(get()) }
     single { CoursePackFiles(get()) }
     single { BookPackFiles(get()) }

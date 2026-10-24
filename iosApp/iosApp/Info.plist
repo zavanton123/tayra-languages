@@ -20,6 +20,10 @@
 	<string>1</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Tayra Languages uses the camera to photograph pages of a book, whose text it reads into a new lesson.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Tayra Languages listens to your answers when you practise speaking.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Tayra Languages recognises what you say when you practise speaking, to check your answers.</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
