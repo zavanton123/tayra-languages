@@ -50,6 +50,7 @@ import androidx.compose.runtime.key
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -296,9 +297,16 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
  */
 @Composable
 private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: FlashcardActions) {
+    val scroll = rememberScrollState()
+    // The answer opens under the sentence, below the fold on a small phone: the card follows it down
+    // as it grows, so the answer is in view before it is rated.
+    LaunchedEffect(state.card?.termId, state.revealed) {
+        if (state.revealed) snapshotFlow { scroll.maxValue }.collect { scroll.scrollTo(it) }
+    }
     Column(Modifier.fillMaxSize()) {
         ScrollColumn(
             Modifier.weight(1f).fillMaxWidth(),
+            state = scroll,
             contentModifier = Modifier.padding(AppSpacing.l),
             verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
         ) {

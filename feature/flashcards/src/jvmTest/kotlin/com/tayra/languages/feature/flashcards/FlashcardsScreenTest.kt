@@ -65,6 +65,7 @@ import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 
 /** A card is shown front first, the answer on request, and answering it moves on and moves the word's status. */
 @OptIn(ExperimentalTestApi::class)
@@ -307,6 +308,20 @@ class FlashcardsScreenTest {
         val good = onNodeWithTag("answer-Good").fetchSemanticsNode().boundsInRoot
         assertEquals(reveal.top, good.top, 1f)
         assertEquals(reveal.height, good.height, 1f)
+    }
+
+    /** On a short phone the answer opens below the fold; the card scrolls to it, clear of the answer buttons. */
+    @Test
+    fun aShortPhoneScrollsTheCardToTheAnswer() = runDesktopComposeUiTest(width = 400, height = 700) {
+        show(phone = true)
+        onNodeWithText("Show answer").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().isNotEmpty() }
+        waitForIdle()
+        // Unclipped: a part scrolled out of the card's frame still counts.
+        val answer = onNodeWithTag("flashcard-answer").fetchSemanticsNode().let { it.positionInRoot.y + it.size.height }
+        val good = onNodeWithTag("answer-Good").fetchSemanticsNode().boundsInRoot.top
+        assertTrue(answer <= good, "the answer ends at $answer, under the buttons at $good")
+        save("FLASHCARD_SHORT_PHONE_SCREENSHOT")
     }
 
     /** With two answer buttons only Again and Good are offered, and the keys of the others do nothing. */
