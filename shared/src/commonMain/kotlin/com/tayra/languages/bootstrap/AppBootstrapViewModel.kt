@@ -19,6 +19,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
+import com.tayra.languages.core.domain.practice.PracticeExampleStore
 
 sealed interface BootstrapState {
     data object Loading : BootstrapState
@@ -37,6 +38,7 @@ class AppBootstrapViewModel(
     private val dictionaries: DictionaryService,
     private val translationLanguages: TranslationLanguageKeeper,
     private val learningTranslations: LearningTranslations,
+    private val practiceExamples: PracticeExampleStore,
     private val learningLanguage: LearningLanguageService,
     private val courses: CourseService,
     private val coursePacks: CoursePackService,
@@ -69,6 +71,7 @@ class AppBootstrapViewModel(
                 dictionaries.refresh()
                 translationLanguages.start(viewModelScope)
                 learningTranslations.start(viewModelScope)
+                practiceExamples.start(viewModelScope)
             } catch (e: Exception) {
                 Logger.e(e) { "Bootstrap failed" }
                 _state.value = BootstrapState.Failed(e.message ?: e.toString())

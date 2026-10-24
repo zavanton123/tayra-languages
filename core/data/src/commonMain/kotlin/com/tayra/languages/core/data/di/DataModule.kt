@@ -135,6 +135,7 @@ import com.tayra.languages.core.domain.stats.LearningStatsRepository
 import com.tayra.languages.core.domain.web.WebPageReader
 import org.koin.core.module.Module
 import org.koin.dsl.module
+import com.tayra.languages.core.domain.practice.PracticeExampleStore
 
 /** Platform-specific bindings: the database driver factories and [Settings]. */
 expect val platformDataModule: Module
@@ -202,7 +203,8 @@ val dataModule: Module = module {
     single { PracticeMaterialLoader(get(), get(), get(), get()) }
     single<PracticeExampleRepository> { PracticeExampleRepositoryImpl(get()) }
     single { WordForms(getOrNull(), get()) }
-    single { TermService(get(), get(), translationsWanted = get<LearningTranslations>()::request, chineseTables = getOrNull()) }
+    single { PracticeExampleStore(get(), get(), get(), get(), get(), get(), get()) }
+    single { TermService(get(), get(), translationsWanted = get<LearningTranslations>()::request, chineseTables = getOrNull(), learningStarted = { get<PracticeExampleStore>().request(it) }) }
     single { ExampleRecordings(KtorRecordingFetcher(get()), get()) }
     single { WordRecordings(CommonsRecordingSource(get())) }
     // In a browser the requests go without the app's User-Agent, which would need a preflight WiktApi refuses.

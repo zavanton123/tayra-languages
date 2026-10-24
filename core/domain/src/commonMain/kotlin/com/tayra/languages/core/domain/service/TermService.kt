@@ -33,6 +33,8 @@ class TermService(
     private val translationsWanted: (Collection<Long>) -> Unit = {},
     /** OpenCC's tables: a Chinese language's terms are kept in its script, so they must be loaded before one is parsed. */
     private val chineseTables: ChineseScriptTables? = null,
+    /** Called with terms that may be starting to be learned, so sentences for their practice are looked up. */
+    private val learningStarted: (Collection<Long>) -> Unit = {},
 ) {
 
     suspend fun language(languageId: Long): Language {
@@ -137,7 +139,10 @@ class TermService(
         val id = terms.save(term)
         terms.setParents(id, parents.map { it.id })
         propagateStatusToFollowingChildren(id, term.status, term.sentence)
-        if (term.status.isLearning) translationsWanted(listOf(id) + parents.map { it.id })
+        if (term.status.isLearning) {
+            translationsWanted(listOf(id) + parents.map { it.id })
+            learningStarted(listOf(id))
+        }
         return id
     }
 
@@ -156,7 +161,10 @@ class TermService(
     private suspend fun applyStatus(targets: List<Term>, status: TermStatus, provided: (Term) -> String?) {
         if (targets.isEmpty()) return
         terms.updateStatus(targets.map { it.id }, status)
-        if (status.isLearning) translationsWanted(targets.filter { it.translation.isNullOrBlank() }.map { it.id })
+        if (status.isLearning) {
+            translationsWanted(targets.filter { it.translation.isNullOrBlank() }.map { it.id })
+            learningStarted(targets.map { it.id })
+        }
         for (term in targets) {
             val sentence = term.sentenceAt(status, provided(term))
             if (sentence != term.sentence) terms.updateSentence(term.id, sentence)
