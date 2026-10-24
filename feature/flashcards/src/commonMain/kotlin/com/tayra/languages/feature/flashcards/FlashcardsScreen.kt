@@ -311,10 +311,11 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
         }
         val card = state.card ?: return@Column
         Column(Modifier.fillMaxWidth().padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            // Show answer and the answers share one slot, so the thumb finds them in the same place.
             if (state.revealed) {
                 Appear { Answers(actions, compact = true, state.twoButtons, state.waits) }
             } else {
-                PrimaryButton(onClick = actions.onReveal, modifier = Modifier.fillMaxWidth().height(SHOW_ANSWER_HEIGHT_COMPACT).then(NoFocus)) {
+                PrimaryButton(onClick = actions.onReveal, modifier = Modifier.fillMaxWidth().heightIn(min = ANSWER_SLOT_COMPACT).then(NoFocus)) {
                     Text(tr("Show answer"), style = AppText.itemTitle)
                 }
             }
@@ -548,6 +549,9 @@ private val PILL_DIVIDER_HEIGHT = 22.dp
 private val SHOW_ANSWER_WIDTH = 360.dp
 private val SHOW_ANSWER_HEIGHT = 64.dp
 private val SHOW_ANSWER_HEIGHT_COMPACT = 54.dp
+
+/** The phone's answer slot: Show answer and the answers under it are the same height, so neither moves the other. */
+private val ANSWER_SLOT_COMPACT = 76.dp
 private val FINISHED_ICON_TILE = 64.dp
 
 /**
@@ -566,9 +570,10 @@ private fun Answers(actions: FlashcardActions, compact: Boolean, twoButtons: Boo
             val tint = rating.tint
             val label = tr(rating.label)
             Column(
-                Modifier.weight(1f).clip(AppShapes.panel).background(tint.copy(alpha = AppAlpha.tint)).border(AppBorders.hairline(tint.copy(alpha = AppAlpha.disabled)), AppShapes.panel)
+                Modifier.weight(1f).then(if (compact) Modifier.heightIn(min = ANSWER_SLOT_COMPACT) else Modifier).clip(AppShapes.panel).background(tint.copy(alpha = AppAlpha.tint)).border(AppBorders.hairline(tint.copy(alpha = AppAlpha.disabled)), AppShapes.panel)
                     .then(NoFocus).clickable(onClickLabel = label) { actions.onAnswer(rating) }.padding(vertical = if (compact) AppSpacing.l else AppSpacing.xl, horizontal = AppSpacing.xs).testTag("answer-${rating.label}"),
                 horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Center,
             ) {
                 Text(label, style = AppText.itemTitle, color = tint)
                 // When the card would come back, so the four answers can be told apart before choosing.

@@ -265,9 +265,14 @@ class FlashcardsScreenTest {
         onNodeWithTag("browse-flashcards").assertExists()
         for (label in listOf("Previous", "Edit", "More")) onNodeWithText(label).assertExists()
         save("FLASHCARD_PHONE_SCREENSHOT")
+        val reveal = onNodeWithText("Show answer").fetchSemanticsNode().boundsInRoot
         onNodeWithText("Show answer").performClick()
         onNodeWithTag("flashcard-answer").assertExists()
         save("FLASHCARD_PHONE_BACK_SCREENSHOT")
+        // The answers take Show answer's place: the same top edge and height, so the thumb need not move.
+        val good = onNodeWithTag("answer-Good").fetchSemanticsNode().boundsInRoot
+        assertEquals(reveal.top, good.top, 1f)
+        assertEquals(reveal.height, good.height, 1f)
     }
 
     /** With two answer buttons only Again and Good are offered, and the keys of the others do nothing. */
