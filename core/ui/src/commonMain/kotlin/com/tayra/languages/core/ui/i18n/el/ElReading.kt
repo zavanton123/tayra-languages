@@ -268,4 +268,6 @@ internal val elReading: Map<String, String> = mapOf(
     "Type instead" to "Πληκτρολόγησε αντί γι' αυτό",
     "The microphone could not be used" to "Δεν ήταν δυνατή η χρήση του μικροφώνου",
     "Type the answers instead." to "Πληκτρολόγησε τις απαντήσεις αντί γι' αυτό.",
+    "Read sentences aloud" to "Ανάγνωση προτάσεων φωναχτά",
+    "Stop reading sentences aloud" to "Διακοπή ανάγνωσης προτάσεων φωναχτά",
 )

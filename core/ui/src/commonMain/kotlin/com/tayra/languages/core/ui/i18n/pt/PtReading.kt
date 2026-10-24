@@ -268,4 +268,6 @@ internal val ptReading: Map<String, String> = mapOf(
     "Type instead" to "Escrever em vez disso",
     "The microphone could not be used" to "Não foi possível usar o microfone",
     "Type the answers instead." to "Escreva as respostas em vez disso.",
+    "Read sentences aloud" to "Ler as frases em voz alta",
+    "Stop reading sentences aloud" to "Deixar de ler as frases em voz alta",
 )

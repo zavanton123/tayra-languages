@@ -268,4 +268,6 @@ internal val zhReading: Map<String, String> = mapOf(
     "Type instead" to "改为输入",
     "The microphone could not be used" to "无法使用麦克风",
     "Type the answers instead." to "请改为输入答案。",
+    "Read sentences aloud" to "朗读句子",
+    "Stop reading sentences aloud" to "停止朗读句子",
 )

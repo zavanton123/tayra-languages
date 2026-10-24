@@ -105,6 +105,10 @@ import com.tayra.languages.core.domain.practice.PracticeChecker
 import androidx.compose.ui.text.style.TextDecoration
 import com.tayra.languages.core.domain.practice.PracticeBuilder
 import com.tayra.languages.core.ui.audio.rememberMicrophoneAccess
+import kotlinx.coroutines.launch
+import androidx.compose.runtime.rememberCoroutineScope
+import kotlinx.coroutines.flow.map
+import com.tayra.languages.core.domain.settings.SettingsRepository
 
 /** Practising the words being learned on a page, right after reading it, or words chosen in the vocabulary. */
 @Composable
@@ -120,6 +124,9 @@ fun PracticeScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
     val microphone = rememberMicrophoneAccess()
+    val settings = koinInject<SettingsRepository>()
+    val readAloud by remember(settings) { settings.settings.map { it.practiceReadAloud } }.collectAsStateWithLifecycle(settings.current.practiceReadAloud)
+    val scope = rememberCoroutineScope()
     DisposableEffect(speaker) { onDispose { speaker.stop() } }
     Scaffold(
         topBar = { if (!dialog) AppTopBar(title = tr("Practice"), onNavigate = onNavigate, section = if (source is PracticeSource.Words) NavSection.TERMS else NavSection.BOOKS, onBack = onBack) },
@@ -148,7 +155,12 @@ fun PracticeScreen(
                 },
                 onStopListening = viewModel::stopListening,
                 onTypeInstead = viewModel::typeInstead,
+                onReadAloud = { on ->
+                    if (!on) speaker.stop()
+                    scope.launch { settings.update { it.copy(practiceReadAloud = on) } }
+                },
             ),
+            readAloud = readAloud,
             modifier = Modifier.padding(padding),
             onClose = if (dialog) onBack else null,
         )
@@ -196,6 +208,8 @@ internal class PracticeActions(
     val onListen: () -> Unit = {},
     val onStopListening: () -> Unit = {},
     val onTypeInstead: () -> Unit = {},
+    /** Turns reading each sentence aloud on or off; null hides the switch. */
+    val onReadAloud: ((Boolean) -> Unit)? = null,
 )
 
 private const val BLANK = "[...]"
@@ -204,7 +218,7 @@ private val RESULT_BADGE_SIZE = 64.dp
 
 /** The page under the top bar: the question on show, or the result when all are answered. */
 @Composable
-internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, modifier: Modifier = Modifier, onClose: (() -> Unit)? = null) {
+internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, modifier: Modifier = Modifier, onClose: (() -> Unit)? = null, readAloud: Boolean = false) {
     val compact = LocalWindowWidth.current.isCompact
     val exercise = state.current
     val rootFocus = remember { FocusRequester() }
@@ -277,7 +291,7 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
                         if (state.speakingRefused) {
                             Notice(tr("The microphone could not be used"), Modifier.testTag("practice-speaking-refused"), message = tr("Type the answers instead."), icon = AppIcons.Mic)
                         }
-                        Question(state, exercise, actions, compact)
+                        Question(state, exercise, actions, compact, readAloud)
                     }
                 }
             }
@@ -329,7 +343,7 @@ private val Exercise.instruction: String
     }
 
 @Composable
-private fun Question(state: PracticeUiState, exercise: Exercise, actions: PracticeActions, compact: Boolean) {
+private fun Question(state: PracticeUiState, exercise: Exercise, actions: PracticeActions, compact: Boolean, readAloud: Boolean) {
     val colors = MaterialTheme.colorScheme
     val direction = if (state.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     val answered = state.answered
@@ -384,18 +398,35 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
                 modifier = Modifier.testTag("practice-asked"),
             )
         }
+        // Read aloud, the sentence is read once it is shown whole: a gap's only after the answer, which it would say.
+        // A listening question is read aloud already, and has its own button.
+        val readable = exercise.spoken == null && actions.onSpeak != null && actions.onReadAloud != null
+        val whole = answered || exercise.type == ExerciseType.MEANING || exercise.type == ExerciseType.TRUE_FALSE
+        LaunchedEffect(state.index, whole, readAloud) { if (readable && readAloud && whole) actions.onSpeak.invoke(exercise.sentence) }
         if (!sentenceHidden) {
             val highlight = SpanStyle(background = AppAccents.highlight.copy(alpha = AppAlpha.half), fontWeight = AppText.labelStrong.fontWeight)
-            Text(
-                buildAnnotatedString {
-                    append(exercise.sentence.substring(0, exercise.range.first))
-                    // The word is marked rather than blanked where its meaning is asked.
-                    withStyle(highlight) { append(if (answered || exercise.type == ExerciseType.MEANING || exercise.type == ExerciseType.TRUE_FALSE) exercise.sentence.substring(exercise.range) else BLANK) }
-                    append(exercise.sentence.substring(exercise.range.last + 1))
-                },
-                style = AppText.cardSentence(if (compact) 21f else 27f).copy(color = colors.onSurface, textAlign = TextAlign.Center, textDirection = direction),
-                modifier = Modifier.testTag("practice-sentence"),
-            )
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                if (readable) {
+                    AppIconButton(
+                        if (readAloud) AppIcons.VolumeUp else AppIcons.VolumeOff,
+                        if (readAloud) tr("Stop reading sentences aloud") else tr("Read sentences aloud"),
+                        onClick = { actions.onReadAloud.invoke(!readAloud) },
+                        modifier = Modifier.testTag("practice-read-aloud"),
+                        selected = readAloud,
+                        tint = if (readAloud) colors.primary else colors.outline,
+                    )
+                }
+                Text(
+                    buildAnnotatedString {
+                        append(exercise.sentence.substring(0, exercise.range.first))
+                        // The word is marked rather than blanked where its meaning is asked.
+                        withStyle(highlight) { append(if (answered || exercise.type == ExerciseType.MEANING || exercise.type == ExerciseType.TRUE_FALSE) exercise.sentence.substring(exercise.range) else BLANK) }
+                        append(exercise.sentence.substring(exercise.range.last + 1))
+                    },
+                    style = AppText.cardSentence(if (compact) 21f else 27f).copy(color = colors.onSurface, textAlign = TextAlign.Center, textDirection = direction),
+                    modifier = Modifier.weight(1f, fill = false).testTag("practice-sentence"),
+                )
+            }
         }
         // A sentence from a source that asks to be named, named once it is shown.
         if (!sentenceHidden) exercise.credit?.let { credit ->

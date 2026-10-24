@@ -92,6 +92,8 @@ data class UserSettings(
     val practiceSetupVocabulary: String = "",
     /** The learner's own practice presets, as `PracticePresets.encode` writes them. */
     val practicePresets: String = "",
+    /** Practice reads each question's sentence aloud once it is shown whole. */
+    val practiceReadAloud: Boolean = false,
 ) {
     fun hotkeyFor(action: HotkeyAction): Hotkey? = hotkeys[action]
 

@@ -268,4 +268,6 @@ internal val frReading: Map<String, String> = mapOf(
     "Type instead" to "Taper plutôt",
     "The microphone could not be used" to "Le micro n'a pas pu être utilisé",
     "Type the answers instead." to "Tapez plutôt les réponses.",
+    "Read sentences aloud" to "Lire les phrases à voix haute",
+    "Stop reading sentences aloud" to "Ne plus lire les phrases à voix haute",
 )

@@ -268,4 +268,6 @@ internal val deReading: Map<String, String> = mapOf(
     "Type instead" to "Stattdessen tippen",
     "The microphone could not be used" to "Das Mikrofon konnte nicht verwendet werden",
     "Type the answers instead." to "Tippe die Antworten stattdessen.",
+    "Read sentences aloud" to "Sätze vorlesen",
+    "Stop reading sentences aloud" to "Sätze nicht mehr vorlesen",
 )

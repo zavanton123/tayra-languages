@@ -268,4 +268,6 @@ internal val ruReading: Map<String, String> = mapOf(
     "Type instead" to "Ввести текстом",
     "The microphone could not be used" to "Не удалось использовать микрофон",
     "Type the answers instead." to "Вводите ответы текстом.",
+    "Read sentences aloud" to "Читать предложения вслух",
+    "Stop reading sentences aloud" to "Не читать предложения вслух",
 )

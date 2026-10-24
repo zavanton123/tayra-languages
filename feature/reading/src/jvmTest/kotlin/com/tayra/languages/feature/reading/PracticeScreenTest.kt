@@ -2,6 +2,7 @@ package com.tayra.languages.feature.reading
 
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.graphics.toAwtImage
@@ -98,6 +99,9 @@ class PracticeScreenTest {
 
     private val progress = PracticeProgressRepositoryImpl(provider)
 
+    /** The read-aloud switch, as the screen keeps it in the settings. */
+    private var readAloud by androidx.compose.runtime.mutableStateOf(false)
+
     /** Hears what [answer] says for the question on show; until [heard] is completed when it is set, it is still listening. */
     private class FakeSpeech(private val available: Boolean = true) : SpeechRecognition {
         var answer: () -> Heard = { Heard.Nothing }
@@ -139,7 +143,9 @@ class PracticeScreenTest {
                                     onChoose = viewModel::choose, onMatch = viewModel::match, onTyped = viewModel::setTyped, onSubmit = viewModel::submit, onSkip = viewModel::skip,
                                     onNext = viewModel::next, onRestart = viewModel::start, onRestartMissed = viewModel::startMissed, onSpeak = { spoken += it },
                                     onListen = viewModel::listen, onStopListening = viewModel::stopListening, onTypeInstead = viewModel::typeInstead,
+                                    onReadAloud = { readAloud = it },
                                 ),
+                                readAloud = readAloud,
                             )
                         }
                     }
@@ -575,5 +581,30 @@ class PracticeScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("practice-translation").fetchSemanticsNodes().isNotEmpty() }
         assertTrue(!viewModel.state.value.answered)
         onNodeWithText("[${exercise.sentence}]").assertExists()
+    }
+
+    /** Read aloud, a sentence shown whole is read as soon as the switch is on; a gap's sentence waits for the answer, which it would say. */
+    @Test
+    fun sentencesAreReadAloudOnceShownWhole() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.MEANING, ExerciseType.GAP), responses = setOf(PracticeResponse.CHOOSE), length = null))
+        val meaning = viewModel.state.value.exercises.indexOfFirst { it.type == ExerciseType.MEANING }
+        repeat(meaning) { viewModel.skip(); viewModel.next() }
+        waitForIdle()
+        spoken.clear()
+        onNodeWithTag("practice-read-aloud").performClick()
+        val sentence = viewModel.state.value.current!!.sentence
+        waitUntil(timeoutMillis = 5_000) { sentence in spoken }
+        shot("read-aloud")
+        val gap = viewModel.state.value.exercises.withIndex().indexOfFirst { (i, e) -> i > meaning && e.type == ExerciseType.GAP }
+        repeat(gap - meaning) { viewModel.skip(); viewModel.next() }
+        waitForIdle()
+        spoken.clear()
+        val exercise = viewModel.state.value.current!!
+        waitForIdle()
+        assertTrue(spoken.isEmpty(), "the gap's sentence would say the answer")
+        viewModel.choose(exercise.answer)
+        waitUntil(timeoutMillis = 5_000) { exercise.sentence in spoken }
+        onNodeWithTag("practice-read-aloud").performClick()
+        assertTrue(!readAloud)
     }
 }
