@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.flashcards
 
+import kotlinx.coroutines.flow.first
+import com.tayra.languages.core.domain.repository.BookRepository
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
@@ -79,7 +81,12 @@ data class FlashcardsUiState(
     val twoButtons: Boolean = false,
     /** How long each answer would put the card away for, shown on its button. */
     val waits: Map<Rating, CardWait> = emptyMap(),
+    /** With no card to show: the text read last and not finished, a book or a lesson, to go back to. */
+    val reading: ReadingToContinue? = null,
 )
+
+/** A text to go back to after the cards: its id and title. */
+data class ReadingToContinue(val bookId: Long, val title: String)
 
 /** How long until a card comes back: in [days] once it is a review, else as a [duration] in its steps. */
 data class CardWait(val days: Int?, val duration: Duration)
@@ -103,6 +110,8 @@ class FlashcardsViewModel(
     private val audio: SentenceAudio? = null,
     /** Wiktionary online, for the hints on the back of a card. */
     private val wiktionary: OnlineWiktionary? = null,
+    /** The texts, for the one to go on reading once the cards are done; null leaves that out. */
+    private val books: BookRepository? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(FlashcardsUiState())
@@ -163,6 +172,7 @@ class FlashcardsViewModel(
             current = session.card
             val term = session.term
             val wordRange = term?.let { service.clozeRange(it) }
+            val reading = if (session.card == null) lastReading() else null
             _state.update {
                 it.copy(
                     loading = false,
@@ -174,6 +184,7 @@ class FlashcardsViewModel(
                     canUndo = answers.isNotEmpty(),
                     twoButtons = settings.current.flashcardTwoButtons,
                     waits = session.outcomes.mapValues { (_, after) -> CardWait(after.intervalDays.takeIf { after.state.isReview }, after.due - session.shownAt) },
+                    reading = reading,
                 )
             }
             if (term != null && language != null) loadExtras(term, language)
@@ -207,6 +218,20 @@ class FlashcardsViewModel(
      * The sentence's translation, the part of speech, Wiktionary's hints and, for a term saved without
      * one, a translation: looked up after the card is on screen, which never waits for them.
      */
+    /** The text of the language read most recently and not finished: a book of the library or a course lesson. */
+    private suspend fun lastReading(): ReadingToContinue? {
+        val repository = books ?: return null
+        val id = languageId ?: return null
+        val library = repository.observeBooks(archived = false).first()
+            .filter { it.languageId == id && it.lastOpened != null && !it.isCompleted }
+            .map { Triple(it.id, it.title, it.lastOpened!!) }
+        // Lesson texts are kept out of the library list; their language and title are their book's.
+        val lessons = repository.observeLessonBooks().first().values
+            .filter { it.lastOpened != null && !it.isCompleted }
+            .mapNotNull { lesson -> repository.getBook(lesson.bookId)?.takeIf { it.languageId == id }?.let { Triple(lesson.bookId, it.title, lesson.lastOpened!!) } }
+        return (library + lessons).maxByOrNull { it.third }?.let { ReadingToContinue(it.first, it.second) }
+    }
+
     private fun loadExtras(term: Term, language: Language) {
         val sentence = term.sentence?.trim()?.takeIf { it.isNotEmpty() }
         val code = LanguageCodes.codeFor(language.name)

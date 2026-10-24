@@ -179,6 +179,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onEdit = { onNavigate(Route.BrowseFlashcards(termId = it)) },
                 onVocabulary = { onNavigate(Route.Terms()) },
                 onBooks = { onNavigate(Route.Books) },
+                onRead = { onNavigate(Route.Read(it)) },
                 onBrowse = { onNavigate(Route.BrowseFlashcards()) },
             ),
             modifier = Modifier.padding(padding),
@@ -208,6 +209,8 @@ internal class FlashcardActions(
     val onEdit: (termId: Long) -> Unit = {},
     val onVocabulary: () -> Unit = {},
     val onBooks: () -> Unit = {},
+    /** Back to the text with this id, read last before the cards. */
+    val onRead: (Long) -> Unit = {},
     /** Every card in a list, to search and manage. */
     val onBrowse: () -> Unit = {},
 )
@@ -669,8 +672,14 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
             else -> tr("Words you give a status of 1 to 4 while reading get a card here. More cards are due as their reviews come round.")
         }
         Text(detail, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
-        // Reading is where new cards come from, so it is the way on.
-        PrimaryButton(tr("Keep reading"), onClick = actions.onBooks, modifier = NoFocus.padding(top = AppSpacing.s), icon = AppIcons.MenuBook)
+        // Reading is where new cards come from, so it is the way on: back into the text read last, or to the books.
+        val reading = state.reading
+        if (reading != null) {
+            PrimaryButton(tr("Continue reading"), onClick = { actions.onRead(reading.bookId) }, modifier = NoFocus.padding(top = AppSpacing.s).testTag("continue-reading"), icon = AppIcons.MenuBook)
+            Text(reading.title, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, textAlign = TextAlign.Center, maxLines = 2, overflow = TextOverflow.Ellipsis)
+        } else {
+            PrimaryButton(tr("Keep reading"), onClick = actions.onBooks, modifier = NoFocus.padding(top = AppSpacing.s), icon = AppIcons.MenuBook)
+        }
         Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             if (state.canUndo) QuietButton(tr("Previous card"), onClick = actions.onUndo, modifier = NoFocus)
             QuietButton(tr("Open vocabulary"), onClick = actions.onVocabulary, modifier = NoFocus)

@@ -9,7 +9,7 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val flashcardsModule = module {
-    viewModel { FlashcardsViewModel(get(), get(), get(), get(), get(), get(), get(), getOrNull()) }
+    viewModel { FlashcardsViewModel(get(), get(), get(), get(), get(), get(), get(), getOrNull(), get()) }
     viewModel { BrowseFlashcardsViewModel(get(), get(), get(), get()) }
 }
 

@@ -1,5 +1,11 @@
 package com.tayra.languages.feature.flashcards
 
+import com.tayra.languages.core.domain.service.TermService
+import com.tayra.languages.core.domain.service.ReadingService
+import com.tayra.languages.core.domain.service.BookService
+import com.tayra.languages.core.domain.model.BookDraft
+import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
+import com.tayra.languages.core.data.repository.BookRepositoryImpl
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -72,7 +78,13 @@ class FlashcardsScreenTest {
     private val sentence = "Quando precisamos comprar alguma coisa, passamos no supermercado."
     private var termId = 0L
 
-    private fun ComposeUiTest.show(hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults, phone: Boolean = false, wiktionary: OnlineWiktionary? = null): FlashcardsViewModel {
+    private fun ComposeUiTest.show(
+        hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,
+        phone: Boolean = false,
+        wiktionary: OnlineWiktionary? = null,
+        books: BookRepositoryImpl? = null,
+        onRead: (Long) -> Unit = {},
+    ): FlashcardsViewModel {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
             settings.update { it.copy(currentLanguageId = id, nativeLanguage = "ru") }
@@ -90,7 +102,7 @@ class FlashcardsScreenTest {
             override val name = "Fake"
             override suspend fun suggestTranslation(text: String, language: Language): String? = null
         }
-        val viewModel = FlashcardsViewModel(service, languages, settings, translator, noDictionary, WordTranslationService(terms, noDictionary, suggestions, settings), wiktionary = wiktionary)
+        val viewModel = FlashcardsViewModel(service, languages, settings, translator, noDictionary, WordTranslationService(terms, noDictionary, suggestions, settings), wiktionary = wiktionary, books = books)
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -105,7 +117,7 @@ class FlashcardsScreenTest {
                                 FlashcardsContent(
                                     state,
                                     speaker = null,
-                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onDelete = viewModel::deleteCard),
+                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onDelete = viewModel::deleteCard, onRead = onRead),
                                     hotkeys = hotkeys,
                                 )
                             }
@@ -255,6 +267,28 @@ class FlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { events.size == 2 }
         assertEquals(FlashcardsEvent.StopSpeaking, events[1])
         collecting.cancel()
+    }
+
+    /** Once the cards are done, the way on is back into the text read last, not the list of books. */
+    @Test
+    fun aFinishedSessionGoesBackToTheTextReadLast() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val books = BookRepositoryImpl(provider)
+        val read = mutableListOf<Long>()
+        show(books = books, onRead = { read += it })
+        // Read before the cards, in the language they are in.
+        val bookId = runBlocking {
+            val id = BookService(books, languages).create(BookDraft(languageId = settings.current.currentLanguageId, title = "A casa nova", text = "A casa é nova. O quarto é grande."))
+            ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), TermService(terms, languages)).openPage(id, 1, trackOpen = true)
+            id
+        }
+        onNodeWithText("Show answer").performClick()
+        onNodeWithTag("answer-Easy").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("continue-reading").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("A casa nova").assertExists()
+        assertEquals(0, onAllNodesWithText("Keep reading").fetchSemanticsNodes().size)
+        save("FLASHCARD_FINISHED_SCREENSHOT")
+        onNodeWithTag("continue-reading").performClick()
+        assertEquals(listOf(bookId), read)
     }
 
     /** A phone has the page's own header, one title, and the short footer. */
