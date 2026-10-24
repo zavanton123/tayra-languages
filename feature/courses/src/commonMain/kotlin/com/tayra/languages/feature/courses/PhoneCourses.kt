@@ -1,6 +1,5 @@
 package com.tayra.languages.feature.courses
 
-import com.tayra.languages.core.domain.playlists.PlaylistSource
 import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
@@ -8,20 +7,17 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.statusBars
-import androidx.compose.foundation.layout.windowInsetsPadding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -41,6 +37,7 @@ import com.tayra.languages.core.domain.courses.Course
 import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.CourseProgress
 import com.tayra.languages.core.domain.courses.LessonStatus
+import com.tayra.languages.core.ui.components.AppBottomSheet
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -48,25 +45,29 @@ import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.EmptyState
 import com.tayra.languages.core.ui.components.IconButtonSize
 import com.tayra.languages.core.ui.components.IconButtonStyle
-import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.NavigationRow
 import com.tayra.languages.core.ui.components.PickerSheet
 import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.ScrollColumn
+import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.SelectButton
 import com.tayra.languages.core.ui.components.TagFilterSheet
 import com.tayra.languages.core.ui.components.cardSurface
 import com.tayra.languages.core.ui.components.pressScale
 import com.tayra.languages.core.ui.i18n.LanguageCase
+import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.theme.AppAccents
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
+import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 
@@ -119,7 +120,7 @@ internal fun NewCourseAction(state: CoursesUiState, onNewCourse: () -> Unit) {
 }
 
 /** Which sheet is open over the page. */
-private enum class PhoneSheet { LEVEL, TAGS, SORT }
+private enum class PhoneSheet { STATUS, FILTERS, TAGS, SORT }
 
 @Composable
 internal fun PhoneCoursesContent(state: CoursesUiState, actions: PhoneCoursesActions, modifier: Modifier = Modifier) {
@@ -136,22 +137,28 @@ internal fun PhoneCoursesContent(state: CoursesUiState, actions: PhoneCoursesAct
             EmptyCourses(state, actions.onNewCourse, actions.onDownloadCourses)
             return@ScrollColumn
         }
-        StatusTabs(state.counts, state.status, actions.onStatus)
-        SearchBox(state.search, actions.onSearch, Modifier.fillMaxWidth())
-        // The level and tags take what their labels need; the sort, the longest, has the rest.
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            SelectButton(tr("Level: {0}", state.level?.code ?: tr("All")), onClick = { sheet = PhoneSheet.LEVEL }, modifier = Modifier.testTag("level-filter"))
-            if (state.availableTags.isNotEmpty()) {
-                val tags = if (state.tags.isEmpty()) tr("Tags") else tr("Tags: {0}", state.tags.size)
-                SelectButton(tags, onClick = { sheet = PhoneSheet.TAGS }, modifier = Modifier.testTag("tag-filter"), icon = AppIcons.Tag, active = state.tags.isNotEmpty())
-            }
-            SelectButton(state.sort.label, onClick = { sheet = PhoneSheet.SORT }, modifier = Modifier.weight(1f).testTag("course-sort"))
-        }
-        state.error?.let { InfoBanner(it, tint = colors.error, icon = Icons.Default.Warning) }
         state.continueWith?.let { PhoneContinueCard(it, onContinue = { actions.onContinue(it) }, onOpen = { actions.onOpen(it.course.id) }) }
-        Column(Modifier.padding(top = AppSpacing.xs), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-            Text(state.status?.label ?: tr("All courses"), style = AppText.headline)
-            Text(state.sort.description, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+        state.error?.let { InfoBanner(it, tint = colors.error, icon = Icons.Default.Warning) }
+        SearchBox(state.search, actions.onSearch, Modifier.fillMaxWidth())
+        val filterCount = (if (state.level != null) 1 else 0) + state.tags.size
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            SelectButton(
+                state.status?.label ?: tr("All"),
+                onClick = { sheet = PhoneSheet.STATUS },
+                modifier = Modifier.weight(1f).testTag("status-filter"),
+                active = state.status != null,
+            )
+            SecondaryButton(
+                tr("Filters"),
+                onClick = { sheet = PhoneSheet.FILTERS },
+                modifier = Modifier.weight(1f).testTag("level-filter"),
+                badge = filterCount.takeIf { it > 0 },
+            )
+            SecondaryButton(tr("Sort"), onClick = { sheet = PhoneSheet.SORT }, modifier = Modifier.weight(1f).testTag("course-sort"))
+        }
+        Row(Modifier.fillMaxWidth().padding(top = AppSpacing.xs), verticalAlignment = Alignment.CenterVertically) {
+            Text(state.status?.label ?: tr("All courses"), Modifier.weight(1f), style = AppText.sectionTitle)
+            Text(state.sort.label, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
         if (shown.isEmpty()) {
             EmptyState(AppIcons.MenuBook, tr("No courses match"), message = tr("Try another search, or clear the filters."))
@@ -164,7 +171,7 @@ internal fun PhoneCoursesContent(state: CoursesUiState, actions: PhoneCoursesAct
             // The recommended order goes level by level, so each level gets its heading.
             shown.groupBy { it.course.level }.forEach { (level, list) ->
                 Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    LevelHeader(level, list.size)
+                    PhoneLevelHeader(level, list.size)
                     cards(list)
                 }
             }
@@ -173,13 +180,19 @@ internal fun PhoneCoursesContent(state: CoursesUiState, actions: PhoneCoursesAct
         }
     }
     when (sheet) {
-        PhoneSheet.LEVEL -> PickerSheet(
-            title = tr("Level"),
-            options = listOf<CourseLevel?>(null) + state.levels,
-            selected = state.level,
-            label = { it?.display ?: tr("All levels") },
+        PhoneSheet.STATUS -> PickerSheet(
+            title = tr("Status"),
+            options = listOf<LessonStatus?>(null) + LessonStatus.entries,
+            selected = state.status,
+            label = { it?.label ?: tr("All courses") },
             onDismiss = { sheet = null },
-            onPick = { actions.onLevel(it); sheet = null },
+            onPick = { actions.onStatus(it); sheet = null },
+        )
+        PhoneSheet.FILTERS -> PhoneFiltersSheet(
+            state = state,
+            onLevel = { actions.onLevel(it); sheet = null },
+            onTags = { sheet = PhoneSheet.TAGS },
+            onDismiss = { sheet = null },
         )
         PhoneSheet.SORT -> PickerSheet(
             title = tr("Sort"),
@@ -200,6 +213,38 @@ internal fun PhoneCoursesContent(state: CoursesUiState, actions: PhoneCoursesAct
     }
 }
 
+/** Level and tag filters share one compact entry point on a phone. */
+@Composable
+private fun PhoneFiltersSheet(state: CoursesUiState, onLevel: (CourseLevel?) -> Unit, onTags: () -> Unit, onDismiss: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    AppBottomSheet(onDismissRequest = onDismiss) {
+        Column(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            Text(tr("Filters"), style = AppText.itemTitle)
+            Text(tr("Level"), style = AppText.emphasis, color = colors.onSurfaceVariant)
+            (listOf<CourseLevel?>(null) + state.levels).forEach { level ->
+                val selected = level == state.level
+                Row(
+                    Modifier.fillMaxWidth().heightIn(min = AppSizes.control).clip(AppShapes.compact).clickable { onLevel(level) }
+                        .padding(horizontal = AppSpacing.m),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    Text(level?.display ?: tr("All levels"), Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
+                    if (selected) Icon(Icons.Default.Check, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.icon))
+                }
+            }
+            if (state.availableTags.isNotEmpty()) {
+                NavigationRow(
+                    tr("Tags"),
+                    onTags,
+                    modifier = Modifier.testTag("tag-filter"),
+                    value = if (state.tags.isEmpty()) null else state.tags.size.toString(),
+                    icon = AppIcons.Tag,
+                )
+            }
+        }
+    }
+}
+
 /** The course read most recently: the course, how many lessons are read, and the way into the next one. */
 @Composable
 private fun PhoneContinueCard(progress: CourseProgress, onContinue: () -> Unit, onOpen: () -> Unit) {
@@ -207,37 +252,30 @@ private fun PhoneContinueCard(progress: CourseProgress, onContinue: () -> Unit, 
     val course = progress.course
     val shape = AppShapes.large
     Column(
-        Modifier.fillMaxWidth().clip(shape).background(colors.primary.copy(alpha = AppAlpha.wash)).border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.soft)), shape).padding(AppSpacing.xl),
-        verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
+        Modifier.fillMaxWidth().clip(shape).background(colors.primary.copy(alpha = AppAlpha.wash)).border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.soft)), shape)
+            .padding(AppSpacing.l).testTag("continue-card"),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            IconTile(AppIcons.MenuBook, size = 44)
-            Text(tr("Continue learning"), style = AppText.sectionTitle, maxLines = 1)
-        }
         Row(Modifier.fillMaxWidth().clip(AppShapes.control).clickable(onClick = onOpen), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            LevelTile(course.level, 52)
+            LevelTile(course.level, 44)
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+                Text(tr("Continue learning"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1)
                 Text(course.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                Text(course.cardSubtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
+            Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
         }
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                Row {
-                    Text(trPlural(progress.lessons.size, "{1} of {0} lesson", "{1} of {0} lessons", progress.completed), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                    Text(percent(progress), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                }
-                ProgressBar(progress, Modifier.fillMaxWidth())
+        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            Row {
+                Text(trPlural(progress.lessons.size, "{1} of {0} lesson", "{1} of {0} lessons", progress.completed), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                Text(percent(progress), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
-            PrimaryButton(tr("Continue"), onClick = onContinue, modifier = Modifier.testTag("continue-course"), size = ButtonSize.Large)
+            ProgressBar(progress, Modifier.fillMaxWidth())
         }
+        PrimaryButton(tr("Continue"), onClick = onContinue, modifier = Modifier.fillMaxWidth().testTag("continue-course"), size = ButtonSize.Large)
     }
 }
 
-/**
- * A course as a card: its level, title and topic, the words of the frequency list it covers (or,
- * for a course without them, its own tags), its size, and how far it has got.
- */
+/** A concise phone card: its level, title, topic, size or frequency range, and one progress state. */
 @Composable
 private fun PhoneCourseCard(progress: CourseProgress, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
@@ -245,37 +283,55 @@ private fun PhoneCourseCard(progress: CourseProgress, onClick: () -> Unit) {
     val press = remember { MutableInteractionSource() }
     Column(
         Modifier.fillMaxWidth().pressScale(press).cardSurface(AppShapes.large)
-            .clickable(press, LocalIndication.current, onClick = onClick).padding(start = AppSpacing.xl, end = AppSpacing.m, top = AppSpacing.xl, bottom = AppSpacing.xl).testTag("course-${course.id}"),
+            .clickable(press, LocalIndication.current, onClick = onClick).padding(start = AppSpacing.l, end = AppSpacing.m, top = AppSpacing.l, bottom = AppSpacing.l).testTag("course-${course.id}"),
     ) {
         Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            LevelTile(course.level, 52)
+            LevelTile(course.level, 44)
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                Text(course.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                Text(course.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 Text(course.cardSubtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                if (course.lessons.isNotEmpty()) {
+                    Text(phoneCourseFacts(course), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                }
             }
-            course.rankUpTo?.let { Box(Modifier.padding(top = AppSpacing.xxs)) { RankTag(it) } }
             Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.padding(top = AppSpacing.xxs))
         }
-        if (course.rankUpTo == null) OwnTags(course)
         if (course.lessons.isEmpty()) {
-            Text(tr("No lessons yet"), Modifier.padding(top = AppSpacing.l), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            Text(tr("No lessons yet"), Modifier.padding(top = AppSpacing.m), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         } else {
-            Text(courseFacts(course), Modifier.padding(top = AppSpacing.l), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            Row(Modifier.padding(top = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+            Row(Modifier.padding(top = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 ProgressBar(progress, Modifier.weight(1f))
-                StatusText(progress, stacked = false)
-                LocalPlaylistButton.current?.invoke(PlaylistSource.WholeCourse(course.id), null)
+                PhoneProgressText(progress)
             }
         }
     }
 }
 
-/** A course of the reader's own carries its tags under the title, where a ready-made one has its words. */
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun OwnTags(course: Course) {
-    if (course.tags.isEmpty() && !course.builtIn) return
-    FlowRow(Modifier.padding(top = AppSpacing.m), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-        if (course.tags.isNotEmpty()) course.tags.forEach { LabelTag(it) } else SampleTag()
+private fun PhoneProgressText(progress: CourseProgress) {
+    val colors = MaterialTheme.colorScheme
+    when (progress.status) {
+        LessonStatus.NOT_STARTED -> Text(tr("Not started"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        LessonStatus.COMPLETED -> Text(tr("Completed"), style = AppText.label, color = AppAccents.green)
+        LessonStatus.IN_PROGRESS -> Text(
+            tr("{0} of {1} read", progress.completed, progress.lessons.size),
+            style = MaterialTheme.typography.bodyMedium,
+            color = colors.onSurfaceVariant,
+            maxLines = 1,
+            overflow = TextOverflow.Ellipsis,
+        )
+    }
+}
+
+private fun phoneCourseFacts(course: Course): String = buildList {
+    add(lessonCount(course.lessons.size))
+    course.rankUpTo?.let { add(tr("Common words {0}–{1}", formatCount(it - 99), formatCount(it))) }
+}.joinToString(" · ")
+
+@Composable
+private fun PhoneLevelHeader(level: CourseLevel, count: Int) {
+    Row(Modifier.fillMaxWidth().padding(top = AppSpacing.s).testTag("level-header-${level.name}"), verticalAlignment = Alignment.CenterVertically) {
+        Text(level.code, style = AppText.itemTitle, color = level.tint)
+        Text(trPlural(count, "{0} course", "{0} courses"), Modifier.padding(start = AppSpacing.m), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
 }
