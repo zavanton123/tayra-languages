@@ -261,7 +261,7 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
                     )
                     // Fewer than all the kinds: which ones.
                     val asked = ExerciseType.entries.filter { type -> state.setup.rotation.any { it.first == type } }
-                    if (asked.size < ExerciseType.entries.size) {
+                    if (asked.isNotEmpty() && asked.size < ExerciseType.entries.size) {
                         Text(
                             tr("Questions: {0}", asked.joinToString(", ") { it.label().lowercase() }),
                             style = MaterialTheme.typography.bodyMedium,
@@ -408,8 +408,8 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
                 modifier = Modifier.testTag("practice-offered"),
             )
         }
-        // A typed gap gets the sentence's meaning as a hint; elsewhere it would give the answer away, so it waits.
-        val hintShown = answered || (exercise.type == ExerciseType.GAP && (exercise.response == PracticeResponse.TYPE || exercise.response == PracticeResponse.SPEAK)) || exercise.type == ExerciseType.FORM
+        // A gap, however it is answered, gets the sentence's meaning as its clue; elsewhere it would give the answer away, so it waits.
+        val hintShown = answered || exercise.type == ExerciseType.GAP || exercise.type == ExerciseType.FORM
         if (hintShown && !fromTranslation) state.sentenceTranslation?.let { translationBox(it) }
 
         when {

@@ -565,4 +565,15 @@ class PracticeScreenTest {
         assertTrue(state.exercises.isNotEmpty() && state.exercises.all { it.response == PracticeResponse.TYPE })
         onAllNodesWithTag("practice-speak").fetchSemanticsNodes().let { assertTrue(it.isEmpty()) }
     }
+
+    /** A missing word to choose comes with the sentence's translation as its clue before it is answered. */
+    @Test
+    fun aGapToChooseShowsTheTranslationBeforeTheAnswer() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.CHOOSE)))
+        val exercise = viewModel.state.value.current!!
+        assertTrue(exercise.isChoice)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("practice-translation").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(!viewModel.state.value.answered)
+        onNodeWithText("[${exercise.sentence}]").assertExists()
+    }
 }
