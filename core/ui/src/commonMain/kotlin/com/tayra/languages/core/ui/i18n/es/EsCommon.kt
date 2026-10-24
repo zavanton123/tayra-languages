@@ -11,6 +11,9 @@ internal val esCommon: Map<String, String> = mapOf(
     // PhoneNavigation.kt
     "Preferences" to "Preferencias",
     "Data" to "Datos",
+    "Read and listen" to "Leer y escuchar",
+    "Words and progress" to "Palabras y progreso",
+    "Preferences and data" to "Preferencias y datos",
     // Language names, shown through tr(name).
     "Afrikaans" to "Afrikáans",
     "Albanian" to "Albanés",

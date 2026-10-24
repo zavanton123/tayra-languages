@@ -60,11 +60,11 @@ class PhoneNavigationTest {
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Word frequency").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Croatian").assertExists()
-        onNodeWithText("Clear data").assertExists()
-        onNodeWithText("Keyboard shortcuts").assertDoesNotExist()
+        // The plan's four groups; clearing the data and the settings of single features are found from Settings.
+        for (group in listOf("READ AND LISTEN", "WORDS AND PROGRESS", "OFFLINE RESOURCES", "PREFERENCES AND DATA")) onNodeWithText(group).assertExists()
+        for (gone in listOf("Clear data", "Keyboard shortcuts", "Flashcard settings", "Vocabulary settings")) onNodeWithText(gone).assertDoesNotExist()
         onNodeWithTag("more-Statistics").assertExists()
-        // The vocabulary comes first, before its settings among the preferences.
-        onAllNodesWithTag("more-Vocabulary")[0].performClick()
+        onNodeWithTag("more-Vocabulary").performClick()
         assertEquals(listOf<Route>(Route.Terms()), visited)
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Word frequency").fetchSemanticsNodes().isEmpty() }
     }

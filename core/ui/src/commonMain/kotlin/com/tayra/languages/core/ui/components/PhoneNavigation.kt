@@ -78,24 +78,26 @@ private fun RowScope.PhoneTab(
 }
 
 /** What a More row leads to; [label] is English, shown through `tr`. */
-private class MoreEntry(val label: String, val icon: ImageVector, val route: Route, val destructive: Boolean = false)
+private class MoreEntry(val label: String, val icon: ImageVector, val route: Route)
 
 private class MoreGroup(val title: String, val entries: List<MoreEntry>)
 
+/**
+ * The More sheet's destinations, in four groups: reading and listening, the words and how they go,
+ * what is downloaded for use offline, and the preferences and data. The settings pages of a single
+ * feature and clearing the data are found from Settings, which indexes them.
+ */
 private val moreGroups = listOf(
-    // Where texts come from: the news, free books, and the packs of courses and books to download; and listening to them.
     MoreGroup(
-        "Reading",
+        "Read and listen",
         listOf(
             MoreEntry("News", AppIcons.Newspaper, Route.News),
             MoreEntry("Playlists", AppIcons.QueueMusic, Route.Playlists),
             MoreEntry("Find books", AppIcons.Book, Route.FindBooks),
-            MoreEntry("Course packs", AppIcons.School, Route.CoursePacks),
-            MoreEntry("Book packs", AppIcons.Download, Route.BookPacks),
         ),
     ),
     MoreGroup(
-        "Words",
+        "Words and progress",
         listOf(
             MoreEntry("Vocabulary", AppIcons.ViewList, Route.Terms()),
             MoreEntry("Word frequency", AppIcons.BarChart, Route.WordFrequency),
@@ -103,24 +105,23 @@ private val moreGroups = listOf(
         ),
     ),
     MoreGroup(
-        "Preferences",
+        "Offline resources",
         listOf(
-            MoreEntry("Settings", Icons.Default.Settings, Route.Settings),
-            MoreEntry("Languages", AppIcons.Globe, Route.Languages),
-            MoreEntry("Translation", AppIcons.Translate, Route.OfflineTranslation),
             // Named apart from the tabs: these set things up rather than open them.
             MoreEntry("Dictionaries", AppIcons.MenuBook, Route.OfflineDictionaries),
             MoreEntry("Speech", AppIcons.VolumeUp, Route.Speech),
-            MoreEntry("Flashcard settings", AppIcons.Style, Route.FlashcardSettings),
-            MoreEntry("Vocabulary settings", AppIcons.Abc, Route.VocabularySettings),
+            MoreEntry("Translation", AppIcons.Translate, Route.OfflineTranslation),
+            MoreEntry("Course packs", AppIcons.School, Route.CoursePacks),
+            MoreEntry("Book packs", AppIcons.Download, Route.BookPacks),
         ),
     ),
     MoreGroup(
-        "Data",
+        "Preferences and data",
         listOf(
-            MoreEntry("Book archive", AppIcons.BookClosed, Route.ArchivedBooks),
+            MoreEntry("Settings", Icons.Default.Settings, Route.Settings),
+            MoreEntry("Languages", AppIcons.Globe, Route.Languages),
             MoreEntry("Backups", AppIcons.UploadFile, Route.Backups),
-            MoreEntry("Clear data", Icons.Default.Delete, Route.ClearData, destructive = true),
+            MoreEntry("About", Icons.Default.Info, Route.About),
         ),
     ),
 )
@@ -147,8 +148,6 @@ fun MoreSheet(onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
                     MoreRow(entry, value = language?.let(::tr).takeIf { entry.route == Route.Languages }) { onNavigate(entry.route) }
                 }
             }
-            AppDivider(Modifier.padding(top = AppSpacing.m, end = AppSpacing.m))
-            MoreRow(MoreEntry("About", Icons.Default.Info, Route.About), value = null) { onNavigate(Route.About) }
         }
     }
 }
@@ -161,6 +160,5 @@ private fun MoreRow(entry: MoreEntry, value: String?, onClick: () -> Unit) {
         modifier = Modifier.padding(end = AppSpacing.m).testTag("more-${entry.label}"),
         value = value,
         icon = entry.icon,
-        tint = if (entry.destructive) MaterialTheme.colorScheme.error else null,
     )
 }

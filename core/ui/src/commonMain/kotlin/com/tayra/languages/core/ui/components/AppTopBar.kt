@@ -67,19 +67,20 @@ private val menuGroups = listOf(
     MenuGroup(NavSection.TERMS, listOf(MenuEntry("Vocabulary", Route.Terms()), MenuEntry("Word frequency", Route.WordFrequency), MenuEntry("Statistics", Route.Stats))),
     MenuGroup(
         NavSection.SETTINGS,
+        // As the phone's More and the Settings index have them: the preferences, the offline resources, then the data.
+        // Clearing the data is found in Settings, not offered from the menu.
         listOfNotNull(
             MenuEntry("Settings", Route.Settings),
             MenuEntry("Languages", Route.Languages),
-            MenuEntry("Translation", Route.OfflineTranslation),
-            MenuEntry("Dictionaries", Route.OfflineDictionaries),
-            MenuEntry("Courses", Route.CoursePacks),
-            MenuEntry("Books", Route.BookPacks),
-            MenuEntry("Speech", Route.Speech),
             MenuEntry("Flashcards", Route.FlashcardSettings),
             MenuEntry("Vocabulary", Route.VocabularySettings),
             MenuEntry("Keyboard shortcuts", Route.Shortcuts),
+            MenuEntry("Dictionaries", Route.OfflineDictionaries),
+            MenuEntry("Speech", Route.Speech),
+            MenuEntry("Translation", Route.OfflineTranslation),
+            MenuEntry("Course packs", Route.CoursePacks),
+            MenuEntry("Book packs", Route.BookPacks),
             MenuEntry("Backups", Route.Backups),
-            MenuEntry("Clear data", Route.ClearData),
             MenuEntry("About", Route.About),
         ),
     ),
