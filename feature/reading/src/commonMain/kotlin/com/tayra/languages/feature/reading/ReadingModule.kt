@@ -17,7 +17,7 @@ import com.tayra.languages.core.domain.practice.PracticeSetup
 
 val readingModule = module {
     viewModel { (bookId: Long, page: Int?) -> ReadingViewModel(bookId, page, get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), lessonOf = get<CourseService>()::lessonReading, isNews = get<BookRepository>().let { books -> { id: Long -> books.newsUrl(id) != null } }, wordReadings = getOrNull(), chineseScripts = getOrNull(), anki = getOrNull(), ankiConnection = getOrNull()) }
-    viewModel { (source: PracticeSource, setup: PracticeSetup) -> PracticeViewModel(source, setup, get(), get(), get(), get()) }
+    viewModel { (source: PracticeSource, setup: PracticeSetup) -> PracticeViewModel(source, setup, get(), get(), get(), get(), getOrNull()) }
 }
 
 fun NavGraphBuilder.readingGraph(navController: NavController) {

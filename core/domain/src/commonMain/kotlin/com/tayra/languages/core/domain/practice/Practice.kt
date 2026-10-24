@@ -159,6 +159,12 @@ data class Exercise(
     val otherForm: Boolean get() = !word.equals(practised, ignoreCase = true)
 }
 
+/** Words to offer beside the right one: the page's other words, and words about as common as each word and looking like it. */
+internal class WrongChoices(val pageWords: List<String>, val alikes: Map<String, List<String>> = emptyMap()) {
+    /** The same, without [word] among the page's words. */
+    fun without(word: String) = WrongChoices(pageWords.filter { !it.equals(word, ignoreCase = true) }, alikes)
+}
+
 /** Builds the questions for a page from the words being learned on it. */
 object PracticeBuilder {
     const val MAX_QUESTIONS = PracticeSetup.DEFAULT_LENGTH
@@ -192,7 +198,10 @@ object PracticeBuilder {
         meanings: List<String> = emptyList(),
         /** The translations of the words' sentences, by sentence, for the questions asked through them. */
         translations: Map<String, String> = emptyMap(),
+        /** Words about as common as each word and looking like it, by the word's key, for wrong choices. */
+        alikes: Map<String, List<String>> = emptyMap(),
     ): List<Exercise> {
+        val choices = WrongChoices(pageWords, alikes)
         val targets = words.distinctBy { it.key }.shuffled(random)
         val rotation = setup.rotation
         val original = PracticeContext.ORIGINAL in setup.contexts
@@ -207,15 +216,15 @@ object PracticeBuilder {
             // a question the word cannot be asked gives way to the next one that it can.
             val start = (k % asked.size + k / asked.size) % rotation.size
             val steps = (0 until rotation.size).map { rotation[(start + it) % rotation.size] }
-            val pool = elsewhere[word.key].orEmpty()
+            val kept = elsewhere[word.key].orEmpty()
             val next = used[word.key] ?: 0
-            val inExample = next < pool.size && (!original || (k / asked.size) % 2 == 1)
+            val inExample = next < kept.size && (!original || (k / asked.size) % 2 == 1)
             val exercise = if (inExample) {
-                steps.firstNotNullOfOrNull { (type, response) -> exampleExercise(type, response, word, pool[next], targets, pageWords, meanings, random) }
+                steps.firstNotNullOfOrNull { (type, response) -> exampleExercise(type, response, word, kept[next], targets, choices, meanings, random) }
                     ?.also { used[word.key] = next + 1 }
             } else {
                 null
-            } ?: if (original) steps.firstNotNullOfOrNull { (type, response) -> exercise(type, response, word, targets, pageWords, meanings, translations, random) } else null
+            } ?: if (original) steps.firstNotNullOfOrNull { (type, response) -> exercise(type, response, word, targets, choices, meanings, translations, random) } else null
             exercises += exercise ?: continue
         }
         return exercises
@@ -228,7 +237,7 @@ object PracticeBuilder {
         word: PracticeWord,
         example: PracticeExample,
         targets: List<PracticeWord>,
-        pageWords: List<String>,
+        pool: WrongChoices,
         meanings: List<String>,
         random: Random,
     ): Exercise? {
@@ -237,7 +246,7 @@ object PracticeBuilder {
         val translations = example.translation?.let { mapOf(example.sentence to it) }.orEmpty()
         // The word as saved is no wrong choice beside the form the sentence uses.
         val others = targets.filter { it.key != word.key }
-        return exercise(type, response, form, others, pageWords.filter { !it.equals(word.text, ignoreCase = true) }, meanings, translations, random)
+        return exercise(type, response, form, others, pool.without(word.text), meanings, translations, random)
             ?.copy(context = PracticeContext.EXAMPLE, practised = word.text, sentenceTranslation = example.translation)
     }
 
@@ -252,7 +261,7 @@ object PracticeBuilder {
         meanings: List<String> = emptyList(),
         translations: Map<String, String> = emptyMap(),
         response: PracticeResponse = type.responses.first(),
-    ): Boolean = exercise(type, response, word, words, emptyList(), meanings, translations, Random(0)) != null
+    ): Boolean = exercise(type, response, word, words, WrongChoices(emptyList()), meanings, translations, Random(0)) != null
 
     /** The question of [type] on [word], or null when the word cannot be asked it. */
     private fun exercise(
@@ -260,14 +269,14 @@ object PracticeBuilder {
         response: PracticeResponse,
         word: PracticeWord,
         targets: List<PracticeWord>,
-        pageWords: List<String>,
+        pool: WrongChoices,
         meanings: List<String>,
         translations: Map<String, String>,
         random: Random,
     ): Exercise? {
         val base = Exercise(type, response, PracticeContext.ORIGINAL, word.text, word.translation, word.sentence, word.range, answer = word.text)
         return when (type) {
-            ExerciseType.GAP -> if (response == PracticeResponse.CHOOSE) base.copy(options = wordChoices(word, targets, pageWords, random)) else base
+            ExerciseType.GAP -> if (response == PracticeResponse.CHOOSE) base.copy(options = wordChoices(word, targets, pool, random)) else base
             ExerciseType.MEANING -> {
                 val meaning = word.translation?.trim().orEmpty()
                 val wrong = meaningChoices(meaning, targets.filter { it !== word }.mapNotNull { it.translation }, meanings, random)
@@ -280,17 +289,17 @@ object PracticeBuilder {
                 if (meaning.isNotEmpty() && others.size >= OPTIONS - 1) {
                     base.copy(options = (others.shuffled(random).take(OPTIONS - 1) + meaning).shuffled(random), answer = meaning, spoken = word.text)
                 } else {
-                    base.copy(options = wordChoices(word, targets, pageWords, random), spoken = word.text)
+                    base.copy(options = wordChoices(word, targets, pool, random), spoken = word.text)
                 }
             }
             ExerciseType.HEAR_SENTENCE -> {
                 if (word.translation.isNullOrBlank()) return null
-                val options = if (response == PracticeResponse.CHOOSE) sentenceChoices(word, targets, pageWords, random) else emptyList()
+                val options = if (response == PracticeResponse.CHOOSE) sentenceChoices(word, targets, pool, random) else emptyList()
                 base.copy(options = options, spoken = word.sentence)
             }
             ExerciseType.TRANSLATION -> {
                 val translation = translations[word.sentence]?.trim()?.takeIf { it.isNotEmpty() } ?: return null
-                base.copy(sentenceTranslation = translation, options = if (response == PracticeResponse.CHOOSE) wordChoices(word, targets, pageWords, random) else emptyList())
+                base.copy(sentenceTranslation = translation, options = if (response == PracticeResponse.CHOOSE) wordChoices(word, targets, pool, random) else emptyList())
             }
             ExerciseType.DICTATION -> {
                 val short = word.sentence.split(Regex("""\s+""")).count { part -> part.any { it.isLetterOrDigit() } } <= SHORT_SENTENCE_WORDS
@@ -319,20 +328,22 @@ object PracticeBuilder {
      * The word among other words of its own sentence, which was heard whole: telling them apart
      * takes understanding what was heard. Too short a sentence is filled up from the page.
      */
-    private fun sentenceChoices(word: PracticeWord, targets: List<PracticeWord>, pageWords: List<String>, random: Random): List<String> {
+    private fun sentenceChoices(word: PracticeWord, targets: List<PracticeWord>, pool: WrongChoices, random: Random): List<String> {
         val own = word.text.lowercase()
         val heard = word.sentence.split(Regex("""[^\p{L}\p{N}'’-]+""")).filter { part -> part.length > 1 && part.any { it.isLetter() } }
             .distinctBy { it.lowercase() }.filter { it.lowercase() != own }.shuffled(random).take(OPTIONS - 1)
-        val more = wordChoices(word, targets, pageWords, random).filter { it.lowercase() != own && heard.none { h -> h.equals(it, ignoreCase = true) } }
+        val more = wordChoices(word, targets, pool, random).filter { it.lowercase() != own && heard.none { h -> h.equals(it, ignoreCase = true) } }
         return ((heard + more).take(OPTIONS - 1) + word.text).shuffled(random)
     }
 
     /** The word among other words of the page: the other words being learned first, then any others. */
-    private fun wordChoices(word: PracticeWord, targets: List<PracticeWord>, pageWords: List<String>, random: Random): List<String> {
-        val own = word.text.lowercase()
+    private fun wordChoices(word: PracticeWord, targets: List<PracticeWord>, pool: WrongChoices, random: Random): List<String> {
+        val own = word.key
+        // One about as common as the word and looking like it, so the choice takes knowing the word.
+        val alike = pool.alikes[own].orEmpty().filter { it.lowercase() != own }.shuffled(random).take(1)
         val learning = targets.map { it.text }.filter { it.lowercase() != own }.shuffled(random)
-        val others = pageWords.filter { other -> other.length > 1 && other.any { it.isLetter() } }.shuffled(random)
-        val wrong = (learning + others).distinctBy { it.lowercase() }.filter { it.lowercase() != own }.take(OPTIONS - 1)
+        val others = pool.pageWords.filter { other -> other.length > 1 && other.any { it.isLetter() } }.shuffled(random)
+        val wrong = (alike + learning + others).distinctBy { it.lowercase() }.filter { it.lowercase() != own }.take(OPTIONS - 1)
         return (wrong + word.text).shuffled(random)
     }
 }

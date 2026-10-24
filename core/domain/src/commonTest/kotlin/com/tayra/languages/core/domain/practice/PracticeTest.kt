@@ -116,6 +116,17 @@ class PracticeTest {
         assertTrue(asked.any { it.response == PracticeResponse.TYPE && it.options.isEmpty() })
     }
 
+    /** A choice of word offers one as common as it and looking like it, when there are such words. */
+    @Test
+    fun aChoiceOffersAWordLikeTheRightOne() {
+        val alikes = words.associate { it.key to listOf(it.text.dropLast(1) + "x") }
+        val setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.CHOOSE), length = null)
+        PracticeBuilder.build(words, pageWords, random = Random(4), setup = setup, alikes = alikes).forEach { e ->
+            assertTrue(alikes.getValue(e.word.lowercase()).single() in e.options, e.options.toString())
+            assertEquals(1, e.options.count { it == e.answer })
+        }
+    }
+
     /** A setup goes into a route as text and comes back the same; the kinds earlier versions named still give their questions. */
     @Test
     fun aSetupIsWrittenAndReadAsText() {

@@ -30,6 +30,7 @@ import com.tayra.languages.core.domain.practice.PracticeContext
 import com.tayra.languages.core.domain.practice.forPractice
 import com.tayra.languages.core.domain.practice.PracticeExampleStore
 import com.tayra.languages.core.domain.practice.PracticeExampleRepository
+import com.tayra.languages.core.domain.practice.WordForms
 
 /** How a question was answered. */
 enum class PracticeResult { CORRECT, ALMOST, WRONG }
@@ -80,6 +81,8 @@ class PracticeViewModel(
     private val exampleStore: PracticeExampleStore,
     private val keptExamples: PracticeExampleRepository,
     private val translator: SentenceTranslator,
+    /** Words' forms and frequency, for wrong choices as common as the right one; none without it. */
+    private val wordForms: WordForms? = null,
     private val random: Random = Random.Default,
 ) : ViewModel() {
 
@@ -114,7 +117,8 @@ class PracticeViewModel(
             val lang = prepared.language
             language = lang
             val translations = if (ExerciseType.TRANSLATION in setup.types) translateSentences(prepared.words, lang) else emptyMap()
-            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, examplesFor(prepared.words), random, setup, prepared.meanings, translations)
+            val alikes = attempt { alikesFor(prepared.words, lang) }.orEmpty()
+            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, examplesFor(prepared.words), random, setup, prepared.meanings, translations, alikes)
             _state.update {
                 it.copy(
                     loading = false,
@@ -137,6 +141,22 @@ class PracticeViewModel(
         if (PracticeContext.EXAMPLE !in setup.contexts) return emptyMap()
         attempt { exampleStore.topUp(words.mapNotNull { it.termId }, EXAMPLE_WAIT) }
         return attempt { keptExamples.forPractice(words) }.orEmpty()
+    }
+
+    /**
+     * For each word, words about as common in the language and looking like it (the same first
+     * letter or the same ending), none of them a form of it: wrong choices that take knowing it.
+     */
+    private suspend fun alikesFor(words: List<PracticeWord>, language: Language): Map<String, List<String>> {
+        val forms = wordForms ?: return emptyMap()
+        return words.mapNotNull { word ->
+            val rank = forms.rank(word.text, language) ?: return@mapNotNull null
+            val own = forms.of(word.text, language)
+            val text = word.text.lowercase()
+            val near = forms.ranked(language, (rank * (1 - RANK_SPREAD)).toInt().coerceAtLeast(1), (rank * (1 + RANK_SPREAD)).toInt() + RANK_MARGIN)
+                .filter { other -> other.lowercase() !in own && (other.first().lowercaseChar() == text.first() || other.lowercase().takeLast(2) == text.takeLast(2)) }
+            word.key to near.take(ALIKES)
+        }.toMap()
     }
 
     /** The translations of the words' sentences, for questions asked through them; those not ready in time are left out. */
@@ -225,6 +245,11 @@ class PracticeViewModel(
 
     private companion object {
         val EXAMPLE_WAIT = 4.seconds
+
+        /** How far in rank, as a share of a word's own, a word as common as it may be. */
+        const val RANK_SPREAD = 0.3
+        const val RANK_MARGIN = 5
+        const val ALIKES = 12
 
         /** How long the sentences of translation questions may take to translate, all together. */
         val TRANSLATION_WAIT = 8.seconds
