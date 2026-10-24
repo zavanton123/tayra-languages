@@ -43,8 +43,9 @@ object PracticePlanner {
         families: Map<String, WordFamily> = emptyMap(),
     ): PracticePreview {
         val targets = words.distinctBy { it.text.lowercase() }
+        val matched = PracticeBuilder.matching(targets, Random(0))?.pairs?.size ?: 0
         val types = ExerciseType.entries.associateWith { type ->
-            val askable = targets.count { PracticeBuilder.canAsk(type, it, targets, meanings, translations, families) }
+            val askable = if (type == ExerciseType.MATCHING) matched else targets.count { PracticeBuilder.canAsk(type, it, targets, meanings, translations, families) }
             TypeAvailability(type, askable, if (askable == targets.size) null else need(type, targets, translations, families))
         }
         val questions = PracticeBuilder.build(targets, emptyList(), examples, Random(0), setup, meanings, translations, families = families).size
@@ -54,6 +55,8 @@ object PracticePlanner {
     /** What most of the words that cannot be asked [type] lack. */
     private fun need(type: ExerciseType, words: List<PracticeWord>, translations: Map<String, String>, families: Map<String, WordFamily>): PracticeNeed? = when (type) {
         ExerciseType.MEANING -> if (words.any { it.translation.isNullOrBlank() }) PracticeNeed.WORD_MEANING else PracticeNeed.OTHER_MEANINGS
+        // Up to five are matched at a time; fewer than four with meanings make no round.
+        ExerciseType.MATCHING -> PracticeNeed.WORD_MEANING.takeIf { words.count { !it.translation.isNullOrBlank() } < 4 }
         ExerciseType.HEAR_SENTENCE -> PracticeNeed.WORD_MEANING
         ExerciseType.TRANSLATION -> PracticeNeed.SENTENCE_TRANSLATION.takeIf { words.any { it.sentence !in translations } }
         ExerciseType.FORM -> if (words.any { (families[it.key]?.forms?.size ?: 0) < 4 }) PracticeNeed.WORD_FORMS else PracticeNeed.SENTENCE_TRANSLATION

@@ -251,4 +251,9 @@ internal val zhReading: Map<String, String> = mapOf(
     "Choose the form of “{0}” that fits" to "选出合适的“{0}”的形式",
     "Build the form of “{0}” that fits" to "拼出合适的“{0}”的形式",
     "Type the form of “{0}” that fits" to "输入合适的“{0}”的形式",
+    "Match each word with its meaning" to "把每个单词和它的意思配对",
+    "Almost" to "差一点",
+    "The pairs are shown above." to "配对已显示在上方。",
+    "Every pair matched, with {0} wrong tries" to "全部配对完成，错了 {0} 次",
+    "Every pair matched." to "全部配对正确。",
 )

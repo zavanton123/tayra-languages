@@ -157,6 +157,20 @@ class PracticeTest {
         assertEquals(PracticeNeed.WORD_FORMS, PracticePlanner.preview(words, setup, translations = translations, families = families).of(ExerciseType.FORM).need)
     }
 
+    /** A matching round comes first, on up to five words whose meanings share no word; with fewer than four such words there is none. */
+    @Test
+    fun aMatchingRoundComesFirstOnWordsThatCannotBeConfused() {
+        val setup = PracticeSetup(types = setOf(ExerciseType.MATCHING, ExerciseType.GAP))
+        val asked = PracticeBuilder.build(words + word("casa", "at home", "Eu fico em casa.") + word("lar", "home", "O meu lar."), pageWords, random = Random(1), setup = setup)
+        val matching = asked.first()
+        assertEquals(ExerciseType.MATCHING, matching.type)
+        assertTrue(asked.drop(1).none { it.type == ExerciseType.MATCHING })
+        assertEquals(10, asked.size, "it counts as one of the ten questions")
+        assertEquals(5, matching.pairs.size)
+        assertTrue(!(matching.pairs.any { it.second == "home" } && matching.pairs.any { it.second == "at home" }), "home and at home could be taken for each other")
+        assertEquals(listOf(ExerciseType.GAP), PracticeBuilder.build(words.take(3), pageWords, random = Random(1), setup = setup).map { it.type }.distinct())
+    }
+
     /** A setup goes into a route as text and comes back the same; the kinds earlier versions named still give their questions. */
     @Test
     fun aSetupIsWrittenAndReadAsText() {

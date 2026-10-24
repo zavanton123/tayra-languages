@@ -53,6 +53,10 @@ data class PracticeUiState(
     val chosen: String? = null,
     /** Null until the question on show is answered. */
     val result: PracticeResult? = null,
+    /** The words matched so far in a matching question. */
+    val matched: Set<String> = emptySet(),
+    /** Wrong pairs tried in a matching question. */
+    val wrongPairs: Int = 0,
     /** The translation of the sentence on show, once known. */
     val sentenceTranslation: String? = null,
     val correct: Int = 0,
@@ -210,6 +214,20 @@ class PracticeViewModel(
         record(exercise, if (option == exercise.answer) PracticeResult.CORRECT else PracticeResult.WRONG)
     }
 
+    /**
+     * Pairs [word] with [meaning] in a matching question: a right pair stays matched, a wrong one
+     * counts against it; with every word matched the question is answered, right if no pair was
+     * wrong. Returns whether the pair was right.
+     */
+    fun match(word: String, meaning: String): Boolean {
+        val exercise = _state.value.current ?: return false
+        if (_state.value.answered || exercise.type != ExerciseType.MATCHING || word in _state.value.matched) return false
+        val right = exercise.pairs.any { it.first == word && it.second == meaning }
+        _state.update { if (right) it.copy(matched = it.matched + word) else it.copy(wrongPairs = it.wrongPairs + 1) }
+        if (right && _state.value.matched.size == exercise.pairs.size) record(exercise, if (_state.value.wrongPairs == 0) PracticeResult.CORRECT else PracticeResult.ALMOST)
+        return right
+    }
+
     /** Checks what was typed. */
     fun submit() {
         val exercise = _state.value.current ?: return
@@ -226,7 +244,9 @@ class PracticeViewModel(
     /** Gives up on the question: its answer is shown and it counts as missed. */
     fun skip() {
         val exercise = _state.value.current ?: return
-        if (!_state.value.answered) record(exercise, PracticeResult.WRONG)
+        if (_state.value.answered) return
+        if (exercise.type == ExerciseType.MATCHING) _state.update { it.copy(matched = exercise.pairs.map { pair -> pair.first }.toSet()) }
+        record(exercise, PracticeResult.WRONG)
     }
 
     private fun record(exercise: Exercise, result: PracticeResult) = _state.update {
@@ -248,7 +268,7 @@ class PracticeViewModel(
             _state.update { it.copy(finished = true, result = null, chosen = null, typed = "") }
             return
         }
-        _state.update { it.copy(index = it.index + 1, result = null, chosen = null, typed = "", sentenceTranslation = null) }
+        _state.update { it.copy(index = it.index + 1, result = null, chosen = null, typed = "", sentenceTranslation = null, matched = emptySet(), wrongPairs = 0) }
         loadTranslation()
     }
 

@@ -45,6 +45,9 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
     /** The sentence whole, the word marked: choose what the word means. Needs the word's translation. */
     MEANING(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE)),
 
+    /** Up to five words and their meanings, to match up; asked once, at the start, of words with meanings that cannot be taken for each other. */
+    MATCHING(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE)),
+
     /** The word is read aloud: choose its meaning, or the word itself when meanings are missing. */
     HEAR_WORD(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE)),
 
@@ -164,6 +167,8 @@ data class Exercise(
     val practised: String = word,
     /** The form the word is listed under, when a question asks for the right form of it. */
     val lemma: String? = null,
+    /** Words and their meanings to match up, for a matching question. */
+    val pairs: List<Pair<String, String>> = emptyList(),
 ) {
     val isChoice: Boolean get() = options.isNotEmpty()
     val isListening: Boolean get() = spoken != null
@@ -182,6 +187,10 @@ internal class WrongChoices(val pageWords: List<String>, val alikes: Map<String,
 object PracticeBuilder {
     const val MAX_QUESTIONS = PracticeSetup.DEFAULT_LENGTH
     private const val OPTIONS = 4
+
+    /** Pairs in a matching question: at most this many, and at least [MIN_PAIRS]. */
+    private const val PAIRS = 5
+    private const val MIN_PAIRS = 4
 
     /** Words longer than this are typed rather than built from tiles. */
     private const val MAX_TILES = 12
@@ -224,14 +233,16 @@ object PracticeBuilder {
     ): List<Exercise> {
         val choices = WrongChoices(pageWords, alikes, families)
         val targets = words.distinctBy { it.key }.shuffled(random)
-        val rotation = setup.rotation
+        // Matching is one question on several words, asked first; the rest go round the words one by one.
+        val matching = if (ExerciseType.MATCHING in setup.types) matching(targets, random) else null
+        val rotation = setup.rotation.filter { it.first != ExerciseType.MATCHING }
         val original = PracticeContext.ORIGINAL in setup.contexts
         val elsewhere = if (PracticeContext.EXAMPLE in setup.contexts) examples else emptyMap()
         val asked = if (original) targets else targets.filter { elsewhere[it.key].orEmpty().isNotEmpty() }
-        if (asked.isEmpty() || rotation.isEmpty()) return emptyList()
+        if (asked.isEmpty() || rotation.isEmpty()) return listOfNotNull(matching)
         val used = mutableMapOf<String, Int>()
-        val exercises = mutableListOf<Exercise>()
-        for (k in 0 until questionCount(asked.size, rotation.size, setup.length)) {
+        val exercises = listOfNotNull(matching).toMutableList()
+        for (k in 0 until questionCount(asked.size, rotation.size, setup.length?.minus(exercises.size))) {
             val word = asked[k % asked.size]
             // Each round starts one question further on, so a word meets a different one every time;
             // a question the word cannot be asked gives way to the next one that it can.
@@ -249,6 +260,27 @@ object PracticeBuilder {
             exercises += exercise ?: continue
         }
         return exercises
+    }
+
+    /**
+     * A matching question on up to [PAIRS] of [words] with meanings, none sharing a word with
+     * another's, so no meaning could be taken for another; null with fewer than [MIN_PAIRS].
+     */
+    fun matching(words: List<PracticeWord>, random: Random = Random.Default): Exercise? {
+        val picked = mutableListOf<PracticeWord>()
+        for (word in words.shuffled(random)) {
+            val meaning = word.translation?.trim().orEmpty()
+            if (meaning.isEmpty()) continue
+            if (picked.any { other -> other.key == word.key || other.translation!!.trim().equals(meaning, ignoreCase = true) || contentWords(other.translation).any { it in contentWords(meaning) } }) continue
+            picked += word
+            if (picked.size == PAIRS) break
+        }
+        if (picked.size < MIN_PAIRS) return null
+        val first = picked.first()
+        return Exercise(
+            ExerciseType.MATCHING, PracticeResponse.CHOOSE, PracticeContext.ORIGINAL, first.text, first.translation, first.sentence, first.range,
+            answer = "", pairs = picked.map { it.text to it.translation!!.trim() },
+        )
     }
 
     /** The question of [type] on [word] in [example], a sentence from elsewhere that may use another form of it. */
@@ -298,6 +330,7 @@ object PracticeBuilder {
     ): Exercise? {
         val base = Exercise(type, response, PracticeContext.ORIGINAL, word.text, word.translation, word.sentence, word.range, answer = word.text)
         return when (type) {
+            ExerciseType.MATCHING -> null
             ExerciseType.GAP -> answered(base, response, word, targets, pool, random)
             ExerciseType.MEANING -> {
                 val meaning = word.translation?.trim().orEmpty()

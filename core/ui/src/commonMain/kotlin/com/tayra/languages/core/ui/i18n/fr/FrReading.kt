@@ -251,4 +251,9 @@ internal val frReading: Map<String, String> = mapOf(
     "Choose the form of “{0}” that fits" to "Choisissez la forme de « {0} » qui convient",
     "Build the form of “{0}” that fits" to "Formez la forme de « {0} » qui convient",
     "Type the form of “{0}” that fits" to "Tapez la forme de « {0} » qui convient",
+    "Match each word with its meaning" to "Associez chaque mot à son sens",
+    "Almost" to "Presque",
+    "The pairs are shown above." to "Les paires sont indiquées ci-dessus.",
+    "Every pair matched, with {0} wrong tries" to "Toutes les paires associées, avec {0} essai faux|Toutes les paires associées, avec {0} essais faux",
+    "Every pair matched." to "Toutes les paires sont associées.",
 )

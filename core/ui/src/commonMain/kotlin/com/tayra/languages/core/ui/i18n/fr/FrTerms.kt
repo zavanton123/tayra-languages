@@ -445,4 +445,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "Find the form of the word that fits the sentence" to "Trouvez la forme du mot qui convient à la phrase",
     "Word forms" to "Formes des mots",
     "Needs other forms of the word" to "Il faut d’autres formes du mot",
+    "Matching pairs" to "Paires",
+    "Match up to five words with their meanings" to "Associez jusqu’à cinq mots à leur sens",
 )

@@ -445,4 +445,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Find the form of the word that fits the sentence" to "Найдите форму слова, подходящую к предложению",
     "Word forms" to "Формы слов",
     "Needs other forms of the word" to "Нужны другие формы слова",
+    "Matching pairs" to "Пары",
+    "Match up to five words with their meanings" to "Сопоставьте до пяти слов с их значениями",
 )

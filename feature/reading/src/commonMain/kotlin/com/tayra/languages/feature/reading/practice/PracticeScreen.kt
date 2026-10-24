@@ -127,6 +127,7 @@ fun PracticeScreen(
             state = state,
             actions = PracticeActions(
                 onChoose = viewModel::choose,
+                onMatch = viewModel::match,
                 onTyped = viewModel::setTyped,
                 onSubmit = viewModel::submit,
                 onSkip = viewModel::skip,
@@ -168,6 +169,8 @@ fun PracticeDialog(route: Route, onNavigate: (Route) -> Unit, onClose: () -> Uni
 
 internal class PracticeActions(
     val onChoose: (String) -> Unit = {},
+    /** Pairs a word with a meaning in a matching question; says whether the pair was right. */
+    val onMatch: (word: String, meaning: String) -> Boolean = { _, _ -> false },
     val onTyped: (String) -> Unit = {},
     val onSubmit: () -> Unit = {},
     val onSkip: () -> Unit = {},
@@ -286,6 +289,7 @@ private val Exercise.instruction: String
             PracticeResponse.TYPE -> if (context == PracticeContext.EXAMPLE) tr("A new sentence: type the missing word") else tr("Type the missing word")
         }
         ExerciseType.MEANING -> tr("What does the marked word mean?")
+        ExerciseType.MATCHING -> tr("Match each word with its meaning")
         ExerciseType.HEAR_SENTENCE -> tr("Listen to the sentence")
         ExerciseType.HEAR_WORD -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
         ExerciseType.DICTATION -> if (wholeSentence) tr("Listen and type the sentence") else tr("Listen and type the missing word")
@@ -313,6 +317,17 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xl),
     ) {
         Text(exercise.instruction.uppercase(), style = AppText.overline.copy(color = colors.primary), textAlign = TextAlign.Center)
+        if (exercise.type == ExerciseType.MATCHING) {
+            Matching(state, exercise, actions, compact)
+            if (answered) Feedback(state, exercise)
+            AppDivider()
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                if (!answered) QuietButton(tr("Show the answer"), onClick = actions.onSkip)
+                Spacer(Modifier.weight(1f))
+                if (answered) PrimaryButton(if (state.index + 1 >= state.exercises.size) tr("See the result") else tr("Continue"), onClick = actions.onNext, size = ButtonSize.Large)
+            }
+            return@Column
+        }
 
         if (exercise.isListening && actions.onSpeak != null) {
             SecondaryButton(tr("Listen again"), onClick = { actions.onSpeak.invoke(exercise.spoken!!) }, icon = AppIcons.VolumeUp, size = ButtonSize.Large, tint = colors.primary)
@@ -428,6 +443,52 @@ private fun Choices(state: PracticeUiState, exercise: Exercise, actions: Practic
     }
 }
 
+/**
+ * Words on one side, their meanings shuffled on the other: tap a word, then its meaning. A right
+ * pair turns green and stays; a wrong one flashes red and the word stays picked to try again.
+ */
+@Composable
+private fun Matching(state: PracticeUiState, exercise: Exercise, actions: PracticeActions, compact: Boolean) {
+    val colors = MaterialTheme.colorScheme
+    val meanings = remember(state.index) { exercise.pairs.map { it.second }.shuffled() }
+    val words = remember(state.index) { exercise.pairs.map { it.first }.shuffled() }
+    var picked by remember(state.index) { mutableStateOf<String?>(null) }
+    var wrong by remember(state.index) { mutableStateOf<String?>(null) }
+    val meaningOf = exercise.pairs.toMap()
+    val cell: @Composable (String, Boolean, Boolean, Boolean, String, () -> Unit) -> Unit = { text, done, chosen, mistaken, tag, onClick ->
+        val tint = when {
+            done -> AppAccents.green
+            mistaken -> AppAccents.red
+            chosen -> colors.primary
+            else -> null
+        }
+        Box(
+            Modifier.fillMaxWidth().heightIn(min = AppSizes.row).clip(AppShapes.panel)
+                .background(tint?.copy(alpha = AppAlpha.soft) ?: colors.surface)
+                .border(if (tint != null) AppBorders.selected(tint) else AppBorders.hairline(colors.outlineVariant), AppShapes.panel)
+                .clickable(enabled = !done && !state.answered, onClick = onClick)
+                .padding(horizontal = AppSpacing.l, vertical = AppSpacing.m).testTag(tag),
+            contentAlignment = Alignment.CenterStart,
+        ) { Text(text, style = MaterialTheme.typography.titleMedium, color = if (done) colors.onSurfaceVariant else colors.onSurface) }
+    }
+    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.m else AppSpacing.xl)) {
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            words.forEachIndexed { i, word ->
+                cell(word, word in state.matched, picked == word, false, "practice-match-word-$i") { picked = word; wrong = null }
+            }
+        }
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            meanings.forEachIndexed { i, meaning ->
+                val done = state.matched.any { meaningOf[it] == meaning }
+                cell(meaning, done, false, wrong == meaning, "practice-match-meaning-$i") {
+                    val word = picked ?: return@cell
+                    if (actions.onMatch(word, meaning)) { picked = null; wrong = null } else wrong = meaning
+                }
+            }
+        }
+    }
+}
+
 /** The word built from its letters: each tile is used once, the last one taken back with the button beside them. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
@@ -486,6 +547,17 @@ private fun Feedback(state: PracticeUiState, exercise: Exercise) {
         PracticeResult.ALMOST -> AppAccents.amber to tr("Almost: mind the accents")
         PracticeResult.TYPO -> AppAccents.amber to tr("Almost: mind the spelling")
         else -> AppAccents.red to tr("Not quite")
+    }
+    if (exercise.type == ExerciseType.MATCHING) {
+        Notice(
+            if (state.result == PracticeResult.WRONG) tr("Not quite") else if (state.wrongPairs == 0) tr("Correct") else tr("Almost"),
+            Modifier.testTag("practice-feedback"),
+            message = if (state.result == PracticeResult.WRONG) tr("The pairs are shown above.") else trPlural(state.wrongPairs, "Every pair matched, with {0} wrong try", "Every pair matched, with {0} wrong tries").takeIf { state.wrongPairs > 0 } ?: tr("Every pair matched."),
+            tint = if (state.result == PracticeResult.WRONG) AppAccents.red else if (state.wrongPairs == 0) AppAccents.green else AppAccents.amber,
+            icon = if (state.result == PracticeResult.WRONG) Icons.Default.Close else Icons.Default.Check,
+            popIcon = state.result != PracticeResult.WRONG,
+        )
+        return
     }
     // The word with its meaning, whatever was asked; for a sentence typed whole, the sentence is above.
     val meaning = exercise.wordTranslation?.let { " — $it" }.orEmpty()

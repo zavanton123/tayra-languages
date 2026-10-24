@@ -445,4 +445,6 @@ internal val elTerms: Map<String, String> = mapOf(
     "Find the form of the word that fits the sentence" to "Βρείτε τον τύπο της λέξης που ταιριάζει στην πρόταση",
     "Word forms" to "Τύποι λέξεων",
     "Needs other forms of the word" to "Χρειάζεται άλλους τύπους της λέξης",
+    "Matching pairs" to "Αντιστοίχιση ζευγών",
+    "Match up to five words with their meanings" to "Αντιστοιχίστε έως πέντε λέξεις με τις σημασίες τους",
 )

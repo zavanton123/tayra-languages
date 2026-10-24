@@ -445,4 +445,6 @@ internal val plTerms: Map<String, String> = mapOf(
     "Find the form of the word that fits the sentence" to "Znajdź formę słowa, która pasuje do zdania",
     "Word forms" to "Formy słów",
     "Needs other forms of the word" to "Wymaga innych form słowa",
+    "Matching pairs" to "Łączenie w pary",
+    "Match up to five words with their meanings" to "Połącz do pięciu słów z ich znaczeniami",
 )

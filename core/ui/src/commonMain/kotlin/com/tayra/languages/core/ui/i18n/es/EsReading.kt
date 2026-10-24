@@ -251,4 +251,9 @@ internal val esReading: Map<String, String> = mapOf(
     "Choose the form of “{0}” that fits" to "Elige la forma de «{0}» que encaja",
     "Build the form of “{0}” that fits" to "Forma la forma de «{0}» que encaja",
     "Type the form of “{0}” that fits" to "Escribe la forma de «{0}» que encaja",
+    "Match each word with its meaning" to "Une cada palabra con su significado",
+    "Almost" to "Casi",
+    "The pairs are shown above." to "Las parejas se muestran arriba.",
+    "Every pair matched, with {0} wrong tries" to "Todas las parejas unidas, con {0} intento fallido|Todas las parejas unidas, con {0} intentos fallidos",
+    "Every pair matched." to "Todas las parejas unidas.",
 )

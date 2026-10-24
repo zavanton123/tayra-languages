@@ -445,4 +445,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "Find the form of the word that fits the sentence" to "Encuentra la forma de la palabra que encaja en la oración",
     "Word forms" to "Formas de las palabras",
     "Needs other forms of the word" to "Necesita otras formas de la palabra",
+    "Matching pairs" to "Parejas",
+    "Match up to five words with their meanings" to "Une hasta cinco palabras con su significado",
 )

@@ -251,4 +251,9 @@ internal val elReading: Map<String, String> = mapOf(
     "Choose the form of “{0}” that fits" to "Επιλέξτε τον τύπο του «{0}» που ταιριάζει",
     "Build the form of “{0}” that fits" to "Φτιάξτε τον τύπο του «{0}» που ταιριάζει",
     "Type the form of “{0}” that fits" to "Πληκτρολογήστε τον τύπο του «{0}» που ταιριάζει",
+    "Match each word with its meaning" to "Αντιστοιχίστε κάθε λέξη με τη σημασία της",
+    "Almost" to "Σχεδόν",
+    "The pairs are shown above." to "Τα ζεύγη φαίνονται παραπάνω.",
+    "Every pair matched, with {0} wrong tries" to "Όλα τα ζεύγη ταίριαξαν, με {0} λάθος προσπάθεια|Όλα τα ζεύγη ταίριαξαν, με {0} λάθος προσπάθειες",
+    "Every pair matched." to "Όλα τα ζεύγη ταίριαξαν.",
 )

@@ -251,4 +251,9 @@ internal val deReading: Map<String, String> = mapOf(
     "Choose the form of “{0}” that fits" to "Wähle die passende Form von „{0}“",
     "Build the form of “{0}” that fits" to "Setze die passende Form von „{0}“ zusammen",
     "Type the form of “{0}” that fits" to "Tippe die passende Form von „{0}“",
+    "Match each word with its meaning" to "Ordne jedem Wort seine Bedeutung zu",
+    "Almost" to "Fast",
+    "The pairs are shown above." to "Die Paare stehen oben.",
+    "Every pair matched, with {0} wrong tries" to "Alle Paare zugeordnet, mit {0} falschen Versuch|Alle Paare zugeordnet, mit {0} falschen Versuchen",
+    "Every pair matched." to "Alle Paare zugeordnet.",
 )

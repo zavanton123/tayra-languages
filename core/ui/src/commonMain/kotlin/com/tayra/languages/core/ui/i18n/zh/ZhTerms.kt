@@ -445,4 +445,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Find the form of the word that fits the sentence" to "找出适合句子的单词形式",
     "Word forms" to "词形",
     "Needs other forms of the word" to "需要该词的其他形式",
+    "Matching pairs" to "配对",
+    "Match up to five words with their meanings" to "把最多五个单词与意思配对",
 )

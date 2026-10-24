@@ -15,6 +15,7 @@ import com.tayra.languages.core.ui.i18n.tr
 fun ExerciseType.label(): String = when (this) {
     ExerciseType.GAP -> tr("Missing word")
     ExerciseType.MEANING -> tr("Meaning")
+    ExerciseType.MATCHING -> tr("Matching pairs")
     ExerciseType.HEAR_WORD -> tr("Hear the word")
     ExerciseType.HEAR_SENTENCE -> tr("Hear the sentence")
     ExerciseType.DICTATION -> tr("Dictation")
@@ -26,6 +27,7 @@ fun ExerciseType.label(): String = when (this) {
 fun ExerciseType.description(): String = when (this) {
     ExerciseType.GAP -> tr("Choose or type the word missing from the sentence")
     ExerciseType.MEANING -> tr("Pick what the marked word means")
+    ExerciseType.MATCHING -> tr("Match up to five words with their meanings")
     ExerciseType.HEAR_WORD -> tr("Hear a word and choose its meaning")
     ExerciseType.HEAR_SENTENCE -> tr("Hear a sentence and find the word that means what is shown")
     ExerciseType.DICTATION -> tr("Hear the sentence and type the missing word, or all of a short one")
@@ -36,6 +38,7 @@ fun ExerciseType.description(): String = when (this) {
 fun ExerciseType.icon(): ImageVector = when (this) {
     ExerciseType.GAP -> AppIcons.ViewList
     ExerciseType.MEANING -> AppIcons.Lightbulb
+    ExerciseType.MATCHING -> AppIcons.SwapHoriz
     ExerciseType.HEAR_WORD -> AppIcons.VolumeUp
     ExerciseType.HEAR_SENTENCE -> AppIcons.Headphones
     ExerciseType.DICTATION -> AppIcons.RecordVoiceOver

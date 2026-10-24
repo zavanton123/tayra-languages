@@ -9,6 +9,8 @@ import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.test.hasClickAction
+import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithTag
@@ -53,6 +55,7 @@ import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.feature.reading.practice.PracticeActions
 import com.tayra.languages.feature.reading.practice.PracticeContent
+import com.tayra.languages.feature.reading.practice.PracticeResult
 import com.tayra.languages.feature.reading.practice.PracticeViewModel
 import kotlinx.coroutines.runBlocking
 import java.io.File
@@ -110,7 +113,7 @@ class PracticeScreenTest {
                             PracticeContent(
                                 state,
                                 PracticeActions(
-                                    onChoose = viewModel::choose, onTyped = viewModel::setTyped, onSubmit = viewModel::submit, onSkip = viewModel::skip,
+                                    onChoose = viewModel::choose, onMatch = viewModel::match, onTyped = viewModel::setTyped, onSubmit = viewModel::submit, onSkip = viewModel::skip,
                                     onNext = viewModel::next, onRestart = viewModel::start, onRestartMissed = viewModel::startMissed, onSpeak = { spoken += it },
                                 ),
                             )
@@ -328,6 +331,25 @@ class PracticeScreenTest {
         shot("form")
         onNodeWithTag("practice-option-${exercise.options.indexOf(exercise.answer)}").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    /** Words are matched with their meanings: a wrong pair counts against the round, which ends once every word is matched. */
+    @Test
+    fun wordsAreMatchedWithTheirMeanings() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.MATCHING)))
+        val exercise = viewModel.state.value.exercises.single()
+        assertEquals(ExerciseType.MATCHING, exercise.type)
+        assertEquals(learning.keys, exercise.pairs.map { it.first }.toSet())
+        fun tap(text: String) = onNode(hasText(text) and hasClickAction()).performClick()
+        // A wrong pair first.
+        tap("moro"); tap("week")
+        waitForIdle()
+        assertEquals(1, viewModel.state.value.wrongPairs)
+        shot("matching")
+        for ((text, meaning) in learning) { tap(text); tap(meaning) }
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered }
+        assertEquals(PracticeResult.ALMOST, viewModel.state.value.result)
+        onNodeWithText("Every pair matched, with 1 wrong try").assertExists()
     }
 
     @Test

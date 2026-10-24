@@ -251,4 +251,9 @@ internal val ptReading: Map<String, String> = mapOf(
     "Choose the form of “{0}” that fits" to "Escolha a forma de “{0}” que encaixa",
     "Build the form of “{0}” that fits" to "Monte a forma de “{0}” que encaixa",
     "Type the form of “{0}” that fits" to "Digite a forma de “{0}” que encaixa",
+    "Match each word with its meaning" to "Ligue cada palavra ao seu significado",
+    "Almost" to "Quase",
+    "The pairs are shown above." to "Os pares estão indicados acima.",
+    "Every pair matched, with {0} wrong tries" to "Todos os pares ligados, com {0} tentativa errada|Todos os pares ligados, com {0} tentativas erradas",
+    "Every pair matched." to "Todos os pares ligados.",
 )

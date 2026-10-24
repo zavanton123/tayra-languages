@@ -251,4 +251,9 @@ internal val ruReading: Map<String, String> = mapOf(
     "Choose the form of “{0}” that fits" to "Выберите подходящую форму «{0}»",
     "Build the form of “{0}” that fits" to "Соберите подходящую форму «{0}»",
     "Type the form of “{0}” that fits" to "Введите подходящую форму «{0}»",
+    "Match each word with its meaning" to "Сопоставьте каждое слово с его значением",
+    "Almost" to "Почти",
+    "The pairs are shown above." to "Пары показаны выше.",
+    "Every pair matched, with {0} wrong tries" to "Все пары сопоставлены, {0} неверная попытка|Все пары сопоставлены, {0} неверные попытки|Все пары сопоставлены, {0} неверных попыток",
+    "Every pair matched." to "Все пары сопоставлены.",
 )
