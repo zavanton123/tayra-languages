@@ -185,10 +185,11 @@ class NewsScreenTest {
         onNodeWithTag("topic-Política").performClick()
         waitForIdle()
         screenshot("NEWS_FILTERS_SCREENSHOT")
-        onNodeWithText("2 articles").assertExists()
+        // The summary names the filters on and the articles they leave.
+        onNodeWithText("Política · 2 articles").assertExists()
         assertEquals(0, onAllNodesWithTag("article-https://news.example/parque").fetchSemanticsNodes().size)
         onNodeWithTag("hide-read").performClick()
-        onNodeWithText("1 article").assertExists()
+        onNodeWithText("Hide read · Política · 1 article").assertExists()
         onNodeWithTag("clear-filters").performClick()
         onNodeWithTag("article-https://news.example/parque").assertExists()
         assertEquals(1, cleared.size)

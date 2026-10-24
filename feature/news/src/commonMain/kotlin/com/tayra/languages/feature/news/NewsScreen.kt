@@ -1,5 +1,9 @@
 package com.tayra.languages.feature.news
 
+import com.tayra.languages.core.ui.components.label
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
+import androidx.compose.foundation.clickable
+import com.tayra.languages.core.ui.components.ActiveFilterSummary
 import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.foundation.rememberScrollState
@@ -281,16 +285,9 @@ private fun Filters(state: NewsUiState, actions: NewsActions) {
         } else {
             FilterChips(state, actions)
         }
+        // The filters on, in words, with the articles they leave; on a phone it also reopens the sheet.
         if (state.filtering && !state.loading) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                val count = state.shown.size + if (state.hasMore) 1 else 0
-                Text(
-                    if (state.hasMore) tr("More than {0} articles", state.shown.size) else trPlural(count, "{0} article", "{0} articles"),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = colors.onSurfaceVariant,
-                )
-                QuietButton(tr("Clear filters"), onClick = actions.onClear, modifier = Modifier.testTag("clear-filters"))
-            }
+            ActiveFilterSummary(newsFilterSummary(state), tr("Clear filters"), onClear = actions.onClear, onEdit = if (compact) ({ sheet = true }) else null)
         }
         if (state.stillChecking > 0) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
@@ -362,6 +359,20 @@ private fun FilterChips(state: NewsUiState, actions: NewsActions) {
     }
 }
 
+/** The filters on, then how many articles they leave: "This week · Easy · 12 articles". */
+private fun newsFilterSummary(state: NewsUiState): String {
+    val parts = listOfNotNull(
+        state.period.takeIf { it != NewsPeriod.ANY }?.label,
+        state.source?.name,
+        state.difficulty?.label,
+        tr("Easy language only").takeIf { state.easyOnly },
+        tr("Hide read").takeIf { state.hideRead },
+        state.topic,
+    )
+    val count = if (state.hasMore) tr("More than {0} articles", state.shown.size) else trPlural(state.shown.size, "{0} article", "{0} articles")
+    return (parts + count).joinToString(" · ")
+}
+
 private val NewsPeriod.label: String
     get() = when (this) {
         NewsPeriod.ANY -> tr("Any time")
@@ -374,8 +385,9 @@ private fun NewsCard(item: NewsItem, state: NewsUiState, actions: NewsActions, c
     val colors = MaterialTheme.colorScheme
     val article = item.article
     val opened = state.opened[article.url]
+    // The whole card opens the article; its button only says what a tap does, quietly, as on every card.
     Row(
-        modifier.fillMaxWidth().cardSurface().padding(AppSpacing.l).testTag("article-${article.url}"),
+        modifier.fillMaxWidth().cardSurface().clickable(enabled = !item.opening) { actions.onOpen(item) }.padding(AppSpacing.l).testTag("article-${article.url}"),
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
@@ -394,24 +406,21 @@ private fun NewsCard(item: NewsItem, state: NewsUiState, actions: NewsActions, c
             }
             Text(article.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 3, overflow = TextOverflow.Ellipsis)
             if (article.summary.isNotEmpty()) Text(article.summary.inLearnedScript(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
-            CoverageLine(item.difficulty, item.check, tag = article.url)
-            item.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.error) }
-            if (compact) {
-                Spacer(Modifier.height(AppSpacing.xs))
-                ReadButton(item, opened != null, actions, Modifier.fillMaxWidth(), quiet = true)
+            // On a phone the quiet action ends the metadata line rather than taking a line of its own.
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Box(Modifier.weight(1f)) { CoverageLine(item.difficulty, item.check, tag = article.url) }
+                if (compact) ReadButton(item, opened != null, actions, Modifier)
             }
+            item.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.error) }
         }
         if (!compact) ReadButton(item, opened != null, actions, Modifier.align(Alignment.CenterVertically).widthIn(min = READ_BUTTON_WIDTH))
     }
 }
 
 @Composable
-private fun ReadButton(item: NewsItem, opened: Boolean, actions: NewsActions, modifier: Modifier, quiet: Boolean = false) {
+private fun ReadButton(item: NewsItem, opened: Boolean, actions: NewsActions, modifier: Modifier) {
     val text = if (opened) tr("Continue") else tr("Read")
-    val tagged = modifier.testTag("read-${item.article.url}")
-    // A phone's list puts a full-width button on every card; outlined, they do not outweigh the articles.
-    if (opened || quiet) SecondaryButton(text, onClick = { actions.onOpen(item) }, modifier = tagged, loading = item.opening)
-    else PrimaryButton(text, onClick = { actions.onOpen(item) }, modifier = tagged, loading = item.opening)
+    QuietButton(text, onClick = { actions.onOpen(item) }, modifier = modifier.testTag("read-${item.article.url}"), loading = item.opening, trailingIcon = Icons.AutoMirrored.Filled.ArrowForward)
 }
 
 private val READ_BUTTON_WIDTH = 140.dp
