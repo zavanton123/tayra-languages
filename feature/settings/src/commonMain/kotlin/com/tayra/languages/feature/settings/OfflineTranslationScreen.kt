@@ -524,7 +524,7 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
         icon = AppIcons.Download,
         headerExtra = {
             if (!compact) {
-                Tag(tr("{0} installed", installed.size), MaterialTheme.colorScheme.primary)
+                Tag(tr("{0} downloaded", installed.size), MaterialTheme.colorScheme.primary)
                 Spacer(Modifier.width(AppSpacing.l))
                 search(Modifier.width(PACKAGE_SEARCH_WIDTH))
                 Spacer(Modifier.width(AppSpacing.m))
@@ -536,7 +536,7 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
             search(Modifier.fillMaxWidth())
             Spacer(Modifier.height(AppSpacing.m))
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Tag(tr("{0} installed", installed.size), MaterialTheme.colorScheme.primary)
+                Tag(tr("{0} downloaded", installed.size), MaterialTheme.colorScheme.primary)
                 Spacer(Modifier.weight(1f))
                 TabToggle(tab) { tab = it }
             }
@@ -658,7 +658,7 @@ internal fun PackageTile(pkg: LocalPackage, busy: Boolean, needed: Boolean, onIn
             pkg.installed -> {
                 StatusDot(StatusTints.ok, size = AppSizes.dot)
                 Spacer(Modifier.width(AppSpacing.s))
-                Text(tr("Installed"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
+                Text(tr("Downloaded"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
                 Spacer(Modifier.width(AppSpacing.xs))
                 OverflowMenu(tr("More for {0}", pkg.displayTitle)) { close ->
                     AppMenuItem(text = { Text(tr("Remove")) }, onClick = { close(); onRemove() })

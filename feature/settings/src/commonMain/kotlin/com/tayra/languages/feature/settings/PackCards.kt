@@ -56,10 +56,11 @@ internal class PackWords(
 @Composable
 private fun PackStatePill(state: PackState) {
     val colors = MaterialTheme.colorScheme
+    // One set of words for every download: not downloaded, downloading, downloaded, failed.
     when (state) {
-        is PackState.Installed -> StatusPill(tr("Installed"), StatusTints.ok)
+        is PackState.Installed -> StatusPill(tr("Downloaded"), StatusTints.ok)
         is PackState.Downloading -> StatusPill(tr("Downloading"), colors.primary)
-        is PackState.Failed -> StatusPill(tr("Download failed"), colors.error)
+        is PackState.Failed -> StatusPill(tr("Failed"), colors.error)
         PackState.NotInstalled -> StatusPill(tr("Not downloaded"), colors.outline)
     }
 }

@@ -91,7 +91,7 @@ internal fun PhoneDictionariesScreen(
             // A search belongs to the list it was typed into.
             SegmentedToggle(
                 listOf(
-                    Segment(PhoneTab.INSTALLED, label = "${tr("Installed")} ${installed.size}", testTag = "phone-tab-${PhoneTab.INSTALLED.name}"),
+                    Segment(PhoneTab.INSTALLED, label = "${tr("Downloaded")} ${installed.size}", testTag = "phone-tab-${PhoneTab.INSTALLED.name}"),
                     Segment(PhoneTab.AVAILABLE, label = tr("Available"), testTag = "phone-tab-${PhoneTab.AVAILABLE.name}"),
                 ),
                 tab,
@@ -102,7 +102,7 @@ internal fun PhoneDictionariesScreen(
             when (tab) {
                 PhoneTab.INSTALLED -> {
                     val shown = installed.filter { it.pack.matches(query) }.sortedBy { it.pack.title }
-                    Text(tr("Installed dictionaries"), style = AppText.sectionTitle)
+                    Text(tr("Downloaded dictionaries"), style = AppText.sectionTitle)
                     if (shown.isEmpty()) {
                         Text(
                             if (query.isNotBlank()) tr("No dictionaries match “{0}”.", query.trim()) else tr("No dictionaries downloaded yet."),

@@ -21,6 +21,7 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Remove" to "移除",
     "More for {0}" to "{0} 的更多操作",
     "{0} installed" to "已安装 {0}",
+    "{0} downloaded" to "已下载 {0} 个",
     "Offline" to "离线",
 
     // Texts the data layer writes, shown through tr(value): pack download failures,
@@ -67,6 +68,7 @@ internal val zhSettings: Map<String, String> = mapOf(
     // PhoneSpeech.kt
     "Playback" to "播放",
     "Installed voices" to "已安装的语音",
+    "Downloaded voices" to "已下载的语音",
     "Available {0} voices" to "可用语音：{0}",
     "All voices" to "全部语音",
     "Offline speech ready" to "离线朗读已就绪",

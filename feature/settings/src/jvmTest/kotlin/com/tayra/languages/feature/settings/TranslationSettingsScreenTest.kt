@@ -108,7 +108,7 @@ class TranslationSettingsScreenTest {
 
         // An installed package is removed from its menu.
         onNode(hasSetTextAction()).performTextClearance()
-        onNodeWithText("Installed").performClick()
+        onNodeWithText("Downloaded").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Bulgarian → English")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithContentDescription("More for Bulgarian → English").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Remove")).fetchSemanticsNodes().isNotEmpty() }

@@ -506,7 +506,7 @@ private fun ModelCard(
         tr("Voice model"),
         tr(engine.packagesDescription),
         icon = AppIcons.Download,
-        titleExtra = { if (pkg.installed) Tag(tr("Installed"), StatusTints.ok) else Tag(tr("Not downloaded"), StatusTints.warning) },
+        titleExtra = { if (pkg.installed) Tag(tr("Downloaded"), StatusTints.ok) else Tag(tr("Not downloaded"), StatusTints.warning) },
     ) {
         Column(
             Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control).padding(AppSpacing.m),
@@ -586,7 +586,7 @@ private fun VoicesCard(
         icon = AppIcons.Download,
         headerExtra = {
             if (!compact) {
-                Tag(tr("{0} installed", installed.size), MaterialTheme.colorScheme.primary)
+                Tag(tr("{0} downloaded", installed.size), MaterialTheme.colorScheme.primary)
                 Spacer(Modifier.width(AppSpacing.l))
                 search(Modifier.width(VOICE_SEARCH_WIDTH))
                 Spacer(Modifier.width(AppSpacing.m))
@@ -598,7 +598,7 @@ private fun VoicesCard(
             search(Modifier.fillMaxWidth())
             Spacer(Modifier.height(AppSpacing.m))
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Tag(tr("{0} installed", installed.size), MaterialTheme.colorScheme.primary)
+                Tag(tr("{0} downloaded", installed.size), MaterialTheme.colorScheme.primary)
                 Spacer(Modifier.weight(1f))
                 TabToggle(tab) { tab = it }
             }
@@ -665,7 +665,7 @@ internal fun PackageAction(pkg: SpeechPackage, busy: Boolean, onInstall: () -> U
             pkg.installed -> {
                 StatusDot(StatusTints.ok, size = AppSizes.dot)
                 Spacer(Modifier.width(AppSpacing.s))
-                Text(tr("Installed"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
+                Text(tr("Downloaded"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
                 Spacer(Modifier.width(AppSpacing.xs))
                 OverflowMenu(tr("More for {0}", pkg.displayTitle)) { close ->
                     AppMenuItem(text = { Text(tr("Remove")) }, onClick = { close(); onRemove() })

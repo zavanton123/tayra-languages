@@ -21,6 +21,7 @@ internal val elSettings: Map<String, String> = mapOf(
     "Remove" to "Αφαίρεση",
     "More for {0}" to "Περισσότερα για: {0}",
     "{0} installed" to "Εγκατεστημένα: {0}",
+    "{0} downloaded" to "{0} ληφθέντα",
     "Offline" to "Εκτός σύνδεσης",
 
     // Texts the data layer writes, shown through tr(value): pack download failures,
@@ -67,6 +68,7 @@ internal val elSettings: Map<String, String> = mapOf(
     // PhoneSpeech.kt
     "Playback" to "Αναπαραγωγή",
     "Installed voices" to "Εγκατεστημένες φωνές",
+    "Downloaded voices" to "Ληφθείσες φωνές",
     "Available {0} voices" to "Διαθέσιμες φωνές: {0}",
     "All voices" to "Όλες οι φωνές",
     "Offline speech ready" to "Η εκφώνηση εκτός σύνδεσης είναι έτοιμη",

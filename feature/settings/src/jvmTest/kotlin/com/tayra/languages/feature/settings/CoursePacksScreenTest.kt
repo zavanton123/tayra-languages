@@ -53,7 +53,7 @@ class CoursePacksScreenTest {
 
         onNodeWithTag("download-courses-pt").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("remove-courses-pt").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Installed").assertExists()
+        onNodeWithText("Downloaded").assertExists()
         onNodeWithText("4.0 MB on this device").assertExists()
         System.getenv("COURSE_PACKS_SCREENSHOT")?.let { save(it.replace(".png", "-installed.png")) }
 

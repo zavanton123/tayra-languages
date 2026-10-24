@@ -408,7 +408,7 @@ private fun InstalledCard(packs: List<PackStatus>, nativeName: String, learningC
         .sortedWith(compareBy({ it.pack.id.sourceLanguage != learningCode }, { it.pack.title }))
     val shown = if (showAll || query.isNotBlank()) matching else matching.take(INSTALLED_PREVIEW)
 
-    ContentCard(tr("Installed dictionaries"), tr("Manage downloaded dictionaries for offline lookup."), icon = AppIcons.Storage, modifier = modifier) {
+    ContentCard(tr("Downloaded dictionaries"), tr("Manage downloaded dictionaries for offline lookup."), icon = AppIcons.Storage, modifier = modifier) {
         if (installed.isEmpty()) {
             Text(
                 tr("No dictionaries downloaded yet. Download one on the right to look words up offline."),

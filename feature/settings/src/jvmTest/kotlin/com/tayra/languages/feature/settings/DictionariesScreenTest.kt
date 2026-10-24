@@ -119,7 +119,7 @@ class DictionariesScreenTest {
 
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Portuguese → Russian is not downloaded")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Manage downloaded dictionaries for offline lookup.").assertDoesNotExist()
-        onNodeWithText("Installed 2").assertExists()
+        onNodeWithText("Downloaded 2").assertExists()
         System.getenv("DICTIONARIES_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
         onNodeWithTag("phone-download-current").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { "pt-ru" in store.installed }
@@ -138,7 +138,7 @@ class DictionariesScreenTest {
 
         // Installed lists what is on the device, with removal from the row's menu.
         onNodeWithTag("phone-tab-INSTALLED").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Installed dictionaries")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Downloaded dictionaries")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithContentDescription("More for German → Russian · Wiktionary").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Remove")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Remove").performClick()

@@ -7,7 +7,7 @@ import kotlin.time.Instant
  * that there is no status 5: a word past status 4 is well known.
  */
 enum class TermStatus(val value: Int, val label: String, val abbreviation: String) {
-    UNKNOWN(0, "Unknown", "U"),
+    UNKNOWN(0, "New", "U"),
     NEW_1(1, "Learning 1", "1"),
     NEW_2(2, "Learning 2", "2"),
     LEARNING_3(3, "Learning 3", "3"),

@@ -77,7 +77,7 @@ private fun StatusBreakdown(stats: BookStats) {
     val unknownPercent = stats.unknownPercent
     val learningPercent = (100.0 * learning / total).roundToInt().coerceAtMost(100 - unknownPercent)
     val rows = listOf(
-        Triple(tr("Unknown"), unknown to unknownPercent, colors.background(TermStatus.UNKNOWN)),
+        Triple(tr("New"), unknown to unknownPercent, colors.background(TermStatus.UNKNOWN)),
         Triple(tr("Learning"), learning to learningPercent, colors.background(TermStatus.NEW_1)),
         Triple(tr("Known"), known to (100 - unknownPercent - learningPercent), colors.background(TermStatus.WELL_KNOWN)),
     )

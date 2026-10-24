@@ -21,6 +21,7 @@ internal val plSettings: Map<String, String> = mapOf(
     "Remove" to "Usuń",
     "More for {0}" to "Więcej działań: {0}",
     "{0} installed" to "Zainstalowane: {0}",
+    "{0} downloaded" to "pobrane: {0}",
     "Offline" to "Offline",
 
     // Texts the data layer writes, shown through tr(value): pack download failures,
@@ -67,6 +68,7 @@ internal val plSettings: Map<String, String> = mapOf(
     // PhoneSpeech.kt
     "Playback" to "Odtwarzanie",
     "Installed voices" to "Pobrane głosy",
+    "Downloaded voices" to "Pobrane głosy",
     "Available {0} voices" to "Dostępne głosy: {0}",
     "All voices" to "Wszystkie głosy",
     "Offline speech ready" to "Mowa offline gotowa",

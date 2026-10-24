@@ -165,7 +165,7 @@ class SpeechSettingsScreenTest {
         onAllNodes(hasText("Download") and hasClickAction())[0].performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { piper.installed.size == 1 }
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Offline speech ready")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Installed voices").assertExists()
+        onNodeWithText("Downloaded voices").assertExists()
         onNodeWithText("Search voices").performTextInput("czech")
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Jirka (Czechia, low)")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("phone-speech-speed").performSemanticsAction(SemanticsActions.SetProgress) { it(1.0f) }

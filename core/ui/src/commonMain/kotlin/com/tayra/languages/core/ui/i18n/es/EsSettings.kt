@@ -21,6 +21,7 @@ internal val esSettings: Map<String, String> = mapOf(
     "Remove" to "Eliminar",
     "More for {0}" to "Más opciones: {0}",
     "{0} installed" to "Instalados: {0}",
+    "{0} downloaded" to "{0} descargados",
     "Offline" to "Sin conexión",
 
     // Texts the data layer writes, shown through tr(value): pack download failures,
@@ -67,6 +68,7 @@ internal val esSettings: Map<String, String> = mapOf(
     // PhoneSpeech.kt
     "Playback" to "Reproducción",
     "Installed voices" to "Voces instaladas",
+    "Downloaded voices" to "Voces descargadas",
     "Available {0} voices" to "Voces disponibles: {0}",
     "All voices" to "Todas las voces",
     "Offline speech ready" to "Voz sin conexión lista",

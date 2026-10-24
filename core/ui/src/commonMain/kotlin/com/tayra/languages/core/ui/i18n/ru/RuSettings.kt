@@ -21,6 +21,7 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Remove" to "Удалить",
     "More for {0}" to "Другие действия: {0}",
     "{0} installed" to "Установлено: {0}",
+    "{0} downloaded" to "скачано: {0}",
     "Offline" to "Офлайн",
 
     // Texts the data layer writes, shown through tr(value): pack download failures,
@@ -67,6 +68,7 @@ internal val ruSettings: Map<String, String> = mapOf(
     // PhoneSpeech.kt
     "Playback" to "Воспроизведение",
     "Installed voices" to "Скачанные голоса",
+    "Downloaded voices" to "Скачанные голоса",
     "Available {0} voices" to "Доступные голоса: {0}",
     "All voices" to "Все голоса",
     "Offline speech ready" to "Офлайн-озвучивание готово",

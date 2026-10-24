@@ -32,7 +32,7 @@ class StatusSelectorTest {
             }
         }
         // Three buttons, not seven: no numbered levels, and no Ignored.
-        for (name in listOf("Unknown", "Learning", "Known")) onNodeWithContentDescription(name).assertExists()
+        for (name in listOf("New", "Learning", "Known")) onNodeWithContentDescription(name).assertExists()
         for (name in listOf("Learning 2", "Ignored")) assertEquals(0, onAllNodes(androidx.compose.ui.test.hasContentDescription(name)).fetchSemanticsNodes().size)
         System.getenv("STATUS_SELECTOR_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
 

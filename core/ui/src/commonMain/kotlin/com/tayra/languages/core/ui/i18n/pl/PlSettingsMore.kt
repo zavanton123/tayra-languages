@@ -42,6 +42,7 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Control how Tayra behaves on different pages." to "Ustaw, jak Tayra działa na różnych stronach.",
     "Show learning levels" to "Pokazuj poziomy nauki",
     "Statuses 1 to 4 for words being learned, and Ignored, rather than only Unknown, Learning and Known." to "Statusy 1–4 dla słów w nauce oraz „Ignorowane” zamiast tylko „Nieznane”, „W nauce” i „Znane”.",
+    "Statuses 1 to 4 for words being learned, and Ignored, rather than only New, Learning and Known." to "Statusy 1–4 dla uczonych słów oraz Ignorowane zamiast tylko Nowe, W nauce i Znane.",
     "Set status to Learning" to "Ustaw status „W nauce”",
     "Book stats page sample size" to "Próbka stron do statystyk książki",
     "Number of pages used for book statistics." to "Liczba stron używanych do statystyk książki.",

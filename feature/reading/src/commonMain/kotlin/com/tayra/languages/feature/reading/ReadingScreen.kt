@@ -997,7 +997,7 @@ private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
         Triple(tr("Next sentence"), listOf(HotkeyAction.LISTEN_NEXT, HotkeyAction.LISTEN_NEXT_ARROW), or),
         Triple(tr("Repeat sentence"), listOf(HotkeyAction.LISTEN_REPEAT, HotkeyAction.LISTEN_REPEAT_ARROW), or),
         Triple(tr("Mark word as known"), listOf(HotkeyAction.STATUS_WELL_KNOWN), or),
-        Triple(tr("Mark word as unknown"), listOf(HotkeyAction.DELETE_TERM), or),
+        Triple(tr("Mark word as new"), listOf(HotkeyAction.DELETE_TERM), or),
         Triple(tr("Show / hide the term pane"), listOf(HotkeyAction.TOGGLE_TERM_PANE), or),
         Triple(tr("Next coloured word"), listOf(HotkeyAction.NEXT_COLORED_WORD), or),
         Triple(tr("Previous coloured word"), listOf(HotkeyAction.PREV_COLORED_WORD), or),
@@ -1178,7 +1178,7 @@ private fun PageVocabulary(state: ReadingUiState) {
         // A phone keeps the label short, so the bar has room to show its shares.
         Text(if (LocalWindowWidth.current.isCompact) tr("On this page") else tr("Vocabulary on this page"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         StatusDistributionBar(stats, Modifier.widthIn(max = VOCABULARY_BAR_WIDTH).weight(1f, fill = false).fillMaxWidth(), scope = "on this page")
-        Text(if (stats.distinctTerms > 0) tr("{0}% unknown", stats.unknownPercent) else "—", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        Text(if (stats.distinctTerms > 0) tr("{0}% new", stats.unknownPercent) else "—", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
     }
 }
 

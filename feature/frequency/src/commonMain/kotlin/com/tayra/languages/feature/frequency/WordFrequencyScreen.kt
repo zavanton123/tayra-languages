@@ -102,7 +102,7 @@ private val WordKnowledge.label: String
         WordKnowledge.KNOWN -> tr("Known")
         WordKnowledge.LEARNING -> tr("Learning")
         WordKnowledge.IGNORED -> tr("Ignored")
-        WordKnowledge.NEW -> tr("Unknown")
+        WordKnowledge.NEW -> tr("New")
     }
 
 /** The colour a status is shown in, on the filter chips and the band bars. */

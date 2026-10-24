@@ -339,9 +339,9 @@ fun PageColumn(padding: PaddingValues, modifier: Modifier = Modifier, content: @
 }
 
 /** [label] is English, shown through `tr`. */
-enum class PackageTab(val label: String) { INSTALLED("Installed"), AVAILABLE("Available") }
+enum class PackageTab(val label: String) { INSTALLED("Downloaded"), AVAILABLE("Available") }
 
-/** The Installed / Available switch above a list of downloads; [fill] spreads it across a phone's width. */
+/** The Downloaded / Available switch above a list of downloads; [fill] spreads it across a phone's width. */
 @Composable
 fun TabToggle(selected: PackageTab, fill: Boolean = false, onSelect: (PackageTab) -> Unit) {
     SegmentedToggle(PackageTab.entries.map { Segment(it, label = tr(it.label)) }, selected, onSelect, fill = fill)

@@ -42,6 +42,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Control how Tayra behaves on different pages." to "设置 Tayra 在各个页面上的行为。",
     "Show learning levels" to "显示学习级别",
     "Statuses 1 to 4 for words being learned, and Ignored, rather than only Unknown, Learning and Known." to "为学习中的单词显示状态 1 到 4，以及“已忽略”，而不只是“生词”“学习中”和“已掌握”。",
+    "Statuses 1 to 4 for words being learned, and Ignored, rather than only New, Learning and Known." to "为正在学习的词显示状态 1 到 4 和“已忽略”，而不只是新词、学习中和已掌握。",
     "Set status to Learning" to "设为“学习中”",
     "Book stats page sample size" to "书籍统计抽样页数",
     "Number of pages used for book statistics." to "用于书籍统计的页数。",

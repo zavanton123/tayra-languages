@@ -292,7 +292,7 @@ private fun PackageLine(pkg: LocalPackage) {
     ) {
         Text(pkg.displayTitle, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
         Text(
-            if (pkg.installed) tr("Installed") else pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize).orEmpty(),
+            if (pkg.installed) tr("Downloaded") else pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize).orEmpty(),
             style = MaterialTheme.typography.bodyMedium,
             color = if (pkg.installed) StatusTints.ok else colors.onSurfaceVariant,
         )

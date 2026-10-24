@@ -238,7 +238,7 @@ private fun PhoneModelCard(viewModel: SpeechViewModel, engine: LocalSpeechEngine
     val colors = MaterialTheme.colorScheme
     val busy = pkg.id in packageBusy
     val voiceCount = Regex("""(\d+) voices""").find(pkg.title)?.groupValues?.get(1)
-    ContentCard(tr("Voice model"), subtitle = null, icon = AppIcons.Download, dense = true, headerExtra = { if (pkg.installed) Tag(tr("Installed"), StatusTints.ok) else Tag(tr("Not downloaded"), StatusTints.warning) }) {
+    ContentCard(tr("Voice model"), subtitle = null, icon = AppIcons.Download, dense = true, headerExtra = { if (pkg.installed) Tag(tr("Downloaded"), StatusTints.ok) else Tag(tr("Not downloaded"), StatusTints.warning) }) {
         Text(modelTitle(engine, pkg), style = AppText.itemTitle)
         Text(
             listOfNotNull(voiceCount?.let { trPlural(it.toInt(), "{0} voice", "{0} voices") }, pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize)).joinToString(" · "),
@@ -270,7 +270,7 @@ private fun PhoneVoices(viewModel: SpeechViewModel, packages: List<SpeechPackage
     val languageName = learning?.let { tr(it.name) }
     SearchField(query, { query = it }, tr("Search voices"), Modifier.fillMaxWidth())
     if (installed.isNotEmpty()) {
-        Text(tr("Installed voices"), style = AppText.sectionTitle)
+        Text(tr("Downloaded voices"), style = AppText.sectionTitle)
         VoiceList(installed, packageBusy, viewModel)
     }
     Row(verticalAlignment = Alignment.CenterVertically) {
@@ -283,7 +283,7 @@ private fun PhoneVoices(viewModel: SpeechViewModel, packages: List<SpeechPackage
             Modifier.weight(1f),
             style = AppText.sectionTitle,
         )
-        Tag(tr("{0} installed", packages.count { it.installed }), colors.primary)
+        Tag(tr("{0} downloaded", packages.count { it.installed }), colors.primary)
     }
     if (available.isEmpty()) {
         Text(
