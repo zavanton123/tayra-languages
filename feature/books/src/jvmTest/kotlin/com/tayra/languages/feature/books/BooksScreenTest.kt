@@ -119,10 +119,11 @@ class BooksScreenTest {
         onNodeWithText("Page 3 of 5 · 1,223 words").assertExists()
         assertEquals(1, onAllNodesWithText("Page ", substring = true).fetchSemanticsNodes().size)
         onNodeWithText("Continue reading").assertExists()
-        assertTrue(onAllNodesWithText("40%").fetchSemanticsNodes().size >= 2)
-        onNodeWithText("1,223 words").assertExists()
-        // The tab, and the badge of the one book in progress.
-        assertEquals(2, onAllNodesWithText("In progress").fetchSemanticsNodes().size)
+        // The book being read is on its card only: the list below leaves it out, so it is not offered twice.
+        assertEquals(1, onAllNodesWithText("Long text").fetchSemanticsNodes().size)
+        assertTrue(onAllNodesWithText("40%").fetchSemanticsNodes().isNotEmpty())
+        // The tab; the one book in progress is the card's, so no badge of it shows in the list.
+        assertEquals(1, onAllNodesWithText("In progress").fetchSemanticsNodes().size)
         assertEquals(5, onAllNodesWithText("Finished").fetchSemanticsNodes().size)
         onNode(hasScrollToIndexAction()).performScrollToNode(hasText("6 books  ·  349 words learned"))
         onNodeWithText("6 books  ·  349 words learned").assertExists()
@@ -334,8 +335,8 @@ class BooksScreenTest {
         onNodeWithTag("match-all").performClick()
         onNodeWithTag("apply-tags").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 book").fetchSemanticsNodes().isNotEmpty() }
-        // In the card of the book being read, and in the list.
-        assertEquals(2, onAllNodesWithText("Long text").fetchSemanticsNodes().size)
+        // In the card of the book being read only, not again in the list.
+        assertEquals(1, onAllNodesWithText("Long text").fetchSemanticsNodes().size)
     }
 
 }

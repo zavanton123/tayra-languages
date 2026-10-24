@@ -226,10 +226,12 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
     val compact = LocalWindowWidth.current.isCompact
     // The table needs a wide window; narrower ones list the books as cards.
     val wide = LocalWindowWidth.current.isExpanded
-    val books = state.filteredBooks
     // Ticking books for the bulk actions starts with Select, so the list stays plain otherwise.
     var selecting by rememberSaveable { mutableStateOf(false) }
     val showChecks = selecting || state.selectedBooks.isNotEmpty()
+    // The book on the Continue card is not listed again below it, as on a phone; while ticking, every book is.
+    val continued = state.continueWith?.takeIf { !state.archived && !showChecks }
+    val books = continued?.let { shown -> state.filteredBooks.filter { it.id != shown.id } } ?: state.filteredBooks
     ScrollList(
         modifier.fillMaxSize(),
         contentPadding = PaddingValues(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxl),
@@ -259,7 +261,8 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
         }
         if (!state.archived) state.continueWith?.let { book -> item { ContinueCard(book) { callbacks.onOpen(book) } } }
         item { ProgressTabs(state.counts, state.progress, callbacks.onProgress) }
-        item { Toolbar(state, compact, wide, books.size, callbacks) }
+        // The count is of every book the filters keep, the one on the Continue card too.
+        item { Toolbar(state, compact, wide, state.filteredBooks.size, callbacks) }
         item {
             LibraryHeader(
                 state,
@@ -273,7 +276,7 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
             when {
                 books.isEmpty() -> NoBooks(state.archived, callbacks.onNewBook)
                 !wide || state.view == BooksView.GRID -> BookGrid(books, state.selected, showChecks, compact, callbacks)
-                else -> BookTable(state, showChecks, callbacks)
+                else -> BookTable(state, books, showChecks, callbacks)
             }
         }
         item { Footer(state) }
@@ -428,11 +431,11 @@ private val CONTINUE_BUTTON_WIDTH = 180.dp
 private val PERCENT_WIDTH = 40.dp
 
 @Composable
-private fun BookTable(state: BooksUiState, selecting: Boolean, callbacks: BooksCallbacks) {
+private fun BookTable(state: BooksUiState, books: List<BookListItem>, selecting: Boolean, callbacks: BooksCallbacks) {
     val colors = MaterialTheme.colorScheme
     Column(Modifier.fillMaxWidth().cardSurface()) {
         BookTableHeader(state, selecting, callbacks)
-        state.filteredBooks.forEach { book ->
+        books.forEach { book ->
             AppDivider(color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
             BookTableRow(book, book.id in state.selected, selecting, callbacks)
         }
