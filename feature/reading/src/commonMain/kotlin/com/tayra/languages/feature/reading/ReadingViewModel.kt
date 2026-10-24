@@ -62,6 +62,12 @@ import kotlinx.coroutines.launch
 import com.tayra.languages.core.domain.service.ChineseScriptService
 import com.tayra.languages.core.domain.morphology.ChineseScript
 import kotlin.math.roundToInt
+import com.tayra.languages.feature.terms.anki.putIntoAnki
+import com.tayra.languages.feature.terms.anki.ankiSaved
+import com.tayra.languages.feature.terms.anki.AnkiProgress
+import com.tayra.languages.feature.terms.anki.AnkiOutcome
+import com.tayra.languages.core.domain.export.AnkiExportService
+import com.tayra.languages.core.domain.export.AnkiConnection
 
 /** What is shown in the side panel / bottom sheet. */
 sealed interface ReadingPanel {
@@ -80,6 +86,8 @@ data class PopupState(val itemIndex: Int, val popup: TermPopup)
 
 data class ReadingUiState(
     val loading: Boolean = true,
+    /** Set while the text's words go into Anki. */
+    val ankiProgress: AnkiProgress? = null,
     val book: Book? = null,
     /** Set when the text is a course lesson, which is shown as part of its course rather than as a book. */
     val lesson: LessonReading? = null,
@@ -131,6 +139,8 @@ sealed interface ReadingEvent {
     data object BookFinished : ReadingEvent
     /** A short message; [undoable] offers to undo the words just marked known. */
     data class Toast(val message: String, val undoable: Boolean = false) : ReadingEvent
+    /** An Anki package of the text's words, for the reader to save and import. */
+    class AnkiFile(val export: AnkiExportService.Export) : ReadingEvent
 }
 
 class ReadingViewModel(
@@ -152,7 +162,13 @@ class ReadingViewModel(
     private val wordReadings: WordReadings? = null,
     /** Changes the script a Chinese language is read in, rewriting its saved words. */
     private val chineseScripts: ChineseScriptService? = null,
+    /** Puts the text's words into Anki; without it the reader offers no Anki export. */
+    private val anki: AnkiExportService? = null,
+    /** A running Anki to add the words to directly; only the desktop has one. */
+    private val ankiConnection: AnkiConnection? = null,
 ) : ViewModel() {
+
+    val canExportToAnki: Boolean get() = anki != null
 
     private val local = localTranslation.translator
 
@@ -319,6 +335,47 @@ class ReadingViewModel(
             bookStats.markStale(bookId)
             load(_state.value.pageNumber, trackOpen = false)
         }
+    }
+
+    /**
+     * Puts the words being learned in the whole book (or lesson) into Anki: straight into a running
+     * Anki when there is one, or else as a package to save and import.
+     */
+    fun exportToAnki() {
+        val anki = anki ?: return
+        if (_state.value.ankiProgress != null) return
+        _state.update { it.copy(ankiProgress = AnkiProgress("", sending = false)) }
+        viewModelScope.launch {
+            try {
+                val ids = bookLearningTerms()
+                if (ids.isEmpty()) {
+                    events.send(ReadingEvent.Toast(tr("Nothing to export")))
+                    return@launch
+                }
+                when (val outcome = putIntoAnki(ids, anki, ankiConnection) { progress -> _state.update { it.copy(ankiProgress = progress) } }) {
+                    is AnkiOutcome.Done -> events.send(ReadingEvent.Toast(outcome.message))
+                    is AnkiOutcome.File -> events.send(ReadingEvent.AnkiFile(outcome.export))
+                }
+            } finally {
+                _state.update { it.copy(ankiProgress = null) }
+            }
+        }
+    }
+
+    /** The package of the text's words was saved: they are not exported again. */
+    fun ankiSaved(export: AnkiExportService.Export) {
+        val anki = anki ?: return
+        viewModelScope.launch { events.send(ReadingEvent.Toast(ankiSaved(anki, export))) }
+    }
+
+    /** The words being learned on every page of the book (or lesson), each once. */
+    private suspend fun bookLearningTerms(): List<Long> {
+        val language = _state.value.language ?: return emptyList()
+        return (1..books.pageCount(bookId)).mapNotNull { books.getPage(bookId, it) }
+            .flatMap { page -> readingService.renderPage(page.text, language).paragraphs.flatMap { it.sentences }.flatMap { it.items } }
+            .filter { it.isWord && it.status.isLearning }
+            .mapNotNull { it.termId }
+            .distinct()
     }
 
     /** How many different words being learned the whole book (or lesson) holds, for practising them all. */

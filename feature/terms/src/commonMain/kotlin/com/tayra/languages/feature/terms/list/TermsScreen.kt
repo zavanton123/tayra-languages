@@ -117,6 +117,7 @@ import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 import com.tayra.languages.core.ui.navigation.rememberPracticeOpener
+import com.tayra.languages.feature.terms.anki.ankiLabel
 
 internal enum class TermSortOption(val sort: TermListSort) {
     RECENT(TermListSort(TermSortField.CREATED, ascending = false)),
@@ -266,13 +267,6 @@ internal fun PageHeader(exporting: String?, sending: Boolean, onExport: () -> Un
             PrimaryButton(tr("Add term"), onClick = onNew, icon = Icons.Default.Add)
         }
     }
-}
-
-/** The Anki button's label: its progress while the words go straight into Anki or into a file. */
-internal fun ankiLabel(exporting: String?, sending: Boolean): String = when {
-    exporting == null -> tr("Export to Anki")
-    sending -> tr("Sending {0}", exporting)
-    else -> tr("Exporting {0}", exporting)
 }
 
 private data class StatCard(val label: String, val value: Int, val icon: ImageVector, val tint: Color)

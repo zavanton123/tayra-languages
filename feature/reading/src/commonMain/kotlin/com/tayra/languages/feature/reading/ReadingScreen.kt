@@ -198,6 +198,10 @@ import org.koin.compose.viewmodel.koinViewModel
 import kotlin.random.Random
 import org.koin.core.parameter.parametersOf
 import com.tayra.languages.core.ui.components.EdgeScrollbar
+import com.tayra.languages.core.ui.components.SpinnerSize
+import com.tayra.languages.core.ui.components.AppSpinner
+import com.tayra.languages.feature.terms.anki.ankiLabel
+import com.tayra.languages.core.ui.files.saveBinaryFile
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -276,6 +280,7 @@ fun ReadingScreen(
             is ReadingEvent.Navigate -> onNavigate(Route.Read(event.bookId, event.page))
             ReadingEvent.BookFinished -> leave()
             is ReadingEvent.Toast -> if (event.undoable) toast.show(event.message, tr("Undo"), viewModel::undoMarkKnown) else toast.show(event.message)
+            is ReadingEvent.AnkiFile -> if (saveBinaryFile(event.export.fileName.removeSuffix(".apkg"), "apkg", event.export.bytes)) viewModel.ankiSaved(event.export)
         }
     }
     LaunchedEffect(state.loading, state.panel) {
@@ -1243,6 +1248,20 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
                 ) { choosingKinds = true }
             }
         }
+        // The same words as the whole text's practice, into Anki: straight into a running one, or as a file.
+        val anki: @Composable () -> Unit = {
+            if (last && bookWords > 0 && viewModel.canExportToAnki) {
+                val progress = state.ankiProgress
+                FooterCircle(
+                    if (progress == null || progress.done.isEmpty()) tr("Export to Anki") else ankiLabel(progress.done, progress.sending),
+                    AppIcons.Download,
+                    FooterCircleStyle.Outlined,
+                    Modifier.testTag("export-to-anki"),
+                    busy = progress != null,
+                    onClick = viewModel::exportToAnki,
+                )
+            }
+        }
         val next: @Composable () -> Unit = {
             if (last) FooterCircle(
                 when {
@@ -1269,6 +1288,7 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
                 )
                 practice()
                 practiceAll()
+                anki()
                 markRemaining()
                 next()
             },
@@ -1324,7 +1344,7 @@ private enum class FooterCircleStyle { Outlined, Known, Filled }
 
 /** A round footer button, its label shown as a tooltip and read out by screen readers; [badge] counts what it acts on. */
 @Composable
-private fun FooterCircle(label: String, icon: ImageVector, style: FooterCircleStyle, modifier: Modifier = Modifier, badge: Int = 0, onClick: () -> Unit) {
+private fun FooterCircle(label: String, icon: ImageVector, style: FooterCircleStyle, modifier: Modifier = Modifier, badge: Int = 0, busy: Boolean = false, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val (background, tint) = when (style) {
         FooterCircleStyle.Outlined -> colors.surface to colors.primary
@@ -1339,7 +1359,11 @@ private fun FooterCircle(label: String, icon: ImageVector, style: FooterCircleSt
                     .clickable(onClick = onClick)
                     .semantics { contentDescription = label },
                 contentAlignment = Alignment.Center,
-            ) { Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconLarge)) }
+            ) {
+                // Busy, a spinner stands for the icon until the work is done.
+                if (busy) AppSpinner(Modifier.size(AppSizes.iconLarge), size = SpinnerSize.Small, color = tint)
+                else Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconLarge))
+            }
             if (badge > 0) CountBadge(badge, Modifier.align(Alignment.TopEnd).testTag("footer-badge").offset(x = AppSpacing.xs, y = -AppSpacing.xs), emphasis = BadgeEmphasis.Solid)
         }
     }

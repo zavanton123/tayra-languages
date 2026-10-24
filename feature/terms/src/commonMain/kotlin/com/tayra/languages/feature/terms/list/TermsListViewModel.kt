@@ -30,9 +30,9 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
-import kotlin.time.Duration.Companion.seconds
-import kotlinx.coroutines.withTimeoutOrNull
-import kotlinx.coroutines.CancellationException
+import com.tayra.languages.feature.terms.anki.AnkiOutcome
+import com.tayra.languages.feature.terms.anki.ankiSaved
+import com.tayra.languages.feature.terms.anki.putIntoAnki
 
 data class TermsListUiState(
     val loading: Boolean = true,
@@ -264,8 +264,7 @@ class TermsListViewModel(
 
     /**
      * Puts the selected terms, or every listed term when none is selected, into Anki: straight into
-     * a running Anki through AnkiConnect when there is one (only the desktop can reach it), or else
-     * as a package for the reader to save and import.
+     * a running Anki when there is one, or else as a package for the reader to save and import.
      */
     fun exportAnki() = viewModelScope.launch {
         if (exporting.value != null) return@launch
@@ -274,65 +273,24 @@ class TermsListViewModel(
             message.value = tr("Nothing to export")
             return@launch
         }
-        // Taken while Anki is looked for, so a second click starts nothing.
-        exporting.value = tr("{0} of {1}", 0, ids.size)
-        val running = ankiConnection?.takeIf { withTimeoutOrNull(ANKI_LOOKUP) { it.version() } != null }
-        if (running != null) send(ids, running) else pack(ids)
-    }
-
-    private suspend fun pack(ids: List<Long>) {
         try {
-            val export = anki.export(ids) { done, total -> exporting.value = tr("{0} of {1}", done, total) }
-            if (export == null) message.value = alreadyInAnki(ids.size)
-            else events.send(TermsListEvent.AnkiReady(export))
-        } catch (e: CancellationException) {
-            throw e
-        } catch (e: Exception) {
-            message.value = tr("Could not export: {0}", e.message)
-        } finally {
-            exporting.value = null
-        }
-    }
-
-    private suspend fun send(ids: List<Long>, connection: AnkiConnection) {
-        sendingToAnki.value = true
-        try {
-            val sent = anki.send(ids, connection) { done, total -> exporting.value = tr("{0} of {1}", done, total) }
-            message.value = if (sent == null) {
-                alreadyInAnki(ids.size)
-            } else {
-                listOfNotNull(
-                    trPlural(sent.added, "Added {0} card to Anki", "Added {0} cards to Anki"),
-                    (sent.duplicates + sent.skipped).takeIf { it > 0 }?.let { tr("{0} already in Anki left out", it) },
-                    sent.failed.firstOrNull()?.let { tr("Anki refused some: {0}", it) },
-                ).joinToString(", ")
+            when (val outcome = putIntoAnki(ids, anki, ankiConnection) { exporting.value = it.done; sendingToAnki.value = it.sending }) {
+                is AnkiOutcome.Done -> message.value = outcome.message
+                is AnkiOutcome.File -> events.send(TermsListEvent.AnkiReady(outcome.export))
             }
-        } catch (e: CancellationException) {
-            throw e
-        } catch (e: Exception) {
-            message.value = tr("Could not send to Anki: {0}", e.message)
         } finally {
             exporting.value = null
             sendingToAnki.value = false
         }
     }
 
-    private fun alreadyInAnki(count: Int) =
-        if (count == 1) tr("This word is already in Anki") else trPlural(count, "All {0} words are already in Anki", "All {0} words are already in Anki")
-
     /** The package was saved: its words are not exported again. */
     fun ankiSaved(export: AnkiExportService.Export) = viewModelScope.launch {
-        anki.markExported(export)
-        val count = export.termIds.size
-        val exported = trPlural(count, "Exported {0} word to Anki", "Exported {0} words to Anki")
-        message.value = if (export.skipped > 0) exported + ", " + tr("{0} already in Anki left out", export.skipped) else exported
+        message.value = ankiSaved(anki, export)
     }
 
     companion object {
         const val PAGE_SIZE = 50
-
-        /** How long a running Anki has to answer before the words go into a file instead. */
-        val ANKI_LOOKUP = 2.seconds
 
         /** The statuses ticked when the vocabulary opens: the words being learned. */
         val LEARNING_STATUSES: Set<TermStatus> = TermStatus.selectable.filter { it.isLearning }.toSet()

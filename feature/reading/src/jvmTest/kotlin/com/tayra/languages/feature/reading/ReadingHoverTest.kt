@@ -108,6 +108,11 @@ import androidx.compose.ui.test.getBoundsInRoot
 import androidx.compose.runtime.CompositionLocalProvider
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.WindowWidth
+import com.tayra.languages.core.data.export.AnkiPackagerImpl
+import com.tayra.languages.core.domain.export.AnkiExportService
+import com.tayra.languages.core.domain.export.AnkiAddResult
+import com.tayra.languages.core.domain.export.AnkiCollection
+import com.tayra.languages.core.domain.export.AnkiConnection
 
 class ReadingHoverTest {
 
@@ -149,6 +154,8 @@ class ReadingHoverTest {
         wordsPerPage: Int = 5,
         language: Language = Language(name = "Portuguese"),
         paragraph: String = "O lobo dorme na floresta.",
+        /** A running Anki the text's words can be sent to; without one the reader offers no Anki export. */
+        anki: AnkiConnection? = null,
     ): ReadingViewModel {
         if (mainIsDefault) Dispatchers.setMain(Dispatchers.Default)
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-hover", ".db").also { it.delete() })).also { this.provider = it }
@@ -203,6 +210,8 @@ class ReadingHoverTest {
             object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = translation },
             LocalTranslation(null), speech, words, sentenceAudio,
             lessonOf = { lesson },
+            anki = anki?.let { AnkiExportService(terms, languages, offline, object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = null }, sentenceAudio, settings, AnkiPackagerImpl()) },
+            ankiConnection = anki,
         )
         withTimeout(10_000) { while (vm.state.value.items.none { it.isWord }) delay(20) }
         return vm
@@ -728,6 +737,36 @@ class ReadingHoverTest {
         val route = visited.single() as com.tayra.languages.core.ui.navigation.Route.Practice
         assertEquals(null, route.page, "the whole text")
         assertTrue("GAP_TYPED" !in route.kinds && route.kinds.isNotEmpty(), route.kinds.toString())
+    }
+
+    /** At the end of the text the footer puts the words being learned on all its pages into Anki: here straight into a running one. */
+    @Test
+    fun theLastPageSendsTheTextsWordsToARunningAnki() {
+        val added = mutableListOf<AnkiCollection>()
+        val running = object : AnkiConnection {
+            override suspend fun version() = 6
+            override suspend fun add(collection: AnkiCollection): AnkiAddResult {
+                added += collection
+                return AnkiAddResult(collection.notes.indices.toSet(), emptySet(), emptyMap())
+            }
+        }
+        val vm = runBlocking { reader(mainIsDefault = false, pages = 3, anki = running) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        vm.markToLearn(vm.index("lobo"))
+        rule.waitUntil(5_000) { vm.state.value.items.any { it.renderText == "lobo" && it.status.isLearning } }
+        assertTrue(rule.onAllNodesWithTag("export-to-anki").fetchSemanticsNodes().isEmpty(), "not on the first page")
+
+        vm.goToPage(vm.state.value.pageCount)
+        rule.waitUntil(5_000) { vm.state.value.isLastPage && vm.state.value.pageNumber > 1 && vm.state.value.items.any { it.isWord } }
+        vm.markToLearn(vm.index("floresta"))
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("export-to-anki").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithContentDescription("Export to Anki").performScrollTo().performClick()
+        rule.waitUntil(10_000) { added.isNotEmpty() }
+        // Both pages' words: lobo, and floresta from this one.
+        assertEquals(2, added.single().notes.size)
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Added 2 cards to Anki").fetchSemanticsNodes().isNotEmpty() }
     }
 
     /** Hovering the page's vocabulary bar explains it; ignored words count as known. */

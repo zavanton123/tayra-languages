@@ -96,6 +96,7 @@ import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.minus
 import kotlinx.datetime.toLocalDateTime
+import com.tayra.languages.feature.terms.anki.ankiLabel
 
 /** The days-ago choices the phone's Added filter offers; null leaves that end open. */
 private val DAY_CHOICES = listOf(null, 1, 3, 7, 14, 30, 90, 365)
