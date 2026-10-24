@@ -32,6 +32,11 @@ import com.tayra.languages.core.domain.practice.PracticeExampleStore
 import com.tayra.languages.core.domain.practice.PracticeExampleRepository
 import com.tayra.languages.core.domain.practice.WordForms
 import com.tayra.languages.core.domain.practice.WordFamily
+import kotlin.time.Clock
+import com.tayra.languages.core.domain.practice.WordProgress
+import com.tayra.languages.core.domain.practice.PracticeProgressRepository
+import kotlinx.coroutines.sync.withLock
+import kotlinx.coroutines.sync.Mutex
 
 /** How a question was answered. */
 enum class PracticeResult { CORRECT, ALMOST, TYPO, WRONG }
@@ -88,6 +93,8 @@ class PracticeViewModel(
     private val translator: SentenceTranslator,
     /** Words' forms and frequency, for wrong choices as common as the right one; none without it. */
     private val wordForms: WordForms? = null,
+    /** Each word's practice level: read for a setup that adapts to it, moved by every answer. */
+    private val progress: PracticeProgressRepository? = null,
     private val random: Random = Random.Default,
 ) : ViewModel() {
 
@@ -98,6 +105,7 @@ class PracticeViewModel(
     val state: StateFlow<PracticeUiState> = _state.asStateFlow()
 
     private var language: Language? = null
+    private val recording = Mutex()
     private var hintJob: Job? = null
 
     init {
@@ -125,7 +133,8 @@ class PracticeViewModel(
             val translations = if (setup.types.any { it in TRANSLATED }) translateSentences(prepared.words, lang) else emptyMap()
             val families = if (ExerciseType.FORM in setup.types || ExerciseType.SOUND_ALIKE in setup.types) attempt { familiesOf(prepared.words, lang) }.orEmpty() else emptyMap()
             val alikes = attempt { alikesFor(prepared.words, lang) }.orEmpty()
-            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, examplesFor(prepared.words), random, setup, prepared.meanings, translations, alikes, families)
+            val levels = if (setup.adaptive) attempt { levelsOf(prepared.words) }.orEmpty() else emptyMap()
+            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, examplesFor(prepared.words), random, setup, prepared.meanings, translations, alikes, families, levels)
             _state.update {
                 it.copy(
                     loading = false,
@@ -164,6 +173,11 @@ class PracticeViewModel(
                 .filter { other -> other.lowercase() !in own && (other.first().lowercaseChar() == text.first() || other.lowercase().takeLast(2) == text.takeLast(2)) }
             word.key to near.take(ALIKES)
         }.toMap()
+    }
+
+    private suspend fun levelsOf(words: List<PracticeWord>): Map<String, Int> {
+        val kept = progress?.progress(words.mapNotNull { it.termId }) ?: return emptyMap()
+        return words.mapNotNull { word -> kept[word.termId]?.let { word.key to it.level } }.toMap()
     }
 
     private suspend fun familiesOf(words: List<PracticeWord>, language: Language): Map<String, WordFamily> {
@@ -249,7 +263,26 @@ class PracticeViewModel(
         record(exercise, PracticeResult.WRONG)
     }
 
-    private fun record(exercise: Exercise, result: PracticeResult) = _state.update {
+    private fun record(exercise: Exercise, result: PracticeResult) {
+        remember(exercise, result)
+        tally(exercise, result)
+    }
+
+    /** Moves the word's practice level by the answer; a matching round, on several words at once, moves none. */
+    private fun remember(exercise: Exercise, result: PracticeResult) {
+        val termId = exercise.termId ?: return
+        val repository = progress ?: return
+        if (exercise.type == ExerciseType.MATCHING) return
+        val answer = when (result) {
+            PracticeResult.CORRECT, PracticeResult.ALMOST -> WordProgress.Answer.RIGHT
+            PracticeResult.TYPO -> WordProgress.Answer.SLIP
+            PracticeResult.WRONG -> WordProgress.Answer.WRONG
+        }
+        // One at a time: each answer moves the progress the one before it left.
+        viewModelScope.launch { recording.withLock { attempt { repository.record(termId, answer, Clock.System.now()) } } }
+    }
+
+    private fun tally(exercise: Exercise, result: PracticeResult) = _state.update {
         val right = result != PracticeResult.WRONG
         it.copy(
             result = result,

@@ -454,4 +454,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Say whether a meaning is the word's" to "Diga se um significado é o da palavra",
     "Sound-alike" to "Parecidas",
     "Hear a word and pick it among words spelled nearly like it" to "Ouça uma palavra e escolha-a entre palavras escritas quase igual",
+    "Adapt to my level" to "Adaptar ao meu nível",
+    "New words are chosen, then built from letters, then typed" to "As palavras novas escolhem-se, depois montam-se com letras, depois digitam-se",
 )

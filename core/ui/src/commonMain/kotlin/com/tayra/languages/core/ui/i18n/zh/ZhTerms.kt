@@ -454,4 +454,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Say whether a meaning is the word's" to "判断一个意思是否属于该词",
     "Sound-alike" to "近音词",
     "Hear a word and pick it among words spelled nearly like it" to "听一个单词，从拼写相近的词中选出它",
+    "Adapt to my level" to "按我的水平调整",
+    "New words are chosen, then built from letters, then typed" to "新词先选择，再用字母拼，最后输入",
 )

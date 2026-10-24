@@ -89,6 +89,8 @@ data class PracticeSetup(
     val responses: Set<PracticeResponse> = setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE),
     val contexts: Set<PracticeContext> = PracticeContext.entries.toSet(),
     val length: Int? = DEFAULT_LENGTH,
+    /** Each word is answered the ways its practice level calls for, among the [responses]; otherwise they are mixed. */
+    val adaptive: Boolean = false,
 ) {
     /** The questions asked, in the order they come round: those answered by choosing first, then those typed. */
     val rotation: List<Pair<ExerciseType, PracticeResponse>> =
@@ -100,6 +102,7 @@ data class PracticeSetup(
         "responses=" + PracticeResponse.entries.filter { it in responses }.joinToString(",") { it.name },
         "contexts=" + PracticeContext.entries.filter { it in contexts }.joinToString(",") { it.name },
         "length=" + (length?.toString() ?: ALL),
+        "adaptive=" + (if (adaptive) "1" else "0"),
     ).joinToString(";")
 
     companion object {
@@ -120,6 +123,7 @@ data class PracticeSetup(
                     ALL -> null
                     else -> length.toIntOrNull()?.takeIf { it > 0 } ?: defaults.length
                 },
+                adaptive = parts["adaptive"]?.let { it == "1" } ?: defaults.adaptive,
             )
         }
 
@@ -182,6 +186,8 @@ data class Exercise(
     val offered: String? = null,
     /** The source of a sentence from elsewhere, when it asks to be named. */
     val credit: String? = null,
+    /** The saved term practised, whose progress the answer moves; null for a word not saved. */
+    val termId: Long? = null,
 ) {
     val isChoice: Boolean get() = options.isNotEmpty()
     val isListening: Boolean get() = spoken != null
@@ -257,6 +263,8 @@ object PracticeBuilder {
         alikes: Map<String, List<String>> = emptyMap(),
         /** Each word's family, by the word's key, for the questions on its forms. */
         families: Map<String, WordFamily> = emptyMap(),
+        /** Each word's practice level, by the word's key, for a setup that adapts to it; a word not in it is at the first. */
+        levels: Map<String, Int> = emptyMap(),
     ): List<Exercise> {
         val choices = WrongChoices(pageWords, alikes, families)
         val targets = words.distinctBy { it.key }.shuffled(random)
@@ -276,7 +284,10 @@ object PracticeBuilder {
             val start = (k % asked.size + k / asked.size) % rotation.size
             // True or false is quick: a couple of them, not one a word.
             val trueFalseLeft = exercises.count { it.type == ExerciseType.TRUE_FALSE } < TRUE_FALSE_QUESTIONS
-            val steps = (0 until rotation.size).map { rotation[(start + it) % rotation.size] }.filter { trueFalseLeft || it.first != ExerciseType.TRUE_FALSE }
+            val all = (0 until rotation.size).map { rotation[(start + it) % rotation.size] }.filter { trueFalseLeft || it.first != ExerciseType.TRUE_FALSE }
+            // Adapting, the word is answered the ways its level calls for, where the setup has them; otherwise any way.
+            val wanted = if (setup.adaptive) WordProgress.LEVELS[(levels[word.key] ?: 0).coerceIn(0, WordProgress.TOP)].responses else null
+            val steps = wanted?.let { ways -> all.filter { it.second in ways }.ifEmpty { all } } ?: all
             val kept = elsewhere[word.key].orEmpty()
             val next = used[word.key] ?: 0
             val inExample = next < kept.size && (!original || (k / asked.size) % 2 == 1)
@@ -357,7 +368,7 @@ object PracticeBuilder {
         translations: Map<String, String>,
         random: Random,
     ): Exercise? {
-        val base = Exercise(type, response, PracticeContext.ORIGINAL, word.text, word.translation, word.sentence, word.range, answer = word.text)
+        val base = Exercise(type, response, PracticeContext.ORIGINAL, word.text, word.translation, word.sentence, word.range, answer = word.text, termId = word.termId)
         return when (type) {
             ExerciseType.MATCHING -> null
             ExerciseType.SOUND_ALIKE -> {

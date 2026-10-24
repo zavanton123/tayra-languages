@@ -72,24 +72,24 @@ object PracticePlanner {
 /** Ready-made setups the setup dialog offers; changing anything after picking one makes a custom setup. */
 enum class PracticePreset(val setup: PracticeSetup) {
     /** Recognising the words: choices only. */
-    QUICK_REVIEW(PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.MEANING, ExerciseType.HEAR_WORD), responses = setOf(PracticeResponse.CHOOSE))),
+    QUICK_REVIEW(PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.MEANING, ExerciseType.HEAR_WORD), responses = setOf(PracticeResponse.CHOOSE), adaptive = true)),
 
     /** Reading, listening and translation, chosen and typed. */
-    BALANCED(PracticeSetup(types = ExerciseType.entries.toSet(), responses = PracticeResponse.entries.toSet())),
+    BALANCED(PracticeSetup(types = ExerciseType.entries.toSet(), responses = PracticeResponse.entries.toSet(), adaptive = true)),
 
     /** Every listening question. */
-    LISTENING(PracticeSetup(types = ExerciseType.entries.filter { it.skill == PracticeSkill.LISTENING }.toSet())),
+    LISTENING(PracticeSetup(types = ExerciseType.entries.filter { it.skill == PracticeSkill.LISTENING }.toSet(), adaptive = true)),
 
     /** Recall: every question that can be typed, typed. */
-    WRITING(PracticeSetup(types = ExerciseType.entries.filter { PracticeResponse.TYPE in it.responses }.toSet(), responses = setOf(PracticeResponse.TYPE))),
+    WRITING(PracticeSetup(types = ExerciseType.entries.filter { PracticeResponse.TYPE in it.responses }.toSet(), responses = setOf(PracticeResponse.TYPE), adaptive = true)),
     ;
 
     companion object {
         /** The setup the dialog opens on the first time. */
         val DEFAULT = BALANCED
 
-        /** The preset [setup] is, if it is one. */
-        fun of(setup: PracticeSetup): PracticePreset? = entries.firstOrNull { it.setup == setup }
+        /** The preset [setup] asks what, if it is one: its length and adapting are the learner's own. */
+        fun of(setup: PracticeSetup): PracticePreset? = entries.firstOrNull { it.setup.copy(length = setup.length, adaptive = setup.adaptive) == setup }
     }
 }
 

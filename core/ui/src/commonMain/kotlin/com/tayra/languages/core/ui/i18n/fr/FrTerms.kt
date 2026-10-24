@@ -454,4 +454,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "Say whether a meaning is the word's" to "Dites si un sens est celui du mot",
     "Sound-alike" to "Sons proches",
     "Hear a word and pick it among words spelled nearly like it" to "Écoutez un mot et choisissez-le parmi des mots qui s’écrivent presque pareil",
+    "Adapt to my level" to "S’adapter à mon niveau",
+    "New words are chosen, then built from letters, then typed" to "Les mots nouveaux se choisissent, puis se forment avec des lettres, puis se tapent",
 )

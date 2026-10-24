@@ -42,6 +42,7 @@ import com.tayra.languages.core.domain.frequency.FrequencyLists
 import com.tayra.languages.core.domain.frequency.FrequencyList
 import com.tayra.languages.core.domain.practice.PracticeExampleStore
 import com.tayra.languages.core.data.repository.PracticeExampleRepositoryImpl
+import com.tayra.languages.core.data.repository.PracticeProgressRepositoryImpl
 import com.tayra.languages.core.domain.practice.PracticeSource
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
@@ -91,6 +92,8 @@ class PracticeScreenTest {
     private var bookId = 0L
     private var languageId = 0L
 
+    private val progress = PracticeProgressRepositoryImpl(provider)
+
     private fun ComposeUiTest.show(seed: Int = 7, setup: PracticeSetup = PracticeSetup(), forms: WordForms? = null): PracticeViewModel {
         runBlocking {
             languageId = languages.save(Language(name = "Portuguese"))
@@ -103,7 +106,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), setup, PracticeMaterialLoader(books, languages, reading, terms), PracticeExampleStore(kept, examples, WordForms(null, terms), terms, languages, settings, translator), kept, translator, forms, Random(seed))
+        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), setup, PracticeMaterialLoader(books, languages, reading, terms), PracticeExampleStore(kept, examples, WordForms(null, terms), terms, languages, settings, translator), kept, translator, forms, progress, Random(seed))
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -390,6 +393,22 @@ class PracticeScreenTest {
         shot("true-false")
         onNodeWithText(if (exercise.answer == com.tayra.languages.core.domain.practice.PracticeBuilder.TRUE) "Yes, it means that" else "No, it does not").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    /** Each answer moves the word's practice level: two right answers take a new word from choosing to building it from letters. */
+    @Test
+    fun answersMoveTheWordsLevel() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.MEANING), length = null, adaptive = true))
+        val exercises = viewModel.state.value.exercises
+        assertTrue(exercises.all { it.response == PracticeResponse.CHOOSE }, "every word is new")
+        exercises.forEach { e ->
+            waitUntil(timeoutMillis = 5_000) { viewModel.state.value.current === e }
+            viewModel.choose(e.answer)
+            viewModel.next()
+        }
+        val termIds = exercises.mapNotNull { it.termId }.toSet()
+        waitUntil(timeoutMillis = 5_000) { runBlocking { progress.progress(termIds).values.sumOf { it.asked } } == exercises.size }
+        assertEquals(setOf(1), runBlocking { progress.progress(termIds) }.values.map { it.level }.toSet())
     }
 
     @Test

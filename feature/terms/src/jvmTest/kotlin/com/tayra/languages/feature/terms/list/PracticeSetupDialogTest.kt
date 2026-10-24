@@ -103,6 +103,7 @@ class PracticeSetupDialogTest {
                 responses = setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES),
                 contexts = PracticeContext.entries.toSet(),
                 length = 20,
+                adaptive = true,
             ),
             started,
         )

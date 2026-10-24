@@ -454,4 +454,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Say whether a meaning is the word's" to "Скажите, верно ли значение слова",
     "Sound-alike" to "Похожие слова",
     "Hear a word and pick it among words spelled nearly like it" to "Прослушайте слово и выберите его среди слов с почти таким же написанием",
+    "Adapt to my level" to "Подстраиваться под мой уровень",
+    "New words are chosen, then built from letters, then typed" to "Новые слова сначала выбираются, потом собираются из букв, потом вводятся",
 )

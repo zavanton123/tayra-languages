@@ -212,11 +212,26 @@ class PracticeTest {
         assertTrue(heard.options.all { it in families.getValue("comprar").forms })
     }
 
+    /** Adapting, a word is answered the ways its level calls for: a new one chosen, one further on typed. */
+    @Test
+    fun anAdaptingSetupAsksEachWordAtItsLevel() {
+        val setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = PracticeResponse.entries.toSet(), length = null, adaptive = true)
+        val asked = PracticeBuilder.build(words, pageWords, random = Random(1), setup = setup, levels = mapOf("moro" to 3, "semana" to 1))
+        assertTrue(asked.filter { it.word == "moro" }.all { it.response == PracticeResponse.TYPE })
+        assertTrue(asked.filter { it.word == "semana" }.all { it.response == PracticeResponse.TILES || it.response == PracticeResponse.CHOOSE })
+        assertTrue(asked.filter { it.word == "comprar" }.all { it.response == PracticeResponse.CHOOSE }, "a word never practised is recognised first")
+        // A way the setup leaves out is not asked even where the level calls for it.
+        val chooseOnly = PracticeBuilder.build(words, pageWords, random = Random(1), setup = setup.copy(responses = setOf(PracticeResponse.CHOOSE)), levels = mapOf("moro" to 3))
+        assertTrue(chooseOnly.all { it.response == PracticeResponse.CHOOSE })
+        assertTrue(asked.filter { it.word == "moro" }.all { it.termId == null })
+    }
+
     /** A setup goes into a route as text and comes back the same; the kinds earlier versions named still give their questions. */
     @Test
     fun aSetupIsWrittenAndReadAsText() {
         val setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.DICTATION), responses = setOf(PracticeResponse.TYPE), contexts = setOf(PracticeContext.ORIGINAL), length = null)
-        assertEquals("types=GAP,DICTATION;responses=TYPE;contexts=ORIGINAL;length=all", setup.encode())
+        assertEquals("types=GAP,DICTATION;responses=TYPE;contexts=ORIGINAL;length=all;adaptive=0", setup.encode())
+        assertEquals(true, PracticeSetup.decode(setup.copy(adaptive = true).encode()).adaptive)
         assertEquals(setup, PracticeSetup.decode(setup.encode()))
         assertEquals(PracticeSetup(), PracticeSetup.decode(""), "nothing said: the defaults")
         assertEquals(setOf(ExerciseType.GAP), PracticeSetup.decode("types=GAP,SOMETHING_NEW").types, "names not known are left out")
