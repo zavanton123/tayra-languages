@@ -9,12 +9,14 @@ import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performMouseInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
+import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.data.repository.FlashcardRepositoryImpl
@@ -94,11 +96,16 @@ class HomeScreenTest {
         wordCount = 30_000, lastOpened = at(3), isCompleted = false, isArchived = false, stats = null, sourceUri = null,
     )
 
-    private fun ComposeUiTest.show(state: HomeUiState, visited: MutableList<Route> = mutableListOf(), continued: () -> Unit = {}) = setContent {
+    private fun ComposeUiTest.show(
+        state: HomeUiState,
+        visited: MutableList<Route> = mutableListOf(),
+        padding: PaddingValues = PaddingValues(),
+        continued: () -> Unit = {},
+    ) = setContent {
         TayraTheme {
             ProvideWindowWidth {
                 Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
-                    PageColumn(PaddingValues()) { HomeContent(state, onNavigate = { visited += it }, onContinueCourse = continued) }
+                    PageColumn(padding) { HomeContent(state, onNavigate = { visited += it }, onContinueCourse = continued) }
                 }
             }
         }
@@ -161,13 +168,47 @@ class HomeScreenTest {
         assertEquals(listOf(Route.Courses, Route.Books), visited)
     }
 
-    /** Due cards lead, then what is under way, then the empty cards; a book on its last page is not yet all read. */
     @Test
-    fun theCardsThatNeedDoingComeFirst() = runDesktopComposeUiTest(width = 400, height = 2000) {
-        show(HomeUiState(loading = false, languageName = "Portuguese", activity = activity, book = book.copy(currentPage = 48), flashcardsDue = 3))
+    fun phonePrimaryActivityUsesTheLearningPriority() {
+        val base = HomeUiState(loading = false, languageName = "Portuguese")
+        val notStarted = CourseProgress(course.course, lessons.map { LessonProgress(it, null) })
+
+        assertEquals(PhonePrimaryActivity.COURSE, phonePrimaryActivity(base.copy(course = course, book = book, flashcardsDue = 3)))
+        assertEquals(PhonePrimaryActivity.FLASHCARDS, phonePrimaryActivity(base.copy(course = notStarted, book = book, flashcardsDue = 3)))
+        assertEquals(PhonePrimaryActivity.BOOK, phonePrimaryActivity(base.copy(course = notStarted, book = book)))
+        assertEquals(PhonePrimaryActivity.BROWSE_COURSES, phonePrimaryActivity(base.copy(course = notStarted)))
+        assertEquals(PhonePrimaryActivity.BROWSE_COURSES, phonePrimaryActivity(base.copy(book = book.copy(isCompleted = true))))
+    }
+
+    /** A lesson under way leads, reviews stay above passive figures, and the last book page is not complete. */
+    @Test
+    fun thePhoneFirstViewportPutsUrgentWorkFirst() = runDesktopComposeUiTest(width = 400, height = 860) {
+        show(
+            HomeUiState(loading = false, languageName = "Portuguese", activity = activity, course = course, book = book.copy(currentPage = 48), flashcardsDue = 3),
+            padding = PaddingValues(top = 56.dp, bottom = 80.dp),
+        )
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Study activity")).fetchSemanticsNodes().isNotEmpty() }
-        val top = listOf("flashcards", "book", "course").map { onNodeWithTag("card-$it").fetchSemanticsNode().positionInRoot.y }
+        val top = listOf(
+            onNodeWithTag("card-course").fetchSemanticsNode().positionInRoot.y,
+            onNodeWithTag("card-flashcards").fetchSemanticsNode().positionInRoot.y,
+            onNodeWithTag("tile-words-today").fetchSemanticsNode().positionInRoot.y,
+            onNodeWithTag("card-book").fetchSemanticsNode().positionInRoot.y,
+        )
         assertEquals(top.sorted(), top)
+        onNodeWithTag("primary-activity").assertIsDisplayed()
+        onNodeWithTag("card-flashcards").assertIsDisplayed()
+        onNodeWithTag("tile-words-today").assertIsDisplayed()
+        onNodeWithTag("tile-streak").assertIsDisplayed()
         onNodeWithText("97%").assertExists()
+    }
+
+    @Test
+    fun aCompletedBookIsNeverOfferedAsAContinuation() = runDesktopComposeUiTest(width = 400, height = 1200) {
+        val visited = mutableListOf<Route>()
+        show(HomeUiState(loading = false, languageName = "Portuguese", book = book.copy(isCompleted = true)), visited)
+
+        onNodeWithText("O Alquimista").assertDoesNotExist()
+        onNodeWithTag("action-book").performClick()
+        assertEquals(listOf<Route>(Route.Books), visited)
     }
 }
