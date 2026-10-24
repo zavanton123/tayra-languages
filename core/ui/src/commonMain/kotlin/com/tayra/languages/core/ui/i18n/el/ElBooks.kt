@@ -40,6 +40,7 @@ internal val elBooks: Map<String, String> = mapOf(
     "Book" to "Βιβλίο",
     "{0} of {1} selected" to "Επιλέχθηκαν {0} από {1}",
     "{0} books" to "{0} βιβλίο|{0} βιβλία",
+    "Show {0} books" to "Εμφάνιση {0} βιβλίου|Εμφάνιση {0} βιβλίων",
     "list view" to "Προβολή λίστας",
     "grid view" to "Προβολή πλέγματος",
     "Select all books" to "Επιλογή όλων των βιβλίων",

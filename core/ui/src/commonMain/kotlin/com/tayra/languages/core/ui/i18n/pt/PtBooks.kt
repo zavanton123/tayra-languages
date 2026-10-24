@@ -40,6 +40,7 @@ internal val ptBooks: Map<String, String> = mapOf(
     "Book" to "Livro",
     "{0} of {1} selected" to "{0} de {1} selecionados",
     "{0} books" to "{0} livro|{0} livros",
+    "Show {0} books" to "Mostrar {0} livro|Mostrar {0} livros",
     "list view" to "Visualização em lista",
     "grid view" to "Visualização em grade",
     "Select all books" to "Selecionar todos os livros",

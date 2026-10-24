@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.books
 
+import androidx.compose.ui.test.hasTestTag
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -82,7 +83,7 @@ class FindBooksScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Dom Casmurro")).fetchSemanticsNodes().isNotEmpty() }
         screenshot("FIND_BOOKS_SCREENSHOT")
         onNodeWithText("Free books in Portuguese from online libraries, with how much of each you already know.").assertExists()
-        onNodeWithTag("coverage-55752").assertExists()
+        onNodeWithTag("coverage-55752", useUnmergedTree = true).assertExists()
         onNodeWithText("You know 96% of the words").assertExists()
         onNodeWithText("Checking the words…").assertExists()
         onNodeWithText("Could not download the book").assertExists()
@@ -165,5 +166,34 @@ class FindBooksScreenTest {
         onNodeWithText("Global Digital Library has no books in Greek.").assertExists()
         onNodeWithText("Look in Project Gutenberg").performClick()
         assertEquals(BookSource.GUTENBERG, source)
+    }
+
+    /** A phone keeps the level behind one Filters button, names it once chosen, and a card's tap does what its button says. */
+    @Test
+    fun aPhoneFiltersFromASheetAndTheCardAddsTheBook() = runDesktopComposeUiTest(width = 400, height = 1000) {
+        val added = mutableListOf<String>()
+        val read = mutableListOf<String>()
+        show(FindBooksUiState(languageName = "Portuguese", books = classics.take(2), loading = false)) { update ->
+            FindBooksActions(
+                onDifficulty = { d -> update { it.copy(difficulty = d) } },
+                onAdd = { added += it.book.id },
+                onRead = { read += it.book.id },
+            )
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Dom Casmurro")).fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodes(hasTestTag("difficulty-EASY")).fetchSemanticsNodes().size, "the levels wait in the sheet")
+        onNodeWithTag("find-books-filters").performClick()
+        onNodeWithTag("difficulty-EASY").performClick()
+        onNodeWithTag("find-books-filters-done").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("active-filter-summary")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Easy · 1 book").assertExists()
+
+        onNodeWithTag("found-55752").performClick()
+        // Clearing the filter brings back the book already in the library, whose card reads it.
+        onNodeWithTag("clear-filters").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("found-3333")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("found-3333").performClick()
+        assertEquals(listOf("55752"), added)
+        assertEquals(listOf("3333"), read)
     }
 }

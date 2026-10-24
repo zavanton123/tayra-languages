@@ -1,5 +1,17 @@
 package com.tayra.languages.feature.books
 
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
+import androidx.compose.foundation.clickable
+import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.components.label
+import com.tayra.languages.core.ui.components.QuietButton
+import com.tayra.languages.core.ui.components.AppBottomSheet
+import com.tayra.languages.core.ui.components.ToggleButton
+import com.tayra.languages.core.ui.components.ActiveFilterSummary
 import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -173,7 +185,38 @@ private fun Controls(state: FindBooksUiState, actions: FindBooksActions, compact
             }
         }
         SearchField(state.query, actions.onQuery, tr("Search titles and authors"), Modifier.fillMaxWidth())
-        DifficultyFilter(state.difficulty, actions.onDifficulty)
+        // On a phone the level waits in a sheet behind one button, so the books show at once.
+        var sheet by remember { mutableStateOf(false) }
+        if (compact) {
+            ToggleButton(
+                tr("Filters"),
+                active = state.difficulty != null,
+                onClick = { sheet = true },
+                modifier = Modifier.testTag("find-books-filters"),
+                icon = AppIcons.Tune,
+                badge = if (state.difficulty != null) 1 else 0,
+                contentDescription = if (state.difficulty != null) trPlural(1, "{0} filter on", "{0} filters on") else null,
+            )
+        } else {
+            DifficultyFilter(state.difficulty, actions.onDifficulty)
+        }
+        state.difficulty?.takeIf { !state.loading }?.let { difficulty ->
+            ActiveFilterSummary(
+                "${difficulty.label} · ${trPlural(state.shown.size, "{0} book", "{0} books")}",
+                tr("Clear filters"),
+                onClear = { actions.onDifficulty(null) },
+                onEdit = if (compact) ({ sheet = true }) else null,
+            )
+        }
+        if (sheet) {
+            AppBottomSheet(onDismissRequest = { sheet = false }) {
+                Column(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+                    Text(tr("Filters"), style = AppText.itemTitle)
+                    DifficultyFilter(state.difficulty, actions.onDifficulty)
+                    PrimaryButton(trPlural(state.shown.size, "Show {0} book", "Show {0} books"), onClick = { sheet = false }, modifier = Modifier.fillMaxWidth().testTag("find-books-filters-done"))
+                }
+            }
+        }
     }
 }
 
@@ -181,8 +224,10 @@ private fun Controls(state: FindBooksUiState, actions: FindBooksActions, compact
 private fun FoundBookCard(item: FoundBookItem, actions: FindBooksActions, compact: Boolean, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     val book = item.book
+    // The whole card does what its button says: reads a book already in the library, or adds it.
     Row(
-        modifier.fillMaxWidth().cardSurface().padding(AppSpacing.l).testTag("found-${book.id}"),
+        modifier.fillMaxWidth().cardSurface().clickable(enabled = !item.adding) { if (item.libraryId != null) actions.onRead(item) else actions.onAdd(item) }
+            .padding(AppSpacing.l).testTag("found-${book.id}"),
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
         if (!compact) {
@@ -195,34 +240,29 @@ private fun FoundBookCard(item: FoundBookItem, actions: FindBooksActions, compac
             val byline = listOfNotNull(book.authors.joinToString(", ").inLearnedScript().takeIf { it.isNotEmpty() }, book.level).joinToString(" · ")
             if (byline.isNotEmpty()) Text(byline, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
             if (book.description.isNotEmpty()) Text(book.description.inLearnedScript(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
-            CoverageLine(item.difficulty, item.check, tag = book.id, onCheck = if (book.source.judgedOnSight) null else ({ actions.onCheck(item) }))
-            item.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.error) }
-            if (compact) {
-                Spacer(Modifier.height(AppSpacing.xs))
-                BookAction(item, actions, Modifier.fillMaxWidth(), quiet = true)
+            // On a phone the quiet action ends the metadata line rather than taking a line of its own.
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Box(Modifier.weight(1f)) { CoverageLine(item.difficulty, item.check, tag = book.id, onCheck = if (book.source.judgedOnSight) null else ({ actions.onCheck(item) })) }
+                if (compact) BookAction(item, actions, Modifier)
             }
+            item.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.error) }
         }
         if (!compact) BookAction(item, actions, Modifier.align(Alignment.CenterVertically).widthIn(min = ACTION_WIDTH))
     }
 }
 
+/** The card's one action, quiet as on every card: read a book already added, or add it, trying again after a failed download. */
 @Composable
-private fun BookAction(item: FoundBookItem, actions: FindBooksActions, modifier: Modifier, quiet: Boolean = false) {
-    when {
-        item.libraryId != null -> SecondaryButton(tr("Read"), onClick = { actions.onRead(item) }, modifier = modifier.testTag("read-${item.book.id}"))
-        // Outlined on a phone, where every card has the button at full width.
-        quiet -> SecondaryButton(
+private fun BookAction(item: FoundBookItem, actions: FindBooksActions, modifier: Modifier) {
+    if (item.libraryId != null) {
+        QuietButton(tr("Read"), onClick = { actions.onRead(item) }, modifier = modifier.testTag("read-${item.book.id}"), trailingIcon = Icons.AutoMirrored.Filled.ArrowForward)
+    } else {
+        QuietButton(
             when { item.adding -> tr("Adding…"); item.error != null -> tr("Try again"); else -> tr("Add to library") },
             onClick = { actions.onAdd(item) },
             modifier = modifier.testTag("add-${item.book.id}"),
             loading = item.adding,
-        )
-        else -> PrimaryButton(
-            // After a failed download the same button tries again, and says so.
-            when { item.adding -> tr("Adding…"); item.error != null -> tr("Try again"); else -> tr("Add to library") },
-            onClick = { actions.onAdd(item) },
-            modifier = modifier.testTag("add-${item.book.id}"),
-            loading = item.adding,
+            icon = Icons.Default.Add,
         )
     }
 }

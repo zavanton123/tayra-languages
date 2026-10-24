@@ -40,6 +40,7 @@ internal val plBooks: Map<String, String> = mapOf(
     "Book" to "Książka",
     "{0} of {1} selected" to "Zaznaczono {0} z {1}",
     "{0} books" to "{0} książka|{0} książki|{0} książek",
+    "Show {0} books" to "Pokaż {0} książkę|Pokaż {0} książki|Pokaż {0} książek",
     "list view" to "Widok listy",
     "grid view" to "Widok siatki",
     "Select all books" to "Zaznacz wszystkie książki",

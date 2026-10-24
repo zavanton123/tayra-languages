@@ -40,6 +40,7 @@ internal val frBooks: Map<String, String> = mapOf(
     "Book" to "Livre",
     "{0} of {1} selected" to "{0} sur {1} sélectionnés",
     "{0} books" to "{0} livre|{0} livres",
+    "Show {0} books" to "Afficher {0} livre|Afficher {0} livres",
     "list view" to "Vue en liste",
     "grid view" to "Vue en grille",
     "Select all books" to "Sélectionner tous les livres",

@@ -40,6 +40,7 @@ internal val zhBooks: Map<String, String> = mapOf(
     "Book" to "书籍",
     "{0} of {1} selected" to "已选择 {0}/{1}",
     "{0} books" to "{0} 本书",
+    "Show {0} books" to "显示 {0} 本书",
     "list view" to "列表视图",
     "grid view" to "网格视图",
     "Select all books" to "选择全部书籍",

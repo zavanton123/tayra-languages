@@ -40,6 +40,7 @@ internal val ruBooks: Map<String, String> = mapOf(
     "Book" to "Книга",
     "{0} of {1} selected" to "Выбрано {0} из {1}",
     "{0} books" to "{0} книга|{0} книги|{0} книг",
+    "Show {0} books" to "Показать {0} книгу|Показать {0} книги|Показать {0} книг",
     "list view" to "Вид списком",
     "grid view" to "Вид плиткой",
     "Select all books" to "Выбрать все книги",

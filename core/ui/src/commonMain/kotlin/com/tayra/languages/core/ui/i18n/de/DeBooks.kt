@@ -40,6 +40,7 @@ internal val deBooks: Map<String, String> = mapOf(
     "Book" to "Buch",
     "{0} of {1} selected" to "{0} von {1} ausgewählt",
     "{0} books" to "{0} Buch|{0} Bücher",
+    "Show {0} books" to "{0} Buch anzeigen|{0} Bücher anzeigen",
     "list view" to "Listenansicht",
     "grid view" to "Rasteransicht",
     "Select all books" to "Alle Bücher auswählen",

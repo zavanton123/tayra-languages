@@ -40,6 +40,7 @@ internal val esBooks: Map<String, String> = mapOf(
     "Book" to "Libro",
     "{0} of {1} selected" to "Selección: {0} de {1}",
     "{0} books" to "{0} libro|{0} libros",
+    "Show {0} books" to "Mostrar {0} libro|Mostrar {0} libros",
     "list view" to "Vista de lista",
     "grid view" to "Vista de cuadrícula",
     "Select all books" to "Seleccionar todos los libros",
