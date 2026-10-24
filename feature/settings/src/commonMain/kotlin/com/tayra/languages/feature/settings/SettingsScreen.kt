@@ -217,7 +217,8 @@ private class SettingsPage(val title: String, val description: String, val route
 /**
  * Every other settings page, so none is found only through a menu: the preferences, the offline
  * resources, and the data, with clearing it last and in red. Each shows its current value where
- * it has one. A [compact] index leaves the descriptions out, and the keyboard shortcuts too.
+ * it has one. A [compact] index leaves the descriptions out, the keyboard shortcuts, and the pages
+ * the phone's More sheet already lists, so it holds only what More does not.
  */
 @Composable
 internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, compact: Boolean) {
@@ -240,8 +241,9 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
         SettingsPage(tr("Backups"), tr("Protect your library, vocabulary, progress, and preferences."), Route.Backups, AppIcons.UploadFile),
         SettingsPage(tr("Book archive"), tr("Books you put away, to bring back or delete."), Route.ArchivedBooks, AppIcons.BookClosed),
     )
-    val card: @Composable (String, ImageVector, List<SettingsPage>, @Composable () -> Unit) -> Unit = { title, icon, pages, extra ->
-        ContentCard(title, subtitle = null, icon = icon, dense = compact) {
+    val card: @Composable (String, ImageVector, List<SettingsPage>, @Composable () -> Unit) -> Unit = { title, icon, all, extra ->
+        val pages = if (compact) all.filter { it.route !in ON_MORE_SHEET } else all
+        if (pages.isNotEmpty() || !compact) ContentCard(title, subtitle = null, icon = icon, dense = compact) {
             pages.forEach { page ->
                 NavigationRow(
                     page.title,
@@ -269,6 +271,11 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
         )
     }
 }
+
+/** The pages the phone's More sheet lists, which a phone's settings index leaves out. */
+private val ON_MORE_SHEET = setOf<Route>(
+    Route.Languages, Route.About, Route.OfflineDictionaries, Route.Speech, Route.OfflineTranslation, Route.CoursePacks, Route.BookPacks, Route.Backups,
+)
 
 /** The speech engine's short name, for the index: the system voices, Piper or Kokoro. */
 private fun speechEngineName(engine: SpeechEngine): String = when (engine) {

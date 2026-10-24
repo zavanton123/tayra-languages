@@ -102,23 +102,23 @@ class SettingsScreenTest {
     }
 
     /**
-     * A phone's settings end with the index of every other page, in the plan's groups, each with its
-     * current value where it has one; clearing the data is in Data, not a first-level choice.
+     * A phone's settings end with the pages the More sheet does not list, in the plan's groups, each
+     * with its current value where it has one; clearing the data is in Data, not a first-level choice.
      */
     @Test
-    fun aPhoneIndexesTheOtherSettingsWithTheirValues() = runDesktopComposeUiTest(width = 400, height = 2600) {
+    fun aPhoneIndexesTheSettingsMoreLeavesOut() = runDesktopComposeUiTest(width = 400, height = 2600) {
         val settings = SettingsRepositoryImpl(MapSettings())
         runBlocking { settings.update { it.copy(speechEngine = SpeechEngine.PIPER, flashcardNewPerDay = 15) } }
         val visited = mutableListOf<Route>()
         setContent { Hosted(settings) { SettingsScreen(onNavigate = { visited += it }, viewModel = SettingsViewModel(settings)) } }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Offline resources").fetchSemanticsNodes().isNotEmpty() }
-        for (group in listOf("Preferences", "Offline resources", "Data")) onNodeWithText(group).assertExists()
-        // The current values beside the pages: the language learned, the cards a day, the speech engine.
-        onNodeWithText("Portuguese").assertExists()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Preferences").fetchSemanticsNodes().isNotEmpty() }
+        for (group in listOf("Preferences", "Data")) onNodeWithText(group).assertExists()
+        // The current value beside the page: the cards a day.
         onNodeWithText("15 new a day").assertExists()
-        onNodeWithText("Piper").assertExists()
-        // A phone has no keyboard shortcuts page to offer.
-        onNodeWithTag("settings-link-${Route.Shortcuts}").assertDoesNotExist()
+        for (route in listOf(Route.FlashcardSettings, Route.VocabularySettings, Route.ArchivedBooks)) onNodeWithTag("settings-link-$route").assertExists()
+        // More lists the offline resources, the languages, the backups and About; a phone has no keyboard shortcuts page.
+        onNodeWithText("Offline resources").assertDoesNotExist()
+        for (route in listOf(Route.Speech, Route.Languages, Route.Backups, Route.About, Route.Shortcuts)) onNodeWithTag("settings-link-$route").assertDoesNotExist()
         System.getenv("SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-phone-index.png")) }
         onNodeWithTag("settings-link-${Route.ClearData}").performScrollTo().performClick()
         assertEquals(listOf<Route>(Route.ClearData), visited)
