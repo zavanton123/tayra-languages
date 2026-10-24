@@ -224,6 +224,19 @@ object PracticeBuilder {
         return exercises
     }
 
+    /**
+     * Whether [word] can be asked a question of [type], answered as [response] or the type's first
+     * way: what the setup dialog counts, by the same rules the questions are built by.
+     */
+    fun canAsk(
+        type: ExerciseType,
+        word: PracticeWord,
+        words: List<PracticeWord>,
+        meanings: List<String> = emptyList(),
+        translations: Map<String, String> = emptyMap(),
+        response: PracticeResponse = type.responses.first(),
+    ): Boolean = exercise(type, response, word, words, emptyList(), meanings, translations, Random(0)) != null
+
     /** The question of [type] on [word], or null when the word cannot be asked it. */
     private fun exercise(
         type: ExerciseType,
