@@ -440,7 +440,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Remove the preset {0}" to "Удалить набор {0}",
     "Looking up sentences from elsewhere…" to "Поиск предложений из других источников…",
     "Sentences kept for {0} of {1} words" to "Предложения сохранены для {0} из {1} слов",
-    "Letter tiles" to "Плитки с буквами",
     "Right form" to "Нужная форма",
     "Find the form of the word that fits the sentence" to "Найдите форму слова, подходящую к предложению",
     "Word forms" to "Формы слов",
@@ -455,7 +454,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Sound-alike" to "Похожие слова",
     "Hear a word and pick it among words spelled nearly like it" to "Прослушайте слово и выберите его среди слов с почти таким же написанием",
     "Adapt to my level" to "Подстраиваться под мой уровень",
-    "New words are chosen, then built from letters, then typed" to "Новые слова сначала выбираются, потом собираются из букв, потом вводятся",
     "New to practice" to "Ещё не тренировались",
     "Weakest" to "Самые слабые",
     "Not practised for a week" to "Не тренировались неделю",
@@ -472,4 +470,5 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Hear a sentence and say it back" to "Прослушайте предложение и повторите его",
     "Speak" to "Говорить",
     "Speaking" to "Говорение",
+    "New words are chosen first, then typed" to "Новые слова сначала выбираются, потом вводятся",
 )

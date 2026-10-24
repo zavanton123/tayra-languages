@@ -38,11 +38,11 @@ data class WordProgress(
     class Level(val responses: Set<PracticeResponse>, val upAfter: Int?, val downAfter: Int?)
 
     companion object {
-        /** Recognise (choices), recall with help (tiles), recall (typing), produce (typing, in new sentences). */
+        /** Recognise (choices), recognise or recall (choices and typing), recall (typing), produce (typing or saying). */
         val LEVELS = listOf(
             Level(setOf(PracticeResponse.CHOOSE), upAfter = 2, downAfter = null),
-            Level(setOf(PracticeResponse.TILES, PracticeResponse.CHOOSE), upAfter = 2, downAfter = 2),
-            Level(setOf(PracticeResponse.TYPE, PracticeResponse.TILES), upAfter = 3, downAfter = 1),
+            Level(setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE), upAfter = 2, downAfter = 2),
+            Level(setOf(PracticeResponse.TYPE), upAfter = 3, downAfter = 1),
             Level(setOf(PracticeResponse.TYPE, PracticeResponse.SPEAK), upAfter = null, downAfter = 1),
         )
         val TOP = LEVELS.lastIndex

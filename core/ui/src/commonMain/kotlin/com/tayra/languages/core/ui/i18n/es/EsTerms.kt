@@ -440,7 +440,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "Remove the preset {0}" to "Quitar el ajuste {0}",
     "Looking up sentences from elsewhere…" to "Buscando oraciones de otras fuentes…",
     "Sentences kept for {0} of {1} words" to "Oraciones guardadas para {0} de {1} palabras",
-    "Letter tiles" to "Fichas de letras",
     "Right form" to "Forma correcta",
     "Find the form of the word that fits the sentence" to "Encuentra la forma de la palabra que encaja en la oración",
     "Word forms" to "Formas de las palabras",
@@ -455,7 +454,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "Sound-alike" to "Parecidas",
     "Hear a word and pick it among words spelled nearly like it" to "Escucha una palabra y elígela entre palabras que se escriben casi igual",
     "Adapt to my level" to "Adaptar a mi nivel",
-    "New words are chosen, then built from letters, then typed" to "Las palabras nuevas se eligen, luego se forman con letras y después se escriben",
     "New to practice" to "Sin practicar",
     "Weakest" to "Más débiles",
     "Not practised for a week" to "Sin practicar desde hace una semana",
@@ -472,4 +470,5 @@ internal val esTerms: Map<String, String> = mapOf(
     "Hear a sentence and say it back" to "Escucha una frase y repítela",
     "Speak" to "Hablar",
     "Speaking" to "Expresión oral",
+    "New words are chosen first, then typed" to "Las palabras nuevas primero se eligen y luego se escriben",
 )

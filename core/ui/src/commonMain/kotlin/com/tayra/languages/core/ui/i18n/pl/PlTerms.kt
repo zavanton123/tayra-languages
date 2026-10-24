@@ -440,7 +440,6 @@ internal val plTerms: Map<String, String> = mapOf(
     "Remove the preset {0}" to "Usuń zestaw {0}",
     "Looking up sentences from elsewhere…" to "Wyszukiwanie zdań z innych źródeł…",
     "Sentences kept for {0} of {1} words" to "Zdania zapisane dla {0} z {1} słów",
-    "Letter tiles" to "Kafelki z literami",
     "Right form" to "Właściwa forma",
     "Find the form of the word that fits the sentence" to "Znajdź formę słowa, która pasuje do zdania",
     "Word forms" to "Formy słów",
@@ -455,7 +454,6 @@ internal val plTerms: Map<String, String> = mapOf(
     "Sound-alike" to "Podobne brzmienie",
     "Hear a word and pick it among words spelled nearly like it" to "Posłuchaj słowa i wybierz je spośród słów pisanych prawie tak samo",
     "Adapt to my level" to "Dostosuj do mojego poziomu",
-    "New words are chosen, then built from letters, then typed" to "Nowe słowa się wybiera, potem układa z liter, potem wpisuje",
     "New to practice" to "Jeszcze nie ćwiczone",
     "Weakest" to "Najsłabsze",
     "Not practised for a week" to "Nie ćwiczone od tygodnia",
@@ -472,4 +470,5 @@ internal val plTerms: Map<String, String> = mapOf(
     "Hear a sentence and say it back" to "Posłuchaj zdania i powtórz je",
     "Speak" to "Mów",
     "Speaking" to "Mówienie",
+    "New words are chosen first, then typed" to "Nowe słowa najpierw się wybiera, potem wpisuje",
 )

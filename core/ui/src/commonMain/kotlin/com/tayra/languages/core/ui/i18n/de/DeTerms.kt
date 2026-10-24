@@ -440,7 +440,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "Remove the preset {0}" to "Vorgabe {0} entfernen",
     "Looking up sentences from elsewhere…" to "Sätze von anderswo werden gesucht…",
     "Sentences kept for {0} of {1} words" to "Sätze gespeichert für {0} von {1} Wörtern",
-    "Letter tiles" to "Buchstabenkacheln",
     "Right form" to "Richtige Form",
     "Find the form of the word that fits the sentence" to "Finde die Form des Wortes, die in den Satz passt",
     "Word forms" to "Wortformen",
@@ -455,7 +454,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "Sound-alike" to "Ähnlich klingend",
     "Hear a word and pick it among words spelled nearly like it" to "Ein Wort hören und es unter fast gleich geschriebenen Wörtern finden",
     "Adapt to my level" to "An mein Niveau anpassen",
-    "New words are chosen, then built from letters, then typed" to "Neue Wörter werden erst gewählt, dann aus Buchstaben gebaut, dann getippt",
     "New to practice" to "Noch nicht geübt",
     "Weakest" to "Schwächste",
     "Not practised for a week" to "Seit einer Woche nicht geübt",
@@ -472,4 +470,5 @@ internal val deTerms: Map<String, String> = mapOf(
     "Hear a sentence and say it back" to "Hör einen Satz und sprich ihn nach",
     "Speak" to "Sprechen",
     "Speaking" to "Sprechen",
+    "New words are chosen first, then typed" to "Neue Wörter werden zuerst ausgewählt, dann getippt",
 )

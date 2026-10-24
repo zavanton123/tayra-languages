@@ -313,7 +313,7 @@ internal fun PracticeSetupContent(
             ) {
                 Column(Modifier.weight(1f)) {
                     Text(tr("Adapt to my level"), style = AppText.itemTitle)
-                    Text(tr("New words are chosen, then built from letters, then typed"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+                    Text(tr("New words are chosen first, then typed"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
                 }
                 AppSwitch(checked = setup.adaptive, onCheckedChange = { setup = setup.copy(adaptive = it) })
             }

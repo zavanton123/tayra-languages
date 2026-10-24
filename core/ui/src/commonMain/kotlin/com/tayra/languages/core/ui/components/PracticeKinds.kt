@@ -68,14 +68,12 @@ fun PracticeSkill.label(): String = when (this) {
 
 fun PracticeResponse.label(): String = when (this) {
     PracticeResponse.CHOOSE -> tr("Choose")
-    PracticeResponse.TILES -> tr("Letter tiles")
     PracticeResponse.TYPE -> tr("Type")
     PracticeResponse.SPEAK -> tr("Speak")
 }
 
 fun PracticeResponse.icon(): ImageVector = when (this) {
     PracticeResponse.CHOOSE -> AppIcons.ViewList
-    PracticeResponse.TILES -> AppIcons.GridView
     PracticeResponse.TYPE -> Icons.Default.Edit
     PracticeResponse.SPEAK -> AppIcons.Mic
 }

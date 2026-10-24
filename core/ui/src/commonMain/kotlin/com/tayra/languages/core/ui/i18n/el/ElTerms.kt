@@ -440,7 +440,6 @@ internal val elTerms: Map<String, String> = mapOf(
     "Remove the preset {0}" to "Αφαίρεση του προκαθορισμένου {0}",
     "Looking up sentences from elsewhere…" to "Αναζήτηση προτάσεων από αλλού…",
     "Sentences kept for {0} of {1} words" to "Αποθηκευμένες προτάσεις για {0} από {1} λέξεις",
-    "Letter tiles" to "Πλακίδια γραμμάτων",
     "Right form" to "Σωστός τύπος",
     "Find the form of the word that fits the sentence" to "Βρείτε τον τύπο της λέξης που ταιριάζει στην πρόταση",
     "Word forms" to "Τύποι λέξεων",
@@ -455,7 +454,6 @@ internal val elTerms: Map<String, String> = mapOf(
     "Sound-alike" to "Παρόμοιος ήχος",
     "Hear a word and pick it among words spelled nearly like it" to "Ακούστε μια λέξη και επιλέξτε την ανάμεσα σε λέξεις που γράφονται σχεδόν ίδια",
     "Adapt to my level" to "Προσαρμογή στο επίπεδό μου",
-    "New words are chosen, then built from letters, then typed" to "Οι νέες λέξεις επιλέγονται, μετά φτιάχνονται από γράμματα, μετά πληκτρολογούνται",
     "New to practice" to "Νέες στην εξάσκηση",
     "Weakest" to "Πιο αδύναμες",
     "Not practised for a week" to "Χωρίς εξάσκηση εδώ και μια εβδομάδα",
@@ -472,4 +470,5 @@ internal val elTerms: Map<String, String> = mapOf(
     "Hear a sentence and say it back" to "Άκου μια πρόταση και επανάλαβέ τη",
     "Speak" to "Μίλα",
     "Speaking" to "Ομιλία",
+    "New words are chosen first, then typed" to "Οι νέες λέξεις πρώτα επιλέγονται, μετά πληκτρολογούνται",
 )

@@ -127,20 +127,6 @@ class PracticeTest {
         }
     }
 
-    /** Built from tiles, a word comes with its own letters and two that are not in it; a word too long for tiles gets another question. */
-    @Test
-    fun tilesHoldTheWordsLettersAndTwoMore() {
-        val setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.TILES, PracticeResponse.TYPE), length = null)
-        val long = word("supermercados", "supermarkets", "Há dois supermercados aqui.")
-        val asked = PracticeBuilder.build(words + long, pageWords, random = Random(1), setup = setup)
-        asked.filter { it.response == PracticeResponse.TILES }.forEach { e ->
-            assertEquals(e.answer.length + 2, e.tiles.size)
-            assertEquals(e.answer.map { it.toString() }.sorted(), (e.tiles - e.tiles.filter { t -> e.answer.none { it.toString().equals(t, ignoreCase = true) } }.toSet()).sorted())
-        }
-        assertTrue(asked.filter { it.word == "supermercados" }.none { it.response == PracticeResponse.TILES }, "too long for tiles")
-        assertTrue(asked.any { it.response == PracticeResponse.TILES })
-    }
-
     /** The right form is chosen among other forms of the word, written as it is, with the sentence's translation as the clue; without forms or a translation it is not asked. */
     @Test
     fun theRightFormIsChosenAmongTheWordsForms() {
@@ -175,7 +161,7 @@ class PracticeTest {
     @Test
     fun aShortTranslatedSentenceIsBuiltFromItsWords() {
         val translations = words.associate { it.sentence to "[${it.sentence}]" }
-        val setup = PracticeSetup(types = setOf(ExerciseType.BUILD), responses = setOf(PracticeResponse.TILES), length = null)
+        val setup = PracticeSetup(types = setOf(ExerciseType.BUILD), responses = setOf(PracticeResponse.CHOOSE), length = null)
         val asked = PracticeBuilder.build(words, pageWords, random = Random(1), setup = setup, translations = translations)
         assertEquals(listOf("Eu moro no Brasil."), asked.map { it.sentence }, "the others are longer than eight words")
         val built = asked.single()
@@ -218,7 +204,7 @@ class PracticeTest {
         val setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = PracticeResponse.entries.toSet(), length = null, adaptive = true)
         val asked = PracticeBuilder.build(words, pageWords, random = Random(1), setup = setup, levels = mapOf("moro" to 3, "semana" to 1))
         assertTrue(asked.filter { it.word == "moro" }.all { it.response == PracticeResponse.TYPE || it.response == PracticeResponse.SPEAK })
-        assertTrue(asked.filter { it.word == "semana" }.all { it.response == PracticeResponse.TILES || it.response == PracticeResponse.CHOOSE })
+        assertTrue(asked.filter { it.word == "semana" }.all { it.response == PracticeResponse.CHOOSE || it.response == PracticeResponse.TYPE })
         assertTrue(asked.filter { it.word == "comprar" }.all { it.response == PracticeResponse.CHOOSE }, "a word never practised is recognised first")
         // A way the setup leaves out is not asked even where the level calls for it.
         val chooseOnly = PracticeBuilder.build(words, pageWords, random = Random(1), setup = setup.copy(responses = setOf(PracticeResponse.CHOOSE)), levels = mapOf("moro" to 3))
@@ -400,5 +386,12 @@ class PracticeTest {
         assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("durante a semana tenho uma rotina bastante organizada e muito cheia", null, sentence))
         assertEquals(TypedResult.ALMOST, PracticeChecker.checkSpoken("durante a semana tenho uma rotina bastante organizada e cheia", null, sentence), "ten of eleven")
         assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("durante a semana tenho", null, sentence))
+    }
+
+    /** A setup kept from when letter tiles were a way of answering keeps its other ways, or the default ones when tiles were all it had. */
+    @Test
+    fun setupsKeptWithLetterTilesStillOpen() {
+        assertEquals(setOf(PracticeResponse.CHOOSE), PracticeSetup.decode("types=GAP;responses=CHOOSE,TILES;contexts=ORIGINAL;length=10").responses)
+        assertEquals(PracticeSetup().responses, PracticeSetup.decode("types=GAP;responses=TILES;contexts=ORIGINAL;length=10").responses)
     }
 }

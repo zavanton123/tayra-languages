@@ -440,7 +440,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Remove the preset {0}" to "Remover a predefinição {0}",
     "Looking up sentences from elsewhere…" to "A procurar frases noutras fontes…",
     "Sentences kept for {0} of {1} words" to "Frases guardadas para {0} de {1} palavras",
-    "Letter tiles" to "Peças de letras",
     "Right form" to "Forma certa",
     "Find the form of the word that fits the sentence" to "Encontre a forma da palavra que encaixa na frase",
     "Word forms" to "Formas das palavras",
@@ -455,7 +454,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Sound-alike" to "Parecidas",
     "Hear a word and pick it among words spelled nearly like it" to "Ouça uma palavra e escolha-a entre palavras escritas quase igual",
     "Adapt to my level" to "Adaptar ao meu nível",
-    "New words are chosen, then built from letters, then typed" to "As palavras novas escolhem-se, depois montam-se com letras, depois digitam-se",
     "New to practice" to "Novas na prática",
     "Weakest" to "Mais fracas",
     "Not practised for a week" to "Sem prática há uma semana",
@@ -472,4 +470,5 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Hear a sentence and say it back" to "Ouça uma frase e repita-a",
     "Speak" to "Falar",
     "Speaking" to "Fala",
+    "New words are chosen first, then typed" to "As palavras novas primeiro são escolhidas, depois escritas",
 )

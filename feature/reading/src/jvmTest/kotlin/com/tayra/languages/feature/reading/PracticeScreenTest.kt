@@ -316,31 +316,6 @@ class PracticeScreenTest {
         onNodeWithTag("practice-sentence").assertExists()
     }
 
-    /** Built from tiles, the word grows as its letters are tapped, the last one can be taken back, and the built word is checked. */
-    @Test
-    fun aWordIsBuiltFromItsLetters() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.TILES)))
-        val exercise = viewModel.state.value.exercises.first()
-        assertEquals(PracticeResponse.TILES, exercise.response)
-        onNodeWithText("BUILD THE MISSING WORD FROM THE LETTERS").assertExists()
-        val taken = mutableSetOf<Int>()
-        fun tap(letter: Char) {
-            val index = exercise.tiles.indices.first { it !in taken && exercise.tiles[it] == letter.toString() }
-            taken += index
-            onNodeWithTag("practice-tile-$index").performClick()
-        }
-        tap(exercise.answer[0])
-        // A wrong letter, taken back.
-        val extra = exercise.tiles.indices.first { it !in taken && exercise.tiles[it] !in exercise.answer.map { c -> c.toString() } }
-        onNodeWithTag("practice-tile-$extra").performClick()
-        onNodeWithTag("practice-tile-back").performClick()
-        exercise.answer.drop(1).forEach(::tap)
-        assertEquals(exercise.answer, viewModel.state.value.typed)
-        shot("tiles")
-        onNodeWithText("Check").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
-    }
-
     /** The right form is asked with the word's base named and the sentence's translation as the clue. */
     @Test
     fun theRightFormIsAskedWithItsBaseAndClue() = runDesktopComposeUiTest(width = 1586, height = 1000) {
@@ -379,7 +354,7 @@ class PracticeScreenTest {
     /** A sentence is built from its words, read from its translation, and checked as a whole. */
     @Test
     fun aSentenceIsBuiltFromItsWords() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.BUILD), responses = setOf(PracticeResponse.TILES)))
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.BUILD), responses = setOf(PracticeResponse.CHOOSE)))
         val exercise = viewModel.state.value.exercises.single()
         assertEquals("Eu moro no Brasil.", exercise.answer)
         onNodeWithText("PUT THE WORDS IN ORDER").assertExists()
@@ -416,7 +391,7 @@ class PracticeScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
     }
 
-    /** Each answer moves the word's practice level: two right answers take a new word from choosing to building it from letters. */
+    /** Each answer moves the word's practice level: two right answers take a new word from choosing to typing it as well. */
     @Test
     fun answersMoveTheWordsLevel() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.MEANING), length = null, adaptive = true))

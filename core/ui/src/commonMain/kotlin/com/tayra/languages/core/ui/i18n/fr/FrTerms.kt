@@ -440,7 +440,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "Remove the preset {0}" to "Supprimer le préréglage {0}",
     "Looking up sentences from elsewhere…" to "Recherche de phrases ailleurs…",
     "Sentences kept for {0} of {1} words" to "Phrases gardées pour {0} mots sur {1}",
-    "Letter tiles" to "Tuiles de lettres",
     "Right form" to "Bonne forme",
     "Find the form of the word that fits the sentence" to "Trouvez la forme du mot qui convient à la phrase",
     "Word forms" to "Formes des mots",
@@ -455,7 +454,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "Sound-alike" to "Sons proches",
     "Hear a word and pick it among words spelled nearly like it" to "Écoutez un mot et choisissez-le parmi des mots qui s’écrivent presque pareil",
     "Adapt to my level" to "S’adapter à mon niveau",
-    "New words are chosen, then built from letters, then typed" to "Les mots nouveaux se choisissent, puis se forment avec des lettres, puis se tapent",
     "New to practice" to "Jamais travaillés",
     "Weakest" to "Les plus faibles",
     "Not practised for a week" to "Pas travaillés depuis une semaine",
@@ -472,4 +470,5 @@ internal val frTerms: Map<String, String> = mapOf(
     "Hear a sentence and say it back" to "Écoutez une phrase et répétez-la",
     "Speak" to "Parler",
     "Speaking" to "Expression orale",
+    "New words are chosen first, then typed" to "Les mots nouveaux sont d'abord choisis, puis tapés",
 )

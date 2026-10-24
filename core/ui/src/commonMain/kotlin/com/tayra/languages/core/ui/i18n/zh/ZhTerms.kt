@@ -440,7 +440,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Remove the preset {0}" to "删除预设 {0}",
     "Looking up sentences from elsewhere…" to "正在查找其他来源的句子…",
     "Sentences kept for {0} of {1} words" to "已为 {1} 个单词中的 {0} 个保存句子",
-    "Letter tiles" to "字母块",
     "Right form" to "正确的形式",
     "Find the form of the word that fits the sentence" to "找出适合句子的单词形式",
     "Word forms" to "词形",
@@ -455,7 +454,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Sound-alike" to "近音词",
     "Hear a word and pick it among words spelled nearly like it" to "听一个单词，从拼写相近的词中选出它",
     "Adapt to my level" to "按我的水平调整",
-    "New words are chosen, then built from letters, then typed" to "新词先选择，再用字母拼，最后输入",
     "New to practice" to "尚未练习",
     "Weakest" to "最薄弱",
     "Not practised for a week" to "一周未练习",
@@ -472,4 +470,5 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Hear a sentence and say it back" to "听一句话并跟着说出来",
     "Speak" to "说",
     "Speaking" to "口语",
+    "New words are chosen first, then typed" to "新单词先选择，再输入",
 )

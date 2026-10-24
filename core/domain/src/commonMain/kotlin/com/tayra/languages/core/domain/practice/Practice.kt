@@ -25,8 +25,8 @@ enum class PracticeSkill { READING, LISTENING, TRANSLATION, WORD_FORMS }
 /** A word's family: the form a dictionary lists it under, and all its forms, lowercase. */
 data class WordFamily(val lemma: String, val forms: Set<String>)
 
-/** How a question is answered: choosing among four, building the word from its letters, typing it, or saying it. */
-enum class PracticeResponse { CHOOSE, TILES, TYPE, SPEAK }
+/** How a question is answered: choosing among four, typing it, or saying it. */
+enum class PracticeResponse { CHOOSE, TYPE, SPEAK }
 
 /** Where a question's sentence comes from. */
 enum class PracticeContext {
@@ -40,7 +40,7 @@ enum class PracticeContext {
 /** A type of question, with the [skill] it trains and the ways it can be answered. */
 enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeResponse>) {
     /** The sentence with the word blanked out: choose or type the word. */
-    GAP(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES, PracticeResponse.TYPE, PracticeResponse.SPEAK)),
+    GAP(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE, PracticeResponse.SPEAK)),
 
     /** The sentence whole, the word marked: choose what the word means. Needs the word's translation. */
     MEANING(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE)),
@@ -58,7 +58,7 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
      * The sentence is read aloud, its text hidden, and the word's meaning given: choose the word
      * among the sentence's other words, or type it. Needs the word's translation.
      */
-    HEAR_SENTENCE(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES, PracticeResponse.TYPE, PracticeResponse.SPEAK)),
+    HEAR_SENTENCE(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE, PracticeResponse.SPEAK)),
 
     /** The sentence is read aloud: type the missing word, or all of a short sentence. */
     DICTATION(PracticeSkill.LISTENING, setOf(PracticeResponse.TYPE)),
@@ -70,16 +70,16 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
     SHADOW(PracticeSkill.LISTENING, setOf(PracticeResponse.SPEAK)),
 
     /** The sentence's translation over the sentence with the word blanked out: choose or type the word. Needs the translation. */
-    TRANSLATION(PracticeSkill.TRANSLATION, setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES, PracticeResponse.TYPE, PracticeResponse.SPEAK)),
+    TRANSLATION(PracticeSkill.TRANSLATION, setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE, PracticeResponse.SPEAK)),
 
     /** The sentence's translation, and the sentence's words shuffled: put them in order. Needs the translation and a sentence of 3 to 8 words. */
-    BUILD(PracticeSkill.TRANSLATION, setOf(PracticeResponse.TILES)),
+    BUILD(PracticeSkill.TRANSLATION, setOf(PracticeResponse.CHOOSE)),
 
     /**
      * The sentence with the word blanked out and its translation as the clue: choose, build or type
      * the form of the word that fits. Needs three other forms of the word and the translation.
      */
-    FORM(PracticeSkill.WORD_FORMS, setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES, PracticeResponse.TYPE)),
+    FORM(PracticeSkill.WORD_FORMS, setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE)),
 }
 
 /**
@@ -133,7 +133,8 @@ data class PracticeSetup(
             val defaults = PracticeSetup()
             return PracticeSetup(
                 types = names("types")?.mapNotNull { name -> ExerciseType.entries.firstOrNull { it.name == name } }?.toSet() ?: defaults.types,
-                responses = names("responses")?.mapNotNull { name -> PracticeResponse.entries.firstOrNull { it.name == name } }?.toSet() ?: defaults.responses,
+                // A setup kept from before letter tiles were dropped may have had no other way of answering.
+                responses = names("responses")?.mapNotNull { name -> PracticeResponse.entries.firstOrNull { it.name == name } }?.toSet()?.takeIf { it.isNotEmpty() } ?: defaults.responses,
                 contexts = names("contexts")?.mapNotNull { name -> PracticeContext.entries.firstOrNull { it.name == name } }?.toSet() ?: defaults.contexts,
                 length = when (val length = parts["length"]) {
                     null -> defaults.length
@@ -238,12 +239,6 @@ object PracticeBuilder {
     /** Pairs in a matching question: at most this many, and at least [MIN_PAIRS]. */
     private const val PAIRS = 5
     private const val MIN_PAIRS = 4
-
-    /** Words longer than this are typed rather than built from tiles. */
-    private const val MAX_TILES = 12
-
-    /** Letters offered beside the answer's own. */
-    private const val EXTRA_TILES = 2
 
     /** Sentences of at most this many words are typed whole in a dictation. */
     private const val SHORT_SENTENCE_WORDS = 8
@@ -489,21 +484,11 @@ object PracticeBuilder {
     private fun contentWords(text: String): Set<String> =
         text.lowercase().split(Regex("""[^\p{L}\p{N}]+""")).filter { it.length >= 3 }.toSet()
 
-    /** [question] answered as [response]: with the word among others to choose from, its letters to build it from, or nothing to type it. Null when the word is too long for tiles. */
-    private fun answered(question: Exercise, response: PracticeResponse, word: PracticeWord, targets: List<PracticeWord>, pool: WrongChoices, random: Random): Exercise? = when (response) {
+    /** [question] answered as [response]: with the word among others to choose from, or nothing to type or say it. */
+    private fun answered(question: Exercise, response: PracticeResponse, word: PracticeWord, targets: List<PracticeWord>, pool: WrongChoices, random: Random): Exercise = when (response) {
         PracticeResponse.CHOOSE -> question.copy(options = wordChoices(word, targets, pool, random))
-        PracticeResponse.TILES -> tiles(word.text, pool, random)?.let { question.copy(tiles = it) }
         // Said, the learner says the whole sentence; it counts when the word is heard in it.
         PracticeResponse.TYPE, PracticeResponse.SPEAK -> question
-    }
-
-    /** The letters of [answer], shuffled, with [EXTRA_TILES] letters of the page that are not among them; null for a long word or several. */
-    private fun tiles(answer: String, pool: WrongChoices, random: Random): List<String>? {
-        if (answer.length > MAX_TILES || answer.any { it.isWhitespace() }) return null
-        val own = answer.map { it.toString() }
-        val alphabet = pool.pageWords.flatMap { word -> word.filter { it.isLetter() }.map { it.lowercase() } }.distinct()
-            .filter { letter -> own.none { it.equals(letter, ignoreCase = true) } }
-        return (own + alphabet.shuffled(random).take(EXTRA_TILES)).shuffled(random)
     }
 
     /**
