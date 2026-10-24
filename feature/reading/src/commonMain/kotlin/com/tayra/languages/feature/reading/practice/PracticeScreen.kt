@@ -104,6 +104,7 @@ import com.tayra.languages.core.domain.practice.WordResult
 import com.tayra.languages.core.domain.practice.PracticeChecker
 import androidx.compose.ui.text.style.TextDecoration
 import com.tayra.languages.core.domain.practice.PracticeBuilder
+import com.tayra.languages.core.ui.audio.rememberMicrophoneAccess
 
 /** Practising the words being learned on a page, right after reading it, or words chosen in the vocabulary. */
 @Composable
@@ -118,6 +119,7 @@ fun PracticeScreen(
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
+    val microphone = rememberMicrophoneAccess()
     DisposableEffect(speaker) { onDispose { speaker.stop() } }
     Scaffold(
         topBar = { if (!dialog) AppTopBar(title = tr("Practice"), onNavigate = onNavigate, section = if (source is PracticeSource.Words) NavSection.TERMS else NavSection.BOOKS, onBack = onBack) },
@@ -140,7 +142,10 @@ fun PracticeScreen(
                 onRestartMissed = viewModel::startMissed,
                 onBack = onBack,
                 onSpeak = { text -> speaker.speak(text, state.languageCode) },
-                onListen = { speaker.stop(); viewModel.listen() },
+                onListen = {
+                    speaker.stop()
+                    microphone { allowed -> if (allowed) viewModel.listen() else viewModel.refuseSpeaking() }
+                },
                 onStopListening = viewModel::stopListening,
                 onTypeInstead = viewModel::typeInstead,
             ),

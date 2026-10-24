@@ -281,18 +281,18 @@ class PracticeViewModel(
                     record(exercise, PracticeChecker.checkSpoken(heard.text, word, exercise.answer).result)
                 }
                 Heard.Nothing -> _state.update { it.copy(listening = false, nothingHeard = true) }
-                Heard.Refused -> {
-                    // Asked again it would be refused again: the rest are typed.
-                    _state.update { s ->
-                        s.copy(
-                            listening = false,
-                            speakingRefused = true,
-                            exercises = s.exercises.mapIndexed { i, e -> if (i >= s.index && e.response == PracticeResponse.SPEAK) e.copy(response = PracticeResponse.TYPE) else e },
-                        )
-                    }
-                }
+                Heard.Refused -> refuseSpeaking()
             }
         }
+    }
+
+    /** The microphone may not be used: asked again it would be refused again, so the rest of the answers are typed. */
+    fun refuseSpeaking() = _state.update { s ->
+        s.copy(
+            listening = false,
+            speakingRefused = true,
+            exercises = s.exercises.mapIndexed { i, e -> if (i >= s.index && e.response == PracticeResponse.SPEAK) e.copy(response = PracticeResponse.TYPE) else e },
+        )
     }
 
     /** Stops listening; what was heard so far is checked. */

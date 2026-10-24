@@ -2,6 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Answers said aloud in practice. -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- The system's speech recogniser, which the app must see to use. -->
+    <queries>
+        <intent>
+            <action android:name="android.speech.RecognitionService" />
+        </intent>
+    </queries>
 
     <application
         android:name=".TayraApplication"

@@ -19,6 +19,9 @@ kotlin {
             implementation(libs.kermit)
             implementation(libs.filekit.dialogs.compose)
         }
+        androidMain.dependencies {
+            implementation(libs.androidx.activity.compose)
+        }
         jvmMain.dependencies {
             implementation(libs.jlayer)
         }

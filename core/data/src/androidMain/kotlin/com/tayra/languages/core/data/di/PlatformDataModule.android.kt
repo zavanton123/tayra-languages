@@ -13,6 +13,8 @@ import com.tayra.languages.core.data.ocr.TesseractTextRecognizer
 import com.tayra.languages.core.data.settings.AndroidSecureStore
 import com.tayra.languages.core.data.settings.SecureStore
 import com.tayra.languages.core.data.speech.AndroidSherpaRuntime
+import com.tayra.languages.core.data.speech.AndroidSpeechRecognition
+import com.tayra.languages.core.domain.practice.SpeechRecognition
 import com.tayra.languages.core.data.speech.FileSpeechAudioCache
 import com.tayra.languages.core.data.speech.SherpaKokoroEngine
 import com.tayra.languages.core.data.speech.SherpaPiperEngine
@@ -29,6 +31,7 @@ actual val platformDataModule: Module = module {
     single { LocalTranslation(MlKitSentenceTranslator(get())) }
     single { AndroidSherpaRuntime(get<Context>()) }
     single { LocalSpeech(listOf(SherpaPiperEngine(get<AndroidSherpaRuntime>()), SherpaKokoroEngine(get<AndroidSherpaRuntime>()))) }
+    single<SpeechRecognition> { AndroidSpeechRecognition(get<Context>()) }
     single { DatabaseDriverFactory(get<Context>()) }
     single { BackupFiles(get<Context>()) }
     single<SpeechAudioCache> { FileSpeechAudioCache(File(get<Context>().cacheDir, "speech-cache")) }
