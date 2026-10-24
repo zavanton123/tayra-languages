@@ -68,18 +68,64 @@ Each word has a practice level, stored per term:
 
 `ALMOST` counts as right for the level. A practice of a page still asks every word at least once; the level only picks how.
 
-### 3.3 What the learner chooses
+### 3.3 Practice setup
 
-The kinds dialog offers groups instead of single kinds:
+Before a practice starts, a setup dialog says what will be asked. It replaces today's four ticks with filters on each axis, shows what each choice leaves, and remembers the last setup.
 
-- Reading (GAP and MEANING prompts)
-- Listening (AUDIO prompt)
-- Translation (TRANSLATION prompt)
-- Word forms (section 6.1)
-- Speaking (SPEAK response; shown only where recognition is available)
-- "Adapt to my level" switch, on by default: responses follow the ladder; off, every response type is mixed.
+#### What can be filtered
 
-Route arguments carry group names; the old kind names keep working through a mapping, so routes built by older code still open a practice.
+| Filter | Options | Notes |
+|---|---|---|
+| Preset | Quick review, Balanced (default), Listening, Writing, Speaking, Custom, and the learner's own saved presets | A preset fills every filter below; changing any filter turns it into Custom |
+| Skills | Reading, Listening, Translation, Word forms, Speaking | A group with a tri-state tick; expanded, it lists its exercise types, each with its own tick |
+| Answer by | Choose, Letter tiles, Type, Speak | Applies across every skill; a type whose only answer mode is unticked is greyed out with the reason |
+| Sentences | From the text, Other examples | "Other examples" shows how many are stored and whether more need the internet |
+| Words | All being learned, New to practice, Weakest (lowest level), Not practised for a week, Only these (when started from a selection) | Counts beside each, from `practice_progress` |
+| Length | 5, 10, 20 questions, or every type for every word | With the estimated time (about 20 seconds a question) |
+| Adapt to my level | On / off | On, the answer mode of each question follows the word's level (3.2) within the ticked modes; off, the ticked modes are mixed evenly |
+
+Every exercise type row shows:
+
+- its name and one-line description, with a small example ("Eu ___ minha carteira." → *esqueci*);
+- how many of the chosen words it can be asked for ("9 of 12 words"), or why none ("needs a translation", "needs other forms of the word", "needs a speech recogniser", "needs stored examples — connect to the internet");
+- its icon in the group colour.
+
+The footer sums up and starts:
+
+- "18 questions · 6 kinds · about 6 minutes", or what blocks the start ("Tick at least one kind that fits these words");
+- Start, and "Save as preset…" (a name, then it appears among the presets).
+
+#### Defaults and memory
+
+- The first time: Balanced — Reading, Listening and Translation; Choose, Letter tiles and Type; both sentence sources; all words; 10 questions; adapt on.
+- After that, the last setup used, kept separately for a page or text practice and for a vocabulary selection (`practiceSetupReading`, `practiceSetupVocabulary` in the settings).
+- Types that cannot be asked for these words are shown unticked and greyed, but stay ticked in the saved setup, so they come back when they apply.
+- "Reset to Balanced" link in the dialog.
+
+#### Layout
+
+- Phone: a full-height sheet. The preset chips scroll sideways at the top. Skills, Answer by, Sentences, Words and Length are collapsible sections, Skills open and the rest collapsed with their current value on the section line ("Answer by — Choose, Tiles, Type"). The summary and Start stay pinned at the bottom.
+- Desktop and tablet: a large dialog (like the practice and examples dialogs) with two columns: presets and the filter sections on the left, the selected exercise types with their examples and counts on the right; summary and Start in the footer.
+- Keyboard: arrow keys move through rows, Space ticks, Enter starts.
+
+#### How it is computed
+
+A pure function in `core/domain/practice`, `PracticePlanner.preview(words, material, setup): PracticePreview`, gives for each exercise type the words it can be asked for and why the others cannot, and the questions the builder would make. The dialog shows it; `PracticeBuilder.build` takes the same `PracticeSetup`, so what the dialog promises is what is asked.
+
+```kotlin
+data class PracticeSetup(
+    val types: Set<ExerciseType>,          // ticked exercise types (each belongs to a skill)
+    val responses: Set<PracticeResponse>,
+    val contexts: Set<PracticeContext>,
+    val words: WordFilter,
+    val length: Int?,                      // null: every type for every word
+    val adaptive: Boolean,
+)
+```
+
+`material` is what is known about each word before practice: its translation, its sentence's translation, how many stored examples and forms it has. It is loaded once when the dialog opens (`PracticeMaterialLoader`), so the counts are right and opening the practice afterwards is quick.
+
+The route carries the setup as JSON (`Route.Practice(setup = …)`); the old `kinds` list is still read and mapped to a setup.
 
 ## 4. Data
 
@@ -175,7 +221,7 @@ The answer's letters shuffled, plus two distractor letters from the language's a
 
 ## 6. New kinds of exercise
 
-Each is a separate `ExerciseKind`, chosen from its group in the kinds dialog and generated by the same builder.
+Each is a separate exercise type, ticked under its skill in the setup dialog (3.3) and generated by the same builder.
 
 ### 6.1 Choose the form (group: Word forms)
 
@@ -234,7 +280,7 @@ For nouns whose dictionary entry has a gender or a plural (as the flashcard hint
 - Blurred text reuses the reader's practice blur (`ReadingText` practise mode).
 - Matching pairs and build the sentence get their own composables.
 - The result line names what was asked when it was a form or a meaning ("*esqueci* — past, I").
-- `PracticeKindsDialog` lists the groups of 3.3 with the "Adapt to my level" switch.
+- `PracticeKindsDialog` becomes `PracticeSetupDialog` (3.3), opened from every place that starts a practice: the reader footer (page and whole text), the vocabulary selection, and the end of a lesson.
 - The vocabulary list shows each word's practice level as a small four-step bar in the term row's tooltip and on the term page.
 - Desktop keys: 1–4 for choices, letters for tiles, Enter to submit, Space to replay audio (already partly there).
 
@@ -259,12 +305,13 @@ Permissions: microphone on Android and iOS, asked the first time a speaking ques
 
 Each phase ends with the full build passing and is committed in small commits.
 
-### Phase 1 — model and translation prompts
+### Phase 1 — model, translation prompts and the setup dialog
 
-- `PracticeContext`, `PracticePrompt`, `PracticeResponse` in `Practice.kt`; `Exercise` carries them; old kinds map onto them.
+- `PracticeContext`, `PracticePrompt`, `PracticeResponse`, `ExerciseType`, `PracticeSetup` in `core/domain/practice`; `Exercise` carries them; old kinds map onto them.
 - MEANING and TRANSLATION prompts (5.2, 5.4).
-- Kinds dialog with groups; route name mapping.
-- Tests: builder (each prompt's answer, options and fallbacks), checker, dialog, a practice screen test per prompt.
+- `PracticePlanner.preview` and `PracticeMaterialLoader`; `PracticeBuilder.build` takes a `PracticeSetup`.
+- `PracticeSetupDialog` (3.3) with skills, answer modes, sentence sources, length, presets and the remembered setup; the Words filter offers "All being learned" and "Only these" until phase 4 adds levels; route carries the setup.
+- Tests: planner counts and reasons for each type, builder (each prompt's answer, options and fallbacks), checker, setup serialisation and the old-kinds mapping, dialog on phone and desktop (ticks, greyed types, summary, presets, remembered setup), a practice screen test per prompt.
 
 ### Phase 2 — stored examples and forms
 
@@ -282,7 +329,7 @@ Each phase ends with the full build passing and is committed in small commits.
 
 ### Phase 4 — the ladder
 
-- Level updates after each answer; the builder picks responses by level; "Adapt to my level" switch.
+- Level updates after each answer; the builder picks responses by level; the "Adapt to my level" switch and the level-based Words filters (New to practice, Weakest, Not practised for a week) in the setup dialog.
 - The level shown in the vocabulary.
 - Tests: level moves for every row of 3.2, builder output at each level.
 
@@ -302,7 +349,7 @@ Word partners (6.7), gender and plural (6.8).
 - **Example translations.** Tatoeba gives human translations only for some language pairs; the rest are machine translated offline and may be rough. Mark machine translations with the engine's name, as the reader does.
 - **Tatoeba licence.** CC-BY 2.0 FR: keep the sentence id and show the credit on example-based questions.
 - **Recognition models.** Sizes and quality differ per language; some languages will have no offline recogniser.
-- **Too many choices for the learner.** The groups in 3.3 and the ladder are meant to keep the dialog short; check with screenshots before phase 3 ends.
+- **Too many choices for the learner.** Presets and collapsed sections keep the first view short, and the dialog never shows a type it cannot ask without saying why; check with screenshots of the phone sheet and the desktop dialog at the end of phase 1 and again in phase 3, when the new types arrive.
 
 ## 12. Out of scope
 
