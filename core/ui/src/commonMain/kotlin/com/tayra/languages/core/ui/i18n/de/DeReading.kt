@@ -237,4 +237,6 @@ internal val deReading: Map<String, String> = mapOf(
     "What does the marked word mean?" to "Was bedeutet das markierte Wort?",
     "Read the translation and choose the missing word" to "Lies die Übersetzung und wähle das fehlende Wort",
     "Read the translation and type the missing word" to "Lies die Übersetzung und tippe das fehlende Wort",
+    "Listen to the sentence" to "Hör dir den Satz an",
+    "Which word means “{0}”?" to "Welches Wort bedeutet „{0}“?",
 )

@@ -237,4 +237,6 @@ internal val frReading: Map<String, String> = mapOf(
     "What does the marked word mean?" to "Que signifie le mot marqué ?",
     "Read the translation and choose the missing word" to "Lisez la traduction et choisissez le mot manquant",
     "Read the translation and type the missing word" to "Lisez la traduction et tapez le mot manquant",
+    "Listen to the sentence" to "Écoutez la phrase",
+    "Which word means “{0}”?" to "Quel mot signifie « {0} » ?",
 )

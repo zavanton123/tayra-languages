@@ -284,6 +284,7 @@ private val Exercise.instruction: String
             else -> tr("Choose the missing word")
         }
         ExerciseType.MEANING -> tr("What does the marked word mean?")
+        ExerciseType.HEAR_SENTENCE -> tr("Listen to the sentence")
         ExerciseType.HEAR_WORD -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
         ExerciseType.DICTATION -> if (wholeSentence) tr("Listen and type the sentence") else tr("Listen and type the missing word")
         ExerciseType.TRANSLATION -> if (response == PracticeResponse.CHOOSE) tr("Read the translation and choose the missing word") else tr("Read the translation and type the missing word")
@@ -323,7 +324,15 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         if (fromTranslation) state.sentenceTranslation?.let { translationBox(it) }
 
         // What is heard is not shown until answered: the word of a listening choice, or a sentence typed whole.
-        val sentenceHidden = !answered && (exercise.type == ExerciseType.HEAR_WORD || exercise.wholeSentence)
+        val sentenceHidden = !answered && (exercise.type == ExerciseType.HEAR_WORD || exercise.type == ExerciseType.HEAR_SENTENCE || exercise.wholeSentence)
+        // The sentence heard is hidden; what is asked is the word with this meaning.
+        if (exercise.type == ExerciseType.HEAR_SENTENCE) {
+            Text(
+                tr("Which word means “{0}”?", exercise.wordTranslation.orEmpty()),
+                style = AppText.cardSentence(if (compact) 21f else 27f).copy(color = colors.onSurface, textAlign = TextAlign.Center),
+                modifier = Modifier.testTag("practice-asked"),
+            )
+        }
         if (!sentenceHidden) {
             val highlight = SpanStyle(background = AppAccents.highlight.copy(alpha = AppAlpha.half), fontWeight = AppText.labelStrong.fontWeight)
             Text(

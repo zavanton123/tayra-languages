@@ -396,4 +396,8 @@ internal val ruTerms: Map<String, String> = mapOf(
     "From the translation: type" to "По переводу: ввести",
     "Read what the sentence means, then choose the missing word" to "Прочитайте, что значит предложение, и выберите пропущенное слово",
     "Read what the sentence means, then type the missing word" to "Прочитайте, что значит предложение, и введите пропущенное слово",
+    "Hear a sentence: choose" to "Предложение на слух: выбрать",
+    "Hear a sentence: type" to "Предложение на слух: ввести",
+    "Hear a sentence and pick the word that means what is shown" to "Прослушайте предложение и выберите слово с указанным значением",
+    "Hear a sentence and type the word that means what is shown" to "Прослушайте предложение и введите слово с указанным значением",
 )

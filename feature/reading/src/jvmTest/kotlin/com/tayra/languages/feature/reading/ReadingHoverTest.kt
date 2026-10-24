@@ -731,9 +731,8 @@ class ReadingHoverTest {
         rule.onNodeWithContentDescription("Practise the book's words").performScrollTo().performClick()
         // Both pages' words: lobo, and floresta from this one.
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Practise 2 words").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithTag("practice-kind-GAP_TYPED").performClick()
-        rule.onNodeWithTag("practice-kind-DICTATION").performClick()
-        rule.onNodeWithTag("practice-kind-TRANSLATION_TYPED").performClick()
+        // The kinds scroll in this short window.
+        for (kind in listOf("GAP_TYPED", "DICTATION", "TRANSLATION_TYPED", "HEAR_SENTENCE_TYPED")) rule.onNodeWithTag("practice-kind-$kind").performScrollTo().performClick()
         rule.onNodeWithTag("start-practice").performClick()
         rule.waitUntil(5_000) { visited.isNotEmpty() }
         val route = visited.single() as com.tayra.languages.core.ui.navigation.Route.Practice

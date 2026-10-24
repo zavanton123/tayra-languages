@@ -396,4 +396,8 @@ internal val deTerms: Map<String, String> = mapOf(
     "From the translation: type" to "Aus der Übersetzung: tippen",
     "Read what the sentence means, then choose the missing word" to "Lies, was der Satz bedeutet, und wähle das fehlende Wort",
     "Read what the sentence means, then type the missing word" to "Lies, was der Satz bedeutet, und tippe das fehlende Wort",
+    "Hear a sentence: choose" to "Satz hören: wählen",
+    "Hear a sentence: type" to "Satz hören: tippen",
+    "Hear a sentence and pick the word that means what is shown" to "Hör einen Satz und wähle das Wort mit der angegebenen Bedeutung",
+    "Hear a sentence and type the word that means what is shown" to "Hör einen Satz und tippe das Wort mit der angegebenen Bedeutung",
 )

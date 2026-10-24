@@ -268,6 +268,21 @@ class PracticeScreenTest {
         assertEquals(1, onAllNodesWithTag("practice-translation").fetchSemanticsNodes().size, "and is shown once, not again under the answer")
     }
 
+    /** A heard sentence is read aloud and hidden; the question gives the meaning and the word is chosen. */
+    @Test
+    fun aHeardSentenceIsHiddenAndAsksForTheWordWithAMeaning() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.HEAR_SENTENCE), responses = setOf(PracticeResponse.CHOOSE)))
+        val exercise = viewModel.state.value.exercises.first()
+        assertEquals(ExerciseType.HEAR_SENTENCE, exercise.type)
+        waitUntil(timeoutMillis = 5_000) { exercise.sentence in spoken }
+        assertEquals(0, onAllNodesWithTag("practice-sentence").fetchSemanticsNodes().size, "the sentence heard is not shown")
+        onNodeWithText("Which word means “${exercise.wordTranslation}”?").assertExists()
+        shot("hear-sentence")
+        onNodeWithTag("practice-option-${exercise.options.indexOf(exercise.answer)}").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("practice-sentence").assertExists()
+    }
+
     @Test
     fun everyQuestionCanBeAnsweredAndNothingChangesTheWords() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val viewModel = show()

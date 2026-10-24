@@ -396,4 +396,8 @@ internal val elTerms: Map<String, String> = mapOf(
     "From the translation: type" to "Από τη μετάφραση: πληκτρολόγηση",
     "Read what the sentence means, then choose the missing word" to "Διαβάστε τι σημαίνει η πρόταση και επιλέξτε τη λέξη που λείπει",
     "Read what the sentence means, then type the missing word" to "Διαβάστε τι σημαίνει η πρόταση και πληκτρολογήστε τη λέξη που λείπει",
+    "Hear a sentence: choose" to "Ακούστε μια πρόταση: επιλογή",
+    "Hear a sentence: type" to "Ακούστε μια πρόταση: πληκτρολόγηση",
+    "Hear a sentence and pick the word that means what is shown" to "Ακούστε μια πρόταση και επιλέξτε τη λέξη με τη σημασία που δίνεται",
+    "Hear a sentence and type the word that means what is shown" to "Ακούστε μια πρόταση και πληκτρολογήστε τη λέξη με τη σημασία που δίνεται",
 )

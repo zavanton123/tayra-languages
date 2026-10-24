@@ -396,4 +396,8 @@ internal val esTerms: Map<String, String> = mapOf(
     "From the translation: type" to "Desde la traducción: escribir",
     "Read what the sentence means, then choose the missing word" to "Lee qué significa la oración y elige la palabra que falta",
     "Read what the sentence means, then type the missing word" to "Lee qué significa la oración y escribe la palabra que falta",
+    "Hear a sentence: choose" to "Escuchar una oración: elegir",
+    "Hear a sentence: type" to "Escuchar una oración: escribir",
+    "Hear a sentence and pick the word that means what is shown" to "Escucha una oración y elige la palabra con el significado indicado",
+    "Hear a sentence and type the word that means what is shown" to "Escucha una oración y escribe la palabra con el significado indicado",
 )

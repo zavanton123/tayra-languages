@@ -237,4 +237,6 @@ internal val esReading: Map<String, String> = mapOf(
     "What does the marked word mean?" to "¿Qué significa la palabra marcada?",
     "Read the translation and choose the missing word" to "Lee la traducción y elige la palabra que falta",
     "Read the translation and type the missing word" to "Lee la traducción y escribe la palabra que falta",
+    "Listen to the sentence" to "Escucha la oración",
+    "Which word means “{0}”?" to "¿Qué palabra significa «{0}»?",
 )

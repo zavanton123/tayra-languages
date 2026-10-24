@@ -237,4 +237,6 @@ internal val plReading: Map<String, String> = mapOf(
     "What does the marked word mean?" to "Co znaczy zaznaczone słowo?",
     "Read the translation and choose the missing word" to "Przeczytaj tłumaczenie i wybierz brakujące słowo",
     "Read the translation and type the missing word" to "Przeczytaj tłumaczenie i wpisz brakujące słowo",
+    "Listen to the sentence" to "Posłuchaj zdania",
+    "Which word means “{0}”?" to "Które słowo znaczy „{0}”?",
 )

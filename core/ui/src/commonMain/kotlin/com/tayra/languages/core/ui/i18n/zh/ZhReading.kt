@@ -237,4 +237,6 @@ internal val zhReading: Map<String, String> = mapOf(
     "What does the marked word mean?" to "标出的词是什么意思？",
     "Read the translation and choose the missing word" to "阅读译文，选出缺少的词",
     "Read the translation and type the missing word" to "阅读译文，输入缺少的词",
+    "Listen to the sentence" to "听这个句子",
+    "Which word means “{0}”?" to "哪个词的意思是“{0}”？",
 )

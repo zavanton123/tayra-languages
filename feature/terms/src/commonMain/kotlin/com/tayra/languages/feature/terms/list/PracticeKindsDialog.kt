@@ -50,6 +50,7 @@ import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.core.ui.components.PracticeQuestion
+import com.tayra.languages.core.ui.components.ScrollColumn
 
 /** About how long a question takes, for the estimate in the dialog. */
 private const val SECONDS_A_QUESTION = 20
@@ -65,7 +66,8 @@ fun PracticeKindsDialog(count: Int, onStart: (PracticeSetup) -> Unit, onDismiss:
     val minutes = ((PracticeBuilder.questionCount(count, setup.rotation.size) * SECONDS_A_QUESTION + 59) / 60).coerceAtLeast(1)
     AppDialogSurface(onDismissRequest = onDismiss, color = colors.surfaceContainerLow) {
         Column {
-            Column(Modifier.padding(start = AppSpacing.xxxl, end = AppSpacing.xl, top = AppSpacing.xxl, bottom = AppSpacing.xxl), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+            // The kinds scroll in a short window; the title above them and the buttons below stay.
+            Column(Modifier.weight(1f, fill = false).padding(start = AppSpacing.xxxl, end = AppSpacing.xl, top = AppSpacing.xxl, bottom = AppSpacing.xxl), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                     IconTile(AppIcons.DoneAll, size = 56)
                     Text(trPlural(count, "Practise {0} word", "Practise {0} words"), style = AppText.headline)
@@ -97,7 +99,7 @@ fun PracticeKindsDialog(count: Int, onStart: (PracticeSetup) -> Unit, onDismiss:
                         }
                     }
                 }
-                Column(Modifier.padding(end = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+                ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(end = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                     PracticeQuestion.all.chunked(if (compact) 1 else 2).forEach { row ->
                         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                             row.forEach { kind -> card(kind, Modifier.weight(1f)) }

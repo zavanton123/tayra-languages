@@ -40,6 +40,12 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
     /** The word is read aloud: choose its meaning, or the word itself when meanings are missing. */
     HEAR_WORD(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE)),
 
+    /**
+     * The sentence is read aloud, its text hidden, and the word's meaning given: choose the word
+     * among the sentence's other words, or type it. Needs the word's translation.
+     */
+    HEAR_SENTENCE(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE)),
+
     /** The sentence is read aloud: type the missing word, or all of a short sentence. */
     DICTATION(PracticeSkill.LISTENING, setOf(PracticeResponse.TYPE)),
 
@@ -247,6 +253,11 @@ object PracticeBuilder {
                     base.copy(options = wordChoices(word, targets, pageWords, random), spoken = word.text)
                 }
             }
+            ExerciseType.HEAR_SENTENCE -> {
+                if (word.translation.isNullOrBlank()) return null
+                val options = if (response == PracticeResponse.CHOOSE) sentenceChoices(word, targets, pageWords, random) else emptyList()
+                base.copy(options = options, spoken = word.sentence)
+            }
             ExerciseType.TRANSLATION -> {
                 val translation = translations[word.sentence]?.trim()?.takeIf { it.isNotEmpty() } ?: return null
                 base.copy(sentenceTranslation = translation, options = if (response == PracticeResponse.CHOOSE) wordChoices(word, targets, pageWords, random) else emptyList())
@@ -273,6 +284,18 @@ object PracticeBuilder {
     /** A meaning's words of three letters or more, lower-cased: what two meanings share when they are alike. */
     private fun contentWords(text: String): Set<String> =
         text.lowercase().split(Regex("""[^\p{L}\p{N}]+""")).filter { it.length >= 3 }.toSet()
+
+    /**
+     * The word among other words of its own sentence, which was heard whole: telling them apart
+     * takes understanding what was heard. Too short a sentence is filled up from the page.
+     */
+    private fun sentenceChoices(word: PracticeWord, targets: List<PracticeWord>, pageWords: List<String>, random: Random): List<String> {
+        val own = word.text.lowercase()
+        val heard = word.sentence.split(Regex("""[^\p{L}\p{N}'’-]+""")).filter { part -> part.length > 1 && part.any { it.isLetter() } }
+            .distinctBy { it.lowercase() }.filter { it.lowercase() != own }.shuffled(random).take(OPTIONS - 1)
+        val more = wordChoices(word, targets, pageWords, random).filter { it.lowercase() != own && heard.none { h -> h.equals(it, ignoreCase = true) } }
+        return ((heard + more).take(OPTIONS - 1) + word.text).shuffled(random)
+    }
 
     /** The word among other words of the page: the other words being learned first, then any others. */
     private fun wordChoices(word: PracticeWord, targets: List<PracticeWord>, pageWords: List<String>, random: Random): List<String> {

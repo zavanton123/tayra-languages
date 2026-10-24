@@ -100,6 +100,22 @@ class PracticeTest {
         assertEquals(setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE), asked.map { it.response }.toSet())
     }
 
+    /** Hearing a sentence, the word with the meaning given is chosen among the sentence's other words, or typed; it needs the meaning. */
+    @Test
+    fun aHeardSentenceAsksForTheWordWithTheMeaningAmongItsOwnWords() {
+        val setup = PracticeSetup(types = setOf(ExerciseType.HEAR_SENTENCE), length = null)
+        val asked = PracticeBuilder.build(words + word("casa", null, "Eu fico em casa."), pageWords, random = Random(1), setup = setup)
+        assertEquals(words.map { it.text }.toSet(), asked.map { it.word }.toSet(), "not the word without a meaning")
+        asked.forEach { e ->
+            assertEquals(e.sentence, e.spoken)
+            assertEquals(e.word, e.answer)
+        }
+        val chosen = asked.first { it.word == "semana" && it.response == PracticeResponse.CHOOSE }
+        assertEquals(4, chosen.options.size)
+        assertTrue(chosen.options.all { it in chosen.sentence }, "all from the sentence heard: ${chosen.options}")
+        assertTrue(asked.any { it.response == PracticeResponse.TYPE && it.options.isEmpty() })
+    }
+
     /** A setup goes into a route as text and comes back the same; the kinds earlier versions named still give their questions. */
     @Test
     fun aSetupIsWrittenAndReadAsText() {

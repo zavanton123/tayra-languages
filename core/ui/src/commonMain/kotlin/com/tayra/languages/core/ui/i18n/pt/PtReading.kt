@@ -237,4 +237,6 @@ internal val ptReading: Map<String, String> = mapOf(
     "What does the marked word mean?" to "O que significa a palavra marcada?",
     "Read the translation and choose the missing word" to "Leia a tradução e escolha a palavra que falta",
     "Read the translation and type the missing word" to "Leia a tradução e digite a palavra que falta",
+    "Listen to the sentence" to "Ouça a frase",
+    "Which word means “{0}”?" to "Qual palavra significa “{0}”?",
 )

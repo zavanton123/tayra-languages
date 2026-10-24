@@ -396,4 +396,8 @@ internal val zhTerms: Map<String, String> = mapOf(
     "From the translation: type" to "看译文：输入",
     "Read what the sentence means, then choose the missing word" to "先读句子的意思，再选出缺少的词",
     "Read what the sentence means, then type the missing word" to "先读句子的意思，再输入缺少的词",
+    "Hear a sentence: choose" to "听句子：选择",
+    "Hear a sentence: type" to "听句子：输入",
+    "Hear a sentence and pick the word that means what is shown" to "听一个句子，选出意思与所示相同的词",
+    "Hear a sentence and type the word that means what is shown" to "听一个句子，输入意思与所示相同的词",
 )

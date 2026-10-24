@@ -14,6 +14,7 @@ class PracticeQuestion(val name: String, val type: ExerciseType, val response: P
             ExerciseType.GAP -> if (response == PracticeResponse.CHOOSE) tr("Choose the missing word") else tr("Type the missing word")
             ExerciseType.MEANING -> tr("Choose the meaning")
             ExerciseType.HEAR_WORD -> tr("Listen and choose")
+            ExerciseType.HEAR_SENTENCE -> if (response == PracticeResponse.CHOOSE) tr("Hear a sentence: choose") else tr("Hear a sentence: type")
             ExerciseType.DICTATION -> tr("Listen and type")
             ExerciseType.TRANSLATION -> if (response == PracticeResponse.CHOOSE) tr("From the translation: choose") else tr("From the translation: type")
         }
@@ -24,6 +25,7 @@ class PracticeQuestion(val name: String, val type: ExerciseType, val response: P
             ExerciseType.GAP -> if (response == PracticeResponse.CHOOSE) tr("Pick from four options") else tr("Complete the sentence")
             ExerciseType.MEANING -> tr("Pick what the marked word means")
             ExerciseType.HEAR_WORD -> tr("Hear a word and choose its meaning")
+            ExerciseType.HEAR_SENTENCE -> if (response == PracticeResponse.CHOOSE) tr("Hear a sentence and pick the word that means what is shown") else tr("Hear a sentence and type the word that means what is shown")
             ExerciseType.DICTATION -> tr("Hear the prompt and type the answer")
             ExerciseType.TRANSLATION -> if (response == PracticeResponse.CHOOSE) tr("Read what the sentence means, then choose the missing word") else tr("Read what the sentence means, then type the missing word")
         }
@@ -33,6 +35,7 @@ class PracticeQuestion(val name: String, val type: ExerciseType, val response: P
             ExerciseType.GAP -> if (response == PracticeResponse.CHOOSE) AppIcons.ViewList else Icons.Default.Edit
             ExerciseType.MEANING -> AppIcons.Lightbulb
             ExerciseType.HEAR_WORD -> AppIcons.VolumeUp
+            ExerciseType.HEAR_SENTENCE -> AppIcons.Headphones
             ExerciseType.DICTATION -> AppIcons.RecordVoiceOver
             ExerciseType.TRANSLATION -> AppIcons.Translate
         }
@@ -43,8 +46,10 @@ class PracticeQuestion(val name: String, val type: ExerciseType, val response: P
             PracticeQuestion("GAP_CHOICE", ExerciseType.GAP, PracticeResponse.CHOOSE),
             PracticeQuestion("MEANING", ExerciseType.MEANING, PracticeResponse.CHOOSE),
             PracticeQuestion("HEAR_CHOOSE", ExerciseType.HEAR_WORD, PracticeResponse.CHOOSE),
+            PracticeQuestion("HEAR_SENTENCE_CHOICE", ExerciseType.HEAR_SENTENCE, PracticeResponse.CHOOSE),
             PracticeQuestion("TRANSLATION_CHOICE", ExerciseType.TRANSLATION, PracticeResponse.CHOOSE),
             PracticeQuestion("GAP_TYPED", ExerciseType.GAP, PracticeResponse.TYPE),
+            PracticeQuestion("HEAR_SENTENCE_TYPED", ExerciseType.HEAR_SENTENCE, PracticeResponse.TYPE),
             PracticeQuestion("DICTATION", ExerciseType.DICTATION, PracticeResponse.TYPE),
             PracticeQuestion("TRANSLATION_TYPED", ExerciseType.TRANSLATION, PracticeResponse.TYPE),
         )

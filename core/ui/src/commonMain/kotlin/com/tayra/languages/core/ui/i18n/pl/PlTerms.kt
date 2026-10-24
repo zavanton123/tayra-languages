@@ -396,4 +396,8 @@ internal val plTerms: Map<String, String> = mapOf(
     "From the translation: type" to "Z tłumaczenia: wpisz",
     "Read what the sentence means, then choose the missing word" to "Przeczytaj, co znaczy zdanie, i wybierz brakujące słowo",
     "Read what the sentence means, then type the missing word" to "Przeczytaj, co znaczy zdanie, i wpisz brakujące słowo",
+    "Hear a sentence: choose" to "Zdanie ze słuchu: wybierz",
+    "Hear a sentence: type" to "Zdanie ze słuchu: wpisz",
+    "Hear a sentence and pick the word that means what is shown" to "Posłuchaj zdania i wybierz słowo o podanym znaczeniu",
+    "Hear a sentence and type the word that means what is shown" to "Posłuchaj zdania i wpisz słowo o podanym znaczeniu",
 )

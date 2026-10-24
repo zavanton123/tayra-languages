@@ -237,4 +237,6 @@ internal val elReading: Map<String, String> = mapOf(
     "What does the marked word mean?" to "Τι σημαίνει η επισημασμένη λέξη;",
     "Read the translation and choose the missing word" to "Διαβάστε τη μετάφραση και επιλέξτε τη λέξη που λείπει",
     "Read the translation and type the missing word" to "Διαβάστε τη μετάφραση και πληκτρολογήστε τη λέξη που λείπει",
+    "Listen to the sentence" to "Ακούστε την πρόταση",
+    "Which word means “{0}”?" to "Ποια λέξη σημαίνει «{0}»;",
 )

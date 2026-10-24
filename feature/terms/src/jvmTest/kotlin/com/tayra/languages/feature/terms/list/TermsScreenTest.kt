@@ -169,13 +169,14 @@ class TermsScreenTest {
         onNodeWithTag("practice-kind-GAP_TYPED").performClick()
         onNodeWithTag("practice-kind-DICTATION").performClick()
         onNodeWithTag("practice-kind-TRANSLATION_TYPED").performClick()
-        onNodeWithText("4 question types selected").assertExists()
+        onNodeWithTag("practice-kind-HEAR_SENTENCE_TYPED").performClick()
+        onNodeWithText("5 question types selected").assertExists()
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot()).onLast().captureToImage().toAwtImage(), "png", File(it.replace(".png", "-practice-dialog.png"))) }
         onNodeWithTag("start-practice").performClick()
         waitUntil(timeoutMillis = 5_000) { visited.isNotEmpty() }
         val route = visited.single() as Route.PracticeWords
         val setup = PracticeSetup.decode(route.setup)
-        assertEquals(setOf(ExerciseType.GAP, ExerciseType.MEANING, ExerciseType.HEAR_WORD, ExerciseType.TRANSLATION), setup.types)
+        assertEquals(setOf(ExerciseType.GAP, ExerciseType.MEANING, ExerciseType.HEAR_WORD, ExerciseType.HEAR_SENTENCE, ExerciseType.TRANSLATION), setup.types)
         assertEquals(setOf(PracticeResponse.CHOOSE), setup.responses)
         assertEquals(2, route.termIds.size)
         assertTrue(route.termIds.all { id -> runBlocking { terms.getById(id) }?.text in setOf("comprar", "pensar", "produtos") })

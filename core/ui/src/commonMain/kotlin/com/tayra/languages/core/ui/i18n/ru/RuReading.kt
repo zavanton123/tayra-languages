@@ -237,4 +237,6 @@ internal val ruReading: Map<String, String> = mapOf(
     "What does the marked word mean?" to "Что значит выделенное слово?",
     "Read the translation and choose the missing word" to "Прочитайте перевод и выберите пропущенное слово",
     "Read the translation and type the missing word" to "Прочитайте перевод и введите пропущенное слово",
+    "Listen to the sentence" to "Послушайте предложение",
+    "Which word means “{0}”?" to "Какое слово значит «{0}»?",
 )
