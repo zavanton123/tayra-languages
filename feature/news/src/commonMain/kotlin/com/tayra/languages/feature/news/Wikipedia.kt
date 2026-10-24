@@ -1,5 +1,8 @@
 package com.tayra.languages.feature.news
 
+import com.tayra.languages.core.ui.components.label
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
+import com.tayra.languages.core.ui.components.ActiveFilterSummary
 import com.tayra.languages.core.ui.components.ScrollColumn
 import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.foundation.clickable
@@ -304,7 +307,7 @@ internal class WikiActions(
 private fun WikiFiltersButton(state: WikiUiState, actions: WikiActions) {
     var sheet by remember { mutableStateOf(false) }
     val active = listOf(state.length != ArticleLength.ANY, state.hideRead, state.difficulty != null).count { it }
-    ToggleButton(
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { ToggleButton(
         tr("Filters"),
         active = active > 0,
         onClick = { sheet = true },
@@ -313,6 +316,7 @@ private fun WikiFiltersButton(state: WikiUiState, actions: WikiActions) {
         badge = active,
         contentDescription = if (active > 0) trPlural(active, "{0} filter on", "{0} filters on") else null,
     )
+    WikiFilterSummary(state, actions, onEdit = { sheet = true }) }
     if (sheet) {
         AppBottomSheet(onDismissRequest = { sheet = false }) {
             ScrollColumn(
@@ -330,6 +334,23 @@ private fun WikiFiltersButton(state: WikiUiState, actions: WikiActions) {
             }
         }
     }
+}
+
+/** The filters on, in words, with the articles they leave; nothing while none is on. [onEdit] reopens a phone's sheet. */
+@Composable
+private fun WikiFilterSummary(state: WikiUiState, actions: WikiActions, onEdit: (() -> Unit)?) {
+    val parts = listOfNotNull(
+        state.length.takeIf { it != ArticleLength.ANY }?.label,
+        tr("Hide read").takeIf { state.hideRead },
+        state.difficulty?.label,
+    )
+    if (parts.isEmpty() || state.loading) return
+    val count = if (state.hasMore) tr("More than {0} articles", state.shown.size) else trPlural(state.shown.size, "{0} article", "{0} articles")
+    ActiveFilterSummary((parts + count).joinToString(" · "), tr("Clear filters"), onClear = {
+        actions.onLength(ArticleLength.ANY)
+        actions.onHideRead(false)
+        actions.onDifficulty(null)
+    }, onEdit = onEdit)
 }
 
 /** How long, whether read ones show, and what level. */
@@ -390,7 +411,12 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
                         state.wiki.about?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
                     }
                     SearchField(state.query, actions.onQuery, tr("Search: {0}", site), Modifier.fillMaxWidth(), fieldModifier = Modifier.testTag("wiki-search"))
-                    if (compact) WikiFiltersButton(state, actions) else WikiFilterChips(state, actions)
+                    if (compact) {
+                        WikiFiltersButton(state, actions)
+                    } else {
+                        WikiFilterChips(state, actions)
+                        WikiFilterSummary(state, actions, onEdit = null)
+                    }
                 }
             }
             when {
@@ -429,8 +455,8 @@ private fun WikiCard(item: NewsItem, state: WikiUiState, actions: WikiActions, c
     val introOpened = article.url in state.opened
     val wholeOpened = NewsService.wholeKey(article) in state.opened
     val readLabel = if (introOpened) tr("Continue") else tr("Read the introduction")
-    // On a phone the whole card opens the introduction, so its buttons need not be big.
-    val opens = if (compact) Modifier.clickable(enabled = !item.opening, onClickLabel = readLabel) { actions.onOpen(item) } else Modifier
+    // The whole card opens the introduction, so its buttons need not be big; reading the whole article stays a choice of its own.
+    val opens = Modifier.clickable(enabled = !item.opening, onClickLabel = readLabel) { actions.onOpen(item) }
     Column(
         modifier.fillMaxWidth().cardSurface().then(opens).padding(AppSpacing.l).testTag("wiki-${article.title}"),
         verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
@@ -448,8 +474,7 @@ private fun WikiCard(item: NewsItem, state: WikiUiState, actions: WikiActions, c
         Spacer(Modifier.height(AppSpacing.xxs))
         FlowRow(itemVerticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
             val read = Modifier.testTag("read-${article.url}")
-            if (compact) SecondaryButton(readLabel, onClick = { actions.onOpen(item) }, modifier = read, loading = item.opening)
-            else PrimaryButton(readLabel, onClick = { actions.onOpen(item) }, modifier = read, loading = item.opening)
+            QuietButton(readLabel, onClick = { actions.onOpen(item) }, modifier = read, loading = item.opening, trailingIcon = Icons.AutoMirrored.Filled.ArrowForward)
             QuietButton(if (wholeOpened) tr("Continue the whole article") else tr("Whole article"), onClick = { actions.onOpenWhole(item) }, enabled = !item.opening, modifier = Modifier.testTag("whole-${article.url}"))
         }
     }

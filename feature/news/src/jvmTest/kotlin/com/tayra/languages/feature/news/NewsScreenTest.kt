@@ -287,6 +287,32 @@ class NewsScreenTest {
         assertEquals("Source: Wikipedia, «Gato», CC BY-SA 4.0.", wikiAttribution(wiki("Gato", 1, 1).article))
     }
 
+    /** The filters chosen in a phone's sheet are named under its button, with the articles left, and the whole card opens one. */
+    @Test
+    fun aWikisFiltersAreSummedUpAndTheCardOpens() = runDesktopComposeUiTest(width = 400, height = 1000) {
+        val gato = wiki("Gato", 1, 1)
+        val opened = mutableListOf<String>()
+        var hideRead = true
+        setContent {
+            TayraTheme {
+                ProvideWindowWidth {
+                    Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
+                        WikipediaContent(
+                            WikiUiState(languageName = "Portuguese", wikis = listOf(Wiki.WIKIPEDIA), loading = false, articles = listOf(gato), length = ArticleLength.SHORT, hideRead = hideRead),
+                            WikiActions(onHideRead = { hideRead = it }, onOpen = { opened += it.article.title }),
+                        )
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Gato")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Short · Hide read · 1 article").assertExists()
+        onNodeWithTag("wiki-Gato").performClick()
+        assertEquals(listOf("Gato"), opened)
+        onNodeWithTag("clear-filters").performClick()
+        assertEquals(false, hideRead)
+    }
+
     @Test
     fun aLanguageWithoutFeedsSaysSo() = runDesktopComposeUiTest(width = 1200, height = 800) {
         show(NewsUiState(languageName = "Cornish", loading = false)) { NewsActions() }
