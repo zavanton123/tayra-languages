@@ -1,0 +1,35 @@
+package com.tayra.languages.core.domain.practice
+
+import kotlin.time.Instant
+
+/**
+ * A sentence from elsewhere kept for a word: the [form] of the word it uses, starting at
+ * [formStart], its [translation] when known, and where it came from ([source] and its [sourceId],
+ * for the credit a source asks for).
+ */
+data class StoredExample(
+    val termId: Long,
+    val sentence: String,
+    val translation: String?,
+    val form: String,
+    val formStart: Int,
+    val source: String,
+    val sourceId: String? = null,
+) {
+    /** Where the form stands in the sentence. */
+    val range: IntRange get() = formStart until formStart + form.length
+}
+
+/** The example sentences kept for words being learned. */
+interface PracticeExampleRepository {
+    /** The examples kept for each of [termIds], oldest first; words without any are left out. */
+    suspend fun examples(termIds: Collection<Long>): Map<Long, List<StoredExample>>
+
+    /** How many examples each of [termIds] has; words without any are left out. */
+    suspend fun counts(termIds: Collection<Long>): Map<Long, Int>
+
+    /** Keeps [examples]; one whose sentence its word has already is skipped. */
+    suspend fun add(examples: List<StoredExample>, fetchedAt: Instant)
+
+    suspend fun clear(termId: Long)
+}
