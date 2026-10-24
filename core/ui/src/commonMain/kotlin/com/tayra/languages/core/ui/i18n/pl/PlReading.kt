@@ -242,4 +242,5 @@ internal val plReading: Map<String, String> = mapOf(
     "A new sentence: type the missing word" to "Nowe zdanie: wpisz brakujące słowo",
     "Which word is a form of “{0}” (“{1}”)?" to "Które słowo jest formą „{0}” („{1}”)?",
     "{0}, a form of {1}" to "{0}, forma słowa {1}",
+    "Almost: mind the spelling" to "Prawie: uważaj na pisownię",
 )

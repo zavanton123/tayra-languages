@@ -354,11 +354,20 @@ enum class TypedResult {
 
     /** Right but for accents: counted as right, with the spelling shown. */
     ALMOST,
+
+    /** One letter off inside a word of [PracticeChecker.TYPO_LENGTH] letters or more: counted as right, with the spelling shown. */
+    TYPO,
     WRONG,
 }
 
-/** Compares typed answers: case, punctuation and extra spaces do not count; accents nearly do not. */
+/**
+ * Compares typed answers: case, punctuation and extra spaces do not count; accents nearly do not,
+ * and neither does one slip of a letter inside a longer word. A difference at a word's end is no
+ * slip: there words change their form ("casa", "casas").
+ */
 object PracticeChecker {
+    const val TYPO_LENGTH = 5
+
     fun check(expected: String, typed: String): TypedResult {
         val wanted = normalize(expected)
         val given = normalize(typed)
@@ -366,7 +375,26 @@ object PracticeChecker {
             given.isEmpty() -> TypedResult.WRONG
             given == wanted -> TypedResult.CORRECT
             unaccented(given) == unaccented(wanted) -> TypedResult.ALMOST
+            isSlip(unaccented(wanted), unaccented(given)) -> TypedResult.TYPO
             else -> TypedResult.WRONG
+        }
+    }
+
+    /**
+     * One letter wrong, missing, extra, or two swapped, in a single word long enough to be sure of,
+     * and not within its last two letters.
+     */
+    private fun isSlip(wanted: String, given: String): Boolean {
+        if (' ' in wanted || ' ' in given || maxOf(wanted.length, given.length) < TYPO_LENGTH) return false
+        val first = wanted.zip(given).indexOfFirst { (a, b) -> a != b }.let { if (it < 0) minOf(wanted.length, given.length) else it }
+        if (first >= maxOf(wanted.length, given.length) - 2) return false
+        val a = wanted.substring(first)
+        val b = given.substring(first)
+        return when {
+            a.length == b.length -> a.drop(1) == b.drop(1) || (a.length >= 2 && a[0] == b[1] && a[1] == b[0] && a.drop(2) == b.drop(2))
+            a.length == b.length + 1 -> a.drop(1) == b
+            b.length == a.length + 1 -> b.drop(1) == a
+            else -> false
         }
     }
 

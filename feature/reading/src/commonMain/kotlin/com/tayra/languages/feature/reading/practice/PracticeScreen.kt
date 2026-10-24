@@ -433,6 +433,7 @@ private fun Feedback(state: PracticeUiState, exercise: Exercise) {
     val (tint, title) = when (state.result) {
         PracticeResult.CORRECT -> AppAccents.green to tr("Correct")
         PracticeResult.ALMOST -> AppAccents.amber to tr("Almost: mind the accents")
+        PracticeResult.TYPO -> AppAccents.amber to tr("Almost: mind the spelling")
         else -> AppAccents.red to tr("Not quite")
     }
     // The word with its meaning, whatever was asked; for a sentence typed whole, the sentence is above.

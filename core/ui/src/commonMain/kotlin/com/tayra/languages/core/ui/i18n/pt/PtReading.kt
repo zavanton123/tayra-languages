@@ -242,4 +242,5 @@ internal val ptReading: Map<String, String> = mapOf(
     "A new sentence: type the missing word" to "Uma frase nova: digite a palavra que falta",
     "Which word is a form of “{0}” (“{1}”)?" to "Qual palavra é uma forma de “{0}” (“{1}”)?",
     "{0}, a form of {1}" to "{0}, uma forma de {1}",
+    "Almost: mind the spelling" to "Quase: atenção à ortografia",
 )

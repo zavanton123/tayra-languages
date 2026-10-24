@@ -230,4 +230,17 @@ class PracticeTest {
         assertEquals(TypedResult.CORRECT, PracticeChecker.check("d'água", "d’água"))
         assertEquals(TypedResult.WRONG, PracticeChecker.check("Eu moro no Brasil.", "eu moro em Brasil"))
     }
+
+    /** One slip of a letter inside a longer word is nearly right; one at its end, where words change their form, or in a short word, is not. */
+    @Test
+    fun aSlipOfALetterInsideAWordIsNearlyRight() {
+        assertEquals(TypedResult.TYPO, PracticeChecker.check("supermercado", "supermrcado"), "missing")
+        assertEquals(TypedResult.TYPO, PracticeChecker.check("supermercado", "supremercado"), "swapped")
+        assertEquals(TypedResult.TYPO, PracticeChecker.check("supermercado", "supermarcado"), "wrong")
+        assertEquals(TypedResult.TYPO, PracticeChecker.check("família", "fammília"), "extra")
+        assertEquals(TypedResult.WRONG, PracticeChecker.check("família", "famílias"), "a plural is no slip")
+        assertEquals(TypedResult.WRONG, PracticeChecker.check("comprar", "comprou"))
+        assertEquals(TypedResult.WRONG, PracticeChecker.check("casa", "cosa"), "too short to be sure")
+        assertEquals(TypedResult.WRONG, PracticeChecker.check("supermercado", "supermrcdo"), "two slips")
+    }
 }

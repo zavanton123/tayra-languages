@@ -242,4 +242,5 @@ internal val zhReading: Map<String, String> = mapOf(
     "A new sentence: type the missing word" to "新句子：输入缺少的词",
     "Which word is a form of “{0}” (“{1}”)?" to "哪个词是“{0}”（“{1}”）的一种形式？",
     "{0}, a form of {1}" to "{0}，{1} 的一种形式",
+    "Almost: mind the spelling" to "差一点：注意拼写",
 )

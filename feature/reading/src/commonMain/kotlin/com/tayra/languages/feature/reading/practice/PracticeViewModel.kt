@@ -33,7 +33,7 @@ import com.tayra.languages.core.domain.practice.PracticeExampleRepository
 import com.tayra.languages.core.domain.practice.WordForms
 
 /** How a question was answered. */
-enum class PracticeResult { CORRECT, ALMOST, WRONG }
+enum class PracticeResult { CORRECT, ALMOST, TYPO, WRONG }
 
 data class PracticeUiState(
     val loading: Boolean = true,
@@ -209,6 +209,7 @@ class PracticeViewModel(
         val result = when (PracticeChecker.check(exercise.answer, _state.value.typed)) {
             TypedResult.CORRECT -> PracticeResult.CORRECT
             TypedResult.ALMOST -> PracticeResult.ALMOST
+            TypedResult.TYPO -> PracticeResult.TYPO
             TypedResult.WRONG -> PracticeResult.WRONG
         }
         record(exercise, result)
