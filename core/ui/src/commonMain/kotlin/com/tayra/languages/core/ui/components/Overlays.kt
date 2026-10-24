@@ -81,13 +81,15 @@ fun AppDialogSurface(
     content: @Composable () -> Unit,
 ) {
     Dialog(onDismissRequest = onDismissRequest, properties = DialogProperties(usePlatformDefaultWidth = false, dismissOnClickOutside = dismissible)) {
-        Surface(modifier.padding(top = LocalTitleBarInset.current).padding(AppSpacing.l).widthIn(max = maxWidth).fillMaxWidth(), shape = AppShapes.large, color = color, content = content)
+        // The same margin on every side: wide enough at the top to clear a title bar the window's content runs under.
+        Surface(modifier.padding(LocalTitleBarInset.current + AppSpacing.l).widthIn(max = maxWidth).fillMaxWidth(), shape = AppShapes.large, color = color, content = content)
     }
 }
 
 /**
  * The height of a transparent native title bar the window's content runs under (macOS desktop),
- * which a dialog stays below so its top is not under the window's buttons.
+ * which a dialog stays below so its top is not under the window's buttons; its margin on the other
+ * sides grows to match.
  */
 val LocalTitleBarInset = staticCompositionLocalOf { 0.dp }
 
