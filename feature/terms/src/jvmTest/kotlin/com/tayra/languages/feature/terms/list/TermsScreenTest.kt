@@ -34,6 +34,7 @@ import com.tayra.languages.core.domain.export.AnkiExportService
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.TermDraft
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.practice.PracticeSetup
 import com.tayra.languages.core.domain.service.LocalSpeech
 import com.tayra.languages.core.domain.service.MemorySpeechAudioCache
 import com.tayra.languages.core.domain.service.SentenceAudio
@@ -170,7 +171,7 @@ class TermsScreenTest {
         onNodeWithTag("start-practice").performClick()
         waitUntil(timeoutMillis = 5_000) { visited.isNotEmpty() }
         val route = visited.single() as Route.PracticeWords
-        assertEquals(listOf("GAP_CHOICE", "HEAR_CHOOSE"), route.kinds)
+        assertEquals(PracticeSetup.ofKinds(listOf("GAP_CHOICE", "HEAR_CHOOSE")), PracticeSetup.decode(route.setup))
         assertEquals(2, route.termIds.size)
         assertTrue(route.termIds.all { id -> runBlocking { terms.getById(id) }?.text in setOf("comprar", "pensar", "produtos") })
     }

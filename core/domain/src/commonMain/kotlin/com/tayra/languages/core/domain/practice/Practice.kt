@@ -14,26 +14,108 @@ data class PracticeWord(
 /** A sentence from elsewhere that uses a word of the page. */
 data class PracticeExample(val sentence: String, val range: IntRange, val translation: String?)
 
-enum class ExerciseKind {
-    /** The page's sentence with the word blanked out; pick the word. */
-    GAP_CHOICE,
+/** The skill a type of question trains; the practice setup groups the types by it. */
+enum class PracticeSkill { READING, LISTENING, TRANSLATION }
 
-    /** The page's sentence with the word blanked out; type the word. */
-    GAP_TYPED,
+/** How a question is answered. */
+enum class PracticeResponse { CHOOSE, TYPE }
 
-    /** A sentence from elsewhere with the word blanked out; pick the word. */
-    NEW_CONTEXT,
+/** Where a question's sentence comes from. */
+enum class PracticeContext {
+    /** The sentence the word was read in. */
+    ORIGINAL,
 
-    /** The word is read aloud; pick its meaning, or the word itself when meanings are missing. */
-    HEAR_CHOOSE,
+    /** A sentence from elsewhere that uses the word. */
+    EXAMPLE,
+}
 
-    /** The sentence is read aloud; type the missing word, or all of a short sentence. */
-    DICTATION,
+/** A type of question, with the [skill] it trains and the ways it can be answered. */
+enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeResponse>) {
+    /** The sentence with the word blanked out: choose or type the word. */
+    GAP(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE)),
+
+    /** The word is read aloud: choose its meaning, or the word itself when meanings are missing. */
+    HEAR_WORD(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE)),
+
+    /** The sentence is read aloud: type the missing word, or all of a short sentence. */
+    DICTATION(PracticeSkill.LISTENING, setOf(PracticeResponse.TYPE)),
+}
+
+/**
+ * What a practice asks: the [types] of question, each answered in those of the [responses] it
+ * allows, in sentences from the [contexts], [length] questions at most (as many as every type
+ * makes for every word when null).
+ */
+data class PracticeSetup(
+    val types: Set<ExerciseType> = setOf(ExerciseType.GAP, ExerciseType.HEAR_WORD, ExerciseType.DICTATION),
+    val responses: Set<PracticeResponse> = PracticeResponse.entries.toSet(),
+    val contexts: Set<PracticeContext> = PracticeContext.entries.toSet(),
+    val length: Int? = DEFAULT_LENGTH,
+) {
+    /** The questions asked, in the order they come round: those answered by choosing first, then those typed. */
+    val rotation: List<Pair<ExerciseType, PracticeResponse>> =
+        PracticeResponse.entries.filter { it in responses }.flatMap { response -> ExerciseType.entries.filter { it in types && response in it.responses }.map { it to response } }
+
+    /** The setup as text, for a route or the settings: `types=GAP,DICTATION;responses=CHOOSE;contexts=ORIGINAL;length=10`. */
+    fun encode(): String = listOf(
+        "types=" + ExerciseType.entries.filter { it in types }.joinToString(",") { it.name },
+        "responses=" + PracticeResponse.entries.filter { it in responses }.joinToString(",") { it.name },
+        "contexts=" + PracticeContext.entries.filter { it in contexts }.joinToString(",") { it.name },
+        "length=" + (length?.toString() ?: ALL),
+    ).joinToString(";")
+
+    companion object {
+        const val DEFAULT_LENGTH = 10
+        private const val ALL = "all"
+
+        /** A setup from [encode]'s text; parts missing or not understood keep their defaults, names not known are left out. */
+        fun decode(text: String): PracticeSetup {
+            val parts = text.split(';').mapNotNull { part -> part.split('=', limit = 2).takeIf { it.size == 2 }?.let { it[0].trim() to it[1].trim() } }.toMap()
+            fun names(key: String) = parts[key]?.split(',')?.map { it.trim() }?.filter { it.isNotEmpty() }
+            val defaults = PracticeSetup()
+            return PracticeSetup(
+                types = names("types")?.mapNotNull { name -> ExerciseType.entries.firstOrNull { it.name == name } }?.toSet() ?: defaults.types,
+                responses = names("responses")?.mapNotNull { name -> PracticeResponse.entries.firstOrNull { it.name == name } }?.toSet() ?: defaults.responses,
+                contexts = names("contexts")?.mapNotNull { name -> PracticeContext.entries.firstOrNull { it.name == name } }?.toSet() ?: defaults.contexts,
+                length = when (val length = parts["length"]) {
+                    null -> defaults.length
+                    ALL -> null
+                    else -> length.toIntOrNull()?.takeIf { it > 0 } ?: defaults.length
+                },
+            )
+        }
+
+        /**
+         * The setup that stands for the kinds of question earlier versions named: GAP_CHOICE,
+         * GAP_TYPED, NEW_CONTEXT, HEAR_CHOOSE and DICTATION; every kind when none is named.
+         */
+        fun ofKinds(names: Collection<String>): PracticeSetup {
+            if (names.isEmpty()) return PracticeSetup()
+            val types = names.mapNotNull {
+                when (it) {
+                    "GAP_CHOICE", "GAP_TYPED", "NEW_CONTEXT" -> ExerciseType.GAP
+                    "HEAR_CHOOSE" -> ExerciseType.HEAR_WORD
+                    "DICTATION" -> ExerciseType.DICTATION
+                    else -> null
+                }
+            }.toSet()
+            val responses = names.mapNotNull {
+                when (it) {
+                    "GAP_CHOICE", "NEW_CONTEXT", "HEAR_CHOOSE" -> PracticeResponse.CHOOSE
+                    "GAP_TYPED", "DICTATION" -> PracticeResponse.TYPE
+                    else -> null
+                }
+            }.toSet()
+            return PracticeSetup(types = types, responses = responses)
+        }
+    }
 }
 
 /** One question of a page's practice. */
 data class Exercise(
-    val kind: ExerciseKind,
+    val type: ExerciseType,
+    val response: PracticeResponse,
+    val context: PracticeContext,
     /** The word practised, as written in the sentence. */
     val word: String,
     val wordTranslation: String?,
@@ -57,67 +139,76 @@ data class Exercise(
 
 /** Builds the questions for a page from the words being learned on it. */
 object PracticeBuilder {
-    const val MAX_QUESTIONS = 10
+    const val MAX_QUESTIONS = PracticeSetup.DEFAULT_LENGTH
     private const val OPTIONS = 4
 
     /** Sentences of at most this many words are typed whole in a dictation. */
     private const val SHORT_SENTENCE_WORDS = 6
 
-    /** The kinds a practice can be made of, in the order they come round; a sentence from elsewhere is asked where the gap choice is. */
-    val KINDS: List<ExerciseKind> = listOf(ExerciseKind.GAP_CHOICE, ExerciseKind.HEAR_CHOOSE, ExerciseKind.GAP_TYPED, ExerciseKind.DICTATION)
+    /** Sentences from elsewhere asked at most, each for a different word. */
+    private const val NEW_CONTEXTS = 2
 
-    /** How many questions [words] words get with [kinds] kinds, before any sentence from elsewhere. */
-    fun questionCount(words: Int, kinds: Int): Int = if (words == 0 || kinds == 0) 0 else maxOf(words * 2, 5).coerceAtMost(words * kinds).coerceAtMost(MAX_QUESTIONS)
+    /** How many questions [words] words get with [kinds] kinds of question, before any sentence from elsewhere: about two a word, at most [length]. */
+    fun questionCount(words: Int, kinds: Int, length: Int? = MAX_QUESTIONS): Int =
+        if (words == 0 || kinds == 0) 0 else (if (length == null) words * kinds else maxOf(words * 2, 5).coerceAtMost(words * kinds).coerceAtMost(length))
 
     /**
-     * About two questions a word, ten at most, going round the words so that a word's questions
-     * are apart, and round the [kinds] asked for so that each comes up. Where the gap choice is
-     * among them, words with an [examples] sentence get a question in that new context at the
-     * end. [pageWords] are the other words of the page, for wrong choices.
+     * About two questions a word, [PracticeSetup.length] at most, going round the words so that a
+     * word's questions are apart, and round the setup's questions so that each comes up. Where
+     * gap questions may use sentences from elsewhere, words with an [examples] sentence get a gap
+     * question in that new context at the end. [pageWords] are the other words of the page, for
+     * wrong choices.
      */
     fun build(
         words: List<PracticeWord>,
         pageWords: List<String>,
         examples: Map<String, PracticeExample> = emptyMap(),
         random: Random = Random.Default,
-        maxQuestions: Int = MAX_QUESTIONS,
-        kinds: Set<ExerciseKind> = KINDS.toSet(),
+        setup: PracticeSetup = PracticeSetup(),
     ): List<Exercise> {
         val targets = words.distinctBy { it.text.lowercase() }.shuffled(random)
-        val rotation = KINDS.filter { it in kinds }
+        val rotation = setup.rotation
         if (targets.isEmpty() || rotation.isEmpty()) return emptyList()
-        val inNewContext = if (ExerciseKind.GAP_CHOICE in rotation) targets.filter { it.text.lowercase() in examples }.take(2) else emptyList()
-        val rotated = (maxOf(targets.size * 2, 5)).coerceAtMost(targets.size * rotation.size).coerceAtMost(maxQuestions - inNewContext.size)
+        val original = PracticeContext.ORIGINAL in setup.contexts
+        // A sentence from elsewhere is asked as a gap, chosen where choosing is asked for, else typed.
+        val gapResponse = rotation.firstOrNull { it.first == ExerciseType.GAP }?.second
+        val inNewContext = if (gapResponse != null && PracticeContext.EXAMPLE in setup.contexts) {
+            targets.filter { it.text.lowercase() in examples }.take(if (original) NEW_CONTEXTS else setup.length ?: targets.size)
+        } else {
+            emptyList()
+        }
+        val room = setup.length?.let { it - inNewContext.size }
+        val rotated = if (original) questionCount(targets.size, rotation.size, room).coerceAtLeast(0) else 0
         val exercises = mutableListOf<Exercise>()
         for (k in 0 until rotated) {
             val word = targets[k % targets.size]
-            // Each round starts one kind further on, so a word meets a different kind every time.
-            val kind = rotation[(k % targets.size + k / targets.size) % rotation.size]
-            exercises += exercise(kind, word, targets, pageWords, random)
+            // Each round starts one question further on, so a word meets a different one every time.
+            val (type, response) = rotation[(k % targets.size + k / targets.size) % rotation.size]
+            exercises += exercise(type, response, word, targets, pageWords, random)
         }
         for (word in inNewContext) {
             val example = examples.getValue(word.text.lowercase())
-            val options = wordChoices(word, targets, pageWords, random)
             exercises += Exercise(
-                kind = ExerciseKind.NEW_CONTEXT,
+                type = ExerciseType.GAP,
+                response = gapResponse!!,
+                context = PracticeContext.EXAMPLE,
                 word = example.sentence.substring(example.range),
                 wordTranslation = word.translation,
                 sentence = example.sentence,
                 range = example.range,
                 sentenceTranslation = example.translation,
-                options = options,
+                options = if (gapResponse == PracticeResponse.CHOOSE) wordChoices(word, targets, pageWords, random) else emptyList(),
                 answer = word.text,
             )
         }
         return exercises
     }
 
-    private fun exercise(kind: ExerciseKind, word: PracticeWord, targets: List<PracticeWord>, pageWords: List<String>, random: Random): Exercise {
-        val base = Exercise(kind, word.text, word.translation, word.sentence, word.range, answer = word.text)
-        return when (kind) {
-            ExerciseKind.GAP_CHOICE, ExerciseKind.NEW_CONTEXT -> base.copy(options = wordChoices(word, targets, pageWords, random))
-            ExerciseKind.GAP_TYPED -> base
-            ExerciseKind.HEAR_CHOOSE -> {
+    private fun exercise(type: ExerciseType, response: PracticeResponse, word: PracticeWord, targets: List<PracticeWord>, pageWords: List<String>, random: Random): Exercise {
+        val base = Exercise(type, response, PracticeContext.ORIGINAL, word.text, word.translation, word.sentence, word.range, answer = word.text)
+        return when (type) {
+            ExerciseType.GAP -> if (response == PracticeResponse.CHOOSE) base.copy(options = wordChoices(word, targets, pageWords, random)) else base
+            ExerciseType.HEAR_WORD -> {
                 val meaning = word.translation?.trim().orEmpty()
                 val others = targets.filter { it !== word }.mapNotNull { it.translation?.trim()?.takeIf(String::isNotEmpty) }
                     .distinctBy { it.lowercase() }.filter { !it.equals(meaning, ignoreCase = true) }
@@ -127,7 +218,7 @@ object PracticeBuilder {
                     base.copy(options = wordChoices(word, targets, pageWords, random), spoken = word.text)
                 }
             }
-            ExerciseKind.DICTATION -> {
+            ExerciseType.DICTATION -> {
                 val short = word.sentence.split(Regex("""\s+""")).count { part -> part.any { it.isLetterOrDigit() } } <= SHORT_SENTENCE_WORDS
                 if (short) base.copy(answer = word.sentence, spoken = word.sentence, wholeSentence = true) else base.copy(spoken = word.sentence)
             }

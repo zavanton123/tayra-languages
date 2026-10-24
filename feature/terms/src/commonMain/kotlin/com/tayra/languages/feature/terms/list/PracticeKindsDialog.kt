@@ -27,7 +27,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
-import com.tayra.languages.core.domain.practice.ExerciseKind
+import com.tayra.languages.core.domain.practice.PracticeSetup
 import com.tayra.languages.core.domain.practice.PracticeBuilder
 import com.tayra.languages.core.ui.components.AppCheckbox
 import com.tayra.languages.core.ui.components.AppDialogSurface
@@ -41,9 +41,6 @@ import com.tayra.languages.core.ui.components.PrimaryButton
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.Tag
 import com.tayra.languages.core.ui.components.TagStyle
-import com.tayra.languages.core.ui.components.description
-import com.tayra.languages.core.ui.components.icon
-import com.tayra.languages.core.ui.components.label
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.theme.AppAlpha
@@ -52,6 +49,7 @@ import com.tayra.languages.core.ui.theme.AppBorders
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppText
+import com.tayra.languages.core.ui.components.PracticeQuestion
 
 /** About how long a question takes, for the estimate in the dialog. */
 private const val SECONDS_A_QUESTION = 20
@@ -59,11 +57,12 @@ private val KIND_CARD_MIN_HEIGHT = 112.dp
 
 /** Asks which kinds of question to practise the [count] chosen words with; any of them can be ticked, all are to begin with. */
 @Composable
-fun PracticeKindsDialog(count: Int, onStart: (Set<ExerciseKind>) -> Unit, onDismiss: () -> Unit) {
+fun PracticeKindsDialog(count: Int, onStart: (PracticeSetup) -> Unit, onDismiss: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
-    var kinds by remember { mutableStateOf(PracticeBuilder.KINDS.toSet()) }
-    val minutes = ((PracticeBuilder.questionCount(count, kinds.size) * SECONDS_A_QUESTION + 59) / 60).coerceAtLeast(1)
+    var kinds by remember { mutableStateOf(PracticeQuestion.all.toSet()) }
+    val setup = PracticeSetup.ofKinds(kinds.map { it.name })
+    val minutes = ((PracticeBuilder.questionCount(count, setup.rotation.size) * SECONDS_A_QUESTION + 59) / 60).coerceAtLeast(1)
     AppDialogSurface(onDismissRequest = onDismiss, color = colors.surfaceContainerLow) {
         Column {
             Column(Modifier.padding(start = AppSpacing.xxxl, end = AppSpacing.xl, top = AppSpacing.xxl, bottom = AppSpacing.xxl), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
@@ -78,7 +77,7 @@ fun PracticeKindsDialog(count: Int, onStart: (Set<ExerciseKind>) -> Unit, onDism
                     AppIconButton(Icons.Default.Close, tr("Close"), onDismiss)
                 }
                 Text(tr("Choose one or more question types."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-                val card: @Composable (ExerciseKind, Modifier) -> Unit = { kind, modifier ->
+                val card: @Composable (PracticeQuestion, Modifier) -> Unit = { kind, modifier ->
                     val ticked = kind in kinds
                     val toggle = { kinds = if (ticked) kinds - kind else kinds + kind }
                     Row(
@@ -90,16 +89,16 @@ fun PracticeKindsDialog(count: Int, onStart: (Set<ExerciseKind>) -> Unit, onDism
                         horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
                     ) {
                         AppCheckbox(checked = ticked, onCheckedChange = { toggle() })
-                        Icon(kind.icon(), contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconXLarge))
+                        Icon(kind.icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconXLarge))
                         Spacer(Modifier.width(AppSpacing.xs))
                         Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-                            Text(kind.label(), style = AppText.itemTitle)
-                            Text(kind.description(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                            Text(kind.label, style = AppText.itemTitle)
+                            Text(kind.description, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                         }
                     }
                 }
                 Column(Modifier.padding(end = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                    PracticeBuilder.KINDS.chunked(if (compact) 1 else 2).forEach { row ->
+                    PracticeQuestion.all.chunked(if (compact) 1 else 2).forEach { row ->
                         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                             row.forEach { kind -> card(kind, Modifier.weight(1f)) }
                         }
@@ -112,7 +111,7 @@ fun PracticeKindsDialog(count: Int, onStart: (Set<ExerciseKind>) -> Unit, onDism
                 Text(trPlural(kinds.size, "{0} question type selected", "{0} question types selected"), Modifier.weight(1f).padding(end = AppSpacing.m), style = AppText.emphasis)
                 QuietButton(tr("Cancel"), onClick = onDismiss, size = ButtonSize.Large)
                 Spacer(Modifier.width(AppSpacing.s))
-                PrimaryButton(tr("Start practice"), onClick = { onStart(kinds) }, modifier = Modifier.testTag("start-practice"), enabled = kinds.isNotEmpty(), size = ButtonSize.Large)
+                PrimaryButton(tr("Start practice"), onClick = { onStart(setup) }, modifier = Modifier.testTag("start-practice"), enabled = kinds.isNotEmpty(), size = ButtonSize.Large)
             }
         }
     }

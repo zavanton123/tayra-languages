@@ -214,7 +214,7 @@ fun TermsScreen(
         BulkEditDialog(count = state.selected.size, onApply = { viewModel.applyBulkUpdate(it, keepLearningLevels = keepLevels); bulkEdit = false }, onDismiss = { bulkEdit = false })
     }
     if (practising) {
-        PracticeKindsDialog(count = state.selected.size, onStart = { kinds -> practising = false; practise(Route.PracticeWords(state.selected.toList(), kinds.map { it.name })) }, onDismiss = { practising = false })
+        PracticeKindsDialog(count = state.selected.size, onStart = { setup -> practising = false; practise(Route.PracticeWords(state.selected.toList(), setup = setup.encode())) }, onDismiss = { practising = false })
     }
     if (confirmDelete) {
         ConfirmDialog(

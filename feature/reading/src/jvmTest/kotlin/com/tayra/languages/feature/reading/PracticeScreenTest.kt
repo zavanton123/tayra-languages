@@ -28,7 +28,11 @@ import com.tayra.languages.core.domain.model.BookDraft
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermStatus
-import com.tayra.languages.core.domain.practice.ExerciseKind
+import com.tayra.languages.core.domain.practice.Exercise
+import com.tayra.languages.core.domain.practice.ExerciseType
+import com.tayra.languages.core.domain.practice.PracticeContext
+import com.tayra.languages.core.domain.practice.PracticeResponse
+import com.tayra.languages.core.domain.practice.PracticeSetup
 import com.tayra.languages.core.domain.practice.PracticeBuilder
 import com.tayra.languages.core.domain.practice.PracticeMaterialLoader
 import com.tayra.languages.core.domain.practice.PracticeSource
@@ -61,6 +65,9 @@ import androidx.compose.foundation.layout.fillMaxHeight
 @OptIn(ExperimentalTestApi::class)
 class PracticeScreenTest {
 
+    /** A question's type, answer and sentence, as "GAP-CHOOSE-ORIGINAL". */
+    private val Exercise.kind get() = "$type-$response-$context"
+
     private val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-practice", ".db").also { it.delete() }))
     private val languages = LanguageRepositoryImpl(provider)
     private val books = BookRepositoryImpl(provider)
@@ -87,7 +94,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), PracticeBuilder.KINDS.toSet(), PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(seed))
+        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), PracticeSetup(), PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(seed))
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -123,7 +130,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), setOf(ExerciseKind.GAP_CHOICE), PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(7))
+        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.CHOOSE)), PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(7))
         var closed = 0
         setContent {
             TayraTheme {
@@ -155,7 +162,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Book(bookId), setOf(ExerciseKind.GAP_CHOICE), PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(3))
+        val viewModel = PracticeViewModel(PracticeSource.Book(bookId), PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.CHOOSE)), PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(3))
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -191,7 +198,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Words(ids), setOf(ExerciseKind.GAP_CHOICE, ExerciseKind.HEAR_CHOOSE), PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(3))
+        val viewModel = PracticeViewModel(PracticeSource.Words(ids), PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_WORD), responses = setOf(PracticeResponse.CHOOSE)), PracticeMaterialLoader(books, languages, reading, terms), examples, translator, settings, Random(3))
         var left = 0
         setContent {
             TayraTheme {
@@ -230,20 +237,24 @@ class PracticeScreenTest {
     fun everyQuestionCanBeAnsweredAndNothingChangesTheWords() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val viewModel = show()
         val exercises = viewModel.state.value.exercises
-        assertEquals(ExerciseKind.entries.toSet(), exercises.map { it.kind }.toSet(), "every kind of question is asked")
+        assertEquals(
+            setOf("GAP-CHOOSE-ORIGINAL", "GAP-CHOOSE-EXAMPLE", "GAP-TYPE-ORIGINAL", "HEAR_WORD-CHOOSE-ORIGINAL", "DICTATION-TYPE-ORIGINAL"),
+            exercises.map { it.kind }.toSet(),
+            "every kind of question is asked",
+        )
         assertEquals(learning.keys, exercises.map { it.answer.takeIf { a -> a in learning.keys } ?: it.word }.toSet())
-        val seen = mutableSetOf<ExerciseKind>()
+        val seen = mutableSetOf<String>()
         exercises.forEachIndexed { index, exercise ->
             waitUntil(timeoutMillis = 5_000) { viewModel.state.value.index == index && !viewModel.state.value.answered }
             onNodeWithText("Question ${index + 1} of ${exercises.size}").assertExists()
             // The word asked for is not on show before the answer.
-            if (exercise.kind != ExerciseKind.HEAR_CHOOSE && !exercise.wholeSentence) {
+            if (exercise.type != ExerciseType.HEAR_WORD && !exercise.wholeSentence) {
                 val shown = onNodeWithTag("practice-sentence").fetchSemanticsNode().config[androidx.compose.ui.semantics.SemanticsProperties.Text].single().text
                 assertTrue("[...]" in shown && exercise.word !in shown.replace(exercise.sentence.replace(exercise.word, ""), ""), shown)
             } else {
                 assertEquals(0, onAllNodesWithTag("practice-sentence").fetchSemanticsNodes().size, "what is heard is not shown")
             }
-            if (seen.add(exercise.kind)) shot("${exercise.kind.name.lowercase()}${if (exercise.wholeSentence) "-sentence" else ""}")
+            if (seen.add(exercise.kind)) shot("${exercise.kind.lowercase()}${if (exercise.wholeSentence) "-sentence" else ""}")
             if (exercise.isChoice) {
                 onNodeWithTag("practice-option-${exercise.options.indexOf(exercise.answer)}").performClick()
             } else {
@@ -301,7 +312,7 @@ class PracticeScreenTest {
         waitUntil(timeoutMillis = 10_000) { viewModel.state.value.let { !it.finished && !it.loading && it.exercises.isNotEmpty() } }
         val again = viewModel.state.value.exercises
         val missedWords = missed.map { it.lowercase() }.toSet()
-        assertTrue(again.all { (if (it.kind == ExerciseKind.NEW_CONTEXT) it.answer else it.word).lowercase() in missedWords }, "the questions are on the missed words only")
+        assertTrue(again.all { (if (it.context == PracticeContext.EXAMPLE) it.answer else it.word).lowercase() in missedWords }, "the questions are on the missed words only")
         waitUntil(timeoutMillis = 10_000) { onAllNodesWithText("Question 1 of ${again.size}").fetchSemanticsNodes().isNotEmpty() }
     }
 }

@@ -2,7 +2,6 @@ package com.tayra.languages.feature.reading
 
 import com.tayra.languages.core.domain.courses.CourseService
 import com.tayra.languages.core.domain.repository.BookRepository
-import com.tayra.languages.core.domain.practice.ExerciseKind
 import com.tayra.languages.feature.reading.practice.PracticeScreen
 import com.tayra.languages.core.domain.practice.PracticeSource
 import com.tayra.languages.feature.reading.practice.practiceOf
@@ -14,10 +13,11 @@ import androidx.navigation.toRoute
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
+import com.tayra.languages.core.domain.practice.PracticeSetup
 
 val readingModule = module {
     viewModel { (bookId: Long, page: Int?) -> ReadingViewModel(bookId, page, get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), lessonOf = get<CourseService>()::lessonReading, isNews = get<BookRepository>().let { books -> { id: Long -> books.newsUrl(id) != null } }, wordReadings = getOrNull(), chineseScripts = getOrNull(), anki = getOrNull(), ankiConnection = getOrNull()) }
-    viewModel { (source: PracticeSource, kinds: Set<ExerciseKind>) -> PracticeViewModel(source, kinds, get(), get(), get(), get()) }
+    viewModel { (source: PracticeSource, setup: PracticeSetup) -> PracticeViewModel(source, setup, get(), get(), get(), get()) }
 }
 
 fun NavGraphBuilder.readingGraph(navController: NavController) {
@@ -35,11 +35,11 @@ fun NavGraphBuilder.readingGraph(navController: NavController) {
         )
     }
     composable<Route.Practice> { entry ->
-        val (source, kinds) = practiceOf(entry.toRoute<Route.Practice>())!!
-        PracticeScreen(source, kinds, onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() })
+        val (source, setup) = practiceOf(entry.toRoute<Route.Practice>())!!
+        PracticeScreen(source, setup, onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() })
     }
     composable<Route.PracticeWords> { entry ->
-        val (source, kinds) = practiceOf(entry.toRoute<Route.PracticeWords>())!!
-        PracticeScreen(source, kinds, onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() })
+        val (source, setup) = practiceOf(entry.toRoute<Route.PracticeWords>())!!
+        PracticeScreen(source, setup, onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() })
     }
 }

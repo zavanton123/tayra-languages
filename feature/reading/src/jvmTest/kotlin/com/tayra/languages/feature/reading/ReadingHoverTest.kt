@@ -732,11 +732,13 @@ class ReadingHoverTest {
         // Both pages' words: lobo, and floresta from this one.
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Practise 2 words").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("practice-kind-GAP_TYPED").performClick()
+        rule.onNodeWithTag("practice-kind-DICTATION").performClick()
         rule.onNodeWithTag("start-practice").performClick()
         rule.waitUntil(5_000) { visited.isNotEmpty() }
         val route = visited.single() as com.tayra.languages.core.ui.navigation.Route.Practice
         assertEquals(null, route.page, "the whole text")
-        assertTrue("GAP_TYPED" !in route.kinds && route.kinds.isNotEmpty(), route.kinds.toString())
+        val asked = com.tayra.languages.core.domain.practice.PracticeSetup.decode(route.setup).rotation
+        assertTrue(asked.isNotEmpty() && asked.none { it.second == com.tayra.languages.core.domain.practice.PracticeResponse.TYPE }, asked.toString())
     }
 
     /** At the end of the text the footer puts the words being learned on all its pages into Anki: here straight into a running one. */

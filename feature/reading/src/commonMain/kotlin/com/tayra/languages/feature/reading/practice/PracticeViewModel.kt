@@ -8,7 +8,6 @@ import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.practice.Exercise
 import com.tayra.languages.core.domain.practice.PracticeBuilder
 import com.tayra.languages.core.domain.practice.PracticeChecker
-import com.tayra.languages.core.domain.practice.ExerciseKind
 import com.tayra.languages.core.domain.practice.PracticeExample
 import com.tayra.languages.core.domain.practice.PracticeMaterial
 import com.tayra.languages.core.domain.practice.PracticeMaterialLoader
@@ -33,6 +32,8 @@ import kotlinx.coroutines.withTimeoutOrNull
 import kotlin.coroutines.cancellation.CancellationException
 import kotlin.random.Random
 import kotlin.time.Duration.Companion.seconds
+import com.tayra.languages.core.domain.practice.PracticeSetup
+import com.tayra.languages.core.domain.practice.PracticeContext
 
 /** How a question was answered. */
 enum class PracticeResult { CORRECT, ALMOST, WRONG }
@@ -44,8 +45,8 @@ data class PracticeUiState(
     val pageNumber: Int? = 1,
     /** How many chosen words the questions are about. */
     val wordCount: Int = 0,
-    /** The kinds of question asked for. */
-    val kinds: Set<ExerciseKind> = PracticeBuilder.KINDS.toSet(),
+    /** What is asked. */
+    val setup: PracticeSetup = PracticeSetup(),
     val languageCode: String? = null,
     val rightToLeft: Boolean = false,
     val exercises: List<Exercise> = emptyList(),
@@ -78,7 +79,7 @@ data class PracticeUiState(
  */
 class PracticeViewModel(
     private val source: PracticeSource,
-    private val kinds: Set<ExerciseKind>,
+    private val setup: PracticeSetup,
     private val material: PracticeMaterialLoader,
     private val examples: ExampleSentencesProvider,
     private val translator: SentenceTranslator,
@@ -89,7 +90,7 @@ class PracticeViewModel(
     private val pageNumber: Int? = (source as? PracticeSource.Page)?.page
     private val wholeBook = source is PracticeSource.Book
 
-    private val _state = MutableStateFlow(PracticeUiState(pageNumber = pageNumber, kinds = kinds, wholeBook = wholeBook))
+    private val _state = MutableStateFlow(PracticeUiState(pageNumber = pageNumber, setup = setup, wholeBook = wholeBook))
     val state: StateFlow<PracticeUiState> = _state.asStateFlow()
 
     private var language: Language? = null
@@ -106,7 +107,7 @@ class PracticeViewModel(
     fun startMissed() = start(only = _state.value.missedTargets.takeIf { it.isNotEmpty() })
 
     private fun start(only: Set<String>?) {
-        _state.update { PracticeUiState(pageNumber = pageNumber, bookTitle = it.bookTitle, kinds = kinds, wholeBook = wholeBook) }
+        _state.update { PracticeUiState(pageNumber = pageNumber, bookTitle = it.bookTitle, setup = setup, wholeBook = wholeBook) }
         viewModelScope.launch {
             val all = attempt { material.load(source) }
             val prepared = if (all == null || only == null) all else PracticeMaterial(all.language, all.title, all.words.filter { it.text.lowercase() in only }.ifEmpty { all.words }, all.pool)
@@ -116,7 +117,7 @@ class PracticeViewModel(
             }
             val lang = prepared.language
             language = lang
-            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, fetchExamples(prepared.words, lang), random, kinds = kinds)
+            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, fetchExamples(prepared.words, lang), random, setup)
             _state.update {
                 it.copy(
                     loading = false,
@@ -211,7 +212,7 @@ class PracticeViewModel(
             correct = it.correct + if (right) 1 else 0,
             missed = if (right || exercise.word in it.missed) it.missed else it.missed + exercise.word,
             // A sentence from elsewhere may inflect the word; its answer is the word as practised.
-            missedTargets = if (right) it.missedTargets else it.missedTargets + (if (exercise.kind == ExerciseKind.NEW_CONTEXT) exercise.answer else exercise.word).lowercase(),
+            missedTargets = if (right) it.missedTargets else it.missedTargets + (if (exercise.context == PracticeContext.EXAMPLE) exercise.answer else exercise.word).lowercase(),
         )
     }
 

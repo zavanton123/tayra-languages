@@ -3,29 +3,43 @@ package com.tayra.languages.core.ui.components
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.ui.graphics.vector.ImageVector
-import com.tayra.languages.core.domain.practice.ExerciseKind
+import com.tayra.languages.core.domain.practice.ExerciseType
+import com.tayra.languages.core.domain.practice.PracticeResponse
 import com.tayra.languages.core.ui.i18n.tr
 
-/** The kind's name, as offered to choose from; a sentence from elsewhere comes with the gap choice. */
-fun ExerciseKind.label(): String = when (this) {
-    ExerciseKind.GAP_CHOICE, ExerciseKind.NEW_CONTEXT -> tr("Choose the missing word")
-    ExerciseKind.GAP_TYPED -> tr("Type the missing word")
-    ExerciseKind.HEAR_CHOOSE -> tr("Listen and choose")
-    ExerciseKind.DICTATION -> tr("Listen and type")
-}
+/** A kind of question as offered to tick: a type of question answered one way, named as earlier versions named it. */
+class PracticeQuestion(val name: String, val type: ExerciseType, val response: PracticeResponse) {
+    val label: String
+        get() = when (type) {
+            ExerciseType.GAP -> if (response == PracticeResponse.CHOOSE) tr("Choose the missing word") else tr("Type the missing word")
+            ExerciseType.HEAR_WORD -> tr("Listen and choose")
+            ExerciseType.DICTATION -> tr("Listen and type")
+        }
 
-/** What the kind asks, in a few words. */
-fun ExerciseKind.description(): String = when (this) {
-    ExerciseKind.GAP_CHOICE, ExerciseKind.NEW_CONTEXT -> tr("Pick from four options")
-    ExerciseKind.GAP_TYPED -> tr("Complete the sentence")
-    ExerciseKind.HEAR_CHOOSE -> tr("Hear a word and choose its meaning")
-    ExerciseKind.DICTATION -> tr("Hear the prompt and type the answer")
-}
+    /** What it asks, in a few words. */
+    val description: String
+        get() = when (type) {
+            ExerciseType.GAP -> if (response == PracticeResponse.CHOOSE) tr("Pick from four options") else tr("Complete the sentence")
+            ExerciseType.HEAR_WORD -> tr("Hear a word and choose its meaning")
+            ExerciseType.DICTATION -> tr("Hear the prompt and type the answer")
+        }
 
-/** The kind's icon, as in the dialog that offers it. */
-fun ExerciseKind.icon(): ImageVector = when (this) {
-    ExerciseKind.GAP_CHOICE, ExerciseKind.NEW_CONTEXT -> AppIcons.ViewList
-    ExerciseKind.GAP_TYPED -> Icons.Default.Edit
-    ExerciseKind.HEAR_CHOOSE -> AppIcons.VolumeUp
-    ExerciseKind.DICTATION -> AppIcons.RecordVoiceOver
+    val icon: ImageVector
+        get() = when (type) {
+            ExerciseType.GAP -> if (response == PracticeResponse.CHOOSE) AppIcons.ViewList else Icons.Default.Edit
+            ExerciseType.HEAR_WORD -> AppIcons.VolumeUp
+            ExerciseType.DICTATION -> AppIcons.RecordVoiceOver
+        }
+
+    companion object {
+        /** The kinds offered, in the order they come round in a practice. */
+        val all = listOf(
+            PracticeQuestion("GAP_CHOICE", ExerciseType.GAP, PracticeResponse.CHOOSE),
+            PracticeQuestion("HEAR_CHOOSE", ExerciseType.HEAR_WORD, PracticeResponse.CHOOSE),
+            PracticeQuestion("GAP_TYPED", ExerciseType.GAP, PracticeResponse.TYPE),
+            PracticeQuestion("DICTATION", ExerciseType.DICTATION, PracticeResponse.TYPE),
+        )
+
+        fun of(type: ExerciseType, response: PracticeResponse): PracticeQuestion? = all.firstOrNull { it.type == type && it.response == response }
+    }
 }

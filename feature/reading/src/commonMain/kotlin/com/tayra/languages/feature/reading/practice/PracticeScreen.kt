@@ -55,8 +55,6 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.practice.Exercise
-import com.tayra.languages.core.domain.practice.ExerciseKind
-import com.tayra.languages.core.domain.practice.PracticeBuilder
 import com.tayra.languages.core.domain.service.SentenceAudio
 import com.tayra.languages.core.ui.audio.rememberSpeaker
 import com.tayra.languages.core.ui.components.AppDivider
@@ -75,7 +73,6 @@ import com.tayra.languages.core.ui.components.ProgressTrack
 import com.tayra.languages.core.ui.components.QuietButton
 import com.tayra.languages.core.ui.components.SecondaryButton
 import com.tayra.languages.core.ui.components.cardSurface
-import com.tayra.languages.core.ui.components.label
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
@@ -96,17 +93,22 @@ import com.tayra.languages.core.ui.components.AppDialogSurface
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.domain.practice.PracticeSource
+import com.tayra.languages.core.ui.components.PracticeQuestion
+import com.tayra.languages.core.domain.practice.PracticeSetup
+import com.tayra.languages.core.domain.practice.PracticeResponse
+import com.tayra.languages.core.domain.practice.PracticeContext
+import com.tayra.languages.core.domain.practice.ExerciseType
 
 /** Practising the words being learned on a page, right after reading it, or words chosen in the vocabulary. */
 @Composable
 fun PracticeScreen(
     source: PracticeSource,
-    kinds: Set<ExerciseKind>,
+    setup: PracticeSetup,
     onNavigate: (Route) -> Unit,
     onBack: () -> Unit,
     /** In a dialog over the page that started it: no app bar, and a close button beside the title. */
     dialog: Boolean = false,
-    viewModel: PracticeViewModel = koinViewModel(key = "practice-$source-${kinds.sorted()}") { parametersOf(source, kinds) },
+    viewModel: PracticeViewModel = koinViewModel(key = "practice-$source-${setup.encode()}") { parametersOf(source, setup) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
@@ -139,27 +141,26 @@ fun PracticeScreen(
 }
 
 /** The practice a [Route.Practice] or [Route.PracticeWords] asks for, or null for any other route. */
-internal fun practiceOf(route: Route): Pair<PracticeSource, Set<ExerciseKind>>? {
-    val (source, kindNames) = when (route) {
-        is Route.Practice -> (route.page?.let { PracticeSource.Page(route.bookId, it) } ?: PracticeSource.Book(route.bookId)) to route.kinds
-        is Route.PracticeWords -> PracticeSource.Words(route.termIds) to route.kinds
+internal fun practiceOf(route: Route): Pair<PracticeSource, PracticeSetup>? {
+    val (source, kinds, setup) = when (route) {
+        is Route.Practice -> Triple(route.page?.let { PracticeSource.Page(route.bookId, it) } ?: PracticeSource.Book(route.bookId), route.kinds, route.setup)
+        is Route.PracticeWords -> Triple(PracticeSource.Words(route.termIds), route.kinds, route.setup)
         else -> return null
     }
-    val kinds = kindNames.mapNotNull { name -> ExerciseKind.entries.firstOrNull { it.name == name } }.toSet().ifEmpty { PracticeBuilder.KINDS.toSet() }
-    return source to kinds
+    return source to if (setup.isNotEmpty()) PracticeSetup.decode(setup) else PracticeSetup.ofKinds(kinds)
 }
 
 /** A practice in a dialog that fills the window but for its margin, over the page that started it. */
 @Composable
 fun PracticeDialog(route: Route, onNavigate: (Route) -> Unit, onClose: () -> Unit) {
-    val (source, kinds) = practiceOf(route) ?: return
+    val (source, setup) = practiceOf(route) ?: return
     AppDialogSurface(
         onDismissRequest = onClose,
         modifier = Modifier.fillMaxHeight().testTag("practice-dialog"),
         maxWidth = Dp.Infinity,
         color = MaterialTheme.colorScheme.surfaceContainerLow,
     ) {
-        PracticeScreen(source, kinds, onNavigate = { onClose(); onNavigate(it) }, onBack = onClose, dialog = true)
+        PracticeScreen(source, setup, onNavigate = { onClose(); onNavigate(it) }, onBack = onClose, dialog = true)
     }
 }
 
@@ -237,9 +238,10 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
                     // Fewer than all the kinds: which ones.
-                    if (state.kinds.size < PracticeBuilder.KINDS.size) {
+                    val asked = state.setup.rotation.mapNotNull { (type, response) -> PracticeQuestion.of(type, response) }
+                    if (asked.size < PracticeQuestion.all.size) {
                         Text(
-                            tr("Questions: {0}", PracticeBuilder.KINDS.filter { it in state.kinds }.joinToString(", ") { it.label().lowercase() }),
+                            tr("Questions: {0}", asked.joinToString(", ") { it.label.lowercase() }),
                             style = MaterialTheme.typography.bodyMedium,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                         )
@@ -275,12 +277,14 @@ private fun ProgressStrip(state: PracticeUiState) {
 }
 
 private val Exercise.instruction: String
-    get() = when (kind) {
-        ExerciseKind.GAP_CHOICE -> tr("Choose the missing word")
-        ExerciseKind.GAP_TYPED -> tr("Type the missing word")
-        ExerciseKind.NEW_CONTEXT -> tr("A new sentence: choose the missing word")
-        ExerciseKind.HEAR_CHOOSE -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
-        ExerciseKind.DICTATION -> if (wholeSentence) tr("Listen and type the sentence") else tr("Listen and type the missing word")
+    get() = when (type) {
+        ExerciseType.GAP -> when {
+            response == PracticeResponse.TYPE -> tr("Type the missing word")
+            context == PracticeContext.EXAMPLE -> tr("A new sentence: choose the missing word")
+            else -> tr("Choose the missing word")
+        }
+        ExerciseType.HEAR_WORD -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
+        ExerciseType.DICTATION -> if (wholeSentence) tr("Listen and type the sentence") else tr("Listen and type the missing word")
     }
 
 @Composable
@@ -301,7 +305,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         }
 
         // What is heard is not shown until answered: the word of a listening choice, or a sentence typed whole.
-        val sentenceHidden = !answered && (exercise.kind == ExerciseKind.HEAR_CHOOSE || exercise.wholeSentence)
+        val sentenceHidden = !answered && (exercise.type == ExerciseType.HEAR_WORD || exercise.wholeSentence)
         if (!sentenceHidden) {
             val highlight = SpanStyle(background = AppAccents.highlight.copy(alpha = AppAlpha.half), fontWeight = AppText.labelStrong.fontWeight)
             Text(
@@ -315,7 +319,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
             )
         }
         // A typed gap gets the sentence's meaning as a hint; elsewhere it would give the answer away, so it waits.
-        val hintShown = answered || exercise.kind == ExerciseKind.GAP_TYPED
+        val hintShown = answered || (exercise.type == ExerciseType.GAP && exercise.response == PracticeResponse.TYPE)
         if (hintShown) state.sentenceTranslation?.let { translation ->
             // Captioned, so the box says what it is whether it comes before the answer or after it.
             Column(

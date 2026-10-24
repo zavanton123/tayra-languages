@@ -191,7 +191,6 @@ import com.tayra.languages.feature.terms.examples.ExamplesSearchScreen
 import com.tayra.languages.feature.terms.list.BulkEditDialog
 import kotlinx.coroutines.launch
 import androidx.compose.ui.platform.testTag
-import com.tayra.languages.core.domain.practice.ExerciseKind
 import com.tayra.languages.feature.terms.list.PracticeKindsDialog
 import org.koin.compose.viewmodel.koinViewModel
 import kotlin.random.Random
@@ -201,6 +200,7 @@ import com.tayra.languages.core.ui.components.SpinnerSize
 import com.tayra.languages.core.ui.components.AppSpinner
 import com.tayra.languages.feature.terms.anki.ankiLabel
 import com.tayra.languages.core.ui.files.saveBinaryFile
+import com.tayra.languages.core.domain.practice.PracticeSetup
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -437,7 +437,7 @@ fun ReadingScreen(
                             state, viewModel, speaker, continuous,
                             onHome = leave,
                             onPractice = { practise(Route.Practice(bookId, state.pageNumber)) },
-                            onPracticeAll = { kinds -> practise(Route.Practice(bookId, page = null, kinds = kinds.map { it.name })) },
+                            onPracticeAll = { setup -> practise(Route.Practice(bookId, page = null, setup = setup.encode())) },
                             onSettings = { onNavigate(Route.OfflineTranslation) },
                             onMenu = openPane,
                             onCourses = { onNavigate(Route.Courses) },
@@ -644,7 +644,7 @@ private fun ReadingBody(
     onHome: () -> Unit,
     onPractice: () -> Unit,
     /** Practising every word being learned in the book, with the kinds of question chosen. */
-    onPracticeAll: (Set<ExerciseKind>) -> Unit,
+    onPracticeAll: (PracticeSetup) -> Unit,
     onSettings: () -> Unit,
     /** Opening the reader's settings, from the floating button a wide window shows. */
     onMenu: () -> Unit,
@@ -1189,7 +1189,7 @@ private fun PageVocabulary(state: ReadingUiState) {
 }
 
 @Composable
-private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, onHome: () -> Unit, onPractice: () -> Unit, onPracticeAll: (Set<ExerciseKind>) -> Unit, edgePadding: Dp) {
+private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, onHome: () -> Unit, onPractice: () -> Unit, onPracticeAll: (PracticeSetup) -> Unit, edgePadding: Dp) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     val uriHandler = LocalUriHandler.current
@@ -1199,7 +1199,7 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
     var bookWords by remember { mutableStateOf(0) }
     LaunchedEffect(last, state.items) { bookWords = if (last) viewModel.bookPracticeCount() else 0 }
     var choosingKinds by remember { mutableStateOf(false) }
-    if (choosingKinds) PracticeKindsDialog(count = bookWords, onStart = { kinds -> choosingKinds = false; onPracticeAll(kinds) }, onDismiss = { choosingKinds = false })
+    if (choosingKinds) PracticeKindsDialog(count = bookWords, onStart = { setup -> choosingKinds = false; onPracticeAll(setup) }, onDismiss = { choosingKinds = false })
     Column(Modifier.fillMaxWidth().padding(top = AppSpacing.xxxl), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxxl)) {
         val source = state.book?.sourceUri
         if (!source.isNullOrBlank()) {
