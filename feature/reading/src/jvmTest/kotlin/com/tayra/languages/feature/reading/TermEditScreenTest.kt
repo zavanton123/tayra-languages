@@ -1,5 +1,13 @@
 package com.tayra.languages.feature.reading
 
+import androidx.compose.ui.test.hasAnyAncestor
+import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.hasTestTag
+import org.koin.core.parameter.parametersOf
+import org.koin.compose.viewmodel.koinViewModel
+import com.tayra.languages.feature.terms.form.TermFormPanel
+import com.tayra.languages.core.ui.components.WindowWidth
+import com.tayra.languages.core.ui.components.LocalWindowWidth
 import androidx.compose.ui.test.isToggleable
 import com.tayra.languages.core.data.repository.FlashcardRepositoryImpl
 import com.tayra.languages.core.domain.flashcards.FlashcardService
@@ -118,7 +126,7 @@ class TermEditScreenTest {
     }
 
     /** The editor for [word], a Portuguese term being learned, with only the [installed] dictionary of the pair on the device. */
-    private fun ComposeUiTest.openEditor(word: String, installed: DictionaryId): Editor {
+    private fun ComposeUiTest.openEditor(word: String, installed: DictionaryId, sheet: Boolean = false): Editor {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-term-edit", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val terms = TermRepositoryImpl(provider)
@@ -171,13 +179,30 @@ class TermEditScreenTest {
             TayraTheme {
                 ProvideWindowWidth {
                     CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(languageId to "Portuguese"), languageId) {}) {
-                        TermEditScreen(TermFormKey.ById(termId), onNavigate = {}, onBack = {}, onDone = { opened.done = true }, onOpenParent = { _, _ -> })
+                        if (sheet) {
+                            // As the phone's reader holds it: embedded, in a sheet.
+                            CompositionLocalProvider(LocalWindowWidth provides WindowWidth.COMPACT) {
+                                TermFormPanel(koinViewModel(key = "sheet-$termId") { parametersOf(TermFormKey.ById(termId)) }, embedded = true)
+                            }
+                        } else {
+                            TermEditScreen(TermFormKey.ById(termId), onNavigate = {}, onBack = {}, onDone = { opened.done = true }, onOpenParent = { _, _ -> })
+                        }
                     }
                 }
             }
         }
 
         return opened
+    }
+
+    /** In the phone reader's sheet, the word's pronunciation and its first dictionary sense show at once, above the dictionary. */
+    @Test
+    fun aPhonesWordSheetShowsThePronunciationAndFirstSenseAtOnce() = runDesktopComposeUiTest(width = 400, height = 900) {
+        openEditor("semana", DictionaryId("pt", "en"), sheet = true)
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("term-first-sense-preview")).fetchSemanticsNodes().isNotEmpty() }
+        // At the top of the sheet, before the dictionary repeats them in full.
+        onNode(hasText("siˈmane") and hasAnyAncestor(hasTestTag("term-pronunciation-preview")), useUnmergedTree = true).assertExists()
+        onNode(hasText("week") and hasAnyAncestor(hasTestTag("term-first-sense-preview")), useUnmergedTree = true).assertExists()
     }
 
     private fun ComposeUiTest.save(path: String) {
