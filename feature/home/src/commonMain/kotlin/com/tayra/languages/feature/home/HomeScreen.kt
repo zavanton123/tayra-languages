@@ -4,7 +4,9 @@ import com.tayra.languages.core.ui.components.inLearnedScript
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import com.tayra.languages.core.ui.components.QuietButton
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
@@ -13,7 +15,9 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Icon
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -28,6 +32,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.courses.LessonStatus
+import com.tayra.languages.core.domain.model.BookListItem
 import com.tayra.languages.core.domain.stats.StudyActivity
 import com.tayra.languages.core.ui.components.StatTile
 import com.tayra.languages.core.ui.components.ActivityHeatmapCard
@@ -87,24 +92,31 @@ fun HomeScreen(onNavigate: (Route) -> Unit, viewModel: HomeViewModel = koinViewM
 @Composable
 internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit) {
     val width = LocalWindowWidth.current
+    // A completed book is history, not something Home should offer to continue. The view-model
+    // already filters it out; keeping the guard here also protects previews and direct callers.
+    val shownState = if (state.book?.isCompleted == true) state.copy(book = null) else state
     ScreenHeader(
         tr("Home"),
         if (state.languageName.isEmpty()) tr("Pick up where you left off.")
         else tr("Pick up where you left off in {0}.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
     )
-    val activity = state.activity
+    val activity = shownState.activity
+    if (width.isCompact) {
+        PhoneHomeContent(shownState, onNavigate, onContinueCourse)
+        return
+    }
     if (activity != null) {
-        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(if (width.isCompact) AppSpacing.m else AppSpacing.xl)) {
+        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
             WordsTodayTile(activity, Modifier.weight(1f).fillMaxHeight())
             StreakTile(activity, Modifier.weight(1f).fillMaxHeight())
         }
     }
     // What needs doing first: cards that are due, then the course and book under way, then the empty ones.
-    val courseUnderWay = state.course?.nextLesson != null
+    val courseUnderWay = shownState.course?.nextLesson != null
     val cards: List<@Composable (Modifier, Boolean) -> Unit> = listOf(
-        (if (courseUnderWay) 1 else 2) to @Composable { m: Modifier, fill: Boolean -> CourseCard(state, m, fill, onNavigate, onContinueCourse) },
-        (if (state.book != null) 1 else 2) to @Composable { m: Modifier, fill: Boolean -> BookCard(state, m, fill, onNavigate) },
-        (if (state.flashcardsDue > 0) 0 else 2) to @Composable { m: Modifier, fill: Boolean -> FlashcardsCard(state.flashcardsDue, m, fill, onNavigate) },
+        (if (courseUnderWay) 1 else 2) to @Composable { m: Modifier, fill: Boolean -> CourseCard(shownState, m, fill, onNavigate, onContinueCourse) },
+        (if (shownState.book != null) 1 else 2) to @Composable { m: Modifier, fill: Boolean -> BookCard(shownState, m, fill, onNavigate) },
+        (if (shownState.flashcardsDue > 0) 0 else 2) to @Composable { m: Modifier, fill: Boolean -> FlashcardsCard(shownState.flashcardsDue, m, fill, onNavigate) },
     ).sortedBy { it.first }.map { it.second }
     if (width.isExpanded) {
         Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
@@ -114,6 +126,156 @@ internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onCont
         cards.forEach { it(Modifier, false) }
     }
     if (activity != null) StudyActivityCard(activity, onStats = { onNavigate(Route.Stats) })
+}
+
+internal enum class PhonePrimaryActivity { COURSE, FLASHCARDS, BOOK, BROWSE_COURSES }
+
+internal fun phonePrimaryActivity(state: HomeUiState): PhonePrimaryActivity = when {
+    state.course?.status == LessonStatus.IN_PROGRESS && state.course.nextLesson != null -> PhonePrimaryActivity.COURSE
+    state.flashcardsDue > 0 -> PhonePrimaryActivity.FLASHCARDS
+    state.book?.isCompleted == false -> PhonePrimaryActivity.BOOK
+    else -> PhonePrimaryActivity.BROWSE_COURSES
+}
+
+/** One prominent next step, followed by compact alternatives and secondary progress figures. */
+@Composable
+private fun PhoneHomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit) {
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { PhoneHomeItems(state, onNavigate, onContinueCourse) }
+}
+
+@Composable
+private fun PhoneHomeItems(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit) {
+    val courseUnderWay = state.course?.status == LessonStatus.IN_PROGRESS && state.course.nextLesson != null
+    val primary = phonePrimaryActivity(state)
+    Box(Modifier.fillMaxWidth().testTag("primary-activity")) {
+        when (primary) {
+            PhonePrimaryActivity.COURSE -> CourseCard(state, Modifier, fill = false, onNavigate, onContinueCourse)
+            PhonePrimaryActivity.FLASHCARDS -> FlashcardsCard(state.flashcardsDue, Modifier, fill = false, onNavigate)
+            PhonePrimaryActivity.BOOK -> BookCard(state, Modifier, fill = false, onNavigate)
+            PhonePrimaryActivity.BROWSE_COURSES -> BrowseCoursesCard(onNavigate)
+        }
+    }
+    // Reviews are the second urgent action when a learner has a lesson under way.
+    if (primary == PhonePrimaryActivity.COURSE && state.flashcardsDue > 0) {
+        FlashcardsRow(state.flashcardsDue, onNavigate)
+    }
+    state.activity?.let { activity ->
+        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            WordsTodayTile(activity, Modifier.weight(1f).fillMaxHeight())
+            StreakTile(activity, Modifier.weight(1f).fillMaxHeight())
+        }
+    }
+    when (primary) {
+        PhonePrimaryActivity.FLASHCARDS -> {
+            // Keep real in-progress activities above empty discovery rows.
+            if (courseUnderWay) CourseRow(state, onNavigate, onContinueCourse)
+            if (state.book != null) BookRow(state.book, onNavigate)
+            if (!courseUnderWay) CourseRow(state, onNavigate, onContinueCourse)
+            if (state.book == null) BookRow(null, onNavigate)
+        }
+        PhonePrimaryActivity.COURSE -> {
+            BookRow(state.book, onNavigate)
+            if (state.flashcardsDue == 0) FlashcardsRow(0, onNavigate)
+        }
+        PhonePrimaryActivity.BOOK -> {
+            CourseRow(state, onNavigate, onContinueCourse)
+            FlashcardsRow(state.flashcardsDue, onNavigate)
+        }
+        PhonePrimaryActivity.BROWSE_COURSES -> {
+            BookRow(state.book, onNavigate)
+            FlashcardsRow(state.flashcardsDue, onNavigate)
+        }
+    }
+    state.activity?.let { StudyActivityCard(it, onStats = { onNavigate(Route.Stats) }) }
+}
+
+@Composable
+private fun BrowseCoursesCard(onNavigate: (Route) -> Unit) {
+    ActionCard(
+        tr("Continue course"), tr("No course in progress"), tr("Choose a course to start learning."),
+        AppIcons.School, AppAccents.blue, "course", Modifier, fill = false,
+        button = tr("Browse courses"), primary = true, onClick = { onNavigate(Route.Courses) },
+    )
+}
+
+@Composable
+private fun CourseRow(state: HomeUiState, onNavigate: (Route) -> Unit, onContinue: () -> Unit) {
+    val progress = state.course?.takeIf { it.status == LessonStatus.IN_PROGRESS && it.nextLesson != null }
+    val next = progress?.nextLesson
+    SecondaryActivityRow(
+        label = if (progress != null) tr("Continue course") else tr("Courses"),
+        title = progress?.course?.title?.inLearnedScript() ?: tr("No course in progress"),
+        detail = if (progress != null && next != null) {
+            val number = progress.lessons.indexOf(next) + 1
+            tr("Lesson {0}: {1}", number, next.lesson.title.inLearnedScript())
+        } else tr("Choose a course to start learning."),
+        icon = AppIcons.School,
+        tint = AppAccents.blue,
+        tag = "course",
+        onClick = if (progress != null) onContinue else ({ onNavigate(Route.Courses) }),
+    )
+}
+
+@Composable
+private fun BookRow(book: BookListItem?, onNavigate: (Route) -> Unit) {
+    val active = book
+    val percent = active?.let(::bookPercent)
+    SecondaryActivityRow(
+        label = if (active != null) tr("Continue book") else tr("Books"),
+        title = active?.title?.inLearnedScript() ?: tr("No book in progress"),
+        detail = active?.let {
+            if (it.pageCount > 1) tr("Page {0} of {1}", it.currentPage, it.pageCount)
+            else trPlural(it.wordCount, "{1} word", "{1} words", formatCount(it.wordCount))
+        } ?: tr("Open a book from your library to start reading."),
+        trailing = percent?.let { "$it%" },
+        icon = AppIcons.MenuBook,
+        tint = AppAccents.purple,
+        tag = "book",
+        onClick = { if (active != null) onNavigate(Route.Read(active.id)) else onNavigate(Route.Books) },
+    )
+}
+
+@Composable
+private fun FlashcardsRow(due: Int, onNavigate: (Route) -> Unit) {
+    SecondaryActivityRow(
+        label = tr("Flashcards"),
+        title = if (due > 0) trPlural(due, "{1} card due today", "{1} cards due today", formatCount(due)) else tr("All caught up"),
+        detail = if (due > 0) tr("Review them to keep your words fresh.") else tr("No cards are due right now."),
+        icon = AppIcons.Style,
+        tint = AppAccents.teal,
+        tag = "flashcards",
+        onClick = { onNavigate(Route.Flashcards) },
+    )
+}
+
+@Composable
+private fun SecondaryActivityRow(
+    label: String,
+    title: String,
+    detail: String,
+    icon: ImageVector,
+    tint: Color,
+    tag: String,
+    onClick: () -> Unit,
+    trailing: String? = null,
+) {
+    val colors = MaterialTheme.colorScheme
+    Column(Modifier.fillMaxWidth().cardSurface(AppShapes.card).testTag("card-$tag")) {
+        Row(
+            Modifier.fillMaxWidth().clickable(onClick = onClick).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m).testTag("action-$tag"),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+        ) {
+            IconTile(icon, size = 40, tint = tint)
+            Column(Modifier.weight(1f)) {
+                Text(label, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1)
+                Text(title, style = AppText.emphasis, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Text(detail, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            }
+            if (trailing != null) Text(trailing, style = AppText.label, color = colors.onSurfaceVariant)
+            Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconMedium))
+        }
+    }
 }
 
 @Composable
@@ -172,7 +334,7 @@ private fun BookCard(state: HomeUiState, modifier: Modifier, fill: Boolean, onNa
         return
     }
     // As on Books: the pages finished, and never all of them until the book is marked finished.
-    val percent = if (book.pageCount > 0) (100 * (book.currentPage - 1) / book.pageCount).coerceIn(0, 99) else 0
+    val percent = bookPercent(book)
     ActionCard(
         // A text of one page has no pages to count, so its length is given instead.
         tr("Continue book"), book.title.inLearnedScript(),
@@ -181,6 +343,9 @@ private fun BookCard(state: HomeUiState, modifier: Modifier, fill: Boolean, onNa
         progress = percent / 100f, progressText = "$percent%",
     )
 }
+
+private fun bookPercent(book: BookListItem): Int =
+    if (book.pageCount > 0) (100 * (book.currentPage - 1) / book.pageCount).coerceIn(0, 99) else 0
 
 @Composable
 private fun FlashcardsCard(due: Int, modifier: Modifier, fill: Boolean, onNavigate: (Route) -> Unit) {
