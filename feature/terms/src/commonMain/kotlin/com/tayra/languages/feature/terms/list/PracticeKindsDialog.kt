@@ -108,8 +108,8 @@ fun PracticeKindsDialog(count: Int, onStart: (Set<ExerciseKind>) -> Unit, onDism
             }
             AppDivider()
             Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.xxxl, vertical = AppSpacing.l), verticalAlignment = Alignment.CenterVertically) {
-                Text(trPlural(kinds.size, "{0} question type selected", "{0} question types selected"), style = AppText.emphasis)
-                Spacer(Modifier.weight(1f))
+                // The count takes what the buttons leave, wrapping in a narrow window, so the buttons keep their size.
+                Text(trPlural(kinds.size, "{0} question type selected", "{0} question types selected"), Modifier.weight(1f).padding(end = AppSpacing.m), style = AppText.emphasis)
                 QuietButton(tr("Cancel"), onClick = onDismiss, size = ButtonSize.Large)
                 Spacer(Modifier.width(AppSpacing.s))
                 PrimaryButton(tr("Start practice"), onClick = { onStart(kinds) }, modifier = Modifier.testTag("start-practice"), enabled = kinds.isNotEmpty(), size = ButtonSize.Large)
