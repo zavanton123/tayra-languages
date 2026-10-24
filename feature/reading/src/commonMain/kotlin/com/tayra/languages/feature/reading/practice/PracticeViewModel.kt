@@ -37,6 +37,7 @@ import com.tayra.languages.core.domain.practice.WordProgress
 import com.tayra.languages.core.domain.practice.PracticeProgressRepository
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.sync.Mutex
+import com.tayra.languages.core.domain.practice.WordChoice
 
 /** How a question was answered. */
 enum class PracticeResult { CORRECT, ALMOST, TYPO, WRONG }
@@ -121,7 +122,12 @@ class PracticeViewModel(
     private fun start(only: Set<String>?) {
         _state.update { PracticeUiState(pageNumber = pageNumber, bookTitle = it.bookTitle, setup = setup, wholeBook = wholeBook) }
         viewModelScope.launch {
-            val all = attempt { material.load(source) }
+            val loaded = attempt { material.load(source) }
+            // The words the setup chooses by their progress, unless only the missed ones are asked again.
+            val all = if (loaded == null || only != null || setup.words == WordChoice.ALL) loaded else {
+                val kept = attempt { progress?.progress(loaded.words.mapNotNull { it.termId }) }.orEmpty()
+                PracticeMaterial(loaded.language, loaded.title, setup.words.of(loaded.words, kept, Clock.System.now()), loaded.pool, loaded.meanings)
+            }
             val prepared = if (all == null || only == null) all else PracticeMaterial(all.language, all.title, all.words.filter { it.text.lowercase() in only }.ifEmpty { all.words }, all.pool, all.meanings)
             if (prepared == null) {
                 _state.update { it.copy(loading = false) }

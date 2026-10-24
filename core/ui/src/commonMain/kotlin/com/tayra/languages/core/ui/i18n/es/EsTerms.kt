@@ -456,4 +456,9 @@ internal val esTerms: Map<String, String> = mapOf(
     "Hear a word and pick it among words spelled nearly like it" to "Escucha una palabra y elígela entre palabras que se escriben casi igual",
     "Adapt to my level" to "Adaptar a mi nivel",
     "New words are chosen, then built from letters, then typed" to "Las palabras nuevas se eligen, luego se forman con letras y después se escriben",
+    "New to practice" to "Sin practicar",
+    "Weakest" to "Más débiles",
+    "Not practised for a week" to "Sin practicar desde hace una semana",
+    "Needs four words with meanings" to "Necesita cuatro palabras con significado",
+    "None of the words is of the kind chosen" to "Ninguna de las palabras es del tipo elegido",
 )

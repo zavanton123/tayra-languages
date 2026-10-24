@@ -456,4 +456,9 @@ internal val deTerms: Map<String, String> = mapOf(
     "Hear a word and pick it among words spelled nearly like it" to "Ein Wort hören und es unter fast gleich geschriebenen Wörtern finden",
     "Adapt to my level" to "An mein Niveau anpassen",
     "New words are chosen, then built from letters, then typed" to "Neue Wörter werden erst gewählt, dann aus Buchstaben gebaut, dann getippt",
+    "New to practice" to "Noch nicht geübt",
+    "Weakest" to "Schwächste",
+    "Not practised for a week" to "Seit einer Woche nicht geübt",
+    "Needs four words with meanings" to "Braucht vier Wörter mit Bedeutungen",
+    "None of the words is of the kind chosen" to "Keines der Wörter passt zur Auswahl",
 )

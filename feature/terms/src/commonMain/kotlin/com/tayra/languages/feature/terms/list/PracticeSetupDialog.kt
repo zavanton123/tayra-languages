@@ -93,6 +93,10 @@ import com.tayra.languages.core.domain.practice.PracticeExample
 import com.tayra.languages.core.domain.practice.WordForms
 import com.tayra.languages.core.domain.practice.WordFamily
 import com.tayra.languages.core.ui.components.AppSwitch
+import kotlin.time.Clock
+import com.tayra.languages.core.domain.practice.PracticeProgressRepository
+import com.tayra.languages.core.domain.practice.WordProgress
+import com.tayra.languages.core.domain.practice.WordChoice
 
 /** What the setup dialog knows of the words before the practice: loaded once, when it opens. */
 data class PracticeSetupState(
@@ -109,6 +113,8 @@ data class PracticeSetupState(
     val lookingUp: Boolean = false,
     /** The words' families, by the word's key, for the questions on their forms. */
     val families: Map<String, WordFamily> = emptyMap(),
+    /** How far practice has taken each word, by term id. */
+    val progress: Map<Long, WordProgress> = emptyMap(),
 )
 
 /**
@@ -124,6 +130,7 @@ class PracticeSetupViewModel(
     private val exampleStore: PracticeExampleStore? = null,
     private val keptExamples: PracticeExampleRepository? = null,
     private val wordForms: WordForms? = null,
+    private val practiceProgress: PracticeProgressRepository? = null,
 ) : ViewModel() {
     private val _state = MutableStateFlow(PracticeSetupState())
     val state: StateFlow<PracticeSetupState> = _state.asStateFlow()
@@ -160,6 +167,7 @@ class PracticeSetupViewModel(
                 loading = false, words = words, meanings = loaded?.meanings.orEmpty(), translating = loaded != null,
                 examples = attempt { keptExamples?.forPractice(words) }.orEmpty(), lookingUp = exampleStore != null && words.isNotEmpty(),
                 families = loaded?.let { found -> attempt { wordForms?.let { forms -> words.mapNotNull { w -> forms.family(w.text, found.language)?.let { w.key to it } }.toMap() } } }.orEmpty(),
+                progress = attempt { practiceProgress?.progress(words.mapNotNull { it.termId }) }.orEmpty(),
             )
             if (loaded == null) return@launch
             launch { lookUpExamples(words) }
@@ -248,11 +256,13 @@ internal fun PracticeSetupContent(
     if (naming) {
         TextInputDialog(tr("Save as preset"), label = tr("Name"), onConfirm = { name -> naming = false; onSavePreset(name, setup) }, onDismiss = { naming = false })
     }
-    val preview = remember(state, setup) { PracticePlanner.preview(state.words, setup, state.meanings, state.translations, state.examples, state.families) }
+    val now = remember { Clock.System.now() }
+    val chosen = remember(state, setup.words) { setup.words.of(state.words, state.progress, now) }
+    val preview = remember(state, setup, chosen) { PracticePlanner.preview(chosen, setup, state.meanings, state.translations, state.examples, state.families) }
     val minutes = ((preview.questions * SECONDS_A_QUESTION + 59) / 60).coerceAtLeast(1)
     // Sentences from elsewhere are fetched when the practice starts, so they may make questions the count does not show.
     val examplesMayAsk = PracticeContext.EXAMPLE in setup.contexts && ExerciseType.GAP in setup.types
-    val canStart = !state.loading && state.words.isNotEmpty() && (preview.questions > 0 || examplesMayAsk)
+    val canStart = !state.loading && chosen.isNotEmpty() && (preview.questions > 0 || examplesMayAsk)
 
     val presets: @Composable ColumnScope.() -> Unit = {
         Section(tr("Preset")) {
@@ -321,6 +331,21 @@ internal fun PracticeSetupContent(
             }
         }
     }
+    val wordsSection: @Composable ColumnScope.() -> Unit = {
+        Section(tr("Words")) {
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                WordChoice.entries.forEach { choice ->
+                    SelectableChip(
+                        choice.label(),
+                        setup.words == choice,
+                        onClick = { setup = setup.copy(words = choice) },
+                        count = if (state.loading) null else choice.of(state.words, state.progress, now).size,
+                        modifier = Modifier.testTag("practice-words-${choice.name}"),
+                    )
+                }
+            }
+        }
+    }
     val length: @Composable ColumnScope.() -> Unit = {
         Section(tr("Length")) {
             FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
@@ -348,7 +373,7 @@ internal fun PracticeSetupContent(
                     Text(skill.label(), style = AppText.sectionTitle)
                 }
                 types.forEach { type ->
-                    TypeRow(type, type in setup.types, state, preview.of(type).let { it.words to it.need?.reason() }, answerable = type.responses.any { it in setup.responses }) {
+                    TypeRow(type, type in setup.types, state, preview.of(type).let { it.words to it.need?.reason() }, total = preview.words, answerable = type.responses.any { it in setup.responses }) {
                         setup = setup.copy(types = if (type in setup.types) setup.types - type else setup.types + type)
                     }
                 }
@@ -376,6 +401,7 @@ internal fun PracticeSetupContent(
                     presets()
                     questions()
                     answers()
+                    wordsSection()
                     sentences()
                     length()
                 }
@@ -384,6 +410,7 @@ internal fun PracticeSetupContent(
                     ScrollColumn(Modifier.width(OPTIONS_COLUMN_WIDTH), contentModifier = Modifier.padding(vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                         presets()
                         answers()
+                        wordsSection()
                         sentences()
                         length()
                     }
@@ -396,6 +423,7 @@ internal fun PracticeSetupContent(
             val summary = when {
                 state.loading -> tr("Checking…")
                 state.words.isEmpty() -> tr("No words being learned to practise")
+                chosen.isEmpty() -> tr("None of the words is of the kind chosen")
                 preview.questions > 0 -> trPlural(preview.questions, "{0} question · about {1} min", "{0} questions · about {1} min", minutes)
                 canStart -> tr("Questions on sentences from elsewhere only")
                 else -> tr("None of the ticked questions fits these words")
@@ -431,7 +459,7 @@ private fun Section(title: String, content: @Composable ColumnScope.() -> Unit) 
 
 /** A type of question to tick, with how many words it can ask about, or why none; greyed when it would ask nothing. */
 @Composable
-private fun TypeRow(type: ExerciseType, ticked: Boolean, state: PracticeSetupState, availability: Pair<Int, String?>, answerable: Boolean, onToggle: () -> Unit) {
+private fun TypeRow(type: ExerciseType, ticked: Boolean, state: PracticeSetupState, availability: Pair<Int, String?>, total: Int, answerable: Boolean, onToggle: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val (words, reason) = availability
     val idle = !state.loading && (words == 0 || !answerable)
@@ -450,10 +478,10 @@ private fun TypeRow(type: ExerciseType, ticked: Boolean, state: PracticeSetupSta
                 when {
                     state.loading -> tr("Checking…")
                     !answerable -> tr("Not answered the ways ticked")
-                    words == state.words.size -> trPlural(words, "For the word", "For all {0} words")
-                    reason == null -> tr("For {0} of {1} words", words, state.words.size)
+                    words == total -> trPlural(words, "For the word", "For all {0} words")
+                    reason == null -> tr("For {0} of {1} words", words, total)
                     type == ExerciseType.TRANSLATION && state.translating -> tr("Translating the sentences…")
-                    else -> tr("For {0} of {1} words", words, state.words.size) + " · " + reason
+                    else -> tr("For {0} of {1} words", words, total) + " · " + reason
                 },
                 style = MaterialTheme.typography.bodySmall,
                 color = if (idle) colors.error else colors.primary,

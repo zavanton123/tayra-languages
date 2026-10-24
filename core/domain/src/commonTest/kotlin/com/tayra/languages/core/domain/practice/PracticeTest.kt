@@ -230,7 +230,8 @@ class PracticeTest {
     @Test
     fun aSetupIsWrittenAndReadAsText() {
         val setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.DICTATION), responses = setOf(PracticeResponse.TYPE), contexts = setOf(PracticeContext.ORIGINAL), length = null)
-        assertEquals("types=GAP,DICTATION;responses=TYPE;contexts=ORIGINAL;length=all;adaptive=0", setup.encode())
+        assertEquals("types=GAP,DICTATION;responses=TYPE;contexts=ORIGINAL;length=all;adaptive=0;words=ALL", setup.encode())
+        assertEquals(WordChoice.WEAKEST, PracticeSetup.decode(setup.copy(words = WordChoice.WEAKEST).encode()).words)
         assertEquals(true, PracticeSetup.decode(setup.copy(adaptive = true).encode()).adaptive)
         assertEquals(setup, PracticeSetup.decode(setup.encode()))
         assertEquals(PracticeSetup(), PracticeSetup.decode(""), "nothing said: the defaults")

@@ -456,4 +456,9 @@ internal val elTerms: Map<String, String> = mapOf(
     "Hear a word and pick it among words spelled nearly like it" to "Ακούστε μια λέξη και επιλέξτε την ανάμεσα σε λέξεις που γράφονται σχεδόν ίδια",
     "Adapt to my level" to "Προσαρμογή στο επίπεδό μου",
     "New words are chosen, then built from letters, then typed" to "Οι νέες λέξεις επιλέγονται, μετά φτιάχνονται από γράμματα, μετά πληκτρολογούνται",
+    "New to practice" to "Νέες στην εξάσκηση",
+    "Weakest" to "Πιο αδύναμες",
+    "Not practised for a week" to "Χωρίς εξάσκηση εδώ και μια εβδομάδα",
+    "Needs four words with meanings" to "Χρειάζεται τέσσερις λέξεις με σημασίες",
+    "None of the words is of the kind chosen" to "Καμία από τις λέξεις δεν είναι του είδους που επιλέξατε",
 )

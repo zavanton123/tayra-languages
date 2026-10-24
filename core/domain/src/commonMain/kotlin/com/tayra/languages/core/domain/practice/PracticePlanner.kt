@@ -18,6 +18,9 @@ enum class PracticeNeed {
 
     /** The word's sentence is too short or too long to build from its words. */
     SENTENCE_LENGTH,
+
+    /** Fewer than four of the words have meanings that cannot be taken for each other. */
+    MORE_WORDS,
 }
 
 /** How many of the words a type of question can be asked of, and what the others lack. */
@@ -59,7 +62,7 @@ object PracticePlanner {
     private fun need(type: ExerciseType, words: List<PracticeWord>, translations: Map<String, String>, families: Map<String, WordFamily>): PracticeNeed? = when (type) {
         ExerciseType.MEANING -> if (words.any { it.translation.isNullOrBlank() }) PracticeNeed.WORD_MEANING else PracticeNeed.OTHER_MEANINGS
         // Up to five are matched at a time; fewer than four with meanings make no round.
-        ExerciseType.MATCHING -> PracticeNeed.WORD_MEANING.takeIf { words.count { !it.translation.isNullOrBlank() } < 4 }
+        ExerciseType.MATCHING -> PracticeNeed.MORE_WORDS.takeIf { PracticeBuilder.matching(words, Random(0)) == null }
         ExerciseType.HEAR_SENTENCE, ExerciseType.TRUE_FALSE -> PracticeNeed.WORD_MEANING
         ExerciseType.TRANSLATION -> PracticeNeed.SENTENCE_TRANSLATION.takeIf { words.any { it.sentence !in translations } }
         ExerciseType.BUILD -> if (words.any { it.sentence !in translations }) PracticeNeed.SENTENCE_TRANSLATION else PracticeNeed.SENTENCE_LENGTH

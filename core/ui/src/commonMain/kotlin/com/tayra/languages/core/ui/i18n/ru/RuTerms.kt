@@ -456,4 +456,9 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Hear a word and pick it among words spelled nearly like it" to "Прослушайте слово и выберите его среди слов с почти таким же написанием",
     "Adapt to my level" to "Подстраиваться под мой уровень",
     "New words are chosen, then built from letters, then typed" to "Новые слова сначала выбираются, потом собираются из букв, потом вводятся",
+    "New to practice" to "Ещё не тренировались",
+    "Weakest" to "Самые слабые",
+    "Not practised for a week" to "Не тренировались неделю",
+    "Needs four words with meanings" to "Нужно четыре слова со значениями",
+    "None of the words is of the kind chosen" to "Ни одно слово не подходит под выбор",
 )
