@@ -468,4 +468,8 @@ internal val plTerms: Map<String, String> = mapOf(
     "Producing" to "Używanie",
     "Right answers" to "Dobre odpowiedzi",
     "Last practised" to "Ostatnie ćwiczenie",
+    "Shadowing" to "Powtarzanie",
+    "Hear a sentence and say it back" to "Posłuchaj zdania i powtórz je",
+    "Speak" to "Mów",
+    "Speaking" to "Mówienie",
 )

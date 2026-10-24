@@ -217,7 +217,7 @@ class PracticeTest {
     fun anAdaptingSetupAsksEachWordAtItsLevel() {
         val setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = PracticeResponse.entries.toSet(), length = null, adaptive = true)
         val asked = PracticeBuilder.build(words, pageWords, random = Random(1), setup = setup, levels = mapOf("moro" to 3, "semana" to 1))
-        assertTrue(asked.filter { it.word == "moro" }.all { it.response == PracticeResponse.TYPE })
+        assertTrue(asked.filter { it.word == "moro" }.all { it.response == PracticeResponse.TYPE || it.response == PracticeResponse.SPEAK })
         assertTrue(asked.filter { it.word == "semana" }.all { it.response == PracticeResponse.TILES || it.response == PracticeResponse.CHOOSE })
         assertTrue(asked.filter { it.word == "comprar" }.all { it.response == PracticeResponse.CHOOSE }, "a word never practised is recognised first")
         // A way the setup leaves out is not asked even where the level calls for it.
@@ -361,5 +361,44 @@ class PracticeTest {
         assertEquals(TypedResult.WRONG, PracticeChecker.check("comprar", "comprou"))
         assertEquals(TypedResult.WRONG, PracticeChecker.check("casa", "cosa"), "too short to be sure")
         assertEquals(TypedResult.WRONG, PracticeChecker.check("supermercado", "supermrcdo"), "two slips")
+    }
+
+    /** Said aloud, a gap or translation keeps its sentence to say; a sentence repeated is the whole sentence, heard first. */
+    @Test
+    fun spokenAnswersSayTheSentence() {
+        val said = PracticeBuilder.build(words, pageWords, random = Random(1), setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.SHADOW), responses = setOf(PracticeResponse.SPEAK)))
+        assertTrue(said.isNotEmpty() && said.all { it.response == PracticeResponse.SPEAK && !it.isChoice && it.tiles.isEmpty() }, "said: ${said.map { it.kind }}")
+        val shadow = said.first { it.type == ExerciseType.SHADOW }
+        assertEquals(shadow.sentence, shadow.answer)
+        assertEquals(shadow.sentence, shadow.spoken)
+        assertTrue(shadow.wholeSentence)
+        assertEquals(emptyList(), PracticeBuilder.build(words, pageWords, random = Random(1), setup = PracticeSetup(types = setOf(ExerciseType.SHADOW), responses = setOf(PracticeResponse.TYPE))), "a sentence repeated is only said")
+    }
+
+    /** Where nothing can be said, answers said are typed and sentences repeated are written down. */
+    @Test
+    fun withoutSpeakingAnswersAreTyped() {
+        assertEquals(PracticeSetup(types = setOf(ExerciseType.DICTATION), responses = setOf(PracticeResponse.TYPE)), PracticeSetup(types = setOf(ExerciseType.SHADOW), responses = setOf(PracticeResponse.SPEAK)).withoutSpeaking())
+        assertEquals(setOf(PracticeResponse.CHOOSE), PracticeSetup(responses = setOf(PracticeResponse.CHOOSE, PracticeResponse.SPEAK)).withoutSpeaking().responses)
+        val plain = PracticeSetup()
+        assertTrue(plain.withoutSpeaking() === plain)
+    }
+
+    @Test
+    fun aSpokenWordCountsWhenItIsHeard() {
+        assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("Eu moro no Brasil", "moro", "Eu moro no Brasil."))
+        assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("eu moro no brasil com a minha familia", "família", ""), "accents are the recogniser's")
+        assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("vou fazer compras por favor", "por favor", ""), "several words")
+        assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("eu morei no Brasil", "moro", "Eu moro no Brasil."))
+        assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("  ", "moro", "Eu moro no Brasil."))
+        assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("amoroso", "moro", ""), "a word, not part of one")
+    }
+
+    @Test
+    fun aRepeatedSentenceCountsByTheShareOfItsWordsHeard() {
+        val sentence = "Durante a semana, tenho uma rotina bastante organizada e muito cheia."
+        assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("durante a semana tenho uma rotina bastante organizada e muito cheia", null, sentence))
+        assertEquals(TypedResult.ALMOST, PracticeChecker.checkSpoken("durante a semana tenho uma rotina bastante organizada e cheia", null, sentence), "ten of eleven")
+        assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("durante a semana tenho", null, sentence))
     }
 }

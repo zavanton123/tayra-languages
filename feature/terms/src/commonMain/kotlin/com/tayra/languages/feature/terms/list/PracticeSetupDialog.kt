@@ -97,6 +97,9 @@ import kotlin.time.Clock
 import com.tayra.languages.core.domain.practice.PracticeProgressRepository
 import com.tayra.languages.core.domain.practice.WordProgress
 import com.tayra.languages.core.domain.practice.WordChoice
+import com.tayra.languages.core.domain.practice.SpeechRecognition
+import com.tayra.languages.core.domain.language.LanguageCodes
+import androidx.compose.runtime.LaunchedEffect
 
 /** What the setup dialog knows of the words before the practice: loaded once, when it opens. */
 data class PracticeSetupState(
@@ -115,6 +118,8 @@ data class PracticeSetupState(
     val families: Map<String, WordFamily> = emptyMap(),
     /** How far practice has taken each word, by term id. */
     val progress: Map<Long, WordProgress> = emptyMap(),
+    /** Answers can be said aloud: something here hears the words' language. */
+    val speaking: Boolean = false,
 )
 
 /**
@@ -131,6 +136,7 @@ class PracticeSetupViewModel(
     private val keptExamples: PracticeExampleRepository? = null,
     private val wordForms: WordForms? = null,
     private val practiceProgress: PracticeProgressRepository? = null,
+    private val speech: SpeechRecognition? = null,
 ) : ViewModel() {
     private val _state = MutableStateFlow(PracticeSetupState())
     val state: StateFlow<PracticeSetupState> = _state.asStateFlow()
@@ -168,6 +174,7 @@ class PracticeSetupViewModel(
                 examples = attempt { keptExamples?.forPractice(words) }.orEmpty(), lookingUp = exampleStore != null && words.isNotEmpty(),
                 families = loaded?.let { found -> attempt { wordForms?.let { forms -> words.mapNotNull { w -> forms.family(w.text, found.language)?.let { w.key to it } }.toMap() } } }.orEmpty(),
                 progress = attempt { practiceProgress?.progress(words.mapNotNull { it.termId }) }.orEmpty(),
+                speaking = loaded?.let { found -> LanguageCodes.codeFor(found.language.name)?.let { code -> attempt { speech?.isAvailable(code) } } } == true,
             )
             if (loaded == null) return@launch
             launch { lookUpExamples(words) }
@@ -256,6 +263,8 @@ internal fun PracticeSetupContent(
     if (naming) {
         TextInputDialog(tr("Save as preset"), label = tr("Name"), onConfirm = { name -> naming = false; onSavePreset(name, setup) }, onDismiss = { naming = false })
     }
+    // Nothing here hears the language: what was to be said is typed.
+    LaunchedEffect(state.loading, state.speaking) { if (!state.loading && !state.speaking) setup = setup.withoutSpeaking() }
     val now = remember { Clock.System.now() }
     val chosen = remember(state, setup.words) { setup.words.of(state.words, state.progress, now) }
     val preview = remember(state, setup, chosen) { PracticePlanner.preview(chosen, setup, state.meanings, state.translations, state.examples, state.families) }
@@ -269,7 +278,7 @@ internal fun PracticeSetupContent(
             FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 // A preset sets what is asked; the length and the adapting stay as chosen.
                 val current = PracticePreset.of(setup)
-                PracticePreset.entries.forEach { preset ->
+                PracticePreset.entries.filter { state.speaking || it != PracticePreset.SPEAKING }.forEach { preset ->
                     SelectableChip(preset.label(), current == preset, onClick = { setup = preset.setup.copy(length = setup.length, adaptive = setup.adaptive) }, modifier = Modifier.testTag("practice-preset-${preset.name}"))
                 }
                 // The learner's own keep their length too: they are the whole setup saved.
@@ -292,7 +301,7 @@ internal fun PracticeSetupContent(
     val answers: @Composable ColumnScope.() -> Unit = {
         Section(tr("Answer by")) {
             FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                PracticeResponse.entries.forEach { response ->
+                PracticeResponse.entries.filter { state.speaking || it != PracticeResponse.SPEAK }.forEach { response ->
                     val on = response in setup.responses
                     SelectableChip(response.label(), on, onClick = { setup = setup.copy(responses = if (on) setup.responses - response else setup.responses + response) }, leading = ChipLeading.Check, modifier = Modifier.testTag("practice-response-${response.name}"))
                 }
@@ -358,7 +367,7 @@ internal fun PracticeSetupContent(
     val questions: @Composable ColumnScope.() -> Unit = {
         Section(tr("Questions")) {
             PracticeSkill.entries.forEach { skill ->
-                val types = ExerciseType.entries.filter { it.skill == skill }
+                val types = ExerciseType.entries.filter { it.skill == skill && (state.speaking || it != ExerciseType.SHADOW) }
                 val ticked = types.count { it in setup.types }
                 Row(Modifier.fillMaxWidth().heightIn(min = AppSizes.touch), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                     AppTriStateCheckbox(

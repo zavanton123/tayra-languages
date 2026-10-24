@@ -43,7 +43,7 @@ data class WordProgress(
             Level(setOf(PracticeResponse.CHOOSE), upAfter = 2, downAfter = null),
             Level(setOf(PracticeResponse.TILES, PracticeResponse.CHOOSE), upAfter = 2, downAfter = 2),
             Level(setOf(PracticeResponse.TYPE, PracticeResponse.TILES), upAfter = 3, downAfter = 1),
-            Level(setOf(PracticeResponse.TYPE), upAfter = null, downAfter = 1),
+            Level(setOf(PracticeResponse.TYPE, PracticeResponse.SPEAK), upAfter = null, downAfter = 1),
         )
         val TOP = LEVELS.lastIndex
     }

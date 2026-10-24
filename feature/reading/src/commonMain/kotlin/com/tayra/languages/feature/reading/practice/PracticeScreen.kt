@@ -140,6 +140,9 @@ fun PracticeScreen(
                 onRestartMissed = viewModel::startMissed,
                 onBack = onBack,
                 onSpeak = { text -> speaker.speak(text, state.languageCode) },
+                onListen = { speaker.stop(); viewModel.listen() },
+                onStopListening = viewModel::stopListening,
+                onTypeInstead = viewModel::typeInstead,
             ),
             modifier = Modifier.padding(padding),
             onClose = if (dialog) onBack else null,
@@ -184,6 +187,10 @@ internal class PracticeActions(
     val onBack: () -> Unit = {},
     /** Reads text aloud; null when there is nothing to read it with, which hides the listen buttons. */
     val onSpeak: ((String) -> Unit)? = null,
+    /** Starts hearing the answer said aloud. */
+    val onListen: () -> Unit = {},
+    val onStopListening: () -> Unit = {},
+    val onTypeInstead: () -> Unit = {},
 )
 
 private const val BLANK = "[...]"
@@ -212,6 +219,7 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
                     when {
                         state.answered && enter -> actions.onNext()
                         state.answered -> return@onPreviewKeyEvent false
+                        exercise.response == PracticeResponse.SPEAK -> return@onPreviewKeyEvent false
                         !exercise.isChoice && enter -> actions.onSubmit()
                         exercise.isChoice -> {
                             val option = listOf(Key.One, Key.Two, Key.Three, Key.Four).indexOf(event.key).takeIf { it >= 0 }?.let { exercise.options.getOrNull(it) }
@@ -261,6 +269,9 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
                     exercise == null -> Finished(state, actions)
                     else -> {
                         ProgressStrip(state)
+                        if (state.speakingRefused) {
+                            Notice(tr("The microphone could not be used"), Modifier.testTag("practice-speaking-refused"), message = tr("Type the answers instead."), icon = AppIcons.Mic)
+                        }
                         Question(state, exercise, actions, compact)
                     }
                 }
@@ -291,6 +302,7 @@ private val Exercise.instruction: String
             PracticeResponse.CHOOSE -> if (context == PracticeContext.EXAMPLE) tr("A new sentence: choose the missing word") else tr("Choose the missing word")
             PracticeResponse.TILES -> if (context == PracticeContext.EXAMPLE) tr("A new sentence: build the missing word") else tr("Build the missing word from the letters")
             PracticeResponse.TYPE -> if (context == PracticeContext.EXAMPLE) tr("A new sentence: type the missing word") else tr("Type the missing word")
+            PracticeResponse.SPEAK -> if (context == PracticeContext.EXAMPLE) tr("A new sentence: say it with the missing word") else tr("Say the sentence with the missing word")
         }
         ExerciseType.MEANING -> tr("What does the marked word mean?")
         ExerciseType.MATCHING -> tr("Match each word with its meaning")
@@ -298,17 +310,19 @@ private val Exercise.instruction: String
         ExerciseType.TRUE_FALSE -> tr("Is this what the marked word means?")
         ExerciseType.HEAR_SENTENCE -> tr("Listen to the sentence")
         ExerciseType.HEAR_WORD -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
+        ExerciseType.SHADOW -> tr("Listen and say the sentence")
         ExerciseType.DICTATION -> if (wholeSentence) tr("Listen and type the sentence") else tr("Listen and type the missing word")
         ExerciseType.BUILD -> tr("Put the words in order")
         ExerciseType.FORM -> when (response) {
             PracticeResponse.CHOOSE -> tr("Choose the form of “{0}” that fits", lemma.orEmpty())
             PracticeResponse.TILES -> tr("Build the form of “{0}” that fits", lemma.orEmpty())
-            PracticeResponse.TYPE -> tr("Type the form of “{0}” that fits", lemma.orEmpty())
+            PracticeResponse.TYPE, PracticeResponse.SPEAK -> tr("Type the form of “{0}” that fits", lemma.orEmpty())
         }
         ExerciseType.TRANSLATION -> when (response) {
             PracticeResponse.CHOOSE -> tr("Read the translation and choose the missing word")
             PracticeResponse.TILES -> tr("Read the translation and build the missing word")
             PracticeResponse.TYPE -> tr("Read the translation and type the missing word")
+            PracticeResponse.SPEAK -> tr("Read the translation and say the sentence")
         }
     }
 
@@ -393,12 +407,13 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
             )
         }
         // A typed gap gets the sentence's meaning as a hint; elsewhere it would give the answer away, so it waits.
-        val hintShown = answered || (exercise.type == ExerciseType.GAP && exercise.response == PracticeResponse.TYPE) || exercise.type == ExerciseType.FORM
+        val hintShown = answered || (exercise.type == ExerciseType.GAP && (exercise.response == PracticeResponse.TYPE || exercise.response == PracticeResponse.SPEAK)) || exercise.type == ExerciseType.FORM
         if (hintShown && !fromTranslation) state.sentenceTranslation?.let { translationBox(it) }
 
         when {
             exercise.isChoice -> Choices(state, exercise, actions, compact)
             exercise.tiles.isNotEmpty() -> TilesAnswer(state, exercise, actions)
+            exercise.response == PracticeResponse.SPEAK -> SpokenAnswer(state, actions)
             else -> TypedAnswer(state, exercise, actions)
         }
 
@@ -412,7 +427,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
             Spacer(Modifier.weight(1f))
             when {
                 answered -> PrimaryButton(if (state.index + 1 >= state.exercises.size) tr("See the result") else tr("Continue"), onClick = actions.onNext, size = ButtonSize.Large)
-                !exercise.isChoice -> PrimaryButton(tr("Check"), onClick = actions.onSubmit, enabled = state.typed.isNotBlank(), size = ButtonSize.Large)
+                !exercise.isChoice && exercise.response != PracticeResponse.SPEAK -> PrimaryButton(tr("Check"), onClick = actions.onSubmit, enabled = state.typed.isNotBlank(), size = ButtonSize.Large)
             }
         }
     }
@@ -567,6 +582,38 @@ private fun TypedAnswer(state: PracticeUiState, exercise: Exercise, actions: Pra
     )
 }
 
+/** The answer said aloud: a button to start and stop hearing it, what was heard, and the way to type it instead. */
+@Composable
+private fun SpokenAnswer(state: PracticeUiState, actions: PracticeActions) {
+    Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        if (!state.answered) {
+            PrimaryButton(
+                if (state.listening) tr("Stop") else tr("Speak"),
+                onClick = if (state.listening) actions.onStopListening else actions.onListen,
+                icon = AppIcons.Mic,
+                size = ButtonSize.Large,
+                modifier = Modifier.testTag("practice-speak"),
+            )
+        }
+        val note = when {
+            state.listening -> tr("Listening…")
+            state.typed.isNotBlank() -> tr("Heard: {0}", state.typed)
+            state.nothingHeard -> tr("Nothing was heard. Try again.")
+            else -> null
+        }
+        note?.let {
+            Text(
+                it,
+                Modifier.testTag("practice-heard"),
+                style = MaterialTheme.typography.titleMedium.copy(textDirection = if (state.rightToLeft) TextDirection.Rtl else TextDirection.Ltr),
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                textAlign = TextAlign.Center,
+            )
+        }
+        if (!state.answered) QuietButton(tr("Type instead"), onClick = actions.onTypeInstead, modifier = Modifier.testTag("practice-type-instead"))
+    }
+}
+
 /** The sentence expected, word by word as it was typed: right, right but for accents, wrong (with what was typed), or missing. */
 @Composable
 private fun SentenceCheck(expected: String, typed: String) {
@@ -597,7 +644,8 @@ private fun SentenceCheck(expected: String, typed: String) {
 private fun Feedback(state: PracticeUiState, exercise: Exercise) {
     val (tint, title) = when (state.result) {
         PracticeResult.CORRECT -> AppAccents.green to tr("Correct")
-        PracticeResult.ALMOST -> AppAccents.amber to tr("Almost: mind the accents")
+        // Said aloud, almost is a sentence most of whose words were heard.
+        PracticeResult.ALMOST -> AppAccents.amber to if (exercise.response == PracticeResponse.SPEAK) tr("Almost: most of the words were heard") else tr("Almost: mind the accents")
         PracticeResult.TYPO -> AppAccents.amber to tr("Almost: mind the spelling")
         else -> AppAccents.red to tr("Not quite")
     }

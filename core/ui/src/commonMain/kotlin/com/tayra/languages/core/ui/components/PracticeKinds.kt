@@ -22,6 +22,7 @@ fun ExerciseType.label(): String = when (this) {
     ExerciseType.HEAR_SENTENCE -> tr("Hear the sentence")
     ExerciseType.DICTATION -> tr("Dictation")
     ExerciseType.SOUND_ALIKE -> tr("Sound-alike")
+    ExerciseType.SHADOW -> tr("Shadowing")
     ExerciseType.TRANSLATION -> tr("From the translation")
     ExerciseType.BUILD -> tr("Build the sentence")
     ExerciseType.FORM -> tr("Right form")
@@ -37,6 +38,7 @@ fun ExerciseType.description(): String = when (this) {
     ExerciseType.HEAR_SENTENCE -> tr("Hear a sentence and find the word that means what is shown")
     ExerciseType.DICTATION -> tr("Hear the sentence and type the missing word, or all of a short one")
     ExerciseType.SOUND_ALIKE -> tr("Hear a word and pick it among words spelled nearly like it")
+    ExerciseType.SHADOW -> tr("Hear a sentence and say it back")
     ExerciseType.TRANSLATION -> tr("Read what the sentence means and find the missing word")
     ExerciseType.BUILD -> tr("Put the sentence's words in order from its translation")
     ExerciseType.FORM -> tr("Find the form of the word that fits the sentence")
@@ -51,6 +53,7 @@ fun ExerciseType.icon(): ImageVector = when (this) {
     ExerciseType.HEAR_SENTENCE -> AppIcons.Headphones
     ExerciseType.DICTATION -> AppIcons.RecordVoiceOver
     ExerciseType.SOUND_ALIKE -> AppIcons.Speed
+    ExerciseType.SHADOW -> AppIcons.Mic
     ExerciseType.TRANSLATION -> AppIcons.Translate
     ExerciseType.BUILD -> AppIcons.SwapVert
     ExerciseType.FORM -> AppIcons.Abc
@@ -67,12 +70,14 @@ fun PracticeResponse.label(): String = when (this) {
     PracticeResponse.CHOOSE -> tr("Choose")
     PracticeResponse.TILES -> tr("Letter tiles")
     PracticeResponse.TYPE -> tr("Type")
+    PracticeResponse.SPEAK -> tr("Speak")
 }
 
 fun PracticeResponse.icon(): ImageVector = when (this) {
     PracticeResponse.CHOOSE -> AppIcons.ViewList
     PracticeResponse.TILES -> AppIcons.GridView
     PracticeResponse.TYPE -> Icons.Default.Edit
+    PracticeResponse.SPEAK -> AppIcons.Mic
 }
 
 fun PracticeContext.label(): String = when (this) {
@@ -102,4 +107,5 @@ fun PracticePreset.label(): String = when (this) {
     PracticePreset.BALANCED -> tr("Balanced")
     PracticePreset.LISTENING -> tr("Listening")
     PracticePreset.WRITING -> tr("Writing")
+    PracticePreset.SPEAKING -> tr("Speaking")
 }

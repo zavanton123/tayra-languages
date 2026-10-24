@@ -25,8 +25,8 @@ enum class PracticeSkill { READING, LISTENING, TRANSLATION, WORD_FORMS }
 /** A word's family: the form a dictionary lists it under, and all its forms, lowercase. */
 data class WordFamily(val lemma: String, val forms: Set<String>)
 
-/** How a question is answered: choosing among four, building the word from its letters, or typing it. */
-enum class PracticeResponse { CHOOSE, TILES, TYPE }
+/** How a question is answered: choosing among four, building the word from its letters, typing it, or saying it. */
+enum class PracticeResponse { CHOOSE, TILES, TYPE, SPEAK }
 
 /** Where a question's sentence comes from. */
 enum class PracticeContext {
@@ -40,7 +40,7 @@ enum class PracticeContext {
 /** A type of question, with the [skill] it trains and the ways it can be answered. */
 enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeResponse>) {
     /** The sentence with the word blanked out: choose or type the word. */
-    GAP(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES, PracticeResponse.TYPE)),
+    GAP(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES, PracticeResponse.TYPE, PracticeResponse.SPEAK)),
 
     /** The sentence whole, the word marked: choose what the word means. Needs the word's translation. */
     MEANING(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE)),
@@ -58,7 +58,7 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
      * The sentence is read aloud, its text hidden, and the word's meaning given: choose the word
      * among the sentence's other words, or type it. Needs the word's translation.
      */
-    HEAR_SENTENCE(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES, PracticeResponse.TYPE)),
+    HEAR_SENTENCE(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES, PracticeResponse.TYPE, PracticeResponse.SPEAK)),
 
     /** The sentence is read aloud: type the missing word, or all of a short sentence. */
     DICTATION(PracticeSkill.LISTENING, setOf(PracticeResponse.TYPE)),
@@ -66,8 +66,11 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
     /** The word is read aloud alone: pick it among words spelled nearly like it (its other forms, or others). Needs three such words. */
     SOUND_ALIKE(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE)),
 
+    /** The sentence is read aloud: say it back; right when most of its words are heard. */
+    SHADOW(PracticeSkill.LISTENING, setOf(PracticeResponse.SPEAK)),
+
     /** The sentence's translation over the sentence with the word blanked out: choose or type the word. Needs the translation. */
-    TRANSLATION(PracticeSkill.TRANSLATION, setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES, PracticeResponse.TYPE)),
+    TRANSLATION(PracticeSkill.TRANSLATION, setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES, PracticeResponse.TYPE, PracticeResponse.SPEAK)),
 
     /** The sentence's translation, and the sentence's words shuffled: put them in order. Needs the translation and a sentence of 3 to 8 words. */
     BUILD(PracticeSkill.TRANSLATION, setOf(PracticeResponse.TILES)),
@@ -94,6 +97,17 @@ data class PracticeSetup(
     /** Which of the words are practised. */
     val words: WordChoice = WordChoice.ALL,
 ) {
+    /**
+     * This setup where nothing can be said aloud: answers said are typed instead, and sentences
+     * repeated after the voice are written down from it.
+     */
+    fun withoutSpeaking(): PracticeSetup =
+        if (PracticeResponse.SPEAK !in responses && ExerciseType.SHADOW !in types) this
+        else copy(
+            responses = (responses - PracticeResponse.SPEAK).ifEmpty { setOf(PracticeResponse.TYPE) },
+            types = (types - ExerciseType.SHADOW).ifEmpty { setOf(ExerciseType.DICTATION) },
+        )
+
     /** The questions asked, in the order they come round: those answered by choosing first, then those typed. */
     val rotation: List<Pair<ExerciseType, PracticeResponse>> =
         PracticeResponse.entries.filter { it in responses }.flatMap { response -> ExerciseType.entries.filter { it in types && response in it.responses }.map { it to response } }
@@ -235,7 +249,7 @@ object PracticeBuilder {
     private const val SHORT_SENTENCE_WORDS = 8
 
     /** The types a sentence from elsewhere can be asked in: those about the sentence, not the word alone or its meaning. */
-    private val EXAMPLE_TYPES = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.TRANSLATION, ExerciseType.BUILD, ExerciseType.DICTATION)
+    private val EXAMPLE_TYPES = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.TRANSLATION, ExerciseType.BUILD, ExerciseType.DICTATION, ExerciseType.SHADOW)
 
     /** Sentences built from their words have this many words at least, and [MAX_BUILT] at most. */
     private const val MIN_BUILT = 3
@@ -375,6 +389,7 @@ object PracticeBuilder {
         val base = Exercise(type, response, PracticeContext.ORIGINAL, word.text, word.translation, word.sentence, word.range, answer = word.text, termId = word.termId)
         return when (type) {
             ExerciseType.MATCHING -> null
+            ExerciseType.SHADOW -> base.copy(spoken = word.sentence, answer = word.sentence, wholeSentence = true)
             ExerciseType.SOUND_ALIKE -> {
                 val own = word.key
                 val near = (pool.families[own]?.forms.orEmpty() + pool.alikes[own].orEmpty().map { it.lowercase() })
@@ -478,7 +493,8 @@ object PracticeBuilder {
     private fun answered(question: Exercise, response: PracticeResponse, word: PracticeWord, targets: List<PracticeWord>, pool: WrongChoices, random: Random): Exercise? = when (response) {
         PracticeResponse.CHOOSE -> question.copy(options = wordChoices(word, targets, pool, random))
         PracticeResponse.TILES -> tiles(word.text, pool, random)?.let { question.copy(tiles = it) }
-        PracticeResponse.TYPE -> question
+        // Said, the learner says the whole sentence; it counts when the word is heard in it.
+        PracticeResponse.TYPE, PracticeResponse.SPEAK -> question
     }
 
     /** The letters of [answer], shuffled, with [EXTRA_TILES] letters of the page that are not among them; null for a long word or several. */
@@ -615,6 +631,28 @@ object PracticeChecker {
         flush()
         return checks
     }
+
+    /**
+     * What was [heard] said aloud, against the [word] the sentence was to hold, or the sentence
+     * [expected] repeated whole when there is no word: right when the word is among the words
+     * heard, or when every word of the sentence was; almost when [SHADOW_SHARE] of them were. The
+     * recogniser writes what it hears, so accents are not held against the learner.
+     */
+    fun checkSpoken(heard: String, word: String?, expected: String): TypedResult {
+        val said = unaccented(normalize(heard))
+        if (said.isEmpty()) return TypedResult.WRONG
+        if (word != null) return if (" ${unaccented(normalize(word))} " in " $said ") TypedResult.CORRECT else TypedResult.WRONG
+        val words = compareWords(expected, heard)
+        val share = words.count { it.result == WordResult.RIGHT || it.result == WordResult.ACCENT }.toDouble() / words.size.coerceAtLeast(1)
+        return when {
+            share >= 1.0 -> TypedResult.CORRECT
+            share >= SHADOW_SHARE -> TypedResult.ALMOST
+            else -> TypedResult.WRONG
+        }
+    }
+
+    /** The share of a repeated sentence's words that must be heard for it to count. */
+    const val SHADOW_SHARE = 0.8
 
     private fun normalize(text: String): String =
         text.lowercase().map { if (it.isLetterOrDigit() || it == '\'' || it == '’') it else ' ' }.joinToString("")

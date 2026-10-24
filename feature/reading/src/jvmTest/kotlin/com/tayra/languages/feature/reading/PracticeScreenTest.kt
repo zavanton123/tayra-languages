@@ -59,6 +59,10 @@ import com.tayra.languages.feature.reading.practice.PracticeContent
 import com.tayra.languages.feature.reading.practice.PracticeResult
 import com.tayra.languages.feature.reading.practice.PracticeViewModel
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.CompletableDeferred
+import com.tayra.languages.core.domain.practice.Heard
+import com.tayra.languages.core.domain.practice.SpeechRecognition
+import com.tayra.languages.core.domain.practice.PracticePreset
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.random.Random
@@ -94,7 +98,23 @@ class PracticeScreenTest {
 
     private val progress = PracticeProgressRepositoryImpl(provider)
 
-    private fun ComposeUiTest.show(seed: Int = 7, setup: PracticeSetup = PracticeSetup(), forms: WordForms? = null): PracticeViewModel {
+    /** Hears what [answer] says for the question on show; until [heard] is completed when it is set, it is still listening. */
+    private class FakeSpeech(private val available: Boolean = true) : SpeechRecognition {
+        var answer: () -> Heard = { Heard.Nothing }
+        var heard: CompletableDeferred<Unit>? = null
+        var stopped = false
+        override suspend fun isAvailable(languageCode: String) = available && languageCode == "pt"
+        override suspend fun listen(languageCode: String): Heard {
+            heard?.await()
+            return answer()
+        }
+        override fun stop() {
+            stopped = true
+            heard?.complete(Unit)
+        }
+    }
+
+    private fun ComposeUiTest.show(seed: Int = 7, setup: PracticeSetup = PracticeSetup(), forms: WordForms? = null, speech: SpeechRecognition? = null): PracticeViewModel {
         runBlocking {
             languageId = languages.save(Language(name = "Portuguese"))
             bookId = BookService(books, languages).create(BookDraft(languageId = languageId, title = "Long text", text = text))
@@ -106,7 +126,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), setup, PracticeMaterialLoader(books, languages, reading, terms), PracticeExampleStore(kept, examples, WordForms(null, terms), terms, languages, settings, translator), kept, translator, forms, progress, Random(seed))
+        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), setup, PracticeMaterialLoader(books, languages, reading, terms), PracticeExampleStore(kept, examples, WordForms(null, terms), terms, languages, settings, translator), kept, translator, forms, progress, speech, Random(seed))
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -118,6 +138,7 @@ class PracticeScreenTest {
                                 PracticeActions(
                                     onChoose = viewModel::choose, onMatch = viewModel::match, onTyped = viewModel::setTyped, onSubmit = viewModel::submit, onSkip = viewModel::skip,
                                     onNext = viewModel::next, onRestart = viewModel::start, onRestartMissed = viewModel::startMissed, onSpeak = { spoken += it },
+                                    onListen = viewModel::listen, onStopListening = viewModel::stopListening, onTypeInstead = viewModel::typeInstead,
                                 ),
                             )
                         }
@@ -492,5 +513,81 @@ class PracticeScreenTest {
         val missedWords = missed.map { it.lowercase() }.toSet()
         assertTrue(again.all { (if (it.context == PracticeContext.EXAMPLE) it.answer else it.word).lowercase() in missedWords }, "the questions are on the missed words only")
         waitUntil(timeoutMillis = 10_000) { onAllNodesWithText("Question 1 of ${again.size}").fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    /** Said aloud, a gap counts when its word is heard; nothing made out leaves it to try again. */
+    @Test
+    fun aSpokenAnswerIsHeardAndChecked() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val speech = FakeSpeech()
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.SPEAK)), speech = speech)
+        val first = viewModel.state.value.current!!
+        assertEquals(PracticeResponse.SPEAK, first.response)
+        onNodeWithText("SAY THE SENTENCE WITH THE MISSING WORD").assertExists()
+        onNodeWithTag("practice-speak").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Nothing was heard. Try again.").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(!viewModel.state.value.answered)
+
+        speech.answer = { Heard.Words(first.sentence) }
+        onNodeWithTag("practice-speak").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Heard: ${first.sentence}").assertExists()
+        shot("spoken-gap")
+        viewModel.next()
+
+        val second = viewModel.state.value.current!!
+        speech.answer = { Heard.Words(second.sentence.replace(second.word, "nada")) }
+        onNodeWithTag("practice-speak").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not quite").fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    /** A sentence repeated after the voice is heard first and checked word by word; stopping early checks what was said so far. */
+    @Test
+    fun aSentenceIsRepeatedAfterTheVoice() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val speech = FakeSpeech()
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.SHADOW), responses = setOf(PracticeResponse.SPEAK)), speech = speech)
+        val exercise = viewModel.state.value.current!!
+        assertEquals(ExerciseType.SHADOW, exercise.type)
+        waitUntil(timeoutMillis = 5_000) { exercise.sentence in spoken }
+        onAllNodesWithTag("practice-sentence").fetchSemanticsNodes().let { assertTrue(it.isEmpty(), "the sentence waits until it is said") }
+        val words = exercise.sentence.split(" ")
+        speech.heard = CompletableDeferred()
+        speech.answer = { Heard.Words(words.dropLast(1).joinToString(" ")) }
+        onNodeWithTag("practice-speak").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Listening…").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Stop").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered }
+        assertTrue(speech.stopped)
+        assertEquals(if (words.size >= 5) PracticeResult.ALMOST else PracticeResult.WRONG, viewModel.state.value.result)
+        onNodeWithTag("practice-sentence-check").assertExists()
+        shot("shadowing")
+    }
+
+    /** A refused microphone turns the rest of the answers to be said into typed ones; one can also be typed by choice. */
+    @Test
+    fun answersAreTypedWhenTheMicrophoneIsRefused() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val speech = FakeSpeech()
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.SPEAK), length = null), speech = speech)
+        onNodeWithTag("practice-type-instead").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("practice-input").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(PracticeResponse.SPEAK, viewModel.state.value.exercises[1].response, "only the one on show is typed")
+        viewModel.skip()
+        viewModel.next()
+
+        speech.answer = { Heard.Refused }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("practice-speak").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("practice-speak").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("practice-speaking-refused").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("practice-input").assertExists()
+        assertTrue(viewModel.state.value.exercises.drop(1).none { it.response == PracticeResponse.SPEAK })
+    }
+
+    /** Where nothing can hear the learner, a speaking setup is typed: sentences to repeat are written down instead. */
+    @Test
+    fun withoutARecogniserSpeakingIsTyped() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(setup = PracticePreset.SPEAKING.setup, speech = FakeSpeech(available = false))
+        val state = viewModel.state.value
+        assertTrue(PracticeResponse.SPEAK !in state.setup.responses && ExerciseType.SHADOW !in state.setup.types)
+        assertTrue(state.exercises.isNotEmpty() && state.exercises.all { it.response == PracticeResponse.TYPE })
+        onAllNodesWithTag("practice-speak").fetchSemanticsNodes().let { assertTrue(it.isEmpty()) }
     }
 }

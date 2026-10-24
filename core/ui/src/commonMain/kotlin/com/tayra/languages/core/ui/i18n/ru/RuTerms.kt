@@ -468,4 +468,8 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Producing" to "Употребление",
     "Right answers" to "Верные ответы",
     "Last practised" to "Последняя тренировка",
+    "Shadowing" to "Повторение вслух",
+    "Hear a sentence and say it back" to "Прослушайте предложение и повторите его",
+    "Speak" to "Говорить",
+    "Speaking" to "Говорение",
 )

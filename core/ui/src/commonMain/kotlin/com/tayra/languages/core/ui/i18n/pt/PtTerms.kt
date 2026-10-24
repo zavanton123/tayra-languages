@@ -468,4 +468,8 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Producing" to "Usar",
     "Right answers" to "Respostas certas",
     "Last practised" to "Última prática",
+    "Shadowing" to "Repetição em voz alta",
+    "Hear a sentence and say it back" to "Ouça uma frase e repita-a",
+    "Speak" to "Falar",
+    "Speaking" to "Fala",
 )

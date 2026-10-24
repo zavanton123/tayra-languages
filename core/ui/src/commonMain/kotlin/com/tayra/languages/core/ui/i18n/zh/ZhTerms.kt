@@ -468,4 +468,8 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Producing" to "运用",
     "Right answers" to "答对",
     "Last practised" to "上次练习",
+    "Shadowing" to "跟读",
+    "Hear a sentence and say it back" to "听一句话并跟着说出来",
+    "Speak" to "说",
+    "Speaking" to "口语",
 )

@@ -1,6 +1,7 @@
 package com.tayra.languages.feature.terms.list
 
 import androidx.compose.ui.graphics.toAwtImage
+import androidx.compose.ui.test.assertCountEquals
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.assertIsEnabled
@@ -8,6 +9,7 @@ import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performScrollTo
@@ -56,7 +58,7 @@ class PracticeSetupDialogTest {
     private val saved = mutableListOf<SavedPreset>()
     private val removed = mutableListOf<String>()
 
-    private fun ComposeUiTest.show(initial: PracticeSetup = PracticePreset.DEFAULT.setup, own: List<SavedPreset> = emptyList()) {
+    private fun ComposeUiTest.show(initial: PracticeSetup = PracticePreset.DEFAULT.setup, own: List<SavedPreset> = emptyList(), state: PracticeSetupState = this@PracticeSetupDialogTest.state) {
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -150,5 +152,23 @@ class PracticeSetupDialogTest {
         assertEquals(listOf(SavedPreset("Morning", evening.setup)), saved)
         onNodeWithContentDescription("Remove the preset Evening").performClick()
         assertEquals(listOf("Evening"), removed)
+    }
+
+    /** Saying answers is offered only where the words' language can be heard; elsewhere a setup to say them is typed. */
+    @Test
+    fun speakingIsOfferedOnlyWhereItCanBeHeard() = runDesktopComposeUiTest(width = 1300, height = 1000) {
+        show(PracticePreset.SPEAKING.setup)
+        listOf("practice-response-SPEAK", "practice-preset-SPEAKING", "practice-type-SHADOW").forEach { onAllNodesWithTag(it).assertCountEquals(0) }
+        onNodeWithTag("start-practice").performClick()
+        assertEquals(PracticePreset.SPEAKING.setup.withoutSpeaking(), started)
+    }
+
+    @Test
+    fun speakingIsPickedWhereItCanBeHeard() = runDesktopComposeUiTest(width = 1300, height = 1000) {
+        show(state = state.copy(speaking = true))
+        onNodeWithTag("practice-type-SHADOW").performScrollTo().assertExists()
+        onNodeWithTag("practice-preset-SPEAKING").performScrollTo().performClick()
+        onNodeWithTag("start-practice").performClick()
+        assertEquals(PracticePreset.SPEAKING.setup.copy(length = PracticePreset.DEFAULT.setup.length, adaptive = true), started)
     }
 }

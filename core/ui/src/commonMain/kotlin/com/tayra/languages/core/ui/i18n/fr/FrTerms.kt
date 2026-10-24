@@ -468,4 +468,8 @@ internal val frTerms: Map<String, String> = mapOf(
     "Producing" to "Employer",
     "Right answers" to "Bonnes réponses",
     "Last practised" to "Dernier entraînement",
+    "Shadowing" to "Répétition à voix haute",
+    "Hear a sentence and say it back" to "Écoutez une phrase et répétez-la",
+    "Speak" to "Parler",
+    "Speaking" to "Expression orale",
 )

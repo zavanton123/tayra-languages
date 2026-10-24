@@ -68,7 +68,7 @@ object PracticePlanner {
         ExerciseType.BUILD -> if (words.any { it.sentence !in translations }) PracticeNeed.SENTENCE_TRANSLATION else PracticeNeed.SENTENCE_LENGTH
         ExerciseType.SOUND_ALIKE -> PracticeNeed.WORD_FORMS
         ExerciseType.FORM -> if (words.any { (families[it.key]?.forms?.size ?: 0) < 4 }) PracticeNeed.WORD_FORMS else PracticeNeed.SENTENCE_TRANSLATION
-        ExerciseType.GAP, ExerciseType.HEAR_WORD, ExerciseType.DICTATION -> null
+        ExerciseType.GAP, ExerciseType.HEAR_WORD, ExerciseType.DICTATION, ExerciseType.SHADOW -> null
     }
 }
 
@@ -78,13 +78,16 @@ enum class PracticePreset(val setup: PracticeSetup) {
     QUICK_REVIEW(PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.MEANING, ExerciseType.HEAR_WORD), responses = setOf(PracticeResponse.CHOOSE), adaptive = true)),
 
     /** Reading, listening and translation, chosen and typed. */
-    BALANCED(PracticeSetup(types = ExerciseType.entries.toSet(), responses = PracticeResponse.entries.toSet(), adaptive = true)),
+    BALANCED(PracticeSetup(types = ExerciseType.entries.toSet() - ExerciseType.SHADOW, responses = PracticeResponse.entries.toSet() - PracticeResponse.SPEAK, adaptive = true)),
 
     /** Every listening question. */
-    LISTENING(PracticeSetup(types = ExerciseType.entries.filter { it.skill == PracticeSkill.LISTENING }.toSet(), adaptive = true)),
+    LISTENING(PracticeSetup(types = ExerciseType.entries.filter { it.skill == PracticeSkill.LISTENING && it != ExerciseType.SHADOW }.toSet(), adaptive = true)),
 
     /** Recall: every question that can be typed, typed. */
     WRITING(PracticeSetup(types = ExerciseType.entries.filter { PracticeResponse.TYPE in it.responses }.toSet(), responses = setOf(PracticeResponse.TYPE), adaptive = true)),
+
+    /** Saying the words: in their sentences, and sentences repeated after the voice. Offered only where speech can be recognised. */
+    SPEAKING(PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.TRANSLATION, ExerciseType.HEAR_SENTENCE, ExerciseType.SHADOW), responses = setOf(PracticeResponse.SPEAK))),
     ;
 
     companion object {

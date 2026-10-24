@@ -38,6 +38,9 @@ import com.tayra.languages.core.domain.practice.PracticeProgressRepository
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.sync.Mutex
 import com.tayra.languages.core.domain.practice.WordChoice
+import com.tayra.languages.core.domain.practice.Heard
+import com.tayra.languages.core.domain.practice.PracticeResponse
+import com.tayra.languages.core.domain.practice.SpeechRecognition
 
 /** How a question was answered. */
 enum class PracticeResult { CORRECT, ALMOST, TYPO, WRONG }
@@ -73,6 +76,12 @@ data class PracticeUiState(
     val finished: Boolean = false,
     /** Practising the whole book or lesson rather than a page of it. */
     val wholeBook: Boolean = false,
+    /** Hearing an answer said aloud. */
+    val listening: Boolean = false,
+    /** The last try at saying the answer made out nothing. */
+    val nothingHeard: Boolean = false,
+    /** The microphone could not be used, so answers to be said are typed instead. */
+    val speakingRefused: Boolean = false,
 ) {
     val current: Exercise? get() = if (finished) null else exercises.getOrNull(index)
     val answered: Boolean get() = result != null
@@ -96,6 +105,8 @@ class PracticeViewModel(
     private val wordForms: WordForms? = null,
     /** Each word's practice level: read for a setup that adapts to it, moved by every answer. */
     private val progress: PracticeProgressRepository? = null,
+    /** Hears answers said aloud; without it, or for a language it cannot hear, they are typed. */
+    private val speech: SpeechRecognition? = null,
     private val random: Random = Random.Default,
 ) : ViewModel() {
 
@@ -108,6 +119,7 @@ class PracticeViewModel(
     private var language: Language? = null
     private val recording = Mutex()
     private var hintJob: Job? = null
+    private var listenJob: Job? = null
 
     init {
         start()
@@ -135,18 +147,23 @@ class PracticeViewModel(
             }
             val lang = prepared.language
             language = lang
+            val code = LanguageCodes.codeFor(lang.name)
+            // Answers to be said are typed where nothing here can hear them.
+            val canSpeak = code != null && speech != null && attempt { speech.isAvailable(code) } == true
+            val asked = if (canSpeak) setup else setup.withoutSpeaking()
             // Translation and building questions are asked through the sentence's translation; form questions give it as their clue.
-            val translations = if (setup.types.any { it in TRANSLATED }) translateSentences(prepared.words, lang) else emptyMap()
-            val families = if (ExerciseType.FORM in setup.types || ExerciseType.SOUND_ALIKE in setup.types) attempt { familiesOf(prepared.words, lang) }.orEmpty() else emptyMap()
+            val translations = if (asked.types.any { it in TRANSLATED }) translateSentences(prepared.words, lang) else emptyMap()
+            val families = if (ExerciseType.FORM in asked.types || ExerciseType.SOUND_ALIKE in asked.types) attempt { familiesOf(prepared.words, lang) }.orEmpty() else emptyMap()
             val alikes = attempt { alikesFor(prepared.words, lang) }.orEmpty()
-            val levels = if (setup.adaptive) attempt { levelsOf(prepared.words) }.orEmpty() else emptyMap()
-            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, examplesFor(prepared.words), random, setup, prepared.meanings, translations, alikes, families, levels)
+            val levels = if (asked.adaptive) attempt { levelsOf(prepared.words) }.orEmpty() else emptyMap()
+            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, examplesFor(prepared.words), random, asked, prepared.meanings, translations, alikes, families, levels)
             _state.update {
                 it.copy(
                     loading = false,
                     bookTitle = prepared.title,
                     wordCount = prepared.words.size,
-                    languageCode = LanguageCodes.codeFor(lang.name),
+                    setup = asked,
+                    languageCode = code,
                     rightToLeft = lang.rightToLeft,
                     exercises = exercises,
                 )
@@ -248,23 +265,77 @@ class PracticeViewModel(
         return right
     }
 
+    /** Listens to the answer said aloud and checks it; nothing made out leaves the question to try again. */
+    fun listen() {
+        val exercise = _state.value.current ?: return
+        val code = _state.value.languageCode
+        if (_state.value.answered || _state.value.listening || exercise.response != PracticeResponse.SPEAK || code == null) return
+        _state.update { it.copy(listening = true, nothingHeard = false, typed = "") }
+        listenJob = viewModelScope.launch {
+            val heard = attempt { speech?.listen(code) } ?: Heard.Refused
+            if (_state.value.current !== exercise) return@launch
+            when (heard) {
+                is Heard.Words -> {
+                    _state.update { it.copy(listening = false, typed = heard.text) }
+                    val word = if (exercise.wholeSentence) null else exercise.answer
+                    record(exercise, PracticeChecker.checkSpoken(heard.text, word, exercise.answer).result)
+                }
+                Heard.Nothing -> _state.update { it.copy(listening = false, nothingHeard = true) }
+                Heard.Refused -> {
+                    // Asked again it would be refused again: the rest are typed.
+                    _state.update { s ->
+                        s.copy(
+                            listening = false,
+                            speakingRefused = true,
+                            exercises = s.exercises.mapIndexed { i, e -> if (i >= s.index && e.response == PracticeResponse.SPEAK) e.copy(response = PracticeResponse.TYPE) else e },
+                        )
+                    }
+                }
+            }
+        }
+    }
+
+    /** Stops listening; what was heard so far is checked. */
+    fun stopListening() {
+        if (_state.value.listening) speech?.stop()
+    }
+
+    /** Types the answer to the question on show instead of saying it. */
+    fun typeInstead() {
+        val s = _state.value
+        val exercise = s.current ?: return
+        if (s.answered || exercise.response != PracticeResponse.SPEAK) return
+        if (s.listening) {
+            listenJob?.cancel()
+            speech?.stop()
+        }
+        _state.update { it.copy(listening = false, nothingHeard = false, typed = "", exercises = it.exercises.toMutableList().also { list -> list[it.index] = exercise.copy(response = PracticeResponse.TYPE) }) }
+    }
+
     /** Checks what was typed. */
     fun submit() {
         val exercise = _state.value.current ?: return
-        if (_state.value.answered || exercise.isChoice || _state.value.typed.isBlank()) return
-        val result = when (PracticeChecker.check(exercise.answer, _state.value.typed)) {
+        if (_state.value.answered || exercise.isChoice || exercise.response == PracticeResponse.SPEAK || _state.value.typed.isBlank()) return
+        record(exercise, PracticeChecker.check(exercise.answer, _state.value.typed).result)
+    }
+
+    private val TypedResult.result: PracticeResult
+        get() = when (this) {
             TypedResult.CORRECT -> PracticeResult.CORRECT
             TypedResult.ALMOST -> PracticeResult.ALMOST
             TypedResult.TYPO -> PracticeResult.TYPO
             TypedResult.WRONG -> PracticeResult.WRONG
         }
-        record(exercise, result)
-    }
 
     /** Gives up on the question: its answer is shown and it counts as missed. */
     fun skip() {
         val exercise = _state.value.current ?: return
         if (_state.value.answered) return
+        if (_state.value.listening) {
+            listenJob?.cancel()
+            speech?.stop()
+            _state.update { it.copy(listening = false) }
+        }
         if (exercise.type == ExerciseType.MATCHING) _state.update { it.copy(matched = exercise.pairs.map { pair -> pair.first }.toSet()) }
         record(exercise, PracticeResult.WRONG)
     }
@@ -304,10 +375,10 @@ class PracticeViewModel(
         val s = _state.value
         if (!s.answered) return
         if (s.index + 1 >= s.exercises.size) {
-            _state.update { it.copy(finished = true, result = null, chosen = null, typed = "") }
+            _state.update { it.copy(finished = true, result = null, chosen = null, typed = "", nothingHeard = false) }
             return
         }
-        _state.update { it.copy(index = it.index + 1, result = null, chosen = null, typed = "", sentenceTranslation = null, matched = emptySet(), wrongPairs = 0) }
+        _state.update { it.copy(index = it.index + 1, result = null, chosen = null, typed = "", sentenceTranslation = null, matched = emptySet(), wrongPairs = 0, nothingHeard = false) }
         loadTranslation()
     }
 
