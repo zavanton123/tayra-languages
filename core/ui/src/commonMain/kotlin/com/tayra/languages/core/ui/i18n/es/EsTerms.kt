@@ -78,6 +78,7 @@ internal val esTerms: Map<String, String> = mapOf(
     "Custom order" to "Orden personalizado",
     "Sort: {0}" to "Orden: {0}",
     "{0} terms" to "{0} palabra|{0} palabras",
+    "{1} terms" to "{1} palabra|{1} palabras",
     "{0} of {1} selected" to "Selección: {0} de {1}",
     "Filters" to "Filtros",
     "Show learning words" to "Mostrar palabras en estudio",

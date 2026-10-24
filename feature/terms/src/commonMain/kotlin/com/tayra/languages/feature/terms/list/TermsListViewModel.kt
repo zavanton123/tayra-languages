@@ -60,11 +60,8 @@ data class TermsListUiState(
     /** All four learning statuses are ticked, shown as one chip. */
     val allLearning: Boolean get() = chosenStatuses.containsAll(TermStatus.selectable.filter { it.isLearning })
 
-    /** How many filter chips show, for the badge on the Filters button: all four learning statuses count as one. */
-    val activeFilterCount: Int get() {
-        val statuses = if (allLearning) chosenStatuses.count { !it.isLearning } + 1 else chosenStatuses.size
-        return statuses + if (ageFiltered) 1 else 0
-    }
+    /** How many kinds of filter are on, for the badge on the Filters button: the statuses are one, when the terms were added another. */
+    val activeFilterCount: Int get() = (if (chosenStatuses.isNotEmpty()) 1 else 0) + (if (ageFiltered) 1 else 0)
 
     val pageCount: Int get() = if (totalCount == 0) 1 else (totalCount + pageSize - 1) / pageSize
     fun languageName(id: Long): String = languages.firstOrNull { it.id == id }?.name ?: ""

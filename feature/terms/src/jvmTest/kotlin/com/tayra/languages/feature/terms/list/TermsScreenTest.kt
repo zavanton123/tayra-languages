@@ -105,9 +105,9 @@ class TermsScreenTest {
         show()
         // The screen opens on the words being learned: statuses 1 to 4 are ticked, known and ignored terms stay out.
         waitForList("comprar", "produtos", "pensar", hidden = listOf("gostar", "expressão", "lá"))
+        // The four learning statuses read as one filter, and the line says how many terms that leaves.
         onNodeWithContentDescription("1 filter on").assertExists()
-        onNodeWithContentDescription("Remove Learning 1–4").assertExists()
-        for (status in listOf("Learning 1", "Learning 2", "Learning 3", "Learning 4")) assertEquals(0, onAllNodesWithContentDescription("Remove $status").fetchSemanticsNodes().size)
+        onNodeWithText("Learning 1–4 · 3 terms").assertExists()
         onAllNodesWithText("Show all words")[0].performClick()
         // With nothing ticked, the known terms show too; ignored terms stay out until asked for.
         waitForList("gostar", "comprar", "pensar", hidden = listOf("lá"))
@@ -120,11 +120,12 @@ class TermsScreenTest {
         onNodeWithTag("status-filter-K").performClick()
         waitForList("gostar", "expressão", "pensar", hidden = listOf("comprar", "produtos", "lá"))
         onNodeWithTag("added-MONTH").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Added in the last 30 days").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithContentDescription("3 filters on").assertExists()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning 3, Known · Added in the last 30 days · 3 terms").fetchSemanticsNodes().isNotEmpty() }
+        // The badge counts the kinds of filter the line names: statuses, and when the terms were added.
+        onNodeWithContentDescription("2 filters on").assertExists()
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
 
-        onNodeWithContentDescription("Remove Known").performClick()
+        onNodeWithTag("status-filter-K").performClick()
         waitForList("pensar", hidden = listOf("gostar", "expressão"))
         onNodeWithTag("status-filter-I").performClick()
         waitForList("pensar", "lá", hidden = listOf("gostar"))
@@ -172,7 +173,7 @@ class TermsScreenTest {
     fun aPhoneFiltersFromASheet() = runDesktopComposeUiTest(width = 400, height = 1100) {
         show()
         waitForList("comprar", "produtos", "pensar", hidden = listOf("gostar", "expressão", "lá"))
-        onNodeWithText("3 of 5 terms shown").assertExists()
+        onNodeWithText("Learning 1–4 · 3 terms").assertExists()
         onNodeWithText("Filter vocabulary").assertDoesNotExist()
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "-phone.png"))) }
 
@@ -184,10 +185,14 @@ class TermsScreenTest {
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot()).onLast().captureToImage().toAwtImage(), "png", File(it.replace(".png", "-phone-filters.png"))) }
         onNodeWithText("Show 5 terms").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning status").fetchSemanticsNodes().isEmpty() }
-        onNodeWithContentDescription("3 filters on").assertExists()
-        // The page lists the filters that are on, so a filtered list never passes for the whole vocabulary.
-        onNodeWithContentDescription("Remove the added filter").assertExists()
-        onNodeWithText("5 of 5 terms shown").assertExists()
+        onNodeWithContentDescription("2 filters on").assertExists()
+        // The page names the filters that are on, so a filtered list never passes for the whole vocabulary.
+        onNodeWithText("Learning 1–4, Known · Added in the last 30 days · 5 terms").assertExists()
+        // The summary reopens the filters.
+        onNodeWithTag("active-filter-summary").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning status").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithContentDescription("Close").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning status").fetchSemanticsNodes().isEmpty() }
 
         // The sheet's Show learning words goes back to how the screen opened.
         onNodeWithText("Filters").performClick()

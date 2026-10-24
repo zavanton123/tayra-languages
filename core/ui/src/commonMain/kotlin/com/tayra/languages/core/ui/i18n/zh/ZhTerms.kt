@@ -78,6 +78,7 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Custom order" to "自定义顺序",
     "Sort: {0}" to "排序：{0}",
     "{0} terms" to "{0} 个词条",
+    "{1} terms" to "{1} 个词条",
     "{0} of {1} selected" to "已选择 {0}/{1}",
     "Filters" to "筛选",
     "Show learning words" to "显示正在学习的单词",

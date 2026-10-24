@@ -78,6 +78,7 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Custom order" to "Ordem personalizada",
     "Sort: {0}" to "Ordenar: {0}",
     "{0} terms" to "{0} termo|{0} termos",
+    "{1} terms" to "{1} termo|{1} termos",
     "{0} of {1} selected" to "{0} de {1} selecionados",
     "Filters" to "Filtros",
     "Show learning words" to "Mostrar palavras em estudo",

@@ -78,6 +78,7 @@ internal val frTerms: Map<String, String> = mapOf(
     "Custom order" to "Ordre personnalisé",
     "Sort: {0}" to "Tri : {0}",
     "{0} terms" to "{0} terme|{0} termes",
+    "{1} terms" to "{1} terme|{1} termes",
     "{0} of {1} selected" to "{0} sur {1} sélectionnés",
     "Filters" to "Filtres",
     "Show learning words" to "Afficher les mots en cours",

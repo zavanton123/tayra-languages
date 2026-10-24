@@ -78,6 +78,7 @@ internal val plTerms: Map<String, String> = mapOf(
     "Custom order" to "Własna kolejność",
     "Sort: {0}" to "Sortowanie: {0}",
     "{0} terms" to "{0} słowo|{0} słowa|{0} słów",
+    "{1} terms" to "{1} słowo|{1} słowa|{1} słów",
     "{0} of {1} selected" to "Zaznaczono {0} z {1}",
     "Filters" to "Filtry",
     "Show learning words" to "Pokaż słowa w nauce",

@@ -78,6 +78,7 @@ internal val deTerms: Map<String, String> = mapOf(
     "Custom order" to "Eigene Reihenfolge",
     "Sort: {0}" to "Sortierung: {0}",
     "{0} terms" to "{0} Begriff|{0} Begriffe",
+    "{1} terms" to "{1} Begriff|{1} Begriffe",
     "{0} of {1} selected" to "{0} von {1} ausgewählt",
     "Filters" to "Filter",
     "Show learning words" to "Lernwörter zeigen",

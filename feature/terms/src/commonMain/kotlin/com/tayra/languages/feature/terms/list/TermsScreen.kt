@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.terms.list
 
+import com.tayra.languages.core.ui.i18n.formatCount
+import com.tayra.languages.core.ui.components.ActiveFilterSummary
 import com.tayra.languages.core.ui.components.chosenFor
 import com.tayra.languages.core.ui.components.shownName
 import com.tayra.languages.core.ui.components.shownAbbreviation
@@ -183,7 +185,7 @@ fun TermsScreen(
             item { StatCards(state, compact) }
             item { Toolbar(state, viewModel, compact) }
             if (state.filtersVisible) item(key = "filters") { Column(itemMotion()) { FilterPanel(state, viewModel) } }
-            if (state.activeFilterCount > 0) item { ActiveFilters(state, viewModel) }
+            if (state.activeFilterCount > 0) item { ActiveFilters(state, viewModel, onEdit = { if (!state.filtersVisible) viewModel.toggleFilters() }) }
             if (state.loading) {
                 item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = MaterialTheme.colorScheme.onSurfaceVariant) }
             } else if (state.terms.isEmpty()) {
@@ -427,49 +429,41 @@ internal fun StatusBadge(status: TermStatus) {
     )
 }
 
-/** The filters that are on, each removable on its own, under the toolbar. */
-@OptIn(ExperimentalLayoutApi::class)
+/**
+ * What the list is narrowed to, as one line with the number of terms it leaves ("Learning 1–4 ·
+ * 12 terms"), beside the way back to every word. [onEdit] reopens the filters.
+ */
 @Composable
-internal fun ActiveFilters(state: TermsListUiState, viewModel: TermsListViewModel) {
+internal fun ActiveFilters(state: TermsListUiState, viewModel: TermsListViewModel, onEdit: () -> Unit) {
+    ActiveFilterSummary(filterSummary(state), tr("Show all words"), onClear = viewModel::clearFilters, modifier = Modifier.padding(bottom = AppSpacing.l), onEdit = onEdit)
+}
+
+/** The filters on, in words: the statuses shown, then when the terms were added, then how many terms that leaves. */
+@Composable
+internal fun filterSummary(state: TermsListUiState): String {
     val filter = state.filter
-    FlowRow(
-        Modifier.fillMaxWidth().padding(bottom = AppSpacing.l),
-        horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
-        verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
-        itemVerticalAlignment = Alignment.CenterVertically,
-    ) {
-        // The default view, every learning status, is one chip rather than four.
-        // Without the levels, any learning status shown is the one Learning.
+    val parts = mutableListOf<String>()
+    if (state.chosenStatuses.isNotEmpty()) {
+        // Every learning status, or any of them without the levels, reads as the one Learning.
         val learningGroup = state.allLearning || (!learningLevels && state.chosenStatuses.any { it.isLearning })
-        if (learningGroup) {
-            val tint = statusTint(TermStatus.NEW_1)
-            val name = if (learningLevels) tr("Learning 1–4") else tr("Learning")
-            RemovableChip(onRemove = viewModel::removeLearning, removeDescription = tr("Remove {0}", name), tint = tint, background = tint.copy(alpha = AppAlpha.line)) {
-                Text(name, style = AppText.badge)
-            }
+        val names = buildList {
+            if (learningGroup) add(if (learningLevels) tr("Learning 1–4") else tr("Learning"))
+            TermStatus.selectable.filter { it in state.chosenStatuses && !(learningGroup && it.isLearning) }.forEach { add(it.shownName()) }
         }
-        TermStatus.selectable.filter { it in state.chosenStatuses && !(learningGroup && it.isLearning) }.forEach { status ->
-            val tint = statusTint(status)
-            RemovableChip(onRemove = { viewModel.toggleStatus(status) }, removeDescription = tr("Remove {0}", tr(status.label)), tint = tint, background = tint.copy(alpha = AppAlpha.line)) {
-                Text(status.chipName, style = AppText.badge)
-                StatusBadge(status)
-            }
-        }
-        if (state.ageFiltered) {
-            val from = filter.minAgeDays
-            val to = filter.maxAgeDays
-            val label = when {
-                from != null && to != null -> trPlural(to, "Added: {1}–{0} day", "Added: {1}–{0} days", from)
-                to == 0 -> tr("Added today")
-                to != null -> trPlural(to, "Added in the last {0} day", "Added in the last {0} days")
-                else -> trPlural(from ?: 0, "Added over {0} day ago", "Added over {0} days ago")
-            }
-            RemovableChip(onRemove = { viewModel.setAddedRange(null, null) }, removeDescription = tr("Remove the added filter")) {
-                Text(label, style = AppText.badge)
-            }
-        }
-        QuietButton(tr("Show all words"), onClick = viewModel::clearFilters)
+        parts += names.joinToString(", ")
     }
+    if (state.ageFiltered) {
+        val from = filter.minAgeDays
+        val to = filter.maxAgeDays
+        parts += when {
+            from != null && to != null -> trPlural(to, "Added: {1}–{0} day", "Added: {1}–{0} days", from)
+            to == 0 -> tr("Added today")
+            to != null -> trPlural(to, "Added in the last {0} day", "Added in the last {0} days")
+            else -> trPlural(from ?: 0, "Added over {0} day ago", "Added over {0} days ago")
+        }
+    }
+    parts += trPlural(state.totalCount, "{1} term", "{1} terms", formatCount(state.totalCount))
+    return parts.joinToString(" · ")
 }
 
 // Column weights shared by the table header and rows.

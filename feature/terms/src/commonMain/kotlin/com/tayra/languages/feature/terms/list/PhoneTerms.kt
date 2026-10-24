@@ -135,8 +135,8 @@ internal fun PhoneTermsScreen(
             item {
                 Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
                     Text(
+                        // The filter summary below gives how many terms the filters leave; this line keeps to the whole vocabulary.
                         if (state.selected.isNotEmpty()) tr("{0} of {1} selected", state.selected.size, state.totalCount)
-                        else if (state.activeFilterCount > 0) trPlural(state.totalTerms, "{1} of {2} term shown", "{1} of {2} terms shown", formatCount(state.totalCount), formatCount(state.totalTerms))
                         else tr("{0} terms · {1} known", formatCount(state.totalTerms), formatCount(state.knownCount)),
                         Modifier.weight(1f),
                         style = MaterialTheme.typography.bodyLarge,
@@ -163,7 +163,7 @@ internal fun PhoneTermsScreen(
                     )
                 }
             }
-            if (state.activeFilterCount > 0) item { ActiveFilters(state, viewModel) }
+            if (state.activeFilterCount > 0) item { ActiveFilters(state, viewModel, onEdit = { filtering = true }) }
             if (state.loading) {
                 item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = colors.onSurfaceVariant) }
             } else if (state.terms.isEmpty()) {

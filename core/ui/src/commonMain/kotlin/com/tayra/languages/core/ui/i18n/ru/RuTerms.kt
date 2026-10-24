@@ -78,6 +78,7 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Custom order" to "Свой порядок",
     "Sort: {0}" to "Сортировка: {0}",
     "{0} terms" to "{0} слово|{0} слова|{0} слов",
+    "{1} terms" to "{1} слово|{1} слова|{1} слов",
     "{0} of {1} selected" to "Выбрано {0} из {1}",
     "Filters" to "Фильтры",
     "Show learning words" to "Показать изучаемые слова",

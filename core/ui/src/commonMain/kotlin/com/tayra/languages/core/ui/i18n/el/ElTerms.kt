@@ -78,6 +78,7 @@ internal val elTerms: Map<String, String> = mapOf(
     "Custom order" to "Προσαρμοσμένη σειρά",
     "Sort: {0}" to "Ταξινόμηση: {0}",
     "{0} terms" to "{0} λέξη|{0} λέξεις",
+    "{1} terms" to "{1} λέξη|{1} λέξεις",
     "{0} of {1} selected" to "Επιλέχθηκαν {0} από {1}",
     "Filters" to "Φίλτρα",
     "Show learning words" to "Εμφάνιση λέξεων σε εκμάθηση",
