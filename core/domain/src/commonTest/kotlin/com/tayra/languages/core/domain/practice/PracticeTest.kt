@@ -141,6 +141,22 @@ class PracticeTest {
         assertTrue(asked.any { it.response == PracticeResponse.TILES })
     }
 
+    /** The right form is chosen among other forms of the word, written as it is, with the sentence's translation as the clue; without forms or a translation it is not asked. */
+    @Test
+    fun theRightFormIsChosenAmongTheWordsForms() {
+        val families = mapOf("comprar" to WordFamily("comprar", setOf("comprar", "compro", "compra", "compramos", "compraram")), "moro" to WordFamily("morar", setOf("moro", "morar")))
+        val translations = mapOf(long to "When we need to buy something, we stop at the supermarket near home.", "Eu moro no Brasil." to "I live in Brazil.")
+        val setup = PracticeSetup(types = setOf(ExerciseType.FORM), responses = setOf(PracticeResponse.CHOOSE), length = null)
+        val asked = PracticeBuilder.build(words, pageWords, random = Random(1), setup = setup, translations = translations, families = families)
+        val form = asked.single()
+        assertEquals("comprar", form.word)
+        assertEquals("comprar", form.lemma)
+        assertEquals(translations.getValue(long), form.sentenceTranslation)
+        assertEquals(4, form.options.size)
+        assertTrue(form.options.all { it in families.getValue("comprar").forms }, form.options.toString())
+        assertEquals(PracticeNeed.WORD_FORMS, PracticePlanner.preview(words, setup, translations = translations, families = families).of(ExerciseType.FORM).need)
+    }
+
     /** A setup goes into a route as text and comes back the same; the kinds earlier versions named still give their questions. */
     @Test
     fun aSetupIsWrittenAndReadAsText() {

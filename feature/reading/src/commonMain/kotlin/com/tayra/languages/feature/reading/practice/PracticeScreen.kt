@@ -289,6 +289,11 @@ private val Exercise.instruction: String
         ExerciseType.HEAR_SENTENCE -> tr("Listen to the sentence")
         ExerciseType.HEAR_WORD -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
         ExerciseType.DICTATION -> if (wholeSentence) tr("Listen and type the sentence") else tr("Listen and type the missing word")
+        ExerciseType.FORM -> when (response) {
+            PracticeResponse.CHOOSE -> tr("Choose the form of “{0}” that fits", lemma.orEmpty())
+            PracticeResponse.TILES -> tr("Build the form of “{0}” that fits", lemma.orEmpty())
+            PracticeResponse.TYPE -> tr("Type the form of “{0}” that fits", lemma.orEmpty())
+        }
         ExerciseType.TRANSLATION -> when (response) {
             PracticeResponse.CHOOSE -> tr("Read the translation and choose the missing word")
             PracticeResponse.TILES -> tr("Read the translation and build the missing word")
@@ -355,7 +360,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
             )
         }
         // A typed gap gets the sentence's meaning as a hint; elsewhere it would give the answer away, so it waits.
-        val hintShown = answered || (exercise.type == ExerciseType.GAP && exercise.response == PracticeResponse.TYPE)
+        val hintShown = answered || (exercise.type == ExerciseType.GAP && exercise.response == PracticeResponse.TYPE) || exercise.type == ExerciseType.FORM
         if (hintShown && !fromTranslation) state.sentenceTranslation?.let { translationBox(it) }
 
         when {

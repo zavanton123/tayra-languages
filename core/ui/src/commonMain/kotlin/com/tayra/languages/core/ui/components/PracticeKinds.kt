@@ -19,6 +19,7 @@ fun ExerciseType.label(): String = when (this) {
     ExerciseType.HEAR_SENTENCE -> tr("Hear the sentence")
     ExerciseType.DICTATION -> tr("Dictation")
     ExerciseType.TRANSLATION -> tr("From the translation")
+    ExerciseType.FORM -> tr("Right form")
 }
 
 /** What the type asks, in a few words. */
@@ -29,6 +30,7 @@ fun ExerciseType.description(): String = when (this) {
     ExerciseType.HEAR_SENTENCE -> tr("Hear a sentence and find the word that means what is shown")
     ExerciseType.DICTATION -> tr("Hear the sentence and type the missing word, or all of a short one")
     ExerciseType.TRANSLATION -> tr("Read what the sentence means and find the missing word")
+    ExerciseType.FORM -> tr("Find the form of the word that fits the sentence")
 }
 
 fun ExerciseType.icon(): ImageVector = when (this) {
@@ -38,12 +40,14 @@ fun ExerciseType.icon(): ImageVector = when (this) {
     ExerciseType.HEAR_SENTENCE -> AppIcons.Headphones
     ExerciseType.DICTATION -> AppIcons.RecordVoiceOver
     ExerciseType.TRANSLATION -> AppIcons.Translate
+    ExerciseType.FORM -> AppIcons.Abc
 }
 
 fun PracticeSkill.label(): String = when (this) {
     PracticeSkill.READING -> tr("Reading")
     PracticeSkill.LISTENING -> tr("Listening")
     PracticeSkill.TRANSLATION -> tr("Translation")
+    PracticeSkill.WORD_FORMS -> tr("Word forms")
 }
 
 fun PracticeResponse.label(): String = when (this) {
@@ -68,6 +72,7 @@ fun PracticeNeed.reason(): String = when (this) {
     PracticeNeed.WORD_MEANING -> tr("Needs the word's translation")
     PracticeNeed.OTHER_MEANINGS -> tr("Needs more saved words with meanings")
     PracticeNeed.SENTENCE_TRANSLATION -> tr("Needs a translation of the sentence")
+    PracticeNeed.WORD_FORMS -> tr("Needs other forms of the word")
 }
 
 fun PracticePreset.label(): String = when (this) {

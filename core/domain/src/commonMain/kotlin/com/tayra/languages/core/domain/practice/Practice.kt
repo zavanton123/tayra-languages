@@ -20,7 +20,10 @@ data class PracticeWord(
 data class PracticeExample(val sentence: String, val range: IntRange, val translation: String?)
 
 /** The skill a type of question trains; the practice setup groups the types by it. */
-enum class PracticeSkill { READING, LISTENING, TRANSLATION }
+enum class PracticeSkill { READING, LISTENING, TRANSLATION, WORD_FORMS }
+
+/** A word's family: the form a dictionary lists it under, and all its forms, lowercase. */
+data class WordFamily(val lemma: String, val forms: Set<String>)
 
 /** How a question is answered: choosing among four, building the word from its letters, or typing it. */
 enum class PracticeResponse { CHOOSE, TILES, TYPE }
@@ -56,6 +59,12 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
 
     /** The sentence's translation over the sentence with the word blanked out: choose or type the word. Needs the translation. */
     TRANSLATION(PracticeSkill.TRANSLATION, setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES, PracticeResponse.TYPE)),
+
+    /**
+     * The sentence with the word blanked out and its translation as the clue: choose, build or type
+     * the form of the word that fits. Needs three other forms of the word and the translation.
+     */
+    FORM(PracticeSkill.WORD_FORMS, setOf(PracticeResponse.CHOOSE, PracticeResponse.TILES, PracticeResponse.TYPE)),
 }
 
 /**
@@ -153,6 +162,8 @@ data class Exercise(
     val wholeSentence: Boolean = false,
     /** The word practised as it was saved or read; a sentence from elsewhere may use another form of it, [word]. */
     val practised: String = word,
+    /** The form the word is listed under, when a question asks for the right form of it. */
+    val lemma: String? = null,
 ) {
     val isChoice: Boolean get() = options.isNotEmpty()
     val isListening: Boolean get() = spoken != null
@@ -162,9 +173,9 @@ data class Exercise(
 }
 
 /** Words to offer beside the right one: the page's other words, and words about as common as each word and looking like it. */
-internal class WrongChoices(val pageWords: List<String>, val alikes: Map<String, List<String>> = emptyMap()) {
+internal class WrongChoices(val pageWords: List<String>, val alikes: Map<String, List<String>> = emptyMap(), val families: Map<String, WordFamily> = emptyMap()) {
     /** The same, without [word] among the page's words. */
-    fun without(word: String) = WrongChoices(pageWords.filter { !it.equals(word, ignoreCase = true) }, alikes)
+    fun without(word: String) = WrongChoices(pageWords.filter { !it.equals(word, ignoreCase = true) }, alikes, families)
 }
 
 /** Builds the questions for a page from the words being learned on it. */
@@ -208,8 +219,10 @@ object PracticeBuilder {
         translations: Map<String, String> = emptyMap(),
         /** Words about as common as each word and looking like it, by the word's key, for wrong choices. */
         alikes: Map<String, List<String>> = emptyMap(),
+        /** Each word's family, by the word's key, for the questions on its forms. */
+        families: Map<String, WordFamily> = emptyMap(),
     ): List<Exercise> {
-        val choices = WrongChoices(pageWords, alikes)
+        val choices = WrongChoices(pageWords, alikes, families)
         val targets = words.distinctBy { it.key }.shuffled(random)
         val rotation = setup.rotation
         val original = PracticeContext.ORIGINAL in setup.contexts
@@ -268,8 +281,9 @@ object PracticeBuilder {
         words: List<PracticeWord>,
         meanings: List<String> = emptyList(),
         translations: Map<String, String> = emptyMap(),
+        families: Map<String, WordFamily> = emptyMap(),
         response: PracticeResponse = type.responses.first(),
-    ): Boolean = exercise(type, response, word, words, WrongChoices(emptyList()), meanings, translations, Random(0)) != null
+    ): Boolean = exercise(type, response, word, words, WrongChoices(emptyList(), families = families), meanings, translations, Random(0)) != null
 
     /** The question of [type] on [word], or null when the word cannot be asked it. */
     private fun exercise(
@@ -308,6 +322,20 @@ object PracticeBuilder {
             ExerciseType.TRANSLATION -> {
                 val translation = translations[word.sentence]?.trim()?.takeIf { it.isNotEmpty() } ?: return null
                 answered(base.copy(sentenceTranslation = translation), response, word, targets, pool, random)
+            }
+            ExerciseType.FORM -> {
+                val family = pool.families[word.key] ?: return null
+                val translation = translations[word.sentence]?.trim()?.takeIf { it.isNotEmpty() } ?: return null
+                val others = family.forms.filter { it != word.key }
+                if (others.size < OPTIONS - 1) return null
+                val asked = base.copy(sentenceTranslation = translation, lemma = family.lemma)
+                if (response == PracticeResponse.CHOOSE) {
+                    // The other forms written as the word is, capital and all.
+                    val written = others.shuffled(random).take(OPTIONS - 1).map { if (word.text.first().isUpperCase()) it.replaceFirstChar { c -> c.uppercase() } else it }
+                    asked.copy(options = (written + word.text).shuffled(random))
+                } else {
+                    answered(asked, response, word, targets, pool, random)
+                }
             }
             ExerciseType.DICTATION -> {
                 val short = word.sentence.split(Regex("""\s+""")).count { part -> part.any { it.isLetterOrDigit() } } <= SHORT_SENTENCE_WORDS

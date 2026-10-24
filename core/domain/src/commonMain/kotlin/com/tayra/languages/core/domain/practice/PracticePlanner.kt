@@ -12,6 +12,9 @@ enum class PracticeNeed {
 
     /** The word's sentence has no translation. */
     SENTENCE_TRANSLATION,
+
+    /** Too few other forms of the word are known. */
+    WORD_FORMS,
 }
 
 /** How many of the words a type of question can be asked of, and what the others lack. */
@@ -36,21 +39,24 @@ object PracticePlanner {
         translations: Map<String, String> = emptyMap(),
         /** The sentences from elsewhere kept for the words, by the word's key. */
         examples: Map<String, List<PracticeExample>> = emptyMap(),
+        /** The words' families, by the word's key. */
+        families: Map<String, WordFamily> = emptyMap(),
     ): PracticePreview {
         val targets = words.distinctBy { it.text.lowercase() }
         val types = ExerciseType.entries.associateWith { type ->
-            val askable = targets.count { PracticeBuilder.canAsk(type, it, targets, meanings, translations) }
-            TypeAvailability(type, askable, if (askable == targets.size) null else need(type, targets, translations))
+            val askable = targets.count { PracticeBuilder.canAsk(type, it, targets, meanings, translations, families) }
+            TypeAvailability(type, askable, if (askable == targets.size) null else need(type, targets, translations, families))
         }
-        val questions = PracticeBuilder.build(targets, emptyList(), examples, Random(0), setup, meanings, translations).size
+        val questions = PracticeBuilder.build(targets, emptyList(), examples, Random(0), setup, meanings, translations, families = families).size
         return PracticePreview(targets.size, types, questions, targets.count { examples[it.key].orEmpty().isNotEmpty() })
     }
 
     /** What most of the words that cannot be asked [type] lack. */
-    private fun need(type: ExerciseType, words: List<PracticeWord>, translations: Map<String, String>): PracticeNeed? = when (type) {
+    private fun need(type: ExerciseType, words: List<PracticeWord>, translations: Map<String, String>, families: Map<String, WordFamily>): PracticeNeed? = when (type) {
         ExerciseType.MEANING -> if (words.any { it.translation.isNullOrBlank() }) PracticeNeed.WORD_MEANING else PracticeNeed.OTHER_MEANINGS
         ExerciseType.HEAR_SENTENCE -> PracticeNeed.WORD_MEANING
         ExerciseType.TRANSLATION -> PracticeNeed.SENTENCE_TRANSLATION.takeIf { words.any { it.sentence !in translations } }
+        ExerciseType.FORM -> if (words.any { (families[it.key]?.forms?.size ?: 0) < 4 }) PracticeNeed.WORD_FORMS else PracticeNeed.SENTENCE_TRANSLATION
         ExerciseType.GAP, ExerciseType.HEAR_WORD, ExerciseType.DICTATION -> null
     }
 }

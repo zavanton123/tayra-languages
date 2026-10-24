@@ -248,4 +248,7 @@ internal val frReading: Map<String, String> = mapOf(
     "Read the translation and build the missing word" to "Lisez la traduction et formez le mot manquant",
     "Tap the letters in order" to "Touchez les lettres dans l’ordre",
     "Remove the last letter" to "Retirer la dernière lettre",
+    "Choose the form of “{0}” that fits" to "Choisissez la forme de « {0} » qui convient",
+    "Build the form of “{0}” that fits" to "Formez la forme de « {0} » qui convient",
+    "Type the form of “{0}” that fits" to "Tapez la forme de « {0} » qui convient",
 )

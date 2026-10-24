@@ -248,4 +248,7 @@ internal val deReading: Map<String, String> = mapOf(
     "Read the translation and build the missing word" to "Lies die Übersetzung und setze das fehlende Wort zusammen",
     "Tap the letters in order" to "Tippe die Buchstaben der Reihe nach an",
     "Remove the last letter" to "Letzten Buchstaben entfernen",
+    "Choose the form of “{0}” that fits" to "Wähle die passende Form von „{0}“",
+    "Build the form of “{0}” that fits" to "Setze die passende Form von „{0}“ zusammen",
+    "Type the form of “{0}” that fits" to "Tippe die passende Form von „{0}“",
 )

@@ -441,4 +441,8 @@ internal val elTerms: Map<String, String> = mapOf(
     "Looking up sentences from elsewhere…" to "Αναζήτηση προτάσεων από αλλού…",
     "Sentences kept for {0} of {1} words" to "Αποθηκευμένες προτάσεις για {0} από {1} λέξεις",
     "Letter tiles" to "Πλακίδια γραμμάτων",
+    "Right form" to "Σωστός τύπος",
+    "Find the form of the word that fits the sentence" to "Βρείτε τον τύπο της λέξης που ταιριάζει στην πρόταση",
+    "Word forms" to "Τύποι λέξεων",
+    "Needs other forms of the word" to "Χρειάζεται άλλους τύπους της λέξης",
 )

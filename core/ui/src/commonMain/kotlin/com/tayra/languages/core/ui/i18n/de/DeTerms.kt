@@ -441,4 +441,8 @@ internal val deTerms: Map<String, String> = mapOf(
     "Looking up sentences from elsewhere…" to "Sätze von anderswo werden gesucht…",
     "Sentences kept for {0} of {1} words" to "Sätze gespeichert für {0} von {1} Wörtern",
     "Letter tiles" to "Buchstabenkacheln",
+    "Right form" to "Richtige Form",
+    "Find the form of the word that fits the sentence" to "Finde die Form des Wortes, die in den Satz passt",
+    "Word forms" to "Wortformen",
+    "Needs other forms of the word" to "Braucht andere Formen des Wortes",
 )

@@ -441,4 +441,8 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Looking up sentences from elsewhere…" to "Поиск предложений из других источников…",
     "Sentences kept for {0} of {1} words" to "Предложения сохранены для {0} из {1} слов",
     "Letter tiles" to "Плитки с буквами",
+    "Right form" to "Нужная форма",
+    "Find the form of the word that fits the sentence" to "Найдите форму слова, подходящую к предложению",
+    "Word forms" to "Формы слов",
+    "Needs other forms of the word" to "Нужны другие формы слова",
 )

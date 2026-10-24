@@ -248,4 +248,7 @@ internal val zhReading: Map<String, String> = mapOf(
     "Read the translation and build the missing word" to "阅读译文，拼出缺少的词",
     "Tap the letters in order" to "按顺序点按字母",
     "Remove the last letter" to "删除最后一个字母",
+    "Choose the form of “{0}” that fits" to "选出合适的“{0}”的形式",
+    "Build the form of “{0}” that fits" to "拼出合适的“{0}”的形式",
+    "Type the form of “{0}” that fits" to "输入合适的“{0}”的形式",
 )

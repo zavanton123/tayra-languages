@@ -441,4 +441,8 @@ internal val plTerms: Map<String, String> = mapOf(
     "Looking up sentences from elsewhere…" to "Wyszukiwanie zdań z innych źródeł…",
     "Sentences kept for {0} of {1} words" to "Zdania zapisane dla {0} z {1} słów",
     "Letter tiles" to "Kafelki z literami",
+    "Right form" to "Właściwa forma",
+    "Find the form of the word that fits the sentence" to "Znajdź formę słowa, która pasuje do zdania",
+    "Word forms" to "Formy słów",
+    "Needs other forms of the word" to "Wymaga innych form słowa",
 )

@@ -248,4 +248,7 @@ internal val ruReading: Map<String, String> = mapOf(
     "Read the translation and build the missing word" to "Прочитайте перевод и соберите пропущенное слово",
     "Tap the letters in order" to "Нажимайте буквы по порядку",
     "Remove the last letter" to "Убрать последнюю букву",
+    "Choose the form of “{0}” that fits" to "Выберите подходящую форму «{0}»",
+    "Build the form of “{0}” that fits" to "Соберите подходящую форму «{0}»",
+    "Type the form of “{0}” that fits" to "Введите подходящую форму «{0}»",
 )

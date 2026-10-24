@@ -441,4 +441,8 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Looking up sentences from elsewhere…" to "正在查找其他来源的句子…",
     "Sentences kept for {0} of {1} words" to "已为 {1} 个单词中的 {0} 个保存句子",
     "Letter tiles" to "字母块",
+    "Right form" to "正确的形式",
+    "Find the form of the word that fits the sentence" to "找出适合句子的单词形式",
+    "Word forms" to "词形",
+    "Needs other forms of the word" to "需要该词的其他形式",
 )

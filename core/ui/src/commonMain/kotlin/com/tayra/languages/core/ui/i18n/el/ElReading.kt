@@ -248,4 +248,7 @@ internal val elReading: Map<String, String> = mapOf(
     "Read the translation and build the missing word" to "Διαβάστε τη μετάφραση και φτιάξτε τη λέξη που λείπει",
     "Tap the letters in order" to "Πατήστε τα γράμματα με τη σειρά",
     "Remove the last letter" to "Αφαίρεση του τελευταίου γράμματος",
+    "Choose the form of “{0}” that fits" to "Επιλέξτε τον τύπο του «{0}» που ταιριάζει",
+    "Build the form of “{0}” that fits" to "Φτιάξτε τον τύπο του «{0}» που ταιριάζει",
+    "Type the form of “{0}” that fits" to "Πληκτρολογήστε τον τύπο του «{0}» που ταιριάζει",
 )

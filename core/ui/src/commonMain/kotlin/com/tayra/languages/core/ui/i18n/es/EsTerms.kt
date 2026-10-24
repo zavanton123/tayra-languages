@@ -441,4 +441,8 @@ internal val esTerms: Map<String, String> = mapOf(
     "Looking up sentences from elsewhere…" to "Buscando oraciones de otras fuentes…",
     "Sentences kept for {0} of {1} words" to "Oraciones guardadas para {0} de {1} palabras",
     "Letter tiles" to "Fichas de letras",
+    "Right form" to "Forma correcta",
+    "Find the form of the word that fits the sentence" to "Encuentra la forma de la palabra que encaja en la oración",
+    "Word forms" to "Formas de las palabras",
+    "Needs other forms of the word" to "Necesita otras formas de la palabra",
 )

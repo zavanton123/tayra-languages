@@ -90,6 +90,8 @@ import com.tayra.languages.core.domain.practice.forPractice
 import com.tayra.languages.core.domain.practice.PracticeExampleStore
 import com.tayra.languages.core.domain.practice.PracticeExampleRepository
 import com.tayra.languages.core.domain.practice.PracticeExample
+import com.tayra.languages.core.domain.practice.WordForms
+import com.tayra.languages.core.domain.practice.WordFamily
 
 /** What the setup dialog knows of the words before the practice: loaded once, when it opens. */
 data class PracticeSetupState(
@@ -104,6 +106,8 @@ data class PracticeSetupState(
     val examples: Map<String, List<PracticeExample>> = emptyMap(),
     /** Still looking up sentences from elsewhere for words short of them. */
     val lookingUp: Boolean = false,
+    /** The words' families, by the word's key, for the questions on their forms. */
+    val families: Map<String, WordFamily> = emptyMap(),
 )
 
 /**
@@ -118,6 +122,7 @@ class PracticeSetupViewModel(
     private val settings: SettingsRepository,
     private val exampleStore: PracticeExampleStore? = null,
     private val keptExamples: PracticeExampleRepository? = null,
+    private val wordForms: WordForms? = null,
 ) : ViewModel() {
     private val _state = MutableStateFlow(PracticeSetupState())
     val state: StateFlow<PracticeSetupState> = _state.asStateFlow()
@@ -153,6 +158,7 @@ class PracticeSetupViewModel(
             _state.value = PracticeSetupState(
                 loading = false, words = words, meanings = loaded?.meanings.orEmpty(), translating = loaded != null,
                 examples = attempt { keptExamples?.forPractice(words) }.orEmpty(), lookingUp = exampleStore != null && words.isNotEmpty(),
+                families = loaded?.let { found -> attempt { wordForms?.let { forms -> words.mapNotNull { w -> forms.family(w.text, found.language)?.let { w.key to it } }.toMap() } } }.orEmpty(),
             )
             if (loaded == null) return@launch
             launch { lookUpExamples(words) }
@@ -241,7 +247,7 @@ internal fun PracticeSetupContent(
     if (naming) {
         TextInputDialog(tr("Save as preset"), label = tr("Name"), onConfirm = { name -> naming = false; onSavePreset(name, setup) }, onDismiss = { naming = false })
     }
-    val preview = remember(state, setup) { PracticePlanner.preview(state.words, setup, state.meanings, state.translations, state.examples) }
+    val preview = remember(state, setup) { PracticePlanner.preview(state.words, setup, state.meanings, state.translations, state.examples, state.families) }
     val minutes = ((preview.questions * SECONDS_A_QUESTION + 59) / 60).coerceAtLeast(1)
     // Sentences from elsewhere are fetched when the practice starts, so they may make questions the count does not show.
     val examplesMayAsk = PracticeContext.EXAMPLE in setup.contexts && ExerciseType.GAP in setup.types

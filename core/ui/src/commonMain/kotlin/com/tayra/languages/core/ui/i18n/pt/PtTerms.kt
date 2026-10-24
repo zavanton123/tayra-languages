@@ -441,4 +441,8 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Looking up sentences from elsewhere…" to "A procurar frases noutras fontes…",
     "Sentences kept for {0} of {1} words" to "Frases guardadas para {0} de {1} palavras",
     "Letter tiles" to "Peças de letras",
+    "Right form" to "Forma certa",
+    "Find the form of the word that fits the sentence" to "Encontre a forma da palavra que encaixa na frase",
+    "Word forms" to "Formas das palavras",
+    "Needs other forms of the word" to "Precisa de outras formas da palavra",
 )

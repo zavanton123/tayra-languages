@@ -441,4 +441,8 @@ internal val frTerms: Map<String, String> = mapOf(
     "Looking up sentences from elsewhere…" to "Recherche de phrases ailleurs…",
     "Sentences kept for {0} of {1} words" to "Phrases gardées pour {0} mots sur {1}",
     "Letter tiles" to "Tuiles de lettres",
+    "Right form" to "Bonne forme",
+    "Find the form of the word that fits the sentence" to "Trouvez la forme du mot qui convient à la phrase",
+    "Word forms" to "Formes des mots",
+    "Needs other forms of the word" to "Il faut d’autres formes du mot",
 )

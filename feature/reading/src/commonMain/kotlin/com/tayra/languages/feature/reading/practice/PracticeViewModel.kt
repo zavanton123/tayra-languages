@@ -31,6 +31,7 @@ import com.tayra.languages.core.domain.practice.forPractice
 import com.tayra.languages.core.domain.practice.PracticeExampleStore
 import com.tayra.languages.core.domain.practice.PracticeExampleRepository
 import com.tayra.languages.core.domain.practice.WordForms
+import com.tayra.languages.core.domain.practice.WordFamily
 
 /** How a question was answered. */
 enum class PracticeResult { CORRECT, ALMOST, TYPO, WRONG }
@@ -116,9 +117,11 @@ class PracticeViewModel(
             }
             val lang = prepared.language
             language = lang
-            val translations = if (ExerciseType.TRANSLATION in setup.types) translateSentences(prepared.words, lang) else emptyMap()
+            // Translation questions are asked through the sentence's translation; form questions give it as their clue.
+            val translations = if (setup.types.any { it == ExerciseType.TRANSLATION || it == ExerciseType.FORM }) translateSentences(prepared.words, lang) else emptyMap()
+            val families = if (ExerciseType.FORM in setup.types) attempt { familiesOf(prepared.words, lang) }.orEmpty() else emptyMap()
             val alikes = attempt { alikesFor(prepared.words, lang) }.orEmpty()
-            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, examplesFor(prepared.words), random, setup, prepared.meanings, translations, alikes)
+            val exercises = PracticeBuilder.build(prepared.words, prepared.pool, examplesFor(prepared.words), random, setup, prepared.meanings, translations, alikes, families)
             _state.update {
                 it.copy(
                     loading = false,
@@ -157,6 +160,11 @@ class PracticeViewModel(
                 .filter { other -> other.lowercase() !in own && (other.first().lowercaseChar() == text.first() || other.lowercase().takeLast(2) == text.takeLast(2)) }
             word.key to near.take(ALIKES)
         }.toMap()
+    }
+
+    private suspend fun familiesOf(words: List<PracticeWord>, language: Language): Map<String, WordFamily> {
+        val forms = wordForms ?: return emptyMap()
+        return words.mapNotNull { word -> forms.family(word.text, language)?.let { word.key to it } }.toMap()
     }
 
     /** The translations of the words' sentences, for questions asked through them; those not ready in time are left out. */

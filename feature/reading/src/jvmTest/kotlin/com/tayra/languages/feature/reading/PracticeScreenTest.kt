@@ -36,6 +36,8 @@ import com.tayra.languages.core.domain.practice.PracticeSetup
 import com.tayra.languages.core.domain.practice.PracticeBuilder
 import com.tayra.languages.core.domain.practice.PracticeMaterialLoader
 import com.tayra.languages.core.domain.practice.WordForms
+import com.tayra.languages.core.domain.frequency.FrequencyLists
+import com.tayra.languages.core.domain.frequency.FrequencyList
 import com.tayra.languages.core.domain.practice.PracticeExampleStore
 import com.tayra.languages.core.data.repository.PracticeExampleRepositoryImpl
 import com.tayra.languages.core.domain.practice.PracticeSource
@@ -86,7 +88,7 @@ class PracticeScreenTest {
     private var bookId = 0L
     private var languageId = 0L
 
-    private fun ComposeUiTest.show(seed: Int = 7, setup: PracticeSetup = PracticeSetup()): PracticeViewModel {
+    private fun ComposeUiTest.show(seed: Int = 7, setup: PracticeSetup = PracticeSetup(), forms: WordForms? = null): PracticeViewModel {
         runBlocking {
             languageId = languages.save(Language(name = "Portuguese"))
             bookId = BookService(books, languages).create(BookDraft(languageId = languageId, title = "Long text", text = text))
@@ -98,7 +100,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), setup, PracticeMaterialLoader(books, languages, reading, terms), PracticeExampleStore(kept, examples, WordForms(null, terms), terms, languages, settings, translator), kept, translator, random = Random(seed))
+        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), setup, PracticeMaterialLoader(books, languages, reading, terms), PracticeExampleStore(kept, examples, WordForms(null, terms), terms, languages, settings, translator), kept, translator, forms, Random(seed))
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -309,6 +311,22 @@ class PracticeScreenTest {
         assertEquals(exercise.answer, viewModel.state.value.typed)
         shot("tiles")
         onNodeWithText("Check").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    /** The right form is asked with the word's base named and the sentence's translation as the clue. */
+    @Test
+    fun theRightFormIsAskedWithItsBaseAndClue() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val lists = object : FrequencyLists {
+            override suspend fun list(languageCode: String) = FrequencyList.parse("comprar\tcomprar compro compra compramos compraram")
+        }
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.FORM), responses = setOf(PracticeResponse.CHOOSE)), forms = WordForms(lists, terms))
+        val exercise = viewModel.state.value.exercises.single()
+        assertEquals("comprar", exercise.answer)
+        onNodeWithText("CHOOSE THE FORM OF “COMPRAR” THAT FITS").assertExists()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("practice-translation").fetchSemanticsNodes().isNotEmpty() }
+        shot("form")
+        onNodeWithTag("practice-option-${exercise.options.indexOf(exercise.answer)}").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
     }
 

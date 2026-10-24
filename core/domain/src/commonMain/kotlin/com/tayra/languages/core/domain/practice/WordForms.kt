@@ -33,6 +33,27 @@ class WordForms(private val frequency: FrequencyLists?, private val terms: TermR
         return (known + counted).filter { it.isNotBlank() }.toSet()
     }
 
+    /**
+     * [text]'s family in [language]: the form the list counts it under (or the base the learner
+     * linked it to), and its forms; null when no other form of it is known.
+     */
+    suspend fun family(text: String, language: Language): WordFamily? {
+        val forms = of(text, language)
+        if (forms.size < 2) return null
+        val key = language.lowercase(text)
+        val listed = index(language)?.byForm?.get(key)?.firstOrNull()?.word
+        val base = listed ?: linkedBase(key, language) ?: return null
+        return WordFamily(base, forms)
+    }
+
+    private suspend fun linkedBase(key: String, language: Language): String? = try {
+        terms.findByTextLc(language.id, key)?.let { terms.parents(it.id).firstOrNull()?.displayText }
+    } catch (e: CancellationException) {
+        throw e
+    } catch (e: Exception) {
+        null
+    }
+
     /** How common [text] is in [language]: 1 for the most common word, null when the list has no such word. */
     suspend fun rank(text: String, language: Language): Int? = index(language)?.byForm?.get(language.lowercase(text))?.minOf { it.rank }
 

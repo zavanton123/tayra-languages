@@ -248,4 +248,7 @@ internal val ptReading: Map<String, String> = mapOf(
     "Read the translation and build the missing word" to "Leia a tradução e monte a palavra que falta",
     "Tap the letters in order" to "Toque nas letras pela ordem",
     "Remove the last letter" to "Remover a última letra",
+    "Choose the form of “{0}” that fits" to "Escolha a forma de “{0}” que encaixa",
+    "Build the form of “{0}” that fits" to "Monte a forma de “{0}” que encaixa",
+    "Type the form of “{0}” that fits" to "Digite a forma de “{0}” que encaixa",
 )
