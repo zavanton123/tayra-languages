@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.terms.list
 
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.performScrollToNode
 import androidx.compose.ui.test.performScrollToIndex
@@ -197,11 +198,20 @@ class TermsScreenTest {
         val setup = PracticeSetup.decode(route.setup)
         assertEquals(PracticePreset.BALANCED.setup.types, setup.types)
         assertEquals(setOf(PracticeResponse.CHOOSE), setup.responses)
-        // Kept for the next practice of chosen words, and only for those.
+        // Kept for the next practice, from the reader as well.
         waitUntil(timeoutMillis = 5_000) { settings.current.practiceSetupVocabulary == route.setup }
-        assertEquals("", settings.current.practiceSetupReading)
+        assertEquals(route.setup, settings.current.practiceSetupReading)
         assertEquals(2, route.termIds.size)
         assertTrue(route.termIds.all { id -> runBlocking { terms.getById(id) }?.text in setOf("comprar", "pensar", "produtos") })
+
+        // Opened again on the same screen, the dialog starts from the practice just started, not from where it first began.
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("start-practice").fetchSemanticsNodes().isEmpty() }
+        onNodeWithContentDescription("List actions").performClick()
+        onNodeWithText("Practise 2 selected").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("start-practice").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("start-practice").performClick()
+        waitUntil(timeoutMillis = 5_000) { visited.size == 2 }
+        assertEquals(route.setup, (visited[1] as Route.PracticeWords).setup)
     }
 
     /** A phone keeps the filters in a sheet: statuses in two columns, the days picked from a list, and a button that closes it. */

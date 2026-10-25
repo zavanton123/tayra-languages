@@ -117,8 +117,8 @@ data class PracticeSetupState(
 
 /**
  * Loads the words a practice from [source] would ask about, and translates their sentences, for
- * the setup dialog's counts; keeps the setup last used (one for the reader, one for the
- * vocabulary) and the learner's own presets in the settings.
+ * the setup dialog's counts; keeps the setup last used and the learner's own presets in the
+ * settings.
  */
 class PracticeSetupViewModel(
     private val source: PracticeSource,
@@ -135,16 +135,20 @@ class PracticeSetupViewModel(
 
     private val fromVocabulary = source is PracticeSource.Words
 
-    /** The setup last used from here, or the default one the first time. */
-    val initialSetup: PracticeSetup = settings.current.let { if (fromVocabulary) it.practiceSetupVocabulary else it.practiceSetupReading }
-        .takeIf { it.isNotBlank() }?.let(PracticeSetup::decode) ?: PracticePreset.DEFAULT.setup
+    /**
+     * The setup of the last practice, wherever it was started, or the default one the first time.
+     * Read each time the dialog opens: the view model outlives one opening.
+     */
+    val initialSetup: PracticeSetup
+        get() = settings.current.let { if (fromVocabulary) it.practiceSetupVocabulary else it.practiceSetupReading }
+            .takeIf { it.isNotBlank() }?.let(PracticeSetup::decode) ?: PracticePreset.DEFAULT.setup
 
     val presets: StateFlow<List<SavedPreset>> = settings.settings.map { SavedPreset.decode(it.practicePresets) }
         .stateIn(viewModelScope, SharingStarted.Eagerly, SavedPreset.decode(settings.current.practicePresets))
 
-    /** Keeps [setup] as the one to open with next time from here. */
+    /** Keeps [setup] as the one to open with next time, from the reader and the vocabulary alike. */
     fun remember(setup: PracticeSetup) = viewModelScope.launch {
-        settings.update { if (fromVocabulary) it.copy(practiceSetupVocabulary = setup.encode()) else it.copy(practiceSetupReading = setup.encode()) }
+        settings.update { it.copy(practiceSetupReading = setup.encode(), practiceSetupVocabulary = setup.encode()) }
     }
 
     /** Saves [setup] as a preset named [name], in place of one of that name. */
