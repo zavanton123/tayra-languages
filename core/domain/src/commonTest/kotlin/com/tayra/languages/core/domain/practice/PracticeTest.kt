@@ -85,21 +85,6 @@ class PracticeTest {
         assertEquals(emptyList(), PracticeBuilder.build(listOf(word("moro", null, "Eu moro no Brasil.")), pageWords, setup = setup))
     }
 
-    /** A translation question carries its sentence's translation; a word whose sentence has none is not asked it. */
-    @Test
-    fun translationQuestionsComeOnlyWithATranslation() {
-        val translations = mapOf("Eu moro no Brasil." to "I live in Brazil.", long to "When we need to buy something, we stop at the supermarket near home.")
-        val setup = PracticeSetup(types = setOf(ExerciseType.TRANSLATION), length = null)
-        val asked = PracticeBuilder.build(words, pageWords, random = Random(1), setup = setup, translations = translations)
-        assertEquals(setOf("moro", "comprar"), asked.map { it.word }.toSet())
-        asked.forEach { e ->
-            assertEquals(translations.getValue(e.sentence), e.sentenceTranslation)
-            assertEquals(e.word, e.answer)
-            if (e.response == PracticeResponse.CHOOSE) assertTrue(e.answer in e.options) else assertTrue(e.options.isEmpty())
-        }
-        assertEquals(setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE), asked.map { it.response }.toSet())
-    }
-
     /** Hearing a sentence, the word with the meaning given is chosen among the sentence's other words, or typed; it needs the meaning. */
     @Test
     fun aHeardSentenceAsksForTheWordWithTheMeaningAmongItsOwnWords() {

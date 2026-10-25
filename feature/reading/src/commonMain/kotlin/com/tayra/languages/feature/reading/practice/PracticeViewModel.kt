@@ -385,7 +385,7 @@ class PracticeViewModel(
         const val ALIKES = 12
 
         /** The questions that need the sentence's translation. */
-        val TRANSLATED = setOf(ExerciseType.TRANSLATION, ExerciseType.BUILD, ExerciseType.FORM)
+        val TRANSLATED = setOf(ExerciseType.BUILD, ExerciseType.FORM)
 
         /** How long the sentences of translation questions may take to translate, all together. */
         val TRANSLATION_WAIT = 8.seconds

@@ -21,7 +21,6 @@ fun ExerciseType.label(): String = when (this) {
     ExerciseType.DICTATION -> tr("Dictation")
     ExerciseType.SOUND_ALIKE -> tr("Sound-alike")
     ExerciseType.SHADOW -> tr("Shadowing")
-    ExerciseType.TRANSLATION -> tr("From the translation")
     ExerciseType.BUILD -> tr("Build the sentence")
     ExerciseType.FORM -> tr("Right form")
 }
@@ -36,7 +35,6 @@ fun ExerciseType.description(): String = when (this) {
     ExerciseType.DICTATION -> tr("Hear the sentence and type the missing word, or all of a short one")
     ExerciseType.SOUND_ALIKE -> tr("Hear a word and pick it among words spelled nearly like it")
     ExerciseType.SHADOW -> tr("Hear a sentence and say it back")
-    ExerciseType.TRANSLATION -> tr("Read what the sentence means and find the missing word")
     ExerciseType.BUILD -> tr("Put the sentence's words in order from its translation")
     ExerciseType.FORM -> tr("Find the form of the word that fits the sentence")
 }
@@ -50,7 +48,6 @@ fun ExerciseType.icon(): ImageVector = when (this) {
     ExerciseType.DICTATION -> AppIcons.RecordVoiceOver
     ExerciseType.SOUND_ALIKE -> AppIcons.Speed
     ExerciseType.SHADOW -> AppIcons.Mic
-    ExerciseType.TRANSLATION -> AppIcons.Translate
     ExerciseType.BUILD -> AppIcons.SwapVert
     ExerciseType.FORM -> AppIcons.Abc
 }

@@ -27,8 +27,7 @@ class PracticePlannerTest {
         assertEquals(2, preview.of(ExerciseType.MEANING).words)
         assertEquals(PracticeNeed.WORD_MEANING, preview.of(ExerciseType.MEANING).need)
         assertEquals(2, preview.of(ExerciseType.HEAR_SENTENCE).words)
-        assertEquals(1, preview.of(ExerciseType.TRANSLATION).words)
-        assertEquals(PracticeNeed.SENTENCE_TRANSLATION, preview.of(ExerciseType.TRANSLATION).need)
+        assertEquals(PracticeNeed.SENTENCE_TRANSLATION, preview.of(ExerciseType.BUILD).need)
         assertEquals(PracticeBuilder.build(words, emptyList(), setup = setup, meanings = listOf("house", "slowly", "the day"), translations = translations).size, preview.questions)
     }
 

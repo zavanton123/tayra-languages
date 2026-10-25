@@ -335,11 +335,6 @@ private val Exercise.instruction: String
             PracticeResponse.CHOOSE -> tr("Choose the form of “{0}” that fits", lemma.orEmpty())
             PracticeResponse.TYPE, PracticeResponse.SPEAK -> tr("Type the form of “{0}” that fits", lemma.orEmpty())
         }
-        ExerciseType.TRANSLATION -> when (response) {
-            PracticeResponse.CHOOSE -> tr("Read the translation and choose the missing word")
-            PracticeResponse.TYPE -> tr("Read the translation and type the missing word")
-            PracticeResponse.SPEAK -> tr("Read the translation and say the sentence")
-        }
     }
 
 @Composable
@@ -382,8 +377,8 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
                 Text(translation, style = AppText.cardTranslation(compact).copy(color = colors.onSurfaceVariant, textAlign = TextAlign.Center))
             }
         }
-        // A translation question starts from the translation: it comes first, the sentence with its gap under it.
-        val fromTranslation = exercise.type == ExerciseType.TRANSLATION || exercise.type == ExerciseType.BUILD
+        // Building the sentence starts from its translation: it comes first, the words to put in order under it.
+        val fromTranslation = exercise.type == ExerciseType.BUILD
         if (fromTranslation) state.sentenceTranslation?.let { translationBox(it) }
 
         // What is heard is not shown until answered: the word of a listening choice, or a sentence typed whole.

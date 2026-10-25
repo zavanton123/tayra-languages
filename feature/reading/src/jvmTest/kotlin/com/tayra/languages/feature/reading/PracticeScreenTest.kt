@@ -287,26 +287,6 @@ class PracticeScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
     }
 
-    /** A translation question shows the sentence's translation first, the sentence with its gap under it, and takes the typed word. */
-    @Test
-    fun aTranslationQuestionStartsFromTheTranslation() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.TRANSLATION), responses = setOf(PracticeResponse.TYPE)))
-        val exercise = viewModel.state.value.exercises.first()
-        assertEquals(ExerciseType.TRANSLATION, exercise.type)
-        assertEquals("[${exercise.sentence}]", exercise.sentenceTranslation)
-        onNodeWithText("READ THE TRANSLATION AND TYPE THE MISSING WORD").assertExists()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("practice-translation").fetchSemanticsNodes().isNotEmpty() }
-        val translation = onNodeWithTag("practice-translation").fetchSemanticsNode().boundsInRoot
-        val sentence = onNodeWithTag("practice-sentence").fetchSemanticsNode()
-        assertTrue(translation.bottom <= sentence.boundsInRoot.top, "the translation comes first")
-        assertTrue("[...]" in sentence.config[androidx.compose.ui.semantics.SemanticsProperties.Text].single().text)
-        shot("translation")
-        onNodeWithTag("practice-input").performTextInput(exercise.answer)
-        onNodeWithText("Check").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(1, onAllNodesWithTag("practice-translation").fetchSemanticsNodes().size, "and is shown once, not again under the answer")
-    }
-
     /** A heard sentence is read aloud and hidden; the question gives the meaning and the word is chosen. */
     @Test
     fun aHeardSentenceIsHiddenAndAsksForTheWordWithAMeaning() = runDesktopComposeUiTest(width = 1586, height = 1000) {

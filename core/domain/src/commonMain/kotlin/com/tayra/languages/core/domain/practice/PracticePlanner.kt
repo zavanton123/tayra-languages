@@ -64,7 +64,6 @@ object PracticePlanner {
         // Up to five are matched at a time; fewer than four with meanings make no round.
         ExerciseType.MATCHING -> PracticeNeed.MORE_WORDS.takeIf { PracticeBuilder.matching(words, Random(0)) == null }
         ExerciseType.HEAR_SENTENCE -> PracticeNeed.WORD_MEANING
-        ExerciseType.TRANSLATION -> PracticeNeed.SENTENCE_TRANSLATION.takeIf { words.any { it.sentence !in translations } }
         ExerciseType.BUILD -> if (words.any { it.sentence !in translations }) PracticeNeed.SENTENCE_TRANSLATION else PracticeNeed.SENTENCE_LENGTH
         ExerciseType.SOUND_ALIKE -> PracticeNeed.WORD_FORMS
         ExerciseType.FORM -> if (words.any { (families[it.key]?.forms?.size ?: 0) < 4 }) PracticeNeed.WORD_FORMS else PracticeNeed.SENTENCE_TRANSLATION
@@ -87,7 +86,7 @@ enum class PracticePreset(val setup: PracticeSetup) {
     WRITING(PracticeSetup(types = ExerciseType.entries.filter { PracticeResponse.TYPE in it.responses }.toSet(), responses = setOf(PracticeResponse.TYPE), adaptive = true)),
 
     /** Saying the words: in their sentences, and sentences repeated after the voice. Offered only where speech can be recognised. */
-    SPEAKING(PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.TRANSLATION, ExerciseType.HEAR_SENTENCE, ExerciseType.SHADOW), responses = setOf(PracticeResponse.SPEAK))),
+    SPEAKING(PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.SHADOW), responses = setOf(PracticeResponse.SPEAK))),
     ;
 
     companion object {

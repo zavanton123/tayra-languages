@@ -66,9 +66,6 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
     /** The sentence is read aloud: say it back; right when most of its words are heard. */
     SHADOW(PracticeSkill.LISTENING, setOf(PracticeResponse.SPEAK)),
 
-    /** The sentence's translation over the sentence with the word blanked out: choose or type the word. Needs the translation. */
-    TRANSLATION(PracticeSkill.TRANSLATION, setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE, PracticeResponse.SPEAK)),
-
     /** The sentence's translation, and the sentence's words shuffled: put them in order. Needs the translation and a sentence of 3 to 8 words. */
     BUILD(PracticeSkill.TRANSLATION, setOf(PracticeResponse.CHOOSE)),
 
@@ -229,7 +226,7 @@ object PracticeBuilder {
     private const val SHORT_SENTENCE_WORDS = 8
 
     /** The types a sentence from elsewhere can be asked in: those about the sentence, not the word alone or its meaning. */
-    private val EXAMPLE_TYPES = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.TRANSLATION, ExerciseType.BUILD, ExerciseType.DICTATION, ExerciseType.SHADOW)
+    private val EXAMPLE_TYPES = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.BUILD, ExerciseType.DICTATION, ExerciseType.SHADOW)
 
     /** Sentences built from their words have this many words at least, and [MAX_BUILT] at most. */
     private const val MIN_BUILT = 3
@@ -396,10 +393,6 @@ object PracticeBuilder {
                 if (word.translation.isNullOrBlank()) return null
                 val heard = base.copy(spoken = word.sentence)
                 if (response == PracticeResponse.CHOOSE) heard.copy(options = sentenceChoices(word, targets, pool, random)) else answered(heard, response, word, targets, pool, random)
-            }
-            ExerciseType.TRANSLATION -> {
-                val translation = translations[word.sentence]?.trim()?.takeIf { it.isNotEmpty() } ?: return null
-                answered(base.copy(sentenceTranslation = translation), response, word, targets, pool, random)
             }
             ExerciseType.BUILD -> {
                 val translation = translations[word.sentence]?.trim()?.takeIf { it.isNotEmpty() } ?: return null
