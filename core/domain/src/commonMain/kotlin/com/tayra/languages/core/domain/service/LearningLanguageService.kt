@@ -31,6 +31,9 @@ class LearningLanguageService(
         if (s.currentLanguageId == 0L || s.currentLanguageId in mine) mine else mine + s.currentLanguageId
     }.distinctUntilChanged()
 
+    /** The languages being learned now. */
+    suspend fun mine(): List<Long> = observeMine().first()
+
     /**
      * Fills the languages being learned the first time they are asked for: those with texts or
      * saved words, and the current one; the native language never.
@@ -78,6 +81,19 @@ class LearningLanguageService(
 
     /** Whether [language] is the one meanings are shown in, which cannot be learned at the same time. */
     fun isNative(language: Language): Boolean = LanguageCodes.codeFor(language.name) == settings.current.nativeLanguage
+
+    /**
+     * Stops learning the language with [languageId]: it leaves the languages being learned, and when
+     * it was the current one, the first of the rest takes its place, or none, to be asked for.
+     */
+    suspend fun forget(languageId: Long) {
+        fillMine()
+        settings.update { s ->
+            val rest = decode(s.myLanguages) - languageId
+            val current = if (s.currentLanguageId == languageId) rest.firstOrNull() ?: 0L else s.currentLanguageId
+            s.copy(currentLanguageId = current, myLanguages = encode(rest))
+        }
+    }
 
     private fun withMine(text: String, id: Long): String = decode(text).let { if (id in it) text else encode(it + id) }
 

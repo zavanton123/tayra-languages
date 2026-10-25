@@ -121,4 +121,36 @@ class LanguagesScreenTest {
         onAllNodesWithText("Русский").onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.uiLanguage == "ru" }
     }
+
+    /** The languages being learned are listed with their words, each with a way to remove it that asks first. */
+    @Test
+    fun aLanguageBeingLearnedCanBeRemoved() = runDesktopComposeUiTest(width = 1580, height = 1200) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val viewModel = LanguagesViewModel(settings)
+        setContent {
+            val state = LearningLanguageState(
+                listOf(1L to "Portuguese", 2L to "German", 3L to "English"), 1L, nativeIds = setOf(3L), knownWords = 586,
+                mine = listOf(1L, 2L), wordCounts = mapOf(1L to 586, 2L to 12),
+            ) {}
+            TayraTheme(AppThemes.byId(AppThemes.all.first().id)) {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalLearningLanguage provides state) {
+                        LanguagesScreen(onNavigate = {}, onBack = {}, viewModel = viewModel)
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Languages I'm learning")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("586 words · Learning now").assertExists()
+        onNodeWithText("12 words").assertExists()
+        System.getenv("MY_LANGUAGES_SCREENSHOT")?.let { path -> waitForIdle(); ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", File(path)) }
+
+        onNodeWithTag("remove-language-de").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Remove German?").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(2L, viewModel.removing.value?.languageId)
+        // Nothing is removed before what goes is counted.
+        onNodeWithTag("confirm-remove").assertIsNotEnabled()
+        onNodeWithText("Cancel").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.removing.value == null }
+    }
 }

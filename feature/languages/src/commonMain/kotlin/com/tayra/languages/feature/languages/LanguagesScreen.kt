@@ -80,6 +80,8 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
     // Counts the changes made here, so each one shows "Changes saved" for a moment.
     var changes by remember { mutableIntStateOf(0) }
     val wide = LocalWindowWidth.current.isExpanded
+    val removing by viewModel.removing.collectAsStateWithLifecycle()
+    removing?.let { RemoveLanguageDialog(it, onConfirm = viewModel::remove, onDismiss = viewModel::dismissRemoval) }
 
     if (compact) {
         PhoneLanguagesScreen(settings, learning, viewModel, onNavigate, onBack)
@@ -151,6 +153,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                     }
                 }
             }
+            if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth().padding(top = AppSpacing.xl))
             if (compact) SavedNote(changes)
         }
     }

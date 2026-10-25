@@ -112,6 +112,7 @@ import com.tayra.languages.core.domain.courses.CourseExamplesProvider
 import com.tayra.languages.core.domain.service.CorpusWords
 import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.service.GoogleTranslation
+import com.tayra.languages.core.domain.service.LanguageRemovalService
 import com.tayra.languages.core.domain.service.LanguageService
 import com.tayra.languages.core.domain.service.LanguageSetupService
 import com.tayra.languages.core.domain.service.LearningLanguageService
@@ -251,6 +252,7 @@ val dataModule: Module = module {
     single { NewsService(get(), get(), get(), get(), get()) }
     single { LanguageSetupService(get(), get(), get(), get(), get(), get()) }
     single { ClearDataService(get(), get(), get(), get(), get(), get(), get()) }
+    single { LanguageRemovalService(get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get()) }
     single<FlashcardRepository> { FlashcardRepositoryImpl(get()) }
     single<VocabularyLevelRepository> { VocabularyLevelRepositoryImpl(get()) }
     single { FlashcardService(get(), get(), get()) }
