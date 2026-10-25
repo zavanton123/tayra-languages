@@ -295,7 +295,7 @@ internal val deSettings: Map<String, String> = mapOf(
     "Try again" to "Erneut versuchen",
     "Speech recognition" to "Spracherkennung",
     "Hears your answers when you practise speaking. It runs on this computer, with no network once installed." to "Hört deine Antworten, wenn du das Sprechen übst. Läuft auf diesem Computer, nach der Installation ohne Netzwerk.",
-    "Whisper's small model and what it runs on, about {0} to download." to "Das kleine Whisper-Modell und was es zum Laufen braucht, etwa {0} zum Herunterladen.",
     "Installing speech recognition…" to "Spracherkennung wird installiert…",
     "Could not install: {0}" to "Installation fehlgeschlagen: {0}",
+    "Whisper's large turbo model and what it runs on, about {0} to download." to "Das große Turbo-Modell von Whisper und was es zum Laufen braucht, etwa {0} zum Herunterladen.",
 )

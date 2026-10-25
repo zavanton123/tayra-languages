@@ -46,7 +46,7 @@ internal fun RecognitionCard(viewModel: SpeechViewModel) {
     ) {
         if (ready == false) {
             Text(
-                tr("Whisper's small model and what it runs on, about {0} to download.", formatSize(size)),
+                tr("Whisper's large turbo model and what it runs on, about {0} to download.", formatSize(size)),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )

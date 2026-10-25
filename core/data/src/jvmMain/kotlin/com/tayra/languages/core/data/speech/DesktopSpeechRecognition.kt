@@ -19,6 +19,7 @@ import kotlinx.serialization.json.jsonPrimitive
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream
 import java.io.File
+import java.nio.file.Files
 import javax.sound.sampled.AudioFileFormat
 import javax.sound.sampled.AudioFormat
 import javax.sound.sampled.AudioInputStream
@@ -27,8 +28,8 @@ import kotlin.coroutines.coroutineContext
 
 /**
  * Speech heard on the desktop: the microphone recorded until the learner pauses, then Whisper's
- * small model (faster-whisper, in the speech worker) writes down what was said, with no network
- * once it is set up from the Speech settings.
+ * large turbo model (faster-whisper, in the speech worker) writes down what was said, leaning
+ * towards the sentence expected, with no network once it is set up from the Speech settings.
  */
 class DesktopSpeechRecognition(
     private val python: ManagedPython,
@@ -46,7 +47,11 @@ class DesktopSpeechRecognition(
     override suspend fun isReady(): Boolean = withContext(Dispatchers.IO) { modelDownloaded() } &&
         runCatching { worker.request(STATUS_TIMEOUT_MS, "cmd" to "status", "engine" to ENGINE) }.isSuccess
 
-    override suspend fun downloadSize(): Long = (if (python.isInstalled) 0 else python.downloadSize) + PIP_DOWNLOAD_SIZE + MODEL_SIZE
+    override suspend fun downloadSize(): Long {
+        // A runtime set up for an earlier model only needs the model.
+        if (runCatching { worker.request(STATUS_TIMEOUT_MS, "cmd" to "status", "engine" to ENGINE) }.isSuccess) return MODEL_SIZE
+        return (if (python.isInstalled) 0 else python.downloadSize) + PIP_DOWNLOAD_SIZE + MODEL_SIZE
+    }
 
     override suspend fun setUp(): Unit = withContext(Dispatchers.IO) {
         try {
@@ -57,7 +62,8 @@ class DesktopSpeechRecognition(
                 // The model comes down inside the worker, which says nothing until it is done: the folder's growth is the progress.
                 val watch = launch {
                     while (true) {
-                        val done = models.walkTopDown().filter { it.isFile }.sumOf { it.length() }
+                        // The cache's snapshot links point at its blobs: counted once, as blobs.
+                        val done = models.walkTopDown().filter { it.isFile && MODEL_REPO in it.path && !Files.isSymbolicLink(it.toPath()) }.sumOf { it.length() }
                         progressState.value = "Downloading the recognition model (${done / 1_000_000} of ${MODEL_SIZE / 1_000_000} MB)…"
                         delay(PROGRESS_EVERY_MS)
                     }
@@ -68,22 +74,25 @@ class DesktopSpeechRecognition(
                     watch.cancel()
                 }
             }
+            // A model the app used before is not used again.
+            models.listFiles { file -> file.isDirectory && file.name.startsWith("models--") && MODEL_REPO !in file.name }?.forEach { it.deleteRecursively() }
         } finally {
             progressState.value = null
         }
     }
 
-    override suspend fun listen(languageCode: String): Heard = withContext(Dispatchers.IO) {
+    override suspend fun listen(languageCode: String, hint: String?, onRecorded: () -> Unit): Heard = withContext(Dispatchers.IO) {
         val language = whisperCode(languageCode) ?: return@withContext Heard.Refused
         stopping = false
         when (val recording = record()) {
             Recording.Refused -> Heard.Refused
             Recording.Silent -> Heard.Nothing
             is Recording.Said -> {
+                onRecorded()
                 val wav = File.createTempFile("tayra-heard", ".wav")
                 try {
                     AudioSystem.write(AudioInputStream(ByteArrayInputStream(recording.pcm), FORMAT, recording.pcm.size / 2L), AudioFileFormat.Type.WAVE, wav)
-                    val text = worker.request(TRANSCRIBE_TIMEOUT_MS, "cmd" to "transcribe", "lang" to language, "audio" to wav.absolutePath, *model())["text"]?.jsonPrimitive?.content?.trim()
+                    val text = worker.request(TRANSCRIBE_TIMEOUT_MS, "cmd" to "transcribe", "lang" to language, "audio" to wav.absolutePath, "prompt" to hint.orEmpty(), *model())["text"]?.jsonPrimitive?.content?.trim()
                     if (text.isNullOrEmpty()) Heard.Nothing else Heard.Words(text)
                 } catch (e: CancellationException) {
                     throw e
@@ -142,17 +151,21 @@ class DesktopSpeechRecognition(
 
     private fun model() = arrayOf("engine" to ENGINE, "model" to MODEL, "models" to models.absolutePath)
 
-    private fun modelDownloaded(): Boolean = models.walkTopDown().any { it.name == "model.bin" }
+    private fun modelDownloaded(): Boolean = models.walkTopDown().any { it.name == "model.bin" && MODEL_REPO in it.path }
 
     private companion object {
         const val ENGINE = "whisper"
-        const val MODEL = "small"
+        /** Far better than the small model at a learner's accent, and quick enough for a sentence. */
+        const val MODEL = "large-v3-turbo"
+
+        /** The model's folder in the Hugging Face cache, which faster-whisper downloads it into. */
+        const val MODEL_REPO = "faster-whisper-large-v3-turbo"
         val FORMAT = AudioFormat(16_000f, 16, 1, true, false)
 
         /** A tenth of a second of [FORMAT]. */
         const val CHUNK_BYTES = 3_200
         const val PIP_DOWNLOAD_SIZE = 90_000_000L
-        const val MODEL_SIZE = 484_000_000L
+        const val MODEL_SIZE = 1_622_000_000L
         const val STATUS_TIMEOUT_MS = 60_000L
         const val TRANSCRIBE_TIMEOUT_MS = 120_000L
         const val DOWNLOAD_TIMEOUT_MS = 3_600_000L

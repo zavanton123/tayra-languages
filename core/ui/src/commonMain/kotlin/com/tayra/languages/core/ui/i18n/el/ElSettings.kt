@@ -295,7 +295,7 @@ internal val elSettings: Map<String, String> = mapOf(
     "Try again" to "Δοκιμάστε ξανά",
     "Speech recognition" to "Αναγνώριση ομιλίας",
     "Hears your answers when you practise speaking. It runs on this computer, with no network once installed." to "Ακούει τις απαντήσεις σου όταν εξασκείσαι στην ομιλία. Τρέχει σε αυτόν τον υπολογιστή, χωρίς δίκτυο μετά την εγκατάσταση.",
-    "Whisper's small model and what it runs on, about {0} to download." to "Το μικρό μοντέλο του Whisper και ό,τι χρειάζεται για να τρέξει: περίπου {0} για λήψη.",
     "Installing speech recognition…" to "Εγκατάσταση αναγνώρισης ομιλίας…",
     "Could not install: {0}" to "Δεν ήταν δυνατή η εγκατάσταση: {0}",
+    "Whisper's large turbo model and what it runs on, about {0} to download." to "Το μεγάλο μοντέλο turbo του Whisper και ό,τι χρειάζεται για να τρέξει: περίπου {0} για λήψη.",
 )

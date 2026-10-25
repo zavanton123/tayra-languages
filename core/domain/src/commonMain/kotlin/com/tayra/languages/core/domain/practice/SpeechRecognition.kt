@@ -10,12 +10,21 @@ interface SpeechRecognition {
     /** Whether speech in the language with the ISO 639-1 [languageCode] can be recognised here now. */
     suspend fun isAvailable(languageCode: String): Boolean
 
-    /** Listens until the learner stops speaking, or [stop] is called. */
-    suspend fun listen(languageCode: String): Heard
+    /**
+     * Listens until the learner stops speaking, or [stop] is called. [hint] is what they are expected
+     * to say, which recognisers that take one lean towards: a learner's accent is heard far better.
+     * [onRecorded] is told when the speaking is over and only the recognising is left, which can take
+     * a few seconds.
+     */
+    suspend fun listen(languageCode: String, hint: String? = null, onRecorded: () -> Unit = {}): Heard
 
     /** Stops listening early; [listen] then returns what was heard so far. */
     fun stop() {}
 }
+
+/** The words of a [SpeechRecognition.listen] hint, for recognisers that take words rather than a sentence. */
+fun hintWords(hint: String?): List<String> =
+    hint.orEmpty().split(Regex("""[^\p{L}\p{N}'’-]+""")).filter { it.isNotBlank() }.distinct()
 
 /** What listening came to. */
 sealed interface Heard {

@@ -264,4 +264,5 @@ internal val esReading: Map<String, String> = mapOf(
     "Type the answers instead." to "Escribe las respuestas en su lugar.",
     "Read sentences aloud" to "Leer las frases en voz alta",
     "Stop reading sentences aloud" to "Dejar de leer las frases en voz alta",
+    "Recognising…" to "Reconociendo…",
 )

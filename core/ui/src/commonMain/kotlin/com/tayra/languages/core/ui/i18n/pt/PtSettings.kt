@@ -295,7 +295,7 @@ internal val ptSettings: Map<String, String> = mapOf(
     "Try again" to "Tentar de novo",
     "Speech recognition" to "Reconhecimento de fala",
     "Hears your answers when you practise speaking. It runs on this computer, with no network once installed." to "Ouve as suas respostas quando pratica a fala. Funciona neste computador, sem rede depois de instalado.",
-    "Whisper's small model and what it runs on, about {0} to download." to "O modelo pequeno do Whisper e o que precisa para funcionar: cerca de {0} para transferir.",
     "Installing speech recognition…" to "A instalar o reconhecimento de fala…",
     "Could not install: {0}" to "Não foi possível instalar: {0}",
+    "Whisper's large turbo model and what it runs on, about {0} to download." to "O modelo grande turbo do Whisper e o que precisa para funcionar: cerca de {0} para transferir.",
 )

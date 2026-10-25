@@ -389,4 +389,11 @@ class PracticeTest {
         // A length is still filled where there are enough different questions.
         assertEquals(7, PracticeBuilder.build(words, pageWords, random = Random(1), setup = setup.copy(length = 7)).size)
     }
+
+    @Test
+    fun aHintIsGivenAsItsWords() {
+        assertEquals(listOf("Eu", "moro", "no", "Brasil"), hintWords("Eu moro no Brasil."))
+        assertEquals(listOf("d'água", "guarda-chuva"), hintWords("d'água, guarda-chuva!"))
+        assertEquals(emptyList(), hintWords(null))
+    }
 }

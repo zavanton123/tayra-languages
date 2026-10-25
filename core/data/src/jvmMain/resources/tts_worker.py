@@ -9,11 +9,12 @@ One request per line on stdin, one reply per line on stdout:
 Kokoro's status also lists the languages whose readers fail to load: {"id": 4, ..., "missing": ["zh", "ja"]}.
   {"id": 5, "cmd": "prepare", "engine": "whisper", "model": "small", "models": "/path/whisper"}  -> {"model": "small"}
   {"id": 6, "cmd": "transcribe", "engine": "whisper", "model": "small", "models": "/path/whisper", "lang": "pt",
-   "audio": "/tmp/x.wav"}  -> {"text": "..."}
+   "audio": "/tmp/x.wav", "prompt": "the sentence expected"}  -> {"text": "..."}
 Any failure replies {"id": ..., "error": "..."}. Loaded models are kept for the next request.
 """
 import importlib.util
 import json
+import os
 import sys
 import types
 import wave
@@ -57,7 +58,8 @@ def whisper(req):
     name, folder = req["model"], req["models"]
     if (name, folder) not in WHISPER:
         from faster_whisper import WhisperModel
-        WHISPER[(name, folder)] = WhisperModel(name, device="cpu", compute_type="int8", download_root=folder)
+        # Every core: a sentence takes about a third less time than with the default four.
+        WHISPER[(name, folder)] = WhisperModel(name, device="cpu", compute_type="int8", download_root=folder, cpu_threads=os.cpu_count() or 0)
     return WHISPER[(name, folder)]
 
 
@@ -68,9 +70,23 @@ def transcribe(req):
         if (w.getframerate(), w.getnchannels(), w.getsampwidth()) != (16000, 1, 2):
             raise RuntimeError("expected 16 kHz mono 16-bit audio")
         audio = numpy.frombuffer(w.readframes(w.getnframes()), dtype=numpy.int16).astype(numpy.float32) / 32768.0
-    # One short answer: no carrying over between segments, which only makes up text after a pause.
-    segments, _ = whisper(req).transcribe(audio, language=req["lang"], beam_size=5, condition_on_previous_text=False)
-    return {"text": " ".join(s.text.strip() for s in segments).strip()}
+    # One short answer: no carrying over between segments, which only makes up text after a pause. The sentence
+    # expected, as the text before it, leans the model towards its words, which an accent otherwise hides.
+    prompt = req.get("prompt") or None
+    text = heard(whisper(req), audio, req["lang"], prompt)
+    # A prompt the speech matches word for word can leave Whisper thinking it is already written down,
+    # and it gives back nothing: heard again without one.
+    if prompt and not any(c.isalnum() for c in text):
+        text = heard(whisper(req), audio, req["lang"], None)
+    return {"text": text}
+
+
+def heard(model, audio, lang, prompt):
+    # One pass, at most a long sentence's tokens: Whisper's retries at higher temperatures, set off when
+    # a prompt makes its first try look repetitive, took half a minute over a single sentence.
+    segments, _ = model.transcribe(audio, language=lang, beam_size=5, condition_on_previous_text=False, initial_prompt=prompt,
+                                   temperature=0.0, max_new_tokens=128, without_timestamps=True)
+    return " ".join(s.text.strip() for s in segments).strip()
 
 
 # The voices of these languages were trained on misaki's readers, not on eSpeak's, which

@@ -264,4 +264,5 @@ internal val plReading: Map<String, String> = mapOf(
     "Type the answers instead." to "Zamiast tego wpisuj odpowiedzi.",
     "Read sentences aloud" to "Czytaj zdania na głos",
     "Stop reading sentences aloud" to "Przestań czytać zdania na głos",
+    "Recognising…" to "Rozpoznawanie…",
 )

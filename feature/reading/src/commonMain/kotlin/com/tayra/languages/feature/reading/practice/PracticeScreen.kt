@@ -607,7 +607,7 @@ private fun ReadAloudCircle(on: Boolean, onClick: () -> Unit) {
 @Composable
 private fun SpokenAnswer(state: PracticeUiState, actions: PracticeActions) {
     Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        if (!state.answered) {
+        if (!state.answered && !state.recognising) {
             PrimaryButton(
                 if (state.listening) tr("Stop") else tr("Speak"),
                 onClick = if (state.listening) actions.onStopListening else actions.onListen,
@@ -617,6 +617,7 @@ private fun SpokenAnswer(state: PracticeUiState, actions: PracticeActions) {
             )
         }
         val note = when {
+            state.recognising -> tr("Recognising…")
             state.listening -> tr("Listening…")
             state.typed.isNotBlank() -> tr("Heard: {0}", state.typed)
             state.nothingHeard -> tr("Nothing was heard. Try again.")

@@ -77,6 +77,8 @@ data class PracticeUiState(
     val wholeBook: Boolean = false,
     /** Hearing an answer said aloud. */
     val listening: Boolean = false,
+    /** Speaking is over and what was said is being made out. */
+    val recognising: Boolean = false,
     /** The last try at saying the answer made out nothing. */
     val nothingHeard: Boolean = false,
     /** The microphone could not be used, so answers to be said are typed instead. */
@@ -266,7 +268,9 @@ class PracticeViewModel(
         if (_state.value.answered || _state.value.listening || exercise.response != PracticeResponse.SPEAK || code == null) return
         _state.update { it.copy(listening = true, nothingHeard = false, typed = "") }
         listenJob = viewModelScope.launch {
-            val heard = attempt { speech?.listen(code) } ?: Heard.Refused
+            // The sentence holds what is to be said: the whole of it, or the word heard in it.
+            val heard = attempt { speech?.listen(code, exercise.sentence) { _state.update { if (it.current === exercise) it.copy(recognising = true) else it } } } ?: Heard.Refused
+            _state.update { it.copy(recognising = false) }
             if (_state.value.current !== exercise) return@launch
             when (heard) {
                 is Heard.Words -> {

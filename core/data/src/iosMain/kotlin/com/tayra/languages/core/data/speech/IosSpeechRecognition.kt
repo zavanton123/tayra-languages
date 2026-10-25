@@ -2,6 +2,7 @@ package com.tayra.languages.core.data.speech
 
 import com.tayra.languages.core.domain.practice.Heard
 import com.tayra.languages.core.domain.practice.SpeechRecognition
+import com.tayra.languages.core.domain.practice.hintWords
 import kotlin.coroutines.resume
 import kotlin.time.Duration.Companion.milliseconds
 import kotlin.time.Duration.Companion.seconds
@@ -39,7 +40,7 @@ class IosSpeechRecognition : SpeechRecognition {
         allowed && SFSpeechRecognizer(NSLocale(languageCode)).isAvailable()
     }
 
-    override suspend fun listen(languageCode: String): Heard = withContext(Dispatchers.Main) {
+    override suspend fun listen(languageCode: String, hint: String?, onRecorded: () -> Unit): Heard = withContext(Dispatchers.Main) {
         if (!allowed()) return@withContext Heard.Refused
         val recognizer = SFSpeechRecognizer(NSLocale(languageCode))
         if (!recognizer.isAvailable()) return@withContext Heard.Refused
@@ -57,6 +58,8 @@ class IosSpeechRecognition : SpeechRecognition {
         val request = SFSpeechAudioBufferRecognitionRequest()
         request.shouldReportPartialResults = true
         request.requiresOnDeviceRecognition = recognizer.supportsOnDeviceRecognition
+        // The words expected, which the recogniser leans towards.
+        request.contextualStrings = hintWords(hint)
         input.installTapOnBus(0u, bufferSize = 1024u, format = input.outputFormatForBus(0u)) { buffer, _ -> buffer?.let(request::appendAudioPCMBuffer) }
         val updates = Channel<Update>(Channel.UNLIMITED)
         val task = recognizer.recognitionTaskWithRequest(request) { result, error ->
@@ -66,7 +69,7 @@ class IosSpeechRecognition : SpeechRecognition {
         try {
             engine.prepare()
             if (!engine.startAndReturnError(null)) return@withContext Heard.Refused
-            hear(updates) { engine.stop(); request.endAudio() }
+            hear(updates) { engine.stop(); request.endAudio(); onRecorded() }
         } finally {
             engine.stop()
             input.removeTapOnBus(0u)

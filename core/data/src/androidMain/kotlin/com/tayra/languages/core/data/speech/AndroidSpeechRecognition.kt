@@ -4,6 +4,7 @@ import android.Manifest
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -12,6 +13,7 @@ import android.speech.RecognizerIntent
 import android.speech.SpeechRecognizer
 import com.tayra.languages.core.domain.practice.Heard
 import com.tayra.languages.core.domain.practice.SpeechRecognition
+import com.tayra.languages.core.domain.practice.hintWords
 import kotlin.coroutines.resume
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.suspendCancellableCoroutine
@@ -26,10 +28,11 @@ class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition
 
     override suspend fun isAvailable(languageCode: String): Boolean = withContext(Dispatchers.Main) { SpeechRecognizer.isRecognitionAvailable(context) }
 
-    override suspend fun listen(languageCode: String): Heard = withContext(Dispatchers.Main) {
+    override suspend fun listen(languageCode: String, hint: String?, onRecorded: () -> Unit): Heard = withContext(Dispatchers.Main) {
         if (context.checkSelfPermission(Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) return@withContext Heard.Refused
-        val offline = hear(languageCode, offline = true)
-        if (offline is Attempt.Unavailable) hear(languageCode, offline = false).heard else offline.heard
+        val words = hintWords(hint)
+        val offline = hear(languageCode, words, offline = true, onRecorded)
+        if (offline is Attempt.Unavailable) hear(languageCode, words, offline = false, onRecorded).heard else offline.heard
     }
 
     override fun stop() {
@@ -47,7 +50,7 @@ class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition
         }
     }
 
-    private suspend fun hear(languageCode: String, offline: Boolean): Attempt = suspendCancellableCoroutine { done ->
+    private suspend fun hear(languageCode: String, hint: List<String>, offline: Boolean, onRecorded: () -> Unit): Attempt = suspendCancellableCoroutine { done ->
         val heard = SpeechRecognizer.createSpeechRecognizer(context)
         recognizer = heard
         var partial = ""
@@ -80,16 +83,17 @@ class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition
             override fun onBeginningOfSpeech() {}
             override fun onRmsChanged(rmsdB: Float) {}
             override fun onBufferReceived(buffer: ByteArray?) {}
-            override fun onEndOfSpeech() {}
+            override fun onEndOfSpeech() = onRecorded()
             override fun onEvent(eventType: Int, params: Bundle?) {}
         })
-        heard.startListening(
-            Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH)
-                .putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)
-                .putExtra(RecognizerIntent.EXTRA_LANGUAGE, languageCode)
-                .putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true)
-                .putExtra(RecognizerIntent.EXTRA_PREFER_OFFLINE, offline),
-        )
+        val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH)
+            .putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)
+            .putExtra(RecognizerIntent.EXTRA_LANGUAGE, languageCode)
+            .putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true)
+            .putExtra(RecognizerIntent.EXTRA_PREFER_OFFLINE, offline)
+        // The words expected, which recognisers from Android 13 lean towards.
+        if (hint.isNotEmpty() && Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) intent.putStringArrayListExtra(RecognizerIntent.EXTRA_BIASING_STRINGS, ArrayList(hint))
+        heard.startListening(intent)
         done.invokeOnCancellation {
             // The recogniser is the main thread's alone.
             Handler(Looper.getMainLooper()).post {

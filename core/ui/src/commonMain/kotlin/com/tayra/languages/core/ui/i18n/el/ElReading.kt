@@ -264,4 +264,5 @@ internal val elReading: Map<String, String> = mapOf(
     "Type the answers instead." to "Πληκτρολόγησε τις απαντήσεις αντί γι' αυτό.",
     "Read sentences aloud" to "Ανάγνωση προτάσεων φωναχτά",
     "Stop reading sentences aloud" to "Διακοπή ανάγνωσης προτάσεων φωναχτά",
+    "Recognising…" to "Αναγνώριση…",
 )

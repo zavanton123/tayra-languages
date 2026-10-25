@@ -108,8 +108,14 @@ class PracticeScreenTest {
         var heard: CompletableDeferred<Unit>? = null
         var stopped = false
         override suspend fun isAvailable(languageCode: String) = available && languageCode == "pt"
-        override suspend fun listen(languageCode: String): Heard {
+        val hints = mutableListOf<String?>()
+        /** Released to let the recognising, after the speaking, finish; none keeps no one waiting. */
+        var recognised: CompletableDeferred<Unit>? = null
+        override suspend fun listen(languageCode: String, hint: String?, onRecorded: () -> Unit): Heard {
+            hints += hint
             heard?.await()
+            onRecorded()
+            recognised?.await()
             return answer()
         }
         override fun stop() {
@@ -482,6 +488,7 @@ class PracticeScreenTest {
         onNodeWithTag("practice-speak").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Heard: ${first.sentence}").assertExists()
+        assertEquals(first.sentence, speech.hints.last(), "the recogniser is told the sentence expected")
         shot("spoken-gap")
         viewModel.next()
 
@@ -502,10 +509,15 @@ class PracticeScreenTest {
         onAllNodesWithTag("practice-sentence").fetchSemanticsNodes().let { assertTrue(it.isEmpty(), "the sentence waits until it is said") }
         val words = exercise.sentence.split(" ")
         speech.heard = CompletableDeferred()
+        speech.recognised = CompletableDeferred()
         speech.answer = { Heard.Words(words.dropLast(1).joinToString(" ")) }
         onNodeWithTag("practice-speak").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Listening…").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Stop").performClick()
+        // Spoken, and being made out: no button to press meanwhile.
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Recognising…").fetchSemanticsNodes().isNotEmpty() }
+        onAllNodesWithTag("practice-speak").fetchSemanticsNodes().let { assertTrue(it.isEmpty()) }
+        speech.recognised!!.complete(Unit)
         waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered }
         assertTrue(speech.stopped)
         assertEquals(if (words.size >= 5) PracticeResult.ALMOST else PracticeResult.WRONG, viewModel.state.value.result)
