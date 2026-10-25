@@ -302,7 +302,7 @@ class PracticeViewModel(
     fun typeInstead() {
         val s = _state.value
         val exercise = s.current ?: return
-        if (s.answered || exercise.response != PracticeResponse.SPEAK) return
+        if (s.answered || exercise.response != PracticeResponse.SPEAK || exercise.type == ExerciseType.SHADOW) return
         if (s.listening) {
             listenJob?.cancel()
             speech?.stop()

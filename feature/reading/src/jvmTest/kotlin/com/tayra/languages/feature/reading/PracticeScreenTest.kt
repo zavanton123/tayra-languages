@@ -516,7 +516,11 @@ class PracticeScreenTest {
         val exercise = viewModel.state.value.current!!
         assertEquals(ExerciseType.SHADOW, exercise.type)
         waitUntil(timeoutMillis = 5_000) { exercise.sentence in spoken }
-        onAllNodesWithTag("practice-sentence").fetchSemanticsNodes().let { assertTrue(it.isEmpty(), "the sentence waits until it is said") }
+        // The sentence is shown, the phrase to say marked in it, before it is said.
+        onNodeWithTag("practice-sentence").assertExists()
+        onAllNodesWithTag("practice-type-instead").fetchSemanticsNodes().let { assertTrue(it.isEmpty(), "a phrase to repeat is only said") }
+        onAllNodesWithText("Show the answer").fetchSemanticsNodes().let { assertTrue(it.isEmpty(), "and is on show already") }
+        shot("shadowing-before")
         val words = exercise.sentence.split(" ")
         speech.heard = CompletableDeferred()
         speech.recognised = CompletableDeferred()
