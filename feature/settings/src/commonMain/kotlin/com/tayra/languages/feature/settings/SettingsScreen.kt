@@ -92,6 +92,7 @@ import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppTheme
 import com.tayra.languages.core.ui.theme.AppThemes
+import com.tayra.languages.core.ui.theme.LocalThemePreview
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.core.ui.theme.fontFamily
@@ -303,6 +304,8 @@ private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel)
                 onSelect = { theme -> viewModel.update { it.copy(themeId = theme.id) } },
                 label = null,
                 optionLabel = { it.label },
+                // The app takes on each theme the pointer comes onto, to see it before choosing.
+                onHover = LocalThemePreview.current.let { preview -> { theme -> preview(theme?.id) } },
                 modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(DROPDOWN_WIDTH),
                 optionContent = { theme ->
                     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {

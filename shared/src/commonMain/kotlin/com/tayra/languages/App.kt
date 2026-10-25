@@ -48,6 +48,7 @@ import com.tayra.languages.core.ui.i18n.UiLanguage
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.AppThemes
+import com.tayra.languages.core.ui.theme.LocalThemePreview
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.navigation.AppNavHost
 import org.koin.compose.KoinContext
@@ -145,10 +146,16 @@ fun App(titleBarInset: Dp = 0.dp) {
         var openCourses by remember { mutableIntStateOf(0) }
         // Set during composition, so the first frame is already in the chosen language.
         UiLanguage.set(settings.uiLanguage)
-        TayraTheme(AppThemes.byId(settings.themeId), reduceMotion = settings.reduceMotion, learningLevels = settings.showLearningLevels) {
+        // A theme looked at in the theme list shows over the chosen one, until the choice is made or the list closes.
+        var previewThemeId by remember { mutableStateOf<String?>(null) }
+        LaunchedEffect(settings.themeId) { previewThemeId = null }
+        TayraTheme(AppThemes.byId(previewThemeId ?: settings.themeId), reduceMotion = settings.reduceMotion, learningLevels = settings.showLearningLevels) {
             // Text takes the background's content colour from here, as a Surface would provide it.
             Box(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)) {
-                CompositionLocalProvider(LocalContentColor provides MaterialTheme.colorScheme.onBackground, LocalTitleBarInset provides titleBarInset) {
+                CompositionLocalProvider(
+                    LocalContentColor provides MaterialTheme.colorScheme.onBackground, LocalTitleBarInset provides titleBarInset,
+                    LocalThemePreview provides { previewThemeId = it },
+                ) {
                 Column {
                     if (titleBarInset > 0.dp) {
                         Box(Modifier.fillMaxWidth().height(titleBarInset).background(MaterialTheme.colorScheme.surfaceVariant))

@@ -19,6 +19,10 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.input.pointer.PointerEventType
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.unit.Dp
 import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppBorders
@@ -44,8 +48,20 @@ fun <T> Dropdown(
     unavailable: (T) -> String? = { null },
     /** The heading an option is listed under; a heading starts where it changes, so options come grouped. */
     group: ((T) -> String)? = null,
+    /**
+     * Told of the option the pointer comes onto while the menu is open, to preview it; null when the
+     * menu closes without a choice, or the dropdown goes. After a choice the last one told stays.
+     */
+    onHover: ((T?) -> Unit)? = null,
 ) {
     var expanded by remember { mutableStateOf(false) }
+    var chosen by remember { mutableStateOf(false) }
+    if (onHover != null) {
+        LaunchedEffect(expanded) {
+            if (expanded) chosen = false else if (!chosen) onHover(null)
+        }
+        DisposableEffect(Unit) { onDispose { onHover(null) } }
+    }
     ExposedDropdownMenuBox(expanded = expanded, onExpandedChange = { if (enabled) expanded = it }, modifier = modifier) {
         AppTextField(
             value = selected?.let(optionLabel) ?: "",
@@ -77,10 +93,17 @@ fun <T> Dropdown(
                         }
                     },
                     onClick = {
+                        chosen = true
+                        onHover?.invoke(option)
                         onSelect(option)
                         expanded = false
                     },
                     enabled = note == null,
+                    modifier = if (onHover != null && note == null) Modifier.pointerInput(option) {
+                        awaitPointerEventScope {
+                            while (true) if (awaitPointerEvent().type == PointerEventType.Enter) onHover(option)
+                        }
+                    } else Modifier,
                 )
             }
         }

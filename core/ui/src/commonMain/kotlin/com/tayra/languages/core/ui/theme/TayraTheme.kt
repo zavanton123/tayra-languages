@@ -9,6 +9,12 @@ import com.tayra.languages.core.ui.components.LocalLearningLevels
 val LocalAppTheme = staticCompositionLocalOf { AppThemes.default }
 
 /**
+ * Shows the theme with the given id over the app in place of the chosen one, for as long as it is
+ * looked at in a list of themes; null goes back to the chosen theme. Provided at the app's root.
+ */
+val LocalThemePreview = staticCompositionLocalOf<(String?) -> Unit> { {} }
+
+/**
  * The app's look: [theme]'s colours, the design system's shapes, motion reduced when the reader or the
  * system asks ([reduceMotion]), and statuses shown with their four learning levels or as one Learning ([learningLevels]).
  */
