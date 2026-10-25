@@ -241,8 +241,6 @@ internal val zhReading: Map<String, String> = mapOf(
     "Which word is a form of “{0}” (“{1}”)?" to "哪个词是“{0}”（“{1}”）的一种形式？",
     "{0}, a form of {1}" to "{0}，{1} 的一种形式",
     "Almost: mind the spelling" to "差一点：注意拼写",
-    "Choose the form of “{0}” that fits" to "选出合适的“{0}”的形式",
-    "Type the form of “{0}” that fits" to "输入合适的“{0}”的形式",
     "Match each word with its meaning" to "把每个单词和它的意思配对",
     "Almost" to "差一点",
     "The pairs are shown above." to "配对已显示在上方。",

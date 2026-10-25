@@ -462,7 +462,7 @@ private fun TypeRow(type: ExerciseType, ticked: Boolean, state: PracticeSetupSta
                     !answerable -> tr("Not answered the ways ticked")
                     words == total -> trPlural(words, "For the word", "For all {0} words")
                     reason == null -> tr("For {0} of {1} words", words, total)
-                    (type == ExerciseType.BUILD || type == ExerciseType.FORM) && state.translating -> tr("Translating the sentences…")
+                    type == ExerciseType.BUILD && state.translating -> tr("Translating the sentences…")
                     else -> tr("For {0} of {1} words", words, total) + " · " + reason
                 },
                 style = MaterialTheme.typography.bodySmall,

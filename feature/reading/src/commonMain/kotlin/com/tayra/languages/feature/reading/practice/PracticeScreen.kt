@@ -356,10 +356,6 @@ private val Exercise.instruction: String
         ExerciseType.SHADOW -> tr("Listen and say the phrase")
         ExerciseType.DICTATION -> if (wholeSentence) tr("Listen and type the sentence") else tr("Listen and type the missing word")
         ExerciseType.BUILD -> tr("Put the words in order")
-        ExerciseType.FORM -> when (response) {
-            PracticeResponse.CHOOSE -> tr("Choose the form of “{0}” that fits", lemma.orEmpty())
-            PracticeResponse.TYPE, PracticeResponse.SPEAK -> tr("Type the form of “{0}” that fits", lemma.orEmpty())
-        }
     }
 
 @Composable
@@ -462,7 +458,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
             Text(tr("Sentence from {0}", credit), style = MaterialTheme.typography.bodySmall, color = colors.outline, modifier = Modifier.testTag("practice-credit"))
         }
         // A gap, however it is answered, and a phrase to repeat get the sentence's meaning; elsewhere it would give the answer away, so it waits.
-        val hintShown = answered || exercise.type == ExerciseType.GAP || exercise.type == ExerciseType.FORM || exercise.type == ExerciseType.SHADOW
+        val hintShown = answered || exercise.type == ExerciseType.GAP || exercise.type == ExerciseType.SHADOW
         if (hintShown && !fromTranslation) state.sentenceTranslation?.let { translationBox(it) }
 
         when {

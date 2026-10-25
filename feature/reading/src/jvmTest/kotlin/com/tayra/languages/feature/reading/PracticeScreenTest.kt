@@ -312,19 +312,19 @@ class PracticeScreenTest {
         onNodeWithTag("practice-sentence").assertExists()
     }
 
-    /** The right form is asked with the word's base named and the sentence's translation as the clue. */
+    /** A missing word's choices include other forms of it, which the practice looks up for the words it asks. */
     @Test
-    fun theRightFormIsAskedWithItsBaseAndClue() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun aMissingWordIsChosenAmongItsOtherForms() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val lists = object : FrequencyLists {
             override suspend fun list(languageCode: String) = FrequencyList.parse("comprar\tcomprar compro compra compramos compraram")
         }
-        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.FORM), responses = setOf(PracticeResponse.CHOOSE)), forms = WordForms(lists, terms))
-        val exercise = viewModel.state.value.exercises.single()
-        assertEquals("comprar", exercise.answer)
-        onNodeWithText("CHOOSE THE FORM OF “COMPRAR” THAT FITS").assertExists()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("practice-translation").fetchSemanticsNodes().isNotEmpty() }
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.CHOOSE)), forms = WordForms(lists, terms))
+        val exercise = viewModel.state.value.exercises.first { it.answer == "comprar" }
+        assertEquals(2, exercise.options.count { it in setOf("compro", "compra", "compramos", "compraram") }, exercise.options.toString())
+        val first = viewModel.state.value.exercises.first()
+        onNodeWithText("CHOOSE THE MISSING WORD").assertExists()
         shot("form")
-        onNodeWithTag("practice-option-${exercise.options.indexOf(exercise.answer)}").performClick()
+        onNodeWithTag("practice-option-${first.options.indexOf(first.answer)}").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
     }
 

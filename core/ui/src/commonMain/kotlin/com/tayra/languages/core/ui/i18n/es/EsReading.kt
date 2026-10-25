@@ -241,8 +241,6 @@ internal val esReading: Map<String, String> = mapOf(
     "Which word is a form of “{0}” (“{1}”)?" to "¿Qué palabra es una forma de «{0}» («{1}»)?",
     "{0}, a form of {1}" to "{0}, una forma de {1}",
     "Almost: mind the spelling" to "Casi: cuidado con la ortografía",
-    "Choose the form of “{0}” that fits" to "Elige la forma de «{0}» que encaja",
-    "Type the form of “{0}” that fits" to "Escribe la forma de «{0}» que encaja",
     "Match each word with its meaning" to "Une cada palabra con su significado",
     "Almost" to "Casi",
     "The pairs are shown above." to "Las parejas se muestran arriba.",

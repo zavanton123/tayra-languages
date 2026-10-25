@@ -241,8 +241,6 @@ internal val ptReading: Map<String, String> = mapOf(
     "Which word is a form of “{0}” (“{1}”)?" to "Qual palavra é uma forma de “{0}” (“{1}”)?",
     "{0}, a form of {1}" to "{0}, uma forma de {1}",
     "Almost: mind the spelling" to "Quase: atenção à ortografia",
-    "Choose the form of “{0}” that fits" to "Escolha a forma de “{0}” que encaixa",
-    "Type the form of “{0}” that fits" to "Digite a forma de “{0}” que encaixa",
     "Match each word with its meaning" to "Ligue cada palavra ao seu significado",
     "Almost" to "Quase",
     "The pairs are shown above." to "Os pares estão indicados acima.",

@@ -115,20 +115,20 @@ class PracticeTest {
         }
     }
 
-    /** The right form is chosen among other forms of the word, written as it is, with the sentence's translation as the clue; without forms or a translation it is not asked. */
+    /** A missing word is chosen among two of its other forms, where it has them, and other words: only the right form fits. */
     @Test
-    fun theRightFormIsChosenAmongTheWordsForms() {
-        val families = mapOf("comprar" to WordFamily("comprar", setOf("comprar", "compro", "compra", "compramos", "compraram")), "moro" to WordFamily("morar", setOf("moro", "morar")))
-        val translations = mapOf(long to "When we need to buy something, we stop at the supermarket near home.", "Eu moro no Brasil." to "I live in Brazil.")
-        val setup = PracticeSetup(types = setOf(ExerciseType.FORM), responses = setOf(PracticeResponse.CHOOSE), length = null)
-        val asked = PracticeBuilder.build(words, pageWords, random = Random(1), setup = setup, translations = translations, families = families)
-        val form = asked.single()
-        assertEquals("comprar", form.word)
-        assertEquals("comprar", form.lemma)
-        assertEquals(translations.getValue(long), form.sentenceTranslation)
-        assertEquals(4, form.options.size)
-        assertTrue(form.options.all { it in families.getValue("comprar").forms }, form.options.toString())
-        assertEquals(PracticeNeed.WORD_FORMS, PracticePlanner.preview(words, setup, translations = translations, families = families).of(ExerciseType.FORM).need)
+    fun aMissingWordIsChosenAmongItsOtherFormsToo() {
+        val comprar = setOf("comprar", "compro", "compra", "compramos", "compraram")
+        val families = mapOf("comprar" to WordFamily("comprar", comprar), "moro" to WordFamily("morar", setOf("moro", "morar")))
+        val setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.CHOOSE), length = null)
+        val asked = PracticeBuilder.build(words, pageWords, random = Random(1), setup = setup, families = families).associateBy { it.word }
+        val buy = asked.getValue("comprar").options
+        assertEquals(4, buy.size)
+        assertEquals(1, buy.count { it == "comprar" })
+        assertEquals(2, buy.count { it != "comprar" && it in comprar }, buy.toString())
+        assertEquals(1, buy.count { it !in comprar }, "another word too, so the choice also takes knowing the word")
+        val live = asked.getValue("moro").options
+        assertEquals(listOf("morar"), live.filter { it != "moro" && it in setOf("moro", "morar") }, "a word with one other form has that one among its choices")
     }
 
     /** A matching round comes first, on up to five words whose meanings share no word; with fewer than four such words there is none. */

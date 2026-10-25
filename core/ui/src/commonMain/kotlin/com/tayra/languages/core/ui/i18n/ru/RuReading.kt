@@ -241,8 +241,6 @@ internal val ruReading: Map<String, String> = mapOf(
     "Which word is a form of “{0}” (“{1}”)?" to "Какое слово — форма «{0}» («{1}»)?",
     "{0}, a form of {1}" to "{0}, форма слова {1}",
     "Almost: mind the spelling" to "Почти: следите за написанием",
-    "Choose the form of “{0}” that fits" to "Выберите подходящую форму «{0}»",
-    "Type the form of “{0}” that fits" to "Введите подходящую форму «{0}»",
     "Match each word with its meaning" to "Сопоставьте каждое слово с его значением",
     "Almost" to "Почти",
     "The pairs are shown above." to "Пары показаны выше.",

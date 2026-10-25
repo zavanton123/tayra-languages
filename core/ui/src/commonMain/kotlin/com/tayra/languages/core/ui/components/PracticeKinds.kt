@@ -22,7 +22,6 @@ fun ExerciseType.label(): String = when (this) {
     ExerciseType.SOUND_ALIKE -> tr("Sound-alike")
     ExerciseType.SHADOW -> tr("Shadowing")
     ExerciseType.BUILD -> tr("Build the sentence")
-    ExerciseType.FORM -> tr("Right form")
 }
 
 /** What the type asks, in a few words. */
@@ -36,7 +35,6 @@ fun ExerciseType.description(): String = when (this) {
     ExerciseType.SOUND_ALIKE -> tr("Hear a word and pick it among words spelled nearly like it")
     ExerciseType.SHADOW -> tr("Hear a phrase and say it back")
     ExerciseType.BUILD -> tr("Put the sentence's words in order from its translation")
-    ExerciseType.FORM -> tr("Find the form of the word that fits the sentence")
 }
 
 fun ExerciseType.icon(): ImageVector = when (this) {
@@ -49,14 +47,12 @@ fun ExerciseType.icon(): ImageVector = when (this) {
     ExerciseType.SOUND_ALIKE -> AppIcons.Speed
     ExerciseType.SHADOW -> AppIcons.Mic
     ExerciseType.BUILD -> AppIcons.SwapVert
-    ExerciseType.FORM -> AppIcons.Abc
 }
 
 fun PracticeSkill.label(): String = when (this) {
     PracticeSkill.READING -> tr("Reading")
     PracticeSkill.LISTENING -> tr("Listening")
     PracticeSkill.TRANSLATION -> tr("Translation")
-    PracticeSkill.WORD_FORMS -> tr("Word forms")
 }
 
 fun PracticeResponse.label(): String = when (this) {
