@@ -44,13 +44,15 @@ class SentenceAudioTest {
     private val piper = CountingPiper()
     private val settings = SettingsRepositoryImpl(MapSettings())
     private val directory = Files.createTempDirectory("speech-cache").toFile()
-    private val audio = SentenceAudio(LocalSpeech(listOf(piper)), settings, FileSpeechAudioCache(directory))
+    private var clock = 1_000_000_000_000L
+    private val audio = SentenceAudio(LocalSpeech(listOf(piper)), settings, FileSpeechAudioCache(directory), now = { clock })
+    private val day = 24 * 60 * 60 * 1000L
     private val page = listOf("O lobo dorme.", "A noite é longa.", "...", "O lobo dorme.")
 
     @Test
     fun aPageIsPreparedAheadAndPlayedFromTheCache() = runTest {
         settings.update { it.copy(speechEngine = SpeechEngine.PIPER) }
-        audio.prepare(page, "pt", bookId = 1)
+        audio.prepare(page, "pt")
 
         assertEquals(mapOf("O lobo dorme." to SentenceAudioState.READY, "A noite é longa." to SentenceAudioState.READY), audio.states.value)
         assertEquals(listOf("O lobo dorme.", "A noite é longa."), piper.made, "each sentence once; no audio for one without words")
@@ -61,27 +63,40 @@ class SentenceAudioTest {
     }
 
     @Test
-    fun anotherSpeedMakesNewAudioAndAnotherBookEmptiesTheCache() = runTest {
+    fun anotherSpeedMakesNewAudioAndTheCacheIsEmptiedOnceAWeek() = runTest {
         settings.update { it.copy(speechEngine = SpeechEngine.PIPER) }
-        audio.prepare(page, "pt", bookId = 1)
+        audio.prepare(page, "pt")
         settings.update { it.copy(speechSpeed = 1.5f) }
-        audio.prepare(page, "pt", bookId = 1)
+        audio.prepare(page, "pt")
         assertEquals(4, piper.made.size)
-        assertEquals(4, directory.listFiles()!!.size, "audio for both speeds is kept while the book is open")
+        assertEquals(4, directory.listFiles()!!.size, "audio for both speeds is kept")
 
-        audio.prepare(listOf("Outra história."), "pt", bookId = 2)
-        assertEquals(1, directory.listFiles()!!.size, "opening another book drops the earlier audio")
+        // Another text, days later: the audio is still there.
+        clock += 6 * day
+        audio.prepare(listOf("Outra história."), "pt")
+        assertEquals(5, directory.listFiles()!!.size, "another text keeps the earlier audio")
+        settings.update { it.copy(speechSpeed = 1.0f) }
+        audio.prepare(page, "pt")
+        assertEquals(5, piper.made.size, "the first text's audio is played from the cache, not made again")
+
+        // A week after the cache was first used, it is emptied, once.
+        clock += day
+        audio.prepare(listOf("Outra história."), "pt")
+        assertEquals(1, directory.listFiles()!!.size, "a week on, the earlier audio is dropped")
         assertEquals(mapOf("Outra história." to SentenceAudioState.READY), audio.states.value)
+        clock += day
+        audio.prepare(page, "pt")
+        assertEquals(3, directory.listFiles()!!.size, "and not again until the next week")
     }
 
     @Test
     fun aSentenceTheEngineCannotSpeakIsLeftToTheButtonAndTheSystemVoiceNeedsNothing() = runTest {
         settings.update { it.copy(speechEngine = SpeechEngine.PIPER) }
-        audio.prepare(listOf("Unspeakable sentence.", "O lobo dorme."), "pt", bookId = 1)
+        audio.prepare(listOf("Unspeakable sentence.", "O lobo dorme."), "pt")
         assertEquals(mapOf("O lobo dorme." to SentenceAudioState.READY), audio.states.value)
 
         settings.update { it.copy(speechEngine = SpeechEngine.SYSTEM) }
-        audio.prepare(page, "pt", bookId = 1)
+        audio.prepare(page, "pt")
         assertTrue(audio.states.value.isEmpty())
         assertEquals(2, piper.made.size)
     }

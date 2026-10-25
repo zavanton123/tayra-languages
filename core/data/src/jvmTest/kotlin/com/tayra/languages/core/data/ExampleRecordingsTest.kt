@@ -48,12 +48,14 @@ class ExampleRecordingsTest {
     }
 
     @Test
-    fun openingAnotherBookForgetsTheRecordings() = runTest {
+    fun theWeeklyEmptyingForgetsTheRecordings() = runTest {
         val settings = SettingsRepositoryImpl(MapSettings())
-        val audio = SentenceAudio(LocalSpeech(emptyList()), settings, cache, recordings)
-        audio.prepare(emptyList(), "pt", bookId = 1)
+        var clock = 1_000_000_000_000L
+        val audio = SentenceAudio(LocalSpeech(emptyList()), settings, cache, recordings, now = { clock })
+        audio.prepare(emptyList(), "pt")
         recordings.prefetch(listOf("https://x/3"))
-        audio.prepare(emptyList(), "pt", bookId = 2)
+        clock += 7 * 24 * 60 * 60 * 1000L
+        audio.prepare(emptyList(), "pt")
 
         assertTrue(recordings.states.value.isEmpty())
         recordings.audioFor("https://x/3")

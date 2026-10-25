@@ -8,10 +8,12 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlin.coroutines.cancellation.CancellationException
+import kotlin.time.Clock
 
 /**
- * Where synthesized sentence audio is kept until another text is opened. It holds a bounded amount:
- * past its limit the audio used longest ago goes first, and reading audio counts as using it.
+ * Where synthesized sentence audio is kept, across texts and restarts, until it is emptied once a
+ * week. It holds a bounded amount: past its limit the audio used longest ago goes first, and
+ * reading audio counts as using it.
  */
 interface SpeechAudioCache {
     suspend fun read(key: String): ByteArray?
@@ -20,7 +22,7 @@ interface SpeechAudioCache {
 
     companion object {
         /** How much audio a cache on disk keeps: some hours of speech. */
-        const val MAX_BYTES_ON_DISK: Long = 200L * 1024 * 1024
+        const val MAX_BYTES_ON_DISK: Long = 500L * 1024 * 1024
 
         /** How much a cache in memory keeps. */
         const val MAX_BYTES_IN_MEMORY: Long = 100L * 1024 * 1024
@@ -62,7 +64,7 @@ enum class SentenceAudioState { PREPARING, READY }
  * Synthesizes sentences ahead of time with the local speech engine, so a sentence plays the
  * moment it is asked for: the reader's page and the examples of the term pane and the Examples
  * screen. The system voice speaks directly and needs none of this. Audio is cached per engine,
- * voice, speed and language, and dropped when another text (book) is opened.
+ * voice, speed and language, kept across texts and restarts, and emptied once a week.
  */
 class SentenceAudio(
     private val localSpeech: LocalSpeech,
@@ -70,6 +72,8 @@ class SentenceAudio(
     private val cache: SpeechAudioCache,
     /** Example recordings share the cache, so they are forgotten with it. */
     private val recordings: ExampleRecordings? = null,
+    /** The time now, in epoch milliseconds. */
+    private val now: () -> Long = { Clock.System.now().toEpochMilliseconds() },
 ) {
     private val _states = MutableStateFlow<Map<String, SentenceAudioState>>(emptyMap())
 
@@ -78,23 +82,17 @@ class SentenceAudio(
 
     /** One synthesis at a time: the local engines run a single worker each. */
     private val synthesis = Mutex()
-    private var bookId: Long? = null
 
     /** The engine, voices and speed the states were made with; other settings make other audio. */
     private var configuration: String? = null
 
     /**
      * Prepares [sentences] one after another, in the caller's coroutine, which cancels it when what
-     * it shows changes. Several callers may prepare at once; they take turns at the engine. Passing
-     * the [bookId] of a book other than the last one first empties the cache.
+     * it shows changes. Several callers may prepare at once; they take turns at the engine. The
+     * cache is emptied first when a week has passed since it last was.
      */
-    suspend fun prepare(sentences: List<String>, languageCode: String?, bookId: Long? = null) {
-        if (bookId != null && this.bookId != bookId) {
-            this.bookId = bookId
-            cache.clear()
-            recordings?.reset()
-            _states.value = emptyMap()
-        }
+    suspend fun prepare(sentences: List<String>, languageCode: String?) {
+        emptyWeekly()
         val configuration = configuration()
         if (configuration != this.configuration) {
             this.configuration = configuration
@@ -140,6 +138,19 @@ class SentenceAudio(
         }
     }
 
+    /** Empties the cache when a week has passed since it last was; the first week starts at its first use. */
+    private suspend fun emptyWeekly() {
+        val at = now()
+        val last = settings.current.speechCacheClearedAt
+        if (last != 0L && at - last < WEEK_MS) return
+        if (last != 0L) {
+            cache.clear()
+            recordings?.reset()
+            _states.value = emptyMap()
+        }
+        settings.update { it.copy(speechCacheClearedAt = at) }
+    }
+
     private fun engine(): LocalSpeechEngine? = localSpeech.find(settings.current.speechEngine)
 
     private fun configuration(): String? {
@@ -153,5 +164,9 @@ class SentenceAudio(
         val engine = engine() ?: return null
         val voice = settings.current.speechVoices["${engine.engine.name}:$languageCode"].orEmpty()
         return "${engine.engine.name}${engine.cacheVersion}|$voice|$speed|$languageCode|${SpokenNumbers.normalize(text, languageCode)}"
+    }
+
+    private companion object {
+        const val WEEK_MS = 7L * 24 * 60 * 60 * 1000
     }
 }

@@ -824,8 +824,8 @@ class ReadingViewModel(
         val code = s.language?.let { LanguageCodes.codeFor(it.name) }
         val sentences = if (prefs.showSentencePlay) s.page.paragraphs.flatMap { it.sentences }.map { it.displayText } else emptyList()
         speechJob = viewModelScope.launch {
-            sentenceAudio.prepare(sentences, code, bookId)
-            if (prefs.showSentencePlay) readingService.sentenceTexts(bookId, s.pageNumber + 1)?.let { sentenceAudio.prepare(it, code, bookId) }
+            sentenceAudio.prepare(sentences, code)
+            if (prefs.showSentencePlay) readingService.sentenceTexts(bookId, s.pageNumber + 1)?.let { sentenceAudio.prepare(it, code) }
         }
     }
 
