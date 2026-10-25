@@ -91,8 +91,6 @@ data class PracticeSetup(
     val length: Int? = DEFAULT_LENGTH,
     /** Each word is answered the ways its practice level calls for, among the [responses]; otherwise they are mixed. */
     val adaptive: Boolean = false,
-    /** Which of the words are practised. */
-    val words: WordChoice = WordChoice.ALL,
 ) {
     /**
      * This setup where nothing can be said aloud: answers said are typed instead, and sentences
@@ -116,7 +114,6 @@ data class PracticeSetup(
         "contexts=" + PracticeContext.entries.filter { it in contexts }.joinToString(",") { it.name },
         "length=" + (length?.toString() ?: ALL),
         "adaptive=" + (if (adaptive) "1" else "0"),
-        "words=" + words.name,
     ).joinToString(";")
 
     companion object {
@@ -140,7 +137,6 @@ data class PracticeSetup(
                     else -> length.toIntOrNull()?.takeIf { it > 0 } ?: defaults.length
                 },
                 adaptive = parts["adaptive"]?.let { it == "1" } ?: defaults.adaptive,
-                words = parts["words"]?.let { name -> WordChoice.entries.firstOrNull { it.name == name } } ?: defaults.words,
             )
         }
 

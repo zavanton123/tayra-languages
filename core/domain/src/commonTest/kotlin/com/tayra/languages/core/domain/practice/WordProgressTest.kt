@@ -37,23 +37,4 @@ class WordProgressTest {
         assertEquals(2, slipped.right)
         assertEquals(now, slipped.lastPractised)
     }
-
-    /** The words chosen by their progress: never practised, the weakest half, or not practised for a week. */
-    @Test
-    fun wordsAreChosenByTheirProgress() {
-        val words = (1L..6L).map { PracticeWord("w$it", null, "w$it.", 0..1, it) }
-        val day = 24 * 60 * 60 * 1000L
-        val today = Instant.fromEpochMilliseconds(30 * day)
-        val progress = mapOf(
-            2L to WordProgress(2, level = 3, asked = 9, right = 9, lastPractised = Instant.fromEpochMilliseconds(29 * day)),
-            3L to WordProgress(3, level = 1, asked = 4, right = 1, lastPractised = Instant.fromEpochMilliseconds(10 * day)),
-            4L to WordProgress(4, level = 1, asked = 4, right = 3, lastPractised = Instant.fromEpochMilliseconds(29 * day)),
-            5L to WordProgress(5, level = 2, asked = 5, right = 5, lastPractised = Instant.fromEpochMilliseconds(29 * day)),
-            6L to WordProgress(6, level = 0, asked = 2, right = 0, lastPractised = Instant.fromEpochMilliseconds(29 * day)),
-        )
-        assertEquals(words, WordChoice.ALL.of(words, progress, today))
-        assertEquals(listOf("w1"), WordChoice.NEW.of(words, progress, today).map { it.text })
-        assertEquals(listOf("w1", "w3"), WordChoice.STALE.of(words, progress, today).map { it.text })
-        assertEquals(listOf("w1", "w6", "w3", "w4", "w5"), WordChoice.WEAKEST.of(words, progress, today).map { it.text }, "the lowest levels, the least often right first; five at least")
-    }
 }

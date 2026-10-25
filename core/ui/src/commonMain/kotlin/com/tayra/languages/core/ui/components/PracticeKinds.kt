@@ -9,7 +9,6 @@ import com.tayra.languages.core.domain.practice.PracticeNeed
 import com.tayra.languages.core.domain.practice.PracticePreset
 import com.tayra.languages.core.domain.practice.PracticeResponse
 import com.tayra.languages.core.domain.practice.PracticeSkill
-import com.tayra.languages.core.domain.practice.WordChoice
 import com.tayra.languages.core.ui.i18n.tr
 
 /** The type's name, as offered to tick. */
@@ -88,13 +87,6 @@ fun PracticeNeed.reason(): String = when (this) {
     PracticeNeed.WORD_FORMS -> tr("Needs other forms of the word")
     PracticeNeed.MORE_WORDS -> tr("Needs four words with meanings")
     PracticeNeed.SENTENCE_LENGTH -> tr("Needs a sentence of 3 to 8 words")
-}
-
-fun WordChoice.label(): String = when (this) {
-    WordChoice.ALL -> tr("All")
-    WordChoice.NEW -> tr("New to practice")
-    WordChoice.WEAKEST -> tr("Weakest")
-    WordChoice.STALE -> tr("Not practised for a week")
 }
 
 fun PracticePreset.label(): String = when (this) {

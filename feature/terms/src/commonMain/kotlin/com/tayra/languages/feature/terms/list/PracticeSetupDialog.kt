@@ -93,10 +93,6 @@ import com.tayra.languages.core.domain.practice.PracticeExample
 import com.tayra.languages.core.domain.practice.WordForms
 import com.tayra.languages.core.domain.practice.WordFamily
 import com.tayra.languages.core.ui.components.AppSwitch
-import kotlin.time.Clock
-import com.tayra.languages.core.domain.practice.PracticeProgressRepository
-import com.tayra.languages.core.domain.practice.WordProgress
-import com.tayra.languages.core.domain.practice.WordChoice
 import com.tayra.languages.core.domain.practice.SpeechRecognition
 import com.tayra.languages.core.domain.language.LanguageCodes
 import androidx.compose.runtime.LaunchedEffect
@@ -116,8 +112,6 @@ data class PracticeSetupState(
     val lookingUp: Boolean = false,
     /** The words' families, by the word's key, for the questions on their forms. */
     val families: Map<String, WordFamily> = emptyMap(),
-    /** How far practice has taken each word, by term id. */
-    val progress: Map<Long, WordProgress> = emptyMap(),
     /** Answers can be said aloud: something here hears the words' language. */
     val speaking: Boolean = false,
 )
@@ -135,7 +129,6 @@ class PracticeSetupViewModel(
     private val exampleStore: PracticeExampleStore? = null,
     private val keptExamples: PracticeExampleRepository? = null,
     private val wordForms: WordForms? = null,
-    private val practiceProgress: PracticeProgressRepository? = null,
     private val speech: SpeechRecognition? = null,
 ) : ViewModel() {
     private val _state = MutableStateFlow(PracticeSetupState())
@@ -173,7 +166,6 @@ class PracticeSetupViewModel(
                 loading = false, words = words, meanings = loaded?.meanings.orEmpty(), translating = loaded != null,
                 examples = attempt { keptExamples?.forPractice(words) }.orEmpty(), lookingUp = exampleStore != null && words.isNotEmpty(),
                 families = loaded?.let { found -> attempt { wordForms?.let { forms -> words.mapNotNull { w -> forms.family(w.text, found.language)?.let { w.key to it } }.toMap() } } }.orEmpty(),
-                progress = attempt { practiceProgress?.progress(words.mapNotNull { it.termId }) }.orEmpty(),
                 speaking = loaded?.let { found -> LanguageCodes.codeFor(found.language.name)?.let { code -> attempt { speech?.isAvailable(code) } } } == true,
             )
             if (loaded == null) return@launch
@@ -265,13 +257,11 @@ internal fun PracticeSetupContent(
     }
     // Nothing here hears the language: what was to be said is typed.
     LaunchedEffect(state.loading, state.speaking) { if (!state.loading && !state.speaking) setup = setup.withoutSpeaking() }
-    val now = remember { Clock.System.now() }
-    val chosen = remember(state, setup.words) { setup.words.of(state.words, state.progress, now) }
-    val preview = remember(state, setup, chosen) { PracticePlanner.preview(chosen, setup, state.meanings, state.translations, state.examples, state.families) }
+    val preview = remember(state, setup) { PracticePlanner.preview(state.words, setup, state.meanings, state.translations, state.examples, state.families) }
     val minutes = ((preview.questions * SECONDS_A_QUESTION + 59) / 60).coerceAtLeast(1)
     // Sentences from elsewhere are fetched when the practice starts, so they may make questions the count does not show.
     val examplesMayAsk = PracticeContext.EXAMPLE in setup.contexts && ExerciseType.GAP in setup.types
-    val canStart = !state.loading && chosen.isNotEmpty() && (preview.questions > 0 || examplesMayAsk)
+    val canStart = !state.loading && state.words.isNotEmpty() && (preview.questions > 0 || examplesMayAsk)
 
     val presets: @Composable ColumnScope.() -> Unit = {
         Section(tr("Preset")) {
@@ -340,21 +330,6 @@ internal fun PracticeSetupContent(
             }
         }
     }
-    val wordsSection: @Composable ColumnScope.() -> Unit = {
-        Section(tr("Words")) {
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                WordChoice.entries.forEach { choice ->
-                    SelectableChip(
-                        choice.label(),
-                        setup.words == choice,
-                        onClick = { setup = setup.copy(words = choice) },
-                        count = if (state.loading) null else choice.of(state.words, state.progress, now).size,
-                        modifier = Modifier.testTag("practice-words-${choice.name}"),
-                    )
-                }
-            }
-        }
-    }
     val length: @Composable ColumnScope.() -> Unit = {
         Section(tr("Length")) {
             FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
@@ -410,7 +385,6 @@ internal fun PracticeSetupContent(
                     presets()
                     questions()
                     answers()
-                    wordsSection()
                     sentences()
                     length()
                 }
@@ -419,8 +393,7 @@ internal fun PracticeSetupContent(
                     ScrollColumn(Modifier.width(OPTIONS_COLUMN_WIDTH), contentModifier = Modifier.padding(vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                         presets()
                         answers()
-                        wordsSection()
-                        sentences()
+                            sentences()
                         length()
                     }
                     ScrollColumn(Modifier.weight(1f), contentModifier = Modifier.padding(vertical = AppSpacing.m, horizontal = AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
@@ -432,7 +405,6 @@ internal fun PracticeSetupContent(
             val summary = when {
                 state.loading -> tr("Checking…")
                 state.words.isEmpty() -> tr("No words being learned to practise")
-                chosen.isEmpty() -> tr("None of the words is of the kind chosen")
                 preview.questions > 0 -> trPlural(preview.questions, "{0} question · about {1} min", "{0} questions · about {1} min", minutes)
                 canStart -> tr("Questions on sentences from elsewhere only")
                 else -> tr("None of the ticked questions fits these words")

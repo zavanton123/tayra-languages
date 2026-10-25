@@ -61,37 +61,3 @@ interface PracticeProgressRepository {
         save((progress(listOf(termId))[termId] ?: WordProgress(termId)).after(answer, at))
     }
 }
-
-/** Which of a practice's words it asks about, by how far practice has taken them. */
-enum class WordChoice {
-    ALL,
-
-    /** Words never practised. */
-    NEW,
-
-    /** The half of the words at the lowest levels, and of those the least often right. */
-    WEAKEST,
-
-    /** Words not practised for a week, or never. */
-    STALE,
-    ;
-
-    /** The ones of [words] this choice keeps, by their [progress] (by term id). */
-    fun of(words: List<PracticeWord>, progress: Map<Long, WordProgress>, now: Instant): List<PracticeWord> {
-        val of = { word: PracticeWord -> word.termId?.let { progress[it] } }
-        return when (this) {
-            ALL -> words
-            NEW -> words.filter { (of(it)?.asked ?: 0) == 0 }
-            STALE -> words.filter { word -> of(word)?.lastPractised?.let { now - it >= STALE_AFTER } ?: true }
-            WEAKEST -> words.sortedWith(compareBy({ of(it)?.level ?: 0 }, { of(it)?.let { p -> if (p.asked == 0) 0.0 else p.right.toDouble() / p.asked } ?: 0.0 }))
-                .take(maxOf(MIN_WEAKEST, (words.size + 1) / 2).coerceAtMost(words.size))
-        }
-    }
-
-    companion object {
-        val STALE_AFTER = 7.days
-
-        /** The weakest are at least this many words, where there are as many. */
-        private const val MIN_WEAKEST = 5
-    }
-}
