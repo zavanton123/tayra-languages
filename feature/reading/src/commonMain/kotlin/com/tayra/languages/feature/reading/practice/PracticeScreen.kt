@@ -88,7 +88,6 @@ import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.ui.unit.Dp
 import com.tayra.languages.core.ui.components.AppDialogSurface
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.IconButtonStyle
@@ -180,14 +179,14 @@ internal fun practiceOf(route: Route): Pair<PracticeSource, PracticeSetup>? {
     return source to if (setup.isNotEmpty()) PracticeSetup.decode(setup) else PracticeSetup.ofKinds(kinds)
 }
 
-/** A practice in a dialog that fills the window but for its margin, over the page that started it. */
+/** A practice in a dialog over the page that started it: as tall as the window but for its margin, and no wider than the practice. */
 @Composable
 fun PracticeDialog(route: Route, onNavigate: (Route) -> Unit, onClose: () -> Unit) {
     val (source, setup) = practiceOf(route) ?: return
     AppDialogSurface(
         onDismissRequest = onClose,
         modifier = Modifier.fillMaxHeight().testTag("practice-dialog"),
-        maxWidth = Dp.Infinity,
+        maxWidth = PRACTICE_WIDTH,
         color = MaterialTheme.colorScheme.surfaceContainerLow,
     ) {
         // Each practice starts afresh, even one just like the practice finished before it.
