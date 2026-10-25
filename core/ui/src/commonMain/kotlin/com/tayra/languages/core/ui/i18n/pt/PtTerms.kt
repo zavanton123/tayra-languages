@@ -461,4 +461,7 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Speak" to "Falar",
     "Speaking" to "Fala",
     "Hear a phrase and say it back" to "Ouça uma frase e repita-a",
+    "Likely meaning here" to "Significado provável aqui",
+    "Best guess" to "Melhor palpite",
+    "Use as the translation" to "Usar como tradução",
 )

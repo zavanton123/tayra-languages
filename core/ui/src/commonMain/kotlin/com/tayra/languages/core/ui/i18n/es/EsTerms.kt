@@ -461,4 +461,7 @@ internal val esTerms: Map<String, String> = mapOf(
     "Speak" to "Hablar",
     "Speaking" to "Expresión oral",
     "Hear a phrase and say it back" to "Escucha una frase y repítela",
+    "Likely meaning here" to "Significado probable aquí",
+    "Best guess" to "Mejor suposición",
+    "Use as the translation" to "Usar como traducción",
 )

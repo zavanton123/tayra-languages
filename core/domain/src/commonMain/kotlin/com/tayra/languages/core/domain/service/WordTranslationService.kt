@@ -2,6 +2,7 @@ package com.tayra.languages.core.domain.service
 
 import kotlin.coroutines.cancellation.CancellationException
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
+import com.tayra.languages.core.domain.dictionary.MeaningChooser
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
@@ -25,6 +26,8 @@ class WordTranslationService(
     private val suggestions: TermTranslationProvider,
     private val settings: SettingsRepository,
     private val maxEntries: Int = 1000,
+    /** Translates a word's sentence and the word, for the dictionary meaning the sentence uses; without it, the first meaning. */
+    private val sentences: SentenceTranslator? = null,
 ) {
     private class Entry(val translation: String?, val at: TimeMark)
 
@@ -50,6 +53,26 @@ class WordTranslationService(
             while (cache.size > maxEntries) cache.remove(cache.keys.first())
         }
         return translation
+    }
+
+    /**
+     * The translation of [word] as [sentence] uses it: the saved one, else the offline dictionary's
+     * meaning the sentence's translation points to, else what [translate] gives.
+     */
+    suspend fun translateIn(language: Language, word: String, sentence: String?): String? {
+        val clean = word.replace(ZWS_STRING, "").trim()
+        if (sentence.isNullOrBlank() || clean.isEmpty()) return translate(language, word)
+        saved(language, language.lowercase(clean))?.let { return it }
+        val native = settings.current.nativeLanguage.trim().lowercase().ifEmpty { "en" }
+        val code = LanguageCodes.codeFor(language.name)
+        val pack = DictionaryPacks.find(code, native)?.id?.takeIf { dictionary.isAvailable(it) } ?: return translate(language, word)
+        val lookup = attempt { dictionary.lookup(pack, clean) } ?: return translate(language, word)
+        val translator = sentences
+        val choice = MeaningChooser.choose(
+            lookup, clean, sentence, code,
+            translator?.let { attempt { it.translate(sentence, language) } }, translator?.let { attempt { it.translate(clean, language) } },
+        )
+        return choice?.gloss ?: translate(language, word)
     }
 
     /** The word's own saved translation, or its parent's; read every time since the user edits them. */

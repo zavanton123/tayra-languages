@@ -35,6 +35,8 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Check
+import com.tayra.languages.core.domain.dictionary.MeaningChooser
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
@@ -263,7 +265,10 @@ private fun TermFormContent(
             }
             when {
                 empty -> Unit
-                !state.dictionary.isEmpty -> DictionarySection(state.dictionary, code, toneColors = state.toneColors, zhuyin = state.zhuyin, onAdd = viewModel::addGloss, extra = conjugations)
+                !state.dictionary.isEmpty -> DictionarySection(
+                    state.dictionary, code, toneColors = state.toneColors, zhuyin = state.zhuyin, onAdd = viewModel::addGloss, extra = conjugations,
+                    suggested = state.meaning.takeIf { state.translationSuggested },
+                )
                 else -> {
                     // Without an installed pack Wiktionary's meanings stand in, beside the offer to download one.
                     if (pack?.state !is PackState.Installed && !online.dictionary.isEmpty) {
@@ -941,6 +946,11 @@ internal fun DictionarySection(
     credit: Pair<WiktionaryPage, String?>? = null,
     /** What follows the entries, such as the way to the word's conjugation. */
     extra: (@Composable () -> Unit)? = null,
+    /**
+     * The meaning chosen for the word from its sentence, while it is still only suggested: it is
+     * marked, and any meaning's button puts that meaning in its place rather than after it.
+     */
+    suggested: MeaningChooser.Choice? = null,
 ) {
     val colors = MaterialTheme.colorScheme
     val speaker = rememberSpeaker(koinInject(), koinInject())
@@ -981,10 +991,24 @@ internal fun DictionarySection(
             Column {
                 entry.senses.forEachIndexed { senseIndex, sense ->
                     val gloss = sense.glosses.joinToString("; ")
+                    val chosen = suggested != null && suggested.entry == index && suggested.sense == senseIndex
                     if (senseIndex > 0) AppDivider(color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
-                    // The meanings line up with the headword above them.
-                    Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(vertical = AppSpacing.xs)) {
+                    // The meanings line up with the headword above them; the one chosen from the sentence stands out.
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = Modifier.fillMaxWidth()
+                            .then(if (chosen) Modifier.clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash)).testTag("chosen-meaning") else Modifier)
+                            .padding(vertical = AppSpacing.xs, horizontal = if (chosen) AppSpacing.s else 0.dp),
+                    ) {
                         Column(Modifier.weight(1f)) {
+                            if (chosen) {
+                                Tag(
+                                    if (suggested!!.fits) tr("Likely meaning here") else tr("Best guess"),
+                                    color = if (suggested.fits) colors.primary else colors.onSurfaceVariant,
+                                    size = TagSize.Small,
+                                    modifier = Modifier.padding(bottom = AppSpacing.xxs),
+                                )
+                            }
                             Text(gloss, style = MaterialTheme.typography.bodyLarge)
                             if (sense.tags.isNotEmpty()) {
                                 Text(sense.tags.joinToString(", "), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
@@ -1001,8 +1025,10 @@ internal fun DictionarySection(
                             }
                         }
                         Spacer(Modifier.size(AppSpacing.s))
-                        AppTooltip(tr("Add to translation")) {
-                            AppIconButton(Icons.Default.Add, tr("Add to translation"), onClick = { onAdd(gloss) }, style = IconButtonStyle.Tonal, size = IconButtonSize.Small)
+                        // While the translation is only suggested, a meaning takes its place: one click puts a wrong guess right.
+                        val action = if (suggested != null) tr("Use as the translation") else tr("Add to translation")
+                        AppTooltip(action) {
+                            AppIconButton(if (suggested != null) Icons.Default.Check else Icons.Default.Add, action, onClick = { onAdd(gloss) }, style = IconButtonStyle.Tonal, size = IconButtonSize.Small)
                         }
                     }
                 }

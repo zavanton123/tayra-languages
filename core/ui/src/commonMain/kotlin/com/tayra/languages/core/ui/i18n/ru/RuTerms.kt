@@ -461,4 +461,7 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Speak" to "Говорить",
     "Speaking" to "Говорение",
     "Hear a phrase and say it back" to "Прослушайте фразу и повторите её",
+    "Likely meaning here" to "Вероятное значение здесь",
+    "Best guess" to "Наиболее вероятное",
+    "Use as the translation" to "Использовать как перевод",
 )

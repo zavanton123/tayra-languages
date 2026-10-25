@@ -461,4 +461,7 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Speak" to "说",
     "Speaking" to "口语",
     "Hear a phrase and say it back" to "听一个短语并跟着说出来",
+    "Likely meaning here" to "此处可能的意思",
+    "Best guess" to "最佳猜测",
+    "Use as the translation" to "用作翻译",
 )

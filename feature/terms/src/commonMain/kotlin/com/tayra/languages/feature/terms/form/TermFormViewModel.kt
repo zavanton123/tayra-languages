@@ -59,6 +59,12 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlin.time.Duration.Companion.seconds
+import kotlinx.coroutines.withTimeoutOrNull
+import kotlinx.coroutines.async
+import kotlinx.coroutines.CoroutineScope
+import com.tayra.languages.core.domain.service.SentenceTranslator
+import com.tayra.languages.core.domain.dictionary.MeaningChooser
 import kotlin.time.Instant
 import com.tayra.languages.core.domain.practice.WordProgress
 import com.tayra.languages.core.domain.practice.PracticeProgressRepository
@@ -86,6 +92,8 @@ data class TermFormUiState(
     val dirty: Boolean = false,
     val lookingUpTranslation: Boolean = false,
     val translationSuggested: Boolean = false,
+    /** The dictionary meaning chosen for the word from its sentence while the translation is still the suggested one; null until chosen. */
+    val meaning: MeaningChooser.Choice? = null,
     /** True once an autosave has persisted the latest edits. */
     val saved: Boolean = false,
     val examples: List<ExampleSentence> = emptyList(),
@@ -173,6 +181,9 @@ private const val LOOKUP_DELAY_MS = 400L
 /** Words clicked through quickly are not asked about online; only the one left open is. */
 private const val WIKTIONARY_DELAY_MS = 300L
 
+/** How long the sentence and the word may take to translate before the dictionary's first meaning stays. */
+private val MEANING_WAIT = 6.seconds
+
 class TermFormViewModel(
     private val key: TermFormKey,
     private val termService: TermService,
@@ -193,6 +204,8 @@ class TermFormViewModel(
     private val wiktionary: OnlineWiktionary? = null,
     /** How far practice has taken the term, shown beside its flashcard. */
     private val practiceProgress: PracticeProgressRepository? = null,
+    /** Translates the word's sentence and the word, for the dictionary meaning the sentence uses; the first meaning without it. */
+    private val sentenceTranslator: SentenceTranslator? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(TermFormUiState())
@@ -260,7 +273,7 @@ class TermFormViewModel(
         _state.update {
             it.copy(
                 draft = draft, dirty = false, saved = false, error = null, duplicateOf = null, createdAt = null, references = null,
-                translationSuggested = false, lookingUpTranslation = false, dictionary = DictionaryLookup.EMPTY, kanji = emptyList(), recordings = emptyList(), notes = emptyList(),
+                translationSuggested = false, meaning = null, lookingUpTranslation = false, dictionary = DictionaryLookup.EMPTY, kanji = emptyList(), recordings = emptyList(), notes = emptyList(),
                 examples = emptyList(), examplesTotal = null, loadingExamples = false, examplesFailed = false, examplesFromCourses = false, wiktionary = WiktionaryUi(),
             )
         }
@@ -276,12 +289,7 @@ class TermFormViewModel(
             // content: no translation and no parent means nobody has curated the term yet.
             val untouched = draft.translation.isBlank() && draft.parents.isEmpty()
             if (draft.translation.isBlank()) {
-                val gloss = lookup.suggestedTranslation
-                if (gloss != null) {
-                    _state.update { s -> s.copy(translationSuggested = true, draft = s.draft.copy(translation = gloss)) }
-                } else {
-                    launch { suggestTranslation(draft.text, language) }
-                }
+                if (lookup.suggestedTranslation != null) suggestMeaning(lookup, draft, language) else launch { suggestTranslation(draft.text, language) }
             }
             // A new inflected form is linked to its lemma so the family shares one status.
             lookup.parentSuggestion?.let { if (untouched) linkParent(it) }
@@ -350,10 +358,7 @@ class TermFormViewModel(
                 if (status.state is PackState.Installed && !wasInstalled && _state.value.dictionary.isEmpty) {
                     val current = _state.value
                     val lookup = lookupDictionary(current.draft.text, current.language)
-                    val gloss = lookup.suggestedTranslation
-                    if (gloss != null && _state.value.draft.translation.isBlank()) {
-                        _state.update { it.copy(translationSuggested = true, draft = it.draft.copy(translation = gloss)) }
-                    }
+                    if (lookup.suggestedTranslation != null && _state.value.draft.translation.isBlank()) suggestMeaning(lookup, _state.value.draft, current.language)
                 }
             }
         }
@@ -403,10 +408,33 @@ class TermFormViewModel(
         viewModelScope.launch { dictionaries.download(pack) }
     }
 
-    /** Appends a dictionary gloss to the translation. */
+    /**
+     * Puts the dictionary's first meaning in the empty translation at once, then, once the sentence
+     * and the word are translated, the meaning the sentence uses, if the translation is still the
+     * one put in: what the reader typed is never replaced.
+     */
+    private fun CoroutineScope.suggestMeaning(lookup: DictionaryLookup, draft: TermDraft, language: Language?) {
+        val first = lookup.suggestedTranslation ?: return
+        _state.update { s -> s.copy(translationSuggested = true, meaning = null, draft = s.draft.copy(translation = first)) }
+        val sentence = sentenceFor(draft)
+        launch {
+            val translate = { text: String -> language?.let { lang -> async { withTimeoutOrNull(MEANING_WAIT) { sentenceTranslator?.translate(text, lang) } } } }
+            val sentenceTranslation = sentence?.let(translate)
+            val wordTranslation = translate(draft.text)
+            val choice = MeaningChooser.choose(
+                lookup, draft.text, sentence, language?.let { LanguageCodes.codeFor(it.name) }, sentenceTranslation?.await(), wordTranslation?.await(),
+            ) ?: return@launch
+            _state.update { s ->
+                if (s.translationSuggested && s.draft.text == draft.text && s.draft.translation == first) s.copy(meaning = choice, draft = s.draft.copy(translation = choice.gloss)) else s
+            }
+        }
+    }
+
+    /** Puts a dictionary gloss in the translation: in place of a suggested one, which is how a wrong guess is put right; after one the reader wrote. */
     fun addGloss(gloss: String) {
-        update { d -> d.copy(translation = if (d.translation.isBlank()) gloss else "${d.translation.trimEnd()}; $gloss") }
-        _state.update { it.copy(translationSuggested = false) }
+        val replace = _state.value.translationSuggested
+        update { d -> d.copy(translation = if (replace || d.translation.isBlank()) gloss else "${d.translation.trimEnd()}; $gloss") }
+        _state.update { it.copy(translationSuggested = false, meaning = null) }
     }
 
     private suspend fun loadRecordings(text: String, lookup: DictionaryLookup, language: Language?) {
@@ -584,7 +612,7 @@ class TermFormViewModel(
         _state.update {
             it.copy(
                 draft = emptyDraft(it.draft.languageId).copy(text = text), dirty = false, saved = false, error = null, duplicateOf = null,
-                createdAt = null, references = null, translationSuggested = false, lookingUpTranslation = false,
+                createdAt = null, references = null, translationSuggested = false, meaning = null, lookingUpTranslation = false,
                 dictionary = DictionaryLookup.EMPTY, kanji = emptyList(), recordings = emptyList(), notes = emptyList(), examples = emptyList(), examplesTotal = null, loadingExamples = false,
                 examplesFailed = false, examplesFromCourses = false, wiktionary = WiktionaryUi(),
             )

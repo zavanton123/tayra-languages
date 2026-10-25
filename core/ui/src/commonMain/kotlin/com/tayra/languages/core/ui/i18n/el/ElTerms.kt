@@ -461,4 +461,7 @@ internal val elTerms: Map<String, String> = mapOf(
     "Speak" to "Μίλα",
     "Speaking" to "Ομιλία",
     "Hear a phrase and say it back" to "Άκου μια φράση και επανάλαβέ τη",
+    "Likely meaning here" to "Πιθανή σημασία εδώ",
+    "Best guess" to "Καλύτερη εκτίμηση",
+    "Use as the translation" to "Χρήση ως μετάφραση",
 )

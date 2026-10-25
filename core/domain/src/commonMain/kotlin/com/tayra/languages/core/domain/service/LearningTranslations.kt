@@ -10,7 +10,7 @@ import kotlin.coroutines.cancellation.CancellationException
 
 /**
  * Gives every term being learned (statuses 1 to 4) a translation: its parent's, the offline
- * dictionary's gloss or the translation engine's answer, as hover cards show. Terms are queued
+ * dictionary's meaning its sentence uses, or the translation engine's answer. Terms are queued
  * with [request] as they start being learned and looked up in the background; at start-up the
  * ones still missing a translation are queued again, so a lookup that failed is retried then.
  */
@@ -44,7 +44,8 @@ class LearningTranslations(
         val term = terms.getById(termId) ?: return false
         if (!term.status.isLearning || !term.translation.isNullOrBlank()) return false
         val language = languages.getById(term.languageId) ?: return false
-        val translation = words.translate(language, term.text) ?: return false
+        // The meaning the word has in the sentence it was saved with, where there is one.
+        val translation = words.translateIn(language, term.text, term.sentence) ?: return false
         return terms.fillTranslation(term.id, translation)
     }
 }

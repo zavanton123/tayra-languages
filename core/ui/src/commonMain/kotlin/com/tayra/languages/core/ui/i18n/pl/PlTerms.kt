@@ -461,4 +461,7 @@ internal val plTerms: Map<String, String> = mapOf(
     "Speak" to "Mów",
     "Speaking" to "Mówienie",
     "Hear a phrase and say it back" to "Posłuchaj frazy i powtórz ją",
+    "Likely meaning here" to "Prawdopodobne znaczenie tutaj",
+    "Best guess" to "Najlepszy domysł",
+    "Use as the translation" to "Użyj jako tłumaczenia",
 )

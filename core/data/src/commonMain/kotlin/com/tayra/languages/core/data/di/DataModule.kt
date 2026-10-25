@@ -163,7 +163,7 @@ val dataModule: Module = module {
     single { DictionaryDatabaseProvider(get()) { id -> DictionaryPacks.find(id) ?: get<ImportedDictionaries>().pack(id) } }
     single<DictionaryRepository> { DictionaryRepositoryImpl(get()) }
     single { DictionaryService(get(), get(), get(), DictionaryFiles()) }
-    single { WordTranslationService(get(), get<DictionaryService>(), get(), get()) }
+    single { WordTranslationService(get(), get<DictionaryService>(), get(), get(), sentences = getOrNull()) }
     single<OfflineDictionary> { get<DictionaryService>() }
 
     single { createHttpClient() }

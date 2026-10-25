@@ -461,4 +461,7 @@ internal val frTerms: Map<String, String> = mapOf(
     "Speak" to "Parler",
     "Speaking" to "Expression orale",
     "Hear a phrase and say it back" to "Écoutez un passage et répétez-le",
+    "Likely meaning here" to "Sens probable ici",
+    "Best guess" to "Meilleure hypothèse",
+    "Use as the translation" to "Utiliser comme traduction",
 )
