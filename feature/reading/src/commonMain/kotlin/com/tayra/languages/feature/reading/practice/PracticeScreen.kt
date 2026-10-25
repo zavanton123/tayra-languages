@@ -104,6 +104,8 @@ import com.tayra.languages.core.domain.practice.WordResult
 import com.tayra.languages.core.domain.practice.PracticeChecker
 import androidx.compose.ui.text.style.TextDecoration
 import com.tayra.languages.core.ui.audio.rememberMicrophoneAccess
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import kotlinx.coroutines.launch
 import androidx.compose.runtime.rememberCoroutineScope
 import kotlinx.coroutines.flow.map
@@ -404,16 +406,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         if (!sentenceHidden) {
             val highlight = SpanStyle(background = AppAccents.highlight.copy(alpha = AppAlpha.half), fontWeight = AppText.labelStrong.fontWeight)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                if (readable) {
-                    AppIconButton(
-                        if (readAloud) AppIcons.VolumeUp else AppIcons.VolumeOff,
-                        if (readAloud) tr("Stop reading sentences aloud") else tr("Read sentences aloud"),
-                        onClick = { actions.onReadAloud.invoke(!readAloud) },
-                        modifier = Modifier.testTag("practice-read-aloud"),
-                        selected = readAloud,
-                        tint = if (readAloud) colors.primary else colors.outline,
-                    )
-                }
+                if (readable) ReadAloudCircle(readAloud) { actions.onReadAloud.invoke(!readAloud) }
                 Text(
                     buildAnnotatedString {
                         append(exercise.sentence.substring(0, exercise.range.first))
@@ -597,6 +590,20 @@ private fun TypedAnswer(state: PracticeUiState, exercise: Exercise, actions: Pra
         textStyle = MaterialTheme.typography.titleMedium.copy(textDirection = if (state.rightToLeft) TextDirection.Rtl else TextDirection.Ltr),
         modifier = Modifier.fillMaxWidth().focusRequester(focus).testTag("practice-input"),
     )
+}
+
+/** The reader's speaker in its soft circle, as a switch: tinted while sentences are read aloud, grey and struck through while not. */
+@Composable
+private fun ReadAloudCircle(on: Boolean, onClick: () -> Unit) {
+    val tint = if (on) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.outline
+    val description = if (on) tr("Stop reading sentences aloud") else tr("Read sentences aloud")
+    Box(
+        Modifier.size(AppSizes.touch).clip(AppShapes.circle).background(tint.copy(alpha = AppAlpha.soft)).clickable(onClick = onClick)
+            .semantics { contentDescription = description }.testTag("practice-read-aloud"),
+        contentAlignment = Alignment.Center,
+    ) {
+        Icon(if (on) AppIcons.VolumeUp else AppIcons.VolumeOff, contentDescription = null, tint = tint, modifier = Modifier.fillMaxSize(0.58f))
+    }
 }
 
 /** The answer said aloud: a button to start and stop hearing it, what was heard, and the way to type it instead. */
