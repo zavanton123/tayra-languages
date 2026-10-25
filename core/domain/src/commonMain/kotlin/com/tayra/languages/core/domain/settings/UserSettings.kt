@@ -96,6 +96,8 @@ data class UserSettings(
     val practiceReadAloud: Boolean = false,
     /** Which downloaded speech recogniser hears spoken answers, by `RecognitionQuality` name. */
     val speechRecognitionQuality: String = "MEDIUM",
+    /** The languages being learned, which the language menu switches between: ids, comma-separated, in the order added; empty until first filled. */
+    val myLanguages: String = "",
     /** When the cache of spoken audio was last emptied, in epoch milliseconds; 0 before its first use. */
     val speechCacheClearedAt: Long = 0,
 ) {

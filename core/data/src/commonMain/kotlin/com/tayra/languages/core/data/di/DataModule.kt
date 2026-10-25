@@ -229,7 +229,7 @@ val dataModule: Module = module {
     single { BookService(get(), get()) }
     single { BookStatsService(get(), get(), get(), get()) }
     single { LanguageService(get(), get(), get()) }
-    single { LearningLanguageService(get(), get(), get()) }
+    single { LearningLanguageService(get(), get(), get(), get()) }
     single { DemoDataService(get(), get(), get(), get(), get()) }
     single<LearningStatsRepository> { LearningStatsRepositoryImpl(get()) }
     single { StatsService(get(), get()) }

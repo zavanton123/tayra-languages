@@ -123,12 +123,9 @@ internal val esCommon: Map<String, String> = mapOf(
 
     // LearningLanguage.kt
     "Learning language: {0}" to "Idioma que aprendes: {0}",
-    "Choose a language" to "Elige un idioma",
-    "Switch the language you're learning" to "Cambia el idioma que aprendes",
     "Select target language" to "Selecciona el idioma de estudio",
     "Choose the language you want to study" to "Elige el idioma que quieres aprender",
     "Search languages" to "Buscar idiomas",
-    "Current language" to "Idioma actual",
     "All languages" to "Todos los idiomas",
     "{0} languages" to "{0} idioma|{0} idiomas",
     "No languages match" to "Ningún idioma coincide",
@@ -344,4 +341,7 @@ internal val esCommon: Map<String, String> = mapOf(
     "Ukraine" to "Ucrania",
     "United States" to "Estados Unidos",
     "Vietnam" to "Vietnam",
+    "Add a language" to "Añadir un idioma",
+    "Add a language…" to "Añadir un idioma…",
+    "Start learning another language" to "Empieza a aprender otro idioma",
 )

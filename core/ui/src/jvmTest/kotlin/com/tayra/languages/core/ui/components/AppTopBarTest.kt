@@ -39,19 +39,42 @@ class AppTopBarTest {
         rule.onNodeWithContentDescription("Learning language: Portuguese (1,234)").assertExists()
     }
 
-    /** The selector opens a dialog: the current language first with its words, the rest as tiles that the search narrows; the native one cannot be chosen. */
+    /** The selector opens a menu of the languages being learned, each with its words; choosing another one switches to it. */
     @Test
-    fun theLanguageDialogListsTheRestToChooseFrom() {
+    fun theLanguageMenuSwitchesBetweenTheLanguagesBeingLearned() {
         val chosen = mutableListOf<Long>()
-        val state = LearningLanguageState(listOf(1L to "Portuguese", 2L to "German", 3L to "Russian"), 1L, nativeIds = setOf(3L), knownWords = 586) { chosen += it }
+        val state = LearningLanguageState(
+            listOf(1L to "Portuguese", 2L to "German", 3L to "Russian", 4L to "Spanish"), 1L, knownWords = 586,
+            mine = listOf(1L, 2L), wordCounts = mapOf(1L to 586, 2L to 12),
+        ) { chosen += it }
         rule.setContent {
             MaterialTheme { CompositionLocalProvider(LocalLearningLanguage provides state) { AppTopBar(title = "Books", onNavigate = {}, section = NavSection.BOOKS) } }
         }
         rule.onNodeWithContentDescription("Learning language: Portuguese (586)").performClick()
-        rule.onNodeWithText("Choose a language").assertExists()
-        rule.onNodeWithTag("current-language").assertExists()
+        rule.onNodeWithTag("my-language-pt").assertExists()
         rule.onNodeWithText("586 words").assertExists()
+        rule.onNodeWithText("12 words").assertExists()
+        assertEquals(0, rule.onAllNodesWithTag("my-language-es").fetchSemanticsNodes().size, "only the languages being learned")
+        rule.onNodeWithTag("my-language-de").performClick()
+        assertEquals(listOf(2L), chosen)
+        assertEquals(0, rule.onAllNodesWithTag("language-menu").fetchSemanticsNodes().size, "the menu closes with the choice")
+    }
+
+    /** Adding a language opens a dialog of those not being learned, as tiles that the search narrows; the native one cannot be chosen. */
+    @Test
+    fun aLanguageIsAddedFromTheMenu() {
+        val chosen = mutableListOf<Long>()
+        val state = LearningLanguageState(
+            listOf(1L to "Portuguese", 2L to "German", 3L to "Russian", 4L to "Spanish"), 1L, nativeIds = setOf(3L), knownWords = 586, mine = listOf(1L, 4L),
+        ) { chosen += it }
+        rule.setContent {
+            MaterialTheme { CompositionLocalProvider(LocalLearningLanguage provides state) { AppTopBar(title = "Books", onNavigate = {}, section = NavSection.BOOKS) } }
+        }
+        rule.onNodeWithContentDescription("Learning language: Portuguese (586)").performClick()
+        rule.onNodeWithTag("add-language").performClick()
+        rule.onNodeWithText("Add a language").assertExists()
         rule.onNodeWithText("2 languages").assertExists()
+        assertEquals(0, rule.onAllNodesWithTag("language-es").fetchSemanticsNodes().size, "a language being learned is not offered")
         rule.onNodeWithText("Your native language").assertExists()
         rule.onNodeWithTag("language-ru").assertIsNotEnabled()
 
@@ -60,6 +83,6 @@ class AppTopBarTest {
         assertEquals(0, rule.onAllNodesWithTag("language-ru").fetchSemanticsNodes().size)
         rule.onNodeWithTag("language-de").performClick()
         assertEquals(listOf(2L), chosen)
-        assertEquals(0, rule.onAllNodesWithText("Choose a language").fetchSemanticsNodes().size, "the dialog closes with the choice")
+        assertEquals(0, rule.onAllNodesWithText("Add a language").fetchSemanticsNodes().size, "the dialog closes with the choice")
     }
 }

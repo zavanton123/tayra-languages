@@ -55,6 +55,8 @@ import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.flow.combine
 import com.tayra.languages.core.ui.theme.AppSpacing
 
 /**
@@ -73,6 +75,11 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
     val native by remember(settings) { settings.settings.map { it.nativeLanguage }.distinctUntilChanged() }.collectAsStateWithLifecycle(null)
     val frequency = koinInject<WordFrequencyService>()
     val knownWords by remember(frequency, currentId) { frequency.observeKnownWords(currentId) }.collectAsStateWithLifecycle(null)
+    val mine by remember(learning) { learning.observeMine() }.collectAsStateWithLifecycle(emptyList())
+    LaunchedEffect(learning) { learning.fillMine() }
+    val wordCounts by remember(frequency, mine) {
+        if (mine.isEmpty()) flowOf(emptyMap()) else combine(mine.map { id -> frequency.observeKnownWords(id).map { id to it } }) { it.toMap() }
+    }.collectAsStateWithLifecycle(emptyMap())
     val scope = rememberCoroutineScope()
     val chineseScripts = koinInject<ChineseScriptService>()
     // The language just chosen, asked for its vocabulary level first.
@@ -83,7 +90,7 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
     LaunchedEffect(currentId, languages) {
         if (languages.isNotEmpty() && languages.none { it.id == currentId }) learning.ensure(pickUnchosen = false)
     }
-    val state = remember(languages, currentId, native, knownWords) {
+    val state = remember(languages, currentId, native, knownWords, mine, wordCounts) {
         // The native language is listed but cannot be chosen for learning.
         val nativeIds = languages.filter { learning.isNative(it) }.map { it.id }.toSet()
         suspend fun choose(id: Long) {
@@ -108,6 +115,8 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
                     choose(id)
                 }
             },
+            mine = mine,
+            wordCounts = wordCounts,
         ) { id -> scope.launch { choose(id) } }
     }
     val script = languages.firstOrNull { it.id == currentId }?.chineseScript

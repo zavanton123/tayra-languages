@@ -123,12 +123,9 @@ internal val elCommon: Map<String, String> = mapOf(
 
     // LearningLanguage.kt
     "Learning language: {0}" to "Γλώσσα εκμάθησης: {0}",
-    "Choose a language" to "Επιλέξτε γλώσσα",
-    "Switch the language you're learning" to "Αλλάξτε τη γλώσσα που μαθαίνετε",
     "Select target language" to "Επιλέξτε γλώσσα-στόχο",
     "Choose the language you want to study" to "Επιλέξτε τη γλώσσα που θέλετε να μάθετε",
     "Search languages" to "Αναζήτηση γλωσσών",
-    "Current language" to "Τρέχουσα γλώσσα",
     "All languages" to "Όλες οι γλώσσες",
     "{0} languages" to "{0} γλώσσα|{0} γλώσσες",
     "No languages match" to "Δεν βρέθηκαν γλώσσες",
@@ -344,4 +341,7 @@ internal val elCommon: Map<String, String> = mapOf(
     "Ukraine" to "Ουκρανία",
     "United States" to "Ηνωμένες Πολιτείες",
     "Vietnam" to "Βιετνάμ",
+    "Add a language" to "Προσθήκη γλώσσας",
+    "Add a language…" to "Προσθήκη γλώσσας…",
+    "Start learning another language" to "Ξεκινήστε να μαθαίνετε άλλη μία γλώσσα",
 )

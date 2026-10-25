@@ -123,12 +123,9 @@ internal val zhCommon: Map<String, String> = mapOf(
 
     // LearningLanguage.kt
     "Learning language: {0}" to "学习语言：{0}",
-    "Choose a language" to "选择语言",
-    "Switch the language you're learning" to "切换学习语言",
     "Select target language" to "选择目标语言",
     "Choose the language you want to study" to "选择你想学习的语言",
     "Search languages" to "搜索语言",
-    "Current language" to "当前语言",
     "All languages" to "全部语言",
     "{0} languages" to "{0} 种语言",
     "No languages match" to "没有匹配的语言",
@@ -344,4 +341,7 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Ukraine" to "乌克兰",
     "United States" to "美国",
     "Vietnam" to "越南",
+    "Add a language" to "添加语言",
+    "Add a language…" to "添加语言…",
+    "Start learning another language" to "开始学习另一种语言",
 )

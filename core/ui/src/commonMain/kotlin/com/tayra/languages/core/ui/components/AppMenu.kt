@@ -40,10 +40,10 @@ fun AppMenu(expanded: Boolean, onDismissRequest: () -> Unit, modifier: Modifier 
 }
 
 @Composable
-fun AppMenuItem(text: @Composable () -> Unit, onClick: () -> Unit, enabled: Boolean = true) {
+fun AppMenuItem(text: @Composable () -> Unit, onClick: () -> Unit, enabled: Boolean = true, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
     Box(
-        Modifier.fillMaxWidth().clickable(enabled = enabled, onClick = onClick).padding(horizontal = AppSpacing.l, vertical = AppSpacing.s),
+        modifier.fillMaxWidth().clickable(enabled = enabled, onClick = onClick).padding(horizontal = AppSpacing.l, vertical = AppSpacing.s),
     ) {
         CompositionLocalProvider(
             LocalContentColor provides if (enabled) colors.onSurface else colors.outline,

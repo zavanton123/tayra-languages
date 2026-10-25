@@ -123,12 +123,9 @@ internal val ptCommon: Map<String, String> = mapOf(
 
     // LearningLanguage.kt
     "Learning language: {0}" to "Idioma de estudo: {0}",
-    "Choose a language" to "Escolha um idioma",
-    "Switch the language you're learning" to "Trocar o idioma que você estuda",
     "Select target language" to "Selecione o idioma de estudo",
     "Choose the language you want to study" to "Escolha o idioma que você quer estudar",
     "Search languages" to "Buscar idiomas",
-    "Current language" to "Idioma atual",
     "All languages" to "Todos os idiomas",
     "{0} languages" to "{0} idioma|{0} idiomas",
     "No languages match" to "Nenhum idioma encontrado",
@@ -344,4 +341,7 @@ internal val ptCommon: Map<String, String> = mapOf(
     "Ukraine" to "Ucrânia",
     "United States" to "Estados Unidos",
     "Vietnam" to "Vietnã",
+    "Add a language" to "Adicionar um idioma",
+    "Add a language…" to "Adicionar um idioma…",
+    "Start learning another language" to "Comece a aprender outro idioma",
 )

@@ -26,6 +26,7 @@ import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.KeyboardArrowDown
@@ -77,6 +78,8 @@ import kotlinx.coroutines.launch
  * words the reader knows in the current language, shown after its name; null leaves it out.
  * [scripts] are the Chinese languages with the script each is read in: such a language is offered
  * once in each script, as two languages that share its words, and choosing one calls [onSelectScript].
+ * [mine] are the languages being learned, which the language menu switches between, with
+ * [wordCounts], the words known in each.
  */
 class LearningLanguageState(
     val languages: List<Pair<Long, String>>,
@@ -85,6 +88,8 @@ class LearningLanguageState(
     val knownWords: Int? = null,
     val scripts: Map<Long, ChineseScript?> = emptyMap(),
     val onSelectScript: ((Long, ChineseScript) -> Unit)? = null,
+    val mine: List<Long> = emptyList(),
+    val wordCounts: Map<Long, Int> = emptyMap(),
     val onSelect: (Long) -> Unit,
 ) {
     val currentName: String? get() = languages.firstOrNull { it.first == currentId }?.second
@@ -96,6 +101,14 @@ class LearningLanguageState(
 
     /** The language being learned as it is offered: in its script, or as written when it has none. */
     val current: LanguageChoice? get() = currentName?.let { LanguageChoice(currentId, it, scripts[currentId]) }
+
+    /** The languages being learned as the menu lists them, a Chinese one in the script it is read in; just the current one before they are known. */
+    val myChoices: List<LanguageChoice> get() = mine.ifEmpty { listOf(currentId) }.mapNotNull { id ->
+        languages.firstOrNull { it.first == id }?.let { LanguageChoice(id, it.second, scripts[id]) }
+    }.sortedBy { it.label }
+
+    /** The words known in the language with [id], when counted. */
+    fun wordsKnown(id: Long): Int? = if (id == currentId) knownWords ?: wordCounts[id] else wordCounts[id]
 
     /** Learns [choice] from now on, in its script. */
     fun select(choice: LanguageChoice) {
@@ -142,15 +155,17 @@ fun LanguageCodeBadge(languageName: String, size: Dp = 28.dp) {
 
 /**
  * The global choice of the language being learned, for the top bar: the name with its flag on
- * wide screens, just the flag on [compact] ones. It opens the language dialog, or calls [onOpen]
- * where the choice is a screen of its own (phones). Shows nothing until languages exist.
+ * wide screens, just the flag on [compact] ones. It opens a menu of the languages being learned
+ * and a way to add one, which opens the language dialog, or calls [onOpen] where the choice is a
+ * screen of its own (phones). Shows nothing until languages exist.
  */
 @Composable
 fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier, onOpen: (() -> Unit)? = null) {
     val state = LocalLearningLanguage.current ?: return
     val current = state.current ?: return
     val colors = MaterialTheme.colorScheme
-    var open by remember { mutableStateOf(false) }
+    var menu by remember { mutableStateOf(false) }
+    var adding by remember { mutableStateOf(false) }
     // "Portuguese (432)": the words known in the language, as the Word frequency page counts them.
     val label = state.knownWords?.let { "${tr(current.label)} (${formatCount(it)})" } ?: tr(current.label)
     Box(modifier) {
@@ -158,7 +173,7 @@ fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier, on
             Modifier.clip(AppShapes.panel)
                 .background(colors.primary.copy(alpha = AppAlpha.wash))
                 .border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.soft)), AppShapes.panel)
-                .clickable { if (onOpen != null) onOpen() else open = true }
+                .clickable { menu = true }
                 .semantics { contentDescription = tr("Learning language: {0}", label) }
                 .padding(horizontal = if (compact) AppSpacing.s else AppSpacing.m, vertical = AppSpacing.s),
             verticalAlignment = Alignment.CenterVertically,
@@ -170,14 +185,55 @@ fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier, on
             }
             Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.icon))
         }
-        if (open) LanguageDialog(state, onDismiss = { open = false })
+        AppMenu(menu, onDismissRequest = { menu = false }, Modifier.testTag("language-menu")) {
+            state.myChoices.forEach { choice ->
+                AppMenuItem(
+                    text = { MyLanguageRow(choice, state.wordsKnown(choice.id), chosen = choice == current) },
+                    onClick = {
+                        menu = false
+                        if (choice != current) state.select(choice)
+                    },
+                    modifier = Modifier.testTag("my-" + choice.tag),
+                )
+            }
+            AppDivider(Modifier.padding(vertical = AppSpacing.xs))
+            AppMenuItem(
+                text = {
+                    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                        Icon(Icons.Default.Add, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.icon))
+                        Text(tr("Add a language…"), color = colors.primary)
+                    }
+                },
+                onClick = {
+                    menu = false
+                    if (onOpen != null) onOpen() else adding = true
+                },
+                modifier = Modifier.testTag("add-language"),
+            )
+        }
+        if (adding) LanguageDialog(state, onDismiss = { adding = false })
+    }
+}
+
+/** A language being learned in the language menu: its flag, name and the words known in it, with a check on the current one. */
+@Composable
+private fun MyLanguageRow(choice: LanguageChoice, words: Int?, chosen: Boolean) {
+    val colors = MaterialTheme.colorScheme
+    Row(Modifier.padding(vertical = AppSpacing.xxs), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        LanguageFlag(choice.label, 22.dp)
+        Column(Modifier.weight(1f, fill = false)) {
+            Text(tr(choice.label), fontWeight = if (chosen) FontWeight.SemiBold else FontWeight.Normal, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            if (words != null) Text(trPlural(words, "{0} word", "{0} words", formatCount(words)), style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant)
+        }
+        Spacer(Modifier.weight(1f))
+        if (chosen) Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(AppSizes.iconCompact))
     }
 }
 
 /**
- * The phone's language screen: the current language on its card, then every other one as a row
- * with its flag, with a letter index down the right edge that jumps the list. Choosing one goes
- * back, and the app moves on to that language's courses.
+ * The phone's screen for adding a language: every language not being learned yet as a row with its
+ * flag, with a letter index down the right edge that jumps the list. Choosing one goes back, and
+ * the app moves on to that language's courses.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -186,18 +242,18 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     var query by remember { mutableStateOf("") }
     val needle = query.trim().lowercase()
-    val others = state?.choices.orEmpty().filter { it != state?.current && it.matches(needle) }
-    val current = state?.current?.takeIf { it.matches(needle) }
+    val mine = state?.myChoices.orEmpty()
+    val others = state?.choices.orEmpty().filter { it !in mine && it.matches(needle) }
     val list = rememberLazyListState()
     val scope = rememberCoroutineScope()
-    // The rows before the languages: search, the current language (when shown) and the heading.
-    val rowsBefore = if (current != null) 4 else 2
+    // The rows before the languages: search and the heading.
+    val rowsBefore = 2
     val letters = others.map { tr(it.label).first().uppercaseChar() }.distinct()
     var indexWidth by remember { mutableIntStateOf(0) }
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(
-                title = { Text(tr("Choose a language"), style = AppText.sectionTitle) },
+                title = { Text(tr("Add a language"), style = AppText.sectionTitle) },
                 navigationIcon = { AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), onClick = onBack, tint = colors.primary) },
                 colors = TopAppBarDefaults.centerAlignedTopAppBarColors(containerColor = colors.surface),
             )
@@ -215,24 +271,6 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
                         modifier = Modifier.padding(horizontal = AppSpacing.l).fillMaxWidth(),
                         fieldModifier = Modifier.testTag("language-search"),
                     )
-                }
-                if (current != null) {
-                    item { PhoneSectionTitle(tr("Current language")) }
-                    item {
-                        Row(
-                            Modifier.padding(horizontal = AppSpacing.l).fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.tint))
-                                .padding(horizontal = AppSpacing.l, vertical = AppSpacing.l).testTag("current-language"),
-                            verticalAlignment = Alignment.CenterVertically,
-                            horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
-                        ) {
-                            LanguageFlag(current.label, 36.dp, Modifier.clip(AppShapes.small))
-                            Column(Modifier.weight(1f)) {
-                                Text(tr(current.label), style = AppText.itemTitle)
-                                state.knownWords?.let { Text(trPlural(it, "{0} word", "{0} words", formatCount(it)), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
-                            }
-                            Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(AppSizes.iconLarge))
-                        }
-                    }
                 }
                 item { PhoneSectionTitle(tr("All languages"), trPlural(others.size, "{0} language", "{0} languages")) }
                 if (others.isEmpty()) {
@@ -292,10 +330,10 @@ fun TargetLanguageDialog(state: LearningLanguageState) {
 }
 
 /**
- * The languages to choose from, as a dialog: the current one first with the words known in it,
- * then every other one as a tile in a grid, narrowed by a search box that has the focus from the
- * start on wide screens. The native language is listed but cannot be chosen. A [required] choice
- * has no way to close the dialog but choosing.
+ * The languages to add, as a dialog: those not being learned yet, each as a tile in a grid,
+ * narrowed by a search box that has the focus from the start on wide screens. The native language
+ * is listed but cannot be chosen. A [required] choice, the first language, offers every language
+ * and has no way to close the dialog but choosing.
  */
 @Composable
 private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit, required: Boolean = false) {
@@ -311,15 +349,15 @@ private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit, 
     // A phone's keyboard would cover the languages.
     LaunchedEffect(Unit) { if (!width.isCompact) runCatching { focus.requestFocus() } }
     val needle = query.trim().lowercase()
-    val others = state.choices.filter { it != state.current && it.matches(needle) }
-    val current = state.current?.takeIf { it.matches(needle) }
+    val mine = if (required) emptyList() else state.myChoices
+    val others = state.choices.filter { it !in mine && it.matches(needle) }
     AppDialogSurface(onDismissRequest = onDismiss, modifier = Modifier.fillMaxHeight(0.92f).testTag(if (required) "target-language-dialog" else "language-dialog"), maxWidth = 1160.dp, dismissible = !required) {
         Column(Modifier.padding(horizontal = if (width.isCompact) AppSpacing.xl else AppSpacing.xxxl, vertical = AppSpacing.xxl)) {
             Row(verticalAlignment = Alignment.Top) {
                 Column(Modifier.weight(1f)) {
-                    Text(if (required) tr("Select target language") else tr("Choose a language"), style = AppText.screenTitle)
+                    Text(if (required) tr("Select target language") else tr("Add a language"), style = AppText.screenTitle)
                     Text(
-                        if (required) tr("Choose the language you want to study") else tr("Switch the language you're learning"),
+                        if (required) tr("Choose the language you want to study") else tr("Start learning another language"),
                         style = MaterialTheme.typography.bodyLarge,
                         color = colors.onSurfaceVariant,
                     )
@@ -334,10 +372,6 @@ private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit, 
                 fieldModifier = Modifier.focusRequester(focus).testTag("language-search"),
             )
             ScrollColumn(Modifier.fillMaxWidth().weight(1f), contentModifier = Modifier.padding(top = AppSpacing.s, end = AppSpacing.l)) {
-                if (current != null) {
-                    SectionTitle(tr("Current language"))
-                    CurrentLanguageCard(current, state.knownWords)
-                }
                 SectionTitle(tr("All languages"), trPlural(others.size, "{0} language", "{0} languages"))
                 if (others.isEmpty()) {
                     Text(tr("No languages match"), Modifier.padding(vertical = AppSpacing.l), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
@@ -360,25 +394,6 @@ private fun SectionTitle(title: String, note: String? = null) {
     Row(Modifier.padding(top = AppSpacing.xl, bottom = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         Text(title, style = AppText.sectionTitle)
         if (note != null) Text(note, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
-    }
-}
-
-/** The language being learned: its flag, name and the words known in it, marked as chosen. */
-@Composable
-private fun CurrentLanguageCard(choice: LanguageChoice, knownWords: Int?) {
-    val colors = MaterialTheme.colorScheme
-    Row(
-        Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash)).border(AppBorders.selected(colors.primary.copy(alpha = AppAlpha.half)), AppShapes.card)
-            .padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l).testTag("current-language"),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
-    ) {
-        LanguageFlag(choice.label, 30.dp)
-        Column(Modifier.weight(1f)) {
-            Text(tr(choice.label), style = AppText.itemTitle)
-            if (knownWords != null) Text(trPlural(knownWords, "{0} word", "{0} words", formatCount(knownWords)), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-        }
-        Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(AppSizes.iconLarge))
     }
 }
 

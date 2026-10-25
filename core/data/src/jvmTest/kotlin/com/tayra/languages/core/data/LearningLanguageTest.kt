@@ -10,10 +10,13 @@ import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
 import com.tayra.languages.core.domain.model.BookDraft
 import com.tayra.languages.core.domain.model.Language
+import com.tayra.languages.core.domain.model.TermDraft
+import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.LearningLanguageService
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.TermService
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 import java.io.File
 import kotlin.test.Test
@@ -86,5 +89,38 @@ class LearningLanguageTest {
         assertFalse(service.select(bulgarian))
         assertEquals(czech, settings.current.currentLanguageId)
         assertTrue(service.select(czech))
+    }
+
+    /** The languages being learned are first those with texts or saved words, and the current one; each one chosen joins them. */
+    @Test
+    fun theLanguagesBeingLearnedAreTheUsedOnesAndEachChosen() = runBlocking<Unit> {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-learning-mine", ".db").also { it.delete() }))
+        val languages = LanguageRepositoryImpl(provider)
+        val books = BookRepositoryImpl(provider)
+        val terms = TermRepositoryImpl(provider)
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val service = LearningLanguageService(settings, languages, books, terms)
+        settings.update { it.copy(nativeLanguage = "bg") }
+        languages.save(Language(name = "Bulgarian"))
+        val czech = languages.save(Language(name = "Czech"))
+        val german = languages.save(Language(name = "German"))
+        val polish = languages.save(Language(name = "Polish"))
+        val spanish = languages.save(Language(name = "Spanish"))
+        languages.save(Language(name = "Swedish"))
+        BookService(books, languages).create(BookDraft(languageId = polish, title = "Kot", text = "Kot śpi."))
+        TermService(terms, languages).save(TermDraft(languageId = german, text = "Hund", status = TermStatus.NEW_1, statusExplicitlySet = true))
+        // An ignored word is no sign of learning.
+        TermService(terms, languages).save(TermDraft(languageId = spanish, text = "y", status = TermStatus.IGNORED, statusExplicitlySet = true))
+        settings.update { it.copy(currentLanguageId = czech) }
+
+        service.fillMine()
+        assertEquals(listOf(czech, german, polish), service.observeMine().first())
+
+        service.select(spanish)
+        assertEquals(listOf(czech, german, polish, spanish), service.observeMine().first())
+        service.select(czech)
+        assertEquals(listOf(czech, german, polish, spanish), service.observeMine().first(), "a language is listed once")
+        service.fillMine()
+        assertEquals(listOf(czech, german, polish, spanish), service.observeMine().first(), "filled only the first time")
     }
 }

@@ -47,7 +47,8 @@ class LanguageDialogTest {
             }
         }
         onNodeWithContentDescription("Learning language: Portuguese (586)").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Choose a language").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("add-language").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Add a language").fetchSemanticsNodes().isNotEmpty() }
         waitForIdle()
     }
 
@@ -78,7 +79,7 @@ class LanguageDialogTest {
         assertEquals(listOf(2L), chosen)
     }
 
-    /** On a phone the selector does not open a dialog: it leads to the language screen. */
+    /** On a phone, adding a language does not open a dialog: it leads to the language screen. */
     @Test
     fun aPhoneOpensTheLanguageScreen() = runDesktopComposeUiTest(width = 420, height = 900) {
         val visited = mutableListOf<Route>()
@@ -87,11 +88,12 @@ class LanguageDialogTest {
             TayraTheme { ProvideWindowWidth { CompositionLocalProvider(LocalLearningLanguage provides state) { Surface { AppTopBar(title = "Courses", onNavigate = { visited += it }) } } } }
         }
         onNodeWithContentDescription("Learning language: Portuguese (586)").performClick()
+        onNodeWithTag("add-language").performClick()
         assertEquals(listOf<Route>(Route.ChooseLanguage), visited)
-        assertEquals(0, onAllNodesWithText("Choose a language").fetchSemanticsNodes().size, "no dialog")
+        assertEquals(0, onAllNodesWithText("Add a language").fetchSemanticsNodes().size, "no dialog")
     }
 
-    /** The phone's screen: the current language, the rest with a letter index that brings its languages into view, and a choice that goes back. */
+    /** The phone's screen: the languages not being learned, with a letter index that brings them into view, and a choice that goes back. */
     @Test
     fun theLanguageScreen() = runDesktopComposeUiTest(width = 420, height = 900) {
         val chosen = mutableListOf<Long>()
@@ -100,8 +102,9 @@ class LanguageDialogTest {
         setContent {
             TayraTheme { ProvideWindowWidth { CompositionLocalProvider(LocalLearningLanguage provides state) { ChooseLanguageScreen(onBack = { back++ }) } } }
         }
-        onNodeWithTag("current-language").assertExists()
+        onNodeWithText("Add a language").assertExists()
         onNodeWithText("29 languages").assertExists()
+        assertEquals(0, onAllNodesWithTag("language-pt").fetchSemanticsNodes().size, "the language being learned is not offered")
         save("LANGUAGE_DIALOG_PHONE_SCREENSHOT")
         // Far down the list, Swedish is not even laid out yet.
         assertEquals(0, onAllNodesWithTag("language-sv").fetchSemanticsNodes().size)
@@ -112,7 +115,7 @@ class LanguageDialogTest {
         assertEquals(1, back)
     }
 
-    /** Mandarin is offered as two languages, one in each script; choosing the other script keeps the language. */
+    /** Mandarin is offered as two languages, one in each script; adding the other script keeps the language. */
     @Test
     fun chineseIsOfferedInEachScript() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val scripts = mutableListOf<Pair<Long, ChineseScript>>()
@@ -131,8 +134,10 @@ class LanguageDialogTest {
             }
         }
         onNodeWithContentDescription("Learning language: Chinese (Simplified) (40)").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Choose a language").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("current-language").assertExists()
+        onNodeWithTag("my-language-zh-hans").assertExists()
+        save("LANGUAGE_MENU_SCREENSHOT")
+        onNodeWithTag("add-language").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Add a language").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("3 languages").assertExists()
         assertEquals(0, onAllNodesWithTag("language-zh-hans").fetchSemanticsNodes().size, "the current one is not offered again")
         assertEquals(0, onAllNodesWithText("Mandarin Chinese").fetchSemanticsNodes().size)
