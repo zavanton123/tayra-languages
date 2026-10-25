@@ -16,7 +16,7 @@ actual class WavPlayer(context: Context, fileName: String = "speech.wav") {
 
     private var done: (() -> Unit)? = null
 
-    actual fun play(wav: ByteArray, onDone: () -> Unit) {
+    actual fun play(wav: ByteArray, speed: Float, onDone: () -> Unit) {
         stop()
         done = onDone
         try {
@@ -26,6 +26,8 @@ actual class WavPlayer(context: Context, fileName: String = "speech.wav") {
                 setOnCompletionListener { finished(it) }
                 setOnErrorListener { mp, _, _ -> finished(mp); true }
                 prepare()
+                // Faster or slower with the pitch kept; the speed holds through a pause.
+                if (speed != 1f) runCatching { playbackParams = playbackParams.setSpeed(speed) }
                 start()
             }
         } catch (e: Exception) {

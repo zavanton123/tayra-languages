@@ -63,21 +63,21 @@ class SentenceAudioTest {
     }
 
     @Test
-    fun anotherSpeedMakesNewAudioAndTheCacheIsEmptiedOnceAWeek() = runTest {
+    fun anotherSpeedMakesNothingNewAndTheCacheIsEmptiedOnceAWeek() = runTest {
         settings.update { it.copy(speechEngine = SpeechEngine.PIPER) }
         audio.prepare(page, "pt")
         settings.update { it.copy(speechSpeed = 1.5f) }
         audio.prepare(page, "pt")
-        assertEquals(4, piper.made.size)
-        assertEquals(4, directory.listFiles()!!.size, "audio for both speeds is kept")
+        assertEquals(2, piper.made.size, "audio is made at normal speed and played at any: a new speed makes nothing again")
+        assertEquals(2, directory.listFiles()!!.size)
+        assertContentEquals("pt:O lobo dorme.@1.0".encodeToByteArray(), audio.audioFor("O lobo dorme.", "pt"))
 
         // Another text, days later: the audio is still there.
         clock += 6 * day
         audio.prepare(listOf("Outra história."), "pt")
-        assertEquals(5, directory.listFiles()!!.size, "another text keeps the earlier audio")
-        settings.update { it.copy(speechSpeed = 1.0f) }
+        assertEquals(3, directory.listFiles()!!.size, "another text keeps the earlier audio")
         audio.prepare(page, "pt")
-        assertEquals(5, piper.made.size, "the first text's audio is played from the cache, not made again")
+        assertEquals(3, piper.made.size, "the first text's audio is played from the cache, not made again")
 
         // A week after the cache was first used, it is emptied, once.
         clock += day

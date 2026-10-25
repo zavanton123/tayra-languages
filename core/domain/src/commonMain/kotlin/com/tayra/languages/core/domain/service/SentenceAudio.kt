@@ -63,8 +63,9 @@ enum class SentenceAudioState { PREPARING, READY }
 /**
  * Synthesizes sentences ahead of time with the local speech engine, so a sentence plays the
  * moment it is asked for: the reader's page and the examples of the term pane and the Examples
- * screen. The system voice speaks directly and needs none of this. Audio is cached per engine,
- * voice, speed and language, kept across texts and restarts, and emptied once a week.
+ * screen. The system voice speaks directly and needs none of this. Audio is made at normal speed,
+ * the players playing it at the speed wanted, and cached per engine, voice and language, kept across
+ * texts and restarts and emptied once a week.
  */
 class SentenceAudio(
     private val localSpeech: LocalSpeech,
@@ -83,7 +84,7 @@ class SentenceAudio(
     /** One synthesis at a time: the local engines run a single worker each. */
     private val synthesis = Mutex()
 
-    /** The engine, voices and speed the states were made with; other settings make other audio. */
+    /** The engine and voices the states were made with; others make other audio. */
     private var configuration: String? = null
 
     /**
@@ -100,7 +101,7 @@ class SentenceAudio(
         }
         if (configuration == null || languageCode == null) return
         val wanted = sentences.filter { it.any(Char::isLetter) }.distinct()
-        val marks = wanted.associateWith { if (cache.read(keyOf(it, languageCode, settings.current.speechSpeed) ?: "") != null) SentenceAudioState.READY else SentenceAudioState.PREPARING }
+        val marks = wanted.associateWith { if (cache.read(keyOf(it, languageCode) ?: "") != null) SentenceAudioState.READY else SentenceAudioState.PREPARING }
         _states.update { it + marks }
         try {
             for (sentence in wanted) audioFor(sentence, languageCode)
@@ -111,25 +112,23 @@ class SentenceAudio(
     }
 
     /**
-     * The sentence's audio at [speed] from the cache, or synthesized now (waiting for one already
-     * being made); null when no local engine is chosen or it cannot speak the sentence.
+     * The sentence's audio at normal speed from the cache, or synthesized now (waiting for one
+     * already being made); null when no local engine is chosen or it cannot speak the sentence.
      */
-    suspend fun audioFor(text: String, languageCode: String, speed: Float = settings.current.speechSpeed): ByteArray? {
-        val key = keyOf(text, languageCode, speed) ?: return null
+    suspend fun audioFor(text: String, languageCode: String): ByteArray? {
+        val key = keyOf(text, languageCode) ?: return null
         cache.read(key)?.let { return it }
         val engine = engine() ?: return null
         return synthesis.withLock {
             cache.read(key) ?: try {
                 val prefs = settings.current
-                engine.synthesize(SpokenNumbers.normalize(text, languageCode), languageCode, prefs.speechVoices["${engine.engine.name}:$languageCode"], speed)
+                engine.synthesize(SpokenNumbers.normalize(text, languageCode), languageCode, prefs.speechVoices["${engine.engine.name}:$languageCode"], 1f)
             } catch (e: CancellationException) {
                 throw e
             } catch (e: Exception) {
                 null
             }?.also { cache.write(key, it) }
         }.also { audio ->
-            // The states are the reader's, at its speed; the playlist player's audio at another leaves them.
-            if (speed != settings.current.speechSpeed) return@also
             _states.update { states ->
                 if (text !in states) states
                 else if (audio != null) states + (text to SentenceAudioState.READY)
@@ -156,14 +155,14 @@ class SentenceAudio(
     private fun configuration(): String? {
         val engine = engine() ?: return null
         val prefs = settings.current
-        return "${engine.engine.name}${engine.cacheVersion}|${prefs.speechVoices}|${prefs.speechSpeed}"
+        return "${engine.engine.name}${engine.cacheVersion}|${prefs.speechVoices}"
     }
 
     /** Keyed by the text as spoken, so a clip cached before its numbers were rewritten is made again. */
-    private fun keyOf(text: String, languageCode: String, speed: Float): String? {
+    private fun keyOf(text: String, languageCode: String): String? {
         val engine = engine() ?: return null
         val voice = settings.current.speechVoices["${engine.engine.name}:$languageCode"].orEmpty()
-        return "${engine.engine.name}${engine.cacheVersion}|$voice|$speed|$languageCode|${SpokenNumbers.normalize(text, languageCode)}"
+        return "${engine.engine.name}${engine.cacheVersion}|$voice|$languageCode|${SpokenNumbers.normalize(text, languageCode)}"
     }
 
     private companion object {

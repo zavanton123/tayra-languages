@@ -32,8 +32,8 @@ import kotlin.time.Clock
  * come from any thread.
  */
 interface SpeechOutput {
-    /** Plays WAV audio; [onDone] runs once when it ends, fails or is stopped. */
-    fun play(wav: ByteArray, onDone: () -> Unit)
+    /** Plays WAV audio at [speed] (1 is normal), the pitch kept; [onDone] runs once when it ends, fails or is stopped. */
+    fun play(wav: ByteArray, speed: Float, onDone: () -> Unit)
 
     /**
      * Speaks [text] with the system's voice at [rate] (1 is normal); [onWord] gets the characters
@@ -547,7 +547,7 @@ class PlaylistPlayer(
         val speed = settings.current.playlistSpeed
         val wav = if (engine != null && code != null) {
             if (_state.value.status != PlayerStatus.PLAYING) _state.update { it.copy(status = PlayerStatus.LOADING) }
-            audio.audioFor(text, code, speed)
+            audio.audioFor(text, code)
         } else {
             null
         }
@@ -556,8 +556,9 @@ class PlaylistPlayer(
         val done = CompletableDeferred<Unit>()
         try {
             if (wav != null) {
-                wavSeconds(wav)?.let { time.record(code!!, text.length, it, speed) }
-                output.play(wav) { done.complete(Unit) }
+                // The clip is at normal speed, whatever speed it is played at.
+                wavSeconds(wav)?.let { time.record(code!!, text.length, it, 1f) }
+                output.play(wav, speed) { done.complete(Unit) }
             } else {
                 // A local voice that failed on this sentence leaves it to the system voice, as the reader does.
                 val spoken = SpokenNumbers.normalize(text, code)
@@ -587,7 +588,7 @@ class PlaylistPlayer(
                     if (nextItem != null) ahead += sentencesOf(nextItem.bookId, 1).take(LOOK_AHEAD - ahead.size)
                 }
             }
-            for (sentence in ahead) audio.audioFor(sentence, code, settings.current.playlistSpeed)
+            for (sentence in ahead) audio.audioFor(sentence, code)
         }
     }
 

@@ -57,7 +57,7 @@ internal class SilentOutput : SpeechOutput {
     @Volatile var done: (() -> Unit)? = null
     @Volatile var onWord: ((IntRange) -> Unit)? = null
 
-    override fun play(wav: ByteArray, onDone: () -> Unit) {
+    override fun play(wav: ByteArray, speed: Float, onDone: () -> Unit) {
         done = onDone
     }
 

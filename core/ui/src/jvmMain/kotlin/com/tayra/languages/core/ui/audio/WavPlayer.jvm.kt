@@ -22,9 +22,10 @@ actual class WavPlayer {
     /** The frame a pause held playback at. */
     private var heldAt: Int? = null
 
-    actual fun play(wav: ByteArray, onDone: () -> Unit) {
+    actual fun play(wav: ByteArray, speed: Float, onDone: () -> Unit) {
         stop()
-        this.wav = wav
+        // Java's sound has no speed: the audio itself is made faster or slower.
+        this.wav = SpeechStretch.wav(wav, speed)
         synchronized(this) { done = onDone }
         start(0)
     }

@@ -9,10 +9,10 @@ class DeviceSpeechOutput(private val system: SpeechSynthesizer, private val play
     /** Where the current sound comes from, so a pause reaches the right one. */
     private var sounding: Output? = null
 
-    override fun play(wav: ByteArray, onDone: () -> Unit) {
+    override fun play(wav: ByteArray, speed: Float, onDone: () -> Unit) {
         system.stop()
         sounding = Output.PLAYER
-        player.play(wav, onDone)
+        player.play(wav, speed, onDone)
     }
 
     override fun speak(text: String, languageCode: String?, rate: Float, onWord: (IntRange) -> Unit, onDone: () -> Unit) {

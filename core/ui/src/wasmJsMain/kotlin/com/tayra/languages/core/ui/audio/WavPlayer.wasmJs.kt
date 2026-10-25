@@ -15,8 +15,9 @@ private fun wavUrl(base64: String): String = js(
     }""",
 )
 private fun newWavAudio(url: String): JsAny = js("new Audio(url)")
-private fun startWavAudio(audio: JsAny, onEnded: () -> Unit, onError: () -> Unit): Unit =
-    js("{ audio.onended = onEnded; audio.onerror = onError; audio.play().catch(onError); }")
+// The browser keeps the pitch at another rate.
+private fun startWavAudio(audio: JsAny, rate: Double, onEnded: () -> Unit, onError: () -> Unit): Unit =
+    js("{ audio.playbackRate = rate; audio.onended = onEnded; audio.onerror = onError; audio.play().catch(onError); }")
 private fun pauseWavAudio(audio: JsAny): Unit = js("audio.pause()")
 private fun resumeWavAudio(audio: JsAny): Unit = js("audio.play().catch(function () {})")
 private fun stopWavAudio(audio: JsAny): Unit = js("{ audio.onended = null; audio.onerror = null; audio.pause(); audio.currentTime = 0; }")
@@ -28,14 +29,14 @@ actual class WavPlayer {
     private var url: String? = null
     private var onDone: (() -> Unit)? = null
 
-    actual fun play(wav: ByteArray, onDone: () -> Unit) {
+    actual fun play(wav: ByteArray, speed: Float, onDone: () -> Unit) {
         stop()
         val url = wavUrl(Base64.encode(wav))
         val audio = newWavAudio(url)
         current = audio
         this.url = url
         this.onDone = onDone
-        startWavAudio(audio, onEnded = { if (current === audio) finish() }, onError = { if (current === audio) finish() })
+        startWavAudio(audio, speed.toDouble(), onEnded = { if (current === audio) finish() }, onError = { if (current === audio) finish() })
     }
 
     actual fun pause(): Boolean {

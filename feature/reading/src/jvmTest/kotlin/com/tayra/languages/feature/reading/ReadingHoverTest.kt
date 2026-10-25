@@ -301,7 +301,7 @@ class ReadingHoverTest {
         val repository = com.tayra.languages.core.data.repository.PlaylistRepositoryImpl(provider)
         val playlists = com.tayra.languages.core.domain.playlists.PlaylistService(repository, courses, languages, time)
         val silent = object : com.tayra.languages.core.domain.playlists.SpeechOutput {
-            override fun play(wav: ByteArray, onDone: () -> Unit) {}
+            override fun play(wav: ByteArray, speed: Float, onDone: () -> Unit) {}
             override fun speak(text: String, languageCode: String?, rate: Float, onWord: (IntRange) -> Unit, onDone: () -> Unit) {}
             override fun pause() = false
             override fun resume() {}

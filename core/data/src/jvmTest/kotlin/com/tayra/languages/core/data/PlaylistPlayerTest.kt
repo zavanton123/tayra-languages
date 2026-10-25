@@ -60,9 +60,11 @@ class PlaylistPlayerTest {
         @Volatile var onWord: ((IntRange) -> Unit)? = null
         @Volatile var paused = false
         @Volatile var rate = 1f
+        @Volatile var played = 1f
 
-        override fun play(wav: ByteArray, onDone: () -> Unit) {
+        override fun play(wav: ByteArray, speed: Float, onDone: () -> Unit) {
             heard += "wav:" + wav.decodeToString().substringAfter("|")
+            played = speed
             done = onDone
         }
 
@@ -210,7 +212,8 @@ class PlaylistPlayerTest {
         runBlocking { settings.update { it.copy(speechEngine = SpeechEngine.PIPER, playlistSpeed = 1.5f) } }
         player.play(setup.playlist)
         hear("wav:Um dois.")
-        assertEquals(1.5f, piper.speed, "the clips are made at the player's speed")
+        assertEquals(1f, piper.speed, "the clips are made at normal speed")
+        assertEquals(1.5f, output.played, "and played at the player's")
         // While the first played, the rest of the page and the next page were made ready.
         until("the sentences ahead") { piper.made.containsAll(listOf("Um dois.", "Dois três.", "Três quatro.")) }
         hear("wav:Dois três.")

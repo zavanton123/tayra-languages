@@ -89,7 +89,8 @@ class Speaker(
         job = scope.launch {
             _working.value = true
             val wav = try {
-                prepared?.audioFor(text, languageCode) ?: engine.synthesize(spoken, languageCode, prefs.speechVoices["${engine.engine.name}:$languageCode"], prefs.speechSpeed)
+                // Made at normal speed, and played at the reader's: changing the speed makes nothing again.
+                prepared?.audioFor(text, languageCode) ?: engine.synthesize(spoken, languageCode, prefs.speechVoices["${engine.engine.name}:$languageCode"], 1f)
             } catch (e: CancellationException) {
                 // Stopped or replaced: the newer request owns the state now.
                 throw e
@@ -101,7 +102,7 @@ class Speaker(
             _working.value = false
             if (wav != null) {
                 output = Output.PLAYER
-                player.play(wav, done)
+                player.play(wav, settings.current.speechSpeed, done)
             } else {
                 output = Output.SYSTEM
                 system.speak(spoken, languageCode, done)

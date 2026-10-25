@@ -31,13 +31,16 @@ actual class WavPlayer {
         done?.also { done = null }?.invoke()
     }
 
-    actual fun play(wav: ByteArray, onDone: () -> Unit) {
+    actual fun play(wav: ByteArray, speed: Float, onDone: () -> Unit) {
         stop()
         done = onDone
         if (wav.isEmpty()) return finish()
         val data = wav.usePinned { NSData.create(bytes = it.addressOf(0), length = wav.size.toULong()) }
         val next = AVAudioPlayer(data = data, error = null) ?: return finish()
         next.delegate = delegate
+        // Faster or slower with the pitch kept.
+        next.enableRate = true
+        next.rate = speed
         player = next
         next.prepareToPlay()
         if (!next.play()) { player = null; finish() }
