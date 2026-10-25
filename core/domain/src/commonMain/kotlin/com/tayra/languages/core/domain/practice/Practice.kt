@@ -274,24 +274,30 @@ object PracticeBuilder {
         if (asked.isEmpty() || rotation.isEmpty()) return listOfNotNull(matching)
         val used = mutableMapOf<String, Int>()
         val exercises = listOfNotNull(matching).toMutableList()
-        for (k in 0 until questionCount(asked.size, rotation.size, setup.length?.minus(exercises.size))) {
+        // No word is asked the same question in the same sentence twice: a round that would repeat one
+        // gives way to the next, and with none left the practice is shorter.
+        val seen = mutableSetOf<String>()
+        val fresh = { e: Exercise? -> e?.takeIf { seen.add("${e.practised.lowercase()}|${e.type}|${e.response}|${e.sentence}") } }
+        val wanted = exercises.size + questionCount(asked.size, rotation.size, setup.length?.minus(exercises.size))
+        for (k in 0 until asked.size * rotation.size) {
+            if (exercises.size >= wanted) break
             val word = asked[k % asked.size]
             // Each round starts one question further on, so a word meets a different one every time;
             // a question the word cannot be asked gives way to the next one that it can.
             val start = (k % asked.size + k / asked.size) % rotation.size
             val all = (0 until rotation.size).map { rotation[(start + it) % rotation.size] }
             // Adapting, the word is answered the ways its level calls for, where the setup has them; otherwise any way.
-            val wanted = if (setup.adaptive) WordProgress.LEVELS[(levels[word.key] ?: 0).coerceIn(0, WordProgress.TOP)].responses else null
-            val steps = wanted?.let { ways -> all.filter { it.second in ways }.ifEmpty { all } } ?: all
+            val ways = if (setup.adaptive) WordProgress.LEVELS[(levels[word.key] ?: 0).coerceIn(0, WordProgress.TOP)].responses else null
+            val steps = ways?.let { level -> all.filter { it.second in level }.ifEmpty { all } } ?: all
             val kept = elsewhere[word.key].orEmpty()
             val next = used[word.key] ?: 0
             val inExample = next < kept.size && (!original || (k / asked.size) % 2 == 1)
             val exercise = if (inExample) {
-                steps.firstNotNullOfOrNull { (type, response) -> exampleExercise(type, response, word, kept[next], targets, choices, meanings, random) }
+                steps.firstNotNullOfOrNull { (type, response) -> fresh(exampleExercise(type, response, word, kept[next], targets, choices, meanings, random)) }
                     ?.also { used[word.key] = next + 1 }
             } else {
                 null
-            } ?: if (original) steps.firstNotNullOfOrNull { (type, response) -> exercise(type, response, word, targets, choices, meanings, translations, random) } else null
+            } ?: if (original) steps.firstNotNullOfOrNull { (type, response) -> fresh(exercise(type, response, word, targets, choices, meanings, translations, random)) } else null
             exercises += exercise ?: continue
         }
         return exercises

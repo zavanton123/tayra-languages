@@ -60,7 +60,7 @@ class PracticeTest {
     /** Without a length every question comes for every word; with sentences from elsewhere only, only the words that have one are asked. */
     @Test
     fun theLengthAndTheSentencesAskedForAreKept() {
-        assertEquals(words.size * 4, PracticeBuilder.build(words, pageWords, random = Random(1), setup = PracticeSetup(length = null)).size)
+        assertEquals(words.size * 4, PracticeBuilder.build(words, pageWords, random = Random(1), setup = mixed.copy(length = null)).size)
         assertEquals(5, PracticeBuilder.build(words, pageWords, random = Random(1), setup = PracticeSetup(length = 5)).size)
         val examples = mapOf("comprar" to listOf(PracticeExample("Vou comprar pão.", Cloze.range("Vou comprar pão.", "comprar")!!, "I will buy bread.")))
         val elsewhere = PracticeBuilder.build(words, pageWords, examples, Random(1), PracticeSetup(contexts = setOf(PracticeContext.EXAMPLE)))
@@ -134,7 +134,7 @@ class PracticeTest {
     /** A matching round comes first, on up to five words whose meanings share no word; with fewer than four such words there is none. */
     @Test
     fun aMatchingRoundComesFirstOnWordsThatCannotBeConfused() {
-        val setup = PracticeSetup(types = setOf(ExerciseType.MATCHING, ExerciseType.GAP))
+        val setup = PracticeSetup(types = setOf(ExerciseType.MATCHING, ExerciseType.GAP), adaptive = false)
         val asked = PracticeBuilder.build(words + word("casa", "at home", "Eu fico em casa.") + word("lar", "home", "O meu lar."), pageWords, random = Random(1), setup = setup)
         val matching = asked.first()
         assertEquals(ExerciseType.MATCHING, matching.type)
@@ -375,5 +375,18 @@ class PracticeTest {
     fun setupsKeptWithTrueOrFalseStillOpen() {
         assertEquals(setOf(ExerciseType.GAP), PracticeSetup.decode("types=GAP,TRUE_FALSE;responses=CHOOSE;contexts=ORIGINAL;length=10").types)
         assertEquals(PracticeSetup().types, PracticeSetup.decode("types=TRUE_FALSE;responses=CHOOSE;contexts=ORIGINAL;length=10").types)
+    }
+
+    /** A word is never asked the same question in the same sentence twice, even where its level leaves only one way of answering. */
+    @Test
+    fun noQuestionIsAskedTwice() {
+        val setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_WORD, ExerciseType.DICTATION), responses = setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE), length = null)
+        val asked = PracticeBuilder.build(words, pageWords, random = Random(1), setup = setup)
+        val keys = asked.map { "${it.practised}|${it.type}|${it.response}|${it.sentence}" }
+        assertEquals(keys.distinct(), keys)
+        // New words are only chosen: the missing word and the word heard, once each.
+        assertEquals(words.size * 2, asked.size)
+        // A length is still filled where there are enough different questions.
+        assertEquals(7, PracticeBuilder.build(words, pageWords, random = Random(1), setup = setup.copy(length = 7)).size)
     }
 }
