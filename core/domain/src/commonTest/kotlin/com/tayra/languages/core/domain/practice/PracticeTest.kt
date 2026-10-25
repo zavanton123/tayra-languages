@@ -330,9 +330,16 @@ class PracticeTest {
         val said = PracticeBuilder.build(words, pageWords, random = Random(1), setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.SHADOW), responses = setOf(PracticeResponse.SPEAK)))
         assertTrue(said.isNotEmpty() && said.all { it.response == PracticeResponse.SPEAK && !it.isChoice && it.tiles.isEmpty() }, "said: ${said.map { it.kind }}")
         val shadow = said.first { it.type == ExerciseType.SHADOW }
-        assertEquals(shadow.sentence, shadow.answer)
-        assertEquals(shadow.sentence, shadow.spoken)
+        assertEquals(shadow.saying, shadow.answer)
+        assertEquals(shadow.saying, shadow.spoken)
         assertTrue(shadow.wholeSentence)
+        // A gap is said as the phrase around it, never as the word alone.
+        said.filter { it.type == ExerciseType.GAP }.forEach { e ->
+            val say = e.say!!
+            assertTrue(e.range.first >= say.first && e.range.last <= say.last, "${e.saying} holds ${e.word}")
+            assertTrue(e.saying!!.split(" ").size >= 3, e.saying)
+        }
+        assertTrue(ExerciseType.entries.filter { PracticeResponse.SPEAK in it.responses }.all { it != ExerciseType.HEAR_SENTENCE }, "a word heard is not said alone")
         assertEquals(emptyList(), PracticeBuilder.build(words, pageWords, random = Random(1), setup = PracticeSetup(types = setOf(ExerciseType.SHADOW), responses = setOf(PracticeResponse.TYPE))), "a sentence repeated is only said")
     }
 
@@ -346,13 +353,28 @@ class PracticeTest {
     }
 
     @Test
-    fun aSpokenWordCountsWhenItIsHeard() {
+    fun aSpokenPhraseCountsWithItsWordAndMostOfTheRest() {
         assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("Eu moro no Brasil", "moro", "Eu moro no Brasil."))
-        assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("eu moro no brasil com a minha familia", "família", ""), "accents are the recogniser's")
-        assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("vou fazer compras por favor", "por favor", ""), "several words")
+        assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("com a minha familia e os meus irmaos", "família", "com a minha família e os meus irmãos"), "accents are the recogniser's")
+        assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("vou fazer compras por favor", "por favor", "vou fazer compras, por favor"), "several words")
+        assertEquals(TypedResult.ALMOST, PracticeChecker.checkSpoken("eu moro no Brasil com a minha família", "moro", "Eu moro no Brasil com a minha família e"), "eight of nine, the word among them")
+        assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("moro", "moro", "Eu moro no Brasil."), "the word alone does not do")
         assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("eu morei no Brasil", "moro", "Eu moro no Brasil."))
         assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("  ", "moro", "Eu moro no Brasil."))
-        assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("amoroso", "moro", ""), "a word, not part of one")
+        assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("eu amoroso no Brasil", "moro", "Eu moro no Brasil."), "a word, not part of one")
+    }
+
+    /** The phrase said is the stretch between punctuation that holds the word, or the sentence where that is very short, eight words at most. */
+    @Test
+    fun thePhraseSaidIsTheStretchAroundTheWord() {
+        fun said(sentence: String, word: String) = sentence.substring(PracticeBuilder.phrase(sentence, Cloze.range(sentence, word)!!))
+        assertEquals("Quando precisamos comprar alguma coisa,", said(long, "comprar"))
+        assertEquals("passamos no supermercado perto de casa.", said(long, "supermercado"))
+        assertEquals("Eu moro no Brasil.", said("Eu moro no Brasil.", "moro"))
+        assertEquals("Sim, eu moro no Brasil.", said("Sim, eu moro no Brasil.", "Sim"), "one word before a comma is too short alone")
+        val longClause = "Eu moro com a minha família e os meus dois irmãos mais novos numa casa grande."
+        assertEquals("e os meus dois irmãos mais novos numa", said(longClause, "irmãos"))
+        assertEquals("Eu moro com a minha família e os", said(longClause, "Eu"))
     }
 
     @Test

@@ -104,6 +104,7 @@ import com.tayra.languages.core.domain.practice.WordResult
 import com.tayra.languages.core.domain.practice.PracticeChecker
 import androidx.compose.ui.text.style.TextDecoration
 import com.tayra.languages.core.ui.audio.rememberMicrophoneAccess
+import androidx.compose.ui.text.AnnotatedString
 import com.tayra.languages.core.ui.components.FreshViewModels
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
@@ -323,14 +324,14 @@ private val Exercise.instruction: String
         ExerciseType.GAP -> when (response) {
             PracticeResponse.CHOOSE -> if (context == PracticeContext.EXAMPLE) tr("A new sentence: choose the missing word") else tr("Choose the missing word")
             PracticeResponse.TYPE -> if (context == PracticeContext.EXAMPLE) tr("A new sentence: type the missing word") else tr("Type the missing word")
-            PracticeResponse.SPEAK -> if (context == PracticeContext.EXAMPLE) tr("A new sentence: say it with the missing word") else tr("Say the sentence with the missing word")
+            PracticeResponse.SPEAK -> if (context == PracticeContext.EXAMPLE) tr("A new sentence: say the marked phrase, with the missing word") else tr("Say the marked phrase, with the missing word")
         }
         ExerciseType.MEANING -> tr("What does the marked word mean?")
         ExerciseType.MATCHING -> tr("Match each word with its meaning")
         ExerciseType.SOUND_ALIKE -> tr("Listen and choose the word you hear")
         ExerciseType.HEAR_SENTENCE -> tr("Listen to the sentence")
         ExerciseType.HEAR_WORD -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
-        ExerciseType.SHADOW -> tr("Listen and say the sentence")
+        ExerciseType.SHADOW -> tr("Listen and say the phrase")
         ExerciseType.DICTATION -> if (wholeSentence) tr("Listen and type the sentence") else tr("Listen and type the missing word")
         ExerciseType.BUILD -> tr("Put the words in order")
         ExerciseType.FORM -> when (response) {
@@ -404,12 +405,28 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
             val highlight = SpanStyle(background = AppAccents.highlight.copy(alpha = AppAlpha.half), fontWeight = AppText.labelStrong.fontWeight)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 if (readable) ReadAloudCircle(readAloud) { actions.onReadAloud.invoke(!readAloud) }
+                // A phrase to say stands out; the rest of the sentence is only there for its sense.
+                val say = exercise.say
+                val aside = SpanStyle(color = colors.onSurface.copy(alpha = AppAlpha.disabled))
+                val part: AnnotatedString.Builder.(Int, Int) -> Unit = { from, to ->
+                    if (from < to) {
+                        if (say == null) {
+                            append(exercise.sentence.substring(from, to))
+                        } else {
+                            val a = say.first.coerceIn(from, to)
+                            val b = (say.last + 1).coerceIn(from, to)
+                            withStyle(aside) { append(exercise.sentence.substring(from, a)) }
+                            append(exercise.sentence.substring(a, b))
+                            withStyle(aside) { append(exercise.sentence.substring(b, to)) }
+                        }
+                    }
+                }
                 Text(
                     buildAnnotatedString {
-                        append(exercise.sentence.substring(0, exercise.range.first))
+                        part(0, exercise.range.first)
                         // The word is marked rather than blanked where its meaning is asked.
                         withStyle(highlight) { append(if (answered || exercise.type == ExerciseType.MEANING) exercise.sentence.substring(exercise.range) else BLANK) }
-                        append(exercise.sentence.substring(exercise.range.last + 1))
+                        part(exercise.range.last + 1, exercise.sentence.length)
                     },
                     style = AppText.cardSentence(if (compact) 21f else 27f).copy(color = colors.onSurface, textAlign = TextAlign.Center, textDirection = direction),
                     modifier = Modifier.weight(1f, fill = false).testTag("practice-sentence"),
@@ -432,8 +449,10 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         }
 
         if (answered) Feedback(state, exercise)
-        // A sentence typed whole and not quite right: which words were.
-        if (answered && exercise.wholeSentence && state.result != PracticeResult.CORRECT && state.typed.isNotBlank()) SentenceCheck(exercise.answer, state.typed)
+        // A sentence typed whole, or a phrase said, and not quite right: which words were.
+        if (answered && (exercise.wholeSentence || exercise.saying != null) && state.result != PracticeResult.CORRECT && state.typed.isNotBlank()) {
+            SentenceCheck(exercise.saying ?: exercise.answer, state.typed)
+        }
 
         AppDivider()
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {

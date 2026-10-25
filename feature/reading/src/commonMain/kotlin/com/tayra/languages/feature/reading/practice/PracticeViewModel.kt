@@ -268,15 +268,15 @@ class PracticeViewModel(
         if (_state.value.answered || _state.value.listening || exercise.response != PracticeResponse.SPEAK || code == null) return
         _state.update { it.copy(listening = true, nothingHeard = false, typed = "") }
         listenJob = viewModelScope.launch {
-            // The sentence holds what is to be said: the whole of it, or the word heard in it.
-            val heard = attempt { speech?.listen(code, exercise.sentence) { _state.update { if (it.current === exercise) it.copy(recognising = true) else it } } } ?: Heard.Refused
+            val heard = attempt { speech?.listen(code, exercise.saying ?: exercise.sentence) { _state.update { if (it.current === exercise) it.copy(recognising = true) else it } } } ?: Heard.Refused
             _state.update { it.copy(recognising = false) }
             if (_state.value.current !== exercise) return@launch
             when (heard) {
                 is Heard.Words -> {
                     _state.update { it.copy(listening = false, typed = heard.text) }
+                    // The phrase is checked, the missing word in it where there is one.
                     val word = if (exercise.wholeSentence) null else exercise.answer
-                    record(exercise, PracticeChecker.checkSpoken(heard.text, word, exercise.answer).result)
+                    record(exercise, PracticeChecker.checkSpoken(heard.text, word, exercise.saying ?: exercise.answer).result)
                 }
                 Heard.Nothing -> _state.update { it.copy(listening = false, nothingHeard = true) }
                 Heard.Refused -> refuseSpeaking()

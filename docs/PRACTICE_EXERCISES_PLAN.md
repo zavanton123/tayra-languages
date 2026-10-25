@@ -372,6 +372,7 @@ Changed from the plan:
 - Forms come from the frequency lists (offline, 33 languages) and linked terms; Wiktionary's tagged forms are not used, so choose-the-form relies on the sentence's translation as its clue.
 - Matching pairs and true-or-false moves no level; matching counts as one question.
 - Build the sentence is answered with word tiles only, and comes with the Choose answer.
+- Speaking always means a phrase, never a word alone, which recognisers mishear: the stretch between punctuation around the word (the whole sentence when that is under 3 words, at most 8 words), marked in the sentence; right when all its words are heard, almost at 80 %, the missing word always among them. Hear the sentence is no longer said, its answer being one word.
 - "Adapt to my level" is always on and no longer shown; setups kept with it off adapt too.
 - "From the translation" was dropped; the translation stays the clue of missing-word questions, and building the sentence still starts from it.
 - The Words filter (new to practice, weakest, not practised for a week) was dropped: practice always asks about all the words; setups kept with a choice of words ask about all of them.

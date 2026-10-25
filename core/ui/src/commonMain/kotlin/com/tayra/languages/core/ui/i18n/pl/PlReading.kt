@@ -252,9 +252,6 @@ internal val plReading: Map<String, String> = mapOf(
     "Tap the words in order" to "Stukaj słowa po kolei",
     "Remove the last word" to "Usuń ostatnie słowo",
     "Sentence from {0}" to "Zdanie z: {0}",
-    "Say the sentence with the missing word" to "Powiedz zdanie z brakującym słowem",
-    "A new sentence: say it with the missing word" to "Nowe zdanie: powiedz je z brakującym słowem",
-    "Listen and say the sentence" to "Posłuchaj i powiedz zdanie",
     "Almost: most of the words were heard" to "Prawie: usłyszano większość słów",
     "Listening…" to "Słucham…",
     "Heard: {0}" to "Usłyszano: {0}",
@@ -265,4 +262,7 @@ internal val plReading: Map<String, String> = mapOf(
     "Read sentences aloud" to "Czytaj zdania na głos",
     "Stop reading sentences aloud" to "Przestań czytać zdania na głos",
     "Recognising…" to "Rozpoznawanie…",
+    "Say the marked phrase, with the missing word" to "Powiedz zaznaczoną frazę z brakującym słowem",
+    "A new sentence: say the marked phrase, with the missing word" to "Nowe zdanie: powiedz zaznaczoną frazę z brakującym słowem",
+    "Listen and say the phrase" to "Posłuchaj i powiedz frazę",
 )

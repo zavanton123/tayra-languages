@@ -458,7 +458,7 @@ internal val esTerms: Map<String, String> = mapOf(
     "Right answers" to "Respuestas correctas",
     "Last practised" to "Última práctica",
     "Shadowing" to "Repetición en voz alta",
-    "Hear a sentence and say it back" to "Escucha una frase y repítela",
     "Speak" to "Hablar",
     "Speaking" to "Expresión oral",
+    "Hear a phrase and say it back" to "Escucha una frase y repítela",
 )

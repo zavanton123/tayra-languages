@@ -252,9 +252,6 @@ internal val frReading: Map<String, String> = mapOf(
     "Tap the words in order" to "Touchez les mots dans l’ordre",
     "Remove the last word" to "Retirer le dernier mot",
     "Sentence from {0}" to "Phrase de : {0}",
-    "Say the sentence with the missing word" to "Dites la phrase avec le mot manquant",
-    "A new sentence: say it with the missing word" to "Une nouvelle phrase : dites-la avec le mot manquant",
-    "Listen and say the sentence" to "Écoutez et dites la phrase",
     "Almost: most of the words were heard" to "Presque : la plupart des mots ont été entendus",
     "Listening…" to "Écoute…",
     "Heard: {0}" to "Entendu : {0}",
@@ -265,4 +262,7 @@ internal val frReading: Map<String, String> = mapOf(
     "Read sentences aloud" to "Lire les phrases à voix haute",
     "Stop reading sentences aloud" to "Ne plus lire les phrases à voix haute",
     "Recognising…" to "Reconnaissance…",
+    "Say the marked phrase, with the missing word" to "Dites le passage marqué, avec le mot manquant",
+    "A new sentence: say the marked phrase, with the missing word" to "Une nouvelle phrase : dites le passage marqué, avec le mot manquant",
+    "Listen and say the phrase" to "Écoutez et dites le passage",
 )

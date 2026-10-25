@@ -458,7 +458,7 @@ internal val elTerms: Map<String, String> = mapOf(
     "Right answers" to "Σωστές απαντήσεις",
     "Last practised" to "Τελευταία εξάσκηση",
     "Shadowing" to "Επανάληψη φωναχτά",
-    "Hear a sentence and say it back" to "Άκου μια πρόταση και επανάλαβέ τη",
     "Speak" to "Μίλα",
     "Speaking" to "Ομιλία",
+    "Hear a phrase and say it back" to "Άκου μια φράση και επανάλαβέ τη",
 )

@@ -458,7 +458,7 @@ internal val deTerms: Map<String, String> = mapOf(
     "Right answers" to "Richtige Antworten",
     "Last practised" to "Zuletzt geübt",
     "Shadowing" to "Nachsprechen",
-    "Hear a sentence and say it back" to "Hör einen Satz und sprich ihn nach",
     "Speak" to "Sprechen",
     "Speaking" to "Sprechen",
+    "Hear a phrase and say it back" to "Hör eine Wendung und sprich sie nach",
 )

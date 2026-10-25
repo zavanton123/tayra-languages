@@ -479,7 +479,7 @@ class PracticeScreenTest {
         val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.SPEAK)), speech = speech)
         val first = viewModel.state.value.current!!
         assertEquals(PracticeResponse.SPEAK, first.response)
-        onNodeWithText("SAY THE SENTENCE WITH THE MISSING WORD").assertExists()
+        onNodeWithText("SAY THE MARKED PHRASE, WITH THE MISSING WORD").assertExists()
         onNodeWithTag("practice-speak").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Nothing was heard. Try again.").fetchSemanticsNodes().isNotEmpty() }
         assertTrue(!viewModel.state.value.answered)
@@ -488,12 +488,22 @@ class PracticeScreenTest {
         onNodeWithTag("practice-speak").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Heard: ${first.sentence}").assertExists()
-        assertEquals(first.sentence, speech.hints.last(), "the recogniser is told the sentence expected")
+        assertEquals(first.saying, speech.hints.last(), "the recogniser is told the phrase expected")
         shot("spoken-gap")
         viewModel.next()
 
         val second = viewModel.state.value.current!!
-        speech.answer = { Heard.Words(second.sentence.replace(second.word, "nada")) }
+        speech.answer = { Heard.Words(second.saying!!.replace(second.word, "nada")) }
+        onNodeWithTag("practice-speak").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not quite").fetchSemanticsNodes().isNotEmpty() }
+        // What was said, word by word against the phrase.
+        onNodeWithTag("practice-sentence-check").assertExists()
+        viewModel.next()
+
+        // The word alone does not do: the phrase is to be said.
+        val third = viewModel.state.value.current!!
+        shot("spoken-phrase")
+        speech.answer = { Heard.Words(third.word) }
         onNodeWithTag("practice-speak").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not quite").fetchSemanticsNodes().isNotEmpty() }
     }

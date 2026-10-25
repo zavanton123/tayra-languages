@@ -252,9 +252,6 @@ internal val ruReading: Map<String, String> = mapOf(
     "Tap the words in order" to "Нажимайте слова по порядку",
     "Remove the last word" to "Убрать последнее слово",
     "Sentence from {0}" to "Предложение из: {0}",
-    "Say the sentence with the missing word" to "Произнесите предложение с пропущенным словом",
-    "A new sentence: say it with the missing word" to "Новое предложение: произнесите его с пропущенным словом",
-    "Listen and say the sentence" to "Послушайте и произнесите предложение",
     "Almost: most of the words were heard" to "Почти: услышано большинство слов",
     "Listening…" to "Слушаю…",
     "Heard: {0}" to "Услышано: {0}",
@@ -265,4 +262,7 @@ internal val ruReading: Map<String, String> = mapOf(
     "Read sentences aloud" to "Читать предложения вслух",
     "Stop reading sentences aloud" to "Не читать предложения вслух",
     "Recognising…" to "Распознавание…",
+    "Say the marked phrase, with the missing word" to "Произнесите выделенную фразу с пропущенным словом",
+    "A new sentence: say the marked phrase, with the missing word" to "Новое предложение: произнесите выделенную фразу с пропущенным словом",
+    "Listen and say the phrase" to "Послушайте и произнесите фразу",
 )

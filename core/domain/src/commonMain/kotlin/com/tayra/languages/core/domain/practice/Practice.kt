@@ -55,7 +55,8 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
      * The sentence is read aloud, its text hidden, and the word's meaning given: choose the word
      * among the sentence's other words, or type it. Needs the word's translation.
      */
-    HEAR_SENTENCE(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE, PracticeResponse.SPEAK)),
+    // Not said: its answer is one word, which recognisers make out badly alone.
+    HEAR_SENTENCE(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE)),
 
     /** The sentence is read aloud: type the missing word, or all of a short sentence. */
     DICTATION(PracticeSkill.LISTENING, setOf(PracticeResponse.TYPE)),
@@ -180,7 +181,7 @@ data class Exercise(
     val sentenceTranslation: String? = null,
     /** The choices, the right one among them; empty when the answer is typed. */
     val options: List<String> = emptyList(),
-    /** The letters the answer is built from, shuffled, with a couple that do not belong; empty unless built from tiles. */
+    /** The sentence's words, shuffled, to build it from; empty but for building the sentence. */
     val tiles: List<String> = emptyList(),
     /** The right choice, or what is to be typed. */
     val answer: String,
@@ -198,8 +199,13 @@ data class Exercise(
     val credit: String? = null,
     /** The saved term practised, whose progress the answer moves; null for a word not saved. */
     val termId: Long? = null,
+    /** The part of [sentence] to say aloud, the word among it, for an answer said rather than typed. */
+    val say: IntRange? = null,
 ) {
     val isChoice: Boolean get() = options.isNotEmpty()
+
+    /** What is to be said aloud, the word filled in; null for an answer not said. */
+    val saying: String? get() = say?.let { sentence.substring(it) }
     val isListening: Boolean get() = spoken != null
 
     /** The sentence uses another form of the word practised. */
@@ -224,6 +230,13 @@ object PracticeBuilder {
     private const val PAIRS = 5
     private const val MIN_PAIRS = 4
 
+    /** A phrase said aloud is at most this many words, and at least [MIN_SAID_WORDS] where the sentence has them. */
+    private const val SAID_WORDS = 8
+    private const val MIN_SAID_WORDS = 3
+
+    /** Marks after which a phrase ends. */
+    private const val PHRASE_ENDS = ",;:.!?…)\"»”"
+
     /** Sentences of at most this many words are typed whole in a dictation. */
     private const val SHORT_SENTENCE_WORDS = 8
 
@@ -233,6 +246,30 @@ object PracticeBuilder {
     /** Sentences built from their words have this many words at least, and [MAX_BUILT] at most. */
     private const val MIN_BUILT = 3
     private const val MAX_BUILT = 8
+
+    /**
+     * The phrase around [range] in [sentence] that is said aloud: the stretch between punctuation
+     * that holds the word, or the whole sentence where that is shorter than [MIN_SAID_WORDS]; of a
+     * longer one, the [SAID_WORDS] words around the word.
+     */
+    fun phrase(sentence: String, range: IntRange): IntRange {
+        val words = Regex("""\S+""").findAll(sentence).map { it.range }.toList()
+        val at = words.indexOfFirst { range.first in it }.takeIf { it >= 0 } ?: return sentence.indices
+        val ends = { i: Int -> sentence[words[i].last] in PHRASE_ENDS }
+        var start = at
+        while (start > 0 && !ends(start - 1)) start--
+        var end = at
+        while (end < words.lastIndex && !ends(end)) end++
+        if (end - start + 1 < MIN_SAID_WORDS) {
+            start = 0
+            end = words.lastIndex
+        }
+        if (end - start + 1 > SAID_WORDS) {
+            start = (at - SAID_WORDS / 2).coerceIn(start, end - SAID_WORDS + 1)
+            end = start + SAID_WORDS - 1
+        }
+        return words[start].first..words[end].last
+    }
 
     /** How many questions [words] words get with [kinds] kinds of question, before any sentence from elsewhere: about two a word, at most [length]. */
     fun questionCount(words: Int, kinds: Int, length: Int? = MAX_QUESTIONS): Int =
@@ -372,7 +409,11 @@ object PracticeBuilder {
         val base = Exercise(type, response, PracticeContext.ORIGINAL, word.text, word.translation, word.sentence, word.range, answer = word.text, termId = word.termId)
         return when (type) {
             ExerciseType.MATCHING -> null
-            ExerciseType.SHADOW -> base.copy(spoken = word.sentence, answer = word.sentence, wholeSentence = true)
+            ExerciseType.SHADOW -> {
+                val say = phrase(word.sentence, word.range)
+                val text = word.sentence.substring(say)
+                base.copy(spoken = text, answer = text, wholeSentence = true, say = say)
+            }
             ExerciseType.SOUND_ALIKE -> {
                 val own = word.key
                 val near = (pool.families[own]?.forms.orEmpty() + pool.alikes[own].orEmpty().map { it.lowercase() })
@@ -463,8 +504,9 @@ object PracticeBuilder {
     /** [question] answered as [response]: with the word among others to choose from, or nothing to type or say it. */
     private fun answered(question: Exercise, response: PracticeResponse, word: PracticeWord, targets: List<PracticeWord>, pool: WrongChoices, random: Random): Exercise = when (response) {
         PracticeResponse.CHOOSE -> question.copy(options = wordChoices(word, targets, pool, random))
-        // Said, the learner says the whole sentence; it counts when the word is heard in it.
-        PracticeResponse.TYPE, PracticeResponse.SPEAK -> question
+        PracticeResponse.TYPE -> question
+        // Said, it is the phrase around the word that is said, never the word alone, which recognisers mishear.
+        PracticeResponse.SPEAK -> question.copy(say = phrase(question.sentence, question.range))
     }
 
     /**
@@ -594,15 +636,15 @@ object PracticeChecker {
     }
 
     /**
-     * What was [heard] said aloud, against the [word] the sentence was to hold, or the sentence
-     * [expected] repeated whole when there is no word: right when the word is among the words
-     * heard, or when every word of the sentence was; almost when [SHADOW_SHARE] of them were. The
-     * recogniser writes what it hears, so accents are not held against the learner.
+     * What was [heard] said aloud, against the phrase [expected] and the [word] it was to hold, if
+     * any: right when every word of the phrase was heard; almost when [SHADOW_SHARE] of them were,
+     * the word among them. Saying the word alone does not do. The recogniser writes what it hears,
+     * so accents are not held against the learner.
      */
     fun checkSpoken(heard: String, word: String?, expected: String): TypedResult {
         val said = unaccented(normalize(heard))
         if (said.isEmpty()) return TypedResult.WRONG
-        if (word != null) return if (" ${unaccented(normalize(word))} " in " $said ") TypedResult.CORRECT else TypedResult.WRONG
+        if (word != null && " ${unaccented(normalize(word))} " !in " $said ") return TypedResult.WRONG
         val words = compareWords(expected, heard)
         val share = words.count { it.result == WordResult.RIGHT || it.result == WordResult.ACCENT }.toDouble() / words.size.coerceAtLeast(1)
         return when {
@@ -612,7 +654,7 @@ object PracticeChecker {
         }
     }
 
-    /** The share of a repeated sentence's words that must be heard for it to count. */
+    /** The share of a phrase's words said aloud that must be heard for it to count. */
     const val SHADOW_SHARE = 0.8
 
     private fun normalize(text: String): String =

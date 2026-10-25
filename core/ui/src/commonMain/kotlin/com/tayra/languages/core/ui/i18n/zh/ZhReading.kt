@@ -252,9 +252,6 @@ internal val zhReading: Map<String, String> = mapOf(
     "Tap the words in order" to "按顺序点按单词",
     "Remove the last word" to "删除最后一个单词",
     "Sentence from {0}" to "句子来源：{0}",
-    "Say the sentence with the missing word" to "说出补上缺失单词的句子",
-    "A new sentence: say it with the missing word" to "新句子：补上缺失的单词说出来",
-    "Listen and say the sentence" to "听后说出这句话",
     "Almost: most of the words were heard" to "差不多：大部分单词都听到了",
     "Listening…" to "正在听…",
     "Heard: {0}" to "听到：{0}",
@@ -265,4 +262,7 @@ internal val zhReading: Map<String, String> = mapOf(
     "Read sentences aloud" to "朗读句子",
     "Stop reading sentences aloud" to "停止朗读句子",
     "Recognising…" to "正在识别…",
+    "Say the marked phrase, with the missing word" to "说出标记的短语，补上缺失的单词",
+    "A new sentence: say the marked phrase, with the missing word" to "新句子：说出标记的短语，补上缺失的单词",
+    "Listen and say the phrase" to "听后说出这个短语",
 )

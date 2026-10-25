@@ -252,9 +252,6 @@ internal val deReading: Map<String, String> = mapOf(
     "Tap the words in order" to "Tippe die Wörter der Reihe nach an",
     "Remove the last word" to "Letztes Wort entfernen",
     "Sentence from {0}" to "Satz aus: {0}",
-    "Say the sentence with the missing word" to "Sprich den Satz mit dem fehlenden Wort",
-    "A new sentence: say it with the missing word" to "Ein neuer Satz: Sprich ihn mit dem fehlenden Wort",
-    "Listen and say the sentence" to "Hör zu und sprich den Satz",
     "Almost: most of the words were heard" to "Fast: Die meisten Wörter wurden erkannt",
     "Listening…" to "Höre zu…",
     "Heard: {0}" to "Erkannt: {0}",
@@ -265,4 +262,7 @@ internal val deReading: Map<String, String> = mapOf(
     "Read sentences aloud" to "Sätze vorlesen",
     "Stop reading sentences aloud" to "Sätze nicht mehr vorlesen",
     "Recognising…" to "Wird erkannt…",
+    "Say the marked phrase, with the missing word" to "Sprich die markierte Wendung mit dem fehlenden Wort",
+    "A new sentence: say the marked phrase, with the missing word" to "Ein neuer Satz: Sprich die markierte Wendung mit dem fehlenden Wort",
+    "Listen and say the phrase" to "Hör zu und sprich die Wendung",
 )
