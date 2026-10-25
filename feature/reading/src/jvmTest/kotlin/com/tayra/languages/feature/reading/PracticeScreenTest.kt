@@ -384,7 +384,8 @@ class PracticeScreenTest {
 
     @Test
     fun everyQuestionCanBeAnsweredAndNothingChangesTheWords() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val viewModel = show()
+        // Mixed rather than by level, so new words meet typed questions too.
+        val viewModel = show(setup = PracticeSetup(adaptive = false))
         val exercises = viewModel.state.value.exercises
         assertEquals(
             setOf("GAP-CHOOSE-ORIGINAL", "GAP-CHOOSE-EXAMPLE", "GAP-TYPE-ORIGINAL", "HEAR_WORD-CHOOSE-ORIGINAL", "DICTATION-TYPE-ORIGINAL"),

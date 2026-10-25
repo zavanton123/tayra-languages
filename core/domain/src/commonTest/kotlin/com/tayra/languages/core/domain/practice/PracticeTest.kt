@@ -12,6 +12,9 @@ class PracticeTest {
     private val gapTyped = ExerciseType.GAP to PracticeResponse.TYPE
     private val hearChoice = ExerciseType.HEAR_WORD to PracticeResponse.CHOOSE
     private val dictation = ExerciseType.DICTATION to PracticeResponse.TYPE
+
+    /** The default setup with the ways of answering mixed rather than chosen by level, where the mixing is what is tested. */
+    private val mixed = PracticeSetup(adaptive = false)
     private fun word(text: String, translation: String?, sentence: String) = PracticeWord(text, translation, sentence, Cloze.range(sentence, text)!!)
 
     private val long = "Quando precisamos comprar alguma coisa, passamos no supermercado perto de casa."
@@ -26,7 +29,7 @@ class PracticeTest {
 
     @Test
     fun everyKindComesUpAndEveryWordIsAsked() {
-        val exercises = PracticeBuilder.build(words, pageWords, random = Random(1))
+        val exercises = PracticeBuilder.build(words, pageWords, random = Random(1), setup = mixed)
         assertEquals(10, exercises.size)
         assertEquals(words.map { it.text }.toSet(), exercises.map { it.word }.toSet())
         assertEquals(setOf(gapChoice, gapTyped, hearChoice, dictation), exercises.map { it.kind }.toSet())
@@ -88,7 +91,7 @@ class PracticeTest {
     /** Hearing a sentence, the word with the meaning given is chosen among the sentence's other words, or typed; it needs the meaning. */
     @Test
     fun aHeardSentenceAsksForTheWordWithTheMeaningAmongItsOwnWords() {
-        val setup = PracticeSetup(types = setOf(ExerciseType.HEAR_SENTENCE), length = null)
+        val setup = PracticeSetup(types = setOf(ExerciseType.HEAR_SENTENCE), length = null, adaptive = false)
         val asked = PracticeBuilder.build(words + word("casa", null, "Eu fico em casa."), pageWords, random = Random(1), setup = setup)
         assertEquals(words.map { it.text }.toSet(), asked.map { it.word }.toSet(), "not the word without a meaning")
         asked.forEach { e ->
@@ -188,9 +191,9 @@ class PracticeTest {
     @Test
     fun aSetupIsWrittenAndReadAsText() {
         val setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.DICTATION), responses = setOf(PracticeResponse.TYPE), contexts = setOf(PracticeContext.ORIGINAL), length = null)
-        assertEquals("types=GAP,DICTATION;responses=TYPE;contexts=ORIGINAL;length=all;adaptive=0", setup.encode())
+        assertEquals("types=GAP,DICTATION;responses=TYPE;contexts=ORIGINAL;length=all", setup.encode())
+        assertEquals(true, PracticeSetup.decode(setup.encode() + ";adaptive=0").adaptive, "practice always adapts now")
         assertEquals(setup, PracticeSetup.decode(setup.encode() + ";words=WEAKEST"), "a setup kept with a choice of words, which was dropped, asks about all of them")
-        assertEquals(true, PracticeSetup.decode(setup.copy(adaptive = true).encode()).adaptive)
         assertEquals(setup, PracticeSetup.decode(setup.encode()))
         assertEquals(PracticeSetup(), PracticeSetup.decode(""), "nothing said: the defaults")
         assertEquals(setOf(ExerciseType.GAP), PracticeSetup.decode("types=GAP,SOMETHING_NEW").types, "names not known are left out")
@@ -275,7 +278,7 @@ class PracticeTest {
 
     @Test
     fun oneWordStillMakesAShortPractice() {
-        val exercises = PracticeBuilder.build(words.take(1), pageWords, random = Random(6))
+        val exercises = PracticeBuilder.build(words.take(1), pageWords, random = Random(6), setup = mixed)
         assertEquals(4, exercises.size)
         assertEquals(4, exercises.map { it.kind }.toSet().size)
         assertEquals(emptyList(), PracticeBuilder.build(emptyList(), pageWords))

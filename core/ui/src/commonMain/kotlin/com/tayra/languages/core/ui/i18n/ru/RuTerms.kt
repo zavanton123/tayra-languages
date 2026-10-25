@@ -449,7 +449,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Needs a sentence of 3 to 8 words" to "Нужно предложение из 3–8 слов",
     "Sound-alike" to "Похожие слова",
     "Hear a word and pick it among words spelled nearly like it" to "Прослушайте слово и выберите его среди слов с почти таким же написанием",
-    "Adapt to my level" to "Подстраиваться под мой уровень",
     "Needs four words with meanings" to "Нужно четыре слова со значениями",
     "Not practised yet." to "Ещё не тренировалось.",
     "Recognising" to "Узнавание",
@@ -462,5 +461,4 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Hear a sentence and say it back" to "Прослушайте предложение и повторите его",
     "Speak" to "Говорить",
     "Speaking" to "Говорение",
-    "New words are chosen first, then typed" to "Новые слова сначала выбираются, потом вводятся",
 )

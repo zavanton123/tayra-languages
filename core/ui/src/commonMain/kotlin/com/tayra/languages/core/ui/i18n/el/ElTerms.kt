@@ -449,7 +449,6 @@ internal val elTerms: Map<String, String> = mapOf(
     "Needs a sentence of 3 to 8 words" to "Χρειάζεται πρόταση 3 έως 8 λέξεων",
     "Sound-alike" to "Παρόμοιος ήχος",
     "Hear a word and pick it among words spelled nearly like it" to "Ακούστε μια λέξη και επιλέξτε την ανάμεσα σε λέξεις που γράφονται σχεδόν ίδια",
-    "Adapt to my level" to "Προσαρμογή στο επίπεδό μου",
     "Needs four words with meanings" to "Χρειάζεται τέσσερις λέξεις με σημασίες",
     "Not practised yet." to "Δεν έχει εξασκηθεί ακόμη.",
     "Recognising" to "Αναγνώριση",
@@ -462,5 +461,4 @@ internal val elTerms: Map<String, String> = mapOf(
     "Hear a sentence and say it back" to "Άκου μια πρόταση και επανάλαβέ τη",
     "Speak" to "Μίλα",
     "Speaking" to "Ομιλία",
-    "New words are chosen first, then typed" to "Οι νέες λέξεις πρώτα επιλέγονται, μετά πληκτρολογούνται",
 )

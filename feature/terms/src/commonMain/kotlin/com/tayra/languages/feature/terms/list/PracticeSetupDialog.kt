@@ -92,7 +92,6 @@ import com.tayra.languages.core.domain.practice.PracticeExampleRepository
 import com.tayra.languages.core.domain.practice.PracticeExample
 import com.tayra.languages.core.domain.practice.WordForms
 import com.tayra.languages.core.domain.practice.WordFamily
-import com.tayra.languages.core.ui.components.AppSwitch
 import com.tayra.languages.core.domain.practice.SpeechRecognition
 import com.tayra.languages.core.domain.language.LanguageCodes
 import androidx.compose.runtime.LaunchedEffect
@@ -266,10 +265,10 @@ internal fun PracticeSetupContent(
     val presets: @Composable ColumnScope.() -> Unit = {
         Section(tr("Preset")) {
             FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                // A preset sets what is asked; the length and the adapting stay as chosen.
+                // A preset sets what is asked; the length stays as chosen.
                 val current = PracticePreset.of(setup)
                 PracticePreset.entries.filter { state.speaking || it != PracticePreset.SPEAKING }.forEach { preset ->
-                    SelectableChip(preset.label(), current == preset, onClick = { setup = preset.setup.copy(length = setup.length, adaptive = setup.adaptive) }, modifier = Modifier.testTag("practice-preset-${preset.name}"))
+                    SelectableChip(preset.label(), current == preset, onClick = { setup = preset.setup.copy(length = setup.length) }, modifier = Modifier.testTag("practice-preset-${preset.name}"))
                 }
                 // The learner's own keep their length too: they are the whole setup saved.
                 val own = ownPresets.firstOrNull { it.setup == setup }
@@ -295,17 +294,6 @@ internal fun PracticeSetupContent(
                     val on = response in setup.responses
                     SelectableChip(response.label(), on, onClick = { setup = setup.copy(responses = if (on) setup.responses - response else setup.responses + response) }, leading = ChipLeading.Check, modifier = Modifier.testTag("practice-response-${response.name}"))
                 }
-            }
-            Row(
-                Modifier.fillMaxWidth().clip(AppShapes.control).clickable { setup = setup.copy(adaptive = !setup.adaptive) }.padding(vertical = AppSpacing.xs).testTag("practice-adaptive"),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
-            ) {
-                Column(Modifier.weight(1f)) {
-                    Text(tr("Adapt to my level"), style = AppText.itemTitle)
-                    Text(tr("New words are chosen first, then typed"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-                }
-                AppSwitch(checked = setup.adaptive, onCheckedChange = { setup = setup.copy(adaptive = it) })
             }
         }
     }

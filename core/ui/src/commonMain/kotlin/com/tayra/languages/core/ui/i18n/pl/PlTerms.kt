@@ -449,7 +449,6 @@ internal val plTerms: Map<String, String> = mapOf(
     "Needs a sentence of 3 to 8 words" to "Wymaga zdania z 3–8 słów",
     "Sound-alike" to "Podobne brzmienie",
     "Hear a word and pick it among words spelled nearly like it" to "Posłuchaj słowa i wybierz je spośród słów pisanych prawie tak samo",
-    "Adapt to my level" to "Dostosuj do mojego poziomu",
     "Needs four words with meanings" to "Wymaga czterech słów ze znaczeniami",
     "Not practised yet." to "Jeszcze nie ćwiczone.",
     "Recognising" to "Rozpoznawanie",
@@ -462,5 +461,4 @@ internal val plTerms: Map<String, String> = mapOf(
     "Hear a sentence and say it back" to "Posłuchaj zdania i powtórz je",
     "Speak" to "Mów",
     "Speaking" to "Mówienie",
-    "New words are chosen first, then typed" to "Nowe słowa najpierw się wybiera, potem wpisuje",
 )

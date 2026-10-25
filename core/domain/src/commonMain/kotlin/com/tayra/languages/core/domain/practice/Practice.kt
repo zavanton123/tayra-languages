@@ -86,8 +86,12 @@ data class PracticeSetup(
     val responses: Set<PracticeResponse> = setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE),
     val contexts: Set<PracticeContext> = PracticeContext.entries.toSet(),
     val length: Int? = DEFAULT_LENGTH,
-    /** Each word is answered the ways its practice level calls for, among the [responses]; otherwise they are mixed. */
-    val adaptive: Boolean = false,
+    /**
+     * Each word is answered the ways its practice level calls for, among the [responses]; otherwise
+     * they are mixed. Practice always adapts: the learner no longer chooses, and a setup kept with
+     * it off reads back on. Off only where the mixing itself is tested.
+     */
+    val adaptive: Boolean = true,
 ) {
     /**
      * This setup where nothing can be said aloud: answers said are typed instead, and sentences
@@ -110,7 +114,6 @@ data class PracticeSetup(
         "responses=" + PracticeResponse.entries.filter { it in responses }.joinToString(",") { it.name },
         "contexts=" + PracticeContext.entries.filter { it in contexts }.joinToString(",") { it.name },
         "length=" + (length?.toString() ?: ALL),
-        "adaptive=" + (if (adaptive) "1" else "0"),
     ).joinToString(";")
 
     companion object {
@@ -133,7 +136,6 @@ data class PracticeSetup(
                     ALL -> null
                     else -> length.toIntOrNull()?.takeIf { it > 0 } ?: defaults.length
                 },
-                adaptive = parts["adaptive"]?.let { it == "1" } ?: defaults.adaptive,
             )
         }
 

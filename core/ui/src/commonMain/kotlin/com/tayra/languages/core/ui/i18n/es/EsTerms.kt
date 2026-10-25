@@ -449,7 +449,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "Needs a sentence of 3 to 8 words" to "Necesita una oración de 3 a 8 palabras",
     "Sound-alike" to "Parecidas",
     "Hear a word and pick it among words spelled nearly like it" to "Escucha una palabra y elígela entre palabras que se escriben casi igual",
-    "Adapt to my level" to "Adaptar a mi nivel",
     "Needs four words with meanings" to "Necesita cuatro palabras con significado",
     "Not practised yet." to "Aún sin practicar.",
     "Recognising" to "Reconocer",
@@ -462,5 +461,4 @@ internal val esTerms: Map<String, String> = mapOf(
     "Hear a sentence and say it back" to "Escucha una frase y repítela",
     "Speak" to "Hablar",
     "Speaking" to "Expresión oral",
-    "New words are chosen first, then typed" to "Las palabras nuevas primero se eligen y luego se escriben",
 )

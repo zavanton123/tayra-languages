@@ -449,7 +449,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Needs a sentence of 3 to 8 words" to "需要 3 到 8 个词的句子",
     "Sound-alike" to "近音词",
     "Hear a word and pick it among words spelled nearly like it" to "听一个单词，从拼写相近的词中选出它",
-    "Adapt to my level" to "按我的水平调整",
     "Needs four words with meanings" to "需要四个带意思的单词",
     "Not practised yet." to "尚未练习。",
     "Recognising" to "认得",
@@ -462,5 +461,4 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Hear a sentence and say it back" to "听一句话并跟着说出来",
     "Speak" to "说",
     "Speaking" to "口语",
-    "New words are chosen first, then typed" to "新单词先选择，再输入",
 )

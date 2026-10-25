@@ -74,16 +74,16 @@ object PracticePlanner {
 /** Ready-made setups the setup dialog offers; changing anything after picking one makes a custom setup. */
 enum class PracticePreset(val setup: PracticeSetup) {
     /** Recognising the words: choices only. */
-    QUICK_REVIEW(PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.MEANING, ExerciseType.HEAR_WORD), responses = setOf(PracticeResponse.CHOOSE), adaptive = true)),
+    QUICK_REVIEW(PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.MEANING, ExerciseType.HEAR_WORD), responses = setOf(PracticeResponse.CHOOSE))),
 
     /** Reading, listening and translation, chosen and typed. */
-    BALANCED(PracticeSetup(types = ExerciseType.entries.toSet() - ExerciseType.SHADOW, responses = PracticeResponse.entries.toSet() - PracticeResponse.SPEAK, adaptive = true)),
+    BALANCED(PracticeSetup(types = ExerciseType.entries.toSet() - ExerciseType.SHADOW, responses = PracticeResponse.entries.toSet() - PracticeResponse.SPEAK)),
 
     /** Every listening question. */
-    LISTENING(PracticeSetup(types = ExerciseType.entries.filter { it.skill == PracticeSkill.LISTENING && it != ExerciseType.SHADOW }.toSet(), adaptive = true)),
+    LISTENING(PracticeSetup(types = ExerciseType.entries.filter { it.skill == PracticeSkill.LISTENING && it != ExerciseType.SHADOW }.toSet())),
 
     /** Recall: every question that can be typed, typed. */
-    WRITING(PracticeSetup(types = ExerciseType.entries.filter { PracticeResponse.TYPE in it.responses }.toSet(), responses = setOf(PracticeResponse.TYPE), adaptive = true)),
+    WRITING(PracticeSetup(types = ExerciseType.entries.filter { PracticeResponse.TYPE in it.responses }.toSet(), responses = setOf(PracticeResponse.TYPE))),
 
     /** Saying the words: in their sentences, and sentences repeated after the voice. Offered only where speech can be recognised. */
     SPEAKING(PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.SHADOW), responses = setOf(PracticeResponse.SPEAK))),

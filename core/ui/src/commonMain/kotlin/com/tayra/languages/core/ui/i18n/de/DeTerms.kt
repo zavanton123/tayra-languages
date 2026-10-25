@@ -449,7 +449,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "Needs a sentence of 3 to 8 words" to "Braucht einen Satz mit 3 bis 8 Wörtern",
     "Sound-alike" to "Ähnlich klingend",
     "Hear a word and pick it among words spelled nearly like it" to "Ein Wort hören und es unter fast gleich geschriebenen Wörtern finden",
-    "Adapt to my level" to "An mein Niveau anpassen",
     "Needs four words with meanings" to "Braucht vier Wörter mit Bedeutungen",
     "Not practised yet." to "Noch nicht geübt.",
     "Recognising" to "Wiedererkennen",
@@ -462,5 +461,4 @@ internal val deTerms: Map<String, String> = mapOf(
     "Hear a sentence and say it back" to "Hör einen Satz und sprich ihn nach",
     "Speak" to "Sprechen",
     "Speaking" to "Sprechen",
-    "New words are chosen first, then typed" to "Neue Wörter werden zuerst ausgewählt, dann getippt",
 )

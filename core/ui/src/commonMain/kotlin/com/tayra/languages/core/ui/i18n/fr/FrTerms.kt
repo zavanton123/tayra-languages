@@ -449,7 +449,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "Needs a sentence of 3 to 8 words" to "Il faut une phrase de 3 à 8 mots",
     "Sound-alike" to "Sons proches",
     "Hear a word and pick it among words spelled nearly like it" to "Écoutez un mot et choisissez-le parmi des mots qui s’écrivent presque pareil",
-    "Adapt to my level" to "S’adapter à mon niveau",
     "Needs four words with meanings" to "Il faut quatre mots avec un sens",
     "Not practised yet." to "Pas encore travaillé.",
     "Recognising" to "Reconnaître",
@@ -462,5 +461,4 @@ internal val frTerms: Map<String, String> = mapOf(
     "Hear a sentence and say it back" to "Écoutez une phrase et répétez-la",
     "Speak" to "Parler",
     "Speaking" to "Expression orale",
-    "New words are chosen first, then typed" to "Les mots nouveaux sont d'abord choisis, puis tapés",
 )
