@@ -261,6 +261,8 @@ internal fun PracticeSetupContent(
     // Nothing here hears the language: what was to be said is typed.
     LaunchedEffect(state.loading, state.speaking) { if (!state.loading && !state.speaking) setup = setup.withoutSpeaking() }
     val preview = remember(state, setup) { PracticePlanner.preview(state.words, setup, state.meanings, state.translations, state.examples, state.families) }
+    // Every question there is; a length that many or more asks the same as All, so it is not offered.
+    val total = remember(state, setup) { if (state.loading) null else PracticePlanner.preview(state.words, setup.copy(length = null), state.meanings, state.translations, state.examples, state.families).questions }
     val minutes = ((preview.questions * SECONDS_A_QUESTION + 59) / 60).coerceAtLeast(1)
     // Sentences from elsewhere are fetched when the practice starts, so they may make questions the count does not show.
     val examplesMayAsk = PracticeContext.EXAMPLE in setup.contexts && ExerciseType.GAP in setup.types
@@ -325,8 +327,11 @@ internal fun PracticeSetupContent(
     val length: @Composable ColumnScope.() -> Unit = {
         Section(tr("Length")) {
             FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                LENGTHS.forEach { count ->
-                    SelectableChip(count?.toString() ?: tr("All"), setup.length == count, onClick = { setup = setup.copy(length = count) }, modifier = Modifier.testTag("practice-length-${count ?: "all"}"))
+                val lengths = LENGTHS.filter { count -> count == null || total == null || count < total }
+                // A length kept from a practice with more questions than these asks them all.
+                val chosen = setup.length.takeIf { it in lengths }
+                lengths.forEach { count ->
+                    SelectableChip(count?.toString() ?: tr("All"), chosen == count, onClick = { setup = setup.copy(length = count) }, modifier = Modifier.testTag("practice-length-${count ?: "all"}"))
                 }
             }
         }

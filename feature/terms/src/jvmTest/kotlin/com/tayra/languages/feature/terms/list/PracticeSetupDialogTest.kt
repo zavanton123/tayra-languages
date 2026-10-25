@@ -95,7 +95,7 @@ class PracticeSetupDialogTest {
         onNodeWithTag("practice-skill-LISTENING").performScrollTo().performClick()
         onNodeWithTag("practice-type-MEANING").performScrollTo().performClick()
         onNodeWithTag("practice-response-TYPE").performClick()
-        onNodeWithTag("practice-length-20").performClick()
+        onNodeWithTag("practice-length-all").performClick()
         // Changed from the preset: the setup is a custom one now.
         assertEquals(1, onAllNodesWithText("Custom").fetchSemanticsNodes().size)
         onNodeWithTag("start-practice").performClick()
@@ -104,7 +104,7 @@ class PracticeSetupDialogTest {
                 types = ExerciseType.entries.filter { it.skill != PracticeSkill.LISTENING && it != ExerciseType.MEANING }.toSet(),
                 responses = setOf(PracticeResponse.CHOOSE),
                 contexts = PracticeContext.entries.toSet(),
-                length = 20,
+                length = null,
                 adaptive = true,
             ),
             started,
@@ -112,7 +112,7 @@ class PracticeSetupDialogTest {
         onNodeWithTag("practice-skill-LISTENING").performScrollTo().performClick()
         onNodeWithTag("practice-preset-QUICK_REVIEW").performScrollTo().performClick()
         onNodeWithTag("start-practice").performClick()
-        assertEquals(PracticePreset.QUICK_REVIEW.setup.copy(length = 20), started, "a preset keeps the length chosen")
+        assertEquals(PracticePreset.QUICK_REVIEW.setup.copy(length = null), started, "a preset keeps the length chosen")
     }
 
     /** With nothing that fits ticked, the dialog says so and does not start. */
@@ -170,5 +170,17 @@ class PracticeSetupDialogTest {
         onNodeWithTag("practice-preset-SPEAKING").performScrollTo().performClick()
         onNodeWithTag("start-practice").performClick()
         assertEquals(PracticePreset.SPEAKING.setup.copy(length = PracticePreset.DEFAULT.setup.length, adaptive = true), started)
+    }
+
+    /** Only lengths shorter than all the questions there are are offered; a longer one kept from before shows as All. */
+    @Test
+    fun lengthsLongerThanThePracticeAreLeftOut() = runDesktopComposeUiTest(width = 1300, height = 1000) {
+        show(PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.CHOOSE), contexts = setOf(PracticeContext.ORIGINAL), length = 20))
+        // Three words, one question each.
+        assertEquals("3 questions · about 1 min", text("practice-summary"))
+        listOf("practice-length-5", "practice-length-10", "practice-length-20").forEach { onAllNodesWithTag(it).assertCountEquals(0) }
+        onNodeWithTag("practice-length-all").assertExists()
+        onNodeWithTag("start-practice").performClick()
+        assertEquals(20, started?.length, "the length chosen is kept for a practice with more")
     }
 }
