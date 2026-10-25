@@ -368,6 +368,24 @@ class PracticeViewModel(
         )
     }
 
+    /**
+     * The term's translation was put right while practising: the questions on it show the new one,
+     * and one still to come that asks for its meaning takes it as its answer.
+     */
+    fun translationFixed(termId: Long, translation: String) {
+        val meaning = translation.trim().takeIf { it.isNotEmpty() } ?: return
+        _state.update { s ->
+            s.copy(
+                exercises = s.exercises.mapIndexed { i, e ->
+                    if (e.termId != termId) return@mapIndexed e
+                    val old = e.wordTranslation
+                    val fixed = e.copy(wordTranslation = meaning)
+                    if (i > s.index && old != null && e.answer == old) fixed.copy(answer = meaning, options = e.options.map { if (it == old) meaning else it }) else fixed
+                },
+            )
+        }
+    }
+
     /** Moves on from an answered question. */
     fun next() {
         val s = _state.value

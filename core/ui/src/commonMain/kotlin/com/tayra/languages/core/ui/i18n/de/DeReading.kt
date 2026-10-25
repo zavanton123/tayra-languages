@@ -265,4 +265,5 @@ internal val deReading: Map<String, String> = mapOf(
     "Say the marked phrase, with the missing word" to "Sprich die markierte Wendung mit dem fehlenden Wort",
     "A new sentence: say the marked phrase, with the missing word" to "Ein neuer Satz: Sprich die markierte Wendung mit dem fehlenden Wort",
     "Listen and say the phrase" to "Hör zu und sprich die Wendung",
+    "Fix translation" to "Übersetzung korrigieren",
 )

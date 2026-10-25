@@ -99,6 +99,9 @@ class PracticeScreenTest {
 
     private val progress = PracticeProgressRepositoryImpl(provider)
 
+    /** The questions whose word's translation was asked to be put right. */
+    private val fixing = mutableListOf<Exercise>()
+
     /** The read-aloud switch, as the screen keeps it in the settings. */
     private var readAloud by androidx.compose.runtime.mutableStateOf(false)
 
@@ -150,6 +153,7 @@ class PracticeScreenTest {
                                     onNext = viewModel::next, onRestart = viewModel::start, onRestartMissed = viewModel::startMissed, onSpeak = { spoken += it },
                                     onListen = viewModel::listen, onStopListening = viewModel::stopListening, onTypeInstead = viewModel::typeInstead,
                                     onReadAloud = { readAloud = it },
+                                    onFixTranslation = { fixing += it },
                                 ),
                                 readAloud = readAloud,
                             )
@@ -602,5 +606,26 @@ class PracticeScreenTest {
         waitUntil(timeoutMillis = 5_000) { exercise.sentence in spoken }
         onNodeWithTag("practice-read-aloud").performClick()
         assertTrue(!readAloud)
+    }
+
+    /** After a meaning question the word's translation can be put right, and the practice takes the new one from then on. */
+    @Test
+    fun aMeaningsTranslationIsPutRightFromTheQuestion() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.MEANING, ExerciseType.HEAR_WORD), responses = setOf(PracticeResponse.CHOOSE), length = null, adaptive = false))
+        val index = viewModel.state.value.exercises.indexOfFirst { it.type == ExerciseType.MEANING }
+        repeat(index) { viewModel.skip(); viewModel.next() }
+        waitForIdle()
+        val exercise = viewModel.state.value.current!!
+        onAllNodesWithTag("practice-fix-translation").fetchSemanticsNodes().let { assertTrue(it.isEmpty(), "not before the answer, which it would give away") }
+        viewModel.choose(exercise.answer)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("practice-fix-translation").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("practice-fix-translation").performClick()
+        assertEquals(exercise, fixing.single())
+
+        viewModel.translationFixed(exercise.termId!!, "sentido novo")
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("${exercise.word} — sentido novo").fetchSemanticsNodes().isNotEmpty() }
+        val later = viewModel.state.value.exercises.drop(viewModel.state.value.index + 1).filter { it.termId == exercise.termId }
+        assertTrue(later.isNotEmpty() && later.all { it.wordTranslation == "sentido novo" })
+        later.filter { it.options.isNotEmpty() && it.answer != it.word }.forEach { assertEquals("sentido novo", it.answer); assertTrue("sentido novo" in it.options) }
     }
 }

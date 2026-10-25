@@ -103,6 +103,12 @@ import com.tayra.languages.core.domain.practice.WordResult
 import com.tayra.languages.core.domain.practice.PracticeChecker
 import androidx.compose.ui.text.style.TextDecoration
 import com.tayra.languages.core.ui.audio.rememberMicrophoneAccess
+import androidx.compose.material.icons.filled.Edit
+import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.feature.terms.form.TermFormPanel
+import com.tayra.languages.feature.terms.form.TermFormEvent
+import com.tayra.languages.feature.terms.form.TermFormKey
+import com.tayra.languages.feature.terms.form.TermFormViewModel
 import androidx.compose.ui.text.AnnotatedString
 import com.tayra.languages.core.ui.components.FreshViewModels
 import androidx.compose.ui.semantics.contentDescription
@@ -126,6 +132,19 @@ fun PracticeScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
     val microphone = rememberMicrophoneAccess()
+    // The question whose word's translation is being put right, and how many times one has been: each opening edits afresh.
+    var fixing by remember { mutableStateOf<Exercise?>(null) }
+    var fixes by remember { mutableStateOf(0) }
+    fixing?.let { exercise ->
+        val termId = exercise.termId
+        if (termId != null) {
+            FixTranslationDialog(termId, exercise.sentence, key = fixes) { translation ->
+                translation?.let { viewModel.translationFixed(termId, it) }
+                fixing = null
+                fixes++
+            }
+        }
+    }
     val settings = koinInject<SettingsRepository>()
     val readAloud by remember(settings) { settings.settings.map { it.practiceReadAloud } }.collectAsStateWithLifecycle(settings.current.practiceReadAloud)
     val scope = rememberCoroutineScope()
@@ -157,6 +176,7 @@ fun PracticeScreen(
                 },
                 onStopListening = viewModel::stopListening,
                 onTypeInstead = viewModel::typeInstead,
+                onFixTranslation = { fixing = it },
                 onReadAloud = { on ->
                     if (!on) speaker.stop()
                     scope.launch { settings.update { it.copy(practiceReadAloud = on) } }
@@ -211,12 +231,15 @@ internal class PracticeActions(
     val onListen: () -> Unit = {},
     val onStopListening: () -> Unit = {},
     val onTypeInstead: () -> Unit = {},
+    /** Opens the word's editor to put its translation right; null hides the way to it. */
+    val onFixTranslation: ((Exercise) -> Unit)? = null,
     /** Turns reading each sentence aloud on or off; null hides the switch. */
     val onReadAloud: ((Boolean) -> Unit)? = null,
 )
 
 private const val BLANK = "[...]"
 private val PRACTICE_WIDTH = 900.dp
+private val FIX_WIDTH = 720.dp
 private val RESULT_BADGE_SIZE = 64.dp
 
 /** The page under the top bar: the question on show, or the result when all are answered. */
@@ -450,6 +473,10 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         }
 
         if (answered) Feedback(state, exercise)
+        // The meaning asked for is the word's saved translation, which can be wrong for its sentence.
+        if (answered && exercise.type == ExerciseType.MEANING && exercise.termId != null && actions.onFixTranslation != null) {
+            QuietButton(tr("Fix translation"), onClick = { actions.onFixTranslation.invoke(exercise) }, icon = Icons.Default.Edit, modifier = Modifier.testTag("practice-fix-translation"))
+        }
         // A sentence typed whole, or a phrase said, and not quite right: which words were.
         if (answered && (exercise.wholeSentence || exercise.saying != null) && state.result != PracticeResult.CORRECT && state.typed.isNotBlank()) {
             SentenceCheck(exercise.saying ?: exercise.answer, state.typed)
@@ -623,6 +650,23 @@ private fun ReadAloudCircle(on: Boolean, onClick: () -> Unit) {
         contentAlignment = Alignment.Center,
     ) {
         Icon(if (on) AppIcons.VolumeUp else AppIcons.VolumeOff, contentDescription = null, tint = tint, modifier = Modifier.fillMaxSize(0.58f))
+    }
+}
+
+/** The word's editor over the practice, to put its translation right; [onDone] gets the translation it was left with, null when the word went. */
+@Composable
+private fun FixTranslationDialog(termId: Long, sentence: String, key: Int, onDone: (String?) -> Unit) {
+    val form = koinViewModel<TermFormViewModel>(key = "practice-fix-$termId-$key") { parametersOf(TermFormKey.ById(termId, sentence)) }
+    CollectEvents(form.events) { event ->
+        when (event) {
+            is TermFormEvent.Saved -> if (!event.keepOpen) onDone(form.state.value.draft.translation)
+            TermFormEvent.Deleted -> onDone(null)
+            else -> {}
+        }
+    }
+    val close = { form.flush(); onDone(form.state.value.draft.translation) }
+    AppDialogSurface(onDismissRequest = close, modifier = Modifier.fillMaxHeight().testTag("practice-fix-dialog"), maxWidth = FIX_WIDTH) {
+        TermFormPanel(viewModel = form, modifier = Modifier.fillMaxSize(), embedded = true, onClose = close)
     }
 }
 
