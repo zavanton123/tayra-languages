@@ -312,4 +312,8 @@ internal val deSettings: Map<String, String> = mapOf(
     "{0} of downloads" to "{0} an Downloads",
     "Everything you have in {0} is deleted: {1}, with your progress and flashcards. This cannot be undone." to "Alles, was Sie auf {0} haben, wird gelöscht: {1}, mit Ihrem Fortschritt und Ihren Karteikarten. Das lässt sich nicht rückgängig machen.",
     "Remove {0}?" to "{0} entfernen?",
+    "Speech recognition, medium quality" to "Spracherkennung, mittlere Qualität",
+    "Speech recognition, high quality" to "Spracherkennung, hohe Qualität",
+    "Answer practice aloud: quick, and hears clear speech well" to "Übungen laut beantworten: schnell, versteht deutliche Sprache gut",
+    "Answer practice aloud: hears a learner's accent best, in a few seconds" to "Übungen laut beantworten: versteht den Akzent Lernender am besten, in wenigen Sekunden",
 )

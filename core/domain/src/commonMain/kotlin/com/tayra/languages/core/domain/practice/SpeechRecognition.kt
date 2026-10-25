@@ -40,8 +40,12 @@ sealed interface Heard {
 /** How well a downloaded recogniser hears, against how long it takes. */
 enum class RecognitionQuality { MEDIUM, HIGH }
 
-/** A recogniser's model of one [quality]: about how much [install] downloads, and whether it is there. */
-data class RecognitionModel(val quality: RecognitionQuality, val downloadSize: Long, val installed: Boolean)
+/**
+ * A recogniser's model of one [quality]: about how much [install] downloads, and whether it is there.
+ * [runtimeSize] is the part of [downloadSize] that what the models run on takes, fetched once for both;
+ * [name] is the model's own, as "small".
+ */
+data class RecognitionModel(val quality: RecognitionQuality, val downloadSize: Long, val installed: Boolean, val runtimeSize: Long = 0, val name: String = "")
 
 /**
  * A recogniser set up from the Speech settings before it can hear anything: a local model on a
@@ -53,6 +57,9 @@ interface SpeechRecognitionSetup {
     val progress: StateFlow<String?>
 
     suspend fun models(): List<RecognitionModel>
+
+    /** Whether speech in the language with the ISO 639-1 [languageCode] can be heard once a model is downloaded. */
+    fun supports(languageCode: String): Boolean
 
     /** Downloads the model of [quality], and what it runs on the first time. */
     suspend fun install(quality: RecognitionQuality)

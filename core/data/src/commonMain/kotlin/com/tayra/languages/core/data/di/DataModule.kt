@@ -250,7 +250,7 @@ val dataModule: Module = module {
     if (webPagesSupported) single<WebPageReader> { HttpWebPageReader(get()) }
     single<WikiReader> { WikiArticles(get()) }
     single { NewsService(get(), get(), get(), get(), get()) }
-    single { LanguageSetupService(get(), get(), get(), get(), get(), get()) }
+    single { LanguageSetupService(get(), get(), get(), get(), get(), get(), getOrNull()) }
     single { ClearDataService(get(), get(), get(), get(), get(), get(), get()) }
     single { LanguageRemovalService(get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get()) }
     single<FlashcardRepository> { FlashcardRepositoryImpl(get()) }

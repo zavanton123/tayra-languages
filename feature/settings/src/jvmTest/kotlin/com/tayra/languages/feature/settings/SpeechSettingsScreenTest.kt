@@ -108,6 +108,7 @@ class SpeechSettingsScreenTest {
         var installing = CompletableDeferred<Unit>()
         val installed = mutableSetOf<RecognitionQuality>()
         override suspend fun models() = RecognitionQuality.entries.map { RecognitionModel(it, if (it == RecognitionQuality.MEDIUM) 580_000_000L else 1_716_000_000L, it in installed) }
+        override fun supports(languageCode: String) = true
         override suspend fun install(quality: RecognitionQuality) {
             progress.value = "Downloading the recognition model (120 of 484 MB)…"
             installing.await()

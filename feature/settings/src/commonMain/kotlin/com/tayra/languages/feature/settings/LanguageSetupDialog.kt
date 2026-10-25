@@ -41,6 +41,7 @@ import com.tayra.languages.core.domain.service.LanguageSetupService
 import com.tayra.languages.core.domain.service.SetupFile
 import com.tayra.languages.core.domain.service.SetupFileKind
 import com.tayra.languages.core.domain.service.SetupItem
+import com.tayra.languages.core.domain.practice.RecognitionQuality
 import com.tayra.languages.core.domain.service.SetupKind
 import com.tayra.languages.core.domain.service.SetupState
 import com.tayra.languages.core.domain.service.SetupStatus
@@ -428,6 +429,7 @@ private fun SetupCard(item: SetupItem, checked: Boolean, started: Boolean, progr
                 SetupKind.DICTIONARY -> AppIcons.Book
                 SetupKind.VOICE -> AppIcons.VolumeUp
                 SetupKind.TRANSLATION -> AppIcons.Translate
+                SetupKind.RECOGNITION -> AppIcons.Mic
             },
             size = if (compact) 48 else 56,
         )
@@ -439,6 +441,7 @@ private fun SetupCard(item: SetupItem, checked: Boolean, started: Boolean, progr
                         SetupKind.DICTIONARY -> tr("Offline dictionary")
                         SetupKind.VOICE -> tr("{0} voice", tr(item.languageName))
                         SetupKind.TRANSLATION -> tr("Offline translation")
+                        SetupKind.RECOGNITION -> if (item.name == RecognitionQuality.HIGH.name) tr("Speech recognition, high quality") else tr("Speech recognition, medium quality")
                     },
                     style = AppText.itemTitle,
                     modifier = Modifier.weight(1f),
@@ -457,12 +460,14 @@ private fun SetupCard(item: SetupItem, checked: Boolean, started: Boolean, progr
                     SetupKind.DICTIONARY -> tr("Look up {0} words without internet", languageInSentence(item.languageName, LanguageCase.PREPOSITIONAL))
                     SetupKind.VOICE -> tr("Hear books and words read aloud")
                     SetupKind.TRANSLATION -> tr("Translate sentences without internet")
+                    SetupKind.RECOGNITION -> if (item.name == RecognitionQuality.HIGH.name) tr("Answer practice aloud: hears a learner's accent best, in a few seconds")
+                    else tr("Answer practice aloud: quick, and hears clear speech well")
                 },
                 style = MaterialTheme.typography.bodyMedium,
                 color = colors.onSurfaceVariant,
             )
             // A course pack is named after its language, as the title is; a voice that brings its engine lists both files.
-            if (item.kind != SetupKind.COURSES && item.name.isNotBlank() && (item.kind != SetupKind.VOICE || item.files.size <= 1)) {
+            if (item.kind != SetupKind.COURSES && item.kind != SetupKind.RECOGNITION && item.name.isNotBlank() && (item.kind != SetupKind.VOICE || item.files.size <= 1)) {
                 Text(localizedNames(item.name), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant.copy(alpha = AppAlpha.strong))
             }
             if (item.files.size > 1 && !compact) {

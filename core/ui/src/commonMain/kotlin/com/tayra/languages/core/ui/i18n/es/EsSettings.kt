@@ -312,4 +312,8 @@ internal val esSettings: Map<String, String> = mapOf(
     "{0} of downloads" to "{0} de descargas",
     "Everything you have in {0} is deleted: {1}, with your progress and flashcards. This cannot be undone." to "Se borrará todo lo que tienes en {0}: {1}, con tu progreso y tus tarjetas. No se puede deshacer.",
     "Remove {0}?" to "¿Quitar {0}?",
+    "Speech recognition, medium quality" to "Reconocimiento de voz, calidad media",
+    "Speech recognition, high quality" to "Reconocimiento de voz, alta calidad",
+    "Answer practice aloud: quick, and hears clear speech well" to "Responde en voz alta: rápido y entiende bien el habla clara",
+    "Answer practice aloud: hears a learner's accent best, in a few seconds" to "Responde en voz alta: entiende mejor el acento de quien aprende, en unos segundos",
 )

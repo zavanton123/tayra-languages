@@ -1,5 +1,8 @@
 package com.tayra.languages.core.data
 
+import com.tayra.languages.core.domain.practice.SpeechRecognitionSetup
+import com.tayra.languages.core.domain.practice.RecognitionQuality
+import com.tayra.languages.core.domain.practice.RecognitionModel
 import com.russhwolf.settings.MapSettings
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.db.DatabaseProvider
@@ -133,6 +136,21 @@ class LanguageSetupServiceTest {
         override suspend fun installPackage(fromCode: String, toCode: String) { models += "$fromCode-$toCode" }
         override suspend fun removePackage(fromCode: String, toCode: String) { models -= "$fromCode-$toCode" }
         override suspend fun translate(text: String, language: Language): String? = null
+    }
+
+    private class FakeRecognition : SpeechRecognitionSetup {
+        val installed = mutableSetOf<RecognitionQuality>()
+        override val progress = MutableStateFlow<String?>(null)
+        override suspend fun models(): List<RecognitionModel> {
+            val runtime = if (installed.isEmpty()) 100_000_000L else 0L
+            return listOf(
+                RecognitionModel(RecognitionQuality.MEDIUM, runtime + 486_000_000, RecognitionQuality.MEDIUM in installed, runtime, "small"),
+                RecognitionModel(RecognitionQuality.HIGH, runtime + 1_622_000_000, RecognitionQuality.HIGH in installed, runtime, "large-v3-turbo"),
+            )
+        }
+        override fun supports(languageCode: String) = languageCode != "tpi"
+        override suspend fun install(quality: RecognitionQuality) { installed += quality }
+        override suspend fun remove(quality: RecognitionQuality) { installed -= quality }
     }
 
     private val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-setup", ".db").also { it.delete() }))
@@ -286,5 +304,30 @@ class LanguageSetupServiceTest {
             assertEquals(emptyList(), both.missing(portuguese), "Portuguese has its courses, dictionary, a voice and translation")
             assertEquals(listOf(SetupKind.COURSES), both.missing(english).map { it.kind }, "English lacks only its course pack: Kokoro reads it already")
         }
+    }
+
+    /** Where speech is heard by a downloaded model, a model of each quality is offered, the medium one ticked, sharing the runtime. */
+    @Test
+    fun speechRecognitionModelsAreOffered() = runBlocking<Unit> {
+        val recognition = FakeRecognition()
+        val hearing = LanguageSetupService(
+            languages, settings, coursePacks, DictionaryService(dictionaryStore, dictionaryStore), LocalSpeech(listOf(piper)), LocalTranslation(translator), recognition,
+        )
+        val id = languages.save(Language(name = "Portuguese"))
+        val models = hearing.missing(id).filter { it.kind == SetupKind.RECOGNITION }
+        assertEquals(listOf("MEDIUM", "HIGH"), models.map { it.name })
+        assertEquals(listOf(true, false), models.map { it.recommended }, "the high quality model is large and slower, so it is not ticked")
+        assertEquals(listOf("Whisper" to 100_000_000L, "Whisper small" to 486_000_000L), models[0].files.map { it.name to it.sizeBytes })
+        assertEquals(models[0].files.first(), models[1].files.first(), "the runtime is one file of both, counted once")
+
+        settings.update { it.copy(speechRecognitionQuality = "HIGH") }
+        hearing.install(listOf(models[0]))
+        withTimeout(5_000) { hearing.states.first { it[models[0].id] == SetupState.Done } }
+        assertEquals(setOf(RecognitionQuality.MEDIUM), recognition.installed)
+        assertEquals("MEDIUM", settings.current.speechRecognitionQuality, "the model downloaded hears, as the one chosen is not there")
+        assertEquals(emptyList(), hearing.missing(id).filter { it.kind == SetupKind.RECOGNITION }, "one model is enough")
+        assertEquals(SetupStatus.MISSING, hearing.overview(id).single { it.kind == SetupKind.RECOGNITION && it.name == "HIGH" }.status, "the other can still be had")
+
+        assertEquals(emptyList(), setup.overview(id).filter { it.kind == SetupKind.RECOGNITION }, "nothing is offered where the system hears speech")
     }
 }

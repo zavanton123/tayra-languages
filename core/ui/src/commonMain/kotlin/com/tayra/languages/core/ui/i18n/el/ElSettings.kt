@@ -312,4 +312,8 @@ internal val elSettings: Map<String, String> = mapOf(
     "{0} of downloads" to "{0} λήψεων",
     "Everything you have in {0} is deleted: {1}, with your progress and flashcards. This cannot be undone." to "Διαγράφονται όλα όσα έχετε στα {0}: {1}, μαζί με την πρόοδο και τις κάρτες σας. Αυτό δεν αναιρείται.",
     "Remove {0}?" to "Αφαίρεση: {0};",
+    "Speech recognition, medium quality" to "Αναγνώριση ομιλίας, μέτρια ποιότητα",
+    "Speech recognition, high quality" to "Αναγνώριση ομιλίας, υψηλή ποιότητα",
+    "Answer practice aloud: quick, and hears clear speech well" to "Απαντήστε φωναχτά: γρήγορο, ακούει καλά την καθαρή ομιλία",
+    "Answer practice aloud: hears a learner's accent best, in a few seconds" to "Απαντήστε φωναχτά: ακούει καλύτερα την προφορά του μαθητή, σε λίγα δευτερόλεπτα",
 )

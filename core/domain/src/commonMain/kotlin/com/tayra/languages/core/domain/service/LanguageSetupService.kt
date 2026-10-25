@@ -7,6 +7,8 @@ import com.tayra.languages.core.domain.dictionary.DictionaryPack
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.language.LanguageCodes
+import com.tayra.languages.core.domain.practice.RecognitionQuality
+import com.tayra.languages.core.domain.practice.SpeechRecognitionSetup
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.CancellationException
@@ -20,7 +22,7 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
 /** What a language can have downloaded for it. */
-enum class SetupKind { COURSES, DICTIONARY, VOICE, TRANSLATION }
+enum class SetupKind { COURSES, DICTIONARY, VOICE, TRANSLATION, RECOGNITION }
 
 /** Where a language stands on one kind of download. */
 enum class SetupStatus {
@@ -90,7 +92,8 @@ sealed interface SetupState {
 
 /**
  * The downloads that make a newly chosen language ready: its course pack, the dictionary into
- * the native language, a voice that reads it aloud, and the on-device translation models.
+ * the native language, a voice that reads it aloud, the on-device translation models, and, where
+ * speech is heard by a downloaded model, a model of each quality for answering practice aloud.
  * [missing] lists what is not on the device yet; [install] fetches the chosen ones one after
  * another in a scope of its own, so they go on after the screen that started them is closed.
  */
@@ -101,6 +104,7 @@ class LanguageSetupService(
     private val dictionaries: DictionaryService,
     private val speech: LocalSpeech,
     private val translation: LocalTranslation,
+    private val recognition: SpeechRecognitionSetup? = null,
     private val scope: CoroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.Default),
 ) {
     private val actions = mutableMapOf<String, suspend () -> Unit>()
@@ -134,6 +138,7 @@ class LanguageSetupService(
             if (code != native) dictionary(code, native, language.name)?.let(::add)
             addAll(voices(code, language.name))
             if (code != native) translation(code, native, language.name)?.let(::add)
+            addAll(recognition(code, language.name))
         }
         return found
     }
@@ -294,11 +299,40 @@ class LanguageSetupService(
         }
     }
 
+    /**
+     * A speech recognition model of each quality, the medium one ticked, as the high one is large and
+     * slower; the runtime both run on is a file of each, counted once. The first one downloaded hears,
+     * unless the quality chosen in Settings is downloaded already.
+     */
+    private suspend fun recognition(code: String, name: String): List<SetupItem> {
+        val setup = recognition ?: return emptyList()
+        if (!setup.supports(code)) return listOf(settled(SetupKind.RECOGNITION, name, "", SetupStatus.UNAVAILABLE))
+        val models = runCatching { setup.models() }.getOrNull() ?: return emptyList()
+        return models.map { model ->
+            val quality = model.quality.name
+            if (model.installed) return@map SetupItem("recognition:${quality.lowercase()}", SetupKind.RECOGNITION, name, quality, emptyList(), recommended = false, status = SetupStatus.INSTALLED)
+            val files = listOfNotNull(
+                SetupFile(SetupFileKind.ENGINE, RECOGNIZER, model.runtimeSize, estimated = true).takeIf { model.runtimeSize > 0 },
+                SetupFile(SetupFileKind.MODEL, listOf(RECOGNIZER, model.name).filter { it.isNotEmpty() }.joinToString(" "), model.downloadSize - model.runtimeSize),
+            )
+            register(SetupItem("recognition:${quality.lowercase()}", SetupKind.RECOGNITION, name, quality, files, recommended = model.quality == RecognitionQuality.MEDIUM)) {
+                setup.install(model.quality)
+                val chosen = setup.models().any { it.installed && it.quality.name == settings.current.speechRecognitionQuality }
+                if (!chosen) settings.update { it.copy(speechRecognitionQuality = quality) }
+            }
+        }
+    }
+
     /** The models the pair still needs; null when the catalog cannot translate it at all. */
     private fun packagesNeeded(translator: LocalSentenceTranslator, catalog: List<LocalPackage>, code: String, native: String): List<LocalPackage>? {
         val keys = translator.requiredPackages(code, native, catalog)
         val packages = catalog.filter { it.key in keys }
         if (packages.size < keys.size) return null
         return packages.filterNot { it.installed }
+    }
+
+    private companion object {
+        /** The speech recogniser the models are of, as the downloads name it. */
+        const val RECOGNIZER = "Whisper"
     }
 }

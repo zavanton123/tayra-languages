@@ -312,4 +312,8 @@ internal val ruSettings: Map<String, String> = mapOf(
     "{0} of downloads" to "{0} загрузок",
     "Everything you have in {0} is deleted: {1}, with your progress and flashcards. This cannot be undone." to "Будет удалено всё, что у вас есть на языке «{0}»: {1}, вместе с прогрессом и карточками. Это нельзя отменить.",
     "Remove {0}?" to "Удалить язык «{0}»?",
+    "Speech recognition, medium quality" to "Распознавание речи, среднее качество",
+    "Speech recognition, high quality" to "Распознавание речи, высокое качество",
+    "Answer practice aloud: quick, and hears clear speech well" to "Отвечайте вслух: быстро и хорошо слышит чёткую речь",
+    "Answer practice aloud: hears a learner's accent best, in a few seconds" to "Отвечайте вслух: лучше всего понимает акцент учащегося, за несколько секунд",
 )

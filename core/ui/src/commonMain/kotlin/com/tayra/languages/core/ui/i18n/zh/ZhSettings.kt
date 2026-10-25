@@ -312,4 +312,8 @@ internal val zhSettings: Map<String, String> = mapOf(
     "{0} of downloads" to "{0} 的下载内容",
     "Everything you have in {0} is deleted: {1}, with your progress and flashcards. This cannot be undone." to "你在{0}中的所有内容都将被删除：{1}，以及学习进度和抽认卡。此操作无法撤销。",
     "Remove {0}?" to "移除{0}？",
+    "Speech recognition, medium quality" to "语音识别，中等质量",
+    "Speech recognition, high quality" to "语音识别，高质量",
+    "Answer practice aloud: quick, and hears clear speech well" to "大声回答练习：速度快，能听清清晰的语音",
+    "Answer practice aloud: hears a learner's accent best, in a few seconds" to "大声回答练习：最能听懂学习者的口音，需要几秒钟",
 )

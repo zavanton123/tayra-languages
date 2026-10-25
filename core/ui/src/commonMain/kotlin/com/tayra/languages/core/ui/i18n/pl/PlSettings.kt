@@ -312,4 +312,8 @@ internal val plSettings: Map<String, String> = mapOf(
     "{0} of downloads" to "{0} pobranych plików",
     "Everything you have in {0} is deleted: {1}, with your progress and flashcards. This cannot be undone." to "Wszystko, co masz w tym języku ({0}), zostanie usunięte: {1}, wraz z postępami i fiszkami. Tego nie można cofnąć.",
     "Remove {0}?" to "Usunąć: {0}?",
+    "Speech recognition, medium quality" to "Rozpoznawanie mowy, średnia jakość",
+    "Speech recognition, high quality" to "Rozpoznawanie mowy, wysoka jakość",
+    "Answer practice aloud: quick, and hears clear speech well" to "Odpowiadaj na głos: szybko i dobrze słyszy wyraźną mowę",
+    "Answer practice aloud: hears a learner's accent best, in a few seconds" to "Odpowiadaj na głos: najlepiej słyszy akcent uczącego się, w kilka sekund",
 )

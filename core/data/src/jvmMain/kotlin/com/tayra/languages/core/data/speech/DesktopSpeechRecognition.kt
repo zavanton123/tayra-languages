@@ -52,8 +52,10 @@ class DesktopSpeechRecognition(
     override suspend fun models(): List<RecognitionModel> {
         // A runtime set up for the other model only needs the model.
         val runtime = if (runtimeReady()) 0 else (if (python.isInstalled) 0 else python.downloadSize) + PIP_DOWNLOAD_SIZE
-        return Whisper.entries.map { RecognitionModel(it.quality, runtime + it.size, withContext(Dispatchers.IO) { downloaded(it) }) }
+        return Whisper.entries.map { RecognitionModel(it.quality, runtime + it.size, withContext(Dispatchers.IO) { downloaded(it) }, runtime, it.model) }
     }
+
+    override fun supports(languageCode: String): Boolean = whisperCode(languageCode) != null
 
     override suspend fun install(quality: RecognitionQuality): Unit = withContext(Dispatchers.IO) {
         val whisper = Whisper.of(quality)
