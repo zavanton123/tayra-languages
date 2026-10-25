@@ -7,6 +7,9 @@ import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlin.time.Clock
 
+/** How long a translation from a translation engine is kept in the database: a week. */
+const val TRANSLATION_TTL_MS: Long = 7L * 24 * 60 * 60 * 1000
+
 /** Translates whole sentences into the native language, e.g. through an online service. */
 interface SentenceTranslator {
     /** The translation, or null when the service has none or is unavailable. Never throws. */
@@ -23,7 +26,7 @@ sealed interface SentenceTranslation {
 
 /**
  * Serialises requests to the wrapped translator, spaces them out, and stores results keyed by
- * sentence and target language: in memory for the session and in [store] for a day. Failures
+ * sentence and target language: in memory for the session and in [store] for a week. Failures
  * are remembered only briefly so a flaky connection gets another chance.
  */
 class CachedSentenceTranslator(
@@ -33,7 +36,7 @@ class CachedSentenceTranslator(
     private val minIntervalMs: Long = 250,
     private val maxEntries: Int = 2_000,
     private val failureTtlMs: Long = 60_000,
-    private val storeTtlMs: Long = 24L * 60 * 60 * 1000,
+    private val storeTtlMs: Long = TRANSLATION_TTL_MS,
 ) : SentenceTranslator {
     private val memory = LinkedHashMap<String, Entry>()
     private val lock = Mutex()

@@ -8,7 +8,9 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.ZWS_STRING
 import com.tayra.languages.core.domain.parse.lowercase
+import com.tayra.languages.core.domain.repository.SentenceTranslationCache
 import com.tayra.languages.core.domain.repository.TermRepository
+import kotlin.time.Clock
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
@@ -17,8 +19,9 @@ import kotlin.time.TimeSource
 
 /**
  * A short translation for a single word, for hover tooltips. Asks, in order: the saved term,
- * its parent, the installed offline dictionary, then the chosen translation engine. Answers
- * that did not come from a saved term are cached, and a miss is retried after a minute.
+ * its parent, the installed offline dictionary, then the chosen translation engine. The engine's
+ * answers are kept in [store] for a week, so they outlast a restart; all answers not from a saved
+ * term are kept in memory too, and a miss is retried after a minute.
  */
 class WordTranslationService(
     private val terms: TermRepository,
@@ -28,6 +31,8 @@ class WordTranslationService(
     private val maxEntries: Int = 1000,
     /** Translates a word's sentence and the word, for the dictionary meaning the sentence uses; without it, the first meaning. */
     private val sentences: SentenceTranslator? = null,
+    /** Where the engine's word translations are kept for a week; only in memory without it. */
+    private val store: SentenceTranslationCache? = null,
 ) {
     private class Entry(val translation: String?, val at: TimeMark)
 
@@ -45,7 +50,7 @@ class WordTranslationService(
         lock.withLock { cache[key] }?.let { entry ->
             if (entry.translation != null || entry.at.elapsedNow().inWholeMilliseconds < MISS_TTL_MS) return entry.translation
         }
-        val found = offline(language, native, clean) ?: attempt { suggestions.suggestTranslation(clean, language) }
+        val found = offline(language, native, clean) ?: engine(language, native, clean)
         val translation = found?.trim()?.takeIf { it.isNotEmpty() && !it.equals(clean, ignoreCase = true) }
         lock.withLock {
             cache.remove(key)
@@ -88,6 +93,17 @@ class WordTranslationService(
         val pack = DictionaryPacks.find(LanguageCodes.codeFor(language.name), native)?.id ?: return null
         if (!dictionary.isAvailable(pack)) return null
         return attempt { dictionary.lookup(pack, word).suggestedTranslation }
+    }
+
+    /** The engine's translation of [word], from [store] when it was asked within the week. */
+    private suspend fun engine(language: Language, native: String, word: String): String? {
+        // Keyed apart from sentences, and by engine, so switching engines never mixes their answers.
+        val target = "word:${settings.current.translationEngine.name}:$native"
+        val at = Clock.System.now().toEpochMilliseconds()
+        attempt { store?.get(word, target, at - TRANSLATION_TTL_MS) }?.let { return it }
+        return attempt { suggestions.suggestTranslation(word, language) }?.also { found ->
+            attempt { store?.put(word, target, found, at) }
+        }
     }
 
     /** Null when [block] fails; a cancelled caller stays cancelled, so nothing is cached for it. */

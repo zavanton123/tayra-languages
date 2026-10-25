@@ -4,6 +4,7 @@ import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.repository.SentenceTranslationCache
 import kotlinx.coroutines.test.runTest
 import kotlin.test.Test
+import kotlin.time.Clock
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
 
@@ -55,7 +56,20 @@ class CachedSentenceTranslatorTest {
     }
 
     @Test
-    fun storedTranslationsExpireAfterADay() = runTest {
+    fun storedTranslationsAreKeptForAWeek() = runTest {
+        val store = FakeStore()
+        val day = 24L * 60 * 60 * 1000
+        store.put("Dizem", "en", "six days old", createdAt = Clock.System.now().toEpochMilliseconds() - 6 * day)
+        store.put("Falam", "en", "eight days old", createdAt = Clock.System.now().toEpochMilliseconds() - 8 * day)
+        val inner = CountingTranslator("fresh")
+        val translator = CachedSentenceTranslator(inner, store, targetLanguage = { "en" }, minIntervalMs = 0)
+        assertEquals("six days old", translator.translate("Dizem", language))
+        assertEquals(0, inner.calls, "a translation from this week is not asked for again")
+        assertEquals("fresh", translator.translate("Falam", language), "one from before the week is")
+    }
+
+    @Test
+    fun storedTranslationsExpireAfterAWeek() = runTest {
         val store = FakeStore()
         store.put("Dizem", "en", "old", createdAt = 0L)
         val inner = CountingTranslator("fresh")
