@@ -171,19 +171,6 @@ class PracticeTest {
         assertTrue(built.tiles != listOf("Eu", "moro", "no", "Brasil."))
     }
 
-    /** True or false offers the word's own meaning or another word's, and comes twice a practice at most. */
-    @Test
-    fun trueOrFalseOffersAMeaningRightOrNotTwiceAtMost() {
-        val setup = PracticeSetup(types = setOf(ExerciseType.TRUE_FALSE, ExerciseType.GAP), responses = setOf(PracticeResponse.CHOOSE), length = null)
-        val asked = PracticeBuilder.build(words, pageWords, random = Random(3), setup = setup)
-        val trueFalse = asked.filter { it.type == ExerciseType.TRUE_FALSE }
-        assertEquals(2, trueFalse.size)
-        trueFalse.forEach { e ->
-            assertEquals(listOf(PracticeBuilder.TRUE, PracticeBuilder.FALSE), e.options)
-            assertEquals(if (e.offered == e.wordTranslation) PracticeBuilder.TRUE else PracticeBuilder.FALSE, e.answer)
-        }
-    }
-
     /** A word heard alone is picked among words spelled nearly like it; without three such words it is not asked. */
     @Test
     fun aWordHeardAloneIsPickedAmongLookAlikes() {
@@ -393,5 +380,12 @@ class PracticeTest {
     fun setupsKeptWithLetterTilesStillOpen() {
         assertEquals(setOf(PracticeResponse.CHOOSE), PracticeSetup.decode("types=GAP;responses=CHOOSE,TILES;contexts=ORIGINAL;length=10").responses)
         assertEquals(PracticeSetup().responses, PracticeSetup.decode("types=GAP;responses=TILES;contexts=ORIGINAL;length=10").responses)
+    }
+
+    /** Likewise a setup kept with true or false, which was dropped. */
+    @Test
+    fun setupsKeptWithTrueOrFalseStillOpen() {
+        assertEquals(setOf(ExerciseType.GAP), PracticeSetup.decode("types=GAP,TRUE_FALSE;responses=CHOOSE;contexts=ORIGINAL;length=10").types)
+        assertEquals(PracticeSetup().types, PracticeSetup.decode("types=TRUE_FALSE;responses=CHOOSE;contexts=ORIGINAL;length=10").types)
     }
 }

@@ -449,8 +449,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Build the sentence" to "组句",
     "Put the sentence's words in order from its translation" to "根据译文把句子的单词排好顺序",
     "Needs a sentence of 3 to 8 words" to "需要 3 到 8 个词的句子",
-    "True or false" to "判断对错",
-    "Say whether a meaning is the word's" to "判断一个意思是否属于该词",
     "Sound-alike" to "近音词",
     "Hear a word and pick it among words spelled nearly like it" to "听一个单词，从拼写相近的词中选出它",
     "Adapt to my level" to "按我的水平调整",

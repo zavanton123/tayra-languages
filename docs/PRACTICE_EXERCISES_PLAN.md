@@ -372,6 +372,7 @@ Changed from the plan:
 - Forms come from the frequency lists (offline, 33 languages) and linked terms; Wiktionary's tagged forms are not used, so choose-the-form relies on the sentence's translation as its clue.
 - Matching pairs and true-or-false moves no level; matching counts as one question.
 - Build the sentence is answered with word tiles only, and comes with the Choose answer.
+- True or false was dropped after use as not effective enough; setups kept with it open with their other types.
 - Letter tiles (building a word from its letters) were dropped after use as slow and of little help; the ladder is now choose → choose or type → type → type or say, and setups kept with tiles open with their other ways of answering.
 - Speaking sits at the top practice level beside typing, and is left out of the Balanced and Listening presets: it needs a quiet room and a recogniser, so it is asked for by name.
 - The desktop worker decodes the recording itself: faster-whisper's own decoder fails with current PyAV.

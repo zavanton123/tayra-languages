@@ -63,7 +63,7 @@ object PracticePlanner {
         ExerciseType.MEANING -> if (words.any { it.translation.isNullOrBlank() }) PracticeNeed.WORD_MEANING else PracticeNeed.OTHER_MEANINGS
         // Up to five are matched at a time; fewer than four with meanings make no round.
         ExerciseType.MATCHING -> PracticeNeed.MORE_WORDS.takeIf { PracticeBuilder.matching(words, Random(0)) == null }
-        ExerciseType.HEAR_SENTENCE, ExerciseType.TRUE_FALSE -> PracticeNeed.WORD_MEANING
+        ExerciseType.HEAR_SENTENCE -> PracticeNeed.WORD_MEANING
         ExerciseType.TRANSLATION -> PracticeNeed.SENTENCE_TRANSLATION.takeIf { words.any { it.sentence !in translations } }
         ExerciseType.BUILD -> if (words.any { it.sentence !in translations }) PracticeNeed.SENTENCE_TRANSLATION else PracticeNeed.SENTENCE_LENGTH
         ExerciseType.SOUND_ALIKE -> PracticeNeed.WORD_FORMS

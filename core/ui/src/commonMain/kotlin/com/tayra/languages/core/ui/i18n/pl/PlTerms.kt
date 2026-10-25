@@ -449,8 +449,6 @@ internal val plTerms: Map<String, String> = mapOf(
     "Build the sentence" to "Ułóż zdanie",
     "Put the sentence's words in order from its translation" to "Ułóż słowa zdania w kolejności na podstawie tłumaczenia",
     "Needs a sentence of 3 to 8 words" to "Wymaga zdania z 3–8 słów",
-    "True or false" to "Prawda czy fałsz",
-    "Say whether a meaning is the word's" to "Powiedz, czy to znaczenie słowa",
     "Sound-alike" to "Podobne brzmienie",
     "Hear a word and pick it among words spelled nearly like it" to "Posłuchaj słowa i wybierz je spośród słów pisanych prawie tak samo",
     "Adapt to my level" to "Dostosuj do mojego poziomu",

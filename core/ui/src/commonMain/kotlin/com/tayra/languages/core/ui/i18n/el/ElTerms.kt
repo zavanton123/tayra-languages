@@ -449,8 +449,6 @@ internal val elTerms: Map<String, String> = mapOf(
     "Build the sentence" to "Φτιάξτε την πρόταση",
     "Put the sentence's words in order from its translation" to "Βάλτε τις λέξεις της πρότασης στη σειρά με βάση τη μετάφρασή της",
     "Needs a sentence of 3 to 8 words" to "Χρειάζεται πρόταση 3 έως 8 λέξεων",
-    "True or false" to "Σωστό ή λάθος",
-    "Say whether a meaning is the word's" to "Πείτε αν μια σημασία είναι της λέξης",
     "Sound-alike" to "Παρόμοιος ήχος",
     "Hear a word and pick it among words spelled nearly like it" to "Ακούστε μια λέξη και επιλέξτε την ανάμεσα σε λέξεις που γράφονται σχεδόν ίδια",
     "Adapt to my level" to "Προσαρμογή στο επίπεδό μου",

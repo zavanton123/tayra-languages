@@ -103,7 +103,6 @@ import androidx.compose.runtime.mutableStateOf
 import com.tayra.languages.core.domain.practice.WordResult
 import com.tayra.languages.core.domain.practice.PracticeChecker
 import androidx.compose.ui.text.style.TextDecoration
-import com.tayra.languages.core.domain.practice.PracticeBuilder
 import com.tayra.languages.core.ui.audio.rememberMicrophoneAccess
 import kotlinx.coroutines.launch
 import androidx.compose.runtime.rememberCoroutineScope
@@ -325,7 +324,6 @@ private val Exercise.instruction: String
         ExerciseType.MEANING -> tr("What does the marked word mean?")
         ExerciseType.MATCHING -> tr("Match each word with its meaning")
         ExerciseType.SOUND_ALIKE -> tr("Listen and choose the word you hear")
-        ExerciseType.TRUE_FALSE -> tr("Is this what the marked word means?")
         ExerciseType.HEAR_SENTENCE -> tr("Listen to the sentence")
         ExerciseType.HEAR_WORD -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
         ExerciseType.SHADOW -> tr("Listen and say the sentence")
@@ -401,7 +399,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         // Read aloud, the sentence is read once it is shown whole: a gap's only after the answer, which it would say.
         // A listening question is read aloud already, and has its own button.
         val readable = exercise.spoken == null && actions.onSpeak != null && actions.onReadAloud != null
-        val whole = answered || exercise.type == ExerciseType.MEANING || exercise.type == ExerciseType.TRUE_FALSE
+        val whole = answered || exercise.type == ExerciseType.MEANING
         LaunchedEffect(state.index, whole, readAloud) { if (readable && readAloud && whole) actions.onSpeak.invoke(exercise.sentence) }
         if (!sentenceHidden) {
             val highlight = SpanStyle(background = AppAccents.highlight.copy(alpha = AppAlpha.half), fontWeight = AppText.labelStrong.fontWeight)
@@ -420,7 +418,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
                     buildAnnotatedString {
                         append(exercise.sentence.substring(0, exercise.range.first))
                         // The word is marked rather than blanked where its meaning is asked.
-                        withStyle(highlight) { append(if (answered || exercise.type == ExerciseType.MEANING || exercise.type == ExerciseType.TRUE_FALSE) exercise.sentence.substring(exercise.range) else BLANK) }
+                        withStyle(highlight) { append(if (answered || exercise.type == ExerciseType.MEANING) exercise.sentence.substring(exercise.range) else BLANK) }
                         append(exercise.sentence.substring(exercise.range.last + 1))
                     },
                     style = AppText.cardSentence(if (compact) 21f else 27f).copy(color = colors.onSurface, textAlign = TextAlign.Center, textDirection = direction),
@@ -431,13 +429,6 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         // A sentence from a source that asks to be named, named once it is shown.
         if (!sentenceHidden) exercise.credit?.let { credit ->
             Text(tr("Sentence from {0}", credit), style = MaterialTheme.typography.bodySmall, color = colors.outline, modifier = Modifier.testTag("practice-credit"))
-        }
-        exercise.offered?.let { offered ->
-            Text(
-                "${exercise.word} — $offered?",
-                style = AppText.cardSentence(if (compact) 19f else 23f).copy(color = colors.primary, textAlign = TextAlign.Center),
-                modifier = Modifier.testTag("practice-offered"),
-            )
         }
         // A gap, however it is answered, gets the sentence's meaning as its clue; elsewhere it would give the answer away, so it waits.
         val hintShown = answered || exercise.type == ExerciseType.GAP || exercise.type == ExerciseType.FORM
@@ -489,12 +480,7 @@ private fun Choices(state: PracticeUiState, exercise: Exercise, actions: Practic
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
         ) {
-            val label = when {
-                exercise.type != ExerciseType.TRUE_FALSE -> text
-                text == PracticeBuilder.TRUE -> tr("Yes, it means that")
-                else -> tr("No, it does not")
-            }
-            Text(label, Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, color = if (state.answered && tint == null) colors.onSurfaceVariant else colors.onSurface)
+            Text(text, Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, color = if (state.answered && tint == null) colors.onSurfaceVariant else colors.onSurface)
             when (tint) {
                 AppAccents.green -> PopIn { Icon(Icons.Default.Check, contentDescription = tr("Right answer"), tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconMedium)) }
                 AppAccents.red -> Icon(Icons.Default.Close, contentDescription = tr("Your answer"), tint = AppAccents.red, modifier = Modifier.size(AppSizes.iconMedium))

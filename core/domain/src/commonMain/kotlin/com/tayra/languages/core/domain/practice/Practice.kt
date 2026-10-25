@@ -45,9 +45,6 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
     /** The sentence whole, the word marked: choose what the word means. Needs the word's translation. */
     MEANING(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE)),
 
-    /** The word marked in its sentence with a meaning beside it, right or another word's: say whether it is right. Needs the word's translation; twice a practice at most. */
-    TRUE_FALSE(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE)),
-
     /** Up to five words and their meanings, to match up; asked once, at the start, of words with meanings that cannot be taken for each other. */
     MATCHING(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE)),
 
@@ -132,7 +129,8 @@ data class PracticeSetup(
             fun names(key: String) = parts[key]?.split(',')?.map { it.trim() }?.filter { it.isNotEmpty() }
             val defaults = PracticeSetup()
             return PracticeSetup(
-                types = names("types")?.mapNotNull { name -> ExerciseType.entries.firstOrNull { it.name == name } }?.toSet() ?: defaults.types,
+                // Likewise for one kept from before true or false was dropped.
+                types = names("types")?.mapNotNull { name -> ExerciseType.entries.firstOrNull { it.name == name } }?.toSet()?.takeIf { it.isNotEmpty() } ?: defaults.types,
                 // A setup kept from before letter tiles were dropped may have had no other way of answering.
                 responses = names("responses")?.mapNotNull { name -> PracticeResponse.entries.firstOrNull { it.name == name } }?.toSet()?.takeIf { it.isNotEmpty() } ?: defaults.responses,
                 contexts = names("contexts")?.mapNotNull { name -> PracticeContext.entries.firstOrNull { it.name == name } }?.toSet() ?: defaults.contexts,
@@ -201,8 +199,6 @@ data class Exercise(
     val lemma: String? = null,
     /** Words and their meanings to match up, for a matching question. */
     val pairs: List<Pair<String, String>> = emptyList(),
-    /** The meaning offered, right or not, in a true-or-false question. */
-    val offered: String? = null,
     /** The source of a sentence from elsewhere, when it asks to be named. */
     val credit: String? = null,
     /** The saved term practised, whose progress the answer moves; null for a word not saved. */
@@ -225,13 +221,6 @@ internal class WrongChoices(val pageWords: List<String>, val alikes: Map<String,
 object PracticeBuilder {
     const val MAX_QUESTIONS = PracticeSetup.DEFAULT_LENGTH
     private const val OPTIONS = 4
-
-    /** The answers of a true-or-false question. */
-    const val TRUE = "true"
-    const val FALSE = "false"
-
-    /** True-or-false questions in a practice, at most. */
-    private const val TRUE_FALSE_QUESTIONS = 2
 
     /** How many letters apart a word heard alone may be from the words offered beside it. */
     private const val SOUND_ALIKE_DISTANCE = 3
@@ -295,9 +284,7 @@ object PracticeBuilder {
             // Each round starts one question further on, so a word meets a different one every time;
             // a question the word cannot be asked gives way to the next one that it can.
             val start = (k % asked.size + k / asked.size) % rotation.size
-            // True or false is quick: a couple of them, not one a word.
-            val trueFalseLeft = exercises.count { it.type == ExerciseType.TRUE_FALSE } < TRUE_FALSE_QUESTIONS
-            val all = (0 until rotation.size).map { rotation[(start + it) % rotation.size] }.filter { trueFalseLeft || it.first != ExerciseType.TRUE_FALSE }
+            val all = (0 until rotation.size).map { rotation[(start + it) % rotation.size] }
             // Adapting, the word is answered the ways its level calls for, where the setup has them; otherwise any way.
             val wanted = if (setup.adaptive) WordProgress.LEVELS[(levels[word.key] ?: 0).coerceIn(0, WordProgress.TOP)].responses else null
             val steps = wanted?.let { ways -> all.filter { it.second in ways }.ifEmpty { all } } ?: all
@@ -392,14 +379,6 @@ object PracticeBuilder {
                 if (near.size < OPTIONS - 1) return null
                 val written = near.shuffled(random).take(OPTIONS - 1).map { if (word.text.first().isUpperCase()) it.replaceFirstChar { c -> c.uppercase() } else it }
                 base.copy(options = (written + word.text).shuffled(random), spoken = word.text)
-            }
-            ExerciseType.TRUE_FALSE -> {
-                val meaning = word.translation?.trim().orEmpty()
-                if (meaning.isEmpty()) return null
-                val wrong = meaningChoices(meaning, targets.filter { it !== word }.mapNotNull { it.translation }, meanings, random).firstOrNull()
-                // Right half the time; a wrong meaning only where there is one that cannot be taken for the right one.
-                val right = wrong == null || random.nextBoolean()
-                base.copy(options = listOf(TRUE, FALSE), answer = if (right) TRUE else FALSE, offered = if (right) meaning else wrong)
             }
             ExerciseType.GAP -> answered(base, response, word, targets, pool, random)
             ExerciseType.MEANING -> {
