@@ -104,6 +104,7 @@ import com.tayra.languages.core.domain.practice.WordResult
 import com.tayra.languages.core.domain.practice.PracticeChecker
 import androidx.compose.ui.text.style.TextDecoration
 import com.tayra.languages.core.ui.audio.rememberMicrophoneAccess
+import com.tayra.languages.core.ui.components.FreshViewModels
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import kotlinx.coroutines.launch
@@ -188,7 +189,8 @@ fun PracticeDialog(route: Route, onNavigate: (Route) -> Unit, onClose: () -> Uni
         maxWidth = Dp.Infinity,
         color = MaterialTheme.colorScheme.surfaceContainerLow,
     ) {
-        PracticeScreen(source, setup, onNavigate = { onClose(); onNavigate(it) }, onBack = onClose, dialog = true)
+        // Each practice starts afresh, even one just like the practice finished before it.
+        FreshViewModels { PracticeScreen(source, setup, onNavigate = { onClose(); onNavigate(it) }, onBack = onClose, dialog = true) }
     }
 }
 

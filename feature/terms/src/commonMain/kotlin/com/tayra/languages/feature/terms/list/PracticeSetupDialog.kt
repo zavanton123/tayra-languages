@@ -50,6 +50,7 @@ import com.tayra.languages.core.ui.components.AppDialogSurface
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.FreshViewModels
 import com.tayra.languages.core.ui.components.AppTriStateCheckbox
 import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.ChipLeading
@@ -76,6 +77,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.withTimeoutOrNull
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
@@ -135,19 +137,15 @@ class PracticeSetupViewModel(
 
     private val fromVocabulary = source is PracticeSource.Words
 
-    /**
-     * The setup of the last practice, wherever it was started, or the default one the first time.
-     * Read each time the dialog opens: the view model outlives one opening.
-     */
-    val initialSetup: PracticeSetup
-        get() = settings.current.let { if (fromVocabulary) it.practiceSetupVocabulary else it.practiceSetupReading }
+    /** The setup of the last practice, wherever it was started, or the default one the first time. */
+    val initialSetup: PracticeSetup = settings.current.let { if (fromVocabulary) it.practiceSetupVocabulary else it.practiceSetupReading }
             .takeIf { it.isNotBlank() }?.let(PracticeSetup::decode) ?: PracticePreset.DEFAULT.setup
 
     val presets: StateFlow<List<SavedPreset>> = settings.settings.map { SavedPreset.decode(it.practicePresets) }
         .stateIn(viewModelScope, SharingStarted.Eagerly, SavedPreset.decode(settings.current.practicePresets))
 
-    /** Keeps [setup] as the one to open with next time, from the reader and the vocabulary alike. */
-    fun remember(setup: PracticeSetup) = viewModelScope.launch {
+    /** Keeps [setup] as the one to open with next time, from the reader and the vocabulary alike; kept even as the dialog closes on it. */
+    fun remember(setup: PracticeSetup) = viewModelScope.launch(NonCancellable) {
         settings.update { it.copy(practiceSetupReading = setup.encode(), practiceSetupVocabulary = setup.encode()) }
     }
 
@@ -221,11 +219,17 @@ private val LENGTHS = listOf(5, 10, 20, null)
  * about, or what they lack; the footer sums up.
  */
 @Composable
-fun PracticeSetupDialog(
+fun PracticeSetupDialog(source: PracticeSource, onStart: (PracticeSetup) -> Unit, onDismiss: () -> Unit) {
+    // Counted afresh each time it opens: the words being learned may have changed since.
+    FreshViewModels { PracticeSetupDialogHost(source, onStart, onDismiss) }
+}
+
+@Composable
+private fun PracticeSetupDialogHost(
     source: PracticeSource,
     onStart: (PracticeSetup) -> Unit,
     onDismiss: () -> Unit,
-    viewModel: PracticeSetupViewModel = koinViewModel(key = "practice-setup-$source") { parametersOf(source) },
+    viewModel: PracticeSetupViewModel = koinViewModel { parametersOf(source) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val presets by viewModel.presets.collectAsStateWithLifecycle()
