@@ -58,8 +58,8 @@ def whisper(req):
     name, folder = req["model"], req["models"]
     if (name, folder) not in WHISPER:
         from faster_whisper import WhisperModel
-        # Every core: a sentence takes about a third less time than with the default four.
-        WHISPER[(name, folder)] = WhisperModel(name, device="cpu", compute_type="int8", download_root=folder, cpu_threads=os.cpu_count() or 0)
+        # Eight threads: the large model takes a third less time than with the default four, and more slow the small one down.
+        WHISPER[(name, folder)] = WhisperModel(name, device="cpu", compute_type="int8", download_root=folder, cpu_threads=min(8, os.cpu_count() or 4))
     return WHISPER[(name, folder)]
 
 
@@ -74,11 +74,25 @@ def transcribe(req):
     # expected, as the text before it, leans the model towards its words, which an accent otherwise hides.
     prompt = req.get("prompt") or None
     text = heard(whisper(req), audio, req["lang"], prompt)
-    # A prompt the speech matches word for word can leave Whisper thinking it is already written down,
-    # and it gives back nothing: heard again without one.
-    if prompt and not any(c.isalnum() for c in text):
-        text = heard(whisper(req), audio, req["lang"], None)
+    # Whisper takes a prompt for words already written down: speech that goes on past it can lose the words
+    # it matches. Short of most of them, it is heard again without one, and the closer of the two is kept.
+    if prompt and share(text, prompt) < PROMPT_SHARE:
+        plain = heard(whisper(req), audio, req["lang"], None)
+        if share(plain, prompt) > share(text, prompt):
+            text = plain
     return {"text": text}
+
+
+PROMPT_SHARE = 0.8
+
+
+def share(text, expected):
+    """How many of the words of [expected] are in [text], as a share."""
+    def words(t):
+        return [w for w in "".join(c.lower() if c.isalnum() or c in "'’" else " " for c in t).split()]
+    wanted = words(expected)
+    given = set(words(text))
+    return sum(1 for w in wanted if w in given) / len(wanted) if wanted else 1.0
 
 
 def heard(model, audio, lang, prompt):

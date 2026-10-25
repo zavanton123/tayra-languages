@@ -294,8 +294,10 @@ internal val ptSettings: Map<String, String> = mapOf(
     "{0} to download" to "{0} para baixar",
     "Try again" to "Tentar de novo",
     "Speech recognition" to "Reconhecimento de fala",
-    "Hears your answers when you practise speaking. It runs on this computer, with no network once installed." to "Ouve as suas respostas quando pratica a fala. Funciona neste computador, sem rede depois de instalado.",
     "Installing speech recognition…" to "A instalar o reconhecimento de fala…",
     "Could not install: {0}" to "Não foi possível instalar: {0}",
-    "Whisper's large turbo model and what it runs on, about {0} to download." to "O modelo grande turbo do Whisper e o que precisa para funcionar: cerca de {0} para transferir.",
+    "Medium quality" to "Qualidade média",
+    "Whisper small: quick, well enough for a phrase" to "Whisper small: rápido, suficiente para uma frase",
+    "Whisper large turbo: better at an accent, a few seconds a phrase" to "Whisper large turbo: melhor com sotaque, alguns segundos por frase",
+    "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "Ouve as suas respostas quando pratica a fala. Funciona neste computador, sem rede depois de transferido.",
 )

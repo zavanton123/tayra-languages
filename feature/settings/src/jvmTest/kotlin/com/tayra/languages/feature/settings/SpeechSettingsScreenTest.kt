@@ -43,6 +43,8 @@ import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
 import com.tayra.languages.core.domain.practice.SpeechRecognitionSetup
+import com.tayra.languages.core.domain.practice.RecognitionModel
+import com.tayra.languages.core.domain.practice.RecognitionQuality
 import kotlinx.coroutines.CompletableDeferred
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
@@ -100,18 +102,20 @@ class SpeechSettingsScreenTest {
         override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray? = null
     }
 
-    /** A recogniser that is installed once [installing] lets it finish. */
+    /** A recogniser whose models download once [installing] lets them finish. */
     private class FakeRecognition : SpeechRecognitionSetup {
-        override val progress = MutableStateFlow<String?>(null)
-        val installing = CompletableDeferred<Unit>()
-        var ready = false
-        override suspend fun isReady() = ready
-        override suspend fun downloadSize() = 580_000_000L
-        override suspend fun setUp() {
+        override val progress = kotlinx.coroutines.flow.MutableStateFlow<String?>(null)
+        var installing = CompletableDeferred<Unit>()
+        val installed = mutableSetOf<RecognitionQuality>()
+        override suspend fun models() = RecognitionQuality.entries.map { RecognitionModel(it, if (it == RecognitionQuality.MEDIUM) 580_000_000L else 1_716_000_000L, it in installed) }
+        override suspend fun install(quality: RecognitionQuality) {
             progress.value = "Downloading the recognition model (120 of 484 MB)…"
             installing.await()
             progress.value = null
-            ready = true
+            installed += quality
+        }
+        override suspend fun remove(quality: RecognitionQuality) {
+            installed -= quality
         }
     }
 
@@ -193,19 +197,38 @@ class SpeechSettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { settings.current.speechSpeed == 1.0f }
     }
 
-    /** Speech recognition for speaking practice is installed from its own card, which shows the download as it goes. */
+    private fun ComposeUiTest.download(quality: String) =
+        onNode(hasText("Download") and hasClickAction() and androidx.compose.ui.test.hasAnyAncestor(androidx.compose.ui.test.hasTestTag("recognition-model-$quality")))
+
+    /** Either model is downloaded from the card, the one downloaded last hears, either is chosen once both are there, and one can be removed. */
     @Test
-    fun speechRecognitionIsInstalledFromItsCard() = runDesktopComposeUiTest(width = 1586, height = 1400) {
+    fun recognitionModelsAreDownloadedChosenAndRemoved() = runDesktopComposeUiTest(width = 1586, height = 1400) {
         val recognition = FakeRecognition()
-        show(SpeechEngine.PIPER, FakeKokoro(), FakePiper(), recognition)
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("install-recognition").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("about 580.0 MB to download", substring = true).assertExists()
-        onNodeWithTag("install-recognition").performScrollTo().performClick()
+        val settings = show(SpeechEngine.PIPER, FakeKokoro(), FakePiper(), recognition)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("recognition-model-HIGH").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Not installed").assertExists()
+        onNodeWithText("580.0 MB", substring = true).assertExists()
+        onNodeWithTag("recognition-model-MEDIUM").performScrollTo()
+        download("MEDIUM").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Downloading the recognition model (120 of 484 MB)…")).fetchSemanticsNodes().isNotEmpty() }
         System.getenv("SPEECH_SCREENSHOT")?.let { save(it.replace(".png", "-recognition.png")) }
         recognition.installing.complete(Unit)
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("install-recognition").fetchSemanticsNodes().isEmpty() }
-        onNodeWithTag("speech-recognition").assertExists()
+        waitUntil(timeoutMillis = 5_000) { RecognitionQuality.MEDIUM in recognition.installed && onAllNodes(hasText("Downloaded")).fetchSemanticsNodes().size >= 2 }
+        assertEquals("MEDIUM", settings.current.speechRecognitionQuality)
+
+        recognition.installing = CompletableDeferred<Unit>().also { it.complete(Unit) }
+        download("HIGH").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { RecognitionQuality.HIGH in recognition.installed }
+        waitUntil(timeoutMillis = 5_000) { settings.current.speechRecognitionQuality == "HIGH" }
+        System.getenv("SPEECH_SCREENSHOT")?.let { save(it.replace(".png", "-recognition-both.png")) }
+
+        onNodeWithTag("recognition-model-MEDIUM").performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.speechRecognitionQuality == "MEDIUM" }
+
+        onNodeWithContentDescription("More for High quality").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Remove")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Remove").performClick()
+        waitUntil(timeoutMillis = 5_000) { RecognitionQuality.HIGH !in recognition.installed }
     }
 
     @Test

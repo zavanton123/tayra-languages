@@ -294,8 +294,10 @@ internal val zhSettings: Map<String, String> = mapOf(
     "{0} to download" to "需下载 {0}",
     "Try again" to "重试",
     "Speech recognition" to "语音识别",
-    "Hears your answers when you practise speaking. It runs on this computer, with no network once installed." to "在你练习口语时听取你的回答。它在这台电脑上运行，安装后无需网络。",
     "Installing speech recognition…" to "正在安装语音识别…",
     "Could not install: {0}" to "无法安装：{0}",
-    "Whisper's large turbo model and what it runs on, about {0} to download." to "Whisper 大型 turbo 模型及其运行环境，约需下载 {0}。",
+    "Medium quality" to "中等质量",
+    "Whisper small: quick, well enough for a phrase" to "Whisper small：速度快，识别短语足够",
+    "Whisper large turbo: better at an accent, a few seconds a phrase" to "Whisper large turbo：更能听懂口音，每个短语需几秒",
+    "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "在你练习口语时听取你的回答。它在这台电脑上运行，下载后无需网络。",
 )

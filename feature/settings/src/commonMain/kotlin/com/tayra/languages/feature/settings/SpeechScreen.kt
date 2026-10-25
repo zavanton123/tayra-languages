@@ -109,6 +109,8 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 import com.tayra.languages.core.domain.practice.SpeechRecognitionSetup
+import com.tayra.languages.core.domain.practice.RecognitionModel
+import com.tayra.languages.core.domain.practice.RecognitionQuality
 
 /** The speech engines: which one reads aloud, its runtime, and the voices to download. */
 @OptIn(ExperimentalCoroutinesApi::class)
@@ -203,33 +205,41 @@ class SpeechViewModel(
         }
     }
 
-    /** Whether the recogniser can hear; null until checked. */
-    val recognitionReady = MutableStateFlow<Boolean?>(null)
-    val recognitionBusy = MutableStateFlow(false)
+    /** The recogniser's models, downloaded or not; empty until checked. */
+    val recognitionModels = MutableStateFlow<List<RecognitionModel>>(emptyList())
+
+    /** The model being downloaded or removed. */
+    val recognitionBusy = MutableStateFlow<RecognitionQuality?>(null)
     val recognitionError = MutableStateFlow<String?>(null)
-    val recognitionSize = MutableStateFlow(0L)
 
     fun checkRecognition() {
         val setup = recognition ?: return
-        viewModelScope.launch {
-            recognitionSize.value = runCatching { setup.downloadSize() }.getOrDefault(0L)
-            recognitionReady.value = runCatching { setup.isReady() }.getOrDefault(false)
-        }
+        viewModelScope.launch { recognitionModels.value = runCatching { setup.models() }.getOrDefault(emptyList()) }
     }
 
-    fun installRecognition() {
+    fun installRecognition(quality: RecognitionQuality) = recognitionTask(quality) { setup ->
+        setup.install(quality)
+        // The model just downloaded is the one wanted.
+        settings.update { it.copy(speechRecognitionQuality = quality.name) }
+    }
+
+    fun removeRecognition(quality: RecognitionQuality) = recognitionTask(quality) { it.remove(quality) }
+
+    fun chooseRecognition(quality: RecognitionQuality) = update { it.copy(speechRecognitionQuality = quality.name) }
+
+    private fun recognitionTask(quality: RecognitionQuality, block: suspend (SpeechRecognitionSetup) -> Unit) {
         val setup = recognition ?: return
-        if (recognitionBusy.value) return
-        recognitionBusy.value = true
+        if (recognitionBusy.value != null) return
+        recognitionBusy.value = quality
         recognitionError.value = null
         viewModelScope.launch {
             try {
-                setup.setUp()
+                block(setup)
             } catch (e: Exception) {
                 recognitionError.value = e.message ?: tr("unknown error")
             }
-            recognitionReady.value = runCatching { setup.isReady() }.getOrDefault(false)
-            recognitionBusy.value = false
+            recognitionModels.value = runCatching { setup.models() }.getOrDefault(emptyList())
+            recognitionBusy.value = null
         }
     }
 

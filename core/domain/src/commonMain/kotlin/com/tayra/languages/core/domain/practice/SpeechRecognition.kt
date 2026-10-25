@@ -37,15 +37,25 @@ sealed interface Heard {
     data object Refused : Heard
 }
 
-/** A recogniser set up from the Speech settings before it can hear anything: a local model on a desktop. */
+/** How well a downloaded recogniser hears, against how long it takes. */
+enum class RecognitionQuality { MEDIUM, HIGH }
+
+/** A recogniser's model of one [quality]: about how much [install] downloads, and whether it is there. */
+data class RecognitionModel(val quality: RecognitionQuality, val downloadSize: Long, val installed: Boolean)
+
+/**
+ * A recogniser set up from the Speech settings before it can hear anything: a local model on a
+ * desktop, of either quality; the one chosen in the settings hears, or else the other if only it
+ * is downloaded.
+ */
 interface SpeechRecognitionSetup {
     /** What setting up is doing right now, or null. */
     val progress: StateFlow<String?>
 
-    suspend fun isReady(): Boolean
+    suspend fun models(): List<RecognitionModel>
 
-    /** About how many bytes setting up downloads. */
-    suspend fun downloadSize(): Long
+    /** Downloads the model of [quality], and what it runs on the first time. */
+    suspend fun install(quality: RecognitionQuality)
 
-    suspend fun setUp()
+    suspend fun remove(quality: RecognitionQuality)
 }

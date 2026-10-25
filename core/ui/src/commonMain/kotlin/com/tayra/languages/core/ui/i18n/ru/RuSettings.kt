@@ -294,8 +294,10 @@ internal val ruSettings: Map<String, String> = mapOf(
     "{0} to download" to "{0} для скачивания",
     "Try again" to "Повторить попытку",
     "Speech recognition" to "Распознавание речи",
-    "Hears your answers when you practise speaking. It runs on this computer, with no network once installed." to "Слушает ваши ответы, когда вы тренируете говорение. Работает на этом компьютере, после установки без сети.",
     "Installing speech recognition…" to "Установка распознавания речи…",
     "Could not install: {0}" to "Не удалось установить: {0}",
-    "Whisper's large turbo model and what it runs on, about {0} to download." to "Большая модель Whisper turbo и всё, что нужно для её работы: около {0} для загрузки.",
+    "Medium quality" to "Среднее качество",
+    "Whisper small: quick, well enough for a phrase" to "Whisper small: быстрая, хватает для фразы",
+    "Whisper large turbo: better at an accent, a few seconds a phrase" to "Whisper large turbo: лучше справляется с акцентом, несколько секунд на фразу",
+    "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "Слушает ваши ответы, когда вы тренируете говорение. Работает на этом компьютере, после загрузки без сети.",
 )

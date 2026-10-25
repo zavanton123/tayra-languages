@@ -85,6 +85,7 @@ class SettingsRepositoryImpl(
             practiceSetupVocabulary = store.getString(Keys.PRACTICE_SETUP_VOCABULARY, defaults.practiceSetupVocabulary),
             practicePresets = store.getString(Keys.PRACTICE_PRESETS, defaults.practicePresets),
             practiceReadAloud = store.getBoolean(Keys.PRACTICE_READ_ALOUD, defaults.practiceReadAloud),
+            speechRecognitionQuality = store.getString(Keys.SPEECH_RECOGNITION_QUALITY, defaults.speechRecognitionQuality),
             readingColumnWidth = store.getInt(Keys.COLUMN_WIDTH, defaults.readingColumnWidth),
             readingJustified = store.getBoolean(Keys.JUSTIFIED, defaults.readingJustified),
             focusMode = store.getBoolean(Keys.FOCUS_MODE, defaults.focusMode),
@@ -195,6 +196,7 @@ class SettingsRepositoryImpl(
         store.putString(Keys.PRACTICE_SETUP_VOCABULARY, s.practiceSetupVocabulary)
         store.putString(Keys.PRACTICE_PRESETS, s.practicePresets)
         store.putBoolean(Keys.PRACTICE_READ_ALOUD, s.practiceReadAloud)
+        store.putString(Keys.SPEECH_RECOGNITION_QUALITY, s.speechRecognitionQuality)
         store.putInt(Keys.COLUMN_WIDTH, s.readingColumnWidth)
         store.putBoolean(Keys.JUSTIFIED, s.readingJustified)
         store.putBoolean(Keys.FOCUS_MODE, s.focusMode)
@@ -260,6 +262,7 @@ class SettingsRepositoryImpl(
         const val PRACTICE_SETUP_VOCABULARY = "practice_setup_vocabulary"
         const val PRACTICE_PRESETS = "practice_presets"
         const val PRACTICE_READ_ALOUD = "practice_read_aloud"
+        const val SPEECH_RECOGNITION_QUALITY = "speech_recognition_quality"
         const val COLUMN_WIDTH = "reading_column_width"
         const val JUSTIFIED = "reading_justified"
         const val FOCUS_MODE = "reading_focus_mode"

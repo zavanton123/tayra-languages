@@ -94,6 +94,8 @@ data class UserSettings(
     val practicePresets: String = "",
     /** Practice reads each question's sentence aloud once it is shown whole. */
     val practiceReadAloud: Boolean = false,
+    /** Which downloaded speech recogniser hears spoken answers, by `RecognitionQuality` name. */
+    val speechRecognitionQuality: String = "MEDIUM",
 ) {
     fun hotkeyFor(action: HotkeyAction): Hotkey? = hotkeys[action]
 

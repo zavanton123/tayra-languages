@@ -43,7 +43,7 @@ actual val platformDataModule: Module = module {
     single { ManagedPython() }
     single { LocalTranslation(ArgosSentenceTranslator(get(), get())) }
     single { TtsWorker(get()) }
-    single { DesktopSpeechRecognition(get(), get()) } binds arrayOf(SpeechRecognition::class, SpeechRecognitionSetup::class)
+    single { DesktopSpeechRecognition(get(), get(), get()) } binds arrayOf(SpeechRecognition::class, SpeechRecognitionSetup::class)
     single { LocalSpeech(listOf(PiperSpeechEngine(get(), get()), KokoroSpeechEngine(get(), get()))) }
     single { DatabaseDriverFactory() }
     single { BackupFiles() }

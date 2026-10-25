@@ -294,8 +294,10 @@ internal val esSettings: Map<String, String> = mapOf(
     "{0} to download" to "{0} por descargar",
     "Try again" to "Reintentar",
     "Speech recognition" to "Reconocimiento de voz",
-    "Hears your answers when you practise speaking. It runs on this computer, with no network once installed." to "Escucha tus respuestas cuando practicas la expresión oral. Funciona en este ordenador, sin red una vez instalado.",
     "Installing speech recognition…" to "Instalando el reconocimiento de voz…",
     "Could not install: {0}" to "No se pudo instalar: {0}",
-    "Whisper's large turbo model and what it runs on, about {0} to download." to "El modelo grande turbo de Whisper y lo que necesita para funcionar: unos {0} de descarga.",
+    "Medium quality" to "Calidad media",
+    "Whisper small: quick, well enough for a phrase" to "Whisper small: rápido, suficiente para una frase",
+    "Whisper large turbo: better at an accent, a few seconds a phrase" to "Whisper large turbo: mejor con el acento, unos segundos por frase",
+    "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "Escucha tus respuestas cuando practicas la expresión oral. Funciona en este ordenador, sin red una vez descargado.",
 )
