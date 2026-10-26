@@ -1,0 +1,20 @@
+-- Sync: records taken from the account that cannot be applied here yet, and bookmark deletions named
+-- by the key their text has on every device; see Sync.sq.
+CREATE TABLE sync_pending (
+    kind TEXT NOT NULL,
+    key TEXT NOT NULL,
+    record TEXT NOT NULL,
+    PRIMARY KEY (kind, key)
+);
+
+DROP TRIGGER sync_page_bookmarks_delete;
+
+CREATE TRIGGER sync_page_bookmarks_delete
+AFTER DELETE ON page_bookmarks
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1 AND EXISTS (SELECT 1 FROM pages WHERE id = old.page_id)
+BEGIN
+    INSERT OR REPLACE INTO sync_tombstones(kind, scope, key, deleted_at) VALUES ('bookmark',
+        (SELECT CASE WHEN cl.lesson_id IS NOT NULL THEN 'lesson:' || cl.lesson_id WHEN b.source_uri LIKE 'tayra-books:%' THEN 'uri:' || b.source_uri ELSE 'id:' || b.sync_id END
+         FROM pages p JOIN books b ON b.id = p.book_id LEFT JOIN course_lessons cl ON cl.book_id = b.id WHERE p.id = old.page_id),
+        (SELECT page_order FROM pages WHERE id = old.page_id) || char(10) || coalesce(old.created_at, old.title), CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER));
+END;

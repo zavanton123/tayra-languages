@@ -24,6 +24,15 @@ CREATE TABLE sync_tombstones (
     PRIMARY KEY (kind, scope, key)
 );
 
+-- Records taken from the account that cannot be applied yet, such as the progress in a pack's book
+-- before the pack is installed here; each sync tries them again.
+CREATE TABLE sync_pending (
+    kind TEXT NOT NULL,
+    key TEXT NOT NULL,
+    record TEXT NOT NULL,
+    PRIMARY KEY (kind, key)
+);
+
 CREATE INDEX terms_updated_at ON terms(updated_at);
 
 CREATE INDEX pages_updated_at ON pages(updated_at);
@@ -307,11 +316,15 @@ BEGIN
     UPDATE page_bookmarks SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
 END;
 
+-- Named by the text's key on every device (see SyncBooks.sq), the page's place and when the bookmark was made.
 CREATE TRIGGER sync_page_bookmarks_delete
 AFTER DELETE ON page_bookmarks
 WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1 AND EXISTS (SELECT 1 FROM pages WHERE id = old.page_id)
 BEGIN
-    INSERT OR REPLACE INTO sync_tombstones(kind, scope, key, deleted_at) VALUES ('bookmark', (SELECT b.sync_id FROM pages p JOIN books b ON b.id = p.book_id WHERE p.id = old.page_id), (SELECT page_order FROM pages WHERE id = old.page_id) || ':' || coalesce(old.created_at, old.title), CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER));
+    INSERT OR REPLACE INTO sync_tombstones(kind, scope, key, deleted_at) VALUES ('bookmark',
+        (SELECT CASE WHEN cl.lesson_id IS NOT NULL THEN 'lesson:' || cl.lesson_id WHEN b.source_uri LIKE 'tayra-books:%' THEN 'uri:' || b.source_uri ELSE 'id:' || b.sync_id END
+         FROM pages p JOIN books b ON b.id = p.book_id LEFT JOIN course_lessons cl ON cl.book_id = b.id WHERE p.id = old.page_id),
+        (SELECT page_order FROM pages WHERE id = old.page_id) || char(10) || coalesce(old.created_at, old.title), CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER));
 END;
 
 CREATE TRIGGER sync_words_read_insert

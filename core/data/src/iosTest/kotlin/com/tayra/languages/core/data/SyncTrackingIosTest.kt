@@ -67,7 +67,7 @@ class SyncTrackingIosTest {
         fresh.run(
             triggers.joinToString(";") { "DROP TRIGGER $it" } + ";" +
                 "DROP INDEX terms_updated_at; DROP INDEX pages_updated_at; DROP INDEX books_sync_id; DROP INDEX playlists_sync_id;" +
-                "DROP TABLE sync_state; DROP TABLE sync_tombstones;" +
+                "DROP TABLE sync_state; DROP TABLE sync_tombstones; DROP TABLE sync_pending;" +
                 listOf("terms", "flashcards", "flashcard_reviews", "practice_progress", "practice_examples", "vocabulary_levels", "languages", "books", "pages", "page_bookmarks", "words_read", "playlists")
                     .joinToString(";") { "ALTER TABLE $it DROP COLUMN updated_at" } + ";" +
                 "ALTER TABLE books DROP COLUMN sync_id; ALTER TABLE playlists DROP COLUMN sync_id; PRAGMA user_version = 27",
@@ -78,7 +78,7 @@ class SyncTrackingIosTest {
         assertEquals(freshShape, migrated.strings("SELECT type || ' ' || name FROM sqlite_master WHERE name NOT LIKE 'sqlite_%' ORDER BY type, name"))
         assertEquals(listOf("2000"), migrated.strings("SELECT updated_at FROM terms"), "a word counts as changed when its status last was")
         assertTrue(migrated.strings("SELECT sync_id FROM books").single().matches(Regex("[0-9a-f]{32}")))
-        assertEquals(listOf("28"), migrated.strings("PRAGMA user_version"))
+        assertEquals(listOf("29"), migrated.strings("PRAGMA user_version"))
         migrated.run("DELETE FROM terms")
         assertEquals(listOf("lobo"), migrated.strings("SELECT key FROM sync_tombstones"))
         migrated.close()

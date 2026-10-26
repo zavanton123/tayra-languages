@@ -19,6 +19,7 @@ import com.tayra.languages.sync.PullResponse
 import com.tayra.languages.sync.PushRequest
 import com.tayra.languages.sync.PushResponse
 import com.tayra.languages.sync.SyncKeys
+import com.tayra.languages.sync.SyncJson
 import com.tayra.languages.sync.SyncKinds
 import com.tayra.languages.sync.SyncMerge
 import com.tayra.languages.sync.SyncRecord
@@ -64,7 +65,10 @@ class SyncEngine(
         val db = provider.database()
         // What this device sent and took went to another account: the one now gets all of it.
         if (settings.getStringOrNull(ACCOUNT) != account) {
-            withContext(databaseDispatcher) { db.syncQueries.startOver() }
+            withContext(databaseDispatcher) {
+                db.syncQueries.startOver()
+                db.syncRecordsQueries.clearPending()
+            }
             settings.putString(ACCOUNT, account)
         }
         val state = withContext(databaseDispatcher) { db.syncQueries.state().awaitAsOne() }
@@ -89,28 +93,27 @@ class SyncEngine(
             incoming += page.records
             seq = page.seq
         } while (page.more)
+        // What waited for a text this device did not have goes again, with what the account has newer.
+        val waiting = withContext(databaseDispatcher) { db.syncRecordsQueries.pendingRecords().awaitAsList() }
+            .mapNotNull { runCatching { SyncJson.decodeFromString(SyncRecord.serializer(), it) }.getOrNull() }
+        val toApply = (waiting + incoming).groupBy { it.kind to it.key }.values.map { versions -> versions.reduce(SyncMerge::merge) }
         val have = withContext(databaseDispatcher) { db.syncRecordsQueries.languageNames().awaitAsList().mapNotNull { LanguageCodes.codeFor(it.name) }.toSet() }
-        for (code in incoming.filter { it.kind != LANGUAGE_REMOVED }.mapNotNull(::languageCodeOf).toSet() - have) addLanguage(code)
+        for (code in toApply.filter { it.kind != LANGUAGE_REMOVED }.mapNotNull(::languageCodeOf).toSet() - have) addLanguage(code)
         val changed = withContext(databaseDispatcher) {
             db.transactionWithResult {
                 db.syncQueries.setApplying(1)
-                val n = Writer(db, device).apply(incoming)
+                val applied = Writer(db, device).apply(toApply)
                 db.syncQueries.setApplying(0)
                 db.syncRecordsQueries.pulled(seq)
-                n
+                db.syncRecordsQueries.clearPending()
+                for (r in applied.deferred) db.syncRecordsQueries.addPending(r.kind, r.key, SyncJson.encodeToString(SyncRecord.serializer(), r))
+                applied.changed
             }
         }
         SyncSummary(sent = outgoing.records.size, received = incoming.size, changed = changed)
     }
 
     private class Outgoing(val records: List<SyncRecord>, val tombstones: List<Sync_tombstones>)
-
-    /** The languages by the code they travel as, and back. */
-    private class Languages(rows: List<Pair<Long, String>>) {
-        val codeOf: Map<String, String> = rows.mapNotNull { (_, name) -> LanguageCodes.codeFor(name)?.let { name to it } }.toMap()
-        val idOf: Map<String, Long> = rows.mapNotNull { (id, name) -> LanguageCodes.codeFor(name)?.let { it to id } }.toMap()
-        val nameOf: Map<String, String> = rows.mapNotNull { (_, name) -> LanguageCodes.codeFor(name)?.let { it to name } }.toMap()
-    }
 
     private class Reader(private val db: TayraDatabase, private val device: String) {
         suspend fun changedSince(since: Long): Outgoing {
@@ -128,10 +131,12 @@ class SyncEngine(
             q.changedProgress(since, ::ProgressRow).awaitAsList().forEach { r -> code(r.language)?.let { records += r.record(it, device) } }
             q.changedExamples(since, ::ExampleRow).awaitAsList().forEach { r -> code(r.language)?.let { records += r.record(it, device) } }
             q.changedLevels(since, ::LevelRow).awaitAsList().forEach { r -> code(r.language)?.let { records += r.record(it, device) } }
+            val books = BookReader(db, device) { langs.codeOf[it] }
+            records += books.changedSince(since)
 
-            val tombstones = q.tombstonesSince(since).awaitAsList().filter { it.kind in VOCABULARY_TOMBSTONES }
+            val tombstones = q.tombstonesSince(since).awaitAsList().filter { it.kind in VOCABULARY_TOMBSTONES || it.kind in BOOK_TOMBSTONES }
             for (t in tombstones) {
-                val record = deletion(t, langs) ?: continue
+                val record = (if (t.kind in BOOK_TOMBSTONES) books.deletion(t) else deletion(t, langs)) ?: continue
                 records += record
             }
             return Outgoing(records, tombstones)
@@ -165,8 +170,11 @@ class SyncEngine(
         private val q = db.syncRecordsQueries
         private lateinit var langs: Languages
 
-        suspend fun apply(incoming: List<SyncRecord>): Int {
+        class Applied(val changed: Int, val deferred: List<SyncRecord>)
+
+        suspend fun apply(all: List<SyncRecord>): Applied {
             langs = Languages(q.languageNames().awaitAsList().map { it.id to it.name })
+            val incoming = all.filter { it.kind !in BOOK_KINDS }
             // The latest removal of each language: its records from before it are stale.
             val removedAt = incoming.filter { it.kind == LANGUAGE_REMOVED && !it.deleted }.groupBy { it.key }.mapValues { (_, v) -> v.maxOf { it.updatedAt } }
             var changed = 0
@@ -174,6 +182,7 @@ class SyncEngine(
                 val id = langs.idOf[code] ?: continue
                 q.removeTermsBefore(id, at)
                 q.removeLevelBefore(id, at)
+                q.removeBooksBefore(id, at)
                 changed++
             }
             val live = incoming.filter { record ->
@@ -191,7 +200,8 @@ class SyncEngine(
                 q.clearParents(termId)
                 for (parent in parents) q.termId(languageId, parent).awaitAsOneOrNull()?.let { q.addParent(termId, it) }
             }
-            return changed
+            val books = BookWriter(db, device) { langs.idOf[it] }.apply(all.filter { it.kind in BOOK_KINDS })
+            return Applied(changed + books.changed, books.deferred)
         }
 
         /** Merges [remote] with this device's version and writes the result if it differs; whether it did. */
@@ -321,5 +331,14 @@ private fun languageCodeOf(record: SyncRecord): String? = when (record.kind) {
     SyncKinds.REVIEW -> SyncKeys.termParts(record.key.substringAfter('/'))?.first
     SyncKinds.PRACTICE_EXAMPLE -> SyncKeys.termParts(record.key.substringBefore('\n'))?.first
     SyncKinds.TERM, SyncKinds.FLASHCARD, SyncKinds.PRACTICE_PROGRESS -> SyncKeys.termParts(record.key)?.first
+    SyncKinds.BOOK -> record.data?.string("language")
+    SyncKinds.WORDS_READ -> record.key.substringBefore('/')
     else -> null
+}
+
+/** The languages by the code they travel as, and back. */
+internal class Languages(rows: List<Pair<Long, String>>) {
+    val codeOf: Map<String, String> = rows.mapNotNull { (_, name) -> LanguageCodes.codeFor(name)?.let { name to it } }.toMap()
+    val idOf: Map<String, Long> = rows.mapNotNull { (id, name) -> LanguageCodes.codeFor(name)?.let { it to id } }.toMap()
+    val nameOf: Map<String, String> = rows.mapNotNull { (_, name) -> LanguageCodes.codeFor(name)?.let { it to name } }.toMap()
 }

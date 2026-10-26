@@ -152,6 +152,11 @@ DELETE FROM terms WHERE language_id = :languageId AND updated_at < :before;
 removeLevelBefore:
 DELETE FROM vocabulary_levels WHERE language_id = :languageId AND updated_at < :before;
 
+-- Its own texts, not those of courses or packs, which each device keeps for itself.
+removeBooksBefore:
+DELETE FROM books WHERE language_id = :languageId AND updated_at < :before
+    AND coalesce(source_uri, '') NOT LIKE 'tayra-books:%' AND id NOT IN (SELECT book_id FROM course_lessons);
+
 languageNames:
 SELECT id, name FROM languages;
 
@@ -169,3 +174,12 @@ UPDATE sync_state SET last_push_at = :at, full_push = 0 WHERE id = 1;
 
 pulled:
 UPDATE sync_state SET last_seq = :seq WHERE id = 1;
+
+pendingRecords:
+SELECT record FROM sync_pending;
+
+clearPending:
+DELETE FROM sync_pending;
+
+addPending:
+INSERT OR REPLACE INTO sync_pending(kind, key, record) VALUES (:kind, :key, :record);

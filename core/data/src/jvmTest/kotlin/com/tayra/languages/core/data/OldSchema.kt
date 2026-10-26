@@ -8,6 +8,7 @@ import java.sql.Connection
  * libraries older than 28, which never had it, so the migration can add it again.
  */
 internal fun Connection.pretendVersion(version: Int) {
+    if (version <= 28) createStatement().execute("DROP TABLE IF EXISTS sync_pending")
     if (version <= 27) removeSyncTracking()
     createStatement().execute("PRAGMA user_version = $version")
 }
