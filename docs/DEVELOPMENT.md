@@ -803,4 +803,7 @@ changed since.
   `AVSpeechSynthesizer` on iOS, the Web Speech API, and the OS speech command on desktop
   (`say`, PowerShell System.Speech, `spd-say`).
 - Dictionaries open in the platform browser; embedded web views are not used.
-- The web build keeps its database in memory for the session.
+- The web build keeps its database in a sql.js worker (`webApp/.../resources/library.worker.js`)
+  that saves the whole file to IndexedDB 1.5 s after the last write (within 10 s while writes go on)
+  and when the page is hidden, and opens it again on the next visit, migrating it like any other
+  platform. Only the tab holding the `tayra-library` Web Lock saves; other tabs work on their copy.

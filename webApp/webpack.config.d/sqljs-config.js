@@ -1,5 +1,5 @@
-// Bundles sql.js for the SQLDelight web worker driver: the WebAssembly binary for the app
-// database worker, plus the loader script that dictionary.worker.js imports.
+// Bundles sql.js for the SQLDelight web worker drivers: the WebAssembly binary and the loader script
+// that library.worker.js and dictionary.worker.js import.
 config.resolve = config.resolve || {};
 config.resolve.fallback = Object.assign({}, config.resolve.fallback, {
     fs: false,

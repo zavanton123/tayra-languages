@@ -532,8 +532,8 @@ billing, waits for the company. What the phases settled on the way:
   cookie on `/api/v1/auth`, and the body carries an empty one.
 - Applying a pull reads each language's words, cards, reviews and practice once, and writes record
   by record: a first sync of 35,000 records takes about 30 s in the web app (seven minutes before)
-  and 4 s from the command line. The web app's database is in memory, so each visit takes the
-  library afresh; keeping it in the browser between visits is a web app task of its own.
+  and 4 s from the command line. The web app keeps its library in IndexedDB between visits, so a
+  visit takes only what changed since the last one.
 
 **Phase 0: client groundwork (about a week, no backend).**
 Migration with `updated_at`, `sync_id`, tombstones, `sync_state`, triggers; `applying` in
