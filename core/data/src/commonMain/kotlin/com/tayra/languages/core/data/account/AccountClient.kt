@@ -1,6 +1,7 @@
 package com.tayra.languages.core.data.account
 
 import com.tayra.languages.core.data.settings.SecureStore
+import com.tayra.languages.core.data.sync.SyncTransport
 import com.tayra.languages.core.domain.account.AccountException
 import com.tayra.languages.core.domain.account.AccountInfo
 import com.tayra.languages.core.domain.account.AccountProblem
@@ -18,6 +19,9 @@ import com.tayra.languages.sync.DeviceInfo
 import com.tayra.languages.sync.ForgotRequest
 import com.tayra.languages.sync.LoginRequest
 import com.tayra.languages.sync.Me
+import com.tayra.languages.sync.PullResponse
+import com.tayra.languages.sync.PushRequest
+import com.tayra.languages.sync.PushResponse
 import com.tayra.languages.sync.RefreshRequest
 import com.tayra.languages.sync.RegisterRequest
 import com.tayra.languages.sync.ResetRequest
@@ -64,7 +68,7 @@ class AccountClient(
     private val secure: SecureStore,
     private val device: suspend () -> DeviceInfo,
     private val clock: Clock = Clock.System,
-) : AccountRepository, CloudBackupStore {
+) : AccountRepository, CloudBackupStore, SyncTransport {
     private val _signedIn = MutableStateFlow(secure.get(key(EMAIL))?.takeIf { secure.get(key(REFRESH)) != null })
     override val signedIn: StateFlow<String?> = _signedIn.asStateFlow()
 
@@ -132,6 +136,22 @@ class AccountClient(
         exchange(HttpMethod.Get, "/backups/$id", signedIn = true) { timeout { requestTimeoutMillis = TRANSFER_TIMEOUT_MS } }.bodyAsBytes()
 
     override suspend fun delete(id: String) = send(HttpMethod.Delete, "/backups/$id", null)
+
+    override fun syncAccount(): String? = signedIn.value?.let { "${server.url()?.trimEnd('/').orEmpty()} $it" }
+
+    override suspend fun push(request: PushRequest): PushResponse = SyncJson.decodeFromString(PushResponse.serializer(),
+        exchange(HttpMethod.Post, "/sync/push", signedIn = true) {
+            contentType(ContentType.Application.Json)
+            setBody(json(PushRequest.serializer(), request))
+            timeout { requestTimeoutMillis = TRANSFER_TIMEOUT_MS }
+        }.bodyAsText())
+
+    override suspend fun pull(since: Long, limit: Int): PullResponse = SyncJson.decodeFromString(PullResponse.serializer(),
+        exchange(HttpMethod.Get, "/sync/pull", signedIn = true) {
+            parameter("since", since)
+            parameter("limit", limit)
+            timeout { requestTimeoutMillis = TRANSFER_TIMEOUT_MS }
+        }.bodyAsText())
 
     private fun CloudBackup.info() = CloudBackupInfo(id, name, deviceName, Instant.fromEpochMilliseconds(createdAt), sizeBytes)
 

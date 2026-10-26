@@ -46,6 +46,10 @@ insert:
 INSERT INTO languages(name, character_substitutions, regexp_split_sentences, exceptions_split_sentences, word_characters, right_to_left, show_romanization, parser_type)
 VALUES (:name, :characterSubstitutions, :regexpSplitSentences, :exceptionsSplitSentences, :wordCharacters, :rightToLeft, :showRomanization, :parserType);
 
+-- A language just made from the catalog: its defaults are no one's change, and lose to any made on another device.
+unchanged:
+UPDATE languages SET updated_at = 0 WHERE id = :id;
+
 update:
 UPDATE languages SET
     name = :name,

@@ -4,6 +4,7 @@ import org.koin.dsl.binds
 import com.tayra.languages.core.domain.account.CloudBackupStore
 import com.tayra.languages.core.domain.account.CloudBackupService
 import com.tayra.languages.core.domain.account.AccountRepository
+import com.tayra.languages.core.domain.account.LibrarySync
 import com.tayra.languages.core.data.network.createAccountHttpClient
 import com.tayra.languages.core.data.account.thisDevice
 import com.tayra.languages.core.data.account.defaultAccountServer
@@ -69,6 +70,8 @@ import com.tayra.languages.core.data.repository.VocabularyLevelRepositoryImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
 import com.tayra.languages.core.data.settings.SecureStore
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
+import com.tayra.languages.core.data.sync.SyncEngine
+import com.tayra.languages.core.data.sync.SyncTransport
 import com.tayra.languages.core.data.web.HttpWebPageReader
 import com.tayra.languages.core.data.web.webPagesSupported
 import com.tayra.languages.core.domain.backup.BackupRepository
@@ -122,6 +125,8 @@ import com.tayra.languages.core.domain.service.CorpusWords
 import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.service.GoogleTranslation
 import com.tayra.languages.core.domain.service.LanguageRemovalService
+import com.tayra.languages.core.domain.language.LanguageCatalog
+import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.service.LanguageService
 import com.tayra.languages.core.domain.service.LanguageSetupService
 import com.tayra.languages.core.domain.service.LearningLanguageService
@@ -168,8 +173,13 @@ val dataModule: Module = module {
             get<SecureStore>(),
             device = { thisDevice(provider) },
         )
-    } binds arrayOf(AccountRepository::class, CloudBackupStore::class)
+    } binds arrayOf(AccountRepository::class, CloudBackupStore::class, SyncTransport::class)
     single { CloudBackupService(get(), get()) }
+    single<LibrarySync> {
+        SyncEngine(get(), get(), get<Settings>(), addLanguage = { code ->
+            LanguageCatalog.targetLanguages.firstOrNull { LanguageCodes.codeFor(it) == code }?.let { get<LanguageService>().loadPredefined(it, withTutorial = false) }
+        })
+    }
     single<LanguageRepository> { LanguageRepositoryImpl(get()) }
     single<BookRepository> { BookRepositoryImpl(get()) }
     single<TermRepository> {

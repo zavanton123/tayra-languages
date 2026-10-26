@@ -86,6 +86,7 @@ class LanguageRepositoryImpl(private val provider: DatabaseProvider) : LanguageR
                     sortOrder = (index + 1).toLong(),
                 )
             }
+            if (language.id == 0L) q.unchanged(id)
             id
         }
     }

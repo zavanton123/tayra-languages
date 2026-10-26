@@ -1,0 +1,171 @@
+-- What sync reads and writes, record by record: the rows changed since a time, with what makes
+-- their keys the same on every device (the language's name, the word's lower-case text), and the
+-- writes that apply a record from the account. A word left unknown (status 0) travels too: a saved
+-- word set back to unknown is a change, and a word may have unknown parents.
+
+changedTerms:
+SELECT t.id, l.name AS language, t.text, t.text_lc, t.status, t.translation, t.romanization, t.token_count,
+    t.flash_message, t.created_at, t.status_changed_at, t.translation_language, t.sentence, t.updated_at,
+    coalesce((SELECT group_concat(p.text_lc, char(31)) FROM term_parents tp JOIN terms p ON p.id = tp.parent_id WHERE tp.term_id = t.id), '') AS parents,
+    EXISTS (SELECT 1 FROM level_terms lt WHERE lt.term_id = t.id) AS level
+FROM terms t JOIN languages l ON l.id = t.language_id
+WHERE t.updated_at > :since;
+
+termByKey:
+SELECT t.id, l.name AS language, t.text, t.text_lc, t.status, t.translation, t.romanization, t.token_count,
+    t.flash_message, t.created_at, t.status_changed_at, t.translation_language, t.sentence, t.updated_at,
+    coalesce((SELECT group_concat(p.text_lc, char(31)) FROM term_parents tp JOIN terms p ON p.id = tp.parent_id WHERE tp.term_id = t.id), '') AS parents,
+    EXISTS (SELECT 1 FROM level_terms lt WHERE lt.term_id = t.id) AS level
+FROM terms t JOIN languages l ON l.id = t.language_id
+WHERE t.language_id = :languageId AND t.text_lc = :textLc;
+
+termId:
+SELECT id FROM terms WHERE language_id = :languageId AND text_lc = :textLc;
+
+insertTerm:
+INSERT INTO terms(language_id, text, text_lc, status, translation, romanization, token_count, flash_message, created_at, status_changed_at, translation_language, sentence, updated_at)
+VALUES (:languageId, :text, :textLc, :status, :translation, :romanization, :tokenCount, :flashMessage, :createdAt, :statusChangedAt, :translationLanguage, :sentence, :updatedAt);
+
+updateTerm:
+UPDATE terms SET text = :text, status = :status, translation = :translation, romanization = :romanization, token_count = :tokenCount,
+    flash_message = :flashMessage, created_at = :createdAt, status_changed_at = :statusChangedAt, translation_language = :translationLanguage,
+    sentence = :sentence, updated_at = :updatedAt
+WHERE id = :id;
+
+deleteTerm:
+DELETE FROM terms WHERE id = :id;
+
+clearParents:
+DELETE FROM term_parents WHERE term_id = :termId;
+
+addParent:
+INSERT OR IGNORE INTO term_parents(term_id, parent_id) VALUES (:termId, :parentId);
+
+addLevelTerm:
+INSERT OR IGNORE INTO level_terms(term_id) VALUES (:termId);
+
+removeLevelTerm:
+DELETE FROM level_terms WHERE term_id = :termId;
+
+changedFlashcards:
+SELECT f.*, t.text_lc, l.name AS language FROM flashcards f JOIN terms t ON t.id = f.term_id JOIN languages l ON l.id = t.language_id
+WHERE f.updated_at > :since;
+
+flashcardOf:
+SELECT f.*, t.text_lc, l.name AS language FROM flashcards f JOIN terms t ON t.id = f.term_id JOIN languages l ON l.id = t.language_id
+WHERE f.term_id = :termId;
+
+upsertFlashcard:
+INSERT OR REPLACE INTO flashcards(term_id, state, due, stability, difficulty, interval_days, remaining_steps, reps, lapses, last_review, suspended, seen_status, updated_at)
+VALUES ?;
+
+deleteFlashcard:
+DELETE FROM flashcards WHERE term_id = :termId;
+
+changedReviews:
+SELECT r.*, t.text_lc, l.name AS language FROM flashcard_reviews r JOIN terms t ON t.id = r.term_id JOIN languages l ON l.id = t.language_id
+WHERE r.updated_at > :since;
+
+reviewOf:
+SELECT r.*, t.text_lc, l.name AS language FROM flashcard_reviews r JOIN terms t ON t.id = r.term_id JOIN languages l ON l.id = t.language_id
+WHERE r.term_id = :termId AND r.reviewed_at = :reviewedAt;
+
+insertReview:
+INSERT INTO flashcard_reviews(term_id, reviewed_at, rating, state_before, interval_days, elapsed_days, updated_at)
+VALUES (:termId, :reviewedAt, :rating, :stateBefore, :intervalDays, :elapsedDays, :updatedAt);
+
+deleteReview:
+DELETE FROM flashcard_reviews WHERE term_id = :termId AND reviewed_at = :reviewedAt;
+
+changedProgress:
+SELECT p.*, t.text_lc, l.name AS language FROM practice_progress p JOIN terms t ON t.id = p.term_id JOIN languages l ON l.id = t.language_id
+WHERE p.updated_at > :since;
+
+progressOf:
+SELECT p.*, t.text_lc, l.name AS language FROM practice_progress p JOIN terms t ON t.id = p.term_id JOIN languages l ON l.id = t.language_id
+WHERE p.term_id = :termId;
+
+upsertProgress:
+INSERT OR REPLACE INTO practice_progress(term_id, level, streak, asked, right_answers, last_practised, updated_at) VALUES ?;
+
+deleteProgress:
+DELETE FROM practice_progress WHERE term_id = :termId;
+
+changedExamples:
+SELECT e.*, t.text_lc, l.name AS language FROM practice_examples e JOIN terms t ON t.id = e.term_id JOIN languages l ON l.id = t.language_id
+WHERE e.updated_at > :since;
+
+exampleOf:
+SELECT e.*, t.text_lc, l.name AS language FROM practice_examples e JOIN terms t ON t.id = e.term_id JOIN languages l ON l.id = t.language_id
+WHERE e.term_id = :termId AND e.sentence = :sentence;
+
+upsertExample:
+INSERT OR REPLACE INTO practice_examples(term_id, sentence, translation, form, form_start, source, source_id, fetched_at, updated_at)
+VALUES (:termId, :sentence, :translation, :form, :formStart, :source, :sourceId, :fetchedAt, :updatedAt);
+
+deleteExample:
+DELETE FROM practice_examples WHERE term_id = :termId AND sentence = :sentence;
+
+changedLevels:
+SELECT v.level, v.updated_at, l.name AS language FROM vocabulary_levels v JOIN languages l ON l.id = v.language_id WHERE v.updated_at > :since;
+
+levelOf:
+SELECT v.level, v.updated_at, l.name AS language FROM vocabulary_levels v JOIN languages l ON l.id = v.language_id WHERE v.language_id = :languageId;
+
+upsertLevel:
+INSERT OR REPLACE INTO vocabulary_levels(language_id, level, updated_at) VALUES (:languageId, :level, :updatedAt);
+
+deleteLevel:
+DELETE FROM vocabulary_levels WHERE language_id = :languageId;
+
+-- A language's own settings, those its user changes: never the catalog's untouched defaults (0).
+changedLanguages:
+SELECT l.id, l.name, l.show_romanization, l.updated_at, coalesce((SELECT script FROM language_scripts s WHERE s.language_id = l.id), '') AS script
+FROM languages l WHERE l.updated_at > :since AND l.updated_at > 0;
+
+languageSettings:
+SELECT l.id, l.name, l.show_romanization, l.updated_at, coalesce((SELECT script FROM language_scripts s WHERE s.language_id = l.id), '') AS script
+FROM languages l WHERE l.id = :id;
+
+dictionariesOf:
+SELECT use_for, dict_type, url, is_active, sort_order FROM language_dictionaries WHERE language_id = :languageId ORDER BY sort_order, id;
+
+setLanguageSettings:
+UPDATE languages SET show_romanization = :showRomanization, updated_at = :updatedAt WHERE id = :id;
+
+clearDictionaries:
+DELETE FROM language_dictionaries WHERE language_id = :languageId;
+
+addDictionary:
+INSERT INTO language_dictionaries(language_id, use_for, dict_type, url, is_active, sort_order) VALUES (:languageId, :useFor, :dictType, :url, :isActive, :sortOrder);
+
+setScript:
+INSERT OR REPLACE INTO language_scripts(language_id, script) VALUES (:languageId, :script);
+
+clearScript:
+DELETE FROM language_scripts WHERE language_id = :languageId;
+
+-- A language removed elsewhere at :before: everything of it here that is older goes.
+removeTermsBefore:
+DELETE FROM terms WHERE language_id = :languageId AND updated_at < :before;
+
+removeLevelBefore:
+DELETE FROM vocabulary_levels WHERE language_id = :languageId AND updated_at < :before;
+
+languageNames:
+SELECT id, name FROM languages;
+
+tombstone:
+SELECT deleted_at FROM sync_tombstones WHERE kind = :kind AND scope = :scope AND key = :key;
+
+tombstonesSince:
+SELECT * FROM sync_tombstones WHERE deleted_at > :since;
+
+forgetTombstones:
+DELETE FROM sync_tombstones WHERE kind = :kind AND scope = :scope AND key = :key AND deleted_at <= :upTo;
+
+pushed:
+UPDATE sync_state SET last_push_at = :at, full_push = 0 WHERE id = 1;
+
+pulled:
+UPDATE sync_state SET last_seq = :seq WHERE id = 1;

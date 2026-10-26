@@ -87,3 +87,12 @@ interface CloudBackupStore {
 
     suspend fun delete(id: String)
 }
+
+/** What one sync did: the records sent, the records received, and how many of those changed this device. */
+data class SyncSummary(val sent: Int, val received: Int, val changed: Int)
+
+/** Brings this device and the account to the same library: sends what changed here, takes what changed elsewhere. */
+interface LibrarySync {
+    /** Throws [AccountException] when the account cannot be reached or may not sync. */
+    suspend fun syncNow(): SyncSummary
+}
