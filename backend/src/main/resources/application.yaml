@@ -72,6 +72,14 @@ tayra:
       bundle-ids: ${APPLE_BUNDLE_IDS:}
       # Apple Root CA - G3 in PEM (https://www.apple.com/certificateauthority/), which App Store data chains to.
       root-certificates: ${APPLE_ROOT_CERTIFICATES:}
+    google:
+      # The Android app's package name.
+      package-name: ${GOOGLE_PLAY_PACKAGE:}
+      # The JSON key of a service account given access to the app in the Play Console.
+      service-account: ${GOOGLE_PLAY_SERVICE_ACCOUNT:}
+      # Secret part of the Pub/Sub push endpoint: /api/v1/billing/google?token=<this>.
+      push-token: ${GOOGLE_PLAY_PUSH_TOKEN:}
+      api-url: ${GOOGLE_PLAY_API_URL:https://androidpublisher.googleapis.com}
   # Cloud backups: any S3-compatible storage (S3Mock in development, R2, B2 or Hetzner in production).
   storage:
     endpoint: ${S3_ENDPOINT:http://localhost:9090}
