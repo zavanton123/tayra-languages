@@ -491,7 +491,8 @@ The paid release waits for the company, which sets the order: everything that do
 billing account is built first, against a backend whose entitlement is granted by hand for test
 accounts. Billing is the last thing wired in, not the first.
 
-Done so far: Phases 0 to 3, and Phase 5 but for what waits on real use. Sync runs on its own (at
+Done so far: Phases 0 to 3, Phase 5 but for what waits on real use, and of Phase 4 all that needs
+no store or Paddle account to build and test. Sync runs on its own (at
 start, when the app is brought back, 30 s after the last change, every 10 minutes; a switch on the
 account page turns it off), from the account page's "Sync now", and from `tayra sync`. Phase 4,
 billing, waits for the company. What the phases settled on the way:
@@ -527,6 +528,22 @@ billing, waits for the company. What the phases settled on the way:
   changed and pulled, and conflicts (a record sent that lost, wholly or in part), at
   `/actuator/metrics/tayra.sync.*` for requests carrying `X-Admin-Token: $ADMIN_TOKEN`. A hundred
   devices of one account syncing at once converge in under a second on a laptop (ManyDevicesTest).
+- Billing (Phase 4) on the service: a `subscriptions` table keeps each Paddle, App Store and Google
+  Play subscription as its provider last reported it (an older event arriving late changes nothing),
+  and the account's subscription columns follow the one that runs longest. Paddle's webhooks are
+  checked by their HMAC signature (`PADDLE_WEBHOOK_SECRET`) and name the account in
+  `custom_data.user_id`; the App Store's notifications and the iOS app's purchases are JWS checked
+  against Apple's chain and marks (`APPLE_ROOT_CERTIFICATES`, `APPLE_BUNDLE_IDS`) and name it in
+  `appAccountToken`; Google Play's Pub/Sub pushes (`?token=$GOOGLE_PLAY_PUSH_TOKEN`) and the Android
+  app's purchases are read back from the Play Developer API with the service account
+  (`GOOGLE_PLAY_SERVICE_ACCOUNT`), acknowledged, and name it in `obfuscatedExternalAccountId`. The
+  desktop and web apps open `/checkout?account=<id>`, a page that opens Paddle's checkout
+  (`PADDLE_CLIENT_TOKEN`, `PADDLE_ENVIRONMENT`, `PADDLE_MONTHLY_PRICE`, `PADDLE_YEARLY_PRICE`);
+  `/me` gives the account its checkout and, for a store's subscription, the store's page to manage
+  it. Left for when the accounts exist: buying in the Android app (Play Billing, setting the
+  obfuscated account id and reporting to `/api/v1/billing/google/purchases`) and in the iOS app
+  (StoreKit 2 with `appAccountToken`, reporting to `/api/v1/billing/apple/purchases`), Paddle's
+  customer portal for managing a web subscription, and the providers' real settings.
 - The web app calls the service from its own origin (`WEB_ORIGINS`, CORS with credentials) and
   says so with `X-Tayra-Client: web`; its refresh token is then an HttpOnly, Secure, SameSite=Strict
   cookie on `/api/v1/auth`, and the body carries an empty one.
