@@ -491,8 +491,10 @@ The paid release waits for the company, which sets the order: everything that do
 billing account is built first, against a backend whose entitlement is granted by hand for test
 accounts. Billing is the last thing wired in, not the first.
 
-Done so far: Phases 0 to 3. Sync runs from the account page's "Sync now" and from `tayra sync`;
-pull-to-refresh moved to Phase 5 with automatic sync. What Phases 2 and 3 settled on the way:
+Done so far: Phases 0 to 3, and Phase 5 but for what waits on real use. Sync runs on its own (at
+start, when the app is brought back, 30 s after the last change, every 10 minutes; a switch on the
+account page turns it off), from the account page's "Sync now", and from `tayra sync`. Phase 4,
+billing, waits for the company. What the phases settled on the way:
 
 - A word set back to unknown (status 0) is a record; a word never saved, as the reader makes the
   words of every text it shows, is not, and a saved word from another device takes its place whole.
@@ -518,6 +520,20 @@ pull-to-refresh moved to Phase 5 with automatic sync. What Phases 2 and 3 settle
 - The first sync with an account that already holds a library, on a device that has one of its
   own, asks before combining them (`tayra sync --yes` from the command line).
 - The account is known by its id, so one deleted and made again with the same email starts over.
+- Automatic sync never combines two libraries on its own, and stops asking for an account the
+  service refused (no subscription, signed out) until another signs in.
+- The backend limits requests per address (`RATE_LIMIT_AUTH`, 20 a minute for signing up and in and
+  for codes; `RATE_LIMIT_OTHER`, 600) and answers 429 with `rate_limited`; it counts records pushed,
+  changed and pulled, and conflicts (a record sent that lost, wholly or in part), at
+  `/actuator/metrics/tayra.sync.*` for requests carrying `X-Admin-Token: $ADMIN_TOKEN`. A hundred
+  devices of one account syncing at once converge in under a second on a laptop (ManyDevicesTest).
+- The web app calls the service from its own origin (`WEB_ORIGINS`, CORS with credentials) and
+  says so with `X-Tayra-Client: web`; its refresh token is then an HttpOnly, Secure, SameSite=Strict
+  cookie on `/api/v1/auth`, and the body carries an empty one.
+- Applying a pull reads each language's words, cards, reviews and practice once, and writes record
+  by record: a first sync of 35,000 records takes about 30 s in the web app (seven minutes before)
+  and 4 s from the command line. The web app's database is in memory, so each visit takes the
+  library afresh; keeping it in the browser between visits is a web app task of its own.
 
 **Phase 0: client groundwork (about a week, no backend).**
 Migration with `updated_at`, `sync_id`, tombstones, `sync_state`, triggers; `applying` in
