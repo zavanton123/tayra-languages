@@ -396,4 +396,7 @@ internal val frSettings: Map<String, String> = mapOf(
     "When the app starts or comes back, and a little after you change something." to "Au démarrage ou au retour dans l’app, et peu après chaque modification.",
     "Too many tries for now; wait a minute and try again" to "Trop de tentatives ; attendez une minute et réessayez",
     "The last sync did not finish; it is tried again in a while." to "La dernière synchronisation n’a pas abouti ; elle sera relancée sous peu.",
+    "Subscribe" to "S’abonner",
+    "Manage subscription" to "Gérer l’abonnement",
+    "The checkout opens in your browser. Come back here when it is done." to "Le paiement s’ouvre dans votre navigateur. Revenez ici une fois terminé.",
 )

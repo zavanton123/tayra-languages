@@ -96,7 +96,10 @@ class AccountClient(
     }
 
     override suspend fun account(): AccountInfo = call(HttpMethod.Get, "/me", null, Me.serializer()).let { me ->
-        AccountInfo(me.email, me.emailVerified, me.hasPassword, me.providers, Plan(me.subscription.active, me.subscription.activeUntil?.let(Instant::fromEpochMilliseconds), me.subscription.source))
+        val sub = me.subscription
+        // The stores require their own billing in the phone apps: those never send to the web checkout.
+        val checkout = sub.checkoutUrl.takeIf { device().platform !in STORE_PLATFORMS }
+        AccountInfo(me.email, me.emailVerified, me.hasPassword, me.providers, Plan(sub.active, sub.activeUntil?.let(Instant::fromEpochMilliseconds), sub.source, checkout, sub.manageUrl))
     }
 
     override suspend fun sendConfirmationCode() = send(HttpMethod.Post, "/me/email/send-code", null)
@@ -255,6 +258,7 @@ class AccountClient(
     private companion object {
         const val REFRESH = "refresh_token"
         const val EMAIL = "email"
+        val STORE_PLATFORMS = setOf("android", "ios")
         const val USER = "user"
         const val EARLY_SECONDS = 30
         const val TRANSFER_TIMEOUT_MS = 10 * 60_000L

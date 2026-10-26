@@ -14,7 +14,15 @@ data class AccountInfo(
 )
 
 /** Whether the account may sync and back up to the cloud, until when, and what it was bought through. */
-data class Plan(val active: Boolean, val activeUntil: Instant? = null, val source: String? = null)
+data class Plan(
+    val active: Boolean,
+    val activeUntil: Instant? = null,
+    val source: String? = null,
+    /** Where to subscribe in the browser; only for the desktop and web apps, as the stores sell in theirs. */
+    val checkoutUrl: String? = null,
+    /** Where the store the subscription was bought in lets it be changed or cancelled. */
+    val manageUrl: String? = null,
+)
 
 /** A device signed in to the account; [current] is this one. */
 data class SignedInDevice(val id: String, val name: String, val platform: String, val lastUsedAt: Instant, val current: Boolean)

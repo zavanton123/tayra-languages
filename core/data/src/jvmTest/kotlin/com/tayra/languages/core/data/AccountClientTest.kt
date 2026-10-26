@@ -36,14 +36,14 @@ class AccountClientTest {
 
     private val me = """{"id":"u1","email":"reader@example.com","emailVerified":true,"hasPassword":true,"providers":[],"subscription":{"active":true,"activeUntil":1800000000000,"source":"paddle"}}"""
 
-    private fun client(server: String? = "http://service.test", answer: suspend MockRequestHandleScope.(HttpRequestData) -> HttpResponseData) = AccountClient(
+    private fun client(server: String? = "http://service.test", platform: String = "desktop", answer: suspend MockRequestHandleScope.(HttpRequestData) -> HttpResponseData) = AccountClient(
         HttpClient(MockEngine { request ->
             seen += "${request.method.value} ${request.url.encodedPath} ${request.headers[HttpHeaders.Authorization].orEmpty()}".trim()
             answer(request)
         }) { install(HttpTimeout) },
         AccountServer { server },
         secure,
-        device = { DeviceInfo("device-1", "Desk", "desktop") },
+        device = { DeviceInfo("device-1", "Desk", platform) },
     )
 
     private fun MockRequestHandleScope.json(body: String, status: HttpStatusCode = HttpStatusCode.OK) =
@@ -99,6 +99,22 @@ class AccountClientTest {
         client.account()
         assertEquals(listOf("POST /api/v1/auth/refresh", "GET /api/v1/me Bearer access-2", "POST /api/v1/auth/refresh", "GET /api/v1/me Bearer access-3"), seen)
         assertEquals("refresh-2", secure.get("account.http://service.test.refresh_token"), "the spent refresh token is replaced")
+    }
+
+    /** The web checkout is offered where the stores do not sell: on the desktop and the web, not in the phone apps. */
+    @Test
+    fun onlyTheDesktopAndWebAppsAreSentToTheCheckout() = runTest {
+        secure.put("account.http://service.test.refresh_token", "refresh-1")
+        secure.put("account.http://service.test.email", "reader@example.com")
+        val me = """{"id":"u1","email":"reader@example.com","emailVerified":true,"hasPassword":true,"providers":[],
+            "subscription":{"active":false,"checkoutUrl":"http://service.test/checkout?account=u1","manageUrl":null}}"""
+        fun answer(platform: String) = client(platform = platform) { request ->
+            if (request.url.encodedPath == "/api/v1/auth/refresh") json(tokens("access-1", "refresh-1")) else json(me)
+        }
+        assertEquals("http://service.test/checkout?account=u1", answer("desktop").account().plan.checkoutUrl)
+        assertEquals("http://service.test/checkout?account=u1", answer("web").account().plan.checkoutUrl)
+        assertNull(answer("android").account().plan.checkoutUrl)
+        assertNull(answer("ios").account().plan.checkoutUrl)
     }
 
     /** The web app's refresh token is a cookie: the service hands an empty one, and takes an empty one back. */

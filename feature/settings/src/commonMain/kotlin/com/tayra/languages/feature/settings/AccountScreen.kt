@@ -26,10 +26,13 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.account.AccountProblem
 import com.tayra.languages.core.domain.account.CloudBackupInfo
@@ -71,6 +74,8 @@ import kotlin.time.Instant
 fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: () -> Unit, viewModel: AccountViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val compact = LocalWindowWidth.current.isCompact
+    // Back from the checkout in the browser, or from a store, the plan may have changed.
+    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.reload() }
     Scaffold(
         topBar = { AppTopBar(title = if (compact) tr("Account") else APP_NAME, onNavigate = onNavigate, onBack = onBack.takeIf { compact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
@@ -189,8 +194,19 @@ private fun AccountCard(state: AccountUiState, actions: AccountViewModel?) {
     ContentCard(state.signedIn.orEmpty(), subtitle = planText(state), icon = Icons.Default.AccountCircle, modifier = Modifier.testTag("account-card")) {
         Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             if (account != null && !account.emailVerified) ConfirmEmail(state, actions)
-            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            val uri = LocalUriHandler.current
+            val plan = account?.plan
+            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
+                plan?.checkoutUrl?.let { url ->
+                    PrimaryButton(tr("Subscribe"), onClick = { uri.openUri(url) }, modifier = Modifier.testTag("account-subscribe"))
+                }
+                plan?.manageUrl?.let { url ->
+                    SecondaryButton(tr("Manage subscription"), onClick = { uri.openUri(url) }, modifier = Modifier.testTag("account-manage"))
+                }
                 SecondaryButton(tr("Sign out"), onClick = { actions?.signOut() }, enabled = state.busy == null, modifier = Modifier.testTag("account-sign-out"))
+            }
+            if (plan?.checkoutUrl != null) {
+                Text(tr("The checkout opens in your browser. Come back here when it is done."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }
     }

@@ -396,4 +396,7 @@ internal val zhSettings: Map<String, String> = mapOf(
     "When the app starts or comes back, and a little after you change something." to "在应用启动或返回时，以及你更改内容后不久。",
     "Too many tries for now; wait a minute and try again" to "尝试次数过多，请稍等一分钟再试",
     "The last sync did not finish; it is tried again in a while." to "上次同步未完成，稍后会再次尝试。",
+    "Subscribe" to "订阅",
+    "Manage subscription" to "管理订阅",
+    "The checkout opens in your browser. Come back here when it is done." to "结账页面会在浏览器中打开。完成后请回到这里。",
 )

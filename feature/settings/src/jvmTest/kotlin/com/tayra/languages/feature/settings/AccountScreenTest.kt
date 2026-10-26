@@ -1,6 +1,9 @@
 package com.tayra.languages.feature.settings
 
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.graphics.toAwtImage
+import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.platform.UriHandler
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.assertIsNotEnabled
@@ -46,12 +49,12 @@ import kotlin.time.Instant
 class AccountScreenTest {
 
     /** One account with this password, its email not confirmed until the code 123456 is given. */
-    private class FakeAccounts(override val available: Boolean = true, val active: Boolean = true) : AccountRepository, CloudBackupStore {
+    private class FakeAccounts(override val available: Boolean = true, val active: Boolean = true, val checkoutUrl: String? = null, val manageUrl: String? = null) : AccountRepository, CloudBackupStore {
         override val signedIn = MutableStateFlow<String?>(null)
         var confirmed = false
         val kept = mutableListOf<CloudBackupInfo>()
 
-        private fun info() = AccountInfo("reader@example.com", confirmed, true, emptyList(), Plan(active, Instant.parse("2027-01-31T12:00:00Z").takeIf { active }, "paddle".takeIf { active }))
+        private fun info() = AccountInfo("reader@example.com", confirmed, true, emptyList(), Plan(active, Instant.parse("2027-01-31T12:00:00Z").takeIf { active }, "paddle".takeIf { active }, checkoutUrl, manageUrl))
         override suspend fun register(email: String, password: String) = signIn(email, password)
         override suspend fun signIn(email: String, password: String): AccountInfo {
             if (password != "correct horse") throw AccountException(AccountProblem.BAD_CREDENTIALS, "Wrong email or password")
@@ -90,6 +93,9 @@ class AccountScreenTest {
         override suspend fun restore(name: String): Backup { restored += name; return Backup("before.sqlite", null, 1) }
     }
 
+    /** The addresses the page opened in the browser. */
+    private val opened = mutableListOf<String>()
+
     private class FakeSync(var combining: Boolean = false, var failing: Boolean = false) : LibrarySync {
         var syncs = 0
         override suspend fun syncNow(): SyncSummary {
@@ -102,7 +108,11 @@ class AccountScreenTest {
     private fun ComposeUiTest.show(accounts: FakeAccounts, local: FakeBackups = FakeBackups(), sync: LibrarySync = FakeSync(), onRestored: () -> Unit = {}): AccountViewModel {
         val settings = SettingsRepositoryImpl(MapSettings())
         val viewModel = AccountViewModel(accounts, CloudBackupService(local, accounts), AutoSync(sync, accounts, settings, emptyFlow()), settings)
-        setContent { TayraTheme { ProvideWindowWidth { AccountScreen(onNavigate = {}, onBack = {}, onRestored = onRestored, viewModel = viewModel) } } }
+        setContent {
+            CompositionLocalProvider(LocalUriHandler provides object : UriHandler { override fun openUri(uri: String) { opened += uri } }) {
+                TayraTheme { ProvideWindowWidth { AccountScreen(onNavigate = {}, onBack = {}, onRestored = onRestored, viewModel = viewModel) } }
+            }
+        }
         waitForIdle()
         return viewModel
     }
@@ -150,6 +160,28 @@ class AccountScreenTest {
         onNodeWithTag("cloud-backup-0").assertExists()
         assertEquals(1, accounts.kept.size)
         save("ACCOUNT_SCREENSHOT")
+    }
+
+    @Test
+    fun withoutASubscriptionTheCheckoutOpensInTheBrowser() = runDesktopComposeUiTest(width = 1400, height = 1600) {
+        val accounts = FakeAccounts(active = false, checkoutUrl = "https://api.example.com/checkout?account=u1").apply { signedIn.value = "reader@example.com" }
+        show(accounts)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-subscribe").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("account-subscribe").performClick()
+        assertEquals(listOf("https://api.example.com/checkout?account=u1"), opened)
+        onNodeWithText("The checkout opens in your browser. Come back here when it is done.").assertExists()
+        assertEquals(0, onAllNodesWithTag("account-manage").fetchSemanticsNodes().size)
+        save("ACCOUNT_SCREENSHOT", "-subscribe")
+    }
+
+    @Test
+    fun aStoresSubscriptionIsManagedThere() = runDesktopComposeUiTest(width = 1400, height = 1600) {
+        val accounts = FakeAccounts(manageUrl = "https://apps.apple.com/account/subscriptions").apply { signedIn.value = "reader@example.com" }
+        show(accounts)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-manage").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("account-manage").performClick()
+        assertEquals(listOf("https://apps.apple.com/account/subscriptions"), opened)
+        assertEquals(0, onAllNodesWithTag("account-subscribe").fetchSemanticsNodes().size)
     }
 
     @Test
