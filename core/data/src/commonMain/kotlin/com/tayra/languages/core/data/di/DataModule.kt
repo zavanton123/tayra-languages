@@ -178,7 +178,7 @@ val dataModule: Module = module {
     single<LibrarySync> {
         SyncEngine(get(), get(), get<Settings>(), addLanguage = { code ->
             LanguageCatalog.targetLanguages.firstOrNull { LanguageCodes.codeFor(it) == code }?.let { get<LanguageService>().loadPredefined(it, withTutorial = false) }
-        })
+        }, userSettings = get())
     }
     single<LanguageRepository> { LanguageRepositoryImpl(get()) }
     single<BookRepository> { BookRepositoryImpl(get()) }

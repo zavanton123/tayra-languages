@@ -10,6 +10,9 @@ import com.tayra.languages.core.data.db.Practice_progress
 import com.tayra.languages.core.data.db.Sync_tombstones
 import com.tayra.languages.core.data.db.TayraDatabase
 import com.tayra.languages.core.data.db.databaseDispatcher
+import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
+import com.tayra.languages.core.data.settings.SyncedSettings
+import com.tayra.languages.core.data.settings.SyncedValue
 import com.tayra.languages.core.domain.account.AccountException
 import com.tayra.languages.core.domain.account.AccountProblem
 import com.tayra.languages.core.domain.account.LibrarySync
@@ -27,6 +30,8 @@ import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.buildJsonObject
+import kotlinx.serialization.json.put
 import kotlin.time.Clock
 
 /** The account's side of sync: sending records, and taking the ones changed after a change number. */
@@ -56,6 +61,8 @@ class SyncEngine(
     private val settings: Settings,
     /** Makes the catalog's language with the code, which a device that never set it up lacks. */
     private val addLanguage: suspend (code: String) -> Unit = {},
+    /** The settings that follow the account; none when null. */
+    private val userSettings: SettingsRepositoryImpl? = null,
     private val clock: Clock = Clock.System,
 ) : LibrarySync {
     private val running = Mutex()
@@ -77,6 +84,7 @@ class SyncEngine(
         val since = if (state.full_push != 0L) -1L else state.last_push_at ?: -1L
 
         val outgoing = withContext(databaseDispatcher) { Reader(db, device).changedSince(since) }
+            .let { o -> Outgoing(o.records + settingRecords(db, since, device), o.tombstones) }
         for (batch in outgoing.records.chunked(BATCH)) transport.push(PushRequest(device, batch))
         withContext(databaseDispatcher) {
             db.transaction {
@@ -98,7 +106,9 @@ class SyncEngine(
             .mapNotNull { runCatching { SyncJson.decodeFromString(SyncRecord.serializer(), it) }.getOrNull() }
         val toApply = (waiting + incoming).groupBy { it.kind to it.key }.values.map { versions -> versions.reduce(SyncMerge::merge) }
         val have = withContext(databaseDispatcher) { db.syncRecordsQueries.languageNames().awaitAsList().mapNotNull { LanguageCodes.codeFor(it.name) }.toSet() }
-        for (code in toApply.filter { it.kind != LANGUAGE_REMOVED }.mapNotNull(::languageCodeOf).toSet() - have) addLanguage(code)
+        val wanted = toApply.filter { it.kind != LANGUAGE_REMOVED }.mapNotNull(::languageCodeOf) +
+            toApply.filter { it.kind == SyncKinds.SETTING && it.key == SyncedSettings.MY_LANGUAGES }.flatMap { codes(it.data?.string("value")) }
+        for (code in wanted.toSet() - have) addLanguage(code)
         val changed = withContext(databaseDispatcher) {
             db.transactionWithResult {
                 db.syncQueries.setApplying(1)
@@ -110,8 +120,44 @@ class SyncEngine(
                 applied.changed
             }
         }
-        SyncSummary(sent = outgoing.records.size, received = incoming.size, changed = changed)
+        val settingsChanged = applySettings(db, toApply.filter { it.kind == SyncKinds.SETTING }, device)
+        SyncSummary(sent = outgoing.records.size, received = incoming.size, changed = changed + settingsChanged)
     }
+
+    /** The settings that follow the account changed here since [since]; the languages being learned by code. */
+    private suspend fun settingRecords(db: TayraDatabase, since: Long, device: String): List<SyncRecord> {
+        val values = userSettings?.synced() ?: return emptyList()
+        val langs = withContext(databaseDispatcher) { Languages(db.syncRecordsQueries.languageNames().awaitAsList().map { it.id to it.name }) }
+        return values.filter { it.at > since && it.at > 0 }.map { settingRecord(it, langs, device) }
+    }
+
+    private fun settingRecord(value: SyncedValue, langs: Languages, device: String): SyncRecord {
+        val text = if (value.name == SyncedSettings.MY_LANGUAGES) {
+            value.value.split(',').mapNotNull { it.trim().toLongOrNull()?.let(langs.codeOfId::get) }.joinToString(",")
+        } else value.value
+        return SyncRecord(SyncKinds.SETTING, value.name, value.at, data = buildJsonObject { put("value", text) }, deviceId = device)
+    }
+
+    /** Takes the settings from the account that are newer than this device's; how many changed. */
+    private suspend fun applySettings(db: TayraDatabase, records: List<SyncRecord>, device: String): Int {
+        val settings = userSettings ?: return 0
+        if (records.isEmpty()) return 0
+        val langs = withContext(databaseDispatcher) { Languages(db.syncRecordsQueries.languageNames().awaitAsList().map { it.id to it.name }) }
+        val mine = settings.synced().associateBy { it.name }
+        val taken = records.mapNotNull { remote ->
+            val here = mine[remote.key] ?: return@mapNotNull null
+            val local = settingRecord(here, langs, device).takeIf { here.at > 0 }
+            val merged = if (local == null) remote else SyncMerge.merge(local, remote)
+            if (merged.deleted || (local != null && merged.updatedAt == local.updatedAt && merged.data == local.data)) return@mapNotNull null
+            val text = merged.data?.string("value") ?: return@mapNotNull null
+            val value = if (remote.key == SyncedSettings.MY_LANGUAGES) codes(text).mapNotNull { langs.idOf[it] }.joinToString(",") else text
+            SyncedValue(remote.key, value, merged.updatedAt)
+        }
+        if (taken.isNotEmpty()) settings.applySynced(taken)
+        return taken.size
+    }
+
+    private fun codes(text: String?): List<String> = text.orEmpty().split(',').map { it.trim() }.filter { it.isNotEmpty() }
 
     private class Outgoing(val records: List<SyncRecord>, val tombstones: List<Sync_tombstones>)
 
@@ -341,4 +387,5 @@ internal class Languages(rows: List<Pair<Long, String>>) {
     val codeOf: Map<String, String> = rows.mapNotNull { (_, name) -> LanguageCodes.codeFor(name)?.let { name to it } }.toMap()
     val idOf: Map<String, Long> = rows.mapNotNull { (id, name) -> LanguageCodes.codeFor(name)?.let { it to id } }.toMap()
     val nameOf: Map<String, String> = rows.mapNotNull { (_, name) -> LanguageCodes.codeFor(name)?.let { it to name } }.toMap()
+    val codeOfId: Map<Long, String> = rows.mapNotNull { (id, name) -> LanguageCodes.codeFor(name)?.let { id to it } }.toMap()
 }

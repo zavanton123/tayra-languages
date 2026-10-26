@@ -13,6 +13,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
+import kotlin.time.Clock
 
 /**
  * Stores [UserSettings] as key-value pairs; an in-memory snapshot backs the flow so
@@ -22,26 +23,51 @@ class SettingsRepositoryImpl(
     private val store: Settings,
     /** Holds the API keys; the plain [store] never sees them. */
     private val secure: SecureStore = InMemorySecureStore(),
+    private val clock: Clock = Clock.System,
 ) : SettingsRepository {
 
     private val state = MutableStateFlow(load())
+
+    init {
+        // Settings chosen before their changes were timed count as chosen now, so they reach the account.
+        for (field in SyncedSettings.fields) {
+            if (!store.hasKey(SyncedSettings.stampKey(field.name)) && field.read(state.value) != field.read(UserSettings())) stamp(field.name)
+        }
+    }
 
     override val settings: StateFlow<UserSettings> = state.asStateFlow()
 
     override val secretStorage: String get() = secure.description
 
     override suspend fun update(transform: (UserSettings) -> UserSettings) {
-        val updated = state.updateAndGet(transform)
+        val (before, updated) = state.updateAndGet(transform)
         persist(updated)
+        for (field in SyncedSettings.fields) if (field.read(before) != field.read(updated)) stamp(field.name)
     }
 
-    private fun MutableStateFlow<UserSettings>.updateAndGet(transform: (UserSettings) -> UserSettings): UserSettings {
+    private fun MutableStateFlow<UserSettings>.updateAndGet(transform: (UserSettings) -> UserSettings): Pair<UserSettings, UserSettings> {
+        var current: UserSettings
         var result: UserSettings
         do {
-            val current = value
+            current = value
             result = transform(current)
         } while (!compareAndSet(current, result))
-        return result
+        return current to result
+    }
+
+    private fun stamp(name: String, at: Long = clock.now().toEpochMilliseconds()) = store.putLong(SyncedSettings.stampKey(name), at)
+
+    /** The settings that follow the account, with when each last changed here. */
+    fun synced(): List<SyncedValue> = current.let { s ->
+        SyncedSettings.fields.map { SyncedValue(it.name, it.read(s), store.getLong(SyncedSettings.stampKey(it.name), 0)) }
+    }
+
+    /** Takes settings from the account, keeping the times they were changed at. */
+    suspend fun applySynced(values: List<SyncedValue>) {
+        val fields = SyncedSettings.fields.associateBy { it.name }
+        val (_, updated) = state.updateAndGet { s -> values.fold(s) { acc, v -> fields[v.name]?.write?.invoke(acc, v.value) ?: acc } }
+        persist(updated)
+        for (v in values) if (v.name in fields) stamp(v.name, v.at)
     }
 
     /**

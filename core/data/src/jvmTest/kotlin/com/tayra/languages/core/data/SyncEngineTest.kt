@@ -5,6 +5,7 @@ import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
+import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
 import com.tayra.languages.core.data.sync.SyncEngine
 import com.tayra.languages.core.data.sync.SyncTransport
 import com.tayra.languages.core.domain.account.AccountException
@@ -69,7 +70,8 @@ class SyncEngineTest {
         val provider = DatabaseProvider(DatabaseDriverFactory(file))
         val languages = LanguageRepositoryImpl(provider)
         val terms = TermRepositoryImpl(provider)
-        val engine = SyncEngine(provider, account, MapSettings(), addLanguage = { code -> if (code == "pt") portuguese() })
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val engine = SyncEngine(provider, account, MapSettings(), addLanguage = { code -> if (code == "pt") portuguese() }, userSettings = settings)
 
         fun <T> sql(block: Connection.() -> T): T =
             DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}", Properties().apply { put("foreign_keys", "true") }).use(block)
@@ -167,6 +169,28 @@ class SyncEngineTest {
         assertEquals(0, desktop.long("SELECT updated_at FROM languages WHERE name = 'Portuguese'"))
         desktop.engine.syncNow()
         assertEquals(1, desktop.long("SELECT show_romanization FROM languages WHERE name = 'Portuguese'"))
+    }
+
+    @Test
+    fun theLanguagesChosenAndTheLearningSetUpFollowTheAccount() = runBlocking<Unit> {
+        val pt = phone.portuguese()
+        phone.settings.update { it.copy(myLanguages = "$pt", flashcardNewPerDay = 35, themeId = "dark") }
+        phone.engine.syncNow()
+        Thread.sleep(5)
+        // The desktop, set up afterwards with the defaults, takes them; how it looks stays its own.
+        desktop.engine.syncNow()
+        val copy = desktop.portuguese()
+        assertEquals("$copy", desktop.settings.current.myLanguages, "by this device's own id")
+        assertEquals(35, desktop.settings.current.flashcardNewPerDay)
+        assertEquals("default", desktop.settings.current.themeId)
+        assertEquals(0, desktop.engine.syncNow().changed)
+
+        Thread.sleep(5)
+        desktop.settings.update { it.copy(flashcardNewPerDay = 10) }
+        desktop.engine.syncNow()
+        phone.engine.syncNow()
+        assertEquals(10, phone.settings.current.flashcardNewPerDay)
+        assertEquals("$pt", phone.settings.current.myLanguages)
     }
 
     @Test
