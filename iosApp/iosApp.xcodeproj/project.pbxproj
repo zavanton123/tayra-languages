@@ -12,6 +12,7 @@
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
 		B1C2D3E4F5A6071829304A5E /* SherpaSpeechBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2D3E4F5A6071829304A5D /* SherpaSpeechBridge.swift */; };
+		C2D3E4F5A6B7182930415B6E /* StoreKitPurchasesBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3E4F5A6B7182930415B6D /* StoreKitPurchasesBridge.swift */; };
 		B1C2D3E4F5A6071829304A5C /* SherpaSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2D3E4F5A6071829304A5B /* SherpaSpeech.swift */; };
 		A1B2C3D4E5F60718293A4B5D /* MlKitTranslatorBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B5C /* MlKitTranslatorBridge.swift */; };
 		F291438C85615BBE9884F994 /* Pods_iosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7F725C515D4CF45054BE44 /* Pods_iosApp.framework */; };
@@ -27,6 +28,7 @@
 		B1C2D3E4F5A6071829304A5F /* iosApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iosApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B1C2D3E4F5A6071829304A5D /* SherpaSpeechBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherpaSpeechBridge.swift; sourceTree = "<group>"; };
+		C2D3E4F5A6B7182930415B6D /* StoreKitPurchasesBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitPurchasesBridge.swift; sourceTree = "<group>"; };
 		B1C2D3E4F5A6071829304A5B /* SherpaSpeech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherpaSpeech.swift; sourceTree = "<group>"; };
 		A1B2C3D4E5F60718293A4B5C /* MlKitTranslatorBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MlKitTranslatorBridge.swift; sourceTree = "<group>"; };
 		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				7555FF82242A565900829871 /* ContentView.swift */,
 				B1C2D3E4F5A6071829304A5F /* iosApp-Bridging-Header.h */,
 				B1C2D3E4F5A6071829304A5D /* SherpaSpeechBridge.swift */,
+				C2D3E4F5A6B7182930415B6D /* StoreKitPurchasesBridge.swift */,
 				B1C2D3E4F5A6071829304A5B /* SherpaSpeech.swift */,
 				A1B2C3D4E5F60718293A4B5C /* MlKitTranslatorBridge.swift */,
 				7555FF8C242A565B00829871 /* Info.plist */,
@@ -270,6 +273,7 @@
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 				B1C2D3E4F5A6071829304A5E /* SherpaSpeechBridge.swift in Sources */,
+				C2D3E4F5A6B7182930415B6E /* StoreKitPurchasesBridge.swift in Sources */,
 				B1C2D3E4F5A6071829304A5C /* SherpaSpeech.swift in Sources */,
 				A1B2C3D4E5F60718293A4B5D /* MlKitTranslatorBridge.swift in Sources */,
 			);

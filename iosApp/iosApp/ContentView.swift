@@ -4,7 +4,7 @@ import Shared
 
 struct ComposeView: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> UIViewController {
-        MainViewControllerKt.MainViewController(translator: MlKitTranslatorBridge(), speech: SherpaSpeechBridge())
+        MainViewControllerKt.MainViewController(translator: MlKitTranslatorBridge(), speech: SherpaSpeechBridge(), store: StoreKitPurchasesBridge())
     }
 
     func updateUIViewController(_ uiViewController: UIViewController, context: Context) {}

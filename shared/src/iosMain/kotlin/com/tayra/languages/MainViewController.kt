@@ -4,9 +4,12 @@ import androidx.compose.ui.window.ComposeUIViewController
 import com.tayra.languages.core.data.speech.SherpaKokoroEngine
 import com.tayra.languages.core.data.speech.SherpaPiperEngine
 import com.tayra.languages.core.domain.service.LocalSpeech
+import com.tayra.languages.core.domain.account.StorePurchases
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.speech.IosSherpaRuntime
 import com.tayra.languages.speech.OnDeviceSpeechBridge
+import com.tayra.languages.store.BridgedStorePurchases
+import com.tayra.languages.store.StoreKitBridge
 import com.tayra.languages.di.initKoin
 import com.tayra.languages.translation.BridgedSentenceTranslator
 import com.tayra.languages.translation.OnDeviceTranslatorBridge
@@ -14,11 +17,11 @@ import org.koin.dsl.module
 import org.koin.mp.KoinPlatform
 
 /**
- * [translator] is the Swift ML Kit bridge and [speech] the Swift sherpa-onnx bridge; either may be
- * null to run without that on-device engine.
+ * [translator] is the Swift ML Kit bridge, [speech] the Swift sherpa-onnx bridge and [store] the
+ * Swift StoreKit bridge; any may be null to run without it.
  */
 @Suppress("unused", "FunctionName")
-fun MainViewController(translator: OnDeviceTranslatorBridge? = null, speech: OnDeviceSpeechBridge? = null) = ComposeUIViewController {
+fun MainViewController(translator: OnDeviceTranslatorBridge? = null, speech: OnDeviceSpeechBridge? = null, store: StoreKitBridge? = null) = ComposeUIViewController {
     if (KoinPlatform.getKoinOrNull() == null) {
         initKoin(
             listOf(
@@ -28,6 +31,7 @@ fun MainViewController(translator: OnDeviceTranslatorBridge? = null, speech: OnD
                         val runtime = speech?.let { IosSherpaRuntime(it) }
                         LocalSpeech(if (runtime == null) emptyList() else listOf(SherpaPiperEngine(runtime), SherpaKokoroEngine(runtime)))
                     }
+                    store?.let { bridge -> single<StorePurchases> { BridgedStorePurchases(bridge) } }
                 },
             ),
         )
