@@ -1,5 +1,6 @@
 package com.tayra.languages.backend.auth
 
+import com.tayra.languages.backend.backup.Backups
 import kotlinx.serialization.Serializable
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.http.HttpStatus
@@ -64,7 +65,7 @@ class Entitlements(
 }
 
 @Service
-class AccountService(private val jdbc: JdbcClient, private val entitlements: Entitlements) {
+class AccountService(private val jdbc: JdbcClient, private val entitlements: Entitlements, private val backups: Backups) {
 
     fun me(userId: UUID): Me {
         data class Row(val email: String, val verified: Boolean, val password: Boolean, val google: Boolean, val apple: Boolean)
@@ -86,9 +87,10 @@ class AccountService(private val jdbc: JdbcClient, private val entitlements: Ent
         jdbc.sql("DELETE FROM refresh_tokens WHERE user_id = ? AND device_id = ?").params(userId, deviceId).update()
     }
 
-    /** Deletes the account and everything kept for it; every device is signed out with it. */
+    /** Deletes the account and everything kept for it, its backup files first; every device is signed out with it. */
     @Transactional
     fun delete(userId: UUID) {
+        backups.deleteAll(userId)
         jdbc.sql("DELETE FROM users WHERE id = ?").param(userId).update()
     }
 }

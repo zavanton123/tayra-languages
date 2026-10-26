@@ -16,12 +16,21 @@ services:
       test: ["CMD-SHELL", "pg_isready -U tayra -d tayra"]
       interval: 2s
       retries: 30
+  # Stands in for the S3-compatible storage of cloud backups (R2, B2 or Hetzner in production).
+  storage:
+    image: adobe/s3mock:4.7.0
+    environment:
+      COM_ADOBE_TESTING_S3MOCK_STORE_INITIAL_BUCKETS: tayra-backups
   app:
     build: .
     depends_on:
       db:
         condition: service_healthy
+      storage:
+        condition: service_started
     environment:
+      S3_ENDPOINT: http://storage:9090
+      TAYRA_FREE_EMAILS: ${TAYRA_FREE_EMAILS:-}
       DATABASE_URL: jdbc:postgresql://db:5432/tayra
       DATABASE_USER: tayra
       DATABASE_PASSWORD: tayra

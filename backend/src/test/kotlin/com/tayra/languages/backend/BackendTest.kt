@@ -32,7 +32,7 @@ class BackendTest(@Autowired private val mvc: MockMvc, @Autowired private val jd
     fun itIsHealthyWithItsSchema() {
         mvc.get("/actuator/health").andExpect { status { isOk() }; jsonPath("$.status") { value("UP") } }
         val tables = jdbc.queryForList("SELECT table_name FROM information_schema.tables WHERE table_schema = 'public' ORDER BY table_name", String::class.java)
-        assertEquals(listOf("email_codes", "flyway_schema_history", "refresh_tokens", "users"), tables)
+        assertEquals(listOf("backups", "email_codes", "flyway_schema_history", "refresh_tokens", "users"), tables)
     }
 
     @Test

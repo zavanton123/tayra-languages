@@ -16,7 +16,9 @@ kotlin {
 
 dependencies {
     implementation(platform(libs.spring.boot.dependencies))
+    implementation(platform("software.amazon.awssdk:bom:2.55.15"))
     implementation(projects.syncProtocol)
+    implementation("software.amazon.awssdk:s3")
     implementation("org.springframework.boot:spring-boot-starter-webmvc")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation("org.springframework.boot:spring-boot-starter-security")

@@ -10,6 +10,9 @@ spring:
   threads:
     virtual:
       enabled: true
+  servlet:
+    multipart:
+      enabled: false
 server:
   port: ${PORT:8080}
   shutdown: graceful
@@ -47,5 +50,15 @@ tayra:
       issuers: https://appleid.apple.com
   # Accounts that may sync without paying, comma-separated: the owner's own, before billing exists.
   free-emails: ${TAYRA_FREE_EMAILS:}
+  # Cloud backups: any S3-compatible storage (S3Mock in development, R2, B2 or Hetzner in production).
+  storage:
+    endpoint: ${S3_ENDPOINT:http://localhost:9090}
+    region: ${S3_REGION:auto}
+    bucket: ${S3_BUCKET:tayra-backups}
+    access-key: ${S3_ACCESS_KEY:development}
+    secret-key: ${S3_SECRET_KEY:development}
+  backups:
+    keep: 3
+    max-megabytes: 300
   mail:
     from: ${MAIL_FROM:Tayra Languages <no-reply@localhost>}
