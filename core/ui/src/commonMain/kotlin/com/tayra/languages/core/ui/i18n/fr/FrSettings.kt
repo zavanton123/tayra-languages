@@ -394,4 +394,5 @@ internal val frSettings: Map<String, String> = mapOf(
     "Last synced {0}" to "Dernière synchronisation : {0}",
     "Sync automatically" to "Synchroniser automatiquement",
     "When the app starts or comes back, and a little after you change something." to "Au démarrage ou au retour dans l’app, et peu après chaque modification.",
+    "Too many tries for now; wait a minute and try again" to "Trop de tentatives ; attendez une minute et réessayez",
 )

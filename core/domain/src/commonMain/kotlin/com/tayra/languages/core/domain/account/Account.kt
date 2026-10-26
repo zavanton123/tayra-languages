@@ -35,6 +35,8 @@ enum class AccountProblem {
     SIGNED_OUT,
     SUBSCRIPTION_REQUIRED,
     TOO_LARGE,
+    /** Too many requests from this address for now: a minute later they are taken again. */
+    BUSY,
     NOT_FOUND,
     INVALID,
     SERVER,

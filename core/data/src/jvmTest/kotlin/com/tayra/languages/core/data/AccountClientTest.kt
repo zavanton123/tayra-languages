@@ -121,6 +121,8 @@ class AccountClientTest {
         assertEquals(AccountProblem.OFFLINE, assertFailsWith<AccountException> { down.signIn("reader@example.com", "password") }.problem)
         val broken = client { respond("oops", HttpStatusCode.BadGateway) }
         assertEquals(AccountProblem.SERVER, assertFailsWith<AccountException> { broken.forgotPassword("reader@example.com") }.problem)
+        val busy = client { json("""{"error":"rate_limited","message":"Too many requests; try again in a minute"}""", HttpStatusCode.TooManyRequests) }
+        assertEquals(AccountProblem.BUSY, assertFailsWith<AccountException> { busy.signIn("reader@example.com", "password") }.problem)
     }
 
     @Test

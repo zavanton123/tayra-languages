@@ -394,4 +394,5 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Last synced {0}" to "上次同步：{0}",
     "Sync automatically" to "自动同步",
     "When the app starts or comes back, and a little after you change something." to "在应用启动或返回时，以及你更改内容后不久。",
+    "Too many tries for now; wait a minute and try again" to "尝试次数过多，请稍等一分钟再试",
 )

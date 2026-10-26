@@ -394,4 +394,5 @@ internal val elSettings: Map<String, String> = mapOf(
     "Last synced {0}" to "Τελευταίος συγχρονισμός: {0}",
     "Sync automatically" to "Αυτόματος συγχρονισμός",
     "When the app starts or comes back, and a little after you change something." to "Όταν η εφαρμογή ξεκινά ή επιστρέφει, και λίγο μετά από κάθε αλλαγή σας.",
+    "Too many tries for now; wait a minute and try again" to "Πάρα πολλές προσπάθειες· περιμένετε ένα λεπτό και δοκιμάστε ξανά",
 )

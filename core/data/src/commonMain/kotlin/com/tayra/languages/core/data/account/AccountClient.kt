@@ -230,6 +230,7 @@ class AccountClient(
             ApiErrors.SIGNED_OUT -> AccountProblem.SIGNED_OUT
             ApiErrors.SUBSCRIPTION_REQUIRED -> AccountProblem.SUBSCRIPTION_REQUIRED
             ApiErrors.TOO_LARGE -> AccountProblem.TOO_LARGE
+            ApiErrors.RATE_LIMITED -> AccountProblem.BUSY
             ApiErrors.NOT_FOUND -> AccountProblem.NOT_FOUND
             ApiErrors.INVALID_REQUEST -> AccountProblem.INVALID
             else -> when (response.status.value) {
@@ -237,6 +238,7 @@ class AccountClient(
                 402 -> AccountProblem.SUBSCRIPTION_REQUIRED
                 404 -> AccountProblem.NOT_FOUND
                 413 -> AccountProblem.TOO_LARGE
+                429 -> AccountProblem.BUSY
                 in 400..499 -> AccountProblem.INVALID
                 else -> AccountProblem.SERVER
             }

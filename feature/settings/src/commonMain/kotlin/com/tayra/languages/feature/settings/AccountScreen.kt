@@ -385,6 +385,7 @@ private fun ProblemNotice(problem: AccountProblem, text: String?) {
             AccountProblem.SIGNED_OUT -> tr("This device was signed out")
             AccountProblem.SUBSCRIPTION_REQUIRED -> tr("This needs an active subscription")
             AccountProblem.TOO_LARGE -> tr("The library is too large to back up to the cloud")
+            AccountProblem.BUSY -> tr("Too many tries for now; wait a minute and try again")
             AccountProblem.NOT_FOUND -> tr("That is no longer in your account")
             AccountProblem.INVALID -> text ?: tr("That was not accepted")
             AccountProblem.SERVER -> tr("Something went wrong on the account service; try again later")
