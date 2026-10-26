@@ -45,5 +45,7 @@ tayra:
       client-ids: ${APPLE_CLIENT_IDS:}
       jwks-uri: ${APPLE_JWKS_URI:https://appleid.apple.com/auth/keys}
       issuers: https://appleid.apple.com
+  # Accounts that may sync without paying, comma-separated: the owner's own, before billing exists.
+  free-emails: ${TAYRA_FREE_EMAILS:}
   mail:
     from: ${MAIL_FROM:Tayra Languages <no-reply@localhost>}
