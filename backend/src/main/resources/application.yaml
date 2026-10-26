@@ -25,3 +25,9 @@ management:
     health:
       probes:
         enabled: true
+tayra:
+  auth:
+    # At least 32 bytes; signs the access tokens. The default is for development only.
+    jwt-secret: ${JWT_SECRET:development-only-secret-change-me-0123456789}
+    access-token-minutes: 15
+    refresh-token-days: 90
