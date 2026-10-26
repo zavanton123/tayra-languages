@@ -8,4 +8,4 @@ internal actual fun deviceLabel(): DeviceLabel {
     return DeviceLabel(name.trim(), "android")
 }
 
-internal actual fun defaultAccountServer(): String? = null
+internal actual fun accountServerOverride(): String? = null

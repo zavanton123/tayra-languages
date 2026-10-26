@@ -11,8 +11,11 @@ internal data class DeviceLabel(val name: String, val platform: String)
 
 internal expect fun deviceLabel(): DeviceLabel
 
-/** The account service this build talks to unless Settings name another; null for none. */
-internal expect fun defaultAccountServer(): String?
+/** The account service this build talks to unless Settings name another: the one it was made with, unless the platform sets another; null for none. */
+internal fun defaultAccountServer(): String? = accountServerOverride() ?: BUILD_ACCOUNT_SERVER.takeIf { it.isNotBlank() }
+
+/** An account service's address set on the platform instead of the build's, for one run locally; null for none. */
+internal expect fun accountServerOverride(): String?
 
 /** This device as the account service knows it: the id its sync state was given, and its label. */
 internal suspend fun thisDevice(provider: DatabaseProvider): DeviceInfo {

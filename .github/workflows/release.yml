@@ -14,6 +14,9 @@ permissions:
 
 env:
   RELEASE_TAG: ${{ github.event.release.tag_name || inputs.tag }}
+  # The account service the apps are built to use (the repository variable ACCOUNT_SERVER, such as
+  # https://api.example.com); without it they are built without accounts, sync and cloud backups.
+  TAYRA_ACCOUNT_SERVER: ${{ vars.ACCOUNT_SERVER }}
 
 # Data releases (courses-v1, freedict-v1, ...) only carry data files, so the apps are built for app tags (vX.Y.Z) alone,
 # and a data release hands the "latest" mark back to the newest app release, which the app's updates and the README link to.

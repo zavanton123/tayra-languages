@@ -4,4 +4,4 @@ import platform.UIKit.UIDevice
 
 internal actual fun deviceLabel(): DeviceLabel = DeviceLabel(UIDevice.currentDevice.name, "ios")
 
-internal actual fun defaultAccountServer(): String? = null
+internal actual fun accountServerOverride(): String? = null

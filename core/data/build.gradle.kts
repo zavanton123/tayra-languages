@@ -52,6 +52,26 @@ fun tesseractNatives(platform: String): List<String> = listOf(
     "org.bytedeco:tesseract:${libs.versions.bytedeco.tesseract.get()}:$platform",
 )
 
+// The account service's address the apps are built with (-PaccountServer=https://…, or
+// TAYRA_ACCOUNT_SERVER); empty builds have no account service.
+val accountServer = providers.gradleProperty("accountServer").orElse(providers.environmentVariable("TAYRA_ACCOUNT_SERVER")).orElse("")
+val generateBuildAccountServer by tasks.registering {
+    val server = accountServer
+    val output = layout.buildDirectory.dir("generated/accountServer/kotlin")
+    inputs.property("accountServer", server)
+    outputs.dir(output)
+    doLast {
+        val file = output.get().file("com/tayra/languages/core/data/account/BuildAccountServer.kt").asFile
+        file.parentFile.mkdirs()
+        val value = server.get().trim().replace("\\", "").replace("\"", "").replace("$", "")
+        file.writeText(
+            "package com.tayra.languages.core.data.account\n\n" +
+                "/** The account service's address this build was made with; empty for none. */\n" +
+                "internal const val BUILD_ACCOUNT_SERVER = \"$value\"\n",
+        )
+    }
+}
+
 kotlin {
     applyDefaultHierarchyTemplate()
 
@@ -65,6 +85,7 @@ kotlin {
             implementation(libs.bytedeco.tesseract)
         }
 
+        commonMain.get().kotlin.srcDir(generateBuildAccountServer)
         commonMain.dependencies {
             api(projects.core.domain)
             implementation(projects.syncProtocol)

@@ -9,5 +9,5 @@ internal actual fun deviceLabel(): DeviceLabel {
 }
 
 /** Set by TAYRA_API_URL or -Dtayra.apiUrl, for a service run locally. */
-internal actual fun defaultAccountServer(): String? =
+internal actual fun accountServerOverride(): String? =
     (System.getProperty("tayra.apiUrl") ?: System.getenv("TAYRA_API_URL"))?.takeIf { it.isNotBlank() }
