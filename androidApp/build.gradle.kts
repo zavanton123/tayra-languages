@@ -11,6 +11,9 @@ dependencies {
     implementation(libs.koin.core)
     implementation(libs.filekit.dialogs.compose)
     implementation(libs.android.billing.ktx)
+    implementation(libs.androidx.credentials)
+    implementation(libs.androidx.credentials.play.services)
+    implementation(libs.googleid)
 }
 
 // Release builds pass the version from the git tag; local builds fall back to these values.

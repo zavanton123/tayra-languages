@@ -28,14 +28,13 @@ import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import java.lang.ref.WeakReference
 import kotlin.coroutines.resume
 
 /**
  * Google Play Billing as the Android app's store. A purchase carries the account's id as Play's
  * obfuscated account id, which the service reads back from Play; the service acknowledges it.
  */
-class PlayStorePurchases(context: Context) : StorePurchases {
+class PlayStorePurchases(context: Context, private val activity: () -> Activity?) : StorePurchases {
     private val updates = MutableSharedFlow<Pair<BillingResult, List<Purchase>?>>(extraBufferCapacity = 4)
     private val client = BillingClient.newBuilder(context)
         .setListener { result, purchases -> updates.tryEmit(result to purchases) }
@@ -44,9 +43,6 @@ class PlayStorePurchases(context: Context) : StorePurchases {
         .build()
     private val connecting = Mutex()
     private val details = mutableMapOf<String, ProductDetails>()
-
-    /** The activity Play shows its purchase sheet over: the app's, while it is open. */
-    var activity: WeakReference<Activity>? = null
 
     override suspend fun products(ids: List<String>): List<StoreProduct> {
         connect()
@@ -66,7 +62,7 @@ class PlayStorePurchases(context: Context) : StorePurchases {
         connect()
         val product = details[productId] ?: run { products(listOf(productId)); details[productId] } ?: throw StoreException("Google Play does not sell $productId here")
         val offer = basePlan(product) ?: throw StoreException("Google Play has no plan for $productId")
-        val activity = activity?.get() ?: throw StoreException("Open the app to subscribe")
+        val activity = activity() ?: throw StoreException("Open the app to subscribe")
         val params = BillingFlowParams.newBuilder()
             .setProductDetailsParamsList(listOf(BillingFlowParams.ProductDetailsParams.newBuilder().setProductDetails(product).setOfferToken(offer.offerToken).build()))
             .setObfuscatedAccountId(accountId)

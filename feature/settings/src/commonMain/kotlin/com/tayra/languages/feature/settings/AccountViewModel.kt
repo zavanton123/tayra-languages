@@ -94,8 +94,14 @@ class AccountViewModel(
     /** Reads what the account holds again, when signed in. */
     fun reload() {
         _state.update { it.copy(available = accounts.available, server = settings.current.accountServer, signedIn = accounts.signedIn.value) }
-        if (accounts.signedIn.value != null) work(AccountTask.LOADING) { load() }
-        else if (identity != null && accounts.available) viewModelScope.launch {
+        if (accounts.signedIn.value != null) work(AccountTask.LOADING) { load() } else offerProviders()
+    }
+
+    /** Asks the service which providers it takes, for the sign-in to offer the ones this app can use. */
+    private fun offerProviders() {
+        val identity = identity ?: return
+        if (!accounts.available) return
+        viewModelScope.launch {
             clients = accounts.signInClients()
             _state.update { it.copy(signInProviders = identity.offers(clients)) }
         }
@@ -121,6 +127,7 @@ class AccountViewModel(
     fun signOut() = work(AccountTask.LOADING) {
         accounts.signOut()
         _state.update { AccountUiState(available = it.available, server = it.server, autoSync = it.autoSync) }
+        offerProviders()
     }
 
     fun sendCode() = work(AccountTask.SENDING_CODE) {
@@ -189,6 +196,7 @@ class AccountViewModel(
     fun deleteAccount() = work(AccountTask.DELETING) {
         accounts.deleteAccount()
         _state.update { AccountUiState(available = it.available, server = it.server, autoSync = it.autoSync, done = AccountDone.ACCOUNT_DELETED) }
+        offerProviders()
     }
 
     /** The account service to use instead of the build's own, for one run locally; blank goes back to the build's. */
@@ -256,6 +264,7 @@ class AccountViewModel(
                     val signedOut = e.problem == AccountProblem.SIGNED_OUT
                     (if (signedOut) AccountUiState(available = it.available, server = it.server, autoSync = it.autoSync) else it).copy(problem = e.problem, problemText = e.message)
                 }
+                if (e.problem == AccountProblem.SIGNED_OUT) offerProviders()
             } catch (e: BackupException) {
                 _state.update { it.copy(problem = AccountProblem.INVALID, problemText = e.message) }
             } catch (e: IdentityException) {
