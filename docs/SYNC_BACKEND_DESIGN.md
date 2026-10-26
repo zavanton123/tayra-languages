@@ -491,8 +491,8 @@ The paid release waits for the company, which sets the order: everything that do
 billing account is built first, against a backend whose entitlement is granted by hand for test
 accounts. Billing is the last thing wired in, not the first.
 
-Done so far: Phases 0, 1 and 2. Sync runs from the account page's "Sync now" and from `tayra
-sync`; pull-to-refresh moved to Phase 5 with automatic sync. What Phase 2 settled on the way:
+Done so far: Phases 0 to 3. Sync runs from the account page's "Sync now" and from `tayra sync`;
+pull-to-refresh moved to Phase 5 with automatic sync. What Phases 2 and 3 settled on the way:
 
 - A word set back to unknown (status 0) is a record; a word never saved, as the reader makes the
   words of every text it shows, is not, and a saved word from another device takes its place whole.
@@ -503,6 +503,21 @@ sync`; pull-to-refresh moved to Phase 5 with automatic sync. What Phase 2 settle
   and takes everything.
 - Applying a language removal deletes that language's words and level older than the removal;
   records made after it stay.
+- A text is keyed by the lesson it was made from, a pack book's address, its language for a
+  tutorial, or else its sync id. The first three carry only reading (current page, page dates,
+  bookmarks) and nothing until they are read, so making them on a new device undoes no reading;
+  the others travel whole, a page a record, and are made once all their pages have arrived. A text
+  over 2 MB stays where it was made. A new text with the same download address, or the same title
+  and first page, as one made here takes that one's place instead of doubling it.
+- Records for a text a device does not have (a pack not installed, a lesson not opened) wait in
+  `sync_pending` and are tried again at each sync. A playlist holding such a text keeps it, and
+  sends it back with the playlist.
+- Synced settings: the native language, the languages being learned (by code), learning levels,
+  the flashcard limits and steps, and the practice setups and presets. Each has its own change
+  time; values chosen before tracking began count as chosen at the first start of this version.
+- The first sync with an account that already holds a library, on a device that has one of its
+  own, asks before combining them (`tayra sync --yes` from the command line).
+- The account is known by its id, so one deleted and made again with the same email starts over.
 
 **Phase 0: client groundwork (about a week, no backend).**
 Migration with `updated_at`, `sync_id`, tombstones, `sync_state`, triggers; `applying` in
