@@ -10,13 +10,16 @@ import com.tayra.languages.core.domain.account.CloudBackupInfo
 import com.tayra.languages.core.domain.account.CloudBackupStore
 import com.tayra.languages.core.domain.account.Plan
 import com.tayra.languages.core.domain.account.SignedInDevice
+import com.tayra.languages.core.domain.account.StoreReceipt
 import com.tayra.languages.sync.ApiError
 import com.tayra.languages.sync.ApiErrors
+import com.tayra.languages.sync.AppStorePurchase
 import com.tayra.languages.sync.CloudBackup
 import com.tayra.languages.sync.CodeRequest
 import com.tayra.languages.sync.Device
 import com.tayra.languages.sync.DeviceInfo
 import com.tayra.languages.sync.ForgotRequest
+import com.tayra.languages.sync.GooglePlayPurchase
 import com.tayra.languages.sync.LoginRequest
 import com.tayra.languages.sync.Me
 import com.tayra.languages.sync.PullResponse
@@ -99,7 +102,12 @@ class AccountClient(
         val sub = me.subscription
         // The stores require their own billing in the phone apps: those never send to the web checkout.
         val checkout = sub.checkoutUrl.takeIf { device().platform !in STORE_PLATFORMS }
-        AccountInfo(me.email, me.emailVerified, me.hasPassword, me.providers, Plan(sub.active, sub.activeUntil?.let(Instant::fromEpochMilliseconds), sub.source, checkout, sub.manageUrl))
+        AccountInfo(me.email, me.emailVerified, me.hasPassword, me.providers, Plan(sub.active, sub.activeUntil?.let(Instant::fromEpochMilliseconds), sub.source, checkout, sub.manageUrl), me.id)
+    }
+
+    override suspend fun reportPurchase(receipt: StoreReceipt) = when (receipt) {
+        is StoreReceipt.GooglePlay -> send(HttpMethod.Post, "/billing/google/purchases", json(GooglePlayPurchase.serializer(), GooglePlayPurchase(receipt.productId, receipt.purchaseToken)))
+        is StoreReceipt.AppStore -> send(HttpMethod.Post, "/billing/apple/purchases", json(AppStorePurchase.serializer(), AppStorePurchase(receipt.signedTransaction)))
     }
 
     override suspend fun sendConfirmationCode() = send(HttpMethod.Post, "/me/email/send-code", null)

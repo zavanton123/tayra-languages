@@ -399,4 +399,8 @@ internal val ptSettings: Map<String, String> = mapOf(
     "Subscribe" to "Assinar",
     "Manage subscription" to "Gerir assinatura",
     "The checkout opens in your browser. Come back here when it is done." to "O pagamento abre no navegador. Volte aqui quando terminar.",
+    "Renews automatically until you cancel it in the store's subscriptions." to "Renova-se automaticamente até a cancelar nas assinaturas da loja.",
+    "Restore purchases" to "Restaurar compras",
+    "Thank you: sync and cloud backups are on" to "Obrigado: a sincronização e as cópias na nuvem estão ativas",
+    "Your purchases are restored" to "As suas compras foram restauradas",
 )

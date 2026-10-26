@@ -31,6 +31,11 @@ import com.tayra.languages.core.domain.account.CloudBackupStore
 import com.tayra.languages.core.domain.account.LibrarySync
 import com.tayra.languages.core.domain.account.Plan
 import com.tayra.languages.core.domain.account.SignedInDevice
+import com.tayra.languages.core.domain.account.StoreProduct
+import com.tayra.languages.core.domain.account.StoreProducts
+import com.tayra.languages.core.domain.account.StorePurchases
+import com.tayra.languages.core.domain.account.StoreReceipt
+import com.tayra.languages.core.domain.account.Subscriptions
 import com.tayra.languages.core.domain.account.SyncSummary
 import com.tayra.languages.core.domain.backup.Backup
 import com.tayra.languages.core.domain.backup.BackupRepository
@@ -53,8 +58,9 @@ class AccountScreenTest {
         override val signedIn = MutableStateFlow<String?>(null)
         var confirmed = false
         val kept = mutableListOf<CloudBackupInfo>()
+        val reported = mutableListOf<StoreReceipt>()
 
-        private fun info() = AccountInfo("reader@example.com", confirmed, true, emptyList(), Plan(active, Instant.parse("2027-01-31T12:00:00Z").takeIf { active }, "paddle".takeIf { active }, checkoutUrl, manageUrl))
+        private fun info() = AccountInfo("reader@example.com", confirmed, true, emptyList(), Plan(active, Instant.parse("2027-01-31T12:00:00Z").takeIf { active }, "paddle".takeIf { active }, checkoutUrl, manageUrl), id = "u1")
         override suspend fun register(email: String, password: String) = signIn(email, password)
         override suspend fun signIn(email: String, password: String): AccountInfo {
             if (password != "correct horse") throw AccountException(AccountProblem.BAD_CREDENTIALS, "Wrong email or password")
@@ -76,6 +82,7 @@ class AccountScreenTest {
         )
         override suspend fun signOutDevice(id: String) {}
         override suspend fun deleteAccount() { signedIn.value = null }
+        override suspend fun reportPurchase(receipt: StoreReceipt) { reported += receipt }
         override suspend fun list() = kept.reversed()
         override suspend fun upload(name: String, content: ByteArray) =
             CloudBackupInfo("c${kept.size}", name, "Studio Mac", Instant.parse("2026-10-26T10:15:00Z"), content.size.toLong()).also { kept += it }
@@ -105,9 +112,16 @@ class AccountScreenTest {
         override suspend fun needsCombining() = combining
     }
 
-    private fun ComposeUiTest.show(accounts: FakeAccounts, local: FakeBackups = FakeBackups(), sync: LibrarySync = FakeSync(), onRestored: () -> Unit = {}): AccountViewModel {
+    private class FakeStore : StorePurchases {
+        val bought = mutableListOf<Pair<String, String>>()
+        override suspend fun products(ids: List<String>) = listOf(StoreProduct(StoreProducts.MONTHLY, "Monthly", "€3.99"), StoreProduct(StoreProducts.YEARLY, "Yearly", "€29.99"))
+        override suspend fun buy(productId: String, accountId: String): StoreReceipt { bought += productId to accountId; return StoreReceipt.GooglePlay(productId, "token-1") }
+        override suspend fun owned() = listOf<StoreReceipt>(StoreReceipt.GooglePlay(StoreProducts.YEARLY, "token-0"))
+    }
+
+    private fun ComposeUiTest.show(accounts: FakeAccounts, local: FakeBackups = FakeBackups(), sync: LibrarySync = FakeSync(), store: StorePurchases? = null, onRestored: () -> Unit = {}): AccountViewModel {
         val settings = SettingsRepositoryImpl(MapSettings())
-        val viewModel = AccountViewModel(accounts, CloudBackupService(local, accounts), AutoSync(sync, accounts, settings, emptyFlow()), settings)
+        val viewModel = AccountViewModel(accounts, CloudBackupService(local, accounts), AutoSync(sync, accounts, settings, emptyFlow()), settings, store?.let { Subscriptions(it, accounts) })
         setContent {
             CompositionLocalProvider(LocalUriHandler provides object : UriHandler { override fun openUri(uri: String) { opened += uri } }) {
                 TayraTheme { ProvideWindowWidth { AccountScreen(onNavigate = {}, onBack = {}, onRestored = onRestored, viewModel = viewModel) } }
@@ -172,6 +186,25 @@ class AccountScreenTest {
         onNodeWithText("The checkout opens in your browser. Come back here when it is done.").assertExists()
         assertEquals(0, onAllNodesWithTag("account-manage").fetchSemanticsNodes().size)
         save("ACCOUNT_SCREENSHOT", "-subscribe")
+    }
+
+    @Test
+    fun inThePhoneAppsTheStoresPlansAreBoughtThere() = runDesktopComposeUiTest(width = 400, height = 1600) {
+        val accounts = FakeAccounts(active = false).apply { signedIn.value = "reader@example.com" }
+        val store = FakeStore()
+        show(accounts, store = store)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-buy-${StoreProducts.YEARLY}").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Yearly · €29.99").assertExists()
+        onNodeWithText("Renews automatically until you cancel it in the store's subscriptions.").assertExists()
+        save("ACCOUNT_SCREENSHOT", "-store")
+        onNodeWithTag("account-buy-${StoreProducts.YEARLY}").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Thank you: sync and cloud backups are on").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(listOf(StoreProducts.YEARLY to "u1"), store.bought)
+        assertEquals(listOf<StoreReceipt>(StoreReceipt.GooglePlay(StoreProducts.YEARLY, "token-1")), accounts.reported)
+
+        onNodeWithTag("account-restore-purchases").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Your purchases are restored").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(2, accounts.reported.size)
     }
 
     @Test

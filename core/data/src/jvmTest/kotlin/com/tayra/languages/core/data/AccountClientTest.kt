@@ -5,6 +5,7 @@ import com.tayra.languages.core.data.account.AccountServer
 import com.tayra.languages.core.data.settings.InMemorySecureStore
 import com.tayra.languages.core.domain.account.AccountException
 import com.tayra.languages.core.domain.account.AccountProblem
+import com.tayra.languages.core.domain.account.StoreReceipt
 import com.tayra.languages.sync.DeviceInfo
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.mock.MockEngine
@@ -99,6 +100,26 @@ class AccountClientTest {
         client.account()
         assertEquals(listOf("POST /api/v1/auth/refresh", "GET /api/v1/me Bearer access-2", "POST /api/v1/auth/refresh", "GET /api/v1/me Bearer access-3"), seen)
         assertEquals("refresh-2", secure.get("account.http://service.test.refresh_token"), "the spent refresh token is replaced")
+    }
+
+    /** A store's purchase goes to the service as the store gave it, for the service to check with the store. */
+    @Test
+    fun storePurchasesAreHandedToTheService() = runTest {
+        secure.put("account.http://service.test.refresh_token", "refresh-1")
+        secure.put("account.http://service.test.email", "reader@example.com")
+        val bodies = mutableListOf<String>()
+        val client = client { request ->
+            when (request.url.encodedPath) {
+                "/api/v1/auth/refresh" -> json(tokens("access-1", "refresh-1"))
+                else -> { bodies += "${request.url.encodedPath} ${String(request.body.toByteArray())}"; respond("", HttpStatusCode.NoContent) }
+            }
+        }
+        client.reportPurchase(StoreReceipt.GooglePlay("tayra.sync.yearly", "token-1"))
+        client.reportPurchase(StoreReceipt.AppStore("eyJhbGciOiJFUzI1NiJ9.e30.sig"))
+        assertEquals(listOf(
+            """/api/v1/billing/google/purchases {"productId":"tayra.sync.yearly","purchaseToken":"token-1"}""",
+            """/api/v1/billing/apple/purchases {"signedTransaction":"eyJhbGciOiJFUzI1NiJ9.e30.sig"}""",
+        ), bodies)
     }
 
     /** The web checkout is offered where the stores do not sell: on the desktop and the web, not in the phone apps. */

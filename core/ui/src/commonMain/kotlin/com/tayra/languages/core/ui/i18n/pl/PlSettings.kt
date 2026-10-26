@@ -399,4 +399,8 @@ internal val plSettings: Map<String, String> = mapOf(
     "Subscribe" to "Subskrybuj",
     "Manage subscription" to "Zarządzaj subskrypcją",
     "The checkout opens in your browser. Come back here when it is done." to "Płatność otworzy się w przeglądarce. Wróć tutaj, gdy się zakończy.",
+    "Renews automatically until you cancel it in the store's subscriptions." to "Odnawia się automatycznie, dopóki nie anulujesz jej w subskrypcjach sklepu.",
+    "Restore purchases" to "Przywróć zakupy",
+    "Thank you: sync and cloud backups are on" to "Dziękujemy: synchronizacja i kopie w chmurze są włączone",
+    "Your purchases are restored" to "Twoje zakupy zostały przywrócone",
 )

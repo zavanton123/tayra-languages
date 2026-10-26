@@ -399,4 +399,8 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Subscribe" to "订阅",
     "Manage subscription" to "管理订阅",
     "The checkout opens in your browser. Come back here when it is done." to "结账页面会在浏览器中打开。完成后请回到这里。",
+    "Renews automatically until you cancel it in the store's subscriptions." to "自动续订，直到你在商店的订阅中取消。",
+    "Restore purchases" to "恢复购买",
+    "Thank you: sync and cloud backups are on" to "谢谢：同步和云备份已开启",
+    "Your purchases are restored" to "你的购买已恢复",
 )

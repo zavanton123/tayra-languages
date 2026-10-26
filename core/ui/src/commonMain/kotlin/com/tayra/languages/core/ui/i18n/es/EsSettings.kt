@@ -399,4 +399,8 @@ internal val esSettings: Map<String, String> = mapOf(
     "Subscribe" to "Suscribirse",
     "Manage subscription" to "Gestionar suscripción",
     "The checkout opens in your browser. Come back here when it is done." to "El pago se abre en tu navegador. Vuelve aquí cuando termine.",
+    "Renews automatically until you cancel it in the store's subscriptions." to "Se renueva automáticamente hasta que la canceles en las suscripciones de la tienda.",
+    "Restore purchases" to "Restaurar compras",
+    "Thank you: sync and cloud backups are on" to "Gracias: la sincronización y las copias en la nube están activas",
+    "Your purchases are restored" to "Tus compras se han restaurado",
 )

@@ -399,4 +399,8 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Subscribe" to "Оформить подписку",
     "Manage subscription" to "Управление подпиской",
     "The checkout opens in your browser. Come back here when it is done." to "Оплата откроется в браузере. Вернитесь сюда, когда она завершится.",
+    "Renews automatically until you cancel it in the store's subscriptions." to "Продлевается автоматически, пока вы не отмените её в подписках магазина.",
+    "Restore purchases" to "Восстановить покупки",
+    "Thank you: sync and cloud backups are on" to "Спасибо: синхронизация и резервные копии в облаке включены",
+    "Your purchases are restored" to "Ваши покупки восстановлены",
 )

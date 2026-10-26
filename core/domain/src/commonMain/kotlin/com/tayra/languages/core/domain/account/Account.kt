@@ -11,6 +11,8 @@ data class AccountInfo(
     /** "google", "apple": the providers the account can sign in with besides a password. */
     val providers: List<String>,
     val plan: Plan,
+    /** The account's id, which a store purchase carries so the service knows whose it is. */
+    val id: String = "",
 )
 
 /** Whether the account may sync and back up to the cloud, until when, and what it was bought through. */
@@ -85,6 +87,9 @@ interface AccountRepository {
 
     /** Deletes the account and everything the service keeps for it; this device is signed out. */
     suspend fun deleteAccount()
+
+    /** Hands the account service a purchase the store just made, or one made before, for it to check and take. */
+    suspend fun reportPurchase(receipt: StoreReceipt)
 }
 
 /** The account's library files in the cloud. */

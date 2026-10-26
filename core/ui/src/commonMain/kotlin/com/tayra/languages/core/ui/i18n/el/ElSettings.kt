@@ -399,4 +399,8 @@ internal val elSettings: Map<String, String> = mapOf(
     "Subscribe" to "Συνδρομή",
     "Manage subscription" to "Διαχείριση συνδρομής",
     "The checkout opens in your browser. Come back here when it is done." to "Η πληρωμή ανοίγει στο πρόγραμμα περιήγησης. Επιστρέψτε εδώ όταν ολοκληρωθεί.",
+    "Renews automatically until you cancel it in the store's subscriptions." to "Ανανεώνεται αυτόματα μέχρι να την ακυρώσετε στις συνδρομές του καταστήματος.",
+    "Restore purchases" to "Επαναφορά αγορών",
+    "Thank you: sync and cloud backups are on" to "Ευχαριστούμε: ο συγχρονισμός και τα αντίγραφα στο cloud είναι ενεργά",
+    "Your purchases are restored" to "Οι αγορές σας επανήλθαν",
 )

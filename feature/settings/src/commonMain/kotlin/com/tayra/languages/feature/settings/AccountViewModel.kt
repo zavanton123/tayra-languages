@@ -11,6 +11,9 @@ import com.tayra.languages.core.domain.account.CloudBackupService
 import com.tayra.languages.core.domain.account.AutoSync
 import com.tayra.languages.core.domain.account.SyncResult
 import com.tayra.languages.core.domain.account.SignedInDevice
+import com.tayra.languages.core.domain.account.StoreException
+import com.tayra.languages.core.domain.account.StoreProduct
+import com.tayra.languages.core.domain.account.Subscriptions
 import com.tayra.languages.core.domain.account.SyncSummary
 import com.tayra.languages.core.domain.backup.BackupException
 import com.tayra.languages.core.domain.settings.SettingsRepository
@@ -40,6 +43,10 @@ data class AccountUiState(
     val lastSynced: Instant? = null,
     /** Why the last sync, on its own or asked, did not finish. */
     val syncProblem: AccountProblem? = null,
+    /** What the store sells here, while the account has no subscription; empty without a store. */
+    val products: List<StoreProduct> = emptyList(),
+    /** Whether the store can restore purchases here. */
+    val storeAvailable: Boolean = false,
     val autoSync: Boolean = true,
     /** What is under way, shown with a spinner; null when nothing is. */
     val busy: AccountTask? = null,
@@ -52,9 +59,9 @@ data class AccountUiState(
     val done: AccountDone? = null,
 )
 
-enum class AccountTask { SIGNING_IN, LOADING, SENDING_CODE, CONFIRMING, SYNCING, BACKING_UP, RESTORING, DELETING }
+enum class AccountTask { SIGNING_IN, LOADING, SENDING_CODE, CONFIRMING, SUBSCRIBING, SYNCING, BACKING_UP, RESTORING, DELETING }
 
-enum class AccountDone { EMAIL_CONFIRMED, CODE_SENT, PASSWORD_RESET, SYNCED, BACKED_UP, RESTORED, ACCOUNT_DELETED }
+enum class AccountDone { EMAIL_CONFIRMED, CODE_SENT, PASSWORD_RESET, SUBSCRIBED, PURCHASES_RESTORED, SYNCED, BACKED_UP, RESTORED, ACCOUNT_DELETED }
 
 /** The account this device is signed in to, its devices, syncing with it and its cloud backups. */
 class AccountViewModel(
@@ -62,6 +69,8 @@ class AccountViewModel(
     private val cloud: CloudBackupService,
     private val sync: AutoSync,
     private val settings: SettingsRepository,
+    /** Buying in the store, in the phone apps; null elsewhere. */
+    private val subscriptions: Subscriptions? = null,
 ) : ViewModel() {
     private val _state = MutableStateFlow(AccountUiState())
     val state: StateFlow<AccountUiState> = _state.asStateFlow()
@@ -177,7 +186,29 @@ class AccountViewModel(
         val account = accounts.account()
         val devices = accounts.devices()
         val backups = cloud.list()
-        _state.update { it.copy(signedIn = accounts.signedIn.value, account = account, devices = devices, cloudBackups = backups) }
+        // A store that cannot be reached leaves the page as it is, without plans to buy.
+        val store = subscriptions
+        val products = if (store == null || account.plan.active) emptyList() else runCatching { store.products() }.getOrDefault(emptyList())
+        _state.update {
+            it.copy(signedIn = accounts.signedIn.value, account = account, devices = devices, cloudBackups = backups, products = products, storeAvailable = subscriptions != null)
+        }
+    }
+
+    /** Buys the store's [productId] for this account; the plan is read again once the service has the purchase. */
+    fun subscribe(productId: String) = work(AccountTask.SUBSCRIBING) {
+        val store = subscriptions ?: return@work
+        if (!store.subscribe(productId)) return@work
+        load()
+        _state.update { it.copy(done = AccountDone.SUBSCRIBED) }
+        sync.request()
+    }
+
+    /** Hands the service the subscriptions this store account already holds. */
+    fun restorePurchases() = work(AccountTask.SUBSCRIBING) {
+        val store = subscriptions ?: return@work
+        store.restore()
+        load()
+        _state.update { it.copy(done = AccountDone.PURCHASES_RESTORED) }
     }
 
     /** Runs [action] as [task]; a failure is kept for the page to say, and signing out elsewhere shows the sign-in again. */
@@ -195,6 +226,8 @@ class AccountViewModel(
                     (if (signedOut) AccountUiState(available = it.available, server = it.server, autoSync = it.autoSync) else it).copy(problem = e.problem, problemText = e.message)
                 }
             } catch (e: BackupException) {
+                _state.update { it.copy(problem = AccountProblem.INVALID, problemText = e.message) }
+            } catch (e: StoreException) {
                 _state.update { it.copy(problem = AccountProblem.INVALID, problemText = e.message) }
             } catch (e: Exception) {
                 _state.update { it.copy(problem = AccountProblem.SERVER, problemText = e.message) }

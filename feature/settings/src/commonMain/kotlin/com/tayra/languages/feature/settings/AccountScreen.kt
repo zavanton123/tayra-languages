@@ -196,6 +196,7 @@ private fun AccountCard(state: AccountUiState, actions: AccountViewModel?) {
             if (account != null && !account.emailVerified) ConfirmEmail(state, actions)
             val uri = LocalUriHandler.current
             val plan = account?.plan
+            if (state.products.isNotEmpty() && plan?.active == false) StorePlans(state, actions)
             Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
                 plan?.checkoutUrl?.let { url ->
                     PrimaryButton(tr("Subscribe"), onClick = { uri.openUri(url) }, modifier = Modifier.testTag("account-subscribe"))
@@ -209,6 +210,21 @@ private fun AccountCard(state: AccountUiState, actions: AccountViewModel?) {
                 Text(tr("The checkout opens in your browser. Come back here when it is done."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }
+    }
+}
+
+/** The store's plans, in the phone apps, for an account without a subscription. */
+@Composable
+private fun StorePlans(state: AccountUiState, actions: AccountViewModel?) {
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        state.products.forEach { product ->
+            PrimaryButton(
+                "${product.title} · ${product.price}", onClick = { actions?.subscribe(product.id) }, enabled = state.busy == null,
+                loading = state.busy == AccountTask.SUBSCRIBING, modifier = Modifier.testTag("account-buy-${product.id}"),
+            )
+        }
+        Text(tr("Renews automatically until you cancel it in the store's subscriptions."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        QuietButton(tr("Restore purchases"), onClick = { actions?.restorePurchases() }, enabled = state.busy == null, modifier = Modifier.testTag("account-restore-purchases"))
     }
 }
 
@@ -423,6 +439,8 @@ private fun DoneNotice(done: AccountDone) {
             AccountDone.EMAIL_CONFIRMED -> tr("Your email is confirmed")
             AccountDone.CODE_SENT -> tr("A new code is on its way")
             AccountDone.PASSWORD_RESET -> tr("Your new password is set")
+            AccountDone.SUBSCRIBED -> tr("Thank you: sync and cloud backups are on")
+            AccountDone.PURCHASES_RESTORED -> tr("Your purchases are restored")
             AccountDone.SYNCED -> tr("This device is in sync")
             AccountDone.BACKED_UP -> tr("Your library is backed up to the cloud")
             AccountDone.RESTORED -> tr("The backup is restored")

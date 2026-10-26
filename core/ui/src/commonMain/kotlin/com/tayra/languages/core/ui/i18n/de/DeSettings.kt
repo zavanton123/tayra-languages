@@ -399,4 +399,8 @@ internal val deSettings: Map<String, String> = mapOf(
     "Subscribe" to "Abonnieren",
     "Manage subscription" to "Abo verwalten",
     "The checkout opens in your browser. Come back here when it is done." to "Der Bezahlvorgang öffnet sich im Browser. Komm danach hierher zurück.",
+    "Renews automatically until you cancel it in the store's subscriptions." to "Verlängert sich automatisch, bis du es in den Abos des Stores kündigst.",
+    "Restore purchases" to "Käufe wiederherstellen",
+    "Thank you: sync and cloud backups are on" to "Danke: Synchronisierung und Cloud-Sicherungen sind aktiv",
+    "Your purchases are restored" to "Deine Käufe sind wiederhergestellt",
 )

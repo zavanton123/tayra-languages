@@ -49,6 +49,7 @@ class AutoSyncTest {
         override suspend fun devices() = emptyList<SignedInDevice>()
         override suspend fun signOutDevice(id: String) {}
         override suspend fun deleteAccount() {}
+        override suspend fun reportPurchase(receipt: StoreReceipt) {}
     }
 
     private class Settings : SettingsRepository {
