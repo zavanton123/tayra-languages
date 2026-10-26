@@ -1,4 +1,10 @@
-# Running the service on a box of its own
+# Running the service
+
+Each app release also publishes the service as an image, `ghcr.io/<owner>/tayra-backend:<version>`
+(`.github/workflows/release.yml`). On Fly.io it runs from that image with `fly.toml` here (its
+comments give the commands); on a box of its own, as below.
+
+## On a box of its own
 
 `selfhost.yml` runs the service as `docker-compose.yml` does for development, with three changes:
 [Caddy](https://caddyserver.com) in front with HTTPS for the service's domain (it gets and renews the
@@ -6,7 +12,7 @@ certificate itself), the real S3-compatible bucket instead of S3Mock, and the da
 bucket every night. Only Caddy's ports are open; the database and the service are reached through
 it alone.
 
-## Settings
+### Settings
 
 Put every setting in one file, such as `/etc/tayra.env`, readable by root only. The service reads it
 whole, so anything `backend/src/main/resources/application.yaml` takes from the environment goes there.
@@ -31,7 +37,7 @@ ADMIN_TOKEN=…                         # for /actuator/metrics
 # Sign-in, billing and the rest: see application.yaml.
 ```
 
-## Starting and updating
+### Starting and updating
 
 From a checkout of the repository on the box:
 
@@ -43,7 +49,7 @@ docker compose -f backend/docker-compose.yml -f backend/deploy/selfhost.yml --en
 Run the same after pulling a new version; Flyway brings the database up to it as the service starts.
 `docker compose … logs -f app` shows the service's log, `… logs backup` the dumps.
 
-## Restoring the database
+### Restoring the database
 
 The dumps are `db/tayra-<time>.dump` in the bucket, in `pg_dump`'s custom format; `KEEP_DUMPS`
 (14 by default) are kept. To put one back, with the service stopped:

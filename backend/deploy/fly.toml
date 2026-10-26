@@ -1,0 +1,31 @@
+# The service on Fly.io, from the image the release publishes (.github/workflows/release.yml), in an
+# EU region, with Postgres and the bucket elsewhere (Neon or Fly's Postgres; R2, B2 or Hetzner):
+#   fly launch --no-deploy --copy-config --config backend/deploy/fly.toml   (once, then name the app below)
+#   fly secrets set DATABASE_URL=jdbc:postgresql://… DATABASE_USER=… DATABASE_PASSWORD=… JWT_SECRET=… S3_ENDPOINT=… …
+#   fly deploy --config backend/deploy/fly.toml --image ghcr.io/<owner>/tayra-backend:<version>
+# Every setting is an environment variable (backend/src/main/resources/application.yaml); secrets go
+# through `fly secrets`, and the domain through `fly certs add api.example.com`.
+app = "tayra-backend"
+primary_region = "fra"
+
+[env]
+  S3_REGION = "auto"
+  PADDLE_ENVIRONMENT = "production"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  # One machine always up: sync, webhooks and store notifications arrive at any time.
+  auto_stop_machines = "off"
+  min_machines_running = 1
+
+  [[http_service.checks]]
+    method = "GET"
+    path = "/actuator/health/readiness"
+    interval = "15s"
+    timeout = "5s"
+    grace_period = "60s"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "1gb"

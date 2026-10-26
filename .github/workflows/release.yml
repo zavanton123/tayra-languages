@@ -21,6 +21,35 @@ env:
 # Data releases (courses-v1, freedict-v1, ...) only carry data files, so the apps are built for app tags (vX.Y.Z) alone,
 # and a data release hands the "latest" mark back to the newest app release, which the app's updates and the README link to.
 jobs:
+  backend:
+    name: Backend image
+    if: ${{ startsWith(github.event.release.tag_name || inputs.tag, 'v') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.tag_name || inputs.tag }}
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Test and build the service
+        run: ./gradlew --no-daemon :backend:test :backend:bootJar
+      # The image the service is deployed from: ghcr.io/<owner>/tayra-backend:<version>, and :latest.
+      - name: Publish the image
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION="${RELEASE_TAG#v}"
+          IMAGE="ghcr.io/$(echo "$GITHUB_REPOSITORY_OWNER" | tr '[:upper:]' '[:lower:]')/tayra-backend"
+          echo "$GH_TOKEN" | docker login ghcr.io -u "$GITHUB_ACTOR" --password-stdin
+          docker build -t "$IMAGE:$VERSION" -t "$IMAGE:latest" backend
+          docker push --all-tags "$IMAGE"
+
   android:
     name: Android APK
     if: ${{ startsWith(github.event.release.tag_name || inputs.tag, 'v') }}
