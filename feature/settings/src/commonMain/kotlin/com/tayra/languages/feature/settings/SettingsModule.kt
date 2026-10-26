@@ -15,7 +15,7 @@ val settingsModule = module {
     viewModel { SpeechViewModel(get(), get(), get(), getOrNull()) }
     viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }
     viewModel { BackupViewModel(get()) }
-    viewModel { AccountViewModel(get(), get(), get()) }
+    viewModel { AccountViewModel(get(), get(), get(), get()) }
     viewModel { ClearDataViewModel(get()) }
     viewModel { LanguageSetupViewModel(get()) }
 }

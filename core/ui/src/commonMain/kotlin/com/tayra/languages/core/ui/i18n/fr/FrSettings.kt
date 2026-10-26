@@ -382,4 +382,10 @@ internal val frSettings: Map<String, String> = mapOf(
     "The backup is restored" to "La sauvegarde est restaurée",
     "Your account is deleted" to "Votre compte est supprimé",
     "Back up your library to the cloud and use it on all your devices." to "Sauvegardez votre bibliothèque dans le cloud et utilisez-la sur tous vos appareils.",
+    "Sync" to "Synchronisation",
+    "Your words, flashcards and practice, the same on all your devices." to "Vos mots, cartes mémoire et exercices, identiques sur tous vos appareils.",
+    "Syncing needs an active subscription." to "La synchronisation nécessite un abonnement actif.",
+    "Sync now" to "Synchroniser maintenant",
+    "Sent: {0} · Taken from other devices: {1}" to "Envoyées : {0} · Reçues d’autres appareils : {1}",
+    "This device is in sync" to "Cet appareil est synchronisé",
 )

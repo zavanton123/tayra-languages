@@ -382,4 +382,10 @@ internal val deSettings: Map<String, String> = mapOf(
     "The backup is restored" to "Die Sicherung ist wiederhergestellt",
     "Your account is deleted" to "Dein Konto ist gelöscht",
     "Back up your library to the cloud and use it on all your devices." to "Sichere deine Bibliothek in der Cloud und nutze sie auf all deinen Geräten.",
+    "Sync" to "Synchronisierung",
+    "Your words, flashcards and practice, the same on all your devices." to "Deine Wörter, Karteikarten und Übungen, auf allen deinen Geräten gleich.",
+    "Syncing needs an active subscription." to "Die Synchronisierung braucht ein aktives Abo.",
+    "Sync now" to "Jetzt synchronisieren",
+    "Sent: {0} · Taken from other devices: {1}" to "Gesendet: {0} · Von anderen Geräten übernommen: {1}",
+    "This device is in sync" to "Dieses Gerät ist synchronisiert",
 )

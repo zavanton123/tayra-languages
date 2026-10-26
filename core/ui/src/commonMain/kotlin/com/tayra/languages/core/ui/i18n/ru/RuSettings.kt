@@ -382,4 +382,10 @@ internal val ruSettings: Map<String, String> = mapOf(
     "The backup is restored" to "Копия восстановлена",
     "Your account is deleted" to "Аккаунт удалён",
     "Back up your library to the cloud and use it on all your devices." to "Сохраните библиотеку в облаке и пользуйтесь ею на всех устройствах.",
+    "Sync" to "Синхронизация",
+    "Your words, flashcards and practice, the same on all your devices." to "Ваши слова, карточки и упражнения — одинаковые на всех ваших устройствах.",
+    "Syncing needs an active subscription." to "Для синхронизации нужна активная подписка.",
+    "Sync now" to "Синхронизировать",
+    "Sent: {0} · Taken from other devices: {1}" to "Отправлено: {0} · Получено с других устройств: {1}",
+    "This device is in sync" to "Это устройство синхронизировано",
 )

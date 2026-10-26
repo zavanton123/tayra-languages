@@ -3,6 +3,7 @@ package com.tayra.languages.feature.settings
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithTag
@@ -23,8 +24,10 @@ import com.tayra.languages.core.domain.account.AccountRepository
 import com.tayra.languages.core.domain.account.CloudBackupInfo
 import com.tayra.languages.core.domain.account.CloudBackupService
 import com.tayra.languages.core.domain.account.CloudBackupStore
+import com.tayra.languages.core.domain.account.LibrarySync
 import com.tayra.languages.core.domain.account.Plan
 import com.tayra.languages.core.domain.account.SignedInDevice
+import com.tayra.languages.core.domain.account.SyncSummary
 import com.tayra.languages.core.domain.backup.Backup
 import com.tayra.languages.core.domain.backup.BackupRepository
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
@@ -85,8 +88,13 @@ class AccountScreenTest {
         override suspend fun restore(name: String): Backup { restored += name; return Backup("before.sqlite", null, 1) }
     }
 
-    private fun ComposeUiTest.show(accounts: FakeAccounts, local: FakeBackups = FakeBackups(), onRestored: () -> Unit = {}): AccountViewModel {
-        val viewModel = AccountViewModel(accounts, CloudBackupService(local, accounts), SettingsRepositoryImpl(MapSettings()))
+    private class FakeSync : LibrarySync {
+        var syncs = 0
+        override suspend fun syncNow(): SyncSummary { syncs++; return SyncSummary(sent = 3, received = 5, changed = 2) }
+    }
+
+    private fun ComposeUiTest.show(accounts: FakeAccounts, local: FakeBackups = FakeBackups(), sync: LibrarySync = FakeSync(), onRestored: () -> Unit = {}): AccountViewModel {
+        val viewModel = AccountViewModel(accounts, CloudBackupService(local, accounts), sync, SettingsRepositoryImpl(MapSettings()))
         setContent { TayraTheme { ProvideWindowWidth { AccountScreen(onNavigate = {}, onBack = {}, onRestored = onRestored, viewModel = viewModel) } } }
         waitForIdle()
         return viewModel
@@ -138,6 +146,19 @@ class AccountScreenTest {
     }
 
     @Test
+    fun syncingSaysWhatItDid() = runDesktopComposeUiTest(width = 1400, height = 1600) {
+        val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com" }
+        val sync = FakeSync()
+        show(accounts, sync = sync)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("account-sync").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("This device is in sync").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Sent: 3 · Taken from other devices: 2").assertExists()
+        assertEquals(1, sync.syncs)
+        save("ACCOUNT_SCREENSHOT", "-synced")
+    }
+
+    @Test
     fun aCloudBackupIsRestoredAfterAsking() = runDesktopComposeUiTest(width = 1400, height = 1600) {
         val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com" }
         val local = FakeBackups()
@@ -160,6 +181,8 @@ class AccountScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Cloud backups and sync are not active on this account.").assertExists()
         onNodeWithTag("cloud-back-up").performScrollTo().assertExists()
+        onNodeWithText("Syncing needs an active subscription.").assertExists()
+        onNodeWithTag("account-sync").assertIsNotEnabled()
         save("ACCOUNT_SCREENSHOT", "-phone")
     }
 }

@@ -382,4 +382,10 @@ internal val zhSettings: Map<String, String> = mapOf(
     "The backup is restored" to "备份已恢复",
     "Your account is deleted" to "你的账户已删除",
     "Back up your library to the cloud and use it on all your devices." to "将资料库备份到云端，并在所有设备上使用。",
+    "Sync" to "同步",
+    "Your words, flashcards and practice, the same on all your devices." to "你的单词、抽认卡和练习，在所有设备上保持一致。",
+    "Syncing needs an active subscription." to "同步需要有效的订阅。",
+    "Sync now" to "立即同步",
+    "Sent: {0} · Taken from other devices: {1}" to "已发送：{0} · 从其他设备获取：{1}",
+    "This device is in sync" to "此设备已同步",
 )

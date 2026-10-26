@@ -8,7 +8,9 @@ import com.tayra.languages.core.domain.account.AccountProblem
 import com.tayra.languages.core.domain.account.AccountRepository
 import com.tayra.languages.core.domain.account.CloudBackupInfo
 import com.tayra.languages.core.domain.account.CloudBackupService
+import com.tayra.languages.core.domain.account.LibrarySync
 import com.tayra.languages.core.domain.account.SignedInDevice
+import com.tayra.languages.core.domain.account.SyncSummary
 import com.tayra.languages.core.domain.backup.BackupException
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.CancellationException
@@ -28,6 +30,8 @@ data class AccountUiState(
     val account: AccountInfo? = null,
     val devices: List<SignedInDevice> = emptyList(),
     val cloudBackups: List<CloudBackupInfo> = emptyList(),
+    /** What the last sync from this page did. */
+    val synced: SyncSummary? = null,
     /** What is under way, shown with a spinner; null when nothing is. */
     val busy: AccountTask? = null,
     /** What went wrong last, until the next action. */
@@ -39,14 +43,15 @@ data class AccountUiState(
     val done: AccountDone? = null,
 )
 
-enum class AccountTask { SIGNING_IN, LOADING, SENDING_CODE, CONFIRMING, BACKING_UP, RESTORING, DELETING }
+enum class AccountTask { SIGNING_IN, LOADING, SENDING_CODE, CONFIRMING, SYNCING, BACKING_UP, RESTORING, DELETING }
 
-enum class AccountDone { EMAIL_CONFIRMED, CODE_SENT, PASSWORD_RESET, BACKED_UP, RESTORED, ACCOUNT_DELETED }
+enum class AccountDone { EMAIL_CONFIRMED, CODE_SENT, PASSWORD_RESET, SYNCED, BACKED_UP, RESTORED, ACCOUNT_DELETED }
 
-/** The account this device is signed in to, its devices and its cloud backups. */
+/** The account this device is signed in to, its devices, syncing with it and its cloud backups. */
 class AccountViewModel(
     private val accounts: AccountRepository,
     private val cloud: CloudBackupService,
+    private val sync: LibrarySync,
     private val settings: SettingsRepository,
 ) : ViewModel() {
     private val _state = MutableStateFlow(AccountUiState())
@@ -106,6 +111,11 @@ class AccountViewModel(
     fun signOutDevice(id: String) = work(AccountTask.LOADING) {
         accounts.signOutDevice(id)
         _state.update { it.copy(devices = accounts.devices()) }
+    }
+
+    fun syncNow() = work(AccountTask.SYNCING) {
+        val done = sync.syncNow()
+        _state.update { it.copy(synced = done, done = AccountDone.SYNCED) }
     }
 
     fun backUp() = work(AccountTask.BACKING_UP) {

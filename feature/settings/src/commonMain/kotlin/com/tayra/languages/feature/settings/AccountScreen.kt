@@ -12,6 +12,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountCircle
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Phone
+import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -97,6 +98,7 @@ internal fun AccountContent(state: AccountUiState, actions: AccountViewModel?, o
         state.signedIn == null -> SignInCard(state, actions)
         else -> {
             AccountCard(state, actions)
+            SyncCard(state, actions)
             CloudBackupsCard(state, actions, onRestored)
             DevicesCard(state, actions)
             DeleteAccountCard(state, actions)
@@ -213,6 +215,29 @@ private fun ConfirmEmail(state: AccountUiState, actions: AccountViewModel?) {
             PrimaryButton(tr("Confirm"), onClick = { actions?.confirm(code) }, enabled = code.isNotBlank() && state.busy == null, loading = state.busy == AccountTask.CONFIRMING)
         }
         QuietButton(tr("Send a new code"), onClick = { actions?.sendCode() }, enabled = state.busy == null)
+    }
+}
+
+@Composable
+private fun SyncCard(state: AccountUiState, actions: AccountViewModel?) {
+    val active = state.account?.plan?.active == true
+    ContentCard(
+        tr("Sync"),
+        subtitle = if (active) tr("Your words, flashcards and practice, the same on all your devices.") else tr("Syncing needs an active subscription."),
+        icon = Icons.Default.Refresh,
+    ) {
+        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            PrimaryButton(
+                tr("Sync now"), onClick = { actions?.syncNow() }, enabled = active && state.busy == null,
+                loading = state.busy == AccountTask.SYNCING, modifier = Modifier.testTag("account-sync"),
+            )
+            state.synced?.let { done ->
+                Text(
+                    tr("Sent: {0} · Taken from other devices: {1}", done.sent, done.changed),
+                    style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("account-synced"),
+                )
+            }
+        }
     }
 }
 
@@ -361,6 +386,7 @@ private fun DoneNotice(done: AccountDone) {
             AccountDone.EMAIL_CONFIRMED -> tr("Your email is confirmed")
             AccountDone.CODE_SENT -> tr("A new code is on its way")
             AccountDone.PASSWORD_RESET -> tr("Your new password is set")
+            AccountDone.SYNCED -> tr("This device is in sync")
             AccountDone.BACKED_UP -> tr("Your library is backed up to the cloud")
             AccountDone.RESTORED -> tr("The backup is restored")
             AccountDone.ACCOUNT_DELETED -> tr("Your account is deleted")

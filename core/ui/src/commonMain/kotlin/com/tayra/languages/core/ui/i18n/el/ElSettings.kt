@@ -382,4 +382,10 @@ internal val elSettings: Map<String, String> = mapOf(
     "The backup is restored" to "Το αντίγραφο επαναφέρθηκε",
     "Your account is deleted" to "Ο λογαριασμός σας διαγράφηκε",
     "Back up your library to the cloud and use it on all your devices." to "Αποθηκεύστε τη βιβλιοθήκη σας στο cloud και χρησιμοποιήστε τη σε όλες τις συσκευές σας.",
+    "Sync" to "Συγχρονισμός",
+    "Your words, flashcards and practice, the same on all your devices." to "Οι λέξεις, οι κάρτες και η εξάσκησή σας, ίδιες σε όλες τις συσκευές σας.",
+    "Syncing needs an active subscription." to "Ο συγχρονισμός χρειάζεται ενεργή συνδρομή.",
+    "Sync now" to "Συγχρονισμός τώρα",
+    "Sent: {0} · Taken from other devices: {1}" to "Στάλθηκαν: {0} · Ελήφθησαν από άλλες συσκευές: {1}",
+    "This device is in sync" to "Αυτή η συσκευή είναι συγχρονισμένη",
 )

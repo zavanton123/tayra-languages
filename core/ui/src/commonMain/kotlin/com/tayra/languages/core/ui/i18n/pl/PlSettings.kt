@@ -382,4 +382,10 @@ internal val plSettings: Map<String, String> = mapOf(
     "The backup is restored" to "Kopia została przywrócona",
     "Your account is deleted" to "Twoje konto zostało usunięte",
     "Back up your library to the cloud and use it on all your devices." to "Zapisz bibliotekę w chmurze i używaj jej na wszystkich urządzeniach.",
+    "Sync" to "Synchronizacja",
+    "Your words, flashcards and practice, the same on all your devices." to "Twoje słowa, fiszki i ćwiczenia, takie same na wszystkich urządzeniach.",
+    "Syncing needs an active subscription." to "Synchronizacja wymaga aktywnej subskrypcji.",
+    "Sync now" to "Synchronizuj teraz",
+    "Sent: {0} · Taken from other devices: {1}" to "Wysłano: {0} · Pobrano z innych urządzeń: {1}",
+    "This device is in sync" to "To urządzenie jest zsynchronizowane",
 )
