@@ -494,8 +494,8 @@ accounts. Billing is the last thing wired in, not the first.
 Done so far: Phases 0, 1 and 2. Sync runs from the account page's "Sync now" and from `tayra
 sync`; pull-to-refresh moved to Phase 5 with automatic sync. What Phase 2 settled on the way:
 
-- Words left unknown (status 0) are records too: a saved word set back to unknown is a change, and
-  a word's parents may be unknown words.
+- A word set back to unknown (status 0) is a record; a word never saved, as the reader makes the
+  words of every text it shows, is not, and a saved word from another device takes its place whole.
 - A language made from the catalog has `updated_at = 0`: its defaults are no one's change, so a
   device installed later does not overwrite settings chosen on another one. A device that lacks a
   language a pulled record needs makes it from the catalog first.

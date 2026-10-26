@@ -179,7 +179,7 @@ class SyncEngine(
                 val c = code(row.name) ?: return@forEach
                 records += languageRecord(row, q.dictionariesOf(row.id, ::DictionaryRow).awaitAsList(), c, device)
             }
-            q.changedTerms(since, ::TermRow).awaitAsList().forEach { r -> code(r.language)?.let { records += r.record(it, device) } }
+            q.changedTerms(since, ::TermRow).awaitAsList().forEach { r -> code(r.language)?.let { r.record(it, device) }?.let { records += it } }
             q.changedFlashcards(since, ::FlashcardRow).awaitAsList().forEach { r -> code(r.language)?.let { records += r.record(it, device) } }
             q.changedReviews(since, ::ReviewRow).awaitAsList().forEach { r -> code(r.language)?.let { records += r.record(it, device) } }
             q.changedProgress(since, ::ProgressRow).awaitAsList().forEach { r -> code(r.language)?.let { records += r.record(it, device) } }

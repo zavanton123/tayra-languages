@@ -209,6 +209,26 @@ class SyncEngineTest {
     }
 
     @Test
+    fun aWordNeverSavedGivesWayToTheSavedOneAndOneSetBackToUnknownTravels() = runBlocking<Unit> {
+        phone.word("casa", TermStatus.WELL_KNOWN, translation = "house")
+        phone.engine.syncNow()
+        Thread.sleep(5)
+        // The desktop's reader made the word later without saving it.
+        desktop.word("casa", TermStatus.UNKNOWN)
+        desktop.word("lobo", TermStatus.UNKNOWN)
+        desktop.engine.syncNow()
+        phone.engine.syncNow()
+        for (device in listOf(phone, desktop)) assertEquals(listOf("99|house"), device.rows("SELECT status, translation FROM terms WHERE text_lc = 'casa'"))
+        assertEquals(null, account.get("term", "pt/lobo"), "a word never saved is not sent")
+
+        Thread.sleep(5)
+        desktop.terms.updateStatus(listOf(desktop.id("casa")), TermStatus.UNKNOWN)
+        desktop.engine.syncNow()
+        phone.engine.syncNow()
+        assertEquals(listOf("0"), phone.rows("SELECT status FROM terms WHERE text_lc = 'casa'"), "set back to unknown on purpose")
+    }
+
+    @Test
     fun aWordDeletedOnOneDeviceGoesOnTheOtherWithItsCard() = runBlocking<Unit> {
         val lobo = phone.word("lobo", TermStatus.NEW_2)
         phone.word("casa")

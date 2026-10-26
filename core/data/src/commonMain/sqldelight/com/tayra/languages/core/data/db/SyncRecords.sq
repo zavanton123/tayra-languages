@@ -1,7 +1,7 @@
 -- What sync reads and writes, record by record: the rows changed since a time, with what makes
 -- their keys the same on every device (the language's name, the word's lower-case text), and the
--- writes that apply a record from the account. A word left unknown (status 0) travels too: a saved
--- word set back to unknown is a change, and a word may have unknown parents.
+-- writes that apply a record from the account. A word set back to unknown (status 0) travels; one
+-- never saved does not (see TermRow).
 
 changedTerms:
 SELECT t.id, l.name AS language, t.text, t.text_lc, t.status, t.translation, t.romanization, t.token_count,

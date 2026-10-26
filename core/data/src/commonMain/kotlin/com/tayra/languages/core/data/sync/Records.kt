@@ -29,7 +29,14 @@ internal data class TermRow(
     val romanization: String?, val tokenCount: Long, val flashMessage: String?, val createdAt: Long, val statusChangedAt: Long,
     val translationLanguage: String?, val sentence: String?, val updatedAt: Long, val parents: String, val level: Boolean,
 ) {
-    fun record(code: String, device: String) = SyncRecord(SyncKinds.TERM, SyncKeys.term(code, textLc), updatedAt, data = buildJsonObject {
+    /** Whether it was never saved: left unknown since it was made, as the reader makes the words of a text. */
+    val neverSaved: Boolean get() = status == 0L && statusChangedAt <= createdAt
+
+    /**
+     * Null for a word never saved: it is no one's change, and a saved word from another device takes
+     * its place whole. A word set back to unknown is one.
+     */
+    fun record(code: String, device: String): SyncRecord? = if (neverSaved) null else SyncRecord(SyncKinds.TERM, SyncKeys.term(code, textLc), updatedAt, data = buildJsonObject {
         put("text", text)
         put(TermFields.STATUS, status)
         put(TermFields.STATUS_CHANGED_AT, statusChangedAt)
