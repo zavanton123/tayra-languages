@@ -7,6 +7,12 @@ import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
 import com.tayra.languages.core.data.sync.SyncEngine
+import com.tayra.languages.core.data.sync.libraryChanges
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withTimeout
 import com.tayra.languages.core.data.sync.SyncTransport
 import com.tayra.languages.core.domain.account.AccountException
 import com.tayra.languages.core.domain.account.AccountProblem
@@ -226,6 +232,20 @@ class SyncEngineTest {
         desktop.engine.syncNow()
         phone.engine.syncNow()
         assertEquals(listOf("0"), phone.rows("SELECT status FROM terms WHERE text_lc = 'casa'"), "set back to unknown on purpose")
+    }
+
+    @Test
+    fun writingTheLibraryIsNoticed() = runBlocking<Unit> {
+        val pt = phone.portuguese()
+        val seen = Channel<Unit>(Channel.UNLIMITED)
+        val watching = launch(Dispatchers.Default) { libraryChanges(phone.provider).collect { seen.send(Unit) } }
+        delay(200)
+        assertEquals(null, seen.tryReceive().getOrNull(), "not on its own")
+        phone.word("casa")
+        withTimeout(5_000) { seen.receive() }
+        phone.languages.save(phone.languages.getById(pt)!!.copy(showRomanization = true))
+        withTimeout(5_000) { seen.receive() }
+        watching.cancel()
     }
 
     @Test
