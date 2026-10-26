@@ -1,5 +1,7 @@
 package com.tayra.languages.backend.auth
 
+import com.tayra.languages.backend.billing.Checkout
+import com.tayra.languages.backend.billing.CheckoutController
 import com.tayra.languages.sync.ApiErrors
 import com.tayra.languages.sync.Device
 import com.tayra.languages.sync.Me
@@ -82,9 +84,9 @@ class AccountService(private val jdbc: JdbcClient, private val entitlements: Ent
 }
 
 @RestController
-class AccountController(private val accounts: AccountService) {
+class AccountController(private val accounts: AccountService, private val checkout: Checkout) {
     @GetMapping("/api/v1/me")
-    fun me(@AuthenticationPrincipal jwt: Jwt) = accounts.me(jwt.user)
+    fun me(@AuthenticationPrincipal jwt: Jwt) = checkout.withLinks(accounts.me(jwt.user), CheckoutController.base())
 
     @GetMapping("/api/v1/me/devices")
     fun devices(@AuthenticationPrincipal jwt: Jwt) = accounts.devices(jwt.user, jwt.getClaimAsString("device"))

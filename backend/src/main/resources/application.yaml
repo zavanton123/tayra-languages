@@ -67,6 +67,12 @@ tayra:
     paddle:
       # The webhook destination's secret key, from Paddle > Developer tools > Notifications.
       webhook-secret: ${PADDLE_WEBHOOK_SECRET:}
+      # The checkout page: a client-side token (Developer tools > Authentication), sandbox or production,
+      # and the prices' ids; without a token and a price there is no web checkout.
+      client-token: ${PADDLE_CLIENT_TOKEN:}
+      environment: ${PADDLE_ENVIRONMENT:production}
+      monthly-price: ${PADDLE_MONTHLY_PRICE:}
+      yearly-price: ${PADDLE_YEARLY_PRICE:}
     apple:
       # The iOS app's bundle ids, comma-separated.
       bundle-ids: ${APPLE_BUNDLE_IDS:}

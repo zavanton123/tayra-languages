@@ -43,7 +43,15 @@ data class ResetRequest(val email: String, val code: String, val password: Strin
 
 /** Whether the account may sync and back up, until when, and what it was bought through. */
 @Serializable
-data class Subscription(val active: Boolean, val activeUntil: Long? = null, val source: String? = null)
+data class Subscription(
+    val active: Boolean,
+    val activeUntil: Long? = null,
+    val source: String? = null,
+    /** Where to subscribe on the web, when the account has no subscription and the service sells there. */
+    val checkoutUrl: String? = null,
+    /** Where the store the subscription was bought in lets it be changed or cancelled. */
+    val manageUrl: String? = null,
+)
 
 @Serializable
 data class Me(
