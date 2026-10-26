@@ -391,4 +391,7 @@ internal val plSettings: Map<String, String> = mapOf(
     "Combine the libraries?" to "Połączyć biblioteki?",
     "Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays." to "Twoje konto zawiera już bibliotekę z innego urządzenia. Słowa, teksty i postępy z obu zostaną zachowane; jeśli to samo zmieniono na obu, zostaje późniejsza zmiana.",
     "Combine" to "Połącz",
+    "Last synced {0}" to "Ostatnia synchronizacja: {0}",
+    "Sync automatically" to "Synchronizuj automatycznie",
+    "When the app starts or comes back, and a little after you change something." to "Gdy aplikacja się uruchamia lub wraca, i chwilę po każdej zmianie.",
 )

@@ -10,6 +10,7 @@ import com.tayra.languages.core.domain.service.DemoDataService
 import com.tayra.languages.core.domain.service.DictionaryService
 import com.tayra.languages.core.domain.service.EmptyExceptionsMigration
 import com.tayra.languages.core.domain.service.TranslationLanguageKeeper
+import com.tayra.languages.core.domain.account.AutoSync
 import com.tayra.languages.core.domain.service.LearningTranslations
 import com.tayra.languages.core.domain.service.LearningLanguageService
 import com.tayra.languages.core.domain.courses.CoursePackService
@@ -29,8 +30,8 @@ sealed interface BootstrapState {
 
 /**
  * Opens the database and makes sure the catalog languages exist, with demo data on first start,
- * then keeps saved translations in the native language, and gives words being learned a
- * translation, for as long as the app runs.
+ * then keeps saved translations in the native language, gives words being learned a translation,
+ * and syncs with the account, for as long as the app runs.
  */
 class AppBootstrapViewModel(
     private val demoData: DemoDataService,
@@ -49,6 +50,8 @@ class AppBootstrapViewModel(
     private val cutWords: CutWordsMigration? = null,
     /** Mends the languages saved with an empty sentence-split exception, under which no word was found. */
     private val emptyExceptions: EmptyExceptionsMigration? = null,
+    /** Syncs with the account on its own, once the library is ready. */
+    private val autoSync: AutoSync? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow<BootstrapState>(BootstrapState.Loading)
@@ -72,6 +75,7 @@ class AppBootstrapViewModel(
                 translationLanguages.start(viewModelScope)
                 learningTranslations.start(viewModelScope)
                 practiceExamples.start(viewModelScope)
+                autoSync?.start(viewModelScope)
             } catch (e: Exception) {
                 Logger.e(e) { "Bootstrap failed" }
                 _state.value = BootstrapState.Failed(e.message ?: e.toString())

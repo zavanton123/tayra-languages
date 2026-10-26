@@ -391,4 +391,7 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Combine the libraries?" to "Объединить библиотеки?",
     "Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays." to "В вашем аккаунте уже есть библиотека с другого устройства. Слова, тексты и прогресс обеих сохранятся; если одно и то же изменили на обоих, останется более позднее изменение.",
     "Combine" to "Объединить",
+    "Last synced {0}" to "Последняя синхронизация: {0}",
+    "Sync automatically" to "Синхронизировать автоматически",
+    "When the app starts or comes back, and a little after you change something." to "При запуске или возвращении в приложение и вскоре после ваших изменений.",
 )

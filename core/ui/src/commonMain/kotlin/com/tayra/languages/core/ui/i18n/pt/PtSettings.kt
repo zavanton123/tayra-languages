@@ -391,4 +391,7 @@ internal val ptSettings: Map<String, String> = mapOf(
     "Combine the libraries?" to "Combinar as bibliotecas?",
     "Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays." to "A sua conta já tem uma biblioteca de outro dispositivo. As palavras, textos e progresso de ambas são mantidos; onde a mesma coisa foi alterada nas duas, fica a alteração mais recente.",
     "Combine" to "Combinar",
+    "Last synced {0}" to "Última sincronização: {0}",
+    "Sync automatically" to "Sincronizar automaticamente",
+    "When the app starts or comes back, and a little after you change something." to "Quando a app abre ou volta, e pouco depois de alterar algo.",
 )

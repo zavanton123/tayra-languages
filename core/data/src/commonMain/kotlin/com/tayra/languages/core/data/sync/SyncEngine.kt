@@ -26,6 +26,12 @@ import com.tayra.languages.sync.SyncJson
 import com.tayra.languages.sync.SyncKinds
 import com.tayra.languages.sync.SyncMerge
 import com.tayra.languages.sync.SyncRecord
+import app.cash.sqldelight.coroutines.asFlow
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.drop
+import kotlinx.coroutines.flow.emitAll
+import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
@@ -396,4 +402,9 @@ internal class Languages(rows: List<Pair<Long, String>>) {
     val idOf: Map<String, Long> = rows.mapNotNull { (id, name) -> LanguageCodes.codeFor(name)?.let { it to id } }.toMap()
     val nameOf: Map<String, String> = rows.mapNotNull { (_, name) -> LanguageCodes.codeFor(name)?.let { it to name } }.toMap()
     val codeOfId: Map<Long, String> = rows.mapNotNull { (id, name) -> LanguageCodes.codeFor(name)?.let { id to it } }.toMap()
+}
+
+/** Emits whenever anything sync sends is written. */
+fun libraryChanges(provider: DatabaseProvider): Flow<Unit> = flow {
+    emitAll(provider.database().syncRecordsQueries.changeSignal().asFlow().drop(1).map { })
 }

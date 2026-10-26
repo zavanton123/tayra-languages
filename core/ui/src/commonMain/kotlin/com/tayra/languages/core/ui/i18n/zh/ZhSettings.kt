@@ -391,4 +391,7 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Combine the libraries?" to "合并两个资料库？",
     "Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays." to "你的账户已有来自另一台设备的资料库。两边的单词、文本和进度都会保留；同一项在两边都改过时，保留较晚的修改。",
     "Combine" to "合并",
+    "Last synced {0}" to "上次同步：{0}",
+    "Sync automatically" to "自动同步",
+    "When the app starts or comes back, and a little after you change something." to "在应用启动或返回时，以及你更改内容后不久。",
 )

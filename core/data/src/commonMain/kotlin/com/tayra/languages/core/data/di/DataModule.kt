@@ -4,6 +4,7 @@ import org.koin.dsl.binds
 import com.tayra.languages.core.domain.account.CloudBackupStore
 import com.tayra.languages.core.domain.account.CloudBackupService
 import com.tayra.languages.core.domain.account.AccountRepository
+import com.tayra.languages.core.domain.account.AutoSync
 import com.tayra.languages.core.domain.account.LibrarySync
 import com.tayra.languages.core.data.network.createAccountHttpClient
 import com.tayra.languages.core.data.account.thisDevice
@@ -72,6 +73,7 @@ import com.tayra.languages.core.data.settings.SecureStore
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
 import com.tayra.languages.core.data.sync.SyncEngine
 import com.tayra.languages.core.data.sync.SyncTransport
+import com.tayra.languages.core.data.sync.libraryChanges
 import com.tayra.languages.core.data.web.HttpWebPageReader
 import com.tayra.languages.core.data.web.webPagesSupported
 import com.tayra.languages.core.domain.backup.BackupRepository
@@ -180,6 +182,7 @@ val dataModule: Module = module {
             LanguageCatalog.targetLanguages.firstOrNull { LanguageCodes.codeFor(it) == code }?.let { get<LanguageService>().loadPredefined(it, withTutorial = false) }
         }, userSettings = get())
     }
+    single { AutoSync(get(), get(), get(), changes = libraryChanges(get())) }
     single<LanguageRepository> { LanguageRepositoryImpl(get()) }
     single<BookRepository> { BookRepositoryImpl(get()) }
     single<TermRepository> {

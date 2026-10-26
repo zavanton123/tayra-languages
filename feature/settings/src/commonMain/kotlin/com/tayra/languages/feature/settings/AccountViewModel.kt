@@ -8,7 +8,8 @@ import com.tayra.languages.core.domain.account.AccountProblem
 import com.tayra.languages.core.domain.account.AccountRepository
 import com.tayra.languages.core.domain.account.CloudBackupInfo
 import com.tayra.languages.core.domain.account.CloudBackupService
-import com.tayra.languages.core.domain.account.LibrarySync
+import com.tayra.languages.core.domain.account.AutoSync
+import com.tayra.languages.core.domain.account.SyncResult
 import com.tayra.languages.core.domain.account.SignedInDevice
 import com.tayra.languages.core.domain.account.SyncSummary
 import com.tayra.languages.core.domain.backup.BackupException
@@ -19,6 +20,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlin.time.Instant
 
 /** What the account page shows. */
 data class AccountUiState(
@@ -34,6 +36,9 @@ data class AccountUiState(
     val synced: SyncSummary? = null,
     /** The first sync would combine this device's library with the account's: the page asks first. */
     val confirmCombine: Boolean = false,
+    /** When this device last synced, on its own or asked. */
+    val lastSynced: Instant? = null,
+    val autoSync: Boolean = true,
     /** What is under way, shown with a spinner; null when nothing is. */
     val busy: AccountTask? = null,
     /** What went wrong last, until the next action. */
@@ -53,7 +58,7 @@ enum class AccountDone { EMAIL_CONFIRMED, CODE_SENT, PASSWORD_RESET, SYNCED, BAC
 class AccountViewModel(
     private val accounts: AccountRepository,
     private val cloud: CloudBackupService,
-    private val sync: LibrarySync,
+    private val sync: AutoSync,
     private val settings: SettingsRepository,
 ) : ViewModel() {
     private val _state = MutableStateFlow(AccountUiState())
@@ -61,6 +66,8 @@ class AccountViewModel(
 
     init {
         reload()
+        viewModelScope.launch { sync.status.collect { status -> _state.update { it.copy(lastSynced = status.lastSynced) } } }
+        viewModelScope.launch { settings.settings.collect { s -> _state.update { it.copy(autoSync = s.autoSync) } } }
     }
 
     /** Reads what the account holds again, when signed in. */
@@ -81,7 +88,7 @@ class AccountViewModel(
 
     fun signOut() = work(AccountTask.LOADING) {
         accounts.signOut()
-        _state.update { AccountUiState(available = it.available, server = it.server) }
+        _state.update { AccountUiState(available = it.available, server = it.server, autoSync = it.autoSync) }
     }
 
     fun sendCode() = work(AccountTask.SENDING_CODE) {
@@ -117,13 +124,15 @@ class AccountViewModel(
 
     /** Syncs, after asking when the first sync would combine two libraries; [combine] is the answer. */
     fun syncNow(combine: Boolean = false) = work(AccountTask.SYNCING) {
-        if (!combine && sync.needsCombining()) {
-            _state.update { it.copy(confirmCombine = true) }
-            return@work
+        when (val result = sync.syncNow(combine)) {
+            SyncResult.NeedsCombining -> _state.update { it.copy(confirmCombine = true) }
+            is SyncResult.Done -> _state.update { it.copy(confirmCombine = false, synced = result.summary, done = AccountDone.SYNCED) }
         }
-        _state.update { it.copy(confirmCombine = false) }
-        val done = sync.syncNow()
-        _state.update { it.copy(synced = done, done = AccountDone.SYNCED) }
+    }
+
+    fun setAutoSync(on: Boolean) {
+        viewModelScope.launch { settings.update { it.copy(autoSync = on) } }
+        if (on) sync.request()
     }
 
     fun cancelCombine() = _state.update { it.copy(confirmCombine = false) }
@@ -147,7 +156,7 @@ class AccountViewModel(
 
     fun deleteAccount() = work(AccountTask.DELETING) {
         accounts.deleteAccount()
-        _state.update { AccountUiState(available = it.available, server = it.server, done = AccountDone.ACCOUNT_DELETED) }
+        _state.update { AccountUiState(available = it.available, server = it.server, autoSync = it.autoSync, done = AccountDone.ACCOUNT_DELETED) }
     }
 
     /** The account service to use instead of the build's own, for one run locally; blank goes back to the build's. */
@@ -155,7 +164,7 @@ class AccountViewModel(
         viewModelScope.launch {
             if (accounts.signedIn.value != null) runCatching { accounts.signOut() }
             settings.update { it.copy(accountServer = url.trim()) }
-            _state.update { AccountUiState() }
+            _state.update { AccountUiState(autoSync = it.autoSync) }
             reload()
         }
     }
@@ -181,7 +190,7 @@ class AccountViewModel(
             } catch (e: AccountException) {
                 _state.update {
                     val signedOut = e.problem == AccountProblem.SIGNED_OUT
-                    (if (signedOut) AccountUiState(available = it.available, server = it.server) else it).copy(problem = e.problem, problemText = e.message)
+                    (if (signedOut) AccountUiState(available = it.available, server = it.server, autoSync = it.autoSync) else it).copy(problem = e.problem, problemText = e.message)
                 }
             } catch (e: BackupException) {
                 _state.update { it.copy(problem = AccountProblem.INVALID, problemText = e.message) }

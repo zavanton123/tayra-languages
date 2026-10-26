@@ -391,4 +391,7 @@ internal val elSettings: Map<String, String> = mapOf(
     "Combine the libraries?" to "Συνδυασμός των βιβλιοθηκών;",
     "Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays." to "Ο λογαριασμός σας έχει ήδη βιβλιοθήκη από άλλη συσκευή. Οι λέξεις, τα κείμενα και η πρόοδος και των δύο διατηρούνται· όπου το ίδιο άλλαξε και στις δύο, μένει η πιο πρόσφατη αλλαγή.",
     "Combine" to "Συνδυασμός",
+    "Last synced {0}" to "Τελευταίος συγχρονισμός: {0}",
+    "Sync automatically" to "Αυτόματος συγχρονισμός",
+    "When the app starts or comes back, and a little after you change something." to "Όταν η εφαρμογή ξεκινά ή επιστρέφει, και λίγο μετά από κάθε αλλαγή σας.",
 )

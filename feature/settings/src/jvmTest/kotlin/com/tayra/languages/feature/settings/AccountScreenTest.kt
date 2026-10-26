@@ -21,6 +21,7 @@ import com.tayra.languages.core.domain.account.AccountException
 import com.tayra.languages.core.domain.account.AccountInfo
 import com.tayra.languages.core.domain.account.AccountProblem
 import com.tayra.languages.core.domain.account.AccountRepository
+import com.tayra.languages.core.domain.account.AutoSync
 import com.tayra.languages.core.domain.account.CloudBackupInfo
 import com.tayra.languages.core.domain.account.CloudBackupService
 import com.tayra.languages.core.domain.account.CloudBackupStore
@@ -35,6 +36,7 @@ import com.tayra.languages.core.ui.theme.TayraTheme
 import kotlinx.coroutines.flow.MutableStateFlow
 import java.io.File
 import javax.imageio.ImageIO
+import kotlinx.coroutines.flow.emptyFlow
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.time.Instant
@@ -95,7 +97,8 @@ class AccountScreenTest {
     }
 
     private fun ComposeUiTest.show(accounts: FakeAccounts, local: FakeBackups = FakeBackups(), sync: LibrarySync = FakeSync(), onRestored: () -> Unit = {}): AccountViewModel {
-        val viewModel = AccountViewModel(accounts, CloudBackupService(local, accounts), sync, SettingsRepositoryImpl(MapSettings()))
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val viewModel = AccountViewModel(accounts, CloudBackupService(local, accounts), AutoSync(sync, accounts, settings, emptyFlow()), settings)
         setContent { TayraTheme { ProvideWindowWidth { AccountScreen(onNavigate = {}, onBack = {}, onRestored = onRestored, viewModel = viewModel) } } }
         waitForIdle()
         return viewModel
@@ -155,6 +158,7 @@ class AccountScreenTest {
         onNodeWithTag("account-sync").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("This device is in sync").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Sent: 3 · Taken from other devices: 2").assertExists()
+        onNodeWithTag("account-last-synced").assertExists()
         assertEquals(1, sync.syncs)
         save("ACCOUNT_SCREENSHOT", "-synced")
     }

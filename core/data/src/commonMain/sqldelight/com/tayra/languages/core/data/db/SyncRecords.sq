@@ -187,3 +187,15 @@ INSERT OR REPLACE INTO sync_pending(kind, key, record) VALUES (:kind, :key, :rec
 -- Whether this device holds a library of its own: saved words, cards, or texts begun.
 hasOwnLibrary:
 SELECT EXISTS (SELECT 1 FROM terms WHERE status <> 0) OR EXISTS (SELECT 1 FROM flashcards) OR EXISTS (SELECT 1 FROM pages WHERE start_date IS NOT NULL);
+
+-- No rows: observed, it tells when anything sync sends is written.
+changeSignal:
+SELECT 1 WHERE
+    EXISTS (SELECT 1 FROM terms WHERE 0) OR EXISTS (SELECT 1 FROM term_parents WHERE 0) OR EXISTS (SELECT 1 FROM level_terms WHERE 0)
+    OR EXISTS (SELECT 1 FROM flashcards WHERE 0) OR EXISTS (SELECT 1 FROM flashcard_reviews WHERE 0)
+    OR EXISTS (SELECT 1 FROM practice_progress WHERE 0) OR EXISTS (SELECT 1 FROM practice_examples WHERE 0)
+    OR EXISTS (SELECT 1 FROM vocabulary_levels WHERE 0) OR EXISTS (SELECT 1 FROM languages WHERE 0)
+    OR EXISTS (SELECT 1 FROM language_dictionaries WHERE 0) OR EXISTS (SELECT 1 FROM language_scripts WHERE 0)
+    OR EXISTS (SELECT 1 FROM books WHERE 0) OR EXISTS (SELECT 1 FROM book_tag_map WHERE 0) OR EXISTS (SELECT 1 FROM pages WHERE 0)
+    OR EXISTS (SELECT 1 FROM page_bookmarks WHERE 0) OR EXISTS (SELECT 1 FROM words_read WHERE 0)
+    OR EXISTS (SELECT 1 FROM playlists WHERE 0) OR EXISTS (SELECT 1 FROM playlist_items WHERE 0) OR EXISTS (SELECT 1 FROM sync_tombstones WHERE 0);

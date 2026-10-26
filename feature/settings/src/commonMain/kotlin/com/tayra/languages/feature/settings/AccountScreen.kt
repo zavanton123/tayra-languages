@@ -40,6 +40,7 @@ import com.tayra.languages.core.ui.components.AppTextField
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ButtonTone
 import com.tayra.languages.core.ui.components.ConfirmDialog
+import com.tayra.languages.core.ui.components.SwitchSetting
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
@@ -237,6 +238,13 @@ private fun SyncCard(state: AccountUiState, actions: AccountViewModel?) {
                     style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("account-synced"),
                 )
             }
+            state.lastSynced?.let { at ->
+                Text(tr("Last synced {0}", when_(at)), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("account-last-synced"))
+            }
+            SwitchSetting(
+                tr("Sync automatically"), tr("When the app starts or comes back, and a little after you change something."), state.autoSync,
+                enabled = active, modifier = Modifier.testTag("account-auto-sync"),
+            ) { actions?.setAutoSync(it) }
         }
     }
     if (state.confirmCombine) {

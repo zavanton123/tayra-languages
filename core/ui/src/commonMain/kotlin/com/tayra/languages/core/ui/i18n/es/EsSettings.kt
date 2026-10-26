@@ -391,4 +391,7 @@ internal val esSettings: Map<String, String> = mapOf(
     "Combine the libraries?" to "¿Combinar las bibliotecas?",
     "Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays." to "Tu cuenta ya tiene una biblioteca de otro dispositivo. Se conservan las palabras, textos y progreso de ambas; donde se cambió lo mismo en las dos, queda el cambio más reciente.",
     "Combine" to "Combinar",
+    "Last synced {0}" to "Última sincronización: {0}",
+    "Sync automatically" to "Sincronizar automáticamente",
+    "When the app starts or comes back, and a little after you change something." to "Al abrir o volver a la app, y poco después de cada cambio.",
 )

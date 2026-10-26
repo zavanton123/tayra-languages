@@ -391,4 +391,7 @@ internal val deSettings: Map<String, String> = mapOf(
     "Combine the libraries?" to "Bibliotheken zusammenführen?",
     "Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays." to "Dein Konto enthält bereits eine Bibliothek von einem anderen Gerät. Wörter, Texte und Fortschritt beider bleiben erhalten; wurde dasselbe auf beiden geändert, bleibt die spätere Änderung.",
     "Combine" to "Zusammenführen",
+    "Last synced {0}" to "Zuletzt synchronisiert: {0}",
+    "Sync automatically" to "Automatisch synchronisieren",
+    "When the app starts or comes back, and a little after you change something." to "Beim Start oder bei der Rückkehr zur App und kurz nach jeder Änderung.",
 )
