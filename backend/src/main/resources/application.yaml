@@ -36,6 +36,10 @@ management:
     health:
       probes:
         enabled: true
+  # A mail service that is down delays codes; it is no reason for the platform to restart the service.
+  health:
+    mail:
+      enabled: false
 tayra:
   auth:
     # At least 32 bytes; signs the access tokens. The default is for development only.

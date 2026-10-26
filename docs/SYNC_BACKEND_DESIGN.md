@@ -619,9 +619,9 @@ The backend is kept portable by rule, not by luck:
 - **S3-compatible object storage** through the AWS SDK with a configurable endpoint: R2, B2,
   Hetzner Object Storage or MinIO on the same box are interchangeable.
 - **No platform services**: Spring's scheduler for jobs, stdout for logs, Actuator for health.
-- **`docker-compose.yml` in the repository** runs the app, Postgres and MinIO; it is the
-  development setup and, unchanged, the self-hosting setup. Self-hosting adds a reverse proxy for
-  TLS (Caddy) and a nightly `pg_dump` to the bucket.
+- **`docker-compose.yml` in the repository** runs the app, Postgres and S3Mock; it is the
+  development setup, and with `backend/deploy/selfhost.yml` on top the self-hosting one: Caddy for
+  TLS, the real bucket, and a nightly `pg_dump` to it (`backend/deploy/README.md`).
 
 A move is `pg_dump`, `pg_restore`, copy the bucket, change DNS. Users do not self-host; the API
 base URL is a build-time constant per release.
