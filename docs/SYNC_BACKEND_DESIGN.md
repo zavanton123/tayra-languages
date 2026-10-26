@@ -81,8 +81,8 @@ Every synced row gets a **sync key** that is the same on every device:
 | Table | Key on the wire |
 |---|---|
 | `terms` | `language code + "/" + text_lc` (the natural key; merges the same word from two devices) |
-| `term_parents` | both terms' keys |
-| `flashcards`, `practice_progress`, `level_terms` | the term's key (one row per term) |
+| `term_parents`, `level_terms` | not records of their own: a word's record carries its parents' texts and whether it is on the vocabulary level |
+| `flashcards`, `practice_progress` | the term's key (one row per term) |
 | `flashcard_reviews`, `words_read` | append-only: `term key + reviewed_at` / `language + read_at + page key`; never updated, never deleted |
 | `practice_examples` | `term key + sentence` (already `UNIQUE (term_id, sentence)`) |
 | `books` | a new `sync_id TEXT` (UUID v4, generated at creation, migration fills existing rows) |
@@ -490,6 +490,19 @@ queries for "dirty rows since" and "apply row by key" live in a new `Sync.sq`.
 The paid release waits for the company, which sets the order: everything that does not need a
 billing account is built first, against a backend whose entitlement is granted by hand for test
 accounts. Billing is the last thing wired in, not the first.
+
+Done so far: Phases 0, 1 and 2. Sync runs from the account page's "Sync now" and from `tayra
+sync`; pull-to-refresh moved to Phase 5 with automatic sync. What Phase 2 settled on the way:
+
+- Words left unknown (status 0) are records too: a saved word set back to unknown is a change, and
+  a word's parents may be unknown words.
+- A language made from the catalog has `updated_at = 0`: its defaults are no one's change, so a
+  device installed later does not overwrite settings chosen on another one. A device that lacks a
+  language a pulled record needs makes it from the catalog first.
+- Signing in to another account (or another service) starts over: the next sync sends everything
+  and takes everything.
+- Applying a language removal deletes that language's words and level older than the removal;
+  records made after it stay.
 
 **Phase 0: client groundwork (about a week, no backend).**
 Migration with `updated_at`, `sync_id`, tombstones, `sync_state`, triggers; `applying` in
