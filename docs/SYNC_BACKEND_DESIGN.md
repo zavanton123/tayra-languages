@@ -548,6 +548,18 @@ billing, waits for the company. What the phases settled on the way:
   Store Connect, a purchase tried with each store's test accounts (Play's licence testers, Apple's
   sandbox), and the providers' real settings, `PADDLE_PORTAL_URL` among them: the customer portal
   where a web subscription is managed.
+- Signing in with Google and Apple: `/api/v1/info` tells the apps the Google clients the service
+  takes (`GOOGLE_WEB_CLIENT_ID`, `GOOGLE_IOS_CLIENT_ID`, `GOOGLE_DESKTOP_CLIENT_ID` with its
+  `GOOGLE_DESKTOP_CLIENT_SECRET`, all also accepted as token audiences) and whether Apple's is
+  (`APPLE_CLIENT_IDS`), and the account page offers what the app can use. The desktop opens Google in
+  the browser with PKCE and a loopback redirect on 127.0.0.1 (jdk.httpserver is in the bundled
+  runtime for it); Android uses Credential Manager's "Sign in with Google" with the web client; iOS
+  opens Google in a web authentication session that returns to the iOS client's reversed id, and
+  shows Apple's sheet; the web app shows Google's own button (Google Identity Services) in a sheet
+  over the canvas, which needs the web app's origin among the web client's JavaScript origins. Left
+  for the accounts: the four Google clients in the owner's Google Cloud project, and for Apple the
+  Sign in with Apple capability in the iOS target (a free personal team cannot sign with it, so it
+  is added with the App Store account) and the bundle id in `APPLE_CLIENT_IDS`.
 - The web app calls the service from its own origin (`WEB_ORIGINS`, CORS with credentials) and
   says so with `X-Tayra-Client: web`; its refresh token is then an HttpOnly, Secure, SameSite=Strict
   cookie on `/api/v1/auth`, and the body carries an empty one.
