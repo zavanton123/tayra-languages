@@ -39,6 +39,8 @@ dependencies {
     testImplementation("org.testcontainers:testcontainers-postgresql")
     testImplementation("org.testcontainers:testcontainers-junit-jupiter")
     testImplementation(kotlin("test"))
+    // Certificates like Apple's, made up for the App Store tests.
+    testImplementation("org.bouncycastle:bcpkix-jdk18on:1.80.2")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 

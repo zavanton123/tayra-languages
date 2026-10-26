@@ -66,6 +66,14 @@ data class CloudBackup(val id: String, val name: String, val deviceName: String,
 data class ApiError(val error: String, val message: String)
 
 /** The codes of [ApiError]. */
+/** A purchase the iOS app made with StoreKit, as the signed transaction StoreKit gave it. */
+@Serializable
+data class AppStorePurchase(val signedTransaction: String)
+
+/** A purchase the Android app made with Google Play Billing: the subscription bought and its purchase token. */
+@Serializable
+data class GooglePlayPurchase(val productId: String, val purchaseToken: String)
+
 object ApiErrors {
     const val INVALID_REQUEST = "invalid_request"
     const val EMAIL_TAKEN = "email_taken"

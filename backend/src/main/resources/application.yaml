@@ -67,6 +67,11 @@ tayra:
     paddle:
       # The webhook destination's secret key, from Paddle > Developer tools > Notifications.
       webhook-secret: ${PADDLE_WEBHOOK_SECRET:}
+    apple:
+      # The iOS app's bundle ids, comma-separated.
+      bundle-ids: ${APPLE_BUNDLE_IDS:}
+      # Apple Root CA - G3 in PEM (https://www.apple.com/certificateauthority/), which App Store data chains to.
+      root-certificates: ${APPLE_ROOT_CERTIFICATES:}
   # Cloud backups: any S3-compatible storage (S3Mock in development, R2, B2 or Hetzner in production).
   storage:
     endpoint: ${S3_ENDPOINT:http://localhost:9090}
