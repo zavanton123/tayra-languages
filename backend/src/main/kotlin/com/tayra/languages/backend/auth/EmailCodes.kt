@@ -1,6 +1,9 @@
 package com.tayra.languages.backend.auth
 
-import kotlinx.serialization.Serializable
+import com.tayra.languages.sync.ApiErrors
+import com.tayra.languages.sync.CodeRequest
+import com.tayra.languages.sync.ForgotRequest
+import com.tayra.languages.sync.ResetRequest
 import org.springframework.jdbc.core.simple.JdbcClient
 import org.springframework.security.core.annotation.AuthenticationPrincipal
 import org.springframework.security.crypto.password.PasswordEncoder
@@ -18,16 +21,7 @@ import java.time.Clock
 import java.time.Duration
 import java.util.UUID
 
-@Serializable
-data class CodeRequest(val code: String)
-
-@Serializable
-data class ForgotRequest(val email: String)
-
-@Serializable
-data class ResetRequest(val email: String, val code: String, val password: String)
-
-class WrongCode : ApiException(400, "wrong_code", "That code is wrong or has expired; ask for a new one")
+class WrongCode : ApiException(400, ApiErrors.WRONG_CODE, "That code is wrong or has expired; ask for a new one")
 
 /**
  * Six-digit codes sent by email, typed into the app: one confirms the account's address, another

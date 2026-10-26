@@ -1,6 +1,6 @@
 package com.tayra.languages.backend
 
-import com.tayra.languages.backend.auth.Tokens
+import com.tayra.languages.sync.Tokens
 import com.tayra.languages.sync.SyncJson
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired

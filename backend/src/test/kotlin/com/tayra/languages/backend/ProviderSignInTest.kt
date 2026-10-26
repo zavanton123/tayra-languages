@@ -9,7 +9,7 @@ import com.nimbusds.jose.jwk.gen.RSAKeyGenerator
 import com.nimbusds.jwt.JWTClaimsSet
 import com.nimbusds.jwt.SignedJWT
 import com.sun.net.httpserver.HttpServer
-import com.tayra.languages.backend.auth.Tokens
+import com.tayra.languages.sync.Tokens
 import com.tayra.languages.sync.SyncJson
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired

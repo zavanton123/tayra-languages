@@ -1,7 +1,10 @@
 package com.tayra.languages.backend.auth
 
+import com.tayra.languages.sync.ApiErrors
+import com.tayra.languages.sync.Device
+import com.tayra.languages.sync.Me
+import com.tayra.languages.sync.Subscription
 import com.tayra.languages.backend.backup.Backups
-import kotlinx.serialization.Serializable
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.http.HttpStatus
 import org.springframework.jdbc.core.simple.JdbcClient
@@ -17,24 +20,7 @@ import org.springframework.web.bind.annotation.RestController
 import java.time.Clock
 import java.util.UUID
 
-/** Whether the account may sync and back up, until when, and what it was bought through. */
-@Serializable
-data class Subscription(val active: Boolean, val activeUntil: Long? = null, val source: String? = null)
-
-@Serializable
-data class Me(
-    val id: String,
-    val email: String,
-    val emailVerified: Boolean,
-    val hasPassword: Boolean,
-    val providers: List<String>,
-    val subscription: Subscription,
-)
-
-@Serializable
-data class Device(val id: String, val name: String, val platform: String, val lastUsedAt: Long, val current: Boolean)
-
-class SubscriptionRequired : ApiException(402, "subscription_required", "Sync and cloud backups need an active subscription")
+class SubscriptionRequired : ApiException(402, ApiErrors.SUBSCRIPTION_REQUIRED, "Sync and cloud backups need an active subscription")
 
 /**
  * Who may sync and back up: an account whose subscription runs past now, or one of the

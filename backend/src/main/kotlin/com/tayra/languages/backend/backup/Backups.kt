@@ -1,10 +1,11 @@
 package com.tayra.languages.backend.backup
 
+import com.tayra.languages.sync.ApiErrors
+import com.tayra.languages.sync.CloudBackup
 import com.tayra.languages.backend.auth.ApiException
 import com.tayra.languages.backend.auth.Entitlements
 import com.tayra.languages.backend.auth.InvalidRequest
 import com.tayra.languages.backend.auth.user
-import kotlinx.serialization.Serializable
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.core.io.InputStreamResource
 import org.springframework.http.HttpHeaders
@@ -28,12 +29,9 @@ import java.io.InputStream
 import java.time.Clock
 import java.util.UUID
 
-@Serializable
-data class CloudBackup(val id: String, val name: String, val deviceName: String, val createdAt: Long, val sizeBytes: Long)
+class BackupNotFound : ApiException(404, ApiErrors.NOT_FOUND, "No such backup")
 
-class BackupNotFound : ApiException(404, "not_found", "No such backup")
-
-class BackupTooLarge(limitMb: Long) : ApiException(413, "too_large", "Backups can be up to $limitMb MB")
+class BackupTooLarge(limitMb: Long) : ApiException(413, ApiErrors.TOO_LARGE, "Backups can be up to $limitMb MB")
 
 /**
  * The account's library files in the cloud: a device uploads the backup it makes anyway, and any

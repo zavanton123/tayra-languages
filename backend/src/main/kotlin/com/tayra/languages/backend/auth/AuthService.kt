@@ -1,5 +1,11 @@
 package com.tayra.languages.backend.auth
 
+import com.tayra.languages.sync.Tokens
+import com.tayra.languages.sync.RegisterRequest
+import com.tayra.languages.sync.RefreshRequest
+import com.tayra.languages.sync.LoginRequest
+import com.tayra.languages.sync.DeviceInfo
+import com.tayra.languages.sync.Account
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.security.crypto.password.PasswordEncoder
 import org.springframework.security.oauth2.jose.jws.MacAlgorithm

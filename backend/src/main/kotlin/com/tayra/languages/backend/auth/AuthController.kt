@@ -1,5 +1,9 @@
 package com.tayra.languages.backend.auth
 
+import com.tayra.languages.sync.RegisterRequest
+import com.tayra.languages.sync.RefreshRequest
+import com.tayra.languages.sync.LoginRequest
+import com.tayra.languages.sync.ApiError
 import kotlinx.serialization.SerializationException
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity

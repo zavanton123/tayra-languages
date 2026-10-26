@@ -1,6 +1,8 @@
 package com.tayra.languages.backend.auth
 
-import kotlinx.serialization.Serializable
+import com.tayra.languages.sync.ApiErrors
+import com.tayra.languages.sync.Tokens
+import com.tayra.languages.sync.ProviderSignInRequest
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.jdbc.core.simple.JdbcClient
 import org.springframework.security.oauth2.core.DelegatingOAuth2TokenValidator
@@ -19,12 +21,9 @@ import org.springframework.web.bind.annotation.RestController
 import java.time.Clock
 import java.util.UUID
 
-@Serializable
-data class ProviderSignInRequest(val idToken: String, val device: DeviceInfo)
+class ProviderNotSetUp(provider: String) : ApiException(503, ApiErrors.PROVIDER_NOT_SET_UP, "Signing in with $provider is not set up on this service")
 
-class ProviderNotSetUp(provider: String) : ApiException(503, "provider_not_set_up", "Signing in with $provider is not set up on this service")
-
-class BadIdToken : ApiException(401, "bad_id_token", "The sign-in could not be confirmed; try again")
+class BadIdToken : ApiException(401, ApiErrors.BAD_ID_TOKEN, "The sign-in could not be confirmed; try again")
 
 /**
  * One identity provider whose ID tokens the apps obtain natively and send: Google or Apple. A token

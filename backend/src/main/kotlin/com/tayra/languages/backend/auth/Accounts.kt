@@ -1,5 +1,6 @@
 package com.tayra.languages.backend.auth
 
+import com.tayra.languages.sync.DeviceInfo
 import org.springframework.dao.DuplicateKeyException
 import org.springframework.jdbc.core.simple.JdbcClient
 import org.springframework.stereotype.Repository
