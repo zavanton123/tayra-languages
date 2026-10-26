@@ -101,6 +101,29 @@ class AccountClientTest {
         assertEquals("refresh-2", secure.get("account.http://service.test.refresh_token"), "the spent refresh token is replaced")
     }
 
+    /** The web app's refresh token is a cookie: the service hands an empty one, and takes an empty one back. */
+    @Test
+    fun aSignInWhoseRefreshTokenIsACookieStaysSignedIn() = runTest {
+        val bodies = mutableListOf<String>()
+        val client = client { request ->
+            when (request.url.encodedPath) {
+                "/api/v1/auth/login" -> json(tokens("access-1", ""))
+                "/api/v1/auth/refresh" -> { bodies += String(request.body.toByteArray()); json(tokens("access-2", "")) }
+                "/api/v1/auth/logout" -> { bodies += String(request.body.toByteArray()); respond("", HttpStatusCode.NoContent) }
+                "/api/v1/me" -> json(me)
+                else -> error(request.url.encodedPath)
+            }
+        }
+        client.signIn("reader@example.com", "correct horse")
+        assertEquals("reader@example.com", client.signedIn.value)
+        val again = client { request -> if (request.url.encodedPath == "/api/v1/auth/refresh") { bodies += String(request.body.toByteArray()); json(tokens("access-2", "")) } else json(me) }
+        assertEquals("reader@example.com", again.signedIn.value, "after the page is opened again")
+        again.account()
+        again.signOut()
+        assertEquals(listOf("""{"refreshToken":""}"""), bodies.take(1))
+        assertNull(again.signedIn.value)
+    }
+
     @Test
     fun aRefusedRenewalSignsTheDeviceOut() = runTest {
         secure.put("account.http://service.test.refresh_token", "spent")

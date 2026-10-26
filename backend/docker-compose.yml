@@ -31,6 +31,8 @@ services:
     environment:
       S3_ENDPOINT: http://storage:9090
       TAYRA_FREE_EMAILS: ${TAYRA_FREE_EMAILS:-}
+      WEB_ORIGINS: ${WEB_ORIGINS:-}
+      ADMIN_TOKEN: ${ADMIN_TOKEN:-}
       DATABASE_URL: jdbc:postgresql://db:5432/tayra
       DATABASE_USER: tayra
       DATABASE_PASSWORD: tayra

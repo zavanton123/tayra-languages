@@ -7,6 +7,9 @@ import com.tayra.languages.core.data.bookpack.BookPackFiles
 import com.tayra.languages.core.data.coursepack.CoursePackFiles
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
+import com.tayra.languages.core.data.account.AccountPlatform
+import com.tayra.languages.core.data.account.WebAccountStore
+import com.tayra.languages.core.data.account.webAccountHttpClient
 import com.tayra.languages.core.data.settings.BrowserSecureStore
 import com.tayra.languages.core.data.settings.SecureStore
 import com.tayra.languages.core.data.speech.WebKokoroEngine
@@ -30,6 +33,7 @@ actual val platformDataModule: Module = module {
     single { BookPackFiles() }
     single<Settings> { StorageSettings() }
     single<SecureStore> { BrowserSecureStore() }
+    single { AccountPlatform(webAccountHttpClient(), WebAccountStore()) }
     single<TextRecognizer> { NoTextRecognizer }
     single { LocalSpeech(listOf(WebPiperEngine(), WebKokoroEngine())) }
 }

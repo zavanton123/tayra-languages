@@ -157,6 +157,7 @@ class AccountClient(
     private fun CloudBackup.info() = CloudBackupInfo(id, name, deviceName, Instant.fromEpochMilliseconds(createdAt), sizeBytes)
 
     private fun keep(tokens: Tokens) {
+        // Empty for the web app, whose refresh token is a cookie the service reads itself.
         secure.put(key(REFRESH), tokens.refreshToken)
         secure.put(key(EMAIL), tokens.user.email)
         secure.put(key(USER), tokens.user.id)

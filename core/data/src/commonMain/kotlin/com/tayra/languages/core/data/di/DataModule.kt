@@ -11,6 +11,7 @@ import com.tayra.languages.core.data.account.thisDevice
 import com.tayra.languages.core.data.account.defaultAccountServer
 import com.tayra.languages.core.data.account.AccountServer
 import com.tayra.languages.core.data.account.AccountClient
+import com.tayra.languages.core.data.account.AccountPlatform
 import com.tayra.languages.core.data.repository.PlaylistRepositoryImpl
 import com.tayra.languages.core.domain.playlists.ListeningTime
 import com.tayra.languages.core.domain.playlists.PlaylistRepository
@@ -169,10 +170,11 @@ val dataModule: Module = module {
     single {
         val settings = get<SettingsRepository>()
         val provider = get<DatabaseProvider>()
+        val platform = getOrNull<AccountPlatform>()
         AccountClient(
-            createAccountHttpClient(),
+            platform?.http ?: createAccountHttpClient(),
             AccountServer { settings.current.accountServer.takeIf { it.isNotBlank() } ?: defaultAccountServer() },
-            get<SecureStore>(),
+            platform?.store ?: get<SecureStore>(),
             device = { thisDevice(provider) },
         )
     } binds arrayOf(AccountRepository::class, CloudBackupStore::class, SyncTransport::class)
