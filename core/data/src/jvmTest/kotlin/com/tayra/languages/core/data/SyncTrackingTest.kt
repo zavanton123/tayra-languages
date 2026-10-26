@@ -64,8 +64,10 @@ class SyncTrackingTest {
         sql { run("UPDATE terms SET anki_exported_at = 1 WHERE id = $lobo") }
         assertEquals(0, sql { long("SELECT updated_at FROM terms WHERE id = $lobo") }, "sending a word to this device's Anki is not a change to sync")
 
+        sql { run("UPDATE terms SET status_changed_at = 1 WHERE id = $lobo") }
         terms.save(terms.getById(lobo)!!.copy(status = TermStatus.NEW_2, translation = "wolf"))
         assertTrue(sql { long("SELECT updated_at FROM terms WHERE id = $lobo") } >= stamped, "a new status stamps it again")
+        assertTrue(sql { long("SELECT status_changed_at FROM terms WHERE id = $lobo") } >= stamped, "and says when the status was set, which sync merges by")
     }
 
     @Test

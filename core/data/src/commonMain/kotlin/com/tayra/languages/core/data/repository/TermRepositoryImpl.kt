@@ -108,6 +108,10 @@ class TermRepositoryImpl(
             q.lastInsertId().awaitAsOne()
         } else {
             val previous = q.selectById(term.id).awaitAsOneOrNull()
+            // Before the update, which would leave the status already equal to the new one.
+            if (previous != null && previous.status != term.status.value.toLong()) {
+                q.updateStatus(status = term.status.value.toLong(), changedAt = now, ids = listOf(term.id))
+            }
             q.update(
                 id = term.id,
                 text = term.text,
@@ -122,9 +126,6 @@ class TermRepositoryImpl(
                 translationLanguage = if (previous != null && previous.translation == term.translation) previous.translation_language else languageFor(term.translation),
                 sentence = term.sentence,
             )
-            if (previous != null && previous.status != term.status.value.toLong()) {
-                q.updateStatus(status = term.status.value.toLong(), changedAt = now, ids = listOf(term.id))
-            }
             term.id
         }
         return id
