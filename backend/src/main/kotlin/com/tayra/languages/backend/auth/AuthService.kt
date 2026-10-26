@@ -26,11 +26,13 @@ class AuthService(
     private val accounts: Accounts,
     private val passwords: PasswordEncoder,
     private val jwt: JwtEncoder,
+    private val codes: EmailCodes,
     private val clock: Clock,
     @Value("\${tayra.auth.access-token-minutes}") private val accessMinutes: Long,
     @Value("\${tayra.auth.refresh-token-days}") private val refreshDays: Long,
 ) {
     private val random = SecureRandom()
+    private val log = org.slf4j.LoggerFactory.getLogger(javaClass)
 
     // The hash of a password nobody has, so a missing account costs the same check as a wrong password.
     private val unusableHash by lazy { passwords.encode(newRefreshToken())!! }
@@ -41,6 +43,8 @@ class AuthService(
         if (request.password.length < MIN_PASSWORD) throw InvalidRequest("The password needs at least $MIN_PASSWORD characters")
         requireDevice(request.device)
         val user = accounts.create(email, passwords.encode(request.password), clock.instant())
+        // The confirmation code goes out at once; mail being down must not undo the sign-up, as it can be sent again.
+        runCatching { codes.sendVerification(user.id) }.onFailure { log.warn("Could not send the confirmation code to {}", email, it) }
         return signIn(user, request.device)
     }
 
