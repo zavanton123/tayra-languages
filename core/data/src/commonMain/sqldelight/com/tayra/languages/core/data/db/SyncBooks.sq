@@ -174,3 +174,47 @@ SELECT id FROM books WHERE sync_id = :syncId;
 
 oversizedBooks:
 SELECT b.sync_id FROM books b JOIN pages p ON p.book_id = b.id GROUP BY b.id HAVING sum(length(p.text)) > :max;
+
+-- Playlists, known everywhere by their sync id, with their texts by the texts' keys.
+changedPlaylists:
+SELECT p.id, l.name AS language, p.sync_id, p.name, p.description, p.cover, p.created_at, p.last_played_at, p.current_item_id, p.current_page, p.current_sentence, p.updated_at
+FROM playlists p JOIN languages l ON l.id = p.language_id
+WHERE p.updated_at > :since;
+
+playlistOfSyncId:
+SELECT p.id, l.name AS language, p.sync_id, p.name, p.description, p.cover, p.created_at, p.last_played_at, p.current_item_id, p.current_page, p.current_sentence, p.updated_at
+FROM playlists p JOIN languages l ON l.id = p.language_id
+WHERE p.sync_id = :syncId;
+
+playlistItems:
+SELECT i.id, i.position, i.finished_at, b.sync_id, b.source_uri, cl.lesson_id, b.title, l.name AS language, b.id AS book_id
+FROM playlist_items i JOIN books b ON b.id = i.book_id JOIN languages l ON l.id = b.language_id LEFT JOIN course_lessons cl ON cl.book_id = b.id
+WHERE i.playlist_id = :playlistId
+ORDER BY i.position;
+
+insertPlaylist:
+INSERT INTO playlists(language_id, name, description, cover, created_at, last_played_at, current_page, current_sentence, sync_id, updated_at)
+VALUES (:languageId, :name, :description, :cover, :createdAt, :lastPlayedAt, :currentPage, :currentSentence, :syncId, :updatedAt);
+
+updatePlaylist:
+UPDATE playlists SET name = :name, description = :description, cover = :cover, last_played_at = :lastPlayedAt,
+    current_page = :currentPage, current_sentence = :currentSentence, updated_at = :updatedAt
+WHERE id = :id;
+
+setCurrentItem:
+UPDATE playlists SET current_item_id = (SELECT id FROM playlist_items WHERE playlist_id = :id AND book_id = :bookId) WHERE id = :id;
+
+clearCurrentItem:
+UPDATE playlists SET current_item_id = NULL WHERE id = :id;
+
+clearItems:
+DELETE FROM playlist_items WHERE playlist_id = :playlistId;
+
+insertItem:
+INSERT OR IGNORE INTO playlist_items(playlist_id, book_id, position, finished_at) VALUES (:playlistId, :bookId, :position, :finishedAt);
+
+deletePlaylist:
+DELETE FROM playlists WHERE id = :id;
+
+pendingRecord:
+SELECT record FROM sync_pending WHERE kind = :kind AND key = :key;

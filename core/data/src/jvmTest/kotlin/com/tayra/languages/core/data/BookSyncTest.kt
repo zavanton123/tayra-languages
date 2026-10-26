@@ -72,6 +72,10 @@ class BookSyncTest {
         }
 
         fun bookId(title: String) = rows("SELECT id FROM books WHERE title = '$title'").single().toLong()
+
+        fun run(sql: String) = DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}", Properties().apply { put("foreign_keys", "true") }).use { c ->
+            sql.split(";").filter { it.isNotBlank() }.forEach { c.createStatement().execute(it) }
+        }
     }
 
     private val account = Account()
@@ -189,5 +193,39 @@ class BookSyncTest {
         syncBoth()
         assertEquals(listOf("Lição 1"), desktop.rows("SELECT title FROM books"), "not made twice")
         assertEquals(listOf("2"), desktop.rows("SELECT p.page_order FROM books b JOIN pages p ON p.id = b.current_page_id"))
+    }
+
+    @Test
+    fun aPlaylistKeepsTheTextsADeviceDoesNotHave() = runBlocking<Unit> {
+        val source = "tayra-books://books-pt/pt-lobo"
+        val pt = phone.portuguese()
+        val own = phone.text("Notas", "O lobo dorme. O gato come.")
+        val pack = phone.text("O lobo", "O lobo dorme. O gato come.", source = source)
+        phone.run(
+            "INSERT INTO playlists(language_id, name, description, cover, created_at) VALUES ($pt, 'Ouvir', 'De manhã', 2, 1000);" +
+                "INSERT INTO playlist_items(playlist_id, book_id, position) VALUES (1, $pack, 1);" +
+                "INSERT INTO playlist_items(playlist_id, book_id, position, finished_at) VALUES (1, $own, 2, 5000);" +
+                "UPDATE playlists SET current_item_id = (SELECT id FROM playlist_items WHERE book_id = $own), current_page = 2 WHERE id = 1",
+        )
+        syncBoth()
+        // The desktop has the own text, not the pack's: the playlist holds what it can.
+        assertEquals(listOf("Ouvir|De manhã|2|2"), desktop.rows("SELECT name, description, cover, current_page FROM playlists"))
+        assertEquals(listOf("Notas|5000"), desktop.rows("SELECT b.title, i.finished_at FROM playlist_items i JOIN books b ON b.id = i.book_id"))
+        assertEquals(listOf("Notas"), desktop.rows("SELECT b.title FROM playlists p JOIN playlist_items i ON i.id = p.current_item_id JOIN books b ON b.id = i.book_id"))
+
+        // Renamed on the desktop, it goes back with the pack's text still in it.
+        desktop.run("UPDATE playlists SET name = 'Ouvir à noite'")
+        desktop.engine.syncNow()
+        phone.engine.syncNow()
+        assertEquals(listOf("Ouvir à noite"), phone.rows("SELECT name FROM playlists"))
+        assertEquals(listOf("O lobo", "Notas"), phone.rows("SELECT b.title FROM playlist_items i JOIN books b ON b.id = i.book_id ORDER BY i.position"))
+
+        // Once the desktop has the pack, the playlist there holds it too; deleting it goes everywhere.
+        desktop.text("O lobo", "O lobo dorme. O gato come.", source = source)
+        desktop.engine.syncNow()
+        assertEquals(listOf("O lobo", "Notas"), desktop.rows("SELECT b.title FROM playlist_items i JOIN books b ON b.id = i.book_id ORDER BY i.position"))
+        phone.run("DELETE FROM playlists")
+        syncBoth()
+        assertEquals(emptyList(), desktop.rows("SELECT name FROM playlists"))
     }
 }

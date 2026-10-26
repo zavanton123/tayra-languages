@@ -331,7 +331,7 @@ private fun languageCodeOf(record: SyncRecord): String? = when (record.kind) {
     SyncKinds.REVIEW -> SyncKeys.termParts(record.key.substringAfter('/'))?.first
     SyncKinds.PRACTICE_EXAMPLE -> SyncKeys.termParts(record.key.substringBefore('\n'))?.first
     SyncKinds.TERM, SyncKinds.FLASHCARD, SyncKinds.PRACTICE_PROGRESS -> SyncKeys.termParts(record.key)?.first
-    SyncKinds.BOOK -> record.data?.string("language")
+    SyncKinds.BOOK, SyncKinds.PLAYLIST -> record.data?.string("language")
     SyncKinds.WORDS_READ -> record.key.substringBefore('/')
     else -> null
 }

@@ -3,6 +3,7 @@ package com.tayra.languages.core.data.sync
 import app.cash.sqldelight.async.coroutines.awaitAsList
 import app.cash.sqldelight.async.coroutines.awaitAsOne
 import app.cash.sqldelight.async.coroutines.awaitAsOneOrNull
+import com.tayra.languages.core.data.db.SyncBooksQueries
 import com.tayra.languages.core.data.db.Sync_tombstones
 import com.tayra.languages.core.data.db.TayraDatabase
 import com.tayra.languages.core.domain.language.LanguageCodes
@@ -45,6 +46,21 @@ internal fun pageParts(key: String): Pair<String, Long>? {
 
 /** A bookmark's key: its page's, and when it was made (its title for one from before that was kept). */
 internal fun bookmarkKey(book: String, order: Long, made: String): String = "${pageKey(book, order)}\n$made"
+
+/** This device's text with [key], if it has it. */
+internal suspend fun findBook(q: SyncBooksQueries, key: String, languageId: (String) -> Long?): BookRow? = when {
+    key.startsWith("lesson:") -> q.bookOfLesson(key.removePrefix("lesson:"), ::BookRow).awaitAsOneOrNull()
+    key.startsWith("uri:") -> q.bookOfSource(key.removePrefix("uri:"), ::BookRow).awaitAsOneOrNull()
+    key.startsWith("id:") -> q.bookOfSyncId(key.removePrefix("id:"), ::BookRow).awaitAsOneOrNull()
+    key.startsWith("tutorial:") -> {
+        val code = key.removePrefix("tutorial:")
+        val language = languageId(code)
+        val title = LanguageCodes.option(code)?.let { Tutorials.forLanguage(it.name)?.title }
+        if (language == null || title == null) null
+        else q.booksTitled(language, title).awaitAsList().firstOrNull()?.let { q.bookOfId(it, ::BookRow).awaitAsOneOrNull() }
+    }
+    else -> null
+}
 
 internal const val PACK_SOURCE = "tayra-books:"
 
@@ -120,9 +136,9 @@ internal data class WordsReadRow(
     }, deviceId = device)
 }
 
-internal val BOOK_KINDS = setOf(SyncKinds.BOOK, SyncKinds.PAGE, SyncKinds.BOOKMARK, SyncKinds.WORDS_READ)
+internal val BOOK_KINDS = setOf(SyncKinds.BOOK, SyncKinds.PAGE, SyncKinds.BOOKMARK, SyncKinds.WORDS_READ, SyncKinds.PLAYLIST)
 
-internal val BOOK_TOMBSTONES = setOf("book", "page", "bookmark")
+internal val BOOK_TOMBSTONES = setOf("book", "page", "bookmark", "playlist")
 
 /** This device's texts and reading changed since a time, as records. */
 internal class BookReader(private val db: TayraDatabase, private val device: String, private val codeOf: (String) -> String?) {
@@ -136,6 +152,7 @@ internal class BookReader(private val db: TayraDatabase, private val device: Str
         q.changedPages(since, ::PageRow).awaitAsList().forEach { row -> row.record(device)?.let { records += it } }
         q.changedBookmarks(since, ::BookmarkRow).awaitAsList().forEach { row -> row.record(device)?.let { records += it } }
         q.changedWordsRead(since, ::WordsReadRow).awaitAsList().forEach { row -> codeOf(row.language)?.let { records += row.record(it, device) } }
+        q.changedPlaylists(since, ::PlaylistRow).awaitAsList().forEach { row -> codeOf(row.language)?.let { records += playlistRecord(db, row, it, device) } }
         return records.filter { r -> if (r.kind == SyncKinds.BOOKMARK) fits(r.key.substringBefore('\n')) else fits(r.key) }
     }
 
@@ -148,6 +165,7 @@ internal class BookReader(private val db: TayraDatabase, private val device: Str
         }
         return when (t.kind) {
             "book" -> deleted(SyncKinds.BOOK, "id:${t.key}")
+            "playlist" -> deleted(SyncKinds.PLAYLIST, t.key)
             "page" -> deleted(SyncKinds.PAGE, pageKey(keyOf(t.scope), t.key.toLongOrNull() ?: return null))
             "bookmark" -> {
                 // Tombstones from before the key was kept with them name the sync id, and "order:made".
@@ -278,22 +296,17 @@ internal class BookWriter(private val db: TayraDatabase, private val device: Str
             q.insertWordsRead(language, pageId, readAt, remote.data?.long("wordCount") ?: 0, remote.updatedAt)
             changed++
         }
+
+        val playlists = PlaylistWriter(db, device, languageId)
+        for (remote in records.filter { it.kind == SyncKinds.PLAYLIST }) {
+            val outcome = playlists.apply(remote)
+            if (outcome.changed) changed++
+            outcome.waiting?.let { deferred += it }
+        }
         return Result(changed, deferred)
     }
 
-    private suspend fun find(key: String): BookRow? = when {
-        key.startsWith("lesson:") -> q.bookOfLesson(key.removePrefix("lesson:"), ::BookRow).awaitAsOneOrNull()
-        key.startsWith("uri:") -> q.bookOfSource(key.removePrefix("uri:"), ::BookRow).awaitAsOneOrNull()
-        key.startsWith("id:") -> q.bookOfSyncId(key.removePrefix("id:"), ::BookRow).awaitAsOneOrNull()
-        key.startsWith("tutorial:") -> {
-            val code = key.removePrefix("tutorial:")
-            val language = languageId(code)
-            val title = LanguageCodes.option(code)?.let { Tutorials.forLanguage(it.name)?.title }
-            if (language == null || title == null) null
-            else q.booksTitled(language, title).awaitAsList().firstOrNull()?.let { q.bookOfId(it, ::BookRow).awaitAsOneOrNull() }
-        }
-        else -> null
-    }
+    private suspend fun find(key: String): BookRow? = findBook(q, key, languageId)
 
     /**
      * A text made here that is the one [remote] stands for, which takes its key: the same download,
