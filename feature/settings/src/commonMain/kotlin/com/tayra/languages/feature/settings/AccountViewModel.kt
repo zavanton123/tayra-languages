@@ -38,6 +38,8 @@ data class AccountUiState(
     val confirmCombine: Boolean = false,
     /** When this device last synced, on its own or asked. */
     val lastSynced: Instant? = null,
+    /** Why the last sync, on its own or asked, did not finish. */
+    val syncProblem: AccountProblem? = null,
     val autoSync: Boolean = true,
     /** What is under way, shown with a spinner; null when nothing is. */
     val busy: AccountTask? = null,
@@ -66,7 +68,7 @@ class AccountViewModel(
 
     init {
         reload()
-        viewModelScope.launch { sync.status.collect { status -> _state.update { it.copy(lastSynced = status.lastSynced) } } }
+        viewModelScope.launch { sync.status.collect { status -> _state.update { it.copy(lastSynced = status.lastSynced, syncProblem = status.problem) } } }
         viewModelScope.launch { settings.settings.collect { s -> _state.update { it.copy(autoSync = s.autoSync) } } }
     }
 

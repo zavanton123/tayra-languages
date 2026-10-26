@@ -395,4 +395,5 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Sync automatically" to "Синхронизировать автоматически",
     "When the app starts or comes back, and a little after you change something." to "При запуске или возвращении в приложение и вскоре после ваших изменений.",
     "Too many tries for now; wait a minute and try again" to "Слишком много попыток; подождите минуту и попробуйте снова",
+    "The last sync did not finish; it is tried again in a while." to "Последняя синхронизация не завершилась; она будет повторена чуть позже.",
 )

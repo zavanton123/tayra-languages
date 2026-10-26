@@ -238,6 +238,9 @@ private fun SyncCard(state: AccountUiState, actions: AccountViewModel?) {
                     style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("account-synced"),
                 )
             }
+            if (state.syncProblem != null && state.busy != AccountTask.SYNCING) {
+                Text(tr("The last sync did not finish; it is tried again in a while."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error, modifier = Modifier.testTag("account-sync-problem"))
+            }
             state.lastSynced?.let { at ->
                 Text(tr("Last synced {0}", when_(at)), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("account-last-synced"))
             }

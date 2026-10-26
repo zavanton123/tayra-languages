@@ -90,9 +90,12 @@ class AccountScreenTest {
         override suspend fun restore(name: String): Backup { restored += name; return Backup("before.sqlite", null, 1) }
     }
 
-    private class FakeSync(var combining: Boolean = false) : LibrarySync {
+    private class FakeSync(var combining: Boolean = false, var failing: Boolean = false) : LibrarySync {
         var syncs = 0
-        override suspend fun syncNow(): SyncSummary { syncs++; combining = false; return SyncSummary(sent = 3, received = 5, changed = 2) }
+        override suspend fun syncNow(): SyncSummary {
+            if (failing) throw AccountException(AccountProblem.OFFLINE, "No connection")
+            syncs++; combining = false; return SyncSummary(sent = 3, received = 5, changed = 2)
+        }
         override suspend fun needsCombining() = combining
     }
 
@@ -161,6 +164,15 @@ class AccountScreenTest {
         onNodeWithTag("account-last-synced").assertExists()
         assertEquals(1, sync.syncs)
         save("ACCOUNT_SCREENSHOT", "-synced")
+    }
+
+    @Test
+    fun aSyncThatDidNotFinishSaysSo() = runDesktopComposeUiTest(width = 1400, height = 1600) {
+        val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com" }
+        show(accounts, sync = FakeSync(failing = true))
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("account-sync").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-sync-problem").fetchSemanticsNodes().isNotEmpty() }
     }
 
     @Test
