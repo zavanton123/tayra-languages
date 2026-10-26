@@ -159,18 +159,30 @@ class PracticeTest {
         assertTrue(built.tiles != listOf("Eu", "moro", "no", "Brasil."))
     }
 
-    /** A word heard alone is picked among words spelled nearly like it; without three such words it is not asked. */
+    /**
+     * A word heard with three words spelled nearly like it is asked by its meaning or picked among
+     * them, either way; without a meaning it is picked among them, and among others where they run short.
+     */
     @Test
-    fun aWordHeardAloneIsPickedAmongLookAlikes() {
+    fun aHeardWordIsPickedAmongLookAlikesOrAskedByItsMeaning() {
         val families = mapOf("comprar" to WordFamily("comprar", setOf("comprar", "compro", "compra", "compram", "compramos")))
         val alikes = mapOf("moro" to listOf("mora", "mole"))
-        val setup = PracticeSetup(types = setOf(ExerciseType.SOUND_ALIKE), length = null)
-        val asked = PracticeBuilder.build(words, pageWords, random = Random(2), setup = setup, alikes = alikes, families = families)
-        val heard = asked.single()
-        assertEquals("comprar", heard.answer)
-        assertEquals("comprar", heard.spoken)
-        assertEquals(4, heard.options.size)
-        assertTrue(heard.options.all { it in families.getValue("comprar").forms })
+        val setup = PracticeSetup(types = setOf(ExerciseType.HEAR_WORD), length = null)
+        val asked = (1..20).map { seed -> PracticeBuilder.build(words, pageWords, random = Random(seed), setup = setup, alikes = alikes, families = families) }
+        val comprar = asked.map { round -> round.single { it.word == "comprar" } }
+        assertTrue(comprar.any { it.answer == "to buy" } && comprar.any { it.answer == "comprar" }, "asked both ways")
+        comprar.filter { it.answer == "comprar" }.forEach { heard ->
+            assertEquals("comprar", heard.spoken)
+            assertEquals(4, heard.options.size)
+            assertTrue(heard.options.all { it in families.getValue("comprar").forms })
+        }
+        assertTrue(asked.all { round -> round.single { it.word == "moro" }.answer == "I live" }, "two look-alikes are too few to ask by")
+
+        val bare = words.map { it.copy(translation = null) }
+        val moro = PracticeBuilder.build(bare, pageWords, random = Random(2), setup = setup, alikes = alikes, families = families).single { it.word == "moro" }
+        assertEquals("moro", moro.answer)
+        assertEquals(4, moro.options.size)
+        assertTrue(moro.options.containsAll(listOf("moro", "mora")), moro.options.toString())
     }
 
     /** Adapting, a word is answered the ways its level calls for: a new one chosen, one further on typed. */
@@ -197,6 +209,7 @@ class PracticeTest {
         assertEquals(setup, PracticeSetup.decode(setup.encode()))
         assertEquals(PracticeSetup(), PracticeSetup.decode(""), "nothing said: the defaults")
         assertEquals(setOf(ExerciseType.GAP), PracticeSetup.decode("types=GAP,SOMETHING_NEW").types, "names not known are left out")
+        assertEquals(setOf(ExerciseType.HEAR_WORD), PracticeSetup.decode("types=SOUND_ALIKE").types, "the sound-alike question is now asked within Hear the word")
         assertEquals(PracticeSetup.DEFAULT_LENGTH, PracticeSetup.decode("length=-3").length)
         assertEquals(listOf(gapChoice, hearChoice, gapTyped, dictation), PracticeSetup.ofKinds(emptyList()).rotation)
         assertEquals(listOf(gapChoice, hearChoice), PracticeSetup.ofKinds(listOf("GAP_CHOICE", "HEAR_CHOOSE")).rotation)

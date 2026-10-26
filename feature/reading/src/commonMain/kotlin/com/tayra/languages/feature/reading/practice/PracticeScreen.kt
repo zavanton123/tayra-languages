@@ -350,7 +350,6 @@ private val Exercise.instruction: String
         }
         ExerciseType.MEANING -> tr("What does the marked word mean?")
         ExerciseType.MATCHING -> tr("Match each word with its meaning")
-        ExerciseType.SOUND_ALIKE -> tr("Listen and choose the word you hear")
         ExerciseType.HEAR_SENTENCE -> tr("Listen to the sentence")
         ExerciseType.HEAR_WORD -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
         ExerciseType.SHADOW -> tr("Listen and say the phrase")
@@ -405,7 +404,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         // What is heard is not shown until answered: the word of a listening choice, or a sentence typed whole.
         // A phrase to repeat is shown, marked in its sentence: it is said back, not written down.
         val sentenceHidden = !answered && exercise.type != ExerciseType.SHADOW &&
-            (exercise.type == ExerciseType.HEAR_WORD || exercise.type == ExerciseType.HEAR_SENTENCE || exercise.type == ExerciseType.SOUND_ALIKE || exercise.wholeSentence)
+            (exercise.type == ExerciseType.HEAR_WORD || exercise.type == ExerciseType.HEAR_SENTENCE || exercise.wholeSentence)
         // The sentence heard is hidden; what is asked is the word with this meaning.
         if (exercise.type == ExerciseType.HEAR_SENTENCE) {
             Text(

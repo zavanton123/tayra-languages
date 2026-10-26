@@ -19,7 +19,6 @@ fun ExerciseType.label(): String = when (this) {
     ExerciseType.HEAR_WORD -> tr("Hear the word")
     ExerciseType.HEAR_SENTENCE -> tr("Hear the sentence")
     ExerciseType.DICTATION -> tr("Dictation")
-    ExerciseType.SOUND_ALIKE -> tr("Sound-alike")
     ExerciseType.SHADOW -> tr("Shadowing")
     ExerciseType.BUILD -> tr("Build the sentence")
 }
@@ -29,10 +28,9 @@ fun ExerciseType.description(): String = when (this) {
     ExerciseType.GAP -> tr("Choose or type the word missing from the sentence")
     ExerciseType.MEANING -> tr("Pick what the marked word means")
     ExerciseType.MATCHING -> tr("Match up to five words with their meanings")
-    ExerciseType.HEAR_WORD -> tr("Hear a word and choose its meaning")
+    ExerciseType.HEAR_WORD -> tr("Hear a word and choose its meaning, or pick it among words spelled like it")
     ExerciseType.HEAR_SENTENCE -> tr("Hear a sentence and find the word that means what is shown")
     ExerciseType.DICTATION -> tr("Hear the sentence and type the missing word, or all of a short one")
-    ExerciseType.SOUND_ALIKE -> tr("Hear a word and pick it among words spelled nearly like it")
     ExerciseType.SHADOW -> tr("Hear a phrase and say it back")
     ExerciseType.BUILD -> tr("Put the sentence's words in order from its translation")
 }
@@ -44,7 +42,6 @@ fun ExerciseType.icon(): ImageVector = when (this) {
     ExerciseType.HEAR_WORD -> AppIcons.VolumeUp
     ExerciseType.HEAR_SENTENCE -> AppIcons.Headphones
     ExerciseType.DICTATION -> AppIcons.RecordVoiceOver
-    ExerciseType.SOUND_ALIKE -> AppIcons.Speed
     ExerciseType.SHADOW -> AppIcons.Mic
     ExerciseType.BUILD -> AppIcons.SwapVert
 }
@@ -77,7 +74,6 @@ fun PracticeNeed.reason(): String = when (this) {
     PracticeNeed.WORD_MEANING -> tr("Needs the word's translation")
     PracticeNeed.OTHER_MEANINGS -> tr("Needs more saved words with meanings")
     PracticeNeed.SENTENCE_TRANSLATION -> tr("Needs a translation of the sentence")
-    PracticeNeed.WORD_FORMS -> tr("Needs other forms of the word")
     PracticeNeed.MORE_WORDS -> tr("Needs four words with meanings")
     PracticeNeed.SENTENCE_LENGTH -> tr("Needs a sentence of 3 to 8 words")
 }

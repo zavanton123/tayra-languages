@@ -51,7 +51,10 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
     /** Up to five words and their meanings, to match up; asked once, at the start, of words with meanings that cannot be taken for each other. */
     MATCHING(PracticeSkill.READING, setOf(PracticeResponse.CHOOSE)),
 
-    /** The word is read aloud: choose its meaning, or the word itself when meanings are missing. */
+    /**
+     * The word is read aloud: choose its meaning, or pick the word itself among words spelled nearly
+     * like it (its other forms, or others), padded with other words when there are not three such.
+     */
     HEAR_WORD(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE)),
 
     /**
@@ -63,9 +66,6 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
 
     /** The sentence is read aloud: type the missing word, or all of a short sentence. */
     DICTATION(PracticeSkill.LISTENING, setOf(PracticeResponse.TYPE)),
-
-    /** The word is read aloud alone: pick it among words spelled nearly like it (its other forms, or others). Needs three such words. */
-    SOUND_ALIKE(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE)),
 
     /** The sentence is read aloud: say it back; right when most of its words are heard. */
     SHADOW(PracticeSkill.LISTENING, setOf(PracticeResponse.SPEAK)),
@@ -125,7 +125,9 @@ data class PracticeSetup(
             val defaults = PracticeSetup()
             return PracticeSetup(
                 // Likewise for one kept from before true or false was dropped.
-                types = names("types")?.mapNotNull { name -> ExerciseType.entries.firstOrNull { it.name == name } }?.toSet()?.takeIf { it.isNotEmpty() } ?: defaults.types,
+                // The sound-alike question is now one way Hear the word is asked.
+                types = names("types")?.map { if (it == "SOUND_ALIKE") ExerciseType.HEAR_WORD.name else it }
+                    ?.mapNotNull { name -> ExerciseType.entries.firstOrNull { it.name == name } }?.toSet()?.takeIf { it.isNotEmpty() } ?: defaults.types,
                 // A setup kept from before letter tiles were dropped may have had no other way of answering.
                 responses = names("responses")?.mapNotNull { name -> PracticeResponse.entries.firstOrNull { it.name == name } }?.toSet()?.takeIf { it.isNotEmpty() } ?: defaults.responses,
                 contexts = names("contexts")?.mapNotNull { name -> PracticeContext.entries.firstOrNull { it.name == name } }?.toSet() ?: defaults.contexts,
@@ -222,7 +224,7 @@ object PracticeBuilder {
     private const val FORMS_AMONG_CHOICES = 2
 
     /** How many letters apart a word heard alone may be from the words offered beside it. */
-    private const val SOUND_ALIKE_DISTANCE = 3
+    private const val SPELLED_ALIKE_DISTANCE = 3
 
     /** Pairs in a matching question: at most this many, and at least [MIN_PAIRS]. */
     private const val PAIRS = 5
@@ -412,14 +414,6 @@ object PracticeBuilder {
                 val text = word.sentence.substring(say)
                 base.copy(spoken = text, answer = text, wholeSentence = true, say = say)
             }
-            ExerciseType.SOUND_ALIKE -> {
-                val own = word.key
-                val near = (pool.families[own]?.forms.orEmpty() + pool.alikes[own].orEmpty().map { it.lowercase() })
-                    .filter { it != own && editDistance(it, own) <= SOUND_ALIKE_DISTANCE }.distinct()
-                if (near.size < OPTIONS - 1) return null
-                val written = near.shuffled(random).take(OPTIONS - 1).map { if (word.text.first().isUpperCase()) it.replaceFirstChar { c -> c.uppercase() } else it }
-                base.copy(options = (written + word.text).shuffled(random), spoken = word.text)
-            }
             ExerciseType.GAP ->
                 if (response == PracticeResponse.CHOOSE) base.copy(options = wordChoices(word, targets, pool, random, forms = FORMS_AMONG_CHOICES))
                 else answered(base, response, word, targets, pool, random)
@@ -432,10 +426,15 @@ object PracticeBuilder {
                 val meaning = word.translation?.trim().orEmpty()
                 val others = targets.filter { it !== word }.mapNotNull { it.translation?.trim()?.takeIf(String::isNotEmpty) }
                     .distinctBy { it.lowercase() }.filter { !it.equals(meaning, ignoreCase = true) }
-                if (meaning.isNotEmpty() && others.size >= OPTIONS - 1) {
+                val near = spelledAlike(word, pool)
+                val byMeaning = meaning.isNotEmpty() && others.size >= OPTIONS - 1
+                // Asked either way when both can be, so telling a word from those spelled like it stays in practice.
+                if (byMeaning && (near.size < OPTIONS - 1 || random.nextBoolean())) {
                     base.copy(options = (others.shuffled(random).take(OPTIONS - 1) + meaning).shuffled(random), answer = meaning, spoken = word.text)
                 } else {
-                    base.copy(options = wordChoices(word, targets, pool, random), spoken = word.text)
+                    val written = near.shuffled(random).take(OPTIONS - 1).map { if (word.text.first().isUpperCase()) it.replaceFirstChar { c -> c.uppercase() } else it }
+                    val more = wordChoices(word, targets, pool, random).filter { it.lowercase() != word.key && written.none { w -> w.equals(it, ignoreCase = true) } }
+                    base.copy(options = ((written + more).take(OPTIONS - 1) + word.text).shuffled(random), spoken = word.text)
                 }
             }
             ExerciseType.HEAR_SENTENCE -> {
@@ -505,6 +504,13 @@ object PracticeBuilder {
             .distinctBy { it.lowercase() }.filter { it.lowercase() != own }.shuffled(random).take(OPTIONS - 1)
         val more = wordChoices(word, targets, pool, random).filter { it.lowercase() != own && heard.none { h -> h.equals(it, ignoreCase = true) } }
         return ((heard + more).take(OPTIONS - 1) + word.text).shuffled(random)
+    }
+
+    /** Words spelled nearly like the word, lowercase: its other forms, and others about as common. */
+    private fun spelledAlike(word: PracticeWord, pool: WrongChoices): List<String> {
+        val own = word.key
+        return (pool.families[own]?.forms.orEmpty() + pool.alikes[own].orEmpty().map { it.lowercase() })
+            .filter { it != own && editDistance(it, own) <= SPELLED_ALIKE_DISTANCE }.distinct()
     }
 
     /** The word among other words of the page: the other words being learned first, then any others. */

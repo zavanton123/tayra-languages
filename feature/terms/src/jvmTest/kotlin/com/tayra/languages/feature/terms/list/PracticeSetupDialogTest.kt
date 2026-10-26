@@ -83,7 +83,7 @@ class PracticeSetupDialogTest {
         save("PRACTICE_SETUP_SCREENSHOT")
         assertEquals("For all 3 words", text("practice-availability-GAP"))
         assertEquals("For 2 of 3 words · Needs the word's translation", text("practice-availability-MEANING"))
-        assertEquals("For 0 of 3 words · Needs other forms of the word", text("practice-availability-SOUND_ALIKE"))
+        assertEquals("For all 3 words", text("practice-availability-HEAR_WORD"))
         assertEquals("Sentences kept for 1 of 3 words", text("practice-examples"))
         assertTrue(text("practice-summary").endsWith("min"), text("practice-summary"))
     }

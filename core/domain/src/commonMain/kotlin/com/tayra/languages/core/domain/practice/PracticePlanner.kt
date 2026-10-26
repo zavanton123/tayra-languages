@@ -13,9 +13,6 @@ enum class PracticeNeed {
     /** The word's sentence has no translation. */
     SENTENCE_TRANSLATION,
 
-    /** Too few other forms of the word are known. */
-    WORD_FORMS,
-
     /** The word's sentence is too short or too long to build from its words. */
     SENTENCE_LENGTH,
 
@@ -65,7 +62,6 @@ object PracticePlanner {
         ExerciseType.MATCHING -> PracticeNeed.MORE_WORDS.takeIf { PracticeBuilder.matching(words, Random(0)) == null }
         ExerciseType.HEAR_SENTENCE -> PracticeNeed.WORD_MEANING
         ExerciseType.BUILD -> if (words.any { it.sentence !in translations }) PracticeNeed.SENTENCE_TRANSLATION else PracticeNeed.SENTENCE_LENGTH
-        ExerciseType.SOUND_ALIKE -> PracticeNeed.WORD_FORMS
         ExerciseType.GAP, ExerciseType.HEAR_WORD, ExerciseType.DICTATION, ExerciseType.SHADOW -> null
     }
 }

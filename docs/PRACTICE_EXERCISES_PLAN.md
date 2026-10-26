@@ -254,6 +254,8 @@ Already exists for sentences of six words or fewer; extend to eight, and show a 
 
 The word is read aloud alone; four written options that look alike: other forms of the word, or words within edit distance 2 from the frequency list.
 
+Asked as one of the two ways of *Hear the word*, not as a type of its own: a word with three such look-alikes (edit distance up to 3) is asked by its meaning or among them, at random; a word without a meaning is asked among them, padded with other words.
+
 ### 6.6 True or false (group: Reading)
 
 "*esqueci* — *I forgot*?" with a right or a borrowed wrong translation, half each. Fast; asked at level 0 only, at most two per practice.
