@@ -51,7 +51,8 @@ compose.desktop {
             packageVersion = desktopVersion.get()
             // The bundled runtime only has the JDK modules listed here; without java.sql the database cannot open.
             // `./gradlew :desktopApp:suggestRuntimeModules` lists what the dependencies need.
-            modules("java.instrument", "java.management", "java.net.http", "java.prefs", "java.sql", "jdk.security.auth", "jdk.unsupported")
+            // jdk.httpserver takes Google's answer when signing in with Google.
+            modules("java.instrument", "java.management", "java.net.http", "java.prefs", "java.sql", "jdk.httpserver", "jdk.security.auth", "jdk.unsupported")
             vendor = "Tayra Languages"
             description = "Read foreign-language texts and learn their words"
             macOS {

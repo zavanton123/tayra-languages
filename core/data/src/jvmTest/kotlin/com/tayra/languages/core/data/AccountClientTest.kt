@@ -5,6 +5,8 @@ import com.tayra.languages.core.data.account.AccountServer
 import com.tayra.languages.core.data.settings.InMemorySecureStore
 import com.tayra.languages.core.domain.account.AccountException
 import com.tayra.languages.core.domain.account.AccountProblem
+import com.tayra.languages.core.domain.account.SignInClients
+import com.tayra.languages.core.domain.account.SignInProvider
 import com.tayra.languages.core.domain.account.StoreReceipt
 import com.tayra.languages.sync.DeviceInfo
 import io.ktor.client.HttpClient
@@ -100,6 +102,26 @@ class AccountClientTest {
         client.account()
         assertEquals(listOf("POST /api/v1/auth/refresh", "GET /api/v1/me Bearer access-2", "POST /api/v1/auth/refresh", "GET /api/v1/me Bearer access-3"), seen)
         assertEquals("refresh-2", secure.get("account.http://service.test.refresh_token"), "the spent refresh token is replaced")
+    }
+
+    /** A provider's ID token signs in like a password does; the service says which providers it takes. */
+    @Test
+    fun aProvidersIdTokenSignsIn() = runTest {
+        val client = client { request ->
+            when (request.url.encodedPath) {
+                "/api/v1/info" -> json("""{"service":"tayra-languages","apiVersion":1,"serverTime":1,"signIn":{"googleDesktopClientId":"desk","apple":true}}""")
+                "/api/v1/auth/google" -> {
+                    assertEquals("""{"idToken":"id-token-1","device":{"id":"device-1","name":"Desk","platform":"desktop"}}""", String(request.body.toByteArray()))
+                    json(tokens("access-1", "refresh-1"))
+                }
+                "/api/v1/me" -> json(me)
+                else -> error(request.url.encodedPath)
+            }
+        }
+        assertEquals(SignInClients(googleDesktop = "desk", apple = true), client.signInClients())
+        client.signInWith(SignInProvider.GOOGLE, "id-token-1")
+        assertEquals("reader@example.com", client.signedIn.value)
+        assertEquals(SignInClients(), client(server = "http://down.test") { throw java.io.IOException("Connection refused") }.signInClients())
     }
 
     /** A store's purchase goes to the service as the store gave it, for the service to check with the store. */

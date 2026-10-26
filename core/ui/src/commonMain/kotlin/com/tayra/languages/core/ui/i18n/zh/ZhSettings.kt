@@ -403,4 +403,6 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Restore purchases" to "恢复购买",
     "Thank you: sync and cloud backups are on" to "谢谢：同步和云备份已开启",
     "Your purchases are restored" to "你的购买已恢复",
+    "Continue with Google" to "使用 Google 继续",
+    "Continue with Apple" to "使用 Apple 继续",
 )

@@ -10,6 +10,10 @@ import com.tayra.languages.core.domain.account.CloudBackupInfo
 import com.tayra.languages.core.domain.account.CloudBackupService
 import com.tayra.languages.core.domain.account.AutoSync
 import com.tayra.languages.core.domain.account.SyncResult
+import com.tayra.languages.core.domain.account.IdentityException
+import com.tayra.languages.core.domain.account.IdentitySignIn
+import com.tayra.languages.core.domain.account.SignInClients
+import com.tayra.languages.core.domain.account.SignInProvider
 import com.tayra.languages.core.domain.account.SignedInDevice
 import com.tayra.languages.core.domain.account.StoreException
 import com.tayra.languages.core.domain.account.StoreProduct
@@ -47,6 +51,8 @@ data class AccountUiState(
     val products: List<StoreProduct> = emptyList(),
     /** Whether the store can restore purchases here. */
     val storeAvailable: Boolean = false,
+    /** The providers this app can sign in with, as the service takes them. */
+    val signInProviders: List<SignInProvider> = emptyList(),
     val autoSync: Boolean = true,
     /** What is under way, shown with a spinner; null when nothing is. */
     val busy: AccountTask? = null,
@@ -71,7 +77,11 @@ class AccountViewModel(
     private val settings: SettingsRepository,
     /** Buying in the store, in the phone apps; null elsewhere. */
     private val subscriptions: Subscriptions? = null,
+    /** Signing in with Google or Apple, where the platform can; null elsewhere. */
+    private val identity: IdentitySignIn? = null,
 ) : ViewModel() {
+    private var clients = SignInClients()
+
     private val _state = MutableStateFlow(AccountUiState())
     val state: StateFlow<AccountUiState> = _state.asStateFlow()
 
@@ -85,6 +95,17 @@ class AccountViewModel(
     fun reload() {
         _state.update { it.copy(available = accounts.available, server = settings.current.accountServer, signedIn = accounts.signedIn.value) }
         if (accounts.signedIn.value != null) work(AccountTask.LOADING) { load() }
+        else if (identity != null && accounts.available) viewModelScope.launch {
+            clients = accounts.signInClients()
+            _state.update { it.copy(signInProviders = identity.offers(clients)) }
+        }
+    }
+
+    /** Signs in with [provider]: the platform asks the person there, and the service checks the token it gives. */
+    fun signInWith(provider: SignInProvider) = work(AccountTask.SIGNING_IN) {
+        val token = identity?.idToken(provider, clients) ?: return@work
+        accounts.signInWith(provider, token)
+        load()
     }
 
     fun signIn(email: String, password: String) = work(AccountTask.SIGNING_IN) {
@@ -236,6 +257,8 @@ class AccountViewModel(
                     (if (signedOut) AccountUiState(available = it.available, server = it.server, autoSync = it.autoSync) else it).copy(problem = e.problem, problemText = e.message)
                 }
             } catch (e: BackupException) {
+                _state.update { it.copy(problem = AccountProblem.INVALID, problemText = e.message) }
+            } catch (e: IdentityException) {
                 _state.update { it.copy(problem = AccountProblem.INVALID, problemText = e.message) }
             } catch (e: StoreException) {
                 _state.update { it.copy(problem = AccountProblem.INVALID, problemText = e.message) }

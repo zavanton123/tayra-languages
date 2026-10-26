@@ -30,6 +30,9 @@ import com.tayra.languages.core.domain.account.CloudBackupService
 import com.tayra.languages.core.domain.account.CloudBackupStore
 import com.tayra.languages.core.domain.account.LibrarySync
 import com.tayra.languages.core.domain.account.Plan
+import com.tayra.languages.core.domain.account.IdentitySignIn
+import com.tayra.languages.core.domain.account.SignInClients
+import com.tayra.languages.core.domain.account.SignInProvider
 import com.tayra.languages.core.domain.account.SignedInDevice
 import com.tayra.languages.core.domain.account.StoreProduct
 import com.tayra.languages.core.domain.account.StoreProducts
@@ -83,6 +86,12 @@ class AccountScreenTest {
         override suspend fun signOutDevice(id: String) {}
         override suspend fun deleteAccount() { signedIn.value = null }
         override suspend fun reportPurchase(receipt: StoreReceipt) { reported += receipt }
+        override suspend fun signInClients() = SignInClients(googleDesktop = "desktop-client")
+        override suspend fun signInWith(provider: SignInProvider, idToken: String): AccountInfo {
+            if (idToken != "id-token-1") throw AccountException(AccountProblem.INVALID, "Not a token")
+            signedIn.value = "google-user@example.com"
+            return info()
+        }
         override suspend fun list() = kept.reversed()
         override suspend fun upload(name: String, content: ByteArray) =
             CloudBackupInfo("c${kept.size}", name, "Studio Mac", Instant.parse("2026-10-26T10:15:00Z"), content.size.toLong()).also { kept += it }
@@ -119,9 +128,18 @@ class AccountScreenTest {
         override suspend fun owned() = listOf<StoreReceipt>(StoreReceipt.GooglePlay(StoreProducts.YEARLY, "token-0"))
     }
 
-    private fun ComposeUiTest.show(accounts: FakeAccounts, local: FakeBackups = FakeBackups(), sync: LibrarySync = FakeSync(), store: StorePurchases? = null, onRestored: () -> Unit = {}): AccountViewModel {
+    /** Google, as the desktop reaches it: the person signs in, or [cancels]. */
+    private class FakeIdentity(var cancels: Boolean = false) : IdentitySignIn {
+        override fun offers(clients: SignInClients) = listOfNotNull(SignInProvider.GOOGLE.takeIf { clients.googleDesktop != null })
+        override suspend fun idToken(provider: SignInProvider, clients: SignInClients) = if (cancels) null else "id-token-1"
+    }
+
+    private fun ComposeUiTest.show(
+        accounts: FakeAccounts, local: FakeBackups = FakeBackups(), sync: LibrarySync = FakeSync(), store: StorePurchases? = null,
+        identity: IdentitySignIn? = null, onRestored: () -> Unit = {},
+    ): AccountViewModel {
         val settings = SettingsRepositoryImpl(MapSettings())
-        val viewModel = AccountViewModel(accounts, CloudBackupService(local, accounts), AutoSync(sync, accounts, settings, emptyFlow()), settings, store?.let { Subscriptions(it, accounts) })
+        val viewModel = AccountViewModel(accounts, CloudBackupService(local, accounts), AutoSync(sync, accounts, settings, emptyFlow()), settings, store?.let { Subscriptions(it, accounts) }, identity)
         setContent {
             CompositionLocalProvider(LocalUriHandler provides object : UriHandler { override fun openUri(uri: String) { opened += uri } }) {
                 TayraTheme { ProvideWindowWidth { AccountScreen(onNavigate = {}, onBack = {}, onRestored = onRestored, viewModel = viewModel) } }
@@ -133,6 +151,24 @@ class AccountScreenTest {
 
     private fun ComposeUiTest.save(env: String, suffix: String = "") {
         System.getenv(env)?.let { waitForIdle(); ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "$suffix.png"))) }
+    }
+
+    @Test
+    fun signingInWithGoogle() = runDesktopComposeUiTest(width = 1400, height = 1600) {
+        val accounts = FakeAccounts()
+        val identity = FakeIdentity(cancels = true)
+        show(accounts, identity = identity)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-google").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodesWithTag("account-apple").fetchSemanticsNodes().size, "the service takes no Apple sign-in here")
+        save("ACCOUNT_SCREENSHOT", "-providers")
+        onNodeWithText("Continue with Google").performClick()
+        waitForIdle()
+        assertEquals(null, accounts.signedIn.value, "given up in the browser")
+
+        identity.cancels = false
+        onNodeWithText("Continue with Google").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals("google-user@example.com", accounts.signedIn.value)
     }
 
     @Test

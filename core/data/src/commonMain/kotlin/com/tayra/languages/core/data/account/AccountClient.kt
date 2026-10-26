@@ -9,6 +9,8 @@ import com.tayra.languages.core.domain.account.AccountRepository
 import com.tayra.languages.core.domain.account.CloudBackupInfo
 import com.tayra.languages.core.domain.account.CloudBackupStore
 import com.tayra.languages.core.domain.account.Plan
+import com.tayra.languages.core.domain.account.SignInClients
+import com.tayra.languages.core.domain.account.SignInProvider
 import com.tayra.languages.core.domain.account.SignedInDevice
 import com.tayra.languages.core.domain.account.StoreReceipt
 import com.tayra.languages.sync.ApiError
@@ -20,8 +22,10 @@ import com.tayra.languages.sync.Device
 import com.tayra.languages.sync.DeviceInfo
 import com.tayra.languages.sync.ForgotRequest
 import com.tayra.languages.sync.GooglePlayPurchase
+import com.tayra.languages.sync.Info
 import com.tayra.languages.sync.LoginRequest
 import com.tayra.languages.sync.Me
+import com.tayra.languages.sync.ProviderSignInRequest
 import com.tayra.languages.sync.PullResponse
 import com.tayra.languages.sync.PushRequest
 import com.tayra.languages.sync.PushResponse
@@ -89,6 +93,20 @@ class AccountClient(
     override suspend fun signIn(email: String, password: String): AccountInfo {
         keep(call(HttpMethod.Post, "/auth/login", json(LoginRequest.serializer(), LoginRequest(email, password, device())), Tokens.serializer(), signedIn = false))
         return account()
+    }
+
+    override suspend fun signInWith(provider: SignInProvider, idToken: String): AccountInfo {
+        val path = if (provider == SignInProvider.GOOGLE) "/auth/google" else "/auth/apple"
+        keep(call(HttpMethod.Post, path, json(ProviderSignInRequest.serializer(), ProviderSignInRequest(idToken, device())), Tokens.serializer(), signedIn = false))
+        return account()
+    }
+
+    override suspend fun signInClients(): SignInClients = try {
+        call(HttpMethod.Get, "/info", null, Info.serializer(), signedIn = false).signIn.let {
+            SignInClients(it.googleWebClientId, it.googleIosClientId, it.googleDesktopClientId, it.googleDesktopClientSecret, it.apple)
+        }
+    } catch (_: AccountException) {
+        SignInClients()
     }
 
     override suspend fun signOut() {

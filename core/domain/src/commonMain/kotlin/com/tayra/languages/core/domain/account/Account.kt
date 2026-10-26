@@ -90,6 +90,12 @@ interface AccountRepository {
 
     /** Hands the account service a purchase the store just made, or one made before, for it to check and take. */
     suspend fun reportPurchase(receipt: StoreReceipt)
+
+    /** How the service lets apps sign in besides a password; none when it cannot be asked. */
+    suspend fun signInClients(): SignInClients
+
+    /** Signs in with an ID token [provider] gave this device; the account is made the first time. */
+    suspend fun signInWith(provider: SignInProvider, idToken: String): AccountInfo
 }
 
 /** The account's library files in the cloud. */
@@ -116,4 +122,27 @@ interface LibrarySync {
      * yet, and both hold words, texts or reading of their own. Throws as [syncNow] does.
      */
     suspend fun needsCombining(): Boolean
+}
+
+enum class SignInProvider { GOOGLE, APPLE }
+
+/** The Google clients the service takes from each kind of app, and whether it takes Sign in with Apple. */
+data class SignInClients(
+    val googleWeb: String? = null,
+    val googleIos: String? = null,
+    val googleDesktop: String? = null,
+    val googleDesktopSecret: String? = null,
+    val apple: Boolean = false,
+)
+
+/** Thrown when a provider could not sign the person in; [message] says why. */
+class IdentityException(message: String) : Exception(message)
+
+/** The platform's way to sign in with Google or Apple: an ID token from the provider, for the service to check. */
+interface IdentitySignIn {
+    /** The providers this app can sign in with, given what the service takes. */
+    fun offers(clients: SignInClients): List<SignInProvider>
+
+    /** An ID token from [provider] for the person at the device; null when they gave up. Throws [IdentityException]. */
+    suspend fun idToken(provider: SignInProvider, clients: SignInClients): String?
 }

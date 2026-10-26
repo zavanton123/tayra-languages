@@ -4,6 +4,7 @@ import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.domain.account.IdentitySignIn
 import com.tayra.languages.core.domain.account.StorePurchases
 import com.tayra.languages.core.domain.account.Subscriptions
 import org.koin.core.module.dsl.viewModel
@@ -17,7 +18,7 @@ val settingsModule = module {
     viewModel { SpeechViewModel(get(), get(), get(), getOrNull()) }
     viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }
     viewModel { BackupViewModel(get()) }
-    viewModel { AccountViewModel(get(), get(), get(), get(), getOrNull<StorePurchases>()?.let { Subscriptions(it, get()) }) }
+    viewModel { AccountViewModel(get(), get(), get(), get(), getOrNull<StorePurchases>()?.let { Subscriptions(it, get()) }, getOrNull<IdentitySignIn>()) }
     viewModel { ClearDataViewModel(get()) }
     viewModel { LanguageSetupViewModel(get()) }
 }

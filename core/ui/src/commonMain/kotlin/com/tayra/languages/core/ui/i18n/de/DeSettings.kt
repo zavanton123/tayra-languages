@@ -403,4 +403,6 @@ internal val deSettings: Map<String, String> = mapOf(
     "Restore purchases" to "Käufe wiederherstellen",
     "Thank you: sync and cloud backups are on" to "Danke: Synchronisierung und Cloud-Sicherungen sind aktiv",
     "Your purchases are restored" to "Deine Käufe sind wiederhergestellt",
+    "Continue with Google" to "Weiter mit Google",
+    "Continue with Apple" to "Weiter mit Apple",
 )

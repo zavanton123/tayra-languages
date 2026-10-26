@@ -37,6 +37,8 @@ class SubscriptionsTest {
         override suspend fun devices() = emptyList<SignedInDevice>()
         override suspend fun signOutDevice(id: String) {}
         override suspend fun deleteAccount() {}
+        override suspend fun signInClients() = SignInClients()
+        override suspend fun signInWith(provider: SignInProvider, idToken: String) = error("")
         override suspend fun reportPurchase(receipt: StoreReceipt) { reported += receipt }
     }
 

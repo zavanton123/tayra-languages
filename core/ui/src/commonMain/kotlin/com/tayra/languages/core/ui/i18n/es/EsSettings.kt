@@ -403,4 +403,6 @@ internal val esSettings: Map<String, String> = mapOf(
     "Restore purchases" to "Restaurar compras",
     "Thank you: sync and cloud backups are on" to "Gracias: la sincronización y las copias en la nube están activas",
     "Your purchases are restored" to "Tus compras se han restaurado",
+    "Continue with Google" to "Continuar con Google",
+    "Continue with Apple" to "Continuar con Apple",
 )

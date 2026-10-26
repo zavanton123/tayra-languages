@@ -403,4 +403,6 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Restore purchases" to "Восстановить покупки",
     "Thank you: sync and cloud backups are on" to "Спасибо: синхронизация и резервные копии в облаке включены",
     "Your purchases are restored" to "Ваши покупки восстановлены",
+    "Continue with Google" to "Продолжить с Google",
+    "Continue with Apple" to "Продолжить с Apple",
 )

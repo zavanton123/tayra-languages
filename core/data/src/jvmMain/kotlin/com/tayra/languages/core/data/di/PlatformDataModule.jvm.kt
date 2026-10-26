@@ -13,7 +13,11 @@ import com.tayra.languages.core.data.parse.KuromojiBoundaries
 import com.tayra.languages.core.data.runtime.DesktopAppUpdater
 import com.tayra.languages.core.data.runtime.DesktopCommandLineTool
 import com.tayra.languages.core.data.runtime.ManagedPython
+import com.tayra.languages.core.data.account.DesktopIdentitySignIn
+import com.tayra.languages.core.data.account.GoogleOAuth
+import com.tayra.languages.core.data.network.createAccountHttpClient
 import com.tayra.languages.core.data.settings.SecureStore
+import com.tayra.languages.core.domain.account.IdentitySignIn
 import com.tayra.languages.core.data.settings.desktopSecureStore
 import com.tayra.languages.core.data.settings.fileSettings
 import com.tayra.languages.core.data.speech.FileSpeechAudioCache
@@ -46,6 +50,7 @@ actual val platformDataModule: Module = module {
     single { DesktopSpeechRecognition(get(), get(), get()) } binds arrayOf(SpeechRecognition::class, SpeechRecognitionSetup::class)
     single { LocalSpeech(listOf(PiperSpeechEngine(get(), get()), KokoroSpeechEngine(get(), get()))) }
     single { DatabaseDriverFactory() }
+    single<IdentitySignIn> { DesktopIdentitySignIn(GoogleOAuth(createAccountHttpClient())) }
     single { BackupFiles() }
     single<SpeechAudioCache> { FileSpeechAudioCache(File(DatabaseDriverFactory.dataDirectory(), "speech-cache")) }
     single { DictionaryPackStorage(get()) }

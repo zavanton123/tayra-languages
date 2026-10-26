@@ -403,4 +403,6 @@ internal val elSettings: Map<String, String> = mapOf(
     "Restore purchases" to "Επαναφορά αγορών",
     "Thank you: sync and cloud backups are on" to "Ευχαριστούμε: ο συγχρονισμός και τα αντίγραφα στο cloud είναι ενεργά",
     "Your purchases are restored" to "Οι αγορές σας επανήλθαν",
+    "Continue with Google" to "Συνέχεια με Google",
+    "Continue with Apple" to "Συνέχεια με Apple",
 )

@@ -36,6 +36,7 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.account.AccountProblem
 import com.tayra.languages.core.domain.account.CloudBackupInfo
+import com.tayra.languages.core.domain.account.SignInProvider
 import com.tayra.languages.core.ui.components.APP_NAME
 import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIcons
@@ -163,6 +164,13 @@ private fun SignInCard(state: AccountUiState, actions: AccountViewModel?) {
             }
             if (!creating) {
                 QuietButton(tr("Forgot your password?"), onClick = { actions?.forgotPassword(email) }, enabled = email.isNotBlank() && !busy, modifier = Modifier.testTag("account-forgot"))
+            }
+            state.signInProviders.forEach { provider ->
+                SecondaryButton(
+                    if (provider == SignInProvider.GOOGLE) tr("Continue with Google") else tr("Continue with Apple"),
+                    onClick = { actions?.signInWith(provider) }, enabled = !busy,
+                    modifier = Modifier.fillMaxWidth().testTag("account-${provider.name.lowercase()}"),
+                )
             }
         }
     }
