@@ -91,7 +91,7 @@ class LearningLanguageTest {
         assertTrue(service.select(czech))
     }
 
-    /** The languages being learned are first those with texts or saved words, and the current one; each one chosen joins them. */
+    /** The languages being learned are first those with opened texts or saved words, and the current one; each one chosen joins them. */
     @Test
     fun theLanguagesBeingLearnedAreTheUsedOnesAndEachChosen() = runBlocking<Unit> {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-learning-mine", ".db").also { it.delete() }))
@@ -107,7 +107,10 @@ class LearningLanguageTest {
         val polish = languages.save(Language(name = "Polish"))
         val spanish = languages.save(Language(name = "Spanish"))
         languages.save(Language(name = "Swedish"))
-        BookService(books, languages).create(BookDraft(languageId = polish, title = "Kot", text = "Kot śpi."))
+        val kot = BookService(books, languages).create(BookDraft(languageId = polish, title = "Kot", text = "Kot śpi."))
+        ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), TermService(terms, languages)).openPage(kot, 1, trackOpen = true)
+        // Every language starts with a tutorial; one never opened says nothing.
+        BookService(books, languages).create(BookDraft(languageId = languages.findByName("Swedish")!!.id, title = "Tutorial", text = "Hej."))
         TermService(terms, languages).save(TermDraft(languageId = german, text = "Hund", status = TermStatus.NEW_1, statusExplicitlySet = true))
         // An ignored word is no sign of learning.
         TermService(terms, languages).save(TermDraft(languageId = spanish, text = "y", status = TermStatus.IGNORED, statusExplicitlySet = true))
@@ -122,5 +125,25 @@ class LearningLanguageTest {
         assertEquals(listOf(czech, german, polish, spanish), service.observeMine().first(), "a language is listed once")
         service.fillMine()
         assertEquals(listOf(czech, german, polish, spanish), service.observeMine().first(), "filled only the first time")
+    }
+
+    /** Each language's known words are kept as last counted while it was learned, and go with the language. */
+    @Test
+    fun theWordsKnownInEachLanguageAreKeptUntilItIsRemoved() = runBlocking<Unit> {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-learning-counts", ".db").also { it.delete() }))
+        val languages = LanguageRepositoryImpl(provider)
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val service = LearningLanguageService(settings, languages, BookRepositoryImpl(provider))
+        val czech = languages.save(Language(name = "Czech"))
+        val polish = languages.save(Language(name = "Polish"))
+        service.select(czech)
+        service.rememberKnownWords(czech, 120)
+        service.select(polish)
+        service.rememberKnownWords(polish, 7)
+        service.rememberKnownWords(polish, 9)
+        assertEquals(mapOf(czech to 120, polish to 9), service.observeKnownWordCounts().first())
+
+        service.forget(czech)
+        assertEquals(mapOf(polish to 9), service.observeKnownWordCounts().first())
     }
 }

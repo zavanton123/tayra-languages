@@ -88,6 +88,7 @@ class SettingsRepositoryImpl(
             speechRecognitionQuality = store.getString(Keys.SPEECH_RECOGNITION_QUALITY, defaults.speechRecognitionQuality),
             speechCacheClearedAt = store.getLong(Keys.SPEECH_CACHE_CLEARED_AT, defaults.speechCacheClearedAt),
             myLanguages = store.getString(Keys.MY_LANGUAGES, defaults.myLanguages),
+            knownWordCounts = store.getString(Keys.KNOWN_WORD_COUNTS, defaults.knownWordCounts),
             readingColumnWidth = store.getInt(Keys.COLUMN_WIDTH, defaults.readingColumnWidth),
             readingJustified = store.getBoolean(Keys.JUSTIFIED, defaults.readingJustified),
             focusMode = store.getBoolean(Keys.FOCUS_MODE, defaults.focusMode),
@@ -201,6 +202,7 @@ class SettingsRepositoryImpl(
         store.putString(Keys.SPEECH_RECOGNITION_QUALITY, s.speechRecognitionQuality)
         store.putLong(Keys.SPEECH_CACHE_CLEARED_AT, s.speechCacheClearedAt)
         store.putString(Keys.MY_LANGUAGES, s.myLanguages)
+        store.putString(Keys.KNOWN_WORD_COUNTS, s.knownWordCounts)
         store.putInt(Keys.COLUMN_WIDTH, s.readingColumnWidth)
         store.putBoolean(Keys.JUSTIFIED, s.readingJustified)
         store.putBoolean(Keys.FOCUS_MODE, s.focusMode)
@@ -268,7 +270,9 @@ class SettingsRepositoryImpl(
         const val PRACTICE_READ_ALOUD = "practice_read_aloud"
         const val SPEECH_RECOGNITION_QUALITY = "speech_recognition_quality"
         const val SPEECH_CACHE_CLEARED_AT = "speech_cache_cleared_at"
-        const val MY_LANGUAGES = "my_languages"
+        // Filled afresh under a new name: "my_languages" was first filled counting unopened tutorials, so every language.
+        const val MY_LANGUAGES = "learning_languages"
+        const val KNOWN_WORD_COUNTS = "known_word_counts"
         const val COLUMN_WIDTH = "reading_column_width"
         const val JUSTIFIED = "reading_justified"
         const val FOCUS_MODE = "reading_focus_mode"

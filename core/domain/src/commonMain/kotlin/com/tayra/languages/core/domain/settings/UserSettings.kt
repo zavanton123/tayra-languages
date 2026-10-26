@@ -98,6 +98,12 @@ data class UserSettings(
     val speechRecognitionQuality: String = "MEDIUM",
     /** The languages being learned, which the language menu switches between: ids, comma-separated, in the order added; empty until first filled. */
     val myLanguages: String = "",
+    /**
+     * The words known in each language as last counted while it was the one learned, as
+     * "id=count" pairs, comma-separated: the language menu shows them, since counting every
+     * language afresh would hold every language's frequency list in memory at once.
+     */
+    val knownWordCounts: String = "",
     /** When the cache of spoken audio was last emptied, in epoch milliseconds; 0 before its first use. */
     val speechCacheClearedAt: Long = 0,
 ) {

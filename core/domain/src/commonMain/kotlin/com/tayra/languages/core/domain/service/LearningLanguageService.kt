@@ -34,14 +34,24 @@ class LearningLanguageService(
     /** The languages being learned now. */
     suspend fun mine(): List<Long> = observeMine().first()
 
+    /** The words known in each language, as last counted while it was the one learned. */
+    fun observeKnownWordCounts(): Flow<Map<Long, Int>> = settings.settings.map { counts(it.knownWordCounts) }.distinctUntilChanged()
+
+    /** Keeps [count] as the words known in the language with [languageId], for when another one is learned. */
+    suspend fun rememberKnownWords(languageId: Long, count: Int) {
+        if (counts(settings.current.knownWordCounts)[languageId] == count) return
+        settings.update { it.copy(knownWordCounts = encodeCounts(counts(it.knownWordCounts) + (languageId to count))) }
+    }
+
     /**
-     * Fills the languages being learned the first time they are asked for: those with texts or
-     * saved words, and the current one; the native language never.
+     * Fills the languages being learned the first time they are asked for: those with a text that
+     * was opened or with saved words, and the current one; the native language never. A text never
+     * opened says nothing, as every language starts with its tutorial.
      */
     suspend fun fillMine() {
         if (settings.current.myLanguages.isNotBlank()) return
         val every = languages.getAll().filterNot(::isNative)
-        val withTexts = books.getBooks().map { it.languageId }.toSet()
+        val withTexts = listOf(false, true).flatMap { books.observeBooks(archived = it).first() }.filter { it.lastOpened != null }.map { it.languageId }.toSet()
         val used = every.filter { language ->
             language.id in withTexts || language.id == settings.current.currentLanguageId ||
                 terms?.list(TermListFilter(languageId = language.id, minStatus = TermStatus.NEW_1, maxStatus = TermStatus.WELL_KNOWN), TermListSort(), 0, 1)?.items?.isNotEmpty() == true
@@ -91,9 +101,16 @@ class LearningLanguageService(
         settings.update { s ->
             val rest = decode(s.myLanguages) - languageId
             val current = if (s.currentLanguageId == languageId) rest.firstOrNull() ?: 0L else s.currentLanguageId
-            s.copy(currentLanguageId = current, myLanguages = encode(rest))
+            s.copy(currentLanguageId = current, myLanguages = encode(rest), knownWordCounts = encodeCounts(counts(s.knownWordCounts) - languageId))
         }
     }
+
+    private fun counts(text: String): Map<Long, Int> = text.split(',').mapNotNull { pair ->
+        val (id, count) = pair.split('=').takeIf { it.size == 2 } ?: return@mapNotNull null
+        (id.trim().toLongOrNull() ?: return@mapNotNull null) to (count.trim().toIntOrNull() ?: return@mapNotNull null)
+    }.toMap()
+
+    private fun encodeCounts(counts: Map<Long, Int>): String = counts.entries.joinToString(",") { "${it.key}=${it.value}" }
 
     private fun withMine(text: String, id: Long): String = decode(text).let { if (id in it) text else encode(it + id) }
 
