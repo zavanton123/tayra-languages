@@ -73,6 +73,8 @@ tayra:
       environment: ${PADDLE_ENVIRONMENT:production}
       monthly-price: ${PADDLE_MONTHLY_PRICE:}
       yearly-price: ${PADDLE_YEARLY_PRICE:}
+      # The customer portal's link (Paddle > Checkout > Customer portal), where a web subscription is managed.
+      portal-url: ${PADDLE_PORTAL_URL:}
     apple:
       # The iOS app's bundle ids, comma-separated.
       bundle-ids: ${APPLE_BUNDLE_IDS:}

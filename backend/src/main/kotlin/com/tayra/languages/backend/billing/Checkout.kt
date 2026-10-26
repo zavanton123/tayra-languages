@@ -27,6 +27,7 @@ class Checkout(
     @Value("\${tayra.billing.paddle.monthly-price}") private val monthlyPrice: String,
     @Value("\${tayra.billing.paddle.yearly-price}") private val yearlyPrice: String,
     @Value("\${tayra.billing.google.package-name}") private val googlePackage: String,
+    @Value("\${tayra.billing.paddle.portal-url}") private val paddlePortal: String,
 ) {
     private val prices = listOf("monthly" to monthlyPrice, "yearly" to yearlyPrice).filter { it.second.matches(PRICE) }
     private val ready = clientToken.matches(TOKEN) && prices.isNotEmpty()
@@ -36,6 +37,7 @@ class Checkout(
         val subscription = me.subscription
         val checkout = "$base/checkout?account=${me.id}".takeIf { ready && !subscription.active }
         val manage = when (subscription.source) {
+            "paddle" -> paddlePortal.takeIf { it.startsWith("https://") }
             "apple" -> "https://apps.apple.com/account/subscriptions"
             "google" -> {
                 val product = jdbc.sql("SELECT product FROM subscriptions WHERE user_id = ? AND source = 'google' ORDER BY active_until DESC NULLS LAST LIMIT 1")

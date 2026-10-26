@@ -543,7 +543,8 @@ billing, waits for the company. What the phases settled on the way:
   it. Left for when the accounts exist: buying in the Android app (Play Billing, setting the
   obfuscated account id and reporting to `/api/v1/billing/google/purchases`) and in the iOS app
   (StoreKit 2 with `appAccountToken`, reporting to `/api/v1/billing/apple/purchases`), Paddle's
-  customer portal for managing a web subscription, and the providers' real settings.
+  and the providers' real settings (with `PADDLE_PORTAL_URL`, the customer portal where a web
+  subscription is managed).
 - The web app calls the service from its own origin (`WEB_ORIGINS`, CORS with credentials) and
   says so with `X-Tayra-Client: web`; its refresh token is then an HttpOnly, Secure, SameSite=Strict
   cookie on `/api/v1/auth`, and the body carries an empty one.

@@ -31,6 +31,7 @@ import java.util.UUID
         "tayra.billing.paddle.monthly-price=pri_01monthly",
         "tayra.billing.paddle.yearly-price=pri_01yearly",
         "tayra.billing.google.package-name=com.tayra.languages",
+        "tayra.billing.paddle.portal-url=https://customer-portal.paddle.com/cpl_01test",
     ],
 )
 class CheckoutTest(@Autowired private val mvc: MockMvc, @Autowired private val billing: Billing) {
@@ -80,6 +81,12 @@ class CheckoutTest(@Autowired private val mvc: MockMvc, @Autowired private val b
             Instant.now().plus(30, ChronoUnit.DAYS), Instant.now()))
         mvc.get("/api/v1/me") { header("Authorization", appleAuth) }.andExpect {
             jsonPath("$.subscription.manageUrl") { value("https://apps.apple.com/account/subscriptions") }
+        }
+        val (web, webAuth) = account()
+        billing.record(SubscriptionState("paddle", "sub_$web", UUID.fromString(web), "pri_01yearly", "active",
+            Instant.now().plus(30, ChronoUnit.DAYS), Instant.now()))
+        mvc.get("/api/v1/me") { header("Authorization", webAuth) }.andExpect {
+            jsonPath("$.subscription.manageUrl") { value("https://customer-portal.paddle.com/cpl_01test") }
         }
     }
 }
