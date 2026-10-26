@@ -1,0 +1,31 @@
+# The backend with its database, as in development and on a box of its own:
+#   ./gradlew :backend:bootJar && docker compose -f backend/docker-compose.yml up --build
+# Postgres listens on 5433 and the service on 8080 unless TAYRA_DB_PORT and TAYRA_PORT say otherwise.
+services:
+  db:
+    image: postgres:18
+    environment:
+      POSTGRES_DB: tayra
+      POSTGRES_USER: tayra
+      POSTGRES_PASSWORD: tayra
+    ports:
+      - "${TAYRA_DB_PORT:-5433}:5432"
+    volumes:
+      - db:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U tayra -d tayra"]
+      interval: 2s
+      retries: 30
+  app:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: jdbc:postgresql://db:5432/tayra
+      DATABASE_USER: tayra
+      DATABASE_PASSWORD: tayra
+    ports:
+      - "${TAYRA_PORT:-8080}:8080"
+volumes:
+  db:

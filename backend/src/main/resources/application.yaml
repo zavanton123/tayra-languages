@@ -1,0 +1,27 @@
+# Every setting comes from the environment, so the service runs the same on a platform or a box of
+# its own (docs/SYNC_BACKEND_DESIGN.md, Portability). The defaults suit docker-compose.yml.
+spring:
+  application:
+    name: tayra-backend
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5433/tayra}
+    username: ${DATABASE_USER:tayra}
+    password: ${DATABASE_PASSWORD:tayra}
+  threads:
+    virtual:
+      enabled: true
+server:
+  port: ${PORT:8080}
+  shutdown: graceful
+  compression:
+    enabled: true
+    mime-types: application/json
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      probes:
+        enabled: true

@@ -7,4 +7,6 @@ plugins {
     alias(libs.plugins.kotlin.multiplatform) apply false
     alias(libs.plugins.kotlin.serialization) apply false
     alias(libs.plugins.sqldelight) apply false
+    alias(libs.plugins.spring.boot) apply false
+    alias(libs.plugins.kotlin.spring) apply false
 }
