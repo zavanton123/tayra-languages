@@ -37,6 +37,8 @@ class SecurityConfig(@Value("\${tayra.auth.jwt-secret}") secret: String, @Value(
         .sessionManagement { it.sessionCreationPolicy(SessionCreationPolicy.STATELESS) }
         .authorizeHttpRequests {
             it.requestMatchers("/api/v1/auth/**", "/api/v1/info", "/actuator/health/**", "/actuator/health", "/error").permitAll()
+            // The providers' notifications carry signatures of their own, checked by each handler.
+            it.requestMatchers("/api/v1/billing/paddle", "/api/v1/billing/apple", "/api/v1/billing/google").permitAll()
             // The owner's own look at how the service does, with a token of its own.
             it.requestMatchers("/actuator/metrics", "/actuator/metrics/**").access { _, context ->
                 val sent = context.request.getHeader("X-Admin-Token").orEmpty()

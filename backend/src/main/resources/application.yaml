@@ -62,6 +62,11 @@ tayra:
   admin-token: ${ADMIN_TOKEN:}
   # Accounts that may sync without paying, comma-separated: the owner's own, before billing exists.
   free-emails: ${TAYRA_FREE_EMAILS:}
+  # Subscriptions. A provider whose settings are empty is off: its notifications are answered 404.
+  billing:
+    paddle:
+      # The webhook destination's secret key, from Paddle > Developer tools > Notifications.
+      webhook-secret: ${PADDLE_WEBHOOK_SECRET:}
   # Cloud backups: any S3-compatible storage (S3Mock in development, R2, B2 or Hetzner in production).
   storage:
     endpoint: ${S3_ENDPOINT:http://localhost:9090}
