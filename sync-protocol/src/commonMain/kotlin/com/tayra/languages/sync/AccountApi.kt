@@ -77,4 +77,5 @@ object ApiErrors {
     const val SUBSCRIPTION_REQUIRED = "subscription_required"
     const val NOT_FOUND = "not_found"
     const val TOO_LARGE = "too_large"
+    const val RATE_LIMITED = "rate_limited"
 }

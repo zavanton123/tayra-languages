@@ -1,0 +1,6 @@
+# Tests make many requests from one address; the rate limit test sets its own limits.
+tayra:
+  rate-limits:
+    auth-per-minute: 100000
+    other-per-minute: 100000
+  admin-token: test-admin-token

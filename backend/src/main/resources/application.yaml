@@ -16,6 +16,8 @@ spring:
 server:
   port: ${PORT:8080}
   shutdown: graceful
+  # Behind a platform's proxy, the client's address from the proxy's headers, for the rate limits.
+  forward-headers-strategy: ${FORWARD_HEADERS_STRATEGY:native}
   compression:
     enabled: true
     mime-types: application/json
@@ -28,7 +30,8 @@ management:
   endpoints:
     web:
       exposure:
-        include: health
+        # Metrics answer only requests carrying the admin token (SecurityConfig).
+        include: health,metrics
   endpoint:
     health:
       probes:
@@ -48,6 +51,12 @@ tayra:
       client-ids: ${APPLE_CLIENT_IDS:}
       jwks-uri: ${APPLE_JWKS_URI:https://appleid.apple.com/auth/keys}
       issuers: https://appleid.apple.com
+  # Requests an address may make a minute: signing up and in, codes and resets; and the rest.
+  rate-limits:
+    auth-per-minute: ${RATE_LIMIT_AUTH:20}
+    other-per-minute: ${RATE_LIMIT_OTHER:600}
+  # Lets /actuator/metrics answer requests with this X-Admin-Token header; empty keeps metrics closed.
+  admin-token: ${ADMIN_TOKEN:}
   # Accounts that may sync without paying, comma-separated: the owner's own, before billing exists.
   free-emails: ${TAYRA_FREE_EMAILS:}
   # Cloud backups: any S3-compatible storage (S3Mock in development, R2, B2 or Hetzner in production).

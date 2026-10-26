@@ -9,6 +9,7 @@ import com.tayra.languages.sync.PushResponse
 import com.tayra.languages.sync.SyncJson
 import com.tayra.languages.sync.SyncMerge
 import com.tayra.languages.sync.SyncRecord
+import io.micrometer.core.instrument.MeterRegistry
 import kotlinx.serialization.json.JsonObject
 import org.springframework.jdbc.core.simple.JdbcClient
 import org.springframework.security.core.annotation.AuthenticationPrincipal
@@ -32,7 +33,12 @@ import java.util.UUID
  * subscription.
  */
 @Service
-class SyncService(private val jdbc: JdbcClient, private val entitlements: Entitlements, private val clock: Clock) {
+class SyncService(private val jdbc: JdbcClient, private val entitlements: Entitlements, private val clock: Clock, metrics: MeterRegistry) {
+    private val pushed = metrics.counter("tayra.sync.pushed")
+    private val changed = metrics.counter("tayra.sync.changed")
+    /** Records sent that lost to the account's version, wholly or in part: how often devices disagree. */
+    private val conflicts = metrics.counter("tayra.sync.conflicts")
+    private val pulled = metrics.counter("tayra.sync.pulled")
 
     @Transactional
     fun push(userId: UUID, request: PushRequest): PushResponse {
@@ -48,7 +54,10 @@ class SyncService(private val jdbc: JdbcClient, private val entitlements: Entitl
             val stored = jdbc.sql("SELECT kind, key, updated_at, deleted, device_id, data FROM records WHERE user_id = ? AND kind = ? AND key = ? FOR UPDATE")
                 .params(userId, incoming.kind, incoming.key).query(::record).optional().orElse(null)
             val merged = if (stored == null) incoming else SyncMerge.merge(stored, incoming)
+            pushed.increment()
+            if (stored != null && !same(merged, incoming)) conflicts.increment()
             if (merged == stored) continue
+            changed.increment()
             seq++
             jdbc.sql(
                 """INSERT INTO records(user_id, kind, key, seq, updated_at, deleted, device_id, data) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
@@ -67,8 +76,12 @@ class SyncService(private val jdbc: JdbcClient, private val entitlements: Entitl
             .params(userId, since, size + 1)
             .query { rs, n -> record(rs, n) to rs.getLong("seq") }.list()
         val page = rows.take(size)
+        pulled.increment(page.size.toDouble())
         return PullResponse(page.map { it.first }, page.lastOrNull()?.second ?: since, more = rows.size > size)
     }
+
+    /** The same version, whichever device it came from. */
+    private fun same(a: SyncRecord, b: SyncRecord) = a.updatedAt == b.updatedAt && a.deleted == b.deleted && a.data == b.data
 
     private fun record(rs: ResultSet, @Suppress("UNUSED_PARAMETER") row: Int) = SyncRecord(
         kind = rs.getString("kind"),
