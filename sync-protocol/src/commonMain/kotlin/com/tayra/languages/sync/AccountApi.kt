@@ -6,7 +6,21 @@ import kotlinx.serialization.Serializable
 
 /** What the service is and its clock, which the apps compare their own with before stamping changes. */
 @Serializable
-data class Info(val service: String, val apiVersion: Int, val serverTime: Long)
+data class Info(val service: String, val apiVersion: Int, val serverTime: Long, val signIn: SignInOptions = SignInOptions())
+
+/**
+ * How the apps may sign in besides a password: the Google client each app asks Google with (the web
+ * client also serves as Android's server client id), and whether Sign in with Apple is taken. The
+ * desktop client's secret is no secret: Google gives installed apps one to ship.
+ */
+@Serializable
+data class SignInOptions(
+    val googleWebClientId: String? = null,
+    val googleIosClientId: String? = null,
+    val googleDesktopClientId: String? = null,
+    val googleDesktopClientSecret: String? = null,
+    val apple: Boolean = false,
+)
 
 /** The device signing in, so each one keeps its own sign-in and can be listed and signed out. */
 @Serializable

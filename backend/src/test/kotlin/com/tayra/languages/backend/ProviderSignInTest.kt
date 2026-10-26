@@ -21,6 +21,7 @@ import org.springframework.jdbc.core.JdbcTemplate
 import org.springframework.test.context.DynamicPropertyRegistry
 import org.springframework.test.context.DynamicPropertySource
 import org.springframework.test.web.servlet.MockMvc
+import org.springframework.test.web.servlet.get
 import org.springframework.test.web.servlet.post
 import java.net.InetSocketAddress
 import java.util.Date
@@ -56,6 +57,8 @@ class ProviderSignInTest(@Autowired private val mvc: MockMvc, @Autowired private
             val jwks = "http://127.0.0.1:${keys.address.port}/keys"
             registry.add("tayra.auth.google.jwks-uri") { jwks }
             registry.add("tayra.auth.google.client-ids") { "android-client,ios-client" }
+            registry.add("tayra.auth.google.desktop-client-id") { "desktop-client.apps.googleusercontent.com" }
+            registry.add("tayra.auth.google.desktop-client-secret") { "GOCSPX-desktop" }
             registry.add("tayra.auth.apple.jwks-uri") { jwks }
             registry.add("tayra.auth.apple.client-ids") { "com.tayra.languages" }
         }
@@ -88,6 +91,18 @@ class ProviderSignInTest(@Autowired private val mvc: MockMvc, @Autowired private
         // Google may change the email later; the account goes by Google's id for the user.
         val again = tokens("google", idToken(sub, "renamed-$sub@gmail.com", audience = "ios-client", issuer = "accounts.google.com"))
         assertEquals(first.user.id, again.user.id)
+    }
+
+    @Test
+    fun theAppsAreToldHowTheyMaySignInAndTheirClientsAreTaken() {
+        mvc.get("/api/v1/info").andExpect {
+            jsonPath("$.signIn.googleDesktopClientId") { value("desktop-client.apps.googleusercontent.com") }
+            jsonPath("$.signIn.googleDesktopClientSecret") { value("GOCSPX-desktop") }
+            jsonPath("$.signIn.googleWebClientId") { doesNotExist() }
+            jsonPath("$.signIn.apple") { value(true) }
+        }
+        val sub = UUID.randomUUID().toString()
+        assertEquals("d-$sub@gmail.com", tokens("google", idToken(sub, "d-$sub@gmail.com", audience = "desktop-client.apps.googleusercontent.com")).user.email)
     }
 
     @Test

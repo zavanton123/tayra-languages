@@ -44,7 +44,14 @@ tayra:
     refresh-token-days: 90
     # Sign-in with Google and Apple: the apps' client ids, comma-separated. Empty turns the provider off.
     google:
+      # Further accepted clients, comma-separated; the three below are accepted too.
       client-ids: ${GOOGLE_CLIENT_IDS:}
+      # The OAuth clients the apps sign in with, from the owner's Google Cloud project: the web client
+      # (the web app, and Android's server client id), the iOS client, and the desktop client.
+      web-client-id: ${GOOGLE_WEB_CLIENT_ID:}
+      ios-client-id: ${GOOGLE_IOS_CLIENT_ID:}
+      desktop-client-id: ${GOOGLE_DESKTOP_CLIENT_ID:}
+      desktop-client-secret: ${GOOGLE_DESKTOP_CLIENT_SECRET:}
       jwks-uri: ${GOOGLE_JWKS_URI:https://www.googleapis.com/oauth2/v3/certs}
       issuers: https://accounts.google.com,accounts.google.com
     apple:

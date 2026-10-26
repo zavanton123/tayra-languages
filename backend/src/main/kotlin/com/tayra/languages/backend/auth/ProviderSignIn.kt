@@ -75,12 +75,15 @@ class ProviderSignIn(
     @Value("\${tayra.auth.google.jwks-uri}") googleJwks: String,
     @Value("\${tayra.auth.google.issuers}") googleIssuers: String,
     @Value("\${tayra.auth.google.client-ids}") googleClients: String,
+    @Value("\${tayra.auth.google.web-client-id}") googleWeb: String,
+    @Value("\${tayra.auth.google.ios-client-id}") googleIos: String,
+    @Value("\${tayra.auth.google.desktop-client-id}") googleDesktop: String,
     @Value("\${tayra.auth.apple.jwks-uri}") appleJwks: String,
     @Value("\${tayra.auth.apple.issuers}") appleIssuers: String,
     @Value("\${tayra.auth.apple.client-ids}") appleClients: String,
 ) {
     private val providers = mapOf(
-        "google" to IdentityProvider("Google", "google_sub", googleJwks, list(googleIssuers), list(googleClients)),
+        "google" to IdentityProvider("Google", "google_sub", googleJwks, list(googleIssuers), list(googleClients) + list("$googleWeb,$googleIos,$googleDesktop")),
         "apple" to IdentityProvider("Apple", "apple_sub", appleJwks, list(appleIssuers), list(appleClients)),
     )
 
