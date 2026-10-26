@@ -491,8 +491,8 @@ The paid release waits for the company, which sets the order: everything that do
 billing account is built first, against a backend whose entitlement is granted by hand for test
 accounts. Billing is the last thing wired in, not the first.
 
-Done so far: Phases 0 to 3, Phase 5 but for what waits on real use, and of Phase 4 all that needs
-no store or Paddle account to build and test. Sync runs on its own (at
+Done so far: Phases 0 to 3, Phase 5 but for what waits on real use, and Phase 4 but for what needs
+the store and Paddle accounts: setting up the products and trying a real purchase. Sync runs on its own (at
 start, when the app is brought back, 30 s after the last change, every 10 minutes; a switch on the
 account page turns it off), from the account page's "Sync now", and from `tayra sync`. Phase 4,
 billing, waits for the company. What the phases settled on the way:
@@ -540,11 +540,14 @@ billing, waits for the company. What the phases settled on the way:
   desktop and web apps open `/checkout?account=<id>`, a page that opens Paddle's checkout
   (`PADDLE_CLIENT_TOKEN`, `PADDLE_ENVIRONMENT`, `PADDLE_MONTHLY_PRICE`, `PADDLE_YEARLY_PRICE`);
   `/me` gives the account its checkout and, for a store's subscription, the store's page to manage
-  it. Left for when the accounts exist: buying in the Android app (Play Billing, setting the
-  obfuscated account id and reporting to `/api/v1/billing/google/purchases`) and in the iOS app
-  (StoreKit 2 with `appAccountToken`, reporting to `/api/v1/billing/apple/purchases`), and the
-  providers' real settings, `PADDLE_PORTAL_URL` among them: the customer portal where a web
-  subscription is managed.
+  it. The phone apps buy in their store: Play Billing 8 on Android (the account's id as
+  the obfuscated account id) and StoreKit 2 on iOS (as the appAccountToken), each purchase reported
+  to `/api/v1/billing/google/purchases` or `/api/v1/billing/apple/purchases`; the account page lists
+  the store's plans and offers "Restore purchases". Left for when the accounts exist: the
+  subscriptions `tayra.sync.monthly` and `tayra.sync.yearly` set up in the Play Console and App
+  Store Connect, a purchase tried with each store's test accounts (Play's licence testers, Apple's
+  sandbox), and the providers' real settings, `PADDLE_PORTAL_URL` among them: the customer portal
+  where a web subscription is managed.
 - The web app calls the service from its own origin (`WEB_ORIGINS`, CORS with credentials) and
   says so with `X-Tayra-Client: web`; its refresh token is then an HttpOnly, Secure, SameSite=Strict
   cookie on `/api/v1/auth`, and the body carries an empty one.
