@@ -186,11 +186,21 @@ class AccountViewModel(
         val account = accounts.account()
         val devices = accounts.devices()
         val backups = cloud.list()
-        // A store that cannot be reached leaves the page as it is, without plans to buy.
-        val store = subscriptions
-        val products = if (store == null || account.plan.active) emptyList() else runCatching { store.products() }.getOrDefault(emptyList())
         _state.update {
-            it.copy(signedIn = accounts.signedIn.value, account = account, devices = devices, cloudBackups = backups, products = products, storeAvailable = subscriptions != null)
+            it.copy(signedIn = accounts.signedIn.value, account = account, devices = devices, cloudBackups = backups, storeAvailable = subscriptions != null)
+        }
+        // The store answers in its own time, and one that cannot be reached leaves the page without plans to buy.
+        val store = subscriptions ?: return
+        if (account.plan.active) return _state.update { it.copy(products = emptyList()) }
+        viewModelScope.launch {
+            val products = try {
+                store.products()
+            } catch (e: CancellationException) {
+                throw e
+            } catch (_: Exception) {
+                emptyList()
+            }
+            _state.update { it.copy(products = products) }
         }
     }
 

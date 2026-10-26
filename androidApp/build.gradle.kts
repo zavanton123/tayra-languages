@@ -10,6 +10,7 @@ dependencies {
     implementation(libs.androidx.activity.compose)
     implementation(libs.koin.core)
     implementation(libs.filekit.dialogs.compose)
+    implementation(libs.android.billing.ktx)
 }
 
 // Release builds pass the version from the git tag; local builds fall back to these values.

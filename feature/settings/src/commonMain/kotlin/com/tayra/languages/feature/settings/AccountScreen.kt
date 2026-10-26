@@ -196,7 +196,7 @@ private fun AccountCard(state: AccountUiState, actions: AccountViewModel?) {
             if (account != null && !account.emailVerified) ConfirmEmail(state, actions)
             val uri = LocalUriHandler.current
             val plan = account?.plan
-            if (state.products.isNotEmpty() && plan?.active == false) StorePlans(state, actions)
+            if (state.storeAvailable && plan?.active == false) StorePlans(state, actions)
             Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
                 plan?.checkoutUrl?.let { url ->
                     PrimaryButton(tr("Subscribe"), onClick = { uri.openUri(url) }, modifier = Modifier.testTag("account-subscribe"))
@@ -213,7 +213,7 @@ private fun AccountCard(state: AccountUiState, actions: AccountViewModel?) {
     }
 }
 
-/** The store's plans, in the phone apps, for an account without a subscription. */
+/** The store's plans, in the phone apps, for an account without a subscription; restoring is offered even without them. */
 @Composable
 private fun StorePlans(state: AccountUiState, actions: AccountViewModel?) {
     Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
@@ -223,7 +223,9 @@ private fun StorePlans(state: AccountUiState, actions: AccountViewModel?) {
                 loading = state.busy == AccountTask.SUBSCRIBING, modifier = Modifier.testTag("account-buy-${product.id}"),
             )
         }
-        Text(tr("Renews automatically until you cancel it in the store's subscriptions."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        if (state.products.isNotEmpty()) {
+            Text(tr("Renews automatically until you cancel it in the store's subscriptions."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
         QuietButton(tr("Restore purchases"), onClick = { actions?.restorePurchases() }, enabled = state.busy == null, modifier = Modifier.testTag("account-restore-purchases"))
     }
 }
