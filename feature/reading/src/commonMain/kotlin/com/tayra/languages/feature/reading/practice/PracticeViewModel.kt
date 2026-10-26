@@ -370,18 +370,22 @@ class PracticeViewModel(
 
     /**
      * The term's translation was put right while practising: the questions on it show the new one,
-     * and one still to come that asks for its meaning takes it as its answer.
+     * and one that asks for its meaning, the one just answered too, takes it as its answer among
+     * its choices; an answer that chose the old one stays chosen as the new one.
      */
     fun translationFixed(termId: Long, translation: String) {
         val meaning = translation.trim().takeIf { it.isNotEmpty() } ?: return
         _state.update { s ->
+            val current = s.exercises.getOrNull(s.index)
+            val old = current?.wordTranslation?.takeIf { current.termId == termId && current.answer == it }
             s.copy(
                 exercises = s.exercises.mapIndexed { i, e ->
                     if (e.termId != termId) return@mapIndexed e
-                    val old = e.wordTranslation
+                    val previous = e.wordTranslation
                     val fixed = e.copy(wordTranslation = meaning)
-                    if (i > s.index && old != null && e.answer == old) fixed.copy(answer = meaning, options = e.options.map { if (it == old) meaning else it }) else fixed
+                    if (i >= s.index && previous != null && e.answer == previous) fixed.copy(answer = meaning, options = e.options.map { if (it == previous) meaning else it }) else fixed
                 },
+                chosen = if (old != null && s.chosen == old) meaning else s.chosen,
             )
         }
     }

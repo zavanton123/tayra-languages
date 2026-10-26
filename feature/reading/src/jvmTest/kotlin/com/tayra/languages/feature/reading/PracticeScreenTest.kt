@@ -624,6 +624,14 @@ class PracticeScreenTest {
 
         viewModel.translationFixed(exercise.termId!!, "sentido novo")
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("${exercise.word} — sentido novo").fetchSemanticsNodes().isNotEmpty() }
+        // The question answered shows the new meaning among its choices, still the one chosen, and not the old one.
+        val now = viewModel.state.value
+        assertEquals("sentido novo", now.current!!.answer)
+        assertTrue("sentido novo" in now.current!!.options && exercise.answer !in now.current!!.options)
+        assertEquals("sentido novo", now.chosen)
+        assertEquals(PracticeResult.CORRECT, now.result)
+        onNodeWithText("sentido novo").assertExists()
+        assertTrue(onAllNodesWithText(exercise.answer).fetchSemanticsNodes().isEmpty(), "the old meaning is gone from the choices")
         val later = viewModel.state.value.exercises.drop(viewModel.state.value.index + 1).filter { it.termId == exercise.termId }
         assertTrue(later.isNotEmpty() && later.all { it.wordTranslation == "sentido novo" })
         later.filter { it.options.isNotEmpty() && it.answer != it.word }.forEach { assertEquals("sentido novo", it.answer); assertTrue("sentido novo" in it.options) }
