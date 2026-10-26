@@ -9,6 +9,7 @@ import com.tayra.languages.core.domain.account.AccountInfo
 import com.tayra.languages.core.domain.account.AccountRepository
 import com.tayra.languages.core.domain.account.CloudBackupInfo
 import com.tayra.languages.core.domain.account.CloudBackupService
+import com.tayra.languages.core.domain.account.LibrarySync
 import com.tayra.languages.core.data.runtime.AppInstanceLock
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.builtins.ListSerializer
@@ -151,5 +152,15 @@ private class CloudDelete : Command("delete", "Delete a backup kept in the accou
     override fun run() = respond(cli, DoneJson.serializer()) {
         cli.get<CloudBackupService>().delete(id)
         Output(DoneJson(message = "Deleted"), "Deleted.")
+    }
+}
+
+@Serializable
+data class SyncResultJson(val sent: Int, val received: Int, val changed: Int)
+
+class SyncCommand : Command("sync", "Send the words, cards and practice changed here to the account, and take those changed on other devices") {
+    override fun run() = respond(cli, SyncResultJson.serializer(), changes = true) {
+        val done = cli.get<LibrarySync>().syncNow()
+        Output(SyncResultJson(done.sent, done.received, done.changed), "Synced: ${done.sent} changes sent, ${done.received} received, ${done.changed} applied here.")
     }
 }

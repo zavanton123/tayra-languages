@@ -59,6 +59,9 @@ command works in the language being learned in the app.
 | `read` | `page` (each word with its status), `mark-read` |
 | `export` | `anki`, `terms --format csv\|json` |
 | `backups` | `list`, `create`, `restore`, `import`, `export`, `delete` |
+| `account` | `register`, `login`, `logout`, `status`, `send-code`, `confirm`, `devices`, `delete` |
+| `cloud` | `list`, `backup`, `restore`, `delete` (library backups kept in the account) |
+| `sync` | sends the words, cards and practice changed here and takes those changed elsewhere |
 | `stats` | reading and vocabulary statistics |
 | `settings` | `get [name]`, `set <name> <value>` |
 | `level` | `get`, `set <rank>` (the vocabulary level) |
