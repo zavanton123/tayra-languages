@@ -194,6 +194,21 @@ class SyncEngineTest {
     }
 
     @Test
+    fun onlyAFirstSyncOfTwoLibrariesNeedsCombining() = runBlocking<Unit> {
+        phone.word("casa")
+        assertEquals(false, phone.engine.needsCombining(), "the account holds nothing yet")
+        phone.engine.syncNow()
+        assertEquals(false, phone.engine.needsCombining(), "synced already")
+
+        val fresh = Device(account)
+        assertEquals(false, fresh.engine.needsCombining(), "a device with nothing of its own just takes the account's")
+        desktop.word("lobo")
+        assertEquals(true, desktop.engine.needsCombining())
+        desktop.engine.syncNow()
+        assertEquals(false, desktop.engine.needsCombining())
+    }
+
+    @Test
     fun aWordDeletedOnOneDeviceGoesOnTheOtherWithItsCard() = runBlocking<Unit> {
         val lobo = phone.word("lobo", TermStatus.NEW_2)
         phone.word("casa")

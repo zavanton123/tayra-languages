@@ -383,9 +383,12 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Your account is deleted" to "你的账户已删除",
     "Back up your library to the cloud and use it on all your devices." to "将资料库备份到云端，并在所有设备上使用。",
     "Sync" to "同步",
-    "Your words, flashcards and practice, the same on all your devices." to "你的单词、抽认卡和练习，在所有设备上保持一致。",
+    "Your words, texts, reading and learning setup, the same on all your devices." to "你的单词、文本、阅读进度和学习设置，在所有设备上保持一致。",
     "Syncing needs an active subscription." to "同步需要有效的订阅。",
     "Sync now" to "立即同步",
     "Sent: {0} · Taken from other devices: {1}" to "已发送：{0} · 从其他设备获取：{1}",
     "This device is in sync" to "此设备已同步",
+    "Combine the libraries?" to "合并两个资料库？",
+    "Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays." to "你的账户已有来自另一台设备的资料库。两边的单词、文本和进度都会保留；同一项在两边都改过时，保留较晚的修改。",
+    "Combine" to "合并",
 )

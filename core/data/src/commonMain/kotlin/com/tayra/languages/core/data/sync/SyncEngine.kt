@@ -67,6 +67,14 @@ class SyncEngine(
 ) : LibrarySync {
     private val running = Mutex()
 
+    override suspend fun needsCombining(): Boolean = running.withLock {
+        val account = transport.syncAccount() ?: throw AccountException(AccountProblem.SIGNED_OUT, "Not signed in")
+        val db = provider.database()
+        val synced = settings.getStringOrNull(ACCOUNT) == account && withContext(databaseDispatcher) { db.syncQueries.state().awaitAsOne() }.last_seq > 0
+        if (synced) return@withLock false
+        withContext(databaseDispatcher) { db.syncRecordsQueries.hasOwnLibrary().awaitAsOne() } && transport.pull(0, 1).records.isNotEmpty()
+    }
+
     override suspend fun syncNow(): SyncSummary = running.withLock {
         val account = transport.syncAccount() ?: throw AccountException(AccountProblem.SIGNED_OUT, "Not signed in")
         val db = provider.database()

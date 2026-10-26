@@ -32,6 +32,8 @@ data class AccountUiState(
     val cloudBackups: List<CloudBackupInfo> = emptyList(),
     /** What the last sync from this page did. */
     val synced: SyncSummary? = null,
+    /** The first sync would combine this device's library with the account's: the page asks first. */
+    val confirmCombine: Boolean = false,
     /** What is under way, shown with a spinner; null when nothing is. */
     val busy: AccountTask? = null,
     /** What went wrong last, until the next action. */
@@ -113,10 +115,18 @@ class AccountViewModel(
         _state.update { it.copy(devices = accounts.devices()) }
     }
 
-    fun syncNow() = work(AccountTask.SYNCING) {
+    /** Syncs, after asking when the first sync would combine two libraries; [combine] is the answer. */
+    fun syncNow(combine: Boolean = false) = work(AccountTask.SYNCING) {
+        if (!combine && sync.needsCombining()) {
+            _state.update { it.copy(confirmCombine = true) }
+            return@work
+        }
+        _state.update { it.copy(confirmCombine = false) }
         val done = sync.syncNow()
         _state.update { it.copy(synced = done, done = AccountDone.SYNCED) }
     }
+
+    fun cancelCombine() = _state.update { it.copy(confirmCombine = false) }
 
     fun backUp() = work(AccountTask.BACKING_UP) {
         cloud.backUp()

@@ -95,4 +95,10 @@ data class SyncSummary(val sent: Int, val received: Int, val changed: Int)
 interface LibrarySync {
     /** Throws [AccountException] when the account cannot be reached or may not sync. */
     suspend fun syncNow(): SyncSummary
+
+    /**
+     * Whether the next sync would combine two libraries: this device has not synced with the account
+     * yet, and both hold words, texts or reading of their own. Throws as [syncNow] does.
+     */
+    suspend fun needsCombining(): Boolean
 }

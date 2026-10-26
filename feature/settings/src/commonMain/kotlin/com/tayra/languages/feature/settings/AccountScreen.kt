@@ -223,7 +223,7 @@ private fun SyncCard(state: AccountUiState, actions: AccountViewModel?) {
     val active = state.account?.plan?.active == true
     ContentCard(
         tr("Sync"),
-        subtitle = if (active) tr("Your words, flashcards and practice, the same on all your devices.") else tr("Syncing needs an active subscription."),
+        subtitle = if (active) tr("Your words, texts, reading and learning setup, the same on all your devices.") else tr("Syncing needs an active subscription."),
         icon = Icons.Default.Refresh,
     ) {
         Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
@@ -238,6 +238,15 @@ private fun SyncCard(state: AccountUiState, actions: AccountViewModel?) {
                 )
             }
         }
+    }
+    if (state.confirmCombine) {
+        ConfirmDialog(
+            title = tr("Combine the libraries?"),
+            text = tr("Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays."),
+            confirmLabel = tr("Combine"),
+            onConfirm = { actions?.syncNow(combine = true) },
+            onDismiss = { actions?.cancelCombine() },
+        )
     }
 }
 

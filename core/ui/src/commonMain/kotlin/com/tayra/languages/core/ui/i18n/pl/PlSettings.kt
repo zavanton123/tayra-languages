@@ -383,9 +383,12 @@ internal val plSettings: Map<String, String> = mapOf(
     "Your account is deleted" to "Twoje konto zostało usunięte",
     "Back up your library to the cloud and use it on all your devices." to "Zapisz bibliotekę w chmurze i używaj jej na wszystkich urządzeniach.",
     "Sync" to "Synchronizacja",
-    "Your words, flashcards and practice, the same on all your devices." to "Twoje słowa, fiszki i ćwiczenia, takie same na wszystkich urządzeniach.",
+    "Your words, texts, reading and learning setup, the same on all your devices." to "Twoje słowa, teksty, czytanie i ustawienia nauki, takie same na wszystkich urządzeniach.",
     "Syncing needs an active subscription." to "Synchronizacja wymaga aktywnej subskrypcji.",
     "Sync now" to "Synchronizuj teraz",
     "Sent: {0} · Taken from other devices: {1}" to "Wysłano: {0} · Pobrano z innych urządzeń: {1}",
     "This device is in sync" to "To urządzenie jest zsynchronizowane",
+    "Combine the libraries?" to "Połączyć biblioteki?",
+    "Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays." to "Twoje konto zawiera już bibliotekę z innego urządzenia. Słowa, teksty i postępy z obu zostaną zachowane; jeśli to samo zmieniono na obu, zostaje późniejsza zmiana.",
+    "Combine" to "Połącz",
 )

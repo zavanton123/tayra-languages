@@ -61,7 +61,7 @@ command works in the language being learned in the app.
 | `backups` | `list`, `create`, `restore`, `import`, `export`, `delete` |
 | `account` | `register`, `login`, `logout`, `status`, `send-code`, `confirm`, `devices`, `delete` |
 | `cloud` | `list`, `backup`, `restore`, `delete` (library backups kept in the account) |
-| `sync` | sends the words, cards and practice changed here and takes those changed elsewhere |
+| `sync` | sends the words, texts, reading and learning setup changed here and takes those changed elsewhere; the first sync into an account holding another library needs `--yes` |
 | `stats` | reading and vocabulary statistics |
 | `settings` | `get [name]`, `set <name> <value>` |
 | `level` | `get`, `set <rank>` (the vocabulary level) |

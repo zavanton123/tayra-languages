@@ -88,9 +88,10 @@ class AccountScreenTest {
         override suspend fun restore(name: String): Backup { restored += name; return Backup("before.sqlite", null, 1) }
     }
 
-    private class FakeSync : LibrarySync {
+    private class FakeSync(var combining: Boolean = false) : LibrarySync {
         var syncs = 0
-        override suspend fun syncNow(): SyncSummary { syncs++; return SyncSummary(sent = 3, received = 5, changed = 2) }
+        override suspend fun syncNow(): SyncSummary { syncs++; combining = false; return SyncSummary(sent = 3, received = 5, changed = 2) }
+        override suspend fun needsCombining() = combining
     }
 
     private fun ComposeUiTest.show(accounts: FakeAccounts, local: FakeBackups = FakeBackups(), sync: LibrarySync = FakeSync(), onRestored: () -> Unit = {}): AccountViewModel {
@@ -156,6 +157,21 @@ class AccountScreenTest {
         onNodeWithText("Sent: 3 · Taken from other devices: 2").assertExists()
         assertEquals(1, sync.syncs)
         save("ACCOUNT_SCREENSHOT", "-synced")
+    }
+
+    @Test
+    fun theFirstSyncAsksBeforeCombiningTwoLibraries() = runDesktopComposeUiTest(width = 1400, height = 1600) {
+        val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com" }
+        val sync = FakeSync(combining = true)
+        show(accounts, sync = sync)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("account-sync").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Combine the libraries?").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, sync.syncs, "nothing is combined before the answer")
+        save("ACCOUNT_SCREENSHOT", "-combine")
+        onNodeWithText("Combine").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("This device is in sync").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(1, sync.syncs)
     }
 
     @Test

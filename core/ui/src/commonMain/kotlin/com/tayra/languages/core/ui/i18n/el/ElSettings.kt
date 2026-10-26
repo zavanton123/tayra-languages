@@ -383,9 +383,12 @@ internal val elSettings: Map<String, String> = mapOf(
     "Your account is deleted" to "Ο λογαριασμός σας διαγράφηκε",
     "Back up your library to the cloud and use it on all your devices." to "Αποθηκεύστε τη βιβλιοθήκη σας στο cloud και χρησιμοποιήστε τη σε όλες τις συσκευές σας.",
     "Sync" to "Συγχρονισμός",
-    "Your words, flashcards and practice, the same on all your devices." to "Οι λέξεις, οι κάρτες και η εξάσκησή σας, ίδιες σε όλες τις συσκευές σας.",
+    "Your words, texts, reading and learning setup, the same on all your devices." to "Οι λέξεις, τα κείμενα, η ανάγνωση και οι ρυθμίσεις μάθησής σας, ίδια σε όλες τις συσκευές σας.",
     "Syncing needs an active subscription." to "Ο συγχρονισμός χρειάζεται ενεργή συνδρομή.",
     "Sync now" to "Συγχρονισμός τώρα",
     "Sent: {0} · Taken from other devices: {1}" to "Στάλθηκαν: {0} · Ελήφθησαν από άλλες συσκευές: {1}",
     "This device is in sync" to "Αυτή η συσκευή είναι συγχρονισμένη",
+    "Combine the libraries?" to "Συνδυασμός των βιβλιοθηκών;",
+    "Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays." to "Ο λογαριασμός σας έχει ήδη βιβλιοθήκη από άλλη συσκευή. Οι λέξεις, τα κείμενα και η πρόοδος και των δύο διατηρούνται· όπου το ίδιο άλλαξε και στις δύο, μένει η πιο πρόσφατη αλλαγή.",
+    "Combine" to "Συνδυασμός",
 )

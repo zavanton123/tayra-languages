@@ -158,9 +158,15 @@ private class CloudDelete : Command("delete", "Delete a backup kept in the accou
 @Serializable
 data class SyncResultJson(val sent: Int, val received: Int, val changed: Int)
 
-class SyncCommand : Command("sync", "Send the words, cards and practice changed here to the account, and take those changed on other devices") {
+class SyncCommand : Command("sync", "Send the words, texts, reading and learning setup changed here to the account, and take those changed on other devices") {
+    private val yes by option("--yes", help = "Confirm combining this library with the one the account already holds, on the first sync").flag()
+
     override fun run() = respond(cli, SyncResultJson.serializer(), changes = true) {
-        val done = cli.get<LibrarySync>().syncNow()
+        val sync = cli.get<LibrarySync>()
+        if (!yes && sync.needsCombining()) {
+            invalid("The account already holds a library from another device. Syncing combines the two: the words, texts and progress of both are kept, and where the same thing was changed on both, the later change stays. Repeat with --yes")
+        }
+        val done = sync.syncNow()
         Output(SyncResultJson(done.sent, done.received, done.changed), "Synced: ${done.sent} changes sent, ${done.received} received, ${done.changed} applied here.")
     }
 }

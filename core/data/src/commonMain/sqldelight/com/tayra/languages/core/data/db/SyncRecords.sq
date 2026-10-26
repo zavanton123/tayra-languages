@@ -183,3 +183,7 @@ DELETE FROM sync_pending;
 
 addPending:
 INSERT OR REPLACE INTO sync_pending(kind, key, record) VALUES (:kind, :key, :record);
+
+-- Whether this device holds a library of its own: saved words, cards, or texts begun.
+hasOwnLibrary:
+SELECT EXISTS (SELECT 1 FROM terms WHERE status <> 0) OR EXISTS (SELECT 1 FROM flashcards) OR EXISTS (SELECT 1 FROM pages WHERE start_date IS NOT NULL);
