@@ -1,0 +1,380 @@
+-- What sync keeps on each device: one row of state, and the records deleted since they were last sent.
+-- Every synced row carries updated_at, stamped by the triggers below whenever the app writes it; rows
+-- written while applying is 1 (a pull from the account, a restore, a wipe) keep the time they came with.
+CREATE TABLE sync_state (
+    id INTEGER PRIMARY KEY CHECK (id = 1),
+    device_id TEXT NOT NULL,
+    applying INTEGER NOT NULL DEFAULT 0,
+    -- The account's change number this device has pulled up to.
+    last_seq INTEGER NOT NULL DEFAULT 0,
+    -- When this device last sent its changes, in epoch milliseconds; null before the first time.
+    last_push_at INTEGER,
+    -- Whether the next sync sends every record, not only the changed ones: after a restore or a wipe.
+    full_push INTEGER NOT NULL DEFAULT 1
+);
+
+INSERT INTO sync_state(id, device_id) VALUES (1, lower(hex(randomblob(16))));
+
+-- A record deleted on this device: its kind, the language or text it belongs to (scope), and its key there.
+CREATE TABLE sync_tombstones (
+    kind TEXT NOT NULL,
+    scope TEXT NOT NULL DEFAULT '',
+    key TEXT NOT NULL,
+    deleted_at INTEGER NOT NULL,
+    PRIMARY KEY (kind, scope, key)
+);
+
+CREATE INDEX terms_updated_at ON terms(updated_at);
+
+CREATE INDEX pages_updated_at ON pages(updated_at);
+
+CREATE UNIQUE INDEX books_sync_id ON books(sync_id);
+
+CREATE UNIQUE INDEX playlists_sync_id ON playlists(sync_id);
+
+-- Change tracking: each write the app makes stamps the record it belongs to, and each deletion of a
+-- record that may be on other devices leaves a tombstone. A row deleted along with what owns it (a
+-- term's flashcard, a language's words) leaves none: the owner's tombstone covers it.
+CREATE TRIGGER sync_terms_insert
+AFTER INSERT ON terms
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE terms SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
+END;
+
+CREATE TRIGGER sync_terms_update
+AFTER UPDATE OF text, text_lc, status, translation, romanization, token_count, flash_message, translation_language, sentence ON terms
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE terms SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
+END;
+
+CREATE TRIGGER sync_terms_delete
+AFTER DELETE ON terms
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1 AND old.status <> 0 AND EXISTS (SELECT 1 FROM languages WHERE id = old.language_id)
+BEGIN
+    INSERT OR REPLACE INTO sync_tombstones(kind, scope, key, deleted_at) VALUES ('term', (SELECT name FROM languages WHERE id = old.language_id), old.text_lc, CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER));
+END;
+
+CREATE TRIGGER sync_term_parents_insert
+AFTER INSERT ON term_parents
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE terms SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.term_id;
+END;
+
+CREATE TRIGGER sync_term_parents_delete
+AFTER DELETE ON term_parents
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE terms SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = old.term_id;
+END;
+
+CREATE TRIGGER sync_level_terms_insert
+AFTER INSERT ON level_terms
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE terms SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.term_id;
+END;
+
+CREATE TRIGGER sync_level_terms_delete
+AFTER DELETE ON level_terms
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE terms SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = old.term_id;
+END;
+
+CREATE TRIGGER sync_flashcards_insert
+AFTER INSERT ON flashcards
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE flashcards SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE term_id = new.term_id;
+END;
+
+CREATE TRIGGER sync_flashcards_update
+AFTER UPDATE OF state, due, stability, difficulty, interval_days, remaining_steps, reps, lapses, last_review, suspended, seen_status ON flashcards
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE flashcards SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE term_id = new.term_id;
+END;
+
+CREATE TRIGGER sync_flashcards_delete
+AFTER DELETE ON flashcards
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1 AND EXISTS (SELECT 1 FROM terms WHERE id = old.term_id)
+BEGIN
+    INSERT OR REPLACE INTO sync_tombstones(kind, scope, key, deleted_at) VALUES ('flashcard', (SELECT l.name FROM terms t JOIN languages l ON l.id = t.language_id WHERE t.id = old.term_id), (SELECT text_lc FROM terms WHERE id = old.term_id), CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER));
+END;
+
+CREATE TRIGGER sync_flashcard_reviews_insert
+AFTER INSERT ON flashcard_reviews
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE flashcard_reviews SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
+END;
+
+CREATE TRIGGER sync_flashcard_reviews_delete
+AFTER DELETE ON flashcard_reviews
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1 AND EXISTS (SELECT 1 FROM terms WHERE id = old.term_id)
+BEGIN
+    INSERT OR REPLACE INTO sync_tombstones(kind, scope, key, deleted_at) VALUES ('review', (SELECT l.name FROM terms t JOIN languages l ON l.id = t.language_id WHERE t.id = old.term_id), old.reviewed_at || ':' || (SELECT text_lc FROM terms WHERE id = old.term_id), CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER));
+END;
+
+CREATE TRIGGER sync_practice_progress_insert
+AFTER INSERT ON practice_progress
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE practice_progress SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE term_id = new.term_id;
+END;
+
+CREATE TRIGGER sync_practice_progress_update
+AFTER UPDATE OF level, streak, asked, right_answers, last_practised ON practice_progress
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE practice_progress SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE term_id = new.term_id;
+END;
+
+CREATE TRIGGER sync_practice_progress_delete
+AFTER DELETE ON practice_progress
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1 AND EXISTS (SELECT 1 FROM terms WHERE id = old.term_id)
+BEGIN
+    INSERT OR REPLACE INTO sync_tombstones(kind, scope, key, deleted_at) VALUES ('practice_progress', (SELECT l.name FROM terms t JOIN languages l ON l.id = t.language_id WHERE t.id = old.term_id), (SELECT text_lc FROM terms WHERE id = old.term_id), CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER));
+END;
+
+CREATE TRIGGER sync_practice_examples_insert
+AFTER INSERT ON practice_examples
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE practice_examples SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
+END;
+
+CREATE TRIGGER sync_practice_examples_update
+AFTER UPDATE OF sentence, translation, form, form_start, source, source_id ON practice_examples
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE practice_examples SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
+END;
+
+CREATE TRIGGER sync_practice_examples_delete
+AFTER DELETE ON practice_examples
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1 AND EXISTS (SELECT 1 FROM terms WHERE id = old.term_id)
+BEGIN
+    INSERT OR REPLACE INTO sync_tombstones(kind, scope, key, deleted_at) VALUES ('practice_example', (SELECT l.name FROM terms t JOIN languages l ON l.id = t.language_id WHERE t.id = old.term_id), (SELECT text_lc FROM terms WHERE id = old.term_id) || char(10) || old.sentence, CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER));
+END;
+
+CREATE TRIGGER sync_languages_update
+AFTER UPDATE OF show_romanization ON languages
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE languages SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
+END;
+
+CREATE TRIGGER sync_languages_delete
+AFTER DELETE ON languages
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    INSERT OR REPLACE INTO sync_tombstones(kind, scope, key, deleted_at) VALUES ('language', old.name, '', CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER));
+END;
+
+CREATE TRIGGER sync_language_dictionaries_insert
+AFTER INSERT ON language_dictionaries
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE languages SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.language_id;
+END;
+
+CREATE TRIGGER sync_language_dictionaries_update
+AFTER UPDATE OF use_for, dict_type, url, is_active, sort_order ON language_dictionaries
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE languages SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.language_id;
+END;
+
+CREATE TRIGGER sync_language_dictionaries_delete
+AFTER DELETE ON language_dictionaries
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE languages SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = old.language_id;
+END;
+
+CREATE TRIGGER sync_language_scripts_insert
+AFTER INSERT ON language_scripts
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE languages SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.language_id;
+END;
+
+CREATE TRIGGER sync_language_scripts_update
+AFTER UPDATE OF script ON language_scripts
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE languages SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.language_id;
+END;
+
+CREATE TRIGGER sync_language_scripts_delete
+AFTER DELETE ON language_scripts
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE languages SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = old.language_id;
+END;
+
+CREATE TRIGGER sync_vocabulary_levels_insert
+AFTER INSERT ON vocabulary_levels
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE vocabulary_levels SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE language_id = new.language_id;
+END;
+
+CREATE TRIGGER sync_vocabulary_levels_update
+AFTER UPDATE OF level ON vocabulary_levels
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE vocabulary_levels SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE language_id = new.language_id;
+END;
+
+CREATE TRIGGER sync_vocabulary_levels_delete
+AFTER DELETE ON vocabulary_levels
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1 AND EXISTS (SELECT 1 FROM languages WHERE id = old.language_id)
+BEGIN
+    INSERT OR REPLACE INTO sync_tombstones(kind, scope, key, deleted_at) VALUES ('vocabulary_level', (SELECT name FROM languages WHERE id = old.language_id), '', CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER));
+END;
+
+CREATE TRIGGER sync_books_insert
+AFTER INSERT ON books
+BEGIN
+    UPDATE books SET sync_id = coalesce(sync_id, lower(hex(randomblob(16)))), updated_at = CASE WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1 THEN CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) ELSE updated_at END WHERE id = new.id;
+END;
+
+CREATE TRIGGER sync_books_update
+AFTER UPDATE OF language_id, title, source_uri, current_page_id, archived, audio_filename, audio_current_pos, audio_bookmarks ON books
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE books SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
+END;
+
+CREATE TRIGGER sync_books_delete
+AFTER DELETE ON books
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1 AND EXISTS (SELECT 1 FROM languages WHERE id = old.language_id)
+BEGIN
+    INSERT OR REPLACE INTO sync_tombstones(kind, scope, key, deleted_at) VALUES ('book', '', old.sync_id, CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER));
+END;
+
+CREATE TRIGGER sync_book_tag_map_insert
+AFTER INSERT ON book_tag_map
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE books SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.book_id;
+END;
+
+CREATE TRIGGER sync_book_tag_map_delete
+AFTER DELETE ON book_tag_map
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE books SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = old.book_id;
+END;
+
+CREATE TRIGGER sync_pages_insert
+AFTER INSERT ON pages
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE pages SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
+END;
+
+CREATE TRIGGER sync_pages_update
+AFTER UPDATE OF page_order, text, start_date, read_date ON pages
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE pages SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
+END;
+
+CREATE TRIGGER sync_pages_delete
+AFTER DELETE ON pages
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1 AND EXISTS (SELECT 1 FROM books WHERE id = old.book_id)
+BEGIN
+    INSERT OR REPLACE INTO sync_tombstones(kind, scope, key, deleted_at) VALUES ('page', (SELECT sync_id FROM books WHERE id = old.book_id), old.page_order, CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER));
+END;
+
+CREATE TRIGGER sync_page_bookmarks_insert
+AFTER INSERT ON page_bookmarks
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE page_bookmarks SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
+END;
+
+CREATE TRIGGER sync_page_bookmarks_update
+AFTER UPDATE OF page_id, title ON page_bookmarks
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE page_bookmarks SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
+END;
+
+CREATE TRIGGER sync_page_bookmarks_delete
+AFTER DELETE ON page_bookmarks
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1 AND EXISTS (SELECT 1 FROM pages WHERE id = old.page_id)
+BEGIN
+    INSERT OR REPLACE INTO sync_tombstones(kind, scope, key, deleted_at) VALUES ('bookmark', (SELECT b.sync_id FROM pages p JOIN books b ON b.id = p.book_id WHERE p.id = old.page_id), (SELECT page_order FROM pages WHERE id = old.page_id) || ':' || coalesce(old.created_at, old.title), CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER));
+END;
+
+CREATE TRIGGER sync_words_read_insert
+AFTER INSERT ON words_read
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE words_read SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
+END;
+
+CREATE TRIGGER sync_playlists_insert
+AFTER INSERT ON playlists
+BEGIN
+    UPDATE playlists SET sync_id = coalesce(sync_id, lower(hex(randomblob(16)))), updated_at = CASE WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1 THEN CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) ELSE updated_at END WHERE id = new.id;
+END;
+
+CREATE TRIGGER sync_playlists_update
+AFTER UPDATE OF language_id, name, description, cover, last_played_at, current_item_id, current_page, current_sentence ON playlists
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE playlists SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.id;
+END;
+
+CREATE TRIGGER sync_playlists_delete
+AFTER DELETE ON playlists
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1 AND EXISTS (SELECT 1 FROM languages WHERE id = old.language_id)
+BEGIN
+    INSERT OR REPLACE INTO sync_tombstones(kind, scope, key, deleted_at) VALUES ('playlist', '', old.sync_id, CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER));
+END;
+
+CREATE TRIGGER sync_playlist_items_insert
+AFTER INSERT ON playlist_items
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE playlists SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.playlist_id;
+END;
+
+CREATE TRIGGER sync_playlist_items_update
+AFTER UPDATE OF position, finished_at ON playlist_items
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE playlists SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = new.playlist_id;
+END;
+
+CREATE TRIGGER sync_playlist_items_delete
+AFTER DELETE ON playlist_items
+WHEN (SELECT applying FROM sync_state WHERE id = 1) IS NOT 1
+BEGIN
+    UPDATE playlists SET updated_at = CAST((julianday('now') - 2440587.5) * 86400000 AS INTEGER) WHERE id = old.playlist_id;
+END;
+
+state:
+SELECT * FROM sync_state WHERE id = 1;
+
+-- Writes made between applying(1) and applying(0), in one transaction, are not this device's own changes.
+setApplying:
+UPDATE sync_state SET applying = ? WHERE id = 1;
+
+-- The library was replaced or emptied: the next sync sends every record and takes every record afresh.
+startOver:
+UPDATE sync_state SET last_seq = 0, last_push_at = NULL, full_push = 1 WHERE id = 1;
+
+clearTombstones:
+DELETE FROM sync_tombstones;
+
+tombstones:
+SELECT * FROM sync_tombstones ORDER BY deleted_at;

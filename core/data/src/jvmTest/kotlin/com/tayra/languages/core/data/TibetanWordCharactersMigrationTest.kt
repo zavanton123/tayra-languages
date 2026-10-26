@@ -21,7 +21,7 @@ class TibetanWordCharactersMigrationTest {
         val broken = "u\\0F00\\u0F15-\\u0F39\\u0F3E-\\u0FFF"
         val tibetan = first.save(Language(name = "Tibetan", wordCharacters = broken))
         val own = first.save(Language(name = "Mine", wordCharacters = "a-z"))
-        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { it.createStatement().execute("PRAGMA user_version = 21") }
+        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { it.pretendVersion(21) }
 
         val reopened = LanguageRepositoryImpl(DatabaseProvider(DatabaseDriverFactory(file)))
         val expected = LanguageDefinitions.all.first { it.name == "Tibetan" }.language.wordCharacters

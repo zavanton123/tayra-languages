@@ -3,7 +3,8 @@ CREATE TABLE words_read (
     language_id INTEGER NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
     page_id INTEGER REFERENCES pages(id) ON DELETE SET NULL,
     read_at INTEGER NOT NULL,
-    word_count INTEGER NOT NULL
+    word_count INTEGER NOT NULL,
+    updated_at INTEGER NOT NULL DEFAULT 0
 );
 
 insert:

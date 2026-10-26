@@ -93,7 +93,7 @@ class CourseServiceTest {
         val portuguese = languages.save(Language(name = "Portuguese"))
         DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use {
             it.createStatement().execute("DROP TABLE course_lessons")
-            it.createStatement().execute("PRAGMA user_version = 10")
+            it.pretendVersion(10)
         }
         val reopened = DatabaseProvider(DatabaseDriverFactory(file))
         val upgradedBooks = BookRepositoryImpl(reopened)

@@ -124,7 +124,7 @@ class TranslationLanguageKeeperTest {
             it.createStatement().execute("ALTER TABLE terms DROP COLUMN translation_language")
             it.createStatement().execute("ALTER TABLE terms DROP COLUMN sentence")
             it.createStatement().execute("ALTER TABLE terms DROP COLUMN anki_exported_at")
-            it.createStatement().execute("PRAGMA user_version = 5")
+            it.pretendVersion(5)
         }
 
         val reopened = Env(env.file)

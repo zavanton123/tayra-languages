@@ -10,6 +10,7 @@ CREATE TABLE practice_examples (
     source TEXT NOT NULL,
     source_id TEXT,
     fetched_at INTEGER NOT NULL,
+    updated_at INTEGER NOT NULL DEFAULT 0,
     UNIQUE (term_id, sentence)
 );
 
@@ -23,7 +24,8 @@ CREATE TABLE practice_progress (
     streak INTEGER NOT NULL DEFAULT 0,
     asked INTEGER NOT NULL DEFAULT 0,
     right_answers INTEGER NOT NULL DEFAULT 0,
-    last_practised INTEGER
+    last_practised INTEGER,
+    updated_at INTEGER NOT NULL DEFAULT 0
 );
 
 selectExamples:

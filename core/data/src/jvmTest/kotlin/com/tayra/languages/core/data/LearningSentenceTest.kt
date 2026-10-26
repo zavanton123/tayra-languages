@@ -97,7 +97,7 @@ class LearningSentenceTest {
         DriverManager.getConnection("jdbc:sqlite:${env.file.absolutePath}").use {
             it.createStatement().execute("ALTER TABLE terms DROP COLUMN sentence")
             it.createStatement().execute("ALTER TABLE terms DROP COLUMN anki_exported_at")
-            it.createStatement().execute("PRAGMA user_version = 7")
+            it.pretendVersion(7)
         }
 
         val reopened = TermRepositoryImpl(DatabaseProvider(DatabaseDriverFactory(env.file)))

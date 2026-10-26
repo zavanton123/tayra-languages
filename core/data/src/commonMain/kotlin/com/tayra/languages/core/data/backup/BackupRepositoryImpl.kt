@@ -27,7 +27,8 @@ import kotlin.time.Instant
  * own: `backup_info` (format, schema version, creation time) and `backup_settings` (stored settings
  * as text). Rows travel as SQL literals made by SQLite's `quote()`, so every value keeps its type
  * on every platform. A restore copies the columns both schemas share, which covers backups made
- * before columns were added.
+ * before columns were added. The sync tables are the device's own and stay out of backups: a
+ * restore is not a change the device made, and its next sync starts over.
  */
 class BackupRepositoryImpl(
     private val provider: DatabaseProvider,
@@ -84,6 +85,7 @@ class BackupRepositoryImpl(
             database.transaction {
                 // Rows go in table by table, so references are checked once all of them are in.
                 driver.execute(null, "PRAGMA defer_foreign_keys = ON", 0).await()
+                database.syncQueries.setApplying(1)
                 for (table in tables) driver.execute(null, "DELETE FROM ${quoted(table)}", 0).await()
                 if (hasSequences(driver)) driver.execute(null, "DELETE FROM sqlite_sequence", 0).await()
                 copied.entries.forEachIndexed { i, (table, columns) ->
@@ -95,6 +97,9 @@ class BackupRepositoryImpl(
                         database.coursesQueries.linkTag(courseId, database.coursesQueries.tagId(tag).awaitAsOne())
                     }
                 }
+                database.syncQueries.clearTombstones()
+                database.syncQueries.startOver()
+                database.syncQueries.setApplying(0)
             }
             driver.notifyListeners(*tables.toTypedArray())
         }
@@ -109,7 +114,7 @@ class BackupRepositoryImpl(
         database.transactionWithResult {
             val schema = driver.rows(
                 "SELECT sql FROM sqlite_master WHERE sql IS NOT NULL AND type IN ('table', 'index') " +
-                    "AND name NOT LIKE 'sqlite_%' AND name != 'android_metadata' ORDER BY type DESC",
+                    "AND name NOT LIKE 'sqlite_%' AND name != 'android_metadata' AND tbl_name NOT LIKE 'sync_%' ORDER BY type DESC",
                 1,
             ).map { it.single()!! }
             val data = tablesOf(driver).flatMap { table ->
@@ -167,7 +172,7 @@ class BackupRepositoryImpl(
     }
 
     private suspend fun tablesOf(driver: SqlDriver): List<String> = driver.rows(
-        "SELECT name FROM sqlite_master WHERE type = 'table' AND name NOT LIKE 'sqlite_%' AND name != 'android_metadata' ORDER BY name",
+        "SELECT name FROM sqlite_master WHERE type = 'table' AND name NOT LIKE 'sqlite_%' AND name != 'android_metadata' AND name NOT LIKE 'sync_%' ORDER BY name",
         1,
     ).map { it.single()!! }
 

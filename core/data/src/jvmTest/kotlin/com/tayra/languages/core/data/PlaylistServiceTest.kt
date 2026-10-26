@@ -218,9 +218,10 @@ class PlaylistServiceTest {
         DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { c ->
             c.createStatement().execute("DROP TABLE playlist_items")
             c.createStatement().execute("DROP TABLE playlists")
-            c.createStatement().execute("PRAGMA user_version = 25")
+            c.pretendVersion(25)
         }
-        val reopened = DatabaseProvider(DatabaseDriverFactory(file))
+        // Opened now, so the library is brought up to date before the first test connection reads it again.
+        val reopened = DatabaseProvider(DatabaseDriverFactory(file)).also { it.database() }
         val again = PlaylistService(PlaylistRepositoryImpl(reopened), courses, languages, time)
         val id = again.create(language, PlaylistDraft("After the update"), listOf(PlaylistSource.Text(book(language, "O lobo"))))
         assertEquals(listOf("O lobo"), again.playlist(id)!!.items.map { it.title })

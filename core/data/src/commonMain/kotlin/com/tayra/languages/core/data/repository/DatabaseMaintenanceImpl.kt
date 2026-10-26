@@ -11,11 +11,17 @@ class DatabaseMaintenanceImpl(private val provider: DatabaseProvider) : Database
     override suspend fun wipeAllData() = withContext(databaseDispatcher) {
         val database = provider.database()
         database.transaction {
+            // Emptying this device is not a change to send: the account keeps its records, and the
+            // next sync takes them all afresh.
+            database.syncQueries.setApplying(1)
             database.maintenanceQueries.deleteAllWordsRead()
             database.maintenanceQueries.deleteAllLanguages()
             database.maintenanceQueries.deleteAllBookTags()
             database.maintenanceQueries.deleteAllCourseTags()
             database.maintenanceQueries.deleteAllSentenceTranslations()
+            database.syncQueries.clearTombstones()
+            database.syncQueries.startOver()
+            database.syncQueries.setApplying(0)
         }
     }
 

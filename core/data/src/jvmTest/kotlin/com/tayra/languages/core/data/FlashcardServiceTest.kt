@@ -343,7 +343,7 @@ class FlashcardServiceTest {
         DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use {
             it.createStatement().execute("DROP TABLE flashcards")
             it.createStatement().execute("DROP TABLE flashcard_reviews")
-            it.createStatement().execute("PRAGMA user_version = 9")
+            it.pretendVersion(9)
         }
         val reopened = DatabaseProvider(DatabaseDriverFactory(file))
         val upgraded = FlashcardService(FlashcardRepositoryImpl(reopened), TermRepositoryImpl(reopened, clock), settings, FlashcardScheduler(timeZone = { TimeZone.UTC }), clock)

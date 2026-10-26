@@ -1,7 +1,8 @@
 -- The vocabulary level set per language: the reader knows the words ranked up to it.
 CREATE TABLE vocabulary_levels (
     language_id INTEGER NOT NULL PRIMARY KEY REFERENCES languages(id) ON DELETE CASCADE,
-    level INTEGER NOT NULL
+    level INTEGER NOT NULL,
+    updated_at INTEGER NOT NULL DEFAULT 0
 );
 
 -- Terms saved as known by setting a level, so lowering the level can take them back.

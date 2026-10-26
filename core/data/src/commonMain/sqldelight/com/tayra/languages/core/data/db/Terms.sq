@@ -13,7 +13,8 @@ CREATE TABLE terms (
     status_changed_at INTEGER NOT NULL,
     translation_language TEXT,
     sentence TEXT,
-    anki_exported_at INTEGER
+    anki_exported_at INTEGER,
+    updated_at INTEGER NOT NULL DEFAULT 0
 );
 
 CREATE UNIQUE INDEX terms_text_lc_language ON terms(text_lc, language_id);

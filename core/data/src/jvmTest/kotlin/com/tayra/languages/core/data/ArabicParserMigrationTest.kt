@@ -41,7 +41,7 @@ class ArabicParserMigrationTest {
         val first = LanguageRepositoryImpl(DatabaseProvider(DatabaseDriverFactory(file)))
         val arabic = first.save(Language(name = "Arabic", parserType = "spacedel"))
         val egyptian = first.save(Language(name = "Egyptian Arabic", parserType = "spacedel"))
-        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { it.createStatement().execute("PRAGMA user_version = 24") }
+        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { it.pretendVersion(24) }
 
         val reopened = LanguageRepositoryImpl(DatabaseProvider(DatabaseDriverFactory(file)))
         assertEquals("arabic", reopened.getById(arabic)?.parserType)

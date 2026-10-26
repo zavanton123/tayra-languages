@@ -57,8 +57,8 @@ class CourseTagsTest {
                 "ALTER TABLE courses ADD COLUMN tags TEXT NOT NULL DEFAULT ''",
                 "UPDATE courses SET tags = 'tayra  travel' WHERE id = 'a'",
                 "UPDATE courses SET tags = 'tayra' WHERE id = 'b'",
-                "PRAGMA user_version = 18",
             )) c.createStatement().execute(sql)
+            c.pretendVersion(18)
         }
         val reopened = CourseRepositoryImpl(DatabaseProvider(DatabaseDriverFactory(file)))
         assertEquals(listOf("tayra", "travel"), reopened.course("a")?.tags)

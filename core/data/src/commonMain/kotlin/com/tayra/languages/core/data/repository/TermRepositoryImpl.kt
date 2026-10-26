@@ -399,6 +399,7 @@ class TermRepositoryImpl(
         romanization = romanization, token_count = token_count, sync_status = sync_status,
         flash_message = flash_message, created_at = created_at, status_changed_at = status_changed_at,
         translation_language = translation_language, sentence = sentence, anki_exported_at = anki_exported_at,
+        updated_at = updated_at,
     )
 
     private companion object {

@@ -157,7 +157,7 @@ class OwnCoursesTest {
             st.execute("INSERT INTO user_courses SELECT id, language_id, title, description, level, topic, created_at FROM courses")
             st.execute("INSERT INTO user_lessons SELECT id, course_id, title, summary, text, position FROM lessons")
             for (table in listOf("lessons", "courses", "seeded_courses")) st.execute("DROP TABLE $table")
-            st.execute("PRAGMA user_version = 13")
+            db.pretendVersion(13)
         }
         val reopened = DatabaseProvider(DatabaseDriverFactory(file))
         val upgraded = CourseService(BookRepositoryImpl(reopened), LanguageRepositoryImpl(reopened), BookService(BookRepositoryImpl(reopened), LanguageRepositoryImpl(reopened)), CourseRepositoryImpl(reopened), TestCourses.source)
@@ -175,7 +175,7 @@ class OwnCoursesTest {
         seeding.seedSamples()
         val opened = assertNotNull(seeding.openLesson("pt-primeiros-passos", "pt-primeiros-passos-1"))
         val mine = seeding.createCourse(pt, CourseDraft("Minhas leituras"))
-        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { it.createStatement().execute("PRAGMA user_version = 15") }
+        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { it.pretendVersion(15) }
 
         val reopened = DatabaseProvider(DatabaseDriverFactory(file))
         val upgradedBooks = BookRepositoryImpl(reopened)
@@ -193,7 +193,7 @@ class OwnCoursesTest {
         old.seedSamples()
         val opened = assertNotNull(old.openLesson("pt-freq-0100", "pt-freq-0100-01"))
         val own = bookService.create(BookDraft(languageId = pt, title = "Mine", text = "Um texto."))
-        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { it.createStatement().execute("PRAGMA user_version = 16") }
+        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { it.pretendVersion(16) }
 
         val reopened = DatabaseProvider(DatabaseDriverFactory(file))
         val upgradedBooks = BookRepositoryImpl(reopened)
@@ -210,7 +210,7 @@ class OwnCoursesTest {
         fun course(id: String, rank: Int) = Course(id, "pt", id, "", CourseLevel.A1, "", listOf(Lesson("$id-01", "Um", "", "Texto um.")), rankUpTo = rank)
         CourseService(books, languages, bookService, repository, SampleCourseSource { listOf(course("pt-mini-0100", 100)) }).seedSamples()
         val mine = service.createCourse(pt, CourseDraft("Minhas leituras"))
-        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { it.createStatement().execute("PRAGMA user_version = 17") }
+        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { it.pretendVersion(17) }
 
         val reopened = DatabaseProvider(DatabaseDriverFactory(file))
         val upgraded = CourseRepositoryImpl(reopened)

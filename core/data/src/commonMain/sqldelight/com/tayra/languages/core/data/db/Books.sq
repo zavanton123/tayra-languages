@@ -7,7 +7,9 @@ CREATE TABLE books (
     archived INTEGER AS kotlin.Boolean NOT NULL DEFAULT 0,
     audio_filename TEXT,
     audio_current_pos REAL,
-    audio_bookmarks TEXT
+    audio_bookmarks TEXT,
+    updated_at INTEGER NOT NULL DEFAULT 0,
+    sync_id TEXT
 );
 
 CREATE INDEX books_language ON books(language_id);
@@ -31,7 +33,8 @@ CREATE TABLE pages (
     text TEXT NOT NULL,
     word_count INTEGER NOT NULL DEFAULT 0,
     start_date INTEGER,
-    read_date INTEGER
+    read_date INTEGER,
+    updated_at INTEGER NOT NULL DEFAULT 0
 );
 
 CREATE INDEX pages_book ON pages(book_id);
@@ -51,7 +54,8 @@ CREATE TABLE page_bookmarks (
     page_id INTEGER NOT NULL REFERENCES pages(id) ON DELETE CASCADE,
     title TEXT NOT NULL,
     -- When the bookmark was added, in epoch milliseconds; null for bookmarks from before this was kept.
-    created_at INTEGER
+    created_at INTEGER,
+    updated_at INTEGER NOT NULL DEFAULT 0
 );
 
 CREATE TABLE book_stats (
