@@ -173,16 +173,20 @@ realtime are not needed.
 ### 2.5 Merge rules
 
 The default is **last writer wins per row**, by `updatedAt`, including tombstones (a delete is a
-change with a time). On the server this is one statement:
+change with a time), ties going to the greater device id. A few kinds keep more than the winner
+(the table below). **The server applies exactly the same merge as the devices**, from the shared
+`sync-protocol` module (`SyncMerge.merge`): on push it reads the stored record `FOR UPDATE`,
+merges the incoming one into it, and writes the result with a new `seq`. A plain
+upsert-if-newer would lose the field-wise rules: the account's copy of a word would drop a status
+one device set before another device's later translation edit.
 
-```sql
-INSERT INTO records (user_id, kind, key, seq, updated_at, deleted, data) VALUES (…)
-ON CONFLICT (user_id, kind, key) DO UPDATE SET seq = EXCLUDED.seq, updated_at = EXCLUDED.updated_at, deleted = EXCLUDED.deleted, data = EXCLUDED.data
-WHERE EXCLUDED.updated_at > records.updated_at;
-```
-
-On the client the same comparison runs before writing a pulled row. A few tables deserve better
-than whole-row LWW, and the client can do it because it sees both versions:
+The merge is a join: the same result whatever order and grouping versions meet in, and merging a
+version in twice changes nothing (`SyncMergeTest` checks this over random version sets, ties and
+deletions included). That property is what brings every device to the same library once all have
+synced. Two details keep it true: a word's status and a page's dates are merged on their own
+timeline, and a deletion carries them along rather than dropping them; and a card or practice
+progress is ranked by one order (last use, a deletion counting as used when it was made, then the
+change time), never by two orders mixed. Rules per table:
 
 | Table | Rule |
 |---|---|
@@ -206,7 +210,7 @@ Scenarios from the brief:
   timestamps, pulls everything since its old `seq`; the same rules apply. Nothing special, except
   that the pull may run to several batches.
 - *Network failure mid-sync*: the cursor advances per committed batch; a failed push is retried
-  whole; the server's upsert makes retries safe.
+  whole; merging a version in twice changes nothing, so retries are safe.
 - *Two devices that both had data before the account existed* (the common first-sync case): each
   does a full push; terms with the same word merge by key; books created independently with the
   same title stay separate (two rows), except pack books and tutorials, which are matched by
@@ -321,7 +325,7 @@ CREATE TABLE backups (user_id UUID, created_at TIMESTAMPTZ, object_key TEXT, siz
 One generic `records` table is deliberate: the server never needs to know what a term or a book
 is, so adding a synced table or column on the client needs no server deployment. The server's only
 jobs are isolation (every query filtered by the user from the JWT), ordering (`seq`), and the
-upsert-if-newer merge. `data` as JSONB keeps the option of server-side queries later. Push assigns
+shared merge. `data` as JSONB keeps the option of server-side queries later. Push assigns
 `seq` inside one transaction with `SELECT … FOR UPDATE` on `user_seq`, so a user's changes are
 totally ordered even when two devices push at once.
 
