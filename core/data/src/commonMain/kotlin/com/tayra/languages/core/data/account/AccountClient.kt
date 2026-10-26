@@ -137,7 +137,8 @@ class AccountClient(
 
     override suspend fun delete(id: String) = send(HttpMethod.Delete, "/backups/$id", null)
 
-    override fun syncAccount(): String? = signedIn.value?.let { "${server.url()?.trimEnd('/').orEmpty()} $it" }
+    // By the account's id, so an account deleted and made again with the same email is another one.
+    override fun syncAccount(): String? = signedIn.value?.let { email -> "${server.url()?.trimEnd('/').orEmpty()} ${secure.get(key(USER)) ?: email}" }
 
     override suspend fun push(request: PushRequest): PushResponse = SyncJson.decodeFromString(PushResponse.serializer(),
         exchange(HttpMethod.Post, "/sync/push", signedIn = true) {
@@ -158,6 +159,7 @@ class AccountClient(
     private fun keep(tokens: Tokens) {
         secure.put(key(REFRESH), tokens.refreshToken)
         secure.put(key(EMAIL), tokens.user.email)
+        secure.put(key(USER), tokens.user.id)
         accessToken = tokens.accessToken
         // Renewed a little early, so a request never leaves with a token about to lapse.
         accessExpires = clock.now() + kotlin.time.Duration.parse("${tokens.expiresIn - EARLY_SECONDS}s")
@@ -167,6 +169,7 @@ class AccountClient(
     private fun forget() {
         secure.remove(key(REFRESH))
         secure.remove(key(EMAIL))
+        secure.remove(key(USER))
         accessToken = null
         accessExpires = Instant.DISTANT_PAST
         _signedIn.value = null
@@ -249,6 +252,7 @@ class AccountClient(
     private companion object {
         const val REFRESH = "refresh_token"
         const val EMAIL = "email"
+        const val USER = "user"
         const val EARLY_SECONDS = 30
         const val TRANSFER_TIMEOUT_MS = 10 * 60_000L
     }

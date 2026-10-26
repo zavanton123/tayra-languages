@@ -77,6 +77,9 @@ class AccountClientTest {
         assertEquals(true, account.plan.active)
         assertEquals("paddle", account.plan.source)
         assertEquals(listOf("POST /api/v1/auth/register", "GET /api/v1/me Bearer access-1"), seen)
+        assertEquals("http://service.test u1", client.syncAccount(), "sync knows the account by its id")
+        client.signOut()
+        assertNull(client.syncAccount())
     }
 
     /** An access token the service refuses is renewed once with the refresh token, and the request made again. */
