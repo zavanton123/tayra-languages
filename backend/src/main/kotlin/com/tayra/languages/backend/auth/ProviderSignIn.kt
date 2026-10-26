@@ -15,6 +15,8 @@ import org.springframework.security.oauth2.jwt.NimbusJwtDecoder
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
 import org.springframework.web.bind.annotation.PathVariable
+import jakarta.servlet.http.HttpServletRequest
+import jakarta.servlet.http.HttpServletResponse
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RestController
@@ -118,7 +120,8 @@ class ProviderSignIn(
 }
 
 @RestController
-class ProviderSignInController(private val signIn: ProviderSignIn) {
+class ProviderSignInController(private val signIn: ProviderSignIn, private val browser: BrowserTokens) {
     @PostMapping("/api/v1/auth/{provider}")
-    fun signIn(@PathVariable provider: String, @RequestBody request: ProviderSignInRequest) = signIn.signIn(provider, request)
+    fun signIn(@PathVariable provider: String, @RequestBody body: ProviderSignInRequest, request: HttpServletRequest, response: HttpServletResponse) =
+        browser.hand(signIn.signIn(provider, body), request, response)
 }

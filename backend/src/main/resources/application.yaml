@@ -55,6 +55,9 @@ tayra:
   rate-limits:
     auth-per-minute: ${RATE_LIMIT_AUTH:20}
     other-per-minute: ${RATE_LIMIT_OTHER:600}
+  # The web app's origins, comma-separated, such as https://app.example.com: they may call the service
+  # with the sign-in cookie. Empty for none.
+  web-origins: ${WEB_ORIGINS:}
   # Lets /actuator/metrics answer requests with this X-Admin-Token header; empty keeps metrics closed.
   admin-token: ${ADMIN_TOKEN:}
   # Accounts that may sync without paying, comma-separated: the owner's own, before billing exists.

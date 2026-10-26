@@ -22,7 +22,9 @@ import javax.crypto.spec.SecretKeySpec
 
 /**
  * Requests carry the access token as a bearer token; signing up and in, the service's clock and its
- * health need none, and its metrics the admin token. No cookies and no server sessions: every request stands on its token.
+ * health need none, and its metrics the admin token. The web app's refresh token travels in a
+ * cookie (BrowserTokens) sent only to the sign-in calls, which a strict same-site cookie keeps from
+ * other sites' pages. No server sessions: every other request stands on its access token.
  */
 @Configuration
 class SecurityConfig(@Value("\${tayra.auth.jwt-secret}") secret: String, @Value("\${tayra.admin-token}") private val adminToken: String) {
@@ -31,6 +33,7 @@ class SecurityConfig(@Value("\${tayra.auth.jwt-secret}") secret: String, @Value(
     @Bean
     fun filterChain(http: HttpSecurity): SecurityFilterChain = http
         .csrf { it.disable() }
+        .cors { }
         .sessionManagement { it.sessionCreationPolicy(SessionCreationPolicy.STATELESS) }
         .authorizeHttpRequests {
             it.requestMatchers("/api/v1/auth/**", "/api/v1/info", "/actuator/health/**", "/actuator/health", "/error").permitAll()
