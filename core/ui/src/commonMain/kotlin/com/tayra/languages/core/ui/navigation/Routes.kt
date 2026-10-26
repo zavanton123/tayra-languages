@@ -161,6 +161,10 @@ sealed interface Route {
     @Serializable
     data object Backups : Route
 
+    /** The Tayra Languages account: signing in, cloud backups, the devices signed in. */
+    @Serializable
+    data object Account : Route
+
     @Serializable
     data object Stats : Route
 

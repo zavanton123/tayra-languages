@@ -19,6 +19,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.AccountCircle
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Refresh
@@ -239,6 +240,7 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
         SettingsPage(tr("Book packs"), tr("Download a pack of free books in a language as one file, or remove them to free space."), Route.BookPacks, AppIcons.Download),
     )
     val data = listOf(
+        SettingsPage(tr("Account"), tr("Back up your library to the cloud and use it on all your devices."), Route.Account, Icons.Default.AccountCircle),
         SettingsPage(tr("Backups"), tr("Protect your library, vocabulary, progress, and preferences."), Route.Backups, AppIcons.UploadFile),
         SettingsPage(tr("Book archive"), tr("Books you put away, to bring back or delete."), Route.ArchivedBooks, AppIcons.BookClosed),
     )

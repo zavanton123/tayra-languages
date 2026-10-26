@@ -15,6 +15,7 @@ val settingsModule = module {
     viewModel { SpeechViewModel(get(), get(), get(), getOrNull()) }
     viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }
     viewModel { BackupViewModel(get()) }
+    viewModel { AccountViewModel(get(), get(), get()) }
     viewModel { ClearDataViewModel(get()) }
     viewModel { LanguageSetupViewModel(get()) }
 }
@@ -42,6 +43,13 @@ fun NavGraphBuilder.settingsGraph(navController: NavController) {
             onNavigate = navigate,
             onBack = { navController.popBackStack() },
             // Screens opened before the restore show data that is gone, so the app starts over from the books.
+            onRestored = { navController.navigate(Route.Courses) { popUpTo<Route.Courses> { inclusive = true } } },
+        )
+    }
+    composable<Route.Account> {
+        AccountScreen(
+            onNavigate = navigate,
+            onBack = { navController.popBackStack() },
             onRestored = { navController.navigate(Route.Courses) { popUpTo<Route.Courses> { inclusive = true } } },
         )
     }
