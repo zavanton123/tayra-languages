@@ -11,17 +11,6 @@ SELECT t.id, l.name AS language, t.text, t.text_lc, t.status, t.translation, t.r
 FROM terms t JOIN languages l ON l.id = t.language_id
 WHERE t.updated_at > :since;
 
-termByKey:
-SELECT t.id, l.name AS language, t.text, t.text_lc, t.status, t.translation, t.romanization, t.token_count,
-    t.flash_message, t.created_at, t.status_changed_at, t.translation_language, t.sentence, t.updated_at,
-    coalesce((SELECT group_concat(p.text_lc, char(31)) FROM term_parents tp JOIN terms p ON p.id = tp.parent_id WHERE tp.term_id = t.id), '') AS parents,
-    EXISTS (SELECT 1 FROM level_terms lt WHERE lt.term_id = t.id) AS level
-FROM terms t JOIN languages l ON l.id = t.language_id
-WHERE t.language_id = :languageId AND t.text_lc = :textLc;
-
-termId:
-SELECT id FROM terms WHERE language_id = :languageId AND text_lc = :textLc;
-
 insertTerm:
 INSERT INTO terms(language_id, text, text_lc, status, translation, romanization, token_count, flash_message, created_at, status_changed_at, translation_language, sentence, updated_at)
 VALUES (:languageId, :text, :textLc, :status, :translation, :romanization, :tokenCount, :flashMessage, :createdAt, :statusChangedAt, :translationLanguage, :sentence, :updatedAt);
@@ -51,10 +40,6 @@ changedFlashcards:
 SELECT f.*, t.text_lc, l.name AS language FROM flashcards f JOIN terms t ON t.id = f.term_id JOIN languages l ON l.id = t.language_id
 WHERE f.updated_at > :since;
 
-flashcardOf:
-SELECT f.*, t.text_lc, l.name AS language FROM flashcards f JOIN terms t ON t.id = f.term_id JOIN languages l ON l.id = t.language_id
-WHERE f.term_id = :termId;
-
 upsertFlashcard:
 INSERT OR REPLACE INTO flashcards(term_id, state, due, stability, difficulty, interval_days, remaining_steps, reps, lapses, last_review, suspended, seen_status, updated_at)
 VALUES ?;
@@ -65,10 +50,6 @@ DELETE FROM flashcards WHERE term_id = :termId;
 changedReviews:
 SELECT r.*, t.text_lc, l.name AS language FROM flashcard_reviews r JOIN terms t ON t.id = r.term_id JOIN languages l ON l.id = t.language_id
 WHERE r.updated_at > :since;
-
-reviewOf:
-SELECT r.*, t.text_lc, l.name AS language FROM flashcard_reviews r JOIN terms t ON t.id = r.term_id JOIN languages l ON l.id = t.language_id
-WHERE r.term_id = :termId AND r.reviewed_at = :reviewedAt;
 
 insertReview:
 INSERT INTO flashcard_reviews(term_id, reviewed_at, rating, state_before, interval_days, elapsed_days, updated_at)
@@ -81,10 +62,6 @@ changedProgress:
 SELECT p.*, t.text_lc, l.name AS language FROM practice_progress p JOIN terms t ON t.id = p.term_id JOIN languages l ON l.id = t.language_id
 WHERE p.updated_at > :since;
 
-progressOf:
-SELECT p.*, t.text_lc, l.name AS language FROM practice_progress p JOIN terms t ON t.id = p.term_id JOIN languages l ON l.id = t.language_id
-WHERE p.term_id = :termId;
-
 upsertProgress:
 INSERT OR REPLACE INTO practice_progress(term_id, level, streak, asked, right_answers, last_practised, updated_at) VALUES ?;
 
@@ -94,10 +71,6 @@ DELETE FROM practice_progress WHERE term_id = :termId;
 changedExamples:
 SELECT e.*, t.text_lc, l.name AS language FROM practice_examples e JOIN terms t ON t.id = e.term_id JOIN languages l ON l.id = t.language_id
 WHERE e.updated_at > :since;
-
-exampleOf:
-SELECT e.*, t.text_lc, l.name AS language FROM practice_examples e JOIN terms t ON t.id = e.term_id JOIN languages l ON l.id = t.language_id
-WHERE e.term_id = :termId AND e.sentence = :sentence;
 
 upsertExample:
 INSERT OR REPLACE INTO practice_examples(term_id, sentence, translation, form, form_start, source, source_id, fetched_at, updated_at)
@@ -199,3 +172,31 @@ SELECT 1 WHERE
     OR EXISTS (SELECT 1 FROM books WHERE 0) OR EXISTS (SELECT 1 FROM book_tag_map WHERE 0) OR EXISTS (SELECT 1 FROM pages WHERE 0)
     OR EXISTS (SELECT 1 FROM page_bookmarks WHERE 0) OR EXISTS (SELECT 1 FROM words_read WHERE 0)
     OR EXISTS (SELECT 1 FROM playlists WHERE 0) OR EXISTS (SELECT 1 FROM playlist_items WHERE 0) OR EXISTS (SELECT 1 FROM sync_tombstones WHERE 0);
+
+-- A language's words and what belongs to them, read at once when a pull is applied.
+termsOfLanguage:
+SELECT t.id, l.name AS language, t.text, t.text_lc, t.status, t.translation, t.romanization, t.token_count,
+    t.flash_message, t.created_at, t.status_changed_at, t.translation_language, t.sentence, t.updated_at,
+    coalesce((SELECT group_concat(p.text_lc, char(31)) FROM term_parents tp JOIN terms p ON p.id = tp.parent_id WHERE tp.term_id = t.id), '') AS parents,
+    EXISTS (SELECT 1 FROM level_terms lt WHERE lt.term_id = t.id) AS level
+FROM terms t JOIN languages l ON l.id = t.language_id
+WHERE t.language_id = :languageId;
+
+flashcardsOfLanguage:
+SELECT f.*, t.text_lc, l.name AS language FROM flashcards f JOIN terms t ON t.id = f.term_id JOIN languages l ON l.id = t.language_id
+WHERE t.language_id = :languageId;
+
+progressOfLanguage:
+SELECT p.*, t.text_lc, l.name AS language FROM practice_progress p JOIN terms t ON t.id = p.term_id JOIN languages l ON l.id = t.language_id
+WHERE t.language_id = :languageId;
+
+reviewsOfLanguage:
+SELECT r.*, t.text_lc, l.name AS language FROM flashcard_reviews r JOIN terms t ON t.id = r.term_id JOIN languages l ON l.id = t.language_id
+WHERE t.language_id = :languageId;
+
+examplesOfLanguage:
+SELECT e.*, t.text_lc, l.name AS language FROM practice_examples e JOIN terms t ON t.id = e.term_id JOIN languages l ON l.id = t.language_id
+WHERE t.language_id = :languageId;
+
+lastInsertId:
+SELECT last_insert_rowid();

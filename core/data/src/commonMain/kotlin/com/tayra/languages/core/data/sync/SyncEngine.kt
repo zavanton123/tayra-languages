@@ -225,15 +225,44 @@ class SyncEngine(
         }
     }
 
-    /** Applies pulled records: languages first, then words, then what belongs to words. */
+    /**
+     * Applies pulled records: languages first, then words, then what belongs to words. Each language's
+     * words and their cards, reviews and practice are read once, and only writes go to the database
+     * record by record, which the web app's database, behind a worker, needs to keep a first sync short.
+     */
     private class Writer(private val db: TayraDatabase, private val device: String) {
         private val q = db.syncRecordsQueries
         private lateinit var langs: Languages
+        private lateinit var tombstones: Map<Triple<String, String, String>, Long>
+        private val locals = mutableMapOf<Long, Local>()
 
         class Applied(val changed: Int, val deferred: List<SyncRecord>)
 
+        /** One language's words, by their lower-case text, and what belongs to them, by word. */
+        private class Local(
+            val terms: Map<String, TermRow>,
+            val ids: MutableMap<String, Long>,
+            val flashcards: Map<Long, FlashcardRow>,
+            val progress: Map<Long, ProgressRow>,
+            val reviews: Map<Pair<Long, Long>, ReviewRow>,
+            val examples: Map<Pair<Long, String>, ExampleRow>,
+        )
+
+        private suspend fun local(languageId: Long): Local = locals[languageId] ?: run {
+            val terms = q.termsOfLanguage(languageId, ::TermRow).awaitAsList().associateBy { it.textLc }
+            Local(
+                terms,
+                terms.mapValuesTo(mutableMapOf()) { it.value.id },
+                q.flashcardsOfLanguage(languageId, ::FlashcardRow).awaitAsList().associateBy { it.termId },
+                q.progressOfLanguage(languageId, ::ProgressRow).awaitAsList().associateBy { it.termId },
+                q.reviewsOfLanguage(languageId, ::ReviewRow).awaitAsList().associateBy { it.termId to it.reviewedAt },
+                q.examplesOfLanguage(languageId, ::ExampleRow).awaitAsList().associateBy { it.termId to it.sentence },
+            ).also { locals[languageId] = it }
+        }
+
         suspend fun apply(all: List<SyncRecord>): Applied {
             langs = Languages(q.languageNames().awaitAsList().map { it.id to it.name })
+            tombstones = q.tombstonesSince(-1).awaitAsList().associate { Triple(it.kind, it.scope, it.key) to it.deleted_at }
             val incoming = all.filter { it.kind !in BOOK_KINDS }
             // The latest removal of each language: its records from before it are stale.
             val removedAt = incoming.filter { it.kind == LANGUAGE_REMOVED && !it.deleted }.groupBy { it.key }.mapValues { (_, v) -> v.maxOf { it.updatedAt } }
@@ -250,22 +279,25 @@ class SyncEngine(
                 val removal = removedAt[code]
                 removal == null || record.updatedAt >= removal
             }
-            val pendingParents = mutableListOf<Pair<Long, Pair<Long, List<String>>>>()
+            val parents = mutableListOf<Parents>()
             for (record in live.sortedBy { ORDER.indexOf(it.kind).let { i -> if (i < 0) ORDER.size else i } }) {
-                if (applyOne(record, pendingParents)) changed++
+                if (applyOne(record, parents)) changed++
             }
             // A word's parents may come after it in the same pull.
-            for ((termId, rest) in pendingParents) {
-                val (languageId, parents) = rest
-                q.clearParents(termId)
-                for (parent in parents) q.termId(languageId, parent).awaitAsOneOrNull()?.let { q.addParent(termId, it) }
+            for (p in parents) {
+                if (p.had) q.clearParents(p.termId)
+                val ids = local(p.languageId).ids
+                for (parent in p.texts) ids[parent]?.let { q.addParent(p.termId, it) }
             }
             val books = BookWriter(db, device) { langs.idOf[it] }.apply(all.filter { it.kind in BOOK_KINDS })
             return Applied(changed + books.changed, books.deferred)
         }
 
+        /** The parents to give a word once all words are in; [had] when it may have had some before. */
+        private class Parents(val termId: Long, val languageId: Long, val texts: List<String>, val had: Boolean)
+
         /** Merges [remote] with this device's version and writes the result if it differs; whether it did. */
-        private suspend fun applyOne(remote: SyncRecord, pendingParents: MutableList<Pair<Long, Pair<Long, List<String>>>>): Boolean {
+        private suspend fun applyOne(remote: SyncRecord, parents: MutableList<Parents>): Boolean {
             if (remote.kind == LANGUAGE_REMOVED) return false
             val code = languageCodeOf(remote) ?: return false
             val languageId = langs.idOf[code] ?: return false
@@ -293,11 +325,13 @@ class SyncEngine(
                 }
                 SyncKinds.TERM -> {
                     val textLc = SyncKeys.termParts(remote.key)!!.second
-                    val row = q.termByKey(languageId, textLc, ::TermRow).awaitAsOneOrNull()
+                    val here = local(languageId)
+                    val row = here.terms[textLc]?.takeIf { here.ids[textLc] == it.id }
                     val local = row?.record(code, device) ?: tombstoned(remote, "term", languageName, textLc)
                     write(local, remote) { m ->
                         if (m.deleted) {
                             row?.let { q.deleteTerm(it.id) }
+                            here.ids.remove(textLc)
                             return@write
                         }
                         val d = m.data ?: return@write
@@ -311,18 +345,21 @@ class SyncEngine(
                         } else {
                             q.insertTerm(languageId, text, textLc, status, d.string("translation"), d.string("romanization"), d.long("tokenCount") ?: 1, d.string("flashMessage"),
                                 d.long("createdAt") ?: m.updatedAt, statusChangedAt, d.string("translationLanguage"), d.string("sentence"), m.updatedAt)
-                            q.termId(languageId, textLc).awaitAsOne()
+                            q.lastInsertId().awaitAsOne().also { here.ids[textLc] = it }
                         }
-                        pendingParents += id to (languageId to d.strings("parents"))
-                        if (d.bool("level") == true) q.addLevelTerm(id) else q.removeLevelTerm(id)
+                        val texts = d.strings("parents")
+                        if (texts.isNotEmpty() || row?.parents?.isNotEmpty() == true) parents += Parents(id, languageId, texts, had = row != null)
+                        val level = d.bool("level") == true
+                        if (level && row?.level != true) q.addLevelTerm(id) else if (!level && row?.level == true) q.removeLevelTerm(id)
                     }
                 }
                 SyncKinds.FLASHCARD, SyncKinds.PRACTICE_PROGRESS -> {
                     val textLc = SyncKeys.termParts(remote.key)!!.second
-                    val termId = q.termId(languageId, textLc).awaitAsOneOrNull() ?: return false
+                    val here = local(languageId)
+                    val termId = here.ids[textLc] ?: return false
                     val tombKind = if (remote.kind == SyncKinds.FLASHCARD) "flashcard" else "practice_progress"
-                    val local = (if (remote.kind == SyncKinds.FLASHCARD) q.flashcardOf(termId, ::FlashcardRow).awaitAsOneOrNull()?.record(code, device)
-                        else q.progressOf(termId, ::ProgressRow).awaitAsOneOrNull()?.record(code, device)) ?: tombstoned(remote, tombKind, languageName, textLc)
+                    val local = (if (remote.kind == SyncKinds.FLASHCARD) here.flashcards[termId]?.record(code, device)
+                        else here.progress[termId]?.record(code, device)) ?: tombstoned(remote, tombKind, languageName, textLc)
                     write(local, remote) { m ->
                         val d = m.data
                         if (remote.kind == SyncKinds.FLASHCARD) {
@@ -338,8 +375,9 @@ class SyncEngine(
                 SyncKinds.REVIEW -> {
                     val reviewedAt = remote.key.substringBefore('/').toLongOrNull() ?: return false
                     val textLc = SyncKeys.termParts(remote.key.substringAfter('/'))?.second ?: return false
-                    val termId = q.termId(languageId, textLc).awaitAsOneOrNull() ?: return false
-                    val local = q.reviewOf(termId, reviewedAt, ::ReviewRow).awaitAsOneOrNull()?.record(code, device) ?: tombstoned(remote, "review", languageName, "$reviewedAt:$textLc")
+                    val here = local(languageId)
+                    val termId = here.ids[textLc] ?: return false
+                    val local = here.reviews[termId to reviewedAt]?.record(code, device) ?: tombstoned(remote, "review", languageName, "$reviewedAt:$textLc")
                     write(local, remote) { m ->
                         val d = m.data
                         if (m.deleted || d == null) q.deleteReview(termId, reviewedAt)
@@ -350,8 +388,9 @@ class SyncEngine(
                     val termKey = remote.key.substringBefore('\n')
                     val sentence = remote.key.substringAfter('\n')
                     val textLc = SyncKeys.termParts(termKey)?.second ?: return false
-                    val termId = q.termId(languageId, textLc).awaitAsOneOrNull() ?: return false
-                    val local = q.exampleOf(termId, sentence, ::ExampleRow).awaitAsOneOrNull()?.record(code, device) ?: tombstoned(remote, "practice_example", languageName, "$textLc\n$sentence")
+                    val here = local(languageId)
+                    val termId = here.ids[textLc] ?: return false
+                    val local = here.examples[termId to sentence]?.record(code, device) ?: tombstoned(remote, "practice_example", languageName, "$textLc\n$sentence")
                     write(local, remote) { m ->
                         val d = m.data
                         if (m.deleted || d == null) q.deleteExample(termId, sentence)
@@ -363,8 +402,8 @@ class SyncEngine(
         }
 
         /** This device's deletion of the record, when it has one; null when it never had the record. */
-        private suspend fun tombstoned(remote: SyncRecord, kind: String, scope: String, key: String): SyncRecord? =
-            q.tombstone(kind, scope, key).awaitAsOneOrNull()?.let { SyncRecord(remote.kind, remote.key, it, deleted = true, deviceId = device) }
+        private fun tombstoned(remote: SyncRecord, kind: String, scope: String, key: String): SyncRecord? =
+            tombstones[Triple(kind, scope, key)]?.let { SyncRecord(remote.kind, remote.key, it, deleted = true, deviceId = device) }
 
         /** Writes the merge of [local] and [remote] when it is not what is here already. */
         private suspend fun write(local: SyncRecord?, remote: SyncRecord, put: suspend (SyncRecord) -> Unit): Boolean {
