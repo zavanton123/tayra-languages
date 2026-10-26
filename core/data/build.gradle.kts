@@ -67,6 +67,7 @@ kotlin {
 
         commonMain.dependencies {
             api(projects.core.domain)
+            implementation(projects.syncProtocol)
             implementation(libs.sqldelight.runtime)
             implementation(libs.sqldelight.coroutines)
             implementation(libs.sqldelight.async.extensions)

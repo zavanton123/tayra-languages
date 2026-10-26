@@ -20,6 +20,17 @@ fun createHttpClient(): HttpClient = platformHttpClient().config {
     }
 }
 
+/** A client for the account service; library files sent and taken back set longer timeouts of their own. */
+fun createAccountHttpClient(): HttpClient = platformHttpClient().config {
+    install(HttpTimeout) {
+        requestTimeoutMillis = 30_000
+        connectTimeoutMillis = 15_000
+    }
+    defaultRequest {
+        header("User-Agent", "TayraLanguages/1.0")
+    }
+}
+
 /**
  * A client whose requests carry no headers of their own, so a browser sends them without the
  * preflight a server that only answers GETs refuses (WiktApi's OPTIONS is a 404).

@@ -29,6 +29,8 @@ fun tayra(): CliktCommand = Tayra().subcommands(
     readCommand(),
     exportCommand(),
     backupsCommand(),
+    accountCommand(),
+    cloudCommand(),
     StatsCommand(),
     settingsCommand(),
     levelCommand(),

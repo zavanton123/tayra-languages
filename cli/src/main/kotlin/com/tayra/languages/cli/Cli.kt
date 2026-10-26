@@ -10,6 +10,8 @@ import com.tayra.languages.core.data.files.FileImportException
 import com.tayra.languages.core.data.files.FileTextExtractor
 import com.tayra.languages.core.data.di.dataModule
 import com.tayra.languages.core.data.runtime.AppInstanceLock
+import com.tayra.languages.core.domain.account.AccountException
+import com.tayra.languages.core.domain.account.AccountProblem
 import com.tayra.languages.core.domain.backup.BackupException
 import com.tayra.languages.core.domain.courses.CourseValidationException
 import com.tayra.languages.core.domain.frequency.FrequencyLists
@@ -125,6 +127,8 @@ fun <T> CliktCommand.respond(cli: Cli, serializer: KSerializer<T>, changes: Bool
             invalid(e.message ?: "Invalid language")
         } catch (e: BackupException) {
             invalid(e.message ?: "Invalid backup")
+        } catch (e: AccountException) {
+            throw CliFailure(accountMessage(e), accountExitCode(e.problem))
         } catch (e: IllegalArgumentException) {
             invalid(e.message ?: "Invalid input")
         } catch (e: Exception) {
@@ -175,4 +179,17 @@ fun table(headers: List<String>, rows: List<List<String>>): String {
         if (i == cells.lastIndex) clipped else clipped.padEnd(widths[i])
     }.joinToString("  ").trimEnd()
     return (listOf(line(headers)) + rows.map(::line)).joinToString("\n")
+}
+
+private fun accountMessage(e: AccountException): String = when (e.problem) {
+    AccountProblem.NOT_SET_UP -> "No account service is set up; set TAYRA_API_URL to its address"
+    AccountProblem.OFFLINE -> "The account service cannot be reached: ${e.message}"
+    else -> e.message ?: e.problem.name
+}
+
+private fun accountExitCode(problem: AccountProblem): Int = when (problem) {
+    AccountProblem.NOT_FOUND -> ExitCode.NOT_FOUND
+    AccountProblem.EMAIL_TAKEN, AccountProblem.BAD_CREDENTIALS, AccountProblem.WRONG_CODE, AccountProblem.SUBSCRIPTION_REQUIRED,
+    AccountProblem.TOO_LARGE, AccountProblem.INVALID -> ExitCode.INVALID
+    else -> ExitCode.ERROR
 }

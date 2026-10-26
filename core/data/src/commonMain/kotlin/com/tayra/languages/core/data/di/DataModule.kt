@@ -1,5 +1,14 @@
 package com.tayra.languages.core.data.di
 
+import org.koin.dsl.binds
+import com.tayra.languages.core.domain.account.CloudBackupStore
+import com.tayra.languages.core.domain.account.CloudBackupService
+import com.tayra.languages.core.domain.account.AccountRepository
+import com.tayra.languages.core.data.network.createAccountHttpClient
+import com.tayra.languages.core.data.account.thisDevice
+import com.tayra.languages.core.data.account.defaultAccountServer
+import com.tayra.languages.core.data.account.AccountServer
+import com.tayra.languages.core.data.account.AccountClient
 import com.tayra.languages.core.data.repository.PlaylistRepositoryImpl
 import com.tayra.languages.core.domain.playlists.ListeningTime
 import com.tayra.languages.core.domain.playlists.PlaylistRepository
@@ -150,6 +159,17 @@ val dataModule: Module = module {
     single { SettingsRepositoryImpl(get<Settings>(), get<SecureStore>()) }
     single<SettingsRepository> { get<SettingsRepositoryImpl>() }
     single<BackupRepository> { BackupRepositoryImpl(get(), get(), get()) }
+    single {
+        val settings = get<SettingsRepository>()
+        val provider = get<DatabaseProvider>()
+        AccountClient(
+            createAccountHttpClient(),
+            AccountServer { settings.current.accountServer.takeIf { it.isNotBlank() } ?: defaultAccountServer() },
+            get<SecureStore>(),
+            device = { thisDevice(provider) },
+        )
+    } binds arrayOf(AccountRepository::class, CloudBackupStore::class)
+    single { CloudBackupService(get(), get()) }
     single<LanguageRepository> { LanguageRepositoryImpl(get()) }
     single<BookRepository> { BookRepositoryImpl(get()) }
     single<TermRepository> {

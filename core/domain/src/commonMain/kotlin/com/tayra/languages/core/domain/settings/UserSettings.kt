@@ -104,6 +104,8 @@ data class UserSettings(
      * language afresh would hold every language's frequency list in memory at once.
      */
     val knownWordCounts: String = "",
+    /** The account service's address, when it is not the one the build comes with: for a service run locally. */
+    val accountServer: String = "",
     /** When the cache of spoken audio was last emptied, in epoch milliseconds; 0 before its first use. */
     val speechCacheClearedAt: Long = 0,
 ) {
