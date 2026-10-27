@@ -14,7 +14,7 @@ Settled with the owner on 2026-10-26; the rest of the document follows them.
 | Devices per account | Unlimited; the Account screen lists signed-in devices and can sign one out remotely |
 | Pricing | One plan, monthly and yearly, no trial |
 | Web app | Sync later (Phase 3); desktop and phones first |
-| Settings that sync | Language choices (native, my languages, current, Chinese script, per-language dictionaries) and learning setup (vocabulary levels, flashcard limits, practice setup and presets). Reading and speech preferences stay per device |
+| Settings that sync | Language choices (native, my languages, current, Chinese script, per-language dictionaries) and learning setup (vocabulary levels, flashcard limits, practice setup). Reading and speech preferences stay per device |
 | Removing a language | Removes it everywhere after sync; the dialog says so |
 | Hand-made and imported texts | Sync whole, with a size cap of a few MB per text; larger ones sync progress only |
 | Practice examples | Sync (small, chosen per word); the translation cache does not |
@@ -516,7 +516,7 @@ billing, waits for the company. What the phases settled on the way:
   `sync_pending` and are tried again at each sync. A playlist holding such a text keeps it, and
   sends it back with the playlist.
 - Synced settings: the native language, the languages being learned (by code), learning levels,
-  the flashcard limits and steps, and the practice setups and presets. Each has its own change
+  the flashcard limits and steps, and the practice setups. Each has its own change
   time; values chosen before tracking began count as chosen at the first start of this version.
 - The first sync with an account that already holds a library, on a device that has one of its
   own, asks before combining them (`tayra sync --yes` from the command line).

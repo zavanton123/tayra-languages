@@ -108,10 +108,6 @@ object AppIcons {
 
     val Bookmark: ImageVector by lazy { icon("Bookmark", "M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z") }
 
-    val BookmarkAdd: ImageVector by lazy {
-        icon("BookmarkAdd", "M17 11v6.97l-5-2.14-5 2.14V5h6V3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V11h-2zm4-4h-2v2h-2V7h-2V5h2V3h2v2h2v2z")
-    }
-
     val Translate: ImageVector by lazy {
         icon(
             "Translate",

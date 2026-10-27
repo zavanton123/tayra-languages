@@ -60,7 +60,6 @@ import org.koin.core.context.stopKoin
 import org.koin.dsl.module
 import org.koin.core.module.dsl.viewModel
 import com.tayra.languages.core.domain.practice.PracticeSource
-import com.tayra.languages.core.domain.practice.PracticePreset
 import com.tayra.languages.core.domain.practice.PracticeMaterialLoader
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
@@ -196,7 +195,7 @@ class TermsScreenTest {
         waitUntil(timeoutMillis = 5_000) { visited.isNotEmpty() }
         val route = visited.single() as Route.PracticeWords
         val setup = PracticeSetup.decode(route.setup)
-        assertEquals(PracticePreset.BALANCED.setup.types, setup.types)
+        assertEquals(PracticeSetup.FIRST.types, setup.types)
         assertEquals(setOf(PracticeResponse.CHOOSE), setup.responses)
         // Kept for the next practice, from the reader as well.
         waitUntil(timeoutMillis = 5_000) { settings.current.practiceSetupVocabulary == route.setup }

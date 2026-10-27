@@ -118,6 +118,9 @@ data class PracticeSetup(
         const val DEFAULT_LENGTH = 10
         private const val ALL = "all"
 
+        /** The setup the dialog opens on the first time: reading, listening and translation, chosen and typed. */
+        val FIRST = PracticeSetup(types = ExerciseType.entries.toSet() - ExerciseType.SHADOW, responses = PracticeResponse.entries.toSet() - PracticeResponse.SPEAK)
+
         /** A setup from [encode]'s text; parts missing or not understood keep their defaults, names not known are left out. */
         fun decode(text: String): PracticeSetup {
             val parts = text.split(';').mapNotNull { part -> part.split('=', limit = 2).takeIf { it.size == 2 }?.let { it[0].trim() to it[1].trim() } }.toMap()

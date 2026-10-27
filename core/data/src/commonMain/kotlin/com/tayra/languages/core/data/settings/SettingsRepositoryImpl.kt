@@ -109,7 +109,6 @@ class SettingsRepositoryImpl(
             readingFont = store.getString(Keys.READING_FONT, defaults.readingFont),
             practiceSetupReading = store.getString(Keys.PRACTICE_SETUP_READING, defaults.practiceSetupReading),
             practiceSetupVocabulary = store.getString(Keys.PRACTICE_SETUP_VOCABULARY, defaults.practiceSetupVocabulary),
-            practicePresets = store.getString(Keys.PRACTICE_PRESETS, defaults.practicePresets),
             practiceReadAloud = store.getBoolean(Keys.PRACTICE_READ_ALOUD, defaults.practiceReadAloud),
             speechRecognitionQuality = store.getString(Keys.SPEECH_RECOGNITION_QUALITY, defaults.speechRecognitionQuality),
             speechCacheClearedAt = store.getLong(Keys.SPEECH_CACHE_CLEARED_AT, defaults.speechCacheClearedAt),
@@ -225,7 +224,6 @@ class SettingsRepositoryImpl(
         store.putString(Keys.READING_FONT, s.readingFont)
         store.putString(Keys.PRACTICE_SETUP_READING, s.practiceSetupReading)
         store.putString(Keys.PRACTICE_SETUP_VOCABULARY, s.practiceSetupVocabulary)
-        store.putString(Keys.PRACTICE_PRESETS, s.practicePresets)
         store.putBoolean(Keys.PRACTICE_READ_ALOUD, s.practiceReadAloud)
         store.putString(Keys.SPEECH_RECOGNITION_QUALITY, s.speechRecognitionQuality)
         store.putLong(Keys.SPEECH_CACHE_CLEARED_AT, s.speechCacheClearedAt)
@@ -296,7 +294,6 @@ class SettingsRepositoryImpl(
         const val READING_FONT = "reading_font"
         const val PRACTICE_SETUP_READING = "practice_setup_reading"
         const val PRACTICE_SETUP_VOCABULARY = "practice_setup_vocabulary"
-        const val PRACTICE_PRESETS = "practice_presets"
         const val PRACTICE_READ_ALOUD = "practice_read_aloud"
         const val SPEECH_RECOGNITION_QUALITY = "speech_recognition_quality"
         const val SPEECH_CACHE_CLEARED_AT = "speech_cache_cleared_at"

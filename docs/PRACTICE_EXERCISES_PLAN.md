@@ -76,7 +76,7 @@ Before a practice starts, a setup dialog says what will be asked. It replaces to
 
 | Filter | Options | Notes |
 |---|---|---|
-| Preset | Quick review, Balanced (default), Listening, Writing, Speaking, Custom, and the learner's own saved presets | A preset fills every filter below; changing any filter turns it into Custom |
+| Preset | Removed: the dialog opens on the setup last used, the first time on every type but shadowing, chosen and typed | — |
 | Skills | Reading, Listening, Translation, Word forms, Speaking | A group with a tri-state tick; expanded, it lists its exercise types, each with its own tick |
 | Answer by | Choose, Letter tiles, Type, Speak | Applies across every skill; a type whose only answer mode is unticked is greyed out with the reason |
 | Sentences | From the text, Other examples | "Other examples" shows how many are stored and whether more need the internet |
@@ -93,7 +93,7 @@ Every exercise type row shows:
 The footer sums up and starts:
 
 - "18 questions · 6 kinds · about 6 minutes", or what blocks the start ("Tick at least one kind that fits these words");
-- Start, and "Save as preset…" (a name, then it appears among the presets).
+- Start (saving presets was removed with the presets).
 
 #### Defaults and memory
 
@@ -380,7 +380,7 @@ Changed from the plan:
 - The Words filter (new to practice, weakest, not practised for a week) was dropped: practice always asks about all the words; setups kept with a choice of words ask about all of them.
 - True or false was dropped after use as not effective enough; setups kept with it open with their other types.
 - Letter tiles (building a word from its letters) were dropped after use as slow and of little help; the ladder is now choose → choose or type → type → type or say, and setups kept with tiles open with their other ways of answering.
-- Speaking sits at the top practice level beside typing, and is left out of the Balanced and Listening presets: it needs a quiet room and a recogniser, so it is asked for by name.
+- Speaking sits at the top practice level beside typing, and is left out of the first-time setup: it needs a quiet room and a recogniser, so it is asked for by name.
 - The desktop worker decodes the recording itself: faster-whisper's own decoder fails with current PyAV.
 - Not tried on hardware yet: real speech on Android (the emulator dies opening the Mac's microphone) and iOS (compiled only).
 

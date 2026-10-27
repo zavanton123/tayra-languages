@@ -720,7 +720,7 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Practise 1 word").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("start-practice").performClick()
         rule.waitUntil(5_000) { visited.isNotEmpty() }
-        val setup = com.tayra.languages.core.domain.practice.PracticePreset.DEFAULT.setup.encode()
+        val setup = com.tayra.languages.core.domain.practice.PracticeSetup.FIRST.encode()
         assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.Practice(1, 1, setup = setup)), visited)
     }
 

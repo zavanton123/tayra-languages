@@ -90,8 +90,6 @@ data class UserSettings(
     val practiceSetupReading: String = "",
     /** The setup last used for practice of words chosen in the vocabulary. */
     val practiceSetupVocabulary: String = "",
-    /** The learner's own practice presets, as `PracticePresets.encode` writes them. */
-    val practicePresets: String = "",
     /** Practice reads each question's sentence aloud once it is shown whole. */
     val practiceReadAloud: Boolean = false,
     /** Which downloaded speech recogniser hears spoken answers, by `RecognitionQuality` name. */

@@ -6,7 +6,6 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import com.tayra.languages.core.domain.practice.ExerciseType
 import com.tayra.languages.core.domain.practice.PracticeContext
 import com.tayra.languages.core.domain.practice.PracticeNeed
-import com.tayra.languages.core.domain.practice.PracticePreset
 import com.tayra.languages.core.domain.practice.PracticeResponse
 import com.tayra.languages.core.domain.practice.PracticeSkill
 import com.tayra.languages.core.ui.i18n.tr
@@ -78,10 +77,3 @@ fun PracticeNeed.reason(): String = when (this) {
     PracticeNeed.SENTENCE_LENGTH -> tr("Needs a sentence of 3 to 8 words")
 }
 
-fun PracticePreset.label(): String = when (this) {
-    PracticePreset.QUICK_REVIEW -> tr("Quick review")
-    PracticePreset.BALANCED -> tr("Balanced")
-    PracticePreset.LISTENING -> tr("Listening")
-    PracticePreset.WRITING -> tr("Writing")
-    PracticePreset.SPEAKING -> tr("Speaking")
-}

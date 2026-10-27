@@ -76,7 +76,6 @@ import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.CompletableDeferred
 import com.tayra.languages.core.domain.practice.Heard
 import com.tayra.languages.core.domain.practice.SpeechRecognition
-import com.tayra.languages.core.domain.practice.PracticePreset
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.random.Random
@@ -578,7 +577,7 @@ class PracticeScreenTest {
     /** Where nothing can hear the learner, a speaking setup is typed: sentences to repeat are written down instead. */
     @Test
     fun withoutARecogniserSpeakingIsTyped() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val viewModel = show(setup = PracticePreset.SPEAKING.setup, speech = FakeSpeech(available = false))
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.SHADOW), responses = setOf(PracticeResponse.SPEAK)), speech = FakeSpeech(available = false))
         val state = viewModel.state.value
         assertTrue(PracticeResponse.SPEAK !in state.setup.responses && ExerciseType.SHADOW !in state.setup.types)
         assertTrue(state.exercises.isNotEmpty() && state.exercises.all { it.response == PracticeResponse.TYPE })

@@ -33,7 +33,6 @@ internal object SyncedSettings {
         flag("flashcardTwoButtons", { it.flashcardTwoButtons }) { s, v -> s.copy(flashcardTwoButtons = v) },
         text("practiceSetupReading", { it.practiceSetupReading }) { s, v -> s.copy(practiceSetupReading = v) },
         text("practiceSetupVocabulary", { it.practiceSetupVocabulary }) { s, v -> s.copy(practiceSetupVocabulary = v) },
-        text("practicePresets", { it.practicePresets }) { s, v -> s.copy(practicePresets = v) },
     )
 
     fun stampKey(name: String) = "sync.setting.$name"
