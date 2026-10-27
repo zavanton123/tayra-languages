@@ -128,6 +128,8 @@ fun PracticeScreen(
     onBack: () -> Unit,
     /** In a dialog over the page that started it: no app bar, and a close button beside the title. */
     dialog: Boolean = false,
+    /** Takes "Practise again" elsewhere; without it the choice of what to practise opens over the result. */
+    onPractiseAgain: (() -> Unit)? = null,
     viewModel: PracticeViewModel = koinViewModel(key = "practice-$source-${setup.encode()}") { parametersOf(source, setup) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
@@ -170,7 +172,7 @@ fun PracticeScreen(
                 onSubmit = viewModel::submit,
                 onSkip = viewModel::skip,
                 onNext = { speaker.stop(); viewModel.next() },
-                onRestart = { settingUp = true },
+                onRestart = { if (onPractiseAgain != null) onPractiseAgain() else settingUp = true },
                 onRestartMissed = viewModel::startMissed,
                 onBack = onBack,
                 onSpeak = { text -> speaker.speak(text, state.languageCode) },
@@ -206,7 +208,14 @@ internal fun practiceOf(route: Route): Pair<PracticeSource, PracticeSetup>? {
 /** A practice in a dialog over the page that started it: as tall as the window but for its margin, and no wider than the practice. */
 @Composable
 fun PracticeDialog(route: Route, onNavigate: (Route) -> Unit, onClose: () -> Unit) {
-    val (source, setup) = practiceOf(route) ?: return
+    val (source, first) = practiceOf(route) ?: return
+    var setup by remember { mutableStateOf(first) }
+    // Practising again closes the practice for the choice of what to practise; cancelling it goes back to the page.
+    var settingUp by remember { mutableStateOf(false) }
+    if (settingUp) {
+        PracticeSetupDialog(source, onStart = { chosen -> setup = chosen; settingUp = false }, onDismiss = onClose)
+        return
+    }
     AppDialogSurface(
         onDismissRequest = onClose,
         modifier = Modifier.fillMaxHeight().testTag("practice-dialog"),
@@ -214,7 +223,7 @@ fun PracticeDialog(route: Route, onNavigate: (Route) -> Unit, onClose: () -> Uni
         color = MaterialTheme.colorScheme.surfaceContainerLow,
     ) {
         // Each practice starts afresh, even one just like the practice finished before it.
-        FreshViewModels { PracticeScreen(source, setup, onNavigate = { onClose(); onNavigate(it) }, onBack = onClose, dialog = true) }
+        FreshViewModels { PracticeScreen(source, setup, onNavigate = { onClose(); onNavigate(it) }, onBack = onClose, dialog = true, onPractiseAgain = { settingUp = true }) }
     }
 }
 
