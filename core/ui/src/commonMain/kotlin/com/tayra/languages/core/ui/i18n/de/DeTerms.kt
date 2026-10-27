@@ -400,7 +400,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "Hear a sentence and pick the word that means what is shown" to "Hör einen Satz und wähle das Wort mit der angegebenen Bedeutung",
     "Hear a sentence and type the word that means what is shown" to "Hör einen Satz und tippe das Wort mit der angegebenen Bedeutung",
     "Missing word" to "Fehlendes Wort",
-    "Meaning" to "Bedeutung",
     "Hear the word" to "Wort hören",
     "Hear the sentence" to "Satz hören",
     "Choose or type the word missing from the sentence" to "Das im Satz fehlende Wort wählen oder tippen",
@@ -447,4 +446,5 @@ internal val deTerms: Map<String, String> = mapOf(
     "Select one or more." to "Wähle eine oder mehrere.",
     "Hide unavailable exercises" to "Nicht verfügbare Übungen ausblenden",
     "Show {0} unavailable exercises" to "{0} nicht verfügbare Übung anzeigen|{0} nicht verfügbare Übungen anzeigen",
+    "Word meaning" to "Wortbedeutung",
 )

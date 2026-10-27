@@ -400,7 +400,6 @@ internal val elTerms: Map<String, String> = mapOf(
     "Hear a sentence and pick the word that means what is shown" to "Ακούστε μια πρόταση και επιλέξτε τη λέξη με τη σημασία που δίνεται",
     "Hear a sentence and type the word that means what is shown" to "Ακούστε μια πρόταση και πληκτρολογήστε τη λέξη με τη σημασία που δίνεται",
     "Missing word" to "Λέξη που λείπει",
-    "Meaning" to "Σημασία",
     "Hear the word" to "Ακούστε τη λέξη",
     "Hear the sentence" to "Ακούστε την πρόταση",
     "Choose or type the word missing from the sentence" to "Επιλέξτε ή πληκτρολογήστε τη λέξη που λείπει από την πρόταση",
@@ -447,4 +446,5 @@ internal val elTerms: Map<String, String> = mapOf(
     "Select one or more." to "Επιλέξτε ένα ή περισσότερα.",
     "Hide unavailable exercises" to "Απόκρυψη μη διαθέσιμων ασκήσεων",
     "Show {0} unavailable exercises" to "Εμφάνιση {0} μη διαθέσιμης άσκησης|Εμφάνιση {0} μη διαθέσιμων ασκήσεων",
+    "Word meaning" to "Σημασία λέξης",
 )

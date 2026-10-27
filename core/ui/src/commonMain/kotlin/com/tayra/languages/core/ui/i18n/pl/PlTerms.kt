@@ -400,7 +400,6 @@ internal val plTerms: Map<String, String> = mapOf(
     "Hear a sentence and pick the word that means what is shown" to "Posłuchaj zdania i wybierz słowo o podanym znaczeniu",
     "Hear a sentence and type the word that means what is shown" to "Posłuchaj zdania i wpisz słowo o podanym znaczeniu",
     "Missing word" to "Brakujące słowo",
-    "Meaning" to "Znaczenie",
     "Hear the word" to "Słowo ze słuchu",
     "Hear the sentence" to "Zdanie ze słuchu",
     "Choose or type the word missing from the sentence" to "Wybierz lub wpisz słowo, którego brakuje w zdaniu",
@@ -447,4 +446,5 @@ internal val plTerms: Map<String, String> = mapOf(
     "Select one or more." to "Zaznacz jeden lub więcej.",
     "Hide unavailable exercises" to "Ukryj niedostępne ćwiczenia",
     "Show {0} unavailable exercises" to "Pokaż {0} niedostępne ćwiczenie|Pokaż {0} niedostępne ćwiczenia|Pokaż {0} niedostępnych ćwiczeń",
+    "Word meaning" to "Znaczenie słowa",
 )

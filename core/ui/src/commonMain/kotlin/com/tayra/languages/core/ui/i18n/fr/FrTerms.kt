@@ -400,7 +400,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "Hear a sentence and pick the word that means what is shown" to "Écoutez une phrase et choisissez le mot qui a le sens indiqué",
     "Hear a sentence and type the word that means what is shown" to "Écoutez une phrase et tapez le mot qui a le sens indiqué",
     "Missing word" to "Mot manquant",
-    "Meaning" to "Sens",
     "Hear the word" to "Écouter le mot",
     "Hear the sentence" to "Écouter la phrase",
     "Choose or type the word missing from the sentence" to "Choisissez ou tapez le mot qui manque dans la phrase",
@@ -447,4 +446,5 @@ internal val frTerms: Map<String, String> = mapOf(
     "Select one or more." to "Sélectionnez-en un ou plusieurs.",
     "Hide unavailable exercises" to "Masquer les exercices indisponibles",
     "Show {0} unavailable exercises" to "Afficher {0} exercice indisponible|Afficher {0} exercices indisponibles",
+    "Word meaning" to "Sens du mot",
 )

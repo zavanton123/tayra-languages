@@ -12,7 +12,7 @@ import com.tayra.languages.core.ui.i18n.tr
 /** The type's name, as offered to tick. */
 fun ExerciseType.label(): String = when (this) {
     ExerciseType.GAP -> tr("Missing word")
-    ExerciseType.MEANING -> tr("Meaning")
+    ExerciseType.MEANING -> tr("Word meaning")
     ExerciseType.MATCHING -> tr("Matching pairs")
     ExerciseType.HEAR_WORD -> tr("Hear the word")
     ExerciseType.HEAR_SENTENCE -> tr("Hear the sentence")

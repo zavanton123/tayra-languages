@@ -400,7 +400,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Hear a sentence and pick the word that means what is shown" to "听一个句子，选出意思与所示相同的词",
     "Hear a sentence and type the word that means what is shown" to "听一个句子，输入意思与所示相同的词",
     "Missing word" to "缺少的词",
-    "Meaning" to "意思",
     "Hear the word" to "听单词",
     "Hear the sentence" to "听句子",
     "Choose or type the word missing from the sentence" to "选择或输入句子中缺少的词",
@@ -447,4 +446,5 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Select one or more." to "可选择一项或多项。",
     "Hide unavailable exercises" to "隐藏不可用的练习",
     "Show {0} unavailable exercises" to "显示 {0} 个不可用的练习",
+    "Word meaning" to "词义",
 )

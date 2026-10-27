@@ -400,7 +400,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "Hear a sentence and pick the word that means what is shown" to "Escucha una oración y elige la palabra con el significado indicado",
     "Hear a sentence and type the word that means what is shown" to "Escucha una oración y escribe la palabra con el significado indicado",
     "Missing word" to "Palabra que falta",
-    "Meaning" to "Significado",
     "Hear the word" to "Escuchar la palabra",
     "Hear the sentence" to "Escuchar la oración",
     "Choose or type the word missing from the sentence" to "Elige o escribe la palabra que falta en la oración",
@@ -447,4 +446,5 @@ internal val esTerms: Map<String, String> = mapOf(
     "Select one or more." to "Selecciona uno o más.",
     "Hide unavailable exercises" to "Ocultar ejercicios no disponibles",
     "Show {0} unavailable exercises" to "Mostrar {0} ejercicio no disponible|Mostrar {0} ejercicios no disponibles",
+    "Word meaning" to "Significado de la palabra",
 )

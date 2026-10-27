@@ -400,7 +400,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Hear a sentence and pick the word that means what is shown" to "Прослушайте предложение и выберите слово с указанным значением",
     "Hear a sentence and type the word that means what is shown" to "Прослушайте предложение и введите слово с указанным значением",
     "Missing word" to "Пропущенное слово",
-    "Meaning" to "Значение",
     "Hear the word" to "Слово на слух",
     "Hear the sentence" to "Предложение на слух",
     "Choose or type the word missing from the sentence" to "Выберите или введите слово, пропущенное в предложении",
@@ -447,4 +446,5 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Select one or more." to "Выберите один или несколько.",
     "Hide unavailable exercises" to "Скрыть недоступные упражнения",
     "Show {0} unavailable exercises" to "Показать {0} недоступное упражнение|Показать {0} недоступных упражнения|Показать {0} недоступных упражнений",
+    "Word meaning" to "Значение слова",
 )
