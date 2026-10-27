@@ -6,10 +6,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
-import com.tayra.languages.core.domain.dictionary.OnlineWiktionary
-import com.tayra.languages.core.domain.dictionary.WiktionaryCodes
-import com.tayra.languages.core.domain.dictionary.WordHint
-import com.tayra.languages.core.domain.dictionary.WordHints
 import com.tayra.languages.core.domain.flashcards.CardState
 import com.tayra.languages.core.domain.flashcards.DueCounts
 import com.tayra.languages.core.domain.flashcards.Flashcard
@@ -60,10 +56,6 @@ data class CardContent(
     val languageCode: String? = null,
     val rightToLeft: Boolean = false,
     val state: CardState = CardState.NEW,
-    /** Wiktionary's gender, plural and key verb forms of the word, for the back; empty until they come, or offline. */
-    val hints: List<WordHint> = emptyList(),
-    /** The Wiktionary entry [hints] come from, linked beside them as their licence asks. */
-    val hintsSource: String? = null,
 ) {
     /** What is read aloud when the answer is shown. */
     val spoken: String get() = sentence ?: word
@@ -117,8 +109,6 @@ class FlashcardsViewModel(
     private val words: WordTranslationService,
     /** Speech made ahead of time; null where there is none to make, as in tests. */
     private val audio: SentenceAudio? = null,
-    /** Wiktionary online, for the hints on the back of a card. */
-    private val wiktionary: OnlineWiktionary? = null,
     /** The texts, for the one to go on reading once the cards are done; null leaves that out. */
     private val books: BookRepository? = null,
 ) : ViewModel() {
@@ -248,7 +238,7 @@ class FlashcardsViewModel(
     }
 
     /**
-     * The sentence's translation, the part of speech, Wiktionary's hints and, for a term saved without
+     * The sentence's translation, the part of speech and, for a term saved without
      * one, a translation: looked up after the card is on screen, which never waits for them.
      */
     /** The text of the language read most recently and not finished: a book of the library or a course lesson. */
@@ -284,12 +274,6 @@ class FlashcardsViewModel(
                     dictionary.lookup(pack, term.displayText).entries.firstOrNull()?.pos
                 }
                 if (!pos.isNullOrBlank()) updateCard { it.copy(partOfSpeech = pos.replaceFirstChar { c -> c.uppercase() }) }
-            }
-            if (wiktionary != null && code != null) launch {
-                val native = settings.current.nativeLanguage.trim().lowercase().ifEmpty { "en" }
-                val page = attempt { wiktionary.page(term.displayText, code, native) } ?: return@launch
-                val hints = WordHints.of(page)
-                if (hints.isNotEmpty()) updateCard { it.copy(hints = hints, hintsSource = WiktionaryCodes.entryUrl(page, language.name)) }
             }
             if (term.translation.isNullOrBlank()) launch {
                 val found = attempt { words.translate(language, term.displayText) }

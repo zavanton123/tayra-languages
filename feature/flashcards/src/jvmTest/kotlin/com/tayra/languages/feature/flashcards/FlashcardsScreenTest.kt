@@ -51,13 +51,6 @@ import com.tayra.languages.core.data.repository.TermRepositoryImpl
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
 import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
-import com.tayra.languages.core.domain.dictionary.OnlineWiktionary
-import com.tayra.languages.core.domain.dictionary.WiktionaryEntry
-import com.tayra.languages.core.domain.dictionary.WiktionaryForm
-import com.tayra.languages.core.domain.dictionary.WiktionaryForms
-import com.tayra.languages.core.domain.dictionary.WiktionaryPage
-import com.tayra.languages.core.domain.dictionary.WiktionarySearchResult
-import com.tayra.languages.core.domain.dictionary.WiktionarySense
 import com.tayra.languages.core.domain.flashcards.FlashcardService
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
@@ -95,7 +88,6 @@ class FlashcardsScreenTest {
     private fun ComposeUiTest.show(
         hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,
         phone: Boolean = false,
-        wiktionary: OnlineWiktionary? = null,
         books: BookRepositoryImpl? = null,
         onRead: (Long) -> Unit = {},
         onChooseExample: (CardContent) -> Unit = {},
@@ -124,7 +116,7 @@ class FlashcardsScreenTest {
             override val name = "Fake"
             override suspend fun suggestTranslation(text: String, language: Language): String? = null
         }
-        val viewModel = FlashcardsViewModel(service, languages, settings, translator, noDictionary, WordTranslationService(terms, noDictionary, suggestions, settings), audio, wiktionary = wiktionary, books = books)
+        val viewModel = FlashcardsViewModel(service, languages, settings, translator, noDictionary, WordTranslationService(terms, noDictionary, suggestions, settings), audio, books = books)
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -294,46 +286,13 @@ class FlashcardsScreenTest {
         save("FLASHCARD_CHOOSE_PHONE_SCREENSHOT")
     }
 
-    private class FakeWiktionary(private val page: WiktionaryPage?) : OnlineWiktionary {
-        val asked = mutableListOf<String>()
-        override suspend fun page(word: String, languageCode: String, nativeLanguage: String): WiktionaryPage? {
-            asked += "$word|$languageCode|$nativeLanguage"
-            return page ?: throw IllegalStateException("offline")
-        }
-        override suspend fun forms(word: String, languageCode: String, edition: String) = emptyList<WiktionaryForms>()
-        override suspend fun search(prefix: String, languageCode: String, edition: String) = emptyList<WiktionarySearchResult>()
-    }
-
+    /** The back holds the word, its part of speech and translation alone: nothing more is looked up to change it later. */
     @Test
-    fun theBackGivesWiktionarysKeyFormsWithItsCredit() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val comprar = WiktionaryPage(
-            "comprar", "ru", "pt",
-            listOf(
-                WiktionaryEntry(
-                    "verb", listOf(WiktionarySense(listOf("покупать"))),
-                    forms = listOf(
-                        WiktionaryForm("compro", listOf("first-person", "indicative", "present", "singular"), "conjugation"),
-                        WiktionaryForm("comprado", listOf("participle", "past"), null),
-                    ),
-                ),
-            ),
-        )
-        val wiktionary = FakeWiktionary(comprar)
-        show(wiktionary = wiktionary)
-        onNodeWithText("Show answer").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-hints").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("1st singular present indicative: compro · past participle: comprado").assertExists()
-        onNodeWithText("Wiktionary contributors · CC BY-SA 4.0").assertExists()
-        assertEquals(listOf("comprar|pt|ru"), wiktionary.asked)
-    }
-
-    @Test
-    fun aCardWithoutHintsStaysAsItIs() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val viewModel = show(wiktionary = FakeWiktionary(null))
+    fun theBackLooksUpNoWiktionaryForms() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show()
         onNodeWithText("Show answer").performClick()
         onNodeWithText("купить, покупать").assertExists()
-        assertEquals(0, onAllNodesWithTag("flashcard-hints").fetchSemanticsNodes().size)
-        // The failed lookup leaves the card to be answered as any other.
+        assertEquals(0, onAllNodesWithText("Wiktionary contributors · CC BY-SA 4.0").fetchSemanticsNodes().size)
         onNodeWithText("Good").performClick()
         waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered == 1 }
     }
