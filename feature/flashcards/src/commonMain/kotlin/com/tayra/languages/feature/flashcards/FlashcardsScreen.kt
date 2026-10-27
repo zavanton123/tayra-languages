@@ -7,8 +7,6 @@ import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Duration.Companion.hours
 import kotlin.time.Duration.Companion.days
 import androidx.compose.animation.animateContentSize
-import androidx.compose.animation.core.Animatable
-import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -58,7 +56,6 @@ import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusProperties
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.input.key.KeyEventType
@@ -455,25 +452,10 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
     val colors = MaterialTheme.colorScheme
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     val inset = if (compact) AppSpacing.xl else AppSpacing.xxxl
-    // Showing the answer turns the card over: it turns edge-on, shows its other side and turns back,
-    // growing to hold the answer; a new card starts face up, and nothing turns when motion is reduced.
-    val reduceMotion = AppMotion.reduced
-    var revealed by remember(card) { mutableStateOf(answered) }
-    val turn = remember(card) { Animatable(0f) }
-    LaunchedEffect(card, answered) {
-        if (answered == revealed) return@LaunchedEffect
-        if (reduceMotion) {
-            revealed = answered
-            return@LaunchedEffect
-        }
-        turn.animateTo(EDGE_ON, tween(AppMotion.short, easing = AppMotion.exit))
-        revealed = answered
-        turn.snapTo(-EDGE_ON)
-        turn.animateTo(0f, tween(AppMotion.medium, easing = AppMotion.enter))
-    }
+    // The answer opens under the sentence in place, the card growing to hold it.
+    val revealed = answered
     Column(
         Modifier.fillMaxWidth()
-            .graphicsLayer { rotationY = turn.value; cameraDistance = CAMERA_DISTANCE * density }
             .animateContentSize(AppMotion.spec(AppMotion.medium))
             .cardSurface(AppShapes.large)
             .padding(horizontal = inset, vertical = if (compact) AppSpacing.xl else AppSpacing.xxl).testTag("flashcard"),
@@ -605,9 +587,6 @@ private fun CardHints(card: CardContent) {
 
 private const val BLANK = "[...]"
 
-/** How far a card turns before it shows its other side, in degrees, and how far away it is seen from as it does. */
-private const val EDGE_ON = 90f
-private const val CAMERA_DISTANCE = 12f
 private val REVIEW_WIDTH = 1048.dp
 private val PILL_DIVIDER_HEIGHT = 22.dp
 private val SHOW_ANSWER_WIDTH = 360.dp

@@ -263,8 +263,8 @@ Screens are built from `core/ui`.
   - The segmented toggle's highlight and the underline tabs' line slide to the chosen one. Chips,
     toggles and tabs fade between their colours, and progress fills smoothly.
   - Screens change with a quick crossfade (`AppNavHost`).
-  - In the reader, a word's colour fades to its new status. A flashcard turns over to show its
-    answer.
+  - In the reader, a word's colour fades to its new status. A flashcard grows in place to show
+    its answer, without turning over.
 - **Overlays** (`components/Overlays.kt`): `AppBottomSheet` for phones, `AppDialogSurface` for
   dialogs with content of their own, `SidePanel`, `PopupCard`, `BarSurface`, `AppTooltip` and
   `AppRichTooltip`.
