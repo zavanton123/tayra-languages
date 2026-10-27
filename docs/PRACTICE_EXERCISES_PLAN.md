@@ -248,6 +248,8 @@ The sentence translation as the cue; the original's words as shuffled tiles to t
 
 ### 6.4 Full dictation (group: Listening)
 
+Removed: typing whole sentences was too exacting, and dictation of the missing word was the missing word typed, so the type went and setups that named it ask the missing word.
+
 Already exists for sentences of six words or fewer; extend to eight, and show a word-by-word diff (right, accent-only, wrong, missing) instead of right or wrong.
 
 ### 6.5 Sound-alike (group: Listening)

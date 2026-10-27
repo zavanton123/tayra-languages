@@ -64,9 +64,6 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
     // Not said: its answer is one word, which recognisers make out badly alone.
     HEAR_SENTENCE(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE)),
 
-    /** The sentence is read aloud: type the missing word. */
-    DICTATION(PracticeSkill.LISTENING, setOf(PracticeResponse.TYPE)),
-
     /** The sentence is read aloud: say it back; right when most of its words are heard. */
     SHADOW(PracticeSkill.LISTENING, setOf(PracticeResponse.SPEAK)),
 
@@ -80,7 +77,7 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
  * makes for every word when null).
  */
 data class PracticeSetup(
-    val types: Set<ExerciseType> = setOf(ExerciseType.GAP, ExerciseType.HEAR_WORD, ExerciseType.DICTATION),
+    val types: Set<ExerciseType> = setOf(ExerciseType.GAP, ExerciseType.HEAR_WORD),
     val responses: Set<PracticeResponse> = setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE),
     val contexts: Set<PracticeContext> = PracticeContext.entries.toSet(),
     val length: Int? = DEFAULT_LENGTH,
@@ -99,14 +96,14 @@ data class PracticeSetup(
         if (PracticeResponse.SPEAK !in responses && ExerciseType.SHADOW !in types) this
         else copy(
             responses = (responses - PracticeResponse.SPEAK).ifEmpty { setOf(PracticeResponse.TYPE) },
-            types = (types - ExerciseType.SHADOW).ifEmpty { setOf(ExerciseType.DICTATION) },
+            types = (types - ExerciseType.SHADOW).ifEmpty { setOf(ExerciseType.GAP) },
         )
 
     /** The questions asked, in the order they come round: those answered by choosing first, then those typed. */
     val rotation: List<Pair<ExerciseType, PracticeResponse>> =
         PracticeResponse.entries.filter { it in responses }.flatMap { response -> ExerciseType.entries.filter { it in types && response in it.responses }.map { it to response } }
 
-    /** The setup as text, for a route or the settings: `types=GAP,DICTATION;responses=CHOOSE;contexts=ORIGINAL;length=10`. */
+    /** The setup as text, for a route or the settings: `types=GAP,HEAR_WORD;responses=CHOOSE;contexts=ORIGINAL;length=10`. */
     fun encode(): String = listOf(
         "types=" + ExerciseType.entries.filter { it in types }.joinToString(",") { it.name },
         "responses=" + PracticeResponse.entries.filter { it in responses }.joinToString(",") { it.name },
@@ -117,6 +114,7 @@ data class PracticeSetup(
     companion object {
         const val DEFAULT_LENGTH = 10
         private const val ALL = "all"
+        private val RENAMED_TYPES = mapOf("SOUND_ALIKE" to ExerciseType.HEAR_WORD.name, "DICTATION" to ExerciseType.GAP.name)
 
         /** The setup the dialog opens on the first time: reading, listening and translation, chosen and typed. */
         val FIRST = PracticeSetup(types = ExerciseType.entries.toSet() - ExerciseType.SHADOW, responses = PracticeResponse.entries.toSet() - PracticeResponse.SPEAK)
@@ -128,8 +126,8 @@ data class PracticeSetup(
             val defaults = PracticeSetup()
             return PracticeSetup(
                 // Likewise for one kept from before true or false was dropped.
-                // The sound-alike question is now one way Hear the word is asked.
-                types = names("types")?.map { if (it == "SOUND_ALIKE") ExerciseType.HEAR_WORD.name else it }
+                // The sound-alike question is now one way Hear the word is asked, and dictation was the missing word.
+                types = names("types")?.map { RENAMED_TYPES[it] ?: it }
                     ?.mapNotNull { name -> ExerciseType.entries.firstOrNull { it.name == name } }?.toSet()?.takeIf { it.isNotEmpty() } ?: defaults.types,
                 // A setup kept from before letter tiles were dropped may have had no other way of answering.
                 responses = names("responses")?.mapNotNull { name -> PracticeResponse.entries.firstOrNull { it.name == name } }?.toSet()?.takeIf { it.isNotEmpty() } ?: defaults.responses,
@@ -152,7 +150,8 @@ data class PracticeSetup(
                 when (it) {
                     "GAP_CHOICE", "GAP_TYPED", "NEW_CONTEXT" -> ExerciseType.GAP
                     "HEAR_CHOOSE" -> ExerciseType.HEAR_WORD
-                    "DICTATION" -> ExerciseType.DICTATION
+                    // Dictation was the missing word, typed.
+                    "DICTATION" -> ExerciseType.GAP
                     else -> null
                 }
             }.toSet()
@@ -241,7 +240,7 @@ object PracticeBuilder {
     private const val PHRASE_ENDS = ",;:.!?…)\"»”"
 
     /** The types a sentence from elsewhere can be asked in: those about the sentence, not the word alone or its meaning. */
-    private val EXAMPLE_TYPES = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.BUILD, ExerciseType.DICTATION, ExerciseType.SHADOW)
+    private val EXAMPLE_TYPES = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.BUILD, ExerciseType.SHADOW)
 
     /** Sentences built from their words have this many words at least, and [MAX_BUILT] at most. */
     private const val MIN_BUILT = 3
@@ -451,7 +450,6 @@ object PracticeBuilder {
                 while (tiles == parts) tiles = parts.shuffled(random)
                 base.copy(sentenceTranslation = translation, tiles = tiles, answer = word.sentence.trim(), wholeSentence = true)
             }
-            ExerciseType.DICTATION -> base.copy(spoken = word.sentence)
         }
     }
 

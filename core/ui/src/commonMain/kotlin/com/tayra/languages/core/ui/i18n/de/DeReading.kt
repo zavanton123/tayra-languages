@@ -160,7 +160,6 @@ internal val deReading: Map<String, String> = mapOf(
     "A new sentence: choose the missing word" to "Ein neuer Satz: Wähle das fehlende Wort",
     "Listen and choose the word you hear" to "Hör zu und wähle das Wort, das du hörst",
     "Listen and choose what the word means" to "Hör zu und wähle, was das Wort bedeutet",
-    "Listen and type the missing word" to "Hör zu und schreib das fehlende Wort",
     "Listen again" to "Noch einmal anhören",
     "Show the answer" to "Antwort zeigen",
     "See the result" to "Ergebnis ansehen",

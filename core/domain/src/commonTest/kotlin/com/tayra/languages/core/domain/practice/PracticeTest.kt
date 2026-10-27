@@ -11,7 +11,6 @@ class PracticeTest {
     private val gapChoice = ExerciseType.GAP to PracticeResponse.CHOOSE
     private val gapTyped = ExerciseType.GAP to PracticeResponse.TYPE
     private val hearChoice = ExerciseType.HEAR_WORD to PracticeResponse.CHOOSE
-    private val dictation = ExerciseType.DICTATION to PracticeResponse.TYPE
 
     /** The default setup with the ways of answering mixed rather than chosen by level, where the mixing is what is tested. */
     private val mixed = PracticeSetup(adaptive = false)
@@ -32,7 +31,7 @@ class PracticeTest {
         val exercises = PracticeBuilder.build(words, pageWords, random = Random(1), setup = mixed)
         assertEquals(10, exercises.size)
         assertEquals(words.map { it.text }.toSet(), exercises.map { it.word }.toSet())
-        assertEquals(setOf(gapChoice, gapTyped, hearChoice, dictation), exercises.map { it.kind }.toSet())
+        assertEquals(setOf(gapChoice, gapTyped, hearChoice), exercises.map { it.kind }.toSet())
         // A word's two questions are of different kinds and five questions apart.
         exercises.groupBy { it.word }.values.forEach { asked ->
             assertEquals(2, asked.size)
@@ -48,19 +47,16 @@ class PracticeTest {
         val choice = PracticeBuilder.build(words, pageWords, examples, Random(1), PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_WORD), responses = setOf(PracticeResponse.CHOOSE)))
         assertTrue(choice.isNotEmpty() && choice.all { it.isChoice }, "choice: ${choice.map { it.kind }}")
         assertTrue(choice.any { it.context == PracticeContext.EXAMPLE }, "a sentence from elsewhere is a choice too")
-        val typing = PracticeBuilder.build(words, pageWords, examples, Random(1), PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.DICTATION), responses = setOf(PracticeResponse.TYPE)))
+        val typing = PracticeBuilder.build(words, pageWords, examples, Random(1), PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE), responses = setOf(PracticeResponse.TYPE)))
         assertTrue(typing.isNotEmpty() && typing.none { it.isChoice }, "typing: ${typing.map { it.kind }}")
         assertTrue(typing.any { it.context == PracticeContext.EXAMPLE }, "and typed where only typing is asked")
-        val dictations = PracticeBuilder.build(words, pageWords, examples, Random(1), PracticeSetup(types = setOf(ExerciseType.DICTATION)))
-        assertTrue(dictations.isNotEmpty() && dictations.all { it.kind == dictation }, "dictation: ${dictations.map { it.kind }}")
         assertEquals(emptyList(), PracticeBuilder.build(words, pageWords, examples, Random(1), PracticeSetup(types = emptySet())))
-        assertEquals(emptyList(), PracticeBuilder.build(words, pageWords, examples, Random(1), PracticeSetup(types = setOf(ExerciseType.DICTATION), responses = setOf(PracticeResponse.CHOOSE))), "dictation is never a choice")
     }
 
     /** Without a length every question comes for every word; with sentences from elsewhere only, only the words that have one are asked. */
     @Test
     fun theLengthAndTheSentencesAskedForAreKept() {
-        assertEquals(words.size * 4, PracticeBuilder.build(words, pageWords, random = Random(1), setup = mixed.copy(length = null)).size)
+        assertEquals(words.size * 3, PracticeBuilder.build(words, pageWords, random = Random(1), setup = mixed.copy(length = null)).size)
         assertEquals(5, PracticeBuilder.build(words, pageWords, random = Random(1), setup = PracticeSetup(length = 5)).size)
         val examples = mapOf("comprar" to listOf(PracticeExample("Vou comprar pão.", Cloze.range("Vou comprar pão.", "comprar")!!, "I will buy bread.")))
         val elsewhere = PracticeBuilder.build(words, pageWords, examples, Random(1), PracticeSetup(contexts = setOf(PracticeContext.EXAMPLE)))
@@ -202,18 +198,19 @@ class PracticeTest {
     /** A setup goes into a route as text and comes back the same; the kinds earlier versions named still give their questions. */
     @Test
     fun aSetupIsWrittenAndReadAsText() {
-        val setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.DICTATION), responses = setOf(PracticeResponse.TYPE), contexts = setOf(PracticeContext.ORIGINAL), length = null)
-        assertEquals("types=GAP,DICTATION;responses=TYPE;contexts=ORIGINAL;length=all", setup.encode())
+        val setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE), responses = setOf(PracticeResponse.TYPE), contexts = setOf(PracticeContext.ORIGINAL), length = null)
+        assertEquals("types=GAP,HEAR_SENTENCE;responses=TYPE;contexts=ORIGINAL;length=all", setup.encode())
         assertEquals(true, PracticeSetup.decode(setup.encode() + ";adaptive=0").adaptive, "practice always adapts now")
         assertEquals(setup, PracticeSetup.decode(setup.encode() + ";words=WEAKEST"), "a setup kept with a choice of words, which was dropped, asks about all of them")
         assertEquals(setup, PracticeSetup.decode(setup.encode()))
         assertEquals(PracticeSetup(), PracticeSetup.decode(""), "nothing said: the defaults")
         assertEquals(setOf(ExerciseType.GAP), PracticeSetup.decode("types=GAP,SOMETHING_NEW").types, "names not known are left out")
         assertEquals(setOf(ExerciseType.HEAR_WORD), PracticeSetup.decode("types=SOUND_ALIKE").types, "the sound-alike question is now asked within Hear the word")
+        assertEquals(setOf(ExerciseType.GAP), PracticeSetup.decode("types=DICTATION").types, "dictation was the missing word, typed")
         assertEquals(PracticeSetup.DEFAULT_LENGTH, PracticeSetup.decode("length=-3").length)
-        assertEquals(listOf(gapChoice, hearChoice, gapTyped, dictation), PracticeSetup.ofKinds(emptyList()).rotation)
+        assertEquals(listOf(gapChoice, hearChoice, gapTyped), PracticeSetup.ofKinds(emptyList()).rotation)
         assertEquals(listOf(gapChoice, hearChoice), PracticeSetup.ofKinds(listOf("GAP_CHOICE", "HEAR_CHOOSE")).rotation)
-        assertEquals(listOf(dictation), PracticeSetup.ofKinds(listOf("DICTATION")).rotation)
+        assertEquals(listOf(gapTyped), PracticeSetup.ofKinds(listOf("DICTATION")).rotation)
     }
 
     @Test
@@ -227,15 +224,11 @@ class PracticeTest {
     }
 
     @Test
-    fun listeningAsksForTheMeaningAndTypingForTheWord() {
+    fun listeningAsksForTheMeaningAndTypingForTheMissingWord() {
         val exercises = PracticeBuilder.build(words, pageWords, random = Random(3))
         exercises.filter { it.type == ExerciseType.HEAR_WORD }.forEach { e ->
             assertEquals(e.word, e.spoken)
             assertEquals(e.wordTranslation, e.answer, "the choices are meanings when every word has one")
-        }
-        exercises.filter { it.type == ExerciseType.DICTATION }.forEach { e ->
-            assertEquals(e.sentence, e.spoken)
-            assertEquals(e.word, e.answer)
         }
         exercises.filter { it.kind == gapTyped }.forEach { assertEquals(it.word, it.answer) }
     }
@@ -287,8 +280,8 @@ class PracticeTest {
     @Test
     fun oneWordStillMakesAShortPractice() {
         val exercises = PracticeBuilder.build(words.take(1), pageWords, random = Random(6), setup = mixed)
-        assertEquals(4, exercises.size)
-        assertEquals(4, exercises.map { it.kind }.toSet().size)
+        assertEquals(3, exercises.size)
+        assertEquals(3, exercises.map { it.kind }.toSet().size)
         assertEquals(emptyList(), PracticeBuilder.build(emptyList(), pageWords))
     }
 
@@ -354,7 +347,7 @@ class PracticeTest {
     /** Where nothing can be said, answers said are typed and sentences repeated are written down. */
     @Test
     fun withoutSpeakingAnswersAreTyped() {
-        assertEquals(PracticeSetup(types = setOf(ExerciseType.DICTATION), responses = setOf(PracticeResponse.TYPE)), PracticeSetup(types = setOf(ExerciseType.SHADOW), responses = setOf(PracticeResponse.SPEAK)).withoutSpeaking())
+        assertEquals(PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.TYPE)), PracticeSetup(types = setOf(ExerciseType.SHADOW), responses = setOf(PracticeResponse.SPEAK)).withoutSpeaking())
         assertEquals(setOf(PracticeResponse.CHOOSE), PracticeSetup(responses = setOf(PracticeResponse.CHOOSE, PracticeResponse.SPEAK)).withoutSpeaking().responses)
         val plain = PracticeSetup()
         assertTrue(plain.withoutSpeaking() === plain)
@@ -410,7 +403,7 @@ class PracticeTest {
     /** A word is never asked the same question in the same sentence twice, even where its level leaves only one way of answering. */
     @Test
     fun noQuestionIsAskedTwice() {
-        val setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_WORD, ExerciseType.DICTATION), responses = setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE), length = null)
+        val setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_WORD), responses = setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE), length = null)
         val asked = PracticeBuilder.build(words, pageWords, random = Random(1), setup = setup)
         val keys = asked.map { "${it.practised}|${it.type}|${it.response}|${it.sentence}" }
         assertEquals(keys.distinct(), keys)

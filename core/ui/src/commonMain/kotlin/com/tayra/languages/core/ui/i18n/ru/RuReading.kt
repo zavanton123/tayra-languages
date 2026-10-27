@@ -160,7 +160,6 @@ internal val ruReading: Map<String, String> = mapOf(
     "A new sentence: choose the missing word" to "Новое предложение: выберите пропущенное слово",
     "Listen and choose the word you hear" to "Послушайте и выберите услышанное слово",
     "Listen and choose what the word means" to "Послушайте и выберите значение слова",
-    "Listen and type the missing word" to "Послушайте и впишите пропущенное слово",
     "Listen again" to "Прослушать ещё раз",
     "Show the answer" to "Показать ответ",
     "See the result" to "Посмотреть результат",

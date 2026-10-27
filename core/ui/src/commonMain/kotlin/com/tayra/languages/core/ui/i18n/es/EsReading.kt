@@ -160,7 +160,6 @@ internal val esReading: Map<String, String> = mapOf(
     "A new sentence: choose the missing word" to "Una frase nueva: elige la palabra que falta",
     "Listen and choose the word you hear" to "Escucha y elige la palabra que oyes",
     "Listen and choose what the word means" to "Escucha y elige qué significa la palabra",
-    "Listen and type the missing word" to "Escucha y escribe la palabra que falta",
     "Listen again" to "Volver a escuchar",
     "Show the answer" to "Mostrar la respuesta",
     "See the result" to "Ver el resultado",

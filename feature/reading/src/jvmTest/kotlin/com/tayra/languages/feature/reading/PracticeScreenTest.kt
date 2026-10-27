@@ -396,7 +396,7 @@ class PracticeScreenTest {
         val viewModel = show(setup = PracticeSetup(adaptive = false))
         val exercises = viewModel.state.value.exercises
         assertEquals(
-            setOf("GAP-CHOOSE-ORIGINAL", "GAP-CHOOSE-EXAMPLE", "GAP-TYPE-ORIGINAL", "HEAR_WORD-CHOOSE-ORIGINAL", "DICTATION-TYPE-ORIGINAL"),
+            setOf("GAP-CHOOSE-ORIGINAL", "GAP-TYPE-ORIGINAL", "GAP-TYPE-EXAMPLE", "HEAR_WORD-CHOOSE-ORIGINAL"),
             exercises.map { it.kind }.toSet(),
             "every kind of question is asked",
         )
@@ -427,7 +427,7 @@ class PracticeScreenTest {
         onNodeWithText("Every answer was right.").assertExists()
         shot("result")
 
-        // The listening questions were read aloud: the word for a choice, the sentence for a dictation.
+        // The listening questions were read aloud.
         assertEquals(exercises.mapNotNull { it.spoken }, spoken)
         assertTrue(spoken.isNotEmpty())
         // Practice asks only: every word is still at the status it had.
