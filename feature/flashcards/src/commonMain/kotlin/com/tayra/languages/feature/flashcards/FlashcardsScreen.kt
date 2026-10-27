@@ -103,6 +103,7 @@ import com.tayra.languages.core.ui.components.ButtonTone
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.FitText
 import com.tayra.languages.core.ui.components.IconButtonSize
+import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.LearningLanguageSelector
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
@@ -476,12 +477,8 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
                 SecondaryButton(tr("Choose another example"), onClick = onChooseExample, modifier = NoFocus.testTag("choose-example"), icon = AppIcons.Forum, tint = colors.primary)
                 Spacer(Modifier.width(AppSpacing.m))
             }
-            if (speaker != null) {
-                Box(
-                    Modifier.size(AppSizes.tileLarge).clip(AppShapes.panel).border(AppBorders.hairline(), AppShapes.panel),
-                    contentAlignment = Alignment.Center,
-                ) { SpeakButton(card.spoken, card.languageCode, speaker, Modifier.size(AppSizes.tileMedium).then(NoFocus)) }
-            }
+            // The button is the rounded square itself, so its hover and press fill that shape.
+            if (speaker != null) SpeakButton(card.spoken, card.languageCode, speaker, NoFocus, style = IconButtonStyle.Outlined, size = IconButtonSize.Large, shape = AppShapes.panel)
         }
         val fill = AppAccents.highlight.copy(alpha = AppAlpha.half)
         val highlight = SpanStyle(fontWeight = AppText.labelStrong.fontWeight)

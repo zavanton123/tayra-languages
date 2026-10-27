@@ -6,6 +6,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Shape
+import com.tayra.languages.core.ui.components.IconButtonSize
+import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppIconButton
 
@@ -33,9 +36,21 @@ expect class SpeechSynthesizer {
 @Composable
 expect fun rememberSpeechSynthesizer(): SpeechSynthesizer
 
-/** A speaker button that reads [text] aloud with the engine chosen in settings, and stops it while it plays. */
+/**
+ * A speaker button that reads [text] aloud with the engine chosen in settings, and stops it while it plays;
+ * [style], [size] and [shape] are its icon button's.
+ */
 @Composable
-fun SpeakButton(text: String, languageCode: String?, speaker: Speaker, modifier: Modifier = Modifier, enabled: Boolean = true) {
+fun SpeakButton(
+    text: String,
+    languageCode: String?,
+    speaker: Speaker,
+    modifier: Modifier = Modifier,
+    enabled: Boolean = true,
+    style: IconButtonStyle = IconButtonStyle.Plain,
+    size: IconButtonSize = IconButtonSize.Regular,
+    shape: Shape? = null,
+) {
     val playing by speaker.playing.collectAsState()
     val active = playing != null && playing == text
     AppIconButton(
@@ -44,6 +59,10 @@ fun SpeakButton(text: String, languageCode: String?, speaker: Speaker, modifier:
         onClick = { speaker.toggle(text, languageCode) },
         modifier = modifier,
         enabled = enabled && text.isNotBlank(),
+        size = size,
+        style = style,
         tint = MaterialTheme.colorScheme.primary,
+        shape = shape,
+        selected = active,
     )
 }
