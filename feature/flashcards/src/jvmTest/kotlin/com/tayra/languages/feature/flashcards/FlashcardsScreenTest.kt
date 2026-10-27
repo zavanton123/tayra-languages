@@ -26,6 +26,14 @@ import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performMouseInput
 import androidx.compose.ui.test.onNodeWithContentDescription
 import com.tayra.languages.core.domain.service.LocalSpeech
+import com.tayra.languages.core.domain.service.LocalSpeechEngine
+import com.tayra.languages.core.domain.service.MemorySpeechAudioCache
+import com.tayra.languages.core.domain.service.SentenceAudio
+import com.tayra.languages.core.domain.service.SpeechEngine
+import com.tayra.languages.core.domain.service.SpeechPackage
+import com.tayra.languages.core.domain.service.SpeechVoice
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.MutableStateFlow
 import com.tayra.languages.core.ui.audio.rememberSpeaker
 import androidx.compose.ui.test.performKeyInput
 import androidx.compose.ui.test.pressKey
@@ -91,6 +99,8 @@ class FlashcardsScreenTest {
         onRead: (Long) -> Unit = {},
         onChooseExample: (CardContent) -> Unit = {},
         withSpeaker: Boolean = false,
+        audio: SentenceAudio? = null,
+        waitForCard: Boolean = true,
     ): FlashcardsViewModel {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
@@ -109,7 +119,7 @@ class FlashcardsScreenTest {
             override val name = "Fake"
             override suspend fun suggestTranslation(text: String, language: Language): String? = null
         }
-        val viewModel = FlashcardsViewModel(service, languages, settings, translator, noDictionary, WordTranslationService(terms, noDictionary, suggestions, settings), wiktionary = wiktionary, books = books)
+        val viewModel = FlashcardsViewModel(service, languages, settings, translator, noDictionary, WordTranslationService(terms, noDictionary, suggestions, settings), audio, wiktionary = wiktionary, books = books)
         setContent {
             TayraTheme {
                 ProvideWindowWidth {
@@ -124,7 +134,7 @@ class FlashcardsScreenTest {
                                 FlashcardsContent(
                                     state,
                                     speaker = if (withSpeaker) rememberSpeaker(LocalSpeech(emptyList()), settings) else null,
-                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample),
+                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample, onStartWithoutWaiting = viewModel::startWithoutWaiting),
                                     hotkeys = hotkeys,
                                 )
                             }
@@ -133,7 +143,7 @@ class FlashcardsScreenTest {
                 }
             }
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard").fetchSemanticsNodes().isNotEmpty() }
+        if (waitForCard) waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard").fetchSemanticsNodes().isNotEmpty() }
         return viewModel
     }
 
@@ -196,6 +206,39 @@ class FlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { viewModel.state.value.card?.sentence == "Ela compra pão." && viewModel.state.value.card?.sentenceTranslation != null }
         assertEquals(4 until 10, viewModel.state.value.card!!.wordRange)
         assertEquals("Когда нам нужно что-то купить, мы заходим в супермаркет.", viewModel.state.value.card!!.sentenceTranslation)
+    }
+
+    /** An engine that takes its time over each sound, so the wait for the session's speech can be seen. */
+    private class SlowSpeech : LocalSpeechEngine {
+        override val engine = SpeechEngine.PIPER
+        override val displayName = "Slow"
+        override val description = ""
+        override val packagesDescription = ""
+        override val hasRuntimeSetup = false
+        override val progress = MutableStateFlow<String?>(null)
+        override suspend fun status() = "ready"
+        override suspend fun isReady() = true
+        override suspend fun setUp() = "ready"
+        override suspend fun packages() = emptyList<SpeechPackage>()
+        override suspend fun installPackage(id: String) {}
+        override suspend fun removePackage(id: String) {}
+        override suspend fun voices(languageCode: String) = emptyList<SpeechVoice>()
+        override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray {
+            delay(3_000)
+            return text.encodeToByteArray()
+        }
+    }
+
+    /** Before the first card the screen shows the session's speech being made, and Start now begins at once. */
+    @Test
+    fun theSessionWaitsForItsSpeechUnlessStartedNow() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        runBlocking { settings.update { it.copy(speechEngine = SpeechEngine.PIPER) } }
+        show(audio = SentenceAudio(LocalSpeech(listOf(SlowSpeech())), settings, MemorySpeechAudioCache()), waitForCard = false)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("0 of 2 sounds ready").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodesWithTag("flashcard").fetchSemanticsNodes().size, "no card while the speech is made")
+        save("FLASHCARD_PREPARING_SCREENSHOT")
+        onNodeWithTag("start-without-waiting").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard").fetchSemanticsNodes().isNotEmpty() }
     }
 
     /** The answered card's two round buttons say what they do on hover. */

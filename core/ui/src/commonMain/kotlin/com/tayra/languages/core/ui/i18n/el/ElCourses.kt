@@ -227,4 +227,9 @@ internal val elCourses: Map<String, String> = mapOf(
     "Example sentence" to "Παράδειγμα πρότασης",
     "Choose another example" to "Επιλέξτε άλλο παράδειγμα",
     "Choose from examples" to "Επιλογή από παραδείγματα",
+    "Preparing the audio" to "Προετοιμασία του ήχου",
+    "The sound of every card is made before the session starts, so no card waits for it." to "Ο ήχος κάθε κάρτας δημιουργείται πριν ξεκινήσει η συνεδρία, ώστε καμία κάρτα να μην τον περιμένει.",
+    "{0} of {1} sounds ready" to "Έτοιμοι ήχοι: {0} από {1}",
+    "Checking the audio…" to "Έλεγχος του ήχου…",
+    "Start now" to "Έναρξη τώρα",
 )

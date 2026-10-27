@@ -20,6 +20,7 @@ import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.SentenceAudio
+import com.tayra.languages.core.domain.service.SentenceAudioState
 import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.WordTranslationService
 import com.tayra.languages.core.domain.settings.Hotkey
@@ -84,7 +85,12 @@ data class FlashcardsUiState(
     val waits: Map<Rating, CardWait> = emptyMap(),
     /** With no card to show: the text read last and not finished, a book or a lesson, to go back to. */
     val reading: ReadingToContinue? = null,
+    /** The session's speech still being made before its first card, so that no card waits for its sound; null once it may start. */
+    val preparingAudio: AudioPreparation? = null,
 )
+
+/** How much of the speech the session waits for is made: [ready] of [total], which is 0 while that is still being found out. */
+data class AudioPreparation(val ready: Int, val total: Int)
 
 /** A text to go back to after the cards: its id and title. */
 data class ReadingToContinue(val bookId: Long, val title: String)
@@ -131,13 +137,15 @@ class FlashcardsViewModel(
     val hotkeys: Map<HotkeyAction, Hotkey?> get() = settings.current.hotkeys
 
     init {
+        // Until it is known whether any speech is missing, no card shows, so none flashes up before the wait.
+        if (audio != null) _state.update { it.copy(preparingAudio = AudioPreparation(0, 0)) }
         load()
         prepareSpeech()
         // The cards follow the language chosen in the top bar.
         viewModelScope.launch {
             settings.settings.map { it.currentLanguageId }.distinctUntilChanged().drop(1).collect {
                 answers.clear()
-                _state.update { it.copy(canUndo = false) }
+                _state.update { it.copy(canUndo = false, preparingAudio = if (audio != null) AudioPreparation(0, 0) else null) }
                 load()
                 prepareSpeech()
             }
@@ -146,21 +154,41 @@ class FlashcardsViewModel(
 
     /**
      * Has the local speech engine make the audio of every card in the session, one after another in
-     * the order they come up, while the cards are reviewed: the sentences read when an answer is
-     * shown first, then the words. A card whose audio is ready plays at once; one still waiting is
-     * made next, after the one being made. Nothing is made for the system voice.
+     * the order they come up: the sentences read when an answer is shown first, then the words. The
+     * session waits for what is not made yet, with its progress shown, so that no card waits for its
+     * sound; [startWithoutWaiting] lets it start sooner, the rest made while the cards are reviewed.
+     * Nothing is made for the system voice.
      */
     private fun prepareSpeech() {
         val audio = audio ?: return
         speechJob?.cancel()
         speechJob = viewModelScope.launch {
             val terms = service.sessionTerms(languageId)
-            terms.groupBy { it.languageId }.forEach { (id, group) ->
-                val code = languages.getById(id)?.let { LanguageCodes.codeFor(it.name) } ?: return@forEach
+            val groups = terms.groupBy { it.languageId }.mapNotNull { (id, group) ->
+                val code = languages.getById(id)?.let { LanguageCodes.codeFor(it.name) } ?: return@mapNotNull null
                 val spoken = group.map { term -> term.sentence?.trim()?.takeIf { it.isNotEmpty() } ?: term.displayText }
-                audio.prepare(spoken + group.map { it.displayText }, code)
+                code to spoken + group.map { it.displayText }
+            }
+            val missing = groups.flatMap { (code, texts) -> audio.missing(texts, code) }.toSet()
+            _state.update { it.copy(preparingAudio = if (missing.isEmpty()) null else AudioPreparation(0, missing.size)) }
+            val progress = launch {
+                audio.states.collect { states ->
+                    val ready = missing.count { states[it] == SentenceAudioState.READY }
+                    _state.update { s -> s.preparingAudio?.let { s.copy(preparingAudio = it.copy(ready = ready)) } ?: s }
+                }
+            }
+            try {
+                groups.forEach { (code, texts) -> audio.prepare(texts, code) }
+            } finally {
+                progress.cancel()
+                _state.update { it.copy(preparingAudio = null) }
             }
         }
+    }
+
+    /** Starts the session before its speech is all made; the rest is made while the cards are reviewed. */
+    fun startWithoutWaiting() {
+        _state.update { it.copy(preparingAudio = null) }
     }
 
     /** Shows the next card, or that there is none; [prefer] names a term whose card comes first. */

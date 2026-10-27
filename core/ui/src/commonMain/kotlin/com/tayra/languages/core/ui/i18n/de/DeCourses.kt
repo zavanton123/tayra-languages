@@ -227,4 +227,9 @@ internal val deCourses: Map<String, String> = mapOf(
     "Example sentence" to "Beispielsatz",
     "Choose another example" to "Anderes Beispiel wählen",
     "Choose from examples" to "Aus Beispielen wählen",
+    "Preparing the audio" to "Audio wird vorbereitet",
+    "The sound of every card is made before the session starts, so no card waits for it." to "Der Ton jeder Karte wird vor Beginn der Sitzung erzeugt, damit keine Karte darauf warten muss.",
+    "{0} of {1} sounds ready" to "{0} von {1} Tönen bereit",
+    "Checking the audio…" to "Audio wird geprüft…",
+    "Start now" to "Jetzt beginnen",
 )

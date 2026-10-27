@@ -112,6 +112,16 @@ class SentenceAudio(
     }
 
     /**
+     * Of [sentences], those whose audio is not made yet, after the cache is emptied when its week is
+     * up; none when no local engine is chosen or there is no [languageCode].
+     */
+    suspend fun missing(sentences: List<String>, languageCode: String?): List<String> {
+        emptyWeekly()
+        if (languageCode == null) return emptyList()
+        return sentences.filter { it.any(Char::isLetter) }.distinct().filter { text -> keyOf(text, languageCode)?.let { cache.read(it) == null } == true }
+    }
+
+    /**
      * The sentence's audio at normal speed from the cache, or synthesized now (waiting for one
      * already being made); null when no local engine is chosen or it cannot speak the sentence.
      */

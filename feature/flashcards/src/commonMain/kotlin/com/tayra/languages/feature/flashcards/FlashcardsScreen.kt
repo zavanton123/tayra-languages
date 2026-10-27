@@ -187,6 +187,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onRead = { onNavigate(Route.Read(it)) },
                 onBrowse = { onNavigate(Route.BrowseFlashcards()) },
                 onChooseExample = { choosingExample = it },
+                onStartWithoutWaiting = viewModel::startWithoutWaiting,
             ),
             modifier = Modifier.padding(padding),
             overlay = choosingExample != null,
@@ -233,6 +234,8 @@ internal class FlashcardActions(
     val onBrowse: () -> Unit = {},
     /** Offers other example sentences for the card, to replace its own with. */
     val onChooseExample: (CardContent) -> Unit = {},
+    /** Starts the session before its speech is all made. */
+    val onStartWithoutWaiting: () -> Unit = {},
 )
 
 internal val Rating.tint: Color
@@ -261,7 +264,8 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
             Modifier.fillMaxSize().then(if (compact) Modifier else Modifier.verticalScroll(scroll))
                 .focusRequester(focus).focusable().testTag("flashcards-keys")
                 .onPreviewKeyEvent { event ->
-                    if (event.type != KeyEventType.KeyDown || state.card == null) return@onPreviewKeyEvent false
+                    // Nothing is answered while the session's speech is being made.
+                    if (event.type != KeyEventType.KeyDown || state.card == null || state.preparingAudio != null) return@onPreviewKeyEvent false
                     val pressed = HotkeyMatcher.fromEvent(event)
                     when {
                         // The configurable shortcut (Ctrl+Z unless changed), and the left arrow always.
@@ -297,7 +301,10 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                     }
                     Progress(state, compact)
                     val card = state.card
-                    if (card == null) {
+                    val preparing = state.preparingAudio
+                    if (preparing != null) {
+                        PreparingAudio(preparing, actions.onStartWithoutWaiting, compact = false)
+                    } else if (card == null) {
                         Finished(state, actions)
                     } else {
                         // Each card fades in as it comes up.
@@ -339,10 +346,12 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
             )
             Progress(state, compact = true)
             val card = state.card
-            if (card == null) Finished(state, actions)
+            val preparing = state.preparingAudio
+            if (preparing != null) PreparingAudio(preparing, actions.onStartWithoutWaiting, compact = true)
+            else if (card == null) Finished(state, actions)
             else key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact = true, actions.onReveal, revealButton = false, onChooseExample = { actions.onChooseExample(card) }) } }
         }
-        val card = state.card ?: return@Column
+        val card = state.card?.takeIf { state.preparingAudio == null } ?: return@Column
         Column(Modifier.fillMaxWidth().padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             // Show answer and the answers share one slot, so the thumb finds them in the same place.
             if (state.revealed) {
@@ -606,6 +615,7 @@ private val SHOW_ANSWER_HEIGHT_COMPACT = 54.dp
 /** The phone's answer slot: Show answer and the answers under it are the same height, so neither moves the other. */
 private val ANSWER_SLOT_COMPACT = 76.dp
 private val FINISHED_ICON_TILE = 64.dp
+private val PREPARING_BAR_WIDTH = 420.dp
 
 /**
  * For the page's buttons: a click does not move the keyboard focus onto them, so it stays with
@@ -733,6 +743,46 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
             if (state.canUndo) QuietButton(tr("Previous card"), onClick = actions.onUndo, modifier = NoFocus)
             QuietButton(tr("Open vocabulary"), onClick = actions.onVocabulary, modifier = NoFocus)
         }
+    }
+}
+
+/**
+ * The wait before the first card while the session's speech is made, so that no card waits for its
+ * sound: how much is ready, and the way to start at once.
+ */
+@Composable
+private fun PreparingAudio(preparation: AudioPreparation, onStart: () -> Unit, compact: Boolean) {
+    val colors = MaterialTheme.colorScheme
+    val total = preparation.total
+    Column(
+        Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(if (compact) AppSpacing.xl else AppSpacing.huge).testTag("preparing-audio"),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
+    ) {
+        Box(Modifier.size(FINISHED_ICON_TILE).clip(AppShapes.circle).background(colors.primary.copy(alpha = AppAlpha.tint)), contentAlignment = Alignment.Center) {
+            Icon(AppIcons.Headphones, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconXLarge))
+        }
+        Text(tr("Preparing the audio"), style = AppText.headline, textAlign = TextAlign.Center)
+        Text(
+            tr("The sound of every card is made before the session starts, so no card waits for it."),
+            style = MaterialTheme.typography.bodyLarge,
+            color = colors.onSurfaceVariant,
+            textAlign = TextAlign.Center,
+        )
+        ProgressTrack(
+            if (total > 0) preparation.ready.toFloat() / total else 0f,
+            AppAccents.blue,
+            Modifier.padding(top = AppSpacing.s).widthIn(max = PREPARING_BAR_WIDTH).fillMaxWidth(),
+            height = 10.dp,
+            trackColor = colors.onSurface.copy(alpha = AppAlpha.tint),
+        )
+        Text(
+            if (total > 0) tr("{0} of {1} sounds ready", preparation.ready, total) else tr("Checking the audio…"),
+            style = MaterialTheme.typography.bodyMedium,
+            color = colors.onSurfaceVariant,
+            modifier = Modifier.testTag("preparing-audio-progress"),
+        )
+        SecondaryButton(tr("Start now"), onClick = onStart, modifier = NoFocus.padding(top = AppSpacing.s).testTag("start-without-waiting"))
     }
 }
 

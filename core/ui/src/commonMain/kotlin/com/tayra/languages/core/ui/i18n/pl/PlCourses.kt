@@ -227,4 +227,9 @@ internal val plCourses: Map<String, String> = mapOf(
     "Example sentence" to "Przykładowe zdanie",
     "Choose another example" to "Wybierz inny przykład",
     "Choose from examples" to "Wybierz z przykładów",
+    "Preparing the audio" to "Przygotowywanie dźwięku",
+    "The sound of every card is made before the session starts, so no card waits for it." to "Dźwięk każdej fiszki powstaje przed rozpoczęciem sesji, więc żadna fiszka nie będzie na niego czekać.",
+    "{0} of {1} sounds ready" to "Gotowe dźwięki: {0} z {1}",
+    "Checking the audio…" to "Sprawdzanie dźwięku…",
+    "Start now" to "Zacznij teraz",
 )

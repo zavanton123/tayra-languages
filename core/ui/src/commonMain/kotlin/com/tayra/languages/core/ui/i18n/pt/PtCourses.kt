@@ -227,4 +227,9 @@ internal val ptCourses: Map<String, String> = mapOf(
     "Example sentence" to "Frase de exemplo",
     "Choose another example" to "Escolher outro exemplo",
     "Choose from examples" to "Escolher dos exemplos",
+    "Preparing the audio" to "Preparando o áudio",
+    "The sound of every card is made before the session starts, so no card waits for it." to "O som de cada cartão é feito antes de a sessão começar, para que nenhum cartão espere por ele.",
+    "{0} of {1} sounds ready" to "{0} de {1} sons prontos",
+    "Checking the audio…" to "Verificando o áudio…",
+    "Start now" to "Começar agora",
 )

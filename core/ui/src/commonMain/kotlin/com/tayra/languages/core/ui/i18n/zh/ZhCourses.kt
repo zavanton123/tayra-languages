@@ -227,4 +227,9 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Example sentence" to "例句",
     "Choose another example" to "选择其他例句",
     "Choose from examples" to "从例句中选择",
+    "Preparing the audio" to "正在准备音频",
+    "The sound of every card is made before the session starts, so no card waits for it." to "每张卡片的声音都会在复习开始前生成，这样就不用等待。",
+    "{0} of {1} sounds ready" to "已准备 {0}/{1} 个声音",
+    "Checking the audio…" to "正在检查音频…",
+    "Start now" to "立即开始",
 )

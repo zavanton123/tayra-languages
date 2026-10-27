@@ -227,4 +227,9 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Example sentence" to "Пример предложения",
     "Choose another example" to "Выбрать другой пример",
     "Choose from examples" to "Выбрать из примеров",
+    "Preparing the audio" to "Подготовка озвучки",
+    "The sound of every card is made before the session starts, so no card waits for it." to "Озвучка всех карточек создаётся до начала сессии, чтобы ни одной карточке не пришлось её ждать.",
+    "{0} of {1} sounds ready" to "Готово звуков: {0} из {1}",
+    "Checking the audio…" to "Проверка озвучки…",
+    "Start now" to "Начать сейчас",
 )

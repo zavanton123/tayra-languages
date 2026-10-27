@@ -227,4 +227,9 @@ internal val frCourses: Map<String, String> = mapOf(
     "Example sentence" to "Phrase d’exemple",
     "Choose another example" to "Choisir un autre exemple",
     "Choose from examples" to "Choisir parmi les exemples",
+    "Preparing the audio" to "Préparation de l’audio",
+    "The sound of every card is made before the session starts, so no card waits for it." to "Le son de chaque carte est créé avant le début de la session, pour qu’aucune carte ne l’attende.",
+    "{0} of {1} sounds ready" to "{0} sons prêts sur {1}",
+    "Checking the audio…" to "Vérification de l’audio…",
+    "Start now" to "Commencer maintenant",
 )
