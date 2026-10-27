@@ -79,11 +79,11 @@ class PracticeSetupDialogTest {
         assertTrue(text("practice-summary").endsWith("min"), text("practice-summary"))
     }
 
-    /** A skill's tick turns its types off and on together; a type's own tick turns it alone; the setup started with is what was ticked. */
+    /** Each type is ticked on its own; the setup started with is what was ticked. */
     @Test
-    fun skillsAndTypesAreTickedAndStartTheSetup() = runDesktopComposeUiTest(width = 1300, height = 1000) {
+    fun typesAreTickedAndStartTheSetup() = runDesktopComposeUiTest(width = 1300, height = 1000) {
         show()
-        onNodeWithTag("practice-skill-LISTENING").performScrollTo().performClick()
+        ExerciseType.entries.filter { it.skill == PracticeSkill.LISTENING && it != ExerciseType.SHADOW }.forEach { onNodeWithTag("practice-type-${it.name}").performScrollTo().performClick() }
         onNodeWithTag("practice-type-MEANING").performScrollTo().performClick()
         onNodeWithTag("practice-response-TYPE").performClick()
         onNodeWithTag("practice-length-all").performClick()

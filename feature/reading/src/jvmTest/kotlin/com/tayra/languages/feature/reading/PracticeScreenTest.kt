@@ -681,7 +681,7 @@ class PracticeScreenTest {
             }
             waitUntil(timeoutMillis = 10_000) { made.isNotEmpty() }
             finish(made.single())
-            onNodeWithTag("practice-skill-READING").performScrollTo().performClick()
+            ExerciseType.entries.filter { it.skill == PracticeSkill.READING }.forEach { onNodeWithTag("practice-type-${it.name}").performScrollTo().performClick() }
             onNodeWithTag("start-practice").performClick()
 
             waitUntil(timeoutMillis = 10_000) { made.size == 2 && onAllNodesWithTag("practice-dialog").fetchSemanticsNodes().isNotEmpty() }

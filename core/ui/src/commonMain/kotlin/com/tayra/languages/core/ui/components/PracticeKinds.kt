@@ -7,7 +7,6 @@ import com.tayra.languages.core.domain.practice.ExerciseType
 import com.tayra.languages.core.domain.practice.PracticeContext
 import com.tayra.languages.core.domain.practice.PracticeNeed
 import com.tayra.languages.core.domain.practice.PracticeResponse
-import com.tayra.languages.core.domain.practice.PracticeSkill
 import com.tayra.languages.core.ui.i18n.tr
 
 /** The type's name, as offered to tick. */
@@ -45,16 +44,10 @@ fun ExerciseType.icon(): ImageVector = when (this) {
     ExerciseType.BUILD -> AppIcons.SwapVert
 }
 
-fun PracticeSkill.label(): String = when (this) {
-    PracticeSkill.READING -> tr("Reading")
-    PracticeSkill.LISTENING -> tr("Listening")
-    PracticeSkill.TRANSLATION -> tr("Translation")
-}
-
 fun PracticeResponse.label(): String = when (this) {
-    PracticeResponse.CHOOSE -> tr("Choose")
-    PracticeResponse.TYPE -> tr("Type")
-    PracticeResponse.SPEAK -> tr("Speak")
+    PracticeResponse.CHOOSE -> tr("I select")
+    PracticeResponse.TYPE -> tr("I write")
+    PracticeResponse.SPEAK -> tr("I speak")
 }
 
 fun PracticeResponse.icon(): ImageVector = when (this) {
@@ -64,8 +57,8 @@ fun PracticeResponse.icon(): ImageVector = when (this) {
 }
 
 fun PracticeContext.label(): String = when (this) {
-    PracticeContext.ORIGINAL -> tr("From the text")
-    PracticeContext.EXAMPLE -> tr("Other examples")
+    PracticeContext.ORIGINAL -> tr("Original text")
+    PracticeContext.EXAMPLE -> tr("Online examples")
 }
 
 /** Why a type cannot be asked of some words. */

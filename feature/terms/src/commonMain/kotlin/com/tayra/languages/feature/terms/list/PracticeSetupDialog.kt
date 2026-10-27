@@ -9,7 +9,6 @@ import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -28,7 +27,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.state.ToggleableState
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -50,7 +48,6 @@ import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.FreshViewModels
-import com.tayra.languages.core.ui.components.AppTriStateCheckbox
 import com.tayra.languages.core.ui.components.ButtonSize
 import com.tayra.languages.core.ui.components.ChipLeading
 import com.tayra.languages.core.ui.components.IconTile
@@ -241,7 +238,7 @@ internal fun PracticeSetupContent(
     val canStart = !state.loading && state.words.isNotEmpty() && (preview.questions > 0 || examplesMayAsk)
 
     val answers: @Composable ColumnScope.() -> Unit = {
-        Section(tr("Answer by")) {
+        Section(tr("How do I answer?")) {
             FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 PracticeResponse.entries.filter { state.speaking || it != PracticeResponse.SPEAK }.forEach { response ->
                     val on = response in setup.responses
@@ -251,7 +248,7 @@ internal fun PracticeSetupContent(
         }
     }
     val sentences: @Composable ColumnScope.() -> Unit = {
-        Section(tr("Sentences")) {
+        Section(tr("Where do the questions come from?")) {
             FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 PracticeContext.entries.forEach { context ->
                     val on = context in setup.contexts
@@ -272,7 +269,7 @@ internal fun PracticeSetupContent(
         }
     }
     val length: @Composable ColumnScope.() -> Unit = {
-        Section(tr("Length")) {
+        Section(tr("How many questions?")) {
             FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 val lengths = LENGTHS.filter { count -> count == null || total == null || count < total }
                 // A length kept from a practice with more questions than these asks them all.
@@ -285,25 +282,10 @@ internal fun PracticeSetupContent(
     }
     val questions: @Composable ColumnScope.() -> Unit = {
         Section(tr("Questions")) {
-            PracticeSkill.entries.forEach { skill ->
-                val types = ExerciseType.entries.filter { it.skill == skill && (state.speaking || it != ExerciseType.SHADOW) }
-                val ticked = types.count { it in setup.types }
-                Row(Modifier.fillMaxWidth().heightIn(min = AppSizes.touch), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                    AppTriStateCheckbox(
-                        when (ticked) {
-                            0 -> ToggleableState.Off
-                            types.size -> ToggleableState.On
-                            else -> ToggleableState.Indeterminate
-                        },
-                        onClick = { setup = setup.copy(types = if (ticked == types.size) setup.types - types.toSet() else setup.types + types) },
-                        modifier = Modifier.testTag("practice-skill-${skill.name}"),
-                    )
-                    Text(skill.label(), style = AppText.sectionTitle)
-                }
-                types.forEach { type ->
-                    TypeRow(type, type in setup.types, state, preview.of(type).let { it.words to it.need?.reason() }, total = preview.words, answerable = type.responses.any { it in setup.responses }) {
-                        setup = setup.copy(types = if (type in setup.types) setup.types - type else setup.types + type)
-                    }
+            // One list, still in the order of the skills they train.
+            PracticeSkill.entries.flatMap { skill -> ExerciseType.entries.filter { it.skill == skill && (state.speaking || it != ExerciseType.SHADOW) } }.forEach { type ->
+                TypeRow(type, type in setup.types, state, preview.of(type).let { it.words to it.need?.reason() }, total = preview.words, answerable = type.responses.any { it in setup.responses }) {
+                    setup = setup.copy(types = if (type in setup.types) setup.types - type else setup.types + type)
                 }
             }
         }
@@ -387,7 +369,7 @@ private fun TypeRow(type: ExerciseType, ticked: Boolean, state: PracticeSetupSta
     val (words, reason) = availability
     val idle = !state.loading && (words == 0 || !answerable)
     Row(
-        Modifier.fillMaxWidth().clip(AppShapes.card).clickable(onClick = onToggle).padding(start = AppSpacing.xl, end = AppSpacing.m, top = AppSpacing.s, bottom = AppSpacing.s)
+        Modifier.fillMaxWidth().clip(AppShapes.card).clickable(onClick = onToggle).padding(end = AppSpacing.m, top = AppSpacing.s, bottom = AppSpacing.s)
             .testTag("practice-type-${type.name}"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
