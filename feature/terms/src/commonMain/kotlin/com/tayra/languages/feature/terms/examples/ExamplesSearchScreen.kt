@@ -65,6 +65,7 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.Lifecycle
@@ -423,8 +424,6 @@ private fun TermPane(
 
 @Composable
 private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -> Unit, onTerms: () -> Unit, dialog: Boolean = false) {
-    val colors = MaterialTheme.colorScheme
-    val uriHandler = LocalUriHandler.current
     // On a phone the bar has the way back and the screen's name.
     val crumbs = if (compact) emptyList() else listOf(Crumb(tr("Vocabulary"), onTerms), Crumb(tr("Examples")))
     Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl)) {
@@ -437,38 +436,48 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
                     modifier = Modifier.testTag("close-examples-dialog"),
                     style = IconButtonStyle.Tonal,
                 )
-            } else when (query.source) {
-                ExampleSource.COURSES -> Text(tr("From your courses"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                ExampleSource.TATOEBA -> {
-                    if (!compact) Text(tr("Powered by"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                    LinkText(
-                    "Tatoeba",
-                    onClick = {
-                        val from = LanguageCodes.tatoebaCodeFor(query.language.name)?.let { "&from=$it" } ?: ""
-                        uriHandler.openUri("https://tatoeba.org/en/sentences/search?query=${query.text.encodeURLParameter()}$from")
-                    },
-                    modifier = Modifier.semantics { contentDescription = tr("Open on Tatoeba") },
-                    style = MaterialTheme.typography.bodyMedium,
-                    trailingIcon = AppIcons.OpenInNew,
-                    )
-                }
-                ExampleSource.LEIPZIG -> {
-                    if (!compact) Text(tr("Powered by"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                    LinkText(
-                    "Leipzig Corpora Collection",
-                    onClick = { uriHandler.openUri("https://wortschatz.uni-leipzig.de/en") },
-                    modifier = Modifier.semantics { contentDescription = tr("Open the Leipzig Corpora Collection") },
-                    style = MaterialTheme.typography.bodyMedium,
-                    trailingIcon = AppIcons.OpenInNew,
-                    )
-                }
+            } else {
+                SourceCredit(query, compact)
             }
         }
     }
 }
 
+/** Where the examples come from, linked as the source asks; on a phone the link alone. */
 @Composable
-private fun SearchBar(query: ExampleSearchQuery, viewModel: ExamplesSearchViewModel, onSearch: () -> Unit) {
+internal fun SourceCredit(query: ExampleSearchQuery, compact: Boolean) {
+    val colors = MaterialTheme.colorScheme
+    val uriHandler = LocalUriHandler.current
+    when (query.source) {
+        ExampleSource.COURSES -> Text(tr("From your courses"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        ExampleSource.TATOEBA -> {
+            if (!compact) Text(tr("Powered by"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            LinkText(
+                "Tatoeba",
+                onClick = {
+                    val from = LanguageCodes.tatoebaCodeFor(query.language.name)?.let { "&from=$it" } ?: ""
+                    uriHandler.openUri("https://tatoeba.org/en/sentences/search?query=${query.text.encodeURLParameter()}$from")
+                },
+                modifier = Modifier.semantics { contentDescription = tr("Open on Tatoeba") },
+                style = MaterialTheme.typography.bodyMedium,
+                trailingIcon = AppIcons.OpenInNew,
+            )
+        }
+        ExampleSource.LEIPZIG -> {
+            if (!compact) Text(tr("Powered by"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            LinkText(
+                "Leipzig Corpora Collection",
+                onClick = { uriHandler.openUri("https://wortschatz.uni-leipzig.de/en") },
+                modifier = Modifier.semantics { contentDescription = tr("Open the Leipzig Corpora Collection") },
+                style = MaterialTheme.typography.bodyMedium,
+                trailingIcon = AppIcons.OpenInNew,
+            )
+        }
+    }
+}
+
+@Composable
+internal fun SearchBar(query: ExampleSearchQuery, viewModel: ExamplesSearchViewModel, onSearch: () -> Unit) {
     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         SearchField(query.text, { v -> viewModel.updateQuery { it.copy(text = v) } }, tr("Search sentences"), Modifier.weight(1f), onSearch = onSearch)
         PrimaryButton(tr("Search"), onClick = onSearch, enabled = query.text.isNotBlank())
@@ -477,30 +486,37 @@ private fun SearchBar(query: ExampleSearchQuery, viewModel: ExamplesSearchViewMo
 
 private val WORD_COUNTS = listOf(1, 2, 3, 4, 5, 6, 8, 10, 15, 20, 30, 50, 100)
 private val PAGE_SIZES = listOf(5, 10, 20, 30, 50, 100)
+private val FONT_SELECT_WIDTH = 220.dp
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun FilterRow(query: ExampleSearchQuery, sources: List<ExampleSourceFeatures>, features: ExampleSourceFeatures, viewModel: ExamplesSearchViewModel) {
+internal fun FilterRow(query: ExampleSearchQuery, sources: List<ExampleSourceFeatures>, features: ExampleSourceFeatures, viewModel: ExamplesSearchViewModel) {
     FlowRow(
         Modifier.fillMaxWidth().padding(top = AppSpacing.l),
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
         verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
         itemVerticalAlignment = Alignment.Bottom,
     ) {
-        if (sources.size > 1) Select(tr("Source"), sources.map { it.source }, query.source, ::sourceName, 170.dp, viewModel::setSource)
-        Select(tr("Min words"), (listOf<Int?>(null) + WORD_COUNTS), query.minWords, { it?.toString() ?: tr("Any") }, 110.dp) { v -> viewModel.updateFilters { it.copy(minWords = v) } }
-        Select(tr("Max words"), (listOf<Int?>(null) + WORD_COUNTS), query.maxWords, { it?.toString() ?: tr("Any") }, 110.dp) { v -> viewModel.updateFilters { it.copy(maxWords = v) } }
-        Select(tr("Sort"), features.sorts, query.sort, { tr(it.label) }, 170.dp) { v -> viewModel.updateFilters { it.copy(sort = v) } }
-        Select(tr("Per page"), PAGE_SIZES, query.limit, { it.toString() }, 110.dp) { v -> viewModel.updateFilters { it.copy(limit = v) } }
-        if (features.audio) Select(tr("Has audio"), listOf<YesNo?>(null) + YesNo.entries, query.hasAudio, { it?.label?.let { label -> tr(label) } ?: tr("Any") }, 150.dp) { v -> viewModel.updateFilters { it.copy(hasAudio = v) } }
+        FilterFields(query, sources, features, viewModel) { Modifier.width(it) }
         Spacer(Modifier.weight(1f))
         SecondaryButton(tr("Reset filters"), onClick = viewModel::resetFilters, icon = Icons.Default.Refresh)
     }
 }
 
+/** The search's filters, each laid out by [cell] from the width it takes in a row of them. */
+@Composable
+internal fun FilterFields(query: ExampleSearchQuery, sources: List<ExampleSourceFeatures>, features: ExampleSourceFeatures, viewModel: ExamplesSearchViewModel, cell: (Dp) -> Modifier) {
+    if (sources.size > 1) Select(tr("Source"), sources.map { it.source }, query.source, ::sourceName, cell(170.dp), viewModel::setSource)
+    Select(tr("Min words"), (listOf<Int?>(null) + WORD_COUNTS), query.minWords, { it?.toString() ?: tr("Any") }, cell(110.dp)) { v -> viewModel.updateFilters { it.copy(minWords = v) } }
+    Select(tr("Max words"), (listOf<Int?>(null) + WORD_COUNTS), query.maxWords, { it?.toString() ?: tr("Any") }, cell(110.dp)) { v -> viewModel.updateFilters { it.copy(maxWords = v) } }
+    Select(tr("Sort"), features.sorts, query.sort, { tr(it.label) }, cell(170.dp)) { v -> viewModel.updateFilters { it.copy(sort = v) } }
+    Select(tr("Per page"), PAGE_SIZES, query.limit, { it.toString() }, cell(110.dp)) { v -> viewModel.updateFilters { it.copy(limit = v) } }
+    if (features.audio) Select(tr("Has audio"), listOf<YesNo?>(null) + YesNo.entries, query.hasAudio, { it?.label?.let { label -> tr(label) } ?: tr("Any") }, cell(150.dp)) { v -> viewModel.updateFilters { it.copy(hasAudio = v) } }
+}
+
 /** What the chosen source cannot do, said under the filters. */
 @Composable
-private fun SourceNote(text: String) {
+internal fun SourceNote(text: String) {
     Text(text, Modifier.padding(top = AppSpacing.m), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
 }
 
@@ -523,8 +539,8 @@ private fun sourceName(source: ExampleSource): String = when (source) {
 
 /** A labelled compact select box. */
 @Composable
-private fun <T> Select(label: String, options: List<T>, selected: T, optionLabel: (T) -> String, width: androidx.compose.ui.unit.Dp, onSelect: (T) -> Unit) {
-    LabeledField(label, Modifier.width(width)) {
+private fun <T> Select(label: String, options: List<T>, selected: T, optionLabel: (T) -> String, modifier: Modifier, onSelect: (T) -> Unit) {
+    LabeledField(label, modifier) {
         SelectMenu(options, selected, onSelect, optionLabel, Modifier.fillMaxWidth(), value = optionLabel(selected))
     }
 }
@@ -592,7 +608,7 @@ private fun ExampleCard(
 
 /** A result's machine translation, as the reader shows a sentence's: a spinner while it loads, nothing when there is none. */
 @Composable
-private fun MachineTranslation(translation: SentenceTranslation, fontScale: Float) {
+internal fun MachineTranslation(translation: SentenceTranslation, fontScale: Float) {
     val colors = MaterialTheme.colorScheme
     val style = MaterialTheme.typography.bodyMedium.copy(fontSize = MaterialTheme.typography.bodyMedium.fontSize * fontScale)
     when (translation) {
@@ -613,7 +629,7 @@ private fun TextSettings(prefs: UserSettings, viewModel: ExamplesSearchViewModel
         verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
         Text(tr("Text settings"), style = AppText.itemTitle)
-        Select(tr("Font"), ReadingFont.choices, ReadingFont.byId(prefs.readingFont), { it.label }, 220.dp, viewModel::setReadingFont)
+        Select(tr("Font"), ReadingFont.choices, ReadingFont.byId(prefs.readingFont), { it.label }, Modifier.width(FONT_SELECT_WIDTH), viewModel::setReadingFont)
         SliderSetting(tr("Font size"), "${(prefs.readingFontScale * 100).roundToInt()}%", prefs.readingFontScale, 0.6f..2.5f, viewModel::setFontScale, sliderModifier = Modifier.testTag("examples-font-size"))
         SliderSetting(tr("Line height"), "${(prefs.readingLineHeight * 10).roundToInt() / 10f}", prefs.readingLineHeight, 1.0f..3.0f, viewModel::setLineHeight, sliderModifier = Modifier.testTag("examples-line-height"))
     }
@@ -648,7 +664,7 @@ private fun emphasize(sentence: String, term: String): AnnotatedString {
 }
 
 /** What the screen says when [source] could not be asked. */
-private fun unreachable(source: ExampleSource): String = when (source) {
+internal fun unreachable(source: ExampleSource): String = when (source) {
     ExampleSource.TATOEBA -> tr("Tatoeba isn't responding right now.")
     ExampleSource.LEIPZIG -> tr("The Leipzig Corpora Collection isn't responding right now.")
     ExampleSource.COURSES -> tr("Your courses could not be read.")
