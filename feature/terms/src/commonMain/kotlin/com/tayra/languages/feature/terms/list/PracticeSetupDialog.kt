@@ -1,9 +1,18 @@
 package com.tayra.languages.feature.terms.list
 
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.IntrinsicSize
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.height
+import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.material.icons.filled.KeyboardArrowUp
+import com.tayra.languages.core.ui.components.AppVerticalDivider
+import com.tayra.languages.core.ui.theme.AppBorders
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
@@ -185,14 +194,14 @@ class PracticeSetupViewModel(
 
 /** About how long a question takes, for the estimate in the dialog. */
 private const val SECONDS_A_QUESTION = 20
-private val SETUP_WIDTH = 1100.dp
-private val OPTIONS_COLUMN_WIDTH = 340.dp
+private val SETUP_WIDTH = 1040.dp
 private val LENGTHS = listOf(5, 10, 20, null)
 
 /**
- * Asks what to practise the words from [source] with, starting from the setup last used there: the
- * types of question by skill, how they are answered, which sentences, how many questions. Each type says how many of the words it can ask
- * about, or what they lack; the footer sums up.
+ * Asks what to practise the words from [source] with, starting from the setup last used there: how
+ * questions are answered, which sentences they come from, how many there are, and the types of
+ * question. Each type says how many of the words it can ask about, or what they lack; those that
+ * would ask nothing wait folded away. The footer sums up.
  */
 @Composable
 fun PracticeSetupDialog(source: PracticeSource, onStart: (PracticeSetup) -> Unit, onDismiss: () -> Unit) {
@@ -227,101 +236,115 @@ internal fun PracticeSetupContent(
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     var setup by remember { mutableStateOf(initial) }
+    var showUnavailable by remember { mutableStateOf(false) }
     // Nothing here hears the language: what was to be said is typed.
     LaunchedEffect(state.loading, state.speaking) { if (!state.loading && !state.speaking) setup = setup.withoutSpeaking() }
     val preview = remember(state, setup) { PracticePlanner.preview(state.words, setup, state.meanings, state.translations, state.examples, state.families) }
-    // Every question there is; a length that many or more asks the same as All, so it is not offered.
+    // Every question there is; a length that many or more asks the same as all of them, so it is not offered.
     val total = remember(state, setup) { if (state.loading) null else PracticePlanner.preview(state.words, setup.copy(length = null), state.meanings, state.translations, state.examples, state.families).questions }
     val minutes = ((preview.questions * SECONDS_A_QUESTION + 59) / 60).coerceAtLeast(1)
     // Sentences from elsewhere are fetched when the practice starts, so they may make questions the count does not show.
     val examplesMayAsk = PracticeContext.EXAMPLE in setup.contexts && ExerciseType.GAP in setup.types
     val canStart = !state.loading && state.words.isNotEmpty() && (preview.questions > 0 || examplesMayAsk)
 
-    val answers: @Composable ColumnScope.() -> Unit = {
-        Section(tr("How do I answer?")) {
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                PracticeResponse.entries.filter { state.speaking || it != PracticeResponse.SPEAK }.forEach { response ->
-                    val on = response in setup.responses
-                    SelectableChip(response.label(), on, onClick = { setup = setup.copy(responses = if (on) setup.responses - response else setup.responses + response) }, leading = ChipLeading.Check, modifier = Modifier.testTag("practice-response-${response.name}"))
-                }
+    // In the order of the skills they train; those that would ask nothing of these words, or not the ways ticked, are folded away.
+    val types = PracticeSkill.entries.flatMap { skill -> ExerciseType.entries.filter { it.skill == skill && (state.speaking || it != ExerciseType.SHADOW) } }
+    val (available, unavailable) = types.partition { type -> state.loading || (preview.of(type).words > 0 && type.responses.any { it in setup.responses }) }
+
+    val answers: @Composable () -> Unit = {
+        Option(tr("Answer with")) {
+            PracticeResponse.entries.filter { state.speaking || it != PracticeResponse.SPEAK }.forEach { response ->
+                val on = response in setup.responses
+                SelectableChip(response.label(), on, onClick = { setup = setup.copy(responses = if (on) setup.responses - response else setup.responses + response) }, leading = ChipLeading.Check, modifier = Modifier.testTag("practice-response-${response.name}"))
             }
         }
     }
-    val sentences: @Composable ColumnScope.() -> Unit = {
-        Section(tr("Where do the questions come from?")) {
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                PracticeContext.entries.forEach { context ->
-                    val on = context in setup.contexts
-                    SelectableChip(context.label(), on, onClick = { setup = setup.copy(contexts = if (on) setup.contexts - context else setup.contexts + context) }, leading = ChipLeading.Check, modifier = Modifier.testTag("practice-context-${context.name}"))
-                }
-            }
-            if (PracticeContext.EXAMPLE in setup.contexts && !state.loading) {
-                Text(
-                    when {
-                        state.lookingUp -> tr("Looking up sentences from elsewhere…")
-                        else -> tr("Sentences kept for {0} of {1} words", preview.wordsWithExamples, preview.words)
-                    },
-                    Modifier.testTag("practice-examples"),
-                    style = MaterialTheme.typography.bodySmall,
-                    color = colors.onSurfaceVariant,
-                )
+    val sentences: @Composable () -> Unit = {
+        Option(
+            tr("Examples from"),
+            note = if (PracticeContext.EXAMPLE in setup.contexts && !state.loading) {
+                if (state.lookingUp) tr("Looking up sentences from elsewhere…") else tr("Sentences kept for {0} of {1} words", preview.wordsWithExamples, preview.words)
+            } else null,
+        ) {
+            PracticeContext.entries.forEach { context ->
+                val on = context in setup.contexts
+                SelectableChip(context.label(), on, onClick = { setup = setup.copy(contexts = if (on) setup.contexts - context else setup.contexts + context) }, leading = ChipLeading.Check, modifier = Modifier.testTag("practice-context-${context.name}"))
             }
         }
     }
-    val length: @Composable ColumnScope.() -> Unit = {
-        Section(tr("How many questions?")) {
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                val lengths = LENGTHS.filter { count -> count == null || total == null || count < total }
-                // A length kept from a practice with more questions than these asks them all.
-                val chosen = setup.length.takeIf { it in lengths }
-                lengths.forEach { count ->
-                    SelectableChip(count?.toString() ?: tr("All"), chosen == count, onClick = { setup = setup.copy(length = count) }, modifier = Modifier.testTag("practice-length-${count ?: "all"}"))
-                }
-            }
-        }
-    }
-    val questions: @Composable ColumnScope.() -> Unit = {
-        Section(tr("Questions")) {
-            // One list, still in the order of the skills they train.
-            PracticeSkill.entries.flatMap { skill -> ExerciseType.entries.filter { it.skill == skill && (state.speaking || it != ExerciseType.SHADOW) } }.forEach { type ->
-                TypeRow(type, type in setup.types, state, preview.of(type).let { it.words to it.need?.reason() }, total = preview.words, answerable = type.responses.any { it in setup.responses }) {
-                    setup = setup.copy(types = if (type in setup.types) setup.types - type else setup.types + type)
-                }
+    val length: @Composable () -> Unit = {
+        Option(tr("Questions")) {
+            val lengths = LENGTHS.filter { count -> count == null || total == null || count < total }
+            // A length kept from a practice with more questions than these asks them all.
+            val chosen = setup.length.takeIf { it in lengths }
+            lengths.forEach { count ->
+                SelectableChip(count?.toString() ?: total?.toString() ?: tr("All"), chosen == count, onClick = { setup = setup.copy(length = count) }, modifier = Modifier.testTag("practice-length-${count ?: "all"}"))
             }
         }
     }
 
     AppDialogSurface(onDismissRequest = onDismiss, color = colors.surfaceContainerLow, maxWidth = if (compact) AppSizes.dialogWide else SETUP_WIDTH) {
         Column {
+            val gutter = if (compact) AppSpacing.xl else AppSpacing.xxxl
             Row(
-                Modifier.padding(start = if (compact) AppSpacing.xl else AppSpacing.xxxl, end = AppSpacing.xl, top = AppSpacing.xxl, bottom = AppSpacing.l),
+                Modifier.padding(start = gutter, end = AppSpacing.xl, top = AppSpacing.xxl, bottom = AppSpacing.l),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
             ) {
-                if (!compact) IconTile(AppIcons.DoneAll, size = 56)
+                IconTile(AppIcons.DoneAll, size = if (compact) 48 else 56)
                 Column(Modifier.weight(1f)) {
                     Text(if (state.loading || state.words.isEmpty()) tr("Practice") else trPlural(state.words.size, "Practise {0} word", "Practise {0} words"), style = AppText.headline)
-                    Text(tr("Choose what to practise."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+                    Text(tr("Build a focused review session."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 }
                 AppIconButton(Icons.Default.Close, tr("Close"), onDismiss)
             }
-            // The choices scroll in a short window; the title above them and the buttons below stay.
-            if (compact) {
-                ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                    questions()
-                    answers()
-                    sentences()
-                    length()
-                }
-            } else {
-                Row(Modifier.weight(1f, fill = false).padding(start = AppSpacing.xxxl, end = AppSpacing.xl), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl)) {
-                    ScrollColumn(Modifier.width(OPTIONS_COLUMN_WIDTH), contentModifier = Modifier.padding(vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+            // The choices scroll; the title above them and the buttons below stay.
+            ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(horizontal = gutter, vertical = AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                val panel = Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash)).border(AppBorders.hairline(), AppShapes.card)
+                if (compact) {
+                    Column(panel.padding(AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                         answers()
                         sentences()
                         length()
                     }
-                    ScrollColumn(Modifier.weight(1f), contentModifier = Modifier.padding(vertical = AppSpacing.m, horizontal = AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                        questions()
+                } else {
+                    Row(panel.height(IntrinsicSize.Min).padding(AppSpacing.l), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                        // Shares by what each holds, so the chips wrap only in a narrow window.
+                        Box(Modifier.weight(1f)) { answers() }
+                        AppVerticalDivider(Modifier.fillMaxHeight())
+                        Box(Modifier.weight(1.1f)) { sentences() }
+                        AppVerticalDivider(Modifier.fillMaxHeight())
+                        Box(Modifier.weight(0.8f)) { length() }
+                    }
+                }
+                Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+                    Text(tr("Choose exercise types"), style = AppText.sectionTitle)
+                    Text(tr("Select one or more."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+                }
+                Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                    val card: @Composable (ExerciseType, Modifier) -> Unit = { type, modifier ->
+                        TypeCard(type, type in setup.types, state, preview.of(type).let { it.words to it.need?.reason() }, total = preview.words, answerable = type.responses.any { it in setup.responses }, modifier) {
+                            setup = setup.copy(types = if (type in setup.types) setup.types - type else setup.types + type)
+                        }
+                    }
+                    TypeGrid(available, columns = if (compact) 1 else 2, card)
+                    if (unavailable.isNotEmpty()) {
+                        Row(
+                            Modifier.fillMaxWidth().clip(AppShapes.card)
+                                .then(if (compact) Modifier.border(AppBorders.hairline(), AppShapes.card) else Modifier)
+                                .clickable { showUnavailable = !showUnavailable }.padding(horizontal = AppSpacing.m, vertical = AppSpacing.m)
+                                .testTag("practice-unavailable"),
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+                        ) {
+                            Icon(if (showUnavailable) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.primary)
+                            Text(
+                                if (showUnavailable) tr("Hide unavailable exercises") else trPlural(unavailable.size, "Show {0} unavailable exercise", "Show {0} unavailable exercises"),
+                                style = AppText.label,
+                                color = colors.primary,
+                            )
+                        }
+                        if (showUnavailable) TypeGrid(unavailable, columns = if (compact) 1 else 2, card)
                     }
                 }
             }
@@ -354,36 +377,55 @@ internal fun PracticeSetupContent(
     }
 }
 
+/** One of the choices above the types: its [title], its chips, and a [note] under them. */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun Section(title: String, content: @Composable ColumnScope.() -> Unit) {
+private fun Option(title: String, note: String? = null, chips: @Composable () -> Unit) {
     Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         Text(title.uppercase(), style = AppText.overline, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        content()
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) { chips() }
+        if (note != null) Text(note, Modifier.testTag("practice-examples"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+    }
+}
+
+/** The [types] as cards, [columns] to a row, the cards of a row as tall as each other. */
+@Composable
+private fun TypeGrid(types: List<ExerciseType>, columns: Int, card: @Composable (ExerciseType, Modifier) -> Unit) {
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        types.chunked(columns).forEach { row ->
+            Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                row.forEach { card(it, Modifier.weight(1f).fillMaxHeight()) }
+                repeat(columns - row.size) { Spacer(Modifier.weight(1f)) }
+            }
+        }
     }
 }
 
 /** A type of question to tick, with how many words it can ask about, or why none; greyed when it would ask nothing. */
 @Composable
-private fun TypeRow(type: ExerciseType, ticked: Boolean, state: PracticeSetupState, availability: Pair<Int, String?>, total: Int, answerable: Boolean, onToggle: () -> Unit) {
+private fun TypeCard(type: ExerciseType, ticked: Boolean, state: PracticeSetupState, availability: Pair<Int, String?>, total: Int, answerable: Boolean, modifier: Modifier, onToggle: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val (words, reason) = availability
     val idle = !state.loading && (words == 0 || !answerable)
     Row(
-        Modifier.fillMaxWidth().clip(AppShapes.card).clickable(onClick = onToggle).padding(end = AppSpacing.m, top = AppSpacing.s, bottom = AppSpacing.s)
+        modifier.clip(AppShapes.card)
+            .background(if (ticked) colors.primary.copy(alpha = AppAlpha.tint) else colors.surface)
+            .border(AppBorders.hairline(if (ticked) colors.primary else colors.outlineVariant), AppShapes.card)
+            .clickable(onClick = onToggle).padding(end = AppSpacing.l, top = AppSpacing.m, bottom = AppSpacing.m, start = AppSpacing.xs)
             .testTag("practice-type-${type.name}"),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
     ) {
         AppCheckbox(checked = ticked, onCheckedChange = { onToggle() })
         Icon(type.icon(), contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconLarge).alpha(if (idle) AppAlpha.disabled else 1f))
-        Column(Modifier.weight(1f).alpha(if (idle) AppAlpha.disabled else 1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+        Column(Modifier.weight(1f).padding(start = AppSpacing.s).alpha(if (idle) AppAlpha.disabled else 1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
             Text(type.label(), style = AppText.itemTitle)
             Text(type.description(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             Text(
                 when {
                     state.loading -> tr("Checking…")
                     !answerable -> tr("Not answered the ways ticked")
-                    words == total -> trPlural(words, "For the word", "For all {0} words")
+                    words == total -> trPlural(words, "{0} word", "{0} words")
                     reason == null -> tr("For {0} of {1} words", words, total)
                     type == ExerciseType.BUILD && state.translating -> tr("Translating the sentences…")
                     else -> tr("For {0} of {1} words", words, total) + " · " + reason

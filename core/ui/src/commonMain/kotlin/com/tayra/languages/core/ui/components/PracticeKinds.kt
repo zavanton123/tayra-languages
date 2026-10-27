@@ -45,9 +45,9 @@ fun ExerciseType.icon(): ImageVector = when (this) {
 }
 
 fun PracticeResponse.label(): String = when (this) {
-    PracticeResponse.CHOOSE -> tr("I select")
-    PracticeResponse.TYPE -> tr("I write")
-    PracticeResponse.SPEAK -> tr("I speak")
+    PracticeResponse.CHOOSE -> tr("Select")
+    PracticeResponse.TYPE -> tr("Write")
+    PracticeResponse.SPEAK -> tr("Speak")
 }
 
 fun PracticeResponse.icon(): ImageVector = when (this) {

@@ -104,8 +104,8 @@ The footer sums up and starts:
 
 #### Layout
 
-- Phone: a full-height sheet. The preset chips scroll sideways at the top. Skills, Answer by, Sentences, Words and Length are collapsible sections, Skills open and the rest collapsed with their current value on the section line ("Answer by — Choose, Tiles, Type"). The summary and Start stay pinned at the bottom.
-- Desktop and tablet: a large dialog (like the practice and examples dialogs) with two columns: presets and the filter sections on the left, the selected exercise types with their examples and counts on the right; summary and Start in the footer.
+- Phone: a dialog that scrolls between its title and its footer: a panel with Answer with, Examples from and Questions stacked, then "Choose exercise types" as one column of cards. Types that would ask nothing of these words, or not the ways ticked, are folded under "Show N unavailable exercises". The summary and Start stay pinned at the bottom.
+- Desktop and tablet: the same, with Answer with, Examples from and Questions side by side in the panel and the type cards two to a row; summary and Start in the footer.
 - Keyboard: arrow keys move through rows, Space ticks, Enter starts.
 
 #### How it is computed

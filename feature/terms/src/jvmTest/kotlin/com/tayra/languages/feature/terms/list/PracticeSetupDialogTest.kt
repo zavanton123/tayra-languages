@@ -9,6 +9,7 @@ import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithTag
+import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performScrollTo
@@ -72,9 +73,13 @@ class PracticeSetupDialogTest {
     fun eachTypeSaysWhatItCanAsk() = runDesktopComposeUiTest(width = 1300, height = 1000) {
         show()
         save("PRACTICE_SETUP_SCREENSHOT")
-        assertEquals("For all 3 words", text("practice-availability-GAP"))
+        assertEquals("3 words", text("practice-availability-GAP"))
         assertEquals("For 2 of 3 words · Needs the word's translation", text("practice-availability-MEANING"))
-        assertEquals("For all 3 words", text("practice-availability-HEAR_WORD"))
+        assertEquals("3 words", text("practice-availability-HEAR_WORD"))
+        // Matching needs four words with meanings: it waits folded away until asked for.
+        onAllNodesWithTag("practice-type-MATCHING").assertCountEquals(0)
+        onNodeWithText("Show 1 unavailable exercise").performScrollTo().performClick()
+        assertEquals("For 0 of 3 words · Needs four words with meanings", text("practice-availability-MATCHING"))
         assertEquals("Sentences kept for 1 of 3 words", text("practice-examples"))
         assertTrue(text("practice-summary").endsWith("min"), text("practice-summary"))
     }
@@ -104,6 +109,7 @@ class PracticeSetupDialogTest {
     @Test
     fun nothingToAskDoesNotStart() = runDesktopComposeUiTest(width = 1300, height = 1000) {
         show(PracticeSetup(types = setOf(ExerciseType.MEANING), responses = setOf(PracticeResponse.TYPE), contexts = setOf(PracticeContext.ORIGINAL)))
+        onNodeWithTag("practice-unavailable").performScrollTo().performClick()
         assertEquals("Not answered the ways ticked", text("practice-availability-MEANING"))
         assertEquals("None of the ticked questions fits these words", text("practice-summary"))
         onNodeWithTag("start-practice").assertIsNotEnabled()
@@ -136,8 +142,9 @@ class PracticeSetupDialogTest {
     @Test
     fun speakingIsPickedWhereItCanBeHeard() = runDesktopComposeUiTest(width = 1300, height = 1000) {
         show(state = state.copy(speaking = true))
-        onNodeWithTag("practice-type-SHADOW").performScrollTo().performClick()
+        // Said aloud only, it waits among the unavailable until speaking is ticked.
         onNodeWithTag("practice-response-SPEAK").performScrollTo().performClick()
+        onNodeWithTag("practice-type-SHADOW").performScrollTo().performClick()
         onNodeWithTag("start-practice").performClick()
         assertEquals(PracticeSetup.FIRST.copy(types = ExerciseType.entries.toSet(), responses = PracticeResponse.entries.toSet()), started)
     }
