@@ -406,7 +406,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "Dictation" to "Diktat",
     "Choose or type the word missing from the sentence" to "Das im Satz fehlende Wort wählen oder tippen",
     "Hear a sentence and find the word that means what is shown" to "Einen Satz hören und das Wort mit der angegebenen Bedeutung finden",
-    "Hear the sentence and type the missing word, or all of a short one" to "Den Satz hören und das fehlende Wort tippen, bei kurzen Sätzen den ganzen Satz",
     "Choose" to "Wählen",
     "Type" to "Tippen",
     "From the text" to "Aus dem Text",
@@ -450,4 +449,5 @@ internal val deTerms: Map<String, String> = mapOf(
     "Best guess" to "Beste Vermutung",
     "Use as the translation" to "Als Übersetzung verwenden",
     "Hear a word and choose its meaning, or pick it among words spelled like it" to "Hören Sie ein Wort und wählen Sie seine Bedeutung oder finden Sie es unter ähnlich geschriebenen Wörtern",
+    "Hear the sentence and type the missing word" to "Den Satz hören und das fehlende Wort tippen",
 )

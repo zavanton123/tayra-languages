@@ -160,7 +160,6 @@ internal val frReading: Map<String, String> = mapOf(
     "A new sentence: choose the missing word" to "Une nouvelle phrase : choisissez le mot manquant",
     "Listen and choose the word you hear" to "Écoutez et choisissez le mot entendu",
     "Listen and choose what the word means" to "Écoutez et choisissez le sens du mot",
-    "Listen and type the sentence" to "Écoutez et tapez la phrase",
     "Listen and type the missing word" to "Écoutez et tapez le mot manquant",
     "Listen again" to "Réécouter",
     "Show the answer" to "Afficher la réponse",

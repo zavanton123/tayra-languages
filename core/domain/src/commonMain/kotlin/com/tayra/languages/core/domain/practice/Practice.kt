@@ -64,7 +64,7 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
     // Not said: its answer is one word, which recognisers make out badly alone.
     HEAR_SENTENCE(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE)),
 
-    /** The sentence is read aloud: type the missing word, or all of a short sentence. */
+    /** The sentence is read aloud: type the missing word. */
     DICTATION(PracticeSkill.LISTENING, setOf(PracticeResponse.TYPE)),
 
     /** The sentence is read aloud: say it back; right when most of its words are heard. */
@@ -239,9 +239,6 @@ object PracticeBuilder {
 
     /** Marks after which a phrase ends. */
     private const val PHRASE_ENDS = ",;:.!?…)\"»”"
-
-    /** Sentences of at most this many words are typed whole in a dictation. */
-    private const val SHORT_SENTENCE_WORDS = 8
 
     /** The types a sentence from elsewhere can be asked in: those about the sentence, not the word alone or its meaning. */
     private val EXAMPLE_TYPES = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.BUILD, ExerciseType.DICTATION, ExerciseType.SHADOW)
@@ -454,10 +451,7 @@ object PracticeBuilder {
                 while (tiles == parts) tiles = parts.shuffled(random)
                 base.copy(sentenceTranslation = translation, tiles = tiles, answer = word.sentence.trim(), wholeSentence = true)
             }
-            ExerciseType.DICTATION -> {
-                val short = word.sentence.split(Regex("""\s+""")).count { part -> part.any { it.isLetterOrDigit() } } <= SHORT_SENTENCE_WORDS
-                if (short) base.copy(answer = word.sentence, spoken = word.sentence, wholeSentence = true) else base.copy(spoken = word.sentence)
-            }
+            ExerciseType.DICTATION -> base.copy(spoken = word.sentence)
         }
     }
 

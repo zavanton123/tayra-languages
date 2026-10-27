@@ -406,7 +406,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Dictation" to "Ditado",
     "Choose or type the word missing from the sentence" to "Escolha ou digite a palavra que falta na frase",
     "Hear a sentence and find the word that means what is shown" to "Ouça uma frase e encontre a palavra com o significado indicado",
-    "Hear the sentence and type the missing word, or all of a short one" to "Ouça a frase e digite a palavra que falta, ou toda uma frase curta",
     "Choose" to "Escolher",
     "Type" to "Digitar",
     "From the text" to "Do texto",
@@ -450,4 +449,5 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Best guess" to "Melhor palpite",
     "Use as the translation" to "Usar como tradução",
     "Hear a word and choose its meaning, or pick it among words spelled like it" to "Ouça uma palavra e escolha o seu significado, ou encontre-a entre palavras escritas de forma parecida",
+    "Hear the sentence and type the missing word" to "Ouça a frase e digite a palavra que falta",
 )

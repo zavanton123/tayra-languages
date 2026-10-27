@@ -160,7 +160,6 @@ internal val zhReading: Map<String, String> = mapOf(
     "A new sentence: choose the missing word" to "新句子：选出缺少的单词",
     "Listen and choose the word you hear" to "听音频，选出你听到的单词",
     "Listen and choose what the word means" to "听音频，选出单词的意思",
-    "Listen and type the sentence" to "听音频，输入句子",
     "Listen and type the missing word" to "听音频，输入缺少的单词",
     "Listen again" to "再听一遍",
     "Show the answer" to "显示答案",

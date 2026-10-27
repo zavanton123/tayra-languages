@@ -227,7 +227,7 @@ class PracticeTest {
     }
 
     @Test
-    fun listeningAsksForTheMeaningAndTypingForTheWordOrAShortSentence() {
+    fun listeningAsksForTheMeaningAndTypingForTheWord() {
         val exercises = PracticeBuilder.build(words, pageWords, random = Random(3))
         exercises.filter { it.type == ExerciseType.HEAR_WORD }.forEach { e ->
             assertEquals(e.word, e.spoken)
@@ -235,12 +235,7 @@ class PracticeTest {
         }
         exercises.filter { it.type == ExerciseType.DICTATION }.forEach { e ->
             assertEquals(e.sentence, e.spoken)
-            if (e.sentence == "Eu moro no Brasil.") {
-                assertTrue(e.wholeSentence)
-                assertEquals(e.sentence, e.answer)
-            } else {
-                assertEquals(e.word, e.answer)
-            }
+            assertEquals(e.word, e.answer)
         }
         exercises.filter { it.kind == gapTyped }.forEach { assertEquals(it.word, it.answer) }
     }

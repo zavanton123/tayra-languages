@@ -406,7 +406,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "Dictation" to "Dictado",
     "Choose or type the word missing from the sentence" to "Elige o escribe la palabra que falta en la oración",
     "Hear a sentence and find the word that means what is shown" to "Escucha una oración y encuentra la palabra con el significado indicado",
-    "Hear the sentence and type the missing word, or all of a short one" to "Escucha la oración y escribe la palabra que falta, o toda una oración corta",
     "Choose" to "Elegir",
     "Type" to "Escribir",
     "From the text" to "Del texto",
@@ -450,4 +449,5 @@ internal val esTerms: Map<String, String> = mapOf(
     "Best guess" to "Mejor suposición",
     "Use as the translation" to "Usar como traducción",
     "Hear a word and choose its meaning, or pick it among words spelled like it" to "Escuche una palabra y elija su significado, o encuéntrela entre palabras que se escriben de forma parecida",
+    "Hear the sentence and type the missing word" to "Escucha la oración y escribe la palabra que falta",
 )

@@ -406,7 +406,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Dictation" to "听写",
     "Choose or type the word missing from the sentence" to "选择或输入句子中缺少的词",
     "Hear a sentence and find the word that means what is shown" to "听一个句子，找出意思与所示相同的词",
-    "Hear the sentence and type the missing word, or all of a short one" to "听句子，输入缺少的词，短句则输入整句",
     "Choose" to "选择",
     "Type" to "输入",
     "From the text" to "来自文本",
@@ -450,4 +449,5 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Best guess" to "最佳猜测",
     "Use as the translation" to "用作翻译",
     "Hear a word and choose its meaning, or pick it among words spelled like it" to "听一个词，选出它的意思，或在拼写相近的词中找出它",
+    "Hear the sentence and type the missing word" to "听句子，输入缺少的词",
 )

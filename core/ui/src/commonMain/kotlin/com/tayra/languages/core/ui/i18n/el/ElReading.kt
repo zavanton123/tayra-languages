@@ -160,7 +160,6 @@ internal val elReading: Map<String, String> = mapOf(
     "A new sentence: choose the missing word" to "Νέα πρόταση: επιλέξτε τη λέξη που λείπει",
     "Listen and choose the word you hear" to "Ακούστε και επιλέξτε τη λέξη που ακούτε",
     "Listen and choose what the word means" to "Ακούστε και επιλέξτε τι σημαίνει η λέξη",
-    "Listen and type the sentence" to "Ακούστε και γράψτε την πρόταση",
     "Listen and type the missing word" to "Ακούστε και γράψτε τη λέξη που λείπει",
     "Listen again" to "Ακούστε ξανά",
     "Show the answer" to "Εμφάνιση απάντησης",

@@ -406,7 +406,6 @@ internal val plTerms: Map<String, String> = mapOf(
     "Dictation" to "Dyktando",
     "Choose or type the word missing from the sentence" to "Wybierz lub wpisz słowo, którego brakuje w zdaniu",
     "Hear a sentence and find the word that means what is shown" to "Posłuchaj zdania i znajdź słowo o podanym znaczeniu",
-    "Hear the sentence and type the missing word, or all of a short one" to "Posłuchaj zdania i wpisz brakujące słowo albo całe krótkie zdanie",
     "Choose" to "Wybór",
     "Type" to "Wpisywanie",
     "From the text" to "Z tekstu",
@@ -450,4 +449,5 @@ internal val plTerms: Map<String, String> = mapOf(
     "Best guess" to "Najlepszy domysł",
     "Use as the translation" to "Użyj jako tłumaczenia",
     "Hear a word and choose its meaning, or pick it among words spelled like it" to "Posłuchaj słowa i wybierz jego znaczenie albo znajdź je wśród słów o podobnej pisowni",
+    "Hear the sentence and type the missing word" to "Posłuchaj zdania i wpisz brakujące słowo",
 )

@@ -406,7 +406,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Dictation" to "Диктант",
     "Choose or type the word missing from the sentence" to "Выберите или введите слово, пропущенное в предложении",
     "Hear a sentence and find the word that means what is shown" to "Прослушайте предложение и найдите слово с указанным значением",
-    "Hear the sentence and type the missing word, or all of a short one" to "Прослушайте предложение и введите пропущенное слово или всё короткое предложение",
     "Choose" to "Выбор",
     "Type" to "Ввод",
     "From the text" to "Из текста",
@@ -450,4 +449,5 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Best guess" to "Наиболее вероятное",
     "Use as the translation" to "Использовать как перевод",
     "Hear a word and choose its meaning, or pick it among words spelled like it" to "Прослушайте слово и выберите его значение или найдите его среди слов с похожим написанием",
+    "Hear the sentence and type the missing word" to "Прослушайте предложение и впишите пропущенное слово",
 )

@@ -160,7 +160,6 @@ internal val plReading: Map<String, String> = mapOf(
     "A new sentence: choose the missing word" to "Nowe zdanie: wybierz brakujące słowo",
     "Listen and choose the word you hear" to "Posłuchaj i wybierz usłyszane słowo",
     "Listen and choose what the word means" to "Posłuchaj i wybierz znaczenie słowa",
-    "Listen and type the sentence" to "Posłuchaj i wpisz zdanie",
     "Listen and type the missing word" to "Posłuchaj i wpisz brakujące słowo",
     "Listen again" to "Posłuchaj ponownie",
     "Show the answer" to "Pokaż odpowiedź",

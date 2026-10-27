@@ -406,7 +406,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "Dictation" to "Dictée",
     "Choose or type the word missing from the sentence" to "Choisissez ou tapez le mot qui manque dans la phrase",
     "Hear a sentence and find the word that means what is shown" to "Écoutez une phrase et trouvez le mot qui a le sens indiqué",
-    "Hear the sentence and type the missing word, or all of a short one" to "Écoutez la phrase et tapez le mot manquant, ou toute une phrase courte",
     "Choose" to "Choisir",
     "Type" to "Taper",
     "From the text" to "Du texte",
@@ -450,4 +449,5 @@ internal val frTerms: Map<String, String> = mapOf(
     "Best guess" to "Meilleure hypothèse",
     "Use as the translation" to "Utiliser comme traduction",
     "Hear a word and choose its meaning, or pick it among words spelled like it" to "Écoutez un mot et choisissez son sens, ou retrouvez-le parmi des mots qui s’écrivent presque pareil",
+    "Hear the sentence and type the missing word" to "Écoutez la phrase et tapez le mot manquant",
 )

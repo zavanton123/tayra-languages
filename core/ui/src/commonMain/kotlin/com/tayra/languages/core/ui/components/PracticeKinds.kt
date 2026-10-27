@@ -29,7 +29,7 @@ fun ExerciseType.description(): String = when (this) {
     ExerciseType.MATCHING -> tr("Match up to five words with their meanings")
     ExerciseType.HEAR_WORD -> tr("Hear a word and choose its meaning, or pick it among words spelled like it")
     ExerciseType.HEAR_SENTENCE -> tr("Hear a sentence and find the word that means what is shown")
-    ExerciseType.DICTATION -> tr("Hear the sentence and type the missing word, or all of a short one")
+    ExerciseType.DICTATION -> tr("Hear the sentence and type the missing word")
     ExerciseType.SHADOW -> tr("Hear a phrase and say it back")
     ExerciseType.BUILD -> tr("Put the sentence's words in order from its translation")
 }

@@ -366,7 +366,7 @@ private val Exercise.instruction: String
         ExerciseType.HEAR_SENTENCE -> tr("Listen to the sentence")
         ExerciseType.HEAR_WORD -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
         ExerciseType.SHADOW -> tr("Listen and say the phrase")
-        ExerciseType.DICTATION -> if (wholeSentence) tr("Listen and type the sentence") else tr("Listen and type the missing word")
+        ExerciseType.DICTATION -> tr("Listen and type the missing word")
         ExerciseType.BUILD -> tr("Put the words in order")
     }
 

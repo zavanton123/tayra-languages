@@ -374,20 +374,6 @@ class PracticeScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
     }
 
-    /** A sentence typed whole with a word wrong shows, word by word, what was right. */
-    @Test
-    fun aDictationShowsWhichWordsWereRight() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.DICTATION)))
-        val index = viewModel.state.value.exercises.indexOfFirst { it.wholeSentence }
-        repeat(index) { viewModel.skip(); viewModel.next() }
-        waitForIdle()
-        onNodeWithTag("practice-input").performTextInput("Eu mora no Brasil")
-        onNodeWithText("Check").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("practice-sentence-check").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals("Eu moro mora no Brasil.", onNodeWithTag("practice-sentence-check").fetchSemanticsNode().config[androidx.compose.ui.semantics.SemanticsProperties.Text].single().text)
-        shot("dictation-check")
-    }
-
     /** Each answer moves the word's practice level: two right answers take a new word from choosing to typing it as well. */
     @Test
     fun answersMoveTheWordsLevel() = runDesktopComposeUiTest(width = 1586, height = 1000) {

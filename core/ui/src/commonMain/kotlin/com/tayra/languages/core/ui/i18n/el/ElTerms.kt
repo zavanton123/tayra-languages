@@ -406,7 +406,6 @@ internal val elTerms: Map<String, String> = mapOf(
     "Dictation" to "Υπαγόρευση",
     "Choose or type the word missing from the sentence" to "Επιλέξτε ή πληκτρολογήστε τη λέξη που λείπει από την πρόταση",
     "Hear a sentence and find the word that means what is shown" to "Ακούστε μια πρόταση και βρείτε τη λέξη με τη σημασία που δίνεται",
-    "Hear the sentence and type the missing word, or all of a short one" to "Ακούστε την πρόταση και πληκτρολογήστε τη λέξη που λείπει ή ολόκληρη μια σύντομη πρόταση",
     "Choose" to "Επιλογή",
     "Type" to "Πληκτρολόγηση",
     "From the text" to "Από το κείμενο",
@@ -450,4 +449,5 @@ internal val elTerms: Map<String, String> = mapOf(
     "Best guess" to "Καλύτερη εκτίμηση",
     "Use as the translation" to "Χρήση ως μετάφραση",
     "Hear a word and choose its meaning, or pick it among words spelled like it" to "Ακούστε μια λέξη και διαλέξτε τη σημασία της ή βρείτε τη ανάμεσα σε λέξεις με παρόμοια γραφή",
+    "Hear the sentence and type the missing word" to "Ακούστε την πρόταση και γράψτε τη λέξη που λείπει",
 )

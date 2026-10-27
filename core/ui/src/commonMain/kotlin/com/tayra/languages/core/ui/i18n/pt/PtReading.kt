@@ -160,7 +160,6 @@ internal val ptReading: Map<String, String> = mapOf(
     "A new sentence: choose the missing word" to "Uma frase nova: escolha a palavra que falta",
     "Listen and choose the word you hear" to "Ouça e escolha a palavra que você ouvir",
     "Listen and choose what the word means" to "Ouça e escolha o que a palavra significa",
-    "Listen and type the sentence" to "Ouça e digite a frase",
     "Listen and type the missing word" to "Ouça e digite a palavra que falta",
     "Listen again" to "Ouvir de novo",
     "Show the answer" to "Mostrar a resposta",
