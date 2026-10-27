@@ -260,4 +260,6 @@ internal val elReading: Map<String, String> = mapOf(
     "Say the marked phrase, with the missing word" to "Πες τη σημειωμένη φράση με τη λέξη που λείπει",
     "A new sentence: say the marked phrase, with the missing word" to "Νέα πρόταση: πες τη σημειωμένη φράση με τη λέξη που λείπει",
     "Fix translation" to "Διόρθωση μετάφρασης",
+    "The microphone gave no sound. Check it and try again." to "Το μικρόφωνο δεν έδωσε ήχο. Ελέγξτε το και δοκιμάστε ξανά.",
+    "That could not be made out. Try again." to "Δεν ήταν δυνατό να αναγνωριστεί. Δοκιμάστε ξανά.",
 )

@@ -557,6 +557,24 @@ class PracticeScreenTest {
         assertTrue(viewModel.state.value.exercises.drop(1).none { it.response == PracticeResponse.SPEAK })
     }
 
+    /** A recogniser failing, or a microphone silent once, is tried again; silent twice running, the answers are typed. */
+    @Test
+    fun aFailureOrOneSilenceIsTriedAgain() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val speech = FakeSpeech()
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.SPEAK), length = null), speech = speech)
+        speech.answer = { Heard.Failed }
+        onNodeWithTag("practice-speak").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("That could not be made out. Try again.").fetchSemanticsNodes().isNotEmpty() }
+        speech.answer = { Heard.Muted }
+        onNodeWithTag("practice-speak").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("The microphone gave no sound. Check it and try again.").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(!viewModel.state.value.speakingRefused && viewModel.state.value.exercises.all { it.response == PracticeResponse.SPEAK })
+
+        onNodeWithTag("practice-speak").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("practice-speaking-refused").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(viewModel.state.value.exercises.none { it.response == PracticeResponse.SPEAK })
+    }
+
     /** Where nothing can hear the learner, a speaking setup is typed. */
     @Test
     fun withoutARecogniserSpeakingIsTyped() = runDesktopComposeUiTest(width = 1586, height = 1000) {

@@ -260,4 +260,6 @@ internal val ruReading: Map<String, String> = mapOf(
     "Say the marked phrase, with the missing word" to "Произнесите выделенную фразу с пропущенным словом",
     "A new sentence: say the marked phrase, with the missing word" to "Новое предложение: произнесите выделенную фразу с пропущенным словом",
     "Fix translation" to "Исправить перевод",
+    "The microphone gave no sound. Check it and try again." to "Микрофон не передал звук. Проверьте его и попробуйте снова.",
+    "That could not be made out. Try again." to "Не удалось распознать. Попробуйте снова.",
 )

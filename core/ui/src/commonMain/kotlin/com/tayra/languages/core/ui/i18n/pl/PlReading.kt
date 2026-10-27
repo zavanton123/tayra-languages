@@ -260,4 +260,6 @@ internal val plReading: Map<String, String> = mapOf(
     "Say the marked phrase, with the missing word" to "Powiedz zaznaczoną frazę z brakującym słowem",
     "A new sentence: say the marked phrase, with the missing word" to "Nowe zdanie: powiedz zaznaczoną frazę z brakującym słowem",
     "Fix translation" to "Popraw tłumaczenie",
+    "The microphone gave no sound. Check it and try again." to "Mikrofon nie przekazał dźwięku. Sprawdź go i spróbuj ponownie.",
+    "That could not be made out. Try again." to "Nie udało się tego rozpoznać. Spróbuj ponownie.",
 )

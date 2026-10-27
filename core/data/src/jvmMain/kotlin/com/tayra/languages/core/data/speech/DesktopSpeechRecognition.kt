@@ -47,7 +47,7 @@ class DesktopSpeechRecognition(
     @Volatile
     private var stopping = false
 
-    override suspend fun isAvailable(languageCode: String): Boolean = whisperCode(languageCode) != null && hearing() != null
+    override suspend fun isAvailable(languageCode: String): Boolean = whisperCode(languageCode) != null && downloadedModel() != null && runtimeReady()
 
     override suspend fun models(): List<RecognitionModel> {
         // A runtime set up for the other model only needs the model.
@@ -93,10 +93,19 @@ class DesktopSpeechRecognition(
 
     override suspend fun listen(languageCode: String, hint: String?, onRecorded: () -> Unit): Heard = withContext(Dispatchers.IO) {
         val language = whisperCode(languageCode) ?: return@withContext Heard.Refused
-        val whisper = hearing() ?: return@withContext Heard.Refused
+        val whisper = downloadedModel() ?: return@withContext Heard.Refused
+        // The worker also reads aloud, and can be restarting or busy: worth another try, not a refusal.
+        if (!runtimeReady()) {
+            Logger.w { "speech recognition is not ready" }
+            return@withContext Heard.Failed
+        }
         stopping = false
         when (val recording = record()) {
             Recording.Refused -> Heard.Refused
+            Recording.Muted -> {
+                Logger.w { "the microphone gave only silence" }
+                Heard.Muted
+            }
             Recording.Silent -> Heard.Nothing
             is Recording.Said -> {
                 onRecorded()
@@ -111,7 +120,7 @@ class DesktopSpeechRecognition(
                     throw e
                 } catch (e: Exception) {
                     Logger.w(e) { "speech recognition failed" }
-                    Heard.Refused
+                    Heard.Failed
                 } finally {
                     wav.delete()
                 }
@@ -125,11 +134,12 @@ class DesktopSpeechRecognition(
 
     private sealed interface Recording {
         object Refused : Recording
+        object Muted : Recording
         object Silent : Recording
         class Said(val pcm: ByteArray) : Recording
     }
 
-    /** The microphone until [SpeechEndpoint] or [stop] ends it; refused when there is none to open, or it gives only zeros. */
+    /** The microphone until [SpeechEndpoint] or [stop] ends it; refused when there is none to open, muted when it gives only zeros. */
     private suspend fun record(): Recording {
         val line = try {
             AudioSystem.getTargetDataLine(FORMAT).apply {
@@ -151,7 +161,7 @@ class DesktopSpeechRecognition(
                 pcm.write(chunk, 0, read)
                 val state = endpoint.add(chunk, read)
                 when {
-                    state == SpeechEndpoint.State.MUTED -> return Recording.Refused
+                    state == SpeechEndpoint.State.MUTED -> return Recording.Muted
                     state == SpeechEndpoint.State.SAID || (stopping && endpoint.spoke) -> return Recording.Said(pcm.toByteArray())
                     state == SpeechEndpoint.State.SILENT || stopping -> return Recording.Silent
                 }
@@ -168,11 +178,10 @@ class DesktopSpeechRecognition(
 
     private suspend fun runtimeReady(): Boolean = runCatching { worker.request(STATUS_TIMEOUT_MS, "cmd" to "status", "engine" to ENGINE) }.isSuccess
 
-    /** The model that hears: the one chosen in the settings where it is downloaded, else the other; null with neither, or no runtime. */
-    private suspend fun hearing(): Whisper? {
+    /** The model that hears: the one chosen in the settings where it is downloaded, else the other; null with neither. */
+    private suspend fun downloadedModel(): Whisper? {
         val chosen = Whisper.entries.firstOrNull { it.quality.name == settings.current.speechRecognitionQuality } ?: Whisper.SMALL
-        val there = withContext(Dispatchers.IO) { (listOf(chosen) + (Whisper.entries - chosen)).firstOrNull { downloaded(it) } }
-        return there?.takeIf { runtimeReady() }
+        return withContext(Dispatchers.IO) { (listOf(chosen) + (Whisper.entries - chosen)).firstOrNull { downloaded(it) } }
     }
 
     /** The two models offered, as faster-whisper names them and the folder of the Hugging Face cache it downloads them into. */

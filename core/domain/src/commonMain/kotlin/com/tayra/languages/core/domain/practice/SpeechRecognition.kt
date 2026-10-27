@@ -33,7 +33,16 @@ sealed interface Heard {
     /** Nothing was made out: worth another try. */
     data object Nothing : Heard
 
-    /** The microphone or recognition was refused or failed: speaking is given up for this practice. */
+    /**
+     * The microphone gave no sound at all, as one muted, switching (a headset changing modes) or held
+     * by another app does: worth another try, though twice running it is as good as refused.
+     */
+    data object Muted : Heard
+
+    /** Recognition failed this time, the recogniser erring or not ready: worth another try. */
+    data object Failed : Heard
+
+    /** The microphone may not be used, or nothing here hears the language: speaking is given up for this practice. */
     data object Refused : Heard
 }
 

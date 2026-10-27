@@ -43,7 +43,8 @@ class IosSpeechRecognition : SpeechRecognition {
     override suspend fun listen(languageCode: String, hint: String?, onRecorded: () -> Unit): Heard = withContext(Dispatchers.Main) {
         if (!allowed()) return@withContext Heard.Refused
         val recognizer = SFSpeechRecognizer(NSLocale(languageCode))
-        if (!recognizer.isAvailable()) return@withContext Heard.Refused
+        // Unavailable for now (offline, or busy), or the audio held by something else: worth another try.
+        if (!recognizer.isAvailable()) return@withContext Heard.Failed
         val session = AVAudioSession.sharedInstance()
         val category = session.category
         val mode = session.mode
@@ -51,7 +52,7 @@ class IosSpeechRecognition : SpeechRecognition {
         if (!session.setCategory(AVAudioSessionCategoryPlayAndRecord, mode = AVAudioSessionModeMeasurement, options = AVAudioSessionCategoryOptionDefaultToSpeaker, error = null) ||
             !session.setActive(true, error = null)
         ) {
-            return@withContext Heard.Refused
+            return@withContext Heard.Failed
         }
         val engine = AVAudioEngine()
         val input = engine.inputNode
@@ -68,7 +69,7 @@ class IosSpeechRecognition : SpeechRecognition {
         stopping = false
         try {
             engine.prepare()
-            if (!engine.startAndReturnError(null)) return@withContext Heard.Refused
+            if (!engine.startAndReturnError(null)) return@withContext Heard.Failed
             hear(updates) { engine.stop(); request.endAudio(); onRecorded() }
         } finally {
             engine.stop()

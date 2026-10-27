@@ -73,8 +73,10 @@ class AndroidSpeechRecognition(private val context: Context) : SpeechRecognition
                 when (error) {
                     SpeechRecognizer.ERROR_INSUFFICIENT_PERMISSIONS -> Attempt.Done(Heard.Refused)
                     SpeechRecognizer.ERROR_LANGUAGE_NOT_SUPPORTED, SpeechRecognizer.ERROR_LANGUAGE_UNAVAILABLE,
-                    SpeechRecognizer.ERROR_NETWORK, SpeechRecognizer.ERROR_NETWORK_TIMEOUT, SpeechRecognizer.ERROR_SERVER,
                     -> if (offline) Attempt.Unavailable else Attempt.Done(Heard.Refused)
+                    // A connection that failed this time may not the next.
+                    SpeechRecognizer.ERROR_NETWORK, SpeechRecognizer.ERROR_NETWORK_TIMEOUT, SpeechRecognizer.ERROR_SERVER,
+                    -> if (offline) Attempt.Unavailable else Attempt.Done(Heard.Failed)
                     else -> Attempt.Done(if (partial.isNotBlank()) Heard.Words(partial) else Heard.Nothing)
                 },
             )

@@ -260,4 +260,6 @@ internal val ptReading: Map<String, String> = mapOf(
     "Say the marked phrase, with the missing word" to "Diga a frase marcada, com a palavra que falta",
     "A new sentence: say the marked phrase, with the missing word" to "Uma frase nova: diga a parte marcada, com a palavra que falta",
     "Fix translation" to "Corrigir tradução",
+    "The microphone gave no sound. Check it and try again." to "O microfone não captou som. Verifique-o e tente novamente.",
+    "That could not be made out. Try again." to "Não foi possível reconhecer. Tente novamente.",
 )

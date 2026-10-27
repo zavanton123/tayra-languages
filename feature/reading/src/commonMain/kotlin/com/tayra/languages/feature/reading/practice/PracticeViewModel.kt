@@ -37,9 +37,22 @@ import com.tayra.languages.core.domain.practice.WordProgress
 import com.tayra.languages.core.domain.practice.PracticeProgressRepository
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.sync.Mutex
+import co.touchlab.kermit.Logger
 import com.tayra.languages.core.domain.practice.Heard
 import com.tayra.languages.core.domain.practice.PracticeResponse
 import com.tayra.languages.core.domain.practice.SpeechRecognition
+
+/** Why an answer said aloud came to nothing, to be said again. */
+enum class SpeechRetry {
+    /** Nothing was made out. */
+    NOTHING,
+
+    /** The microphone gave no sound. */
+    MUTED,
+
+    /** The recogniser failed. */
+    FAILED,
+}
 
 /** How a question was answered. */
 enum class PracticeResult { CORRECT, ALMOST, TYPO, WRONG }
@@ -79,8 +92,8 @@ data class PracticeUiState(
     val listening: Boolean = false,
     /** Speaking is over and what was said is being made out. */
     val recognising: Boolean = false,
-    /** The last try at saying the answer made out nothing. */
-    val nothingHeard: Boolean = false,
+    /** Why the last try at saying the answer came to nothing, to be tried again. */
+    val retry: SpeechRetry? = null,
     /** The microphone could not be used, so answers to be said are typed instead. */
     val speakingRefused: Boolean = false,
 ) {
@@ -272,9 +285,20 @@ class PracticeViewModel(
         val exercise = _state.value.current ?: return
         val code = _state.value.languageCode
         if (_state.value.answered || _state.value.listening || exercise.response != PracticeResponse.SPEAK || code == null) return
-        _state.update { it.copy(listening = true, nothingHeard = false, typed = "") }
+        val mutedBefore = _state.value.retry == SpeechRetry.MUTED
+        _state.update { it.copy(listening = true, retry = null, typed = "") }
         listenJob = viewModelScope.launch {
-            val heard = attempt { speech?.listen(code, exercise.saying ?: exercise.sentence) { _state.update { if (it.current === exercise) it.copy(recognising = true) else it } } } ?: Heard.Refused
+            val heard = when (val recogniser = speech) {
+                null -> Heard.Refused
+                else -> try {
+                    recogniser.listen(code, exercise.saying ?: exercise.sentence) { _state.update { if (it.current === exercise) it.copy(recognising = true) else it } }
+                } catch (e: CancellationException) {
+                    throw e
+                } catch (e: Exception) {
+                    Logger.w(e) { "listening failed" }
+                    Heard.Failed
+                }
+            }
             _state.update { it.copy(recognising = false) }
             if (_state.value.current !== exercise) return@launch
             when (heard) {
@@ -283,11 +307,16 @@ class PracticeViewModel(
                     // Only the missing word counts; the rest of the phrase is its setting.
                     record(exercise, PracticeChecker.checkSpoken(heard.text, exercise.answer).result)
                 }
-                Heard.Nothing -> _state.update { it.copy(listening = false, nothingHeard = true) }
+                Heard.Nothing -> retry(SpeechRetry.NOTHING)
+                Heard.Failed -> retry(SpeechRetry.FAILED)
+                // Silence once may be a headset switching modes; twice running, the microphone is not to be had.
+                Heard.Muted -> if (mutedBefore) refuseSpeaking() else retry(SpeechRetry.MUTED)
                 Heard.Refused -> refuseSpeaking()
             }
         }
     }
+
+    private fun retry(why: SpeechRetry) = _state.update { it.copy(listening = false, retry = why) }
 
     /** The microphone may not be used: asked again it would be refused again, so the rest of the answers are typed. */
     fun refuseSpeaking() = _state.update { s ->
@@ -312,7 +341,7 @@ class PracticeViewModel(
             listenJob?.cancel()
             speech?.stop()
         }
-        _state.update { it.copy(listening = false, nothingHeard = false, typed = "", exercises = it.exercises.toMutableList().also { list -> list[it.index] = exercise.copy(response = PracticeResponse.TYPE) }) }
+        _state.update { it.copy(listening = false, retry = null, typed = "", exercises = it.exercises.toMutableList().also { list -> list[it.index] = exercise.copy(response = PracticeResponse.TYPE) }) }
     }
 
     /** Checks what was typed. */
@@ -400,10 +429,10 @@ class PracticeViewModel(
         val s = _state.value
         if (!s.answered) return
         if (s.index + 1 >= s.exercises.size) {
-            _state.update { it.copy(finished = true, result = null, chosen = null, typed = "", nothingHeard = false) }
+            _state.update { it.copy(finished = true, result = null, chosen = null, typed = "", retry = null) }
             return
         }
-        _state.update { it.copy(index = it.index + 1, result = null, chosen = null, typed = "", sentenceTranslation = null, matched = emptySet(), wrongPairs = 0, nothingHeard = false) }
+        _state.update { it.copy(index = it.index + 1, result = null, chosen = null, typed = "", sentenceTranslation = null, matched = emptySet(), wrongPairs = 0, retry = null) }
         loadTranslation()
     }
 

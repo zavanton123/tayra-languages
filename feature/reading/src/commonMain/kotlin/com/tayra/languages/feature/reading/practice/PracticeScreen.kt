@@ -689,7 +689,9 @@ private fun SpokenAnswer(state: PracticeUiState, exercise: Exercise, actions: Pr
             state.recognising -> tr("Recognising…")
             state.listening -> tr("Listening…")
             state.typed.isNotBlank() -> tr("Heard: {0}", state.typed)
-            state.nothingHeard -> tr("Nothing was heard. Try again.")
+            state.retry == SpeechRetry.NOTHING -> tr("Nothing was heard. Try again.")
+            state.retry == SpeechRetry.MUTED -> tr("The microphone gave no sound. Check it and try again.")
+            state.retry == SpeechRetry.FAILED -> tr("That could not be made out. Try again.")
             else -> null
         }
         note?.let {
