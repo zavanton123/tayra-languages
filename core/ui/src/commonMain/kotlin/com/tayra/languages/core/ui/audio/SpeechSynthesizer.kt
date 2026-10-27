@@ -11,6 +11,7 @@ import com.tayra.languages.core.ui.components.IconButtonSize
 import com.tayra.languages.core.ui.components.IconButtonStyle
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppIconButton
+import com.tayra.languages.core.ui.components.AppTooltip
 
 /** Speaks text with the platform's text-to-speech engine. */
 expect class SpeechSynthesizer {
@@ -38,7 +39,7 @@ expect fun rememberSpeechSynthesizer(): SpeechSynthesizer
 
 /**
  * A speaker button that reads [text] aloud with the engine chosen in settings, and stops it while it plays;
- * [style], [size] and [shape] are its icon button's.
+ * [style], [size] and [shape] are its icon button's. With a [tooltip] it says so on hover, and Stop while it plays.
  */
 @Composable
 fun SpeakButton(
@@ -50,19 +51,24 @@ fun SpeakButton(
     style: IconButtonStyle = IconButtonStyle.Plain,
     size: IconButtonSize = IconButtonSize.Regular,
     shape: Shape? = null,
+    tooltip: String? = null,
 ) {
     val playing by speaker.playing.collectAsState()
     val active = playing != null && playing == text
-    AppIconButton(
-        if (active) AppIcons.Stop else AppIcons.VolumeUp,
-        contentDescription = if (active) tr("Stop") else tr("Pronounce"),
-        onClick = { speaker.toggle(text, languageCode) },
-        modifier = modifier,
-        enabled = enabled && text.isNotBlank(),
-        size = size,
-        style = style,
-        tint = MaterialTheme.colorScheme.primary,
-        shape = shape,
-        selected = active,
-    )
+    val description = if (active) tr("Stop") else tooltip ?: tr("Pronounce")
+    val button = @Composable {
+        AppIconButton(
+            if (active) AppIcons.Stop else AppIcons.VolumeUp,
+            contentDescription = description,
+            onClick = { speaker.toggle(text, languageCode) },
+            modifier = modifier,
+            enabled = enabled && text.isNotBlank(),
+            size = size,
+            style = style,
+            tint = MaterialTheme.colorScheme.primary,
+            shape = shape,
+            selected = active,
+        )
+    }
+    if (tooltip != null) AppTooltip(description) { button() } else button()
 }

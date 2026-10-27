@@ -23,6 +23,10 @@ import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performMouseInput
+import androidx.compose.ui.test.onNodeWithContentDescription
+import com.tayra.languages.core.domain.service.LocalSpeech
+import com.tayra.languages.core.ui.audio.rememberSpeaker
 import androidx.compose.ui.test.performKeyInput
 import androidx.compose.ui.test.pressKey
 import androidx.compose.ui.test.withKeyDown
@@ -86,6 +90,7 @@ class FlashcardsScreenTest {
         books: BookRepositoryImpl? = null,
         onRead: (Long) -> Unit = {},
         onChooseExample: (CardContent) -> Unit = {},
+        withSpeaker: Boolean = false,
     ): FlashcardsViewModel {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
@@ -118,7 +123,7 @@ class FlashcardsScreenTest {
                                 AppTopBar(title = "Flashcards", onNavigate = {}, section = NavSection.FLASHCARDS, actions = { if (phone) BrowseAction {} })
                                 FlashcardsContent(
                                     state,
-                                    speaker = null,
+                                    speaker = if (withSpeaker) rememberSpeaker(LocalSpeech(emptyList()), settings) else null,
                                     actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample),
                                     hotkeys = hotkeys,
                                 )
@@ -193,9 +198,21 @@ class FlashcardsScreenTest {
         assertEquals("Когда нам нужно что-то купить, мы заходим в супермаркет.", viewModel.state.value.card!!.sentenceTranslation)
     }
 
-    /** A phone offers other examples under the sentence's translation, across the card. */
+    /** The answered card's two round buttons say what they do on hover. */
     @Test
-    fun aPhoneOffersAnotherExampleUnderTheTranslation() = runDesktopComposeUiTest(width = 430, height = 932) {
+    fun theCardsButtonsNameThemselvesOnHover() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(withSpeaker = true)
+        onNodeWithText("Show answer").performClick()
+        onNodeWithTag("choose-example").performMouseInput { moveTo(center) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Choose another example").fetchSemanticsNodes().isNotEmpty() }
+        save("FLASHCARD_BUTTONS_SCREENSHOT")
+        onNodeWithContentDescription("Listen to the sentence").performMouseInput { moveTo(center) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Listen to the sentence").fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    /** A phone offers other examples in the card's corner too. */
+    @Test
+    fun aPhoneOffersAnotherExampleInTheCorner() = runDesktopComposeUiTest(width = 430, height = 932) {
         show(phone = true)
         onNodeWithText("Show answer").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("choose-example").fetchSemanticsNodes().isNotEmpty() }

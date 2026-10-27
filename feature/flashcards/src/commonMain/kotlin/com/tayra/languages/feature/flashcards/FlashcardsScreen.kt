@@ -94,6 +94,7 @@ import com.tayra.languages.core.ui.components.AppDivider
 import com.tayra.languages.core.ui.components.AppIconButton
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
+import com.tayra.languages.core.ui.components.AppTooltip
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.AppVerticalDivider
@@ -438,7 +439,7 @@ private fun CountPill(tag: String, count: Int, label: String, tint: Color, large
  * was read in with the word blanked out, over the sentence's translation; the answer puts the
  * word back and adds the word with its part of speech, translation and romanization. A word
  * saved without a sentence is shown on its own. An answered card with a sentence offers other
- * examples for it: beside its sound on a wide screen, under the translation on a phone.
+ * examples for it, beside its sound.
  */
 @Composable
 private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compact: Boolean, onReveal: () -> Unit, revealButton: Boolean = true, onChooseExample: () -> Unit = {}) {
@@ -472,13 +473,31 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
         Row(Modifier.fillMaxWidth().heightIn(min = AppSizes.tileLarge), verticalAlignment = Alignment.CenterVertically) {
             // No state tag: the counters above say how many cards are new, learning and due, and a tag named
             // Learning would read as the word's status.
-            // Other examples lead on the left, the sentence's sound keeps the right.
-            if (revealed && !compact && card.sentence != null) {
-                SecondaryButton(tr("Choose another example"), onClick = onChooseExample, modifier = NoFocus.testTag("choose-example"), icon = AppIcons.Forum, tint = colors.primary)
-            }
             Spacer(Modifier.weight(1f))
-            // The button is the rounded square itself, so its hover and press fill that shape.
-            if (speaker != null) SpeakButton(card.spoken, card.languageCode, speaker, NoFocus, style = IconButtonStyle.Outlined, size = IconButtonSize.Large, shape = AppShapes.panel)
+            // Two round buttons in the corner, each named by a tooltip: other examples once answered, and the sentence's sound.
+            if (revealed && card.sentence != null) {
+                val label = tr("Choose another example")
+                AppTooltip(label) {
+                    AppIconButton(
+                        AppIcons.Sync,
+                        contentDescription = label,
+                        onClick = onChooseExample,
+                        modifier = NoFocus.testTag("choose-example"),
+                        size = IconButtonSize.Large,
+                        style = IconButtonStyle.Outlined,
+                        tint = colors.primary,
+                        shape = AppShapes.circle,
+                    )
+                }
+                if (speaker != null) Spacer(Modifier.width(AppSpacing.m))
+            }
+            if (speaker != null) {
+                SpeakButton(
+                    card.spoken, card.languageCode, speaker, NoFocus,
+                    style = IconButtonStyle.Outlined, size = IconButtonSize.Large, shape = AppShapes.circle,
+                    tooltip = if (card.sentence != null) tr("Listen to the sentence") else tr("Pronounce"),
+                )
+            }
         }
         val fill = AppAccents.highlight.copy(alpha = AppAlpha.half)
         val highlight = SpanStyle(fontWeight = AppText.labelStrong.fontWeight)
@@ -516,9 +535,6 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
                     .padding(horizontal = if (compact) AppSpacing.l else AppSpacing.huge, vertical = AppSpacing.l),
                 style = AppText.cardTranslation(compact).copy(color = colors.onSurfaceVariant, textAlign = TextAlign.Center),
             )
-        }
-        if (revealed && compact && sentence != null) {
-            SecondaryButton(tr("Choose another example"), onClick = onChooseExample, modifier = Modifier.padding(top = AppSpacing.m).fillMaxWidth().then(NoFocus).testTag("choose-example"), icon = AppIcons.Forum, tint = colors.primary)
         }
         if (revealed) {
             AppDivider(Modifier.padding(top = AppSpacing.l))
