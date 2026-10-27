@@ -1,5 +1,17 @@
 package com.tayra.languages.feature.reading
 
+import androidx.compose.ui.test.performScrollTo
+import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.feature.reading.practice.PracticeScreen
+import com.tayra.languages.feature.terms.list.PracticeSetupViewModel
+import com.tayra.languages.core.domain.practice.PracticeSkill
+import com.tayra.languages.core.domain.service.MemorySpeechAudioCache
+import com.tayra.languages.core.domain.service.SentenceAudio
+import com.tayra.languages.core.domain.service.LocalSpeech
+import org.koin.core.module.dsl.viewModel
+import org.koin.dsl.module
+import org.koin.core.context.stopKoin
+import org.koin.core.context.startKoin
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
@@ -635,5 +647,54 @@ class PracticeScreenTest {
         val later = viewModel.state.value.exercises.drop(viewModel.state.value.index + 1).filter { it.termId == exercise.termId }
         assertTrue(later.isNotEmpty() && later.all { it.wordTranslation == "sentido novo" })
         later.filter { it.options.isNotEmpty() && it.answer != it.word }.forEach { assertEquals("sentido novo", it.answer); assertTrue("sentido novo" in it.options) }
+    }
+
+    /** Practising again opens the choice of what to practise, and the next round asks what was chosen there. */
+    @Test
+    fun practisingAgainStartsFromTheSetup() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        runBlocking {
+            languageId = languages.save(Language(name = "Portuguese"))
+            bookId = BookService(books, languages).create(BookDraft(languageId = languageId, title = "Long text", text = text))
+            learning.forEach { (word, meaning) -> terms.save(Term(languageId = languageId, text = word, textLc = word, status = TermStatus.NEW_1, translation = meaning)) }
+        }
+        val examples = object : ExampleSentencesProvider {
+            override suspend fun search(query: ExampleSearchQuery) = ExampleSearchResult.EMPTY
+            override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
+        }
+        val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
+        val source = PracticeSource.Page(bookId, 1)
+        val first = PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.CHOOSE), length = 2)
+        val loader = PracticeMaterialLoader(books, languages, reading, terms)
+        val viewModel = PracticeViewModel(source, first, loader, PracticeExampleStore(kept, examples, WordForms(null, terms), terms, languages, settings, translator), kept, translator, random = Random(7))
+        startKoin {
+            modules(module {
+                single { LocalSpeech(emptyList()) }
+                single<SettingsRepository> { settings }
+                single { SentenceAudio(get(), settings, MemorySpeechAudioCache()) }
+                viewModel { (from: PracticeSource) -> PracticeSetupViewModel(from, loader, translator, settings) }
+            })
+        }
+        try {
+            setContent { TayraTheme { ProvideWindowWidth { PracticeScreen(source, first, onNavigate = {}, onBack = {}, dialog = true, viewModel = viewModel) } } }
+            waitUntil(timeoutMillis = 10_000) { !viewModel.state.value.loading && viewModel.state.value.exercises.isNotEmpty() }
+            viewModel.state.value.exercises.forEach { exercise ->
+                viewModel.choose(exercise.answer)
+                viewModel.next()
+            }
+            waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Practise again").fetchSemanticsNodes().isNotEmpty() }
+            onNodeWithText("Practise again").performClick()
+
+            waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("start-practice").fetchSemanticsNodes().isNotEmpty() }
+            assertTrue(viewModel.state.value.finished, "the result stays until a practice is started")
+            onNodeWithTag("practice-skill-READING").performScrollTo().performClick()
+            onNodeWithTag("start-practice").performClick()
+            waitUntil(timeoutMillis = 10_000) { viewModel.state.value.let { !it.loading && !it.finished && it.exercises.isNotEmpty() } }
+            val again = viewModel.state.value
+            assertTrue(again.setup.types.none { it.skill == PracticeSkill.READING }, again.setup.toString())
+            assertTrue(again.exercises.none { it.type.skill == PracticeSkill.READING }, again.exercises.map { it.type }.toString())
+            assertTrue(onAllNodesWithTag("start-practice").fetchSemanticsNodes().isEmpty(), "the setup closes")
+        } finally {
+            stopKoin()
+        }
     }
 }

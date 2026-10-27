@@ -109,6 +109,7 @@ import com.tayra.languages.feature.terms.form.TermFormPanel
 import com.tayra.languages.feature.terms.form.TermFormEvent
 import com.tayra.languages.feature.terms.form.TermFormKey
 import com.tayra.languages.feature.terms.form.TermFormViewModel
+import com.tayra.languages.feature.terms.list.PracticeSetupDialog
 import androidx.compose.ui.text.AnnotatedString
 import com.tayra.languages.core.ui.components.FreshViewModels
 import androidx.compose.ui.semantics.contentDescription
@@ -145,6 +146,9 @@ fun PracticeScreen(
             }
         }
     }
+    // Practising again starts from choosing what to practise, as the practice did.
+    var settingUp by remember { mutableStateOf(false) }
+    if (settingUp) PracticeSetupDialog(source, onStart = { chosen -> settingUp = false; viewModel.start(chosen) }, onDismiss = { settingUp = false })
     val settings = koinInject<SettingsRepository>()
     val readAloud by remember(settings) { settings.settings.map { it.practiceReadAloud } }.collectAsStateWithLifecycle(settings.current.practiceReadAloud)
     val scope = rememberCoroutineScope()
@@ -166,7 +170,7 @@ fun PracticeScreen(
                 onSubmit = viewModel::submit,
                 onSkip = viewModel::skip,
                 onNext = { speaker.stop(); viewModel.next() },
-                onRestart = viewModel::start,
+                onRestart = { settingUp = true },
                 onRestartMissed = viewModel::startMissed,
                 onBack = onBack,
                 onSpeak = { text -> speaker.speak(text, state.languageCode) },

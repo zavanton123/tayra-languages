@@ -97,7 +97,7 @@ data class PracticeUiState(
  */
 class PracticeViewModel(
     private val source: PracticeSource,
-    private val setup: PracticeSetup,
+    private var setup: PracticeSetup,
     private val material: PracticeMaterialLoader,
     private val exampleStore: PracticeExampleStore,
     private val keptExamples: PracticeExampleRepository,
@@ -128,6 +128,12 @@ class PracticeViewModel(
 
     /** Builds a fresh set of questions and starts from the first. */
     fun start() = start(only = null)
+
+    /** Builds a fresh set of questions as [setup] asks, and keeps to it for later rounds. */
+    fun start(setup: PracticeSetup) {
+        this.setup = setup
+        start()
+    }
 
     /** Practises again only the words missed in the round just finished. */
     fun startMissed() = start(only = _state.value.missedTargets.takeIf { it.isNotEmpty() })
