@@ -113,7 +113,7 @@ class AnkiExportService(
             media.getOrPut(name) { AnkiMedia(name, wav) }
             "[sound:$name]"
         }.orEmpty()
-        val cloze = sentence?.let { cloze(it, Cloze.familyRange(it, term, terms), word) } ?: "{{c1::$word}}"
+        val cloze = sentence?.let { cloze(it, Cloze.cardRange(it, term, terms), word) } ?: "{{c1::$word}}"
         val fields = listOf(
             cloze,
             "WORD|$lemma|$code",

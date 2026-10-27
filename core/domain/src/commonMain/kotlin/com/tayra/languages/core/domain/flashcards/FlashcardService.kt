@@ -60,9 +60,9 @@ class FlashcardService(
     /** What an answer changed, enough to take it back. */
     data class Answered(val before: Flashcard, val statusBefore: TermStatus, val statusAfter: TermStatus, val reviewId: Long)
 
-    /** Where the word a card blanks out stands in [term]'s sentence (see [Cloze.familyRange]); null without a sentence or a match. */
+    /** Where the word a card blanks out stands in [term]'s sentence (see [Cloze.cardRange]); null without a sentence or a match. */
     suspend fun clozeRange(term: Term): IntRange? =
-        term.sentence?.trim()?.takeIf { it.isNotEmpty() }?.let { Cloze.familyRange(it, term, terms) }
+        term.sentence?.trim()?.takeIf { it.isNotEmpty() }?.let { Cloze.cardRange(it, term, terms) }
 
     private fun config(s: UserSettings = settings.current) = SchedulerConfig(
         desiredRetention = s.flashcardRetention / 100.0,
