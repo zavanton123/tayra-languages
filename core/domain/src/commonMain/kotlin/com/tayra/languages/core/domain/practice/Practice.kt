@@ -64,9 +64,6 @@ enum class ExerciseType(val skill: PracticeSkill, val responses: Set<PracticeRes
     // Not said: its answer is one word, which recognisers make out badly alone.
     HEAR_SENTENCE(PracticeSkill.LISTENING, setOf(PracticeResponse.CHOOSE, PracticeResponse.TYPE)),
 
-    /** The sentence is read aloud: say it back; right when most of its words are heard. */
-    SHADOW(PracticeSkill.LISTENING, setOf(PracticeResponse.SPEAK)),
-
     /** The sentence's translation, and the sentence's words shuffled: put them in order. Needs the translation and a sentence of 3 to 8 words. */
     BUILD(PracticeSkill.TRANSLATION, setOf(PracticeResponse.CHOOSE)),
 }
@@ -88,16 +85,10 @@ data class PracticeSetup(
      */
     val adaptive: Boolean = true,
 ) {
-    /**
-     * This setup where nothing can be said aloud: answers said are typed instead, and sentences
-     * repeated after the voice are written down from it.
-     */
+    /** This setup where nothing can be said aloud: answers said are typed instead. */
     fun withoutSpeaking(): PracticeSetup =
-        if (PracticeResponse.SPEAK !in responses && ExerciseType.SHADOW !in types) this
-        else copy(
-            responses = (responses - PracticeResponse.SPEAK).ifEmpty { setOf(PracticeResponse.TYPE) },
-            types = (types - ExerciseType.SHADOW).ifEmpty { setOf(ExerciseType.GAP) },
-        )
+        if (PracticeResponse.SPEAK !in responses) this
+        else copy(responses = (responses - PracticeResponse.SPEAK).ifEmpty { setOf(PracticeResponse.TYPE) })
 
     /** The questions asked, in the order they come round: those answered by choosing first, then those typed. */
     val rotation: List<Pair<ExerciseType, PracticeResponse>> =
@@ -114,10 +105,10 @@ data class PracticeSetup(
     companion object {
         const val DEFAULT_LENGTH = 10
         private const val ALL = "all"
-        private val RENAMED_TYPES = mapOf("SOUND_ALIKE" to ExerciseType.HEAR_WORD.name, "DICTATION" to ExerciseType.GAP.name)
+        private val RENAMED_TYPES = mapOf("SOUND_ALIKE" to ExerciseType.HEAR_WORD.name, "DICTATION" to ExerciseType.GAP.name, "SHADOW" to ExerciseType.GAP.name)
 
         /** The setup the dialog opens on the first time: reading, listening and translation, chosen and typed. */
-        val FIRST = PracticeSetup(types = ExerciseType.entries.toSet() - ExerciseType.SHADOW, responses = PracticeResponse.entries.toSet() - PracticeResponse.SPEAK)
+        val FIRST = PracticeSetup(types = ExerciseType.entries.toSet(), responses = PracticeResponse.entries.toSet() - PracticeResponse.SPEAK)
 
         /** A setup from [encode]'s text; parts missing or not understood keep their defaults, names not known are left out. */
         fun decode(text: String): PracticeSetup {
@@ -126,7 +117,7 @@ data class PracticeSetup(
             val defaults = PracticeSetup()
             return PracticeSetup(
                 // Likewise for one kept from before true or false was dropped.
-                // The sound-alike question is now one way Hear the word is asked, and dictation was the missing word.
+                // The sound-alike question is now one way Hear the word is asked; dictation was the missing word typed, and shadowing its phrase said.
                 types = names("types")?.map { RENAMED_TYPES[it] ?: it }
                     ?.mapNotNull { name -> ExerciseType.entries.firstOrNull { it.name == name } }?.toSet()?.takeIf { it.isNotEmpty() } ?: defaults.types,
                 // A setup kept from before letter tiles were dropped may have had no other way of answering.
@@ -240,7 +231,7 @@ object PracticeBuilder {
     private const val PHRASE_ENDS = ",;:.!?…)\"»”"
 
     /** The types a sentence from elsewhere can be asked in: those about the sentence, not the word alone or its meaning. */
-    private val EXAMPLE_TYPES = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.BUILD, ExerciseType.SHADOW)
+    private val EXAMPLE_TYPES = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.BUILD)
 
     /** Sentences built from their words have this many words at least, and [MAX_BUILT] at most. */
     private const val MIN_BUILT = 3
@@ -408,11 +399,6 @@ object PracticeBuilder {
         val base = Exercise(type, response, PracticeContext.ORIGINAL, word.text, word.translation, word.sentence, word.range, answer = word.text, termId = word.termId)
         return when (type) {
             ExerciseType.MATCHING -> null
-            ExerciseType.SHADOW -> {
-                val say = phrase(word.sentence, word.range)
-                val text = word.sentence.substring(say)
-                base.copy(spoken = text, answer = text, wholeSentence = true, say = say)
-            }
             ExerciseType.GAP ->
                 if (response == PracticeResponse.CHOOSE) base.copy(options = wordChoices(word, targets, pool, random, forms = FORMS_AMONG_CHOICES))
                 else answered(base, response, word, targets, pool, random)
@@ -627,7 +613,7 @@ object PracticeChecker {
 
     /**
      * What was [heard] said aloud, against the phrase [expected] and the [word] it was to hold, if
-     * any: right when every word of the phrase was heard; almost when [SHADOW_SHARE] of them were,
+     * any: right when every word of the phrase was heard; almost when [SPOKEN_SHARE] of them were,
      * the word among them. Saying the word alone does not do. The recogniser writes what it hears,
      * so accents are not held against the learner.
      */
@@ -639,13 +625,13 @@ object PracticeChecker {
         val share = words.count { it.result == WordResult.RIGHT || it.result == WordResult.ACCENT }.toDouble() / words.size.coerceAtLeast(1)
         return when {
             share >= 1.0 -> TypedResult.CORRECT
-            share >= SHADOW_SHARE -> TypedResult.ALMOST
+            share >= SPOKEN_SHARE -> TypedResult.ALMOST
             else -> TypedResult.WRONG
         }
     }
 
     /** The share of a phrase's words said aloud that must be heard for it to count. */
-    const val SHADOW_SHARE = 0.8
+    const val SPOKEN_SHARE = 0.8
 
     private fun normalize(text: String): String =
         text.lowercase().map { if (it.isLetterOrDigit() || it == '\'' || it == '’') it else ' ' }.joinToString("")

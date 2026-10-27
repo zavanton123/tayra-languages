@@ -207,6 +207,7 @@ class PracticeTest {
         assertEquals(setOf(ExerciseType.GAP), PracticeSetup.decode("types=GAP,SOMETHING_NEW").types, "names not known are left out")
         assertEquals(setOf(ExerciseType.HEAR_WORD), PracticeSetup.decode("types=SOUND_ALIKE").types, "the sound-alike question is now asked within Hear the word")
         assertEquals(setOf(ExerciseType.GAP), PracticeSetup.decode("types=DICTATION").types, "dictation was the missing word, typed")
+        assertEquals(setOf(ExerciseType.GAP), PracticeSetup.decode("types=SHADOW").types, "shadowing was the missing word's phrase, said")
         assertEquals(PracticeSetup.DEFAULT_LENGTH, PracticeSetup.decode("length=-3").length)
         assertEquals(listOf(gapChoice, hearChoice, gapTyped), PracticeSetup.ofKinds(emptyList()).rotation)
         assertEquals(listOf(gapChoice, hearChoice), PracticeSetup.ofKinds(listOf("GAP_CHOICE", "HEAR_CHOOSE")).rotation)
@@ -325,15 +326,11 @@ class PracticeTest {
         assertEquals(TypedResult.WRONG, PracticeChecker.check("supermercado", "supermrcdo"), "two slips")
     }
 
-    /** Said aloud, a gap or translation keeps its sentence to say; a sentence repeated is the whole sentence, heard first. */
+    /** Said aloud, a gap keeps the phrase around it to say. */
     @Test
     fun spokenAnswersSayTheSentence() {
-        val said = PracticeBuilder.build(words, pageWords, random = Random(1), setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.SHADOW), responses = setOf(PracticeResponse.SPEAK)))
+        val said = PracticeBuilder.build(words, pageWords, random = Random(1), setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.SPEAK)))
         assertTrue(said.isNotEmpty() && said.all { it.response == PracticeResponse.SPEAK && !it.isChoice && it.tiles.isEmpty() }, "said: ${said.map { it.kind }}")
-        val shadow = said.first { it.type == ExerciseType.SHADOW }
-        assertEquals(shadow.saying, shadow.answer)
-        assertEquals(shadow.saying, shadow.spoken)
-        assertTrue(shadow.wholeSentence)
         // A gap is said as the phrase around it, never as the word alone.
         said.filter { it.type == ExerciseType.GAP }.forEach { e ->
             val say = e.say!!
@@ -341,13 +338,12 @@ class PracticeTest {
             assertTrue(e.saying!!.split(" ").size >= 3, e.saying)
         }
         assertTrue(ExerciseType.entries.filter { PracticeResponse.SPEAK in it.responses }.all { it != ExerciseType.HEAR_SENTENCE }, "a word heard is not said alone")
-        assertEquals(emptyList(), PracticeBuilder.build(words, pageWords, random = Random(1), setup = PracticeSetup(types = setOf(ExerciseType.SHADOW), responses = setOf(PracticeResponse.TYPE))), "a sentence repeated is only said")
     }
 
-    /** Where nothing can be said, answers said are typed and sentences repeated are written down. */
+    /** Where nothing can be said, answers said are typed. */
     @Test
     fun withoutSpeakingAnswersAreTyped() {
-        assertEquals(PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.TYPE)), PracticeSetup(types = setOf(ExerciseType.SHADOW), responses = setOf(PracticeResponse.SPEAK)).withoutSpeaking())
+        assertEquals(PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.TYPE)), PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.SPEAK)).withoutSpeaking())
         assertEquals(setOf(PracticeResponse.CHOOSE), PracticeSetup(responses = setOf(PracticeResponse.CHOOSE, PracticeResponse.SPEAK)).withoutSpeaking().responses)
         val plain = PracticeSetup()
         assertTrue(plain.withoutSpeaking() === plain)

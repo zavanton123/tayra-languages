@@ -76,7 +76,7 @@ Before a practice starts, a setup dialog says what will be asked. It replaces to
 
 | Filter | Options | Notes |
 |---|---|---|
-| Preset | Removed: the dialog opens on the setup last used, the first time on every type but shadowing, chosen and typed | — |
+| Preset | Removed: the dialog opens on the setup last used, the first time on every type, chosen and typed | — |
 | Skills | Reading, Listening, Translation, Word forms, Speaking | A group with a tri-state tick; expanded, it lists its exercise types, each with its own tick |
 | Answer by | Choose, Letter tiles, Type, Speak | Applies across every skill; a type whose only answer mode is unticked is greyed out with the reason |
 | Sentences | From the text, Other examples | "Other examples" shows how many are stored and whether more need the internet |
@@ -302,6 +302,8 @@ Speaking is an answer type, not a group of questions: any GAP, AUDIO or TRANSLAT
 Checking: the learner says the whole sentence; it is right when the recognised words contain the answer (via `PracticeChecker`, accents ignored). Single words alone are not asked, because recognition of a lone word is unreliable.
 
 Shadowing (hear a sentence, repeat it, see which words were recognised) comes with it as its own kind in the Listening group.
+
+Shadowing was later removed: it asked the same phrase as the missing word said aloud, only heard first instead of recalled.
 
 Permissions: microphone on Android and iOS, asked the first time a speaking question comes up; declining switches the question to TYPE.
 

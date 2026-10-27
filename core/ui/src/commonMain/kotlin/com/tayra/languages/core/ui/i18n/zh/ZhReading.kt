@@ -260,6 +260,5 @@ internal val zhReading: Map<String, String> = mapOf(
     "Recognising…" to "正在识别…",
     "Say the marked phrase, with the missing word" to "说出标记的短语，补上缺失的单词",
     "A new sentence: say the marked phrase, with the missing word" to "新句子：说出标记的短语，补上缺失的单词",
-    "Listen and say the phrase" to "听后说出这个短语",
     "Fix translation" to "修正翻译",
 )

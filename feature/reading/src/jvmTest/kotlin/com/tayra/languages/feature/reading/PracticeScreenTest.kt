@@ -510,23 +510,20 @@ class PracticeScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not quite").fetchSemanticsNodes().isNotEmpty() }
     }
 
-    /** A sentence repeated after the voice is heard first and checked word by word; stopping early checks what was said so far. */
+    /** A phrase said for a gap is checked word by word; stopping early checks what was said so far. */
     @Test
-    fun aSentenceIsRepeatedAfterTheVoice() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun aPhraseSaidIsCheckedWordByWord() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val speech = FakeSpeech()
-        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.SHADOW), responses = setOf(PracticeResponse.SPEAK)), speech = speech)
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.SPEAK)), speech = speech)
         val exercise = viewModel.state.value.current!!
-        assertEquals(ExerciseType.SHADOW, exercise.type)
-        waitUntil(timeoutMillis = 5_000) { exercise.sentence in spoken }
-        // The sentence is shown, the phrase to say marked in it, before it is said.
         onNodeWithTag("practice-sentence").assertExists()
-        onAllNodesWithTag("practice-type-instead").fetchSemanticsNodes().let { assertTrue(it.isEmpty(), "a phrase to repeat is only said") }
-        onAllNodesWithText("Show the answer").fetchSemanticsNodes().let { assertTrue(it.isEmpty(), "and is on show already") }
-        shot("shadowing-before")
-        val words = exercise.sentence.split(" ")
+        shot("speaking-before")
+        // Said with one word short, the gap's word kept.
+        val words = exercise.saying!!.split(" ")
+        val missed = words.indices.first { exercise.word !in words[it] }
         speech.heard = CompletableDeferred()
         speech.recognised = CompletableDeferred()
-        speech.answer = { Heard.Words(words.dropLast(1).joinToString(" ")) }
+        speech.answer = { Heard.Words(words.filterIndexed { i, _ -> i != missed }.joinToString(" ")) }
         onNodeWithTag("practice-speak").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Listening…").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Stop").performClick()
@@ -538,7 +535,7 @@ class PracticeScreenTest {
         assertTrue(speech.stopped)
         assertEquals(if (words.size >= 5) PracticeResult.ALMOST else PracticeResult.WRONG, viewModel.state.value.result)
         onNodeWithTag("practice-sentence-check").assertExists()
-        shot("shadowing")
+        shot("speaking")
     }
 
     /** A refused microphone turns the rest of the answers to be said into typed ones; one can also be typed by choice. */
@@ -560,12 +557,12 @@ class PracticeScreenTest {
         assertTrue(viewModel.state.value.exercises.drop(1).none { it.response == PracticeResponse.SPEAK })
     }
 
-    /** Where nothing can hear the learner, a speaking setup is typed: sentences to repeat are written down instead. */
+    /** Where nothing can hear the learner, a speaking setup is typed. */
     @Test
     fun withoutARecogniserSpeakingIsTyped() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.SHADOW), responses = setOf(PracticeResponse.SPEAK)), speech = FakeSpeech(available = false))
+        val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE), responses = setOf(PracticeResponse.SPEAK)), speech = FakeSpeech(available = false))
         val state = viewModel.state.value
-        assertTrue(PracticeResponse.SPEAK !in state.setup.responses && ExerciseType.SHADOW !in state.setup.types)
+        assertTrue(PracticeResponse.SPEAK !in state.setup.responses)
         assertTrue(state.exercises.isNotEmpty() && state.exercises.all { it.response == PracticeResponse.TYPE })
         onAllNodesWithTag("practice-speak").fetchSemanticsNodes().let { assertTrue(it.isEmpty()) }
     }

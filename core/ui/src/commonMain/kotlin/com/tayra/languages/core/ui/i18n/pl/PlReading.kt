@@ -260,6 +260,5 @@ internal val plReading: Map<String, String> = mapOf(
     "Recognising…" to "Rozpoznawanie…",
     "Say the marked phrase, with the missing word" to "Powiedz zaznaczoną frazę z brakującym słowem",
     "A new sentence: say the marked phrase, with the missing word" to "Nowe zdanie: powiedz zaznaczoną frazę z brakującym słowem",
-    "Listen and say the phrase" to "Posłuchaj i powiedz frazę",
     "Fix translation" to "Popraw tłumaczenie",
 )

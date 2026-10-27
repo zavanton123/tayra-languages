@@ -260,6 +260,5 @@ internal val frReading: Map<String, String> = mapOf(
     "Recognising…" to "Reconnaissance…",
     "Say the marked phrase, with the missing word" to "Dites le passage marqué, avec le mot manquant",
     "A new sentence: say the marked phrase, with the missing word" to "Une nouvelle phrase : dites le passage marqué, avec le mot manquant",
-    "Listen and say the phrase" to "Écoutez et dites le passage",
     "Fix translation" to "Corriger la traduction",
 )

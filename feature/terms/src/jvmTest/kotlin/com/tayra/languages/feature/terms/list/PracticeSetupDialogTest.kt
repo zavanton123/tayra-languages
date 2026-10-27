@@ -88,7 +88,7 @@ class PracticeSetupDialogTest {
     @Test
     fun typesAreTickedAndStartTheSetup() = runDesktopComposeUiTest(width = 1300, height = 1000) {
         show()
-        ExerciseType.entries.filter { it.skill == PracticeSkill.LISTENING && it != ExerciseType.SHADOW }.forEach { onNodeWithTag("practice-type-${it.name}").performScrollTo().performClick() }
+        ExerciseType.entries.filter { it.skill == PracticeSkill.LISTENING }.forEach { onNodeWithTag("practice-type-${it.name}").performScrollTo().performClick() }
         onNodeWithTag("practice-type-MEANING").performScrollTo().performClick()
         onNodeWithTag("practice-response-TYPE").performClick()
         onNodeWithTag("practice-length-all").performClick()
@@ -132,9 +132,9 @@ class PracticeSetupDialogTest {
     /** Saying answers is offered only where the words' language can be heard; elsewhere a setup to say them is typed. */
     @Test
     fun speakingIsOfferedOnlyWhereItCanBeHeard() = runDesktopComposeUiTest(width = 1300, height = 1000) {
-        val speaking = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE, ExerciseType.SHADOW), responses = setOf(PracticeResponse.SPEAK))
+        val speaking = PracticeSetup(types = setOf(ExerciseType.GAP, ExerciseType.HEAR_SENTENCE), responses = setOf(PracticeResponse.SPEAK))
         show(speaking)
-        listOf("practice-response-SPEAK", "practice-type-SHADOW").forEach { onAllNodesWithTag(it).assertCountEquals(0) }
+        onAllNodesWithTag("practice-response-SPEAK").assertCountEquals(0)
         onNodeWithTag("start-practice").performClick()
         assertEquals(speaking.withoutSpeaking(), started)
     }
@@ -142,11 +142,9 @@ class PracticeSetupDialogTest {
     @Test
     fun speakingIsPickedWhereItCanBeHeard() = runDesktopComposeUiTest(width = 1300, height = 1000) {
         show(state = state.copy(speaking = true))
-        // Said aloud only, it waits among the unavailable until speaking is ticked.
         onNodeWithTag("practice-response-SPEAK").performScrollTo().performClick()
-        onNodeWithTag("practice-type-SHADOW").performScrollTo().performClick()
         onNodeWithTag("start-practice").performClick()
-        assertEquals(PracticeSetup.FIRST.copy(types = ExerciseType.entries.toSet(), responses = PracticeResponse.entries.toSet()), started)
+        assertEquals(PracticeSetup.FIRST.copy(responses = PracticeResponse.entries.toSet()), started)
     }
 
     /** Only lengths shorter than all the questions there are are offered; a longer one kept from before shows as All. */

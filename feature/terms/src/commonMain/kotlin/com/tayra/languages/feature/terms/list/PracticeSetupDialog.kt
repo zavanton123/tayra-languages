@@ -250,7 +250,7 @@ internal fun PracticeSetupContent(
     val canStart = !state.loading && state.words.isNotEmpty() && (preview.questions > 0 || examplesMayAsk)
 
     // In the order of the skills they train; those that would ask nothing of these words, or not the ways ticked, are folded away.
-    val types = PracticeSkill.entries.flatMap { skill -> ExerciseType.entries.filter { it.skill == skill && (state.speaking || it != ExerciseType.SHADOW) } }
+    val types = PracticeSkill.entries.flatMap { skill -> ExerciseType.entries.filter { it.skill == skill } }
     val (available, unavailable) = types.partition { type -> state.loading || (preview.of(type).words > 0 && type.responses.any { it in setup.responses }) }
 
     val answers: @Composable () -> Unit = {

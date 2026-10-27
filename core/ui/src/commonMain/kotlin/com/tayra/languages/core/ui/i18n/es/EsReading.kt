@@ -260,6 +260,5 @@ internal val esReading: Map<String, String> = mapOf(
     "Recognising…" to "Reconociendo…",
     "Say the marked phrase, with the missing word" to "Di la frase marcada, con la palabra que falta",
     "A new sentence: say the marked phrase, with the missing word" to "Una frase nueva: di la parte marcada, con la palabra que falta",
-    "Listen and say the phrase" to "Escucha y di la frase",
     "Fix translation" to "Corregir traducción",
 )

@@ -62,6 +62,6 @@ object PracticePlanner {
         ExerciseType.MATCHING -> PracticeNeed.MORE_WORDS.takeIf { PracticeBuilder.matching(words, Random(0)) == null }
         ExerciseType.HEAR_SENTENCE -> PracticeNeed.WORD_MEANING
         ExerciseType.BUILD -> if (words.any { it.sentence !in translations }) PracticeNeed.SENTENCE_TRANSLATION else PracticeNeed.SENTENCE_LENGTH
-        ExerciseType.GAP, ExerciseType.HEAR_WORD, ExerciseType.SHADOW -> null
+        ExerciseType.GAP, ExerciseType.HEAR_WORD -> null
     }
 }

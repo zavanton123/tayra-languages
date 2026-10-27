@@ -365,7 +365,6 @@ private val Exercise.instruction: String
         ExerciseType.MATCHING -> tr("Match each word with its meaning")
         ExerciseType.HEAR_SENTENCE -> tr("Listen to the sentence")
         ExerciseType.HEAR_WORD -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
-        ExerciseType.SHADOW -> tr("Listen and say the phrase")
         ExerciseType.BUILD -> tr("Put the words in order")
     }
 
@@ -413,9 +412,8 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         val fromTranslation = exercise.type == ExerciseType.BUILD
         if (fromTranslation) state.sentenceTranslation?.let { translationBox(it) }
 
-        // What is heard is not shown until answered: the word of a listening choice, or a sentence typed whole.
-        // A phrase to repeat is shown, marked in its sentence: it is said back, not written down.
-        val sentenceHidden = !answered && exercise.type != ExerciseType.SHADOW &&
+        // What is heard is not shown until answered: the word of a listening choice, or a sentence built whole.
+        val sentenceHidden = !answered &&
             (exercise.type == ExerciseType.HEAR_WORD || exercise.type == ExerciseType.HEAR_SENTENCE || exercise.wholeSentence)
         // The sentence heard is hidden; what is asked is the word with this meaning.
         if (exercise.type == ExerciseType.HEAR_SENTENCE) {
@@ -456,7 +454,7 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
                     buildAnnotatedString {
                         part(0, exercise.range.first)
                         // The word is marked rather than blanked where its meaning is asked.
-                        withStyle(highlight) { append(if (answered || exercise.type == ExerciseType.MEANING || exercise.type == ExerciseType.SHADOW) exercise.sentence.substring(exercise.range) else BLANK) }
+                        withStyle(highlight) { append(if (answered || exercise.type == ExerciseType.MEANING) exercise.sentence.substring(exercise.range) else BLANK) }
                         part(exercise.range.last + 1, exercise.sentence.length)
                     },
                     style = AppText.cardSentence(if (compact) 21f else 27f).copy(color = colors.onSurface, textAlign = TextAlign.Center, textDirection = direction),
@@ -468,8 +466,8 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         if (!sentenceHidden) exercise.credit?.let { credit ->
             Text(tr("Sentence from {0}", credit), style = MaterialTheme.typography.bodySmall, color = colors.outline, modifier = Modifier.testTag("practice-credit"))
         }
-        // A gap, however it is answered, and a phrase to repeat get the sentence's meaning; elsewhere it would give the answer away, so it waits.
-        val hintShown = answered || exercise.type == ExerciseType.GAP || exercise.type == ExerciseType.SHADOW
+        // A gap, however it is answered, gets the sentence's meaning; elsewhere it would give the answer away, so it waits.
+        val hintShown = answered || exercise.type == ExerciseType.GAP
         if (hintShown && !fromTranslation) state.sentenceTranslation?.let { translationBox(it) }
 
         when {
@@ -484,21 +482,18 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         if (answered && exercise.type == ExerciseType.MEANING && exercise.termId != null && actions.onFixTranslation != null) {
             QuietButton(tr("Fix translation"), onClick = { actions.onFixTranslation.invoke(exercise) }, icon = Icons.Default.Edit, modifier = Modifier.testTag("practice-fix-translation"))
         }
-        // A sentence typed whole, or a phrase said, and not quite right: which words were.
+        // A sentence built whole, or a phrase said, and not quite right: which words were.
         if (answered && (exercise.wholeSentence || exercise.saying != null) && state.result != PracticeResult.CORRECT && state.typed.isNotBlank()) {
             SentenceCheck(exercise.saying ?: exercise.answer, state.typed)
         }
 
-        // A phrase to repeat is on show already, and is only said: until then there is nothing to put here.
-        if (answered || exercise.type != ExerciseType.SHADOW) {
-            AppDivider()
-            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-                if (!answered) QuietButton(tr("Show the answer"), onClick = actions.onSkip)
-                Spacer(Modifier.weight(1f))
-                when {
-                    answered -> PrimaryButton(if (state.index + 1 >= state.exercises.size) tr("See the result") else tr("Continue"), onClick = actions.onNext, size = ButtonSize.Large)
-                    !exercise.isChoice && exercise.response != PracticeResponse.SPEAK -> PrimaryButton(tr("Check"), onClick = actions.onSubmit, enabled = state.typed.isNotBlank(), size = ButtonSize.Large)
-                }
+        AppDivider()
+        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+            if (!answered) QuietButton(tr("Show the answer"), onClick = actions.onSkip)
+            Spacer(Modifier.weight(1f))
+            when {
+                answered -> PrimaryButton(if (state.index + 1 >= state.exercises.size) tr("See the result") else tr("Continue"), onClick = actions.onNext, size = ButtonSize.Large)
+                !exercise.isChoice && exercise.response != PracticeResponse.SPEAK -> PrimaryButton(tr("Check"), onClick = actions.onSubmit, enabled = state.typed.isNotBlank(), size = ButtonSize.Large)
             }
         }
     }
@@ -706,8 +701,7 @@ private fun SpokenAnswer(state: PracticeUiState, exercise: Exercise, actions: Pr
                 textAlign = TextAlign.Center,
             )
         }
-        // Repeating a phrase is all about saying it: typing it instead would be another exercise.
-        if (!state.answered && exercise.type != ExerciseType.SHADOW) QuietButton(tr("Type instead"), onClick = actions.onTypeInstead, modifier = Modifier.testTag("practice-type-instead"))
+        if (!state.answered) QuietButton(tr("Type instead"), onClick = actions.onTypeInstead, modifier = Modifier.testTag("practice-type-instead"))
     }
 }
 
