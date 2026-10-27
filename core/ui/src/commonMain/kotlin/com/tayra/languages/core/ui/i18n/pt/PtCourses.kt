@@ -232,4 +232,5 @@ internal val ptCourses: Map<String, String> = mapOf(
     "{0} of {1} sounds ready" to "{0} de {1} sons prontos",
     "Checking the audio…" to "Verificando o áudio…",
     "Start now" to "Começar agora",
+    "No translation available" to "Tradução indisponível",
 )

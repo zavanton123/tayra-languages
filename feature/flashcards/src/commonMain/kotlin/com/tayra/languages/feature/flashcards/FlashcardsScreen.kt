@@ -536,13 +536,15 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
             style = AppText.cardSentence(if (compact) 26f else 30f).copy(color = colors.onSurface, textAlign = TextAlign.Center, textDirection = direction),
             modifier = Modifier.padding(top = if (compact) AppSpacing.s else AppSpacing.m, bottom = if (compact) AppSpacing.l else AppSpacing.xxl).testTag("flashcard-front"),
         )
-        card.sentenceTranslation?.let { translation ->
+        // A sentence keeps its translation's place from the start, in the same type, so nothing moves when it comes.
+        if (sentence != null || card.sentenceTranslation != null) {
+            val translation = card.sentenceTranslation
             AppDivider()
             Text(
-                translation,
+                translation ?: if (card.translating) tr("Translating…") else tr("No translation available"),
                 Modifier.padding(top = AppSpacing.l).fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash))
-                    .padding(horizontal = if (compact) AppSpacing.l else AppSpacing.huge, vertical = AppSpacing.l),
-                style = AppText.cardTranslation(compact).copy(color = colors.onSurfaceVariant, textAlign = TextAlign.Center),
+                    .padding(horizontal = if (compact) AppSpacing.l else AppSpacing.huge, vertical = AppSpacing.l).testTag("flashcard-translation"),
+                style = AppText.cardTranslation(compact).copy(color = if (translation != null) colors.onSurfaceVariant else colors.outline, textAlign = TextAlign.Center),
             )
         }
         if (revealed) {

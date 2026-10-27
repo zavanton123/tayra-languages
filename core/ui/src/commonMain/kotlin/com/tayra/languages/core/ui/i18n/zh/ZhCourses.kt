@@ -232,4 +232,5 @@ internal val zhCourses: Map<String, String> = mapOf(
     "{0} of {1} sounds ready" to "已准备 {0}/{1} 个声音",
     "Checking the audio…" to "正在检查音频…",
     "Start now" to "立即开始",
+    "No translation available" to "暂无翻译",
 )

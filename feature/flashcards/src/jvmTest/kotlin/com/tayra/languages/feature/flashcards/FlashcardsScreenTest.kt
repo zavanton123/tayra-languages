@@ -23,6 +23,7 @@ import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.performMouseInput
 import androidx.compose.ui.test.onNodeWithContentDescription
 import com.tayra.languages.core.domain.service.LocalSpeech
@@ -101,11 +102,15 @@ class FlashcardsScreenTest {
         withSpeaker: Boolean = false,
         audio: SentenceAudio? = null,
         waitForCard: Boolean = true,
+        translate: suspend (String) -> String? = { "Когда нам нужно что-то купить, мы заходим в супермаркет." },
+        /** Saves more words in the language, after the first card's. */
+        moreTerms: suspend (languageId: Long) -> Unit = {},
     ): FlashcardsViewModel {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
             settings.update { it.copy(currentLanguageId = id, nativeLanguage = "ru") }
             termId = terms.save(Term(languageId = id, text = "comprar", textLc = "comprar", status = TermStatus.NEW_1, translation = "купить, покупать", sentence = sentence))
+            moreTerms(id)
             id
         }
         val noDictionary = object : OfflineDictionary {
@@ -113,7 +118,7 @@ class FlashcardsScreenTest {
             override suspend fun lookup(dictionary: DictionaryId, text: String) = error("not installed")
         }
         val translator = object : SentenceTranslator {
-            override suspend fun translate(text: String, language: Language): String? = "Когда нам нужно что-то купить, мы заходим в супермаркет."
+            override suspend fun translate(text: String, language: Language): String? = translate(text)
         }
         val suggestions = object : TermTranslationProvider {
             override val name = "Fake"
@@ -239,6 +244,33 @@ class FlashcardsScreenTest {
         save("FLASHCARD_PREPARING_SCREENSHOT")
         onNodeWithTag("start-without-waiting").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard").fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    /** The translation's place is kept while it is looked up, and after a failed lookup, so the card does not jump when it comes. */
+    @Test
+    fun theTranslationKeepsItsPlaceWhileItIsLookedUp() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val answer = kotlinx.coroutines.CompletableDeferred<String?>()
+        show(translate = { answer.await() })
+        onNodeWithTag("flashcard-translation").assertTextEquals("Translating…")
+        val before = onNodeWithTag("flashcard-translation").fetchSemanticsNode().boundsInRoot
+        answer.complete("Когда нам нужно что-то купить, мы заходим в супермаркет.")
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Когда нам нужно что-то купить, мы заходим в супермаркет.").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(before, onNodeWithTag("flashcard-translation").fetchSemanticsNode().boundsInRoot, "the same place")
+    }
+
+    @Test
+    fun aFailedTranslationKeepsItsPlaceToo() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(translate = { null })
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("No translation available").fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    /** The sentences of the cards coming next are translated while the first is on show. */
+    @Test
+    fun theNextCardsSentencesAreTranslatedAhead() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val asked = java.util.Collections.synchronizedList(mutableListOf<String>())
+        val next = "Ela compra pão todos os dias."
+        show(translate = { asked += it; "перевод" }, moreTerms = { id -> terms.save(Term(languageId = id, text = "pão", textLc = "pão", status = TermStatus.NEW_1, sentence = next)) })
+        waitUntil(timeoutMillis = 5_000) { next in asked }
     }
 
     /** The answered card's two round buttons say what they do on hover. */

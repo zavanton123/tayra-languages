@@ -232,4 +232,5 @@ internal val elCourses: Map<String, String> = mapOf(
     "{0} of {1} sounds ready" to "Έτοιμοι ήχοι: {0} από {1}",
     "Checking the audio…" to "Έλεγχος του ήχου…",
     "Start now" to "Έναρξη τώρα",
+    "No translation available" to "Δεν υπάρχει μετάφραση",
 )

@@ -52,6 +52,8 @@ data class CardContent(
     /** Where the word stands in [sentence], to blank it out on the front. */
     val wordRange: IntRange? = null,
     val sentenceTranslation: String? = null,
+    /** The sentence's translation is still being looked up; its place on the card is kept meanwhile. */
+    val translating: Boolean = false,
     val translation: String = "",
     val partOfSpeech: String = "",
     val romanization: String = "",
@@ -235,6 +237,7 @@ class FlashcardsViewModel(
             languageId = term.languageId,
             word = word,
             sentence = sentence,
+            translating = sentence != null,
             wordRange = wordRange,
             translation = term.translation.orEmpty().trim(),
             romanization = term.romanization.orEmpty().trim(),
@@ -270,7 +273,8 @@ class FlashcardsViewModel(
             launch {
                 val translated = sentence?.let { attempt { translator.translate(it, language) } }
                 // An example chosen for the card meanwhile has a translation of its own.
-                if (!translated.isNullOrBlank()) updateCard { if (it.sentence == sentence) it.copy(sentenceTranslation = translated) else it }
+                updateCard { if (it.sentence == sentence) it.copy(sentenceTranslation = translated?.takeIf(String::isNotBlank), translating = false) else it }
+                translateAhead(term, language)
             }
             launch {
                 val native = settings.current.nativeLanguage.trim().lowercase().ifEmpty { "en" }
@@ -292,6 +296,19 @@ class FlashcardsViewModel(
                 if (!found.isNullOrBlank()) updateCard { it.copy(translation = found) }
             }
         }
+    }
+
+    /**
+     * Looks up the translations of the sentences of the cards coming up after [term]'s, a few at a
+     * time, so that theirs are at hand when they come; the translator keeps them.
+     */
+    private suspend fun translateAhead(term: Term, language: Language) {
+        val session = service.sessionTerms(languageId)
+        val after = session.indexOfFirst { it.id == term.id }.takeIf { it >= 0 } ?: return
+        session.drop(after + 1).filter { it.languageId == language.id }
+            .mapNotNull { it.sentence?.trim()?.takeIf(String::isNotEmpty) }
+            .take(TRANSLATE_AHEAD)
+            .forEach { attempt { translator.translate(it, language) } }
     }
 
     private suspend fun <T> attempt(block: suspend () -> T?): T? = try {
@@ -332,12 +349,12 @@ class FlashcardsViewModel(
         fun updateCard(change: (CardContent) -> CardContent) = _state.update { s -> if (s.card?.termId == card.termId) s.copy(card = change(s.card)) else s }
         viewModelScope.launch {
             val range = service.replaceSentence(card.termId, text)
-            updateCard { it.copy(sentence = text, wordRange = range, sentenceTranslation = translation?.takeIf(String::isNotBlank)) }
+            val given = translation?.takeIf(String::isNotBlank)
+            updateCard { it.copy(sentence = text, wordRange = range, sentenceTranslation = given, translating = given == null) }
             audio?.let { launch { attempt { it.prepare(listOf(text), card.languageCode) } } }
             if (translation.isNullOrBlank()) {
-                val language = languages.getById(card.languageId) ?: return@launch
-                val translated = attempt { translator.translate(text, language) }
-                if (!translated.isNullOrBlank()) updateCard { if (it.sentence == text) it.copy(sentenceTranslation = translated) else it }
+                val translated = languages.getById(card.languageId)?.let { language -> attempt { translator.translate(text, language) } }
+                updateCard { if (it.sentence == text) it.copy(sentenceTranslation = translated?.takeIf(String::isNotBlank), translating = false) else it }
             }
         }
     }
@@ -376,3 +393,6 @@ class FlashcardsViewModel(
         }
     }
 }
+
+/** How many cards ahead have their sentences translated before they come. */
+private const val TRANSLATE_AHEAD = 3
