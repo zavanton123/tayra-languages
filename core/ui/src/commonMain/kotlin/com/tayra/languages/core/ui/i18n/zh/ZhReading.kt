@@ -248,7 +248,6 @@ internal val zhReading: Map<String, String> = mapOf(
     "Tap the words in order" to "按顺序点按单词",
     "Remove the last word" to "删除最后一个单词",
     "Sentence from {0}" to "句子来源：{0}",
-    "Almost: most of the words were heard" to "差不多：大部分单词都听到了",
     "Listening…" to "正在听…",
     "Heard: {0}" to "听到：{0}",
     "Nothing was heard. Try again." to "什么也没听到。请再试一次。",

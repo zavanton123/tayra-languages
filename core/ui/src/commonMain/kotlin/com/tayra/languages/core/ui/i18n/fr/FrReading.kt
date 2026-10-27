@@ -248,7 +248,6 @@ internal val frReading: Map<String, String> = mapOf(
     "Tap the words in order" to "Touchez les mots dans l’ordre",
     "Remove the last word" to "Retirer le dernier mot",
     "Sentence from {0}" to "Phrase de : {0}",
-    "Almost: most of the words were heard" to "Presque : la plupart des mots ont été entendus",
     "Listening…" to "Écoute…",
     "Heard: {0}" to "Entendu : {0}",
     "Nothing was heard. Try again." to "Rien n'a été entendu. Réessayez.",

@@ -735,8 +735,7 @@ private fun SentenceCheck(expected: String, typed: String) {
 private fun Feedback(state: PracticeUiState, exercise: Exercise) {
     val (tint, title) = when (state.result) {
         PracticeResult.CORRECT -> AppAccents.green to tr("Correct")
-        // Said aloud, almost is a sentence most of whose words were heard.
-        PracticeResult.ALMOST -> AppAccents.amber to if (exercise.response == PracticeResponse.SPEAK) tr("Almost: most of the words were heard") else tr("Almost: mind the accents")
+        PracticeResult.ALMOST -> AppAccents.amber to tr("Almost: mind the accents")
         PracticeResult.TYPO -> AppAccents.amber to tr("Almost: mind the spelling")
         else -> AppAccents.red to tr("Not quite")
     }

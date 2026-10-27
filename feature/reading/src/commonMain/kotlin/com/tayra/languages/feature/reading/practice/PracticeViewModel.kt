@@ -280,9 +280,8 @@ class PracticeViewModel(
             when (heard) {
                 is Heard.Words -> {
                     _state.update { it.copy(listening = false, typed = heard.text) }
-                    // The phrase is checked, the missing word in it where there is one.
-                    val word = if (exercise.wholeSentence) null else exercise.answer
-                    record(exercise, PracticeChecker.checkSpoken(heard.text, word, exercise.saying ?: exercise.answer).result)
+                    // Only the missing word counts; the rest of the phrase is its setting.
+                    record(exercise, PracticeChecker.checkSpoken(heard.text, exercise.answer).result)
                 }
                 Heard.Nothing -> _state.update { it.copy(listening = false, nothingHeard = true) }
                 Heard.Refused -> refuseSpeaking()

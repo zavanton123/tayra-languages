@@ -349,16 +349,17 @@ class PracticeTest {
         assertTrue(plain.withoutSpeaking() === plain)
     }
 
+    /** Said aloud, only the missing word counts: the rest of the phrase may be misheard. */
     @Test
-    fun aSpokenPhraseCountsWithItsWordAndMostOfTheRest() {
-        assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("Eu moro no Brasil", "moro", "Eu moro no Brasil."))
-        assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("com a minha familia e os meus irmaos", "família", "com a minha família e os meus irmãos"), "accents are the recogniser's")
-        assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("vou fazer compras por favor", "por favor", "vou fazer compras, por favor"), "several words")
-        assertEquals(TypedResult.ALMOST, PracticeChecker.checkSpoken("eu moro no Brasil com a minha família", "moro", "Eu moro no Brasil com a minha família e"), "eight of nine, the word among them")
-        assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("moro", "moro", "Eu moro no Brasil."), "the word alone does not do")
-        assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("eu morei no Brasil", "moro", "Eu moro no Brasil."))
-        assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("  ", "moro", "Eu moro no Brasil."))
-        assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("eu amoroso no Brasil", "moro", "Eu moro no Brasil."), "a word, not part of one")
+    fun aSpokenPhraseCountsByItsWord() {
+        assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("Eu moro no Brasil", "moro"))
+        assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("Patique este exercício 10 minutos por dia", "exercício"), "another word misheard")
+        assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("moro", "moro"), "the word alone")
+        assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("com a minha familia e os meus irmaos", "família"), "accents are the recogniser's")
+        assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("vou fazer compras por favor", "por favor"), "several words")
+        assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("eu morei no Brasil", "moro"))
+        assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("  ", "moro"))
+        assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("eu amoroso no Brasil", "moro"), "a word, not part of one")
     }
 
     /** The phrase said is the stretch between punctuation that holds the word, or the sentence where that is very short, eight words at most. */
@@ -372,14 +373,6 @@ class PracticeTest {
         val longClause = "Eu moro com a minha família e os meus dois irmãos mais novos numa casa grande."
         assertEquals("e os meus dois irmãos mais novos numa", said(longClause, "irmãos"))
         assertEquals("Eu moro com a minha família e os", said(longClause, "Eu"))
-    }
-
-    @Test
-    fun aRepeatedSentenceCountsByTheShareOfItsWordsHeard() {
-        val sentence = "Durante a semana, tenho uma rotina bastante organizada e muito cheia."
-        assertEquals(TypedResult.CORRECT, PracticeChecker.checkSpoken("durante a semana tenho uma rotina bastante organizada e muito cheia", null, sentence))
-        assertEquals(TypedResult.ALMOST, PracticeChecker.checkSpoken("durante a semana tenho uma rotina bastante organizada e cheia", null, sentence), "ten of eleven")
-        assertEquals(TypedResult.WRONG, PracticeChecker.checkSpoken("durante a semana tenho", null, sentence))
     }
 
     /** A setup kept from when letter tiles were a way of answering keeps its other ways, or the default ones when tiles were all it had. */

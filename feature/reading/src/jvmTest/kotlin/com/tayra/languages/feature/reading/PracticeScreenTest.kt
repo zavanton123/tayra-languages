@@ -502,25 +502,25 @@ class PracticeScreenTest {
         onNodeWithTag("practice-sentence-check").assertExists()
         viewModel.next()
 
-        // The word alone does not do: the phrase is to be said.
+        // Only the word counts: the rest of the phrase misheard, or not said at all, does no harm.
         val third = viewModel.state.value.current!!
         shot("spoken-phrase")
         speech.answer = { Heard.Words(third.word) }
         onNodeWithTag("practice-speak").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not quite").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Correct").fetchSemanticsNodes().isNotEmpty() }
     }
 
-    /** A phrase said for a gap is checked word by word; stopping early checks what was said so far. */
+    /** A phrase said for a gap counts by its missing word, and shows word by word what was heard; stopping early checks what was said so far. */
     @Test
-    fun aPhraseSaidIsCheckedWordByWord() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun aPhraseSaidCountsByItsMissingWord() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val speech = FakeSpeech()
         val viewModel = show(setup = PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.SPEAK)), speech = speech)
         val exercise = viewModel.state.value.current!!
         onNodeWithTag("practice-sentence").assertExists()
         shot("speaking-before")
-        // Said with one word short, the gap's word kept.
+        // Said with the gap's word left out.
         val words = exercise.saying!!.split(" ")
-        val missed = words.indices.first { exercise.word !in words[it] }
+        val missed = words.indices.first { exercise.word in words[it] }
         speech.heard = CompletableDeferred()
         speech.recognised = CompletableDeferred()
         speech.answer = { Heard.Words(words.filterIndexed { i, _ -> i != missed }.joinToString(" ")) }
@@ -533,7 +533,7 @@ class PracticeScreenTest {
         speech.recognised!!.complete(Unit)
         waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered }
         assertTrue(speech.stopped)
-        assertEquals(if (words.size >= 5) PracticeResult.ALMOST else PracticeResult.WRONG, viewModel.state.value.result)
+        assertEquals(PracticeResult.WRONG, viewModel.state.value.result)
         onNodeWithTag("practice-sentence-check").assertExists()
         shot("speaking")
     }

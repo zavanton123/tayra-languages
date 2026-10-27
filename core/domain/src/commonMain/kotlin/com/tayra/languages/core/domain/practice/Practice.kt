@@ -612,26 +612,14 @@ object PracticeChecker {
     }
 
     /**
-     * What was [heard] said aloud, against the phrase [expected] and the [word] it was to hold, if
-     * any: right when every word of the phrase was heard; almost when [SPOKEN_SHARE] of them were,
-     * the word among them. Saying the word alone does not do. The recogniser writes what it hears,
-     * so accents are not held against the learner.
+     * What was [heard] said aloud, against the [word] it was to hold: right when the word was heard,
+     * whole, whatever became of the rest of the phrase. The recogniser writes what it hears, so
+     * accents are not held against the learner.
      */
-    fun checkSpoken(heard: String, word: String?, expected: String): TypedResult {
+    fun checkSpoken(heard: String, word: String): TypedResult {
         val said = unaccented(normalize(heard))
-        if (said.isEmpty()) return TypedResult.WRONG
-        if (word != null && " ${unaccented(normalize(word))} " !in " $said ") return TypedResult.WRONG
-        val words = compareWords(expected, heard)
-        val share = words.count { it.result == WordResult.RIGHT || it.result == WordResult.ACCENT }.toDouble() / words.size.coerceAtLeast(1)
-        return when {
-            share >= 1.0 -> TypedResult.CORRECT
-            share >= SPOKEN_SHARE -> TypedResult.ALMOST
-            else -> TypedResult.WRONG
-        }
+        return if (said.isNotEmpty() && " ${unaccented(normalize(word))} " in " $said ") TypedResult.CORRECT else TypedResult.WRONG
     }
-
-    /** The share of a phrase's words said aloud that must be heard for it to count. */
-    const val SPOKEN_SHARE = 0.8
 
     private fun normalize(text: String): String =
         text.lowercase().map { if (it.isLetterOrDigit() || it == '\'' || it == '’') it else ' ' }.joinToString("")

@@ -248,7 +248,6 @@ internal val esReading: Map<String, String> = mapOf(
     "Tap the words in order" to "Toca las palabras en orden",
     "Remove the last word" to "Quitar la última palabra",
     "Sentence from {0}" to "Oración de: {0}",
-    "Almost: most of the words were heard" to "Casi: se oyeron la mayoría de las palabras",
     "Listening…" to "Escuchando…",
     "Heard: {0}" to "Oído: {0}",
     "Nothing was heard. Try again." to "No se oyó nada. Inténtalo de nuevo.",

@@ -248,7 +248,6 @@ internal val ruReading: Map<String, String> = mapOf(
     "Tap the words in order" to "Нажимайте слова по порядку",
     "Remove the last word" to "Убрать последнее слово",
     "Sentence from {0}" to "Предложение из: {0}",
-    "Almost: most of the words were heard" to "Почти: услышано большинство слов",
     "Listening…" to "Слушаю…",
     "Heard: {0}" to "Услышано: {0}",
     "Nothing was heard. Try again." to "Ничего не услышано. Попробуйте ещё раз.",

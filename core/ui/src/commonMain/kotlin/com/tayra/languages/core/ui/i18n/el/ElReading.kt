@@ -248,7 +248,6 @@ internal val elReading: Map<String, String> = mapOf(
     "Tap the words in order" to "Πατήστε τις λέξεις με τη σειρά",
     "Remove the last word" to "Αφαίρεση της τελευταίας λέξης",
     "Sentence from {0}" to "Πρόταση από: {0}",
-    "Almost: most of the words were heard" to "Σχεδόν: ακούστηκαν οι περισσότερες λέξεις",
     "Listening…" to "Ακούω…",
     "Heard: {0}" to "Ακούστηκε: {0}",
     "Nothing was heard. Try again." to "Δεν ακούστηκε τίποτα. Δοκίμασε ξανά.",

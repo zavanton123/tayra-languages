@@ -248,7 +248,6 @@ internal val deReading: Map<String, String> = mapOf(
     "Tap the words in order" to "Tippe die Wörter der Reihe nach an",
     "Remove the last word" to "Letztes Wort entfernen",
     "Sentence from {0}" to "Satz aus: {0}",
-    "Almost: most of the words were heard" to "Fast: Die meisten Wörter wurden erkannt",
     "Listening…" to "Höre zu…",
     "Heard: {0}" to "Erkannt: {0}",
     "Nothing was heard. Try again." to "Nichts erkannt. Versuch es noch einmal.",

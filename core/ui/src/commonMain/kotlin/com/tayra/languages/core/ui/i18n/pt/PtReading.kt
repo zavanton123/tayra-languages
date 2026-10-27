@@ -248,7 +248,6 @@ internal val ptReading: Map<String, String> = mapOf(
     "Tap the words in order" to "Toque nas palavras pela ordem",
     "Remove the last word" to "Remover a última palavra",
     "Sentence from {0}" to "Frase de: {0}",
-    "Almost: most of the words were heard" to "Quase: a maioria das palavras foi ouvida",
     "Listening…" to "A ouvir…",
     "Heard: {0}" to "Ouvido: {0}",
     "Nothing was heard. Try again." to "Não se ouviu nada. Tente de novo.",

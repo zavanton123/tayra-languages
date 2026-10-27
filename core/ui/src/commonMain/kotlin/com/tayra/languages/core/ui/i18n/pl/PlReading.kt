@@ -248,7 +248,6 @@ internal val plReading: Map<String, String> = mapOf(
     "Tap the words in order" to "Stukaj słowa po kolei",
     "Remove the last word" to "Usuń ostatnie słowo",
     "Sentence from {0}" to "Zdanie z: {0}",
-    "Almost: most of the words were heard" to "Prawie: usłyszano większość słów",
     "Listening…" to "Słucham…",
     "Heard: {0}" to "Usłyszano: {0}",
     "Nothing was heard. Try again." to "Nic nie usłyszano. Spróbuj ponownie.",
