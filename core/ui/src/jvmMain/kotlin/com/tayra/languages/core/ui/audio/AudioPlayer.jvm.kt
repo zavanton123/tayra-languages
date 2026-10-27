@@ -42,7 +42,8 @@ actual class AudioPlayer actual constructor() {
     }
 
     actual fun stop() {
-        current?.close()
+        // Closing ends the playback; it can take seconds, so it is not waited for.
+        current?.let { player -> AudioRelease.later(player::close) }
         current = null
     }
 

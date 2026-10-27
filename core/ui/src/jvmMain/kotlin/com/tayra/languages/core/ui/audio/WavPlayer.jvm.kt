@@ -39,10 +39,7 @@ actual class WavPlayer {
         val playing = clip ?: return false
         clip = null
         heldAt = playing.framePosition
-        runCatching {
-            playing.stop()
-            playing.close()
-        }
+        release(playing)
         return true
     }
 
@@ -57,16 +54,17 @@ actual class WavPlayer {
         clip = null
         heldAt = null
         wav = null
-        playing?.let {
-            runCatching {
-                it.stop()
-                it.close()
-            }
-        }
+        playing?.let(::release)
         finish(synchronized(this) { done })
     }
 
     actual fun release() = stop()
+
+    /** Silences [clip] at once; its close, which can take seconds, is left to another thread. */
+    private fun release(clip: Clip) {
+        runCatching { clip.stop() }
+        AudioRelease.later(clip::close)
+    }
 
     private fun start(frame: Int) {
         val data = wav ?: return
