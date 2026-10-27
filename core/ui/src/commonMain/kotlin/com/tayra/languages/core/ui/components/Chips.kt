@@ -194,7 +194,8 @@ fun SelectableChip(
             .clickable(enabled = enabled, onClick = onClick)
             .padding(start = AppSpacing.m, end = if (onRemove != null) AppSpacing.xs else AppSpacing.m),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
+        // Centred for a chip given more width than its label, such as one of a row made alike.
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.CenterHorizontally),
     ) {
         when {
             leading == ChipLeading.Dot -> StatusDot(tint)

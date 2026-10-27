@@ -37,6 +37,8 @@ import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.Constraints
+import androidx.compose.ui.layout.Layout
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
@@ -277,8 +279,10 @@ internal fun PracticeSetupContent(
             val lengths = LENGTHS.filter { count -> count == null || total == null || count < total }
             // A length kept from a practice with more questions than these asks them all.
             val chosen = setup.length.takeIf { it in lengths }
-            lengths.forEach { count ->
-                SelectableChip(count?.toString() ?: total?.toString() ?: tr("All"), chosen == count, onClick = { setup = setup.copy(length = count) }, modifier = Modifier.testTag("practice-length-${count ?: "all"}"))
+            SameWidths {
+                lengths.forEach { count ->
+                    SelectableChip(count?.toString() ?: tr("All"), chosen == count, onClick = { setup = setup.copy(length = count) }, modifier = Modifier.testTag("practice-length-${count ?: "all"}"))
+                }
             }
         }
     }
@@ -385,6 +389,20 @@ private fun Option(title: String, note: String? = null, chips: @Composable () ->
         Text(title.uppercase(), style = AppText.overline, color = MaterialTheme.colorScheme.onSurfaceVariant)
         FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) { chips() }
         if (note != null) Text(note, Modifier.testTag("practice-examples"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+    }
+}
+
+/** The [content] in a row, each as wide as the widest and no narrower than it is high, so short labels make even circles. */
+@Composable
+private fun SameWidths(content: @Composable () -> Unit) {
+    Layout(content) { measurables, constraints ->
+        val gap = AppSpacing.s.roundToPx()
+        val height = measurables.maxOfOrNull { it.minIntrinsicHeight(Constraints.Infinity) } ?: 0
+        val width = maxOf(height, measurables.maxOfOrNull { it.maxIntrinsicWidth(height) } ?: 0)
+        val placeables = measurables.map { it.measure(Constraints.fixed(width, height)) }
+        layout(if (placeables.isEmpty()) 0 else width * placeables.size + gap * (placeables.size - 1), height) {
+            placeables.forEachIndexed { i, placeable -> placeable.place(i * (width + gap), 0) }
+        }
     }
 }
 
