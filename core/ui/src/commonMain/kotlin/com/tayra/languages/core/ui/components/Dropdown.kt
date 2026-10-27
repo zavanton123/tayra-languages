@@ -101,7 +101,8 @@ fun <T> Dropdown(
                     enabled = note == null,
                     modifier = if (onHover != null && note == null) Modifier.pointerInput(option) {
                         awaitPointerEventScope {
-                            while (true) if (awaitPointerEvent().type == PointerEventType.Enter) onHover(option)
+                            // The closing menu shrinks towards its top, sliding the options below a choice under the pointer.
+                            while (true) if (awaitPointerEvent().type == PointerEventType.Enter && expanded && !chosen) onHover(option)
                         }
                     } else Modifier,
                 )

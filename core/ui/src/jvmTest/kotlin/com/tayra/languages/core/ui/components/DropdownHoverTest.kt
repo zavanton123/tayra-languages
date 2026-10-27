@@ -43,6 +43,28 @@ class DropdownHoverTest {
     }
 
     @Test
+    fun theClosingMenuSlidingUnderThePointerIsNotPreviewed() = runDesktopComposeUiTest(width = 600, height = 600) {
+        val hovered = mutableListOf<String?>()
+        var selected by mutableStateOf("Default")
+        setContent {
+            TayraTheme {
+                Dropdown(listOf("Default", "Sepia", "Teal"), selected, onSelect = { selected = it }, label = null, optionLabel = { it }, onHover = { hovered += it })
+            }
+        }
+        onNodeWithText("Default").performClick()
+        waitForIdle()
+        mainClock.autoAdvance = false
+        onNodeWithText("Sepia").performClick()
+        mainClock.advanceTimeByFrame()
+        // The menu shrinks towards its top as it goes, so the option after the chosen one passes under the pointer.
+        onNodeWithText("Teal").performMouseInput { enter(center) }
+        mainClock.autoAdvance = true
+        waitForIdle()
+        assertEquals("Sepia", selected)
+        assertEquals("Sepia", hovered.last())
+    }
+
+    @Test
     fun closingWithoutAChoiceGoesBack() = runDesktopComposeUiTest(width = 600, height = 600) {
         val hovered = mutableListOf<String?>()
         setContent {
