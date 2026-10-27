@@ -225,4 +225,6 @@ internal val esCourses: Map<String, String> = mapOf(
     "Edit sentence" to "Editar frase",
     "Add a sentence" to "Añadir una frase",
     "Example sentence" to "Frase de ejemplo",
+    "Choose another example" to "Elegir otro ejemplo",
+    "Choose from examples" to "Elegir de los ejemplos",
 )

@@ -225,4 +225,6 @@ internal val elCourses: Map<String, String> = mapOf(
     "Edit sentence" to "Επεξεργασία πρότασης",
     "Add a sentence" to "Προσθήκη πρότασης",
     "Example sentence" to "Παράδειγμα πρότασης",
+    "Choose another example" to "Επιλέξτε άλλο παράδειγμα",
+    "Choose from examples" to "Επιλογή από παραδείγματα",
 )

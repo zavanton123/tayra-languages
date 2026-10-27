@@ -44,6 +44,7 @@ import kotlin.time.Instant
 /** What a card shows: the same content as the cards exported to Anki. */
 data class CardContent(
     val termId: Long,
+    val languageId: Long = 0,
     val word: String,
     /** The sentence the word was read in; null for a word saved without one. */
     val sentence: String? = null,
@@ -203,6 +204,7 @@ class FlashcardsViewModel(
         val sentence = term.sentence?.trim()?.takeIf { it.isNotEmpty() }
         return CardContent(
             termId = term.id,
+            languageId = term.languageId,
             word = word,
             sentence = sentence,
             wordRange = wordRange,
@@ -239,7 +241,8 @@ class FlashcardsViewModel(
         extrasJob = viewModelScope.launch {
             launch {
                 val translated = sentence?.let { attempt { translator.translate(it, language) } }
-                if (!translated.isNullOrBlank()) updateCard { it.copy(sentenceTranslation = translated) }
+                // An example chosen for the card meanwhile has a translation of its own.
+                if (!translated.isNullOrBlank()) updateCard { if (it.sentence == sentence) it.copy(sentenceTranslation = translated) else it }
             }
             launch {
                 val native = settings.current.nativeLanguage.trim().lowercase().ifEmpty { "en" }
@@ -287,6 +290,27 @@ class FlashcardsViewModel(
             service.answer(card, rating)?.let { answers.addLast(it) }
             _state.update { it.copy(answered = it.answered + 1) }
             load()
+        }
+    }
+
+    /**
+     * Gives the card on show [sentence], an example chosen for it, with its [translation], or a
+     * machine one when it has none; the card stays answered and its schedule as it was.
+     */
+    fun replaceSentence(sentence: String, translation: String?) {
+        val card = _state.value.card ?: return
+        val text = sentence.trim()
+        if (text.isEmpty() || text == card.sentence) return
+        fun updateCard(change: (CardContent) -> CardContent) = _state.update { s -> if (s.card?.termId == card.termId) s.copy(card = change(s.card)) else s }
+        viewModelScope.launch {
+            val range = service.replaceSentence(card.termId, text)
+            updateCard { it.copy(sentence = text, wordRange = range, sentenceTranslation = translation?.takeIf(String::isNotBlank)) }
+            audio?.let { launch { attempt { it.prepare(listOf(text), card.languageCode) } } }
+            if (translation.isNullOrBlank()) {
+                val language = languages.getById(card.languageId) ?: return@launch
+                val translated = attempt { translator.translate(text, language) }
+                if (!translated.isNullOrBlank()) updateCard { if (it.sentence == text) it.copy(sentenceTranslation = translated) else it }
+            }
         }
     }
 

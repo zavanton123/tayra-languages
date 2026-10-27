@@ -85,6 +85,7 @@ class FlashcardsScreenTest {
         wiktionary: OnlineWiktionary? = null,
         books: BookRepositoryImpl? = null,
         onRead: (Long) -> Unit = {},
+        onChooseExample: (CardContent) -> Unit = {},
     ): FlashcardsViewModel {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
@@ -118,7 +119,7 @@ class FlashcardsScreenTest {
                                 FlashcardsContent(
                                     state,
                                     speaker = null,
-                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onDelete = viewModel::deleteCard, onRead = onRead),
+                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample),
                                     hotkeys = hotkeys,
                                 )
                             }
@@ -159,6 +160,46 @@ class FlashcardsScreenTest {
         for (answer in listOf("Again", "Hard", "Good", "Easy")) onNodeWithText(answer).assertExists()
         for (gone in listOf("<1m", "<6m", "<10m", "Space")) assertEquals(0, onAllNodesWithText(gone).fetchSemanticsNodes().size, gone)
         save("FLASHCARD_BACK_SCREENSHOT")
+    }
+
+    /** An answered card offers other examples; one chosen replaces its sentence and translation, and the card stays answered. */
+    @Test
+    fun theAnsweredCardTakesAnExampleChosenForIt() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val asked = mutableListOf<Long>()
+        val viewModel = show(onChooseExample = { asked += it.termId })
+        assertEquals(0, onAllNodesWithTag("choose-example").fetchSemanticsNodes().size, "not before the answer")
+        onNodeWithText("Show answer").performClick()
+        onNodeWithTag("choose-example").performClick()
+        assertEquals(listOf(termId), asked)
+
+        viewModel.replaceSentence("Vou comprar pão amanhã.", "Я куплю хлеб завтра.")
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Vou comprar pão amanhã.").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Я куплю хлеб завтра.").assertExists()
+        onNodeWithTag("flashcard-answer").assertExists()
+        assertEquals("Vou comprar pão amanhã.", runBlocking { terms.getById(termId)!!.sentence })
+        assertEquals(4 until 11, viewModel.state.value.card!!.wordRange)
+        assertEquals(TermStatus.NEW_1, status(), "nothing answered")
+        save("FLASHCARD_CHOOSE_SCREENSHOT")
+    }
+
+    /** An example holding another form of the word has that form blanked, and a machine translation when it came without one. */
+    @Test
+    fun anExampleWithAnotherFormBlanksThatForm() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show()
+        onNodeWithText("Show answer").performClick()
+        viewModel.replaceSentence("Ela compra pão.", null)
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.card?.sentence == "Ela compra pão." && viewModel.state.value.card?.sentenceTranslation != null }
+        assertEquals(4 until 10, viewModel.state.value.card!!.wordRange)
+        assertEquals("Когда нам нужно что-то купить, мы заходим в супермаркет.", viewModel.state.value.card!!.sentenceTranslation)
+    }
+
+    /** A phone offers other examples under the sentence's translation, across the card. */
+    @Test
+    fun aPhoneOffersAnotherExampleUnderTheTranslation() = runDesktopComposeUiTest(width = 430, height = 932) {
+        show(phone = true)
+        onNodeWithText("Show answer").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("choose-example").fetchSemanticsNodes().isNotEmpty() }
+        save("FLASHCARD_CHOOSE_PHONE_SCREENSHOT")
     }
 
     private class FakeWiktionary(private val page: WiktionaryPage?) : OnlineWiktionary {

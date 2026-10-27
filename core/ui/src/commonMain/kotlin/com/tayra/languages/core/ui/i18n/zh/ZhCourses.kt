@@ -225,4 +225,6 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Edit sentence" to "编辑句子",
     "Add a sentence" to "添加句子",
     "Example sentence" to "例句",
+    "Choose another example" to "选择其他例句",
+    "Choose from examples" to "从例句中选择",
 )

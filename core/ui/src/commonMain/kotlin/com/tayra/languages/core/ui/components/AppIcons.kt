@@ -138,6 +138,11 @@ object AppIcons {
         icon("OpenInNew", "M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z")
     }
 
+    /** Two speech bubbles: example sentences to choose from. */
+    val Forum: ImageVector by lazy {
+        icon("Forum", "M15 4v7H5.17L4 12.17V4h11m1-2H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm5 4h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1z")
+    }
+
     val Abc: ImageVector by lazy {
         icon(
             "Abc",

@@ -225,4 +225,6 @@ internal val ptCourses: Map<String, String> = mapOf(
     "Edit sentence" to "Editar frase",
     "Add a sentence" to "Adicionar frase",
     "Example sentence" to "Frase de exemplo",
+    "Choose another example" to "Escolher outro exemplo",
+    "Choose from examples" to "Escolher dos exemplos",
 )

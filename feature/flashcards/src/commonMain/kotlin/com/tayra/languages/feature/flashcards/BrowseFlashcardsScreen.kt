@@ -90,6 +90,7 @@ import com.tayra.languages.core.ui.theme.AppAlpha
 import com.tayra.languages.core.ui.theme.AppShapes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
+import com.tayra.languages.feature.terms.examples.ChooseExampleDialog
 import kotlin.math.roundToInt
 import kotlin.time.Instant
 import kotlinx.datetime.DateTimeUnit
@@ -513,12 +514,27 @@ internal fun CardDetail(detail: BrowseDetail, now: Instant, actions: BrowseActio
     }
 }
 
-/** The example sentence the card blanks the word out of, with a pencil to change it in place; without one, the offer to add one. */
+/**
+ * The example sentence the card blanks the word out of, with a pencil to change it in place and
+ * the examples to choose another from; without one, the offers to add one either way.
+ */
 @Composable
 private fun SentenceBox(row: BrowseRow, onSave: (termId: Long, sentence: String) -> Unit) {
     val colors = MaterialTheme.colorScheme
     val direction = if (row.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     var editing by remember(row.termId) { mutableStateOf(false) }
+    var choosing by remember(row.termId) { mutableStateOf(false) }
+    if (choosing) {
+        ChooseExampleDialog(
+            termId = row.termId,
+            languageId = row.languageId,
+            word = row.word,
+            sentence = row.sentence,
+            translation = null,
+            onReplace = { sentence, _ -> choosing = false; onSave(row.termId, sentence) },
+            onDismiss = { choosing = false },
+        )
+    }
     var draft by remember(row.termId, editing) { mutableStateOf(row.sentence.orEmpty()) }
     val sentence = row.sentence
     when {
@@ -536,12 +552,16 @@ private fun SentenceBox(row: BrowseRow, onSave: (termId: Long, sentence: String)
                 PrimaryButton(tr("Save"), onClick = { onSave(row.termId, draft); editing = false }, modifier = Modifier.testTag("sentence-save"))
             }
         }
-        sentence == null -> QuietButton(tr("Add a sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), icon = Icons.Default.Edit)
+        sentence == null -> Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            QuietButton(tr("Add a sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), icon = Icons.Default.Edit)
+            QuietButton(tr("Choose from examples"), onClick = { choosing = true }, modifier = Modifier.testTag("sentence-choose"), icon = AppIcons.Forum)
+        }
         else -> Row(
             Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(start = AppSpacing.l, end = AppSpacing.xs, top = AppSpacing.xs, bottom = AppSpacing.xs),
             verticalAlignment = Alignment.CenterVertically,
         ) {
             Text(sentence, Modifier.weight(1f).padding(vertical = AppSpacing.s), style = MaterialTheme.typography.bodyMedium.copy(textDirection = direction), color = colors.onSurfaceVariant)
+            AppIconButton(AppIcons.Forum, contentDescription = tr("Choose from examples"), onClick = { choosing = true }, modifier = Modifier.testTag("sentence-choose"), size = IconButtonSize.Small)
             AppIconButton(Icons.Default.Edit, contentDescription = tr("Edit sentence"), onClick = { editing = true }, modifier = Modifier.testTag("sentence-edit"), size = IconButtonSize.Small)
         }
     }

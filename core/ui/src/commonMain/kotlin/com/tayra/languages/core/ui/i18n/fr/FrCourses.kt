@@ -225,4 +225,6 @@ internal val frCourses: Map<String, String> = mapOf(
     "Edit sentence" to "Modifier la phrase",
     "Add a sentence" to "Ajouter une phrase",
     "Example sentence" to "Phrase d’exemple",
+    "Choose another example" to "Choisir un autre exemple",
+    "Choose from examples" to "Choisir parmi les exemples",
 )

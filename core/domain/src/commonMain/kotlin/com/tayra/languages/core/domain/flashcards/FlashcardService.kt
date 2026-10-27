@@ -64,6 +64,12 @@ class FlashcardService(
     suspend fun clozeRange(term: Term): IntRange? =
         term.sentence?.trim()?.takeIf { it.isNotEmpty() }?.let { Cloze.cardRange(it, term, terms) }
 
+    /** Gives [termId]'s card [sentence] to blank its word out of; where the word stands in it, null when it does not. */
+    suspend fun replaceSentence(termId: Long, sentence: String): IntRange? {
+        terms.updateSentence(termId, sentence.trim())
+        return terms.getById(termId)?.let { clozeRange(it) }
+    }
+
     private fun config(s: UserSettings = settings.current) = SchedulerConfig(
         desiredRetention = s.flashcardRetention / 100.0,
         learnSteps = LearningSteps.parseOr(s.flashcardLearnSteps, UserSettings().flashcardLearnSteps),

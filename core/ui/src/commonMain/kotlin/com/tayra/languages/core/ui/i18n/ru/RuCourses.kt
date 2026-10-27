@@ -225,4 +225,6 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Edit sentence" to "Изменить предложение",
     "Add a sentence" to "Добавить предложение",
     "Example sentence" to "Пример предложения",
+    "Choose another example" to "Выбрать другой пример",
+    "Choose from examples" to "Выбрать из примеров",
 )

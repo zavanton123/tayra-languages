@@ -225,4 +225,6 @@ internal val deCourses: Map<String, String> = mapOf(
     "Edit sentence" to "Satz bearbeiten",
     "Add a sentence" to "Satz hinzufügen",
     "Example sentence" to "Beispielsatz",
+    "Choose another example" to "Anderes Beispiel wählen",
+    "Choose from examples" to "Aus Beispielen wählen",
 )

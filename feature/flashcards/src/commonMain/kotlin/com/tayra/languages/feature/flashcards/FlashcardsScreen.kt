@@ -133,6 +133,7 @@ import com.tayra.languages.core.ui.theme.AppSizes
 import com.tayra.languages.core.ui.theme.AppSpacing
 import com.tayra.languages.core.ui.theme.AppText
 import com.tayra.languages.core.ui.theme.RatingColors
+import com.tayra.languages.feature.terms.examples.ChooseExampleDialog
 import kotlin.time.Instant
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
@@ -156,6 +157,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
     LaunchedEffect(Unit) { viewModel.load() }
     val compact = LocalWindowWidth.current.isCompact
     var confirmDelete by remember { mutableStateOf<CardContent?>(null) }
+    var choosingExample by remember { mutableStateOf<CardContent?>(null) }
     Scaffold(
         topBar = {
             // Wide windows offer the browser from the page heading instead.
@@ -182,8 +184,21 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onBooks = { onNavigate(Route.Books) },
                 onRead = { onNavigate(Route.Read(it)) },
                 onBrowse = { onNavigate(Route.BrowseFlashcards()) },
+                onChooseExample = { choosingExample = it },
             ),
             modifier = Modifier.padding(padding),
+            overlay = choosingExample != null,
+        )
+    }
+    choosingExample?.let { card ->
+        ChooseExampleDialog(
+            termId = card.termId,
+            languageId = card.languageId,
+            word = card.word,
+            sentence = card.sentence,
+            translation = card.sentenceTranslation,
+            onReplace = { sentence, translation -> choosingExample = null; viewModel.replaceSentence(sentence, translation) },
+            onDismiss = { choosingExample = null },
         )
     }
     confirmDelete?.let { card ->
@@ -214,6 +229,8 @@ internal class FlashcardActions(
     val onRead: (Long) -> Unit = {},
     /** Every card in a list, to search and manage. */
     val onBrowse: () -> Unit = {},
+    /** Offers other example sentences for the card, to replace its own with. */
+    val onChooseExample: (CardContent) -> Unit = {},
 )
 
 internal val Rating.tint: Color
@@ -224,13 +241,16 @@ internal val Rating.tint: Color
         Rating.EASY -> RatingColors.easy
     }
 
-/** The page under the top bar. [speaker] reads the card aloud; without one there are no listen buttons. [hotkeys] holds the shortcut back to the previous card. */
+/**
+ * The page under the top bar. [speaker] reads the card aloud; without one there are no listen buttons. [hotkeys] holds the
+ * shortcut back to the previous card. [overlay] says a dialog over the page has the keys.
+ */
 @Composable
-internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, actions: FlashcardActions, modifier: Modifier = Modifier, hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults) {
+internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, actions: FlashcardActions, modifier: Modifier = Modifier, hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults, overlay: Boolean = false) {
     val compact = LocalWindowWidth.current.isCompact
     val focus = remember { FocusRequester() }
-    // The page holds the keys: it takes them with each card and answer, and back when the window or the screen returns to the front.
-    LaunchedEffect(state.card?.termId, state.revealed, state.canUndo) { runCatching { focus.requestFocus() } }
+    // The page holds the keys: it takes them with each card and answer, back when the window or the screen returns to the front, and when a dialog over it closes.
+    LaunchedEffect(state.card?.termId, state.revealed, state.canUndo, overlay) { if (!overlay) runCatching { focus.requestFocus() } }
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { runCatching { focus.requestFocus() } }
     val scroll = rememberScrollState()
     Box(modifier.fillMaxSize()) {
@@ -279,7 +299,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                         Finished(state, actions)
                     } else {
                         // Each card fades in as it comes up.
-                        key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact, actions.onReveal) } }
+                        key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact, actions.onReveal, onChooseExample = { actions.onChooseExample(card) }) } }
                         // The answers fade in as the card turns over.
                         if (state.revealed) Appear { Answers(actions, compact, state.twoButtons, state.waits) }
                         CardFooter(card, state.canUndo, actions, compact)
@@ -318,7 +338,7 @@ private fun PhoneReview(state: FlashcardsUiState, speaker: Speaker?, actions: Fl
             Progress(state, compact = true)
             val card = state.card
             if (card == null) Finished(state, actions)
-            else key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact = true, actions.onReveal, revealButton = false) } }
+            else key(card.termId) { Appear(grow = true) { Card(card, state.revealed, speaker, compact = true, actions.onReveal, revealButton = false, onChooseExample = { actions.onChooseExample(card) }) } }
         }
         val card = state.card ?: return@Column
         Column(Modifier.fillMaxWidth().padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
@@ -416,10 +436,11 @@ private fun CountPill(tag: String, count: Int, label: String, tint: Color, large
  * The card, with the content of the cards exported to Anki. Its front is the sentence the word
  * was read in with the word blanked out, over the sentence's translation; the answer puts the
  * word back and adds the word with its part of speech, translation and romanization. A word
- * saved without a sentence is shown on its own.
+ * saved without a sentence is shown on its own. An answered card with a sentence offers other
+ * examples for it: beside its sound on a wide screen, under the translation on a phone.
  */
 @Composable
-private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compact: Boolean, onReveal: () -> Unit, revealButton: Boolean = true) {
+private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compact: Boolean, onReveal: () -> Unit, revealButton: Boolean = true, onChooseExample: () -> Unit = {}) {
     val colors = MaterialTheme.colorScheme
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     val inset = if (compact) AppSpacing.xl else AppSpacing.xxxl
@@ -451,6 +472,10 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
             // No state tag: the counters above say how many cards are new, learning and due, and a tag named
             // Learning would read as the word's status.
             Spacer(Modifier.weight(1f))
+            if (revealed && !compact && card.sentence != null) {
+                SecondaryButton(tr("Choose another example"), onClick = onChooseExample, modifier = NoFocus.testTag("choose-example"), icon = AppIcons.Forum, tint = colors.primary)
+                Spacer(Modifier.width(AppSpacing.m))
+            }
             if (speaker != null) {
                 Box(
                     Modifier.size(AppSizes.tileLarge).clip(AppShapes.panel).border(AppBorders.hairline(), AppShapes.panel),
@@ -494,6 +519,9 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
                     .padding(horizontal = if (compact) AppSpacing.l else AppSpacing.huge, vertical = AppSpacing.l),
                 style = AppText.cardTranslation(compact).copy(color = colors.onSurfaceVariant, textAlign = TextAlign.Center),
             )
+        }
+        if (revealed && compact && sentence != null) {
+            SecondaryButton(tr("Choose another example"), onClick = onChooseExample, modifier = Modifier.padding(top = AppSpacing.m).fillMaxWidth().then(NoFocus).testTag("choose-example"), icon = AppIcons.Forum, tint = colors.primary)
         }
         if (revealed) {
             AppDivider(Modifier.padding(top = AppSpacing.l))

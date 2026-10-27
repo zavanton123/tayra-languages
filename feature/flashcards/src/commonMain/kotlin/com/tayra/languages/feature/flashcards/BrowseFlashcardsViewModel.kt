@@ -41,6 +41,7 @@ data class BrowseRow(
     val retrievability: Double?,
     val languageCode: String?,
     val rightToLeft: Boolean,
+    val languageId: Long = 0,
 )
 
 /** The groups of cards the browser can show, as the items of Anki's sidebar. */
@@ -154,6 +155,7 @@ class BrowseFlashcardsViewModel(
                     retrievability = entry.retrievability,
                     languageCode = termLanguage?.let { LanguageCodes.codeFor(it.name) },
                     rightToLeft = termLanguage?.rightToLeft == true,
+                    languageId = entry.term.languageId,
                 )
             }
             val ids = all.map { it.termId }.toSet()

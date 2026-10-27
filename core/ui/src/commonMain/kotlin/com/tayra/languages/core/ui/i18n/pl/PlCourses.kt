@@ -225,4 +225,6 @@ internal val plCourses: Map<String, String> = mapOf(
     "Edit sentence" to "Edytuj zdanie",
     "Add a sentence" to "Dodaj zdanie",
     "Example sentence" to "Przykładowe zdanie",
+    "Choose another example" to "Wybierz inny przykład",
+    "Choose from examples" to "Wybierz z przykładów",
 )
