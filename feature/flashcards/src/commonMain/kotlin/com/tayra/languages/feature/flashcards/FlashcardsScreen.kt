@@ -472,11 +472,11 @@ private fun Card(card: CardContent, answered: Boolean, speaker: Speaker?, compac
         Row(Modifier.fillMaxWidth().heightIn(min = AppSizes.tileLarge), verticalAlignment = Alignment.CenterVertically) {
             // No state tag: the counters above say how many cards are new, learning and due, and a tag named
             // Learning would read as the word's status.
-            Spacer(Modifier.weight(1f))
+            // Other examples lead on the left, the sentence's sound keeps the right.
             if (revealed && !compact && card.sentence != null) {
                 SecondaryButton(tr("Choose another example"), onClick = onChooseExample, modifier = NoFocus.testTag("choose-example"), icon = AppIcons.Forum, tint = colors.primary)
-                Spacer(Modifier.width(AppSpacing.m))
             }
+            Spacer(Modifier.weight(1f))
             // The button is the rounded square itself, so its hover and press fill that shape.
             if (speaker != null) SpeakButton(card.spoken, card.languageCode, speaker, NoFocus, style = IconButtonStyle.Outlined, size = IconButtonSize.Large, shape = AppShapes.panel)
         }
