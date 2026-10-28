@@ -1,0 +1,192 @@
+{
+  "id": "ca-mini-9300",
+  "rankUpTo": 9300,
+  "level": "C2",
+  "title": "Contes i llegendes",
+  "description": "Ten standalone stories about folk tales and legends: a clever girl and a giant, an embroidered white deer, a storytelling contest, a bottomless cave, a mosaic bench, a fable, online legends, an athenaeum's collection and sowing by the moon.",
+  "topic": "Tales and legends",
+  "names": [
+    "Mundina",
+    "Llorentí",
+    "Eulògia",
+    "Savall",
+    "Ricardina",
+    "Pirineu",
+    "Constantina",
+    "Aulet",
+    "Silveri",
+    "Alcoi",
+    "Hortensi",
+    "Rigalt",
+    "Orsola",
+    "Montsec",
+    "Breda",
+    "Girona",
+    "Domicià",
+    "Floriana",
+    "Antolina",
+    "Fontseca",
+    "Saurí",
+    "Osona",
+    "Vic",
+    "Empordà",
+    "Gerònima",
+    "Puigsec",
+    "Solsona",
+    "Vicentina",
+    "Garrigosa",
+    "Rossendo",
+    "Marcel·lià",
+    "Galdrica",
+    "Segre",
+    "Lleida"
+  ],
+  "lessons": [
+    {
+      "title": "El gegant de la font",
+      "summary": "In a folk tale from the Garrotxa, clever Mundina cooks a sack of chickpeas for the ruthless giant who makes the village pay for water from the spring, and wins free water for everyone in exchange for one pot of chickpeas a week.",
+      "newWords": [
+        "cigró",
+        "temible",
+        "despietat",
+        "covardia",
+        "enuig",
+        "rumiar",
+        "secretament",
+        "paladar",
+        "negociador"
+      ],
+      "text": "Fa molts anys, en un poble de la Garrotxa, hi havia una font d'aigua fresca al peu d'una roca. Al costat de la font hi vivia un gegant temible. Era alt com un pi i tenia una veu que feia tremolar els vidres de les finestres. A més de temible, era despietat: no deixava beure ningú de la font si no li pagava un sac de cigrons. Les famílies que no en tenien havien de caminar dues hores fins al riu.\n\nLa gent del poble es queixava a casa, però davant del gegant callava. Tothom tenia por de la seva veu i del seu enuig, i ningú no havia gosat mai demanar-li res. Era una covardia comprensible, però era covardia igualment.\n\nLa Mundina era la filla d'un pagès. Tenia dotze anys, poca paciència i molt de cap. Un estiu de sequera, quan el riu gairebé s'havia assecat, va decidir que n'hi havia prou. El seu germà, en Llorentí, li va aconsellar que no s'hi acostés: «És un gegant temible, Mundina, i tothom sap que és despietat.» «Temible, potser», va respondre ella. «Però els gegants també tenen gana.»\n\nDurant tres dies, la Mundina va rumiar un pla. Rumiava mentre feia les feines de casa i rumiava al llit amb els ulls oberts. Al final va tenir el pla clar, i el va preparar secretament: no en va dir res a ningú. Secretament, va agafar la cassola més gran de la cuina i l'últim sac de cigrons, i va sortir cap a la font.\n\n«Què vols, mossa?», va bramar el gegant. «Si vols aigua, ja saps el preu.»\n\n«Aquí tens els cigrons», va dir la Mundina, «però no te'ls donaré crus. Te'ls cuinaré.»\n\nEl gegant no havia menjat mai cigrons cuits. Va fer mala cara, però la curiositat va poder més que l'enuig, i la va deixar agafar aigua per a la cassola. La Mundina va encendre foc, va posar els cigrons a coure amb sal, all i herbes del marge, i va esperar.\n\nQuan el gegant va tastar els primers cigrons, es va quedar quiet. El seu paladar, acostumat als cigrons crus, no havia conegut mai res de tan bo. Es va acabar la cassola sencera i en va demanar més.\n\n«Te'n cuinaré una cada setmana», va dir la Mundina, «si deixes beure tothom de franc.» El gegant era un negociador dur. «Dues cassoles per setmana», va dir. «Una», va dir ella. «Una i mitja», va dir ell. La Mundina no es va moure: «Una, i ben feta.» Al final, el negociador va cedir: el seu paladar ja havia decidit per ell.\n\nDes d'aquell dia, tothom va beure de la font sense pagar, i el gegant no va tornar a menjar cigrons crus. I diuen que, en aquell poble, els cigrons encara es couen amb aigua de la font.\n\nPreguntes:\nPer què la gent del poble havia de caminar fins al riu?\nPerquè el gegant era despietat i no deixava beure ningú de la font si no li pagava un sac de cigrons.\nQuè va fer la Mundina durant tres dies?\nVa rumiar un pla, i després el va preparar secretament.\nQuè va passar quan el gegant va tastar els cigrons cuits?\nEl seu paladar no havia conegut mai res de tan bo, i es va acabar la cassola sencera.\nQuè li va proposar la Mundina al gegant?\nLi va proposar una cassola de cigrons cada setmana si deixava beure tothom de franc."
+    },
+    {
+      "title": "El cérvol del bastidor",
+      "summary": "In Ripoll, embroiderer Eulògia Savall stitches the old legend of a calm white deer glimpsed among the fir trees for a museum exhibition, and tells her granddaughter Ricardina where the legend may come from.",
+      "newWords": [
+        "bastidor",
+        "ornament",
+        "avet",
+        "plàcid",
+        "tenebra",
+        "albirar"
+      ],
+      "text": "L'Eulògia Savall brodava des dels quinze anys, i als setanta encara tenia el pols ferm. Aquella primavera, el museu de Ripoll li havia encarregat una peça per a una exposició sobre llegendes del Pirineu. Ella havia triat la llegenda del cérvol blanc dels boscos d'avets.\n\nCada tarda, la seva néta, la Ricardina, s'asseia al seu costat i la mirava treballar. La tela, de lli cru, estava ben estirada en un bastidor de fusta gran com una finestra. «Si la tela no està ben estirada al bastidor, els punts fan plecs», li explicava l'Eulògia. «El bastidor és com l'esquena del brodat: no es veu, però ho aguanta tot.»\n\n«I què explica la llegenda?», li va preguntar la Ricardina.\n\nL'Eulògia va enfilar l'agulla i va començar. Fa segles, deien els pastors de la vall, a les nits d'hivern, quan la neu cobria els avets i el bosc quedava en unes tenebres tan espesses que no s'hi veia ni la pròpia mà, de vegades es podia albirar una claror blanca entre els arbres. No era una llum: era un cérvol blanc com la neu. Baixava a beure a l'estany i es quedava quiet a la vora, plàcid, com si el fred no anés amb ell. Mai no fugia corrent ni feia mal a ningú. Els pastors deien que qui l'albirava tindria un bon any: pastures verdes, ovelles sanes i ni una tempesta.\n\nA la tela, el cérvol ja era al centre, brodat amb fil blanc i platejat. Al seu voltant, l'Eulògia hi havia fet els avets amb fils de quatre verds diferents, i el fons, amb un blau gairebé negre, per a les tenebres de la nit. A les vores hi havia un ornament de fulles i flors de muntanya que donava la volta a tota la peça. «L'ornament emmarca la història», va dir. «Sense l'ornament, sembla que el cérvol s'hagi d'escapar de la tela.»\n\nLa Ricardina va mirar l'animal blanc entre els avets. «Àvia, de debò hi havia un cérvol blanc?»\n\n«Qui sap», va dir l'Eulògia, somrient. «Els cérvols blancs són molt rars, però els pastors segurament van albirar alguna cosa. Potser una cabra de pèl clar, de lluny, amb la lluna al damunt. A la nit i amb neu, els ulls s'enganyen. Una llegenda sovint neix d'una cosa petita que algú va veure malament i va explicar bé.»\n\nVa trigar dos mesos a acabar-la. L'últim dia, va treure la tela del bastidor amb molt de compte i la va estendre sobre la taula. El cérvol era allà, plàcid enmig del bosc fosc, envoltat de l'ornament de flors. La Ricardina va dir que semblava que respirés.\n\nAl maig, la peça es va exposar al museu.\n\nPreguntes:\nQuè li havia encarregat el museu a l'Eulògia?\nLi havia encarregat una peça per a una exposició sobre llegendes del Pirineu.\nQuè deien els pastors que es podia albirar entre els avets?\nDeien que es podia albirar un cérvol blanc que baixava a beure a l'estany.\nCom era el cérvol de la llegenda?\nEra plàcid: mai no fugia corrent ni feia mal a ningú.\nPer què l'Eulògia va brodar el fons amb un blau gairebé negre?\nPerquè volia mostrar les tenebres de la nit al bosc.\nD'on creu l'Eulògia que va néixer la llegenda?\nCreu que els pastors potser van albirar una cabra de pèl clar, de lluny, amb la lluna al damunt."
+    },
+    {
+      "title": "Contes amb dolçaina",
+      "summary": "Storyteller Constantina Aulet, runner-up at last year's storytelling contest in Alcoi, returns with dolçaina player Silveri, whose short tunes answer her voice as a counterpoint, and this time wins first prize.",
+      "newWords": [
+        "subcampió",
+        "dolçaina",
+        "contrapunt",
+        "cartellera",
+        "plurilingüe",
+        "moderador",
+        "puntualitat",
+        "reeixit"
+      ],
+      "text": "La Constantina Aulet explica contes des de fa vint anys, en biblioteques, escoles i places de poble. L'any passat es va presentar per primera vegada al certamen de narració oral d'Alcoi i en va quedar subcampiona. Va ser una alegria, però la guanyadora havia acompanyat els contes amb música, i a ella li va semblar que al seu hi havia faltat alguna cosa.\n\nAquest any hi torna amb en Silveri, un amic que toca la dolçaina en una colla de música tradicional. La dolçaina és un instrument de vent de fusta, de so agut i potent, que se sent des de l'altra punta d'un carrer. Per això en Silveri no l'ha de tocar tota l'estona. La idea és que la dolçaina faci de contrapunt a la veu: quan la Constantina parla, ell calla; quan ella fa una pausa, la dolçaina respon amb quatre notes, com si fos un altre personatge de la història. «El contrapunt ha de ser curt», li ha dit ella a l'assaig. «Si la música dura massa, el públic perd el fil del conte.»\n\nA l'entrada del teatre hi ha la cartellera del certamen. La Constantina s'hi atura a buscar el seu nom: actua dissabte a les 6 de la tarda. La cartellera anuncia tres dies de contes, tallers per a famílies i, diumenge, una taula rodona amb els narradors. Aquest any, a més, el certamen és plurilingüe: hi ha narradors que expliquen en català i d'altres que ho fan en les llengües que es parlen a casa seva, amb un resum en català a la pantalla.\n\nAbans de començar, el moderador reuneix els participants entre bastidors i els recorda les normes. Cada narrador té 12 minuts, ni un més. «Us demano puntualitat», diu. «Si un comença tard, tots els altres comencen tard.» La puntualitat, al certamen, també compta: el jurat té un rellotge sobre la taula.\n\nLa Constantina explica la història d'una pastora que volia saber d'on venia el vent. Comença a l'hora exacta. Cada vegada que el vent de la història bufa, la dolçaina d'en Silveri hi fa el contrapunt amb un xiulet llarg, i el públic somriu fins i tot abans que ella acabi la frase. Acaba quan falten 20 segons per als 12 minuts.\n\nDiumenge al migdia, el jurat dona els premis. Aquest any, la Constantina ja no és subcampiona: guanya el primer premi. A la taula rodona, el moderador li pregunta com han preparat l'actuació. «Ha estat un experiment reeixit», diu ella, «però no ha estat fàcil. Hem assajat dos mesos perquè la dolçaina no tapés mai la veu.» En Silveri hi afegeix que la clau d'un contrapunt reeixit és saber callar.\n\nPreguntes:\nCom va quedar la Constantina al certamen de l'any passat?\nEn va quedar subcampiona.\nQuè fa la dolçaina d'en Silveri durant el conte?\nFa de contrapunt a la veu: respon amb unes quantes notes quan la Constantina fa una pausa.\nPer què el certamen d'aquest any és plurilingüe?\nPerquè hi ha narradors que expliquen contes en les llengües que es parlen a casa seva.\nPer què el moderador demana puntualitat?\nPerquè, si un narrador comença tard, tots els altres comencen tard.\nQuè diu en Silveri d'un contrapunt reeixit?\nDiu que la clau d'un contrapunt reeixit és saber callar."
+    },
+    {
+      "title": "La cova sense fons",
+      "summary": "Geologist Hortensi Rigalt leads a walk in the Montsec to a cave that local legend says has no bottom, measures its depth with hiker Orsola, and explains the real fact at the root of the legend.",
+      "newWords": [
+        "tallafoc",
+        "curvatura",
+        "fondària",
+        "despreniment",
+        "qüestionable",
+        "germen",
+        "atípic"
+      ],
+      "text": "Als pobles del peu del Montsec, la gent gran parla d'una cova sense fons. Segons la llegenda, fa molts anys un pastor hi va llançar una pedra per saber-ne la fondària, i no la va sentir tocar a terra. Des de llavors, tothom diu que aquella cova no s'acaba mai.\n\nL'Hortensi Rigalt és geòleg i, cada tardor, organitza una excursió per explicar la geologia de la serra. Aquest dissabte hi van 12 persones. Al cap d'una hora de pujada travessen un tallafoc: una franja ampla sense arbres que talla el bosc de pins de dalt a baix. «Un tallafoc serveix perquè, si hi ha un incendi, el foc no pugui saltar d'una banda a l'altra», explica l'Hortensi.\n\nUna mica més amunt hi ha la cova. L'entrada és un forat estret, i a dins la roca fa una curvatura suau, com l'interior d'una closca d'ou. L'Hortensi assenyala la curvatura del sostre: «Aquesta forma l'ha feta l'aigua, que durant milers d'anys ha anat desfent la pedra calcària gota a gota.»\n\nL'Orsola, una de les excursionistes, ha portat un rodet amb 100 metres de corda i un pes a la punta. Entre tots dos el fan baixar per un pou que s'obre al fons de la cova. Als 43 metres, la corda s'afluixa: el pes ha tocat a terra. «Doncs sí que té fons», diu l'Orsola. «I força menys del que diu la llegenda.»\n\n«Ja us ho deia», respon l'Hortensi. «Que no tingui fons és una idea qüestionable.»\n\nDesprés els explica per què el pastor no va sentir la pedra. Al fons del pou hi ha una capa gruixuda de fang i de sorra. Fa temps hi va haver un despreniment de roques a la paret, i el despreniment va deixar a baix un pendent de pedres petites cobert de fang. Una pedra que hi cau no fa cap soroll: s'enfonsa en el fang com en un coixí. «La llegenda és qüestionable, però el pastor no s'ho va inventar», diu. «Hi ha un germen de veritat: és cert que no va sentir res. A aquest germen, la gent hi va afegir la resta.»\n\nTambé els explica que la cova és força atípica. En aquesta serra, la majoria de coves són horitzontals; un pou vertical tan fondo és un cas atípic, i per això els geòlegs l'estudien.\n\nEn baixar, quan tornen a passar pel tallafoc, l'Orsola diu que li agrada més la llegenda que la mesura. L'Hortensi riu. «Una cosa no treu l'altra. La fondària és de 43 metres, i la llegenda és de tothom.»\n\nPreguntes:\nQuè explica la llegenda de la cova?\nExplica que un pastor hi va llançar una pedra i no la va sentir tocar a terra.\nPer a què serveix un tallafoc?\nServeix perquè, si hi ha un incendi, el foc no pugui saltar d'una banda a l'altra.\nQuè ha format la curvatura del sostre de la cova?\nL'ha formada l'aigua, que durant milers d'anys ha desfet la pedra gota a gota.\nQuina fondària té el pou?\nTé 43 metres de fondària.\nPer què el pastor no va sentir la pedra?\nPerquè un despreniment de roques va deixar al fons un pendent de pedres i fang, i la pedra s'hi enfonsa sense fer soroll.\nPer què la cova és atípica?\nPerquè a la serra la majoria de coves són horitzontals, i un pou vertical tan fondo és un cas atípic."
+    },
+    {
+      "title": "El banc de trencadís",
+      "summary": "A Breda legend: potter Domicià's earthenware dinner set for a wealthy Girona family breaks on the way, and his daughter Floriana turns the broken pieces into a mosaic bench and a bracelet, which brings him new work.",
+      "newWords": [
+        "pisa",
+        "benestant",
+        "parament",
+        "menyspreable",
+        "trencadís",
+        "braçalet"
+      ],
+      "text": "A la plaça de Breda hi ha un banc cobert de trossos de ceràmica de colors: blaus, blancs, grocs i verds, tallats de mil maneres i encaixats com un trencaclosques. Els veïns diuen que és el banc de trencadís més antic de la comarca, i n'expliquen una llegenda.\n\nFa més de cent anys, a Breda hi vivia un ceramista que es deia Domicià. Feia olles, gerres i cassoles per a la gent del poble, però el seu orgull era la pisa: una ceràmica més fina, blanca i brillant, que només comprava la gent benestant. Un dia, una família benestant de Girona li va encarregar un parament complet per a la taula: plats, bols, fonts, dotze tasses i una gerra per a l'aigua, tot de pisa blanca amb flors blaves. Era el parament més gran que havia fet mai.\n\nEn Domicià i la seva filla, la Floriana, hi van treballar tot l'hivern. Quan el parament va ser acabat, el van embolicar amb palla, el van carregar en un carro i van sortir cap a Girona. A mig camí, una roda es va trencar en un sot, i el carro va bolcar. Quan van desfer la palla, gairebé tota la pisa estava feta miques.\n\nLa família benestant no va voler pagar res per un parament trencat. En Domicià va tornar a casa amb el carro ple de trossos i sense diners. Durant uns quants dies no va voler ni entrar al taller. La Floriana, però, mirava aquells trossos de pisa amb altres ulls. «Pare, els trossos són petits, però no són menyspreables», li va dir. «Mira: cada tros té una flor sencera.»\n\nLa Floriana va escampar morter sobre el banc de pedra de davant del taller i hi va anar encaixant els trossos, l'un al costat de l'altre, de manera que les flors blaves quedessin a la vista. En pocs dies, el banc vell s'havia convertit en un banc de trencadís que brillava al sol.\n\nLa gent del poble s'hi aturava a mirar-lo. Algú va demanar un trencadís per a la font del seu pati; un altre, per a una paret de la cuina. Aviat els encàrrecs ja no eren gens menyspreables, i en Domicià va tornar al taller amb ganes. Amb els trossos més petits, la Floriana es va fer un braçalet: unes quantes peces de pisa blanca amb flors blaves, amb un forat al mig i lligades amb un fil. Diuen que va portar aquell braçalet tota la vida.\n\nAvui, als tallers de Breda encara es fan braçalets de trencadís, i els venedors expliquen la llegenda a tothom que en compra un.\n\nPreguntes:\nQuè era la pisa per a en Domicià?\nEra el seu orgull: una ceràmica fina, blanca i brillant, que només comprava la gent benestant.\nQuè li va encarregar la família benestant de Girona?\nLi va encarregar un parament complet de pisa blanca amb flors blaves.\nQuè va passar a mig camí de Girona?\nUna roda es va trencar en un sot, el carro va bolcar i gairebé tota la pisa es va fer miques.\nQuè va dir la Floriana dels trossos de pisa?\nVa dir que eren petits, però no menyspreables, perquè cada tros tenia una flor sencera.\nQuè va fer la Floriana amb els trossos?\nVa fer un banc de trencadís davant del taller, i amb els trossos més petits es va fer un braçalet."
+    },
+    {
+      "title": "Mal de cap abans del conte",
+      "summary": "Storyteller Antolina Fontseca gets headaches before every performance and fears migraine; Dr Saurí's diagnosis is blocked sinuses and a tense back, and a nasal spray, exercises, a scarf and ginger tea help.",
+      "newWords": [
+        "migranya",
+        "diagnosi",
+        "nasal",
+        "esprai",
+        "mitigar",
+        "pelvis",
+        "vertebral",
+        "bufanda",
+        "gingebre"
+      ],
+      "text": "L'Antolina Fontseca explica contes a les biblioteques d'Osona. Des del començament de la tardor, però, cada vegada que ha d'actuar, li ve un mal de cap fort darrere els ulls. Primer pensava que era cansament; després, llegint a internet, es va convèncer que tenia migranya. La seva mare n'havia patit tota la vida.\n\nUn dilluns va demanar hora al centre de salut. La doctora Saurí la va escoltar amb atenció i li va fer moltes preguntes: on li feia mal, quant durava el dolor, si veia llums estranyes abans de començar, si el soroll la molestava. «La migranya sovint ve amb aquestes llums i amb ganes de vomitar», li va dir. «Vostè no en té. Abans de fer una diagnosi, l'he d'explorar.»\n\nLa doctora li va mirar el nas i la gola i li va prémer suaument la cara sota els ulls. Allà sí que li feia mal. La diagnosi va ser clara: no era migranya, sinó una congestió nasal. Amb el fred i els refredats de la tardor, les vies nasals se li tapaven, i la pressió li provocava el mal de cap.\n\nLi va recomanar un esprai nasal d'aigua de mar, dues vegades al dia, i li va ensenyar a fer-lo servir: el cap una mica inclinat, l'esprai a cada forat del nas i respirar a poc a poc. «L'esprai no ho cura tot d'un dia per l'altre, però ajuda a mitigar la pressió», va dir.\n\nDesprés la doctora la va observar dreta. L'Antolina, quan explica contes, es passa una hora dreta amb la pelvis tirada endavant i les espatlles amunt. «Si la pelvis no està ben col·locada, tota la columna vertebral ho nota, fins al coll», li va explicar. «I la tensió del coll també fa mal de cap.» Li va donar uns exercicis per a la columna vertebral i per posar bé la pelvis, i li va recomanar que es protegís el coll del fred amb una bufanda.\n\nA la tarda, l'Antolina es va comprar una bufanda de llana grisa. A la farmàcia, quan va anar a buscar l'esprai, el farmacèutic la va sentir parlar del mal de cap i li va dir que una infusió de gingebre calenta també la podia ajudar a mitigar les molèsties del refredat. Ella va comprar una arrel de gingebre, la va tallar a trossos petits i se'n va fer una tassa amb mel i llimona.\n\nTres setmanes després, va tornar a actuar, ara a la biblioteca de Vic. Abans de sortir es va posar l'esprai, va fer els exercicis i es va lligar la bufanda al coll. Al final del conte no li feia mal res.\n\nPreguntes:\nPer què l'Antolina pensava que tenia migranya?\nPerquè cada vegada que actuava li venia un mal de cap fort, i la seva mare n'havia patit tota la vida.\nQuina va ser la diagnosi de la doctora Saurí?\nVa dir que no era migranya, sinó una congestió nasal.\nPer què li va recomanar un esprai nasal?\nPerquè l'esprai ajuda a mitigar la pressió.\nQuè passa quan l'Antolina té la pelvis mal col·locada?\nTota la columna vertebral ho nota, fins al coll, i la tensió del coll també fa mal de cap.\nPer què la doctora li va recomanar una bufanda?\nPerquè es protegís el coll del fred.\nQuè li va aconsellar el farmacèutic?\nLi va aconsellar una infusió de gingebre calenta."
+    },
+    {
+      "title": "L'abella i el cargol",
+      "summary": "In a fable set in an Empordà vegetable garden, a proud bee challenges a slow snail to a race to the top of the fence; when rain soaks her wings, the snail leads her, crawling slat by slat, to a dry shed.",
+      "newWords": [
+        "agulló",
+        "enlairament",
+        "reticent",
+        "impropi",
+        "reptar",
+        "llistó",
+        "esgotament"
+      ],
+      "text": "En un hort de l'Empordà, entre els tomàquets i una tanca de fusta, hi vivien una abella i un cargol. L'abella era treballadora, però també molt orgullosa. Cada matí, abans d'anar a les flors, passava volant pel costat del cargol i li deia alguna cosa desagradable.\n\n«Mira'm, cargol», li deia. «Tinc ales, tinc agulló i tinc pressa. Tu només tens una closca i molta paciència.» I per demostrar-ho, feia un enlairament de cop, sense prendre impuls, i desapareixia en un segon entre les flors.\n\nEl cargol no responia. No era tímid, però era reticent a discutir amb qui només volia lluir-se. Per a ell, cridar no era propi d'un animal assenyat, i presumir li semblava encara més impropi.\n\nUn dia de juny, l'abella el va reptar davant de tot l'hort: «A veure qui arriba primer al llistó de dalt de la tanca!» El cargol, reticent, va dir que no li interessaven les curses.\n\nAquella tarda, però, el cel es va tapar de cop i va començar a caure una pluja espessa. L'abella era lluny, damunt d'una flor de carbassa. Les gotes li van mullar les ales, i quan va voler fer un enlairament, no va poder: les ales mullades li pesaven com si fossin de plom. Ho va provar tres vegades i, a la tercera, va quedar estirada sobre una fulla, en un estat d'esgotament total.\n\nLlavors va veure el cargol. Reptava a poc a poc per la tanca, llistó a llistó, cap al cobert de les eines, on no arribava la pluja. «No puc volar», li va dir l'abella, amb una veu petita. «Doncs camina darrere meu», va respondre el cargol.\n\nL'abella el va seguir a peu. El cargol reptava sense pressa i sense aturar-se, i ella anava darrere. Van passar per l'últim llistó i van entrar sota la teulada del cobert, on la fusta era seca. Quan hi van arribar, l'abella va caure en un esgotament profund i va dormir fins a l'endemà.\n\nAl matí, amb les ales seques, va fer un enlairament curt i es va posar al costat del cargol. «Ahir et vaig reptar a una cursa», li va dir, «i al final m'has guanyat sense córrer.» El cargol li va respondre que no hi havia hagut cap cursa per guanyar. Des d'aquell dia, l'abella va continuar tenint el seu agulló, però no en va tornar a presumir mai, i quan passava per la tanca, l'únic que li deia al cargol era «bon dia».\n\nPreguntes:\nQuè li semblava impropi al cargol?\nLi semblava impropi cridar i, encara més, presumir.\nPer què el cargol no responia?\nPerquè era reticent a discutir amb qui només volia lluir-se.\nA què el va reptar l'abella?\nEl va reptar a una cursa fins al llistó de dalt de la tanca.\nPer què l'abella no podia fer l'enlairament?\nPerquè la pluja li havia mullat les ales, i li pesaven com si fossin de plom.\nCom van arribar al cobert?\nEl cargol reptava per la tanca, llistó a llistó, i l'abella el seguia a peu.\nQuè li va passar a l'abella sota la teulada del cobert?\nVa caure en un esgotament profund i va dormir fins a l'endemà."
+    },
+    {
+      "title": "Llegendes de la xarxa",
+      "summary": "A newspaper column by Gerònima Puigsec on modern legends that spread online, the banana that supposedly never goes off and the cloned film star, and on why such wild stories multiply.",
+      "newWords": [
+        "banana",
+        "caducar",
+        "delirant",
+        "clon",
+        "proliferar",
+        "interconnexió",
+        "indiscriminat",
+        "noticiari"
+      ],
+      "text": "Quan pensem en llegendes, pensem en coves, gegants i pastors de fa segles. Però les llegendes no s'han acabat: només han canviat de lloc. Ara viuen a la xarxa, i corren més de pressa que mai.\n\nAquesta setmana, una lectora em va enviar un missatge que li havia arribat per tres grups de mòbil diferents. Deia que hi ha un tipus de banana que no es fa mai negra, perquè l'han tractada amb un producte secret, i que les bananes del supermercat ja no caduquen. Fins i tot hi havia una foto: una banana ben groga al costat d'un calendari. És una història delirant, però té tots els ingredients d'una bona llegenda: una cosa de cada dia, un perill amagat i algú que ens amaga la veritat.\n\nLa veritat és més avorrida. Una banana no porta data impresa: madura, es torna negra i, al final, es fa malbé. Hi ha bananes que es cullen verdes i maduren en cambres especials, però totes acaben madurant. Si una fruita no caduqués mai, la veuríem en tots els diaris.\n\nL'altra llegenda de la setmana és encara més delirant: segons diuen, un actor famós s'ha fet fer un clon per poder rodar dues pel·lícules alhora. Però un clon no és una còpia d'un adult: neix com un nadó i ha de créixer com tothom. Un clon adult a punt per rodar una pel·lícula només existeix en la ciència-ficció.\n\nPer què proliferen aquestes històries? Una part de la resposta és la interconnexió: avui tots estem connectats amb tothom, i un missatge pot passar per mil mòbils abans que algú es pregunti si és cert. Abans, una llegenda trigava anys a anar d'un poble a l'altre; ara, gràcies a aquesta interconnexió, ho fa en una tarda. L'altra part és que ens agrada saber les coses abans que els altres, i compartir una cosa sorprenent ens dona aquesta sensació.\n\nNo cal desconfiar de tot. Però l'ús indiscriminat del botó de compartir fa que les llegendes proliferin com els bolets a la tardor. Abans de compartir res, ens podríem fer tres preguntes: qui ho diu, on ho diu i per què ho diu. Si una cosa tan sorprenent no surt en cap noticiari, ni a la ràdio ni als diaris, segurament no és certa. Els noticiaris també s'equivoquen, però almenys signen el que diuen.\n\nLes llegendes antigues ens explicaven el món quan no el podíem entendre. Les de la xarxa sovint ens l'expliquen malament quan sí que el podríem entendre. Llegir-les amb un somriure, i no compartir-les de manera indiscriminada, és la millor manera de tractar-les: com una curiositat.\n\nGerònima Puigsec\n\nPreguntes:\nQuè deia el missatge que va rebre la lectora?\nDeia que hi ha bananes que no es fan mai negres i que les bananes del supermercat ja no caduquen.\nQuè explica l'autora sobre els clons?\nExplica que un clon neix com un nadó i que un clon adult a punt per rodar no existeix.\nPer què proliferen aquestes històries?\nPer la interconnexió de tothom amb tothom i perquè ens agrada saber les coses abans que els altres.\nQuè recomana fer abans de compartir un missatge?\nRecomana preguntar-se qui ho diu, on ho diu i per què ho diu.\nPer què diu que podem confiar més en un noticiari?\nPerquè, encara que també s'equivoca, signa el que diu."
+    },
+    {
+      "title": "Les llegendes de l'ateneu",
+      "summary": "Vicentina Garrigosa of the Solsona athenaeum records old people's legends in occupational therapy sessions at the care home, finds sponsors and insurance, and turns the old billiards room into an exhibition that brings the town together.",
+      "newWords": [
+        "billar",
+        "ocupacional",
+        "cohesionar",
+        "rendibilitat",
+        "mecenatge",
+        "pòlissa",
+        "condicionament",
+        "transcendental"
+      ],
+      "text": "L'ateneu de Solsona és una entitat cultural antiga, amb una biblioteca petita, un cafè i, al primer pis, una sala de billar on durant dècades els socis havien passat les tardes d'hivern. Ara, però, la sala està gairebé buida: el billar només es fa servir els dijous, quan en Rossendo, un soci de vuitanta anys, hi juga amb dos amics.\n\nLa Vicentina Garrigosa, que coordina les activitats de l'ateneu, va tenir una idea l'any passat: recollir les llegendes que encara expliquen els avis de la comarca abans que es perdin. Volia, a més, que el projecte servís per cohesionar les generacions del poble. Va trucar a la residència de gent gran, i la terapeuta ocupacional hi va estar d'acord de seguida. A la residència, les sessions de teràpia ocupacional serveixen perquè els residents mantinguin la memòria, les mans i les ganes de fer coses.\n\nDurant sis mesos, la Vicentina hi va anar cada dimecres a gravar-les. Va recollir 40 llegendes: fonts que no s'assequen mai, roques amb forma d'animal, gegants que dormien sota els turons.\n\nCalia publicar-les en un llibre i fer una exposició amb objectes antics que les famílies volien deixar. Però l'ateneu no tenia diners. Un llibre de llegendes té poca rendibilitat: se'n venen pocs exemplars, i la rendibilitat, de fet, no era l'objectiu. La Vicentina va buscar mecenatge. Una empresa de mobles de la comarca i la farmàcia del poble van acceptar pagar la impressió. «Sense mecenatge, aquest llibre no existiria», va escriure a la primera pàgina.\n\nL'exposició va ser més complicada. Les famílies deixaven objectes de molt valor per a elles: un rellotge de butxaca, una capsa de música, un mocador brodat. L'ateneu va haver de contractar una pòlissa d'assegurança, i la pòlissa cobria qualsevol dany mentre els objectes fossin a l'ateneu.\n\nTambé calia un lloc. La Vicentina va proposar fer l'exposició a la sala de billar. Abans, però, la sala necessitava un bon condicionament: pintar les parets, canviar els llums i posar-hi vitrines. El condicionament va durar tres setmanes, i en Rossendo hi va ajudar cada tarda.\n\nEl dia de la inauguració, la sala de billar era plena com no s'havia vist mai. Hi havia els avis de la residència, els seus néts, els mecenes i molts veïns que no havien entrat mai a l'ateneu. Una dona de setanta anys va reconèixer en una vitrina la capsa de música de la seva mare.\n\nAl final de l'acte, la Vicentina va dir que el projecte havia servit per cohesionar el poble: les llegendes eren de tothom, i tothom s'hi havia reconegut. Per a l'ateneu, va dir, recollir-les havia estat una decisió transcendental. En Rossendo, des del fons de la sala, va dir que per a ell la decisió transcendental seria tornar a destapar el billar els dijous. La Vicentina li va prometre que, quan s'acabés l'exposició, el billar tornaria a ser seu.\n\nPreguntes:\nOn va recollir les llegendes la Vicentina?\nA la residència de gent gran, en les sessions de teràpia ocupacional.\nQui va pagar la impressió del llibre?\nLa van pagar una empresa de mobles i la farmàcia del poble, gràcies al mecenatge.\nPer què l'ateneu va haver de contractar una pòlissa?\nPer assegurar els objectes que les famílies havien deixat per a l'exposició.\nQuè va necessitar la sala de billar abans de l'exposició?\nVa necessitar un bon condicionament: pintar les parets, canviar els llums i posar-hi vitrines."
+    },
+    {
+      "title": "Sembrar amb la lluna",
+      "summary": "Old farmer Marcel·lià sows by the phases of the moon as folk tradition teaches; his granddaughter Galdrica, an agronomist, talks with him about the sky, the soil and fertilisers, and they agree on a new way of working the garden.",
+      "newWords": [
+        "tretzè",
+        "celeste",
+        "cosmos",
+        "excepcionalment",
+        "fertilitzant",
+        "degenerar",
+        "immunitari",
+        "sistèmic"
+      ],
+      "text": "En Marcel·lià té vuitanta-dos anys i un hort a la vora del Segre, a prop de Lleida. Sembra les mongetes amb lluna minvant, poda els fruiters amb lluna vella i no planta mai res amb lluna nova. Ho va aprendre del seu pare, que ho havia après del seu avi, i així fins a no se sap quanta gent enrere. A casa diuen, mig de broma, que en Marcel·lià és el tretzè pagès de la família que ho fa així: el tretzè d'una llarga cadena que ningú no ha comptat del tot.\n\nLa seva néta, la Galdrica, és enginyera agrícola. Aquest estiu passa uns dies amb ell, i cada vespre s'asseuen al pati a mirar el cel. En Marcel·lià li ensenya els noms antics dels estels: el Carro, les Cabretes, l'estel del pastor. Per a ell, la volta celeste és un calendari: quan les Cabretes surten de matinada, toca preparar la terra. Els pagesos d'abans, li diu, llegien el mapa celeste com qui llegeix un llibre.\n\nLa Galdrica li parla del cosmos. Li explica que la lluna és a uns 384.000 quilòmetres, que la seva llum és la del sol reflectida i que el cosmos és tan gran que la llum d'alguns estels ha trigat milers d'anys a arribar fins als seus ulls. «I la lluna fa créixer les mongetes, o no?», li pregunta.\n\nLa Galdrica somriu. La lluna mou l'aigua del mar, li diu, però no s'ha pogut demostrar que faci créixer més les llavors. Excepcionalment, algun estudi ha trobat petites diferències, però quan es repeteix l'experiment, les diferències desapareixen. «El que importa més no és a dalt», li diu. «És a baix, a la terra.»\n\nL'endemà, al magatzem, la Galdrica veu els sacs de fertilitzant químic que l'avi tira cada primavera. Li explica que, si es posa massa fertilitzant any rere any, el sòl degenera: perd els cucs i els fongs, es compacta i les plantes es fan més febles. Les plantes també tenen una mena de sistema immunitari, i en un sòl viu aquest sistema immunitari respon millor a les plagues. «Un hort és un sistema», diu. «No pots canviar una cosa sense que en canviïn deu més. Per això cal mirar-lo amb una visió sistèmica.»\n\nEn Marcel·lià rumia una estona. Al final arriben a un acord: ell continuarà sembrant amb la lluna, perquè és la seva manera de fer i no fa mal a ningú, però posarà menys fertilitzant i farà compost amb les restes de l'hort. Tots dos volen que la terra no degeneri, i la solució, diu ella, ha de ser tan sistèmica com el problema.\n\nL'any següent, excepcionalment, els tomàquets no van tenir cap plaga. En Marcel·lià ho va atribuir a la lluna; la Galdrica, al compost. Tots dos van decidir que no calia discutir-ho.\n\nPreguntes:\nCom sembra en Marcel·lià?\nSembra segons la lluna: les mongetes amb lluna minvant i res amb lluna nova.\nPer què a casa diuen que és el tretzè pagès de la família?\nPerquè és el tretzè d'una llarga cadena de pagesos que ho han fet així.\nPer a què servia la volta celeste als pagesos d'abans?\nEls servia de calendari per saber quan tocava preparar la terra.\nQuè passa si es posa massa fertilitzant cada any?\nEl sòl degenera: perd els cucs i els fongs, es compacta i les plantes es fan més febles.\nQuin acord fan l'avi i la néta?\nEll continuarà sembrant amb la lluna, però posarà menys fertilitzant i farà compost."
+    }
+  ]
+}
