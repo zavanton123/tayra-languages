@@ -1,0 +1,200 @@
+{
+  "id": "gl-mini-6900",
+  "rankUpTo": 6900,
+  "level": "C1",
+  "title": "Números e razoamento",
+  "description": "Ten texts about numbers and reasoning in everyday life: a column on misleading statistics, a class that models the lunch queue, a winter storm and a weather station, a kiosk's accounts, a lorry driver's kilometres, a garden's litres, a runner's data, timing contractions, a logic puzzle and a museum of calculating machines.",
+  "topic": "Numbers and reasoning",
+  "names": [
+    "Leoncia",
+    "Pichel",
+    "Pontevedra",
+    "Xesualdo",
+    "Boado",
+    "Monforte",
+    "Becerreá",
+    "Galicia",
+    "Cesárea",
+    "Ouviña",
+    "Rolando",
+    "Gerpe",
+    "Getulio",
+    "Rabuñal",
+    "Ferrol",
+    "Hermelindo",
+    "Mazaira",
+    "Lalín",
+    "Oviedo",
+    "Lugo",
+    "Santiago",
+    "Coruña",
+    "Asturias",
+    "Alfonsina",
+    "Doural",
+    "Verín",
+    "Nívea",
+    "Bargiela",
+    "Vilagarcía",
+    "Silvio",
+    "Elvia",
+    "Pumariño",
+    "Ourense",
+    "Renato",
+    "Anido",
+    "Arcadia",
+    "Recarey",
+    "Cangas",
+    "Lupercio",
+    "Sóñora",
+    "Cleto",
+    "Cives",
+    "Abundio",
+    "Pastoriza"
+  ],
+  "lessons": [
+    {
+      "title": "Columna: tamén se poden maquillar os números",
+      "summary": "In her monthly column, statistics teacher Leoncia Pichel of Pontevedra explains how true figures can still mislead: a percentage with no starting number, a chart whose axis does not begin at zero, an average that hides the majority, and why a reader should reconsider before sharing a figure.",
+      "newWords": [
+        "maquillar",
+        "ambiguo",
+        "subliñar",
+        "remarcar",
+        "caótico",
+        "grotesco",
+        "reconsiderar",
+        "intensificar"
+      ],
+      "text": "Leoncia Pichel dá clases de estatística nun instituto de Pontevedra e, desde hai dous anos, escribe unha columna mensual no xornal da cidade. Este mes escolleu unha idea que repite moito aos seus alumnos: os números non enganan, pero quen os presenta pode maquillar a realidade sen dicir nin unha soa mentira.\n\n«Pensemos nun exemplo sinxelo», escribe. «Unha tenda anuncia que as súas vendas de bicicletas subiron un 50 %. Parece unha gran noticia. Pero se antes vendía dúas bicicletas ao mes e agora vende tres, a porcentaxe é exacta e o cambio é case nada.» Para Leoncia, o problema non está na cifra, senón no xeito de usala. Unha porcentaxe sen o número do que parte é unha información ambigua, e unha información ambigua deixa que cada lector entenda o que prefire.\n\nOutro modo de maquillar os datos está nos gráficos. Leoncia lembra un que viu nunha revista: dúas barras case iguais, pero o eixe vertical non empezaba en cero, e a diferenza parecía enorme. «O resultado era grotesco», escribe: unha diferenza do 2 % debuxada coma se fose o dobre. Cando ela o mostra na clase, os alumnos rin, pero despois cústalles atopar o mesmo truco noutros gráficos menos grotescos e moito máis discretos.\n\nA autora subliña tamén o problema das medias. Se nunha empresa de dez persoas nove gañan pouco e unha gaña moitísimo, o salario medio di pouco do que cobra a maioría. Por iso Leoncia remarcou moitas veces nas súas clases a diferenza entre a media e a mediana, o valor que queda no centro cando se ordenan todos os datos de menor a maior. «Quero remarcar que non é un detalle técnico», escribe. «É a diferenza entre entender unha noticia e non entendela.»\n\nLeoncia recoñece que o mundo dos datos pode parecer caótico: cifras que chegan de todas partes, enquisas que din unha cousa e outras que din a contraria. E cando un debate se intensifica nas redes, cada parte escolle a cifra que mellor lle vai e esquece as demais. Pero un mundo caótico non se ordena deixando de mirar os números, senón aprendendo a lelos amodo.\n\nPor iso a columna remata cun pequeno exercicio. Antes de compartir unha cifra, Leoncia propón tres preguntas: de onde vén, con que se compara e que deixa fóra. Se algunha resposta é ambigua, convén reconsiderar. «Eu mesma tiven que reconsiderar moitas veces a miña primeira impresión», confesa. «E cada vez aprendín algo.» Unha última frase subliña a idea central: un número ben explicado vale máis ca dez números ben pintados.\n\nPreguntas:\nQue idea escolleu Leoncia para a columna deste mes?\nEscolleu a idea de que os números non enganan, pero quen os presenta pode maquillar a realidade sen dicir ningunha mentira.\nPor que a porcentaxe das bicicletas é unha información ambigua?\nPorque non di de que número parte: subir de dúas bicicletas a tres é un 50 %, pero o cambio é case nada.\nPor que era grotesco o gráfico da revista?\nPorque o eixe vertical non empezaba en cero e unha diferenza do 2 % parecía o dobre.\nQue diferenza remarcou moitas veces Leoncia nas súas clases?\nRemarcou a diferenza entre a media e a mediana.\nQue pasa cando un debate se intensifica nas redes?\nCada parte escolle a cifra que mellor lle vai e esquece as demais.\nQue tres preguntas propón Leoncia antes de compartir unha cifra?\nDe onde vén, con que se compara e que deixa fóra; se unha resposta é ambigua, convén reconsiderar."
+    },
+    {
+      "title": "O modelo da cola do comedor",
+      "summary": "Maths teacher Xesualdo Boado in Monforte has his pupils model the lunch queue with a spreadsheet: they get used to the tool, start from a rigid model, rebuild it when the data do not fit, and learn to let go of their first answer.",
+      "newWords": [
+        "modelar",
+        "familiarizar",
+        "inculcar",
+        "fomentar",
+        "flexible",
+        "refacer",
+        "aferrar",
+        "académico"
+      ],
+      "text": "Xesualdo Boado ensina matemáticas nun instituto de Monforte. Cada curso académico propón aos seus alumnos de bacharelato un proxecto práctico, e este ano escolleu un problema que todos coñecen ben: a cola do comedor. Ás dúas da tarde chegan uns trescentos estudantes ao mesmo tempo, e algúns esperan máis de vinte minutos para comer.\n\n«Imos modelar a cola», díxolles o primeiro día. Modelar, explicoulles, quere dicir describir unha situación real con números e regras sinxelas, para poder prever o que pasará se cambia algo. Antes de empezar, dedicaron unha semana a familiarizarse coa folla de cálculo. Moitos nunca a usaran para nada máis ca unha lista, e Xesualdo prefire que estean ben familiarizados coa ferramenta antes de pensar no problema.\n\nO primeiro modelo foi moi simple: cada estudante tarda trinta segundos en coller a bandexa e a comida, e chegan todos á vez. O resultado non se parecía á realidade. Os alumnos foron ao comedor cun reloxo e contaron: os estudantes non chegan todos á vez, senón en ondas, cando rematan as clases de cada andar. Houbo que refacer o modelo. Refixérono dúas veces máis, e na terceira versión a cola calculada xa se parecía moito á que vían todos os días.\n\nNeste proceso Xesualdo quere inculcar un hábito que considera fundamental: comparar sempre o modelo cos datos. «Un modelo ten que ser flexible», repite. «Se os datos din outra cousa, o modelo cambia; os datos non.» Sempre hai algún alumno que se aferra ao primeiro resultado porque lle custou moito traballo, e Xesualdo enténdeo, pero non o deixa quedar aí. «É normal aferrarse ao que fixemos», dilles. «Eu tamén me aferro ás miñas ideas. Pero se o modelo falla, hai que refacer o modelo, non defendelo.»\n\nAo final, os alumnos probaron unha idea: abrir o comedor dez minutos antes para os cursos que rematan antes. Segundo o modelo, a espera máxima baixaba de vinte e dous minutos a nove. A dirección decidiu probalo durante un mes, e a cola real quedou en once minutos. Non era exactamente o que dicía o modelo, pero si moi preto.\n\nO instituto quere fomentar este tipo de proxectos: cada primavera fomenta unha pequena feira onde os alumnos presentan os seus traballos ás familias. Xesualdo está contento. Non tanto polos resultados académicos, que tamén foron bos, como polo que aprenderon os alumnos: que un problema cotián se pode modelar con números, que un bo modelo é flexible e que equivocarse e refacer forma parte do traballo. «Se consigo inculcar iso», di, «xa fixen o máis importante do curso.»\n\nPreguntas:\nQue problema escolleu Xesualdo para o proxecto?\nEscolleu a cola do comedor, onde algúns estudantes esperan máis de vinte minutos.\nQue quere dicir modelar unha situación, segundo Xesualdo?\nQuere dicir describila con números e regras sinxelas para poder prever o que pasará se cambia algo.\nPor que tiveron que refacer o primeiro modelo?\nPorque os estudantes non chegan todos á vez, senón en ondas, cando rematan as clases de cada andar.\nQue hábito quere inculcar Xesualdo?\nQuere inculcar o hábito de comparar sempre o modelo cos datos.\nQue pasou cando abriron o comedor dez minutos antes?\nA cola real quedou en once minutos, moi preto do que dicía o modelo.\nQue aprenderon os alumnos, segundo Xesualdo?\nQue un problema cotián se pode modelar con números, que un bo modelo é flexible e que equivocarse e refacer forma parte do traballo."
+    },
+    {
+      "title": "A estación do vento",
+      "summary": "After a winter storm near Becerreá, meteorological technician Cesárea Ouviña installs a new weather station on farmer Rolando Gerpe's land, explains what the wind and rain figures mean, and helps him see why his old stone wall fell and how to rebuild it stronger.",
+      "newWords": [
+        "abalar",
+        "esborrallar",
+        "escavar",
+        "nivelar",
+        "desolar",
+        "consolidar"
+      ],
+      "text": "Unha noite de febreiro pasou polas montañas do leste de Lugo unha treboada de inverno. Na aldea de Rolando Gerpe, preto de Becerreá, o vento abalaba as fiestras e as árbores de arredor das casas, e a choiva non parou ata a mañá.\n\nDúas semanas despois, a técnica Cesárea Ouviña chegou á aldea para instalar unha estación meteorolóxica nova. O lugar escollido era unha leira de Rolando, un home xubilado que pasara a vida coas vacas, lonxe das casas. Primeiro houbo que escavar un burato dun metro de fondo para a base do mastro. Escavaron entre os dous durante toda a mañá, porque a terra estaba chea de pedras. Despois Cesárea puxo formigón e explicou que había que nivelar os aparellos con moito coidado: se o pluviómetro non está ben nivelado, mide mal a choiva. Tardou media hora en nivelar a estación, mirando unha pequena burbulla de aire.\n\nMentres traballaban, Rolando preguntoulle que significaban os números que daba a radio. Cesárea explicoulle que a choiva se mide en litros por metro cadrado: aquela noite caeran uns setenta, o mesmo que se alguén baleirase sete cubos de dez litros en cada metro cadrado da leira. E o vento, que chegara a cen quilómetros por hora no alto da serra, abala unha fiestra con moita máis forza do que parece: se a velocidade se dobra, a forza que empuxa multiplícase case por catro. Rolando fixo a conta cos dedos e asubiou.\n\nLogo amosoulle o que lle preocupaba a el. Aquela noite esborrallouse un anaco do muro de pedra que separaba a leira do camiño, un muro que levantara o seu avó. Rolando quedara desolado ao velo pola mañá, coas pedras espalladas pola herba. «Unha noite de vento pode esborrallar un muro así?», preguntou.\n\nCesárea mirou o muro con atención. Explicoulle que o vento non tiña a culpa: o muro xa estaba débil. A choiva de moitos invernos levara a terra de entre as pedras, e a base estaba torta. A auga daquela noite só abalou un pouco o que xa estaba a piques de caer. Antes de acabar o inverno, o muro caería igual con calquera outra choiva forte. Rolando quedou menos desolado ao entendelo: non fora unha forza enorme, senón o tempo.\n\nÁ semana seguinte, uns veciños axudárono a levantar de novo o anaco caído. Cesárea deulle un consello: consolidar a base con pedras grandes e encher ben os ocos para que a auga corra sen levar a terra. Agora o muro está consolidado e máis recto ca antes, e a poucos metros a estación nova mide cada día o vento e a choiva da montaña.\n\nPreguntas:\nQue pasou na aldea a noite da treboada?\nO vento abalaba as fiestras e as árbores, e a choiva non parou ata a mañá.\nQue tiveron que facer antes de pór a estación?\nTiveron que escavar un burato dun metro de fondo e despois nivelar os aparellos con moito coidado.\nQue quere dicir que caeron setenta litros por metro cadrado?\nÉ o mesmo que baleirar sete cubos de dez litros en cada metro cadrado da leira.\nPor que estaba desolado Rolando?\nPorque aquela noite se esborrallou un anaco do muro de pedra que levantara o seu avó.\nPor que caeu o muro, segundo Cesárea?\nPorque xa estaba débil: a choiva levara a terra de entre as pedras e a base estaba torta.\nQue consello lle deu Cesárea a Rolando?\nDeulle o consello de consolidar a base con pedras grandes e encher ben os ocos."
+    },
+    {
+      "title": "As contas do quiosco",
+      "summary": "Getulio Rabuñal, who runs a newspaper kiosk in Ferrol, works out what each magazine really earns him, haggles with a sweets supplier, packs up unsold copies for the distributor, turns down a costly machine and adds a little coffee corner to supplement his income.",
+      "newWords": [
+        "quiosco",
+        "regatear",
+        "intermediario",
+        "empaquetar",
+        "declinar",
+        "reportar",
+        "suplementar",
+        "empeñar"
+      ],
+      "text": "Getulio Rabuñal ten un quiosco no centro de Ferrol desde hai vinte e cinco anos. Vende xornais, revistas, cromos, caramelos e algún libro de pasatempos. Cada noite, despois de pechar, senta na cociña cun caderno e fai as contas do día. A súa filla dille que unha folla de cálculo sería máis rápida, pero Getulio empéñase en facelo a man. «Se o escribo eu, enténdoo eu», responde.\n\nAs contas dun quiosco son máis complicadas do que parecen. Getulio non lle compra as revistas directamente ás editoriais, senón a unha distribuidora, que fai de intermediario. O intermediario lévalle cada mañá os exemplares e, ao final da semana, recolle os que non se venderon. Por cada revista vendida, Getulio queda cun 20 % do prezo. Unha revista de cinco euros déixalle un euro; un xornal de dous euros, corenta céntimos. Os exemplares que non vende hai que empaquetalos ben, contados e atados, para devolvelos. O domingo pasado, por exemplo, Getulio empaquetou corenta e dúas revistas, e algunhas semanas empaquetar leva máis tempo ca vender.\n\nOs caramelos funcionan doutro xeito: cómpraos e son seus, véndaos ou non. Por iso Getulio aprendeu a regatear. O mes pasado o provedor quería subir o prezo das bolsas un 10 %. Getulio regateou durante media hora e conseguiu deixalo nun 4 %, a cambio de pedir o dobre cada vez. «Regatear non é pelexar», di. «É buscar un número que lles sirva aos dous.»\n\nHai uns meses, un comercial ofreceulle unha máquina de cobrar con pantalla. Custaba tres mil euros e prometía aforrar tempo. Getulio fixo as contas no caderno: para recuperar os tres mil euros, tería que vender uns dez mil xornais máis, e iso non ía pasar. Declinou a oferta con educación. O comercial insistiu dúas veces máis, e dúas veces máis Getulio declinou.\n\nO que si fixo foi buscar outro xeito de suplementar os ingresos. Puxo unha pequena máquina de café nun recanto do quiosco. Moitos clientes que compran o xornal pola mañá tamén queren un café para levar, e cada café, despois de pagar a máquina e o produto, déixalle uns sesenta céntimos. Ao cabo de tres meses, o café xa suplementa os ingresos do quiosco en douscentos euros ao mes.\n\nA súa filla segue pensando que o caderno é cousa doutro século, pero recoñece que as contas do pai son exactas. A idea do café reportou máis beneficios ca calquera máquina moderna, e Getulio cre que pode reportar aínda máis no inverno, cando a xente ten máis frío. «Os números non che din que facer», di. «Pero dinche o que non debes facer.»\n\nPreguntas:\nPor que fai Getulio as contas a man?\nPorque se empeña en facelo así: di que se o escribe el, o entende el.\nQuen fai de intermediario entre o quiosco e as editoriais?\nUnha distribuidora, que lle leva os exemplares e recolle os que non se venderon.\nQue fai Getulio cos exemplares que non vende?\nTen que empaquetalos ben, contados e atados, para devolvelos.\nComo lle foi ao regatear co provedor de caramelos?\nO provedor quería subir o prezo un 10 % e Getulio conseguiu deixalo nun 4 %.\nPor que declinou a oferta da máquina de cobrar?\nPorque para recuperar os tres mil euros tería que vender uns dez mil xornais máis.\nComo conseguiu suplementar os ingresos?\nPuxo unha máquina de café nun recanto do quiosco, que xa lle reportou uns douscentos euros ao mes."
+    },
+    {
+      "title": "Os quilómetros de Hermelindo",
+      "summary": "Lorry driver Hermelindo Mazaira of Lalín carries bottled spring water to Asturias: he gets up early to avoid traffic, works out fuel and driving hours, finds the empty lorry lighter on the way back, gets stuck in a muddy farm track and unties his load at the warehouse.",
+      "newWords": [
+        "camioneiro",
+        "madrugar",
+        "enfiar",
+        "esquivar",
+        "atoar",
+        "desatar",
+        "embotellar",
+        "livián"
+      ],
+      "text": "Hermelindo Mazaira é camioneiro desde os vinte e tres anos, e xa leva máis de trinta na estrada. Vive en Lalín e traballa para unha empresa que embotella auga de manancial nunha planta próxima á vila. Dúas veces por semana leva un camión cheo de garrafas a un almacén de Oviedo.\n\nEses días Hermelindo madruga moito. Érguese ás catro e media, toma un café con leite e ás cinco xa está na planta. Non lle importa madrugar: sabe que se sae antes das seis pode esquivar o tráfico da entrada de Lugo. Cada media hora gañada pola mañá aforra unha hora de atascos máis tarde. «Ás cinco e media enfío a autovía cara ao norte e xa non paro ata pasar Lugo», conta.\n\nUn camioneiro vive entre números. Hermelindo sabe que o seu camión, cargado con vinte e catro toneladas de auga, gasta uns trinta e cinco litros de gasóleo cada cen quilómetros. A viaxe ata Oviedo son uns trescentos quilómetros, así que necesita arredor de cento cinco litros só para a ida. Ademais, as normas non permiten conducir máis de nove horas ao día, e cada catro horas e media ten que parar polo menos tres cuartos de hora. Por iso planifica as paradas como quen resolve un problema de matemáticas.\n\nEn Oviedo chega ao almacén ás dez. Alí ten que desatar as cintas que suxeitan os palés, unha por unha, antes de que a carretilla os baixe. Desatar as cintas ben atadas custa traballo, pero Hermelindo nunca as deixa frouxas: un palé solto nunha curva é un problema serio.\n\nA volta é outra cousa. Co camión baleiro, todo é máis livián: o motor vai máis tranquilo e o gasto baixa a uns vinte e cinco litros cada cen quilómetros. «Unha volta liviá é unha volta cómoda», di Hermelindo, «pero tamén é unha volta que non paga ninguén.» Por iso a empresa intenta que traia algunha carga na volta.\n\nHai uns meses, nunha desas cargas de volta, tivo que recoller unhas caixas nunha granxa de Asturias. Hermelindo enfiou un camiño de terra mollado, e o camión atoouse na lama a poucos metros da porta. Por moito que acelerase, as rodas xiraban sen avanzar. Ao final o granxeiro trouxo o tractor e tirou do camión ata sacalo. Desde aquel día, antes de entrar nun camiño de terra, Hermelindo baixa e mira o chan. «Un camión atoado non vai a ningures», di, «e perde máis tempo do que gaña un camión que madruga.»\n\nPreguntas:\nQue fai a empresa para a que traballa Hermelindo?\nEmbotella auga de manancial nunha planta preto de Lalín.\nPor que madruga tanto Hermelindo?\nPorque se sae antes das seis pode esquivar o tráfico da entrada de Lugo.\nCantos litros de gasóleo necesita para a ida a Oviedo?\nNecesita arredor de cento cinco litros, porque gasta uns trinta e cinco cada cen quilómetros.\nQue ten que facer Hermelindo ao chegar ao almacén?\nTen que desatar as cintas que suxeitan os palés, unha por unha.\nPor que gasta menos na volta?\nPorque co camión baleiro todo é máis livián e o gasto baixa a uns vinte e cinco litros.\nQue lle pasou na granxa de Asturias?\nEnfiou un camiño de terra mollado, o camión atoouse na lama e o granxeiro tivo que sacalo co tractor."
+    },
+    {
+      "title": "Os litros da horta de Alfonsina",
+      "summary": "In a dry summer near Verín, Alfonsina Doural works out how many litres her sunny vegetable garden needs, switches to drip irrigation, fences the plot against a pheasant, clears the brambles at the edge and deals with aphids on her beans.",
+      "newWords": [
+        "regar",
+        "solleiro",
+        "silva",
+        "infestar",
+        "trepar",
+        "faisán",
+        "enreixar",
+        "enxoito"
+      ],
+      "text": "Alfonsina Doural ten unha horta nunha aldea preto de Verín. A leira está nun solleiro, de cara ao sur, e no verán o sol dá nela desde as nove da mañá ata a noite. Iso é bo para os tomates e os pementos, pero tamén quere dicir que a terra se seca axiña. Este ano, despois de dous meses sen choiva, o chan estaba tan enxoito que se abría en gretas.\n\nAta agora Alfonsina regaba coa mangueira, a ollo, cando lle parecía que as plantas tiñan sede. Pero a auga do pozo estaba baixando, e decidiu facer as contas. Mediu a horta: dez metros por oito, oitenta metros cadrados. Na cooperativa explicáronlle que, en pleno verán, unha horta así nun lugar solleiro pode necesitar uns cinco litros por metro cadrado e día. Oitenta por cinco, catrocentos litros diarios. Logo mirou o contador da mangueira e descubriu que gastaba case o dobre, porque regaba pola tarde, co sol aínda forte, e boa parte da auga se evaporaba antes de chegar ás raíces.\n\nCambiou de método. Puxo un sistema de goteo, cun tubo fino que leva a auga gota a gota ao pé de cada planta, e un pequeno reloxo que a abre ás seis da mañá. Agora rega só o que fai falta e a terra arredor das plantas xa non está enxoita. A primeira semana gastou trescentos noventa litros ao día, moi preto da conta.\n\nQuedaban outros problemas. Un faisán baixaba cada mañá do monte e picaba os tomates máis maduros. Alfonsina víao desde a fiestra da cociña, coas súas cores tan vivas, e case lle daba pena botalo. Ao final decidiu enreixar a horta cunha malla metálica de metro e medio. O faisán veu dous días máis, deu unha volta arredor da horta enreixada e despois non volveu.\n\nAo poñer a malla atopou tamén as silvas. No bordo da leira, as silvas medraran tanto que xa entraban na horta e quitábanlles luz e auga ás leitugas. Alfonsina pasou unha tarde cortándoas, con luvas grosas, pero deixou unha parte fóra da malla: en agosto dan amoras, e a súa neta, que vén de visita no verán, adora facer marmelada con elas.\n\nO último problema chegou en xullo. As xudías, que trepan polas canas ata dous metros, apareceron cheas de pulgóns. Unha praga así pode infestar unha horta enteira en poucos días, e unha veciña contoulle que o ano pasado unha praga semellante lle infestou todos os feixóns. Alfonsina lavou as follas con auga e xabón e plantou capuchinas ao lado, que atraen as xoaniñas. En dúas semanas as xudías volvían trepar sen pulgóns.\n\nPreguntas:\nPor que se seca axiña a terra da horta de Alfonsina?\nPorque a leira está nun solleiro, de cara ao sur, e o sol dá nela todo o día.\nCantos litros necesitaba a horta, segundo as contas?\nUns catrocentos litros ao día: oitenta metros cadrados por cinco litros.\nPor que gastaba case o dobre coa mangueira?\nPorque regaba pola tarde, co sol forte, e boa parte da auga se evaporaba.\nQue fixo Alfonsina co faisán?\nDecidiu enreixar a horta cunha malla metálica, e o faisán non volveu.\nPor que deixou unha parte das silvas fóra da malla?\nPorque en agosto dan amoras e a súa neta adora facer marmelada con elas.\nQue fixo contra a praga que infestou as xudías?\nLavou as follas con auga e xabón e plantou capuchinas, que atraen as xoaniñas."
+    },
+    {
+      "title": "Entrevista: Nívea Bargiela, corredora de fondo",
+      "summary": "An interview with long-distance runner Nívea Bargiela of Vilagarcía about the numbers of her training: heart rate, pace and calories, sticky energy gels, a coach who jokes and blurts out hard truths, rest days that pamper the body and the joy of a race well paced.",
+      "newWords": [
+        "deportista",
+        "atlético",
+        "mimar",
+        "aledar",
+        "chancear",
+        "espetar",
+        "enerxético",
+        "pegañento"
+      ],
+      "text": "Nívea Bargiela ten trinta e un anos, vive en Vilagarcía e corre maratóns desde os vinte e cinco. Traballa como fisioterapeuta e adestra cada mañá antes de ir á clínica. Na última maratón da Coruña quedou terceira, con 2 horas e 41 minutos. Falamos con ela sobre os números que hai detrás dunha carreira.\n\nQue importancia teñen os datos para unha deportista coma ti?\nMoita, pero non toda. Levo un reloxo que me mide o pulso, o ritmo e a distancia, e despois de cada adestramento miro as cifras. Por exemplo, nos días suaves non paso de 145 pulsacións por minuto. Se o reloxo marca máis, baixo o ritmo, aínda que me pareza que vou moi lenta. A maioría dos deportistas afeccionados corren os días suaves demasiado rápido.\n\nComo calculas o ritmo dunha maratón?\nÉ case unha división. Se quero facer 2 horas e 40 minutos, teño que correr cada quilómetro en 3 minutos e 47 segundos. O difícil non é saber o número, senón respectalo cando te sentes ben no quilómetro dez. Hai que ter a cabeza fría.\n\nE a comida?\nNunha maratón gasto unhas 2.600 calorías, e o corpo só garda enerxía para unha parte. Por iso tomo xeles enerxéticos cada media hora. Son pequenos sobres dun líquido moi pegañento; ao principio odiábaos, porque che deixan as mans pegañentas e o reloxo tamén. Agora levo un pano no peto. As barras enerxéticas, en cambio, resérvoas para os adestramentos longos.\n\nQue papel ten o teu adestrador?\nFundamental. Chámase Silvio, foi corredor e ten moito sentido do humor. Pásase o día a chancear: chancea co meu reloxo, coas miñas zapatillas, co tempo de Vilagarcía. Pero cando hai que dicir algo serio, non o adorna. Un día, despois dunha serie mala, espetoume: «Corres co reloxo, non coas pernas.» Doeume, pero tiña razón. Desde entón, cando algo non vai ben, prefiro que mo espete á cara.\n\nTi pareces moi disciplinada. Descansas algunha vez?\nSi, e iso tamén é adestrar. Os luns non corro. Ese día dedícome a mimar o corpo: estiramentos, unha boa cea, durmir nove horas. Ao principio sentíame culpable, pero aprendín que hai que mimar as pernas se queres que che respondan o domingo. Un físico atlético non se fai só correndo, faise tamén descansando.\n\nQue é o que máis che aleda dunha carreira?\nNon é o posto. O que máis me aleda é cando a segunda metade sae máis rápida ca primeira. Iso quere dicir que fixen ben as contas e que fun paciente. Na Coruña corrín os últimos quilómetros mellor ca nunca, e aínda me aleda pensalo. Ese día sentinme atlética de verdade.\n\nPreguntas:\nQue mide o reloxo de Nívea?\nMídelle o pulso, o ritmo e a distancia.\nQue fai Nívea se o pulso pasa de 145 nun día suave?\nBaixa o ritmo, aínda que lle pareza que vai moi lenta.\nPor que toma xeles enerxéticos durante a maratón?\nPorque gasta unhas 2.600 calorías e o corpo só garda enerxía para unha parte.\nQue lle espetou un día o adestrador?\nEspetoulle que corría co reloxo, non coas pernas.\nQue fai os luns para mimar o corpo?\nNon corre, fai estiramentos, cea ben e dorme nove horas.\nQue é o que máis lle aleda dunha carreira?\nAlédalle que a segunda metade saia máis rápida ca primeira."
+    },
+    {
+      "title": "Contar os minutos",
+      "summary": "In the last week of her pregnancy in Ourense, Elvia Pumariño and her partner Renato Anido follow the gynaecologist's simple rule for timing contractions, breathe and meditate instead of rushing, and go to the hospital at the right moment, where a daughter is born the next morning.",
+      "newWords": [
+        "xinecólogo",
+        "contracción",
+        "meditar",
+        "hospitalario",
+        "apresurar",
+        "untar"
+      ],
+      "text": "Elvia Pumariño estaba na semana trinta e nove do seu primeiro embarazo. Vivía en Ourense coa súa parella, Renato Anido, e os dous levaban días mirando o teléfono a cada momento. Na última consulta, a xinecóloga, a doutora Arcadia Recarey, deralles unha regra moi sinxela para saber cando ir ao hospital.\n\n«As contraccións do principio son irregulares», explicáralles. «Veñen, van, unhas máis fortes e outras máis suaves. Non hai que apresurar nada. Cando as contraccións cheguen cada cinco minutos, duren un minuto cada unha e sigan así durante unha hora, entón vinde.» A xinecóloga chamáballe a regra do cinco, un, un. Renato escribiuna nun papel e pegouna na neveira.\n\nUn martes, ás seis da tarde, Elvia notou a primeira contracción mentres untaba manteiga nunha torrada. Non quixo apresurar nada. Rematou de untar a torrada, comeuna amodo e díxolle a Renato que collese o teléfono. El tamén untou unha torrada, pero case non a probou. Instalaran unha aplicación para cronometrar: un botón cando empeza a contracción, outro cando remata. A aplicación calcula soa canto dura cada unha e canto tempo pasa entre elas.\n\nÁs sete, as contraccións chegaban cada doce minutos e duraban uns corenta segundos. Ás nove, cada oito. Renato quería saír xa, pero Elvia recordoulle o papel da neveira. «Aínda non», díxolle. «Non te apresures.» Durante o embarazo, Elvia aprendera a meditar nunhas clases de preparación ao parto. Agora sentaba no sofá, pechaba os ollos e respiraba contando: catro segundos para dentro, seis para fóra. Meditar non lle quitaba a dor, pero axudábaa a non contar os minutos con medo.\n\nPouco despois das once, os números cambiaron. Durante unha hora, as contraccións chegaron cada cinco minutos e duraron arredor dun minuto. Renato ensinoulle a pantalla e Elvia asentiu. Colleron a bolsa, que estaba preparada desde había tres semanas, e foron ao hospital.\n\nO ambiente hospitalario, que tanto a preocupaba antes, resultou tranquilo. O persoal hospitalario recibiunos con calma: unha matrona mirou as cifras da aplicación e sorriu. «Contastes moi ben», dixo. A doutora Recarey chegou de madrugada, e ás sete da mañá naceu unha nena de tres quilos e douscentos gramos, sa e chorona.\n\nSemanas despois, cando a familia volveu á consulta, a xinecóloga preguntoulle a Elvia que fora o máis útil. «O papel da neveira», respondeu. «E aprender a meditar.»\n\nPreguntas:\nQue regra lles deu a xinecóloga a Elvia e Renato?\nDeulles a regra do cinco, un, un: ir ao hospital cando as contraccións cheguen cada cinco minutos, duren un minuto e sigan así unha hora.\nQue estaba a facer Elvia cando notou a primeira contracción?\nEstaba a untar manteiga nunha torrada.\nQue facía a aplicación do teléfono?\nCalculaba canto duraba cada contracción e canto tempo pasaba entre elas.\nPor que non quería apresurar Elvia a saída?\nPorque as contraccións aínda non seguían a regra que estaba no papel da neveira.\nComo a axudaba meditar?\nNon lle quitaba a dor, pero axudábaa a non contar os minutos con medo.\nComo foi o ambiente hospitalario?\nResultou tranquilo, e o persoal hospitalario recibiunos con calma."
+    },
+    {
+      "title": "O problema das tres caixas",
+      "summary": "At the monthly logic club in the Cangas library, retired surveyor Lupercio Sóñora and his friendly rival Cleto Cives argue over the three-box puzzle: whether to switch boxes after an empty one is opened, until a test with thirty rounds settles it.",
+      "newWords": [
+        "opoñente",
+        "devir",
+        "desvariar",
+        "delirar",
+        "malicioso",
+        "implorar"
+      ],
+      "text": "O primeiro xoves de cada mes, na biblioteca de Cangas reúnese un pequeno club de lóxica. Son oito ou dez persoas de todas as idades que se xuntan para resolver problemas de matemáticas recreativas. Os dous socios máis veteranos son Lupercio Sóñora, un topógrafo xubilado, e Cleto Cives, profesor de física. Son bos amigos, pero en case todos os debates acaban como opoñentes, cada un nun extremo da mesa.\n\nAquel xoves, Lupercio trouxo un problema clásico. Hai tres caixas pechadas e só unha garda un premio, un vale para a libraría. O xogador escolle unha caixa sen abrila. Entón o presentador, que sabe onde está o premio, abre unha das outras dúas e móstraa baleira. Despois pregúntalle ao xogador se quere quedar coa súa caixa ou cambiar pola outra que queda pechada.\n\n«Dá igual», dixo Cleto de inmediato. «Quedan dúas caixas, así que é un cincuenta por cento.»\n\nLupercio sorriu cun aire malicioso. «Convén cambiar», dixo. «Se cambias, gañas dúas veces de cada tres.»\n\n«Desvarías, Lupercio», respondeu Cleto entre risas. «Dúas caixas, unha posibilidade cada unha. Non hai máis.»\n\nLupercio explicouno amodo. Ao principio, a caixa escollida ten unha posibilidade entre tres de ter o premio, e as outras dúas, xuntas, teñen dúas entre tres. O presentador non abre unha caixa ao chou: abre sempre unha baleira. Esas dúas posibilidades non desaparecen; quedan todas na caixa pechada que sobra. Cleto escoitaba cunha cara maliciosa, coma quen busca o erro. «Estás a delirar», dixo ao final. «Iso é un truco de palabras.»\n\nOs demais socios estaban divididos. Unha estudante de bacharelato dicía que Lupercio tiña razón; un señor maior pensaba que Cleto non deliraba en absoluto. Entón Cleto fixo algo que non é habitual nel: implorou unha proba. «Non quero máis argumentos», dixo, e imploraba con tanta paixón que todos riron. «Quero ver os números.»\n\nAsí, a discusión deveu nun experimento. Colleron tres caixas de cartón e unha moeda como premio. Unha socia facía de presentadora e Cleto facía de xogador, sempre cambiando de caixa. Xogaron trinta roldas e apuntaron cada resultado nun encerado. Cambiando, Cleto gañou vinte e unha veces; se quedase coa súa caixa, gañaría só nove.\n\nCleto mirou o encerado un bo rato. Despois tivo que reconsiderar a súa postura, e fíxoo con elegancia. «Retiro o de desvariar», díxolle a Lupercio. «E o de delirar tamén.» O seu opoñente devolveulle o sorriso, xa sen nada de malicioso. Desde aquel día, cada vez que un debate do club se complica, alguén implora o mesmo: «Probémolo coas caixas.» E a discusión devén, unha vez máis, unha tarde de xogo.\n\nPreguntas:\nQuen son os dous socios máis veteranos do club?\nSon Lupercio Sóñora, un topógrafo xubilado, e Cleto Cives, profesor de física.\nQue pensaba Cleto ao principio?\nPensaba que daba igual cambiar, porque quedaban dúas caixas e era un cincuenta por cento.\nQue lle dixo Cleto a Lupercio cando este explicou que convén cambiar?\nDíxolle que desvariaba e, ao final, que estaba a delirar.\nPor que convén cambiar de caixa, segundo Lupercio?\nPorque o presentador abre sempre unha caixa baleira, e as dúas posibilidades entre tres quedan na caixa pechada que sobra.\nQue implorou Cleto?\nImplorou unha proba, porque quería ver os números.\nQue resultado deu o experimento?\nCambiando de caixa, Cleto gañou vinte e unha veces de trinta."
+    },
+    {
+      "title": "A sala das máquinas de calcular",
+      "summary": "Retired engineer Abundio Pastoriza attends the opening of a new room at a science museum in A Coruña, where his old calculating machines sit beside a bead frame and a slide rule: the old exhibition was taken apart, a large lens enlarges the gears, and next door a guide neutralises an acid in red-cabbage water.",
+      "newWords": [
+        "inaugurar",
+        "tecnolóxico",
+        "desmantelar",
+        "redescubrir",
+        "neutralizar",
+        "agrandar",
+        "ilimitado",
+        "nostálxico"
+      ],
+      "text": "Abundio Pastoriza traballou corenta anos como enxeñeiro de camiños, e durante todo ese tempo gardou as súas máquinas de calcular nun armario do faiado: unha regra de cálculo de madeira, unha máquina de calcular mecánica, de ferro, e tres pequenas máquinas electrónicas dos anos setenta. Cando o museo da ciencia da Coruña anunciou unha sala nova sobre a historia do cálculo, Abundio doou toda a colección.\n\nO sábado pasado o museo inaugurou a sala, e Abundio estaba alí, cun traxe que non poñía desde había anos. Para inaugurar a nova sala, primeiro houbo que desmantelar a antiga exposición sobre o clima, que levaba quince anos no mesmo espazo. Os técnicos tardaron dúas semanas en desmantelar pantallas, mesas e caixas de cristal. Unha parte do material foi a outros museos, e o resto ao almacén.\n\nA sala nova percorre cinco mil anos de cálculo. Empeza cun marco de madeira con bólas, coma os que usaban os comerciantes antigos, e segue cos libros de táboas, a regra de cálculo de Abundio, a máquina mecánica e, ao final, un ordenador moderno. A idea é mostrar o avance tecnolóxico paso a paso: cada mesa resolve a mesma conta coa ferramenta da súa época. Sobre a máquina mecánica hai unha lente grande que agranda as rodas dentadas, e os visitantes poden ver como cada dente fai avanzar unha cifra. A lente agranda tanto as pezas que un neno preguntou se eran de verdade tan grandes.\n\nAbundio pasou un bo anaco diante da súa regra de cálculo. Con ela calculara pontes e estradas, sen máis axuda ca un lapis. Unha guía explicaba aos visitantes que hoxe calquera teléfono ten unha capacidade de cálculo case ilimitada. Abundio púxose un pouco nostálxico. «Será ilimitada», díxolle á guía, «pero antes as contas facíanse na cabeza, e iso tamén tiña o seu mérito.» Ela riu, e el tamén, porque non estaba triste: estaba contento de ver alí os seus aparellos.\n\nNunha sala próxima había un obradoiro de química para os máis novos. Outra guía mostraba como neutralizar un ácido. Puña zume de limón nun vaso con auga de col vermella cocida, que se volvía rosa, e despois engadía un pó branco pouco a pouco. «Agora neutralizamos o ácido», dicía, e o líquido cambiaba de cor. Abundio quedou mirando, coma un neno máis. Moitos anos antes, na escola, fixera aquel mesmo experimento, e agora redescubriu o gusto de ver como unha reacción se pode medir e prever.\n\nAo saír, Abundio díxolle á directora do museo que se sentía un pouco nostálxico, pero sobre todo agradecido. «Hoxe redescubrín as miñas propias máquinas», dixo. «E redescubrín que aínda me gusta aprender.» Promete volver cos seus netos, para que redescubran con el o avance tecnolóxico que hai detrás de cada teléfono.\n\nPreguntas:\nQue máquinas doou Abundio ao museo?\nDoou unha regra de cálculo, unha máquina de calcular mecánica e tres máquinas electrónicas.\nQue houbo que facer antes de inaugurar a sala?\nHoubo que desmantelar a antiga exposición sobre o clima.\nQue mostra cada mesa da sala nova?\nMostra o avance tecnolóxico: cada mesa resolve a mesma conta coa ferramenta da súa época.\nPara que serve a lente grande?\nAgranda as rodas dentadas da máquina mecánica para ver como cada dente fai avanzar unha cifra.\nQue lle dixo Abundio á guía sobre a capacidade ilimitada dos teléfonos?\nDíxolle que sería ilimitada, pero que antes as contas se facían na cabeza.\nComo conseguía neutralizar o ácido a guía do obradoiro?\nEngadía un pó branco pouco a pouco ao zume de limón coa auga de col vermella."
+    }
+  ]
+}
