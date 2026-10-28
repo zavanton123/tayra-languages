@@ -1,0 +1,204 @@
+{
+  "id": "ro-mini-2400",
+  "rankUpTo": 2400,
+  "level": "B2",
+  "title": "Știință și tehnologie",
+  "description": "Ten short stories and texts about science and technology: a plant app, a student satellite, solar panels after a power cut, a baby monitor, a talking speaker for a grandmother, old school registers turned digital, a T-shirt that measures the heartbeat, a wedding filmed from the air, a technical museum and a column on whether a program can write verses.",
+  "topic": "Science and technology",
+  "names": [
+    "Iarina",
+    "Iarinei",
+    "Vlaicu",
+    "Velicu",
+    "Cluj",
+    "Iași",
+    "Stanislav",
+    "Bârsan",
+    "Evelina",
+    "Cârstea",
+    "Timișoara",
+    "Europa",
+    "Doinel",
+    "Tinca",
+    "Axinte",
+    "Huțanu",
+    "Suceava",
+    "Bucovina",
+    "Luana",
+    "Vicențiu",
+    "Tofan",
+    "Dalia",
+    "Daliei",
+    "Luanei",
+    "Brașov",
+    "Hortensia",
+    "Hortensiei",
+    "Bădescu",
+    "Romina",
+    "Galați",
+    "Ernestina",
+    "Jitaru",
+    "Erika",
+    "Ifrim",
+    "Bacău",
+    "Selena",
+    "Hanganu",
+    "Selenei",
+    "Cozma",
+    "Iorgu",
+    "Rotaru",
+    "Ovidia",
+    "Ovidiei",
+    "Sibiu",
+    "Sibiul",
+    "Păltiniș",
+    "Constandin",
+    "Grama",
+    "Ticu",
+    "București",
+    "Buzău",
+    "Cernavodă",
+    "Zenovia",
+    "Saveta",
+    "Enache"
+  ],
+  "lessons": [
+    {
+      "title": "Aplicația pentru plante",
+      "summary": "Iarina Vlaicu, a computer science student in Cluj, has built a phone app that recognises plants and their problems; it shows her neighbour Mr Velicu why his tomato leaves are yellow.",
+      "newWords": [
+        "aplicație",
+        "creator",
+        "util",
+        "simptom",
+        "rădăcină",
+        "ecran",
+        "găzdui",
+        "evolua"
+      ],
+      "text": "Iarina Vlaicu studiază informatica la Cluj. De doi ani lucrează la o aplicație pentru telefon care îi ajută pe oameni să aibă grijă de plantele lor. Ideea i-a venit într-o vară, când toate florile de pe balconul ei s-au uscat în timp ce ea era în vacanță.\n\nAplicația funcționează simplu. Faci o fotografie unei frunze, iar pe ecran apar numele plantei și câteva sfaturi: cât de des trebuie udată, câtă lumină îi trebuie, ce temperatură îi place. Dacă planta e bolnavă, aplicația caută simptomele: frunze galbene, pete maro, flori care cad prea devreme. Apoi pe ecran apare și o explicație.\n\nVecinul Iarinei, domnul Velicu, are o grădină mare în spatele casei. Într-o zi, i-a spus că roșiile lui au frunzele galbene și că nu înțelege de ce.\n\n— Hai să încercăm aplicația mea, i-a propus Iarina.\n\nAu făcut o fotografie. După câteva secunde, pe ecran a apărut un mesaj: „Simptomele arată că rădăcinile primesc prea multă apă.”\n\n— Dar eu dau apă roșiilor în fiecare seară! a spus domnul Velicu.\n\n— Tocmai asta e problema, a zâmbit Iarina. Rădăcinile au nevoie și de aer.\n\nDomnul Velicu a dat apă mai rar, iar după două săptămâni frunzele noi erau verzi.\n\nFotografiile pe care le trimit oamenii nu rămân în telefon. Ele sunt găzduite pe un calculator mare al universității, care le păstrează în siguranță. Universitatea găzduiește gratuit proiectele studenților, așa că Iarina nu plătește nimic. În fiecare zi se adună sute de fotografii noi, iar aplicația învață din ele. Datorită lor, a evoluat foarte repede: la început recunoștea 50 de plante, acum recunoaște peste 2000. Iarina vrea ca aplicația să evolueze și mai mult și să recunoască într-o zi și păsările din grădină.\n\nOamenii îi scriu des. Unii îi spun că aplicația le e foarte utilă, alții îi trimit idei noi. Ca orice creator, Iarina e mândră de munca ei. Dar cel mai mult se bucură când un om ca domnul Velicu îi spune că aplicația i-a fost utilă. Pentru un creator, spune ea, asta contează mai mult decât orice premiu.\n\nÎntrebări:\nCe face aplicația Iarinei?\nAplicația îi ajută pe oameni să aibă grijă de plantele lor.\nCe problemă aveau roșiile domnului Velicu?\nRoșiile aveau frunzele galbene, pentru că rădăcinile primeau prea multă apă.\nUnde sunt găzduite fotografiile?\nFotografiile sunt găzduite pe un calculator mare al universității.\nCum a evoluat aplicația?\nLa început recunoștea 50 de plante, iar acum recunoaște peste 2000.\nCând se bucură cel mai mult creatoarea aplicației?\nSe bucură cel mai mult când oamenii îi spun că aplicația le-a fost utilă."
+    },
+    {
+      "title": "Satelitul studenților",
+      "summary": "Stanislav Bârsan, an engineering student in Timișoara, works in a team of eight that builds a small satellite with their teacher Evelina Cârstea, and fixes the part that sends its signal.",
+      "newWords": [
+        "satelit",
+        "emite",
+        "inginer",
+        "colectiv",
+        "solid",
+        "impresionant",
+        "ideal"
+      ],
+      "text": "Stanislav Bârsan este student în anul al treilea la universitatea tehnică din Timișoara. De mic visează să devină inginer și să lucreze la sateliți. Anul acesta, visul lui s-a apropiat: face parte dintr-un colectiv de opt studenți care construiesc un satelit mic, cât o cutie de pantofi.\n\nColectivul e condus de profesoara Evelina Cârstea, un inginer cu experiență, care a lucrat zece ani în străinătate. Din prima zi le-a spus studenților că un satelit nu trebuie să fie mare ca să fie util.\n\nSatelitul lor va măsura temperatura aerului deasupra vestului țării și va emite datele către o antenă de pe acoperișul facultății. Fiecare student din colectiv are rolul lui. Stanislav se ocupă de partea care emite semnalul.\n\nCea mai grea problemă a fost cutia satelitului. Ea trebuie să fie ușoară, dar și foarte solidă, pentru că la lansare satelitul se mișcă puternic. Prima cutie, din plastic, nu a fost destul de solidă: s-a rupt la primul test. A doua, din metal, a fost perfectă.\n\nÎn timp ce colegii lui testau cutia, Stanislav a stat trei nopți în laborator. Satelitul emitea semnalul, dar antena nu-l primea mereu. Până la urmă a găsit problema: un fir mic, prost legat.\n\nCondițiile nu au fost ideale. Laboratorul e mic și vechi, iar studenții lucrează seara, după cursuri. Ideal ar fi fost ca satelitul să fie gata în martie, dar a fost gata abia în iunie.\n\nProfesoara Cârstea a fost totuși mulțumită.\n\n— Rezultatul vostru e impresionant, le-a spus ea. Mulți ingineri cu experiență ar fi avut nevoie de doi ani pentru un astfel de satelit.\n\nÎn toamnă, satelitul va pleca în spațiu împreună cu alți sateliți mici, construiți de studenți din toată Europa. Pentru Stanislav, cel mai impresionant moment va fi primul semnal primit din spațiu.\n\n— Nu e un satelit ideal, spune el, dar e al nostru.\n\nÎntrebări:\nDin ce colectiv face parte Stanislav?\nFace parte dintr-un colectiv de opt studenți care construiesc un satelit mic.\nCe va face satelitul?\nVa măsura temperatura aerului și va emite datele către o antenă de pe acoperișul facultății.\nDe ce trebuie să fie solidă cutia satelitului?\nPentru că la lansare satelitul se mișcă puternic.\nCe problemă a găsit Stanislav în laborator?\nA găsit un fir mic, prost legat, din cauza căruia antena nu primea mereu semnalul.\nCe le-a spus profesoara Cârstea studenților?\nLe-a spus că rezultatul lor e impresionant."
+    },
+    {
+      "title": "Lampa cu petrol",
+      "summary": "During a storm in a Bucovina village the power goes off, Grandmother Tinca lights an old oil lamp, and Grandfather Axinte and his grandson Doinel work out the house's consumption because the bills are a big expense, before they put solar panels on the roof.",
+      "newWords": [
+        "petrol",
+        "întrerupe",
+        "alimentare",
+        "factură",
+        "consum",
+        "cheltuială",
+        "beneficia"
+      ],
+      "text": "Doinel are 12 ani și locuiește în Suceava. În fiecare vară petrece o lună la bunicii lui, Tinca și Axinte Huțanu, într-un sat din Bucovina.\n\nÎntr-o seară de iulie a început o furtună puternică. Brusc, lumina s-a stins, iar televizorul s-a oprit. Curentul fusese întrerupt în tot satul.\n\n— Nu-i nimic, a spus bunica Tinca. Avem lampa cu petrol.\n\nA adus din cămară o lampă veche, a pus petrol în ea și a aprins-o. Doinel nu mai văzuse niciodată o lampă cu petrol. Lumina era galbenă și slabă, iar în cameră mirosea a petrol.\n\n— Când eram mică, toată lumea avea lămpi cu petrol, i-a povestit bunica. Curentul a ajuns în sat abia când aveam zece ani.\n\nBunicul Axinte i-a explicat că alimentarea cu energie se întrerupe des la ei, mai ales iarna și la furtuni, din cauza copacilor care cad peste fire. Uneori alimentarea se întrerupe pentru o zi întreagă.\n\nA doua zi dimineață, curentul a revenit. Bunicul a pus pe masă facturile din ultimul an.\n\n— Uite, i-a spus lui Doinel. Factura la curent e tot mai mare, iar cheltuielile casei cresc. Vreau să punem panouri solare pe acoperiș. Mă ajuți să aflăm consumul casei?\n\nAu luat facturile una câte una. Au văzut că cel mai mare consum era vara, din cauza grădinii, care are nevoie de multă apă, și iarna, când bunicul lucra seara în atelier. Doinel a scris totul în telefon. Factura medie era de 250 de lei pe lună: o cheltuială mare pentru doi oameni în vârstă.\n\nÎn august, doi oameni de la o firmă au pus panourile pe acoperiș și o baterie mare în pod. Acum casa are curent chiar și atunci când alimentarea din sat se întrerupe.\n\nÎn noiembrie, bunicul l-a sunat pe Doinel.\n\n— A venit prima factură de iarnă: 40 de lei! Și de la ultima furtună n-am mai stat nicio clipă pe întuneric.\n\nPanourile au fost o cheltuială mare, dar bunicii beneficiază acum de energia soarelui aproape tot anul. Vecinii au venit să vadă panourile și vor să beneficieze și ei de așa ceva. Lampa cu petrol a rămas totuși în cămară, pentru amintire.\n\nÎntrebări:\nDe ce s-a stins lumina în sat?\nCurentul a fost întrerupt din cauza unei furtuni.\nCe a adus bunica Tinca din cămară?\nA adus o lampă veche cu petrol.\nDe ce se întrerupe des alimentarea cu energie în sat?\nDin cauza copacilor care cad peste fire, mai ales iarna și la furtuni.\nCum au aflat Doinel și bunicul consumul casei?\nAu luat facturile din ultimul an, una câte una, iar Doinel a scris totul în telefon.\nCât a fost prima factură de iarnă după ce au pus panourile?\nPrima factură de iarnă a fost de 40 de lei."
+    },
+    {
+      "title": "Alarma de la ora trei",
+      "summary": "In Brașov, Luana and Vicențiu Tofan buy a baby monitor with a camera for their three-month-old Dalia; its alarm wakes them in the night over the room temperature, and they learn to set it.",
+      "newWords": [
+        "bebeluș",
+        "supraveghea",
+        "alarmă",
+        "îngrozitor",
+        "biet",
+        "tură",
+        "prevăzut"
+      ],
+      "text": "Luana și Vicențiu Tofan locuiesc în Brașov și au un bebeluș de trei luni, pe Dalia. Primele săptămâni au fost grele. Dalia se trezea la fiecare două ore, așa că părinții au început să doarmă pe rând, pe ture. Tura lui Vicențiu era de la zece seara până la două noaptea, iar tura Luanei de la două până la șase dimineața.\n\nPrietenii le-au recomandat un aparat pentru bebeluși. Au cumpărat unul mic, prevăzut cu cameră și cu o alarmă pentru temperatură. Aparatul e prevăzut și cu o aplicație pe telefon, așa că pot supraveghea camera Daliei de oriunde din casă.\n\nÎn prima noapte cu aparatul, Vicențiu s-a culcat liniștit. La ora trei, telefonul lui a început să sune. Era alarma! Sunetul era îngrozitor, atât de puternic încât s-a trezit și Luana. Vicențiu a sărit din pat și a fugit în camera fetiței.\n\nDalia dormea liniștită. Respira încet, cu mâinile lângă cap. Biata Luana venise după el, speriată.\n\n— Ce s-a întâmplat? a întrebat ea.\n\n— Nimic, a spus Vicențiu. Fata doarme.\n\nAu citit pe ecranul telefonului ce scria: „Temperatura din cameră: 24,5 grade.” Alarma pornea când în cameră erau mai mult de 24 de grade. Fereastra era închisă, iar în casă era prea cald.\n\nA doua zi, Luana a sunat la medicul de familie. Medicul i-a spus că temperatura ideală pentru un bebeluș e între 20 și 22 de grade și că un sunet îngrozitor la trei noaptea nu ajută pe nimeni. Așa că au schimbat aplicația: alarma pornește acum doar dacă e foarte cald sau dacă bebelușul plânge mult timp.\n\n— Și încă ceva, a spus medicul. Aparatul e util, dar un bebeluș trebuie supravegheat de părinți, nu doar de o cameră.\n\nDe atunci, Luana și Vicențiu nu mai fac ture. Telefonul stă lângă pat, iar alarma n-a mai sunat noaptea. Doar biata pisică a casei e supărată: camera o vede de fiecare dată când intră la Dalia.\n\nÎntrebări:\nCum dormeau părinții în primele săptămâni?\nDormeau pe rând, pe ture.\nCu ce era prevăzut aparatul?\nEra prevăzut cu cameră, cu o alarmă pentru temperatură și cu o aplicație pe telefon.\nDe ce a pornit alarma la ora trei?\nPentru că în cameră erau mai mult de 24 de grade.\nCe i-a spus medicul Luanei despre temperatură?\nI-a spus că temperatura ideală pentru un bebeluș e între 20 și 22 de grade.\nCine trebuie să supravegheze un bebeluș, după medic?\nUn bebeluș trebuie supravegheat de părinți, nu doar de o cameră."
+    },
+    {
+      "title": "Asistentul bunicii Hortensia",
+      "summary": "In Galați, Hortensia Bădescu, who has to do daily exercises for her knee, gets a talking speaker from her granddaughter Romina; at first it does not understand her accent and she quarrels with it, but after a month they get on.",
+      "newWords": [
+        "terapie",
+        "suferință",
+        "accent",
+        "masculin",
+        "certa",
+        "îndoi",
+        "ochelari",
+        "ordonat"
+      ],
+      "text": "Hortensia Bădescu are 74 de ani și locuiește singură în Galați. De doi ani o doare genunchiul stâng. Medicul i-a recomandat terapie: exerciții simple, câte 20 de minute dimineața și seara. Terapia ajută, dar numai dacă o faci în fiecare zi, iar Hortensia uita des de exerciții.\n\nNepoata ei, Romina, i-a adus într-o zi un asistent vocal: o boxă mică, rotundă, care vorbește și ascultă.\n\n— Bunico, îi spui ce vrei, iar el te ajută, i-a explicat Romina. Îți amintește de exerciții, îți spune vremea, îți citește știrile.\n\nHortensia se îndoia că boxa o să-i fie de folos.\n\n— Mă îndoiesc că o mașinărie mă înțelege mai bine decât tine, i-a spus.\n\nBoxa avea două voci: una feminină și una masculină. Hortensia a ales vocea masculină, pentru că semăna cu vocea unui om de la radio pe care îl asculta când era tânără.\n\nProblemele au început chiar din prima seară. Hortensia vorbește repede, cu accentul satului unde a crescut. Asistentul nu înțelegea nimic.\n\n— Spune-mi vremea de mâine!\n\n— Nu am înțeles, a răspuns vocea masculină.\n\nHortensia a repetat de trei ori, tot mai tare. Apoi s-a certat cu boxa ca un om cu alt om. Când Romina a sunat-o, bunica era încă supărată.\n\n— Nu te certa cu el, bunico, a râs Romina. Vorbește mai rar și mai clar. O să se obișnuiască cu accentul tău.\n\nHortensia a fost toată viața o femeie ordonată. În casa ei, fiecare lucru are locul lui, și fiecare treabă, ora ei. Așa că i-a plăcut că asistentul o anunță la ora opt dimineața și la ora opt seara: „E timpul pentru exerciții.” Unui om ordonat îi place un program fix.\n\nI-a mai plăcut ceva. Fără ochelari, Hortensia nu poate citi ziarul, iar ochelarii îi uită mereu prin casă. Acum nu mai caută ochelarii: asistentul îi citește știrile cu voce tare.\n\nDupă o lună, asistentul s-a obișnuit cu accentul ei, iar Hortensia a învățat să vorbească mai rar. Nu se mai ceartă cu el. Datorită terapiei făcute în fiecare zi, genunchiul o doare mult mai puțin. După doi ani de suferință, merge din nou la piață pe jos. Suferința nu a dispărut de tot, dar acum Hortensia poate trăi cu ea.\n\nÎntrebări:\nCe i-a recomandat medicul Hortensiei?\nI-a recomandat terapie: exerciții simple, dimineața și seara.\nDe ce a ales Hortensia vocea masculină?\nPentru că semăna cu vocea unui om de la radio pe care îl asculta când era tânără.\nDe ce nu o înțelegea asistentul la început?\nPentru că vorbea repede, cu accentul satului unde a crescut.\nCe i-a spus Romina când bunica s-a certat cu boxa?\nI-a spus să nu se certe cu el și să vorbească mai rar și mai clar.\nCum o ajută asistentul când nu are ochelari?\nÎi citește știrile cu voce tare."
+    },
+    {
+      "title": "Registrele din pivniță",
+      "summary": "For her school's hundredth birthday in Bacău, history teacher Ernestina Jitaru and her pupils photograph the old class registers under strict rules, and pupil Erika Ifrim finds her great-grandmother's name.",
+      "newWords": [
+        "registru",
+        "școlar",
+        "comoară",
+        "strict",
+        "exclusiv",
+        "precedent",
+        "cândva"
+      ],
+      "text": "Școala unde predă Ernestina Jitaru, în Bacău, împlinește anul acesta 100 de ani. Ernestina e profesoară de istorie. În anul școlar precedent, când a căutat niște hărți vechi în pivnița școlii, a găsit trei dulapuri pline cu registre. Erau registrele elevilor, de la primul an școlar, 1925, până azi. În fiecare registru erau numele elevilor, notele lor și numele părinților.\n\n— Am găsit o comoară, le-a spus Ernestina colegilor a doua zi.\n\nDirectorul a fost de acord să facă din registre un proiect școlar: elevii aveau să fotografieze fiecare pagină, iar fotografiile urmau să ajungă într-o arhivă digitală, pe pagina școlii.\n\nHârtia veche se rupe ușor, așa că Ernestina a stabilit reguli stricte. Elevii lucrează cu mănuși. În sală nu se mănâncă și nu se bea nimic. Paginile le întoarce exclusiv profesoara, iar elevii doar fac fotografii, cu un telefon prins pe un suport. Registrele nu ies niciodată din sală. Regulile sunt stricte, dar nimeni nu se plânge.\n\nErika Ifrim, o elevă de 13 ani, vine la proiect în fiecare joi după ore. Într-o joi, la registrul din 1953, s-a oprit brusc.\n\n— Doamna profesoară, uitați-vă! Aici scrie Zenovia Ifrim. E bunica bunicii mele!\n\nAu citit împreună: Zenovia Ifrim, clasa a treia, notă mare la matematică și la desen. Erika a făcut o fotografie și i-a trimis-o imediat mamei ei.\n\n— Cândva, în băncile astea a stat și bunica bunicii tale, i-a spus Ernestina. Poate a stat chiar în clasa noastră.\n\nProiectul a durat tot anul. Elevii au fotografiat peste 40 000 de pagini. Arhiva e deschisă tuturor, dar e folosită exclusiv pentru amintiri și pentru cercetare, iar datele elevilor de azi nu sunt publice.\n\nLa sărbătoarea de 100 de ani, sala de sport a fost plină. Au venit foști elevi din toată țara. Mulți și-au găsit numele în registre și și-au amintit de școala unde au învățat cândva. Pentru școală a fost o zi fără precedent: niciodată nu veniseră atâția oameni deodată.\n\nÎntrebări:\nCe a găsit Ernestina în pivnița școlii?\nA găsit trei dulapuri pline cu registrele elevilor.\nDe ce a spus Ernestina că a găsit o comoară?\nPentru că registrele aveau numele și notele tuturor elevilor, de la primul an școlar până azi.\nCe reguli stricte a stabilit Ernestina?\nElevii lucrează cu mănuși, nu mănâncă în sală, iar paginile le întoarce exclusiv profesoara.\nCe a găsit Erika în registrul din 1953?\nA găsit numele bunicii bunicii ei, Zenovia Ifrim.\nDe ce a fost sărbătoarea o zi fără precedent?\nPentru că niciodată nu veniseră atâția oameni deodată la școală."
+    },
+    {
+      "title": "Tricoul care numără bătăile inimii",
+      "summary": "Selena Hanganu, a student in Iași who loves running, makes a T-shirt with a small electronic board and circuits woven into the cloth; a sportswear maker, Mr Cozma, adopts her idea and they agree to share the profit.",
+      "newWords": [
+        "tricou",
+        "circuit",
+        "geniu",
+        "inferior",
+        "adopta"
+      ],
+      "text": "Selena Hanganu studiază la Universitatea Tehnică din Iași și aleargă în fiecare dimineață pe malul lacului. Când aleargă, poartă un ceas care îi arată pulsul, dar ceasul o deranjează la mână. Așa i-a venit ideea: un tricou care să facă singur același lucru.\n\nA lucrat la tricou un an întreg. Într-un buzunar mic, din partea inferioară a tricoului, a pus o placă electronică cât o monedă. Informațiile vin la această placă de la niște circuite făcute din fire speciale, puse direct în material. Circuitele simt bătăile inimii, iar de pe placă datele pleacă la telefon.\n\nPrima problemă a apărut la spălat. După ce a spălat tricoul de trei ori, circuitele s-au rupt. Selena a încercat alt fir, apoi încă unul. Firele de calitate inferioară se rupeau repede. Abia al cincilea fir a rezistat la 50 de spălări. Înainte de spălat, Selena scoate mica placă din buzunar și o pune la loc după aceea.\n\nColegii o numesc în glumă „geniul de la etajul trei”.\n\n— Nu sunt niciun geniu, le răspunde Selena. Am avut doar multă răbdare.\n\nÎn primăvară, Selena și-a prezentat tricoul la un târg de tehnologie. Acolo l-a cunoscut pe domnul Cozma, care are o mică fabrică de haine de sport lângă Iași. A îmbrăcat tricoul și a alergat zece minute prin sală. Pe telefon apăreau bătăile inimii lui.\n\n— Vreau să adopt ideea dumneavoastră, i-a spus el. Putem face împreună o mie de tricouri până în toamnă.\n\nLa început, Selena a avut îndoieli. Nu voia să-și piardă ideea. Dar domnul Cozma i-a propus o înțelegere corectă: ea rămâne creatoarea tricoului, fabrica îl produce și îl vinde, iar profitul îl împart pe jumătate. Dacă tricoul se vinde bine, o parte din profit va merge mai departe în cercetare.\n\nAu semnat. Fabrica a adoptat tricoul ca produs nou, iar Selena lucrează acum la o placă și mai mică. Tricoul e gata, dar munca unui creator, spune ea, nu se termină niciodată.\n\nÎntrebări:\nDe ce i-a venit Selenei ideea tricoului?\nPentru că ceasul care îi arăta pulsul o deranja la mână.\nUnde a pus Selena placa electronică?\nA pus-o într-un buzunar mic, din partea inferioară a tricoului.\nCe problemă a apărut la spălat?\nDupă ce a spălat tricoul de trei ori, circuitele s-au rupt.\nCe spune Selena când colegii o numesc geniu?\nSpune că nu e niciun geniu și că a avut doar multă răbdare.\nCum vor împărți Selena și domnul Cozma profitul?\nVor împărți profitul pe jumătate."
+    },
+    {
+      "title": "Filmul de la nuntă",
+      "summary": "Engineer Iorgu Rotaru drives from Cluj to Sibiu on the motorway to film his sister Ovidia's civil wedding with a small drone, keeps away from the airport, and shoots the bride beside a mountain spring among the rocks.",
+      "newWords": [
+        "mireasă",
+        "regie",
+        "călca",
+        "preajmă",
+        "stâncă",
+        "izvor",
+        "autostradă"
+      ],
+      "text": "Iorgu Rotaru e inginer în Cluj și are o pasiune: filmează din aer, cu o dronă mică. Când sora lui, Ovidia, i-a spus că se mărită, i-a promis că îi va face filmul nunții.\n\nNunta urma să fie la primăria din Sibiu, vineri la prânz. Iorgu a plecat din Cluj joi seara, pe autostradă. Pe autostradă a mers repede și în trei ore a ajuns la Sibiu.\n\nVineri dimineață, Iorgu și-a călcat cămașa albă. Nu mai călcase niciodată o cămașă singur, așa că l-a ajutat mama lui. Apoi a mers la Ovidia. Mireasa era aproape gata, într-o rochie simplă, albă.\n\n— Ai grijă cu aparatul ăla, i-a spus mireasa râzând. Nu vreau să-mi cadă pe cap!\n\nIorgu se pregătise bine. Știa că în preajma aeroportului drona nu are voie să zboare, iar Sibiul are aeroport. Știa și că, în preajma oamenilor, trebuie să zboare sus și încet. Așa că la primărie a filmat doar cu telefonul, de jos.\n\nDupă ce au semnat actele, mirii și familia au plecat la Păltiniș, la munte. Acolo, între stânci, curge un izvor cu apă rece și limpede. Ovidia își dorise de mult poze lângă acest izvor.\n\nIorgu a ridicat drona deasupra stâncilor. De sus, se vedeau pădurea, izvorul și mireasa în rochia albă, ca un punct luminos între stânci. Apoi a coborât încet aparatul spre apă, în timp ce mirii mergeau de mână pe malul izvorului.\n\nSeara, la masa de nuntă, Iorgu s-a uitat la imagini pe calculator. A ales cele mai bune momente și s-a ocupat de regie: ordinea imaginilor, muzica, lumina. Nu mai făcuse regia unui film până atunci, dar avea timp: Ovidia îi dăduse o lună.\n\nPeste o lună, toată familia s-a adunat să vadă filmul. Au văzut drumul pe autostradă, cămașa pe care o călcase Iorgu, primăria, stâncile și izvorul.\n\n— Regia e foarte bună, a spus Ovidia. Parcă e un film adevărat.\n\nÎntrebări:\nCum a ajuns Iorgu de la Cluj la Sibiu?\nA ajuns pe autostradă, în trei ore.\nCe a făcut Iorgu vineri dimineață?\nȘi-a călcat cămașa albă, cu ajutorul mamei lui.\nDe ce nu a zburat drona la primărie?\nPentru că în preajma aeroportului drona nu are voie să zboare.\nCe se află la Păltiniș, între stânci?\nÎntre stânci curge un izvor cu apă rece și limpede.\nDe ce s-a ocupat Iorgu seara?\nS-a ocupat de regie: ordinea imaginilor, muzica și lumina."
+    },
+    {
+      "title": "O zi la Muzeul Tehnic",
+      "summary": "Retired engineer Constandin Grama goes with his grandson Ticu's class on a school trip from Buzău to the Technical Museum in Bucharest, and explains old machines, an old bank safe and the bridge at Cernavodă.",
+      "newWords": [
+        "civilizație",
+        "arhitectură",
+        "mecanism",
+        "seif",
+        "excursie"
+      ],
+      "text": "Ticu e în clasa a patra la o școală din Buzău. Într-o sâmbătă, clasa lui a plecat în excursie la București, la Muzeul Tehnic. Învățătoarea avea nevoie de un părinte care să vină cu ei, așa că a venit bunicul lui Ticu, Constandin Grama. El a fost inginer timp de 40 de ani și cunoaște bine muzeul.\n\nExcursia a început devreme, cu autobuzul, la ora șapte. În autobuz, bunicul le-a explicat copiilor ce înseamnă un mecanism.\n\n— Un mecanism e un grup de piese care lucrează împreună, a spus el. Roata unei biciclete, ceasul de pe perete, ușa care se închide singură: toate au un mecanism.\n\nÎn muzeu, copiii au văzut primele mașini, motoare vechi și telefoane mari, de lemn. Lângă fiecare, bunicul le spunea cum funcționa mecanismul din interior.\n\nCel mai mult le-a plăcut un seif vechi de bancă, mare cât un dulap. Ușa seifului era groasă cât palma unui adult și avea un mecanism cu zeci de roți mici.\n\n— Seiful ăsta are peste o sută de ani, a spus bunicul. Se deschidea doar cu două chei și un cod. Mecanismul lui era foarte greu de înțeles chiar și pentru un inginer.\n\nTicu a vrut să știe cum se deschide un seif azi. Bunicul i-a explicat că seifurile moderne au un mic calculator în loc de roți.\n\nApoi au ajuns la o sală cu poduri mici, făcute la scară. Unul dintre ele era podul de la Cernavodă, construit la sfârșitul secolului al XIX-lea. Pe atunci, era cel mai lung pod din Europa.\n\n— Când ai construit casa noastră, ai făcut arhitectură? l-a întrebat Ticu.\n\n— Nu chiar, a râs bunicul. Arhitectura se ocupă de forma clădirii, de cum arată și de cum trăiesc oamenii în ea. Inginerul are grijă ca ea să stea în picioare.\n\nLa sfârșitul excursiei, bunicul le-a spus copiilor de ce îi place atât muzeul.\n\n— Aici vedeți cum a evoluat civilizația noastră. Fără roată, fără mecanisme simple și fără arhitectură, civilizația nu ar fi ajuns unde e azi.\n\nÎn autobuz, la întoarcere, Ticu a spus că vrea să studieze arhitectura. Bunicul a zâmbit: poate va construi cândva un pod.\n\nÎntrebări:\nUnde a mers clasa lui Ticu în excursie?\nClasa lui a mers la Muzeul Tehnic din București.\nCe le-a explicat bunicul copiilor în autobuz?\nLe-a explicat ce înseamnă un mecanism.\nCe i-a plăcut cel mai mult clasei în muzeu?\nLe-a plăcut cel mai mult un seif vechi de bancă, mare cât un dulap.\nCu ce se ocupă arhitectura, după bunicul lui Ticu?\nArhitectura se ocupă de forma clădirii și de cum trăiesc oamenii în ea.\nCe vrea Ticu să studieze?\nTicu vrea să studieze arhitectura."
+    },
+    {
+      "title": "Poate un program să scrie versuri?",
+      "summary": "In a newspaper column, retired literature teacher Saveta Enache asks a computer program to write verses about autumn and explains why its lines are correct but empty, since a program has no consciousness and no memories.",
+      "newWords": [
+        "vers",
+        "conștiință",
+        "intelectual",
+        "relativ",
+        "căci",
+        "reciproc"
+      ],
+      "text": "Am predat literatura română timp de 35 de ani. Le-am citit elevilor mii de versuri și i-am rugat să scrie și ei versuri, chiar dacă unii se plângeau că e prea greu. Așa că, atunci când nepotul meu mi-a arătat un program de calculator care scrie poezii, am fost curioasă.\n\nI-am cerut programului câteva versuri despre toamnă. În zece secunde, pe ecran au apărut opt versuri corecte, cu rimă, despre frunze galbene, ploaie și păsări care pleacă. Am fost impresionată. Apoi le-am citit încă o dată și am simțit că lipsește ceva.\n\nVersurile erau corecte, dar goale. Nu era nimic în ele care să nu fi fost spus de o mie de ori. Și înțeleg de ce, căci programul învață din textele pe care le-au scris oamenii înainte. Face o medie a lor. Nu a văzut niciodată o toamnă, căci nu are ochi și nu are amintiri.\n\nMai e ceva. Un poet știe că scrie. Are conștiință: simte, își amintește, se îndoiește, alege. Programul nu are conștiință. El nu știe ce e frigul, nici ce înseamnă să-ți fie dor de cineva. Pentru el, cuvântul „dor” e doar un cuvânt care apare des lângă cuvântul „toamnă”.\n\nAsta nu înseamnă că programul e inutil. E relativ ușor de folosit și poate ajuta la o muncă intelectuală grea: să găsești o rimă, să verifici un text, să explici o poezie veche în cuvinte simple. Dar efortul intelectual al creatorului nu îl poate face programul în locul lui. Programul e o unealtă, nu un poet.\n\nNepotul meu crede că, peste câțiva ani, programele vor scrie versuri mai bune decât oamenii. Poate are dreptate; „bun” e un cuvânt relativ. Dar eu cred că între om și unealtă trebuie să existe o relație de ajutor reciproc. Omul învață programul, programul îl ajută pe om. Ajutorul reciproc e bun. Problema apare doar atunci când omul uită să mai gândească singur.\n\nAșa că le spun tinerilor: folosiți programul, dar scrieți și voi versuri. Chiar dacă versurile voastre nu sunt perfecte, sunt ale voastre.\n\nSaveta Enache\n\nÎntrebări:\nCe i-a cerut Saveta Enache programului?\nI-a cerut câteva versuri despre toamnă.\nCum erau versurile scrise de program?\nErau corecte, cu rimă, dar goale.\nDe ce nu are programul amintiri despre toamnă?\nPentru că nu a văzut niciodată o toamnă, căci nu are ochi și nu are amintiri.\nCe are un poet și nu are programul?\nUn poet are conștiință: simte, își amintește, se îndoiește și alege.\nLa ce muncă intelectuală poate ajuta programul?\nPoate ajuta să găsești o rimă, să verifici un text sau să explici o poezie veche.\nCe fel de relație trebuie să existe între om și unealtă, după autoare?\nTrebuie să existe o relație de ajutor reciproc."
+    }
+  ]
+}
