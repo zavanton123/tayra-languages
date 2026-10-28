@@ -1,0 +1,202 @@
+{
+  "id": "sk-mini-9200",
+  "rankUpTo": 9200,
+  "level": "C2",
+  "title": "Mapy a orientácia v teréne",
+  "description": "Ten calm stories and one column about maps and finding the way: a two-sided hiking map, an avalanche warning, a night shortcut, a school atlas, a missed train connection, llama walks, edible plants in fog, an old volcano, a map found under a roof and a comedian's lost TV van.",
+  "topic": "Maps and finding the way",
+  "names": [
+    "Tormod",
+    "Tormodova",
+    "Žiline",
+    "Fatry",
+    "Strečna",
+    "Terchovej",
+    "Jurgita",
+    "Jurgitin",
+    "Endel",
+    "Endelom",
+    "Štrbským",
+    "Mihkel",
+    "Dace",
+    "Orave",
+    "Bratislavy",
+    "Ružomberkom",
+    "Margus",
+    "Maarja",
+    "Maarjou",
+    "Bratislave",
+    "Slovenska",
+    "Slovensku",
+    "Dunaji",
+    "Zvolena",
+    "Mahina",
+    "Mahine",
+    "Aksel",
+    "Aksela",
+    "Akselom",
+    "Košíc",
+    "Košiciach",
+    "Trenčíne",
+    "Žiliny",
+    "Hallvard",
+    "Hallvarda",
+    "Liptove",
+    "Tavita",
+    "Prešova",
+    "Sigrun",
+    "Ilmari",
+    "Kristjan",
+    "Štiavnica",
+    "Štiavnice",
+    "Štiavnici",
+    "Gerrit",
+    "Gerritovi",
+    "Zenta",
+    "Spiši",
+    "Helga",
+    "Helge",
+    "Gatis",
+    "Gatisa",
+    "Gatisovu",
+    "Femke",
+    "Trenčínom",
+    "Púchovom",
+    "Slovensko"
+  ],
+  "lessons": [
+    {
+      "title": "Obojstranná mapa",
+      "summary": "Tormod walks a ridge in Malá Fatra with a map printed on both sides and learns to turn it over at the right place.",
+      "newWords": [
+        "obojstranný",
+        "severovýchodný",
+        "nachystať",
+        "dopoludnie",
+        "náplasť",
+        "obedovať",
+        "prevyšovať"
+      ],
+      "text": "Tormod žije v Žiline už štvrtý rok a hory má doslova za oknom. Z kuchyne vidí hrebene Malej Fatry, ktoré na jar ešte dlho zostávajú biele. Dlho si hovoril, že raz prejde celý hrebeň sám, bez kolegov a bez sprievodcu. Tento rok sa konečne rozhodol.\n\nV kníhkupectve na námestí si kúpil novú turistickú mapu. Predavačka mu ju podala s úsmevom. „Je obojstranná,“ povedala. „Na jednej strane máte západnú časť pohoria, na druhej východnú. Kto to nevie, hľadá potom chodník, ktorý je na druhej strane.“ Tormod sa zasmial, ale doma pochopil, že to nebola zbytočná rada. Obojstranná mapa je praktická, lebo sa zmestí do vrecka, no trasa, ktorú si vybral, viedla práve cez okraj oboch strán.\n\nVečer rozložil mapu na stôl. Chcel ísť zo Strečna po hrebeni a potom zísť po severovýchodnom svahu do Terchovej. Pozorne si prezeral výškové čiary. Viaceré vrcholy na trase prevyšujú 1 500 metrov a hrebeň prevyšuje dolinu Váhu takmer o tisíc metrov. Ceruzkou si na okraj zapísal časy medzi jednotlivými značkami, aby vedel, kedy treba mapu otočiť.\n\nPotom si nachystal batoh. Nachystal si vodu, chlieb so syrom, jablká, teplú bundu a malú baterku. Nakoniec pridal krabičku, v ktorej mal náplasti. Nové topánky ešte neboli celkom rozchodené a Tormod vedel, že na dlhej trase ho môžu otlačiť.\n\nRáno vyrazil prvým vlakom. Celé dopoludnie stúpal lesom a potom pomedzi nízke kríky, až kým sa pred ním neotvoril široký hrebeň. Počasie bolo pokojné, vietor slabý. Okolo jedenástej, ešte dopoludnia, stál na prvom vrchole a pozeral na Váh hlboko pod sebou.\n\nV polovici cesty si sadol na kameň a otočil mapu na druhú stranu. Obojstranná mapa ho na chvíľu zmiatla, lebo hrebeň na novej strane začínal kúsok nižšie, než čakal. Prst prešiel po čiare a našiel značku, ktorú si večer podčiarkol. Všetko sedelo.\n\nObedoval na lúke pod vrcholom. Obedoval pomaly, s výhľadom na severovýchodný hrebeň, ktorým mal ešte zostupovať. Pri obede si všimol, že ho päta trochu páli. Vyzul si topánku, nalepil si náplasť a pokračoval. Náplasť vydržala až do konca.\n\nDo Terchovej prišiel podvečer, unavený, ale spokojný. Doma položil mapu na stôl a na oboch stranách farbičkou vyznačil trasu, ktorú prešiel.\n\nOtázky:\nPrečo bola Tormodova mapa praktická?\nBola obojstranná, takže sa zmestila do vrecka.\nAko vysoko sú vrcholy na trase?\nViaceré vrcholy na trase prevyšujú 1 500 metrov.\nPo ktorom svahu chcel Tormod zísť do Terchovej?\nChcel zísť po severovýchodnom svahu.\nČo si Tormod nachystal do batoha?\nNachystal si vodu, chlieb so syrom, jablká, teplú bundu, baterku a náplasti.\nČo robil Tormod celé dopoludnie?\nCelé dopoludnie stúpal lesom a potom pomedzi nízke kríky.\nKde Tormod obedoval a čo urobil po obede?\nObedoval na lúke pod vrcholom a potom si nalepil na pätu náplasť."
+    },
+    {
+      "title": "Keď hory povedia nie",
+      "summary": "Jurgita has planned a ski tour in the High Tatras, but stormy wind and avalanche danger stop her, and a mountain guide teaches her to read slopes on a map instead.",
+      "newWords": [
+        "lavína",
+        "búrlivý",
+        "prekaziť",
+        "frustrácia",
+        "povoľovať",
+        "výdrž"
+      ],
+      "text": "Jurgita sa na marcový víkend vo Vysokých Tatrách tešila celú zimu. S horským vodcom Endelom sa dohodla na túre na lyžiach do jednej z dolín nad Štrbským Plesom. Týždeň vopred si na mape vyznačila trasu, spočítala, koľko metrov bude treba vystúpiť, a nachystala si výstroj.\n\nVo štvrtok večer jej však Endel poslal správu. „Pozri si predpoveď,“ stálo v nej. Jurgita otvorila stránku horskej služby. Nebezpečenstvo, že spadne lavína, bolo na stupni štyri z piatich. Na víkend predpovedali búrlivý vietor a veľa nového snehu. „Pri takom počasí sa lavína môže uvoľniť aj sama,“ dopísal Endel. „Do doliny nepôjdeme.“\n\nJurgita si sadla na posteľ a chvíľu nič nehovorila. Cítila frustráciu. Plánovala to tak dlho, a teraz jej všetko prekazilo počasie. Frustrácia ešte narástla, keď si spomenula, že si kvôli víkendu vzala v práci voľno.\n\nV piatok aj tak docestovala do Tatier. Endel ju čakal pred chatou. Vietor bol taký búrlivý, že sa stromy na svahoch ohýbali a sneh lietal vodorovne. „Počasie nám plán prekazilo, ale celý deň nám pokaziť nemusí,“ povedal Endel s úsmevom. „Naučím ťa niečo, čo sa ti zíde na každej túre.“\n\nV teple chaty rozložil na stôl mapu. Ukázal jej, ako podľa výškových čiar odhadnúť sklon svahu. „Keď sú čiary veľmi blízko pri sebe, svah je strmý. Lavína sa najčastejšie uvoľní na svahoch so sklonom od tridsať do štyridsaťpäť stupňov.“ Potom jej vysvetlil, prečo národný park v zime nepovoľuje vstup na väčšinu chodníkov nad chatami. „Nepovoľuje ho nie preto, aby ľuďom bral radosť, ale preto, že tam lavíny padajú každý rok. Na jar, keď sa sneh usadí, chodníky znova povoľujú.“\n\nPopoludní vyšli na krátku prechádzku lesom. Jurgita si všimla, že jej mobil v mraze rýchlo stráca energiu. „Výdrž batérie je v zime oveľa kratšia,“ povedal Endel. „Preto nosím papierovú mapu a mobil mám vo vnútornom vrecku, blízko tela.“ Jurgita si zapamätala aj to, že keď je vietor búrlivý, míňa sa aj výdrž človeka, a to rovnako rýchlo ako batéria.\n\nVečer sedeli pri okne a pozerali, ako vonku husto sneží. Frustrácia z rána bola preč. Jurgita vedela, že do doliny sa vráti v apríli, keď bude sneh pevnejší a predpoveď pokojnejšia.\n\nOtázky:\nČo prekazilo Jurgitin plán?\nJej plán prekazilo počasie: búrlivý vietor, veľa nového snehu a veľké nebezpečenstvo, že spadne lavína.\nČo cítila Jurgita, keď si prečítala správu?\nCítila frustráciu, lebo túru plánovala veľmi dlho.\nNa akých svahoch sa lavína uvoľní najčastejšie?\nNajčastejšie na svahoch so sklonom od tridsať do štyridsaťpäť stupňov.\nPrečo národný park v zime nepovoľuje vstup na chodníky nad chatami?\nLebo tam lavíny padajú každý rok.\nPrečo nosí Endel papierovú mapu?\nLebo výdrž batérie je v zime oveľa kratšia."
+    },
+    {
+      "title": "Skratka cez les",
+      "summary": "Mihkel and Dace drive to their cottage at night, follow a bad shortcut, meet a wild boar in the headlights and find their way back with an old road atlas.",
+      "newWords": [
+        "svetlomet",
+        "vozovka",
+        "diviak",
+        "odpútať",
+        "skaziť",
+        "alarm"
+      ],
+      "text": "Mihkel a Dace majú chatu na Orave, ale v noci k nej ešte nikdy nešli. V piatok vyrazili z Bratislavy neskoro, až po práci. V mobile zapli navigáciu a úplne sa na ňu spoľahli.\n\nZa Ružomberkom navigácia ohlásila skratku. Mihkel odbočil na úzku cestu, ktorá viedla cez les. Vozovka bola mokrá, plná lístia a bez bielych čiar. Svetlomety svietili len na kúsok cesty pred autom a na kmene stromov po oboch stranách. „Toto nie je cesta, ktorou chodíme cez deň,“ povedala Dace.\n\nZrazu sa na vozovke objavil diviak. Mihkel včas zabrzdil. Veľký diviak zostal chvíľu stáť vo svetle svetlometov, pozrel sa na auto a pomaly odišiel do lesa. Za ním prebehli ešte dva menšie diviaky. „Tak toto bola naša skratka,“ povedal Mihkel a srdce mu bilo ako zvon.\n\nZastavil na kraji cesty. Obaja sa odpútali, aby sa mohli nakloniť k mape. Dace vytiahla zo schránky starú mapu ciest, ktorá tam ležala roky. Pri svetle z mobilu našli miesto, kde práve boli. Lesná cesta bola na mape vyznačená iba tenkou čiarou. „To je cesta pre traktory, nie pre nás,“ rozhodol Mihkel. Otočili auto, znova sa pripútali a vrátili sa na hlavnú cestu.\n\n„Dúfam, že sa nám mäso v taške neskazí,“ povedala Dace. Mali so sebou jedlo na celý víkend. „Neskazí, vonku je chladno,“ upokojil ju Mihkel. „Hlavne si nedajme skaziť náladu. Diviaka sme nezrazili, auto je celé a cestu poznáme.“\n\nK chate prišli o polnoci. Zaparkovali pod lipou, odpútali sa a od únavy hneď zaspali.\n\nO tretej v noci ich zobudil alarm. Auto pred chatou blikalo a húkalo tak, že v susedstve niekto zapol svetlo. Mihkel vybehol von s baterkou. Pri aute v tráve hrabal diviak. Asi sa dotkol dverí a alarm sa zapol. Keď Mihkel stlačil kľúč a alarm prestal, diviak pokojne odišiel späť do lesa.\n\nRáno sa obaja smiali. Dace vzala ceruzku a na starú mapu pri lesnej ceste napísala: „Nie v noci.“ Navigáciu si potom nastavili tak, aby sa vyhýbala lesným cestám.\n\nOtázky:\nAká bola vozovka na lesnej ceste?\nVozovka bola mokrá, plná lístia a bez bielych čiar.\nNa čo svietili svetlomety?\nSvetlomety svietili len na kúsok cesty a na kmene stromov po oboch stranách.\nPrečo sa Mihkel a Dace odpútali?\nOdpútali sa, aby sa mohli nakloniť k mape.\nČoho sa bála Dace?\nBála sa, že sa im mäso v taške skazí.\nČo ich zobudilo o tretej v noci?\nZobudil ich alarm, lebo sa diviak dotkol auta."
+    },
+    {
+      "title": "Nový školský atlas",
+      "summary": "Margus, an editor at a map publisher, prepares a school atlas of Slovakia with his colleague Maarja, keeps to a careful work schedule and wins praise from teachers.",
+      "newWords": [
+        "editor",
+        "rozpis",
+        "koncipovaný",
+        "čiernobiely",
+        "rôznorodosť",
+        "vecný",
+        "pochvala"
+      ],
+      "text": "Margus pracuje ako editor v malom vydavateľstve v Bratislave, ktoré vydáva mapy a atlasy. Minulú jeseň dostal úlohu, na ktorú čakal dlhé roky: pripraviť nový atlas Slovenska pre základné školy. Atlas mal vyjsť na začiatku budúceho školského roka, takže času nebolo veľa.\n\nPrvý deň si s kolegyňou Maarjou, ktorá kreslí mapy, sadol k veľkému stolu a urobili si rozpis práce. Do rozpisu zapísali každý mesiac a každú kapitolu: v novembri rieky a pohoria, v decembri mestá, v januári podnebie a v marci záverečné kontroly. „Ak rozpis dodržíme, budeme mať v máji pokojnú hlavu,“ povedal Margus. Rozpis potom pripli na stenu, aby ho videli celý deň.\n\nAtlas bol od začiatku koncipovaný ako kniha, ktorú dieťa otvorí aj samo, nielen na hodine. Každá dvojstrana bola koncipovaná rovnako: vľavo mapa, vpravo krátky text, fotografia a jedna otázka. Margus chcel, aby sa deti v atlase rýchlo zorientovali a vždy vedeli, kde čo nájdu.\n\nV archíve vydavateľstva našli staré čiernobiele mapy z päťdesiatych rokov. Margus ich rozložil vedľa nových farebných. Na čiernobielych mapách boli lesy vyznačené drobnými bodkami a rieky tenkými čiarami. „Dáme ich do atlasu,“ navrhla Maarja. „Deti uvidia, ako sa krajina za sedemdesiat rokov zmenila, kde pribudli cesty a kde zmizli polia.“ Tak vznikla kapitola, v ktorej sú čiernobiele mapy vedľa farebných máp tých istých miest.\n\nNajviac sa Margus tešil na kapitolu o krajine. Chcel ukázať rôznorodosť Slovenska: na malom území sú tu vysoké hory, nížiny pri Dunaji, jaskyne, sopečné vrchy aj rašeliniská. „Rôznorodosť je to, čo deťom treba ukázať,“ hovoril. „Za jeden deň sa tu dá prejsť z teplých polí až do snehu.“\n\nTexty písal Margus sám. Snažil sa, aby boli vecné a jasné. Žiadne dlhé vety, žiadne zbytočné slová. Vecný text však nemusí byť nudný. Pri každej mape preto pridal jednu zaujímavosť, napríklad to, kde je najteplejšie miesto na Slovensku alebo ktorá rieka tečie na sever.\n\nV marci vytlačili prvé skúšobné výtlačky a poslali ich do niekoľkých škôl. O mesiac prišli odpovede. Učiteľky aj učitelia písali, že sa deti v atlase dobre orientujú. Najväčšia pochvala prišla od jedného žiaka zo Zvolena: „Konečne atlas, ktorý čítam aj doma.“ Margus si tú pochvalu pripol na stenu vedľa rozpisu.\n\nOtázky:\nKde pracuje Margus?\nPracuje ako editor v malom vydavateľstve v Bratislave.\nPrečo si Margus a Maarja urobili rozpis práce?\nAby vedeli, ktorú kapitolu majú pripraviť v ktorom mesiaci.\nAko bol atlas koncipovaný?\nBol koncipovaný ako kniha, ktorú dieťa otvorí aj samo, a každá dvojstrana mala mapu, krátky text, fotografiu a otázku.\nČo našli v archíve?\nNašli staré čiernobiele mapy z päťdesiatych rokov.\nČo chcel Margus ukázať v kapitole o krajine?\nChcel ukázať rôznorodosť Slovenska.\nAká pochvala ho potešila najviac?\nNajviac ho potešila pochvala od žiaka, ktorý napísal, že atlas číta aj doma."
+    },
+    {
+      "title": "Expresom do Košíc",
+      "summary": "Mahina travels by express train with her newborn son, a delay makes her miss her connection at Žilina, and the station master helps her find the right train.",
+      "newWords": [
+        "expres",
+        "novorodenec",
+        "šesťdesiat",
+        "prednosta",
+        "espresso",
+        "samozrejmý",
+        "neúplný"
+      ],
+      "text": "Mahina cestovala z Bratislavy do Košíc za rodičmi. Prvýkrát išla vlakom sama s Akselom, svojím synom, ktorý mal iba päť týždňov. Novorodenec spal v nosiči na jej hrudi a vedľa nej stál malý kufor a taška s plienkami.\n\nVybrala si ranný expres, lebo zastavuje len vo väčších mestách. „Expresom budem v Košiciach skôr, než sa Aksel stihne trikrát najesť,“ povedala manželovi na stanici. Kúpila si miestenku do vozňa pre cestujúcich s deťmi a sadla si k oknu.\n\nPri Trenčíne vlak zastal uprostred polí. Z reproduktora sa ozvalo, že na trati opravujú poruchu a vlak bude meškať asi šesťdesiat minút. Mahina sa pozrela do aplikácie. Informácie v nej boli neúplné: písalo sa tam o meškaní, ale nie o tom, či na ňu bude v Žiline čakať prípoj, ktorý mala v pláne. Aksel sa zobudil a začal plakať. Mahina ho chovala a prechádzala sa s ním po vozni.\n\nDo Žiliny prišli s meškaním šesťdesiat minút. Prípoj bol dávno preč. Mahina vystúpila na nástupište s kufrom, taškou a dieťaťom a nevedela, kam ísť. Na tabuliach boli zoznamy vlakov, ale niektoré riadky boli prázdne, akoby bol aj ten zoznam neúplný.\n\nVtedy k nej pristúpil starší muž v modrej uniforme. Bol to prednosta stanice. „Pomôžem vám,“ povedal a vzal jej kufor. „Ďalší vlak do Košíc ide o štyridsať minút z tretej koľaje. Tam na vás bude čakať vozeň pre rodiny s deťmi.“ Mahina mu poďakovala. „To je samozrejmé,“ odpovedal prednosta. „Keď niekto cestuje s novorodencom, pomôcť mu je samozrejmá vec.“\n\nPrednosta ju odprevadil do čakárne a ukázal jej miesto, kde môže dieťa nakŕmiť a prebaliť. V stánku si potom Mahina kúpila espresso. Bolo horúce a silné a prvý raz od rána si mohla na chvíľu sadnúť. Espresso pila pomaly a pozerala sa na Aksela, ktorý v nosiči znova zaspal.\n\nĎalší vlak prišiel načas. Prednosta jej pomohol s kufrom až do vozňa a zamával jej. Mahina dorazila do Košíc s malým oneskorením, ale pokojná. Večer napísala železnici krátky list, v ktorom pochválila prednostu zo Žiliny, a navrhla, aby informácie o prípojoch v aplikácii neboli také neúplné.\n\nOtázky:\nPrečo si Mahina vybrala ranný expres?\nLebo expres zastavuje len vo väčších mestách.\nS kým Mahina cestovala?\nCestovala so synom Akselom, ktorý bol novorodenec a mal iba päť týždňov.\nKoľko minút vlak meškal?\nVlak meškal šesťdesiat minút.\nČo bolo zlé na informáciách v aplikácii?\nBoli neúplné, lebo v nich nebolo nič o prípoji v Žiline.\nKto Mahine v Žiline pomohol?\nPomohol jej prednosta stanice.\nČo si Mahina kúpila v stánku?\nKúpila si espresso."
+    },
+    {
+      "title": "Na túru s lamou",
+      "summary": "Hallvard keeps llamas in a Liptov village and leads walks with them along marked trails; a student, Tavita, comes to help for the summer.",
+      "newWords": [
+        "lama",
+        "nalákať",
+        "výpomoc",
+        "jahňa",
+        "tofu",
+        "zbohatnúť",
+        "blahobyt"
+      ],
+      "text": "Hallvard má malú farmu v dedine na Liptove. Pred desiatimi rokmi si kúpil prvé dve lamy, lebo sa mu páčili. Dnes ich má osem a s turistami s nimi chodí na túry po značených chodníkoch.\n\nLama je pokojné a múdre zviera. Nesie batoh s jedlom a vodou, ide pomaly a nikam sa neponáhľa. Ľudia, ktorí s ňou idú, sa preto tiež spomalia. „Lamy nalákajú ľudí, ktorí by inak na túru nikdy nešli,“ hovorí Hallvard. „Prídu kvôli lame a domov odchádzajú s tým, že sa naučili čítať mapu.“\n\nKaždé leto potrebuje Hallvard výpomoc. Tento rok prišla Tavita, študentka z Prešova. Výpomoc na farme nie je ľahká práca: ráno treba nakŕmiť zvieratá, vyčistiť ohradu a pripraviť lamy na cestu. Tavita sa však tešila. Lamy ju nalákali už na fotkách na internete.\n\nPrvý týždeň sa učila trasy. Hallvard jej dal mapu okolia a ukázal jej, kadiaľ vedú tri okruhy: krátky okolo rybníka, stredný cez les a dlhý na lúku s výhľadom na hory. „Turisti sa na teba budú pozerať, keď sa chodník rozdelí,“ povedal jej. „Ty musíš vedieť, kam ísť, aj keď značku zakryje sneh alebo lístie.“\n\nNa susednom dvore mala pani Sigrun ovce. Na jar sa im narodili jahňatá. Deti, ktoré prišli na túru s lamou, chceli vidieť aj ich. Tavita s nimi preto na konci každej túry zašla k plotu. Jedno biele jahňa vždy pribehlo prvé a nechalo sa pohladkať.\n\nNa obed sa skupiny zastavujú na lúke pod lesom. Hallvard tam postavil stôl a lavice. Na obed varí jednoduché jedlá: polievku, chlieb a pre tých, ktorí nejedia mäso, opečené tofu so zeleninou. Tavita najprv tofu nepoznala, ale po týždni ho vedela pripraviť lepšie ako Hallvard. „Tofu je dobré, keď sa dobre okorení,“ smiala sa.\n\nRaz večer sa ho Tavita spýtala, či sa z lám dá zbohatnúť. Hallvard sa zasmial. „Nezbohatol som a asi ani nikdy bohatý nebudem,“ povedal. „Lamy veľa zjedia a seno je drahé. Ale nepotrebujem blahobyt. Mám dom, zvieratá a prácu, ktorú mám rád. To je pre mňa viac ako blahobyt.“\n\nNa konci leta dostala Tavita od Hallvarda mapu, na ktorej boli všetky tri okruhy vyznačené jej rukou. Sľúbila, že na budúci rok príde znova.\n\nOtázky:\nPrečo lamy nalákajú aj ľudí, ktorí by inak na túru nešli?\nLebo ľudia prídu kvôli lame a lama ide pomaly.\nKto prišiel na farmu ako letná výpomoc?\nPrišla Tavita, študentka z Prešova.\nČo musela Tavita robiť ráno?\nMusela nakŕmiť zvieratá, vyčistiť ohradu a pripraviť lamy na cestu.\nČo chceli deti vidieť na susednom dvore?\nChceli vidieť jahňatá pani Sigrun.\nČo varí Hallvard pre ľudí, ktorí nejedia mäso?\nVarí opečené tofu so zeleninou.\nZbohatol Hallvard z lám?\nNezbohatol, ale blahobyt nepotrebuje, lebo má dom, zvieratá a prácu, ktorú má rád."
+    },
+    {
+      "title": "Čo rastie pri chodníku",
+      "summary": "Ilmari teaches a small group to find edible plants by the path, and when fog rolls down the valley they find their way back with a compass.",
+      "newWords": [
+        "jedlý",
+        "stonka",
+        "kľaknúť",
+        "rozmnožovať",
+        "rozrásť",
+        "valiť"
+      ],
+      "text": "Ilmari vedie v Trenčíne kurzy o rastlinách. Raz za mesiac berie malú skupinu do lesa nad mestom a ukazuje im, čo všetko rastie pri chodníku. Ľudia ho považujú za odborníka, hoci on sám o sebe hovorí, že sa stále učí.\n\nV jednu sobotu v máji vyrazili hneď ráno. Ilmari mal so sebou mapu, buzolu a malý nôž. „Prvé pravidlo,“ povedal na začiatku. „Jedlá je len tá rastlina, ktorú poznáte naisto. Ak nepoznáte, nejedzte.“\n\nPri prvom potoku si kľakol do trávy. Ukázal skupine medvedí cesnak. Listy sú široké a zelené a voňajú ako cesnak. „Medvedí cesnak je jedlý od listov až po kvet,“ vysvetlil. Potom vzal jeden list a ukázal, že stonka je tenká a každý list rastie zo zeme sám. „Pozrite sa na stonku. Podobné rastliny, ktoré jedlé nie sú, majú listy inak.“ Ostatní prišli bližšie a prezerali si listy zblízka. Ilmari si kľakol aj pri ďalšom potoku, kde rástlo ešte viac cesnaku.\n\nNa lúke našli žihľavu. „Žihľava je jedlá, ak ju uvaríte,“ povedal Ilmari. „Mladé listy sú najlepšie na polievku.“ Ukázal im, že žihľava sa rozmnožuje koreňmi, ktoré rastú pod zemou do strán. „Preto sa jej darí tam, kde je dosť vody. Rozmnožuje sa tak rýchlo, že za pár rokov zaberie celý kút záhrady.“\n\nNa mape bol pod lúkou vyznačený starý chodník do doliny. Keď tam prišli, chodník takmer nebolo vidieť. Maliny a kríky sa rozrástli až do stredu cesty. „Pred piatimi rokmi som tu ešte chodil,“ povedal Ilmari. „Za ten čas sa to tu všetko rozrástlo. Mapa ukazuje chodník, ale les má svoj vlastný plán.“\n\nOkolo jedenástej sa počasie zmenilo. Z hrebeňa sa do doliny začala valiť hmla. Valila sa pomaly a hustá ako mlieko, až skupina nevidela ani na najbližšie stromy. Niektorí ľudia sa zľakli. Ilmari však pokojne vytiahol mapu a buzolu. „Mesto je na juhozápad,“ povedal. „Pôjdeme stále týmto smerom, kým nenarazíme na lesnú cestu.“\n\nKráčali pomaly, jeden za druhým. O pol hodiny vyšli na lesnú cestu, presne tam, kde ju Ilmari na mape ukázal. Hmla sa medzitým zdvihla a pod nimi sa objavili strechy mesta. Doma si každý uvaril polievku z mladej žihľavy.\n\nOtázky:\nAké je prvé pravidlo, ktoré Ilmari povedal?\nJedlá je len tá rastlina, ktorú človek pozná naisto.\nPrečo si Ilmari kľakol pri potoku?\nKľakol si, aby skupine ukázal medvedí cesnak a jeho stonku.\nAko sa rozmnožuje žihľava?\nŽihľava sa rozmnožuje koreňmi, ktoré rastú pod zemou do strán.\nČo sa stalo so starým chodníkom do doliny?\nMaliny a kríky sa rozrástli až do stredu chodníka.\nČo sa začalo okolo jedenástej valiť do doliny?\nDo doliny sa začala valiť hustá hmla.\nAko našla skupina cestu späť?\nIlmari ich viedol podľa mapy a buzoly, až vyšli na lesnú cestu."
+    },
+    {
+      "title": "Kde bol kráter",
+      "summary": "A newspaper column: the journalist Kristjan walks around Banská Štiavnica with a map and learns how its contour lines reveal the shape of an old volcano.",
+      "newWords": [
+        "publicista",
+        "kráter",
+        "svetoznámy",
+        "špekulovať",
+        "prezrádzať"
+      ],
+      "text": "Som publicista a väčšinu života píšem o mestách. O ich uliciach, kaviarňach a ľuďoch. Na jeseň som však dostal od redakcie nezvyčajnú úlohu: napísať, ako sa v krajine okolo Banskej Štiavnice dá vidieť sopka. Ako publicista viem dobre klásť otázky, ale o sopkách som vedel málo. Preto som si zobral mapu a vyrazil.\n\nBanská Štiavnica je svetoznáme mesto. Turisti sem chodia kvôli starým domom, úzkym uliciam a jazerám, ktoré kedysi postavili baníci. Málokto však vie, že mesto leží vo vnútri starej sopky, ktorá vybuchovala pred viac ako desiatimi miliónmi rokov. Svetoznáme mesto stojí na mieste, ktoré bolo kedysi ohnivým srdcom hory.\n\nV kaviarni na námestí som sa porozprával s geologičkou, ktorá v meste žije. Spýtal som sa jej, kde presne bol kráter. Usmiala sa. „Na to sa pýta každý,“ povedala. „Ľudia o tom radi špekulujú. Niektorí si myslia, že kráter je jazero nad mestom, iní, že je to kopec s vyhliadkovou vežou.“ Vysvetlila mi, že pôvodný kráter dnes už nevidno. Sopka sa po výbuchoch prepadla a vznikla veľká kotlina, ktorú voda a vietor milióny rokov menili.\n\n„Netreba špekulovať,“ dodala. „Stačí sa poriadne pozrieť na mapu.“ Rozložila na stôl turistickú mapu okolia a prstom ukázala na výškové čiary. Okolo mesta tvorili takmer uzavretý kruh. „Vidíte? Mapa prezrádza tvar starej sopky. Kopce okolo mesta sú okraj kotliny, ktorá vznikla tam, kde kedysi bol kráter.“\n\nNasledujúci deň som išiel po chodníku, ktorý obchádza mesto po hrebeni. Na každom vrchole som sa otočil a pozrel dovnútra. Naozaj: kopce sa skláňali smerom k mestu ako steny obrovskej misy. Mapa naozaj prezrádza to, čo z ulíc nevidno. A ja som pochopil, že mapa je dobrý rozprávač, len ju treba vedieť čítať.\n\nAko publicista sa často pýtam, čo nám miesto chce povedať. V Banskej Štiavnici mi odpovedali kamene. Ľudia budú o kráteri ďalej špekulovať, a to je v poriadku. Kto však chce vidieť sopku, nech si vezme mapu a vyjde na hrebeň. Krajina mu prezradí viac než ktorýkoľvek sprievodca.\n\nOtázky:\nO čom zvyčajne píše publicista Kristjan?\nZvyčajne píše o mestách, ich uliciach, kaviarňach a ľuďoch.\nPrečo je Banská Štiavnica svetoznáma?\nJe svetoznáma kvôli starým domom, úzkym uliciam a jazerám, ktoré postavili baníci.\nO čom ľudia radi špekulujú?\nRadi špekulujú o tom, kde presne bol kráter.\nČo prezrádza mapa okolia?\nMapa prezrádza tvar starej sopky, lebo výškové čiary tvoria okolo mesta takmer uzavretý kruh.\nČo videl Kristjan z hrebeňa?\nVidel, že sa kopce skláňajú k mestu ako steny obrovskej misy."
+    },
+    {
+      "title": "Mapa na povale",
+      "summary": "Gerrit and Zenta, recently engaged, repair an old cottage they have bought in Spiš and find an intact old map of the village under the roof.",
+      "newWords": [
+        "zásnuby",
+        "povala",
+        "omietka",
+        "neporušený",
+        "priveľký",
+        "sentimentálny",
+        "vpustiť"
+      ],
+      "text": "Gerrit a Zenta sa zasnúbili minulú zimu. Na zásnubách, ktoré oslávili len s rodičmi, si povedali, že chcú bývať na dedine. Na jar si kúpili starý dom v malej obci na Spiši. Dom bol pekný, ale potreboval veľa práce.\n\nZačali s omietkou. Stará omietka na stenách popraskala a na niektorých miestach opadávala po celých kusoch. Gerrit ju oklepával kladivom a Zenta vozila sutinu fúrikom na dvor. „Pod omietkou je kameň,“ povedala Zenta. „Dom je starší, ako sme si mysleli.“ Novú omietku chceli urobiť z vápna, tak ako kedysi.\n\nPotom prišla na rad povala. Na povalu sa vychádzalo po úzkych drevených schodoch. Bola plná prachu, starých košov a dosiek. Medzi trámami pod strechou našla Zenta plechovú rúru. Vo vnútri bol zvinutý papier.\n\nOpatrne ho rozvinuli na stole v kuchyni. Bola to stará ručne kreslená mapa obce: domy, potok, cesta do mesta a polia rozdelené na úzke pruhy. Pri každom poli bolo napísané meno. Mapa bola úplne neporušená. Nebola roztrhnutá ani vlhká, len trochu zožltla. „Neporušená mapa po toľkých rokoch,“ čudoval sa Gerrit. „Rúra ju chránila pred vodou aj pred myšami.“\n\nZenta chcela mapu zarámovať a zavesiť v izbe. Mapa však bola priveľká na každý rám, ktorý mali. Aj stena v kuchyni bola na ňu priveľká, lebo ju zo strany rušilo okno. Nakoniec sa rozhodli, že mapu dajú zarámovať u stolára a zavesia ju v najväčšej izbe.\n\nNajprv však chceli vedieť, z ktorého roku mapa je. Išli na obecný úrad a tam im poradili, aby zavolali pani Helge, ktorá v obci vedie kroniku. Pani Helga ich srdečne vpustila do malej miestnosti, kde mala kroniky a staré plány obce. „Takých ľudí, ako ste vy, rada vpustím,“ povedala. Spolu porovnali mapu s plánmi a zistili, že je z roku 1890.\n\nZenta bola dojatá. „Som sentimentálna,“ priznala sa Gerritovi večer. „Ale páči sa mi, že dom si to celé storočie pamätal.“ Gerrit sa usmial. „Nie si priveľmi sentimentálna. Ja som tiež. Možno sa raz niekto pozrie aj na našu mapu.“ V ten večer začali kresliť novú mapu domu a záhrady, ktorú chcú jedného dňa uložiť na povalu do tej istej rúry.\n\nOtázky:\nKedy sa Gerrit a Zenta zasnúbili?\nZasnúbili sa minulú zimu a zásnuby oslávili len s rodičmi.\nČo sa dialo so starou omietkou?\nStará omietka popraskala a na niektorých miestach opadávala po celých kusoch.\nČo našla Zenta na povale?\nNa povale našla plechovú rúru so starou mapou obce.\nPrečo bola mapa neporušená?\nBola neporušená, lebo ju rúra chránila pred vodou aj pred myšami.\nPrečo mapu nemohli dať do rámu, ktorý mali doma?\nLebo mapa bola priveľká na každý rám, ktorý mali.\nKto ich vpustil do miestnosti s kronikami?\nVpustila ich pani Helga, ktorá v obci vedie kroniku."
+    },
+    {
+      "title": "Komik a navigácia",
+      "summary": "The comedian Gatis has a show about getting lost, the TV broadcast van gets lost on the way to Trenčín, and he turns the delay into the best part of the evening.",
+      "newWords": [
+        "komik",
+        "prenosový",
+        "tik",
+        "migréna",
+        "pružnosť"
+      ],
+      "text": "Gatis je komik. Už desať rokov chodí po Slovensku s programom, v ktorom rozpráva o každodenných veciach: o rodine, o nákupoch a hlavne o tom, ako sa ľudia strácajú. Jeho nový program sa volá „Na najbližšej križovatke odbočte“. Gatis v ňom rozpráva, ako ho navigácia raz poslala do poľa a ako sa jeho mama nikdy nestratí, lebo sa vždy spýta prvého človeka na ulici.\n\nV sobotu mal vystupovať v Trenčíne. Regionálna televízia chcela jeho program natočiť a vysielať. Za divadlom mal stáť prenosový voz, v ktorom pracuje režisérka Femke so svojím tímom. Z tohto voza sa riadia všetky kamery a ide z neho signál do televízie.\n\nGatis bol nervózny. Keď je nervózny, dostane tik: ľavé oko mu začne mykať. Tik sa mu objavil už ráno pri raňajkách. Navyše ho popoludní začala bolieť hlava. Migréna ho trápi od mladosti, najmä keď je pred dôležitým vystúpením. Zjedol niečo malé, napil sa vody a ľahol si na hodinu do tmavej šatne. Migréna potom trochu povolila.\n\nO šiestej mu Femke zavolala. „Gatis, nebudeme tam načas,“ povedala. „Navigácia nás poslala na úzku cestu, kde sa prenosový voz nezmestí pod most. Musíme sa vrátiť asi dvadsať kilometrov.“ Gatis sa najprv zľakol. Potom sa však zasmial. „Viete, o čom je môj program?“ spýtal sa. „Presne o tomto.“\n\nKomik musí mať pružnosť. Keď sa niečo nedarí podľa plánu, nemôže stáť na pódiu a čakať. Gatis začal program o pol hodiny neskôr, ako sa plánovalo, a hneď prvú historku rozpovedal o tom, ako sa práve teraz televízia stráca medzi Trenčínom a Púchovom. Ľudia v sále sa smiali. Keď prenosový voz konečne dorazil, Gatis sa obrátil k divákom: „Tak, teraz nás vidia aj diváci doma. Ale to, čo bolo pred chvíľou, videli len vy.“\n\nPo vystúpení sedeli s Femke v šatni. „Mal si úžasnú pružnosť,“ povedala mu. „Iný komik by bol nahnevaný.“ Gatis si šúchal oko, lebo tik ešte celkom neprešiel. „Pružnosť je jediná vec, ktorú ma navigácia naučila,“ odpovedal. Femke mu sľúbila, že nabudúce si trasu najprv pozrie na papierovej mape.\n\nOtázky:\nO čom je nový program, s ktorým chodí komik Gatis?\nJe o každodenných veciach, hlavne o tom, ako sa ľudia strácajú.\nNa čo slúži prenosový voz?\nRiadia sa z neho kamery a ide z neho signál do televízie.\nAký tik dostane Gatis, keď je nervózny?\nĽavé oko mu začne mykať.\nČo urobil Gatis, keď ho trápila migréna?\nZjedol niečo malé, napil sa vody a na hodinu si ľahol do tmavej šatne.\nPrečo prenosový voz meškal?\nNavigácia ho poslala na úzku cestu, kde sa nezmestil pod most.\nPrečo Femke chválila Gatisovu pružnosť?\nLebo Gatis začal program aj bez televízie a z meškania urobil historku."
+    }
+  ]
+}
