@@ -1,0 +1,184 @@
+{
+  "id": "sk-mini-5700",
+  "rankUpTo": 5700,
+  "level": "C1",
+  "title": "Doprava a mobilita",
+  "description": "Ten stories and texts about getting around: a night train, traffic lights, electric cars, fear of flying, travelling musicians, a dental van, space rockets, a steam railway, a wheelchair student and a cycling commuter.",
+  "topic": "Transport and mobility",
+  "names": [
+    "Ľutomila",
+    "Ľutomile",
+    "Ľutomilin",
+    "Bratislavy",
+    "Košíc",
+    "Košiciach",
+    "Vitislava",
+    "Bojmírom",
+    "Žilina",
+    "Žiline",
+    "Žiliny",
+    "Oravu",
+    "Desislava",
+    "Desislave",
+    "Londýne",
+    "Londýna",
+    "Borivoj",
+    "Ľubodara",
+    "Ľubodarine",
+    "Váhom",
+    "Milomír",
+    "Milomírov",
+    "Slovenska",
+    "Hostirad",
+    "Vojislava",
+    "Vojislavou",
+    "Domislava",
+    "Budivoj",
+    "Budivoja",
+    "Kresomila",
+    "Kresomilou",
+    "Kresomile",
+    "Unislava",
+    "Unislavy",
+    "Brne",
+    "Martina",
+    "Trnave",
+    "Tvrdoslav",
+    "Tvrdoslavovým"
+  ],
+  "lessons": [
+    {
+      "title": "Vozeň číslo štrnásť",
+      "summary": "A portrait of Ľutomila, the attendant of a sleeping car on the night train from Bratislava to Košice: she prepares the compartments, knows how to open a door that gets stuck, stays unobtrusive at night, gives a provisional arrival time and makes pancakes for breakfast.",
+      "newWords": [
+        "vozeň",
+        "štrnásť",
+        "stolík",
+        "zaseknúť",
+        "nenápadný",
+        "predbežný",
+        "palacinka"
+      ],
+      "text": "Ľutomila pracuje už dvanásť rokov ako sprievodkyňa vo vozni s lôžkami v nočnom vlaku z Bratislavy do Košíc. Jej vozeň má vždy to isté číslo: štrnásť. „Cestujúci si také číslo ľahko zapamätajú,“ hovorí. „Keď na stanici hľadajú svoj vozeň, stačí povedať štrnásť a hneď vedia, že majú ísť úplne dozadu.“\n\nVlak odchádza tesne pred desiatou večer, ale Ľutomila prichádza na stanicu o hodinu skôr. Skontroluje každé oddelenie, pripraví čisté plachty a na každý malý stolík pri okne položí fľašu vody a balíček s mydlom a uterákom. Potom skúša, či sa dajú otvoriť okná a dvere. Starý vozeň má svoje zvyky: dvere do jedného oddelenia sa v zime často zaseknú. „Keď sa dvere zaseknú, netreba ťahať silou,“ vysvetľuje. „Musíte ich trochu zdvihnúť a až potom posunúť.“ Tento trik pozná každý, kto vo vozni číslo štrnásť niekedy slúžil.\n\nDobrý sprievodca je podľa nej nenápadný. Cestujúci ho majú vidieť iba vtedy, keď ho potrebujú. V noci chodí Ľutomila po chodbe potichu, nenápadne sleduje, či je všetko v poriadku, a nezobudí nikoho, kto spí. Nenápadný musí byť aj jej hlas. Keď hlási zastávky, hovorí tak, aby ju počuli len tí, ktorí vystupujú.\n\nPred polnocou sa ľudia často pýtajú, kedy budú v Košiciach. Ľutomila im povie predbežný čas príchodu, napríklad 6.20 ráno. „Je to len predbežný čas,“ upozorňuje. „Na trati sa robia opravy mostov a vlak môže v noci stáť aj pol hodiny.“ Presný čas zistí až ráno, keď jej kolega z riadenia dopravy pošle správu. Ak vlak mešká, predbežný údaj opraví a prejde všetky oddelenia, aby to cestujúci vedeli ešte pred raňajkami.\n\nRaňajky sú jej obľúbená časť služby. Vo vozni je malá kuchynka a Ľutomila v nej každé ráno pripravuje palacinky. Cesto si robí doma, vo vlaku palacinky iba upečie. Podáva ich s medom alebo s ovocím priamo na stolík v oddelení. „Palacinka vo vlaku chutí inak ako doma,“ smeje sa. „Za oknom vychádza slnko nad horami a ľudia sú zrazu vďační za každú maličkosť.“\n\nNajviac si pamätá jedného staršieho pána, ktorý cestoval vo vozni štrnásť každý mesiac k dcére do Košíc. Vždy si objednal dve palacinky a vždy sedel pri okne. Keď prestal cestovať, poslal Ľutomile pohľadnicu s jedinou vetou: Ďakujem za ticho a za palacinky. Pohľadnica dodnes visí v jej malej kuchynke.\n\nOtázky:\nPrečo si cestujúci ľahko zapamätajú Ľutomilin vozeň?\nVozeň má vždy to isté číslo, štrnásť, a stojí úplne vzadu.\nČo robí Ľutomila, keď sa dvere do oddelenia zaseknú?\nDvere trochu zdvihne a až potom ich posunie, netreba ťahať silou.\nPrečo má byť sprievodca nenápadný?\nCestujúci ho majú vidieť iba vtedy, keď ho potrebujú, a v noci nesmie nikoho budiť.\nPrečo hovorí cestujúcim iba predbežný čas príchodu?\nNa trati sa robia opravy mostov a vlak môže v noci stáť, takže presný čas zistí až ráno.\nČo pripravuje Ľutomila na raňajky?\nPripravuje palacinky s medom alebo s ovocím a podáva ich na stolík v oddelení."
+    },
+    {
+      "title": "Svetlá, ktoré počítajú",
+      "summary": "An interview with Bojmír, a traffic engineer in Žilina, about the new central control of the traffic lights on the city's main road: how an algorithm estimates traffic a minute ahead, why engineers speak of flow, and which indicators show that the system helps drivers and pedestrians.",
+      "newWords": [
+        "tepna",
+        "centrálne",
+        "algoritmus",
+        "odhadnúť",
+        "prúdenie",
+        "ukazovateľ",
+        "stĺpec"
+      ],
+      "text": "Žilina minulý rok spustila nový systém riadenia svetiel na križovatkách na hlavnej dopravnej tepne mesta. O tom, ako funguje, sa novinárka Vitislava rozprávala s dopravným inžinierom Bojmírom.\n\nČo je dopravná tepna a prečo je pre mesto taká dôležitá?\nDopravná tepna je hlavná cesta, po ktorej jazdí väčšina áut. Funguje podobne ako tepna v tele: keď sa na nej niekde doprava zastaví, pocíti to celé mesto. V Žiline je takou tepnou cesta, ktorá vedie od diaľnice popri stanici až do centra. Ráno po nej prejde vyše tisíc áut za hodinu.\n\nAko ste doteraz riadili svetlá na križovatkách?\nKaždá križovatka mala pevný program. Zelená svietila napríklad 40 sekúnd bez ohľadu na to, či bola cesta prázdna, alebo plná. Teraz sú všetky svetlá na tepne riadené centrálne. Z jedného počítača na mestskom úrade vidíme celú tepnu naraz a centrálne ju aj ovládame.\n\nČo presne ten počítač robí?\nPracuje podľa algoritmu, teda podľa presného postupu, ktorý sme spolu s odborníkmi na softvér pripravovali dva roky. Kamery a snímače v ceste každú sekundu posielajú údaje o tom, koľko áut stojí pred križovatkou a ako rýchlo idú. Algoritmus z týchto údajov odhadne, koľko áut príde o minútu, a podľa toho dá zelenej viac alebo menej času. Odhadnúť dopravu na minútu dopredu je pomerne ľahké. Odhadnúť ju na hodinu dopredu je oveľa ťažšie, pretože stačí jeden zatvorený pruh na diaľnici a všetko je inak.\n\nČasto hovoríte o prúdení áut. Čo tým myslíte?\nInžinieri, ktorí sa zaoberajú dopravou, radi používajú slová z fyziky. Autá na tepne sa správajú podobne ako voda v potrubí. Keď prúdenie ide plynulo, autá idú rovnakou rýchlosťou a nikto nemusí spomaliť. Keď sa prúdenie preruší, napríklad jednou zbytočnou červenou, vznikne vlna, ktorá sa šíri dozadu a na jej konci stojí zápcha. Cieľom algoritmu je, aby prúdenie išlo stále plynulo.\n\nAko zistíte, či systém naozaj pomáha?\nSledujeme niekoľko ukazovateľov. Prvým ukazovateľom je priemerný čas, za ktorý auto prejde celú tepnu. Druhým je počet zastavení. Tretím ukazovateľom je čakanie ľudí, ktorí idú pešo, lebo mesto nie je iba pre autá. Každé ráno dostanem tabuľku, v ktorej má každý ukazovateľ svoj stĺpec. V prvom stĺpci je čas jazdy, v druhom počet zastavení, v treťom čakanie ľudí, ktorí idú pešo.\n\nA čo ukazujú čísla po roku?\nČas jazdy po tepne klesol asi o štvrtinu. Najviac ma však teší posledný stĺpec: ľudia, ktorí idú pešo, čakajú kratšie ako predtým. Algoritmus sa naučil, že keď na prechode stojí veľa ľudí a áut je málo, má dať zelenú najprv im.\n\nOtázky:\nČo je dopravná tepna?\nJe to hlavná cesta, po ktorej jazdí väčšina áut, a keď sa na nej doprava zastaví, pocíti to celé mesto.\nAko sú dnes riadené svetlá na tepne?\nSú riadené centrálne z jedného počítača na mestskom úrade.\nČo robí algoritmus s údajmi z kamier?\nOdhadne, koľko áut príde o minútu, a podľa toho dá zelenej viac alebo menej času.\nKedy ide prúdenie áut plynulo?\nKeď autá idú rovnakou rýchlosťou a nikto nemusí spomaliť.\nKtoré ukazovatele inžinieri sledujú?\nSledujú čas jazdy po tepne, počet zastavení a čakanie ľudí, ktorí idú pešo."
+    },
+    {
+      "title": "Pumpa, alebo zásuvka?",
+      "summary": "A columnist and her husband spend a month deciding whether their next car should run on petrol or electricity: he argues for the petrol station on every corner, she for the savings; they weigh pollution in the street against pollution far away, learn about battery cooling and agree on an electric car for town and the train for long trips.",
+      "newWords": [
+        "pumpa",
+        "vzrásť",
+        "úspora",
+        "environmentálny",
+        "znečistenie",
+        "nepriamo",
+        "chladenie"
+      ],
+      "text": "Keď sa nám minulú jeseň pokazilo staré auto, s manželom sme dlho rozmýšľali, aké kúpime nové. Ja som chcela elektrické auto, on chcel znova auto na benzín. Debata trvala celý mesiac a myslím si, že v nej padli všetky argumenty, ktoré dnes počuť v mnohých rodinách.\n\nManžel začal pumpou. Benzínová pumpa je v meste takmer na každom rohu, naplniť nádrž trvá päť minút a na pumpe si človek ešte kúpi kávu a noviny. Stanica, kde sa dá nabiť elektrické auto, je u nás iba jedna a nabiť auto trvá najmenej pol hodiny. „Na pumpe nikto nečaká pol hodiny,“ povedal manžel a chvíľu som nevedela, čo odpovedať.\n\nJa som začala peniazmi. Ceny benzínu za posledné tri roky výrazne vzrástli a s nimi vzrástli aj naše mesačné výdavky. Auto by sme nabili doma v noci, keď je elektrina lacnejšia, a úspora by podľa mojich výpočtov bola asi 300 eur ročne. Manžel odpovedal, že elektrické auto je drahšie, takže úspora sa prejaví až po mnohých rokoch. Musela som uznať, že má pravdu, ale tvrdila som, že úspora nie je iba v peniazoch.\n\nPotom prišiel na rad environmentálny argument. Elektrické auto nemá motor na benzín, a preto v meste nespôsobuje znečistenie vzduchu. Na našej ulici, kde ráno stoja dlhé rady áut, by to bol veľký rozdiel. Manžel však pripomenul, že elektrinu treba niekde vyrobiť a že batérie sa vyrábajú z kovov, ktoré sa ťažia ďaleko od nás. Elektrické auto teda tiež spôsobuje znečistenie, ale nepriamo: nevzniká na našej ulici, ale v elektrárni alebo v bani na inom kontinente. Za to znečistenie nepriamo platíme všetci. Environmentálny účet teda nie je taký jednoduchý, ako som si myslela. Odborníci sa zhodujú, že elektrické auto je v súčte čistejšie, ale rozdiel závisí od toho, ako krajina vyrába elektrinu.\n\nNajviac ma zaujalo chladenie batérie. Keď sa batéria rýchlo nabíja, je horúca a auto ju musí udržiavať v chlade, inak by sa rýchlo pokazila. Chladenie však potrebuje energiu, takže v horúcom lete auto minie viac. Podobne je to v zime, keď chladná batéria vydrží kratšie. Bez dobrého chladenia by batéria nevydržala ani polovicu svojej životnosti.\n\nNapokon sme sa dohodli. Kúpili sme malé elektrické auto na cesty do práce a na nákupy, lebo väčšinu dní jazdíme po meste. Na dlhé cesty k mojim rodičom na Oravu budeme chodiť vlakom. Manžel síce na pumpu stále chodí, ale už iba po noviny.\n\nOtázky:\nPrečo chcel manžel auto na benzín?\nBenzínová pumpa je takmer na každom rohu a naplniť nádrž trvá iba päť minút.\nAkú úsporu očakávala autorka?\nPodľa jej výpočtov by úspora bola asi 300 eur ročne, lebo ceny benzínu vzrástli.\nPrečo nie je environmentálny účet taký jednoduchý?\nElektrické auto spôsobuje znečistenie nepriamo, v elektrárni, kde sa vyrába elektrina, a v baniach, kde sa ťažia kovy na batérie.\nPrečo je dôležité chladenie batérie?\nKeď sa batéria rýchlo nabíja, je horúca a bez chladenia by sa rýchlo pokazila.\nNa čom sa manželia napokon dohodli?\nKúpili malé elektrické auto do mesta a na dlhé cesty budú chodiť vlakom."
+    },
+    {
+      "title": "Ponad mraky",
+      "summary": "Desislava, who has never flown because of her anxiety, takes a weekend course at Košice airport: the pilot Borivoj explains clouds and turbulence, a psychologist teaches slow deep breathing, the short test flight climbs into clear sky, and in July she flies to her sister in London.",
+      "newWords": [
+        "úzkosť",
+        "emocionálne",
+        "mrak",
+        "ponad",
+        "zhlboka",
+        "vyjasniť",
+        "prelomiť"
+      ],
+      "text": "Desislava má 42 rokov a nikdy neletela lietadlom. Jej sestra žije už desať rokov v Londýne a každé leto ju volá na návštevu. Desislava doteraz vždy našla dôvod, prečo nemôže. Skutočným dôvodom však bola úzkosť, ktorá ju chytila už vtedy, keď na letisko len pomyslela. Srdce jej búšilo, ruky sa jej potili a v hlave mala jedinú myšlienku: nechcem tam ísť.\n\nMinulú jar sa prihlásila na víkendový kurz pre ľudí so strachom z lietania na letisku v Košiciach. Kurz viedol pilot Borivoj spolu so psychologičkou. V skupine bolo osem ľudí. Niektorí nikdy neleteli, iní leteli často, ale každý let prežívali emocionálne veľmi ťažko.\n\nPrvý deň hovoril najmä Borivoj. Vysvetľoval, prečo lietadlo letí, čo znamenajú zvuky pri štarte a prečo sa krídla trochu hýbu. Najviac otázok mali účastníci o mrakoch. „Keď lietadlo vletí do mraku, zrazu nič nevidíte a lietadlo sa trochu trasie,“ povedal. „Mrak je však iba voda vo vzduchu. Lietadlu nič neurobí, len ho trochu pohojdá, podobne ako auto na nerovnej ceste.“ Dopravné lietadlá podľa neho väčšinou letia ponad mraky, kde je pokoj a svieti slnko. Desislava si to zapísala do zošita: Ponad mraky vždy svieti slnko.\n\nDruhý deň patril psychologičke. Učila ich, ako zvládnuť úzkosť vo chvíli, keď prichádza. „Úzkosť nie je nebezpečenstvo, je to iba pocit,“ hovorila. Ukázala im jednoduché cvičenie: pomaly a zhlboka sa nadýchnuť nosom, chvíľu počkať a potom pomaly vydýchnuť ústami. „Kto dýcha zhlboka, dáva telu signál, že je všetko v poriadku,“ vysvetlila. Desislava pochopila, že problém nie je v lietadle, ale v tom, že na strach reaguje emocionálne skôr, ako stihne rozmýšľať. Rozumom si už všetko vedela vyjasniť; potrebovala sa len naučiť dať svojmu rozumu čas.\n\nNa konci kurzu nasledoval krátky let z Košíc do Bratislavy a späť. Ráno bolo zamračené a Desislava sa bála, že poletia v búrke. Borivoj ju upokojil: „Do obeda sa obloha vyjasní.“ Mal pravdu. Keď lietadlo prešlo cez vrstvu mrakov, obloha sa naozaj vyjasnila a pod nimi ležala biela krajina z mrakov. Desislava počas štartu dýchala zhlboka a pevne sa držala sedadla, ale panika neprišla.\n\n„Dnes ste prelomili prvú bariéru,“ povedal jej Borivoj po pristátí. Prelomiť strach jediným letom sa nedá, vedela to aj ona, ale prvý krok urobila. V júli si kúpila letenku do Londýna. Sestra ju čakala na letisku a Desislava jej hneď na privítanie povedala: „Leteli sme ponad mraky. Bolo to krásne.“\n\nOtázky:\nPrečo Desislava nikdy neletela?\nMala úzkosť, ktorá ju chytila už vtedy, keď na letisko len pomyslela.\nČo vysvetlil pilot Borivoj o mrakoch?\nMrak je iba voda vo vzduchu a lietadlá väčšinou letia ponad mraky, kde svieti slnko.\nAké cvičenie ich naučila psychologička?\nMali sa pomaly a zhlboka nadýchnuť nosom, chvíľu počkať a pomaly vydýchnuť ústami.\nČo povedal Borivoj Desislave po pristátí?\nPovedal jej, že dnes prelomila prvú bariéru.\nAko prežívali lety ostatní ľudia v skupine?\nNiektorí nikdy neleteli a iní prežívali každý let emocionálne veľmi ťažko.\nČo urobila Desislava v júli?\nKúpila si letenku do Londýna a letela za sestrou."
+    },
+    {
+      "title": "Husle s vlastným sedadlom",
+      "summary": "Ľubodara, a violinist from Žilina, and Milomír, the drummer of her small folk band, describe how they travel with their instruments: the old violin in its hard case with its own seat, the big drum that hardly fits into the train, an acoustic concert in the Gothic hall of a castle and a first music video filmed in an old arcade.",
+      "newWords": [
+        "husle",
+        "puzdro",
+        "bubon",
+        "gotický",
+        "akustický",
+        "klip",
+        "pasáž"
+      ],
+      "text": "Ľubodara hrá na husle od šiestich rokov a dnes učí na konzervatóriu v Žiline. Cez víkendy hrá s malou kapelou, ktorá spája ľudové piesne s modernou hudbou. Kapela má štyroch členov a každý z nich cestuje s iným nástrojom. To, čo pre bežného cestujúceho znamená iba sadnúť do vlaku, je pre muzikantov malá logistická úloha.\n\nHusle sú malé, ale veľmi citlivé. Ľubodarine husle majú vyše sto rokov a kúpila ich za peniaze, ktoré šetrila desať rokov. Nosí ich v pevnom puzdre, ktoré chráni drevo pred nárazmi aj pred zmenami teploty. Puzdro nikdy nedáva do batožinového priestoru autobusu ani medzi kufre v lietadle. Keď letí na koncert do zahraničia, kupuje husliam vlastné sedadlo a puzdro pripúta bezpečnostným pásom. „Ľudia sa smejú, že moje husle majú vlastnú letenku,“ hovorí. „Ale keby sa puzdro medzi kuframi rozbilo, prišla by som o nástroj, aký už nikdy mať nebudem.“\n\nCelkom iný problém má bubeník Milomír. Jeho veľký bubon sa do vlaku takmer nezmestí. Na koncerty preto jazdí autom, v ktorom zaberá bubon celé zadné sedadlo. Keď kapela cestuje vlakom, Milomír berie iba menší bubon a zvyšok bicích si požičia na mieste. „Každý bubon znie inak,“ vysvetľuje. „Na cudzom nástroji musím pred koncertom hľadať svoj zvuk aj pol hodiny.“\n\nMinulé leto kapela hrala na festivale na hrade nad Váhom. Koncert sa konal v starej gotickej sieni s vysokými klenbami a úzkymi oknami. Organizátori chceli, aby kapela hrala bez reproduktorov, teda akustický koncert. Pre muzikantov to bola výzva. Gotická sieň má však výborné akustické vlastnosti: kamenné steny a klenby nesú zvuk až do posledného radu. Ľubodarine husle zneli plno a jasne a Milomírov bubon musel hrať potichu, aby neprekričal ostatných. Po koncerte mnohí poslucháči povedali, že akustický koncert v gotickej sieni sa im páčil viac ako koncerty s veľkými reproduktormi.\n\nNa festivale sa s kapelou stretol mladý kameraman a ponúkol im, že im natočí prvý klip. Klip natáčali dva dni. Prvú časť nakrútili v gotickej sieni na hrade, druhú v starej pasáži v centre Žiliny. Pasáž spája dve ulice a má sklenenú strechu, pod ktorou sa zvuk krásne odráža. Ľudia, ktorí pasážou prechádzali, sa zastavovali a počúvali. Niektorí sa v klipe objavili aj ako diváci.\n\nDnes si klip na internete pozreli desiatky tisíc ľudí. Ľubodara hovorí, že ju najviac teší, keď jej žiaci povedia, že ju videli hrať v pasáži. Husle pritom stále nosí v tom istom starom puzdre.\n\nOtázky:\nAko cestuje Ľubodara so svojimi husľami?\nNosí ich v pevnom puzdre a v lietadle im kupuje vlastné sedadlo.\nAký problém má Milomír s bubnom?\nJeho veľký bubon sa do vlaku takmer nezmestí, preto jazdí autom alebo berie menší bubon.\nPrečo bol akustický koncert v gotickej sieni úspešný?\nGotická sieň má výborné akustické vlastnosti a kamenné steny nesú zvuk až do posledného radu.\nKde natáčali prvý klip kapely?\nNatáčali ho v gotickej sieni na hrade a v starej pasáži v centre Žiliny.\nPrečo sa v pasáži dobre natáča hudba?\nPasáž má sklenenú strechu, pod ktorou sa zvuk krásne odráža."
+    },
+    {
+      "title": "Zubár na kolesách",
+      "summary": "Hostirad, a dentist, and his nurse Vojislava drive a van fitted out as a dental surgery to thirteen villages in eastern Slovakia; one morning the van is declared unfit to drive because of its brakes, the mayor lends the village school, and the teachers help them gather the children.",
+      "newWords": [
+        "zubár",
+        "úžitkový",
+        "trinásť",
+        "neschopný",
+        "pozbierať",
+        "nápomocný"
+      ],
+      "text": "V mnohých dedinách na východe Slovenska je najbližší zubár vzdialený aj 40 kilometrov. Pre starších ľudí bez auta je to cesta autobusom na celý deň a dvakrát musia prestúpiť. Preto si zubár Hostirad pred piatimi rokmi kúpil veľké úžitkové auto a spolu s technikmi z neho urobil malú zubnú ambulanciu. Vnútri je zubárske kreslo, lampa a skrinky s nástrojmi. Úžitkové auto má vlastný generátor elektriny aj nádrž na čistú vodu.\n\nHostirad jazdí po regióne s detskou sestrou Vojislavou. Každý mesiac navštívia trinásť obcí. V každej obci stoja jeden deň, zvyčajne pred obecným úradom alebo pri škole. Na trinásť obcí majú presný plán, ktorý visí na dverách auta a aj na internete. Ľudia si môžu termín objednať po telefóne, ale mnohí jednoducho prídu a čakajú.\n\nJedného rána v októbri mali ísť do malej obce pod horami, kde zubár nebol vyše dvadsať rokov. Pri pravidelnej kontrole však technik zistil, že predné brzdy sú v zlom stave. „Auto je neschopné jazdy,“ povedal. „S takými brzdami vás nemôžem pustiť na cestu.“ Hostirad bol nešťastný. Úžitkové auto bolo neschopné jazdy aspoň tri dni a v obci ho čakalo vyše dvadsať detí.\n\nVojislava zavolala starostovi obce. Starosta bol veľmi nápomocný. Navrhol, aby zubár ošetroval v škole, kde mali malú miestnosť pre lekárske prehliadky. Hostirad naložil najdôležitejšie nástroje a prenosnú lampu do svojho osobného auta a išli. Nebolo to také pohodlné ako v úžitkovom aute, ale dalo sa pracovať.\n\nV škole boli nápomocné aj učiteľky. Tie ráno pozbierali od rodičov podpísané súhlasy a deti potom posielali k zubárovi po jednom, podľa zoznamu. Vojislava medzitým pozbierala od detí preukazy poisťovne a čísla písala do počítača. Väčšina detí mala zuby v poriadku, niektoré potrebovali ošetriť jeden zub. Najmenšie deti sa báli kresla, a tak im Hostirad najprv dovolil prezrieť si nástroje a sám s nimi spočítal ich zuby.\n\nVečer, keď deti odišli, Hostirad s Vojislavou pozbierali nástroje a upratali miestnosť. Starosta im priniesol teplý čaj. „Prídete aj o mesiac?“ spýtal sa. „Keď auto opravia, prídeme, tentoraz aj s kreslom,“ odpovedal Hostirad. Po troch dňoch bolo úžitkové auto opäť v poriadku a ich plán pre trinásť obcí pokračoval ďalej.\n\nOtázky:\nPrečo si zubár Hostirad kúpil úžitkové auto?\nChcel z neho urobiť zubnú ambulanciu, lebo v mnohých dedinách je najbližší zubár veľmi ďaleko.\nKoľko obcí navštívia každý mesiac?\nKaždý mesiac navštívia trinásť obcí.\nPrečo bolo auto neschopné jazdy?\nTechnik zistil, že predné brzdy sú v zlom stave.\nAko bol nápomocný starosta?\nNavrhol, aby zubár ošetroval v škole, a večer im priniesol teplý čaj.\nČo pozbierali učiteľky od rodičov?\nPozbierali podpísané súhlasy, aby mohol zubár deti ošetriť."
+    },
+    {
+      "title": "Pena, ktorá letí do vesmíru",
+      "summary": "A portrait of Domislava, an engineer at a small firm in Košice that makes the protective covering layer for parts of space rockets from a special foam: how the foam protects instruments from heat and shaking, how the design was reworked after tests, and why a space agency needs an addendum to the contract and a long formal approval.",
+      "newWords": [
+        "kozmický",
+        "pena",
+        "krycí",
+        "prepracovaný",
+        "dodatok",
+        "formálny"
+      ],
+      "text": "Keď človek počuje slovo kozmický, väčšinou si predstaví človeka vo vesmíre alebo raketu na štarte. Len málo ľudí si predstaví bielu penu, ktorú Domislava každý deň meria a skúša v malej firme na okraji Košíc. Táto pena však tiež letí do vesmíru a bez nej by kozmická doprava nebola možná.\n\nDomislava študovala materiály na technickej univerzite a vo firme pracuje osem rokov. Firma vyrába krycie vrstvy pre časti rakiet, ktoré vozia satelity na dráhu okolo Zeme. „Raketa pri štarte prechádza vzduchom obrovskou rýchlosťou,“ vysvetľuje. „Jej povrch je veľmi horúci a celá konštrukcia sa silno trasie. Prístroje vo vnútri sú pritom citlivé ako hodinky. Krycia vrstva ich chráni pred teplom aj pred trasením.“\n\nZákladom krycej vrstvy je špeciálna pena. Na pohľad pripomína obyčajnú penu, akú poznáme z balíkov, ale jej zloženie je oveľa náročnejšie. Pena musí byť ľahká, lebo každé kilo navyše stojí pri štarte veľa paliva. Zároveň musí vydržať vysokú teplotu a nesmie sa rozpadnúť ani vo veľkom chlade vesmíru. Domislava a jej kolegovia skúšajú, ako sa pena správa pri rôznych teplotách, a výsledky píšu do dlhých tabuliek.\n\nPrvá verzia krycej vrstvy, ktorú firma navrhla pred tromi rokmi, testy neprešla. Pri skúške v horúcej komore sa na okrajoch objavili drobné trhliny. Tím musel návrh celý zmeniť. Prepracovaný návrh má penu z menších kusov, ktoré sa pri teple môžu trochu pohnúť a nič sa im nestane. „Prepracovaná verzia je jednoduchšia ako tá prvá,“ hovorí Domislava. „V technike platí, že najlepšie riešenie je často to najjednoduchšie.“\n\nZmena návrhu však znamenala aj zmenu zmluvy s kozmickou agentúrou. Pôvodná zmluva hovorila o inom tvare kusov a o inom termíne, kedy ich má firma dodať. Právnici oboch strán preto pripravili dodatok k zmluve. Dodatok mal dvanásť strán a riešil nový termín, nové testy aj novú cenu. Kým dodatok nepodpísali, firma nemohla pokračovať.\n\nNajdlhšou časťou práce nie je samotná výroba, ale formálny proces, v ktorom sa všetko schvaľuje. Každý kus musí mať svoj protokol, každá skúška svoj záznam a každá zmena podpis zodpovednej osoby. „Na začiatku som si myslela, že formálny proces je iba zbytočná práca s papiermi,“ priznáva Domislava. „Dnes viem, že vo vesmíre sa nič nedá opraviť. Formálna kontrola je jediný spôsob, ako zistiť chybu ešte na zemi.“\n\nMinulú jeseň prešiel prepracovaný návrh všetkými skúškami. Prvé kusy z Košíc poletia do vesmíru budúci rok. Domislava hovorí, že štart bude sledovať v priamom prenose spolu s celou firmou.\n\nOtázky:\nČo vyrába firma, v ktorej pracuje Domislava?\nVyrába krycie vrstvy pre časti rakiet, ktoré vozia satelity na dráhu okolo Zeme.\nAké vlastnosti musí mať pena?\nMusí byť ľahká, vydržať vysokú teplotu a nesmie sa rozpadnúť ani vo veľkom chlade.\nPrečo museli návrh zmeniť?\nPri skúške v horúcej komore sa na okrajoch krycej vrstvy objavili trhliny.\nPrečo bol potrebný dodatok k zmluve?\nPrepracovaný návrh mal iný tvar kusov a iný termín, ako uvádzala pôvodná zmluva.\nPrečo považuje Domislava formálny proces za dôležitý?\nVo vesmíre sa nič nedá opraviť, a tak je formálna kontrola jediný spôsob, ako nájsť chybu ešte na zemi."
+    },
+    {
+      "title": "Parný stroj oslavuje",
+      "summary": "Budivoj, a retired fitter, has spent his free time for forty years as a volunteer on a small historic forest railway; on the line's anniversary he fires the boiler of the old steam engine, passes his knowledge on to the young volunteer Kresomila, and the passengers ride with their swimsuits to the thermal pool with healing water at the last station.",
+      "newWords": [
+        "kotol",
+        "sláviť",
+        "celoživotný",
+        "odovzdávať",
+        "liečivý",
+        "plavky"
+      ],
+      "text": "Malá lesná železnica v doline pod horami tento rok slávi sto rokov. Kedysi po nej vozili drevo z lesov na pílu, dnes vozí turistov. Celé leto jazdia malé vláčiky, ktoré majú otvorené vozne, ale na výročie mal prísť hlavný hosť: starý parný stroj, ktorý ľudia nevideli v prevádzke vyše desať rokov.\n\nO parný stroj sa stará Budivoj. Má 70 rokov, celý život pracoval ako technik v továrni a na železnici je dobrovoľníkom už 40 rokov. Pre neho je to celoživotný koníček, možno viac ako koníček. „Niektorí ľudia zbierajú známky,“ hovorí. „Ja mám celoživotnú lásku, ktorá váži dvadsať ton.“\n\nSrdcom parného stroja je kotol. V kotle sa varí voda, až sa z nej stane para, a para potom tlačí na časti stroja, ktoré otáčajú kolesá. Kotol je však aj veľmi citlivá časť. Musí ho pravidelne kontrolovať odborník a každá oprava sa píše do knihy. Pred dvoma rokmi technik našiel v kotle slabé miesta a stroj musel zostať v dielni. Dobrovoľníci zbierali peniaze, Budivoj s dvoma kolegami vymenil staré rúry a minulú jar kotol konečne prešiel kontrolou.\n\nBudivoj vie, že nebude jazdiť večne. Preto už niekoľko rokov odovzdáva svoje skúsenosti mladším. Najlepšou žiačkou je Kresomila, študentka techniky, ktorá má 20 rokov. Budivoj jej ukazuje, ako sa ráno v kotle pomaly zakladá oheň, ako sa sleduje tlak a koľko uhlia treba pridať. „Vedomosti sa nedajú odovzdávať z knihy,“ hovorí. „Treba stáť vedľa kotla a počúvať, ako dýcha.“ Kresomila si všetko píše do malej knižky a raz bude tieto vedomosti tiež odovzdávať ďalej.\n\nV deň osláv bola stanica plná ľudí. Ľudia z dediny slávili celý víkend: hrala hudba, predávali sa domáce koláče a deti si mohli parný stroj prezrieť. Ráno o deviatej Budivoj s Kresomilou spustili paru a vlak sa pomaly pohol do doliny.\n\nNa konečnej stanici je malý bazén s teplou vodou, ktorá prichádza priamo zo zeme. Miestni ju považujú za liečivú, lebo obsahuje veľa minerálov. Ľudia s bolesťami kĺbov sem chodia už storočie a tvrdia, že liečivé pramene im pomáhajú. Mnohí cestujúci si preto do vlaku zobrali plavky a uterák. Kým sa vlak na konečnej otáčal a do kotla sa dopĺňala voda, oni hodinu plávali v bazéne, ktorý napĺňajú liečivé pramene. Niektoré deti si plavky obliekli už vo vlaku, aby nestratili ani minútu.\n\nVečer, keď sa vlak vrátil, sa Budivoj posadil na lavičku pri stanici. Kresomila ešte čistila stroj. „Tak sme to oslávili,“ povedal. „A o rok to bude robiť ona.“\n\nOtázky:\nAké výročie slávi lesná železnica?\nŽeleznica tento rok slávi sto rokov.\nPrečo je železnica pre Budivoja celoživotný koníček?\nJe na nej dobrovoľníkom už 40 rokov a parný stroj je jeho celoživotná láska.\nČo sa deje v kotle parného stroja?\nV kotle sa varí voda, až sa z nej stane para, ktorá tlačí na časti stroja a otáča kolesá.\nKomu odovzdáva Budivoj svoje skúsenosti?\nOdovzdáva ich Kresomile, študentke techniky.\nPrečo si cestujúci zobrali do vlaku plavky?\nNa konečnej stanici je bazén s teplou vodou z liečivých prameňov, v ktorom chceli plávať."
+    },
+    {
+      "title": "Štipendium a nástupište",
+      "summary": "Unislava, a student in a wheelchair from Martin, writes on her blog about her first year in Brno: the scholarship that pays for her studies, the train she chose on purpose instead of a lift by car, the helpful but sometimes clumsy staff, the quote above her desk and the profession she wants to have.",
+      "newWords": [
+        "štipendium",
+        "pohybový",
+        "úmyselne",
+        "opovážiť",
+        "citát",
+        "profesia"
+      ],
+      "text": "Volám sa Unislava, mám dvadsať rokov a od narodenia mám pohybové postihnutie. Chodiť nemôžem, po svete sa pohybujem na vozíku. Minulý rok som začala študovať architektúru v Brne a chcem tu napísať, ako vyzerá môj prvý rok, lebo veľa ľudí sa ma na to pýta.\n\nŠtudovať v inom meste by som si nemohla dovoliť bez štipendia. Štipendium mi dáva nadácia, ktorá podporuje študentov s pohybovým postihnutím. Z peňazí platím internát, učebnice a cestovanie domov. Keď som dostala list, že mi štipendium schválili, plakala som od radosti. Moja mama najprv nechcela, aby som išla tak ďaleko, ale štipendium ju presvedčilo, že to myslím vážne.\n\nDomov do Martina chodím raz za dva týždne. Otec mi ponúkol, že ma bude voziť autom, ale ja som úmyselne zvolila vlak. Nechcem, aby rodina organizovala svoj život podľa mňa. Vlak je pomalší, no úmyselne si ho vyberám aj preto, lebo chcem vedieť, ako sa cestuje ľuďom, ktorí majú podobné pohybové obmedzenia ako ja. Raz budem navrhovať stanice a chcem ich poznať zdola, z výšky vozíka.\n\nNa väčších staniciach je všetko v poriadku. Vo vlaku je plošina, sprievodca mi pomôže a vo vozni je miesto pre vozík. Horšie je to na malých staniciach, kde je nástupište nízke a výťah nefunguje. Tam musím vopred zavolať, aby ma niekto čakal. Ľudia sú väčšinou veľmi milí. Niekedy sú až príliš: chytia vozík bez opýtania a tlačia ma tam, kam vôbec nechcem ísť. Raz som jedného pána slušne požiadala, aby ma pustil. Bol prekvapený, že sa niekto na vozíku opováži odmietnuť pomoc. Neskôr sme sa spolu zasmiali. Pochopil, že pomoc je najlepšia, keď sa človek najprv spýta.\n\nNad stolom na internáte mám citát, ktorý mi kedysi napísala učiteľka zo základnej školy: Bariéry nie sú v nás, sú v schodoch. Ten citát mi pripomína, prečo študujem. Keď sa mi niečo nedarí, prečítam si ho znova. Spolubývajúca si citát odfotila a teraz ho má aj ona nad posteľou.\n\nArchitektúra je náročná profesia. Mnohí sa ma pýtajú, či sa architekt na vozíku vôbec opováži ísť na stavbu. Ja odpovedám, že práve preto. Profesia architekta nie je len o kreslení pekných budov, ale aj o tom, aby ich mohol používať každý. Chcem mať profesiu, v ktorej moje skúsenosti budú výhodou, nie prekážkou.\n\nOtázky:\nPrečo môže Unislava študovať v Brne?\nDostala štipendium od nadácie, ktorá podporuje študentov s pohybovým postihnutím.\nPrečo si úmyselne vyberá vlak namiesto auta?\nNechce, aby rodina organizovala život podľa nej, a chce poznať, ako sa cestuje ľuďom na vozíku.\nAké problémy má na malých staniciach?\nNástupište je nízke a výťah nefunguje, preto musí vopred zavolať, aby ju niekto čakal.\nAký citát má nad stolom?\nMá tam citát od učiteľky: Bariéry nie sú v nás, sú v schodoch.\nNa čo sa ľudia často pýtajú Unislavy?\nPýtajú sa jej, či sa architekt na vozíku vôbec opováži ísť na stavbu.\nPrečo chce Unislava mať profesiu architekta?\nChce navrhovať budovy a stanice, ktoré môže používať každý, a jej skúsenosti tam budú výhodou."
+    },
+    {
+      "title": "Na bicykli do kancelárie",
+      "summary": "A light column by a man who has cycled to his office in Trnava for three years: he describes switching gears and switching between the bike and the train, the awful pothole-filled road by the station, the bicycle stand at the office, and a funny mix-up between two colleagues with identical bikes.",
+      "newWords": [
+        "prepínať",
+        "otrasný",
+        "stanovište",
+        "príhoda"
+      ],
+      "text": "Už tri roky chodím do práce na bicykli. Z našej dediny do kancelárie v Trnave je to dvanásť kilometrov, takže každý deň prejdem 24 kilometrov. Kolegovia si myslia, že som športovec. Nie som. Iba som raz vypočítal, koľko času strávim v zápche, a zistil som, že na bicykli som v kancelárii skôr ako autom.\n\nPrvé týždne som sa učil, ako správne prepínať prevody. Môj bicykel má 21 prevodov a ja som dlho používal iba tri. Starší sused mi vysvetlil, že prevody treba prepínať skôr, ako prídem ku kopcu, nie až uprostred stúpania. Odvtedy prepínam včas a do kopca za dedinou už nemusím tlačiť bicykel pešo.\n\nCestou do práce prepínam aj medzi dvoma svetmi. V zime, keď je sneh alebo silný vietor, idem na bicykli iba na stanicu a ďalej vlakom. V lete idem celú trasu na bicykli. Prepínať medzi bicyklom a vlakom je jednoduché, lebo vo vlaku je vozeň s miestom pre bicykle. Na stanici však začína najhoršia časť mojej cesty.\n\nCesta popri stanici je otrasná. Asfalt je plný dier, ktoré po daždi vyzerajú ako malé jazerá. Obchádzam ich medzi autami a kamiónmi a každé ráno si hovorím, že takú otrasnú cestu by nemal mať žiadny mestský cyklista. Mesto sľubuje opravu už druhý rok. Medzitým som napísal list do miestnych novín a priložil fotku najväčšej diery. Odpoveď zatiaľ neprišla, ale otrasný stav cesty aspoň videli tisíce čitateľov.\n\nV kancelárii je to lepšie. Pred budovou je kryté stanovište pre bicykle s desiatimi stojanmi. Keď som začínal, bol som na stanovišti sám. Dnes je stanovište ráno plné a niekoľko kolegov si musí bicykel opierať o plot. Firma sľúbila, že na jar postaví druhé stanovište aj so sprchou.\n\nNajviac sa v kancelárii hovorí o jednej príhode z minulej jesene. Kolega Tvrdoslav prvýkrát prišiel do práce na novom bicykli a odložil ho na stanovišti. Večer bicykel nenašiel a vystrašený pobehoval okolo budovy. Napokon sa ukázalo, že ráno si ho omylom zobral iný kolega, ktorý mal úplne rovnaký bicykel, iba s iným zámkom. Kľúč do zámku pritom pasoval, pretože zámky boli z tej istej série. Odvtedy si každý na bicykel lepí farebnú nálepku. Tú príhodu si pripomíname dodnes a Tvrdoslav sa jej smeje najviac.\n\nOtázky:\nPrečo chodí autor do práce na bicykli?\nVypočítal, že na bicykli je v kancelárii skôr ako autom, lebo nemusí stáť v zápche.\nČo mu vysvetlil sused o prevodoch?\nPrevody treba prepínať skôr, ako príde ku kopcu, nie až uprostred stúpania.\nPrečo je cesta popri stanici otrasná?\nAsfalt je plný dier, ktoré po daždi vyzerajú ako malé jazerá.\nAko sa zmenilo stanovište pre bicykle pred budovou?\nKedysi tam bol autor sám, dnes je stanovište ráno plné a firma postaví ďalšie.\nČo sa stalo pri príhode s Tvrdoslavovým bicyklom?\nIný kolega si ráno omylom zobral jeho bicykel, lebo mal úplne rovnaký."
+    }
+  ]
+}
