@@ -1,0 +1,178 @@
+{
+  "id": "hr-mini-5700",
+  "rankUpTo": 5700,
+  "level": "C1",
+  "title": "Promet i mobilnost",
+  "description": "Ten texts about getting around: a column on electronic motorway tolls, a night-shift Split taxi driver, a punctured tyre on a cycling trip through Lika, a first sailing lesson on Murter, an exchange student's letter from Osaka, beehives moved by truck at night, an island shop that depends on the ferry, a children's rugby team on a bus, a plumber on a cargo bike and a renovated railway station in Vinkovci.",
+  "topic": "Transport and mobility",
+  "names": [
+    "Zagreb",
+    "Split",
+    "Dubrovnik",
+    "Rastko",
+    "Brač",
+    "Jerica",
+    "Karlovac",
+    "Zadar",
+    "Senija",
+    "Imbro",
+    "Murter",
+    "Zrinjka",
+    "Darijan",
+    "Osaka",
+    "Kenta",
+    "Gradimir",
+    "Lazo",
+    "Sinj",
+    "Snježanka",
+    "Mljet",
+    "Štef",
+    "Agica",
+    "Sretko",
+    "Makarska",
+    "Lojzek",
+    "Žaneta",
+    "Grozda",
+    "Terka",
+    "Vinkovci",
+    "Vinkovaca",
+    "Osijek"
+  ],
+  "lessons": [
+    {
+      "title": "Naplata bez zaustavljanja",
+      "summary": "A column explains the new toll system on Croatian motorways: the order of steps, why the device should not stay in the glove compartment, and why the change speeds up traffic.",
+      "newWords": [
+        "naplata",
+        "slijed",
+        "pretinac",
+        "ubrzavati",
+        "racionalan",
+        "minimalan",
+        "ubuduće"
+      ],
+      "text": "Ovog ljeta na našim autocestama počinje novi sustav naplate. Stara mjesta za plaćanje, na kojima smo godinama čekali u dugim redovima, polako nestaju. Umjesto njih iznad ceste stoje metalni okviri s kamerama, a naplata se obavlja dok auto vozi dalje. Mnogi me ljudi pitaju kako to funkcionira, pa ću pokušati objasniti cijeli slijed, korak po korak.\n\nSlijed je jednostavan. Vozač najprije kupi mali uređaj i stavi ga na staklo, iza ogledala. Kad auto prođe ispod okvira, kamera snimi tablicu s brojem auta, a uređaj pošalje signal. Na kraju dionice sustav izračuna koliko je kilometara auto prešao i skine iznos s računa vozača. Tko nema uređaj, može platiti putem aplikacije u roku od nekoliko dana. Taj slijed — uređaj, okvir, račun — ponavlja se na svakoj dionici, od Zagreba do Dubrovnika.\n\nNeki vozači uređaj ne žele staviti na staklo pa ga drže u pretincu ispred sjedala pokraj vozača. To nije dobra ideja. Kroz zatvoreni pretinac signal često ne prolazi, a sustav tada misli da auto nema uređaj. Moj susjed je tako tri tjedna vozio s uređajem u pretincu i dobio tri obavijesti da nije platio vožnju. Ubuduće će, kaže, uređaj držati na staklu, gdje mu je mjesto, a u pretincu samo rukavice i kartu.\n\nGlavni razlog za promjenu nije tehnika, nego vrijeme. Stari je sustav bio spor: svaki auto morao je stati, vozač je tražio karticu ili novčanik, a iza njega je rasla gužva. Novi sustav ubrzava promet jer nitko ne staje. Stručnjaci procjenjuju da se u srpnju i kolovozu, kad prema moru putuje najviše ljudi, putovanje od Zagreba do Splita može skratiti i za pola sata. Osim toga, manje stajanja znači manje goriva i bolji zrak. Kad sve to imamo na umu, odluka je potpuno racionalna.\n\nIma, naravno, i onih koji sumnjaju. Stariji vozači boje se da neće razumjeti aplikaciju, a neki se pitaju što se događa s njihovim podacima. Ta su pitanja razumna i na njih treba jasno odgovoriti. Ipak, mislim da strah nije racionalan razlog da odbijemo nešto što svima štedi vrijeme. Tvrtka koja upravlja autocestama obećava da će uzimati samo minimalne podatke: broj s tablice, vrijeme i dionicu. Ništa više.\n\nŠto se troška tiče, uređaj košta minimalan iznos, a cijena puta ostaje ista. Za one koji autocestu koriste jednom godišnje razlika je minimalna. Za one koji svaki dan putuju na posao, dobit u vremenu je velika, a to je ono što novi sustav zapravo nudi.\n\nUbuduće će možda i parkirališta i luke raditi na isti način, bez stajanja i bez gužve. Do tada je savjet jednostavan: stavite uređaj na staklo, a ne u pretinac, i uživajte u cesti bez zaustavljanja. Promet koji teče brže ubrzava i naš dolazak na more, a to ovog ljeta želimo svi.\n\nPitanja:\nŠto nestaje s naših autocesta?\nNestaju stara mjesta za plaćanje, na kojima su vozači godinama čekali u redovima.\nKakav je slijed naplate u novom sustavu?\nKamera snimi tablicu, uređaj pošalje signal, a sustav na kraju dionice skine iznos s računa.\nZašto uređaj ne treba držati u pretincu?\nZato što kroz zatvoreni pretinac signal često ne prolazi.\nKako novi sustav ubrzava promet?\nUbrzava ga zato što nijedan auto više ne mora stati.\nKoje podatke sustav uzima?\nUzima samo minimalne podatke: broj s tablice, vrijeme i dionicu."
+    },
+    {
+      "title": "Noćna smjena u Splitu",
+      "summary": "A portrait of Rastko, a Split taxi driver who works summer nights: the old phone directory under his seat, the uneven pace of the night, his manners and the whispers he pretends not to hear.",
+      "newWords": [
+        "taksist",
+        "imenik",
+        "živahan",
+        "tempo",
+        "džentlmen",
+        "šaputati",
+        "nabaciti"
+      ],
+      "text": "Rastko vozi taksi po Splitu već dvadeset i dvije godine. Kad je počinjao, taksist je morao znati grad napamet. Navigacije nije bilo, a u autu je uvijek imao debeli telefonski imenik s planom grada na zadnjim stranicama. Kad nije znao neku ulicu, stao bi uz cestu i potražio je u imeniku. Taj stari imenik i danas drži ispod sjedala, više iz navike nego zbog potrebe.\n\nLjeti radi noću. Grad je tada najživlji: obala je puna šetača, iz kafića dopire glazba, turisti traže prijevoz do apartmana, a mladi do plaže na drugom kraju grada. — Noću je Split živahan kao nijedan drugi grad koji znam — kaže Rastko. — Ali živahan grad traži i strpljivog taksista.\n\nTempo noćne smjene je neobičan. Sat vremena nema nijedne vožnje, a onda u deset minuta stigne pet poziva. Rastko je naučio da tempo ne može birati. Može samo odlučiti kako će se prema njemu ponašati. Kad je gužva, ne žuri i ne trubi. Vozi svojim tempom, mirno, i kaže da tako nikad nije zakasnio više od nekoliko minuta.\n\nKolege ga zovu džentlmen. Svakom putniku otvori vrata, pomogne s koferima i pita je li mu temperatura u autu ugodna. Jednom je starijoj gospođi s Brača nosio kofer do trećeg kata jer zgrada nije imala dizalo. — Ne mislim da sam neki džentlmen — smije se Rastko. — Tako me naučio otac, koji je također bio taksist.\n\nPutnici u njegovu autu često šapuću. Mladi parovi na stražnjem sjedalu šapuću o planovima za sutra, djeca šapuću roditeljima da su gladna, a turisti šapuću na svojim jezicima jer misle da ih vozač ne razumije. Rastko govori engleski i talijanski, ali se pravi da ne čuje. — Ono što putnik šapuće nije namijenjeno meni — kaže.\n\nJedan mu je putnik prošlog ljeta nabacio ideju da napiše knjigu o noćnim vožnjama. Rastko se nasmijao, ali ideja mu ne izlazi iz glave. Možda, kaže, kad ode u mirovinu.\n\nPred zoru, kad grad utihne, Rastko stane kod pekare blizu tržnice i kupi topli kruh. S mora zapuše hladan vjetar, pa nabaci jaknu preko ramena i sjedne na klupu uz more. Tih nekoliko minuta tišine, kaže, najviše voli u cijeloj smjeni.\n\nNekoliko puta pomislio je da ostavi taksi i nađe miran dnevni posao. Ali svakog proljeća, kad se grad ponovno probudi i postane živahan, shvati da bez noćnog tempa ne bi znao živjeti.\n\nPitanja:\nKoliko dugo Rastko vozi taksi?\nVozi taksi po Splitu već dvadeset i dvije godine.\nZašto je nekad u autu imao imenik?\nImao je imenik s planom grada jer tada nije bilo navigacije.\nKakav je tempo noćne smjene?\nTempo je neobičan: dugo nema vožnje, a onda u nekoliko minuta stigne više poziva.\nZašto ga kolege zovu džentlmen?\nZato što svakom putniku otvori vrata i pomogne s koferima.\nŠto radi kad putnici šapuću?\nPravi se da ne čuje, jer ono što putnik šapuće nije namijenjeno njemu."
+    },
+    {
+      "title": "Krhotina na cesti kroz Liku",
+      "summary": "On a cycling trip from Karlovac to Zadar, Jerica gets sunburnt shoulders and a punctured tyre, repairs it with her small tool, and a pharmacist in a nearby village gives her a soothing serum.",
+      "newWords": [
+        "opeći",
+        "krhotina",
+        "probosti",
+        "sprava",
+        "odstraniti",
+        "nedaleko",
+        "serum"
+      ],
+      "text": "Jerica je ovog lipnja odlučila biciklom prijeći put od Karlovca do Zadra. Prva dva dana prošla su bez problema. Treći dan, na cesti kroz Liku, sunce je peklo od jutra, a ona je zaboravila zaštititi ramena od sunca. Do podneva se opekla. Koža na ramenima i vratu bila je crvena i vruća.\n\nNešto poslije podneva osjetila je da bicikl čudno skače. Stala je i pogledala zadnji kotač. Guma je bila prazna. Na cesti su ležale krhotine stakla, vjerojatno od razbijene boce, a jedna oštra krhotina probola je gumu. Jerica je pažljivo prešla prstima po kotaču i našla je. Krhotina je bila sitna, ali je probola i vanjsku i unutarnju gumu.\n\nNajprije je trebalo odstraniti krhotinu. Jerica je izvadila malu spravu za popravke koju je kupila prije puta. Na toj spravi bilo je nekoliko malih ključeva, nož i plastična kuka za gume. Kukom je odstranila krhotinu, a onda je skinula gumu, popravila unutarnju gumu i napunila je zrakom malom ručnom pumpom. Ta sprava, kaže, stane u džep, a vrijedi više od svega ostalog u torbi.\n\nKad je ponovno sjela na bicikl, ramena su je boljela od sunca. Na karti je vidjela da se nedaleko nalazi selo s trgovinom i ljekarnom. Do sela je bilo samo četiri kilometra. Žena u ljekarni pogledala je njena ramena i rekla: — Lijepo ste se opekli. — Preporučila joj je hladni serum od biljaka. — Serum stavljajte dvaput dnevno, a ramena idućih dana pokrijte majicom s rukavima.\n\nJerica je sjela u sjenu ispred ljekarne i stavila serum na ramena. Serum je bio hladan i odmah joj je bilo lakše. Žena joj je rekla da nedaleko od sela, kraj potoka, postoji mjesto gdje ljudi spavaju pod šatorom. Jerica je tamo postavila šator, još jednom provjerila gumu i rano zaspala.\n\nSljedećeg jutra krenula je u šest sati, prije nego što sunce počne jako peći. Na ramenima je imala majicu s dugim rukavima, a u torbi serum i spravu za popravke. Pazila je na svaku krhotinu na cesti. Do Zadra je stigla dva dana poslije. Nijedna krhotina više joj nije probola gumu, a ramena se nisu ponovno opekla.\n\nPitanja:\nZašto se Jerica opekla?\nOpekla se jer je zaboravila zaštititi ramena, a sunce je peklo od jutra.\nŠto je probolo gumu?\nGumu je probola sitna, oštra krhotina stakla.\nKako je odstranila krhotinu?\nOdstranila ju je plastičnom kukom sa svoje male sprave za popravke.\nŠto joj je preporučila žena u ljekarni?\nPreporučila joj je hladni serum od biljaka i majicu s rukavima.\nGdje je Jerica prespavala?\nPrespavala je pod šatorom kraj potoka, nedaleko od sela."
+    },
+    {
+      "title": "Prvi put za kormilom",
+      "summary": "At a summer sailing course on Murter, Senija fears she will capsize, but with the teacher Imbro and a lifeguard nearby she learns to steer, sails in a line of boats and finally rounds the islet alone.",
+      "newWords": [
+        "kormilo",
+        "umišljati",
+        "spasilac",
+        "formacija",
+        "obilaziti",
+        "osvježiti"
+      ],
+      "text": "Senija ima 14 godina i ovog ljeta prvi put ide na tečaj na Murteru, gdje djeca uče ploviti na jedra. Prvog jutra stoji na obali i gleda male brodove koji se lagano pomiču na vodi. Svaki ima jedno jedro i malo drveno kormilo na zadnjem kraju. Učitelj Imbro objašnjava djeci kako kormilo radi: kad ga povučeš prema sebi, brod skreće na jednu stranu, a kad ga gurneš od sebe, skreće na drugu.\n\nSenija sluša i već umišlja najgore. Umišlja da će se brod prevrnuti čim ga ona dodirne, da će pasti u more i da će joj se svi smijati. Imbro primijeti da je zabrinuta. — Nemoj umišljati nešto što se još nije dogodilo — kaže joj mirno. — Prvo probaj, a onda ćemo razgovarati.\n\nIza malih brodova cijelo vrijeme plovi gumeni čamac s motorom. U njemu sjedi spasilac, mladić u crvenoj majici, koji pazi na svako dijete. Imbro objašnjava da je spasilac uvijek blizu i da nitko ne može otići daleko od njega. Senija pogleda spasioca, on joj se nasmiješi, i ona se malo smiri.\n\nPrva vožnja traje pola sata. Djeca plove u formaciji, jedan brod iza drugoga, a Imbro na čelu formacije rukom pokazuje kad treba okrenuti. Senija drži kormilo čvrsto, možda i previše čvrsto, ali brod ide ravno. Kad vjetar malo ojača, ona lagano povuče kormilo i brod skrene točno onako kako je Imbro rekao.\n\nSljedećih dana formacija ide sve dalje od obale. Djeca obilaze mali otočić ispred luke. Na otočiću su stijene neobične formacije, koje su vjetar i valovi oblikovali stotinama godina, pa ih djeca zovu kamenim glavama. Otočić obilaze jednom s lijeve, jednom s desne strane, a Imbro im objašnjava kako se vjetar mijenja kad brod obilazi kraj otočića.\n\nPopodne je vruće. Nakon vožnje djeca skaču s obale u more da se osvježe. Senija prvi put skoči bez straha. Poslije sjedi u sjeni i pije limunadu, koja je osvježi više od svega. Imbro je pita kako se osjeća. — Mislila sam da ću se prevrnuti — kaže ona. — Sve je to bilo samo u mojoj glavi, a ništa se nije dogodilo.\n\nZadnjeg dana Senija sama obilazi otočić, a spasilac je prati malo dalje. Kormilo više ne drži previše čvrsto. Kad se vrati na obalu, Imbro joj pruži ruku. — Ubuduće ti kormilo ne treba objašnjavati — kaže.\n\nPitanja:\nKako radi kormilo?\nKad ga povučeš prema sebi, brod skreće na jednu stranu, a kad ga gurneš od sebe, na drugu.\nŠto Senija umišlja prvog jutra?\nUmišlja da će se brod prevrnuti i da će pasti u more.\nTko pazi na djecu dok plove?\nNa djecu pazi spasilac, koji plovi iza njih u gumenom čamcu.\nKako djeca plove prvi dan?\nPlove u formaciji, jedan brod iza drugoga, a Imbro je na čelu.\nŠto djeca rade popodne?\nSkaču s obale u more da se osvježe."
+    },
+    {
+      "title": "Pismo iz Osake",
+      "summary": "In an e-mail to his sister, the exchange student Darijan tells how long his student visa took, what the university provides, how his ignorance of Japanese made him feel like a stranger, and why he is sure he will last the semester.",
+      "newWords": [
+        "viza",
+        "osiguravati",
+        "neznanje",
+        "tuđinac",
+        "uklopiti",
+        "izvršavati",
+        "opstati"
+      ],
+      "text": "Draga Zrinjka,\n\nprošla su tri tjedna otkako sam stigao u Osaku i tek sada imam vremena napisati ti dulje pismo.\n\nPrvo o vizi, jer si me to pitala. Studentsku vizu čekao sam gotovo dva mjeseca. Za vizu je trebalo poslati pismo japanskog sveučilišta, potvrdu banke o novcu na računu i potvrdu o zdravstvenom osiguranju. Naš fakultet osigurava pomoć studentima koji odlaze na razmjenu, ali papire za vizu svatko mora skupiti sam. Kad sam napokon dobio putovnicu s vizom, slikao sam je i poslao mami, a ona je sliku pokazala pola ulice.\n\nSveučilište ovdje osigurava smještaj u studentskom domu i besplatan tečaj jezika. Osigurava i mentora, starijeg studenta koji ti pomaže prvih tjedana. Moj se mentor zove Kenta i strpljiv je kao nitko koga poznajem.\n\nNajveći mi je problem neznanje jezika. Mislio sam da će engleski biti dovoljan, ali u trgovinama, u autobusu i na stanici gotovo svi govore samo japanski. Prvi dan nisam znao kupiti kartu za vlak jer su svi natpisi bili na japanskom. Moje neznanje bilo je tako veliko da nisam znao pročitati ni ime vlastite stanice. Sada svake večeri učim dvadeset znakova i polako se snalazim. Kenta kaže da neznanje nije sramota, nego početak.\n\nPrvih dana osjećao sam se kao tuđinac. Ljudi su bili ljubazni, ali nisam razumio pravila: gdje se izuvaju cipele, kako se čeka vlak, zašto nitko ne razgovara mobitelom u metrou. Tuđinac sam, mislio sam, i tuđinac ću ostati. Onda sam shvatio da se moram uklopiti u ritam grada, a ne čekati da se grad prilagodi meni. Nije lako uklopiti se u novu sredinu, ali nije ni nemoguće. Sada i ja stojim u redu na peronu i šutim u vlaku kao svi ostali.\n\nOvdje svi točno izvršavaju svoje obveze. Vlakovi stižu u sekundu, a studenti izvršavaju sve zadatke prije roka. Profesori očekuju da i ja izvršavam svoje obveze bez podsjećanja. Prvi tjedan zakasnio sam s dva zadatka i bilo me sram. Sada zadatke izvršavam dan ranije.\n\nNa fakultet idem biciklom, kao gotovo svi studenti. Grad je ravan, staze su široke, a bicikl se ostavlja na posebnom parkiralištu ispred zgrade. Vikendom vlakom obilazim okolicu: parkove, tržnice, planine i obalu.\n\nMama se brine hoću li opstati pola godine tako daleko od kuće. Reci joj da hoću. Opstao sam prva tri tjedna, a najteže je prošlo. Kenta kaže da student koji opstane prvi mjesec opstane i cijeli semestar.\n\nPozdravi mamu i tatu i javi mi kako je kod kuće.\n\nTvoj brat Darijan\n\nPitanja:\nŠto je Darijan trebao za studentsku vizu?\nTrebao je pismo sveučilišta, potvrdu banke o novcu i potvrdu o zdravstvenom osiguranju.\nŠto mu japansko sveučilište osigurava?\nOsigurava mu smještaj u domu, besplatan tečaj jezika i mentora.\nKoji mu je najveći problem?\nNajveći mu je problem neznanje japanskog jezika.\nZašto se prvih dana osjećao kao tuđinac?\nZato što nije razumio pravila ponašanja u novom gradu.\nKako sada izvršava obveze?\nSada zadatke izvršava dan prije roka.\nZašto se mama brine?\nBrine se hoće li Darijan opstati pola godine tako daleko od kuće."
+    },
+    {
+      "title": "Košnice na kamionu",
+      "summary": "The beekeeper Gradimir and his son Lazo move forty hives by night to an acacia forest; the road over the dam is closed, they argue about the detour, a billy goat blocks a bend, and at dawn the bees fly out in their new place.",
+      "newWords": [
+        "košnica",
+        "brana",
+        "obustaviti",
+        "čeljust",
+        "prepirati",
+        "jarac",
+        "sklapati"
+      ],
+      "text": "Gradimir je pčelar iz okolice Sinja. Svakog svibnja seli svojih četrdeset košnica na proljetnu pašu, u šumu bagrema s druge strane jezera. Pčele se sele noću, kad su sve u košnicama, a vožnja mora biti mirna i bez naglih kočenja. Ove godine prvi put mu pomaže sin Lazo, koji je upravo završio fakultet.\n\nNavečer zatvaraju ulaze košnica, slažu košnice na mali kamion, jednu do druge, i vežu ih remenima. Lazo pita zašto ne mogu ići danju. — Danju su pčele vani — kaže Gradimir. — Ako zatvoriš košnicu danju, pola pčela ostane bez doma.\n\nNajkraći put do bagrema vodi preko brane na kraju jezera. Cesta ide po samom vrhu brane: s jedne strane je jezero, s druge duboka dolina. Kad stignu do brane, ugledaju znak i rampu. Na ogradi visi obavijest da je promet preko brane obustavljen do kraja mjeseca zbog radova. Radnici su promet obustavili samo dva dana ranije, a Gradimir to nije znao.\n\nGradimir stisne čeljust. Kad je nervozan, uvijek stisne čeljust, i Lazo to zna od malih nogu. — Moramo okolo — kaže otac. Lazo želi ići autocestom, koja je dulja, ali ravnija. Gradimir želi ići starom cestom preko brda, koja je kraća. Neko vrijeme se prepiru u kabini, tiho, kao da ih pčele mogu čuti. Prepiru se sve dok Lazo ne kaže: — Dobro, tata, ti te ceste poznaješ bolje od mene. — Otac opusti čeljust i krene prema brdu.\n\nStara cesta je uska i puna zavoja. Usred jednog zavoja stoji veliki jarac s dugim rogovima i bradom. Ne miče se. Gradimir polako zakoči i ugasi motor da ne trese košnice. Jarac ih gleda kao da su oni na njegovoj cesti, a ne on na njihovoj. Lazo izađe iz kabine i polako krene prema njemu. Jarac na kraju sam ode u grmlje, a za njim još dvije koze.\n\nDo šume stignu pred zoru. Lazo sklapa drvene stalke koje su donijeli rastavljene, a Gradimir na njih spušta košnice. Dok Lazo sklapa zadnji stalak, nebo na istoku već postaje svijetlo. Otvore ulaze košnica i prve pčele izlaze na svjetlo.\n\nLazo sjedne na travu. Oči mu se same sklapaju jer cijelu noć nije spavao. — Sljedeće godine ja biram cestu — kaže. Gradimir se nasmije. — Dogovoreno. Ali brana će biti otvorena, a jarca ionako ne možeš birati.\n\nPitanja:\nZašto Gradimir seli košnice noću?\nZato što su noću sve pčele u košnicama.\nZašto ne mogu ići preko brane?\nZato što je promet preko brane obustavljen do kraja mjeseca zbog radova.\nŠto Gradimir radi kad je nervozan?\nKad je nervozan, stisne čeljust.\nOko čega se otac i sin prepiru?\nPrepiru se o tome kojom cestom ići okolo.\nTko stoji usred zavoja?\nUsred zavoja stoji veliki jarac s dugim rogovima i bradom.\nŠto Lazo radi kad stignu do šume?\nSklapa drvene stalke, a otac na njih spušta košnice."
+    },
+    {
+      "title": "Trgovina na kraju trajekta",
+      "summary": "Snježanka runs the only shop in a village on Mljet; when the southern wind stops the ferry, she finds a way to bring a customer's pork and lamb by a small boat in time for his family lunch.",
+      "newWords": [
+        "dobavljač",
+        "naručivati",
+        "brašno",
+        "poručiti",
+        "svinjetina",
+        "janje",
+        "neprocjenjiv"
+      ],
+      "text": "Snježanka vodi jedinu trgovinu u malom mjestu na Mljetu. Gotovo sve što prodaje dolazi trajektom: kruh, mlijeko, voće, meso, brašno i novine. Zimi trajekt vozi jednom dnevno, a kad puše jako jugo, ne vozi uopće.\n\nPonedjeljkom naručuje robu za cijeli tjedan. Naručuje telefonom i e-poštom od tri dobavljača: jedan dobavljač vozi kruh i brašno, drugi meso, a treći sve ostalo. S istim dobavljačima radi već petnaest godina i dobro zna što je kome teško dostaviti. Brašno naručuje u velikim paketima od dvadeset i pet kilograma, jer na otoku mnoge obitelji i danas same peku kruh, pa brašna nikad nije previše.\n\nOvog tjedna dobavljač mesa nazvao je u utorak. Poručio je da trajekt u srijedu vjerojatno neće isploviti zbog juga i da meso stiže tek u petak popodne. Snježanka je odmah nazvala gospodina Štefa, koji je za subotu naručio svinjetinu i janje. Štef sprema obiteljski ručak: na otok mu dolaze kći, zet i troje unuka.\n\n— Svinjetinu ćemo dobiti u petak — rekla mu je. — Ali janje bi moglo stići tek sljedeći tjedan.\n\nŠtef je bio zabrinut. Janje na ražnju njegova je obiteljska tradicija i unuci ga čekaju cijelu godinu. Snježanka je nazvala dobavljača i pitala ima li janje. Dobavljač je rekao da ima, ali da ga ne može poslati bez trajekta.\n\nOnda se Snježanka sjetila da u petak ujutro u luku dolazi mali brod s robom za restoran na drugom kraju otoka. Nazvala je vlasnika restorana i pitala može li janje doći s njegovom robom. Vlasnik je pristao, a dobavljaču je poručila da janje i svinjetinu pošalje na njegov brod.\n\nU petak ujutro janje, svinjetina i deset paketa brašna stigli su u luku malim brodom, a ostala roba trajektom popodne, kad se jugo smirilo. Štef je došao po meso i Snježanki donio staklenku domaćeg meda.\n\nNavečer Snježanka slaže police i razmišlja o tome koliko otok ovisi o trajektu. Za ljude na kopnu trajekt je samo prijevoz. Za otok je neprocjenjiv: bez njega nema kruha, lijekova ni posjeta obitelji. Jednako je neprocjenjiv i dobar dobavljač koji na vrijeme javi kad nešto ne ide po planu, i vlasnik restorana koji ponudi mjesto na svom brodu.\n\nUbuduće će, odlučila je, brašno i meso za obiteljska slavlja naručivati dva tjedna unaprijed.\n\nPitanja:\nKako roba dolazi u trgovinu koju vodi Snježanka?\nGotovo sva roba dolazi trajektom.\nOd koliko dobavljača Snježanka naručuje robu?\nNaručuje robu od tri dobavljača.\nŠto je dobavljač mesa poručio u utorak?\nPoručio je da trajekt u srijedu vjerojatno neće isploviti i da meso stiže tek u petak.\nŠto je Štef naručio za subotu?\nNaručio je svinjetinu i janje za obiteljski ručak.\nKako je janje stiglo na otok?\nStiglo je u petak ujutro malim brodom, s robom za restoran.\nZašto je trajekt za otok neprocjenjiv?\nZato što bez njega na otoku nema kruha, lijekova ni posjeta obitelji."
+    },
+    {
+      "title": "Autobusom na turnir",
+      "summary": "Coach Agica takes a small Makarska rugby team of twelve-year-olds by bus to their first tournament in Zagreb; they sing songs from the school musical, lose the first match, and she encourages them until they win the last one.",
+      "newWords": [
+        "ragbi",
+        "ošišati",
+        "mjuzikl",
+        "svlačionica",
+        "ohrabriti",
+        "rasplakati"
+      ],
+      "text": "Ragbi u Hrvatskoj nije velik sport, ali u Makarskoj postoji mali klub s ekipom dječaka i djevojčica od dvanaest godina. Trenerica Agica vodi ih na prvi pravi turnir, u Zagreb. Put autobusom traje gotovo pet sati, a za većinu djece to je prvo putovanje bez roditelja.\n\nDan prije puta pola ekipe ode se ošišati. Dječak Sretko ošiša se na kratko jer misli da mu duga kosa smeta u igri. Drugi se ošišaju zato što su na televiziji vidjeli da profesionalni igrači ragbija nose kratku kosu. Agica se smije kad ih ujutro vidi na stanici. — Ošišani ili ne, igrat ćete jednako dobro — kaže im.\n\nU autobusu djeca gotovo cijelim putem pjevaju pjesme iz mjuzikla koji je njihova škola izvela na kraju godine. Svi znaju riječi napamet, a Sretko je u mjuziklu imao glavnu ulogu. Na kraju i vozač pjeva refren. Agica misli da im mjuzikl pomaže više od bilo kakvog govora: dok pjevaju, nitko ne misli na strah.\n\nU Zagrebu ih dočeka veliko igralište s pravom svlačionicom, s klupama, ormarićima i tuševima. Djeca nikad nisu bila u takvoj svlačionici. Kod kuće se presvlače u maloj sobi iza školske dvorane. U svlačionici je tiho. Agica ih sve skupi u krug i pokuša ih ohrabriti. — Ne morate pobijediti — kaže. — Morate samo igrati zajedno, kao na treningu.\n\nPrvu utakmicu izgube visoko. Protivnici su viši i brži, a djeca iz Makarske nikad nisu igrala pred tolikom publikom. Poraz Sretka rasplače. Sjedi u svlačionici i plače, a ostali ga gledaju i ne znaju što reći. Agica sjedne pokraj njega. — Prvi turnir uvijek je najteži — kaže. — I ja sam plakala nakon prve utakmice. — Tim ga riječima Agica ohrabri više od bilo čega drugog.\n\nDrugu utakmicu igraju bolje i izgube za samo nekoliko bodova. Treću, posljednju, pobijede. Kad utakmica završi, djeca skaču od veselja i grle se na travi.\n\nU autobusu prema kući djeca ponovno pjevaju pjesme iz mjuzikla, sada glasnije nego ujutro. Agica sjedi naprijed, pokraj vozača, i šuti. Njihova sreća gotovo je i nju rasplakala. Kad stignu u Makarsku, roditelji ih čekaju na stanici, a Sretko prvi istrči iz autobusa da im kaže kako su pobijedili.\n\nPitanja:\nKamo Agica vodi svoju ekipu?\nVodi je na prvi pravi turnir u ragbiju, u Zagreb.\nZašto se Sretko ošišao na kratko?\nOšišao se jer misli da mu duga kosa smeta u igri.\nŠto djeca rade u autobusu?\nPjevaju pjesme iz mjuzikla koji je njihova škola izvela na kraju godine.\nKako ih je Agica pokušala ohrabriti u svlačionici?\nRekla im je da ne moraju pobijediti, nego samo igrati zajedno.\nŠto je rasplakalo Sretka?\nRasplakao ga je poraz u prvoj utakmici."
+    },
+    {
+      "title": "Vodoinstalater na biciklu",
+      "summary": "Lojzek, a Zagreb plumber, swapped his van for a cargo bike; the residents of his street won a new bike lane, workers marked it with stakes, and one day he carried his neighbour Žaneta's small sofa home on the bike.",
+      "newWords": [
+        "vodoinstalater",
+        "upotrebljavati",
+        "izboriti",
+        "zabosti",
+        "sofa",
+        "ovolik"
+      ],
+      "text": "Lojzek je vodoinstalater u Zagrebu. Dvadeset godina vozio je kombi pun cijevi i alata. Prije dvije godine kombi je prodao i kupio bicikl za teret s velikim drvenim sandukom sprijeda. Kolege su mu se smijali. — Vodoinstalater na biciklu? — pitali su. — A gdje ćeš staviti alat?\n\nLojzek je brzo naučio što mu stvarno treba. Sada upotrebljava manje alata nego prije, ali boljeg. Veće cijevi i dijelove ne vozi sam, nego ih trgovina dostavi izravno na adresu kupca. Bicikl upotrebljava za gotovo svaki posao u centru grada: ne traži mjesto za auto, ne stoji u gužvi, a do kupca često stigne prije kolega koji voze kombi. Kombi svog brata upotrebljava samo kad mora prevesti velike i teške dijelove.\n\nNajviše mu je pomogla nova staza za bicikle u njegovoj ulici. Stanari ulice tri su godine dolazili na sastanke u gradski ured, pisali pisma i molbe dok nisu izborili stazu. Lojzek je išao na svaki sastanak. Osim staze, izborili su i nova stabla uz pločnik i sigurniji prijelaz kod škole. Susjeda Žaneta, koja je sve to vodila, kaže da su stazu izborili strpljenjem, a ne vikom.\n\nKad su radnici počeli graditi stazu, najprije su označili njen rub. Svakih deset metara radnici su u zemlju uz cestu zaboli drveni kolac s crvenom vrpcom. Djeca iz susjedstva hodala su za njima i brojala kolce. Lojzek je pitao jednog radnika zašto kolac zabode svakih deset metara. — Da stroj ne skrene ni centimetar — rekao je radnik i zabode sljedeći.\n\nProšlog mjeseca Žaneta ga je nazvala. Kupila je staru sofu od jedne gospođe iz susjedne ulice i nije znala kako je dovesti kući. — Možeš li ti to biciklom? — pitala je. Lojzek je otišao pogledati sofu. — Ovoliku sofu? — rekao je i raširio ruke. Sofa je bila mala, za dvije osobe, ali ipak ovolika da nije stala u sanduk.\n\nVezali su je remenima preko sanduka, a jastuke je Žaneta nosila u rukama. Lojzek je vozio polako po novoj stazi, a Žaneta je hodala pokraj njega i jednom rukom pridržavala sofu. Prolaznici su se okretali i smiješili. Jedan dječak viknuo je: — Mama, gledaj, sofa se vozi biciklom!\n\nZa dvadeset minuta sofa je bila u njenom stanu na drugom katu. Žaneta je skuhala kavu i njih dvoje sjeli su na sofu. — Ne bih vjerovala da bicikl može nositi ovoliki teret — rekla je. — Ni ja — odgovorio je Lojzek. — Ali staza je ravna, a to ste izborili vi.\n\nPitanja:\nŠto je Lojzek kupio umjesto kombija?\nKupio je bicikl za teret s velikim drvenim sandukom.\nKako sada upotrebljava bicikl?\nUpotrebljava ga za gotovo svaki posao u centru grada.\nKako su stanari izborili stazu?\nIzborili su je strpljenjem: tri su godine dolazili na sastanke i pisali pisma i molbe.\nŠto su radnici radili svakih deset metara?\nZaboli su u zemlju drveni kolac s crvenom vrpcom.\nZašto sofa nije stala u sanduk?\nZato što je, iako mala, bila prevelika za sanduk."
+    },
+    {
+      "title": "Viša stanica u Vinkovcima",
+      "summary": "After the Vinkovci railway station is renovated, Grozda, who is almost eighty, can step onto the train without help; her granddaughter Terka shows her the new ticket machine, the old mechanical clock still moves on electric pulses, and the station bookshop has more customers.",
+      "newWords": [
+        "povisiti",
+        "automat",
+        "mehanički",
+        "impuls",
+        "knjižara"
+      ],
+      "text": "Grozda ima gotovo 80 godina i svakog četvrtka ide vlakom iz Vinkovaca u Osijek, kod kćeri. Godinama joj je najteži dio puta bio ulazak u vlak. Stari peroni na stanici bili su niski, a stepenice vlaka visoke, pa se morala čvrsto držati za vrata i penjati kao na ljestve. Često joj je neki putnik morao pomoći.\n\nOve jeseni stanica je obnovljena. Radnici su perone povisili za pola metra, tako da je pod vlaka sada gotovo na istoj visini kao peron. Povisili su i ogradu uz prugu, da djeca ne mogu na tračnice. Prvog četvrtka nakon radova Grozda je ušla u vlak sama, bez ičije pomoći, i to joj je bilo važnije od svega drugog.\n\nNa stanici više nema starog prozorčića gdje se kupovala karta. Umjesto njega stoje dva automata za karte. Grozda ih se u početku bojala. Unuka Terka pokazala joj je kako automat radi: odabereš kamo putuješ, ubaciš novac ili karticu, a automat izbaci kartu. Na automatu se slova mogu povećati, što Grozdi jako pomaže, jer bez naočala slabo vidi.\n\nNa novim vlakovima više nema ni starih mehaničkih vrata koja su se otvarala teškom ručkom. Sada se otvaraju pritiskom na veliki zeleni gumb. Ali nije sve novo. Veliki sat iznad ulaza u stanicu ostao je isti kao prije pedeset godina. To je mehanički sat koji svake minute pomakne veliku kazaljku kad dobije električni impuls iz glavnog sata u uredu. Majstor koji ga je čistio za vrijeme radova objasnio je Terki da jedan impuls znači jednu minutu i da takav mehanički sat može raditi još sto godina.\n\nOstala je i mala knjižara uz ulaz. U knjižari Grozda svakog četvrtka kupuje novine i jednu knjigu za put. Žena koja radi u knjižari kaže da su radovi cijeloj stanici dali novi impuls: putnika je više, pa je i u knjižari više kupaca. Knjižara sada prodaje i karte za gradski autobus, za one koji ne vole automat.\n\nKad Grozda u Osijeku izađe iz vlaka, kći je čeka. — Mama, sama si ušla? — pita. — Sama — kaže Grozda ponosno. — Peroni su povišeni, a ja sam naučila i automat.\n\nPitanja:\nŠto je Grozdi godinama bilo najteže na putu?\nNajteži joj je bio ulazak u vlak, jer su peroni bili niski.\nŠto su radnici napravili s peronima?\nPovisili su ih za pola metra.\nKako radi automat za karte?\nOdabereš kamo putuješ, ubaciš novac ili karticu, a automat izbaci kartu.\nKako radi stari sat iznad ulaza?\nTo je mehanički sat koji svake minute pomakne kazaljku kad dobije električni impuls.\nŠto Grozda kupuje u knjižari?\nSvakog četvrtka kupuje novine i jednu knjigu za put."
+    }
+  ]
+}
