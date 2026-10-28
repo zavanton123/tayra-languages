@@ -1,0 +1,195 @@
+{
+  "id": "ca-mini-9100",
+  "rankUpTo": 9100,
+  "level": "C2",
+  "title": "Química i materials",
+  "description": "Ten stories about the chemistry of everyday materials: a school lab, enamel jewellery, a bakery, old tanneries, a wooden pavilion, animal feed, a film archive, a chemical cluster, a grandfather's stew and an artificial football pitch.",
+  "topic": "Chemistry and materials",
+  "names": [
+    "Meritxell",
+    "Rovelló",
+    "Manresa",
+    "Andrei",
+    "Saskia",
+    "Gumersinda",
+    "Padrós",
+    "Barcelona",
+    "Lotte",
+    "Roseta",
+    "Vicens",
+    "Olot",
+    "Mikko",
+    "Rosenda",
+    "Subirà",
+    "Vic",
+    "Florin",
+    "Mèder",
+    "Pàmfila",
+    "Campmany",
+    "Montseny",
+    "Marek",
+    "Catalunya",
+    "Borneo",
+    "Ulrica",
+    "Escandell",
+    "Lleida",
+    "Mircea",
+    "Anjali",
+    "Sintes",
+    "Roma",
+    "Lisboa",
+    "Liviu",
+    "Tarragona",
+    "Quetglas",
+    "Girona",
+    "Jepi",
+    "Estelrich",
+    "Berga",
+    "Llucieta",
+    "Empordà"
+  ],
+  "lessons": [
+    {
+      "title": "Una olor d'ous podrits",
+      "summary": "In a Manresa secondary school, chemistry teacher Meritxell Rovelló heats iron and sulphur with her pupils, has them look through a magnifying glass and watch a thermometer, and then makes a gas that stinks of rotten eggs, which starts an uproar.",
+      "newWords": [
+        "diagrama",
+        "serietat",
+        "lupa",
+        "termòmetre",
+        "suposició",
+        "pudir",
+        "cridòria",
+        "exageració"
+      ],
+      "text": "La Meritxell Rovelló fa classe de química en un institut de Manresa. Dimarts té una sessió de laboratori amb un grup de 4t d'ESO, i vol que els alumnes entenguin una idea senzilla: quan dues substàncies reaccionen, en neix una de nova, amb unes propietats que no tenia cap de les dues.\n\nAbans de començar, dibuixa a la pissarra un diagrama de l'experiment. Al diagrama hi ha un tub de vidre amb pols de ferro i pols de sofre, una flama a sota i una fletxa que porta a la substància nova. «Mireu bé el diagrama», diu. «Cada pas té el seu lloc, i cap pas no es fa amb presses.»\n\nLa Meritxell també demana serietat. Al laboratori hi ha foc, vidre calent i àcids, i la serietat no és una manera de parlar: és la primera norma. Tothom porta ulleres de protecció i bata, i qui té els cabells llargs se'ls recull.\n\nPrimer, els alumnes observen les dues pols amb una lupa. Amb la lupa, el ferro sembla un munt de petites agulles grises, i el sofre, una farina groga. L'Andrei hi acosta un imant, i les agulles de ferro hi salten. «El ferro encara és ferro», diu la Meritxell. «Ara el barrejarem amb el sofre i l'escalfarem.»\n\nCada grup posa un termòmetre al costat del tub. Quan la barreja comença a brillar, el termòmetre puja de pressa, i la reacció continua sola, encara que treguin la flama. Al final, al fons del tub queda un tros negre i dur. Els alumnes el tornen a mirar amb la lupa: ja no hi ha agulles grises ni farina groga. L'Andrei hi acosta l'imant, i no passa res.\n\n«Faig una suposició», diu la Saskia. «Si hi tirem àcid, sortirà un gas.» La Meritxell li diu que la suposició és bona, però que aquell gas put molt. Per això aquest pas el fa ella, sota la campana extractora. Hi tira unes gotes d'àcid i, en pocs segons, tot el laboratori put a ous podrits. Hi ha una petita cridòria: uns quants alumnes es tapen el nas i criden que allà no s'hi pot estar.\n\n«No n'hi ha per a tant», diu la Meritxell, rient. «Aquesta cridòria és una exageració. La campana s'emporta el gas.» I té raó: al cap d'un minut, ja no put gens. Però l'exageració dels alumnes té una part de veritat. El nas humà nota aquest gas en quantitats molt petites, i aquesta olor és un bon avís: vol dir que cal obrir les finestres.\n\nAl final de la classe, cada alumne copia el diagrama a la llibreta i hi afegeix una frase: el ferro i el sofre s'han convertit en una substància nova. Hi apunten també la temperatura més alta que ha marcat el termòmetre i la suposició de la Saskia, que ha resultat certa.\n\nPreguntes:\nQuè dibuixa la Meritxell a la pissarra?\nDibuixa un diagrama de l'experiment.\nPer què demana serietat?\nPerquè al laboratori hi ha foc, vidre calent i àcids.\nQuè veuen els alumnes amb la lupa?\nVeuen que el ferro sembla un munt de petites agulles grises i el sofre, una farina groga.\nQuina suposició fa la Saskia?\nSuposa que, si hi tiren àcid, sortirà un gas.\nPer què hi ha una cridòria al laboratori?\nPerquè el gas put a ous podrits i uns quants alumnes criden que no s'hi pot estar.\nPer què la Meritxell diu que és una exageració?\nPerquè la campana s'emporta el gas i al cap d'un minut ja no put."
+    },
+    {
+      "title": "Un medalló d'esmalt",
+      "summary": "Barcelona jeweller Gumersinda Padrós makes an enamelled silver medallion for a client: she casts an alloy into a small bar, rolls it into a sheet, fires powdered glass onto both sides so the disc does not warp, and does every step by hand.",
+      "newWords": [
+        "medalló",
+        "esmalt",
+        "deformar",
+        "aliatge",
+        "riell",
+        "manualment"
+      ],
+      "text": "La Gumersinda Padrós té un petit taller de joieria en un carrer estret de Barcelona. La seva especialitat són els medallons d'esmalt: peces rodones de plata decorades amb vidre de colors.\n\nUn dimarts hi entra la Lotte, una clienta del barri. Vol un medalló per a la seva filla, que acaba la carrera de química. «M'agradaria que hi hagués una molècula», diu. «Una molècula d'aigua, per exemple.»\n\nLa Gumersinda li explica com farà el medalló. La plata pura és massa tova: es deforma només de tocar-la, i una joia que es deforma amb l'ús no dura gaire. Per això els joiers treballen amb un aliatge. L'aliatge més comú porta 925 parts de plata per cada 1.000; la resta és coure, que fa el metall més dur sense canviar-ne gaire el color. «Un aliatge és com una recepta», diu la Gumersinda. «Si canvies les proporcions, canvia el metall.»\n\nPrimer fon la plata i el coure en un recipient petit de terra. Quan el metall és líquid, l'aboca en un motlle llarg i estret, i en surt un riell: una barra petita i brillant, de la llargada d'un dit. La Gumersinda guarda els riells en una capsa de fusta. Després passa el riell per una màquina amb dos cilindres d'acer, una vegada i una altra, fins que es converteix en una làmina prima. D'aquesta làmina en retalla un disc.\n\nAra ve la part més delicada: l'esmalt. L'esmalt és vidre mòlt molt fi, barrejat amb òxids de metall que li donen color: el cobalt el fa blau; el coure, verd o vermell, i el ferro, marró. La Gumersinda posa la pols d'esmalt sobre el disc amb una espàtula petita, i després el fica al forn a uns 800 graus. En un minut i mig, la pols es fon i s'enganxa al metall. Quan es refreda, l'esmalt queda dur i llis com una pedra polida.\n\nHi ha un perill: si el disc és prim, la calor el pot deformar, i llavors l'esmalt s'esquerda. Per això la Gumersinda també posa esmalt a la cara de darrere. Així les dues cares s'estiren i s'encongeixen igual, i la calor no deforma el medalló.\n\nA les fàbriques, aquests medallons es fan amb màquines. La Gumersinda ho fa tot manualment: fon el metall manualment, posa l'esmalt manualment i poleix la peça a mà. «Quan treballes manualment, cada medalló és diferent», diu. «I aquestes petites diferències són el que el fa únic.»\n\nDues setmanes després, la Lotte torna al taller. Al centre del medalló hi ha una molècula d'aigua: una bola vermella i dues de blanques, sobre un fons blau fosc. La Lotte el mira i somriu. «A la meva filla li agradarà molt», diu.\n\nPreguntes:\nQuè fa la Gumersinda al seu taller?\nFa medallons d'esmalt: peces rodones de plata decorades amb vidre de colors.\nPer què treballa amb un aliatge i no amb plata pura?\nPerquè la plata pura és massa tova i es deforma amb l'ús.\nQuè és un riell?\nÉs una barra petita i brillant de metall que surt del motlle.\nDe què està fet l'esmalt?\nL'esmalt és vidre mòlt molt fi, barrejat amb òxids de metall que li donen color.\nPer què posa esmalt també a la cara de darrere?\nPerquè així les dues cares s'estiren i s'encongeixen igual i el medalló no es deforma.\nQuè hi ha al centre del medalló de la Lotte?\nHi ha una molècula d'aigua sobre un fons blau fosc."
+    },
+    {
+      "title": "Abans de l'albada",
+      "summary": "Olot baker Roseta Vicens starts work long before dawn and explains to her new apprentice Mikko how the yeast's metabolism makes the dough rise, why the loaves rest in wicker baskets, and why she uses real vanilla in her custard.",
+      "newWords": [
+        "fleca",
+        "albada",
+        "metabolisme",
+        "cove",
+        "vainilla",
+        "ininterromput"
+      ],
+      "text": "La Roseta Vicens té una fleca a Olot. És una fleca petita i antiga: el forn de llenya té més de cent anys, i a la façana encara hi ha un rètol pintat a mà. La Roseta hi entra cada dia a les tres de la matinada, molt abans de l'albada. Quan arriba l'albada i el cel comença a fer-se clar, el primer pa ja és fora del forn.\n\nAquest hivern, la Roseta té un aprenent nou, en Mikko, un noi de vint-i-tres anys que va estudiar biologia i ara vol aprendre l'ofici. El primer dia, mentre pasten, en Mikko li pregunta per què el pa puja.\n\n«És el llevat», diu la Roseta. «El llevat és viu.» Li explica que el llevat és un fong molt petit, que només es veu amb un microscopi. Quan el barreges amb la farina i l'aigua, comença a menjar els sucres de la farina. És el seu metabolisme: el llevat transforma els sucres per treure'n energia, i en aquest procés produeix un gas, el diòxid de carboni, i unes quantes substàncies que donen aroma. Les bombolles de gas queden atrapades dins la massa, i la massa s'infla com un globus.\n\nEn Mikko recorda el que va estudiar a la universitat: el metabolisme del llevat depèn de la temperatura. Si fa fred, el llevat treballa a poc a poc; si fa calor, treballa de pressa. Per això la Roseta deixa la massa en un racó calent de l'obrador.\n\nQuan la massa ha pujat, la Roseta en fa boles i les posa dins els coves. Cada cove és un cistell rodó de vímet, amb una tela coberta de farina a dins. El cove dona forma al pa i el deixa respirar. En Mikko omple vint coves, un al costat de l'altre, i els tapa amb un drap.\n\nAl forn, la part de fora del pa es torna daurada. La Roseta li explica que no és només que es cremi una mica: els sucres i les proteïnes de la massa reaccionen amb la calor i creen centenars de molècules noves, que fan el color i l'olor del pa acabat de fer.\n\nA mig matí fan pastissos de crema. La crema porta vainilla, i la Roseta no fa servir aroma artificial: compra vainilla de veritat, en beines llargues i negres, les obre amb un ganivet i en rasca les llavors dins la llet. «La vainilla de veritat té centenars de substàncies», diu. «L'aroma artificial només en té una.» En Mikko ensuma la llet calenta: fa olor de vainilla i de flors.\n\nA les nou, la fleca és plena de gent. Durant tot el matí hi ha una cua ininterrompuda de clients que volen pa calent i pastissos. Després de set hores de feina ininterrompuda, en Mikko seu sobre un sac de farina, cansat i content. Ara entén que el pa és una mica de química i molta paciència.\n\nPreguntes:\nA quina hora entra la Roseta a la fleca?\nHi entra a les tres de la matinada, molt abans de l'albada.\nPer què puja el pa?\nPerquè el metabolisme del llevat transforma els sucres i produeix un gas que infla la massa.\nQuè és un cove?\nÉs un cistell rodó de vímet, amb una tela a dins, on la massa pren forma.\nCom fa la Roseta la crema dels pastissos?\nRasca les llavors de les beines de vainilla dins la llet.\nPer què en Mikko està cansat al final del matí?\nPerquè ha fet set hores de feina ininterrompuda."
+    },
+    {
+      "title": "Les adoberies del riu",
+      "summary": "In Vic, eighty-four-year-old Rosenda Subirà walks with her grandson Florin, a chemistry student, past the old riverside tanneries and tells him how hides were tanned with oak bark, how the work was mechanised and how the trade collapsed in the eighties.",
+      "newWords": [
+        "adobar",
+        "halar",
+        "remunerar",
+        "mecanitzar",
+        "daltabaix",
+        "desfavorir",
+        "aglomeració"
+      ],
+      "text": "La Rosenda Subirà té vuitanta-quatre anys i viu a Vic. Un diumenge a la tarda, el seu nét Florin, que estudia química a Barcelona, li demana que li ensenyi on treballava de jove. Baixen junts fins al riu Mèder. A la riba hi ha edificis alts i estrets, amb finestres grans a dalt de tot. Són les antigues adoberies, els tallers on es treballava la pell.\n\n«Aquí es van adobar pells durant segles», diu la Rosenda. «Adobar vol dir convertir una pell crua en cuir, perquè no es faci malbé i duri molts anys.» A les golfes, darrere aquelles finestres grans, s'hi assecaven les pells amb l'aire del riu.\n\nEn Florin vol saber com s'adoba una pell. La Rosenda li explica el mètode antic. Primer, les pells es netejaven i es deixaven en aigua amb calç per treure'n el pèl. Després es posaven en basses plenes d'aigua i d'escorça d'alzina mòlta. L'escorça té tanins, unes substàncies que s'uneixen a les fibres de la pell i les fan fortes. Una pell trigava mesos a adobar-se. «I tot pudia», riu la Rosenda. «Quan bufava el vent, tot el barri pudia a pell mullada.»\n\nLa feina era molt dura. Els homes halaven les pells des del fons de les basses amb uns ganxos llargs i se les carregaven a l'esquena. Halar una pell plena d'aigua era com halar un sac de ciment. I era una feina mal remunerada: la Rosenda recorda que el seu pare treballava deu hores al dia i guanyava molt poc. Les dones, com ella, eren encara més mal remunerades, tot i que feien la feina més delicada, la de l'acabat.\n\nAls anys seixanta, les adoberies es van mecanitzar. Van arribar uns bombos de fusta enormes que giraven amb un motor, i les pells s'adobaven dins els bombos, amb sals de crom, en pocs dies. Mecanitzar la feina va estalviar molts esforços, però també va fer que calguessin menys treballadors.\n\nDesprés va venir el daltabaix. Als anys vuitanta, el cuir que arribava de fora era molt més barat, i, amb aquella competència, les adoberies petites com les de Vic van quedar molt desfavorides. Les normes noves sobre l'aigua del riu, que eren necessàries, també les van deixar desfavorides, perquè netejar l'aigua bruta costava molts diners. En pocs anys, gairebé totes van tancar. «Va ser un daltabaix per a moltes famílies», diu la Rosenda. «Hi havia cases on treballaven el pare, la mare i els fills.»\n\nAvui la ciutat ha crescut molt. Vic i els pobles del voltant formen una aglomeració urbana, i en aquesta aglomeració els barris nous arriben fins als camps. Però al costat del riu, les adoberies encara hi són. Algunes s'han convertit en pisos i en tallers d'artistes. En Florin fa fotos de les finestres grans. «A la universitat estudiem els tanins», diu. «Però ningú no m'havia explicat que feien tanta pudor.»\n\nPreguntes:\nQuè vol dir adobar una pell?\nVol dir convertir una pell crua en cuir, perquè no es faci malbé i duri molts anys.\nPer què pudia el barri?\nPerquè les pells s'adobaven durant mesos en basses plenes d'aigua i d'escorça.\nQuè feien els homes amb els ganxos llargs?\nHalaven les pells des del fons de les basses.\nCom es van mecanitzar les adoberies?\nVan arribar uns bombos de fusta que giraven amb un motor.\nPer què va arribar el daltabaix?\nPerquè el cuir de fora era més barat i les adoberies petites van quedar desfavorides."
+    },
+    {
+      "title": "Una glorieta de castanyer",
+      "summary": "Forest engineer Pàmfila Campmany and carpenter Marek build a chestnut-wood pavilion for a village park in the Montseny: they thin the wood and open clearings, burn the chips in the school boiler, and talk about why local forests grow while deforestation elsewhere leaves apes without a home.",
+      "newWords": [
+        "glorieta",
+        "clariana",
+        "estella",
+        "desforestació",
+        "simi",
+        "inimaginable",
+        "insensible"
+      ],
+      "text": "La Pàmfila Campmany és enginyera forestal i treballa al Montseny. Aquesta primavera, un poble de la vall li ha encarregat una glorieta per al parc: una construcció rodona, oberta pels costats, amb un sostre perquè la gent hi pugui seure a l'ombra o quan plou. La glorieta ha de ser de fusta del mateix bosc del poble.\n\nLa Pàmfila tria el castanyer. És una fusta forta, que resisteix bé l'aigua perquè té molts tanins, i que es treballa amb facilitat. Un matí puja al bosc amb en Marek, el fuster que construirà la glorieta. Marquen els arbres que tallaran. No els tallen tots: en trien un de cada cinc, els més vells i els que creixen massa junts.\n\nQuan els arbres cauen, al bosc s'obren petites clarianes. Per les clarianes hi entra el sol, i a terra hi comencen a créixer arbres joves. «Una clariana no fa mal al bosc», diu la Pàmfila. «Li dona aire i llum.»\n\nA la serradora, en Marek talla els troncs en bigues. Volen estelles per tot arreu. Les estelles no es llencen: s'assequen i es cremen a la caldera de l'escola del poble, que escalfa les aules durant l'hivern. Amb les estelles d'una sola glorieta, diu en Marek, l'escola té calefacció uns quants dies.\n\nMentre treballen, la Pàmfila li explica una cosa que sorprèn molta gent. A Catalunya, el bosc no es redueix: creix. Fa cent anys, molts boscos es tallaven per fer carbó i deixar lloc als camps, i alguns vessants del Montseny eren gairebé pelats. Ara la gent ja no viu del bosc, i els arbres tornen.\n\nLa desforestació, però, és un problema greu en altres llocs del món. A l'illa de Borneo, per exemple, la desforestació ha fet desaparèixer milions d'hectàrees de selva per plantar palmeres d'oli. Els simis que hi viuen, els orangutans, perden la seva casa. Hi ha simis que han de viure en trossos petits de bosc, separats per plantacions enormes.\n\n«Costa d'imaginar», diu en Marek. «Aquí ens queixem si tallen un arbre del parc.»\n\n«No és inimaginable», respon la Pàmfila. «Es veu en les fotos que es fan des de l'espai: on hi havia selva, hi ha files i files de palmeres.» Diu que la desforestació d'allà és inimaginable només per a qui no la vol veure. «No podem ser insensibles al que passa lluny. Però tampoc no podem ser insensibles al bosc que tenim a prop: si ningú no el cuida, s'omple de matolls i crema amb facilitat.»\n\nAl juny, la glorieta ja és al parc. Té vuit columnes de castanyer i un sostre de teules. Els primers dies hi seuen avis amb el diari i nens que mengen l'esmorzar. Un dissabte, la Pàmfila hi passa i toca la fusta d'una columna. Encara fa olor de bosc.\n\nPreguntes:\nQuè li ha encarregat el poble a la Pàmfila?\nLi ha encarregat una glorieta de fusta per al parc.\nPer què s'obren clarianes al bosc?\nPerquè tallen alguns arbres vells i els que creixen massa junts.\nQuè fan amb les estelles?\nLes assequen i les cremen a la caldera de l'escola del poble.\nPer què el bosc creix a Catalunya?\nPerquè la gent ja no viu del bosc i els arbres tornen.\nQuè els passa als simis de Borneo?\nPerden la seva casa per culpa de la desforestació.\nPer què diu la Pàmfila que no podem ser insensibles al bosc que tenim a prop?\nPerquè, si ningú no el cuida, s'omple de matolls i crema amb facilitat."
+    },
+    {
+      "title": "El pinso de la cooperativa",
+      "summary": "Ulrica Escandell, who runs the laboratory of a farm cooperative near Lleida, finds out why Mircea's pigs will not eat their new feed: she takes a fair sample by quartering it, reads the figures to the last decimal and traces the problem to over-salted whey.",
+      "newWords": [
+        "pinso",
+        "quadrant",
+        "decimal",
+        "sèrum",
+        "domesticar",
+        "conformitat"
+      ],
+      "text": "L'Ulrica Escandell treballa al laboratori d'una cooperativa agrícola, a prop de Lleida. La cooperativa fabrica pinso per als porcs i les vaques de les granges de la comarca. El pinso és una barreja de cereals, soja, minerals i vitamines, i cada sac ha de tenir exactament el que diu l'etiqueta.\n\nUn dimecres arriba en Mircea, un ramader que té una granja de porcs. Diu que els seus porcs mengen poc des que ha canviat de pinso. L'Ulrica li demana un sac del pinso nou.\n\nAnalitzar un pinso comença per agafar una bona mostra. Un sac de vint-i-cinc quilos no és igual per tot arreu: la pols fina va al fons, i els grans grossos queden a dalt. Per això l'Ulrica escampa el pinso sobre una taula, en fa un cercle pla i el divideix en quatre quadrants amb una regla. Es queda dos quadrants oposats i aparta els altres dos. Després barreja els dos quadrants que ha guardat i repeteix l'operació, fins que li queda un grapat que representa bé tot el sac.\n\nL'anàlisi dona uns números amb decimals: 16,2 per cent de proteïna, 4,1 de greix, 0,85 de calci. «Els decimals són importants», diu l'Ulrica. «Un porc menja més de dos quilos de pinso cada dia. Una diferència petita, en el primer decimal, és molta diferència al cap d'un mes.»\n\nEl pinso nou d'en Mircea porta, a més, sèrum de llet: el líquid que queda quan es fa formatge. El sèrum té proteïnes i sucres, i normalment els porcs se'l mengen amb gana. Però l'anàlisi mostra que aquell sèrum era massa salat. «Els porcs tenen un gust molt fi», diu l'Ulrica.\n\nMentre esperen els resultats, l'Ulrica explica a en Mircea que els porcs es van domesticar fa uns deu mil anys, en diversos llocs del món. Abans que els domestiquessin, els seus avantpassats buscaven menjar pel bosc, i el nas els avisava del que no els convenia. Domesticar un animal no li canvia el nas: el porc continua triant el que menja.\n\nL'Ulrica truca a la fàbrica que va vendre el sèrum. La fàbrica revisa el lot i n'envia un de nou, amb un certificat de conformitat. Un certificat de conformitat diu que el producte compleix les normes: quanta sal porta, quantes proteïnes, quanta aigua. L'Ulrica en comprova cada número, decimal per decimal, abans de donar-lo per bo.\n\nUna setmana després, en Mircea truca al laboratori. Els porcs tornen a menjar el pinso amb gana.\n\nPreguntes:\nQuè fabrica la cooperativa?\nFabrica pinso per als porcs i les vaques de les granges de la comarca.\nPer què l'Ulrica divideix el pinso en quadrants?\nPerquè el sac no és igual per tot arreu i vol un grapat que representi bé tot el sac.\nPer què són importants els decimals?\nPerquè una diferència petita es fa gran quan un porc menja més de dos quilos de pinso cada dia.\nQuè és el sèrum de llet?\nÉs el líquid que queda quan es fa formatge.\nQuè diu un certificat de conformitat?\nDiu que el producte compleix les normes."
+    },
+    {
+      "title": "Un joglar a la filmoteca",
+      "summary": "At a Barcelona film archive, restorer Anjali Sintes rebuilds a forgotten 1956 co-production about a minstrel and an opera diva from three decaying copies that smell of vinegar, while a designer redraws its hand-lettered titles for the closing night of the season.",
+      "newWords": [
+        "filmoteca",
+        "coproducció",
+        "joglar",
+        "carruatge",
+        "diva",
+        "odissea",
+        "tipografia",
+        "clausurar"
+      ],
+      "text": "L'Anjali Sintes treballa al laboratori de restauració d'una filmoteca de Barcelona. Una filmoteca és com una biblioteca de pel·lícules: les guarda, les cuida i les projecta perquè el públic les pugui veure. Aquest any, la filmoteca ha decidit restaurar una pel·lícula del 1956 que gairebé ningú no recorda.\n\nEra una coproducció entre una productora de Barcelona i una de Roma. La pel·lícula explica la història d'un joglar que va de poble en poble amb un carruatge vell, cantant cançons i fent jocs de mans a les places. Al carruatge hi viatja també una diva de l'òpera que ha perdut la veu. A poc a poc, cantant amb el joglar per les places, la diva la recupera.\n\nRestaurar la pel·lícula ha estat una odissea. Com que era una coproducció, les còpies es van repartir entre els dos països, i amb els anys es van perdre. L'Anjali n'ha trobat una a Barcelona, una altra a Roma i un tros a la filmoteca de Lisboa. Són tres còpies, i totes estan incompletes. L'odissea ha durat dos anys.\n\nEl problema principal és químic. La pel·lícula està feta sobre un plàstic, l'acetat de cel·lulosa. Amb el temps, l'acetat es descompon i deixa anar àcid acètic, el mateix àcid que el del vinagre. Quan l'Anjali obre la caixa metàl·lica de la còpia de Barcelona, tot el laboratori fa olor de vinagre. Els restauradors en diuen «la síndrome del vinagre». La pel·lícula s'ha encongit i s'ha torçat, i algunes voltes estan enganxades les unes amb les altres.\n\nL'Anjali neteja la pel·lícula imatge per imatge i l'escaneja. A l'ordinador compara les tres còpies i tria, per a cada escena, la millor. A l'escena del carruatge que travessa un riu, la còpia de Lisboa és la més ben conservada. A l'escena final, quan la diva canta a la plaça amb el joglar, només hi ha la còpia de Roma.\n\nTambé cal refer els títols del principi. Els títols originals eren dibuixats a mà, amb una tipografia molt elegant, de lletres altes i corbes. Un dissenyador de la filmoteca estudia aquella tipografia lletra per lletra i la torna a dibuixar a l'ordinador, per poder fer uns títols nets, iguals que els del 1956.\n\nAl novembre, la filmoteca clausura la temporada amb la pel·lícula restaurada. La sala serà plena. «Clausurar l'any amb un joglar i una diva és un final perfecte», diu el director de la filmoteca. L'Anjali seurà a l'última fila. Coneix cada imatge de memòria, però vol veure la reacció del públic.\n\nPreguntes:\nQuè és una filmoteca?\nÉs com una biblioteca de pel·lícules: les guarda, les cuida i les projecta.\nDe què tracta la pel·lícula?\nD'un joglar que va de poble en poble amb un carruatge i d'una diva de l'òpera que recupera la veu.\nPer què restaurar-la ha estat una odissea?\nPerquè era una coproducció i les còpies es van repartir entre dos països i es van perdre.\nPer què el laboratori fa olor de vinagre?\nPerquè l'acetat de la pel·lícula es descompon i deixa anar àcid acètic.\nQuè fa el dissenyador amb la tipografia dels títols?\nL'estudia lletra per lletra i la torna a dibuixar.\nQuan es veurà la pel·lícula restaurada?\nAl novembre, quan clausuren la temporada de la filmoteca."
+    },
+    {
+      "title": "Un estiu al clúster",
+      "summary": "Chemical engineering student Liviu spends a paid summer placement in the Tarragona chemical cluster: an agreement between the university and the companies gives him the place, a company lodges him in a student residence, and he helps run open days for local residents.",
+      "newWords": [
+        "clúster",
+        "memoràndum",
+        "preferentment",
+        "hostatjar",
+        "ingent",
+        "dinamitzar"
+      ],
+      "text": "En Liviu fa l'últim curs d'enginyeria química a la universitat de Tarragona. Aquest estiu farà pràctiques al clúster químic, el conjunt de fàbriques que hi ha al sud de la ciutat. Un clúster és un grup d'empreses d'un mateix sector que treballen a prop les unes de les altres i comparteixen serveis: carreteres, un port, canonades, laboratoris i bombers. Al clúster de Tarragona hi ha desenes de plantes que fabriquen plàstics i altres matèries per a moltes indústries.\n\nLes pràctiques existeixen perquè la universitat i l'associació d'empreses del clúster van signar un memoràndum fa tres anys. El memoràndum és un document breu: diu que les empreses acolliran estudiants cada estiu i que la universitat adaptarà alguns cursos al que necessita la indústria. Segons el memoràndum, les places es donen preferentment als estudiants de l'últim curs, i preferentment als que no han fet mai pràctiques en una empresa. En Liviu compleix totes dues condicions.\n\nLes pràctiques són remunerades: en Liviu cobrarà un sou modest, però suficient. Com que la seva família viu a Lleida, l'empresa l'hostatja en una residència d'estudiants del centre de Tarragona. La residència hostatja una vintena d'estudiants en pràctiques, de diverses universitats, i en Liviu comparteix el pis amb un estudiant de Girona.\n\nEl primer dia, la senyora Quetglas, la seva tutora, li ensenya la planta. Des d'una torre, en Liviu veu una quantitat ingent de canonades, de tancs i de xemeneies. «Hi ha quilòmetres de canonades», diu la senyora Quetglas. «Aquesta planta consumeix una quantitat ingent d'aigua i d'energia, i ara treballem perquè en gasti menys.»\n\nLa feina d'en Liviu és al laboratori de control. Cada matí analitza mostres dels lots de plàstic i comprova que tenen la densitat i el color que demanen els clients. Si una mostra no arriba al que diu la norma, el lot no surt de la planta.\n\nL'associació del clúster també vol dinamitzar la relació amb la ciutat. Organitza visites per a les escoles, xerrades als barris i jornades de portes obertes. Aquest estiu, els estudiants en pràctiques ajuden a dinamitzar les jornades: expliquen als visitants què es fabrica a les plantes, com es controla l'aire i què es fa amb l'aigua. Un dissabte, en Liviu acompanya un grup de veïns. Li pregunten per l'olor, pel soroll i per la seguretat, i ell respon el que sap. Quan no ho sap, ho pregunta a la senyora Quetglas.\n\nAl final de l'estiu, l'empresa li proposa tornar l'any vinent, quan acabi la carrera. En Liviu diu que s'ho pensarà.\n\nPreguntes:\nQuè és un clúster?\nÉs un grup d'empreses d'un mateix sector que treballen a prop les unes de les altres i comparteixen serveis.\nQuè diu el memoràndum?\nDiu que les empreses acolliran estudiants cada estiu i que la universitat adaptarà alguns cursos.\nA qui es donen preferentment les places?\nEs donen preferentment als estudiants de l'últim curs que no han fet mai pràctiques.\nOn hostatja l'empresa en Liviu?\nL'hostatja en una residència d'estudiants del centre de Tarragona.\nQuè veu en Liviu des de la torre?\nVeu una quantitat ingent de canonades, de tancs i de xemeneies.\nCom ajuden els estudiants a dinamitzar la relació amb la ciutat?\nExpliquen als visitants què es fabrica a les plantes, com es controla l'aire i què es fa amb l'aigua."
+    },
+    {
+      "title": "L'escudella de l'avi Jepi",
+      "summary": "In Berga, retired chemistry teacher Jepi Estelrich, a freckled eccentric with a prodigious memory, cooks the Sunday stew in a heavy iron pot, explains thermal inertia and why the broth gets body, and beats his granddaughter Llucieta at chess with a gambit.",
+      "newWords": [
+        "excèntric",
+        "prodigiós",
+        "escudella",
+        "inèrcia",
+        "col·loquial",
+        "piga",
+        "gambit",
+        "subconscient",
+        "abstracció"
+      ],
+      "text": "L'avi Jepi Estelrich té setanta-nou anys i va ser professor de química durant quaranta anys. A Berga, tothom diu que és una mica excèntric: a la cuina porta sempre una bata blanca, té una pissarra al menjador i a cada test del balcó hi ha escrit el nom d'una molècula. Però aquest home excèntric té una memòria prodigiosa: recorda tota la taula periòdica i partides d'escacs de fa cinquanta anys.\n\nCada diumenge d'hivern fa escudella, i la seva néta Llucieta hi va a dinar. L'escudella és un plat senzill: aigua, ossos, carn, cigrons, patates, col i pasta, que bullen durant hores. L'avi la fa en una olla vella de ferro, enorme i pesant.\n\n«Per què fas servir una olla tan pesant?», li pregunta la Llucieta.\n\n«Per la inèrcia», respon l'avi. Li explica que un objecte amb molta massa triga a escalfar-se i triga a refredar-se: és la inèrcia tèrmica. Una olla de ferro gruixuda guarda la calor i la reparteix a poc a poc. Amb aquesta inèrcia, l'escudella bull suau, sense salts, i no s'enganxa al fons.\n\nMentre l'escudella bull, l'avi li explica la química del brou. Els ossos i la carn tenen col·lagen, una proteïna dura. Amb les hores, el col·lagen es desfà i es converteix en gelatina, i el brou es torna espès. «Diem que el brou té cos», diu l'avi. «\"Cos\" és la paraula col·loquial; el químic diu gelatina. Però la paraula col·loquial és més bonica.»\n\nLa Llucieta s'hi fixa: les mans de l'avi són plenes de pigues. «Són les pigues dels anys», diu ell. «Quaranta estius a la platja sense crema per al sol.»\n\nMentre la carn acaba de fer-se, juguen a escacs al menjador. L'avi obre amb un gambit: sacrifica un peó al principi de la partida per guanyar espai i temps. «Un gambit és com una inversió», diu. «Perds una cosa petita ara per tenir-ne una de més gran després.» La Llucieta es menja el peó del gambit, però al cap de deu jugades ja té problemes. La memòria prodigiosa de l'avi també li serveix als escacs.\n\n«Com ho fas per veure tantes jugades?», li pregunta ella.\n\n«No les veig totes», diu l'avi. «Moltes vegades treballa el subconscient. El subconscient pensa sol mentre tu fas una altra cosa.» Li explica que la química també necessita abstracció: ningú no ha vist mai un àtom amb els seus ulls, i per entendre una reacció has d'imaginar coses que no veus. «Als escacs passa el mateix. L'abstracció és veure el tauler i pensar en el que encara no hi és.»\n\nA les dues, l'avi serveix el brou amb la pasta i després la carn i la verdura. La Llucieta ha perdut la partida, però ha après què és la inèrcia i per què el brou té cos.\n\nPreguntes:\nPer què diuen que l'avi Jepi és excèntric?\nPerquè a la cuina porta una bata blanca, té una pissarra al menjador i escriu noms de molècules als testos.\nPer què fa l'escudella en una olla de ferro tan pesant?\nPer la inèrcia tèrmica: l'olla guarda la calor i l'escudella bull suau.\nQuè passa amb el col·lagen mentre l'escudella bull?\nEs desfà i es converteix en gelatina.\nQuè és un gambit?\nÉs una manera d'obrir la partida en què sacrifiques un peó per guanyar espai i temps.\nQuè diu l'avi del subconscient?\nDiu que el subconscient pensa sol mentre tu fas una altra cosa."
+    },
+    {
+      "title": "Article d'opinió: la gespa del camp del barri",
+      "summary": "A newspaper columnist who praised her neighbourhood's artificial pitch ten years ago looks again at its rubber crumb, which ends up in homes and rivers, weighs both sides of the turf debate and asks the club to try cork when the pitch is replaced.",
+      "newWords": [
+        "columnista",
+        "autocrítica",
+        "detractor",
+        "graderia",
+        "intromissió",
+        "arbitral",
+        "paradoxalment",
+        "moralment",
+        "deslleial"
+      ],
+      "text": "Fa deu anys, quan l'ajuntament va canviar la terra del camp de futbol del meu barri per gespa artificial, vaig escriure un article per aplaudir-ho. Feia poc que era columnista d'aquest diari, i em va semblar una bona notícia. Avui em toca fer autocrítica.\n\nLa gespa artificial està feta de fibres de plàstic verd, i entre les fibres hi ha milions de grans negres de cautxú, fets amb pneumàtics vells triturats. Aquests grans fan que la pilota boti bé i que les caigudes siguin més suaus. Durant anys, tothom n'estava content: ja no hi havia fang a l'hivern ni pols a l'estiu.\n\nPerò els grans se'n van. S'enganxen a les botes, als mitjons i als cabells dels nens, i arriben a les cases, als desguassos i, al final, al riu i al mar. Són microplàstics. Els científics calculen que cada camp en perd centenars de quilos l'any. Quan ho vaig llegir, vaig pensar en el meu article de fa deu anys. Fer autocrítica no és agradable, però un columnista que no en fa mai no mereix gaire confiança.\n\nAl barri, el debat és viu. Els detractors de la gespa natural diuen que gasta molta aigua i que, amb tants partits, es converteix en un camp de fang. Tenen raó. Els detractors de la gespa artificial diuen que és plàstic, que a l'estiu crema i que deixa anar aquests grans. També tenen raó.\n\nL'altre dia, a la graderia del camp, mentre mirava un partit de l'equip infantil, un pare em va dir que els veïns no s'havien de ficar en les decisions del club. Per a ell, la nostra opinió era una intromissió. Però el camp és municipal, i els grans acaben a les nostres cases. No crec que sigui una intromissió preocupar-se pel que els nens toquen cada dia. Des de la graderia, aquell dia, veia els grans negres saltar a cada xut.\n\nFins i tot l'equip arbitral se n'ha queixat. Els àrbitres diuen que, quan la pilota bota, els grans salten com una pluja negra, i que al final dels partits el vestidor arbitral és ple de boletes.\n\nParadoxalment, la solució potser és mirar enrere. Hi ha camps nous que fan servir suro, pinyols d'oliva triturats o fibra de coco en lloc de cautxú. Paradoxalment, el suro, un dels materials més antics dels boscos de l'Empordà, pot ser el més modern per a un camp de futbol.\n\nMoralment, la pregunta és senzilla; tècnicament, no tant. Moralment, ja no podem dir que no ho sabíem. Seria deslleial amb els nens del barri fingir que no passa res, i seria deslleial amb els lectors que van confiar en el meu article fa deu anys. Per això demano al club que, quan d'aquí a dos anys canviï la gespa, provi el suro.\n\nPreguntes:\nPer què l'autora fa autocrítica?\nPerquè fa deu anys va aplaudir la gespa artificial i ara sap que perd microplàstics.\nDe què estan fets els grans negres?\nEstan fets amb pneumàtics vells triturats.\nQuè diuen els detractors de la gespa natural?\nDiuen que gasta molta aigua i que es converteix en un camp de fang.\nPer què un pare parla d'intromissió?\nPerquè creu que els veïns no s'han de ficar en les decisions del club.\nDe què es queixa l'equip arbitral?\nQue els grans salten quan la pilota bota i que el vestidor arbitral és ple de boletes.\nQuè demana l'autora al club?\nDemana que, quan canviï la gespa, provi el suro."
+    }
+  ]
+}
