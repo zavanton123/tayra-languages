@@ -169,7 +169,6 @@ internal val elCourses: Map<String, String> = mapOf(
     "A card you are learning comes back at {0}." to "Μια κάρτα που μαθαίνετε επιστρέφει στις {0}.",
     "You answered {0} cards. Come back tomorrow for more." to "Απαντήσατε σε {0} κάρτα. Επιστρέψτε αύριο για περισσότερες.|Απαντήσατε σε {0} κάρτες. Επιστρέψτε αύριο για περισσότερες.",
     "Words you give a status of 1 to 4 while reading get a card here. More cards are due as their reviews come round." to "Οι λέξεις στις οποίες δίνετε κατάσταση από 1 έως 4 κατά την ανάγνωση αποκτούν κάρτα εδώ. Περισσότερες κάρτες έρχονται για επανάληψη όταν φτάνει η ώρα τους.",
-    "Open vocabulary" to "Άνοιγμα λεξιλογίου",
     "Keep reading" to "Συνεχίστε την ανάγνωση",
 
     // BrowseFlashcardsScreen.kt and PhoneBrowseFlashcards.kt: the card browser

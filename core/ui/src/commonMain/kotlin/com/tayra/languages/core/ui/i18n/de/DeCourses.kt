@@ -169,7 +169,6 @@ internal val deCourses: Map<String, String> = mapOf(
     "A card you are learning comes back at {0}." to "Eine Karte, die du lernst, kommt um {0} wieder.",
     "You answered {0} cards. Come back tomorrow for more." to "Du hast {0} Karte beantwortet. Komm morgen für weitere wieder.|Du hast {0} Karten beantwortet. Komm morgen für weitere wieder.",
     "Words you give a status of 1 to 4 while reading get a card here. More cards are due as their reviews come round." to "Wörter, denen du beim Lesen den Status 1 bis 4 gibst, bekommen hier eine Karte. Weitere Karten werden fällig, sobald ihre Wiederholung ansteht.",
-    "Open vocabulary" to "Wortschatz öffnen",
     "Keep reading" to "Weiterlesen",
 
     // BrowseFlashcardsScreen.kt and PhoneBrowseFlashcards.kt: the card browser

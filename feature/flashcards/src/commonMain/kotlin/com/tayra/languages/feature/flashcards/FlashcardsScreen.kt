@@ -70,7 +70,6 @@ import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDirection
-import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
@@ -177,7 +176,6 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onSuspend = viewModel::suspendCard,
                 onDelete = { confirmDelete = state.card },
                 onEdit = { onNavigate(Route.BrowseFlashcards(termId = it)) },
-                onVocabulary = { onNavigate(Route.Terms()) },
                 onBooks = { onNavigate(Route.Books) },
                 onRead = { onNavigate(Route.Read(it)) },
                 onBrowse = { onNavigate(Route.BrowseFlashcards()) },
@@ -221,7 +219,6 @@ internal class FlashcardActions(
     val onDelete: () -> Unit = {},
     /** Opens the card in the browser, where its sentence, schedule and state are changed. */
     val onEdit: (termId: Long) -> Unit = {},
-    val onVocabulary: () -> Unit = {},
     val onBooks: () -> Unit = {},
     /** Back to the text with this id, read last before the cards. */
     val onRead: (Long) -> Unit = {},
@@ -693,14 +690,10 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
         val reading = state.reading
         if (reading != null) {
             PrimaryButton(tr("Continue reading"), onClick = { actions.onRead(reading.bookId) }, modifier = NoFocus.padding(top = AppSpacing.s).testTag("continue-reading"), icon = AppIcons.MenuBook)
-            Text(reading.title, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, textAlign = TextAlign.Center, maxLines = 2, overflow = TextOverflow.Ellipsis)
         } else {
             PrimaryButton(tr("Keep reading"), onClick = actions.onBooks, modifier = NoFocus.padding(top = AppSpacing.s), icon = AppIcons.MenuBook)
         }
-        Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            if (state.canUndo) QuietButton(tr("Previous card"), onClick = actions.onUndo, modifier = NoFocus)
-            QuietButton(tr("Open vocabulary"), onClick = actions.onVocabulary, modifier = NoFocus)
-        }
+        if (state.canUndo) QuietButton(tr("Previous card"), onClick = actions.onUndo, modifier = NoFocus)
     }
 }
 

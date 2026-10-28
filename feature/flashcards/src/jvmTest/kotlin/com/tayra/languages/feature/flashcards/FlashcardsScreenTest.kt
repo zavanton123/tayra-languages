@@ -377,7 +377,9 @@ class FlashcardsScreenTest {
         onNodeWithText("Show answer").performClick()
         onNodeWithTag("answer-Easy").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("continue-reading").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("A casa nova").assertExists()
+        // The button alone leads back into the text, without its title under it, nor the vocabulary beside it.
+        assertEquals(0, onAllNodesWithText("A casa nova").fetchSemanticsNodes().size)
+        assertEquals(0, onAllNodesWithText("Open vocabulary").fetchSemanticsNodes().size)
         assertEquals(0, onAllNodesWithText("Keep reading").fetchSemanticsNodes().size)
         save("FLASHCARD_FINISHED_SCREENSHOT")
         onNodeWithTag("continue-reading").performClick()

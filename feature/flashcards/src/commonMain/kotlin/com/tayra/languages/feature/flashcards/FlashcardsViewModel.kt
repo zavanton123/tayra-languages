@@ -86,8 +86,8 @@ data class FlashcardsUiState(
 /** How much of the speech the session waits for is made: [ready] of [total], which is 0 while that is still being found out. */
 data class AudioPreparation(val ready: Int, val total: Int)
 
-/** A text to go back to after the cards: its id and title. */
-data class ReadingToContinue(val bookId: Long, val title: String)
+/** A text to go back to after the cards, by its id. */
+data class ReadingToContinue(val bookId: Long)
 
 /** How long until a card comes back: in [days] once it is a review, else as a [duration] in its steps. */
 data class CardWait(val days: Int?, val duration: Duration)
@@ -247,12 +247,12 @@ class FlashcardsViewModel(
         val id = languageId ?: return null
         val library = repository.observeBooks(archived = false).first()
             .filter { it.languageId == id && it.lastOpened != null && !it.isCompleted }
-            .map { Triple(it.id, it.title, it.lastOpened!!) }
-        // Lesson texts are kept out of the library list; their language and title are their book's.
+            .map { it.id to it.lastOpened!! }
+        // Lesson texts are kept out of the library list; their language is their book's.
         val lessons = repository.observeLessonBooks().first().values
             .filter { it.lastOpened != null && !it.isCompleted }
-            .mapNotNull { lesson -> repository.getBook(lesson.bookId)?.takeIf { it.languageId == id }?.let { Triple(lesson.bookId, it.title, lesson.lastOpened!!) } }
-        return (library + lessons).maxByOrNull { it.third }?.let { ReadingToContinue(it.first, it.second) }
+            .mapNotNull { lesson -> repository.getBook(lesson.bookId)?.takeIf { it.languageId == id }?.let { lesson.bookId to lesson.lastOpened!! } }
+        return (library + lessons).maxByOrNull { it.second }?.let { ReadingToContinue(it.first) }
     }
 
     private fun loadExtras(term: Term, language: Language) {
