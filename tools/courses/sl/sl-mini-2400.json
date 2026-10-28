@@ -1,0 +1,210 @@
+{
+  "id": "sl-mini-2400",
+  "rankUpTo": 2400,
+  "level": "B2",
+  "title": "Znanost in tehnika",
+  "description": "Ten short stories about science and technology in everyday life: a weather station on a school roof, a public lecture on kitchen chemistry, a drone over a farm in Prekmurje, an old hand-built radio, a geology walk in a gorge, a children's robot competition, an electricity bill, a column on science and poetry, a researcher's bacterium in Vienna and a home-made lip balm.",
+  "topic": "Science and technology",
+  "names": [
+    "Aurelija",
+    "Edvin",
+    "Ajdovščina",
+    "Ajdovščini",
+    "Ester",
+    "Evgen",
+    "Ljubljana",
+    "Ljubljani",
+    "Davor",
+    "Leonard",
+    "Prekmurje",
+    "Prekmurju",
+    "Mure",
+    "Mura",
+    "Selma",
+    "Josip",
+    "Kranj",
+    "Kranju",
+    "Slovenija",
+    "Sloveniji",
+    "Aleksej",
+    "Vlatka",
+    "Tolmin",
+    "Tolmina",
+    "Tolminu",
+    "Soča",
+    "Soče",
+    "Blanka",
+    "Timon",
+    "Hajdi",
+    "Velenje",
+    "Velenju",
+    "Fredi",
+    "Elizabeta",
+    "Maribor",
+    "Mariboru",
+    "Franja",
+    "Pohorje",
+    "Pohorjem",
+    "Adela",
+    "Huber",
+    "Dunaj",
+    "Dunaju",
+    "Dunaja",
+    "Avstrija",
+    "Avstrije",
+    "Ptuj",
+    "Ptuju",
+    "Ptuja",
+    "Marica",
+    "Anamarija",
+    "Celje",
+    "Celju"
+  ],
+  "lessons": [
+    {
+      "title": "Postaja na strehi šole",
+      "summary": "Geography teacher Aurelija takes a group of pupils onto the school roof in Ajdovščina every Thursday to look after a small weather station; twelve-year-old Edvin studies its long series of data on wind, heat and a late-summer storm.",
+      "newWords": [
+        "pouk",
+        "vesti",
+        "koristen",
+        "zanesljiv",
+        "niz",
+        "rahel",
+        "vročina",
+        "nevihta"
+      ],
+      "text": "Aurelija uči geografijo na osnovni šoli v Ajdovščini. Lani jeseni je šola dobila majhno vremensko postajo. Postavili so jo na ravno streho, kjer je odprta na vse strani. Postaja meri temperaturo, veter in dež, podatke pa vsakih deset minut pošlje na računalnik v razredu.\n\nOd takrat Aurelija vsak četrtek po pouku vede skupino učencev na streho. Najprej preverijo, ali so vse naprave čiste in cele. »Postaja je koristna samo, če so njeni podatki zanesljivi,« jim ponavlja. »Če je posoda za dež polna listov, podatek ni zanesljiv, in potem nam še tako dober računalnik ne pomaga.«\n\nMed učenci je Edvin, ki je star 12 let. Pri pouku je pogosto tiho, na strehi pa ima vedno največ vprašanj. Najbolj ga zanima veter, ker v Ajdovščini piha zelo močno. Aurelija mu je pokazala, kako na računalniku odpre niz podatkov za cel mesec. Niz je bil dolg: za vsak dan je imel 144 vrstic. Edvin je v nizu poiskal največjo hitrost vetra in si jo zapisal. Potem je pregledal še druge mesece. Ugotovil je, da je veter najmočnejši od decembra do februarja, poleti pa je večinoma rahel.\n\nPoleti je učence najbolj zanimala vročina. Julija je bilo več dni čez 35 stopinj. Med počitnicami so podatke spremljali kar od doma, na telefonu. Edvin je opazil, da je bila vročina na šolski strehi večja kot na letališču zunaj mesta. Aurelija mu je razložila, da se streha na soncu zelo segreje, zato tak podatek ni povsem zanesljiv. Skupaj sta se odločila, da bosta napravo za temperaturo prestavila nižje, v senco.\n\nKonec avgusta je prišla nevihta. Najprej je pihal rahel veter, potem je v pol ure padlo skoraj 40 litrov dežja na kvadratni meter. Postaja je nevihto zapisala minuto za minuto. Ko se je septembra spet začel pouk, je Aurelija niz podatkov o nevihti pokazala vsemu razredu. Učenci so narisali, kako je padal dež: začel je počasi, potem je bil vedno močnejši, čez eno uro pa je skoraj čisto nehal.\n\n»Zakaj je to koristno?« je vprašal Edvin.\n\n»Ker bomo vedeli, koliko vode mora sprejeti šolsko dvorišče, ko pride naslednja nevihta,« je odgovorila Aurelija. »Takšni podatki so koristni tudi ljudem, ki gradijo ceste in hiše.«\n\nZdaj Edvin vsak četrtek sam vede mlajše učence na streho in jim razlaga, kako postaja deluje. Vedejo se mirno, saj vedo, da je na strehi treba paziti.\n\nVprašanja:\nKje stoji vremenska postaja?\nPostaja stoji na ravni strehi osnovne šole v Ajdovščini.\nKaj dela Aurelija vsak četrtek po pouku?\nVsak četrtek po pouku vede skupino učencev na streho.\nKdaj so podatki postaje koristni?\nPodatki so koristni samo, če so zanesljivi.\nKaj je Edvin ugotovil o vetru?\nUgotovil je, da je veter najmočnejši od decembra do februarja, poleti pa je večinoma rahel.\nZakaj podatek o vročini na strehi ni bil povsem zanesljiv?\nKer se streha na soncu zelo segreje.\nKaj je postaja zapisala konec avgusta?\nPostaja je minuto za minuto zapisala nevihto."
+    },
+    {
+      "title": "Znanost v kuhinji",
+      "summary": "Ester, who loves cooking but remembers chemistry as a hard school subject, goes to a library lecture in Ljubljana where the scientist Evgen heats sugar until it turns brown, explains why baked food tastes different, and her own browned sugar finally works at home.",
+      "newWords": [
+        "občinstvo",
+        "jed",
+        "kemičen",
+        "osredotočiti",
+        "sladkor",
+        "rjav",
+        "specifičen",
+        "delec"
+      ],
+      "text": "V mestni knjižnici v Ljubljani enkrat na mesec pripravijo predavanje o znanosti za vse, ki jih zanima. Ta mesec je bil naslov predavanja »Znanost v kuhinji«. Ester rada kuha, kemičnih poskusov pa se iz šole spominja samo kot nečesa težkega in dolgočasnega. Vseeno se je odločila, da gre poslušat.\n\nDvorana je bila polna. V občinstvu so sedeli starejši ljudje, študenti in starši z otroki. Predavanje je imel profesor Evgen, ki dela na univerzi. Na mizi pred njim so stali majhna električna plošča, posoda in nekaj kozarcev.\n\n»Vsaka jed, ki jo skuhate, je majhen kemični poskus,« je začel. »Danes se bomo osredotočili samo na eno snov, ki jo imate vsi doma: na sladkor.«\n\nV posodo je dal nekaj belega sladkorja in prižgal ploščo. Občinstvo je tiho gledalo. Sladkor se je najprej spremenil v tekočino brez barve, potem je počasi postal rumen in na koncu rjav. Po dvorani se je razširil sladek vonj.\n\n»Zdaj se osredotočite na vonj,« je rekel Evgen. »Ko sladkor postane rjav, nastane več sto novih snovi. Prav te snovi mu dajo specifičen okus, ki ga beli sladkor nima.« Razložil je, da se ta kemična sprememba začne pri specifični temperaturi, malo nad 160 stopinjami. Če je posoda še bolj vroča, postane sladkor skoraj črn in ima slab okus.\n\nNato je pokazal kos kruha. »Tudi rjava barva kruha je rezultat kemične reakcije,« je povedal. »Enako se zgodi, ko pečemo meso. Zato ima pečeno meso čisto drug okus kot meso, ki ga skuhamo v vodi, čeprav je isto meso.«\n\nOtroci v prvi vrsti so želeli vedeti, zakaj je sladkor bel. Evgen jim je razložil, da je sladkor iz zelo majhnih delcev in da je bel zato, ker se svetloba lomi na teh delcih. »Tudi sneg je iz majhnih delcev ledu. Zato je bel, čeprav je led sam skoraj prozoren.«\n\nNa koncu je lahko občinstvo postavljalo vprašanja. Ester je dvignila roko in vprašala, zakaj ji sladkor v posodi vedno postane črn. Evgen ji je svetoval, naj se osredotoči na barvo in naj posodo odmakne, takoj ko je sladkor svetlo rjav, saj je posoda vroča še nekaj časa.\n\nDoma je Ester že naslednji dan poskusila. Tokrat je ves čas pazila na barvo in prvič ji je uspelo. Zdaj na vsako jed, ki jo pripravi, gleda malo drugače: kot na kemični poskus, pri katerem sama izbere snovi in temperaturo.\n\nVprašanja:\nO čem je bilo predavanje v knjižnici?\nPredavanje je bilo o znanosti v kuhinji.\nKdo je sedel v občinstvu?\nV občinstvu so sedeli starejši ljudje, študenti in starši z otroki.\nNa katero snov se je osredotočil Evgen?\nOsredotočil se je na sladkor.\nKaj se zgodi, ko sladkor postane rjav?\nNastane več sto novih snovi, ki mu dajo specifičen okus.\nZakaj je sladkor bel?\nKer je iz zelo majhnih delcev, na katerih se lomi svetloba.\nKaj je Evgen svetoval Ester?\nSvetoval ji je, naj se osredotoči na barvo in naj posodo odmakne, ko je sladkor svetlo rjav."
+    },
+    {
+      "title": "Kamera nad polji",
+      "summary": "Davor farms in Prekmurje the way his father did; his cousin Leonard, who studies agriculture, flies a small camera drone over the land, finds the brown patches where the plants are short of water, and the local farmers' society decides to buy one drone for everyone.",
+      "newWords": [
+        "zemljišče",
+        "kmetijstvo",
+        "bratranec",
+        "upravljati",
+        "lisa",
+        "uvesti",
+        "napredek",
+        "krajeven"
+      ],
+      "text": "Davor ima kmetijo v Prekmurju, blizu reke Mure. Njegovo zemljišče je veliko: na njem so polja, travniki in majhen sadovnjak. Kmetijo je prevzel od očeta in jo vodi tako, kot jo je vodil oče. Vsako jutro obišče vsa polja in pogleda, kako rastejo rastline.\n\nDavorjev bratranec Leonard študira kmetijstvo v Mariboru. Vsako poletje pride za nekaj tednov pomagat na kmetijo. To leto je s seboj pripeljal majhno letečo napravo s kamero, ki ji ljudje rečejo dron.\n\n»Kaj boš pa s tem?« je vprašal Davor.\n\n»Pokazal ti bom tvoje zemljišče od zgoraj,« je odgovoril bratranec. »Sodobno kmetijstvo ne more več brez takšnih naprav.«\n\nLeonard je napravo upravljal s telefonom. Upravljati jo je bilo preprosto: na zemljevidu je označil polja in naprava je sama letela nad njimi v ravnih vrstah. Kamera je snemala svetlobo, ki je človeško oko ne vidi. V pol ure je naprava obletela vse zemljišče.\n\nZvečer sta bratranca sedela v kuhinji in gledala slike na računalniku. Večina polj je bila zelena, na treh mestih pa so se videle velike rjave lise. »Na teh lisah rastline nimajo dovolj vode,« je razložil Leonard. »S tal tega še ne vidiš, kamera pa to opazi že teden dni prej.«\n\nNaslednje jutro sta šla pogledat. Res: tam, kjer so bile na sliki lise, je bila zemlja bolj suha in je imela več peska. Davor je tja takoj napeljal vodo. Dva tedna pozneje je naprava spet letela nad polji. Lise so bile manjše.\n\n»To je pravi napredek,« je rekel Davor. »Zdaj dam vodo tja, kjer jo rastline res potrebujejo, in ne povsod.«\n\nLeonard mu je predlagal, naj ta način dela uvede na vsej kmetiji. Davor je hotel najprej slišati mnenje drugih kmetov. Na krajevnem sestanku v vaškem domu je Leonard pokazal slike in razložil, kako se upravlja naprava. Kmetje so ga pozorno poslušali. Nekateri so bili navdušeni, drugi pa so menili, da je tako draga naprava za majhno kmetijo preveč.\n\nNa koncu se je krajevno društvo kmetov odločilo, da bo kupilo eno napravo za vse. Leonard bo jeseni naučil dva mlajša kmeta, kako jo upravljati. Davor je bil zadovoljen. »Novih stvari se ne bojim,« je rekel bratrancu, »samo uvesti jih je treba počasi in pametno.« Tudi starejši kmetje so priznali, da je to napredek, ki bo koristil vsem.\n\nVprašanja:\nKje ima Davor svoje zemljišče?\nZemljišče ima v Prekmurju, blizu reke Mure.\nKaj študira njegov bratranec Leonard?\nLeonard študira kmetijstvo v Mariboru.\nKako je Leonard upravljal napravo?\nNapravo je upravljal s telefonom.\nKaj so pokazale rjave lise na slikah?\nPokazale so mesta, kjer rastline nimajo dovolj vode.\nZa kaj se je odločilo krajevno društvo kmetov?\nOdločilo se je, da bo kupilo eno napravo za vse.\nZakaj je Davor rekel, da je to napredek?\nKer zdaj da vodo tja, kjer jo rastline res potrebujejo."
+    },
+    {
+      "title": "Škatla na dnu omare",
+      "summary": "While helping her grandfather Josip clear out an old wardrobe in Kranj, Selma finds the radio he built by hand at nineteen, before he worked as a television technician; a small loose wire is all that is wrong, and when it plays again he gives it to her.",
+      "newWords": [
+        "omara",
+        "ročen",
+        "televizijski",
+        "malenkost",
+        "fantastičen",
+        "dragocen",
+        "podariti"
+      ],
+      "text": "Selma študira tehniko na univerzi v Ljubljani. Neko soboto je šla k dedku Josipu v Kranj, ker ji je rekel, da potrebuje pomoč. V spalnici je imel staro leseno omaro, ki je ni odprl že več let. Odločil se je, da bo vse stvari vzel iz omare in jo dal popraviti.\n\nV omari so bile stare obleke, škatle s fotografijami in pisma. Na dnu omare pa je Selma našla težko leseno škatlo z dvema gumboma in majhnim steklom spredaj. »Dedek, kaj je to?« je vprašala.\n\nDedek se je zasmejal. »To je moj prvi radio. Naredil sem ga sam, ko sem imel 19 let. Vse je ročno delo: ročno sem naredil škatlo iz lesa in ročno sem povezal vsako žico.«\n\nSelma je vedela, da je dedek več kot 30 let delal kot televizijski tehnik. Skrbel je za naprave v televizijski hiši v Ljubljani in pogosto je potoval s televizijsko ekipo, ko so snemali oddaje po Sloveniji. Ni pa vedela, da se je vse začelo s to leseno škatlo.\n\n»Ali še dela?« je vprašala.\n\n»Ne vem. Že dolgo ga nisem vključil.«\n\nSelma je škatlo nesla na mizo v kuhinji in jo previdno odprla. Notri je bilo vse lepo urejeno in čisto. Dedek je stal za njo in gledal. »Ni hudo,« je rekla Selma čez nekaj minut. »Gre samo za malenkost. Ena žica ni več povezana.«\n\n»Pri takih napravah malenkost ne obstaja,« je rekel dedek. »Tudi ena žica je dovolj, da je vse tiho.«\n\nDedek ji je pokazal, kako se žica spet poveže. Selma je delala počasi, dedek pa ji je razlagal vsak korak. Ko sta končala, sta napravo vključila. Najprej se ni nič slišalo. Potem je Selma počasi obrnila gumb in iz škatle se je zaslišala glasba.\n\n»Fantastično!« je rekla Selma. »Po vseh teh letih!«\n\n»Fantastičen je tvoj občutek za tehniko,« je rekel dedek. »Jaz sem za takšno malenkost včasih potreboval cel dan.«\n\nŠe dolgo sta sedela ob mizi in poslušala glasbo. Dedek je pripovedoval, kako je kot mlad fant kupoval dele na trgu in dolgo zbiral denar zanje. Takrat je bil zanj vsak del dragocen.\n\nKo je Selma zvečer odhajala, ji je dedek podaril svoj prvi radio. »Rad bi ti ga podaril, ker vem, da boš pazila nanj,« je rekel. »Zame je zelo dragocen, ampak pri tebi bo spet delal.«\n\nSelma ima zdaj leseno škatlo v svoji sobi. Vsako jutro jo vključi in posluša poročila. Ko jo prijatelji vprašajo, od kod jo ima, z veseljem pove, da je to ročno delo in da ji jo je podaril dedek.\n\nVprašanja:\nKaj je Selma našla na dnu omare?\nNa dnu omare je našla težko leseno škatlo, dedkov prvi radio.\nKdo je naredil to napravo?\nRočno jo je naredil dedek Josip, ko je imel 19 let.\nKaj je dedek delal več kot 30 let?\nDelal je kot televizijski tehnik.\nKaj je bilo narobe z napravo?\nŠlo je samo za malenkost: ena žica ni bila več povezana.\nZakaj je dedek Selmi podaril svoj prvi radio?\nPodaril ji ga je, ker ve, da bo pazila nanj.\nKaj Selma dela vsako jutro?\nVsako jutro vključi leseno škatlo in posluša poročila."
+    },
+    {
+      "title": "Kamni ob reki",
+      "summary": "Student Vlatka joins Aleksej, a researcher with a grey beard and a big hat, on a hot walk along a narrow path above the river near Tolmin, where he shows her how to read the lines in the rocks and the shells that are millions of years old.",
+      "newWords": [
+        "steza",
+        "skala",
+        "klobuk",
+        "brada",
+        "segati",
+        "tipičen",
+        "čelo",
+        "počivati"
+      ],
+      "text": "Vlatka je študentka prvega letnika. Za nalogo pri profesorju mora opisati kamne iz enega kraja v Sloveniji. Profesor ji je svetoval, naj se obrne na Alekseja, raziskovalca iz Tolmina, ki že več kot 40 let raziskuje kamne v dolini Soče.\n\nDobila sta se zgodaj zjutraj ob reki. Aleksej je bil visok starejši moški z dolgo sivo brado in z velikim klobukom na glavi. »Klobuk je najpomembnejši del moje opreme,« je rekel in se nasmejal. »Brez klobuka na soncu ne zdržim niti ure.«\n\nPo ozki stezi sta šla ob reki gor. Na obeh straneh so stale visoke sive skale. Aleksej se je ustavil pri prvi skali in z roko pokazal tanke ravne črte. »Vidiš te črte? Vsaka taka črta je bila nekoč dno morja. Zgodovina teh skal sega več kot 200 milijonov let nazaj.«\n\nVlatka je bila presenečena. »Tukaj je bilo morje?«\n\n»Da. In to lahko dokažemo.« Aleksej je s prstom pokazal majhne bele oblike v kamnu. »To so školjke. Takšne školjke so tipične za toplo morje, ki ni bilo globoko. Ko v kamnu najdeš tipično školjko, veš, v kakšnem morju je živela.«\n\nHodila sta naprej. Steza je šla vse bolj strmo navzgor in sonce je bilo vse močnejše. Vlatka si je z roko obrisala čelo. Tudi Aleksej je imel mokro čelo, čeprav je imel klobuk. Pri leseni klopi ob stezi je rekel: »Tu bova malo počivala. Kdor v hribih ne počiva, pride domov utrujen in ne vidi nič.«\n\nMedtem ko sta počivala v senci, je Aleksej odprl star zvezek. V njem so bile njegove slike vseh skal ob tej stezi, z vsemi črtami. »Pri delu sem vedno najprej risal,« je povedal. »Ko rišeš, moraš gledati počasi. Tako opaziš stvari, ki jih fotografija ne pokaže.«\n\nKo sta prišla do konca poti, je bila ura že 12. Reka je tam tekla med dvema ogromnima skalama, ki segata skoraj do neba. Aleksej je razložil, kako je voda v milijonih let naredila pot skozi kamen.\n\n»Kaj je tipično za to dolino?« je vprašala Vlatka.\n\n»Tipično je, da so stare črte v skalah ob reki lepo vidne. Zato je ta dolina kot odprta knjiga,« je odgovoril Aleksej in si potegnil klobuk nižje na čelo.\n\nDoma je Vlatka napisala nalogo in narisala tri skale s črtami, tako kot ji je pokazal Aleksej. Profesor ji je dal najboljšo oceno.\n\nVprašanja:\nKdo je Aleksej?\nAleksej je raziskovalec iz Tolmina, ki raziskuje kamne v dolini Soče.\nKako je bil videti Aleksej?\nImel je dolgo sivo brado in velik klobuk na glavi.\nKako daleč nazaj sega zgodovina skal ob reki?\nZgodovina skal sega več kot 200 milijonov let nazaj.\nZa kaj so tipične školjke v kamnu?\nTakšne školjke so tipične za toplo morje, ki ni bilo globoko.\nZakaj sta Vlatka in Aleksej počivala?\nKer je šla steza strmo navzgor in je bilo sonce močno.\nZakaj je Aleksej pri delu vedno najprej risal?\nKer moraš pri tem gledati počasi in opaziš stvari, ki jih fotografija ne pokaže."
+    },
+    {
+      "title": "Do rdeče zastave",
+      "summary": "Timon and Hajdi, two children from the robotics club at the municipal library in Velenje, build a small robot car that has to follow a black line to a flag; they solve one problem after another with their mentor Blanka and come home from the competition with silver medals.",
+      "newWords": [
+        "občinski",
+        "moštvo",
+        "reševati",
+        "vprašaj",
+        "zastava",
+        "medalja",
+        "srebrn",
+        "zadovoljstvo"
+      ],
+      "text": "V občinski knjižnici v Velenju že tretje leto deluje klub za mlade tehnike. Vodi ga Blanka, ki je po poklicu inženirka. Enkrat na teden se v knjižnici zbere deset otrok. Iz majhnih delov sestavljajo avtomobile, ki niso večji od knjige in jih vodi računalniški program. Takim napravam pravimo roboti.\n\nTo leto se je klub prijavil na tekmovanje v Ljubljani. Iz kluba sta šla dva: Timon, ki ima 11 let, in Hajdi, ki jih ima 12. Skupaj sta bila eno moštvo. Naloga je bila jasna: avto mora sam slediti črni črti na tleh in priti do rdeče zastave na koncu proge. Pri tem se ne sme dotakniti nobene ovire. Zmaga moštvo, katerega avto pride do zastave najhitreje.\n\nTimon in Hajdi sta svoj avto sestavljala šest tednov. Vsak teden sta morala reševati nov problem. Najprej avto ni videl črte. Hajdi je ugotovila, da je bila svetloba v sobi premočna, zato sta kamero premaknila nižje. Potem je avto v vsakem zavoju zadel steno. Ta problem sta reševala tri tedne, dokler Timon ni spremenil hitrosti.\n\nNekoč se je na računalniku namesto programa pokazal samo velik vprašaj. Hajdi je bila že skoraj žalostna. »Ne vem več, kaj je narobe,« je rekla.\n\nBlanka je sedla k njima. »Vprašaj pomeni, da računalnik ne razume enega ukaza,« je razložila. »Probleme rešujemo tako, da preverimo ukaz za ukazom.« Čez pol ure sta našla napako: manjkal je en sam znak. Vprašaj je izginil in avto je spet lepo vozil.\n\nNa dan tekmovanja je bilo v veliki dvorani v Ljubljani 20 moštev iz vse Slovenije. Vsako moštvo je imelo dve vožnji. V prvi vožnji se je njun avto ustavil tik pred zastavo, ker je ostal brez elektrike. Timon je bil žalosten, Hajdi pa je takoj vstavila novo baterijo. V drugi vožnji je avto prišel do konca proge brez napake in se ustavil točno pri zastavi.\n\nKo so povedali rezultate, je bilo njuno moštvo drugo. Oba sta dobila srebrno medaljo. Timon je medaljo ves čas držal v roki, Hajdi pa jo je nosila okrog vratu.\n\n»Srebrna medalja na prvem tekmovanju!« je rekla Blanka. »Lahko sta zelo ponosna.«\n\nNa avtobusu domov sta bila oba tiha in utrujena, a polna zadovoljstva. »Največje zadovoljstvo ni medalja,« je rekla Hajdi, »ampak trenutek, ko je avto prišel do zastave.« Timon se je strinjal. Naslednji teden sta srebrni medalji pokazala vsem v klubu, Blanka pa je fotografijo moštva dala na vrata občinske knjižnice.\n\nVprašanja:\nKje deluje klub za mlade tehnike?\nKlub deluje v občinski knjižnici v Velenju.\nKaj je moral narediti avto na tekmovanju?\nAvto je moral slediti črni črti in priti do rdeče zastave na koncu proge.\nKaj je pomenil vprašaj na računalniku?\nVprašaj je pomenil, da računalnik ne razume enega ukaza.\nKako rešujejo probleme v klubu?\nProbleme rešujejo tako, da preverijo ukaz za ukazom.\nZakaj se je avto v prvi vožnji ustavil?\nKer je ostal brez elektrike.\nKakšno medaljo je dobilo moštvo?\nTimon in Hajdi sta dobila srebrni medalji."
+    },
+    {
+      "title": "Kje porabimo največ elektrike",
+      "summary": "When their electricity bill in Maribor nearly doubles, Fredi and Elizabeta borrow a small device from the library, find that their twenty-year-old fridge uses the most, compare energy labels before a careful purchase and save a good deal by spring.",
+      "newWords": [
+        "porabiti",
+        "oskrba",
+        "centralen",
+        "nakup",
+        "standard",
+        "kakovost",
+        "prihraniti",
+        "skrajen"
+      ],
+      "text": "Fredi in Elizabeta živita v stari stavbi v Mariboru. Januarja sta dobila račun za elektriko, ki je bil skoraj za polovico višji kot leto prej. Fredi je poklical podjetje, ki skrbi za oskrbo z elektriko v njihovem delu mesta. Povedali so mu, da so cene višje in da je oskrba z elektriko zdaj dražja za vse. Vseeno sta se vprašala, ali morda sama ne porabita preveč.\n\n»Ne vem, za kaj bi lahko porabila toliko elektrike,« je rekla Elizabeta. »Saj ne živiva v gradu.«\n\nFredi je v knjižnici dobil majhno napravo, ki pokaže, koliko elektrike porabijo druge naprave v stanovanju. Cel teden sta preverjala vse po vrsti: stroj za perilo, električno ploščo v kuhinji, računalnik, televizijo in hladilnik.\n\nRezultat ju je presenetil. Največ elektrike ni porabila plošča v kuhinji in ne računalnik, ampak stari hladilnik, ki sta ga kupila pred 20 leti. Delal je skoraj ves čas, ker so se njegova vrata slabo zaprla. Tudi televizija je porabila nekaj elektrike vso noč, čeprav je nihče ni gledal.\n\nStanovanje ima centralno ogrevanje za vso stavbo, zato tega nista mogla spremeniti. Centralno ogrevanje je delalo tako kot vsako leto, zato sta se osredotočila na svoje naprave. »Nov hladilnik je velik nakup,« je rekel Fredi. »Preden ga kupiva, morava dobro primerjati.«\n\nV trgovini sta si ogledala več hladilnikov. Na vsakem je bila oznaka s črkami od A do G. Moški v trgovini jima je razložil, da ta skupni standard pove, koliko elektrike porabijo take naprave v enem letu. »Naprava z oznako A potrebuje veliko manj elektrike kot vaša stara,« je rekel. Svetoval jima je tudi, naj ne gledata samo standarda na oznaki, ampak tudi kakovost. »Poceni naprava slabe kakovosti se hitro pokvari. Naprava dobre kakovosti pa zdrži 15 let ali več.«\n\nFredi in Elizabeta sta izbrala hladilnik dobre kakovosti z najboljšo oznako. Nakup ni bil poceni, a sta ugotovila, da bosta denar dobila nazaj v nekaj letih. Televizijo sta odslej zvečer čisto izklopila. Tudi perilo zdaj pereta pri 40 namesto pri 60 stopinjah.\n\nMarca je prišel nov račun. Bil je veliko nižji. »Vidiš, prihranila sva skoraj 40 evrov na mesec,« je rekla Elizabeta. »In pri tem nisva živela nič slabše.«\n\nFredi je rezultate napisal na list papirja in ga dal na vrata v veži. Do skrajnih rešitev, kot je življenje brez televizije, ni bilo treba priti. Skrajni ukrepi niso bili potrebni, saj sta vedela, za kaj porabita največ. Tudi sosedje so želeli prihraniti, zato si zdaj malo napravo iz knjižnice podajajo od enega stanovanja do drugega.\n\nVprašanja:\nZakaj sta Fredi in Elizabeta začela paziti na elektriko?\nKer je bil januarski račun skoraj za polovico višji kot leto prej.\nKaj je porabilo največ elektrike?\nNajveč elektrike je porabil stari hladilnik.\nKaj pove standard na oznaki?\nStandard pove, koliko elektrike porabijo take naprave v enem letu.\nZakaj je pomembna tudi kakovost?\nKer se poceni naprava slabe kakovosti hitro pokvari.\nKoliko sta prihranila?\nPrihranila sta skoraj 40 evrov na mesec.\nAli sta morala izbrati skrajne rešitve?\nNe, do skrajnih rešitev ni bilo treba priti."
+    },
+    {
+      "title": "Kolumna: Fizika in pesmi",
+      "summary": "In a newspaper column, the physicist Franja writes that science and poetry are closer than people think: both describe the world carefully, a poet's line about the evening sky can help a pupil, and a beautiful online post about the stars can make science attractive to the young.",
+      "newWords": [
+        "pesnik",
+        "poezija",
+        "opisovati",
+        "izobrazba",
+        "filozofija",
+        "privlačen",
+        "prelep"
+      ],
+      "text": "Sem Franja in po izobrazbi sem fizičarka. Že 20 let delam na univerzi in raziskujem svetlobo. Ko ljudje izvedo, da v prostem času berem poezijo, so pogosto presenečeni. »Kako to gre skupaj?« me vprašajo. »Znanost je številke, poezija pa občutki.« Danes bi rada pojasnila, zakaj se mi zdi, da imata znanost in poezija več skupnega, kot mislimo.\n\nPesnik in znanstvenik počneta nekaj zelo podobnega: oba pozorno gledata svet in ga poskušata opisati. Znanstvenik opisuje, kako svetloba potuje skozi zrak in zakaj je nebo zvečer rdeče. Pesnik opisuje, kaj čutimo, ko gledamo tako nebo. Ne opisujeta istega, a začneta pri isti stvari: pri pozornem gledanju. Kdor ne zna gledati, ne more biti ne dober pesnik ne dober znanstvenik.\n\nMoja izobrazba je tehnična, prvo ljubezen do narave pa mi je dal pesnik. Ko sem bila v srednji šoli, smo pri pouku brali pesem o zvezdah. Pesnik je zapisal, da so zvezde stare luči, ki prihajajo k nam iz davnih časov. Učiteljica nam je razložila, da je to res: svetloba nekaterih zvezd potuje do nas več tisoč let. Tisti dan sem se odločila, da bom študirala fiziko.\n\nTudi filozofija ni daleč od obeh. Stari filozofi so bili hkrati znanstveniki in so pisali o naravi tako kot o življenju. Filozofija nas uči postavljati vprašanja, znanost išče odgovore, poezija pa nas spomni, zakaj so ta vprašanja pomembna.\n\nPred kratkim sem na spletu brala zapis mlade raziskovalke. Na sliki je bilo prelepo nočno nebo nad Pohorjem, pod sliko pa je bilo nekaj kratkih, preprostih stavkov o tem, iz česa so zvezde. Zapis je bil prelep. V enem dnevu ga je videlo več kot 50.000 ljudi, večinoma mladih. Mnogi so pisali, da jih zanima, kako lahko postanejo raziskovalci.\n\nTo me je razveselilo. Pogosto slišim, da znanost za mlade ni več privlačna, ker je pretežka in predolgočasna. Mislim, da ni tako. Znanost postane privlačna takrat, ko jo znamo opisati s prelepimi in jasnimi besedami. Zato bi želela, da bi pri pouku fizike včasih brali tudi poezijo in da bi pri pouku jezika vsaj enkrat govorili o zvezdah.\n\nNe trdim, da mora vsak fizik pisati pesmi. Vsak pa bi lahko včasih prebral kakšno pesem in se vprašal, kako bi pesnik opisal to, kar on vidi v svojem delu. Mogoče bi tako tudi znanost postala malo bolj privlačna in razumljiva za vse.\n\nVprašanja:\nKakšno izobrazbo ima Franja?\nPo izobrazbi je fizičarka.\nKaj počneta pesnik in znanstvenik?\nOba pozorno gledata svet in ga poskušata opisati.\nKdo je Franji dal prvo ljubezen do narave?\nPrvo ljubezen do narave ji je dal pesnik s pesmijo o zvezdah.\nKaj nas uči filozofija?\nFilozofija nas uči postavljati vprašanja.\nKaj je bilo v zapisu mlade raziskovalke?\nV zapisu je bila slika nočnega neba in nekaj preprostih stavkov o tem, iz česa so zvezde.\nKdaj postane znanost privlačna?\nZnanost postane privlačna takrat, ko jo znamo opisati s prelepimi in jasnimi besedami."
+    },
+    {
+      "title": "Vzorci iz vseh okrožij",
+      "summary": "Adela from Ptuj works at a research institute in Vienna; for months she looks for a bacterium that eats plastic in soil samples from every district of the Austrian capital, finds it nowhere until a sample from beside an old factory, isolates it, and the institute's director general Huber explains why mass use is still years away.",
+      "newWords": [
+        "prestolnica",
+        "okrožje",
+        "nikjer",
+        "osamiti",
+        "generalen",
+        "množičen",
+        "reven"
+      ],
+      "text": "Adela je doma s Ptuja, že tri leta pa živi na Dunaju. Dela kot raziskovalka na velikem inštitutu v prestolnici Avstrije. Na inštitutu raziskujejo, kako bi lahko majhna živa bitja pomagala očistiti okolje.\n\nAdela išče bakterijo, ki bi znala jesti plastiko. Tako bakterijo so pred nekaj leti našli na drugem koncu sveta, a je plastiko jedla zelo počasi. Adela upa, da bo v zemlji našla takšno, ki to dela hitreje.\n\nDunaj ima 23 okrožij. Adela se je odločila, da bo vzela vzorce zemlje iz vseh okrožij prestolnice: iz parkov, z vrtov, ob cestah in ob reki. Vsak vzorec je dobil številko okrožja in datum. Ob koncih tedna se je s kolesom vozila od enega okrožja do drugega. Tako je spoznala dele mesta, ki jih turisti nikoli ne vidijo.\n\nV laboratoriju je v vsak vzorec dala majhen kos plastike in čakala. Mesec za mesecem se ni zgodilo nič. Bakterije, ki bi jedla plastiko, ni bilo nikjer. Ne v parkih ne na vrtovih ne ob reki. »Mogoče je res ni nikjer,« je rekla kolegu. »Mogoče iščem nekaj, česar ni.«\n\nPotem je prišel vzorec iz 11. okrožja, z zemljišča ob stari tovarni, ki že 40 let ne dela. Po treh tednih je imel košček plastike v tem vzorcu majhne luknje. Adela ni mogla verjeti svojim očem. Naslednje tedne je delala pozno v noč. Bakterijo je morala osamiti, to pomeni, da jo je morala ločiti od vseh drugih bakterij v zemlji. Šele ko je bakterija osamljena, lahko res veš, kaj dela. Po dveh mesecih ji je uspelo. Bakterija je jedla plastiko veliko hitreje od tiste, ki so jo poznali prej.\n\nKmalu je za to izvedel generalni direktor inštituta, gospod Huber. Adela je morala priti k njemu. »Dobro delo,« je rekel. »Ampak preden bo vaša bakterija pomagala ljudem, bo minilo še veliko let. Množična uporaba je nekaj čisto drugega kot uspeh v laboratoriju.« Razložil je, da je treba najprej preveriti, ali je bakterija varna za ljudi, živali in rastline. Šele potem bi jo lahko uporabljali množično, tam, kjer je veliko smeti.\n\n»Najbolj bi pomagala revnim krajem po svetu,« je rekla Adela. »V revnih krajih je smeti veliko, denarja pa malo.«\n\nGeneralni direktor se je strinjal. Inštitut je Adeli dal denar za še tri leta raziskovanja. Isti večer je Adela poklicala mamo na Ptuj. »Našla sem jo,« je rekla. »Nikjer je ni bilo, potem pa sem jo našla ob stari tovarni.«\n\nVprašanja:\nKje dela Adela?\nDela na velikem inštitutu na Dunaju, v prestolnici Avstrije.\nKaj išče Adela?\nIšče bakterijo, ki bi znala jesti plastiko.\nIz koliko okrožij je vzela vzorce?\nVzorce je vzela iz vseh 23 okrožij Dunaja.\nKje je na koncu našla bakterijo?\nNašla jo je v vzorcu z zemljišča ob stari tovarni v 11. okrožju.\nKaj pomeni, da mora bakterijo osamiti?\nTo pomeni, da jo mora ločiti od vseh drugih bakterij v zemlji.\nZakaj bo do množične uporabe minilo še veliko let?\nKer je treba najprej preveriti, ali je bakterija varna za ljudi, živali in rastline."
+    },
+    {
+      "title": "Krema za ustnice",
+      "summary": "In a cold winter in Celje, Marica's lips are dry from the wind and her sister Anamarija, who is expecting a baby, wants a lip cream without a strong smell; Marica searches online, finds simple instructions with three ingredients, makes a fine cream in the kitchen and gives her sister the first jar.",
+      "newWords": [
+        "zima",
+        "mrzel",
+        "ustnica",
+        "sestavina",
+        "zadetek",
+        "fin"
+      ],
+      "text": "Ta zima je v Celju zelo mrzla. Že ves januar piha mrzel veter, zjutraj pa je pogosto 10 stopinj pod nič. Marica vsak dan hodi v službo in vsako zimo ima enak problem: suhe ustnice. Ko je zunaj mrzlo, so njene ustnice tako suhe, da jo bolijo, ko se smeje.\n\nTudi njena starejša sestra Anamarija ima suhe ustnice. Anamarija pričakuje otroka, ki se bo rodil aprila. Odkar ga pričakuje, ji je slabo od vsakega močnega vonja. »Vse kreme za ustnice v trgovini imajo preveč vonja,« je rekla Marici. »Zdaj ne maram niti dobrega vonja.«\n\nMarica je tisti večer sedela pri računalniku. Na spletu je napisala »domača krema za ustnice«. Dobila je več tisoč zadetkov. Prvi zadetki so bili samo oglasi za drage kreme. Šele na drugi strani zadetkov je našla preprosta navodila na spletni strani društva, ki skrbi za čebele.\n\nV navodilih so bile samo tri sestavine: vosek, olje in malo medu. Vse tri sestavine so naravne in nimajo močnega vonja. Na strani je pisalo, da je vosek dober za ustnice, ker jih varuje pred mrzlim vetrom.\n\nNaslednji dan je Marica kupila vosek pri ženski, ki na trgu prodaja med. Olje in med je imela doma. Vosek in olje je dala v kozarec, kozarec pa v posodo z vročo vodo. Ko se je vosek spremenil v tekočino, je dodala malo medu. Tekočino je dala v tri majhne kozarce in jih postavila na okno, kjer je bilo mrzlo.\n\nPo eni uri je bila krema gotova. Bila je fina, rahlo rumena in skoraj brez vonja. Marica si jo je dala na ustnice in ustnice takoj niso bile več tako suhe. »Res je fina,« je rekla sama sebi.\n\nV soboto je obiskala sestro. Prinesla ji je prvi kozarec. Anamarija ga je odprla in ga dala pod nos. »Skoraj nič ni čutiti,« je rekla vesela. »Točno to sem želela.« Takoj si je dala kremo na ustnice. »Ko se bo otrok rodil, mu bom povedala, da mu je teta že pred rojstvom delala kreme.«\n\nDo konca zime je Marica naredila še deset kozarcev. Dala jih je prijateljicam in ljudem v službi, ki so imeli isti problem. Zdaj ve, da za dobro kremo ne potrebuješ veliko sestavin, ampak samo prave.\n\nVprašanja:\nKakšna je zima v Celju?\nZima je zelo mrzla, ves januar piha mrzel veter.\nKakšen problem ima Marica vsako zimo?\nVsako zimo ima suhe ustnice.\nZakaj Anamarija ne mara krem iz trgovine?\nKer pričakuje otroka in ji je slabo od vsakega močnega vonja.\nKoliko zadetkov je dobila Marica na spletu?\nDobila je več tisoč zadetkov.\nKatere sestavine so bile v navodilih?\nV navodilih so bile tri sestavine: vosek, olje in malo medu.\nKakšna je bila krema?\nKrema je bila fina, rahlo rumena in skoraj brez vonja."
+    }
+  ]
+}
