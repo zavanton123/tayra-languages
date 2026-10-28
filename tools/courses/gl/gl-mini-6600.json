@@ -1,0 +1,206 @@
+{
+  "id": "gl-mini-6600",
+  "rankUpTo": 6600,
+  "level": "C1",
+  "title": "Do campo á mesa",
+  "description": "Ten texts about food from field to plate: a mountain cattle farmer, a grandmother's shorthand recipes, a tractor sent for scrap, a renovated town market, a chef who grills sardines, a beekeeper against hornets, a cattle breeder, an eclipse over an island garden, a school vegetable plot and a letter from the Paraná delta.",
+  "topic": "Farm to table",
+  "names": [
+    "Prisca",
+    "Cainzos",
+    "Queixa",
+    "Manzaneda",
+    "Bibei",
+    "Ourense",
+    "Restituto",
+    "Fontenla",
+    "Teófila",
+    "Vigo",
+    "Mamerto",
+    "Bouso",
+    "Vilalba",
+    "Eumelia",
+    "Lugo",
+    "Nelida",
+    "Gradín",
+    "Carballiño",
+    "Leonarda",
+    "Vigide",
+    "Sixta",
+    "Maside",
+    "Rogaciano",
+    "Xamardo",
+    "Coruña",
+    "Madrid",
+    "Londres",
+    "Etelmira",
+    "Dacal",
+    "Agolada",
+    "Lalín",
+    "Galicia",
+    "Balduíno",
+    "Mantiñán",
+    "Amancia",
+    "Lobelos",
+    "Ons",
+    "Onza",
+    "Pontevedra",
+    "Cíes",
+    "Bueu",
+    "Melitón",
+    "Rozados",
+    "Ribadeo",
+    "Donato",
+    "Paraná",
+    "Radegunda",
+    "Nimo",
+    "Nicomedes",
+    "Quilino",
+    "Cirilo"
+  ],
+  "lessons": [
+    {
+      "title": "Retrato: Prisca Cainzos, gandeira na serra",
+      "summary": "A portrait of Prisca Cainzos, who raises cows and horses in the mountains above the Bibei valley: the narrow gorge road up to her village, how altitude slows the seasons, her daily climb to check the herd, last year's drought and exhaustion, a foal born in May and the optimism that keeps her there.",
+      "newWords": [
+        "altitude",
+        "desfiladeiro",
+        "treito",
+        "diariamente",
+        "antano",
+        "esgotamento",
+        "poldro",
+        "optimismo"
+      ],
+      "text": "Prisca Cainzos ten corenta e oito anos e cría vacas e cabalos nunha pequena aldea da serra de Queixa, preto de Manzaneda, a máis de mil trescentos metros de altitude. Chegar alí non é doado. Desde o val do Bibei, a estrada sobe por un desfiladeiro estreito, coa rocha a un lado e o río moi abaixo, ao outro. «O peor treito son os últimos catro quilómetros», di Prisca. «Cando xea, ese treito pode quedar pechado durante días, e entón a aldea vive co que ten na despensa.»\n\nA altitude marca todo o que se fai na granxa. A herba medra tarde, a primavera chega cun mes de atraso e as patacas plántanse cando nos vales xa están en flor. «A esta altitude non serve de nada ter présa», explica. «A terra ten o seu ritmo, e ti non o podes forzar.» As vacas pasan o verán nos pastos altos e baixan en outubro; os cabalos viven soltos no monte case todo o ano.\n\nPrisca sobe ao monte diariamente para ver os animais. Fai o mesmo percorrido todas as mañás, chova ou faga sol, e conta as vacas unha por unha. Diariamente revisa tamén os peches e leva un saco de sal no coche, porque o gando o busca coma un premio.\n\nAntano, a granxa tivo un ano difícil. A primavera foi moi seca, a herba non chegou para todos os animais e Prisca tivo que mercar comida para o gando ata xullo. «Antano rematei o verán cun esgotamento que nunca coñecera», recoñece. «Durmía catro horas e xa me levantaba cansa.» Aquel esgotamento levouna ao centro de saúde, onde a médica lle recomendou descansar e pedir axuda. Desde entón, un veciño novo sobe dúas veces por semana para botarlle unha man, e Prisca aprendeu a non facelo todo ela soa.\n\nEste ano, en cambio, empezou ben. En maio naceu un poldro, fillo dunha egua vella que Prisca xa non esperaba ver parir. O poldro é castaño, coas patas brancas, e ao segundo día xa corría detrás da nai. «Cando vin o poldro de pé, entendín que o ano ía ser bo», di. Agora o poldro segue a egua por todo o monte.\n\nEse optimismo é o que a mantén na serra. «Aquí o optimismo non é unha opinión, é unha ferramenta», ri. «Sen optimismo ninguén planta patacas a esta altitude.» Cada outono baixa polo desfiladeiro coa furgoneta chea de queixos e carne para vender en Ourense, e cada vez que deixa atrás o último treito pensa que paga a pena.\n\nPreguntas:\nA que altitude vive Prisca?\nVive a máis de mil trescentos metros de altitude, na serra de Queixa.\nComo é a estrada que sobe á aldea?\nSobe por un desfiladeiro estreito, e o peor treito son os últimos catro quilómetros.\nQue fai Prisca diariamente?\nSobe ao monte, conta as vacas e revisa os peches.\nQue lle pasou antano?\nAntano a primavera foi seca e Prisca rematou o verán cun gran esgotamento.\nQue naceu en maio?\nNaceu un poldro castaño, coas patas brancas.\nPor que di Prisca que o optimismo é unha ferramenta?\nPorque sen optimismo ninguén plantaría patacas a esa altitude."
+    },
+    {
+      "title": "Columna: a gramática das receitas",
+      "summary": "In his column, Restituto Fontenla describes decoding his grandmother's recipe notebook, written in shorthand, and compares how recipes speak: the old impersonal indicative, the subjunctive of warnings, the chefs' pretentious jargon and the vague, spontaneous measures of home cooking.",
+      "newWords": [
+        "taquigrafía",
+        "guiso",
+        "indicativo",
+        "subxuntivo",
+        "xerga",
+        "pedante",
+        "vagamente",
+        "espontaneidade"
+      ],
+      "text": "Cando a miña avoa Teófila deixou de cociñar, regaloume un caderno de tapas verdes. Durante anos non o puiden ler: estaba escrito en taquigrafía. A avoa aprendera taquigrafía de moza, cando traballaba nunha oficina de Vigo, e seguiu usándoa toda a vida para as súas cousas. Para ela, a taquigrafía era rápida e, ademais, tiña unha vantaxe: ninguén lle copiaba as receitas.\n\nEste inverno, cun manual vello e moita paciencia, conseguín descifrar a primeira páxina. Era un guiso de garavanzos con bacallau, o guiso que ela facía os domingos de choiva. E mentres o lía, decateime dunha cousa que nunca me preguntara: en que gramática fala unha receita?\n\nAs receitas da avoa están escritas en indicativo e coa forma impersoal: «bótase o aceite, déixase quentar, engádese a cebola». O indicativo dá seguridade; parece que o guiso se fai só, sen discusión. As receitas modernas, en cambio, prefiren o imperativo: «corta», «remexe», «serve quente». Falan coma un adestrador.\n\nO subxuntivo aparece nos momentos delicados. «Que non ferva», escribe a avoa xunto ao bacallau. «Cando estea dourada, apágase o lume.» O subxuntivo é a voz da prudencia: non describe o que pasa, senón o que debería pasar, ou o que hai que evitar. Nunha receita, cada subxuntivo é un aviso.\n\nLogo está a xerga dos cociñeiros profesionais. Nas cartas de moitos restaurantes xa non se fai un guiso: «confítase», «redúcese», «faise unha espuma». Esa xerga ten a súa utilidade na cociña, onde todos teñen que entenderse rápido, pero fóra dela pode resultar pedante. Un menú pedante non fai mellor a comida; só fai que o cliente se sinta pequeno.\n\nA avoa Teófila nunca foi pedante. As súas medidas eran vagamente precisas: «un chisco de sal», «auga ata cubrir», «o tempo dunha conversa». Durante anos pensei que eses cálculos vagamente definidos eran un defecto. Agora creo que eran outra cousa: a espontaneidade de quen cociñou o mesmo guiso cen veces e xa non necesita medir.\n\nEsa espontaneidade non se aprende nun libro. Por iso, cando por fin fixen o guiso seguindo a súa taquigrafía, non quedou igual. Quedou bo, pero non igual. Supoño que me falta o máis importante, que non está nin en indicativo nin en subxuntivo: os anos diante da cociña.\n\nPreguntas:\nPor que non podía o autor ler o caderno da avoa?\nPorque estaba escrito en taquigrafía.\nQue receita había na primeira páxina?\nHabía un guiso de garavanzos con bacallau.\nEn que modo están escritas as receitas da avoa?\nEstán en indicativo e coa forma impersoal.\nPara que serve o subxuntivo nunha receita?\nServe para avisar do que hai que evitar, como en «que non ferva».\nPor que pode resultar pedante a xerga dos cociñeiros?\nPorque fóra da cociña fai que o cliente se sinta pequeno e non mellora a comida.\nComo eran as medidas da avoa?\nEran vagamente precisas, e mostraban a espontaneidade de quen cociñou moitas veces o mesmo."
+    },
+    {
+      "title": "O tractor de Mamerto",
+      "summary": "Farmer Mamerto Bouso replaces his thirty-year-old tractor: the frustrating first days with a new one that does things automatically, the diagram in the manual his granddaughter helps him read, and the old tractor and van going to Nelida Gradín's scrapyard, where she cuts them with a diamond saw and sets apart the aluminium and the palladium of the catalytic converter.",
+      "newWords": [
+        "frustrante",
+        "automaticamente",
+        "diagrama",
+        "incapacidade",
+        "chatarra",
+        "diamante",
+        "aluminio",
+        "paladio"
+      ],
+      "text": "Mamerto Bouso traballou trinta anos co mesmo tractor nas súas terras de Vilalba. Era un tractor vermello, sinxelo e ruidoso, que el sabía arranxar cunha chave e un pouco de paciencia. Pero esta primavera o motor dixo basta, e Mamerto tivo que mercar un novo.\n\nO tractor novo ten cabina con calefacción, unha pantalla grande e moitas funcións que se activan automaticamente. As luces acéndense automaticamente cando escurece, e o arado sobe e baixa só ao chegar ao final do campo. Os primeiros días non foron doados. «É frustrante que unha máquina saiba máis ca ti do teu propio campo», di Mamerto. O máis frustrante era a pantalla: cada vez que tocaba un botón, aparecía unha mensaxe nova.\n\nA súa neta Eumelia, que estuda en Lugo, veu un fin de semana para axudalo. Sentáronse na cociña co manual, que trae un diagrama de cada función. O diagrama da pantalla parecía un mapa de metro, pero Eumelia explicoulle as frechas unha por unha. «Mira, avó, no diagrama ves por onde vai cada orde», díxolle. Mamerto confesou que lle daba vergonza a súa incapacidade para entender aquilo. «Non é incapacidade», respondeu ela. «É que ninguén cho explicou.» O domingo, Mamerto xa sabía usar a pantalla, e o mércores arou o campo grande sen ningunha mensaxe.\n\nQuedaba o problema do tractor vello, e tamén dunha furgoneta vella da granxa que levaba dous anos sen arrancar. Mamerto chamou a Nelida Gradín, que leva unha empresa de chatarra en Vilalba. Nelida veu cun camión e levou os dous vehículos. «Hai chatarra e chatarra», explicoulle. «O que parece lixo ten moitos materiais distintos, e cada un vale o seu.»\n\nNo almacén de Nelida, os vehículos córtanse cunha serra de disco de diamante, que pasa polo metal coma un coitelo pola manteiga. Despois sepárase cada material: o ferro, o cobre dos cables, o aluminio das pezas do motor. O aluminio págase mellor có ferro, porque se pode fundir e usar de novo moitas veces.\n\nPero a peza que máis lle interesaba a Nelida era o catalizador da furgoneta. Dentro del hai paladio, un metal escaso e máis caro có ouro en certos anos. «Con pouco paladio xa pagas o transporte», ri Nelida. Ao final, Mamerto recibiu un cheque modesto pola chatarra, e gastouno nunha cousa que levaba tempo querendo: un asento cómodo para a cabina do tractor novo.\n\nPreguntas:\nPor que tivo Mamerto que mercar un tractor novo?\nPorque o motor do tractor vello deixou de funcionar.\nQue fai automaticamente o tractor novo?\nAcende as luces cando escurece e sobe o arado ao final do campo.\nComo o axudou a súa neta Eumelia?\nExplicoulle o diagrama do manual, función por función.\nQue era o máis frustrante para Mamerto?\nO máis frustrante era a pantalla, que mostraba unha mensaxe nova con cada botón.\nQue lle dixo Eumelia sobre a súa incapacidade?\nDíxolle que non era incapacidade, senón que ninguén llo explicara.\nCon que corta Nelida os vehículos?\nCórtaos cunha serra de disco de diamante.\nPor que lle interesaba o catalizador da furgoneta?\nPorque dentro hai paladio, un metal escaso e moi caro."
+    },
+    {
+      "title": "Reportaxe: o mercado novo do Carballiño",
+      "summary": "A report on the renovated market in O Carballiño: three years of planning, consensus among the stallholders, taxpayers' money, labels showing each product's origin, a supply network of nearby farms, and new delivery hours that keep vans from the motorway out of the town's traffic.",
+      "newWords": [
+        "planificación",
+        "consenso",
+        "contribuínte",
+        "procedencia",
+        "abastecemento",
+        "autopista",
+        "tránsito"
+      ],
+      "text": "O mercado do Carballiño reabriu en setembro despois de dezaoito meses de obras. O edificio, de 1960, tiña o tellado roto e os postos baleiros. Hoxe ten luz natural, cámaras frigoríficas novas e corenta postos ocupados. Detrás do cambio hai tres anos de planificación e moitas reunións.\n\nLeonarda Vigide, a técnica municipal que coordinou o proxecto, insiste en que a planificación foi a parte máis lenta e a máis importante. «Antes de poñer un só ladrillo, pasamos un ano falando cos vendedores», conta. «Unha boa planificación aforra moitos problemas despois.» O primeiro desacordo foi o tamaño dos postos: os vendedores de peixe querían máis espazo, os de froita querían estar preto da entrada. Non foi doado chegar a un consenso, pero ao final todos asinaron o mesmo plano. «O consenso non significa que todos estean contentos», di Leonarda. «Significa que todos poden vivir coa solución.»\n\nA obra custou case dous millóns de euros, a maior parte con diñeiro público. Por iso o concello quixo explicarlle ao contribuínte en que se gastaba cada euro: na entrada hai un panel coas contas da obra. «O contribuínte paga o mercado, e merece sabelo», resume Leonarda.\n\nA novidade que máis gusta aos clientes son as etiquetas de procedencia. Cada produto leva escrita a súa procedencia: o nome da aldea, da granxa ou do porto de onde vén. Unha veciña, Sixta, móstrame unha caixa de mazás: «Mira, a procedencia está aquí: Maside, a dez quilómetros. Así sei a quen llas merco.»\n\nEse é o outro obxectivo do proxecto: mellorar o abastecemento con produtores próximos. O concello fixo unha lista de corenta granxas da comarca que poden vender directamente no mercado. O abastecemento de froita e verdura depende agora menos dos grandes almacéns, e os prezos, segundo os vendedores, non subiron.\n\nQuedaba o problema do tránsito. Antes, as furgonetas de reparto saían da autopista e entraban no centro ás nove da mañá, xusto cando os nenos ían á escola. O tránsito na rúa do mercado era un caos. Agora os repartos fanse entre as seis e as oito, e as furgonetas que chegan pola autopista esperan nun aparcamento novo, a cincocentos metros. «O tránsito mellorou moito», di un pai que leva os fillos á escola a pé. «E as mazás seguen chegando frescas.»\n\nPreguntas:\nCanto tempo duraron as obras do mercado?\nDuraron dezaoito meses.\nPor que di Leonarda que a planificación foi tan importante?\nPorque unha boa planificación aforra moitos problemas despois.\nQue significa o consenso para Leonarda?\nSignifica que todos poden vivir coa solución, aínda que non estean contentos.\nPor que hai un panel coas contas na entrada?\nPorque o contribuínte paga o mercado e merece saber en que se gasta.\nQue indican as etiquetas de procedencia?\nIndican a aldea, a granxa ou o porto de onde vén cada produto.\nComo mellorou o tránsito no centro?\nOs repartos fanse entre as seis e as oito e as furgonetas da autopista esperan nun aparcamento."
+    },
+    {
+      "title": "Entrevista: Rogaciano Xamardo, cociñeiro",
+      "summary": "An interview with chef Rogaciano Xamardo, who served caviar in a Madrid hotel and came back to A Coruña to grill sardines on skewers: the condescension towards simple food, the daring a short menu takes, what makes a dish convincing, creativity with humble produce and a friendly rivalry with the restaurant across the street.",
+      "newWords": [
+        "restauración",
+        "caviar",
+        "condescendencia",
+        "audacia",
+        "espeto",
+        "convincente",
+        "creatividade",
+        "rivalidade"
+      ],
+      "text": "Rogaciano Xamardo leva vinte e cinco anos no mundo da restauración. Traballou en hoteis de Madrid e de Londres e hai seis anos volveu á Coruña para abrir un restaurante de só dez mesas, a poucos metros do porto. Falamos con el unha mañá de martes, antes de que chegasen os primeiros clientes.\n\nComo empezou no sector da restauración?\nPor casualidade. Con dezaoito anos necesitaba diñeiro e entrei a lavar pratos nun hotel. Á semana xa estaba pelando patacas, e ao ano xa cociñaba. A restauración é un oficio duro, pero se che gusta, non a deixas.\n\nEn Madrid servía caviar.\nSi, nun hotel de luxo. Serviamos caviar case todas as noites. O caviar é un produto extraordinario, non o nego, pero alí aprendín unha cousa: moitos clientes non pedían caviar porque lles gustase, senón porque era caro.\n\nE aquí cociña sardiñas.\nSardiñas, xurelos, polbo, patacas. As sardiñas fágoas nun espeto, ao lume de leña, como as facían os mariñeiros. Cada espeto leva cinco sardiñas, e o cliente ve como se asan desde a súa mesa.\n\nHai quen mira ese tipo de cociña con certa condescendencia.\nMoitísima. Ao principio, algúns críticos falaban do restaurante con condescendencia: «que simpático, sardiñas no espeto». Coma se un produto humilde non puidese ser alta cociña. Esa condescendencia doíame, pero tamén me deu forzas.\n\nAbrir un restaurante cunha carta tan curta foi unha audacia.\nHai que ter certa audacia, si. A carta ten oito pratos e cambia cada semana segundo o que trae o mercado. Moitos dicíanme que os clientes querían escoller entre trinta pratos. Eu creo que queren comer ben, e para iso a audacia consiste en facer poucas cousas e facelas moi ben.\n\nQue fai que un prato sexa convincente?\nQue non necesite explicación. Un prato convincente enténdese no primeiro bocado: sabes o que estás comendo e sabes por que está bo. Se tes que explicar moito, o prato non é convincente.\n\nE a creatividade?\nA creatividade non é poñer espuma en todo. Para min, a creatividade é saber que facer cunha caixa de xurelos un día de temporal, cando non chegou outra cousa.\n\nTen competencia na mesma rúa.\nFronte a nós hai outro restaurante, e entre os dous hai unha rivalidade sa. Cando nos falta algo, pedímolo emprestado. Esa rivalidade faime mellor: se el mellora, eu teño que mellorar tamén.\n\nPreguntas:\nCanto tempo leva Rogaciano no mundo da restauración?\nLeva vinte e cinco anos.\nQue aprendeu servindo caviar en Madrid?\nAprendeu que moitos clientes pedían caviar porque era caro, non porque lles gustase.\nComo cociña as sardiñas?\nCociña as sardiñas nun espeto, ao lume de leña, cinco en cada espeto.\nComo falaban algúns críticos do restaurante ao principio?\nFalaban con condescendencia, coma se un produto humilde non puidese ser alta cociña.\nCando é convincente un prato, segundo Rogaciano?\nCando se entende no primeiro bocado e non necesita explicación.\nComo é a rivalidade co restaurante de enfronte?\nÉ unha rivalidade sa: emprestan cousas e fan que os dous melloren."
+    },
+    {
+      "title": "As colmeas de Etelmira",
+      "summary": "Beekeeper Etelmira Dacal, near Agolada, protects her hives from Asian hornets: her anger at seeing them hover at the entrances, the traps she sets, the warm breath of a hive in summer, a headache from working in the heat, and a spoon of honey that soothes like a balm.",
+      "newWords": [
+        "avéspora",
+        "cólera",
+        "raramente",
+        "bafo",
+        "xaqueca",
+        "felizmente",
+        "bálsamo"
+      ],
+      "text": "Etelmira Dacal ten trinta colmeas nun monte de castiñeiros preto de Agolada. Herdounas dun tío seu hai quince anos e desde entón vive pendente das abellas. O mel véndeo nunha tenda de Lalín e nalgúns mercados do verán.\n\nOs últimos anos trouxeron un problema novo: a avéspora asiática. É unha avéspora grande e escura, que chegou a Galicia hai pouco máis dunha década e que se alimenta de insectos. As abellas son a súa comida preferida. A avéspora colócase diante da entrada da colmea, voando quieta no aire, e espera.\n\nA primeira vez que Etelmira viu cinco avésporas diante dunha colmea sentiu unha cólera que a sorprendeu a ela mesma. «Eu son unha persoa tranquila, pero aquel día berrei no medio do monte», conta. A cólera, porén, non serve de nada contra un insecto, así que se informou. Na asociación de apicultores ensináronlle a poñer trampas con auga, azucre e un pouco de zume de froita, que atraen as avésporas e non as abellas.\n\nTamén aprendeu que a avéspora raramente ataca as persoas. Raramente pica se ninguén se achega ao seu niño, e os niños adoitan estar no alto das árbores. O perigo real é para as colmeas: cando as avésporas esperan na entrada, as abellas teñen medo de saír, deixan de recoller pole e a colmea debilítase.\n\nEste agosto foi moi quente. Ao abrir unha colmea ao mediodía, Etelmira notou na cara o bafo morno que sae de dentro, cheirando a cera e a mel. «Ese bafo diche se a colmea está sa», explica. «Unha colmea forte é coma un forno pequeno.» Pero traballar co traxe e a máscara a trinta e cinco graos é esgotador, e aquela tarde rematou cunha xaqueca forte. Desde entón só abre as colmeas pola mañá cedo, cando o aire aínda está fresco, e a xaqueca non volveu.\n\nFelizmente, as trampas funcionaron. En setembro as avésporas diante das colmeas xa eran poucas, e as abellas volveron saír ao monte. Felizmente, ademais, a colleita foi boa: dous mil quilos de mel de castiñeiro, escuro e forte.\n\nEtelmira garda sempre un bote pequeno na cociña. Cando ten a gorxa irritada, toma unha culler de mel con limón. «É o mellor bálsamo que coñezo», di. A súa avoa xa usaba o mel como bálsamo para a tose dos nenos, e Etelmira segue a tradición cos seus sobriños.\n\nPreguntas:\nCantas colmeas ten Etelmira?\nTen trinta colmeas preto de Agolada.\nQue fai a avéspora asiática diante das colmeas?\nColócase diante da entrada, voando quieta, e espera as abellas.\nQue sentiu Etelmira a primeira vez que a viu?\nSentiu unha cólera que a sorprendeu a ela mesma.\nAtaca a avéspora as persoas?\nRaramente, se ninguén se achega ao seu niño.\nPor que lle deu xaqueca unha tarde de agosto?\nPorque traballou co traxe e a máscara a trinta e cinco graos.\nPara que usa Etelmira o mel como bálsamo?\nÚsao para a gorxa irritada, cunha culler de mel con limón."
+    },
+    {
+      "title": "Entrevista: Balduíno Mantiñán, criador de vacún",
+      "summary": "An interview with Balduíno Mantiñán, who breeds Galician blond cattle near Vilalba: why he avoids crosses with other breeds, how a register of kinship prevents inbreeding, how many cows his fields can hold, the odd geometry of small plots, rotating the herd through them one after another and judging animals by data rather than by eye.",
+      "newWords": [
+        "cruzamento",
+        "parentesco",
+        "densidade",
+        "xeometría",
+        "sucesivamente",
+        "especificamente",
+        "obxectividade"
+      ],
+      "text": "Balduíno Mantiñán cría vacas de raza rubia galega nunha granxa familiar preto de Vilalba. Ten oitenta animais e vende a carne a tres carnicerías da comarca. Falamos con el nun día de néboa, xunto ao peche onde pastan as vacas novas.\n\nMoitos gandeiros fan cruzamentos con outras razas. Vostede non.\nNon. Un cruzamento con razas de fóra pode dar xatos máis grandes nun ano, pero perdes o que fai especial a rubia: a súa resistencia á chuvia, ao monte, a esta terra. O meu avó xa evitaba o cruzamento, e eu sigo o seu criterio. Non é nostalxia; é que a rubia funciona aquí.\n\nComo evita os problemas de consanguinidade?\nCo rexistro da raza. Cada animal ten unha ficha co seu parentesco: pai, nai, avós. Antes de escoller un touro para as vacas, miro o parentesco entre eles no ordenador. Se o parentesco é moi próximo, busco outro touro. Así os xatos nacen sans.\n\nCantas vacas pode ter unha granxa coma esta?\nDepende da densidade. A densidade é o número de animais por cada hectárea de prado. Se a densidade é alta, a herba non chega e o chan estrágase; se é baixa, desaproveitas a terra. Eu teño menos de dúas vacas por hectárea, unha densidade baixa para o que se ve hoxe.\n\nAs súas terras están moi repartidas.\nEse é o gran problema do campo galego. Teño corenta parcelas, e algunhas teñen unha xeometría imposible: triángulos, tiras longas, campos con forma de bota. Esa xeometría complica todo: os peches, a auga, as viaxes co tractor. Hai uns anos fixemos unha concentración parcelaria e a xeometría mellorou un pouco, pero aínda queda moito por facer.\n\nComo organiza o pasto?\nPor rotación. As vacas pasan unha semana nun prado e despois van sucesivamente aos seguintes. Así cada prado descansa un mes antes de volver recibilas. Fago o mesmo co fertilizante: aplícoo sucesivamente, campo por campo, segundo o que me di a análise do chan.\n\nQue lle falta, especificamente, a unha granxa coma esta?\nEspecificamente, dúas cousas: parcelas máis grandes e menos papeis. Pasar unha tarde enteira cos formularios é unha tarde sen ver os animais.\n\nAntes os gandeiros xulgaban unha vaca só polos ollos.\nE aínda o facemos, pero agora temos datos: o peso, o leite, os partos. Os datos dan obxectividade. Eu podo ter unha vaca preferida, pero a obxectividade dos números non ten preferidas.\n\nPreguntas:\nQue raza de vacas cría Balduíno?\nCría vacas de raza rubia galega.\nPor que evita os cruzamentos con outras razas?\nPorque un cruzamento faría perder a resistencia da rubia a esta terra.\nPara que mira o parentesco dos animais?\nPara escoller un touro que non teña un parentesco próximo coas vacas.\nQue é a densidade nunha granxa?\nÉ o número de animais por cada hectárea de prado.\nQue xeometría teñen algunhas das súas parcelas?\nTeñen formas de triángulo, de tira longa ou de bota.\nQue lle dan os datos ao gandeiro?\nDanlle obxectividade, porque os números non teñen preferidas."
+    },
+    {
+      "title": "O eclipse visto desde Ons",
+      "summary": "Amancia Lobelos, who grows vegetables on the island of Ons for its two restaurants, watches the August eclipse over the sea: the local radio's forecast of a south-west wind, the islands of the archipelago in the evening light, the solemn silence of the visitors and a slow meal afterwards.",
+      "newWords": [
+        "arquipélago",
+        "emisor",
+        "suroeste",
+        "eclipse",
+        "solemne",
+        "solemnemente"
+      ],
+      "text": "Amancia Lobelos é unha das poucas persoas que viven todo o ano na illa de Ons. Ten unha horta detrás da casa onde cultiva patacas, cebolas, leitugas e tomates, e vende as verduras aos dous restaurantes da illa. En verán, cando chegan os barcos cheos de visitantes, a horta non dá para máis.\n\nOns forma parte dun pequeno arquipélago xunto co illote de Onza e outras rochas, na boca da ría de Pontevedra. Desde a horta de Amancia vense, cara ao sur, as Cíes, outro arquipélago do mesmo parque nacional. «Vivo nun arquipélago e véxoo enteiro desde a horta», di Amancia. «Non lle podo pedir máis á vida.»\n\nNa illa, a radio é unha compañía e unha ferramenta. Amancia escoita todas as mañás unha emisora local de Bueu, que dá o tempo para os mariñeiros. A emisora ten o seu emisor nun monte da costa, e en Ons recíbese ben. O 12 de agosto, a emisora anunciou que sería un bo día para ver o eclipse: ceo limpo e vento suave do suroeste.\n\nO vento do suroeste adoita traer nubes e choiva, pero aquel día só trouxo aire fresco. O eclipse ía ser á tardiña, co sol xa baixo sobre o mar, cara ao oeste. Os restaurantes prepararon unha cea temperá, e Amancia apañou leitugas e tomates para cen persoas.\n\nÁs oito e media, os visitantes xuntáronse no alto da illa, mirando ao mar. Amancia subiu tamén, coas mans aínda cheirando a tomate. Pouco a pouco, a lúa foi tapando o sol. A luz volveuse estraña, nin de día nin de noite, e as gaivotas calaron. Durante o eclipse ninguén falaba. Era un silencio solemne, coma o dunha sala de concertos antes de empezar. Unha nena preguntou baixiño se o sol ía volver, e a súa nai respondeulle solemnemente que si, que sempre volve.\n\nCando o eclipse rematou, alguén aplaudiu, e despois aplaudiron todos. O ambiente solemne desapareceu nun segundo, e a xente baixou contenta cara aos restaurantes. O vento do suroeste seguía soprando suave.\n\nAquela noite, as ensaladas de Amancia foron o prato máis pedido. Un dos cociñeiros díxolle solemnemente, coma quen anuncia unha gran noticia, que as leitugas de Ons tiñan agora sabor a eclipse. Amancia riu e respondeu que tiñan sabor a terra, a sal e ao vento do suroeste, como sempre.\n\nPreguntas:\nQue cultiva Amancia na súa horta?\nCultiva patacas, cebolas, leitugas e tomates.\nDe que arquipélago forma parte Ons?\nForma parte dun pequeno arquipélago co illote de Onza e outras rochas.\nQue emisora escoita Amancia?\nEscoita unha emisora local de Bueu, que ten o emisor nun monte da costa.\nQue tempo anunciou a emisora o 12 de agosto?\nAnunciou ceo limpo e vento suave do suroeste.\nComo foi o silencio durante o eclipse?\nFoi un silencio solemne, coma o dunha sala de concertos.\nQue lle respondeu a nai á nena?\nRespondeulle solemnemente que o sol sempre volve."
+    },
+    {
+      "title": "A horta do colexio",
+      "summary": "Teacher Melitón Rozados turns an old basketball court in a Ribadeo school into a vegetable garden: the skating club that shares the playground, plaster labels the pupils make for the beds, the lunch menu written in chalk, what children learn by growing food, and one pupil's unhappiness at school that the garden eases.",
+      "newWords": [
+        "baloncesto",
+        "patinaxe",
+        "xeso",
+        "xiz",
+        "aprendizaxe",
+        "tocante",
+        "modestamente",
+        "infelicidade"
+      ],
+      "text": "No patio do colexio de Ribadeo onde traballa Melitón Rozados había unha vella pista de baloncesto. As canastras estaban oxidadas e o chan, cheo de fendas. Desde que o colexio ten un pavillón novo, ninguén xogaba alí ao baloncesto. Melitón, que ensina Ciencias Naturais, propuxo converter a pista nunha horta.\n\nA dirección aceptou cunha condición: unha parte do patio tiña que quedar libre para o club de patinaxe, que adestra alí os martes e os xoves. A patinaxe necesita un chan liso, e o chan liso estaba xusto ao lado da pista. Así que a horta ocupou a pista de baloncesto, e a patinaxe quedou co resto. «Ao principio os patinadores miraban as leitugas con desconfianza», ri Melitón. «Agora levan tomates para a casa.»\n\nOs alumnos fixeron eles mesmos as etiquetas dos cultivos. Mesturaron xeso con auga, encheron moldes pequenos e, antes de que o xeso endurecese, escribiron cun pau o nome de cada planta: «cenoria», «feixón», «allo». As etiquetas de xeso aguantaron toda a primavera, aínda que algunhas acabaron cubertas de terra.\n\nNo comedor hai un encerado onde a cociñeira escribe o menú con xiz. Desde hai un ano, cando no menú hai algo da horta, os nenos debuxan ao lado, tamén con xiz, unha pequena cenoria ou un tomate. «Os días do debuxo, os pratos volven baleiros», di a cociñeira.\n\nMelitón cre que a horta mellorou a aprendizaxe en moitas materias. Os nenos miden os canteiros en Matemáticas, escriben un diario da horta en Lingua e estudan os insectos en Ciencias. «A aprendizaxe vai mellor cando as mans tamén traballan», di.\n\nTocante aos resultados, Melitón fala modestamente. «Non quero esaxerar», di. «É unha horta pequena, e non cambia o mundo.» Pero, tocante a un dos seus alumnos, recoñece que si cambiou algo. Donato, de nove anos, chegara ao colexio en outubro, despois dunha mudanza, e pasara meses sen falar con ninguén. A súa infelicidade víase no patio, onde sempre estaba só. Na horta, Donato descubriu que lle gustaba regar e coidar as plantas, e pouco a pouco empezou a traballar cos compañeiros. A infelicidade dos primeiros meses foi desaparecendo.\n\n«Eu só puxen unhas sementes», di Melitón modestamente. «O resto fixérono eles.»\n\nPreguntas:\nQue había no patio antes da horta?\nHabía unha vella pista de baloncesto.\nPor que tivo que quedar libre unha parte do patio?\nPorque o club de patinaxe adestra alí os martes e os xoves.\nComo fixeron os alumnos as etiquetas?\nFixéronas con xeso e auga, en moldes pequenos.\nQue debuxan os nenos con xiz?\nDebuxan unha cenoria ou un tomate ao lado do menú.\nComo fala Melitón dos resultados?\nFala modestamente e di que non quere esaxerar.\nQue lle pasou a Donato?\nA súa infelicidade foi desaparecendo cando empezou a traballar na horta."
+    },
+    {
+      "title": "Carta desde o delta do Paraná",
+      "summary": "Radegunda Nimo, granddaughter of Galician emigrants, writes to her cousin Nicomedes from her island in the Paraná delta near Buenos Aires: the river boats, the house she moved into at the start of the millennium, the blackberries she grows for jam, a handy neighbour who builds jetties, her grandfather, a humanist teacher, and the jam she gives to a soup kitchen for people with nothing.",
+      "newWords": [
+        "delta",
+        "milenio",
+        "amora",
+        "arteiro",
+        "humanista",
+        "indixente"
+      ],
+      "text": "Querido Nicomedes:\n\nRecibín a túa carta e as fotos da casa da aldea. Que verde está todo! Aquí tamén é verde, pero doutra maneira: no delta todo é auga.\n\nXa sabes que vivo nunha illa do delta do Paraná, a unha hora en barco de Buenos Aires. O delta é un labirinto de ríos e canles, con centos de illas cubertas de árbores. Aquí non hai estradas: o autobús é unha lancha que pasa tres veces ao día, e as casas están construídas sobre pilares, porque o río sobe cada certo tempo.\n\nMudeime á illa no primeiro ano do milenio, en 2001. Daquela, moita xente pensaba que o novo milenio ía traer présa e máquinas, e eu escollín xusto o contrario: un lugar onde o tempo se mide polas mareas do río. Levo xa un cuarto de século aquí, e non me arrepinto.\n\nNa miña parcela cultivo amoras. As amoras dánse moi ben no delta, coa humidade e o calor. En decembro, que aquí é verán, apaño as amoras pola mañá cedo e pola tarde fago doce. O ano pasado fixen trescentos botes de doce de amora, e véndoos nun mercado da cidade os sábados.\n\nAs caixas de amoras non chegarían ao mercado sen o meu veciño Quilino. Quilino é un home moi arteiro: con catro táboas e unhas cordas fai un embarcadoiro, arranxa motores e constrúe caixas para a froita. As mans arteiras de Quilino valen máis ca calquera ferramenta. Cando o río subiu en marzo, foi el quen levantou o meu embarcadoiro medio metro.\n\nPenso moito no avó Cirilo, que chegou de Galicia en 1950 cunha maleta chea de libros. Era mestre e humanista: lía os clásicos, falaba de ciencia e de poesía e cría que todo o mundo merecía estudar. Foi aquel avó humanista quen me ensinou que a comida tamén é cultura.\n\nPor iso, unha parte do doce non a vendo. Cada mes levo vinte botes a un comedor da cidade que dá de comer a persoas indixentes. Alí van familias enteiras sen traballo e homes indixentes que dormen na rúa. O avó dicía que ninguén é indixente por gusto, e eu acórdome desa frase cada vez que entrego as caixas.\n\nEscríbeme cando poidas e cóntame se florecen as cerdeiras da aldea.\n\nUnha aperta forte,\nRadegunda\n\nPreguntas:\nOnde vive Radegunda?\nVive nunha illa do delta do Paraná, a unha hora en barco de Buenos Aires.\nCando se mudou á illa?\nMudouse no primeiro ano do milenio, en 2001.\nQue cultiva na súa parcela?\nCultiva amoras e fai doce con elas.\nPor que di que Quilino é arteiro?\nPorque con poucas cousas fai embarcadoiros, arranxa motores e constrúe caixas.\nComo era o avó Cirilo?\nEra mestre e humanista, e lía os clásicos.\nA quen dá Radegunda parte do doce?\nDá vinte botes cada mes a un comedor para persoas indixentes."
+    }
+  ]
+}
