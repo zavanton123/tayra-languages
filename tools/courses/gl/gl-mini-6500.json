@@ -1,0 +1,204 @@
+{
+  "id": "gl-mini-6500",
+  "rankUpTo": 6500,
+  "level": "C1",
+  "title": "Enxeñaría",
+  "description": "Ten stories about engineering in everyday Galicia: technical writing, a homemade alarm clock, a steam locomotive, a jammed roundabout, a slate-roofed hayloft, a seaweed farm, a carousel, a new footbridge, a cleaning robot and a village water mill.",
+  "topic": "Engineering",
+  "names": [
+    "Araceli",
+    "Faílde",
+    "Vigo",
+    "Omar",
+    "Redondela",
+    "Luca",
+    "Sambade",
+    "Ferrol",
+    "Gemma",
+    "Monforte",
+    "Heraclio",
+    "Tourís",
+    "Nieves",
+    "Albela",
+    "Lugo",
+    "Jorge",
+    "Valiño",
+    "Pili",
+    "Moar",
+    "Dolores",
+    "Xil",
+    "Toni",
+    "Courel",
+    "Loli",
+    "Santalla",
+    "Cambados",
+    "Arousa",
+    "Isaac",
+    "Álex",
+    "Cabado",
+    "Laila",
+    "Pontevedra",
+    "Lalín",
+    "Moisés",
+    "Lorenzana",
+    "Ourense",
+    "Allariz",
+    "Luisa",
+    "Enríquez",
+    "Galicia",
+    "Dani",
+    "Orois",
+    "Coruña",
+    "Tuxo",
+    "Javier",
+    "Dans",
+    "Wladimiro",
+    "Agís",
+    "Xestal",
+    "Melide",
+    "Bilbao"
+  ],
+  "lessons": [
+    {
+      "title": "Unha palabra para cada peza",
+      "summary": "Professor Araceli Faílde crosses out the synonyms in a first-year engineering report and teaches her students to stick to one name for each part.",
+      "newWords": [
+        "sinónimo",
+        "tachar",
+        "escrúpulo",
+        "ater",
+        "soer",
+        "vosoutros"
+      ],
+      "text": "Araceli Faílde dá clases de expresión técnica na Escola de Enxeñaría Industrial de Vigo. Cada outono recibe un grupo novo de estudantes de primeiro curso, e cada outono repite a mesma lección. Os estudantes soen chegar convencidos de que un bo texto nunca repite unha palabra. Así llelo ensinaron no instituto, e así o fan.\n\nO primeiro informe do curso describía un ventilador industrial. Omar, un rapaz de Redondela, entregouno cun día de adianto. O texto era claro e estaba ben organizado, pero Araceli leuno co bolígrafo vermello na man e tivo que tachar seis palabras. Na primeira páxina Omar escribira «a peza», na segunda «o compoñente» e na terceira «o elemento», e as tres palabras nomeaban a mesma cousa.\n\nNa clase seguinte, Araceli escribiu as tres palabras no encerado. «Vosoutros pensades que son sinónimos», dixo. «Na lingua de todos os días, case o son. Pero nun informe técnico, quen le \"o compoñente\" despois de \"a peza\" pensa que son dúas cousas distintas. E se un técnico monta o ventilador seguindo o voso texto, vai buscar unha peza que non existe.»\n\nOmar levantou a man. «Entón non podemos usar ningún sinónimo?»\n\n«Podedes usalos en moitos sitios», respondeu ela. «Pero cando unha palabra nomea unha peza, unha medida ou un proceso, hai que aterse a ela de principio a fin. Escollede o nome na primeira páxina e atédevos a el ata a última.»\n\nExplicoulles que na enxeñaría se escribe con escrúpulo. O escrúpulo non é unha manía: unha diferenza pequena nun texto pode ser unha diferenza grande nunha máquina. Contoulles tamén que, cando ela era estudante, soía cambiar as palabras para que o texto parecese máis elegante, e que un profesor lle tachaba os sinónimos sen piedade, igual que ela agora llelos tachaba a eles.\n\nDespois repartiu os informes. Case todos tiñan algún sinónimo tachado en vermello. «Non vos preocupedes», dixo. «A min tamén mos tacharon moitas veces. Vosoutros aprenderedes axiña.»\n\nOmar volveu escribir o seu informe esa mesma tarde. Fixo unha lista cos nomes das pezas e atívose a ela con escrúpulo: «a peza» en todas as páxinas, sen ningún sinónimo. Á semana seguinte, Araceli leu o texto novo e non tivo que tachar nada. Na marxe escribiu só unha frase: «Agora un técnico podería montar este ventilador sen dúbidas.»\n\nPreguntas:\nQue soen pensar os estudantes cando chegan?\nOs estudantes soen pensar que un bo texto nunca repite unha palabra.\nPor que tivo que tachar Araceli seis palabras no informe de Omar?\nPorque Omar usara tres sinónimos para a mesma peza, e un técnico podería pensar que eran tres cousas distintas.\nQue lles pediu Araceli aos estudantes?\nPediulles que escollesen un nome para cada peza e que se ativesen a el ata a última páxina.\nComo hai que escribir na enxeñaría, segundo Araceli?\nHai que escribir con escrúpulo, porque unha diferenza pequena nun texto pode ser unha diferenza grande nunha máquina.\nQue fixo Omar co seu informe?\nVolveu escribilo, fixo unha lista cos nomes das pezas e atívose a ela.\nQue lles dixo Araceli aos estudantes cando repartiu os informes?\nDíxolles: «Non vos preocupedes. Vosoutros aprenderedes axiña.»"
+    },
+    {
+      "title": "Un espertador de luz",
+      "summary": "Luca Sambade, a first-year design student in Ferrol, hates the noise of his alarm and builds an alarm clock whose light blinks slowly before it rings.",
+      "newWords": [
+        "espertador",
+        "idear",
+        "novato",
+        "pestanexar",
+        "inserir",
+        "adrede",
+        "desagradar"
+      ],
+      "text": "Luca Sambade chegou a Ferrol en setembro para estudar Enxeñaría en Deseño Industrial. Era novato en todo: na cidade, na universidade e no piso que compartía con Gemma, unha estudante de segundo curso. A primeira semana chegou tarde dúas veces á clase das oito e media. O seu espertador era un teléfono vello que soaba con moita forza, e Luca apagábao sen abrir os ollos e seguía durmindo.\n\n«Non é que non o oia», explicoulle a Gemma. «É que ese ruído desagrádame tanto que o apago antes de espertar de verdade.»\n\n«A todos os novatos lles pasa algo así», dixo ela. «A min tamén me desagrada o meu espertador. Por que non deseñas ti un mellor? Para iso estudas.»\n\nLuca pasou o fin de semana pensando. Lembrou que o corpo esperta mellor coa luz ca co ruído: no verán, cando o sol entraba pola fiestra, espertaba sen esforzo. Así que ideou un espertador que ao principio non facía ruído. Media hora antes da hora marcada, unha luz branca empezaba a pestanexar moi amodo, cada vez con máis forza, coma un amencer artificial. Só se Luca non se levantaba soaba despois unha música suave.\n\nPara construílo, mercou unha placa electrónica pequena e unha tira de luces. Desmontou un espertador antigo que atopara nunha feira, sacou o mecanismo vello e inseriu a placa no seu lugar. Despois inseriu a tira de luces arredor da esfera e programou a placa co seu ordenador. Gemma, que xa sabía soldar, axudouno con dous cables.\n\nA primeira noite, Luca puxo o espertador adrede dez minutos antes do necesario.\n\n«Puxéchelo tan cedo adrede?», preguntoulle Gemma.\n\n«Si», dixo el. «Se falla, quero ter tempo para correr.»\n\nÁs sete e cuarto a luz comezou a pestanexar. Luca abriu os ollos, pestanexou el tamén, e quedou un minuto mirando aquela luz tranquila. Non houbo ningún ruído. Levantouse, almorzou con calma e chegou á clase cinco minutos antes da hora.\n\nÁ semana seguinte, o profesor de Deseño pediu un proxecto sobre un obxecto da vida diaria. Luca levou o seu espertador. Explicou por que o ruído dun espertador normal lle desagrada tanto, como ideara a luz e onde inserira cada peza. O profesor escoitouno con atención e díxolle que, para ser un novato, o proxecto estaba moi ben pensado.\n\nPreguntas:\nPor que chegaba tarde Luca á clase?\nPorque o ruído do espertador lle desagrada tanto que o apaga sen espertar de verdade.\nQue espertador ideou Luca?\nIdeou un espertador cunha luz branca que empeza a pestanexar media hora antes e que só despois toca unha música suave.\nQue inseriu Luca no espertador antigo?\nInseriu unha placa electrónica no lugar do mecanismo vello e unha tira de luces arredor da esfera.\nPor que puxo o espertador dez minutos antes adrede?\nPorque, se fallaba, quería ter tempo para correr.\nQue lle dixo o profesor?\nDíxolle que, para ser un novato, o proxecto estaba moi ben pensado."
+    },
+    {
+      "title": "A locomotora de Monforte",
+      "summary": "Heraclio Tourís, a retired railway mechanic, and the young engineer Nieves Albela restore a steam locomotive and its passenger carriage at the railway museum in Monforte.",
+      "newWords": [
+        "locomotora",
+        "fumegar",
+        "chapa",
+        "remexer",
+        "forrar",
+        "veludo",
+        "tampa",
+        "mobiliario"
+      ],
+      "text": "En Monforte hai un museo do ferrocarril, nun vello depósito onde descansan locomotoras e vagóns doutras épocas. Heraclio Tourís traballou corenta anos no ferrocarril como mecánico, e agora, xubilado, vai ao museo tres mañás por semana como voluntario. Esta primavera recibiu unha axudante: Nieves Albela, unha enxeñeira mecánica de vinte e seis anos que quería coñecer as máquinas de vapor por dentro.\n\nO proxecto do ano era restaurar unha locomotora de vapor de 1950 e o vagón de pasaxeiros que ía con ela. A locomotora levaba trinta anos parada, e a chapa da caldeira tiña ferruxe en moitos puntos. O primeiro traballo foi revisar esa chapa centímetro a centímetro. Onde a chapa estaba sa, limpábana e pintábana; onde estaba demasiado fina, cortaban o anaco e soldaban unha chapa nova.\n\nUnha mañá, Heraclio abriu a tampa dunha caixa de ferramentas antiga e púxose a remexer entre parafusos, chaves e pezas sen nome. Mentres remexía, contoulle a Nieves como era o seu traballo de mozo. «Ás seis da mañá xa había que acender a caldeira. Desde a praza víase a cheminea fumegar moito antes de que o tren saíse da estación.» Nieves preguntoulle se a locomotora volvería a fumegar algún día. «Para iso habería que cambiar media caldeira», respondeu el. «Pero polo menos quedará bonita.»\n\nLogo pasaron ao vagón. O mobiliario estaba completo, pero moi gastado: os asentos, as mesiñas, os portamaletas e as lámpadas de latón. Os asentos estaban forrados de veludo vermello, e o veludo tiña buracos e manchas de sol. Nieves buscou unha tapizaría en Lugo que aínda traballaba co veludo de antes, e alí forraron de novo os vinte e catro asentos. Heraclio limpou o latón das lámpadas e arranxou a tampa do depósito de auga, que estaba torcida e xa non pechaba. Coa tampa arranxada, o depósito volveu a pechar ben.\n\nEn outubro, o museo abriu o vagón ao público. A xente entraba, sentaba nos asentos de veludo e tocaba o mobiliario de madeira. Fóra, a locomotora brillaba, negra e vermella, coa chapa nova xa pintada. Un neno preguntou por que non fumegaba. Heraclio agachouse ao seu lado e explicoulle, con paciencia, como se facía o vapor e por que agora a máquina descansaba.\n\nPreguntas:\nQue proxecto tiñan Heraclio e Nieves?\nRestaurar unha locomotora de vapor de 1950 e o seu vagón de pasaxeiros.\nQue facían coa chapa da caldeira?\nLimpaban e pintaban a chapa sa e cambiaban por chapa nova os anacos demasiado finos.\nQue contou Heraclio mentres remexía na caixa?\nContou que de mozo, desde a praza, se vía a cheminea fumegar antes de que o tren saíse.\nComo estaba o mobiliario do vagón?\nEstaba completo pero moi gastado, e o veludo dos asentos tiña buracos e manchas.\nOnde forraron os asentos?\nForráronos nunha tapizaría de Lugo que aínda traballaba co veludo de antes."
+    },
+    {
+      "title": "O cruce das oito",
+      "summary": "Traffic engineer Jorge Valiño and his colleague Pili Moar study why a big roundabout junction in Lugo jams every morning and fix it by making it simpler.",
+      "newWords": [
+        "circulación",
+        "colapsar",
+        "simplificar",
+        "alternar",
+        "probabilidade",
+        "encamiñar",
+        "estorbar",
+        "desorientar"
+      ],
+      "text": "Jorge Valiño é enxeñeiro de camiños e traballa no servizo de tráfico do concello de Lugo. En febreiro chegoulle un problema que todos coñecían: o gran cruce circular que hai á entrada da universidade colapsou varias mañás seguidas entre as oito e as nove, e o tráfico quedou colapsado ata as nove e media. Os coches facían cola ata a ponte, os autobuses chegaban tarde e os estudantes perdían a primeira clase.\n\nJorge e a súa compañeira Pili Moar foron ver o cruce tres mañás seguidas. Colocaron dúas cámaras e contaron os vehículos de cada entrada. O cruce tiña seis entradas, tres carrís e once sinais. «O problema non é só a cantidade de coches», dixo Pili o terceiro día. «É que os condutores non saben por onde ir.»\n\nEra certo. Un cruce con tantos sinais desorienta a calquera que non coñeza o lugar, e moitos condutores desorientados paraban no medio do cruce para ler. Os que paraban estorbaban os coches de detrás, e os camións que ían á zona industrial estorbaban aínda máis, porque necesitaban moito espazo para xirar. En poucos minutos todo o tráfico quedaba colapsado.\n\nOs dous pasaron unha semana diante do ordenador. Probaron a circulación con diferentes cambios e calcularon, para cada un, a probabilidade de que o cruce quedase colapsado. A conclusión foi moi sinxela: había que simplificar. «Cada sinal de máis aumenta a probabilidade de que alguén dubide», explicou Jorge no informe. «E cada dúbida estorba a circulación.»\n\nO plan tiña tres partes. A primeira era simplificar os sinais: de once pasaban a catro, grandes e claros. A segunda era encamiñar os camións da zona industrial por outra estrada, que era algo máis longa pero non pasaba polo cruce. A terceira era un semáforo na entrada máis cargada, que só funcionaría de oito a nove e alternaría o paso cos outros carrís cada trinta segundos.\n\nEn abril fixeron as obras. Os primeiros días, algúns condutores protestaron, porque o camiño á zona industrial era máis longo. Pero os camións, encamiñados pola outra estrada, xa non estorbaban no cruce, e o semáforo alternaba o paso sen problemas. Ninguén volveu parar para ler sinais.\n\nUn mes despois, Jorge e Pili volveron contar os coches. Pasaban os mesmos ca en febreiro, pero a circulación era fluída e o cruce non colapsou nin unha soa vez. A cola máis longa tiña seis coches. Aquela mañá, os estudantes chegaron á primeira clase á hora.\n\nPreguntas:\nQue problema tiña o cruce?\nColapsou varias mañás seguidas entre as oito e as nove.\nPor que paraban algúns condutores no medio do cruce?\nPorque un cruce con tantos sinais desorienta a quen non coñece o lugar, e paraban para lelos.\nQue calcularon Jorge e Pili co ordenador?\nCalcularon a probabilidade de que o cruce quedase colapsado con cada cambio.\nPor onde encamiñaron os camións?\nEncamiñáronos por outra estrada que non pasaba polo cruce.\nQue había que facer, segundo a conclusión do estudo?\nHabía que simplificar o cruce, porque cada sinal de máis aumenta a probabilidade de que alguén dubide.\nComo funcionaba o semáforo novo?\nFuncionaba de oito a nove e alternaba o paso cos outros carrís cada trinta segundos."
+    },
+    {
+      "title": "O palleiro do Courel",
+      "summary": "Dolores Xil, an architect who restores traditional buildings, and her nephew Toni repair an old slate-roofed hayloft in O Courel after a chestnut tree falls on it.",
+      "newWords": [
+        "lousa",
+        "edificar",
+        "palleiro",
+        "tombar",
+        "cepa",
+        "torto",
+        "continuidade"
+      ],
+      "text": "Dolores Xil é arquitecta técnica e leva vinte anos restaurando construcións tradicionais na montaña de Lugo. O pasado inverno chamouna o seu sobriño Toni. Na aldea da familia, no Courel, había un palleiro de pedra que edificaran os seus bisavós a finais do século XIX. Unha noite de vento, un castiñeiro vello partira polo tronco, caera enriba do tellado e rompera un bo anaco da lousa.\n\nDolores subiu á aldea en marzo. O castiñeiro seguía alí, tombado sobre o palleiro. «Primeiro hai que retirar a árbore sen tombar tamén a parede», dixo. Toni, que traballaba co seu pai no monte, cortou o tronco por partes. «Eu xa tombei moitas árbores», díxolle á súa tía, «pero ningunha enriba dun tellado.» Ao final só quedou a cepa, grosa e escura, á beira do palleiro. Decidiron deixala alí, porque arrincala podía mover os cimentos.\n\nLogo miraron a estrutura. As vigas eran de castiñeiro, e algunhas estaban tortas. Toni quería cambiar os madeiros tortos por vigas novas e rectas, pero Dolores explicoulle que non era necesario. «Estes madeiros levan cen anos tortos e seguen aguantando. Quen edificou este palleiro sabía o que facía: colocou cada madeiro coa curva cara arriba, para que traballase mellor.» Só cambiaron dúas vigas, que estaban podres.\n\nDespois tocaba a lousa. No Courel os tellados fanse con lousa da zona, en láminas grosas e irregulares, colocadas unhas sobre outras para que a auga escorra. Dolores non quixo lousa industrial. Recolleron a lousa que se rompera, aproveitaron os anacos bos e mercaron o resto nunha canteira pequena do val, coa mesma cor gris escura.\n\n«Por que tanto traballo por un palleiro?», preguntou Toni unha tarde, cansado.\n\n«Pola continuidade», respondeu ela. «A aldea é un conxunto. Se cada familia edifica cun material distinto, pérdese a continuidade dos tellados, das cores e da maneira de facer. E esa continuidade é o que fai que este lugar sexa este lugar.»\n\nEn xuño o palleiro estaba listo. Desde o camiño, o tellado novo non se distinguía dos outros da aldea: a mesma lousa gris, a mesma liña. Toni colocou un banco de madeira xunto á cepa do castiñeiro, e alí sentaron os dous a mirar o val.\n\nPreguntas:\nQuen edificou o palleiro?\nEdificárono os bisavós de Toni a finais do século XIX.\nQue pasou unha noite de vento?\nUn castiñeiro vello caeu enriba do palleiro e rompeu parte da lousa do tellado.\nPor que deixaron a cepa no seu sitio?\nPorque arrincala podía mover os cimentos do palleiro.\nPor que non cambiaron todos os madeiros tortos?\nPorque seguían aguantando e estaban colocados coa curva cara arriba para traballar mellor.\nQue é a continuidade, segundo Dolores?\nÉ manter os mesmos materiais, as mesmas cores e a mesma maneira de facer en toda a aldea."
+    },
+    {
+      "title": "As algas de Loli",
+      "summary": "Loli Santalla, an engineer at a seaweed farm in the Ría de Arousa, fits GPS trackers to the buoys and redesigns how the young seaweed is tied to the ropes.",
+      "newWords": [
+        "alga",
+        "empapar",
+        "salgar",
+        "atadura",
+        "cinguir",
+        "rastrexar",
+        "agudo"
+      ],
+      "text": "Loli Santalla é enxeñeira e traballa nunha pequena empresa de Cambados que cultiva algas na ría de Arousa. As algas crecen en cordas longas que penduran de liñas de flotadores, as boias, a uns cantos metros da costa. No inverno colócanse as cordas coas algas pequenas, e na primavera, cando as algas xa miden máis dun metro, recóllense.\n\nAquel ano a empresa tiña dous problemas. O primeiro eran as liñas: cos temporais de xaneiro, algunhas soltábanse e o mar levábaas, e ninguén sabía onde estaban ata días despois. Loli propuxo colocar en cada liña un aparello pequeno que envía a súa posición. «Así as rastrexo desde o teléfono», explicoulle a Isaac, o mergullador da empresa. «Se unha liña sae da súa zona, o teléfono dá un aviso agudo e sabemos onde ir buscala.»\n\n«E quen as vai rastrexar de noite?», preguntou Isaac.\n\n«Rastrexemos os dous durante un mes e logo decidimos», respondeu ela.\n\nProbárono en febreiro, e o primeiro día que unha liña se soltou, Loli escribiulle: «Xa a rastrexei. Está na praia de enfronte.»\n\nO segundo problema eran as ataduras. As algas pequenas atábanse á corda cunha atadura de fío, e moitas ataduras rompían coas ondas. Loli probou un sistema novo: en vez de atar cada alga, cinguía a corda cunha malla fina que suxeitaba as algas sen apertalas. A malla cinguía a corda coma unha media e, cando as algas medraban, deixábaas saír.\n\nA recollida fíxose en maio. Loli saíu no barco con Isaac ás seis da mañá. O mar estaba picado e cada onda deixaba a cuberta empapada; en media hora estaban os dous empapados, a pesar dos traxes de augas, e Loli tiña as luvas tan empapadas que tivo que cambialas. Isaac tiña un coitelo de folla aguda e ía cortando as algas preto da corda, mentres Loli as contaba e as pesaba.\n\nNa nave, unha parte das algas secábase ao sol para facer fariña. Outra parte salgábase, porque as algas salgadas duran meses e as cociñas de restaurante pídenas así. Loli ensinou a salgar a dous empregados novos: unha capa de algas, unha capa de sal groso, e así ata encher a caixa.\n\nAo final da campaña, Loli fixo as contas. Cos aparellos novos non se perdera ningunha liña, e coa malla nova a corda tiña case o dobre de algas ca coas ataduras de antes. Isaac díxolle que, polo menos, o ano seguinte tería menos traballo buscando liñas polo mar.\n\nPreguntas:\nOnde crecen as algas da empresa?\nCrecen en cordas longas que penduran de liñas de boias na ría de Arousa.\nComo podía Loli rastrexar as liñas?\nCun aparello pequeno en cada liña que envía a súa posición ao teléfono.\nQue facía o teléfono cando unha liña saía da súa zona?\nDaba un aviso agudo.\nQue problema tiñan as ataduras de fío?\nMoitas ataduras rompían coas ondas.\nComo suxeitaba as algas a malla nova?\nA malla cinguía a corda coma unha media e suxeitaba as algas sen apertalas.\nPor que salgaban unha parte das algas?\nPorque as algas salgadas duran meses e os restaurantes pídenas así."
+    },
+    {
+      "title": "Os cabaliños da feira",
+      "summary": "Álex Cabado repairs an old carousel with an engineering student, Laila, who learns why the ride's slow motion and quiet music matter to the children.",
+      "newWords": [
+        "cabaliños",
+        "rosado",
+        "cambalear",
+        "atordar",
+        "desenrolar",
+        "estampar",
+        "sobresaír"
+      ],
+      "text": "Álex Cabado ten uns cabaliños antigos que percorren as feiras de verán da provincia de Pontevedra. Os cabaliños foron do seu avó, que os mercou en 1962, e aínda conservan os cabalos de madeira tallada, o tellado de lona e o órgano mecánico que toca a música. Este verán, Laila, unha estudante de Enxeñaría Mecánica, fixo as prácticas con el.\n\nO primeiro traballo foi revisar o motor e o mecanismo. Laila mediu a velocidade e propuxo poñer un motor máis potente. Álex negou coa cabeza. «Os cabaliños teñen que xirar amodo», díxolle. «Hai uns anos probamos a ir máis rápido, e os nenos baixaban cambaleando. Algún cambaleaba tanto que tiña que sentar no chan.» Laila calculou a velocidade a que un neno empeza a marearse e comprobou que o avó de Álex, sen ningún cálculo, a escollera ben.\n\nDespois revisaron o órgano. Os altofalantes que alguén lle engadira nos anos oitenta facían a música moi alta. «Ese ruído atorda», dixo Álex. «Os pais quéixanse, e os nenos pequenos chegan atordados e asustados.» Laila quitou os altofalantes e axustou o órgano para que soase só cos seus tubos, como no principio. A música quedou máis baixa e máis limpa, e xa non atorda a ninguén.\n\nLogo tocaba o tellado. A lona vella estaba gastada, e Álex encargou unha nova. Cando chegou, Álex desenrolou un extremo no chan da nave para vela. Era unha lona rosada, coa mesma cor ca a de 1962, e tiña estampadas estrelas douradas. Álex quixera estampar tamén o nome do avó no bordo, e alí estaba, en letras grandes. Despois, para comprobar as medidas, pasaron toda a mañá desenrolando o resto, porque había que desenrolar aquela lona de doce metros con moito coidado.\n\nPor último pintaron os cabalos. Algúns eran brancos, outros negros, e catro eran rosados, coas crinas douradas. Laila pintou os rosados con moito coidado, porque eran os favoritos das nenas.\n\nA primeira feira foi en Lalín, a finais de xullo. Había autos de choque e outras atraccións modernas, con luces e música forte, pero os cabaliños sobresaían entre todas: polo tellado rosado, polas estrelas estampadas e pola música tranquila. A cola de nenos sobresaía tamén: era a máis longa da feira. Ningún neno baixou cambaleando.\n\nPreguntas:\nDe quen foron os cabaliños?\nForon do avó de Álex, que os mercou en 1962.\nPor que non quixo Álex un motor máis potente?\nPorque, cando xiraban máis rápido, os nenos baixaban cambaleando.\nQue facía a música dos altofalantes?\nEra moi alta e atorda os nenos e os pais.\nComo era a lona nova?\nEra rosada e tiña estampadas estrelas douradas e o nome do avó.\nPor que sobresaían os cabaliños na feira?\nPolo tellado rosado, polas estrelas estampadas e pola música tranquila."
+    },
+    {
+      "title": "Crónica dunha ponte nova",
+      "summary": "A local journalist's report on the new footbridge in Allariz: the old one closed after a winter flood, and engineer Luisa Enríquez led the careful work on the new one.",
+      "newWords": [
+        "crónica",
+        "encabezar",
+        "exaltar",
+        "desmentir",
+        "conmocionar",
+        "infortunio",
+        "prudencia",
+        "adulación"
+      ],
+      "text": "Moisés Lorenzana escribe para un xornal de Ourense. Cada semana publica unha crónica sobre a vida dunha vila da provincia. Esta é a crónica que escribiu o sábado en que se abriu a nova ponte de Allariz.\n\n«Hai dous invernos, a crecida do río levou parte da vella ponte de madeira que unía os dous barrios de Allariz. Ninguén estaba nela, porque a ponte levaba pechada desde a noite anterior. Pero a vila quedou conmocionada. Aquela ponte era o camiño da escola, do mercado e do paseo da tarde, e durante dous anos os veciños tiveron que dar unha volta de quince minutos pola ponte da estrada. Moitos, aínda conmocionados semanas despois, falaban daquel infortunio coma se lles levasen unha parte da casa.\n\nO proxecto da ponte nova foi encabezado por Luisa Enríquez, unha enxeñeira de camiños nacida na vila. Luisa encabeza un equipo pequeno: dous enxeñeiros, unha arquitecta e un técnico. Desde o primeiro día traballaron con prudencia. Estudaron as crecidas dos últimos cen anos e colocaron a nova ponte un metro e medio máis alta ca a vella. Coa mesma prudencia, antes de abrila, probárona con dous camións cargados de area. \"A prudencia non é medo\", díxome Luisa. \"É respecto polo río.\"\n\nDurante as obras correu un rumor: que a ponte nova se movía. Luisa desmente o rumor con calma. \"Todas as pontes se moven un pouco co vento e coa xente. Esta tamén, e está calculado.\" Desmentir rumores, di, é parte do traballo dunha enxeñeira.\n\nEsta mañá, centos de veciños cruzaron a ponte por primeira vez. Houbo música de gaitas, aplausos e moitas fotos. Algúns achegáronse a Luisa para exaltar o seu traballo: \"a mellor ponte de Galicia\", \"unha obra de arte\". Ela sorría, pero non lle gusta a adulación. \"Agradezo as palabras\", dixo, \"pero a adulación non constrúe pontes. Esta ponte fixémola entre moitos.\" E nomeou un por un os membros do seu equipo e os obreiros.\n\nHoxe non é día de exaltar a ninguén, senón de cruzar o río. O infortunio daquel inverno queda atrás, e a vila volve ter o seu camiño.»\n\nAo día seguinte, a crónica de Moisés saíu na páxina de provincia, cunha foto da ponte chea de xente.\n\nPreguntas:\nQue publica Moisés Lorenzana cada semana?\nPublica unha crónica sobre a vida dunha vila da provincia.\nQue infortunio deixou conmocionada a vila de Allariz?\nA crecida do río levou parte da vella ponte de madeira.\nQuen encabeza o equipo da ponte nova?\nEncabézao Luisa Enríquez, unha enxeñeira de camiños nacida na vila.\nQue rumor desmente Luisa?\nDesmente o rumor de que a ponte nova se move de maneira perigosa: todas as pontes se moven un pouco, e iso está calculado.\nQue fixeron algúns veciños durante a apertura?\nAchegáronse a Luisa para exaltar o seu traballo.\nQue di Luisa da adulación?\nDi que a adulación non constrúe pontes e que a ponte a fixeron entre moitos."
+    },
+    {
+      "title": "O robot e o gato",
+      "summary": "Dani Orois tests a cleaning robot prototype at home in A Coruña, where his cat Tuxo first attacks it and then gets used to it.",
+      "newWords": [
+        "zugar",
+        "rabuñar",
+        "defensivo",
+        "degradar",
+        "vincular",
+        "extraordinariamente"
+      ],
+      "text": "Dani Orois é enxeñeiro electrónico e traballa nunha empresa da Coruña que deseña robots de limpeza para fogares. Neste momento está a probar un prototipo novo: un robot redondo e baixo que percorre o chan, zuga o po coa súa boca de aspiración e volve só á base cando remata. Como a empresa quere saber como se comporta nunha casa de verdade, Dani levouno ao seu piso durante un mes.\n\nNo piso vive tamén Tuxo, un gato gris de seis anos. O primeiro día, cando o robot comezou a zugar o po da alfombra, Tuxo arrepiou o pelo e púxose á defensiva. Cando o robot se achegou, o gato rabuñouno con forza e escapou debaixo do sofá. Dani mirou o robot: o gato rabuñara a parte de diante e deixara tres liñas brancas no plástico.\n\nDani decidiu tomar nota de todo. Un gato que rabuña era unha boa proba para o plástico, pero un gato asustado non era o que a empresa quería. Pensou que a actitude defensiva de Tuxo viña do ruído. Mediu o son do robot co teléfono e cambiou a velocidade do motor nos primeiros minutos, para que o robot zugase máis suave ao comezar. Desde entón, o robot é extraordinariamente silencioso ao arrincar, e só sobe a potencia cando xa está lonxe do gato.\n\nOutra proba do mes era a aplicación. O robot vincúlase ao teléfono, e desde a aplicación pódese ver o mapa da casa e a batería. Dani deixou o robot vinculado tamén ao teléfono da súa irmá, que vive no mesmo edificio, para saber se a aplicación funcionaba con dúas persoas. Funcionou sen problemas.\n\nAo final do mes, Dani revisou as pezas. Os cepillos tiñan pelo de gato enredado e empezaban a degradarse, e a batería xa non duraba tanto coma o primeiro día. «Unha batería degrádase co uso», escribiu no informe, «pero non tan rápido.» Propuxo cepillos dun material máis duro e un sistema que cortase o pelo enredado.\n\nE Tuxo? Á terceira semana xa non se poñía á defensiva. Ao final do mes, cando o robot pasaba, o gato nin se movía. Un día Dani atopouno durmido enriba da base de carga, que estaba morna. Iso tamén o escribiu no informe: unha base morna resulta extraordinariamente atractiva para un gato.\n\nPreguntas:\nQue fai o robot de Dani?\nPercorre o chan, zuga o po e volve só á base cando remata.\nQue fixo Tuxo o primeiro día?\nPúxose á defensiva e rabuñou o robot.\nQue cambiou Dani para que o gato non se asustase?\nCambiou a velocidade do motor para que o robot zugase máis suave ao comezar.\nA que teléfonos estaba vinculado o robot?\nEstaba vinculado ao teléfono de Dani e ao da súa irmá.\nComo é agora o robot ao arrincar?\nÉ extraordinariamente silencioso, e só sobe a potencia cando está lonxe do gato.\nQue pezas empezaban a degradarse?\nOs cepillos, co pelo de gato enredado, e tamén a batería."
+    },
+    {
+      "title": "O muíño de Xestal",
+      "summary": "Two old school friends, Javier Dans and Wladimiro Agís, meet again while volunteering to restore a village water mill for a charity, and Wladimiro catches a trout in the millrace.",
+      "newWords": [
+        "reencontrar",
+        "clarear",
+        "descalzar",
+        "benéfico",
+        "bancario",
+        "anzol",
+        "sandar"
+      ],
+      "text": "Javier Dans e Wladimiro Agís foron compañeiros de escola en Xestal, unha aldea pequena da Terra de Melide. Despois, Javier estudou enxeñaría de camiños e foi traballar a Bilbao, e Wladimiro quedou na aldea, onde ten unha carpintaría. Pasaron trinta anos sen verse. A primavera pasada, Javier reencontrou o seu amigo grazas a un muíño.\n\nO muíño da aldea levaba corenta anos parado. Unha asociación benéfica de Melide, que axuda a nenos con discapacidade, propuxo restauralo e abrilo para visitas escolares, e que o diñeiro das entradas fose para os seus proxectos. Para pagar as obras, a asociación abriu unha conta bancaria e pediu doazóns. Javier viu a noticia en internet, fixo unha transferencia bancaria e escribiu á asociación: era enxeñeiro, sabía de auga e de canais e podía axudar. Así foi como Wladimiro, que xa traballaba como voluntario, o reencontrou.\n\nO primeiro sábado de obras empezaron cedo, cando aínda non clareaba. Ás sete, cando o ceo comezou a clarear detrás do monte, xa estaban os dous na beira do río. O canal que levaba a auga ao muíño estaba cheo de pedras e ramas. «Haberá que entrar», dixo Javier. Wladimiro sentou nunha pedra para descalzarse, subiu os pantalóns ata os xeonllos e entrou na auga fría. Javier dubidou un momento, pero acabou por descalzarse tamén.\n\nMentres limpaban o canal, Wladimiro contoulle que o inverno fora difícil: tivera moita dor de costas e pasara tres meses sen traballar. «Pero xa sandei», dixo. «O médico díxome que me movese, e isto é moverse.» Javier riu. «Entón isto tamén me vai sandar a min, que levo trinta anos sentado nunha oficina.»\n\nAo mediodía, debaixo dunha pedra, Wladimiro atopou un anzol vello, oxidado, aínda co fío. Recoñeceuno: era un anzol dos que usaban de rapaces, cando pescaban troitas no canal. Gardou o anzol no peto. O domingo levou unha cana e un anzol novo, e pescou unha troita no mesmo sitio, igual que trinta anos antes. Mirouna un momento e devolveuna ao río.\n\nEn setembro, o muíño moeu millo de novo. O primeiro grupo escolar visitouno en outubro, e a asociación benéfica recibiu o diñeiro das entradas. Javier volve á aldea cada dous meses. Os dous amigos xa non necesitan un muíño para verse.\n\nPreguntas:\nOnde reencontrou Javier o seu amigo de escola?\nReencontrouno no muíño da aldea, cando foi axudar coas obras.\nQue propuxo a asociación benéfica?\nPropuxo restaurar o muíño e abrilo para visitas escolares para financiar os seus proxectos.\nComo axudou Javier ao principio?\nFixo unha transferencia bancaria e ofreceuse para axudar co canal.\nQue tiveron que facer os dous para limpar o canal?\nTiveron que descalzarse e entrar na auga fría.\nQue lle pasara a Wladimiro no inverno, e como está agora?\nTivera moita dor de costas, pero xa sandou e pode traballar.\nCando empezaron a traballar o primeiro sábado?\nEmpezaron cando aínda non clareaba, e ás sete o ceo comezou a clarear.\nQue atopou Wladimiro debaixo dunha pedra?\nAtopou un anzol vello dos que usaban de rapaces para pescar troitas."
+    }
+  ]
+}
