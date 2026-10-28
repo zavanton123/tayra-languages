@@ -1397,7 +1397,7 @@ def arabic_tokens(text, ranks, names=frozenset()):
                 # a verb's form in ت not much commoner (عجلتها is عجلة's, not عجلت's; أكلته is أكلت's).
                 base = min((b for b in fl.arabic_bases(piece) if b in ranks), key=ranks.get, default=piece)
                 noun = base[:-1] + "ة"
-                if base.endswith("ت") and noun in ranks and a["head"](noun) and ranks[noun] <= ARABIC_NOUN_OVER_FORM * ranks[base]:
+                if base.endswith("ت") and base in ranks and noun in ranks and a["head"](noun) and ranks[noun] <= ARABIC_NOUN_OVER_FORM * ranks[base]:
                     base = noun
                 out.append(base)
     return out
