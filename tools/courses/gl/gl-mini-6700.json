@@ -1,0 +1,190 @@
+{
+  "id": "gl-mini-6700",
+  "rankUpTo": 6700,
+  "level": "C1",
+  "title": "As palabras e a súa orixe",
+  "description": "Ten texts about where words come from: a cook's column on kitchen words, a retired sailor's sea chart, a maths teacher's word lessons, a psychologist's book on words of the mind, a caretaker's guided tour, a midwife's column, a grandmother's country words, a team that reviews new words, a stylist's column and a choir's hundredth year.",
+  "topic": "Words and where they come from",
+  "names": [
+    "Anatolia",
+    "Gamallo",
+    "Cambados",
+    "India",
+    "Aristeo",
+    "Baloira",
+    "Ribadeo",
+    "Taciana",
+    "Roma",
+    "Nova York",
+    "Galicia",
+    "Claudina",
+    "Rebolo",
+    "Lalín",
+    "Conrado",
+    "Espasandín",
+    "Ourense",
+    "Práxedes",
+    "Torreiro",
+    "Vigo",
+    "Hungría",
+    "Alodia",
+    "Meilán",
+    "Lugo",
+    "Tranquilina",
+    "Amenedo",
+    "Allariz",
+    "Acacio",
+    "Filiberto",
+    "Paramá",
+    "Coruña",
+    "Argimira",
+    "Corbal",
+    "Pontevedra",
+    "Pancracia",
+    "Godofredo",
+    "Riveiro",
+    "Betanzos",
+    "Italia"
+  ],
+  "lessons": [
+    {
+      "title": "Columna: as palabras que comemos",
+      "summary": "In her weekly column, Anatolia Gamallo, a cook in Cambados, follows the words of her kitchen back to where they came from: the Spanish omelette and the Latin torta, the aubergine and the jug that came through Arabic, smoking cheese, veal, the mango and the market basket.",
+      "newWords": [
+        "tortilla",
+        "berenxena",
+        "xarra",
+        "mango",
+        "cesto",
+        "tenreira",
+        "afumar"
+      ],
+      "text": "Anatolia Gamallo leva vinte anos cociñando nun pequeno restaurante de Cambados, e desde hai uns meses escribe unha columna sobre as palabras da cociña nun xornal da comarca. Esta semana escolleu un tema que lle gusta especialmente: de onde veñen os nomes do que comemos.\n\n«Cando preparo unha tortilla, penso en todas as mans que a fixeron antes ca min», escribe. A palabra tortilla vén de torta, que xa existía en latín, e quere dicir algo así como «torta pequena». Hoxe a tortilla de patacas é case un símbolo da cociña de casa, e en cada familia hai unha opinión sobre se debe levar cebola ou non. Anatolia prefire non entrar nesa discusión: «Eu fago a tortilla como a facía a miña nai, e que cada cliente decida».\n\nOutras palabras chegaron de moito máis lonxe. A berenxena, por exemplo, entrou na península co árabe, e o árabe tomara a palabra doutra lingua do Oriente. Antes de chegar aos nosos pratos, a palabra fixo unha viaxe tan longa coma a propia planta. Anatolia lembra que na aldea dos seus avós ninguén cultivaba berenxenas; hoxe ela serve berenxenas recheas todos os venres. A xarra tamén ten orixe árabe: era o nome dun recipiente de barro para gardar a auga. No restaurante, cada mesa ten unha xarra de auga fresca, e a Anatolia gústalle pensar que esa xarra leva séculos na nosa lingua.\n\nO mango é un caso curioso. O nome desta froita chegou ao galego a través do portugués, e o portugués tomouno dunha lingua do sur da India, onde os mariñeiros o escoitaron por primeira vez. No verán, Anatolia ten na cociña un cesto cheo de mangos maduros, e con eles fai unha sobremesa fría que os clientes piden moito. O cesto, pola súa parte, é unha palabra antiga: vén do latín, e o latín tomouna do grego, onde nomeaba unha caixa para levar cousas.\n\nHai tamén palabras que se explican soas. A tenreira é a carne dun animal novo, e o seu nome vén de tenro, porque esa carne é tenra. A Anatolia gústalle preparar a tenreira ao forno, amodo, durante catro horas. E afumar vén de fume, claro. Os veciños de Cambados sempre souberon afumar o peixe para que durase máis tempo, e Anatolia aínda afuma o seu propio queixo nun forno pequeno do patio. «Cando afumo un queixo, a casa enteira cheira a inverno», conta.\n\nA columna remata cunha idea sinxela: cada prato garda unha pequena historia, e cada palabra tamén. «Se sabemos de onde vén o que comemos, comemos con máis gusto.»\n\nPreguntas:\nDe onde vén a palabra tortilla?\nVén de torta, que xa existía en latín, e quere dicir algo así como «torta pequena».\nPor que lingua entrou a berenxena na península?\nEntrou co árabe, que tomara a palabra doutra lingua do Oriente.\nQue ten cada mesa do restaurante de Anatolia?\nCada mesa ten unha xarra de auga fresca.\nQue fai Anatolia cos mangos no verán?\nTen un cesto cheo de mangos maduros e con eles fai unha sobremesa fría.\nPor que se chama así a tenreira?\nPorque é a carne dun animal novo e o nome vén de tenro.\nQue afuma Anatolia no patio?\nAfuma o seu propio queixo nun forno pequeno."
+    },
+    {
+      "title": "O mapa do avó Aristeo",
+      "summary": "Retired merchant-navy pilot Aristeo Baloira spreads an old sea chart on the kitchen table in Ribadeo and explains its words to his granddaughter Taciana: the anchor in the garden, navigators, latitude, the southern seas, the far edges of the world, the breeze and a ray of sunlight.",
+      "newWords": [
+        "áncora",
+        "navegante",
+        "latitude",
+        "meridional",
+        "confín",
+        "brisa",
+        "raiola"
+      ],
+      "text": "Aristeo Baloira pasou corenta anos no mar, primeiro como mariñeiro e despois como piloto nun barco mercante. Agora vive en Ribadeo, nunha casa con xardín desde onde se ve a ría. No medio do xardín hai unha áncora vella, vermella de ferruxe, que trouxo do seu último barco. A súa neta Taciana, que ten doce anos, pasa alí as tardes do verán.\n\nUn domingo de chuvia, Taciana preguntoulle por que aquela áncora tiña un nome tan raro. Aristeo sorriu e colleu un mapa antigo do mar que gardaba nun caixón. «Áncora é unha palabra moi vella», explicou. «Os romanos xa a usaban, e eles tomárona dos gregos. Hai dous mil anos, unha áncora xa servía para o mesmo que agora: para que o barco non se mova.»\n\nEstenderon o mapa enriba da mesa da cociña. Estaba cheo de liñas finas e de números pequenos. «Isto é o que usaban os navegantes antes dos ordenadores», dixo Aristeo. «Navegante vén de navegar, e navegar vén dunha palabra latina que significaba barco. Un navegante é a persoa que sabe levar un barco dun lugar a outro sen perderse.»\n\nTaciana sinalou as liñas horizontais. «E estas?» Aristeo explicoulle que eran as liñas da latitude. «Latitude vén dunha palabra latina que quere dicir ancho. Os antigos imaxinaban o mundo coñecido como unha franxa máis ancha ca longa, e a latitude medía ese ancho, de norte a sur.» Ribadeo, dixo, está nunha latitude parecida á de Roma ou á de Nova York, aínda que o clima é moi diferente.\n\nDespois amosoulle a parte de abaixo do mapa, onde estaban os mares do sur. «Os vellos libros chamábanlles mares meridionais», dixo. «Meridional vén de mediodía. Ao mediodía, desde aquí, o sol está sempre cara ao sur, así que o sur era a parte do mediodía.» Aristeo navegara moitas veces por eses mares meridionais, e lembraba as noites quentes e o ceo cheo de estrelas que en Galicia non se ven.\n\nNa beira do mapa había unha zona case baleira. «Iso son os confíns», explicou o avó. «Confín vén de fin, de onde remata unha cousa e comeza outra. Antes de que houbese mapas completos, os confíns do mundo eran os lugares onde ninguén chegara aínda.»\n\nPola tarde deixou de chover. Entrou unha brisa fresca pola fiestra, e unha raiola de sol caeu xusto enriba da áncora do xardín. «A brisa e a raiola tamén son palabras de mariñeiros», dixo Aristeo. «No barco, unha boa brisa era unha alegría, e unha raiola entre as nubes era a mellor noticia da mañá.» Taciana dobrou o mapa con coidado e pediulle ao avó que lle ensinase o domingo seguinte a ler as súas liñas.\n\nPreguntas:\nQue hai no medio do xardín de Aristeo?\nHai unha áncora vella, vermella de ferruxe, do seu último barco.\nQue significa a palabra latina da que vén navegante?\nSignificaba barco.\nQue quere dicir a palabra latina da que vén latitude?\nQuere dicir ancho.\nPor que os mares do sur se chamaban meridionais?\nPorque meridional vén de mediodía, e ao mediodía o sol está cara ao sur.\nQue eran os confíns do mundo antes dos mapas completos?\nEran os lugares onde ninguén chegara aínda.\nQue pasou pola tarde, cando deixou de chover?\nEntrou unha brisa fresca e unha raiola de sol caeu enriba da áncora."
+    },
+    {
+      "title": "A clase das palabras de Claudina Rebolo",
+      "summary": "Maths teacher Claudina Rebolo in Lalín opens each unit with the origin of its key words: a fraction is a broken number, a cylinder is a roller, a diagram is a shape, an estimate is a valuation, and a misunderstanding comes from a word with two equal voices.",
+      "newWords": [
+        "ensinanza",
+        "fracción",
+        "cilindro",
+        "esquema",
+        "estimación",
+        "suposición",
+        "equívoco"
+      ],
+      "text": "Claudina Rebolo é profesora de matemáticas nun instituto de Lalín. Hai uns anos descubriu que os seus alumnos entendían mellor un concepto se antes coñecían a historia da súa palabra. Desde entón, comeza cada tema cun pequeno momento de palabras, e di que esa é a parte da súa ensinanza que os rapaces lembran mellor.\n\nO primeiro día do curso escribiu no encerado a palabra fracción. «Fracción vén dun verbo latino que significa romper», explicou. «Unha fracción é un número roto: cando dividimos unha pizza en oito partes e collemos tres, temos unha fracción, tres oitavos.» Un alumno dixo que agora entendía por que ás veces se fala dunha fracción dun segundo: é un anaco moi pequeno, coma un anaco roto do tempo.\n\nNa clase de xeometría tocou o cilindro. Claudina levou unha lata de tomate e un rolo de cociña. «Cilindro vén do grego, dunha palabra que significaba rolo, algo que se fai rodar», dixo. Despois pediulles que buscasen cilindros na aula: atoparon un bolígrafo, un vaso, a papeleira e a pata dunha mesa.\n\nPara explicar un problema longo, Claudina sempre debuxa un esquema. «Esquema tamén é unha palabra grega», contou. «Significaba forma ou figura. Un esquema é a forma dunha idea, sen os detalles.» Os alumnos aprenderon a facer un esquema antes de calcular, e moitos descubriron que así cometían menos erros.\n\nOutra palabra que lle gusta é estimación. «Vén do latín, dun verbo que significaba valorar, dar un prezo a algo», explicou. Antes de cada cálculo, Claudina pide unha estimación: canto pode pesar a mochila, cantos alumnos caben no ximnasio. Despois comparan a estimación co resultado exacto. Unha boa estimación, di ela, é a mellor maneira de descubrir un erro.\n\nCando chegaron os problemas de lóxica, falou da suposición. «Supor quere dicir, literalmente, poñer debaixo», dixo. «Unha suposición é unha idea que poñemos debaixo do razoamento, coma un alicerce.» Se a suposición é falsa, todo o que se constrúe enriba cae.\n\nA última palabra do trimestre foi equívoco. «Equívoco vén de dúas palabras latinas: igual e voz», explicou Claudina. «É cando unha mesma voz serve para dúas cousas e cada persoa entende unha diferente.» Para practicar, os alumnos buscaron frases que podían producir un equívoco, e despois reescribíronas de xeito que só tivesen un sentido. Ao final do curso, unha alumna díxolle que as matemáticas lle parecían agora unha lingua máis, e Claudina sentiu que esa era a mellor recompensa da súa ensinanza.\n\nPreguntas:\nPor que comeza Claudina cada tema coa historia dunha palabra?\nPorque os alumnos entenden mellor un concepto se coñecen antes a historia da súa palabra.\nQue significa o verbo latino do que vén fracción?\nSignifica romper.\nQue cilindros atoparon os alumnos na aula?\nAtoparon un bolígrafo, un vaso, a papeleira e a pata dunha mesa.\nPara que serve facer unha estimación antes do cálculo?\nServe para descubrir un erro comparándoa despois co resultado exacto.\nQue quere dicir supor, literalmente?\nQuere dicir poñer debaixo.\nDe que dúas palabras latinas vén equívoco?\nVén das palabras igual e voz."
+    },
+    {
+      "title": "Entrevista: Conrado Espasandín, psicólogo",
+      "summary": "Ourense psychologist Conrado Espasandín talks about his book on the words of the mind: psychoanalysis, adolescence as growing, impulsive acts that push us, meditation as careful preparation, inclinations, persistence and the doubtful person standing between two paths.",
+      "newWords": [
+        "psicanálise",
+        "adolescencia",
+        "impulsivo",
+        "meditación",
+        "inclinación",
+        "persistente",
+        "dubidoso"
+      ],
+      "text": "Conrado Espasandín traballa como psicólogo en Ourense desde hai vinte e cinco anos. Acaba de publicar un libro curioso: non fala de enfermidades nin de tratamentos, senón das palabras que usamos para falar da mente. Falamos con el na súa consulta, unha sala tranquila con moitos libros.\n\nPor que un libro sobre palabras?\nPorque os meus pacientes chegan cunhas palabras e marchan con outras. Moitas veces, cando unha persoa entende o que significa unha palabra, entende tamén o que lle pasa.\n\nEmpecemos pola máis famosa: psicanálise.\nÉ unha palabra feita no século XIX con dúas pezas gregas. A primeira significaba alento e despois mente; a segunda, desatar ou descompoñer. A psicanálise quería descompoñer a mente nas súas partes para entendela. Eu non practico a psicanálise, pero respecto moito a súa historia.\n\nNo libro dedica un capítulo á adolescencia.\nSi, porque é unha palabra preciosa. Adolescencia vén dun verbo latino que significa crecer. O adolescente é, literalmente, o que está a crecer. Moitos pais ven na adolescencia só un problema, e eu explícolles que é un tempo de crecemento, aínda que custe.\n\nE a palabra impulsivo?\nVén de impulso, e o impulso é algo que nos empurra desde dentro. Unha persoa impulsiva actúa antes de pensar, coma se alguén a empurrase. Non sempre é malo: ás veces un acto impulsivo é xeneroso. O problema é cando non hai ningún tempo entre o impulso e o acto.\n\nPara iso recomenda vostede a meditación?\nRecomendo pararse. A meditación pode ser moitas cousas, pero a palabra latina significaba pensar con atención e tamén preparar algo con coidado. Para min, a meditación é iso: uns minutos para preparar a mente antes de actuar.\n\nTamén fala das inclinacións.\nInclinación vén de inclinar, que é baixar un pouco unha cousa cara a un lado. Unha inclinación é o lado cara ao que tendemos cando ninguén nos empurra. Todos temos algunha inclinación: hai quen ten inclinación pola soidade e quen a ten pola compaña.\n\nQue palabra lle gustaría que os seus lectores lembrasen?\nDúas. A primeira é persistente. Vén dun verbo que significa manterse firme. Unha persoa persistente non é a que nunca cae, senón a que se levanta, unha e outra vez. A segunda é dubidoso. Dubidar está ligado ao número dous: o dubidoso está entre dous camiños. Ser dubidoso non é un defecto; é o sinal de que vemos máis dunha posibilidade.\n\nPreguntas:\nDe que fala o novo libro de Conrado Espasandín?\nFala das palabras que usamos para falar da mente.\nQue significa o verbo latino do que vén adolescencia?\nSignifica crecer.\nComo actúa unha persoa impulsiva?\nActúa antes de pensar, coma se alguén a empurrase.\nQue é a meditación para Conrado?\nSon uns minutos para preparar a mente antes de actuar.\nQue é unha persoa persistente, segundo el?\nÉ a que se levanta unha e outra vez, non a que nunca cae.\nPor que o dubidoso está entre dous camiños?\nPorque dubidar está ligado ao número dous."
+    },
+    {
+      "title": "Unha visita guiada co conserxe",
+      "summary": "Práxedes Torreiro, caretaker of an old Vigo building that is now a cultural centre, shows a group round and explains the words of its past: the bank branch, the coach house, the workers' canteen, the street sweeper, the online link and the company that sponsors the visits.",
+      "newWords": [
+        "conserxe",
+        "sucursal",
+        "cocheira",
+        "cantina",
+        "varredor",
+        "enlace",
+        "patrocinador"
+      ],
+      "text": "Práxedes Torreiro é conserxe dun edificio antigo do centro de Vigo que hoxe é un centro cultural. Os sábados pola mañá, ademais de abrir as portas e revisar as luces, guía unha visita gratuíta para quen queira coñecer a historia da casa. Este sábado esperábana once persoas no vestíbulo.\n\n«Empezo sempre pola miña propia palabra», dixo Práxedes. «Conserxe chegou ao galego desde o francés. Hai séculos, o conserxe era a persoa que gardaba as chaves dun edificio importante. Eu sigo gardando chaves, e moitas.» O grupo riu, e ela amosoulles o enorme chaveiro que levaba na cintura.\n\nNa planta baixa, explicou, houbo durante cincuenta anos unha sucursal dun banco. «Sucursal vén dun verbo latino que significa axudar», contou. «Unha sucursal era unha oficina pequena que axudaba á oficina principal.» Aínda se conserva o vello mostrador de madeira da sucursal, onde agora se venden os libros do centro.\n\nDespois levounos ao patio de atrás, onde hai unha porta grande de ferro. «Isto era a cocheira», dixo. «Aquí gardaban os coches de cabalos. A palabra coche, curiosamente, vén do nome dunha vila de Hungría onde se facían carruaxes moi boas.» Hoxe a cocheira é unha sala de exposicións, pero a porta e o chan de pedra son os orixinais.\n\nAo lado estaba a antiga cantina dos empregados. «Na cantina comían os traballadores do banco e do porto», explicou Práxedes. «A palabra é italiana: alí nomeaba un soto fresco onde se gardaban os alimentos.» A cantina conserva os azulexos brancos e azuis, e agora é a cafetaría do centro.\n\nUnha visitante preguntou por unha fotografía antiga que había na parede: un home cunha vasoira na rúa. «É o varredor do barrio, en 1930», dixo Práxedes. «Varredor vén de varrer. Ese home varreu esta rúa durante trinta anos. Os veciños queríano moito, e o centro decidiu poñer aquí a súa foto.»\n\nAo final da visita, Práxedes falou das cousas novas. Na web do centro hai un enlace para reservar as visitas, e outro enlace para descargar un plano do edificio. «A palabra enlace vén de lazo», explicou. «Un enlace é un lazo entre dúas cousas: entre vostedes e nós, por exemplo.» Tamén lles presentou o patrocinador das visitas, unha empresa de Vigo que paga os folletos e a restauración das fotografías. «Patrocinador vén dunha palabra latina que nomeaba a protección que unha persoa lle daba a outra», dixo. «Sen o patrocinador, non poderiamos facer isto gratis.»\n\nO grupo despediuse no vestíbulo, e Práxedes volveu ás súas tarefas de conserxe: pechar as fiestras, apagar as luces e contar as chaves.\n\nPreguntas:\nQue fai Práxedes os sábados pola mañá?\nAbre as portas, revisa as luces e guía unha visita gratuíta polo edificio.\nQue había na planta baixa durante cincuenta anos?\nHabía unha sucursal dun banco.\nQue se gardaba na cocheira?\nGardábanse os coches de cabalos.\nQue significaba cantina en italiano?\nNomeaba un soto fresco onde se gardaban os alimentos.\nQuen é o home da fotografía antiga?\nÉ o varredor do barrio, en 1930.\nQue paga o patrocinador das visitas?\nPaga os folletos e a restauración das fotografías."
+    },
+    {
+      "title": "Columna: as palabras da matrona",
+      "summary": "Midwife Alodia Meilán of Lugo writes about the words she uses every day with expectant mothers: the maternity ward, reminder messages for check-ups, hygienic habits during a flu epidemic, an iron deficiency, the imprudence of strong insecticides, and where each word comes from.",
+      "newWords": [
+        "maternidade",
+        "recordatorio",
+        "epidemia",
+        "hixiénico",
+        "deficiencia",
+        "imprudencia",
+        "insecticida"
+      ],
+      "text": "Alodia Meilán é matrona no hospital de Lugo, e unha vez ao mes escribe unha columna para a revista do centro de saúde. Este mes decidiu escribir sobre as palabras que usa cada día coas mulleres embarazadas, porque, di, «unha palabra ben explicada tranquiliza máis ca un folleto enteiro».\n\nA primeira é a do seu propio lugar de traballo: a maternidade. A palabra vén do latín, de nai. A maternidade é o feito de ser nai, pero tamén a planta do hospital onde nacen os bebés. Na maternidade de Lugo nacen uns catro bebés cada día, e Alodia leva alí quince anos.\n\nLogo está o recordatorio. Vén de recordar, e recordar ten dentro unha palabra latina que significaba corazón: os antigos pensaban que a memoria vivía no corazón. Hoxe, o recordatorio é unha mensaxe no teléfono que avisa da próxima revisión. Alodia insiste en que ninguén debe ignorar un recordatorio: as revisións do embarazo son curtas, pero moi importantes.\n\nCada inverno aparece outra palabra: epidemia. Vén do grego e significa, máis ou menos, «o que cae sobre a xente». Unha epidemia de gripe enche os centros de saúde durante unhas semanas, e as embarazadas deben coidarse especialmente. Durante unha epidemia, Alodia recomenda as medidas hixiénicas de sempre: lavar as mans a miúdo, abrir as fiestras da casa e usar panos dun só uso, que é o máis hixiénico. A palabra hixiénico vén tamén do grego, dunha palabra que significaba san.\n\nNas análises do embarazo aparece ás veces unha deficiencia de ferro. Deficiencia vén dun verbo latino que significa faltar: hai unha deficiencia cando falta algo que o corpo necesita. «Unha deficiencia de ferro é moi común e ten fácil solución», explica Alodia. «Comer lentellas e espinacas axuda moito, e se non chega, o médico receita uns comprimidos.»\n\nNo verán, a palabra que máis escoita é insecticida. Na zona de Lugo hai moitos mosquitos, e moitas familias queren limpar a casa con insecticida antes de que chegue o bebé. Insecticida está feita de insecto e dunha terminación latina que indica que algo elimina. Alodia aconsella non usar un insecticida forte no cuarto do bebé. «Sería unha imprudencia», escribe. «Mellor unha rede na fiestra.» Imprudencia vén de prudente, e prudente ten unha orixe fermosa: en latín era a persoa que ve as cousas antes de que pasen. A imprudencia, polo tanto, é non mirar cara adiante.\n\nAlodia remata a columna cun consello sinxelo: preguntar sempre. «Ningunha pregunta é parva na maternidade», di. «A peor imprudencia é quedar coa dúbida.»\n\nPreguntas:\nOnde traballa Alodia Meilán?\nTraballa como matrona no hospital de Lugo.\nQue dúas cousas significa a palabra maternidade?\nSignifica o feito de ser nai e tamén a planta do hospital onde nacen os bebés.\nPara que serve hoxe un recordatorio?\nÉ unha mensaxe no teléfono que avisa da próxima revisión.\nQue medidas hixiénicas recomenda Alodia durante unha epidemia?\nLavar as mans a miúdo, abrir as fiestras e usar panos dun só uso.\nQue axuda contra unha deficiencia de ferro?\nComer lentellas e espinacas e, se non chega, uns comprimidos.\nPor que non aconsella un insecticida forte no cuarto do bebé?\nPorque sería unha imprudencia; é mellor unha rede na fiestra."
+    },
+    {
+      "title": "Tranquilina e os nomes do campo",
+      "summary": "On a rainy autumn day in Allariz, Tranquilina Amenedo, eighty, shows her grandson Acacio the old irrigation channel, the clay soil, the rope for the cart and the four-hundred-year-old house; when the downpour leaves the cart stuck, a push frees it and the mud splashes give her one more word to explain.",
+      "newWords": [
+        "rego",
+        "arxila",
+        "soga",
+        "catrocentos",
+        "diluviar",
+        "empurrón",
+        "salpicadura"
+      ],
+      "text": "Tranquilina Amenedo ten oitenta anos e vive nunha aldea preto de Allariz, nunha casa de pedra que ten máis de catrocentos anos. O seu neto Acacio estuda en Vigo e vai visitala algunhas fins de semana. Este outono, Acacio levou unha libreta, porque quería apuntar as palabras do campo que usa a avoa e que el non coñece.\n\nPola mañá saíron á horta. Ao longo da parede corría un rego estreito, cuberto de herba. «Por este rego baixaba a auga da fonte para as verzas», explicou Tranquilina. «Cando eu era nova, cada casa tiña o seu rego e cada familia sabía a que hora lle tocaba a auga.» Acacio apuntou a palabra rego e debuxou ao lado o camiño da auga.\n\nA terra da horta era pesada e escura. Tranquilina colleu un anaco e apertouno na man. «Isto ten moita arxila», dixo. «Cando chove, a arxila agarra as botas e non as solta.» Acacio buscou no teléfono e leu que arxila vén do grego, dunha palabra que significaba branco, porque a arxila máis fina era moi clara. A avoa riu: «A miña non é branca, pero fai uns potes moi bos».\n\nDespois foron ao alpendre, onde estaba o carro vello. Atado a el había unha soga grosa de esparto. «Con esta soga atabamos a herba no carro», contou Tranquilina. «A soga é moi antiga; xa a facía o meu avó, e a palabra é máis vella ca el.» Acacio apuntou que soga é unha palabra que o galego ten desde hai moitos séculos.\n\nAo mediodía o ceo púxose negro e comezou a diluviar. Tranquilina mirou pola fiestra e dixo: «Cando empeza a diluviar así, o rego enche en dez minutos». E así foi: a auga corría polo rego coma un río pequeno. Diluviar, explicou ela, vén de diluvio, a choiva máis grande que se pode imaxinar.\n\nPola tarde parou a choiva, e Acacio quixo levarlle ao veciño, no carro, un par de cestos que este lle pedira. Pero as rodas quedaron presas no barro. Acacio empurrou, e nada. «Isto precisa un empurrón de dous», dixo Tranquilina, e púxose ao seu lado. Cun bo empurrón, o carro saíu do barro.\n\nAcacio quedou cheo de salpicaduras de lama, desde as botas ata o pelo. A avoa mirouno e dixo: «Outra palabra para a túa libreta: salpicadura. Hai quen di que vén de sal e picar, porque as salpicaduras caen coma o sal sobre a comida». Acacio limpou as salpicaduras da cara e apuntou a palabra, a última do día.\n\nPreguntas:\nCantos anos ten a casa de Tranquilina?\nTen máis de catrocentos anos.\nPara que servía o rego da horta?\nPor el baixaba a auga da fonte para as verzas.\nDe que palabra grega vén arxila?\nVén dunha palabra que significaba branco.\nPara que usaban a soga de esparto?\nUsábana para atar a herba no carro.\nQue pasou co rego cando comezou a diluviar?\nEncheu en dez minutos e a auga corría coma un río pequeno.\nComo sacaron o carro do barro?\nCun empurrón de dous: Tranquilina púxose ao lado de Acacio."
+    },
+    {
+      "title": "Reportaxe: palabras novas para un vocabulario vivo",
+      "summary": "A report on lexicographer Filiberto Paramá, who reviews new words for an online Galician vocabulary: the compound videoxogo, the old Latin root inside adverbs like activamente, functional and conventional words, exclusive ones, and flashy or shocking coinages that do not last.",
+      "newWords": [
+        "videoxogo",
+        "activamente",
+        "funcional",
+        "convencional",
+        "exclusivo",
+        "rechamante",
+        "chocante"
+      ],
+      "text": "Filiberto Paramá traballa nunha pequena oficina da Coruña onde un equipo de cinco persoas revisa cada ano as palabras novas do galego. O seu traballo consiste en ler xornais, revistas e páxinas web, buscar as palabras que aparecen por primeira vez e decidir cales deben entrar nun vocabulario en liña que consultan miles de persoas.\n\nUnha das palabras que máis lle gusta explicar é videoxogo. «É un bo exemplo de como nacen as palabras», di. «Non fixo falta inventar nada: xuntamos vídeo e xogo, dúas palabras que xa tiñamos.» Hoxe videoxogo é unha palabra común, e Filiberto lembra que, cando entrou no vocabulario, algúns lectores protestaron porque lles parecía demasiado moderna. «Agora ninguén pensa que un videoxogo sexa algo raro.»\n\nFiliberto participa activamente nos encontros con profesores e escolas. Nesas charlas conta unha curiosidade que sorprende sempre: as palabras en -mente, como activamente, veñen dunha palabra latina que significaba mente. «Cando dicimos que alguén traballa activamente, en orixe diciamos que traballa cunha mente activa», explica.\n\nPara el, unha boa palabra nova ten que ser funcional. Funcional vén de función, e función vén dun verbo latino que significaba cumprir. «Unha palabra funcional cumpre o seu traballo: nomea algo que non tiña nome, e faino dun xeito que todos entenden.» Por iso, ás veces, prefire unha forma convencional a unha forma orixinal. Convencional vén de convención, e convención vén dun verbo que significaba vir xuntos: unha palabra convencional é a que a xente acordou usar.\n\nHai palabras que nacen para un público exclusivo, só para un grupo de especialistas. Exclusivo vén de excluír, que en latín significaba pechar fóra. «Un vocabulario exclusivo de médicos ou de informáticos non sempre debe entrar», di Filiberto. «Primeiro ten que saír do seu grupo.»\n\nO equipo tamén recibe propostas rechamantes. Rechamante é o que chama moito a atención, coma unha camisa amarela nunha reunión de traballo; a palabra está feita sobre chamar. «As palabras rechamantes duran pouco», explica Filiberto. «Todo o mundo as usa un verán e ao ano seguinte xa ninguén se lembra delas.» Por iso o equipo espera polo menos tres anos antes de aceptar unha palabra nova.\n\nAlgunhas propostas son mesmo chocantes. Filiberto garda nun caderno as máis chocantes que recibiu: palabras feitas con tres idiomas á vez, ou nomes de marcas que alguén quería converter en verbos. «Chocante vén de chocar», di. «Unha palabra chocante choca contra o que esperamos. Ás veces iso é bo, e a palabra queda; outras veces só é ruído.»\n\nAo final da conversa, Filiberto resume o seu traballo nunha frase: «Nós non inventamos a lingua. Só miramos con atención o que fai a xente coas palabras e tomamos nota».\n\nPreguntas:\nEn que consiste o traballo de Filiberto Paramá?\nConsiste en buscar as palabras novas e decidir cales deben entrar nun vocabulario en liña.\nComo naceu a palabra videoxogo?\nNaceu ao xuntar vídeo e xogo, dúas palabras que xa existían.\nDe onde veñen as palabras en -mente, como activamente?\nVeñen dunha palabra latina que significaba mente.\nQue fai unha palabra funcional?\nCumpre o seu traballo: nomea algo que non tiña nome dun xeito que todos entenden.\nQue significaba excluír en latín?\nSignificaba pechar fóra.\nPor que espera o equipo tres anos antes de aceptar unha palabra nova?\nPorque as palabras rechamantes duran pouco e ao ano seguinte xa ninguén se lembra delas."
+    },
+    {
+      "title": "Columna: as palabras da perruquería",
+      "summary": "Pontevedra stylist Argimira Corbal writes about the words of her trade: the stylist and the Roman writing stick, eyelashes, the artifice of a good haircut, a kind old customer, why no one's opinion should be disregarded and the marginal notes in her appointment book.",
+      "newWords": [
+        "estilista",
+        "pestana",
+        "artificio",
+        "bondadoso",
+        "desconsiderar",
+        "marxinal"
+      ],
+      "text": "Argimira Corbal ten unha perruquería pequena no centro de Pontevedra desde hai dezaoito anos. Desde a primavera escribe unha columna mensual para un xornal da cidade, e esta vez quixo falar das palabras do seu oficio.\n\n«Na miña tarxeta pon estilista», escribe. «Durante anos pensei que era unha palabra moderna, pero ten unha historia moi antiga.» Estilista vén de estilo, e estilo vén do latín: era o nome dun pau con punta que os romanos usaban para escribir en táboas de cera. Co tempo, o estilo pasou a ser a maneira de escribir de cada persoa, e despois a maneira de vestir ou de peitearse. Un estilista, polo tanto, é alguén que axuda a cada persoa a atopar a súa propia maneira. A Argimira gústalle esta idea: un bo estilista non impón o seu gusto, senón que escoita.\n\nDespois fala das pestanas. Moitas clientas pídenlle que lles tinga as pestanas para unha voda ou unha festa. Argimira conta que a orixe da palabra pestana non está clara, e que os especialistas aínda discuten sobre ela. «Gústame que unha cousa tan pequena coma unha pestana teña unha historia tan escura», escribe.\n\nA palabra que máis lle interesa é artificio. Vén de dúas palabras latinas, arte e facer: un artificio é algo feito con arte. Hoxe moitas veces usamos a palabra para algo falso, pero Argimira defende o seu sentido orixinal. «Un bo corte de pelo é un artificio, porque está feito con arte, pero non debe parecer artificio. O mellor artificio é o que non se nota.»\n\nNa columna fala tamén dunha clienta, dona Pancracia, que vai á perruquería cada venres desde hai quince anos. É unha muller bondadosa que sempre leva caramelos para os nenos que esperan. «Bondadoso vén de bondade, e bondade vén de bo», escribe Argimira. «Dona Pancracia é bondadosa sen esforzo, como quen respira.» Pancracia sempre opina sobre os cortes das outras clientas, e Argimira aprendeu a escoitala. «Non se debe desconsiderar a opinión de ninguén», escribe. «Unha persoa desconsiderada non escoita, e unha perruquería sen escoita é só unhas tesoiras.» Desconsiderar é o contrario de considerar, e considerar, segundo algúns estudosos, significaba en orixe mirar as estrelas con atención. Para Argimira, desconsiderar unha clienta é deixar de mirala.\n\nArgimira remata coa súa axenda de citas, que está chea de notas marxinais. Na marxe de cada páxina apunta os gustos das clientas: quen quere o café sen azucre, quen prefire non falar. «Esas notas marxinais son o máis importante da axenda», confesa. «Marxinal vén de marxe, pero o que está na marxe non sempre é secundario.»\n\nPreguntas:\nOnde ten Argimira a súa perruquería?\nTena no centro de Pontevedra desde hai dezaoito anos.\nQue era o estilo para os romanos?\nEra un pau con punta para escribir en táboas de cera.\nQue se sabe da orixe da palabra pestana?\nA súa orixe non está clara e os especialistas aínda discuten sobre ela.\nCal é o mellor artificio, segundo Argimira?\nO mellor artificio é o que non se nota.\nPor que é bondadosa dona Pancracia?\nPorque sempre leva caramelos para os nenos que esperan.\nQue apunta Argimira nas notas marxinais da axenda?\nApunta os gustos das clientas, como quen quere o café sen azucre."
+    },
+    {
+      "title": "Cen anos de coro en Betanzos",
+      "summary": "Choir director Godofredo Riveiro of Betanzos prepares a concert commemorating the choir's hundredth year: he researches old programmes, explains the Italian music words imported into Galician, rules staves by hand, remembers last year's storm suspension and calls the singers indispensable.",
+      "newWords": [
+        "conmemoración",
+        "pesquisar",
+        "andante",
+        "importación",
+        "pautar",
+        "suspensión",
+        "indispensable"
+      ],
+      "text": "Godofredo Riveiro dirixe o coro da súa vila, en Betanzos, desde hai once anos. Este ano o coro cumpre cen anos, e Godofredo prepara un concerto especial de conmemoración para o mes de xuño. Para a conmemoración quere cantar as mesmas pezas que o coro cantou no seu primeiro concerto, en 1926.\n\nO primeiro problema foi saber cales eran esas pezas. Godofredo pasou varias tardes no arquivo municipal, onde puido pesquisar entre caixas de papeis antigos. «Pesquisar nun arquivo é lento», conta, «pero cada papel é unha pequena alegría.» Ao final atopou o programa do primeiro concerto, impreso nun papel amarelo, cos nomes das seis pezas e dos vinte e dous cantores. Tamén pesquisou nos xornais da época, que falaban do concerto con moito entusiasmo.\n\nUnha das pezas leva no principio unha indicación en italiano: andante. Godofredo aproveitou o ensaio para explicarlles aos cantores de onde vén a palabra. «Andante vén do verbo italiano que significa andar», dixo. «Un tempo andante é o dunha persoa que camiña tranquila, nin rápido nin lento.» Engadiu que moitas palabras da música, como piano, soprano ou andante, chegaron ao galego por importación desde o italiano. «Foi unha importación de palabras, coma quen importa froita: Italia tiña unha música moi admirada, e con ela viñeron os seus nomes.»\n\nO programa de 1926 non traía as partituras completas, así que Godofredo tivo que copiar algunhas a man. Primeiro tivo que pautar as follas en branco, debuxando as cinco liñas de cada pentagrama cunha regra. «Pautar á man é un traballo de paciencia», di. «A palabra pauta vén dunha palabra latina que significaba acordo: a pauta é o acordo que todos os músicos seguen.» Godofredo tamén aprendeu a pautar os ensaios: cada semana ten un plan claro, peza por peza.\n\nO ano pasado, o concerto de verán do coro sufriu unha suspensión por culpa dunha tormenta. Por iso, esta vez a conmemoración será nun lugar cuberto, no auditorio municipal. «Unha suspensión no día dos cen anos sería unha pena», explica Godofredo. «Prefiro non arriscar.»\n\nAo final do ensaio, o director agradeceu o traballo aos trinta cantores actuais. «Un coro sen director pode cantar, pero un coro sen cantores non existe», díxolles. «Cada un de vós é indispensable.» Os cantores aplaudiron, e Godofredo pensou que indispensable era a palabra máis importante de todas: o que non se pode deixar de lado.\n\nPreguntas:\nPor que prepara Godofredo un concerto especial?\nPorque o coro de Betanzos cumpre cen anos e quere facer unha conmemoración.\nOnde puido pesquisar Godofredo os papeis antigos?\nPuido pesquisar no arquivo municipal, entre caixas de papeis antigos.\nQue significa o verbo italiano do que vén andante?\nSignifica andar.\nComo chegaron ao galego moitas palabras da música?\nChegaron por importación desde o italiano.\nQue tivo que facer Godofredo antes de copiar as partituras?\nTivo que pautar as follas en branco, debuxando as cinco liñas cunha regra.\nPor que será a conmemoración nun lugar cuberto?\nPorque o ano pasado houbo unha suspensión por culpa dunha tormenta."
+    }
+  ]
+}
