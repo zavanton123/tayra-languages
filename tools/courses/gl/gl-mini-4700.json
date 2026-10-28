@@ -1,0 +1,208 @@
+{
+  "id": "gl-mini-4700",
+  "rankUpTo": 4700,
+  "level": "C1",
+  "title": "Vivir lonxe da casa",
+  "description": "Ten stories, portraits, letters and columns about Galicians who live, work and study far from home, from Tokyo to Montevideo.",
+  "topic": "Living far from home",
+  "names": [
+    "Viviana",
+    "Tokio",
+    "Lalín",
+    "Vigo",
+    "Héitor",
+    "Garabal",
+    "Ribadavia",
+    "Londres",
+    "Galicia",
+    "Santiago",
+    "Arume",
+    "Rañó",
+    "Viena",
+    "Mozart",
+    "Beethoven",
+    "Teis",
+    "Ámsterdam",
+    "Celanova",
+    "Pieter",
+    "Sophie",
+    "Ourense",
+    "Edimburgo",
+    "Samanta",
+    "Ruth",
+    "Lugo",
+    "Zürich",
+    "Orestes",
+    "Chloe",
+    "Joel",
+    "Vitorino",
+    "Saínza",
+    "Paysandú",
+    "Uruguai",
+    "Xervasio",
+    "Coruña",
+    "Montevideo",
+    "Caracas",
+    "Chacao",
+    "Xilberte",
+    "Cotarelo",
+    "Verín",
+    "Venezuela",
+    "Dante",
+    "Wilson",
+    "Bastián",
+    "Eiroa",
+    "Mondoñedo",
+    "Erika",
+    "Gestal",
+    "Ortigueira",
+    "Darmstadt",
+    "Marte"
+  ],
+  "lessons": [
+    {
+      "title": "Un correo desde Tokio",
+      "summary": "Viviana, a Galician engineer whose company has moved her to Tokyo, writes to her grandmother about the move, her old backpack, the signs she cannot read, prices in yen and the shortcut she takes to work.",
+      "newWords": [
+        "traslado",
+        "mochila",
+        "enxeñaría",
+        "letreiro",
+        "ien",
+        "relativamente",
+        "habitualmente",
+        "atallo"
+      ],
+      "text": "Querida avoa:\n\nHoxe fai xusto un mes que cheguei a Tokio e por fin teño un domingo tranquilo para escribirche con calma. Xa sei que prefires as chamadas, pero aquí, cando ti te levantas, eu xa estou a cear, e así é moi difícil coincidir.\n\nO traslado foi máis doado do que eu temía. A empresa pagou o traslado e encargouse de case todo: o voo, o piso e mesmo as clases de idioma. Eu só trouxen dúas maletas e a miña mochila vella, a vermella que me regalaches cando empecei a enxeñaría en Vigo. Lembras que dicías que era demasiado grande? Pois aquí levo esa mochila todos os días: dentro van o ordenador, o paraugas e unha botella de auga.\n\nNo traballo estou contenta. Somos un equipo de enxeñaría de doce persoas e eu son a única estranxeira. Deseñamos pontes para o tren, coma as que eu estudaba na facultade, pero moito máis grandes. Os meus compañeiros falan inglés comigo e teñen moita paciencia.\n\nO que máis me custa son os letreiros. Na rúa hai letreiros por todas partes, enriba das tendas, nas estacións e nas máquinas de bebidas, e eu case non entendo ningún. Os primeiros días collín dúas veces o tren equivocado por culpa dun letreiro. Agora fíxome nos números e nas cores, e xa me perdo menos.\n\nTamén me preguntabas polos cartos. Aquí todo se paga en iens, e ao principio parecíame todo carísimo: un café custa 500 iens! Logo fixen as contas e vin que son uns tres euros, así que a vida é relativamente barata, máis do que eu pensaba. O piso, iso si, é pequeno: a cociña e o salón son o mesmo cuarto. Para Tokio, dinme, é relativamente grande.\n\nHabitualmente érgome ás seis e media, almorzo arroz e sopa (si, avoa, sopa pola mañá!) e vou camiñando ata a oficina. Hai un atallo polo medio dun parque pequeno, cheo de árbores e de xente maior que fai exercicio. Descubrín ese atallo na segunda semana grazas a unha veciña, e agora vou por el todas as mañás. Polo atallo tardo quince minutos; pola avenida, vinte e cinco.\n\nOs sábados habitualmente vou ao mercado do barrio. Hai peixe por todas partes e acórdome moito de ti e da praza de Lalín.\n\nNon te preocupes por min. Estou ben, como ben e durmo ben. No verán volvo para a casa unhas semanas e levareiche uns doces de aquí.\n\nUnha aperta moi forte,\n\nViviana\n\nPreguntas:\nCanto tempo leva Viviana en Tokio?\nLeva un mes en Tokio.\nQuen pagou o traslado?\nA empresa pagou o traslado e encargouse de case todo.\nQue leva Viviana na mochila?\nLeva o ordenador, o paraugas e unha botella de auga.\nPor que colleu dúas veces o tren equivocado?\nPorque non entendeu un letreiro.\nCanto custa un café en Tokio?\nCusta 500 iens, uns tres euros.\nPor onde vai Viviana ao traballo?\nVai por un atallo polo medio dun parque pequeno."
+    },
+    {
+      "title": "Un cirurxián de Ribadavia en Londres",
+      "summary": "A portrait of Héitor Garabal, a hand surgeon from Ribadavia who chose to work in London: the precision of his job, the pace of the city, the therapy after each operation, ethics and his patients' thank-you letters.",
+      "newWords": [
+        "cirurxián",
+        "voluntariamente",
+        "precisión",
+        "denantes",
+        "intensidade",
+        "terapia",
+        "ética",
+        "agradecemento"
+      ],
+      "text": "Héitor Garabal naceu en Ribadavia hai corenta e oito anos e leva dezaoito en Londres, onde traballa como cirurxián da man nun gran hospital público. Opera dedos e pulsos, e moitos dos seus pacientes son músicos, cociñeiros ou carpinteiros que precisan as mans para vivir. Falamos con el nunha cafetaría preto do hospital, nunha das súas poucas tardes libres.\n\nPor que marchou de Galicia? Héitor explica que foi voluntariamente, non por necesidade. «Tiña traballo en Vigo, pero quería aprender cos mellores cirurxiáns da man, e moitos estaban aquí. Marchei voluntariamente e con ilusión, aínda que a miña nai chorou no aeroporto.»\n\nQue é o máis difícil do seu oficio? «A precisión», responde sen dubidar. «Na man todo é pequeno: hai partes que teñen o groso dun fío. Un cirurxián da man traballa cunha precisión de milímetros. Non hai sitio para a présa.» Para manter esa precisión, coida o corpo coma un deportista: durme oito horas, non toma café antes de operar e nada tres veces por semana.\n\nOs primeiros anos en Londres foron duros. Denantes de chegar, Héitor imaxinaba unha cidade gris e tranquila; atopou unha cidade enorme e rápida, onde todo se vivía con intensidade. «Traballabamos doce horas, e a intensidade daquel hospital non se parecía a nada que eu coñecese. Denantes eu pensaba que era unha persoa organizada; aquí aprendín o que é organizarse de verdade.»\n\nA operación é só a metade do traballo, insiste. Despois vén a terapia: semanas ou meses de exercicios para que a man volva moverse ben. «Sen terapia, a mellor operación serve de pouco. Explícollo a cada paciente: o meu traballo dura dúas horas; o seu, coa terapia, dura meses.»\n\nFalamos tamén de ética. No hospital hai un grupo de médicos e enfermeiras que estuda os problemas de ética, e Héitor forma parte del. «A ética non é só para os libros. Cada día hai que decidir a quen operamos primeiro, ou como lle dicimos a verdade a un paciente cando a súa man non vai quedar coma antes.»\n\nQue trouxo da súa terra? Ri. «O acento, que non perdín, e o costume de dar as grazas.» Conta que os pacientes lle mandan cartas de agradecemento e que as garda todas nunha caixa no despacho. «Un vello pianista escribiume que volvera tocar un ano despois da operación. Esa carta de agradecemento vale máis ca calquera premio.» Ao final da conversa, Héitor confesa que el tamén sente agradecemento: polos profesores que o formaron en Santiago e pola cidade que o recibiu.\n\nPreguntas:\nOnde traballa Héitor Garabal?\nTraballa como cirurxián da man nun gran hospital público de Londres.\nPor que marchou de Galicia?\nMarchou voluntariamente, porque quería aprender cos mellores cirurxiáns da man.\nQue é o máis difícil do seu oficio?\nO máis difícil é a precisión, porque na man todo é pequeno.\nComo era Londres para Héitor nos primeiros anos?\nEra unha cidade enorme e rápida, onde todo se vivía con intensidade.\nQue vén despois da operación?\nDespois vén a terapia, semanas ou meses de exercicios.\nQue garda Héitor nunha caixa no despacho?\nGarda as cartas de agradecemento dos seus pacientes."
+    },
+    {
+      "title": "Unha voz de Vigo en Viena",
+      "summary": "A portrait of the soprano Arume Rañó: the seven-minute audition that took her from Vigo to Vienna, the splendour of the city, a symphony with a great orchestra, the harmony of the company and an avant-garde opera about to open.",
+      "newWords": [
+        "audición",
+        "ópera",
+        "esplendor",
+        "sinfonía",
+        "harmonía",
+        "sensibilidade",
+        "vangarda",
+        "inminente"
+      ],
+      "text": "Arume Rañó tiña vinte e tres anos cando colleu un avión en Vigo cunha maleta, unha carpeta de partituras e unha cita para unha audición. A audición era no gran teatro da ópera de Viena e durou exactamente sete minutos. Cantou unha peza de Mozart, deu as grazas e saíu á rúa convencida de que non a ían chamar. Chamárona dous días despois.\n\nDesde aquela pasaron doce anos. Hoxe Arume é unha das sopranos da compañía e vive nun piso pequeno a dez minutos do teatro. «Lembro aquela audición coma se fose onte», conta. «Tremíanme as pernas. Despois fixen moitas audicións, pero ningunha coma aquela.»\n\nO primeiro que a impresionou foi o esplendor da cidade. Viena vive a música coma ningunha outra: hai concertos todas as noites, as salas brillan de ouro e de luz, e a xente vai á ópera coma quen vai ao cine. «Ao principio aquel esplendor dábame un pouco de medo», recoñece. «Eu viña de cantar no coro do meu barrio, en Teis. Aquí todo era enorme.»\n\nCo tempo, Arume descubriu que detrás do esplendor hai moito traballo e moita disciplina. Ensaia seis horas ao día e coida a voz coma un tesouro. O ano pasado cantou tamén unha sinfonía de Beethoven coa orquestra da cidade. «Nunha ópera es un personaxe; nunha sinfonía es só unha voz máis entre cen músicos. Aprendes a escoitar.»\n\nEscoitar é, para ela, a clave de todo. Nunha compañía de ópera traballan xuntas persoas de vinte países, e a harmonía non sempre é doada. «A harmonía da música hai que construíla tamén fóra do escenario», explica. «Se non nos entendemos tomando un café, tampouco nos entendemos cantando.»\n\nOs críticos destacan a súa sensibilidade. Arume non ten a voz máis potente da compañía, pero cada palabra que canta parece dita por primeira vez. Ela pensa que esa sensibilidade lle vén da casa: o seu pai cantaba cantigas mentres cociñaba, e a nai, mestra de música, ensinoulle a respirar.\n\nAgora prepara algo novo: unha ópera de vangarda dun compositor novo, sen melodías fáciles, con sons electrónicos e silencios longos. A estrea é inminente: será o sábado. «Moita xente pensa que a música de vangarda é fría. Eu non o creo. Só hai que escoitala sen présa.» Coa estrea tan inminente, xa non sae de noite e fala o menos posible para coidar a voz.\n\nCando chega o verán, Arume volve a Vigo. Alí non canta en ningún teatro: canta na cociña, coma o seu pai.\n\nPreguntas:\nCanto durou a primeira audición de Arume en Viena?\nDurou exactamente sete minutos.\nQue impresionou primeiro a Arume en Viena?\nImpresionouna o esplendor da cidade.\nQue cantou Arume o ano pasado coa orquestra?\nCantou unha sinfonía de Beethoven.\nPor que non sempre é doada a harmonía na compañía?\nPorque traballan xuntas persoas de vinte países.\nDe onde lle vén a sensibilidade a Arume?\nEla pensa que lle vén da casa, do seu pai e da súa nai.\nComo é a ópera de vangarda que prepara?\nNon ten melodías fáciles e ten sons electrónicos e silencios longos."
+    },
+    {
+      "title": "Almorzar lonxe",
+      "summary": "A columnist from Celanova living in Amsterdam weighs adapting to local breakfasts against keeping her own: her flatmates' strong cheese and cereal, her grandmother's crockery and the online newspaper she rereads every morning.",
+      "newWords": [
+        "fedorento",
+        "exquisito",
+        "cereal",
+        "vitamina",
+        "louza",
+        "periódico",
+        "reler"
+      ],
+      "text": "Levo seis anos vivindo en Ámsterdam e hai unha cousa que aínda non cambiei: o almorzo. Cada mañá, mentres a cidade enteira come pan con queixo, eu fago unha torrada, bótolle un fío de aceite e tomo un café con leite. É o almorzo da casa da miña nai en Celanova, e non o deixo nin cando estou de viaxe.\n\nOs meus compañeiros de piso miran a miña torrada con curiosidade. Pieter, que naceu aquí, almorza pan escuro cun queixo curado tan fedorento que ás oito da mañá enche toda a cociña. «Para min o teu aceite é estraño», dime, «e para ti o meu queixo é fedorento. Estamos en paz.» Ten razón, claro. O que a un lle parece exquisito, ao outro parécelle raro.\n\nSophie, a outra compañeira, é máis práctica: unha cunca de cereal con leite e unha mazá. Di que o cereal lle dá enerxía para toda a mañá e que, coa froita, xa ten as vitaminas do día. Eu dubido que unha cunca de cereal sexa o mellor almorzo do mundo, e non sei se as vitaminas dunha mazá chegan para tanto, pero recoñezo que ela sae da casa en cinco minutos e eu en vinte.\n\nHai quen pensa que quen vive fóra debería adaptarse en todo, tamén na mesa. Comprendo a idea: probar o almorzo do sitio é unha forma de entender a xente. Os primeiros meses probeino todo: o queixo, o pan escuro e uns grans de chocolate que se botan enriba da manteiga. Algún queixo pareceume exquisito; outras cousas, non tanto.\n\nPero tamén penso que hai costumes que nos sosteñen. O almorzo é o primeiro momento do día, aínda en silencio, e nese momento eu necesito algo coñecido. Por iso trouxen da casa dúas cuncas de louza branca e azul que eran da miña avoa. Son vellas e non fan xogo con ningunha outra louza do piso, pero o café sabe mellor nelas. Cando fago a torrada e collo esa louza, estou un pouco en Celanova.\n\nTamén forma parte do ritual o periódico. Leo no móbil un periódico de Ourense: as noticias da comarca, o tempo que vai facer, as feiras. Ás veces releo dúas veces o mesmo artigo, só polo gusto de ler as palabras da miña terra. A miña nai ri cando llo conto: ela non le o periódico, escoita a radio. Pero onte chamoume para dicirme que ela tamén releu dúas veces unha noticia: a dunha veciña que abriu unha panadaría.\n\nQuizais o equilibrio estea niso: comer o queixo fedorento de Pieter os domingos, cando hai tempo, e gardar a torrada para os días de traballo. Adaptarse non significa esquecer. Mañá, outra vez, releo o periódico coa cunca da avoa na man.\n\nPreguntas:\nQue almorza a autora cada mañá?\nAlmorza unha torrada con aceite e un café con leite.\nComo é o queixo de Pieter?\nÉ un queixo curado moi fedorento.\nQue almorza Sophie?\nAlmorza unha cunca de cereal con leite e unha mazá.\nQue trouxo a autora da casa?\nTrouxo dúas cuncas de louza branca e azul que eran da súa avoa.\nPor que relé ás veces o mesmo artigo do periódico?\nPorque lle gusta ler as palabras da súa terra.\nQue significa adaptarse para a autora?\nPara ela adaptarse non significa esquecer."
+    },
+    {
+      "title": "Diario de Edimburgo",
+      "summary": "Samanta, a student from Lugo spending a year in Edinburgh with her friend Ruth, writes in her diary while both are in bed with flu: a parcel and an invitation at the residence's front desk, the gym they cannot go to and her mother's goodbye.",
+      "newWords": [
+        "influenza",
+        "nosoutras",
+        "recepción",
+        "eis",
+        "invitación",
+        "cecais",
+        "ximnasio",
+        "abur"
+      ],
+      "text": "Edimburgo, 14 de novembro\n\nHoxe tampouco fun á universidade. Levo tres días na cama coa influenza, e Ruth, a miña compañeira de cuarto, tampouco está moi ben. O médico da residencia di que este ano a influenza chegou cedo e que medio edificio está igual ca nosoutras: con febre, tose e moitas ganas de durmir. Nosoutras chegamos de Lugo en setembro para estudar un ano aquí e compartimos un cuarto pequeno no terceiro andar.\n\nPola mañá baixei á recepción a buscar un paquete. A muller da recepción, unha señora maior moi amable, mirou para a miña cara e mandoume de novo para a cama. O paquete era da miña nai. Eis o que había dentro: castañas, chocolate, dous pares de calcetíns de la e un bote de mel. Ruth e mais eu tomamos o mel cun té quente e sentímonos un pouco mellor.\n\nNa recepción tamén había unha invitación para nós. A asociación de estudantes organiza o sábado unha cea de benvida para os estudantes de fóra, con música e xogos. Na invitación pon que cada persoa ten que levar un prato da súa terra. Ruth quere facer empanada; eu, tortilla. Cecais fagamos as dúas cousas, se nos curamos a tempo.\n\nA outra mala noticia é o ximnasio. Apuntámonos o primeiro día no ximnasio da universidade, que é enorme e moi barato, e iamos tres tardes por semana. Coa influenza, claro, nin pensar niso. Ruth di que, cando estea curada, irá ao ximnasio todos os días para recuperar o tempo perdido. Eu coñézoa ben: cecais vaia dous días.\n\nÁ tarde chamou a miña nai por vídeo. Viume coa cara vermella e quería coller un avión. Expliqueille que a influenza dura unha semana, que a residencia ten médico e que nosoutras nos coidamos a unha á outra. Ao final quedou máis tranquila. Antes de colgar díxome «abur, filliña», coma sempre, e eu sentín unhas ganas enormes de estar na súa cociña.\n\nRuth estaba ao meu lado e escoitouno. «Que quere dicir abur?», preguntoume. Ruth tamén é de Lugo, pero na súa casa sempre din adeus. Expliqueille que na aldea da miña nai a xente maior di abur para despedirse. Agora Ruth dío todo o tempo, ata á señora da recepción.\n\nEis o plan para mañá: durmir, beber moita auga, ler un pouco e, se hai forzas, baixar á recepción para confirmar que imos á cea do sábado.\n\nPreguntas:\nPor que non foi Samanta á universidade?\nPorque leva tres días na cama coa influenza.\nQue había no paquete da nai?\nHabía castañas, chocolate, dous pares de calcetíns de la e un bote de mel.\nQue atopou tamén Samanta na recepción?\nAtopou unha invitación para a cea de benvida do sábado.\nQue ten que levar cada persoa á cea?\nTen que levar un prato da súa terra.\nQue di Ruth que vai facer cando estea curada?\nDi que irá ao ximnasio todos os días.\nQue lle di a nai a Samanta antes de colgar?\nDille «abur, filliña», coma sempre."
+    },
+    {
+      "title": "Unha semana no acampamento",
+      "summary": "Orestes, a young monitor who spent his own childhood summers at a camp by a lake near Zürich, looks after Chloe and her little brother Joel: a torch at dusk, a fright in the night, tickles and flippers in the lake.",
+      "newWords": [
+        "acampamento",
+        "nenez",
+        "noitiña",
+        "lanterna",
+        "feroz",
+        "susto",
+        "cóxegas",
+        "aleta"
+      ],
+      "text": "Cada verán, unha asociación de familias de Galicia que viven en Zürich organiza un acampamento dunha semana nas montañas, á beira dun lago. Van uns trinta nenos e nenas de oito a doce anos, fillos e netos de xente que marchou da terra hai tempo. No acampamento fálase galego, cántanse cancións de alí e cómese empanada o último día.\n\nOrestes ten vinte e catro anos e é monitor desde hai tres veráns. El tamén foi ao acampamento de neno, e a súa nenez está chea de recordos daquel lago, das tendas de campaña e das cancións ao redor do lume. «Volver como monitor é coma volver á miña nenez», di. «Só que agora son eu quen ten que contar os nenos antes de durmir.»\n\nEste ano ten no seu grupo dous irmáns, Chloe e Joel. Chloe ten nove anos e non lle ten medo a nada. Joel ten oito e é a primeira vez que dorme fóra da casa. A primeira noite, á noitiña, cando o sol se escondeu detrás das montañas, Joel achegouse a Orestes cunha lanterna na man. Quería saber se no bosque había lobos.\n\nOrestes apagou a lanterna e explicoulle que alí non había animais feroces, só esquíos, raposos e o can dun veciño, que ladra moito pero non é feroz. Despois volveu acender a lanterna e ensinoulle as estrelas.\n\nEsa noite, ás dúas da mañá, Joel espertou cun susto. Algo facía ruído fóra da tenda. Chamou a súa irmá e Chloe colleu a lanterna. Abriron a tenda amodo... e atoparon un ourizo pequeno que buscaba comida entre as mochilas. Que susto! Pero ao final riron tanto que espertaron a Orestes.\n\nPola mañá, Chloe contoulle a historia a todo o grupo. Joel quería que non a contase, e Chloe, para que se rise, fíxolle cóxegas. Joel ten moitas cóxegas, sobre todo nos pés, e acabou rindo coma todos.\n\nA actividade favorita da semana é o lago. Orestes reparte aletas para nadar, e os nenos aprenden a mover as pernas coas aletas postas. Joel puxo as aletas ao revés o primeiro día, pero o terceiro xa nadaba máis rápido que a súa irmá. Ao lado deles pasaban peixes pequenos, e Chloe intentaba ver como movían as aletas.\n\nO último día, á noitiña, todos cantaron ao redor do lume. Joel xa non pediu a lanterna. Só lle preguntou a Orestes se o verán seguinte podía volver ao acampamento.\n\nPreguntas:\nOnde é o acampamento?\nÉ nas montañas, á beira dun lago, preto de Zürich.\nPor que di Orestes que volver é coma volver á súa nenez?\nPorque el tamén foi ao acampamento de neno.\nQue quería saber Joel a primeira noite?\nQuería saber se no bosque había lobos.\nPor que espertou Joel cun susto?\nPorque algo facía ruído fóra da tenda.\nQue fixo Chloe para que o seu irmán rise?\nFíxolle cóxegas.\nQue aprenden os nenos no lago?\nAprenden a mover as pernas coas aletas postas."
+    },
+    {
+      "title": "O administrador de Paysandú",
+      "summary": "A portrait of Vitorino Saínza, grandson of a Galician who left a high bleak plateau for the Americas, who now runs a 400-hectare farm in Uruguay, rides its boundary every morning and keeps his grandfather's chessboard intact.",
+      "newWords": [
+        "administrador",
+        "hectárea",
+        "ultramar",
+        "páramo",
+        "perímetro",
+        "taboleiro",
+        "intacto",
+        "pulo"
+      ],
+      "text": "Vitorino Saínza é o administrador dunha granxa de gando de 400 hectáreas preto de Paysandú, no Uruguai. Non é o dono: a granxa pertence a unha cooperativa de vinte familias, e el encárgase de que todo funcione. Como administrador, organiza o traballo de doce persoas, leva as contas e decide cando se vende o gando.\n\nA súa historia empeza moi lonxe de alí. O seu avó, Xervasio Saínza, naceu nunha aldea da montaña de Lugo, nun páramo alto e frío onde no inverno a neve pechaba os camiños. Naquel páramo había pouca terra boa e moitas bocas que manter. En 1952, con dezanove anos, Xervasio colleu un barco na Coruña e marchou a ultramar, coma tantos mozos da súa aldea. Na casa dicían «ir a ultramar» coma quen di ir ao outro lado do mundo.\n\nXervasio traballou de peón en varias granxas e, con moitos anos de aforro, mercou un anaco de terra. «O meu avó contaba que na aldea a familia tiña dúas hectáreas repartidas en vinte leiras», conta Vitorino. «Aquí a primeira leira que mercou tiña trinta hectáreas, e el non acababa de crelo.»\n\nCada mañá, ás seis, Vitorino monta a cabalo e percorre o perímetro da granxa. Son once quilómetros de valado. Revisa que os postes estean en pé, que non falte auga para os animais e que ningunha vaca saíse do perímetro. «O perímetro é o mellor momento do día», di. «Vou só, vexo saír o sol sobre o campo e penso con calma.»\n\nNo despacho da granxa, enriba dunha mesa vella, hai un taboleiro de xadrez de madeira. Fíxoo o bisavó de Vitorino en Galicia, e Xervasio trouxo aquel taboleiro na maleta. Ten case cen anos e está intacto: non lle falta ningunha peza, e as casas brancas e negras conservan a súa cor. Vitorino e o seu fillo xogan nel os domingos. «O avó dicía que, se o taboleiro chegara intacto despois dunha viaxe tan longa, nós tamén podiamos aguantar calquera cousa.»\n\nHai dez anos, Vitorino deu un gran pulo á cooperativa. Convenceu as familias de vender o leite directamente nas tendas da zona e de facer queixo coma o que se facía na aldea do avó. Aquel pulo cambiou todo: hoxe o queixo da cooperativa véndese en Montevideo.\n\nO verán pasado, Vitorino viaxou por primeira vez a Galicia e subiu ao páramo do avó. A casa xa non existe, pero el sacou unha foto do camiño. Agora esa foto está no despacho, ao lado do taboleiro.\n\nPreguntas:\nDe que é administrador Vitorino Saínza?\nÉ o administrador dunha granxa de gando de 400 hectáreas preto de Paysandú.\nOnde naceu o avó de Vitorino?\nNaceu nunha aldea da montaña de Lugo, nun páramo alto e frío.\nCanta terra tiña a familia na aldea?\nTiña dúas hectáreas repartidas en vinte leiras.\nQue fai Vitorino cada mañá ás seis?\nMonta a cabalo e percorre o perímetro da granxa.\nComo está o taboleiro de xadrez do bisavó?\nEstá intacto, non lle falta ningunha peza.\nQue pulo lle deu Vitorino á cooperativa?\nConvenceu as familias de vender o leite nas tendas e de facer queixo."
+    },
+    {
+      "title": "Unha clase en Caracas",
+      "summary": "In a Galician class for emigrants' grandchildren in Caracas, teacher Xilberte Cotarelo explains the conditional, has his students write a paragraph and then debate a proposition about where one's home really is.",
+      "newWords": [
+        "condicional",
+        "parágrafo",
+        "proposición",
+        "debater",
+        "afirmación",
+        "esencialmente",
+        "entendemento"
+      ],
+      "text": "Os martes á tarde, nunha sala pequena dunha asociación de familias de Galicia no barrio de Chacao, en Caracas, Xilberte Cotarelo dá clase de galego. Xilberte ten sesenta e dous anos, naceu en Verín e leva corenta en Venezuela. Durante anos foi mestre nunha escola da cidade; agora, xa xubilado, ensina a lingua dos avós a quen queira aprendela. Ao seu grupo van oito alumnos. Os máis constantes son Dante, un estudante de vinte anos, e Wilson, un mecánico de corenta e cinco.\n\nHoxe tocaba o condicional. Xilberte escribiu tres frases no encerado: «Gustaríame ir», «Volvería mañá», «Que farías ti?». Explicou que o condicional serve para falar do que pasaría se as cousas fosen doutra maneira, e tamén para pedir as cousas con educación. «A miña avoa sempre falaba en condicional», dixo Wilson. «Nunca dicía “dáme auga”; dicía “poderías darme un pouco de auga?”.»\n\nDespois Xilberte pediulles que escribisen un parágrafo de cinco ou seis liñas co título «Se vivise en Galicia». Dante escribiu un parágrafo sobre o mar de Vigo, que só coñece polas fotos do avó. Wilson escribiu sobre a feira da aldea da súa avoa, onde nunca estivo, pero da que ela lle falou mil veces.\n\nNa segunda parte da clase tocaba debater. Xilberte escribiu unha proposición: «Unha persoa que naceu fóra nunca pode sentir a terra dos avós como propia». Pediulles que falasen con respecto e en galego, aínda que lles faltasen palabras. «Debater nunha lingua nova é difícil», díxolles, «pero é a mellor maneira de aprendela.»\n\nWilson defendeu a proposición. Para el, a terra é esencialmente o lugar onde un medra, onde ten os amigos e os recordos. «Eu quero moito a Galicia da miña avoa, pero o meu lugar é Caracas», dixo. Dante non estaba de acordo con esa afirmación. Para el, un lugar tamén se pode querer a través das historias, da comida e das palabras. «Esencialmente, eu tamén son de alí, porque aprendín a querer aquel lugar na casa.»\n\nXilberte escoitou a afirmación de cada un sen dar a razón a ningún. Os dous debateron un bo anaco, e os outros alumnos escoitaban en silencio. Ao final Xilberte dixo que o máis importante non era gañar, senón o entendemento entre os dous. «Pasastes media hora debatendo en galego e entendéstesvos perfectamente. Ese entendemento é exactamente o que buscaban os vosos avós cando falaban a súa lingua tan lonxe da casa.»\n\nAntes de marchar, Xilberte deu os deberes: un novo parágrafo, esta vez con tres verbos en condicional.\n\nPreguntas:\nPara que serve o condicional, segundo Xilberte?\nServe para falar do que pasaría se as cousas fosen doutra maneira e para pedir as cousas con educación.\nSobre que escribiu Dante o seu parágrafo?\nEscribiu sobre o mar de Vigo, que só coñece polas fotos do avó.\nQue proposición propuxo Xilberte?\nPropuxo que unha persoa que naceu fóra nunca pode sentir a terra dos avós como propia.\nQue é a terra esencialmente para Wilson?\nÉ o lugar onde un medra, onde ten os amigos e os recordos.\nPor que non estaba Dante de acordo coa afirmación de Wilson?\nPorque pensa que un lugar tamén se pode querer a través das historias, da comida e das palabras.\nQue era o máis importante para Xilberte?\nO máis importante era o entendemento entre os dous."
+    },
+    {
+      "title": "O xastre do teatro",
+      "summary": "Bastián Eiroa, an old tailor from Mondoñedo in Montevideo, sews the costumes for an amateur theatre group's farce this season: a nightgown for the leading lady, a monkey suit and a lot of waistbands to let out.",
+      "newWords": [
+        "temporada",
+        "farsa",
+        "cintura",
+        "cós",
+        "camisón",
+        "mico"
+      ],
+      "text": "Bastián Eiroa ten setenta e un anos e unha xastraría pequena no centro de Montevideo. Chegou de Mondoñedo con dezasete anos, aprendeu o oficio cun xastre do barrio e desde entón non deixou de coser. Hoxe fai menos traxes que antes, pero cada temporada traballa para un grupo de teatro afeccionado formado por fillos e netos de galegos.\n\nEsta temporada o grupo prepara unha farsa. É unha comedia de enredos, chea de portas que se abren e se pechan, onde un home rico quere casar a súa filla cun mozo que só pensa no diñeiro. «Unha farsa necesita roupa esaxerada», explica Bastián. «Se o público ri só con ver entrar un personaxe, eu fixen ben o meu traballo.»\n\nO traballo empeza coas medidas. Bastián mide a cada actor coa súa cinta vella: os ombros, os brazos, a cintura. «A cintura é o máis importante», di. «Se o pantalón non senta ben na cintura, o actor pasa toda a obra pensando nel.» Despois prepara o cós de cada pantalón e de cada saia. Bastián deixa sempre un pouco de tea de máis no cós, porque sabe que durante os ensaios os actores comen empanada e o cós acaba quedando estreito.\n\nA peza máis complicada da farsa é un camisón. A protagonista, unha señora que se esperta no medio da noite e corre pola casa, ten que levar un camisón longo, branco e moi amplo, con moitas rendas. «Fixen o camisón tres veces», conta Bastián. «O primeiro era tan longo que a actriz tropezaba.» O último ten un cós de goma na cintura e a actriz pode correr sen problemas.\n\nTamén hai un personaxe que vai disfrazado de mico: é o animal de compañía do home rico, que salta polos mobles e lles esconde as cousas a todos. Bastián cosiu un traxe marrón con orellas redondas e unha cola longa. O actor que fai de mico é un rapaz de quince anos que pasa a obra subindo ás cadeiras, así que o traxe ten que ser lixeiro e forte. «Un mico de verdade non suaría tanto», ri Bastián, «pero este mico ensaia dúas horas cada tarde.»\n\nBastián non cobra polos traxes do grupo. Di que o fai polo gusto de ver o teatro cheo e de escoitar o público rir en galego. «Cando cheguei a Montevideo, os domingos iamos ao teatro da colectividade, e alí sentíame na casa. Agora quero que estes rapaces sintan o mesmo.»\n\nA estrea será o primeiro sábado de outubro. Bastián xa sabe onde vai sentar: na primeira fila, coa agulla e o fío no peto, por se algún cós se rompe no último momento.\n\nPreguntas:\nOnde ten Bastián a súa xastraría?\nTen a xastraría no centro de Montevideo.\nQue prepara o grupo de teatro esta temporada?\nPrepara unha farsa, unha comedia de enredos.\nPor que é tan importante a cintura para Bastián?\nPorque se o pantalón non senta ben na cintura, o actor pasa toda a obra pensando nel.\nPor que deixa Bastián tea de máis no cós?\nPorque durante os ensaios os actores comen empanada e o cós acaba quedando estreito.\nQue problema tiña o primeiro camisón?\nEra tan longo que a actriz tropezaba.\nComo é o traxe de mico?\nÉ un traxe marrón con orellas redondas e unha cola longa."
+    },
+    {
+      "title": "A noite da aterraxe",
+      "summary": "Erika Gestal, an engineer from Ortigueira at a space agency in Darmstadt, follows a probe in orbit around Mars on the night its small module lands, the same night her mother turns seventy at home.",
+      "newWords": [
+        "órbita",
+        "aterraxe",
+        "desgraciadamente",
+        "control",
+        "presentir",
+        "esquecemento"
+      ],
+      "text": "Erika Gestal naceu en Ortigueira hai trinta e nove anos e traballa como enxeñeira en Darmstadt, nunha axencia espacial que segue satélites e sondas. Desde hai catro anos ocúpase dunha sonda que dá voltas arredor de Marte. A sonda está en órbita a uns trescentos quilómetros do planeta e completa unha volta cada dúas horas. Erika forma parte do equipo que calcula esa órbita e que lle manda á sonda as ordes de cada día.\n\nEsta semana é especial. A sonda leva dentro un módulo pequeno que ten que baixar ata a superficie de Marte. A aterraxe está prevista para o xoves ás once da noite, hora de Darmstadt. Durante sete minutos o módulo terá que reducir a velocidade el só, sen axuda de ninguén, porque os sinais tardan once minutos en chegar ata nós. «Durante a aterraxe só podemos mirar e esperar», explica Erika.\n\nDesgraciadamente, o xoves é tamén o aniversario da súa nai, que cumpre setenta anos en Ortigueira. Toda a familia estará alí, arredor dunha mesa longa, e Erika non. Desgraciadamente, nunha semana coma esta ninguén do equipo pode coller vacacións.\n\nHai outra cousa que a preocupa cando pensa na casa: o esquecemento. Os seus dous fillos naceron en Darmstadt e na escola só falan a lingua do país. Erika lelles contos en galego todas as noites, para que as palabras da avoa non caian no esquecemento. «O esquecemento chega amodo», di. «Un día deixas de dicir unha palabra e ao ano xa non a lembras.»\n\nNa sala de control hai vinte pantallas e outras tantas persoas. O xoves pola noite, a sala de control está en silencio. Cada un mira os seus números. Erika ten diante a órbita da sonda, debuxada en verde, e un reloxo que conta os segundos. «Presinto que vai saír ben», dille en voz baixa ao compañeiro do lado. Non sabe por que, pero xa o presentiu pola mañá, ao saír da casa.\n\nÁs once e dezaoito chega o sinal: o módulo está en Marte. A sala de control énchese de aplausos e de abrazos. Erika colle o móbil e sae ao corredor. En Ortigueira a festa segue. A nai pon o altofalante, e toda a mesa canta, berra e aplaude. Despois, os dous fillos de Erika, que seguen a festa por videochamada desde Darmstadt, cántanlle á avoa os parabéns en galego, sen esquecer nin unha palabra.\n\nErika volve á sala de control coa cara chea de bágoas e un sorriso enorme.\n\nPreguntas:\nOnde traballa Erika Gestal?\nTraballa como enxeñeira nunha axencia espacial en Darmstadt.\nCanto tarda a sonda en dar unha volta á súa órbita?\nTarda dúas horas en completar unha volta.\nCando está prevista a aterraxe do módulo?\nEstá prevista para o xoves ás once da noite.\nPor que non pode Erika ir a Ortigueira?\nPorque nunha semana coma esta ninguén do equipo pode coller vacacións.\nQue fai Erika contra o esquecemento do galego?\nLelles contos en galego aos seus fillos todas as noites.\nQue lle di Erika ao compañeiro na sala de control?\nDille: «Presinto que vai saír ben»."
+    }
+  ]
+}
