@@ -1,0 +1,183 @@
+{
+  "id": "hr-mini-5600",
+  "rankUpTo": 5600,
+  "level": "C1",
+  "title": "Novinarstvo i mediji",
+  "description": "Ten texts about journalism and the media: a food critic's anonymous dinner, a sports reporter's Saturday, a small daily and its new investor, a newspaper correction, a TV crew filming a falconer, a reportage on bison in Poland, a weather reporter after a tornado, a health column during a flu epidemic, an interview with the maker of an online show about money, and a column on the quiet August news season.",
+  "topic": "Journalism and media",
+  "names": [
+    "Katalina",
+    "Zadar",
+    "Dalmacija",
+    "Benkovac",
+    "Borivoj",
+    "Ognjenka",
+    "Koprivnica",
+    "Varaždin",
+    "Zagreb",
+    "Ljubiša",
+    "Gojislav",
+    "Osijek",
+    "Radmilka",
+    "Damjanka",
+    "Karlovac",
+    "Svjetlomir",
+    "Tvrtislav",
+    "Slavonija",
+    "Đakovo",
+    "Fabijanka",
+    "Fabijankina",
+    "Lovrenka",
+    "Emilijana",
+    "Europa",
+    "Kalinka",
+    "Vinkovci",
+    "Hrvatska",
+    "Ljiljanka",
+    "Sisak",
+    "Tihomirka",
+    "Split",
+    "Ljubomil"
+  ],
+  "lessons": [
+    {
+      "title": "Večera pod tuđim imenom",
+      "summary": "Food critic Katalina reserves a table in a new Zadar restaurant under her sister's name, reads the short menu, tastes the roast piglet with a spiced yogurt sauce, looks closely at the handmade dishes, and writes a fair review that praises the dessert.",
+      "newWords": [
+        "rezervirati",
+        "jelovnik",
+        "začin",
+        "okusiti",
+        "poslastica",
+        "jogurt",
+        "suđe",
+        "prase"
+      ],
+      "text": "Katalina već dvanaest godina piše o restoranima za jedan časopis u Zadru. Njeno je prvo pravilo jednostavno: kuhar ne smije znati da ona dolazi. Ako kuhar zna da u restoranu sjedi netko tko o njemu piše, sve će biti savršeno, ali samo te večeri. Ljudi koji čitaju njene tekstove žele znati kako se jede u običan utorak.\n\nZato Katalina nikad ne rezervira stol pod svojim imenom. Kad stol rezervira, uvijek to radi s tuđeg broja. Ovaj je tjedan htjela rezervirati stol u novom restoranu blizu luke. Nazvala je s mobitela svoje sestre i rekla: — Dobar dan, rezerviram stol za jednu osobu, za utorak u osam, na ime moje sestre. Došla je u osam sati, sama, u običnoj jakni, s malom bilježnicom u torbi.\n\nKonobar joj je donio jelovnik. Jelovnik je bio kratak: četiri hladna jela, pet glavnih jela i tri poslastice. Katalina voli kratak jelovnik. Kaže da kuhinja koja nudi pedeset jela obično nijedno ne radi dobro. Na dnu jelovnika pisalo je da je jelo dana pečeno prase.\n\nPrase je u Dalmaciji jelo za velike obiteljske ručkove, a ne za večeru za jednu osobu. Ipak ga je naručila. Uz prase je stigao umak od jogurta s nekoliko začina: malo luka, limuna i mente. Katalina je najprije okusila meso bez umaka, a zatim s umakom. Meso je bilo mekano, a koža hrskava. Začini u umaku nisu bili previše jaki, a hladan jogurt činio je masno meso lakšim.\n\nKatalina gleda i ono o čemu gosti rijetko razmišljaju: suđe, čaše i stolnjake. U ovom restoranu suđe je bilo ručno izrađeno, i svaki je tanjur bio malo drukčiji. Konobar je rekao da to suđe izrađuje jedna žena iz Benkovca. To joj se svidjelo, ali je u bilježnicu zapisala da je tanjur za prase previše malen.\n\nZa kraj je naručila poslasticu kuće: kolač od oraha i meda sa sladoledom od jogurta. Okusila je prvi zalogaj i zatvorila oči. Bila je to najbolja poslastica koju je ove godine jela u Zadru.\n\nKod kuće je napisala tekst. Pohvalila je kratak jelovnik, prase i hladan umak od jogurta s pažljivo izabranim začinima. Napisala je i da je suđe lijepo, ali da su tanjuri mali, a glazba previše glasna. Na kraju je dodala rečenicu: „Sigurno ću se vratiti, makar samo zbog poslastice.“\n\nTjedan kasnije vlasnik restorana Borivoj poslao je pismo časopisu. Zahvalio je na poštenom tekstu i napisao da je za prase već kupio veće tanjure.\n\nPitanja:\nZašto Katalina nikad ne rezervira stol pod svojim imenom?\nNe želi da kuhar zna tko je ona, jer bi tada sve bilo savršeno samo te večeri.\nKakav je bio jelovnik?\nJelovnik je bio kratak: četiri hladna jela, pet glavnih jela i tri poslastice.\nŠto je stiglo uz prase?\nUz prase je stigao hladan umak od jogurta s nekoliko začina.\nŠto je Katalini smetalo kod suđa?\nSuđe je bilo lijepo i ručno izrađeno, ali je tanjur za prase bio previše malen.\nKako je vlasnik odgovorio na tekst?\nPoslao je pismo časopisu, zahvalio na tekstu i kupio veće tanjure."
+    },
+    {
+      "title": "Subota na dva terena",
+      "summary": "Sports reporter Ognjenka spends a Saturday in Koprivnica: in the morning a 19-year-old beginner comes second in a 10 km race, in the evening an 18-year-old goalkeeper plays his first match for the town club against its old rival and saves a penalty without blinking.",
+      "newWords": [
+        "vratar",
+        "trkač",
+        "suparnik",
+        "početnik",
+        "neustrašiv",
+        "trepnuti",
+        "izmjeriti",
+        "gledatelj"
+      ],
+      "text": "Ognjenka radi kao sportska novinarka na jednom portalu u Koprivnici. Subotom ima najviše posla, jer se tada igraju utakmice, a u gradu se često održava i neka utrka. Ove je subote imala dva događaja: ujutro gradsku utrku na deset kilometara, a navečer nogometnu utakmicu domaćeg kluba protiv starog suparnika iz Varaždina.\n\nUtrka je počela u devet sati na glavnom trgu. Trčalo je gotovo 400 trkača. Svaki trkač imao je na tenisici mali čip, koji je točno izmjerio njegovo vrijeme od starta do cilja. Ognjenka je stajala blizu cilja s fotoaparatom. Prvi je stigao poznati trkač iz Zagreba, kao što su svi i očekivali. Drugo mjesto osvojio je student iz Koprivnice od 19 godina, koji trči tek osam mjeseci.\n\n— Ja sam još početnik — rekao joj je, dok je teško disao. — Prije godinu dana nisam mogao istrčati ni dva kilometra.\n\nČip mu je izmjerio 34 minute i 12 sekundi. Ognjenka je zapisala da je to za početnika odlično vrijeme i da ga je izmjerila i sama, na svom satu, jer je htjela biti sigurna.\n\nNavečer je otišla na stadion. Na tribinama je bilo oko tri tisuće gledatelja, više nego obično, jer je suparnik iz Varaždina bio prvi na ljestvici. Glavni vratar domaćeg kluba bio je bolestan, pa je trener u gol stavio Ljubišu, koji ima tek 18 godina. I Ljubiša je bio početnik: bila mu je to prva utakmica u prvoj momčadi.\n\nSuparnik je loptu imao gotovo cijelo vrijeme. Mladi vratar bio je neustrašiv: bacao se na loptu, izlazio iz gola i glasno govorio svojim igračima gdje trebaju stajati. Gledatelji su mu nakon svake obrane pljeskali. Netko je na tribini napravio veliki natpis: „Neustrašivi Ljubiša“.\n\nU 80. minuti suparnik je dobio jedanaesterac. Na stadionu je postalo tiho. Ljubiša je stajao na crti i gledao igrača u oči. Nije ni trepnuo. Igrač je šutirao prema lijevom kutu, a vratar je skočio i uhvatio loptu. Utakmica je završila 0:0, a tri tisuće gledatelja pljeskalo je mladom vrataru.\n\nPoslije utakmice Ognjenka ga je pitala o čemu je razmišljao prije jedanaesterca.\n\n— Ni o čemu — rekao je. — Samo sam gledao loptu i pazio da ne trepnem.\n\nTe je noći napisala dva teksta. Prvi se zvao „Početnik koji trči tek osam mjeseci“, a drugi „Vratar koji nije trepnuo“. Ujutro je vidjela da su ljudi drugi tekst podijelili više od tisuću puta.\n\nPitanja:\nŠto je Ognjenka pratila te subote?\nUjutro je pratila gradsku utrku na deset kilometara, a navečer utakmicu domaćeg kluba protiv suparnika iz Varaždina.\nKako su izmjerili vrijeme trkača?\nSvaki trkač imao je na tenisici mali čip, koji je izmjerio njegovo vrijeme.\nZašto je u golu stajao Ljubiša?\nGlavni vratar bio je bolestan, pa je trener u gol stavio Ljubišu.\nZašto je na stadionu bilo više gledatelja nego obično?\nSuparnik iz Varaždina bio je prvi na ljestvici.\nŠto je Ljubiša radio prije jedanaesterca?\nGledao je igrača u oči i nije ni trepnuo."
+    },
+    {
+      "title": "Tri načela u ugovoru",
+      "summary": "Gojislav, editor-in-chief of a small Osijek daily that is short of money, calls the whole newsroom together when a builder offers to invest; they write three principles into the contract, he explains them on local radio, and in March he resists the investor's first request to hold back an article.",
+      "newWords": [
+        "sazvati",
+        "istupiti",
+        "načelo",
+        "integritet",
+        "oduprijeti",
+        "investitor",
+        "ulaganje"
+      ],
+      "text": "Gojislav je glavni urednik malog dnevnog lista u Osijeku. List izlazi već 70 godina, ali posljednjih godina ima sve manje novca. Ljudi vijesti čitaju na mobitelu, oglasa je sve manje, a papir i tisak sve su skuplji.\n\nU siječnju se javio investitor. Bio je to vlasnik velike građevinske tvrtke, koja u Osijeku gradi stanove i jedan trgovački centar. Ponudio je ulaganje od pola milijuna eura. Za to bi ulaganje dobio trećinu lista.\n\nGojislav je odmah sazvao sastanak svih novinara. Sazvao ga je u ponedjeljak ujutro, prije nego što su ljudi otišli na teren.\n\n— Bez tog ulaganja za dvije godine nećemo moći plaćati ljude — rekao je. — Ali taj investitor gradi pola grada, a mi o njegovoj gradnji pišemo gotovo svaki tjedan. Moramo znati na što pristajemo.\n\nNovinari su dugo razgovarali. Najstarija novinarka, Radmilka, rekla je da list ne smije ovisiti o jednom čovjeku.\n\n— Danas ovisimo o oglasima, a sutra ćemo ovisiti o investitoru — rekla je. — Ne znam što je gore.\n\nNa kraju su zajedno napisali tri načela. Prvo načelo: investitor ne može birati teme, naslove ni ljude. Drugo načelo: kad list piše o njegovoj tvrtki, na kraju teksta jasno piše tko je vlasnik lista. Treće načelo: o svakom tekstu odlučuje urednik, a za svoje odluke odgovara ljudima koji list čitaju, a ne vlasnicima. Gojislav je tražio da sva tri načela uđu u ugovor. Investitor je pristao.\n\nTjedan kasnije Gojislav je istupio na lokalnom radiju. Nije htio da građani o ulaganju saznaju iz priča u kafiću. U emisiji je javno rekao koliko novca list dobiva i od koga, i pročitao sva tri načela.\n\n— Integritet je jedino što novine stvarno imaju — rekao je. — Ako izgubimo integritet, ne treba nam nikakvo ulaganje, jer nas nitko više neće čitati.\n\nPrva prava provjera došla je u ožujku. Jedan je novinar napisao tekst o velikim gužvama oko gradilišta trgovačkog centra. Investitor je nazvao Gojislava i zamolio ga da tekst pričeka nekoliko tjedana. Gojislav se morao oduprijeti, iako mu nije bilo lako. Mirno je rekao da tekst izlazi sutra, kako piše u ugovoru. Investitor je nekoliko sekundi šutio, a onda rekao:\n\n— Imate pravo. Kupio sam dio lista upravo zato što ste takvi.\n\nRadmilka je poslije rekla da se integritet ne vidi u lijepim riječima na radiju, nego u jednom takvom telefonskom razgovoru. U svibnju je Gojislav istupio još jednom, na skupu urednika u Zagrebu. Ispričao je kako su napisali svoja načela i kako su se oduprli prvom pritisku. Rekao je da se malim novinama nije lako oduprijeti novcu, ali da je to moguće ako se pravila napišu unaprijed.\n\nPitanja:\nZašto je listu trebalo ulaganje?\nList je imao sve manje novca, jer ljudi vijesti čitaju na mobitelu, a oglasa je sve manje.\nŠto je Gojislav napravio kad se javio investitor?\nOdmah je sazvao sastanak svih novinara.\nČega se bojala Radmilka?\nBojala se da će list ovisiti o jednom čovjeku.\nKoje je prvo načelo u ugovoru?\nInvestitor ne može birati teme, naslove ni ljude.\nKako se Gojislav oduprio investitoru u ožujku?\nMirno mu je rekao da tekst izlazi sutra, kako piše u ugovoru."
+    },
+    {
+      "title": "Ispravak na drugoj stranici",
+      "summary": "In Karlovac, Damjanka handles readers' complaints at a daily paper; a retired teacher who often complains rings to say that yesterday's price for the town pool is wrong, she checks with the reporter who signed the piece with her initials, enters the correction on the paper's website and prints it the next day.",
+      "newWords": [
+        "inicijal",
+        "unositi",
+        "prigovarati",
+        "apsolutan",
+        "neposredan",
+        "jučerašnji"
+      ],
+      "text": "Damjanka već osam godina radi u jednom dnevnom listu u Karlovcu. Njen je posao neobičan: ona čita pisma i poruke ljudi koji su u novinama pronašli pogrešku i odlučuje što s njima. Kolege kažu da je ona neposredna veza između lista i ljudi koji ga čitaju. Ta je veza zaista neposredna: Damjanka svaki dan razgovara s čitateljima telefonom ili im odgovara na poruke.\n\nJedan od njih javlja se gotovo svaki tjedan. To je gospodin Svjetlomir, umirovljeni profesor matematike. On voli prigovarati. Prigovara zbog zareza, zbog prevelikih fotografija, zbog predugih naslova. Kolege se ponekad smiju i kažu: „Opet prigovara profesor.“ Damjanka mu ipak uvijek odgovori, jer zna da je on ponekad u pravu.\n\nU srijedu ujutro gospodin Svjetlomir nazvao je u osam i pet.\n\n— Gospođo, u jučerašnjem broju piše da dnevna karta za gradski bazen košta 15 eura. To nije točno. Bio sam na bazenu i platio sam 5 eura.\n\nDamjanka je otvorila jučerašnji broj. Tekst o bazenu bio je na šestoj stranici, a ispod njega stajali su inicijali novinarke: T. M. Kratke vijesti u tom listu novinari potpisuju samo inicijalima. Damjanka je po inicijalima odmah znala tko je tekst napisao i nazvala je kolegicu.\n\nKolegica je provjerila svoje bilješke. Cijena je zaista bila 5 eura. Broj 15 bio je cijena karte za cijelu obitelj, koju je greškom prepisala iz starog teksta.\n\nList ima jasno pravilo. Ispravak se odmah unosi u tekst na portalu lista, a sljedećeg dana tiska se i u novinama, na drugoj stranici, uvijek na istom mjestu. Ispravke unosi samo Damjanka, da ne bi nastala nova pogreška. Ispod teksta o bazenu dodala je rečenicu s točnom cijenom i datumom ispravka. Pazila je da ne promijeni ništa drugo, jer ljudi moraju vidjeti što je bilo pogrešno. Na portalu se ispravak vidio već u devet sati.\n\nZatim je nazvala gospodina Svjetlomira i zahvalila mu.\n\n— Znate, gospođo — rekao je — ja ne prigovaram zato što volim prigovarati. Prigovaram zato što vjerujem vašim novinama.\n\nDamjanka je o tome razmišljala cijeli dan. Apsolutna točnost je nemoguća: list svaki dan objavi stotine brojeva, imena i datuma, a ljudi griješe. Ali apsolutna iskrenost je moguća. Kad list prizna pogrešku jasno i brzo, ljudi mu vjeruju više, a ne manje.\n\nSljedećeg jutra na drugoj stranici stajalo je: „Ispravak: u jučerašnjem broju pogrešno smo objavili cijenu dnevne karte za gradski bazen. Ona iznosi 5 eura. Ispričavamo se čitateljima.“ Ispod ispravka bili su isti inicijali kao ispod vijesti o bazenu.\n\nPitanja:\nŠto radi Damjanka u dnevnom listu?\nČita poruke ljudi koji su u novinama pronašli pogrešku i odlučuje što s njima.\nZašto je zvao gospodin Svjetlomir?\nU jučerašnjem broju pisalo je da karta za bazen košta 15 eura, a on je platio 5 eura.\nKako je Damjanka znala tko je napisao tekst?\nIspod teksta stajali su inicijali novinarke.\nGdje se unosi ispravak?\nIspravak se odmah unosi u tekst na portalu lista, a sljedeći dan tiska se i u novinama.\nZašto gospodin Svjetlomir prigovara?\nPrigovara zato što vjeruje tim novinama."
+    },
+    {
+      "title": "Sokol iznad žetve",
+      "summary": "Tvrtislav, who films for a TV nature programme, spends a July morning near Đakovo with Fabijanka, a red-haired woman who flies falcons over the fields during the harvest to keep flocks of pigeons away; an old shepherd and Fabijanka's daughter on horseback join the shots, and viewers write in afterwards.",
+      "newWords": [
+        "sokol",
+        "žetva",
+        "pastir",
+        "crvenokos",
+        "veo"
+      ],
+      "text": "Tvrtislav snima za jednu televizijsku emisiju o prirodi. U srpnju je s novinarkom te emisije otišao u Slavoniju, blizu Đakova, snimiti priču o ženi koja radi sa sokolima.\n\nStigli su u pet ujutro. Nad poljima je ležao tanak veo magle, a iza njega polako se dizalo sunce. Tvrtislav je odmah postavio kameru, jer zna da gledatelji takve slike dugo pamte. Kroz veo magle vidjela se samo stara kuća i dugi red visokih stabala.\n\nIz kuće je izašla Fabijanka, visoka crvenokosa žena od pedesetak godina. Na lijevoj ruci, na debeloj kožnoj rukavici, nosila je sokola. Sokol je na glavi imao malu kapu, da bude miran dok ne počne raditi.\n\nFabijanka je objasnila zašto su ovdje. Počela je žetva. Za vrijeme žetve na polja dolaze velika jata golubova i drugih ptica i jedu zrno. Seljaci su prije koristili buku, ali ptice se na buku brzo naviknu. Sokola se boje uvijek.\n\n— Moj sokol ne mora uhvatiti nijednu pticu — rekla je Fabijanka. — Dovoljno je da leti iznad polja. Golubovi ga vide i odlete na drugo mjesto.\n\nSkinula je sokolu kapu i on je poletio. Tvrtislav ga je pratio kamerom: sokol se dizao sve više, a jato golubova odletjelo je preko ceste prema šumi. Za nekoliko minuta nad poljem nije bilo nijedne ptice, a žetva se mirno nastavila.\n\nTada se uz rub polja pojavio stari pastir s ovcama. Pastir je pozdravio Fabijanku i stao gledati sokola. Rekao je novinarki da sokola na ovom polju gleda već deset ljeta.\n\n— Moje ovce ga se ne boje — rekao je pastir. — Sokol zna da ovca nije za njega.\n\nMalo kasnije pokraj njih je polako prošao konj, a na njemu mlada crvenokosa djevojka. Bila je to Fabijankina kći Lovrenka. Konj je stao pokraj pastira. Lovrenka uči od majke posao sa sokolima i svako jutro jaše do polja.\n\nTvrtislav je snimao do podneva. Snimio je sokola iznad žetve, pastira s ovcama, Lovrenku na konju i dvije crvenokose žene na rubu polja. Emisija je na kraju imala dvadeset minuta. Završila je slikom s početka dana: veo magle nad poljem i sokol koji iz njega izlazi.\n\nEmisiju je gledalo više od trista tisuća gledatelja. Mnogi su pisali televiziji i pitali gdje mogu vidjeti sokola uživo. Fabijanka je odgovorila da su svi dobrodošli, ali tek poslije žetve, jer za vrijeme žetve njen sokol radi.\n\nPitanja:\nZašto je Tvrtislav otišao u Slavoniju?\nOtišao je snimiti priču o ženi koja radi sa sokolima.\nŠto se vidjelo nad poljima u pet ujutro?\nNad poljima je ležao tanak veo magle.\nZašto Fabijanka za vrijeme žetve dolazi sa sokolom?\nGolubovi i druge ptice jedu zrno, a sokola se boje i odlete na drugo mjesto.\nŠto je rekao stari pastir?\nRekao je da ga se ovce ne boje, jer sokol zna da ovca nije za njega.\nTko je prošao pokraj njih na konju?\nNa konju je prošla Fabijankina kći Lovrenka."
+    },
+    {
+      "title": "Tuda, kroz staru šumu",
+      "summary": "Travel reporter Emilijana drives her old estate car from Zagreb to a great forest in eastern Poland, where a young biologist guides her along paths that form a maze, across a stream full of floating branches, to a meadow where a curious young bison looks straight at her.",
+      "newWords": [
+        "bizon",
+        "karavan",
+        "tuda",
+        "labirint",
+        "znatiželja",
+        "plutati",
+        "kročiti"
+      ],
+      "text": "Emilijana piše reportaže o putovanjima za jedan tjedni časopis iz Zagreba. Ove je jeseni otišla u Poljsku, u veliku staru šumu na istoku zemlje. U toj šumi živi najviše bizona u Europi, gotovo 800. Bizon je najveća životinja Europe: odrasli bizon težak je kao mali auto.\n\nIz Zagreba je putovala dva dana, u svom starom karavanu. Karavan je izabrala zato što u njega stane sve: šator, kamera, čizme i hrana za tjedan dana. Jednu noć spavala je u karavanu, na parkiralištu pokraj autoceste.\n\nU šumi ju je dočekao vodič, mladi biolog koji bizone prati već šest godina. Rekao joj je da u stari dio šume ne smije ući sama.\n\n— Ovdje su staze kao labirint — objasnio je. — Sve izgledaju isto, a mobitel nema signala. Ljudi se izgube već nakon pola sata.\n\nEmilijana je to brzo vidjela. Staze su se dijelile i opet spajale, a stabla su bila jednako visoka i jednako tamna. Sama ne bi izašla iz tog labirinta. Na svakom križanju vodič bi samo pokazao rukom i rekao:\n\n— Tuda.\n\nI svaki put je bio u pravu.\n\nNakon dva sata došli su do potoka. Preko potoka ležalo je staro stablo, a u vodi je plutalo mnogo lišća i grana. Vodič je objasnio da u ovom dijelu šume nitko ne čisti ni stabla ni grane. Sve što padne ostaje ležati. Lišće i grane polako trunu ili plutaju niz potok. Tako je šuma izgledala prije tisuću godina.\n\n— U ovaj dio šume kročili su samo rijetki ljudi — rekao je vodič prije nego što su prešli preko stabla.\n\nEmilijana je pažljivo kročila na mokro drvo. Ispod nje plutali su komadi drveta, a voda je bila hladna i tamna. Polako je prešla na drugu stranu.\n\nBizone su vidjeli na maloj livadi, kasno poslijepodne. Bilo ih je jedanaest: osam velikih bizona, krupnih i tamnih, i tri mlada. Emilijana je stala iza stabla i nije se micala. Jedan mladi bizon podigao je glavu i gledao ravno u nju.\n\n— To je znatiželja — tiho je rekao vodič. — Mladi bizoni znatiželjni su kao djeca. Ali nemoj prilaziti, majka mu je blizu.\n\nZnatiželja mladog bizona trajala je samo minutu. Zatim se okrenuo i otišao k ostalima. Emilijana je stigla snimiti dvadesetak fotografija.\n\nKad su se vraćali, padao je mrak. Vodič je opet na svakom križanju govorio „tuda“, a Emilijana je u bilježnicu zapisala prvu rečenicu svoje reportaže: „U staroj šumi bizona ne čujete, sve dok vas ne pogleda.“\n\nPitanja:\nZašto je Emilijana putovala u karavanu?\nU karavan stane sve: šator, kamera, čizme i hrana za tjedan dana.\nZašto Emilijana nije smjela sama ući u stari dio šume?\nStaze su kao labirint, sve izgledaju isto, a mobitel nema signala.\nŠto je vodič govorio na svakom križanju?\nPokazao bi rukom i rekao: „Tuda.“\nŠto je plutalo u potoku?\nU potoku je plutalo mnogo lišća i grana.\nKako se mladi bizon ponašao kad je vidio Emilijanu?\nPodigao je glavu i gledao ravno u nju, iz znatiželje."
+    },
+    {
+      "title": "Tornado u polju",
+      "summary": "Kalinka, a weather reporter on regional television in Osijek, goes out after a small tornado crosses the fields near Vinkovci, talks to firefighters about their many call-outs, explains on air how a tornado forms and why many online videos show only an illusion, and reports on delayed flights and the bus offered instead.",
+      "newWords": [
+        "tornado",
+        "zahvatiti",
+        "neizbježan",
+        "teoretski",
+        "varka",
+        "alternativan",
+        "intervencija"
+      ],
+      "text": "Kalinka radi kao novinarka i vodi vremensku prognozu na regionalnoj televiziji u Osijeku. Ljeti ima najviše posla: najprije dođu vrućine i suša, a onda nagle oluje.\n\nJednog poslijepodneva u lipnju velika oluja zahvatila je istok Slavonije. Jaka kiša i tuča zahvatile su Vinkovce i nekoliko sela oko grada. U polju između dva sela ljudi su vidjeli nešto što dotad nisu vidjeli: mali tornado. Trajao je samo četiri minute, ali je podigao krovove dviju štala i srušio nekoliko stabala. Ljudi i životinje bili su na sigurnom.\n\nKalinka je odmah otišla na teren s kolegom koji snima. U selu su već bili vatrogasci. Tog su dana imali više od četrdeset intervencija: micali su stabla s cesta, pokrivali krovove i izbacivali vodu iz podruma. Voditelj vatrogasaca rekao je da ove godine nisu imali toliko intervencija u jednom danu.\n\nNavečer je u emisiji gledateljima objasnila što je tornado.\n\n— Tornado nastaje iz jakog olujnog oblaka, kad se topao i vlažan zrak brzo diže, a vjetar na različitim visinama puše u različitim smjerovima — rekla je. — Teoretski, tornado može nastati gotovo bilo gdje u Hrvatskoj. U praksi je kod nas rijedak, kratak i obično slab.\n\nToga dana ljudi su na društvene mreže stavili stotine snimki. Kalinka je pregledala gotovo sve. Na nekoliko snimki zaista se vidio tornado. Ali na mnogima nije bio tornado, nego obična varka: nizak tamni oblak koji s ceste izgleda kao tornado.\n\n— To je česta varka — rekla je. — Pravi tornado dodiruje tlo i diže prašinu, lišće ili grane. Ako toga nema, vjerojatno gledate varku.\n\nOluja je zahvatila i zračnu luku kod Osijeka. Dva leta su odgođena, a jedan je avion sletio u Zagreb. Putnici tog leta dobili su alternativan prijevoz: autobus od Zagreba do Osijeka. Neki su bili ljuti, ali Kalinka je objasnila da je to alternativno rješenje bilo najsigurnije i da zračni promet u takvoj oluji mora stati.\n\nGledatelji su je pitali hoće li takvih oluja biti sve više. Kalinka je odgovorila oprezno. Ljetne oluje u Slavoniji su neizbježne, jer topao zrak daje olujnim oblacima energiju. Ali neizbježne oluje ne znače i neizbježnu štetu. Kad ljudi prate upozorenja, stave auto pod krov i ostanu kod kuće, šteta je mnogo manja. Teoretski, ni najbolja prognoza ne može reći u kojem će točno polju nastati tornado, ali može reći kad treba biti oprezan.\n\nNa kraju emisije zahvalila je vatrogascima na svim intervencijama tog dana.\n\nPitanja:\nŠto je oluja zahvatila tog poslijepodneva?\nOluja je zahvatila istok Slavonije, Vinkovce i nekoliko sela oko grada.\nKoliko su intervencija vatrogasci imali tog dana?\nImali su više od četrdeset intervencija.\nZašto mnoge snimke na mrežama nisu pokazivale pravi tornado?\nNa njima je bila varka: nizak tamni oblak koji s ceste izgleda kao tornado.\nKakav su prijevoz dobili putnici aviona koji je sletio u Zagreb?\nDobili su alternativan prijevoz, autobus od Zagreba do Osijeka.\nJesu li ljetne oluje u Slavoniji neizbježne?\nJesu, ali šteta je mnogo manja kad ljudi prate upozorenja."
+    },
+    {
+      "title": "Gripa je opet u gradu",
+      "summary": "In her weekly health column for a Sisak paper, doctor Ljiljanka answers readers during a flu epidemic: what to do when pharmacies run out of a medicine, when a drip is really needed, who with a tendency to lung illness should be careful, why the mind recovers more slowly than the body, and how to comfort a sick child.",
+      "newWords": [
+        "epidemija",
+        "ljekarna",
+        "psiha",
+        "tješiti",
+        "sklonost",
+        "redovan",
+        "infuzija"
+      ],
+      "text": "Liječnica Ljiljanka svakog četvrtka piše kolumnu o zdravlju za jedan tjedni list u Sisku. Ovaj su tjedan gotovo sva pisma bila o istoj temi: u gradu i okolici počela je epidemija gripe. Ovo je njena kolumna.\n\n„Dragi moji, epidemija gripe stigla je kao i svake zime, samo nešto ranije. Ovih dana trećina mojih pacijenata dolazi s visokom temperaturom, kašljem i bolovima u mišićima. Epidemija znači da je bolesnih više nego obično, a ne da je bolest opasnija. Većina ljudi ozdravi kod kuće za tjedan dana.\n\nPrvo pismo poslala mi je gospođa koja je obišla tri ljekarne i nigdje nije našla sirup koji je tražila. U vrijeme epidemije ljekarne imaju mnogo posla, a neki lijekovi brzo nestanu. Zato vas molim: ne kupujte lijekove unaprijed, za cijelu obitelj i za cijelu zimu. U ljekarni pitajte postoji li isti lijek pod drugim imenom. Gotovo uvijek postoji.\n\nDrugo pismo je od čitatelja koji pita kad je potrebna infuzija. Infuzija je potrebna rijetko: kad bolesnik nekoliko dana ne može ni piti ni jesti, pa tijelo izgubi previše tekućine. Tada liječnik daje tekućinu infuzijom, obično nekoliko sati, i bolesnik se najčešće isti dan vraća kući. Najbolji način da vam infuzija ne bude potrebna jednostavan je: pijte mnogo vode, čaja i juhe, u malim gutljajima.\n\nTreće pismo je od gospodina koji ima sklonost bolestima pluća. Ljudi s takvom sklonošću, kao i stariji ljudi, trebaju se cijepiti svake jeseni. Ako imate sklonost čestim bolestima pluća, nemojte čekati da temperatura prođe sama: nakon tri dana javite se liječniku. Redovni pregledi kod obiteljskog liječnika važni su upravo za takve pacijente. Na redovan pregled dođite kad epidemija prođe, a ne usred nje.\n\nMnogi mi ovih dana kažu da su nakon gripe tužni i bez snage. Gripa ne umara samo tijelo nego i psihu. Psiha se oporavlja sporije od tijela, i to je normalno. Pomaže redovan san, malo hoda na svježem zraku i razgovor s ljudima koje volite. Ako tuga traje dulje od mjesec dana, recite to svom liječniku, jer i psiha zaslužuje pomoć.\n\nPosljednje pismo poslala je majka šestogodišnjeg dječaka koji plače jer zbog gripe ne smije u školu i ne vidi prijatelje. Bolesnu djecu treba tješiti. Pročitajte mu priču, sjednite pokraj njega, dopustite mu da nazove prijatelja. Dijete koje roditelji tješe brže se smiri i lakše spava. Ali tješiti ne znači davati mu slatkiše svaki sat.\n\nI na kraju, ono što ponavljam svake zime: perite ruke, a kad ste bolesni, ostanite kod kuće.“\n\nPitanja:\nO čemu su bila gotovo sva pisma ovaj tjedan?\nBila su o epidemiji gripe u gradu i okolici.\nŠto liječnica savjetuje gospođi koja nije našla sirup u ljekarni?\nSavjetuje joj da u ljekarni pita postoji li isti lijek pod drugim imenom.\nKad je potrebna infuzija?\nInfuzija je potrebna kad bolesnik nekoliko dana ne može ni piti ni jesti i izgubi previše tekućine.\nŠto trebaju napraviti ljudi koji imaju sklonost bolestima pluća?\nTrebaju se cijepiti svake jeseni i javiti se liječniku ako temperatura traje tri dana.\nZašto treba tješiti bolesno dijete?\nDijete koje roditelji tješe brže se smiri i lakše spava."
+    },
+    {
+      "title": "Mačka s naočalama",
+      "summary": "A city magazine interviews Tihomirka, who leads a team of three making a weekly online show about money for young people: why she hid behind an avatar for four years, what each episode consists of, what a businessman guest taught her, why she asks listeners to note every transaction, and which privileges paying members get.",
+      "newWords": [
+        "avatar",
+        "transakcija",
+        "biznismen",
+        "povlastica",
+        "sastojati",
+        "predvoditi",
+        "seansa"
+      ],
+      "text": "Tihomirka ima 29 godina i predvodi mali tim koji svaki tjedan snima emisiju o novcu za mlade. Emisiju na internetu sluša više od pedeset tisuća ljudi. Dugo nitko nije znao kako ona izgleda. Za naš časopis prvi je put pristala na fotografiranje i na razgovor.\n\n— Kako je sve počelo?\n\n— Prije četiri godine radila sam u banci. Prijatelji su me stalno pitali kako uštedjeti za stan, je li bolje plaćati karticom ili gotovinom, zašto im novac nestane već do 20. u mjesecu. Jednog dana sam odlučila snimiti odgovore, pa neka ih slušaju kad žele.\n\n— Četiri godine niste pokazivali lice. Na mrežama ste imali samo avatar.\n\n— Da, moj avatar je mala narančasta mačka s naočalama. Taj avatar mi je davao mir: ljudi su slušali što govorim, a ne kako izgledam. Ova seansa s vašim fotografom bila je prva seansa u mom životu. Bila sam nervoznija nego pred kamerom u banci.\n\n— Od čega se sastoji jedna emisija?\n\n— Svaka se emisija sastoji od tri dijela. Prvi dio je pitanje jednog slušatelja. U drugom dijelu razgovaram s gostom. Treći dio sastoji se od samo jednog savjeta, koji se može primijeniti već sutra. Tim se sastoji od troje ljudi: ja vodim razgovore, kolega se brine o zvuku, a kolegica odgovara na poruke.\n\n— Kažete da predvodite tim. Što to znači?\n\n— Predvoditi ne znači sve odlučivati sama. Ja predvodim tim tako da prva preuzmem odgovornost kad nešto ne uspije. Odluke donosimo zajedno.\n\n— Tko su vaši gosti?\n\n— Najčešće obični ljudi: medicinska sestra koja je otplatila kredit, student koji živi od stipendije. Najpoznatiji gost bio je jedan biznismen iz Splita koji je s 18 godina prodavao sladoled na plaži, a danas ima tvrtku s 200 radnika. Taj biznismen rekao mi je nešto što stalno ponavljam: „Nisam se obogatio od velikih poslova, nego od malih odluka.“\n\n— Što savjetujete mladima?\n\n— Da prate svaku transakciju. Većina mladih ne zna kamo im ide novac. Male transakcije su najopasnije: kava, dostava hrane, aplikacije koje plaćate svaki mjesec, a ne koristite ih. Mjesec dana zapišite svaku transakciju, pa ćete se iznenaditi.\n\n— Članovi koji plaćaju imaju neke povlastice?\n\n— Imaju dvije povlastice. Emisiju čuju dan ranije, a jednom mjesečno imamo s njima seansu uživo, na kojoj odgovaram na njihova pitanja. Ali najvažnije je da je emisija besplatna za sve. Povlastica ne smije biti znanje. Znanje o novcu mora biti dostupno svima.\n\nPitanja:\nŠto radi Tihomirka?\nPredvodi mali tim koji svaki tjedan snima emisiju o novcu za mlade.\nKako izgleda njen avatar?\nNjen avatar je mala narančasta mačka s naočalama.\nOd čega se sastoji jedna emisija?\nSastoji se od pitanja jednog slušatelja, razgovora s gostom i jednog savjeta.\nŠto je rekao biznismen iz Splita?\nRekao je da se nije obogatio od velikih poslova, nego od malih odluka.\nKoje povlastice imaju članovi koji plaćaju?\nEmisiju čuju dan ranije, a jednom mjesečno imaju seansu uživo, na kojoj Tihomirka odgovara na njihova pitanja."
+    },
+    {
+      "title": "Sezona kiselih krastavaca",
+      "summary": "In a column for a Split daily, a journalist with nothing to write about in August describes her small courtyard instead: the old vine, a neighbour's grandson swinging in a hammock, old Mr Ljubomil in his vest even in the heat, and a cockroach on the stairs that became the building's news of the summer; she concludes that many news items are unnecessary and that small, true stories are news too.",
+      "newWords": [
+        "loza",
+        "ljuljati",
+        "prsluk",
+        "žohar",
+        "podrazumijevati",
+        "općenito",
+        "nepotreban"
+      ],
+      "text": "U kolovozu novinari kažu da je počela „sezona kiselih krastavaca“. Taj izraz znači da se ljeti malo toga događa: ljudi su na moru, uredi su prazni, a urednici traže bilo kakvu temu za sutrašnje novine. Ovo je kolumna koju je u kolovozu napisala jedna novinarka dnevnog lista u Splitu.\n\n„Moj urednik nazvao me u ponedjeljak i rekao: — Trebam tvoju kolumnu do četvrtka. Piši o bilo čemu. Ništa se ne događa.\n\nSjela sam u dvorište i čekala da se nešto dogodi. Naše je dvorište u starom dijelu Splita malo i kameno, a sa svih strana su zidovi kuća. Iznad njega raste stara loza. Lozu je posadio djed gospodina Ljubomila s prvog kata, prije gotovo sto godina. U kolovozu loza daje hlad cijelom dvorištu, a grožđe visi tako nisko da ga djeca beru rukom.\n\nIspod loze stoji stara viseća mreža. Unuk gospodina Ljubomila, dječak od sedam godina, ljulja se u njoj cijelo poslijepodne. Kad dječak ode na ručak, u mrežu legne djed i ljulja se umjesto njega.\n\nGospodin Ljubomil ima osamdeset i dvije godine i uvijek nosi prsluk. I u kolovozu, kad je u dvorištu 35 stupnjeva, preko košulje nosi tamnoplavi prsluk. Kaže da je prsluk nosio i njegov otac i da čovjek koji ne nosi prsluk nije do kraja obučen.\n\nU utorak navečer na stubištu se pojavio žohar. Bio je velik, smeđ i brz. To je bila najveća vijest u zgradi ovog ljeta. Gospođa s drugog kata vrisnula je, a za deset minuta svi su stanari stajali u dvorištu i raspravljali odakle je žohar došao. Netko je rekao da je došao iz restorana preko puta, netko da je stigao u kutiji iz trgovine. Gospodin Ljubomil mirno je rekao da je u ovoj zgradi posljednjeg žohara vidio prije trideset godina i da je i taj otišao sam. Ujutro je došao čovjek iz gradske službe i poprskao podrum. Žohara više nitko nije vidio.\n\nTada sam shvatila da imam kolumnu. Mi novinari podrazumijevamo da vijest mora biti velika, loša i hitna. Podrazumijevamo i da ljudi čitaju samo ono što ih plaši. Ali općenito nije tako. Općenito, ljudi rado čitaju i o maloj stvari, ako je istinita i napisana s pažnjom.\n\nTijekom godine novine objave mnogo nepotrebnih vijesti: tko je što rekao o nekome tko je rekao nešto treće, koliko je netko platio auto, što je netko obukao na večeru. Takve su vijesti nepotrebne, ali ih objavljujemo, jer se brzo čitaju. U kolovozu, kad nema velikih vijesti, nestanu i nepotrebne vijesti, pa ostane mjesta za jednu lozu, jedan prsluk i jednog žohara.\n\nZato ne volim izraz „sezona kiselih krastavaca“. To nije sezona bez vijesti. To je sezona u kojoj se vidi da je i život jednog dvorišta vijest. Gospodin Ljubomil pročitao je ovu kolumnu prije vas. Rekao mi je samo da sam zaboravila napisati da je njegov prsluk plav.“\n\nPitanja:\nŠto znači izraz „sezona kiselih krastavaca“?\nZnači da se ljeti malo toga događa, pa urednici traže bilo kakvu temu.\nŠto raste iznad dvorišta?\nIznad dvorišta raste stara loza, koju je posadio djed gospodina Ljubomila.\nTko se ljulja u visećoj mreži?\nU mreži se ljulja unuk gospodina Ljubomila, a kad on ode na ručak, ljulja se djed.\nŠto je bila najveća vijest u zgradi ovog ljeta?\nNajveća vijest bio je žohar koji se u utorak navečer pojavio na stubištu.\nŠto novinari podrazumijevaju kad traže vijest?\nPodrazumijevaju da vijest mora biti velika, loša i hitna."
+    }
+  ]
+}
