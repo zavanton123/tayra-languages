@@ -1,0 +1,192 @@
+{
+  "id": "hr-mini-5800",
+  "rankUpTo": 5800,
+  "level": "C1",
+  "title": "Hrvatski jezik",
+  "description": "Ten texts about the Croatian language: a library talk on coined words, a lesson on verbal aspect, an old Zagorje gardener's kajkavian words, subtitling a nature film, a school debate on loanwords, a pregnant woman's notebook of new words, a girl learning island words after a move to Korčula, a hotel maid from Nepal learning Croatian, a skating commentator who avoids English terms, and surtitles for a comic opera.",
+  "topic": "The Croatian language",
+  "names": [
+    "Zlatoslava",
+    "Varaždin",
+    "Kaliopa",
+    "Atena",
+    "Zagreb",
+    "Miomir",
+    "Radomila",
+    "Joža",
+    "Krapina",
+    "Zagorje",
+    "Krasimirka",
+    "Amerika",
+    "Osijek",
+    "Dobromila",
+    "Borislava",
+    "Stanimir",
+    "Ljubomira",
+    "Toronto",
+    "Split",
+    "Želimira",
+    "Zlatomir",
+    "Korčula",
+    "Branimirka",
+    "Orebić",
+    "Venecija",
+    "Sunita",
+    "Nepal",
+    "Hvar",
+    "Dragoslava",
+    "Vedroslav",
+    "Kanada",
+    "Argentina",
+    "Eugenija"
+  ],
+  "lessons": [
+    {
+      "title": "Riječi koje je netko skovao",
+      "summary": "Language editor Zlatoslava gives a library talk in Varaždin: she starts with a two-euro coin, explains that a \"kovanica\" is also a newly coined word, and shows which coinages, such as zrakoplov and kišobran, the language took up fully, partly or not at all.",
+      "newWords": [
+        "kovanica",
+        "izumjeti",
+        "zrakoplovstvo",
+        "kišobran",
+        "ekspert",
+        "relativno",
+        "djelomično",
+        "beznačajan"
+      ],
+      "text": "Zlatoslava radi kao lektorica u jednoj izdavačkoj kući u Varaždinu. Jednom mjesečno u gradskoj knjižnici drži predavanje o hrvatskim riječima. Ove je večeri na stol stavila malu kovanicu od dva eura i pitala publiku što je to.\n\n— Kovanica — odgovorio je dječak iz prvog reda.\n\n— Točno — rekla je Zlatoslava. — Ali kovanica nije samo novac. Kovanica je i nova riječ koju je netko napravio od starih dijelova jezika. Novac se kuje od metala, a riječi od korijena i nastavaka. Zato kažemo da je netko skovao riječ.\n\nZatim je objasnila da riječi, kao i strojeve, netko mora izumjeti. Kad su ljudi počeli letjeti, trebala im je riječ za stroj koji leti. U hrvatskom se ustalila riječ zrakoplov, od riječi zrak i glagola ploviti: zrakoplov je ono što plovi zrakom. Od nje je nastala i riječ zrakoplovstvo, za sve što je povezano s letenjem: tvrtke, pilote, zračne luke i škole za pilote. Danas u novinama čitamo vijesti o zrakoplovstvu, a nitko više ne misli na to da je i ta riječ nekad bila nova.\n\n— Za avion znamo tko ga je izumio — rekla je — a riječ zrakoplov izumio je netko čije ime danas gotovo nitko ne zna.\n\nPokazala je i kišobran koji je ostavila uz vrata. Kišobran je ono što nas brani od kiše. Slično su tu stvar nazvali i u nekim drugim jezicima. Kad pada kiša, nitko ne razmišlja o tome da u ruci drži kovanicu, ali kišobran to jest.\n\nMnoge riječi koje nam zvuče staro relativno su nove. Neke imaju tek stotinjak godina, a sto godina za jezik je relativno kratko vrijeme. Neke su kovanice uspjele potpuno: nogomet i rukomet danas nitko ne mijenja. Druge su uspjele samo djelomično. Riječ računalo piše se u školskim knjigama i u novinama, ali mnogi kod kuće ipak kažu kompjutor. Ta je kovanica, dakle, djelomično prihvaćena.\n\nMnoge su kovanice ostale beznačajne. Zapisane su u nekom starom rječniku, ali ih nitko nije koristio. Zlatoslava kaže da to nije beznačajan podatak, jer pokazuje da jezik ne mijenja jedan čovjek, nego ljudi koji ga govore svaki dan.\n\nJedna gospođa pitala je je li i riječ ekspert hrvatska. Zlatoslava se nasmijala.\n\n— Nije, ekspert je posuđena riječ. Mi imamo i riječ stručnjak, pa netko piše ekspert, a netko stručnjak. Ja nisam ekspert za sve riječi, ali za ovu znam da su obje dobre.\n\nNa kraju je dječak iz prvog reda pitao smije li i on izumjeti riječ. Zlatoslava mu je rekla da smije, ali da će riječ živjeti samo ako je ljudi počnu koristiti. Dječak je zatim dugo razmišljao. Kad je izlazio, rekao je da će mjesto gdje se ostavljaju mokri kišobrani zvati kišobranište. Zlatoslava je tu riječ zapisala u svoju bilježnicu.\n\nPitanja:\nŠto je Zlatoslava stavila na stol?\nStavila je na stol kovanicu od dva eura.\nŠto je kovanica osim novca?\nKovanica je i nova riječ koju je netko napravio od starih dijelova jezika.\nKako je nastala riječ zrakoplov?\nNastala je od riječi zrak i glagola ploviti, jer zrakoplov plovi zrakom.\nZašto kaže da je riječ računalo djelomično prihvaćena?\nPiše se u školskim knjigama i u novinama, ali mnogi kod kuće ipak kažu kompjutor.\nKoju je riječ dječak izumio?\nIzumio je riječ kišobranište, za mjesto gdje se ostavljaju mokri kišobrani."
+    },
+    {
+      "title": "Crta i točka",
+      "summary": "Kaliopa from Athens takes private Croatian lessons in Zagreb; her instructor Miomir draws a sketch of lines and dots to explain verbal aspect, with vikati and viknuti, prisjećati se and prisjetiti se, and the exceptions that are both at once.",
+      "newWords": [
+        "aspekt",
+        "instruktor",
+        "teškoća",
+        "izuzetak",
+        "viknuti",
+        "skica",
+        "prisjećati",
+        "popuštati"
+      ],
+      "text": "Kaliopa je iz Atene, a u Zagrebu živi dvije godine. Radi u jednoj tvrtki i dobro govori hrvatski, ali svakog četvrtka ima sat s instruktorom. Njen instruktor zove se Miomir i već dvadeset godina uči strance hrvatski.\n\nOvog je četvrtka Kaliopa došla s jednim pitanjem.\n\n— Najveća mi je teškoća aspekt — rekla je. — Nikad ne znam trebam li reći pisala sam ili napisala sam.\n\nInstruktor je uzeo papir i nacrtao jednostavnu skicu. Na jednoj strani nacrtao je dugu crtu, a na drugoj malu točku.\n\n— Ovo je cijeli aspekt — rekao je. — Crta je radnja koja traje ili se ponavlja. Točka je radnja koja se dogodila jednom i završila. Na primjer: dječak je cijelo popodne vikao u parku. To je crta. A onda je jednom viknuo: „Mama!“ To je točka.\n\nKaliopa je pogledala skicu i ponovila: — Vikati je crta, a viknuti je točka.\n\n— Tako je. Sad pokušajte sami.\n\nKaliopa je razmislila i rekla rečenicu o svojoj baki: — Baka se često prisjeća svog sela. — Onda je dodala drugu: — Jučer se odjednom prisjetila imena svoje učiteljice.\n\n— Odlično — rekao je Miomir. — Prisjećati se je crta, jer se to događa često. Prisjetiti se je točka, jer se dogodilo jednom.\n\nTada je Kaliopa postavila pitanje kojeg se on bojao.\n\n— Ima li izuzetaka?\n\n— Ima — priznao je. — Neke riječi mogu biti i crta i točka. Organizirati, telefonirati: jučer sam ti telefonirala jednom, a prošlog sam ti tjedna telefonirala svaki dan. To su izuzeci, i njih treba samo zapamtiti.\n\n— Volim pravila, ali ne volim izuzetke — rekla je Kaliopa i nasmijala se.\n\nMiomir je dobar instruktor, ali nikad ne popušta. Kad Kaliopa pogriješi, uvijek je ispravi, čak i kad žuri. Ona mu je jednom rekla da je strog, a on je odgovorio da ne popušta zato što zna koliko ona može.\n\nNa kraju sata Miomir joj je dao skicu i zamolio je da kod kuće napiše kratak tekst o jučerašnjem danu. Kaliopa je navečer sjela za stol i pisala sat vremena. Kad je napisala tekst, pročitala ga je naglas. Iznad svake radnje nacrtala je crtu ili točku.\n\nSljedećeg četvrtka instruktor je pročitao tekst i nije našao nijednu pogrešku u aspektu. Kaliopa mu je rekla da njen strah od aspekta polako popušta. Miomir je rekao da mu je drago, ali je dodao da i dalje neće popuštati. Kad je izlazila, Kaliopa je na vratima viknula: — Vidimo se sljedećeg četvrtka!\n\nPitanja:\nŠto je Kaliopi najveća teškoća u hrvatskom?\nNajveća joj je teškoća aspekt.\nŠto je Miomir nacrtao na skici?\nNacrtao je dugu crtu i malu točku.\nŠto znači crta, a što točka?\nCrta je radnja koja traje ili se ponavlja, a točka radnja koja se dogodila jednom i završila.\nKoje su riječi izuzeci?\nIzuzeci su riječi koje mogu biti i crta i točka, na primjer organizirati i telefonirati.\nZašto Miomir nikad ne popušta?\nNe popušta zato što zna koliko Kaliopa može."
+    },
+    {
+      "title": "Joža iz Zagorja",
+      "summary": "Student Radomila visits Joža, an old gardener in Zagorje, to record the kajkavian words he uses in his garden; while he talks, a puppy runs between the beds and the mosquitoes come out at dusk.",
+      "newWords": [
+        "vrtlar",
+        "komarac",
+        "plijesan",
+        "vol",
+        "štene",
+        "pričuvati",
+        "sprijeda",
+        "nasuprot",
+        "bora"
+      ],
+      "text": "Radomila studira hrvatski jezik u Zagrebu i piše rad o kajkavskim riječima iz vrta. Profesor joj je rekao da najbolje riječi neće naći u knjigama, nego kod ljudi koji ih svaki dan govore. Zato je jedne subote sjela na autobus i otišla u jedno selo blizu Krapine, kod starog vrtlara Jože.\n\nJoža ima 80 godina i lice puno bora. Kad se smije, bore oko očiju postanu još dublje. Cijeli život radio je kao vrtlar, najprije na jednom velikom imanju, a zatim u svom vrtu. Dočekao ju je na dvorištu, a oko njegovih nogu trčalo je malo smeđe štene.\n\n— Kaj vas zanima? — pitao je.\n\nRadomila je odmah zapisala prvu riječ: kaj. U Zagorju se ne kaže što, nego kaj. Joža joj je pokazao svoju kuću, koju on zove hiža. Sprijeda je hiža, a iza nje je vrt. Nasuprot hiže je stara drvena štala.\n\n— U toj štali moj je otac držao dva vola — rekao je Joža. — S volovima smo radili na polju i vozili sijeno. Danas tu stoje samo alati.\n\nUšli su u vrt. Sprijeda su bili luk i salata, a straga grah, kojemu Joža kaže fižol. Radomila je pisala što je brže mogla. Štene je trčalo između biljaka, a Joža ga je svaki čas zvao natrag.\n\nUz ogradu je bilo nekoliko biljaka s bijelim mrljama na lišću.\n\n— To je plijesan — rekao je vrtlar. — Kad je ljeto vlažno, plijesan dođe na lišće. Ja tada otkinem bolesne listove, da plijesan ne prijeđe na druge biljke.\n\nOnda je u kući počeo zvoniti telefon. Joža je Radomili dao malo štene u ruke.\n\n— Pričuvajte mi ga malo, molim vas, da ne pobjegne na cestu.\n\nRadomila je pričuvala štene dok je Joža razgovarao. Štene joj je zaspalo u krilu.\n\nKad se Joža vratio, sunce je već bilo nisko. Iz trave su izašli komarci. Jedan komarac sletio je Radomili na ruku, a drugi joj je letio oko uha.\n\n— Komarci najviše vole vrt navečer — rekao je Joža. — Mi smo komarce tjerali dimom od suhog lišća.\n\nSjeli su na klupu nasuprot štale i Joža je pričao još sat vremena. Radomila je zapisala više od pedeset riječi. Na kraju je pitala smije li doći ponovno, u jesen, kad se bere grožđe i kad se kopaju krumpiri.\n\n— Dođite — rekao je vrtlar. — Do onda će i štene biti veliko.\n\nPitanja:\nZašto je Radomila otišla k Joži?\nPiše rad o kajkavskim riječima iz vrta, a te riječi najbolje zna netko tko ih svaki dan govori.\nKako se u Zagorju kaže što, a kako kuća?\nU Zagorju se kaže kaj, a kuća se zove hiža.\nŠto je stajalo nasuprot hiže?\nNasuprot hiže stajala je stara drvena štala, u kojoj je Jožin otac držao dva vola.\nKako Joža čuva biljke od plijesni?\nOtkine bolesne listove, da plijesan ne prijeđe na druge biljke.\nŠto je Radomila radila dok je Joža razgovarao telefonom?\nPričuvala je štene, koje joj je zaspalo u krilu."
+    },
+    {
+      "title": "Rakun nema hrvatsko ime",
+      "summary": "Translator Krasimirka writes the Croatian subtitles for a nature documentary about the north of America and has to choose words for raccoons, reindeer, dens, predators and the droppings scientists collect in a volcanic valley.",
+      "newWords": [
+        "rakun",
+        "predator",
+        "jazbina",
+        "izmet",
+        "sob",
+        "šuljati",
+        "vulkanski",
+        "nemoćan"
+      ],
+      "text": "Krasimirka je prevoditeljica. Već deset godina prevodi dokumentarne filmove za televiziju. Ovog mjeseca dobila je film o divljim životinjama sjevera Amerike, koji traje sat i pol. Kaže da su takvi filmovi teži nego što ljudi misle, jer svaka životinja mora imati točno ime.\n\nPrva životinja u filmu bio je rakun. Rakun je mala životinja sive dlake s crnim krugom oko očiju i prugastim repom. Krasimirka je provjerila u rječnicima ima li rakun neko staro hrvatsko ime. Nema ga. Rakun ne živi u našim šumama, pa je ime došlo izvana, zajedno sa životinjom u knjigama i filmovima. U filmu se rakun noću šulja oko kuća i traži hranu u kantama za smeće. Krasimirka je napisala: „Rakun se šulja kroz dvorište.“ Riječ šuljati joj se svidjela, jer dobro opisuje životinju koja hoda tiho, polako i blizu zemlje.\n\nZatim je u filmu došla jazbina. Rakun spava u šupljem drvetu, a lisica u jazbini pod zemljom. Engleski tekst imao je za oboje istu riječ, ali Krasimirka je morala izabrati: za lisicu je napisala jazbina, a za rakuna rupa u drvetu. U jazbini lisica čuva svoje mlade.\n\nNajviše je razmišljala o riječi predator. U filmu se ta riječ ponavlja dvadeset puta. Predator je životinja koja se hrani drugim životinjama, na primjer vuk ili ris. Hrvatski za to ima i domaću riječ grabežljivac, ali danas ljudi često kažu i predator, pa je Krasimirka negdje napisala jednu, a negdje drugu riječ, da se tekst ne ponavlja.\n\nU drugom dijelu filma kamera prati stado sobova na dalekom sjeveru. Sob je velika životinja s rogovima, a sobovi zimi putuju stotinama kilometara u potrazi za hranom. Vukovi prate stado iz daljine. Mladi sob koji je tek rođen gotovo je nemoćan: jedva stoji na nogama. Zato ga stado drži u sredini, gdje predatori ne mogu doći do njega.\n\nTreći dio snimljen je u jednoj vulkanskoj dolini. Iz zemlje izlaze vruća voda i para, a vulkansko tlo ima boje od žute do crvene. Tamo dvoje znanstvenika skuplja izmet životinja. Krasimirka se najprije nasmijala, a onda je saznala da je to vrlo ozbiljan posao. Iz izmeta se vidi što su životinje jele, jesu li zdrave i koliko ih ima u dolini. Znanstvenica u filmu kaže: — Izmet nam priča priču koju ne možemo vidjeti.\n\nKrasimirka je dugo tražila riječ za ono što znanstvenici skupljaju. Odlučila se za izmet, jer je to riječ koju koriste i biolozi, a nije neugodna.\n\nKad je završila, poslala je prijevod urednici. Na kraju je napisala da se osjećala nemoćno samo pred jednom riječi, pred rakunom, jer za njega jednostavno nema druge riječi.\n\nPitanja:\nZašto rakun nema staro hrvatsko ime?\nRakun ne živi u našim šumama, pa je ime došlo izvana, zajedno sa životinjom u knjigama i filmovima.\nZašto se Krasimirki svidjela riječ šuljati?\nDobro opisuje životinju koja hoda tiho, polako i blizu zemlje.\nZašto stado drži mladog soba u sredini?\nMladi sob je gotovo nemoćan, pa ga stado drži u sredini, gdje predatori ne mogu doći do njega.\nZašto znanstvenici skupljaju izmet životinja?\nIz izmeta se vidi što su životinje jele, jesu li zdrave i koliko ih ima u dolini.\nKako izgleda vulkanska dolina u filmu?\nIz zemlje izlaze vruća voda i para, a tlo ima boje od žute do crvene."
+    },
+    {
+      "title": "Vikend ili kraj tjedna",
+      "summary": "At a school debate in Osijek, Borislava argues for Croatian words and Stanimir for loanwords; Borislava's survey of 200 pupils, a polite exchange on the podium and the jury's critic decide the evening.",
+      "newWords": [
+        "debata",
+        "anketa",
+        "podij",
+        "kulturan",
+        "kritičar",
+        "polaskati",
+        "ogorčen",
+        "nezadovoljan"
+      ],
+      "text": "U jednoj gimnaziji u Osijeku svakog mjeseca održava se debata. Ovog je mjeseca tema bila: „Treba li umjesto stranih riječi uvijek pisati hrvatske?“ Profesorica Dobromila, koja vodi debatni klub, podijelila je učenike u dvije skupine. Borislava je govorila za hrvatske riječi, a Stanimir za strane.\n\nBorislava se za debatu pripremala dva tjedna. Napravila je anketu među 200 učenika svoje škole. U anketi je pitala kažu li vikend ili kraj tjedna i smeta li im kad u trgovini vide natpis na engleskom. Anketa je pokazala da gotovo svi kažu vikend, ali da je više od polovine učenika nezadovoljno kad u svom gradu vide previše engleskih natpisa.\n\nNa večer debate dvorana je bila puna. Na podiju su stajala dva stola, jedan za svaku skupinu. U žiriju su sjedili profesorica Dobromila, jedan učitelj iz druge škole i poznati kritičar, koji već trideset godina piše o knjigama za jedne novine.\n\nBorislava je prva izašla na podij. Pokazala je rezultate ankete i rekla da jezik ne treba zatvoriti, ali da ga treba čuvati. — Ako za nešto imamo dobru hrvatsku riječ, zašto je ne bismo koristili? — pitala je.\n\nZatim je na podij izašao Stanimir. Rekao je da je i riječ vikend došla izvana, a sad je naša, i da se jezik uvijek mijenjao. Jedan gospodin iz publike bio je ogorčen: glasno je rekao da mladi ljudi više ne znaju hrvatski. Stanimir mu je mirno odgovorio da poštuje njegovo mišljenje, ali da su ga baš mladi ljudi u anketi iznenadili, jer većina želi čuvati jezik.\n\nProfesorica Dobromila bila je zadovoljna, jer je debata bila kulturna. Nitko nikoga nije prekidao, a i ogorčeni gospodin na kraju je pljeskao. Na početku godine rekla je učenicima da je kulturan razgovor važniji od pobjede.\n\nKad su obje skupine završile, kritičar je ustao i rekao nekoliko riječi. Rekao je da je Borislavina anketa najbolja stvar te večeri, jer je s brojevima teško raspravljati. Borislava je bila polaskana. Kritičar je zatim rekao da je Stanimir najbolje odgovorio na pitanje iz publike. I Stanimir je bio polaskan, iako se trudio da to nitko ne vidi.\n\nŽiri je pobjedu dao Borislavinoj skupini. Neki učenici iz druge skupine bili su nezadovoljni, ali Stanimir im je rekao da je ovo bila dobra debata i da je izgubio od dobre ankete.\n\nPitanja:\nKoja je bila tema debate?\nTema je bila treba li umjesto stranih riječi uvijek pisati hrvatske.\nŠto je pokazala Borislavina anketa?\nGotovo svi učenici kažu vikend, ali više od polovine nezadovoljno je kad vidi previše engleskih natpisa.\nTko je sjedio u žiriju?\nU žiriju su sjedili profesorica Dobromila, jedan učitelj iz druge škole i poznati kritičar.\nKako je Stanimir odgovorio ogorčenom gospodinu?\nMirno mu je rekao da poštuje njegovo mišljenje, ali da većina mladih u anketi želi čuvati jezik.\nZašto je Borislava bila polaskana?\nKritičar je rekao da je njena anketa najbolja stvar te večeri."
+    },
+    {
+      "title": "Bilježnica za četrdeset tjedana",
+      "summary": "Ljubomira, born in Toronto to Croatian parents and now pregnant in Split, keeps a notebook of the Croatian words she learns at her check-ups with the midwife Želimira: maternica, kofein, two litres of water, snoring and an injection in the baby's thigh.",
+      "newWords": [
+        "maternica",
+        "kofein",
+        "litar",
+        "hrkati",
+        "bedro",
+        "ubrizgati",
+        "četrdeset",
+        "slutiti"
+      ],
+      "text": "Ljubomira je rođena u Torontu, u obitelji koja je iz Hrvatske otišla prije pedeset godina. Kod kuće se govorilo hrvatski, pa ga dobro razumije, ali neke riječi nikad nije naučila. Prije dvije godine preselila se u Split, a ove je godine trudna. Na svaki pregled nosi malu bilježnicu u koju zapisuje nove riječi.\n\nNa prvom pregledu primalja Želimira objasnila joj je da trudnoća traje oko četrdeset tjedana. Ljubomira je na prvu stranicu bilježnice napisala broj četrdeset i ispod njega nacrtala četrdeset malih kućica. Svakog ponedjeljka prekriži jednu.\n\nNa ultrazvuku je prvi put vidjela dijete u maternici. Želimira joj je pokazala glavu, ruke i srce koje brzo kuca. Ljubomira je u bilježnicu napisala riječ maternica i pitala odakle dolazi.\n\n— Od riječi mater, majka — rekla je primalja. — Maternica je mjesto gdje majka nosi dijete. Iz istog korijena dolazi i materinski jezik, jezik koji dijete prvo čuje od majke.\n\nLjubomira je dugo gledala tu riječ. Shvatila je da njeno dijete neće imati jedan materinski jezik, nego dva: hrvatski od nje i engleski od oca.\n\nNa drugom pregledu razgovarale su o kavi. Ljubomira pije tri kave dnevno, a Želimira joj je rekla da je u trudnoći bolje unositi manje kofeina. Kofein nije samo u kavi, nego i u čaju, čokoladi i nekim sokovima. Ljubomira je u bilježnicu zapisala: kofein, najviše dvije kave. Primalja joj je rekla i da treba piti barem litar i pol vode na dan, a po vrućini i više. Ljubomira sad svako jutro na stol stavlja bocu u koju stane jedan litar. Do ručka popije prvi litar, a do večeri još pola. Tako u tjednu popije više od deset litara vode.\n\nNa trećem pregledu Ljubomira je primalju pitala za jednu riječ koju joj je rekao muž. On kaže da ona noću hrče.\n\n— Hrkati — nasmijala se Želimira. — To je normalno u trudnoći. Mnoge trudnice hrču, a nakon poroda prestanu hrkati.\n\nNa kraju pregleda Ljubomira je pitala kako će liječnici nakon poroda pregledati dijete. Želimira joj je objasnila da će djetetu u bolnici ubrizgati vitamin, u bedro, jer je to mjesto mekano i sigurno. Ljubomira je zapisala dvije nove riječi: bedro i ubrizgati. Ispod je dodala da će se vitamin ubrizgati u prvim satima.\n\nLjubomira od početka sluti da će roditi djevojčicu. Ne zna zašto, samo to sluti. Muž joj kaže da je sigurno dječak. Ime još nisu izabrali, ali Ljubomira ga je već zapisala na posljednju stranicu bilježnice, ispod četrdeset malih kućica.\n\nPitanja:\nGdje je Ljubomira rođena?\nRođena je u Torontu, u obitelji koja je otišla iz Hrvatske prije pedeset godina.\nKoliko traje trudnoća?\nTrudnoća traje oko četrdeset tjedana.\nOdakle dolazi riječ maternica?\nDolazi od riječi mater, majka, jer je maternica mjesto gdje majka nosi dijete.\nŠto je Želimira rekla o kofeinu i vodi?\nRekla je da je u trudnoći bolje unositi manje kofeina i da treba piti barem litar i pol vode na dan.\nŠto Ljubomira sluti?\nSluti da će roditi djevojčicu."
+    },
+    {
+      "title": "Piron, kužina i katrida",
+      "summary": "Construction engineer Zlatomir moves his family from Zagreb to Korčula; on the ferry and in the first hot weeks his daughter Branimirka collects the island's Italian-born words, which her new friends drop into every sentence.",
+      "newWords": [
+        "selidba",
+        "trajekt",
+        "komplet",
+        "ubacivati",
+        "građevinski",
+        "stajalište",
+        "topiti"
+      ],
+      "text": "Zlatomir je građevinski inženjer. Prošle zime dobio je posao na Korčuli, gdje jedna građevinska tvrtka obnavlja staru školu. Posao traje dvije godine, pa je obitelj odlučila preseliti se. Selidba iz Zagreba na otok trajala je cijeli tjedan.\n\nNajteži dio selidbe bilo je pakiranje. Zlatomirova kći Branimirka ima deset godina i pomagala je ubacivati stvari u kutije. Ubacivala je knjige, igračke i odjeću, a mama je pazila da ne ubacuje sve u istu kutiju. U posebnu kutiju stavili su bakin komplet tanjura i šalica. Taj je komplet star 70 godina i nitko ga ne smije razbiti.\n\nKamion sa stvarima otišao je dan ranije, a obitelj je putovala autom. U Orebiću su ušli na trajekt. Branimirka je prvi put bila na trajektu. Stajala je sprijeda i gledala kako se otok približava. Trajekt je plovio samo dvadesetak minuta, a njoj se činilo da putuju cijeli dan.\n\nPrvi tjedni na otoku bili su vrući. Asfalt se topio pod nogama, a sladoled se topio prije nego što bi ga Branimirka pojela. Svako jutro išla je s mamom na autobusno stajalište, odakle su vozili autobusi do plaže. Na stajalištu je upoznala dvije djevojčice iz susjedstva.\n\nDjevojčice su govorile hrvatski, ali su u svaku rečenicu ubacivale riječi koje Branimirka nikad nije čula. Kuhinja je kod njih kužina, vilica je piron, a stolica je katrida. Kad se zatvaraju škure, u kući postane hladnije. Branimirka je pitala tatu odakle te riječi. Zlatomir je rekao da su mnoge došle iz talijanskog, jer su ljudi na otocima stoljećima trgovali s Venecijom.\n\nNavečer je Branimirka za stolom ubacila svoju prvu novu riječ.\n\n— Mama, daj mi piron, molim te.\n\nMama se nasmijala i dala joj vilicu. Onda je iz kutije izvadila bakin komplet i postavila stol, prvi put u novoj kući. Zlatomir je rekao da je selidba sad gotova, jer je komplet na stolu i nijedan tanjur nije razbijen.\n\nBranimirka je te noći u bilježnicu zapisala riječi koje je naučila na stajalištu. Na vrhu stranice napisala je: „Riječi s otoka“. Do kraja ljeta stranica je bila puna.\n\nPitanja:\nZašto se obitelj preselila na Korčulu?\nZlatomir je građevinski inženjer i dobio je posao na Korčuli, gdje jedna građevinska tvrtka obnavlja staru školu.\nŠto je Branimirka radila za vrijeme selidbe?\nPomagala je ubacivati knjige, igračke i odjeću u kutije.\nGdje je Branimirka stajala na trajektu?\nStajala je sprijeda i gledala kako se otok približava.\nGdje je upoznala nove prijateljice?\nUpoznala ih je na autobusnom stajalištu.\nOdakle dolaze riječi kao piron i katrida?\nMnoge su došle iz talijanskog, jer su ljudi na otocima stoljećima trgovali s Venecijom."
+    },
+    {
+      "title": "Riječi sa zvjezdicom",
+      "summary": "Sunita from Nepal, a trained teacher, works as a chambermaid in a four-star hotel on Hvar; on the terrace during breaks the head housekeeper unofficially teaches her Croatian, and at the end of the month she reads her first payslip alone.",
+      "newWords": [
+        "sobarica",
+        "terasa",
+        "profesija",
+        "specijalnost",
+        "obrazovan",
+        "zvjezdica",
+        "neslužbeno",
+        "obračun"
+      ],
+      "text": "Sunita je iz Nepala. Ovo joj je drugo ljeto na Hvaru, gdje radi kao sobarica u jednom hotelu s četiri zvjezdice. Svako jutro s još pet sobarica spremi oko trideset soba: promijeni posteljinu, očisti kupaonice i ostavi gostima čiste ručnike.\n\nU Nepalu je Sunita bila učiteljica. Obrazovana je žena: završila je fakultet i deset godina učila djecu engleski i matematiku. Ljudi u hotelu ponekad se iznenade kad saznaju da sobarica ima fakultet. Sunita kaže da je njena profesija i dalje učiteljica, a sobarica je samo njen posao ovog ljeta.\n\nGlavna sobarica zove se Dragoslava. Ona nije učiteljica, ali je dobar učitelj. Često kaže da je hotel ovog ljeta dobio obrazovanu sobaricu i još bolju učenicu. Svaki dan u pauzi sjede na maloj terasi iza kuhinje, odakle se vidi more. Na terasi Dragoslava neslužbeno uči Sunitu hrvatski. Hotel nema tečaj za radnike, pa je to neslužbeno: nitko to nije tražio i nitko za to ne plaća.\n\nSunita ima bilježnicu s riječima. Riječi koje su joj teške označi zvjezdicom. Uz riječ posteljina stoji jedna zvjezdica, uz riječ jastučnica dvije, a uz riječ obračun tri zvjezdice. Dragoslava se smije i kaže da su riječi s tri zvjezdice kao hoteli: najskuplje su.\n\nJednog dana Dragoslava je na terasu donijela tanjur s kolačima. Bila je to specijalnost hotelske kuhinje, kolač od rogača i oraha. Rekla je da je rogač specijalnost otoka i da ga je nekad bilo na svakom polju. Sunita joj je zatim pričala o specijalnosti svog kraja, malim punjenim knedlama koje u Nepalu zovu momo. Obećala je da će ih jednom napraviti za sve sobarice.\n\nNajvažnija riječ ovog ljeta bila je obračun. Na kraju svakog mjeseca svaki radnik dobije obračun plaće: papir na kojem piše koliko je sati radio, koliko je zaradio i koliko je novca otišlo na porez. Prošlog ljeta Sunita nije razumjela svoj obračun, pa joj ga je čitala Dragoslava.\n\nOvog kolovoza Sunita je sjela na terasu i sama pročitala cijeli obračun. Razumjela je svaki red. Na kraju je pogledala Dragoslavu i rekla na hrvatskom: — Sve je točno.\n\nDragoslava joj je uzela bilježnicu i uz riječ obračun izbrisala sve tri zvjezdice.\n\nPitanja:\nŠto Sunita radi na Hvaru?\nRadi kao sobarica u jednom hotelu s četiri zvjezdice.\nKoja je Sunitina profesija?\nNjena je profesija učiteljica; obrazovana je žena i u Nepalu je deset godina učila djecu engleski i matematiku.\nZašto Dragoslava uči Sunitu hrvatski neslužbeno?\nHotel nema tečaj za radnike, nitko to nije tražio i nitko za to ne plaća.\nZašto Sunita neke riječi označi zvjezdicom?\nZvjezdicom označi riječi koje su joj teške.\nŠto piše na obračunu plaće?\nPiše koliko je radnik sati radio, koliko je zaradio i koliko je novca otišlo na porez."
+    },
+    {
+      "title": "Tango na ledu",
+      "summary": "TV commentator Vedroslav describes an Olympic ice-dance tango in plain Croatian, refusing English terms; while the couple skate without a hint of tiredness, he looks for words for their shining costumes and for something close to perfection.",
+      "newWords": [
+        "klizati",
+        "olimpijski",
+        "tango",
+        "blistav",
+        "savršenstvo",
+        "naznaka",
+        "odvoditi"
+      ],
+      "text": "Vedroslav je sportski komentator na televiziji. Već dvadeset godina komentira klizanje, a ove zime prvi put radi na olimpijskim igrama. Na olimpijskim igrama ga gleda više ljudi nego ikad, pa se posebno pripremao.\n\nVedroslav ima jedno pravilo: govori jasnim hrvatskim jezikom. Mnogi komentatori koriste engleske riječi, jer su ih čuli od klizača i trenera. Vedroslav ih zamjenjuje hrvatskima kad god može. Ne kaže da par „ima dobar flow“, nego da kližu lako i bez prekida. Kaže da je to poštovanje prema ljudima koji ga slušaju kod kuće.\n\nTe večeri na redu je bio ples na ledu. Jedan par iz Kanade klizao je uz tango. Kad je počela glazba, Vedroslav je rekao: — Tango je ples iz Argentine, ples brzih koraka i naglih zaustavljanja. Na ledu je tango posebno težak, jer se klizač ne može zaustaviti kao plesač na podu.\n\nKlizačica je imala blistavu crvenu haljinu, a njen partner crno odijelo s blistavim gumbima. Pod svjetlima dvorane haljina je blistala pri svakom okretu. Vedroslav je rekao da je haljina blistava, ali da je još blistavije njihovo klizanje.\n\nPar je klizao četiri minute. U njihovim pokretima nije bilo ni naznake umora. Kad je on podigao nju iznad glave, nije bilo ni naznake straha. Vedroslav je govorio manje nego obično, jer je mislio da ljudi kod kuće trebaju čuti glazbu.\n\nNa kraju je glazba stala, a par je stao na sredini leda, kao jedna osoba. Dvorana je ustala.\n\n— Ovo je blizu savršenstva — rekao je Vedroslav. — Savršenstvo u sportu gotovo ne postoji, ali ove su četiri minute bile vrlo blizu.\n\nTrenerica je čekala uz ogradu. Nakon svakog nastupa ona svoje klizače odvodi do klupe, gdje zajedno čekaju ocjene. I ovaj ih je put odvodila polako, jednom rukom oko svakoga. Ocjene su bile najbolje te večeri.\n\nPoslije prijenosa jedan gledatelj napisao je Vedroslavu pismo. Napisao je da je o klizanju naučio više nego ikad prije, i da nije čuo nijednu englesku riječ. Vedroslav je pismo ostavio na stolu, uz svoje bilješke za sljedeće olimpijske igre.\n\nPitanja:\nKoje pravilo ima Vedroslav?\nGovori jasnim hrvatskim jezikom i engleske riječi zamjenjuje hrvatskima kad god može.\nUz koju je glazbu klizao par iz Kanade?\nPar je klizao uz tango.\nZašto je tango na ledu posebno težak?\nKlizač se ne može zaustaviti kao plesač na podu.\nKako su izgledale haljina i odijelo?\nKlizačica je imala blistavu crvenu haljinu, a njen partner crno odijelo s blistavim gumbima.\nŠto je Vedroslav rekao na kraju nastupa?\nRekao je da je to bilo blizu savršenstva."
+    },
+    {
+      "title": "Tekst iznad pozornice",
+      "summary": "Eugenija writes the Croatian surtitles for an Italian comic opera in Split; she explains how she began with title cards for silent films, how technology changed the work, and why fidelity to the original matters less than a line the audience can read in four seconds.",
+      "newWords": [
+        "opera",
+        "nijem",
+        "tehnološki",
+        "bijeda",
+        "vjernost",
+        "vjenčanica"
+      ],
+      "text": "Eugenija radi u kazalištu u Splitu. Njen posao gledatelji ne vide, ali ga čitaju: ona piše hrvatski tekst koji se za vrijeme opere pokazuje iznad pozornice. Opere se najčešće pjevaju na talijanskom ili njemačkom, a većina publike te jezike ne razumije. Zato iznad pozornice svijetli uski ekran na kojem se čita prijevod.\n\nEugenija je ovaj posao počela raditi na jednom festivalu filmova. Festival je prikazivao nijeme filmove, iz vremena kad filmovi nisu imali zvuk. U nijemom filmu glumci ne govore, a između prizora pojavljuju se kartice s tekstom. Eugenija je te kartice prevodila na hrvatski. Naučila je da tekst mora biti kratak: gledatelj ima samo nekoliko sekundi da ga pročita.\n\nZa operu vrijedi isto. Pjevač ponekad jednu rečenicu pjeva cijelu minutu, a ponekad deset rečenica za deset sekundi. Eugenija zato ne prevodi svaku riječ. Ljudi je često pitaju ne gubi li se tako vjernost izvorniku. Ona odgovara da je vjernost važna, ali da je važnije da publika razumije što se na pozornici događa. Savršenstvo ne postoji: dobar prijevod u četiri sekunde bolji je od savršenog prijevoda koji nitko ne stigne pročitati.\n\nOve sezone kazalište priprema jednu talijansku komičnu operu. U njoj mladi slikar živi u bijedi, u hladnoj sobi pod krovom, i nema novca ni za drva. U istoj kući živi djevojka koja šije haljine. Na kraju opere on proda svoju sliku, a ona sama sašije svoju vjenčanicu. Opera završava vjenčanjem, a mladenka na pozornici nosi bijelu vjenčanicu s dugim velom.\n\nEugenija je dugo razmišljala kako prevesti pjesmu u kojoj slikar pjeva o svojoj bijedi. Na talijanskom je to duga, tužna i smiješna rečenica. Ona je napisala samo: „Nemam ni drva, ni kruha, ni čarapa.“ Na probi se cijela dvorana nasmijala na pravom mjestu.\n\nTehnološki se njen posao jako promijenio. Prije dvadeset godina tekst se pokazivao na platnu, s jednog starog projektora. Danas radi na računalu, a tehnološki napredak omogućuje da svaka rečenica dođe točno kad počne pjesma. Ipak, Eugenija na svakoj predstavi sjedi u maloj sobi iza dvorane i sama pritisne tipku za svaku rečenicu. Kaže da ni jedno računalo ne zna kad pjevač udahne.\n\nNa premijeri je sve prošlo bez greške. Kad je mladenka u vjenčanici izašla na pozornicu, publika je pljeskala. Eugenija je u svojoj maloj sobi pritisnula tipku za posljednju rečenicu i tek tada odahnula.\n\nPitanja:\nŠto Eugenija radi u kazalištu?\nPiše hrvatski tekst koji se za vrijeme opere pokazuje iznad pozornice.\nGdje je Eugenija počela raditi ovaj posao?\nPočela je na jednom festivalu nijemih filmova, gdje je prevodila kartice s tekstom.\nZašto Eugenija ne prevodi svaku riječ?\nGledatelji imaju samo nekoliko sekundi da pročitaju tekst, a važnije je da razumiju što se događa.\nKako živi slikar na početku opere?\nŽivi u bijedi, u hladnoj sobi pod krovom, i nema novca ni za drva.\nKako se njen posao tehnološki promijenio?\nPrije se tekst pokazivao na platnu s projektora, a danas radi na računalu."
+    }
+  ]
+}
