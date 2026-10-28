@@ -1,0 +1,188 @@
+{
+  "id": "hr-mini-5200",
+  "rankUpTo": 5200,
+  "level": "C1",
+  "title": "Znanost u kuhinji",
+  "description": "Ten stories that explain the science behind everyday cooking: rising bread dough, cheese making, caramel, the myth of sealed-in juices, a soufflé, a wedding cake in summer heat, the smell of fish, keeping delivered soup safe, browning apples and clear broth.",
+  "topic": "The science of cooking",
+  "names": [
+    "Heda",
+    "Hedina",
+    "Cvitko",
+    "Bjelovar",
+    "Zagreb",
+    "Ilka",
+    "Gračac",
+    "Ulrik",
+    "Ulrikova",
+    "Vilka",
+    "Pula",
+    "Zlatana",
+    "Zadar",
+    "Otokar",
+    "Otokarovih",
+    "Poreč",
+    "Glorija",
+    "Zrina",
+    "Varaždin",
+    "Hugo",
+    "Dafne",
+    "Međimurje",
+    "Žuvan",
+    "Korčula",
+    "Emica",
+    "Sidonija",
+    "Vinkovci",
+    "Vinkovcima",
+    "Vinkovaca",
+    "Beč",
+    "Bosut",
+    "Ludvig",
+    "Čakovec",
+    "Hedviga",
+    "Zagorje",
+    "Rovinj"
+  ],
+  "lessons": [
+    {
+      "title": "Zašto tijesto raste",
+      "summary": "A baker in Bjelovar explains to her nephew, a chemistry student, why dough is sticky at first, how gluten and yeast make it rise, why she lets it rise near the fireplace in winter and why shaping it must not be put off.",
+      "newWords": [
+        "tijesto",
+        "ljepljiv",
+        "kamin",
+        "fenomen",
+        "poteškoća",
+        "odugovlačiti",
+        "prizemlje"
+      ],
+      "text": "Heda već dvadeset godina peče kruh u prizemlju jedne stare zgrade u Bjelovaru. Na katu je njen stan, a u prizemlju su velika peć, dugi drveni stol i hladna prostorija za brašno. Ovog ljeta kod nje radi nećak Cvitko, student kemije iz Zagreba. Želi naučiti peći kruh, ali još više želi razumjeti što se događa u tijestu.\n\nPrvog jutra Cvitko miješa brašno, vodu, sol i malo kvasca. Tijesto mu je ljepljivo i lijepi se za prste, za stol i za rukave. Cvitko se nervira i želi dodati još brašna.\n\n— Nemoj — kaže mu Heda. — Ljepljivo tijesto nije poteškoća. To je dobar znak. Samo ga radi rukama dalje.\n\nDok on radi, Heda mu objašnjava. Kad se brašno pomiješa s vodom, od njegovih bjelančevina nastane gluten, mreža tankih i jakih niti. Na početku su niti kratke i slabe, zato je tijesto ljepljivo. Kad se tijesto dugo radi rukama, niti postaju duže i spajaju se jedna s drugom. Nakon desetak minuta tijesto više nije ljepljivo, nego glatko i mekano. Cvitko je zadovoljan: poteškoća je nestala sama od sebe.\n\nZatim na red dolazi kvasac. To su sitne žive stanice. One jedu šećer iz tijesta i stvaraju plin. Mreža od glutena zadržava taj plin u tisućama malih mjehurića, kao u balonima. Zato tijesto raste. Kvasac najbolje radi na toplini od 25 do 30 stupnjeva. Na hladnom radi sporo, a na jakoj vrućini prestane raditi.\n\n— Zimi je u prizemlju hladno — kaže Heda. — Zato zimi tijesto nosim gore, u stan. Ondje imam kamin. Zdjelu stavim metar od kamina, pokrijem je krpom i za sat vremena tijesto je dvostruko veće. Ali nikad ga ne stavljam previše blizu kaminu. Ako je tijestu previše vruće, izvana se osuši, a iznutra ne raste dobro.\n\nCvitko gleda tijesto koje polako raste i kaže da je to pravi fenomen. Heda se smije. Za nju je to svakodnevni posao, ali priznaje da je taj fenomen i nakon dvadeset godina lijep.\n\nKad se tijesto digne, treba mu dati oblik. Cvitko u tom trenutku čita nešto na mobitelu i odugovlači.\n\n— Ne odugovlači — kaže Heda. — Ako tijesto previše dugo stoji, šećera nestane, mreža oslabi i mjehurići puknu. Tijesto se tada spusti, a kruh bude ravan i težak.\n\nCvitko brzo spremi mobitel i od tijesta napravi dva okrugla kruha. Heda ih stavlja u peć. Ondje se događa posljednji fenomen: plin se zbog topline širi, voda se pretvara u paru i kruh se digne još jednom. Izvana postaje smeđ i tvrd, a iznutra ostaje mekan.\n\nKad Heda izvadi kruh, Cvitko više ne odugovlači ni trenutka. Odmah odreže prvi komad, još topao.\n\nPitanja:\nGdje Heda peče kruh?\nHeda peče kruh u prizemlju stare zgrade u Bjelovaru.\nZašto je tijesto na početku ljepljivo?\nTijesto je ljepljivo jer su niti glutena na početku kratke i slabe.\nZašto tijesto raste?\nKvasac stvara plin, a mreža od glutena zadržava plin u malim mjehurićima.\nGdje Heda zimi drži tijesto?\nZimi ga drži u stanu, metar od kamina.\nŠto se dogodi ako Cvitko previše dugo odugovlači?\nTijesto se spusti, a kruh bude ravan i težak."
+    },
+    {
+      "title": "Sir iz laboratorija i iz kuhinje",
+      "summary": "A scientist who works on vaccines for farm animals helps her mother make cheese on the family farm near Gračac and sees the same science in both places: lactic bacteria, rennet, bitterness and salt.",
+      "newWords": [
+        "siriti",
+        "stado",
+        "krdo",
+        "studij",
+        "cjepivo",
+        "otporan",
+        "gorak"
+      ],
+      "text": "Ilka je završila studij kemije u Zagrebu i danas radi u laboratoriju koji razvija cjepivo za ovce i krave. Cijeli tjedan provodi s bakterijama i tablicama. Vikendom se vraća roditeljima u selo kraj Gračaca. Njeni roditelji imaju stado od stotinu ovaca i malo krdo od osam krava. Svake subote majka siri mlijeko, a Ilka joj pomaže.\n\nZa Ilku je to nastavak posla, samo u drugoj prostoriji. Na studiju je učila o istim procesima koje njena majka odavno zna, iako nikad nije čula njihova znanstvena imena.\n\nMajka prvo zagrije mlijeko na oko 32 stupnja. Zatim doda malo kiselog mlijeka od prethodnog dana. U njemu su bakterije koje jedu šećer iz mlijeka i pretvaraju ga u kiselinu. Kiselina mlijeku daje blago kiseo okus i štiti sir od bakterija koje ga mogu pokvariti.\n\nNakon toga majka doda sirište. U sirištu je enzim koji reže bjelančevine mlijeka. One se tada spajaju jedna s drugom i za 40 minuta mlijeko postane meko, poput pudinga. Tako mlijeko siri: tekućina se dijeli na gustu bijelu masu i žutu vodu.\n\n— Koliko sirišta staviš? — pita Ilka.\n\n— Malo. Na veliki lonac jednu malu žlicu — kaže majka. — Kad sam bila mlada, stavila sam dvostruko više, jer sam htjela brže siriti. Sir je bio tvrd i gorak.\n\nIlka zna zašto. Previše enzima reže bjelančevine na sitne komade, a neki od tih komada imaju gorak okus. Gorak sir nije opasan, ali ga nitko ne želi jesti. Zato je strpljenje važnije od brzine.\n\nMasu zatim režu nožem, stavljaju u kalupe i pritišću. Sir mjesecima stoji u hladnom podrumu. Majka ga svakog tjedna briše krpom i slanom vodom. Sol je važna jer mnoge opasne bakterije nisu otporne na sol, a dobre bakterije iz sira prema njoj su vrlo otporne.\n\nIlka vidi sličnost s laboratorijem. I cjepivo i sir govore o tome kako biti otporan. Cjepivo uči tijelo ovce da bude otporno na bolest. Zdravo stado daje čisto mlijeko, a od čistog mlijeka nastane bolji sir. Zato veterinar svakog proljeća dolazi na imanje i daje cjepivo cijelom stadu i cijelom krdu.\n\nNa kraju dana Ilka i majka nose sir u podrum. Ovce se vraćaju s brda, a krave stoje kraj ograde. Ilka misli da je njen studij trajao pet godina, a da je majka iste stvari naučila u kuhinji, polako, kroz mnogo godina i nekoliko gorkih sireva.\n\nPitanja:\nŠto je Ilka studirala?\nIlka je završila studij kemije u Zagrebu.\nŠto imaju njeni roditelji?\nImaju stado od stotinu ovaca i krdo od osam krava.\nZašto je majčin sir nekad bio gorak?\nMajka je stavila previše sirišta, a enzim je izrezao bjelančevine na gorke komade.\nNa što su dobre bakterije iz sira otporne?\nDobre bakterije iz sira otporne su na sol.\nŠto cjepivo čini za ovce?\nCjepivo uči tijelo ovce da bude otporno na bolest."
+    },
+    {
+      "title": "Šećer i strpljenje",
+      "summary": "A physics teacher in Pula makes a caramel pudding for his sister's birthday: his first syrup crystallises because he stirs it, lemon juice and patience save the second, and a thermometer shows how suddenly sugar turns from gold to bitter.",
+      "newWords": [
+        "nagao",
+        "zaslon",
+        "maksimalan",
+        "bilježnica",
+        "iskušati",
+        "promašaj"
+      ],
+      "text": "Ulrik predaje fiziku u jednoj srednjoj školi u Puli. Kod kuće najviše voli pripremati slatkiše, jer se u njima fizika i kemija vide golim okom. Ove subote njegova sestra Vilka slavi rođendan, a on joj je obećao puding s karamelom.\n\nNa stolu ima šećer, vodu, limun, lonac i termometar s malim zaslonom. Pokraj njih stoji stara bilježnica. U bilježnicu godinama piše svaki pokus: koliko je čega stavio, koliko je trajalo i kakav je bio rezultat.\n\nPrvi pokušaj je promašaj. Ulrik stavlja šećer i vodu u lonac i miješa žlicom dok šećer ne nestane u vodi. Kad voda počne kuhati, i dalje miješa. Odjednom se u loncu pojave mali bijeli kristali i za minutu sve postane tvrda, mutna masa. U bilježnicu piše: „Promašaj. Šećer se ponovno pretvorio u kristale.“\n\nUlrik zna što se dogodilo. Molekule šećera u gustoj slatkoj vodi žele se ponovno složiti u kristale. Svaki pokret žlice i svaki mali kristal na rubu lonca pomaže im u tome. Zato se takav sirup ne smije miješati. Dovoljno je lagano okretati lonac.\n\nDrugi put iskuša novi način. Doda nekoliko kapi limuna. Kiselina razbija dio šećera na dva manja šećera. Te manje molekule smetaju ostalima da se slože u kristale. Ovaj put ništa ne miješa. Gleda zaslon termometra: 110, 130, 150 stupnjeva. Temperatura raste polako, jer voda najprije mora nestati.\n\nOnda dolazi najvažniji dio. Kad nestane vode, oko 160 stupnjeva, šećer počinje mijenjati boju. Najprije je svijetao, zatim zlatan, pa boje meda. Promjena je nagla. Između lijepe zlatne boje i tamne, gorke mase prođe tek dvadeset sekundi.\n\n— Sa šećerom treba biti oprezan — govori Ulrik svojim učenicima. — Deset minuta se ništa ne događa, a onda je sve gotovo za pola minute.\n\nOprez je potreban zato što se nagla promjena ne vidi na vrijeme. Smeđa boja nastane kad se šećer raspada i stvara stotine novih tvari. Neke daju miris karamele, a neke gorak okus. Ulrik zato skida lonac s vatre kad zaslon pokaže 175 stupnjeva. To mu je maksimalna temperatura. Iznad 185 stupnjeva šećer postaje gorak.\n\nVruću karamelu stavlja u male posude. Na nju dolaze jaja, mlijeko i šećer, a posude idu u peć, u veću posudu s vodom. Voda ne može biti toplija od 100 stupnjeva, pa puding ostaje gladak i ne kuha se previše brzo.\n\nNavečer Vilka proba puding i kaže da je savršen. Ulrik otvara bilježnicu i piše: „Limun, ne miješati, maksimalna temperatura 175 stupnjeva. Uspjeh.“ Isti će način iskušati još jednom kad sljedeći put bude kuhao za goste. Nagla promjena boje više ga neće iznenaditi.\n\nPitanja:\nŠto Ulrik piše u bilježnicu?\nPiše koliko je čega stavio, koliko je trajalo i kakav je bio rezultat.\nZašto je prvi pokušaj bio promašaj?\nUlrik je miješao šećer i vodu pa se šećer ponovno pretvorio u kristale.\nKako pomaže limun?\nKiselina razbija dio šećera na manje šećere koji smetaju kristalima.\nZašto Ulrik kaže da sa šećerom treba biti oprezan?\nDugo se ništa ne događa, a onda je promjena boje nagla.\nKoja je Ulrikova maksimalna temperatura?\nNjegova maksimalna temperatura je 175 stupnjeva."
+    },
+    {
+      "title": "Mit o zatvorenim sokovima",
+      "summary": "A food blogger in Zadar writes that searing meat seals in its juices; a reader disagrees, her readers test it at home, and she publicly retracts the claim and publishes everyone's results.",
+      "newWords": [
+        "objava",
+        "opozvati",
+        "sramotiti",
+        "inicijativa",
+        "razumljivo",
+        "svačiji",
+        "probušiti",
+        "žila"
+      ],
+      "text": "Zlatana iz Zadra već pet godina piše blog o kuhanju. Njene objave čita nekoliko tisuća ljudi, a ispod svake objave ostavljaju komentare. Prošlog mjeseca objavila je recept za odrezak. U objavi je napisala ono što je naučila od svoje bake: meso treba prvo pržiti na jakoj vatri da se „zatvore sokovi“, a nikad ga ne treba probušiti vilicom, jer tada sok izađe van.\n\nVeć prvog dana stigao je dug komentar jednog čovjeka koji radi u laboratoriju. Pristojno je napisao da su zatvoreni sokovi mit. Kad se meso prži, ne stvara se nikakav zid koji zadržava sok. Smeđa površina nastane zbog kemijske reakcije između bjelančevina i šećera na visokoj temperaturi. Ona daje okus, ali ne zadržava vodu. Meso gubi sok zato što se bjelančevine na toplini skupljaju i tjeraju vodu van, kao ruka koja stisne spužvu.\n\nZlatana je bila uvrijeđena. Prvo je htjela izbrisati komentar. Onda je pomislila da je razumljivo što se ljuti, ali da brisanje ne bi bilo pošteno. Odlučila je provjeriti.\n\nTada su ljudi koji čitaju blog pokazali inicijativu. Nekoliko njih predložilo je pokus: svatko kod kuće neka ispeče dva jednaka komada mesa, jedan prvo na jakoj vatri, a drugi polako, pa neka oba stavi na vagu prije i poslije. Zlatana je prihvatila tu inicijativu i pozvala sve da joj pošalju rezultate.\n\nPokus je napravilo više od stotinu ljudi. Rezultati su bili jasni. Meso pečeno prvo na jakoj vatri izgubilo je jednako vode kao i drugo, a ponekad i više. Ni vilica nije napravila veliku razliku. Kad se meso probuši vilicom, izađe nekoliko kapi, ali to je malo u usporedbi s vodom koju meso izgubi zbog topline.\n\nNeki su pisali i o žilama. Žile su tvrde trake u mesu. Na brzoj vatri ostaju tvrde, a mekane postanu tek kad se meso dugo i lagano kuha. Zato se meso s puno žila ne prži brzo, nego se kuha satima. To je, pisali su, važnije od svih priča o sokovima.\n\nZlatana je tada učinila nešto što nikad prije nije. Javno je opozvala tvrdnju iz svoje objave. Na vrh recepta napisala je da je opozvala ono što je pisala o sokovima i vilici. Zahvalila je svima koji su sudjelovali u pokusu.\n\nNeke prijateljice rekle su joj da se time sramoti. Ona ne misli tako. — Ne sramotim se time što sam pogriješila — napisala je. — Sramotila bih se da sam izbrisala komentar i pretvarala se da je sve u redu.\n\nSvačiji rezultat objavila je u tablici, uz svačije ime. Novu objavu pročitalo je više ljudi nego sve stare. Razumljivo je zašto: ljudi vole vidjeti kad netko provjeri ono u što su svi vjerovali.\n\nPitanja:\nŠto je Zlatana napisala u objavi o odresku?\nNapisala je da meso treba prvo pržiti da se zatvore sokovi i da ga ne treba probušiti vilicom.\nZašto meso gubi sok?\nBjelančevine se na toplini skupljaju i tjeraju vodu van.\nKakvu su inicijativu pokazali ljudi koji čitaju blog?\nPredložili su da svatko kod kuće ispeče dva komada mesa i stavi ih na vagu.\nKako se kuha meso s puno žila?\nMeso s puno žila kuha se dugo i lagano.\nŠto je Zlatana opozvala?\nOpozvala je tvrdnju o sokovima i vilici iz svoje objave."
+    },
+    {
+      "title": "Astronom i sufle",
+      "summary": "A retired astronomer near Poreč makes a cheese soufflé his new obsession: he separates the eggs with a surgeon's care, corrects his oven after checking it, never opens the door and watches the soufflé rise behind his own reflection in the glass.",
+      "newWords": [
+        "teleskop",
+        "odraz",
+        "opsesija",
+        "razdvajati",
+        "kirurški",
+        "elegantan",
+        "podesiti"
+      ],
+      "text": "Otokar je 40 godina radio kao astronom. Noći je provodio uz teleskop, a dane uz brojeve i tablice. Kad je otišao u mirovinu, preselio se u kuću kraj Poreča. Teleskop je ponio sa sobom i postavio ga na balkon, ali ubrzo je pronašao novu opsesiju: sufle od sira.\n\nSufle je jednostavno jelo s teškim ugledom. Pravi se od jaja, mlijeka i sira, a u peći se digne visoko iznad ruba posude. Ako nešto pođe krivo, jelo se spusti i ostane ravno. Otokarovih prvih pet pokušaja ostalo je ravno. Za čovjeka koji je cijeli život tražio razloge, to je bio dovoljan razlog za opsesiju.\n\nPočeo je od jaja. Sufle se diže zbog snijega od bjelanjaka. Kad se bjelanjci tuku, tvari iz jaja se otvore i obaviju sitne mjehuriće zraka, pa nastane čvrsta pjena. Ali samo jedna kap žutog dijela jajeta ili masti uništi tu pjenu, jer se mast stavi između tih tvari i zraka. Zato jaja treba razdvajati vrlo pažljivo.\n\nOtokar ih razdvaja jedno po jedno, iznad male zdjele, i tek onda bijeli dio stavi u veliku zdjelu. Njegova kći Glorija radi na kirurškom odjelu bolnice u Puli. Kad ga je prvi put vidjela kako razdvaja jaja, nasmijala se.\n\n— Tata, ti to radiš kao da si za kirurškim stolom.\n\n— Tako i treba — rekao je on. — Jedna pogreška i sve je propalo.\n\nZatim je došla peć na red. Otokar ju je provjerio i otkrio da je unutra dvadeset stupnjeva hladnije nego što piše na gumbu. Sada je podesi na 210 stupnjeva da bi unutra bilo 190. Kad podesi temperaturu, čeka još deset minuta, jer se i zidovi moraju zagrijati.\n\nNajteži dio je čekanje. Kad se vrata otvore, unutra uđe hladan zrak, zrak u mjehurićima se skupi i jelo se spusti. Zato Otokar ne otvara vrata. Sjedi na stolcu ispred peći i gleda kroz staklo. U staklu vidi svoj odraz: starog čovjeka koji gleda kao da kroz teleskop prati novu zvijezdu. Iza odraza polako raste sufle.\n\nNakon dvadeset i pet minuta sufle je visok, zlatan i elegantan, s ravnim rubom koji se diže iznad posude. Otokar ga brzo nosi na stol, jer elegantan oblik traje samo nekoliko minuta. Čim se zrak u mjehurićima ohladi, sufle se počne spuštati. To nije pogreška, nego fizika.\n\nGlorija proba prvu žlicu i kaže da je sufle bolji i elegantniji nego u restoranu. Otokar je zadovoljan, ali opsesija nije prošla. Sljedeći tjedan želi probati isto jelo s čokoladom. Navečer ipak izlazi na balkon, gdje ga čeka teleskop. Kroz teleskop gleda zvijezde, a misli na čokoladu.\n\nPitanja:\nČime se Otokar bavio prije mirovine?\nOtokar je 40 godina radio kao astronom.\nZašto jaja treba pažljivo razdvajati?\nJedna kap žutog dijela jajeta ili masti uništi pjenu.\nGdje radi Glorija?\nGlorija radi na kirurškom odjelu bolnice u Puli.\nNa koliko Otokar podesi peć i zašto?\nPodesi je na 210 stupnjeva jer je unutra dvadeset stupnjeva hladnije.\nŠto Otokar vidi u staklu?\nVidi svoj odraz, a iza njega sufle koji raste."
+    },
+    {
+      "title": "Torta na trideset i četiri stupnja",
+      "summary": "A confectioner in Varaždin has to make a three-tier wedding cake for a garden party on a hot June day: she explains why butter cream melts, changes the recipe, keeps the cake cold to the last minute and bakes the groom's grandmother's walnut cake into one tier.",
+      "newWords": [
+        "mladoženja",
+        "dirljiv",
+        "smiješak",
+        "komplikacija",
+        "prebroditi",
+        "nadmašiti",
+        "nužda"
+      ],
+      "text": "Zrina u Varaždinu ima malu radionicu u kojoj radi torte i kolače. Najviše voli raditi torte za vjenčanja, ali svaka takva torta donese barem jednu komplikaciju. Ovog lipnja komplikacija se zvala vrućina.\n\nMladoženja Hugo i njegova zaručnica Dafne naručili su visoku tortu na tri kata, s bijelom kremom od maslaca. Slavlje je trebalo biti u dvorani s klimom. Tjedan prije vjenčanja nazvao je mladoženja. Dvorana je bila zauzeta pa su slavlje preselili u vrt, na otvoreno. Prognoza je obećavala 34 stupnja.\n\n— Je li to velika komplikacija? — pitao je mladoženja.\n\n— Jest, ali ćemo je prebroditi — rekla je Zrina, iako još nije znala kako.\n\nProblem je u maslacu. Maslac nije jedna mast, nego mješavina mnogo masti, a svaka postaje tekuća na drugoj temperaturi. Na 18 stupnjeva velik je dio masti čvrst i sloj od maslaca dobro drži oblik. Na 30 stupnjeva većina masti postane tekuća i sve je mekano kao jogurt. Na 34 stupnja visoka torta jednostavno se počne spuštati.\n\nZrina je iz nužde morala promijeniti recept. Bjelanjke je zagrijala sa šećerom, istukla ih u čvrstu pjenu i tek onda dodala maslac. Bjelančevine i šećer čine mrežu koja drži mast i kad je toplo. Ispod kreme stavila je tanak sloj tamne čokolade, koja ostaje čvrsta i na višoj temperaturi i drži katove na mjestu. Kroz svaki kat zabila je plastične štapiće, da gornji katovi ne pritišću donje.\n\nOstalo je bilo pitanje vremena. Torta je do posljednjeg trenutka stajala u hladnjaku. Zrina ju je sama dovezla u autu s klimom i postavila je u sjenu, pod drvo, samo dvadeset minuta prije nego što su je počeli rezati. To nije bilo lijepo rješenje, nego rješenje iz nužde, ali bilo je dovoljno.\n\nMladoženja je imao još jednu želju. Njegova baka iz Međimurja nekad je pekla kolač s orasima i medom. Hugo je zamolio Zrinu da jedan kat torte bude kao bakin kolač. Zrina je dobila recept, napisan rukom na starom papiru. Kad je baka na vjenčanju shvatila što je u srednjem katu, ostala je bez riječi. Bio je to dirljiv trenutak. Svi su gledali baku, a ona je dugo držala unuka za ruku.\n\nMladoženja je cijeli dan imao smiješak na licu, ali najveći smiješak bio je kad je vidio da torta stoji ravno na 34 stupnja. Dafne je rekla da je torta nadmašila sva njena očekivanja. Zrina je mislila da je nadmašila i sebe, jer je ovaj put prebrodila poteškoću koju nije planirala.\n\nDva dana kasnije dobila je poruku od mladoženje: hvala, fotografija bake s komadom torte i jedan nacrtani smiješak na kraju. Za Zrinu je to bila dirljiva poruka. Kremu od bjelanjaka i maslaca od tada radi za svako ljetno vjenčanje.\n\nPitanja:\nKoja je bila komplikacija s tortom?\nSlavlje je bilo u vrtu, a prognoza je obećavala 34 stupnja.\nZašto je maslac problem na vrućini?\nMaslac je mješavina masti, a većina postane tekuća oko 30 stupnjeva.\nŠto je Zrina napravila iz nužde?\nPromijenila je recept, a torta je do posljednjeg trenutka stajala u hladnjaku.\nZašto je trenutak s bakom bio dirljiv?\nJedan kat torte bio je kao bakin kolač, a baka je ostala bez riječi.\nKada je mladoženja imao najveći smiješak?\nKad je vidio da torta stoji ravno na 34 stupnja."
+    },
+    {
+      "title": "Riba koja miriše na more",
+      "summary": "A fisherman on Korčula takes his granddaughter, who cannot stand the smell of fish, out fishing; she learns that fresh fish smells only of the sea, why old fish smells, how lemon helps and how to choose fresh fish.",
+      "newWords": [
+        "ribolov",
+        "gaditi",
+        "prijati",
+        "zalogaj",
+        "stiskati",
+        "uskratiti",
+        "melodija"
+      ],
+      "text": "Žuvan živi na Korčuli i cijeli se život bavi ribolovom. Svako jutro izlazi malim brodom prije izlaska sunca i vraća se do osam sati. Ovog ljeta kod njega je unuka Emica iz Zagreba. Emica ima dvanaest godina i ne voli ribu. Kaže da joj se gadi miris ribe.\n\nŽuvan je ne tjera da jede ribu. Ali jednog je jutra pozove na ribolov. Emica pristane, jer joj je more draže od ribe. Dok vozi brod, Žuvan pjevuši staru melodiju koju je naučio od svog oca. Ista ga melodija prati na svakom ribolovu.\n\nNa brodu Emica primijeti nešto neobično. Riba koju djed izvuče iz mreže gotovo ne miriše. Miriše samo na more i malo na alge.\n\n— Zašto ova riba ne smrdi? — pita.\n\n— Zato što je svježa — kaže djed.\n\nKod kuće joj objasni ono što je čuo od jednog biologa. Morske ribe u tijelu imaju tvar koja im pomaže da žive u slanoj vodi. Dok je riba svježa, ta tvar nema mirisa. Kad riba stoji nekoliko dana, bakterije tu tvar pretvaraju u drugu, koja ima onaj težak miris kojeg se mnogi ljudi gade. Ono što se Emici gadilo nije bio miris ribe, nego miris stare ribe.\n\nŽuvan pokaže još jedan trik. Kad ispeče ribu na žaru, iznad nje stisne pola limuna. Stiska ga polako, da sok padne po cijeloj ribi.\n\n— Limun nije samo za okus — kaže. — Kiselina se veže s tom tvari i težak miris nestane.\n\nEmica proba. Uzme mali zalogaj, pa još jedan. Riba joj prija. Meka je, slana od mora i kisela od limuna. Pojede cijelu ribu, zalogaj po zalogaj, i traži još. Djed se smije i kaže da mu nijedan obrok ove godine nije toliko prijao.\n\nŽuvan unuci ne bi uskratio nijednu ribu iz mreže. Ne želi joj uskratiti ni ono što zna, pa joj objasni kako se bira riba u trgovini. — Ribu gledaj u oči — kaže joj. — Ako su oči bistre, a škrge crvene, riba je svježa. Ako su oči mutne, a meso mekano kad ga pritisneš prstom, kupi nešto drugo.\n\nPosljednje večeri Emica sama stišće limun iznad ribe i pjevuši djedovu melodiju. Kaže da će u Zagrebu kupovati samo ribu s bistrim očima. Žuvan je zadovoljan. Unuka mu je možda samo jedan ljetni gost, ali ribolov je ove godine dobio još jednu prijateljicu.\n\nPitanja:\nŠto se Emici gadilo?\nEmici se gadio miris ribe.\nKako miriše svježa riba?\nSvježa riba miriše samo na more i malo na alge.\nZašto stara riba ima težak miris?\nBakterije pretvaraju tvar iz ribe u drugu tvar s teškim mirisom.\nZašto Žuvan stišće limun iznad ribe?\nKiselina se veže s tom tvari i težak miris nestane.\nKako se prepozna svježa riba?\nSvježa riba ima bistre oči i crvene škrge."
+    },
+    {
+      "title": "Juha u metrou",
+      "summary": "A cook from Vinkovci delivers soups and stews to office receptions in Vienna by underground: she explains why food must be either very hot or very cold, why full containers stay warm longer, why soup is reheated only once, and why she works without delivery apps.",
+      "newWords": [
+        "dostavljati",
+        "metro",
+        "zapošljavati",
+        "posrednik",
+        "zagrijavati",
+        "pohlepa",
+        "recepcija",
+        "razglednica"
+      ],
+      "text": "Sidonija je odrasla u Vinkovcima, a već deset godina živi u Beču. Prije tri godine otvorila je malu kuhinju u kojoj kuha juhe i variva. Hranu ne dostavlja kućama, nego uredima: svaki dan u podne njena hrana stiže na recepciju dvadesetak tvrtki u središtu grada.\n\nHranu dostavlja metroom. Auto bi u gradskoj gužvi kasnio, a metro vozi svake tri minute. Sidonija zapošljava dvoje studenata koji ujutro pune posude, a prije podneva kreću s ruksacima prema metrou.\n\nNajveći problem u tom poslu nije okus, nego temperatura. Bakterije se najbrže razmnožavaju između 5 i 60 stupnjeva. Juha koja dva sata stoji mlaka može se pokvariti, iako miriše dobro. Zato Sidonija ima jednostavno pravilo: hrana je ili jako vruća ili jako hladna, a nikad između.\n\nJuhe kuha ujutro i drži ih na vatri do posljednjeg trenutka. Zatim ih ulije u posude s dvostrukim stijenkama. Između stijenki nema zraka, a toplina kroz prazan prostor gotovo ne prolazi. Posude mora napuniti do vrha. Puna posuda dulje drži toplinu nego poluprazna, jer više tekućine sadrži više topline, a u njoj je manje zraka koji se hladi.\n\nMnogi uredi žele hranu zagrijavati na recepciji, u mikrovalnoj pećnici. Sidonija to ne voli. Kaže da se juha smije zagrijavati samo jednom i to dok ne zavrije. Ako se zagrijava više puta i svaki put samo malo, bakterije dobiju novu priliku. Zato studenti hranu na recepciju predaju vruću, a na poklopcu piše kada je kuhana.\n\nProšle godine suradnju su joj ponudili veliki posrednici, tvrtke s aplikacijama za dostavu. Posrednik bi preuzimao narudžbe, a Sidonija bi mu davala trećinu cijene. Odbila je. Posrednik ne zna koliko je minuta juha bila u metrou. Kad hranu nosi netko drugi, ne zna ni ona.\n\n— Nije to pohlepa s njihove strane — kaže. — To je samo drugačiji posao. Ali s posrednikom bih za istu cijenu morala kuhati jeftinije. Ili bih morala zapošljavati manje ljudi. A pohlepa bi bila s moje strane kad bih htjela dostavljati hranu po cijelom gradu, a ne mogu jamčiti da stiže vruća.\n\nOve godine zapošljava još jednog studenta. Na zidu kuhinje visi razglednica iz Vinkovaca koju joj je poslala majka. Na razglednici je slika rijeke Bosut, a na poleđini majčin recept za grah. Taj grah Sidonija dostavlja svakog četvrtka i to je najprodavanija hrana tjedna. Kad je majka čula koliko se prodaje, poslala joj je još jednu razglednicu, ovaj put s receptom za sarmu.\n\nPitanja:\nKamo Sidonija dostavlja hranu?\nDostavlja je na recepciju dvadesetak tvrtki u središtu Beča.\nZašto hranu dostavlja metroom?\nMetro vozi svake tri minute, a auto bi u gužvi kasnio.\nZašto puna posuda dulje drži toplinu?\nViše tekućine sadrži više topline, a u njoj je manje zraka.\nKoliko se puta juha smije zagrijavati?\nJuha se smije zagrijavati samo jednom, dok ne zavrije.\nŠto je na razglednici iz Vinkovaca?\nNa razglednici je slika rijeke Bosut, a na poleđini majčin recept za grah."
+    },
+    {
+      "title": "Zašto jabuka posmeđi",
+      "summary": "A chemistry teacher in Čakovec and his eleven pupils cut apples and bananas, test one change at a time to keep the slices pale, learn that supermarket bananas are clones, find the same browning on a stained jumper and sweep up together.",
+      "newWords": [
+        "jedanaest",
+        "klon",
+        "metla",
+        "džemper",
+        "oponašati",
+        "izmjena",
+        "prisiljavati"
+      ],
+      "text": "Ludvig predaje kemiju u osnovnoj školi u Čakovcu. U njegovom razredu ima jedanaest učenika, pa svaki pokus može napraviti s cijelim razredom. Danas na stolu ima jabuke, banane, limune, noževe i tanjure.\n\n— Danas ćemo istraživati zašto jabuka postane smeđa — kaže.\n\nSvaki od jedanaest učenika dobije jabuku i bananu. Ludvig im pokazuje kako se jabuka reže na tanke komade, a oni ga pažljivo oponašaju. Oponašaju čak i način na koji drži nož. Nakon deset minuta komadi na tanjurima počnu mijenjati boju.\n\nLudvig objašnjava. U stanicama jabuke nalaze se enzim i tvari koje s kisikom stvaraju smeđu boju. Dok je jabuka cijela, enzim i te tvari su odvojeni. Kad nož presiječe stanice, oni se pomiješaju, zrak donese kisik i jabuka postane smeđa. To nije znak da je jabuka pokvarena, nego samo kemijska reakcija.\n\nZatim počinje pravi pokus. Ludvig traži da svaki učenik napravi samo jednu izmjenu. Jedna učenica stavi na komade nekoliko kapi limuna. Jedan učenik stavi ih u hladnjak. Drugi ih stavi u čašu vode. — Uvijek samo jedna izmjena — ponavlja Ludvig. — Ako napravite dvije izmjene odjednom, nećete znati koja je djelovala.\n\nNakon pola sata rezultati su jasni. Komadi s limunom su svijetli, jer kiselina usporava enzim. Komadi u hladnjaku malo su smeđi, jer hladnoća usporava reakciju. Komadi u vodi su svijetli, jer do njih ne dolazi zrak. Komadi bez ikakve izmjene potpuno su smeđi.\n\nBanane otvaraju drugu temu. Ludvig kaže da su gotovo sve banane u trgovinama klonovi jedne biljke. Banana koju jedemo nema pravih sjemenki, pa nova biljka ne raste iz sjemenke, nego iz dijela stare biljke. Zato je svaka nova biljka klon prethodne. Klon ima potpuno iste osobine kao biljka od koje je nastao. Ako jedna bolest može napraviti štetu jednom klonu, može je napraviti svima, jer nijedan nije otporniji od ostalih.\n\nJedan učenik dobio je mrlju od banane na džemperu. Mrlja je u početku bila svijetla, a za sat vremena postala je smeđa. Ludvig se nasmije. — Eto još jednog pokusa. Ista reakcija događa se i na tvom džemperu. — Savjetuje mu da džemper kod kuće odmah opere hladnom vodom.\n\nNa kraju sata po podu su kore od banana i komadi jabuka. Učenici uzimaju metlu i čiste. Metla ide od ruke do ruke, a svaki učenik očisti svoj dio poda. Ludvig nikoga ne prisiljava da pojede smeđe komade. Ne prisiljava ih ni da vole kemiju. Ipak, neki probaju komade s limunom i kažu da su kiselo-slatki i ukusni. Nekoliko učenika pita smije li pokus ponoviti kod kuće.\n\nPitanja:\nKoliko učenika ima Ludvig u razredu?\nU razredu ima jedanaest učenika.\nZašto jabuka postane smeđa?\nKad nož presiječe stanice, enzim i tvari se pomiješaju s kisikom.\nZašto se u pokusu radi samo jedna izmjena?\nAko se naprave dvije izmjene, ne zna se koja je djelovala.\nZašto su banane klonovi?\nBanane nemaju pravih sjemenki pa nova biljka raste iz dijela stare.\nŠto se dogodilo s džemperom?\nMrlja od banane na džemperu postala je smeđa."
+    },
+    {
+      "title": "Bistra juha",
+      "summary": "A cook with a farm restaurant in Zagorje, inspired by a talk at a gathering of top chefs, learns to make clear broth: collagen from skin and feet, a slow simmer instead of a boil, skimming the foam; her mother keeps duck feathers for pillows.",
+      "newWords": [
+        "perje",
+        "kandža",
+        "konvencija",
+        "elita",
+        "nadahnuti",
+        "četkica"
+      ],
+      "text": "Hedviga ima mali restoran na obiteljskom imanju u Zagorju. Na imanju drže kokoši i patke, a u vrtu rastu mrkva, luk i krumpir. Prošle jeseni Hedviga je otišla u Rovinj na skup na kojem se okupila elita kuhara iz mnogih zemalja. Najviše ju je nadahnulo predavanje jednog starog kuhara o bistroj juhi.\n\nU kuhinjama elite postoji stara konvencija: bistra juha je ispit za svakog kuhara. Mutnu juhu može skuhati svatko, a bistru samo onaj tko razumije što se događa u loncu. Hedviga je cijeli život kuhala juhu kao njena baka. Juha je bila ukusna, ali uvijek pomalo mutna. Kod kuće je odlučila poštovati tu konvenciju i napokon razumjeti juhu.\n\nPrvo je izabrala dijelove. Za dobru juhu nije dovoljno meso. Trebaju joj i kosti, koža i noge, jer u njima ima puno kolagena. Kolagen je tvar koja se pretvara u želatinu kad se dugo kuha. Želatina juhu čini gušćom, a kad se juha ohladi, pretvori se u žele.\n\nHedviga kokoši pažljivo očisti. Ostatke perja ukloni s kože, a s nogu odreže kandže. Noge bez kandži zatim očisti malom četkicom, kao i mrkvu. Tu četkicu drži samo za juhu.\n\nPerje ne baca. Njena majka već trideset godina čuva perje od pataka. Perje opere, osuši na suncu i sprema u velike kutije. Od perja pataka pravi jastuke i pokrivače za cijelu obitelj. Perje kokoši je previše tvrdo za jastuke, pa ga majka ne čuva.\n\nOnda je došlo ono najvažnije, ono što ju je nadahnulo na skupu. Stari kuhar je rekao da u loncu s juhom nikad ne smije biti velikih mjehurića. Kad juha jako kuha, mjehurići razbijaju kapi masti i komade mesa na sitne čestice koje plivaju u tekućini. Te čestice čine juhu mutnom. Ako se juha drži na oko 90 stupnjeva, sitni komadi polako se skupe i izađu na površinu kao pjena. Pjena se skida žlicom, a mast ostaje na vrhu, gdje se lako ukloni.\n\nHedviga je kuhala juhu pet sati, bez poklopca, gotovo bez mjehurića. Svakih pola sata skinula je pjenu. Na kraju je juhu prolila kroz čistu krpu. Juha je bila zlatna i bistra kao čaj.\n\nGosti su odmah primijetili razliku. Majka, koja je cijeli život kuhala mutnu juhu, priznala je da je nova bolja. Hedviga kuha već trideset godina, ali je nadahnuta kao da je tek počela. Sljedeće jeseni želi opet ići na skup elite kuhara, ovaj put s vlastitim predavanjem o juhi iz Zagorja.\n\nPitanja:\nŠto je nadahnulo Hedvigu?\nNadahnulo ju je predavanje jednog starog kuhara o bistroj juhi.\nKoja konvencija postoji u kuhinjama elite?\nBistra juha je ispit za svakog kuhara.\nZašto juhi trebaju koža i noge?\nU njima ima puno kolagena, koji se pretvara u želatinu.\nZašto majka ne čuva perje kokoši?\nPerje kokoši je previše tvrdo za jastuke.\nZašto juha ne smije jako kuhati?\nVeliki mjehurići razbijaju mast i komade mesa na sitne čestice koje čine juhu mutnom."
+    }
+  ]
+}
