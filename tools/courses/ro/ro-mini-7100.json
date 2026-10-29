@@ -1,0 +1,186 @@
+{
+  "id": "ro-mini-7100",
+  "rankUpTo": 7100,
+  "level": "C1",
+  "title": "Sănătate publică",
+  "description": "Ten stories about public health: a water laboratory's audit, a hotel valet in a heatwave, the demolition of an old factory, a dentist's caravan, a health trail by the Olt, a medical simulation centre, a vacuum cleaner for a mother-in-law with a dust allergy, walking football for older men, a column on stories and statistics, and a small town's weekend pharmacy.",
+  "topic": "Public health",
+  "names": [
+    "Constantina",
+    "Constantinei",
+    "Murariu",
+    "Coșarcă",
+    "Tulcea",
+    "Casimcea",
+    "Artiom",
+    "Antim",
+    "Tuchilă",
+    "Chișinău",
+    "Chișinăului",
+    "Magdalina",
+    "Magdalinei",
+    "Vlădoiu",
+    "Țuțuianu",
+    "Galați",
+    "Cătina",
+    "Cătinei",
+    "Achimescu",
+    "Zizi",
+    "Caracal",
+    "Sebastiana",
+    "Sebastianei",
+    "Olt",
+    "Oltului",
+    "Oltul",
+    "Sibiu",
+    "Avrig",
+    "Vasilian",
+    "Buhăescu",
+    "Iași",
+    "Tecuța",
+    "Tecuței",
+    "Voica",
+    "Voicăi",
+    "Bacău",
+    "Sică",
+    "Topală",
+    "Țică",
+    "Abăcioaie",
+    "Brăila",
+    "Rahela",
+    "Mariuca",
+    "Mariucăi",
+    "Hârșova",
+    "Dunării",
+    "Medgidia",
+    "România"
+  ],
+  "lessons": [
+    {
+      "title": "Ziua auditului",
+      "summary": "A chemist at the public health laboratory in Tulcea tests village well water for nitrates and gets through an audit of her laboratory, which ends with a favourable opinion.",
+      "newWords": [
+        "purificare",
+        "azot",
+        "chimicale",
+        "audit",
+        "aviz",
+        "reglementat",
+        "molecular"
+      ],
+      "text": "Constantina Murariu lucrează de 15 ani în laboratorul de sănătate publică din Tulcea. Ea analizează apa din fântânile satelor din jur. În multe sate, oamenii beau încă apă din fântână, iar această apă nu trece printr-o stație de purificare, ca apa de la robinet din oraș.\n\nCea mai frecventă problemă este azotul. Mai exact, e vorba de nitrați, substanțe care conțin azot și care ajung în pământ din îngrășămintele de pe câmpuri și din gunoiul de grajd. Ploaia îi duce apoi în fântâni. Cantitatea de nitrați din apa de băut este reglementată strict: există o limită clară, iar peste ea apa nu mai e bună de băut, mai ales pentru bebeluși.\n\nLuni dimineață, la laborator a venit o echipă de audit, condusă de doamna Coșarcă. Un audit verifică dacă laboratorul lucrează corect: dacă aparatele sunt verificate la timp, dacă chimicalele sunt păstrate cum trebuie și dacă fiecare rezultat poate fi urmărit de la proba de apă până la buletinul de analiză. Dacă auditul se termină bine, laboratorul primește un aviz favorabil. Fără acest aviz, rezultatele lui nu mai sunt recunoscute.\n\nConstantina i-a arătat întâi dulapul cu chimicale. Fiecare sticlă avea o etichetă cu numele substanței, data și persoana care a deschis-o. Chimicalele periculoase stăteau separat, pe un raft de jos, într-un dulap metalic.\n\nApoi i-a explicat metoda. Aparatul trimite o rază de lumină prin proba de apă și măsoară câtă lumină absorb moleculele de nitrat. E o măsurare la nivel molecular: fiecare substanță absoarbe lumina în felul ei, așa că aparatul o recunoaște. Și metoda este reglementată: pașii ei sunt scriși într-un standard, iar laboratorul trebuie să-i respecte întocmai.\n\nDoamna Coșarcă a pus multe întrebări și a citit cu atenție caietele laboratorului. La sfârșitul zilei, a spus că totul este în ordine și că laboratorul va primi un aviz favorabil. A avut o singură recomandare: o etichetă mai mare pe ușa camerei cu chimicale.\n\nMarți, Constantina a mers la Casimcea, la o familie cu un copil mic. Apa din fântâna lor avea prea mult azot. Le-a explicat că pot folosi apa pentru grădină, dar pentru băut și gătit au nevoie de un filtru de purificare sau de apă de la rețea. Familia a ales un filtru, iar Constantina a promis că va reveni peste o lună să facă o nouă analiză.\n\nÎntrebări:\nUnde lucrează Constantina Murariu?\nLucrează în laboratorul de sănătate publică din Tulcea.\nDe ce apa din fântâni are uneori prea mult azot?\nPentru că nitrații ajung în pământ din îngrășăminte și din gunoiul de grajd, iar ploaia îi duce în fântâni.\nCe verifică un audit?\nVerifică dacă laboratorul lucrează corect, dacă aparatele și chimicalele sunt în ordine și dacă rezultatele pot fi urmărite.\nCum măsoară aparatul nitrații?\nMăsoară câtă lumină absorb moleculele de nitrat, la nivel molecular.\nCe aviz a primit laboratorul?\nLaboratorul a primit un aviz favorabil.\nCe le-a recomandat Constantina familiei din Casimcea?\nLe-a recomandat un filtru de purificare sau apă de la rețea pentru băut și gătit."
+    },
+    {
+      "title": "Valetul și căldura",
+      "summary": "During a heatwave in Chișinău, a young hotel valet learns from the hotel's nurse how to work safely in the heat, and makes sure his retired grandfather, who takes a sedative, is looked after too.",
+      "newWords": [
+        "valet",
+        "insuportabil",
+        "instabilitate",
+        "pensionar",
+        "infirmier",
+        "sedativ",
+        "jenă"
+      ],
+      "text": "În iulie, la Chișinău, căldura a devenit insuportabilă: termometrele arătau 38 de grade la umbră. Artiom are 20 de ani și lucrează ca valet la un hotel din centrul orașului. Un valet preia mașinile oaspeților la intrare, le parchează în garaj și le aduce înapoi când oaspeții pleacă. Pe asfaltul din fața hotelului, căldura e și mai insuportabilă decât în restul orașului.\n\nPrognoza meteo anunța pentru după-amiază instabilitate atmosferică: vânt puternic, ploi scurte și furtuni locale. După o zi de căldură mare, instabilitatea vine adesea brusc.\n\nDimineața, domnul Tuchilă, infirmierul hotelului, i-a strâns pe toți valeții în holul de serviciu. Infirmierul le-a dat câteva reguli simple: să bea apă în fiecare oră, chiar dacă nu le e sete, să poarte șapcă, să stea la umbră între două curse și să ia o pauză de zece minute în fiecare oră.\n\nArtiom era nou la hotel și simțea o jenă să ceară pauze. I se părea că un valet bun nu se oprește niciodată.\n\n— Nu e nicio jenă, i-a spus infirmierul. Căldura nu e un test de curaj. Un valet obosit uită cheile și zgârie mașinile.\n\nApoi domnul Tuchilă a vorbit despre oamenii în vârstă. Pensionarii care locuiesc singuri sunt cei mai expuși în zilele de caniculă. Unele medicamente, de exemplu un sedativ luat seara pentru somn, pot face căldura mai greu de suportat. Medicamentele nu trebuie oprite fără sfatul medicului, dar e bine ca medicul de familie să afle cum se simte pacientul în aceste zile.\n\nArtiom s-a gândit imediat la bunicul lui, Antim. Bunicul e pensionar de opt ani, locuiește singur la etajul patru și ia în fiecare seară un sedativ ușor. La prânz, în pauză, Artiom l-a sunat. Bunicul a spus că stă cu geamurile închise și cu perdelele trase, dar că nu bea prea multă apă.\n\n— Bunicule, sună-l azi pe medicul de familie și spune-i ce sedativ iei, l-a rugat Artiom.\n\nDupă-amiază a venit instabilitatea anunțată. Cerul s-a întunecat, a bătut un vânt puternic și a plouat zece minute. Valeții au stat sub acoperișul de la intrare, iar Artiom a adus mașinile mai încet, cu grijă pe asfaltul ud.\n\nSeara, Artiom a trecut pe la bunicul lui cu șase sticle de apă. Bunicul vorbise cu medicul, care îi spusese să bea mai multă apă și să ia sedativul mai devreme. Pensionarul a zâmbit: nepotul lui învățase ceva bun la serviciu.\n\nÎntrebări:\nCe face un valet?\nUn valet preia mașinile oaspeților, le parchează și le aduce înapoi.\nCe anunța prognoza pentru după-amiază?\nPrognoza anunța instabilitate atmosferică: vânt, ploi scurte și furtuni.\nCe reguli le-a dat infirmierul valeților?\nSă bea apă în fiecare oră, să poarte șapcă, să stea la umbră și să ia pauze.\nDe ce simțea Artiom jenă?\nPentru că era nou și credea că un valet bun nu se oprește niciodată.\nDe ce s-a gândit Artiom la bunicul lui?\nPentru că bunicul e pensionar, locuiește singur și ia un sedativ seara.\nCe i-a spus medicul bunicului?\nI-a spus să bea mai multă apă și să ia sedativul mai devreme."
+    },
+    {
+      "title": "Praful de la fabrica veche",
+      "summary": "An engineer from the town's environment service in Galați plans the demolition of an old factory on the edge of town so that the dust does not reach the neighbours' homes.",
+      "newWords": [
+        "demolare",
+        "periferic",
+        "orășenesc",
+        "dirijat",
+        "murdări",
+        "benzinărie"
+      ],
+      "text": "La marginea orașului Galați, într-un cartier periferic, se află o fabrică veche de cărămidă, închisă de 30 de ani. Clădirile ei sunt goale, geamurile sunt sparte, iar în curte crește iarbă înaltă. Primăria a hotărât să o demoleze și să facă în locul ei un parc.\n\nMagdalina Vlădoiu este inginer la serviciul orășenesc de mediu. Ea trebuie să aibă grijă ca demolarea să nu afecteze sănătatea oamenilor care locuiesc în jur. Cea mai mare problemă la o demolare este praful. Praful fin intră în plămâni, mai ales la copii și la oamenii în vârstă, și murdărește tot ce atinge.\n\nÎntr-o seară, Magdalina s-a întâlnit cu locatarii blocurilor din apropiere, în sala de festivități a școlii din cartier. Domnul Țuțuianu, care locuiește chiar lângă gardul fabricii, a vorbit primul:\n\n— Doamnă inginer, eu am rufe la uscat pe balcon. Dacă praful îmi murdărește rufele și geamurile, cine le spală?\n\nMagdalina i-a explicat planul. Demolarea se va face pe etape, nu dintr-odată. Înainte de fiecare etapă, muncitorii vor uda zidurile cu apă, ca praful să rămână jos. În jurul fabricii vor pune un gard înalt, acoperit cu o plasă deasă. Camioanele vor pleca acoperite cu prelată și vor avea roțile spălate la ieșire. În zilele cu vânt puternic, lucrul se va opri.\n\nApoi a vorbit despre trafic. Strada fabricii va fi închisă trei luni, iar traficul va fi dirijat pe strada paralelă. Camioanele vor fi dirijate pe un drum ocolitor, departe de școală.\n\n— Și benzinăria? a întrebat o doamnă. Eu îmi alimentez mașina acolo în fiecare săptămână.\n\nBenzinăria de la colț rămâne deschisă. Mașinile vor intra în benzinărie prin spate, pe un drum provizoriu, iar un muncitor cu vestă galbenă va sta acolo în orele de vârf.\n\nMagdalina a mai promis ceva: serviciul orășenesc va pune lângă școală un aparat care măsoară praful din aer. Datele vor fi publicate zilnic pe internet, ca oricine să le poată vedea.\n\nDemolarea a durat patru luni. Aparatul a arătat de câteva ori valori mai mari, iar atunci lucrul s-a oprit până a doua zi. La final, firma a spălat geamurile blocurilor din apropiere. Domnul Țuțuianu a recunoscut că rufele lui s-au murdărit o singură dată, într-o zi cu vânt neașteptat. Acum, în locul fabricii, se plantează copaci.\n\nÎntrebări:\nUnde se află fabrica veche?\nSe află într-un cartier periferic al orașului Galați.\nUnde lucrează Magdalina Vlădoiu?\nLucrează la serviciul orășenesc de mediu.\nDe ce e praful o problemă la o demolare?\nPentru că intră în plămâni și murdărește geamurile și rufele.\nPe unde a fost dirijat traficul?\nTraficul a fost dirijat pe strada paralelă, iar camioanele pe un drum ocolitor.\nCum intră mașinile în benzinărie?\nIntră prin spate, pe un drum provizoriu.\nCe se face acum în locul fabricii?\nAcum se plantează copaci pentru un parc."
+    },
+    {
+      "title": "Caravana dentistului",
+      "summary": "A dentist with a mobile surgery visits the villages around Caracal and teaches the children how sticky sweets harm their teeth and how to brush without waste.",
+      "newWords": [
+        "baton",
+        "vanilie",
+        "lipicios",
+        "risipă",
+        "deservi",
+        "preponderent"
+      ],
+      "text": "Cătina Achimescu este medic dentist. De trei ani, ea conduce o caravană dentară: un microbuz amenajat ca un cabinet, cu un scaun de dentist, o lampă și un mic dulap cu instrumente. Caravana deservește 12 sate din jurul orașului Caracal. În multe dintre aceste sate nu există niciun dentist, iar cel mai apropiat cabinet e la 30 de kilometri.\n\nLuni, caravana a oprit în curtea școlii dintr-un sat mic. Cătina a consultat 40 de copii. A văzut multe carii, mai ales la dinții din spate. Când i-a întrebat pe copii ce mănâncă în pauză, răspunsul a fost aproape mereu același: batoane de ciocolată, bomboane și napolitane de la magazinul din sat. Copiii mănâncă preponderent dulciuri între mese, iar fructele lipsesc aproape cu totul din ghiozdane.\n\nLa sfârșitul zilei, Cătina a strâns copiii în sala de sport. A scos din geantă un baton de ciocolată cu caramel și o bomboană lipicioasă.\n\n— Ce credeți, care e mai rău pentru dinți? i-a întrebat ea.\n\nCopiii au spus că amândouă. Cătina le-a explicat că dulciurile lipicioase sunt cele mai rele: rămân ore întregi între dinți, iar bacteriile din gură le transformă în acid. Un baton cu caramel e și el lipicios. Un măr sau o banană se mănâncă repede și nu se lipește de dinți.\n\nApoi a vorbit despre spălatul pe dinți. O fetiță pe nume Zizi a spus că nu-i place pasta de dinți, pentru că e prea tare și o ustură. Cătina i-a dat o pastă pentru copii, cu gust de vanilie. Zizi a mirosit-o și a zâmbit. Pasta cu vanilie a avut atâta succes, încât toți copiii au vrut să o încerce.\n\nCătina le-a mai arătat cât de multă pastă trebuie pusă pe periuță: cât un bob de mazăre. Mai multă pastă e o risipă, iar spuma nu curăță mai bine. Și apa lăsată să curgă e tot o risipă: robinetul se închide cât timp ne spălăm pe dinți.\n\nPe drumul spre următorul sat, Cătina s-a gândit că un consult pe an nu e de ajuns. A vorbit cu directoarea școlii și cu vânzătoarea de la magazinul din sat, care a acceptat să vândă și fructe lângă batoane. Caravana va reveni în primăvară, ca să vadă dacă dinții copiilor arată mai bine.\n\nÎntrebări:\nCe este caravana Cătinei Achimescu?\nEste un microbuz amenajat ca un cabinet de dentist.\nCâte sate deservește caravana?\nCaravana deservește 12 sate din jurul orașului Caracal.\nCe mănâncă preponderent copiii în pauză?\nMănâncă preponderent dulciuri: batoane de ciocolată, bomboane și napolitane.\nDe ce sunt dulciurile lipicioase cele mai rele?\nPentru că rămân ore întregi între dinți și se transformă în acid.\nCe pastă i-a dat Cătina lui Zizi?\nI-a dat o pastă pentru copii, cu gust de vanilie.\nCâtă pastă trebuie pusă pe periuță?\nCât un bob de mazăre; mai multă pastă e o risipă."
+    },
+    {
+      "title": "Poteca de lângă Olt",
+      "summary": "A woman told by her doctor to walk more takes her dog along a new health trail by the Olt near Avrig, where the dog barks at a beaver and a sign explains the rocks of the valley.",
+      "newWords": [
+        "potecă",
+        "lătra",
+        "castor",
+        "geologic",
+        "deopotrivă"
+      ],
+      "text": "Sebastiana are 54 de ani și lucrează la un birou din Sibiu. La ultimul control, medicul de familie i-a spus că are tensiunea puțin mare și că ar trebui să se miște mai mult: o jumătate de oră de mers pe jos în fiecare zi.\n\nÎn primăvară, orașul Avrig a amenajat pe malul Oltului o potecă a sănătății. Poteca are cinci kilometri și e plată, potrivită deopotrivă pentru tineri și pentru bătrâni. La fiecare kilometru există o bancă și un panou. Pe panouri scrie cât ai mers, câtă energie ai consumat și cum îți poți măsura pulsul.\n\nSâmbătă dimineață, Sebastiana a mers pe potecă împreună cu câinele ei, un ciobănesc mic și vesel. Câinele mergea în față și mirosea fiecare tufă. Aerul era răcoros, iar apa Oltului curgea liniștită.\n\nLa al doilea kilometru, câinele s-a oprit brusc și a început să latre. Pe mal, lângă un copac tăiat, stătea un animal maro, cu o coadă lată și plată. Era un castor. Când câinele a lătrat mai tare, castorul a sărit în apă și a dispărut.\n\nSebastiana a citit panoul de lângă bancă. Castorii au trăit cândva pe toate râurile din România, au dispărut în secolul al XIX-lea și au fost aduși înapoi acum câteva zeci de ani. Un castor poate tăia un copac cu dinții și își face din crengi un baraj și o casă. Panoul mai spunea că un câine nu trebuie să latre la castori și nici să-i alerge: animalele se sperie ușor.\n\nSebastiana i-a pus lesa câinelui și au mers mai departe. La al patrulea kilometru era un panou geologic. Acesta explica de ce valea Oltului arată așa: râul și-a săpat drumul prin munți timp de milioane de ani, iar pietrele rotunde de pe mal au fost aduse de apă de sus, din munte. Pe panoul geologic era și o hartă simplă cu rocile din jur.\n\nSebastiana s-a întors acasă după o oră și jumătate. Nu se simțea obosită, ci odihnită. Câinele ei a dormit tot restul zilei.\n\nDe atunci, Sebastiana merge pe potecă în fiecare sâmbătă și în două seri pe săptămână. Plimbarea e bună deopotrivă pentru ea și pentru câine. Câinele încă latră când vede o creangă tăiată, dar acum rămâne lângă ea. După două luni, la control, tensiunea ei era normală.\n\nÎntrebări:\nCe i-a spus medicul Sebastianei?\nI-a spus că are tensiunea puțin mare și că ar trebui să meargă pe jos în fiecare zi.\nUnde se află poteca sănătății?\nPoteca se află pe malul Oltului, la Avrig.\nPentru cine este potrivită poteca?\nEste potrivită deopotrivă pentru tineri și pentru bătrâni.\nDe ce a sărit castorul în apă?\nPentru că s-a speriat când câinele a lătrat la el.\nCe explica panoul geologic?\nExplica cum și-a săpat Oltul drumul prin munți și de unde vin pietrele de pe mal.\nCum era tensiunea Sebastianei după două luni?\nDupă două luni, tensiunea ei era normală."
+    },
+    {
+      "title": "Pacientul care nu există",
+      "summary": "A medical student in Iași practises on a simulator that imitates a patient, guided by an instructor, and the simulation centre gets an anniversary plaque for its tenth birthday.",
+      "newWords": [
+        "simula",
+        "instrui",
+        "instituțional"
+      ],
+      "text": "Vasilian este student în anul al patrulea la facultatea de medicină din Iași. În fiecare joi, el merge la centrul de simulare al facultății. Aici nu există pacienți adevărați. Există un manechin cât un om, conectat la un calculator, care poate simula aproape orice: respirația grea, un puls prea rapid, tensiunea mică, chiar și tusea.\n\nDoamna Buhăescu, medic cu 25 de ani de experiență, îi instruiește pe studenți. Ea spune că e mai bine ca un student să greșească prima dată în fața unui manechin decât în fața unui om. De aceea, înainte să intre în spital, toți studenții sunt instruiți aici.\n\nJoi dimineață, doamna Buhăescu a pornit programul. Manechinul a început să simuleze un pacient care s-a ridicat prea repede din pat și căruia i s-a făcut rău: tensiunea îi scăzuse, iar pulsul era rapid. Vasilian l-a întins pe spate, i-a ridicat picioarele și a măsurat din nou tensiunea. Calculatorul a arătat imediat că pacientul se simte mai bine.\n\nApoi au simulat o discuție cu familia pacientului. Un actor a jucat rolul unui fiu îngrijorat, care punea multe întrebări. Vasilian a trebuit să explice clar și calm ce se întâmplă, fără cuvinte prea grele. Doamna Buhăescu spune că și asta se învață: un medic bun știe să vorbească, nu doar să trateze.\n\nDupă fiecare exercițiu, grupul se așază la o masă și discută ce a mers bine și ce nu. Doamna Buhăescu nu ridică niciodată vocea. Ea îi instruiește prin întrebări: „Ce ai observat primul? De ce ai ales acest aparat?”\n\nCentrul de simulare a fost deschis acum zece ani, cu un proiect instituțional al facultății. Atunci avea doar două manechine. Acum are opt și o sală în care se pot simula și operații simple. Sprijinul instituțional contează mult: un manechin modern costă cât un apartament mic.\n\nÎn toamnă, centrul de simulare a împlinit zece ani. Pentru această aniversare, conducerea facultății a pregătit o placă aniversară, pusă lângă ușa de la intrare. Pe placa aniversară scrie anul deschiderii și numele primilor instructori. Doamna Buhăescu este printre ei.\n\nLa sfârșitul anului, Vasilian a dat examenul practic pe manechin. A trecut cu nota zece. Când a intrat pentru prima dată în spital, la un pacient adevărat, mâinile lui nu au tremurat.\n\nÎntrebări:\nCe poate simula manechinul?\nPoate simula respirația grea, un puls rapid, tensiunea mică și tusea.\nCine îi instruiește pe studenți?\nDoamna Buhăescu, un medic cu 25 de ani de experiență, îi instruiește.\nDe ce e bine să greșești în fața unui manechin?\nPentru că e mai bine să greșești în fața unui manechin decât în fața unui om.\nCe a simulat manechinul joi?\nA simulat un pacient căruia i-a scăzut tensiunea după ce s-a ridicat prea repede.\nCum a fost deschis centrul de simulare?\nA fost deschis acum zece ani, cu un proiect instituțional al facultății.\nCe scrie pe placa aniversară?\nScrie anul deschiderii și numele primilor instructori."
+    },
+    {
+      "title": "Aspiratorul nou al soacrei",
+      "summary": "A woman in Bacău helps her mother-in-law, who is allergic to dust, by replacing her broken vacuum cleaner and her heavy curtains, and then joins her at the folk dance group for older people.",
+      "newWords": [
+        "soacră",
+        "aspirator",
+        "carcasă",
+        "geană",
+        "horă",
+        "pal"
+      ],
+      "text": "Tecuța locuiește în Bacău, la zece minute de soacra ei, Voica. Voica are 71 de ani și o alergie la praf. Primăvara și toamna o mănâncă ochii, strănută des și doarme prost. Medicul alergolog i-a explicat că praful din casă, mai ales cel din covoare și perdele, îi face cel mai mult rău.\n\nÎntr-o sâmbătă, Tecuța a venit în vizită și și-a găsit soacra pe canapea, cu ochii roșii. Lângă ușă era aspiratorul vechi, cumpărat acum 20 de ani. Carcasa lui de plastic avea o crăpătură lungă pe o parte, iar când Voica îl pornea, prin crăpătură ieșea un nor fin de praf. Aspiratorul strângea praful de pe jos și îl împrăștia din nou în aer.\n\n— Mamă, aspiratorul acesta vă face mai mult rău decât bine, i-a spus Tecuța. Cu o carcasă spartă, praful iese afară.\n\nVoica nu voia să-l arunce. Spunea că încă merge. Dar Tecuța a insistat, și luni au mers împreună la magazin. Au ales un aspirator nou, cu un filtru special care oprește și cel mai fin praf. Carcasa lui era transparentă, așa că Voica putea vedea când trebuie golit.\n\nAcasă, în timp ce scoteau aspiratorul din cutie, Voica a început să se frece la ochi.\n\n— Am ceva în ochi, a spus ea.\n\nTecuța s-a uitat atent. Era doar o geană căzută pe colțul ochiului. A scos geana cu vârful unei batiste curate, iar Voica a râs: crezuse că e iar alergia.\n\nApoi au schimbat perdelele. Cele vechi erau grele și închise la culoare și strângeau mult praf. Tecuța a pus perdele subțiri, în culori pale, care se pot spăla des la mașină. Camera părea mai luminoasă, iar albastrul pal al perdelelor se potrivea cu pereții albi.\n\nJoi seara, Voica merge la casa de cultură, unde un grup de pensionari dansează hora. Medicul i-a spus că mișcarea îi face bine, iar Voica iubește hora de când era copil. De data aceasta, Tecuța a mers cu ea. La început s-a încurcat la pași, dar soacra a ținut-o de mână. Într-o horă, nimeni nu dansează singur.\n\nDupă o lună, Voica strănuta mult mai rar și dormea mai bine. Aspiratorul nou stătea la loc de cinste, iar în fiecare joi, soacra și nora mergeau împreună la horă.\n\nÎntrebări:\nDe ce sufere Voica primăvara și toamna?\nPentru că are o alergie la praf.\nCe problemă avea aspiratorul vechi?\nCarcasa lui avea o crăpătură, iar prin ea ieșea praf.\nCe aspirator au cumpărat?\nAu cumpărat un aspirator cu un filtru special și cu o carcasă transparentă.\nCe avea Voica în ochi?\nAvea o geană căzută pe colțul ochiului.\nCe perdele a pus Tecuța?\nA pus perdele subțiri, în culori pale, care se pot spăla des.\nUnde merg soacra și nora în fiecare joi?\nMerg împreună la horă, la casa de cultură."
+    },
+    {
+      "title": "Fotbal fără alergare",
+      "summary": "A former club defender in Brăila, now retired, plays walking football with other older men, and a local radio commentator describes their small tournament.",
+      "newWords": [
+        "fundaș",
+        "comentator",
+        "palmares",
+        "alinia"
+      ],
+      "text": "Sică Topală are 67 de ani. În tinerețe a fost fundaș la echipa de fotbal a orașului Brăila. Palmaresul lui nu e lung, dar e frumos: două promovări și o finală de cupă. După ce s-a retras, Sică a lucrat 30 de ani ca electrician și aproape a uitat de fotbal.\n\nAcum doi ani, medicul de familie i-a spus că trebuie să facă mișcare regulat. Un prieten l-a dus atunci la un antrenament de fotbal în mers. E un fotbal pentru oameni în vârstă: nimeni nu are voie să alerge, contactul e interzis, iar mingea nu are voie să treacă de înălțimea genunchiului. Un meci durează două reprize de un sfert de oră.\n\nSică a fost la început neîncrezător. Un fundaș adevărat, credea el, aleargă după atacant. Dar după primul antrenament a înțeles că jocul cere altceva: să stea bine poziționat, să citească jocul și să paseze precis. Pentru un fost fundaș, asta era ușor.\n\nÎn septembrie, clubul a organizat un mic turneu, cu patru echipe din Brăila și din satele din jur. Postul de radio local a trimis un comentator, pe domnul Țică Abăcioaie. Țică comentează de obicei meciurile echipei orașului, dar de data aceasta a venit cu plăcere.\n\nÎnainte de fiecare meci, jucătorii se aliniază la centrul terenului, ca la un meci adevărat. Așa s-au aliniat și înainte de primul meci al turneului. Antrenorul a aliniat echipa lui Sică așa cum o făcea pe vremuri: doi fundași în spate, doi jucători la mijloc și unul în față. Sică a jucat, desigur, fundaș.\n\nComentatorul a vorbit cu mult umor, dar fără să râdă de jucători:\n\n— Topală oprește atacul fără să alerge un pas! Un fundaș cu un palmares bogat nu-și pierde niciodată locul!\n\nEchipa lui Sică a câștigat turneul. La final, comentatorul i-a luat un scurt interviu. Sică a spus că nu a venit pentru medalii, ci pentru sănătate: de când joacă de două ori pe săptămână, tensiunea i s-a normalizat și a slăbit opt kilograme. Apoi a adăugat, zâmbind, că palmaresul lui are acum și o cupă câștigată.\n\nSeara, nepotul lui Sică a ascultat la radio comentatorul și a fost foarte mândru de bunicul lui.\n\nÎntrebări:\nPe ce post a jucat Sică în tinerețe?\nA jucat fundaș la echipa de fotbal a orașului Brăila.\nCe cuprinde palmaresul lui?\nPalmaresul lui cuprinde două promovări și o finală de cupă.\nCe reguli are fotbalul în mers?\nNimeni nu are voie să alerge, contactul e interzis, iar mingea rămâne jos.\nCine a comentat turneul la radio?\nComentatorul Țică Abăcioaie a comentat turneul.\nCe au făcut jucătorii înainte de primul meci?\nS-au aliniat la centrul terenului, ca la un meci adevărat.\nDe ce joacă Sică fotbal în mers?\nPentru sănătate: tensiunea i s-a normalizat și a slăbit opt kilograme."
+    },
+    {
+      "title": "Poveștile și cifrele",
+      "summary": "A newspaper column weighs personal stories against statistics in public health campaigns, and argues that the two work best together.",
+      "newWords": [
+        "narativ",
+        "autenticitate",
+        "divizat",
+        "viabil",
+        "metodologie",
+        "conversiune"
+      ],
+      "text": "Săptămâna trecută am văzut două campanii despre mișcare și sănătatea inimii. Prima era un afiș cu cifre: „Treizeci de minute de mers pe zi scad cu 30% riscul de probleme cu inima.” A doua era un film scurt, în care un bărbat de 60 de ani povestea cum a început să urce scările în loc să ia liftul. Am uitat repede afișul. Filmul îl țin minte și acum.\n\nSpecialiștii în sănătate publică sunt divizați în această privință. O parte spun că stilul narativ, cu povești despre oameni reali, ajunge mai ușor la public. Alții se tem că o poveste emoționantă poate convinge chiar și atunci când nu e adevărată. Opiniile rămân divizate, iar fiecare tabără are argumentele ei.\n\nForța unei campanii narative stă în autenticitate. Publicul simte imediat dacă omul din film e un actor care citește un text sau cineva care chiar a trăit ce povestește. Fără autenticitate, povestea pierde tot ce avea mai bun. De aceea, campaniile bune lucrează cu oameni reali și le lasă propriile cuvinte.\n\nCifrele au însă o calitate pe care poveștile nu o au: pot fi verificate. În spatele unui procent există un studiu, iar studiul are o metodologie: câți oameni au fost urmăriți, cât timp, cum au fost aleși. O metodologie solidă face diferența dintre o cifră serioasă și una spusă la întâmplare.\n\nProblema cifrelor e alta: multe nu se înțeleg. „Riscul scade cu 30%” sună impresionant, dar nu spune cât de mare era riscul la început. Aici ajută o conversie simplă: din procente în oameni. Dacă din 1000 de oameni care nu fac mișcare, 50 au probleme cu inima, iar din 1000 care merg zilnic doar 35, diferența e de 15 oameni la mie. Conversia aceasta nu schimbă cifrele, dar le face mai clare.\n\nCe soluție e viabilă pe termen lung? Cred că niciuna dintre cele două, folosită singură. O campanie doar cu povești poate fi frumoasă, dar fragilă. O campanie doar cu cifre e corectă, dar rece. Varianta viabilă le pune împreună: povestea unui om real, iar lângă ea cifra, cu sursa și metodologia la vedere.\n\nBărbatul din film urcă acum scările până la etajul cinci. Dacă lângă povestea lui ar fi scris și câți oameni din o mie câștigă ceva din acest obicei, poate că aș fi ținut minte și cifra.\n\nRahela, autoarea rubricii\n\nÎntrebări:\nCe campanie a ținut minte autoarea?\nA ținut minte filmul cu bărbatul care urcă scările.\nDe ce sunt specialiștii divizați?\nUnii cred că stilul narativ ajunge mai ușor la public, alții se tem că o poveste poate convinge chiar dacă nu e adevărată.\nDe ce contează autenticitatea?\nPentru că publicul simte imediat dacă povestea nu e trăită cu adevărat.\nCe spune metodologia unui studiu?\nSpune câți oameni au fost urmăriți, cât timp și cum au fost aleși.\nLa ce ajută conversia din procente în oameni?\nAjută ca cifrele să fie mai clare.\nCe variantă consideră autoarea viabilă?\nO campanie care pune împreună povestea unui om real și cifra, cu sursa ei."
+    },
+    {
+      "title": "Farmacia de gardă",
+      "summary": "In Hârșova the second pharmacy has gone bankrupt and the remaining one has a monopoly; a retired woman asks the town hall for a weekend pharmacy schedule and learns to activate her electronic health card.",
+      "newWords": [
+        "monopol",
+        "falit",
+        "nedreptate",
+        "privilegiat",
+        "activare",
+        "instituire"
+      ],
+      "text": "Mariuca are 73 de ani și locuiește în Hârșova, un oraș mic de pe malul Dunării. Până anul trecut, orașul avea două farmacii. Apoi una dintre ele a dat faliment. Proprietarul, rămas falit, a închis ușa, iar acum în vitrina farmaciei falite stă doar un afiș vechi.\n\nFarmacia rămasă are acum un monopol în oraș. Nu e vina farmacistei, care e amabilă și muncește mult. Dar monopolul are urmări: farmacia e deschisă doar de luni până vineri, până la ora 17. Sâmbăta și duminica, cine are nevoie de un medicament trebuie să meargă până la Medgidia, la 60 de kilometri.\n\nMariuca a simțit asta pe pielea ei într-o sâmbătă, când i s-a terminat medicamentul pentru tensiune. Vecinul ei a dus-o cu mașina la Medgidia. Pe drum, Mariuca s-a gândit că e o nedreptate: oamenii din orașele mari au farmacii deschise și noaptea, iar cei din orașele mici trebuie să facă drumuri lungi pentru o cutie de pastile.\n\n— Cei din oraș sunt privilegiați, i-a spus ea vecinului. Au de toate la un pas.\n\n— Privilegiați, poate, dar și noi putem cere ceva, i-a răspuns vecinul.\n\nLuni, Mariuca a mers la primărie și a depus o cerere. A propus instituirea unui program de gardă: farmacia să fie deschisă măcar sâmbăta dimineața, iar în restul timpului un număr de telefon să indice cea mai apropiată farmacie deschisă. Funcționara de la ghișeu a citit cererea și a spus că și alți oameni s-au plâns de aceeași nedreptate.\n\nDupă o lună, primăria a discutat cu farmacista. Instituirea programului de gardă s-a făcut repede: farmacia e acum deschisă și sâmbăta, între 9 și 13, iar primăria plătește o parte din costuri.\n\nLa farmacie, farmacista i-a mai arătat Mariucăi ceva util: activarea cardului de sănătate. Mariuca avea cardul de doi ani, dar nu-l activase niciodată. Activarea a durat cinci minute: cardul, un cod secret și o semnătură. Acum medicul de familie îi poate trimite rețetele direct în sistem, iar Mariuca nu mai trebuie să umble cu hârtii.\n\nMonopolul a rămas, dar orașul nu mai e lăsat fără medicamente la sfârșit de săptămână. Mariuca își cumpără pastilele de tensiune sâmbăta dimineața, după piață.\n\nÎntrebări:\nCe s-a întâmplat cu a doua farmacie din Hârșova?\nA dat faliment, iar proprietarul a rămas falit.\nCe urmări are monopolul farmaciei rămase?\nFarmacia era deschisă doar în timpul săptămânii, până la ora 17.\nDe ce a crezut Mariuca că e o nedreptate?\nPentru că oamenii din orașele mari au farmacii deschise și noaptea, iar cei din orașele mici fac drumuri lungi.\nCe a propus Mariuca la primărie?\nA propus instituirea unui program de gardă pentru farmacie.\nCât a durat activarea cardului de sănătate?\nActivarea a durat cinci minute.\nCând își cumpără acum Mariuca pastilele?\nȘi le cumpără sâmbăta dimineața, după piață."
+    }
+  ]
+}
