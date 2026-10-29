@@ -1,0 +1,183 @@
+{
+  "id": "ro-mini-5500",
+  "rankUpTo": 5500,
+  "level": "C1",
+  "title": "Arte vizuale",
+  "description": "Ten texts about the science of cooking: a sourdough starter in a jar, why taste lives in the nose, a chef who listens to the sizzle, a TV audition with an omelette, a food journalist who edits recipes, cheese at a shepherd's hut, jam at a renovated manor, a food truck that switches to induction, bony fish and coral-red crayfish in Tulcea, and an essay on comfort food.",
+  "topic": "Visual arts",
+  "names": [
+    "Erica",
+    "Rotariu",
+    "Cluj",
+    "Arghir",
+    "Irma",
+    "Irmei",
+    "Sibiu",
+    "Sibiului",
+    "Lupaș",
+    "Iași",
+    "Vasiliu",
+    "Craiova",
+    "Oliviu",
+    "Dărăbanț",
+    "București",
+    "Yasmina",
+    "Scripcaru",
+    "Brașov",
+    "Mario",
+    "Hașegan",
+    "Bettina",
+    "Jurj",
+    "Galați",
+    "Tulcea",
+    "Dunăre",
+    "Dunării",
+    "Ulise",
+    "Tătaru",
+    "Timișoara",
+    "Lucas",
+    "Bobeică",
+    "Rădoi",
+    "Oradea",
+    "Guran",
+    "Begăi",
+    "Carpați",
+    "Ericăi",
+    "Rembrandt",
+    "Vermeer",
+    "Grigorescu"
+  ],
+  "lessons": [
+    {
+      "title": "Atelierul din seră",
+      "summary": "A painter in Cluj rents an old greenhouse as a studio, learns to work in its heat, paints the elder tree beside it and opens it to the families who picnic outside.",
+      "newWords": [
+        "seră",
+        "transpira",
+        "soc",
+        "dens",
+        "picnic",
+        "savura"
+      ],
+      "text": "Erica Rotariu pictează de cincisprezece ani, dar până anul trecut nu a avut un atelier adevărat. Lucra în bucătăria apartamentului ei din Cluj, între aragaz și fereastră, iar tablourile mari stăteau sprijinite de pereții holului. În primăvară, un prieten i-a spus că la marginea orașului, lângă o fostă fermă de flori, se închiriază o seră veche.\n\nSera avea douăzeci de metri lungime, cu pereți și acoperiș de sticlă prinși într-un cadru de fier vopsit în verde. Câteva geamuri erau crăpate, iar înăuntru rămăseseră mese lungi de lemn și ghivece goale. Erica a intrat într-o dimineață de aprilie și a înțeles imediat de ce venise. Lumina cădea din toate părțile deodată, moale și egală, fără umbrele dure pe care le fac ferestrele obișnuite. Pentru un pictor, o asemenea lumină este un lucru rar.\n\nA închiriat sera pe un an. Primele săptămâni au fost cele mai frumoase. Vara a adus însă o problemă la care nu se gândise: sticla păstrează căldura. Într-o seră aerul se încălzește repede, iar în iulie termometrul de pe masă arăta peste 40 de grade. Erica transpira în timp ce lucra, culorile se uscau prea repede pe pânză, iar pensula îi aluneca printre degete. A acoperit o parte din acoperiș cu o pânză albă, a deschis toate ușile și a început să picteze devreme, între șase și unsprezece, când încă nu transpira.\n\nLângă seră creștea un soc bătrân, cu frunze dense și cu flori mici și albe, adunate în grupuri mari și rotunde. Mirosul de soc intra în seră în fiecare dimineață. Erica a început să-l picteze: întâi o ramură, apoi tot copacul, apoi socul văzut prin sticla serei. Frunzișul dens a fost partea cea mai grea. Cum pictezi o masă densă de frunze fără ca ea să devină o pată verde? A învățat să lase între frunze mici spații de lumină, prin care se vede cerul.\n\nDuminica, pe iarba din fața serei, veneau familii la picnic. Copiii se apropiau de geamuri și se uitau la tablouri. Într-o zi, Erica a ieșit și i-a invitat înăuntru. De atunci, multe picnicuri se terminau cu o vizită în seră. Oamenii aduceau sandvișuri și fructe, iar Erica le oferea sirop de flori de soc, făcut după rețeta bunicii ei. Fiecare îl savura încet, la umbra socului, privind tablourile cu același copac.\n\nÎn septembrie, Erica a organizat o expoziție chiar în seră. A agățat douăzeci de tablouri cu socul, de la prima ramură până la copacul întreg. Vizitatorii au savurat siropul și au trecut de la un tablou la altul, iar lumina serei făcea ca fiecare pânză să pară luminată din interior.\n\nÎntrebări:\nDe ce a închiriat Erica sera?\nPentru că lumina din seră cădea din toate părțile, moale și egală, și era foarte bună pentru pictură.\nCe problemă a apărut vara?\nSticla păstra căldura, Erica transpira, iar culorile se uscau prea repede.\nCe copac creștea lângă seră?\nLângă seră creștea un soc bătrân, cu frunze dense și flori albe.\nCe a învățat Erica despre frunzișul dens?\nA învățat să lase între frunze mici spații de lumină.\nCe au savurat vizitatorii după picnic?\nAu savurat siropul de flori de soc făcut după rețeta bunicii Ericăi."
+    },
+    {
+      "title": "Peretele care respiră",
+      "summary": "A restorer and his student examine a wall painting in a medieval house in Sibiu, find that sodium salts are pushing the paint off, draw them out slowly and fix the paint layer.",
+      "newWords": [
+        "medieval",
+        "diagnostica",
+        "electromagnetic",
+        "sodiu",
+        "acumula",
+        "complexitate",
+        "restabili"
+      ],
+      "text": "În centrul vechi al Sibiului se află o casă medievală cu ziduri groase și ferestre mici. Acum cinci sute de ani a fost locuința unui negustor bogat, iar astăzi este muzeu. Într-una dintre camere s-a păstrat, pe un perete, o pictură veche: o grădină cu păsări, flori și o fântână. De câțiva ani, culorile ei se pierdeau, iar în unele locuri stratul de culoare se desprindea de zid în bucăți mici și subțiri, ca niște solzi.\n\nMuzeul l-a chemat pe domnul Arghir, restaurator cu treizeci de ani de experiență. A venit împreună cu Irma, o studentă care face practică la el.\n\n— Înainte să atingem ceva, trebuie să diagnosticăm peretele, i-a spus el Irmei. Un restaurator seamănă cu un medic. Dacă nu diagnostichează corect problema, tratamentul poate face mai mult rău decât bine.\n\nPrimul pas a fost să afle ce se ascunde sub suprafață. Domnul Arghir a adus aparate care folosesc radiații electromagnetice pe care ochiul nu le vede: razele ultraviolete și cele infraroșii. Lumina ultravioletă arată unde au lucrat alți restauratori în trecut, pentru că vopselele noi strălucesc altfel decât cele vechi. Radiația infraroșie trece prin primul strat de culoare și arată desenul pe care pictorul medieval l-a făcut înainte să picteze. Pe ecran, Irma a văzut liniile fine ale unei păsări care nu mai exista la suprafață.\n\n— Vezi? Fiecare tip de radiație electromagnetică ne spune altceva, a explicat domnul Arghir.\n\nApoi au luat probe mici din zid. Analiza a arătat cauza: sărurile. Apa din pământ urca prin zid, aducea cu ea săruri, mai ales săruri de sodiu, și se evapora la suprafață. Sărurile rămâneau în urmă, în spatele stratului de culoare, și se acumulau an după an. Când cantitatea devenea prea mare, formau cristale care împingeau culoarea în afară. Sodiul era, de fapt, cauza principală.\n\nComplexitatea lucrării venea din faptul că nu se putea rezolva totul deodată. Dacă scoteau sărurile prea repede, peretele se putea crăpa. Au pus pe zid straturi de hârtie umedă, care absorb încet sărurile. Le schimbau la câteva zile și măsurau de fiecare dată cât sodiu au scos. După trei luni, cantitatea scăzuse vizibil.\n\nAbia atunci au putut să restabilească legătura dintre stratul de culoare și zid. Au introdus în spatele fiecărui solz, cu un ac fin, un lipici special. Apoi au restabilit culorile acolo unde lipseau, cu linii subțiri care se văd de aproape, ca oricine să știe ce e vechi și ce e nou.\n\nIrma a fost surprinsă de complexitatea unei meserii despre care credea că înseamnă doar puțină vopsea.\n\n— Problema nu dispare pentru totdeauna, a spus domnul Arghir la final. Sărurile o să se acumuleze din nou. Dar dacă muzeul controlează umezeala din cameră, pictura medievală mai poate trăi încă cinci sute de ani.\n\nÎntrebări:\nCe s-a păstrat în casa medievală din Sibiu?\nS-a păstrat o pictură veche pe un perete, cu o grădină, păsări, flori și o fântână.\nDe ce trebuie un restaurator să diagnosticheze întâi peretele?\nPentru că, dacă nu diagnostichează corect problema, tratamentul poate face mai mult rău decât bine.\nCe arată radiația infraroșie?\nArată desenul pe care pictorul medieval l-a făcut înainte să picteze.\nCe se acumula în spatele stratului de culoare?\nSe acumulau săruri, mai ales săruri de sodiu.\nCum au restabilit culorile?\nLe-au restabilit cu linii subțiri, care se văd de aproape."
+    },
+    {
+      "title": "Marmură și sârmă",
+      "summary": "A sculptor in Iași teaches her two young disciples the difference between carving marble and building clay on a wire skeleton, and they finish a relief for a school.",
+      "newWords": [
+        "marmură",
+        "pulbere",
+        "dezavantaj",
+        "sârmă",
+        "schelet",
+        "discipol",
+        "relief"
+      ],
+      "text": "Doamna Lupaș este sculptoriță și are un atelier mare la parterul unei clădiri vechi din Iași. De câțiva ani lucrează alături de ea doi tineri sculptori, care au terminat facultatea și vor să învețe meserie de la un maestru. Ea nu le spune elevi, ci discipoli, pentru că, spune ea, un elev învață o materie, pe când un discipol învață un mod de a lucra.\n\nPrima lecție pe care o primesc discipolii ei este despre marmură. Marmura este o piatră frumoasă, care lasă lumina să intre puțin sub suprafață, de aceea o statuie de marmură pare aproape caldă. Dar a lucra în marmură înseamnă să scoți material, bucată cu bucată, cu dalta și ciocanul. În atelier, după o zi de lucru, totul este acoperit de o pulbere albă și fină. Pulberea de marmură intră în haine, în păr și în plămâni, așa că discipolii poartă mereu măști.\n\n— Marmura are un mare dezavantaj, le spune doamna Lupaș. Nu iartă greșelile. Ce ai scos nu mai poți pune la loc.\n\nAl doilea dezavantaj e prețul: un bloc de marmură bună costă mult și e greu de transportat. De aceea, înainte să atingă piatra, doamna Lupaș face întotdeauna un model din lut. Lutul se adaugă, nu se scoate, și o greșeală se repară în câteva minute.\n\nUn model mare de lut nu stă însă singur în picioare. Are nevoie de un schelet, la fel ca un corp. Discipolii învață să construiască acest schelet din sârmă groasă, îndoită și legată cu sârmă mai subțire. Scheletul trebuie să fie puternic acolo unde lutul e greu și să nu se vadă nicăieri prin suprafață. Doamna Lupaș verifică fiecare schelet înainte să pună pe el primul strat de lut.\n\nAnul acesta, o școală din Iași i-a cerut un relief pentru peretele de la intrare. Un relief nu este o statuie pe care o poți ocoli. Figurile ies din perete doar câțiva centimetri, iar lumina și umbra fac restul. Discipolii au desenat împreună cu ea un grup de copii care se joacă într-o curte. Au fixat pe o placă de lemn un schelet de sârmă, au pus lutul și au lucrat la el două luni.\n\n— Într-un relief, umbra e la fel de importantă ca forma, le-a explicat doamna Lupaș. Dacă figurile ies prea puțin, nu se văd. Dacă ies prea mult, par lipite de perete.\n\nDin modelul de lut s-a făcut apoi o formă, iar din formă un relief de bronz. În ziua în care relieful a fost montat, copiii școlii s-au oprit în fața lui și au căutat printre figuri copii care seamănă cu ei.\n\nÎntrebări:\nDe ce le spune doamna Lupaș celor doi tineri discipoli?\nPentru că un discipol nu învață doar o materie, ci un mod de a lucra.\nCe acoperă atelierul după o zi de lucru în marmură?\nAtelierul e acoperit de o pulbere albă și fină.\nCare este dezavantajul cel mare al marmurei?\nMarmura nu iartă greșelile: ce ai scos nu mai poți pune la loc.\nDin ce construiesc discipolii scheletul unui model de lut?\nÎl construiesc din sârmă groasă, legată cu sârmă mai subțire.\nCe relief au făcut pentru școală?\nAu făcut un relief cu un grup de copii care se joacă într-o curte."
+    },
+    {
+      "title": "Desenele de la vestiar",
+      "summary": "A retired woman who works in the cloakroom of the art museum in Craiova returns to the drawing she gave up in her teens, and the museum shows her portraits of visitors.",
+      "newWords": [
+        "vestiar",
+        "adolescență",
+        "umil",
+        "reîntoarce",
+        "bătrânețe",
+        "agitație"
+      ],
+      "text": "Doamna Vasiliu lucrează de șase ani la vestiarul Muzeului de Artă din Craiova. Primește paltoanele vizitatorilor, le agață pe umerașe și le dă un număr de plastic. Iarna, când sunt mulți oameni, la vestiar e multă agitație: haine ude, umbrele, copii care își caută mănușile. Vara e liniște, fără agitație, iar doamna Vasiliu are timp să privească oamenii.\n\nÎn adolescență, desena tot timpul. Desena pe marginea caietelor, pe spatele bonurilor, pe orice bucată de hârtie. Profesoara ei de desen voia să o trimită la liceul de artă. Dar familia ei era o familie umilă, cu patru copii și un singur salariu, iar ea a trebuit să înceapă să lucreze la șaptesprezece ani. A lucrat aproape patruzeci de ani într-o fabrică de țesături. Desenele din adolescență au rămas într-o cutie, sub pat.\n\nDupă pensie a căutat o slujbă liniștită și a ajuns la muzeu. Mulți ar spune că munca de la vestiar e o muncă umilă. Pentru ea, era cea mai bună slujbă pe care o avusese: stătea în fiecare zi la câțiva metri de tablouri.\n\nÎntr-o după-amiază fără vizitatori, a luat un cartonaș și a desenat din memorie fața unui domn care tocmai intrase. Apoi încă una și încă una. Așa s-a reîntors la desen, după aproape o jumătate de secol. Desena cu un creion simplu, pe cartonașe, și le păstra într-un sertar. Le spunea colegilor că nu e nimic important: o femeie care se reîntoarce la o joacă din adolescență.\n\nUn gardian a văzut cartonașele și i le-a arătat directoarei muzeului. Directoarea le-a privit mult timp. Desenele erau mici, dar fiecare față avea ceva viu: o privire obosită, un zâmbet, o pălărie pusă strâmb.\n\n— Doamnă Vasiliu, i-a spus, aș vrea să le expunem.\n\nExpoziția s-a deschis într-o sală mică de la etaj, sub titlul „Portrete de la vestiar”. La deschidere a fost atâta agitație încât doamna Vasiliu a trebuit să lase vestiarul pe mâna unei colege. Unii vizitatori s-au recunoscut în desene și au râs. Alții au întrebat-o cum a învățat.\n\n— Am învățat în adolescență, a răspuns ea. Apoi am uitat. Acum, la bătrânețe, îmi aduc aminte.\n\nSpune că bătrânețea i-a dat ce nu i-a dat tinerețea: timp și răbdare. A doua zi, s-a reîntors la vestiar, la paltoane și numere, și și-a pus în buzunar un creion nou.\n\nÎntrebări:\nUnde lucrează doamna Vasiliu?\nLucrează la vestiarul Muzeului de Artă din Craiova.\nDe ce nu a mers la liceul de artă?\nPentru că familia ei era o familie umilă și a trebuit să înceapă să lucreze la șaptesprezece ani.\nCum s-a reîntors la desen?\nÎntr-o după-amiază fără vizitatori a desenat pe un cartonaș fața unui domn care intrase.\nCe titlu a avut expoziția?\nExpoziția s-a numit „Portrete de la vestiar”.\nCe i-a dat bătrânețea, după spusele ei?\nBătrânețea i-a dat timp și răbdare."
+    },
+    {
+      "title": "Lumina are o poveste",
+      "summary": "An interview with a director of photography in Bucharest about cinematography as a visual art, his repertoire of paintings, light used as a metaphor and gradual change across a film.",
+      "newWords": [
+        "cinematografie",
+        "repertoriu",
+        "metaforă",
+        "progresiv",
+        "forte",
+        "sinonim"
+      ],
+      "text": "Oliviu Dărăbanț este director de imagine și predă cinematografie la o universitate din București. A lucrat la filme cu buget mic și la seriale cunoscute. L-am întâlnit în studioul lui, unde pereții sunt acoperiți cu reproduceri de tablouri.\n\n— Mulți oameni cred că filmul e mai ales despre actori și dialog. Ce este, de fapt, cinematografia?\n\n— Cinematografia e arta de a scrie cu lumina. Eu aleg unde stă camera, ce intră în cadru, cât de multă lumină cade pe o față și cât de multă umbră rămâne. Un spectator nu observă aceste alegeri, dar le simte.\n\n— Pe pereți aveți reproduceri după Rembrandt, Vermeer și Grigorescu. De ce?\n\n— Sunt repertoriul meu. Fiecare director de imagine are un repertoriu de imagini în care caută soluții, așa cum un muzician are un repertoriu de piese. Când pregătesc o scenă într-o cameră cu o singură fereastră, mă uit la Vermeer. El a rezolvat problema acum 350 de ani. Le cer studenților să-și construiască de la început un repertoriu propriu, cu tablouri, fotografii și filme.\n\n— Spuneți adesea că lumina este o metaforă. Ce vreți să spuneți?\n\n— Lumina nu arată doar un loc, ci și o stare. Într-un film recent, personajul principal pleacă dintr-un oraș gri și ajunge la mare. Nu am vrut ca schimbarea să fie bruscă. Am făcut lumina din ce în ce mai caldă, progresiv, de la o scenă la alta. Spectatorul nu vede momentul exact, dar la final simte că personajul a ieșit dintr-o iarnă lungă. Lumina devine metafora unei schimbări interioare, fără ca cineva să spună un cuvânt.\n\n— Nu e riscant? Poate unii nu înțeleg metafora.\n\n— O metaforă bună funcționează și dacă nu o înțelegi. Asta e diferența față de o explicație. Iar o schimbare progresivă e mai sigură decât una bruscă, pentru că nu atrage atenția asupra ei.\n\n— Care credeți că este punctul forte al cinematografiei românești?\n\n— Răbdarea. Filmele noastre au cadre lungi, iar camera lasă timp feței să se schimbe. Punctul forte al unui director de imagine român e să știe când să nu facă nimic.\n\n— Ce înseamnă pentru dumneavoastră „frumos”?\n\n— Mulți folosesc „frumos” și „bun” ca sinonime. În cinematografie, ele nu sunt sinonime. O imagine poate fi frumoasă și totuși greșită pentru povestea pe care o spui. Pentru mine, cel mai bun sinonim pentru „frumos” este „adevărat”.\n\nÎntrebări:\nCe predă Oliviu Dărăbanț?\nPredă cinematografie la o universitate din București.\nDe ce are tablouri pe pereți?\nPentru că tablourile sunt repertoriul lui de imagini, în care caută soluții.\nCum a schimbat lumina în filmul despre drumul spre mare?\nA făcut lumina din ce în ce mai caldă, progresiv, de la o scenă la alta.\nCare este, după el, punctul forte al cinematografiei românești?\nPunctul forte este răbdarea, cu cadre lungi și timp pentru fețe.\nCe sinonim alege el pentru „frumos”?\nPentru el, cel mai bun sinonim pentru „frumos” este „adevărat”."
+    },
+    {
+      "title": "Schițe la grădina zoologică",
+      "summary": "An illustrator spends a week at the zoo in Brașov drawing animals for a children's book, learns how to catch a lynx's jump, and shows her fifty sketches to a group of schoolchildren.",
+      "newWords": [
+        "zoologic",
+        "cincizeci",
+        "prădător",
+        "săritură",
+        "jet",
+        "ceată"
+      ],
+      "text": "Yasmina Scripcaru ilustrează cărți pentru copii. Editura i-a cerut desenele pentru o carte despre animalele din Carpați, iar ea a hotărât să nu lucreze după fotografii. A petrecut o săptămână la grădina zoologică din Brașov, cu un carnet mare, câteva creioane și un scaun pliant.\n\nDin prima zi și-a propus un număr: cincizeci de schițe pe zi. Nu desene frumoase, ci schițe rapide, de câteva secunde fiecare. Un animal nu stă să pozeze. Dacă desenezi încet, el s-a mutat deja. Cincizeci de schițe înseamnă să privești mult și să desenezi puțin, iar mâna învață să prindă mișcarea înainte ca mintea să o gândească.\n\nLa grădina zoologică, cel mai mult a stat în fața prădătorilor: lupii, ursul și râsul. Un îngrijitor i-a explicat că prădătorii petrec cea mai mare parte a zilei odihnindu-se. Asta a ajutat-o: un lup care doarme stă nemișcat destul cât să-i desenezi capul, labele și coada. Dar Yasmina voia să înțeleagă cum se mișcă un prădător, nu doar cum doarme.\n\nRâsul a fost cel mai greu de desenat. Stătea ore întregi pe o stâncă, apoi, dintr-odată, făcea o săritură până pe o creangă înaltă. Săritura dura o secundă. În primele zile, Yasmina a desenat doar începutul și sfârșitul ei. Apoi a schimbat metoda: în loc să privească râsul, privea locul în care urma să ajungă. Așa a reușit să prindă săritura la jumătatea drumului, cu corpul întins în aer și cu labele din față deja pregătite.\n\nÎn spațiul urșilor era un mic lac, cu o țeavă din care ieșea un jet de apă. Ursul cel tânăr se juca ore întregi cu jetul: îl lovea cu laba, își băga botul în el și se scutura. Yasmina a umplut zece pagini doar cu ursul și jetul de apă. Pentru carte, a ales imaginea în care apa sare în toate părțile, iar ursul pare că râde.\n\nÎn ultima zi, o ceată de copii de la o școală din Brașov a venit în vizită la grădina zoologică. Toată ceata s-a oprit în spatele ei și s-a uitat în carnet. Copiii au cerut să vadă toate schițele. Yasmina le-a arătat cele cincizeci de schițe din ziua aceea și i-a lăsat să ghicească ce animal e în fiecare. Lupul l-au recunoscut imediat. La desenul cu râsul au ezitat, pentru că pe hârtie era doar o linie lungă, în aer.\n\n— E săritura! a strigat o fetiță.\n\nYasmina i-a dăruit pagina.\n\nÎntrebări:\nPentru ce carte a făcut Yasmina schițe?\nA făcut schițe pentru o carte de copii despre animalele din Carpați.\nCâte schițe își propunea să facă în fiecare zi?\nÎși propunea să facă cincizeci de schițe pe zi.\nCe fac prădătorii cea mai mare parte a zilei?\nPrădătorii se odihnesc cea mai mare parte a zilei.\nCum a reușit să deseneze săritura râsului?\nA privit locul în care urma să ajungă râsul, nu râsul.\nCu ce se juca ursul cel tânăr?\nUrsul se juca cu un jet de apă care ieșea dintr-o țeavă."
+    },
+    {
+      "title": "Pe Dunăre, cu șevaletul",
+      "summary": "A painter travels on a small Danube cruise from Galați to Tulcea, paints the ship drifting at sunset despite wind and a dark cabin, and a newspaper correspondent writes about him.",
+      "newWords": [
+        "croazieră",
+        "corespondent",
+        "răsturna",
+        "priză",
+        "extensie",
+        "derivă"
+      ],
+      "text": "Mario Hașegan pictează peisaje de apă. În august s-a înscris la o croazieră de patru zile pe Dunăre, cu un vapor mic care pleacă din Galați, oprește la Tulcea și intră apoi pe canalele dintre stuf. Pe același vapor era și Bettina Jurj, corespondentă a unui ziar din București, care scria o serie de articole despre croazierele pe Dunăre. Când l-a văzut pe punte cu șevaletul, l-a rugat să-i povestească despre munca lui.\n\nPrima zi a fost grea. Pe punte bătea un vânt puternic, care venea de pe apă. Mario și-a fixat pânza pe șevalet, dar o rafală l-a răsturnat cu totul. Pânza a căzut pe punte, cu fața în jos, iar borcanul cu apă s-a răsturnat peste cutia cu culori. Corespondenta l-a ajutat să adune pensulele.\n\n— Pe uscat, șevaletul nu se răstoarnă așa ușor, a râs el. Pe apă, trebuie legat.\n\nA doua zi l-a legat cu o sfoară de bara vaporului și a lucrat fără probleme.\n\nSeara a apărut altă problemă. Cabina lui era mică și întunecată, iar singura lumină era un bec slab de deasupra patului. Mario voia să lucreze și după cină, la schițele din timpul zilei. A găsit o priză lângă ușă, dar era prea departe de masă. Un marinar i-a adus o extensie lungă, de cinci metri. Mario a pus extensia în priză și a dus-o până la masă, unde și-a așezat lampa.\n\n— Nicio croazieră fără o extensie, i-a spus marinarul. Pasagerii au mereu nevoie de prize.\n\nÎn a treia seară, căpitanul a anunțat că oprește motoarele timp de o jumătate de oră, ca pasagerii să privească apusul în liniște. Vaporul a mers în derivă, purtat încet de curent, printre maluri pline de stuf și păsări. Nu se auzea decât apa. Mario a pictat repede, cu pensula mare, cerul portocaliu și umbrele lungi ale stufului.\n\nBettina a scris despre acea seară în ultimul ei articol. Ca orice corespondent, voia să le arate cititorilor locul prin ochii cuiva. A descris pictorul aplecat peste pânză și vaporul aflat în derivă, care părea să nu mai aibă nicio grabă să ajungă undeva. Tabloul pictat în acea seară se numește „În derivă” și a fost primul vândut din expoziția pe care Mario a organizat-o în toamnă, la Tulcea.\n\nÎntrebări:\nUnde a mers Mario în croazieră?\nA mers pe Dunăre, de la Galați la Tulcea și pe canalele dintre stuf.\nCe a răsturnat vântul în prima zi?\nVântul a răsturnat șevaletul, iar borcanul cu apă s-a răsturnat peste culori.\nDe ce a avut nevoie Mario de o extensie?\nPentru că priza din cabină era prea departe de masă.\nCe s-a întâmplat când căpitanul a oprit motoarele?\nVaporul a mers în derivă, purtat încet de curent.\nDespre ce a scris corespondenta în ultimul articol?\nA scris despre seara în care Mario a pictat apusul, cu vaporul în derivă."
+    },
+    {
+      "title": "Labirintul de lumină",
+      "summary": "A former economist turned artist builds a labyrinth of light in an old factory in Timișoara, tests it in a computer simulation, powers part of it with a bicycle and assigns volunteers to its rooms.",
+      "newWords": [
+        "economist",
+        "labirint",
+        "simulare",
+        "actualizare",
+        "frână",
+        "repartizat"
+      ],
+      "text": "Ulise Tătaru a fost economist timp de doisprezece ani. Lucra la o bancă din Timișoara și făcea calcule și prognoze. Apoi, la 38 de ani, a plecat de la bancă și a început să facă artă. Prietenii nu au înțeles decizia, dar el spune că nu s-a schimbat atât de mult: și ca economist, și ca artist, lucrează cu sisteme pe care oamenii nu le văd.\n\nCea mai cunoscută lucrare a lui este un labirint de lumină, construit într-o fostă fabrică de pe malul Begăi. Labirintul are pereți din pânză albă, iar pe ei cad lumini colorate care se schimbă când trece cineva. Vizitatorul nu primește o hartă. Trebuie să găsească singur drumul prin labirint, urmărind culorile.\n\nÎnainte să construiască ceva, Ulise a făcut o simulare pe calculator. În simulare, sute de vizitatori virtuali intrau în labirint și căutau ieșirea. Așa a aflat unde se formează aglomerație și unde oamenii se pierd prea mult. A mutat câțiva pereți și a repetat simularea de mai multe ori, până când drumul a devenit greu, dar nu imposibil.\n\n— O simulare nu e perfectă, spune el. Oamenii adevărați se opresc să facă fotografii.\n\nLuminile sunt controlate de un program. Cu o săptămână înainte de deschidere, programul a primit o actualizare, iar după actualizare jumătate din lumini nu mai porneau. Ulise a lucrat două nopți ca să găsească problema. De atunci, nu mai face nicio actualizare în timpul unei expoziții.\n\nLa intrarea în labirint se află o bicicletă fixată pe podea. Când un vizitator pedalează, bicicleta produce curent pentru luminile primei camere. Cu cât pedalează mai repede, cu atât lumina e mai puternică. Dacă apasă frâna, camera se întunecă încet. Copiii se joacă ore întregi cu frâna, ca să vadă cum lumina se stinge și se aprinde.\n\nLabirintul are nevoie de oameni. La fiecare deschidere vin douăzeci de voluntari, mai ales studenți. Fiecare voluntar este repartizat într-o cameră a labirintului, unde ajută vizitatorii care s-au pierdut. Cei repartizați la intrare le arată vizitatorilor cum se folosește bicicleta și le spun să nu apese frâna brusc.\n\n— Ca economist, calculam cât costă un lucru, spune Ulise. Acum calculez cât timp stă un om într-o cameră și zâmbește.\n\nÎntrebări:\nCe meserie a avut Ulise înainte să facă artă?\nA fost economist timp de doisprezece ani.\nUnde se află labirintul de lumină?\nSe află într-o fostă fabrică din Timișoara, de pe malul Begăi.\nDe ce a făcut Ulise o simulare pe calculator?\nCa să afle unde se formează aglomerație și unde se pierd oamenii.\nCe s-a întâmplat după actualizarea programului?\nJumătate din lumini nu mai porneau.\nCe face frâna bicicletei?\nCând vizitatorul apasă frâna, camera se întunecă încet.\nUnde este repartizat fiecare voluntar?\nFiecare voluntar este repartizat într-o cameră a labirintului."
+    },
+    {
+      "title": "Colecția unui fost jucător de hochei",
+      "summary": "A portrait of a former hockey player in Oradea who collected paintings for thirty years and gives his collection to the art faculty, which shows it in the foyer of the Philharmonic.",
+      "newWords": [
+        "hochei",
+        "deosebi",
+        "donator",
+        "decan",
+        "filarmonică",
+        "actualitate"
+      ],
+      "text": "Lucas Bobeică a jucat hochei timp de cincisprezece ani. A fost portar, iar cei care l-au văzut jucând spun că avea un calm rar pe gheață. După ce s-a retras, a deschis un magazin de echipament sportiv în Oradea. Puțini știau însă că, în tot acest timp, cumpăra tablouri.\n\nPrimul l-a cumpărat la 22 de ani, după un meci de hochei într-un oraș mic. Era un peisaj de iarnă, pictat de un artist local, și l-a ales pentru că semăna cu patinoarul pe care învățase să joace. Apoi a continuat. În treizeci de ani a strâns peste două sute de lucrări, mai ales de artiști tineri, necunoscuți atunci.\n\n— La început nu știam nimic, spune el. Nu puteam deosebi un tablou bun de unul doar drăguț. Am învățat mergând la expoziții și întrebând.\n\nA învățat să deosebească mâna unui pictor sigur pe el de mâna unuia care copiază. A învățat că un tablou bun te face să revii la el, iar unul doar drăguț îți place o dată și apoi îl uiți.\n\nAnul trecut a hotărât să doneze toată colecția Facultății de Arte din Oradea. Nu a vrut bani și nici o sală cu numele lui. A cerut doar ca studenții să poată vedea lucrările în fiecare zi. Doamna Rădoi, decanul facultății, spune că nu a mai întâlnit un astfel de donator.\n\n— Un donator vrea de obicei să fie văzut, spune decanul. Domnul Bobeică vrea să fie văzute tablourile.\n\nFacultatea nu avea încă o sală destul de mare, așa că prima expoziție s-a deschis în holul Filarmonicii din Oradea. Filarmonica a acceptat imediat: publicul care vine la concerte trece pe lângă tablouri la pauză. În seara deschiderii, orchestra filarmonicii a cântat, iar decanul a vorbit despre importanța colecțiilor private pentru un oraș.\n\nExpoziția a fost primită bine și pentru că tema ei este de mare actualitate: cum ajută colecționarii artiștii tineri. Mulți dintre pictorii pe care domnul Bobeică i-a cumpărat la început sunt astăzi cunoscuți. Pentru ei, fostul jucător de hochei a fost primul om care a crezut în munca lor. Subiectul a rămas în actualitate toată luna, iar ziarele locale au scris despre el.\n\nÎntrebări:\nCe sport a practicat Lucas Bobeică?\nA jucat hochei timp de cincisprezece ani, ca portar.\nDe ce a cumpărat primul tablou?\nPentru că peisajul de iarnă semăna cu patinoarul pe care învățase să joace.\nCum a învățat să deosebească un tablou bun de unul drăguț?\nA învățat mergând la expoziții și întrebând.\nCe spune decanul despre el ca donator?\nSpune că un donator vrea de obicei să fie văzut, dar el vrea să fie văzute tablourile.\nUnde s-a deschis prima expoziție?\nS-a deschis în holul Filarmonicii din Oradea."
+    },
+    {
+      "title": "Ce mâncau oamenii din tablouri",
+      "summary": "A short essay on what paintings, from early tribal pottery to an imagined nineteenth-century painter's diary, can and cannot tell us about how people ate.",
+      "newWords": [
+        "alimentație",
+        "tribal",
+        "extras",
+        "certitudine",
+        "zadar"
+      ],
+      "text": "Când vrem să aflăm cum se hrăneau oamenii acum câteva sute de ani, ne gândim întâi la documente: liste de prețuri, rețete, scrisori. Dar și tablourile pot spune multe despre alimentație. Un istoric al artei poate citi într-o pictură ce se cultiva, ce se cumpăra la piață și ce ajungea pe masa unei familii.\n\nInteresul pentru hrană în artă este foarte vechi. Pe vasele de lut ale unor comunități tribale apar spice, pești și fructe. Pentru aceste societăți tribale, hrana nu era o temă printre altele, ci chiar centrul vieții. Desenul de pe un vas ne arată ce era important pentru ele, chiar dacă nu putem ști cu certitudine ce înseamnă fiecare semn.\n\nMai târziu, pictorii au început să picteze mesele în detaliu: pâine, brânză, ceapă, ouă, un pește pe o farfurie. Un cercetător care studiază alimentația unei epoci se uită la aceste detalii cu atenție. Ce fel de pâine e? Albă sau neagră? Ce fructe apar și în ce anotimp?\n\nSă luăm un exemplu imaginar: un pictor din secolul al XIX-lea, să-i spunem Guran, care și-a ținut un jurnal. Extrasele din jurnalul lui ar putea suna așa. Primul: „Azi am cumpărat portocale pentru tablou. Sunt prea scumpe ca să le mâncăm.” Extrasul următor: „În sat, oamenii mănâncă mămăligă aproape în fiecare zi, dar mămăliga nu arată bine într-un tablou.” Extrasele de acest fel ne avertizează că tabloul și masa adevărată nu sunt același lucru. Pictorul pune pe pânză ce e frumos sau rar, nu neapărat ce se mănâncă de obicei. Cine ar căuta în tablourile lui Guran mămăliga de fiecare zi ar căuta în zadar.\n\nDe aceea, un tablou nu ne dă certitudine, ci doar indicii. Ca să afli cu certitudine cum arăta alimentația unei familii, trebuie să compari pictura cu alte surse: listele de prețuri ale piețelor, rețetele scrise, extrasele din jurnale și scrisori, chiar și resturile găsite de arheologi. Abia atunci tabloul devine o dovadă, nu doar o imagine.\n\nAsta nu înseamnă că privim tablourile în zadar. Ele ne arată ce își doreau oamenii, ce considerau frumos și ce voiau să le arate musafirilor. O masă pictată cu fructe rare spune puțin despre alimentația de zi cu zi, dar spune mult despre visurile unei familii. Iar uneori, într-un colț, lângă portocalele scumpe, pictorul a lăsat, poate fără să vrea, o bucată de pâine neagră. Acolo, în colț, este probabil masa adevărată.\n\nÎntrebări:\nCe pot spune tablourile despre alimentație?\nPot arăta ce se cultiva, ce se cumpăra la piață și ce ajungea pe masa unei familii.\nCe apare pe vasele comunităților tribale?\nPe vasele lor apar spice, pești și fructe.\nCe ne arată extrasele din jurnalul pictorului imaginar?\nNe arată că tabloul și masa adevărată nu sunt același lucru.\nDe ce un tablou nu ne dă certitudine?\nPentru că pictorul pune pe pânză ce e frumos sau rar, nu neapărat ce se mănâncă de obicei.\nPrivim tablourile în zadar?\nNu, pentru că ele ne arată ce își doreau oamenii și ce considerau frumos."
+    }
+  ]
+}
