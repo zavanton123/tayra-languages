@@ -243,6 +243,14 @@ object CoursePacks {
             url = "$BASE_URL/courses-ro.sqlite.gzip",
             downloadSize = 1_176_193,
         ),
+        CoursePack(
+            id = "courses-mk",
+            languageCode = "mk",
+            title = "Macedonian",
+            summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
+            url = "$BASE_URL/courses-mk.sqlite.gzip",
+            downloadSize = 1_358_469,
+        ),
     )
 
     fun forLanguage(code: String): List<CoursePack> = all.filter { it.languageCode == code }
