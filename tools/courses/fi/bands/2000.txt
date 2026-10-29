@@ -1,0 +1,100 @@
+1	1901	areena	areena areenalla areenan areenassa areenasta areenalle areenaan areenaa areenoilla areenalta areenaksi areenat areenoille areenoita
+2	1902	tiimi	tiimi tiimin tiimissä tiimiä tiimiin tiiminsä tiimit tiimille tiiminä tiimistä tiimisi tiimillä tiimien tiimimme tiimeineen tiimejä tiimeissä tiimiltä tiimini tiimeihin
+3	1903	tumma	tumma tummat tumman tummaa tummia tummempi tummien tummaan tummasta tummalla tummiin tummista tummaksi tummassa tummissa tummana tummilla tummin tummina tummalle tummiksi tummille
+4	1904	asettua	asettua asettuu asettui asettunut asetus asettuvat asettumaan asetu asettuneet asettuivat asettukaa asettuminen asettuisi asettumista asetuin asettumalla asettumassa asetun asetutaan asettumisen asettuessa asettumisesta asettuva asettuen
+5	1905	hoitaja	hoitaja hoitajat hoitajan hoitajien hoitajia hoitajaa hoitajana hoitajista hoitajalle hoitajille hoitajaksi hoitajalta hoitajalla hoitajilla hoitajansa hoitajasta hoitajilta hoitajaan
+6	1906	klassinen	klassinen klassisen klassista klassisia klassiset klassiseen klassisesta klassisessa klassisten klassisella klassisista klassisissa klassisiin klassiselle klassisena klassiseksi
+7	1907	kuvio	kuvio kuviot kuvioita kuvioihin kuvion kuvioon kuviota kuvioissa kuvioista kuviossa kuviosta kuvioiden kuviolla kuvioilla kuvionsa
+8	1908	kerros	kerroksessa kerroksen kerrosta kerrokseen kerroksesta kerroksia kerrokset krs kerrosten kerroksissa kerroksiin kerroksista kerros kerrokseksi kerroksella kerrokselta kerroksena
+9	1909	kertyä	kertyy kertynyt kertyi kerry kertyä kertyneet kertyvät kertyminen kertymistä kertymään kerryn kertyvä kertymä kertyisi kertymisen kertymiseen
+10	1910	hallinta	hallintaan hallinnan hallinta hallintaa hallinnasta hallinnalla hallintojen hallintoja
+11	1911	laadukas	laadukasta laadukas laadukkaita laadukkaat laadukkaan laadukkaisiin laadukkaaseen laadukkaista laadukkaasta laadukkaampi laadukkaiden laadukkaana laadukkailla laadukkain laadukkaaksi laadukkaalla laadukkaalta laadukkaiksi laadukkaassa
+12	1912	anne	anne annen annea annelle annella
+13	1913	maine	maine mainetta maineensa maineeseen maineessa maineesta maineen mainen mainessa maineelle maineella mainesta maista
+14	1914	tuotto	tuotto tuotot tuottoa tuoton tuotosta tuottoja tuotoista tuottojen tuotoilla tuottoon tuotolla tuottoihin tuotoksi tuottonsa
+15	1915	vallata	valtaa vallata valtasi vallannut valtasivat valtaan valtaavat valtaamaan vallattu valtaaminen vallattiin valtaamassa vallataan valtaamista valtaamalla valtaama vallatessa valtaamisesta valtaamasta valtaamiseen valtaisi valtaamiseksi valtaamisen valtaaman
+16	1916	kilpailija	kilpailija kilpailijat kilpailijoita kilpailijan kilpailijoiden kilpailijaa kilpailijoista kilpailijansa kilpailijoille kilpailijalle kilpailijoihin kilpailijaksi kilpailijoilla kilpailijana kilpailijalla kilpailijamme kilpailijasta kilpailijoina kilpailijalta kilpailijoilta kilpailijaan kilpailijoiksi
+17	1917	tutkinto	tutkinnon tutkinto tutkintoa tutkinnot tutkintoon tutkintojen tutkintoja tutkintonsa tutkinnosta tutkinnoista tutkinnolla tutkinnossa tutkintoihin tutkinnoissa tutkintoni
+18	1918	artisti	artisti artistit artistin artistien artisteja artisteista artisteille artistia artistina artistille artisteihin artisteilta artistiksi artistilla artistista artistilta artisteilla artisteina
+19	1919	yksityiskohta	yksityiskohtia yksityiskohdat yksityiskohta yksityiskohdista yksityiskohtiin yksityiskohtien yksityiskohtaa yksityiskohdan yksityiskohdissa yksityiskohdilla yksityiskohtana yksityiskohdasta yksityiskohtaan
+20	1920	tienata	tienaa tienata tienaavat tienannut tienasi tienaan tienaava tienaat tienataan tienasin tienaamaan tienaavan tienaisi tienasivat tienaaminen tienattu tienatakseen tienaisin
+21	1921	reagoida	reagoi reagoida reagoivat reagoimaan reagoinut reagoisi reagoidaan reagoitu reagoin reagoit reagoimme reagoiva reagoitiin reagoiminen reagoimatta reagoitava reagoisivat
+22	1922	ammatti	ammatti ammatin ammattiin ammatissa ammattia ammatteja ammatit ammateissa ammatista ammattinsa ammatteihin ammattien ammateista ammattini ammattina ammattisi ammatiksi
+23	1923	päivittää	päivitetty päivittää päivitetään päivitä päivittämään päivittänyt päivitettiin päivitin päivittäminen päivitetyn päivitti päivittämässä päivittämisestä päivitän päivittämistä päivittävät päivittämisen päivitettävä päivittämiseen päivittämättä päivitämme
+24	1924	hakemus	hakemuksen hakemus hakemuksia hakemusta hakemukset hakemusten hakemuksessa hakemuksesta hakemukseen hakemuksista hakemuksensa hakemuksella hakemuksesi hakemuksiin hakemuksissa hakemuksien hakemukselle hakemukseni
+25	1925	päätellä	päätellä päätellen päättelin päättelemään päättelee päätteli päätelty päätellyt päättelet päättelen päättelivät päättelit päättele päätellään pääteltiin päättelevät pääteltävä
+26	1926	lopullinen	lopullinen lopullisen lopullista lopulliset lopulliseen lopullisesta lopullisessa lopulliseksi lopullisia lopullisena lopulliselle lopullisten lopullisista lopulliselta
+27	1927	edullinen	edullinen edullista edullisia edullisempi edullisin edulliset edullisempaa edullisen edullisempia edulliseen edullisten edullisemmaksi edullisemman edullisemmat edullisimmat edullisella edullisinta edulliseksi edullisista edullisimman edullisena edullisempaan edullisilla edullisesta edullisiin edullisemmalla edullisempien
+28	1928	resurssi	resursseja resurssit resurssien resurssi resursseista resursseilla resursseihin resurssinsa resurssia resurssimme resurssin resurssina
+29	1929	keskiviikkona	keskiviikkona
+30	1930	normaalisti	normaalisti
+31	1931	äkkiä	äkkiä
+32	1932	päällikkö	päällikkö päällikön päälliköksi päällikkönä päälliköt päällikköä päällikölle päälliköitä päälliköiden päälliköllä päällikkönsä päälliköltä
+33	1933	rock	rock rockin rockia rockissa rockiin rockista rockilla rockille rockiksi
+34	1934	reissu	reissu reissun reissussa reissuun reissulla reissua reissut reissuja reissusta reissulle reissulta reissuilla reissuista reissumme reissuni
+35	1935	ilmi	ilmi ilmeistä ilmein ilmeillä
+36	1936	vapaasti	vapaasti vapaammin
+37	1937	ilmasto	ilmasto ilmaston ilmastoa ilmastoon ilmastossa ilmastosta ilmastolle
+38	1938	itsenäinen	itsenäinen itsenäisen itsenäistä itsenäisiä itsenäisenä itsenäiseksi itsenäiseen itsenäiset itsenäisten itsenäisestä itsenäisinä itsenäisessä itsenäisiksi itsenäisistä itsenäiselle itsenäisellä itsenäisiin itsenäisempi itsenäisille itsenäisissä
+39	1939	menetelmä	menetelmä menetelmiä menetelmällä menetelmän menetelmää menetelmät menetelmillä menetelmien menetelmin menetelmistä menetelmiin menetelmässä menetelmästä menetelmään menetelmänä menetelmissä menetelmänsä menetelmäksi
+40	1940	arvostelu	arvostelu arvostelua arvostelut arvostelun arvosteluja arvostelussa arvostelusta arvosteluun arvostelujen arvosteluissa arvosteluita arvosteluista arvostelunsa arvosteluihin arvosteluiden arvostelulle
+41	1941	sokeri	sokeria sokeri sokerin sokerista sokerilla sokerit sokereita sokeriin sokerina sokerissa sokereiden sokereista sokerille
+42	1942	puolustaja	puolustaja puolustajat puolustajan puolustajien puolustajia puolustajana puolustajaa puolustajaksi puolustajista puolustajalle puolustajina puolustajille puolustajiin puolustajilla puolustajansa
+43	1943	panostaa	panostaa panostetaan panosta panostettu panostanut panostaminen panostamaan panostavat panosti panostamme panostettava panostamalla panostan panostettiin panostamista panostin panostivat panostaisi panostamisen panostava panostettaisiin
+44	1944	tosissaan	tosissaan tosissani tosissasi tosissanne tosissamme
+45	1945	säästö	säästöjä säästöt säästö säästöä säästöjen säästöistä säästöön säästön säästössä säästöillä säästöihin säästönsä säästöstä
+46	1946	käynnistyä	käynnistyi käynnistyy käynnistynyt käynnistyvät käynnistyivät käynnisty käynnistyessä käynnistymässä käynnistyä käynnistyminen käynnistymistä käynnistymisen käynnistymään käynnistyneet käynnistyvä käynnistyisi käynnistymisestä käynnistymiseen
+47	1947	maajoukkue	maajoukkueen maajoukkue maajoukkueessa maajoukkueeseen maajoukkuetta maajoukkueiden maajoukkueesta maajoukkueet maajoukkueelle maajoukkueissa
+48	1948	toisistaan	toisistaan toisistamme
+49	1949	pointti	pointti pointtia pointin pointtina pointteja pointtini pointtisi pointissa pointista pointit pointtiin pointtinsa
+50	1950	piirtää	piirtää piirretty piirrä piirsi piirtänyt piirtämään piirsin piirrettyjä piirrän piirtämistä piirretään piirtäminen piirrettyä piirretyt piirtämällä piirtämisen piirtämisestä piirrettiin piirtämiseen piirtämä piirretyn piirrettyjen piirsivät piirtävät piirretyistä piirretyissä piirrät piirtämässä piirrettynä piirtäen piirtämisessä piirtämän
+51	1951	raamattu	raamatun raamattu raamattua raamatussa raamatusta raamattuun raamatulla raamattuja
+52	1952	vuori	vuori vuoren vuoret vuorilla vuorten vuorelle vuorella vuoria vuorille vuorelta vuorta vuorilta vuoresta vuorien vuoreen vuorista vuoressa vuoriin
+53	1953	uudistaa	uudistaa uudistettu uudistamista uudistaminen uudistetaan uudistamaan uudisti uudistamisesta uudistettiin uudistamisen uudistetun uudistamiseen uudistamiseksi uudistanut uudistamalla uudistettava uudistavat uudistetut uudistamisessa uudistettua uudistetussa uudistamassa uudista uudistava uudistetulla uudistamme uudistivat uudistettuna uudistettuun uudistamiselle uudistetusta
+54	1954	reaktio	reaktio reaktioita reaktion reaktiot reaktiota reaktioista reaktiosta reaktioiden reaktiona reaktioon reaktioihin reaktioni reaktiossa reaktionsa reaktioissa reaktiosi
+55	1955	kohtalo	kohtalo kohtalon kohtalosta kohtaloa kohtaloksi kohtalonsa kohtaloon kohtaloita kohtalona kohtalot kohtaloni kohtaloista kohtalolta kohtalomme kohtaloihin
+56	1956	riittävästi	riittävästi
+57	1957	suhteellisen	suhteellisen
+58	1958	äärimmäisen	äärimmäisen
+59	1959	steve	steve steven
+60	1960	kalle	kalle kallein kallen kalleimmat kalleinta kalleimman kalleimpia kalleimmista kallea kallelle kallella kalleimmasta kalleimpaan
+61	1961	tehokkaasti	tehokkaasti tehokkaammin tehokkaimmin
+62	1962	tori	torilla tori torin torille toreilla torilta toria torista toreille torit toreja torien toriin toreilta torissa
+63	1963	maisema	maisemat maisema maisemia maisemaa maisemissa maiseman maisemien maisemiin maisemaan maisemista maisemasta maisemassa
+64	1964	kehittynyt	kehittynyt kehittyneet kehittyneitä kehittynyttä kehittyneen kehittyneempi kehittyneissä kehittyneiden kehittynein kehittyneessä kehittyneestä kehittyneisiin kehittyneellä kehittyneillä kehittyneeseen kehittyneille kehittyneistä
+65	1965	dokumentti	dokumentti dokumentin dokumentteja dokumenttia dokumentit dokumentissa dokumenttien dokumentista dokumenttiin dokumenteista dokumenteissa dokumentteihin dokumenttina doku
+66	1966	hidas	hidas hidasta hitaita hitaampi hitaan hitaat hitaalla hitain hitaasta hitaaseen hitaaksi hitaassa hitaiden hitaalta hitaana hitaista hitaissa hitaalle hitailla
+67	1967	lämpö	lämpöä lämpö lämmön lämmöllä lämmöstä lämmössä lämpöön lämmöt lämmöksi lvi lämmölle lämmöltä
+68	1968	kouluttaa	kouluttaa koulutettu koulutetaan kouluttanut koulutettiin kouluttamaan kouluttaminen koulutti kouluttamiseen kouluttavat kouluttamista kouluttamattomat kouluttamalla kouluttamisesta kouluttamisen koulutettava kouluttamaton kouluta koulutamme kouluttamassa koulutettavaksi koulutat koulutettavien kouluttivat kouluttama kouluttamisessa kouluttamattomia koulutan koulutettavana
+69	1969	pilata	pilaa pilata pilasi pilannut pilaavat pilaamaan pilattu pilasivat pilaan pilaamisesta pilaisi pilataan pilaamasta pilaamassa pilaaminen pilaat pilasin
+70	1970	laatia	laadittu laatia laatinut laati laatimaan laatima laatii laadittiin laaditaan laativat laatimassa laadin laatiman laatiminen laatimiseen laatimista laadittaessa laadi laadittava laatimisessa laadimme laatimisen laatimalla laatimisesta laatimasta laadit laatiessa
+71	1971	sade	sade sateen sadetta sateessa sateet sateita sateella sateesta sateista sateiden sateelta sateeseen sateli sadella
+72	1972	vajaa	vajaa vajaan vajaat vajaalla vajaaksi vajaassa vajaata vajaaseen vajaasta vajaita
+73	1973	käynnistää	käynnistää käynnisti käynnistä käynnistetään käynnistetty käynnistettiin käynnistänyt käynnistämään käynnistivät käynnistävät käynnistäminen käynnistämistä käynnistämässä käynnistämisen käynnistämiseen käynnistämä käynnistämisestä käynnistämiseksi käynnistämällä käynnistin käynnistettävä käynnistämisessä käynnistämme käynnistäessä käynnistät käynnistäisi käynnistämän
+74	1974	tahto	tahdon tahto tahdosta tahtonsa tahdot tahtoon tahdoin tahdolla tahtosi tahtomme tahtoni tahdolle tahtojen
+75	1975	lounas	lounas lounaalla lounaan lounasta lounaaksi lounaalle lounaasta lounaaseen lounaassa lounaat lounaita louna lounaalta lounaista
+76	1976	tilaus	tilaus tilauksen tilaukset tilauksia tilausta tilauksesta tilaukseen tilausten tilauksessa tilauksista tilauksensa tilauksiin tilaukseni tilauksesi tilauksissa tilauksenne tilauksille
+77	1977	törkeä	törkeä törkeästä törkeää törkeän törkeänä törkeään törkeitä törkeistä törkeät törkeäksi törkeällä törkeisiin törkein törkeässä törkeiden törkeätä törkeissä
+78	1978	uida	uima uimaan uida uimassa uivat uiminen uimista uinut uidaan uiva uin uimalla uidessa uimisesta uimiseen uit uimisen uiden uivan uitiin uimme
+79	1979	uskonnollinen	uskonnollinen uskonnollisen uskonnolliset uskonnollisia uskonnollista uskonnollisten uskonnollisista uskonnolliseen uskonnollisesta uskonnollisiin uskonnollisessa uskonnollisissa uskonnolliseksi uskonnollisena uskonnolliselle uskonnollisilla uskonnollisille uskonnollisella uskonnollisin uskonnolliselta
+80	1980	ydin	ydin ytimessä ytimeen ytimen ydintä ytimestä ytimiin ytimenä ytimiä ytimet ytimien ytimissä ytimistä ytimeksi ytimellä
+81	1981	some	some somessa somen someen somea somesta
+82	1982	vailla	vailla vaille
+83	1983	tuomas	tuomas tuomaan tuomasta tuomaksen
+84	1984	koodi	koodi koodin koodia koodit koodeja koodilla koodista koodiin koodien koodissa koodeilla koodeista koodiksi koodinsa koodisi koodina
+85	1985	aktiivisesti	aktiivisesti aktiivisemmin aktiivisimmin
+86	1986	hyvinkin	hyvinkin
+87	1987	naimisissa	naimisissa
+88	1988	paljoa	paljoa
+89	1989	riippumatta	riippumatta
+90	1990	asu	asun asut asussa asuja asuin asuun asusta asu asuihin asujen asuissa asuista asunsa asukin asuna asuunsa asuni asusi
+91	1991	torjua	torjui torjua torjuu torjumaan torjumiseksi torjutaan torjuttiin torjuminen torjumiseen torjunut torjuivat torjuvat torjuttu torju torjumisessa torjumista torjumisen torjuva torjumisesta torjuakseen torjuen torjuttava torjumalla torjut torjuvan torjumassa torjuisi
+92	1992	merkitty	merkitty merkitystä merkityt merkittyjä merkittynä merkittyä merkityn merkittyjen merkityistä merkityillä merkityllä merkittyinä
+93	1993	rauma	rauman rauma raumalla raumalle raumalta raumaa
+94	1994	eläke	eläke eläkettä eläkkeet eläkkeen eläkkeiden eläkkeitä eläkkeellä eläkkeistä eläkkeeseen eläkkeisiin eläkkeestä eläkkeensä eläkkeesi eläkkeeni eläkkeeltä eläkkeille eläkkeissä
+95	1995	tieteellinen	tieteellinen tieteellistä tieteellisen tieteellisiä tieteelliset tieteelliseen tieteellisessä tieteellisten tieteellisestä tieteellisiin tieteellisissä tieteellisistä tieteellisenä tieteellisellä tieteellisin tieteelliseltä tieteelliseksi tieteelliselle
+96	1996	kauhea	kauhea kauhean kauheaa kauheita kauhein kauhealta kauheat kauheata kauheinta kauheaan kauheassa kauheampaa kauheampi kauheasta kauhealla kauheana kauheaksi kauhia
+97	1997	loukata	loukkaa loukata loukkasi loukkaavaa loukannut loukattu loukkaava loukkaavat loukkaavan loukkaavia loukkaaminen loukkaavana loukataan loukkaavaksi loukkaisi loukkaamista loukkaamaan loukkaamatta loukkasin loukatuksi loukkaavasta loukkasivat loukattiin loukatun loukaten loukkaavina loukkaat loukkaavalta loukkaavalla loukattua loukkaavaan
+98	1998	verkkokauppa	verkkokaupan verkkokauppa verkkokaupasta verkkokaupassa verkkokauppaan verkkokauppaa verkkokauppojen verkkokaupoista verkkokaupat verkkokaupoissa verkkokauppoja verkkokaupalla verkkokaupalle
+99	1999	susi	susi sudet suden susien susia sutta susille susista sudesta sudeksi sudelle susiin susilla sudella sutena suteen susiksi
+100	2000	hakata	hakkaa hakata hakattu hakkasi hakattiin hakataan hakkaamaan hakkasivat hakkaan hakannut hakkaavat hakkaamista hakkaamalla hakkaaminen hakkasin hakkaamassa hakkaamisesta hakkaamisen hakanneet hakkaisi hakkaat hakkaamiseen

@@ -1,0 +1,100 @@
+1	8501	koetus	koetuksella koetukselle koetusta koetus
+2	8502	parlamentaarinen	parlamentaarinen parlamentaarisen parlamentaarista parlamentaarisessa parlamentaariseen
+3	8503	innoittaa	innoitti innoittaa innoittanut innoittama innoittivat
+4	8504	kaukosäädin	kaukosäädin kaukosäätimen kaukosäätimellä kaukosäädintä kaukosäätimet kaukosäätimestä säädin
+5	8505	moldova	moldova moldovan moldovassa moldovaa moldovaan
+6	8506	puristus	puristuksessa puristus puristuksiin puristuksen puristukseen puristuksissa puristusta
+7	8507	anturi	anturit anturi antureita antureiden anturin anturia anturien
+8	8508	kameli	kamelin kameli kameleita kamelit kamelia
+9	8509	vastahyökkäys	vastahyökkäys vastahyökkäykseen vastahyökkäyksen vastahyökkäykset vastahyökkäystä vastahyökkäyksiä vastahyökkäyksestä
+10	8510	lapsettomuus	lapsettomuus lapsettomuuden lapsettomuutta lapsettomuudesta lapsettomuuteen
+11	8511	kusettaa	kusettaa kusetetaan kusettanut kusetti kusetettu kusettavat kusettamaan
+12	8512	liittokokous	liittokokouksessa liittokokous liittokokouksen liittokokoukseen
+13	8513	tali	talin talia tali talissa
+14	8514	huonokuntoinen	huonokuntoinen huonokuntoisia huonokuntoiset huonokuntoisen huonokuntoista huonokuntoisena huonokuntoiseksi huonokuntoisten
+15	8515	tulittaa	tulitti tulittaa tulittivat tulitettiin tulittamaan tulitetaan tulittavat
+16	8516	kiitollisuus	kiitollisuutta kiitollisuus kiitollisuuden kiitollisuudesta kiitollisuudella
+17	8517	julmuus	julmuutta julmuus julmuuden julmuuksia julmuudet julmuuksista julmuudesta julmuuksiin julmuuteen julmuuksien
+18	8518	rapea	rapea rapeaa rapeaksi rapean rapeita rapeat rapeiksi
+19	8519	hintainen	hintainen hintaisia hintaista hintaisen hintaiset
+20	8520	jama	jamassa jamaan jama
+21	8521	neljätoista	neljätoista neljäntoista neljästätoista neljääntoista
+22	8522	huutelu	huutelu huutelua huutelun
+23	8523	apuvalmentaja	apuvalmentaja apuvalmentajana apuvalmentajaksi apuvalmentajan apuvalmentajat
+24	8524	pitkäjänteinen	pitkäjänteinen pitkäjänteistä pitkäjänteisen pitkäjänteiseen pitkäjänteisellä pitkäjänteisestä
+25	8525	variaatio	variaatioita variaatio variaatiota variaatiot variaation
+26	8526	simpukka	simpukoita simpukat simpukka simpukoiden simpukan simpukoista
+27	8527	halaus	halaus halauksen halauksia halaukset halaukseen halausta
+28	8528	ruuti	ruuti ruutia ruudin
+29	8529	testosteroni	testosteronin testosteroni testosteronia testosteronista
+30	8530	munia	munii munien munia muni munivat munimaan munin
+31	8531	saapas	saappaita saappaisiin saappaissa saappaiden saappaan saappaansa saapasta saappaista saapas
+32	8532	eesti	eesti eestin
+33	8533	yliopistollinen	yliopistollisen yliopistollinen yliopistollisessa yliopistolliseen yliopistollista yliopistollisesta
+34	8534	magneetti	magneetti magneetin magneetit magneetteja magneettia magneettien magneetilla
+35	8535	mukailla	mukaillen mukailee mukaileva mukailevat mukailtu
+36	8536	lennellä	lentelee lentelevät lenteli lennellä lentelivät lentele lentelemään lennellyt
+37	8537	rahapolitiikka	rahapolitiikan rahapolitiikka rahapolitiikkaa rahapolitiikasta
+38	8538	viola	viola violan violaa
+39	8539	kiinniotto	kiinniotto kiinnioton kiinniottoa kiinniotosta kiinniottoon kiinniotossa
+40	8540	justiinsa	justiinsa
+41	8541	kohteliaasti	kohteliaasti
+42	8542	korkeimmillaan	korkeimmillaan
+43	8543	kurdit	kurdit
+44	8544	loputtomasti	loputtomasti
+45	8545	moraalisesti	moraalisesti
+46	8546	negatiivisesti	negatiivisesti
+47	8547	näennäisesti	näennäisesti
+48	8548	ratkaisevasti	ratkaisevasti
+49	8549	takaapäin	takaapäin
+50	8550	täytäntöön	täytäntöön
+51	8551	virtuaalinen	virtuaalinen virtuaalisen virtuaalista virtuaalisia virtuaaliset virtuaaliseen virtuaalisessa
+52	8552	kerkeä	kerkeää kerkeä kerkeän kerkeät
+53	8553	kirjahylly	kirjahylly kirjahyllyn kirjahyllystä kirjahyllyä kirjahyllyssä kirjahyllyyn kirjahyllyt kirjahyllyjä
+54	8554	portugalilainen	portugalilainen portugalilaisen portugalilaiset portugalilaista portugalilaisten portugalilaisia
+55	8555	käyttäjätunnus	käyttäjätunnuksen käyttäjätunnus käyttäjätunnukset käyttäjätunnusta käyttäjätunnuksia käyttäjätunnuksella
+56	8556	tapailla	tapailla tapailee tapaili tapaillut tapailemaan tapaile tapailen tapailivat tapailin
+57	8557	aurinkopaneeli	aurinkopaneeli aurinkopaneelit aurinkopaneelien aurinkopaneeleja aurinkopaneeleilla aurinkopaneeleita aurinkopaneeleista aurinkopaneelin
+58	8558	hellästi	hellästi hellemmin
+59	8559	taloushallinto	taloushallinnon taloushallinto taloushallinnossa
+60	8560	tietokirjailija	tietokirjailija tietokirjailijat
+61	8561	mustelma	mustelmia mustelma mustelmat mustelman mustelmien
+62	8562	porsas	porsaan porsas porsasta porsaat porsaita porsaiden
+63	8563	majoneesi	majoneesi majoneesia majoneesin majoneesilla
+64	8564	luokittelu	luokittelu luokittelun luokittelua luokitteluun luokittelussa luokittelusta
+65	8565	lomamatka	lomamatka lomamatkalla lomamatkalle lomamatkat lomamatkan lomamatkoja lomamatkaa
+66	8566	indikaattori	indikaattori indikaattorit indikaattorin indikaattoreita indikaattorina
+67	8567	kuolonuhri	kuolonuhreja kuolonuhria kuolonuhrien kuolonuhreista kuolonuhri kuolonuhrit kuolonuhrin
+68	8568	populistinen	populistinen populistista populistisen populistiset populistisia
+69	8569	talousjohtaja	talousjohtaja talousjohtajan talousjohtajana
+70	8570	antaja	antaja antajan antajana antajaa antajat antajia antajalle antajien
+71	8571	väritys	väritys väritystä värityksen väritykseen väritykset värityksellä
+72	8572	aikakone	aikakone aikakoneen aikakoneella aikakonetta
+73	8573	näennäinen	näennäisen näennäinen näennäistä näennäisestä näennäisiä
+74	8574	vaania	vaanii vaanivat vaania vaaniva
+75	8575	tonnikala	tonnikalaa tonnikala tonnikalan
+76	8576	hyötysuhde	hyötysuhde hyötysuhteen hyötysuhdetta hyötysuhteella
+77	8577	veroton	veroton verotonta verottomana verottomia verottomat verottoman verottomina
+78	8578	sensori	sensorit sensori sensoreita sensorin sensorien sensoreiden sensoria
+79	8579	valtaistuin	valtaistuimelle valtaistuimen valtaistuimella valtaistuin valtaistuinta valtaistuimelta valtaistuimesta
+80	8580	pingviini	pingviinit pingviini pingviinien pingviinin pingviinejä pingviiniä
+81	8581	fillari	fillari fillarilla fillarin
+82	8582	kasvatti	kasvatteja kasvatti kasvatit kasvatin kasvateista kasvattina kasvattia kasvattien
+83	8583	magneettikenttä	magneettikentän magneettikenttä magneettikentässä magneettikenttää magneettikenttään magneettikentät magneettikenttien magneettikenttiä
+84	8584	kääriäinen	kääriäinen kääriäisen
+85	8585	poliisipäällikkö	poliisipäällikkö poliisipäällikön
+86	8586	tasapuolinen	tasapuolista tasapuolinen tasapuolisen tasapuolisia tasapuoliset tasapuoliseen
+87	8587	muodollinen	muodollinen muodollista muodollisen muodolliset muodollisia
+88	8588	syndrooma	syndrooma syndrooman syndroomasta syndroomaa syndroomaan
+89	8589	arvostelija	arvostelijat arvostelijoiden arvostelija arvostelijan arvostelijoita arvostelijana arvostelijoista
+90	8590	jäsenistö	jäsenistö jäsenistön jäsenistöstä jäsenistöä jäsenistöön jäsenistönsä jäsenistössä jäsenistölle
+91	8591	yy	yy yin
+92	8592	maallikko	maallikkona maallikko maallikon maallikot maallikoiden maallikolle maallikoille
+93	8593	maanantaiaamu	maanantaiaamuna maanantaiaamuun maanantaiaamu maanantaiaamun
+94	8594	alihankkija	alihankkijoiden alihankkijoita alihankkija alihankkijat alihankkijan alihankkijana alihankkijoille
+95	8595	mongolia	mongolia mongolian mongoliassa mongoliaan mongoliasta
+96	8596	auringonpaiste	auringonpaiste auringonpaisteessa auringonpaistetta auringonpaisteen auringonpaisteesta auringonpaisteelta
+97	8597	imuri	imuri imurin imuria imurit imurilla imureita
+98	8598	täysosuma	täysosuma täysosumia täysosuman täysosumaa
+99	8599	sylki	sylki syljen syljestä sylkeä
+100	8600	loki	loki lokit lokin lokeja lokeista lokia lokiin

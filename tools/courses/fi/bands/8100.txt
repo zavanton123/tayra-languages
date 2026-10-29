@@ -1,0 +1,100 @@
+1	8001	vaakuna	vaakuna vaakunan vaakunassa vaakunasta vaakunaa vaakunaan
+2	8002	kaduttaa	kaduttaa kaduta kaduttanut kadutti
+3	8003	runkata	runkkaa runkata runkkaamaan runkkaaminen runkkaan runkkaamassa runkkasin runkkaamista runkannut runkkaamisesta runkkasi
+4	8004	lokero	lokeroon lokero lokeroihin lokeroa lokerossa lokerot lokeroita lokeron lokerosta
+5	8005	tuoppi	tuoppi tuopin tuoppia tuopit tuopista tuoppiin
+6	8006	liitos	liitos liitoksen liitokset liitoksissa liitoksia liitosten liitoksesta liitosta liitokseen
+7	8007	toimipaikka	toimipaikka toimipaikat toimipaikan toimipaikkaa toimipaikkojen toimipaikkoja toimipaikoista toimipaikassa toimipaikoissa toimipaikasta
+8	8008	toimeksianto	toimeksiannosta toimeksiannon toimeksianto toimeksiantoja toimeksiantojen toimeksiantoa
+9	8009	suotuisa	suotuisa suotuisat suotuisia suotuisaa suotuisan suotuisissa suotuisampi
+10	8010	itkettää	itkettää itketti itkettämään itketä
+11	8011	ulostulo	ulostulo ulostulot ulostulon ulostuloa ulostuloja
+12	8012	raivostua	raivostui raivostuu raivostuivat raivostumaan
+13	8013	saarna	saarna saarnaa saarnan saarnoja saarnat
+14	8014	kokonaismäärä	kokonaismäärä kokonaismäärästä kokonaismäärää kokonaismäärän kokonaismäärään
+15	8015	kompata	komppaan komppaa
+16	8016	siemens	siemens siemensin
+17	8017	maanpuolustus	maanpuolustus maanpuolustuksen maanpuolustusta maanpuolustukseen maanpuolustuksesta
+18	8018	stereotypia	stereotypioita stereotypiat stereotypia stereotypioiden stereotypioista stereotypiaa stereotypioihin stereotypian
+19	8019	lapsilisä	lapsilisät lapsilisää lapsilisä lapsilisiä lapsilisien lapsilisän
+20	8020	ammattiopisto	ammattiopisto ammattiopiston ammattiopistossa
+21	8021	kilta	killan kilta kiltaan killassa kiltojen killat
+22	8022	terveydellinen	terveydellisistä terveydellisiä terveydelliset terveydellistä terveydellinen terveydellisten terveydellisiin
+23	8023	viallinen	viallinen viallisia viallisen vialliset viallista viallisesta viallisten
+24	8024	odottelu	odottelua odottelun odottelu odotteluun
+25	8025	modi	modi modin modien modit modia modeja
+26	8026	navetta	navetta navetan navetassa navettaan navetasta
+27	8027	folk	folk folkin folkia
+28	8028	suppea	suppea suppeampi suppean suppeaa suppeaksi suppeassa suppealla suppeita suppeaan suppeasta
+29	8029	analysointi	analysointi analysointiin analysointia analysoinnin analysoinnissa
+30	8030	hukka	hukkaa hukka hukkasi hukan
+31	8031	koiras	koiras koiraansa koiraat koiraasi koiraani koiraita koiraiden koirasta koiraan
+32	8032	idoli	idoli idolinsa idolin idoleita idolini idolit idolien idolia
+33	8033	yhteiskuntatiede	yhteiskuntatieteiden yhteiskuntatieteet yhteiskuntatieteissä yhteiskuntatieteitä yhteiskuntatieteen
+34	8034	koulukiusaaminen	koulukiusaaminen koulukiusaamisen koulukiusaamista koulukiusaamisesta koulukiusaamiseen
+35	8035	valmiste	valmisteita valmiste valmisteiden valmisteet valmistetta valmisteista valmisteen valmisteissa
+36	8036	luomus	luomus luomuksia luomuksensa luomuksen luomukset luomuksista luomusta
+37	8037	räntä	räntää räntä
+38	8038	järjestelmällisesti	järjestelmällisesti
+39	8039	lopultakin	lopultakin
+40	8040	määrällisesti	määrällisesti
+41	8041	nyttemmin	nyttemmin
+42	8042	sinnepäin	sinnepäin
+43	8043	tieteellisesti	tieteellisesti
+44	8044	tippaakaan	tippaakaan
+45	8045	tuntuvasti	tuntuvasti
+46	8046	ylivalta	ylivallan ylivaltaa ylivalta ylivaltaan ylivallasta
+47	8047	fingerpori	fingerpori fingerporin fingerporissa
+48	8048	pulssi	pulssi pulssin pulssia pulssisi pulssit pulssilla
+49	8049	hoksata	hoksaa hoksannut hoksasin hoksata hoksasi
+50	8050	opintolaina	opintolainan opintolainaa opintolaina opintolainoja
+51	8051	luontevasti	luontevasti luontevammin
+52	8052	ripaus	ripaus ripauksen ripauksella
+53	8053	ulkopoliittinen	ulkopoliittinen ulkopoliittisen ulkopoliittista ulkopoliittisia ulkopoliittiset ulkopoliittisista ulkopoliittisten ulkopoliittisena ulkopoliittisessa
+54	8054	alakoulu	alakoulun alakoulussa alakoulu alakoulua alakoulusta alakoulujen alakoulut
+55	8055	keskisuuri	keskisuurten keskisuuri keskisuuret keskisuuria keskisuuren keskisuuriin keskisuurissa keskisuurille keskisuurista
+56	8056	melodia	melodia melodiat melodian melodioita melodiaa melodioiden melodioista
+57	8057	härmä	härmä härmän härmässä härmästä
+58	8058	konna	konna konnat konnan konnia konnien konnaa
+59	8059	unettomuus	unettomuus unettomuutta unettomuudesta unettomuuden unettomuuteen
+60	8060	valloitus	valloitus valloituksen valloitusta valloituksesta valloitukseen
+61	8061	sylkeä	sylkeä sylkee syljen sylje sylkemään sylkevät sylkenyt sylkeminen syljetään
+62	8062	sekalainen	sekalaista sekalaisia sekalainen sekalaisen sekalaiset sekalaisessa sekalaisista
+63	8063	talviaika	talviaikaan talviaika talviajan talviaikaa
+64	8064	sala	sala salat saloihin saloja
+65	8065	liioitella	liioitella liioittelee liioittele liioitellaan liioittelen liioittelevat liioitellut liioitellen liioittelematta
+66	8066	bluetooth	bluetooth bluetoothin bluetoothilla
+67	8067	ruokahalu	ruokahalua ruokahalu ruokahalun ruokahalulla ruokahalunsa ruokahaluun
+68	8068	alppihiihto	alppihiihto alppihiihdon alppihiihdossa
+69	8069	verikoe	verikoe verikokeet verikokeen verikokeissa verikokeita verikokeiden verikokeisiin verikokeessa verikokeeseen verikokeella verikoetta
+70	8070	neliökilometri	neliökilometriä neliökilometrin neliökilometrillä neliökilometri
+71	8071	dynastia	dynastia dynastian
+72	8072	otso	otso ohto otsoni otson
+73	8073	alivoima	alivoimalla alivoima alivoiman alivoimalle
+74	8074	lujasti	lujasti lujemmin
+75	8075	hakkuu	hakkuut hakkuiden hakkuita hakkuu hakkuun hakkuista
+76	8076	aikalisä	aikalisä aikalisän aikalisää
+77	8077	yleiskokous	yleiskokouksessa yleiskokouksen yleiskokous yleiskokoukseen yleiskokoukselle
+78	8078	maanosa	maanosan maanosa maanosassa maanosien maanosaa maanosissa maanosasta maanosat maanosaan
+79	8079	tarha	tarhassa tarhaan tarhasta tarha tarhan tarhat tarhoilla tarhoissa
+80	8080	mielentila	mielentila mielentilassa mielentilaan mielentilan mielentilaa mielentilasta
+81	8081	sora	soraa sora soran soralla sorin sorasta
+82	8082	imaami	imaami imaamin imaamit imaamien
+83	8083	kuormittaa	kuormittaa kuormittavat kuormittava kuormita kuormitetaan
+84	8084	sokka	sokka sokissa sokin sokan sokkiin
+85	8085	paperitehdas	paperitehtaan paperitehdas paperitehtaalla paperitehtaiden paperitehtaat
+86	8086	liuta	liuta liudan
+87	8087	ylijohtaja	ylijohtaja ylijohtajana ylijohtajan ylijohtajaksi
+88	8088	kaksikielinen	kaksikielinen kaksikielisiä kaksikielisen kaksikieliseksi kaksikielistä kaksikielisissä kaksikielisten
+89	8089	ilmanvaihto	ilmanvaihto ilmanvaihdon ilmanvaihtoa ilmanvaihtoon lvi
+90	8090	hienostunut	hienostunut hienostunutta hienostuneen hienostuneita hienostuneempi hienostuneet
+91	8091	seurakuntayhtymä	seurakuntayhtymän seurakuntayhtymä seurakuntayhtymässä seurakuntayhtymää seurakuntayhtymään
+92	8092	range	range rangen
+93	8093	asteroidi	asteroidi asteroidin asteroidit asteroideja asteroidien asteroidia asteroideista asteroidille asteroidista
+94	8094	kattaus	kattaus kattauksen kattauksessa
+95	8095	kirosana	kirosana kirosanoja kirosanat kirosanojen kirosanaa kirosanan
+96	8096	armollinen	armollinen armollista armollisempi armollisen armollisia
+97	8097	lasillinen	lasillinen lasillisen lasillista lasillisella lasilliset lasilliselle
+98	8098	varteenotettava	varteenotettava varteenotettavia varteenotettavaa varteenotettavana varteenotettavan varteenotettavaksi
+99	8099	kiistanalainen	kiistanalainen kiistanalaista kiistanalaisia kiistanalaisen kiistanalaiset kiistanalaisten
+100	8100	työikäinen	työikäisten työikäinen työikäisiä työikäisistä työikäisen työikäiset työikäistä työikäisille työikäisestä

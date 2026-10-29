@@ -1,0 +1,100 @@
+1	9301	helminen	helminen helmisen helmistä
+2	9302	spekulaatio	spekulaatiota spekulaatiot spekulaatioita spekulaatio spekulaation spekulaatioiden
+3	9303	ajatusmaailma	ajatusmaailmaan ajatusmaailma ajatusmaailmaa ajatusmaailman ajatusmaailmasta ajatusmaailmansa ajatusmaailmassa
+4	9304	veroparatiisi	veroparatiiseihin veroparatiisien veroparatiisi veroparatiiseja veroparatiiseissa veroparatiisiin veroparatiisit
+5	9305	meteoriitti	meteoriitti meteoriitin meteoriitit meteoriitteja meteoriitista
+6	9306	airi	airi airin airissa
+7	9307	jauhe	jauhetta jauhe jauheen jauheena jauheeksi jauheita jauheesta
+8	9308	voileipä	voileipiä voileipä voileivät voileivän voileipää
+9	9309	pappila	pappilan pappila pappilassa pappilaan pappilasta
+10	9310	kallellaan	kallellaan kallella kallelle
+11	9311	kesäkurpitsa	kesäkurpitsa kesäkurpitsaa kesäkurpitsat kesäkurpitsan kesäkurpitsasta
+12	9312	koulutuskeskus	koulutuskeskus koulutuskeskuksen koulutuskeskuksessa koulutuskeskukseen
+13	9313	energiankulutus	energiankulutus energiankulutusta energiankulutuksen energiankulutuksesta energiankulutukseen
+14	9314	tunnusluku	tunnusluvut tunnusluku tunnuslukuja tunnusluvun tunnuslukua
+15	9315	ruumiillinen	ruumiillista ruumiillinen ruumiillisen ruumiilliseen ruumiillisia ruumiillisesta
+16	9316	kymmenentuhatta	kymmeniätuhansia kymmenentuhatta kymmenettuhannet kymmenientuhansien kymmenentuhannen
+17	9317	kuono	kuono kuonon kuonoon kuonoa kuonosta
+18	9318	selostaja	selostaja selostajana selostajat selostajan
+19	9319	juures	juureksia juurekset juuresten juures juureksista juuresta
+20	9320	jututtaa	jututtaa jututtamaan jututtamassa jututti jututin
+21	9321	kannatella	kannattelee kannatella kannattelevat kannattelemaan kannatteli kannatteleva
+22	9322	ohra	ohra ohraa ohran ohrasta
+23	9323	suoni	suoneen suonissa suonet suonta suonia suoni suonen
+24	9324	comeback	comeback comebackin
+25	9325	kuivilla	kuivilla kuiville
+26	9326	koiranpentu	koiranpennun koiranpentu koiranpentuja koiranpentua koiranpennut koiranpentujen
+27	9327	lämmitellä	lämmitellä lämmittelemään lämmitteli lämmittelemässä lämmittelee lämmittele lämmitellyt
+28	9328	avokysymys	avo
+29	9329	geneettisesti	geneettisesti
+30	9330	hm	hm
+31	9331	kirjallisesti	kirjallisesti
+32	9332	loppuviikosta	loppuviikosta
+33	9333	loppuvuonna	loppuvuonna
+34	9334	yhteisesti	yhteisesti
+35	9335	äkillisesti	äkillisesti
+36	9336	keräillä	keräillä keräilee keräilen keräili keräilemään keräillään keräillyt keräilin
+37	9337	vääränlainen	vääränlainen vääränlaista vääränlaisia vääränlaisen vääränlaiset vääränlaisesta
+38	9338	kaveripiiri	kaveripiirissä kaveripiirin kaveripiiri kaveripiiristä kaveripiiriä kaveripiiriin
+39	9339	mehevä	mehevä mehevää meheviä mehevän mehevät
+40	9340	varajäsen	varajäsen varajäsenenä varajäsentä varajäseneksi varajäsenet varajäseniksi
+41	9341	velallinen	velallisen velallinen velallisten velalliselle velallista
+42	9342	merenpohja	merenpohjan merenpohjassa merenpohjaan merenpohjasta merenpohjaa merenpohja
+43	9343	rahanpesu	rahanpesusta rahanpesua rahanpesun rahanpesu rahanpesuun
+44	9344	aloitteleva	aloitteleva aloittelevan aloittelevalle aloitteleville aloittelevia aloittelevien aloittelevat aloittelevaa
+45	9345	katedraali	katedraali katedraalin katedraalissa katedraaliin katedraalia
+46	9346	vaha	vaha vahaa vahan vahasta
+47	9347	kartoitus	kartoitus kartoituksen kartoitusta kartoituksessa kartoitukseen
+48	9348	sääri	sääret sääriä sääri säären sääreen säärien säärtä säärensä
+49	9349	korkeatasoinen	korkeatasoista korkeatasoinen korkeatasoisia korkeatasoisen korkeatasoisesta korkeatasoiseen
+50	9350	supertähti	supertähti supertähden supertähtiä supertähdet supertähdeksi
+51	9351	koli	koli kolin kolilla kolille
+52	9352	vilistä	vilisee vilisi vilisevät vilisevä
+53	9353	raitis	raitis raitista raittiina raittiiseen raittiissa raittiin raittiita
+54	9354	käyttöohje	käyttöohjeet käyttöohje käyttöohjeiden käyttöohjetta käyttöohjeita käyttöohjeessa käyttöohjeissa
+55	9355	huonota	huononee huononi huononevat huononivat
+56	9356	marginaalinen	marginaalinen marginaalista marginaalisia marginaalisen marginaaliseksi
+57	9357	laiho	laiho laihon laihoja laihoin laihoiksi
+58	9358	kauhuelokuva	kauhuelokuva kauhuelokuvia kauhuelokuvan kauhuelokuvien kauhuelokuvista kauhuelokuvasta kauhuelokuvaa kauhuelokuvissa kauhuelokuvassa kauhuelokuvat
+59	9359	tasokas	tasokas tasokasta tasokkaita tasokkaan
+60	9360	klikkaus	klikkauksella klikkauksia klikkauksen klikkaus klikkausta
+61	9361	lutka	lutka lutkat
+62	9362	väittämä	väittämät väittämiä väittämää väittämistä väittämiin väittämien väittämänsä väittämällä väittämä väittämään väittämän väittämästä
+63	9363	varustamo	varustamon varustamo varustamot varustamolle varustamolta
+64	9364	estetiikka	estetiikka estetiikan estetiikkaa estetiikasta estetiikkaan
+65	9365	hinku	hinku hinkua
+66	9366	autoteollisuus	autoteollisuuden autoteollisuus autoteollisuudessa autoteollisuudelle autoteollisuutta
+67	9367	halkeama	halkeamia halkeama halkeamat halkeaman halkeamien halkeamiin halkeamaan halkeamasta
+68	9368	myyntihinta	myyntihinta myyntihinnasta myyntihinnan mh myyntihinnat myyntihintaan myyntihintaa
+69	9369	lyhetä	lyhenee lyhenevät lyhene lyhenisi lyhenivät lyheni
+70	9370	naisystävä	naisystävänsä naisystävä naisystävän naisystävää
+71	9371	talousvaikeudet	talousvaikeuksien talousvaikeuksiin talousvaikeudet talousvaikeuksissa talousvaikeuksista talousvaikeuksia
+72	9372	kuutiometri	kuutiometriä kuutiometrin kuutiometriin kuutiometrissä
+73	9373	täsmentää	täsmentää täsmennetty täsmensi täsmennetään täsmennä täsmentämään täsmentänyt
+74	9374	ylitarkastaja	ylitarkastaja ylitarkastajan
+75	9375	tietokonepeli	tietokonepelejä tietokonepelien tietokonepeli tietokonepelit tietokonepeleissä tietokonepeleihin tietokonepelin tietokonepeliä tietokonepeleistä
+76	9376	perinteikäs	perinteikäs perinteikkään perinteikästä perinteikkäät perinteikkäässä
+77	9377	karisma	karisma karismaa karisman
+78	9378	kärsä	kärsineen kärsä kärsin kärsien
+79	9379	vääristynyt	vääristynyt vääristyneen vääristyneitä vääristyneet vääristynyttä
+80	9380	pyöräyttää	pyöräyttää pyöräytä pyöräytti pyöräytin pyöräytetään pyöräyttämällä
+81	9381	käyttöoikeus	käyttöoikeus käyttöoikeuden käyttöoikeuksia käyttöoikeudet käyttöoikeutta käyttöoikeudesta käyttöoikeuksien
+82	9382	tyssätä	tyssäsi tyssää tyssätä
+83	9383	kansalaisopisto	kansalaisopisto kansalaisopiston kansalaisopistossa kansalaisopistot
+84	9384	aikaraja	aikaraja aikarajan aikarajaa aikarajat aikarajoja
+85	9385	uhmata	uhmata uhmaa uhmaten uhmasi uhmaavat uhmaamaan uhmannut
+86	9386	kunnianhimo	kunnianhimo kunnianhimoa kunnianhimon kunnianhimosta kunnianhimoista
+87	9387	maistella	maistella maistelemaan maistellaan maistelee maistellut maistele maisteli
+88	9388	kouko	kouvot kouvo
+89	9389	pommikone	pommikoneet pommikonetta pommikoneita pommikone pommikoneen pommikoneiden
+90	9390	pikseli	pikseliä pikselin pikseleitä pikseli pikselit
+91	9391	yhteishenki	yhteishenki yhteishenkeä yhteishengen
+92	9392	vilahtaa	vilahtaa vilahti vilahtelee vilahtavat vilahtanut
+93	9393	dilemma	dilemma dilemman dilemmaa
+94	9394	kirjanpitäjä	kirjanpitäjä kirjanpitäjän kirjanpitäjänä kirjanpitäjälle kirjanpitäjät
+95	9395	kaksinkertaistua	kaksinkertaistui kaksinkertaistunut kaksinkertaistuu kaksinkertaistuneet kaksinkertaistua
+96	9396	saunoa	saunomaan saunoa saunoo saunomassa saunotaan saunovat
+97	9397	sisäänrakennettu	sisäänrakennettu sisäänrakennettuna sisäänrakennettua sisäänrakennetun sisäänrakennetut sisäänrakennettuja
+98	9398	välinpitämättömyys	välinpitämättömyys välinpitämättömyyttä välinpitämättömyydestä välinpitämättömyyden
+99	9399	kelvoton	kelvoton kelvottomia kelvotonta kelvottomaksi kelvottoman kelvottomat
+100	9400	yhteistyösopimus	yhteistyösopimuksen yhteistyösopimus yhteistyösopimuksia yhteistyösopimusta yhteistyösopimukset

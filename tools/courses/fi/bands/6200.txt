@@ -1,0 +1,100 @@
+1	6101	päällimmäinen	päällimmäisenä päällimmäinen päällimmäiseksi päällimmäiset päällimmäisen päällimmäisinä
+2	6102	saku	saku sakun sakua
+3	6103	rakennuttaa	rakennuttaa rakennutti rakennuttanut rakennuttama rakennuttaminen rakennuttamisen rakennuttamisesta rakennuttivat rakennuttamista rakennuttaman rakennuttamaan rakennuttamiseen
+4	6104	häviäjä	häviäjä häviäjiä häviäjät häviäjien häviäjän häviäjäksi häviäjänä häviäjiin
+5	6105	vakooja	vakooja vakoojat vakoojia vakoojana vakoojaksi vakoojien vakoojan vakoojaa
+6	6106	todistusaineisto	todistusaineistoa todistusaineisto todistusaineiston todistusaineistona todistusaineistosta todistusaineistoksi todistusaineistoon
+7	6107	miikka	miikka miikan
+8	6108	työttömyysturva	työttömyysturvan työttömyysturva työttömyysturvaa työttömyysturvaan työttömyysturvasta
+9	6109	ylioppilaskunta	ylioppilaskunnan ylioppilaskuntien ylioppilaskunta ylioppilaskunnat ylioppilaskunnassa ylioppilaskuntaan
+10	6110	kohtuu	kohtuu kohtuun kohtuutta
+11	6111	yksityistää	yksityistää yksityistäminen yksityistämistä yksityistämisen yksityistä yksityistetty yksityistettiin yksityistämiseen yksityistämisestä yksityistetään yksityistämällä
+12	6112	jompikumpi	jompikumpi jommankumman jompaankumpaan jompaakumpaa jommallakummalla jommastakummasta jommallekummalle
+13	6113	curry	karri curry currya curryn
+14	6114	punaviini	punaviiniä punaviini punaviinin punaviinistä punaviinit
+15	6115	nörtti	nörtti nörtit nörttejä nörttien nörtin nörttiä nörtiksi nörteistä
+16	6116	runous	runoutta runous runouden runoudesta runouteen runoudessa
+17	6117	vetovoima	vetovoima vetovoimaa vetovoiman vetovoimasta vetovoimaan
+18	6118	toisto	toistoa toisto toiston toistoja tois toistoon toistojen toistot
+19	6119	kilpailukykyinen	kilpailukykyinen kilpailukykyisiä kilpailukykyistä kilpailukykyisen kilpailukykyisin kilpailukykyisenä kilpailukykyiseen kilpailukykyiseksi
+20	6120	luotain	luotain luotaimen luotaimet luotaimia luotainta luotaimesta luotaimeen
+21	6121	rajaton	rajaton rajattoman rajattomat rajatonta rajattomia rajattomasta
+22	6122	puoltaa	puoltaa puoltavat puolsi puolla puoltanut puoltava puolsivat puoltaisi puoltamaan
+23	6123	käsikirja	käsikirja käsikirjan käsikirjasta käsikirjaa käsikirjassa
+24	6124	viulu	viulua viulu viulut viulun viululla viuluja viulujen
+25	6125	isänmaallinen	isänmaallinen isänmaallista isänmaallisia isänmaallisen isänmaalliset isänmaallisten isänmaalliseksi isänmaallisena
+26	6126	soolo	soolo soolon soolona soolot sooloa sooloja sooloilla soolojen
+27	6127	sarkasmi	sarkasmia sarkasmi sarkasmin
+28	6128	aineenvaihdunta	aineenvaihdunta aineenvaihdunnan aineenvaihduntaa aineenvaihduntaan aineenvaihdunnassa aineenvaihdunnasta
+29	6129	pörssiyhtiö	pörssiyhtiöiden pörssiyhtiö pörssiyhtiön pörssiyhtiöt pörssiyhtiöitä pörssiyhtiöissä
+30	6130	rikastua	rikastua rikastunut rikastui rikastuu rikastumaan rikastu rikastuvat rikastuminen rikastuivat rikastumisen rikastumista
+31	6131	yhtenäisyys	yhtenäisyyden yhtenäisyyttä yhtenäisyys yhtenäisyydestä yhtenäisyyteen
+32	6132	kiljua	kiljunen kiljua kilju kiljuu kiljuen kiljui kiljumaan kiljun kiljuvat kiljuva kiljuin
+33	6133	putka	putkaan putkassa putka putkasta putkaa putkia putkien putkista putkissa putkiin putkilla
+34	6134	mättää	mättää mätä mätti
+35	6135	liivi	liivi liivin liivit liivejä liivien liiviä liiveihin liiviin liiveistä liiveissä
+36	6136	ikääntynyt	ikääntyneiden ikääntyneet ikääntyneille ikääntynyt ikääntyneen ikääntyneitä ikääntyneillä ikääntynyttä
+37	6137	maustettu	maustettu maustettua maustettuna maustettuja maustetut maustetussa maustetun
+38	6138	illuusio	illuusio illuusion illuusiota illuusioita illuusioiden illuusiosta
+39	6139	jestas	jestas
+40	6140	kehuja	kehuja
+41	6141	kuukausittain	kuukausittain
+42	6142	peeaa	pa
+43	6143	pokemon	pokemon
+44	6144	seksuaalisesti	seksuaalisesti
+45	6145	terveisin	terveisin
+46	6146	vastikään	vastikään
+47	6147	virpi	virpi
+48	6148	yksiselitteisesti	yksiselitteisesti
+49	6149	kateus	kateus kateutta kateudesta kateuden
+50	6150	ajaja	ajaja ajajan ajajat ajajia ajajaa ajajana ajajien ajajaksi ajajalle ajajille
+51	6151	peitellä	peitellä peittelemään peittele peitelty peitellään peitellyt peittelee peitteli peittelemättä peiteltiin
+52	6152	seikkailla	seikkailee seikkailemaan seikkailevat seikkaili seikkailla seikkaillut seikkaillaan seikkailivat seikkaileva
+53	6153	muksu	muksut muksu muksuja muksun muksujen muksulle muksuille muksua
+54	6154	hiukkanen	hiukkaset hiukkasten hiukkasia hiukkanen hiukkasista hiukkasta hiukkasilla hiukkasiin
+55	6155	viimeistely	viimeistely viimeistelyä viimeistelyyn viimeistelyn viimeistelyssä viimeistelystä viimeistelyllä viimeistelyt
+56	6156	tappaja	tappaja tappajan tappajat tappajia tappajaa tappajaksi tappajien tappajiksi
+57	6157	jäähtyä	jäähtyä jäähtyy jäähtymään jäähtynyt jäähtyneet jäähtyminen jäähtyvät jäähdy jäähtyi jäähtyessä jäähtyneen
+58	6158	sonta	sontaa sonta sonnan sonnin
+59	6159	ommella	ommella ommeltu ommellaan ompelee ompeli ommellut ommeltiin ompelemaan ompelen ompele ompelin ompelemalla
+60	6160	lokki	lokki lokka lokit lokin lokkeja lokkien lokeista
+61	6161	menu	menu menun menua menussa menuun menusta menut
+62	6162	virtaus	virtaus virtausta virtauksen virtaukset virtauksia virtausten virtaukseen virtauksiin virtauksista
+63	6163	hupi	huvin hupia hupi huvit huviksi huvista
+64	6164	galaksi	galaksin galaksi galaksien galaksia galaksit galaksissa galakseja galaksiin galaksista galakseista
+65	6165	palokunta	palokunta palokunnan palokuntaa palokuntien palokunnat palokunnalle
+66	6166	dieetti	dieetti dieetillä dieetin dieettiä dieetit dieetistä dieettejä
+67	6167	ympäröidä	ympäröi ympäröimä ympäröivät ympäröidä ympäröity ympäröimässä ympäröinyt
+68	6168	himo	himo himoa himon himot himosta himojen himoja
+69	6169	tietosuoja	tietosuoja tietosuojan tietosuojaa tietosuojaan tietosuojasta
+70	6170	irakilainen	irakilaisten irakilainen irakilaiset irakilaisia irakilaisen irakilaista irakilaisista irakilaisille
+71	6171	kohokohta	kohokohta kohokohtia kohokohdista kohokohdat kohokohtana kohokohdaksi
+72	6172	huumausaine	huumausaineiden huumausaineen huumausaineita huumausaineeksi huumausaine huumausainetta huumausaineet huumausaineista huumausaineisiin huumausaineiksi
+73	6173	kirurgi	kirurgi kirurgin kirurgit kirurgia kirurgista kirurgeja kirurgien kirurgiksi kirurgina
+74	6174	riista	riistaa riista riistan riistasta
+75	6175	erinäinen	erinäisiä erinäisten erinäisistä erinäisissä erinäiset erinäisiin erinäisillä
+76	6176	pippuri	pippuria pippuri pippurilla pippurin pippurit pippurista
+77	6177	klaani	klaani klaanin klaaniin klaanit klaanien klaania klaanista klaanille klaaninsa klaanissa
+78	6178	irtisanoutua	irtisanoutui irtisanoutua irtisanoutunut irtisanoutuu irtisanoutuminen irtisanoutumista irtisanouduin irtisanoutumaan irtisanoutumisen irtisanoutuivat
+79	6179	neliömetri	neliömetriä neliömetrin neliömetri neliömetriin neliömetrillä
+80	6180	julistus	julistus julistuksen julistusta julistuksessa julistuksia julistukseen julistuksesta julistuksella julistukset
+81	6181	päihittää	päihittää päihitti päihittämään päihittänyt päihittävät päihittivät päihittämällä päihitä
+82	6182	osittainen	osittainen osittaisen osittaista osittaisesta osittaiseen osittaisia osittaisella osittaiset
+83	6183	baletti	baletti balettia baletin baletissa baletista balettiin
+84	6184	verohallinto	verohallinnon verohallinto verohallinnolle verohallinnossa verohallinnosta
+85	6185	israelilainen	israelilaiset israelilainen israelilaisten israelilaisia israelilaisen israelilaista israelilaisille israelilaisista
+86	6186	pikkusisko	pikkusisko pikkusiskon pikkusiskoni pikkusiskonsa pikkusiskoa
+87	6187	takaosa	takaosassa takaosaan takaosan takaosa takaosasta takaosaa
+88	6188	poliisiasema	poliisiasemalle poliisiasemalla poliisiaseman poliisiasema poliisiasemalta
+89	6189	bensiini	bensiini bensiiniä bensiinin bensiinillä bensiinistä bensiiniin
+90	6190	kuvitus	kuvitus kuvitusta kuvituksia kuvituksena kuvituksen kuvitukset kuvituksesta kuvituksessa
+91	6191	särkeä	särkee särkeä särkemään särkenyt särkevät särjen särjet
+92	6192	sensuroida	sensuroida sensuroitu sensuroi sensuroivat sensuroimaton sensuroitiin sensuroimaan sensuroidaan
+93	6193	kundi	kundi kundit kundin kundeja kundien kundia kundeille
+94	6194	sanasto	sanasto sanastoa sanaston sanastoon sanastossa sanastosta
+95	6195	kotikaupunki	kotikaupunki kotikaupunkinsa kotikaupungin kotikaupungissa kotikaupunkini kotikaupunkiin kotikaupungista kotikaupunkia
+96	6196	erilaisuus	erilaisuutta erilaisuus erilaisuuden erilaisuudesta erilaisuuteen erilaisuutensa
+97	6197	doping	doping dopingista dopingia dopingin
+98	6198	kuulustella	kuulusteltiin kuulusteli kuulustella kuulusteltavaksi kuulustelee kuulustellaan kuulustellut kuulusteltu kuulustelemaan kuulustelivat kuulusteltava kuulusteltavana kuulusteltavan kuulustelemassa
+99	6199	hybridi	hybridi hybridin hybridit hybridejä hybridiä hybridien
+100	6200	kuumentaa	kuumenna kuumentaa kuumennetaan kuumentamalla kuumennettaessa kuumennettu kuumensi kuumentaminen

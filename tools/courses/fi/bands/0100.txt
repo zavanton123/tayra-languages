@@ -1,0 +1,100 @@
+1	1	olla	on oli ole ovat olla olisi ollut olen onko olivat olet olin olemme ollaan olleet onkin oleva olisin oo olemaan olemassa oon onhan oletko olisivat oliko olis ois lienee olisiko olikin olekaan oltava ollu ovatko olevia olette olevien ollessa oot
+2	2	ja	ja ia jat
+3	3	se	se sen sitä siitä ne sillä siinä siihen siellä niitä silloin niiden sinne niistä sieltä siltä sille siten niissä niihin niille sekin sehän niillä senkin sitäkin siitäkin sitähän sekään sillon siinähän silleen niiltä siinäpä sielläkin see sitäkään niitten sepä siel
+4	4	ei	ei en eivät et eikö älä emme eihän eipä em eikös älkää ette enpä eiks elä enhän ethän eipäs eiväthän älköön emmehän älkäämme evät etpä eih ettehän älkööt
+5	5	että	että ettei et etten etteivät ettet ett ettemme ettette ettäkö
+6	6	tämä	tämä tässä tämän tästä tätä tällä täällä tähän nämä näitä tänä tänne tää näiden näistä täältä tällöin näillä tälle näissä näihin tältä tän tämäkin tämähän näille tässäkin täten tämänkin tästäkin tänäkin näinä tähänkin täs näiltä tämäpä täksi tääl näitten tälleen
+7	7	joka	joka jotka jossa jonka jotain jota jolloin joita jolla josta joissa joiden joista johon joilla joihin johonkin jolle joitakin jonne joidenkin jollain joille joissakin jollekin jolta joillakin joillekin jollakin join joksikin joilta joihinkin jona joistakin jonakin joksi joiltakin joinakin joina
+8	8	hän	hän hänen hänet häntä hänellä hänelle hänestä häneltä häneen hänkin hänessä hänhän heinä hällä hännän häntää hää hälle hännille hännästä hännillä häntään hännät häntänsä hännässä häne häntiä hänniltä
+9	9	voida	voi voisi voidaan voit voivat voin voinut voisin voimme voiko voida voitaisiin voisivat voisiko voitu voita voisit voihan voineet voitko voitte voisitko voisimme voimalla voinko voiman voitiin voinu voidakseen voivansa voisitteko voitteko voisitte voitava voimasta voimaton voinee voisikin voitaisi voitaneen
+10	10	mikä	mitä mikä missä mistä mihin minkä millä miltä mitkä mitäs minne mikäs mitähän mille mi miksikä
+11	11	mutta	mutta mut muttei mutten muttet mutteivät mutt muttemme muttaa
+12	12	saada	saa sai saada saanut sain saat saadaan saavat saisi saan saatu saatiin saivat saamaan saamme saako saimme saataisiin saadakseen saatava saisin saaminen saisivat sait saanko saatte saamiseksi saanu saamatta saama saisit saamassa saisimme saatavissa saamista saaden saamasta saamisen saisinko saatavat
+13	13	kun	kun ku ko enkun
+14	14	tehdä	tehdä tekee teki tehnyt tehty tehdään tee tekemään teen tekevät tehtiin tehtävä tein tekemistä tekisi teet tehneet tekivät teemme tekemässä tekeminen tehtäviä tekemättä tehtävät tehtävän tehtävää tehtävänä tekemä tekemällä tehtäviin tehtävissä tekemisen tehtävään tekemisissä tekemiseen teetä tekevän teimme teit tekisin
+15	15	niin	niin ni nii niinhän niinkö nin
+16	16	tulla	tulee tuli tullut tule tulla tulisi tulevat tulivat tulevan tullaan tulin tuleva tulen tuleeko tulemaan tulkaa tulevaa tulet tulevien tulevia tuu tullen tullu tuleen tullessa tulevasta tulemme tulevaan tulessa tulevana tuleville tulevista tulta tuliko tultua tultu tultiin tulit tulevalle tulisivat
+17	17	myös	myös
+18	18	aika	aika aikana aikaa ajan aikaan aikoina aikojen aikoinaan aikanaan aikoihin ajoissa ajassa ajat aikoja ajaksi ajalta ajoin ajasta aikansa ajalla ajallaan ajoista aikamme ajalle ajoilta aikani aikain aikojaan aikoinani aikasi ajoiksi aikanani ajallani aikanamme ajoille ajoilla ajallasi ajassaan
+19	19	jos	jos
+20	20	hyvä	hyvä hyvää paras parempi hyviä hyvät hyvän hyvältä hyväksi hyvällä hyvässä hyvästä hyvään hyvänä paremmat parhaista hyvänsä paremmaksi hyvissä hyväkseen paremmalta hyvien hyvälle hyvistä parhaana hyvillä parhaassa paremmalla paremmassa parhain parhaani parhaiden paremmasta parhaalla hyviin hyvinä parhaasta parhaalle parhaimpia parhaaseen
+21	21	suomi	suomen suomessa suomi suomeen suomea suomesta suomeksi suomelle suomella suomelta suomin suomia suomista
+22	22	kaikki	kaikki kaiken kaikkien kaikille kaikkea kaikkia kaikilla kaikista kaikesta kaikissa kaikkein kaikkiin kaikessa kaikkeen kaikin kaikilta kaikella kaikelle kaikkihan kaikkine kaikkee kaikkemme kaikkeni kaikkina kaikelta kaiket kaikeksi kaikkesi
+23	23	pitää	pitää pitäisi piti pidä pitänyt pidetään pidän pitävät pitäisikö pitämään pitääkö pidettiin pidetty pidin pitivät pidät pidettävä pitäen pitäs pidetä pitäminen pitävän pidämme pitäkää pitänee pitäisin pidettyä pitäny pitämällä pitävä pidit pidetyssä pitämässä pidätkö pitääkseen pidätte pitävänsä pidettäisiin pidetyn pitämistä
+24	24	nyt	nyt ny nytkö nytten
+25	25	kuin	kuin ku ko kuni
+26	26	tai	tai
+27	27	vuosi	vuoden vuotta vuosi vuodessa vuodesta vuosina vuoteen vuosien vuosia vuodelta vuodeksi vuodet vuodelle vuosiin vuosilta vuotena vuodella vuosiksi vuosista vuosille vuotensa vuoteni vuosissa vuosilla vuodetta vuoteensa
+28	28	muu	muun muut muita muiden muuta muu muista muualla muihin muille muutkin muutakin muissa muitakin muilla muusta muuhun muualle muilta muualta muussa muulla muutakaan muulle muidenkin muillekin muissakin muukaan muina muulta muitten muuksi muulloin muuna muiksi muitta muin muine muutta
+29	29	yksi	yksi yhtä yhdessä yhden yksin yhteen yhdellä yhtenä yhdestä yks yksikään yhdeksi yhdelle yksikin yhdet yhdeltä yksiin yhtäältä yksittäin yksissä yksiä yksien yksillä yksille yhtäällä yksistä yhdesti
+30	30	jo	jo joko johan jokos
+31	31	paljon	paljon enemmän eniten enemmänkin
+32	32	vain	vain
+33	33	tuo	tuo tuon tuota tuolla nuo tuossa tuosta tuolloin noita tuohon tuolta noista tuonne noiden tuolle noilla noissa noihin tuohan tuona noille noilta noina noitten tuoko tonne tuostahan tuolleen
+34	34	kanssa	kanssa kans kanssaan kanssasi kanssani kanssamme kanssanne
+35	35	mennä	menee mennä meni mennessä mennään mennyt mene menevät menin menemään menivät menisi menen menneet mentiin menevän menet menty menneen menkää mee menikö menisin menny menimme mennyttä mentävä menemme meet meen menevä menneitä menisivät menit mennen mentäessä menneiden menevää mennäänkö meneviä
+36	36	asia	asia asiaa asioita asiasta asiat asian asiassa asioista asiaan asioiden asioihin asioissa asialla asialle asiansa asiana asioilla asioille asiaksi asiani asiasi asiain asioina asialta asioilta asiamme asioin asioitten asioiksi asianne
+37	37	sitten	sitten sit sitte sittenhän
+38	38	minä	minä minun minulle minulla minua minusta minut mulla minäkin mulle minulta minuun minäkään minunkin meilläkin minähän minussa minullakin minullekin mul meiän minäpä miniä minäkö minään mullan minin mullat minän mussa minänsä mullassa minää mullin minäni minästä mullasta minuna
+39	39	mikään	mitään mikään missään millään mitenkään mihinkään mistään minkään mitää minnekään mitkään milloinkaan miltään millekään miksikään minään
+40	40	uusi	uusi uuden uutta uusia uudet uuteen uudessa uudesta uusien uudella uusiin uudelle uusiksi uusista uudeksi uusille uusin uutena uusilla uusissa uus uusimman uusimmat uudempi uudelta uusina uusimmassa uusimpien uusimpia uusilta uusimmista uusimpana uusimmasta uusimpaan uusimmissa uusine uusimpiin uusimmalla uusimmilla uusimmalle
+41	41	me	me meillä meidän meille meitä meistä meidät meiltä meihin mekin meissä mehän meän minuna
+42	42	vielä	vielä vieläkään vieläkö viel
+43	43	oma	oma oman omaa omat omasta omia omaan omalla omien omassa omista omiin omilla omalle omalta omin omissa omaksi omille omana omiaan omansa omani omilta omina omiksi omaani omiani omine omiasi omamme
+44	44	kyllä	kyllä kyllähän kyl kylläkin kylläkään kylläpäs kyä
+45	45	toinen	toinen toisen toista toiseen toisin toisella toisessa toiseksi toiselle toiset toisten toisesta toisena toiselta toinenkin toisia toisille toisiin toisilla toisissa toisista toisemme toisilta toisiksi toisina toisistanne toisenne toisien
+46	46	he	he heidän heitä heille heillä heistä heidät heiltä heihin hekin net heinä helle hellä hen heissä hekään het hein hetta
+47	47	sanoa	sanoa sanoi sanoo sano sanotaan sanoin sanonut sanon sanottu sanovat sanoisin sanoen sanoit sanottiin sanomaan sanoisi sanottavaa sanot sanoma sanoivat sanottua sanotun sanomalla sanoneet sanomatta sanoman sanokaa sanota sanottava sanottuja sanotte sanomassa sanottuun sanottakoon sanotussa sanotusta sanomme sanoisit sanoisivat sanomasta
+48	48	ihminen	ihmiset ihmisiä ihminen ihmisten ihmisen ihmistä ihmisille ihmisistä ihmisillä ihmisiin ihmiselle ihmisellä ihmisenä ihmisiltä ihmisestä ihmiseen ihmiseksi ihmiseltä ihmisissä ihmisinä ihmisessä ihmisiksi ihmisineen
+49	49	osa	osa osaa osalta osan osin osana osaksi osaan osassa osat osia osalla osalle osasta osasi osien osansa osiin osissa osista osina osinko osilla osani osille osiksi osamme osineen osilta
+50	50	mies	mies miehen miesten miehet miestä miehiä miehelle miehistä miehille miehensä mieheni miehillä miehellä miehestä mieheltä miehenä mieheen mieheksi miehiin miehesi miehiltä miehissä miehessä miehinä miehineen miehiksi miehien miehemme
+51	51	hyvin	hyvin paremmin parhaiten
+52	52	haluta	haluaa haluavat haluan haluat halua haluaisin halusi haluaisi halunnut halutaan haluamme halusin haluatko haluta halusivat halunneet haluttiin haluttu haluaisit haluaako halusimme haluaisivat haluatte haluaisitko halusit haluun haluisin haluaisimme halutun haluu haluut haluttua haluttaisiin haluatteko haluttuun haluamaan haluttuja haluis halutessa halutulla
+53	53	ottaa	ottaa ota otti otetaan ottanut otettu ottamaan otan otin otettiin ottamatta ottaen ottavat otettava ottivat otat ottakaa oteta ottamalla ottaisi otamme ottaisin ottaminen ottamassa otettua ottamista ottavan otimme otit otettaisiin ottamasta ottamisesta ottamisen otatko otetut otettuja ottama ottaisit ottaisivat ottamiseen
+54	54	sama	sama samaa samaan saman samoin samassa samat samana samasta samoja samalta samoilla samalle samoihin samoissa samoista samojen samaten samaksi samoille samoilta samoina samoiksi
+55	55	alkaa	alkaa alkoi alkaen ala alan alkanut alkavat alkoivat aloin aletaan alettiin alkaneet alat alkaessa alkaisi alettu alkava alkamassa alkamista alanko alamme alkaako aloimme alkamaan alkamisen alkaisivat alkamisesta alkaisin alkakoon alatte alkaminen aloit alettava aleta alettaisiin alkamiseen alkanee alkaisimme alkaisit alkamalla
+56	56	mukaan	mukaan mukaansa mukaa mukaani mukaasi mukaamme
+57	57	sekä	sekä
+58	58	miten	miten mites
+59	59	suuri	suurin suuri suuria suuren suurempi suurta suuret suurten suuressa suurempia suurempaa suurella suurinta suuremmat suuremman suureksi suureen suuresta suurelta suurista suurissa suurimmassa suurelle suurena suuriin suurimpana suurimmalla suuremmalla suurilla suurimmasta suuremmaksi suurempaan suurimpaan suurien suurille suurimmalle suuremmassa suurempien suurempiin suuremmasta
+60	60	jälkeen	jälkeen
+61	61	kuitenkin	kuitenkin kuitenkaan
+62	62	kaksi	kaksi kahden kahta kahteen kahdesti kahdella kahdessa kahdesta kahdelle kaks kahtia kahdeksi kahtena kaksin kahdet kahdelta kaksissa kaksilla kaksien kaksia kaksista kaksiin
+63	63	ihan	ihan iha ihanko
+64	64	käydä	käy kävi käydä käynyt kävin käymään käydään käytiin käyn käyvät käyty kävivät käyneet kävisi kävimme käyt käykää käytävä käyny käymme käykö käymässä käytävällä käytävän käyminen käyvä käyneen kävit käydessä käytävillä käyvän käymisen käytävää käymällä käydyn käytävään käymättä käymistä käytävässä käytävät
+65	65	antaa	antaa anna antoi annetaan antanut annettu antavat antamaan annan annettiin annoin antaisi antoivat antaneet annat anneta antakaa antamalla annettava annamme antama antaminen antaisin antavan antamista annetun antaman antamassa antava annoit antaen antamasta annettaisiin antamisesta annettua antamisen antamatta antaisivat annoimme annatko
+66	66	tietää	tiedä tietää tiedän tiennyt tiedät tietävät tiedetään tiesin tiesi tiesitkö tiedetä tiedämme tiedätkö tiiä tietäisi tietämättä tietääkö tienneet tiesivät tietävän tiedetty tiennytkään tiedätte tietäen tietävänsä tiedettiin tiedättekö tietämätön tietämään tietäisin tiesimme tiesit tietäisit tiiän tiedäthän tietäisivät tietämättömiä tietäväsi tietäväni tiedättehän
+67	67	nainen	nainen naisten naiset naisen naisia naista naisille naisista naisilla naiselle naisella naisiin naisesta naiselta naisena naiseen naiseksi naisilta naisissa naisessa naisensa naiseni naisiksi naisina naisesi
+68	68	käyttää	käyttää käytetään käytä käytetty käyttävät käyttämään käyttänyt käytti käytän käyttäen käytettiin käytin käytät käyttämällä käyttäminen käytettävä käyttivät käyttämättä käytämme käytetyn käytetyt käyttäisi käytettyjä käytettyä käyttämä käytettäväksi käyttämistä käytettyjen käytettynä käyttävä käytettävän käyttämästä käyttämisestä käytettäessä käytettäisiin käytettävät käytetystä käyttäisin käytetyistä käyttämisen
+69	69	päivä	päivä päivän päivää päivänä päivässä päivät päivään päivästä päiviä päivinä päivällä päiväksi päivien päivältä pv päivälle päivistä päivänsä päivin päiviin päivillä päiväni päiviltä pvä päivineen päivälleen päiville päiviksi päivissä päivämme
+70	70	vaan	vaan
+71	71	eikä	eikä enkä eivätkä etkä emmekä äläkä ettekä älkääkä
+72	72	koska	koska kosken kosket koskapa
+73	73	toimia	toimii toimi toimia toiminut toimivat toimiva toimimaan toimeen toimivan toimesta toimet toimisi toimivaa toimivia toimien toimitaan toimin toimiiko toimiin toimista toimimme toimineen toimivien toimivaksi toimiminen toimittu toimimasta toimiakseen toimilla toimittava toimivasta toimit toimita toimivaan toimisivat toimivista toimivalle toimimalla toimiessa toimen
+74	74	nähdä	nähdä nähnyt näkee nähdään näe nähty nähden nää näen näet näki nähtiin näkemään näkevät nähneet näemme näkisi näit näkisin näkivät näkemättä nähdäkseni näkeminen nähdessään nähtävä näimme nään näitkö näetkö näkemisen nähdäkseen näkemässä näette nähtäisiin näkeväni nähdessäni näkevän näät näkemistä näitte
+75	75	päästä	päästä pääsee pääse pääsi päässyt pääset pääsin pääsevät pääsen päästään pääsisi pääsivät päästiin päästy päästäkseen pääsimme pääsemään pääsemme päästävä pääsisin päästäisiin pääseminen pääsisivät pääsit pääsemässä päässeen pääsette pääsemiseksi pääsemiseen pääsemistä pääsisimme pääsisit pääsemisen päästessä pääsemästä pääsemisestä pääsemättä pääsemisessä päässet pääsemällä
+76	76	aina	aina ain ainoina ainoista ainoiksi
+77	77	koko	koko kokoa kokoon koon koossa koolle koolla koosta koot kokonsa kokoja kooksi kokoni
+78	78	itse	itse itsekin ite itsestään itselle itsellä itsekään itsestä itseltään itte itseä itsellemme itseltä itsessä itseen itsen itselleenkin itsenä
+79	79	moni	monet monta moni monia monen monissa monesti monella monien moneen monessa monelle monilla montaa monille monista monin monesta moniin monelta monilta moneksi monena monine monina
+80	80	maa	maan maa maassa maahan maata maissa maiden maasta maat maista maihin maalla maamme maita maalle mailla maansa maineen maille maana main maalta maaksi maataan mailta maasi maitten maani maidemme maiksi maanne
+81	81	työ	työtä töitä työ työn töissä töihin työt työstä työhön työssä työnsä töistä töiden työllä työni työsi työlle työmme työnä työksi työtäni työltä töille töitten töillä työksesi töiltä työnne töiksi
+82	82	vaikka	vaikka vaikkei vaikken vaik vaikket vaikkeivät vaikkemme vaikk
+83	83	mieli	mieltä mielestä mielestäni mieleen mielessä mieli mielestään mielen mielestäsi mielelläni mieleeni mielin mielensä mieleni mieltään mielestämme mielellä mielesi mielestänne mieltäni mielelle mieliin mielissä mieltäsi mieliksi mieliä mielet mielemme mielistä mieltämme mieltänsä mielenne
+84	84	lapsi	lasten lapset lapsen lapsi lapsia lasta lapsille lapsena lapselle lapsista lapsensa lapsesta lapsilla lapseni lapsiin lapsella lapsesi lastaan lapsien lapseen lapsemme lapsilta lapselta lapsistaan lapsineen lapsenne lapsina lastani lapseksi lapsissa lapsiksi lastaa lapsessa lastamme
+85	85	kertoa	kertoo kertoi kertoa kerro kerrotaan kertonut kertovat kertomaan kerrottiin kerrottu kerron kerroin kertoivat kertokaa kerros kertomatta kerrot kertoisi kertova kertomassa kerromme kertomalla kerrottavaa kertominen kerroit kertoimet kerrottava kertoman kertoen kerroimme kertoimella kertomasta kertoisin kertonee kertoma kertoakseen kertomista kertomisen kertoisit kertoisivat
+86	86	joku	joku jonkun jotkut jotakuta jollekulle jollakulla jotenkuten jk joltakulta johonkuhun jostakusta joitakuita joillekuille joillakuilla joidenkuiden
+87	87	ennen	ennen ennenkin ennemmin
+88	88	puoli	puolesta puoli puolella puolet puolestaan puolen puolelle puolelta puoleen puolin puolta puolilla puoliksi puolessa puolia puolestani puolilta puolestasi puolensa puolille puoleksi puolena puolellani puolista puolestamme puolestanne puolien puoliin puoleni puolesi puolten puolina puolemme
+89	89	sinä	sinä sinun sinulle sinua sinulla sinut sinusta sinäkin sinulta sinuun sinunkin sinussa sinäkään sul sinäkö sinuna sinutkin suna sinäpä sinähän
+90	90	vähän	vähän vähemmän vähiten
+91	91	lähteä	lähteä lähtee lähti lähtien lähde lähtenyt lähdetään lähtevät lähdin lähden lähtivät lähtemään lähin lähtisi lähdettiin lähtiessä lähdet lähtisin lähdimme lähdemme lähtevän lähimpään lähimmät lähdettävä lähdetty lähdit lähtevä lähteminen lähimmän lähetään lähimmälle lähtemistä lähimmästä lähdettäessä lähen lähtisivät lähtemästä lähtemällä lähtemisestä lähtevien
+92	92	suomalainen	suomalainen suomalaiset suomalaisen suomalaisten suomalaista suomalaisia suomalaisista suomalaisille suomalaisessa suomalaisesta suomalaiseen suomalaiselle suomalaisilla suomalaisiin suomalaisena suomalaisella suomalaisissa suomalaiseksi suomalaisilta suomalaiselta suomalaisina suomalaisin suomalaisiksi
+93	93	paikka	paikka paikalla paikan paikalle paikassa paikkaa paikkoja paikkaan paikkansa paikasta paikat paikkaansa paikoin paikoissa paikalta paikoista paikkoihin paikoilla paikkojen paikoille paikkana paikaksi paikkani paikoilta paikkamme paikkoina paikoiksi
+94	94	jokin	jotain jossain jokin jonkin jostain jotakin joskin jonnekin joitain jossakin jostakin joissain jollain jotkin jonain joltain joillain jotai joistain johonkin johonki joitakin joltakin joidenkin jotaki joiltain joinain joissakin jollekin joillakin joillekin jollakin joksikin joihinkin jk joistakin jonakin joiltakin joinakin joittenkin
+95	95	katsoa	katso katsoa katsomaan katsotaan katsoo katsomassa katsoin katsoi katson katsonut katsottu katsovat katsokaa katsot katsottiin katsottuna katsomatta kattoa katsoen katsomalla katsomme katsominen katsoivat katsottavaa katsoessa katos katotaan katsottua katsomisen katsottavissa katsottava katsoisi katsota katsomista katsoneet katsotuin katsoisin katsottavaksi katsoimme katsoit
+96	96	ensimmäinen	ensimmäinen ensimmäisen ensimmäistä ensimmäisenä ensimmäiset ensimmäisessä ensimmäisellä ensimmäisestä ensimmäiseksi ensimmäiseen ensimmäisiä ensimmäisten ensimmäiselle ensimmäisinä ensimmäisistä ensimmäisissä ensimmäiseltä ensimmäisiin ensimmäisillä ensimmäisille ensimmäisiksi ensimmäisensä ensimäinen ensimmäisiltä
+97	97	eli	eli
+98	98	esimerkiksi	esimerkiksi esim esimerkiks
+99	99	näin	näin näinkö näi
+100	100	miksi	miksi miksei miks mikset miksen mikseivät miksipä miksemme miksette miksikä

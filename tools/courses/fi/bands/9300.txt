@@ -1,0 +1,100 @@
+1	9201	jihad	jihad jihadia jihadin jihadiin jihadista
+2	9202	jälkikasvu	jälkikasvu jälkikasvua jälkikasvun jälkikasvunsa jälkikasvulle jälkikasvusta
+3	9203	yleishyödyllinen	yleishyödyllinen yleishyödyllistä yleishyödyllisten yleishyödyllisen yleishyödylliset yleishyödylliseen yleishyödyllisiä yleishyödyllisiin
+4	9204	kaikua	kaikuu kaikui kaikuvat kaikua kaikuivat kaiun kaiut
+5	9205	liueta	liukenee liueta liuennut liukenevat liukene liuenneet liukeneva liukeni
+6	9206	gray	gray grayn
+7	9207	sukellus	sukellus sukellusta sukelluksen sukelluksissa sukellukseen sukelluksia sukellukset
+8	9208	korkokenkä	korkokengät korkokenkiä korkokengissä korkokenkien korkokengillä korkokenkiin
+9	9209	hässäkkä	hässäkkä hässäkkää hässäkän hässäkässä
+10	9210	yltyä	yltyy yltyi yltynyt yltyivät yltyä yltyvät
+11	9211	jänne	jänne jänteet jänteen jänteitä jännettä jänteiden
+12	9212	haluton	haluton haluttomia
+13	9213	kansliapäällikkö	kansliapäällikkö kansliapäällikön kansliapäällikkönä
+14	9214	alias	alias
+15	9215	cis	cis
+16	9216	hra	hra
+17	9217	kokonaisvaltaisesti	kokonaisvaltaisesti
+18	9218	maantieteellisesti	maantieteellisesti
+19	9219	tapauskohtaisesti	tapauskohtaisesti
+20	9220	törkeästi	törkeästi
+21	9221	öh	öh
+22	9222	ylikomisario	ylikomisario ylikomisarion
+23	9223	rae	rakeita rae rakeet rakeiden rakeista
+24	9224	kävelijä	kävelijät kävelijä kävelijöitä kävelijöiden kävelijää kävelijän kävelijöille
+25	9225	ikäero	ikäero ikäeroa ikäeron ikäerosta ikäerolla
+26	9226	kuukausittainen	kuukausittainen kuukausittaiset kuukausittaista kuukausittaisen kuukausittaisia kuukausittaisten
+27	9227	mielensäpahoittaja	mielensäpahoittaja mielensäpahoittajan mielensäpahoittajat
+28	9228	onki	onki ongella onkia
+29	9229	merkillinen	merkillinen merkillistä merkillisen merkillisiä
+30	9230	lihaksikas	lihaksikas lihaksikkaat lihaksikkaita lihaksikkaan lihaksikasta
+31	9231	somero	somero someron somerolla
+32	9232	pohdiskella	pohdiskeli pohdiskella pohdiskelin pohdiskelee pohdiskelemaan pohdiskellut pohdiskelen pohdiskeleva
+33	9233	fyysikko	fyysikko fyysikot fyysikon
+34	9234	herttuatar	herttuatar herttuattaren
+35	9235	symboloida	symboloi symboloivat symboloiva
+36	9236	lämmitä	lämpiää lämmitä lämpiämään lämpiävät lämmittävä lämmittävän lämmittävää lämmittäessä lämmittäviä lämmittävät
+37	9237	verensokeri	verensokeri verensokerin verensokeria
+38	9238	tunto	tunto tuntoja tuntoa tunnolla tunnon tunnossa tunnot
+39	9239	välivuosi	välivuoden välivuotta välivuosi välivuosia
+40	9240	rahti	rahti rahdin rahtia rahdista rahtina
+41	9241	armahtaa	armahtaa armahti armahda armahdettiin armahdettu armahtamaan armahtanut armahdetaan
+42	9242	taantua	taantunut taantuu taantua taantui taantuminen taantuman taantumassa taantumaan taantumasta taannut taantumista
+43	9243	reaaliaikainen	reaaliaikainen reaaliaikaista reaaliaikaisen reaaliaikaiset
+44	9244	työolot	työolot työoloja työolojen työoloista työoloihin työoloissa
+45	9245	vankileiri	vankileirillä vankileireillä vankileirien vankileirille vankileirin vankileireille vankileirit vankileiri vankileirejä vankileiriltä vankileireistä
+46	9246	vuositaso	vuositasolla vuositason
+47	9247	kirottu	kirottu kirotun kirotut kirottujen kirottua
+48	9248	virkeä	virkeänä virkeä virkeämpi
+49	9249	taputtaa	taputtaa taputti taputtavat taputtamaan taputa taputtivat
+50	9250	perso	person persona perso
+51	9251	lippulaiva	lippulaiva lippulaivan lippulaivaksi lippulaivana
+52	9252	sharon	sharon sharonin
+53	9253	reima	reima reiman
+54	9254	vittumainen	vittumainen vittumaista
+55	9255	venäjänkielinen	venäjänkielinen venäjänkielisiä venäjänkieliset venäjänkielisen venäjänkielistä venäjänkielisten venäjänkielisestä
+56	9256	uutiskirje	uutiskirje uutiskirjeessä uutiskirjeitä
+57	9257	toiveikas	toiveikas toiveikkaana toiveikkaita toiveikasta toiveikkaina
+58	9258	kaksisuuntainen	kaksisuuntainen kaksisuuntaisen kaksisuuntaista kaksisuuntaisesta kaksisuuntaiseen
+59	9259	suomenhevonen	suomenhevosten suomenhevonen suomenhevosen suomenhevoset suomenhevosia
+60	9260	kohentaa	kohentaa kohentamaan kohensi kohentamiseen kohentamiseksi kohentaminen kohenna
+61	9261	trilleri	trilleri trillerissä trillerin trilleriä
+62	9262	kaunokirjallisuus	kaunokirjallisuuden kaunokirjallisuutta kaunokirjallisuus kauno kaunokirjallisuudessa kaunoja
+63	9263	ratsu	ratsu ratsun ratsunsa ratsut ratsua ratsuja ratsuna ratsulla
+64	9264	stara	stara staran starat
+65	9265	itseisarvo	itseisarvo itseisarvoa
+66	9266	sortaa	sortaa sorrettujen sorrettuja sorretaan sorrettu sorretut sorretun sorti sortavat sorra sortamisesta
+67	9267	avokado	avokado avokadoa avokadon avokadoja avokadot avokadosta
+68	9268	uimapuku	uimapuku uimapukua uimapuvun uimapuvussa uimapuvut uimapukuja
+69	9269	ovikello	ovikelloa ovikello ovikellon ovikelloja
+70	9270	järjestelmällinen	järjestelmällinen järjestelmällistä järjestelmällisen järjestelmällisestä järjestelmällisiä
+71	9271	kuolemanrangaistus	kuolemanrangaistus kuolemanrangaistuksen kuolemanrangaistusta kuolemanrangaistuksesta
+72	9272	otollinen	otollinen otollista otolliset otollisia otollisin otollisen
+73	9273	rivitalo	rivitalo rivitalon rivitalossa rivitaloja rivitalojen rivitaloissa rivitalot rivitaloa
+74	9274	tuliainen	tuliaisia tuliaiset tuliaisiksi tuliainen tuliaisina
+75	9275	kodinkone	kodinkoneet kodinkoneita kodinkoneiden kodinkone kodinkoneen kodinkoneisiin
+76	9276	televisiokanava	televisiokanava televisiokanavan televisiokanavat televisiokanavalla televisiokanavilla televisiokanavien televisiokanavalle televisiokanavaa
+77	9277	rakennemuutos	rakennemuutos rakennemuutoksen rakennemuutosta rakennemuutokset rakennemuutoksia rakennemuutosten
+78	9278	masennuslääke	masennuslääkkeitä masennuslääkkeet masennuslääkkeiden masennuslääke masennuslääkettä masennuslääkkeistä
+79	9279	julkishallinto	julkishallinnon julkishallinto julkishallinnossa
+80	9280	vyöryä	vyöryy vyöryi vyöryä vyöryvät vyöryivät vyörymään vyöryn
+81	9281	tyydytys	tyydytystä tyydytyksen tyydytys
+82	9282	pätkiä	pätkii pätkiä pätki pätkien
+83	9283	rautakauppa	rautakauppa rautakaupasta rautakaupan rautakaupassa rautakauppaan rautakaupoista
+84	9284	lueskella	lueskelin lueskella lueskellut lueskelen lueskelee
+85	9285	hyötykäyttö	hyötykäyttöön hyötykäyttöä hyötykäyttö hyötykäytössä
+86	9286	oliivi	oliiveja oliivit oliivi oliivin oliivia oliiveilla oliivien
+87	9287	kieliä	kielii kielinen kielivät kieliä kielien kielin
+88	9288	mukautua	mukautua mukautuu mukautumaan mukautuva mukautuvat mukautunut mukaudu mukauduttava
+89	9289	konjakki	konjakkia konjakki konjakin konjakit
+90	9290	osanotto	osanottoni osanotto osanottonsa
+91	9291	pokaali	pokaali pokaalin pokaalia pokaaleja
+92	9292	rappio	rappio rappiolla rappion rappiosta rappiota rappioon rappiolle
+93	9293	lentoemäntä	lentoemäntä lentoemännät lentoemännän lentoemäntiä lentoemäntää lentoemäntänä lentoemäntien
+94	9294	insta	insta instassa instan instaan
+95	9295	palli	palleja palli pallille pallien pallilla pallilta pallin
+96	9296	raivostuttaa	raivostuttaa raivostuttavaa raivostuttava raivostuttavan raivostutti
+97	9297	sairasloma	sairaslomaa sairaslomalla sairaslomalle sairasloma sairasloman
+98	9298	pamahtaa	pamahtaa pamahti
+99	9299	johdatus	johdatus johdatusta johdatuksen
+100	9300	maineikas	maineikas maineikkaan maineikkain maineikkaita maineikkaassa maineikasta maineikkaat

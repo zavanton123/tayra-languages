@@ -1,0 +1,100 @@
+1	6701	aihepiiri	aihepiiriin aihepiiri aihepiirin aihepiiristä aihepiiriä aihepiirit aihepiirejä aihepiireistä aihepiirien
+2	6702	typpi	typpeä typen typpi typestä typellä
+3	6703	tiheä	tiheä tiheää tiheän tiheät tiheämpi tiheällä tiheämpää tiheitä tiheässä tiheämpään tiheästä tihein
+4	6704	šokki	shokki sokki shokin shokkiin shokkina shokista shokkia šokissa
+5	6705	tasapainottaa	tasapainottaa tasapainottamaan tasapainottavat tasapainottaminen tasapainotettu tasapainottava tasapainotti
+6	6706	loikata	loikkasi loikannut loikata loikkaa loikkaamaan loikkasivat
+7	6707	ruuvi	ruuvia ruuvi ruuvit ruuveja ruuvin ruuveilla ruuvien ruuvilla
+8	6708	elvytys	elvytys elvytystä elvytyksen elvytyksestä elvytykseen
+9	6709	epävakaa	epävakaa epävakaan epävakaita epävakaata epävakaaksi epävakaat epävakaassa epävakaasta epävakaista epävakaana
+10	6710	postimerkki	postimerkkejä postimerkki postimerkit postimerkin postimerkkien postimerkkiä postimerkkiin postimerkissä postimerkeistä
+11	6711	varis	varis variksen varikset variksia varisten varista
+12	6712	paheksua	paheksuu paheksua paheksui paheksuttiin paheksutaan paheksuvat paheksuttavaa paheksuivat paheksun paheksu paheksunut paheksuttu
+13	6713	alkulohko	alkulohkon alkulohkossa alkulohkoon alkulohko alkulohkojen alkulohkosta alkulohkonsa alkulohkot
+14	6714	aloittelija	aloittelija aloittelijalle aloittelijan aloittelijoille aloittelijoiden aloittelijoita aloittelijat
+15	6715	melissa	melissa melissan
+16	6716	hengailla	hengailla hengailee hengailemaan hengaillaan hengaili hengailen hengaillut hengailtiin hengailevat hengailin hengailemassa
+17	6717	kutistua	kutistuu kutistunut kutistui kutistuvat kutistua kutistuminen kutistumisen kutistuivat kutistumaan kutistumista kutistu
+18	6718	joululahja	joululahjaksi joululahja joululahjoja joululahjat joululahjan joululahjojen joululahjaa
+19	6719	äänestysprosentti	äänestysprosentti äänestysprosentin äänestysprosentit
+20	6720	metroasema	metroaseman metroasema metroasemalla metroasemalle metroasemalta metroasemaa metroasemien metroasemat metroasemilla
+21	6721	mutsi	mutsi mutsin mutsille
+22	6722	dee	dee deen dein
+23	6723	sulautua	sulautuu sulautuvat sulautua sulautuminen sulautui sulautunut sulautuivat sulautumaan sulautumista sulautuneet sulautumisen
+24	6724	alkuaika	alkuaikoina alkuaikojen alkuajoista alkuajoilta alkuajan alkuajat alkuaikoja
+25	6725	liima	liimaa liima liiman liimalla liimatta liimat liimaan
+26	6726	semifinaali	semifinaalissa semifinaali semifinaalin semifinaaliin semifinaaleissa semifinaalit semifinaaleihin semifinaalista
+27	6727	ironia	ironia ironiaa ironian ironiasta
+28	6728	soija	soija soijaa soijan soijasta soijalla
+29	6729	liemi	liemi liemessä liemeen lientä liemen liemestä
+30	6730	mainostaja	mainostajat mainostajien mainostajan mainostajille mainostaja mainostajia
+31	6731	parlamenttivaali	parlamenttivaalit parlamenttivaaleissa parlamenttivaalien parlamenttivaaleihin parlamenttivaaleja
+32	6732	lohtu	lohtua lohtu lohdun lohduksi
+33	6733	perusteellinen	perusteellinen perusteellisen perusteellista perusteellisia perusteelliset perusteelliseen perusteellisempi
+34	6734	liina	liina liinalla liinoja liinan liinat liinaa liinaan
+35	6735	kummitus	kummitus kummituksia kummituksen kummitukset kummitusten kummitusta kummituksista kummituksiin
+36	6736	lempi	lempi lemmen lempein
+37	6737	esikoinen	esikoinen esikoisen esikoisensa esikoiseni esikoista esikoiset esikoisena esikoisella
+38	6738	pikkuinen	pikkuinen pikkuiset pikkuista pikkuisia pikkuiselle pikkuisesta
+39	6739	piiloutua	piiloutua piiloutuu piiloutui piiloutuvat piiloutunut piiloutumaan piiloutuivat piiloutumalla piiloutuminen
+40	6740	vaaratilanne	vaaratilanteita vaaratilanne vaaratilanteen vaaratilanteessa vaaratilanteet vaaratilanteiden vaaratilannetta vaaratilanteista vaaratilanteissa
+41	6741	sulku	sulku sulun suluissa sulut sulkua sulkuja sulkujen sulkuihin
+42	6742	kantakaupunki	kantakaupungin kantakaupungissa kantakaupunkiin kantakaupunki kantakaupungista kantakaupunkia
+43	6743	energiantuotanto	energiantuotannon energiantuotanto energiantuotannossa energiantuotantoon energiantuotantoa energiantuotannosta energiatuotannon energiatuotanto
+44	6744	purjehdus	purjehdus purjehduksen purjehduksessa purjehdusta purjehduksesta purjehdukselle purjehdukseen
+45	6745	perillinen	perillinen perilliset perillisiä perillisen perillisten perillistä perillisille perillisensä perilliselle
+46	6746	katkeruus	katkeruutta katkeruus katkeruuden katkeruudesta katkeruuteen
+47	6747	koetella	koettelee koetteli koetellaan koetella koettelevat koetellut koeteltu koettelivat koeteltiin koettelemaan
+48	6748	gay	gay gayn
+49	6749	apulanta	apulanta apulannan apulantaa
+50	6750	tuntu	tuntu tunnusta tunnut tunnun
+51	6751	halkaisija	halkaisija halkaisijan
+52	6752	solidaarisuus	solidaarisuus solidaarisuutta solidaarisuuden solidaarisuudesta solidaarisuuteen
+53	6753	tyhmyys	tyhmyys tyhmyyttä tyhmyydestä tyhmyyksiä tyhmyyden
+54	6754	atk	atk
+55	6755	komeasti	komeasti
+56	6756	mitenkä	mitenkä
+57	6757	näkyvän	näkyvän
+58	6758	näppärästi	näppärästi
+59	6759	odotetusti	odotetusti
+60	6760	päällekkäin	päällekkäin
+61	6761	saappaat	saappaat
+62	6762	suomalaisittain	suomalaisittain
+63	6763	tallella	tallella
+64	6764	tasapuolisesti	tasapuolisesti
+65	6765	esitelmä	esitelmä esitelmän esitelmiä esitelmää esitelmät esitelmien esitelmästä esitelmäni
+66	6766	tepsiä	tepsi tepsin tepsiä tepsii tepsivät tepsinyt
+67	6767	hätänumero	hätänumeroon hätänumero
+68	6768	paljastus	paljastus paljastuksia paljastukset paljastuksen paljastusten paljastusta paljastuksista paljastuksesta
+69	6769	monopoli	monopoli monopolia monopolin monopoleja monopolien monopolista monopolit
+70	6770	talkoot	talkoisiin talkoot talkoissa talkoilla talkoita talkoiden
+71	6771	globalisaatio	globalisaatio globalisaation globalisaatiota globalisaatiosta globalisaatioon
+72	6772	tarjoilu	tarjoilu tarjoilua tarjoiluun tarjoilun tarjoilusta tarjoilut tarjoiluista
+73	6773	varuskunta	varuskunnan varuskunta varuskunnassa varuskuntien varuskuntaan varuskunnissa varuskuntia varuskunnasta varuskuntaa
+74	6774	peukku	peukkuja peukku peukut peukkua peukun
+75	6775	vino	vino vinoon vinot vinon vinoja
+76	6776	laturi	laturi laturin laturia laturit latureita laturiin
+77	6777	rikkinäinen	rikkinäinen rikkinäisiä rikkinäisen rikkinäiset rikkinäistä rikkinäisestä rikkinäisellä rikkinäisten
+78	6778	objektiivinen	objektiivinen objektiivista objektiivisia objektiivisen objektiiviseen objektiivisena
+79	6779	korkeasti	korkeasti korkeammin korkeimmin
+80	6780	muistikuva	muistikuvia muistikuvat muistikuva muistikuvaa muistikuvani muistikuvien muistikuvan
+81	6781	sovitus	sovitus sovituksen sovitukset sovituksia sovituksessa sovitukseen sovituksesta sovitusten sovituksissa sovitusta sovituksista
+82	6782	senttinen	senttinen senttisen senttisiä senttistä senttiseksi senttiset
+83	6783	maustaa	maustaa maustetaan maustamatonta maustamiseen mausta maustamaton maustaminen maustamaan maustavat maustamattoman
+84	6784	ilahtua	ilahtunut ilahtuu ilahduin ilahtui ilahtuvat ilahdu ilahtua
+85	6785	lapsenlapsi	lapsenlapsi lapsenlapset lapsenlapsensa lapsenlapsia lapsenlapsille lapsenlapsen lapsenlapseni lapsenlasta lapsenlapselle
+86	6786	laskuttaa	laskuttaa laskutetaan laskuttavat laskutettu laskuttamaan laskutti laskuttanut laskuta
+87	6787	apulainen	apulainen apulaisena apulaisen apulaisensa apulaisia apulaiseksi apulaiset apulaista apulaisineen
+88	6788	kunnas	kunnas kunnaksen kunnailla kunnasta
+89	6789	kaupata	kaupata kauppasi kaupattiin kaupataan kauppaa kauppaan kauppaamaan kauppaaminen kauppaavat kaupattu kaupannut kauppaamassa
+90	6790	suudelma	suudelma suudelman suudelmia suudelmaan suudelmaa suudelmasta suudelmat suudelmalla
+91	6791	loinen	loinen loisia loiset loisen loisten loisista loista loisin
+92	6792	neuvottelukunta	neuvottelukunnan neuvottelukunta neuvottelukunnassa neuvottelukuntaan
+93	6793	kaura	kaura kauraa kauran kaurasta
+94	6794	rokottaa	rokottaa rokotettu rokotetaan rokottaminen rokota rokottamisen rokottamaan rokotettiin rokotti
+95	6795	kiiltävä	kiiltävä kiiltävän kiiltävää kiiltävät kiiltäviä kiiltäväksi kiiltävällä
+96	6796	perääntyä	perääntymään perääntyä perääntyi perääntyivät perääntyminen perääntynyt peräänny perääntyvät perääntyy perääntymistä
+97	6797	haulikko	haulikko haulikolla haulikon haulikkoa haulikot haulikoita
+98	6798	arvaus	arvaus arvauksia arvaukseni arvauksen arvausta arvauksesi
+99	6799	anatomia	anatomia anatomian anatomiaa anatomiasta anatomiaan anatomiassa
+100	6800	sympatia	sympatiaa sympatiat sympatia sympatian sympatiani sympatioita

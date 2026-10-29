@@ -1,0 +1,100 @@
+1	4201	rikosilmoitus	rikosilmoitus rikosilmoituksen rikosilmoitusta rikosilmoituksia rikosilmoitukset rikosilmoitusten
+2	4202	epämääräinen	epämääräinen epämääräisiä epämääräistä epämääräisen epämääräiset epämääräisten epämääräiseksi epämääräiseen epämääräisestä epämääräisiin epämääräiseltä epämääräisistä epämääräisellä epämääräisillä epämääräisenä epämääräisempi epämääräisessä epämääräisissä
+3	4203	nyrkki	nyrkki nyrkillä nyrkit nyrkin nyrkkiä nyrkistä nyrkkiin nyrkein nyrkeillä nyrkissä nyrkkinsä nyrkkien nyrkkejä
+4	4204	viisaus	viisautta viisaus viisauden viisauksia viisaudesta viisauteen viisautensa viisaudet viisaudessa
+5	4205	herätys	herätys herätyksen herätystä herätyksestä
+6	4206	käyttöönotto	käyttöönottoa käyttöönotto käyttöönoton käyttöönotosta käyttöönottoon käyttöönotossa käyttöönotolla
+7	4207	tarkastelu	tarkastelu tarkastelua tarkasteluun tarkastelun tarkastelussa tarkastelusta
+8	4208	tarjoilija	tarjoilija tarjoilijan tarjoilijat tarjoilijana tarjoilijalle tarjoilijaksi tarjoilijaa tarjoilijoita tarjoilijoiden tarjoilijalta tarjoilijoille
+9	4209	tiiviisti	tiiviisti tiiviimmin
+10	4210	valaista	valaisee valaista valaistu valaisevat valaistaan valaisin valaiseva valaisemaan valaisi valaise valaistunut valaisevaa valaistiin valaisivat valaisemiseen
+11	4211	kummasti	kummasti kummemmin
+12	4212	aamupala	aamupala aamupalaa aamupalaksi aamupalan aamupalalla aamupalalle aamupalasta
+13	4213	salkku	salkku salkun salkkua salkussa salkkuun salkusta salkut salkkuja
+14	4214	jalo	jalo jaloa jalon jaloissa jaloista jaloin jaloja jalot jaloilla jalkoihin jalosta jaloille jalojen jaloilta
+15	4215	elektroniikka	elektroniikka elektroniikan elektroniikkaa elektroniikkaan elektroniikasta elektroniikassa elektroniikalla
+16	4216	pesu	pesu pesun pesuun pesua pesussa pesulla pesulle pesusta
+17	4217	aasi	aasia aasi aasin aasit aasilla aaseja aasien
+18	4218	sosialismi	sosialismi sosialismin sosialismia sosialismiin sosialismista sosialismissa
+19	4219	liikuttaa	liikuttaa liikuta liikuttamaan liikutti liikutella liikutellaan liikuttamalla liikuttavat liikutetaan liikuttavaa liikuttaminen liikuttava liikuttamiseen liikuttanut liikuttelee liikuttaessa liikuttavan liikuttavia
+20	4220	tyydyttää	tyydyttää tyydyttävä tyydytä tyydyttämään tyydyttänyt tyydyttävää tyydyttämiseen tyydytti tyydytetty tyydyttävän tyydyttämiseksi tyydyttävät tyydyttäminen tyydyttäisi tyydyttämistä tyydyttääkseen tyydytetään tyydyttäviä tyydyttävällä tyydyttävään tyydyttävänä
+21	4221	veteraani	veteraani veteraanien veteraanit veteraaneja veteraanin veteraaneille veteraaneista veteraania veteraanina
+22	4222	antautua	antautumaan antautui antautua antaudun antautuu antautuminen antautumista antautumisen antautunut antaudu antautuivat antautumisesta antautuneet antautuvat antauduttava
+23	4223	vierailija	vierailija vierailijat vierailijoita vierailijoiden vierailijaa vierailijoille vierailijan vierailijoista vierailijana vierailijoilta vierailijalle vierailijoihin
+24	4224	rakentua	rakentuu rakentunut rakentuvat rakentui rakentua rakentuva rakentuminen rakentumista rakennuttaman
+25	4225	vaurio	vaurioita vauriot vaurioiden vaurio vaurion vaurioista vauriota vauriosta vaurioilta vaurioin vaurioitta vaurioihin
+26	4226	luoma	luomaan luomista luomaa luomia luomat luomassa luomalla luomansa luomien luoman luomiin luomille luoma luomasta luomissa
+27	4227	ammattitaito	ammattitaitoa ammattitaito ammattitaidon ammattitaidolla ammattitaitoon ammattitaidosta ammattitaitonsa
+28	4228	masentunut	masentunut masentuneena masentuneen masentuneita masentuneet masentuneelle masentuneeksi masentunutta masentuneiden masentuneelta
+29	4229	näyttämö	näyttämöllä näyttämö näyttämölle näyttämön näyttämönä näyttämöltä näyttämöä näyttämöksi näyttämöillä
+30	4230	taru	taru tarua tarun tarujen taruja tarut
+31	4231	terveyspalvelu	terveyspalvelut terveyspalveluiden terveyspalvelujen terveyspalveluja terveyspalveluissa terveyspalveluita terveyspalveluihin terveyspalveluista terveyspalvelu
+32	4232	karja	karjaa karja karjan karjaan karjalle karjasta karjansa
+33	4233	elokuvateatteri	elokuvateatteri elokuvateattereissa elokuvateatterissa elokuvateatterit elokuvateatterin elokuvateattereihin elokuvateatteria elokuvateatteriin elokuvateattereiden elokuvateattereita elokuvateatterista
+34	4234	uskottavuus	uskottavuutta uskottavuus uskottavuuden uskottavuutensa uskottavuudesta uskottavuuteen
+35	4235	sotku	sotku sotkua sotkusta sotkun sotkuun sotkut sotkuja sotkuista sotkussa sotkujen
+36	4236	tulokas	tulokas tulokkaan tulokkaat tulokkaita tulokkaiden tulokkaalle tulokkaana tulokasta tulokkaille tulokkaaksi tulokkaista tulokkaasta
+37	4237	kylpyhuone	kylpyhuoneen kylpyhuone kylpyhuoneessa kylpyhuoneeseen kylpyhuonetta kylpyhuoneesta kylpyhuoneet kylpyhuoneita kylpyhuoneesi
+38	4238	löysä	löysää löysä löysät löysällä löysin löysiä löysän löysässä löysäksi löysästä löysälle löysempi löysään
+39	4239	puolalainen	puolalainen puolalaiset puolalaisia puolalaisen puolalaisten puolalaista puolalaisille puolalaiseen puolalaiselle puolalaisessa
+40	4240	työllistyminen	työllistyminen työllistymisen työllistymistä työllistymiseen työllistymisestä työllistymisessä
+41	4241	kommunismi	kommunismin kommunismi kommunismia kommunismiin kommunismista
+42	4242	jokseenkin	jokseenkin
+43	4243	kohtalaisen	kohtalaisen
+44	4244	äskettäin	äskettäin
+45	4245	kehittäjä	kehittäjä kehittäjät kehittäjien kehittäjänä kehittäjän kehittäjille kehittäjiä kehittäjistä kehittäjäksi kehittäjää
+46	4246	pidentää	pidentää pidennetty pidentäminen pidensi pidentävät pidentämään pidennetään pidennettiin pidentämistä pidentämällä pidentämisestä pidentämiseen pidentämiseksi pidentämisen pidentänyt pidennä
+47	4247	tekoäly	tekoäly tekoälyn tekoälyä tekoälystä tekoälyyn tekoälyllä
+48	4248	aggressiivinen	aggressiivinen aggressiivista aggressiivisia aggressiivisen aggressiiviseen aggressiiviseksi aggressiivisesta aggressiiviset aggressiivisempi agressiivinen aggressiivisella aggressiivisena aggressiivisten
+49	4249	luovuus	luovuutta luovuus luovuuden luovuuteen luovuudesta luovuudelle luovuutensa
+50	4250	uinti	uinti uinnin uintia uinnit uinnissa uintiin uinnista uinnille uinneissa
+51	4251	jälkeläinen	jälkeläisiä jälkeläinen jälkeläiset jälkeläisten jälkeläisistä jälkeläistä jälkeläisensä jälkeläisen jälkeläisille
+52	4252	luottokortti	luottokortin luottokortti luottokortilla luottokorttia luottokortit luottokortteja luottokorttien luottokorteilla luottokorttisi luottokorteista luottokorttinsa
+53	4253	opastaa	opastaa opastavat opasti opastamaan opastettuja opasta opastettu opastetaan opastanut opastin opastamassa opastettiin opastivat opastetun
+54	4254	työtehtävä	työtehtäviä työtehtävät työtehtävien työtehtävissä työtehtäviin työtehtävä työtehtävistä työtehtävän työtehtävää työtehtävässä työtehtävään työtehtävästä työtehtävänsä
+55	4255	veikka	veikkaan veikka veikkaa veikkojen veikkoja
+56	4256	verenpaine	verenpaine verenpainetta verenpaineen verenpaineeseen verenpaineesta verenpaineeni verenpaineensa
+57	4257	mehiläinen	mehiläinen mehiläiset mehiläisen mehiläisten mehiläisiä mehiläistä mehiläisessä mehiläisille mehiläiselle mehiläisistä
+58	4258	päihde	päihteiden päihteet päihteitä päihde päihteisiin päihteistä päihteenä päihteillä päihteen
+59	4259	tuntemus	tuntemuksia tuntemus tuntemusta tuntemukset tuntemuksen tuntemuksista tuntemusten tuntemuksiin tuntemukseni tuntemukseen tuntemuksensa tuntemuksesta
+60	4260	funktio	funktio funktion funktiota funktiot funktiona funktioita funktioiden funktiolla
+61	4261	haavoittunut	haavoittunut haavoittuneita haavoittuneen haavoittunutta haavoittuneet haavoittuneiden haavoittuneena haavoittuneille haavoittuneista
+62	4262	nalle	nalle nallen nallet nalleja nallea
+63	4263	liukas	liukas liukasta liukkaan liukkaita liukkaat liukkaalla liukkailla liukkaaksi
+64	4264	väkiluku	väkiluku väkilukuun väkiluvun väkiluvusta väkilukua väkiluvut
+65	4265	henkilöllisyys	henkilöllisyys henkilöllisyyden henkilöllisyyttä henkilöllisyydestä henkilöllisyydet henkilöllisyyksiä
+66	4266	vakio	vakio vakiona vakion vakiot vakiota vakioita vakioiden
+67	4267	nokka	nokka nokan nokkaan nokassa nokkaa nokasta nokat nokkansa nokalla
+68	4268	hävetä	hävetä häpeää häpeän hävetkää häpeämään häpesin häpeävät hävennyt häpesi häpeäisit häpeämätön
+69	4269	talouspolitiikka	talouspolitiikan talouspolitiikka talouspolitiikkaa talouspolitiikasta talouspolitiikassa talouspolitiikkaan talouspolitiikalla
+70	4270	kettu	kettu ketun ketut kettua kettuja kettujen ketusta
+71	4271	luonnonvara	luonnonvarojen luonnonvaroja luonnonvarat luonnonvara luonnonvaroista luonnonvaroihin
+72	4272	manu	manu manun manulle
+73	4273	pihvi	pihvi pihvin pihvit pihvejä pihviä pihvien pihvistä pihviin pihveistä
+74	4274	luomu	luomu luomua luomun luomuna luomuun luomusta luomussa
+75	4275	vangittu	vangittu vangittuna vangittua vangittuina vangitut vangitun vangittujen vangittuja vangituista vangituksi
+76	4276	toteutunut	toteutunut toteutuneet toteutuneen toteutuneita toteutuneiden toteutuneista toteutunutta toteutuneisiin
+77	4277	myrkyllinen	myrkyllinen myrkyllistä myrkyllisiä myrkyllisten myrkyllisen myrkylliset myrkylliseksi myrkyllisestä myrkyllisistä
+78	4278	lähipiiri	lähipiirin lähipiirissä lähipiiristä lähipiiri lähipiiriin lähipiirinsä lähipiirille lähipiiriä lähipiirini
+79	4279	puoliaika	puoliajalla puoliajan puoliaika puoliajalle puoliaikaa
+80	4280	republikaani	republikaanien republikaanit republikaani republikaaneja republikaaneilla republikaaneille republikaaneista republikaaneihin
+81	4281	aktiivisuus	aktiivisuus aktiivisuutta aktiivisuuden aktiivisuudesta aktiivisuuteen aktiivisuutensa aktiivisuudella aktiivisuudessa
+82	4282	yläaste	yläasteen yläaste yläasteella yläasteelle yläasteelta yläastetta
+83	4283	hyväntekeväisyys	hyväntekeväisyyteen hyväntekeväisyyttä hyväntekeväisyys hyväntekeväisyyden hyväntekeväisyydestä hyväntekeväisyydessä
+84	4284	keitto	keitto keittoa keiton keittoon keitot keittoja keitosta keittoihin keitossa keittojen keitoissa
+85	4285	slovakia	slovakia slovakian slovakiassa slovakiaa slovakiasta slovakiaan
+86	4286	tuulivoima	tuulivoima tuulivoiman tuulivoimaa tuulivoimalla tuulivoimasta tuulivoimaan tuulivoimalle
+87	4287	mittava	mittava mittavan mittavia mittavat mittavaa mittavasta mittaviin mittavin mittavien mittavaan mittavista
+88	4288	murre	murre murretta murteella murteet murteen murteita murteiden murteesta murteissa murteista murteessa
+89	4289	vääntö	vääntö vääntöä väännön vääntöjä väännöt väännöstä
+90	4290	näkyvyys	näkyvyys näkyvyyden näkyvyydestä näkyvyyteen näkyvyydellä
+91	4291	tiedekunta	tiedekunnan tiedekunta tiedekunnassa tiedekuntaan tiedekunnasta tiedekuntien tiedekuntaa tiedekunnat tiedekunnissa
+92	4292	suorituskyky	suorituskyky suorituskykyä suorituskyvyn suorituskykyyn suorituskyvystä suorituskyvyssä suorituskykynsä suorituskyvyllä
+93	4293	äärimmäinen	äärimmäinen äärimmäistä äärimmäisiä äärimmäisessä äärimmäiset äärimmäiseen äärimmäisenä äärimmäisissä äärimmäisestä äärimmäisiin äärimmäisellä äärimmäisten äärimmäisistä
+94	4294	palautus	palautus palautusta palautuksen palautuksia palautukset palautukseen palautuksesta palautusten palautuksista
+95	4295	pääsiäinen	pääsiäisen pääsiäinen pääsiäisenä pääsiäistä pääsiäiseen pääsiäiseksi pääsiäisestä
+96	4296	leppäpirkko	pirkko
+97	4297	toisinpäin	toisinpäin
+98	4298	tä	tä
+99	4299	tiedemies	tiedemies tiedemiehet tiedemiehiä tiedemiesten tiedemiehen tiedemiestä tiedemiehenä tiedemiehistä tiedemiehille
+100	4300	twiitti	twiitti twiitin twiittejä twiitit twiittiä twiitissä twiitistä tviitti twiittiin twiiteistä twiittien twiiteissä

@@ -1,0 +1,100 @@
+1	7601	palveluntarjoaja	palveluntarjoaja palveluntarjoajan palveluntarjoajat palveluntarjoajien palveluntarjoajia palveluntarjoajaa palveluntarjoajalle palveluntarjoajille
+2	7602	pelästyä	pelästyin pelästyi pelästyy pelästyä pelästynyt pelästy pelästyvät pelästyivät
+3	7603	kitka	kitkaa kitka kitkan kitkat kitkatta
+4	7604	inkeri	inkeri inkerin
+5	7605	perimmäinen	perimmäinen perimmäisenä perimmäistä perimmäisen perimmäisiä perimmäiset perimmäisestä perimmäisten
+6	7606	tora	torilla tora torin torille torilta toria toran torista torien toriin torissa
+7	7607	pohjalainen	pohjalainen pohjalaisen pohjalaiset pohjalaisia pohjalaisten pohjalaista
+8	7608	kolesteroli	kolesterolin kolesterolia kolesteroli kolesterolista
+9	7609	armi	armi armin armia
+10	7610	kapellimestari	kapellimestari kapellimestarina kapellimestarin kapellimestarit
+11	7611	sarjamurhaaja	sarjamurhaaja sarjamurhaajan sarjamurhaajat sarjamurhaajia sarjamurhaajaa sarjamurhaajasta
+12	7612	huppari	huppari hupparin hupparit huppareita hupparissa hupparia huppariin
+13	7613	kuuluisuus	kuuluisuuteen kuuluisuus kuuluisuuksia kuuluisuutta kuuluisuuksien kuuluisuuden kuuluisuudet kuuluisuudesta
+14	7614	neuvola	neuvolassa neuvola neuvolan neuvolaan neuvoloissa neuvolat neuvolasta neuvoloiden
+15	7615	supistua	supistuu supistui supistunut supistuvat supistua supistuivat supistuessa supistumista
+16	7616	pinnallinen	pinnallinen pinnallisia pinnallista pinnalliseksi pinnallisen pinnalliset pinnallisena pinnalliselta
+17	7617	lisäosa	lisäosa lisäosat lisäosia lisäosan lisäosien lisäosaa
+18	7618	huolenpito	huolenpitoa huolenpito huolenpidosta huolenpidon huolenpitoon
+19	7619	konsti	konsti konstit konstilla konsteja konstia konsteilla konstin konstein
+20	7620	etuosa	etuosassa etuosa etuosaan etuosan etuosasta etuosaa
+21	7621	ihanteellinen	ihanteellinen ihanteellista ihanteellisen ihanteellisessa ihanteelliset ihanteellisia ihanteellisin ihanteellisena
+22	7622	provinssi	provinssi provinssin provinssissa provinssiin provinssista provinsseissa provinssia
+23	7623	seksuaalivähemmistö	seksuaalivähemmistöjen seksuaalivähemmistöön seksuaalivähemmistöihin seksuaalivähemmistöjä seksuaalivähemmistöt seksuaalivähemmistöille
+24	7624	liepeillä	liepeillä liepeille liepeiltä
+25	7625	vaatetus	vaatetus vaatetuksen vaatetusta vaatetuksesta vaatetukseen vaatetuksessa vaatetuksella
+26	7626	ihastus	ihastus ihastusta ihastuksen ihastuksesta ihastuksensa ihastukseni ihastuksesi
+27	7627	keskeytyä	keskeytyi keskeytyy keskeytyivät keskeytynyt keskeytymisen
+28	7628	moro	moro moron
+29	7629	liukua	liukuu liukui liukua liukumaan liukumista liukuvat liukunut liukuivat liukuminen liu'un
+30	7630	alapää	alapään alapää alapäässä alapäästä alapäähän alapäätä
+31	7631	ruska	ruska ruskista ruskan ruskaa ruskin
+32	7632	sateenkaari	sateenkaaren sateenkaari sateenkaaria sateenkaarta
+33	7633	toimivalta	toimivalta toimivaltaa toimivaltaan toimivallan toimivaltansa
+34	7634	liioiteltu	liioiteltu liioiteltua liioiteltuja liioitellun liioitellut liioiteltuna
+35	7635	loppuunmyyty	loppuunmyyty loppuunmyytyjä loppuunmyydyn loppuunmyydyssä loppuunmyydyllä loppuunmyytyä
+36	7636	auringonvalo	auringonvalon auringonvalo auringonvaloa auringonvalossa auringonvalosta auringonvalolle auringonvalolta auringonvaloon
+37	7637	saalistaa	saalistaa saalisti saalista saalistamaan saalistavat saalistivat saalistanut
+38	7638	selvyys	selvyyttä selvyyden selvyys selvyyteen selvyytenä
+39	7639	lihapulla	lihapullat lihapullia lihapulla lihapullien lihapullan
+40	7640	monikulttuurinen	monikulttuurinen monikulttuurisen monikulttuurisessa monikulttuurista monikulttuuriseen
+41	7641	kehotus	kehotus kehotuksesta kehotuksen kehotusta kehotuksia kehoitus kehotukset kehotuksista
+42	7642	lipsahtaa	lipsahti lipsahtaa lipsahtanut lipsahtamaan
+43	7643	väre	väreet väreitä väre väreissä väreihin väreistä värein väreinä väreille väreiksi
+44	7644	tavaratila	tavaratilan tavaratila tavaratilassa tavaratilaan tavaratilaa tavaratilasta
+45	7645	saame	saamen saame saamea saameksi
+46	7646	optimaalinen	optimaalinen optimaalista optimaalisen optimaalisessa optimaalisin optimaalisia optimaalisella
+47	7647	harmonia	harmonia harmoniaa harmonian harmoniassa harmoniaan harmoniasta harmonioita harmoniat
+48	7648	kansallismielinen	kansallismieliset kansallismielisten kansallismielinen kansallismielisiä kansallismielisen kansallismielistä
+49	7649	kuuntelija	kuuntelija kuuntelijat kuuntelijan kuuntelijaa kuuntelijoita kuuntelijoiden kuuntelijoille
+50	7650	rinki	rinki ringin ringissä rinkiin rinkiä ringistä
+51	7651	tahra	tahrat tahroja tahra tahran tahraa tahrojen
+52	7652	tykistö	tykistön tykistö tykistöä tykistöllä tykistössä
+53	7653	presidenttiehdokas	presidenttiehdokas presidenttiehdokkaaksi presidenttiehdokkaan presidenttiehdokkaana presidenttiehdokkaat presidenttiehdokkaiden presidenttiehdokasta
+54	7654	huokua	huokuu huokui huokuva huokuvat
+55	7655	tuisku	tuisku tuiskun
+56	7656	takaraivo	takaraivossa takaraivoon takaraivon takaraivo takaraivosta
+57	7657	työssäkäyvä	työssäkäyvä työssäkäyviä työssäkäyvien työssäkäyvät työssäkäyvistä työssäkäyville työssäkäyvän työssäkäyvillä
+58	7658	laiskuus	laiskuus laiskuutta laiskuudesta laiskuuden laiskuuteen
+59	7659	kommunikointi	kommunikointi kommunikointia kommunikoinnin kommunikointiin kommunikoinnissa
+60	7660	vety	vety vetyä vedyn vedystä vedyllä vedyksi
+61	7661	itsemääräämisoikeus	itsemääräämisoikeutta itsemääräämisoikeuden itsemääräämisoikeus itsemääräämisoikeudesta itsemääräämisoikeuteen
+62	7662	ammunta	ammunta ammunnan ammuntaa ammunnat ammuntaan ammunnassa ammunnoissa
+63	7663	rekisteröinti	rekisteröinti rekisteröinnin rekisteröintiä rekisteröinnistä rekisteröinnit rekisteröintiin rekisteröinnissä
+64	7664	kelata	kelata kelasin kelatkaa kelataan kelannut kelaa kelaamaan kelailla kelaan
+65	7665	pöllö	pöllö pöllön pöllöt pöllöjä pöllömpi pöllöä pöllöjen
+66	7666	sello	sello sellon selloa sellossa
+67	7667	aitous	aitous aitoutta aitouden aitoudesta aitouteen
+68	7668	ruokala	ruokalassa ruokala ruokalan ruokalaan ruokalasta ruokalaa
+69	7669	sandaali	sandaalit sandaaleissa sandaali sandaaleja sandaalien sandaaleita
+70	7670	ammuskelu	ammuskelu ammuskelua ammuskelun ammuskelussa ammuskelusta ammuskelut ammuskeluun
+71	7671	nami	nami namia namin nameja
+72	7672	hyvinvointiyhteiskunta	hyvinvointiyhteiskunnan hyvinvointiyhteiskunta hyvinvointiyhteiskuntaa hyvinvointiyhteiskunnassa
+73	7673	elävänä	elävänä
+74	7674	hakusessa	hakusessa
+75	7675	nykyä	nykyä
+76	7676	näyttävästi	näyttävästi
+77	7677	poispäin	poispäin
+78	7678	pääasiallisesti	pääasiallisesti
+79	7679	yksitellen	yksitellen
+80	7680	vääristää	vääristää vääristävät vääristä vääristävä
+81	7681	lonkero	lonkeroa lonkerot lonkeron lonkero lonkeroita lonkeroiden lonkeronsa
+82	7682	ammattikoulu	ammattikoulu ammattikoulun ammattikoulussa ammattikouluun ammattikouluissa ammattikoulujen ammattikoulusta ammattikoulua
+83	7683	tuskallinen	tuskallista tuskallisen tuskallinen tuskallisia
+84	7684	terveysvaikutus	terveysvaikutuksista terveysvaikutukset terveysvaikutuksia terveysvaikutusten terveysvaikutuksiin
+85	7685	mielisairaala	mielisairaalaan mielisairaala mielisairaalassa mielisairaalan mielisairaalasta
+86	7686	tempo	tempo tempoa tempon tempolla tempossa tempoon
+87	7687	kauppatiede	kauppatieteiden kauppatieteen kauppatieteitä kauppatieteet
+88	7688	varaosa	varaosia varaosien varaosat varaosa varaosiksi varaosista
+89	7689	altistuminen	altistuminen altistumisen altistumista altistumisesta
+90	7690	filosofinen	filosofinen filosofisia filosofisen filosofiset filosofiseen filosofisten filosofisista filosofista filosofisessa filosofisesta filosofisiin
+91	7691	rutto	rutto ruttoa ruton ruttoon
+92	7692	kukkaro	kukkarossa kukkaro kukkarolle kukkaron kukkaroa kukkarosta kukkaroon kukkarolla
+93	7693	käytöstapa	käytöstavat käytöstapoja käytöstapojen käytöstavoista käytöstapoihin
+94	7694	pienehkö	pienehkö pienehköjä pienehkön pienehköt pienehköä pienehkössä
+95	7695	verovarat	verovaroja verovaroin verovaroista verovaroilla verovarojen
+96	7696	huuhdella	huuhtele huuhdella huuhdellaan huuhtelee huuhdeltu
+97	7697	unkarilainen	unkarilainen unkarilaiset unkarilaisen unkarilaisia unkarilaista unkarilaisten unkarilaisesta unkarilaisista
+98	7698	kuntaliitos	kuntaliitoksen kuntaliitos kuntaliitosten kuntaliitoksia kuntaliitosta kuntaliitokset kuntaliitoksesta kuntaliitoksissa
+99	7699	remontoida	remontoitu remontoida remontoitiin remontoi remontoidaan remontoimaan remontoinut
+100	7700	isosisko	isosisko isosiskon isosiskonsa isosiskoni isosiskoa

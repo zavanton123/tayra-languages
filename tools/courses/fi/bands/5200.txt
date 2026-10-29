@@ -1,0 +1,100 @@
+1	5101	valokuvaus	valokuvaus valokuvauksen valokuvausta valokuvauksesta valokuvaukseen valokuvauksessa
+2	5102	noni	noniin noni
+3	5103	altis	altis alttiita alttiiksi alttiimpia alttiina alttiimpi altista alttiit
+4	5104	luterilainen	luterilainen luterilaisen luterilaiset luterilaiseen luterilaisessa luterilaista luterilaisia luterilaisten
+5	5105	salmi	salmi salmen salmessa salmista salmea salmia salmien salmelle salmet
+6	5106	selkäranka	selkärankaa selkärangan selkäranka selkärankaan selkärangasta ranka selkärangassa
+7	5107	ennustus	ennustus ennustukset ennustuksen ennustuksia ennustusta ennustusten ennustuksesta ennustuksista ennustuksiin ennustukseen
+8	5108	kierrätys	kierrätys kierrätykseen kierrätystä kierrätyksen kierrätyksestä kierrätyksessä
+9	5109	imperiumi	imperiumin imperiumi imperiumia imperiumista imperiumissa imperiumiin imperiuminsa
+10	5110	epidemia	epidemian epidemia epidemiaa epidemioita epidemiat epidemiasta epidemiaan epidemioiden
+11	5111	perehtynyt	perehtynyt perehtyneet perehtyneen perehtyneitä
+12	5112	aamuyö	aamuyöstä aamuyöllä aamuyön aamuyö aamuyöhön
+13	5113	vainio	vainio vainion
+14	5114	elinkautinen	elinkautinen elinkautiseen elinkautisen elinkautista elinkautisesta elinkautiseksi
+15	5115	alempana	alempana alempaa alemmas
+16	5116	viive	viiveellä viive viivettä viiveen viiveitä viiveet
+17	5117	lukeutua	lukeutuu lukeutuva lukeutuvat lukeutui lukeutunut lukeudu lukeutuivat
+18	5118	kolmekymmentä	kolmekymmentä kolmenkymmenen kolmeakymmentä kolmeenkymmeneen kolmestakymmenestä kolmessakymmenessä
+19	5119	nussia	nussia nussi nussin nussii nussimaan nussitaan nussivat nussiminen nussimista nussinut nussimisesta
+20	5120	kaavailla	kaavailtu kaavaillaan kaavailee kaavailtiin kaavaillut kaavaili kaavaillun kaavailema kaavailtua
+21	5121	pyörätie	pyörätie pyörätiellä pyörätien pyörätielle pyöräteitä pyörätiet pyörätietä pyöräteiden pyöräteillä
+22	5122	siunata	siunattu siunaa siunatkoon siunasi siunata siunattiin siunaaminen siunaamaan siunannut siunataan siunaamisen
+23	5123	kelpo	kelpo
+24	5124	perusta	perustana perustan perustaksi perusta perustat perustalle perustaan perustasta perustalta
+25	5125	aurinkolasit	aurinkolasit lasit aurinkolaseja aurinkolaseissa aurinkolasien
+26	5126	kumi	kumi kumia kumin kumista kumit kumina kumeja
+27	5127	poikia	poikien poiki poikii poikinut poikia poikivat poikimaan
+28	5128	piirustus	piirustukset piirustuksia piirustus piirustusten piirustuksen piirustuksista piirustuksissa piirustusta piirustuksiin piirustuksessa
+29	5129	oppikirja	oppikirjan oppikirjoja oppikirja oppikirjat oppikirjojen oppikirjoissa oppikirjasta oppikirjaa oppikirjoista oppikirjassa oppikirjoihin oppikirjaksi
+30	5130	arka	arka arin arkoja arkaan aran arat arkaa arkana arkojen arista aroilla arasta aroille
+31	5131	apuraha	apurahan apuraha apurahoja apurahat apurahaa apurahojen apurahalla apurahoista apurahoilla
+32	5132	ikäraja	ikäraja ikärajaa ikärajan ikärajat ikärajoja ikärajoista ikärajaksi ikärajojen ikärajalla
+33	5133	sujuvasti	sujuvasti sujuvammin
+34	5134	napa	napa navan napaa napaan navat napojen navasta
+35	5135	aura	aura auran auraa aurat aurassa auroja
+36	5136	keskisuomalainen	keskisuomalainen keskisuomalaisen keskisuomalaisessa
+37	5137	vastaavanlainen	vastaavanlainen vastaavanlaisia vastaavanlaista vastaavanlaisen vastaavanlaiset vastaavanlaisesta vastaavanlaiseen vastaavanlaisessa vastaavanlaisten vastaavanlaisiin vastaavanlaisista vastaavanlaisissa
+38	5138	mieliala	mieliala mielialaa mielialan mielialaan mielialat mielialoja mielialansa mielialojen mielialani mielialasta
+39	5139	kuumuus	kuumuus kuumuutta kuumuuden kuumuudessa kuumuudesta kuumuuteen
+40	5140	tusina	tusina tusinan tusinaa tus tusinassa tusinaan tusinasta
+41	5141	blondi	blondi blondin blondia blondit blondina blondien blondeja blondiksi
+42	5142	jatkosota	jatkosodan jatkosodassa jatkosota jatkosodasta jatkosotaan jatkosotaa
+43	5143	työväki	työväen työväkeä työväki
+44	5144	ruoho	ruoho ruohoa ruohon ruohosta ruoholla ruohot
+45	5145	vuodenvaihde	vuodenvaihteessa vuodenvaihteen vuodenvaihdetta vuodenvaihteeseen vuodenvaihde vuodenvaihteesta
+46	5146	aukioloaika	aukioloajat aukioloaikojen aukioloaikoja aukioloaikana aukioloaikoina aukioloaika aukioloajoista
+47	5147	panostus	panostus panostusta panostuksia panostukset panostuksella panostuksen panostuksesta panostusten
+48	5148	vastapuoli	vastapuolen vastapuoli vastapuolella vastapuolelle vastapuolta vastapuolelta vastapuolena
+49	5149	älykkyys	älykkyys älykkyyttä älykkyyden älykkyydestä älykkyyteen älykkyytensä älykkyydellä älykkyydessä
+50	5150	khat	kati khat
+51	5151	erikoisuus	erikoisuus erikoisuutena erikoisuuksia erikoisuudet erikoisuuksiin erikoisuuksista erikoisuutta erikoisuuden erikoisuutensa
+52	5152	kulttuurinen	kulttuurinen kulttuuriset kulttuurisen kulttuurisesta kulttuurisia kulttuuristen kulttuurista kulttuuriseen kulttuurisista kulttuurisena
+53	5153	yrtti	yrttejä yrtit yrttien yrtti yrteistä yrteillä yrttiä yrtin
+54	5154	ukrainalainen	ukrainalaiset ukrainalainen ukrainalaisia ukrainalaisen ukrainalaisten ukrainalaista ukrainalaisista
+55	5155	kunnanhallitus	kunnanhallitus kunnanhallituksen kunnanhallitukselle kunnanhallituksessa
+56	5156	viikoittain	viikoittain viikottain
+57	5157	mielekäs	mielekästä mielekäs mielekkääksi mielekkäitä mielekkään mielekkäänä mielekkäältä mielekkäällä
+58	5158	formaatti	formaatti formaatin formaatissa formaattiin formaattia formaatista formaatteja formaatit formaateissa formaatilla formaattina
+59	5159	murehtia	murehtia murehdi murehtimaan murehtii murehtiminen murehdin murehtimatta murehti murehtivat
+60	5160	uniikki	uniikki uniikkeja uniikin uniikkia uniikit
+61	5161	mauri	mauri maurin maurien maurit
+62	5162	paini	paini painin painia painissa painista paineista painiin painit paineissa
+63	5163	kuuntelu	kuuntelu kuunteluun kuuntelun kuuntelua kuuntelusta kuuntelussa
+64	5164	edullisesti	edullisesti edullisemmin edullisimmin
+65	5165	kiehua	kiehumaan kiehuu kiehua kiehuvaa kiehuvaksi kiehuvaan kiehuvan kiehuvassa kiehuva kiehui kiehu
+66	5166	soturi	soturi soturit sotureita soturin soturia sotureiden soturien soturiksi sotureista soturina sotureille
+67	5167	käyrä	käyrä käyrän käyrät käyrää käyriä käyrällä käyrien
+68	5168	latina	latinaa latinan latina latinaksi latinasta latinassa
+69	5169	muuttuja	muuttujia muuttuja muuttujat muuttujan muuttujien muuttujaa muuttujista muuttujaan
+70	5170	puro	puro puron puroista puroissa puroja puroa purot purojen purosta purossa puroon
+71	5171	traileri	traileri trailerin trailerissa trailereita trailerit traileria trailerista traileriin trailerilla
+72	5172	riemu	riemua riemu riemusta riemun riemuksi riemulla riemuun
+73	5173	kaupungintalo	kaupungintalo kaupungintalon kaupungintalolla kaupungintalolle kaupungintalossa kaupungintaloa kaupungintalolta kaupungintaloon
+74	5174	vähätellä	vähätellä vähättele vähätellään vähättelee vähätteli vähättelevät vähätellyt vähättelemään vähättelevä vähätellen vähäteltiin vähättelet vähätelty vähättelemättä
+75	5175	hengellinen	hengellinen hengellistä hengellisen hengellisiä hengelliset hengelliseen hengellisten hengellisessä hengellisestä hengellisistä hengellisenä
+76	5176	kierre	kierre kierteen kierrettä kierteeseen kierteellä kierteessä kierteestä kierteet
+77	5177	kustantaa	kustantaa kustantamaan kustansi kustantavat kustantanut kustantama kustannetaan kustantaminen kustantaman kustantaisi kustannettu kustantamiseen kustanna kustantamassa
+78	5178	tulostaa	tulostaa tulostettu tulosta tulostin tulostetaan tulostaminen tulostamaan tulostamme tulosti tulostamiseen
+79	5179	vastus	vastus vastuksen vastusta vastukset vastuksia vastuksesta
+80	5180	tempaus	tempaus tempauksen tempaukset tempauksia tempauksessa tempauksesta tempausta tempaukseen tempauksista tempauksilla tempauksiin tempauksella
+81	5181	synttärit	synttärit synttäreitä synttäreille synttäreillä synttäreiden synttäri
+82	5182	protesti	protesti protestin protestit protesteja protestina protestiksi protestien protestia protesteihin protesteista protestiin protestista protesteissa
+83	5183	rautatie	rautateiden rautatie rautatien rautatiet rautateitä rautatietä rautateillä rautatiellä rautatielle rautateille rautateistä
+84	5184	infra	infra infran infraa infraan
+85	5185	vastaanottaja	vastaanottaja vastaanottajan vastaanottajalle vastaanottajien vastaanottajaa vastaanottajat vastaanottajana vastaanottajalla vastaanottajia vastaanottajaksi vastaanottajille
+86	5186	yhteydenotto	yhteydenottoa yhteydenottoja yhteydenotot yhteydenotto yhteydenoton yhteydenottojen yhteydenottoihin yhteydenotoista yhteydenotosta yhteydenottoon
+87	5187	kääntäjä	kääntäjä kääntäjän kääntäjät kääntäjien kääntäjänä kääntäjää kääntäjällä kääntäjiä kääntäjille kääntäjäksi kääntäjälle
+88	5188	urho	urho urhon urhot uro
+89	5189	mamma	mamma mamman mammat mammalle mammaa
+90	5190	euroalue	euroalueen euroalueella euroalue euroalueeseen euroaluetta euroalueesta
+91	5191	vähennys	vähennys vähennykset vähennyksiä vähennystä vähennyksen vähennykseen vähennysten vähennyksiin vähennyksistä
+92	5192	ahaa	ahaa
+93	5193	ka	ka
+94	5194	kaa	kaa
+95	5195	laillisesti	laillisesti
+96	5196	väistämättä	väistämättä
+97	5197	rajallinen	rajallinen rajalliset rajallista rajallisen rajallisia rajallisten rajallisella rajallisista
+98	5198	lähestymistapa	lähestymistapa lähestymistapaa lähestymistavan lähestymistapoja lähestymistavasta lähestymistapaan lähestymistavat lähestymistavalla
+99	5199	gallup	gallup gallupit gallupeissa gallupin gallupissa gallupien
+100	5200	umpeen	umpeen ummessa

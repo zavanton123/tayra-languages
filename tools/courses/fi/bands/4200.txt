@@ -1,0 +1,100 @@
+1	4101	ehjä	ehjänä ehjä ehjät ehjinä ehjää ehjiä ehjin ehjän ehjäksi ehjään ehjältä
+2	4102	päivämäärä	päivämäärä päivämäärää päivämäärän päivämäärät päivämääriä päivämäärästä päivämäärällä päivämäärien päivämäärään
+3	4103	uutisointi	uutisointi uutisointia uutisoinnin uutisoinnista uutisoinnissa uutisointiin
+4	4104	surra	sure suree surra suremaan suri surin surevat suren sureva surrut surevan surisi surevia surraan surivat
+5	4105	ellet	ellet
+6	4106	erinomaisesti	erinomaisesti
+7	4107	maailmanlaajuisesti	maailmanlaajuisesti
+8	4108	sahra	saara
+9	4109	rennosti	rennosti rennommin
+10	4110	lahjoitus	lahjoituksia lahjoituksen lahjoitus lahjoitukset lahjoitusten lahjoituksena lahjoituksina lahjoituksista lahjoituksilla lahjoituksesta lahjoitusta lahjoituksiin lahjoituksella lahjoitukseen
+11	4111	tykki	tykki tykit tykin tykkejä tykkiä tykillä tykkien tykeillä tykistä
+12	4112	vesistö	vesistöjen vesistön vesistöt vesistöön vesistöihin vesistössä vesistöjä vesistö vesistöissä vesistöä vesistöistä vesistöstä
+13	4113	takainen	takainen takaisesta takaiseen takaisen takaista takaisia takaiset takaisista takaisiin takaisessa takaisten takaisella takaiselle
+14	4114	seteli	seteleitä seteli setelit setelin seteliä setelien seteleinä seteleistä setelillä seteleiden seteleillä seteliin setelissä seteleissä setelistä seteleihin
+15	4115	korpi	korpi korvissa korville korven korvessa korvilla korvista korpea korpeen korvesta korvin korpien
+16	4116	hiihtää	hiihti hiihtää hiihtämään hiihtänyt hiihdetään hiihdettiin hiihtäen hiihtävät hiihtämällä hiihtivät hiihtäminen hiihtämässä hiihdä hiihtämistä hiihtämisestä hiihdetty
+17	4117	eteneminen	etenemistä etenemisen etenemisestä etenemiseen eteneminen etenemisessä etenemiselle
+18	4118	kuoro	kuoro kuoron kuorossa kuoroa kuoroon kuorojen kuorot kuorolle kuorosta kuoroja kuorolla kuoroissa
+19	4119	ilmakehä	ilmakehään ilmakehän ilmakehässä ilmakehä ilmakehästä ilmakehää
+20	4120	tunkeutua	tunkeutui tunkeutua tunkeutuu tunkeutuminen tunkeutuivat tunkeutuvat tunkeutunut tunkeutumaan tunkeutumisen tunkeutumista tunkeutumisesta tunkeuduttiin tunkeutuneen tunkeutumalla tunkeuduttu
+21	4121	valmius	valmius valmiutta valmiudet valmiuksia valmiudessa valmiuden valmiuteen valmiudesta valmiutensa valmiuksien
+22	4122	vakituinen	vakituinen vakituista vakituisen vakituisia vakituisessa vakituiset vakituiseen vakituisten vakituiseksi vakituisena vakituisesta vakituisista vakituisiin
+23	4123	savolainen	savolainen savolaisen savolaiset savolaisten savolaisia savolaista
+24	4124	lataus	lataus latauksen latausta latauksella lataukseen latauksessa lataukset latauksia latauksesta
+25	4125	kaksikymmentä	kaksikymmentä kahdenkymmenen kahteenkymmeneen kahdestakymmenestä kahtakymmentä kahdessakymmenessä kahdellakymmenellä
+26	4126	aktivisti	aktivistit aktivisti aktivistien aktivisteja aktivistin aktivistia aktivisteista aktivisteille aktivistina
+27	4127	yksilöllinen	yksilöllistä yksilöllinen yksilöllisiä yksilölliset yksilöllisen yksilöllisten yksilölliseen yksilöllisestä yksilöllisistä
+28	4128	kaatunut	kaatunut kaatuneiden kaatuneen kaatuneet kaatunutta kaatuneita kaatuneista kaatuneitten kaatuneille kaatuneesta
+29	4129	työmatka	työmatkalla työmatka työmatkat työmatkan työmatkalle työmatkoja työmatkojen työmatkoilla työmatkaa työmatkoihin työmatkaan työmatkalta työmatkani työmatkansa työmatkasta
+30	4130	kanadalainen	kanadalainen kanadalaisen kanadalaiset kanadalaista kanadalaisten kanadalaisia kanadalaisessa kanadalaiselle kanadalaisesta kanadalaisille kanadalaiseen
+31	4131	lääkitys	lääkitys lääkitystä lääkityksen lääkityksellä lääkityksestä lääkitykseen lääkitykset lääkityksiä
+32	4132	hyvästi	hyvästi hyvästit hyvästejä hyvästiksi hyvästien
+33	4133	piispa	piispa piispat piispan piispojen piispaksi piispalle piispaa piispana piispalta
+34	4134	lautakunta	lautakunta lautakunnan lautakuntien lautakunnassa lautakunnalle lautakuntaan lautakunnat lautakunnissa lautakuntaa
+35	4135	murtua	murtui murtuu murtuvat murtua murtuminen murtuivat murtumisen murru murtuman murtumisesta murtuvan murtumiseen murtumaton murtuisi murtuessa murtumaan murtuneet murtumista murtumassa murtumasta
+36	4136	leveys	leveys leveyttä leveyden leveydeltä leveydestä leveyksillä leveyteen leveydellä
+37	4137	kestävyys	kestävyyttä kestävyys kestävyyden kestävyydestä kestävyyteen kestävyytensä kestävyydessä
+38	4138	telakka	telakan telakalla telakka telakalle telakalta telakkaa telakat telakoiden telakasta telakoilla telakoille telakoita telakkaan
+39	4139	mittaus	mittaus mittausten mittaukset mittauksia mittauksen mittauksissa mittauksessa mittausta mittauksiin mittaukseen mittauksista mittauksilla mittauksesta mittauksella
+40	4140	maraton	maratonin maraton maratonilla maratonia maratonille maratoneja maratoniin maratonit maratonista
+41	4141	vaikeasti	vaikeasti vaikeammin vaikeimmin
+42	4142	ohjeistus	ohjeistus ohjeistusta ohjeistuksen ohjeistukset ohjeistuksia ohjeistuksesta ohjeistuksessa ohjeistukseen ohjeistuksella
+43	4143	osakilpailu	osakilpailu osakilpailun osakilpailua osakilpailussa osakilpailuun osakilpailusta osakilpailuissa osakilpailut osakilpailuja osakilpailujen osakilpailuihin
+44	4144	sisarus	sisarukset sisarusten sisaruksia sisarusta sisaruksista sisaruksen sisaruksensa sisarus sisaruksille sisarukseni sisaruksilla sisaruksesta
+45	4145	terveyskeskus	terveyskeskus terveyskeskuksen terveyskeskuksessa terveyskeskukseen terveyskeskusten terveyskeskukset terveyskeskuksissa terveyskeskuksesta terveyskeskusta terveyskeskuksiin terveyskeskuksia terveyskeskuksista
+46	4146	arktinen	arktisen arktinen arktiset arktisten arktisilla arktisella arktisesta arktista arktisessa arktiseen arktisia arktisiin arktisille arktisissa arktiselle
+47	4147	nimetön	nimetön nimettömänä nimettömän nimettömät nimettömiä nimetöntä nimettöminä nimettömien nimettömään nimettömäksi nimettömässä nimettömästä nimettömiin nimettömällä
+48	4148	anarkisti	anarkistit anarkistien anarkisti anarkisteja anarkistin anarkistista anarkistia anarkisteista anarkistiksi
+49	4149	lievästi	lievästi lievemmin
+50	4150	viljellä	viljellä viljellään viljelee viljelty viljelemään viljellyt viljelevät viljeli viljeltiin viljeltyä viljelivät viljelemällä viljeltyjä viljellyn viljeltyjen viljele viljelevä viljeleminen
+51	4151	syytön	syytön syyttömiä syyttömäksi syyttömänä syyttömän syytöntä syyttömät syyttömien syyttömiksi syyttöminä
+52	4152	hyi	hyi
+53	4153	itsenäisesti	itsenäisesti
+54	4154	näkyvyyttä	näkyvyyttä
+55	4155	näkyviin	näkyviin näkyvistä
+56	4156	journalisti	journalisti journalistin journalistit journalistien journalisteja journalistista journalistina journalisteille journalistia journalistiksi
+57	4157	uhkaus	uhkaus uhkauksia uhkauksen uhkaukset uhkauksesta uhkauksensa uhkauksista uhkausta uhkausten uhkaukseen uhkauksiin uhkauksena
+58	4158	osakas	osakas osakkaat osakkaiden osakkaaksi osakkaana osakkaille osakkaan osakkaita osakasta osakkaista osakkaina osakkaiksi osakkaalle
+59	4159	kuivua	kuivuu kuivumaan kuivua kuivui kuivumista kuivuvat kuivuminen kuivumisen kuivumassa kuivuivat kuivu kuivumiseen kuivumisesta kuivuessa
+60	4160	lyönti	lyönnin lyöntiä lyönti lyönnillä lyönnit lyöntejä lyöntien lyönnistä lyöntiin lyönneistä lyönneillä lyönnissä
+61	4161	huvila	huvila huvilan huvilassa huvilalla huvilaa huvilat huviloita huvilaan huvilasta huvilalle huviloiden huviloista huvilansa
+62	4162	hockey	hockey hockeyn
+63	4163	muotoinen	muotoinen muotoisia muotoisen muotoiset muotoista muotoiseksi muotoiseen muotoisessa muotoisena muotoisiksi muotoisella muotoisesta muotoisista
+64	4164	jokunen	jokunen jokusen
+65	4165	elinkeino	elinkeino elinkeinojen elinkeinon elinkeinot elinkeinoja elinkeinoa elinkeinoihin elinkeinonsa elinkeinoista
+66	4166	palatsi	palatsin palatsi palatsissa palatsiin palatsista palatsia palatseja palatsit palatsien
+67	4167	olemus	olemus olemusta olemukseen olemuksen olemuksesta olemuksensa olemuksessa olemuksemme olemukseni
+68	4168	ahdas	ahdasta ahdas ahtaalle ahtaassa ahtaissa ahtaita ahtaaksi ahtaat ahtaalla ahtaan ahtaaseen ahtaisiin ahtaiksi ahtaalta ahtaista ahtaasta ahtaammalle ahtaiden
+69	4169	hanska	hanskat hanskassa hanskoja hanska hanskan hanskaa hanskaan hanskojen
+70	4170	leski	leski lesken leskeksi lesket leskeä leskelle leskien leskiä leskenä leskeltä leskistä leskensä leskestä
+71	4171	kaupunginjohtaja	kaupunginjohtaja kaupunginjohtajan kaupunginjohtajat kaupunginjohtajaksi kaupunginjohtajana
+72	4172	sisäpuoli	sisäpuolella sisäpuolelle sisäpuolelta sisäpuoli sisäpuolen
+73	4173	vihkiä	vihittiin vihitään vihkiminen vihkiä vihkimisen vihitty vihkimistä vihki vihkimään vihkii vihkimiseen vihkimisestä vihkinyt
+74	4174	lukita	lukittu lukita lukitsee lukitaan lukitse lukitsi lukinnut lukittiin lukitsemaan lukitsematta lukitseminen lukittava lukitsevat lukitsivat lukitsin lukitsemalla lukitsematon
+75	4175	manageri	manageri managerin managerina managerinsa manageriksi managerit manageria managerille
+76	4176	temppeli	temppelin temppeli temppelissä temppeliin temppelistä temppeliä temppeleitä temppelit temppelille temppeleiden temppeleissä temppelillä temppeleihin temppelien
+77	4177	ylistää	ylistää ylisti ylistetty ylistetään ylistävät ylistivät ylistäviä ylistettiin ylistämään ylistänyt ylistävän ylistävä ylistävää ylistä ylistämä ylistäminen ylistämme ylistäen
+78	4178	pysäkki	pysäkillä pysäkki pysäkille pysäkin pysäkiltä pysäkkiä pysäkit pysäkkejä pysäkeillä pysäkkien pysäkeille
+79	4179	palautua	palautuu palautua palautui palautunut palautuvat palaudu palautumaan palautuisi palautuivat palautuvan palautumassa palautuva palautumista
+80	4180	työmaa	työmaalla työmaa työmaan työmaalle työmaalta työmailla työmaata työmaat työmaiden työmaille
+81	4181	tatuointi	tatuointi tatuoinnit tatuoinnin tatuointeja tatuointia tatuoinneista tatuointien tatuoinnista tatuointinsa
+82	4182	karkottaa	karkottaa karkotettiin karkotetaan karkotti karkotettu karkottamaan karkoittaa karkottaminen karkottanut karkottavat karkottamista karkottivat karkottamiseen karkottamiseksi karkottamisesta karkota karkotettava karkottamisen
+83	4183	arpoa	arvotaan arvottiin arponen arpoa arvottu arpoo arpomaan arpomalla arvot arpoi arpomista arvota arvomme
+84	4184	hollantilainen	hollantilainen hollantilaiset hollantilaisen hollantilaisia hollantilaisten hollantilaista hollantilaiseen hollantilaiselle hollantilaisesta hollantilaisessa hollantilaisella
+85	4185	perehtyä	perehtyä perehtymistä perehtymään perehtyminen perehtyy perehdytään perehtyi perehdy perehtymisen perehdyin perehtyvät perehtymättä perehtyivät
+86	4186	toimeentulo	toimeentulon toimeentulo toimeentuloa toimeentulonsa toimeentulosta toimeentuloon
+87	4187	kaikkensa	kaikkensa kaikkemme kaikkeni kaikkesi
+88	4188	jännite	jännite jännitteitä jännitettä jännitteet jännitteen jännitteiden jännitteellä jännitteistä jännitteestä jännitteisiin
+89	4189	diili	diili diilin diiliä diilejä diilistä diilit diiliin diilissä
+90	4190	koitua	koituu koitui koitua koidu koituvat koitunut koituisi koituivat koituva
+91	4191	harkinta	harkintaa harkinnan harkintaan harkinnassa harkinta harkintansa harkinnasta harkinnalla
+92	4192	satanen	satasen satasella satanen satasia satasta sataseen satasesta
+93	4193	muistutus	muistutus muistutuksen muistutuksena muistutuksia muistutuksesta muistutukseksi muistutusta muistutukset
+94	4194	syytös	syytökset syytöksiä syytös syytösten syytöksiin syytöksistä syytöksen syytöstä
+95	4195	vahvistua	vahvistuu vahvistui vahvistunut vahvistuvat vahvistua vahvistuivat vahvistuneet vahvistuisi vahvistuessa vahvistumaan vahvistu
+96	4196	jälkeenpäin	jälkeenpäin
+97	4197	odotettavissa	odotettavissa
+98	4198	pikaisesti	pikaisesti
+99	4199	vaikutelma	vaikutelma vaikutelman vaikutelmaa vaikutelmia
+100	4200	pulla	pullaa pulla pullat pullasta pullan pullia pullin pullista pullien pullaan

@@ -1,0 +1,100 @@
+1	8401	tiheys	tiheys tiheyden tiheyttä tiheydestä tiheydellä tiheyteen
+2	8402	oivaltaa	oivaltaa oivalsi oivaltanut oivaltava oivalsin oivaltaminen oivaltamisen oivallettu oivaltamaan
+3	8403	korppi	korppi korpin korpit korppia korppien
+4	8404	gorilla	gorilla gorillan gorillat gorillojen
+5	8405	valokuvata	valokuvasi valokuvata valokuvaaminen valokuvaamaan valokuvaamisen valokuvaamisesta valokuvaamista valokuvannut valokuvattiin valokuvattu valokuvaamiseen valokuvaamalla valokuvataan valokuvaa valokuvaan
+6	8406	elintaso	elintason elintasoa elintasoon elintasosta
+7	8407	kammio	kammio kammion kammioon kammiossa kammiosta kammiot kammiota
+8	8408	vanne	vanteet vanne vanteen vanteiden vanteita vannetta vanteilla
+9	8409	läjä	läjä läjän läjään läjässä
+10	8410	muotoutua	muotoutuu muotoutunut muotoutui muotoutua muotoutuvat muotoutumassa
+11	8411	arkeologi	arkeologi arkeologit arkeologien arkeologeja arkeologia arkeologista arkeologin
+12	8412	materia	materiaa materian materia materiasta materiaan
+13	8413	raivoissaan	raivoissaan raivoihinsa raivoissani
+14	8414	siirtymä	siirtymistä siirtymää siirtymään siirtymiä siirtymät siirtymässä siirtymällä siirtymän siirtymä siirtymästä
+15	8415	samurai	samurai samurait samurain samuraita samuraiden
+16	8416	sinetöidä	sinetöi sinetöity sinetöidä sinetöitiin sinetöivät sinetöidään
+17	8417	aha	aha
+18	8418	epäsuorasti	epäsuorasti
+19	8419	etänä	etänä
+20	8420	loitolla	loitolla
+21	8421	perustellusti	perustellusti
+22	8422	pirusti	pirusti
+23	8423	surkeasti	surkeasti
+24	8424	tauno	tauno
+25	8425	tilastollisesti	tilastollisesti
+26	8426	viidesti	viidesti
+27	8427	nelikymppinen	nelikymppinen nelikymppisenä nelikymppisiä nelikymppiset nelikymppisen
+28	8428	laajuinen	laajuinen laajuisen laajuista laajuisia laajuiset laajuiseen laajuisesta
+29	8429	rakkaustarina	rakkaustarina rakkaustarinan rakkaustarinoita rakkaustarinaa rakkaustarinat
+30	8430	lisävaruste	lisävarusteena lisävarusteita lisävarusteet lisävaruste lisävarusteina lisävarusteista
+31	8431	kytätä	kytätä kyttää kyttäämään kyttääminen kyttäämässä kyttäävät kyttäsi kytätään kyttäämistä
+32	8432	inkivääri	inkivääri inkivääriä inkiväärin inkiväärillä inkivääristä
+33	8433	kaulakoru	kaulakoru kaulakorun kaulakorut kaulakorua kaulakoruja
+34	8434	tintti	tintti tintin
+35	8435	samantapainen	samantapainen samantapaista samantapaisia samantapaisen samantapaiset
+36	8436	liesi	lieden liesi liedellä liedeltä liedelle liedet liettä
+37	8437	tummaihoinen	tummaihoinen tummaihoisia tummaihoiset tummaihoisen tummaihoista tummaihoisten
+38	8438	homous	homous homoutta homouden homoudesta homouteen
+39	8439	vuo	vuotta vuo vuolle vuona vuon voita voissa voilla voihin voista voineen vuodan
+40	8440	sekaannus	sekaannus sekaannusta sekaannuksia sekaannuksen sekaannuksesta sekaannusten
+41	8441	vankeustuomio	vankeustuomion vankeustuomio vankeustuomiota vankeustuomiot vankeustuomioita vankeustuomioon
+42	8442	freelancer	freelancer freelancerina freelancereita freelanceriksi freelancerin freelancerit
+43	8443	työvuoro	työvuoron työvuoro työvuoroja työvuorot työvuorossa työvuorojen työvuoroa työvuoronsa
+44	8444	teippi	teippiä teippi teipit teipillä teipin teipistä
+45	8445	tarpeellisuus	tarpeellisuudesta tarpeellisuus tarpeellisuutta tarpeellisuuden
+46	8446	mieltymys	mieltymykset mieltymysten mieltymys mieltymyksiä mieltymyksistä mieltymyksensä mieltymyksen mieltymyksiin
+47	8447	oikeusvaltio	oikeusvaltio oikeusvaltion oikeusvaltiossa oikeusvaltiota oikeusvaltioon
+48	8448	ruokalaji	ruokalajin ruokalaji ruokalajeja ruokalajia ruokalajit ruokalajeista ruokalajien
+49	8449	dokumentoida	dokumentoitu dokumentoida dokumentoi dokumentoidaan dokumentoinut dokumentoimaan dokumentoitiin dokumentoivat
+50	8450	kaste	kaste kasteen kasteessa kastetta kasteesta kasteeseen
+51	8451	epäsuora	epäsuora epäsuoraa epäsuorat epäsuoria epäsuoraan epäsuoran epäsuorista
+52	8452	vitutus	vitutus vitutusta vitutuksen vitutukseen
+53	8453	valtimo	valtimon valtimo valtimoiden valtimolla valtimoita valtimot valtimoon
+54	8454	kasvissyöjä	kasvissyöjä kasvissyöjiä kasvissyöjäksi kasvissyöjät kasvissyöjille kasvissyöjien kasvissyöjän
+55	8455	lyhennys	lyhennys lyhennykset lyhennyksiä lyhennystä lyhennyksiin lyhennyksen lyhennysten
+56	8456	palovamma	palovammoja palovammat palovammojen palovamman palovamma palovammoihin
+57	8457	saastunut	saastunut saastuneen saastunutta saastuneet saastuneita saastuneesta saastuneiden
+58	8458	lottovoitto	lottovoitto lottovoiton lottovoittoa lottovoitosta
+59	8459	mietintö	mietintö mietinnön mietinnössä mietintönsä mietinnöstä mietintöön mietintöä mietintöjä
+60	8460	sievä	sievä sievin sieviä sievät sievissä sievän
+61	8461	osasyy	osasyynä osasyy
+62	8462	akvaario	akvaario akvaarion akvaariossa akvaarioon akvaariosta akvaariota
+63	8463	korvaaja	korvaajaksi korvaaja korvaajaa korvaajana korvaajan korvaajiksi korvaajia
+64	8464	avio	avio aviossa avioon
+65	8465	peluri	peluri pelurit pelureita pelurin
+66	8466	ramppi	ramppi rampin ramppia rampit rampille rampilta rampista ramppeja rampilla ramppien
+67	8467	inspiroiva	inspiroiva inspiroivaa inspiroivat inspiroivia
+68	8468	lapio	lapio lapiolla lapion lapiot lapioita lapiota
+69	8469	luotsata	luotsasi luotsaama luotsaamaan luotsaa luotsannut luotsaaman luotsata luotsaamassa
+70	8470	löydös	löydökset löydös löydöksiä löydösten löydöksistä löydöksen löydöksiin löydöstä
+71	8471	asiointi	asiointi asiointia asioinnin asiointiin asioinnista
+72	8472	ahdistella	ahdistelee ahdistella ahdisteli ahdistellut ahdistelevat ahdisteltu ahdistellaan ahdistelemaan ahdistele ahdistelivat
+73	8473	vahingonkorvaus	vahingonkorvauksia vahingonkorvaukset vahingonkorvausta vahingonkorvaus vahingonkorvauksen vahingonkorvauksiin vahingonkorvauksena vahingonkorvausten
+74	8474	teräsmies	teräsmies teräsmiehen teräsmiestä
+75	8475	yhteisöllinen	yhteisöllinen yhteisöllistä yhteisöllisen yhteisöllisiä yhteisölliset yhteisölliseen
+76	8476	ruokakulttuuri	ruokakulttuuri ruokakulttuurin ruokakulttuuria ruokakulttuuriin ruokakulttuurista ruokakulttuurissa
+77	8477	keskustalainen	keskustalainen keskustalaisia keskustalaiset keskustalaisten keskustalaisen keskustalaista
+78	8478	suuntainen	suuntaista suuntainen suuntaisia suuntaiset
+79	8479	utopia	utopia utopiaa utopian utopiaan utopiat
+80	8480	näköpiiri	näköpiirissä näköpiiristä näköpiiriin
+81	8481	raportointi	raportointia raportointi raportoinnin raportoinnista raportoinnissa raportointiin
+82	8482	viiltää	viilsi viiltää viiltävä viiltävän viilletty viilee viiltänyt viiltävät viilsivät viiltävää viiltämällä viillettiin
+83	8483	näköala	näköala näköalat näköalan näköaloja näköalaa
+84	8484	komissaari	komissaari komissaarit komissaarin komissaariksi komissaarina komissaarien komissaareja
+85	8485	yrityskauppa	yrityskaupan yrityskauppa yrityskauppojen yrityskauppaa yrityskaupat yrityskauppoja yrityskaupoista yrityskaupassa yrityskaupoissa yrityskaupalla
+86	8486	pissa	pissa pissaa pissalla pissalle pissat
+87	8487	tarkkailija	tarkkailija tarkkailijat tarkkailijoiden tarkkailijan tarkkailijana tarkkailijoita tarkkailijaa
+88	8488	ristiretki	ristiretki ristiretket ristiretken ristiretkien ristiretkelle ristiretkiä ristiretkellä ristiretkeä ristiretkistä
+89	8489	keiju	keiju keijun keijujen keijut keijuja keijua
+90	8490	switch	switch switchin switchille
+91	8491	seksuaalirikos	seksuaalirikoksista seksuaalirikosten seksuaalirikokset seksuaalirikoksia seksuaalirikoksesta seksuaalirikoksen seksuaalirikoksiin seksuaalirikos
+92	8492	neuvonta	neuvontaa neuvonta neuvonnan neuvontaan
+93	8493	audio	audio audion
+94	8494	maaliero	maaliero maalierolla maalieron
+95	8495	futsal	futsal futsalin futsalia
+96	8496	voimaantulo	voimaantuloa voimaantulon voimaantulo voimaantulosta
+97	8497	jalusta	jalustalle jalusta jalustan jalustalla jalustaa jalustaan
+98	8498	ylläri	ylläri yllärinä
+99	8499	oikotie	oikotie oikotietä oikotien oikoteitä
+100	8500	kalvo	kalvon kalvo kalvot kalvoja kalvoa kalvojen kalvolla

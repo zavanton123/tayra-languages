@@ -1,0 +1,100 @@
+1	2601	menneisyys	menneisyyden menneisyydestä menneisyys menneisyyteen menneisyydessä menneisyyttä menneisyytensä
+2	2602	vaihde	vaihteessa vaihteen vaihde vaihdetta vaihteita vaihteet vaihteiden vaihteesta vaihteeseen vaihteella vaihteelle vaihteista
+3	2603	vamma	vammoja vamma vammat vamman vammojen vammoihin vammoista vammasta vammaa vammansa vammaan vammoitta vammoilta vammoin
+4	2604	tippua	tippuu tippui tippunut tippua tippumaan tippuvat tippuivat tippu tippuminen tippuvan tippuisi tippumassa tippumisen tippumista tipun tipuin tiput
+5	2605	malmi	malmin malmi malmilla malmille malmia malmilta malmista malmit malmien
+6	2606	mukavasti	mukavasti mukavammin
+7	2607	järjetön	järjetöntä järjetön järjettömän järjettömiä järjettömät järjettömältä järjettömänä järjettömään järjettömästä järjettömäksi järjettömällä järjettömiin
+8	2608	peruskoulu	peruskoulun peruskoulu peruskoulussa peruskoulua peruskouluissa peruskoulusta peruskouluun peruskoulujen peruskoulut peruskoulunsa peruskouluista peruskouluja peruskouluihin
+9	2609	remontti	remontti remontin remonttia remontissa remonttiin remontit remontteja remontista remontteihin remonttien remonteista
+10	2610	aiheutua	aiheutuu aiheutuvat aiheutunut aiheutua aiheutuneet aiheutui aiheutuva aiheudu aiheutuvaa aiheutuvan aiheutuisi aiheutuivat aiheutuvasta
+11	2611	valtakunnallinen	valtakunnallinen valtakunnallisen valtakunnallista valtakunnalliseen valtakunnallisessa valtakunnalliset valtakunnallisia valtakunnallisten valtakunnallisella valtakunnalliseksi valtakunnallisista valtakunnallisissa valtakunnallisesta valtakunnallisiin valtakunnallisena valtakunnallisilla valtakunnalliselle
+12	2612	pohjoismainen	pohjoismainen pohjoismaista pohjoismaisen pohjoismaiset pohjoismaisten pohjoismaiseen pohjoismaisessa pohjoismaisesta pohjoismaisia pohjoismaisiin pohjoismaisissa pohjoismaisista pohjoismaisille pohjoismaisella pohjoismaiselle pohjoismaisilla pohjoismaisena
+13	2613	heikentää	heikentää heikentävät heikentänyt heikensi heikennä heikentäisi heikentämään heikentäminen heikennetään heikensivät heikentävä heikentävän heikentämällä heikentäviä heikennetty heikentäen heikentämistä heikentämiseksi heikentämisestä heikentävää heikentämiseen
+14	2614	lenkki	lenkillä lenkki lenkille lenkin lenkkiä lenkkejä lenkit lenkeillä lenkkinä lenkiltä
+15	2615	kirjain	kirjaimet kirjainta kirjaimen kirjaimia kirjaimella kirjaimilla kirjainten kirjaimin kirjain kirjaimista kirjaimesta kirjaimeen kirjaimien kirjaimiin kirjaimeksi kirjaimelta
+16	2616	täyttyä	täyttyy täyttyvät täyttyi täyty täyttyä täyttynyt täyttyivät täyttymistä täyttyessä täyttyminen täyttyisi täyttymisen täyttymään täyttymisestä täyttymässä täyttymiseen täyttyisivät
+17	2617	lentoasema	lentoaseman lentoasema lentoasemalla lentoasemalle lentoasemalta lentoasemaa lentoasemien lentoasemasta lentoasemilla lentoasemia lentoasemaksi lentoasemat lentoasemista
+18	2618	arviointi	arviointi arviointiin arvioinnin arvioinnissa arviointia arvioinnista arviointeja arvioinnit arvioinneissa arviointien
+19	2619	omistus	omistuksessa omistus omistukseen omistuksen omistuksesta omistukset omistusta omistuksia omistuksensa omistusten omistuksista omistuksiin
+20	2620	rehellinen	rehellinen rehellisiä rehellistä rehellisen rehelliset rehellisenä rehellisellä rehellisestä rehellisin rehelliseksi rehelliseen rehellisempi rehellisten rehelliseltä rehellisinä
+21	2621	hemmetti	hemmetin hemmetti
+22	2622	eduskuntavaalit	eduskuntavaaleissa eduskuntavaalien eduskuntavaalit eduskuntavaaleihin eduskuntavaaleja eduskuntavaaleista
+23	2623	mainostaa	mainostaa mainostetaan mainosta mainosti mainostettiin mainostettu mainostavat mainostaminen mainostamaan mainostanut mainostamista mainostamiseen mainostamisen mainostat mainostamassa mainostivat mainostamisesta mainostan mainostama mainostamalla mainostettua mainostaisi mainostetun
+24	2624	rahasto	rahaston rahasto rahastot rahastoon rahastojen rahastoa rahastosta rahastoihin rahastoja rahastossa rahastoissa rahastoista rahastolle rahastolla rahastoilla rahastolta
+25	2625	vatsa	vatsa vatsan vatsaan vatsassa vatsaa vatsasta vatsansa vatsani vatsalla vatsalle vatsat vatsasi vatsoja
+26	2626	asento	asento asennossa asentoon asentoa asennon asennosta asentoja asennot asennoissa asentoihin asennolla asentojen asennoista
+27	2627	parhaillaan	parhaillaan
+28	2628	perus	perus
+29	2629	soi	soi
+30	2630	suunnilleen	suunnilleen
+31	2631	hallu	hallussa hallusta
+32	2632	rangaista	rangaista rangaistaan rankaisee rangaistavaa rankaista rankaistaan rangaistavaksi rangaistava rankaisemaan rankaisi rangaistu rankaisematta rankaiseminen rangaistiin rankaise rankaisemista rankaisevat rangaistaisiin rankaistiin rankaisisi rangaistavia rankaissut rankaisivat rankaisemalla rangaistavan
+33	2633	alempi	alempi alemman alemmat alemmalla alempaan alemmassa alempien alempaa alempia alemmalle alemmilla alemmissa alempiin alemmasta alemmista alemmille alemmaksi
+34	2634	keskiviikko	keskiviikko ke keskiviikon keskiviikkoon keskiviikosta keskiviikkoa keskiviikoksi keskiviikolle
+35	2635	vaivata	vaivaa vaivata vaivannut vaivaamaan vaivasi vaivaavat vaivaan vaivanneet vaivasivat vaivaava vaivaama
+36	2636	harri	harri harrin harrilla
+37	2637	kaula	kaula kaulan kaulassa kaulaan kaulaansa kaulaa kaulasta kaulalla kaulalle kaulansa kaulat kauloja kaulalta
+38	2638	kimmo	kimmo kimmon
+39	2639	konkreettinen	konkreettisia konkreettinen konkreettista konkreettiset konkreettisen konkreettisiin konkreettisten konkreettisella konkreettiseen konkreettisista konkreettisena konkreettisesta konkreettisin konkreettiseksi konkreettisina
+40	2640	murhata	murhattiin murhasi murhata murhattu murhataan murhaa murhasivat murhannut murhaan murhaamaan murhatun murhaaminen murhanneen murhaamista murhaamisesta murhaava murhanneet murhattuna murhaavat murhatuksi murhaavan murhaamisen murhaamalla murhaamiseen murhattua
+41	2641	vapautua	vapautuu vapautui vapautua vapautunut vapautumisen vapautuvat vapautuminen vapautumista vapautuisi vapaudu vapautuva vapautuneet vapautuivat vapautumaan vapautuneen vapautumisesta vapautumisensa vapautumiseen vapautunutta vapautuneita vapautuneiden vapautuessa vapautumassa vapautuakseen
+42	2642	miehistö	miehistö miehistön miehistöä miehistöön miehistöstä miehistölle miehistöllä miehistönsä miehistössä miehistöineen miehistöt miehistönä
+43	2643	purra	pure puree puri purra purrut purtavaa purevat purema puremaan purtavaksi purren puremasta pureman pureminen purivat purematta pureva purevan puremalla puren purevaa purraan purisi puremista purin purimme
+44	2644	leveä	leveä leveät leveämpi leveäksi leveän leveitä leveää leveällä leveillä leveästä leveään leveässä leveänä leveiden leveälle levein leveistä
+45	2645	pariskunta	pariskunta pariskunnan pariskunnat pariskunnalla pariskunnalle pariskuntaa pariskuntia pariskunnasta pariskuntien pariskunnille pariskuntana pariskunnista pariskunnalta
+46	2646	näkymä	näkymät näkymin näkymiä näkymään näkymää näkymistä näkymä näkymän näkymien näkymiin näkymillä näkymästä näkymässä
+47	2647	kasvatus	kasvatus kasvatuksen kasvatusta kasvatuksessa kasvatukseen kasvatuksesta kasvatuksella
+48	2648	piilottaa	piilottaa piilotettu piilotella piilota piilotti piilottamaan piilottanut piilotettuna piilotetaan piilotetut piilotettuja piilotettua piilotetun piilotettiin piilottaminen piilottavat piilottivat piilottamalla piilottamista piilotin piilottamiseen piilotettujen piilottamisesta
+49	2649	sinkku	sinkku sinkut sinkkuna sinkkujen sinkkuja sinkun sinkkua sinkuille sinkulle sinkuista sinkuksi
+50	2650	pesä	pesä pesän pesään pesää pesästä pesässä pesiä pesät pesin pesänsä pesistä pesälle pesällä pesien pesissä pesiin
+51	2651	helmi	helmi helmet helmiä helmen helmistä helmin helmeä helmien helmillä helmenä helmeksi helmeen
+52	2652	alentaa	alentaa alentaminen alennetaan alennettu alentamaan alensi alentamiseen alennettiin alentamalla alentamista alentavaa alentava alentavat alennettua alenna alentamisesta alentavan alentaisi alentamisen alentamiseksi alentavia alennetun alentanut alensivat alentavana alennettava alennetulla alennettaisiin
+53	2653	logo	logo logon logot logoa logosta logoja logolla logossa logoilla logoon logojen logonsa logona
+54	2654	irlanti	irlannin irlanti irlannissa irlantiin irlannista irlantia irlannille irlannilla
+55	2655	konserni	konsernin konserni konserniin konsernia konsernissa konsernilla konsernille konsernista konsernit
+56	2656	arkisto	arkisto arkiston arkistosta arkistot arkistoista arkistossa arkistoon arkistojen arkistoja arkistoihin arkistoa arkistoissa
+57	2657	tavoittaa	tavoittaa tavoitti tavoitettavissa tavoita tavoittanut tavoittamaan tavoitettu tavoittavat tavoittivat tavoitetaan tavoitamme tavoitat tavoitettiin tavoittaisi tavoittaminen tavoittamiseen tavoittamiseksi
+58	2658	symboli	symboli symbolit symbolin symbolina symboleja symboleita symbolia symbolien symboliksi symbolista symboleista symboleilla symbolilla symboleina symboleihin symboleiksi symbolinsa
+59	2659	mahtaa	mahtaa mahda mahtoi mahtanut mahtaisi mahtavat mahdat mahtoivat
+60	2660	synkkä	synkkä synkkää synkkiä synkän synkältä synkät synkempi synkkään synkkänä synkästä synkin synkäksi synkkien synkässä synkistä synkkiin synkkinä synkissä synkälle synkällä
+61	2661	treenata	treenata treenaa treenaamaan treenannut treenataan treenaan treenasi treenattu treenaamassa treenaaminen treenasin treenaat treenaamalla treenaavat treenaamista treenatessa treenaamme treenasimme treenattiin treenattava
+62	2662	runko	runko rungon runkoon runkoa rungossa rungosta rungot runkoja runkona rungolla runkojen rungoista rungoksi
+63	2663	kuorma	kuorma kuorman kuormaa kuormasta kuormia kuormalla kuormat kuormaan kuormien kuormana
+64	2664	uutisoida	uutisoi uutisoitiin uutisoitu uutisoidaan uutisoida uutisoinut uutisoivat uutisoimaan
+65	2665	vissiin	vissiin
+66	2666	laine	laine laineen laineet laineilla lainetta laineelle laineella laineiden
+67	2667	loukkaantunut	loukkaantunut loukkaantuneita loukkaantuneena loukkaantuneen loukkaantuneet loukkaantunutta loukkaantuneiden loukkaantuneista compared
+68	2668	nauha	nauha nauhat nauhan nauhalle nauhaa nauhoja nauhalla nauhalta nauhojen nauhasta nauhoilla nauhassa nauhoista nauhana nauhaan nauhoilta
+69	2669	formula	formula formulat formuloiden formuloista formuloita formuloissa
+70	2670	noutaa	nousi noutaa noutamaan nousivat noutamassa nouda noudetaan nouti nousin noudettu noutanut noutaminen noutavat noudamme noudat nousimme noudettiin noutamista
+71	2671	moi	moi mo
+72	2672	pertti	pertti pertin
+73	2673	orpo	orpo orpon orvoksi orvon orpoa orpoja orpojen orvot orvoiksi orpolle orpona orvoista orpolla
+74	2674	elossa	elossa eloon
+75	2675	taloyhtiö	taloyhtiön taloyhtiö taloyhtiössä taloyhtiöiden taloyhtiöissä taloyhtiölle taloyhtiöt taloyhtiöille taloyhtiöön taloyhtiöstä taloyhtiöitä taloyhtiöllä taloyhtiötä
+76	2676	kohota	kohoaa kohosi kohonnut kohota kohoavat kohosivat kohonneet kohonneen kohoava kohoaminen kohoamaan kohonnutta kohotessa kohoa kohoamista kohonneeseen kohoamisen kohonneesta kohoaisi kohottava
+77	2677	lähistö	lähistöllä lähistöltä lähistölle lähistön
+78	2678	nimitys	nimitys nimitystä nimityksen nimitykset nimityksiä nimityksestä nimityksellä nimityksistä nimityksensä nimitykseen nimitysten
+79	2679	rannikko	rannikolla rannikko rannikon rannikolle rannikkoa rannikolta rannikosta rannikoilla rannikoille rannikot
+80	2680	turvapaikanhakija	turvapaikanhakijoiden turvapaikanhakijat turvapaikanhakija turvapaikanhakijoita turvapaikanhakijan turvapaikanhakijoista turvapaikanhakijoihin turvapaikanhakijaa turvapaikanhakijoille turvapaikanhakijoilla turvapaikanhakijana
+81	2681	päätoimittaja	päätoimittaja päätoimittajan päätoimittajana päätoimittajaksi päätoimittajat päätoimittajaa päätoimittajalle päätoimittajien päätoimittajia päätoimittajalta
+82	2682	tuomioistuin	tuomioistuin tuomioistuimen tuomioistuimessa tuomioistuinten tuomioistuimet tuomioistuimeen tuomioistuimissa tuomioistuimelle tuomioistuinta tuomioistuimelta tuomioistuimia tuomioistuimien tuomioistuimille tuomioistuimesta tuomioistuimiin tuomioistuimella
+83	2683	upota	upposi uppoaa uponnut uppoa upota uppoavat upposivat uppoamaan uppoamisen uppoaisi upotessa uppoava uppoaminen uppoamisesta uppoamista uppoamassa upottava
+84	2684	huora	huora huoria huoran huorat huoraa huoraksi huorissa huorien huorin huoriin huoralle huoriksi huorana
+85	2685	raportoida	raportoi raportoitu raportoida raportoivat raportoitiin raportoidaan raportoimaan raportoinut raportoin raportoitava raportoimassa raportoimatta raportoimme raportoiva raportoit
+86	2686	suuresti	suuresti suuremmin
+87	2687	älytön	älyttömän älytöntä älytön älyttömiä älyttömät älyttömältä älyttömintä
+88	2688	muutto	muutto muuttoa muuton muutosta muutossa muuttoon muutot muuttoja muutolle muuttonsa
+89	2689	setä	setä sedän setänsä sedät setää sedälle setäni setiä sedällä sedin setien
+90	2690	kyseenalaistaa	kyseenalaistaa kyseenalaista kyseenalaistamaan kyseenalaistanut kyseenalaistettu kyseenalaisti kyseenalaistan kyseenalaistavat kyseenalaistetaan kyseenalaistaminen kyseenalaistamista kyseenalaistettiin kyseenalaistamatta kyseenalaistivat kyseenalaistat kyseenalaistin kyseenalaistaisi
+91	2691	saavutus	saavutus saavutuksia saavutukset saavutuksista saavutuksiin saavutusten saavutuksena saavutuksen saavutusta saavutuksesta saavutukseksi saavutuksensa saavutukseen saavutuksilla
+92	2692	yltää	ylsi yltää yltänyt yllin ylsivät yltävät yltävä yltäisi ylti yllämme yltäen
+93	2693	rauta	rautaa rauta raudan raudasta raudalla raudat rautoihin rautaan rautoja raudoissa raudassa
+94	2694	järjestely	järjestely järjestelyt järjestelyistä järjestelyn järjestelyjä järjestelyä järjestelyissä järjestelystä järjestelyihin järjestelyyn järjestelyjen järjestelyssä järjestelyitä järjestelyllä järjestelyillä järjestelyiden järjestelyin
+95	2695	aidosti	aidosti
+96	2696	poikkeuksellisen	poikkeuksellisen
+97	2697	sopivasti	sopivasti
+98	2698	tiedottaa	tiedottaa tiedotti tiedotetaan tiedottaminen tiedottamista tiedotettiin tiedotettu tiedottanut tiedottamisen tiedottamaan tiedottamisesta tiedottamiseen tiedotamme tiedota tiedottavat tiedottivat tiedottamalla tiedottamisessa tiedotettava
+99	2699	rekka	rekka rekan rekat rekkaa rekkojen rekkaan rekkoja rekalla rekasta rekassa rekoilla rekoista rekkoihin rekoissa
+100	2700	house	house housen housessa housea houseen housesta housella

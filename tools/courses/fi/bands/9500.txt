@@ -1,0 +1,100 @@
+1	9401	romanialainen	romanialainen romanialaiset romanialaisen romanialaisia romanialaisten romanialaista
+2	9402	rommi	rommia rommi rommin
+3	9403	guru	guru gurun gurut
+4	9404	posio	posion posio posiolla
+5	9405	suurentaa	suurentaa suurentaminen suurennettu suurenna suurennetaan suurentamalla suurentavat suurennettiin suurentamaan
+6	9406	luottotiedot	luottotiedot luottotietoja luottotietojen luottotietonsa
+7	9407	särkyä	särkyä särkyy särkyi särkyvää särkyvät
+8	9408	selonteko	selonteko selonteon selonteossa selontekoa selontekoon
+9	9409	kahdenlainen	kahdenlaisia kahdenlaista
+10	9410	motto	motto mottoni mottona mottonsa moton
+11	9411	tiiviste	tiiviste tiivisteet tiivisteen tiivisteitä tiivisteiden tiivistettä
+12	9412	kiima	kiima kiimassa kiimaa kiiman kiimaan
+13	9413	lähiympäristö	lähiympäristössä lähiympäristön lähiympäristöön lähiympäristö lähiympäristöstä
+14	9414	mustapippuri	mustapippuria mustapippurilla mustapippuri
+15	9415	geologia	geologian geologia geologiaa geologiasta
+16	9416	tyrmäys	tyrmäys tyrmäyksellä tyrmäystä tyrmäyksen tyrmäykseen
+17	9417	välttämättömyys	välttämättömyys välttämättömyydestä välttämättömyyden välttämättömyyksiä välttämättömyyttä
+18	9418	männistö	männistön männistö
+19	9419	ylleen	ylleen ylleni yllesi yltään yllensä yllään
+20	9420	cocktail	cocktail cocktaileja cocktailin cocktailit cocktailien
+21	9421	kiroilla	kiroilla kiroilee kiroili kiroillen kiroile kiroillut kiroileva
+22	9422	turvallisuusneuvosto	turvallisuusneuvoston turvallisuusneuvosto turvallisuusneuvostossa
+23	9423	maalari	maalari maalarin maalarit maalareita maalarina
+24	9424	vakoilla	vakoilla vakoilee vakoilemaan vakoili vakoillut vakoilevat vakoilemassa
+25	9425	puuseppä	puuseppä puusepän puusepät
+26	9426	influenssa	influenssa influenssan influenssaa influenssaan
+27	9427	eittämättä	eittämättä
+28	9428	madame	madame
+29	9429	monias	monikaan
+30	9430	oudosti	oudosti
+31	9431	pliis	pliis
+32	9432	seata	sekasin
+33	9433	suinkin	suinkin
+34	9434	systemaattisesti	systemaattisesti
+35	9435	tismalleen	tismalleen
+36	9436	uskottavasti	uskottavasti
+37	9437	vaarin	vaarin
+38	9438	yhteiskunnallisesti	yhteiskunnallisesti
+39	9439	terveysjärjestö	terveysjärjestön terveysjärjestö terveysjärjestöjen
+40	9440	matkailuala	matkailualan matkailuala matkailualalla
+41	9441	kauhuissaan	kauhuissaan kauhuissani
+42	9442	vaarallisuus	vaarallisuudesta vaarallisuus vaarallisuuden vaarallisuutta vaarallisuutensa
+43	9443	asianosainen	asianosaisille asianosaiset asianosaisten asianosainen asianosaisia asianosaisen asianosaiselle
+44	9444	tippi	tippiä tipin tippi tipit tippejä
+45	9445	seksielämä	seksielämä seksielämän seksielämää seksielämään seksielämästä seksielämäsi seksielämänsä
+46	9446	vesialue	vesialueen vesialueiden vesialueella vesialueilla vesialue vesialueet vesialueita vesialuetta vesialueelle
+47	9447	pelottelu	pelottelua pelottelu pelottelun pelottelusta pelotteluun
+48	9448	silla	silla sillan sillalla sillalta sillat sillalle silloista sillasta sillain silloilla sillassa
+49	9449	työnjako	työnjako työnjakoa työnjaosta työnjaon
+50	9450	rekrytoida	rekrytoi rekrytoida rekrytoidaan rekrytoimaan rekrytoitiin rekrytoitu rekrytoivat
+51	9451	meriitti	meriitit meriittejä meriitti meriittien meriiteillä
+52	9452	maajussi	maajussille maajussi maajussit maajussien maajussin
+53	9453	sukuelin	sukuelinten sukuelimet sukuelimiä sukuelimiin sukuelin
+54	9454	arvomaailma	arvomaailma arvomaailmaa arvomaailman arvomaailmaan arvomaailmasta arvomaailmansa arvomaailmassa
+55	9455	selkeys	selkeys selkeyttä selkeyden selkeyteen selkeydestä
+56	9456	kiivaasti	kiivaasti kiivaammin
+57	9457	säkä	säkä sään säkissä säästä säkään säässä säkällä säällä säkistä säät säkin säältä sääksi säälle säillä säistä
+58	9458	tietäjä	tietäjät tietäjä tietäjiä tietäjien tietäjän
+59	9459	onnettomuuspaikka	onnettomuuspaikan onnettomuuspaikalle onnettomuuspaikalla onnettomuuspaikalta onnettomuuspaikka
+60	9460	sivutuote	sivutuotteena sivutuote sivutuotteita
+61	9461	retro	retro retroa
+62	9462	jämä	jämät jämiä jämistä jämin jämillä jämä
+63	9463	kotipeli	kotipeli kotipelissä kotipelit kotipeliin kotipelinsä kotipeleissä
+64	9464	vuosineljännes	vuosineljänneksellä vuosineljänneksen vuosineljännes
+65	9465	näkökanta	näkökantoja näkökanta näkökannalta näkökantaa näkökannan näkökantojen näkökannasta näkökannat
+66	9466	weber	weber weberin
+67	9467	tuumainen	tuumainen tuumaiset tuumaisen tuumaisella tuumaista
+68	9468	kaulus	kaulus kauluksen kaulukset kaulukseen kauluksesta kaulusta kauluksessa
+69	9469	rehti	rehti rehtiä rehdin
+70	9470	paikkainen	paikkainen paikkaisen paikkaisessa paikkaiseen paikkaisella paikkaista
+71	9471	urheilla	urheilla urheilemaan urheilee urheillessa urheilen urheillut urheileminen urheilevat
+72	9472	islamistinen	islamistinen islamistisen islamistista islamistiset islamistiseen islamistisia islamististen
+73	9473	ihmisryhmä	ihmisryhmien ihmisryhmä ihmisryhmää ihmisryhmät ihmisryhmiä ihmisryhmän ihmisryhmiin ihmisryhmälle
+74	9474	hyvätuloinen	hyvätuloisten hyvätuloiset hyvätuloisia hyvätuloinen hyvätuloisen hyvätuloisilla
+75	9475	salakuljetus	salakuljetuksesta salakuljetus salakuljetusta salakuljetuksen salakuljetukseen
+76	9476	uuvuttaa	uuvuttaa uuvuttavaa uuvuttava uuvuttavan uuvutti
+77	9477	komplikaatio	komplikaatioita komplikaatio komplikaatiot komplikaatioiden komplikaatioihin komplikaatioista
+78	9478	hento	hento hennon hentoja hennot hentoa
+79	9479	meikata	meikata meikkaa meikannut meikkaan meikkaamaan meikattu meikkaamista meikkaaminen
+80	9480	moduuli	moduuli moduulin moduulit moduulien moduuleja moduuliin moduli moduuleista moduulia moduulista
+81	9481	ideaali	ideaali ideaalia ideaalin ideaalit ideaalista ideaaleja
+82	9482	tietoliikenne	tietoliikenne tietoliikenteen tietoliikennettä tietoliikenteeseen
+83	9483	hype	hype hypeä hypen
+84	9484	älykkyysosamäärä	äo älykkyysosamäärä älykkyysosamäärän älykkyysosamäärää
+85	9485	hellittää	hellittää hellittänyt hellitti hellitä hellittävät
+86	9486	toimintaympäristö	toimintaympäristön toimintaympäristö toimintaympäristössä toimintaympäristöön toimintaympäristöä
+87	9487	niksi	niksit niksi niksejä niksin niksiä
+88	9488	etulinja	etulinjassa etulinjan etulinjaan etulinjasta etulinja etulinjaa
+89	9489	fiktiivinen	fiktiivinen fiktiivisen fiktiivisiä fiktiivisessä fiktiivistä fiktiiviseen
+90	9490	matsku	matskua matskut matsku
+91	9491	raukka	raukka raukat raukkaa raukkoja
+92	9492	hylje	hylje hylkeet hylkeiden hylkeen hylkeitä hyljettä
+93	9493	vahingoittunut	vahingoittunut vahingoittuneet vahingoittuneen vahingoittuneita vahingoittunutta
+94	9494	automerkki	automerkki automerkit automerkin automerkkejä automerkkien automerkkeihin automerkeistä
+95	9495	tukeutua	tukeutua tukeutuu tukeutuvat tukeutuen tukeutumaan tukeutui tukeutuminen tukeutuva
+96	9496	ensihoitaja	ensihoitaja ensihoitajat ensihoitajia ensihoitajan ensihoitajien
+97	9497	holtiton	holtiton holtitonta holtittoman holtittomasta
+98	9498	jäävuori	jäävuoren jäävuori jäävuoreen jäävuoria jäävuoret
+99	9499	junaliikenne	junaliikenne junaliikenteen junaliikennettä
+100	9500	seta	seta setan

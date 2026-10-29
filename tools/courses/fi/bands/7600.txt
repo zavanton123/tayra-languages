@@ -1,0 +1,100 @@
+1	7501	edistyä	edistyy edisty edistytty edistyessä edistyä edistyi edistyvät edistyneet edistymistä
+2	7502	systemaattinen	systemaattinen systemaattista systemaattisen systemaattisia systemaattisesta systemaattiseen systemaattisella
+3	7503	etumatka	etumatkaa etumatka etumatkan etumatkalla
+4	7504	hyttynen	hyttyset hyttysten hyttysiä hyttynen hyttysen hyttystä
+5	7505	tuhlaus	tuhlausta tuhlaus
+6	7506	luistaa	luistaa luista luisti luistamaan luistanut luistin
+7	7507	supermarketti	supermarket supermarketin supermarketissa supermarketit supermarketista supermarketti supermarketeissa supermarketteja
+8	7508	empiä	emmi empimättä empi empii
+9	7509	voltti	voltin volttia voltti voltteja voltit voltilla volttiin
+10	7510	siru	siru sirun siruja sirut sirua sirulla sirujen
+11	7511	viivästyä	viivästyy viivästyi viivästyä viivästyivät viivästyvät viivästymistä
+12	7512	merirosvo	merirosvot merirosvo merirosvoja merirosvojen merirosvon merirosvoista merirosvoa
+13	7513	astronautti	astronautti astronautit astronauttien astronautin astronautteja astronauttia astronauteista
+14	7514	työmäärä	työmäärä työmäärän työmäärää työmäärään työmäärästä työmäärällä
+15	7515	vallankumouksellinen	vallankumouksellinen vallankumouksellista vallankumouksellisen vallankumouksellisia vallankumoukselliset vallankumouksellisten vallankumouksellisesta
+16	7516	kampaus	kampaus kampauksen kampausta kampaukset kampauksia kampauksesta kampaukseen
+17	7517	lilja	lilja liljan liljat liljoja liljojen
+18	7518	projektipäällikkö	projektipäällikkö projektipäällikkönä projektipäällikön
+19	7519	sairaanhoito	sairaanhoidon sairaanhoito sairaanhoitoa sairaanhoidosta sairaanhoitoon sairaanhoidossa
+20	7520	disko	disco disko diskossa diskon diskoa diskoon discon
+21	7521	sukupuolineutraali	sukupuolineutraali sukupuolineutraalia sukupuolineutraalin sukupuolineutraalista
+22	7522	oleskelu	oleskelu oleskeluun oleskelua oleskelun oleskelusta oleskelunsa
+23	7523	kivulias	kivulias kivuliasta kivuliaita kivuliaan kivuliaalta kivuliaat
+24	7524	talletus	talletusta talletuksia talletukset talletus talletusten talletuksista talletuksen
+25	7525	jouluaatto	jouluaattona jouluaatto jouluaaton jouluaattoa
+26	7526	tietämättömyys	tietämättömyys tietämättömyyttä tietämättömyyden tietämättömyydestä tietämättömyyteen
+27	7527	pidetä	pitenee pidetään pitenevät piteni pidettiin pitenivät piteneminen pidettävä pidettäisiin pidetä
+28	7528	nosturi	nosturi nosturin nosturilla nosturia nosturissa nosturit nostureita nosturiin
+29	7529	valas	valas valaiden valaat valaita valaan valasta
+30	7530	wiki	wiki wikin wikissä wikistä
+31	7531	häätää	häätää häädettiin häädetään häätämään häädetty hääti häätäminen häätänyt häätivät
+32	7532	joululaulu	joululaulut joululauluja joululaulu joululaulujen joululauluista joululaulun joululaulua
+33	7533	niitti	niitti niittejä niitin niitit
+34	7534	protestoida	protestoi protestoida protestoivat protestoimaan protestoidakseen protestoinut
+35	7535	ikimuistoinen	ikimuistoinen ikimuistoisen ikimuistoisia ikimuistoista ikimuistoiset ikimuistoisista ikimuistoisin
+36	7536	tutkielma	tutkielma tutkielman tutkielmaa tutkielmia tutkielmat tutkielmassa
+37	7537	alistua	alistua alistumaan alistu alistuu alistunut alistumista alistui alistuminen alistuvat alistuva alistumisesta alistuttava
+38	7538	viisaasti	viisaasti viisaammin
+39	7539	vuoropuhelu	vuoropuhelua vuoropuhelu vuoropuhelun vuoropuheluun
+40	7540	hyödyke	hyödykkeiden hyödykkeitä hyödykkeen hyödyke hyödykkeet hyödykkeisiin hyödykettä hyödykkeistä
+41	7541	hygienia	hygienia hygienian hygieniasta hygieniaa hygieniaan
+42	7542	avenue	avenue avenuen avenuella avenuelle avenueta
+43	7543	vapaaehtoistyö	vapaaehtoistyötä vapaaehtoistyö vapaaehtoistyön vapaaehtoistyöhön vapaaehtoistyöstä vapaaehtoistyössä
+44	7544	suoli	suolen suoli suolet suoleen suolessa suolesta suolta
+45	7545	ylilääkäri	ylilääkäri ylilääkärin ylilääkärinä
+46	7546	häpeällinen	häpeällistä häpeällisen häpeällinen häpeällisenä häpeällisiä
+47	7547	tarkistus	tarkistus tarkistuksen tarkistusta tarkistuksia tarkistukset tarkistukseen tarkistuksessa
+48	7548	sisäilma	sisäilma sisäilman sisäilmaa sisäilmaan sisäilmasta sisäilmassa
+49	7549	olympiastadion	olympiastadionilla olympiastadion olympiastadionin olympiastadionille
+50	7550	täristä	tärisee tärisi täristä täristen tärisevät tärisemään tärisivät tärisevän tärisin
+51	7551	osuuspankki	osuuspankin osuuspankki osuuspankkien osuuspankit osuuspankkiin
+52	7552	turismi	turismi turismin turismia turismista turismiin
+53	7553	hella	hella hellan hellalla hellalle hellaan hellaa
+54	7554	madonna	madonna madonnan madonnaa
+55	7555	ennaltaehkäisy	ennaltaehkäisy ennaltaehkäisyyn ennaltaehkäisyä ennaltaehkäisyssä ennaltaehkäisyn
+56	7556	omakohtainen	omakohtaista omakohtainen omakohtaisia omakohtaisen omakohtaiset omakohtaisiin omakohtaisesta
+57	7557	livahtaa	livahti livahtaa livahtamaan livahtanut livahtivat
+58	7558	lieto	liedon lieto liedossa
+59	7559	helpottunut	helpottunut helpottuneita helpottuneena helpottuneelta
+60	7560	naureskella	naureskeli naureskelee naureskellen naureskella naureskelin naureskeltiin naureskelevat naureskelivat naureskellut naureskellaan naureskelemaan naureskeltu
+61	7561	suuryritys	suuryritysten suuryrityksiä suuryrityksille suuryrityksen suuryritys suuryrityksiin
+62	7562	eroottinen	eroottinen eroottisia eroottista eroottisen eroottiset eroottisten eroottisena eroottisessa
+63	7563	maahantuonti	maahantuonti maahantuontia maahantuonnin maahantuonnista maahantuontiin
+64	7564	peru	perussa perun peruja peruun peru peruin
+65	7565	keskikokoinen	keskikokoinen keskikokoiset keskikokoisia keskikokoisen keskikokoista keskikokoisten keskikokoisessa
+66	7566	jakaja	jakaja jakajan jakajat jakajana jakajaa jakajia jakajien jakajalla
+67	7567	muistelma	muistelmat muistelmia muistelmien muistelmista muistelmansa muistelmissa
+68	7568	vaikeutua	vaikeutuu vaikeutui vaikeutunut vaikeutua vaikeutuvat vaikeutuminen vaikeutuisi
+69	7569	asteittain	asteittain
+70	7570	dramaattisesti	dramaattisesti
+71	7571	epätoivoisesti	epätoivoisesti
+72	7572	katsos	katsos
+73	7573	kohtuullisesti	kohtuullisesti
+74	7574	piakkoin	piakkoin
+75	7575	toissapäivä	toissapäivänä
+76	7576	tyystin	tyystin
+77	7577	täh	täh
+78	7578	varta	varta
+79	7579	vähempää	vähempää
+80	7580	satula	satulaan satula satulan satulasta satulassa satulaa satulat
+81	7581	enne	enne enteitä enteet enteenä
+82	7582	autonominen	autonominen autonomisen autonomista autonomiset autonomiseen autonomisia autonomisten autonomisena
+83	7583	suuntautuminen	suuntautuminen suuntautumisen suuntautumista suuntautumisesta suuntautumiseen suuntautumisensa
+84	7584	adoptio	adoptio adoption adoptioon adoptiota adoptiosta
+85	7585	radioaktiivinen	radioaktiivinen radioaktiivista radioaktiivisia radioaktiivisen radioaktiivisten radioaktiiviset
+86	7586	koristaa	koristaa koristavat koristi koristamaan koristivat koristettu koristanut
+87	7587	murtuma	murtuma murtumia murtuman murtumat murtumaa murtumien murtumista murtumaan murtumassa murtumasta
+88	7588	länsiranta	länsirannalla länsirannan länsirannalle länsirantaa länsiranta länsirannalta
+89	7589	kurkistaa	kurkistaa kurkistamaan kurkista kurkisti kurkistetaan kurkistin
+90	7590	herttua	herttua herttuan herttualle herttuaa
+91	7591	paksuus	paksuus paksuutta paksuuden paksuudesta paksuudelta
+92	7592	historioitsija	historioitsija historioitsijat historioitsijoiden historioitsijan historioitsijoita historioitsijana
+93	7593	päätösvalta	päätösvaltaa päätösvalta päätösvallan
+94	7594	sotarikos	sotarikoksista sotarikoksiin sotarikoksia sotarikokset sotarikos sotarikosten
+95	7595	oksettaa	oksettaa oksettavaa oksettava oksetti
+96	7596	eutanasia	eutanasia eutanasian eutanasiaa eutanasiaan eutanasiasta
+97	7597	liikenneonnettomuus	liikenneonnettomuudessa liikenneonnettomuus liikenneonnettomuuksien liikenneonnettomuudet liikenneonnettomuudesta liikenneonnettomuuksissa liikenneonnettomuuteen liikenneonnettomuuden liikenneonnettomuuksia
+98	7598	keskussairaala	keskussairaalan keskussairaala keskussairaalassa keskussairaalaan keskussairaalasta
+99	7599	haasteellinen	haasteellinen haasteellista haasteelliseksi haasteellisia haasteelliset
+100	7600	erehdys	erehdys erehdyksen erehdyksessä erehdyksiä erehdystä erehdyksestä erehdysten

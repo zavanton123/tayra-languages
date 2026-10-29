@@ -1,0 +1,100 @@
+1	4501	elin	elimet elimiä elimen elinten elin elimissä elimiin elintä elimistä elimien elimenä elimeen elimille elimessä elimestä
+2	4502	markkinatalous	markkinatalous markkinataloutta markkinatalouden markkinataloudessa markkinatalouteen markkinataloudesta
+3	4503	tekijänoikeus	tekijänoikeus tekijänoikeuksien tekijänoikeuden tekijänoikeudet tekijänoikeuksia tekijänoikeuksista tekijänoikeudella tekijänoikeutta tekijänoikeuksiin tekijänoikeudesta
+4	4504	liikkuvuus	liikkuvuus liikkuvuutta liikkuvuuden liikkuvuuteen liikkuvuudesta
+5	4505	tekstiviesti	tekstiviesti tekstiviestin tekstiviestejä tekstiviestillä tekstiviestit tekstiviestien tekstiviestiä tekstiviestinä tekstiviesteillä tekstiviesteistä tekstiviesteihin tekstiviestein tekstiviestissä
+6	4506	tietynlainen	tietynlainen tietynlaista tietynlaisia tietynlaisen tietynlaiset tietynlaiseen tietynlaisesta tietynlaisena tietynlaisiin tietynlaisten tietynlaisessa tietynlaiseksi
+7	4507	kuntosali	kuntosalilla kuntosali kuntosalin kuntosalille kuntosalia kuntosaleja kuntosalit kuntosalilta kuntosaleilla kuntosalissa
+8	4508	lautta	lautta lautalla lautan lautalle lautat lauttaa lautasta lautalta lauttoja lauttojen lautoilla lauttaan
+9	4509	velvoite	velvoitteita velvoite velvoitteet velvoitetta velvoitteiden velvoitteista velvoitteen velvoitteensa velvoitteesta velvoitteisiin
+10	4510	taidemuseo	taidemuseo taidemuseossa taidemuseon taidemuseoon taidemuseoissa taidemuseota taidemuseolla taidemuseolle taidemuseot
+11	4511	senaattori	senaattori senaattorin senaattorit senaattoria senaattoriksi senaattoreita senaattorina senaattorien senaattorista
+12	4512	ydinase	ydinaseita ydinaseiden ydinaseet ydinaseen ydinase ydinasetta ydinaseista ydinaseilla ydinaseisiin ydinasein
+13	4513	taika	taika taikaa taikoja taian taiat taikojen taikansa
+14	4514	säde	säteellä säde säteet säteen säteitä säteeltä säteelle säteiden säteillä sädettä säteistä säteiltä
+15	4515	katkera	katkera katkeria katkeraa katkeran katkerana katkeraan katkerat katkeraksi katkeralta
+16	4516	sauma	sauma saumat saumaa saumaan saumoja sauman saumoista saumojen
+17	4517	itsenäisyyspäivä	itsenäisyyspäivän itsenäisyyspäivänä itsenäisyyspäivää itsenäisyyspäivä itsenäisyyspäiväksi
+18	4518	novelli	novelli novelleja novellit novellin novellia novellissa novellien novelleista novelliin novelleissa novellista
+19	4519	lähettiläs	lähettiläs lähettiläänä lähettilään lähettiläät lähettilääksi lähettiläitä lähettiläiden lähettilästä lähettiläänsä lähettiläälle
+20	4520	laiha	laiha laihaa laihan laihoja laihat laihaksi laihempi laihana laihoin laihalla laihoiksi
+21	4521	pyyhe	pyyhkeen pyyhe pyyhkeitä pyyhkeet pyyhettä pyyhkeellä pyyhkeeseen pyyhkeiden
+22	4522	mobiili	mobiili mobiililla mobiilissa mobiiliin mobiilin mobiilia
+23	4523	kätevästi	kätevästi kätevämmin
+24	4524	autoilu	autoilun autoilu autoiluun autoilua autoilusta autoilussa
+25	4525	puhemies	puhemies puhemiehen puhemieheksi puhemiehenä puhemiehelle puhemiestä puhemiehet
+26	4526	puolustusministeri	puolustusministeri puolustusministerin puolustusministerinä puolustusministerit puolustusministeriksi
+27	4527	voikka	voikin voikkaan voikkaa
+28	4528	häkki	häkki häkin häkissä häkkiin häkkiä häkistä häkeissä häkit häkkejä häkkeihin
+29	4529	opisto	opisto opiston opistossa opistolla opistoon opistosta opistojen opistoa opistolle
+30	4530	hehkuttaa	hehkuttaa hehkutti hehkutettu hehkutetaan hehkuttavat hehkutettiin hehkuttamaan hehkuttanut hehkuttaminen hehkuttivat
+31	4531	musikaali	musikaali musikaalin musikaalia musikaalissa musikaalista musikaaliin musikaaleja musikaalit musikaalien musikaaleissa musikaaleista
+32	4532	jäähalli	jäähalli jäähallissa jäähallin jäähalliin jäähallilla jäähallia jäähallille
+33	4533	päinvastainen	päinvastainen päinvastaista päinvastaiseen päinvastaiseksi päinvastaisia päinvastaiset päinvastaisen päinvastaisessa päinvastaisesta päinvastaisella
+34	4534	tuloero	tuloerot tuloerojen tuloeroja tuloeroista
+35	4535	läpäistä	läpäissyt läpäisee läpäisi läpäistä läpäise läpäisevät läpäisemään läpäisivät läpäisevä läpäistävä läpäisevän läpäisisi läpäiseminen läpäisemätön läpäisin läpäisty
+36	4536	graafinen	graafinen graafisen graafista graafiset graafisia graafiseen graafisella graafisessa graafisten graafisena graafisesta
+37	4537	onnellisuus	onnellisuus onnellisuutta onnellisuuden onnellisuuteen onnellisuudesta
+38	4538	kiusallinen	kiusallista kiusallinen kiusallisia kiusallisen kiusalliselta kiusallisesta kiusalliseksi kiusalliseen kiusalliset
+39	4539	innostus	innostus innostusta innostuksen innostuksesta innostuksensa innostukseni
+40	4540	kyllästyä	kyllästyi kyllästyy kyllästy kyllästyin kyllästymiseen kyllästyä kyllästyivät kyllästyvät kyllästyn kyllästyminen kyllästyneet
+41	4541	mysteeri	mysteeri mysteerin mysteeriksi mysteeriä mysteerit mysteereitä mysteerejä mysteereistä mysteeristä mysteerien mysteeriin mysteereihin mysteerinä
+42	4542	tarkentaa	tarkentaa tarkensi tarkennettu tarkennetaan tarkentamaan tarkenna tarkennan tarkentanut tarkennettiin tarkentava
+43	4543	hame	hame hameen hameita hametta hameet hameeseen hameessa hameiden hameesta hameissa hameensa
+44	4544	jes	jes jess
+45	4545	piippu	piippu piipun piippuun piipussa piippua piipusta piiput piippuja piippujen piipulla
+46	4546	huolestunut	huolestunut huolestuneita huolestuneena huolestuneet huolestuneiden huolestuneen huolestuneempi huolestunutta huolestuneina huolestuneille
+47	4547	työläinen	työläisten työläiset työläisiä työläinen työläisen työläisille työläisistä työläistä
+48	4548	puolikas	puolikas puolikkaan puolikkaat puolikasta puolikkaalla puolikkaasta puolikkaita puolikkaaseen
+49	4549	dialogi	dialogi dialogia dialogin dialogiin dialogista dialogissa dialogeja dialogit
+50	4550	polkea	polkee polkemaan polkea poljetaan polje polki polkevat polkeminen polkemalla poljin poljen polkemista polkenut poljettu polkemisesta polkemiseen polkemisen polkiessa poljettiin polkeva
+51	4551	varhaiskasvatus	varhaiskasvatuksen varhaiskasvatus varhaiskasvatukseen varhaiskasvatuksessa varhaiskasvatuksesta varhaiskasvatusta
+52	4552	luontainen	luontainen luontaista luontaisen luontaisia luontaiset luontaisesta luontaisten luontaiseen luontaisena
+53	4553	sivistys	sivistyksen sivistys sivistystä sivistyksestä sivistykseen
+54	4554	pienituloinen	pienituloisten pienituloiset pienituloisille pienituloinen pienituloisia pienituloisen pienituloisilla pienituloisiin pienituloiselle
+55	4555	tulehdus	tulehdus tulehdusta tulehduksen tulehduksia tulehdukset tulehduksesta tulehdusten tulehdukseen
+56	4556	tuonti	tuonti tuonnin tuontia tuonnista tuontiin tuonnissa
+57	4557	ennestään	ennestään
+58	4558	laajalti	laajalti
+59	4559	salassa	salassa
+60	4560	vapaaehtoisesti	vapaaehtoisesti
+61	4561	taisto	taisto taistoon taistossa taiston taistoa taistosta
+62	4562	päänsärky	päänsärky päänsärkyä päänsäryn päänsärkyyn päänsärystä päänsäryt päänsärkyjä päänsäryistä
+63	4563	valoisa	valoisaa valoisa valoisan valoisaan valoisalta valoisia valoisana valoisat valoisampi valoisassa valoisampaa valoisammalta valoisissa valoisalla valoisasta
+64	4564	juhannus	juhannuksena juhannus juhannuksen juhannusta juhannukseen juhannukseksi juhannuksesta
+65	4565	puhdistus	puhdistus puhdistukseen puhdistuksen puhdistusta puhdistukset puhdistuksessa puhdistuksesta puhdistuksia puhdistuksiin puhdistusten puhdistuksista
+66	4566	leino	leino leinon leinoa
+67	4567	toimipiste	toimipiste toimipisteessä toimipisteen toimipisteet toimipistettä toimipisteitä toimipisteeseen toimipisteissä toimipisteiden toimipisteistä toimipisteestä toimipisteisiin toimipisteensä
+68	4568	poski	poskessa poskelle poskeen posket poski posken poskella poskea poskille poskia poskien poskiin poskilla poskesta poskensa poskista poskissa
+69	4569	lohikäärme	lohikäärme lohikäärmeen lohikäärmeet lohikäärmettä lohikäärmeitä lohikäärmeiden lohikäärmeistä lohikäärmeestä lohikäärmeesi lohikäärmeeksi
+70	4570	paheta	pahenee paheni pahenevat pahenivat paheneva pahene pahenemaan
+71	4571	hanko	hanko hangon hangossa hankoon hangosta
+72	4572	kukkula	kukkulan kukkuloilla kukkulalla kukkulalle kukkula kukkuloiden kukkuloille kukkulat kukkulaa kukkuloita kukkulalta kukkuloilta
+73	4573	roomalainen	roomalaiset roomalainen roomalaisten roomalaisen roomalaisia roomalaista roomalaisille roomalaisessa roomalaisista roomalaisilla roomalaisesta roomalaiseen
+74	4574	kunpa	kunpa kumpa
+75	4575	täyte	täytettä täytteet täyte täytteenä täytteitä täytteeksi täytteen täytteiden täytteeseen täytteillä täytteessä täytteellä
+76	4576	maaottelu	maaottelussa maaottelua maaottelun maaottelu maaotteluita maaotteluissa maaottelunsa maaottelut maaotteluun maaotteluiden
+77	4577	kauheasti	kauheasti kauheammin
+78	4578	demokraatti	demokraattien demokraatti demokraatit demokraatteja demokraateille demokraateilla demokraatteihin demokraateista demokraatin
+79	4579	ulkoistaa	ulkoistaa ulkoista ulkoistetaan ulkoistaminen ulkoistettu ulkoistanut ulkoistamisen ulkoistamista ulkoistamalla ulkoistamaan ulkoistamisesta ulkoistavat ulkoistettiin
+80	4580	atlantti	atlantin atlantilla atlantista atlanttia atlantille atlantilta atlantti atlanttiin
+81	4581	psykologinen	psykologinen psykologisia psykologisen psykologiset psykologista psykologiseen psykologisten psykologisesta psykologisista psykologisessa psykologisiin psykologisissa
+82	4582	kontrolloida	kontrolloida kontrolloi kontrolloimaan kontrolloitu kontrolloivat kontrolloidaan kontrolloiva kontrolloima kontrolloimalla kontrolloimme
+83	4583	kakka	kakka kakkaa kakalla kakan kakat kakasta
+84	4584	arabi	arabit arabi arabien arabeja arabin arabeille arabeista arabeilla arabeilta
+85	4585	animaatio	animaatio animaation animaatioita animaatiot animaatiota animaatiossa animaatioiden animaatiosta animaatioista animaatioon animaatioissa
+86	4586	kirjoitella	kirjoitella kirjoitellut kirjoittelee kirjoittelin kirjoittelemaan kirjoitteli kirjoittelen kirjoittele kirjoitellaan kirjoittelevat kirjoiteltu kirjoittelet
+87	4587	riisua	riisua riisui riisuu riisuttu riisumaan riisutaan riisuminen riisunut riisuttiin riisuin riisuivat riisu riisumista riisuvat riisumalla riisuttua riisun riisuttuna
+88	4588	rakennustyö	rakennustyöt rakennustöitä rakennustöiden rakennustyö rakennustyön rakennustöissä rakennustöihin rakennustöistä rakennustyötä rakennustyössä
+89	4589	moraalinen	moraalinen moraalisen moraalisia moraalista moraaliset moraalisesta moraalisten moraaliseen moraalisena moraalisista moraaliseksi moraalisessa moraalisella
+90	4590	antiikki	antiikin antiikki antiikkia antiikista
+91	4591	siivooja	siivooja siivoojan siivoojat siivoojaa siivoojia siivoojana siivoojien siivoojaksi
+92	4592	varvas	varpaat varpaiden varpaille varpaita varvas varpaisiin varpaan varvasta varpaissa varpaansa varpaista varpailla
+93	4593	liite	liite liitteessä liitteen liitteenä liitteet liitteitä liitteeseen liitteestä liitteeksi liitettä liitteineen
+94	4594	jäsenmaa	jäsenmaiden jäsenmaat jäsenmaa jäsenmaissa jäsenmaita jäsenmaan jäsenmaata jäsenmaista jäsenmaille jäsenmaassa jäsenmaasta jäsenmaihin jäsenmailla
+95	4595	elämys	elämyksiä elämys elämyksen elämysten elämykset elämystä elämyksiin elämykseen
+96	4596	törmäys	törmäys törmäyksen törmäyksessä törmäystä törmäyksestä törmäyksiä törmäykseen törmäykset törmäyksissä törmäysten törmäyksistä
+97	4597	eläintarha	eläintarhan eläintarha eläintarhassa eläintarhaan eläintarhasta eläintarhoissa eläintarhojen eläintarhaa eläintarhat eläintarhoista eläintarhoihin
+98	4598	meteli	meteliä meteli metelin metelistä meteliin
+99	4599	biologia	biologian biologia biologiaa biologiasta biologiassa biologiaan
+100	4600	haistaa	haistakaa haistaa haistamaan haistoi haistan haistanut haistavat haistoin haistakoon

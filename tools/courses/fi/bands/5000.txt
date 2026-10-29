@@ -1,0 +1,100 @@
+1	4901	joustava	joustava joustavia joustavan joustavaa joustavat joustavampi joustavien joustavasta joustavaan joustavalla joustavin
+2	4902	jersey	jersey jerseyn jerseyssä jerseystä
+3	4903	elektroninen	elektroninen elektronisen elektroniset elektronista elektronisia elektronisten elektroniseen elektronisella elektronisesta elektronisessa elektronisilla
+4	4904	hulluus	hulluutta hulluus hulluuden hulluuteen hulluudesta hulluutensa
+5	4905	seiska	seiska seiskan seiskaa seiskassa seiskalla seiskaan seiskalle seiskalta seiskat seiskasta
+6	4906	vaalikausi	vaalikaudella vaalikauden vaalikausi vaalikautta vaalikaudelle
+7	4907	diktaattori	diktaattori diktaattorin diktaattorit diktaattoria diktaattoriksi diktaattorien diktaattorina diktaattoreita
+8	4908	poliisilaitos	poliisilaitos poliisilaitoksen poliisilaitoksella poliisilaitokselle poliisilaitokselta poliisilaitosta poliisilaitosten poliisilaitokset poliisilaitokseen
+9	4909	lakana	lakanat lakanoita lakanoiden lakana lakanan lakanoihin lakanoista lakanoissa lakanaa lakanaan lakanalla
+10	4910	pata	pataan pata pataa padan padassa patoja patojen padat padasta patana patoihin
+11	4911	kiri	kiri kirin kiristä kiriin kireinä kireissä
+12	4912	suurlähetystö	suurlähetystö suurlähetystön suurlähetystössä suurlähetystöön suurlähetystöstä suurlähetystöt suurlähetystöä suurlähetystöjen
+13	4913	kommunistinen	kommunistinen kommunistisen kommunistisessa kommunistista kommunistiset kommunistiseen kommunistisia kommunistisesta kommunistiseksi kommunististen kommunistiselle
+14	4914	jokapäiväinen	jokapäiväistä jokapäiväinen jokapäiväisessä jokapäiväiseen jokapäiväisiä jokapäiväisestä jokapäiväisen jokapäiväiset jokapäiväisistä
+15	4915	kondomi	kondomia kondomi kondomeja kondomin kondomit kondomien kondomeista kondomeita
+16	4916	terminaali	terminaali terminaalin terminaalissa terminaaliin terminaalista terminaalia terminaalit terminaalien terminaaleja
+17	4917	hioa	hioa hiottu hiotaan hiomista hiomaan hionut hiottua hioi hioo hiomiseen hiottiin hiottuja hiominen hio hiomalla hiotun hiomaton hiovat hiomisen
+18	4918	suurvalta	suurvalta suurvaltojen suurvallan suurvallat suurvaltaa suurvallaksi suurvaltana suurvaltoja
+19	4919	ranne	ranne ranteet ranteessa ranteen ranteeseen ranteesta ranteensa rannetta ranteissa ranteisiin rantein ranteiden ranteeni ranteella
+20	4920	puuro	puuroa puuro puuron puurot puuroon puurosta puuroja puurossa
+21	4921	suominen	suominen suomisen suomista
+22	4922	his	his hissin hississä hissiä hissillä hissiin hissien hissistä
+23	4923	yksinhuoltaja	yh yksinhuoltaja yksinhuoltajan yksinhuoltajat yksinhuoltajien yksinhuoltajia yksinhuoltajana yksinhuoltajaksi yksinhuoltajilla
+24	4924	jauho	jauhot jauhoja jauhojen jauhoista jauho jauhoa jauhoihin jauhoissa jauhon jauhoksi
+25	4925	teknillinen	teknillisen teknillinen teknillisessä teknillisestä teknilliseen teknillisellä teknillisten teknillistä
+26	4926	tapainen	tapaista tapainen tapaisia tapaiset tapaisen tapaisten tapaiseen tapaisiin tapaisella tapaisesta tapaisin
+27	4927	kurikka	kurikan kurikka kurikassa kurikasta kurikkaan
+28	4928	kassi	kassi kassit kassin kasseja kassiin kassissa kassia kassien kassista kasseihin kassinsa
+29	4929	siepata	siepattiin sieppasi siepattu sieppaa siepannut siepata sieppasivat sieppaavat sieppaamaan siepataan siepanneen sieppaamalla
+30	4930	levä	levillä levin levää levä leville levät levien levän leva levistä levästä leviltä leviä
+31	4931	kalastaja	kalastaja kalastajan kalastajat kalastajien kalastajia kalastajille kalastajaa kalastajalle kalastajilta kalastajaksi kalastajana
+32	4932	totella	totella tottelee tottele totellut tottelemaan totteli tottelevat tottelematon tottelivat totellaan toteltava tottelemasta
+33	4933	es	es
+34	4934	historiallisesti	historiallisesti
+35	4935	kesäisin	kesäisin
+36	4936	tienoilla	tienoilla
+37	4937	vaihtoehtoisesti	vaihtoehtoisesti
+38	4938	uros	uros urokset uroksen urosten uroksia urosta uroksilla uroksella
+39	4939	kylpylä	kylpylä kylpylässä kylpylän kylpylään kylpylät kylpylöitä kylpylöissä kylpylää kylpylästä kylpylöistä kylpylöihin
+40	4940	maari	maarit maaria maari
+41	4941	viite	viitteitä viite viitteet viitettä viitteen viitteiden
+42	4942	monimuotoisuus	monimuotoisuuden monimuotoisuus monimuotoisuutta monimuotoisuudesta monimuotoisuuteen monimuotoisuudelle
+43	4943	hahmottaa	hahmottaa hahmottamaan hahmottaminen hahmota hahmottamista hahmottamisessa hahmotetaan hahmottanut hahmottamisen hahmottavat hahmotan
+44	4944	riehua	riehuu riehua riehui riehunut riehumaan riehuvat riehumista riehu riehuminen riehuivat riehuva riehumisen riehuessa riehuneen riehumassa
+45	4945	avoimuus	avoimuus avoimuutta avoimuuden avoimuudesta avoimuuteen
+46	4946	aktivoida	aktivoi aktivoida aktivoivat aktivoitu aktivoidaan aktivoimaan aktivoimalla aktivoitiin aktivoinut aktivoiminen
+47	4947	luuri	luuri luurin luurit luuria luuriin luureja luurista
+48	4948	hallitusohjelma	hallitusohjelmaan hallitusohjelman hallitusohjelma hallitusohjelmassa hallitusohjelmaa hallitusohjelmasta
+49	4949	psyykkinen	psyykkinen psyykkisiä psyykkistä psyykkisen psyykkiset psyykkiseen psyykkisistä psyykkisten psyykkisestä psyykkisiin
+50	4950	välittäjä	välittäjä välittäjän välittäjänä välittäjät välittäjien välittäjää välittäjälle välittäjiä välittäjäksi välittäjältä välittäjinä välittäjille
+51	4951	vahtia	vahtia vahtii vahtimaan vahtimassa vahtivat vahdin vahdi vahditaan vahtiminen vahtinut vahtimista vahdit
+52	4952	tuotantokausi	tuotantokausi tuotantokauden tuotantokaudella tuotantokautta tuotantokaudelle tuotantokaudesta tuotantokaudelta
+53	4953	gradu	gradu gradun gradua gradunsa gradujen graduun
+54	4954	väittely	väittely väittelyn väittelyä väittelyyn väittelyssä väittelyitä väittelyt väittelyissä väittelystä
+55	4955	geneettinen	geneettinen geneettistä geneettisen geneettisiä geneettiset geneettisestä geneettisten geneettiseen geneettisistä geneettisessä geneettisellä
+56	4956	minimi	minimi minimiin minimissä minimin minimiä minimit
+57	4957	sekoitus	sekoitus sekoitusta sekoituksen sekoituksia sekoituksesta sekoituksella sekoitukseen sekoitukseksi
+58	4958	kusta	kusee kustaan kuse kuskaa kussut kusevat kusemaan kusen kuset kuseminen kusta kustu kusin kusivat kustakin
+59	4959	kirjautua	kirjautua kirjautuu kirjaudu kirjautunut kirjautui kirjautumaan kirjautuminen kirjautumisen kirjautumista kirjaudutaan kirjautuvat kirjauduin kirjautumiseen kirjaudut
+60	4960	tehopiste	tehopistettä tehopisteitä tehopisteet tehopisteen tehopisteensä tehopisteillä tehopistein
+61	4961	satuttaa	satuttaa satuttavat satutti satuttanut satuta satuttaisi satuttamaan satutan
+62	4962	epätavallinen	epätavallisen epätavallinen epätavallista epätavallisia epätavalliset epätavallisesta epätavalliseen epätavallisten epätavallisista
+63	4963	pakastin	pakastin pakastimeen pakastimessa pakastimen pakastimesta pakastimet pakastinta
+64	4964	kesäloma	kesäloma kesäloman kesälomalla kesälomaa kesälomat kesälomien kesälomalle kesälomia
+65	4965	emo	emo emon emot emonsa emoa emolle emojen emoja
+66	4966	aseellinen	aseellinen aseellisen aseellista aseelliseen aseelliset aseellisesta aseellisia aseellisten aseellisiin aseellisessa
+67	4967	parturi	parturi parturissa parturiin parturin parturit parturia
+68	4968	kolmikko	kolmikko kolmikon kolmikosta kolmikkoa kolmikkoon kolmikolle
+69	4969	luostari	luostarin luostari luostarissa luostariin luostarista luostaria luostarit luostareita
+70	4970	rutiini	rutiinia rutiini rutiinit rutiinilla rutiineja rutiinin rutiineista rutiineihin rutiinien rutiiniin
+71	4971	tuhka	tuhka tuhkaa tuhkat tuhkan tuhkasta tuhkaksi tuhkansa tuhkaan tuhkista
+72	4972	säännös	säännösten säännöksiä säännökset säännös säännöksen säännöksistä säännöksiin säännöksillä säännöstä
+73	4973	laatta	laatat laatta laatan laattojen laattoja laattaa laatoista laattaan laatassa laatasta
+74	4974	metsähallitus	metsähallitus metsähallituksen metsähallitukselle
+75	4975	tutkimuslaitos	tutkimuslaitos tutkimuslaitoksen tutkimuslaitokset tutkimuslaitosten tutkimuslaitoksessa tutkimuslaitoksia tutkimuslaitoksesta tutkimuslaitosta tutkimuslaitoksissa tutkimuslaitokselle tutkimuslaitoksista
+76	4976	laajentua	laajentunut laajentua laajentuminen laajentumisen laajentumista laajentuessa laajentui laajentumaan laajentumiseen laajentuu laajentumisesta laajentuvat
+77	4977	ajoitus	ajoitus ajoituksen ajoitusta ajoituksesta ajoitukset ajoitukseen ajoituksella ajoituksessa
+78	4978	pahoittelu	pahoittelut pahoitteluni pahoittelunsa pahoittelumme
+79	4979	taikina	taikina taikinan taikinaa taikinasta taikinaan taikinaksi taikinassa
+80	4980	väitöskirja	väitöskirja väitöskirjan väitöskirjaa väitöskirjansa väitöskirjassa väitöskirjasta väitöskirjoja väitöskirjat
+81	4981	urpo	urpo urpot urpon urpoja urpoa
+82	4982	tuttava	tuttavani tuttava tuttavia tuttavat tuttavien tuttavan tuttavansa tuttaville tuttavasi tuttavaa tuttavilta
+83	4983	yhteisöllisyys	yhteisöllisyyttä yhteisöllisyys yhteisöllisyyden yhteisöllisyydestä yhteisöllisyyteen
+84	4984	hunaja	hunajaa hunaja hunajan hunajalla hunajasta hunajassa
+85	4985	harja	harja harjaa harjalla harjan harjanne harjat harjaan harjoja harjalle harjasta harjasi harjalta
+86	4986	isänmaa	isänmaan isänmaa isänmaata isänmaamme isänmaalle isänmaani isänmaansa
+87	4987	pirkka	pirkka pirkan
+88	4988	valkea	valkea valkean valkeaa valkeat valkeita valkealla valkeaksi valkealle valkeaan valkeilla valkeassa valkeasta
+89	4989	kirjanpito	kirjanpito kirjanpidon kirjanpitoa kirjanpidossa kirjanpitoon kirjanpidosta
+90	4990	myöhästyä	myöhästyi myöhästyy myöhästyin myöhästy myöhästynyt myöhästyä myöhästyivät myöhästyvät myöhästyneen
+91	4991	tyly	tyly tylyä tylyn tylyjä tylyt
+92	4992	pilkku	pilkun pilkku pilkkuja pilkkua pilkulta pilkut pilkkuun pilkkujen
+93	4993	koriste	koriste koristeita koristeet koristeena koristeeksi koristeina koristeilla koristeen koristeiden koristeiksi koristeista
+94	4994	sveitsiläinen	sveitsiläinen sveitsiläisen sveitsiläiset sveitsiläistä sveitsiläisten sveitsiläisessä sveitsiläiselle sveitsiläisiä sveitsiläiseen sveitsiläisestä
+95	4995	lähitulevaisuus	lähitulevaisuudessa lähitulevaisuuden lähitulevaisuuteen
+96	4996	hiipua	hiipui hiipuu hiipua hiipunut hiipumassa hiipuminen hiipuessa hiipumaan hiipumisen hiipumista hiipuivat hiipuvat hiipumisesta
+97	4997	vääryys	vääryyttä vääryys vääryyden vääryyksiä vääryydet vääryydellä vääryydestä vääryyksistä vääryyksien
+98	4998	motivoida	motivoi motivoida motivoivat motivoiva motivoimaan motivoinut motivoidaan
+99	4999	malttaa	malttaa malttanut malttaisi maltan malttamattomana malttoi malttamaton maltat maltoin
+100	5000	lomake	lomakkeet lomake lomakkeen lomakkeita lomakkeella lomaketta lomakkeiden lomakkeessa lomakkeeseen lomakkeesta

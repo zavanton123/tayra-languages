@@ -1,0 +1,100 @@
+1	9101	terveellisesti	terveellisesti terveellisemmin
+2	9102	leivonnainen	leivonnaisia leivonnainen leivonnaisten leivonnaisiin leivonnaisen leivonnaisista
+3	9103	voittoputki	voittoputki voittoputkessa voittoputken
+4	9104	vauras	vauras vauraan vaurasta vauraita vaurain vauraat vauraampi vauraiden
+5	9105	dynamo	dynamo dynamon dynamoa dynamossa
+6	9106	jade	jade jaden
+7	9107	toimilupa	toimiluvan toimilupa toimilupaa toimiluvat toimilupia toimilupien
+8	9108	helpoiten	helpoiten
+9	9109	pullollaan	pullollaan
+10	9110	pähkinänkuoressa	pähkinänkuoressa
+11	9111	yhtäjaksoisesti	yhtäjaksoisesti
+12	9112	yksityisesti	yksityisesti
+13	9113	saamelaiskäräjät	saamelaiskäräjien saamelaiskäräjät
+14	9114	muste	mustetta muste musteen musteella musteita
+15	9115	hiippakunta	hiippakunnan hiippakunnassa hiippakunta hiippakuntaan hiippakuntien
+16	9116	kersantti	kersantti kersantin
+17	9117	ratikka	ratikka ratikalla ratikkaan ratikan ratikat ratikassa
+18	9118	tuntuinen	tuntuinen tuntuista tuntuisen tuntuisia tuntuiseksi
+19	9119	keissi	keissi keississä
+20	9120	venytys	venytys venytykset venytystä venytyksen venytyksiä
+21	9121	lisuke	lisukkeena lisukkeeksi lisukkeita lisuke lisukkeet lisukkeineen lisukkeilla
+22	9122	omaishoito	omaishoidon omaishoito omaishoitoa
+23	9123	vasemmistopuolue	vasemmistopuolue vasemmistopuolueiden vasemmistopuolueet vasemmistopuolueen vasemmistopuoluetta
+24	9124	perverssi	perverssi perverssiä perverssejä
+25	9125	vaientaa	vaientaa vaientamaan vaiennetaan vaiensi vaientanut
+26	9126	vanhakaupunki	vanhankaupungin vanhakaupunki vanhassakaupungissa vanhaankaupunkiin vanhaakaupunkia
+27	9127	argentiinalainen	argentiinalainen argentiinalaisen argentiinalaista argentiinalaiset
+28	9128	sotamies	sotamies sotamiehen sotamiehiä
+29	9129	valikoida	valikoi valikoida valikoiden valikoinut valikoimaan valikoiman valikoitiin valikoidaan valikoimasta valikoivat valikoimassa valikoimalla
+30	9130	televisiosarja	televisiosarjan televisiosarja televisiosarjassa televisiosarjasta televisiosarjojen televisiosarjaan televisiosarjoissa televisiosarjaa televisiosarjat
+31	9131	imuroida	imuroi imuroida imuroin imuroimaan imuroidaan
+32	9132	suomentaja	suomentaja suomentajat suomentajana
+33	9133	päätön	päätön päätöntä päättömiä päättömän
+34	9134	puutavara	puutavara puutavaran puutavaraa
+35	9135	ulottuvilla	ulottuvilla ulottuville ulottuvilta
+36	9136	federaatio	federaation federaatio federaatiota federaatioon
+37	9137	perheväkivalta	perheväkivallan perheväkivalta perheväkivaltaa perheväkivallasta perheväkivaltaan
+38	9138	veljeskunta	veljeskunnan veljeskunta veljeskuntaan veljeskuntaa
+39	9139	sertifikaatti	sertifikaatti sertifikaatit sertifikaatin sertifikaatteja sertifikaattia sertifikaattien
+40	9140	paradoksi	paradoksi paradoksin paradoksia paradokseja
+41	9141	sovitella	sovitella sovittelemaan soviteltua soviteltu sovitellaan sovitteleva sovitteli soviteltiin sovittelee
+42	9142	selälleen	selälleen selällään selälleni selällesi selälläni
+43	9143	omistautua	omistautua omistautumista omistautuminen omistautui omistautuu omistautumisesta omistautumisen
+44	9144	paikallislehti	paikallislehti paikallislehden paikallislehdet paikallislehdessä paikallislehtien paikallislehteen paikallislehdissä paikallislehteä
+45	9145	todentaa	todentaa todentamaan todennettu todentaminen todennettavissa todennetaan todentamiseen
+46	9146	aave	aave aaveet aaveen aaveita aaveiden
+47	9147	petturi	petturi petturiksi petturina pettureita petturit pettureiksi petturien petturin
+48	9148	pakara	pakarat pakaroita pakaroiden pakaroihin pakara pakaraan
+49	9149	pahvi	pahvi pahvia pahvista pahvin pahvit pahviin
+50	9150	laajeneminen	laajeneminen laajenemisen laajenemista laajenemisesta laajenemiseen
+51	9151	käänteinen	käänteinen käänteisen käänteisessä käänteistä käänteiseen
+52	9152	ripeästi	ripeästi ripeämmin
+53	9153	kunniamaininta	kunniamaininta kunniamaininnan kunniamaininnalla kunniamainintoja kunniamaininnat
+54	9154	liikehdintä	liikehdintää liikehdintä liikehdinnän liikehdinnästä
+55	9155	etenevä	etenevän etenevää etenevät eteneviä etenevään etenevässä etenevä
+56	9156	umpikuja	umpikujaan umpikujassa umpikuja umpikujasta umpikujan
+57	9157	vagina	vagina vaginan vaginaan vaginaa vaginassa vaginasta
+58	9158	beat	beat beatin
+59	9159	aineellinen	aineelliset aineellinen aineellisen aineellista aineellisia aineellisten aineelliseen aineellisesta
+60	9160	päänahka	päänahan päänahka päänahkaa päänahkaan päänahkoja päänahasta päänahassa
+61	9161	ilmestys	ilmestys ilmestyksen ilmestyksiä
+62	9162	taipuvainen	taipuvainen taipuvaisia taipuvaisempia
+63	9163	tuhti	tuhti tuhdin tuhtia tuhteja
+64	9164	silmäkulma	silmäkulmassa silmäkulmaan silmäkulmasta
+65	9165	rykmentti	rykmentti rykmentin rykmentissä rykmenttiä rykmentistä rykmenttiin
+66	9166	bussikuski	bussikuski bussikuskin bussikuskit
+67	9167	soihtu	soihtu soihdut soihtuja soihdun soihtua soihtujen
+68	9168	liiketoimi	liiketoimet liiketoimia liiketoimien liiketoimi liiketoimista liiketoimiin
+69	9169	helliä	hellii helli helliä hellitä hellivät hellin
+70	9170	suistua	suistui suistunut suistuu
+71	9171	rajaus	rajaus rajauksia rajaukset rajauksen rajausta rajauksesta rajaukseen rajauksella
+72	9172	lahjoa	lahjottu lahjoa lahjoi lahjomalla lahjomaton lahjonut lahjomaan lahjoo lahjotaan
+73	9173	skaala	skaala skaalalla skaalan skaalaa skaalassa
+74	9174	rotko	rotkon rotkoon rotko rotkoja rotkossa rotkosta
+75	9175	horjuttaa	horjuttaa horjuttamaan horjutti horjuta horjuttanut
+76	9176	piristys	piristystä piristys piristykseksi
+77	9177	vierasvoitto	vierasvoitto vierasvoiton vierasvoittoon
+78	9178	vietellä	vietellä viettelee vietteli viettelevä viettelemään viettelevän
+79	9179	kehitysyhteistyö	kehitysyhteistyön kehitysyhteistyö kehitysyhteistyötä kehitysyhteistyöhön kehitysyhteistyöstä
+80	9180	yleisömäärä	yleisömäärä yleisömäärät yleisömäärän
+81	9181	mämmi	mämmi mämmiä mämmin
+82	9182	vähättely	vähättely vähättelyä vähättelystä vähättelyyn vähättelyn
+83	9183	tappouhkaus	tappouhkauksia tappouhkauksen tappouhkaus tappouhkaukset tappouhkausten
+84	9184	roisto	roisto roistoja roistot roiston roistojen roistoa
+85	9185	avainsana	avainsana avainsanat avainsanoja
+86	9186	kielellinen	kielellinen kielellisiä kielelliset kielellisen kielellistä kielellisten kielellisistä
+87	9187	oikeusasiamies	oikeusasiamiehen oikeusasiamies oikeusasiamiehelle
+88	9188	kymmenesosa	kymmenesosa kymmenesosan kymmenesosaan kymmenesosaa
+89	9189	huosta	huostaan huostassa
+90	9190	nukkumaanmeno	nukkumaanmenoa nukkumaanmeno
+91	9191	hiertää	hiertää hiertävät hiersi hiertänyt
+92	9192	opetusministeriö	opetusministeriön opetusministeriö opetusministeriössä
+93	9193	päärooli	pääroolissa pääroolin pääroolia päärooliin päärooleissa päärooli
+94	9194	ontto	ontto onton ontoksi onttoa onttoja ontot
+95	9195	kaksinpeli	kaksinpelin kaksinpelissä kaksinpeli kaksinpelit kaksinpelistä
+96	9196	kärjistyä	kärjistyi kärjistyy kärjistyivät kärjistynyt kärjistyä kärjistyvät kärjistyminen kärjistymistä
+97	9197	pilvenpiirtäjä	pilvenpiirtäjä pilvenpiirtäjiä pilvenpiirtäjän pilvenpiirtäjät pilvenpiirtäjien pilvenpiirtäjistä pilvenpiirtäjässä pilvenpiirtäjästä
+98	9198	realiteetti	realiteetit realiteetteja realiteettien realiteetti realiteeteista realiteetteihin
+99	9199	rakennuttaja	rakennuttaja rakennuttajan rakennuttajat rakennuttajien rakennuttajana rakennuttajia rakennuttajille
+100	9200	marihuana	marihuanaa marihuanan marihuana marihuanasta

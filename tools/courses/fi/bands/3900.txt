@@ -1,0 +1,100 @@
+1	3801	lentopallo	lentopallo lentopallon lentopalloa lentopallossa lentopalloon
+2	3802	edeltävä	edeltävänä edeltävän edeltävä edeltävää edeltävät edeltävään edeltävien edeltävältä edeltävinä edeltävässä edeltävällä edeltävästä edeltäviä edeltäviin edeltävistä edeltävälle edeltävissä
+3	3803	peliaika	peliaikaa peliaika peliajan peliajalla peliajalle peliajasta
+4	3804	hehtaari	hehtaaria hehtaarin hehtaari hehtaarilla hehtaarilta hehtaariin hehtaareja hehtaarien
+5	3805	kuivaa	kuivaa kuivat kuivan kuivin kuivanen
+6	3806	georgia	georgia georgian georgiassa georgiasta georgiaan georgiaa georgialle
+7	3807	yrittäjyys	yrittäjyys yrittäjyyden yrittäjyyttä yrittäjyyteen yrittäjyydestä yrittäjyydessä
+8	3808	mallisto	malliston mallisto mallistosta mallistoon mallistoa mallistossa mallistot mallistonsa mallistoja
+9	3809	edelleenkin	edelleenkin
+10	3810	seuraavasti	seuraavasti
+11	3811	ulko	ulko
+12	3812	öisin	öisin
+13	3813	santa	santa sannan santana sannalle sannalla
+14	3814	tekosyy	tekosyy tekosyitä tekosyynä tekosyyn tekosyytä tekosyyt tekosyyllä tekosyiden
+15	3815	kuitata	kuittaa kuitata kuittasi kuitattu kuitataan kuittaamaan kuittailla kuitannut kuitattua kuittaavat kuitattiin kuittaan
+16	3816	toistuva	toistuva toistuvat toistuvia toistuvaa toistuvan toistuvien toistuvista toistuvasta toistuviin toistuvaan toistuvissa toistuvilla
+17	3817	kenkiä	kenkiä kenkien
+18	3818	viileä	viileä viileää viileässä viileän viileämpää viileänä viileitä viileämpi viileät viileään viileällä viileinä viilein viileästä viileältä viileissä viileiden viileillä
+19	3819	rekisteröity	rekisteröity rekisteröidyn rekisteröityjä rekisteröityjen rekisteröidyt rekisteröitynä rekisteröidyssä rekisteröidyistä rekisteröidystä rekisteröidylle rekisteröityyn rekisteröidyllä
+20	3820	mielikuvitus	mielikuvitus mielikuvitusta mielikuvituksen mielikuvituksesi mielikuvituksesta mielikuvitukseni mielikuvitukseen mielikuvituksessa mielikuvitukselle mielikuvituksella
+21	3821	tesla	tesla teslan teslaa teslalla teslasta teslaan tesloja teslassa
+22	3822	huonekalu	huonekaluja huonekalut huonekalujen huonekalu huonekaluista huonekaluihin huonekalun huonekaluilla huonekaluissa huonekalua
+23	3823	ledi	led ledit ledien ledejä ledin ledi ledeillä
+24	3824	jäähy	jäähyn jäähy jäähyjä jäähyä jäähylle jäähyjen jäähyt jäähyllä jäähyistä
+25	3825	anime	anime animea animen animessa animesta animeen
+26	3826	prisma	prisma prisman prismassa prismasta prismaan prismoissa prismat prismoja prismaa prismoista
+27	3827	tuoksua	tuoksuu tuoksua tuoksuvat tuoksut tuoksui tuoksun tuoksuvia tuoksuva tuoksuvaa tuoksuivat tuoksuvan
+28	3828	uhkaava	uhkaavat uhkaava uhkaavan uhkaavia uhkaavaa uhkaavana uhkaavasta uhkaavaan uhkaavalta uhkaavaksi uhkaavien uhkaavista uhkaavassa uhkaaviin
+29	3829	senaatti	senaatti senaatin senaatissa senaattiin senaatista senaatille senaattia
+30	3830	läski	läski läskiä läskit läskiksi läskin läskejä läskien läskistä
+31	3831	taakka	taakka taakkaa taakan takka taakaksi taakkana taakasta taakkoja taakkansa taakat
+32	3832	heiketä	heikkenee heikkeni heikkenevät heiketä heikkenivät heikkene heikkenisi heikkenemään heiketessä heikkenemässä heikkenevä heikennyt heikkenemistä
+33	3833	ehkäisy	ehkäisy ehkäisyä ehkäisyyn ehkäisyn ehkäisystä ehkäisyssä
+34	3834	ympyrä	ympyrä ympyrän ympyrää ympyrät ympyröissä ympyrään ympyrässä ympyröitä ympyrästä ympyröihin ympyröistä ympyrällä ympyröiden
+35	3835	säteily	säteily säteilyä säteilyn säteilylle säteilystä säteilyltä säteilyyn säteilyllä
+36	3836	hämmästyttää	hämmästyttävän hämmästyttävää hämmästyttää hämmästyttävä hämmästyttäviä hämmästytti hämmästyttävät hämmästyttävällä hämmästyttänyt hämmästytä
+37	3837	oikeutettu	oikeutettu oikeutettuja oikeutettua oikeutettuna oikeutetun oikeutetuksi oikeutetut oikeutettujen oikeutetusta
+38	3838	alkuvaihe	alkuvaiheessa alkuvaiheen alkuvaiheissa alkuvaihe alkuvaiheista alkuvaiheilla alkuvaiheeseen alkuvaiheita alkuvaiheesta
+39	3839	paniikki	paniikki paniikissa paniikkiin paniikkia paniikin paniikista
+40	3840	rentoutua	rentoutua rentoutumaan rentoutuu rentoudu rentoutumista rentoutunut rentoutuminen rentoutumiseen rentoutuvat rentoutumisen rentoudun rentoutui rentoudutaan rentouduin
+41	3841	ulkoministeriö	ulkoministeriön ulkoministeriö ulkoministeriöstä ulkoministeriössä ulkoministeriöön ulkoministeriölle ulkoministeriötä
+42	3842	diagnoosi	diagnoosi diagnoosin diagnoosia diagnooseja diagnoosista diagnoosit diagnoosiin diagnoosien diagnoosiksi diagnoosina
+43	3843	saanti	saanti saannin saantia saantiin saannista saannissa
+44	3844	tietoturva	tietoturva tietoturvan tietoturvaa tietoturvasta tietoturvaan tietoturvassa
+45	3845	kemiallinen	kemiallinen kemiallisia kemiallisten kemialliset kemiallisen kemiallista kemiallisista kemialliseen kemiallisesta kemiallisiin kemiallisessa kemiallisilla kemiallisella
+46	3846	turve	turpeen turve turvetta turpeesta turpeella turpeeseen
+47	3847	luotto	luottoa luotto luoton luotolla luottojen luottoja luotot luotoista luottoni
+48	3848	kemikaali	kemikaaleja kemikaalit kemikaalien kemikaali kemikaalia kemikaaleista kemikaaleilla kemikaalin kemikaaleille kemikaaleihin
+49	3849	penis	penis peniksen penistä peniksesi penikseni penikset peniksensä peniksestä peniksiä penikseen peniksessä
+50	3850	myytti	myytti myyttejä myyttiä myytin myytit myyttien myyteistä myyttiin myytistä myytiksi myytteihin myytissä
+51	3851	kuula	kuula kuulan kuulin kuulat kuulaa kuulia kuulien kuulaan kuulalla kuulasta kuulassa kuulista
+52	3852	matkata	matkasi matkata matkaavat matkaa matkannut matkasivat matkaamme matkaamaan matkaan matkatessa matkataan matkaavan matkasin matkaava matkasimme
+53	3853	harrastaja	harrastaja harrastajien harrastajat harrastajia harrastajille harrastajan harrastajaa harrastajista harrastajana harrastajalle harrastajilla harrastajilta
+54	3854	ääretön	äärettömän ääretön ääretöntä äärettömään
+55	3855	rikollisuus	rikollisuus rikollisuutta rikollisuuden rikollisuuteen rikollisuudesta rikollisuudessa rikollisuudelle
+56	3856	toiminto	toiminnot toiminto toiminnon toimintoa toimintonsa toiminnolla toiminnosta toimintoon toimintoja toimintojen toimintoihin toiminnoista toiminnoissa toiminnoille
+57	3857	viski	viski viskiä viskin whisky viskistä viskit viskejä viskiin viskien viskille viskeistä
+58	3858	sisustus	sisustus sisustukseen sisustuksen sisustuksessa sisustusta sisustuksesta sisustuksia
+59	3859	nukke	nukke nuken nuket nukkeja nukkea nukeilla nukeista nukkejen nukella nukesta nukkeen nukkien nukelle nukkeihin
+60	3860	kosteus	kosteus kosteutta kosteuden kosteudesta
+61	3861	kortteli	korttelin kortteli korttelissa korttelia kortteliin korttelit kortteleita korttelista kortteleissa korttelien kortteleihin kortteleiden
+62	3862	takuu	takuu takuita takuun takuuseen takuut takuuta takuiden takuuna takuusta takuuksi
+63	3863	edelleenkään	edelleenkään
+64	3864	halki	halki
+65	3865	ken	ken
+66	3866	kohtuullisen	kohtuullisen
+67	3867	nähtävissä	nähtävissä
+68	3868	taannoin	taannoin
+69	3869	liettua	liettuan liettua liettuassa liettuasta liettuaa liettuaan
+70	3870	aukea	aukeaa aukea aukealla aukealle aukean
+71	3871	puheenvuoro	puheenvuoron puheenvuoro puheenvuoroja puheenvuorot puheenvuoroa puheenvuorossa puheenvuorojen puheenvuoroissa puheenvuorosta puheenvuoronsa puheenvuoroon puheenvuoroista
+72	3872	soveltua	soveltuu sovellu soveltuisi soveltunut soveltua soveltuvat soveltui soveltuivat
+73	3873	aioni	aion
+74	3874	päiväkirja	päiväkirja päiväkirjaa päiväkirjan päiväkirjat päiväkirjaan päiväkirjasta päiväkirjansa päiväkirjassa päiväkirjoja päiväkirjojen päiväkirjoista päiväkirjani päiväkirjoihin
+75	3875	koivu	koivu koivun koivua koivusta koivut koivuja koivujen koivuun
+76	3876	vilkaista	vilkaista vilkaise vilkaisin vilkaisi vilkaisemaan vilkaisemassa vilkaisee vilkaisemalla vilkaissut vilkaisen
+77	3877	piilo	piiloon piilo piilosta
+78	3878	emäntä	emäntä emännän emäntää emäntänä emännälle emäntänsä emännät emäntien emännäksi
+79	3879	painua	painua painuu painu painui painunut painuvat painumaan painuivat painukaa painuisi painuin painun
+80	3880	kaupunkilainen	kaupunkilaiset kaupunkilaisten kaupunkilaisia kaupunkilaisille kaupunkilainen kaupunkilaisen kaupunkilaisista kaupunkilaista kaupunkilaisilta
+81	3881	tulli	tulli tulleista tulleille tullit tulleilla tulleja tulleissa tulleilta tullin tulliin tullissa tullia tullista tullille tullien tullilla tullilta
+82	3882	taktiikka	taktiikka taktiikkaa taktiikan taktiikalla taktiikoita taktiikat taktiikasta taktiikkana taktiikkaan taktiikkansa taktiikassa taktiikoista
+83	3883	tuuma	tuuman tuumaa tuumasta tuumin tuuma tuumia tuumaan tuumalla
+84	3884	sotia	sotimaan sotii sotivat soti sotiminen sotien soditaan sotimisen sotinut sotimista sotia sotimassa sotimiseen sodittu sodi sodittiin sotimalla sotimisesta sotivan
+85	3885	kaksikko	kaksikko kaksikon kaksikkoa kaksikosta kaksikolle kaksikolla kaksikkoon
+86	3886	rytmi	rytmi rytmiä rytmin rytmiin rytmissä rytmit rytmejä rytmistä rytmillä rytmien rytminsä rytmeihin
+87	3887	rautatieasema	rautatieaseman rautatieasemalla rautatieasema rautatieasemalle rautatieasemalta rautatieasemaa rautatieasemien rautatieasemilla rautatieasemat
+88	3888	erikoiskoe	ek erikoiskokeella erikoiskokeen erikoiskoetta erikoiskoe erikoiskokeet
+89	3889	koettaa	koettaa koetetaan koetan koetti koetin koettanut koettavat koeta koetamme koettivat koetettiin koetettu koettakaa koettamaan koettava
+90	3890	osinko	osingot osinkoja osinkoa osinkojen osingon osinkoina osingoista osingosta osinkona osinkoihin osingoille osinko
+91	3891	parannus	parannuksia parannusta parannuksen parannus parannukset parannukseen parannuksista parannuksesta parannuksiin parannusten
+92	3892	aamulehti	aamulehti aamulehden aamulehdessä aamulehteen
+93	3893	kasa	kasa kasan kasaa kasasta kasoja kasat kasaksi kasoihin
+94	3894	kuitti	kuitti kuittia kuitin kuitit kuitteja kuitissa kuittien kuitista kuiteista kuittiin
+95	3895	vannoa	vannoi vannon vannoo vannoa vannomaan vannonut vannovat vannoivat vannoin vannotaan vanno
+96	3896	voimala	voimalan voimala voimaloiden voimalat voimaloita voimalaa voimalassa voimalasta voimalaan voimaloissa voimaloista voimalalle voimaloihin
+97	3897	saamelainen	saamelaiset saamelaisten saamelainen saamelaisia saamelaisen saamelaista saamelaisista saamelaisilla saamelaisille saamelaisiin saamelaisilta saamelaiseen saamelaiseksi
+98	3898	epäily	epäily epäilyjä epäilystä epäilyt epäilyn epäilyä epäilyistä epäilyjen epäilyyn epäilynsä epäilyni
+99	3899	ammattiliitto	ammattiliitto ammattiliittojen ammattiliitot ammattiliiton ammattiliittoon ammattiliittoja ammattiliittoa ammattiliittoihin ammattiliitoista ammattiliitoille
+100	3900	syyllistyä	syyllistynyt syyllistyi syyllistyy syyllistyä syyllistyvät syyllisty syyllistyivät syyllistyn syyllistyt syyllistyminen syyllistytään

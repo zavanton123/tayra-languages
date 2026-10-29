@@ -1,0 +1,101 @@
+# id	rankUpTo	level	topic (English)	title (Finnish)
+fi-mini-0100	100	A1	Home and family	Kotona ja perheen kanssa
+fi-mini-0200	200	A1	Everyday life	Tavallinen päivä
+fi-mini-0300	300	A1	Food and shopping	Ruokaa ja kauppaan
+fi-mini-0400	400	A2	In the city	Kaupungilla
+fi-mini-0500	500	A2	School and work	Koulu ja työ
+fi-mini-0600	600	A2	Free time and hobbies	Vapaa-aika ja harrastukset
+fi-mini-0700	700	A2	Health and the body	Terveys ja keho
+fi-mini-0800	800	A2	Travel and holidays	Matkoilla ja lomalla
+fi-mini-0900	900	A2	Nature and the seasons	Luonto ja vuodenajat
+fi-mini-1000	1000	A2	Birthdays, parties and friends	Syntymäpäiviä, juhlia ja ystäviä
+fi-mini-1100	1100	B1	Living and housing	Asuntoa etsimässä
+fi-mini-1200	1200	B1	Memories	Muistoja
+fi-mini-1300	1300	B1	Jobs and training	Ammatit ja opiskelu
+fi-mini-1400	1400	B1	Getting around	Miten sinne pääsee?
+fi-mini-1500	1500	B1	Money and shopping	Rahaa ja ostoksia
+fi-mini-1600	1600	B1	Experiencing culture	Kulttuuria kokemassa
+fi-mini-1700	1700	B1	Sport and exercise	Urheilua ja liikuntaa
+fi-mini-1800	1800	B1	The environment in daily life	Ympäristö arjessa
+fi-mini-1900	1900	B1	Letters, messages and media	Kirjeitä, viestejä ja mediaa
+fi-mini-2000	2000	B1	Neighbourhood	Naapurusto
+fi-mini-2100	2100	B2	Cooking and food	Ruoanlaitto
+fi-mini-2200	2200	B2	Body and mind	Keho ja mieli
+fi-mini-2300	2300	B2	The world of work	Työelämä
+fi-mini-2400	2400	B2	Science and technology	Tiede ja tekniikka
+fi-mini-2500	2500	B2	History you can touch	Käsin kosketeltavaa historiaa
+fi-mini-2600	2600	B2	Travelling in Finland	Matkoja Suomessa
+fi-mini-2700	2700	B2	Generations	Sukupolvet
+fi-mini-2800	2800	B2	Music	Musiikki
+fi-mini-2900	2900	B2	Society and living together	Yhteiskunta ja yhdessä eläminen
+fi-mini-3000	3000	B2	Small columns	Pieniä kolumneja
+fi-mini-3100	3100	B2	Home and decoration	Koti ja sisustus
+fi-mini-3200	3200	B2	Fashion and clothes	Muoti ja vaatteet
+fi-mini-3300	3300	B2	The great outdoors	Ulkona luonnossa
+fi-mini-3400	3400	B2	Traditional crafts	Perinteiset käsityöt
+fi-mini-3500	3500	B2	Technology and society	Tekniikka ja yhteiskunta
+fi-mini-3600	3600	B2	Lakes, rivers and the sea	Järvet, joet ja meri
+fi-mini-3700	3700	B2	Books and language	Kirjat ja kieli
+fi-mini-3800	3800	B2	Everyday economics	Arjen taloutta
+fi-mini-3900	3900	B2	Village life	Elämää maalla
+fi-mini-4000	4000	B2	City life columns	Kaupunkielämän kolumneja
+fi-mini-4100	4100	C1	Body and mind in daily life	Keho ja mieli arjessa
+fi-mini-4200	4200	C1	Architecture and heritage	Arkkitehtuuri ja kulttuuriperintö
+fi-mini-4300	4300	C1	Climate and energy	Ilmasto ja energia
+fi-mini-4400	4400	C1	Everyday paperwork	Arjen paperityöt
+fi-mini-4500	4500	C1	Film and television	Elokuvat ja televisio
+fi-mini-4600	4600	C1	Research and discovery	Tutkimus ja löydöt
+fi-mini-4700	4700	C1	Living far from home	Elämää kaukana kotoa
+fi-mini-4800	4800	C1	The mind in daily life	Mieli arjessa
+fi-mini-4900	4900	C1	Sport and society	Urheilu ja yhteiskunta
+fi-mini-5000	5000	C1	Short essays	Lyhyitä esseitä
+fi-mini-5100	5100	C1	Archaeology and the past	Arkeologia ja menneisyys
+fi-mini-5200	5200	C1	The science of cooking	Ruoanlaiton tiede
+fi-mini-5300	5300	C1	Landscapes	Maisemat
+fi-mini-5400	5400	C1	Caring for others	Toisista huolehtiminen
+fi-mini-5500	5500	C1	Visual arts	Kuvataide
+fi-mini-5600	5600	C1	Journalism and media	Journalismi ja media
+fi-mini-5700	5700	C1	Transport and mobility	Liikenne ja liikkuminen
+fi-mini-5800	5800	C1	The Finnish language	Suomen kieli
+fi-mini-5900	5900	C1	Starting a business	Yrityksen perustaminen
+fi-mini-6000	6000	C1	Memoirs	Muistelmat
+fi-mini-6100	6100	C1	The universe and the stars	Maailmankaikkeus ja tähdet
+fi-mini-6200	6200	C1	Mining and natural resources	Kaivokset ja luonnonvarat
+fi-mini-6300	6300	C1	Food and health	Ruoka ja terveys
+fi-mini-6400	6400	C1	Theatre and stage	Teatteri ja näyttämö
+fi-mini-6500	6500	C1	Engineering	Insinöörityö
+fi-mini-6600	6600	C1	Farm to table	Pellolta pöytään
+fi-mini-6700	6700	C1	Words and where they come from	Sanat ja niiden alkuperä
+fi-mini-6800	6800	C1	Finnish literature	Suomalainen kirjallisuus
+fi-mini-6900	6900	C1	Numbers and reasoning	Luvut ja päättely
+fi-mini-7000	7000	C1	Travel columns	Matkakolumneja
+fi-mini-7100	7100	C1	Public health	Kansanterveys
+fi-mini-7200	7200	C1	Everyday philosophy	Arjen filosofiaa
+fi-mini-7300	7300	C1	Folk festivals and fairs	Kansanjuhlat ja markkinat
+fi-mini-7400	7400	C1	Animal behaviour	Eläinten käyttäytyminen
+fi-mini-7500	7500	C1	Work and the labour market	Työ ja työmarkkinat
+fi-mini-7600	7600	C1	Cities of the world	Maailman kaupunkeja
+fi-mini-7700	7700	C1	Inventions and inventors	Keksinnöt ja keksijät
+fi-mini-7800	7800	C1	Public services	Julkiset palvelut
+fi-mini-7900	7900	C1	Fells and hills	Tunturit ja vaarat
+fi-mini-8000	8000	C1	Family columns	Perhekolumneja
+fi-mini-8100	8100	C2	The human body	Ihmiskeho
+fi-mini-8200	8200	C2	Prevention and resilience	Ennaltaehkäisy ja sitkeys
+fi-mini-8300	8300	C2	Design and craft	Muotoilu ja käsityö
+fi-mini-8400	8400	C2	Emotions and relationships	Tunteet ja ihmissuhteet
+fi-mini-8500	8500	C2	Explorers and travellers	Tutkimusmatkailijat ja matkaajat
+fi-mini-8600	8600	C2	The forest	Metsä
+fi-mini-8700	8700	C2	Advertising and communication	Mainonta ja viestintä
+fi-mini-8800	8800	C2	Food culture in Finland	Ruokakulttuuri Suomessa
+fi-mini-8900	8900	C2	Traditional and classical music	Kansanmusiikki ja klassinen musiikki
+fi-mini-9000	9000	C2	Essays on time	Esseitä ajasta
+fi-mini-9100	9100	C2	Chemistry and materials	Kemia ja materiaalit
+fi-mini-9200	9200	C2	Maps and finding the way	Kartat ja suunnistus
+fi-mini-9300	9300	C2	Tales and legends	Sadut ja tarinat
+fi-mini-9400	9400	C2	Rare professions	Harvinaiset ammatit
+fi-mini-9500	9500	C2	Urban planning	Kaupunkisuunnittelu
+fi-mini-9600	9600	C2	Everyday physics	Arjen fysiikka
+fi-mini-9700	9700	C2	Gardens and botany	Puutarhat ja kasvitiede
+fi-mini-9800	9800	C2	Folk art and customs	Kansantaide ja tavat
+fi-mini-9900	9900	C2	Ethics and living together	Etiikka ja yhdessä eläminen
+fi-mini-10000	10000	C2	Learning and language	Oppiminen ja kieli

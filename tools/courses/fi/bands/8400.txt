@@ -1,0 +1,100 @@
+1	8301	kipulääke	kipulääkkeitä kipulääkkeet kipulääkettä kipulääkkeiden kipulääke kipulääkkeenä kipulääkkeistä kipulääkkeen
+2	8302	liikennöidä	liikennöi liikennöivät liikennöidä liikennöidään liikennöinyt liikennöity liikennöimään liikennöivä
+3	8303	kaivaus	kaivauksia kaivaukset kaivauksissa kaivausten kaivauksilla kaivaus kaivauksilta kaivauksen kaivauksista
+4	8304	myyttinen	myyttinen myyttisen myyttistä myyttisestä myyttiset myyttiseen myyttisiä
+5	8305	jäinen	jäinen jäiset jäisen jäisiä jäisellä jäiseen jäisessä jäisin jäistä
+6	8306	ansiosidonnainen	ansiosidonnaisen ansiosidonnaista ansiosidonnainen ansiosidonnaiseen
+7	8307	luennoida	luennoi luennoimaan luennoimassa luennoinut luennoida luennoin
+8	8308	nunna	nunna nunnat nunnan nunnia nunnien nunnaa nunnaksi
+9	8309	kompassi	kompassi kompassin kompassia kompassit
+10	8310	amfetamiini	amfetamiinia amfetamiinin amfetamiini
+11	8311	merenpinta	merenpinnan merenpinnasta merenpinta merenpintaa
+12	8312	sovinto	sovinnon sovintoa sovinto sovintoon sovinnolla
+13	8313	maailmanlista	maailmanlistan maailmanlistalla
+14	8314	psykoterapia	psykoterapia psykoterapian psykoterapiaa psykoterapiaan psykoterapiassa psykoterapiasta
+15	8315	maalaisjärki	maalaisjärki maalaisjärkeä maalaisjärjellä maalaisjärjen maalaisjärkeen
+16	8316	uupua	uupuu uupumaan uupui uupuvat uupua
+17	8317	perustus	perustukset perustusten perustuksia perustus perustuksen perustuksiin perustuksista
+18	8318	yllyttää	yllyttää yllytti yllyttämisestä yllyttänyt yllyttävät yllyttäminen yllyttivät yllyttämistä yllytä
+19	8319	lavastus	lavastus lavastuksen lavastusta lavastuksesta lavastuksia lavastukseen
+20	8320	ryhti	ryhti ryhtiä ryhdin
+21	8321	perätön	perättömiä perätön perättömäksi perätöntä perättömän perättömästä perättömiksi perättömät perättömien
+22	8322	lauluntekijä	lauluntekijä lauluntekijänä lauluntekijän
+23	8323	turma	turma turman turmassa turmasta turmaa
+24	8324	taikuus	taikuutta taikuuden taikuus taikuuteen taikuudesta
+25	8325	vointi	vointi vointia voinnin vointinsa voinnista
+26	8326	meriläinen	meriläinen meriläisen
+27	8327	elinkeinoministeriö	elinkeinoministeriön elinkeinoministeriö elinkeinoministeriölle elinkeinoministeriössä
+28	8328	ihastella	ihastelemaan ihastella ihasteltiin ihasteli ihastelee ihastelemassa
+29	8329	kaali	kaali kaalia kaalin kaalit kaaliin kaalista kaaleja
+30	8330	kohtalainen	kohtalainen kohtalaista kohtalaisella kohtalaiset kohtalaisia
+31	8331	toivomus	toivomus toivomuksen toivomuksia toivomuksesta toivomusta toivomuksensa toivomukset toivomusten
+32	8332	etäällä	etäällä etäältä etäälle etäämmälle etäämmällä
+33	8333	eppu	eppu eput eppujen
+34	8334	aromi	aromit aromi aromeja aromia aromin aromien
+35	8335	vedenalainen	vedenalainen vedenalaisen vedenalaista vedenalaisia vedenalaiset vedenalaiseen vedenalaisten vedenalaisesta vedenalaisessa
+36	8336	aah	aah
+37	8337	arkisin	arkisin
+38	8338	jäätävän	jäätävän
+39	8339	omatoimisesti	omatoimisesti
+40	8340	sotilaallisesti	sotilaallisesti
+41	8341	strategisesti	strategisesti
+42	8342	purkka	purkkaa purkka purkan purkissa purkkiin purkin purkista purkkia purkkien purkilla
+43	8343	syntinen	syntinen syntisen syntisiä syntiset syntisten syntistä syntisenä
+44	8344	finanssikriisi	finanssikriisin finanssikriisiä finanssikriisi finanssikriisistä
+45	8345	hulvaton	hulvaton hulvatonta hulvattomia hulvattoman
+46	8346	kotiseutu	kotiseutu kotiseudun kotiseutunsa kotiseudulla kotiseudulle kotiseutua kotiseudulta
+47	8347	antoisa	antoisaa antoisa antoisia
+48	8348	luotettavasti	luotettavasti luotettavammin
+49	8349	piirittää	piirittivät piirittää piiritti piirittävät piirittämään piiritetty piirittänyt piiritettiin piirittämä
+50	8350	molekyyli	molekyylejä molekyylit molekyyli molekyylien molekyylin molekyyleistä molekyyliä molekyyleihin
+51	8351	lausahdus	lausahdus lausahduksia lausahdusta lausahduksen lausahdukset lausahduksesta
+52	8352	automalli	automalli automallin automallit automalleja automallien automallia automalleista automalleissa automalleihin
+53	8353	jäähdyttää	jäähdytä jäähdyttää jäähdytetään jäähdytin jäähdytetty jäähdyttämään
+54	8354	pienyrittäjä	pienyrittäjien pienyrittäjät pienyrittäjiä pienyrittäjä pienyrittäjän pienyrittäjille
+55	8355	villasukka	villasukat villasukkia villasukka
+56	8356	yksityisviesti	yv yksityisviestillä yksityisviestejä
+57	8357	viritys	viritys virityksiä viritykset virityksen viritystä
+58	8358	verbi	verbi verbin verbien verbiä verbit verbejä verbistä
+59	8359	bondi	bondin bondi bondia bondit bondista bondille bondilla
+60	8360	bunkkeri	bunkkeri bunkkerin bunkkerissa bunkkeriin bunkkerista bunkkeria bunkkereita bunkkerit
+61	8361	maankäyttö	maankäytön maankäyttö maankäyttöä maankäytöstä maankäyttöön
+62	8362	työvoimapula	työvoimapula työvoimapulasta työvoimapulan työvoimapulaa
+63	8363	lojua	lojumaan lojuu lojui lojuvat lojua lojunut
+64	8364	pikkarainen	pikkarainen pikkaraisen
+65	8365	thai	thai thain
+66	8366	magia	magiaa magia magian magiaan magiasta magialla
+67	8367	lisko	lisko liskoja liskon liskot liskojen liskoa
+68	8368	kruuna	kruunaa kruuna
+69	8369	päällystää	päällystetty päällystää päällystetään päällystettiin päällystäminen päällystämiseen päällystä
+70	8370	vakavissaan	vakavissaan vakavissani vakavissasi
+71	8371	ylijäämä	ylijäämä ylijäämää ylijäämän ylijäämät
+72	8372	kummitella	kummittelee kummittelemaan kummitteli kummitella kummitellut kummittelevat
+73	8373	hyvittää	hyvittää hyvitetään hyvittämään hyvitetty
+74	8374	diplomaattinen	diplomaattinen diplomaattisia diplomaattisen diplomaattista diplomaattiset diplomaattisten diplomaattiseen
+75	8375	avausottelu	avausottelussa avausottelu avausottelun avausottelunsa
+76	8376	alkoholinkäyttö	alkoholinkäyttö alkoholinkäytön alkoholinkäyttöä alkoholinkäyttöön alkoholinkäytöstä
+77	8377	pilvinen	pilvinen pilvistä pilvisenä pilvisen
+78	8378	puolustella	puolustella puolustele puolustelee puolustelemaan puolusteli puolustelet
+79	8379	rasvahappo	rasvahappoja rasvahapot rasvahappojen rasvahapoista rasvahappo
+80	8380	iltapala	iltapala iltapalaa iltapalaksi iltapalan
+81	8381	asepalvelus	asepalveluksen asepalvelukseen asepalveluksesta asepalvelus asepalvelusta asepalveluksensa
+82	8382	reserviläinen	reserviläisiä reserviläiset reserviläisten reserviläinen reserviläisistä reserviläistä reserviläisille reserviläisen
+83	8383	jäävi	jääviä jäävien jäävi jäävistä jääville
+84	8384	ulkomaailma	ulkomaailmaan ulkomaailman ulkomaailmasta ulkomaailmassa ulkomaailma ulkomaailmalle ulkomaailmalta
+85	8385	partiolainen	partiolaiset partiolaisten partiolainen partiolaisia partiolaista partiolaisen
+86	8386	silittää	silittää silitä silitellä silitti silittämään silitteli silitin silitän
+87	8387	elinaika	elinaikaa elinaikana elinajan elinaika elinaikansa
+88	8388	kalusteet	kalusteet kalusteita kalusteiden kalusteista kalusteissa kalusteisiin
+89	8389	louhia	louhi louhittu louhia louhitaan louhiminen louhimaan louhii
+90	8390	takaovi	takaoven takaovi takaovesta takaovea takaovia takaovet takaovella
+91	8391	vegaaninen	vegaaninen vegaanisia vegaanisen vegaaniset vegaanista
+92	8392	sulka	sulka sulkia sulassa sulan sulkaa suli sulin sulat sulasta sulista sulalla sulkivat sulkien sulkisi
+93	8393	urakoitsija	urakoitsija urakoitsijan urakoitsijat urakoitsijoita urakoitsijalle urakoitsijana urakoitsijoille urakoitsijaa
+94	8394	kuivunut	kuivunut kuivuneet kuivunutta kuivuneen kuivuneita
+95	8395	kansantasavalta	kansantasavallan kansantasavalta kansantasavallassa
+96	8396	sinetti	sinetti sinetin sinettiä sinetit sinettinsä
+97	8397	puida	puidaan puitu puitiin puida pui puimaan puiden puimme puit
+98	8398	ukki	ukki ukin ukkini
+99	8399	vaalivoitto	vaalivoiton vaalivoitto vaalivoittoon vaalivoittoa vaalivoitosta
+100	8400	dominoida	dominoi dominoida dominoinut dominoivat dominoimaan

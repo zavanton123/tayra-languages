@@ -1,0 +1,100 @@
+1	7001	sävellys	sävellys sävellyksiä sävellykset sävellyksen sävellystä sävellyksistä sävellysten sävellyksestä sävellyksensä sävellyksiin
+2	7002	tunnusmerkki	tunnusmerkit tunnusmerkkejä tunnusmerkki
+3	7003	hätäkeskus	hätäkeskukseen hätäkeskus hätäkeskuksen hätäkeskukselle
+4	7004	rami	rami ramin ramia
+5	7005	rumba	rumba rumban rumbaa rumbaan rumbassa
+6	7006	myötätunto	myötätuntoa myötätunto myötätunnon myötätunnosta myötätuntoni
+7	7007	kusetus	kusetusta kusetus kusetuksen
+8	7008	muistiinpano	muistiinpanoja muistiinpanojen muistiinpanoista muistiinpanoihin muistiinpanoissa muistiinpanonsa
+9	7009	lukuinen	lukuisten lukuiset lukuisia lukuisista lukuisissa lukuisilla lukuisiin lukuisille lukuisien lukuisine lukuisin lukuisilta
+10	7010	kommentoija	kommentoija kommentoijat kommentoijista kommentoijien kommentoijan kommentoijia kommentoijaa
+11	7011	kesämökki	kesämökki kesämökin kesämökkien kesämökillä kesämökkejä kesämökkiä kesämökit kesämökille
+12	7012	koo	koo koin koita koon koosta koot kooksi
+13	7013	ihanne	ihanne ihanteita ihanteet ihanteiden ihanteen ihanteena ihannetta ihanteista ihanteisiin ihanteesta ihanteensa
+14	7014	psykiatria	psykiatrian psykiatria psykiatriassa psykiatriaan psykiatriaa
+15	7015	ahdistelu	ahdistelusta ahdistelu ahdistelua ahdistelun ahdisteluun
+16	7016	diktatuuri	diktatuuri diktatuurin diktatuuria diktatuuriin diktatuurista diktatuurissa diktatuurit diktatuureja
+17	7017	väärinkäytös	väärinkäytöksiä väärinkäytöksistä väärinkäytökset väärinkäytösten väärinkäytöksiin väärinkäytöstä
+18	7018	jooko	jooko
+19	7019	kaipa	kaipa
+20	7020	kymmenkunta	kymmenkunta
+21	7021	parikki	parikin
+22	7022	sikseen	sikseen
+23	7023	sosiaalisesti	sosiaalisesti
+24	7024	sähköisesti	sähköisesti
+25	7025	vähäsen	vähäsen
+26	7026	ylitys	ylitys ylitystä ylityksen ylityksestä ylitykseen ylitykset ylityksiä ylityksessä
+27	7027	loukku	loukkuun loukussa loukku loukun loukkuja
+28	7028	myöhä	myöhemmällä myöhempi myöhä
+29	7029	korkeakoulututkinto	korkeakoulututkinto korkeakoulututkinnon korkeakoulututkintoa korkeakoulututkintoon
+30	7030	nurminen	nurminen nurmisen
+31	7031	urheilullinen	urheilullinen urheilullisen urheilullista urheilulliset urheilullisia urheilulliseen urheilullisempi
+32	7032	yhteenlaskettu	yhteenlaskettu yhteenlaskettuna yhteenlasketut yhteenlasketun yhteenlasketusta yhteenlaskettua
+33	7033	kitkeä	kitkeä kitkemiseksi kitkemään kitkeminen kitkemiseen kitkemistä kitketään kitkettävä
+34	7034	taloustilanne	taloustilanne taloustilanteessa taloustilanteen taloustilanteesta taloustilannetta taloustilanteeseen
+35	7035	vilpitön	vilpitön vilpittömän vilpitöntä vilpittömiä vilpittömin vilpittömät vilpittömässä
+36	7036	epämukava	epämukava epämukavaa epämukavaksi epämukavalta epämukavia epämukavat epämukavan
+37	7037	työhuone	työhuone työhuoneen työhuoneessa työhuoneeseen työhuoneesta työhuonetta työhuoneeni työhuoneensa työhuoneella työhuoneet
+38	7038	arkki	arkin arkki arkista arkkia arkkiin arkissa arkit
+39	7039	korvike	korvike korvikkeena korviketta korvikkeita korvikkeeksi korvikkeet korvikkeen
+40	7040	vesivoima	vesivoima vesivoiman vesivoimaa vesivoimalla vesivoimasta
+41	7041	kosmetiikka	kosmetiikan kosmetiikka kosmetiikkaa kosmetiikassa kosmetiikasta kosmetiikkaan
+42	7042	lumisade	lumisade lumisateet lumisadetta lumisateen lumisateessa lumisateita
+43	7043	mukavuus	mukavuus mukavuutta mukavuuden mukavuuksia mukavuudet mukavuuteen mukavuuksista mukavuudesta
+44	7044	koulupäivä	koulupäivän koulupäivä koulupäivää koulupäivänä koulupäivät koulupäivien
+45	7045	tietokirja	tietokirja tietokirjat tietokirjoja tietokirjan tietokirjaa tietokirjojen
+46	7046	tasoitus	tasoitus tasoituksen tasoitusta tasoituksella
+47	7047	hikinen	hikinen hikisenä hikiset hikistä hikisiä hikisen hikisten hikiseen
+48	7048	ikivanha	ikivanha ikivanhan ikivanhaa ikivanhoja ikivanhat ikivanhaan ikivanhasta ikivanhojen
+49	7049	uraani	uraanin uraania uraanista uraani
+50	7050	ketsuppi	ketsuppia ketsuppi ketsupin ketsupilla
+51	7051	jatkuvuus	jatkuvuus jatkuvuuden jatkuvuutta jatkuvuudesta jatkuvuuteen
+52	7052	boksi	boksin boksiin boksi boksissa boksia boksit
+53	7053	toimikunta	toimikunnan toimikunta toimikunnassa toimikuntaan toimikuntien toimikunnat
+54	7054	oikeudellinen	oikeudellinen oikeudellista oikeudellisen oikeudellisia oikeudelliset oikeudellisessa oikeudellisiin oikeudelliseen oikeudellisten oikeudellisesta
+55	7055	vitsailla	vitsailla vitsailee vitsaili vitsaillut vitsaillaan vitsaile vitsailin vitsailtiin vitsailen vitsailevat vitsailemaan
+56	7056	vuotisjuhla	vuotisjuhlan vuotisjuhlaa vuotisjuhlissa vuotisjuhlassa vuotisjuhlia vuotisjuhla vuotisjuhlien vuotisjuhlat vuotisjuhliin vuotisjuhlaan vuotisjuhlansa
+57	7057	toimihenkilö	toimihenkilöt toimihenkilöiden toimihenkilö toimihenkilöitä toimihenkilön toimihenkilöä toimihenkilöistä toimihenkilöille toimihenkilönä
+58	7058	asiantuntemus	asiantuntemusta asiantuntemus asiantuntemuksen asiantuntemuksesta asiantuntemukseen asiantuntemuksella
+59	7059	hyytyä	hyytyi hyytyy hyytynyt hyytymistä hyytyä hyydy hyytymisen hyytyminen hyytymään
+60	7060	pino	pino pinon pinoon pinot pinossa pinoa pinosta
+61	7061	essi	essi essin essien
+62	7062	elinkaari	elinkaaren elinkaari elinkaarensa elinkaarta elinkaareen
+63	7063	sateinen	sateinen sateisena sateisen sateisessa sateista sateisella sateisina sateisia sateiset sateisesta sateiseen
+64	7064	sekopää	sekopää sekopäitä sekopäistä sekopäät sekopäiden sekopään
+65	7065	revontulet	revontulet revontulia revontulien revontuli revontulten revontulista
+66	7066	kutina	kutina kutinaa kutinan kutinaan
+67	7067	tulitus	tulitus tulitusta tulituksen tulituksessa tulitukseen tulituksesta
+68	7068	terveysasema	terveysaseman terveysasema terveysasemalla terveysasemat terveysasemalle terveysasemien terveysasemaa terveysasemilla
+69	7069	kolminkertainen	kolminkertainen kolminkertaisen kolminkertaiseksi kolminkertaista kolminkertaisena kolminkertaiset
+70	7070	fiktio	fiktiota fiktio fiktion fiktiossa fiktiosta fiktioon fiktioksi
+71	7071	tanko	tanko tangon tankoa tankoon tankoja tangosta tangot tangossa tangolla tangolle tangoista
+72	7072	takaisku	takaisku takaiskun takaiskuja takaiskut takaiskusta takaiskuista takaiskua
+73	7073	romanssi	romanssi romanssin romanssia romanssista romansseja romanssit
+74	7074	paloa	paloa palon palonen paloma paloi palot paloivat
+75	7075	kadoksissa	kadoksissa kadoksiin
+76	7076	taivuttaa	taivuttaa taivutella taivuta taivutettu taivutetaan taivuttamaan taivutti taivuttamalla taivuttaminen taivuttava
+77	7077	palvoa	palvoo palvoa palvovat palvotaan palvoivat palvomaan palvottu palvottiin palvo palvoi palvova
+78	7078	jakautunut	jakautunut jakautuneet jakautuneen jakautuneita
+79	7079	kuukautiset	kuukautiset kuukautisten kuukautisia kuukautisista
+80	7080	panda	panda pandan pandat pandojen pandoja pandaa
+81	7081	huolellinen	huolellinen huolellista huolellisen huolellisia huolellisella huolelliseen huolellisesta huolellisempi
+82	7082	kuolleisuus	kuolleisuus kuolleisuutta kuolleisuuden kuolleisuuteen
+83	7083	valve	valve valveilla valveen valveella
+84	7084	seuralainen	seuralainen seuralaiseni seuralaisen seuralaisia seuralaista seuralaisena seuralaisensa seuralaiset seuralaiseksi seuralaisesi
+85	7085	vuode	vuode vuoteen vuoteeseen vuoteessa vuoteesta vuoteet vuoteella vuoteita vuodetta vuoteensa
+86	7086	seniori	seniori seniorit senioreille senioreiden seniorien seniorin
+87	7087	kookas	kookas kookkaat kookkaita kookkaampi kookkaan kookasta
+88	7088	delfiini	delfiinien delfiinit delfiini delfiinejä delfiinin delfiiniä delfiineistä
+89	7089	tiedustelupalvelu	tiedustelupalvelun tiedustelupalvelu tiedustelupalvelut tiedustelupalveluiden tiedustelupalvelujen tiedustelupalveluun tiedustelupalvelua tiedustelupalvelulle
+90	7090	taala	taalaa taalan taalalla taala
+91	7091	oikeuslaitos	oikeuslaitos oikeuslaitoksen oikeuslaitosta oikeuslaitoksessa oikeuslaitokseen oikeuslaitoksesta
+92	7092	millimetri	millimetriä millimetrin millimetri
+93	7093	seurustelu	seurustelu seurustelun seurustelua seurustelusta seurusteluun
+94	7094	kartelli	kartelli kartellin kartellien kartellit kartellia kartellista kartelleja kartelliin
+95	7095	kansanryhmä	kansanryhmää kansanryhmiä kansanryhmien kansanryhmä kansanryhmät kansanryhmän
+96	7096	työhyvinvointi	työhyvinvoinnin työhyvinvointi työhyvinvointiin työhyvinvointia työhyvinvoinnista
+97	7097	puoleinen	puoleinen puoleisen puoleisella puoleisesta puoleisessa puoleista puoleiseen puoleiselle puoleiset
+98	7098	kotityö	kotitöitä kotityöt kotitöiden kotitöistä kotitöissä kotitöihin
+99	7099	tasoinen	tasoinen tasoisia tasoisen tasoiset tasoisella tasoiseksi tasoisesta tasoista
+100	7100	hauras	hauras haurasta hauraita hauraan hauraat

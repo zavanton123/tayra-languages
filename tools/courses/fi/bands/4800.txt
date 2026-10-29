@@ -1,0 +1,100 @@
+1	4701	vaikuttaja	vaikuttaja vaikuttajia vaikuttajat vaikuttajien vaikuttajana vaikuttajista vaikuttajan vaikuttajaa vaikuttajaksi vaikuttajiin
+2	4702	maailmankaikkeus	maailmankaikkeuden maailmankaikkeus maailmankaikkeudessa maailmankaikkeutta maailmankaikkeudesta maailmankaikkeuteen
+3	4703	tasapeli	tasapeliin tasapeli tasapeliä tasapelin tasapelistä tasapelillä tasapelissä tasapelejä tasapeliksi tasapelit
+4	4704	rajattu	rajattu rajattua rajatun rajatulla rajattuja rajatut rajatulle rajatusta rajattuun rajatumpi rajatuissa rajatussa
+5	4705	festari	festareilla festareille festarit festari festareiden festarin festareita festareilta festareista festarien festarilla
+6	4706	rajoittua	rajoittuu rajoitu rajoittuvat rajoittui rajoittua rajoittuen rajoittuivat rajoittuvan rajoittuva
+7	4707	vaurioitua	vaurioitui vaurioitunut vaurioituivat vaurioituu vaurioitua vaurioitumisen vaurioituminen vaurioituvat vaurioidu vaurioitumisesta
+8	4708	pääsarja	pääsarjassa pääsarjan pääsarjaan pääsarjaa pääsarjasta pääsarja pääsarjoissa pääsarjojen
+9	4709	mielenosoittaja	mielenosoittajat mielenosoittajia mielenosoittajien mielenosoittajaa mielenosoittajista mielenosoittaja mielenosoittajan mielenosoittajille
+10	4710	järjestäytynyt	järjestäytynyt järjestäytynyttä järjestäytyneen järjestäytyneet järjestäytyneeseen järjestäytyneestä järjestäytyneitä järjestäytyneelle järjestäytyneiden
+11	4711	krapula	krapula krapulassa krapulaa krapulan krapulaan krapulasta
+12	4712	kiskoa	kiskot kiskoa kisko kiskon kiskoja kiskoo kiskojen kiskoilla kiskoi kiskoilta kiskoille kiskomaan kiskotaan kiskoin kiskovat kiskottiin kiskoivat
+13	4713	stressata	stressaa stressaavaa stressata stressaava stressaan stressaavat stressaavia stressannut stressaamaan stressaavan stressasin
+14	4714	puhjeta	puhkesi puhkeaa puhjeta puhkeavat puhkesivat puhjetessa puhkeamaan puhkeamassa puhkea puhkeamista
+15	4715	säästyä	säästyy säästynyt säästyi säästyisi säästyvät säästyivät säästyä säästyt säästytty säästy säästytään säästyttiin
+16	4716	startata	starttaa starttasi startannut starttaavat startata starttaamaan startataan
+17	4717	pakkoruotsi	pakkoruotsi pakkoruotsin pakkoruotsia pakkoruotsista
+18	4718	dallaa	dallas dallasin
+19	4719	lohduttaa	lohduttaa lohduta lohdutti lohduttavaa lohduttamaan lohduttaisi lohduttanut lohduttava lohduttavat
+20	4720	suomentaa	suomentanut suomennettu suomentaa suomensi suomennettiin suomennetaan suomentama
+21	4721	elanto	elannon elantonsa elanto elantoa elantoni
+22	4722	suuruinen	suuruinen suuruisen suuruisia suuruista suuruiset suuruisella suuruiseksi suuruisena suuruisesta suuruiseen suuruisina
+23	4723	nuorukainen	nuorukainen nuorukaisen nuorukaiset nuorukaista nuorukaisia nuorukaisesta nuorukaiselle nuorukaisten nuorukaisena nuorukaiseen nuorukaisella
+24	4724	iva	ivan ivana ivaa iva
+25	4725	komponentti	komponentteja komponentit komponentti komponenttien komponentin komponenteista komponenttia komponentteihin
+26	4726	kioski	kioski kioskin kioskilla kioskilta kioskista kioskille kioskia kioskit kioskeja kioskissa kioskien kioskeissa kioskiin kioskeista
+27	4727	yksinään	yksinään yksinäni
+28	4728	pahentaa	pahentaa pahensi pahentavat pahenna pahentaisi pahentanut pahensivat
+29	4729	verkkosivusto	verkkosivusto verkkosivuston verkkosivustolla verkkosivustot verkkosivustojen verkkosivustolle verkkosivustolta verkkosivustoja verkkosivustoa verkkosivustoilla verkkosivustoille
+30	4730	merja	merja merjan
+31	4731	havaittavissa	havaittavissa
+32	4732	jonossa	jonossa
+33	4733	kaiketi	kaiketi
+34	4734	kateissa	kateissa
+35	4735	laittomasti	laittomasti
+36	4736	sikäli	sikäli
+37	4737	lauta	lauta laudan laudalla lautaa laudat lautoja lautojen laudalle laudalta lautaan laudasta laudoista laudassa laudoilla
+38	4738	näkö	näkö näköä näön näkönsä näköön näköni
+39	4739	meksikolainen	meksikolainen meksikolaiset meksikolaista meksikolaisen meksikolaisia meksikolaisten meksikolaisessa meksikolaiseen meksikolaisista meksikolaisesta
+40	4740	ele	ele eleet eleitä eleen elettä eleenä eleiden elein eleistä eleillä eleestä eleellä
+41	4741	neuvo	neuvosta neuvot neuvo neuvoksi neuvoista neuvon neuvojen neuvoni neuvoin neuvoilla neuvonsa neuvona neuvoihin
+42	4742	köysi	köyttä köysi köyden köydet köysiä köysien köydellä köysiin köysissä köydestä köyteen köysillä köysistä köydessä
+43	4743	romahdus	romahdus romahduksen romahdusta romahdukseen romahduksesta romahduksia romahduksessa
+44	4744	ostovoima	ostovoima ostovoimaa ostovoiman ostovoimaan ostovoimasta
+45	4745	halloween	halloween halloweenia halloweenin halloweenina halloweenista halloweeniin
+46	4746	suudella	suudella suutelee suuteli suutele suutelemaan suutelevat suutelivat suudellaan suuteleminen suutelemassa suudellut suutelin suutelemalla suutelemista suutelimme
+47	4747	istunto	istunnon istunnossa istunto istuntoa istuntoon istunnot istuntoja istuntojen istunnosta istunnoissa istuntoihin istunnoista
+48	4748	skandaali	skandaali skandaalin skandaalit skandaalia skandaaleja skandaalista skandaaliin skandaalien skandaalissa skandaaleista
+49	4749	erimielisyys	erimielisyyksiä erimielisyydet erimielisyyttä erimielisyyksien erimielisyys erimielisyyksiin erimielisyyksistä erimielisyyden erimielisyytensä erimielisyydestä
+50	4750	painos	painos painoksen painosta painoksia painokseen painokset painoksesta painoksessa painoksena
+51	4751	yökerho	yökerhon yökerhossa yökerho yökerhoissa yökerhot yökerhoon yökerhoja yökerhosta yökerhojen yökerhoa yökerhoihin
+52	4752	pääkirjoitus	pääkirjoitus pääkirjoitukset pääkirjoituksessa pääkirjoituksen
+53	4753	allekirjoitus	allekirjoitus allekirjoitusta allekirjoituksen allekirjoituksia allekirjoitukset allekirjoituksella allekirjoitusten allekirjoituksena
+54	4754	tikku	tikku tikun tikkua tikkuja tikulla tikut tikusta tikulle tikkujen tikuista
+55	4755	ihmisoikeus	ihmisoikeus ihmisoikeuksien ihmisoikeuksia ihmisoikeuksista ihmisoikeuksiin ihmisoikeuksilla
+56	4756	ratkoa	ratkoa ratkomaan ratkotaan ratkoo ratkovat ratkottiin ratko ratkominen ratkottu ratkomassa ratkoi
+57	4757	lähialue	lähialueen lähialueilla lähialueella lähialueiden lähialueilta lähialueille lähialueet lähialueelta lähialueelle lähialueita lähialue lähialuetta
+58	4758	intressi	intressejä intressi intressit intressien intresseissä intressiä intresseihin intressissä intresseistä intressinsä
+59	4759	hovi	hovin hovissa hoviin hovi hovista hovia
+60	4760	ulkopolitiikka	ulkopolitiikan ulkopolitiikka ulkopolitiikkaa ulkopolitiikasta ulkopolitiikassa ulkopolitiikkaan
+61	4761	kuvastaa	kuvastaa kuvastavat kuvasta kuvasti kuvastin kuvastivat
+62	4762	dramaattinen	dramaattinen dramaattista dramaattisia dramaattisen dramaattisesta dramaattiset dramaattiselta dramaattisten dramaattisin dramaattiseen dramaattisempi dramaattisella
+63	4763	yhteystieto	yhteystiedot yhteystietoja yhteystietosi yhteystietojen yhteystietonsa yhteystiedoista yhteystietoihin yhteystietoni
+64	4764	mafia	mafia mafian mafiaa mafiaan mafialle mafiasta
+65	4765	pilkkoa	pilko pilkkoa pilkotaan pilkkominen pilkottu pilkkoo pilkkomaan pilkottuna pilkkomalla pilkottiin pilkkomista pilkon pilkkoi pilkkovat pilkottua pilkkomiseen pilkkomisen
+66	4766	gigatavu	gt gigatavun gigatavua gigan giga gigatavu
+67	4767	tilapäinen	tilapäinen tilapäisen tilapäistä tilapäisiä tilapäiseen tilapäisestä tilapäiset tilapäiseksi tilapäisten tilapäisenä tilapäisessä tilapäisellä
+68	4768	pelastus	pelastus pelastuksen pelastusta pelastukseen pelastuksesta pelastukseksi pelastukseni
+69	4769	toveri	toveri toverit toverinsa tovereita toverin tovereiden tovereineen toveria toverien
+70	4770	hiilidioksidi	hiilidioksidia hiilidioksidin hiilidioksidi hiilidioksidista hiilidioksidiksi hiilidioksidilla
+71	4771	mellakka	mellakka mellakoita mellakat mellakoiden mellakan mellakoihin mellakoista mellakoissa mellakassa mellakkaan mellakkaa
+72	4772	hetero	hetero heterot heteroiden heteroita heteroksi heteron heterona heteroa heteroja heteroille
+73	4773	häh	häh hä
+74	4774	kinkku	kinkku kinkkua kinkun kinkusta kinkut kinkkuja kinkulla kinkkuun
+75	4775	panimo	panimon panimo panimot panimoiden panimolta panimoa panimolla panimossa panimosta panimoita panimolle
+76	4776	vastakohta	vastakohta vastakohtana vastakohtia vastakohdat vastakohtaa vastakohtien vastakohdaksi vastakohdan
+77	4777	teoreettinen	teoreettinen teoreettisen teoreettista teoreettisia teoreettiset teoreettisesta teoreettisessa teoreettiseen teoreettisella teoreettisena teoreettisten
+78	4778	puolueeton	puolueeton puolueettomia puolueetonta puolueettoman puolueettomana puolueettomat puolueettomalla puolueettomina puolueettomaan puolueettomaksi
+79	4779	sirkka	sirkka sirkan sirkat sirkkoja sirkkojen sirkkaa
+80	4780	vuokralainen	vuokralainen vuokralaisen vuokralaiset vuokralaisia vuokralaisten vuokralaista vuokralaiselle vuokralaisena vuokralaisella vuokralaiseksi vuokralaisille vuokralaisista
+81	4781	kontrolli	kontrollin kontrolli kontrollissa kontrollia kontrolliin kontrollista kontrollit kontrolleja
+82	4782	kehitellä	kehitellä kehitellyt kehitelty kehitteli kehittelemään kehittelee kehitellään kehiteltiin kehittelemä kehittelivät kehittelevät kehittelin kehittelemässä kehittelen
+83	4783	jollainen	jollaista jollaisia jollainen jollaisen jollaiseksi jollaisena jollaisesta jollaiset jollaiseen
+84	4784	kirves	kirves kirveellä kirveen kirvestä kirveet kirveitä kirveiden
+85	4785	purkautua	purkautuu purkautui purkautua purkautunut purkautuminen purkautumaan purkautuvat purkautuessa purkautumista purkautumisen purkautuivat purkautuvan purkautumisesta purkaudu purkautuva
+86	4786	kierto	kiertoon kierto kiertoa kierron kierrosta kierrossa kierrolla
+87	4787	matkailija	matkailijat matkailijoiden matkailijoita matkailijoille matkailija matkailijan matkailijaa matkailijalle matkailijoista
+88	4788	puuhata	puuhaa puuhataan puuhata puuhaavat puuhaamaan puuhasi puuhannut puuhaan puuhaamassa puuhattu
+89	4789	direktiivi	direktiivi direktiivin direktiiviä direktiivit direktiivien direktiivissä direktiiviin direktiivejä direktiivistä direktiivillä
+90	4790	teloittaa	teloittaa teloitettiin teloitti teloitettu teloitetaan teloitettavaksi teloittivat teloittanut teloittaminen teloittamaan teloittamista teloittavat
+91	4791	rukous	rukous rukouksen rukouksia rukoukset rukousta rukoukseen rukousten rukouksesta rukouksiin rukouksella rukouksessa rukoukseni rukouksista
+92	4792	pinna	pinna pinnaa pinnalla pinnan pinnalle pinnoja pinnassa pinnasta pinnat pinnalta pinnojen pinnoilla pinnoille pinnoista pinnoilta
+93	4793	kuulo	kuulolla kuulo kuuloista kuulon kuulolle kuulosta kuuloa kuulonsa kuuloon
+94	4794	hengitys	hengitys hengitystä hengityksen hengitykseen hengityksestä hengitykseni hengityksessä hengityksensä
+95	4795	rakastunut	rakastunut rakastuneita rakastuneet rakastuneen rakastuneensa rakastuneena
+96	4796	osuuskunta	osuuskunta osuuskunnan osuuskunnat osuuskuntien osuuskuntia osuuskunnassa osuuskuntaan osuuskuntaa osuuskunnalle
+97	4797	katsaus	katsaus katsauksen katsauksessa katsauksia katsausta katsaukset katsauksesta
+98	4798	istuin	istuimen istuimet istuinta istuin istuimia istuinten istuimelle istuimella istuimeen istuimessa istuimissa istuimesta istuimiin istuimista
+99	4799	nopeuttaa	nopeuttaa nopeuttamaan nopeuttamiseksi nopeuttavat nopeutti nopeuta nopeutettu nopeuttaisi nopeutetaan nopeuttaminen nopeuttanut
+100	4800	säveltäjä	säveltäjä säveltäjän säveltäjänä säveltäjien säveltäjät säveltäjiä säveltäjäksi

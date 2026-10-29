@@ -1,0 +1,100 @@
+1	1601	maaseutu	maaseudun maaseudulla maaseutu maaseudulle maaseutua maaseudulta maaseudusta maaseutuun maaseutujen
+2	1602	merkittävästi	merkittävästi
+3	1603	rauhassa	rauhassa
+4	1604	riittävän	riittävän
+5	1605	fiksu	fiksu fiksua fiksuja fiksumpi fiksut fiksumpaa fiksun fiksumpia fiksulta fiksuna fiksuin fiksuksi fiksujen fiksumman fiksuista fiksulla fiksummaksi
+6	1606	virka	virka virkaa virkaan viran virassa virasta virat virkoja virkoihin virkansa virkojen viralta viroissa viroista
+7	1607	huume	huumeita huumeiden huumeet huumeista huume huumeisiin huumetta huumeen huumeissa huumeilla huumeeksi huumeesta huumeille huumeena
+8	1608	napata	nappaa nappasi napata napannut nappasin nappaamaan napattu nappaan nappasivat napattiin napataan nappaavat nappaamassa nappaisi nappaat nappaamalla nappasimme nappaaminen
+9	1609	sijoitus	sijoitus sijoitukset sijoituksia sijoituksen sijoitusta sijoitusten sijoituksesta sijoituksista sijoituksensa sijoituksiin sijoitukseen sijoituksena sijoituksella sijoituksilla sijoituksissa sijoituksille sijoitukseksi sijoitukselle sijoituksessa sijoitukseni sijoituksesi sijoituksemme
+10	1610	kannustaa	kannustaa kannustetaan kannusti kannustavat kannustamaan kannustava kannusta kannustan kannustin kannustavaa kannustamme kannustanut kannustaminen kannustamassa kannustaisi kannustavia kannustettiin kannustivat kannustavan kannustettu kannustamalla kannustavassa kannustamista kannustamisesta kannustamisen kannustettava kannustaisin
+11	1611	tonni	tonnia tonnin tonni tonnilla tonniin tonneja tonnista tonnien tonnissa tonnilta
+12	1612	taho	taho tahot taholta tahon tahojen tahoille tahoja taholle tahoilta tahoa taholla tahoilla tahoihin tahoista tahoon tahona tahosta
+13	1613	salainen	salainen salaista salaisen salaisia salaiset salaiseen salaisessa salaisesta salaiseksi salaisten salaisena salaisiin salaisista salaisiksi salaisissa salaisella salaiselle salaisilla salaisina salaiselta salaisille
+14	1614	taiteilija	taiteilija taiteilijan taiteilijat taiteilijoiden taiteilijoita taiteilijaa taiteilijana taiteilijoille taiteilijaksi taiteilijoista taiteilijalle taiteilijasta taiteilijalta taitelija taiteilijoihin taiteilijoilta taiteilijalla taiteilijoilla taiteilijaan
+15	1615	japanilainen	japanilainen japanilaiset japanilaisen japanilaisten japanilaisia japanilaista japanilaisista japanilaisessa japanilaisesta japanilaiseen japanilaisille japanilaisilla japanilaiselle japanilaisiin japanilaisella japanilaisissa japanilaiselta
+16	1616	hirveä	hirveä hirveän hirveää hirveitä hirvee hirveät hirveätä hirveältä hirveällä hirveässä hirvein hirveään hirveäksi hirveästä
+17	1617	perkele	perkele perkeleen prkl perkelettä perkeleet perkule perkeleitä
+18	1618	korostaa	korostaa korosti korostetaan korostavat korostaminen korostettiin korostanut korostettu korostan korostava korostivat korostamaan korostaen korostetun korosta korostamalla korostamista korostamiseen korostaakseen korostin korostaisi korostamme korostettava
+19	1619	salo	salo salon salossa saloon saloihin salosta saloja salolle saloa
+20	1620	olosuhteet	olosuhteissa olosuhteet olosuhteiden olosuhteisiin olosuhteista olosuhteita olosuhteilla
+21	1621	tohtori	tohtori tri tohtorin tohtoriksi tohtoria tohtorit tohtoreita tohtorien tohtorille tohtorina tohtoreiden
+22	1622	termi	termi termiä termin termit termejä termillä termien termistä terminä termein termeillä termeistä termiin termille termeihin
+23	1623	näyttely	näyttely näyttelyn näyttelyssä näyttelyyn näyttelyt näyttelystä näyttelyä näyttelyitä näyttelyissä näyttelyihin näyttelyiden näyttelyistä näyttelynsä näyttelyjä näyttelylle näyttelyllä
+24	1624	biisi	biisi biisin biisejä biisiä biisit biisistä biisien biiseistä biisissä biisiin biisillä biiseissä biisinsä biiseihin biisiksi biisille
+25	1625	vahinko	vahinko vahinkoa vahingot vahinkoja vahingon vahinkojen vahingoista vahingosta vahingoksi vahinkoon vahingoilta vahinkoihin vahingolta
+26	1626	sekaisin	sekaisin seassa seasta
+27	1627	perustella	perusteltua perusteltu perustelee perustellaan perusteli perusteltuja perustelemaan perustella perusteltiin perustellut perustelevat perustele perusteltuna perustellen perustelivat perustellun perustellusta perustelet perustelen perustelin perusteltava perustelematta perustelluista perusteleminen perustelluksi
+28	1628	yhtye	yhtyeen yhtye yhtyeessä yhtyeestä yhtyettä yhtyeensä yhtyeet yhtyeiden yhtyeelle yhtyeeseen yhtyeitä yhtyeellä yhtyeistä yhtyeeltä yhtyeineen yhtyeissä yhtyeenä yhtyeeksi yhtyeisiin yhtyeille
+29	1629	ruumis	ruumiin ruumis ruumiit ruumista ruumiita ruumiinsa ruumiista ruumiiden ruumiissa ruumiiseen ruumiini ruumiille ruumiiksi ruumiimme ruumiisi ruumiisiin
+30	1630	kieltäytyä	kieltäytyi kieltäytyä kieltäytyy kieltäytynyt kieltäytyminen kieltäytyivät kieltäytyvät kieltäydy kieltäytymään kieltäydyin kieltäydyn kieltäydyt kieltäytyisi kieltäytymisen kieltäytymisestä kieltäydytään kieltäytymistä kieltäytymällä kieltäytyessä kieltäytymiseen kieltäydymme kieltäydyttiin
+31	1631	odotella	odotellessa odotella odotellaan odottelemaan odottelen odottelee odotellut odotteli odottelin odotellen odottelevat odoteltu odoteltiin odottelemassa odottelemme odottele odottelimme odottelet odottelivat
+32	1632	kohdistua	kohdistuu kohdistuvat kohdistuva kohdistuvaa kohdistui kohdistunut kohdistuvan kohdistuvasta kohdistu kohdistua kohdistuisi kohdistuivat kohdistuvaan kohdistuminen kohdistuvana kohdistuisivat kohdistuvalla kohdistumaan kohdistuessa
+33	1633	joki	joen joki jokeen jokea joet jokien joesta joella joelle joessa jokia joissa jokiin joista joelta joilla joeksi joille joillakin join joilta joiksi
+34	1634	bändi	bändi bändin bändissä bändiä bändejä bändistä bändien bändit bändiin bändille bändeistä bändinsä bändiltä bändillä bändeissä bändinä bändiksi bändeille bändimme bändeihin
+35	1635	pituus	pituus pituutta pituuden pituudesta pituuteen pituudet pituudella pituudelta pituudessa pituutensa pituudeksi pituuksia pituudelle pituuksien pituuksista pituuteni
+36	1636	sote	sote
+37	1637	vihdoin	vihdoin
+38	1638	turvata	turvata turvaa turvattu turvaamiseksi turvaan turvataan turvaamaan turvaaminen turvattava turvaamisesta turvaamiseen turvaavat turvattua turvaamista turvatakseen turvaamisen turvaamassa turvaisi turvasi turvaamme turvaamisessa turvannut turvattaisiin turvatuksi turvatun turvaamalla turvattiin turvaava
+39	1639	vuorokausi	vuorokauden vuorokautta vuorokaudessa vrk vuorokausi vuorokaudeksi vuorokaudesta vuorokauteen vuorokaudet vuorokausia vuorokaudella
+40	1640	prosessi	prosessi prosessin prosessia prosessissa prosesseja prosessit prosessien prosessiin prosessista prosessina prosesseissa prosesseihin prosessilla prosesseista prosessille prosessiksi prosessinsa
+41	1641	noki	nokia nokea noki noen noelle noista noilla noissa noille noilta
+42	1642	häiritä	häiritsee häiritä häiritse häiritsi häiritsevät häirinnyt häiritsevää häiritsemään häiritsevän häiritsevä häiritsisi häiritseviä häiritsemättä häiritsivät häiritseminen häiritään häiritsemästä häiritsemässä häiritty häiritsevänä häirittiin häiritseväksi häiritsemisestä häiritsemällä häiriten häiritsevästä
+43	1643	kilpailla	kilpailla kilpailemaan kilpailee kilpailevat kilpaili kilpaillut kilpaillaan kilpaileva kilpaile kilpailivat kilpailtu kilpailemisen kilpailtiin kilpaileminen kilpailemassa kilpailemista kilpailen kilpailisi kilpailemisesta kilpailemiseen kilpailemme kilpailisivat kilpaillessa kilpailtua kilpaillen kilpailemalla
+44	1644	jengi	jengi jengiä jengin jengiin jengistä jengit jengien jengille jengissä jengejä jengeistä jengillä jengeihin jengiltä
+45	1645	kulma	kulma kulmassa kulman kulmasta kulmat kulmaan kulmilla kulmaa kulmalla kulmia kulmista kulmien kulmissa kulmiin kulmille kulmaksi kulmalle kulmalta kulmilta kulmiaan
+46	1646	suljettu	suljettu suljettuna suljetun suljettujen suljetussa suljettua suljetut suljettuja suljettuun suljetulla suljettuina suljetuissa suljetulle suljetusta suljetuksi suljetuin suljettuihin suljetuista suljetulta
+47	1647	sisko	sisko siskon siskoni siskonsa siskoa siskot siskolle siskolta siskojen siskosta siskoja siskolla siskosi siskoista
+48	1648	sekoittaa	sekoittaa sekoita sekoitetaan sekoitti sekoitettu sekoitin sekoittavat sekoittamalla sekoitat sekoittanut sekoittaen sekoittamaan sekoittaminen sekoittivat sekoittele sekoitan sekoitettiin sekoittamista sekoittamisesta sekoittaisi sekoittamisen sekoittamiseen sekoittava sekoitella sekoitettava
+49	1649	sairas	sairas sairasta sairaan sairaita sairaana sairaat sairaiden sairaaksi sairaille sairaalta sairaalle sairaista sairaasta sairaalla sairaiksi sairailta sairaina sairaassa sairaaseen
+50	1650	leiri	leirin leirillä leiri leirille leiriin leirissä leiriä leireillä leiriltä leiristä leirejä leirit leirien leireille leireistä leireihin leireissä leireiltä leirinsä
+51	1651	kampanja	kampanja kampanjan kampanjaa kampanjaan kampanjassa kampanjasta kampanjoita kampanjat kampanjansa kampanjalla kampanjalle kampanjoissa kampanjoiden kampanjoihin kampanjoista
+52	1652	vierailla	vieraili vierailee vieraillut vierailevat vieraileva vierailemaan vierailivat vierailla vierailevana vierailemassa vierailin vieraillessa vierailevan vieraile vieraillaan vierailen vierailemalla vierailemme vierailet vierailtua vierailimme vierailevaksi vierailtu vieraillemme
+53	1653	surullinen	surullista surullinen surullisen surullisia surulliseksi surullisinta surullisena surullisin surulliset surulliselta surullisesta surulliseen surullisempaa
+54	1654	keho	kehon keho kehoa kehossa kehoon kehosta kehonsa kehosi kehoni keholle kehomme kehot keholla kehoja
+55	1655	puoliso	puoliso puolison puolisonsa puolisoni puolisot puolisoa puolisolle puolisoiden puolisosi puolisoineen puolisoita puolisolla puolisona puolisoista puolisosta puolisoksi puolisoon puolisolta puolisoilla puolisokseen
+56	1656	data	data dataa datan dataan datasta datalla datana datalle datassa dataksi
+57	1657	lentokenttä	lentokentällä lentokentälle lentokenttä lentokentän lentokentältä lentokenttää lentokentät lentokentillä lentokenttien lentokenttiä lentokentästä lentokentille lentokentistä lentokentiltä
+58	1658	kaivaa	kaivaa kaivettu kaivetaan kaivamaan kaivoi kaivella kaivettiin kaivoin kaivanut kaivaminen kaivoivat kaiva kaivat kaivavat kaivan kaivamalla kaivamista kaivamassa kaivamisen kaivamiseen kaivettava kaivoimme kaivaisi kaivamisesta
+59	1659	tappara	tappara tapparan tapparaa tapparalle tapparaan tapparassa tapparasta
+60	1660	luvassa	luvassa lupaan
+61	1661	järvi	järven järvi järveen järvelle järvellä järvien järvestä järvessä järvet järveä järviä järvistä järvissä järviin järveltä järvillä järviltä
+62	1662	ruveta	ruveta rupesi rupeaa rupesin rupea ruvetaan rupee ruvennut ruvettiin rupean rupesivat rupeaisi rupeavat ruvettu rupeat rupeama rupesimme ruvenneet ruvettaisiin rupeaman rupia rupeaisin
+63	1663	juutalainen	juutalaiset juutalaisten juutalaisia juutalainen juutalaisen juutalaista juutalaisista juutalaisille juutalaisiin juutalaisilla juutalaisilta juutalaisesta juutalaiseen juutalaisena juutalaiseksi juutalaiselle juutalaisessa juutalaisella
+64	1664	parka	parasta parka parkaa paran
+65	1665	kilo	kiloa kilon kilo kilot kiloja kiloon kilosta kilolla kilolta kilojen kilossa kiloista
+66	1666	max	max maxin maxilla maxia maxille maxista maxiin
+67	1667	harjoitus	harjoitus harjoitukset harjoituksissa harjoituksen harjoituksia harjoitusta harjoitusten harjoituksiin harjoituksessa harjoitukseen harjoituksista harjoituksesta harjoituksena harjoituksella harjoituksilla harjoitukseksi
+68	1668	pukeutua	pukeutua pukeutunut pukeutuu pukeutuminen pukeutui pukeutuneena pukeutumista pukeutuvat pukeutumaan pukeutumisen pukeudu pukeudun pukeutumiseen pukeutumisesta pukeutuivat pukeutumisessa pukeutuneen pukeudut pukeudutaan pukeutunutta pukeutumalla pukeutuva pukeutuvan pukeutumisella pukeutuisi pukeuduin pukeuduttava
+69	1669	kenties	kenties
+70	1670	per	per
+71	1671	päiväsakko	ps päiväsakkoa päiväsakkoon päiväsakon päiväsakkoja päiväsakkojen
+72	1672	pestä	pestä pesee pese pesemään pesen pestään pesi pesin pesty pestiin pessyt peset peseminen pesevät pesivät pesemällä pesemässä pestävä pesemättä pesemiseen pestessä pesemistä pesemisen pestäväksi pesemisestä
+73	1673	opiskelu	opiskelu opiskelun opiskelua opiskeluun opiskelusta opiskelut opiskelujen opiskelussa opiskelunsa opiskeluiden opiskeluja opiskeluihin opiskeluista opiskelulle opiskeluni opiskelulla
+74	1674	paluu	paluu paluun paluuta paluusta paluuseen paluunsa paluussa paluulle
+75	1675	leipä	leipää leipä leivän leivät leivissä leivästä leipiä leivälle leipiin leipänsä leipään leivällä leivässä leipien leiville leivistä
+76	1676	parlamentti	parlamentin parlamentti parlamentissa parlamenttiin parlamentille parlamentista parlamenttia parlamentilla parlamenttien parlamentit parlamentilta parlamenteissa
+77	1677	säätää	säätää säädetty säädetään säätämään säädettiin säätämistä säätäminen säätämällä säädettävä säädettyä säädä säädetyn säätänyt sääti säädin säätämisen säädetyt säätämiseen säätävät säätämässä säädettäisiin säädettävät säädettäessä säädettävissä säätämisestä säätämä säädän säädettäviä säädät säädettävän säädettävää säätämiseksi
+78	1678	hiljainen	hiljainen hiljaista hiljaiseksi hiljaisen hiljaisia hiljaisella hiljaiset hiljaisempaa hiljaisena hiljaisempi hiljaiseen hiljaisina hiljaisessa hiljaisten hiljaisesta hiljaisin hiljaiselta hiljaisiksi hiljaiselle hiljaisista
+79	1679	haitata	haittaa haitannut haittaisi haitata haittasi haittaavat haittaako haitanneet haittasivat haittaamaan haittaava haittaan
+80	1680	tylsä	tylsää tylsä tylsiä tylsän tylsäksi tylsät tylsältä tylsin tylsänä tylsästä tylsään tylsempää tylsempi tylsällä tylsiksi tylsässä tylsien tylsistä
+81	1681	lentokone	lentokone lentokoneen lentokoneessa lentokoneet lentokoneiden lentokoneita lentokoneesta lentokoneella lentokonetta lentokoneeseen lentokoneissa lentokoneista lentokoneilla lentokoneisiin lentokoneelle lentokoneensa
+82	1682	harmi	harmi harmia harmin harmiksi harmissaan harmeja harmissani
+83	1683	houkutella	houkuttelee houkutella houkutteleva houkutteli houkuttelevat houkuttele houkuttelevan houkutellaan houkuttelevalta houkuttelemaan houkutellut houkuttelevaa houkuttelivat houkuttelevia houkuteltiin houkuttelisi houkutellakseen houkuttelevampi houkuttelevaksi houkuteltu houkuttelemalla houkuttelevana houkutteleminen houkuttelemassa houkuttelin
+84	1684	kenkä	kengät kenkää kenkä kengän kengistä kenkiin kengissä kenkien kengillä kengässä kenkänsä kengille kenkäsi kengällä kengästä kenkäni kenkään
+85	1685	hätä	hätää hätä hädin hädässä hätään hädän hätänä hätiin hätiä hädästä
+86	1686	vastainen	vastainen vastaista vastaisia vastaisen vastaiseen vastaisena vastaisesta vastaiset vastaisessa vastaiseksi vastaisella vastaisten vastaiselle vastaisiin vastaisista vastaisina vastaisiksi vastaisissa vastaiselta vastaisin
+87	1687	käsite	käsite käsitettä käsitteitä käsitteen käsitteet käsitteenä käsitteiden käsitteeseen käsitteestä käsitteistä käsitteellä käsitteillä käsitteisiin käsitteeksi käsitteelle käsitteessä käsitteinä
+88	1688	kritiikki	kritiikkiä kritiikki kritiikin kritiikkiin kritiikistä kritiikissä kritiikille kritiikit kritiikkinsä kritiikittä kritiikiksi kritiikkinä kritiikiltä kritiikkejä kritiikillä
+89	1689	luottamus	luottamus luottamusta luottamuksen luottamuksesta luottamukseen luottamuksensa luottamuksella luottamukseni luottamukselle luottamuksesi
+90	1690	vanki	vangit vanki vankien vankeja vankina vangiksi vankia vangin vangeista vangeille vankeina vangeiksi vangille vangeilla vangista vankeihin vankinsa vangeilta vangilla vangilta
+91	1691	demokratia	demokratia demokratian demokratiaa demokratiaan demokratiassa demokratiasta demokratialle demokratioissa demokratialla demokratioiden demokratiaksi demokratiat demokratioita
+92	1692	sataa	sataa sadan satoi sataman satamasta satanut sadat satanen sada sataisi sateli satavan sadella satamista
+93	1693	naama	naama naamaan naamaa naaman naamalla naamalle naamansa naamasta naamoja naamassa naamat naamani naamasi
+94	1694	jutella	jutella juttelemaan juttelin juttelee jutellut jutellaan juttelemassa juteltiin juttele jutteli juttelen juttelimme juttelevat juttelivat juteltu juttelet juttelemme jutellessa jutteleminen jutellen juttelemalla
+95	1695	kokoonpano	kokoonpano kokoonpanoon kokoonpanossa kokoonpanosta kokoonpanon kokoonpanolla kokoonpanot kokoonpanoa kokoonpanoissa kokoonpanoja kokoonpanoilla kokoonpanonsa kokoonpanojen kokoonpanoista kokoonpanoihin
+96	1696	vallan	vallan
+97	1697	toimija	toimijat toimijoiden toimija toimijoita toimijoille toimijan toimijana toimijaa toimijoista toimijoilla toimijoihin toimijalle toimijaksi toimijoilta toimijalla toimijoina toimijalta toimijasta
+98	1698	pysäyttää	pysäyttää pysäytti pysäyttämään pysäytetään pysäyttänyt pysäytä pysäyttäminen pysäytettiin pysäyttivät pysäyttävät pysäyttämiseksi pysäyttävä pysäytetty pysäyttämiseen pysäytettävä pysäyttääkseen pysäyttäisi pysäyttämistä pysäytin pysäyttämätön pysäyttämisen pysäyttämisessä pysäyttämisestä pysäyttämällä pysäyttämässä pysäyttäkää pysäytämme pysäyttäen
+99	1699	palkata	palkata palkkaa palkattu palkataan palkannut palkattiin palkkaamaan palkkasi palkkasin palkkaavat palkkaaminen palkkaamista palkkaamiseen palkkaamme palkkaamisen palkkasivat palkkaisi palkkaan palkkaamisesta palkkaamalla palkkaama palkkaisin palkattava palkkaamassa palkkaat palkkaamatta palkkasimme palkkaisivat palkattaisiin palkkaamisessa
+100	1700	typerä	typerää typerä typeriä typerältä typerän typerät typerin typerästä typeränä typeräksi typerien typerään typerällä typerämpää typeristä typeriin typerillä typeriltä typerinä typeriksi

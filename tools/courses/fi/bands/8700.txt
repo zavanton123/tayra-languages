@@ -1,0 +1,100 @@
+1	8601	huippunopeus	huippunopeus huippunopeuden huippunopeudeksi huippunopeutta huippunopeuteen
+2	8602	mitätöidä	mitätöidä mitätöi mitätöitiin mitätöidään mitätöity mitätöimään
+3	8603	muutostyö	muutostyöt muutostöiden muutostöitä muutostyö muutostöihin muutostyön
+4	8604	joulukuusi	joulukuusi joulukuusen joulukuusta joulukuusia joulukuuset joulukuuseen
+5	8605	mokata	mokata mokannut mokaa mokasin mokaamaan mokasi mokasivat mokaan
+6	8606	autonomia	autonomiaa autonomia autonomian
+7	8607	kanne	kanne kanteen kanteita kanteessa kanteesta kanteet kanteeseen kannetta kanteilta
+8	8608	lannoite	lannoitteita lannoitteiden lannoitetta lannoitteet lannoite lannoitteeksi lannoitteena lannoitteen
+9	8609	eläessään	eläessään eläessäni
+10	8610	emoyhtiö	emoyhtiö emoyhtiön emoyhtiölle
+11	8611	vauhdikkaasti	vauhdikkaasti vauhdikkaammin
+12	8612	hermosto	hermoston hermosto hermostoon hermostoa
+13	8613	opiskeluaika	opiskeluaikana opiskeluaikoina opiskeluaika opiskeluajan opiskeluaikojen opiskeluajoista opiskeluajoilta
+14	8614	netto	nettona netto
+15	8615	poiminta	poimintoja poiminta
+16	8616	kuvamateriaali	kuvamateriaalia kuvamateriaali kuvamateriaalin kuvamateriaalista
+17	8617	rusina	rusinat rusinoita rusinoiden rusina
+18	8618	pidätellä	pidättelemään pidätellä pidättele pidätteli pidätellen pidätellyt pidättelee
+19	8619	lentolippu	lentoliput lentolipun lentolippujen lentolippuja lentolippu lentolippua
+20	8620	kilsa	kilsaa kilsan kilsa
+21	8621	parhaimmisto	parhaimmistoa parhaimmistoon parhaimmisto parhaimmiston
+22	8622	appi	appi appia apin apetta
+23	8623	ylilyönti	ylilyöntejä ylilyönti ylilyönnit ylilyönteihin ylilyönneistä
+24	8624	ennakkosuosikki	ennakkosuosikki ennakkosuosikkina ennakkosuosikin ennakkosuosikeista ennakkosuosikit ennakkosuosikkeja
+25	8625	kontrasti	kontrasti kontrastia kontrastin kontrasteja kontrastina kontrastit
+26	8626	talouskriisi	talouskriisin talouskriisi talouskriisiin talouskriisistä talouskriisiä talouskriisissä
+27	8627	juomavesi	juomaveden juomavettä juomavesi juomaveteen juomavedestä juomavedessä
+28	8628	dekkari	dekkari dekkareita dekkarit dekkarin dekkaria dekkarissa
+29	8629	esikunta	esikunta esikunnan esikuntaan esikunnasta esikunnassa esikuntansa esikuntineen
+30	8630	saukko	saukko saukon saukot
+31	8631	kota	kota kotiin kodin kodan kodassa kodissa kodista kotien kodiksi kodilta kotina kodille
+32	8632	käry	käryä käry käryn
+33	8633	isokokoinen	isokokoinen isokokoisia isokokoisen isokokoiset isokokoista
+34	8634	kattavasti	kattavasti kattavammin
+35	8635	kantelu	kantelun kantelu kantelua kanteluita kantelut kantelussa
+36	8636	myllykoski	myllykoski myllykosken myllykoskella
+37	8637	selli	sellissä sellin selliin selli sellistä selleissä selliä sellejä
+38	8638	humanistinen	humanistinen humanistisen humanististen humanistiset humanistisia humanistisiin humanistista
+39	8639	taite	taitteessa taitteen taite taitteeseen taitteesta
+40	8640	noppa	noppaa noppa nopan nopat noppia noppien nopalla
+41	8641	konki	kongin kongissa kongista
+42	8642	koillinen	koilliseen koillisen koillisessa koillisesta koillista koillinen
+43	8643	kalu	kalu kalua kaluni kalun kalunsa
+44	8644	evakuointi	evakuointi evakuointia evakuoinnin evakuointiin evakuoinnista
+45	8645	hokea	hokee hokea hokevat hoetaan hoe hokeminen hoen hoettu hoit hoin hokemaan
+46	8646	valkoviini	valkoviini valkoviiniä valkoviinin valkoviinit valkoviinejä
+47	8647	playboy	playboy playboyn
+48	8648	asuntomessut	asuntomessut asuntomessuilla asuntomessujen asuntomessuille
+49	8649	porista	porista porisemaan
+50	8650	tyhjyys	tyhjyys tyhjyyden tyhjyyteen tyhjyyttä tyhjyydestä
+51	8651	hali	hali halin haleja halit
+52	8652	kiinteistövero	kiinteistöveron kiinteistövero kiinteistöveroa kiinteistöverot
+53	8653	suunnaton	suunnaton suunnatonta suunnattomia suunnattomat
+54	8654	resoluutio	resoluutio resoluution resoluutiolla resoluutiota
+55	8655	kelluva	kelluva kelluvan kelluvat kelluvaa kelluvia kelluvien
+56	8656	kuusitoista	kuusitoista kuudentoista kuuteentoista kuuttatoista
+57	8657	kalasatama	kalasataman kalasatama kalasatamaan kalasatamassa kalasatamasta
+58	8658	alhaalta	alhaalta
+59	8659	harvakseltaan	harvakseltaan
+60	8660	ilmiselvästi	ilmiselvästi
+61	8661	rintarossi	rossi
+62	8662	same	same
+63	8663	suunnattomasti	suunnattomasti
+64	8664	vähälaktoosinen	vl
+65	8665	väkivaltaisesti	väkivaltaisesti
+66	8666	valpas	valppaana valpas valppaina valppaita
+67	8667	muodikas	muodikas muodikasta muodikkaita muodikkaat muodikkaan
+68	8668	hilkka	hilkka hilkan
+69	8669	suunnistus	suunnistus suunnistuksen suunnistusta suunnistuksessa
+70	8670	edistyminen	edistymistä edistyminen edistymisestä edistymisen edistymiseen
+71	8671	jyvä	jyvät jyvälle jyviä jyvä jyvän jyvällä jyvien
+72	8672	kytkös	kytköksiä kytkös kytköksistä kytkökset kytköstä
+73	8673	nuorisojärjestö	nuorisojärjestöjen nuorisojärjestön nuorisojärjestöt nuorisojärjestö
+74	8674	skandinaavinen	skandinaavinen skandinaavisen skandinaavista skandinaaviseen skandinaavisten skandinaaviset skandinaavisia skandinaavisesta
+75	8675	rauhanpalkinto	rauhanpalkinnon rauhanpalkinto
+76	8676	työllinen	työllisten työllisiä työllisistä työlliset työllistä
+77	8677	kuntoilu	kuntoilu kuntoilun kuntoilua kuntoiluun kuntoilusta
+78	8678	paikantaa	paikantaa paikantamaan paikannettu paikansi paikantamiseen paikannetaan paikantaminen
+79	8679	eläkejärjestelmä	eläkejärjestelmän eläkejärjestelmä eläkejärjestelmää eläkejärjestelmään eläkejärjestelmästä
+80	8680	joukkomurha	joukkomurhan joukkomurha joukkomurhasta joukkomurhia joukkomurhaan joukkomurhaa joukkomurhat joukkomurhista
+81	8681	aseeton	aseeton aseettomia aseettoman aseetonta aseettomana
+82	8682	työturvallisuus	työturvallisuus työturvallisuuden työturvallisuutta työturvallisuuteen työturvallisuudesta
+83	8683	avuton	avuton avuttomia avuttoman avuttomana avuttomaksi avutonta avuttomat
+84	8684	partneri	partneri partnerin partneria partnerinsa partnereita partnerina partneriksi
+85	8685	rientää	rientää riensi riensivät rientänyt rientävät riensin
+86	8686	kirkollinen	kirkollinen kirkollisen kirkollista kirkollisten kirkolliset kirkolliseen kirkollisia kirkollisissa kirkollisiin kirkollisessa
+87	8687	kyttä	kyttä kytät kyttää kyttien kytän kyttiä
+88	8688	huoleton	huoleton huoletonta huolettoman huolettomia huolettomana
+89	8689	traditio	traditio tradition traditiota traditioon traditioita traditiot traditiosta
+90	8690	avauskokoonpano	avauskokoonpanossa avauskokoonpanon avauskokoonpanoon avauskokoonpano avauskokoonpanosta
+91	8691	hallintoneuvosto	hallintoneuvoston hallintoneuvosto hallintoneuvostossa hallintoneuvostoon
+92	8692	kaksintaistelu	kaksintaistelussa kaksintaistelu kaksintaisteluun kaksintaistelun kaksintaistelua kaksintaistelut kaksintaistelusta
+93	8693	kolumnisti	kolumnisti kolumnistin kolumnistina
+94	8694	päiväunet	päiväunet päiväunia päiväunien päiväunille päiväunilla päiväunilta
+95	8695	kirkkaus	kirkkauden kirkkaus kirkkautta kirkkauteen
+96	8696	ylistys	ylistystä ylistys ylistyksen
+97	8697	eritellä	eritellä eritelty erittelemään erittelee erittele eritellään eritellyt erittelemättä
+98	8698	näytille	näytille näytillä
+99	8699	maataloustuki	maataloustuet maataloustukien maataloustuki maataloustuista maataloustukia
+100	8700	elokuvaohjaaja	elokuvaohjaaja elokuvaohjaajana

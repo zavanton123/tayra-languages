@@ -1,0 +1,100 @@
+1	9601	allekirjoittaja	allekirjoittaja allekirjoittajaa allekirjoittajat allekirjoittajien allekirjoittajista allekirjoittajia allekirjoittajan allekirjoittajina
+2	9602	elektroni	elektroni elektronien elektronit elektroneja elektronin elektronista elektronia
+3	9603	palkaton	palkatonta palkaton palkattomia palkattoman palkattomat
+4	9604	mestariteos	mestariteos mestariteoksia mestariteoksen mestariteosta
+5	9605	kuopiolainen	kuopiolaisen kuopiolainen kuopiolaiset kuopiolaisten kuopiolaisia
+6	9606	kirjeenvaihtaja	kirjeenvaihtaja kirjeenvaihtajana kirjeenvaihtajan kirjeenvaihtajaksi
+7	9607	puolimatka	puolimatkan puolimatka puolimatkassa
+8	9608	duetto	duetto dueton duettona duettoa duettoja
+9	9609	mielenilmaus	mielenilmaus mielenilmauksen mielenilmaukset mielenilmauksia mielenilmaukseen mielenilmausta mielenilmauksessa
+10	9610	relevantti	relevantti relevanttia relevantteja relevantit
+11	9611	lauda	lauda laudan laudalla laudat laudalle laudalta laudasta laudoista laudassa laudoilla
+12	9612	puutarhuri	puutarhuri puutarhurin puutarhurit
+13	9613	monimuotoinen	monimuotoinen monimuotoista monimuotoisia monimuotoisen
+14	9614	nykymaailma	nykymaailmassa nykymaailman nykymaailma
+15	9615	salakuljettaa	salakuljettaa salakuljetti salakuljetetaan salakuljetettiin salakuljetettu salakuljettanut salakuljettavat salakuljettamaan
+16	9616	sinivalkoinen	sinivalkoinen sinivalkoista sinivalkoiset sinivalkoisen sinivalkoisia
+17	9617	alentua	alentunut alentua alennu alentuneet alentuminen alentuu
+18	9618	näyttelijätär	näyttelijätär näyttelijättären näyttelijätärtä
+19	9619	cover	cover covereita coverin
+20	9620	kaupunkisuunnittelu	kaupunkisuunnittelu kaupunkisuunnittelun kaupunkisuunnittelussa kaupunkisuunnittelua kaupunkisuunnittelusta kaupunkisuunnitteluun
+21	9621	rok	rok roki rokin
+22	9622	molemminpuolinen	molemminpuolinen molemminpuolista molemminpuolisen molemminpuoliseen
+23	9623	vaihdos	vaihdos vaihdoksen vaihdosta vaihdoksia vaihdoksesta vaihdokset
+24	9624	konepelti	konepellin konepelti konepellille konepellillä konepeltiä konepeltiin
+25	9625	ennättää	ennättänyt ennättää ennätti ennätä
+26	9626	laskutus	laskutus laskutuksen laskutusta laskutukseen laskutuksessa
+27	9627	persia	persian persia persiassa persiasta persiaan persiaa
+28	9628	pano	pano panon panoa panosta panolle panot
+29	9629	hämmästynyt	hämmästynyt hämmästyneenä hämmästyneitä
+30	9630	elintarviketeollisuus	elintarviketeollisuuden elintarviketeollisuus elintarviketeollisuudessa elintarviketeollisuutta elintarviketeollisuuteen
+31	9631	potea	potee poti potea potenut potevat poden pode potevan poteva potemaan
+32	9632	säilö	säilöön säilössä säilö
+33	9633	luulo	luulot luulo luulossa luuloa luuloja
+34	9634	etsijä	etsijät etsijä etsijöitä etsijän etsijöiden etsijöille
+35	9635	sola	sola solan solin solaan solassa solaa solasta
+36	9636	naudanliha	naudanlihan naudanlihaa naudanliha naudanlihasta
+37	9637	kostautua	kostautui kostautuu kostautua
+38	9638	kaappaus	kaappaus kaappauksen kaappausta kaappauksesta kaappauksia
+39	9639	käsipallo	käsipallo käsipallon käsipallossa käsipalloa
+40	9640	turvatoimi	turvatoimia turvatoimet turvatoimista turvatoimien
+41	9641	lanta	lantaa lannan lanta lannasta
+42	9642	ottelija	ottelija ottelijat ottelijoita ottelijan ottelijaa ottelijoiden ottelijoista
+43	9643	kansallislaulu	kansallislaulu kansallislaulun kansallislaulua
+44	9644	keräily	keräily keräilyyn keräilyä keräilyn keräilystä
+45	9645	jumbo	jumbo jumbon jumboksi jumbossa
+46	9646	vieraskielinen	vieraskielisten vieraskielisiä vieraskieliset vieraskielinen vieraskielisen vieraskielistä vieraskielisistä
+47	9647	levällään	levällään levälleen
+48	9648	kannas	kannaksen kannaksella kannas kannakselle kannakselta kannasta
+49	9649	kunnostautua	kunnostautunut kunnostautui kunnostautuivat kunnostautuu
+50	9650	pelailla	pelailla pelailemaan pelaillaan pelailee pelaillut pelailen
+51	9651	asianomistaja	asianomistaja asianomistajan asianomistajien asianomistajaa asianomistajana asianomistajalle
+52	9652	kardinaali	kardinaali kardinaalin kardinaalit
+53	9653	eurovaalit	eurovaaleissa eurovaalien eurovaalit eurovaaleihin
+54	9654	lihansyönti	lihansyönti lihansyönnin lihansyöntiä
+55	9655	aseistus	aseistusta aseistus aseistuksen aseistuksesta aseistukseen aseistuksena
+56	9656	moninkertaisesti	moninkertaisesti
+57	9657	pas	pas
+58	9658	propsi	propsit
+59	9659	räjähdysmäisesti	räjähdysmäisesti
+60	9660	kansikuva	kansikuva kansikuvan kansikuvassa kansikuvat kansikuvaa kansikuvissa kansikuvaan
+61	9661	megapikseli	megapikselin megapikseliä
+62	9662	editoida	editoida editoitu editoi editoimaan editoin editoinut
+63	9663	madeleine	madeleine madeleinen
+64	9664	saattaja	saattaja saattajat saattajaa saattajan saattajia saattajana saattajaksi saattajien
+65	9665	kirjasarja	kirjasarjan kirjasarja kirjasarjaa kirjasarjaan kirjasarjassa kirjasarjasta
+66	9666	hajalla	hajallaan hajalla
+67	9667	välimaasto	välimaastossa välimaastoon välimaastosta
+68	9668	mentori	mentori mentorin mentorina mentorit
+69	9669	alkupää	alkupään alkupäässä alkupäästä alkupäähän alkupää
+70	9670	ullakko	ullakko ullakolla ullakolle ullakon ullakolta
+71	9671	palkkatyö	palkkatyön palkkatyötä palkkatyö palkkatyössä palkkatyöhön palkkatyöstä palkkatöitä palkkatöissä
+72	9672	ekonomi	ekonomi ekonomit ekonomien ekonomin ekonomia
+73	9673	riisto	riistoa riisto riiston riistosta riistoon
+74	9674	palapeli	palapeli palapelin palapeliä palapelejä palapelissä
+75	9675	poltella	polttelee poltellut poltteli polttelemaan poltellen polttelevat polttelen poltella
+76	9676	tungos	tungosta tungos tungoksessa tungokseen
+77	9677	pitkittyä	pitkittynyt pitkittyy pitkittyessä pitkittyi
+78	9678	liikenneyhteys	liikenneyhteydet liikenneyhteyksien liikenneyhteyksiä
+79	9679	ylämäki	ylämäkeen ylämäessä ylämäki ylämäkeä ylämäkiä ylämäen
+80	9680	vasa	vasa vasan vasaa vasoja
+81	9681	vilkkaasti	vilkkaasti vilkkaimmin
+82	9682	äkkilähtö	äkkilähdöt äkkilähtö äkkilähdön
+83	9683	kosminen	kosminen kosmisen kosmista kosmiset kosmisia kosmiseen kosmisesta
+84	9684	terveystieto	terveystiedon terveystieto terveystietoja terveystietojen terveystiedot terveystietoa
+85	9685	pakkotyö	pakkotyöhön pakkotyötä pakkotyö pakkotyön pakkotyössä pakkotöihin pakkotyöstä
+86	9686	rasite	rasite rasitteita rasitteena rasitteeksi rasitetta
+87	9687	asiayhteys	asiayhteydestä asiayhteydessä asiayhteys asiayhteyden asiayhteyteen asiayhteyttä asiayhteyksissä
+88	9688	hitaus	hitaus hitautta hitauden hitaudesta hitauteen
+89	9689	farmi	farmi farmin farmiin farmilla farmissa farmille farmista
+90	9690	sivusta	sivustoja sivustojen sivustaan sivustoilla sivustalla sivustalle sivustoille sivustaa sivustan sivusta sivustoista sivustoilta sivustoihin
+91	9691	kyllästyttää	kyllästyttää kyllästyttämään
+92	9692	epäinhimillinen	epäinhimillistä epäinhimillinen epäinhimillisen epäinhimilliset epäinhimillisiä epäinhimillisistä epäinhimillisestä
+93	9693	mehukas	mehukas mehukkaita mehukasta mehukkaan mehukkaat
+94	9694	villisika	villisika villisian villisikaa villisikoja villisiat villisikojen
+95	9695	kuoriutua	kuoriutuu kuoriutui kuoriutuvat kuoriutunut kuoriutua
+96	9696	eriävä	eriäviä eriävän eriävä eriävät eriävää
+97	9697	kärjistää	kärjistää kärjistäen kärjisti kärjistetty kärjistettynä kärjistä
+98	9698	ilmiantaa	ilmiantaa ilmianna ilmiantoi ilmiantamaan ilmiantanut
+99	9699	liigajoukkue	liigajoukkueen liigajoukkue liigajoukkueessa liigajoukkueeseen liigajoukkuetta
+100	9700	pihamaa	pihamaalla pihamaalle pihamaan pihamaa pihamaalta

@@ -1,0 +1,100 @@
+1	7101	postilaatikko	postilaatikkoon postilaatikko postilaatikon postilaatikossa postilaatikosta postilaatikolle postilaatikoihin postilaatikoita postilaatikot
+2	7102	katukuva	katukuvassa katukuvasta katukuvaan katukuvaa katukuva
+3	7103	liikennevalo	liikennevalot liikennevaloissa liikennevalojen liikennevaloja liikennevalo liikennevaloihin liikennevaloista
+4	7104	diplomaatti	diplomaatti diplomaatin diplomaatit diplomaatteja diplomaattien diplomaattina diplomaattia diplomaateille
+5	7105	sivilisaatio	sivilisaation sivilisaatio sivilisaatiota sivilisaatioiden sivilisaatiot sivilisaatioita sivilisaatiosta
+6	7106	vertaistuki	vertaistukea vertaistuki vertaistuen
+7	7107	kolmetoista	kolmetoista kolmentoista kolmi kolmestatoista kolmeentoista
+8	7108	vehnä	vehnää vehnä vehnän vehnästä
+9	7109	kylvää	kylvää kylvetään kylvi kylvänyt kylvetty kylvettiin kylvämään kylvä kylvävät kylväminen kylvivät kylvin
+10	7110	haiskahtaa	haiskahtaa haiskahti
+11	7111	kerjätä	kerjää kerjätä kerjäsi kerjäämään kerjäämässä kerjääminen kerjäämistä kerjäävät kerjäämisen
+12	7112	kielioppi	kielioppi kieliopin kielioppia kieliopista kielioppiin
+13	7113	nokkela	nokkela nokkelaa nokkelia nokkelan nokkelat
+14	7114	valtaus	valtaus valtauksen valtausta valtauksesta valtaukseen valtauksessa valtauksia
+15	7115	hotellihuone	hotellihuoneessa hotellihuoneen hotellihuoneeseen hotellihuone hotellihuoneesta hotellihuonetta hotellihuoneita hotellihuoneet hotellihuoneiden hotellihuoneissa
+16	7116	ikävästi	ikävästi
+17	7117	joskaan	joskaan
+18	7118	kauttaaltaan	kauttaaltaan
+19	7119	marjoa	marjo
+20	7120	oleellisesti	oleellisesti
+21	7121	sähköpostitse	sähköpostitse
+22	7122	yläkerrassa	yläkerrassa
+23	7123	metsätalous	metsätalouden metsätalous metsätaloutta metsätaloudessa metsätaloudesta metsätalouteen
+24	7124	outokumpu	outokumpu outokummun outokummussa outokummusta outokumpuun
+25	7125	junnu	junnu junnuna junnut junnujen junnuja junnuille junnun
+26	7126	kylmyys	kylmyys kylmyyttä kylmyyden kylmyydestä kylmyyteen kylmyydessä kylmyydeltä
+27	7127	päärakennus	päärakennuksen päärakennus päärakennuksessa päärakennukseen päärakennuksesta päärakennusta
+28	7128	taittua	taittuu taittui taittuvat taittunut taittuva taittua taitu taittuminen
+29	7129	vyötärö	vyötärön vyötärö vyötärölle vyötäröllä vyötäröstä vyötäröä vyötäröltä vyötäröön
+30	7130	pakka	pakka pakkaa pakan pakasta pakkaan pakassa pakkasi pakkoja
+31	7131	kokonaisvaltainen	kokonaisvaltaista kokonaisvaltainen kokonaisvaltaisen kokonaisvaltaiseen kokonaisvaltaisesta kokonaisvaltaisessa kokonaisvaltaisia
+32	7132	porvari	porvari porvarit porvarien porvareiden porvareita porvarin porvareille
+33	7133	vaihteisto	vaihteisto vaihteiston vaihteistoa vaihteistossa vaihteistoon vaihteistolla vaihteistot
+34	7134	instrumentti	instrumentti instrumentteja instrumentit instrumenttien instrumenttia instrumentin instrumenttina instrumentteihin instrumenttinsa instrumenteista
+35	7135	rikkoutua	rikkoutui rikkoutunut rikkoutuu rikkoutua rikkoutuvat rikkoutuivat rikkoudu rikkoutuessa rikkoutumista
+36	7136	jalostus	jalostuksen jalostus jalostukseen jalostuksessa jalostusta jalostuksesta
+37	7137	aluehallintovirasto	aluehallintovirasto aluehallintoviraston aluehallintovirastojen aluehallintovirastot aluehallintovirastolle aluehallintovirastoon aluehallintovirastossa aluehallintovirastosta
+38	7138	kätkö	kätköistä kätkö kätkön kätköissä kätkössä kätköstä kätköjä kätköä kätköt kätköihin kätköön kätköjen
+39	7139	latinalainen	latinalaisen latinalaisessa latinalainen latinalaisesta latinalaisia latinalaiseen latinalaiset latinalaista
+40	7140	viisikymmentä	viisikymmentä viidenkymmenen viittäkymmentä viiteenkymmeneen viidestäkymmenestä viidessäkymmenessä
+41	7141	ylläpitäjä	ylläpitäjä ylläpitäjät ylläpitäjän ylläpitäjänä ylläpitäjille ylläpitäjien ylläpitäjää ylläpitäjiä ylläpitäjälle
+42	7142	takavuosi	takavuosien takavuosina
+43	7143	pyöritellä	pyörittele pyörittelee pyöritellyt pyöritteli pyörittelemään pyöritelty pyöritellään pyöritellä pyörittelin pyörittelen pyörittelevät pyöritellen pyöriteltiin
+44	7144	vaellus	vaellus vaelluksen vaellusta vaellukselle vaellukseen vaelluksia vaellukset vaelluksella vaelluksesta
+45	7145	kare	karen kare
+46	7146	provosoida	provosoida provosoiva provosoi provosoivia provosoivat provosoivaa provosoimaan provosoinut provosoivan
+47	7147	wlan	wlan wlanin
+48	7148	nivel	nivelet nivel nivelten nivelen niveliin niveliä nivelissä niveltä nivelistä
+49	7149	suullinen	suullinen suullisen suullista suullisessa suulliset suullisia suulliseen suullisesta
+50	7150	sanaton	sanaton sanattomaksi sanatonta sanattomia sanattoman
+51	7151	hylky	hylky hylyn hylystä hylkyä hylkyyn hylyt hylylle hylkyjä hylyssä
+52	7152	käännyttää	käännyttää käännyttämään käännytettiin käännytetty käännyttäminen käännytetään käännytti käännyttivät käännyttänyt käännyttävä
+53	7153	ruokalista	ruokalista ruokalistan ruokalistalla ruokalistaa ruokalistat ruokalistalta ruokalistalle ruokalistaan ruokalistoja ruokalistassa
+54	7154	järkyttyä	järkyttyi järkytyin järkyttyy järkyttyivät järkyttyä järkyttyvät
+55	7155	newton	newton newtonin newtonia
+56	7156	turvotus	turvotus turvotusta turvotuksen turvotukseen turvotuksesta
+57	7157	muhkea	muhkeat muhkea muhkean muhkeita muhkeaa
+58	7158	linkittää	linkittää linkitetty linkata linkitä linkittänyt linkitetään linkitti linkittäminen linkitin
+59	7159	oleskella	oleskella oleskelee oleskelevat oleskellut oleskeli oleskelemaan oleskeleva oleskele
+60	7160	ihottuma	ihottumaa ihottuma ihottuman ihottumasta ihottumaan ihottumat
+61	7161	työkokemus	työkokemusta työkokemus työkokemuksen työkokemuksella työkokemuksesta
+62	7162	mobiililaite	mobiililaitteiden mobiililaitteilla mobiililaitteella mobiililaitteet mobiililaitteille mobiililaitteissa mobiililaitteen mobiililaitteita mobiililaitteisiin
+63	7163	ninja	ninja ninjat ninjan ninjoja
+64	7164	takka	takan takkaa takassa takka takkaan takasta
+65	7165	alkoholismi	alkoholismi alkoholismin alkoholismista alkoholismiin alkoholismia
+66	7166	ajomatka	ajomatkan ajomatka ajomatkaa
+67	7167	nälänhätä	nälänhätä nälänhädän nälänhätää nälänhädästä nälänhätään nälänhädät
+68	7168	laillisuus	laillisuus laillisuuden laillisuutta laillisuudesta laillisuuteen
+69	7169	vuohi	vuohi vuohen vuohia vuohet vuohien vuohta
+70	7170	voimistua	voimistuu voimistunut voimistui voimistuvat voimistua voimistuminen voimistuneet voimistuivat voimistuva voimistuessa
+71	7171	tutkimusryhmä	tutkimusryhmä tutkimusryhmän tutkimusryhmää tutkimusryhmässä tutkimusryhmään tutkimusryhmät
+72	7172	voipa	voivan voipa
+73	7173	appelsiini	appelsiini appelsiinin appelsiinia appelsiineja appelsiinit
+74	7174	roosa	roosa roosin roosan roosaa
+75	7175	piipahtaa	piipahtaa piipahti piipahtamaan piipahdin piipahda piipahtanut piipahdan piipahtamassa
+76	7176	syyrialainen	syyrialainen syyrialaiset syyrialaisia syyrialaisten syyrialaisen syyrialaista syyrialaisista syyrialaisille
+77	7177	tasavertainen	tasavertaisia tasavertainen tasavertaisina tasavertaiset tasavertaista tasavertaisena tasavertaisen tasavertaisessa tasavertaiseksi tasavertaiseen
+78	7178	tilavuus	tilavuus tilavuuden tilavuutta tilavuudesta
+79	7179	opiskelupaikka	opiskelupaikkaa opiskelupaikan opiskelupaikka opiskelupaikkoja opiskelupaikkojen
+80	7180	lähimpänä	lähimpänä lähimmäksi
+81	7181	määränpää	määränpää määränpäähän määränpäätä määränpään määränpäänä määränpäässä määränpäänsä määränpäästä
+82	7182	koulukunta	koulukunnan koulukuntaa koulukunta koulukuntaan koulukuntia koulukunnat koulukuntien
+83	7183	pikavippi	pikavippi pikavippejä pikavipit pikavippien pikavippiä pikavipin pikavipeistä pikavipeillä
+84	7184	hiilidioksidipäästö	hiilidioksidipäästöjä hiilidioksidipäästöt hiilidioksidipäästöjen hiilidioksidipäästöistä hiilidioksidipäästöihin
+85	7185	aikeissa	aikeissa
+86	7186	asianmukaisesti	asianmukaisesti
+87	7187	bravo	bravo
+88	7188	taaskaan	taaskaan
+89	7189	ulkoisesti	ulkoisesti
+90	7190	vierekkäin	vierekkäin
+91	7191	viitisen	viitisen
+92	7192	työkyky	työkyvyn työkykyä työkyky työkykyyn työkykynsä
+93	7193	kertoma	kertomansa kertomana kertomaa kertomasi kertomat kertomaan kertomista kertomia kertomani kertomatta kertomassa kertomalla kertoman kertomasta kertoma
+94	7194	myönteisesti	myönteisesti myönteisemmin
+95	7195	jalanjälki	jalanjäljissä jalanjälkiä jalanjälki jalanjäljet jalanjäljillä jalanjäljen jalanjälkensä
+96	7196	hippi	hippi hipit hippien hippejä hipin
+97	7197	parvi	parvi parven parvella parvessa parvelle parvet parvia parvissa parvea
+98	7198	hallitusneuvottelu	hallitusneuvotteluissa hallitusneuvottelut hallitusneuvotteluista hallitusneuvottelujen hallitusneuvotteluihin hallitusneuvotteluiden hallitusneuvotteluja
+99	7199	protokolla	protokolla protokollan protokollaa protokollat protokollasta protokollia protokollaan
+100	7200	yskä	yskä yskän yskää yskiä yskään yskin

@@ -1,0 +1,100 @@
+1	2101	klubi	klubi klubin klubilla klubille klubiin klubeilla klubia klubissa klubeja klubit klubeissa klubilta klubista klubien klubeista klubeille klubeihin
+2	2102	sohva	sohvalla sohva sohvan sohvalle sohvalta sohvaa sohvat sohvasta sohvia sohvaan sohvassa sohvien sohvilla
+3	2103	julistaa	julistaa julisti julistettu julistettiin julistanut julistetaan julistamaan julistivat julistavat julistan julistaminen julistamista julista julistamisen julistamalla julistama julistaen julistamisesta julistamassa julistaisi julistaman julistettaisiin julistamme
+4	2104	rankka	rankkaa rankka rankkoja rankan rankat rankin rankalla rankempi rankasta rankalta rankkaan rankaksi rankkojen rankassa rankoista
+5	2105	unkari	unkarin unkari unkarissa unkaria unkarista unkariin unkarille unkarilla
+6	2106	tiistai	tiistai ti tiistain tiistaihin tiistaista tiistaita tiistaiksi tiistaille
+7	2107	neste	neste nestettä nesteen nesteitä nesteet nesteiden nesteeseen nesteellä nesteessä nesteestä nesteistä nesteeksi nesteenä nesteelle nesteissä
+8	2108	kehua	kehuu kehui kehua kehuttu kehutaan kehu kehuttiin kehunut kehut kehuivat kehumaan kehuvat kehumista kehuminen kehuin kehun kehumalla kehuttava kehumisen kehuisi kehuttavaa
+9	2109	pommi	pommi pommin pommeja pommit pommia pommiin pommista pommien pommilla pommeista pommeilla pomminsa pommissa pommein pommiksi
+10	2110	ennustaa	ennustaa ennusti ennustetaan ennustan ennustettu ennustaminen ennustamaan ennustettiin ennustavat ennustanut ennustivat ennustettavissa ennusta ennustamiseen ennustettava ennustin ennustamisen ennustamista ennustamisessa ennustava ennustavan ennustama ennustettavia ennustamisesta ennustettavaa
+11	2111	näytelmä	näytelmä näytelmän näytelmässä näytelmää näytelmästä näytelmiä näytelmään näytelmät näytelmien näytelmissä näytelmänsä näytelmäksi näytelmistä näytelmänä näytelmällä näytelmälle
+12	2112	äänestys	äänestys äänestyksessä äänestyksen äänestystä äänestykseen äänestyksestä äänestyksellä äänestyksissä äänestykset äänestyksiä äänestyksiin äänestysten äänestyksistä
+13	2113	rahoittaa	rahoittaa rahoitetaan rahoittamaan rahoitti rahoitettu rahoittama rahoittavat rahoittamiseen rahoittanut rahoittamiseksi rahoittamassa rahoittaminen rahoittamisen rahoittivat rahoittaman rahoittamisesta rahoittaakseen rahoitettiin rahoitettaisiin rahoittamista rahoita rahoittamalla rahoittaisi rahoitettava rahoittamisessa rahoitamme rahoittava rahoittamasta rahoitat
+14	2114	olympialaiset	olympialaisten olympialaisissa olympialaiset olympialaisiin olympialaisia olympialaisista
+15	2115	kaava	kaava kaavan kaavaa kaavalla kaavassa kaavoja kaavat kaavasta kaavaan kaavoihin kaavojen kaavoista kaavoissa kaavoilla
+16	2116	lukema	lukemat lukemin lukemiin lukemia lukemista lukemissa lukemani lukemaan lukemaa lukema lukemien lukemalla lukemansa lukemiksi lukematta lukemassa lukemilla lukemana lukemasi lukeman lukemasta
+17	2117	kama	kamaa kamat kama kaman kamoja kamasta kamojen kamansa kamaan kamoissa
+18	2118	varoittaa	varoittaa varoitti varoittanut varoittavat varoitetaan varoittava varoitettu varoittamaan varoitettiin varoitteli varoittamatta varoittivat varoitin varoittavana varoitan varoita varoittavan varoittaakseen varoitella varoittavia varoittamassa varoitamme
+19	2119	niska	niskaan niska niskan niskasta niskassa niskaa niskoille niskat niskansa niskalle
+20	2120	toisinaan	toisinaan
+21	2121	vaativat	vaativat
+22	2122	hyödyllinen	hyödyllistä hyödyllinen hyödyllisiä hyödylliseksi hyödyllisempi hyödyllisen hyödyllisenä hyödylliset hyödyllisiksi hyödyllisten hyödylliseen hyödyllisin hyödyllisinä
+23	2123	harmittaa	harmittaa harmitti harmita harmittavan harmittamaan harmittanut harmittaisi harmittava harmittavat harmittavaa
+24	2124	pilvi	pilvi pilvessä pilvet pilven pilvien pilveen pilviä pilveä pilviin pilvistä pilvissä pilvin pilvestä
+25	2125	jako	jako jaossa jakoon jakoa jaosta jaon jakoja jaot jaoin jakojen jaolla
+26	2126	varmuus	varmuudella varmuuden varmuutta varmuus varmuudeksi varmuuteen
+27	2127	rikki	rikki rikkiä rikin
+28	2128	hopea	hopeaa hopea hopealle hopean hopeasta hopealla hopeaan hopeat hopeista
+29	2129	sähköinen	sähköinen sähköisen sähköisiä sähköiset sähköisten sähköisessä sähköiseen sähköistä sähköisenä sähköisellä sähköisiin sähköisestä sähköisistä sähköiseksi sähköisissä sähköisillä sähköisiksi sähköisinä
+30	2130	pehmeä	pehmeä pehmeää pehmeät pehmeitä pehmeän pehmeällä pehmeäksi pehmeämpi pehmeään pehmeiden pehmeämpää pehmeästä pehmeillä pehmeistä pehmeässä pehmeiksi pehmein pehmeämpiä pehmeänä pehmeältä pehmeämmän pehmeisiin pehmeämmät pehmeälle pehmeämmäksi
+31	2131	nappi	nappia nappi napit napin nappiin nappeja napista napilla nappien napeilla napeista
+32	2132	rasismi	rasismi rasismia rasismista rasismin rasismille rasismiin rasismilla
+33	2133	blues	blues bluesin bluesia bluesissa bluesista bluesiin bluesille
+34	2134	uhata	uhkasi uhkaavat uhata uhannut uhkaa uhkasivat uhaten uhattu uhataan uhatessa uhkaisi uhattiin uhkaamalla uhkaamaan uhkaaminen uhkaisivat uhkaamassa uhkaamisesta uhkaan uhkaamista uhkasin
+35	2135	pelto	pellolle pellon peltoa pellot pellolla peltojen pelloilla pelto peltoja pellossa pelloille pellolta pelloilta peltoon pellosta pelloista pelloksi pelloiksi peltonsa
+36	2136	jälkimmäinen	jälkimmäinen jälkimmäisen jälkimmäisessä jälkimmäistä jälkimmäiseen jälkimmäisestä jälkimmäisellä jälkimmäiset jälkimmäisiä jälkimmäiselle jälkimmäisten jälkimmäisistä jälkimmäisiin jälkimmäisenä
+37	2137	planeetta	planeetan planeetta planeetalla planeettaa planeetalle planeetalta planeettoja planeettojen planeetat planeettamme planeetasta planeetoilla planeetoista planeetoille planeettaan planeetoilta
+38	2138	mielenosoitus	mielenosoitus mielenosoitukset mielenosoituksen mielenosoituksia mielenosoituksessa mielenosoitukseen mielenosoituksissa mielenosoitusten mielenosoituksiin mielenosoituksesta mielenosoitusta mielenosoituksista mielenosoituksilla
+39	2139	suoritus	suoritus suorituksen suoritusta suorituksia suoritukset suoritukseen suorituksesta suorituksiin suoritusten suorituksensa suorituksista suorituksella suorituksessa suorituksissa suorituksena
+40	2140	kulku	kulut kulku kulkua kuluista kulkuun kulusta kulun kuluissa kuluksi kulkunsa kulussa kuluilla kuluiksi
+41	2141	maata	makaa makaamaan makasi maata makaan maannut makaavat maataan maaten makasin makaaminen makaava maatessa makaamassa makaat makasivat makaamalla makaamasta makaisi makaamista
+42	2142	portti	portti portin portit portilla portista porttia porttien portteja portille porteilla porteille porttiin portilta porteista portissa porttina portteihin porttinsa portiksi
+43	2143	niinkuin	niinkuin niinkun
+44	2144	alainen	alainen alaisena alaisia alaisen alaiset alaista alaisten alaiseksi alaisensa alaisina alaisesta alaiseen alaisista alaisissa alaisiksi alaisille alaisiin alaisessa alaiselle
+45	2145	huumori	huumoria huumori huumorilla huumorin huumorista huumoriin huumoriksi huumorinsa huumorille
+46	2146	aikamoinen	aikamoinen aikamoista aikamoisen aikamoisia aikamoiset aikamoisessa aikamoiseen aikamoisella aikamoiselta
+47	2147	unohtua	unohtuu unohtui unohtunut unohtua unohdu unohtumaton unohtumaan unohtuvat unohtu unohtuivat unohtuisi unohtumattomia unohtumattoman unohtuvan unohtumatonta unohtumattomat
+48	2148	sitoa	sitoo sitoa sido sitova sitovat sidotaan sitoi sitovia sitomaan sidottiin sitovaa sitominen sitonut sitovan sitomista sitoivat sitoisi sitomalla sitomisesta sitomiseen sito sidoin sidon sidottava sitoen sitovasta sidomme sitovana
+49	2149	metro	metro metron metrossa metrolla metroon metroa metrosta metrot metrolle metrojen metroja metroissa
+50	2150	kimpussa	kimppuun kimpussa kimpusta
+51	2151	olennainen	olennaista olennainen olennaisen olennaisena olennaiseen olennaisia olennaisin olennaiset olennaisiin olennaisilta olennaisessa olennaisesta olennaiseksi olennaisella olennaisista
+52	2152	syöpä	syövän syöpää syöpään syövät syöpä syövästä syöpien syöpiä syövistä syövälle syöpiin syöväksi syövillä syövässä syöpäni syöpänsä syöville
+53	2153	haukkua	haukkuu haukkua haukkui haukkumaan haukutaan hauku haukkuvat haukuttiin haukuttu haukut haukkumista haukkunut haukkuminen haukkumalla haukun haukkuivat haukuin haukkumisen haukkuva haukkumisesta haukkumassa haukkuisi haukkuvan haukkuen
+54	2154	raskaana	raskaana raskaaksi
+55	2155	pidättää	pidätettiin pidättää pidätti pidätetään pidättänyt pidättivät pidättämään pidätämme pidätä pidättäminen pidättävät pidättämiseen pidättämistä pidättämisen pidättämisestä pidättämällä pidättäisi pidätettäessä
+56	2156	aloite	aloite aloitteen aloitteesta aloitetta aloitteita aloitteet aloitteessa aloitteeseen aloitteiden aloitteelle aloitteista aloitteella
+57	2157	luonne	luonne luonnetta luonteen luonteesta luonteensa luonteeseen luonteessa luonteeni luonteella luonteista luonteita luonteet
+58	2158	käytös	käytös käytöstä käytöksen käytöksestä käytökseen käytöksensä käytöksessä käytöksellä käytökselle käytöksenä käytöksesi käytökseni
+59	2159	talvella	talvella
+60	2160	reikä	reikä reikiä reiän reikää reikään reiät reiästä reikien reiällä reikiin rei'istä reiässä rei'illä reiälle
+61	2161	syyllinen	syyllinen syylliseksi syyllisiä syyllistä syyllisen syylliset syyllisenä syyllisiksi syyllisten syyllisinä syyllisistä syyllisestä
+62	2162	korjaus	korjaus korjauksia korjauksen korjaukset korjausta korjauksesta korjausten korjaukseen korjauksiin korjauksista korjauksessa korjauksissa
+63	2163	peittää	peittää peitti peittävät peitetty peittämään peitä peitetään peittävä peittänyt peittivät peittämä peitettynä peittäminen peittääkseen peitettiin peittävän peittävää peittämiseen peittämällä peittäisi peitettyä peittäviä peittäen peittämiseksi peitin peittämässä peitettyinä peitettävä peittämistä peittämän
+64	2164	kahvila	kahvila kahvilassa kahvilan kahvilaan kahvilasta kahviloita kahviloissa kahvilat kahvilaa kahviloista kahviloiden kahviloihin
+65	2165	keskeyttää	keskeyttää keskeytti keskeyttämään keskeytettiin keskeytetty keskeyttänyt keskeytetään keskeyttivät keskeytä keskeyttäminen keskeyttämistä keskeyttämisestä keskeytettävä keskeyttävät keskeyttämiseen keskeyttämisen keskeyttäisi keskeyttävänsä
+66	2166	söpö	söpö söpöjä söpöä söpön söpöt söpöin söpöistä söpöltä söpönä söpöjen söpöstä
+67	2167	valtakunta	valtakunnan valtakunta valtakunnassa valtakuntaa valtakuntaan valtakunnasta valtakuntansa valtakunnalle valtakuntien valtakunnat valtakuntia valtakunnaksi valtakuntamme valtakuntasi
+68	2168	jälkeinen	jälkeinen jälkeistä jälkeiseen jälkeisessä jälkeiset jälkeisen jälkeisenä jälkeisestä jälkeisiä jälkeisistä jälkeisissä jälkeisellä jälkeisten jälkeisinä jälkeisiin jälkeiselle jälkeiseltä
+69	2169	ostaja	ostaja ostajan ostajat ostajalle ostajia ostajien ostajille ostajaa ostajana ostajalla ostajista ostajalta ostajilla ostajina ostajasta ostajilta
+70	2170	muokata	muokata muokattu muokkaa muokkaamaan muokataan muokannut muokkaavat muokkaaminen muokkasi muokattiin muokkaamalla muokattua muokkaamiseen muokkasin muokattavissa muokkaamista muokkasivat muokatun muokkaamisen muokattava muokattuna muokkaamisesta muokkaan muokkaamassa muokkaamme muokkaama
+71	2171	go	go got gon gotta
+72	2172	ilme	ilme ilmeen ilmettä ilmeet ilmeitä ilmeeni ilmeestä ilmeistä ilmeellä ilmeeseen ilmeensä ilmeiden ilmeessä ilmeesi ilmein ilmeillä
+73	2173	pala	palasi pala palaan paloja palat palalta paloiksi palan palojen palasta palanen paloista palasen paloina palana palasina paloissa paloihin palalla palaksi
+74	2174	allas	allas altaan altaassa altaaseen allasta altaalla altaasta altaalle altaat altaita altaiden altaissa altaisiin altailla altaista altaalta altaineen
+75	2175	seppo	seppo sepon seppoa
+76	2176	käskeä	käskee käski käsketään käskettiin käskenyt käskin käske käskeä käskivät käsketty käskevät käskemään käskemällä käsken käskisi käskien
+77	2177	säätiö	säätiön säätiö säätiöt säätiölle säätiöiden säätiötä säätiössä säätiöön säätiöltä säätiöstä säätiöllä säätiöitä säätiöiltä säätiöille
+78	2178	postaus	postaus postauksen postauksia postausta postauksessa postaukset postauksesta postaukseen postauksista postaukseni postausten postauksesi postauksiin postauksensa postauksien postauksissa postauksella
+79	2179	villi	villi villin villejä villiä villit villinä villillä villissä villien villiin villiksi villistä villeinä villeistä villeiksi villimpi villiltä
+80	2180	suomenkielinen	suomenkielinen suomenkielistä suomenkielisen suomenkieliset suomenkielisiä suomenkielisten suomenkielisessä suomenkieliseen suomenkielisille suomenkielisestä suomenkielisellä suomenkielisistä suomenkielisillä suomenkielisenä suomenkielisissä suomenkieliselle suomenkielisiin
+81	2181	pakollinen	pakollinen pakollista pakolliset pakollisen pakollisia pakolliseksi pakollisten pakollisesta pakollisena pakollisiin pakollisiksi pakollisista pakolliseen pakollisina
+82	2182	pystyyn	pystyyn pystyssä
+83	2183	suositus	suositus suosituksia suositukset suositusten suosituksen suosituksesta suositusta suosituksista suosituksiin suositukseni suosituksessa suosituksissa suositukseen suosituksensa suosituksena suosituksilla
+84	2184	kiinteistö	kiinteistön kiinteistö kiinteistöjen kiinteistöt kiinteistöjä kiinteistössä kiinteistöä kiinteistöstä kiinteistöön kiinteistöihin kiinteistöistä kiinteistöllä kiinteistöissä kiinteistöille kiinteistölle kiinteistöillä kiinteistönsä
+85	2185	ilmoittautua	ilmoittautua ilmoittautuminen ilmoittautunut ilmoittaudu ilmoittautui ilmoittautuu ilmoittautumiset ilmoittautumaan ilmoittauduin ilmoittaudun ilmoittautuneet ilmoittauduttava ilmoittautuneita ilmoittautuneiden ilmoittaudutaan ilmoittaudut ilmoittautuivat ilmoittautuvat ilmoittautuneista ilmoittautumassa ilmoittautumisen ilmoittautumisesta ilmoittautumista ilmoittautumisia
+86	2186	pääkaupunki	pääkaupunki pääkaupungissa pääkaupungin pääkaupunkiin pääkaupungista pääkaupunkia pääkaupungiksi pääkaupunkina pääkaupungit pääkaupungeissa pääkaupunkeja pääkaupunkien pääkaupunkimme
+87	2187	risti	risti ristin ristiin ristissä ristillä ristiä ristille ristit rististä ristejä ristitty ristittiin ristiltä risteillä
+88	2188	maatalous	maatalouden maatalous maataloutta maatalouteen maataloudessa maataloudesta maataloudelle maataloudella
+89	2189	analyysi	analyysi analyysin analyysiä analyysia analyysiin analyysissä analyysit analyysejä analyysien analyysissa analyysistä analyysini analyyseja analyysista analyyseihin analyyseissä analyysillä
+90	2190	katse	katse katseen katseet katseita katseensa katsetta katseesi katseella katseilta katseeni katseesta katseemme katseiden katseeseen katseessa katseista
+91	2191	herkkä	herkkä herkkiä herkkää herkän herkässä herkät herkällä herkempi herkempiä herkkänä herkille herkkään herkäksi herkkien herkästä herkin herkistä herkälle herkimmät herkillä herkimmille herkimpiä
+92	2192	julkisesti	julkisesti
+93	2193	tiistaina	tiistaina
+94	2194	tietoinen	tietoinen tietoisia tietoista tietoisen tietoisena tietoiseksi tietoisesta tietoisiksi tietoiseen tietoisina tietoiset tietoisella tietoisempi
+95	2195	salaisuus	salaisuus salaisuuksia salaisuuden salaisuudet salaisuuksien salaisuutensa salaisuutta salaisuutena salaisuuksista salaisuudesta salaisuudeksi salaisuuksiin salaisuuteen salaisuuteni salaisuutesi
+96	2196	vastaanotto	vastaanotto vastaanoton vastaanotolla vastaanotolle vastaanottoa vastaanotosta vastaanottoon vastaanotossa vastaanotolta vastaanottoja vastaanotot vastaanotoilla
+97	2197	syöttää	syöttää syötti syötetään syötä syöttänyt syöttämään syötetty syöttäminen syöttämällä syötettiin syöttävät syötät syötin syöttivät syöttämässä syötettävä syöttämistä syötän syöttäisi
+98	2198	toistaa	toistaa toistan toista toisti toistetaan toistamaan toistavat toistettu toistaminen toistat toistettiin toistanut toistamalla toistaen toistamme toistin toistivat toistamista toistava toistettavissa toistettava toistamisen toistamasta
+99	2199	haju	haju hajua hajuakaan hajun hajusta hajut hajuja hajuun hajuista hajujen hajulla
+100	2200	lanka	lanka langan lankaa lankaan langat lankoja langasta langalla lankojen langoista langassa lankana langalle lankoihin langoissa langoilla

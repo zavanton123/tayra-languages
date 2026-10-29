@@ -1,0 +1,100 @@
+1	3601	hajottaa	hajottaa hajotti hajottamaan hajotetaan hajota hajottivat hajottavat hajottaminen hajottanut hajotettu hajotettiin hajoittaa hajottamiseen hajottamisesta hajottamista hajotin hajottamisen hajottamalla hajottaisi hajottavan hajottava
+2	3602	veljekset	veljekset veljesten veljeksistä veljeksiä veljeksille veljeksillä
+3	3603	serkku	serkku serkun serkkunsa serkkuni serkkuja serkut serkkua serkkujen serkulle serkkusi
+4	3604	upseeri	upseeri upseerit upseerin upseerien upseeria upseereita upseerina upseereja upseereista upseereille upseeriksi upseerille upseereilla upseereiden upseerinsa
+5	3605	kemia	kemian kemia kemiaa kemiat kemiasta kemiassa kemiaan
+6	3606	hämäläinen	hämäläinen hämäläisen hämäläiset hämäläisten hämäläistä hämäläisiä hämäläiselle
+7	3607	sormus	sormus sormuksen sormusten sormusta sormukset sormuksia sormuksesta sormuksessa sormukseen sormuksensa
+8	3608	intohimo	intohimo intohimoa intohimon intohimoja intohimolla intohimoni intohimonsa intohimosta intohimosi intohimoista intohimot intohimona intohimojen intohimoon
+9	3609	alhaalla	alhaalla
+10	3610	ennenkuin	ennenkuin
+11	3611	jollei	jollei
+12	3612	livenä	livenä
+13	3613	oho	oho
+14	3614	täsmälleen	täsmälleen
+15	3615	mutka	mutkan mutka mutkassa mutkat mutkaan mutkaa mutkissa mutkalle mutkitta mutkasta mutkalla mutkien mutkiin mutkista mutkin
+16	3616	ratti	rattiin ratissa ratin ratti rattia ratista
+17	3617	kolmonen	kolmonen kolmosen kolmosella kolmoset kolmoseen kolmosta kolmosessa kolmosesta kolmosia kolmoselle kolmoseksi
+18	3618	pienetä	pienenee pieneni pienenevät pienenisi pienenivät pienene pienenemään pienenemässä pienenisivät
+19	3619	näytös	näytös näytöksen näytöksessä näytökseen näytöksiä näytökset näytöstä näytöksissä näytöksestä näytöksiin näytösten näytöksistä
+20	3620	ongelmallinen	ongelmallista ongelmallinen ongelmallisena ongelmallisia ongelmalliseksi ongelmallisen ongelmalliset ongelmallisiksi ongelmallisempi ongelmallisin ongelmallisina ongelmalliselta
+21	3621	innostunut	innostunut innostuneita innostuneet innostuneena innostuneen innostunutta innostuneelta innostuneille innostuneempi
+22	3622	lamppu	lamppu lampun lamput lamppuja lamppujen lamppua lampusta lamppuun lampulla lampussa lampuista lamppuihin lampuilla lampuissa
+23	3623	ahdistus	ahdistus ahdistusta ahdistuksen ahdistuksesta ahdistukseen
+24	3624	epäilyttää	epäilyttävää epäilyttää epäilyttävän epäilyttävä epäilyttäviä epäilyttävältä epäilyttävät epäilytti epäilyttävänä epäilyttävistä epäilyttävästä epäilyttäviltä epäilyttävien
+25	3625	oiva	oiva oivan oivaa oivat oivia
+26	3626	esiintyjä	esiintyjät esiintyjiä esiintyjä esiintyjien esiintyjän esiintyjänä esiintyjistä esiintyjinä esiintyjää esiintyjille esiintyjiin esiintyjäksi
+27	3627	helle	helle helteet helteessä helteellä helteen hellettä helteillä helteestä helteitä helteiden hellen helteistä helteeseen
+28	3628	hyväksyntä	hyväksyntää hyväksynnän hyväksyntä hyväksyntänsä hyväksynnästä hyväksynnällä hyväksyntään
+29	3629	vietnam	vietnamin vietnamissa vietnam vietnamiin vietnamista vietnamia
+30	3630	kahdeksas	kahdeksas kahdeksanneksi kahdeksannen kahdeksannella kahdeksantena kahdeksannessa kahdeksanteen kahdeksannesta kahdeksannelle kahdeksannelta kahdeksannet kahdeksatta
+31	3631	kypsä	kypsä kypsiä kypsää kypsän kypsiksi kypsäksi kypsät kypsempi kypsänä kypsinä kypsään kypsässä kypsien kypsempiä kypsältä kypsistä kypsästä
+32	3632	markkinoida	markkinoi markkinoida markkinoidaan markkinoitu markkinoiden markkinoimaan markkinoitiin markkinoivat markkinoinut markkinoiva markkinoimassa markkinoimalla
+33	3633	valmennus	valmennus valmennuksessa valmennuksen valmennukseen valmennusta valmennuksesta valmennuksella
+34	3634	murto	murto murron murrosta murtoja murtoa murtoon murroista murrot
+35	3635	muotoilla	muotoiltu muotoilla muotoili muotoile muotoillut muotoillaan muotoilee muotoiltua muotoiltiin muotoilemaan muotoilin muotoiltuna muotoilevat muotoilen muotoilemalla muotoillun muotoilet
+36	3636	painostaa	painostaa painosti painostetaan painostamaan painostanut painosta painostettu painostettiin painostava painostavat painostivat painostaminen painostamalla painostamista painostavan painostavaa painostaakseen painostamisesta
+37	3637	suurlähettiläs	suurlähettiläs suurlähettilään suurlähettiläät suurlähettiläänä suurlähettilästä suurlähettiläälle suurlähettilääksi suurlähettiläiden
+38	3638	eettinen	eettinen eettisen eettiset eettisiä eettistä eettisten eettisistä eettisiin eettisestä eettiseen eettisenä eettiselle
+39	3639	aamupäivä	ap aamupäivällä aamupäivän aamupäivä aamupäivästä aamupäivää aamupäivään
+40	3640	kohtuuton	kohtuuttoman kohtuuton kohtuutonta kohtuuttomia kohtuuttomat kohtuuttomalta kohtuuttomaksi kohtuuttomana
+41	3641	sihteeri	sihteeri sihteerin sihteerinä sihteeriksi sihteerit sihteerinsä sihteeriä sihteerille sihteereitä sihteerien
+42	3642	moottoritie	moottoritiellä moottoritien moottoritie moottoritietä moottoritielle moottoriteitä moottoriteiden moottoritiet moottoriteillä moottoritieltä moottoritiestä moottoriteistä
+43	3643	korostua	korostuu korostuvat korostui korostunut korostuivat korostua korostuneet korostuneen korostuminen
+44	3644	itsetunto	itsetunto itsetuntoa itsetunnon itsetuntoon itsetunnosta itsetunnolle itsetuntoni itsetuntonsa itsetuntosi itsetunnolla
+45	3645	maininta	maininta mainintaa maininnan mainintoja maininnat maininnalla
+46	3646	muotoilu	muotoilu muotoilun muotoilua muotoiluun muotoilusta muotoilussa muotoilulla muotoilut muotoiluja
+47	3647	terä	terä terästä terän terää terät terällä teriä terässä terien terään terin
+48	3648	huijaus	huijaus huijausta huijauksen huijauksia huijauksesta huijaukset huijaukseksi huijaukseen huijauksista huijauksessa huijausten huijaukselta huijauksena huijauksiin
+49	3649	oksa	oksat oksa oksia oksan oksien oksalla oksaa oksista oksalle oksilla oksana oksaan oksasta oksille oksiin oksalta
+50	3650	veikko	veikko veikon veikot veikkojen veikkoja
+51	3651	isoäiti	isoäiti isoäidin isoäitinsä isoäitini isoäitiä isoäidit isoäidiltä isoäidille
+52	3652	pohjautua	pohjautuu pohjautuva pohjautuvat pohjautuen pohjautui pohjautua pohjaudu pohjautunut
+53	3653	jatkoaika	jatkoajalla jatkoajan jatkoaika jatkoaikaa jatkoajalle
+54	3654	megatavu	mt mega megatavua megatavun megaa
+55	3655	kapasiteetti	kapasiteetti kapasiteetin kapasiteettia kapasiteetista kapasiteetilla kapasiteettiin
+56	3656	etteikö	etteikö
+57	3657	hiljattain	hiljattain
+58	3658	lähiaikoina	lähiaikoina
+59	3659	taikka	taikka
+60	3660	teelusikka	tl
+61	3661	kauniisti	kauniisti kauniimmin
+62	3662	haave	haave haaveeksi haaveet haaveena haaveita haaveissa haaveeni haaveiden haaveensa haaveista haaveen haaveesi haavetta haaveesta
+63	3663	hautausmaa	hautausmaa hautausmaalla hautausmaan hautausmaalle hautausmaalta hautausmaata hautausmaat hautausmailla hautausmaiden hautausmaita hautausmaasta hautausmaille hautausmaaksi
+64	3664	ystävyys	ystävyys ystävyyden ystävyyttä ystävyydestä ystävyyteen ystävyytensä ystävyydelle ystävyydessä ystävyytemme ystävyydeksi
+65	3665	henkilöauto	henkilöauto henkilöauton henkilöautojen henkilöautoa henkilöautolla henkilöautoja henkilöautot henkilöautoissa henkilöautoon henkilöautoista henkilöautossa henkilöautoilla henkilöautosta henkilöautoihin henkilöautoille
+66	3666	ylivoimainen	ylivoimainen ylivoimaisen ylivoimaista ylivoimaiseksi ylivoimaisia ylivoimaiset ylivoimaiseen ylivoimaisin ylivoimaisella ylivoimaiselta ylivoimaisena
+67	3667	lautanen	lautaselle lautanen lautasen lautasella lautaset lautasia lautaselta lautasille lautasta lautasten lautasesta lautasesi lautasista
+68	3668	aurinkoinen	aurinkoinen aurinkoista aurinkoisia aurinkoisena aurinkoisessa aurinkoisesta aurinkoisella aurinkoisen aurinkoisilla aurinkoisina aurinkoiset aurinkoiselle aurinkoiseen
+69	3669	automaattinen	automaattinen automaattisen automaattista automaattiset automaattisia automaattiseen automaattisella automaattisesta automaattisten automaattisessa
+70	3670	maailmanlaajuinen	maailmanlaajuinen maailmanlaajuisen maailmanlaajuista maailmanlaajuiseen maailmanlaajuisesta maailmanlaajuiset maailmanlaajuisia maailmanlaajuiseksi maailmanlaajuisessa maailmanlaajuisten maailmanlaajuisella maailmanlaajuisiin
+71	3671	keksintö	keksintö keksintöjä keksinnön keksintöä keksinnöt keksintöjen keksinnöstä keksinnöistä keksintönsä keksintöön keksintöihin
+72	3672	siirtolainen	siirtolaisten siirtolaiset siirtolaisia siirtolaista siirtolainen siirtolaisista siirtolaisen siirtolaisille siirtolaiseksi siirtolaisiin
+73	3673	tietääkseen	tietääkseni tietääksemme tietääkseen
+74	3674	hyppy	hyppy hypyn hyppyjä hyppyä hypyt hypyssä hypystä hyppyjen hypyllä hyppyyn hypyillä hyppynsä hyppyihin hypyistä hypyissä
+75	3675	yhtälö	yhtälö yhtälön yhtälöstä yhtälössä yhtälöön yhtälöä yhtälöitä yhtälöt yhtälöllä yhtälöiden yhtälöistä
+76	3676	draama	draamaa draama draaman draamassa draamaan draamasta draamoja draamat
+77	3677	kolari	kolari kolarin kolarissa kolaria kolariin kolarista kolareita kolarit kolareissa
+78	3678	mittakaava	mittakaavassa mittakaavan mittakaava mittakaavaa mittakaavaan mittakaavalla mittakaavasta
+79	3679	kukistaa	kukisti kukistaa kukistivat kukistamaan kukistamalla kukistettu kukistanut kukistamiseksi kukista kukistaminen kukistettiin kukistamiseen kukistetaan kukistamisen kukistaakseen kukistamisessa kukistettua
+80	3680	kannabis	kannabiksen kannabis kannabista kannabiksesta kannabikselle kannabikseen kannabiksella
+81	3681	syli	syliin sylissä syli sylistä sylin syliä syleillä
+82	3682	seksuaalisuus	seksuaalisuus seksuaalisuuden seksuaalisuuteen seksuaalisuutta seksuaalisuudesta seksuaalisuuteni
+83	3683	asuntolaina	asuntolainan asuntolaina asuntolainaa asuntolainojen asuntolainat asuntolainoja asuntolainoista asuntolainaan asuntolainasta
+84	3684	toisenlainen	toisenlainen toisenlaista toisenlaisen toisenlaisia toisenlaiset toisenlaiseen toisenlaiseksi toisenlaisesta toisenlaisessa toisenlaisiin toisenlaisten toisenlaisella toisenlaiselta
+85	3685	eteläinen	eteläisen eteläisessä eteläinen eteläisellä eteläiseen eteläistä eteläisestä eteläiselle eteläiset eteläisin eteläisten eteläisissä eteläisiä eteläiseltä eteläisemmän eteläisille
+86	3686	peura	petra peura peuran peuraa peuroja peurat peurojen peuraan
+87	3687	lehto	lehto lehdon lehtoa lehdolle
+88	3688	esi	esi eden etten
+89	3689	maksuton	maksuton maksutonta maksuttoman maksuttomia maksuttomaan maksuttomat maksuttomasta maksuttomaksi maksuttomassa maksuttomien
+90	3690	kävijä	kävijää kävijöitä kävijät kävijöille kävijä kävijöiden kävijöistä kävijän kävijöiltä
+91	3691	värinen	värinen värisiä väriset väriseksi väristä värisen värisenä värisiksi väristen värisinä värisellä värisillä värisistä
+92	3692	munkki	munkki munkin munkit munkkeja munkkien munkkia munkiksi munkeista munkeille
+93	3693	neiti	neiti neidin neidit neidille neitiä neidillä neitien
+94	3694	informaatio	informaatiota informaatio informaation informaatiosta informaatioon informaatiolla
+95	3695	useasti	useasti useammin useimmin
+96	3696	strateginen	strateginen strategisen strategista strategisia strategiset strategisten strategiseen strategisista strategisena strategisessa strategisesta strategisiin strategiseksi strategisella
+97	3697	selain	selaimen selain selaimessa selaimella selainta selaimeen selaimesta selaimet selaimia selaimissa selainten selaimilla
+98	3698	vammainen	vammaisten vammainen vammaiset vammaisia vammaista vammaisen vammaisille vammaisista vammaisilla vammaiselle vammaiseksi
+99	3699	vastuullinen	vastuullinen vastuullista vastuullisia vastuullisen vastuullisena vastuulliset vastuulliseen vastuullisesta vastuulliseksi vastuullisessa vastuullisina vastuullisten
+100	3700	toimintatapa	toimintatapoja toimintatapa toimintatavat toimintatapaa toimintatavoista toimintatapoihin toimintatapojen toimintatavan toimintatavasta toimintatapansa toimintatapaan toimintatavoissa toimintatapana

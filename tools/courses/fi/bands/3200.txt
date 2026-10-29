@@ -1,0 +1,100 @@
+1	3101	vihdoinkin	vihdoinkin
+2	3102	egypti	egyptin egyptissä egypti egyptiin egyptistä egyptiä egyptille egyptillä
+3	3103	epävarma	epävarma epävarmaa epävarmoja epävarman epävarmaksi epävarmat epävarmalta epävarmana epävarmojen epävarmassa epävarmaan epävarmempi epävarmasta epävarmoina
+4	3104	lisäys	lisäys lisäystä lisäyksen lisäyksiä lisäykset lisäyksestä lisäyksenä lisäyksellä lisäykseen lisäyksistä lisäysten lisäyksessä
+5	3105	poikkeuksellinen	poikkeuksellinen poikkeuksellista poikkeuksellisia poikkeuksellisesta poikkeukselliset poikkeuksellisissa poikkeuksellisella poikkeuksellisten poikkeuksellisena poikkeukselliseen poikkeuksellisista poikkeuksellisiin poikkeuksellisessa poikkeukselliseksi
+6	3106	vaikeuttaa	vaikeuttaa vaikeuttavat vaikeutti vaikeuttanut vaikeuttaisi vaikeuttivat vaikeuta vaikeuttamaan vaikeutetaan vaikeuttaen vaikeuttaminen
+7	3107	löytö	löytö löytöjä löydön löydöt löydöstä löytöjen löydöistä löytöä löytönsä löytönä löytöihin löytöni
+8	3108	kirjata	kirjata kirjataan kirjattiin kirjaa kirjannut kirjaamaan kirjaan kirjaaminen kirjasin kirjaamista kirjattava kirjasi kirjasivat kirjaavat kirjaamatta kirjaamisen kirjaat
+9	3109	katua	kadu kadun kadut katumaan katuu katunut katua katui katuvat katuvansa katuva katuvan kaduin
+10	3110	läntinen	läntisen läntinen läntisessä läntistä läntiseen läntisellä läntiset läntisten läntisestä läntiselle läntisiä läntisissä läntisiin läntisistä läntisillä läntisille
+11	3111	hakeutua	hakeutua hakeutuu hakeutui hakeutuvat hakeudu hakeutunut hakeutumaan hakeutuminen hakeutumista hakeutuivat hakeuduin hakeudutaan hakeutuisi hakeutumalla hakeuduttava hakeutuvan hakeudut
+12	3112	sytyttää	sytyttää sytytti sytytä sytyttivät sytyttänyt sytytetään sytytettiin sytytin sytytetty sytyttämään sytyttävät sytyttäminen sytyttämällä sytyttämässä sytyttämistä sytyttämiseen sytytän sytyttämisestä
+13	3113	huima	huima huimaa huimat huiman huimia huimaan huimasta huimassa huimalla huimiin
+14	3114	inhimillinen	inhimillinen inhimillistä inhimillisen inhimillisiä inhimilliset inhimillisestä inhimillisten inhimilliseen inhimillisistä inhimillisempi inhimillisenä inhimillisessä inhimilliseltä inhimilliseksi inhimillisellä inhimilliselle
+15	3115	kamppailu	kamppailu kamppailun kamppailussa kamppailua kamppailuun kamppailusta kamppailut kamppailuja kamppailunsa kamppailuissa
+16	3116	rauhoittaa	rauhoittaa rauhoittava rauhoitettu rauhoittavia rauhoittamaan rauhoittavaa rauhoittavat rauhoitti rauhoittavan rauhoitettuja rauhoita rauhoittamiseksi rauhoitettua rauhoittavien rauhoittaakseen rauhoitettiin rauhoitetun rauhoittaminen rauhoittanut rauhoittamiseen rauhoittaisi rauhoittavana rauhoitetaan
+17	3117	terveiset	terveisiä terveiset terveisensä terveisiin
+18	3118	akatemia	akatemian akatemia akatemiassa akatemiasta akatemiaan akatemialle akatemiaa akatemialla
+19	3119	paljo	enempi paljo paljosta enemmin paljolta enempään enempiä enin enemmästä enemman paljoon paljossa enemmissä
+20	3120	mars	mars marsin marsiin marsissa marsista marseille marsia marsilla
+21	3121	kapinallinen	kapinalliset kapinallisten kapinallisia kapinallinen kapinallisille kapinallisen kapinallista kapinallisiin kapinallisista kapinallisilla kapinallisena
+22	3122	tupakointi	tupakointi tupakoinnin tupakointia tupakoinnista tupakointiin
+23	3123	maasto	maastossa maasto maastoon maastoa maaston maastosta maastoissa
+24	3124	toteutus	toteutus toteutukseen toteutuksesta toteutuksen toteutusta toteutuksessa toteutuksia toteutukset
+25	3125	karsia	karsia karsimaan karsitaan karsii karsittu karsi karsiminen karsimalla karsittiin karsivat karsimista karsittua karsinut karsin karsittava karsimiseen karsisi
+26	3126	laakso	laakso laakson laaksossa laaksoon laaksosta laaksoa laaksot laaksojen laaksoissa laaksoja
+27	3127	espanjalainen	espanjalainen espanjalaisen espanjalaiset espanjalaista espanjalaisten espanjalaisia espanjalaiseen espanjalaisesta espanjalaisista espanjalaiselle espanjalaisessa espanjalaisille espanjalaisella espanjalaisilla
+28	3128	kiitollinen	kiitollinen kiitollisia kiitollisena kiitollisina
+29	3129	jaa	jaana jaa jaan jaata jaat jaani
+30	3130	lelu	leluja lelu lelut lelujen lelun leluista leluilla lelua leluihin lelusta lelunsa leluissa leluksi leluille
+31	3131	työmarkkinat	työmarkkinoiden työmarkkinoilla työmarkkinat työmarkkinoille työmarkkina työmarkkinoita työmarkkinoista työmarkkinoilta työmarkkinoihin
+32	3132	kilpailukyky	kilpailukykyä kilpailukyvyn kilpailukyky kilpailukyvystä kilpailukykyyn kilpailukykynsä kilpailukyvylle
+33	3133	tehokkuus	tehokkuus tehokkuutta tehokkuuden tehokkuudesta tehokkuuteen tehokkuudella tehokkuudessa tehokkuutensa
+34	3134	naida	naida nais nain naimaan naimaton naivat naidaan naiminen naimassa nainut naimattomia naimista naimattomat naimattomien naima naimalla naimattomana naitava naisi naitu naimattoman naimisesta
+35	3135	etsintä	etsintä etsinnän etsinnässä etsintää etsinnät etsintään etsintöjä etsinnöissä etsinnästä etsintöihin etsinnöistä etsintöjen
+36	3136	aita	aidan aita aidat aitaa aitaan aidalla aidasta aitojen aidoissa aidalle aidassa aidoista aidoilla aidoilta aitoihin aitoina aidoiksi aidoin
+37	3137	pykälä	pykälä pykälän pykälää pykälät pykälässä pykäliä pykälien pykälään pykälällä pykälästä pykäliin pykälistä
+38	3138	kalusto	kalustoa kalusto kaluston kalustolla kalustoon kalustosta kalustonsa kalustolle kalustossa
+39	3139	hitti	hitti hittejä hitit hitin hittiä hitiksi hitistä hiteistä hittinsä hittien hitteihin hitillä
+40	3140	ahdistaa	ahdistaa ahdistava ahdistavaa ahdisti ahdistavat ahdistavan ahdista ahdistavia ahdistavalta ahdistavaksi ahdistanut ahdistamaan ahdistavana ahdistivat ahdistaisi
+41	3141	syrjintä	syrjintää syrjintä syrjinnän syrjinnästä syrjintään syrjinnälle
+42	3142	potkia	potkia potkii potki potkimaan potkittu potkittiin potkitaan potkivat potkiminen potkinut potkimalla potkimista potkimassa potkin potkien potkisi potkimisesta
+43	3143	ajankohta	ajankohta ajankohdan ajankohtaan ajankohtaa ajankohdasta ajankohtana ajankohdat ajankohdaksi ajankohtina ajankohtia ajankohdalle ajankohdista ajankohdalla
+44	3144	heh	heh hehee
+45	3145	vaalipiiri	vaalipiiri vaalipiirissä vaalipiiristä vaalipiirin vaalipiirien vaalipiireissä vaalipiiriin vaalipiirit vaalipiiriä vaalipiireistä vaalipiirinsä vaalipiirejä
+46	3146	juurikin	juurikin
+47	3147	kertaakaan	kertaakaan
+48	3148	kirjaimellisesti	kirjaimellisesti
+49	3149	kivasti	kivasti
+50	3150	rehellisesti	rehellisesti
+51	3151	tyypillisesti	tyypillisesti tyypillisimmin
+52	3152	vihje	vihjeitä vihje vihjeet vihjeen vihjeestä vihjettä vihjeistä vihjeiden vihjeenä
+53	3153	riisi	riisiä riisi riisin riidellä riittä riisistä riisiin riisillä riisit
+54	3154	ilmaisu	ilmaisu ilmaisua ilmaisun ilmaisuja ilmaisuun ilmaisut ilmaisusta ilmaisulla ilmaisussa ilmaisunsa ilmaisujen
+55	3155	paikoilleen	paikoilleen paikoillaan paikoiltaan paikoillani paikoilleni
+56	3156	koru	koruja koru korut korun korujen koruista korua koruihin koruissa koruilla korusta korusi
+57	3157	alaikäinen	alaikäinen alaikäisten alaikäisiä alaikäisen alaikäiset alaikäisille alaikäistä alaikäisenä alaikäiselle alaikäisiin alaikäiseen alaikäisiltä alaikäisistä alaikäisestä
+58	3158	tavallisesti	tavallisesti tavallisimmin tavallisemmin
+59	3159	mieluusti	mieluummin mieluusti
+60	3160	tarkastus	tarkastuksen tarkastus tarkastusta tarkastukset tarkastuksessa tarkastuksia tarkastukseen tarkastusten tarkastuksissa tarkastuksesta tarkastuksista tarkastuksiin tarkastuksella tarkastuksilla
+61	3161	mainonta	mainonta mainonnan mainontaa mainonnassa mainontaan mainonnasta mainonnalla mainonnalle
+62	3162	miinus	miinus miinukselle miinusta miinuksella miinukset miinuksen miinuksena miinuksia
+63	3163	vähentynyt	vähentynyt vähentyneet vähentyneen
+64	3164	plussa	plussaa plussa plussan plussalla plussat plussalle plussana plussia
+65	3165	nolo	noloa nolo nolona noloja nolot nolon nololta noloksi noloin noloon
+66	3166	virheellinen	virheellinen virheellisen virheellisiä virheellistä virheelliset virheelliseksi virheellisestä virheelliseen virheellisten virheellisistä virheellisenä virheellisiksi virheellisiin virheellisellä virheellisessä
+67	3167	aino	aino ainon ainolle ainoina ainoista ainoiksi
+68	3168	riippuvainen	riippuvainen riippuvaisia riippuvaiseksi riippuvaista riippuvaiset riippuvaisen riippuvaisiksi
+69	3169	kristinusko	kristinuskon kristinusko kristinuskoon kristinuskoa kristinuskosta kristinuskossa kristinuskolla kristinuskolle
+70	3170	akateeminen	akateeminen akateemisen akateemista akateemisessa akateemisten akateemiset akateemiseen akateemisia akateemisesta akateemisissa akateemisella akateemisiin akateemisista akateemisena akateemiselle
+71	3171	aviomies	aviomies aviomiehensä aviomiehen aviomiestä aviomieheni aviomiehelle aviomiehet aviomiehenä aviomiehestä aviomiesten aviomiehiä
+72	3172	hermo	hermot hermoja hermo hermolla hermoilla hermoille hermojen hermoon hermoni hermonsa hermona hermon hermoa hermoihin
+73	3173	punta	puntaa punnan punnalla punta puntaan puntia punnasta
+74	3174	murtaa	murtaa mursi murrettu murtamaan murtaminen murtanut murretaan mursivat mursin murtama murtamiseen murtaen murrettua murrettiin murtavat murtamista murra murtamisesta murrettuja murtamalla murretut murtamiseksi murtamisen
+75	3175	heitto	heitto heitot heiton heittoa heittoja heittojen heitolla heitosta heittoon heittonsa heitoissa heitoista heitoilla heitossa heittoihin
+76	3176	laituri	laituri laiturilla laiturin laiturille laituriin laiturilta laiturit laituria laiturissa laitureita laiturista laitureiden laiturien laiturina
+77	3177	jazz	jazz jazzin jazzia jazzista jazziin jazzissa jazzille jazzeilla
+78	3178	solmia	solmi solmia solmittu solmivat solminut solmittiin solmitaan solmimaan solmimisen solmii solmimista solmiminen solmimisesta solmima solmimalla solmimiseen solmittava solmin solmittaessa
+79	3179	vangita	vangittiin vangitsi vangita vangitsee vangitaan vanginnut vangitseminen vangitsemaan vangitsemisen vangitsivat vangitsemista vangitsevat vangitsemisesta vangitsemiseen vangitseva vangitsemisensa
+80	3180	kiista	kiista kiistatta kiistan kiistaa kiistat kiistoja kiistassa kiistaan kiistojen kiistoista kiistoihin kiistoissa kiistasta kiistansa
+81	3181	varaus	varaus varauksen varauksella varausta varaukset varauksia varauksetta varaukseen varausten varauksin varauksesta varauksista varauksensa
+82	3182	bileet	bileet bileissä bileisiin bileistä bileitä bileiden
+83	3183	arkkitehtuuri	arkkitehtuuri arkkitehtuurin arkkitehtuuria arkkitehtuurista arkkitehtuuriin arkkitehtuurissa arkkitehtuurille arkkitehtuurilla
+84	3184	titteli	tittelin titteli titteliä tittelistä tittelillä tittelit tittelinsä titteleitä titteliin titteleistä
+85	3185	päivittäinen	päivittäinen päivittäistä päivittäisen päivittäiset päivittäisiä päivittäisessä päivittäiseen päivittäisestä päivittäisten päivittäisistä päivittäisellä päivittäisiin päivittäisissä
+86	3186	web	web webin webissä webistä
+87	3187	rekisteri	rekisteriin rekisterissä rekisteri rekisterin rekisteristä rekisteriä rekisterit rekistereistä rekistereihin rekistereitä rekistereissä rekisterien
+88	3188	liekki	liekki liekeissä liekkeihin liekit liekin liekkejä liekkien liekkiä liekillä liekkiin liekeistä liekissä
+89	3189	normi	normi normien normeja normit normin normeista normia normeihin normista normiksi normina
+90	3190	ideologia	ideologia ideologiaa ideologian ideologiansa ideologiaan ideologiasta ideologiat ideologioiden ideologioita ideologiassa ideologiana ideologialla ideologioihin
+91	3191	rajusti	rajusti rajummin
+92	3192	ah	ah
+93	3193	ensinnäkin	ensinnäkin
+94	3194	jälkikäteen	jälkikäteen
+95	3195	miltei	miltei
+96	3196	out	out
+97	3197	pääsääntöisesti	pääsääntöisesti
+98	3198	samanaikaisesti	samanaikaisesti
+99	3199	taaksepäin	taaksepäin
+100	3200	syvyys	syvyys syvyydessä syvyyttä syvyyteen syvyyksiin syvyydestä syvyyden syvyyksistä syvyyksissä syvyydellä syvyydet syvyyksien syvyyksiä syvyydeltä syvyydelle

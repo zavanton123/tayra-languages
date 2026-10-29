@@ -1,0 +1,100 @@
+1	4301	ohjelmointi	ohjelmointi ohjelmoinnin ohjelmointia ohjelmointiin ohjelmoinnista ohjelmoinnissa
+2	4302	hävettää	hävettää hävetä hävetti hävettäisi
+3	4303	kamppi	kampin kamppi kampissa kamppiin kampista
+4	4304	kapina	kapina kapinaan kapinan kapinaa kapinasta kapinassa kapinoita kapinat
+5	4305	liiallinen	liiallinen liiallisen liiallista liiallisesta liialliseen liialliset liiallisella liiallisia liialliselta
+6	4306	suomennos	suomennos suomennoksen suomennokset suomennosta suomennoksia suomennoksessa suomennoksesta
+7	4307	käärme	käärme käärmeen käärmeet käärmeitä käärmettä käärmeiden käärmeistä käärmeestä käärmeillä
+8	4308	peräkkäinen	peräkkäisen peräkkäistä peräkkäisenä peräkkäinen peräkkäisinä peräkkäiseen peräkkäisessä peräkkäisiä peräkkäisten peräkkäiset peräkkäisellä peräkkäisissä peräkkäisestä peräkkäisillä
+9	4309	turvautua	turvautua turvautumaan turvautuu turvautui turvautuvat turvaudutaan turvautunut turvauduttava turvaudu turvautuivat turvautuminen turvaudun turvauduttiin turvauduin
+10	4310	maalaisliitto	ml maalaisliitto maalaisliiton
+11	4311	kansantalous	kansantalouden kansantalous kansantaloutta kansantalouteen kansantaloudelle kansantaloudessa kansantaloudesta
+12	4312	loimata	loimaan loimaa
+13	4313	raivo	raivoa raivon raivo raivosta raivolla raivoon raivona
+14	4314	lykätä	lykätä lykkää lykättiin lykätty lykätään lykkäämään lykkäsi lykännyt lykkääminen lykkäämistä lykkään lykkäsin lykkäävät
+15	4315	pilleri	pillereitä pillerit pilleri pilleriä pillerin pillereiden pillereistä pillerien pillereillä pillereihin
+16	4316	peto	peto pedon pedot petoja petojen petoa pedolle pedosta pedoilta pedoksi pedoista
+17	4317	uhkailla	uhkaili uhkailla uhkailee uhkaillut uhkailtu uhkailemaan uhkailemalla uhkaillaan uhkailivat uhkailtiin uhkailevat uhkaile uhkaillen
+18	4318	lapa	lavalla lavalle lapa lavan lapaan lapojen lavalta lapaa lavat lavoilla lavoille lavasta lavassa lavoista
+19	4319	huomautus	huomautus huomautuksen huomautuksia huomautukset huomautusta huomautuksesta huomautuksella huomautusten huomautuksista
+20	4320	melu	melua melu melun melusta meluun melulle melussa
+21	4321	sammua	sammuu sammui sammuvat sammu sammuivat sammumaan sammua sammuminen sammumista sammumisen sammuin sammuisi
+22	4322	keskuspankki	keskuspankki keskuspankin keskuspankit keskuspankkien keskuspankissa keskuspankkiin keskuspankilta keskuspankkia keskuspankille keskuspankista
+23	4323	karmea	karmea karmeaa karmeita karmean karmeat karmealta karmealla karmeassa karmein karmeinta
+24	4324	päämaja	päämaja päämajaan päämajassa päämajan päämajasta päämajaa päämajansa päämajalle
+25	4325	oloinen	oloinen oloisia oloisen oloista oloisena oloiset
+26	4326	juontaa	juontaa juontavat juonsi juontanut juontamassa juontamaan juontama juonsivat
+27	4327	mystinen	mystinen mystistä mystisen mystisiä mystiset mystisestä mystiseen mysteerinen mystisistä mystisten mystisenä
+28	4328	kuitu	kuitua kuitu kuituja kuidut kuidun kuitujen kuiduista kuidusta kuituihin
+29	4329	ensisijainen	ensisijainen ensisijaisena ensisijaisen ensisijaista ensisijaisia ensisijaiset ensisijaiseksi ensisijaisina
+30	4330	piano	piano pianoa pianon pianolla pianolle pianosta pianoon pianossa
+31	4331	kriitikko	kriitikko kriitikot kriitikoiden kriitikon kriitikkojen kriitikoita kriitikkona kriitikoilta kriitikoille kriitikkoja kriitikkoa kriitikoista
+32	4332	toimivuus	toimivuus toimivuudesta toimivuutta toimivuuden toimivuuteen toimivuutensa toimivuudessa
+33	4333	tärkeys	tärkeyttä tärkeydestä tärkeys tärkeyden tärkeyteen
+34	4334	feministi	feministit feministi feministien feministejä feminististä feministiksi feministeille feministin
+35	4335	dosentti	dosentti dosentin dosentit dosenttina dosentiksi
+36	4336	neutraali	neutraali neutraaleja neutraalin neutraalia neutraalina neutraalilla neutraalit neutraaliin neutraaliksi neutraalissa neutraalimpi neutraalista neutraalein
+37	4337	marssia	marssivat marssia marssii marssimaan marssin marssinut marssimassa marssitaan marssit marssimme marssittiin marssiessa marssien
+38	4338	omatunto	omatunto omantunnon omaatuntoa omallatunnolla omatuntonsa omatuntoni
+39	4339	pikkuveli	pikkuveli pikkuveljeni pikkuveljen pikkuveljensä pikkuveljeä pikkuveljelle pikkuveljet
+40	4340	intiaani	intiaanit intiaanien intiaaneja intiaani intiaania intiaaneille intiaaneista intiaanin intiaaneilla intiaaneilta intiaaneihin
+41	4341	bitcoin	bitcoin bitcoinin bitcoineja bitcoinia bitcoinien bitcoinit bitcoinista bitcoiniin bitcoineilla bitcoinilla
+42	4342	valio	valio valion valiolla valiolle
+43	4343	yksityishenkilö	yksityishenkilöiden yksityishenkilö yksityishenkilön yksityishenkilöt yksityishenkilöitä yksityishenkilöille yksityishenkilönä yksityishenkilölle yksityishenkilöiltä yksityishenkilöä yksityishenkilöltä yksityishenkilöillä
+44	4344	pinkki	pinkki pinkit pinkkiä pinkin pinkkejä pinkillä pinkkiin pinkissä pinkiksi pinkistä
+45	4345	linssi	linssi linssin linssit linssiin linssejä linssien linssissä linssiä linsseistä linssistä linsseillä
+46	4346	keskiaika	keskiajalla keskiajan keskiaika keskiajalta keskiajalle keskiaikaan keskiaikaa keskiajasta
+47	4347	perustulo	perustulo perustulon perustuloa perustulosta perustulolla perustuloon
+48	4348	työehtosopimus	tes työehtosopimuksen työehtosopimus työehtosopimusten työehtosopimusta työehtosopimukset työehtosopimuksia työehtosopimuksessa työehtosopimuksesta työehtosopimukseen työehtosopimuksissa työehtosopimuksiin työehtosopimuksista
+49	4349	evätä	eväät evätä evättiin evätty evätään eväsi evää epäsi epääminen evännyt
+50	4350	laajuus	laajuus laajuudesta laajuutta laajuuden laajuudessa laajuuteen laajuudella
+51	4351	kapitalismi	kapitalismi kapitalismin kapitalismia kapitalismiin kapitalismissa kapitalismista kapitalismille
+52	4352	kyllästynyt	kyllästynyt kyllästyneet kyllästyneitä kyllästyneenä kyllästyneen kyllästyneensä
+53	4353	bruttokansantuote	bkt bruttokansantuotteesta bruttokansantuote bruttokansantuotteen bruttokansantuotteeseen bruttokansantuotetta
+54	4354	ahkerasti	ahkerasti ahkerammin
+55	4355	lukuunottamatta	lukuunottamatta
+56	4356	nurin	nurin
+57	4357	sa	sa
+58	4358	tietoisesti	tietoisesti
+59	4359	ylivoimaisesti	ylivoimaisesti
+60	4360	näkyvissä	näkyvissä näkyvistä
+61	4361	tiikeri	tiikeri tiikerit tiikerin tiikereitä tiikeriä tiikereiden tiikerien tiikereistä
+62	4362	maukas	maukas maukasta maukkaita maukkaan maukkaat maukkaampaa maukkaasta maukkaalta
+63	4363	koppi	koppi kopissa kopin koppiin koppia koppeja kopista kopit kopeissa
+64	4364	universumi	universumin universumissa universumi universumiin universumia universumista universumien universumiksi
+65	4365	loputon	loputon loputtoman loputonta loputtomat loputtomia loputtomaan loputtomien loputtomalta loputtomassa loputtomasta loputtomalla loputtomista
+66	4366	lisenssi	lisenssi lisenssin lisenssiä lisenssillä lisenssit lisenssejä lisenssien lisenssistä lisensseistä
+67	4367	kroatia	kroatia kroatian kroatiassa kroatiaan kroatiasta kroatiaa kroatialle
+68	4368	onneton	onneton onnetonta onnettomia onnettoman onnettomat onnettomaksi onnettomasta onnettomien onnettomassa onnettomana onnettomaan
+69	4369	liittymä	liittymää liittymistä liittymät liittymien liittymään liittymiä liittymän liittymästä liittymässä liittymissä liittymiin liittymällä liittymä liittymättä
+70	4370	murtautua	murtautui murtautua murtautuivat murtautumaan murtauduttu murtauduttiin murtautunut murtautuu murtautuminen murtautuneet murtautumista murtautuvat murtautumalla murtautumisesta murtautumisen
+71	4371	kilpi	kilpi kilven kilvet kilpiä kilpeä kilvissä kilpien kilvillä kilvessä kilvellä kilpeen kilpensä kilpiin kilvestä
+72	4372	teräs	teräs teräksen terästä teräksestä teräkseen teräksellä teräkset teräkselle teräksistä
+73	4373	kura	kuraa kuriin kurissa kuralla kura kuria kuran kuralle kurat kurin kurassa kurilla kurista
+74	4374	siivous	siivous siivousta siivouksen siivouksesta siivouksessa siivoukseen
+75	4375	soveltuva	soveltuva soveltuvat soveltuvia soveltuvan soveltuvaa soveltuvaksi soveltuvien soveltuvin soveltuviksi soveltuvista
+76	4376	liikemies	liikemies liikemiehen liikemiehet liikemiehiä liikemiesten liikemiestä liikemiehenä liikemiehille liikemiehelle liikemieheksi
+77	4377	arvoitus	arvoitus arvoituksen arvoituksia arvoitukseksi arvoitusta arvoitukseen arvoitukset arvoitusten arvoituksena
+78	4378	komedia	komedia komediaa komedian komediassa komediat komediasta komedioita komedioissa komediaan komedioista komedioiden komediaksi
+79	4379	silkka	silkkaa silkasta silkka silkan silkalla
+80	4380	säädös	säädökset säädöksiä säädösten säädös säädöksen säädöksiin säädöksistä säädöksissä säädöksillä säädöstä säädökseen
+81	4381	haltija	haltija haltijan haltijat haltijalle haltijoiden haltijoille haltijoita haltijalla haltijaa haltijana haltijaksi haltijasta haltijalta
+82	4382	kaupankäynti	kaupankäynnin kaupankäynti kaupankäyntiä kaupankäynnissä kaupankäyntiin kaupankäynnistä kaupankäynnille
+83	4383	yhtyä	yhtyä yhtymä yhtyy yhtymän yhtyi yhtyvät yhdyn yhtyneet yhdy yhtyivät yhtynyt yhtymään yhtymässä yhtymällä
+84	4384	kierrättää	kierrättää kierrätetään kierrättäminen kierrätetty kierrättämistä kierrättämään kierrätä kierrätettiin kierrättävät kierrättämällä kierrätti kierrättämiseen kierrättämisestä kierrätän kierrätettäväksi kierrätettävää kierrätettävä kierrättänyt
+85	4385	keula	keula keulan keulaan keulasta keulassa keulaa keulalla keulalle
+86	4386	liittolainen	liittolainen liittolaisia liittolaiset liittolaisten liittolaisineen liittolaisen liittolaisensa liittolaista liittolaisena liittolaisista liittolaiseksi liittolaisina liittolaisille liittolaisiin
+87	4387	palsta	palstalla palstan palstoilla palsta palstaa palstalle palstat palstalta palstoille palstoja palstojen
+88	4388	konservatiivi	konservatiivit konservatiivien konservatiiveja konservatiivi konservatiivista konservatiiveille konservatiiveihin konservatiiveista
+89	4389	poikanen	poikaset poikasia poikasten poikasen poikasta poikasista poikasena poikasille poikanen poikasesta poikasilla
+90	4390	nerokas	nerokas nerokasta nerokkaan nerokkaita nerokkaat nerokkaasta nerokkain
+91	4391	pahuus	pahuuden pahuus pahuutta pahuudesta pahuuteen pahuudelta
+92	4392	uskomus	uskomukset uskomuksia uskomus uskomusten uskomuksen uskomuksiin uskomuksista uskomusta uskomuksensa uskomukseen uskomuksissa
+93	4393	suojatie	suojatiellä suojatien suojatielle suojatietä suojatie suojateiden suojatiet suojateitä
+94	4394	lastensuojelu	lastensuojelun lastensuojelu lastensuojeluun lastensuojelussa lastensuojelusta lastensuojelua
+95	4395	varuste	varusteita varusteiden varusteisiin varuste varusteilla varusteista varusteissa varusteineen varusteensa varusteina varustein
+96	4396	kaista	kaistalla kaistaa kaistalle kaista kaistan kaistat kaistojen kaistoja kaistalta
+97	4397	harju	harju harjun harjulle harjulla harjusta harjua harjujen harjulta harjussa
+98	4398	videopeli	videopelit videopelejä videopeleistä videopelien videopeli videopeleissä videopeliä videopelin videopeleihin videopelissä videopelistä
+99	4399	papu	papuja pavut papu papua pavuista papujen pavun pavuilla papuihin pavuissa
+100	4400	kasata	kasata kasattu kasaamaan kasataan kasaaminen kasattua kasannut kasattiin kasasi kasaa kasasin kasaavat kasaamiseen kasaamalla kasasivat kasaamassa kasattuna

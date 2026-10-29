@@ -1,0 +1,100 @@
+1	4801	rasia	rs rasia rasian rasiassa rasiaa rasiaan rasiasta rasioissa rasiat rasioita
+2	4802	dj	dj
+3	4803	pääasia	pääasia
+4	4804	vastineeksi	vastineeksi
+5	4805	syrjäyttää	syrjäyttää syrjäytti syrjäytetty syrjäyttänyt syrjäytettiin syrjäyttämään syrjäyttävät syrjäytetään syrjäyttäminen syrjäyttämistä syrjäyttivät syrjäyttämisen syrjäyttämiseen syrjäyttämässä syrjäytä
+6	4806	huoneisto	huoneiston huoneisto huoneistossa huoneistoon huoneistoa huoneistojen huoneistosta huoneistot huoneistoja huoneistoihin huoneistoissa
+7	4807	orjuus	orjuuden orjuus orjuutta orjuudesta orjuuteen orjuudessa
+8	4808	kunnallinen	kunnallinen kunnallisen kunnalliset kunnallista kunnallisten kunnallisia kunnallisessa kunnalliseen kunnallisella kunnallisesta kunnallisissa kunnallisista kunnallisiin
+9	4809	ihastunut	ihastunut ihastuneita ihastuneet ihastuneen ihastuneena
+10	4810	nero	nero neron neroja neroa neroksi nerot nerona
+11	4811	sirkus	sirkus sirkuksen sirkusta sirkuksessa sirkukseen sirkuksesta
+12	4812	isi	isi isien isin isiä isistä isille isillä isiltä isiksi isiin
+13	4813	viihdyttävä	viihdyttävä viihdyttävää viihdyttäviä viihdyttävän viihdyttävät viihdyttävin viihdyttävänä
+14	4814	karma	karma karman karmaa karmasta karmaan
+15	4815	itsestäänselvyys	itsestäänselvyys itsestäänselvyytenä itsestäänselvyyksiä itsestäänselvyyksinä itsestäänselvyydet
+16	4816	käsivarsi	käsivarren käsivarret käsivarteen käsivarsi käsivarressa käsivartensa käsivarsille käsivartta käsivarsien käsivarresta käsivarsia käsivarsissa käsivarsiin käsivarsilla käsivarsista
+17	4817	viljely	viljely viljelyn viljelyyn viljelyä viljelyssä viljelystä
+18	4818	masentaa	masentavaa masentaa masentava masentavan masentavia masensi masentavat masenna masentavalta
+19	4819	viemäri	viemäriin viemäri viemärit viemärin viemäristä viemäreihin viemäreiden viemärissä viemäreitä viemärien viemäreissä viemäreistä viemäriä
+20	4820	pappa	pappa papan papat pappaa pappani pappoja papalle pappojen
+21	4821	mekanismi	mekanismi mekanismeja mekanismia mekanismit mekanismin mekanismien mekanismilla mekanismista mekanismeista mekanismiin
+22	4822	raita	raita raidat raitoja raitaa raidan raidoilla raitojen raidalla raidoista
+23	4823	kostaa	kostaa kosti kostamaan kostaakseen kosta kostin kostavat kostaminen kostetaan kostan
+24	4824	made	made mateen madetta
+25	4825	väheneminen	väheneminen vähenemiseen vähenemisen vähenemistä vähenemisestä vähenemisenä
+26	4826	ylpeys	ylpeys ylpeyttä ylpeyden ylpeydellä ylpeydestä ylpeytensä ylpeyteen
+27	4827	epätoivoinen	epätoivoinen epätoivoisia epätoivoista epätoivoisen epätoivoisena epätoivoiselta epätoivoiset epätoivoiseksi epätoivoisessa epätoivoiseen epätoivoisiin epätoivoisten
+28	4828	yläkerta	yläkerran yläkertaan yläkerta yläkerrasta yläkertaa
+29	4829	elättää	elättää elättämään elättänyt elätti elätän elättävät elättääkseen elättämiseen elätä elätettävänä elättäminen elätettäväksi
+30	4830	paneeli	paneeli paneelin paneelissa paneelit paneelien paneeliin paneelista paneeleita paneelia paneeleista paneeleilla paneeleja
+31	4831	logistiikka	logistiikka logistiikan logistiikkaa logistiikasta logistiikkaan logistiikassa
+32	4832	työpaja	työpaja työpajassa työpajan työpajoja työpajat työpajaan työpajoissa työpajojen työpajaa työpajoihin työpajoista
+33	4833	aro	aro aron aroa arolle arolla aroilla arojen aroille
+34	4834	laukoa	laukoo laukoi laukoa laukonut laukomaan laukoivat laukova laukovat
+35	4835	ansa	ansa ansaan ansan ansoja ansat ansassa ansoista ansaa ansasta ansaksi ansojen
+36	4836	ekologinen	ekologinen ekologista ekologisen ekologisia ekologiset ekologiseen ekologisten ekologisesta ekologisempi ekologisessa ekologisiin ekologisista
+37	4837	viidakko	viidakon viidakossa viidakkoon viidakko viidakkoa viidakosta viidakoissa
+38	4838	inhota	inhoan inhoaa inhosin inhoavat inhosi inhoa inhota inhonnut inhoamaan inhoat inhosivat
+39	4839	musa	musaa musa musan musat mosa musasta musaan
+40	4840	asumistuki	asumistuki asumistuen asumistukea asumistuet asumistukeen asumistukien asumistuesta asumistukia
+41	4841	keskusliitto	keskusliitto keskusliiton keskusliitossa keskusliittoon
+42	4842	läppäri	läppäri läppärin läppärillä läppäriä läppäriin läppärit läppäreitä läppärini läppäristä läppärinsä
+43	4843	hyödyttää	hyödyttää hyödytä hyödyttäisi hyödyttävät hyödyttänyt hyödytti hyödyttämään hyödyttävä
+44	4844	mäkihyppy	mäkihyppy mäkihypyn mäkihypyssä mäkihyppyä
+45	4845	puska	puskista puska puskan puskassa puskasta puskaan puskissa puskin puskiin puskaa puskia puskien
+46	4846	puukottaa	puukotti puukotettu puukotettiin puukottaa puukottanut puukottamaan puukottaminen puukotetaan
+47	4847	järkyttynyt	järkyttynyt järkyttyneitä järkyttyneenä järkyttyneen järkyttyneeltä
+48	4848	ylinopeus	ylinopeutta ylinopeus ylinopeudesta ylinopeuden ylinopeudella ylinopeudet ylinopeuksia
+49	4849	selventää	selventää selvensi selventämään selvennetään selvennän selvennä selventänyt
+50	4850	eve	eve even
+51	4851	suuntaus	suuntaus suuntausta suuntauksia suuntauksen suuntaukset suuntauksista suuntauksesta suuntausten suuntaukseen suuntauksena
+52	4852	selänne	selänne selänteen selänteelle selännettä selänteellä
+53	4853	tolppa	tolppaan tolpan tolppien tolppa tolppaa tolpat tolpalla tolppia tolpasta tolpalta tolpassa tolpalle tolppiin
+54	4854	kaupunginteatteri	kaupunginteatterin kaupunginteatteri kaupunginteatterissa kaupunginteatteriin
+55	4855	huijari	huijari huijarit huijareita huijarin huijariksi huijareiden huijareille huijarille huijarina huijareista huijaria
+56	4856	painostus	painostuksen painostus painostusta painostuksesta painostukseen painostuksella
+57	4857	pelastuslaitos	pelastuslaitos pelastuslaitoksen pelastuslaitokselle pelastuslaitosten pelastuslaitoksella pelastuslaitokselta pelastuslaitokset
+58	4858	asteikko	asteikolla asteikko asteikon asteikkoa asteikossa asteikot
+59	4859	haha	haha
+60	4860	läheskään	läheskään
+61	4861	paljolti	paljolti
+62	4862	pikkuisen	pikkuisen
+63	4863	sisä	sisä
+64	4864	viikonloppuisin	viikonloppuisin
+65	4865	taajama	taajama taajamassa taajamissa taajaman taajamien taajamiin taajamista taajamat taajamaan taajamasta taajamaa
+66	4866	maalintekijä	maalintekijä maalintekijät maalintekijänä maalintekijöitä maalintekijöinä maalintekijän maalintekijäksi
+67	4867	heitellä	heittelee heitellään heitteli heittelevät heitellyt heitelty heittelemään heiteltiin heittelivät heittele heitellä heittelemässä heittelet heittelen heittelemällä heittelin heitellen
+68	4868	verinen	verinen verisen verisiä veriset veriseen veristä verisenä verisin veriseksi veristen verisestä verisessä verisiin verisistä
+69	4869	majuri	majuri majurin majuriksi
+70	4870	kusipää	kusipää kusipäitä kusipäät kusipäiden kusipään kusipäistä kusipäätä kusipääksi
+71	4871	jalankulkija	jalankulkija jalankulkijoita jalankulkijat jalankulkijoiden jalankulkijan jalankulkijoille jalankulkijaa jalankulkijalle
+72	4872	naaras	naaras naaraat naaraan naaraita naaraiden naarasta naaraista naarailla naaraalle
+73	4873	postata	postaa postata postaan postattu postannut postasi postasin postaamaan
+74	4874	ilahduttaa	ilahduttaa ilahdutti ilahduttavaa ilahduta ilahduttavan ilahduttavat ilahduttanut ilahduttava ilahduttaisi ilahduttamaan ilahduttivat
+75	4875	skenaario	skenaario skenaarion skenaariossa skenaariot skenaarioita skenaariota skenaarioista skenaarioissa skenaarioon skenaarioiden
+76	4876	toiminnanjohtaja	toiminnanjohtaja toiminnanjohtajana toiminnanjohtajan toiminnanjohtajaksi
+77	4877	yöpyä	yöpyä yöpyi yöpyminen yöpymiset yöpyy yöpymään yöpynyt yöpyneet yöpyvät yöpymisen yöpyivät yövyin yöpymistä yöpymisten yövymme yövyimme yöpymiseen yövytään yöpymisiä yövyn
+78	4878	tervehtiä	tervehtimään tervehtii tervehtiä tervehti tervehtimässä tervehtivät tervehdin tervehditään tervehdi tervehtinyt tervehtiminen tervehdimme tervehditty tervehdittiin
+79	4879	keuhko	keuhkojen keuhkoihin keuhkot keuhkoissa keuhko keuhkoista keuhkoja keuhkon keuhkoon keuhkonsa
+80	4880	perhana	perhana perhanan
+81	4881	oikeudenmukainen	oikeudenmukainen oikeudenmukaista oikeudenmukaisen oikeudenmukaisia oikeudenmukaisena oikeudenmukaiseen oikeudenmukaisempi oikeudenmukaiseksi oikeudenmukaiselta oikeudenmukaisesta
+82	4882	viisitoista	viisitoista viidentoista viiteentoista viidestätoista viidessätoista viittätoista
+83	4883	eno	eno enon enoni enonsa enossa enoa enot enosta
+84	4884	sukeltaa	sukeltaa sukelsi sukeltamaan sukeltaminen sukelletaan sukella sukeltavat sukeltanut sukeltamista sukeltamalla sukeltaessa sukeltamassa sukeltamisesta sukelsin sukeltamisen sukelsimme
+85	4885	kalori	kaloreita kalorit kaloria kalorien kaloreiden kaloreista kalorin kalori
+86	4886	keinotekoinen	keinotekoinen keinotekoisia keinotekoista keinotekoisen keinotekoiset keinotekoisten keinotekoisessa keinotekoisesta keinotekoiseen keinotekoisista keinotekoisena keinotekoisella
+87	4887	nuoli	nuoli nuolen nuolet nuolta nuolia nuolella nuolilla nuolesta nuolin nuolien
+88	4888	kireä	kireä kireät kireällä kireitä kireänä kireää kireälle kireän kireäksi kireältä kireinä kireissä
+89	4889	betoni	betoni betonia betonin betonista betoniin betonilla betonille
+90	4890	käyttötarkoitus	käyttötarkoitus käyttötarkoituksen käyttötarkoitusta käyttötarkoituksia käyttötarkoitukseen käyttötarkoituksesta käyttötarkoituksiin käyttötarkoitukset käyttötarkoituksessa käyttötarkoituksena käyttötarkoituksissa
+91	4891	verkkopalvelu	verkkopalvelu verkkopalvelun verkkopalvelut verkkopalvelussa verkkopalveluiden verkkopalvelusta verkkopalveluun verkkopalvelujen verkkopalveluissa verkkopalveluihin verkkopalveluita verkkopalvelua verkkopalveluista verkkopalveluja
+92	4892	kampus	kampuksella kampuksen kampus kampukselle kampusta kampuksilla kampukselta
+93	4893	murhe	murheita murhe murheet murheen murhetta murheista murheensa murheeseen murheiden murheeni murheesta
+94	4894	valehtelu	valehtelu valehtelusta valehtelua valehtelun valehteluun
+95	4895	kustantaja	kustantaja kustantajan kustantajat kustantajalle kustantajien kustantajaa kustantajana kustantajia kustantajille kustantajansa kustantajalta
+96	4896	hai	hai hain haita haisi haiden haitta hait haimme
+97	4897	keskiö	keskiössä keskiöön
+98	4898	langaton	langaton langattoman langattomat langatonta langattomien langattomia langattomaan langattomassa langattomalla langattomissa
+99	4899	omaksua	omaksua omaksunut omaksumaan omaksuu omaksuttu omaksuminen omaksui omaksuvat omaksumista omaksuivat omaksu omaksumisen omaksuma omaksumisesta omaksumiseen
+100	4900	lotta	lotta lotan lotat lottien lottia lottaa

@@ -1,0 +1,100 @@
+1	4001	uusinta	uusinta uusintana uusinnan uusintoja uusintaa uusinnat uusinnassa uusintaan uusintoina
+2	4002	terassi	terassilla terassi terassille terassin terassilta terassit terassia terasseilla terassien terasseja
+3	4003	kongressi	kongressin kongressi kongressissa kongressiin kongressia kongressille kongressista kongressilta kongressien
+4	4004	osoitus	osoitus osoituksena osoitukseksi osoituksia osoitusta osoituksen osoitukset
+5	4005	maksimi	maksimissaan maksimi maksimin maksimiin maksimissa maksimia maksimista maksimit
+6	4006	lepo	lepoa lepo levon lepoon levossa levolle levosta levolla
+7	4007	kolmasosa	kolmasosa kolmasosaa kolmasosan kolmasosalla kolmasosaan
+8	4008	tankki	tankki tankin tankit tankkiin tankkeja tankkia tankkien tankissa tankilla tankista tankkeihin tankeista tankeilla tankeissa tankille
+9	4009	taiteellinen	taiteellinen taiteellisen taiteellista taiteellisia taiteellisena taiteellisesta taiteelliseen taiteelliset taiteellisessa taiteellisten taiteellisista taiteelliseksi taiteellisiin taiteellisella taiteelliselle
+10	4010	ehdollinen	ehdollista ehdollinen ehdolliseen ehdollisen ehdollisena ehdollisia ehdolliset ehdolliseksi ehdollisella ehdollisiin ehdollisesta
+11	4011	varas	varas varkaat varkaan varkaiden varkaita varkain varkaille varkaista varkaaksi varasta varkaissa varkaalle varkailta
+12	4012	vastakkainen	vastakkaista vastakkaisen vastakkaiseen vastakkainen vastakkaisia vastakkaiset vastakkaisesta vastakkaisella vastakkaiselle vastakkaisiin vastakkaisten vastakkaisilla vastakkaisista vastakkaiselta vastakkaisessa
+13	4013	yksitoista	yksitoista yhdentoista yhdeltätoista yhdestätoista yhteentoista yhtätoista yhdessätoista yhdellätoista yhdessa
+14	4014	läppä	läppää läppä läpällä läpät läpän läppiä
+15	4015	suoda	suotavaa suonut suoda suoma suonet suotu soisi suotakoon suodaan suonen suon suotavana suoman suotava suotiin suot suomaan soisin
+16	4016	pituinen	pituinen pituisen pituisia pituiset pituista pituisella pituiseksi pituiseen pituisiksi pituisesta pituiselle pituisena pituisessa pituisten pituisiin
+17	4017	rikkua	riku rikun
+18	4018	evoluutio	evoluutio evoluution evoluutiota evoluutiosta evoluutioon evoluutiossa
+19	4019	potentiaalinen	potentiaalinen potentiaalisia potentiaalisen potentiaaliset potentiaalisten potentiaalista potentiaalisena potentiaalisille potentiaalisista potentiaalisesta potentiaalisina potentiaaliseksi
+20	4020	turkulainen	turkulainen turkulaiset turkulaisen turkulaisia turkulaisten turkulaista turkulaisille turkulaisessa turkulaisista turkulaisilla
+21	4021	lähiö	lähiössä lähiöissä lähiö lähiöt lähiöiden lähiön lähiöihin lähiöitä lähiöön lähiöistä lähiöstä lähiötä
+22	4022	ää	ää ään
+23	4023	turkkilainen	turkkilainen turkkilaiset turkkilaista turkkilaisten turkkilaisen turkkilaisia turkkilaisista turkkilaisessa turkkilaiseen turkkilaisesta turkkilaisille turkkilaiselle
+24	4024	aarnio	aarnio aarnion aarniota
+25	4025	sovittaa	sovittaa sovitettu sovittamaan sovitin sovittanut sovittaminen sovitetaan sovitti sovitettava sovittamista sovittamassa sovitettiin sovittama sovita sovittava sovittamisesta sovittaessa
+26	4026	venyä	venyy venyi venyä venyvät venynyt veny venymään venyivät venyvä venyminen venyvän venyvää venyessä venyisi
+27	4027	kaapeli	kaapeli kaapelin kaapelia kaapelit kaapeleita kaapeleiden kaapelilla kaapelissa kaapeleista kaapeliin kaapeleilla kaapelista kaapelien
+28	4028	elinkeinoelämä	elinkeinoelämän elinkeinoelämä elinkeinoelämää elinkeinoelämälle elinkeinoelämässä elinkeinoelämään
+29	4029	kasino	kasinon kasino kasinolla kasinolle kasinot kasinoa kasinossa kasinoon kasinosta kasinoita kasinoiden kasinoilla kasinolta kasinoissa
+30	4030	vainaja	vainajan vainaja vainajien vainajat vainajaa vainajia vainajalle vainajista vainajasta vainajalla vainajille
+31	4031	alustaa	alustava alustavat alustavan alustavia alustavien alusti alustaa alustavaa alustavaan alustavassa alustavissa alustavasta alustavista alustan alustat
+32	4032	maltillinen	maltillinen maltillista maltillisia maltillisen maltilliset maltillisten maltillisena maltillisempi maltilliseen maltillisella maltillisesta maltilliseksi maltillisilla maltillisina
+33	4033	hälytys	hälytys hälytyksen hälytyksiä hälytystä hälytykset hälytyksestä hälytykseen hälytysten
+34	4034	positiivisesti	positiivisesti positiivisemmin
+35	4035	taistelija	taistelija taistelijat taistelijoita taistelijan taistelijoiden taistelijaa taistelijoista taistelijoille taistelijaksi taistelijana taistelijoiksi
+36	4036	jee	jee
+37	4037	stefa	stefan
+38	4038	psykologia	psykologian psykologia psykologiaa psykologiassa psykologiasta psykologiaan
+39	4039	viitta	viittaa viitta viitan viittaan viitat viittoja viittansa viitasta viitassa
+40	4040	alaisuus	alaisuudessa alaisuuteen alaisuudesta
+41	4041	yhdeksäs	yhdeksäs yhdeksännen yhdeksänneksi yhdeksännellä yhdeksäntenä yhdeksänteen yhdeksännessä yhdeksännelle yhdeksännestä yhdeksänneltä yhdeksättä
+42	4042	istuttaa	istuttaa istutettu istutetaan istutettiin istutti istuta istuttanut istuttaminen istuttamaan istuttamalla istutin istuttivat istutettua istuttavat istutat istutan istuttava istuttaessa
+43	4043	kotisivu	kotisivut kotisivuilla kotisivu kotisivujen kotisivuilta kotisivulla kotisivuja kotisivuille kotisivulta
+44	4044	kuntoutus	kuntoutus kuntoutuksen kuntoutusta kuntoutukseen kuntoutuksessa kuntoutuksesta kuntoutuksella
+45	4045	keppi	keppi kepin keppiä kepillä keppejä kepeillä kepit kepistä keppien kepein keppiin
+46	4046	verotulot	verotulot verotuloja verotulojen verotuloista verotuloihin verotuloilla verotuloina
+47	4047	äidinkieli	äidinkielen äidinkieli äidinkieltä äidinkielensä äidinkielenä äidinkielellä äidinkielestä äidinkielessä äidinkieleni äidinkieleen
+48	4048	vyö	vyö vyön vyötä vyöt vyöllä vöitä vyöstä vyöhön vöiden vyössä vyönsä vyölle vyöksi
+49	4049	tiski	tiskiin tiskin tiskillä tiskille tiskiltä tiskiä tiski tiskien
+50	4050	vihapuhe	vihapuhe vihapuhetta vihapuheesta vihapuheen vihapuheelle vihapuheeseen vihapuheeksi
+51	4051	ritari	ritari ritarit ritarin ritariksi ritareita ritaria ritarien ritareiden ritareista ritareiksi ritarina
+52	4052	riippuvuus	riippuvuutta riippuvuus riippuvuuden riippuvuudesta riippuvuuteen riippuvuudet riippuvuuksia riippuvuuksien riippuvuuksista riippuvuutensa
+53	4053	puolivälierä	puolivälieriin puolivälierät puolivälierissä puolivälierässä puolivälierä puolivälierien puolivälieristä
+54	4054	loistaa	loistaa loisti loistanut loistavat loistamaan loistivat loista loistaen
+55	4055	jauhaa	jauhaa jauhettu jauhettua jauha jauhetaan jauhamaan jauhaminen jauhavat jauhoi jauhanut jauhat jauhamista jauhettiin jauhamisen jauhettuna jauhan jauhettuja jauhamalla jauhetut
+56	4056	tupla	tupla tuplat tuplaa tuplana tuplan tuplaan
+57	4057	mansikka	mansikka mansikoita mansikat mansikkaa mansikan mansikoiden mansikoista
+58	4058	kuvernööri	kuvernööri kuvernöörin kuvernööriksi kuvernöörinä kuvernöörille kuvernööriä kuvernöörit
+59	4059	laajeta	laajenee laajeni laajenevat laajenivat laajeneva laajeta laajenemaan laajenisi laajene laajenemista
+60	4060	ilmaantua	ilmaantuu ilmaantui ilmaantunut ilmaantua ilmaantuvat ilmaantuminen ilmaannu ilmaantuivat ilmaantumista ilmaantuessa ilmaantuisi ilmaantumisen
+61	4061	synty	synty synnystä syntyyn syntyjään synnyssä synnyin synnyn synnylle syntyjä syntynsä synnyt
+62	4062	avioero	avioero avioeron avioeroa avioeroon avioerosta avioerossa avioeronsa avioerot avioeroja avioerojen
+63	4063	vuosittainen	vuosittainen vuosittaisen vuosittaiset vuosittaista vuosittaisia vuosittaisessa vuosittaisesta vuosittaiseen vuosittaisten vuosittaisista vuosittaisella vuosittaisiin
+64	4064	poro	poro poron porot poroja porojen poroa poroksi poroista poroille
+65	4065	väsyttää	väsyttää väsytä väsytti väsyttävää väsyttänyt väsyttävä väsyttämään väsyttävät väsyttäisi väsyttävän
+66	4066	viittaus	viittaus viittauksia viittaukset viittausta viittauksen viittauksena viittausten
+67	4067	kuoppa	kuoppa kuopan kuoppaan kuoppaa kuoppia kuopassa kuopasta kuopat kuoppien kuoppiin kuopista kuopissa
+68	4068	rajata	rajata rajataan rajaa rajaaminen rajaamaan rajaavat rajattiin rajasi rajaamalla rajannut rajaamista rajattaisiin rajasin rajaamisesta rajaan
+69	4069	jakelu	jakelu jakeluun jakelun jakelua jakelusta jakelussa jakelut
+70	4070	vanhentunut	vanhentunut vanhentuneita vanhentuneet vanhentunutta vanhentuneen vanhentuneiden vanhentuneena vanhentuneesta vanhentuneista vanhentuneeksi
+71	4071	kaksitoista	kaksitoista kahdentoista kahteentoista kahdestatoista kahtatoista kahdessatoista kahdeltatoista kahdellatoista kahdelletoista
+72	4072	taloustiede	taloustieteen taloustiede taloustiedettä taloustieteessä taloustieteestä taloustieteiden taloustieteeseen taloustieteitä
+73	4073	ihmetyttää	ihmetyttää ihmetytti ihmetyttänyt ihmetytä ihmetyttämään
+74	4074	syvemmälle	syvemmälle syvemmällä syvemmältä
+75	4075	jahdata	jahtaa jahtaamaan jahdata jahtasi jahtaavat jahdataan jahtasivat jahdannut jahtaaminen jahtaamiseen jahtaava jahtaamassa jahdattiin jahtaamisen jahtaamista jahtaamisesta jahdatessa jahdattu jahdaten
+76	4076	selata	selata selaa selasin selaaminen selaan selaamaan selatessa selaamalla selaat selannut selaamiseen
+77	4077	syke	syke sykettä sykkeen sykkeellä sykkeet syken sykkeessä sykkeeseen sykkeestä
+78	4078	vältellä	vältellä välttelee välttelemään välttelevät vältellyt välttelen vältteli vältellään vältellen välttelevä välttelin välttele välttelevän välttelivät välttelisin
+79	4079	jäätyä	jäätyy jäätyä jäätynyt jäätyi jäätyvät jäädy jäätyminen jäätyneen jäätymisen jäätyneet jäätymistä jäätyivät jäätymään
+80	4080	aasialainen	aasialainen aasialaisia aasialaiset aasialaisten aasialaisen aasialaista aasialaisista aasialaisille aasialaiseen aasialaisiin aasialaisilla aasialaisissa aasialaisesta
+81	4081	yksityisyys	yksityisyyden yksityisyyttä yksityisyys yksityisyyteen yksityisyydestä yksityisyytensä
+82	4082	orava	orava oravan oravat oravia oravien oravaa oravista oravasta
+83	4083	automaatti	automaatti automaatilla automaatista automaatin automaatit automaatteja automaattia automaattiin automaattien automaateista automaateissa automaatille automaateilla automaatissa automaatteihin automaattina
+84	4084	uimahalli	uimahalli uimahallin uimahallissa uimahallit uimahalliin uimahalleissa uimahallien uimahallia uimahallilla uimahallista uimahalleja
+85	4085	murhaaja	murhaaja murhaajat murhaajan murhaajia murhaajaa murhaajien murhaajaksi murhaajasta murhaajana murhaajista
+86	4086	alaston	alaston alastomana alastomia alastoman alastonta alastomat alastomina alastomien alastomaksi alastomasta alastomista
+87	4087	ambulanssi	ambulanssi ambulanssin ambulanssia ambulanssilla ambulanssissa ambulanssiin ambulanssit ambulansseja ambulanssien ambulanssista
+88	4088	lauma	lauma lauman laumassa laumaa laumaan laumasta laumansa laumat laumoissa laumoja laumoina laumalle laumojen
+89	4089	aavistus	aavistuksen aavistustakaan aavistus aavistusta aavistuksia
+90	4090	iloita	iloitsee iloita iloitsi iloitsen iloitse iloitsevat iloiten iloitaan iloitsemaan iloinnut iloitkaa iloitsivat iloitsin iloitsemme iloittiin
+91	4091	pohdinta	pohdintaa pohdinta pohdinnan pohdinnat pohdintoja pohdintaan pohdinnassa pohdintoihin pohdintojen pohdinnoissa
+92	4092	verho	verhot verho verhon verhojen verhoja verhoa verhoilla verhoista verhoihin
+93	4093	uskollinen	uskollinen uskollisena uskollisia uskolliset uskollisen uskollista uskollisina uskollisten uskollisin uskollisille uskollisesta
+94	4094	varoja	varoja varojaan
+95	4095	uudistua	uudistunut uudistuu uudistua uudistumista uudistuminen uudistumisen uudistui uudistuvat uudistuva uudistumaan uudistumiseen uudistuivat uudistuvaa uudistumisesta uudistuvan
+96	4096	haavikko	haavisto haavikko haavikon
+97	4097	leikki	leikkiin leikin leikki leikkejä leikit leikistä leikkeihin leikissä leikeistä leikeissä leikkien leikkinä leikiksi
+98	4098	nukahtaa	nukahtaa nukahti nukahdin nukahtanut nukahtamaan nukahtamista nukahdan nukahtaminen nukahtamiseen nukahtamisen nukahda nukahtavat nukahdat
+99	4099	ellen	ellen ellenin
+100	4100	tiedostaa	tiedostaa tiedostan tiedostavat tiedostettu tiedostaminen tiedostamatta tiedostetaan tiedosta tiedostanut tiedostamaton tiedostava tiedostamaan tiedostaen tiedostat tiedostavan tiedosti tiedostamme tiedostin tiedostamatonta tiedostamisen tiedostamista

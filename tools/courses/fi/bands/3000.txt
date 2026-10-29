@@ -1,0 +1,100 @@
+1	2901	kämppä	kämppä kämpän kämpässä kämppään kämpästä kämpille kämppää kämppiä kämpillä kämpissä kämpällä kämpin kämpät kämpälle kämppänsä kämpistä kämppäni kämppäsi
+2	2902	ilmavoimat	ilmavoimien ilmavoimat ilmavoimissa ilmavoimia ilmavoimista ilmavoimille ilmavoimilla ilmavoimiin
+3	2903	hereillä	hereillä hereille
+4	2904	hiljaisuus	hiljaisuus hiljaisuudessa hiljaisuuden hiljaisuutta hiljaisuudesta hiljaisuuteen hiljaisuudella
+5	2905	veronmaksaja	veronmaksajien veronmaksajat veronmaksajille veronmaksaja veronmaksajilta veronmaksajia veronmaksajan veronmaksajain veronmaksajaa veronmaksajana veronmaksajalle
+6	2906	enkeli	enkeli enkelit enkelin enkeleitä enkeleiden enkelten enkelien enkeliä enkeleistä enkeleihin enkelinä enkeliksi enkelinsä
+7	2907	kerho	kerho kerhon kerhoon kerhossa kerhoja kerhot kerhoa kerholla kerhojen kerhosta kerholle kerhoissa kerhoihin kerhoista
+8	2908	kori	kori korin koriin koria korista korit korissa koreja korien korilla korille koreihin koreissa koreista koreilla
+9	2909	hävinnyt	hävinnyt hävinneet hävinneen hävinneenä hävinneitä hävinneiden hävinneeksi hävinneensä hävinnyttä
+10	2910	keittää	keittää keitetty keitin keitän keitetään keitettyä keitetyt keitettyjä keittämällä keittämään keittäminen keitti keitettynä keittämistä keittämisen keitetyn keittänyt keitä keittämiseen keitettiin keitettäessä keität keittämässä keitetystä keitettävä keitettyjen
+11	2911	sotilaallinen	sotilaallinen sotilaallista sotilaallisen sotilaallisia sotilaalliseen sotilaalliset sotilaallisesta sotilaallisten sotilaallisiin sotilaallisella sotilaallisessa sotilaallisista sotilaallisin sotilaalliseksi sotilaallisissa sotilaalliselle
+12	2912	ylin	ylin ylimmän ylintä ylimmässä ylimpään ylimmät ylimmällä ylimmälle ylimmästä ylimpien ylimpiä ylimpiin ylimmältä ylimmistä ylimmissä ylimmäksi
+13	2913	salata	salatut salata salattu salattua salaamaan salattuja salasi salatun salataan salannut salattujen salaaminen salattiin salattuna salatuissa salatakseen salaamista salaamiseksi salasivat salaamisen salaavat salaamisesta salaamiseen salatuista salattuun salatussa salaamalla
+14	2914	perustaja	perustaja perustajan perustajat perustajista perustajiin perustajien perustajia perustajana perustajasta perustajaa perustajalle perustajansa
+15	2915	soo	so soo
+16	2916	vaihtelu	vaihtelua vaihtelu vaihtelut vaihtelun vaihtelusta vaihteluita vaihteluista vaihteluun vaihteluja vaihteluihin vaihteluiden vaihtelulla
+17	2917	tallentaa	tallentaa tallennettu tallennetaan tallensi tallentanut tallentamaan tallenna tallentavat tallentamiseen tallentaminen tallentamisen tallennettiin tallentava tallentamista tallensivat tallensin tallennan tallentamisesta tallennettava
+18	2918	lahjoittaa	lahjoittaa lahjoitti lahjoittanut lahjoitetaan lahjoittamaan lahjoita lahjoittivat lahjoitettiin lahjoittamalla lahjoittavat lahjoitettu lahjoittama lahjoitan lahjoittaminen lahjoitamme lahjoitin lahjoittaman
+19	2919	portugali	portugalin portugali portugalissa portugalista portugalia portugaliin portugalille portugaliksi
+20	2920	kesto	kesto kestoa keston kestosta kestoon kestoksi kestot
+21	2921	matsi	matsi matsin matsia matsissa matsiin matseja matsista matsit matseissa matseihin matsien matseista
+22	2922	hiihto	hiihto hiihdon hiihdossa hiihtoa hiihdoissa hiihdot hiihtoon hiihtojen hiihdosta
+23	2923	välitys	välityksellä välitys välitystä välitykseen välityksen välityksestä välitykset välityksessä
+24	2924	muovi	muovi muovia muovin muovista muovit muoviin muovien muoveja muovilla muoville muoveissa muoveista muovissa
+25	2925	eräänlainen	eräänlainen eräänlaista eräänlaisena eräänlaisen eräänlaisia eräänlaiseksi eräänlaiseen eräänlaisesta eräänlaisina eräänlaisessa eräänlaisella eräänlaiset
+26	2926	standardi	standardi standardin standardit standardeja standardien standardia standardissa standardeista standardiin standardista standardeihin standardiksi standardeilla standardilla standardina
+27	2927	sekaan	sekaan seassa seasta
+28	2928	vääntää	vääntää väännetty vääntämään väännetään väänsi vääntävät väänsin väännän vääntänyt väännettiin väännä vääntämällä vääntäminen vääntämistä väännät vääntämässä vääntäen vääntämisen väänsivät vääntävä
+29	2929	rento	rento rentoa rennon rentoja rentona rennompi rennot rennompaa rentoon rennoksi rennolta rennosta rennolla rennossa rentoina rennoissa rennompia rennommaksi rennomman rennoin
+30	2930	kuri	kuriin kurissa kuri kuria kurin kurilla kurista
+31	2931	mie	mie miun miulla miulle miusta miuta miut minuu minnuu miul
+32	2932	englantilainen	englantilainen englantilaisen englantilaiset englantilaisia englantilaista englantilaisten englantilaisessa englantilaisesta englantilaiseen englantilaisille englantilaisista englantilaiselle englantilaisella englantilaisiin englantilaiselta englantilaisissa englantilaisilla
+33	2933	märkä	märkä märkää märät märkänä märkiä märällä märän märkään märkinä märäksi märässä märissä märillä märälle märistä märästä märältä
+34	2934	pentu	pentu pennut pentuja pennun pentua pentujen pentuna pennusta pennuista pennuille pentunsa pennulle pennuilla
+35	2935	raskaus	raskauden raskaus raskaudesta raskautta raskauteen raskaudet raskauksien raskautensa raskauksia raskaudessa raskauksista raskauksissa
+36	2936	niemi	niemi niemen niemelle niemellä niemeä niemessä niemeen niemestä niemeltä niemistä
+37	2937	vihainen	vihainen vihaisia vihaisena vihaiseksi vihaiset vihaisen vihaista vihaisten vihaiselta vihaisesta
+38	2938	uusiutuva	uusiutuvan uusiutuvien uusiutuvaa uusiutuva uusiutuvat uusiutuvilla uusiutuvia uusiutuviin uusiutuvaan uusiutuvista uusiutuvalla uusiutuvasta
+39	2939	imeä	imee imeä ime imevät imi imemään imetään imenyt imen imin imevä imemällä imevän imemässä imetty imeminen imijä imivät imemistä imettiin imisi imekää imien imetä
+40	2940	samankaltainen	samankaltaisia samankaltainen samankaltaista samankaltaiset samankaltaisen samankaltaisten samankaltaisesta samankaltaisista samankaltaiseen samankaltaisiin samankaltaisella samankaltaisessa samankaltaisena samankaltaisissa samankaltaisina samankaltaiselta
+41	2941	uudenlainen	uudenlaista uudenlainen uudenlaisen uudenlaisia uudenlaiseen uudenlaiset uudenlaisesta uudenlaisten uudenlaisella uudenlaisiin uudenlaisessa uudenlaiseksi
+42	2942	motivaatio	motivaatio motivaatiota motivaation motivaatiosta motivaatioon motivaationa motivaationsa motivaatiolla motivaationi motivaatioita
+43	2943	ajoittain	ajoittain
+44	2944	henkisesti	henkisesti
+45	2945	muutoin	muutoin
+46	2946	valtavasti	valtavasti
+47	2947	porras	portaat portaita portaiden portailla portaissa porras portaille portaan porrasta portaisiin portaista portaalla portaalle portaassa portailta portaaseen
+48	2948	satunnainen	satunnainen satunnaisia satunnaista satunnaiset satunnaisen satunnaisten satunnaisiin satunnaisesta satunnaiseen satunnaisista satunnaisessa satunnaisena satunnaiselta satunnaiselle satunnaisille satunnaisissa satunnaisilla satunnaisella satunnaisilta satunnaiseksi
+49	2949	luento	luento luentoja luennon luennot luennolla luentoa luentojen luennoilla luennolle luennoille luennoista luennosta luentonsa luennolta luennoin
+50	2950	kielto	kielto kiellon kieltoa kieltoja kiellosta kiellot kielloista kieltojen kieltoon kiellolla kielloilla
+51	2951	lisä	lisä lisänä lisän lisät lisan lisiä lisaa lisänsä lisään lisaksi lisien
+52	2952	anti	anti antia annin antimista annista antimia antiin annille annilla antimien annissa antimilla
+53	2953	pikemminkin	pikemminkin pikemmin
+54	2954	jumissa	jumissa jumiin
+55	2955	kauneus	kauneus kauneutta kauneuden kauneudesta kauneuteen kauneutensa kauneudelle kauneudella kauneudessa
+56	2956	hengittää	hengittää hengitä hengittämään hengittäminen hengitän hengitti hengittävät hengittävä hengittänyt hengittämistä hengittävän hengitetään hengittävää hengittämiseen hengittämisestä hengittämisen hengittämällä hengittämättä hengittämästä hengitin hengität hengittämässä hengittäviä
+57	2957	ruuhka	ruuhka ruuhkaa ruuhkassa ruuhkia ruuhkat ruuhkan ruuhkaksi ruuhkien ruuhkaan ruuhkissa ruuhkista ruuhkasta ruuhkiin
+58	2958	katketa	katkesi katkeaa katkesivat katketa katkeavat katkeaminen katkea katkeamaton katkeamisen katkeamista katkeaisi katketessa katkeamiseen katkeilee katkeamattoman katkeamatta katkeamattomana katkeamaan katkeamatonta katkeamisesta
+59	2959	pyrkimys	pyrkimys pyrintö pyrinnön pyrkimyksenä pyrkimyksiä pyrkimystä pyrkimykset pyrkimyksestä pyrkimyksistä pyrintöä pyrkimyksen pyrkimyksiin pyrkimykseen pyrkimysten pyrkimyksissä pyrkimyksensä pyrinnössä pyrintöön pyrkimyksille
+60	2960	nykypäivä	nykypäivän nykypäivänä nykypäivään nykypäivää nykypäivä nykypäivästä
+61	2961	home	home hometta homeen homeessa homeet homeesta homeelle homeiden homeeseen homeista
+62	2962	huolestuttaa	huolestuttaa huolestuttavaa huolestuttava huolestuttavan huolestuttavat huolestuttavia huolestutti huolestuta huolestuttavana huolestuttanut huolestuttavalta
+63	2963	telkkari	telkkaria telkkarissa telkkarista telkkarin telkkari telkkariin telkkareita
+64	2964	suunnittelija	suunnittelija suunnittelijan suunnittelijat suunnittelijana suunnittelijoiden suunnittelijoita suunnittelijaa suunnittelijoista suunnittelijoille suunnittelijalle suunnittelijaksi suunnittelijalla suunnittelijoina
+65	2965	lakimies	lakimies lakimiehen lakimiehet lakimiesten lakimiehiä lakimiehenä lakimiestä lakimieheksi lakimiehelle lakimiehensä lakimieheen lakimieheltä lakimiehille lakimiehistä
+66	2966	motiivi	motiivi motiivia motiiveja motiivit motiivina motiivin motiiveista motiivista motiivinsa motiiviksi motiivien motiiveihin motiivini
+67	2967	avustaja	avustaja avustajan avustajana avustajia avustajat avustajaa avustajansa avustajien avustajaksi avustajille avustajalle avustajineen avustajista avustajaan avustajani
+68	2968	kasvis	kasviksia kasvikset kasvisten kasvis kasviksista kasviksilla kasvista kasviksiin kasviksissa kasviksille
+69	2969	lehdistö	lehdistö lehdistön lehdistölle lehdistössä lehdistöä lehdistöön lehdistöstä lehdistöltä lehdistöllä
+70	2970	kupla	kupla kuplassa kuplan kuplia kuplat kuplasta kuplaan kuplaa kuplien kuplista kuplani
+71	2971	tuoli	tuoli tuolin tuolit tuoleja tuolia tuolilla tuoliin tuolissa tuolille tuolista tuolien tuolilta tuoleilla tuolinsa tuoleista tuoleille
+72	2972	tuijottaa	tuijottaa tuijotti tuijottamaan tuijotan tuijottavat tuijotin tuijottaminen tuijottaen tuijotetaan tuijotella tuijottivat tuijota tuijottamassa tuijottamista tuijottamalla tuijottanut tuijottamisen tuijotat tuijottamisesta tuijottava
+73	2973	nimimerkki	nimimerkki nimimerkillä nimimerkin nimimerkkiä nimimerkkisi nimimerkkejä nimimerkit nimimerkkien nimimerkeillä nimimerkille nimimerkkini
+74	2974	elintarvike	elintarvikkeiden elintarvikkeita elintarvike elintarvikkeet elintarvikkeissa elintarvikkeista elintarvikkeisiin elintarvikkeen elintarvikkeille elintarviketta elintarvikkeeksi elintarvikkeesta
+75	2975	yllättynyt	yllättynyt yllättyneitä yllättyneet yllättyneenä yllättyneeltä yllättyneensä
+76	2976	rohkeus	rohkeutta rohkeus rohkeudesta rohkeuden rohkeutensa rohkeudella rohkeuteen rohkeutesi
+77	2977	kommunisti	kommunistit kommunisti kommunistien kommunisteja kommunistista kommunistia kommunisteista kommunistiksi kommunistin kommunisteille kommunisteihin kommunisteiksi
+78	2978	ystävällinen	ystävällinen ystävällistä ystävällisiä ystävällisen ystävälliset ystävällisin ystävällisenä ystävällisestä ystävällisempi ystävälliseksi ystävälliseltä ystävällisistä ystävälliseen ystävällisellä ystävällisten
+79	2979	sotkea	sotkea sotkee sotke sotki sotkemaan sotketaan sotkettu sotkevat sotkenut sotkeminen sotkivat sotkemassa sotkematta sotket sotkisi sotkettiin sotkin sotketa sotkemista sotkemalla sotken
+80	2980	säännöllinen	säännöllinen säännöllistä säännöllisen säännöllisin säännölliset säännöllisiä säännöllisestä säännölliseen säännöllisellä säännöllisessä säännöllisten säännöllisistä säännöllisiin säännölliseksi säännöllisillä
+81	2981	epäonnistunut	epäonnistunut epäonnistuneen epäonnistuneet epäonnistuneita epäonnistunutta epäonnistuneesta epäonnistuneena epäonnistuneiden epäonnistuneeksi epäonnistuneista epäonnistuneessa
+82	2982	entäs	entäs
+83	2983	et	etkö
+84	2984	jees	jees
+85	2985	kerrankin	kerrankin
+86	2986	montako	montako
+87	2987	tabletti	tabletti tabletit tabletin tabletilla tablettia tabletteja tablettien tablettiin tableteilla tabletteina tabletissa tabletista tabletilta tableteille tableteissa tabletteihin tabletille tableteista
+88	2988	synti	synti syntiä synnin synnit syntien synnistä syntejä synneistä syntinsä syntinä syntiin syntimme synniksi syntisi synteihin syntini synnissä
+89	2989	ampuja	ampuja ampujan ampujat ampujaa ampujia ampujien ampujana ampujasta ampujalla ampujaksi ampujista ampujalle ampujille
+90	2990	taulu	taulu taulun tauluja taululle taulut tauluun taulua taululla taulusta taulussa taulujen tauluista tauluissa tauluihin
+91	2991	kalpa	kalpa kalpaa kalpaan
+92	2992	maailmancup	maailmancupin maailmancupissa maailmancup maailmancupiin maailmancupia maailmancupeissa maailmancupista
+93	2993	risteys	risteyksessä risteykseen risteyksen risteyksestä risteys risteystä risteyksissä risteyksiä risteykset risteysten risteyksiin
+94	2994	kartano	kartanon kartano kartanossa kartanoon kartanot kartanolla kartanoa kartanosta kartanolle kartanoita kartanoiden kartanonsa
+95	2995	purkki	purkki purkissa purkkiin purkin purkista purkkia purkit purkkeja prk purkeissa purkkien purkkeihin purkeista purkilla
+96	2996	olento	olento olentoja olennon olennot olentojen olentoa olennoista olentona olennosta olennoille olentoihin olennoksi olentoon olentoina olennolle olennoilla
+97	2997	terrori	terrori terrorin terroria terrorista terroriin
+98	2998	pysyvästi	pysyvästi pysyvämmin
+99	2999	kokki	kokki kokin kokista kokit kokeissa kokkien kokkia kokkina kokkeja kokiksi kokeista kokille kokilta kokilla kokeille
+100	3000	hetkinen	hetkinen hetkisen hetkistä hetkisestä hetkiseen hetkiset hetkisten hetkiseksi hetkisessä

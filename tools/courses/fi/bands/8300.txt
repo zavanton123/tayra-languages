@@ -1,0 +1,100 @@
+1	8201	sisämaa	sisämaassa sisämaahan sisämaan sisämaasta
+2	8202	urheilulaji	urheilulaji urheilulajeja urheilulajit urheilulajien urheilulajin urheilulajissa urheilulajeissa urheilulajia urheilulajeista urheilulajeihin
+3	8203	säilöä	säilöä säilötään säilötty säilöö säilöminen säilömiseen säilöttiin säilömään säilöi säilö
+4	8204	hakkeri	hakkeri hakkerit hakkerin hakkereita hakkereiden
+5	8205	universaali	universaali universaalia universaaleja universaalin universaalista universaalit
+6	8206	selailla	selailin selailla selailee selailemaan selailen selaillut selaillessa
+7	8207	dokumenttielokuva	dokumenttielokuva dokumenttielokuvan dokumenttielokuvaa dokumenttielokuvia dokumenttielokuvien dokumenttielokuvassa
+8	8208	laukaisu	laukaisu laukaisun laukaisua laukaisuun laukaisusta
+9	8209	aavistaa	aavistaa aavisti aavistanut aavistamatta aavista aavistin aavistamattoman
+10	8210	valjastaa	valjastaa valjastettu valjastetaan valjastettiin valjastamaan valjasti valjasta
+11	8211	suomettuminen	suomettumisen suomettuminen suomettumisesta suomettumista
+12	8212	kuisma	kuisma kuisman
+13	8213	näppäin	näppäintä näppäimillä näppäimet näppäin näppäimen näppäimiä näppäimellä näppäinten
+14	8214	kino	kino kinon
+15	8215	pysähdys	pysähdys pysähdyksissä pysähdyksen pysähdyksiä pysähdystä pysähdyksiin pysähdykset pysähdyksellä
+16	8216	hakusana	hakusanoilla hakusanalla hakusanoja hakusana hakusanaa hakusanat hakusanojen hakusanaksi
+17	8217	haltia	haltia haltioiden haltioissaan haltiat haltian haltioita haltioissani
+18	8218	sähköpostiosoite	sähköpostiosoite sähköpostiosoitteeseen sähköpostiosoitteen sähköpostiosoitetta sähköpostiosoitteita sähköpostiosoitteet sähköpostiosoitteesta
+19	8219	vuosipäivä	vuosipäivänä vuosipäivä vuosipäivää vuosipäivän
+20	8220	huhuta	huhuttiin huhutaan huhuttu huhua
+21	8221	yhteydenpito	yhteydenpito yhteydenpitoa yhteydenpidon yhteydenpitoon yhteydenpidosta yhteydenpidossa
+22	8222	sairausloma	sairauslomalle sairauslomalla sairausloman sairauslomaa sairausloma
+23	8223	vadelma	vadelma vadelmia vadelmat vadelman vadelmaa vadelmien
+24	8224	jalokivi	jalokiviä jalokivi jalokivet jalokiven jalokivien jalokiveä jalokivistä
+25	8225	oikaisu	oikaisu oikaisua oikaisun oikaisuja
+26	8226	lysti	lysti lystiä lystin
+27	8227	autonäyttely	autonäyttelyssä autonäyttely autonäyttelyn
+28	8228	eemeli	eemeli eemelin
+29	8229	symbolinen	symbolinen symbolisen symbolisia symbolisena symbolista symboliset
+30	8230	pöhinä	pöhinää pöhinä
+31	8231	kuntaliitto	kuntaliiton kuntaliitto kuntaliitosta
+32	8232	alien	alien alienit alienin alieneita
+33	8233	alkuviikosta	alkuviikosta
+34	8234	hyvänen	hyvänen
+35	8235	ihanasti	ihanasti
+36	8236	lauantaisin	lauantaisin
+37	8237	move	move
+38	8238	ohimennen	ohimennen
+39	8239	parisen	parisen
+40	8240	yhtäaikaa	yhtäaikaa
+41	8241	älyllisesti	älyllisesti
+42	8242	älyttömästi	älyttömästi
+43	8243	jaella	jakelee jakeli jaella jaellaan jakelemaan jakele jaellut jakelevat jaeltiin
+44	8244	markkinaosuus	markkinaosuus markkinaosuuden markkinaosuutta markkinaosuudella markkinaosuuksia markkinaosuudet
+45	8245	röyhkeä	röyhkeä röyhkeää röyhkeitä röyhkeän röyhkeät
+46	8246	uskotella	uskotella uskottelee uskotellaan uskotteli uskotellut uskoteltu uskoteltiin uskottelevat
+47	8247	helma	helma helmat helmaa helmassa helmaan helman helmoihin helmoissa helmasta helmoja helmojen
+48	8248	katti	katin katti katit
+49	8249	drinkki	drinkki drinkkejä drinkin drinkit drinkkien drinkkiä
+50	8250	varovaisuus	varovaisuutta varovaisuus varovaisuuteen varovaisuuden varovaisuudesta
+51	8251	venttiili	venttiili venttiilit venttiilin venttiilien venttiiliä venttiilejä venttiileitä
+52	8252	paneutua	paneutua paneutunut paneutuu paneutumista paneudutaan paneutui paneutuminen paneuduttu paneuduttiin
+53	8253	toka	toka tokan tokalla tokana tokassa
+54	8254	lahjus	lahjuksia lahjuksen lahjusten lahjukset lahjuksista lahjus
+55	8255	ulkoilma	ulkoilma ulkoilmassa ulkoilmaan ulkoilman ulkoilmasta ulkoilmaa
+56	8256	tallentua	tallentui tallentuu tallentunut tallentuvat
+57	8257	ajorata	ajoradan ajoradalle ajoradalla ajorata ajorataa ajoradalta
+58	8258	kastaa	kastaa kastettu kastettiin kastetaan kastoi kasta
+59	8259	kiero	kiero kieroon kieroa kieroja kieron kierolla kierot
+60	8260	täydellisyys	täydellisyyttä täydellisyyden täydellisyys täydellisyyteen täydellisyydestä
+61	8261	kaupunginvaltuutettu	kaupunginvaltuutettu kaupunginvaltuutetun kaupunginvaltuutetut kaupunginvaltuutettuna
+62	8262	suppo	supon supolla supolle
+63	8263	rintaliivit	rintaliivit liivit rintaliivejä rintaliivien
+64	8264	nuppi	nuppi nupit nupin nuppia nuppiin nupista
+65	8265	aski	askin aski askia askiin askissa
+66	8266	yhteisövero	yhteisöveron yhteisöveroa yhteisövero
+67	8267	työtoveri	työtoveri työtoverit työtoverinsa työtovereita työtovereiden työtoverin työtoverini työtovereista
+68	8268	jäähyväiset	jäähyväiset jäähyväisiä jäähyväisten
+69	8269	työttömyysaste	työttömyysaste työttömyysasteen
+70	8270	valehtelija	valehtelija valehtelijaksi valehtelijoita valehtelijan valehtelijat valehtelijoiden
+71	8271	murrosikä	murrosiän murrosiässä murrosikä murrosikään murrosikää murrosiästä
+72	8272	suvaita	suvaita suvaitse suvaitsematon suvaitsee suvaitsemattomia suvaittu suvainnut suvaitseva suvaitsevat
+73	8273	vittuilu	vittuilua vittuilu
+74	8274	lyhty	lyhty lyhdyn lyhdyt lyhtyjen lyhtyjä lyhtyä
+75	8275	tukiasema	tukiaseman tukiasema tukiasemien tukiasemat tukiasemia tukiasemaan tukiasemaa tukiasemasta
+76	8276	pahus	pahus pahuksen
+77	8277	kulmakarva	kulmakarvat kulmakarvojen kulmakarvoja kulmakarvansa
+78	8278	klisee	klisee kliseitä kliseistä kliseet kliseen
+79	8279	ehdonalainen	ehdonalaiseen ehdonalaista ehdonalaisen ehdonalainen ehdonalaisessa
+80	8280	kiusaus	kiusaus kiusausta kiusaukseen kiusauksen kiusaukset kiusauksia
+81	8281	kesäteatteri	kesäteatteri kesäteatterissa kesäteatterin kesäteatteriin kesäteatteria kesäteatterit
+82	8282	vaari	vaari vaariin vaarini vaaria vaarit vaarille vaarilla
+83	8283	bussipysäkki	bussipysäkillä bussipysäkille bussipysäkki bussipysäkin bussipysäkiltä bussipysäkeillä bussipysäkit
+84	8284	rappukäytävä	rappukäytävässä rappukäytävään rappukäytävän rappukäytävästä rappukäytävä
+85	8285	kasvihuone	kasvihuone kasvihuoneessa kasvihuoneen kasvihuoneissa kasvihuoneet kasvihuoneeseen kasvihuoneiden kasvihuoneita kasvihuoneesta
+86	8286	velvollinen	velvollinen velvollisia
+87	8287	putsata	putsata putsaa putsattu putsaan putsaamaan putsasi putsannut putsasin putsataan
+88	8288	varastointi	varastointi varastoinnin varastointiin varastointia varastoinnista
+89	8289	aksentti	aksentti aksentilla aksenttia aksentin aksentteja aksentista aksentit
+90	8290	eilisilta	eilisiltana eilisillan eilisillasta
+91	8291	astella	astelee asteli astella astelin astelivat
+92	8292	päivätä	päiväsi päivätty päivää päivään
+93	8293	humoristinen	humoristinen humoristisia humoristisen humoristista humoristiset humoristisella
+94	8294	pelipaita	pelipaidan pelipaita pelipaidat pelipaidoissa pelipaitansa
+95	8295	ryöstäjä	ryöstäjät ryöstäjä ryöstäjän ryöstäjien ryöstäjää ryöstäjistä ryöstäjiä
+96	8296	mieluinen	mieluinen mieluisin mieluista mieluisia
+97	8297	naurahtaa	naurahtaa naurahti naurahdin naurahtaen
+98	8298	valtias	valtias valtiaat valtiaan valtiaaksi valtiaita
+99	8299	toppi	toppi topin topit toppeja toppia toppiin topissa
+100	8300	moraaliton	moraalitonta moraaliton moraalittomana moraalittomia moraalittoman moraalittomaksi

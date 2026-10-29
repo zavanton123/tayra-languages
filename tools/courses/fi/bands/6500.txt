@@ -1,0 +1,100 @@
+1	6401	ateisti	ateisti ateisteja ateistit ateistien ateistiksi ateistin ateistina
+2	6402	kiduttaa	kiduttaa kidutettiin kidutetaan kidutettu kidutti kiduttivat kiduttamalla kiduttaminen kiduttamisesta kiduttanut kiduttamista kiduttavat
+3	6403	kahva	kahva kahvan kahvasta kahvaan kahvassa kahvaa kahvat kahvoja kahvalla kahvoista
+4	6404	kantti	kantilta kantti kanttia kantin kanttiini kanteilta
+5	6405	terveysministeriö	terveysministeriön terveysministeriö terveysministeriössä terveysministeriölle terveysministeriöstä
+6	6406	ripustaa	ripustaa ripustettu ripusta ripustetaan ripustettiin ripusti ripustin ripustanut ripustaminen ripustat ripustivat
+7	6407	nöyrä	nöyrä nöyränä nöyrää nöyriä nöyräksi nöyrän nöyrin nöyrinä
+8	6408	karanteeni	karanteeniin karanteenissa karanteeni karanteenin karanteenia karanteenista
+9	6409	maallinen	maallinen maallisen maallista maalliset maallisia maallisten maallisesta maallisista maalliseen
+10	6410	toivoton	toivoton toivotonta toivottoman toivottomalta toivottomia toivottomaksi toivottomana
+11	6411	elinympäristö	elinympäristön elinympäristö elinympäristöjen elinympäristöä elinympäristöjä elinympäristössä elinympäristöön elinympäristöt elinympäristöstä elinympäristönsä elinympäristöissä
+12	6412	sivullinen	sivullinen sivullisia sivulliset sivullisten sivullisille sivullisen sivullista sivullisena
+13	6413	osuuskauppa	osuuskauppa osuuskaupan osuuskauppojen
+14	6414	lima	lima limaa limassa liman limasta limaan
+15	6415	kasvattaja	kasvattaja kasvattajat kasvattajan kasvattajana kasvattajia kasvattajien kasvattajille kasvattajalta kasvattajaa
+16	6416	tekstitys	tekstitys tekstitykset tekstityksiä tekstityksen tekstitystä
+17	6417	dinosaurus	dinosaurus dinosaurukset dinosauruksen dinosauruksia dinosaurusten dinosauruksista dinosaurusta
+18	6418	kanslia	kanslia kanslian kansliaan kansliassa kansliasta
+19	6419	valaa	valaa valettu valan valoi valettiin valaisin valaisi valetaan valele valamaan valat valaisivat valoin
+20	6420	elämänlaatu	elämänlaatua elämänlaatu elämänlaadun elämänlaatuun elämänlaadusta
+21	6421	koura	kourassa kourissa kouraan koura kouran kouriin kourat kouraa kouria kourin
+22	6422	kirous	kirous kirouksen kirouksesta kirousta kirouksia
+23	6423	kaakko	kaakkoon kaakosta kaakon kaakossa kaakko
+24	6424	pääsykoe	pääsykokeet pääsykokeissa pääsykokeisiin pääsykoe pääsykokeiden pääsykokeen pääsykokeita pääsykokeeseen pääsykoetta pääsykokeista pääsykokeessa
+25	6425	sisäpiiri	sisäpiirin sisäpiirissä sisäpiiri sisäpiiriin sisäpiiristä sisäpiiriä
+26	6426	nykytila	nykytila nykytilasta nykytilan nykytilaa nykytilaan nykytilassa
+27	6427	ihmeissään	ihmeissään ihmeissäni
+28	6428	päivällinen	päivällinen päivällisen päivälliselle päivällistä päivällisellä päivälliseksi päivälliset päivällisillä
+29	6429	ehta	ehdoilla ehtaa ehtoja ehta ehtojen ehdoin ehdoista ehtoihin ehdoitta ehdoissa ehtoina
+30	6430	juhlapäivä	juhlapäivä juhlapäiviä juhlapäivää juhlapäivänä juhlapäivän juhlapäivinä juhlapäivät
+31	6431	vodka	vodkaa vodka vodkan vodkalla
+32	6432	oikeanlainen	oikeanlainen oikeanlaista oikeanlaisen oikeanlaiset oikeanlaisia oikeanlaisella oikeanlaiseen oikeanlaisesta
+33	6433	patruuna	patruunoita patruuna patruunaa patruunat patruunan patruunoiden
+34	6434	lähetystö	lähetystön lähetystö lähetystössä lähetystöön lähetystöstä lähetystöä lähetystöjen lähetystöt lähetystöissä
+35	6435	keskiyö	keskiyön keskiyöllä keskiyöhön keskiyötä keskiyö keskiyöstä
+36	6436	maantieteellinen	maantieteellinen maantieteellisen maantieteellistä maantieteellisestä maantieteelliset maantieteellisiä maantieteellisten maantieteellisellä maantieteelliseen maantieteellisistä
+37	6437	kuosi	kuosissa kuosi kuosiin kuoseja kuosin kuosit kuosia kuosien kuoseissa
+38	6438	romantiikka	romantiikka romantiikkaa romantiikan romantiikasta romantiikkaan
+39	6439	olka	olan olalle olalla olka olkansa olalta olkia olkani olkiaan olkien olin olkaa
+40	6440	alttari	alttarilla alttarille alttarin alttari alttaria alttarilta
+41	6441	sodankäynti	sodankäynnin sodankäyntiä sodankäynti sodankäyntiin sodankäynnissä sodankäynnistä
+42	6442	hiven	hivenen hiven hiventä
+43	6443	totaalinen	totaalisen totaalinen totaalista totaaliseen totaalisesta
+44	6444	energinen	energinen energistä energisen energisempi energisenä energisiä energiseksi energisellä
+45	6445	kunnianhimoinen	kunnianhimoinen kunnianhimoisia kunnianhimoisen kunnianhimoista kunnianhimoiset kunnianhimoisin kunnianhimoisena
+46	6446	sinikka	sinikka sinikan
+47	6447	evankeliumi	evankeliumin evankeliumia evankeliumi evankeliumissa evankeliumista evankeliumien evankeliumit
+48	6448	intti	intti intin intissä intistä inttiin
+49	6449	aaltonen	aaltosen aaltonen aaltosta
+50	6450	patteri	patterit patteri patterin pattereita patteria patteriin pattereiden pattereilla patterien patterilla
+51	6451	tosielämä	tosielämän tosielämässä tosielämää tosielämästä tosielämään tosielämä
+52	6452	poni	poni ponin ponit ponien poneja ponia ponilla poneista poneille ponille
+53	6453	painottua	painottuu painottuvat painottunut painottui painottuva painottua painottuen painottuivat
+54	6454	kolo	kolo koloon koloja kolossa kolon kolosta kolot koloihin koloa
+55	6455	romu	romua romu romun romut romuja romuksi romuna romusta romulla romujen
+56	6456	keihäs	keihään keihäs keihästä keihäitä keihäät keihäällä keihäästä keihäänsä keihäässä
+57	6457	kooma	koomaan koomassa koomasta kooma koomista kooman
+58	6458	albania	albanian albania albaniassa albaniasta albaniaa albaniaan
+59	6459	ekonomisti	ekonomisti ekonomistit ekonomistien ekonomisteja ekonomistin ekonomistina
+60	6460	tonttu	tonttu tontut tonttuja tonttujen tontun tonttua tontuista
+61	6461	itäpuoli	itäpuolella itäpuolelle itäpuolelta itäpuolen itäpuoli
+62	6462	kiireellinen	kiireellinen kiireellistä kiireellisen kiireellisenä kiireellisiä kiireelliset kiireellisissä kiireelliseen kiireelliseksi kiireellisessä kiireellisten kiireellisestä
+63	6463	linnoitus	linnoitus linnoituksen linnoitukseen linnoituksessa linnoitusta linnoituksia linnoituksesta linnoitukset linnoitusten
+64	6464	stipendi	stipendin stipendi stipendiä stipendejä stipendillä stipendit stipendien
+65	6465	hurjasti	hurjasti
+66	6466	hus	hus
+67	6467	jarrut	jarrut
+68	6468	rutkasti	rutkasti
+69	6469	sisäisesti	sisäisesti
+70	6470	taitavasti	taitavasti
+71	6471	tukossa	tukossa
+72	6472	vuorotellen	vuorotellen
+73	6473	edellisvuosi	edellisvuoden edellisvuodesta edellisvuoteen edellisvuotta edellisvuosien
+74	6474	naapurusto	naapuruston naapurustossa naapurusto naapurustoon naapurustoa naapurustosta
+75	6475	kehitysvammainen	kehitysvammaisten kehitysvammainen kehitysvammaisia kehitysvammaiset kehitysvammaisen kehitysvammaisille kehitysvammaista
+76	6476	norsu	norsun norsu norsuja norsut norsujen norsua norsulla
+77	6477	pikkujoulu	pikkujoulut pikkujouluissa pikkujouluihin pikkujouluja pikkujoulujen pikkujouluista
+78	6478	ryypätä	ryyppää ryypätä ryyppäämään ryyppäämisen ryyppääminen ryyppäsi ryyppäämässä ryyppäämistä ryypätään ryypännyt ryyppäävät ryyppään
+79	6479	syrjiä	syrjii syrji syrjitään syrjiä syrjitty syrjivä syrjivät syrjityksi syrjivää syrjimään syrjiviä syrjivän syrjimisestä syrjiminen
+80	6480	puhtaus	puhtaus puhtauden puhtautta puhtaudesta puhtauteen
+81	6481	raskaasti	raskaasti raskaammin
+82	6482	alaosa	alaosa alaosassa alaosan alaosaan alaosasta alaosaa alaosat alaosissa
+83	6483	koordinaatti	koordinaatit koordinaatteja koordinaattien koordinaatti koordinaateissa
+84	6484	peukalo	peukalo peukalon peukaloa peukalot peukalolla peukaloita peukalonsa
+85	6485	megabitti	mega megabitin megabittiä megaa
+86	6486	vetäjä	vetäjä vetäjänä vetäjät vetäjän vetäjäksi vetäjää vetäjinä vetäjiä
+87	6487	työllisyysaste	työllisyysaste työllisyysasteen työllisyysastetta
+88	6488	humanitaarinen	humanitaarisen humanitaarinen humanitaarista humanitääristä humanitaarisesta humanitäärinen humanitaariseen humanitaariset humanitaaristen humanitaarisia
+89	6489	kaukolämpö	kaukolämmön kaukolämpö kaukolämpöä kaukolämmöstä kaukolämpöön
+90	6490	kiintiö	kiintiöt kiintiö kiintiöitä kiintiön kiintiöiden kiintiötä kiintiöistä kiintiöön kiintiöstä
+91	6491	podcast	podcast podcasteja podcastin podcastissa podcastia podcastit
+92	6492	höyry	höyry höyryä höyryn höyryllä höyryt höyryjä höyrystä höyryssä
+93	6493	punkki	punkin punkki punkit punkkia punkkeja punkkien punkista punkeista punkiksi punkkiin
+94	6494	tahallinen	tahallinen tahallista tahallisesta tahallisen tahallisia tahalliseen tahalliselta
+95	6495	yliluonnollinen	yliluonnollisia yliluonnollinen yliluonnollista yliluonnolliseen yliluonnollisen yliluonnolliset yliluonnollisten yliluonnollisista yliluonnollisiin yliluonnollisesta
+96	6496	fiksusti	fiksusti fiksummin
+97	6497	valtavirta	valtavirran valtavirtaa valtavirrasta valtavirta valtavirtaan valtavirrassa
+98	6498	ihastuttava	ihastuttava ihastuttavan ihastuttavia ihastuttavaa ihastuttavat
+99	6499	itäraja	itärajan itärajalla itäraja itärajalle itärajaa itärajalta
+100	6500	keskimmäinen	keskimmäinen keskimmäisen keskimmäistä keskimmäisessä keskimmäiseen keskimmäisellä keskimmäisenä keskimmäiset keskimmäisestä

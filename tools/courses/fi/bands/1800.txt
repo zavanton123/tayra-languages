@@ -1,0 +1,100 @@
+1	1701	pääsy	pääsy pääsyä pääsyn pääsystä pääsyyn pääsynsä pääsyssä pääsyt pääsylle
+2	1702	liiketoiminta	liiketoiminnan liiketoiminta liiketoimintaa liiketoimintaan liiketoiminnassa liiketoiminnasta liiketoimintansa liiketoimintojen liiketoiminnalle liiketoiminnat liiketoimintoja liiketoiminnaksi liiketoimintamme liiketoiminnoista
+3	1703	markkinointi	markkinointi markkinoinnin markkinointia markkinointiin markkinoinnissa markkinoinnista markkinoinnilla markkinoinnille
+4	1704	kokoinen	kokoinen kokoisia kokoisen kokoiset kokoista kokoisessa kokoiseksi kokoisella kokoiseen kokoisiksi kokoiselle kokoisesta kokoisena kokoisina kokoisista kokoisiin kokoisten kokoisilla kokoisissa kokoiselta
+5	1705	silta	silta sillan siltaa sillalla siltoja sillalta sillat siltojen sillalle silloista sillasta siltaan siltana silloilla sillassa siltoihin
+6	1706	kunnioittaa	kunnioittaa kunnioittaen kunnioitetaan kunnioitan kunnioita kunnioitettava kunnioittava kunnioittamaan kunnioittavat kunnioittaminen kunnioitettu kunnioitti kunnioitamme kunnioittavan kunnioitat kunnioittamista kunnioittanut kunnioittivat kunnioitettavaa kunnioitettiin kunnioittavaa kunnioittamisesta kunnioitettavat kunnioittamiseen kunnioittaakseen kunnioitettavan kunnioittavia kunnioittamiseksi kunnioittaisi kunnioittamisen kunnioittavalla kunnioittamassa kunnioittavansa kunnioittamatta kunnioittaisivat kunnioitettaisiin
+7	1707	viihde	viihde viihdettä viihteen viihteestä viihteeseen viihteessä viihteeksi viihteellä viihteelle viihteenä
+8	1708	resepti	resepti reseptiä reseptejä reseptit reseptin reseptillä reseptien reseptissä resepteistä reseptistä reseptiin resepteissä resepteihin resepteillä reseptini reseptinsä
+9	1709	soini	soini soinin soinia soinille soinilta soinilla soinista soinissa
+10	1710	kuljettaa	kuljettaa kuljetti kuljetettiin kuljetetaan kuljettamaan kuljettavat kuljettamiseen kuljettanut kuljettaminen kuljettivat kuljetettu kuljettamisesta kuljettava kuljettamista kuljettamisen kuljetettava kuljettamassa kuljetin kuljettamalla kuljeta kuljettama kuljetamme kuljetettaessa kuljetan kuljettaen kuljetat kuljettamana kuljettamasta kuljettaisi kuljettaessa kuljettaman
+11	1711	kyyti	kyytiin kyydissä kyydistä kyyti kyytejä kyydin kyydillä kyydit kyydeistä kyytien
+12	1712	aikataulu	aikataulu aikataulut aikataulussa aikataulun aikataulua aikataulusta aikataululla aikatauluja aikatauluista aikataulujen aikatauluun aikatauluihin aikataulunsa aikatauluissa aikataulusi aikatauluni aikataulumme
+13	1713	kriisi	kriisi kriisin kriisissä kriisiä kriisiin kriisistä kriisit kriisien kriisejä kriiseissä kriiseihin kriiseistä kriisiksi
+14	1714	palvelus	palveluksessa palvelus palvelukseen palveluksen palveluksesta palvelusta palveluksia palveluksista palveluksensa palvelukset palvelusten palveluksessanne
+15	1715	potku	potkut potkuja potkua potku potkujen potkuihin potkuista potkun potkuilla potkulla potkusta
+16	1716	suosikki	suosikki suosikkini suosikkisi suosikkeja suosikit suosikkia suosikkinsa suosikin suosikkina suosikiksi suosikeista suosikkeihin suosikkien suosikkimme suosikeiksi
+17	1717	kokonaisuus	kokonaisuus kokonaisuutta kokonaisuuden kokonaisuudesta kokonaisuuteen kokonaisuudessa kokonaisuuksia kokonaisuudeksi kokonaisuuksina kokonaisuuksien kokonaisuudet kokonaisuuksista kokonaisuuksiksi kokonaisuuksiin kokonaisuudelle kokonaisuutensa
+18	1718	periaate	periaate periaatteella periaatteita periaatteet periaatteen periaatteesta periaatteiden periaatetta periaatteista periaatteisiin periaatteena periaatteilla periaatteeseen periaatteensa periaattein periaatteeni periaatteille periaatteelle periaatteemme
+19	1719	pullo	pullo pullon pulloa pl pulloja pullot pullossa pullosta pulloon pullojen pulloissa pulloihin pulloista pullolla pulloilla pullolta
+20	1720	näköjään	näköjään
+21	1721	päivittäin	päivittäin
+22	1722	vois	vois
+23	1723	yhtäkkiä	yhtäkkiä yht'äkkiä
+24	1724	enemmistö	enemmistö enemmistön enemmistöä enemmistöllä enemmistölle enemmistönä enemmistöön enemmistöstä enemmistönsä enemmistössä
+25	1725	harmaa	harmaa harmaan harmaata harmaita harmaat harmaalla harmaaseen harmaasta harmaaksi harmaana harmaassa harmaiden harmaalta harmaalle harmaisiin harmaista harmaissa harmaja harmaiksi harmaina harmaampi
+26	1726	puisto	puistossa puisto puiston puistoon puistoissa puistosta puistot puistoa puistoja puistojen puistoista puistoihin puistoksi
+27	1727	huolissaan	huolissaan huolissani huolissamme huolissasi
+28	1728	marja	marja marjat marjoja marjatta marjojen marjaa marjoista marjan marjoilla marjoihin marjoissa marjaan marjassa marjasta
+29	1729	viides	viides viidennen viidenneksi viidennellä viidennessä viidentenä viidenteen viidennestä viidennelle viidenneltä viidennet viidettä
+30	1730	linna	linnan linna linnaan linnassa linnaa linnasta linnoja linnat linnalle linnansa linnoista linnalta linnojen linnamme linnalla
+31	1731	maito	maitoa maito maidon maidosta maitoon maidolla maidossa maidot maidolle
+32	1732	laulaja	laulaja laulajan laulajana laulajat laulajia laulajaa laulajien laulajaksi laulajista laulajalle laulajille laulajalla laulajasta laulajaan laulajiin
+33	1733	kiekko	kiekko kiekon kiekkoa kiekkoja kiekkoon kiekossa kiekot kiekolla kiekosta kiekkojen kiekolle
+34	1734	talli	tallin talli tallissa talliin tallia tallille tallit tallista tallilla tallien talleilla tallinsa tallilta talleja talleille tallina talleista
+35	1735	ajattelu	ajattelu ajattelua ajattelun ajatteluun ajattelusta ajattelussa ajattelunsa ajattelulla ajattelulle ajattelusi ajatteluni
+36	1736	seksuaalinen	seksuaalinen seksuaalista seksuaalisen seksuaalisesta seksuaaliseen seksuaalisia seksuaaliset seksuaalisista seksuaalisten seksuaalisessa seksuaalisella seksuaalisiin seksuaalisena seksuaaliseksi seksuaaliselle seksuaaliselta
+37	1737	selkeästi	selkeästi selkeämmin selkeimmin
+38	1738	korko	korot korko korkojen korkoa korkoja korolla koron korkoineen koroista koroilla korolle korkoihin koroissa korkoon korosta
+39	1739	koostua	koostuu koostuva koostuvat koostui koostua koostunut koostuivat koostu koostuisi koostuen
+40	1740	rangaistus	rangaistus rangaistuksen rangaistusta rangaistukset rangaistuksia rangaistuksena rangaistukseksi rangaistusten rangaistukseen rangaistuksesta rangaistuksensa rangaistuksista rangaistuksiin rangaistuksetta rangaistuksilla rangaistukselta rangaistuksella
+41	1741	unelma	unelma unelmien unelmia unelmat unelmaa unelman unelmansa unelmasi unelmani unelmista unelmasta unelmiin unelmana unelmaan unelmissa unelmamme unelmilla unelmaksi unelmalta unelmassa unelmille
+42	1742	henkinen	henkinen henkistä henkisen henkiseen henkisiä henkisestä henkiset henkisellä henkisessä henkisten henkisistä henkisenä henkiseksi henkiselle henkisiin henkiseltä henkisissä henkisiltä henkisille
+43	1743	ruutu	ruutu ruudun ruutuun ruudusta ruudussa ruudulla ruutua ruudulle ruudulta ruudut ruutuja ruutuihin ruutujen ruuduissa ruuduista ruuduilla
+44	1744	pro	pro pron prot prossa prolla
+45	1745	varastaa	varastaa varastettu varasti varastettiin varastanut varastaminen varastetaan varastetun varastamaan varastamista varastetut varastivat varastamisesta varastettuja varastavat varastettua varasta varastaneen varastetulla varastamisen varastetuksi varastin varastetuista varastamalla varastettujen varastetusta varastamiseen varastamassa varastetuilla varastan varastat varastaakseen varastetussa
+46	1746	tulkinta	tulkinta tulkinnan tulkintaa tulkintoja tulkinnasta tulkinnat tulkintaan tulkinnassa tulkintani tulkintansa tulkintoihin tulkinnoista tulkintojen tulkinnalle tulkinnalla tulkinnoissa tulkinnoille tulkintana tulkintasi
+47	1747	esine	esineitä esine esineet esineen esineiden esinettä esineistä esineisiin esineestä esineellä esineeseen esineillä esineenä esineissä esineille esineeksi esineelle esineessä esineiksi
+48	1748	parata	paranee parane parani paranevat paranisi paranemaan paranivat paranemassa paranisivat paranen paratkoon
+49	1749	viini	viiniä viini viinin viinit viinejä viinien viinistä viineistä viiniin viinissä viiniksi viineihin viinillä viineissä viinille viineille
+50	1750	kamala	kamala kamalaa kamalan kamalia kamalalta kamalat kamalin kamalinta kamalaan kamalassa kamalampaa kamalampi kamalasta kamalaksi kamalimmat kamalista
+51	1751	jännä	jännä jännää jänniä jännän jännät jännäksi jännältä jänskää
+52	1752	vihollinen	vihollisen vihollinen vihollisia viholliset vihollista vihollisten vihollisensa viholliselle viholliseksi vihollisena vihollisista vihollisina vihollisesta vihollisille viholliseen vihollisiin vihollisilta vihollisiksi vihollisesi viholliselta viholliseni vihollisemme
+53	1753	rikollinen	rikollinen rikollisia rikolliset rikollisten rikollista rikollisen rikollisille rikolliseksi rikollisesta rikollisista rikolliseen rikollisena rikollisiin rikollisiksi rikolliselle rikollisilta rikollisina rikollisilla rikollisella rikolliselta rikollisessa
+54	1754	housut	housut housuja housuun housuissa housujen housuihin housussa housuista housu housuilla housun housuille
+55	1755	koota	kokosi koota kokoaa koonnut kootaan kokoamaan koottiin kokosimme kokoaminen kokosivat kokoavat kokoama kokosin kokoamista kokoamiseen koottava kokoamisen kokoamalla kokoamassa kokoamme kokoava kokoamisessa kokoamisesta kokoan kokoaman kooten kokoat koottaisiin kokoamiseksi kokoa kokoaisi
+56	1756	nukkumaan	nukkumaan
+57	1757	pääosin	pääosin
+58	1758	ulkomailla	ulkomailla
+59	1759	matkustaja	matkustajaa matkustaja matkustajat matkustajia matkustajien matkustajan matkustajista matkustajille matkustajalle matkustajilta matkustajana matkustajalla matkustajasta matkustajilla matkustajina matkustajaan matkustajiin matkustajineen
+60	1760	tyypillinen	tyypillinen tyypillistä tyypillisiä tyypillisen tyypilliset tyypilliseen tyypillisin tyypillisestä tyypillisessä tyypillisellä tyypillisistä tyypillisten tyypillisenä tyypilliseksi tyypillisiin tyypilliseltä tyypillisillä
+61	1761	tahti	tahtiin tahtia tahdissa tahti tahdilla tahdin tahdista tahdit
+62	1762	astua	astuu astui astua astunut astu astuin astuvat astumaan astuivat astuessa astumassa astumista astun astuminen astuisi astut astuneet astutaan astumisen astuva astumasta astuttava astumalla astumme astumisesta astuimme astumatta
+63	1763	edellyttää	edellyttää edellyttävät edellytä edellyttäisi edellytetään edellytti edellyttäen edellyttämällä edellyttänyt edellyttämä edellytetty edellytämme edellytettiin edellyttämän edellyttämässä edellyttivät edellyttävä edellyttämään edellyttäisivät edellytän edellytettäisiin
+64	1764	liittää	liittää liitetty liitetään liitettiin liittäminen liitti liitin liittämistä liitä liittämään liittänyt liittämisen liittämällä liittävät liitettävä liittämisestä liittämiseen liitän liitettäisiin liittämiseksi liittäisi liitämme liität liittivät
+65	1765	terveydenhuolto	terveydenhuollon terveydenhuolto terveydenhuollossa terveydenhuoltoon terveydenhuoltoa terveydenhuollosta terveydenhuollolle
+66	1766	ykkönen	ykkönen ykkösen ykköseksi ykkösenä ykkösessä ykköseen ykköstä ykkösellä ykköset ykkösiä ykkösestä ykköselle ykkösten ykkösissä ykkösistä ykkösiin ykköseltä ykkösiksi
+67	1767	ilmastonmuutos	ilmastonmuutoksen ilmastonmuutos ilmastonmuutosta ilmastonmuutokseen ilmastonmuutoksesta ilmastonmuutoksella ilmastonmuutoksessa ilmastonmuutokselle
+68	1768	asentaa	asentaa asennettu asennetaan asennettiin asentamaan asennettuna asenna asentaminen asentanut asensi asensin asennettua asentamalla asennetut asentamista asentamisen asennettava asennetun asentamassa asentamiseen asennamme asensivat asennat asentamisesta asentavat asennettavaksi asentamatta asennettaisiin asennetulla asennan asennettaessa asennetusta asennettavien asennettavan
+69	1769	ulkomaalainen	ulkomaalaisia ulkomaalaisten ulkomaalaiset ulkomaalainen ulkomaalaisen ulkomaalaisille ulkomaalaista ulkomaalaisista ulkomaalaiselle ulkomaalaisiin ulkomaalaisilla ulkomaalaisilta ulkomaalaisella ulkomaalaisena ulkomaalaiselta ulkomaalaisesta ulkomaalaiseen ulkomaalaiseksi
+70	1770	jätkä	jätkä jätkät jätkän jätkää jätkiä jätkällä jätkien jätkille jätkälle jätkistä jätkillä jätkältä jätkään jätkästä
+71	1771	hajota	hajosi hajoaa hajonnut hajota hajoaminen hajoavat hajoamisen hajoa hajoamista hajosivat hajoamisesta hajoamiseen hajonneen hajotessa hajoaisi hajoamaan hajonneet hajoavan hajoamassa hajosin hajonneita hajoava hajoan hajoavaa hajoavia hajonnutta hajonneesta hajottavan hajottava hajottavat
+72	1772	teini	teini teinit teininä teinejä teinien teinin teiniä teineille teineistä teinille teinistä teiniltä
+73	1773	lainsäädäntö	lainsäädäntö lainsäädännön lainsäädäntöä lainsäädännössä lainsäädäntöön lainsäädännöllä lainsäädännöstä lainsäädännöksi
+74	1774	yhteiskunnallinen	yhteiskunnallinen yhteiskunnallisen yhteiskunnallisia yhteiskunnallista yhteiskunnalliset yhteiskunnalliseen yhteiskunnallisten yhteiskunnallisesta yhteiskunnallisiin yhteiskunnallisista yhteiskunnallisessa yhteiskunnallisena yhteiskunnallisissa yhteiskunnallisella yhteiskunnalliseksi yhteiskunnalliselle yhteiskunnallisille yhteiskunnalliselta
+75	1775	kulutus	kulutus kulutuksen kulutusta kulutukseen kulutuksesta kulutuksessa kulutuksella kulutukselle kulutukset kulutuksensa
+76	1776	moderni	moderni modernin modernia modernit moderneja modernissa moderniin modernista modernien modernilla moderneista moderniksi moderneissa modernimpi modernina modernille moderneilla modernein modernimpaa moderneihin modernilta modernimman modernimpaan moderneille
+77	1777	ylläpitää	ylläpitää ylläpitämään ylläpitäminen ylläpitämiseksi ylläpitävät ylläpitämiseen ylläpitämä ylläpidetään ylläpitämistä ylläpitävä ylläpitämisestä ylläpitämän ylläpitämisen ylläpitämässä ylläpitänyt ylläpidetty ylläpitämällä ylläpidä ylläpiti ylläpitämisessä ylläpidettävä ylläpitämästä ylläpitivät ylläpitääkseen ylläpidämme ylläpidettiin
+78	1778	sankari	sankari sankarit sankareita sankarin sankaria sankarina sankariksi sankareiden sankareista sankarien sankarille sankareina sankarista sankareille sankareiksi sankarimme sankarinsa sankareihin sankarilla sankareilla
+79	1779	toive	toiveita toive toiveet toiveen toiveiden toiveena toiveeni toiveissa toiveensa toiveista toivetta toiveesta toiveesi toiveisiin toiveemme toiveeseen toiveenne
+80	1780	vapaaehtoinen	vapaaehtoinen vapaaehtoisia vapaaehtoista vapaaehtoiset vapaaehtoisten vapaaehtoisen vapaaehtoisena vapaaehtoiseksi vapaaehtoisista vapaaehtoiseen vapaaehtoisesta vapaaehtoisille vapaaehtoisina vapaaehtoisilla vapaaehtoisiin vapaaehtoisella vapaaehtoisiksi vapaaehtoisessa vapaaehtoiselle
+81	1781	hitaasti	hitaasti hitaammin
+82	1782	perille	perille perillä
+83	1783	luonnollinen	luonnollinen luonnollista luonnollisen luonnollisia luonnolliset luonnollisena luonnolliselta luonnollisten luonnollisista luonnollisessa luonnolliseen luonnollisesta luonnollisella luonnollisiin luonnollisin luonnollisempi luonnollisempaa luonnolliseksi luonnollisilla luonnollisilta luonnollisissa luonnollisille luonnollisina luonnollisemman
+84	1784	vakuuttaa	vakuuttaa vakuuttava vakuutti vakuuttanut vakuuta vakuuttavaa vakuuttamaan vakuuttavan vakuutettu vakuuttavat vakuuttavia vakuuttivat vakuutettua vakuutan vakuutetaan vakuutettiin vakuutettava vakuuttavampi vakuuttavalta vakuuttaminen vakuuttaakseen vakuutat vakuuttavin vakuutettuja vakuuttamalla vakuuttavalla
+85	1785	perua	perua peruttu perui peruttiin perumaan perun perutaan peru peruu peruminen perumista perunut peruin peruivat peruttava perumisesta perumisen perumiseen peruisi peruvat
+86	1786	toimenpide	toimenpiteitä toimenpiteet toimenpide toimenpiteisiin toimenpiteiden toimenpiteen toimenpiteistä toimenpidettä toimenpiteillä toimenpiteestä toimenpiteenä toimenpiteeseen toimenpiteellä toimenpitein toimenpiteessä toimenpiteissä toimenpiteiksi toimenpiteille
+87	1787	neuvoa	neuvoa neuvoo neuvo neuvoi neuvomaan neuvot neuvon neuvotaan neuvonut neuvonen neuvovat neuvottiin neuvoin neuvottu neuvoivat neuvomassa neuvoisin neuvomme neuvoisi
+88	1788	unioni	unionin unioni unioniin unionissa unionista unionia unionille unionilla unionilta
+89	1789	selitys	selitys selitystä selityksiä selityksen selitykset selitykseksi selityksenä selitykseen selitysten selityksestä selityksensä selityksistä selityksiin selityksillä selityksellä selityksessä
+90	1790	esillä	esillä
+91	1791	naimisiin	naimisiin
+92	1792	parhaimmillaan	parhaimmillaan
+93	1793	pääasiassa	pääasiassa
+94	1794	opetella	opetella opettele opetellaan opettelee opettelemaan opetellut opettelin opetteli opettelen opettelevat opeteltava opetelkaa opeteltiin opettelet opettelemme opetellessa opeteltu opettelemista opettelemassa opetteleminen opettelemalla opettelivat opettelisi opettelimme
+95	1795	mummo	mummo mummi mummon mummot mummoa mummu mummojen mummoni mummin mummolle mummoja mummolta mummini mummonsa mummun mummia mummolla mummille mummosta mummosi mumminsa mummoille mummoilta mummilla
+96	1796	ylpeä	ylpeä ylpeitä ylpeänä ylpeinä ylpeillä ylpeän ylpeäksi ylpein
+97	1797	investointi	investointeja investoinnit investointi investointien investointeihin investoinneista investoinnin investointia investoinneilla investointina investoinnista investoinneille investoinneissa investointiin investoinnilla investointeina
+98	1798	valvonta	valvonta valvontaa valvonnan valvonnassa valvontaan valvonnasta valvonnalla valvonnalle
+99	1799	liikevaihto	liikevaihto vaihto liikevaihdosta liikevaihdon liikevaihtoa liikevaihdolla liikevaihtoon liikevaihtonsa
+100	1800	suoja	suojaa suoja suojassa suojan suojaan suojaksi suojissa suojiin suojat suojana suojasta suojia suojista suojien

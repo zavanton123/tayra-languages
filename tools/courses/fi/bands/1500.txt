@@ -1,0 +1,100 @@
+1	1401	jokeri	jokerit jokereiden jokeri jokerien jokereissa jokerin jokereihin jokereita jokereille jokereilla jokereilta jokereista jokeria jokerina
+2	1402	keskimäärin	keskimäärin
+3	1403	tulevaisuudessa	tulevaisuudessa
+4	1404	paeta	pakeni paeta pakenemaan paennut pakenee pakenevat pakenivat pakene pakenin paenneen pakeneminen pakenen paetakseen pakenemista paetaan pakenemisen pakeneva paettava paennutta pakenemassa pakenemalla paetessa pakenemasta pakenemme pakenemiseen pakenisi pakenemisesta paetkaa
+5	1405	kirje	kirjeen kirje kirjeitä kirjeet kirjettä kirjeessä kirjeiden kirjeestä kirjeistä kirjeellä kirjeeseen kirjeissä kirjeensä kirjeisiin kirjeenä kirjeesi kirjeillä
+6	1406	lisääntyä	lisääntyy lisääntynyt lisääntyvät lisääntyi lisääntyä lisääntyessä lisääntymään lisääntyvän lisääntyivät lisäänny lisääntyvä lisääntyisi lisääntymässä lisääntyvää lisääntyisivät lisääntyviä lisääntyvään lisääntyvien lisääntyvästä lisääntyäkseen lisääntykää lisääntyvässä
+7	1407	savo	savon savo savossa savosta savoon savotta savoa
+8	1408	melkoinen	melkoinen melkoisen melkoista melkoisia melkoiset melkoisella melkoisessa melkoiselta melkoiseen melkoiseksi melkoisena
+9	1409	iho	iho ihon ihoa iholle iholla ihosi ihoon ihoni ihosta ihonsa ihossa iholta
+10	1410	juhlia	juhlia juhlitaan juhli juhlimaan juhlii juhlien juhlivat juhlittiin juhlimassa juhlittu juhlimme juhlinut juhliminen juhlimista juhlin juhlimisen juhliessa juhlimiseen juhliva
+11	1411	näköinen	näköinen näköisiä näköistä näköiset näköisen näköisenä näköiseksi näköisiksi näköisestä näköiseen näköisinä näköisessä näköiseni näköisistä näköisensä näköisellä näköiselle näköisesi näköisten
+12	1412	muodostua	muodostuu muodostunut muodostui muodostua muodostuvat muodostumista muodostuminen muodostu muodostuisi muodostuva muodostumisen muodostumiseen muodostumassa muodostuivat muodostumaan muodostumiselle muodostumisessa muodostumisesta muodostuessa
+13	1413	uusia	uusien uusin uusittu uusia uusiminen uusimman uusimaan uusimmat uusitaan uusittiin uusii uusimmassa uusimista uusimisesta uusimpien uusinut uusimiseen uusimpia uusimisen uusittava uusimmista uusimpana uusimassa uusitun uusittua uusimmasta uusimpaan uusimmissa uusivat uusimalla uusimme uusine uusimatta uusitulla uusitussa uusimpiin uusimmalla uusimmilla uusimmalle
+14	1414	huhtikuu	huhtikuussa huhtikuun huhtikuuta huhtikuu huhti huhtikuusta huhtikuuhun huhtikuulle huhtikuulta
+15	1415	väite	väite väitteitä väitteet väitettä väitteen väitteiden väitteesi väitteestä väitteisiin väitteistä väitteensä väitteeseen väitteelle väitteille väitteeni väitteillä väitteissä väitteessä väitteellä
+16	1416	kärki	kärjessä kärkeen kärki kärjen kärkeä kärjestä kärjet kärjellä kärkenä kärkien kärjelle kärkiä kärjistä kärkiin kärjeksi
+17	1417	teho	teho tehot tehoa teholla tehon tehoja tehosta tehoilla tehoin tehoon teholle tehojen tehoista tehoihin
+18	1418	leikkiä	leikkiä leikki leikkimään leikkii leikin leikitään leikkivät leikit leiki leikkiminen leikkimistä leikkimässä leikittiin leikkinyt leikkien leikimme leikkimisestä leikkimällä leikkimisen leikkiessä leikkimästä leikitty leikkisi leikkimiseen leikkivä
+19	1419	kuluttaja	kuluttaja kuluttajien kuluttajan kuluttajat kuluttajille kuluttajalle kuluttajia kuluttajaa kuluttajana kuluttajalla kuluttajista kuluttajilla kuluttajilta kuluttajiin kuluttajalta kuluttajina kuluttajaan
+20	1420	ilmainen	ilmainen ilmaisia ilmaisen ilmaiset ilmaisesta ilmaiseen ilmaisella ilmaisista ilmaisin ilmaisena ilmaisten ilmaisilla ilmaiselle ilmaisessa ilmaisiin ilmaisimen ilmaisimet
+21	1421	keskus	keskus keskuksen keskuksessa keskukseen keskukset keskuksesta keskusten keskuksia keskukselle keskuksista keskuksissa keskuksiin keskuksena keskukselta keskuksella keskukseksi keskuksille
+22	1422	murha	murhasta murha murhan murhaa murhat murhaan murhista murhia murhien murhiin murhana murhaksi murhassa murhissa murhansa
+23	1423	vaihto	vaihto vaihtoon vaihdossa vaihtoa vaihdon vaihdosta vaihdoin vaihtoja vaihdot vaihdolla vaihtojen vaihdoista vaihtoihin vaihdolle
+24	1424	kartta	kartta kartalla kartan karttaa karttoja kartalta kartat kartalle kartassa kartasta karttaan karttojen kartoissa kartoista karttoihin kartoilla karttansa karttana
+25	1425	etukäteen	etukäteen
+26	1426	mahtavaa	mahtavaa
+27	1427	nimittäin	nimittäin
+28	1428	tietenkään	tietenkään
+29	1429	luovuttaa	luovuttaa luovuttamaan luovutti luovuttanut luovutetaan luovutettiin luovuta luovutettu luovuttamista luovutan luovuttaminen luovuttamisesta luovutin luovutettava luovuttivat luovuttavat luovuttava luovuttamassa luovuteta luovuttamisen luovuttaisi luovuttamasta luovuttamalla luovutetun luovuttamatta luovutamme luovutat luovuttamiseen luovutettua luovutettaisiin luovutimme luovutetusta luovuttaessa
+30	1430	hypätä	hyppää hypätä hyppäsi hypännyt hyppäämään hyppäsin hypätään hyppään hyppäävät hyppäsivät hyppääminen hyppäämällä hyppäät hypättiin hyppäämistä hypätty hyppäisi hyppäsimme hyppäämässä hyppäämisen hyppäävän hyppäämisestä hypättävä hypätessä hyppäävä hyppäämiseen hyppäämme hyppäämästä
+31	1431	pimeä	pimeässä pimeää pimeä pimeän pimeällä pimeään pimeänä pimeitä pimeästä pimeät pimeälle pimein pimeinä pimeiden pimeäksi pimeillä pimeisiin pimeissä pimeältä pimeistä pimeimpään pimeille pimeämpi pimee pimeiltä pimeintä
+32	1432	suosio	suosio suosion suosiota suosiossa suosiolla suosioon suosiosta suosionsa suosiolle
+33	1433	kela	kela kelan kelaa kelaan kelalle kelasta kelalla kelalta kelassa keloja kelat kelojen
+34	1434	vapauttaa	vapauttaa vapautettiin vapautti vapautettu vapautetaan vapauttamaan vapauttaminen vapauttamista vapauta vapauttamisen vapauttanut vapauttavaa vapauttakaa vapauttamisesta vapauttava vapauttavat vapauttivat vapauttavan vapauttaisi vapauttamiseksi vapauttamiseen vapautettaisiin vapauttamalla vapautettava vapauttaen vapauttaakseen vapauttamassa vapauttamisessa vapautin vapautamme vapauttama vapauttavalta
+35	1435	rivi	riveissä riveihin rivi rivien rivin rivit riviä rivissä riveistä riviin rivejä rivillä riville rivistä rivinsä riviltä riveillä
+36	1436	vene	vene veneen veneessä venettä veneellä veneeseen veneet veneestä veneitä veneiden veneistä veneillä veneensä veneisiin veneelle veneissä veneille veneesi veneemme veneeltä
+37	1437	osake	osakkeita osakkeiden osakkeet osake osakkeen osakkeista osaketta osakkeisiin osakkeilla osakkeensa osakkeelta osakkeissa osakkeesta osakkeella osakkeina osakkeeseen osakkeille osakkeelle osakkeiksi
+38	1438	tiede	tieteen tiede tiedettä tieteiden tieteessä tieteeseen tieteestä tieteelle tieteet tieteitä tieteissä tieteenä tieteellä tieteeksi tieteistä tieteisiin
+39	1439	askel	askel askeleen askelta askeleet askelin askeleita askelia askeleelta askeleella askelen askeleena askelten askeleesta askelista askeleensa askeleeseen askeleista askeleeni
+40	1440	paino	paino painoa painon painosta painoon painoja painonsa painoin painot painolla painoilla painoni painossa painojen painoksi painosi painoista painona
+41	1441	palkita	palkittiin palkittu palkitaan palkita palkitsee palkitsi palkitsevaa palkitun palkitseminen palkitsemisen palkitsevat palkinnut palkitseva palkitsemaan palkittua palkitsemista palkitse palkitsen palkitussa palkitsivat palkitsemiseen palkitusta palkitsemalla palkituksi palkitsemisesta palkittaisiin
+42	1442	käyttäytyä	käyttäytyä käyttäytyy käyttäytymistä käyttäytyminen käyttäytymisen käyttäytyvät käyttäytymiseen käyttäytyi käyttäytynyt käyttäytymisestä käyttäytymään käyttäydy käyttäydyin käyttäytymisessä käyttäytyvä käyttäytyivät käyttäydytään käyttäydyt käyttäytyisi käyttäytymisensä käyttäydyn käyttäytymällä käyttäytyisivät käyttäytymisellä käyttäytymiselle käyttäydymme käyttäydyttävä
+43	1443	osapuoli	osapuolet osapuoli osapuolen osapuolten osapuolia osapuolille osapuolta osapuolelle osapuolena osapuolien osapuolilla osapuolella osapuolilta osapuolista osapuolina osapuolelta osapuoleksi osapuoliin osapuoleen osapuolesta
+44	1444	lainata	lainaa lainata lainasi lainattu lainaan lainasin lainaten lainannut lainaamaan lainataan lainaaminen lainattua lainaat lainattiin lainaavat lainaamalla lainaamassa lainasivat lainatut lainatun lainaamisen lainaamisesta lainasit lainaamista lainattava lainatulla lainaisi lainaamme
+45	1445	koittaa	koittaa koita koitan koitti koittanut koitetaan koitin koittavat koittaessa koittakaa koittaisi koittamaan koitettiin koittivat koitettu koitamme koitat koittaneen koittamassa
+46	1446	kokenut	kokenut kokeneet kokeneita kokeneen kokenutta kokeneiden kokeneempi kokeneille kokeneensa kokeneena kokenein kokeneelle kokeneista kokeneelta kokeneella kokeneesta
+47	1447	käsittely	käsittely käsittelyyn käsittelyssä käsittelyn käsittelyä käsittelystä käsittelyllä käsittelylle käsittelyt käsittelyjä
+48	1448	ärsyttää	ärsyttää ärsyttävä ärsyttävää ärsytti ärsyttävät ärsyttäviä ärsytä ärsyttänyt ärsyttävän ärsyttämään ärsyttäisi ärsyttävin ärsyttävänä ärsyttivät ärsyttäväksi ärsyttävältä ärsyttäminen ärsyttävien ärsyttävistä
+49	1449	ajo	ajo ajon ajossa ajoa ajot ajoon ajosta ajoja ajojen ajoin ajoihin ajolla ajoista ajokin ajoilta ajoiksi ajoille ajoilla
+50	1450	teknologia	teknologian teknologia teknologiaa teknologiaan teknologiasta teknologiat teknologialla teknologioita teknologioiden teknologiassa teknologioihin teknologioista teknologialle teknologioilla teknologiansa teknologiamme
+51	1451	myyjä	myyjä myyjän myyjät myyjiä myyjälle myyjien myyjää myyjältä myyjänä myyjille myyjällä myyjistä myyjillä myyjiltä myyjästä myyjäksi myyjään myyjiin myyjinä
+52	1452	tauko	tauon tauko taukoa tauolla tauolle taukoja tauotta tauolta tauot tauoilla taukojen tauosta taukoon tauoista
+53	1453	alun	alun
+54	1454	jep	jep
+55	1455	juu	juu
+56	1456	toistaiseksi	toistaiseksi
+57	1457	väärässä	väärässä
+58	1458	muisto	muistoja muistot muisto muistoksi muistoa muistolle muistojen muiston muistona muistonsa muistoista muistoihin muistosi muistoissa muistoni muistoina muistoon
+59	1459	pysähtyä	pysähtyä pysähtyy pysähtyi pysähdy pysähtynyt pysähtymään pysähtyvät pysähtyivät pysähtymättä pysähtyminen pysähdyin pysähdyimme pysähtyneet pysähtyneen pysähtyisi pysähtymisen pysähdytään pysähdymme pysähtymistä pysähdyn pysähdyttävä pysähtyen pysähtymiseen pysähtyessä pysähtyneenä pysähtymisestä pysähdyttiin pysähtynyttä pysähdyt pysähdellä
+60	1460	vaikeus	vaikeuksia vaikeuksissa vaikeuksiin vaikeus vaikeudet vaikeuksista vaikeuksien vaikeudesta vaikeutta vaikeuden vaikeuksitta vaikeuteen vaikeutena vaikeutensa
+61	1461	kaikkialla	kaikkialla kaikkialle kaikkialta
+62	1462	ukraina	ukrainan ukraina ukrainassa ukrainaan ukrainasta ukrainaa ukrainalle ukrainalla ukrainaksi
+63	1463	vuokra	vuokra vuokraa vuokrat vuokralla vuokran vuokralle vuokrien vuokria vuokraan vuokrasta vuokransa vuokrista vuokriin vuokrissa vuokrassa
+64	1464	teatteri	teatteri teatterin teatterissa teatteria teatteriin teattereissa teatterista teattereihin teatterit teatterille teattereiden teatterilla teattereita teatteriksi teatterien teatterina teattereista teatterilta
+65	1465	omaisuus	omaisuuden omaisuutta omaisuus omaisuutensa omaisuudesta omaisuuteen omaisuudeksi omaisuutesi omaisuuksia omaisuudella omaisuutena omaisuudelle omaisuuteni omaisuudet omaisuuksien omaisuutemme
+66	1466	meinata	meinaa meinasin meinaat meinasi meinannut meinasit meinataan meinaavat meinasivat meinata meinattiin meinaatte meinattu
+67	1467	puola	puolan puola puolassa puolaan puolasta puolin puolaa puolilla puoliksi puolia puolilta puolalle puolille puolista puolaksi puolalla puolanne puolien puoliin puolina
+68	1468	köyhä	köyhä köyhiä köyhien köyhät köyhän köyhille köyhää köyhistä köyhiltä köyhissä köyhänä köyhässä köyhästä köyhillä köyhään köyhälle köyhällä köyhiin köyhempi köyhin köyhempiä köyhäksi köyhemmät köyhältä köyhinä köyhempien köyhemmän köyhempää köyhemmissä köyhemmistä köyhiksi
+69	1469	järkevä	järkevää järkevä järkeviä järkevältä järkevän järkevin järkevään järkevät järkevällä järkevänä järkevämpi järkeväksi järkevässä järkevästä järkevien järkeviin järkevinä järkevälle järkeviltä
+70	1470	museo	museo museon museossa museot museoon museoiden museota museoita museoissa museosta museolle museoihin museolla museoista museona museoksi museoille museolta
+71	1471	vaiva	vaivaa vaiva vaivan vaivalla vaivatta vaivoin vaivoja vaivaan vaivat vaivasta vaivoihin vaivoista vaivojen vaivaksi vaivansa vaivana vaivani vaivalta
+72	1472	jääkiekko	jääkiekon jääkiekko jääkiekkoa jääkiekossa jääkiekosta jääkiekkoon jääkiekolle
+73	1473	kaataa	kaataa kaada kaatoi kaadetaan kaatamalla kaadettu kaatamaan kaadettiin kaadoin kaatoivat kaatanut kaataminen kaatamista kaatavat kaadettua kaatamisesta kaatamassa kaatamiseen kaadan kaataen kaataisi kaadat kaatamiseksi kaatamisen kaadettava kaatavan kaadetun
+74	1474	vastustaja	vastustajan vastustaja vastustajat vastustajien vastustajia vastustajaa vastustajansa vastustajalle vastustajaksi vastustajille vastustajana vastustajista vastustajiin vastustajaan vastustajilla vastustajalla vastustajasi vastustajasta vastustajina vastustajilta vastustajalta vastustajamme
+75	1475	helmikuu	helmikuussa helmikuun helmikuuta helmikuu helmikuusta helmikuuhun helmikuulle helmikuulta
+76	1476	korea	korean korea koreassa koreaan koreasta koreaa koreaksi korealle korealla koreoiden koreat koreihin koreissa koreista koreilla
+77	1477	toteutua	toteutuu toteudu toteutumista toteutui toteutuvat toteutua toteutuminen toteutumisen toteutuisi toteutumaan toteutumatta toteutumisesta toteutuvan toteutumiseen toteutumassa toteutuessa toteutuivat toteutumiselle toteutumisessa toteutuisivat toteutuakseen toteutuva toteutumiseksi
+78	1478	lähestyä	lähestyy lähestyä lähestyvät lähestyessä lähestyi lähestyvän lähestytään lähestyminen lähestyvä lähestymässä lähestymään lähestyivät lähestyttävä lähestynyt lähestymisen lähestyttäessä lähesty lähestymistä lähestyvää lähestyn lähestyvästä lähestymme lähestyt lähestyin lähestyviä lähestyvien lähestymisestä lähestyttiin lähestyttäviä lähestytty lähestyttävää lähestyttävän lähestyisi
+79	1479	kirjoittaja	kirjoittaja kirjoittajan kirjoittajat kirjoittajien kirjoittajaa kirjoittajia kirjoittajana kirjoittajista kirjoittajille kirjoittajalle kirjoittajasta kirjoittajalla kirjoittajaksi kirjoittajalta kirjoittajina kirjoittajansa kirjoittajiin kirjoittajaan kirjoittajilla kirjoittajilta
+80	1480	suunnittelu	suunnittelu suunnittelun suunnittelua suunnittelusta suunnittelussa suunnitteluun suunnittelulla suunnittelut suunnittelulle
+81	1481	osittain	osittain
+82	1482	vuosittain	vuosittain
+83	1483	seurakunta	seurakunnan seurakunta seurakuntien seurakunnassa seurakunnat seurakuntaa seurakuntaan seurakunnissa seurakunnasta seurakunnalle seurakunnalla seurakuntia seurakunnista seurakuntansa seurakuntiin seurakunnille seurakuntamme seurakunnalta seurakunnilla seurakuntasi
+84	1484	tarjous	tarjous tarjouksen tarjouksia tarjousta tarjouksesta tarjouksessa tarjoukset tarjoukseen tarjousten tarjouksista tarjouksensa tarjouksella tarjouksemme tarjouksissa tarjouksilla tarjouksiin
+85	1485	säilyä	säilyy säilynyt säilyvät säilyi säilyisi säilyä säilymisen säilyminen säily säilymistä säilyivät säilymään säilymisestä säilyvän säilymiseen säilyisivät säilytä säilyäkseen säilyvää säilymiselle säilyvä säilymiseksi säilyviä säilyessä säilyttäneen säilyttävä säilyttävän säilyttävät
+86	1486	lahja	lahja lahjaksi lahjoja lahjan lahjat lahjaa lahjana lahjasta lahjojen lahjoista lahjani lahjansa lahjalla lahjoilla lahjoihin lahjoiksi lahjoina lahjasi lahjaan
+87	1487	fakta	fakta faktat faktaa faktoja faktojen faktan faktoihin faktoista faktana faktasta faktaan faktoilla faktoissa
+88	1488	katsoja	katsojaa katsojia katsojat katsojan katsoja katsojille katsojien katsojalle katsojista katsojalla katsojasta katsojaan katsojilta katsojana katsojiin katsojansa katsojassa katsojalta katsojilla
+89	1489	huomioida	huomioida huomioi huomioidaan huomioitu huomioitava huomioiden huomioimatta huomioinut huomioitiin huomioimaan huomioimista huomioiminen huomioivat huomioimisen huomioikaa huomioitaisiin huomioimalla huomioit huomioimisesta huomioimiseen huomioisi huomioimme huomioiva huomioin
+90	1490	paine	paine paineita painetta paineen paineet paineessa paineesta paineella paineiden paineista paineeseen paineissa paineisiin
+91	1491	erillinen	erillinen erillistä erillisen erillisiä erilliset erillisenä erilliseen erillisellä erillisessä erillisestä erillisinä erillisten erillisiin erillisissä erillisillä erilliseksi erillisistä erilliselle erillisiksi
+92	1492	kuljettaja	kuljettaja kuljettajan kuljettajat kuljettajien kuljettajaa kuljettajalle kuljettajia kuljettajana kuljettajalla kuljettajista kuljettajaksi kuljettajille kuljettajalta kuljettajilla kuljettajasta kuljettajina kuljettajani kuljettajaan kuljettajamme kuljettajansa kuljettajilta
+93	1493	sallia	salli sallii sallia sallitaan sallivat sallinut sallisi sallittiin sallinen salliessa sallimaan salliminen sallimalla sallimista sallin sallittaisiin salliva sallimisesta sallittakoon sallivan sallittava sallit sallimme sallimisen sallisivat sallima sallikaa sallien sallimassa sallisin salliman
+94	1494	tauti	tauti taudin tautia tauteja tautiin taudit tautien taudista tauteihin taudeista taudille taudissa taudeille taudeilta taudilta taudilla tautinsa taudiksi
+95	1495	raaka	raaka raakaa raakana raa'an raakoja raa'alla raa'asta raa'at raakaan raa'aksi raakojen raakoina raaoista raa'alta
+96	1496	ilves	ilves ilveksen ilvestä ilvekselle ilveksellä ilveksessä ilvekseen ilvekseltä ilveksestä ilveksiä ilvekset
+97	1497	öljy	öljy öljyä öljyn öljystä öljyssä öljyt öljyllä öljyjä öljyyn öljyjen öljyistä öljylle öljyksi
+98	1498	oire	oireita oireet oireiden oire oireista oireisiin oireilla oireina oiretta oireena oireen oireensa oireesi oireille
+99	1499	vaihe	vaihe vaiheen vaiheet vaiheeseen vaiheita vaiheista vaihetta vaiheissa vaiheiden vaiheilla vaiheesta vaiheisiin vaiheelta vaiheena vaiheille vaiheella vaiheelle
+100	1500	tom	tom tomi tomin tomia tomille tomilla

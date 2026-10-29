@@ -1,0 +1,100 @@
+1	5301	kiinnittyä	kiinnittyy kiinnittyi kiinnittynyt kiinnittyvät kiinnittyä kiinnittyminen kiinnittymään kiinnittymistä kiinnittyvä kiinnittymisen kiinnity
+2	5302	essee	essee esseen esseitä esseetä esseet esseessä esseiden esseestä
+3	5303	välittyä	välittyy välittyi välity välittyvät välittynyt välittyä
+4	5304	etiikka	etiikka etiikan etiikkaa etiikasta etiikkaan
+5	5305	runoilija	runoilija runoilijan runoilijat runoilijoiden runoilijoita runoilijana runoilijaa runoilijaksi runoilijalle
+6	5306	romani	romanien romanit romani romanin romaneja romaneista romaneille romaneita romanille romaneihin
+7	5307	kunnanjohtaja	kunnanjohtaja kunnanjohtajan kunnanjohtajaksi kunnanjohtajana kunnanjohtajat
+8	5308	luotettavuus	luotettavuus luotettavuutta luotettavuuden luotettavuudesta luotettavuuteen
+9	5309	valtiovarainministeri	valtiovarainministeri valtiovarainministerinä valtiovarainministerin valtiovarainministerit valtiovarainministeriksi valtionvarainministeri
+10	5310	kaukalo	kaukalossa kaukaloon kaukalon kaukalo kaukaloihin kaukalosta kaukaloa
+11	5311	akka	akka akan akat akkaa akkojen akkoja
+12	5312	realismi	realismia realismi realismin realismiin realismista
+13	5313	kärpänen	kärpäsen kärpänen kärpäset kärpäsiä kärpästen kärpästä kärpäsestä kärpäsenä
+14	5314	pahis	pahis pahikset pahiksia pahiksen pahisten pahista pahiksena pahiksista pahikseksi
+15	5315	terho	terho terhon
+16	5316	opetussuunnitelma	opetussuunnitelman opetussuunnitelma opetussuunnitelmaan opetussuunnitelmaa opetussuunnitelmassa opetussuunnitelmasta opetussuunnitelmat opetussuunnitelmien opetussuunnitelmia
+17	5317	alfa	alfa alfan
+18	5318	anonyymi	anonyymi anonyymit anonyyminä anonyymin anonyymejä anonyymien anonyymiä anonyymina anonyymia anonyymeja anonyymiin
+19	5319	rekisteröityä	rekisteröityä rekisteröidy rekisteröitynyt rekisteröityminen rekisteröitymään rekisteröidyn rekisteröitymällä rekisteröityi rekisteröityy rekisteröitymättä rekisteröidyt
+20	5320	pastori	pastori pastorin pastoria pastorina pastorit
+21	5321	kiusaaja	kiusaaja kiusaajat kiusaajan kiusaajia kiusaajien kiusaajaa kiusaajista kiusaajille kiusaajalle
+22	5322	harmillinen	harmillista harmillinen harmillisen harmillisia
+23	5323	latu	latu ladun ladulle ladulla ladut latuja laduilla latua latujen laduille
+24	5324	syrjäytyminen	syrjäytymistä syrjäytyminen syrjäytymisen syrjäytymisestä syrjäytymiseen
+25	5325	pyöräillä	pyöräillä pyöräillessä pyöräilemään pyöräilee pyöräilin pyöräillen pyöräillyt pyöräilen pyöräilemässä pyöräili pyöräilevä pyöräilevät pyöräillään pyöräile
+26	5326	kirjakauppa	kirjakauppa kirjakaupassa kirjakaupan kirjakaupasta kirjakaupoissa kirjakaupoista kirjakauppaan kirjakaupat kirjakauppojen kirjakauppoja kirjakauppaa
+27	5327	karkea	karkea karkeaa karkean karkeita karkeat karkealla karkeaksi karkeana karkeista karkeasta karkeilla
+28	5328	kokko	kokko kokon kokoista kokkoa kokkoja
+29	5329	kamppailla	kamppailee kamppailevat kamppailemaan kamppaili kamppailla kamppailivat kamppaillut kamppaillaan kamppaileva kamppailin kamppaillessa kamppailen
+30	5330	pönttö	pönttö pöntön pönttöön pöntöllä pöntöstä pöntössä pöntöt pönttöä pönttöjä pöntölle
+31	5331	eväs	eväitä eväillä eväät evääksi evästä eväiden eväs eväistä eväin
+32	5332	oikeistolainen	oikeistolainen oikeistolaiset oikeistolaisia oikeistolaisen oikeistolaista oikeistolaisten oikeistolaiseen oikeistolaiseksi oikeistolaisena
+33	5333	jäänne	jäänteitä jäänteet jäänne jäänteistä jäänteiden jäänteisiin
+34	5334	määräaika	määräajaksi määräajan määräaika määräaikaan määräajassa määräaikaa määräajoin määräaikana
+35	5335	optio	optio option optiot optiota optioita optiona optioiden optioilla
+36	5336	elämäkerta	elämäkerta elämäkerran elämäkerrat elämäkertaa elämäkerrassa elämänkerta elämäkerrasta elämäkertoja elämäkertansa elämänkerran
+37	5337	soul	soul soulin soulissa soulia souliin soulista
+38	5338	kappas	kappas
+39	5339	nähtävästi	nähtävästi
+40	5340	suunnitteilla	suunnitteilla
+41	5341	vedoten	vedoten
+42	5342	valvoja	valvoja valvojan valvojat valvojana valvojia valvojien valvojaksi valvojaa valvojalle valvojille
+43	5343	tamminen	tamminen tammisen tammista
+44	5344	panttivanki	panttivangiksi panttivankina panttivankeja panttivangit panttivankien panttivankia panttivangin panttivanki panttivangeiksi panttivankeina panttivangeista
+45	5345	neito	neito neidon neidot neitoa neitonen neitoja neitojen neidoksi neidosta
+46	5346	trolli	trolli trollit trolleja trollien trollin
+47	5347	asemakaava	asemakaava asemakaavan asemakaavassa asemakaavaa asemakaavasta asemakaavaan asemakaavalla
+48	5348	pohjoispuoli	pohjoispuolella pohjoispuolelle pohjoispuolelta pohjoispuolen pohjoispuoli
+49	5349	grilli	grilli grillin grilliin grillissä grillillä grilliä grillistä grillit
+50	5350	utelias	utelias uteliaita uteliaana uteliaat uteliasta uteliaan uteliaille uteliaina uteliaaksi
+51	5351	säveltää	sävelsi säveltää säveltänyt säveltämä sävelletty säveltämän sävelsin säveltämään säveltäminen säveltämiseen
+52	5352	filosofi	filosofi filosofit filosofin filosofista filosofien filosofeja filosofina
+53	5353	pekoni	pekonia pekoni pekonin pekonista pekonit pekonilla pekoniin
+54	5354	artikla	artikla artiklan artiklassa artiklaa artiklaan artiklat artiklasta
+55	5355	heiluttaa	heiluttaa heilutella heilutti heiluttamaan heilutteli heiluttanut heiluttelee heiluta heiluttamalla heiluttavat heiluttaen heilutellen heiluttele heiluttivat heiluttaminen heilutellut heiluttelevat heiluttamassa heiluttava
+56	5356	nuuska	nuuskaa nuuskan nuuska nuuskia nuuskaan
+57	5357	infrastruktuuri	infrastruktuuri infrastruktuurin infrastruktuuria infrastruktuuriin infrastruktuurista
+58	5358	välipala	välipala välipalaksi välipalaa välipalan välipaloja välipalat välipalana
+59	5359	jäykkä	jäykkä jäykkää jäykkiä jäykät jäykän jäykkänä jäykempi jäykältä jäykäksi jäykkinä jäykkien jäykkään
+60	5360	muija	muija muijan muijaa muijat muijalle muijia
+61	5361	liikenneturvallisuus	liikenneturvallisuuden liikenneturvallisuutta liikenneturvallisuus liikenneturvallisuuteen liikenneturvallisuudesta
+62	5362	sävel	sävel sävelet sävelen säveltä säveliä sävelten sävelin
+63	5363	otsa	otsa otsaan otsassa otsaa otsan otsalla otsalle otsasta otsalta otsansa
+64	5364	pommitus	pommitukset pommituksissa pommitusten pommitus pommituksia pommituksen pommituksista pommituksessa pommitusta pommituksiin pommituksesta
+65	5365	luxemburg	luxemburgin luxemburg luxemburgissa luxemburgiin luxemburgia luxemburgista
+66	5366	testaus	testaus testausta testaukseen testauksen testauksesta testauksessa testaukset
+67	5367	pitäjä	pitäjä pitäjän pitäjässä pitäjät pitäjää pitäjästä pitäjään pitäjiä pitäjien pitäjälle pitäjänä
+68	5368	lämpeneminen	lämpeneminen lämpenemisen lämpenemistä lämpenemisestä lämpenemiseen
+69	5369	riidellä	riitelevät riitele riitelee riidellään riidellä riitelemään riitelivät riiteli riidellyt riitelemme riidelty riideltiin riitelimme riidellessä
+70	5370	taantuma	taantuma taantuman taantumassa taantumaan taantumasta taantumaa taantumista
+71	5371	kallistua	kallistuu kallistunut kallistua kallistui kallistun kallistuminen kallistuvat kallistumaan kallistuva kallistuma kallistumisen kallistuivat kallistuman kallistumassa kallistuisi
+72	5372	kymi	kymen kymi kymin
+73	5373	pommittaa	pommittaa pommitti pommittivat pommittamaan pommitettiin pommitetaan pommitettu pommittavat pommittamalla pommittanut pommittaminen
+74	5374	palloseura	palloseuran palloseura palloseuraa palloseurassa palloseurasta palloseuralle
+75	5375	grafiikka	grafiikka grafiikan grafiikkaa grafiikat grafiikassa grafiikkaan grafiikoita grafiikasta grafiikoilla grafiikalla
+76	5376	veturi	veturi veturin vetureita veturissa veturia veturit veturina veturiin veturista veturien
+77	5377	takapenkki	takapenkillä takapenkille takapenkin takapenkiltä takapenkki takapenkit
+78	5378	kuolemantuomio	kuolemantuomion kuolemantuomio kuolemantuomiota kuolemantuomiot kuolemantuomioita kuolemantuomioon
+79	5379	niemimaa	niemimaan niemimaalla niemimaa niemimaalle niemimaalta niemimaasta niemimaata
+80	5380	osakkeenomistaja	osakkeenomistaja osakkeenomistajat osakkeenomistajille osakkeenomistajien osakkeenomistajan osakkeenomistajia osakkeenomistajaa osakkeenomistajista
+81	5381	kirkkoherra	kirkkoherra kirkkoherran kirkkoherrana kirkkoherraksi kirkkoherraa kirkkoherralle
+82	5382	kommunikoida	kommunikoida kommunikoimaan kommunikoi kommunikoivat kommunikoimme kommunikoidaan
+83	5383	palomies	palomiehet palomies palomiesten palomiehen palomiehiä palomiestä palomiehenä palomieheksi palomiehille
+84	5384	valtuus	valtuudet valtuuksia valtuuksien valtuus valtuuksin valtuuden valtuuksilla valtuutensa
+85	5385	salaperäinen	salaperäinen salaperäisen salaperäistä salaperäisestä salaperäisiä salaperäiset salaperäiseen salaperäisenä salaperäiseltä
+86	5386	yhteisymmärrys	yhteisymmärryksessä yhteisymmärrykseen yhteisymmärrys yhteisymmärrystä yhteisymmärryksen
+87	5387	hintataso	hintataso hintatason hintatasoa hintatasoon hintatasosta hintatasolla
+88	5388	kreivi	kreivi kreivin kreiviä kreiville
+89	5389	eteinen	eteisessä eteiseen eteisen eteinen eteisestä eteistä
+90	5390	luksus	luksusta luksus luksuksen luksukseen luksuksesta luksukselta
+91	5391	laajennus	laajennus laajennuksen laajennusta laajennuksia laajennukset laajennukseen laajennuksesta laajennusten
+92	5392	sorsa	sorsa sorsan sorsia sorsat sorsaa sorsien suorsa
+93	5393	tarmo	tarmo tarmoa tarmon tarmolla tarmonsa
+94	5394	pikkanen	pikkasen pikkaisen
+95	5395	patentti	patentti patentit patenttia patentin patentteja patenttien patenteista
+96	5396	ulottuva	ulottuvat ulottuva ulottuvan ulottuvalla ulottuvaa ulottuvia ulottuville ulottuvilta ulottuvien ulottuvasta ulottuvaan ulottuvassa
+97	5397	tarra	tarra tarroja tarran tarrat tarraa tarralla tarrojen tarroilla tarroista
+98	5398	risteily	risteily risteilyllä risteilylle risteilyt risteilyn risteilyä risteilyjä risteilyillä risteilystä
+99	5399	euroviisu	euroviisut euroviisuissa euroviisujen euroviisuihin euroviisu euroviisuista euroviisuja
+100	5400	vapautus	vapautuksen vapautus vapautusta vapautuksesta vapautukseen

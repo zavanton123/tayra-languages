@@ -1,0 +1,100 @@
+1	5401	yhteenveto	yhteenveto yhteenvedon yhteenvetona yhteenvedossa yhteenvetoa yhteenvetoja
+2	5402	tukija	tukija tukijat tukijoita tukijana tukijoiden tukijoille tukijan tukijaksi tukijansa tukijoista tukijaa tukijoihin
+3	5403	oikeusministeriö	oikeusministeriön oikeusministeriö oikeusministeriössä oikeusministeriöstä oikeusministeriölle oikeusministeriöön
+4	5404	rikkaus	rikkaus rikkautta rikkauksia rikkaudet rikkauden rikkauksiin rikkauksien rikkaudesta rikkauksista rikkautena rikkauteen
+5	5405	auer	auer auerin autere
+6	5406	edelläkävijä	edelläkävijä edelläkävijänä edelläkävijöitä edelläkävijän edelläkävijäksi edelläkävijöiden edelläkävijät
+7	5407	revetä	repesi repeää repesin revennyt revetä repeä repesivät repeäminen repeävät repeämän repeämään
+8	5408	piillä	piilee piillä piili piilevät
+9	5409	palkankorotus	palkankorotukset palkankorotusta palkankorotus palkankorotuksen palkankorotuksia palkankorotuksista palkankorotusten palkankorotuksiin palkankorotuksesta
+10	5410	vapaapäivä	vapaapäivä vapaapäivää vapaapäivän vapaapäiviä vapaapäivänä vapaapäivinä vapaapäivät vapaapäivien
+11	5411	ostoskeskus	ostoskeskus ostoskeskuksen ostoskeskuksessa ostoskeskukseen ostoskeskuksia ostoskeskusta ostoskeskuksesta ostoskeskuksissa ostoskeskukset ostoskeskusten
+12	5412	allergia	allergia allergiaa allergioita allergiat allergian allergioiden allergiasta allergioihin allergiaan allergioista
+13	5413	paholainen	paholaisen paholainen paholaista paholaiset paholaisesta paholaisia paholaisten paholaiselle paholaiselta
+14	5414	tuomaristo	tuomaristo tuomariston tuomaristossa tuomaristoon tuomaristolta tuomaristolle
+15	5415	trans	trans
+16	5416	tuskinpa	tuskinpa
+17	5417	huoltaja	huoltaja huoltajan huoltajat huoltajille huoltajansa huoltajien huoltajana huoltajaa huoltajia huoltajaksi huoltajalle huoltajalla
+18	5418	joutsen	joutsen joutsenen joutsenet joutsenia joutsenta joutsenten
+19	5419	ojentaa	ojentaa ojensi ojenna ojentamaan ojennettiin ojennetaan ojensin ojennan ojentanut ojentamassa
+20	5420	ominainen	ominaista ominainen ominaisia ominaisen ominaiseen ominaiset ominaisella
+21	5421	irlantilainen	irlantilainen irlantilaiset irlantilaisen irlantilaista irlantilaisia irlantilaisten irlantilaiseen irlantilaisista irlantilaisesta irlantilaiselle
+22	5422	tiima	tiimoilta tiimoilla
+23	5423	rakentaja	rakentaja rakentajat rakentajien rakentajia rakentajan rakentajana rakentajille rakentajista rakentajaa rakentajaksi rakentajina
+24	5424	shakki	shakki shakin shakkia shakissa shakkiin shakista
+25	5425	päivystys	päivystys päivystykseen päivystyksessä päivystyksen päivystystä päivystyksestä
+26	5426	vinkata	vinkkaa vinkata vinkkasi vinkattiin
+27	5427	tulkki	tulkki tulkin tulkkina tulkkia tulkit tulkkien tulkkeja tulkiksi
+28	5428	alistaa	alistaa alistettu alistaminen alistamista alista alistetaan alistamisen alistamaan alistamisesta alistavat alisti alistamiseen alistettiin alistettuna
+29	5429	arkkipiispa	arkkipiispa arkkipiispan arkkipiispaa arkkipiispalle
+30	5430	kulissi	kulissien kulisseissa kulisseihin kulissit kulisseista kulissi kulissia kulisseja kulissina
+31	5431	sisätila	sisätiloihin sisätilat sisätilojen sisätiloista sisätiloja sisätila sisätilan sisätilaa sisätilassa
+32	5432	sportti	sportin sportissa sportti sporttia sportista sportille
+33	5433	laitteisto	laitteisto laitteiston laitteistoa laitteistojen laitteistoja laitteistoon laitteistot laitteistolla laitteistosta laitteistossa
+34	5434	kehno	kehno kehnoa kehnoja kehnot kehnon kehnosta kehnompi kehnojen kehnoin kehnolla
+35	5435	krooninen	krooninen kroonisen kroonista kroonisesta krooniseen krooniset kroonisia kroonisten kroonisiin kroonisista krooniseksi
+36	5436	kikka	kikka kikkaa kikkoja kikan kikalla kikat kikasta
+37	5437	australialainen	australialainen australialaisen australialaiset australialaista australialaisia australialaisten australialaisessa australialaiseen australialaiselle australialaisesta
+38	5438	siivu	siivu siivun siivua siivut siivuiksi siivuja
+39	5439	määrittely	määrittely määrittelyn määrittelyä määrittelyssä määrittelyyn määrittelystä määrittelyt määrittelyjä
+40	5440	vire	vire vireessä vireille vireen vireeseen virettä
+41	5441	keventää	keventää kevennetty keventäisi keventäminen kevennetään keventämään keventämällä kevennettiin kevennä kevensi keventävät keventämiseksi keventänyt keventämistä
+42	5442	kypsyä	kypsyvät kypsyy kypsynyt kypsyä kypsymistä kypsyi kypsyminen kypsymään kypsymisen kypsyneet kypsyessä kypsymätön kypsymiseen kypsy
+43	5443	maaginen	maaginen maagista maagisen maagisia maagiset maagiseen maagisesta
+44	5444	kidutus	kidutusta kidutus kidutuksen kidutuksesta kidutukseen kidutuksista kidutukset kidutuksia
+45	5445	etuus	etuudet etuuksia etuuksien etuus etuuden etuuksiin etuutta etuuksista
+46	5446	rekrytointi	rekrytointi rekrytoinnin rekry rekrytoinnissa rekrytointia rekrytoinnit rekrytointiin rekrytoinnista rekrytointeja
+47	5447	tippa	tippa tippaa tipan tipassa tippaan tippoja tipat tipalla
+48	5448	suututtaa	suututtaa suututti suututtanut suututtamaan suututtavat
+49	5449	pakettiauto	pakettiauto pakettiauton pakettiautoa pakettiautolla pakettiautossa pakettiautot pakettiautoon pakettiautojen pakettiautoja pakettiautosta pakettiautoksi
+50	5450	kuha	kuha kuhan kuhaa kuhina
+51	5451	otus	otus otuksia otuksen otukset otusten otusta otuksesta otuksista
+52	5452	terveysala	terveysalan terveysalalla terveysala
+53	5453	riistää	riistää riisti riistetään riistämään riistetty riistettiin riistäminen riistänyt riistävät riistivät
+54	5454	naru	naru narun narua narulla narussa narusta naruista narut naruja naruun narujen
+55	5455	kiristyä	kiristyy kiristynyt kiristyi kiristyivät kiristyessä kiristyvät kiristyä kiristyneet kiristyvä kiristyneen kiristymään
+56	5456	sakset	sakset saksilla saksia saksi saksien saksin saksit saksiin
+57	5457	päivähoito	päivähoito päivähoidon päivähoitoon päivähoidossa päivähoitoa päivähoidosta
+58	5458	miljonääri	miljonääri miljonääriksi miljonäärejä miljonäärin miljonääriä miljonäärit miljonäärien
+59	5459	ennakko	ennakko ennakolta ennakkoa ennakoiden ennakon ennakoin
+60	5460	amiraali	amiraali amiraalin
+61	5461	identtinen	identtinen identtiset identtisiä identtistä identtisen identtisillä identtisten
+62	5462	eriarvoisuus	eriarvoisuus eriarvoisuutta eriarvoisuuden eriarvoisuudesta eriarvoisuuteen
+63	5463	äly	älyä äly älyn älynsä älyllä älysi älystä älyyn
+64	5464	asennus	asennus asennuksen asennusta asennukset asennukseen asennuksia asennuksessa asennuksesta asennusten
+65	5465	homoseksuaalisuus	homoseksuaalisuus homoseksuaalisuuden homoseksuaalisuutta homoseksuaalisuudesta homoseksuaalisuuteen
+66	5466	asevoimat	asevoimien asevoimat asevoimia asevoimille asevoimissa asevoimiin asevoimista asevoimilla
+67	5467	nykytilanne	nykytilanteessa nykytilanne nykytilanteesta nykytilannetta nykytilanteeseen nykytilanteen
+68	5468	tabu	tabu tabuja tabut tabua tabun tabuista
+69	5469	ohjeistaa	ohjeistaa ohjeistettu ohjeisti ohjeista ohjeistetaan ohjeistanut ohjeistettiin ohjeistamaan
+70	5470	jutta	jutta jutan
+71	5471	startti	startti starttia startin starttiin startissa startista startit startteja
+72	5472	vastarintaliike	vastarintaliikkeen vastarintaliike vastarintaliikkeeseen vastarintaliikettä vastarintaliikkeessä
+73	5473	valtameri	valtameren valtameri valtamerten valtameressä valtamerellä valtamereen valtamerta valtamerelle valtameret valtamerien valtamerissä valtamerestä valtamereltä
+74	5474	edesmennyt	edesmenneen edesmennyt edesmennyttä edesmenneelle edesmenneestä edesmenneet edesmenneiden edesmenneitä edesmenneeltä
+75	5475	uusnatsi	uusnatsien uusnatsit uusnatsi uusnatseja uusnatseihin uusnatseista
+76	5476	fitness	fitness
+77	5477	must	must
+78	5478	poikkeuksellisesti	poikkeuksellisesti
+79	5479	sinällään	sinällään
+80	5480	toistamiseen	toistamiseen
+81	5481	ulospäin	ulospäin
+82	5482	vaiko	vaiko
+83	5483	virheellisesti	virheellisesti
+84	5484	otella	otella ottelee otellut otteli ottelemaan ottelin ottelevat otellaan ottelivat
+85	5485	elinikä	elinikä eliniän elinikää eliniäksi elinikänsä elinikään
+86	5486	trauma	trauma traumoja trauman traumat traumoista traumasta traumaa traumojen
+87	5487	sisäministeri	sisäministeri sisäministerin sisäministerinä
+88	5488	kiihdyttää	kiihdyttää kiihdytti kiihdyttämään kiihdyttävät kiihdytin kiihdyttäminen kiihdyttänyt kiihdyttivät kiihdytetään kiihdyttäen kiihdyttävä
+89	5489	pelleily	pelleilyä pelleily pelleilyn pelleilyksi pelleilyyn pelleilystä
+90	5490	koditon	kodittomien koditon kodittomia kodittomat koditonta kodittomaksi kodittoman kodittomille kodittomiksi kodittomana kodittomista
+91	5491	aavikko	aavikolla aavikon aavikko aavikkoa aavikolle aavikolta aavikoilla aavikot aavikoille
+92	5492	tulija	tulijoita tulijat tulija tulijoiden tulijoille tulijaa tulijan tulijoista
+93	5493	tae	tae takeita takeena takeet takeissa takeista
+94	5494	spekuloida	spekuloida spekuloi spekuloitu spekuloimaan spekuloitiin spekuloidaan spekuloivat
+95	5495	käyttöliittymä	käyttöliittymä käyttöliittymän käyttöliittymää käyttöliittymät käyttöliittymään käyttöliittymällä käyttöliittymästä käyttöliittymässä käyttöliittymiä käyttöliittymien
+96	5496	keräys	keräys keräykseen keräyksen keräystä keräyksessä keräyksestä keräyksiä keräykset
+97	5497	härkä	härkä härän härkää härkien härät härkiä
+98	5498	palvelija	palvelija palvelijoita palvelijat palvelijan palvelijansa palvelijana palvelijoiden palvelijaa palvelijaksi palvelijoina palvelijasi
+99	5499	tentti	tentti tenttiin tentissä tentin tenttiä tentit tenttejä tentistä tentteihin
+100	5500	pätevyys	pätevyys pätevyyden pätevyyttä pätevyydestä pätevyyteen pätevyyksiä pätevyytensä pätevyydet

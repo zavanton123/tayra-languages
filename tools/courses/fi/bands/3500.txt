@@ -1,0 +1,100 @@
+1	3401	eliitti	eliitin eliitti eliittiä eliittiin eliitille eliitistä eliittien eliitissä
+2	3402	eksyä	eksynyt eksyy eksyin eksyä eksyi eksy eksyneet eksyvät eksyneen eksyn eksyivät eksymään eksyt eksyisi
+3	3403	talvisota	talvisodan talvisota talvisodassa talvisodasta talvisotaa talvisotaan
+4	3404	rokote	rokote rokotteen rokotteet rokotetta rokotteita rokotteiden rokotteesta rokotteista rokotteella rokotteisiin rokotteessa rokotteissa
+5	3405	kusi	kusessa kusi kusella kuseen kuselle kusta kusen kuset kusin kustakin
+6	3406	kansallispuisto	kansallispuisto kansallispuiston kansallispuistossa kansallispuistoon kansallispuistoa kansallispuistojen kansallispuistosta kansallispuistot kansallispuistoissa kansallispuistoja kansallispuistoihin kansallispuistoista
+7	3407	vahingoittaa	vahingoittaa vahingoita vahingoitti vahingoittanut vahingoittavat vahingoittamaan vahingoittaisi vahingoittamatta vahingoittamiseen vahingoittaminen vahingoitettu vahingoittamisesta vahingoittamista vahingoittivat vahingoittamasta
+8	3408	verottaa	verottaa verotetaan verotettavaa verotettava verotettu verotti verottaminen verottamisesta verotettavan verottamista verottamaan verotettaisiin verottamalla verotettavat verotettavaksi verottanut verotettavia verottavat verotettiin verottamisen verottamiseen verotettavasta
+9	3409	mäkinen	mäkinen mäkisen mäkistä mäkisellä mäkisessä mäkiselle
+10	3410	vartalo	vartalo vartalon vartaloa vartaloon vartalonsa vartaloaan vartalossa vartalosta vartalot vartaloni vartaloita vartalolle vartalosi vartalolla
+11	3411	parveke	parvekkeella parvekkeelle parvekkeelta parveke parvekkeen parvekkeet parveketta parvekkeita parvekkeilla parvekkeille parvekkeiden
+12	3412	kyynel	kyyneleet kyyneleitä kyyneliin kyynel kyyneliä kyynelten kyyneleen kyyneltä kyynelissä kyynelistä kyynelet
+13	3413	valuutta	valuutta valuuttaa valuutan valuutat valuutassa valuuttana valuuttojen valuuttoja valuuttaan valuutasta valuutalla valuuttoihin valuuttansa valuutaksi valuutoissa valuutoista
+14	3414	visio	visio vision visioita visiota visiot visionsa visioon visiossa visiosta visioni visioissa visioiden
+15	3415	hillitä	hillitä hillitsemään hillitsee hillitty hillitsemiseksi hillittyä hillitsi hillityn hillitseminen hillitsemiseen hillitsevät hillittyjä hillinnyt hillitse hillitympi hillitään hillitsemisessä hillityt
+16	3416	sairastaa	sairastaa sairasta sairastanut sairasti sairastavat sairastavan sairastavien sairastava sairastavilla sairastellut sairastavista sairastavia sairastaville sairastavaa sairastaminen sairastin sairastamaan sairastan sairastavalle sairastamisen sairastaessa
+17	3417	omituinen	omituinen omituista omituisia omituisen omituiselta omituiset omituisena omituisten omituisin omituisesta omituiseksi omituisista omituisella omituiseen
+18	3418	nauru	naurua nauru naurut naurun nauruun naurusta naurulla
+19	3419	julma	julma julmaa julmia julman julmat julmalla julmalta julmin julmana julmasta julmaksi julmaan julmempi julmien julmista
+20	3420	veitsi	veitsellä veitsi veitsen veistä veitset veitsiä veitsien veitseen veitsestä veitsillä
+21	3421	parkkipaikka	parkkipaikalla parkkipaikka parkkipaikalle parkkipaikalta parkkipaikan parkkipaikkoja parkkipaikkaa parkkipaikat parkkipaikkojen parkkipaikoilla parkkipaikasta parkkipaikoille
+22	3422	orkesteri	orkesterin orkesteri orkesteria orkesterille orkesterissa orkesterit orkesteriin orkesterista orkesterinsa orkestereiden orkesterilla orkestereita orkesterien orkestereissa
+23	3423	ki	kin ki kit kiin kitten kiksejä
+24	3424	miekka	miekka miekan miekkaa miekalla miekat miekkoja miekkansa miekkojen miekasta miekkaan miekoilla miekoin miekoista
+25	3425	leipoa	leipoa leivo leivon leipoo leivotaan leipomaan leivottu leipoi leivoin leipominen leiponut leivottiin leipomista leipomiseen leipomisesta leipomisen leivomme leivosta leipomalla
+26	3426	reipas	reipas reipasta reippaan reippaita reippaalla reippaassa reippaat reippaaseen reippaasta reippaana reippaalta reippain reippaalle
+27	3427	kovaa	kovempaa kovaa
+28	3428	sitoutunut	sitoutunut sitoutuneet sitoutuneita sitoutuneen sitoutunutta sitoutuneiden sitoutuneena
+29	3429	onnekas	onnekas onnekkaita onnekkain onnekasta onnekkaan onnekkaat onnekkaana onnekkaista onnekkaiden onnekkaaksi onnekkaalle
+30	3430	muinainen	muinainen muinaiset muinaisten muinaisen muinaisesta muinaisia muinaista muinaisessa muinaisista muinaiseen muinaisina muinaisiin muinaisissa muinaisilta muinaisille muinaisella muinaisilla
+31	3431	sidottu	sidottu sidottuna sidottuja sidotut sidottua sidottuina sidotun sidottujen sidotuksi
+32	3432	kaupunginosa	kaupunginosassa kaupunginosa kaupunginosan kaupunginosien kaupunginosaan kaupunginosat kaupunginosasta kaupunginosissa kaupunginosaa kaupunginosia kaupunginosiin kaupunginosista
+33	3433	vahvistus	vahvistusta vahvistus vahvistuksen vahvistuksia vahvistukset vahvistukseksi vahvistusten vahvistuksena
+34	3434	heitiä	heidi heidin
+35	3435	sekava	sekava sekavaa sekavia sekavan sekavalta sekavaksi sekavat sekavassa sekavana sekavaan sekavasta sekavien
+36	3436	legendaarinen	legendaarinen legendaarisen legendaarista legendaarisia legendaariset legendaarisesta legendaarisessa legendaariseen legendaarisella legendaarisin legendaariselle legendaaristen legendaariseksi legendaarisista
+37	3437	työsuhde	työsuhde työsuhteen työsuhteessa työsuhteeseen työsuhdetta työsuhteiden työsuhteet työsuhteita työsuhteissa työsuhteisiin työsuhteesta työsuhteensa työsuhteista
+38	3438	analysoida	analysoi analysoida analysoidaan analysoimaan analysoitiin analysoitu analysoinut analysoimme analysoivat analysoimalla analysoin analysoitava analysoimiseen
+39	3439	korotus	korotus korotusta korotuksen korotuksia korotukset korotuksesta korotusten korotuksella korotuksista korotukseen korotuksilla
+40	3440	keisari	keisari keisarin keisarille keisaria keisariksi keisarilla keisarit keisarien keisarilta
+41	3441	johtokunta	johtokunnan johtokunta johtokunnassa johtokuntaan johtokunnalle johtokunnasta johtokuntaa johtokunnissa johtokunnat johtokuntiin
+42	3442	mieletön	mieletön mielettömän mieletöntä mielettömiä mielettömät mielettömältä
+43	3443	arvosana	arvosanan arvosana arvosanat arvosanoja arvosanojen arvosanaksi arvosanaa arvosanoin arvosanalla arvosanoista arvosanoilla arvosanaan arvosanoihin arvosanansa arvosanasta
+44	3444	aarre	aarre aarteita aarteen aarteet aarretta aarteiden aarteista aarteesta aarteensa aarteeseen aarteisiin
+45	3445	tanskalainen	tanskalainen tanskalaiset tanskalaisen tanskalaisten tanskalaista tanskalaisia tanskalaiselle tanskalaisesta tanskalaiseen tanskalaisessa tanskalaisista tanskalaisille
+46	3446	peruuttaa	peruuttaa peruutti peruuta peruuttamaan peruutettu peruuttamatonta peruutetaan peruuttaminen peruutettiin peruuttamaton peruuttamista peruuttanut peruuttamattomia peruuttamisesta peruutin peruuttivat peruutat peruuttamiseen peruutettaessa peruuttamatta peruuttamisen
+47	3447	etninen	etninen etnisten etniset etnisiä etnisen etnistä etniseen etnisistä etnisiin etnisestä etniseltä etnisille
+48	3448	oppi	oppeja opiksi opit oppi opissa oppinsa oppiin opeista oppeihin oppien opista opeilla opein oppina
+49	3449	ympäröivä	ympäröivät ympäröivä ympäröivän ympäröivää ympäröivään ympäröivästä ympäröivien ympäröivistä ympäröiviin ympäröivässä ympäröiviä ympäröiville ympäröivälle ympäröivällä ympäröivissä ympäröivillä
+50	3450	runkosarja	runkosarjan runkosarjassa runkosarja runkosarjaa runkosarjasta
+51	3451	kypärä	kypärä kypärää kypärän kypärät kypärään kypäriä kypärässä kypäränsä kypärästä kypärien
+52	3452	potentiaali	potentiaalia potentiaali potentiaalin potentiaalista potentiaalinsa potentiaaliin
+53	3453	ennalta	ennalta
+54	3454	ikuisesti	ikuisesti
+55	3455	kännissä	kännissä
+56	3456	seinään	seinään
+57	3457	vieläpä	vieläpä
+58	3458	urakka	urakka urakalla urakan urakkaan urakkaa urakasta urakoita urakat urakassa urakkansa urakoiden
+59	3459	eversti	eversti everstin everstiksi
+60	3460	mikki	mikki mikin mitäkin mistäkin missäkin mikkiä mihinkin mikkiin mikit milläkin minkin millekin
+61	3461	kuppi	kuppi kupin kuppia kuppiin kupit kuppeja kupissa kupista kuppien kuppeihin kupilla
+62	3462	värikäs	värikkäitä värikäs värikkäät värikästä värikkään värikkäiden värikkäistä värikkäästä värikkäin värikkäillä värikkäisiin värikkäämpi värikkäänä värikkäässä värikkäissä värikkäällä värikkääseen värikkääksi
+63	3463	kyytiä	kyytiä kyydin kyydit kyytien
+64	3464	kuninkaallinen	kuninkaallinen kuninkaalliset kuninkaallisen kuninkaallisia kuninkaallisten kuninkaallista kuninkaalliseen kuninkaallisessa kuninkaallisesta kuninkaallisista kuninkaallisiin kuninkaallisille kuninkaalliseksi kuninkaallisella kuninkaalliselle kuninkaallisissa kuninkaallisena kuninkaallisilla
+65	3465	kaaos	kaaos kaaosta kaaoksen kaaokseen kaaoksessa kaaoksesta kaaokseksi
+66	3466	nykyaikainen	nykyaikainen nykyaikaisen nykyaikaiset nykyaikaista nykyaikaisia nykyaikaisten nykyaikaisessa nykyaikaiseen nykyaikaisesta nykyaikaisissa nykyaikaisin nykyaikaisella nykyaikaisilla nykyaikaisiin nykyaikaiseksi nykyaikaisista nykyaikaiselle
+67	3467	todistus	todistus todistuksen todistusta todistuksia todistukset todistuksessa todistuksensa todistusten todistuksesta todistukseen todistuksella todistukseksi todistuksissa todistuksena
+68	3468	turvallisesti	turvallisesti turvallisemmin
+69	3469	argumentti	argumentti argumentteja argumentit argumentin argumenttisi argumenttia argumenteilla argumenttien argumenttina argumentein argumenteista argumentilla argumenttinsa argumentteihin argumenttiin argumenttini
+70	3470	menehtyä	menehtyi menehtynyt menehtyy menehtyivät menehtyä menehtyvät menehtymisen
+71	3471	sari	sari sarin sariini saria
+72	3472	kutsu	kutsun kutsusta kutsuja kutsut kutsumme kutsuun kutsu kutsussa kutsujen kutsulla kutsuin kutsuihin kutsunsa kutsuista kutsuille kutsuilla
+73	3473	realistinen	realistinen realistista realistisia realistisen realistiset realistisena realistisempi realistiselta realistisella realistisessa realistiseksi realistisin realistisesta realistiseen
+74	3474	puhtaasti	puhtaasti puhtaammin
+75	3475	tappelu	tappelu tappeluun tappelun tappelua tappelusta tappelussa tappeluita tappelut tappeluihin tappeluista tappeluiden tappeluksi tappeluja tappeluissa
+76	3476	yleisurheilu	yleisurheilu yleisurheilun yleisurheilua yleisurheilussa
+77	3477	tuhoutua	tuhoutui tuhoutuu tuhoutuivat tuhoutuvat tuhoutua tuhoudu tuhoutumaan tuhoutuvan tuhoutumassa tuhoutuisi tuhoutuessa
+78	3478	parikymmentä	parikymmentä parinkymmenen parissakymmenessä pariinkymmeneen paristakymmenestä pariakymmentä parillakymmenellä
+79	3479	toimeentulotuki	toimeentulotuen toimeentulotukea toimeentulotuki toimeentulotuesta toimeentulotukeen toimeentulotuella toimeentulotuessa
+80	3480	toimiala	toimiala toimialan toimialat toimialalla toimialoilla toimialaan toimialojen toimialaa toimialalle toimialoja toimialoille toimialoista toimialansa toimialana toimialoilta toimialalta toimialasta toimialoihin
+81	3481	kosketus	kosketus kosketusta kosketuksen kosketuksiin kosketuksissa kosketuksesta kosketukseen kosketuksessa kosketuksella kosketuksensa kosketuksia kosketukset
+82	3482	ryöstö	ryöstö ryöstöstä ryöstön ryöstöä ryöstöjä ryöstöön ryöstöt ryöstöistä ryöstössä ryöstöjen ryöstöihin ryöstöksi
+83	3483	elämäntapa	elämäntapa elämäntavat elämäntavan elämäntapaa elämäntapaan elämäntapoja elämäntapojen elämäntavasta elämäntapoihin elämäntapansa elämäntavoista elämäntapamme elämäntavoilla
+84	3484	koottu	koottu kootut koottua koottuna kootun koottuja koottujen koottuun koottuihin
+85	3485	kolmannes	kolmannes kolmanneksen kolmanneksella kolmannekseen kolmannesta kolmannekselle kolmanneksessa
+86	3486	foorumi	foorumilla foorumi foorumin foorumeilla foorumille foorumit foorumia foorumilta foorumissa foorumeita foorumeille foorumiin foorumeilta foorumien foorumista
+87	3487	karu	karu karua karun karuja karussa karut karuun karulta karulla karusta karuissa karujen karumpi karuilla karuista
+88	3488	vilja	vilja viljan viljaa viljojen viljat viljasta viljoja viljoista viljaan
+89	3489	ratsastaa	ratsastaa ratsastamaan ratsasti ratsastanut ratsastavat ratsastetaan ratsasta ratsastamassa ratsastin ratsastivat ratsastaminen ratsastava ratsastaen ratsastan ratsastamisesta ratsastaessa ratsastamalla
+90	3490	päämäärä	päämäärä päämääränä päämäärää päämääriä päämäärän päämäärät päämäärien päämääränsä päämäärään päämääriin päämäärämme päämäärästä päämääräksi päämääristä
+91	3491	tapella	tapella tappelemaan tappelevat tappelee tappeli tapellaan tappelivat tapellut tapeltiin tappele tapeltu tappeleminen tappelemassa tappelemalla
+92	3492	ely	ely elyn
+93	3493	yllättyä	yllätyin yllättyi yllättyä ylläty yllättyy yllättyisi yllättyivät yllättymään yllätyimme yllätyt yllätyn yllättyvät yllättyneet
+94	3494	valmentaa	valmentaa valmensi valmentanut valmentamaan valmentama valmentamassa valmentava valmentavat valmentaminen valmennettava valmennan valmentaman valmentamista valmenna valmennettu
+95	3495	retki	retki retkelle retken retket retkiä retkellä retkeä retkillä retkestä retkeen retkien retkistä retkille retkeltä retkensä retkiin
+96	3496	sipuli	sipuli sipulia sipulit sipulin sipuleita sipulista sipulilla sipulien sipuleiden
+97	3497	tilastokeskus	tilastokeskuksen tilastokeskus tilastokeskuksesta
+98	3498	kunnollinen	kunnollista kunnollinen kunnollisia kunnollisen kunnolliset kunnolliseen kunnollisten kunnollisella kunnolliseksi
+99	3499	julki	julki
+100	3500	loistavasti	loistavasti

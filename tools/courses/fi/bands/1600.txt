@@ -1,0 +1,100 @@
+1	1501	maistua	maistuu maistui maistu maistuvat maistua maistunut maistuisi maistuvaa maistuvan maistuvia maistumaan maistuva maistuivat maistuisivat
+2	1502	poiketa	poiketen poikkeaa poikkeavat poiketa poikkeava poikkeavaa poikkeavia poikkea poikkeavan poikkesi poikkeama poikkesin poikennut poikkeavien poikkesivat poikkeavalla poikkeamaan poikkeaminen poiketaan poikkeavasta poikkeaman poikkeavista poikkeavaan poikkeaviin poikkeavana poikkeavilla poikkean poikkeaisi poikkeavassa poikkeamista
+3	1503	tunnustaa	tunnustaa tunnusti tunnustanut tunnusta tunnustan tunnustamaan tunnustettu tunnustaminen tunnustetaan tunnustamista tunnustavat tunnustettava tunnustivat tunnustamisen tunnustaisi tunnustamisesta tunnustamme tunnustamalla tunnustamasta tunnustettiin tunnustat tunnustin tunnustamiseen tunnustama
+4	1504	menestyä	menestynyt menestyä menestyy menestyvät menestyneet menestyvä menestyi menestynein menestymään menestyvän menestyminen menestymisen menesty menestyivät menestyviä menestyneitä menestymiseen menestyneen menestyisi menestyäkseen menestymistä menestyvien menestyvää menestyt menestyneiden menestynyttä menestymisestä menestyneistä menestymiselle menestyneempi menestyneille
+5	1505	eiköhän	eiköhän
+6	1506	kirjailija	kirjailija kirjailijan kirjailijat kirjailijoita kirjailijoiden kirjailijaksi kirjailijaa kirjailijana kirjailijoista kirjailijalle kirjailijasta kirjailijoille kirjailijoihin kirjailijalta kirjailijaan kirjailijalla
+7	1507	ylimääräinen	ylimääräistä ylimääräinen ylimääräisiä ylimääräisen ylimääräiset ylimääräisenä ylimääräisestä ylimääräisten ylimääräiseen ylimääräisellä ylimääräisistä ylimääräisessä ylimääräiseksi ylimääräisiin ylimääräisillä ylimääräiselle ylimääräisille
+8	1508	sunnuntai	sunnuntai su sunnuntain sunnuntaihin sunnuntaita sunnuntaista sunnuntaiksi sunnuntaille sunnuntait sunnuntailta
+9	1509	ranskalainen	ranskalainen ranskalaiset ranskalaisen ranskalaisia ranskalaista ranskalaisten ranskalaisista ranskalaiseen ranskalaisesta ranskalaisilla ranskalaiselle ranskalaisessa ranskalaisille ranskalaisella ranskalaisiin ranskalaiselta ranskalaisissa ranskalaisilta ranskalaiseksi
+10	1510	verotus	verotus verotuksen verotusta verotuksessa verotuksesta verotukseen verotuksella
+11	1511	saatavilla	saatavilla saataville
+12	1512	rikas	rikas rikkaat rikkaiden rikkaita rikkain rikkaan rikkaille rikasta rikkaampi rikkaaksi rikkaimman rikkaasta rikkailta rikkaista rikkailla rikkaaseen rikkaampia rikkaana rikkaisiin rikkaissa rikkaalle rikkainta rikkaalla rikkaampana rikkaampaa rikkaassa rikkaimmaksi rikkaalta rikkaammat rikkaamman rikkaiksi
+13	1513	palvella	palvelee palvella palvelevat palvelemaan palvellut palveli palvele palvelin palvelemme palveleva palvelisi palvellaan palvelevan palvelivat palveleminen palvellen palvelemasta palvelen palvellakseen palvelemassa palvelevaa palvelevaksi palvelemista palveltava palvelisivat palvelevaan
+14	1514	organisaatio	organisaatio organisaation organisaatiossa organisaatioiden organisaatiota organisaatioon organisaatiot organisaatioissa organisaatioita organisaatiolle organisaatiosta organisaatioista organisaationa organisaatioille organisaationsa organisaatioihin organisaatiolla organisaatiomme organisaatiolta organisaatioilta organisaatioksi
+15	1515	kallio	kallio kallion kalliossa kallioon kalliolla kalliota kallioilla kalliolle kalliosta kalliot kalliolta kallioiden kallioita kallioille kallioilta kallioista
+16	1516	aho	aho ahon ahoa aholle ahosta aholla aholta
+17	1517	markkina	markkina markkinoille markkinoilla markkinoiden markkinoilta markkinoita markkinan markkinoista markkinaa markkinoihin markkinalla markkinalle markkinassa markkinaan markkinasta
+18	1518	hiljaa	hiljaa hiljempaa
+19	1519	lämpötila	lämpötila lämpötilan lämpötilaa lämpötilassa lämpötilat lämpötiloja lämpötiloissa lämpötilaan lämpötilasta lämpötilojen lämpötiloihin lämpötilalla lämpötiloista lämpötilaksi
+20	1520	lukija	lukija lukijat lukijan lukijoita lukijoiden lukijaa lukijalle lukijoille lukijoista lukijoilta lukijana lukijalla lukijansa lukijalta lukijaan lukijamme lukijoihin lukijoilla lukijassa lukijasta lukijani lukijoissa
+21	1521	otsikko	otsikko otsikon otsikolla otsikot otsikoissa otsikoita otsikkoa otsikosta otsikoihin otsikossa otsikkoon otsikkona otsikoiden otsikoista otsikoksi otsikoilla
+22	1522	allekirjoittaa	allekirjoittaa allekirjoittanut allekirjoitti allekirjoita allekirjoitan allekirjoittamaan allekirjoittivat allekirjoitettiin allekirjoitettu allekirjoittaneet allekirjoitin allekirjoittaneen allekirjoittama allekirjoittamassa allekirjoittavat allekirjoitettava allekirjoitetaan allekirjoittamisen allekirjoittaminen allekirjoittamista allekirjoittanutta allekirjoittamasta allekirjoittamalla allekirjoittaman allekirjoittamisesta allekirjoittaisi allekirjoittaneelle allekirjoittamatta allekirjoittaneiden allekirjoitat allekirjoittaneella
+23	1523	leffa	leffa leffan leffassa leffaa leffat leffoja leffasta leffaan leffoista leffoissa leffojen leffoihin leffalle
+24	1524	ääri	äärellä ääressä ääreen ääri äärelle ääreltä äärestä ääriin
+25	1525	kotimaa	kotimaan kotimaassa kotimaa kotimaista kotimaahan kotimaansa kotimaasta kotimaata kotimaani kotimaamme
+26	1526	teollisuus	teollisuuden teollisuus teollisuutta teollisuudessa teollisuudelle teollisuuteen teollisuudesta teollisuudella
+27	1527	tanska	tanskan tanska tanskassa tanskasta tanskaan tanskaa tanskalle tanskaksi tanskalla
+28	1528	teoria	teoria teoriassa teorian teoriaa teorioita teoriat teoriaan teorioiden teoriasta teoriansa teorioihin teorioista teoriani teoriasi teorialle teorialla teorioissa teoriana teoriaksi
+29	1529	alkuun	alkuun
+30	1530	kaikkiaan	kaikkiaan
+31	1531	sunnuntaina	sunnuntaina
+32	1532	ulkopuolinen	ulkopuolinen ulkopuolisen ulkopuoliset ulkopuolisten ulkopuolista ulkopuolisia ulkopuolisille ulkopuolisena ulkopuolisista ulkopuolisesta ulkopuoliselle ulkopuoliseen ulkopuolisiin ulkopuoliseksi ulkopuolisilta ulkopuolisilla ulkopuolisissa ulkopuolisella ulkopuoliselta ulkopuolisessa ulkopuolisina ulkopuolisiksi
+33	1533	arvata	arvata arvaa arvatkaa arvasin arvaan arvannut arvailla arvaamaton arvaamattomia arvasi arvaamaan arvaamatonta arvattava arvattavissa arvaisi arvaamattoman arvattavaa arvattu arvaamattomat arvaatte arvaisin arvattavia arvaamatta arvaamattomaan arvaat arvanneet arvaavat arvasit arvaamalla
+34	1534	läheinen	läheinen läheisen läheiset läheisiä läheisten läheistä läheiseen läheisessä läheisille läheiselle läheisestä läheisellä läheisensä läheiseltä läheisiin läheisistä läheisin läheisissä läheisesi läheiseksi läheisempi läheisiltä läheiseni läheisempiä läheisillä läheisenä läheisiksi läheisempää läheisemmäksi
+35	1535	keittiö	keittiössä keittiön keittiö keittiöön keittiöstä keittiötä keittiöiden keittiöt keittiöissä keittiöitä keittiöni keittiöistä keittiölle keittiöllä keittiöihin
+36	1536	kannattaja	kannattajat kannattajia kannattajien kannattaja kannattajista kannattajille kannattajaa kannattajana kannattajaksi kannattajansa kannattajiin kannattajan kannattajiksi kannattajilta kannattajilla kannattajissa kannattajineen
+37	1537	virkamies	virkamiehet virkamies virkamiesten virkamiehiä virkamiehen virkamiestä virkamiehille virkamiehenä virkamiehistä virkamiehelle virkamiehillä virkamiehiin virkamiehiltä virkamiehellä virkamieheksi virkamieheltä virkamiehestä
+38	1538	keksi	keksi keksin keksit keksejä keksimme keksien kekseistä kekseihin kekseillä
+39	1539	veto	veto vetoa vedon vetoja vedossa vedot vedolla vetoon vedosta vedoissa vedoin vetojen vedoista vetonsa vedolta vedolle vetoihin
+40	1540	jukka	jukka jukan
+41	1541	itkeä	itkeä itkee itkemään itke itkin itki itken itkenyt itkevät itkien itketään itkeminen itket itkemättä itkivät itkevä itkemässä itketä itkemistä itkemisen itkimme itkettiin itkeneet itketty itkemällä itkisi
+42	1542	viha	vihaa vihaan viha vihan vihaksi vihasta vihat vihansa vihalla vihalle vihoissaan vihani vihassa
+43	1543	kaikenlainen	kaikenlaista kaikenlaisia kaikenlaiset kaikenlainen kaikenlaisen kaikenlaisten kaikenlaisiin kaikenlaisista kaikenlaisille kaikenlaiseen kaikenlaisissa kaikenlaisesta kaikenlaisilla kaikenlaiselle kaikenlaisessa
+44	1544	erityinen	erityistä erityinen erityisiä erityisellä erityiset erityisestä erityiseen erityisenä erityisessä erityiseksi erityisten erityisistä erityisiin erityisillä erityisissä erityiselle erityisinä erityisin erityiseltä erityisille
+45	1545	todiste	todisteita todiste todisteet todisteiden todisteena todisteeksi todistetta todisteen todisteista todisteina todisteisiin todisteilla todisteiksi
+46	1546	lukuisa	lukuisia lukuisat lukuisista lukuisissa lukuisilla lukuisiin lukuisille lukuisien lukuisa lukuisine lukuisin lukuisilta lukuisan
+47	1547	baari	baarissa baari baariin baarin baarista baareissa baarit baareja baaria baareista baarien baareihin
+48	1548	viikonloppuna	viikonloppuna
+49	1549	välittömästi	välittömästi
+50	1550	arvokas	arvokas arvokasta arvokkaita arvokkaan arvokkain arvokkaampi arvokkaampia arvokkaampaa arvokkaat arvokkaana arvokkaaksi arvokkaiden arvokkaasta arvokkaaseen arvokkaista arvokkaiksi arvokkaalla arvokkaamman arvokkaina arvokkaalta arvokkaammaksi arvokkaisiin arvokkaassa
+51	1551	törmätä	törmännyt törmäsi törmäsin törmää törmätä törmäsivät törmään törmäävät törmäämään törmätään törmäät törmäsimme törmäisi törmääminen törmätessä törmättiin törmätty törmäämme törmäilevät törmäämättä törmäillä törmäten
+52	1552	vuoro	vuoro vuorossa vuorostaan vuoron vuoroin vuorot vuoroja vuoroa vuorolla vuoromme vuoronsa vuoroni vuoroon vuorojen vuoroissa vuoroista vuorosi vuoroilla vuorolle vuorosta vuoroihin
+53	1553	urheilija	urheilija urheilijat urheilijan urheilijoiden urheilijoita urheilijaa urheilijoille urheilijaksi urheilijalle urheilijoista urheilijana urheilijoilla urheilijasta urheilijalta urheilijalla urheilijoihin urheilijoilta
+54	1554	epäilty	epäilty epäillyn epäiltynä epäiltyjä epäiltyä epäillyt epäiltyjen epäillyistä epäillystä epäiltyinä epäillyllä epäillyksi epäiltyyn epäillylle epäiltyihin epäillyltä
+55	1555	laita	laita laitaan laidalla laidasta laidan laidassa laidalta laitaa laidalle laidoilla laitamme laidoilta laidat laitojen laidoille laitoja
+56	1556	huomen	huomenta huomen huomenissa huomenia huomenet
+57	1557	lattia	lattialle lattialla lattia lattiaa lattian lattiaan lattialta lattiat lattiasta lattiassa lattioita lattioiden lattioilla lattioille
+58	1558	rakas	rakas rakkaan rakkaat rakkaani rakasta rakkaita rakkain rakkaansa rakkaalle rakkaasta rakkaiden rakkaimmat rakkaasi rakkaaseen rakkaassa rakkaalla rakkaimman rakkaille rakkaimpia rakkaampi rakkaimmista rakkaaksi
+59	1559	kärppä	kärpät kärppien kärppiä kärpissä kärppä kärpille kärpistä kärpillä kärppiin kärpästä kärpiltä kärppänä kärpän
+60	1560	fiilis	fiilis fiilikset fiiliksen fiilistä fiiliksiä fiiliksissä fiiliksestä fiilikseen fiiliksellä fiiliksillä fiilikseni fiiliksistä fiiliksiin fiilisten
+61	1561	työelämä	työelämässä työelämän työelämään työelämä työelämästä työelämää
+62	1562	korvaus	korvauksia korvausta korvaus korvaukset korvauksen korvausten korvaukseksi korvauksista korvauksena korvauksiin korvaukseen korvauksesta korvauksetta korvauksella korvauksien
+63	1563	eksä	ex eksä exä eksäni eksän
+64	1564	opinnot	opinnot opintojen opintoja opinto opintoihin opinnoista opinnoissa opintonsa opintoni opintosi opinnoilla opinnoille
+65	1565	firma	firman firma firmat firmassa firmaa firmojen firmalle firmoja firmasta firmalla firmaan firmansa firmoista firmalta firmoille firmoissa firmani firmoihin firmamme firmasi firmoilla
+66	1566	toivo	toivon toivossa toivomme toivoin toivo toivot toivosta toivonsa toivoni toivoon toivoja
+67	1567	suojella	suojella suojelee suojelemaan suojelemiseksi suojellaan suojeltu suojellakseen suojelevat suojeleminen suojeli suojelevan suojele suojelemisesta suojelen suojellut suojeltava suojeleva suojelemiseen suojelemassa suojelemisen suojelemista suojelisi suojelivat suojeltiin suojelema suojellen suojelemalla suojelemisessa suojelemme suojelevaa
+68	1568	jonkinlainen	jonkinlainen jonkinlaista jonkinlaisen jonkinlaisia jonkinlaisena jonkinlaiseen jonkinlaisessa jonkinlaisesta jonkinlaiset jonkinlaiseksi jonkinlaisella jonkinlaisina jonkinlaisiin jonkinlaiselta jonkinlaiselle jonkinlaisten
+69	1569	vakavasti	vakavasti vakavammin
+70	1570	valokuva	valokuvia valokuva valokuvat valokuvan valokuvaa valokuvien valokuvissa valokuvista valokuvassa valokuvasta valokuviin valokuvaan valokuvilla valokuvin valokuvansa valokuville valokuvalla
+71	1571	liikunta	liikunta liikuntaa liikunnan liikunnasta liikuntaan liikunnalla liikunnassa liikunnalle
+72	1572	muna	munaa muna munat munia munan munista munien munasta munalla munansa munille munassa muniin munaan munani munasi munilla munin
+73	1573	vaihtua	vaihtuu vaihtui vaihtunut vaihtuvat vaihtua vaihtuivat vaihtuessa vaihtuminen vaihtuvia vaihtuva vaihtumista vaihtuvien vaihdu vaihtumisen vaihtuvan vaihtuisi vaihtumisesta vaihtumaan vaihtumassa vaihtuvaa vaihtumiseen vaihtuvissa vaihtuvista
+74	1574	vanhus	vanhusten vanhus vanhukset vanhuksia vanhuksen vanhuksille vanhusta vanhuksista vanhuksilla vanhukselle vanhuksiin vanhuksilta vanhuksena vanhuksella vanhuksesta vanhukselta vanhuksien
+75	1575	hienosti	hienosti
+76	1576	ilmaiseksi	ilmaiseksi
+77	1577	lähetys	lähetys lähetyksessä lähetyksen lähetystä lähetykset lähetyksiä lähetykseen lähetyksestä lähetyksissä lähetyksenä lähetyksiin lähetyksistä lähetyksensä lähetyksinä lähetysten
+78	1578	kumppani	kumppani kumppanin kumppanit kumppania kumppaneita kumppaninsa kumppanisi kumppanina kumppaneiden kumppanien kumppaniksi kumppaneineen kumppanini kumppanille kumppanimme kumppaneille kumppaneina kumppaniin kumppaneista kumppanista kumppanilta kumppaneiksi kumppanilla kumppaneilla kumppaneilta kumppaninne
+79	1579	palaute	palautetta palaute palautteen palautteesta palautteet palautteita palautteeseen palautteiden palautteessa palautteista
+80	1580	suojata	suojaa suojata suojattu suojaamaan suojaavat suojaan suojaavan suojasi suojaaminen suojaava suojaamiseen suojattuja suojaamiseksi suojataan suojattua suojatun suojaamassa suojannut suojaavaa suojaavia suojaamista suojaamatonta suojaat suojaamaton suojaisi suojasivat suojaten suojatakseen suojattuna suojaamisesta suojattava suojaamisen suojaama suojattuun suojatut suojaamatta suojaavien suojaamattoman suojatussa suojattiin
+81	1581	suo	suo suotta suosi soita suon soiden suohon suot suota suolla suossa suosta suolle suolta soista soilla suoni soille soilta soitamme
+82	1582	fyysinen	fyysinen fyysistä fyysisen fyysisiä fyysiseen fyysiset fyysisestä fyysisessä fyysisten fyysisistä fyysisellä fyysisiin fyysisenä fyysiseksi fyysisissä fyysisiltä fyysiseltä fyysisillä fyysiselle fyysisinä
+83	1583	lausunto	lausunto lausunnon lausuntoja lausunnot lausuntoa lausunnossa lausunnosta lausuntojen lausuntonsa lausunnoista lausuntoon lausuntoihin lausunnoissa lausunnolla lausunnolle lausunnoilla
+84	1584	persu	persut persujen persuja persu persuille persuista persuilla persun
+85	1585	valvoa	valvoa valvoo valvomaan valvotaan valvovat valvo valvoi valvominen valvonut valvottu valvomassa valvon valvova valvottua valvoivat valvottiin valvoin valvottava valvoisi valvottuja valvomisen valvomme valvomiseen valvomista valvomatta valvoma valvotuissa valvotun valvotussa valvomisesta valvottuun valvot valvoessa valvotut valvottaisiin valvomalla valvomiseksi
+86	1586	budjetti	budjetti budjetin budjetista budjettia budjettiin budjetilla budjetissa budjetit budjetteja budjettien budjettinsa budjettimme budjeteista budjetille budjetiksi
+87	1587	ohjaaja	ohjaaja ohjaajan ohjaajana ohjaajat ohjaajia ohjaajien ohjaajaa ohjaajaksi ohjaajalle ohjaajille ohjaajansa ohjaajista ohjaajina ohjaajalta ohjaajalla ohjaajasta ohjaajaan ohjaajilta ohjaajamme
+88	1588	historiallinen	historiallinen historiallisen historiallista historiallisia historialliset historiallisesta historiallisessa historiallisista historiallisten historialliseen historiallisiin historiallisena historiallisella historialliseksi historiallisissa historialliselle
+89	1589	bisnes	business bisnestä bisnes bisneksen bisneksiä bisneksessä bisnekset bisneksestä bisnekseen bisnekselle bisneksiin bisnesten bisneksensä bisneksistä bisneksenä
+90	1590	selvitys	selvitys selvityksen selvitystä selvityksessä selvitykset selvityksiä selvityksestä selvitysten selvitykseen selvityksissä selvityksiin selvityksistä selvityksensä
+91	1591	nopeus	nopeus nopeutta nopeudella nopeuden nopeuteen nopeudesta nopeudessa nopeudet nopeuksilla nopeuksia nopeuksissa nopeutensa nopeudeksi nopeuksien nopeuksiin nopeuksista nopeudelle
+92	1592	city	city cityn cityssä cityyn citystä cityä cityllä citylle
+93	1593	sali	salilla salissa salin sali salille saliin salia salista salilta salit saleja saleissa saleille salien saleihin saleilla saleista
+94	1594	levittää	levittää levitä levitetään levitti levittäminen levittämään levittävät levittämistä levitetty levittämisestä levittämiseen levittänyt levittämisen levitettiin levittämällä levität levittivät levittäkää levitän levitellä levittämisessä levittämä levitin levittelee levittämässä levittäen levittäisi levitettävä levitteli levittämiseksi levittämästä levittävä
+95	1595	kadonnut	kadonnut kadonneet kadonneen kadonnutta kadonneita kadonneeksi kadonneiden kadonneesta kadonneista kadonneeseen kadonneiksi kadonneelle kadonneessa kadonneena
+96	1596	natsi	natsi natsit natsien natseja natsiksi natsin natseille natsia natseista natseiksi natseilta natseihin natseilla
+97	1597	laiton	laitonta laiton laittomia laittoman laittomat laittomasta laittomien laittomaksi laittomista laittomaan laittomana laittomiksi laittomiin laittomassa laittomina laittomilla laittomalla laittomille laittomin laittomalta laittomissa laittomalle
+98	1598	suku	sukua suvun suku suvussa sukuun suvusta sukunsa suvut sukujen suvulle sukuni suvulla sukuja sukumme suvuissa suvuista suvulta sukusi
+99	1599	kysyntä	kysyntä kysyntää kysynnän kysyntään kysynnästä kysynnässä
+100	1600	kysely	kysely kyselyn kyselyyn kyselyssä kyselyt kyselyä kyselyitä kyselyjä kyselystä kyselyihin kyselyissä kyselyiden kyselyjen kyselyllä kyselyistä kyselynä

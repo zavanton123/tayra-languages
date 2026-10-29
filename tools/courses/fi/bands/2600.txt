@@ -1,0 +1,100 @@
+1	2501	moinen	moista moinen moiseen moisesta moisen moisia moiset moisella moisista moisiin moiselle moisessa moisten
+2	2502	väkivaltainen	väkivaltainen väkivaltaisia väkivaltaisen väkivaltaista väkivaltaisesta väkivaltaiset väkivaltaisten väkivaltaiseksi väkivaltaiseen väkivaltaisiin väkivaltaisiksi väkivaltaisista väkivaltaisessa väkivaltaisin väkivaltaisena väkivaltaisempi väkivaltaiselta väkivaltaisella
+3	2503	ralli	ralli rallin rallissa rallia ralliin ralleissa rallista ralleja rallit rallien
+4	2504	palo	palo palon palossa paloja palosta palot paloiksi palojen paloa paloista paloon paloina palolla paloissa paloihin
+5	2505	vuotaa	vuotaa vuotanut vuoti vuotavat vuotamaan vuotava vuotavan vuoda vuotaminen vuotaisi vuodettu vuotivat vuotaneen vuodettiin vuotamisesta vuotavaa vuotamista vuotavia vuodan vuotamisen vuotaen vuodetaan vuotavana vuosivat
+6	2506	lehmä	lehmä lehmän lehmät lehmiä lehmien lehmää lehmistä lehmille lehmästä lehmillä lehmälle lehmällä lehmään
+7	2507	ymmärrys	ymmärrystä ymmärrys ymmärryksen ymmärrykseen ymmärrykseni ymmärryksestä ymmärryksessä ymmärryksellä ymmärryksemme ymmärryksensä
+8	2508	kuori	kuori kuoren kuoret kuoria kuorta kuoressa kuoreen kuoresta kuorineen kuorissa kuorin kuorista kuoriin kuorien kuorella kuorensa
+9	2509	vähitellen	vähitellen
+10	2510	otto	otto oton ottoa otosta ottoon otot otolla ottoja otton otossa
+11	2511	oikeudenkäynti	oikeudenkäynti oikeudenkäynnin oikeudenkäynnissä oikeudenkäyntiä oikeudenkäyntiin oikeudenkäynnistä oikeudenkäynnit oikeudenkäyntejä oikeudenkäyntien oikeudenkäynneissä oikeudenkäynteihin oikeudenkäynneistä
+12	2512	pätkä	pätkä pätkän pätkiä pätkät pätkää pätkissä pätkällä pätkässä pätkästä pätkistä pätkälle pätkään pätkillä pätkien
+13	2513	tavoitella	tavoittelee tavoitella tavoitellaan tavoittelemaan tavoitteli tavoittelevat tavoittele tavoitellut tavoitteleva tavoiteltu tavoittelematon tavoiteltava tavoittelemisen tavoittelemme tavoiteltiin tavoittelen tavoittelet tavoitellen tavoittelivat tavoittelin tavoittelemassa tavoittelisi tavoittelema
+14	2514	vartija	vartija vartijat vartijan vartijoiden vartijoita vartijana vartijaa vartijoista vartijaksi vartijoille vartijalle vartijoilla vartijoina vartijalla vartijoilta vartijasta vartijoihin vartijoiksi
+15	2515	arabia	arabian arabia arabiassa arabiaa arabiaan arabiaksi arabiasta
+16	2516	todennäköinen	todennäköistä todennäköinen todennäköisenä todennäköisin todennäköisempää todennäköiseltä todennäköisempi todennäköisiä todennäköisen todennäköiset todennäköiseksi todennäköisistä todennäköisestä
+17	2517	sisältyä	sisältyy sisältyvät sisälly sisältyi sisältyä sisältynyt sisältyvä sisältyisi sisältyivät
+18	2518	määräys	määräys määräyksiä määräyksen määräykset määräysten määräyksestä määräystä määräyksellä määräyksistä määräyksillä määräykseen määräyksiin määräyksensä
+19	2519	turpa	turpaan turvassa turpiin turpa turvin turpansa turvan turvaksi turvat turpaa turvasta
+20	2520	kirjallinen	kirjallinen kirjallisen kirjallista kirjalliset kirjallisena kirjallisia kirjallisessa kirjalliseen kirjallisesta kirjallisten kirjallisella kirjallisista kirjallisiin kirjallisissa kirjallisina kirjalliseksi
+21	2521	treeni	treenin treeni treeneissä treeniä treeneihin treeneistä treenien treenejä treenistä treeniin treenillä treenissä
+22	2522	näyte	näytteitä näyte näytteen näytteet näytettä näytteiden näytteillä näytteistä näytteestä näytteille näytteessä näytteissä näytteeseen näytteisiin näytteeksi
+23	2523	kymppi	kympin kymppi kympillä kymppiä kymppejä kymppiin kympistä kympit kympissä
+24	2524	järjestys	järjestys järjestystä järjestykseen järjestyksen järjestyksestä järjestykselle järjestyksellä
+25	2525	huvittaa	huvittaa huvittavaa huvita huvittava huvitti huvittanut huvittavan huvittavia huvittaisi huvittavana huvittavalta huvittavat huvittamaan
+26	2526	matto	maton matto matot matolla mattoa matolle mattoja mattoon mattojen matossa matosta matoista matolta matoilla matoissa
+27	2527	tuska	tuskaa tuska tuskan tuskasta tuskaan tuskassa tuskia tuskien tuskansa tuskat tuskalla tuskalta tuskasi tuskissa
+28	2528	seikka	seikka seikat seikkoja seikoista seikan seikkaa seikkojen seikasta seikkoihin seikkaan seikkana seikoilla seikalla
+29	2529	prinsessa	prinsessa prinsessan prinsessat prinsessaa prinsessalle prinsessoja prinsessaksi prinsessana prinsessojen prinsessasta prinsessoista
+30	2530	keskiarvo	keskiarvo keskiarvon keskiarvoa keskiarvolla keskiarvoon keskiarvot keskiarvosta keskiarvoja keskiarvona keskiarvoksi keskiarvojen keskiarvoilla keskiarvonsa
+31	2531	asiakirja	asiakirjat asiakirjoja asiakirja asiakirjojen asiakirjan asiakirjoista asiakirjaa asiakirjoissa asiakirjoihin asiakirjassa asiakirjaan asiakirjasta
+32	2532	pitkäaikainen	pitkäaikainen pitkäaikaisen pitkäaikaisia pitkäaikaista pitkäaikaisesta pitkäaikaiseen pitkäaikaiset pitkäaikaisin pitkäaikaisena pitkäaikaisten pidempiaikainen pitkäaikaisista pitkäaikaisella pitkäaikaiselle pitkäaikaisiin pitkäaikaisessa pitkäaikaiseksi
+33	2533	länsimaat	länsimaiden länsimaissa länsimaat länsimaihin länsimaista länsimaita länsimaille länsimailta
+34	2534	tunneli	tunnelin tunneli tunnelissa tunnelia tunneliin tunneleita tunnelit tunnelista tunneleissa tunneleiden tunnelien tunneleihin tunneleista
+35	2535	pyyntö	pyynnöstä pyyntö pyynnön pyyntöjä pyyntöä pyyntöön pyynnöt pyynnöistä pyyntöihin pyyntönsä pyyntöjen pyyntösi pyyntöni
+36	2536	robotti	robotti robotit robotin robotteja robottien robottia robo roboteista robotilla robotille roboteille roboteilla robotista robotteihin robottiin
+37	2537	peruna	peruna perunat perunoita perunaa perunan perunoiden perunasta perunoista perunalla perunaan
+38	2538	nimittää	nimittää nimitetty nimitettiin nimitti nimitetään nimittänyt nimittäminen nimittävät nimittämä nimittämistä nimittämään nimittivät nimittämisestä nimittämällä nimitetyn nimittäisi nimittämän nimittämisen nimitän nimitettäisiin nimittämiseen nimitettävä
+39	2539	avoimesti	avoimesti avoimemmin
+40	2540	olemassaolo	olemassaolon olemassaolo olemassaolosta olemassaoloa olemassaoloon olemassaolonsa olemassaololle olemassaolomme olemassaoloni
+41	2541	maalaus	maalaus maalauksen maalauksia maalaukset maalausta maalauksessa maalauksesta maalausten maalaukseen maalauksista maalauksissa maalauksiin maalauksensa maalauksella
+42	2542	tuho	tuho tuhon tuhoon tuhoja tuhoa tuhot tuhosta tuhojen tuhoista tuholta tuhoksi tuhonsa tuhossa tuhoilta
+43	2543	lama	lama laman lamaa lamasta lamassa lamaan lamat lamalle
+44	2544	britti	britit brittien britti briteille britteihin britin
+45	2545	veikata	veikkaan veikkaisin veikata veikkaa veikkasin veikannut veikkaat veikkasi veikataan veikattu veikkaamaan
+46	2546	enimmäkseen	enimmäkseen
+47	2547	korkeintaan	korkeintaan
+48	2548	vankeus	vankeuteen vankeutta vankeudessa vankeus vankeuden vankeudesta vankeudeksi vankeudella vankeutensa
+49	2549	demari	demarit demarien demareiden demareita demari demareille demareilla demareista demarin demareissa demaria demareilta demareihin
+50	2550	näytellä	näyttelee näytellyt näytteli näyttelevät näyttelemistä näyttelemään näytteleminen näyttelemisen näyttelemä näyttelemisestä näytelty näyttelevä näyttelivät näyttelemiseen näytellä näyttele näyttelen näyttelin näytellään näyttelemisessä
+51	2551	golf	golf golfin golfia golfissa golfista golfiin
+52	2552	kohu	kohu kohun kohua kohusta kohut kohuja kohuun kohussa kohujen
+53	2553	stadion	stadionilla stadionin stadion stadionille stadionia stadionilta stadioneita stadionit stadionista stadioneilla
+54	2554	työpäivä	työpäivän työpäivä työpäivää työpäiviä työpäivät työpäivien työpäivään työpäivästä työpäiväni työpäivänä työpäivänsä työpäivistä työpäivässä työpäiviin
+55	2555	sanomalehti	sanomalehti sanomalehden sanomalehtien sanomalehdet sanomalehtiä sanomalehteä sanomalehdessä sanomalehdissä sanomalehdistä sanomalehteen sanomalehdestä sanomalehtiin sanomalehdelle sanomalehdille sanomalehdellä sanomalehdillä
+56	2556	alennus	alennusta alennus alennuksen alennuksella alennukset alennuksia alennuksessa alennuksesta alennukseen alennuksista alennuksilla alennuksiin alennusten
+57	2557	kangas	kangas kankaan kangasta kankaalle kankaita kankaat kankaalla kankaasta kankaiden kankaaseen kankaista kankaassa kankailla kankaisiin kankaalta
+58	2558	käteinen	käteistä käteisellä käteinen käteisenä käteisen käteisestä käteiseksi
+59	2559	penkki	penkillä penkille penkin penkit penkki penkiltä penkistä penkkejä penkkiä penkkiin penkkien penkissä penkeillä penkeille penkeissä
+60	2560	vahvuus	vahvuus vahvuudet vahvuuksia vahvuuteen vahvuutta vahvuutensa vahvuuden vahvuudesta vahvuuksien vahvuuksiin vahvuutena vahvuuteni vahvuuksilla vahvuuksista vahvuutemme vahvuudessa vahvuudeksi vahvuudella vahvuuksina vahvuutesi
+61	2561	karjalainen	karjalainen karjalaisen karjalaiset karjalaista karjalaisten karjalaisia karjalaiseen karjalaisessa karjalaisesta karjalaiselle
+62	2562	ainutlaatuinen	ainutlaatuinen ainutlaatuista ainutlaatuisen ainutlaatuisia ainutlaatuisesta ainutlaatuiset ainutlaatuisella ainutlaatuiseen ainutlaatuiseksi ainutlaatuisena ainutlaatuisten ainutlaatuisessa ainutlaatuiselle ainutlaatuisista
+63	2563	lohko	lohkon lohko lohkossa lohkoon lohkojen lohkot lohkoa lohkosta lohkonsa lohkoja lohkolla lohkoissa lohkoiksi lohkoista lohkoihin lohkolle lohkoilla
+64	2564	torni	torni tornin tornissa torniin tornista tornia tornien tornit torneja tornille torneissa torneista tornilla torneihin torneineen
+65	2565	arvella	arvellaan arvelee arveli arvelin arveltu arvelen arveltiin arvelisin arvelevat arvelivat arvelet arvellut arvella arvelimme
+66	2566	markka	markkaa markan mk markka markalla markkaan markkoja markasta markkojen
+67	2567	trendi	trendi trendit trendin trendiä trendejä trendien trendeistä trendistä trendinä trendiin trendeihin trendeissä trendiksi
+68	2568	innoissaan	innoissaan innoissani innoissamme
+69	2569	piikki	piikkiin piikki piikin piikkejä piikit piikkiä piikkien piikillä piikkinä piikistä piikille piikeillä piikkeihin piikeistä
+70	2570	viina	viinaa viina viinan viinasta viinat viinaan viinalla viinoja viinalle viinalta
+71	2571	makea	makea makeaa makean makeita makeat makeasta makealta makeaan makeisiin makeiden makeaksi makeampaa makeista makealle makeassa makealla makein makeampi makia makeana makeissa
+72	2572	soida	soimaan soida soivat soisi soikoon soinut soidessa soiva soimaa soiden soisin soista
+73	2573	brändi	brändi brändin brändiä brändit brändejä brändistä brändien brändillä brandin brändiin brandi brändille brändeistä brändinä brändinsä brändeille brändissä brändeillä brändeihin brändiksi brändimme
+74	2574	tasku	taskussa taskuun taskusta taskut taskuihin taskuja tasku taskuissa taskuista taskun taskunsa taskujen taskua
+75	2575	halla	halla hallaa hallan
+76	2576	valmistelu	valmistelu valmistelun valmisteluun valmistelut valmistelussa valmistelua valmistelusta valmisteluja valmisteluihin valmisteluissa valmisteluista valmistelujen
+77	2577	valmistella	valmistella valmistellaan valmistelee valmistelemaan valmisteltu valmistellut valmisteli valmisteltiin valmistelevat valmistelen valmistelemassa valmistele valmisteleva valmisteltaessa valmistelemme valmistelivat valmisteltava valmistelema valmistellessa valmistelin valmistellen
+78	2578	kalenteri	kalenteri kalenterin kalenterissa kalenteriin kalenterista kalenteria kalenterit kalentereita kalenterini
+79	2579	itsenäisyys	itsenäisyyden itsenäisyyttä itsenäisyys itsenäisyydestä itsenäisyyteen itsenäisyytensä itsenäisyydelle itsenäisyytemme
+80	2580	autoilija	autoilija autoilijat autoilijan autoilijoita autoilijoiden autoilijoille autoilijalle autoilijoista autoilijaa autoilijoilta autoilijoilla autoilijana autoilijalla
+81	2581	tarkastaa	tarkastaa tarkastetaan tarkastamaan tarkastettu tarkastanut tarkastamassa tarkasta tarkastettiin tarkastettava tarkastavat tarkastaminen tarkastamista tarkastin tarkastamme tarkastivat tarkastamatta tarkastamiseen tarkastamisesta tarkastan tarkastamisen
+82	2582	ostos	ostoksille ostokset ostoksia ostoksilla ostos ostosten ostoksista ostoksiin ostoksensa ostoksen ostosta ostoksesta ostoksesi ostokseni
+83	2583	täti	täti tädin tätini tädit tätinsä tätiä tädille tätejä tädillä tädiltä tätien tädiksi
+84	2584	festivaali	festivaali festivaalin festivaaleilla festivaalilla festivaalien festivaalit festivaalille festivaalia festivaaleille festivaaleja festivaaliin festivaalista festivaaleista festivaaleihin festivaalissa festivaaleilta
+85	2585	määritelmä	määritelmä määritelmän määritelmää määritelmät määritelmiä määritelmästä määritelmään määritelmien määritelmässä määritelmistä määritelmänsä määritelmissä määritelmänä määritelmiin määritelmäksi määritelmällä
+86	2586	järkyttävä	järkyttävä järkyttävää järkyttävän järkyttäviä järkyttävät järkyttävällä järkyttävään järkyttävältä järkyttävässä järkyttävästä järkyttävin
+87	2587	luu	luu luut luita luun luuta luin luiden luista luihin luusta luissa luuhun luussa luunsa
+88	2588	irtisanoa	irtisanoa irtisanominen irtisanoo irtisanoi irtisanomisen irtisanomista irtisanomisista irtisanomiset irtisanottiin irtisanottu irtisanonut irtisanomisesta irtisanotaan irtisanomisia irtisanomiseen irtisanomaan irtisanomisten irtisanomisiin irtisano irtisanoin
+89	2589	pikkuhiljaa	pikkuhiljaa
+90	2590	sittenkin	sittenkin
+91	2591	varsinaisesti	varsinaisesti
+92	2592	puhdistaa	puhdistaa puhdista puhdistetaan puhdistamaan puhdistettu puhdistamiseen puhdistaminen puhdisti puhdistettiin puhdistavat puhdistettava puhdistava puhdistamisesta puhdistin puhdistamisen puhdistanut puhdistamista puhdistamiseksi puhdistavaa puhdistavan puhdistat puhdistamalla puhdistaakseen puhdistamassa puhdistan puhdistavia puhdistaen puhdistivat puhdistamisessa
+93	2593	avaus	avaus avauksessa avaukseen avauksen avauksia avausta avauksesta avaukset avauksella avauksena
+94	2594	seksikäs	seksikäs seksikästä seksikkäin seksikkäitä seksikkään seksikkäät seksikkäältä seksikkääksi seksikkäänä seksikkäimmäksi seksikkäimmät seksikkäiden seksikkäimmän seksikkäintä seksikkäästä seksikkäämpi seksikkäistä
+95	2595	raiskaus	raiskaus raiskauksesta raiskauksen raiskauksista raiskausten raiskauksia raiskausta raiskaukset raiskaukseen raiskauksiin raiskaukseksi raiskauksessa raiskauksella
+96	2596	vallankumous	vallankumous vallankumouksen vallankumousta vallankumouksesta vallankumoukseen vallankumouksessa vallankumoukset vallankumouksia kumous vallankumousten vallankumoukselle vallankumouksella
+97	2597	metalli	metallia metalli metallin metallien metallista metallit metalleja metalliin metalleista metallissa metallilla metallille metalliksi
+98	2598	mielenkiinto	mielenkiinnolla mielenkiintoa mielenkiinnon mielenkiinto mielenkiinnosta mielenkiintoni mielenkiintonsa
+99	2599	hidastaa	hidastaa hidasta hidastavat hidasti hidastamaan hidastanut hidastivat hidastaisi hidastetaan hidastaminen hidastettu hidastava hidastamiseen hidastamalla hidastan hidastin hidastaen hidastaakseen hidastamiseksi
+100	2600	ehkäistä	ehkäistä ehkäisee ehkäisemiseksi ehkäisemään ehkäisevän ehkäisevä ehkäisevät ehkäistään ehkäiseminen ehkäisevää ehkäisemiseen ehkäise ehkäiseviä ehkäisevään ehkäisemisessä ehkäisemisestä ehkäisemällä ehkäisemistä ehkäisisi

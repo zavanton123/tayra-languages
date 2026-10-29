@@ -1,0 +1,100 @@
+1	6201	kristillisdemokraatti	kristillisdemokraatit kristillisdemokraattien kristillisdemokraatteja
+2	6202	hallituskausi	hallituskaudella hallituskauden hallituskausi hallituskautta hallituskaudelle
+3	6203	ujo	ujo ujon ujoja ujona ujoa ujolta
+4	6204	tuotekehitys	tuotekehitys tuotekehitykseen tuotekehitystä tuotekehityksen tuotekehityksessä tuotekehityksestä
+5	6205	ravinne	ravinteita ravinteiden ravinteet ravinteista
+6	6206	anoppi	anoppi anopin anopille anoppini anoppinsa anoppia
+7	6207	pierrä	pierre pierren
+8	6208	ironinen	ironista ironinen ironisen ironisia
+9	6209	omillaan	omillaan omilleen omilleni omillani
+10	6210	tuhoutunut	tuhoutunut tuhoutuneen tuhoutuneet tuhoutuneiden tuhoutuneita tuhoutunutta
+11	6211	suolisto	suoliston suolisto suolistossa suolistoon suolistosta suolistoa
+12	6212	heroiini	heroiinia heroiinin heroiini heroiiniin heroiinista
+13	6213	pelotella	pelotella pelotellaan pelotteli pelottelee pelottelemaan peloteltiin pelottelemalla peloteltu pelottelevat pelotellut pelotellakseen
+14	6214	käräjät	käräjillä käräjille käräjät käräjien käräjä käräjiä käräjiltä
+15	6215	oikaista	oikaista oikaisemaan oikaisi oikaistu oikaisee oikaistaan oikaise oikaisin oikaissut oikaisen oikaistiin oikaiseminen
+16	6216	hallinnoida	hallinnoi hallinnoima hallinnoida hallinnoimaan hallinnoiva hallinnoivat hallinnoiman hallinnoidaan hallinnoimassa
+17	6217	opettelu	opettelu opettelua opetteluun opettelun opettelusta opettelussa
+18	6218	lähettäjä	lähettäjä lähettäjän lähettäjälle lähettäjää lähettäjältä lähettäjät lähettäjänä
+19	6219	hämmennys	hämmennystä hämmennys hämmennyksen sekaannuksen hämmennyksestä
+20	6220	asiallisesti	asiallisesti
+21	6221	elleivät	elleivät
+22	6222	globaalisti	globaalisti
+23	6223	melkoisesti	melkoisesti
+24	6224	verrattain	verrattain
+25	6225	via	via
+26	6226	välillisesti	välillisesti
+27	6227	kuuro	kuuro kuurojen kuuroille kuuroja kuurot kuuron kuurona kuuroksi
+28	6228	houkuttaa	houkuttaa houkuta houkutin houkutti houkuttavat houkuttanut houkuttaisi
+29	6229	säikähtää	säikähdin säikähtää säikähti säikähtänyt säikähdä säikähtivät säikähtävät
+30	6230	yksiö	yksiössä yksiö yksiön yksiöitä yksiöiden yksiöstä yksiöön yksiötä yksiöt yksiöistä
+31	6231	rahoittaja	rahoittajat rahoittaja rahoittajia rahoittajien rahoittajana rahoittajan rahoittajille rahoittajista rahoittajina rahoittajaa rahoittajaksi
+32	6232	loppuvaihe	loppuvaiheessa loppuvaiheen loppuvaiheissa loppuvaiheilla loppuvaiheeseen loppuvaihe
+33	6233	kurjuus	kurjuutta kurjuus kurjuuden kurjuudessa kurjuudesta kurjuuteen
+34	6234	kotipaikka	kotipaikka kotipaikan kotipaikkana kotipaikkansa kotipaikkaa kotipaikasta kotipaikaksi
+35	6235	listaus	listaus listauksen listauksessa listaukseen listauksesta listaukset listausta listauksia
+36	6236	poseerata	poseeraa poseeraavat poseerasi poseerata poseeraamaan poseerannut
+37	6237	hytti	hytti hytissä hytin hyttiin hytit hyttiä hytistä hyteissä hyttejä hyttien
+38	6238	kandidaatti	kandidaatti kandidaatin kandidaatiksi kandidaatteja kandidaatit kandidaattia
+39	6239	ukkonen	ukkonen ukkosen ukkosta ukkoset ukkosia ukkosella
+40	6240	integraatio	integraatio integraation integraatiota integraatioon integraatiosta
+41	6241	virkavalta	virkavallan virkavalta virkavaltaa virkavallalle
+42	6242	vastaanottokeskus	vastaanottokeskuksen vastaanottokeskus vastaanottokeskuksissa vastaanottokeskuksessa vastaanottokeskuksia vastaanottokeskukseen vastaanottokeskusten vastaanottokeskuksiin vastaanottokeskukset
+43	6243	tarjoutua	tarjoutui tarjoutuu tarjoutunut tarjoutua tarjoutuivat tarjouduin
+44	6244	innokkaasti	innokkaasti innokkaimmin innokkaammin
+45	6245	metallinen	metallinen metallisen metalliset metallisia metallista metallisella metalliseen metallisten metallisilla
+46	6246	jylhä	jylhä jylhän jylhät jylhiä jylhää
+47	6247	öö	öö öitä öin öinä öistä öiden
+48	6248	kliininen	kliininen kliinisen kliinistä kliiniset kliinisiä kliiniseen kliinisessä kliinisestä kliinisten kliinisissä
+49	6249	munuainen	munuaisten munuaiset munuaisen munuaisia munuaisissa munuainen munuaisiin munuaisensa munuaista
+50	6250	sitkeä	sitkeä sitkeää sitkeitä sitkeän sitkeät sitkeässä sitkeästä sitkeämpi
+51	6251	hermostua	hermostui hermostua hermostuu hermostu hermostumaan hermostuvat hermostuivat hermostun hermostuttavat
+52	6252	kyläläinen	kyläläiset kyläläisten kyläläisiä kyläläisille kyläläinen kyläläisistä kyläläistä kyläläisen
+53	6253	valkoihoinen	valkoihoinen valkoihoisia valkoihoiset valkoihoisten valkoihoisen valkoihoista
+54	6254	suurkaupunki	suurkaupungin suurkaupungeissa suurkaupunkien suurkaupunki suurkaupungissa suurkaupunkeihin suurkaupungit suurkaupunkiin suurkaupungista suurkaupunkeja suurkaupungeista suurkaupunkia
+55	6255	syöttöpiste	syöttöpisteen syöttöpistettä syöttöpiste syöttöpisteitä
+56	6256	porilainen	porilainen porilaisten porilaiset porilaisen porilaisia porilaista
+57	6257	satatuhatta	satojatuhansia satatuhatta sadattuhannet sadantuhannen satojentuhansien sataatuhatta
+58	6258	jakautuminen	jakautuminen jakautumista jakautumisesta jakautumisen jakautumiseen jakautumisessa
+59	6259	takapiha	takapihalla takapihalle takapihan takapihalta takapiha
+60	6260	isosti	isosti isommin
+61	6261	sileä	sileä sileäksi sileää sileät sileän sileitä sileällä sileänä sileiksi
+62	6262	kuvitteellinen	kuvitteellinen kuvitteellisen kuvitteellisia kuvitteellista kuvitteellisessa kuvitteelliseen kuvitteellisten kuvitteellisesta kuvitteellisista kuvitteelliset
+63	6263	elli	elli ellin ellien
+64	6264	kupeessa	kupeessa kupeeseen kupeesta
+65	6265	leipomo	leipomo leipomon leipomossa leipomosta leipomot leipomoon leipomoa leipomoita leipomoiden
+66	6266	tökkiä	tökkii tökkiä tökki tökkimään töki tökkivät tökkinyt tökin
+67	6267	vakuus	vakuutena vakuudeksi vakuuksia vakuudet vakuuden vakuus vakuutta vakuuksien
+68	6268	hälyttää	hälyttää hälyttävää hälytti hälyttävän hälytettiin hälyttävä hälytetty hälytin hälyttämään hälyttäviä hälytetään hälyttänyt hälyttävät
+69	6269	kuulija	kuulijat kuulijan kuulijoita kuulija kuulijaa kuulijoiden kuulijalle kuulijoille
+70	6270	futis	futista futis futiksen futiksessa futiksesta fudista
+71	6271	haastaja	haastaja haastajan haastajaksi haastajaa haastajat haastajia haastajana haastajansa
+72	6272	esitutkinta	esitutkinnan esitutkinta esitutkinnassa esitutkintaa esitutkintaan
+73	6273	hyvitys	hyvitystä hyvityksen hyvitys hyvitykseksi hyvityksenä hyvityksiä hyvitykset hyvitykseen
+74	6274	kehitysapu	kehitysapu kehitysavun kehitysapua kehitysapuun kehitysavusta
+75	6275	pensas	pensaiden pensaat pensas pensaita pensaaseen pensaan pensaasta pensaista pensaassa pensasta pensaisiin pensaissa
+76	6276	juoppo	juoppo juoppoja juopot juopon juoppojen juoppoa
+77	6277	lakimuutos	lakimuutoksen lakimuutos lakimuutosta lakimuutoksia lakimuutokset lakimuutoksella lakimuutoksesta lakimuutosten
+78	6278	perustuslakivaliokunta	perustuslakivaliokunnan perustuslakivaliokunta perustuslakivaliokunnassa
+79	6279	pelastaja	pelastaja pelastajat pelastajan pelastajia pelastajana pelastajaksi pelastajaa pelastajien
+80	6280	rinnastaa	rinnastaa rinnastetaan rinnastettava rinnasta rinnastaminen rinnasti rinnastettiin rinnastettu
+81	6281	isännöitsijä	isännöitsijä isännöitsijän isännöitsijälle isännöitsijältä isännöitsijää isännöitsijään isännöitsijät isännöitsijänä
+82	6282	rasti	rasti rastin rastiin rastilla rastia rastit rasteilla rasteja
+83	6283	jogurtti	jogurttia jogurtti jugurttia jogurtin jogurtit jugurtti jogurttiin jogurtista
+84	6284	purkaus	purkaus purkauksen purkaukset purkauksia purkausta purkauksesta purkauksessa purkausten
+85	6285	viimeaikainen	viimeaikaiset viimeaikaisten viimeaikainen viimeaikaisista viimeaikaisia viimeaikaisen viimeaikaista viimeaikaisesta viimeaikaisissa viimeaikaisiin
+86	6286	taa	taa naa
+87	6287	penni	pennin penniä penni pennejä pennillä pennit pennonen
+88	6288	pelisääntö	pelisäännöt pelisääntöjä pelisääntöjen pelisäännöistä pelisäännöillä pelisääntöihin
+89	6289	sisustaa	sisustaa sisustettu sisustamiseen sisustan sisustaminen sisustamisesta sisustanut sisusti sisustamisessa sisusta sisustetaan sisustamaan sisustamisen sisustat
+90	6290	komppania	komppania komppanian komppaniassa komppaniasta komppaniaa komppaniaan komppaniat
+91	6291	trio	trio trion triossa triona
+92	6292	uimaranta	uimaranta uimarannalla uimarannan uimarannat uimarannalle uimarantaa uimarannoilla uimarannalta uimarantoja
+93	6293	läpinäkyvä	läpinäkyvä läpinäkyvää läpinäkyviä läpinäkyvät läpinäkyvän läpinäkyväksi läpinäkyvään läpinäkyvällä läpinäkyvästä
+94	6294	kohtu	kohdun kohdussa kohtu kohdusta kohtua kohtuun
+95	6295	aimo	aimo aimon
+96	6296	piirikunta	piirikunnan piirikunnassa piirikunta piirikuntaa piirikuntaan piirikunnasta
+97	6297	auringonlasku	auringonlaskun auringonlasku auringonlaskua auringonlaskuun auringonlaskusta auringonlaskussa auringonlaskuja auringonlaskut
+98	6298	kertoja	kertoja kertojan kertojana kertojat kertojaa
+99	6299	pumppu	pumppu pumpun pumput pumpulla pumppua pumppujen pumppuja
+100	6300	fossiilinen	fossiilisten fossiilisista fossiilisia fossiiliset fossiilisen fossiilisilla fossiilisiin fossiilinen fossiilista

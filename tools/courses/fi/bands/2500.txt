@@ -1,0 +1,100 @@
+1	2401	komentaja	komentaja komentajan komentajana komentajat komentajaksi komentajalle komentajaa komentajien komentajansa komentajalla komentajalta
+2	2402	ainut	ainut ainutta
+3	2403	sittemmin	sittemmin
+4	2404	sori	sori
+5	2405	sairastua	sairastui sairastua sairastuu sairastunut sairastumisen sairastuminen sairastuvat sairastuin sairastumisesta sairastuivat sairastu sairastumista sairastut sairastumiseen sairastuisi sairastuessa sairastumaan sairastumiset sairastun sairastumisia
+6	2406	aines	ainekset aineksia ainesta aines aineksen aineksista ainesten aineksesta aineksilla
+7	2407	pussi	pussi pussiin pussin pussista pussia pussissa pussit pusseja pusseissa pusseihin pussien pss pusseista
+8	2408	monenlainen	monenlaisia monenlaista monenlaisiin monenlaiset monenlaisissa monenlaisten monenlaiseen monenlaisista monenlaisilla monenlaisessa monenlaisesta
+9	2409	touhu	touhua touhu touhussa touhuja touhusta touhuun touhun touhut touhuista touhuihin touhuissa touhujen
+10	2410	mittainen	mittainen mittaisen mittaiseksi mittaisia mittaista mittaisella mittaiset mittaiseen mittaiselle mittaisesta mittaisiksi mittaisessa mittaisena mittaisiin mittaisilla mittaisten mittaisina
+11	2411	tutkinta	tutkinta tutkinnan tutkintaa tutkinnassa tutkintaan tutkinnasta tutkintojen tutkintoja tutkinnat tutkinnoista tutkinnalle tutkintoihin tutkinnoissa
+12	2412	sitoutua	sitoutua sitoutuu sitoutumista sitoutuminen sitoutumaton sitoutuvat sitoutumaan sitoutui sitoudu sitoutumisen sitoutumisesta sitoutumattomien sitoutumattomat sitoutuivat sitoudutaan sitoutumattomia sitouduttava sitoutumattomana sitoudut sitoutumalla sitoutumattoman sitouduttu sitoutumiseen sitoudun sitoutuisi sitoudumme sitoutumatta sitoutumatonta sitoutumisessa
+13	2413	viitsiä	viitsi viitsinyt viitti viitsii viitsisi viitsit viitsitty viitsineet viitsivät viitsin
+14	2414	pitkälle	pidemmälle pitkälle pitemmälle pitkällä pisimmälle
+15	2415	väline	väline välineitä välineet välineenä välineiden välineillä välineistä välinettä välineen välineellä välineeksi välineinä välineisiin välineiksi
+16	2416	kana	kana kanaa kanan kanat kanoja kanojen kanasta kanaan kanalla kanoille kanalle kanoista kanoilla
+17	2417	hakija	hakijan hakija hakijoita hakijaa hakijoiden hakijat hakijoista hakijalle hakijalla hakijoille hakijasta hakijalta hakijana hakijaksi hakijoilla hakijoilta
+18	2418	koskettaa	koskettaa kosketa kosketti koskettava koskettavat koskettanut koskettamalla koskettamaan koskettavaa koskettivat koskettavan koskettaminen kosketin koskettaisi koskettavia koskettamatta koskettamista kosketetaan koskettaen koskettaessa
+19	2419	periä	periä peri perii peritään perinyt perimä peritty perimään perivät perimän peritä perittävä periminen perimästä perittiin perimässä perimällä perimättä perimme perittäisiin perimisestä perisi perimisen perit perimistä
+20	2420	valhe	valheita vale valhe valhetta valheen valheet valheiden valheesta valheeksi valheista valheisiin valheilla valheeseen valheella valheessa
+21	2421	jono	jono jonon jonot jonoon jonoa jonoja jonoksi jonosta jonojen jonoissa jonoista jonoihin
+22	2422	sävy	sävy sävyyn sävyjä sävyt sävyä sävyn sävyissä sävyistä sävyllä sävyillä sävyssä sävyihin sävystä sävyjen sävyin sävynsä
+23	2423	perustelu	perustelut perusteluja perustelu perusteluna perusteluita perusteluissa perustelun perustelujen perustelua perusteluina perusteluista perusteluksi perusteluiden perusteluihin perusteluineen perustelusi perusteluilla perustelunsa perusteluin perusteluiksi
+24	2424	päästö	päästöt päästöjä päästöjen päästöistä päästöihin päästö päästön päästöillä
+25	2425	päätöksenteko	päätöksenteon päätöksentekoon päätöksenteko päätöksenteossa päätöksentekoa päätöksenteosta päätöksenteolle
+26	2426	etäisyys	etäisyys etäisyyttä etäisyydellä etäisyyden etäisyydet etäisyydeltä etäisyydelle etäisyyksien etäisyyksiä etäisyydestä etäisyyksillä etäisyyteen etäisyyksistä
+27	2427	peili	peiliin peili peilin peilistä peilit peilissä peiliä peilejä peilien peileistä peilillä peilinä peileihin peiliksi
+28	2428	kukkia	kukkia kukkii kukkien kukkivat kukkimaan kukkiva kuki kukkivia kukki
+29	2429	lisätieto	lisätietoja lisätietoa lisätietojen
+30	2430	vasemmistoliitto	vasemmistoliitto vasemmistoliiton vasemmistoliittoa vasemmistoliitolle vasemmistoliitolla vasemmistoliitosta vasemmistoliitossa vasemmistoliittoon
+31	2431	räjähtää	räjähtää räjähti räjähtänyt räjähtävät räjähtävä räjähtävän räjähtävää räjähtämään räjähtivät räjähtäisi räjähtäviä räjähdä räjähtäneet räjähtäneen räjähtäessä räjähtäminen räjähtämässä räjähtämisen räjähtelee räjähtämistä
+32	2432	muusikko	muusikko muusikot muusikon muusikoiden muusikoita muusikkona muusikoista muusikkoa muusikkoja muusikoille muusikkojen muusikoksi muusikolle muusikosta muusikoihin
+33	2433	ajankohtainen	ajankohtaista ajankohtainen ajankohtaisia ajankohtaiseksi ajankohtaiset ajankohtaisista ajankohtaisiin ajankohtaisen ajankohtaiseen ajankohtaisesta ajankohtaisten ajankohtaisena ajankohtaisessa ajankohtaisempi ajankohtaiselta
+34	2434	monimutkainen	monimutkainen monimutkaista monimutkaisia monimutkaisempi monimutkaisen monimutkaiset monimutkaisten monimutkaisesta monimutkaiseksi monimutkaiselta monimutkaisiin monimutkaisista monimutkaiseen monimutkaisessa monimutkaisin monimutkaisella monimutkaisissa monimutkaisena monimutkaisilla monimutkaisiksi
+35	2435	älykäs	älykäs älykkäitä älykkään älykästä älykkäät älykkäämpi älykkäiden älykkäänä älykkäin älykkääksi älykkäästä älykkäistä älykkääseen älykkäimpiä älykkäällä
+36	2436	kokeilu	kokeilu kokeilun kokeiluun kokeilua kokeiluja kokeilut kokeilussa kokeilusta kokeiluihin kokeilujen kokeiluista kokeiluna kokeilulla kokeiluissa kokeiluksi
+37	2437	tottunut	tottunut tottuneet tottuneita tottuneelle tottuneen tottuneille
+38	2438	neuvotella	neuvotella neuvottelemaan neuvottelee neuvotellaan neuvotteli neuvotellut neuvoteltiin neuvotteleva neuvoteltu neuvottelevat neuvottelivat neuvottele neuvottelemassa neuvottelemalla neuvoteltava neuvottelemme neuvottelematta neuvotteleminen neuvottelimme neuvottelemasta
+39	2439	lakata	lakkaa lakkasi lakata lakannut lakkaavat lakatkaa lakkasivat lakkasin lakkaisi lakkaamatta lakanneet lakkaan lakataan lakkaisivat lakkaat lakkaaminen
+40	2440	romahtaa	romahti romahtaa romahtanut romahtivat romahtavat romahtaminen romahtamisen romahtamiseen romahtamassa romahtaisi romahtamista romahtaessa romahda romahtamaan romahtamisesta
+41	2441	lakko	lakko lakon lakkoon lakkoja lakossa lakot lakkoa lakkojen lakosta lakoista lakolla lakkoihin lakoilla lakoissa
+42	2442	monipuolinen	monipuolinen monipuolista monipuolisia monipuolisen monipuoliset monipuolisempi monipuolisesta monipuolisena monipuoliseen monipuolisiin monipuolisten monipuolisin monipuoliseksi monipuolisella monipuoliselle
+43	2443	raju	raju rajua rajut rajuja rajussa rajun rajulla rajuun rajusta rajuista rajumpi rajulta rajumpia rajumpaa rajuksi rajuin rajujen rajuihin rajuna
+44	2444	irrota	irtoaa irtosi irrota irronnut irtoa irtoavat irtoaisi irtoaminen irtosivat irronneet irtoamaan irronneen irtoamisen irtoava irtoamista irronnutta irtoamiseen
+45	2445	satakunta	satakunnan satakunta satakunnassa satakuntaan satakunnasta
+46	2446	muoti	muoti muotia muodin muodissa muotiin muodista
+47	2447	noh	noh
+48	2448	peräisin	peräisin
+49	2449	riita	riita riitaa riidan riidat riitoja riitaan riidoissa riitoihin riitojen riidasta riitansa riidoista riidassa
+50	2450	hollanti	hollannin hollannissa hollanti hollannista hollantiin hollantia hollanniksi hollannille
+51	2451	pahoinpitely	pahoinpitely pahoinpitelystä pahoinpitelyn pahoinpitelyyn pahoinpitelyä pahoinpitelyistä pahoinpitelyt pahoinpitelyjä pahoinpitelyssä pahoinpitelyitä pahoinpitelynä pahoinpitelyksi pahoinpitelyihin pahoinpitelyjen
+52	2452	ehdoton	ehdoton ehdottoman ehdotonta ehdottomaan ehdottomia ehdottomana ehdottomat ehdottomasta ehdottomaksi ehdottomiin ehdottomalla
+53	2453	sulaa	sulaa sulanut sula sulaminen sulavat suli sulan sulava sulavaa sulamaan sulamisen sulat sulamista sulivat sulin sulavan sulaessa sulavia sulamisesta sulaisi sulamiseen sulamassa
+54	2454	tammi	tammi tammen tammea tammesta tammessa tammista tammet tammien
+55	2455	matematiikka	matematiikan matematiikka matematiikkaa matematiikassa matematiikasta matematiikkaan matematiikalla
+56	2456	hymyillä	hymyilee hymyili hymyillen hymyillä hymyilemään hymyilevä hymyile hymyilevät hymyilet hymyilen hymyilin hymyilivät hymyillään hymyillyt hymyilemättä hymyileminen hymyilisi
+57	2457	temppu	temppu tempun temppuja temput temppua temppujen tempulla temppunsa tempusta tempuista temppuihin tempuilla temppuun tempussa temppuna
+58	2458	seuraaja	seuraaja seuraajaa seuraajia seuraajaksi seuraajan seuraajat seuraajansa seuraajien seuraajista seuraajille seuraajani seuraajana seuraajasta seuraajalle seuraajiin
+59	2459	ale	aleksi ale alen alea alessa aleni alesta alet alena aleista
+60	2460	seminaari	seminaari seminaarissa seminaarin seminaariin seminaareja seminaarista seminaarit seminaaria seminaarien seminaareissa seminaareihin
+61	2461	päteä	pätee päde päteä pätemään pätevät päti pätisi pätemätön pätenyt pätemisen
+62	2462	sieni	sieniä sienet sieni sienten sienen sienistä sientä sienien sienissä sienellä sienillä sienestä sieniin sieneen sienille
+63	2463	minkäänlainen	minkäänlaista minkäänlaisia minkäänlainen minkäänlaiseen minkäänlaisiin minkäänlaisesta minkäänlaisena minkäänlaisen minkäänlaisessa
+64	2464	ukko	ukko ukon ukot ukkoa ukkoja ukkojen ukolle ukolla ukosta ukolta
+65	2465	aineisto	aineistoa aineisto aineiston aineistosta aineistot aineistossa aineistoon aineistoja aineistojen aineistona aineistoihin aineistolla aineistoista aineistonsa
+66	2466	valitus	valituksen valitus valituksia valitusta valitukset valitusten valitukseen valituksesta valituksista valituksensa valituksiin valituksessa valituksella
+67	2467	sukulainen	sukulaisia sukulaiset sukulaisten sukulainen sukulaisen sukulaisille sukulaisensa sukulaiseni sukulaista sukulaisiin sukulaisista sukulaisilta sukulaiselle sukulaisilla sukulaisesi sukulaiselta sukulaisena
+68	2468	tulipalo	tulipalo tulipalossa tulipalon tulipaloja tulipaloa tulipalosta tulipalot tulipalojen tulipaloon tulipaloissa tulipaloista
+69	2469	työryhmä	työryhmä työryhmän työryhmässä työryhmään työryhmissä työryhmää työryhmien työryhmät työryhmälle työryhmiä työryhmineen työryhmänsä työryhmästä työryhmiin
+70	2470	pronssi	pronssia pronssi pronssille pronssin pronssista pronssiin pronssilla
+71	2471	torjunta	torjunta torjuntaan torjuntaa torjunnat torjunnan torjunnasta torjunnassa torjuntoja torjunnalla
+72	2472	huolto	huolto huoltoon huollon huoltoa huollossa huollot huollosta huoltoja huoltoihin huolloista huoltojen
+73	2473	enintään	enintään
+74	2474	henkilökohtaisesti	henkilökohtaisesti
+75	2475	kokonaisuudessaan	kokonaisuudessaan
+76	2476	periaatteessa	periaatteessa
+77	2477	tulot	tulot
+78	2478	vastaavasti	vastaavasti
+79	2479	työllisyys	työllisyys työllisyyden työllisyyttä työllisyyteen työllisyydestä työllisyydessä työllisyydelle
+80	2480	jääkaappi	jääkaapissa jääkaappi jääkaapin jääkaappiin jääkaapista jääkaappia jääkaapit jääkaapille jääkaappeja jääkaapilla jääkaappien
+81	2481	hauta	haudan hauta hautaan haudasta haudassa hautaa haudalla haudalle hautoja haudat hautojen haudoista haudoilla hautansa haudoille haudoissa haudalta
+82	2482	päävalmentaja	päävalmentaja päävalmentajana päävalmentajan päävalmentajaksi päävalmentajat päävalmentajaa päävalmentajansa
+83	2483	valikoima	valikoima valikoimaan valikoiman valikoimaa valikoimasta valikoimista valikoimiin valikoimassa valikoimissa valikoimat valikoimalla valikoimia
+84	2484	lämmittää	lämmittää lämmitä lämmitti lämmitetään lämmittämään lämmitetty lämmittävät lämmittämiseen lämmittäminen lämmitin lämmitettävä lämmittänyt lämmittävä lämmittämällä lämmitettiin lämmittäisi lämmittämässä lämmittävän lämmittivät lämmittävää lämmität lämmitän lämmittäessä lämmittäviä
+85	2485	työllistää	työllistää työllisti työllistävät työllistämisen työllistävä työllistäminen työllistä työllistämään työllistämiseen työllistivät työllistänyt työllistämistä työllistäisi työllistetty työllistämisestä
+86	2486	kurkku	kurkku kurkkuun kurkkua kurkun kurkusta kurkussa kurkut kurkkuja kurkulla kurkkunsa kurkkujen kurkulle
+87	2487	varoa	varo varoa varokaa varoen varomaan varoin varottava varomaton varonen varoo varon varoi varotaan varovat varonut
+88	2488	muuri	muurin muuri muurien muuria muurit muurilla muuriin muureja muurista muurille muurissa muureilla
+89	2489	veikkaus	veikkaus veikkauksen veikkaukseni veikkauksella veikkaukselle veikkausta veikkaukselta veikkaukset veikkauksesta veikkauksia veikkaukseen veikkauksessa
+90	2490	vakuutus	vakuutus vakuutuksen vakuutukset vakuutusta vakuutuksia vakuutusten vakuutuksesta vakuutuksista vakuutuksiin vakuutukseen vakuutuksissa vakuutuksella vakuutuksessa vakuutuksensa
+91	2491	myrsky	myrsky myrskyn myrskyä myrskyt myrskyssä myrskyyn myrskyjen myrskyjä myrskystä myrskyksi myrskyistä myrskyissä myrskyltä
+92	2492	rehtori	rehtori rehtorin rehtorille rehtorina rehtorit rehtoria rehtoriksi rehtorilta rehtorilla rehtoreiden rehtorien rehtoreille rehtoreita
+93	2493	lähempänä	lähempänä lähempää lähemmäs
+94	2494	parantua	parantunut parantua parannus parantuminen parantuu parantumista parantui parantumaan parantumisen parantuessa parantumaton parantumiseen parantuvan parantumisesta parantuisi parantuvat parantumassa parantuakseen parantuivat parantumatonta parannu
+95	2495	systeemi	systeemi systeemin systeemiä systeemiin systeemit systeemissä systeemillä systeemistä systeemejä systeemien systeemille systeemeissä systeemeistä systeemeihin systeeminä
+96	2496	haastatella	haastatteli haastatella haastateltu haastateltiin haastattelee haastatellut haastatellaan haastateltavana haastattelin haastattelemaan haastateltavaksi haastateltava haastattelema haastateltavan haastateltavat haastattelen haastattelimme haastattelemalla haastatelluista haastateltavia haastateltujen haastateltavien haastattelemassa haastatteleman haastatellun haastattelivat haastateltavina haastattelevat haastattelemme haastateltavaa
+97	2497	sijoittaja	sijoittajat sijoittaja sijoittajille sijoittajien sijoittajia sijoittajan sijoittajalle sijoittajilta sijoittajaa sijoittajana sijoittajista sijoittajilla sijoittajiin sijoittajalla
+98	2498	suklaa	suklaata suklaa suklaan suklaasta suklaat suklaalla suklaaseen suklaassa suklaita suklaalle suklaista
+99	2499	sääli	sääli sääliksi säälin sääliä säälistä säälittä
+100	2500	pakolainen	pakolaisia pakolaisten pakolaiset pakolaista pakolaisille pakolaisista pakolainen pakolaisena pakolaisen pakolaisina pakolaisiksi pakolaisiin pakolaiseksi pakolaisilta pakolaisesta pakolaisilla

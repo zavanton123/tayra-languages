@@ -1,0 +1,100 @@
+1	2001	ennätys	ennätys ennätyksen ennätystä ennätykset ennätyksiä ennätyksensä ennätykseen ennätysten ennätykseni ennätyksestä ennätykseksi ennätyksellä ennätyksistä
+2	2002	kokonainen	kokonaisen kokonainen kokonaisia kokonaista kokonaisena kokonaiset kokonaisten kokonaisina kokonaiseksi kokonaiseen kokonaisesta kokonaisista kokonaisella kokonaiselle
+3	2003	osavaltio	osavaltion osavaltiossa osavaltio osavaltioissa osavaltioiden osavaltiosta osavaltiot osavaltiota osavaltioon osavaltioista osavaltioita osavaltioihin osavaltiolle osavaltioilla osavaltiolla osavaltioille
+4	2004	sakko	sakot sakkoja sakko sakon sakkoa sakkoihin sakkoon sakkojen sakoilla sakoista sakolla sakosta
+5	2005	työkalu	työkaluja työkalu työkalut työkalujen työkalun työkalua työkaluna työkaluilla työkaluista työkalulla työkaluksi työkaluihin työkaluina työkalunsa työkalusta
+6	2006	ulkomainen	ulkomaisten ulkomaiset ulkomaisia ulkomaisen ulkomainen ulkomaista ulkomaisille ulkomaisiin ulkomaisista ulkomaisissa ulkomaiselle ulkomaiseen ulkomaisesta ulkomaisilla ulkomaisessa ulkomaisilta ulkomaisella ulkomaiselta ulkomaiseksi
+7	2007	sisälle	sisälle sisässä sisästä sisimmässä sisimmästä
+8	2008	minkälainen	minkälainen minkälaisia minkälaista minkälaisen minkälaiset minkälaisesta minkälaisessa minkälaiseen minkälaisiin minkälaisista minkälaisella minkälaisilla minkälaisissa minkälaiseksi minkälaisten minkälaisena
+9	2009	polttoaine	polttoaineen polttoainetta polttoaine polttoaineiden polttoaineita polttoaineet polttoaineena polttoaineista polttoaineesta polttoaineeksi polttoaineilla polttoaineisiin polttoaineella polttoaineeseen polttoaineessa polttoaineissa
+10	2010	sovittu	sovittu sovittua sovitun sovitusta sovitut sovittuja sovittuun sovittujen sovittuna sovitussa sovituista sovitulla sovittuihin sovituissa sovitulle sovituksi sovituilla
+11	2011	kannatus	kannatus kannatusta kannatuksen kannatuksensa kannatuksella kannatukseen kannatuksessa kannatuksesta kannatukselle
+12	2012	albumi	albumi albumin albumia albuminsa albumiin albumilla albumit albumilta albumista albumille albumeita albumeja albumien albumissa albumeista albumeilla albumeihin albumiksi
+13	2013	harjoittaa	harjoittaa harjoittavat harjoitetaan harjoitettu harjoittamaan harjoittaminen harjoittama harjoittanut harjoittava harjoittamiseen harjoittamista harjoita harjoitti harjoittamasta harjoittamisesta harjoittaman harjoittamisen harjoittavan harjoitettiin harjoittivat harjoittavien harjoittamalla harjoittavia harjoitat harjoitettava harjoittamassa harjoittavaa harjoitan
+14	2014	muslimi	muslimien muslimit muslimi muslimeja muslimeista muslimia muslimiksi muslimeille muslimeita muslimin muslimeihin muslimeiksi muslimeilla muslimeilta muslimina
+15	2015	ylipäätään	ylipäätään ylipäänsä ylipäätänsä
+16	2016	paikkakunta	paikkakunnalla paikkakunnilla paikkakunnalle paikkakunnan paikkakunta paikkakunnalta paikkakuntien paikkakuntaa paikkakunnat paikkakunnille paikkakuntia paikkakunnasta paikkakunnilta paikkakuntasi paikkakunnista
+17	2017	myöhässä	myöhässä
+18	2018	perin	perin
+19	2019	vahingossa	vahingossa
+20	2020	ässä	ässät ässien ässä ässiä ässän ässää ässille ässissä ässillä ässiin ässistä ässällä ässästä
+21	2021	päiväkoti	päiväkoti päiväkodin päiväkodissa päiväkodeissa päiväkotiin päiväkotien päiväkodit päiväkodista päiväkoteja päiväkoteihin päiväkotia päiväkodeista päiväkodille
+22	2022	poikkeus	poikkeus poikkeuksetta poikkeuksia poikkeuksena poikkeuksen poikkeusta poikkeukset poikkeuksin poikkeuksista poikkeuksella poikkeuksesta
+23	2023	paikallaan	paikallaan paikalleen paikaltaan paikallani paikallasi paikalleni
+24	2024	niminen	niminen nimisen nimisessä nimiseen nimisestä nimisiä nimisellä nimiselle nimistä nimisenä nimiseltä nimiset nimisten nimiseksi
+25	2025	takki	takki takin takkiin takkia takit takkinsa takkeja takissa takista takkini takkien takkisi takeissa takkeihin takilla takeista
+26	2026	san	san sanin sania
+27	2027	oi	oi ui
+28	2028	kumpikaan	kumpikaan kumpaakaan kummankaan kummallakaan kummastakaan kummassakaan kumpaankaan kummallekaan kumminkaan kummaltakaan kummatkaan kumpiakaan
+29	2029	ilmetä	ilmenee ilmeni ilmetä ilmennyt ilmenevät ilmene ilmetty ilmenisi ilmenevä ilmeneminen ilmenivät ilmetessä ilmenemistä
+30	2030	maapallo	maapallon maapallolla maapallo maapalloa maapallolle maapallolta maapallosta maapalloon
+31	2031	rengas	rengas renkaan renkaiden renkaita renkailla rengasta renkaista renkaisiin renkaaseen renkaissa renkaalla renkaassa renkaasta renkaille renkaiksi renkaansa renkaalle
+32	2032	juoma	juomia juomaa juomat juomista juoma juomien juomaan juoman juomassa juomiin juomissa juomalla juomatta juomansa juomaksi juomasta juomana juomilla juomalle juomineen
+33	2033	hankinta	hankinta hankintaan hankintaa hankinnat hankintoja hankinnasta hankinnan hankinnoista hankintoihin hankinnassa hankintojen hankinnoissa hankinnalle hankinnalla
+34	2034	perustuslaki	perustuslain perustuslaki perustuslakia pl perustuslaissa perustuslakiin perustuslaista perustuslailla perustuslakinsa perustuslakien
+35	2035	kirjallisuus	kirjallisuuden kirjallisuus kirjallisuutta kirjallisuudessa kirjallisuudesta kirjallisuuteen kirjallisuudelle kirjallisuudella
+36	2036	puku	puku puvun puvut pukua pukuja puvussa pukuun puvusta pukujen puvuista puvuissa pukunsa pukuihin pukuni puvulla
+37	2037	kukka	kukat kukka kukan kukkaa kukkien kukkaan kukista kukassa kukilla kukasta kukkiin kukille kukissa
+38	2038	korkeus	korkeus korkeudessa korkeutta korkeudella korkeuteen korkeuden korkeudesta korkeudelle korkeudelta korkeuksiin korkeuksissa korkeuksia korkeutensa korkeudet korkeuksista korkeuksilla korkeuksille
+39	2039	leijona	leijona leijonat leijonien leijonan leijonia leijonaa leijonille leijonista leijonilta leijonilla leijonasta leijonalle
+40	2040	tarkkaan	tarkkaan
+41	2041	tyyliin	tyyliin
+42	2042	yllättäen	yllättäen
+43	2043	sara	sara saralla saran saralta saralle saraa saraan saroilla sarasta sarana
+44	2044	kaappi	kaapista kaapissa kaapin kaappiin kaappi kaapit kaappeja kaappien kaappia kaapeista kaappeihin kaapeissa kaapissani kaapistani
+45	2045	runsas	runsas runsaan runsaat runsasta runsaalla runsaasta runsain runsaita runsaaseen runsaiden runsaassa runsaista runsaana runsaampi runsaine runsailla runsaaksi
+46	2046	annos	annos annoksen annosta annoksia annokset annoksina annosten annokseen annoksilla annoksesta annoksella annoksista annoksessa annoksensa annoksissa annoksena annoksiin annokseni annokselle
+47	2047	lava	lavalla lavalle lava lavan lavalta lavaa lavat lavoilla lavoille lavoja lavasta lavassa lavoista
+48	2048	satama	satamassa satamaan satama satamissa sataman satamien satamaa satamiin satamat satamasta satamia satamista satamalle
+49	2049	laajasti	laajasti laajemmin laajimmin
+50	2050	edestä	edestä edestään edestäni
+51	2051	halli	hallissa hallin halli halliin hallia hallista hallille hallilla hallien halleissa hallit halleja hallilta halleihin halleista
+52	2052	herkku	herkkuja herkkua herkku herkut herkun herkkujen herkuilla herkuista herkusta herkkuihin herkkuna herkuksi herkussa
+53	2053	toimitus	toimitus toimituksen toimituksessa toimitukseen toimitukset toimitusta toimitusten toimituksia toimituksissa toimituksesta toimitukselle toimituksista toimituksiin toimituksella
+54	2054	hyöty	hyöty hyödyksi hyötyjä hyödyistä hyödyt hyödyn hyötyjen hyödystä hyötyyn hyötyihin hyötynä hyötynsä
+55	2055	hedelmä	hedelmiä hedelmät hedelmä hedelmää hedelmien hedelmistä hedelmän hedelmillä hedelmissä hedelmiin hedelmästä hedelmille
+56	2056	rohkea	rohkea rohkeita rohkeaa rohkeat rohkean rohkein rohkeiden rohkeampi rohkeana rohkeissa rohkeassa rohkeasta rohkeimmat rohkeaksi rohkeampia rohkeista rohkealla rohkeille rohkeaan rohkeampaa rohkeammaksi rohkeata rohkealle
+57	2057	yhdistelmä	yhdistelmä yhdistelmän yhdistelmää yhdistelmiä yhdistelmällä yhdistelmästä yhdistelmät yhdistelmänä yhdistelmään yhdistelmässä yhdistelmistä yhdistelmien yhdistelmäksi yhdistelmältä yhdistelmissä yhdistelmillä yhdistelmälle
+58	2058	vienti	vienti viennin vientiä viennistä vientiin viennissä viennille viennillä
+59	2059	tontti	tontin tontti tontille tontilla tonttia tontit tonttien tontteja tontilta tontista tonteille tonteilla tonteista tonttiin tonttinsa
+60	2060	mikkeli	mikkeli mikkelin mikkelissä mikkeliin mikkelistä
+61	2061	ajoneuvo	ajoneuvon ajoneuvo ajoneuvojen ajoneuvoa ajoneuvot ajoneuvoja ajoneuvoon ajoneuvosta ajoneuvolla ajoneuvoihin ajoneuvoista ajoneuvossa ajoneuvoissa ajoneuvoilla ajoneuvonsa ajoneuvoille ajoneuvolle
+62	2062	kuiva	kuiva kuivana kuivia kuivalla kuiviin kuivat kuiville kuivan kuivaksi kuivassa kuivina kuivaan kuivalle kuivien kuivalta kuivasta kuivissa kuivin kuivempaa kuivempi kuivista kuiviksi kuivilta
+63	2063	kotka	kotka kotkan kotkassa kotkaan kotkasta kotkat kotkaa kotkien kotkia
+64	2064	digitaalinen	digitaalinen digitaalisen digitaaliset digitaalisten digitaalisia digitaalisessa digitaaliseen digitaalista digitaalisesta digitaalisella digitaalisena digitaalisiin digitaalisista digitaalisissa digitaaliseksi digitaalisilla
+65	2065	sinänsä	sinänsä
+66	2066	päättäjä	päättäjät päättäjien päättäjiä päättäjille päättäjiin päättäjä päättäjillä päättäjiltä päättäjistä päättäjiksi päättäjän päättäjämme päättäjää päättäjänä
+67	2067	varasto	varastossa varasto varastoon varastosta varaston varastot varastoja varastoa varastojen varastoissa varastoista varastolla varastona varastoihin varastolle varastolta varastonsa varastomme varastoksi
+68	2068	kasaan	kasaan kasassa
+69	2069	neuvosto	neuvoston neuvosto neuvostossa neuvostoon neuvostolle neuvostoa neuvostosta neuvostolta neuvostolla neuvostojen
+70	2070	päivitys	päivitys päivityksen päivitykset päivityksiä päivitystä päivityksessä päivitysten päivityksestä päivityksistä päivitykseen päivityksiin päivityksenä päivityksillä päivityksissä
+71	2071	reuna	reunalla reuna reunaan reunat reunassa reunaa reunalle reunan reunoilla reunalta reunoja reunasta reunoille reunoilta reunojen reunoista reunoihin reunoissa
+72	2072	rouva	rouva rouvan rouvaa rouvat rouvalle rouvalla rouvia rouvien rva rouvasta rouvalta
+73	2073	pääkaupunkiseutu	pääkaupunkiseudulla pääkaupunkiseudun pääkaupunkiseudulle pääkaupunkiseutu pääkaupunkiseudulta pääkaupunkiseutua
+74	2074	valehdella	valehtelee valehdella valehtelevat valehtele valehteli valehdellut valehtelisin valehtelemaan valehtelet valehtelematta valehtelemalla valehdellaan valehteleminen valehtelisi valehtelit valehteleva valehtelin valehtelivat valehdeltu valehtelen valehdeltiin valehtelemisesta
+75	2075	pappi	pappi papin papit pappia pappien pappeja papiksi papille pappina papeista papeille papista papilla papeilla pappiin
+76	2076	tarkastella	tarkastella tarkastellaan tarkastelee tarkastelemaan tarkasteltiin tarkasteli tarkasteltava tarkastelemalla tarkasteltaessa tarkastellut tarkasteltu tarkastellen tarkastele tarkastelemme tarkastelevat tarkastellessa tarkastelen tarkastelin tarkasteleva tarkastelivat tarkastelet tarkastelimme
+77	2077	havainto	havaintoja havainto havainnot havaintojen havainnon havaintoa havainnoista havaintoihin havainnosta havaintonsa havaintoni havaintoon havaintosi havainnoissa havainnoilla
+78	2078	julkistaa	julkistettiin julkisti julkistaa julkistettu julkistetaan julkista julkistanut julkistamisen julkistaminen julkistamista julkistivat julkistama julkistamaan julkistamisesta julkistettava julkistaman julkistamalla julkistamassa julkistavat julkistamiseen
+79	2079	siivota	siivota siivoamaan siivoa siivoaa siivoaminen siivotaan siivottu siivosi siivoan siivoamassa siivoamisesta siivoamista siivosin siivonnut siivottiin siivoamiseen siivoavat siivoamisen siivoamisessa siivoamalla siivoat siivotessa siivottava siivoaisi siivoamme siivosivat
+80	2080	puhelu	puhelu puhelun puhelut puheluita puhelua puheluun puheluihin puheluiden puheluja puheluista puhelusta puhelujen puhelussa puheluissa puhelunsa
+81	2081	eläkkeelle	eläkkeelle eläkkeellä
+82	2082	suihku	suihkussa suihkuun suihku suihkun suihkut suihkua suihkusta suihkuja suihkujen suihkulla
+83	2083	miellyttää	miellyttää miellyttävä miellyttävää miellytä miellyttävän miellyttänyt miellyttävämpi miellytti miellyttäviä miellyttävät miellyttämään miellyttävältä miellyttääkseen miellyttäväksi miellyttävänä miellyttäisi miellyttävin miellyttävällä miellyttivät miellyttämisen miellyttäminen miellyttävään
+84	2084	suola	suolaa suola suolan suolalla suolasta suolat suoloja suolaan suolassa suolojen
+85	2085	mitali	mitalia mitali mitalin mitalit mitaleita mitaleista mitaleja mitaleille mitalista mitaleilla mitalien mitalinsa mitalilla mitaliin
+86	2086	kenraali	kenraali kenraalin kenraalit kenraalia kenraalien kenraaliksi kenraaleja kenraalille
+87	2087	valmistus	valmistus valmistuksen valmistukseen valmistuksessa valmistusta valmistuksesta
+88	2088	automaattisesti	automaattisesti
+89	2089	massa	massa massaa massan massasta massaan massat massojen massaksi massalla massoja massana massoille massalle
+90	2090	henkilöstö	henkilöstön henkilöstö henkilöstöä henkilöstölle henkilöstöstä henkilöstöön henkilöstöllä henkilöstönsä henkilöstömme
+91	2091	repiä	repiä repii revitty revitään repi repivät revi repimään revin repinyt revittiin revit repikää repiminen repimällä repimässä repimistä repivän repien repisi revittävä repivä revittäisiin repivää
+92	2092	neuvottelu	neuvottelut neuvotteluissa neuvottelujen neuvotteluja neuvotteluihin neuvottelu neuvotteluiden neuvotteluista neuvottelun neuvotteluita neuvottelua neuvottelussa neuvotteluun neuvotteluilla neuvottelusta neuvotteluille
+93	2093	este	este esteitä esteenä esteet estettä esteiden esteen esteeksi esteistä esteettä esteeseen esteisiin esteissä esteinä esteestä
+94	2094	tunnus	tunnus tunnukset tunnuksen tunnuksia tunnusta tunnuksella tunnusten tunnuksilla tunnuksena tunnuksesi tunnuksensa tunnuksesta tunnuksista tunnuksin tunnukseen tunnukseksi tunnuksessa tunnuksien
+95	2095	koski	koski koskien koskeen koskia koskessa koskesta koskella koskista koskelle koskin kosken kosket
+96	2096	juusto	juustoa juusto juuston juustot juustoja juustolla juustosta juustojen juustoista juustoon juustossa juustolle juustoissa
+97	2097	muistella	muistelee muistelen muistella muisteli muistelin muistellaan muistele muistelemaan muistelisin muistelevat muistellut muistellen muisteltiin muistelemme muistellessa muistelivat muistelemassa muisteleminen muistelet muisteltu muistelemalla muistelimme
+98	2098	laatikko	laatikko laatikon laatikkoon laatikossa laatikkoa laatikot laatikoita laatikosta laatikoihin laatikoiden laatikoissa laatikoista laatikolla
+99	2099	yksinkertaisesti	yksinkertaisesti yksinkertaisemmin
+100	2100	viestintä	viestinnän viestintä viestintää viestintään viestinnässä viestinnästä viestinnällä

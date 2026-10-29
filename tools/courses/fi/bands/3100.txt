@@ -1,0 +1,100 @@
+1	3001	koskinen	koskinen koskisen koskiselle koskista
+2	3002	asiakaspalvelu	asiakaspalvelu asiakaspalvelun asiakaspalvelua asiakaspalveluun asiakaspalvelussa asiakaspalvelusta
+3	3003	avustus	avustuksella avustusta avustuksia avustuksen avustus avustukset avustusten avustuksista avustuksilla avustuksesta avustuksiin avustukseen avustuksina
+4	3004	taipua	taipuu taipui taivu taipua taipumaan taipuvat taipunut taipuvan taipuva taipuivat taipuminen taipumaton taipumista taipuisi taivuttava
+5	3005	kemi	kemi kemin kemissä kemistä kemiin kemiä
+6	3006	lyhyesti	lyhyesti lyhyemmin
+7	3007	kristillinen	kristillinen kristilliset kristillisen kristillisten kristillisiä kristillistä kristilliseen kristillisestä kristillisessä kristillisistä kristillisiin kristillisille kristillisissä kristillisellä kristilliselle kristillisenä
+8	3008	erottua	erottuu erottuvat erottua erotu erottui erottuva erottuivat erottumaan erottuvaa erottuvia erottuvan erottunut erottuisi erottuminen erotut erottuakseen
+9	3009	maisteri	maisteri maisterin maisteriksi maistereita maisterit
+10	3010	ohjus	ohjus ohjuksia ohjukset ohjuksen ohjusta ohjusten ohjuksilla ohjuksella ohjuksesta ohjuksista ohjukseen ohjuksiin ohjuksin ohjuksien
+11	3011	välitön	välitön välitöntä välittömässä välittömän välittömiä välittömään välittömät välittömästä välittömänä välittömiin välittömien välittömällä välittömäksi
+12	3012	liika	liika liikoja liiaksi liioin liiasta liiat liialla liikaan
+13	3013	häpeä	häpeä häpeää häpeän häpeäksi häpeästä häpeään häpeänsä häpeillä
+14	3014	terrorismi	terrorismin terrorismi terrorismia terrorismiin terrorismista terrorismiksi terrorismille
+15	3015	pakkaus	pakkaus pakkauksen pakkauksessa pakkauksesta pakkauksissa pakkausta pakkauksia pakkaukseen pakkaukset pakkausten pakkauksiin pakkauksista
+16	3016	laivasto	laivaston laivasto laivastossa laivastoon laivastoa laivastolle laivastosta laivastonsa laivastolla laivastolta
+17	3017	avoinna	avoinna
+18	3018	huh	huh
+19	3019	kas	kas
+20	3020	taatusti	taatusti
+21	3021	varsinkaan	varsinkaan
+22	3022	naurattaa	naurattaa nauratti naurata naurattanut naurattamaan naurattavat naurattaisi
+23	3023	irrottaa	irrottaa irrota irrotetaan irrotettu irrotti irrottamaan irrotettava irrotettiin irroittaa irrottaminen irrotella irrotettua irrottanut irrotin irrottavat irrottamalla irrottamista irrotat irrotettuna irrottivat irrottamisen irrottamiseen irrottamiseksi
+24	3024	pudotuspeli	pudotuspeleissä pudotuspeleihin pudotuspelien pudotuspelit pudotuspelejä pudotuspeleistä pudotuspeli pudotuspeliä pudotuspelissä
+25	3025	eläkeläinen	eläkeläisten eläkeläiset eläkeläisiä eläkeläinen eläkeläisille eläkeläisen eläkeläisillä eläkeläisistä eläkeläisiin eläkeläistä eläkeläisiltä eläkeläisenä eläkeläiselle eläkeläisellä
+26	3026	haaveilla	haaveillut haaveilla haaveilen haaveilee haaveilin haaveili haaveile haaveilevat haaveilet haaveilemaan haaveillaan haaveileva haaveilimme haaveiltu haaveillen haaveilivat
+27	3027	puitteet	puitteissa puitteet puitteisiin puitteista puitteita
+28	3028	likainen	likainen likaista likaiset likaisia likaisen likaiseksi likaisten likaisesta likaiselta likaisena likaisissa likaisista likaiseen likaisiin likaisin likaisella likaisina
+29	3029	malta	malta maltan maltalla maltalle maltaan maltalta maltaa
+30	3030	kate	kate katetta katteet katteen katteiden katteita katteella katteeksi katteista
+31	3031	sisällissota	sisällissodan sisällissota sisällissotaa sisällissodassa sisällissotaan sisällissodasta sisällissodaksi sisällissotia sisällissodat sisällissotien
+32	3032	syntymäpäivä	syntymäpäivää syntymäpäivä syntymäpäivänä syntymäpäivät syntymäpäivän syntymäpäiviä syntymäpäivänsä syntymäpäiville syntymäpäivillä syntymäpäivien syntymäpäiväksi syntymäpäiväni
+33	3033	loukkaantuminen	loukkaantumisen loukkaantuminen loukkaantumisten loukkaantumiset loukkaantumisia loukkaantumisista loukkaantumista loukkaantumisesta loukkaantumiseen loukkaantumisiin loukkaantumisilta
+34	3034	panos	panos panokset panoksena panoksia panoksen panoksensa panoksella panosta panoksilla panosten panoksesta panokseni panoksesi panoksin panokseen panoksista panokseksi
+35	3035	hiekka	hiekkaa hiekka hiekan hiekkaan hiekalla hiekasta hiekassa hiekat hiekalle
+36	3036	vitamiini	vitamiinia vitamiinin vitamiineja vitamiini vitamiinit vitamiinien vitamiinilla vitamiineista vitamiinista
+37	3037	sammuttaa	sammuttaa sammuta sammutetaan sammuttamaan sammutti sammutettu sammutin sammutettiin sammuttaminen sammuttamassa sammuttamiseen sammuttamista sammuttivat sammuttavat sammuttamisen sammuttanut sammutan sammuttamalla
+38	3038	hävittäjä	hävittäjät hävittäjä hävittäjiä hävittäjää hävittäjien hävittäjän hävittäjistä hävittäjiin hävittäjillä hävittäjällä hävittäjästä hävittäjille hävittäjään
+39	3039	edusta	edustalla edustalle edusta edustalta edustan edustat edustamme
+40	3040	ammatillinen	ammatillisen ammatillinen ammatillista ammatillisten ammatillisissa ammatilliseen ammatillisessa ammatilliset ammatillisesta ammatillisia ammatillisista ammatillisena
+41	3041	tiivistää	tiivistää tiivistä tiivistetty tiivisti tiivistetään tiivistäminen tiivistämään tiivistävät tiivistämistä tiivistäen tiivistämällä tiivistänyt tiivistettiin tiivistämisen tiivistämiseen
+42	3042	täydentää	täydentää täydentämään täydensi täydentävät täydennetty täydennetään täydentävää täydensivät täydentävä täydentävän täydennettiin täydentäviä täydentäminen täydentänyt täydentämiseksi täydentämässä täydennämme täydentämisestä täydentäisi täydentämiseen täydentämistä täydentävien täydentäen täydentämisen täydennettävä
+43	3043	ulkoministeri	ulkoministeri ulkoministerin ulkoministerit ulkoministerinä ulkoministeriksi ulkoministerille ulkoministeriä
+44	3044	nytkiä	nytkin nytki
+45	3045	klikata	klikkaa klikata klikkaamalla klikkaat klikkasin klikkaamaan klikannut klikkaaminen klikataan klikkaan
+46	3046	listata	listasi listattu listata listattiin listataan listaa listannut listasimme listasin listaamaan listaan listaaminen listaavat listasivat
+47	3047	koivisto	koivisto koiviston koivistolle koivistoa koivistolla koivistosta
+48	3048	keli	keli kelit kelillä kelin keleillä kelissä kelien keliä keleistä kelistä kelejä keliin keleille
+49	3049	alaspäin	alaspäin
+50	3050	alasti	alasti
+51	3051	myöskin	myöskin
+52	3052	suinkaan	suinkaan
+53	3053	vaikkakin	vaikkakin
+54	3054	ruusu	ruusu ruusuja ruusun ruusut ruusunen ruusua ruusujen ruusuilla ruusuista ruususta
+55	3055	hiiri	hiiri hiiren hiirtä hiiret hiiriä hiirellä hiirten hiirillä hiirien hiirille hiirestä hiiristä hiirelle hiireen
+56	3056	maatila	maatilan maatilalla maatila maatilojen maatiloja maatilalle maatilat maatiloilla maatilaa maatilalta maatiloille maatiloilta maatilasta maatiloista maatilansa maatilaan
+57	3057	saatavuus	saatavuus saatavuuden saatavuutta saatavuudesta saatavuuteen saatavuudessa
+58	3058	pääosa	pääosassa pääosa pääosissa pääosan pääosaa pääosaan pääosia pääosien pääosat pääosista
+59	3059	massiivinen	massiivinen massiivisen massiivisia massiiviset massiivista massiivisesta massiiviseen massiivisten massiivisella massiivisista massiivisiin massiivisessa
+60	3060	alkuperä	alkuperä alkuperää alkuperästä alkuperän alkuperään alkuperänsä
+61	3061	juontaja	juontaja juontajana juontajat juontajan juontajaksi juontajien juontajina juontajaa juontajia juontajista
+62	3062	silloinen	silloinen silloisen silloisten silloisessa silloiset silloista silloiselle silloiseen silloisesta silloisella silloisista silloisia silloiselta
+63	3063	kuvaaja	kuvaaja kuvaajan kuvaajaa kuvaajana kuvaajat kuvaajia kuvaajien kuvaajalle kuvaajasta kuvaajassa kuvaajaksi kuvaajille kuvaajista kuvaajaan
+64	3064	ylläpito	ylläpito ylläpitoon ylläpidon ylläpidosta ylläpitoa ylläpidossa ylläpidolle
+65	3065	näky	näky näkyjä näyn näyt näyttä näystä näyssä näkyjen näkyyn
+66	3066	poikaystävä	poikaystävä poikaystävänsä poikaystäväni poikaystävän poikaystävää poikaystäväsi poikaystävälle poikaystävät poikaystävästä poikaystäviä poikaystävältä
+67	3067	ruotsinkielinen	ruotsinkieliset ruotsinkielinen ruotsinkielisten ruotsinkielisen ruotsinkielisiä ruotsinkielistä ruotsinkielisellä ruotsinkielisessä ruotsinkieliseen ruotsinkielisistä ruotsinkielisille ruotsinkielisissä ruotsinkieliselle ruotsinkielisillä ruotsinkielisestä ruotsinkielisenä ruotsinkielisiin
+68	3068	hämärä	hämärän hämärää hämärä hämärässä hämäriä hämärissä hämäräksi hämärään hämärästä hämärät hämärältä hämäriin hämäristä hämärällä hämärien
+69	3069	propaganda	propaganda propagandaa propagandan propagandasta propagandaan propagandassa propagandaksi propagandalla propagandalle propagandana
+70	3070	solu	solujen solut soluja solu solun soluissa solussa soluihin soluista soluun solua solusta soluille
+71	3071	kohtuullinen	kohtuullinen kohtuullista kohtuulliset kohtuulliseen kohtuullisia kohtuullisella kohtuullisena kohtuullisessa kohtuulliselta kohtuulliseksi kohtuullisilla kohtuullisina kohtuullisin kohtuullisesta kohtuullisiin
+72	3072	paula	paula paulan pauloissa pauloihin paulaa paulalle pauloihinsa
+73	3073	katsomo	katsomossa katsomo katsomoon katsomosta katsomon katsomot katsomoa katsomoissa katsomoihin katsomoille
+74	3074	lappu	lappu lapun laput lappuja lapussa lappua lapulle lapulla lapusta lappujen lappuun lapuilla
+75	3075	tiukasti	tiukasti tiukemmin tiukimmin
+76	3076	akseli	akseli akselilla akselin akselille akselia akselit akselilta akselista akseleiden akselinsa akseliin akseleita akselien akseleilla akselissa
+77	3077	ministeriö	ministeriön ministeriö ministeriössä ministeriöiden ministeriöt ministeriöstä ministeriöön ministeriötä ministeriöissä ministeriölle ministeriöitä ministeriöistä ministeriöille ministeriöllä
+78	3078	metsästys	metsästys metsästystä metsästyksen metsästykseen metsästyksessä metsästyksestä metsästyksellä
+79	3079	romanttinen	romanttinen romanttista romanttisen romanttisia romanttiset romanttisessa romanttisesta romanttiseen romanttisin romanttisten romanttiseksi romanttisella romanttisissa romanttisista romanttisena romanttisiin romanttiselle
+80	3080	jenni	jenni jennin jennille jenniä
+81	3081	design	design designin designia designista designissa designiin designilla
+82	3082	persoona	persoona persoonan persoonaa persoonassa persoonia persoonansa persoonasta persoonaan persoonana persoonat persoonien persoonaksi persoonani persoonista
+83	3083	lentäjä	lentäjä lentäjät lentäjän lentäjien lentäjiä lentäjää lentäjistä lentäjille lentäjänä lentäjälle lentäjäksi lentäjillä lentäjästä
+84	3084	myrkky	myrkkyä myrkky myrkkyjä myrkyn myrkyt myrkkyjen myrkyistä myrkyllä myrkkyyn myrkystä myrkyille myrkyillä
+85	3085	tuhlata	tuhlata tuhlaa tuhlannut tuhlaamaan tuhlattu tuhlasi tuhlataan tuhlaaminen tuhlaamista tuhlattua tuhlaavat tuhlaat tuhlaan tuhlaamisesta tuhlaamatta tuhlasin tuhlaisi tuhlaamisen
+86	3086	islanti	islannin islanti islannissa islantiin islannista islantia islannille
+87	3087	ulkoinen	ulkoinen ulkoisen ulkoisia ulkoiset ulkoisten ulkoista ulkoisista ulkoiseen ulkoisesta ulkoisiin ulkoisilta ulkoiselta ulkoiselle ulkoisessa ulkoisella ulkoisilla ulkoisille ulkoisena
+88	3088	tavanomainen	tavanomaista tavanomainen tavanomaisen tavanomaisia tavanomaisesta tavanomaiset tavanomaiseen tavanomaisten tavanomaisessa tavanomaisella tavanomaisissa tavanomaisista tavanomaisin tavanomaisena tavanomaisilla tavanomaisiin tavanomaiseksi tavanomaiselta
+89	3089	kategoria	kategoriaan kategoriassa kategorian kategoria kategoriaa kategoriat kategorioihin kategorioissa kategorioita kategoriasta kategorioista kategorioiden
+90	3090	rintama	rintamalla rintaman rintama rintamalle rintamaan rintamalta rintamaa rintamilla rintamassa rintamana rintamasta rintamat
+91	3091	kytkeä	kytketty kytkeä kytkin kytketään kytke kytkee kytkettiin kytki kytkeminen kytkemään kytkemällä kytkettävä kytketyn kytkenyt kytkevät kytkemistä kytkemisen kytkemiseen
+92	3092	kontakti	kontaktia kontakteja kontakti kontaktit kontaktin kontaktissa kontaktien kontaktiin kontakteista kontaktista
+93	3093	pyöräilijä	pyöräilijä pyöräilijän pyöräilijät pyöräilijöitä pyöräilijää pyöräilijöille pyöräilijöiden pyöräilijälle pyöräilijöistä pyöräilijään
+94	3094	aueta	aukesi aukeaa auennut aukeavat aueta aukene aukeni aukesivat auenneet aukeava aukeaman aukeamista aukeamaan aukeaisi aukenee aukenivat aukeamisen auetessa aukeama aukenevat aukean
+95	3095	ydinvoima	ydinvoima ydinvoiman ydinvoimaa ydinvoimasta ydinvoimaan ydinvoimalla ydinvoimassa ydinvoimalle
+96	3096	jospa	jospa
+97	3097	niinkään	niinkään
+98	3098	paperit	paperit
+99	3099	puhumattakaan	puhumattakaan
+100	3100	varalta	varalta

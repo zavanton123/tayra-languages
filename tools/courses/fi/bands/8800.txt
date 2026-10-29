@@ -1,0 +1,100 @@
+1	8701	softa	softa softalla softan softaa softat softia
+2	8702	sirpale	sirpaleita sirpaleet sirpale sirpaleista sirpaleiksi sirpaleiden sirpaleen sirpaleesta
+3	8703	kotiäiti	kotiäiti kotiäitinä kotiäidit kotiäidin kotiäitien kotiäidiksi kotiäitejä
+4	8704	rajavartiolaitos	rajavartiolaitoksen rajavartiolaitos rajavartiolaitoksessa
+5	8705	anto	anto annosta annon antoa annoin
+6	8706	kilpailuetu	kilpailuetua kilpailuetu kilpailuedun kilpailuetuja
+7	8707	paisua	paisuu paisui paisua paisuvat paisumaan
+8	8708	fokus	fokus fokuksen fokusta
+9	8709	avaruusasema	avaruusasemalle avaruusasema avaruusaseman avaruusasemalla avaruusasemaa avaruusasemalta avaruusasemaan
+10	8710	lääkeaine	lääkeaineita lääkeaineiden lääkeaineet lääkeaineen lääkeaine lääkeainetta lääkeaineista
+11	8711	kuoria	kuorii kuorittu kuoria kuoritaan kuorimaan kuoriminen kuorivat kuorittua kuorittiin kuorin kuorien
+12	8712	sivuta	sivuaa sivusi sivuten sivutaan sivuttiin sivuttu sivunnut sivuavat sivua
+13	8713	oksennus	oksennus oksennusta oksennuksen
+14	8714	twist	twist twistiä twistin twistillä
+15	8715	markkinaoikeus	markkinaoikeus markkinaoikeuden markkinaoikeuteen markkinaoikeudessa markkinaoikeudelle
+16	8716	höh	höh hö
+17	8717	skotlantilainen	skotlantilainen skotlantilaiset skotlantilaisen skotlantilaista skotlantilaisia skotlantilaisten
+18	8718	pilke	pilke pilkettä pilkkeen
+19	8719	rypäle	rypäleet rypäleitä rypäleistä rypäle rypäleiden rypäleestä rypäleen rypälettä
+20	8720	silmukka	silmukka silmukan silmukoita silmukat silmukkaa silmukkaan silmukasta
+21	8721	satsi	satsin satsi satsia
+22	8722	maamerkki	maamerkki maamerkkejä maamerkin maamerkit maamerkkinä maamerkkien maamerkeistä
+23	8723	kieltolaki	kieltolain kieltolaki kieltolakia kieltolaista
+24	8724	tienoo	tienoille tienoilta tienoon tienoolla tienoo
+25	8725	nollapeli	nollapeliä nollapeli nollapelin nollapelinsä
+26	8726	alkeet	alkeet alkeita alkeiden alkeisiin
+27	8727	tappiollinen	tappiollinen tappiollista tappiollisen tappiolliseksi tappiollisia tappiollisessa
+28	8728	rokka	rokkaa rokkia rokka rokin rokan
+29	8729	koodaus	koodaus koodausta koodauksen
+30	8730	rakennustyömaa	rakennustyömaalla rakennustyömaa rakennustyömailla rakennustyömaan rakennustyömaalle rakennustyömaalta rakennustyömaata
+31	8731	yläluokka	yläluokan yläluokka yläluokkaa yläluokkaan yläluokkien yläluokilla
+32	8732	oikeusturva	oikeusturvaa oikeusturvan oikeusturva
+33	8733	univormu	univormu univormut univormuun univormua univormun univormussa univormuissa univormuja univormuihin univormunsa
+34	8734	kiilto	kiilto kiillon kiiltoa
+35	8735	maya	maya mayojen mayat mayan
+36	8736	maksimaalinen	maksimaalinen maksimaalisen maksimaalista
+37	8737	hauskuus	hauskuus hauskuutta hauskuuden hauskuudesta
+38	8738	kaksonen	kaksonen kaksosten kaksosia kaksosen kaksosista kaksosilla kaksosille
+39	8739	pesuaine	pesuainetta pesuaine pesuaineet pesuaineita pesuaineen pesuaineella pesuaineiden
+40	8740	elinvoimainen	elinvoimainen elinvoimaisena elinvoimaisia elinvoimaista elinvoimaisina elinvoimaiseksi elinvoimaiset
+41	8741	maahanmuuttajataustainen	maahanmuuttajataustaisia maahanmuuttajataustaiset maahanmuuttajataustaisten maahanmuuttajataustainen
+42	8742	pizzeria	pizzeria pizzerian pizzeriassa pizzeriaan pitseria pizzeriasta pizzeriat
+43	8743	käsikirjoittaa	käsikirjoittanut käsikirjoittama käsikirjoitti käsikirjoitettu käsikirjoittaa käsikirjoittamassa käsikirjoittaman käsikirjoittaminen
+44	8744	sentteri	sentteri sentterinä sentterin
+45	8745	ohja	ohjat ohjia ohjaa ohjaan
+46	8746	palvelutalo	palvelutalo palvelutalossa palvelutalon palvelutaloissa palvelutaloon
+47	8747	noste	nostetta noste nosteessa nosteen
+48	8748	nykytaide	nykytaiteen nykytaidetta nykytaide nykytaiteeseen nykytaiteesta
+49	8749	viestittää	viestittää viestitti viestittävät
+50	8750	loppuosa	loppuosa loppuosan loppuosassa loppuosaa loppuosasta
+51	8751	lovi	loven lovi lovea lovin loveen
+52	8752	huppu	huppu hupun huppua huput hupulla
+53	8753	levyttää	levytti levyttänyt levyttää levytetty levyttämään
+54	8754	patti	patti pattiin patin
+55	8755	kebab	kebab kebabia kebabin kebabista
+56	8756	aamukahvi	aamukahvit aamukahvin aamukahvi aamukahvia aamukahvilla aamukahville
+57	8757	huuhaa	huuhaata huuhaa huuhaaksi huuhaana
+58	8758	käsilaukku	käsilaukku käsilaukun käsilaukussa käsilaukkua käsilaukkuun käsilaukkuja käsilaukusta käsilaukut käsilaukkunsa
+59	8759	optimistinen	optimistinen optimistisia optimistista optimistisen
+60	8760	vastustuskyky	vastustuskykyä vastustuskyky vastustuskyvyn
+61	8761	päiväraha	päivärahaa päiväraha päivärahan päivärahat päivärahoja päivärahojen
+62	8762	kovuus	kovuus kovuutta kovuuden kovuudesta kovuuteen
+63	8763	yksimielisyys	yksimielisyyteen yksimielisyyttä yksimielisyys yksimielisyyden
+64	8764	ankea	ankea ankeaa ankeita ankean ankeat ankealta ankeaan ankeassa
+65	8765	pianisti	pianisti pianistin pianistina pianistit
+66	8766	painotus	painotus painotukset painotuksia painotusta painotuksen
+67	8767	korjaustyö	korjaustyöt korjaustöiden korjaustöitä korjaustyön korjaustyö korjaustöihin korjaustöissä
+68	8768	taloustieteilijä	taloustieteilijä taloustieteilijät taloustieteilijöiden taloustieteilijän taloustieteilijöitä
+69	8769	lisämaksu	lisämaksusta lisämaksua lisämaksu lisämaksuja lisämaksun lisämaksulla
+70	8770	kalsarit	kalsarit kalsareita kalsareissa
+71	8771	katkennut	katkennut katkenneet katkenneen katkenneita
+72	8772	jalkapallojoukkue	jalkapallojoukkue jalkapallojoukkueen jalkapallojoukkuetta jalkapallojoukkueessa
+73	8773	beibi	beibi
+74	8774	kohtalaisesti	kohtalaisesti
+75	8775	kumoon	kumoon
+76	8776	nähtävyydet	nähtävyydet
+77	8777	rajattomasti	rajattomasti
+78	8778	saatanasti	saatanasti
+79	8779	takuuvarmasti	takuuvarmasti
+80	8780	tiistaisin	tiistaisin
+81	8781	tukevasti	tukevasti
+82	8782	vii	vii
+83	8783	yöaika	yöaikaan
+84	8784	meteorologi	meteorologi meteorologit meteorologin
+85	8785	tuulettaa	tuulettaa tuuletin tuulettamaan tuuleta tuuletti tuuletetaan
+86	8786	ihonväri	ihonväristä ihonväri ihonvärin ihonväriin ihonväriä ihonvärinsä
+87	8787	havahtua	havahduin havahtui havahtuu havahtunut havahtua havahtumaan
+88	8788	riskialtis	riskialtista riskialtis riskialttiita
+89	8789	hiiva	hiiva hiivaa hiivan hiivat
+90	8790	metaani	metaania metaani metaanin metaanista
+91	8791	ötökkä	ötököitä ötökät ötökkä ötököiden ötökän ötököistä ötökkää
+92	8792	saarnaaja	saarnaaja saarnaajan saarnaajat saarnaajien saarnaajia saarnaajaa
+93	8793	prioriteetti	prioriteetti prioriteetit prioriteetin prioriteetteja
+94	8794	lumo	lumo lumoissa lumon lumoa
+95	8795	halukkuus	halukkuutta halukkuus halukkuutensa halukkuudesta halukkuuteen
+96	8796	hanuri	hanurista hanuri hanuriin hanuria
+97	8797	paroni	paroni paronin paronit
+98	8798	piina	piinaa piina piinan piinasta
+99	8799	vastike	vastike vastiketta vastikkeetta vastikkeen vastikkeeksi vastikkeiden vastikkeena vastikkeet
+100	8800	ylösnousemus	ylösnousemuksen ylösnousemus ylösnousemusta ylösnousemukseen ylösnousemuksesta

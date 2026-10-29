@@ -1,0 +1,100 @@
+1	3901	omainen	omaiset omaisille omaisten omaisia omaisen omainen omaisensa omaisilta omaista omaisista omaisiin
+2	3902	raketti	raketti raketteja raketin raketit rakettien rakettia raketeista raketeilla raketilla rakettiin
+3	3903	kreikkalainen	kreikkalainen kreikkalaiset kreikkalaista kreikkalaisten kreikkalaisen kreikkalaisia kreikkalaisesta kreikkalaisessa kreikkalaisille kreikkalaiselle kreikkalaiseen kreikkalaisella kreikkalaisista kreikkalaisilla kreikkalaisilta
+4	3904	puhuja	puhuja puhujia puhujan puhujat puhujana puhujien puhujaa puhujaksi puhujina puhujista puhujille puhujalla
+5	3905	diabetes	diabetes diabeteksen diabetesta diabetekseen diabeteksesta
+6	3906	rasittaa	rasittaa rasittavaa rasittava rasita rasittavat rasittavia rasittavan rasitti rasittanut rasittavaksi rasittivat rasittamaan
+7	3907	vakuutusyhtiö	vakuutusyhtiö vakuutusyhtiön vakuutusyhtiöt vakuutusyhtiöiden vakuutusyhtiölle vakuutusyhtiöitä vakuutusyhtiöön vakuutusyhtiöltä vakuutusyhtiöstä vakuutusyhtiötä vakuutusyhtiössä vakuutusyhtiöille vakuutusyhtiöillä vakuutusyhtiöistä
+8	3908	osallinen	osallisena osalliseksi osallinen osallisia osalliset osallisina osallisiksi osallisten osallisille osallisen
+9	3909	asetelma	asetelma asetelmat asetelmia asetelmaa asetelman asetelmassa asetelmasta asetelmaan asetelmista asetelmien asetelmiin asetelmissa
+10	3910	työstää	työstää työstämään työstä työstänyt työstetään työstämistä työsti työstetty työstäminen työstämme työstämisen työstämässä työstettiin työstävät työstämiseen työstäneet työstän työstettävä työstivät työstämisessä työstämisestä työstimme
+11	3911	vuoto	vuoto vuodon vuotoa vuodot vuotoja vuotojen vuodosta vuodoista vuotoon
+12	3912	koomikko	koomikko koomikot koomikon koomikkona koomikoita koomikkoa koomikoksi koomikkojen koomikkoja koomikoista
+13	3913	partio	partio partion partiossa partiot partioita partiota partioon partioiden partiosta partiolle
+14	3914	ydinvoimala	ydinvoimalan ydinvoimala ydinvoimaloiden ydinvoimalat ydinvoimalaa ydinvoimaloita ydinvoimalassa ydinvoimalasta ydinvoimalaan ydinvoimaloista ydinvoimaloissa ydinvoimalalle
+15	3915	näyttäytyä	näyttäytyy näyttäytyä näyttäydy näyttäytyi näyttäytyvät näyttäytynyt näyttäytymään näyttäytyivät näyttäytyisi näyttäytymässä
+16	3916	kiireinen	kiireinen kiireisiä kiireisenä kiireisen kiireisinä kiireistä kiireiset kiireisin kiireiseltä kiireisestä kiireiseen kiireisempi kiireisille kiireisessä kiireiseksi kiireisten kiireisiin
+17	3917	muuan	muuan muutaman muutamia muutamassa muutamat muutamaan muutamalla muutamien muutamasta muutamaksi muutamissa muutamista muutamalle muutamilla muutamiin muutamille muutamana muutamalta muutamilta muutamina muutamin muutamiksi
+18	3918	valiokunta	valiokunnan valiokunta valiokunnassa valiokuntien valiokunnissa valiokuntaan valiokunnat valiokunnalle valiokuntaa valiokuntiin
+19	3919	taka	taka taalla takaan taan
+20	3920	iltaisin	iltaisin
+21	3921	poliittisesti	poliittisesti
+22	3922	teknisesti	teknisesti
+23	3923	varovasti	varovasti
+24	3924	vau	vau
+25	3925	päähenkilö	päähenkilö päähenkilön päähenkilöt päähenkilöiden päähenkilönä päähenkilöä päähenkilöistä päähenkilöitä päähenkilöstä päähenkilöksi päähenkilöllä päähenkilöinä päähenkilölle päähenkilönsä
+26	3926	kyseenalainen	kyseenalainen kyseenalaista kyseenalaiseksi kyseenalaisia kyseenalaisen kyseenalaisena kyseenalaiseen kyseenalaiset kyseenalaisin kyseenalaisesta kyseenalaisten kyseenalaisista kyseenalaisella
+27	3927	luoti	luoti luodin luodista luodit luoteja luotia luotiin luodeista luotien luoteihin luodilla
+28	3928	lompakko	lompakko lompakon lompakkoa lompakossa lompakosta lompakkoon lompakot lompakkonsa lompakoita lompakolla lompakolle lompakkosi lompakkoni
+29	3929	uhrata	uhrata uhraa uhraamaan uhrasi uhrataan uhrattu uhrannut uhrattiin uhraaminen uhrasivat uhraamalla uhraavat uhraamista uhrattava
+30	3930	kiinnostua	kiinnostui kiinnostumaan kiinnostua kiinnostuu kiinnostuin kiinnostuvat kiinnostu kiinnostuivat kiinnostuit kiinnostuisi
+31	3931	kohdistaa	kohdistaa kohdistettu kohdistetaan kohdistettiin kohdisti kohdistamaan kohdistavat kohdistama kohdistaminen kohdistamalla kohdistanut kohdistamista kohdistin kohdista
+32	3932	velvoittaa	velvoittaa velvoita velvoitettu velvoitetaan velvoittavat velvoitti velvoitettiin velvoittava velvoittaisi velvoitettaisiin velvoittanut velvoittavan velvoittavia
+33	3933	heilua	heiluu heilumaan heilui heilua heilu heiluvat heiluivat heiluen heiluva heilunut heiluminen heiluvan heilumista heilumassa heilutaan heiluttava
+34	3934	pahoitella	pahoittelen pahoittelee pahoittelemme pahoitella pahoitteli pahoitellut pahoittelemaan
+35	3935	pähkinä	pähkinöitä pähkinät pähkinä pähkinää pähkinöistä pähkinän pähkinöiden pähkinöillä pähkinöissä pähkinöihin
+36	3936	virrata	virtaa virrata virtaavat virtaamaan virtaavan virtaava virrannut virtaama virtaavaa virtaavaan virtasi virtaavasta virtasivat virtaaman virtaisi virtaamisen virratessa virtaavien virtaaminen virtaamasta virtaan virtaamista
+37	3937	gaala	gaalassa gaala gaalan gaalaan gaalaa gaalasta
+38	3938	hautajaiset	hautajaiset hautajaisissa hautajaisiin hautajaisia hautajaisten hautajaisista
+39	3939	lyhentää	lyhentää lyhennetty lyhennetään lyhentäminen lyhentämään lyhensi lyhentämistä lyhentämisestä lyhennettiin lyhentämällä lyhentämättömänä lyhentävät lyhennä lyhentänyt lyhentämiseen lyhentämisen lyhentäisi lyhentäen lyhentämiseksi
+40	3940	indeksi	indeksi indeksin indeksissä indeksiin indeksiä indeksit indeksillä indeksien indeksejä indeksistä indekseihin
+41	3941	uutuus	uutuus uutuuksia uutuutena uutuudet uutuuden uutuutta uutuuksista uutuuksien uutuudesta uutuuteen uutuuksiin
+42	3942	nurmi	nurmi nurmen nurmella nurmea nurmelle nurmesta nurmet
+43	3943	maailmanmestaruus	maailmanmestaruuden maailmanmestaruus maailmanmestaruutta maailmanmestaruudesta maailmanmestaruuteen maailmanmestaruuksia maailmanmestaruudet
+44	3944	side	side siteet siteitä siteen sidettä siteiden siteensä siteistä
+45	3945	mikäkin	milloinkin mikäkin mitäkin mistäkin missäkin minkäkin mihinkin milläkin minnekin mitkäkin millekin
+46	3946	honka	honka hongan honkaa honkia hongassa honkaan hongalle
+47	3947	ooppera	ooppera oopperan oopperassa oopperaa oopperaan oopperasta oopperoita oopperat oopperoiden
+48	3948	status	status statuksen statusta statuksella statuksesta statuksensa statukseen
+49	3949	sisu	sisu sisua sisun sisusta sisulla sisustan sisustat
+50	3950	asuinalue	asuinalue asuinalueen asuinalueella asuinalueiden asuinalueita asuinalueet asuinaluetta asuinalueilla asuinalueelle asuinalueille asuinalueensa asuinalueista asuinalueelta asuinalueesta asuinalueeksi
+51	3951	jakautua	jakautuu jakautuvat jakautuivat jakautui jakautua jakaudu jakautumaan jakautuisivat jakautuisi jakautuva jakautumista
+52	3952	komitea	komitea komitean komiteassa komiteaan komitealle komiteaa komiteat komiteoiden komitealta
+53	3953	porkkana	porkkana porkkanaa porkkanoita porkkanat porkkanan porkkanoiden porkkanalla porkkanoista porkkanasta porkkanana
+54	3954	hamina	hamina haminan haminassa haminasta haminaan
+55	3955	kymmenes	kymmenes kymmenenneksi kymmenennen kymmenentenä kymmenennellä kymmenennessä kymmenenteen kymmenennestä kymmenennelle kymmenettä
+56	3956	mustavalkoinen	mustavalkoinen mustavalkoista mustavalkoisia mustavalkoisen mustavalkoisena mustavalkoiset mustavalkoiseen mustavalkoisesta mustavalkoisessa mustavalkoiseksi mustavalkoisista
+57	3957	agenda	agenda agendaa agendan agendalla agendalle agendat agendansa agendaan
+58	3958	koukkuun	koukkuun koukussa koukusta
+59	3959	sergei	sergei sergein
+60	3960	neitsyt	neitsyt neitsyen neitsyet neitsyitä neitsyttä neitsyenä neitsyiden
+61	3961	osio	osio osiossa osion osiota osioon osiosta osioita osiot osioiden osioihin osioissa osionsa
+62	3962	pasta	pasta pastaa pastan pastat pastasta pastaan pastalle
+63	3963	pahoillaan	pahoillani pahoillaan pahoillamme
+64	3964	alakerta	alakerrassa alakerran alakertaan alakerta alakerrasta alakertaa
+65	3965	inspiraatio	inspiraatiota inspiraatio inspiraation inspiraationa inspiraationsa inspiraatiosta
+66	3966	moraali	moraali moraalin moraalia moraalista moraaliin moraalinsa moraalille
+67	3967	itsekäs	itsekäs itsekkäitä itsekkään itsekästä itsekkäistä itsekkäät itsekkäänä itsekkäältä itsekkääksi itsekkäiden itsekkäästä
+68	3968	lordi	lordi lordin lordia lordille
+69	3969	bi	bin bi bit
+70	3970	kiltti	kiltti kilttejä kilttiä kiltin kiltit kilttinä kiltiksi kiltein kiltiltä kiltistä
+71	3971	hallinnassa	hallinnassa
+72	3972	josko	josko
+73	3973	saatossa	saatossa
+74	3974	ilkeä	ilkeä ilkeää ilkeitä ilkeän ilkeät ilkeiden ilkeästä ilkeältä ilkeistä ilkeillä ilkeänä ilkeäksi
+75	3975	kaapata	kaapata kaappasi kaapattu kaappaa kaappasivat kaapattiin kaapannut kaappaamaan kaappaavat kaapataan kaappaaminen kaappaamalla
+76	3976	audiovisuaalinen	av audiovisuaalisen audiovisuaalinen
+77	3977	tuommoinen	tommonen tommosta tommosia tuommoista tuommoinen tommoset tuommoisia tuommoisen tuommoiset tommosen tommoinen tuommoiseen
+78	3978	kansanäänestys	kansanäänestys kansanäänestyksen kansanäänestyksessä kansanäänestystä kansanäänestykset kansanäänestyksellä kansanäänestykseen kansanäänestyksiä kansanäänestyksestä
+79	3979	mielenterveys	mielenterveyden mielenterveys mielenterveyttä mielenterveyteen mielenterveydestä mielenterveydelle mielenterveyteni
+80	3980	toistua	toistuu toistui toistua toistuvat toistunut toistu toistumaan toistuisi toistuminen toistuivat
+81	3981	upottaa	upottaa upotti upotettu upotetaan upota upotettiin upottanut upottivat upottamaan upottaminen upottamalla upottavat upotin upotettava upottava
+82	3982	kattila	kattilaan kattila kattilassa kattilan kattilaa kattilat kattiloita kattilasta kattiloiden
+83	3983	hoitua	hoituu hoitui hoituvat hoituisi hoidu hoitua hoitunut hoituivat
+84	3984	parta	parta parran partaa partansa parrat parrasta partani partaan
+85	3985	mopo	mopo mopon mopolla mopot mopoja mopoa mopojen mopoilla mopoista moposta mopoon
+86	3986	suloinen	suloinen suloisia suloista suloisen suloiset suloisin suloiseen suloisella suloiselta suloisista
+87	3987	äärioikeisto	äärioikeiston äärioikeisto äärioikeistoa äärioikeistoon äärioikeistosta äärioikeistolle
+88	3988	tamperelainen	tamperelainen tamperelaisen tamperelaisten tamperelaiset tamperelaista tamperelaisia tamperelaisesta tamperelaisille tamperelaisessa tamperelaiseen tamperelaiselle
+89	3989	reppu	reppu reppuun repussa repun reppua reput repusta reppuja reppunsa reppuni
+90	3990	banaani	banaani banaania banaanin banaaneja banaanit banaanien banaanista banaanilla banaaneista banaaneita
+91	3991	muumi	muumit muumi muumien muumeja muumeista muumin
+92	3992	rukoilla	rukoilen rukoilla rukoilemaan rukoilee rukoile rukoili rukoillaan rukoilevat rukoilemme rukoillen rukoilivat rukoillut rukoilkaa rukoilin rukoilemassa rukoileminen rukoiltiin rukoilemalla
+93	3993	nautinto	nautintoa nautinto nautinnon nautintoon nautintoja nautinnosta nautinnot nautintojen nautintoihin nautinnoista
+94	3994	rotta	rotta rotat rottia rottien rotan rottaa rotilla rotille rotista rotasta
+95	3995	hiki	hiki hikeä hien hiestä hiessä hieltä hiellä hielle
+96	3996	piristää	piristää piristi piristävä piristävät piristämään piristä piristäisi piristänyt piristivät
+97	3997	journalismi	journalismin journalismia journalismi journalismiin journalismista journalismissa
+98	3998	yleistyä	yleistynyt yleistyvät yleistyy yleistyä yleistyi yleistyivät yleistyessä yleistymässä yleistymään yleistyvä
+99	3999	inflaatio	inflaatio inflaation inflaatiota inflaatioon inflaatiosta
+100	4000	varhain	varhain varhemmin

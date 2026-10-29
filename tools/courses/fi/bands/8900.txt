@@ -1,0 +1,100 @@
+1	8801	slush	slush slushin slushissa
+2	8802	asutusalue	asutusalueilla asutusalueella asutusalueiden asutusalueen asutusalue asutusalueille
+3	8803	epäluotettava	epäluotettava epäluotettavia epäluotettavaksi epäluotettavana epäluotettavaa epäluotettavan epäluotettavat
+4	8804	katumus	katumusta katumus katumuksen katumuksesta
+5	8805	pitkäkestoinen	pitkäkestoinen pitkäkestoista pitkäkestoisia pitkäkestoisen pitkäkestoiseen pitkäkestoiset pitkäkestoisesta
+6	8806	valssi	valssi valssin valssia valssit valssista
+7	8807	lähete	lähetteen lähetettä lähete lähetteellä lähetteet lähetteitä
+8	8808	tuberkuloosi	tuberkuloosin tuberkuloosi tuberkuloosia tuberkuloosiin
+9	8809	yksilöidä	yksilöidä yksilöiden yksilöi yksilöity yksilöimään yksilöivä yksilöidään
+10	8810	kulttuurikeskus	kulttuurikeskus kulttuurikeskuksen kulttuurikeskuksessa
+11	8811	valtiontalous	valtiontalouden valtiontalous valtiontaloutta valtiontaloudelle
+12	8812	äärivasemmisto	äärivasemmiston äärivasemmisto
+13	8813	harppaus	harppaus harppauksen harppauksia harppauksin
+14	8814	vaalikampanja	vaalikampanjan vaalikampanjaa vaalikampanja vaalikampanjassa vaalikampanjansa vaalikampanjaan vaalikampanjat
+15	8815	ilmastopolitiikka	ilmastopolitiikan ilmastopolitiikka ilmastopolitiikkaa ilmastopolitiikassa ilmastopolitiikkaan
+16	8816	halvaantua	halvaantunut halvaantui halvaantuminen halvaantua halvaantuneena halvaantuu halvaantuneen halvaantuneet
+17	8817	vertailukelpoinen	vertailukelpoisia vertailukelpoinen vertailukelpoista vertailukelpoiset vertailukelpoisen
+18	8818	sitoumus	sitoumus sitoumuksia sitoumuksen sitoumukset sitoumusten sitoumusta sitoumuksista sitoumuksensa
+19	8819	aurinkoenergia	aurinkoenergiaa aurinkoenergia aurinkoenergian aurinkoenergialla aurinkoenergiaan
+20	8820	puhkeaminen	puhkeaminen puhkeamista puhkeamisen puhkeamiseen puhkeamisesta
+21	8821	löyly	löylyä löylyt löyly löylyn löylyistä löylyissä löylyjen
+22	8822	siirtomaa	siirtomaa siirtomaiden siirtomaita siirtomaat siirtomaista siirtomaissa
+23	8823	koristelu	koristelu koristeluun koristelua koristelussa koristelun koristelut koristelusta
+24	8824	äitienpäivä	äitienpäivä äitienpäivänä äitienpäivän äitienpäivää
+25	8825	vanheneminen	vanheneminen vanhenemisen vanhenemista vanhenemisesta vanhenemiseen
+26	8826	hikoilla	hikoilla hikoilee hikoilemaan hikoili hikoilen hikoilevat hikoile hikoilet hikoilin
+27	8827	periytyä	periytyy periytynyt periydy periytyä periytyi periytyvät
+28	8828	entisaika	entisajan entisaikojen entisaikaan entisaikoina
+29	8829	visiitti	visiitti visiitillä visiitin visiittiä visiitille visiitistä
+30	8830	kauppakorkeakoulu	kauppakorkeakoulun kauppakorkeakoulu kauppakorkeakoulussa kauppakorkeakoulusta kauppakorkeakouluun
+31	8831	rahasumma	rahasumma rahasumman rahasummia rahasummaa rahasummat rahasummalla rahasummasta
+32	8832	kuivattaa	kuivattaa kuivata kuivattaminen kuivatetaan kuivatti kuivattavat kuivattanut
+33	8833	asiaton	asiaton asiatonta asiattomia asiattomat asiattoman asiattomasta
+34	8834	toimikausi	toimikausi toimikauden toimikautensa toimikaudeksi toimikaudelle toimikautta
+35	8835	hedelmällinen	hedelmällistä hedelmällinen hedelmällisen hedelmällisessä hedelmällisiä hedelmälliset
+36	8836	nauhoitus	nauhoitus nauhoituksen nauhoitukset nauhoituksia nauhoituksissa nauhoitusta nauhoitusten
+37	8837	vaikuttunut	vaikuttunut vaikuttuneita
+38	8838	elefantti	elefantti elefantin elefantteja elefanttien elefanttia elefantit
+39	8839	vahingollinen	vahingollista vahingollisia vahingollinen vahingollisena vahingollisten
+40	8840	elämäntyyli	elämäntyyli elämäntyyliä elämäntyylin elämäntyyliin elämäntyylistä
+41	8841	popcorn	popcornia popcorn popcornit popcorneja popcornin
+42	8842	mutkia	mutkia mutkien mutkin
+43	8843	valtaisa	valtaisa valtaisan valtaisaa valtaisat valtaisia
+44	8844	dynamiikka	dynamiikka dynamiikkaa dynamiikan dynamiikasta
+45	8845	nukuttaa	nukuttaa nukuta nukuttamaan nukutettiin nukutan nukutetaan nukutti
+46	8846	kasvillisuus	kasvillisuus kasvillisuuden kasvillisuutta kasvillisuuteen kasvillisuudesta
+47	8847	isänpäivä	isänpäivä isänpäivää isänpäivän isänpäivänä isänpäiväksi
+48	8848	veronkierto	veronkierrosta veronkierron veronkierto veronkiertoa veronkiertoon
+49	8849	shoppi	shop shopin
+50	8850	äänittää	äänittää äänitetty äänitettiin äänitti äänittämään äänittänyt äänitetään äänittämässä
+51	8851	mainostoimisto	mainostoimisto mainostoimiston mainostoimistossa mainostoimistot mainostoimistojen
+52	8852	tukku	tukku tukun tukusta
+53	8853	kerto	kerto kerrosta kerron kerrot kerroilla kerroista kertoina kertojen
+54	8854	riskitekijä	riskitekijä riskitekijöitä riskitekijät riskitekijöiden riskitekijöihin
+55	8855	noteerata	noteerattu noteerata noteerataan noteerattiin noteerannut noteeraa
+56	8856	eliminoida	eliminoida eliminoi eliminoimaan eliminoitu eliminoidaan
+57	8857	rakastella	rakastella rakastelemaan rakastelee rakastelevat rakastellaan rakastelin
+58	8858	lipunmyynti	lipunmyynti lipunmyynnin lipunmyyntiä lipunmyynnistä lipunmyynnissä
+59	8859	ruhtinas	ruhtinas ruhtinaan ruhtinaat ruhtinasta
+60	8860	voidella	voitele voidella voideltu voidellaan voitelee voiteli voidellut voitelevat voideltiin
+61	8861	samanniminen	samannimiseen samanniminen samannimisen samannimisestä samannimistä samannimisiä samannimisessä
+62	8862	yhtäläinen	yhtäläiset yhtäläinen yhtäläisen yhtäläisiä yhtäläistä
+63	8863	penny	penny pennyn pennyä
+64	8864	ravitsemus	ravitsemus ravitsemuksen ravitsemukseen ravitsemuksesta ravitsemusta
+65	8865	grönlanti	grönlannin grönlanti grönlannissa grönlantiin grönlannista
+66	8866	kotietsintä	kotietsinnän kotietsintä kotietsintöjä kotietsinnässä kotietsintää kotietsintään kotietsinnästä kotietsintöjen
+67	8867	hillitön	hillitön hillittömän hillitöntä hillittömiä
+68	8868	hiekkaranta	hiekkaranta hiekkarannat hiekkarantaa hiekkarantoja hiekkarannalla hiekkarannan hiekkarannoilla hiekkarannalle hiekkarantojen
+69	8869	eettisesti	eettisesti
+70	8870	johdonmukaisesti	johdonmukaisesti
+71	8871	karvoa	karvonen
+72	8872	kielteisesti	kielteisesti
+73	8873	parastaikaa	paraikaa
+74	8874	päiväsaikaan	päiväsaikaan
+75	8875	sattumoisin	sattumoisin
+76	8876	vääjäämättä	vääjäämättä
+77	8877	kustantamo	kustantamo kustantamon kustantamot kustantamossa kustantamojen kustantamoiden
+78	8878	kätketty	kätketty kätkettynä kätketyn kätkettyä kätkettyjä kätketyt
+79	8879	havainnollistaa	havainnollistaa havainnollistava havainnollistavat havainnollistamaan havainnollistetaan havainnollisti
+80	8880	elokuvajuhlat	elokuvajuhlien elokuvajuhlilla elokuvajuhlat elokuvajuhlille
+81	8881	kristalli	kristalli kristallin kristallia kristallit kristalleja kristallista kristallien
+82	8882	skitsofrenia	skitsofrenia skitsofrenian skitsofreniaa skitsofreniaan skitsofreniasta
+83	8883	ennätysmäärä	ennätysmäärä ennätysmäärän
+84	8884	muokkaus	muokkaus muokkausta muokkauksen muokkaukseen muokkauksia muokkaukset
+85	8885	suodatin	suodatin suodattimen suodattimet suodattimia suodatinta suodattimien suodattimilla
+86	8886	teline	teline telineeseen telineet telineen telineessä telineitä telineestä telineisiin telineillä telineiden telineellä
+87	8887	thaimaalainen	thaimaalainen thaimaalaiset thaimaalaista thaimaalaisen thaimaalaisten thaimaalaisia
+88	8888	neule	neule neuleet neuleen neuleita neuleeseen neuletta
+89	8889	kara	kara karan karat
+90	8890	ahdistunut	ahdistunut ahdistuneita ahdistuneena ahdistuneeksi ahdistuneen
+91	8891	tarjoaja	tarjoaja tarjoajat tarjoajan tarjoajien tarjoajia tarjoajana tarjoajaa tarjoajista
+92	8892	maksimoida	maksimoida maksimoi maksimoimaan maksimoimiseksi maksimoidaan
+93	8893	vee	vee veistä veen vein veet
+94	8894	liikelaitos	liikelaitos liikelaitoksen liikelaitosten liikelaitokset liikelaitoksia
+95	8895	kiistelty	kiistelty kiistellyn kiisteltyä kiisteltyjä kiistellyt
+96	8896	puheenjohtajuus	puheenjohtajuudesta puheenjohtajuus puheenjohtajuuden puheenjohtajuutta
+97	8897	makee	makee makeeta makeita makeet makeisiin makeiden makeista makein makeissa
+98	8898	suuntautunut	suuntautunut suuntautuneet suuntautuneen suuntautuneita suuntautunutta suuntautuneella
+99	8899	kellua	kelluu kellumaan kellui kellua kelluvat
+100	8900	lenkkari	lenkkarit lenkkareita lenkkareissa

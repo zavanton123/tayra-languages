@@ -1,0 +1,100 @@
+1	9801	ruis	ruis ruista rukiin rukiista
+2	9802	työperäinen	työperäisen työperäistä työperäinen työperäisiä
+3	9803	jätehuolto	jätehuolto jätehuollon jätehuoltoa jätehuollosta jätehuoltoon jätehuollossa
+4	9804	kapinoida	kapinoi kapinoida kapinoivat kapinoimaan kapinoiva kapinoinut
+5	9805	häämöttää	häämöttää häämötti
+6	9806	sosiaalipalvelu	sosiaalipalvelujen sosiaalipalvelut sosiaalipalveluiden sosiaalipalveluista sosiaalipalveluihin sosiaalipalveluja sosiaalipalveluita
+7	9807	kyselytutkimus	kyselytutkimuksen kyselytutkimus kyselytutkimuksessa kyselytutkimukseen kyselytutkimusten kyselytutkimukset
+8	9808	bali	bali balilla balin balille
+9	9809	uurna	uurnille uurnilla uurna uurnat uurnaan uurnan uurnassa uurnaa
+10	9810	erityyppinen	erityyppisiä erityyppistä erityyppiset erityyppisten erityyppisiin erityyppisissä erityyppisillä
+11	9811	dementia	dementia dementian dementiaa dementiaan dementiasta
+12	9812	vesihuolto	vesihuolto vesihuollon vesihuollosta vesihuoltoa
+13	9813	äärimmilleen	äärimmilleen äärimmillään
+14	9814	lippis	lippis lippiksen lippikset lippistä lippiksiä
+15	9815	nikkeli	nikkeliä nikkelin nikkeli
+16	9816	ennaltaehkäisevä	ennaltaehkäisevää ennaltaehkäisevä ennaltaehkäisevän ennaltaehkäisevään ennaltaehkäiseviä ennaltaehkäisevänä ennaltaehkäisevät
+17	9817	nihkeä	nihkeä nihkeää nihkeitä nihkeän
+18	9818	makedonia	makedonian makedonia makedoniassa makedoniasta makedoniaa makedoniaan
+19	9819	moninaisuus	moninaisuus moninaisuutta moninaisuuden moninaisuudesta
+20	9820	peruspalvelu	peruspalvelut peruspalveluiden peruspalvelujen peruspalveluita peruspalveluja
+21	9821	yksinoikeus	yksinoikeus yksinoikeuden yksinoikeutta yksinoikeudet yksinoikeudeksi
+22	9822	filee	file fileen filee fileet fileitä
+23	9823	kasi	kasi kasin kasta kasilta kasia kasilla
+24	9824	partioida	partioi partioivat partioimaan partioida partioimassa partioiden
+25	9825	ympäristönsuojelu	ympäristönsuojelun ympäristönsuojelu ympäristönsuojelua ympäristönsuojeluun ympäristönsuojelusta
+26	9826	liittokansleri	liittokansleri liittokanslerin
+27	9827	opetusministeri	opetusministeri opetusministerin
+28	9828	uupunut	uupunut uupuneita uupuneena uupuneet uupuneen
+29	9829	välikäsi	välikäsiä välikätenä välikäsien välikäsi välikäden välikäteen
+30	9830	nationalisti	nationalisti nationalistit nationalisteja nationalistien nationalistista
+31	9831	harhaluulo	harhaluulo harhaluuloja harhaluulot harhaluuloa harhaluuloista
+32	9832	kaupunginkirjasto	kaupunginkirjasto kaupunginkirjaston kaupunginkirjastossa
+33	9833	jättäytyä	jättäytyä jättäytyi jättäytyy jättäytynyt jättäytyivät
+34	9834	sointu	sointu soinnut sointuja soinnun sointua
+35	9835	välinpitämätön	välinpitämätön välinpitämättömiä välinpitämätöntä
+36	9836	kääntöpuoli	kääntöpuoli kääntöpuolella kääntöpuolena kääntöpuolensa kääntöpuolelle kääntöpuolen
+37	9837	syntipukki	syntipukki syntipukin syntipukiksi syntipukkeja syntipukkia syntipukkina
+38	9838	pelinjohtaja	pelinjohtaja pelinjohtajana pelinjohtajaksi
+39	9839	hoitotyö	hoitotyön hoitotyö hoitotyöhön hoitotyötä hoitotyöstä hoitotyössä
+40	9840	viilentää	viilentää viilensi viilentävä viilentävät viilentämään viilennä
+41	9841	vesisade	vesisade vesisateessa vesisadetta vesisateen vesisateet
+42	9842	kummeli	kummeli kummelin
+43	9843	luottavainen	luottavainen luottavaisin luottavaisia luottavaisena
+44	9844	vakinainen	vakinainen vakinaista vakinaisen vakinaiseen vakinaisten vakinaisessa vakinaiset vakinaisia vakinaiseksi
+45	9845	sikäläinen	sikäläisen sikäläinen sikäläiset sikäläisten sikäläistä sikäläisiä sikäläiseen sikäläisessä
+46	9846	lukkari	lukkari lukkarin lukkarina lukkariksi
+47	9847	muodonmuutos	muodonmuutos muodonmuutoksen muodonmuutosta muodonmuutoksia muodonmuutokset
+48	9848	pääsyy	pääsyy pääsyynä pääsyyn
+49	9849	mallintaa	mallintaa mallinnettu mallintaminen mallintamiseen mallintamaan mallinnetaan mallintamisen mallinnettiin
+50	9850	lomautus	lomautukset lomautusten lomautus lomautuksia
+51	9851	riitely	riitely riitelyä riitelyn riitelyyn riitelystä
+52	9852	tahaton	tahaton tahatonta tahattoman tahattomia tahattomat
+53	9853	kansallisooppera	kansallisoopperan kansallisoopperassa kansallisooppera kansallisoopperaan
+54	9854	luistelu	luistelu luistelua luistelun luistelussa luistelusta luisteluun
+55	9855	kirkastaa	kirkastaa kirkasta kirkasti kirkastamaan kirkastettu
+56	9856	iikka	iikka iikan
+57	9857	tama	tama taman
+58	9858	valtakausi	valtakaudella valtakausi valtakauden valtakautensa valtakautta
+59	9859	kauppahinta	kauppahinta kauppahinnasta kauppahinnan kauppahintaa kauppahintaan kauppahinnalla
+60	9860	sianliha	sianlihaa sianlihan sianliha sianlihasta
+61	9861	jäljitellä	jäljitellä jäljittelee jäljittelemään jäljittelevät jäljittelevä jäljitellään jäljitteli
+62	9862	osakemarkkinat	osakemarkkinoilla osakemarkkinoiden osakemarkkinat osakemarkkinoille osakemarkkinoita
+63	9863	baijeri	baijerin baijerissa baijeri baijerista baijeriin
+64	9864	vaivattomasti	vaivattomasti vaivattomammin
+65	9865	ammattitaitoinen	ammattitaitoinen ammattitaitoista ammattitaitoisen ammattitaitoisia ammattitaitoiset
+66	9866	itsepuolustus	itsepuolustukseksi itsepuolustus itsepuolustukseen itsepuolustusta itsepuolustuksen itsepuolustuksesta
+67	9867	rentouttaa	rentouttaa rentouttava rentouttavat rentouta
+68	9868	epäoikeudenmukainen	epäoikeudenmukaista epäoikeudenmukainen epäoikeudenmukaisena epäoikeudenmukaisia epäoikeudenmukaiseksi epäoikeudenmukaiselta epäoikeudenmukaisen epäoikeudenmukaisesta
+69	9869	lääketeollisuus	lääketeollisuus lääketeollisuuden lääketeollisuudessa lääketeollisuutta
+70	9870	katkoa	katkoo katkon katkoa katkoi katkomaan katkotaan katkovat katkonut katkot
+71	9871	korkeakoulutus	korkeakoulutus korkeakoulutuksen korkeakoulutusta korkeakoulutukseen
+72	9872	tuumata	tuumaa tuumasi tuumasin tuumata tuumaan
+73	9873	työhaastattelu	työhaastatteluun työhaastattelussa työhaastattelu työhaastattelun työhaastattelua työhaastatteluissa
+74	9874	kampaamo	kampaamo kampaamon kampaamossa kampaamot kampaamoa kampaamoon kampaamoissa
+75	9875	hirttää	hirttää hirtettiin hirtti hirttämällä hirtetty hirtetään hirttäminen hirttänyt
+76	9876	sviitti	sviitti sviitissä sviitin sviittiä sviitistä sviittiin
+77	9877	hemmo	hemmo hemmon hemmot
+78	9878	hengenvaara	hengenvaarassa hengenvaaraan hengenvaaraa hengenvaara hengenvaaran
+79	9879	vähyys	vähyys vähyydestä vähyyden vähyyttä vähyyteen
+80	9880	kirurgia	kirurgian kirurgia kirurgiaa kirurgiaan
+81	9881	oras	oras oraksen
+82	9882	polttopuu	polttopuita polttopuut polttopuuta polttopuiden polttopuun polttopuiksi
+83	9883	pelkuri	pelkureita pelkurit pelkuri pelkuriksi
+84	9884	puomi	puomi puomin puomilla puomit puomien puomia puomeja puomiin
+85	9885	piuha	piuhat piuha piuhan piuhoja piuhaa piuhojen
+86	9886	harras	harras harrasta hartaan hartaita hartain hartaana
+87	9887	sellu	sellu sellun sellua sellusta
+88	9888	voimankäyttö	voimankäytön voimankäyttöä voimankäyttö voimankäytöstä voimankäyttöön voimankäytöllä
+89	9889	lukitus	lukitus lukituksen lukitusta
+90	9890	jäsenmäärä	jäsenmäärä jäsenmäärän jäsenmäärät jäsenmäärää
+91	9891	salomaa	salomaa salomaan
+92	9892	perustaso	perustason perustaso perustasolla perustasoa
+93	9893	kansanliike	kansanliike kansanliikkeen kansanliikettä
+94	9894	jääkausi	jääkauden jääkausi jääkaudella
+95	9895	rahastaa	rahastaa rahasta rahastamaan rahastetaan rahastavat
+96	9896	pilari	pilarit pilarin pilari pilareita pilaria pilareiden pilariin pilarien
+97	9897	juutalaisuus	juutalaisuus juutalaisuuden juutalaisuudesta juutalaisuutta juutalaisuuteen juutalaisuudessa
+98	9898	traumaattinen	traumaattinen traumaattista traumaattisen traumaattisia traumaattiset traumaattisesta traumaattisten
+99	9899	mittapuu	mittapuulla mittapuun mittapuu
+100	9900	väristä	väriset värisee värisen värisi värisevä väristen värisevät väristä

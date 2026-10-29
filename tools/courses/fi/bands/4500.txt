@@ -1,0 +1,100 @@
+1	4401	ohjaamo	ohjaamo ohjaamon ohjaamossa ohjaamoon ohjaamosta ohjaamoa ohjaamot
+2	4402	hissi	hissi hissit hissin hississä hissejä hissiä hissillä hissiin hisseissä hissien hissistä hisseistä
+3	4403	paratiisi	paratiisi paratiisiin paratiisissa paratiisin paratiisista paratiisia paratiisiksi
+4	4404	nilkka	nilkka nilkkaan nilkan nilkat nilkkansa nilkoissa nilkkoihin nilkkojen nilkkoja nilkkaa nilkassa nilkasta nilkoista nilkkani nilkoille
+5	4405	potti	potti potin potista pottiin pottia potissa potit
+6	4406	hiihtäjä	hiihtäjä hiihtäjät hiihtäjiä hiihtäjän hiihtäjien hiihtäjää hiihtäjille hiihtäjistä
+7	4407	yhteistyökumppani	yhteistyökumppaneita yhteistyökumppani yhteistyökumppanit yhteistyökumppaneille yhteistyökumppaneiden yhteistyökumppanin yhteistyökumppanina yhteistyökumppanien yhteistyökumppaniksi yhteistyökumppaneina yhteistyökumppania yhteistyökumppaneihin yhteistyökumppaneilta
+8	4408	perhonen	perhonen perhosia perhoset perhosen perhosten perhosta perhosista perhoseksi
+9	4409	osakeyhtiö	osakeyhtiö osakeyhtiön osakeyhtiöiden osakeyhtiöt osakeyhtiössä osakeyhtiöksi osakeyhtiötä osakeyhtiöön osakeyhtiöitä osakeyhtiölle osakeyhtiöstä
+10	4410	kurja	kurjaa kurja kurjat kurjia kurjalta kurjan kurjasta kurjassa kurjien kurjaan kurjempaa kurjista kurjissa
+11	4411	hieroa	hiero hieroa hieroo hieromaan hieroi hieron hierotaan hieromalla hierovat hierominen hieronut hierottu hieroin hieromista hierottiin hierot hieromassa
+12	4412	maha	maha mahan mahaan mahassa mahaa mahasta mahani mahalla mahansa
+13	4413	rakenteellinen	rakenteellinen rakenteellisia rakenteellisen rakenteelliset rakenteellista rakenteellisten rakenteellisista rakenteellisesta rakenteelliseen rakenteellisiin
+14	4414	nyrkkeily	nyrkkeily nyrkkeilyn nyrkkeilyä nyrkkeilystä nyrkkeilyssä nyrkkeilyyn
+15	4415	vakuuttunut	vakuuttunut vakuuttuneita vakuuttuneeksi vakuuttuneempi vakuuttuneiksi vakuuttuneet
+16	4416	katolinen	katolinen katolisen katoliset katolista katolisessa katolisia katolisten katoliseen katolisesta katolisissa katoliselle
+17	4417	kerma	kermaa kerma kerman kermasta kermat kermalla kermaan
+18	4418	salibandy	salibandy salibandyn salibandya salibandyä salibandyssa salibandyyn salibandyssä
+19	4419	hyvinvointivaltio	hyvinvointivaltio hyvinvointivaltion hyvinvointivaltiota hyvinvointivaltiosta hyvinvointivaltiossa hyvinvointivaltioon
+20	4420	käypä	käypä käyvän käyvät käypää käypään käyvästä käyvistä käyville käypiä käyvälle käyvällä käyvässä
+21	4421	suksi	sukset suksi suksia suksien suksilla suksen suksiin suksea suksille
+22	4422	fan	fan fanit fanien faneja faneille fania fanin faneista fanina faneilla faneilta fanille faniksi faneihin
+23	4423	hyönteinen	hyönteisiä hyönteiset hyönteisten hyönteinen hyönteisen hyönteisistä hyönteisille hyönteistä hyönteisillä
+24	4424	petos	petos petoksesta petoksen petoksia petosta petokseen petoksista petokset petosten petoksella petoksena
+25	4425	kolmio	kolmion kolmio kolmiossa kolmiota kolmioita kolmiot kolmioon kolmiosta kolmioiden
+26	4426	lämpimästi	lämpimästi
+27	4427	stop	stop
+28	4428	tsemppiä	tsemppiä
+29	4429	vrt.	vrt
+30	4430	vähintäänkin	vähintäänkin
+31	4431	yksinomaan	yksinomaan
+32	4432	lotto	lotto lotossa loton lottoa lotosta lottoon
+33	4433	mekaaninen	mekaaninen mekaanisen mekaanista mekaanisia mekaaniset mekaanisten mekaanisesta mekaanisella mekaaniseen mekaanisessa mekaanisista mekaaniseksi
+34	4434	leima	leima leimaa leiman leimoja leimat leimansa leimalla leimasta leimaan
+35	4435	valtiollinen	valtiollinen valtiollisen valtiollista valtiolliset valtiollisten valtiollisia valtiolliseen valtiollisella valtiollisessa valtiollisiin valtiollisissa valtiollisesta valtiolliselle
+36	4436	bulgaria	bulgaria bulgarian bulgariassa bulgariaan bulgariaa bulgariasta bulgarialle
+37	4437	satelliitti	satelliitti satelliitin satelliitit satelliittien satelliitteja satelliittia satelliitista satelliittiin satelliiteista satelliitilla satelliitteihin satelliiteissa
+38	4438	oikeuttaa	oikeuttaa oikeuta oikeuttavat oikeuttava oikeutti oikeuttaisi oikeuttamaan oikeuttanut oikeuttaakseen oikeutetaan
+39	4439	huivi	huivi huivia huivin huiveja huiviin huivit huivista huivilla huivien huivissa huivinsa
+40	4440	osaaja	osaajia osaajat osaaja osaajien osaajaa osaajille osaajista osaajan osaajaksi osaajana
+41	4441	musiikkivideo	musiikkivideo musiikkivideon musiikkivideoita musiikkivideolla musiikkivideota musiikkivideot musiikkivideoiden musiikkivideosta musiikkivideossa musiikkivideoissa musiikkivideonsa
+42	4442	taipumus	taipumus taipumusta taipumuksia taipumukset taipumuksen taipumuksesta taipumuksensa
+43	4443	työura	työuran työura työuransa työuraa työurat työurien työurani työuria työuralla työuralle
+44	4444	niellä	niellä niele nielee nielemään niellyt nieli nielevät nieleminen niellään nieltävä nielty nielemistä nielin nielen nielivät
+45	4445	syvästi	syvästi syvemmin
+46	4446	ahkera	ahkera ahkeran ahkeria ahkerat ahkeraa ahkeraan ahkerassa ahkerana ahkerin ahkerasta ahkerille ahkeralla ahkerampi ahkerimpia ahkerien
+47	4447	loppuvuosi	loppuvuodesta loppuvuoden loppuvuosi loppuvuodeksi loppuvuoteen loppuvuotta loppuvuodelle loppuvuosina
+48	4448	vuodenaika	vuodenaikaan vuodenaikojen vuodenajan vuodenaika vuodenajat vuodenaikoina vuodenaikaa vuodenajasta vuodenaikana vuodenaikoja vuodenajoista vuodenaikoihin
+49	4449	murskata	murskaa murskasi murskata murskataan murskaavan murskattu murskaava murskasivat murskannut murskattiin murskaamaan murskaamalla murskattua murskaavat murskaavaa murskatut murskaaminen murskattuna
+50	4450	yksinäisyys	yksinäisyys yksinäisyyttä yksinäisyyden yksinäisyydestä yksinäisyyteen yksinäisyydessä
+51	4451	vastustus	vastustusta vastustus vastustuksen vastustuksesta vastustukseen
+52	4452	hommata	hommata hommasin hommaa hommannut hommataan hommasi hommaat hommaan hommaamaan hommattu hommattiin
+53	4453	single	single singlen singleä singlensä singlet singlenä singlellä singlejä singlestä
+54	4454	aula	aulassa aula aulaan aulan aulasta aulaa
+55	4455	säälittävä	säälittävää säälittävä säälittävän säälittäviä säälittävältä
+56	4456	tulva	tulva tulvan tulvat tulvien tulvia tulvaa tulvillaan tulvista tulvasta tulvissa tulvaan tulvassa tulviin
+57	4457	perheenjäsen	perheenjäsen perheenjäsenet perheenjäseniä perheenjäsenten perheenjäsenen perheenjäsenille perheenjäsentä perheenjäsenensä perheenjäsenelle perheenjäsenistä perheenjäsenesi perheenjäseniin perheenjäsenellä
+58	4458	kehitysmaa	kehitysmaiden kehitysmaissa kehitysmaista kehitysmaihin kehitysmaat kehitysmaita kehitysmaa kehitysmaille kehitysmaan kehitysmaassa
+59	4459	kukkonen	kokkonen kukkonen kukkosen
+60	4460	wales	walesin walesissa wales walesiin walesia walesista
+61	4461	pääasiallinen	pääasiallinen pääasiallisena pääasialliset pääasiallista pääasiallisen pääasiallisia pääasialliseksi pääasiallisin
+62	4462	tyyny	tyyny tyynyn tyynyjä tyynyt tyynyyn tyynyä tyynyllä tyynyjen tyynyillä tyynylle tyynystä tyynyistä
+63	4463	soitin	soittimen soittimia soittimet soitin soitinta soittimien soitinten soittimeen soittimesta soittimessa soittimiin soittimista soittimella soittimilla soittimensa soittimeksi
+64	4464	tarvike	tarvikkeita tarvikkeet tarvikkeiden tarvikkeista tarvikkeisiin tarvike
+65	4465	edeltää	edelsi edeltää edeltänyt edeltäneen edeltävät edelsivät edeltäneeseen edeltäneelle
+66	4466	varmistua	varmistui varmistua varmistuu varmistunut varmistuttava varmistuvat
+67	4467	kiehtova	kiehtova kiehtovaa kiehtovat kiehtovia kiehtovan kiehtovalta kiehtovin kiehtovasta
+68	4468	opintotuki	opintotuki opintotuen opintotukea opintotukeen opintotuesta
+69	4469	parkki	parkissa parkin parkkiin parkki parkista parkilla parkille parkkia
+70	4470	huuhkaja	huuhkajat huuhkajien huuhkaja huuhkajilla huuhkajan
+71	4471	maili	mailin mailia maili maililla maileja mailiin mailissa mailit
+72	4472	lämmetä	lämpenee lämmetä lämpene lämmennyt lämpeni lämpenemään lämpenevät lämmetessä lämpenivät lämpenisi
+73	4473	valaistus	valaistus valaistuksen valaistusta valaistukseen valaistuksessa valaistuksesta
+74	4474	asuinpaikka	asuinpaikka asuinpaikan asuinpaikkoja asuinpaikasta asuinpaikkaa asuinpaikkansa asuinpaikkana asuinpaikaksi asuinpaikat asuinpaikkaan asuinpaikalla
+75	4475	sortua	sortunut sortua sortuu sortui sorru sortuvat sorruin sorrun sortuivat sortuminen sortumatta sortuisi sortumaan sortuma sortumisen sortumista sorrut sortumiseen
+76	4476	pöly	pölyä pöly pölyt pölyn pölystä pölyjä pölyistä pölyjen pölyltä
+77	4477	kompromissi	kompromissi kompromisseja kompromissin kompromissia kompromissiin kompromisseihin kompromissien kompromissina kompromissit
+78	4478	reaktori	reaktorin reaktori reaktoria reaktorit reaktorista reaktoriin reaktoreita reaktorilla reaktorissa reaktorien reaktoreiden reaktorille reaktoreissa reaktoreista
+79	4479	chili	chili chiliä chilin chilillä chilit chilejä chilistä
+80	4480	demo	demo demon demot demoni demoja demoa demossa demosta demojen
+81	4481	kannattavuus	kannattavuus kannattavuuden kannattavuutta kannattavuuteen kannattavuudesta
+82	4482	säädellä	säädellä säätelee säätelevät säädellään säätelemään säädelty säätelevä säätelemällä säätele
+83	4483	vakiintunut	vakiintunut vakiintuneet vakiintuneen vakiintuneita vakiintunutta vakiintuneiden vakiintuneisiin
+84	4484	juristi	juristi juristit juristin juristien juristeja juristiksi juristina juristia
+85	4485	taajuus	taajuudella taajuus taajuudet taajuuksia taajuuden taajuuksilla taajuutta taajuuksien taajuudelle taajuuksille taajuudesta
+86	4486	vaieta	vaieta vaikenee vaietaan vaiettu vaikene vaikeneminen vaikenemaan vaikeni vaikenevat vaiennut vaikenemisen vaiettiin vaikenivat vaikenemalla vaikenemista
+87	4487	kaivo	kaivoon kaivo kaivon kaivosta kaivoa kaivossa kaivot kaivoja kaivojen kaivoin kaivolla
+88	4488	rohkaista	rohkaista rohkaisee rohkaisi rohkaisevaa rohkaise rohkaisevia rohkaistaan rohkaiseva rohkaissut rohkaisemaan rohkaisevat rohkaisen rohkaisemme rohkaisevan rohkaisivat rohkaisisi rohkaisin
+89	4489	työnhakija	työnhakijoiden työnhakija työnhakijat työnhakijan työnhakijaa työnhakijoita työnhakijoista työnhakijaksi työnhakijana työnhakijoille
+90	4490	maantie	maantiellä maanteiden maantien maantie maanteillä maantietä maantielle maantiet maanteitä maantieltä maanteille
+91	4491	vastarinta	vastarintaa vastarinta vastarinnan vastarintaan vastarinnasta
+92	4492	nojata	nojaa nojaten nojata nojasi nojaava nojaavat nojaamaan nojannut nojataan
+93	4493	puinen	puinen puisia puiset puisen puista puisella puisten puiseen puisessa puisista puisiin puisesta
+94	4494	jaaha	jaahas jaaha jaha
+95	4495	kärry	kärryillä kärry kärryiltä kärryn kärryt kärryille kärryjen kärryjä kärryyn kärryä kärryihin kärryissä kärryllä kärryssä kärrystä
+96	4496	hop	hop
+97	4497	nai	nai
+98	4498	puhelimitse	puhelimitse
+99	4499	vitusti	vitusti
+100	4500	vasemmistolainen	vasemmistolainen vasemmistolaisen vasemmistolaisia vasemmistolaiset vasemmistolaista vasemmistolaisten vasemmistolaisena vasemmistolaiseen vasemmistolaisesta vasemmistolaiseksi vasemmistolaisista vasemmistolaisiin

@@ -1,0 +1,100 @@
+1	7901	sperma	spermaa sperman sperma spermassa spermasta
+2	7902	nepali	nepalissa nepalin nepaliin nepalista
+3	7903	talonpoika	talonpojat talonpoika talonpoikien talonpoikia talonpojan talonpojille talonpojista talonpojilta
+4	7904	muotoilija	muotoilija muotoilijat muotoilijan muotoilijoiden muotoilijoita muotoilijana
+5	7905	muurahainen	muurahaiset muurahaisia muurahaisten muurahainen muurahaisen muurahaisista
+6	7906	särki	särki särjen särjet särkiä särkeä
+7	7907	botti	botti botit botin botteja bottien
+8	7908	meta	meta metaa metan
+9	7909	levitys	levitykseen levitys levitystä levityksen levityksessä levityksestä
+10	7910	lakialoite	lakialoite lakialoitteen lakialoitetta lakialoitteita lakialoitteet
+11	7911	keskikenttä	keskikentän keskikentällä keskikenttä keskikentälle keskikenttää
+12	7912	kauppakamari	kauppakamarin kauppakamari kauppakamarit
+13	7913	länsipuoli	länsipuolella länsipuolelle länsipuolelta länsipuolen länsipuoli
+14	7914	peloissaan	peloissaan peloissani
+15	7915	länsimaalainen	länsimaalaiset länsimaalaisia länsimaalaisten länsimaalainen länsimaalaisen länsimaalaista länsimaalaisista länsimaalaisille
+16	7916	sykkiä	sykkii sykkivä sykkimään sykki sykkiä
+17	7917	haluttomuus	haluttomuus haluttomuudesta haluttomuutta haluttomuuden haluttomuuteen
+18	7918	miljardööri	miljardööri miljardöörit miljardöörin miljardöörejä miljardöörien
+19	7919	varjella	varjele varjella varjelee varjeltu varjelemaan varjeli varjelkoon varjellut
+20	7920	syvällisesti	syvällisesti syvällisemmin
+21	7921	syrjäinen	syrjäinen syrjäiseen syrjäisen syrjäisessä syrjäisellä syrjäiselle syrjäisestä syrjäisillä syrjäistä syrjäisten syrjäisiä
+22	7922	paalupaikka	paalupaikalta paalupaikan paalupaikka paalupaikkaa paalupaikalle paalupaikkansa
+23	7923	sivuinen	sivuinen sivuisen sivuisessa sivuista
+24	7924	sinappi	sinappia sinappi sinapin sinapilla
+25	7925	chatti	chatin chatti chatissa chattiin chatit chatteja
+26	7926	kunnianloukkaus	kunnianloukkauksesta kunnianloukkaus kunnianloukkauksen kunnianloukkaukseen kunnianloukkauksista kunnianloukkausta kunnianloukkauksena
+27	7927	perinnöllinen	perinnöllinen perinnöllistä perinnöllisiä perinnölliset perinnöllisten perinnöllisen perinnöllisestä perinnöllisistä
+28	7928	kaide	kaiteen kaiteet kaide kaiteeseen kaiteesta kaidetta kaiteiden kaiteita kaiteella kaiteelle
+29	7929	asiantunteva	asiantunteva asiantuntevaa asiantuntevia asiantuntevan
+30	7930	laukka	laukka laukkaa laukan laukalle laukkaan laukat
+31	7931	veroprosentti	veroprosentti veroprosentin veroprosenttia veroprosentit veroprosentilla veroprosenttiin
+32	7932	keskustelija	keskustelija keskustelijoita keskustelijat keskustelijoiden keskustelijoista keskustelijan keskustelijana keskustelijaa
+33	7933	kollektiivinen	kollektiivinen kollektiivisen kollektiivista kollektiiviseen kollektiivisia kollektiivisesta kollektiiviset kollektiivisessa
+34	7934	esteettinen	esteettinen esteettistä esteettisiä esteettisen esteettiset esteettisistä esteettiseen esteettisestä esteettisten
+35	7935	sitra	sitran sitra
+36	7936	autiomaa	autiomaassa autiomaan autiomaahan autiomaata autiomaa autiomaasta
+37	7937	kampanjoida	kampanjoi kampanjoida kampanjoivat kampanjoinut kampanjoimaan kampanjoimassa kampanjoiden
+38	7938	maailmanennätys	maailmanennätys maailmanennätyksen maailmanennätystä maailmanennätyksiä
+39	7939	juuttua	juuttunut juuttui juuttuu juuttua juuttuivat
+40	7940	aikaisintaan	aikaisintaan
+41	7941	avainasema	avainasemassa
+42	7942	hartaasti	hartaasti
+43	7943	jotakuinkin	jotakuinkin
+44	7944	mallikkaasti	mallikkaasti
+45	7945	menestyksekkäästi	menestyksekkäästi
+46	7946	saakeli	saakeli
+47	7947	tahi	tahi
+48	7948	vakaasti	vakaasti
+49	7949	liittoutuneet	liittoutuneet liittoutuneiden liittoutuneita liittoutuneille
+50	7950	alkio	alkio alkion alkiota alkiot alkioiden alkioita
+51	7951	pioneeri	pioneeri pioneerit pioneereja pioneerin pioneerien pioneerina pioneereista
+52	7952	vietto	viettoon vietto viettoa vieton vietosta vietossa
+53	7953	safka	safkaa safkat safka
+54	7954	eturivi	eturivissä eturiviin eturivistä eturivi
+55	7955	pitkäaikaistyötön	pitkäaikaistyöttömien pitkäaikaistyötön pitkäaikaistyöttömät pitkäaikaistyöttömiä pitkäaikaistyöttömille
+56	7956	loitsu	loitsun loitsu loitsuja loitsut loitsua loitsulla loitsujen
+57	7957	hakukone	hakukone hakukoneen hakukoneiden hakukoneet hakukoneita hakukoneella hakukonetta hakukoneista
+58	7958	säätely	säätely säätelyn säätelyä säätelyyn säätelyssä säätelystä
+59	7959	prosessori	prosessori prosessorin prosessorit prosessoria prosessoreita prosessorilla
+60	7960	everstiluutnantti	everstiluutnantti everstiluutnantin
+61	7961	kymppitonni	kymppitonnin kymppitonni kymppitonneja kymppitonnilla kymppitonnia
+62	7962	fysioterapeutti	fysioterapeutti fysioterapeutin fysioterapeuttina fysioterapeutit fysioterapeutilla
+63	7963	omanlainen	omanlaisensa omanlainen
+64	7964	edistyksellinen	edistyksellinen edistyksellistä edistyksellisiä edistyksellisen edistykselliset edistyksellisenä edistyksellisin
+65	7965	rattijuopumus	rattijuopumus rattijuopumuksesta rattijuopumuksia rattijuopumuksen rattijuopumukseen rattijuopumusta
+66	7966	kättely	kättelyssä kättely kättelyn kättelyä
+67	7967	integroida	integroitu integroida integroidaan integroimaan integroiminen integroituna integroi
+68	7968	kamu	kamu kamun kamut kamujen
+69	7969	ideoida	ideoi ideoimaan ideoida ideoima ideoinut ideoivat ideoitu ideoimassa ideoitiin ideoiden
+70	7970	jin	jin jinin
+71	7971	lihoa	lihonut lihoo lihoa lihominen lihovat lihomista liho lihoi lihomisen lihomaan lihomiseen lihota lihottavaa lihoin lihottavat
+72	7972	tyytyväisyys	tyytyväisyyttä tyytyväisyys tyytyväisyyden tyytyväisyyteen tyytyväisyydestä
+73	7973	tappi	tapissa tappiin tappi tapit tapin tappia
+74	7974	rautainen	rautainen rautaisen rautaisella rautaista rautaisia rautaiset
+75	7975	jakauma	jakauma jakauman jakaumaa jakaumasta jakaumat
+76	7976	kurpitsa	kurpitsa kurpitsan kurpitsaa kurpitsat kurpitsoja kurpitsasta kurpitsoita
+77	7977	vihko	vihko vihkoon vihkon vihkoja vihkoa vihon vihkoihin vihoissaan
+78	7978	maailmantalous	maailmantalouden maailmantalous maailmantaloudessa maailmantaloutta maailmantalouteen maailmantaloudesta
+79	7979	sosiaalityö	sosiaalityön sosiaalityö sosiaalityötä sosiaalityöhön
+80	7980	turhautuminen	turhautumista turhautuminen turhautumisen turhautumisesta turhautumiseen turhautumisensa
+81	7981	mustasukkaisuus	mustasukkaisuus mustasukkaisuutta mustasukkaisuuden mustasukkaisuudesta mustasukkaisuuteen
+82	7982	torpedo	torpedo torpedot torpedon torpedoa torpedojen torpedoja torpedoilla
+83	7983	kulttuuriperintö	kulttuuriperinnön kulttuuriperintö kulttuuriperintöä kulttuuriperintöön kulttuuriperinnöstä
+84	7984	merialue	merialueella merialueilla merialueen merialueiden merialue merialuetta merialueelle merialueita merialueille
+85	7985	hohtaa	hohtaa hohtavat hohtavan hohtava hohti hohtavaa hohtavia hohtamaan
+86	7986	haapa	haapa haapoja haavat haavan haapaa haavasta haavoista haavassa haavoille
+87	7987	majatalo	majatalossa majatalo majatalon majataloon majataloa majatalosta
+88	7988	meemi	meemi meemejä meemiä meemistä meemit meemin
+89	7989	intiimi	intiimi intiimiä intiimejä intiimin intiimit intiimiin intiimissä intiimeistä
+90	7990	ensikertalainen	ensikertalainen ensikertalaisia ensikertalaisena ensikertalaiset ensikertalaisille ensikertalaiselle ensikertalaisen ensikertalaisten ensikertalaista
+91	7991	lapseton	lapseton lapsettomat lapsettomia lapsettomana lapsettomien lapsettoman lapsettomille lapsettomaksi
+92	7992	rauhanomainen	rauhanomainen rauhanomaista rauhanomaisen rauhanomaisia rauhanomaiseen rauhanomaisin rauhanomaisesta rauhanomaiset rauhanomaisten
+93	7993	maavoimat	maavoimien maavoimat maavoimissa
+94	7994	torppa	torppa torpan torpassa torppaa torppaan
+95	7995	iltapäivälehti	iltapäivälehtien iltapäivälehdet iltapäivälehti iltapäivälehden iltapäivälehdissä
+96	7996	ajoittaa	ajoittaa ajoitettu ajoitetaan ajoittaminen ajoittamaan ajoitettua
+97	7997	lavastaa	lavastaa lavastettu lavasti lavastanut lavastettiin lavastetaan lavastamaan lavastaminen lavasta
+98	7998	nostalgia	nostalgia nostalgiaa nostalgian
+99	7999	tarkennus	tarkennus tarkennusta tarkennuksia tarkennuksen tarkennuksena
+100	8000	ahven	ahven ahventa ahvenia ahvenet ahvenen ahventen

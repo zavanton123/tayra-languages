@@ -1,0 +1,100 @@
+1	3501	paikata	paikkasi paikata paikkaamaan paikkaa paikkaan paikataan paikattu paikattua paikattiin paikkaavat paikkaaminen paikkailla paikannut paikkaamassa paikkaamiseen paikattava
+2	3502	pienentää	pienentää pienentämään pienentäminen pienennetään pienentämällä pienentävät pienennetty pienensi pienennä pienentämistä pienentäisi pienentänyt pienennettiin pienennettäisiin pienensivät
+3	3503	laiska	laiska laiskoja laiskat laiskan laiskaa laiskaksi laiskana laiskoiksi laiskojen laiskoille laiskasta
+4	3504	bensa	bensa bensaa bensan bensalla bensat bensaan bensasta
+5	3505	aate	aate aatetta aatteet aatteen aatteita aatteiden aatteensa aatteeseen aatteesta aatteista aatteisiin aatteelle aatteena
+6	3506	ikäluokka	ikäluokan ikäluokkien ikäluokat ikäluokka ikäluokkaa ikäluokissa ikäluokasta ikäluokassa ikäluokkansa ikäluokkia ikäluokkaan ikäluokista ikäluokkiin ikäluokalle ikäluokille ikäluokilla
+7	3507	vihannes	vihanneksia vihannekset vihannesten vihannes vihanneksista vihanneksilla vihannesta vihanneksiin vihanneksissa vihanneksen vihanneksille
+8	3508	illallinen	illallinen illallisen illalliselle illallisella illallista illalliseksi illalliset illallisia illallisilla illalliseen illallisesta illallisille illallisten
+9	3509	lääketieteellinen	lääketieteellinen lääketieteellisen lääketieteellistä lääketieteellisiä lääketieteellisessä lääketieteelliset lääketieteelliseen lääketieteellisestä lääketieteellisistä lääketieteellisten lääketieteellisiin lääketieteellisissä
+10	3510	kalastus	kalastus kalastuksen kalastusta kalastukseen kalastuksesta kalastuksessa kalastukselle
+11	3511	astia	astioita astiat astia astiaan astian astioiden astiassa astiaa astioihin astioista astiasta astioissa
+12	3512	saaristo	saaristossa saariston saaristo saaristoon saaristosta saaristoa
+13	3513	vilkas	vilkas vilkasta vilkkain vilkkaan vilkkaana vilkkaalla vilkkaassa vilkkaita vilkkaasta vilkkaampi vilkkaat vilkkaaseen vilkkailla vilkkaiden
+14	3514	liberaali	liberaali liberaalit liberaalin liberaalien liberaaleja liberaalia liberaalina liberaaleista liberaaliin liberaalista liberaaliksi liberaaleille liberaaleihin liberaalissa
+15	3515	kauhu	kauhua kauhu kauhun kauhulla kauhusta kauhut kauhujen kauhuja kauhuksi kauhuista kauhuun
+16	3516	pidätetty	pidätetty pidätetyksi pidätettynä pidätetyt pidätettyjen pidätettyjä pidätettyä pidätetyistä pidätetyn pidätettyinä
+17	3517	väistää	väistää väistämätön väistämään väistämätöntä väistellä väistänyt väisti väistävät väistettävä väistelemään väistämättömiä väistämättömältä väistellen väistetään väistelee väistämättömän väistä väistäminen väistämättömänä
+18	3518	kostea	kostea kosteaa kosteat kosteita kostean kostealla kosteissa kosteana kosteassa kosteiden kosteaan kosteina kosteasta kosteilla kosteaksi kosteisiin kosteista kostealle
+19	3519	kielteinen	kielteisen kielteinen kielteisiä kielteistä kielteiset kielteisten kielteiseen kielteisestä kielteisessä kielteisenä kielteisistä kielteiseksi
+20	3520	jyrkkä	jyrkkä jyrkän jyrkkää jyrkkiä jyrkät jyrkässä jyrkkään jyrkin jyrkempi jyrkillä jyrkkien jyrkällä jyrkästä jyrkkänä jyrkistä
+21	3521	flunssa	flunssa flunssan flunssaa flunssassa flunssasta flunssaan flunssat
+22	3522	avioliittolaki	avioliittolain avioliittolaki avioliittolakia avioliittolaista
+23	3523	suvi	suvi suvin suven
+24	3524	huolestua	huolestua huolestuttavaa huolestui huolestuttava huolestuttavan huolestuu huolestuttavia huolestumaan huolestu huolestuin huolestuivat huolestuttavana huolestuvat huolestun huolestuttavat huolestuttavalta
+25	3525	ilmeinen	ilmeisen ilmeinen ilmeisiä ilmeistä ilmeiset ilmeiseksi ilmeisin ilmeisenä ilmeiseltä ilmeisestä ilmeisistä
+26	3526	etusivu	etusivu etusivulla etusivun etusivulle etusivulta etusivua etusivuilla
+27	3527	hirvittää	hirvittävän hirvittää hirvittävä hirvittävää hirvittävät hirvittäviä hirvitti hirvittävään hirvittävällä hirvittävässä
+28	3528	kotitalous	kotitalouksien kotitalouden kotitaloudet kotitalouksille kotitalous kotitaloutta kotitalouksista kotitalouksissa kotitalouksia kotitaloudessa kotitalouksiin kotitalouteen kotitalouksilla
+29	3529	huuto	huuto huutoa huutoja huudot huutoon huudon huudossa huutojen huudosta huutonsa huudoista huudolla
+30	3530	metsästäjä	metsästäjä metsästäjät metsästäjien metsästäjiä metsästäjän metsästäjää metsästäjille metsästäjistä metsästäjälle metsästäjästä metsästäjiltä
+31	3531	ylivoima	ylivoimalla ylivoima ylivoimaa ylivoiman ylivoimalle ylivoimasta ylivoimansa
+32	3532	loppupuoli	loppupuolella loppupuolelle loppupuolen loppupuolelta loppupuoli loppupuolta
+33	3533	kunnioitus	kunnioitusta kunnioitus kunnioituksella kunnioituksen kunnioituksesta kunnioitukseen kunnioituksensa kunnioitukseni
+34	3534	porno	pornoa porno pornon pornosta pornoon pornossa
+35	3535	reippaasti	reippaasti reippaammin
+36	3536	teollinen	teollinen teollisen teollista teolliseen teollisessa teollisia teolliset teollisten teollisesta teollisissa teolliseksi teollisista
+37	3537	psykologi	psykologi psykologin psykologista psykologit psykologia psykologien psykologeja psykologille psykologina psykologilla
+38	3538	innovaatio	innovaatioita innovaatio innovaatiot innovaatioiden innovaatiota innovaation innovaatioista innovaatioihin innovaatiosta innovaatioille
+39	3539	kosto	kosto koston kostoa kostoksi kostosta kostona kostonsa kostoon kostolla
+40	3540	oikeisto	oikeisto oikeiston oikeistoa oikeistoon oikeistolle oikeistossa oikeistosta
+41	3541	ankara	ankara ankaran ankaraa ankaria ankarat ankarin ankarassa ankaraan ankarasta ankarampaa ankarampi ankaralla ankarissa ankarana ankarien ankarimman ankariin ankarista
+42	3542	lampi	lampi lammen lammin lammi lampeen lammet lammesta lammella lammessa lampia lampea lammelle lammilla lampien
+43	3543	vuorovaikutus	vuorovaikutus vuorovaikutusta vuorovaikutuksen vuorovaikutuksessa vuorovaikutuksesta vuorovaikutukseen
+44	3544	tahallaan	tahallaan tahallasi tahallani
+45	3545	viereinen	viereisessä viereisen viereiseen viereinen viereisestä viereisellä viereiselle viereiset viereiseltä viereistä viereisten viereisiin viereisissä viereisillä
+46	3546	ulottua	ulottuu ulottui ulottuvat ulotu ulottua ulottuisi ulottunut ulottuivat ulottuen ulottumaan
+47	3547	lentoyhtiö	lentoyhtiö lentoyhtiöt lentoyhtiön lentoyhtiöiden lentoyhtiöitä lentoyhtiöistä lentoyhtiötä lentoyhtiöille lentoyhtiölle lentoyhtiöstä lentoyhtiöillä lentoyhtiöllä lentoyhtiöltä lentoyhtiönä lentoyhtiöiltä
+48	3548	pannu	pannulla pannulle pannu pannun pannuun pannussa pannut pannua pannuja pannulta panneen
+49	3549	rauhoittua	rauhoittumaan rauhoittua rauhoittunut rauhoitu rauhoittuu rauhoittui rauhoittuvat rauhoittumista rauhoittumisen rauhoittuisi rauhoittuivat rauhoittuminen rauhoittumiseen rauhoitutaan rauhoitus rauhoituin
+50	3550	kuume	kuume kuumetta kuumeen kuumeessa kuumeeseen kuumeesta
+51	3551	välttyä	välttyä vältytään välttyy vältytty vältyttäisiin vältyttiin välttynyt välttyäkseen välttyi vältyt välty välttymään välttyisi välttyvät välttyivät vältyin
+52	3552	filmi	filmi filmin filmiä filmissä filmejä filmille filmit filmillä filmistä filmien filmiin filmeissä filmeistä filmiltä
+53	3553	karku	karkuun karun karussa karut karulta karulla karusta karuissa karuilla karuista
+54	3554	alunperin	alunperin
+55	3555	kansainvälisesti	kansainvälisesti
+56	3556	pilalla	pilalla pilalle piloille piloilla
+57	3557	vuosikausi	vuosikausia vuosikaudet vuosikausiin vuosikausien vuosikausiksi
+58	3558	puhaltaa	puhaltaa puhalsi puhaltavat puhaltamaan puhalletaan puhalla puhaltanut puhallettu puhaltava puhalsivat puhallettava puhaltamalla puhaltaessa puhaltaminen puhalsin puhaltamista puhallettiin puhaltelee puhallan
+59	3559	sääntely	sääntely sääntelyä sääntelyn sääntelystä sääntelyyn sääntelyllä sääntelyssä
+60	3560	arkipäivä	arkipäivää arkipäivän arkipäivänä arkipäivä arkipäivinä arkipäivään arkipäivät arkipäivien arkipäivässä
+61	3561	heimo	heimo heimon heimoja heimoon heimot heimojen heimoa heimosta heimonsa heimoista heimolle heimossa heimoihin
+62	3562	haloo	haloo haloota haloon
+63	3563	rakastua	rakastui rakastuin rakastuu rakastua rakastuvat rakastuminen rakastu rakastumaan rakastuivat rakastumisen rakastun rakastumisesta rakastumista rakastuimme rakastuisi rakastuneet
+64	3564	räjäyttää	räjäyttää räjäytti räjäyttivät räjäytettiin räjäytetty räjäytetään räjäyttämään räjäyttänyt räjäyttämällä räjäyttävät räjäyttävä räjäyttäminen räjäytä räjäyttämiseen räjäyttämistä räjäyttäisi
+65	3565	sattuma	sattumaa sattuman sattumia sattumien sattuma sattumat sattumaan sattumasta sattumista sattumana sattumalla
+66	3566	paavi	paavi paavin paavia paaville paaviksi paavilla paavien paavilta paavina
+67	3567	itäinen	itäisen itäinen itäisessä itäistä itäisellä itäiseen itäisestä itäisten itäiset itäiselle itäisissä itäisiä itäisillä itäiseltä itäisin
+68	3568	laskelma	laskelmat laskelmia laskelmien laskelman laskelma laskelmissa laskelmassa laskelmiin laskelmista laskelmaan laskelmaa laskelmansa
+69	3569	syyllisyys	syyllisyyttä syyllisyyden syyllisyys syyllisyydestä syyllisyytensä syyllisyyteen
+70	3570	informaatioteknologia	it informaatioteknologian informaatioteknologia
+71	3571	mauste	mausteet mausteita mauste mausteilla mausteiden mausteena mausteeksi maustetta mausteista mausteen mausteensa mausteina
+72	3572	tilaaja	tilaaja tilaajan tilaajaa tilaajille tilaajalle tilaajia tilaajat tilaajana tilaajien tilaajalla tilaajista
+73	3573	maksullinen	maksullinen maksullisia maksullista maksullisen maksulliset maksulliseksi maksulliseen maksullisten maksullisiksi maksullisella maksullisiin maksullisena maksullisissa maksullisista maksullisilla maksullisessa maksullisesta
+74	3574	pystyttää	pystytä pystyttää pystytetty pystytettiin pystytetään pystytti pystyttäminen pystyttänyt pystyttämään pystyttivät pystyttäisi pystyttävä pystyttämistä pystyttävät pystyttämiseen pystyttämässä pystyttämisen pystyttämä pystyttämisestä
+75	3575	kynä	kynä kynän kynällä kynästä kynää kyniä kynät kynään
+76	3576	vappu	vappu vappuna vapun vappua vappuun vapuksi vapusta
+77	3577	saudi	saudi saudien saudit
+78	3578	moottoripyörä	moottoripyörä moottoripyörällä moottoripyörän moottoripyörät moottoripyörien moottoripyöriä moottoripyörää moottoripyörillä moottoripyörään moottoripyöristä moottoripyöriin moottoripyöränsä moottoripyörästä
+79	3579	ennakoida	ennakoi ennakoida ennakoimaan ennakoidaan ennakoiva ennakoivat ennakoitavissa ennakoitu ennakoinut ennakoivan ennakoiden ennakoitiin ennakoin ennakoivia ennakoitava ennakoivaa ennakoitavaa
+80	3580	maila	maila mailan mailalla mailaa mailat mailoja mailasta mailaan mailansa mailojen mailoilla
+81	3581	neljännes	neljännes neljänneksen neljänneksellä neljännekseen neljänneksestä neljännestä neljännekselle neljänneksessä
+82	3582	helpotus	helpotusta helpotus helpotuksesta helpotuksen helpotuksia helpotukset
+83	3583	sanonta	sanonta sanonnan sanontaa sanontoja sanonnat sanonnasta sanontaan
+84	3584	kilpa	kilpa kilpaa kilvan kilpaan kilvassa
+85	3585	varallisuus	varallisuus varallisuuden varallisuutta varallisuudesta varallisuuteen varallisuutensa
+86	3586	lemmikki	lemmikki lemmikin lemmikkejä lemmikit lemmikkien lemmikkiä lemmikkisi lemmikkinsä lemmikiksi lemmikkinä lemmikkeinä lemmikeistä lemmikeiksi lemmikeille lemmikistä lemmikkini
+87	3587	teltta	teltta teltan teltassa telttaan teltat telttaa telttoja teltoissa teltasta telttojen teltalle teltalla telttoihin
+88	3588	joukkoliikenne	joukkoliikenteen joukkoliikenne joukkoliikennettä joukkoliikenteessä joukkoliikenteeseen joukkoliikenteestä joukkoliikenteellä
+89	3589	byrokratia	byrokratiaa byrokratia byrokratian byrokratiasta byrokratiaan byrokratialla byrokratiassa
+90	3590	kaupunginhallitus	kaupunginhallitus kaupunginhallituksen kaupunginhallituksessa kaupunginhallitukselle kaupunginhallitukseen
+91	3591	läsnäolo	läsnäolo läsnäoloa läsnäolon läsnäolosta läsnäolonsa läsnäoloon läsnäololla
+92	3592	saaja	saaja saajaksi saajan saajat saajien saajista saajaa saajia saajalle saajasta saajana saajiksi saajille saajalla
+93	3593	krimi	krimin krimillä krimille krimistä krimiä krimi krimiltä
+94	3594	heikosti	heikosti heikommin heikoimmin
+95	3595	tennis	tennis tenniksen tennistä tenniksessä tenniksestä tennikseen
+96	3596	looginen	loogista looginen loogisen loogiselta loogisia loogiset loogiseen loogisena loogisin loogisempi loogisessa loogisten loogisesta loogiseksi
+97	3597	meikki	meikki meikkiä meikit meikkejä meikin meikeistä meikkiin meikissä meikillä meikkien meikistä meikkisi meikeissä meikittä
+98	3598	makuuhuone	makuuhuoneessa makuuhuoneen makuuhuoneeseen makuuhuone makuuhuonetta makuuhuoneesta mh makuuhuoneet makuuhuoneita makuuhuoneemme makuuhuoneensa makuuhuoneisiin makuuhuoneesi makuuhuoneissa
+99	3599	varhainen	varhaisessa varhainen varhaisen varhaista varhaiset varhaisesta varhaisia varhaiseen varhaisista varhaisin varhaisella varhaisten varhaisiin varhaisempi varhaisissa varhaisena varhaiselle
+100	3600	saalis	saalis saaliin saalista saaliiksi saaliinsa saaliista saaliit saaliita saaliina saaliikseen saaliiseen

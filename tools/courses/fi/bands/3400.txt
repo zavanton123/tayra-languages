@@ -1,0 +1,100 @@
+1	3301	saarinen	saarinen saarisen saarista
+2	3302	elimistö	elimistön elimistössä elimistö elimistöön elimistöstä elimistölle elimistöä elimistösi elimistönsä elimistömme
+3	3303	ruokkia	ruokkii ruokkia ruokkivat ruokkimaan ruokitaan ruokki ruoki ruokkinut ruokittu ruokit ruokkiminen ruokkimiseen ruokkimassa ruokkivan ruokkimista ruokin ruokittiin ruokkisi ruokkiva ruokkimalla ruokkimisen ruokimme ruokkimisesta
+4	3304	tasaisesti	tasaisesti tasaisemmin
+5	3305	raiskata	raiskata raiskaa raiskasi raiskattiin raiskattu raiskannut raiskataan raiskasivat raiskatuksi raiskaavat raiskaamisesta raiskaamaan raiskaaminen raiskattua
+6	3306	hukkua	hukkui hukkuu hukkua hukkunut hukkuvat huku hukun hukkuivat hukkuminen hukkuisi hukkuva hukkumaan hukkumisen hukkumista hukkumalla hukkumassa hukkumiselta hukumme hukkumasta
+7	3307	tiivis	tiivis tiiviissä tiiviin tiivistä tiiviit tiiviitä tiiviinä tiiviiksi tiiviimpi tiiviiseen tiiviistä tiiviillä
+8	3308	hävittää	hävittää hävitetään hävittämään hävittäminen hävitetty hävitti hävittänyt hävittämistä hävitettiin hävittämiseen hävittämisestä hävitettävä hävittivät hävittämisen hävittäisi hävittävät hävittämiseksi hävittämällä hävittämisessä
+9	3309	demokraattinen	demokraattinen demokraattisen demokraattisessa demokraattista demokraattiset demokraattisia demokraattisten demokraattiseen demokraattisesta demokraattiseksi demokraattisissa demokraattiselle demokraattisin demokraattisella
+10	3310	sukellusvene	sukellusvene sukellusveneen sukellusveneiden sukellusvenettä sukellusveneet sukellusveneitä sukellusveneestä sukellusveneeseen sukellusveneessä sukellusveneellä sukellusveneistä sukellusveneisiin sukellusveneissä
+11	3311	omakotitalo	omakotitalo omakotitalon omakotitalossa omakotitaloja omakotitalojen omakotitaloa omakotitaloon omakotitalot omakotitaloista omakotitaloissa omakotitalosta omakotitaloihin
+12	3312	taulukko	taulukko taulukossa taulukon taulukot taulukosta taulukkoon taulukkoa taulukoita taulukoiden taulukoista taulukoissa
+13	3313	konsepti	konsepti konseptin konseptia konseptiin konsepteja konseptista konseptilla konseptina konseptit konseptissa konseptien
+14	3314	villa	villa villan villaa villasta villat villassa villaan villalle villoja villalla
+15	3315	patsas	patsas patsaan patsaita patsasta patsaat patsaiden patsaasta patsaalla patsaista patsaalle patsaaseen patsaassa patsaalta
+16	3316	kohtelu	kohtelua kohtelu kohtelusta kohtelun kohteluun kohtelussa
+17	3317	huuli	huulet huulille huulilla huulia huuli huuleen huulten huulien huulilta huulta huulensa huuliin huulessa huulen huulissa huulista huulesi huuleni huulin
+18	3318	tyylinen	tyylinen tyylistä tyylisiä tyylisen tyyliset tyyliseen tyylisestä tyylisessä tyylisten tyylisellä tyylisistä tyylisiin tyylisissä tyyliseksi
+19	3319	käynti	käynti käyntiä käynnin käynnistä käynnit käyntejä käynnillä käyntien käynneistä käynnille käyntinsä käyntini käyntisi
+20	3320	geeni	geenit geenien geeni geenejä geeneistä geenin geeneissä geeneihin geeniä geeneillä geenistä geenissä geeniin
+21	3321	susanna	susanna susannan
+22	3322	kollega	kollega kollegat kollegani kollegansa kollegoiden kollegan kollegoita kollegoineen kollegaa kollegojen kollegoille kollegoja kollegoilta kollegasi kollegalle kollegoista kollegoihin
+23	3323	varovainen	varovainen varovaisia varovaisen varovaisempi varovaista varovaiset varovaiseksi varovaisena
+24	3324	kannanotto	kannanotto kannanottoja kannanotot kannanoton kannanottoa kannanotossa kannanotoista kannanottojen kannanottona kannanottoihin kannanotosta kannanottonsa kannanotoissa kannanottoon
+25	3325	juniori	juniori juniorit junioreiden juniorin junioreissa juniorien junioreille junioreita junioreista junioria juniorina junioreihin juniorista juniorilla juniorille junioriksi junioreilla
+26	3326	rauhallisesti	rauhallisesti rauhallisemmin
+27	3327	oppilaitos	oppilaitoksissa oppilaitos oppilaitokset oppilaitoksen oppilaitosten oppilaitoksessa oppilaitoksia oppilaitokseen oppilaitoksiin oppilaitoksesta oppilaitoksista oppilaitosta oppilaitoksille
+28	3328	arvostus	arvostusta arvostus arvostuksen arvostuksesta arvostukseni arvostukseen arvostuksensa arvostukset
+29	3329	lapsiperhe	lapsiperheiden lapsiperheille lapsiperheet lapsiperheen lapsiperheitä lapsiperhe lapsiperheelle lapsiperheissä lapsiperheessä lapsiperheisiin lapsiperheistä
+30	3330	kitara	kitara kitaraa kitaran kitarat kitaralla kitaroita kitaraan kitarassa kitaroiden kitarasta kitaransa kitaralle
+31	3331	puolitoista	puolitoista puolentoista puoleentoista puolessatoista puoleksitoista puoltatoista puolellatoista puolestatoista
+32	3332	eristää	eristää eristetty eristäminen eristetään eristettiin eristämään eristi eristettynä eristettyä eristävät eristänyt eristettyjä eristämistä eristivät eristetyn eristämiseen eristämisen eristämällä eristetyssä eristävä eristetyt eristettävä eristetyksi eristäneet eristämisestä eristämiseksi eristä
+33	3333	ajokortti	ajokortti ajokortin ajokorttia ajokortit ajokortista ajokorttinsa ajokorttiin ajokortteja ajokorttien ajokortissa ajokortilla
+34	3334	oja	ojaan ojan ojasta ojassa oja ojaa ojat ojia ojien ojissa ojiin ojista
+35	3335	kolikko	kolikoita kolikon kolikot kolikko kolikkoa kolikolla kolikoilla kolikoiden kolikoista kolikkoja kolikosta kolikoissa kolikossa kolikkoon kolikkojen
+36	3336	aamiainen	aamiainen aamiaisen aamiaista aamiaisella aamiaiselle aamiaiseksi aamiaisesta aamiaiseen
+37	3337	varapuheenjohtaja	varapuheenjohtaja varapuheenjohtajana varapuheenjohtajaksi varapuheenjohtajan varapuheenjohtajat varapuheenjohtajaa varapuheenjohtajiksi varapuheenjohtajalle
+38	3338	surmata	surmasi surmattiin surmata surmannut surmattu surmaa surmasivat surmaaminen surmataan surmaamisesta surmaamaan surmaamista surmaavat surmaten surmaisi surmaamisen surmaan surmattava
+39	3339	käsikirjoitus	käsikirjoitus käsikirjoituksen käsikirjoitusta käsikirjoituksesta käsikirjoituksia käsikirjoituksessa käsikirjoitukseen käsikirjoitukset käsikirjoitusten käsikirjoituksiin
+40	3340	ulkomaa	ulkomaan ulkomaat ulkomaiden ulkomaita ulkomaista
+41	3341	mulkku	mulkku mulkkuja mulkut mulkkua mulkun mulkkujen mulkuksi
+42	3342	kokonaisuutena	kokonaisuutena
+43	3343	muutenkaan	muutenkaan
+44	3344	renkaat	renkaat
+45	3345	sellaisenaan	sellaisenaan
+46	3346	ulkomailta	ulkomailta
+47	3347	sampo	sampo sammon sampon sampoon sampoa sammi sammossa
+48	3348	neliö	neliön neliötä neliö neliöitä neliöt neliöiden neliöön neliöstä neliöistä neliöltä neliössä neliöllä
+49	3349	suuruus	suuruus suuruuden suuruutta suuruudesta suuruuteen suuruudeksi suuruudet suuruudella suuruutensa suuruuksia
+50	3350	signaali	signaali signaalin signaalia signaaleja signaalit signaalien signaalista signaalilla signaaliin signaaleista signaalissa
+51	3351	sisar	sisar sisarensa sisaren sisaret sisareni sisarta sisaria sisarten sisaresta sisarelle sisarista
+52	3352	linjaus	linjaus linjauksia linjaukset linjausta linjauksen linjausten linjauksista linjauksesta linjauksiin linjauksissa linjaukseen
+53	3353	pääty	pääty päädyin päädyssä päätyyn päädystä päädyt päädyn päädyissä päätyihin
+54	3354	savu	savua savu savun savut savusta savuna savuja savuun savussa savulla savulle
+55	3355	happi	happea happi hapen happeen hapessa hapesta hapella hapeksi
+56	3356	maaperä	maaperän maaperä maaperällä maaperää maaperään maaperästä maaperässä maaperälle maaperältä
+57	3357	luettelo	luettelo luettelon luettelossa luetteloon luettelosta luetteloa luettelot luetteloita luetteloiden
+58	3358	onnittelu	onnittelut onnitteluista onnitteluja
+59	3359	työkaveri	työkaveri työkaverit työkavereita työkavereiden työkaverin työkaverini työkavereille työkaveria työkaverisi työkaverinsa työkavereista työkaverille työkavereilta työkaverilta työkaverien
+60	3360	apina	apina apinat apinan apinoita apinoiden apinaa apinoista apinoilla apinaksi apinoille apinasta apinoiksi
+61	3361	kevi	kevin kevein
+62	3362	hirviö	hirviö hirviöitä hirviöt hirviön hirviöiden hirviötä hirviöksi hirviöistä hirviöstä hirviönä hirviöiksi
+63	3363	seisoa	seisoo seisomaan seisoa seisoi seisovat seiso seisonut seison seisova seisot seisoin seisoen seisoivat seisominen seisoessa seisomassa seisomme seisotaan seisoisi seisoimme seisoma seisomalla seisomisen seisomista
+64	3364	metsästää	metsästää metsästämään metsästä metsästämässä metsästetään metsästävät metsästäminen metsästän metsästetty metsästänyt metsästi metsästettiin metsästämiseen metsästivät metsästämisestä metsästämistä metsästävä metsästämällä metsästäen metsästin metsästämisen
+65	3365	kehdata	kehtaa kehdannut kehtaat kehtaisi kehtasi kehtaisin kehtaavat kehtaan kehtaatte kehdata kehtasivat
+66	3366	halukas	halukas halukkaita halukkaat halukkaille halukkaiden halukasta halukkaalle halukkaan
+67	3367	ratketa	ratkeaa ratkesi ratkennut ratkea ratkeavat ratketa ratkeaisi ratkesivat ratkenneen
+68	3368	käyttöjärjestelmä	käyttöjärjestelmän käyttöjärjestelmä käyttöjärjestelmää käyttöjärjestelmät käyttöjärjestelmään käyttöjärjestelmästä käyttöjärjestelmässä käyttöjärjestelmien käyttöjärjestelmällä käyttöjärjestelmänä käyttöjärjestelmille käyttöjärjestelmissä käyttöjärjestelmiä käyttöjärjestelmistä käyttöjärjestelmiin käyttöjärjestelmillä käyttöjärjestelmälle
+69	3369	salama	salama salaman salamaa salamat salamoita salamalla salamana salamia salamoiden salamin salamasta salamaan
+70	3370	terapia	terapiaa terapia terapiassa terapian terapiaan terapiasta terapialla terapiat
+71	3371	liittovaltio	liittovaltion liittovaltio liittovaltiota liittovaltioon liittovaltiosta liittovaltiolle liittovaltioksi liittovaltiossa
+72	3372	tappo	tapon taposta tappo tappoa tappoon tapoista tapot tappoja tapoksi tappona tapoin
+73	3373	alkupuoli	alkupuolella alkupuolelta alkupuolen alkupuolelle alkupuoli
+74	3374	kopioida	kopioida kopioi kopioitu kopioidaan kopioinut kopioimaan kopioivat kopioitiin kopioin kopioimalla kopioiminen kopioit kopioiden kopioimista kopioimisesta
+75	3375	keskittää	keskittää keskitetty keskittäminen keskitti keskitetään keskitetyn keskitettyä keskittämään keskitettiin keskittämistä keskittämällä keskittänyt keskitä keskitettyyn keskittämisen keskitettyjä keskittämisestä keskittävät keskitetystä keskitetyt keskittämiseen keskitettyjen
+76	3376	gramma	grammaa gramman gramma grammaan grammassa grammasta grammoja
+77	3377	tarkkuus	tarkkuudella tarkkuus tarkkuutta tarkkuuden tarkkuuteen tarkkuudesta tarkkuudessa
+78	3378	rasistinen	rasistinen rasistisia rasistisen rasistiset rasistista rasistiseen rasistisista rasististen rasistisesta rasistisena rasistiseksi rasistisiksi rasistisessa rasistisiin
+79	3379	koululainen	koululaiset koululaisten koululaisille koululainen koululaisia koululaisen koululaisista koululaista koululaisilta koululaisena koululaisilla
+80	3380	vastine	vastine vastinetta vastineen vastineena vastineita vastineensa vastineet vastineessa vastineesta
+81	3381	räjähdys	räjähdys räjähdyksen räjähdyksessä räjähdystä räjähdyksestä räjähdyksiä räjähdykset räjähdykseen räjähdysten räjähdyksistä
+82	3382	omata	omasi omaava omaavat omata omaat omaa omannut omaamme omaan
+83	3383	valloittaa	valloittaa valloitti valloittanut valloittamaan valloittava valloittivat valloittavat valloitettu valloittaminen valloittavan valloitetaan valloittamassa valloittama valloittamista
+84	3384	nosto	nosto noston nostoa nostot nostosta nostoon nostoja nostolla nostossa
+85	3385	välimeri	välimeren välimerellä välimeri välimereen välimerelle välimereltä välimerta välimerestä
+86	3386	nahka	nahka nahkaa nahan nahasta nahkaan nahkansa nahoin nahalla nahkoja nahkan nahat nahkojen nahkoihin nahkani
+87	3387	tyhjentää	tyhjentää tyhjennetty tyhjennetään tyhjensi tyhjennä tyhjentämään tyhjennettiin tyhjentänyt tyhjentävä tyhjentämässä tyhjentäminen tyhjensivät tyhjennettävä tyhjentävät tyhjensin tyhjentämällä tyhjentämistä tyhjentävää tyhjennän
+88	3388	kärsimys	kärsimystä kärsimys kärsimyksen kärsimyksestä kärsimykset kärsimyksiä kärsimyksistä kärsimykseen kärsimysten kärsimyksiin kärsimyksensä
+89	3389	kansalaisuus	kansalaisuuden kansalaisuus kansalaisuutta kansalaisuudesta kansalaisuuteen kansalaisuutensa kansalaisuudet kansalaisuuksia
+90	3390	afrikkalainen	afrikkalainen afrikkalaisten afrikkalaiset afrikkalaisia afrikkalaista afrikkalaisen afrikkalaisista afrikkalaisesta afrikkalaiseen afrikkalaisille afrikkalaisilla afrikkalaisessa afrikkalaisiin
+91	3391	radikaali	radikaali radikaaleja radikaalia radikaalin radikaalit radikaalien radikaaleihin radikaaliin radikaaleista radikaalimpi radikaalimpia radikaalina radikaalista radikaaliksi radikaalilla radikaalimpaa radikaalilta
+92	3392	hmm	hmm
+93	3393	milj.	milj
+94	3394	online	online
+95	3395	pahimmillaan	pahimmillaan
+96	3396	peräkkäin	peräkkäin
+97	3397	putous	putous putouksen putousta putouksessa putoukseen putoukset putouksesta putousten putouksia putouksilla putoukselle putouksille
+98	3398	painajainen	painajainen painajaisia painajaista painajaiset painajaisen painajaisten painajaiseksi painajaisesta painajaisista painajaiselta
+99	3399	maistaa	maistaa maistanut maistamaan maistoin maista maistoi maistan maistaneet maistamatta
+100	3400	haava	haava haavat haavoja haavaa haavan haavojen haavansa haavoihin haavaan haavasta haavoista haavassa haavoille

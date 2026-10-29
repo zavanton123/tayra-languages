@@ -1,0 +1,100 @@
+1	9901	ihailija	ihailija ihailijoita ihailijat ihailijoiden ihailijansa ihailijan
+2	9902	latino	latino latinot latinoja latinojen
+3	9903	huopa	huopa huopaa huovan huopia huovat huopaan huovalla
+4	9904	lähdettää	lähdetä lähdettävä lähdettäessä lähdettäisi
+5	9905	ajallisesti	ajallisesti
+6	9906	auts	auts
+7	9907	jahka	jahka
+8	9908	läpeensä	läpeensä
+9	9909	nimellisesti	nimellisesti
+10	9910	syksyisin	syksyisin
+11	9911	uhkaavasti	uhkaavasti
+12	9912	vaiheittain	vaiheittain
+13	9913	valmisteilla	valmisteilla
+14	9914	vastuullisesti	vastuullisesti
+15	9915	lainsäätäjä	lainsäätäjä lainsäätäjän lainsäätäjät lainsäätäjien lainsäätäjiä
+16	9916	jättipotti	jättipotti jättipotin
+17	9917	keskialue	keskialueella keskialueelle keskialueen keskialueelta
+18	9918	pusero	pusero puseron puseroa puseroon puserossa
+19	9919	luokanopettaja	luokanopettaja luokanopettajan luokanopettajaksi luokanopettajat luokanopettajana luokanopettajien
+20	9920	vertauskuva	vertauskuva vertauskuvia vertauskuvana vertauskuvaa vertauskuvaksi
+21	9921	etikka	etikka etikkaa etikan etikalla
+22	9922	energiajuoma	energiajuomaa energiajuomien energiajuoma energiajuomat energiajuomia energiajuoman energiajuomista
+23	9923	työtoiminta	työtoiminnan työtoiminta työtoimintaa työtoiminnassa työtoiminnasta työtoimintaan
+24	9924	kansanterveys	kansanterveyden kansanterveys kansanterveyttä kansanterveydelle kansanterveyteen
+25	9925	virke	virke virkkeen virkettä virkkeessä virkkeeseen virkkeitä
+26	9926	myötäillä	myötäilee myötäillen myötäilevä myötäilevät myötäillä myötäili myötäilemään
+27	9927	kuru	kuru kurun kurussa
+28	9928	pullea	pullea pulleita pulleat pullean
+29	9929	keskisormi	keskisormea keskisormen keskisormi
+30	9930	järjestäytyä	järjestäytyä järjestäytyminen järjestäytyvät järjestäytymisen järjestäytymistä järjestäytyy järjestäytymään
+31	9931	ylikonstaapeli	ylikonstaapeli ylikonstaapelin
+32	9932	samanaikainen	samanaikainen samanaikaista samanaikaisen samanaikaisia samanaikaiset samanaikaisten
+33	9933	korkuinen	korkuinen korkuisia korkuisen korkuiset korkuisiksi korkuista korkuiseksi
+34	9934	ilmaisku	ilmaiskut ilmaisku ilmaiskuja ilmaiskun ilmaiskujen ilmaiskussa ilmaiskuissa ilmaiskuilla ilmaiskuista
+35	9935	luovuttaja	luovuttaja luovuttajan luovuttajaksi luovuttajia luovuttajalta luovuttajien luovuttajat
+36	9936	minimipalkka	minimipalkka minimipalkan minimipalkkaa minimipalkalla
+37	9937	ryömiä	ryömimään ryömin ryömii ryömiä ryömi ryömivät ryöminyt
+38	9938	napakka	napakka napakan napakat napakkaa napakoita
+39	9939	konsultointi	konsultointi konsultointia konsultoinnin konsultointiin
+40	9940	mekaanikko	mekaanikko mekaanikon mekaanikot mekaanikkona mekaanikkoja mekaanikkojen
+41	9941	valtiotiede	valtiotieteiden valtiotieteen valtiotieteitä
+42	9942	lyseo	lyseon lyseo lyseosta lyseossa
+43	9943	salakuljettaja	salakuljettajat salakuljettaja salakuljettajien salakuljettajia salakuljettajan salakuljettajille
+44	9944	turvallisuuspolitiikka	turvallisuuspolitiikka turvallisuuspolitiikan turvallisuuspolitiikasta turvallisuuspolitiikkaa turvallisuuspolitiikassa turvallisuuspolitiikkaan
+45	9945	hienontaa	hienonna hienonnettu
+46	9946	sateenvarjo	sateenvarjo sateenvarjon sateenvarjoa sateenvarjot sateenvarjoja
+47	9947	kauhistuttaa	kauhistuttaa kauhistuttava kauhistuttavan kauhistutti kauhistuttavaa kauhistuttavia
+48	9948	laskuri	laskuri laskurin laskurilla
+49	9949	ruotsidemokraatti	ruotsidemokraattien ruotsidemokraatit ruotsidemokraatteja
+50	9950	jousto	joustoa jousto joustot joustoja
+51	9951	talvitie	talvitie talvitien
+52	9952	itsekkyys	itsekkyys itsekkyyttä itsekkyyden itsekkyydestä
+53	9953	kaveriporukka	kaveriporukka kaveriporukan kaveriporukassa kaveriporukalla kaveriporukasta
+54	9954	hauskanpito	hauskanpitoa hauskanpito hauskanpitoon hauskanpidon hauskanpidosta
+55	9955	lauantaiaamu	lauantaiaamuna lauantaiaamu lauantaiaamun
+56	9956	ärsyke	ärsyke ärsykkeitä ärsykkeisiin ärsykkeiden ärsykkeen ärsykkeet ärsykettä ärsykkeeseen
+57	9957	monikansallinen	monikansallinen monikansallisten monikansalliset monikansallisen monikansallisia monikansallisille monikansallista
+58	9958	takertua	takertua takertuu takertuvat takertui takerru takertunut takertuminen takerrut
+59	9959	graffiti	graffiti graffiteja graffitin graffitit graffitien graffitia
+60	9960	äänikirja	äänikirja äänikirjoja äänikirjat äänikirjana äänikirjojen äänikirjoina äänikirjaa
+61	9961	yhteiskuntaoppi	yhteiskuntaopin yhteiskuntaoppi yhteiskuntaoppia
+62	9962	vilpas	vilpas vilppaan
+63	9963	oikeudenkäyntikulut	oikeudenkäyntikulut oikeudenkäyntikuluja oikeudenkäyntikulujen oikeudenkäyntikuluista
+64	9964	kuolemantapaus	kuolemantapauksia kuolemantapaus kuolemantapausta kuolemantapaukset kuolemantapauksen kuolemantapausten kuolemantapauksista kuolemantapauksiin
+65	9965	kalkkuna	kalkkuna kalkkunaa kalkkunan kalkkunoita kalkkunat
+66	9966	kilahtaa	kilahtaa kilahti
+67	9967	empiirinen	empiirinen empiiristä empiirisen empiirisiä empiiristen empiiriseen
+68	9968	vaijeri	vaijeri vaijerin vaijeria vaijerit vaijerilla vaijereita
+69	9969	ympäristöasia	ympäristöasiat ympäristöasioiden ympäristöasioissa ympäristöasioista ympäristöasioita ympäristöasioihin
+70	9970	alleviivata	alleviivaa alleviivata alleviivattu alleviivasi
+71	9971	videokuva	videokuvaa videokuvan videokuva
+72	9972	apulaisjohtaja	apulaisjohtaja apulaisjohtajan apulaisjohtajana
+73	9973	kestävyysvaje	kestävyysvaje kestävyysvajeen kestävyysvajetta kestävyysvajeesta
+74	9974	sosiaalihuolto	sosiaalihuollon sosiaalihuolto sosiaalihuoltoon sosiaalihuollosta
+75	9975	rahamäärä	rahamäärä rahamäärän rahamäärää rahamäärällä rahamäärät rahamäärästä
+76	9976	matkatoimisto	matkatoimisto matkatoimiston matkatoimistot matkatoimistojen matkatoimistossa matkatoimistosta
+77	9977	henkivartija	henkivartija henkivartijat henkivartijaa henkivartijansa henkivartijan henkivartijana henkivartijoita henkivartijoiden
+78	9978	pistemies	pistemies pistemiehet
+79	9979	haikea	haikea haikeaa haikein haikeana haikean haikeat haikealta
+80	9980	asustaa	asustaa asusti asustavat asustava asusta
+81	9981	saunominen	saunomista saunominen saunomisen saunomisesta
+82	9982	ääliö	ääliö ääliöitä ääliöt
+83	9983	keko	kekoon keko kekoni keon
+84	9984	magneettinen	magneettinen magneettisen magneettiset magneettisia magneettista
+85	9985	mummola	mummolassa mummolaan mummolan mummola
+86	9986	pyörre	pyörteissä pyörre pyörteisiin pyörteen pyörteitä pyörteeseen pyörrettä
+87	9987	mytologia	mytologian mytologiasta mytologiaa mytologia mytologiaan mytologiassa
+88	9988	koehenkilö	koehenkilöt koehenkilöiden koehenkilö koehenkilöitä koehenkilön koehenkilöillä koehenkilöille koehenkilöistä koehenkilöä
+89	9989	seutukunta	seutukunta seutukunnan seutukunnassa seutukunnat seutukuntien
+90	9990	kunniamerkki	kunniamerkin kunniamerkki kunniamerkit kunniamerkkejä kunniamerkkien kunniamerkkiä kunniamerkillä
+91	9991	skannata	skannaa skannata skannataan skannaamaan skannattu skannasi skannaamalla
+92	9992	kirkkovaltuusto	kirkkovaltuuston kirkkovaltuusto kirkkovaltuustoon kirkkovaltuustossa
+93	9993	pubi	pubi pubissa pubin bubi pubiin pubeissa pubeja pubit pubista pubia pubien
+94	9994	kirkolliskokous	kirkolliskokous kirkolliskokouksen kirkolliskokouksessa kirkolliskokoukseen kirkolliskokoukselle
+95	9995	hemmotella	hemmotella hemmoteltu hemmotellaan hemmottele hemmottelee hemmotteli hemmoteltiin hemmotellut
+96	9996	keskustelutilaisuus	keskustelutilaisuus keskustelutilaisuuksia keskustelutilaisuuden keskustelutilaisuudessa keskustelutilaisuuteen
+97	9997	talvinen	talvinen talvisen talvisia talviset talvisessa talvista
+98	9998	isänmaallisuus	isänmaallisuus isänmaallisuutta isänmaallisuuden isänmaallisuuteen isänmaallisuudesta
+99	9999	huveta	hupenevat hupeni hupenee huvennut huveta hupenivat hupeneminen
+100	10000	etujärjestö	etujärjestö etujärjestöjen etujärjestöt etujärjestön etujärjestöjä

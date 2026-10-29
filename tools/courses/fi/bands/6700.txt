@@ -1,0 +1,100 @@
+1	6601	kultamitali	kultamitalin kultamitali kultamitalia kultamitalit kultamitalista
+2	6602	matkalaukku	matkalaukku matkalaukun matkalaukut matkalaukkua matkalaukkuun matkalaukussa matkalaukkuja matkalaukkujen matkalaukusta matkalaukkunsa matkalaukkuni
+3	6603	paraneminen	paranemista paraneminen paranemiseen paranemisen paranemisesta paranemisessa
+4	6604	helppous	helppous helppoutta helppouden helppouteen helppoudesta
+5	6605	yksiselitteinen	yksiselitteinen yksiselitteistä yksiselitteisiä yksiselitteisen
+6	6606	koodata	koodaamaan koodata koodattu koodaaminen koodaa koodataan koodaamista koodaamisen koodaamalla koodannut koodasin
+7	6607	kytkin	kytkintä kytkimen kytkin kytkimet kytkimiä kytkimellä kytkimestä kytkimeen
+8	6608	haavoittua	haavoittui haavoittuu haavoittuivat haavoittuvat haavoittuneet
+9	6609	hiljentää	hiljentää hiljennä hiljentämään hiljensi hiljentänyt
+10	6610	avi	avi avin
+11	6611	pika	pika pikaa pikana
+12	6612	palaveri	palaverissa palaveri palaverin palaverit palaveriin palavereissa palaveria palaverista palavereja palavereita
+13	6613	des	des desiä desin
+14	6614	antenni	antenni antennin antennit antennia antenneja antenniin antennien antennilla
+15	6615	aikaansaada	aikaansaamiseksi aikaansaama aikaansaada aikaansaaminen aikaansaatu aikaansaa aikaansaava aikaansaamiseen aikaansaamaan aikaansaamista aikaansaavat aikaansaamisessa aikaansaadaan
+16	6616	hauki	hauki haukea hauen haukia hauet hauista hauissa
+17	6617	aikomus	aikomus aikomusta aikomuksena aikomuksia aikomukset aikomuksensa aikomuksista aikomuksesta aikomukseni
+18	6618	laihduttaa	laihduttaa laihduttaminen laihdutti laihduttamisen laihduttamaan laihduttamiseen laihduttanut laihduttamisesta laihduttamista
+19	6619	trooppinen	trooppinen trooppisen trooppisten trooppisia trooppiset trooppista trooppisessa trooppiseen trooppisissa trooppisilla trooppisista trooppiseksi trooppisesta
+20	6620	vittuilla	vittuilla vittuilee vittuile vittuilemaan
+21	6621	anteeksipyyntö	anteeksipyyntö anteeksipyyntöä anteeksipyynnön anteeksipyynnöstä anteeksipyyntöjä anteeksipyyntöön anteeksipyynnöt
+22	6622	ahdinko	ahdinkoon ahdinkoa ahdinko ahdingossa ahdingosta ahdingon
+23	6623	aktiivi	aktiivit aktiiveja aktiivista aktiivien aktiivi aktiivin aktiivina aktiivia aktiiveista aktiiveille
+24	6624	vanhuus	vanhuuden vanhuus vanhuuteen vanhuutta vanhuudesta
+25	6625	vaivautua	vaivaudu vaivautua vaivautuu vaivautuisi vaivautui vaivauduttu vaivaudut
+26	6626	kipeästi	kipeästi kipeimmin kipeämmin
+27	6627	oppiaine	oppiaine oppiaineen oppiaineiden oppiaineita oppiaineet oppiaineena oppiaineessa oppiaineissa oppiainetta oppiaineesta oppiaineista oppiaineisiin
+28	6628	pila	pilaa pila pilan piloja pilat pilaan piloille pilasta piloilla
+29	6629	pupu	pupu puput pupun pupuja pupua
+30	6630	rajoite	rajoitteita rajoitteet rajoite rajoitteiden rajoitteista rajoitteena rajoitteen
+31	6631	koneisto	koneisto koneiston koneistoa koneistossa koneistoon koneistot
+32	6632	pääomatulo	pääomatuloja pääomatulojen pääomatulot pääomatuloa pääomatuloista pääomatulo pääomatulon pääomatuloina pääomatuloihin pääomatulona
+33	6633	kurdi	kurdien kurdeja kurdi kurdeille kurdeilla kurdia kurdin kurdeista
+34	6634	kuusisto	kuusisto kuusiston
+35	6635	napsahtaa	napsahti napsahtaa napsahtanut napsahtavat
+36	6636	savi	savi savea saven savesta saveen savessa
+37	6637	armoton	armoton armotonta armottoman armottomia armottomat armottomassa
+38	6638	mullistava	mullistavaa mullistava mullistavan mullistavia mullistavat
+39	6639	kolmekymppinen	kolmekymppinen kolmekymppisenä kolmekymppisiä kolmikymppinen kolmekymppiset kolmekymppistä kolmekymppisen kolmekymppisten
+40	6640	työpöytä	työpöydän työpöytä työpöydällä työpöydälle työpöytänsä työpöydältä työpöytäni
+41	6641	kives	kivekset kivesten kives kiveksiä kiveksen kiveksistä kiveksiin kiveksensä kiveksissä kiveksien kivestä
+42	6642	teologia	teologian teologia teologiaa teologiasta teologiassa teologiaan
+43	6643	ohjain	ohjain ohjaimen ohjaimet ohjainta ohjaimella ohjaimissa ohjaimesta ohjaimia ohjaimiin ohjaimeen ohjaimessa ohjaimista
+44	6644	kadottaa	kadottanut kadottaa kadotti kadotettu kadotin kadotetun kadotettua kadottamaan
+45	6645	pokka	pokka pokkaa pokan pokat
+46	6646	yksimielinen	yksimielinen yksimielisiä yksimielistä yksimielisen yksimielisellä
+47	6647	manipuloida	manipuloida manipuloi manipuloimaan manipuloitu manipuloidaan manipuloivat manipuloinut manipuloiva manipuloimalla
+48	6648	oheinen	oheinen oheisessa oheisesta oheisen oheisella oheiset oheisista
+49	6649	kokeellinen	kokeellinen kokeellista kokeellisen kokeellisia kokeellisessa kokeellisesta kokeelliset kokeellisella kokeelliseen kokeellisten
+50	6650	etusija	etusijalla etusijalle etusija etusijan
+51	6651	harteet	harteille harteilla harteilta
+52	6652	nettikauppa	nettikauppa nettikaupasta nettikaupan nettikaupassa nettikaupoista nettikauppojen nettikaupoissa nettikaupat nettikauppaan nettikauppaa
+53	6653	vähittäiskauppa	vähittäiskaupan vähittäiskauppa vähittäiskaupassa vähittäiskauppaa vähittäiskaupasta vähittäiskauppaan vähittäiskaupat
+54	6654	suoriutua	suoriutua suoriutumaan suoriutuu suoriutui suoriutumista suoriutunut suoriudu suoriutuivat suoriutumiseen suoriutuminen suoriutuvat suoriutumisen
+55	6655	alustavasti	alustavasti
+56	6656	edestakaisin	edestakaisin
+57	6657	entuudestaan	entuudestaan
+58	6658	hups	hups
+59	6659	jopas	jopas
+60	6660	kyllin	kyllin
+61	6661	moikka	moikka
+62	6662	pam	pam
+63	6663	päivisin	päivisin
+64	6664	tilapäisesti	tilapäisesti
+65	6665	humalainen	humalainen humalaisen humalaiset humalaisia humalaista humalaisten humalaiselta
+66	6666	luja	luja lujan lujana lujalla lujille lujia lujat lujilla lujassa lujempi lujasta lujina
+67	6667	tikka	tikka tikan tikkaa tikat tikkojen
+68	6668	urbaani	urbaani urbaanin urbaania urbaaniin urbaanissa urbaanit urbaaneja urbaanista
+69	6669	työväenpuolue	työväenpuolueen työväenpuolue työväenpuoluetta
+70	6670	parisataa	parisataa parinsadan
+71	6671	selvitellä	selvitellä selvitellään selvittelemään selvittelee selviteltiin selvitellyt selvitelty selvitteli selvittelemässä
+72	6672	vedellä	vetelee veteli vetele vetelin vetelen vetelemään vetelevät vedellä vedellyt
+73	6673	ensiapu	ensiapu ensiapua ensiapuun ensiavun ensiavussa ensiavusta ensiapuna
+74	6674	väärennetty	väärennetty väärennettyjä väärennetyn väärennetyt väärennettyä väärennettyjen väärennetyllä väärennetyillä
+75	6675	ripuli	ripuli ripulia ripulin ripuliin
+76	6676	käyttökelpoinen	käyttökelpoinen käyttökelpoista käyttökelpoisia käyttökelpoisen käyttökelpoiset käyttökelpoisena käyttökelpoiseksi
+77	6677	palautuminen	palautuminen palautumista palautumisen palautumiseen palautumisesta
+78	6678	turvavyö	turvavyön turvavyöt turvavyö turvavyötä turvavöitä turvavöiden
+79	6679	verenvuoto	verenvuoto verenvuotoa verenvuodon verenvuotoon verenvuotoja verenvuodot verenvuodosta
+80	6680	kompensoida	kompensoida kompensoi kompensoimaan kompensoidaan kompensoivat
+81	6681	suoranainen	suoranainen suoranaista suoranaisia suoranaisen suoranaiseen suoranaisesta suoranaiset
+82	6682	punnita	punnitaan punnita punnitsemaan punnitse punnitsee punnittu punnittiin punnittava punnitsi punninnut
+83	6683	museovirasto	museovirasto museoviraston museovirastolle
+84	6684	lyhytaikainen	lyhytaikainen lyhytaikaista lyhytaikaisen lyhytaikaiseksi lyhytaikaisia lyhytaikaiseen lyhytaikaiset lyhytaikaisessa lyhytaikaisten
+85	6685	kommunikaatio	kommunikaatio kommunikaation kommunikaatiota kommunikaatiossa kommunikaatioon kommunikaatiosta
+86	6686	elämäntilanne	elämäntilanne elämäntilanteessa elämäntilanteeseen elämäntilanteen elämäntilanteissa elämäntilanteesta elämäntilanteet elämäntilannetta elämäntilanteita elämäntilanteista
+87	6687	kiertorata	kiertoradalle kiertoradalla kiertorata kiertoradalta kiertoradan kiertorataa
+88	6688	lisäaika	lisäaikaa lisäajalla lisäajan lisäaika
+89	6689	laillistaa	laillistettu laillistamista laillista laillistaa laillisti laillistamisen laillistaminen laillistamisesta laillistettiin laillistettua laillistetaan laillistamiseen
+90	6690	länsirannikko	länsirannikolla länsirannikon länsirannikolle länsirannikolta länsirannikkoa länsirannikko
+91	6691	opetushallitus	opetushallitus opetushallituksen oph
+92	6692	miehitys	miehityksen miehitys miehitystä miehityksestä miehitykseen miehityksellä miehityksessä
+93	6693	pirteä	pirteä pirteää pirteän pirteitä pirteänä pirteältä pirteämpi pirteät
+94	6694	julkisivu	julkisivu julkisivun julkisivut julkisivua julkisivujen julkisivuun julkisivuja julkisivuissa julkisivussa
+95	6695	hopeinen	hopeinen hopeiset hopeisen hopeisia hopeisella hopeisessa hopeisten hopeisilla hopeista
+96	6696	valaisin	valaisimet valaisimia valaisin valaisimen valaisimien valaisinta valaisimiin valaisinten valaisimessa valaisimissa
+97	6697	komentaa	komentaa komensi komennettiin komentamaan komennettu komentanut komennetaan komentava komentama komensin
+98	6698	irtautua	irtautua irtautuminen irtautui irtautumaan irtautunut irtautumista irtautumisen irtautuu irtautumiseen
+99	6699	haarukka	haarukalla haarukka haarukan haarukkaa haarukassa haarukkaan haarukat haarukoita
+100	6700	täsmätä	täsmää täsmäävät täsmäsi täsmäsivät

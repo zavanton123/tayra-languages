@@ -1,0 +1,100 @@
+1	2801	virasto	virasto viraston virastot virastojen virastoissa virastossa virastoja virastoon virastoa virastolle virastosta virastoista virastoihin virastoille virastolla virastolta
+2	2802	pako	pakoon pako pakoa paon paossa pakonsa paosta
+3	2803	kätevä	kätevä kätevää käteviä kätevämpi kätevän kätevät kätevänä
+4	2804	oleellinen	oleellista oleellinen oleellisen oleellisia oleellisena oleelliset oleellisin oleelliseen oleellisiin oleellisessa
+5	2805	vakaa	vakaa vakaana vakaan vakaata vakaat vakaita vakaampi vakaalla vakaassa vakaaksi vakain vakaina vaka vakaasta vakaaseen vakaalta vakaampaa vakaampia vakaamman
+6	2806	logiikka	logiikka logiikkaa logiikalla logiikan logiikkaan logiikassa logiikasta logiikkansa logiikkasi
+7	2807	orja	orja orjia orjat orjien orjan orjiksi orjaa orjaksi orjana orjina orjista orjansa orjille orjilla
+8	2808	kynnys	kynnys kynnyksellä kynnyksen kynnystä kynnykselle kynnykset
+9	2809	globaali	globaali globaalin globaalia globaalit globaalissa globaaleja globaalista globaaliin globaalien globaalilla globaaleihin globaaleista globaaleilla globaaliksi globaalille globaalina
+10	2810	kaisa	kaisa kaisan
+11	2811	agentti	agentti agentit agentin agentteja agenttien agentiksi agenttina agenttia agenttinsa agenteille agenttini agenteista agentille agenteiksi agentista agenttiin agentilta
+12	2812	maija	maija maijan maijaa maijalle
+13	2813	klassikko	klassikko klassikot klassikoita klassikon klassikoista klassikkoa klassikkoja klassikoksi klassikoihin klassikosta klassikossa klassikoiden klassikkona klassikoiksi klassikkojen klassikkoon klassikoissa
+14	2814	kylki	kylkeen kyljessä kylkeä kylki kyljestä kyljissä kyljen kyljet kylkiin kylkiä kyljellä kyljelle kylkien kyljistä
+15	2815	vähemmistö	vähemmistöjen vähemmistö vähemmistön vähemmistöjä vähemmistöt vähemmistöön vähemmistönä vähemmistöihin vähemmistöä vähemmistössä vähemmistöistä vähemmistöille vähemmistöksi vähemmistölle vähemmistöstä
+16	2816	yhtenäinen	yhtenäinen yhtenäisen yhtenäistä yhtenäisenä yhtenäiset yhtenäisiä yhtenäiseksi yhtenäiseen yhtenäisestä yhtenäisellä yhtenäisten yhtenäisempi yhtenäisinä yhtenäiselle yhtenäisessä
+17	2817	torstai	torstai torstain torstaista torstaihin torstaita torstaiksi torstaille
+18	2818	konflikti	konflikti konfliktin konfliktia konflikteja konfliktiin konfliktit konfliktien konfliktissa konflikteihin konfliktista konflikteissa konflikteista
+19	2819	johtopäätös	johtopäätöksiä johtopäätös johtopäätökset johtopäätökseen johtopäätöksen johtopäätöksensä johtopäätöstä johtopäätöksiin johtopäätösten johtopäätökseni johtopäätöksistä johtopäätöksenä johtopäätöksesi
+20	2820	lee	lee leen leetä leelle
+21	2821	about	about
+22	2822	bb	bb
+23	2823	käytettävissä	käytettävissä
+24	2824	muistaakseni	muistaakseni
+25	2825	salaa	salaa
+26	2826	tota	tota
+27	2827	ylöspäin	ylöspäin
+28	2828	tunnustus	tunnustus tunnustusta tunnustuksen tunnustuksia tunnustuksena tunnustukset tunnustuksesta tunnustuksensa tunnustukseksi tunnustukseen tunnustuksella tunnustusten
+29	2829	elementti	elementtejä elementti elementit elementtien elementin elementtiä elementeistä elementtinä elementistä elementteihin elementteinä elementeillä elementtiin
+30	2830	vaunu	vaunu vaunun vaunuja vaunujen vaunuissa vaunua vaunussa vaunuun vaunuihin vaunusta vaunuista vaunuilla vaunulla vaununsa vaunulle
+31	2831	lääketiede	lääketieteen lääketiede lääketiedettä lääketieteessä lääketieteeseen lääketieteestä lääketieteelle
+32	2832	marketti	market marketin marketissa markettien marketista marketeissa marketeista marketit markettiin marketti marketteja marketteihin marketilla
+33	2833	tiedosto	tiedostot tiedostoja tiedosto tiedoston tiedostojen tiedostoa tiedostoihin tiedostona tiedostoon tiedostoista tiedostosta tiedostossa tiedostoissa tiedostoina tiedostoille tiedostosi
+34	2834	talouskasvu	talouskasvu talouskasvun talouskasvua talouskasvuun talouskasvusta talouskasvulle
+35	2835	matkailu	matkailu matkailun matkailua matkailuun matkailusta matkailussa matkailulle
+36	2836	käräjäoikeus	käräjäoikeus käräjäoikeuden käräjäoikeudessa käräjäoikeuteen käräjäoikeudesta käräjäoikeuksien käräjäoikeudelle käräjäoikeudet käräjäoikeuksissa käräjäoikeudelta
+37	2837	hämmentää	hämmentävää hämmentää hämmentävä hämmentävän hämmensi hämmentäviä hämmentävät hämmentänyt hämmentävältä hämmennä hämmentämään
+38	2838	jännitys	jännitystä jännitys jännityksen jännityksellä jännityksestä jännityksessä jännitykseen jännityksiä jännitykset
+39	2839	osto	osto oston ostoon ostoa ostot ostosta ostoja ostoista ostojen ostoihin ostossa
+40	2840	aikakausi	aikakauden aikakaudella aikakausi aikakautta aikakauteen aikakaudelle aikakautena aikakaudelta aikakausien aikakaudesta aikakautensa aikakausilta aikakausina aikakausia aikakaudet aikakautemme
+41	2841	brittiläinen	brittiläinen brittiläisen brittiläistä brittiläiset brittiläisessä brittiläisten brittiläisiä brittiläisestä brittiläiseen brittiläiselle brittiläisellä brittiläisille brittiläisistä brittiläiseltä
+42	2842	lisääntyminen	lisääntyminen lisääntymistä lisääntymisen lisääntymiseen lisääntymisestä lisääntymiselle lisääntymisenä lisääntymisessä lisääntymisellä
+43	2843	lihas	lihakset lihaksia lihasten lihas lihaksiin lihasta lihaksen lihaksista lihaksissa lihakseen lihaksille lihaksilla lihaksensa lihakseni lihaksesi lihaksessa lihaksesta lihaksien
+44	2844	välierä	välieriin välierissä välierät välierässä välierien välierä välierään välierän välieristä
+45	2845	nettisivu	nettisivut nettisivuilla nettisivuilta nettisivujen nettisivu nettisivuja nettisivuille nettisivun nettisivulla nettisivulta nettisivulle nettisivua nettisivuista
+46	2846	merkintä	merkintä merkintöjä merkintää merkinnät merkinnän merkinnällä merkintöjen merkinnöistä merkinnästä merkinnöissä merkinnöillä merkinnässä merkintään merkintöihin
+47	2847	hylly	hyllyssä hyllylle hyllystä hyllyyn hyllyt hyllyjen hyllyltä hylly hyllyn hyllyille hyllyjä hyllyillä hyllyiltä hyllyistä hyllyihin hyllyä hyllyissä
+48	2848	haitallinen	haitallisia haitallista haitallinen haitallisten haitalliset haitallisen haitalliseksi haitallisista haitallisena haitallisempi haitallisiksi haitallisesta haitallisiin haitalliseen haitallisille haitallisilta haitalliselta
+49	2849	siemen	siemenet siemeniä siemen siemenistä siementen siementä siemenen siemenissä siemenestä siemeniin siemenien siemenillä
+50	2850	sananvapaus	sananvapaus sananvapautta sananvapauden sananvapauteen sananvapaudesta sananvapaudelle
+51	2851	asiallinen	asiallinen asiallista asiallisia asialliset asiallisen asiallisena asiallisesta asialliseen asialliselta asialliseksi asiallisessa asiallisella
+52	2852	korkeakoulu	korkeakoulujen korkeakoulu korkeakoulun korkeakoulut korkeakoulussa korkeakouluissa korkeakoulusta korkeakouluun korkeakouluihin korkeakouluja korkeakouluista korkeakoulua korkeakouluille
+53	2853	sisältä	sisältä sisässä sisästä sisimmässä sisimmästä
+54	2854	pörssi	pörssi pörssin pörssiin pörssissä pörssistä pörssit pörsseissä pörssiä pörssien
+55	2855	nurkka	nurkkaan nurkassa nurkan nurkissa nurkkiin nurkalla nurkka nurkasta nurkat nurkista nurkkaa nurkkia nurkalta nurkalle nurkille nurkilta
+56	2856	tartunta	tartunnan tartunta tartuntaa tartuntoja tartuntojen tartunnasta tartunnat tartunnoista tartuntaan tartunnalta tartunnalle
+57	2857	tuottavuus	tuottavuuden tuottavuus tuottavuutta tuottavuuteen tuottavuudesta tuottavuudessa
+58	2858	setti	settiä setti setin setit settiin setistä settejä setissä setillä settinsä
+59	2859	sairaanhoitaja	sairaanhoitaja sairaanhoitajan sairaanhoitajat sairaanhoitajien sairaanhoitajia sairaanhoitajaksi sairaanhoitajana sairaanhoitajaa sairaanhoitajalle sairaanhoitajille sairaanhoitajista sairaanhoitajalla
+60	2860	pukea	pukea pukee puki puettu puen puetaan pukemaan pue pukenut pukevat puettiin pukeminen pukemista pukisi pukivat pukemalla puet puin puettava puimme puit
+61	2861	ha	ha
+62	2862	lopullisesti	lopullisesti
+63	2863	ma	ma
+64	2864	putkeen	putkeen
+65	2865	roikkua	roikkuu roikkumaan roikkua roikkui roikkuvat roikkuva roikkunut roiku roikkuivat roikkumassa roikkuen roikkuminen roikuin roikun roikkuisi roikkumista roikutaan roikut
+66	2866	jenkki	jenkeissä jenkkien jenkit jenkeistä jenkki jenkkeihin jenkkejä jenkin jenkeille jenkkiä
+67	2867	yksinäinen	yksinäinen yksinäistä yksinäisiä yksinäisen yksinäiset yksinäiseksi yksinäisten yksinäisenä yksinäiselle yksinäisille yksinäisestä yksinäiseltä yksinäiseen yksinäisellä yksinäisinä yksinäisiin
+68	2868	ohut	ohut ohuet ohuen ohuita ohutta ohuiksi ohueksi ohuempi ohuella ohuesta ohueen ohuena ohuista ohuessa ohuiden ohuilla ohuille ohuin
+69	2869	todistaja	todistajien todistaja todistajat todistajan todistajia todistajana todistajaa todistajaksi todistajista todistajina todistajiin todistajille todistajalle todistajiksi todistajalta
+70	2870	painottaa	painottaa painotti painotetaan painottavat painotettu painotettiin painottanut painotan painottaen painottivat painottamaan painottava painottaminen painottamalla painotamme
+71	2871	nykyaika	nykyajan nykyaikaan nykyaikana nykyaika nykyaikaa nykyajassa nykyajasta
+72	2872	ravinto	ravintoa ravinto ravinnon ravinnosta ravinnoksi ravintoon ravintonsa ravintona ravinnolla ravinnossa
+73	2873	seuranta	seuranta seurantaan seurantaa seurannan seurannassa seurannasta seurannalla
+74	2874	pettynyt	pettynyt pettyneitä pettyneenä pettyneet pettyneeltä pettyneen
+75	2875	ylempi	ylempi ylemmän ylempään ylempien ylemmässä ylemmät ylempää ylemmälle ylempiä ylempiin ylemmissä ylemmällä ylemmille ylemmillä ylemmältä ylemmästä ylemmistä ylemmäksi
+76	2876	terävä	terävä teräviä terävät terävää terävän terävällä terävin terävänä terävämpi terävillä terävintä terävien teräväksi terävinä terävään terävästä terävältä terävämpiä terävimmät terävistä terävimpiä
+77	2877	ihmisoikeudet	ihmisoikeudet ihmisoikeuksien ihmisoikeuksia ihmisoikeuksista ihmisoikeuksiin ihmisoikeuksilla
+78	2878	kerrostalo	kerrostalon kerrostalossa kerrostalo kerrostaloja kerrostalojen kerrostaloissa kerrostalot kerrostaloon kerrostaloa kerrostaloihin kerrostalosta kerrostaloista
+79	2879	epäonnistua	epäonnistui epäonnistuu epäonnistua epäonnistuivat epäonnistuvat epäonnistumaan epäonnistuin epäonnistuessa epäonnistu epäonnistuttu epäonnistut epäonnistuttiin epäonnistuimme epäonnistuisi epäonnistun
+80	2880	ajella	ajella ajelee ajelemaan ajeli ajelin ajelen ajellaan ajellut ajeltiin ajeltu ajelevat ajele ajelemassa ajellessa ajelivat ajelet ajelimme ajelisi ajelemalla ajelemme
+81	2881	huomauttaa	huomauttaa huomautti huomautetaan huomauttanut huomautin huomauttavat huomautan huomautettu huomauttamaan huomautettiin huomauttamista huomauttivat huomauttamalla huomauttaisin huomautettava huomauttaen
+82	2882	lakkauttaa	lakkauttaa lakkauttamista lakkautettiin lakkautettu lakkautetaan lakkauttaminen lakkauttamisesta lakkautetun lakkauttamisen lakkautti lakkautettaisiin lakkauttamiseen lakkauttamaan lakkauttamalla lakkautettava lakkautettujen lakkauttanut lakkauttamiseksi
+83	2883	läsnä	läsnä lähekkäin lähetysten
+84	2884	sukka	sukat sukkia sukka sukan sukkien sukassa sukkaa sukkaan sukkana sukkiin sukista sukissa sukilla sukille
+85	2885	järjestäjä	järjestäjä järjestäjät järjestäjien järjestäjän järjestäjille järjestäjiä järjestäjänä järjestäjinä järjestäjistä järjestäjää järjestäjälle järjestäjällä järjestäjäksi järjestäjillä järjestäjiin järjestäjältä
+86	2886	toipua	toipunut toipuu toipua toipuminen toipui toipumaan toipumassa toipumista toipumiseen toipumisen toipuvan toivu toipuvat toipumisesta toipuva toivun toipuessa toipumisessa toipumisensa toivuin
+87	2887	toivottaa	toivottaa toivotan toivotamme toivotti toivottavat toivotetaan toivottavaa toivotin toivota toivotettiin toivottivat toivottamaan toivottanut toivottaen toivottamassa toivottava toivottavana toivottavia
+88	2888	viestiä	viestit viestiä viestisi viestii viestien viestivät viestimään viestimme viestitään viestinyt
+89	2889	kapea	kapea kapeat kapeampi kapean kapeaa kapeita kapealla kapeaan kapeassa kapeasta kapeilla kapeaksi kapealle kapeiden kapein kapeammat kapeista kapeisiin kapeille kapeampia kapeamman kapeissa kapeana
+90	2890	äsken	äsken äskön
+91	2891	niinku	niinku niiku niinko niinkö
+92	2892	kriteeri	kriteerit kriteerejä kriteeri kriteereillä kriteereitä kriteerinä kriteerien kriteeriä kriteereistä kriteereihin kriteerin kriteerein kriteereinä kriteereissä kriteeriksi kriteerillä
+93	2893	tuoksu	tuoksu tuoksut tuoksun tuoksuja tuoksua tuoksussa tuoksusta tuoksuista tuoksujen tuoksuun tuoksunsa
+94	2894	salaatti	salaattia salaatti salaatin salaatit salaatteja salaattiin salaatteihin salaatissa salaatista salaattien salaateissa salaatilla
+95	2895	älypuhelin	älypuhelin älypuhelimen älypuhelimet älypuhelimella älypuhelimia älypuhelinten älypuhelimeen älypuhelinta älypuhelimien älypuhelimessa älypuhelimissa älypuhelimille älypuhelimiin älypuhelimilla älypuhelimista älypuhelimesta älypuhelimelle
+96	2896	sato	sato satoa satoja sadon sadosta satojen saton sadot satoon sadoista satoihin sadoissa sadoilla sadoille sadoilta
+97	2897	kaari	kaarina kaari kaaren kaaret kaarta kaaressa kaaria kaarelle kaarella kaareen kaarien kaaresta kaarin
+98	2898	pyyhkiä	pyyhkiä pyyhkii pyyhin pyyhi pyyhitään pyyhki pyyhitty pyyhkimään pyyhkivät pyyhkinyt pyyhit pyyhkiminen pyyhittiin pyyhkimällä pyyhkimiseen pyyhkimistä pyyhkisi
+99	2899	liki	liki
+100	2900	uskomatonta	uskomatonta

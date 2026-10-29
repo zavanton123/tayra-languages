@@ -1,0 +1,100 @@
+1	3201	hölmö	hölmö hölmöä hölmöjä hölmöltä hölmön hölmöt hölmönä hölmöjen hölmöillä
+2	3202	englanninkielinen	englanninkielinen englanninkielisen englanninkielistä englanninkielisiä englanninkieliset englanninkielisessä englanninkielisestä englanninkieliseen englanninkielisellä englanninkielisissä englanninkielisten englanninkielisistä englanninkielisillä englanninkielisenä englanninkieliselle
+3	3203	romania	romanian romania romaniassa romaniaan romaniasta romaniaa romanialle
+4	3204	makkara	makkaraa makkara makkarat makkaran makkaroita makkarasta makkaroiden makkaraan makkaroista
+5	3205	koripallo	koripallo koripallon koripalloa koripallossa koripallosta koripalloon
+6	3206	soitto	soitto soittoa soiton soittoja soitosta soittoon soitossa soitot soitolla soittonsa soittoihin
+7	3207	armo	armoa armon armoilla armo armosta armoille armotta armonsa armoon
+8	3208	lausua	lausua lausui lausutaan lausuu lausumaan lausuma lausunut lausuttu lausuman lausu lausuttiin lausuminen lausuttuna lausumalla lausun lausuvat lausumasta lausuivat lausumassa lausumista
+9	3209	korottaa	korottaa korotettu korotetaan korottaminen korotti korottamalla korotettiin korottamaan korottanut korottamista korottamisesta korottamiseen korotettava korottamisen korota korottavat korkoa korotettaisiin
+10	3210	neuvoja	neuvoja neuvojaan neuvojan
+11	3211	bakteeri	bakteerit bakteeri bakteerien bakteereja bakteerin bakteereita bakteereista bakteeria bakteereille bakteereihin bakteerista bakteereiden bakteereilla bakteereilta
+12	3212	hovioikeus	hovioikeus hovioikeuden hovioikeudessa hovi hovioikeuteen hovioikeudesta
+13	3213	alapuoli	alapuolella alapuolelle alapuolelta alapuoli alapuolen
+14	3214	peitto	peitossa peiton peitto peittoa peittoon peittoja peitoksi peitot peittona peittojen
+15	3215	eikun	eikun eiku
+16	3216	proteiini	proteiinia proteiini proteiinin proteiineja proteiinit proteiinien proteiinista proteiineista proteiineihin
+17	3217	college	college collegessa collegen collegeen collegesta collegea colleget
+18	3218	yhdistyä	yhdistyvät yhdistyy yhdistyivät yhdistyi yhdistyä yhdistyneet yhdistymään yhdisty yhdistyessä yhdistyisivät yhdistymistä
+19	3219	korruptio	korruptio korruption korruptiosta korruptiota korruptioon korruptiolle korruptiolla
+20	3220	evä	eva evästä evä evaa evän evien eväin evää evät
+21	3221	perintö	perintö perinnön perintöä perinnöstä perintönä perinnöksi perintönsä perintöön perinnöt perintöjen perinnöllä perintöjä
+22	3222	rohkeasti	rohkeasti rohkeammin
+23	3223	esittely	esittely esittelyssä esittelyä esittelyn esittelyyn esittelystä esittelyt esittelyjä esittelyllä esittelyissä
+24	3224	ennuste	ennuste ennusteen ennusteet ennusteita ennusteiden ennustetta ennusteessa ennusteissa ennusteeseen ennusteista ennusteisiin ennusteesta
+25	3225	salasana	salasana salasanan salasanat salasanaa salasanoja salasanasi salasanojen salasanalla salasanansa salasanani
+26	3226	työnteko	työnteon työnteko työntekoa työntekoon työnteosta työnteolla työnteolle työnteossa
+27	3227	karkki	karkkia karkki karkkeja karkit karkin karkkien karkeista karkeilla
+28	3228	hiili	hiilen hiili hiiltä hiileen hiilestä hiilellä hiilet hiiliä hiilillä hiilelle hiilenä
+29	3229	morsian	morsian morsiamen morsiamet morsiamensa morsianta morsiamelle morsiamia morsiamesta morsiamella
+30	3230	alkuvuosi	alkuvuodesta alkuvuoden alkuvuosina alkuvuosi alkuvuosien alkuvuoteen alkuvuosista alkuvuosilta alkuvuodet alkuvuosiin
+31	3231	biologinen	biologinen biologisen biologiset biologisia biologisten biologista biologiseen biologisesta biologisista biologisiin biologisessa biologisilla biologisella biologisena biologisille biologiselle
+32	3232	heikkous	heikkous heikkouksia heikkoudet heikkoutta heikkouden heikkoutensa heikkoutena heikkoudesta heikkouksista heikkouksien heikkouteen heikkouteni heikkoudeksi heikkouksiin heikkoutesi
+33	3233	lihava	lihava lihavia lihavaa lihavan lihavat lihavien lihavaksi lihavista lihavana lihavalta lihavampi lihavilla lihavin
+34	3234	vaihtoehtoinen	vaihtoehtoisia vaihtoehtoinen vaihtoehtoista vaihtoehtoisen vaihtoehtoiset vaihtoehtoisten vaihtoehtoisista vaihtoehtoisesta vaihtoehtoisiin vaihtoehtoisena vaihtoehtoiseen vaihtoehtoisessa vaihtoehtoisilla vaihtoehtoisella
+35	3235	surma	surmansa surman surma surmaa surmasta surmaan surmat surmista surmien surmia
+36	3236	pimeys	pimeyden pimeys pimeydessä pimeyteen pimeyttä pimeydestä
+37	3237	väylä	väylä väylän väylää väylät väylien väyliä väylällä väylälle väylään väylillä väylänä väylästä väylältä väylistä väylille
+38	3238	raikas	raikas raikasta raikkaan raikkaita raikkaana raikkaalta raikkaasta raikkaat raikkaassa raikkaaseen raikkaalla raikkaampi raikkaaksi
+39	3239	yhteistoiminta	yt yhteistoiminta yhteistoimintaa yhteistoiminnan yhteistoiminnassa yhteistoimintaan yhteistoiminnasta
+40	3240	ehdin	ehdin
+41	3241	fyysisesti	fyysisesti
+42	3242	lähtökohtaisesti	lähtökohtaisesti
+43	3243	pirun	pirun
+44	3244	jäte	jätettä jätteiden jäte jätteet jätteen jätteitä jätteistä jätteestä jätteeksi jätteisiin jätteensä
+45	3245	rasisti	rasisti rasisteja rasistit rasistista rasistien rasistiksi rasisteiksi rasisteille rasistin
+46	3246	suuttua	suuttuu suuttui suuttua suutu suuttunut suutun suuttuvat suuttuivat suuttumaan suutuin suuttuneet suuttuneena suuttuminen suuttuisi
+47	3247	väliaikainen	väliaikainen väliaikaista väliaikaisen väliaikaisia väliaikaiseen väliaikaisena väliaikaiseksi väliaikaisesta väliaikaiset väliaikaisella väliaikaisessa väliaikaisten väliaikaiselle väliaikaisiin väliaikaisissa
+48	3248	tähdätä	tähtää tähdätä tähtäävät tähdätään tähtäävä tähtäsi tähdännyt tähdätty tähtään tähtäämään tähtäämme tähtäsivät tähdättiin tähdäten
+49	3249	tarpeeton	tarpeetonta tarpeeton tarpeettoman tarpeettomia tarpeettomaksi tarpeettomana tarpeettomat tarpeettomiksi tarpeettomasta tarpeettomien tarpeettomalta tarpeettomaan tarpeettomina tarpeettomista
+50	3250	pääjohtaja	pääjohtaja pääjohtajan pääjohtajana pääjohtajaksi pääjohtajat pääjohtajaa pääjohtajalle
+51	3251	tissi	tissit tissejä tissi tisseistä tissiä tissien tissin tisseihin tisseillä tissini
+52	3252	ope	open ope opet opelle opeista opeilla opein
+53	3253	ryöstää	ryöstää ryösti ryöstettiin ryöstetty ryöstivät ryöstämään ryöstetään ryöstänyt ryöstävät ryöstäneet ryöstämässä ryöstäminen ryöstä ryöstämistä ryöstämällä
+54	3254	tukikohta	tukikohta tukikohdan tukikohtaan tukikohdassa tukikohtaa tukikohdasta tukikohtia tukikohtana tukikohtien tukikohtansa tukikohtiin tukikohdat tukikohdista tukikohdissa tukikohdaksi
+55	3255	tarjoilla	tarjoillaan tarjoilee tarjoile tarjoili tarjoiltiin tarjoiltu tarjoilevat tarjoilemaan tarjoillut tarjoilemme tarjoilla tarjoilen tarjoilivat tarjoileva tarjoiltava tarjoilet tarjoilin
+56	3256	hirvi	hirvi hirveen hirven hirviä hirvet hirvien hirvestä
+57	3257	kynsi	kynnet kynsistä kynsi kynsien kynsiin kynnen kynnelle kynsissä kyntensä kynttä kynsin kynteni kynsillä kyntesi kynnestä
+58	3258	pormestari	pormestari pormestarin pormestariksi pormestarina pormestaria pormestarille pormestarista
+59	3259	riippumaton	riippumaton riippumatonta riippumattomia riippumattoman riippumattomat riippumattomista riippumattomien riippumattomana riippumattomaan riippumattomaksi riippumattomasta riippumattomassa riippumattomalla riippumattomina
+60	3260	valtatie	valtatie valtatien valtatiellä valtatielle valtatietä valtatieltä valtateiden valtateitä valtatiet valtateillä
+61	3261	sukunimi	sukunimi sukunimen sukunimeä sukunimet sukunimensä sukunimesi sukunimiä sukunimellä sukunimien sukunimeni sukunimestä sukunimeen
+62	3262	katastrofi	katastrofi katastrofin katastrofiin katastrofia katastrofeja katastrofista katastrofien katastrofit katastrofiksi katastrofilta katastrofeista katastrofeihin katastrofissa
+63	3263	pyöreä	pyöreä pyöreän pyöreitä pyöreät pyöreää pyöreänä pyöreistä pyöreään pyöreämpi pyöreäksi pyöreällä pyöreiksi pyöreästä pyöreiden pyöreässä pyöreillä
+64	3264	instituutti	instituutin instituutti instituutissa instituuttiin instituutista instituuttia instituutille instituuttien
+65	3265	arkkitehti	arkkitehti arkkitehdit arkkitehdin arkkitehtien arkkitehdiksi arkkitehtina arkkitehtejä arkkitehteja arkkitehdeille arkkitehtinä arkkitehdille arkkitehtia
+66	3266	myöhäinen	myöhäistä myöhäinen myöhäisempi myöhäiseen myöhäiset myöhäisen myöhäisestä myöhäisessä myöhäisiä myöhäisellä myöhäiseksi myöhäiselle
+67	3267	lukumäärä	lukumäärä lukumäärän lukumäärää lukumäärästä lukumäärät lukumäärään lukumäärällä lukumääriä lukumääräksi lukumäärässä lukumääristä
+68	3268	keskinäinen	keskinäinen keskinäistä keskinäisen keskinäiset keskinäiseen keskinäisiä keskinäisten keskinäisestä keskinäisessä keskinäisistä keskinäisissä keskinäisiin keskinäisellä
+69	3269	vaarantaa	vaarantaa vaarantaisi vaarantavat vaaranna vaarantamisesta vaarantamatta vaarantamaan vaarantaminen vaarantanut vaaransi vaarantaen vaarantamista vaarantamiseen vaarantamisen vaarantamisena
+70	3270	sopeutua	sopeutua sopeutuminen sopeutumaan sopeutunut sopeutuu sopeutumista sopeutuvat sopeudu sopeuduttava sopeutumisen sopeutumisesta sopeutui sopeutumiseen sopeutumisessa sopeutuva sopeutuivat
+71	3271	tunkea	tunkea tunkee tunki tungen tunkenut tunkemaan tunge tungettu tungetaan tunkevat tungin tungettiin tunget tunkivat tunkisi tunkemassa tunkeminen tunkekaa tunkemalla
+72	3272	maailmanmestari	maailmanmestari maailmanmestariksi maailmanmestarin maailmanmestarit maailmanmestaria maailmanmestareita maailmanmestarina maailmanmestarille
+73	3273	vartti	vartin vartti varttia vartissa vartiksi
+74	3274	jäätelö	jäätelöä jäätelö jäätelön jäätelöt jäätelöstä jäätelöllä jäätelöitä jäätelöön jäätelölle jäätelössä jäätelöiden
+75	3275	lievä	lievä lievää lieviä lievän lievästä lievempi lievään lievässä lievät lievänä lievin lievien lievistä lievällä lieviin lieväksi
+76	3276	poisto	poisto poistoa poiston poistoon poistosta poistoja poistot poistossa poistolla poistojen poistoista
+77	3277	tottua	tottuu tottua totuttu tottui tottuvat tottuminen totu tottumaan totuin tottuivat tottumista tottumaton totuttava
+78	3278	saati	saati saatikka
+79	3279	intialainen	intialainen intialaiset intialaisen intialaisia intialaista intialaisten intialaiseen intialaisesta intialaisessa intialaisista intialaisella intialaiselle intialaisiin intialaisissa
+80	3280	juoni	juoni juonta juonesta juonessa juonen juoneen juonia juonensa juonella juonista juonet
+81	3281	kellari	kellarissa kellariin kellari kellarin kellarista kellareissa kellareihin kellaria kellareista kellarit
+82	3282	tietoisuus	tietoisuuteen tietoisuutta tietoisuus tietoisuuden tietoisuudesta tietoisuudessa tietoisuutensa
+83	3283	luokitella	luokiteltu luokitella luokitellaan luokiteltiin luokittelee luokitellut luokitteli luokiteltua luokiteltava luokittelemaan luokitellun luokittelevat luokittelematon luokittele luokiteltaisiin
+84	3284	varkaus	varkaus varkauden varkaudesta varkaudessa varkauteen varkautta varkauksia varkaudet varkauksista varkauksien
+85	3285	helikopteri	helikopteri helikopterin helikopterilla helikopterit helikoptereita helikopteria helikopterista helikopteriin helikoptereilla helikopterissa helikopterien helikoptereiden helikoptereista helikopterille
+86	3286	ankka	ankka ankan ankkaa ankat ankkoja ankasta ankassa ankkojen ankalla ankkaan
+87	3287	kaupunginvaltuusto	kaupunginvaltuuston kaupunginvaltuusto kaupunginvaltuustossa kaupunginvaltuustoon kaupunginvaltuustolle
+88	3288	lujaa	lujaa lujempaa
+89	3289	kansakunta	kansakunnan kansakunta kansakuntien kansakuntaa kansakunnat kansakuntamme kansakuntana kansakunnalle kansakuntia kansakunnasta kansakunnille kansakuntaan
+90	3290	latvia	latvian latvia latviassa latviasta latviaan latviaa
+91	3291	huijata	huijata huijaa huijasi huijattu huijataan huijaavat huijaamaan huijannut huijaaminen huijaamalla huijaamisesta huijattiin huijaamista huijasivat huijaamiseen huijaat huijaatte
+92	3292	leimata	leimata leimaa leimataan leimaaminen leimattu leimasi leimattiin leimaavat leimannut leimasivat leimaamaan leimaamista leimaamalla leimattua leimatuksi leimaava leimasin leimaamisen leimaan
+93	3293	vertailla	vertailla vertailee vertaillaan vertailemaan vertailemalla vertailtiin vertaili vertaile vertaileva vertailtu vertailin vertailtaessa vertaillut vertailevan vertaillessa vertaillen vertailevat vertailtuna vertailevaa vertailemme vertailimme vertailtavissa vertailet vertailivat
+94	3294	epävarmuus	epävarmuus epävarmuutta epävarmuuden epävarmuudesta epävarmuuteen epävarmuuksia epävarmuudessa epävarmuudet
+95	3295	hirveästi	hirveästi
+96	3296	kainu	kainuun
+97	3297	mainiosti	mainiosti
+98	3298	tarkalleen	tarkalleen
+99	3299	nuoruus	nuoruuden nuoruus nuoruutensa nuoruudessa nuoruudesta nuoruuteni nuoruutta nuoruuteen
+100	3300	galleria	galleria gallerian galleriassa galleriaan galleriasta galleriaa galleriat gallerioissa gallerioita gallerioiden

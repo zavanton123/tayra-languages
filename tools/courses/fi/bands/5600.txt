@@ -1,0 +1,100 @@
+1	5501	luutnantti	luutnantti luutnantin luutnantiksi
+2	5502	tiedotustilaisuus	tiedotustilaisuudessa tiedotustilaisuus tiedotustilaisuuden tiedotustilaisuutta tiedotustilaisuudesta tiedotustilaisuuteen tiedotustilaisuuksia
+3	5503	olympiakisat	olympiakisoissa olympiakisojen olympiakisoihin olympiakisat olympiakisoja olympiakisoista
+4	5504	väliaika	väliajoin väliaika väliajalla väliajan väliaikaa
+5	5505	muistomerkki	muistomerkki muistomerkin muistomerkkiä muistomerkkejä muistomerkit muistomerkillä muistomerkille muistomerkkien muistomerkistä muistomerkiksi muistomerkkiin
+6	5506	heinä	heinää heiniä heinä heinän heinät heinien heinillä
+7	5507	asianmukainen	asianmukaista asianmukainen asianmukaiset asianmukaisia asianmukaisella asianmukaisen asianmukaiseen asianmukaisesta asianmukaisiin
+8	5508	duunari	duunari duunarit duunareita duunarin duunarien duunareiden duunareille
+9	5509	mato	mato matoja madot madon matoa matojen
+10	5510	monipuolisesti	monipuolisesti monipuolisemmin
+11	5511	nurmikko	nurmikkoa nurmikko nurmikon nurmikolla nurmikolle nurmikot nurmikolta nurmikoita nurmikoilla
+12	5512	pahoinvointi	pahoinvointia pahoinvointi pahoinvoinnin pahoinvointiin pahoinvoinnista
+13	5513	rumpali	rumpali rumpalin rumpalia rumpalina
+14	5514	episodi	episodi episodin episodia episodista episodissa episodit episodeja
+15	5515	järjestyä	järjestyy järjestyi järjestyvät järjestyä järjestymään järjestynyt järjesty järjestyisi järjestyneet järjestyivät
+16	5516	nähtävillä	nähtävillä nähtäville
+17	5517	lappalainen	lappalainen lappalaisen lappalaiset lappalaisten lappalaisia
+18	5518	keskeneräinen	keskeneräinen keskeneräisiä keskeneräistä keskeneräisen keskeneräisenä keskeneräiset keskeneräiseksi keskeneräisten keskeneräisistä keskeneräisiksi keskeneräisestä keskeneräiseen
+19	5519	vakaus	vakautta vakaus vakauden vakauteen vakaudesta vakaudelle
+20	5520	aiheuttaja	aiheuttaja aiheuttajana aiheuttajia aiheuttajaa aiheuttajat aiheuttajaksi aiheuttajan aiheuttajasta aiheuttajista aiheuttajina
+21	5521	hallinnollinen	hallinnollinen hallinnolliset hallinnollisia hallinnollista hallinnollisen hallinnollisten hallinnollisista hallinnollisissa hallinnollisiin hallinnolliseen hallinnollisesta hallinnollisessa
+22	5522	lasti	lasti lastin lastia lastina lastista lastissa lastit lastinsa lasteja
+23	5523	raide	raide raiteille raiteet raiteilta raiteita raiteiden raiteen raidetta raiteelle raiteelta raiteella
+24	5524	etunimi	etunimi etunimen etunimet etunimeä etunimensä etunimellä etunimiä etunimenä etunimeksi etunimistä etunimien
+25	5525	purku	purku purkua purkuun purun purut
+26	5526	pesäpallo	pesäpallo pesäpallon pesäpalloa pesäpallossa
+27	5527	possu	possu possun possua possut possuja possusta possujen
+28	5528	ammattimainen	ammattimainen ammattimaista ammattimaisen ammattimaisia ammattimaiset ammattimaiseen ammattimaisena ammattimaiseksi ammattimaiselta ammattimaisten ammattimaisesta
+29	5529	hormoni	hormonit hormoneja hormonien hormonin hormoni hormonia hormoneista hormoneita hormoneilla
+30	5530	ikinen	ikinen ikisen ikistä ikisestä ikiseen ikisessä ikiselle
+31	5531	äkillinen	äkillinen äkillisen äkillistä äkilliseen äkillisestä äkillisiä äkilliset äkillisiin äkillisten äkillisissä
+32	5532	miehittää	miehittää miehitetty miehitti miehittämätön miehittivät miehittänyt miehittämättömiä miehittämättömän miehittämä miehittämättömien miehittämään miehittävät miehittämättömät miehittämällä
+33	5533	otos	otos otoksen otoksia otokset otokseen otoksessa otoksella otoksesta otoksista otosta otoksissa
+34	5534	sisäänkäynti	sisäänkäynti sisäänkäynnin sisäänkäyntiä sisäänkäynnillä sisäänkäynnit sisäänkäyntejä sisäänkäynnistä sisäänkäynnille sisäänkäynniltä
+35	5535	luonnontiede	luonnontieteiden luonnontieteen luonnontieteet luonnontieteissä luonnontieteitä luonnontiede luonnontieteistä luonnontieteisiin
+36	5536	tyyni	tyyni tyynen tyyntä tyynenä tyynellä tyynessä tyyneen tyynelle
+37	5537	narttu	narttu nartun nartut narttua narttujen narttuja nartulle
+38	5538	maailmanloppu	maailmanloppu maailmanlopun maailmanloppua maailmanlopusta maailmanloppuun maailmanlopulta
+39	5539	haittavaikutus	haittavaikutuksia haittavaikutukset haittavaikutuksista haittavaikutusten haittavaikutus haittavaikutuksiin
+40	5540	puna	puna punaa punasta punan
+41	5541	saattue	saattue saattueen saattuetta saattueessa saattueita saattueeseen saattueesta saattueet
+42	5542	kokoomuslainen	kokoomuslainen kokoomuslaiset kokoomuslaisten kokoomuslaisia kokoomuslaisen kokoomuslaista kokoomuslaisista
+43	5543	sivuvaikutus	sivuvaikutuksia sivuvaikutukset sivuvaikutus sivuvaikutuksista sivuvaikutuksena sivuvaikutusten sivuvaikutuksiin
+44	5544	tietokonetomografia	tt tietokonetomografia
+45	5545	ylioppilas	ylioppilas ylioppilaaksi ylioppilaiden ylioppilaat ylioppilaita ylioppilasta ylioppilaista ylioppilaille
+46	5546	säätö	säätö säätöä säädöt säätöjä säädön säätöjen säädöstä säätöön säädöistä säätöihin säädöillä
+47	5547	viljelijä	viljelijä viljelijät viljelijöiden viljelijän viljelijöitä viljelijöille viljelijälle viljelijää viljelijöiltä viljelijöistä
+48	5548	vehje	vehje vehkeet vehkeitä vehkeen vehkeillä vehkeistä vehjettä vehkeellä vehkeessä vehkeestä
+49	5549	jalostaa	jalostettu jalostaa jalostetaan jalostaminen jalostamaan jalosti jalostamiseen jalostettiin jalostamista jalostanut jalostavat jalostamisen jalosta
+50	5550	kerrottaa	kerrota kerrottakoon
+51	5551	oletettavasti	oletettavasti
+52	5552	tuplasti	tuplasti
+53	5553	vaihteeksi	vaihteeksi
+54	5554	ystävällisesti	ystävällisesti
+55	5555	ideologinen	ideologinen ideologista ideologiset ideologisia ideologisen ideologisista ideologisesta ideologiseen ideologisten ideologisena ideologisiin
+56	5556	merkityksellinen	merkityksellinen merkityksellistä merkityksellisiä merkityksellisen merkityksellisenä merkitykselliseksi merkitykselliset
+57	5557	sukupuutto	sukupuuttoon sukupuuton sukupuutto sukupuuttoa
+58	5558	konkreettisesti	konkreettisesti konkreettisemmin
+59	5559	voimalaitos	voimalaitoksen voimalaitos voimalaitosten voimalaitokset voimalaitoksia voimalaitokseen voimalaitoksella voimalaitosta voimalaitoksissa voimalaitokselle voimalaitoksessa voimalaitoksesta
+60	5560	kuvalehti	kuvalehti kuvalehden kuvalehdessä kuvalehdelle kuvalehteen
+61	5561	naamio	naamio naamion naamioita naamiota naamiot naamioiden naamionsa naamioon
+62	5562	kohderyhmä	kohderyhmä kohderyhmänä kohderyhmää kohderyhmään kohderyhmän kohderyhmälle kohderyhmille kohderyhmässä kohderyhmät kohderyhmästä
+63	5563	jarruttaa	jarruttaa jarruttavat jarruttamaan jarrutti jarruta jarruttanut jarrutella jarruttaminen jarrutetaan jarruttamalla
+64	5564	kasvain	kasvain kasvaimen kasvaimia kasvaimet kasvaimesta kasvainta kasvainten kasvaimeen kasvaimista
+65	5565	raivata	raivata raivaa raivasi raivattu raivaamaan raivattiin raivataan raivannut raivaaminen raivasivat raivattua raivaamalla raivasin raivattava raivaamista raivaavat raivaamiseen
+66	5566	puheenaihe	puheenaihe puheenaihetta puheenaiheita puheenaiheena puheenaiheeksi puheenaiheet puheenaiheen puheenaiheista
+67	5567	maanalainen	maanalainen maanalaisen maanalaiset maanalaisessa maanalaiseen maanalaisia maanalaista maanalaisiin maanalaisten maanalaisissa maanalaisella maanalaisista maanalaisesta
+68	5568	tamma	tamma tamman tammojen tammaa tammalla tammat tammalle tammoja
+69	5569	hana	hana hanasta hanat hanan hanaa hanoista hanoja hanoihin hanoissa hanoin hanojen
+70	5570	valtamedia	valtamedia valtamedian valtamediassa valtamediasta
+71	5571	kierrellä	kierrellä kierteli kiertelee kiertelemään kierrellen kierrellyt kiertelevät kiertelin kiertelivät kiertelevä kiertele kiertelemässä kiertelemättä kiertelimme kierrellään kiertelevää
+72	5572	altistaa	altistaa altistavat altista altistetaan altistava altisti
+73	5573	nimike	nimikkeellä nimike nimikkeen nimikettä nimikkeitä nimikkeet nimikkeillä nimikkeiden nimikkeistä nimikkeenä
+74	5574	takapuoli	takapuoli takapuoleen takapuolen takapuolella takapuolta takapuolesta takapuolelle takapuolessa takapuolensa takapuolelta takapuoltaan takapuoleni takapuolia
+75	5575	lentoliikenne	lentoliikenteen lentoliikenne lentoliikennettä lentoliikenteessä lentoliikenteeseen lentoliikenteelle
+76	5576	vartioida	vartioi vartioivat vartioimaan vartioitu vartioida vartioimatta vartioimassa vartioinut vartioidaan vartioiva vartioiden
+77	5577	lusikka	lusikka lusikalla lusikan lusikat lusikkaa lusikoita lusikkansa lusikassa lusikkani
+78	5578	ruoanlaitto	ruoanlaitto ruoanlaittoon ruoanlaitossa ruuanlaitto ruoanlaittoa ruoanlaiton ruoanlaitosta ruuanlaitossa ruuanlaiton ruuanlaitosta ruuanlaittoa
+79	5579	kirjo	kirjo kirjon kirjojen kirjoa kirjoista kirjoissa kirjoon kirjoihin kirjosta kirjoilla kirjoille kirjoina kirjoiksi kirjoitta
+80	5580	pitkällä	pidemmällä pitemmällä pitkällä pisimmällä
+81	5581	henkilötieto	henkilötietoja henkilötietojen henkilötiedot henkilötietoihin henkilötietonsa henkilötiedon henkilötieto
+82	5582	luvaton	luvaton luvattoman luvattomasta luvatonta luvattomia luvattomat luvattomaan luvattomien luvattomista
+83	5583	keskiosa	keskiosassa keskiosissa keskiosaan keskiosa keskiosan keskiosaa keskiosiin keskiosat keskiosasta
+84	5584	suomenruotsalainen	suomenruotsalaiset suomenruotsalainen suomenruotsalaisten suomenruotsalaisen suomenruotsalaisia suomenruotsalaista
+85	5585	pikkutyttö	pikkutyttö pikkutytön pikkutytöt pikkutyttönä pikkutyttöä pikkutyttöjen pikkutytöstä pikkutyttöjä pikkutytölle
+86	5586	pidätys	pidätyksen pidätys pidätyksiä pidätystä pidätyksestä pidätykset pidätykseen pidätyksistä pidätysten pidätyksiin pidätyksensä
+87	5587	lisäarvo	lisäarvoa lisäarvo lisäarvon lisäarvosta
+88	5588	alkukausi	alkukauden alkukaudesta alkukausi alkukaudella
+89	5589	pakki	pakki pakit pakin pakkia pakeille pakkeja pakkiin pakeilla pakkina
+90	5590	ossi	ossi ossin
+91	5591	osakseen	osakseen osakseni osaksesi
+92	5592	kertainen	kertainen kertaiseksi kertaisen kertaisella kertaiset kertaista kertaisena kertaisia kertaisiksi
+93	5593	pelastua	pelastui pelastuu pelastunut pelastua pelastuivat pelastuvat pelastuminen pelastu pelastuisi pelastumista pelastumaan
+94	5594	allerginen	allerginen allergisia allergisen allergiset allergista allergisten allergisille
+95	5595	yöuni	yöunet yöunia yöunilla yöunien yöuni yöunen yöunta
+96	5596	väitellä	väitellä väitteli väitellyt väittelemään väitellään väittelee väitelty väiteltiin väittele väittelivät
+97	5597	muru	muru murut muruja murun muruksi murua murunen murusta
+98	5598	pilotti	pilotti pilotin pilotit pilottia pilotteja pilottien pilottina pilotissa pilotiksi
+99	5599	säiliö	säiliö säiliön säiliöt säiliöön säiliössä säiliöstä säiliötä säiliöitä säiliöissä säiliöihin säiliöiden säiliöistä
+100	5600	kohottaa	kohottaa kohotti kohottaminen kohottamaan kohottavat kohotetaan kohotettu kohota kohottamiseksi kohottanut kohottamiseen kohottamista kohottava kohottivat

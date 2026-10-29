@@ -1,0 +1,100 @@
+1	2201	häät	häät häitä häissä häihin häiden häistä häänsä
+2	2202	lupaus	lupaus lupauksia lupaukset lupauksen lupauksensa lupausten lupauksista lupausta lupauksiin lupauksesta lupauksilla lupaukseen lupaukseni lupauksena lupauksella lupauksien lupaukseksi
+3	2203	synnyttää	synnyttää synnytti synnyttänyt synnyttävät synnyttämään synnytä synnyttivät synnyttäminen synnyttämä synnyttämässä synnyttäisi synnytetään synnyttämiseen synnyttämisen synnyttämistä synnytettiin synnyttämästä synnytetty synnytin synnyttämiseksi synnyttäen synnyttävä synnyttämisestä synnyttämän
+4	2204	kumma	kumma kummempaa kummaa kumman kummempia kummia kummalla kummasta kummempi kummassa kummien kummalle kummin kummina kummemmin kummat kummalta kummiksi
+5	2205	kiertue	kiertueen kiertue kiertueella kiertueelle kiertueensa kiertuetta kiertueelta kiertueesta kiertueeseen kiertueilla kiertueet kiertueita kiertueiden
+6	2206	treffit	treffit treffeille treffeillä treffien treffejä treffeistä treffi treffeiltä
+7	2207	määrittää	määrittää määritetään määrittävät määritä määritetty määrittämään määrittäminen määritettiin määritti määrittämiseen määrittänyt määrittämiseksi määrittävä määrittämisessä määrittämistä määrittämällä määritettäessä määrittivät määrittämä määrität määrittäisi määrittämisen määritämme
+8	2208	kakkonen	kakkonen kakkosen kakkoseksi kakkosena kakkosessa kakkoseen kakkosta kakkosella kakkosesta kakkoselle kakkoset kakkoselta
+9	2209	mäki	mäki mäen mäkeä mäkeen mäessä mäellä mäet mäkiä mäelle mäestä mäkien mäeltä mäissä
+10	2210	iltalehti	iltalehti iltalehden iltalehdessä iltalehdelle iltalehteen iltalehdeltä iltalehdestä iltalehteä
+11	2211	kriittinen	kriittinen kriittistä kriittisen kriittisiä kriittiset kriittisessä kriittiseen kriittisten kriittisellä kriittiseksi kriittisestä kriittisin kriittisenä kriittisistä kriittisempi kriittisissä kriittisiin
+12	2212	kokoontua	kokoontuu kokoontui kokoontuvat kokoontuivat kokoontua kokoontunut kokoontuminen kokoonnumme kokoontumisia kokoonnutaan kokoontumisen kokoontumiset kokoonnuttiin kokoontumista kokoontuva kokoontumaan kokoontumisessa kokoonnuimme kokoontumiseen kokoontumisissa kokoontumisesta kokoontuessa kokoontumisiin kokoontumisten
+13	2213	häiriö	häiriö häiriöitä häiriötä häiriöt häiriön häiriöiden häiriöstä häiriöistä häiriöihin häiriöksi häiriöön häiriöille häiriöttä häiriöissä häiriönä
+14	2214	kulunut	kulunut kuluneen kuluneet kuluneeksi kuluneella kuluneiden kulunutta kuluneita kuluneena kuluneelta kuluneista kuluneesta
+15	2215	ihmeellinen	ihmeellistä ihmeellinen ihmeellisiä ihmeellisen ihmeelliseen ihmeelliseltä ihmeelliset ihmeellisestä ihmeellisenä ihmeellisessä ihmeellisin ihmeellisempi ihmeellisiin ihmeellisistä ihmeellisellä
+16	2216	mittari	mittari mittarit mittareilla mittarin mittareita mittarissa mittarilla mittariin mittarina mittaria mittareiden mittareista mittareihin mittarien mittarista mittariksi mittareissa
+17	2217	varjo	varjo varjossa varjoon varjolla varjon varjot varjojen varjoja varjoa varjoissa varjosta varjoista varjonsa varjoihin
+18	2218	aa	aa aineen aan aita aitta aiden ain
+19	2219	romaani	romaani romaanin romaania romaanit romaanissa romaanista romaaniin romaaneja romaanien romaaneista romaaneissa romaanina romaanille romaaniksi romaaneihin
+20	2220	vedota	vetoaa vedota vetoa vetosi vetoavat vedotaan vetoamalla vetoaminen vedonnut vetosivat vetoamaan vetoan vetoava vetoavan vetoavaa vedottiin vedottu vetoamme vetoat vetoaisi vetoavia vetoamista
+21	2221	tosiasia	tosiasia tosiasiassa tosiasiat tosiasioita tosiasioiden tosiasiaa tosiasian tosiasioihin tosiasioista tosiasiaan tosiasiasta
+22	2222	mitta	mitta mitat mittaan mittaa mitalla mittoihin mittoja mitan mitassa mittojen mitoissa mitoin mittasi mitoista mittansa mitoilla mittana mittaamme
+23	2223	olohuone	oh olohuoneen olohuoneessa olohuoneeseen olohuone olohuoneesta olohuonetta
+24	2224	insinööri	insinööri insinöörit insinöörin insinöörejä insinööriksi insinöörien insinöörinä insinööreille insinööriä insinööreistä insinöörille insinööreiksi
+25	2225	kaasu	kaasu kaasua kaasun kaasulla kaasuja kaasut kaasujen kaasusta kaasulle kaasuun kaasuista kaasulta kaasussa kaasuksi
+26	2226	juurikaan	juurikaan
+27	2227	tottakai	tottakai
+28	2228	ulkomaille	ulkomaille
+29	2229	hengissä	hengissä henkiin
+30	2230	surkea	surkea surkeaa surkeita surkean surkein surkeat surkeassa surkeasta surkeaan surkealla surkeiden surkeana surkealta surkeaksi surkeista surkeissa surkeata surkeampi surkeisiin
+31	2231	runo	runo runoja runot runon runoa runojen runoista runosta runossa runoissa runoihin runoon runonsa runoilla runolla runoksi
+32	2232	virus	virus viruksen virusta virukset viruksia viruksesta virusten virukseen virukselle viruksista viruksella viruksiin virukselta
+33	2233	vierailu	vierailu vierailulla vierailulle vierailun vierailua vierailusta vierailut vierailuja vierailunsa vierailuun vierailuista vierailujen vierailuilla vierailuni vierailuihin vierailusi
+34	2234	soveltaa	soveltaa sovelletaan sovellettu soveltaminen soveltamista soveltamaan sovelleta soveltavan soveltamisesta sovellettiin soveltamalla sovellettaisiin soveltavat soveltaen soveltamisen soveltava soveltanut soveltamiseen sovelletun sovellettava sovellettuna sovellettua soveltavaa sovelsi soveltamisessa sovella soveltavaan
+35	2235	vihata	vihaa vihaan vihaavat vihata vihaat vihasi vihaamaan vihasin vihataan vihattu vihasivat vihannut vihaava vihaisi vihaamme vihaaminen vihattiin vihaamista
+36	2236	varoitus	varoitus varoituksen varoitusta varoituksia varoitukset varoituksesta varoituksena varoituksista varoituksella varoitukseksi varoitusten
+37	2237	viihtyä	viihtyy viihtyvät viihtynyt viihdy viihdyn viihtyi viihtyvä viihtyä viihtymään viihdyin viihdyt viihdytte viihtyivät viihtyisi viihtyminen viihtymistä viihdymme viihdytään
+38	2238	edellytys	edellytykset edellytys edellytyksiä edellytyksenä edellytysten edellytyksin edellytyksellä edellytyksistä edellytystä edellytyksiin edellytyksillä edellytykseksi
+39	2239	jumalauta	jumalauta juma
+40	2240	ammattikorkeakoulu	amk ammattikorkeakoulun ammattikorkeakoulu ammattikorkeakoulujen ammattikorkeakoulussa ammattikorkeakoulusta ammattikorkeakouluissa ammattikorkeakoulut ammattikorkeakouluun ammattikorkeakouluja ammattikorkeakoulua ammattikorkeakouluista ammattikorkeakouluille
+41	2241	kehottaa	kehottaa kehotti kehotetaan kehotan kehotettiin kehottanut kehottavat kehottivat kehoittaa kehottaisin kehota kehotamme kehotettu kehotin kehottaisi
+42	2242	pääte	päätteeksi pääte päätteen päätettä päätteet päätteitä päätteellä
+43	2243	viisas	viisas viisasta viisaita viisaampi viisaan viisainta viisaat viisasten viisaana viisaaksi viisain viisaiden viisaista viisaalta viisaalla
+44	2244	hitto	hitto hiton hittoa hitossa hittoon
+45	2245	laukaus	laukaus laukausta laukauksen laukauksia laukaukset laukauksella laukausten laukauksesta laukauksista laukaukseen laukauksensa laukauksiin
+46	2246	keskimääräinen	keskimääräinen keskimääräistä keskimääräisen keskimääräiset keskimääräiseen keskimääräisellä keskimääräisestä keskimääräisiä keskimääräiselle keskimääräiseksi keskimääräisessä keskimääräisten
+47	2247	stressi	stressiä stressi stressin stressistä stressiin stressillä stressille
+48	2248	lapsuus	lapsuuden lapsuus lapsuudesta lapsuudessa lapsuuteni lapsuutensa lapsuutta lapsuuteen
+49	2249	rotu	rotu rodun rotua rotujen rodusta rodut rotuun rotuja rotunsa roduista rotuihin rodulla rodulle roduilla rotuna rodussa roduille roduissa rotumme
+50	2250	litra	litraa litran litra litraan litrassa litroja litralta litrasta litralla
+51	2251	duuni	duunia duunissa duuni duuniin duunit duunista duuneja duunin
+52	2252	laskeutua	laskeutui laskeutuu laskeutua laskeutunut laskeutuminen laskeutumaan laskeutuvat laskeutumisen laskeutumista laskeutuivat laskeutuessa laskeutumassa laskeudu laskeutumisesta laskeudutaan laskeutumiseen laskeutuva laskeuduimme laskeutumisessa laskeudumme laskeuduin laskeutuisi laskeudun
+53	2253	nenä	nenä nenän nenään nenästä nenää nenässä nenänsä nenäni nenät nenäsi nenällä
+54	2254	suosia	suosii suosia suosivat suosin suosima suositaan suosi suosiminen suosinut suosimaan suosimista suosiva suosimisesta suosimalla suosiman suosisi suosimassa suosittiin suosimme suosien suosimiseen suosimisen suosit suosimasta
+55	2255	polvi	polven polvi polvet polvessa polveen polvensa polvien polvea polviin polvia polvesta polveni polvelle polvissa polvella polville polvista
+56	2256	virallisesti	virallisesti virallisemmin
+57	2257	kristitty	kristittyjä kristityt kristitty kristittyjen kristityn kristityille kristityksi kristittyä kristityistä kristittynä kristityiksi kristityillä kristitylle kristittyihin kristittyinä kristitystä kristityiltä
+58	2258	perinteisesti	perinteisesti perinteisemmin
+59	2259	yläpuoli	yläpuolella yläpuolelle yläpuolelta yläpuoli yläpuolen
+60	2260	kritisoida	kritisoi kritisoida kritisoitu kritisoivat kritisoinut kritisoitiin kritisoimaan kritisoidaan kritisoin kritisoiva kritisoiminen kritisoit
+61	2261	pieleen	pieleen pielessä
+62	2262	isäntä	isäntä isännän isäntänä isännät isäntänsä isäntää isännille isäntien isäntiä isännäksi isännälle isäntinä isännällä isäntään isännästä isännältä isäntäni isännistä
+63	2263	kultainen	kultainen kultaisen kultaista kultaiset kultaisella kultaisia kultaisesta kultaiseen kultaisessa kultaisena kultaisilla kultaiseksi kultaisten kultaisista kultaisin kultaisiin
+64	2264	luonnollisesti	luonnollisesti
+65	2265	plus	plus
+66	2266	maahanmuutto	maahanmuutto maahanmuuton maahanmuutosta maahanmuuttoa maahanmuuttoon maahanmuutossa maahanmuutolle
+67	2267	kokoelma	kokoelma kokoelman kokoelmaa kokoelmat kokoelmaan kokoelmasta kokoelmista kokoelmiin kokoelmia kokoelmassa kokoelmissa kokoelmien kokoelmansa kokoelmani kokoelmalla kokoelmana
+68	2268	velvollisuus	velvollisuus velvollisuuksia velvollisuudet velvollisuutta velvollisuutensa velvollisuuden velvollisuuksien velvollisuudesta velvollisuutena velvollisuuksista velvollisuutemme velvollisuuksiin velvollisuuteni velvollisuudeksi velvollisuutesi velvollisuuteen
+69	2269	kohtaus	kohtaus kohtauksia kohtauksen kohtaukset kohtauksessa kohtausta kohtauksesta kohtausten kohtaukseen kohtauksista kohtauksissa kohtauksiin kohtauksella
+70	2270	varautua	varautua varautunut varaudu varautuminen varautuu varauduttu varautumista varautuneet varaudutaan varauduttava varautumaan varautuvat varautukaa varautuneita varautumisen varautumisesta varautumiseen varauduin varaudun varauduttiin varautui varautuneen
+71	2271	kuluttaa	kuluttaa kuluttavat kuluta kuluttamaan kulutetaan kuluttanut kulutti kulutettu kuluttaminen kulutan kuluttamisen kulutat kuluttamiseen kuluttamista kuluttavaa kuluttivat kulutamme kuluttava kulutettiin kulutin kuluttaisi kuluttavan kuluttamalla kuluttamasta kuluttamisesta kuluttavia kuluttama kuluttaen kuluttaisivat kuluttamatta kuluttavien
+72	2272	asetus	asetuksen asetukset asetuksista asetus asetuksia asetuksella asetusta asetusten asetuksessa asetuksesta asetukseen asetuksilla asetuksiin asetuksissa
+73	2273	maailmansota	maailmansodan maailmansota maailmansodassa maailmansotaa maailmansodasta maailmansotaan maailmansotien maailmansodat
+74	2274	putki	putki putken putket putkea putkia putkessa putkesta putkien putkella putkista putkissa putkiin putkensa putkilla
+75	2275	osoittautua	osoittautui osoittautunut osoittautuu osoittautuivat osoittautua osoittautuvat osoittautuisi osoittautumassa osoittaudu
+76	2276	tyttöystävä	tyttöystävä tyttöystävän tyttöystävänsä tyttöystäväni tyttöystävää tyttöystäväsi tyttöystäviä tyttöystävälle tyttöystävät tyttöystävästä tyttöystävänä tyttöystävältä
+77	2277	epäselvä	epäselvää epäselvä epäselväksi epäselviä epäselvät epäselvissä epäselvän epäselviksi epäselvästä epäselvien
+78	2278	alhainen	alhainen alhaisempi alhaiset alhaisen alhaista alhaisin alhaisia alhaiseksi alhaisella alhaisena alhaisesta alhaiseen alhaisten alhaisilla alhaisessa alhaisissa alhaisina alhaisista alhaiselle alhaisiksi alhaisiin
+79	2279	laillinen	laillista laillinen laillisia laillisen lailliseksi lailliset laillisten laillisena lailliseen laillisesta laillisiin laillisin laillisella laillisista laillisessa laillisiksi lailliselle lailliselta laillisissa
+80	2280	karata	karkasi karkaa karannut karata karkaavat karkaamaan karkasivat karkaaminen karkaamassa karkaisi karaten karkaamisesta karkaamisen karatessa karkaamista karkaamasta
+81	2281	hattu	hattu hattua hatun hatusta hattuun hattuja hatut hatussa hattujen hattunsa hatulla
+82	2282	kato	katosi kato katoa
+83	2283	putti	putin putti
+84	2284	hyökkääjä	hyökkääjä hyökkääjän hyökkääjät hyökkääjää hyökkääjiä hyökkääjänä hyökkääjien hyökkääjäksi hyökkääjistä hyökkääjälle hyökkääjällä hyökkääjästä hyökkääjille
+85	2285	italialainen	italialainen italialaisen italialaiset italialaista italialaisia italialaisten italialaisesta italialaiseen italialaisessa italialaisista italialaiselle italialaisille italialaisella italialaisissa italialaiselta italialaisilla italialaisiin
+86	2286	eilinen	eilisen eilinen eilisestä eilistä eilisessä eiliseen eiliseltä eiliset eilisten eilisistä eilisellä eilisiä eiliselle eilisissä
+87	2287	tarpeellinen	tarpeellista tarpeellinen tarpeelliseksi tarpeellisia tarpeellisen tarpeelliset tarpeellisena tarpeellisista tarpeellisten tarpeellisiin tarpeellisiksi tarpeellisina tarpeelliselta
+88	2288	ohittaa	ohittaa ohitti ohittamaan ohittanut ohitetaan ohittavat ohittaminen ohitettu ohita ohittivat ohittaen ohitettiin ohitettava ohitin ohitan ohitat ohitimme ohittamassa ohittamiseen ohittaessa ohittamalla ohitit ohittaisi ohittava ohittamista ohittamisen ohittamaton
+89	2289	katkaista	katkaista katkaisi katkaisee katkaistu katkaisemaan katkaistaan katkaise katkaissut katkaistiin katkaisivat katkaisevat katkaistua katkaisemalla katkaisin katkaiseminen katkaistava katkaisisi katkaisemista katkaistun katkaisen katkaisten
+90	2290	ruokavalio	ruokavalio ruokavalion ruokavalioon ruokavaliota ruokavaliosta ruokavaliolla ruokavaliossa ruokavalioni ruokavalionsa ruokavaliot ruokavalioita ruokavaliosi ruokavalioiden
+91	2291	vuokrata	vuokrata vuokrasi vuokraa vuokrattu vuokrannut vuokrataan vuokraaminen vuokraamaan vuokraavat vuokrattiin vuokraan vuokraamalla vuokraamisesta vuokrattavana vuokrasimme vuokraamista vuokraamme vuokrasivat vuokraat vuokrattavia vuokrattava vuokraamisen vuokrasin vuokraamiseen vuokrattavaa vuokrattavaksi vuokraamassa vuokraisi vuokrattavissa vuokraava
+92	2292	pitkälti	pitkälti
+93	2293	päinvastoin	päinvastoin
+94	2294	idiootti	idiootti idiootit idiootteja idiootin idiooteille idioottia idiootiksi idioottien idioottina idiooteiksi idiootilta idiootille idiootteina idiooteilta
+95	2295	sarjakuva	sarjakuva sarjakuvat sarjakuvia sarjakuvan sarjakuvien sarjakuvaa sarjakuvista sarjakuvissa sarjakuvassa sarjakuvaan sarjakuvasta sarjakuviin
+96	2296	sallittu	sallittua sallittu sallittuja sallitun sallitut sallittujen sallituissa sallitusta sallituista sallituksi
+97	2297	ruma	ruma rumaa rumia rumat ruman rumaksi rumin rumalta rumana rumempi rumien rumasta rumista rumiksi rumaan rumalla rumempia
+98	2298	selviytyä	selviytyä selviytyi selviytynyt selviytymään selviytyy selviytyminen selviytymistä selviytymisen selviydy selviytyivät selviytyvät selviytyäkseen selviytymiseen selviytymisestä selviydyt selviytyisi selviytyneen selviytymiselle selviydyttävä selviytymisessä selviytymisensä
+99	2299	kehä	kehä kehiin kehään kehässä kehän kehää kehästä kehissä kehällä kehälle kehien kehät kehiä kehittäneen kehittämän kehittäessä
+100	2300	kohdella	kohdella kohtelee kohdellaan kohdeltu kohtelevat kohdeltiin kohteli kohtele kohdellut kohtelivat kohdeltava kohtelemaan kohdeltaisiin kohtelemme kohtelen kohtelisi kohtelet

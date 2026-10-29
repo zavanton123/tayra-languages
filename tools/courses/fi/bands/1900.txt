@@ -1,0 +1,100 @@
+1	1801	siisti	siisti siistiä siistejä siistinä siistit siistin siistiltä siistimpää siistimpi siistiksi siistiin siistissä siistein siisteinä siisteissä siististä siisteihin
+2	1802	pohjoismaa	pohjoismaiden pohjoismaissa pohjoismaat pohjoismaihin pohjoismaita pohjoismaa pohjoismaista pohjoismaassa pohjoismailla
+3	1803	lasi	lasi lasin lasit lasia lasiin laseja lasissa lasien lasista laseista laseilla laseissa laseihin lasilla lasille lasinsa lasini
+4	1804	kasvi	kasvi kasvit kasvien kasveja kasvin kasveista kasvia kasveilla kasvista kasveille kasveihin kasveissa kasvilla kasville kasviin kasvissa
+5	1805	hurja	hurja hurjan hurjaa hurjat hurjia hurjassa hurjalta hurjalla hurjin hurjaan hurjista hurjana hurjasta hurjaksi hurjempi hurjien
+6	1806	mökki	mökillä mökki mökin mökille mökissä mökkiä mökkiin mökiltä mökkejä mökistä mökit mökkien mökeille mökeistä mökeissä mökeillä mökkeihin
+7	1807	kuski	kuski kuskin kuskit kuskia kuskeja kuskille kuskien kuskina kuskeille kuskiksi kuskilla kuskeista kuskilta kuskista kuskeilla kuskinsa
+8	1808	avautua	avautuu avautui avautuvat avautua avautuminen avautunut avaudu avautumaan avautumista avautuivat avautuva avautumisen avautuessa avautuneet avautuisi avautumassa avautumisesta avauduin avautumiset avautumiseen avaudun
+9	1809	harjoitella	harjoitella harjoittelemaan harjoitellaan harjoitellut harjoittelee harjoitteli harjoittelevat harjoiteltu harjoiteltiin harjoittelemme harjoittelin harjoittele harjoittelemassa harjoittelemalla harjoittelivat harjoittelimme harjoittelen harjoittelet harjoitellessa harjoiteltava harjoitellen harjoitteleminen
+10	1810	odotus	odotukset odotuksia odotus odotusten odotusta odotuksen odotuksiin odotuksista odotukseni odotuksin odotukseen odotuksesta odotuksemme odotuksensa odotuksissa odotuksessa odotuksesi odotuksien
+11	1811	kiinnostus	kiinnostusta kiinnostus kiinnostuksen kiinnostuksensa kiinnostuksesta kiinnostukseni kiinnostukseen kiinnostuksesi kiinnostuksella
+12	1812	fani	fani fanit fanien faneja faneille fania fanin faneista fanina faneilla faneilta faninsa fanille faniksi fanini faneihin
+13	1813	sijainti	sijainti sijainnin sijaintia sijainnista sijaintinsa sijainnit sijaintiin sijainnilla sijaintisi sijainnissa sijainteja sijaintimme sijainneista sijaintien
+14	1814	opintopiste	op opintopistettä opintopisteen opintopisteitä opintopisteet
+15	1815	puolustus	puolustus puolustuksen puolustusta puolustukseen puolustuksessa puolustuksesta puolustukseksi puolustuksensa puolustukselle puolustuksemme puolustuksella puolustukset puolustuksena puolustuksia
+16	1816	kysellä	kyseli kyselee kyselemään kysele kyselin kysellyt kysellään kyselen kyselty kysellä kyselemässä kyselevät kyseltiin kyselivät kyselemättä kyselet kyselit kyselemällä kyselisin kyselimme kyseleminen kysellen
+17	1817	vähetä	vähenee väheni vähenevät vähenivät vähenisi vähenemään vähenemässä vähene vähenevän vähenisivät vähetessä vähetä vähenevä vähenemistä
+18	1818	studio	studio studiossa studion studioon studiolla studiolle studiot studiota studiosta studiolta studioiden studioilla studioita studioille studioissa
+19	1819	ohjaus	ohjaus ohjausta ohjauksessa ohjauksen ohjauksesta ohjaukseen ohjauksella ohjaukset ohjauksia ohjauksensa
+20	1820	pora	porin porissa poriin pora poran poraa poria porasi
+21	1821	kuvailla	kuvaili kuvailla kuvailee kuvaillaan kuvailtu kuvailemaan kuvaillut kuvailtiin kuvailevat kuvaile kuvailivat kuvailit kuvailet kuvaileva kuvailin kuvailen kuvailisin kuvailema kuvailisi kuvailisit kuvailemalla kuvaillen kuvailevaa kuvailevan
+22	1822	operaatio	operaatio operaation operaatiota operaatiosta operaatiossa operaatioon operaatioita operaatiot operaatioihin operaatioiden operaatioissa operaatioista operaatiolle operaationsa operaatiolla
+23	1823	nolla	nolla nollaa nollasta nollaan nollan nollassa nollille nollat nollia nollalla nollaksi nollilla nollissa nolliin nollista
+24	1824	varustettu	varustettu varustettuja varustettuna varustetun varustetut varustettua varustetulla varustettujen varustettuun varustetussa varustetuissa varustetusta varustetuista varustettuihin varustettuina varustetuilla varustetulle varustetuille
+25	1825	paljonko	paljonko
+26	1826	riippuen	riippuen
+27	1827	torstaina	torstaina
+28	1828	nälkä	nälkä nälkään nälkää nälän nälässä nälästä
+29	1829	sektori	sektorin sektori sektorilla sektorille sektoria sektorilta sektoriin sektoreilla sektorista sektorissa sektoreille sektoreita sektorit sektorien sektoreiden sektoreista sektoreihin
+30	1830	sijoittua	sijoittui sijoittuu sijoittunut sijoittuvat sijoittuva sijoittuivat sijoittua sijoittuen sijoittumalla sijoittuisi sijoittumaan sijoitu
+31	1831	henkilökunta	henkilökunta henkilökunnan henkilökuntaa henkilökunnalle henkilökuntaan henkilökunnasta henkilökunnalta henkilökunnalla henkilökuntamme henkilökuntansa henkilökunnassa
+32	1832	seistä	seisoo seisomaan seisoi seistä seisten seisovat seiso seison seissyt seisova seisot seisoin seisoivat seisominen seisomassa seisomme seistessä seisoisi seistään seisoimme seisseet seisoma seisomalla seisomisen seisomista
+33	1833	akku	akku akun akut akkuja akkua akkujen akulla akusta akuista akkuun akkuihin akuissa akuilla akussa akulle akkusi
+34	1834	korva	korvat korviin korvien korvan korva korvia korvaa korvasta korvissa korvalla korvaan korville korvassa korvansa korvilla korvista korvani korvalle korvin
+35	1835	tulkita	tulkita tulkitsee tulkittu tulkitaan tulkitsi tulkitsemaan tulkitsen tulkinnut tulkitsevat tulkittiin tulkitset tulkitsivat tulkitseminen tulkitsin tulkitse tulkittava tulkiten tulkitsema tulkitsemista tulkittaisiin tulkitsemalla tulkitsemme tulkitseva
+36	1836	ii	ii iin iissä iihin
+37	1837	vähäinen	vähäinen vähäistä vähäisiä vähäiset vähäisen vähäiseksi vähäisempi vähäisempää vähäisestä vähäisiksi vähäisin vähäisten vähäisellä vähäisempiä vähäisenä vähäisessä vähäiseen vähäisemmät vähäisemmäksi vähäisistä vähäisillä vähäiselle vähäisemmän vähäisinä vähäiseltä vähäisiin
+38	1838	taata	taata takasin taattu takasi taataan taattua takaamaan takaavat takaamiseksi takaisi taannut takaaminen takasivat taattava taatakseen takaamme takaama takaan takaat taattaisiin takaamassa taattiin takaamalla takaaman takaamiseen takaava
+39	1839	tanssi	tanssi tanssin tanssit tanssista tanssiin tanssia tansseissa tansseja tanssien tanssissa tansseihin tansseista tanssilla tanssiksi tanssille tanssinsa
+40	1840	tuottaja	tuottaja tuottajat tuottajan tuottajien tuottajana tuottajia tuottajalle tuottajille tuottajaksi tuottajaa tuottajista tuottajilta tuottajalta tuottajina tuottajalla tuottajiin tuottajilla tuottajiksi tuottajasta tuottajansa tuottajaan
+41	1841	kännykkä	kännykän kännykkä kännykällä kännykkää kännykkään kännykät kännykästä kännyköitä kännyköiden kännykässä kännykkänsä kännyköistä kännykälle kännykkäsi kännykkäni kännyköissä kännyköihin kännyköillä
+42	1842	karhu	karhu karhun karhua karhut karhuja karhujen karhusta karhulle karhuun karhuista karhulla karhuksi
+43	1843	perinne	perinne perinteet perinteitä perinnettä perinteen perinteistä perinteiden perinteeseen perinteestä perinteisiin perinteeksi perinteessä perinteenä perinteensä perinteissä perinteemme perinteelle perinteille
+44	1844	sentti	senttiä sentin snt sentillä senttejä sentti senttiin sentistä senttien sentit
+45	1845	laajentaa	laajentaa laajennettu laajentamaan laajentaminen laajennetaan laajentamista laajensi laajentanut laajennettiin laajentamiseen laajentavat laajenna laajentamisen laajentamisesta laajentamalla laajentamiseksi laajennettava laajentamassa laajennamme laajennettavissa laajentaisi laajensivat laajennettaisiin laajentaakseen
+46	1846	pettää	pettää petti pettänyt petä petit pettäminen pettämistä pettämisestä pettivät petin petetyksi petetty pettävät pettämään pettämisen pettämätön pettävä pettämiseen petettyä pettäessä petetään pettäisi petettiin petän petetyiksi
+47	1847	ikään	ikään
+48	1848	käsin	käsin
+49	1849	liittyen	liittyen
+50	1850	kipu	kipua kipu kivun kivut kipuja kivusta kipuun kivuista kipujen kipuihin kipuna kivussa kivuissa kivulle kipunsa kivulla
+51	1851	valmistautua	valmistautua valmistautuu valmistautunut valmistautuminen valmistaudu valmistautuvat valmistautumaan valmistaudutaan valmistautui valmistautumista valmistautumisen valmistautumassa valmistautuneet valmistautuivat valmistautumiseen valmistaudumme valmistautumisesta valmistautuessa valmistaudun valmistauduin valmistauduttava valmistauduttiin valmistautuneita valmistauduttu valmistautumisessa valmistautuva valmistautuneena valmistauduttaessa valmistaudut valmistauduimme valmistautuen valmistautumatta
+52	1852	kukin	kukin kunkin kulloinkin kullakin kullekin kussakin kutakin kuinkin kustakin kuhunkin kultakin kunakin
+53	1853	hammas	hampaat hampaiden hampaita hammas hammasta hampaan hampaisiin hampaissa hampaista hampain hampaansa hampailla hampaille hampaani hampaasi hampaasta hampaaseen hammasten
+54	1854	syyte	syytteen syyte syytteet syytettä syytteeseen syytteitä syytteistä syytteiden syytteessä syytteisiin syytteestä syytteiltä
+55	1855	paistaa	paistaa paista paistoi paistettu paistetaan paistettua paistettuja paistetut paistamista paistettuna paistamiseen paistamaan paistamisen paistetun paistaminen paistan paistaessa paistanut paistoin paistaisi paistat paistamalla paistavat paistettaessa paistetusta paistettiin paistettujen paistoivat paistamassa
+56	1856	nimetä	nimetty nimetä nimettiin nimetään nimennyt nimeää nimeä nimeäminen nimeämään nimesivät nimesi nimeämä nimeämistä nimesin nimeämällä nimeävät nimeämisestä nimeämätön nimeämisen nimeämättä nimeämisessä nimeämiseen nimettäisiin nimeämättömän
+57	1857	kansi	kansi kannen kanteen kannessa kannella kannet kantta kannelle kannesta kansien kansissa kansiin kansia kannelta kannetta kansilla kansista kanneksi kansille
+58	1858	negatiivinen	negatiivinen negatiivista negatiivisia negatiiviset negatiivisen negatiiviseksi negatiivisten negatiivisella negatiiviseen negatiivisena negatiivisessa negatiivisesta negatiivisiin negatiivisista negatiivisina negatiivisiksi negatiivisilla negatiiviselta negatiivisille
+59	1859	jännittää	jännittää jännittävää jännittävä jännitti jännitä jännittäviä jännittänyt jännittämään jännittävän jännitän jännittävin jännitetään jännitin jännittävät jännittävältä jännittävässä jännittävien jännittäväksi jännittävästä jännittäminen jännittävämpi jännittävään jännitetty jännittävänä jännittävällä jännitettiin jännittäisi jännittävistä
+60	1860	into	innolla into intoa innosta innon intona intoon intoilla
+61	1861	pomo	pomo pomon pomot pomolle pomoa pomoksi pomona pomojen pomoja pomonsa pomolta pomoni pomosi pomolla pomoille pomoista
+62	1862	semmoinen	semmonen semmoinen semmoista semmosta semmosia semmone semmosen semmoisia semmoiseen semmoisen semmoiset semmoisesta semmosessa semmoisessa semmoisella semmoseen semmoiseksi
+63	1863	maalata	maalata maalattu maalaa maalasi maalannut maalaamaan maalataan maalattiin maalasin maalaan maalaaminen maalaavat maalaamalla maalaamista maalasivat maalattua maalaamisen maalaamiseen maalaama maalaamisesta maalatun maalaamassa maalaat maalattuna maalasimme maalaten maalattava maalatusta maalatessa maalaaman
+64	1864	lause	lause lauseen lauseita lausetta lauseet lauseessa lauseeseen lauseesta lauseiden lauseella lauseista lauseilla lauseensa lauseissa lauseisiin lauseesi lauseeni
+65	1865	tasainen	tasainen tasaista tasaisen tasaiseksi tasaisin tasaiseen tasaisena tasaisessa tasaisella tasaisia tasaisempi tasaiset tasaisempaa tasaiselle tasaisesta tasaisemman tasaiselta tasaisilla tasaisissa tasaisten tasaisemmaksi tasaisina
+66	1866	valtaosa	valtaosa valtaosan valtaosin valtaosalla valtaosassa valtaosalle valtaosaa valtaosasta valtaosaan
+67	1867	avain	avain avaimet avaimen avaimia avainta avaimella avainten avaimilla avaimista avaimena avaimeen avaimesta avaimien avaimessa
+68	1868	satu	satu satuin satuja satut satun sadun sadut satua satujen sadusta saduissa sadussa saduista satuun satuihin
+69	1869	piirre	piirteitä piirtein piirre piirteet piirteistä piirteiden piirrettä piirteisiin piirteen piirteenä piirteensä piirteestä piirteillä piirteinä
+70	1870	haku	haku haussa hakuun hakua haun haut hakuja haulla hausta hakujen hauista hauissa hakuna hakuihin
+71	1871	vaalia	vaalien vaalit vaalia vaalimaan vaalin vaalii vaaliminen vaali vaalitaan vaalivat vaaliva vaalimista vaalinut
+72	1872	vessa	vessassa vessaan vessa vessan vessat vessasta vessoja vessaa vessoissa vessojen vessoista vessoihin
+73	1873	hassu	hassua hassu hassulta hassuja hassumpi hassun hassut hassuna hassumpaa hassussa hassulla hassuun hassulle hassuilta hassusta
+74	1874	useimmiten	useimmiten
+75	1875	turva	turvassa turva turvin turvaa turvaan turvan turvana turvaksi turvat turvasta
+76	1876	siirto	siirto siirron siirtoa siirrosta siirrot siirtoon siirtoja siirrolla siirrossa siirtojen siirroista siirtonsa siirtoihin siirroilla siirroissa siirrolle
+77	1877	taksi	taksi taksin taksilla taksit taksia taksien taksiin taksissa takseja taksista takseilla takseissa takseista takseille takseihin taksille
+78	1878	vasemmisto	vasemmisto vasemmiston vasemmistoa vasemmistolle vasemmistosta vasemmistoon vasemmistolla vasemmistossa vasemmistolta
+79	1879	rauhallinen	rauhallinen rauhallista rauhallisena rauhallisia rauhallisen rauhallisempi rauhallisempaa rauhalliseen rauhallisella rauhallisin rauhallisesta rauhallisessa rauhallisina rauhalliselta rauhalliset rauhalliseksi rauhallisempaan rauhallisempia rauhallisissa rauhallisemman rauhallisten rauhalliselle rauhallisemmaksi
+80	1880	paljastua	paljastuu paljastui paljastunut paljastua paljastuvat paljastuisi paljastuivat paljastuminen paljastu paljastumisen paljastumista paljastumisesta paljastumiseen
+81	1881	voimakkaasti	voimakkaasti voimakkaammin voimakkaimmin
+82	1882	harrastus	harrastus harrastukset harrastuksen harrastuksia harrastuksiin harrastusta harrastuksena harrastusten harrastuksesta harrastukseen harrastuksista harrastukseni harrastuksensa harrastuksissa harrastukseksi harrastuksessa harrastuksille harrastuksesi
+83	1883	as	as aseista aseilla asein aseissa aseille aseina aseiksi
+84	1884	puoliväli	puolivälissä puoliväliin puolivälin puolivälistä puoliväli puolessavälissä puolenvälin puoleenväliin puoliväliä puolestavälistä puoltaväliä
+85	1885	iltapäivä	iltapäivällä iltapäivän iltapäivä iltapäivää iltapäivänä iltapäivästä iltapäivään iltapäiväksi iltapäivälle iltapäivässä iltapäivät
+86	1886	roska	roskaa roskiin roskat roska roskia roskan roskien roskista roskasta roskaan roskaksi roskalta roskana
+87	1887	maahanmuuttaja	maahanmuuttajien maahanmuuttajia maahanmuuttajat maahanmuuttaja maahanmuuttajista maahanmuuttajille maahanmuuttajan maahanmuuttajilla maahanmuuttajaa maahanmuuttajiin maahanmuuttajalle maahanmuuttajilta maahanmuuttajina maahanmuuttajalla maahanmuuttajana
+88	1888	komea	komea komean komeita komeat komeaa komein komealla komealta komeaksi komeana komeaan komeasta komeista komeiden komeassa komeimmat komeampi komeimman komeisiin komeimmista komeilla
+89	1889	tanssia	tanssii tanssia tanssimaan tanssivat tanssitaan tanssit tanssimista tanssimme tanssinut tanssiminen tanssimassa tanssiva tanssittiin tanssimisen tanssien tanssimisesta tanssiessa tanssimalla tanssittu tanssimiseen tansseissa tansseja tansseihin tansseista
+90	1890	sormi	sormet sormi sormien sormella sormen sormia sormea sormilla sormin sormensa sormessa sormeni sormeen sormissa sormista sormiin sormille sormesta sormesi sormelle
+91	1891	islam	islamin islam islamia islamiin islamista islamissa islamille
+92	1892	juoksu	juoksu juoksun juoksua juoksussa juoksuun juoksut juoksusta juoksulla juoksuja juoksujen juoksunsa juoksuista juoksuksi juoksuissa
+93	1893	konsertti	konsertti konsertin konsertissa konserttiin konsertteja konserttia konsertit konserteissa konsertista konserttien konsertteihin konserteista konserttinsa konsertilla
+94	1894	keltainen	keltainen keltaisen keltaista keltaiset keltaisia keltaisella keltaiseen keltaisesta keltaiseksi keltaisessa keltaisten keltaisilla keltaisena keltaisista keltaisiin keltaisiksi keltaiselle keltaisissa keltaisilta
+95	1895	sähköposti	sähköpostia sähköpostin sähköposti sähköpostilla sähköpostiin sähköpostit sähköposteja sähköpostissa sähköpostien sähköposteihin sähköpostista sähköpostisi sähköposteista sähköposteissa sähköpostini sähköpostina sähköpostinsa
+96	1896	puolustusvoimat	puolustusvoimien puolustusvoimat puolustusvoimain puolustusvoimissa puolustusvoimille puolustusvoimilla puolustusvoimista puolustusvoimia puolustusvoimiin puolustusvoimilta
+97	1897	yöllä	yöllä
+98	1898	työttömyys	työttömyys työttömyyden työttömyyttä työttömyydestä työttömyyteen työttömyydessä työttömyydellä
+99	1899	parisuhde	parisuhde parisuhteessa parisuhteen parisuhdetta parisuhteeseen parisuhteesta parisuhteiden parisuhteita parisuhteet parisuhteissa parisuhteista parisuhteensa parisuhteelle parisuhteisiin parisuhteeni parisuhteemme
+100	1900	valmistaja	valmistaja valmistajan valmistajat valmistajien valmistajia valmistajalta valmistajaa valmistajilta valmistajalle valmistajista valmistajana valmistajille valmistajilla valmistajalla valmistajasta valmistajaksi valmistajiin valmistajansa valmistajaan

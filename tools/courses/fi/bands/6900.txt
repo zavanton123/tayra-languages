@@ -1,0 +1,100 @@
+1	6801	kommentointi	kommentointi kommentointia kommentoinnin kommentointiin kommentoinnista
+2	6802	viihdyttää	viihdyttää viihdyttämään viihdytti viihdyttämässä viihdyttivät viihdyttänyt viihdyttävät
+3	6803	erotuomari	erotuomari erotuomarin erotuomarit erotuomarina erotuomaria erotuomariksi erotuomarille
+4	6804	lepakko	lepakot lepakko lepakoita lepakon lepakoiden lepakoista lepakkoa
+5	6805	erikoislääkäri	erikoislääkäri erikoislääkärin erikoislääkärille erikoislääkäreitä erikoislääkärit erikoislääkäriä
+6	6806	vireillä	vireillä vireille
+7	6807	yhdyntä	yhdynnän yhdyntä yhdynnässä yhdyntää yhdyntään yhdynnästä yhdyntöjä
+8	6808	hima	himaan himassa hima himasta himaa himojen himoja
+9	6809	niukka	niukka niukkaa niukat niukan niukalla niukkoja niukkaan niukin niukkojen niukassa
+10	6810	liioittelu	liioittelua liioittelu liioittelulta liioittelun liioitteluun liioittelusta liioitteluna
+11	6811	kouluttautua	kouluttautunut kouluttautua kouluttautuminen kouluttautumista kouluttautumaan kouluttautumiseen kouluttautui kouluttautuu kouluttautumisen kouluttautuvat
+12	6812	mielenterveysongelma	mielenterveysongelmat mielenterveysongelmia mielenterveysongelmista mielenterveysongelmien mielenterveysongelmiin mielenterveysongelma
+13	6813	yhteiskoulu	yhteiskoulun yhteiskoulu yhteiskoulussa
+14	6814	jooga	jooga joogaa joogan joogassa joogaan joogasta
+15	6815	vaikuttavuus	vaikuttavuus vaikuttavuutta vaikuttavuuden vaikuttavuudesta
+16	6816	itseluottamus	itseluottamus itseluottamusta itseluottamuksen itseluottamuksella
+17	6817	maastohiihto	maastohiihto maastohiihdon maastohiihdossa
+18	6818	gluteeniton	gluteeniton gluteenitonta gluteenittomia gluteenittoman gluteenittomien gluteenittomat
+19	6819	promille	promillea promillen promille promilleja
+20	6820	kommandiittiyhtiö	ky kommandiittiyhtiö
+21	6821	ahne	ahne ahneita ahneet ahneen ahneeksi ahneiden ahneena
+22	6822	pyhimys	pyhimys pyhimyksen pyhimyksiä pyhimysten pyhimykset pyhimykseksi pyhimystä pyhimyksenä
+23	6823	oliiviöljy	oliiviöljyä oliiviöljy oliiviöljyn oliiviöljyllä oliiviöljyssä oliiviöljystä
+24	6824	alusvaate	alusvaatteita alusvaatteet alusvaatteissa alusvaatteiden alusvaatteista alusvaatteisiin alusvaate
+25	6825	mokoma	mokoma mokoman mokomat mokomaa mokomin
+26	6826	vakaumus	vakaumuksen vakaumus vakaumuksensa vakaumusta vakaumukseen vakaumuksesta vakaumuksia vakaumusten
+27	6827	humala	humala humaloja humalan humalaa humalasta humalat
+28	6828	voide	voide voidetta voiteen voiteita voiteet voiteiden voiteella
+29	6829	efekti	efekti efektiä efektin efektit efektejä efektien efektistä
+30	6830	kunnallisvaalit	kunnallisvaaleissa kunnallisvaalit kunnallisvaalien kunnallisvaaleihin
+31	6831	sprintti	sprintin sprintissä sprintti sprintit sprinttiin
+32	6832	tukahduttaa	tukahduttaa tukahduttamaan tukahduttaminen tukahdutti tukahduttava tukahdutettu tukahdutetaan tukahduttavat tukahduttamiseen tukahduttamisesta tukahduttanut tukahdutettiin
+33	6833	nauhoittaa	nauhoittaa nauhoitti nauhoitettu nauhoitettiin nauhoittamaan nauhoittanut nauhoitetaan nauhoittaminen nauhoita
+34	6834	ohjelmoida	ohjelmoida ohjelmoitu ohjelmoi ohjelmoidaan ohjelmoinut ohjelmoitava ohjelmoimaan
+35	6835	yksityiskohtaisesti	yksityiskohtaisesti yksityiskohtaisemmin
+36	6836	selittyä	selittyy selittyä selittyvät selity selittynee
+37	6837	pidellä	pitelee piteli pidellä pidellen pitelemään pitele pitelemistä pitelemässä pitelevät pitelivät pitelevä pideltävä pidellyt
+38	6838	päätelmä	päätelmiä päätelmä päätelmät päätelmän päätelmään päätelmiin päätelmien päätelmänsä päätelmää
+39	6839	merkeli	merkelin merkelille merkeliä
+40	6840	prikaati	prikaatin prikaati prikaatissa prikaatista prikaatia prikaatiin prikaatit
+41	6841	tiedottaja	tiedottaja tiedottajan tiedottajana tiedottajat
+42	6842	kilpailutus	kilpailutuksen kilpailutus kilpailutuksessa kilpailutusta kilpailutukseen kilpailutuksesta kilpailutuksissa kilpailutukset kilpailutuksia
+43	6843	lennättää	lennättää lennätti lennätettiin lennätetään lennätin lennättämään lennätetty lennättävät
+44	6844	ennenaikainen	ennenaikaista ennenaikainen ennenaikaisen ennenaikaiseen ennenaikaiset ennenaikaisia ennenaikaisesta ennenaikaisten ennenaikaisiin ennenaikaiselle ennenaikaisena
+45	6845	kahdestaan	kahdestaan
+46	6846	kolmisen	kolmisen
+47	6847	puolisen	puolisen
+48	6848	radikaalisti	radikaalisti
+49	6849	maahanmuuttopolitiikka	maahanmuuttopolitiikka maahanmuuttopolitiikan maahanmuuttopolitiikkaan maahanmuuttopolitiikkaa maahanmuuttopolitiikasta maahanmuuttopolitiikassa
+50	6850	taitoluistelu	taitoluistelu taitoluistelun taitoluistelussa taitoluistelua
+51	6851	laiminlyönti	laiminlyönti laiminlyönnistä laiminlyönnit laiminlyöntiä laiminlyönnin laiminlyönneistä laiminlyöntejä laiminlyöntiin laiminlyöntien
+52	6852	säästöpankki	säästöpankki säästöpankin säästöpankkien säästöpankit säästöpankkiin
+53	6853	pikkulapsi	pikkulapsi pikkulasten pikkulapsia pikkulapset pikkulapsen pikkulapsille pikkulapsena pikkulasta
+54	6854	tuulla	tuulee tuulemaan tuule tuullut tuulla tuulen tuulet tuulin
+55	6855	vaaka	vaaka vaa'an vaakaa vaa'alla vaakaan vaa'at vaa'assa
+56	6856	sanella	sanella sanelee sanelema saneli sanelevat sanelemaan sanele sanellut sanellaan
+57	6857	keritä	kerennyt kerkiää kerinnyt kerkiä keritty keretä keritään
+58	6858	haamu	haamu haamut haamun haamuja haamujen haamua haamuna
+59	6859	aleta	alenee aleneminen alenevat alenemisen alenemista alenemisesta alenevassa alene alenemiseen alenema alenivat aleni aletaan alettiin alettu aleta alettava alettaisiin
+60	6860	abstrakti	abstrakti abstrakteja abstraktia abstraktin abstraktit abstraktiin abstraktista abstraktilla abstraktien
+61	6861	konstaapeli	konstaapeli konstaapelin konstaapelia konstaapelit
+62	6862	aliarvioida	aliarvioida aliarvioi aliarvioivat aliarvioidaan aliarvioitu aliarvioinut aliarvioit
+63	6863	halme	halme halmeen halmeilla halmetta
+64	6864	ankarasti	ankarasti ankarammin
+65	6865	hallussapito	hallussapidosta hallussapito hallussapidon hallussapitoon hallussapitoa
+66	6866	inka	inka inkan inkojen inkat
+67	6867	buffalo	buffalo buffalon buffalossa buffaloon buffalosta
+68	6868	samppanja	samppanjaa samppanja samppanjan shampanjaa shampanja samppanjalla
+69	6869	ilmaus	ilmaus ilmausta ilmauksia ilmaukset ilmauksen
+70	6870	viitonen	vitosen vitonen viitonen viitosen viitoset
+71	6871	country	country countryn countrya
+72	6872	valkokangas	valkokankaalla valkokankaalle valkokankaan valkokankaalta valkokangas valkokankailla valkokankaille
+73	6873	puoluejohtaja	puoluejohtaja puoluejohtajien puoluejohtajat puoluejohtajan puoluejohtajista puoluejohtajana puoluejohtajaksi
+74	6874	silleen	sillee sillain sillein silleen
+75	6875	salkkari	salkkarit salkkari salkkareita salkkareissa salkkareiden
+76	6876	ruka	rukalla ruka rukan ruista rukiin rukalle
+77	6877	mätä	mätä mätää mätiä mädän mädät mädin mädistä
+78	6878	vähentyä	vähentyä vähentyminen vähentyessä vähentyneet vähentyi vähentyy vähentyvät
+79	6879	langeta	lankeaa lankesi lankeavat langeta lankea lankesin lankeaisi lankesivat langettavan langettava langettavia
+80	6880	tanner	tanner tannerin tanneria tannerille
+81	6881	asetella	asettele aseteltu asetella asetellaan asettelee asetteli aseteltua asetellut aseteltiin asettelemaan aseteltuna
+82	6882	loppusuora	loppusuoralla loppusuora loppusuoralle loppusuoran
+83	6883	kulkija	kulkija kulkijoita kulkijat kulkijaa kulkijan kulkijoiden kulkijoille kulkijoista
+84	6884	lomailla	lomailla lomailemaan lomailee lomailemassa lomaillut lomailevat lomaillessa lomaili lomailen
+85	6885	tilastollinen	tilastollinen tilastollisen tilastollisia tilastollista tilastolliset tilastollisten tilastollisessa tilastolliseen tilastollisesta
+86	6886	peruskorjaus	peruskorjaus peruskorjauksen peruskorjausta peruskorjaukseen peruskorjauksessa peruskorjaukset peruskorjauksia peruskorjauksesta
+87	6887	kuristaa	kuristaa kuristi kuristettu kuristamalla kuristaminen kuristanut kuristettiin kuristin kuristamaan kurista
+88	6888	uutistoimisto	uutistoimisto uutistoimiston uutistoimistot uutistoimistojen
+89	6889	subjektiivinen	subjektiivinen subjektiivista subjektiivisen subjektiivisia subjektiiviset subjektiivisesta subjektiiviseen
+90	6890	rasvainen	rasvainen rasvaista rasvaisia rasvaiset rasvaisen rasvaisten
+91	6891	ananas	ananas ananasta ananaksen ananaksesta ananakset
+92	6892	sarjataso	sarjatasolla sarjatason sarjatasolle sarjataso sarjatasoa sarjatasoilla sarjatasolta
+93	6893	tasapainoinen	tasapainoinen tasapainoisen tasapainoisia tasapainoista tasapainoisempi tasapainoiseksi tasapainoiseen tasapainoiselta
+94	6894	kurkata	kurkkaamassa kurkkaa kurkata kurkkasin kurkkaan
+95	6895	keskushyökkääjä	keskushyökkääjä keskushyökkääjänä keskushyökkääjän keskushyökkääjäksi
+96	6896	tipu	tipu tipun tipuin tiput tipuja
+97	6897	vastuuton	vastuutonta vastuuton vastuuttomia vastuuttoman
+98	6898	koeaika	koeajan koeajalla koeaika koeaikaa koeajalle koeajoissa
+99	6899	rupla	rupla ruplaa ruplan ruplia ruplaan
+100	6900	tavaramerkki	tavaramerkki tavaramerkin tavaramerkiksi tavaramerkkejä tavaramerkkiä tavaramerkit tavaramerkkinsä tavaramerkkien tavaramerkkinä

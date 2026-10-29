@@ -1,0 +1,100 @@
+1	2301	tasavalta	tasavallan tasavalta tasavallassa tasavaltaa tasavaltaan tasavallasta tasavallalle tasavallaksi tasavaltojen
+2	2302	muisti	muistiin muistia muistissa muistin muisti muistista muistini muistinsa muistilla muisteja muistien muistit
+3	2303	kaupallinen	kaupallinen kaupallisen kaupalliset kaupallista kaupallisten kaupallisia kaupalliseen kaupallisessa kaupallisiin kaupallisesta kaupallisista kaupallisilla kaupallisella kaupalliseksi kaupallisissa kaupalliselle kaupallisena kaupallisille kaupalliselta
+4	2304	pop	pop poppia popin popista poppiin
+5	2305	sielu	sielu sielun sielunsa sielua sieluni sielut sielujen sieluun sieluja sielusta sielusi sielussa sielulle sieluista sielumme sieluille
+6	2306	kuudes	kuudes kuudennen kuudenneksi kuudennella kuudentena kuudennessa kuudennesta kuudenteen kuudennelle kuudennelta kuudetta
+7	2307	aikaväli	aikavälillä aikavälin aikaväli aikavälille aikaväliltä aikaväliä
+8	2308	kirkas	kirkas kirkasta kirkkaan kirkkain kirkkaita kirkkaat kirkkaana kirkkaampi kirkkaalta kirkkaassa kirkkaalla kirkkaina kirkkaiden kirkkaasta kirkkaista kirkkaaksi kirkkaissa kirkkailla kirkkaisiin kirkkaaseen
+9	2309	haista	haisee haista haise haiseva haisevat haisi haisemaan haisevan haissut haisevia haisevaa haisivat haistakoon haisisi
+10	2310	mainio	mainio mainiota mainion mainioita mainiot mainioin mainiosta mainiolta mainiossa mainiolla mainioon mainiona
+11	2311	pakata	pakata pakkaa pakattu pakataan pakkaamaan pakkaan pakattuna pakannut pakkasi pakkaaminen pakattua pakkasin pakattiin pakkaamisen pakkaamista pakkaavat pakkaamiseen pakattava pakatun pakkaamme pakkaat pakkasivat pakkaamisessa pakkasimme pakkaamassa pakkaamisesta
+12	2312	pakkanen	pakkasta pakkanen pakkasessa pakkasella pakkasen pakkaseen pakkasilla pakkaselle pakkaset pakkasia pakkasesta pakkasten pakkasin pakkasissa pakkasista pakkasiin pakkaselta
+13	2313	kakku	kakun kakkua kakku kakusta kakkuja kakkuun kakut kakussa kakkujen kakulla
+14	2314	diesel	di diesel dieselin dieseliä dieselillä dieselit dieselistä dieseliin dieseleitä dieselissä
+15	2315	kulu	kuluja kulut kulujen kuluihin kuluista kulusta kulu kulua kulun kuluissa kuluina kulunsa kuluksi kuluineen kulussa kuluilla kuluiksi
+16	2316	tyytyä	tyytyä tyytymätön tyytymään tyytyy tyydyttävä tyytymättömiä tyydyn tyydy tyytynyt tyytyi tyydyttävää tyytyvät tyytyminen tyydyttävän tyydytään tyydyin tyytymättömät tyytyivät tyytyisi tyydyttäviä tyydytty tyytymättömänä tyydyttävällä tyytymättömien tyydymme tyydyttiin tyytymättömän tyydyttävään tyydyttävänä tyydyttävät
+17	2317	vuosisata	vuosisadan vuosisatoja vuosisatojen vuosisadalla vuosisataa vuosisata vuosisadalta vuosisadalle vuosisadassa vuosisatoina vuosisadat vuosisataan vuosisatoihin vuosisadasta
+18	2318	konkurssi	konkurssiin konkurssi konkurssin konkurssissa konkurssia konkurssien konkursseja konkurssista konkurssit konkurssilta
+19	2319	aukko	aukko aukon aukkoja aukkoa aukot aukosta aukkoon aukkojen aukoista aukolla aukossa aukkoihin aukoksi
+20	2320	hukkaan	hukkaan hukassa
+21	2321	rasva	rasvaa rasva rasvan rasvat rasvoja rasvojen rasvasta rasvassa rasvaan rasvalla rasvoista rasvoihin rasvaksi
+22	2322	kuningatar	kuningatar kuningattaren kuningattareksi kuningatarta kuningattarelle kuningattarena kuningattaret kuningattaresta kuningattarelta kuningattaria kuningattareen kuningattarella
+23	2323	itsemurha	itsemurhan itsemurha itsemurhaa itsemurhia itsemurhaan itsemurhasta itsemurhat itsemurhien itsemurhaksi itsemurhista itsemurhiin itsemurhalla itsemurhassa
+24	2324	kassa	kassalla kassa kassan kassaan kassalle kassasta kassaa kassoilla kassassa kassojen kassalta kassat kassoille kassoja
+25	2325	strategia	strategia strategian strategiaa strategiassa strategiaan strategiasta strategioita strategiat strategiamme strategiansa strategiana strategialla strategioiden strategioista strategioihin strategiaksi
+26	2326	pizza	pizza pizzaa pizzan pitsaa pitsa pizzat pizzasta pizzoja pizzaan pizzalle pizzassa pizzalla pizzojen pizzoista
+27	2327	huominen	huomiseen huomisen huominen huomisesta huomista huomiseksi huomiselle huomisessa
+28	2328	pohjola	pohjolan pohjola pohjolassa pohjolaan pohjolasta pohjolaa
+29	2329	ee	een ee ein eitä eessä
+30	2330	prinssi	prinssi prinssin prinssiä prinssit prinssille prinssiksi prinssistä prinssejä prinssien
+31	2331	entisestään	entisestään
+32	2332	kotoisin	kotoisin
+33	2333	show	show
+34	2334	laukku	laukku laukun laukut laukkuja laukkua laukussa laukkuun laukusta laukkujen laukkunsa laukkuni laukuista laukuissa laukkuihin laukkusi laukulla
+35	2335	tervetullut	tervetullut tervetulleita tervetulleeksi tervetulleiksi tervetullutta tervetulleena
+36	2336	valua	valuu valui valuvat valua valuma valu valunut valumaan valuvan valuivat valuva valuisi valumista valuen valuminen valuessa valumisen valun valumassa
+37	2337	pettymys	pettymys pettymyksen pettymyksiä pettymystä pettymykseksi pettymykseen pettymykset pettymyksestä pettymysten pettymyksenä pettymyksensä pettymyksistä pettymyksiin pettymykseltä
+38	2338	ulkonäkö	ulkonäkö ulkonäön ulkonäköä ulkonäöstä ulkonäköön ulkonäkönsä ulkonäöllä ulkonäössä ulkonäköni ulkonäöltä ulkonäkösi ulkonäölle
+39	2339	alko	alko alkon alkosta alkossa alkoon alkoissa alkot alkolle alkojen alkolla
+40	2340	karsinta	karsinnoissa karsinnat karsinta karsinnassa karsinnan karsintojen karsintaan karsintoihin karsintaa karsinnoista karsintoja karsinnasta
+41	2341	käsky	käskyn käsky käskystä käskyjä käskyä käskyt käskyjen käskyistä käskyllä käskynsä käskyihin käskyssä käskyyn
+42	2342	huhu	huhuja huhut huhujen huhu huhun huhua huhuista huhuihin huhuissa huhusta huhuilla
+43	2343	väsynyt	väsynyt väsyneitä väsyneenä väsynyttä väsyneet väsyneen väsyneeltä väsyneeksi väsyneempi väsyneinä väsyneiden väsyneille väsyneiltä väsyneelle
+44	2344	kiinteä	kiinteä kiinteän kiinteää kiinteitä kiinteät kiinteiden kiinteään kiinteällä kiinteänä kiinteästä kiinteässä kiinteäksi kiinteistä kiinteissä kiinteisiin kiinteillä kiinteätä kiinteinä kiinteämpi kiinteälle
+45	2345	syyttäjä	syyttäjä syyttäjän syyttäjälle syyttäjät syyttäjällä syyttäjänä syyttäjien syyttäjää syyttäjiä syyttäjille
+46	2346	työvoima	työvoiman työvoimaa työvoima työvoimasta työvoimaan työvoimana työvoimalla työvoimalle työvoimaksi
+47	2347	jäsenyys	jäsenyys jäsenyyden jäsenyyttä jäsenyydestä jäsenyyteen jäsenyydet jäsenyydellä jäsenyydelle jäsenyytensä jäsenyyksiä
+48	2348	kertomus	kertomus kertomuksia kertomukset kertomuksen kertomusta kertomusten kertomukseen kertomuksessa kertomuksiin kertomuksensa kertomuksista kertomuksesta kertomuksissa kertomuksella
+49	2349	sika	sika sian sikaa sikoja siat sikojen sikana sioille sioista sialla sioilla siasta siaksi sialle sialta
+50	2350	vertailu	vertailun vertailu vertailussa vertailua vertailuun vertailuja vertailusta vertailuissa vertailut vertailuksi vertailuna vertailulla vertailujen
+51	2351	komissio	komission komissio komissiolle komissiota komissiolta komissiossa komissioon komissiolla komissiosta
+52	2352	ohjelmisto	ohjelmisto ohjelmiston ohjelmistoon ohjelmistoa ohjelmistojen ohjelmistot ohjelmistossa ohjelmistoja ohjelmistosta ohjelmistolla ohjelmistoihin ohjelmistoista ohjelmistonsa ohjelmistoissa
+53	2353	virolainen	virolainen virolaiset virolaisen virolaisia virolaisten virolaista virolaisille virolaisista virolaisesta virolaiselle virolaisilla virolaisessa virolaisiin virolaisella
+54	2354	läheisyys	läheisyydessä läheisyyteen läheisyys läheisyyttä läheisyydestä läheisyyden
+55	2355	varattu	varattu varattuna varattuja varatut varattua varatun varattujen varattuun varatuista varatusta varatulle varatussa varatuksi varatuilla
+56	2356	käännös	käännös käännöksen käännöksiä käännökset käännöstä käännöksestä käännöksessä käännösten käännöksissä käännöksistä käännökseen käännöksiin käännöksenä
+57	2357	työntää	työntää työnsi työnnä työnnetään työnnettiin työntämään työnsin työnnetty työntänyt työntävät työntämällä työnsivät työntäminen työnnän työnnät työntäen työnnettävä työntämässä työntämistä työntäneet työntävä työntäisi
+58	2358	pääoma	pääoman pääomaa pääoma pääomat pääomia pääomien pääomasta pääomalle pääomaan pääomalla pääomansa
+59	2359	pudottaa	pudotti pudottaa pudottanut pudotettiin pudottamaan pudotetaan pudotin pudottivat pudotettu pudottamalla pudottaminen pudottavat pujottaa pudottaisi pudotat pudottamista pudotettava pudottaen pudotella pudottamassa pudottamiseen pudotan pudottamisen
+60	2360	säännöllisesti	säännöllisesti säännöllisemmin
+61	2361	meininki	meininki meininkiä meiningillä meiningistä meiningin meininkiin
+62	2362	oppositio	opposition oppositio oppositiossa oppositioon oppositiota oppositiosta oppositiolle oppositiolla
+63	2363	syttyä	syttyi syttyy syttynyt syty syttyessä syttymään syttyvät syttyä syttyivät syttymisen syttyminen syttyisi syttymistä syttyvää syttymiseen syttyvä syttyvän syttymisestä sytyn syttyviä sytyttäneen
+64	2364	äänestäjä	äänestäjät äänestäjien äänestäjiä äänestäjä äänestäjille äänestäjistä äänestäjää äänestäjän äänestäjiin äänestäjillä äänestäjiltä äänestäjänsä äänestäjiksi äänestäjälle äänestäjällä äänestäjissä äänestäjäksi
+65	2365	puutarha	puutarha puutarhan puutarhassa puutarhaan puutarhasta puutarhaa puutarhat puutarhoissa puutarhoja puutarhojen puutarhoihin puutarhoista puutarhalle puutarhasi puutarhalla puutarhoineen
+66	2366	peräti	peräti
+67	2367	suorastaan	suorastaan
+68	2368	viimein	viimein
+69	2369	yhdysvaltalainen	yhdysvaltalainen yhdysvaltalaisen yhdysvaltalaiset yhdysvaltalaisten yhdysvaltalaista yhdysvaltalaisia yhdysvaltalaisista yhdysvaltalaiselle yhdysvaltalaisesta yhdysvaltalaisessa yhdysvaltalaisille yhdysvaltalaisella yhdysvaltalaisissa yhdysvaltalaisiin yhdysvaltalaiseen yhdysvaltalaisilla yhdysvaltalaiselta
+70	2370	tyylikäs	tyylikäs tyylikkään tyylikästä tyylikkäitä tyylikkäät tyylikkäämpi tyylikkäällä tyylikkäältä tyylikkääseen tyylikkäänä tyylikkäässä tyylikkäin tyylikkääksi tyylikkäästä tyylikkäissä tyylikkäistä tyylikkäillä
+71	2371	terroristi	terroristit terroristi terroristien terroristeja terroristin terroristia terroristiksi terroristeista terroristeille terroristeiksi terroristeihin terroristista terroristeina terroristeilla terroristeilta
+72	2372	maalivahti	maalivahti maalivahdit maalivahdin maalivahtien maalivahtia maalivahtina maalivahdiksi maalivahdilla maalivahdille maalivahdeista maalivahteja
+73	2373	tarjonta	tarjonta tarjontaa tarjonnan tarjonnasta tarjontaan tarjonnassa
+74	2374	ruskea	ruskea ruskeat ruskeaa ruskean ruskeita ruskeaksi ruskeaan ruskeasta ruskeiksi ruskealla ruskeiden ruskeassa ruskeista ruskeana ruskeissa
+75	2375	hymy	hymy hymyn hymyä hymyyn hymyillä hymyssä hymyllä hymyt hymystä hymynsä hymyjä
+76	2376	henry	henry henryn henryä henrylle
+77	2377	huikea	huikea huikean huikeat huikeaa huikeita huikealla huikeassa huikeasta huikeaan huikeista huikeisiin huikeiden
+78	2378	kalja	kaljaa kaljan kalja kaljat kaljalle kaljalla kaljasta kaljaan kaljoja
+79	2379	messu	messuilla messut messujen messuille messu messuja messun messussa messuun messuilta messua messuista messuihin messusta
+80	2380	sietää	sietää siedä sietämään sietämätön sietämätöntä sietäisi siedettävä sietävät sietämättömän sietänyt siedettävää sietämättömäksi siedettävän siedetään sietämättömiä siedän sietäminen siedetty sieti sietämistä siedettäväksi sietämättömät siedettävät siedettävältä siedettäviä
+81	2381	reilusti	reilusti reilummin
+82	2382	ateria	aterian ateria ateriaa atrian ateriat aterialla aterioita atria aterioiden ateriasta aterialle aterioista ateriaan ateriansa aterioilla ateriaksi aterioihin ateriassa ateriasi
+83	2383	rajoitus	rajoituksia rajoitukset rajoitus rajoitusten rajoituksista rajoituksen rajoitusta rajoituksin rajoituksiin rajoituksilla rajoituksensa rajoituksetta rajoituksella rajoituksesta
+84	2384	kuljetus	kuljetus kuljetuksen kuljetusta kuljetukset kuljetuksia kuljetukseen kuljetusten kuljetuksessa kuljetuksesta kuljetuksiin kuljetuksissa kuljetuksista kuljetuksella
+85	2385	tupakka	tupakkaa tupakka tupakan tupakasta tupakalla tupakalle tupakkaan tupakat
+86	2386	lähtökohta	lähtökohta lähtökohtana lähtökohdat lähtökohdista lähtökohtia lähtökohdaksi lähtökohdasta lähtökohdan lähtökohtaa lähtökohtina lähtökohtiin lähtökohtansa lähtökohtien
+87	2387	masennus	masennus masennuksen masennuksesta masennusta masennukseen masennuksessa masennukselle masennukselta masennukseksi
+88	2388	norjalainen	norjalainen norjalaiset norjalaisen norjalaisten norjalaisia norjalaista norjalaiselle norjalaisesta norjalaisessa norjalaisille norjalaiseen norjalaisista norjalaisilla norjalaisella
+89	2389	avaruus	avaruudessa avaruuteen avaruus avaruuden avaruudesta avaruutta
+90	2390	innostua	innostuin innostui innostuu innostua innostu innostumaan innostun innostuvat innostuivat innostuneet innostut innostuisi innostuttiin innostuisivat innostuimme innostuit
+91	2391	arvostella	arvostella arvosteli arvostelee arvosteltu arvostellaan arvostellut arvostele arvosteltiin arvostelemaan arvostelevat arvostelleet arvostellen arvostelivat arvosteleva arvostelevan arvosteleminen arvostelevia arvostelen arvostelet
+92	2392	uuni	uunissa uuniin uuni uunin uunista uunit uunia uuneja uunien
+93	2393	verkosto	verkosto verkoston verkostot verkostoa verkostojen verkostoon verkostoja verkostoissa verkostossa verkostosta verkostoihin verkostonsa verkostoksi verkostoista verkostolla
+94	2394	tyyppinen	tyyppinen tyyppisiä tyyppistä tyyppiset tyyppisen tyyppisten tyyppiseen tyyppisistä tyyppisestä tyyppisissä tyyppisiin tyyppisellä tyyppisessä tyyppisillä tyyppisille tyyppisenä tyyppiseksi tyyppiselle
+95	2395	poikki	poikki poikittain poikin
+96	2396	ihmiskunta	ihmiskunnan ihmiskunta ihmiskuntaa ihmiskunnalle ihmiskuntaan ihmiskunnasta ihmiskunnalla
+97	2397	paksu	paksu paksua paksut paksun paksuja paksumpi paksuksi paksuun paksusta paksulla paksuna paksuista paksujen paksussa paksuin paksuihin paksuiksi paksuilla paksulta
+98	2398	äijä	äijä äijät äijän äijää äijien äijiä äijälle äijällä äijästä äijistä äijille äijältä
+99	2399	pyörittää	pyörittää pyörittävät pyöritti pyörittämään pyöritä pyöritetään pyörittämiseen pyörittäminen pyöritellä pyörittänyt pyörittämä pyörittämisestä pyörittämällä pyörittämistä pyörittivät pyörittämisen pyörittävä pyöritän pyöritetty pyörittämässä pyöritin pyörittäisi pyörittämisessä pyöritettiin pyöritettävä pyörität
+100	2400	harjoittelu	harjoittelu harjoittelun harjoittelua harjoitteluun harjoittelusta harjoittelussa harjoittelulla harjoittelut harjoitteluni harjoittelunsa

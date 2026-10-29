@@ -1,0 +1,100 @@
+1	3701	tomaatti	tomaatti tomaatit tomaatteja tomaattia tomaatin tomaattien tomaateista tomaatilla tomaatista tomaateilla
+2	3702	puukko	puukolla puukko puukon puukkoa puukosta puukkojen puukkoja puukot puukkoon
+3	3703	kaksinkertainen	kaksinkertainen kaksinkertaisen kaksinkertaiseksi kaksinkertaiset kaksinkertaista kaksinkertaisena kaksinkertaisella kaksinkertaisia kaksinkertaisesta
+4	3704	kananmuna	kananmuna kananmunia kananmunaa kananmunan kananmunat kananmunien kananmunalla kananmunista kananmunasta kananmunilla
+5	3705	innokas	innokas innokkaita innokkaana innokasta innokkaat innokkaan innokkaiden innokkaina innokkain innokkaalta innokkaasta
+6	3706	alv	alv
+7	3707	järjestyksessä	järjestyksessä
+8	3708	näemmä	näemmä
+9	3709	sattumalta	sattumalta
+10	3710	suht	suht
+11	3711	oranssi	oranssi oranssin oranssia oranssit oransseja oranssiin oranssilla oranssista oranssiksi oranssissa oranssien
+12	3712	paljas	paljain paljaana paljas paljaalla paljaaksi paljaat paljaan paljaita paljasta paljaina paljaalle paljailla paljaiden paljaaseen paljaille paljaiksi
+13	3713	laukaista	laukaista laukaisi laukaisee laukaistiin laukaistaan laukaistu laukaisemaan laukaissut laukaisevat laukaisivat laukaisin laukaise laukaiseva laukaistava laukaisemiseen
+14	3714	innostaa	innostaa innosti innostava innosta innostavaa innostanut innostavan innostavat innostivat innostamaan innostavia innostaisi
+15	3715	eeva	eeva eevan eevaa eevalle eevasta
+16	3716	investoida	investoida investoi investoidaan investoivat investoimaan investoinut investoimalla investoitu investoiminen investoitiin
+17	3717	työskentely	työskentely työskentelyä työskentelyn työskentelyyn työskentelystä työskentelynsä työskentelyssä työskentelylle
+18	3718	kynttilä	kynttilät kynttilöitä kynttilä kynttilän kynttilöiden kynttilää kynttilöistä kynttilöillä kynttilästä
+19	3719	tietotekniikka	tietotekniikan tietotekniikka tietotekniikkaa tietotekniikkaan tietotekniikassa tietotekniikasta
+20	3720	sähköauto	sähköautojen sähköauto sähköauton sähköautot sähköautoja sähköautoa sähköautoille sähköautolla sähköautoista sähköautoihin sähköautoilla sähköautoissa sähköautoon
+21	3721	valokuvaaja	valokuvaaja valokuvaajan valokuvaajat valokuvaajia valokuvaajana valokuvaajien valokuvaajaa valokuvaajille valokuvaajaksi valokuvaajalle
+22	3722	viimeistellä	viimeisteli viimeistellä viimeistelee viimeistelty viimeistelemään viimeistele viimeistelen viimeistellyt viimeistellään viimeisteltiin viimeistelevät viimeistelivät viimeistelemässä viimeistelin
+23	3723	väsymys	väsymys väsymystä väsymyksen väsymyksestä väsymykseen
+24	3724	pyöräily	pyöräily pyöräilyn pyöräilyä pyöräilyyn pyöräilystä pyöräilyssä
+25	3725	moka	moka mokaa mokia mokat mokasi mokan mokaan mokasta mokista mokansa
+26	3726	kepu	kepu kepun kepua
+27	3727	käänne	käänne käänteessä käänteen käänteitä käänteet käänteistä käännettä käänteiden käänteestä käänteissä
+28	3728	teettää	teettää teetti teettämän teettänyt teettäminen teetä teetetään teetetty teetettiin teettämässä teettämä teettämään teetättää teettävät teettämästä teetin teettivät teettämistä teettämällä
+29	3729	epäonnistuminen	epäonnistuminen epäonnistumisen epäonnistumista epäonnistumisesta epäonnistumiset epäonnistumisia epäonnistumiseen epäonnistumisista epäonnistumisten epäonnistumisiin epäonnistumisena
+30	3730	vallitseva	vallitseva vallitsevan vallitsevaa vallitsevasta vallitsevat vallitsevaan vallitsevia vallitsevien vallitsevassa vallitsevista vallitseviin vallitsevissa vallitsevaksi vallitsevana
+31	3731	avajaiset	avajaisissa avajaiset avajaisia avajaisiin avajaisten avajaisista
+32	3732	kroppa	kroppa kropan kroppaa kropassa kroppani kroppaan kropasta kropalle kroppasi kroppansa kropalla
+33	3733	hyväksikäyttö	hyväksikäytöstä hyväksikäyttö hyväksikäytön hyväksikäyttöä hyväksikäyttöön hyväksikäytölle hyväksikäytöistä
+34	3734	kansalaisaloite	kansalaisaloite kansalaisaloitteen kansalaisaloitetta kansalaisaloitteeseen kansalaisaloitteesta kansalaisaloitteet kansalaisaloitteiden kansalaisaloitteessa
+35	3735	aloitus	aloitus aloitusta aloituksen aloituksesta aloituksessa aloitukseen aloitukset aloituksia
+36	3736	erehtyä	erehtynyt erehtyä erehdyin erehtyy erehtyi erehdy erehtymätön erehdyt erehtyvät erehtyneet erehtyivät erehdyn
+37	3737	lohi	lohi lohta lohen lohet lohesta lohia lohien lohelle loheen
+38	3738	abortti	abortin abortti aborttia abortteja aborttiin abortista abortit aborttien aborteista
+39	3739	sosiaaliturva	sosiaaliturvan sosiaaliturvaa sosiaaliturva sosiaaliturvaan sosiaaliturvasta sosiaaliturvalla
+40	3740	avustaa	avustaa avustamaan avusti avustavat avusta avustanut avustava avustaminen avustamisesta avustavan avustamista avustamassa avustamisen avustamiseen avustettu avustivat avustavia avustetaan avustamme avustin avustavana avustamalla avustavien
+41	3741	kevyesti	kevyesti kevyemmin
+42	3742	alin	alin alimman alimpaan alinta alimmalla alimmassa alimmat alimmalle alimpien alimmasta alimmissa alimpia alimmaksi
+43	3743	ennallaan	ennallaan ennalleen
+44	3744	meikäläinen	meikäläisen meikäläinen meikäläiselle meikäläistä meikäläisellä meikäläiset meikäläisten meikäläiseltä meikäläisiä meikäläisestä meikäläiseen
+45	3745	sokea	sokea sokeita sokean sokeaa sokeat sokeana sokeaksi sokeiden sokeille sokeasta sokeain sokeaan
+46	3746	testamentti	testamentin testamentti testamentissa testamenttia testamentista testamenttiin testamentilla testamenttinsa testamentit
+47	3747	farkut	farkut farkkuja farkkujen farkuissa farkkuihin farkuista
+48	3748	aukio	aukiolla aukion aukio aukiolle aukiolta aukiota aukioilla
+49	3749	edelle	edelle
+50	3750	ennakkoon	ennakkoon
+51	3751	ensiksi	ensiksi
+52	3752	hiljalleen	hiljalleen
+53	3753	piilossa	piilossa
+54	3754	ties	ties
+55	3755	toistuvasti	toistuvasti
+56	3756	epäilys	epäilys epäilyksiä epäilyksen epäilystä epäilykset epäilykseni epäilysten epäilyksensä epäilyksistä
+57	3757	tanssija	tanssija tanssijat tanssijan tanssijoita tanssijana tanssijoiden tanssijaa tanssijoista tanssijaksi tanssijoille
+58	3758	viaton	viaton viattomia viattoman viatonta viattomien viattomat viattomalta viattomana viattomille viattomasta viattomiin viattomilta
+59	3759	laboratorio	laboratorio laboratoriossa laboratorion laboratorioon laboratorioissa laboratoriosta laboratoriot laboratoriota laboratorioiden laboratorioita laboratorioihin
+60	3760	ristiriitainen	ristiriitaisia ristiriitainen ristiriitaista ristiriitaiset ristiriitaisen ristiriitaiselta ristiriitaisten ristiriitaisena ristiriitaisin ristiriitaisista ristiriitaiseksi ristiriitaisesta
+61	3761	kirkonkylä	kirkonkylän kk kirkonkylä kirkonkylässä kirkonkylällä kirkonkylälle kirkonkylään kirkonkylältä kirkonkylää kirkonkylästä
+62	3762	isoisä	isoisä isoisän isoisänsä isoisäni isoisää isoisät isoisältä isoisällä
+63	3763	itku	itku itkua itkuun itkun itkut itkusta
+64	3764	tähtäin	tähtäimellä tähtäimen tähtäimessä tähtäin tähtäimeen tähtäimenä tähtäimet tähtäintä
+65	3765	mehu	mehua mehu mehut mehun mehuja mehusta mehulla mehujen mehuun
+66	3766	puristaa	puristaa purista puristi puristetaan puristettu puristin puristamalla puristamaan puristavat puristaminen puristele puristanut puristella puristaen puristava puristat purisi puristettiin puristivat
+67	3767	arvonta	arvonta arvontaan arvonnassa arvonnan arvonnasta arvonnat arvontaa
+68	3768	nobel	nobel nobelin nobelilla nobelia
+69	3769	polkupyörä	polkupyörä polkupyörän polkupyörällä polkupyörien polkupyöriä polkupyörää polkupyörät polkupyörään polkupyörillä polkupyörässä polkupyöriin polkupyörästä
+70	3770	karva	karvat karvoja karvan karvaa karva karvojen karvoista karvasta karvaan karvoihin karvansa
+71	3771	kolumni	kolumni kolumnin kolumnit kolumnissa kolumneja kolumnia kolumnista kolumniin kolumnini kolumneista
+72	3772	kyltti	kyltti kyltin kylttejä kyltit kylttiä kyltissä kylttien kylteissä kyltillä kyltistä kylttiin kylteillä
+73	3773	valtuutettu	valtuutettu valtuutetut valtuutettua valtuutettujen valtuutetun valtuutettuja valtuutettuna valtuutetuista valtuutetuille valtuutetulle valtuutetulla
+74	3774	operaattori	operaattorin operaattori operaattorit operaattoreiden operaattorien operaattoreita operaattoria operaattorilta operaattoreille operaattorille operaattoreilla operaattoreilta operaattorilla operaattoreista
+75	3775	lahjakas	lahjakas lahjakkaita lahjakkaan lahjakkaat lahjakkaiden lahjakasta lahjakkaille lahjakkaana lahjakkain lahjakkaampi lahjakkaaksi lahjakkaalle lahjakkaasta
+76	3776	vallita	vallitsee vallitsi vallitessa vallinnut vallitse vallita vallitsisi vallitsevat
+77	3777	herkästi	herkästi herkemmin herkimmin
+78	3778	luukku	luukku luukun luukusta luukulle luukulta luukut luukulla luukkua luukkuja luukkuun luukussa luukkujen
+79	3779	konferenssi	konferenssissa konferenssin konferenssi konferenssiin konferenssia konferenssista konferensseissa konferenssit konferensseihin konferensseja konferenssien
+80	3780	oletus	oletus oletuksena oletuksia oletukset oletuksen oletukseen oletusta oletuksella oletuksiin oletuksesta oletusten oletuksista oletukselle oletuksilla oletukseni
+81	3781	kastike	kastike kastiketta kastikkeen kastikkeessa kastikkeesta kastikkeeseen kastikkeella kastikkeita kastikkeet kastikkeisiin kastikkeiden kastikkeeksi kastikkeissa
+82	3782	tsekata	tsekkaa tsekata tsekkaamassa tsekkaamaan tsekkasin tsekkaan tsekatkaa tsekataan
+83	3783	synnytys	synnytyksen synnytys synnytyksessä synnytykseen synnytystä synnytyksestä synnytysten synnytykset synnytyksiä synnytyksistä synnytyksissä
+84	3784	feminismi	feminismi feminismiä feminismin feminismistä feminismiin feminismissä
+85	3785	tietokanta	tietokanta tietokantaan tietokannasta tietokannan tietokannassa tietokantaa tietokannat tietokantoja tietokantoihin tietokannoista tietokantojen tietokannoissa
+86	3786	kiivetä	kiivetä kiipesi kiipeää kiipeämään kiivennyt kiipeäminen kiipesin kiipesivät kiipeävät kiivetään kiipeä kiipeämistä kiipeämällä kiipesimme kiipeämässä kiipeän kiipeämiseen kiipeämme
+87	3787	fantasia	fantasia fantasiat fantasiaa fantasian fantasioita fantasiaan fantasiasta fantasiassa fantasioiden fantasioista fantasioihin fantasiansa fantasiasi
+88	3788	seurustella	seurustella seurustelee seurustellut seurusteli seurustelemaan seurustelevat seurustelivat seurustelen seurustelevan seurustelin seurustele seurustelemme seurustellaan
+89	3789	marssi	marssi marssin marssia marssilla marssille marssiin marssit marsseja marssista marssien
+90	3790	timantti	timantti timantteja timantit timanttia timantin timanttien timanteista timanteilla timantilla timantiksi
+91	3791	pakote	pakotteet pakotteiden pakotteista pakotteita pakotteilla pakotteisiin
+92	3792	kiihtyä	kiihtyy kiihtyi kiihtyvällä kiihtyä kiihtyvän kiihtymään kiihtyvä kiihtyivät kiihtyvää kiihtyvät kiihtyvään kiihtyminen kiihtyessä kiihtyvässä kiihtymistä kiihdyttävä
+93	3793	luola	luola luolan luolassa luolaan luolasta luolia luolissa luolat luolaa luoliin luolien luolista luolalle
+94	3794	häirintä	häirintä häirintää häirinnästä häirinnän häirintään häirintänä
+95	3795	joulupukki	joulupukki joulupukin joulupukkia joulupukille joulupukkiin joulupukilta joulupukilla joulupukista joulupukkina
+96	3796	turvapaikka	turvapaikka turvapaikan turvapaikkaa turvapaikkaan turvapaikkoja turvapaikasta turvapaikat turvapaikkana
+97	3797	rap	rap rapin rapeiksi
+98	3798	kirsi	kirsi kirsin
+99	3799	vuosituhat	vuosituhannen vuosituhannella vuosituhansien vuosituhansia vuosituhannelle vuosituhat vuosituhannelta vuosituhatta
+100	3800	info	info infoa infossa infosta infon infoon infot

@@ -1,0 +1,100 @@
+1	5001	piirros	piirros piirrokset piirroksia piirroksen piirroksista piirrosten piirrosta piirroksessa piirroksesta piirroksissa
+2	5002	hyppiä	hyppiä hyppii hyppivät hyppimään hyppi hypi hypin hypitään hyppiminen hyppien hyppimistä hyppinyt hyppimällä hyppimässä
+3	5003	au	au
+4	5004	eritoten	eritoten
+5	5005	kiltisti	kiltisti
+6	5006	nätisti	nätisti
+7	5007	onnistuneesti	onnistuneesti
+8	5008	sittenkään	sittenkään
+9	5009	väliaikaisesti	väliaikaisesti
+10	5010	lähivuosi	lähivuosina lähivuosien
+11	5011	sairaanhoitopiiri	sairaanhoitopiirin sairaanhoitopiiri sairaanhoitopiirissä sairaanhoitopiirien sairaanhoitopiirit sairaanhoitopiiriin sairaanhoitopiireissä
+12	5012	nauta	naudan nauta nautaa nautojen naudat nautoja naudasta naudoille
+13	5013	maanjäristys	maanjäristys maanjäristyksen maanjäristyksiä maanjäristykset maanjäristyksessä maanjäristystä maanjäristyksestä maanjäristysten maanjäristyksistä
+14	5014	epäreilu	epäreilua epäreilu epäreilulta epäreiluja epäreiluna epäreilun
+15	5015	kouluttaja	kouluttaja kouluttajana kouluttajat kouluttajien kouluttajan kouluttajia kouluttajaksi kouluttajina kouluttajaa
+16	5016	mäkki	mäkin mäkki mäkissä mäkistä
+17	5017	neuvonantaja	neuvonantaja neuvonantajana neuvonantajan neuvonantajaksi neuvonantajia neuvonantajat neuvonantajansa neuvonantajaa neuvonantajien neuvonantajina
+18	5018	akuutti	akuutti akuutin akuuttia akuutissa akuuttiin akuutteja akuutista akuutit akuuteissa akuuttien akuutteihin
+19	5019	arkku	arkkuun arkun arkku arkkua arkussa arkusta arkkuja arkkunsa arkut arkuissa
+20	5020	ihastua	ihastui ihastuu ihastuin ihastu ihastua ihastuminen ihastumaan ihastuivat ihastut ihastuvat ihastumisen ihastun ihastumista ihastumisesta
+21	5021	kuningaskunta	kuningaskunnan kuningaskunta kuningaskunnassa kuningaskuntaa kuningaskunnasta kuningaskuntaan kuningaskunnat kuningaskuntien kuningaskunnalle
+22	5022	haka	haka hakan haasta hakaa haan hakassa hakaan hakasta
+23	5023	tutkimustulos	tutkimustuloksia tutkimustulokset tutkimustulosten tutkimustulos tutkimustuloksista tutkimustuloksiin tutkimustulosta tutkimustuloksen
+24	5024	syöksyä	syöksyi syöksyy syöksyä syöksyvät syöksynyt syöksyivät syöksymään syöksyn syöksyin
+25	5025	kuulustelu	kuulusteluissa kuulustelussa kuulusteluun kuulustelu kuulusteluihin kuulustelun kuulusteluja kuulustelut kuulustelujen kuulustelua kuulustelusta kuulusteluista
+26	5026	kaunotar	kaunotar kaunottaren kaunottaret kaunotarta kaunottaria kaunottaresta
+27	5027	retoriikka	retoriikka retoriikan retoriikkaa retoriikalla retoriikasta retoriikkaan retoriikassa
+28	5028	kuoliaaksi	kuoliaaksi kuoliaiksi
+29	5029	metsäteollisuus	metsäteollisuuden metsäteollisuus metsäteollisuutta metsäteollisuudessa metsäteollisuuteen
+30	5030	loppuelämä	loppuelämänsä loppuelämän loppuelämä loppuelämäni loppuelämäksi loppuelämäsi loppuelämää
+31	5031	pudotus	pudotus pudotusta pudotuksen pudotuksesta pudotukseen pudotuksessa pudotuksia pudotukset
+32	5032	isoveli	isoveli isoveljen isoveljensä isoveljeä isoveljeni isoveljet
+33	5033	soppa	soppa soppaa soppaan sopan sopassa sopasta
+34	5034	instituutio	instituutiot instituutioiden instituutio instituutioita instituutiona instituution instituutioihin instituutiota instituutioissa instituutioista instituutioille
+35	5035	tukkia	tukki tukkia tukkii tukkivat tukkimaan tukittu tukitaan tukit tukkinut tukittua tukkimalla tukkiminen tukin tukittiin tukkien
+36	5036	loppukausi	loppukauden loppukaudeksi loppukausi loppukaudesta loppukaudella loppukautta
+37	5037	silminnäkijä	silminnäkijä silminnäkijöiden silminnäkijöitä silminnäkijän silminnäkijät silminnäkijää silminnäkijänä
+38	5038	tinkiä	tinkiä tinkimään tingi tinkimätön tinkimättä tingitään tingitty tinkiminen tinkimätöntä tinkimistä tinkimättömän tinkimällä tingin tinkii
+39	5039	pesti	pesti pestin pestiä pestinsä pestissä pestistä pestiin pestejä pestit
+40	5040	pelle	pelle pellen pellet pellejä pelleillä pelleksi pelleä pellejen pellenä pelleistä
+41	5041	ihmissuhde	ihmissuhteet ihmissuhteita ihmissuhteiden ihmissuhteissa ihmissuhteista ihmissuhde ihmissuhteisiin ihmissuhteen ihmissuhdetta
+42	5042	rumpu	rummut rumpuja rumpu rumpujen rummun rummuissa rumpua rumpuihin rummuista rumpuun
+43	5043	luonnehtia	luonnehti luonnehtii luonnehtia luonnehdittu luonnehditaan luonnehtivat luonnehtinut luonnehdittiin
+44	5044	deitti	deitti deitit deittejä
+45	5045	kartoittaa	kartoittaa kartoitetaan kartoitettu kartoitettiin kartoitti kartoittamaan kartoittanut kartoittamiseen kartoitamme kartoittaminen kartoittavat kartoittivat kartoittamista kartoittava kartoittamassa kartoittamalla
+46	5046	lempinimi	lempinimi lempinimen lempinimellä lempinimensä lempinimeä lempinimiä lempinimet
+47	5047	äänioikeus	äänioikeus äänioikeuden äänioikeutta äänioikeudesta
+48	5048	yritystoiminta	yritystoiminnan yritystoimintaa yritystoiminta yritystoimintaan yritystoiminnasta yritystoiminnassa yritystoiminnalle
+49	5049	aie	aikeet aikeista aikeita aikeensa aie aikeesta aikeena aikein aikeen aietta aikeiden
+50	5050	pettyä	pettymään pettyi petyin pety pettyä pettyy pettyivät petyn
+51	5051	loppuottelu	loppuottelussa loppuotteluun loppuottelu loppuottelun loppuottelua loppuotteluihin loppuotteluissa loppuottelusta loppuottelut
+52	5052	uhanalainen	uhanalaisia uhanalainen uhanalaisten uhanalaisen uhanalaiset uhanalaisista uhanalaiseksi uhanalaista uhanalaisiksi uhanalaisiin
+53	5053	levoton	levoton levottomat levotonta levottomia levottoman levottomaksi levottomana levottomiksi levottomina
+54	5054	konsoli	konsolin konsoli konsoleilla konsoleille konsolit konsolille konsolilla konsolien konsolia konsoleita konsoliin konsolista konsolissa konsoleista
+55	5055	jättiläinen	jättiläinen jättiläisen jättiläiset jättiläisiä jättiläisten jättiläistä jättiläiseksi jättiläisistä jättiläisestä
+56	5056	tupata	tuppaa tuppaavat tuppasi tuppaan
+57	5057	vasara	vasara vasaralla vasaran vasaraa vasarat
+58	5058	baby	baby babyn
+59	5059	aamuisin	aamuisin
+60	5060	takuulla	takuulla
+61	5061	touko	touko
+62	5062	vanhanaikainen	vanhanaikainen vanhanaikaista vanhanaikaisia vanhanaikaisen vanhanaikaiset vanhanaikaiselta vanhanaikaisella vanhanaikaisena vanhanaikaiseksi vanhanaikaisesta vanhanaikaiseen
+63	5063	yrjö	yrjö yrjön
+64	5064	ori	ori oriin orin orit oria oreja oriilla orien oriiden oriit orilla
+65	5065	moittia	moittii moittia moitti moittivat moitittavaa moitittu moitittiin moiti moittinut moittimista moititaan moittimaan
+66	5066	manga	manga mangan mangaa mangaani mangassa mangoja mangaan mangasta
+67	5067	iäkäs	iäkäs iäkkäiden iäkkäät iäkkään iäkkäitä iäkkäillä iäkkäille iäkästä iäkkäämpi iäkkäin
+68	5068	huutokauppa	huutokauppa huutokaupassa huutokaupan huutokauppaan huutokaupasta huutokaupalla huutokauppaa huutokaupoissa huutokauppoja huutokaupat
+69	5069	juliste	juliste julisteita julisteen julisteet julisteessa julistetta julisteiden julisteissa julisteista julisteeseen julisteesta julisteisiin
+70	5070	lapsellinen	lapsellinen lapsellista lapsellisen lapsellisia lapselliset lapselliselta lapsellisena lapselliseksi
+71	5071	silmälasit	silmälasit lasit silmälaseja silmälasien silmälaseista
+72	5072	matikka	matikan matikka matikkaa matikasta matikassa
+73	5073	loukkaus	loukkaus loukkauksia loukkauksena loukkaukset loukkauksista loukkauksen loukkauksesta loukkausta loukkaukseksi loukkausten loukkauksiin
+74	5074	klinikka	klinikalla klinikka klinikan klinikalle klinikalta klinikkaa klinikat klinikoilla klinikoita klinikoiden
+75	5075	saldo	saldo saldoa saldon saldona saldoksi saldolla saldoon
+76	5076	kotijoukkue	kotijoukkue kotijoukkueen kotijoukkueelle kotijoukkueelta kotijoukkuetta
+77	5077	mietityttää	mietityttää mietityttämään mietitytti mietityttänyt mietityttävät
+78	5078	pyykki	pyykkiä pyykit pyykkejä pyykin pyykki pyykkien pyykkiin pyykistä
+79	5079	kalastaa	kalastaa kalastamaan kalastetaan kalastella kalastamassa kalastaminen kalastavat kalasta kalastanut kalastivat kalastamiseen kalasti kalastettu kalastettiin kalastamalla kalastamisesta
+80	5080	salaliitto	salaliitto salaliiton salaliitosta salaliittoa salaliittoon salaliittoja salaliitossa salaliitoista salaliittojen salaliitot salaliittoihin
+81	5081	ilmastointi	ilmastointi ilmastoinnin ilmastointia ilmastoinnilla ilmastointiin ilmastoinnista
+82	5082	oikeudenmukaisuus	oikeudenmukaisuus oikeudenmukaisuuden oikeudenmukaisuutta oikeudenmukaisuudesta oikeudenmukaisuuteen
+83	5083	ääripää	ääripää ääripäät ääripäätä ääripäästä ääripäähän ääripäiden ääripäässä ääripään ääripäitä ääripäistä ääripäissä ääripäihin
+84	5084	tutkimuskeskus	tutkimuskeskus tutkimuskeskuksen tutkimuskeskuksessa tutkimuskeskuksesta
+85	5085	kaukainen	kaukainen kaukaiselta kaukaisen kaukaisia kaukaisessa kaukaista kaukaiseen kaukaisesta kaukaiset kaukaisista kaukaisten kaukaisiin kaukaisimmat kaukaisilla kaukaisella kaukaisin kaukaiselle kaukaisilta kaukaisissa
+86	5086	hyödytön	hyödytön hyödytöntä hyödyttömiä hyödyttömäksi hyödyttömiksi hyödyttömän hyödyttömänä hyödyttömät
+87	5087	lempeä	lempeä lempeitä lempeää lempeän lempeät lempeämpi lempeällä lempeästä lempeäksi lempein
+88	5088	ruokailu	ruokailun ruokailu ruokailua ruokailuun ruokailut ruokailusta ruokailussa ruokailujen
+89	5089	edeltäjä	edeltäjänsä edeltäjä edeltäjän edeltäjät edeltäjää edeltäjään edeltäjässä edeltäjien edeltäjiä edeltäjästä edeltäjäni
+90	5090	kiirehtiä	kiirehtiä kiirehti kiirehtii kiirehdi kiirehdin kiirehtivät kiirehtimään kiirehtinyt kiirehditään
+91	5091	topi	topi topin topit topissa
+92	5092	noita	noita noidan noitia noidat noitien noitaa noidaksi noitana noidista noitina
+93	5093	vaikutusvalta	vaikutusvaltaa vaikutusvalta vaikutusvallan vaikutusvallasta vaikutusvaltansa
+94	5094	koostumus	koostumus koostumusta koostumuksen koostumuksesta koostumukseen koostumuksessa koostumuksensa koostumuksia
+95	5095	kanerva	kanerva kanervan kanervaa
+96	5096	tajuton	tajuttoman tajuton tajuttomaksi tajuttomana tajutonta tajuttomia tajuttomina
+97	5097	määräytyä	määräytyy määräytyvät määräytyi määräytyisi määräytyä määräydy määräytyvä määräytynyt
+98	5098	eläinlääkäri	eläinlääkäri eläinlääkärin eläinlääkärit eläinlääkäriin eläinlääkärille eläinlääkäriä eläinlääkäriksi eläinlääkärissä eläinlääkärinä eläinlääkärien eläinlääkäreitä eläinlääkäriltä eläinlääkäreiden eläinlääkärillä
+99	5099	pysytellä	pysytellä pysytteli pysyttelee pysytellyt pysyttelevät pysyttelemään pysyttelivät pysyttele pysytellään pysyttelen pysyttelevä
+100	5100	parras	partaalla partaalle partaansa partaalta partaani parrasta partaan

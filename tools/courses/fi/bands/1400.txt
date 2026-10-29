@@ -1,0 +1,100 @@
+1	1301	riippua	riippuu riippuvat riipu riippua riippunee riippui riippu riippuisi riippuvan riippuva riippuvia riippumaan riippunut riippuvaa
+2	1302	liha	lihaa liha lihan lihasta lihaan lihat lihassa lihalle lihoiksi lihaksi lihalla lihoja lihojen lihansa lihoista lihoin lihana lihalta
+3	1303	osasto	osasto osaston osastolla osastolle osastoa osastolta osastot osastojen osastoilla osastoon osastosta osastossa osastoja osastonsa osastoille osastoihin osastoista osastomme osastoilta osastoissa osastona
+4	1304	haastaa	haastaa haastavaa haastamaan haastava haastoi haastavat haastan haasta haastavia haastanut haastetaan haastavan haastettu haastamme haastavampi haastettiin haastoivat haastaminen haastavassa haastavaksi haastamista haastavin haastaviin haastamassa haastaneet haastavalta haastamalla haastavana haastat haastoin haastaisi haastavissa haastettava haastaakseen haastavaan haastavasta haastavien haastoimme
+5	1305	harva	harva harvoja harvat harvoista harvassa harvaan harvempi harvalla harvojen harvoissa harvan harvoille harvaa harvoilla harvoihin harvasta harvalle harvoina
+6	1306	rajoittaa	rajoittaa rajoitettu rajoitetaan rajoittamaan rajoittavat rajoitetun rajoittaminen rajoita rajoittamista rajoittamisesta rajoitettua rajoittamaton rajoittamalla rajoittava rajoittanut rajoittaisi rajoitettiin rajoittamiseksi rajoitti rajoittamattoman rajoittamiseen rajoitettuja rajoitetut rajoittamisen rajoitettaisiin rajoittivat rajoittamatonta rajoitetussa rajoitettuun rajoittamassa rajoitettava rajoitetulla rajoittamatta rajoitetusta rajoittamisella rajoitettuna rajoitin rajoitamme rajoitettujen rajoittamattomat
+7	1307	kelvata	kelpaa kelpaisi kelvannut kelpaavat kelvata kelpasi kelpaavan kelpasivat kelpaavaa kelpaava kelpaavia kelpaisivat kelpaamaton kelpaat kelpaamatonta kelpaan
+8	1308	kasvot	kasvot kasvoja kasvojen kasvoihin kasvonsa kasvoille kasvoilla kasvoista kasvoissa kasvoilta kasvoin kasvoiksi kasvoina
+9	1309	sauna	sauna saunan saunassa saunaan saunaa saunasta saunat saunoja saunoissa saunojen saunalla saunoihin saunoista saunalle saunoineen
+10	1310	leikkaus	leikkaus leikkaukset leikkauksia leikkauksen leikkausta leikkaukseen leikkauksesta leikkausten leikkauksista leikkauksessa leikkauksella leikkauksilla leikkauksiin leikkauksissa leikkauksien leikkauksille
+11	1311	keikka	keikka keikan keikkaa keikkoja keikalla keikoilla keikalle keikat keikasta keikkansa keikoille keikkojen keikalta keikoista keikkaan keikoilta keikkani
+12	1312	verrata	vertaa verrata verrataan verraten vertasi vertaamalla verrattiin verrattu vertaaminen verrattava verrattaessa verrannut vertaamaan vertasin vertaan vertaat vertaavat vertasivat vertaamme verratkaa verratessa vertasimme vertaisi vertaisin
+13	1313	vasen	vasen vasemmalle vasemmalta vasemman vasempaan vasemmassa vasenta vasemmasta vasempana vasemmaksi
+14	1314	erikoinen	erikoinen erikoista erikoisen erikoisia erikoiselta erikoiset erikoisella erikoisesta erikoisessa erikoisempi erikoisena erikoisin erikoiseen erikoisista erikoiseksi erikoisten erikoisiin erikoisissa erikoisilla erikoiselle
+15	1315	enempää	enempää
+16	1316	vieläkin	vieläkin
+17	1317	joensuu	joensuu joensuun joensuussa joensuuhun joensuusta joensuuta
+18	1318	tammikuu	tammikuussa tammikuun tammikuuta tammikuu tammikuusta tammikuuhun tammikuulle tammikuulta
+19	1319	väestö	väestön väestöstä väestö väestöä väestöön väestölle väestössä väestöllä väestöjen väestöt väestönsä
+20	1320	edellä	edellä edellään edelläni
+21	1321	käynnissä	käynnissä käyntiin
+22	1322	harkita	harkita harkitsee harkinnut harkitsen harkitsemaan harkittu harkitaan harkitse harkitsin harkiten harkitsi harkittua harkitsevat harkittava harkittuja harkinneet harkitset harkitsisi harkittiin harkitsevansa harkitsevan harkitseva harkitsematon harkitsisin harkitun harkitsematonta harkitsemme harkitusta harkitsimme harkittaessa harkitsemassa harkitsivat harkitsemattomia harkitseville
+23	1323	pahasti	pahasti pahemmin pahimmin
+24	1324	iloinen	iloinen iloisia iloista iloiseksi iloisen iloisena iloiset iloiseen iloisempi iloisella iloisin iloisesta iloisina iloiselta iloisista iloisempia iloisten iloisessa iloisissa iloisiin iloisiksi iloisempaa
+25	1325	laitos	laitos laitoksen laitoksella laitoksessa laitokset laitokseen laitoksia laitosten laitosta laitoksesta laitokselle laitoksissa laitokselta laitoksiin laitoksista laitoksille laitoksilla laitoksena
+26	1326	maaliskuu	maaliskuussa maaliskuun maaliskuuta maaliskuu maalis maaliskuusta maaliskuuhun maaliskuulle maaliskuulta
+27	1327	moottori	moottori moottorin moottorit moottoria moottorilla moottoreita moottorista moottoriin moottorien moottoreiden moottorissa moottoreihin moottoreista moottorina moottoreissa moottorille moottoreilla moottoriksi moottorinsa moottoreille moottorilta
+28	1328	huippu	huippu huipulla huipulle huippua huippuja huiput huipulta huipun huippunsa huippujen huipuksi huippuna huipussa huippuun huipusta huipuista huipuille huippuihin
+29	1329	selkä	selkä selän selkään selässä selin selästä selkänsä selkää selkäni selälle selällä selät selkien selkiä
+30	1330	asenne	asenne asennetta asenteella asenteet asenteen asenteesta asenteita asenteiden asenteisiin asenteista asenteeseen asenteesi asenteensa asenteissa asenteeni asenteessa asenteilla
+31	1331	valmentaja	valmentaja valmentajana valmentajan valmentajaksi valmentajat valmentajaa valmentajien valmentajia valmentajansa valmentajalle valmentajille valmentajani valmentajina valmentajista valmentajalla valmentajalta valmentajamme valmentajaan valmentajasta
+32	1332	tuntematon	tuntematon tuntemattoman tuntemattomia tuntematonta tuntemattomien tuntemattomasta tuntemattomaan tuntemattomat tuntemattomille tuntemattomalle tuntemattomaksi tuntemattomista tuntemattomassa tuntemattomana tuntemattomalta tuntemattomiin tuntemattomilta tuntemattomalla tuntemattomampi tuntemattomilla tuntemattomiksi
+33	1333	aktiivinen	aktiivinen aktiivista aktiivisia aktiivisen aktiivisena aktiiviset aktiivi aktiivisempi aktiiviseen aktiivisessa aktiivisesta aktiivisella aktiivisten aktiiviseksi aktiivisin aktiivisina aktiivisista aktiivisille aktiivisiksi aktiiviselle aktiivisiin aktiivisilla
+34	1334	sänky	sängyssä sängyn sänkyyn sänky sängystä sängyllä sänkyä sängylle sängyt sänkyjä sänkynsä sänkyni sängyissä sänkyjen sängyltä sänkyihin
+35	1335	kumpikin	kumpikin kummankin kummassakin kumminkin kummatkin kumpaakin kummallakin kummallekin kumpaankin kummastakin kummaltakin kumpiakin kumpanakin
+36	1336	ylittää	ylittää ylitti ylittänyt ylittävät ylittävä ylittämään ylitä ylittivät ylitetty ylittäminen ylitetään ylittäessä ylitin ylittämässä ylitettiin ylittämisestä ylittäisi ylitettävä ylittäen ylittämistä ylittämiseen ylitimme ylittämisen ylittämällä ylittämätön ylitämme ylittämättä
+37	1337	kaatua	kaatui kaatuu kaatua kaatuminen kaadu kaatuvat kaatumisen kaatuivat kaatumisesta kaatuneet kaatumaan kaatuisi kaaduin kaatumista kaatumiseen kaatuessa kaatumisia kaatumassa kaatumiset kaatu kaatuilevat kaadun kaatumatta kaadutaan
+38	1338	vannas	vantaan vantaalla vantaalle vantaalta vantaassa vannas vantaaseen vantaasta
+39	1339	jeesus	jeesus jeesuksen jeesusta jeesuksesta jeesukseen jeesukselle jeesuksella jeesukselta jeesuksessa
+40	1340	kuvaus	kuvaus kuvaukset kuvauksissa kuvauksen kuvauksia kuvausten kuvausta kuvauksista kuvaukseen kuvauksiin kuvauksessa kuvauksesta kuvauksien kuvauksena kuvauksesi kuvauksensa kuvauksella kuvaukseksi
+41	1341	mukainen	mukainen mukaista mukaisia mukaiset mukaisen mukaiseksi mukaiseen mukaisessa mukaisena mukaisiksi mukaisesta mukaisella mukaisista mukaisiin mukaisten mukaisina mukaisissa mukaisilla mukaiselle
+42	1342	hiukan	hiukan
+43	1343	muka	muka
+44	1344	vaatimus	vaatimukset vaatimuksia vaatimus vaatimuksiin vaatimusten vaatimuksista vaatimuksesta vaatimuksen vaatimusta vaatimuksena vaatimuksensa vaatimukseen vaatimuksille vaatimuksilla vaatimuksissa vaatimuksessa vaatimukseksi vaatimuksien
+45	1345	rinne	rinne rinteen rinnettä rinteellä rinteessä rinteet rinteeseen rinteillä rinteitä rinteelle rinteeltä rinteiden rinteestä rinteille rinteissä rinteiltä rinteisiin rinteistä
+46	1346	puute	puute puutteesta puutteita puutetta puutteen puutteessa puutteet puutteeseen puutteista puutteiden puutteensa puutteisiin puutteena puutteella
+47	1347	luultavasti	luultavasti luultavimmin luultavammin
+48	1348	hyökätä	hyökkäsi hyökkää hyökätä hyökkäsivät hyökkäävät hyökkäämään hyökännyt hyökkäävä hyökätään hyökättiin hyökkäävän hyökkääminen hyökkäisi hyökätty hyökkäämällä hyökätessä hyökkäävää hyökkäät hyökkäämässä hyökkääviä hyökkäämistä hyökättävä hyökkäisivät hyökkäämisestä hyökkään hyökätäkseen hyökkäämisen hyökättäisiin hyökkäämiseen hyökkäämättä hyökkäämästä hyökkääväksi hyökkäsin
+49	1349	tekninen	tekninen tekniset teknisen teknisiä teknistä teknisten teknisellä teknisestä teknisistä tekniseen teknisessä teknisiin teknisillä teknisenä teknisissä tekniseltä tekniselle tekniseksi teknisiltä teknisille
+50	1350	turnaus	turnauksen turnauksessa turnaus turnaukseen turnausta turnauksesta turnauksissa turnauksia turnaukset turnauksiin turnauksista turnausten turnauksensa turnauksien
+51	1351	kyky	kyky kykyä kykyjä kyvyt kyvyn kykyyn kykynsä kyvystä kykyjen kyvyistä kykyihin kykyni kykymme kykysi kyvyillä kyvyllä kyvyssä kykynä kyvylle
+52	1352	avioliitto	avioliitto avioliiton avioliitosta avioliittoon avioliittoa avioliitossa avioliitot avioliittonsa avioliittoja avioliitoista avioliittojen avioliitolle avioliittoni avioliitoksi avioliittomme avioliitoissa avioliitolla avioliittoihin
+53	1353	pyhä	pyhä pyhän pyhää pyhät pyhiä pyhien pyhään pyhänä pyhällä pyhästä pyhässä pyhälle pyhinä pyhistä pyhin pyhäksi pyhiin pyhiksi pyhältä pyhissä pyhillä pyhille pyhimpään
+54	1354	yllä	yllä ylhäällä yllään ylitse ylle ylläni ylläsi
+55	1355	harvinainen	harvinaisen harvinainen harvinaista harvinaisia harvinaiset harvinaisten harvinaisempi harvinaiseen harvinaisesta harvinaisissa harvinaiseksi harvinaisena harvinaisessa harvinaisista harvinaisin harvinaisella harvinaisiin harvinaisiksi
+56	1356	välistä	välistä välissä
+57	1357	yhdistys	yhdistyksen yhdistys yhdistysten yhdistykset yhdistyksiä yhdistystä yhdistykseen yhdistyksessä yhdistyksestä yhdistykselle yhdistyksellä yhdistyksissä yhdistyksille yhdistyksistä yhdistykseltä yhdistyksenä yhdistyksiin yhdistykseksi yhdistyksillä yhdistyksiltä
+58	1358	kiinnittää	kiinnittää kiinnitetty kiinnitä kiinnitti kiinnitetään kiinnittänyt kiinnitin kiinnitettiin kiinnittämään kiinnitettävä kiinnittävät kiinnittivät kiinnitän kiinnittämällä kiinnittäisi kiinnittämiseen kiinnität kiinnittämättä kiinnitämme kiinnittäminen kiinnittämistä kiinnittäisin kiinnitimme kiinnitettäisiin kiinnittääkseen kiinnittämisen
+59	1359	sukupolvi	sukupolven sukupolvi sukupolvien sukupolvet sukupolvea sukupolville sukupolvelta sukupolveen sukupolvia sukupolvessa sukupolvelle sukupolvesta sukupolvensa sukupolvella sukupolviin sukupolveni sukupolvilla sukupolvista sukupolvemme sukupolvissa sukupolvilta
+60	1360	kevyt	kevyt kevyen kevyttä kevyempi kevyet kevyitä kevyellä kevyempiä kevyestä kevyessä kevyemmän kevyeen kevyemmät kevyin kevyeksi kevyiden kevyenä kevyelle kevyillä kevyemmällä kevyeltä kevyemmäksi kevyempään kevyistä kevyempiin kevyempänä kevyissä kevyisiin kevyempien kevyemmästä kevyemmältä
+61	1361	terve	terve tervettä terveenä terveen terveitä terveet terveellä terveeltä terveeksi terveiden terveeseen terveinä terveempi terveillä terveempiä terveessä terveelle terveestä terveille terveistä terveisiin terveemmän terveiksi terveiltä terveempää terveemmäksi terveissä
+62	1362	väki	väkeä väki väen väelle väestä väistä väellä väkeen väillä väkensä väeltä
+63	1363	teema	teema teemana teemoja teemat teeman teemaan teemalla teemaa teemoista teemasta teemaksi teemoina teemoihin teemojen teemoilla teemansa teemassa teemoiksi teemoissa teemalta
+64	1364	sujua	sujuu sujui sujunut suju sujuvaa sujuvat sujua sujuvan sujuivat sujuva sujumaan sujuisi sujut sujuvaksi sujumista sujumisesta sujumisen sujuvalla sujuvampi sujuminen sujuisivat sujuvia
+65	1365	kiire	kiire kiirettä kiireessä kiireen kiireellä kiireistä kiireestä kiireitä kiireiden kiireet kiireeseen kiireisiin
+66	1366	eurooppalainen	eurooppalainen eurooppalaiset eurooppalaisen eurooppalaisten eurooppalaisia eurooppalaista eurooppalaisista eurooppalaisesta eurooppalaiseen eurooppalaisessa eurooppalaisille eurooppalaisiin eurooppalaisissa eurooppalaisilla eurooppalaisena eurooppalaiselle eurooppalaisella eurooppalaiseksi eurooppalaisilta eurooppalaisina
+67	1367	sovellus	sovellus sovelluksen sovellukset sovelluksia sovellusta sovellusten sovelluksessa sovelluksesta sovellukseen sovelluksella sovelluksissa sovelluksista sovelluksiin sovelluksille sovelluksilla sovellukselle sovelluksena sovelluksien sovelluksensa
+68	1368	ketju	ketju ketjun ketjussa ketjuun ketjua ketjut ketjusta ketjuja ketjujen ketjulla ketjuista ketjuihin ketjuissa ketjulle ketjuilla ketjulta ketjuksi ketjunsa ketjuna
+69	1369	jatkossa	jatkossa
+70	1370	mukaisesti	mukaisesti
+71	1371	nimenomaan	nimenomaan
+72	1372	perjantaina	perjantaina
+73	1373	lumi	lunta lumi lumia lumen lumet lumesta lumessa lumeen lumella lumien lumena lumelle lumin lumetta lumina lumelta
+74	1374	tunnelma	tunnelma tunnelmaa tunnelman tunnelmia tunnelmat tunnelmissa tunnelmasta tunnelmaan tunnelmiin tunnelmista tunnelmassa tunnelmansa tunnelmien
+75	1375	julkisuus	julkisuudessa julkisuuteen julkisuutta julkisuuden julkisuus julkisuudesta julkisuudelta julkisuudella julkisuudelle
+76	1376	summa	summa summan summaa summia summasta summalla summat summaan summista summilla summana summien summassa summaksi summalta summalle summiin summissa
+77	1377	käsitys	käsitys käsityksen käsitystä käsityksiä käsitykseni käsitykset käsityksensä käsityksessä käsitykseen käsityksesi käsityksemme käsityksiin käsitysten käsityksestä käsityksistä käsitykselle
+78	1378	julkaisu	julkaisu julkaisun julkaisua julkaisuja julkaisussa julkaisut julkaisujen julkaisusta julkaisuun julkaisuista julkaisuissa julkaisuihin julkaisunsa julkaisulle julkaisulla julkaisuna julkaisuksi julkaisuille julkaisuilla
+79	1379	uskonto	uskonto uskonnon uskonnot uskontoa uskontojen uskontoon uskontoja uskonnosta uskonnoista uskontonsa uskontoihin uskonnoissa uskonnossa uskontona uskonnolla uskonnoksi uskonnoille uskonnolle uskonnoilla uskontosi
+80	1380	hullu	hullu hullua hulluja hulluna hullun hullut hulluksi hullulta hullumpi hullujen hulluiksi hulluun hullummaksi hulluista hulluina hullumpaa hullusta hulluilla hulluinta hullulla hulluin hulluille hullulle hullussa
+81	1381	matkustaa	matkustaa matkusti matkustaminen matkustanut matkustavat matkustamaan matkustan matkusta matkustamista matkustamisen matkustin matkustamiseen matkustella matkustamisesta matkustivat matkustat matkustaessa matkustellut matkustetaan matkustamme matkustimme matkustelemaan matkusteli matkustava matkustettaessa matkustelee matkustaisi matkustamassa matkustamisessa matkustettava matkustamasta matkustamalla matkustelen
+82	1382	vauva	vauva vauvan vauvaa vauvat vauvoja vauvasta vauvalle vauvojen vauvana vauvoille vauvalla vauvoista vauvansa vauvaan vauvoilla vauvani vauvasi vauvamme
+83	1383	toukokuu	toukokuussa toukokuun toukokuuta toukokuu toukokuusta toukokuuhun toukokuulta toukokuulle
+84	1384	lintu	lintu linnut lintujen lintuja linnun lintua linnuille linnuista linnusta linnuilla lintuihin lintuun linnulle linnuksi linnulla linnuilta linnuissa
+85	1385	eroon	eroon
+86	1386	helvetin	helvetin
+87	1387	kiinalainen	kiinalainen kiinalaiset kiinalaisten kiinalaisen kiinalaisia kiinalaista kiinalaisessa kiinalaisille kiinalaisista kiinalaiseen kiinalaisesta kiinalaisilla kiinalaiselle kiinalaisiin kiinalaisella kiinalaisilta kiinalaisissa kiinalaiselta
+88	1388	pyörä	pyörä pyörän pyörällä pyörät pyörää pyöriä pyörien pyörästä pyörillä pyörään pyörin pyörälle pyörässä pyöristä pyöriin pyörissä pyörille pyörineen pyöräksi pyöränä
+89	1389	vaihdella	vaihtelee vaihtelevat vaihteli vaihteleva vaihtelevaa vaihtelivat vaihdellut vaihtelevia vaihtelevan vaihdella vaihtelevalla vaihtelevissa vaihdellen vaihtele vaihtelevin vaihtelevista vaihdellessa vaihtelevassa vaihtelevien vaihdellaan vaihtelemaan vaihtelemalla vaihtelevilla vaihtelevasta vaihteleviin
+90	1390	ote	otteeseen ote otteita otetta otteen otteella otteet ottein otteensa otteessaan otteesta otteessa otteista otteiden otteisiin otteilla otteissa
+91	1391	aivot	aivot aivojen aivoja aivoissa aivoihin aivoista aivoille aivo aivoni aivosi aivonsa aivomme aivoilla aivoon
+92	1392	yksikkö	yksikkö yksikön yksiköt yksikköä yksikössä yksiköitä yksiköiden yksikköön yksiköstä yksiköissä yksiköihin yksiköistä yksikkönsä yksiköille yksikkönä yksiköllä yksikölle yksikköjä yksiköillä yksiköksi yksikköjen yksikkömme yksiköiksi
+93	1393	ammattilainen	ammattilainen ammattilaiset ammattilaisia ammattilaisten ammattilaisen ammattilaisena ammattilaisille ammattilaista ammattilaiseksi ammattilaiselle ammattilaisilta ammattilaisilla ammattilaisista ammattilaiselta ammattilaisiin ammattilaisella ammattilaisiksi ammattilaisina
+94	1394	vapaus	vapaus vapauden vapautta vapauteen vapaudesta vapauksia vapautensa vapaudet vapaudessa vapaudelle vapauksien vapaudella vapautemme vapauksista vapauksiin
+95	1395	kari	kari karin karille karista karina karilla karia
+96	1396	mestaruus	mestaruuden mestaruus mestaruutta mestaruudesta mestaruuteen mestaruudet mestaruutensa mestaruuksia mestaruuksista mestaruuksien mestaruudella
+97	1397	kaltainen	kaltainen kaltaisia kaltaiset kaltaista kaltaisten kaltaisen kaltaisiin kaltaiseen kaltaisessa kaltaisissa kaltaisesi kaltaisista kaltaiseksi kaltaiselle kaltaiseni kaltaisille kaltaisella kaltaisesta kaltaisilla kaltaisensa kaltaisena kaltaisilta kaltaisiksi kaltaiselta kaltaisina kaltaisekseen
+98	1398	perässä	perässä perässään perässäsi perässäni
+99	1399	virta	virtaa virta virran virrat virtasi virtaan virrassa virtain virrasta virroilla virralla virtana virtoja virtojen virtansa virralle virroille virroilta
+100	1400	cup	cupin cup cupissa cupia cupiin cupista

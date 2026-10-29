@@ -1,0 +1,100 @@
+1	6001	piitata	piittaa piittaamatta piitannut piitata
+2	6002	ulkoasu	ulkoasu ulkoasun ulkoasua ulkoasusta ulkoasuun ulkoasunsa ulkoasussa ulkoasuja
+3	6003	ankkuri	ankkuri ankkurit ankkurin ankkurissa ankkurina ankkureita ankkuria ankkuriin
+4	6004	jäbä	jäbä jäbät jäbän
+5	6005	martini	martinin martini martinille martinia martinista martinilla
+6	6006	näkemä	näkemäni näkemiin näkemänsä näkemämme näkemät näkemäsi näkemistä näkemään näkemättä näkemässä näkemästä näkemän näkemällä näkemä
+7	6007	laihtua	laihtunut laihtua laihtuminen laihtuu laihduin laihtui laihdut laihdu laihtumisen laihtumaan laihtumista laihtumiseen
+8	6008	isännöidä	isännöi isännöinyt isännöidä isännöivät isännöimään isännöimä isännöimässä
+9	6009	sähköverkko	sähköverkon sähköverkkoon sähköverkko sähköverkkoa sähköverkosta sähköverkkojen sähköverkot sähköverkossa sähköverkkoja
+10	6010	kaatopaikka	kaatopaikalle kaatopaikka kaatopaikan kaatopaikalla kaatopaikoille kaatopaikalta kaatopaikkaa kaatopaikat kaatopaikkojen kaatopaikoilla
+11	6011	vankka	vankka vankkaa vankan vankat vankkoja vankalla vankkaan
+12	6012	sekaantua	sekaantunut sekaantua sekaantuminen sekaantumisesta sekaantui sekaantumista sekaantuu sekaantumisen sekaannu sekaantumaan sekaantuvat sekaantuivat
+13	6013	muistio	muistio muistion muistiossa muistioita muistiota muistiosta muistiot muistioon
+14	6014	empatia	empatiaa empatia empatian empatiaan empatiasta
+15	6015	tavoittelu	tavoittelu tavoittelua tavoitteluun tavoittelusta tavoittelun tavoittelussa
+16	6016	sarjataulukko	sarjataulukko sarjataulukossa sarjataulukon sarjataulukot
+17	6017	erotus	erotus erotuksena erotuksella erotuksen erotusta erotuksesta erotukseksi
+18	6018	ylempänä	ylempänä ylempää ylemmäs
+19	6019	naiivi	naiivi naiivia naiiveja naivi naiivin naiivilta naiivina
+20	6020	tunturi	tunturi tunturin tunturiin tuntureilla tunturit tunturissa tuntureiden tuntureita tuntureille tunturien tunturilla
+21	6021	ihmiskauppa	ihmiskaupan ihmiskauppa ihmiskauppaa ihmiskaupasta ihmiskauppaan
+22	6022	yksinkertaistaa	yksinkertaistaa yksinkertaistettu yksinkertaista yksinkertaistettuna yksinkertaistaen yksinkertaistetaan yksinkertaistaminen yksinkertaistamaan yksinkertaistamalla yksinkertaistetun yksinkertaistettua
+23	6023	lähetä	lähenee lähetä lähettäneen lähettiin läheni lähenevät lähettämän lähetään lähetessä lähenivät lähetty lähettävä
+24	6024	värvätä	värvätä värvää värväsi värvättiin värvätty värvännyt värväämään värvätään värvätyt värvääminen värväävät värvättyä
+25	6025	scifi	scifi scifiä scifin scifistä
+26	6026	edesauttaa	edesauttaa edesauttavat edesauttoi edesauttanut edesauta edesauttamaan edesauttaisi edesauttamassa edesauttoivat
+27	6027	harjoittelija	harjoittelija harjoittelijan harjoittelijana harjoittelijoita harjoittelijat harjoittelijaa harjoittelijaksi harjoittelijoiden harjoittelijalle
+28	6028	tyhjillään	tyhjillään tyhjilleen
+29	6029	maailmankuva	maailmankuva maailmankuvaa maailmankuvan maailmankuvaan maailmankuvasta maailmankuvansa maailmankuvassa
+30	6030	gloria	gloria glorian gloriassa
+31	6031	tämänhetkinen	tämänhetkinen tämänhetkisen tämänhetkistä tämänhetkiset tämänhetkisestä tämänhetkiseen tämänhetkisten tämänhetkisessä tämänhetkisistä tämänhetkisiin
+32	6032	merimies	merimies merimiehet merimiesten merimiehen merimiestä merimiehiä
+33	6033	reservi	reservin reservi reservissä reserviin reserviä reservistä reservit reservejä reservien
+34	6034	nälkäinen	nälkäinen nälkäisenä nälkäisiä nälkäiset nälkäisen nälkäistä nälkäiseksi nälkäisille nälkäisten nälkäiselle nälkäisinä
+35	6035	kiivas	kiivas kiivasta kiivaana kiivaan kiivaita kiivaaseen kiivaiden kiivain
+36	6036	jalkakäytävä	jalkakäytävällä jalkakäytävälle jalkakäytävä jalkakäytävän jalkakäytävää jalkakäytävät jalkakäytävillä jalkakäytäviä jalkakäytävien
+37	6037	vuokranantaja	vuokranantaja vuokranantajan vuokranantajat vuokranantajalle vuokranantajien vuokranantajalla vuokranantajaa vuokranantajia
+38	6038	puolustautua	puolustautua puolustautumaan puolustautui puolustautuu puolustautuminen puolustautumista puolustautuivat puolustautuvat
+39	6039	taktinen	taktinen taktisen taktista taktisia taktiset taktisten taktisista taktiseen taktisesta taktisiin
+40	6040	piraatti	piraatit piraatti piraattien piraatteja piraatin
+41	6041	takoa	takoi takoo takoa taottu takomaan taotaan takonut takovat takoivat taon takoma taottiin tako
+42	6042	poissaolo	poissaolo poissaolon poissaoloja poissaolot poissaoloa poissaolojen poissaolosta poissaolonsa poissaoloon poissaoloista
+43	6043	mänty	mänty mäntyä männyn mäntyjä männyt mäntyjen männystä mäntyyn
+44	6044	taklaus	taklaus taklauksesta taklauksia taklaukset taklauksen taklaukseen taklausta
+45	6045	saippua	saippua saippuaa saippualla saippuan saippuat saippuasta saippuoita
+46	6046	aistia	aistii aistia aistit aistimaan aistittavissa aistivat aistien aistinut aistin aistiminen aistitaan
+47	6047	saaga	saga saagan saaga saagaa saagassa
+48	6048	graham	graham grahamin grahamia
+49	6049	yhdenvertaisuus	yhdenvertaisuus yhdenvertaisuuden yhdenvertaisuutta yhdenvertaisuudesta yhdenvertaisuuteen
+50	6050	laitahyökkääjä	laitahyökkääjä laitahyökkääjänä laitahyökkääjän laitahyökkääjät
+51	6051	nasta	nasta nastaa nastat nastoja nastoilla nastojen nastan
+52	6052	vaalikone	vaalikone vaalikoneen vaalikoneessa vaalikoneet vaalikoneeseen vaalikoneiden vaalikoneesta vaalikoneita vaalikonetta
+53	6053	uuno	uuno uunon uunoa
+54	6054	uhkailu	uhkailu uhkailua uhkailun uhkailusta uhkailuja uhkailut uhkailuun uhkailujen
+55	6055	muuntaa	muuntaa muunnettu muunnetaan muunnella muuntaminen muuntamaan muuntavat muunsi muuntamista muuntamalla muunnettiin muuntamiseen
+56	6056	kontti	kontti kontin konttiin kontit kontissa kontteja konttia kontista konttien konteissa konteista
+57	6057	jauheliha	jauhelihaa jauheliha jauhelihan jauhelihasta
+58	6058	lanseerata	lanseerasi lanseerattiin lanseeraa lanseerattu lanseerata lanseeraama lanseerannut lanseerataan
+59	6059	isovanhempi	isovanhemmat isovanhempien isovanhempia isovanhempani isovanhempi isovanhemmille isovanhempansa isovanhemmilla isovanhemmilta isovanhemmista isovanhemman
+60	6060	lyhenne	lyhenne lyhenteet lyhennettä lyhenteitä lyhenteen lyhenteellä lyhenteenä
+61	6061	kiteyttää	kiteyttää kiteytti kiteytetty
+62	6062	kymmenisen	kymmenisen
+63	6063	talvisin	talvisin
+64	6064	toistakymmentä	toistakymmentä
+65	6065	viimeinkin	viimeinkin
+66	6066	traaginen	traaginen traagista traagisen traagisia traagisesta traagiset traagiseen traagisessa traagisten
+67	6067	kasetti	kasetti kasetin kasetteja kasetit kasetille kasettia kasetilla kasettien kasetilta
+68	6068	digitalisaatio	digitalisaatio digitalisaation digitalisaatiota digitalisaatiosta digitalisaatioon
+69	6069	yhdistellä	yhdistellä yhdistelee yhdistelemällä yhdistelevä yhdistellään yhdistelemään yhdistelty yhdistellen yhdistelevät yhdisteli
+70	6070	mobile	mobile mobilen mobilessa
+71	6071	erotella	erotella erotellaan eroteltu erottele erottelemaan erottelee eroteltua erotellut eroteltuna eroteltiin
+72	6072	asuste	asusteet asusteita asuste asusteiden asusteisiin asusteissa asusteilla asusteista asusteen
+73	6073	mieltää	mielletään mieltää mieltävät miellä mielletty mieltänyt miellän miellettiin
+74	6074	trendikäs	trendikäs trendikästä trendikkään trendikkäitä trendikkäät
+75	6075	suolainen	suolaista suolainen suolaisen suolaisia suolaiset suolaisiin
+76	6076	yhteenotto	yhteenottoja yhteenotto yhteenotot yhteenoton yhteenotoissa yhteenotossa yhteenottoa yhteenottoon yhteenottoihin yhteenottojen yhteenotoista yhteenotosta
+77	6077	kaksoset	kaksoset kaksosten kaksosia kaksosista kaksosilla kaksosille
+78	6078	marginaali	marginaali marginaalissa marginaalit marginaalilla marginaaliin marginaalin marginaalia marginaalista
+79	6079	maalinteko	maalinteossa maalinteko maalintekoon maalinteon maalintekoa
+80	6080	uskovainen	uskovainen uskovaiset uskovaisten uskovaisia uskovaisen uskovaisille uskovaista
+81	6081	bee	been bee
+82	6082	luovutus	luovutus luovutuksen luovutusta luovutuksesta luovutukseen luovutuksia luovutukset luovutuksella
+83	6083	kiristys	kiristys kiristystä kiristyksen kiristyksestä kiristykseen kiristyksiä kiristykset
+84	6084	pyörätuoli	pyörätuolissa pyörätuoli pyörätuolilla pyörätuoliin pyörätuolin pyörätuolia pyörätuolista
+85	6085	häviö	häviö häviöllä häviön häviötä häviöt häviöön häviöstä häviöitä häviölle häviönsä
+86	6086	hinnoittelu	hinnoittelu hinnoittelun hinnoittelua hinnoittelussa hinnoittelusta hinnoitteluun hinnoittelulla
+87	6087	hankaluus	hankaluuksia hankaluuksiin hankaluus hankaluudet hankaluuksista hankaluutta hankaluuksissa hankaluuksien hankaluuden
+88	6088	lakisääteinen	lakisääteinen lakisääteiset lakisääteisiä lakisääteistä lakisääteisen lakisääteisten lakisääteisistä lakisääteisiin lakisääteisestä
+89	6089	vaino	vaino vainon vainoa vainot vainoja vainojen vainoissa vainosta vainoista
+90	6090	bloggaaja	bloggaaja bloggaajien bloggaajat bloggaajille bloggaajan bloggaajia bloggaajaa bloggaajana bloggaajista
+91	6091	heikkeneminen	heikkeneminen heikkenemistä heikkenemiseen heikkenemisen heikkenemisestä
+92	6092	puuvilla	puuvilla puuvillaa puuvillan puuvillasta
+93	6093	hiilihydraatti	hiilihydraatteja hiilihydraattien hiilihydraatit hiilihydraattia hiilihydraateista hiilihydraatti
+94	6094	kuivuus	kuivuus kuivuudesta kuivuuden kuivuutta kuivuuteen
+95	6095	keijo	keijo keijon
+96	6096	bikinit	bikini bikineissä bikinit bikineitä bikinin bikinien bikineihin
+97	6097	edustusjoukkue	edustusjoukkueen edustusjoukkue edustusjoukkueessa edustusjoukkueeseen edustusjoukkueet edustusjoukkuetta
+98	6098	rasitus	rasitus rasitusta rasituksen rasituksesta rasitukset rasituksessa rasitukseen rasituksia rasituksista rasitusten
+99	6099	napoli	napolin napoli napolissa napolista napoliin napolia
+100	6100	nelson	nelson nelsonin

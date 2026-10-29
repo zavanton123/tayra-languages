@@ -1,0 +1,100 @@
+1	4601	suostumus	suostumusta suostumus suostumuksen suostumuksella suostumuksensa suostumuksesta suostumukseni suostumuksesi
+2	4602	hammaslääkäri	hammaslääkäri hammaslääkärin hammaslääkärissä hammaslääkärit hammaslääkäriin hammaslääkärille hammaslääkäriä hammaslääkärillä hammaslääkäreitä hammaslääkärien hammaslääkäriksi hammaslääkäristä
+3	4603	matkapuhelin	matkapuhelin matkapuhelimen matkapuhelimet matkapuhelinten matkapuhelimia matkapuhelinta matkapuhelimella matkapuhelimeen matkapuhelimien matkapuhelimiin matkapuhelimissa matkapuhelimista matkapuhelimesta matkapuhelimensa matkapuhelimessa
+4	4604	presidentinvaalit	presidentinvaaleissa presidentinvaalit presidentinvaalien presidentinvaaleihin presidentinvaaleja presidentinvaaleista
+5	4605	konsultti	konsultti konsulttina konsultin konsultit konsulttien konsultteja konsultiksi konsulttia konsulteille
+6	4606	asevelvollisuus	asevelvollisuuden asevelvollisuus asevelvollisuutta asevelvollisuudesta asevelvollisuuteen
+7	4607	stadi	stadin stadissa stadi stadiin stadia stadista
+8	4608	tupa	tupa tuvan tupaan tuvassa tuvat tuvasta tupaa tupien
+9	4609	leuka	leuka leuan leukaan leuat leukaa leukoja leuassa leukansa leukojen leuasta
+10	4610	sulattaa	sulattaa sulata sulattamaan sulatti sulatella sulatettu sulatetaan sulattanut sulattaminen sulatettua sulattavat sulattamalla sulattamiseen sulatettiin sulattaisi sulatettuna
+11	4611	kateellinen	kateellinen kateellisia kateellisena kateelliseksi kateelliset kateellisten
+12	4612	tiedustelu	tiedustelu tiedustelun tiedustelua tiedusteluun tiedustelussa tiedusteluja tiedustelusta tiedustelut tiedusteluihin tiedustelulla
+13	4613	käsityö	käsityönä käsitöitä käsityö käsityötä käsityöt käsityön käsitöiden käsitöistä käsityöstä käsitöihin
+14	4614	määräaikainen	määräaikainen määräaikaisen määräaikaisia määräaikaista määräaikaisten määräaikaiset määräaikaisena määräaikaiseen määräaikaisella määräaikaisiin määräaikaiseksi määräaikaisessa
+15	4615	heijastua	heijastuu heijastuvat heijastui heijastua heijastuvan heijastunut heijastu heijastuivat heijastuva heijastuma heijastuisi
+16	4616	alamäki	alamäki alamäkeen alamäkeä alamäessä alamäkiä alamäen alamäet
+17	4617	varakas	varakas varakkaat varakkaita varakkaiden varakkaan varakasta varakkaille varakkaampi varakkain varakkaasta varakkailla varakkaista
+18	4618	naispuolinen	naispuolinen naispuolisia naispuolisen naispuoliset naispuolista naispuolisten naispuolisista naispuolisena naispuolisesta
+19	4619	sini	sini sinistä sinin
+20	4620	nuolla	nuolla nuolemaan nuolee nuole nuolen nuolet nuolevat nuoleminen nuolemista nuoleskella nuolemassa nuolin
+21	4621	esikuva	esikuva esikuvana esikuvia esikuvan esikuvansa esikuvaksi esikuvat esikuvina esikuvien esikuvaa esikuvani
+22	4622	noja	nojalla nojaa
+23	4623	meinaan	meinaan
+24	4624	ootko	ootko
+25	4625	satunnaisesti	satunnaisesti
+26	4626	tunnetuksi	tunnetuksi
+27	4627	konteksti	kontekstissa konteksti kontekstiin kontekstin kontekstia kontekstista konteksteissa
+28	4628	epämiellyttävä	epämiellyttävä epämiellyttävää epämiellyttäviä epämiellyttävän epämiellyttävältä epämiellyttävät epämiellyttäväksi epämiellyttävänä epämiellyttävien epämiellyttävistä epämiellyttävästä epämiellyttävään
+29	4629	olkapää	olkapään olkapää olkapäähän olkapäät olkapäätä olkapäänsä olkapäitä olkapäälle olkapäällä olkapäille olkapäillä olkapäästä olkapäässä olkapäiden olkapääni olkapäistä olkapäihin olkapäitään olkapäissä
+30	4630	epätodennäköinen	epätodennäköistä epätodennäköisenä epätodennäköinen epätodennäköiseltä epätodennäköisiä
+31	4631	palvelin	palvelimen palvelimet palvelimelle palvelimella palvelimia palvelimille palvelin palvelimelta palvelimilla palvelinta palvelimien palvelinten palvelimeen palvelimiin palvelimilta palvelimissa palvelimista
+32	4632	soittaja	soittaja soittajan soittajat soittajia soittajien soittajaa soittajalle soittajista soittajille soittajasta soittajana soittajaksi
+33	4633	jonottaa	jonottaa jonottamaan jonotettiin jonottavat jonotin jonottamassa jonottaminen jonottivat jonotetaan jonottamista jonotti jonottanut jonotella
+34	4634	serbia	serbian serbia serbiaa serbiassa serbiaan serbiasta serbialle
+35	4635	kunnostaa	kunnostettu kunnostaa kunnostettiin kunnostetaan kunnostaminen kunnostamiseen kunnostamaan kunnostamista kunnosti kunnosta kunnostamisen kunnostamisesta kunnostanut kunnostamisessa kunnostamalla kunnostettava
+36	4636	suhteellinen	suhteellinen suhteellista suhteelliset suhteelliseen suhteellisesta suhteellisia suhteellisella suhteellisessa suhteellisten
+37	4637	profeetta	profeetta profeetan profeettojen profeetat profeettoja profeettaa profeettansa profeettana
+38	4638	moskeija	moskeijan moskeija moskeijassa moskeijat moskeijaan moskeijoita moskeijaa moskeijoiden moskeijoissa moskeijasta moskeijoihin
+39	4639	taju	tajua taju tajusi tajuihinsa tajun tajunsa
+40	4640	kirjattu	kirjattu kirjatut kirjattuna kirjattua kirjattujen kirjatun kirjattuja
+41	4641	psykiatri	psykiatri psykiatrin psykiatria psykiatrille psykiatrit psykiatrista psykiatrien psykiatrilla psykiatrina psykiatreja psykiatrilta
+42	4642	eduskuntaryhmä	eduskuntaryhmän eduskuntaryhmä eduskuntaryhmästä eduskuntaryhmässä eduskuntaryhmien eduskuntaryhmät eduskuntaryhmään eduskuntaryhmää
+43	4643	kataja	kataja katajan katajalle katajaa katajaan katajassa
+44	4644	vuotuinen	vuotuinen vuotuisen vuotuiset vuotuista vuotuisesta vuotuiseen vuotuisessa vuotuisia vuotuisella vuotuisista vuotuisten vuotuisiin
+45	4645	virittää	virittää viritetty viritti viritellä viritetään virittämään virittänyt viritin virittäminen virittävät viritä viritettiin virittivät virittämä
+46	4646	soitella	soitteli soitellaan soittelee soittelen soitellut soittele soittelemaan soittelin soittelevat soittelivat soitella soitellen soiteltu
+47	4647	neekeri	neekeri neekerit neekerin neekeriä neekereitä neekeriksi neekereistä neekereiden
+48	4648	lunastaa	lunastaa lunasti lunastamaan lunastanut lunasta lunastettu lunastettiin lunastetaan lunastamatta lunastivat lunastamassa lunastavat
+49	4649	sillanpää	sillanpää sillanpään sillanpäätä sillanpäälle
+50	4650	maanviljelijä	maanviljelijä maanviljelijät maanviljelijöiden maanviljelijöitä maanviljelijän maanviljelijöille maanviljelijää maanviljelijälle maanviljelijänä
+51	4651	sumu	sumu sumua sumussa sumun sumusta sumuista sumuun sumut sumujen
+52	4652	menettely	menettely menettelyä menettelyn menettelystä menettelyssä menettelyyn menettelyllä menettelyt menettelyjä
+53	4653	konservatiivinen	konservatiivinen konservatiivisen konservatiivista konservatiivisia konservatiiviset konservatiivisten konservatiiviseen konservatiivisempi konservatiivisesta konservatiivisessa konservatiiviseksi konservatiivisena
+54	4654	raunio	raunio raunioista rauniot raunioita raunioina raunioille raunioiden raunioissa raunioilla raunioihin raunioiksi raunion
+55	4655	johdattaa	johdatti johdattaa johdattanut johdattavat johdattamaan johdattivat johdata johdatetaan
+56	4656	epäkohta	epäkohtia epäkohta epäkohtiin epäkohdat epäkohdista epäkohtien epäkohdan epäkohtaa epäkohtaan
+57	4657	voimavara	voimavarat voimavaroja voimavara voimavarojen voimavarana voimavaransa voimavaroista voimavaroihin
+58	4658	slovenia	slovenia slovenian sloveniassa sloveniaa sloveniasta
+59	4659	rekisteröidä	rekisteröidä rekisteröi rekisteröitiin rekisteröidään rekisteröinyt rekisteröivät rekisteröimätön rekisteröitävä rekisteröimään rekisteröimä rekisteröiminen rekisteröit rekisteröimistä
+60	4660	heikentyä	heikentynyt heikentyä heikentyneen heikentyneet heikentyy heikentyi heikentyessä heikentyvät heikentyneeseen heikennyt heikentymistä
+61	4661	mieto	mieto mietoa miedolla mietoja miedon mietojen miedot miedompi
+62	4662	tovi	tovin tovi toviksi toviin
+63	4663	messi	messi messissä messiin messin messiä
+64	4664	selfie	selfie selfien selfieitä selfiet selfietä
+65	4665	tyrmätä	tyrmää tyrmäsi tyrmätä tyrmään tyrmännyt tyrmättiin tyrmätty tyrmätään tyrmäsivät tyrmäämään tyrmäävät
+66	4666	samainen	samaisen samainen samaisessa samaisella samaisesta samaista samaiset samaiseen samaisena samaiselle samaiselta
+67	4667	ulottuvuus	ulottuvuus ulottuvuuden ulottuvuuksia ulottuvuuteen ulottuvuutta ulottuvuudessa ulottuvuudet ulottuvuudesta ulottuvuuksien ulottuvuuksiin ulottuvuuksista ulottuvuuksissa
+68	4668	pääsihteeri	pääsihteeri pääsihteerin pääsihteerinä pääsihteeriksi pääsihteerille
+69	4669	tragedia	tragedia tragedian tragediaa tragediasta tragedioita tragediaan tragediat tragediassa tragedioista tragedioiden
+70	4670	solmu	solmuun solmu solmua solmun solmussa solmut solmuja solmujen
+71	4671	verottaja	verottaja verottajan verottajalle verottajalta verottajaa verottajalla
+72	4672	puskea	puskee puski puskea puskemaan puskevat puskenut pusketaan puske puskemista puskemalla puskivat puskin puskien
+73	4673	rita	rita ritan ridan
+74	4674	huolellisesti	huolellisesti huolellisemmin
+75	4675	ennemminkin	ennemminkin
+76	4676	lähtöisin	lähtöisin
+77	4677	tiettävästi	tiettävästi
+78	4678	pikainen	pikaista pikainen pikaisen pikaisella pikaisia pikaiseen pikaiset pikaisesta
+79	4679	traktori	traktorin traktori traktoreita traktoria traktorilla traktorit traktoreiden traktorien traktoriin traktorista traktorissa traktoreilla traktoreihin
+80	4680	läpimurto	läpimurto läpimurron läpimurtonsa läpimurtoa läpimurtoon läpimurtoja läpimurrosta läpimurrot
+81	4681	heijastaa	heijastaa heijastavat heijastelee heijasta heijastin heijastava heijasti heijastavan heijastetaan heijastavia heijastamaan heijastavaa heijastivat heijastettiin
+82	4682	tasoittaa	tasoittaa tasoitti tasoittamaan tasoitettu tasoittavat tasoitetaan tasoita tasoittavalla tasoittanut tasoittaen tasoittivat tasoittava tasoittaisi tasoittamiseen tasoittavan
+83	4683	mylly	mylly myllyn myllyyn myllyt myllyä myllyssä myllystä myllyllä myllyjen myllyjä myllylle
+84	4684	vaikute	vaikutteita vaikutteet vaikutteista vaikutteiden vaikutteille vaikutteensa
+85	4685	kookoo	kookoo kookoon kookoossa kookoota
+86	4686	vaaleanpunainen	vaaleanpunainen vaaleanpunaiset vaaleanpunaista vaaleanpunaisen vaaleanpunaisia vaaleanpunaisesta vaaleanpunaiseen vaaleanpunaiseksi vaaleanpunaisella vaaleanpunaisessa
+87	4687	lainaus	lainaus lainauksia lainauksen lainaukset lainausta lainauksesta lainausten lainauksessa
+88	4688	syrjään	syrjään syrjässä syrjästä
+89	4689	ajanjakso	ajanjakso ajanjakson ajanjaksolla ajanjaksona ajanjaksoa ajanjaksoon ajanjaksolta ajanjaksolle ajanjaksosta ajanjaksoja
+90	4690	pilkata	pilkkaa pilkata pilkkasi pilkataan pilkkaavat pilkattiin pilkkasivat pilkkaaminen pilkannut pilkkaamaan pilkattu pilkkaamista
+91	4691	puuha	puuhaa puuhia puuha puuhat puuhista puuhissa puuhiin puuhaan puuhassa
+92	4692	taival	taival taipale taipaleen taivalta taipaleella taipaleensa taipaleelle taipaleesta
+93	4693	ruokakauppa	ruokakaupan ruokakaupassa ruokakauppa ruokakauppaan ruokakaupasta ruokakaupoissa ruokakaupat ruokakaupoista ruokakauppojen ruokakauppoihin ruokakauppaa ruokakauppoja
+94	4694	minttu	minttu mintun minttua mintulla
+95	4695	naula	naulan naula nauloja naulaa naulaan naulat nauloilla naulasta naulojen
+96	4696	kuuloke	kuulokkeet kuulokkeita kuulokkeista kuulokkeiden kuulokkeilla kuuloke kuulokkeissa kuulokkeisiin
+97	4697	seos	seos seosta seoksen seoksesta seokseen seoksella seokset seoksessa seokseksi seoksia
+98	4698	nähtävyys	nähtävyyksiä nähtävyys nähtävyyksistä nähtävyyksiin nähtävyyksien nähtävyyden nähtävyytenä
+99	4699	puhelinnumero	puhelinnumero puhelinnumeron puhelinnumeroa puhelinnumerot puhelinnumeroita puhelinnumerosi puhelinnumeroon puhelinnumeronsa puhelinnumerosta
+100	4700	divisioona	divisioonan divisioona divisioonaan divisioonassa divisioonaa divisioonasta divisioonat divisioonien

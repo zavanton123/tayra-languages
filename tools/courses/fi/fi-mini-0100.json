@@ -1,0 +1,218 @@
+{
+  "id": "fi-mini-0100",
+  "rankUpTo": 100,
+  "level": "A1",
+  "title": "Kotona ja perheen kanssa",
+  "description": "Ten short, simple stories about home, family and everyday moments in Finland.",
+  "topic": "Home and family",
+  "names": [
+    "Liisa",
+    "Sami",
+    "Pihla",
+    "Oulu",
+    "Eero",
+    "Sanna",
+    "Tampere",
+    "Eetu",
+    "Ella",
+    "Eino",
+    "Iida",
+    "Juha",
+    "Leena",
+    "Kuopio",
+    "Veeti",
+    "Venla",
+    "Pirjo",
+    "Siiri",
+    "Helsinki",
+    "Esplanadi",
+    "Antti",
+    "Tiina",
+    "Porvoo",
+    "Rovaniemi",
+    "Elina",
+    "Tornio",
+    "Haaparanta",
+    "Jari",
+    "Minna",
+    "Aatu",
+    "Lauri",
+    "Laura",
+    "Ville",
+    "Raili",
+    "Emma",
+    "Petri",
+    "Hanna",
+    "Jyväskylä"
+  ],
+  "lessons": [
+    {
+      "title": "Uusi lapsi",
+      "summary": "Liisa and Sami from Oulu have a new baby, Pihla, and a new house.",
+      "newWords": [
+        "olla",
+        "ja",
+        "se",
+        "ei",
+        "hän",
+        "he",
+        "uusi",
+        "hyvä",
+        "lapsi",
+        "sanoa",
+        "kyllä",
+        "mutta"
+      ],
+      "text": "Liisa ja Sami ovat Oulusta. Nyt heillä on uusi lapsi. Lapsi on tyttö, Pihla.\n\n”Pihla on hyvä lapsi”, Liisa sanoo.\n\n”Kyllä, hän on hyvä lapsi”, Sami sanoo. ”Ja hän on meidän.”\n\nLiisalla ja Samilla on myös uusi talo. Talo ei ole iso, mutta se on hyvä.\n\n”Uusi lapsi ja uusi talo”, Liisa sanoo. ”Kyllä, se on hyvä.”\n\nKysymykset:\nMistä Liisa ja Sami ovat?\nHe ovat Oulusta.\nOnko heillä uusi lapsi?\nKyllä, heillä on uusi lapsi, Pihla.\nOnko Pihla hyvä lapsi?\nKyllä, Pihla on hyvä lapsi.\nOnko talo iso?\nEi, talo ei ole iso, mutta se on hyvä."
+    },
+    {
+      "title": "Tavallinen päivä",
+      "summary": "Eero and Sanna go to work, their children go to school, and in the evening everyone comes home.",
+      "newWords": [
+        "päivä",
+        "työ",
+        "mennä",
+        "tulla",
+        "nyt",
+        "sitten",
+        "aina",
+        "kun",
+        "myös",
+        "tämä",
+        "me"
+      ],
+      "text": "Eero ja Sanna ovat Tampereelta. He ovat töissä joka päivä.\n\nEero menee aina töihin ensin. Sitten Sanna menee myös töihin. Lapset, Eetu ja Ella, menevät myös. He menevät kouluun.\n\nKun päivä on ohi, he tulevat kotiin. Eero tulee aina ensin. Sitten tulee Sanna, ja sitten tulevat lapset.\n\n”Nyt me olemme kaikki täällä”, Eero sanoo.\n\n”Kyllä, nyt me olemme kaikki täällä”, Sanna sanoo. ”Tämä on hyvä päivä.”\n\nKysymykset:\nMistä Eero ja Sanna ovat?\nHe ovat Tampereelta.\nMeneekö Eero töihin?\nKyllä, hän menee töihin joka päivä.\nMihin lapset menevät?\nLapset menevät kouluun.\nTulevatko he kotiin?\nKyllä, he tulevat kotiin, kun päivä on ohi."
+    },
+    {
+      "title": "Mitä Eino haluaa?",
+      "summary": "Eino wants his sister Iida's new book; she keeps it but gives him another one.",
+      "newWords": [
+        "haluta",
+        "saada",
+        "antaa",
+        "ottaa",
+        "tuo",
+        "mikä",
+        "jokin",
+        "joku",
+        "minä",
+        "sinä"
+      ],
+      "text": "Iidalla on jotain uutta. Se on kirja.\n\n”Mikä tuo on?” Eino sanoo.\n\n”Tämä on uusi kirja”, Iida sanoo. ”Joku antoi sen minulle.”\n\n”Minä haluan sen”, Eino sanoo. ”Saanko minä sen?”\n\n”Et saa”, Iida sanoo. ”Se on minun. Mutta sinä saat jotain muuta.”\n\nIida antaa Einolle jotain. Se on myös kirja.\n\n”Ota tuo”, Iida sanoo. ”Tämä on minun, ja tuo on sinun.”\n\nEino ottaa sen. ”Hyvä!” hän sanoo. ”Nyt minullakin on uusi kirja.”\n\nKysymykset:\nMitä Iidalla on?\nIidalla on uusi kirja.\nKuka antoi sen Iidalle?\nJoku antoi sen hänelle.\nMitä Eino haluaa?\nEino haluaa Iidan kirjan.\nSaako Eino sen?\nEi, hän ei saa sitä.\nMitä Iida antaa Einolle?\nIida antaa Einolle jotain muuta."
+    },
+    {
+      "title": "Oma talo",
+      "summary": "Juha and Leena from Kuopio tell their children about the family's first house of its own.",
+      "newWords": [
+        "vuosi",
+        "yksi",
+        "kaksi",
+        "toinen",
+        "ensimmäinen",
+        "oma",
+        "tietää",
+        "kertoa"
+      ],
+      "text": "Juha ja Leena ovat Kuopiosta. Heillä on kaksi lasta. Ensimmäinen lapsi on Veeti. Toinen lapsi on Venla.\n\nTämä vuosi on hyvä vuosi. Nyt heillä on oma talo. Se on heidän ensimmäinen oma talonsa.\n\n”Onko tämä meidän oma talo?” Veeti sanoo.\n\n”Kyllä”, Juha kertoo. ”Se on meidän. Talossa on kaksi huonetta lapsille: yksi sinulle ja toinen Venlalle.”\n\nJuha kertoo sen myös Venlalle.\n\n”Minä tiedän jo, mikä on minun”, Veeti sanoo.\n\nKysymykset:\nMistä Juha ja Leena ovat?\nHe ovat Kuopiosta.\nOnko heillä kaksi lasta?\nKyllä, heillä on kaksi lasta, Veeti ja Venla.\nMitä heillä on nyt?\nNyt heillä on oma talo.\nOnko talossa yksi huone lapsille?\nEi, talossa on kaksi huonetta lapsille.\nMitä Veeti tietää?\nVeeti tietää, mikä huone on hänen."
+    },
+    {
+      "title": "Paljon ihmisiä",
+      "summary": "Pirjo and Siiri spend a day on the Esplanadi in Helsinki and watch the people.",
+      "newWords": [
+        "kaikki",
+        "paljon",
+        "ihminen",
+        "suuri",
+        "nähdä",
+        "koko",
+        "moni",
+        "vähän",
+        "paikka",
+        "katsoa",
+        "mies",
+        "nainen"
+      ],
+      "text": "Pirjo ja Siiri ovat Helsingissä. He ovat Esplanadilla. Se on suuri paikka.\n\nSiellä on paljon ihmisiä: miehiä, naisia ja lapsia. Kaikki ovat siellä, kun päivä on hyvä.\n\nSiiri katsoo ihmisiä. Hän näkee miehen ja naisen. Mies ja nainen katsovat lapsia.\n\n”Minä näen paljon ihmisiä”, Siiri sanoo.\n\n”Kyllä”, Pirjo sanoo. ”Moni ihminen tulee tänne koko päiväksi.”\n\n”Lapsia on vähän”, Siiri sanoo. ”Mutta miehiä ja naisia on paljon.”\n\nPirjo ja Siiri katsovat kaikkea koko päivän. Se on hyvä paikka.\n\nKysymykset:\nMissä Pirjo ja Siiri ovat?\nHe ovat Esplanadilla Helsingissä.\nOnko Esplanadi suuri paikka?\nKyllä, se on suuri paikka.\nTuleeko sinne moni ihminen?\nKyllä, moni ihminen tulee sinne koko päiväksi.\nMitä Siiri katsoo?\nSiiri katsoo ihmisiä.\nOnko siellä paljon lapsia?\nEi, lapsia on vähän."
+    },
+    {
+      "title": "Matka pohjoiseen",
+      "summary": "Antti and Tiina travel from Porvoo to Rovaniemi and visit Haaparanta in Sweden.",
+      "newWords": [
+        "aika",
+        "jo",
+        "kanssa",
+        "vielä",
+        "jälkeen",
+        "käydä",
+        "päästä",
+        "maa",
+        "ennen",
+        "lähteä"
+      ],
+      "text": "Antti ja Tiina ovat Porvoosta. Nyt he lähtevät Rovaniemelle. He käyvät siellä joka vuosi.\n\nEnnen kuin he lähtevät, Antti katsoo kelloa. ”Onko meillä vielä aikaa?” hän sanoo.\n\n”On, meillä on vielä aikaa”, Tiina sanoo. ”Mutta nyt me lähdemme.”\n\nHe pääsevät Rovaniemelle jo illalla. Siellä he ovat Elinan kanssa. Elina on Tiinan äiti.\n\nKahden päivän jälkeen he käyvät Elinan kanssa Torniossa ja Haaparannassa. Haaparanta on jo toinen maa, mutta sinne pääsee Torniosta jalan.\n\nViikon jälkeen he lähtevät Porvooseen.\n\nKysymykset:\nMistä Antti ja Tiina ovat?\nHe ovat Porvoosta.\nMitä Antti sanoo, ennen kuin he lähtevät?\nHän sanoo: ”Onko meillä vielä aikaa?”\nOvatko he Rovaniemellä jo illalla?\nKyllä, he ovat siellä jo illalla.\nOnko Haaparanta toinen maa?\nKyllä, se on jo toinen maa."
+    },
+    {
+      "title": "Uusi kone",
+      "summary": "Jari gets a new machine that does not work, and with Minna's help he gets it going.",
+      "newWords": [
+        "tehdä",
+        "voida",
+        "pitää",
+        "osa",
+        "sama",
+        "alkaa",
+        "käyttää",
+        "toimia",
+        "itse",
+        "puoli"
+      ],
+      "text": "Jari saa uuden koneen. Hän haluaa käyttää sitä heti. Mutta se ei toimi.\n\n”Mitä minun pitää tehdä?” Jari sanoo.\n\nMinna tulee katsomaan. ”Tässä on yksi osa”, hän sanoo. ”Se on koneen osa, ja sen paikka on tässä. Meidän pitää tehdä se itse.”\n\nJari ja Minna tekevät sen itse. Puolen tunnin jälkeen se alkaa toimia.\n\n”Nyt se toimii!” Jari sanoo. ”Nyt voin käyttää sitä.”\n\n”Minulla on sama kone”, Minna sanoo. ”Voit käyttää sitä joka päivä.”\n\nKysymykset:\nMitä Jari saa?\nJari saa uuden koneen.\nToimiiko se heti?\nEi, se ei toimi.\nMitä Minna sanoo?\nMinna sanoo: ”Tässä on yksi osa.”\nTekevätkö Jari ja Minna sen itse?\nKyllä, he tekevät sen itse.\nAlkaako se toimia?\nKyllä, puolen tunnin jälkeen se alkaa toimia.\nOnko Minnalla sama kone?\nKyllä, Minnalla on sama kone."
+    },
+    {
+      "title": "Miksi?",
+      "summary": "Aatu always asks why, but in the end he goes to bed when his father Lauri promises him two books.",
+      "newWords": [
+        "että",
+        "jos",
+        "tai",
+        "kuitenkin",
+        "vaan",
+        "eikä",
+        "koska",
+        "vaikka",
+        "miksi"
+      ],
+      "text": "Aatu on Laurin lapsi. Hän sanoo aina: ”Miksi?”\n\nNyt Lauri sanoo, että Aatun pitää mennä nukkumaan.\n\n”Miksi?” Aatu sanoo. ”Sinä et mene vielä, eikä Laura mene.”\n\n”Koska Laura ja minä emme ole lapsia, mutta sinä olet lapsi”, Lauri sanoo.\n\n”En ole lapsi, vaan iso poika”, Aatu sanoo.\n\n”Olet iso poika, mutta sinun pitää kuitenkin mennä nukkumaan”, Lauri sanoo.\n\n”Vaikka en halua?” Aatu sanoo.\n\n”Vaikka et halua”, Lauri sanoo. ”Mutta jos menet nyt, luen sinulle yhden kirjan tai kaksi.”\n\n”Kaksi!” Aatu sanoo, ja hän menee.\n\nKysymykset:\nMitä Aatu sanoo aina?\nHän sanoo aina: ”Miksi?”\nMeneekö Laura jo?\nEi, Laura ei mene vielä, eikä Lauri mene.\nMiksi Aatun pitää mennä?\nKoska hän on lapsi.\nPitääkö Aatun kuitenkin mennä?\nKyllä, hänen pitää kuitenkin mennä.\nMitä Aatu sanoo, kun Lauri sanoo, että hän on lapsi?\nHän sanoo, että hän ei ole lapsi, vaan iso poika.\nMitä Lauri tekee, jos Aatu menee nyt?\nHän lukee Aatulle yhden kirjan tai kaksi."
+    },
+    {
+      "title": "Hyvä mieli",
+      "summary": "Ville is in a bad mood until Raili tells him what she does then, and he does the same.",
+      "newWords": [
+        "niin",
+        "kuin",
+        "asia",
+        "sekä",
+        "miten",
+        "ihan",
+        "mieli",
+        "eli",
+        "esimerkiksi",
+        "näin"
+      ],
+      "text": "Ville ei ole hyvällä mielellä, ja Raili näkee sen.\n\n”Miten sinä voit?” Raili sanoo.\n\n”En ihan hyvin”, Ville sanoo. ”Minulla on paha mieli.”\n\n”Mikä asia sinulla on mielessä?” Raili sanoo.\n\n”Ei mikään asia”, Ville sanoo. ”Minulla on vain paha mieli.”\n\n”Kun minulla on paha mieli, teen jotain hyvää, eli esimerkiksi käyn ulkona”, Raili sanoo. ”Tee näin: käy ulkona, ja tee jotain hyvää muille.”\n\nVille tekee niin kuin Raili sanoo. Hän käy ulkona, ja hän tekee jotain hyvää sekä Railille että muille.\n\nNyt Villellä on parempi mieli kuin ennen. ”Nyt minulla on ihan hyvä mieli”, hän sanoo.\n\nKysymykset:\nMiten Ville voi?\nHän ei voi ihan hyvin. Hänellä on paha mieli.\nMitä Raili tekee, kun hänellä on paha mieli?\nHän tekee jotain hyvää, eli esimerkiksi käy ulkona.\nMitä Raili sanoo?\nHän sanoo: ”Tee näin: käy ulkona.”\nTekeekö Ville niin kuin Raili sanoo?\nKyllä, hän tekee niin kuin Raili sanoo.\nKenelle Ville tekee jotain hyvää?\nHän tekee jotain hyvää sekä Railille että muille.\nOnko Villellä nyt parempi mieli?\nKyllä, nyt hänellä on parempi mieli kuin ennen."
+    },
+    {
+      "title": "Mitä otamme mukaan?",
+      "summary": "Emma and her father Petri pack only what they need for a trip to Jyväskylä.",
+      "newWords": [
+        "joka",
+        "muu",
+        "vain",
+        "mikään",
+        "mukaan",
+        "hyvin"
+      ],
+      "text": "Emma ja Petri lähtevät Jyväskylään. Siellä on Hanna, joka on Petrin sisko.\n\n”Mitä me otamme mukaan?” Emma sanoo.\n\n”Vain sen, mitä me tarvitsemme”, Petri sanoo. ”Ei mitään muuta.”\n\nEmma ottaa mukaan kirjan, joka on hänen oma. Hän ottaa mukaan myös pallon, joka on uusi.\n\n”Otanko mukaan jotain muuta?” Emma sanoo.\n\n”Et ota mitään muuta”, Petri sanoo. ”Kaikki on nyt hyvin.”\n\nHe pääsevät Jyväskylään. Hanna on siellä, kun he tulevat.\n\n”Onko kaikki hyvin?” Hanna sanoo.\n\n”Kyllä, kaikki on hyvin”, Emma sanoo. ”Me otimme mukaan vain hyvät asiat.”\n\nKysymykset:\nMihin Emma ja Petri lähtevät?\nHe lähtevät Jyväskylään.\nKuka on Hanna?\nHanna on Petrin sisko.\nMitä Emma ottaa mukaan?\nHän ottaa mukaan kirjan ja pallon.\nOttaako Emma mukaan jotain muuta?\nEi, hän ei ota mitään muuta."
+    }
+  ]
+}

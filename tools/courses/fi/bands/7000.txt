@@ -1,0 +1,100 @@
+1	6901	rattijuoppo	rattijuoppo rattijuoppoja rattijuoppoa rattijuopon rattijuopot rattijuoppojen
+2	6902	rima	riman rima rimaa
+3	6903	kammottava	kammottava kammottavaa kammottavan kammottavia kammottavat kammottavalta kammottavaan kammottavasta
+4	6904	tahko	tahko tahkon tahkolla tahkoa
+5	6905	vakoilu	vakoilu vakoilusta vakoilun vakoilua vakoiluun
+6	6906	oomega	omega omegan
+7	6907	pylväs	pylväs pylvään pylväät pylvästä pylvääseen pylväiden pylväitä pylväisiin pylväillä
+8	6908	korjaamo	korjaamolla korjaamon korjaamo korjaamolle korjaamossa korjaamoon
+9	6909	sosiologia	sosiologian sosiologia sosiologiaa sosiologiassa sosiologiasta
+10	6910	keskustelupalsta	keskustelupalstoilla keskustelupalstalla keskustelupalsta keskustelupalstat keskustelupalstojen keskustelupalstan keskustelupalstoja keskustelupalstalle keskustelupalstoilta keskustelupalstoille keskustelupalstalta
+11	6911	kiloinen	kiloinen kiloisten kiloisissa kiloisen kiloisia kiloiselle kiloiset kiloiseksi kiloisena kiloista
+12	6912	jumalanpalvelus	jumalanpalvelus jumalanpalveluksen jumalanpalveluksissa jumalanpalveluksessa jumalanpalvelukseen jumalanpalvelusta jumalanpalvelukset jumalanpalveluksia jumalanpalveluksiin jumalanpalvelusten
+13	6913	pelti	pelti pellin pellille peltiä pellit pelleillä pellillä pellistä pelleistä
+14	6914	punavihreä	punavihreä punavihreän punavihreät punavihreiden punavihreää
+15	6915	suojelupoliisi	supo suojelupoliisin suojelupoliisi suojelupoliisille supoa
+16	6916	jäsenmaksu	jäsenmaksun jäsenmaksu jäsenmaksua jäsenmaksuja jäsenmaksut jäsenmaksuista jäsenmaksujen jäsenmaksuilla jäsenmaksuun jäsenmaksusta jäsenmaksunsa
+17	6917	luistella	luistelee luisteli luistella luistelemaan luistelemassa luistellut luistellaan luisteltiin luistelivat
+18	6918	laajamittainen	laajamittainen laajamittaista laajamittaisen laajamittaisia laajamittaisesta laajamittaiseen laajamittaiset
+19	6919	syyskausi	syyskauden syyskaudella syyskausi
+20	6920	kätkeä	kätkee kätkeä kätki kätkevät kätkenyt kätkemään kätkemä kätketään kätkeminen kätkettiin kätkivät
+21	6921	kamalasti	kamalasti
+22	6922	puhki	puhki
+23	6923	valinnanvara	valinnanvaraa
+24	6924	äitiys	äitiys äitiyden äitiyteen äitiyttä äitiydestä
+25	6925	kummoinen	kummoinen kummoista kummoisia kummoiset kummoisempi
+26	6926	välimatka	välimatka välimatkat välimatkaa välimatkan välimatkojen välimatkoja välimatkasta
+27	6927	sponsori	sponsoreita sponsori sponsorit sponsorin sponsoreiden sponsorien sponsoria sponsorina sponsoriksi sponsorinsa sponsoreille
+28	6928	tehota	tehoaa tehonnut tehosi tehoavat tehota tehoa tehoaisi
+29	6929	halo	halo halosta halot halon haloon
+30	6930	havaiji	havaijilla havaijin havaijille havaiji havaijilta havaijia
+31	6931	siili	siili siilin siilit siiliä siilejä siilien
+32	6932	dokkari	dokkari dokkarin dokkarissa dokkareita dokkaria dokkarista
+33	6933	kaiku	kaiku kaikuja kaiun kaikua kaiut
+34	6934	teinityttö	teinityttö teinitytöt teinitytön teinityttöjen teinityttöjä teinityttöä
+35	6935	vinossa	vinossa vinoon
+36	6936	omaperäinen	omaperäinen omaperäistä omaperäisiä omaperäisen omaperäisellä omaperäiset omaperäiseksi
+37	6937	lennokki	lennokki lennokkeja lennokkia lennokit lennokin lennokkien lennokeilla
+38	6938	adoptoida	adoptoida adoptoitu adoptoi adoptoitiin adoptoivat adoptoinut adoptoimaan adoptoidaan
+39	6939	touhuta	touhua touhuaa touhuta touhusi touhuamaan touhutaan touhutessa touhuavat touhunnut
+40	6940	eeppinen	eeppinen eeppistä eeppisen eeppisiä eeppiset eeppiseen
+41	6941	yksittäistapaus	yksittäistapaus yksittäistapauksia yksittäistapauksissa yksittäistapauksista yksittäistapaukset yksittäistapausta
+42	6942	avauserä	avauserän avauserä avauserässä avauserää
+43	6943	kömpelö	kömpelö kömpelöitä kömpelöä kömpelön kömpelöltä kömpelöksi kömpelöt
+44	6944	ekosysteemi	ekosysteemin ekosysteemi ekosysteemiä ekosysteemien ekosysteemiin ekosysteemejä ekosysteemissä ekosysteemit ekosysteemille ekosysteemeihin
+45	6945	puolukka	puolukka puolukoita puolukat puolukkaa puolukan puolukoiden
+46	6946	karttua	karttunen karttuessa karttuu karttunut karttui karttua
+47	6947	itäosa	itäosassa itäosissa itäosan itäosiin itäosien itäosaan itäosa itäosia
+48	6948	paukkua	paukkuu paukkuen paukkui paukkua paukkuvat paukkunen paukut paukkuivat paukun
+49	6949	makuinen	makuista makuinen makuisia makuisen makuiseksi
+50	6950	eteläosa	eteläosassa eteläosissa eteläosan eteläosiin eteläosaan eteläosa eteläosista eteläosien eteläosasta eteläosaa
+51	6951	kulttuuriministeriö	kulttuuriministeriö kulttuuriministeriön kulttuuriministeriöltä kulttuuriministeriölle kulttuuriministeriössä
+52	6952	salaliittoteoria	salaliittoteorioita salaliittoteoria salaliittoteoriat salaliittoteorioiden salaliittoteorioihin salaliittoteorioista salaliittoteorian
+53	6953	kuntayhtymä	kuntayhtymän kuntayhtymä kuntayhtymien kuntayhtymät kuntayhtymälle kuntayhtymiä kuntayhtymässä kuntayhtymään
+54	6954	dynaaminen	dynaaminen dynaamisen dynaamisia dynaamista dynaamiset dynaamisten dynaamisessa dynaamiseen
+55	6955	pukuhuone	pukuhuoneessa pukuhuoneeseen pukuhuone pukuhuoneen pukuhuoneet pukuhuoneesta pukuhuoneisiin
+56	6956	rakennelma	rakennelma rakennelman rakennelmia rakennelmat rakennelmaa rakennelmien rakennelmista rakennelmasta rakennelmaan
+57	6957	keksijä	keksijä keksijät keksijän keksijänä keksijöiden keksijänsä
+58	6958	kaakao	kaakaota kaakaon kaakao kaakaosta
+59	6959	kilpikonna	kilpikonna kilpikonnia kilpikonnien kilpikonnan kilpikonnat kilpikonnaa
+60	6960	samastua	samaistua samaistun samaistuu samastua samaistuvat samastumaan samaistu
+61	6961	raitiovaunu	raitiovaunu raitiovaunut raitiovaunun raitiovaunua raitiovaunujen raitiovaunulla raitiovaunuja raitiovaunussa raitiovaunuun raitiovaunuissa
+62	6962	varovaisesti	varovaisesti varovaisemmin
+63	6963	hartia	hartiat hartioiden hartioita hartia hartioille hartioilla hartioista hartian hartioihin hartioissa
+64	6964	lipas	lipas lippaan lipasta lippaat lippaaseen lippaita lippaassa lippaiden
+65	6965	yläkoulu	yläkoulun yläkoulussa yläkoulu yläkouluun yläkoulua yläkoulujen yläkoulusta yläkouluissa
+66	6966	valtiovalta	valtiovalta valtiovallan valtiovaltaa
+67	6967	rako	rako rakoon raosta raon rakoa raot rakoja raoista raossa rakoihin
+68	6968	hattutemppu	hattutempun hattutemppu hattutemppunsa hattutemppua
+69	6969	kohtalokas	kohtalokas kohtalokasta kohtalokkaan kohtalokkaaksi kohtalokkain kohtalokkaita kohtalokkaat kohtalokkaana
+70	6970	asfaltti	asfaltti asfaltilla asfalttia asfaltin asfalttiin asfaltille asvaltilla asvaltti
+71	6971	jaosto	jaosto jaoston jaostot jaostoa jaostossa jaostoon jaostojen
+72	6972	somali	somalia somali somalit somalien somalin somaleja somaleista
+73	6973	konekivääri	kk konekivääri konekiväärin konekivääriä konekiväärejä konekiväärit konekiväärillä konekivääreillä konekiväärien konekivääreitä
+74	6974	itävaltalainen	itävaltalainen itävaltalaisen itävaltalaista itävaltalaiset itävaltalaisten itävaltalaisia itävaltalaisessa itävaltalaiselle
+75	6975	pakkomielle	pakkomielle pakkomielteen pakkomiellettä pakkomielteistä pakkomielteestä pakkomielteet pakkomielteitä
+76	6976	wifi	wifi wifin
+77	6977	rullata	rullaa rullaamaan rullata rullasi rullaavat rullataan rullaan rullaava
+78	6978	tiedotusväline	tiedotusvälineissä tiedotusvälineiden tiedotusvälineille tiedotusvälineitä tiedotusvälineisiin tiedotusvälineistä tiedotusväline tiedotusvälineen
+79	6979	joustaa	joustaa joustamaan jousta joustavat joustamaton
+80	6980	teeskennellä	teeskennellä teeskentelee teeskenteli teeskentelevät teeskennellään teeskentele teeskennellyt teeskentelemään teeskennellen teeskentelivät
+81	6981	kalju	kalju kaljuksi kaljua kaljuja kaljun
+82	6982	hintalappu	hintalappu hintalapun hintalappua hintalaput hintalapulla hintalapussa hintalappuja
+83	6983	paskapuhe	paskapuhetta paskapuhe
+84	6984	vastasyntynyt	vastasyntyneen vastasyntynyt vastasyntyneiden vastasyntyneet vastasyntynyttä vastasyntyneille vastasyntyneitä vastasyntyneelle vastasyntyneellä vastasyntyneillä vastasyntyneistä vastasyntyneestä
+85	6985	kiasma	kiasman kiasma kiasmassa kiasmaan
+86	6986	kansallisteatteri	kansallisteatterin kansallisteatteri kansallisteatterissa kansallisteatteriin kansallisteatterista
+87	6987	selostus	selostus selostuksen selostusta selostuksia selostuksessa selostukset selostuksella
+88	6988	yhdyskunta	yhdyskunta yhdyskunnan yhdyskunnat yhdyskuntien yhdyskuntaa yhdyskuntaan yhdyskuntia yhdyskunnassa yhdyskunnissa
+89	6989	delta	delta deltan
+90	6990	lehtori	lehtori lehtorin lehtorina
+91	6991	prostituutio	prostituutio prostituution prostituutiota prostituutioon prostituutiosta
+92	6992	etiketti	etiketti etiketin etiketissä etikettiä etiketit etikettiin etikettejä etiketistä
+93	6993	pienentyä	pienentynyt pienentyä pienentyessä pienentyminen
+94	6994	alkuperäiskansa	alkuperäiskansojen alkuperäiskansan alkuperäiskansa alkuperäiskansat alkuperäiskansoja alkuperäiskansaa alkuperäiskansaan alkuperäiskansoihin alkuperäiskansoille
+95	6995	pysäköidä	pysäköidä pysäköi pysäköity pysäköinyt pysäköimään pysäköin pysäköidään pysäköivät pysäköit
+96	6996	työtunti	työtunteja työtunnit työtuntien työtuntia työtunneista työtunnin
+97	6997	lopputurnaus	lopputurnaukseen lopputurnauksessa lopputurnauksen lopputurnaus lopputurnausta
+98	6998	ydinkeskusta	ydinkeskustassa ydinkeskustan ydinkeskustasta ydinkeskustaan ydinkeskusta ydinkeskustaa
+99	6999	raati	raati raadin raatiin raadissa
+100	7000	kohdentaa	kohdentaa kohdennetaan kohdennettu kohdentaminen kohdentamaan kohdentamista kohdentamisesta kohdennettava

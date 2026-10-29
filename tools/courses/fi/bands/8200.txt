@@ -1,0 +1,100 @@
+1	8101	joutaa	joutaa joutaisi joutavat jouda joutavaa joutavia joutava joutanut
+2	8102	arvopaperi	arvopapereita arvopapereiden arvopaperi arvopaperien arvopaperit arvopapereihin arvopaperin
+3	8103	tupakoida	tupakoi tupakoida tupakoivat tupakoinut tupakoiva tupakoimaan tupakoimaton
+4	8104	itsevarma	itsevarma itsevarmoja itsevarmempi itsevarmana itsevarman itsevarmaa itsevarmaksi itsevarmalta
+5	8105	täsmällinen	täsmällinen täsmällistä täsmällisiä täsmällisen täsmälliset täsmällisempi täsmälliseen
+6	8106	kaivostoiminta	kaivostoiminnan kaivostoiminta kaivostoimintaa kaivostoimintaan kaivostoiminnasta kaivostoiminnassa
+7	8107	luuranko	luuranko luurankoja luurangon luurangot luurankoa luurangosta
+8	8108	luottoluokitus	luottoluokitus luottoluokituksen luottoluokitusta luottoluokitukset
+9	8109	liiketalous	liiketalouden liiketalous liiketaloutta
+10	8110	vuoristorata	vuoristorata vuoristorataa vuoristoradan vuoristoradassa vuoristorataan vuoristoradalla
+11	8111	esite	esite esitteen esitteitä esitteessä esitteet esitettä esitteeseen
+12	8112	menetellä	menettelee menetellä menetellään menetellyt menetteli menetelty
+13	8113	räikeä	räikeä räikeän räikeitä räikeää räikein räikeät räikeästä
+14	8114	jalansija	jalansijaa jalansijan jalansija
+15	8115	rajapinta	rajapinnan rajapinta rajapintaa rajapinnat rajapintoja rajapintojen rajapinnassa rajapinnasta rajapinnoilla rajapintaan rajapinnalla
+16	8116	uljas	uljas uljaan uljasta uljaat uljaita
+17	8117	narsisti	narsisti narsisteja narsistin narsistista narsistit narsistien
+18	8118	koputtaa	koputtaa koputti koputtelemaan koputetaan koputtamista koputa koputin koputtamaan
+19	8119	vähävarainen	vähävaraisten vähävaraisille vähävaraisia vähävarainen vähävaraiset
+20	8120	maanviljely	maanviljely maanviljelyn maanviljelyä maanviljelystä maanviljelys maanviljelyksen maanviljelyyn maanviljelykseen
+21	8121	pöysti	pöysti pöystin
+22	8122	päämies	päämies päämiehen päämiehet päämiesten päämiehensä päämiehiä päämiestä päämieheni päämiehenä
+23	8123	veroraha	verorahat verorahojen verorahoilla verorahoja verorahoista verorahaa
+24	8124	hanhi	hanhi hanhet hanhen hanhia hanhien hanhea
+25	8125	puikko	puikoissa puikkoihin puikot puikko puikoilla puikkoja puikoista puikkoa puikon
+26	8126	huumekauppa	huumekauppaa huumekauppa huumekaupan huumekaupasta huumekauppaan huumekaupassa huumekaupoista
+27	8127	olvi	olvi olvin olvia
+28	8128	eliö	eliöt eliö eliöiden eliöitä eliöille eliön eliöistä eliöihin
+29	8129	valottaa	valottaa valotti valottavat valotetaan
+30	8130	aurinkokunta	aurinkokunnan aurinkokuntamme aurinkokunta aurinkokunnassa aurinkokunnasta aurinkokuntaan aurinkokuntaa
+31	8131	elinvoima	elinvoimaa elinvoiman elinvoima elinvoimansa
+32	8132	vaahto	vaahto vaahtoa vaahdoksi vaahdon vaahdossa vaahdolla
+33	8133	autismi	autismin autismi autismia autismista autismiin
+34	8134	horoskooppi	horoskooppi
+35	8135	huoh	huoh
+36	8136	kasvotusten	kasvotusten
+37	8137	kutakuinkin	kutakuinkin
+38	8138	onnellisesti	onnellisesti
+39	8139	rahallisesti	rahallisesti
+40	8140	review	review
+41	8141	vaakalaudalla	vaakalaudalla
+42	8142	herua	heru herunut heruu
+43	8143	sessio	session sessio sessiossa sessiot sessioiden sessioita sessiota
+44	8144	tuntikausi	tuntikausia tuntikausiksi tuntikausien
+45	8145	satiiri	satiiri satiiria satiirin satiiriksi satiirista
+46	8146	karsintaottelu	karsintaottelussa karsintaottelua karsintaottelun karsintaottelu karsintaottelut karsintaotteluissa karsintaotteluun karsintaottelusta
+47	8147	alastonkuva	alastonkuvia alastonkuvat alastonkuva alastonkuvissa
+48	8148	pieru	pieru pieruja pierun pierut pierua
+49	8149	kirjava	kirjava kirjavaa kirjavat kirjavia kirjavan
+50	8150	kannus	kannus kannuksen kannuksessa kannukset kannuksensa kannuksia kannusta
+51	8151	perheyritys	perheyritys perheyrityksen perheyritysten perheyritykset perheyrityksessä perheyrityksestä
+52	8152	yhdentekevä	yhdentekevää yhdentekevä yhdentekeviä
+53	8153	haalari	haalarit haalari haalariin haalarin haalareita haalareissa haalaria haalareihin haalarissa
+54	8154	vihervasemmisto	vihervasemmisto vihervasemmiston
+55	8155	valheellinen	valheellista valheellisia valheellinen valheellisen valheelliset valheellisten valheelliseen
+56	8156	metropoli	metropolia metropoli metropolin metropolissa metropolien
+57	8157	ohitus	ohitus ohituksen ohitusta ohituksia ohitukseen ohitukset ohituksesta
+58	8158	vaipua	vaipui vaipuu vaipua vaipunut vaivun vaivu vaipuvat vaipumaan
+59	8159	ilmapallo	ilmapalloja ilmapallo ilmapallot ilmapallon ilmapalloa ilmapallojen ilmapalloista
+60	8160	hankkiutua	hankkiutua hankkiutui hankkiudu hankkiutumaan hankkiutuu hankkiutunut hankkiutuvat
+61	8161	pai	pain pai paista paina
+62	8162	hyve	hyve hyveitä hyveet hyveenä hyveen hyveiden hyvettä
+63	8163	vallankaappaus	vallankaappaus vallankaappauksen vallankaappausta vallankaappauksesta vallankaappaukseen
+64	8164	kaarti	kaartin kaarti kaartia kaartiin kaarteissa kaartista
+65	8165	mullistaa	mullistaa mullisti mullistanut mullistamaan mullistaisi mullistavat
+66	8166	aviopari	aviopari avioparin avioparit avioparia avioparina aviopareja avioparille avioparien
+67	8167	epäterveellinen	epäterveellistä epäterveellinen epäterveellisiä epäterveellisen epäterveelliset
+68	8168	pohjavesi	pohjaveden pohjavettä pohjavesi pohjavedet pohjaveteen pohjavesien pohjavesiä pohjavedestä
+69	8169	konkari	konkari konkarit konkarin konkareita konkareiden
+70	8170	tunniste	tunniste tunnisteella tunnisteen tunnisteita tunnisteet tunnistetta
+71	8171	tuotantoyhtiö	tuotantoyhtiö tuotantoyhtiön tuotantoyhtiölle
+72	8172	jahti	jahti jahdin jahtiin jahtia jahdissa jahdilla jahteja
+73	8173	ylellinen	ylellinen ylellistä ylellisen ylellisiä ylelliset ylelliseen ylellisessä ylellisempi ylellisestä
+74	8174	väärennös	väärennös väärennöksiä väärennökset väärennökseksi väärennöksen väärennöksestä väärennösten väärennöksistä väärennöksiksi
+75	8175	rautio	rautio raution
+76	8176	ranneke	ranneke rannekkeen rannekkeet ranneketta rannekkeita rannekkeiden
+77	8177	hiljetä	hiljeni hiljenee hiljenivät hiljene hiljenemään hiljenevät
+78	8178	keskusjärjestö	keskusjärjestön keskusjärjestö keskusjärjestöjen keskusjärjestöt keskusjärjestöön
+79	8179	hermostunut	hermostunut hermostuneena hermostuneita hermostuneen hermostunutta hermostuneelta
+80	8180	mustasukkainen	mustasukkainen mustasukkaiseksi mustasukkaisia mustasukkaisen mustasukkaista
+81	8181	maanpinta	maanpinnan maanpinnalle maanpinnasta maanpinnalla maanpintaa maanpinta maanpinnalta
+82	8182	kalsium	kalsiumia kalsiumin kalsium
+83	8183	repo	repo revon
+84	8184	pelimies	pelimies pelimiehiä pelimiehet pelimiehen
+85	8185	ajelu	ajelu ajelulla ajelua ajelulle ajelun ajelusta ajeluun
+86	8186	äänioikeutettu	äänioikeutetuista äänioikeutettuja äänioikeutettujen äänioikeutettua äänioikeutettu
+87	8187	spontaani	spontaani spontaania spontaaneja spontaanin spontaanit spontaaniin spontaanista
+88	8188	kapseli	kapseli kapselin kapselit kapseleita kapselia kapselissa kapselista kapseliin
+89	8189	oo	oona oota
+90	8190	laittomuus	laittomuuksia laittomuuksiin laittomuuksista laittomuuden laittomuudesta laittomuus laittomuudet laittomuuksien laittomuutta
+91	8191	buddha	buddha buddhan buddhaa
+92	8192	värittää	värittää väritetty värittävät väritti väritä värittivät värittämä värittänyt värittämään
+93	8193	täydennys	täydennystä täydennys täydennyksiä täydennykseksi täydennyksen
+94	8194	panama	panaman panama panamassa panamaan panamasta
+95	8195	erektio	erektio erektion erektiota erektiossa erektioon erektioita
+96	8196	maar	mar maar
+97	8197	syksyinen	syksyinen syksyisen syksyiset syksyisiä syksyiseen syksyisessä syksyisenä syksyistä
+98	8198	salaus	salauksen salaus salausta salaukseen salauksesta salauksella
+99	8199	sympaattinen	sympaattinen sympaattisen sympaattista sympaattisia sympaattiset sympaattiselta
+100	8200	tagi	tag tagin tagia tägi tagi tagit tageja tägin

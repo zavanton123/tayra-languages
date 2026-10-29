@@ -1,0 +1,100 @@
+1	5201	väärinkäsitys	väärinkäsitys väärinkäsityksiä väärinkäsityksen väärinkäsityksestä väärinkäsitystä väärinkäsitykset väärinkäsitysten väärinkäsityksiin väärinkäsityksistä
+2	5202	hallituspuolue	hallituspuolueet hallituspuolueiden hallituspuolue hallituspuolueen hallituspuolueista hallituspuolueita hallituspuolueilta hallituspuolueille
+3	5203	ämpäri	ämpäri ämpäreitä ämpärin ämpäriin ämpärissä ämpäriä ämpärit ämpäristä
+4	5204	puutteellinen	puutteellinen puutteellista puutteelliset puutteellisen puutteellisia puutteellisesta puutteellisten puutteelliseksi puutteellisista puutteelliseen puutteellisena
+5	5205	luonnos	luonnos luonnoksen luonnoksia luonnosta luonnokset luonnoksessa luonnoksesta luonnokseen luonnoksissa luonnosten
+6	5206	oppitunti	oppitunti oppitunnin oppitunteja oppitunnit oppituntia oppitunneilla oppituntien oppitunnilla oppitunneille oppitunnille
+7	5207	siunaus	siunaus siunausta siunauksen siunauksella siunauksensa siunaukset siunauksia siunauksesta
+8	5208	rulla	rullaa rulla rl rullan rullalle rullat rullaan rullalla rullia rullasta rullaksi
+9	5209	olympiavoittaja	olympiavoittaja olympiavoittajan olympiavoittajat
+10	5210	epävirallinen	epävirallinen epävirallisia epävirallisen epävirallista epäviralliset epävirallisessa epävirallisten epävirallisissa epäviralliseen epävirallisena epäviralliseksi epävirallisella
+11	5211	automaatio	automaatio automaation automaatiota automaatiosta automaatiolla automaatioon
+12	5212	lukiolainen	lukiolaisten lukiolaiset lukiolainen lukiolaisille lukiolaisia lukiolaisen lukiolaista lukiolaisena lukiolaisista
+13	5213	miina	miina miinoja miinat miinan miinaan miinojen miinaa miinoista miinoihin
+14	5214	nappula	nappulaa nappula nappulat nappuloita nappulan nappuloiden nappulasta nappuloista nappuloilla
+15	5215	vajota	vajonnut vajota vajosi vajoaa vajoaminen vajoavat vajoamaan vajosivat vajoama vajoamassa
+16	5216	merivoimat	merivoimien merivoimat merivoimissa merivoimille merivoimiin merivoimista
+17	5217	ioni	joni ioni ionien ioneja ionit
+18	5218	lämmitys	lämmitys lämmitykseen lämmitystä lämmityksen lämmityksessä lämmityksestä
+19	5219	taideteos	taideteos taideteoksia taideteoksen taideteokset taideteosta taideteosten taideteoksista taideteoksesta
+20	5220	kääriä	kääri kääriä käärii kääritty kääritään käärivät käärin käärittiin käärinyt käärimään käärimme
+21	5221	pokeri	pokeri pokerin pokeria pokerissa pokerista pokeriin
+22	5222	puolisko	puoliskolla puolisko puoliskon puoliskoa puoliskolle puoliskot puoliskoon puoliskoni puoliskolta
+23	5223	sii	siin siit sii siittä
+24	5224	konttori	konttori konttorin konttorissa konttoriin konttorilla konttorit konttoria konttorista konttorille konttoreita konttoreissa
+25	5225	pysäköinti	pysäköinti pysäköinnin pysäköinnistä pysäköintiä pysäköintiin
+26	5226	martta	martta marttojen martat martan
+27	5227	vastakkainasettelu	vastakkainasettelu vastakkainasettelua vastakkainasettelun vastakkainasettelusta vastakkainasetteluun vastakkainasettelut
+28	5228	indonesia	indonesian indonesia indonesiassa indonesiasta indonesiaan indonesiaa
+29	5229	pahoinpidellä	pahoinpideltiin pahoinpidelty pahoinpiteli pahoinpidellyt pahoinpidellään pahoinpitelee pahoinpidellä pahoinpitelivät pahoinpitelevät pahoinpitelemään
+30	5230	kohtelias	kohtelias kohteliasta kohteliaita kohteliaan kohteliaana
+31	5231	sakki	sakkia sakki sakkiin sakin sakissa
+32	5232	painopiste	painopiste painopisteen painopistettä painopisteet painopisteenä painopisteitä
+33	5233	tutka	tutka tutkan tutkat tutkalla tutkassa tutkaa tutkasta tutkaan tutkien
+34	5234	lesbo	lesbo lesboja lesbot lesbojen lesboa lesboksi lesbon lesboista lesboille hlbt
+35	5235	tuotos	tuotos tuotoksia tuotokset tuotosta tuotoksen tuotoksista tuotosten tuotoksena tuotoksensa tuotoksiin tuotoksesta
+36	5236	juhlistaa	juhlistaa juhlistamaan juhlisti juhlistetaan juhlista juhlistettiin juhlistavat juhlistamassa juhlistamme juhlistivat
+37	5237	yläosa	yläosa yläosassa yläosan yläosaan yläosaa yläosasta yläosat yläosia yläosien
+38	5238	sanakirja	sanakirja sanakirjan sanakirjasta sanakirjaa sanakirjassa sanakirjaan sanakirjat sanakirjoja
+39	5239	varikko	varikolla varikolle varikon varikolta varikko
+40	5240	hiha	hihat hihasta hihaan hiha hihojen hihoissa hihan hihoihin hihoista hihoja
+41	5241	käytännöllinen	käytännöllinen käytännöllistä käytännöllisiä käytännöllisen käytännölliset käytännöllisempi käytännöllisistä käytännöllisenä käytännölliseksi
+42	5242	absurdi	absurdi absurdia absurdeja absurdilta absurdin absurdit absurdiksi
+43	5243	edistys	edistystä edistys edistyksen edistyksestä
+44	5244	syntymä	syntymää syntymistä syntymän syntymänsä syntymästä syntymään syntymässä syntymät syntymättä syntymä syntymällä
+45	5245	ennakkoluulo	ennakkoluuloja ennakkoluulot ennakkoluulo ennakkoluulojen ennakkoluuloista ennakkoluuloihin ennakkoluuloni ennakkoluulon
+46	5246	vaeltaa	vaeltaa vaeltavat vaeltamaan vaelsi vaeltanut vaelsivat vaeltava vaeltamassa vaeltaminen vaella vaeltavan vaellan vaeltaen vaeltamista
+47	5247	puolustusministeriö	puolustusministeriön puolustusministeriö puolustusministeriössä puolustusministeriöstä puolustusministeriölle puolustusministeriötä
+48	5248	elvyttää	elvyttää elvyttämään elvytetään elvyttäminen elvytti elvyttämiseksi elvytettiin elvyttävä elvytetty elvyttämiseen elvyttämistä elvyttämisen elvytä elvyttänyt elvyttämällä elvyttävät
+49	5249	kuutio	kuutiota kuutio kuution kuutioiksi kuutioita kuutiot kuutioon kuutiosta kuutiossa kuutioina kuutioksi
+50	5250	vanheta	vanhenee vanhene vanhetessa vanhenevat vanheta vanheni vanheneva vanhenemaan vanhenen
+51	5251	olympiakulta	olympiakultaa olympiakullan olympiakulta olympiakultansa
+52	5252	palkansaaja	palkansaajien palkansaajan palkansaaja palkansaajista palkansaajia palkansaajille palkansaajaa palkansaajalle palkansaajalla palkansaajana palkansaajiin palkansaajilta
+53	5253	pipo	pipo pipon pipoa pipot pipoja pipoon pipa
+54	5254	orgasmi	orgasmin orgasmia orgasmi orgasmista orgasmeja orgasmit orgasmiin orgasmissa
+55	5255	ritva	ritva ritvan
+56	5256	kaija	kaija kaijan
+57	5257	luokitus	luokitus luokituksen luokitusta luokitukset luokituksessa luokituksia luokituksesta luokitukseen luokituksella luokitusten
+58	5258	komento	komento komennossa komennon komentoja komentoa komennot komentoon komennolla komennosta komentojen
+59	5259	katselu	katselu katseluun katselua katselun katselusta
+60	5260	metrinen	metrinen metristä metrisen metrisiä metrisellä metriset metriseen metriseksi metrisestä
+61	5261	antibiootti	antibiootteja antibiootit antibioottien antibioottia antibiootti antibiooteilla antibiooteille antibiooteista antibiootin
+62	5262	rakennusala	rakennusalan rakennusalalla rakennusala rakennusalalle rakennusalaa
+63	5263	sulkeutua	sulkeutuu sulkeutui sulkeutuvat sulkeutua sulkeudu sulkeutuminen sulkeutuivat sulkeutuessa sulkeutumaan sulkeutumassa
+64	5264	pitoisuus	pitoisuus pitoisuudet pitoisuuksia pitoisuuden pitoisuuksien pitoisuutta pitoisuuksina pitoisuuksiin pitoisuuksissa pitoisuuksilla
+65	5265	tavaratalo	tavaratalo tavaratalon tavaratalossa tavaratalot tavaratalosta tavaratalojen tavarataloon tavarataloissa tavarataloa tavarataloja tavarataloista tavarataloihin
+66	5266	tarkastaja	tarkastaja tarkastajan tarkastajat tarkastajien tarkastajaa tarkastajia tarkastajalle tarkastajana
+67	5267	halata	halata halaa halaamaan halasi halajaa halataan halasin halailla halaaminen halaavat halasimme
+68	5268	kertaalleen	kertaalleen
+69	5269	paikallisesti	paikallisesti
+70	5270	tunnetusti	tunnetusti
+71	5271	upeasti	upeasti
+72	5272	ylhäältä	ylhäältä
+73	5273	tiputtaa	tiputtaa tiputti tiputa tiputettiin tiputtanut tiputtamaan tiputetaan tiputin tiputettu tiputan tiputtaminen tiputtelee tiputtamalla
+74	5274	persoonallisuus	persoonallisuus persoonallisuuden persoonallisuutta persoonallisuudesta persoonallisuuksia persoonallisuuteen persoonallisuudet
+75	5275	nopeusrajoitus	nopeusrajoitus nopeusrajoituksen nopeusrajoitukset nopeusrajoituksia nopeusrajoitusten nopeusrajoitusta
+76	5276	rautiainen	rautiainen rautiaisen
+77	5277	järkevästi	järkevästi järkevämmin
+78	5278	vyöhyke	vyöhyke vyöhykkeellä vyöhykkeen vyöhykkeelle vyöhykettä vyöhykkeet vyöhykkeiden vyöhykkeillä vyöhykkeeltä vyöhykkeeseen vyöhykkeitä
+79	5279	tolkku	tolkkua tolkun tolkku tolkulla
+80	5280	merkityksetön	merkityksetön merkityksetöntä merkityksettömiä merkityksettömän merkityksettömäksi merkityksettömänä merkityksettömältä merkityksettömät
+81	5281	kipinä	kipinä kipinän kipinää kipinöitä kipinät kipinästä
+82	5282	kallo	kallo kallon kalloon kallot kalloa kallosta kallossa kalloja kallonsa kallojen
+83	5283	kielitaito	kielitaito kielitaitoa kielitaidon kielitaitoni kielitaidosta kielitaidolla
+84	5284	jättimäinen	jättimäinen jättimäiset jättimäisen jättimäisiä jättimäistä jättimäisestä jättimäiseen jättimäiseksi jättimäisten jättimäisellä
+85	5285	toimintamalli	toimintamalli toimintamalleja toimintamallia toimintamallin toimintamallit toimintamalliin toimintamallien toimintamalleista toimintamallissa
+86	5286	saha	saha sahan sahaa sahalla sahat sahalle sahoja sahojen sahoilla sahalta sahoille sahaan
+87	5287	mitätön	mitätön mitättömän mitättömiä mitättömäksi mitätöntä mitättömät mitättömästä mitättömältä mitättömistä
+88	5288	nakki	nakki nakkeja nakit nakkia nakin nakkien nakeista
+89	5289	hampurilainen	hampurilainen hampurilaisen hampurilaisia hampurilaiset hampurilaista hampurilaisten hampurilaisesta hampurilaiseen hampurilaisista
+90	5290	arpa	arpa arpaa arvalla arvoista arvan arpoja arpojen arvat arvoilla arvoille arvoissa
+91	5291	pito	pito pitoa pidon pidot pitoon pidosta pidossa pidoissa pitoihin
+92	5292	visuaalinen	visuaalinen visuaalisen visuaalista visuaalisia visuaalisten visuaalisesta visuaaliseen visuaaliset visuaalisessa visuaalisista visuaalisena
+93	5293	sisäministeriö	sisäministeriön sisäministeriö sisäministeriössä sisäministeriöön sisäministeriöstä
+94	5294	hukata	hukkasin hukkaa hukata hukannut hukattu hukataan hukkasi hukkaamaan hukkaavat hukkasivat hukkaaminen hukkaamista hukkaat
+95	5295	kivääri	kivääri kiväärin kivääriä kiväärillä kiväärit kivääreitä kiväärejä kiväärien kivääriin kiväärinsä kivääristä
+96	5296	otava	otava otavan
+97	5297	tytäryhtiö	tytäryhtiö tytäryhtiön tytäryhtiöt tytäryhtiöiden tytäryhtiöitä tytäryhtiötä tytäryhtiönsä tytäryhtiölle tytäryhtiönä
+98	5298	keskiluokka	keskiluokan keskiluokka keskiluokkaa keskiluokkaan keskiluokalle keskiluokassa
+99	5299	tuija	tuija tuijan
+100	5300	ihmisyys	ihmisyyttä ihmisyyden ihmisyys ihmisyyteen ihmisyydestä ihmisyytensä

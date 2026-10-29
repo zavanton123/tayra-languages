@@ -1,0 +1,100 @@
+1	2701	profiili	profiili profiilin profiilia profiilit profiiliin profiilissa profiileja profiililla profiilista profiilinsa profiilisi profiilien profiileihin
+2	2702	työaika	työajan työaika työaikaa työaikana työajasta työajalla työajat työaikaan työaikoja työaikojen työajoista työajaksi työaikansa työaikoihin
+3	2703	kauppias	kauppias kauppiaat kauppiaan kauppiaiden kauppiaita kauppiaille kauppiasta kauppiaalle kauppiaalta kauppiaana kauppiaista kauppiailta kauppiaalla kauppiaaksi kauppiailla
+4	2704	menetys	menetys menetyksen menetyksiä menetystä menetykset menetyksestä menetykseen menetyksistä menetysten menetyksiin menetyksellä menetyksensä
+5	2705	tarkkailla	tarkkailla tarkkaillaan tarkkailee tarkkaile tarkkailemaan tarkkailevat tarkkaili tarkkailkaa tarkkaillut tarkkailemassa tarkkailemalla tarkkailtiin tarkkailivat tarkkailen tarkkaillen tarkkailtu tarkkailtava tarkkaileva tarkkailemme tarkkailin
+6	2706	kiristää	kiristää kiristi kiristetään kiristäminen kiristämään kiristämällä kiristetty kiristä kiristettiin kiristämistä kiristänyt kiristävät kiristettävä kiristivät kiristämisestä kiristämisen kiristämiseen kiristin kiristäisi kiristämässä kiristävä
+7	2707	kipeä	kipeä kipeänä kipeäksi kipeää kipeitä kipeät kipeän kipeiksi kipeinä kipeältä kipeään kipeistä kipeiden
+8	2708	opas	opas oppaan oppaassa oppaamme oppaana opasta oppaita oppaat oppaaksi oppaasta oppaiden oppaina oppaaseen oppaissa oppaansa
+9	2709	kummallinen	kummallista kummallinen kummallisia kummalliselta kummallisen kummalliset kummallisena kummallisempaa kummallisella kummalliseen kummalliseksi kummallisesta kummallisin kummallisista
+10	2710	kumota	kumota kumoaa kumosi kumoa kumottu kumoamaan kumotaan kumottiin kumoaminen kumoamista kumoavat kumonnut kumoamisesta kumoamiseksi kumoamiseen kumoamisen kumosivat kumottava kumoaisi kumottaisiin
+11	2711	pula	pulaa pula pulassa pulaan pulasta pulan
+12	2712	levätä	lepää levätä lepäämään lepäävät levännyt lepäsi lepään lepäämässä levätään lepäävä levänneet lepäsivät lepäämme lepäsin levätköön
+13	2713	loukkaantua	loukkaantui loukkaantuu loukkaantua loukkaannu loukkaantuivat loukkaantuvat loukkaannuin loukkaantuneet loukkaantuisi loukkaantumatta loukkaantumaan loukkaannut loukkaannun loukkaantumista
+14	2714	bonus	bonus bonukset bonuksena bonusta bonuksen bonuksia bonusten bonuksista bonuksella bonuksiin bonuksilla bonuksensa bonuksien
+15	2715	luoja	luoja luojan luojaa luojana luojat luojalle luojia luojansa luojaan luojaksi luojista luojasta
+16	2716	palkkio	palkkio palkkion palkkiota palkkiot palkkioksi palkkioita palkkiosta palkkioiden palkkioista palkkiona palkkionsa palkkioihin palkkioon palkkiolla
+17	2717	polku	polku polkua polun polkuja polulle polulla polut polulta poluilla polkujen poluille polusta polkunsa poluilta polkuni
+18	2718	kruunu	kruunua kruunun kruunu kruunusta kruunuun kruunulla kruununsa kruunuja kruunut kruununa kruunulle kruunuksi kruunussa
+19	2719	tämmöinen	tämmönen tämmöinen tämmöstä tämmöistä tämmösen tämmöisen tämmöiseen tämmöisiä tämmöiset tämmöisestä tämmöisellä tämmöisessä tämmöiselle
+20	2720	fysiikka	fysiikan fysiikka fysiikkaa fysiikassa fysiikasta fysiikkaan
+21	2721	ristiriita	ristiriidassa ristiriita ristiriitoja ristiriitaa ristiriidat ristiriidan ristiriitojen ristiriitaan ristiriidasta ristiriitoihin ristiriidoista
+22	2722	verkkosivu	verkkosivuilla verkkosivut verkkosivujen verkkosivuilta verkkosivulla verkkosivuille verkkosivu verkkosivuja verkkosivun verkkosivulta verkkosivulle verkkosivua
+23	2723	islamilainen	islamilaisen islamilainen islamilaista islamilaisessa islamilaiset islamilaiseen islamilaisten islamilaisia islamilaisesta islamilaisissa islamilaiseksi islamilaisista islamilaisiin islamilaisella islamilaiselle
+24	2724	ihailla	ihailla ihailen ihailtavaa ihaillut ihailee ihailin ihailemaan ihailevat ihaili ihaillaan ihaillen ihailtiin ihailtu ihailet ihailivat ihailtava ihaile ihailemme ihailema ihailtavaksi ihailemassa ihailevan ihailleet ihaileva ihailimme
+25	2725	köyhyys	köyhyys köyhyyden köyhyyttä köyhyydestä köyhyydessä köyhyyteen
+26	2726	manner	manner mantereen mantereella mantereelle mantereelta mantere mannerin mannerta mantereilla mantereesta mantereiden mannerten mantereet mantereille mantereeseen mantereita
+27	2727	valtioneuvosto	valtioneuvoston valtioneuvosto valtioneuvostolle valtioneuvostossa valtioneuvostolta valtioneuvostoa
+28	2728	suojelu	suojelua suojelu suojelun suojeluun suojelusta suojelussa
+29	2729	seikkailu	seikkailu seikkailuja seikkailut seikkailun seikkailua seikkailuista seikkailuun seikkailuihin seikkailusta seikkailujen seikkailussa seikkailulle seikkailuissa seikkailunsa seikkailuksi
+30	2730	hesari	hesarin hesari hesarissa hesarilta hesarista hesariin hesarille hesaria
+31	2731	suru	suru surua surun surutta surusta suruun surut surunsa suruja surussa surujen suruni suruksi surulle
+32	2732	nätti	nätti nättiä nätit nätin nättejä nättinä nätiksi nätiltä nättiin nätimpi
+33	2733	valtuusto	valtuuston valtuusto valtuustossa valtuustoon valtuustolle valtuustojen valtuustot valtuustosta valtuustoa valtuustoissa valtuustoihin
+34	2734	identiteetti	identiteetin identiteetti identiteettiä identiteettinsä identiteetistä identiteettiin identiteetit identiteettejä identiteettini identiteettisi identiteetille identiteettimme identiteetillä identiteettien
+35	2735	vesa	vesa vesan
+36	2736	kiusata	kiusaa kiusata kiusattu kiusattiin kiusaavat kiusataan kiusasi kiusannut kiusaamaan kiusatuksi kiusasivat kiusatun kiusattua kiusattuja kiusatulle kiusatakseen kiusaamassa kiusatut kiusattujen kiusattuna kiusaava kiusasin
+37	2737	ensisijaisesti	ensisijaisesti
+38	2738	väkisin	väkisin
+39	2739	ajautua	ajautui ajautuu ajautunut ajautua ajautuivat ajautuvat ajautuneet ajauduin ajautuminen ajautumassa ajaudutaan ajaudu ajauduttu ajautuisi ajautumista ajaudumme ajauduttiin ajautumisen ajautumisesta
+40	2740	kopio	kopio kopioita kopion kopiota kopiot kopioin kopioiden kopiona kopiosta kopiolla kopioksi kopioista kopioon
+41	2741	poimia	poimia poimi poimii poimimaan poimittu poimin poimitaan poiminut poimivat poimimassa poimimme poimittiin poimit poimimalla poimiminen
+42	2742	tukka	tukka tukkaa tukan tukkia tukkani tukkaan tukkansa tukasta tukin tukassa tukkien tukkasi tukat
+43	2743	legenda	legenda legendan legendaa legendat legendoja legendojen legendoista legendasta legendaksi legendaan legendoihin legendana
+44	2744	herkullinen	herkullista herkullinen herkullisia herkullisen herkulliset herkulliselta herkullisin herkullisesta herkulliseksi herkullisilta herkullisista herkullisiin herkullisessa
+45	2745	tasapaino	tasapaino tasapainossa tasapainon tasapainoa tasapainoon tasapainosta tasapainoista tasapainonsa tasapainoilla
+46	2746	julkkis	julkkis julkkikset julkkisten julkkiksia julkkiksista julkkiksen julkkista julkkikseksi julkkiksille
+47	2747	valioliiga	valioliiga valioliigassa valioliigan valioliigaa valioliigaan valioliigasta
+48	2748	kaivos	kaivos kaivoksen kaivokset kaivosta kaivosten kaivoksia kaivokselle kaivoksessa kaivokseen kaivoksesta kaivoksella kaivoksissa kaivoksista kaivoksiin kaivoksilla kaivoksille kaivokselta kaivoksilta
+49	2749	mekko	mekko mekon mekossa mekkoja mekkoa mekkoon mekot mekosta mekoissa mekkoihin mekkonsa mekkoni mekkojen mekoista
+50	2750	terveellinen	terveellistä terveellinen terveellisiä terveellisen terveellisempi terveelliseen terveelliset terveellisten terveellisestä terveellisiin terveelliseksi terveellisistä terveellisenä terveellisellä terveellisin terveelliseltä
+51	2751	myymälä	myymälä myymälässä myymälän myymälöissä myymälät myymälää myymälästä myymälään myymälöitä myymälöiden myymälöistä myymälöihin myymälänsä
+52	2752	ilmapiiri	ilmapiiri ilmapiirin ilmapiiriä ilmapiirissä ilmapiiristä ilmapiiriin
+53	2753	siipi	siivet siipi siipien siiven siipiä siivellä siipeä siivillä siipeen siivessä siipensä siivin siivistä siivestä siivelle siipiin siivissä
+54	2754	esimies	esimies esimiehen esimiehet esimiehenä esimiehensä esimiesten esimiehelle esimiehille esimiehiä esimieheni esimiestä esimieheksi esimiehesi esimieheltä esimieheen
+55	2755	nuoriso	nuoriso nuorison nuorisoa nuorisolle nuorisosta nuorisoon nuorisolla
+56	2756	vetäytyä	vetäytyä vetäytyi vetäytyy vetäytymään vetäytyminen vetäytynyt vetäytyvät vetäytyivät vetäytymistä vetäytymisestä vetäytymisen vetäytyvänsä vetäydy vetäytyvän vetäydyttävä vetäytymiseen vetäytyvä vetäydyn vetäytymässä vetäytyisi vetäydyin
+57	2757	talteen	talteen tallessa
+58	2758	haudata	haudattu haudattiin haudata hautaan haudataan hautasi hautaa hautaamaan hautaaminen hautasivat haudannut haudatuksi hautaamista haudatun hautaavat haudatut hautaamassa haudattaisiin haudanneet haudattava haudattua
+59	2759	mää	mää mun mua mulle mut muhun mussa
+60	2760	todennäköisyys	todennäköisyys todennäköisyydellä todennäköisyyttä todennäköisyydet todennäköisyyden todennäköisyyksiä todennäköisyyksien todennäköisyyteen todennäköisyydestä todennäköisyyksistä todennäköisyyksillä todennäköisyyksiin
+61	2761	kävely	kävely kävelyllä kävelyä kävelyn kävelylle kävelyyn kävelystä kävelyssä kävelyillä
+62	2762	kauppakeskus	kauppakeskus kauppakeskuksen kauppakeskuksessa kauppakeskusten kauppakeskukset kauppakeskuksissa kauppakeskukseen kauppakeskuksia kauppakeskusta kauppakeskuksesta kauppakeskuksiin kauppakeskuksista
+63	2763	turisti	turisteja turistit turisti turistien turisteille turistin turistia turistina turisteista turistille turisteilta turisteilla turisteihin turisteina
+64	2764	elo	elo elon eloon eloa elosta
+65	2765	länsimainen	länsimainen länsimaisen länsimaiset länsimaisten länsimaista länsimaisia länsimaisessa länsimaiseen länsimaisesta länsimaisissa länsimaisista länsimaisiin länsimaiselle länsimaisille länsimaisilla länsimaisella länsimaisena länsimaiseksi
+66	2766	kiistää	kiistää kiisti kiistänyt kiistä kiistämään kiistävät kiistivät kiistäminen kiistämätön kiistämättä kiistetään kiistetty kiistän kiistämätöntä kiistät kiistettiin
+67	2767	myönteinen	myönteinen myönteistä myönteisiä myönteisen myönteiset myönteisenä myönteiseen myönteisessä myönteisten myönteisestä myönteisellä myönteiseksi myönteisistä myönteisempi myönteisiin
+68	2768	tuuri	tuuri tuuria tuurilla tuurin tuurista tuuriin tuurissa
+69	2769	viiva	viiva viivan viivalla viivaa viivat viivoja viivalle viivojen viivalta viivasta viivoilla viivana viivaan
+70	2770	tiedote	tiedote tiedotteen tiedotteessa tiedotteita tiedotetta tiedotteet tiedotteesta tiedotteiden tiedotteeseen tiedotteella tiedotteissa
+71	2771	helsinkiläinen	helsinkiläinen helsinkiläiset helsinkiläisten helsinkiläisen helsinkiläisille helsinkiläisistä helsinkiläisessä helsinkiläisiä helsinkiläistä helsinkiläisenä helsinkiläiselle helsinkiläisestä helsinkiläiseen helsinkiläisissä helsinkiläisillä
+72	2772	pukki	pukki pukin pukille pukkia pukeissa pukilla pukilta pukit
+73	2773	meneillään	meneillään
+74	2774	taloudellisesti	taloudellisesti
+75	2775	täydellisesti	täydellisesti
+76	2776	vasemmalla	vasemmalla
+77	2777	jorma	jorma jorman
+78	2778	mielikuva	mielikuva mielikuvia mielikuvan mielikuvaa mielikuvat mielikuvien mielikuviin mielikuvissa mielikuvilla mielikuvista mielikuvaan mielikuvani mielikuvasta
+79	2779	nelonen	nelonen nelosen nelosella nelosessa nelosta neloselta neloseen neloselle neloset nelosesta
+80	2780	erikoistunut	erikoistunut erikoistuneet erikoistuneen erikoistuneita erikoistunutta erikoistuneiden erikoistuneessa erikoistuneena erikoistuneista erikoistuneeseen erikoistuneesta erikoistuneissa erikoistuneelle
+81	2781	passi	passi passin passia passit passeja passinsa passissa passilla passiin passista passien passini passisi passeista passeissa
+82	2782	apteekki	apteekki apteekista apteekin apteekissa apteekkiin apteekkien apteekit apteekeista apteekeissa apteekkia apteekkeja apteekeille apteekkeihin
+83	2783	asianajaja	asianajaja asianajajan asianajajat asianajajansa asianajajana asianajajien asianajajaa asianajajia asianajajaksi asianajajalle asianajajista asianajajaan asianajajalta asianajajille
+84	2784	siviili	siviilejä siviili siviilien siviilit siviiliä siviilissä siviiliin siviileille siviileihin siviilin siviileitä siviileistä siviileillä
+85	2785	filosofia	filosofian filosofia filosofiaa filosofiasta filosofiaan filosofiassa filosofiansa filosofiani
+86	2786	vastaaja	vastaajista vastaaja vastaajan vastaajat vastaajaa vastaajien vastaajia vastaajalle vastaajana vastaajasta vastaajaan vastaajille vastaajina vastaajalla vastaajilta
+87	2787	vituttaa	vituttaa vituta vitutti vituttamaan
+88	2788	humalassa	humalassa humalaan
+89	2789	vastaanottaa	vastaanottaa vastaanottamaan vastaanotti vastaanotin vastaanottaminen vastaanotettu vastaanottanut vastaanottamisesta vastaanottamassa vastaanottamisen vastaanottamista vastaanottava vastaanottamiseen vastaanottavat vastaanota vastaanottamasta vastaanotetaan vastaanotan vastaanottivat vastaanottavan vastaanotamme vastaanotettiin vastaanottamisessa
+90	2790	kiusaaminen	kiusaaminen kiusaamista kiusaamisen kiusaamiseen kiusaamisesta kiusaamiselle kiusaamiseksi kiusaamisena
+91	2791	osallistuja	osallistujat osallistujia osallistujien osallistujille osallistujaa osallistuja osallistujista osallistujan osallistujilla osallistujilta osallistujana
+92	2792	lammas	lammas lampaat lampaita lampaan lammasta lampaiden lampaista lampaasta lampaille lampaisiin
+93	2793	alueellinen	alueellinen alueellisia alueellista alueellisen alueelliset alueellisten alueellisesta alueelliseen alueellisista alueellisiin alueellisessa alueellisella alueellisissa alueellisena alueelliselle alueellisilla alueelliseksi alueellisille
+94	2794	osuma	osuma osumaa osuman osumia osumaan osumalla osumat osumista osumansa osumasta osumien osumassa osumatta
+95	2795	omena	omena omenoita omenan omenat omenaa omenia omenoista omenoiden omenasta omenassa omenaan omenien omenalla
+96	2796	seitsemäs	seitsemäs seitsemännen seitsemänneksi seitsemännellä seitsemäntenä seitsemännessä seitsemänteen seitsemännelle seitsemännestä seitsemänneltä seitsemännet seitsemättä
+97	2797	syöttö	syöttö syöttöä syötöstä syötön syötöt syötöllä syöttöjä syöttöön syöttöjen syötöissä
+98	2798	tehostaa	tehostaa tehostaminen tehostamaan tehostettu tehostettua tehostetun tehostamisen tehostetaan tehosta tehostamiseksi tehostamalla tehostavat tehostamista tehostamiseen tehosti tehostamisesta tehostettiin tehostanut tehostettava tehostaakseen tehostettuun tehostamisessa tehostava
+99	2799	ikuinen	ikuinen ikuisen ikuista ikuiseen ikuisia ikuisiksi ikuisesta ikuiset ikuiseksi ikuisessa ikuisena ikuisten ikuisella
+100	2800	pätevä	pätevä päteviä pätevät pätevän pätevää pätevin pätevänä päteväksi pätevältä pätevien pätevämpi pätevistä pätevästä

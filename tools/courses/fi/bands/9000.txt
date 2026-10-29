@@ -1,0 +1,100 @@
+1	8901	suoraviivainen	suoraviivainen suoraviivaista suoraviivaisen suoraviivaisempi suoraviivaisia
+2	8902	tola	tolalla tola tolan tolalle
+3	8903	ponnistaa	ponnistaa ponnisti ponnistanut ponnistamaan ponnistetaan
+4	8904	myöhästyminen	myöhästyminen myöhästymisestä myöhästymisen myöhästymistä myöhästymisiä myöhästymiset myöhästymiseen
+5	8905	matkia	matkia matkii matki matkivat matkimaan matkimalla matkiminen matkien
+6	8906	perustuslaillinen	perustuslaillinen perustuslaillisia perustuslailliset perustuslaillista perustuslaillisen perustuslaillisten perustuslailliseen
+7	8907	tunari	tunarit tunari
+8	8908	eläkemaksu	eläkemaksujen eläkemaksut eläkemaksuja eläkemaksu eläkemaksuihin eläkemaksun eläkemaksua eläkemaksuista
+9	8909	budjettiriihi	budjettiriihessä budjettiriihi budjettiriihen
+10	8910	limakalvo	limakalvojen limakalvon limakalvot limakalvoja limakalvo limakalvoille limakalvoa limakalvoilla
+11	8911	haavoittuvuus	haavoittuvuus haavoittuvuuden haavoittuvuutta haavoittuvuuksia haavoittuvuudesta
+12	8912	alppi	alpeilla alppien alppi alpit alpeille alpeilta
+13	8913	tositoimi	tositoimiin tositoimissa
+14	8914	palveluala	palvelualojen palvelualan palvelualoilla palvelualalla palvelualat palveluala
+15	8915	sykli	sykli syklin sykleissä sykliä syklissä syklillä syklistä syklejä syklien syklit
+16	8916	kolmiulotteinen	kolmiulotteinen kolmiulotteisen kolmiulotteisia kolmiulotteista kolmiulotteisessa kolmiulotteisten kolmiulotteiset kolmiulotteisena
+17	8917	aikajana	aikajana aikajanan aikajanalla aikajanaa aikajanalle aikajanassa
+18	8918	kakko	kakko kakon
+19	8919	luovia	luovia luovien luovimaan luovin luovilla luoviin luovista luovissa
+20	8920	kuormitus	kuormitus kuormitusta kuormituksen kuormituksesta
+21	8921	jumalaton	jumalattoman jumalaton jumalattomat jumalatonta jumalattomia
+22	8922	karmiva	karmiva karmivan karmivaa karmivia karmivat
+23	8923	epäonni	epäonnea epäonni epäonnen epäonneksi epäonnesta epäonnista
+24	8924	separatisti	separatistien separatisteja separatistit
+25	8925	työnjohtaja	työnjohtaja työnjohtajan työnjohtajana työnjohtajaa
+26	8926	spin	spin spinit
+27	8927	sinkki	sinkkiä sinkki sinkin sinkistä
+28	8928	kaupungistuminen	kaupungistuminen kaupungistumisen kaupungistumiseen kaupungistumista
+29	8929	viheltää	viheltää vihelsi viheltämättä vihelletään viheltämään vihellettiin
+30	8930	vuokko	vuokko vuokon
+31	8931	toimitila	toimitiloja toimitilojen toimitiloihin toimitila toimitiloissa toimitilaa toimitiloista
+32	8932	ripe	rippeet rippeitä ripe rippeistä rippeiden
+33	8933	assistentti	assistentti assistenttina assistentin assistentiksi assistenttinsa
+34	8934	painike	painiketta painike painikkeet painikkeen painikkeita painikkeesta painikkeiden painikkeella
+35	8935	aisa	aisoissa aisoihin aisa
+36	8936	nöyryytys	nöyryytys nöyryytyksen nöyryytystä nöyryytyksestä nöyryytykseltä
+37	8937	kilpailukielto	kilpailukiellon kilpailukielto kilpailukieltoon kilpailukieltoa kilpailukiellosta
+38	8938	radiokanava	radiokanava radiokanavan radiokanavat radiokanavia radiokanavalla radiokanavilla radiokanavaa radiokanavien
+39	8939	valtionhallinto	valtionhallinnon valtionhallinnossa valtionhallinto valtionhallintoa
+40	8940	kilpirauhanen	kilpirauhasen kilpirauhanen
+41	8941	ällöttävä	ällöttävä ällöttävää ällöttävän ällöttäviä ällöttävältä
+42	8942	hintaluokka	hintaluokan hintaluokassa hintaluokka hintaluokkaan hintaluokkaa hintaluokissa hintaluokasta
+43	8943	maantiede	maantiede maantieteen maantiedettä maantieteestä maantieteessä maantieteeseen
+44	8944	tieliikenne	tieliikenteen tieliikenne tieliikenteessä tieliikenteeseen tieliikennettä
+45	8945	hajautettu	hajautettu hajautetun hajautettua hajautettuun hajautettuja hajautetut
+46	8946	sieppaus	sieppaus sieppauksen sieppauksesta sieppaukseen sieppausta sieppauksia sieppaukset sieppauksista
+47	8947	istumapaikka	istumapaikkoja istumapaikkaa istumapaikat istumapaikan istumapaikka istumapaikkojen
+48	8948	intro	intro intron
+49	8949	arvonimi	arvonimen arvonimi arvonimet arvonimeä arvonimiä arvonimellä
+50	8950	supistaa	supistaa supistamaan supistaminen supistettu supistetaan supistamista supistamalla supisti
+51	8951	ulkomuoto	ulkomuoto ulkomuodon ulkomuotoa ulkomuotonsa ulkomuodosta ulkomuotoon
+52	8952	herkkyys	herkkyys herkkyyttä herkkyyden herkkyydestä herkkyyteen
+53	8953	avara	avara avaraa avaran avarat avaria avarassa
+54	8954	asentaja	asentaja asentajat asentajan asentajaa asentajia asentajien asentajana
+55	8955	aakkonen	aakkoset aakkosia aakkosten aakkosissa aakkosilla
+56	8956	vuokraus	vuokraus vuokrauksen vuokrauksesta vuokrausta vuokraukseen
+57	8957	sisäänpääsy	sisäänpääsy sisäänpääsyn sisäänpääsyä sisäänpääsyyn sisäänpääsystä
+58	8958	kerrata	kerrataan kerrata kertaamaan kertaan kerrattiin kertasi
+59	8959	neuvostoliittolainen	neuvostoliittolainen neuvostoliittolaiset neuvostoliittolaisten neuvostoliittolaisen neuvostoliittolaisia neuvostoliittolaista
+60	8960	aggressiivisesti	aggressiivisesti aggressiivisemmin
+61	8961	äänekkäästi	äänekkäästi äänekkäämmin äänekkäimmin
+62	8962	rintasyöpä	rintasyöpä rintasyövän rintasyöpään rintasyöpää rintasyövästä
+63	8963	katsastaa	katsastaa katsastamassa katsastettu katsastamaan katsastetaan
+64	8964	ulottumattomissa	ulottumattomissa ulottumattomiin
+65	8965	ammentaa	ammentaa ammensi ammentavat ammentanut ammentava ammentamaan ammennettu
+66	8966	atlas	atlas atlaksen
+67	8967	minimaalinen	minimaalinen minimaalisen minimaalista minimaaliset minimaalisia minimaalisella
+68	8968	maistraatti	maistraatin maistraatti maistraatissa maistraattiin maistraatista maistraattien maistraatille
+69	8969	ratsia	ratsia ratsian ratsiassa ratsioita ratsiat ratsiasta ratsiaan
+70	8970	lehtinen	lehtisen lehtisiä lehtinen lehtistä
+71	8971	pyyhkäistä	pyyhkäisi pyyhkäistä pyyhkäisee pyyhkäisemällä pyyhkäise pyyhkäissyt pyyhkäistään
+72	8972	kohteliaisuus	kohteliaisuus kohteliaisuudesta kohteliaisuutta kohteliaisuuden kohteliaisuuksia kohteliaisuutena
+73	8973	pompata	pomppasi pomppaa pompannut
+74	8974	sekasorto	sekasortoa sekasorron sekasorto sekasortoon sekasorrossa sekasorrosta
+75	8975	väkivaltaisuus	väkivaltaisuus väkivaltaisuudesta väkivaltaisuutta väkivaltaisuuden väkivaltaisuuksia väkivaltaisuuteen väkivaltaisuuksien väkivaltaisuuksiin väkivaltaisuuksissa väkivaltaisuuksista
+76	8976	lisäaine	lisäaineita lisäaineet lisäaineiden lisäaine lisäaineena lisäaineista lisäaineen
+77	8977	shampoo	shampoo shampoota shampoon sampoota shampoot sampoo shampoita
+78	8978	kuolemantuottamus	kuolemantuottamuksesta kuolemantuottamus kuolemantuottamukseen kuolemantuottamuksena
+79	8979	panssari	panssari panssarin panssarit panssareita panssaria panssareiden
+80	8980	etäinen	etäinen etäiseksi etäisiä etäisen etäistä etäiseltä etäiset etäisenä etäisiksi
+81	8981	osainen	osainen osaiset osaisen osaisten osaisia osaisessa osaisin
+82	8982	katolilainen	katolilainen katolilaiset katolilaisia katolilaisten katolilaisen
+83	8983	karismaattinen	karismaattinen karismaattisen karismaattisia karismaattista karismaattiset
+84	8984	ihmemaa	ihmemaa ihmemaassa ihmemaasta ihmemaan ihmemaahan
+85	8985	itsevarmuus	itsevarmuutta itsevarmuus itsevarmuuden
+86	8986	laskennallinen	laskennallinen laskennallisen laskennallista laskennallisia laskennalliset laskennallisesta
+87	8987	yläraja	yläraja ylärajaa ylärajan ylärajoilla
+88	8988	jae	jae jakeet jakeen jakeessa jakeita jaetta jakeesta jakeissa jakeiden
+89	8989	äänimäärä	äänimäärä äänimäärän äänimäärällä äänimäärät äänimääränsä äänimäärien
+90	8990	talvirengas	talvirenkaat talvirenkaita talvirenkaiden talvirenkaissa
+91	8991	valovuosi	valovuoden valovuotta valovuosia valovuosien
+92	8992	kuulutus	kuulutus kuulutukset kuulutuksen kuulutuksia
+93	8993	tilikausi	tilikauden tilikaudella tilikausi tilikaudelta
+94	8994	mutaatio	mutaatio mutaatioita mutaation mutaatiot mutaatioiden mutaatiota
+95	8995	metsänomistaja	metsänomistajat metsänomistajien metsänomistajia metsänomistaja metsänomistajan metsänomistajille metsänomistajalle
+96	8996	taistelukenttä	taistelukentällä taistelukenttä taistelukentän taistelukentillä taistelukentälle taistelukentältä taistelukentille
+97	8997	rakennuslupa	rakennusluvan rakennuslupaa rakennuslupa rakennusluvat rakennuslupien rakennuslupia
+98	8998	optimoida	optimoida optimoitu optimoimaan optimoi optimoidaan optimoivat
+99	8999	hurmata	hurmaa hurmasi hurmata hurmannut hurmaamaan hurmaan hurmaavat
+100	9000	sairaalahoito	sairaalahoitoon sairaalahoitoa sairaalahoidossa sairaalahoidon sairaalahoito

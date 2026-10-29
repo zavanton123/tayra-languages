@@ -1,0 +1,100 @@
+1	6501	potkaista	potkaisi potkaisee potkaista potkaissut potkaistiin potkaisemaan potkaistaan potkaisemalla potkaistu
+2	6502	jyrätä	jyrää jyräsi jyräävät jyrätä jyräsivät jyrätään jyrännyt jyrättiin
+3	6503	spede	spede speden
+4	6504	aikakauslehti	aikakauslehti aikakauslehtien aikakauslehden aikakauslehdet aikakauslehtiä aikakauslehteä aikakauslehdessä aikakauslehdissä aikakauslehdistä
+5	6505	painovoima	painovoima painovoiman painovoimaa painovoimasta painovoimaan
+6	6506	ylipainoinen	ylipainoinen ylipainoisia ylipainoiset ylipainoisten ylipainoisen ylipainoisilla ylipainoisille ylipainoisena ylipainoista
+7	6507	kotelo	kotelo kotelon koteloon kotelossa kotelosta kotelot koteloa koteloita
+8	6508	tajunta	tajunnan tajuntansa tajuntaan tajunta tajuntaa tajuntani
+9	6509	rehu	rehua rehun rehuksi rehu rehuja rehujen rehut rehuna rehussa rehuun rehusta
+10	6510	höpö	höpö höpöjä höpöä
+11	6511	tuntomerkki	tuntomerkit tuntomerkkejä tuntomerkki tuntomerkkeihin tuntomerkkien
+12	6512	tuulilasi	tuulilasin tuulilasi tuulilasiin tuulilasissa tuulilasista tuulilasia tuulilasille
+13	6513	nöyryyttää	nöyryytti nöyryyttää nöyryyttävää nöyryyttävä nöyryytetty nöyryytettiin nöyryyttäminen nöyryyttävän nöyryytetyksi nöyryyttäviä nöyryyttämään nöyryyttämistä nöyryyttävät nöyryyttämisestä
+14	6514	sanoitus	sanoitukset sanoituksia sanoitus sanoituksista sanoituksissa sanoitusten sanoituksen sanoituksiin sanoituksesta sanoitusta sanoituksilla
+15	6515	faija	faija faijan
+16	6516	oivallus	oivallus oivalluksia oivalluksen oivallusta oivallukset oivalluksista oivalluksesta
+17	6517	varastoida	varastoida varastoi varastoidaan varastoitu varastoimaan varastoivat
+18	6518	tapahtumapaikka	tapahtumapaikka tapahtumapaikalla tapahtumapaikkana tapahtumapaikalle tapahtumapaikan tapahtumapaikalta tapahtumapaikkoja tapahtumapaikat tapahtumapaikkaa tapahtumapaikaksi tapahtumapaikasta tapahtumapaikkoina
+19	6519	tapaturma	tapaturma tapaturmia tapaturman tapaturmasta tapaturmat tapaturmien tapaturmaa tapaturmassa tapaturmiin tapaturmista
+20	6520	mali	malin mali malissa malia malista maliin malina
+21	6521	syönti	syönti syöntiä syönnin syöntiin syönnistä syönnillä
+22	6522	pääkonttori	pääkonttori pääkonttorin pääkonttorissa pääkonttoriin pääkonttorit pääkonttorista pääkonttorinsa pääkonttorilla pääkonttoria
+23	6523	äänekäs	äänekäs äänekästä äänekkäitä äänekkään äänekkäät äänekkäin äänekkäämpi
+24	6524	maissi	maissi maissia maissin maissista
+25	6525	vastalause	vastalauseena vastalause vastalauseita vastalauseen vastalauseeksi vastalauseensa vastalausetta vastalauseet vastalauseista vastalauseiden
+26	6526	älyllinen	älyllinen älyllistä älyllisen älyllisiä älylliseen älyllisestä älylliset
+27	6527	ilmiselvä	ilmiselvää ilmiselvä ilmiselviä ilmiselvän ilmiselvät
+28	6528	virtsa	virtsan virtsa virtsaa virtsaan virtsassa virtsasta virtsalla
+29	6529	siirtokunta	siirtokunnan siirtokunta siirtokuntien siirtokunnat siirtokuntia siirtokunnassa siirtokunnissa siirtokuntaan siirtokuntaa siirtokuntiin siirtokunnasta
+30	6530	organisoida	organisoitu organisoida organisoi organisoimaan organisoivat organisoinut organisoitiin organisoima organisoidaan organisoimassa
+31	6531	erikoissairaanhoito	erikoissairaanhoidon erikoissairaanhoito erikoissairaanhoitoon erikoissairaanhoitoa erikoissairaanhoidossa erikoissairaanhoidosta
+32	6532	haukka	haukka haukat haukan haukkaa haukkojen haukkoja haukkana
+33	6533	belgialainen	belgialainen belgialaisen belgialaista belgialaiset belgialaisia belgialaisten
+34	6534	muotti	muottiin muotti muotin muotista muotit muotteihin muotteja muottia muotilla muotissa
+35	6535	huvi	huvin huvia huvi huvit huviksi huvista
+36	6536	seppä	seppä sepän sepät seppiä seppää
+37	6537	hyvännäköinen	hyvännäköinen hyvännäköisiä hyvännäköistä hyvännäköiset hyvännäköisen
+38	6538	väistyä	väistyä väistyy väistyi väistymään väistynyt väistyvät väistyvä väistymässä väisty väistyvän väistyivät väistyessä
+39	6539	suvaitsevaisuus	suvaitsevaisuus suvaitsevaisuuden suvaitsevaisuutta suvaitsevaisuudesta suvaitsevaisuuteen
+40	6540	see	seen seistä sein seinä cee see
+41	6541	kaavio	kaavio kaavion kaaviossa kaaviot kaaviota kaavioita kaaviosta kaavioon
+42	6542	populaatio	populaatio populaation populaatioiden populaatiosta populaatiota populaatiot populaatiossa populaatioon
+43	6543	uimari	uimari uimarit uimareita uimarin uimaria uimareiden
+44	6544	ihmishenki	ihmishenkiä ihmishenkien ihmishengen ihmishenkeä ihmishenki ihmishengistä
+45	6545	pyramidi	pyramidi pyramidin pyramidit pyramidien pyramideja pyramidia pyramidista pyramideista pyramidiin pyramidissa
+46	6546	ennennäkemätön	ennennäkemätöntä ennennäkemätön ennennäkemättömän ennennäkemättömällä ennennäkemättömiä ennennäkemättömät ennennäkemättömään
+47	6547	loppukesä	loppukesästä loppukesän loppukesällä loppukesä loppukesään loppukesää
+48	6548	arvoton	arvoton arvottomia arvotonta arvottomaksi arvottomat arvottomiksi arvottomana arvottoman
+49	6549	satsata	satsata satsaa satsaamaan satsataan satsannut satsattu satsaan
+50	6550	pahoittaa	pahoittaa pahoitin pahoittanut pahoitti pahoita pahoittamaan pahoittavat pahoitan
+51	6551	esittäjä	esittäjä esittäjän esittäjät esittäjiä esittäjänä esittäjien esittäjää esittäjistä esittäjästä
+52	6552	maanomistaja	maanomistajan maanomistaja maanomistajat maanomistajien maanomistajia maanomistajille maanomistajalle
+53	6553	avaruusalus	avaruusalus avaruusaluksen avaruusaluksia avaruusalusta avaruusaluksella avaruusaluksesta avaruusalusten avaruusaluksessa avaruusalukset avaruusalukseen
+54	6554	ajattelutapa	ajattelutapa ajattelutavan ajattelutapaa ajattelutapaan ajattelutavasta ajattelutapoja ajattelutavassa
+55	6555	puhuttaa	puhuttaa puhutti puhuttavat puhuttaisi puhuttanut puhuta puhuttaessa puhuttavan puhuttava
+56	6556	syntyvyys	syntyvyys syntyvyyden syntyvyyttä syntyvyyteen syntyvyydestä
+57	6557	ruisleipä	ruisleipää ruisleipä ruisleivän ruisleivät
+58	6558	kasvisruoka	kasvisruoka kasvisruokaa kasvisruoasta kasvisruokia kasvisruoan kasvisruokien kasvisruokaan kasvisruoat kasvisruuat
+59	6559	lantio	lantio lantion lantiota lantiosta lantioon lantiolle lantiossa lantionsa lantiolla lantioni
+60	6560	yksipuolinen	yksipuolinen yksipuolista yksipuolisen yksipuolisia yksipuolisella yksipuolisesta yksipuoliseksi yksipuoliseen
+61	6561	liittouma	liittouman liittouma liittoumaa liittoumaan liittoumasta
+62	6562	vihamielinen	vihamielinen vihamielisiä vihamielistä vihamielisen vihamieliset vihamielisten vihamieliseksi vihamieliseen vihamielisestä vihamielisenä
+63	6563	vaalitulos	vaalitulos vaalitulosta vaalituloksen vaalituloksesta vaalitulokseen vaalitulokset vaalituloksia
+64	6564	mamu	mamu mamut mamuja mamujen mamun
+65	6565	kulkue	kulkue kulkueen kulkueeseen kulkueessa kulkuetta kulkueet kulkueita
+66	6566	kognitiivinen	kognitiivinen kognitiivisen kognitiivisia kognitiivista kognitiiviset kognitiivisten kognitiiviseen
+67	6567	finalisti	finalistit finalistien finalisti finalistia finalistin finalisteista
+68	6568	nostattaa	nostattaa nostatti nostattavat nostattanut nostattamaan nostattivat nostattava nostata nostattama
+69	6569	kohtuus	kohtuus kohtuudella kohtuuden kohtuudessa kohtuutta
+70	6570	yhdistyminen	yhdistyminen yhdistymisen yhdistymistä yhdistymisestä yhdistymiseen yhdistymisessä
+71	6571	alati	alati
+72	6572	enimmillään	enimmillään
+73	6573	seis	seis
+74	6574	takaperin	takaperin
+75	6575	yksimielisesti	yksimielisesti
+76	6576	vaikutusvaltainen	vaikutusvaltainen vaikutusvaltaisia vaikutusvaltaisin vaikutusvaltaisen vaikutusvaltaiset vaikutusvaltaisten vaikutusvaltaista
+77	6577	tietämys	tietämys tietämystä tietämyksen tietämykseni tietämyksensä tietämyksellä
+78	6578	jäämeri	jäämeren jäämerellä jäämeri jäämerelle jäämereltä
+79	6579	operoida	operoi operoida operoivat operoimaan operoidaan operoiva operoinut operoitiin operoima
+80	6580	keskusrikospoliisi	krp keskusrikospoliisi keskusrikospoliisin keskusrikospoliisille keskusrikospoliisista
+81	6581	parodia	parodia parodiaa parodian parodiaksi parodiasta
+82	6582	tankata	tankata tankkaamaan tankkaa tankkaamassa tankataan tankattu tankkaaminen tankattiin tankkasi tankannut tankkaan
+83	6583	pub	pub pubissa pubin pubiin pubeissa pubeja pubit pubista pubia pubien
+84	6584	puoluesihteeri	puoluesihteeri puoluesihteerin puoluesihteeriksi puoluesihteerinä puoluesihteerit
+85	6585	koskemattomuus	koskemattomuuden koskemattomuutta koskemattomuus koskemattomuuteen koskemattomuudesta
+86	6586	kuulumiset	kuulumisia kuulumiset kuulumisista
+87	6587	pesukone	pesukone pesukoneen pesukoneessa pesukoneeseen pesukonetta pesukoneet pesukoneita pesukoneesta
+88	6588	pelikielto	pelikiellon pelikielto pelikieltoa pelikieltoon pelikiellossa
+89	6589	tietojärjestelmä	tietojärjestelmien tietojärjestelmät tietojärjestelmän tietojärjestelmiin tietojärjestelmiä tietojärjestelmä tietojärjestelmään tietojärjestelmässä tietojärjestelmistä tietojärjestelmissä tietojärjestelmästä tietojärjestelmää
+90	6590	valtti	valtti valttia valtin valtteja valttina valtit
+91	6591	ylityö	ylitöitä ylitöihin ylityöt ylitöistä ylityö ylityötä ylitöiden ylitöissä
+92	6592	vuorinen	vuorinen vuorisen vuorista
+93	6593	sketsi	sketsi sketsejä sketsin sketsissä sketsit sketsien sketseistä sketsistä sketsiä sketsiin
+94	6594	kauppatori	kauppatorin kauppatori kauppatorilla kauppatorille kauppatorilta
+95	6595	hiipiä	hiipii hiipi hiipiä hiipivät hiipivä hiipinyt hiivin hiipimään hiipivän
+96	6596	veistos	veistos veistoksia veistoksen veistokset veistosta veistosten
+97	6597	kielenkäyttö	kielenkäyttö kielenkäyttöä kielenkäytössä kielenkäytön kielenkäytöstä kielenkäyttöön
+98	6598	vertaus	vertaus vertausta vertauksen vertauksia vertaukset vertauksella vertauksesta vertauksessa
+99	6599	persoonallinen	persoonallinen persoonallisen persoonallisia persoonallista persoonalliset persoonallisella persoonallisesta persoonalliseen
+100	6600	sauva	sauva sauvan sauvat sauvaa sauvojen sauvoja sauvalla sauvansa

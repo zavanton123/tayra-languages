@@ -1,0 +1,100 @@
+1	7201	tallenne	tallenne tallenteita tallenteet tallenteen tallenteena tallennetta tallenteiden tallenteista
+2	7202	progressiivinen	progressiivinen progressiivista progressiivisen progressiivisia progressiiviset progressiiviseksi progressiivisesta
+3	7203	julkaisija	julkaisija julkaisijan julkaisijat julkaisijoiden julkaisijana julkaisijoille
+4	7204	jätevesi	jätevesien jätevedet jäteveden jätevettä jätevesi jätevesiä jätevesistä jätevedestä
+5	7205	kunnianosoitus	kunnianosoitus kunnianosoituksena kunnianosoituksen kunnianosoituksia kunnianosoitukset kunnianosoitukseksi
+6	7206	kuolinsyy	kuolinsyy kuolinsyyksi kuolinsyytä kuolinsyyn kuolinsyynä kuolinsyyt kuolinsyystä kuolinsyitä
+7	7207	sitaatti	sitaatti sitaatin sitaatteja sitaatit sitaattia sitaatissa
+8	7208	lietsoa	lietsoo lietsoa lietsomisesta lietsovat lietsominen lietsomaan lietsoi lietsotaan lietsomiseen lietsonut lietsomista
+9	7209	varjostaa	varjostaa varjosti varjostivat varjostavat varjostin varjostanut varjostamaan varjosta
+10	7210	tapetti	tapetilla tapetille tapetti tapetit tapetteja tapetin tapettia tapettien tapettiin
+11	7211	pihapiiri	pihapiirissä pihapiiriin pihapiirin pihapiiri pihapiiristä pihapiiriä
+12	7212	sukkahousut	sukkahousut sukkahousuja sukkahousujen sukkahousuissa sukkahousuihin
+13	7213	pataljoona	pataljoonan pataljoona pataljoonaa pataljoonaan pataljoonassa pataljoonasta pataljoonat
+14	7214	oikeusministeri	oikeusministeri oikeusministerin oikeusministeriksi oikeusministerinä
+15	7215	oireyhtymä	oireyhtymä oireyhtymän oireyhtymästä oireyhtymää oireyhtymään
+16	7216	meikä	meikä meikän meikästä meikällä
+17	7217	väsyä	väsyy väsyä väsyminen väsymättä väsyi väsyvät väsymätön väsymisen väsyivät väsymistä väsymään väsyin väsyttävää väsyttävä väsyttävän väsyttävät
+18	7218	viehättää	viehättää viehätti viehättävät viehätä
+19	7219	pomppia	pomppii pomppi pomppimaan pomppia pomppivat pomppiva pompi pompin pomppimista
+20	7220	siteerata	siteeraa siteerata siteerasi siteeraan siteerataan siteerattu siteeraten siteerannut siteerattiin
+21	7221	jatkumo	jatkumoa jatkumo jatkumon jatkumona jatkumoon jatkumossa
+22	7222	huolia	huolimaton huolinut huolimatonta huolimattomia huolisi huolittu huolita huolimattoman huolimattomasta huolii huolia huolien
+23	7223	kappeli	kappeli kappelissa kappelin kappeliin kappelista kappelia kappelille
+24	7224	pyörähtää	pyörähtää pyörähti pyörähtämässä pyörähtänyt pyörähtävät
+25	7225	elukka	elukka elukat elukoita elukan elukoiden
+26	7226	järkytys	järkytys järkytyksen järkytyksestä järkytystä järkytyksenä järkytykseksi
+27	7227	tynnyri	tynnyrissä tynnyriä tynnyri tynnyrin tynnyrit tynnyreitä tynnyreissä tynnyristä tynnyriin tynnyreihin
+28	7228	ilmatila	ilmatilassa ilmatilan ilmatilaa ilmatilaan ilmatila ilmatilasta
+29	7229	bosnia	bosnia bosnian bosniassa bosniasta bosniaan bosniaa
+30	7230	tase	tase taseen taseessa taseeseen taseesta taseet tasetta taseensa
+31	7231	kansanmurha	kansanmurhan kansanmurha kansanmurhasta kansanmurhaa kansanmurhaan kansanmurhat
+32	7232	keräilijä	keräilijä keräilijöiden keräilijät keräilijöitä keräilijän keräilijöille keräilijälle
+33	7233	ryhmittymä	ryhmittymä ryhmittymät ryhmittymän ryhmittymien ryhmittymiä ryhmittymää ryhmittymään ryhmittymistä ryhmittymiin
+34	7234	grillata	grillata grillattua grillaa grillattu grillaamaan grillatun grillataan grillattuna grillaaminen grillattuja grillaavat grillatut
+35	7235	pukata	pukkaa pukkasi pukata
+36	7236	volyymi	volyymi volyymin volyymit volyymia volyymilla volyymiä volyymillä volyymien
+37	7237	väestönkasvu	väestönkasvu väestönkasvua väestönkasvun väestönkasvusta väestönkasvuun
+38	7238	terveydentila	terveydentilan terveydentila terveydentilasta terveydentilaa terveydentilansa terveydentilaan
+39	7239	uusivuosi	uudenvuoden uutenavuotena uusivuosi uuttavuotta
+40	7240	tähkä	tähkä tähkän
+41	7241	blokki	blokki blokin blokkia blokeista blokit blokkiin blokkeja blokkien
+42	7242	iskelmä	iskelmä iskelmää iskelmän iskelmiä iskelmät iskelmästä
+43	7243	huvipuisto	huvipuiston huvipuisto huvipuistossa huvipuistoon huvipuistoa huvipuistoissa huvipuistot huvipuistosta
+44	7244	arvoisa	arvoisa arvoisia arvoisat arvoisin arvoisiksi arvoisina arvoisista arvoisiin
+45	7245	vauhdittaa	vauhdittaa vauhditti vauhdittamaan vauhdittivat vauhdittamiseksi vauhdittanut vauhdittavat
+46	7246	musiikillinen	musiikillinen musiikillista musiikillisia musiikillisen musiikilliset musiikilliseen musiikillisten musiikillisena musiikillisesta
+47	7247	peruukki	peruukki peruukin peruukkia peruukit peruukkeja
+48	7248	aurora	aurora auroran aurorassa
+49	7249	riesa	riesa riesana riesaksi riesaa riesan
+50	7250	toimeenpano	toimeenpano toimeenpanoa toimeenpanon toimeenpanosta toimeenpanoon toimeenpanossa
+51	7251	uhkapeli	uhkapeli uhkapelejä uhkapeliä uhkapelien uhkapelit uhkapelin uhkapeleihin uhkapeleistä uhkapelistä
+52	7252	mineraali	mineraaleja mineraalit mineraalien mineraali mineraaleista mineraalia mineraalin
+53	7253	palmu	palmu palmun palmuja palmujen palmut
+54	7254	amis	amis amiksen amikset
+55	7255	työllistyä	työllistyvät työllistyä työllistyy työllistymään työllistynyt työllistyi työllisty
+56	7256	harmiton	harmiton harmittomia harmitonta harmittoman harmittomana harmittomalta harmittomasta harmittomaksi
+57	7257	keränen	keränen keräsen keräsin kerästä
+58	7258	tuomiokirkko	tuomiokirkon tuomiokirkossa tuomiokirkko tuomiokirkkoon
+59	7259	donna	donna donnan
+60	7260	suojautua	suojautua suojautumaan suojautuminen suojautumiseen suojautumista suojautumisen suojautuu suojaudu suojautuakseen suojaudutaan
+61	7261	suojaus	suojaus suojausta suojauksen suojaukset suojaukseen suojauksia suojauksesta
+62	7262	uhraus	uhrauksia uhraus uhraukset uhrauksista uhrauksen uhrausta uhrausten uhrauksiin
+63	7263	inspiroida	inspiroi inspiroinut inspiroima inspiroida inspiroivat
+64	7264	jumalatar	jumalatar jumalattaren jumalatarta jumalattarelle jumalattaria
+65	7265	viidennes	viidennes viidenneksen viidenneksellä viidennekseen viidennestä
+66	7266	myrkyttää	myrkyttää myrkytti myrkytetty myrkytettiin myrkyttänyt myrkyttämään myrkyttäminen myrkyttävät myrkyttämällä
+67	7267	saarnata	saarnata saarnaa saarnasi saarnaamaan saarnaavat saarnannut saarnaamassa saarnataan saarnaamista saarnaaminen
+68	7268	kokoluokka	kokoluokan kokoluokkaa kokoluokassa kokoluokka kokoluokkaan
+69	7269	mikrobi	mikrobit mikrobien mikrobeja mikrobi mikrobeista mikrobeille
+70	7270	keskiaikainen	keskiaikainen keskiaikaisen keskiaikaista keskiaikaisia keskiaikaiset keskiaikaisesta keskiaikaisessa keskiaikaiseen keskiaikaisten keskiaikaisista
+71	7271	lemppari	lemppari lempparini lempparit lemppareita
+72	7272	ympäristöministeriö	ympäristöministeriön ympäristöministeriö ympäristöministeriössä ympäristöministeriöstä ympäristöministeriölle
+73	7273	rantautua	rantautuu rantautunut rantautui rantautua rantautuivat rantautumista rantautuminen rantautuvat
+74	7274	aikuisikä	aikuisiällä aikuisiän aikuisikään aikuisiässä aikuisikänsä aikuisikäni
+75	7275	rosvo	rosvot rosvo rosvoja rosvojen rosvoa rosvon rosvoille
+76	7276	heippa	heippa
+77	7277	lähestulkoon	lähestulkoon
+78	7278	muinoin	muinoin
+79	7279	paikoitellen	paikoitellen
+80	7280	ylösalaisin	ylösalaisin
+81	7281	lahtelainen	lahtelainen lahtelaiset lahtelaisen lahtelaisten lahtelaista lahtelaisille lahtelaisia
+82	7282	känni	kännit känni känniin kännin kännejä kännistä
+83	7283	luuseri	luuseri luuserit luusereita luuseriksi
+84	7284	nisäkäs	nisäkkäiden nisäkäs nisäkkäät nisäkkäitä nisäkkäillä nisäkkäistä nisäkkään nisäkkäille nisäkkäisiin
+85	7285	intensiivinen	intensiivinen intensiivistä intensiivisen intensiivisiä intensiivisestä intensiiviset intensiivisempi intensiivisessä
+86	7286	merkkinen	merkkisiä merkkinen merkkiset merkkisen merkkistä merkkisten merkkisellä
+87	7287	paperiton	paperittomien paperittomat paperittomia paperittomille paperiton paperitonta paperittomista paperittoman
+88	7288	zen	zen zenit
+89	7289	hyvyys	hyvyyttä hyvyys hyvyyden hyvyydestä hyvyyteen
+90	7290	kunnossapito	kunnossapidon kunnossapito kunnossapitoon kunnossapidosta kunnossapitoa kunnossapidossa
+91	7291	värillinen	värillinen värillisiä värilliset värillistä värillisen värillisten värillisenä värillisistä värillisille
+92	7292	läpinäkyvyys	läpinäkyvyyttä läpinäkyvyys läpinäkyvyyden läpinäkyvyydestä
+93	7293	huumorintaju	huumorintaju huumorintajua huumorintajun huumorintajuni huumorintajunsa
+94	7294	kerronta	kerronnan kerronta kerrontaa kerronnassa kerrontaan kerronnasta
+95	7295	vanhainkoti	vanhainkodissa vanhainkodin vanhainkoti vanhainkotiin vanhainkodeissa vanhainkodit vanhainkodista
+96	7296	kirkkaasti	kirkkaasti kirkkaammin
+97	7297	tutkimustyö	tutkimustyötä tutkimustyön tutkimustyö tutkimustyöhön tutkimustyöstä tutkimustyössä
+98	7298	mallinen	mallinen mallisia mallisen malliset mallista mallisella malliseen
+99	7299	arvokisa	arvokisoissa arvokisat arvokisojen arvokisoihin arvokisoja arvokisoista
+100	7300	sademetsä	sademetsän sademetsää sademetsien sademetsä sademetsät sademetsässä sademetsiä sademetsistä sademetsään sademetsästä sademetsissä

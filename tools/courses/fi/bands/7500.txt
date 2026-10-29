@@ -1,0 +1,100 @@
+1	7401	valtuuskunta	valtuuskunnan valtuuskunta valtuuskuntaa valtuuskunnassa valtuuskuntaan
+2	7402	koominen	koominen koomista koomisia koomisen koomiset
+3	7403	lakki	lakki lakin lakkia lakit lakissa lakkeja
+4	7404	asiamies	asiamies asiamiehen asiamiehenä asiamiehelle asiamiehet asiamiehiä asiamiestä asiamiesten
+5	7405	huulipuna	huulipunaa huulipuna huulipunan huulipunalla
+6	7406	broileri	broilerin broileri broileria broilerit broilerista broilereiden
+7	7407	tuulivoimala	tuulivoimaloiden tuulivoimalan tuulivoimalat tuulivoimala tuulivoimaloita tuulivoimalaa tuulivoimaloista
+8	7408	egyptiläinen	egyptiläinen egyptiläiset egyptiläisten egyptiläisen egyptiläisiä egyptiläistä egyptiläisestä
+9	7409	vetoomus	vetoomus vetoomuksen vetoomuksia vetoomusta vetoomukseen vetoomuksessa vetoomukset
+10	7410	tiivistelmä	tiivistelmä tiivistelmän tiivistelmät
+11	7411	liikennemerkki	liikennemerkit liikennemerkki liikennemerkkejä liikennemerkkien liikennemerkin liikennemerkillä liikennemerkkiä liikennemerkein
+12	7412	uteliaisuus	uteliaisuus uteliaisuudesta uteliaisuutta uteliaisuuden uteliaisuuteni
+13	7413	varustus	varustus varustukseen varustusta varustuksen varustuksessa varustuksella varustuksesta varustukset
+14	7414	kofeiini	kofeiinia kofeiini kofeiinin kofeiinista
+15	7415	lieventää	lieventää lievensi lieventämään lievennettiin lieventävät lieventämiseksi lieventävä lieventäminen lievennetään lievennetty lieventämiseen lieventänyt lieventämistä
+16	7416	sorto	sortoa sorron sorto sorrosta sortoon
+17	7417	epäröidä	epäröi epäröinyt epäröidä epäröivät epäröin epäröit epäröivä
+18	7418	muuttoliike	muuttoliike muuttoliikkeen muuttoliikettä muuttoliikkeestä muuttoliikkeet
+19	7419	koulutusohjelma	koulutusohjelma koulutusohjelman koulutusohjelmassa koulutusohjelmaan koulutusohjelmasta koulutusohjelmat koulutusohjelmia koulutusohjelmaa koulutusohjelmien koulutusohjelmissa koulutusohjelmiin
+20	7420	nykyhetki	nykyhetkeen nykyhetken nykyhetki nykyhetkessä nykyhetkestä nykyhetkeä nykyhetkellä
+21	7421	vaalipäivä	vaalipäivänä vaalipäivä vaalipäivän vaalipäivää
+22	7422	fosfori	fosforia fosforin fosfori fosforista
+23	7423	uskollisuus	uskollisuutta uskollisuus uskollisuuden uskollisuudesta uskollisuutensa uskollisuuteen
+24	7424	sosiaalityöntekijä	sosiaalityöntekijä sosiaalityöntekijän sosiaalityöntekijät sosiaalityöntekijöiden sosiaalityöntekijöitä sosiaalityöntekijänä sosiaalityöntekijää
+25	7425	letku	letku letkun letkut letkua letkulla letkuja letkuissa letkusta letkujen
+26	7426	karttaa	kartan kartat karttavat karta karttamaan karttaa
+27	7427	mahti	mahti mahdin mahtia mahdista mahtinsa
+28	7428	veroinen	veroinen veroista veroisia veroiseksi veroisena
+29	7429	kansallisuus	kansallisuutta kansallisuus kansallisuuden kansallisuuksia kansallisuudesta kansallisuuksien kansallisuudet kansallisuuteen kansallisuuksista
+30	7430	paristo	paristot paristo paristoja pariston paristojen paristoa paristolla
+31	7431	makuu	makuuni makuista makuu makuulla makuulta makuusi makuun makuunsa makuihin
+32	7432	piisata	piisaa piisasi
+33	7433	edistynyt	edistynyt edistyneet edistyneen edistyneitä edistynyttä edistyneempi edistyneiden edistynein
+34	7434	ylittyä	ylittyy ylittyi ylittynyt ylity ylittyä ylittyessä ylittyivät ylittyvät
+35	7435	sammunut	sammunut sammuneen sammuneena sammuneet
+36	7436	aatto	aattona aatto aaton aattoa
+37	7437	nationalismi	nationalismia nationalismi nationalismin nationalismista nationalismiin
+38	7438	ikävuosi	ikävuoden ikävuoteen ikävuotta ikävuodesta ikävuodet ikävuosien ikävuosia
+39	7439	ilotulitus	ilotulitus ilotulitusta ilotulituksen ilotulituksia ilotulitukset ilotulitukseen
+40	7440	tunnistus	tunnistus tunnistuksen tunnistusta tunnistukseen tunnistuksessa
+41	7441	ympäristövaikutus	ympäristövaikutukset ympäristövaikutusten ympäristövaikutuksia ympäristövaikutuksista
+42	7442	kastella	kastella kastele kastelee kasteli kastellaan kastelemaan kastellut kastelemalla kastelin kastelen
+43	7443	intohimoinen	intohimoinen intohimoisia intohimoisen intohimoista intohimoisena intohimoiset intohimoisesta
+44	7444	ilmailu	ilmailun ilmailu ilmailua ilmailussa ilmailuun
+45	7445	jihadisti	jihadistien jihadisti jihadistit jihadisteja jihadistin
+46	7446	kiuas	kiuas kiukaan kiukaalle kiuasta kiukaaseen kiukaat kiukas kiukaasta
+47	7447	kuubalainen	kuubalaiset kuubalainen kuubalaisen kuubalaisia kuubalaista kuubalaisten
+48	7448	murtunut	murtunut murtuneen murtuneena murtuneet murtuneella
+49	7449	pienikokoinen	pienikokoinen pienikokoisia pienikokoiset pienikokoisen pienikokoista pienikokoisten pienikokoisempi
+50	7450	är	är ärrällä ärrän
+51	7451	ikääntyminen	ikääntymisen ikääntyminen ikääntymistä ikääntymiseen ikääntymisestä
+52	7452	suojelija	suojelija suojelijana suojelijat suojelijaksi suojelijoita suojelijan
+53	7453	ara	ara aran arat aroilla arasta arojen aroille
+54	7454	kirjamessu	kirjamessuilla kirjamessut kirjamessujen kirjamessuille kirjamessuilta
+55	7455	ufo	ufo ufoja ufon ufot ufojen ufoista ufoihin ufoa
+56	7456	tulovero	tuloveron tulovero tuloveroa tuloveroja tuloverot tuloverojen
+57	7457	harjoitusottelu	harjoitusottelussa harjoitusottelun harjoitusottelu harjoitusotteluita harjoitusottelut harjoitusotteluissa harjoitusottelua
+58	7458	tuplata	tuplata tuplaten tuplataan tuplasi tuplaa tuplannut tuplaamaan tuplaan
+59	7459	ämmä	ämmä ämmät ämmän ämmien ämmiä
+60	7460	voimistelu	voimistelu voimistelun voimistelua voimistelussa voimistelusta
+61	7461	kurki	kurki kurjet kurjen kurkien kurkia kurkea kurjista kurjissa
+62	7462	typeryys	typeryyttä typeryyksiä typeryys typeryyden typeryydestä
+63	7463	työsopimus	työsopimuksen työsopimus työsopimusta työsopimuksessa työsopimukset työsopimuksia työsopimukseen työsopimusten työsopimuksesta
+64	7464	kumppanuus	kumppanuus kumppanuutta kumppanuuden kumppanuudesta kumppanuuteen kumppanuuksia kumppanuuksien
+65	7465	tulitauko	tulitauko tulitauon tulitaukoa tulitauosta tulitaukoon
+66	7466	kulli	kulli kullia kullini kulleja kullinsa kullin kullista
+67	7467	seremonia	seremonia seremonian seremoniassa seremonioita seremoniaa seremoniaan seremoniat seremonioissa seremonioihin seremonioiden
+68	7468	herranjumala	herranjumala
+69	7469	ilmatiede	ilmatieteen
+70	7470	järin	järin
+71	7471	rinnakkain	rinnakkain
+72	7472	rkl	rkl
+73	7473	suhteellisesti	suhteellisesti
+74	7474	suoranaisesti	suoranaisesti
+75	7475	tarvis	tarvis
+76	7476	vilpittömästi	vilpittömästi
+77	7477	äkkiseltään	äkkiseltään
+78	7478	hierarkia	hierarkiassa hierarkia hierarkian hierarkiaa hierarkioita hierarkiat hierarkiaan hierarkioiden hierarkiasta
+79	7479	ketterä	ketterä ketterän ketteriä ketterämpi ketterää ketterät
+80	7480	ystävänpäivä	ystävänpäivä ystävänpäivää ystävänpäivänä ystävänpäivän
+81	7481	shortsit	shortsit shortseissa sortsit shortseja shortsien
+82	7482	lahko	lahko lahkon lahkoon lahkot lahkojen lahkosta lahkoja lahkossa lahkoa
+83	7483	pankkitili	pankkitilin pankkitilille pankkitili pankkitilillä pankkitiliä pankkitililtä pankkitilejä pankkitilinsä pankkitileille pankkitilit
+84	7484	edunvalvonta	edunvalvonta edunvalvontaa edunvalvonnan edunvalvontaan edunvalvonnasta edunvalvonnassa
+85	7485	purje	purje purjeet purjeisiin purjeen purjeessa purjeita purjeiden purjetta purjein purjeissa
+86	7486	kiinnitys	kiinnitys kiinnityksen kiinnitykset kiinnitystä kiinnityksiä kiinnitykseen kiinnityksellä
+87	7487	sheriffi	sheriffi seriffi sheriffin seriffin
+88	7488	häipyä	häipyy häipyi häipyvät häipyä häipynyt häivy häipymään häipyivät
+89	7489	rabbi	rabbit rabbi rabbin
+90	7490	paraati	paraati paraatissa paraatin paraatia paraatiin paraateja paraatista
+91	7491	kesäinen	kesäinen kesäistä kesäisen kesäiset kesäisenä kesäisiä kesäisessä kesäisestä kesäisellä kesäisten
+92	7492	hihna	hihna hihnan hihnassa hihnaa hihnalla hihnalle hihnat hihnaan hihnasta
+93	7493	räppäri	räppäri räppärit räppärin räppäreitä
+94	7494	ovela	ovela ovelia ovelaa ovelan ovelat ovelampi
+95	7495	velkaantuminen	velkaantuminen velkaantumisen velkaantumista velkaantumiseen velkaantumisesta
+96	7496	poltto	poltto polton polttoa poltosta polttoon poltossa
+97	7497	nuotti	nuotteja nuotit nuotti nuotin nuottien nuoteista nuottia nuotilla
+98	7498	liittoutua	liittoutua liittoutunut liittoutuminen liittoutuneiden liittoutuma liittoutui liittoutuu liittoutumista liittoutuivat liittoutumalla liittoutuvat liittoutuman liittoutumaton liittoutumaan liittoutumisen liittoutumattomana liittoutumisesta liittoutuneita liittoutuneille
+99	7499	sipsi	sipsejä sipsit sipsien sipsiä sipseistä
+100	7500	puhutella	puhuttelee puhutella puhutteli puhutellaan puhuttele puhutteleva puhuttelevat puhuttelevan puhutellut puhuttelemaan

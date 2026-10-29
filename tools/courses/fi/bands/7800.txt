@@ -1,0 +1,100 @@
+1	7701	kyvyttömyys	kyvyttömyys kyvyttömyydestä kyvyttömyyttä kyvyttömyyden kyvyttömyyteen
+2	7702	kaksio	kaksio kaksiossa kaksion kaksiot kaksioita kaksiosta kaksiota kaksioon
+3	7703	maksaja	maksaja maksajan maksajien maksajia maksajat maksajaksi maksajana maksajiksi maksajaa maksajalle
+4	7704	optinen	optinen optisen optiset optista optisia optisella optisten optiseen optisesta
+5	7705	atomi	atomin atomi atomien atomit atomeja atomeiksi atomia atomeista atomista atomeita
+6	7706	rautalanka	rautalangasta rautalankaa rautalanka rautalangalla
+7	7707	peikko	peikko peikot peikkoja peikon peikkojen peikkoa
+8	7708	kyrpä	kyrpä kyrpää kyrvän kyrpiä kyrpäni kyrvät
+9	7709	verilöyly	verilöyly verilöylyn verilöylystä verilöylyyn verilöylyä verilöylyssä
+10	7710	feministinen	feministinen feministisen feministiset feministisiä feminististä feministisestä feministiseen feministisessä feministiseksi
+11	7711	tuuletin	tuuletin tuulettimen tuuletinta tuulettimet tuulettimeen tuulettimia
+12	7712	momentti	momentin momentissa momentti momenttia
+13	7713	keskiverto	keskivertoa keskiverto
+14	7714	savuke	savukkeita savuketta savukkeen savukkeet savuke savukkeiden savukkeesta savukkeista
+15	7715	lopetus	lopetus lopetuksen lopetuksessa lopetusta lopetuksesta
+16	7716	suodattaa	suodattaa suodatin suodattamaan suodattavat suodatetaan suodata suodattamalla suodatettu
+17	7717	muukalainen	muukalainen muukalaisia muukalaiset muukalaisten muukalaisen muukalaista
+18	7718	katko	katko katkolla katkon katkolle katkoja katkoa katkot katkosta
+19	7719	liberalismi	liberalismin liberalismi liberalismia
+20	7720	asuttaa	asuttaa asutettu asuttamaan asutettiin asuttama asuttivat asuttaminen asuttavat asuttamisen asutti asuttamassa asuttamiseen asuttamisesta asutetaan asuttava asuta asuttaman asuttavaksi
+21	7721	yleistyminen	yleistyminen yleistymistä yleistymisen yleistymiseen yleistymisestä
+22	7722	verkkolehti	verkkolehti verkkolehden verkkolehdessä verkkolehdet
+23	7723	tulinen	tulinen tulisen tulisia tuliseen tuliset tulisesta tulisilla tulisella tulisin tulista
+24	7724	lyijy	lyijyä lyijy lyijyn lyijystä lyijyllä
+25	7725	barbaari	barbaari barbaarit barbaarin barbaarista barbaareja barbaarien
+26	7726	synonyymi	synonyymi synonyymejä synonyyminä synonyymit synonyymeja synonyymiksi synonyymeinä synonyymina
+27	7727	vaisu	vaisu vaisun vaisuksi vaisua vaisuja vaisumpi
+28	7728	kauppi	kauppi kaupin kaupissa
+29	7729	fasisti	fasistit fasistien fasisteja fasisti fasistiksi fasistista fasisteiksi
+30	7730	kynsiä	kynsiä kynsien kynsin
+31	7731	palikka	palikat palikoita palikka palikoiden palikan palikoista palikkaa palikoilla
+32	7732	tikki	tikissä tikkiä tikki tikit tikkejä tikin tikkien tikkiin
+33	7733	biotalous	biotalouden biotalous biotalouteen
+34	7734	koordinoida	koordinoi koordinoida koordinoimaan koordinoitu koordinoiva koordinoivat koordinoinut koordinoiman koordinoima
+35	7735	perusteeton	perusteetonta perusteettomia perusteeton perusteettoman perusteettomat perusteettomasta perusteettomana perusteettomien perusteettomaksi
+36	7736	turbo	turbo turbon turboa turbolla
+37	7737	tekopyhä	tekopyhää tekopyhä tekopyhiä
+38	7738	ryssä	ryssä ryssiä ryssän ryssät ryssää ryssien
+39	7739	yliannostus	yliannostus yliannostukseen yliannostuksen yliannostuksesta yliannostusta
+40	7740	raastaa	raasta raastaa raastavaa raastettu raastava raastavan raastoi
+41	7741	analyytikko	analyytikko analyytikot analyytikon analyytikkojen analyytikoiden analyytikoille analyytikkona analyytikkoja
+42	7742	käyttöikä	käyttöikä käyttöikää käyttöiän käyttöikänsä
+43	7743	loppupeli	loppupeleissä loppupelissä loppupeli loppupelin
+44	7744	kiintoisa	kiintoisaa kiintoisa kiintoisia kiintoisan
+45	7745	asukasluku	asukasluku asukasluvun asukaslukuun asukasluvusta
+46	7746	lihavuus	lihavuus lihavuuden lihavuuteen lihavuutta lihavuudesta
+47	7747	houkutus	houkutus houkutusta houkutuksia houkutuksen houkutukset houkutusten
+48	7748	moikata	moikkaamaan moikkaamassa moikkaa moikata moikkaan moikkasi
+49	7749	kulkuneuvo	kulkuneuvon kulkuneuvo kulkuneuvoja kulkuneuvojen kulkuneuvot kulkuneuvoa kulkuneuvoissa kulkuneuvolla kulkuneuvosta kulkuneuvoon kulkuneuvossa
+50	7750	kämppis	kämppis kämppiksen kämppikset kämppikseni kämppiksiä kämppisten kämppiksensä
+51	7751	ahti	ahti ahdista
+52	7752	rankkari	rankkareilla rankkarin rankkari rankkarista rankkaria rankkarit
+53	7753	vajaatoiminta	vajaatoiminta vajaatoimintaa vajaatoiminnan vajaatoimintaan vajaatoiminnasta vajaatoiminnassa
+54	7754	kovalevy	kovalevy kovalevyn kovalevylle kovalevyt kovalevyllä kovalevyä kovalevyltä kovalevyjä
+55	7755	työehto	työehtojen työehtoja työehdot työehdoista työehtoihin työehdoilla
+56	7756	neljäkymmentä	neljäkymmentä neljänkymmenen neljäänkymmeneen neljässäkymmenessä neljääkymmentä neljästäkymmenestä
+57	7757	asuinrakennus	asuinrakennus asuinrakennusten asuinrakennuksen asuinrakennuksia asuinrakennukset asuinrakennusta asuinrakennuksessa asuinrakennukseen
+58	7758	tyytymättömyys	tyytymättömyys tyytymättömyyttä tyytymättömyyden tyytymättömyydestä tyytymättömyyteen
+59	7759	kontio	kontio kontion
+60	7760	rankasti	rankasti rankemmin
+61	7761	kopteri	kopteri kopterin kopterit koptereita kopteria kopterilla kopteriin kopterista
+62	7762	levittäytyä	levittäytyy levittäytyvät levittäytynyt levittäytyä levittäytyi levittäytyivät levittäytymään levittäytyminen levittäytyvä
+63	7763	hui	hui
+64	7764	huimasti	huimasti
+65	7765	sidoksissa	sidoksissa
+66	7766	verrattavissa	verrattavissa
+67	7767	ylihuomenna	ylihuomenna
+68	7768	ymmärrettävästi	ymmärrettävästi
+69	7769	äh	äh
+70	7770	aselepo	aselepo aselevon aselepoa aselepoon aselevosta
+71	7771	iiris	iiris iiriksen iiristä
+72	7772	toiminnallinen	toiminnallinen toiminnallisia toiminnallisen toiminnalliset toiminnallista toiminnallisten toiminnallisista toiminnallisesta
+73	7773	tyhjiö	tyhjiössä tyhjiö tyhjiön tyhjiötä tyhjiöön
+74	7774	sisäistää	sisäistää sisäistänyt sisäistä sisäistämään sisäistetty
+75	7775	painella	painele paineli painella painelee painelemalla painellaan painelin
+76	7776	uusiutua	uusiutuu uusiutumista uusiutua uusiutuminen uusiutuvat uusiutui uusiutunut uusiudu uusiutumisen uusiutumattomien uusiutumaan uusiutumiseen
+77	7777	juridinen	juridinen juridista juridisen juridisia juridiset juridisesta juridisessa juridisiin
+78	7778	suvakki	suvakit suvakki
+79	7779	seksuaali	seksuaali seksuaalista
+80	7780	lakiesitys	lakiesityksen lakiesitys lakiesitystä lakiesityksessä lakiesityksiä lakiesitykset lakiesityksestä lakiesitykseen
+81	7781	laitto	laitto laittoa laitoin laitosta laittoon
+82	7782	samantyyppinen	samantyyppinen samantyyppisiä samantyyppistä samantyyppiset samantyyppisen
+83	7783	esto	esto estoja eston estot estoitta estoon estoa estoista
+84	7784	hyväkuntoinen	hyväkuntoinen hyväkuntoisia hyväkuntoiset hyväkuntoisena hyväkuntoisen hyväkuntoista hyväkuntoisina
+85	7785	psykopaatti	psykopaatti psykopaatin psykopaatit psykopaatteja psykopaattien psykopaatiksi
+86	7786	raiskaaja	raiskaaja raiskaajia raiskaajan raiskaajat raiskaajaa raiskaajaksi raiskaajien
+87	7787	porata	porata porataan poraa poraaminen porattu poraamaan poraamalla porattiin poraamisen poraamista porasi
+88	7788	kuusinen	kuusinen kuusisen kuusista
+89	7789	anarkia	anarkiaa anarkia anarkian anarkiaan
+90	7790	basisti	basisti basistin basistina basistia
+91	7791	huippuluokka	huippuluokkaa huippuluokan
+92	7792	sormenjälki	sormenjäljet sormenjälkiä sormenjälki sormenjälkien sormenjäljen sormenjälkeä
+93	7793	leijua	leijuu leijui leijumaan leijuvat leijuva leijua leijunut leijuivat
+94	7794	työviikko	työviikko työviikkoa työviikon työviikkoon työviikot
+95	7795	sämpylä	sämpylöitä sämpylä sämpylät sämpylän sämpylää sämpylöiden
+96	7796	katsastus	katsastus katsastuksen katsastuksessa katsastuksesta katsastusta katsastukset
+97	7797	maahanmuuttovirasto	maahanmuuttoviraston maahanmuuttovirasto maahanmuuttovirastosta
+98	7798	lähdekoodi	lähdekoodin lähdekoodi lähdekoodia lähdekoodiin lähdekoodista
+99	7799	muovipussi	muovipussiin muovipusseja muovipussi muovipussin muovipussit muovipussissa muovipussien muovipusseihin muovipussista muovipussia
+100	7800	tietämättään	tietämättään tietämättäni tietämättäsi tietämättämme

@@ -1,0 +1,100 @@
+1	5901	sisällyttää	sisällyttää sisällytetty sisällytetään sisällytettiin sisällyttänyt sisällyttäminen sisällyttämään sisällytti
+2	5902	sensuuri	sensuuri sensuurin sensuuria sensuurista sensuuriin
+3	5903	autotalli	autotallin autotallissa autotalli autotalliin autotallista autotallia
+4	5904	itsenäistyminen	itsenäistymisen itsenäistymistä itsenäistyminen itsenäistymisestä itsenäistymiseen
+5	5905	orgaaninen	orgaaninen orgaanista orgaanisen orgaanisia orgaaniset orgaanisten orgaanisista orgaanisesta
+6	5906	vankeusrangaistus	vankeusrangaistukseen vankeusrangaistuksen vankeusrangaistus vankeusrangaistusta vankeusrangaistuksiin vankeusrangaistuksia vankeusrangaistukset
+7	5907	arpi	arvet arpia arpi arven arpien arpea arvin arvella
+8	5908	hämähäkki	hämähäkki hämähäkit hämähäkin hämähäkkejä hämähäkkien hämähäkeistä hämähäkkiä
+9	5909	arkinen	arkinen arkisia arkiset arkisen arkisiin arkista arkisista arkisten arkiseen arkisesta arkisissa arkisessa
+10	5910	kärsivällisyys	kärsivällisyyttä kärsivällisyys kärsivällisyydestä kärsivällisyyden kärsivällisyydellä
+11	5911	jänis	jänis jäniksen jänikset jänistä jäniksiä jänisten jäniksenä
+12	5912	siistiä	siistiä siistit siistii siistin siistitty siistitään siistimään siistiminen
+13	5913	hevi	heavy hevi heviä
+14	5914	hv	hv
+15	5915	varusteet	varusteet
+16	5916	maltti	malttia maltilla maltti malttinsa maltin
+17	5917	kivihiili	kivihiilen kivihiili kivihiiltä kivihiilestä kivihiilellä
+18	5918	perspektiivi	perspektiiviä perspektiivi perspektiivistä perspektiivin perspektiiviin perspektiivissä
+19	5919	kasvo	kasvo kasvosi kasvoja kasvoni kasvojen kasvoihin kasvoille kasvon kasvoilla kasvoista kasvoa kasvona kasvoissa kasvoilta kasvoin kasvoiksi kasvoina
+20	5920	murros	murros murroksessa murroksen murroksesta murrokseen murrosta
+21	5921	maksa	maksan maksat maksaan maksoin maksassa maksasta maksa maksansa
+22	5922	syyllistää	syyllistää syyllistäminen syyllistetään syyllistämistä syyllistä syyllistämisestä syyllistämään syyllistävät
+23	5923	lahjakkuus	lahjakkuus lahjakkuutta lahjakkuuden lahjakkuuksia lahjakkuudet lahjakkuudesta lahjakkuutensa lahjakkuuksien
+24	5924	kakara	kakara kakarat kakaroita kakaran kakaroiden kakaraa kakarana kakaroille
+25	5925	vuoristo	vuoristo vuoristossa vuoriston vuoristoon vuoristoa vuoristosta vuoristoissa
+26	5926	paikkeilla	paikkeilla paikkeille
+27	5927	asutus	asutuksen asutus asutusta asutuksesta asutukseen asutukselle
+28	5928	sivuuttaa	sivuuttaa sivuutetaan sivuutettu sivuutti sivuutettiin sivuuttamaan sivuuttanut sivuuttaen sivuuttavat sivuuttaminen sivuuta sivuutat
+29	5929	maakaasu	maakaasu maakaasun maakaasua maakaasusta maakaasulla maakaasuun
+30	5930	juhlavuosi	juhlavuoden juhlavuosi juhlavuotta juhlavuoteen
+31	5931	henkirikos	henkirikoksen henkirikos henkirikosten henkirikokset henkirikoksia henkirikosta henkirikoksista henkirikoksesta henkirikokseen henkirikoksiin henkirikoksissa
+32	5932	kulho	kulhoon kulhossa kulho kulhon kulhosta kulhoa kulhoja kulhot
+33	5933	juntti	juntti juntteja juntit junttien junttia juntin
+34	5934	mesta	mesta mestoille mestan mestaa mestoilla mestat mestassa mestoja mestaan
+35	5935	näkyvästi	näkyvästi näkyvämmin näkyvimmin
+36	5936	demoni	demoneita demonit demoni demonin demonien demoneja demonia demoneista demonista demoniksi
+37	5937	yksityiskohtainen	yksityiskohtaisia yksityiskohtainen yksityiskohtaista yksityiskohtaisen yksityiskohtaiset yksityiskohtaisempi yksityiskohtaisesta yksityiskohtaiseen yksityiskohtaisten
+38	5938	tango	tango tangon tangoa tangosta tangot tangoja tangossa tangolla tangoon tangolle tangoista
+39	5939	jäädyttää	jäädytetty jäädyttää jäädytti jäädyttänyt jäädytettiin jäädytetään jäädyttäminen jäädyttämään jäädyttämällä jäädyttämistä
+40	5940	päivänvalo	päivänvaloa päivänvalossa päivänvalon päivänvaloon päivänvalo
+41	5941	aseistettu	aseistettu aseistettuja aseistetut aseistettua aseistetun aseistettujen aseistettuna
+42	5942	sekoittua	sekoittuu sekoittuvat sekoittunut sekoittua sekoittuminen sekoittui sekoitu sekoittuivat sekoittumista sekoittumisen sekoittumaan
+43	5943	heppu	heppu hepun heput heppua heppuja
+44	5944	värjätä	värjää värjätä värjätty värjännyt värjäsi värjätään värjäämään värjäävät värjättiin värjään värjättyä värjätyt värjääminen värjäsin
+45	5945	venyttää	venyttää venytetty venytetään venytä venytti venyttämään venyttämällä venytettyä venytettiin venyttäminen venyttävät venyttänyt
+46	5946	ahneus	ahneus ahneutta ahneuden ahneudesta ahneuteen
+47	5947	passiivinen	passiivinen passiivista passiivisen passiivisia passiivisena passiiviset passiiviseen passiiviseksi passiivisesta
+48	5948	simppeli	simppeli simppeliä simppeleitä simppelin simppelit simppelistä
+49	5949	vanhemmuus	vanhemmuus vanhemmuuden vanhemmuudesta vanhemmuuteen vanhemmuutta
+50	5950	kide	kiteen kiteellä kide kiteet kiteitä kiteeltä kiteelle kiteiden kiteistä
+51	5951	nippu	nippu nipun nippuun nipussa nippua nippuja
+52	5952	suuntautua	suuntautuu suuntautui suuntautuvat suuntautua suuntautuva suuntautuivat
+53	5953	huoltoasema	huoltoasema huoltoaseman huoltoasemalla huoltoasemalle huoltoasemalta huoltoasemilla huoltoasemat huoltoasemien huoltoasemaa huoltoasemilta huoltoasemia
+54	5954	kiihkeä	kiihkeä kiihkeän kiihkeää kiihkeitä kiihkeät kiihkeänä kiihkeään kiihkeästä
+55	5955	elintärkeä	elintärkeää elintärkeitä elintärkeä elintärkeät elintärkeän elintärkeiden
+56	5956	ikäihminen	ikäihmisten ikäihmisille ikäihmiset ikäihminen ikäihmisiä ikäihmisen
+57	5957	psykiatrinen	psykiatrinen psykiatrisen psykiatriseen psykiatrisessa psykiatrisella psykiatristen psykiatriselle psykiatrisia psykiatrisesta psykiatriset psykiatrista
+58	5958	kitaristi	kitaristi kitaristin kitaristina kitaristit kitaristia kitaristeja
+59	5959	muotokuva	muotokuva muotokuvan muotokuvia muotokuvaa muotokuvat muotokuvien muotokuvasta muotokuviin muotokuvansa
+60	5960	tehoton	tehotonta tehoton tehottomia tehottomaksi tehottomiksi tehottoman tehottomat tehottomampi
+61	5961	rokotus	rokotukset rokotusten rokotuksen rokotus rokotuksia rokotusta rokotuksista rokotuksilla
+62	5962	liperi	liperin liperi liperissä liperiin liperistä
+63	5963	linjata	linjasi linjannut linjata linjattu linjataan linjattiin linjaa linjaan
+64	5964	väärinkäyttö	väärinkäytöstä väärinkäyttö väärinkäyttöä väärinkäytön väärinkäyttöön
+65	5965	järkyttää	järkytti järkyttää järkyttänyt järkytä järkyttävät järkyttivät järkyttämään
+66	5966	baseball	baseball baseballin baseballia baseballissa
+67	5967	pesuhuone	ph pesuhuoneessa pesuhuoneen pesuhuone pesuhuoneeseen
+68	5968	pohjoisosa	pohjoisosassa pohjoisosissa pohjoisosan pohjoisosaan pohjoisosiin pohjoisosa pohjoisosien pohjoisosasta pohjoisosia pohjoisosista
+69	5969	hallitsija	hallitsija hallitsijan hallitsijat hallitsijoiden hallitsijaa hallitsijana hallitsijoita hallitsijaksi
+70	5970	yhteensopiva	yhteensopiva yhteensopivia yhteensopivat yhteensopivan yhteensopivaa yhteensopivien yhteensopivaksi yhteensopiviksi
+71	5971	guinea	guineassa guinean guinea guineaan guineasta guineaa
+72	5972	rehellisyys	rehellisyys rehellisyyden rehellisyyttä rehellisyydestä rehellisyyteen
+73	5973	ego	ego egon egoa egonsa egoja
+74	5974	etuoikeus	etuoikeus etuoikeuksia etuoikeutta etuoikeuden etuoikeudet etuoikeuksien etuoikeudesta etuoikeuksista
+75	5975	merkata	merkkaa merkattu merkata merkataan merkannut merkkasi merkkasin merkattiin merkkaamaan merkkaan
+76	5976	kudos	kudoksen kudos kudosta kudosten kudoksiin kudokset kudoksia kudoksissa kudokseen kudoksista kudoksesta kudoksessa
+77	5977	majoitus	majoitus majoituksen majoitusta majoituksesta majoitukseen
+78	5978	moninkertainen	moninkertainen moninkertaisen moninkertaiset moninkertaiseksi moninkertaisia moninkertaisena moninkertaista
+79	5979	kukko	kukko kukon kukkoa kukot kukkoja kukoista
+80	5980	lajike	lajikkeita lajike lajikkeet lajiketta lajikkeen lajikkeiden lajikkeesta lajikkeista
+81	5981	viikset	viikset viiksiä viiksien viiksistä
+82	5982	voittomaali	voittomaalin voittomaali voittomaaliksi voittomaaliin
+83	5983	kuilu	kuilu kuilun kuilua kuiluun kuilussa kuilusta kuilut
+84	5984	mörkö	mörkö mörön mörköjä mörköä möröt mörkönä
+85	5985	ympäristökeskus	ympäristökeskus ympäristökeskuksen ympäristökeskukset ympäristökeskuksesta ympäristökeskuksessa ympäristökeskusten
+86	5986	sarvi	sarvet sarvi sarvista sarvia sarven sarvien sarvesta sarvea sarviin sarvessa
+87	5987	editio	edition
+88	5988	sunnuntaisin	sunnuntaisin
+89	5989	totisesti	totisesti
+90	5990	kehys	kehys kehykset kehyksen kehyksiä kehyksiin kehystä kehyksissä kehykseen kehysten kehyksessä
+91	5991	aisti	aisti aistit aistien aistin aisteja aistia aisteille aisteilla aistinsa aisteihin aistein
+92	5992	haihtua	haihtuu haihtunut haihtua haihtui haihtuvat haihtumista haihtumaan haihtuivat haihtuminen haihdu haihtuvia haihtuvan haihtumisen
+93	5993	koristella	koristeltu koristele koristella koristellut koristellaan koristeltiin koristeli koristelemaan koristelevat
+94	5994	ampiainen	ampiainen ampiaiset ampiaisen ampiaisia ampiaista ampiaisten
+95	5995	menestyksekäs	menestyksekkään menestyksekäs menestyksekästä menestyksekkäin menestyksekkäitä menestyksekkäästä menestyksekkäälle menestyksekkäät menestyksekkääseen
+96	5996	purjehtia	purjehti purjehtia purjehtimaan purjehtii purjehtivat purjehtinut purjehditaan purjehtimassa purjehtiminen purjehtimisesta purjehdittiin purjehtimisen purjehdi
+97	5997	oksentaa	oksentaa oksensin oksennan oksensi oksentanut oksentamaan oksentaminen oksentamisen oksentamista
+98	5998	alkoholijuoma	alkoholijuomien alkoholijuomia alkoholijuomat alkoholijuoma alkoholijuomaa alkoholijuoman alkoholijuomista alkoholijuomiin
+99	5999	fasismi	fasismin fasismia fasismi fasismiin fasismista
+100	6000	rovio	rovion rovio roviolla roviolle

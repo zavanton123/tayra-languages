@@ -1,0 +1,100 @@
+1	5601	pistepörssi	pistepörssin pistepörssissä pistepörssiä pistepörssi
+2	5602	valinnanvapaus	valinnanvapaus valinnanvapautta valinnanvapauden valinnanvapaudesta valinnanvapauteen
+3	5603	dia	diana dia dian diat dioja
+4	5604	kaavoitus	kaavoitus kaavoituksen kaavoituksessa kaavoitusta kaavoituksesta kaavoitukseen kaavoituksella
+5	5605	haara	haara haarat haaran haaroista haarojen haarassa haaraa haaroja haaraan haarasta haaroihin haaroissa
+6	5606	hidastua	hidastuu hidastunut hidastui hidastua hidastuvan hidastuvat hidastu hidastuisi hidastumaan
+7	5607	hehkua	hehkuu hehkuvat hehkua hehku hehkuva hehkuvan hehkumaan hehkun hehkui hehkuvia hehkuvaa hehkuivat
+8	5608	valkosipuli	valkosipuli valkosipulia valkosipulin valkosipulit valkosipulilla valkosipulista
+9	5609	jymy	jymy jymyn jymyä
+10	5610	raahata	raahata raahaa raahasi raahattiin raahaamaan raahannut raahataan raahasin raahattu raahasivat raahaavat raahaan raahaaminen
+11	5611	huipentua	huipentuu huipentui huipentuivat huipentuvat
+12	5612	happo	happo happoa hapot happoja hapon happojen hapoilla hapolla
+13	5613	eteläpuoli	eteläpuolella eteläpuolelle eteläpuolelta eteläpuolen eteläpuoli
+14	5614	imeytyä	imeytyy imeytymistä imeytyä imeydy imeytyvät imeytynyt imeytyminen imeytyi imeytymisen imeytymään imeytymiseen imeytyvä
+15	5615	algoritmi	algoritmi algoritmin algoritmit algoritmeja algoritmien algoritmia algoritmilla algoritmiin algoritmeista
+16	5616	lakka	lakkaa lakka lakan lakkaan lakat lakkoja lakalla lakkojen lakoista lakkoihin lakoilla lakoissa
+17	5617	toimintakyky	toimintakykyä toimintakyky toimintakyvyn toimintakykyyn toimintakyvystä toimintakykynsä
+18	5618	peppu	peppu peppua pepun pepusta peppuun pepulle peppuni peppuja
+19	5619	perusteellisesti	perusteellisesti perusteellisemmin
+20	5620	senttimetri	senttimetriä senttimetrin senttimetri senttimetrejä
+21	5621	herrasmies	herrasmies herrasmiehen herrasmiehiä herrasmiehet herrasmiesten herrasmiehenä herrasmiestä herrasmiehille
+22	5622	kaiutin	kaiuttimet kaiutin kaiuttimen kaiuttimia kaiuttimista kaiuttimien kaiutinta kaiuttimesta kaiuttimella kaiuttimessa kaiuttimiin kaiuttimissa kaiuttimilla
+23	5623	bongata	bongata bongattu bongasin bongattiin bongaa bongannut bongaamaan bongasi
+24	5624	osallisuus	osallisuus osallisuudesta osallisuuden osallisuutta osallisuutensa osallisuuteen
+25	5625	perusopetus	perusopetuksen perusopetus perusopetukseen perusopetusta perusopetuksessa perusopetuksesta
+26	5626	visa	visa visan visaa visalla
+27	5627	eksoottinen	eksoottinen eksoottisia eksoottista eksoottisen eksoottiset eksoottisten eksoottisiin eksoottiselta eksoottiseen eksoottisista eksoottisesta
+28	5628	luetella	lueteltu luettelee luetella luetellaan luetteli luettelemaan luetellut lueteltiin lueteltuna luettele
+29	5629	väkevä	väkevä väkeviä väkevää väkevän väkevien väkevät väkevämpi väkevällä väkeviin
+30	5630	mustikka	mustikka mustikoita mustikat mustikkaa mustikan mustikoiden mustikoista
+31	5631	kiihottaa	kiihottaa kiihottaminen kiihottamisesta kiihottavaa kiihota kiihottavat kiihotti kiihottava kiihottamiseen kiihottamisen
+32	5632	sosialisti	sosialistien sosialistit sosialisti sosialisteja sosialistista sosialistin
+33	5633	jäljittää	jäljittää jäljittämään jäljitetään jäljitti jäljitettävissä jäljittäminen jäljittämiseen jäljitettiin jäljitetty jäljittivät jäljittävät jäljittämisessä jäljittänyt
+34	5634	nyrkkeilijä	nyrkkeilijä nyrkkeilijän nyrkkeilijät nyrkkeilijää nyrkkeilijöitä nyrkkeilijänä nyrkkeilijöiden nyrkkeilijäksi nyrkkeilijöistä
+35	5635	body	body
+36	5636	entäpä	entäpä
+37	5637	etuajassa	etuajassa
+38	5638	hah	hah
+39	5639	hetkellisesti	hetkellisesti
+40	5640	niukasti	niukasti
+41	5641	vala	vala valan valaan valoja valojen valasta valansa valat valaa valoissa valalla valassa valoista valoihin valoilla valoin valoille
+42	5642	lukuvuosi	lukuvuoden lukuvuosi lukuvuodelle lukuvuodessa lukuvuotta lukuvuotena lukuvuodeksi
+43	5643	miespuolinen	miespuolinen miespuoliset miespuolisia miespuolista miespuolisen miespuolisten miespuolisista miespuolisille
+44	5644	monikulttuurisuus	monikulttuurisuus monikulttuurisuuden monikulttuurisuutta monikulttuurisuuteen monikulttuurisuudesta
+45	5645	tuhma	tuhma tuhmia tuhmaa tuhmat tuhman tuhmien
+46	5646	kotiottelu	kotiottelunsa kotiottelu kotiottelun kotiottelussa kotiotteluissa kotiottelua kotiotteluiden kotiottelut kotiottelulla
+47	5647	sivistynyt	sivistynyt sivistynyttä sivistyneen sivistyneitä sivistyneet sivistyneessä sivistyneiden sivistyneenä sivistyneeksi sivistyneeseen
+48	5648	sitruuna	sitruuna sitruunaa sitruunan sitruunalla sitruunoita sitruunasta sitruunat
+49	5649	koukku	koukku koukun koukut koukkuja koukkua koukulla koukuilla koukkuihin koukusta
+50	5650	pulma	pulma pulmia pulmat pulman pulmaan pulmaa pulmana pulmien pulmiin
+51	5651	kotimatka	kotimatkalla kotimatkaa kotimatka kotimatkalle kotimatkan kotimatkaan
+52	5652	vakavuus	vakavuus vakavuutta vakavuuden vakavuudesta vakavuudella vakavuuteen
+53	5653	avausmaali	avausmaalin avausmaali avausmaalinsa
+54	5654	määräraha	määrärahat määrärahoja määrärahojen määrärahan määräraha määrärahaa määrärahoista määrärahoihin
+55	5655	terhi	terhi terhin
+56	5656	käsiala	käsialaa käsiala käsialan käsialalla käsialasta
+57	5657	pilli	pilli pillit pillin pilliin pillejä pillillä pilliä pillien
+58	5658	kilpailuttaa	kilpailuttaa kilpailuttaminen kilpailutetaan kilpailutettu kilpailuttamaan kilpailuttamalla kilpailuttamisen kilpailutti kilpailutettiin kilpailuta kilpailuttamista kilpailuttanut kilpailuttavat kilpailuttamisesta
+59	5659	virkailija	virkailija virkailijat virkailijan virkailijoiden virkailijalle virkailijaa virkailijoita
+60	5660	evakuoida	evakuoitiin evakuoida evakuoitu evakuoimaan evakuoi evakuoidaan evakuoivat evakuoitava
+61	5661	majakka	majakka majakan majakat majakkaa majakalle majakoita majakassa majakalla majakoiden majakkaan majakasta
+62	5662	pöytäkirja	pöytäkirjan pöytäkirjaan pöytäkirja pöytäkirjat pöytäkirjaa pöytäkirjoja pöytäkirjassa pöytäkirjasta pöytäkirjojen pöytäkirjoista pöytäkirjoissa pöytäkirjoihin
+63	5663	ravi	ravit ravi ravin raveja ravista raveissa ravia ravien raveihin ravilla
+64	5664	levottomuus	levottomuuksia levottomuutta levottomuudet levottomuuksien levottomuus levottomuuksiin levottomuuksista levottomuuksissa levottomuuden
+65	5665	virkistää	virkistävää virkistää virkistävä virkistävän virkistä virkistävät virkisti
+66	5666	homoseksuaali	homoseksuaali homoseksuaaleja homoseksuaalien homoseksuaalit homoseksuaalin homoseksuaalia homoseksuaalista homoseksuaaleille homoseksuaaleista
+67	5667	ammus	ammuksia ammukset ammusten ammuksen ammuksista ammusta ammuksilla ammus
+68	5668	korkki	korkki korkin korkkia korkit korkkeja korkilla korkeilla korkeista korkeissa korkeiksi korkeille korkeilta
+69	5669	vauhdikas	vauhdikas vauhdikasta vauhdikkaan vauhdikkaat vauhdikkaita vauhdikkaaseen vauhdikkaassa vauhdikkaasta
+70	5670	kupari	kupari kuparia kuparin kuparista kuparilla kupariin
+71	5671	velho	velho velhon velhot velhojen velhoja velhoa velhoksi
+72	5672	sydänkohtaus	sydänkohtauksen sydänkohtaukseen sydänkohtaus sydänkohtauksia sydänkohtauksesta
+73	5673	naapurimaa	naapurimaissa naapurimaiden naapurimaihin naapurimaan naapurimaa naapurimaassa naapurimaista naapurimaat naapurimaahan naapurimaita naapurimaasta naapurimaamme
+74	5674	ratsastus	ratsastus ratsastuksen ratsastusta ratsastuksessa ratsastukseen ratsastuksesta
+75	5675	harhaanjohtava	harhaanjohtavaa harhaanjohtava harhaanjohtavia harhaanjohtavan harhaanjohtavana
+76	5676	kukoistaa	kukoistaa kukoisti kukoistavat kukoistamaan kukoistava kukoistavan kukoistivat kukoistanut kukoista
+77	5677	hurrikaani	hurrikaani hurrikaanin hurrikaanit hurrikaania hurrikaaneja hurrikaaniksi
+78	5678	työmies	työmies työmiehen työmiehet työmiehiä työmiestä työmiesten
+79	5679	talouselämä	talouselämä talouselämän talouselämässä talouselämään talouselämää talouselämälle talouselämästä
+80	5680	kainalo	kainalossa kainaloon kainalot kainalosta kainaloihin kainalon kainalo kainaloissa kainaloista kainaloiden
+81	5681	kanssakäyminen	kanssakäyminen kanssakäymistä kanssakäymisen kanssakäymiseen kanssakäymisessä kanssakäymisestä
+82	5682	pumpata	pumpataan pumppaa pumpata pumpattu pumppaamaan pumppaamalla pumpattiin pumppaavat pumppasi pumppaaminen pumpattava pumppaamista
+83	5683	suhteuttaa	suhteutettuna suhteuttaa suhteutetaan suhteutettu
+84	5684	juoksija	juoksija juoksijat juoksijan juoksijaa juoksijoita juoksijoiden juoksijana juoksijoille juoksijoista
+85	5685	paahtaa	paahda paahtaa paahdettua paahdettu paahdettuja paahdetut paahdetun paahdetaan paahtaminen paahtoi paahtava paahtamalla
+86	5686	pikkupoika	pikkupoika pikkupoikana pikkupojan pikkupojasta pikkupojat pikkupoikaa pikkupoikien pikkupoikia pikkupojalle
+87	5687	valtiovarainministeriö	valtiovarainministeriön valtiovarainministeriö valtiovarainministeriössä valtiovarainministeriölle valtiovarainministeriöstä
+88	5688	herne	herneet herne herneitä herneen hernettä herneistä
+89	5689	jyrkästi	jyrkästi jyrkemmin
+90	5690	vainota	vainoaa vainota vainottu vainotaan vainoa vainoamaan vainoaminen vainoavat vainosi vainonnut vainoamisesta vainoamisen vainottiin vainoamista vainosivat vainoamiseen
+91	5691	suomalaisuus	suomalaisuuden suomalaisuus suomalaisuutta suomalaisuudesta suomalaisuuteen
+92	5692	olio	olio oliot olioita olion olioiden oliota olioista oliosta olioksi
+93	5693	prostituoitu	prostituoitu prostituoituja prostituoidun prostituoidut prostituoitujen prostituoitua prostituoituna prostituoiduksi prostituoiduista
+94	5694	duo	duo duon duona
+95	5695	asioida	asioida asioi asioimaan asioinut asioit asioiden asioivat asioidessa asioiminen asioin
+96	5696	piirakka	piirakka piirakkaa piirakan piirakoita piirakkaan piirakat piirakasta piirakoiden piirakassa
+97	5697	kriittisesti	kriittisesti kriittisemmin
+98	5698	lika	likaa lika lian liasta lialta likaan liat
+99	5699	iloisesti	iloisesti
+100	5700	pohjimmiltaan	pohjimmiltaan

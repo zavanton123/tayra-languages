@@ -1,0 +1,100 @@
+1	7801	lautapeli	lautapelejä lautapeli lautapelit lautapelin lautapelien lautapeliä lautapeleistä
+2	7802	kasvatustiede	kasvatustieteen kasvatustieteiden kasvatustiede kasvatustieteitä
+3	7803	ortodoksinen	ortodoksinen ortodoksisen ortodoksisessa ortodoksiseen ortodoksista ortodoksisesta ortodoksiselle
+4	7804	lapanen	lapasesta lapaset lapasia lapanen
+5	7805	litteä	litteä litteän litteät litteitä litteäksi litteää litteänä
+6	7806	puskuri	puskuri puskurit puskurin puskuria puskuriin puskurissa puskureita puskurina puskurista
+7	7807	pankkiiri	pankkiiri pankkiirit pankkiirin pankkiirien pankkiireja
+8	7808	miete	mietteitä mietteet miete
+9	7809	linnake	linnake linnakkeen linnakkeeseen linnaketta linnakkeesta linnakkeessa linnakkeita
+10	7810	missi	missi missit missin missien
+11	7811	frendi	frendit frendi frendien frendejä frendin
+12	7812	sotatoimi	sotatoimet sotatoimiin sotatoimien sotatoimia sotatoimissa sotatoimi sotatoimista
+13	7813	huipputaso	huipputason huipputasolla huipputasoa huipputasolle
+14	7814	holokausti	holokaustin holokausti holokaustista holokaustia holokaustiin holokaustissa
+15	7815	paskoa	paskoo paskoa pasko paskon paskovat paskoi paskonut paskomaan paskoin
+16	7816	latva	latva latvat latvaan latvasta latvassa latvoihin latvojen latvoja latvoissa latvan
+17	7817	asuntola	asuntolassa asuntola asuntolan asuntolaan asuntolasta asuntolat asuntolaa asuntoloissa asuntoloita
+18	7818	romuttaa	romuttaa romutti romutetaan romutettu romuttamista romuttamaan romuttaisi romuttaminen romutettiin romuttanut
+19	7819	lukutaito	lukutaito lukutaidon lukutaitoa lukutaidossa
+20	7820	vastuullisuus	vastuullisuus vastuullisuutta vastuullisuuden vastuullisuudesta vastuullisuuteen
+21	7821	johdonmukainen	johdonmukainen johdonmukaista johdonmukaisia johdonmukaisen
+22	7822	kokonaiskuva	kokonaiskuvan kokonaiskuvaa kokonaiskuva kokonaiskuvaan kokonaiskuvassa
+23	7823	toissijainen	toissijainen toissijaisia toissijaista toissijaisen toissijaiset toissijaisena toissijaiseksi
+24	7824	ikäryhmä	ikäryhmien ikäryhmässä ikäryhmissä ikäryhmän ikäryhmä ikäryhmästä ikäryhmiin ikäryhmät ikäryhmään ikäryhmistä ikäryhmiä
+25	7825	kytkeytyä	kytkeytyy kytkeytyvät kytkeytyä kytkeytynyt kytkeydy kytkeytyi kytkeytyvä
+26	7826	saastuttaa	saastuttaa saastuttavat saastuttanut saastuttamaan saastutti saastuta saastuttamista saastuttama saastuttamisesta saastuttava saastuttaminen
+27	7827	naisellinen	naisellinen naisellisia naisellisen naisellista naiselliset naiselliseen
+28	7828	korruptoitunut	korruptoitunut korruptoituneita korruptoituneen korruptoituneet korruptoitunutta korruptoituneena
+29	7829	sushi	sushi sushia sushin sushista
+30	7830	ajoittua	ajoittuu ajoittuvat ajoittui ajoittuivat ajoittuisi
+31	7831	taimi	taimi taimet taimia taimien
+32	7832	astma	astma astman astmaa astmaan astmasta
+33	7833	itärannikko	itärannikolla itärannikon itärannikolle itärannikolta itärannikko itärannikkoa
+34	7834	päiväys	päiväys päiväyksen päiväystä päiväykset
+35	7835	merijalkaväki	merijalkaväen merijalkaväki merijalkaväessä merijalkaväkeen merijalkaväkeä
+36	7836	itsehallinto	itsehallinto itsehallinnon itsehallintoa itsehallinnosta itsehallintoon
+37	7837	palkkataso	palkkataso palkkatason palkkatasoa palkkatasoon palkkatasolla palkkatasosta
+38	7838	päivystää	päivystää päivystävä päivystävät päivystämään päivystämässä päivysti
+39	7839	joustavuus	joustavuus joustavuutta joustavuuden joustavuudesta
+40	7840	kirsikka	kirsikka kirsikoita kirsikat kirsikkaa kirsikan kirsikkana
+41	7841	hirsi	hirsi hirteen hirressä hirret hirsien hirrestä hirttä hirsiä hirsistä hirren
+42	7842	tee	teelle teestä teehen teellä teesi teessä
+43	7843	etappi	etappi etapin etapilla etappia etapille etappeja etappina
+44	7844	kätilö	kätilö kätilöt kätilön kätilöiden kätilönä kätilöitä
+45	7845	posse	posse possen possessa possea
+46	7846	likoon	likoon
+47	7847	prosenttisesti	prosenttisesti
+48	7848	toissa	toissa
+49	7849	haalia	haalia haali haalimaan haalii haalin haalinut haalitaan haaliminen haalivat haalittu
+50	7850	työterveyshuolto	työterveyshuollon työterveyshuolto työterveyshuollossa työterveyshuoltoa työterveyshuoltoon
+51	7851	juju	juju jujun jujuna jujua
+52	7852	sähköntuotanto	sähköntuotannon sähköntuotanto sähköntuotannosta sähköntuotantoa sähköntuotannossa sähköntuotantoon
+53	7853	motivoitunut	motivoitunut motivoituneita motivoitunutta motivoituneena motivoituneet motivoituneen
+54	7854	kutoa	kutonen kudottu kutoo kutoa kutosen kudotaan kutominen kutomaan kutoi kutomista kutomalla kutovat kutoma kudo kutosessa kutosella
+55	7855	erikoistua	erikoistua erikoistuminen erikoistumisen erikoistui erikoistuu erikoistuvat erikoistumista erikoistuva erikoistumiseen erikoistumaan erikoistuneet
+56	7856	siideri	siideriä siideri siiderin siiderit siidereitä
+57	7857	liigaottelu	liigaottelua liigaottelussa liigaottelunsa liigaottelun liigaotteluun liigaottelusta
+58	7858	fuusio	fuusio fuusion fuusiota fuusiosta fuusiossa fuusioiden fuusioon
+59	7859	terroristijärjestö	terroristijärjestö terroristijärjestön terroristijärjestöön terroristijärjestöksi terroristijärjestöjen terroristijärjestöä terroristijärjestöt terroristijärjestönä
+60	7860	keskitaso	keskitason keskitasoa keskitasolla keskitaso
+61	7861	kiistellä	kiistelevät kiistellä kiistellään kiisteltiin kiistelivät kiistelemään kiisteli kiistellyt
+62	7862	verisuoni	verisuonia verisuonten verisuonet verisuoni verisuonen verisuonissa verisuoniin
+63	7863	alushousut	alushousut alushousuja alushousuissa alushousujen alushousuista alushousunsa alushousuihin
+64	7864	pervo	pervo pervoja pervot pervoa
+65	7865	sekoilu	sekoilua sekoilu sekoilun sekoilusta sekoilut
+66	7866	rappu	rapussa rapun rappuun rappu raput rappuja rapuissa rappua rapusta
+67	7867	vasikka	vasikka vasikan vasikat vasikoita vasikkaa vasikoiden
+68	7868	turhautunut	turhautunut turhautuneena turhautuneita turhautuneet turhautuneen
+69	7869	keskinkertainen	keskinkertainen keskinkertaista keskinkertaisia keskinkertaisen keskinkertaiseksi keskinkertaiset
+70	7870	poliisiauto	poliisiauto poliisiauton poliisiautoa poliisiautoja poliisiautossa poliisiautoon poliisiautot poliisiautojen poliisiautolla
+71	7871	luottamuksellinen	luottamuksellista luottamuksellisia luottamuksellinen luottamuksellisen luottamuksellisina luottamukselliset luottamukselliseen luottamuksellisena
+72	7872	blokata	blokkaa blokata blokattu blokataan blokannut blokkasi blokkaamaan
+73	7873	sulhanen	sulhanen sulhasen sulhasensa sulhasta sulhaselle
+74	7874	kannustus	kannustusta kannustus kannustuksesta kannustuksen
+75	7875	ohikulkija	ohikulkijat ohikulkija ohikulkijoita ohikulkijoiden ohikulkijoille ohikulkijan ohikulkijaa
+76	7876	kaivella	kaivelemaan kaivelee kaivelin kaivella kaiveli kaivellut kaivelevat
+77	7877	kellonaika	kellonaika kellonaikaan kellonajan kellonajat kellonaikaa kellonajasta kellonaikoina
+78	7878	energiatehokkuus	energiatehokkuus energiatehokkuuden energiatehokkuutta energiatehokkuuteen energiatehokkuudesta
+79	7879	kaneli	kaneli kanelia kanelin kanelilla
+80	7880	velkoja	velkojien velkojaan velkojat velkojan velkojille velkoja velkojia velkojalle
+81	7881	tuttavuus	tuttavuus tuttavuutta tuttavuuksia tuttavuuden tuttavuuksien
+82	7882	gini	gin gini giniä ginin ginistä
+83	7883	alkukesä	alkukesästä alkukesän alkukesällä alkukesä
+84	7884	edus	edukseen eduksesi eduksemme
+85	7885	huuma	huumaa huuma huumassa huuman huumasta huumaan
+86	7886	jäännös	jäännökset jäännöksiä jäännösten jäännöksistä jäännös jäännöksensä
+87	7887	suutari	suutari suutarin
+88	7888	ulosajo	ulosajo ulosajon ulosajossa ulosajoon
+89	7889	makeinen	makeisia makeiset makeisten makeinen makeisista makeisiin makeista
+90	7890	alittaa	alitti alittaa alittavat alittanut alita alittivat alittava
+91	7891	kannustin	kannustimet kannustimia kannustimena kannustin kannustimen kannustimien kannustinta
+92	7892	mieluisa	mieluisa mieluisaa mieluisin mieluisan mieluisia mieluisampi mieluisat
+93	7893	sukeltaja	sukeltaja sukeltajat sukeltajien sukeltajan sukeltajia sukeltajaa
+94	7894	oikeutus	oikeutusta oikeutus oikeutuksen oikeutuksesta oikeutuksena oikeutukseen
+95	7895	hätätilanne	hätätilanteessa hätätilanteissa hätätilanne hätätilanteita hätätilanteen hätätilanteiden hätätilanteisiin hätätilanteesta hätätilanteet
+96	7896	portaali	portaali portaalin portaalia portaaliin portaalissa portaalista portaaleja
+97	7897	oikeuskansleri	oikeuskansleri oikeuskanslerin oikeuskanslerille
+98	7898	gigantti	gigantti gigantin gigantista gigantissa
+99	7899	migreeni	migreeni migreenin migreeniä migreenistä migreeniin
+100	7900	kaipuu	kaipuu kaipuuta kaipuun kaipuusta

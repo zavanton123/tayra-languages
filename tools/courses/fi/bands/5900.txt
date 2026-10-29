@@ -1,0 +1,100 @@
+1	5801	ainesosa	ainesosia ainesosa ainesosat ainesosista ainesosien ainesosaa ainesosan ainesosana ainesosiin
+2	5802	käsikirjoittaja	käsikirjoittaja käsikirjoittajana käsikirjoittajat käsikirjoittajan käsikirjoittajien käsikirjoittajaa käsikirjoittajaksi
+3	5803	absoluuttinen	absoluuttinen absoluuttisen absoluuttista absoluuttisesta absoluuttiseen absoluuttisessa absoluuttisia absoluuttisella absoluuttisena
+4	5804	roskis	roskikseen roskiksia roskis roskiksen roskiksesta roskiksessa roskikset roskisten roskiksista roskiksiin roskista
+5	5805	hoiva	hoiva hoivaa hoiviin hoivissa hoivan hoivaan
+6	5806	perusasia	perusasiat perusasioita perusasioista perusasia perusasioiden perusasioihin perusasiaa
+7	5807	autio	autio autiolle aution autiolla autiota autiot autiolta autioita autiona autioksi autiossa
+8	5808	taikuri	taikuri taikurin taikureita taikurit taikurina taikuria taikuriksi
+9	5809	sopu	sopuun sopu sopua sovun
+10	5810	hevosvoima	hevosvoimaa hevosvoiman hevosvoimia hevosvoimaan hevosvoimat
+11	5811	näppäimistö	näppäimistö näppäimistön näppäimistöllä näppäimistöä näppäimistöt näppäimistöön näppäimistössä näppäimistölle näppäimistöjä näppäimistöstä
+12	5812	takavarikoida	takavarikoi takavarikoitiin takavarikoida takavarikoitu takavarikoivat takavarikoidaan takavarikoinut takavarikoimaan
+13	5813	varusmies	varusmiesten varusmiehet varusmies varusmiehiä varusmiestä varusmiehen varusmiehille varusmiehistä
+14	5814	pillu	pillua pillu pillun pillusta pilluun
+15	5815	parikymppinen	parikymppinen parikymppisenä parikymppisen parikymppiset parikymppisiä parikymppisten parikymppistä
+16	5816	jalkapalloilija	jalkapalloilija jalkapalloilijat jalkapalloilijan jalkapalloilijoita jalkapalloilijaksi jalkapalloilijana jalkapalloilijoiden jalkapalloilijoista jalkapalloilijaa
+17	5817	tuhoisa	tuhoisa tuhoisaa tuhoisia tuhoisan tuhoisat tuhoisaan tuhoisasta tuhoisin
+18	5818	viehättävä	viehättävä viehättävän viehättäviä viehättävää viehättävänä viehättävät viehättävään viehättäväksi viehättävältä
+19	5819	karvainen	karvainen karvaisia karvaiset karvaisen karvaista karvanen
+20	5820	populismi	populismia populismi populismista populismin
+21	5821	yhdiste	yhdisteitä yhdisteiden yhdiste yhdisteet yhdisteen yhdistettä yhdisteistä
+22	5822	kehitystyö	kehitystyö kehitystyötä kehitystyön kehitystyöhön kehitystyössä kehitystyöstä
+23	5823	jatke	jatke jatkeeksi jatkeena jatkeen jatketta jatkeita jatkeella
+24	5824	tšekki	tšekin tšekki tshekin tšekissä tshekki tšekistä tšekkiä tšekkiin
+25	5825	katalonia	katalonian katalonia kataloniassa kataloniasta kataloniaa kataloniaan
+26	5826	turhauttaa	turhauttavaa turhauttaa turhauttava turhautti turhauttavia turhauttavalta
+27	5827	pato	padon pato padot patoa patoja patojen padolla padosta patoihin
+28	5828	fantastinen	fantastinen fantastista fantastisia fantastisen
+29	5829	vauraus	vaurautta vaurauden vauraus vauraudesta vaurauteen vaurautensa
+30	5830	lähettyvillä	lähettyvillä lähettyville lähettyviltä
+31	5831	henna	henna hennan
+32	5832	puuh	puh puuh
+33	5833	patja	patja patjan patjat patjalla patjaa patjoja patjalle patjaan patjojen patjassa patjasta
+34	5834	edustus	edustus edustusta edustuksen edustukseen edustuksesta edustuksessa
+35	5835	aktivoitua	aktivoituu aktivoitua aktivoituvat aktivoitunut aktivoitui aktivoituminen aktivoitumista aktivoituneet aktivoitumaan aktivoituivat aktivoitumisen aktivoidu
+36	5836	avioitua	avioitui avioitua avioituivat avioitunut avioituu avioituvat avioituneet avioituminen avioitumista avioitumisen
+37	5837	maski	maski maskin maskia maskit maskeja maskien maskista maskissa maskiin
+38	5838	vaurioittaa	vaurioita vaurioittaa vaurioitti vaurioittavat vaurioittanut vaurioittivat
+39	5839	piru	piru piruja pirut pirua
+40	5840	aiheellinen	aiheellista aiheellinen aiheelliseksi aiheellisia
+41	5841	muki	muki mukin mukit mukeja mukia mukiin mukista mukissa mukeista mukien
+42	5842	eristys	eristyksissä eristys eristyksessä eristyksiin eristykseen eristyksen eristystä eristyksestä eristykset
+43	5843	näkyvillä	näkyvillä näkyville näkyviltä
+44	5844	islamisti	islamistien islamistit islamisteja islamisti islamistista
+45	5845	lievittää	lievittää lievittämään lievittävät lievittämiseen lievittämiseksi lievittävän lievittävä lievitti lievittäminen lievittääkseen
+46	5846	zombi	zombie zombi zombeja zombien zombit zombiksi
+47	5847	kerrassaan	kerrassaan
+48	5848	loputtomiin	loputtomiin
+49	5849	sangen	sangen
+50	5850	siispä	siispä
+51	5851	stora	stora
+52	5852	tekeillä	tekeillä
+53	5853	totaalisesti	totaalisesti
+54	5854	tipahtaa	tipahtaa tipahti tipahtanut tipahdin tipahda tipahtavat
+55	5855	anoa	anoa ano anon anoi anoo anomaan anonut anovat
+56	5856	viipyä	viipyy viipyvät viipyi viipyä viipynyt viivy viipyivät
+57	5857	laskenta	laskenta laskennan laskennassa laskentaa laskentaan laskennasta
+58	5858	brasilialainen	brasilialainen brasilialaisen brasilialaiset brasilialaista brasilialaisia brasilialaisten brasilialaisesta brasilialaisessa
+59	5859	kerttu	kerttu kertun
+60	5860	kruunata	kruunattiin kruunasi kruunataan kruunattu kruunaa kruunaavat kruunata kruunasivat ruunaa ruunaan
+61	5861	väkijoukko	väkijoukko väkijoukon väkijoukkoon väkijoukossa väkijoukkoa väkijoukot väkijoukkoja väkijoukosta väkijoukkojen väkijoukolle
+62	5862	kunnanvaltuusto	kunnanvaltuusto kunnanvaltuuston kunnanvaltuustossa kunnanvaltuustolle kunnanvaltuustoon kunnanvaltuustot
+63	5863	matemaattinen	matemaattinen matemaattisia matemaattisen matemaattisten matemaattista matemaattiset matemaattiseen matemaattisesta matemaattisella matemaattisiin
+64	5864	tina	tina tinan tinaa tinasta
+65	5865	vampyyri	vampyyri vampyyrit vampyyrien vampyyrin vampyyriksi vampyyreja vampyyreistä vampyyreita vampyyrejä vampyyreista
+66	5866	reisi	reidet reiden reisien reisille reiteen reisi reisiä reisiin reisistä reitensä reittä reidestä reiteni
+67	5867	kranaatti	kranaatti kranaatteja kranaatin kranaatit kranaattia kranaattien kranaateilla kranaatista
+68	5868	amatööri	amatööri amatöörit amatöörien amatöörejä amatöörinä amatöörin amatööreille
+69	5869	vaippa	vaippoja vaippa vaipat vaipan vaippaa vaipoissa vaippojen vaippaan vaipassa vaippoihin vaipoista
+70	5870	panssarivaunu	panssarivaunu panssarivaunuja panssarivaunut panssarivaunun panssarivaunua panssarivaunujen panssarivaunuista panssarivaunuilla
+71	5871	maja	maja majan majaa majalla majassa majoja majalle majaan majasta majat majoissa
+72	5872	master	master masterin
+73	5873	lätkä	lätkää lätkä lätkän lätkässä lätkästä lätkiä
+74	5874	ihmisarvo	ihmisarvo ihmisarvon ihmisarvoa ihmisarvosta ihmisarvoista ihmisarvoon
+75	5875	keskinen	keskinen keskisen keskisessä keskistä keskiseen keskisellä keskiseltä
+76	5876	terapeutti	terapeutti terapeutin terapeutille terapeutit terapeuttia terapeutteja terapeutilla terapeuttina
+77	5877	korealainen	korealainen korealaiset korealaisen korealaisia korealaista korealaisten korealaisessa korealaisista korealaiseen
+78	5878	sie	sie siun
+79	5879	sanktio	sanktioita sanktiot sanktio sanktioiden sanktioista sanktion sanktiota sanktioilla
+80	5880	jälkiruoka	jälkiruoka jälkiruoaksi jälkiruoan jälkiruokaa jälkiruokana jälkiruokia jälkiruuaksi jälkiruuan jälkiruoat jälkiruokien jälkiruokiin jälkiruokaan
+81	5881	metodi	metodi metodia metodit metodeja metodin metodilla metodien metodeista metodista metodeilla metodiin metodina metodinsa
+82	5882	lääni	läänin lääni lääniä läänissä läänit lääniin läänien läänistä
+83	5883	jousi	jousi jouset jousen jousta jousella jousien jousia jousilla
+84	5884	tiivistyä	tiivistyy tiivistyi tiivistyä tiivistynyt tiivistyminen tiivistyvät tiivistymistä tiivistymisen tiivistyvä
+85	5885	lahjakortti	lahjakortin lahjakortti lahjakortteja lahjakorttia lahjakortit lahjakortilla
+86	5886	diplomi	diplomi diplomin
+87	5887	tölkki	tölkki tölkin tölkkiä tölkkejä tölkit tlk tölkistä tölkkien tölkissä tölkeissä tölkkiin tölkeistä
+88	5888	kokaiini	kokaiinia kokaiinin kokaiini kokaiinista
+89	5889	pylly	pylly pyllyyn pyllyjä pyllystä pyllyssä pyllyä pyllyn pyllyni pyllylle pyllyt
+90	5890	nova	nova novan noviisi novalla novassa novaa
+91	5891	pikkukaupunki	pikkukaupungin pikkukaupungissa pikkukaupunki pikkukaupunkiin pikkukaupungista pikkukaupunkeja pikkukaupunkien pikkukaupungeissa pikkukaupungit pikkukaupunkia
+92	5892	työnhaku	työnhaku työnhaussa työnhaun työnhakuun työnhakua työnhausta
+93	5893	rakastaja	rakastaja rakastajan rakastajansa rakastajia rakastajaa rakastajat rakastajana rakastajalle
+94	5894	kantaja	kantaja kantajan kantajat kantajia kantajansa kantajien kantajaa kantajalle kantajaksi kantajana kantajalla
+95	5895	nuotio	nuotio nuotion nuotiolla nuotiota nuotioon nuotiossa nuotiosta
+96	5896	kiehtoa	kiehtoo kiehtoi kiehtonut kiehtoivat kiehtoa kiehtovat
+97	5897	vegaani	vegaani vegaanista vegaanit vegaaniksi vegaaneille vegaanin vegaaneja vegaanien vegaanille
+98	5898	kuja	kujalla kuja kujilla kujan kujia kujille kujalle kujaa kujilta kujat kujien kujalta
+99	5899	missata	missasin missata missannut missaa missasit missasi missaan missaat
+100	5900	jarru	jarru jarruja jarrua jarrujen jarrun jarruna jarruissa jarruista jarruilla jarrulla jarruihin

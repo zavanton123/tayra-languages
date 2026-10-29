@@ -1,0 +1,100 @@
+1	9701	kaksivuotinen	kaksivuotisen kaksivuotinen kaksivuotisella
+2	9702	harjata	harjata harjaa harjataan harjaamalla harjaamaan harjaaminen harjannut harjasin harjaan harjasi
+3	9703	muikku	muikku muikut muikkuja muikun muikkua
+4	9704	miesystävä	miesystävä miesystävänsä miesystävän miesystävää miesystäväni
+5	9705	sähkölaite	sähkölaitteiden sähkölaitteet sähkölaitteita sähkölaite sähkölaitteen sähkölaitteista
+6	9706	rölli	rölli röllin
+7	9707	patukka	patukka patukan patukkaa patukoita patukat
+8	9708	varmistus	varmistus varmistusta varmistuksen varmistukseksi
+9	9709	koordinaattori	koordinaattori koordinaattorina koordinaattorin
+10	9710	akti	aktia akti aktin aktiin
+11	9711	riskeerata	riskeerata riskeeraa riskeeraamaan riskeeraavat
+12	9712	viikoittainen	viikoittainen viikottainen viikoittaista viikoittaisen viikoittaiset viikoittaisia
+13	9713	yhtiökokous	yhtiökokouksessa yhtiökokous yhtiökokouksen yhtiökokoukseen
+14	9714	puukotus	puukotus puukotuksen puukotuksesta puukotusta
+15	9715	huolenaihe	huolenaihe huolenaiheita huolenaiheena huolenaiheet
+16	9716	koreografia	koreografia koreografian koreografiaa koreografioita koreografiat koreografiasta
+17	9717	koukuttaa	koukuttaa koukuttava koukuttavat koukkua
+18	9718	perimä	perimää perimään perimän perimänsä perimät perimästä perimä perimistä perimässä perimällä perimättä
+19	9719	tikari	tikari tikarin tikaria tikarilla tikarit tikareita
+20	9720	lypsää	lypsää lypsetään lypsäminen lypsä lypsi lypsävät lypsetty
+21	9721	täyteläinen	täyteläinen täyteläisen täyteläistä täyteläiset täyteläisiä
+22	9722	korkeakoulutettu	korkeakoulutettujen korkeakoulutetut korkeakoulutettuja korkeakoulutettu korkeakoulutetuille
+23	9723	rahapeli	rahapelit rahapelien rahapelejä rahapeli rahapeleihin
+24	9724	kekseliäs	kekseliäs kekseliäitä kekseliästä kekseliään kekseliäät
+25	9725	rajamaa	rajamailla rajamaille rajamaa
+26	9726	merivesi	meriveden merivesi merivettä merivedestä merivedessä
+27	9727	kommentaattori	kommentaattori kommentaattorina kommentaattorit kommentaattorin
+28	9728	heijastin	heijastinta heijastimia heijastin heijastimen heijastimet
+29	9729	etupuoli	etupuolella etupuolelle etupuolelta etupuolen etupuoli
+30	9730	finni	finnin finnejä finni finnit finniä finnien
+31	9731	oppimäärä	oppimäärä oppimäärän oppimäärään oppimäärää
+32	9732	harmitella	harmittelee harmitteli harmitellut harmitella
+33	9733	vuosimalli	vuosimallia vuosimallin vuosimalli vuosimallista
+34	9734	autokauppa	autokauppa autokaupan autokaupassa autokauppaa autokauppaan autokaupat autokaupasta
+35	9735	kikkailu	kikkailua kikkailu kikkailuja kikkailun kikkailut kikkailuun
+36	9736	malliesimerkki	malliesimerkki malliesimerkkinä
+37	9737	seksismi	seksismiä seksismi seksismin seksismistä
+38	9738	överi	överiksi överi
+39	9739	syöstä	syöstä syöksi syöksee syöstiin syöksevät syössyt syösty
+40	9740	nettiyhteys	nettiyhteys nettiyhteyden nettiyhteyttä nettiyhteydet
+41	9741	tuntuma	tuntumaa tuntumasta tuntuman tuntumalla tuntuma
+42	9742	turkis	turkiksia turkisten turkis turkikset turkiksista turkista
+43	9743	terveysministeri	terveysministeri terveysministerinä terveysministerin terveysministeriksi
+44	9744	entsyymi	entsyymit entsyymin entsyymejä entsyymi entsyymien entsyymiä
+45	9745	hirmu	hirmu hirmuista
+46	9746	intuitio	intuitio intuition intuitioon intuitiota intuitiolla intuitioni
+47	9747	ääriliike	ääriliikkeet ääriliikkeiden ääriliikkeitä ääriliike ääriliikkeen ääriliikkeistä ääriliikkeisiin
+48	9748	matkatavara	matkatavarat matkatavaroiden matkatavaroita matkatavaroista matkatavaraa matkatavaran
+49	9749	moite	moitteita moitteetta moitteet moitteen moite moitetta
+50	9750	karaoke	karaoke karaokea karaokessa karaoken
+51	9751	mekka	mekka mekkaan mekassa mekan mekasta mekkoja mekoissa mekkoihin mekkojen mekoista
+52	9752	kaksiosainen	kaksiosainen kaksiosaisen kaksiosaisessa kaksiosaiset kaksiosaisia
+53	9753	kuuluttaa	kuulutti kuuluttaa kuulutettiin kuulutetaan kuulutettu kuuluttava
+54	9754	tofu	tofu tofua tofun tofusta
+55	9755	riittävyys	riittävyys riittävyydestä riittävyyden riittävyyttä
+56	9756	hätätila	hätätila hätätilan hätätilassa
+57	9757	jumppa	jumppa jumppaa jumppaan jumpassa jumpan
+58	9758	käytettävyys	käytettävyys käytettävyyttä käytettävyyden käytettävyyteen käytettävyydessä käytettävyydestä
+59	9759	keuhkokuume	keuhkokuume keuhkokuumeen keuhkokuumeeseen keuhkokuumetta
+60	9760	kapitalisti	kapitalisti kapitalistien kapitalistit kapitalistin kapitalistista
+61	9761	tubettaja	tubettaja tubettajat tubettajia tubettajien
+62	9762	kombo	kombo kombolla kombon
+63	9763	seota	sekosi sekoaa seonnut seota sekosivat sekosin sekoamassa sekoamaan
+64	9764	silkki	silkkiä silkki silkin silkistä
+65	9765	ylivertainen	ylivertainen ylivertaisen ylivertaisia ylivertaista ylivertaiset
+66	9766	toiminimi	toiminimi toiminimen tmi toiminimellä toiminimeä
+67	9767	kylkiluu	kylkiluut kylkiluu kylkiluuta kylkiluiden kylkiluun kylkiluita kylkiluusta
+68	9768	aggressio	aggression aggressio aggressiota aggressioita aggressiot aggressioon
+69	9769	ontua	ontuu ontui
+70	9770	mina	mina minan
+71	9771	donitsi	donitseja donitsit donitsin donitsi donitseista donitsien
+72	9772	perävaunu	perävaunun perävaunu perävaunua perävaunussa perävaunuja perävaunuun perävaunujen
+73	9773	leka	leka lekan lekalla lekaa
+74	9774	lainvastainen	lainvastaista lainvastainen lainvastaisia lainvastaisesta lainvastaiseksi
+75	9775	seinämä	seinämän seinämät seinämiin seinämä seinämiä seinämää seinämien seinämään
+76	9776	viivästys	viivästys viivästyksiä viivästyksen viivästystä viivästyksistä viivästysten viivästykset viivästyksestä
+77	9777	keskuspuisto	keskuspuiston keskuspuisto keskuspuistossa keskuspuistoon keskuspuistosta keskuspuistoa
+78	9778	alkupuolisko	alkupuoliskolla alkupuoliskon alkupuolisko
+79	9779	alueellisesti	alueellisesti
+80	9780	ammattimaisesti	ammattimaisesti
+81	9781	ehei	ehei
+82	9782	elävältä	elävältä
+83	9783	kasvokkain	kasvokkain
+84	9784	keinotekoisesti	keinotekoisesti
+85	9785	nelisen	nelisen
+86	9786	objektiivisesti	objektiivisesti
+87	9787	oitis	oitis
+88	9788	yhdenvertainen	yhdenvertaisia yhdenvertainen yhdenvertaisen yhdenvertaista yhdenvertaiset
+89	9789	mantra	mantraa mantra mantran mantroja
+90	9790	läheisesti	läheisesti läheisemmin
+91	9791	objekti	objekti objektin objekteja objektien objektit objektia objektina
+92	9792	mielivaltainen	mielivaltaisen mielivaltainen mielivaltaista mielivaltaisia mielivaltaiset mielivaltaisesta mielivaltaisten
+93	9793	kuuluvista	kuuluvista kuuluvissa
+94	9794	western	western westernin
+95	9795	kisu	kisu kisun kisut
+96	9796	särmä	särmää särmä särmän särmät särmiä
+97	9797	kuusivuotias	kuusivuotias kuusivuotiaana kuusivuotiaan kuusivuotiaasta
+98	9798	irrallaan	irrallaan irralleen
+99	9799	laiminlyödä	laiminlyönyt laiminlyö laiminlyödä laiminlöi laiminlyövät laiminlyödään
+100	9800	heikentyminen	heikentyminen heikentymistä heikentymisen heikentymiseen heikentymisestä

@@ -1,0 +1,100 @@
+1	6301	autovero	autovero autoveron autoveroa autoverosta
+2	6302	vihjata	vihjaa vihjata vihjasi vihjannut vihjataan vihjaat vihjaisi vihjaavat vihjattu vihjattiin
+3	6303	kuntavaalit	kuntavaaleissa kuntavaalien kuntavaalit kuntavaaleihin kuntavaaleja kuntavaaleista
+4	6304	harhaan	harhaan
+5	6305	helvetisti	helvetisti
+6	6306	id	id
+7	6307	karkeasti	karkeasti
+8	6308	toim.	toim
+9	6309	treenit	treenit
+10	6310	tyylikkäästi	tyylikkäästi
+11	6311	teloitus	teloitus teloituksen teloitukset teloituksia teloitusta teloituksista teloituksesta teloitukseen teloitusten teloituksiin teloituksessa
+12	6312	kummuta	kumpuaa kumpuavat kumpuava kumpusi kummuta kumpua
+13	6313	kourallinen	kourallinen kourallisen kourallista
+14	6314	elintapa	elintavat elintavoista elintapojen elintapoja elintapoihin elintavoilla
+15	6315	työyhteisö	työyhteisön työyhteisössä työyhteisö työyhteisöjen työyhteisöissä työyhteisöä työyhteisöön työyhteisöjä työyhteisöt
+16	6316	mode	mode moden modena modeja modessa modet
+17	6317	ehdokkuus	ehdokkuutta ehdokkuuden ehdokkuus ehdokkuudesta ehdokkuuksia ehdokkuutensa ehdokkuudet
+18	6318	keskeytys	keskeytys keskeytyksiä keskeytyksettä keskeytyksen keskeytystä keskeytykseen keskeytyksestä keskeytykset keskeytysten keskeytyksistä keskeytyksissä
+19	6319	perusoikeus	perusoikeuksien perusoikeudet perusoikeus perusoikeuksia perusoikeuksiin perusoikeuksista perusoikeutena
+20	6320	johtoryhmä	johtoryhmän johtoryhmä johtoryhmään johtoryhmässä johtoryhmien
+21	6321	muovinen	muovinen muoviset muovisia muovista muovisen muoviseen
+22	6322	erikoisjoukko	erikoisjoukot erikoisjoukkojen erikoisjoukkoja erikoisjoukkoihin erikoisjoukoista erikoisjoukko erikoisjoukoissa erikoisjoukon
+23	6323	kultti	kultti kultin kulttiin kulttia kultit kultista kulttien kultissa
+24	6324	altistua	altistunut altistuu altistuneet altistua altistuvat altistui altistuivat altistu altistumista
+25	6325	hurmaava	hurmaava hurmaavan hurmaavat hurmaavia hurmaavaa
+26	6326	perättäinen	perättäinen perättäisen perättäistä perättäisenä perättäiseen perättäisiä perättäisessä perättäisellä perättäisinä perättäisten
+27	6327	ultrakevyt	ultra ultrassa ultran ultrakevyt
+28	6328	alumiini	alumiinia alumiini alumiinin alumiinista
+29	6329	hurrata	hurraa hurrata hurraamista hurraavat hurrasivat hurrataan hurrasi hurraamaan hurratessa
+30	6330	prosenttiyksikkö	prosenttiyksikköä prosenttiyksikön prosenttiyksiköllä
+31	6331	prototyyppi	prototyyppi prototyypin prototyyppejä prototyyppiä prototyypit prototyyppien prototyypistä prototyyppinä prototyypissä
+32	6332	sosiaalidemokraatti	sosiaalidemokraattien sosiaalidemokraatit sosiaalidemokraatti sosiaalidemokraatteja sosialidemokraatti sosiaalidemokraateista
+33	6333	terveydenhoito	terveydenhoidon terveydenhoito terveydenhoitoa terveydenhoitoon terveydenhoidosta terveydenhoidossa
+34	6334	vastoinkäyminen	vastoinkäymisiä vastoinkäymiset vastoinkäymisten vastoinkäymisistä vastoinkäyminen vastoinkäymisissä vastoinkäymisiin vastoinkäymisen
+35	6335	jatkosopimus	jatkosopimuksen jatkosopimusta jatkosopimus jatkosopimukset
+36	6336	elastinen	elastinen elastisen elastista
+37	6337	kola	cola kola kolin kolaa kolan kolina kolilla kolille
+38	6338	kuntalainen	kuntalaisten kuntalaiset kuntalaisia kuntalaisille kuntalainen kuntalaisilta
+39	6339	kimppu	kimppuun kimppu kimpun kimppua kimpusta
+40	6340	rynnätä	ryntäsi ryntää rynnätä ryntäsivät ryntäävät ryntäsin ryntäämään rynnännyt ryntäät
+41	6341	rituaali	rituaali rituaaleja rituaalit rituaalin rituaalien rituaalia rituaalista rituaaleihin rituaaleista rituaaleissa rituaaliin rituaalissa
+42	6342	operatiivinen	operatiivinen operatiivisen operatiivista operatiiviseen operatiivisesta operatiivisessa operatiiviset operatiivisia operatiivisena operatiivisella operatiivisten
+43	6343	violetti	violetti violetin violettia violetit violetteja violettiin violetiksi violetilla violetista
+44	6344	painia	painia painii painimaan painivat paininut painin painitaan painiminen painiva painittiin painit
+45	6345	kaventaa	kaventaa kavensi kaventamaan kaventaminen kavennetaan kavennettu kaventavat kaventamista kaventamalla kaventanut
+46	6346	lehdistötilaisuus	lehdistötilaisuudessa lehdistötilaisuus lehdistötilaisuuden lehdistötilaisuuteen lehdistötilaisuutta lehdistötilaisuudesta
+47	6347	sijainen	sijainen sijaisena sijaisen sijaisia sijaiseksi sijaista sijaisten sijaiset
+48	6348	mittasuhde	mittasuhteet mittasuhteisiin mittasuhteita mittasuhteiden mittasuhteista mittasuhteissa
+49	6349	horisontti	horisontissa horisontin horisontti horisonttiin horisonttia horisontista
+50	6350	mauton	mauton mautonta mauttomia mauttoman mauttomat mauttomaksi
+51	6351	ratsastaja	ratsastaja ratsastajat ratsastajan ratsastajaa ratsastajia ratsastajien ratsastajalle ratsastajille ratsastajana
+52	6352	pisara	pisara pisaroita pisaran pisarat pisaraa pisaroiden pisaraan
+53	6353	synteettinen	synteettinen synteettistä synteettisiä synteettisen synteettiset synteettisten synteettisistä synteettisestä synteettisiin
+54	6354	hoikka	hoikka hoikkia hoikempi hoikan hoikkana hoikat hoikkaa
+55	6355	ylimielinen	ylimielinen ylimielistä ylimielisiä ylimielisen ylimieliseltä ylimieliseksi ylimielisenä ylimieliset
+56	6356	toukka	toukka toukkia toukat toukkien toukan toukista toukkaa
+57	6357	viisumi	viisumi viisumia viisumin viisumit viisumeita viisumien viisumilla viisumeja
+58	6358	kuivata	kuivata kuivattua kuivattu kuivataan kuivaaminen kuivaamalla kuivaamaan kuivaamiseen kuivattiin kuivasin kuivaamisen kuivannut kuivaan
+59	6359	auktoriteetti	auktoriteetti auktoriteetin auktoriteettia auktoriteetteja auktoriteettien auktoriteetit auktoriteettina auktoriteettiin auktoriteetteihin
+60	6360	neljäsosa	neljäsosa neljäsosaa neljäsosan neljäsosalla neljäsosaan
+61	6361	varapresidentti	varapresidentti varapresidentin varapresidentiksi varapresidenttinä
+62	6362	trilogia	trilogian trilogia trilogiasta trilogiaa trilogiassa trilogiaan
+63	6363	river	river riverin riverillä
+64	6364	sosialistinen	sosialistinen sosialistisen sosialististen sosialistista sosialistisessa sosialistisia sosialistiseen sosialistiset sosialistiseksi sosialistisesta sosialistisissa
+65	6365	panu	panu panun
+66	6366	vilkkua	vilkkua vilkkuu vilkkuvat vilkkumaan vilkkuva vilkut vilkun vilkkui vilkkuen vilku
+67	6367	oleskelulupa	oleskeluluvan oleskelulupa oleskelulupaa oleskeluluvat oleskelulupia
+68	6368	opastus	opastuksella opastusta opastus opastuksen opastuksessa opastuksia
+69	6369	kesäaika	kesäaikaan kesäaika kesäajan kesäaikana kesäaikaa kesäajasta
+70	6370	kulkeutua	kulkeutuu kulkeutua kulkeutui kulkeutuvat kulkeutunut kulkeutumista kulkeutuminen kulkeudu kulkeutumaan kulkeutuivat
+71	6371	bridge	bridget bridge bridgen bridgelle bridgellä bridgeä
+72	6372	huoltaa	huoltaa huolletaan huoltamaan huollettu huoltaminen huollettavaksi huolla huoltavat huollettavana huollettiin huollettava
+73	6373	espoolainen	espoolainen espoolaiset espoolaisten espoolaisen espoolaisia espoolaista
+74	6374	äärioikeistolainen	äärioikeistolainen äärioikeistolaisen äärioikeistolaiset äärioikeistolaisten äärioikeistolaisia äärioikeistolaista äärioikeistolaiseen äärioikeistolaiseksi
+75	6375	taittaa	taittaa taita taitettu taitella taittoi taittamaan taitetaan taittanut taitettava taittavat taittaminen taitettiin
+76	6376	mielihyvä	mielihyvää mielihyvän mielihyvä mielihyvin
+77	6377	hillo	hilloa hillo hillon hillot hillolla hilloja
+78	6378	tiedotus	tiedotus tiedotusta tiedotuksen tiedotuksesta tiedotukseen tiedotuksia tiedotuksessa
+79	6379	rahallinen	rahallista rahallinen rahallisen rahallisia rahalliset rahallisesta rahallisella
+80	6380	sortti	sortin sorttia sortti
+81	6381	työläs	työlästä työläs työläitä työläältä työlääksi työläistä
+82	6382	lassi	lassi lassin
+83	6383	liikevoitto	liikevoitto liikevoiton liikevoittoa liikevoitosta liikevoittoon
+84	6384	solisti	solisti solistina solisteina solistin solistit solistiksi solistien solistille
+85	6385	etupäässä	etupäässä
+86	6386	ho	ho
+87	6387	lähipäivinä	lähipäivinä
+88	6388	mrd.	mrd
+89	6389	nam	nam
+90	6390	ynnä	ynnä
+91	6391	hitunen	hitusen hitunen
+92	6392	kolahtaa	kolahtaa kolahti kolahtanut kolahda kolahtavat
+93	6393	syypää	syypää syypäänä syypäitä syypääksi
+94	6394	hieronta	hieronta hierontaa hieronnan hieronnassa hieronnasta hierontaan hieronnalla hierontoja
+95	6395	kimppa	kimpassa kimppa kimppaan kimppaa
+96	6396	vuokrasopimus	vuokrasopimuksen vuokrasopimus vuokrasopimusta vuokrasopimukset vuokrasopimuksessa vuokrasopimuksella vuokrasopimuksia vuokrasopimukseen vuokrasopimusten
+97	6397	googlata	googlaa googlasin googlata googlaamalla
+98	6398	inhottava	inhottavaa inhottava inhottavia inhottavan inhottavalta inhottavat
+99	6399	hitsi	hitsi hitsin
+100	6400	ajattelija	ajattelija ajattelijoita ajattelijat ajattelijain ajattelijoiden ajattelijana ajattelijoihin ajattelijoista ajattelijan

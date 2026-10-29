@@ -1,0 +1,100 @@
+1	9001	uskottaa	uskota uskottavat
+2	9002	alueittain	alueittain
+3	9003	kertaheitolla	kertaheitolla
+4	9004	lisätiedot	lisätiedot
+5	9005	muodollisesti	muodollisesti
+6	9006	osuvasti	osuvasti
+7	9007	roimasti	roimasti
+8	9008	sisäänpäin	sisäänpäin
+9	9009	vapaaehtoisuus	vapaaehtoisuus vapaaehtoisuuteen vapaaehtoisuuden vapaaehtoisuutta vapaaehtoisuudesta
+10	9010	lakiehdotus	lakiehdotus lakiehdotuksen lakiehdotusta lakiehdotukset lakiehdotuksessa lakiehdotuksia lakiehdotuksesta
+11	9011	sähkömoottori	sähkömoottori sähkömoottorin sähkömoottorilla sähkömoottorit sähkömoottoria sähkömoottoreita
+12	9012	selostaa	selostaa selosti selostanut selostamaan selostettu selostetaan
+13	9013	sissi	sissi sissit sissejä sissien sissin
+14	9014	polvilleen	polvilleen polvillaan polvilleni
+15	9015	liiketila	liiketiloja liiketilaa liiketilojen liiketilan liiketilat liiketila liiketiloihin liiketiloissa liiketilassa
+16	9016	itämainen	itämainen itämaisia itämaisen itämaista itämaiset itämaisten itämaisista itämaiseen itämaisesta
+17	9017	ulkomaankauppa	ulkomaankauppa ulkomaankaupan ulkomaankaupasta ulkomaankauppaa
+18	9018	ansiotulo	ansiotulojen ansiotuloja ansiotulot ansiotuloa ansiotulo ansiotuloista ansiotulon ansiotulona
+19	9019	hobitti	hobitti hobitit hobitin hobittien
+20	9020	duuma	duuman duuma duumassa duumaan
+21	9021	itsenäistyä	itsenäistyi itsenäistyä itsenäistynyt itsenäistymään itsenäistyy itsenäistyvät itsenäistyivät
+22	9022	ohjailla	ohjailla ohjailee ohjailemaan ohjaillaan ohjaili ohjailevat
+23	9023	metsätalousministeriö	metsätalousministeriön metsätalousministeriö
+24	9024	saavi	saavien saavia saavista saaville saavilla saaviin
+25	9025	kirjoitusvirhe	kirjoitusvirhe kirjoitusvirheitä kirjoitusvirheet kirjoitusvirheen
+26	9026	vaivaton	vaivatonta vaivaton vaivattoman
+27	9027	henkilökortti	henkilökortti henkilökortin henkilökorttia henkilökortilla henkilökortit henkilökortteja
+28	9028	ennätyksellinen	ennätykselliset ennätyksellisen ennätyksellinen
+29	9029	sotavanki	sotavankien sotavankeja sotavankia sotavangit sotavanki sotavangeista sotavankina sotavangiksi
+30	9030	linkata	linkkaa linkkasin linkata linkkasi linkattu
+31	9031	tallettaa	tallettaa talleta talletettu talletetaan talletti talletettiin
+32	9032	pakastaa	pakastaa pakasta pakastaminen pakastettu pakastetaan pakastamista
+33	9033	parketti	parketti parketilla parketille parketin parkettia parkettien
+34	9034	valjeta	valkeni valkenee valjeta valjennut valjetessa
+35	9035	lepistö	lepistö lepistön
+36	9036	harvinaisuus	harvinaisuus harvinaisuuksia harvinaisuuden
+37	9037	liksa	liksaa liksa liksan
+38	9038	tulonsiirto	tulonsiirtojen tulonsiirroilla tulonsiirrot tulonsiirtoja tulonsiirto
+39	9039	yritysjohtaja	yritysjohtajat yritysjohtaja yritysjohtajien yritysjohtajia yritysjohtajan
+40	9040	arkielämä	arkielämän arkielämässä arkielämää arkielämään arkielämästä
+41	9041	myyrä	myyrä myyrät myyrän myyriä myyrien
+42	9042	entisellään	entisellään entiselleen
+43	9043	kämmen	kämmenet kämmen kämmenen kämmenellä kämmentä kämmenessä kämmeneen kämmeniin kämmenelle
+44	9044	kulmakivi	kulmakivi kulmakiviä kulmakivistä kulmakivet kulmakivenä kulmakiven
+45	9045	ekstra	ekstraa ekstra ekstrat
+46	9046	kuumeta	kuumenee kuumenemaan kuumeni kuumenevat kuumene kuumenivat kuumeta kuumeneminen
+47	9047	harakka	harakka harakan harakoille harakat
+48	9048	aseistautunut	aseistautuneet aseistautunut aseistautuneita aseistautunutta aseistautuneen
+49	9049	esittäytyä	esittäytyy esittäytyvät esittäytyi esittäytymään esittäytynyt esittäytyä esittäytymässä
+50	9050	verovapaa	verovapaita verovapaata verovapaa verovapaan verovapaat verovapaana
+51	9051	naarmu	naarmuja naarmut naarmu naarmua naarmun naarmuitta naarmuilla
+52	9052	jano	jano janoon janon janoa
+53	9053	pyssy	pyssy pyssyt pyssyn pyssyjä pyssyä pyssyyn pyssyllä
+54	9054	akustinen	akustinen akustisen akustista akustisia akustiset akustisella akustisten
+55	9055	tähdittää	tähdittää tähdittämä tähdittämän tähditti tähdittävät tähdittämässä
+56	9056	viisivuotias	viisivuotias viisivuotiaana viisivuotiaan viisivuotiaasta viisivuotiaalle
+57	9057	konsensus	konsensus konsensuksen konsensusta konsensukseen
+58	9058	ponnistus	ponnistus ponnistuksia ponnistuksen ponnistusta ponnistukset ponnistuksin ponnistusten
+59	9059	vastaisku	vastaisku vastaiskuun vastaiskun vastaiskua vastaiskuna
+60	9060	kolkka	kolkassa kolkka kolkasta kolkkaan kolkan kolkissa kolkkaa kolkista kolkkiin
+61	9061	farssi	farssi farssin farssia farssiksi
+62	9062	spekulointi	spekulointia spekulointi spekuloinnin
+63	9063	tiainen	tiainen tiaisen
+64	9064	mobiilisovellus	mobiilisovellus mobiilisovelluksen mobiilisovellukset mobiilisovelluksella mobiilisovellusten mobiilisovellusta mobiilisovelluksessa mobiilisovelluksia
+65	9065	kooste	kooste koosteen koostetta
+66	9066	eroavaisuus	eroavaisuuksia eroavaisuudet eroavaisuus eroavaisuuksista eroavaisuutta eroavaisuuksien
+67	9067	luonnonsuojelualue	luonnonsuojelualuetta luonnonsuojelualue luonnonsuojelualueella luonnonsuojelualueen luonnonsuojelualueita luonnonsuojelualueiden luonnonsuojelualueet luonnonsuojelualueeksi luonnonsuojelualueelle
+68	9068	arveluttaa	arveluttaa arveluttavaa arveluttava arveluttavia arvelutti arveluttavana arveluttavan
+69	9069	lari	lari larissa larin
+70	9070	sisäilmaongelma	sisäilmaongelmien sisäilmaongelmat sisäilmaongelmia sisäilmaongelmiin sisäilmaongelmista
+71	9071	basilika	basilika basilikaa basilikan basilikasta
+72	9072	kasautua	kasaantuu kasautuu kasaantua kasautuvat kasautunut kasautua kasautuminen kasautumista
+73	9073	puhti	puhtia puhti puhdista
+74	9074	huoltosuhde	huoltosuhde huoltosuhdetta huoltosuhteen
+75	9075	pisto	piston pisto pistoja pistoa pistosta pistot
+76	9076	ruukku	ruukku ruukun ruukkuja ruukussa ruukkua ruukkuun ruukut ruukuissa ruukkujen
+77	9077	pyry	pyry pyryn pyryä
+78	9078	generaattori	generaattori generaattorin generaattorit generaattoria generaattoreita generaattorien
+79	9079	mutu	mutu mutua mutun
+80	9080	kainuulainen	kainulainen kainuulainen kainuulaiset kainuulaisten
+81	9081	osanottaja	osanottajat osanottajia osanottajaa osanottajien osanottaja osanottajista osanottajan
+82	9082	kirjekuori	kirjekuoressa kirjekuori kirjekuoren kirjekuoreen kirjekuoria kirjekuoret kirjekuorta
+83	9083	vahingoittua	vahingoittumattomana vahingoittui vahingoittuu vahingoittua vahingoittumattomina vahingoitu vahingoittumaton vahingoittuvat
+84	9084	niitty	niitty niityllä niityt niityn niittyjen niittyä niityillä niitylle niittyjä niityille
+85	9085	sukupuolielin	sukupuolielinten sukupuolielimet sukupuolielimiä sukupuolielimiin sukupuolielimen sukupuolielimissä
+86	9086	uskonnonvapaus	uskonnonvapaus uskonnonvapauden uskonnonvapautta uskonnonvapauteen
+87	9087	olotila	olotila olotilaa olotilan olotilaan olotilasta olotilassa
+88	9088	piilevä	piilevä piilevän piileviä piilevät piilevää piilevänä
+89	9089	lukukausimaksu	lukukausimaksut lukukausimaksuja lukukausimaksujen lukukausimaksu lukukausimaksuista lukukausimaksuihin lukukausimaksun lukukausimaksua
+90	9090	valtionyhtiö	valtionyhtiö valtionyhtiöt valtionyhtiöiden valtionyhtiön valtionyhtiöitä
+91	9091	kiteytyä	kiteytyy kiteytyi kiteytyvät kiteytyä
+92	9092	asiakaskunta	asiakaskunta asiakaskuntaa asiakaskunnan asiakaskuntaan
+93	9093	toto	toto toton
+94	9094	raapia	raapia raapii raapi raapimaan raapivat raavi raapinut raapiminen raapimista
+95	9095	vaisto	vaistot vaisto vaiston vaistojen vaistoa vaistoja vaistonsa vaistoihin
+96	9096	kirota	kirosi kiroaa kirota kirosin kiroan kironnut kiroavat kiroamaan kirotaan
+97	9097	pyhittää	pyhitetty pyhittää pyhitti
+98	9098	luonnonsuojelu	luonnonsuojelu luonnonsuojelun luonnonsuojelua luonnonsuojeluun luonnonsuojelusta
+99	9099	kuumottaa	kuumottaa kuumottava kuumotti
+100	9100	ravintoaine	ravintoaineita ravintoaineet ravintoaineiden
