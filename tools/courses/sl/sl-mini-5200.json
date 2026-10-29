@@ -1,0 +1,189 @@
+{
+  "id": "sl-mini-5200",
+  "rankUpTo": 5200,
+  "level": "C1",
+  "title": "Znanost v kuhinji",
+  "description": "Columns, interviews, portraits, reviews, a forum thread, a lecture report and a diary about the chemistry and biology behind everyday cooking and food.",
+  "topic": "The science of cooking",
+  "names": [
+    "Emerik",
+    "Podgoršek",
+    "Kamnik",
+    "Ofelija",
+    "Kramberger",
+    "Ljubljana",
+    "Lucian",
+    "Okorn",
+    "Celje",
+    "Armida",
+    "Nemanič",
+    "Maribor",
+    "Natalina",
+    "Ocvirk",
+    "Otokar",
+    "Žibert",
+    "Ptuj",
+    "Prosen",
+    "Staš",
+    "Pegica",
+    "Vendelin",
+    "Repnik",
+    "Afrika",
+    "Amerika",
+    "Slovenija",
+    "Evropa",
+    "Ciciljana",
+    "Grilc",
+    "Kranj",
+    "Vilijem",
+    "Jelovšek",
+    "Otka",
+    "Vehar",
+    "Pohorje"
+  ],
+  "lessons": [
+    {
+      "title": "Kolumna: Kruh, ki se noče dvigniti",
+      "summary": "In his column, retired chemistry teacher Emerik Podgoršek explains how yeast is activated, how gas molecules make dough rise, why he covers it with a towel and how his brick oven bakes.",
+      "newWords": [
+        "dvig",
+        "aktivirati",
+        "molekula",
+        "brisača",
+        "dinamika",
+        "poriniti",
+        "opeka",
+        "slasten"
+      ],
+      "text": "Emerik Podgoršek je upokojeni učitelj kemije iz Kamnika. Že dvajset let sam peče kruh in vsak mesec napiše kolumno za lokalni časopis. Tokrat piše o tem, zakaj kruh raste.\n\nBralci mi pogosto pišejo, da se njihovo testo noče dvigniti. Odgovor je skoraj vedno enak: kvas ni dobil tega, kar potrebuje. Kvas je živ. To so drobne celice, ki jedo sladkor in pri tem naredijo plin. V suhi vrečki spijo, zato jih moramo najprej aktivirati. Najlažje jih je aktivirati v topli vodi z malo sladkorja. Po desetih minutah se na vodi naredi pena in takrat vemo, da so celice pripravljene na delo. Če je voda zelo vroča, celic ne moremo več aktivirati, saj jih vročina uniči.\n\nZa dvig testa pa niso pomembne samo celice. V moki so beljakovine, ki se v vodi povežejo v dolgo in močno mrežo. Ko celice delajo plin, se molekule plina ujamejo v to mrežo in testo raste kot balon. Če s testom ne delamo dovolj dolgo, je mreža šibka in plin uide. Dvig je takrat majhen, kruh pa težak in gost. Kdor testo dela deset minut, bo dvig videl že po eni uri. Pri tem pomaga tudi sol: molekule soli mrežo naredijo močnejšo, zato je ne smemo izpustiti.\n\nNa testo, ki raste, vedno položim vlažno brisačo. Brisača zadrži vlago, da površina testa ostane mehka. Suha površina se ne more širiti in kruh v pečici poči na napačnem mestu. Posodo z brisačo postavim na toplo, a nikoli neposredno na peč, saj celice ne marajo vročine.\n\nNajbolj me zanima dinamika v pečici. V prvih minutah se plin v testu zaradi vročine hitro razširi, voda se spremeni v paro in kruh se še enkrat dvigne. Šele nato zunanji del postane trd. Ta dinamika je razlog, da mora biti pečica vroča že v trenutku, ko je treba vanjo poriniti kruh. Če je pečica hladna, zunanji del postane trd, preden se kruh dvigne do konca. Kdor razume dinamiko pečice, razume tudi, zakaj je njegov kruh včasih nizek.\n\nPred tremi leti sem si na vrtu postavil majhno peč iz opeke. Opeka potrebuje veliko časa, da postane vroča, a toploto dolgo hrani in jo enakomerno oddaja. Prvič sem kruh porinil v peč prezgodaj, ko opeka še ni bila dovolj vroča, in kruh je bil bled. Zdaj ogenj v peči gori dve uri in šele nato pečem. Lani je moja hči prvič sama porinila kruh v peč in bila je zelo ponosna.\n\nKruh iz take peči je res slasten. Zunaj je temen in trd, znotraj pa mehek in vlažen. Slasten kruh ne potrebuje veliko: dobro moko, malo potrpljenja in nekaj razumevanja tega, kar se dogaja v posodi in v peči.\n\nVprašanja:\nZakaj moramo kvas najprej aktivirati?\nKer celice v suhi vrečki spijo in se zbudijo šele v topli vodi s sladkorjem.\nKaj se zgodi z molekulami plina v testu?\nUjamejo se v mrežo iz beljakovin, zato testo raste kot balon.\nZakaj Emerik na testo položi vlažno brisačo?\nKer brisača zadrži vlago in površina testa ostane mehka.\nZakaj mora biti pečica vroča, ko vanjo damo kruh?\nKer se kruh v prvih minutah še enkrat dvigne, preden zunanji del postane trd.\nKakšen je kruh iz peči iz opeke?\nKruh je slasten, zunaj temen in trd, znotraj pa mehek in vlažen."
+    },
+    {
+      "title": "Portret: Slaščičarka z dobrim posluhom",
+      "summary": "A portrait of Ofelija Kramberger, a former music student who now leads the pastry kitchen of a prestigious Ljubljana restaurant and looks for harmony between tastes.",
+      "newWords": [
+        "prestižen",
+        "pult",
+        "harmonija",
+        "posluh",
+        "prefinjen",
+        "samozavesten",
+        "trideseti"
+      ],
+      "text": "Ofelija Kramberger je stara 34 let in vodi slaščičarski del kuhinje v prestižni restavraciji v središču Ljubljane. Restavracija je lani dobila prestižno nagrado, kritiki pa so posebej pohvalili njene sladice. Ofelija kljub temu nima diplome iz kuharske šole. Študirala je glasbo.\n\n»Glasba in sladice imajo veliko skupnega,« pravi, ko sediva za dolgim kovinskim pultom v kuhinji. Pult je zdaj čist in prazen, a čez dve uri bo na njem stalo sto krožnikov. »V glasbi iščeš harmonijo med toni, v sladici harmonijo med okusi. Sladko, kislo, grenko in slano morajo zveneti skupaj. Če je sladkega preveč, je tako, kot bi klavir igral preglasno in ne bi slišal violine.«\n\nKuharji o njej pravijo, da ima posluh za okuse. Sama meni, da se posluh da vaditi. Vsak dan poskusi vse sestavine, ki jih dobi: maline z bližnje kmetije, čokolado, smetano. Ker so maline vsak teden drugačne, mora tudi recept vsak teden malo spremeniti. »Brez posluha bi delala vedno enako in sladica bi bila enkrat dobra, drugič pa ne.«\n\nPri tem ji pomaga znanje. Ve, da hladna sladica deluje manj sladko kot topla, ker jezik na mrazu slabše zazna sladkor. Zato sladoled vsebuje več sladkorja, kot bi pričakovali. Ve tudi, da ščepec soli okrepi okus čokolade. Harmonija torej ni le stvar občutka, ampak tudi kemije.\n\nNjene sladice so prefinjene, a ne zapletene. Na krožniku so največ štiri sestavine. »Prefinjen okus ne pomeni, da je v sladici dvajset stvari. Pomeni, da vsaka stvar stoji na pravem mestu.« Najbolj znana je njena sladica iz jogurta, malin in kapljice olivnega olja. Gostje so najprej presenečeni, potem pa jo pohvalijo kot najbolj prefinjeno jed večera.\n\nKo je prišla v kuhinjo, ni bila samozavestna. Bila je najmlajša in edina brez kuharske šole. »Ko sem imela vprašanje, sem ga raje obdržala zase.« Samozavestna je postala šele po dveh letih, ko je za svoj trideseti rojstni dan spekla torto po receptu svoje prababice. Recept je iz tridesetih let prejšnjega stoletja. Vodja kuhinje je torto poskusil in jo takoj uvrstil na jedilnik. Še danes jo gostje naročajo pod imenom »torta iz tridesetih«.\n\nDanes je Ofelija samozavestna, a ostaja skromna. Mlade slaščičarje uči, da je dvom normalen in da se samozavest gradi počasi, krožnik za krožnikom. Ob ponedeljkih, ko je restavracija zaprta, še vedno igra klavir.\n\nVprašanja:\nKaj je Ofelija Kramberger študirala?\nŠtudirala je glasbo.\nKaj išče v sladici?\nV sladici išče harmonijo med okusi.\nZakaj sladoled vsebuje več sladkorja, kot bi pričakovali?\nKer jezik na mrazu slabše zazna sladkor.\nKaj pomeni prefinjen okus po njenem mnenju?\nPomeni, da vsaka stvar v sladici stoji na pravem mestu.\nKdaj je postala samozavestna?\nKo je za svoj trideseti rojstni dan spekla torto po receptu svoje prababice."
+    },
+    {
+      "title": "Intervju: Kako jabolka prespijo zimo",
+      "summary": "Food technologist Lucian Okorn explains how a fruit cooperative keeps apples fresh for months in cold chambers with little oxygen, why the new chamber was a big investment and how spoilage is kept away.",
+      "newWords": [
+        "komora",
+        "naložba",
+        "povzročitelj",
+        "ovojnica",
+        "pristojen",
+        "nejasen",
+        "karton",
+        "dostaviti"
+      ],
+      "text": "Lucian Okorn je strokovnjak za kakovost hrane v zadrugi blizu Celja. Zadruga hrani jabolka svojih članov od jeseni do poletja. Pogovarjali smo se o tem, kako ostanejo sveža tako dolgo.\n\nGospod Okorn, kako je mogoče, da jabolko maja diši, kot da je bilo še včeraj na drevesu?\n\nJabolko tudi potem, ko ga vzamemo z drevesa, še vedno diha. Jemlje kisik in porabi sladkor, zato se počasi stara. Mi mu dihanje upočasnimo. Jabolka gredo v komoro, kjer je temperatura nekoliko nižja kot v hladilniku. V komoro spustimo tudi poseben plin, da je kisika zelo malo. Jabolko tam skoraj spi.\n\nLani ste zgradili novo komoro. Zakaj?\n\nStara komora je bila slabo zaščitena pred toploto in je porabila preveč elektrike. Nova je bila velika naložba, skoraj milijon evrov. Člani zadruge so o naložbi dolgo razpravljali. Danes vsi pravijo, da je bila to dobra naložba, saj porabimo tretjino manj elektrike in izgubimo manj sadja.\n\nKaj je največja nevarnost za shranjeno sadje?\n\nPlesen in bakterije. Glavni povzročitelj kvarjenja pri jabolkih je plesen, ki vstopi skozi drobno razpoko v lupini. Zato z jabolki ravnamo zelo nežno. Če se pokvari en sam sad, povzročitelj hitro preide na sosednje. Vsak teden zato vzamemo vzorce iz vsake komore. Košček lupine damo v ovojnico in ga pošljemo v laboratorij. Na vsako ovojnico napišemo številko komore, da vemo, od kod je vzorec.\n\nKdo odloča, ali je sadje dovolj dobro za prodajo?\n\nZa kakovost sem pristojen jaz, za varnost hrane pa so pristojni inšpektorji, ki nas obiščejo vsako pomlad in vsako jesen. Pristojna oseba iz zadruge mora vsako serijo pregledati in podpisati.\n\nSte kdaj imeli težave, ki jih niste razumeli?\n\nPred tremi leti so jabolka ene sorte naenkrat dobila rjave lise. Vzrok je bil dolgo nejasen. Tudi rezultati iz laboratorija so bili nejasni, saj plesni niso našli. Šele po dveh mesecih smo ugotovili, da je imela komora premalo kisika. Jabolka preprosto niso mogla dihati. Od takrat ima vsaka komora dve napravi za merjenje kisika.\n\nKako jabolka pridejo do kupcev?\n\nVsak član nam je lani jeseni svoja jabolka dostavil v velikih lesenih zabojih. Ko jih trgovina naroči, jih pregledamo in damo v zaboje iz kartona. Karton je lahek in vpije vlago, zato sadje ostane suho. Lani je bilo treba jabolka prvič dostaviti tudi šolam, kjer jih otroci dobijo za malico. Na vsakem kartonu je zapisano, s katere kmetije je sadje.\n\nVprašanja:\nZakaj se jabolko počasi stara?\nKer še vedno diha, jemlje kisik in porabi sladkor.\nZakaj je bila nova komora dobra naložba?\nKer porabi tretjino manj elektrike in se izgubi manj sadja.\nKaj je glavni povzročitelj kvarjenja pri jabolkih?\nGlavni povzročitelj kvarjenja je plesen, ki vstopi skozi razpoko v lupini.\nZakaj je bil vzrok rjavih lis dolgo nejasen?\nKer v laboratoriju niso našli plesni, težava pa je bila premalo kisika.\nZakaj jabolka dajo v zaboje iz kartona?\nKer je karton lahek in vpije vlago, zato sadje ostane suho."
+    },
+    {
+      "title": "Na forumu: Sok brez dodanega sladkorja",
+      "summary": "On an online cooking forum, Armida Nemanič explains why she complained to a juice maker about a 'no added sugar' label, answers a user who criticises her and reports the maker's reply.",
+      "newWords": [
+        "forum",
+        "pritožiti",
+        "odločno",
+        "sklic",
+        "kritizirati",
+        "vsebinski",
+        "omemba"
+      ],
+      "text": "Armida Nemanič je učiteljica biologije iz Maribora. Rada kuha in pogosto piše na spletni forum za ljubitelje domače kuhinje. Prejšnji teden je na forumu odprla novo temo.\n\n»Pozdravljeni. Rada bi vam povedala, zakaj sem se pritožila pri enem od proizvajalcev soka. V trgovini sem kupila jabolčni sok z velikim napisom ›Brez dodanega sladkorja‹. Doma sem prebrala deklaracijo: v litru soka je skoraj sto gramov sladkorja. Sladkor res ni dodan, ker je v sadju že sam po sebi. Napis torej ni lažen, vendar kupca zavede. Marsikdo misli, da tak sok ni sladek.\n\nZato sem se pritožila. Pritožila sem se odločno, a vljudno. V pismu sem dodala sklic na raziskavo, ki je pokazala, da kupci take napise razumejo napačno. Ob sklicu sem navedla tudi stran, kjer jo lahko preberejo. Želela sem, da proizvajalec vidi, da ne govorim samo iz občutka.«\n\nNekaj ur pozneje ji je odgovoril eden od uporabnikov: »Ne razumem, zakaj kritizirate proizvajalca. Na embalaži je vse zapisano. Kdor bere deklaracijo, ve, koliko sladkorja je v soku. Morda bi bilo bolje, da ljudi naučimo brati deklaracije.«\n\nArmida mu je odgovorila mirno: »Imate prav, da je vse zapisano. Ne kritiziram tega, kar piše na zadnji strani. Kritiziram velik napis spredaj, ki ga vidi vsak. Med zadnjo in sprednjo stranjo je vsebinska razlika. Drobna številka na hrbtni strani je podatek, velik napis spredaj pa je obljuba. Na sprednji strani ni nobene omembe sladkorja, ki je v sadju. Poleg tega sok nima vlaknin, ki jih ima celo jabolko, zato telo sladkor iz soka vsrka zelo hitro. Vsebinsko gledano je kozarec soka bližje limonadi kot jabolku.«\n\nPod njenim odgovorom so se oglasili še drugi. Nekateri so se strinjali z njo, drugi so menili, da je dovolj, če ljudje berejo deklaracije. Neka mama je zapisala, da je sok dajala otrokom, ker je mislila, da ni sladek.\n\nTeden dni pozneje je Armida objavila odgovor proizvajalca. Proizvajalec je odločno zapisal, da je napis v skladu s pravili. Hkrati pa je obljubil, da bo na sprednji strani dodal kratko besedilo. V njem bo omemba naravnega sladkorja v sadju. »Pri taki omembi gre za majhno stvar,« je zapisala Armida, »a za kupca pomembna. Pritožiti se ni vedno zaman.«\n\nVprašanja:\nZakaj se je Armida pritožila pri proizvajalcu soka?\nKer napis »Brez dodanega sladkorja« kupca zavede, čeprav je v soku veliko sladkorja.\nKaj je dodala v pismo proizvajalcu?\nDodala je sklic na raziskavo, ki je pokazala, da kupci take napise razumejo napačno.\nKaj je zapisal eden od uporabnikov?\nZapisal je, da ne razume, zakaj Armida kritizira proizvajalca, saj je na embalaži vse zapisano.\nKakšno vsebinsko razliko vidi Armida?\nDrobna številka na hrbtni strani je podatek, velik napis spredaj pa je obljuba.\nKaj je obljubil proizvajalec?\nObljubil je, da bo na sprednji strani dodal kratko besedilo, v katerem bo omemba naravnega sladkorja v sadju."
+    },
+    {
+      "title": "Jesen na planoti",
+      "summary": "On a plateau above the valley, Natalina Ocvirk harvests pumpkins and walnuts, explains why walnuts go bitter, turns grapes into juice and watches a squirrel and the snails.",
+      "newWords": [
+        "planota",
+        "obrobje",
+        "tukajšnji",
+        "buča",
+        "zajemati",
+        "oreh",
+        "veverica",
+        "grozdje",
+        "polž"
+      ],
+      "text": "Natalina Ocvirk živi v majhnem kraju na planoti nad dolino. Njena hiša stoji na obrobju kraja, kjer se končajo travniki in začne gozd. Na planoti je poleti manj vroče kot v dolini, jeseni pa je zrak čist in jutra so hladna.\n\nOktober je čas buč. Natalina ima na vrtu dvajset buč, nekatere so tako velike, da jih komaj nese. Buče rastejo na planoti dobro, ker je zemlja globoka, a polži so ji to leto pojedli veliko listov. Polži pridejo zvečer, ko je vlažno. Natalina jih zjutraj pobere in jih odnese na obrobje gozda, daleč od vrta. Polž je počasen, zato se do naslednjega dne ne vrne.\n\nBučo najprej prereže na pol. Nato začne zajemati semena z veliko žlico. Zajemati jih je treba počasi, da ostanejo cela. Semena opere, jih pusti na soncu, da so suha, in jih na kratko speče v pečici. Takrat diši po vsej hiši. Tukajšnji ljudje semena jedo kot majhen obrok med delom, iz buče pa kuhajo juho. Tukajšnja juha je gosta in oranžna, saj je v buči veliko posebne snovi, ki jo telo spremeni v vitamin A. Ta snov je tudi razlog za barvo buče.\n\nZa hišo raste star oreh. Orehi padajo od konca septembra. Natalina jih pobere vsak dan, saj jih sicer odnese veverica. Veverica pride vsako jutro, vzame oreh in ga skrije nekje v gozdu. Ker si ne zapomni vseh mest, iz nekaterih orehov zraste novo drevo. Natalina pravi, da je veverica najboljša pomočnica gozda na planoti.\n\nOrehe hrani v hladnem prostoru in jih iz lupine ne vzame prezgodaj. Jedro oreha je polno maščob, ki se na zraku in svetlobi spreminjajo. Če je jedro brez lupine predolgo na toplem, ima neprijeten okus. Lupina ga varuje, zato so orehi v lupini dobri še spomladi. Jedra, ki jih je že vzela iz lupine, Natalina hrani v steklenem kozarcu v hladilniku.\n\nOb ograji raste tudi trta. Grozdje na planoti dozori pozno, a je zelo sladko. Natalina iz grozdja naredi sok za vnuke. Grozdje stisne, sok segreje in ga da v čiste steklenice. Del grozdja pusti na soncu, da se posuši, in tako dobi suho grozdje za zimske jedi.\n\nKo je delo končano, sede na klop pred hišo. Veverica teče po veji oreha, iz kuhinje pa prihaja vonj po buči. Na obrobju kraja je jesen najlepša.\n\nVprašanja:\nKje stoji Natalinina hiša?\nHiša stoji na obrobju kraja na planoti, kjer se začne gozd.\nKaj naredi Natalina s polži?\nZjutraj jih pobere in jih odnese na obrobje gozda.\nKako zajema semena iz buče?\nZajema jih počasi z veliko žlico, da ostanejo cela.\nZakaj jedro oreha brez lupine na toplem dobi neprijeten okus?\nKer se maščobe v jedru na zraku in svetlobi spreminjajo.\nKaj naredi Natalina iz grozdja?\nNaredi sok za vnuke in suho grozdje za zimske jedi."
+    },
+    {
+      "title": "Posvojite tele",
+      "summary": "On his farm near Ptuj, Otokar Žibert lets city families adopt a calf; a new calf is born, the families help feed it, and he explains why milk from grass-fed cows makes yellower butter.",
+      "newWords": [
+        "tele",
+        "posvojiti",
+        "krmiti",
+        "ud",
+        "naklonjenost",
+        "prijaznost",
+        "vzdušje"
+      ],
+      "text": "Otokar Žibert ima kmetijo z dvajsetimi kravami blizu Ptuja. Pred petimi leti je začel nenavaden projekt: vsaka družina iz mesta lahko posvoji tele. Kdor tele posvoji, plača del stroškov za njegovo krmo, v zameno pa vsak mesec dobi sir in maslo s kmetije. Družina tele lahko obišče, kadar želi.\n\nTo pomlad se je rodilo novo tele. Otokar je bil ob kravi vso noč. Tele je imelo dolge, tanke ude in se je komaj držalo na nogah. Po pol ure je že stalo, čeprav so se mu udi še tresli. Otokar pravi, da so udi mladega teleta vedno predolgi za njegovo telo, a čez nekaj tednov telo zraste in ni več razlike.\n\nŽe naslednji teden ga je posvojila družina Prosen iz Maribora. Najbolj vesel je bil sin Staš, ki je star devet let. Tele je dobilo ime Pegica. Ko je Staš Pegico prvič obiskal, je hotel takoj pomagati. Otokar mu je pokazal, kako je treba tele krmiti. Prve tedne pije samo mleko, nato pa se počasi navadi na seno in travo. Staš je smel tele krmiti z veliko steklenico in se je ves čas smejal.\n\nKrave pri Otokarju so od maja do oktobra na paši. Poleti jih Otokar skoraj ne hrani s kupljeno hrano, ampak jim je dovolj sveža trava. To se pozna tudi v kuhinji. Trava vsebuje veliko karotena, rumenega barvila iz rastlin. Karoten preide v mlečno maščobo, zato je maslo iz poletnega mleka bolj rumeno kot zimsko. V mleku krav, ki jedo travo, je tudi več zdravih maščobnih kislin. Ko mora Otokar krave v zimskih mesecih krmiti s senom, maslo spet postane bledo.\n\nKdor posvoji tele, ne pride samo po sir. Otokar opaža, da otroci do živali razvijejo pravo naklonjenost. Ta naklonjenost se pokaže v majhnih stvareh: Staš Pegici prinese jabolko in ji pove, kaj je bilo v šoli. Tudi tele čuti naklonjenost in pride k njemu, ko zasliši njegov glas.\n\nOtokar meni, da je pri živalih najpomembnejša prijaznost. Krava, ki jo vodiš s prijaznostjo, je mirna in daje več mleka. Zato v hlevu nikoli ne kriči. Vzdušje v hlevu je tiho in toplo, iz radia se sliši glasba. Obiskovalci pogosto rečejo, da je vzdušje na kmetiji bolj mirno kot v kakšnem hotelu.\n\nOb koncu poletja je družina Prosen dobila prvi kos sira z imenom Pegica. Staš je rekel, da je to najboljši sir na svetu.\n\nVprašanja:\nKaj dobi družina, ki posvoji tele?\nVsak mesec dobi sir in maslo s kmetije in tele lahko obišče, kadar želi.\nKakšne ude je imelo novo tele?\nImelo je dolge, tanke ude in se je komaj držalo na nogah.\nS čim je Staš smel krmiti tele?\nTele je smel krmiti z veliko steklenico mleka.\nZakaj je maslo iz poletnega mleka bolj rumeno?\nKer krave jedo travo, v kateri je veliko karotena.\nZakaj je po Otokarjevem mnenju prijaznost pri živalih pomembna?\nKer je krava, ki jo vodiš s prijaznostjo, mirna in daje več mleka."
+    },
+    {
+      "title": "Poročilo s predavanja: Pot kakava",
+      "summary": "A report on a library talk in Celje in which food chemist Vendelin Repnik explains where cocoa grows, how trade routes brought it to Europe, how climate change causes shortages and how far our food travels.",
+      "newWords": [
+        "tropski",
+        "trgovinski",
+        "podneben",
+        "primanjkovati",
+        "oddaljenost",
+        "prileteti",
+        "naften"
+      ],
+      "text": "V knjižnici v Celju je bilo v torek zvečer predavanje o čokoladi. Predavatelj je bil Vendelin Repnik, strokovnjak za kemijo hrane, ki že dvajset let preučuje kakav. Dvorana je bila polna, saj je obljubil, da bodo obiskovalci na koncu lahko poskusili sedem vrst čokolade.\n\nRepnik je začel pri drevesu. Drevo, iz katerega dobimo kakav, raste le v tropskem pasu, nekaj sto kilometrov severno in južno od sredine Zemlje. Potrebuje tropsko vreme: toploto vse leto, veliko dežja in senco višjih dreves. Danes ga največ pridelujejo v zahodni Afriki, izvira pa iz tropskih gozdov na jugu Amerike.\n\nV Evropo je kakav prišel po trgovinskih poteh pred skoraj petsto leti. Repnik je na zemljevidu pokazal stare trgovinske poti čez ocean. Pijača iz kakava je bila takrat draga in so jo pili le bogati. Šele tovarne pred dvesto leti so naredile trdo čokolado, kakršno poznamo danes. Trgovinske ladje so potovale več tednov, zato so zrna obdelali in posušili že tam, kjer so drevesa rasla.\n\nNato je spregovoril o težavah. Podnebne spremembe so v zadnjih letih prinesle suše in nove bolezni dreves. Drevo je zelo občutljivo, zato že majhne podnebne razlike zmanjšajo pridelek. Lani je kakava na svetovnem trgu začelo primanjkovati in cena se je močno dvignila. Ko surovine primanjkuje, proizvajalci tablice čokolade naredijo manjše ali dodajo več sladkorja. »Če boste opazili, da je tablica tanjša, veste, zakaj,« je dejal.\n\nDrugi del predavanja je bil posvečen oddaljenosti. Hrana, ki jo jemo, pogosto potuje več tisoč kilometrov. Oddaljenost sama po sebi ni najpomembnejša, je poudaril Repnik. Pomembno je, kako hrana potuje. Kakav in banane pridejo z ladjo, ki porabi malo goriva za vsak kilogram. Jagode v zimskih mesecih pa pogosto pridejo z letalom. Na letališče blizu Ljubljane vsak teden prileti več letal s sadjem. Kilogram jagod, ki prileti z letalom, za okolje stane veliko več kot kilogram kakava, ki so ga pripeljali z ladjo, čeprav je oddaljenost podobna. Lani so v Slovenijo z letalom prileteli celo sveži cvetovi za okras na tortah.\n\nOb koncu je omenil še embalažo. Večina plastike, v katero zavijemo hrano, je narejena iz naftnih izdelkov. Naftni izdelki so poceni, a v naravi zelo dolgo ne razpadejo. Nekateri proizvajalci zato čokolado spet zavijajo v papir.\n\nNato so obiskovalci poskusili sedem čokolad. Repnik jih je prosil, naj vsak košček najprej dobro povonjajo in ga pustijo, da se počasi stopi na jeziku.\n\nVprašanja:\nKje raste drevo, iz katerega dobimo kakav?\nRaste le v tropskem pasu blizu sredine Zemlje.\nKako je kakav prišel v Evropo?\nPrišel je po trgovinskih poteh čez ocean pred skoraj petsto leti.\nZakaj je lani kakava začelo primanjkovati?\nKer so podnebne spremembe prinesle suše in nove bolezni dreves.\nZakaj oddaljenost sama po sebi ni najpomembnejša?\nKer je pomembno, kako hrana potuje, z ladjo ali z letalom.\nIz česa je narejena večina plastike, v katero zavijemo hrano?\nNarejena je iz naftnih izdelkov."
+    },
+    {
+      "title": "Delavnica: Urjenje okusa",
+      "summary": "Ciciljana Grilc runs taste workshops for children in a fairy-tale-like house; she explains how smell shapes taste, has the children taste in silence and describe flavours with their imagination, and later speaks about her work at a conference.",
+      "newWords": [
+        "urjenje",
+        "pravljičen",
+        "napotiti",
+        "molk",
+        "trikotnik",
+        "fantazija",
+        "opora",
+        "govorec"
+      ],
+      "text": "Ciciljana Grilc je kuharica in mama dveh otrok. Vsako soboto v Kranju vodi delavnico za otroke, ki se imenuje Urjenje okusa. Delavnica je v stari hiši z zelenimi polkni in lesenimi stropi. Hiša je videti pravljična, zato otroci radi pravijo, da gredo v pravljično hišo.\n\nKo otroci pridejo, jih Ciciljana napoti k dolgi mizi, na kateri so majhne skodelice. Starše napoti v sosednjo sobo, kjer lahko pijejo čaj in počakajo. »Otroci so bolj pogumni, ko staršev ni ob njih,« pojasni.\n\nUrjenje se začne z vajo, ki otroke vedno preseneti. Vsak si s prsti stisne nos in poskusi košček jabolka in košček krompirja. Večina ne loči, kaj je kaj. Ko spustijo nos, je razlika takoj jasna. Ciciljana pojasni, da jezik zazna samo sladko, kislo, slano, grenko in umami, vse drugo pa nam pove nos. Urjenje okusa je zato v resnici tudi urjenje vonja.\n\nPotem sledi najtežji del: molk. Med pokušanjem nihče ne sme govoriti. Molk traja le dve minuti, a za osemletnike je to dolgo. »Molk je pomemben,« pravi Ciciljana, »ker otrok, ki govori, posluša sebe in ne svojih ust.« Ko je molka konec, vsak pove, kaj je okusil.\n\nNa tablo nariše velik trikotnik. V kote trikotnika napiše sladko, kislo in grenko. Otroci vsako jed postavijo na pravo mesto v trikotniku. Limona je v kislem kotu, čokolada med sladkim in grenkim, pomaranča nekje na sredi. Ob koncu je trikotnik poln barvnih listkov.\n\nKo otroci opisujejo okuse, je njihova fantazija dobrodošla. Neka deklica je rekla, da čaj iz mete diši kot zimsko jutro. Neki fant je o rdeči papriki dejal, da je hrustljava kot led. Ciciljana pravi, da jim fantazija pomaga, da si okuse zapomnijo. Kdor okus poveže s sliko, ga ne pozabi.\n\nCiciljana ve, da otroci potrebujejo oporo. Ko kdo noče poskusiti nove jedi, ga ne sili. Starši so ji pri tem v veliko oporo, saj doma poskusijo iste jedi. Opora mora biti mirna, pravi, in nikoli ne sme postati pritisk.\n\nLetos spomladi so jo povabili na strokovni posvet o prehrani otrok v Ljubljani. Med govorci so bili zdravniki, učitelji in profesorji. Ciciljana je bila edina med njimi brez univerzitetne diplome, a so ji najdlje ploskali. Prejšnji govorec je govoril o številkah, ona pa je pokazala fotografije otrok s trikotnikom na tabli.\n\nVprašanja:\nKako se imenuje Ciciljanina delavnica?\nDelavnica se imenuje Urjenje okusa.\nKam Ciciljana napoti starše?\nNapoti jih v sosednjo sobo, kjer lahko pijejo čaj in počakajo.\nZakaj je med pokušanjem molk pomemben?\nKer otrok, ki govori, posluša sebe in ne svojih ust.\nKaj napiše v kote trikotnika?\nV kote trikotnika napiše sladko, kislo in grenko.\nZakaj fantazija otrokom pomaga?\nKer si okus, ki ga povežejo s sliko, lažje zapomnijo."
+    },
+    {
+      "title": "Ocena knjige: Rokopis iz kuhinje",
+      "summary": "A review of a new edition of a handwritten cookbook from about 1900: the leather cover, the CD of recordings, what the recipes reveal, why some are useless today, the website and the book launch with the local brass band.",
+      "newWords": [
+        "rokopis",
+        "usnje",
+        "razkrivati",
+        "neuporaben",
+        "zgoščenka",
+        "domena",
+        "godba"
+      ],
+      "text": "Pred kratkim je izšla knjiga, ki jo bodo ljubitelji kuhinje z veseljem vzeli v roke. Knjiga prinaša rokopis, ki ga je okoli leta 1935 pisala kuharica iz majhnega kraja pod gorami. Rokopis je več kot osemdeset let ležal v stari skrinji. Našel ga je njen vnuk Vilijem Jelovšek, ki je knjigo tudi uredil.\n\nŽe na prvi pogled je jasno, da je bila izdaja narejena s pozornostjo. Prvotni rokopis je debel zvezek v temnem usnju. Založnik je novo knjigo naredil po njegovem vzoru, prav tako v usnju in z zlatimi črkami. Usnje je mehko in prijetno diši, kar je pri knjigi receptov nenavadna, a prijetna podrobnost.\n\nVsebina je še bolj zanimiva. Na vsaki levi strani je fotografija rokopisa, na desni pa isto besedilo v današnjem jeziku. Recepti razkrivajo, kako so ljudje kuhali brez hladilnika in brez natančnih mer. Merili so s skodelicami in pestmi, pekli pa na oko. Zapiski na robu razkrivajo še več: iz njih vemo, katere jedi so bile za praznike in katere za vsak dan.\n\nUrednik k vsakemu receptu doda kratko razlago. Pojasni na primer, zakaj je kuharica beljake vedno mešala v posodi iz bakra: baker pomaga, da je pena iz beljakov trdnejša in se ne sesede. Pojasni tudi, zakaj je fižol pred kuhanjem pustila v vodi vso noč. Voda prodre v zrna, zato se fižol potem skuha hitreje in enakomerno.\n\nNekateri recepti so danes neuporabni. Zahtevajo sestavine, ki jih ni več mogoče kupiti, ali pa jed kuhajo cel dan na starem štedilniku. Urednik jih kljub temu ni izpustil. Pravi, da recept, ki je za kuhanje neuporaben, ni neuporaben za zgodovino.\n\nKnjigi je dodana zgoščenka. Na zgoščenki so posnetki, na katerih kuharičine vnukinje berejo izbrane recepte. Kdor nima naprave za zgoščenke, lahko posnetke posluša tudi na spletu. Vse fotografije rokopisa so objavljene na posebni spletni strani, ki ima svojo domeno. Ime domene je kar ime kraja, kjer je kuharica živela. Na isti domeni so tudi recepti, ki so jih bralci že preizkusili, s fotografijami in kratkimi opombami.\n\nKnjigo so predstavili v dvorani v kuharičinem rojstnem kraju. Igrala je domača godba, v kateri igra tudi urednikov sin. Godba je zaigrala tri skladbe, nato pa so obiskovalci poskusili sladice po receptih iz knjige.\n\nKnjiga ni poceni, a je vredna svoje cene. Je lep spomin na kuhinjo naših babic in hkrati prijazen uvod v kemijo kuhanja.\n\nVprašanja:\nKdo je pisal rokopis?\nRokopis je okoli leta 1935 pisala kuharica iz majhnega kraja pod gorami.\nKakšen je prvotni rokopis?\nPrvotni rokopis je debel zvezek v temnem usnju.\nKaj razkrivajo recepti?\nRazkrivajo, kako so ljudje kuhali brez hladilnika in brez natančnih mer.\nZakaj urednik ni izpustil receptov, ki so danes neuporabni?\nKer recept, ki je za kuhanje neuporaben, ni neuporaben za zgodovino.\nKaj je na zgoščenki?\nNa zgoščenki so posnetki, na katerih kuharičine vnukinje berejo recepte."
+    },
+    {
+      "title": "Dnevnik s Pohorja",
+      "summary": "In her diary, Otka Vehar, who is recovering from flu in a cottage on Pohorje, writes about warming the house with a wood stove, a scarf, fir-tip syrup from a local farmer and her first walk.",
+      "newWords": [
+        "okrevanje",
+        "ogrevanje",
+        "šal",
+        "jelka",
+        "kreniti"
+      ],
+      "text": "Otka Vehar je prevajalka iz Ljubljane. Po gripi je teden dni preživela v koči na Pohorju in vsak dan nekaj zapisala v svoj dnevnik.\n\nPonedeljek\n\nNa Pohorje sem prišla v soboto. Zdravnica je rekla, da po gripi potrebujem teden miru, in sestra mi je ponudila svojo kočo. Okrevanje v mestu se mi je zdelo nemogoče: telefon, služba, hrup. Tu je samo gozd.\n\nKoča nima centralnega ogrevanja. Ima le staro peč v kuhinji. Prvi dan sem se dve uri trudila, preden je bilo v sobi toplo. Sosed, tukajšnji kmet, mi je pokazal, kako je treba. Najprej suh, tanek les, šele nato debeli kosi. Ogrevanje s pečjo je počasno, a toplota ostane dolgo, tudi ko ogenj ugasne. Takega ogrevanja v mestu ne poznam.\n\nTorek\n\nDanes sem kuhala juho iz piščanca in zelenjave. Pri vsaki gripi jo kuham, ker jo je kuhala mama. Prebrala sem, da topla juha res pomaga. Para odpre nos, sol in voda pa telesu vrneta tisto, kar je izgubilo, ko je imelo vročino. To ni zdravilo, je pa dober začetek okrevanja.\n\nSreda\n\nSosed mi je prinesel majhno steklenico sirupa iz mladih vej jelke. Mlade veje nabirajo maja, ko so svetlo zelene in mehke. Rekel je, da pri njih sirup iz jelke pijejo pri vsakem kašlju. Jelka ima v svojih iglah olja, ki prijetno dišijo in pomirijo grlo. Okus je sladek, malo po smoli, kot gozd v steklenici. Pred kočo stoji velika jelka in zdaj jo gledam drugače.\n\nČetrtek\n\nPrvič sem šla ven. Vzela sem debel šal iz volne, ki mi ga je naredila babica. Šal sem si dala dvakrat okoli vratu in čez usta, saj je bilo zunaj deset stopinj pod nič. Hladen zrak, ki ga dihamo skozi šal, se nekoliko segreje, preden pride v pljuča. Šal torej ni samo lep, ampak tudi koristen.\n\nPetek\n\nDanes sem se odločila, da krenem na daljši sprehod. Krenila sem po gozdni poti proti jezeru. Sneg je bil trd, med jelkami je bilo popolnoma tiho. Po eni uri sem bila utrujena, a ne preveč. To je znak, da okrevanje dobro poteka.\n\nSobota\n\nJutri se vračam v Ljubljano. Sosed je rekel, da moram maja spet priti in sama nabrati mlade veje za sirup. Kreniti bom morala zgodaj zjutraj, ko je v gozdu še hladno.\n\nVprašanja:\nZakaj je Otka prišla na Pohorje?\nPo gripi je potrebovala teden miru za okrevanje.\nKako ogrevajo kočo?\nKočo ogrevajo s staro pečjo v kuhinji.\nIz česa je sirup, ki ga je prinesel sosed?\nSirup je iz mladih vej jelke.\nZakaj je šal koristen na mrazu?\nKer se hladen zrak, ki ga dihamo skozi šal, segreje, preden pride v pljuča.\nKam je Otka krenila v petek?\nKrenila je po gozdni poti proti jezeru."
+    }
+  ]
+}
