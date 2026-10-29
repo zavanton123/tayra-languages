@@ -1,0 +1,183 @@
+{
+  "id": "bs-mini-10000",
+  "rankUpTo": 10000,
+  "level": "C2",
+  "title": "Učenje i jezik",
+  "description": "Ten stories about learning: an alphabet book, touch typing, skating at forty, a poetry evening, the organ, the brain and languages, sea words, a sketch in German, a first day in a lab and a column on school marks.",
+  "topic": "Learning and language",
+  "names": [
+    "Almela",
+    "Sarajevo",
+    "Sarajeva",
+    "Sarajevu",
+    "Memić",
+    "Tuzla",
+    "Ermen",
+    "Ana",
+    "Zlatimir",
+    "Bećirević",
+    "Travnik",
+    "Travniku",
+    "Travnika",
+    "Lekić",
+    "Katja",
+    "Katji",
+    "Katje",
+    "Katjinog",
+    "Talić",
+    "Durmišević",
+    "Mostar",
+    "Mostaru",
+    "Laura",
+    "Laurinoj",
+    "Lena",
+    "Lukas",
+    "Felix",
+    "Beč",
+    "Beču",
+    "Neum",
+    "Neumu",
+    "Sejdić",
+    "Hanna",
+    "Graza",
+    "Zenica",
+    "Zenici",
+    "Ismija",
+    "Ismiji",
+    "Bihać",
+    "Bihaću",
+    "Tarmin",
+    "Una",
+    "Uni",
+    "Ilvija",
+    "Ilviji",
+    "Ilvijin",
+    "Dulsa"
+  ],
+  "lessons": [
+    {
+      "title": "Pelikan i prepelica",
+      "summary": "An illustrator in Sarajevo draws the pictures for a children's alphabet book; her editor finds the pelican too small and the quail hard to see, and she redraws the page.",
+      "newWords": [
+        "ilustracija",
+        "živopisan",
+        "pelikan",
+        "prepelica",
+        "premalen",
+        "upadljiv",
+        "ukrašavati"
+      ],
+      "text": "Almela iz Sarajeva crta ilustracije za dječje knjige. Taj posao radi već deset godina, a ove jeseni radi na posebnoj knjizi: na knjizi iz koje će djeca od četiri do šest godina učiti slova. Za svako slovo potrebna je jedna velika ilustracija, a na njoj životinje ili stvari čija imena počinju tim slovom. Za slovo A nacrtala je avion, za slovo K kuću, a za slovo P dvije ptice: velikog pelikana i malu prepelicu.\n\nUrednik knjige, gospodin Memić, želi da ilustracije budu živopisne. „Dijete mora zapamtiti sliku prije nego što zapamti slovo“, ponavlja on. Zato Almela bira jake, čiste boje: crvenu, žutu i tamnu plavu. Svako veliko slovo ona još ukrašava sitnim cvjetovima i listićima, tako da stranica izgleda kao mala bašta.\n\nU ponedjeljak mu donosi prvih dvadeset ilustracija. Memić ih polako razgleda na velikom stolu, jednu po jednu. Kod slova P zastane.\n\n— Pelikan je lijep — kaže — ali je premalen. Vidite koliko je vode oko njega? Dijete će prvo vidjeti vodu, a tek onda pticu.\n\nAlmela gleda ilustraciju i mora se složiti. Pelikan stoji u uglu, sitan, kao da je slučajno ušao na sliku.\n\n— A prepelica? — pita ona.\n\n— Prepelicu jedva vidim. Smeđa je kao trava oko nje. Nije nimalo upadljiva.\n\n— U prirodi i nije upadljiva — kaže Almela. — Tako se skriva. Ne bih je htjela obojiti u crveno.\n\nMemić se nasmije.\n\n— Ne tražim crvenu prepelicu. Tražim prepelicu koju dijete može pronaći. I još nešto: nemojte previše ukrašavati slova. Cvjetovi su lijepi, ali slovo mora ostati jasno.\n\nCijelu sedmicu Almela radi samo na toj stranici. Pelikana crta tri puta većeg: sada zauzima pola stranice, a njegov žuti kljun vidi se izdaleka. Prepelicu ostavlja smeđu, kakva i jeste, ali je stavlja na zelenu livadu punu žutog cvijeća. Na takvoj pozadini smeđa ptica odjednom postaje upadljiva, a ipak ostaje prava prepelica. Slovo P ukrašava samo tankim listićima uz rub.\n\nU petak ponovo dolazi kod urednika. Memić dugo gleda novu ilustraciju.\n\n— Sad je živopisna — kaže. — A pelikan više nije premalen.\n\nTe večeri Almela pokazuje stranicu svojoj nećakinji, koja ima pet godina. Djevojčica stavi prst na veliku pticu i glasno kaže:\n\n— Pelikan!\n\nOnda traži i drugu pticu, pronađe je u travi i nasmije se. Almela zna da je stranica gotova.\n\nPitanja:\nNa kakvoj knjizi radi Almela?\nRadi na knjizi iz koje će mala djeca učiti slova.\nKakve ilustracije želi urednik?\nUrednik želi živopisne ilustracije, jer dijete mora zapamtiti sliku prije slova.\nŠta nije valjalo s pelikanom?\nPelikan je bio premalen, a oko njega je bilo previše vode.\nZašto prepelica nije bila upadljiva?\nBila je smeđa kao trava oko nje.\nKako je Almela riješila problem s prepelicom?\nOstavila ju je smeđu, ali ju je stavila na zelenu livadu punu žutog cvijeća.\nKako Almela sada ukrašava slovo P?\nUkrašava ga samo tankim listićima uz rub."
+    },
+    {
+      "title": "Deset prstiju naslijepo",
+      "summary": "Ilvija, a translation student in Tuzla, learns to touch-type with her tutor Ermen and a typing program whose counter shows her speed, until she meets the forty-words-a-minute mark.",
+      "newWords": [
+        "naslijepo",
+        "brojač",
+        "tutor",
+        "kriterij",
+        "dopuna",
+        "ušteda"
+      ],
+      "text": "Ilvija studira engleski jezik u Tuzli i želi raditi kao prevodilac. Prevodi brzo, ali samo u glavi. Kad treba kucati, gleda u tastaturu i traži slovo po slovo s dva prsta. Za kratak tekst to nije problem, ali za tekst od deset stranica treba joj cijeli dan.\n\nNa fakultetu svaki student prve godine ima tutora: starijeg studenta koji mu pomaže da se snađe. Ilvijin tutor je Ermen, student četvrte godine. Jednog popodneva sjedi pored nje u biblioteci i gleda kako kuca.\n\n— Ti gledaš u tastaturu više nego u tekst — kaže on. — Prevodilac mora kucati naslijepo. Oči su na tekstu, a prsti sami znaju gdje je koje slovo.\n\n— Ne mogu kucati naslijepo. Pogriješit ću svaku drugu riječ.\n\n— U početku hoćeš. Zato postoji program za vježbanje.\n\nErmen joj na kompjuteru otvara besplatan program. Na ekranu se pojavi rečenica, a u gornjem uglu brojač. Brojač pokazuje koliko riječi Ilvija napiše u minuti i koliko grešaka napravi. Ilvija kuca prvu vježbu. Brojač pokaže osamnaest riječi u minuti i sedam grešaka.\n\n— Agencija u kojoj želiš raditi praksu ima jasan kriterij — kaže Ermen. — Četrdeset riječi u minuti, najviše dvije greške. Taj kriterij nije težak, ali treba vremena.\n\nDogovore se da Ilvija vježba pola sata svaki dan. Kao dopunu vježbama iz programa, Ermen joj šalje kratke članke iz novina, na engleskom i na bosanskom. Ta dopuna joj je važna, jer program ima samo jednostavne rečenice, a ona će prevoditi prave tekstove.\n\nPrvih dana je teško. Prsti stalno bježe prema tastaturi, a oči za njima. Ilvija stavi papir preko tastature da ne može gledati. U početku brojač pokazuje više grešaka nego prije, a onda sve manje. Nakon dvije sedmice pokaže dvadeset i pet riječi.\n\n— Zašto mi je ovo toliko važno? — pita ona Ermena jedne večeri. — Ionako na kraju prevedem tekst.\n\nErmen uzme olovku i računa na papiru.\n\n— Za tekst od deset stranica sada ti treba oko osam sati. Kad budeš kucala dvostruko brže, trebat će ti možda pet. To je ušteda od tri sata na jednom tekstu. Ako prevodiš dva teksta svake sedmice, ušteda je cijeli radni dan.\n\nIlvija nastavlja. Nakon mjesec dana brojač pokaže trideset pet riječi, a nakon dva mjeseca četrdeset dvije i samo jednu grešku. Prvi put je ispunila kriterij agencije.\n\nSljedeće sedmice dobije prvi pravi tekst za prijevod. Papir je odavno skinula s tastature, jer joj više ne treba. Kuca naslijepo, oči drži na tekstu i misli samo na riječi. Kad završi, pošalje Ermenu kratku poruku: „Hvala, tutore. Brojač kaže četrdeset pet.“\n\nPitanja:\nŠta Ilvija studira?\nIlvija studira engleski jezik u Tuzli i želi raditi kao prevodilac.\nKo je Ermen?\nErmen je Ilvijin tutor, student četvrte godine.\nŠta pokazuje brojač u programu?\nBrojač pokazuje koliko riječi Ilvija napiše u minuti i koliko grešaka napravi.\nKakav kriterij ima agencija?\nAgencija traži četrdeset riječi u minuti i najviše dvije greške.\nZašto Ermen šalje Ilviji članke iz novina?\nŠalje ih kao dopunu vježbama, jer program ima samo jednostavne rečenice.\nKolika je ušteda vremena kad Ilvija kuca brže?\nNa jednom tekstu ušteda je oko tri sata, a svake sedmice cijeli radni dan."
+    },
+    {
+      "title": "Klizaljke u četrdesetoj",
+      "summary": "Ana, who never skated as a child, keeps changing her mind about lessons, then rents skates for a deposit, learns with an instructor who senses her fear, and buys her own skates.",
+      "newWords": [
+        "klizaljka",
+        "predomišljati",
+        "naslutiti",
+        "aleja",
+        "polog"
+      ],
+      "text": "Ana ima četrdeset godina i nikad nije stajala na ledu. Kad je bila dijete, u njenom gradu nije bilo mjesta za klizanje, a kasnije nije imala vremena. Njena kćerka sada svake subote kliza u Sarajevu i stalno je zove da dođe s njom.\n\nAna se dugo predomišlja. U ponedjeljak odluči da će ići, u srijedu misli da je prestara, a u petak opet da bi mogla probati. Muž joj se smije:\n\n— Koliko ćeš se još predomišljati? Zima će proći.\n\nKonačno vidi oglas: subotom ujutro instruktor Zlatimir drži časove za odrasle koji nikad nisu klizali. Ana se prijavi telefonom prije nego što se ponovo predomisli.\n\nU subotu ide pješice kroz park. Do ledene dvorane vodi duga aleja s visokim drvećem s obje strane. Lišće je opalo, a grane iznad aleje izgledaju kao krov. Ana hoda polako i razmišlja da li da se vrati.\n\nNa ulazu iznajmljuje klizaljke. Žena na blagajni traži polog od dvadeset maraka.\n\n— Polog vam vraćam kad vratite klizaljke — kaže ona. — To je zato što ljudi ponekad zaborave da ih imaju na nogama i odu kući.\n\nAna se nasmije, plati polog i obuje klizaljke. Odmah osjeti koliko su tvrde i koliko je led blizu.\n\nZlatimir ima šest učenika, i svi su odrasli. Kod Ane zastane i pogleda je. Odmah je naslutio da se boji, iako ona ništa nije rekla.\n\n— Bojite se pada? — pita on.\n\n— Kako ste to naslutili?\n\n— Držite se za ogradu kao da je jedina stvar na svijetu. Prvo ćemo naučiti padati, onda klizati.\n\nPokazuje im kako se pada na stranu, polako, s rukama ispred sebe, i kako se ustaje. Ana padne namjerno, pa ustane. Ništa je ne boli. Strah je manji nego prije.\n\nOnda uče male korake, kao pingvini. Koljena savijena, ruke ispred tijela, pogled naprijed, ne u klizaljke. Nakon pola sata Ana pušta ogradu. Nakon sat vremena napravi cijeli krug oko dvorane, polako, ali sama.\n\nKad vraća klizaljke, žena na blagajni joj vraća polog.\n\n— Vidimo se sljedeće subote? — pita ona.\n\n— Da — kaže Ana i ovaj put se ne predomišlja.\n\nNa povratku ponovo ide kroz aleju. Noge su joj umorne, ali hoda brže nego ujutro. Sljedeće sedmice kupuje svoje klizaljke. Više joj ne treba polog, a kćerka je ponosna na nju.\n\nPitanja:\nZašto Ana nikad nije klizala?\nKad je bila dijete, nije bilo mjesta za klizanje, a kasnije nije imala vremena.\nŠta Ana radi cijelu sedmicu prije nego što se prijavi?\nPredomišlja se: jednog dana odluči da će ići, a drugog misli da je prestara.\nKojim putem Ana ide do ledene dvorane?\nHoda kroz park, dugom alejom s visokim drvećem.\nZašto žena na blagajni traži polog?\nZato što ljudi ponekad odu kući s klizaljkama na nogama.\nŠta je Zlatimir naslutio?\nNaslutio je da se Ana boji pada.\nŠta Ana kupuje sljedeće sedmice?\nKupuje svoje klizaljke, pa joj više ne treba polog."
+    },
+    {
+      "title": "Pjesme napamet",
+      "summary": "In the Travnik library a retired teacher recites poems by heart; the woman who organises the evenings worries about the turnout, but her fellow townspeople fill the hall.",
+      "newWords": [
+        "kazivati",
+        "pogovor",
+        "sugrađanin",
+        "odaziv",
+        "angažman",
+        "kašljati"
+      ],
+      "text": "Gospođa Bećirević radi u gradskoj biblioteci u Travniku. Osim posla za koji je plaćena, svakog mjeseca organizira i jedno veče poezije. Za to ne dobija ni marku više. To je njen lični angažman: sama pravi pozivnice, sama zove goste i sama poslije pere šoljice od čaja. Kolege kažu da je taj angažman jedini razlog što biblioteka uopće ima takve večeri.\n\nOvog mjeseca gost je profesor Lekić. Ima sedamdeset osam godina i četrdeset godina je predavao bosanski jezik u gimnaziji. U cijelom gradu poznat je po tome što zna stotine pjesama napamet i lijepo ih kazuje. Ne čita ih s papira, nego ih kazuje kao da ih je upravo sam smislio.\n\nGospođa Bećirević je pozvala sugrađane preko lokalnog radija i oglasima na vratima škola i prodavnica. Ipak se brine zbog odaziva. Prošli put došlo je samo dvanaest ljudi, a pripremila je šezdeset stolica.\n\n— Ne brinite — kaže joj profesor kad dođe pola sata ranije. — Ako dođe deset ljudi, kazivat ću za deset. Ako dođe pedeset, za pedeset.\n\nDonio je i knjigu: novu zbirku pjesama jednog mladog pjesnika iz Travnika, za koju je on napisao pogovor.\n\n— Šta je zapravo pogovor? — pita ga djevojčica koja pomaže nositi stolice.\n\n— Tekst na kraju knjige — kaže profesor. — Pjesnik kaže svoje, a onda neko drugi, na posljednjim stranicama, objasni čitaocu odakle te pjesme dolaze. Predgovor čitaš prije pjesama, a pogovor poslije.\n\nU sedam sati sala je puna. Odaziv je mnogo veći nego što se gospođa Bećirević nadala: došlo je preko sedamdeset sugrađana, pa nekoliko mladića donosi još stolica iz susjedne sobe.\n\nProfesor počinje. Kazuje polako, s pauzama, i gleda ljude u oči. Usred druge pjesme jedan stariji gospodin u prvom redu počne kašljati. Kašlje i ne može prestati. Profesor zastane, mirno uzme čašu vode sa stola i pruži mu je.\n\n— Nema žurbe — kaže. — Pjesma će nas sačekati.\n\nGospodin popije vodu i prestane kašljati, a sala se tiho nasmije. Profesor nastavi tačno od stiha gdje je stao.\n\nNa kraju gospođa Bećirević naglas pročita nekoliko rečenica iz pogovora nove zbirke. Mladi pjesnik sjedi u zadnjem redu i crveni. Jedna žena pita profesora kako pamti toliko pjesama.\n\n— Svako jutro kazujem jednu naglas — kaže on. — Dok kuham kafu.\n\nKasnije, dok pere šoljice, gospođa Bećirević broji potpise u knjizi utisaka. Sedamdeset tri. Takav odaziv biblioteka nije imala godinama.\n\nPitanja:\nZašto gospođa Bećirević organizira večeri poezije?\nTo je njen lični angažman: radi to iako za to ne dobija novac.\nPo čemu je profesor Lekić poznat?\nPoznat je po tome što zna stotine pjesama napamet i lijepo ih kazuje.\nZašto se gospođa Bećirević brine?\nBrine se zbog odaziva, jer je prošli put došlo samo dvanaest ljudi.\nŠta je pogovor?\nPogovor je tekst na kraju knjige koji čitaocu objašnjava odakle pjesme dolaze.\nŠta profesor radi kad gospodin počne kašljati?\nZastane i pruži mu čašu vode.\nKoliko je sugrađana došlo?\nDošlo je preko sedamdeset sugrađana, a u knjizi utisaka su sedamdeset tri potpisa."
+    },
+    {
+      "title": "Orgulje u praznoj dvorani",
+      "summary": "Katja, who studies the organ in Sarajevo, practises a sad slow piece on a gloomy November afternoon, and in the evening learns from her professor to hold a string quartet together.",
+      "newWords": [
+        "orgulje",
+        "kvartet",
+        "tmuran",
+        "rastuživati",
+        "jecaj",
+        "spona"
+      ],
+      "text": "Katja studira na akademiji u Sarajevu, a njen predmet su orgulje. To je rijetko: u cijeloj zemlji tek nekoliko ljudi uči svirati orgulje, jer ih ima malo i jer su velike kao kuća. Na akademiji postoje jedne, u velikoj dvorani, i Katja smije vježbati na njima samo kad je dvorana prazna.\n\nPopodne u novembru je tmurno. Kiša pada od jutra, nebo iznad grada je sivo, a kroz visoke prozore dvorane ulazi tmurna, slaba svjetlost. Katja upali malu lampu iznad tipki i počne.\n\nVečeras će svirati s gudačkim kvartetom: četiri studenta, od kojih dvojica sviraju violinu, a dvojica veće i dublje instrumente. Kompozicija je spora i tužna. Katja je svira već sat vremena i osjeća kako je ta muzika polako rastužuje. Tmuran dan, prazna dvorana i spori, duboki tonovi kao da se slažu u jedno.\n\nU pet sati dolazi profesor Talić. Sjedne u prvi red i sluša.\n\n— Šta je bilo? — pita kad Katja završi. — Sviraš kao da ti je upravo pobjegao autobus.\n\n— Ova kompozicija me rastužuje — kaže Katja. — Što je duže sviram, to mi je teže.\n\n— Muzika smije rastuživati publiku — kaže profesor. — Tebe ne smije. Ti moraš ostati mirna, inače ćeš požuriti ili zakasniti. Kvartet će se osloniti na tebe.\n\nOnda joj objašnjava njen zadatak. U kvartetu svako od njih četvero ima svoj glas, a orgulje ne smiju biti zid iza njih. Moraju biti spona: tihi, dugi tonovi koji drže četiri glasa zajedno, kao most između violina i dubljih glasova.\n\n— Ako sviraš previše glasno, kvartet nestaje — kaže profesor Talić. — Ako sviraš previše tiho, nema spone i svako svira za sebe.\n\nKatja svira još jednom, tiše. Ovaj put sluša i prostor oko sebe, kao da kvartet već sjedi pored nje.\n\nU osam sati dvorana je puna. Kvartet sjedi ispred orgulja, a Katja gore, iza njih, vidi samo njihova leđa i ruke. U sporom dijelu prva violina svira melodiju koja zvuči kao tihi jecaj. Nekoliko ljudi u publici spusti glavu. Katja drži dugi, mirni ton ispod tog jecaja i ne žuri. Osjeća da su orgulje sada prava spona između četiri glasa.\n\nKad posljednji ton nestane, nekoliko sekundi je tišina. Onda publika počne pljeskati.\n\nPoslije koncerta do Katje dolazi djevojka koja je svirala prvu violinu.\n\n— Taj jecaj violine ne bi postojao bez tvog tona ispod njega — kaže.\n\nNapolju još pada kiša i dan je tmuran kao i popodne. Ali Katja ide kući lakim korakom.\n\nPitanja:\nŠta Katja studira?\nKatja studira orgulje na akademiji u Sarajevu.\nKakvo je bilo popodne?\nPopodne je bilo tmurno: padala je kiša, a nebo je bilo sivo.\nŠta profesor kaže o tužnoj muzici?\nKaže da muzika smije rastuživati publiku, ali ne i onoga ko svira.\nKakav je zadatak orgulja u kvartetu?\nOrgulje moraju biti spona koja drži četiri glasa zajedno.\nKako zvuči melodija prve violine?\nZvuči kao tihi jecaj.\nŠta Katji kaže djevojka koja je svirala prvu violinu?\nKaže da jecaj violine ne bi postojao bez Katjinog tona ispod njega."
+    },
+    {
+      "title": "Kako mozak pamti riječi",
+      "summary": "At a public lecture in Mostar a neurologist explains how the brain learns a new language, why long word lists are an unnatural way to learn, and tells a student that her mother is not too old to start.",
+      "newWords": [
+        "neurolog",
+        "obuhvatiti",
+        "proširivati",
+        "raznolik",
+        "neprirodan"
+      ],
+      "text": "Doktor Durmišević je neurolog. Cijeli radni vijek proučava kako mozak pamti, a jednom godišnje drži javno predavanje za studente i građane u Mostaru. Ove godine tema je „Mozak i strani jezici“. Sala je puna: tu su studenti jezika, nastavnici, ali i mnogo ljudi koji su jednostavno htjeli čuti kako se uči.\n\n— Predavanje će obuhvatiti tri stvari — počinje neurolog. — Šta se u mozgu dešava kad naučimo novu riječ, zašto neke riječi brzo zaboravimo i šta možemo uraditi da ih zapamtimo.\n\nNa ekranu pokazuje sliku mreže sa hiljadama tačaka i linija.\n\n— Ovo je pojednostavljena slika jednog dijela mozga. Svaka tačka je jedna ćelija, a svaka linija veza između dvije ćelije. Kad naučite novu riječ, mozak ne otvara novu fioku. On pravi nove veze i proširuje mrežu koju već ima. Riječ „jabuka“ na stranom jeziku veže se za boju, za ukus, za zvuk i za riječ koju već znate.\n\nZatim objašnjava zašto je važno učiti u situacijama. Što su primjeri raznolikiji, to je veza jača. Ko riječ čuje u pjesmi, pročita u novinama i izgovori u prodavnici, proširuje mrežu na tri strane odjednom.\n\n— Raznolik način učenja nije samo zabavniji — kaže neurolog. — On je i mnogo bolji za pamćenje.\n\nOnda pokazuje spisak od sto riječi, poredanih jedna ispod druge.\n\n— A ovako mnogi od nas uče u školi. Sto riječi napamet do petka. Za mozak je to prilično neprirodan način. Riječ bez slike, bez zvuka i bez situacije nema za šta da se uhvati. Zato je do ponedjeljka zaboravimo.\n\nNeko u sali se nasmije, jer se prepoznao.\n\n— Ne kažem da je spisak beskoristan — dodaje on. — Ali ako je spisak sve što imate, učite na neprirodan način. Dijete nikad ne uči maternji jezik sa spiska.\n\nNa kraju predavanja studentica Laura podigne ruku.\n\n— Moja majka ima pedeset godina i želi učiti italijanski. Kaže da je prestara. Da li je mozak u tim godinama još sposoban za to?\n\n— Jeste — kaže doktor Durmišević bez razmišljanja. — Mozak proširuje svoje veze cijeli život. Odraslima možda treba malo više vremena nego djeci, ali oni imaju nešto što djeca nemaju: već znaju jedan jezik i mnogo o svijetu. Na to se nova riječ lakše veže. Recite majci da uči raznoliko: neka sluša italijanske pjesme, kuha po italijanskim receptima i čita kratke tekstove.\n\nLaura zapisuje svaku riječ. Kad izađe iz sale, odmah zove majku.\n\n— Neurolog kaže da nisi prestara — kaže joj. — Ali kaže i da ne učiš sa spiska.\n\nPitanja:\nKo je doktor Durmišević?\nDoktor Durmišević je neurolog koji proučava kako mozak pamti.\nŠta je predavanje trebalo obuhvatiti?\nPredavanje je trebalo obuhvatiti tri stvari: šta se dešava u mozgu kad naučimo riječ, zašto zaboravljamo i kako možemo pamtiti.\nŠta mozak radi kad naučimo novu riječ?\nPravi nove veze i proširuje mrežu koju već ima.\nZašto je dobro učiti na raznolik način?\nZato što su veze jače kad su primjeri raznoliki.\nZašto je spisak od sto riječi neprirodan način učenja?\nRiječ bez slike, zvuka i situacije nema za šta da se uhvati, pa je brzo zaboravimo.\nŠta neurolog odgovara Laurinoj majci?\nKaže da mozak proširuje veze cijeli život i da odrasli mogu učiti nove jezike."
+    },
+    {
+      "title": "Riječi s mora",
+      "summary": "At a summer school of Bosnian in Neum, a teacher takes three students from Vienna along the coast road and out in a boat to a small bay, and they collect sea words.",
+      "newWords": [
+        "uvala",
+        "bova",
+        "parobrod",
+        "biciklist",
+        "asfalt"
+      ],
+      "text": "Lena, Lukas i Felix uče bosanski jezik u Beču. Svakog jula njihova grupa provodi dvije sedmice na ljetnoj školi u Neumu. Ujutro imaju časove u učionici, a popodne nastavnica Sejdić vodi ih napolje.\n\n— Riječi s mora ne mogu se naučiti iz knjige — kaže ona prvog dana. — Danas ćemo ih skupljati. Svako ima svesku i olovku. Svaka nova riječ ide u svesku.\n\nHodaju uz more cestom koja vodi prema malom mjestu iza brda. Sunce je jako, a asfalt je toliko vruć da se iznad njega diže treperav zrak.\n\n— Kako se kaže ovo? — pita Lena i pokazuje na cestu.\n\n— Asfalt — kaže nastavnica. — Ista riječ kao na njemačkom. Lako je, zar ne?\n\nPored njih prolazi grupa biciklista u šarenim majicama. Jedan biciklist im mahne i vikne: „Dobar dan!“ Lukas mu odgovori na bosanskom i pocrveni od ponosa.\n\n— Biciklist — zapiše Lukas u svesku. — Ja sam biciklist i u Beču. Svaki dan idem biciklom na fakultet.\n\n— Onda si danas naučio riječ za sebe — kaže nastavnica Sejdić.\n\nKod male luke čeka ih čamac. Vlasnik, stariji ribar, vozi ih nekoliko minuta uz obalu, do jedne mirne uvale. Voda je u uvali tako čista da se vide kamenje i ribe na dnu. S obje strane uvale stoje stijene, a borovi rastu skoro do mora.\n\n— Uvala — kaže nastavnica. — Mali dio mora koji ulazi u kopno. Ova uvala je mirna, jer je stijene čuvaju od vjetra.\n\nBliže plaži, u dnu uvale, plutaju žute bove, jedna pored druge, u dugom redu.\n\n— A to su bove — objašnjava ona. — Bova pokazuje gdje čamci ne smiju ući. Iza bova kupači mogu mirno plivati.\n\n— Na njemačkom je to „Boje“ — kaže Felix. — Skoro isto.\n\nRibar se nasmije i polako okrene čamac, da ne priđe bovama.\n\nNa povratku sjednu u hlad ispred kuće starog ribara, kod luke. Na zidu kuće, ispod stakla, visi stara crno-bijela fotografija: veliki brod s visokim dimnjakom, iz kojeg izlazi dim.\n\n— To je parobrod — kaže ribar. — Prije sto godina takav parobrod je jednom u sedmici dolazio uz ovu obalu. Donosio je putnike, poštu i brašno. Moj djed je kao dječak trčao do luke kad god bi čuo parobrod.\n\nFelix zapisuje: parobrod, para, brod. Shvata da se riječ sastoji od dvije riječi koje već zna.\n\nUveče, u sobi, sve troje broje riječi u sveskama. Lena ih ima trideset jednu, Lukas dvadeset devet, a Felix trideset tri. Na prvoj stranici svake sveske piše isto: asfalt, biciklist, uvala, bova, parobrod.\n\nPitanja:\nGdje Lena, Lukas i Felix provode dvije sedmice u julu?\nProvode ih na ljetnoj školi bosanskog jezika u Neumu.\nZašto je Lukas ponosan na riječ biciklist?\nZato što je i on biciklist i svaki dan ide biciklom na fakultet u Beču.\nKakva je uvala do koje ih vozi ribar?\nUvala je mirna i čista, jer je stijene čuvaju od vjetra.\nŠta pokazuju bove?\nBove pokazuju gdje čamci ne smiju ući, a iza njih kupači mogu mirno plivati.\nŠta je ribar rekao o parobrodu?\nRekao je da je prije sto godina parobrod jednom u sedmici dolazio uz obalu i donosio putnike, poštu i brašno.\nKako je Felix shvatio riječ parobrod?\nShvatio je da se sastoji od riječi para i brod."
+    },
+    {
+      "title": "Skeč na njemačkom",
+      "summary": "At an evening German course in Zenica, the teacher Hanna has her adult students write and act a short comic sketch; Dulsa juggles while giving directions, and the last lesson ends with a rush for the cake.",
+      "newWords": [
+        "skeč",
+        "žonglirati",
+        "stampedo",
+        "bockati",
+        "povodac"
+      ],
+      "text": "Hanna je iz Graza, a već tri godine živi u Zenici i predaje njemački na večernjem kursu za odrasle. Njeni učenici rade po cijeli dan, pa uveče dolaze umorni. Hanna zato voli da posljednji čas svakog semestra bude drugačiji.\n\n— Za dvije sedmice nema testa — kaže im jedne večeri. — Umjesto testa, napisat ćete i odigrati skeč. Kratak, smiješan, na njemačkom. Pet minuta.\n\nUčenici se pogledaju. Niko od njih nikad nije glumio. Ali svi znaju šta je skeč, pa se odmah podijele u dvije grupe.\n\nDulsa je u prvoj grupi. Radi u fabrici, a u slobodno vrijeme žonglira: s tri loptice, s četiri, nekad i s pet. Grupa odluči da će to iskoristiti. U skeč koji pišu stavljaju i to: Dulsa igra uličnog zabavljača u Beču koji žonglira na trgu. Jedna turistkinja ga pita kako da dođe do stanice. On joj objašnjava put, ali sve vrijeme žonglira. Kod svake riječi „lijevo“ ili „desno“ jedna loptica mu padne.\n\nDruga grupa piše skeč o čovjeku koji šeta po parku i u ruci drži povodac. Ali povodac je prazan: na njemu nema psa. Prolaznik ga pita gdje mu je pas. Čovjek mirno odgovara da je pas ostao kod kuće jer uči njemački. Prazan povodac ostaje u njegovoj ruci do kraja, a publika treba vidjeti da tu nema psa.\n\nNa probama Hanna sjedi u prvom redu i slobodno ih bocka, uvijek s osmijehom.\n\n— Glasnije, molim vas! Publika u zadnjem redu je već zaspala.\n\n— Dulsa, žongliraš bolje nego što govoriš. Sad moraš i govoriti!\n\nUčenici znaju da ih Hanna bocka samo zato da bi se opustili, pa se smiju zajedno s njom. Dulsa svaki dan vježba rečenice dok žonglira u kuhinji, sve dok ih ne može izgovoriti a da joj nijedna loptica ne padne.\n\nNa posljednjem času u učionici sjede i članovi porodica. Prva grupa igra svoj skeč. Dulsa žonglira, objašnjava put, i loptice padaju tačno kod „lijevo“ i „desno“, kako su planirali. Djevojka koja igra turistkinju skuplja ih s poda. Djeca u publici se smiju najglasnije.\n\nOnda čovjek iz druge grupe prošeta pored prvog reda i vuče za sobom prazan povodac. Kad kaže da mu pas uči njemački, sala aplaudira.\n\nNa kraju Hanna ustane i zahvali svima. Onda pokaže na sto u uglu.\n\n— I još nešto. Ispekla sam kolač. Za sve.\n\nNastane pravi stampedo. Odrasli ljudi, koji su pola sata mirno sjedili, krenu prema stolu kao krdo bizona. Hanna se smije i drži tanjir s kolačem visoko iznad glave.\n\n— Polako! Ovo je najveći stampedo koji sam ikad vidjela na kursu jezika!\n\nKasnije, dok jedu kolač, Dulsa žonglira s tri jabuke. Na njemačkom, bez greške, objašnjava kako se dolazi do stanice.\n\nPitanja:\nŠta Hanna traži od učenika umjesto testa?\nTraži da napišu i odigraju kratak, smiješan skeč na njemačkom.\nŠta Dulsa radi u slobodno vrijeme?\nU slobodno vrijeme žonglira loptama.\nO čemu je skeč druge grupe?\nO čovjeku koji u parku drži prazan povodac i kaže da mu je pas kod kuće jer uči njemački.\nZašto Hanna bocka učenike?\nBocka ih s osmijehom, da bi se opustili.\nKada nastaje stampedo?\nStampedo nastaje kad Hanna kaže da je ispekla kolač za sve."
+    },
+    {
+      "title": "Prvi dan u laboratoriji",
+      "summary": "On the first day of her placement at a laboratory in Bihać, the biology student Ismija learns to scrape moss from river stones, handle it with tweezers, freeze the samples and look at them with a camera that counts photons.",
+      "newWords": [
+        "pinceta",
+        "strugati",
+        "zamrzavati",
+        "foton",
+        "shrvati"
+      ],
+      "text": "Ismija studira biologiju i ovog ljeta ima praksu u jednoj maloj laboratoriji u Bihaću. Laboratorija proučava mahovinu koja raste na kamenju u Uni: po njoj se može vidjeti koliko je rijeka čista. Prvog dana dočeka je asistent Tarmin, mlad čovjek u bijelom mantilu, s naočalama na vrhu glave.\n\n— Danas nećeš ništa čitati — kaže on. — Danas ćeš raditi rukama. Ono što se nauči rukama, ne zaboravlja se.\n\nNa stolu leži desetak kamenova koje su ujutro donijeli s rijeke. Svaki je pokriven tankim zelenim slojem mahovine. Tarmin uzima malu metalnu lopaticu.\n\n— Prvo moraš strugati mahovinu s kamena. Polako, uvijek u jednom smjeru, da ne pokupiš i pijesak.\n\nPokazuje joj. Lopatica tiho struže po kamenu, a mahovina se skuplja u malu zelenu gomilu. Ismija pokušava. Prvi put struže previše jako i skupi više pijeska nego mahovine. Drugi put ide bolje.\n\n— Tako — kaže Tarmin. — Sad pinceta.\n\nPinceta je tanka i lagana, a vrhovi su joj oštri kao igla. Tarmin pincetom uzima mahovinu i stavlja je u malu epruvetu. Ismiji pinceta u početku drhti u prstima, a mahovina dva puta padne na sto. Treći put je uspije staviti u epruvetu.\n\n— Pincetu drži kao olovku — savjetuje on. — Ne stežeš je, samo je vodiš.\n\nKad su sve epruvete pune, nose ih do velikog bijelog ormara u uglu.\n\n— Ovdje uzorke zamrzavamo na minus osamdeset stepeni — objašnjava Tarmin. — Ako ih ne zamrzavamo odmah, ćelije se počnu mijenjati i rezultat više ne vrijedi.\n\nIsmija sama zamrzava posljednju epruvetu i zapisuje broj u svesku.\n\nPopodne idu u tamnu sobu na kraju hodnika. Tu stoji mikroskop s posebnom kamerom.\n\n— Ova kamera je toliko osjetljiva da broji fotone — kaže Tarmin. — Foton je najmanji dio svjetlosti. Kad osvijetlimo mahovinu, ona vrati malo svjetla, a kamera izbroji svaki foton. Što je mahovina zdravija, to je fotona više.\n\nNa ekranu se pojavi slika: hiljade sitnih zelenih ćelija koje svijetle u mraku. Ismija dugo gleda i ne govori ništa.\n\nUveče, kad izađe iz laboratorije, osjeti koliko je umorna. Cijeli dan je stajala, strugala i brojala. Umor ju je potpuno shrvao, ali to je umor koji ne smeta. U autobusu skoro zaspi. Kod kuće majka je pita kako je bilo.\n\n— Shrvana sam — kaže Ismija. — Ali naučila sam strugati mahovinu, raditi pincetom i zamrzavati uzorke. I vidjela sam kako jedna biljka vraća fotone.\n\nPitanja:\nŠta proučava laboratorija u Bihaću?\nProučava mahovinu s kamenja u Uni, po kojoj se vidi koliko je rijeka čista.\nKako treba strugati mahovinu s kamena?\nTreba je strugati polako, uvijek u jednom smjeru, da se ne pokupi i pijesak.\nKako Tarmin savjetuje da se drži pinceta?\nSavjetuje da se pinceta drži kao olovka.\nZašto uzorke odmah zamrzavaju?\nZato što se ćelije počnu mijenjati i rezultat više ne vrijedi.\nŠta broji posebna kamera?\nKamera broji fotone koje mahovina vrati kad se osvijetli.\nKako se Ismija osjeća uveče?\nShrvana je od umora, ali je zadovoljna onim što je naučila."
+    },
+    {
+      "title": "Kolumna: Šta brojka ne vidi",
+      "summary": "In her column, a primary school teacher from Mostar writes about her school's controversial idea of replacing number marks with written ones in the first two years, hints at her own view and argues that humaneness matters more than numbers.",
+      "newWords": [
+        "kontroverzan",
+        "čovječnost",
+        "nagovijestiti",
+        "slutnja"
+      ],
+      "text": "Već trideset godina predajem u osnovnoj školi u Mostaru, i rijetko je neko pitanje u našoj zbornici bilo toliko kontroverzno kao ovo. Na posljednjoj sjednici nastavničkog vijeća jedna mlada kolegica predložila je da u prva dva razreda više ne dajemo ocjene brojkama. Umjesto petice ili trojke, roditelji bi dobili nekoliko rečenica: šta dijete već dobro zna, šta mu još ide teško i kako mu kod kuće mogu pomoći.\n\nPrijedlog je kontroverzan iz razumljivih razloga. Jedni roditelji kažu da je brojka jasna i poštena: pet je pet, i svako zna šta znači. Drugi kažu da sedmogodišnje dijete ne treba nositi brojku kući kao etiketu. I među nama nastavnicima mišljenja su podijeljena. Neki se boje da će rečenice biti duge i nejasne, pa da roditelj na kraju neće znati gdje mu je dijete. To su ozbiljni argumenti i ne želim ih otpisati.\n\nDirektor škole na sjednici nije rekao šta misli. Samo je nagovijestio da bismo mogli probati godinu dana u jednom razredu, pa onda vidjeti. Odluka će pasti na proljeće.\n\nMoram priznati da i ja imam svoju slutnju, iako je još ne mogu dokazati. Slutnja mi kaže da djeca neće naučiti manje. Možda će naučiti i više, jer će se manje bojati. Tu slutnju nisam dobila iz knjiga, nego iz učionice.\n\nPrije mnogo godina imala sam u prvom razredu jednu djevojčicu koja je lijepo čitala, ali je teško pisala. Kad je dobila prvu dvojku, nije plakala glasno. Samo se iz zadnje klupe čuo tihi jecaj, i cijeli razred je utihnuo. Tog dana shvatila sam da je brojka na papiru za mene samo podatak, a ona je u toj brojci vidjela cijelu sebe. Sutradan sam sjela pored nje u klupu i pokazala joj koja su slova već dobra, a koja još bježe iz reda. Za mjesec dana pisala je bolje od pola razreda.\n\nNe mislim da su brojke loše. Mislim samo da ne vide sve. Ne vide strah, ne vide trud, ne vide dan kad je dijete prvi put bez pomoći pročitalo cijelu stranicu. To vidi učitelj, ako gleda. I tu počinje ono što ja zovem čovječnost u školi: ne blaga ocjena, nego pogled koji iza ocjene vidi dijete.\n\nMožda je to i odgovor na ovo kontroverzno pitanje. Ako odlučimo zadržati brojke, neka ih uvijek prati i nekoliko rečenica. Ako ih odlučimo zamijeniti, neka rečenice budu kratke i jasne. U oba slučaja čovječnost ne zavisi od toga da li pišemo broj ili riječ, nego od toga koliko pažnje dajemo djetetu.\n\nNagovijestila sam vam šta mislim. Na proljeće ćemo vidjeti šta će odlučiti vijeće. Do tada, dragi roditelji, pitajte svoje dijete šta je danas naučilo, a ne samo šta je dobilo.\n\nPitanja:\nŠta je predložila mlada kolegica?\nPredložila je da se u prva dva razreda ne daju ocjene brojkama, nego nekoliko rečenica.\nZašto je prijedlog kontroverzan?\nJedni misle da je brojka jasna i poštena, a drugi da dijete ne treba nositi brojku kao etiketu.\nŠta je direktor nagovijestio?\nNagovijestio je da bi škola mogla probati godinu dana u jednom razredu.\nKakvu slutnju ima autorica?\nSlutnja joj kaže da djeca neće naučiti manje, nego možda i više.\nŠta se desilo s djevojčicom koja je dobila dvojku?\nIz zadnje klupe čuo se tihi jecaj, a za mjesec dana pisala je bolje od pola razreda.\nŠta je za autoricu čovječnost u školi?\nTo je pogled koji iza ocjene vidi dijete."
+    }
+  ]
+}
