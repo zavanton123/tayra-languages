@@ -1,0 +1,171 @@
+{
+  "id": "ro-mini-7800",
+  "rankUpTo": 7800,
+  "level": "C1",
+  "title": "Servicii publice",
+  "description": "Ten stories about public services: a county library, a regional weather centre, a Danube ferry, compost bins from the sanitation service, a public dental clinic, a town hall's accessibility plan, the county archives, a veterinary inspector at the market, an adult writing course at a culture house, and an old cinema reborn as a community centre.",
+  "topic": "Public services",
+  "names": [
+    "România",
+    "Lorina",
+    "Lorinei",
+    "Iorgulescu",
+    "Brașov",
+    "Sibiu",
+    "Sibiului",
+    "Sigrid",
+    "Cluj",
+    "Clujului",
+    "Nicoara",
+    "Dunărea",
+    "Dunării",
+    "Dunăre",
+    "Brăila",
+    "Tulcea",
+    "Hedwig",
+    "Ervin",
+    "Rucsandra",
+    "Rucsandrei",
+    "Stănescu",
+    "Ulrike",
+    "Timișoara",
+    "Ardeleanu",
+    "Szabolcs",
+    "Hannelore",
+    "Ortrun",
+    "Atlanticului",
+    "Bence",
+    "Suceava",
+    "Racoviță",
+    "Rădăuți",
+    "Imre",
+    "Lotte"
+  ],
+  "lessons": [
+    {
+      "title": "Lupa domnului Iorgulescu",
+      "summary": "At the county library in Brașov, a librarian helps a retired history teacher find a young prose writer's trilogy about a butler: she shows him how to reserve books with a click, and he reads the small print and the illustrations with his magnifying glass.",
+      "newWords": [
+        "prozator",
+        "trilogie",
+        "majordom",
+        "clic",
+        "lupă",
+        "ilustrație"
+      ],
+      "text": "Lorina lucrează de nouă ani la Biblioteca Județeană din Brașov, la secția de împrumut pentru adulți. Cei mai fideli cititori ai ei sunt pensionarii, care vin dimineața, când sălile sunt încă liniștite. Printre ei se află domnul Iorgulescu, un fost profesor de istorie care a citit, după socoteala Lorinei, aproape tot ce are biblioteca despre viața orașelor în secolul al XIX-lea.\n\nÎntr-o dimineață de octombrie, domnul Iorgulescu a venit la biroul de împrumut cu o cerere nouă. Auzise la radio un interviu cu un prozator tânăr din Sibiu, care scrisese o trilogie despre viața unui majordom. Majordomul lucrează patruzeci de ani în casa unei familii bogate de negustori și povestește, cu mult umor, tot ce vede: mesele lungi de duminică, musafirii, copiii care cresc, casa care se schimbă odată cu orașul.\n\n— Prozatorul ăsta vorbea atât de frumos despre meseria de majordom, încât am vrut să citesc trilogia de la primul volum, i-a spus domnul Iorgulescu.\n\nLorina a căutat titlul în catalogul electronic. Primul volum al trilogiei era împrumutat, dar urma să fie adus înapoi peste trei zile. Cu un singur clic, l-a rezervat pentru domnul Iorgulescu. Apoi i-a arătat cum poate face același lucru de acasă, de pe calculator.\n\n— Intrați pe pagina bibliotecii și scrieți titlul aici, sus. Un clic pe carte, încă un clic pe butonul „Rezervă” și gata. Primiți un mesaj când cartea vă așteaptă.\n\nDomnul Iorgulescu și-a notat totul într-un carnet, pas cu pas, ca un elev conștiincios.\n\nPeste trei zile, cartea îl aștepta. Era o ediție îngrijită, cu ilustrații în alb și negru la începutul fiecărui capitol, dar literele erau cam mici. Domnul Iorgulescu a scos din buzunar o lupă veche, cu mâner de lemn, și a început să citească chiar acolo, în sala de lectură. Lorina i-a adus o lampă și i-a spus că biblioteca are și o lupă electronică, legată la un ecran, pe care o poate folosi oricând.\n\n— Mulțumesc, dar m-am obișnuit cu lupa mea, a răspuns el zâmbind. Și cu ea văd mai bine ilustrațiile.\n\nIlustrațiile erau pline de detalii: tava de argint a majordomului, ceasul din hol, florile de pe masă. Cu lupa, domnul Iorgulescu le descoperea pe toate.\n\nDupă două săptămâni, a adus primul volum înapoi și a rezervat singur, de acasă, al doilea volum. A făcut, cum spunea el, „primul meu clic de cititor modern”.\n\nÎntrebări:\nUnde lucrează Lorina?\nLorina lucrează la Biblioteca Județeană din Brașov, la secția de împrumut pentru adulți.\nDespre ce este trilogia scrisă de prozatorul din Sibiu?\nTrilogia este despre viața unui majordom care lucrează patruzeci de ani în casa unei familii bogate de negustori.\nCum a rezervat Lorina primul volum?\nLorina a căutat titlul în catalogul electronic și l-a rezervat cu un singur clic.\nDe ce a folosit domnul Iorgulescu lupa?\nPentru că literele erau mici și pentru că, cu lupa, vedea mai bine ilustrațiile.\nCe se vede în ilustrații?\nÎn ilustrații se văd tava de argint a majordomului, ceasul din hol și florile de pe masă."
+    },
+    {
+      "title": "O zi la centrul meteorologic",
+      "summary": "A meteorologist at the regional weather centre in Cluj shows a class of pupils how a forecast is made, why a rainy autumn and an early frost matter to farmers and drivers, and what a light breeze or a blurry satellite image tells her.",
+      "newWords": [
+        "prognoză",
+        "ploios",
+        "îngheț",
+        "briză",
+        "denota",
+        "indistinct"
+      ],
+      "text": "Sigrid este meteorolog la centrul meteorologic regional din Cluj. De două ori pe an, centrul își deschide porțile pentru elevi, iar Sigrid le explică cum se face o prognoză. Într-o dimineață de noiembrie, au venit douăzeci de copii dintr-o clasă a cincea, împreună cu învățătoarea lor.\n\n— Cine a citit azi prognoza? a întrebat Sigrid.\n\nCâțiva copii au ridicat mâna. Unul a spus că prognoza anunța o zi ploioasă, iar altul că la noapte poate să apară primul îngheț.\n\n— Exact. Și acum o să vă arăt de unde știm asta.\n\nI-a dus mai întâi în grădina centrului, unde stau instrumentele: termometre, un aparat care măsoară cât plouă, o mică moară de vânt care arată viteza vântului. Sigrid a explicat că vântul de azi era doar o briză ușoară, dinspre vest.\n\n— O briză ca asta nu ne îngrijorează. Dar dacă vântul se întărește, scriem asta în prognoză, ca oamenii să-și strângă lucrurile de pe balcon.\n\nApoi au intrat în sala mare, plină de ecrane. Pe unul dintre ele se vedea o imagine din satelit. Peste nordul țării era o pată albă, cu margini indistincte.\n\n— Pata asta albă sunt norii, a spus Sigrid. Marginile sunt indistincte, pentru că norii nu au contururi clare, ca pe hartă. Dar forma și culoarea lor ne spun multe. Un alb gros, ca acesta, denotă nori cu multă apă. Asta înseamnă o seară ploioasă.\n\nUn băiat a întrebat de ce e important un îngheț. Sigrid a răspuns că pentru fermieri primul îngheț denotă sfârșitul sezonului pentru multe legume, iar pentru șoferi înseamnă drumuri alunecoase dimineața devreme.\n\n— De aceea, toamna, când vine o perioadă ploioasă și apoi se face brusc frig, prognoza noastră e citită de foarte mulți oameni: de primărie, de școli, de cei care curăță drumurile.\n\nLa sfârșit, fiecare copil a scris pe o foaie propria prognoză pentru a doua zi. Majoritatea au scris „ploios și rece”, iar o fetiță a adăugat: „la noapte, îngheț ușor”. A doua zi dimineață, pe geamurile mașinilor era un strat subțire de gheață. Învățătoarea i-a scris lui Sigrid că fetița fusese foarte mândră.\n\nÎntrebări:\nCe face Sigrid la centrul meteorologic?\nSigrid este meteorolog și le explică elevilor cum se face o prognoză.\nCe fel de vânt era în ziua aceea?\nEra doar o briză ușoară, dinspre vest.\nDe ce erau marginile norilor indistincte pe imaginea din satelit?\nPentru că norii nu au contururi clare, ca pe hartă.\nCe denotă un alb gros pe imaginea din satelit?\nUn alb gros denotă nori cu multă apă, adică o seară ploioasă.\nDe ce este important primul îngheț pentru fermieri și pentru șoferi?\nPentru fermieri, primul îngheț denotă sfârșitul sezonului pentru multe legume, iar pentru șoferi înseamnă drumuri alunecoase."
+    },
+    {
+      "title": "Feribotul de dimineață",
+      "summary": "On the Danube ferry at Brăila, an operator explains his daily crossing: the ferry's route meets the river's main channel, he must turn aside for yachts and barges, and on a foggy morning when the darkness persists he waits until he can see the far bank.",
+      "newWords": [
+        "feribot",
+        "intersecta",
+        "iaht",
+        "devia",
+        "persista",
+        "beznă"
+      ],
+      "text": "Domnul Nicoara lucrează de optsprezece ani pe feribotul care traversează Dunărea la Brăila. Feribotul pleacă din port la fiecare jumătate de oră și duce pe celălalt mal mașini, camioane, bicicliști și oameni care merg la serviciu. Pentru mulți locuitori din satele de dincolo de râu, feribotul este singurul drum rapid spre oraș.\n\nTraversarea durează doar câteva minute, dar nu e atât de simplă cum pare. Drumul feribotului intersectează canalul principal al Dunării, pe unde trec vapoare mari, barje încărcate cu cereale și, vara, iahturi.\n\n— Acolo unde ruta noastră intersectează canalul, trebuie să fim foarte atenți, explică domnul Nicoara. Vapoarele mari au prioritate. Dacă vine unul, feribotul se oprește și așteaptă.\n\nIahturile sunt o altă poveste. Vara, mulți turiști coboară pe Dunăre spre Tulcea cu iahturi mici, iar unii nu cunosc bine regulile. Domnul Nicoara a învățat să le recunoască de departe.\n\n— Când văd un iaht care vine prea repede, deviez puțin spre dreapta și îi las loc. Nu trebuie să deviez mult, câțiva metri sunt de ajuns. Apoi revin pe ruta obișnuită.\n\nCele mai grele sunt diminețile de toamnă. Uneori, peste râu se lasă o ceață atât de deasă, încât nu se vede nici celălalt mal. La ora cinci, când pleacă prima cursă, e încă beznă, iar ceața face bezna și mai groasă. În astfel de dimineți, feribotul nu pleacă până nu se vede bine.\n\n— Oamenii se grăbesc, îi înțeleg. Dar dacă ceața persistă, rămânem în port. Ascultăm stația, vorbim cu colegii de pe celălalt mal și așteptăm.\n\nDe cele mai multe ori, ceața persistă doar o oră. Când se face lumină și bezna dispare, domnul Nicoara pornește motorul. Primii pasageri sunt de obicei aceiași: o asistentă care lucrează la spitalul din oraș, doi elevi cu ghiozdane mari și un brutar care duce pâine caldă la magazinele de pe celălalt mal.\n\n— Pentru ei feribotul e ca un autobuz, spune domnul Nicoara. Și eu sunt un fel de șofer, doar că drumul meu e apa.\n\nÎntrebări:\nCe face domnul Nicoara?\nDomnul Nicoara lucrează pe feribotul care traversează Dunărea la Brăila.\nUnde trebuie să fie foarte atent?\nTrebuie să fie foarte atent acolo unde ruta feribotului intersectează canalul principal al Dunării.\nCe face când vede un iaht care vine prea repede?\nDeviază puțin spre dreapta și îi lasă loc iahtului.\nCe se întâmplă dacă ceața persistă?\nDacă ceața persistă, feribotul rămâne în port și așteaptă.\nCine sunt de obicei primii pasageri?\nPrimii pasageri sunt o asistentă, doi elevi și un brutar care duce pâine caldă."
+    },
+    {
+      "title": "Compostul din grădina blocului",
+      "summary": "An engineer from Sibiu's sanitation service writes a column about the new optional compost bins for apartment blocks: what decomposition needs, why bark and branches help, why stuffing the bin is inefficient, and how an awareness programme changed residents' habits.",
+      "newWords": [
+        "opțional",
+        "descompunere",
+        "scoarță",
+        "îndesa",
+        "ineficient",
+        "conștientizare"
+      ],
+      "text": "De un an, serviciul de salubritate din Sibiu oferă blocurilor din oraș containere pentru compost. Programul este opțional: fiecare asociație de proprietari decide dacă vrea un container în grădina blocului. Sunt inginer la acest serviciu și mă numesc Hedwig. Vreau să explic aici, pe scurt, ce am învățat în primul an.\n\nCompostul nu este altceva decât descompunerea resturilor vegetale: coji de legume și de fructe, frunze, iarbă tăiată, zaț de cafea. Descompunerea o fac micile viețuitoare din sol, iar ele au nevoie de trei lucruri: aer, umezeală și răbdare. Dacă lipsește unul dintre ele, procesul se oprește sau începe să miroasă urât.\n\nCea mai frecventă greșeală pe care am văzut-o este simplă: mulți locatari obișnuiesc să îndese resturile în container, ca să încapă mai multe. Pare o idee bună, dar e foarte ineficient. Când îndesăm frunzele și cojile, aerul nu mai circulă, iar descompunerea devine lentă. Un container plin, dar îndesat, face compost mai târziu decât unul pe jumătate gol.\n\nAlt sfat: puneți printre resturile ude și materiale uscate. Cel mai bun material este scoarța de copac mărunțită, pe care o dăm gratuit la punctul nostru de colectare. Scoarța ține straturile afânate și lasă aerul să intre. Și crengile subțiri ajută, dacă sunt tăiate în bucăți mici.\n\nLa început, multe asociații au refuzat containerele. Oamenii credeau că atrag muște sau că miros. De aceea am pornit un program de conștientizare: am mers din bloc în bloc, am ținut întâlniri scurte cu locatarii și am lăsat la fiecare intrare o foaie cu reguli simple. Conștientizarea a funcționat mai bine decât ne așteptam. După trei luni, numărul containerelor s-a dublat.\n\nRezultatul se vede: din fiecare container, după șase luni, ies câteva găleți de pământ negru, bun pentru flori. Unii locatari îl folosesc în ghivecele de pe balcon, alții în grădina din fața blocului. Iar coșurile de gunoi se umplu mai încet.\n\nProgramul rămâne opțional și așa va rămâne. Dar dacă blocul dumneavoastră încă nu are un container, vă invit să ne sunați. Venim, îl montăm și vă aducem primul sac de scoarță.\n\nÎntrebări:\nCe le oferă serviciul de salubritate din Sibiu blocurilor?\nServiciul de salubritate le oferă containere pentru compost, într-un program opțional.\nDe ce au nevoie micile viețuitoare care fac descompunerea?\nAu nevoie de aer, de umezeală și de răbdare.\nDe ce este ineficient să îndesăm resturile în container?\nPentru că aerul nu mai circulă și descompunerea devine lentă.\nLa ce ajută scoarța de copac mărunțită?\nScoarța ține straturile afânate și lasă aerul să intre.\nCe a făcut serviciul în programul de conștientizare?\nA mers din bloc în bloc, a ținut întâlniri cu locatarii și a lăsat la fiecare intrare o foaie cu reguli simple."
+    },
+    {
+      "title": "Prima plombă a lui Ervin",
+      "summary": "At a public dental clinic, a bald, calm dentist uses a gentle local anaesthetic to fill a seven-year-old's tooth; the boy's expressive face shows every fear, the dentist consoles him, and his mother notes how respectful the staff are.",
+      "newWords": [
+        "anestezie",
+        "chel",
+        "consola",
+        "expresiv",
+        "respectuos"
+      ],
+      "text": "Ervin are șapte ani și, de o săptămână, îl doare un dinte. Rucsandra, mama lui, a făcut o programare la cabinetul stomatologic al policlinicii din cartier, unde consultațiile pentru copii sunt gratuite.\n\nErvin are o față foarte expresivă. Când îi place ceva, ochii îi strălucesc și zâmbește cu toată fața. Când îi e frică, sprâncenele i se ridică, iar buzele i se strâng. În sala de așteptare, fața lui expresivă spunea limpede tot ce simțea: nu voia să intre.\n\nMedicul dentist, domnul doctor Stănescu, era un bărbat înalt și chel, cu ochelari rotunzi. A ieșit chiar el pe hol să-i cheme.\n\n— Tu trebuie să fii Ervin, a spus el. Eu sunt doctorul Stănescu. Vrei să vezi scaunul meu care urcă și coboară?\n\nErvin a privit capul lui chel, care strălucea sub lampă, și a zâmbit puțin, fără să vrea. A intrat.\n\nDoctorul s-a uitat la dinte și i-a explicat Rucsandrei că e nevoie de o plombă mică. Apoi s-a întors spre Ervin.\n\n— O să-ți fac o anestezie ușoară. Mai întâi pun pe gingie un gel cu gust de căpșuni, ca să nu simți înțepătura. După anestezie, buza o să-ți pară mare și grea, dar nu o să te doară nimic.\n\nCând a văzut acul, fața expresivă a lui Ervin s-a schimbat din nou, iar ochii i s-au umplut de lacrimi. Doctorul Stănescu nu s-a grăbit. A pus acul deoparte și l-a consolat cu voce calmă.\n\n— Știu că e greu. Mulți copii plâng aici, și asta e în regulă. Hai să numărăm împreună până la zece.\n\nRucsandra l-a ținut de mână și l-a consolat și ea. La „șapte”, anestezia era gata. Ervin aproape că nici n-a simțit-o.\n\nPlomba a durat un sfert de oră. La sfârșit, doctorul i-a dat lui Ervin o diplomă de „pacient curajos” și o periuță de dinți nouă.\n\nPe drum spre casă, Rucsandra s-a gândit cât de respectuos fusese doctorul cu copilul ei: îi explicase fiecare pas și îi vorbise ca unui om mare. Și asistenta fusese la fel de respectuoasă. Seara, i-a scris directorului policlinicii un mesaj scurt de mulțumire.\n\nÎntrebări:\nDe ce au mers Ervin și Rucsandra la policlinică?\nPentru că pe Ervin îl durea un dinte de o săptămână.\nCum arată doctorul Stănescu?\nDoctorul Stănescu este un bărbat înalt și chel, cu ochelari rotunzi.\nCe arată fața expresivă a lui Ervin în sala de așteptare?\nFața lui expresivă arată că îi e frică și că nu vrea să intre.\nCum l-a consolat doctorul pe Ervin?\nL-a consolat cu voce calmă și i-a propus să numere împreună până la zece.\nDe ce i-a scris Rucsandra directorului policlinicii?\nPentru că doctorul și asistenta fuseseră foarte respectuoși cu copilul ei."
+    },
+    {
+      "title": "Rampa de la primărie",
+      "summary": "In Timișoara, the town hall asks Ulrike, who uses a wheelchair, to review its accessibility plan: parking spaces marked off in yellow, outlined wheelchair signs, a ramp whose steepness the architect explains plausibly, and in spring an admirable result.",
+      "newWords": [
+        "delimitat",
+        "conturat",
+        "plauzibil",
+        "admirabil"
+      ],
+      "text": "Ulrike are treizeci și cinci de ani, lucrează ca traducătoare și se deplasează într-un scaun cu rotile de când era mică. Locuiește în Timișoara, într-un cartier liniștit, aproape de parc. Primăvara trecută, primăria a anunțat că vrea să facă mai accesibile clădirile ei pentru cei care folosesc un scaun cu rotile și a invitat câțiva locuitori să discute planul. Ulrike a fost una dintre ei.\n\nLa prima întâlnire, arhitectul primăriei, domnul Ardeleanu, a prezentat proiectul pe un ecran mare. Planul era bine conturat: în fața clădirii urmau să fie patru locuri de parcare rezervate, delimitate cu linii galbene groase. Pe asfalt, în mijlocul fiecărui loc, avea să fie pictat un scaun cu rotile, conturat cu alb, ca să se vadă de departe. La intrare urma să fie construită o rampă, iar pe hol, pe podea, o bandă în relief pentru persoanele care nu văd.\n\nUlrike a ascultat atentă. Ideea i s-a părut bună, dar avea o întrebare.\n\n— Rampa din desen pare destul de abruptă. De ce nu e mai lungă?\n\nDomnul Ardeleanu i-a arătat planul clădirii. În fața intrării era un spațiu delimitat de trotuar și de o stație de autobuz, iar rampa nu putea fi mai lungă de opt metri. De aceea, a propus să facă rampa în formă de „L”, cu un loc de odihnă la mijloc.\n\nExplicația era plauzibilă, iar soluția i-a plăcut lui Ulrike. Nu era o scuză, ci un motiv plauzibil, pe care îl putea verifica oricine pe plan. A cerut doar ca balustrada să fie pe ambele părți, nu numai pe una. Arhitectul a notat imediat.\n\n— Mulțumesc. Sunt lucruri pe care pe hârtie nu le vezi, a spus el.\n\nLucrările au început în iulie și s-au terminat în octombrie. În ziua în care rampa a fost deschisă, Ulrike a venit să o încerce. A urcat fără ajutor, s-a oprit la locul de odihnă și a intrat în hol. Locurile de parcare erau delimitate exact cum scria în plan, iar scaunele cu rotile conturate cu alb se vedeau din capătul străzii.\n\n— E un lucru admirabil, i-a spus ea domnului Ardeleanu. Nu numai rampa, ci faptul că ne-ați întrebat pe noi înainte.\n\nCâteva săptămâni mai târziu, Ulrike a primit un mesaj de la primărie. Planul urma să fie folosit și la biblioteca de cartier și la policlinică. I s-a părut un pas admirabil și a acceptat cu bucurie să participe din nou.\n\nÎntrebări:\nDe ce a invitat primăria câțiva locuitori la o întâlnire?\nPentru că voia să facă mai accesibile clădirile ei pentru cei care folosesc un scaun cu rotile.\nCum erau delimitate locurile de parcare?\nLocurile de parcare erau delimitate cu linii galbene groase.\nCe urma să fie pictat în mijlocul fiecărui loc?\nUn scaun cu rotile, conturat cu alb.\nDe ce nu putea rampa să fie mai lungă?\nPentru că spațiul din fața intrării era delimitat de trotuar și de o stație de autobuz.\nCe i s-a părut admirabil lui Ulrike?\nI s-a părut admirabil că primăria i-a întrebat pe locuitori înainte să construiască rampa."
+    },
+    {
+      "title": "Registrul cu litere aurite",
+      "summary": "At the archives in Cluj, a young researcher becomes an accredited reader so he can document the history of an old pharmacy founded by a prominent family; an archivist brings him a register with gilded letters and the related files.",
+      "newWords": [
+        "acreditat",
+        "documenta",
+        "proeminent",
+        "aurit",
+        "conex"
+      ],
+      "text": "Szabolcs este doctorand la Facultatea de Istorie din Cluj. Vrea să scrie o lucrare despre o farmacie veche din centrul orașului, deschisă în 1870 și închisă abia după o sută de ani. Ca să documenteze istoria farmaciei, are nevoie de documentele păstrate la arhivele județene.\n\nArhivele sunt un serviciu public, dar nu poți intra pur și simplu în sala de studiu. Mai întâi trebuie să devii cititor acreditat. Szabolcs a completat o cerere, a adus o scrisoare de la profesorul lui și o copie după buletin. După o săptămână a primit legitimația: acum era cercetător acreditat și putea cere orice dosar care nu era secret sau deteriorat.\n\nArhivista de serviciu, doamna Hannelore, l-a ajutat să caute în inventare. Farmacia fusese deschisă de o familie proeminentă din Cluj, cunoscută în tot orașul pentru farmaciștii, medicii și profesorii pe care îi dăduse. Numele familiei apărea în multe registre.\n\n— Cel mai important document pe care îl avem e registrul de rețete al farmaciei, a spus doamna Hannelore. Vi-l aduc imediat.\n\nRegistrul era mare și greu, legat în piele maro. Pe copertă, numele farmaciei era scris cu litere aurite. Literele aurite se mai vedeau și acum, după un secol și jumătate, deși marginile copertei erau tocite. Înăuntru, pe sute de pagini, farmaciștii notaseră cu cerneală fiecare rețetă preparată: data, numele medicului, ingredientele.\n\n— Ca să documentați bine istoria farmaciei, aveți nevoie și de dosarele conexe, a adăugat arhivista. Avem facturi, scrisori către furnizori și planul clădirii. Sunt în fonduri diferite, dar sunt conexe cu registrul.\n\nTimp de trei luni, Szabolcs a venit la arhive de două ori pe săptămână. A fotografiat paginile, a citit facturile și scrisorile conexe și a reconstituit, pas cu pas, viața farmaciei: ce medicamente se vindeau cel mai des, de unde veneau plantele, câți ucenici lucrau acolo. A aflat că un membru al familiei proeminente fusese și primul care adusese în oraș un aparat pentru pastile.\n\nLa sfârșit, Szabolcs i-a dat doamnei Hannelore o copie a primului capitol. Ea l-a pus în biblioteca arhivei, alături de registrul cu litere aurite.\n\nÎntrebări:\nDespre ce vrea să scrie Szabolcs?\nSzabolcs vrea să scrie despre o farmacie veche din centrul Clujului.\nCe a trebuit să facă Szabolcs ca să devină cercetător acreditat?\nA completat o cerere, a adus o scrisoare de la profesorul lui și o copie după buletin.\nCine deschisese farmacia?\nFarmacia fusese deschisă de o familie proeminentă din Cluj.\nCum arăta registrul de rețete?\nEra mare și greu, legat în piele maro, cu numele farmaciei scris cu litere aurite pe copertă.\nCe dosare conexe a citit Szabolcs?\nA citit facturi, scrisori către furnizori și planul clădirii."
+    },
+    {
+      "title": "Sâmbăta în piață",
+      "summary": "A veterinary inspector does her Saturday round at a market in Timișoara: she checks the freezer, in a small cellar under a trapdoor, of a stall selling frozen lobster with shiny shells, the papers of a farmer's billy goat at the animal fair, and watches pensioners pay with the town hall's market coupons.",
+      "newWords": [
+        "homar",
+        "congelat",
+        "lucios",
+        "trapă",
+        "țap",
+        "cupon"
+      ],
+      "text": "Ortrun lucrează ca inspector la direcția sanitar-veterinară din Timișoara. În fiecare sâmbătă dimineață, face o vizită în piața mare a orașului. Treaba ei este să verifice dacă alimentele sunt păstrate corect și dacă animalele aduse la vânzare au actele în regulă.\n\nPrima oprire este la tarabele de pește. De câțiva ani, un comerciant tânăr vinde aici și fructe de mare, printre care homari. Homarii vin de departe, din nordul Atlanticului, așa că ajung în Timișoara congelați.\n\n— Bună dimineața. Pot să văd lada frigorifică? a întrebat Ortrun.\n\nLada stătea într-o mică pivniță de sub tarabă, la care se cobora printr-o trapă de lemn. Comerciantul a ridicat trapa, au coborât amândoi câteva trepte, iar el i-a deschis lada. Ortrun a verificat termometrul: minus optsprezece grade, exact cât trebuie. Homarii congelați, cu carapacea roșie-închis și lucioasă, erau așezați în cutii, iar pe fiecare etichetă scria clar „produs congelat”, data și țara de origine.\n\n— Totul e în regulă, a spus ea. Țineți minte doar că un homar congelat nu se mai poate congela a doua oară după ce s-a dezghețat.\n\n— Știu, i-a răspuns comerciantul. Când un client vrea homar pentru seară, îl scot din ladă abia atunci.\n\nA doua oprire a fost în partea din spate a pieței, unde, în fiecare sâmbătă, fermierii din satele din jur vând animale. Un bătrân adusese un țap mare și alb, cu blana lucioasă, barbă lungă și coarne răsucite. Țapul stătea liniștit lângă o căruță și mesteca fân.\n\nOrtrun i-a cerut actele animalului. Bătrânul i-a arătat carnetul de sănătate și crotalia galbenă din urechea țapului. Numărul de pe crotalie era același cu cel din carnet.\n\n— E un țap frumos, a spus Ortrun. Pentru ce îl vindeți?\n\n— Am prea mulți la fermă. Un vecin de-al meu are capre și are nevoie de un țap bun.\n\nCând au urcat înapoi, comerciantul a închis trapa cu grijă. Pe drumul înapoi, Ortrun a trecut prin hala de legume. La o tarabă, o bătrână plătea roșii și brânză cu un cupon de hârtie verde. Ortrun știa programul: primăria dă pensionarilor cu pensii mici câte un cupon lunar, pe care îl pot folosi doar la producătorii din piață. Bătrâna i-a spus că un cupon îi ajunge pentru cumpărăturile unei săptămâni.\n\n— Și le cumpăr de la oameni pe care îi cunosc de ani de zile, a adăugat ea.\n\nOrtrun și-a notat în raport că inspecția s-a încheiat fără probleme.\n\nÎntrebări:\nCe face Ortrun în fiecare sâmbătă dimineață?\nOrtrun face o vizită în piața mare din Timișoara și verifică alimentele și animalele.\nDe ce ajung homarii în Timișoara congelați?\nPentru că homarii vin de departe, din nordul Atlanticului.\nUnde stătea lada cu homari?\nLada stătea într-o mică pivniță de sub tarabă, la care se cobora printr-o trapă de lemn.\nCe scria pe etichetele cutiilor cu homari?\nPe etichete scria „produs congelat”, data și țara de origine.\nCum arăta țapul adus de bătrân?\nEra un țap mare și alb, cu blana lucioasă, barbă lungă și coarne răsucite.\nCe este cuponul cu care plătea bătrâna?\nEste un cupon lunar pe care primăria îl dă pensionarilor cu pensii mici, pentru cumpărături de la producătorii din piață."
+    },
+    {
+      "title": "Cursul de scriere de la casa de cultură",
+      "summary": "At the town's culture house, an adult educator helps a retired mathematician write down his memories: the man's sharp intellect struggles with grammatical rules, he sits thoughtful over his commas, and he finally reads his first chapter aloud.",
+      "newWords": [
+        "educator",
+        "matematician",
+        "gramatical",
+        "intelect",
+        "gânditor"
+      ],
+      "text": "Casa de cultură din Suceava organizează în fiecare toamnă cursuri gratuite pentru adulți: limbi străine, fotografie, calculator. Bence este educator pentru adulți și, de trei ani, ține acolo un curs de scriere pentru cei care vor să-și pună amintirile pe hârtie.\n\nAnul acesta, printre cursanți se află domnul Racoviță, un matematician pensionar. Lucrase patruzeci de ani la universitate și scrisese zeci de articole, dar toate erau pline de formule, nu de povești. Acum voia să scrie despre copilăria lui într-un sat de lângă Rădăuți, pentru nepoți.\n\nLa prima lecție, Bence le-a cerut cursanților să scrie o pagină despre o zi de vară din copilărie. Domnul Racoviță a scris repede, dar când Bence i-a citit textul, a găsit multe greșeli gramaticale: virgule puse la întâmplare, acorduri greșite, propoziții foarte lungi.\n\n— Greșelile gramaticale nu sunt o problemă, i-a spus Bence. Le corectăm împreună. Important e că pagina dumneavoastră are viață.\n\nDomnul Racoviță a rămas gânditor. Avea un intelect ascuțit, obișnuit cu reguli clare. În matematică, o regulă e valabilă mereu. În gramatică, i se părea, fiecare regulă avea excepții.\n\n— Ca matematician, aș vrea o formulă pentru virgule, a spus el, pe jumătate în glumă.\n\nBence a râs și i-a dat o foaie cu cinci reguli simple. Un educator bun, credea el, nu dă cursanților toate regulile deodată, ci doar pe cele de care au nevoie acum. Domnul Racoviță a luat foaia acasă și a studiat-o cu aceeași seriozitate cu care studia odinioară o demonstrație.\n\nSăptămânile au trecut. La fiecare lecție, textele lui aveau tot mai puține greșeli gramaticale. Intelectul lui găsise o ordine și în limbă: o propoziție, o idee; un subiect, un verb. Bence a observat că omul acesta, care la început stătea gânditor în fața fiecărei virgule, scria acum cu plăcere.\n\nÎn ultima seară a cursului, fiecare cursant a citit cu voce tare un capitol. Domnul Racoviță a citit despre fântâna din sat și despre bunica lui, care știa să socotească mai repede decât orice matematician. Sala a ascultat în liniște, iar la sfârșit l-a aplaudat.\n\nÎntrebări:\nCe fel de curs ține Bence la casa de cultură?\nBence ține un curs de scriere pentru adulții care vor să-și pună amintirile pe hârtie.\nDespre ce voia să scrie domnul Racoviță?\nVoia să scrie despre copilăria lui într-un sat de lângă Rădăuți, pentru nepoți.\nCe greșeli gramaticale a găsit Bence în primul text?\nA găsit virgule puse la întâmplare, acorduri greșite și propoziții foarte lungi.\nDe ce a rămas domnul Racoviță gânditor?\nPentru că intelectul lui era obișnuit cu reguli clare, iar în gramatică fiecare regulă avea excepții.\nCe crede Bence despre un educator bun?\nCrede că un educator bun nu dă toate regulile deodată, ci doar pe cele de care cursanții au nevoie acum."
+    },
+    {
+      "title": "Cinematograful care a renăscut",
+      "summary": "In Sibiu, an old cinema is reborn as a community centre run by the town hall: a screenwriter who writes TV soap operas leads a workshop, a retired seamstress writes an ode to the cinema of her youth, and the director of culture sends her a letter of esteem.",
+      "newWords": [
+        "renaște",
+        "telenovelă",
+        "scenarist",
+        "odă",
+        "tulburător",
+        "stima"
+      ],
+      "text": "Cinematograful de pe strada principală din Sibiu a fost închis aproape douăzeci de ani. Geamurile erau prăfuite, iar afișul ultimului film se decolorase de tot. Anul trecut, primăria a renovat clădirea și a transformat-o într-un centru cultural pentru cartier. Oamenii spun că vechiul cinematograf a renăscut.\n\nAcum, în fiecare seară, în sala cea mare are loc ceva: un film vechi, un concert, o seară de lectură. Iar sâmbăta, Imre ține acolo un atelier de scriere. Imre este scenarist. De zece ani scrie pentru televiziune, mai ales telenovele, și știe cum se construiește o poveste care ține publicul în fața ecranului luni de zile.\n\n— O telenovelă bună are personaje pe care le recunoști, spune el la primul atelier. Bunica, vecinul, colega de birou. Ca scenarist, nu inventez oameni, îi observ.\n\nPrintre cursanți este și Lotte, o croitoreasă pensionară de șaptezeci și doi de ani. Ea a venit pentru că în tinerețe mergea la acest cinematograf în fiecare duminică. Imre le-a cerut cursanților să scrie un text despre un loc care a renăscut. Lotte a ales cinematograful și a scris o odă.\n\nOda ei are doar patru strofe. În prima, descrie scaunele de catifea roșie și mirosul de semințe. În a doua, întunericul sălii înainte de film. În a treia, anii în care ușile au stat închise. În ultima, ziua în care cinematograful a renăscut și ea a intrat din nou în sală.\n\nCând Lotte și-a citit oda, sala a tăcut. Era un text simplu, dar tulburător. Imre a spus că, în toată cariera lui de scenarist, a scris rar o scenă atât de tulburătoare ca ultima strofă.\n\nOda a fost publicată în revista centrului cultural. O săptămână mai târziu, Lotte a primit o scrisoare de la directorul de cultură al primăriei. Scrisoarea începea așa: „Stimată doamnă Lotte, vă mulțumim pentru oda dedicată cinematografului nostru.” Mai departe, directorul scria că o stimează pentru felul în care a păstrat amintirea locului și o invita să citească oda la aniversarea centrului.\n\nLotte a pus scrisoarea într-o ramă, lângă o fotografie veche cu cinematograful. Iar sâmbăta următoare a venit din nou la atelier, cu o idee pentru o telenovelă.\n\nÎntrebări:\nCe s-a întâmplat cu vechiul cinematograf din Sibiu?\nPrimăria l-a renovat și l-a transformat într-un centru cultural, iar oamenii spun că a renăscut.\nCe scrie Imre pentru televiziune?\nImre este scenarist și scrie mai ales telenovele.\nDe ce a venit Lotte la atelier?\nPentru că în tinerețe mergea la acest cinematograf în fiecare duminică.\nDespre ce este oda lui Lotte?\nOda este despre cinematograf: scaunele de catifea, anii în care a stat închis și ziua în care a renăscut.\nCum începea scrisoarea directorului de cultură?\nScrisoarea începea cu „Stimată doamnă Lotte”."
+    }
+  ]
+}
