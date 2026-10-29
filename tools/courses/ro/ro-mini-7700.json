@@ -1,0 +1,193 @@
+{
+  "id": "ro-mini-7700",
+  "rankUpTo": 7700,
+  "level": "C1",
+  "title": "Invenții și inventatori",
+  "description": "Ten stories about inventions and inventors: a canteen cook's mashing machine, a solar pump for a mountain pasture, a lighthouse keeper and his lens, a book on steam and hydraulics, Becquerel's photographic plates, a school inventors' fair, an amplified violin, a fitness band, glass made from shards, and a column on street lighting.",
+  "topic": "Inventions and inventors",
+  "names": [
+    "Mărița",
+    "Măriței",
+    "Glodeanu",
+    "Odobescu",
+    "Bacău",
+    "Lixandru",
+    "Țugui",
+    "Lumința",
+    "Luminței",
+    "Maramureș",
+    "Cluj",
+    "Jănel",
+    "Brumaru",
+    "Docia",
+    "Sulina",
+    "Dunărea",
+    "Fresnel",
+    "Avrigeanu",
+    "Newcomen",
+    "Watt",
+    "James",
+    "Thomas",
+    "Joseph",
+    "Bramah",
+    "Anglia",
+    "Angliei",
+    "Becquerel",
+    "Paris",
+    "Parisului",
+    "Curie",
+    "Nobel",
+    "Săndica",
+    "Corlăteanu",
+    "Năstăsel",
+    "Iași",
+    "Terezia",
+    "Tereziei",
+    "Andrieș",
+    "Ralea",
+    "Clinciu",
+    "Sibiu",
+    "Beethoven",
+    "Smarandița",
+    "Bârzoi",
+    "Craiova",
+    "Romanescu",
+    "Ioneta",
+    "Ionetei",
+    "Vulcănescu",
+    "Sucevei",
+    "Londra",
+    "Bucureștiul",
+    "București",
+    "Timișoara",
+    "România",
+    "Europa"
+  ],
+  "lessons": [
+    {
+      "title": "Piureul de joi",
+      "summary": "A canteen cook in Bacău and the factory's mechanic turn an old dough machine into a potato masher, so her two colleagues no longer spend two hours a day mashing by hand.",
+      "newWords": [
+        "piure",
+        "lactat",
+        "salariat",
+        "avantajos",
+        "organizatoric"
+      ],
+      "text": "Mărița Glodeanu conduce de 15 ani bucătăria cantinei de la o fabrică de mobilă din Bacău. Fabrica are aproape 400 de salariați, iar cei mai mulți dintre ei mănâncă la prânz la cantină. Felul preferat al salariaților este, de departe, piureul de cartofi cu chiftele, pe care Mărița îl face în fiecare joi.\n\nUn piure bun nu e greu de făcut, dar cere timp și putere. Cartofii se curăță, se fierb, apoi se zdrobesc și se amestecă cu lactate calde: lapte, unt și puțină smântână. Pentru 400 de porții e nevoie de aproape 80 de kilograme de cartofi. Cele două colege ale Măriței zdrobeau cartofii cu mâna, cu o unealtă grea de lemn, timp de două ore. Joi seara erau atât de obosite, încât Mărița se temea că, într-o zi, o să-și caute alt loc de muncă.\n\nFabrica avea un mecanic priceput, domnul Odobescu, care repara utilajele din atelier. Într-o zi, Mărița l-a rugat să vină în bucătărie și i-a arătat cum se face piureul. Domnul Odobescu s-a uitat la unealta de lemn, apoi la un aparat vechi de frământat aluat, pe care nu-l mai folosea nimeni.\n\n— Un utilaj nou pentru piure costă cât o mașină mică, a spus el. Dar dacă adaptăm aparatul ăsta, e mult mai avantajos.\n\nA lucrat la el trei săptămâni, după programul obișnuit. În locul brațului de frământat a pus o paletă de oțel, care apasă cartofii fierbinți printr-o sită mare. Dedesubt, piureul cade într-un vas larg, în care se pot turna lactatele. Toate piesele au costat mai puțin decât salariul pe o lună al unui salariat al fabricii. Pentru cantină, soluția a fost cât se poate de avantajoasă.\n\nPrima joi cu aparatul nu a mers perfect. Problemele nu au fost tehnice, ci organizatorice. Cartofii trebuiau fierți mai devreme, ca să fie gata când pornește aparatul. Cineva trebuia să-l spele imediat după folosire, înainte ca piureul să se usuce pe sită. Mărița a făcut un program nou, cu ore și nume, și l-a lipit pe ușa frigiderului. După două săptămâni, toate problemele organizatorice dispăruseră.\n\nAcum piureul e gata în 30 de minute, nu în două ore, iar colegele Măriței nu mai pleacă joi seara acasă abia mergând. Salariații spun că piureul e chiar mai fin decât înainte. O singură problemă nouă a apărut, într-o joi din martie: piureul a avut atât de mult succes, încât untul s-a terminat înainte de ora unu. De atunci, Mărița comandă cu o zi înainte lactate în plus, ca să nu mai rămână niciodată fără unt.\n\nÎntrebări:\nCâți salariați are fabrica de mobilă?\nFabrica are aproape 400 de salariați.\nDe ce se temea Mărița pentru colegele ei?\nPentru că zdrobeau cartofii cu mâna timp de două ore, iar ea se temea că, într-o zi, o să-și caute alt loc de muncă.\nCe lactate se pun în piure?\nÎn piure se pun lapte, unt și puțină smântână.\nDe ce a adaptat domnul Odobescu un aparat vechi?\nPentru că un utilaj nou costa foarte mult, iar adaptarea aparatului vechi era mult mai avantajoasă.\nCe probleme organizatorice au apărut?\nCartofii trebuiau fierți mai devreme, iar aparatul trebuia spălat imediat după folosire.\nCe face Mărița acum, ca să nu mai rămână fără unt?\nComandă cu o zi înainte lactate în plus."
+    },
+    {
+      "title": "Apă curată pe pășune",
+      "summary": "A sheep farmer in Maramureș and his engineering-student daughter build a solar pump that brings clean water from the stream to the flock on a dry summer pasture.",
+      "newWords": [
+        "pășune",
+        "berbec",
+        "crescător",
+        "albie",
+        "stătător",
+        "sezonier",
+        "salină"
+      ],
+      "text": "Lixandru Țugui este crescător de oi într-un sat din Maramureș. Are 300 de oi și 12 berbeci. Din mai până în octombrie, turma stă pe o pășune de munte, la două ore de mers de sat. Acolo, Lixandru lucrează cu doi ciobani sezonieri, care vin în fiecare primăvară din alt județ și pleacă toamna, când se termină pășunatul. Muncitorii sezonieri sunt pentru el un mare ajutor, pentru că vara e mult de lucru.\n\nPe marginea pășunii curge un pârâu. În verile obișnuite, oile beau din el fără nicio problemă. Vara trecută însă a fost foarte secetoasă. În august, albia pârâului era aproape uscată. Prin albie mai curgea doar un fir subțire de apă, iar pe alocuri rămăseseră câteva bălți de apă stătătoare. Apa stătătoare nu e bună de băut: se încălzește la soare, are un gust urât și atrage insecte. Oile o beau totuși, pentru că nu aveau altceva.\n\nProblema era mai mare din cauza sării. Ca toți crescătorii de oi, Lixandru le dă animalelor bucăți mari de sare, pe care le aduce de la o salină din județ. La salină, sarea se scoate de sute de ani din adâncul pământului. Oile ling sarea și apoi le e foarte sete.\n\nFiica lui Lixandru, Lumința, studiază ingineria la Cluj. În vacanță a urcat la stână și a văzut bălțile din albie.\n\n— Mai jos, lângă stâncă, apa e mai adâncă, a spus ea. Acolo e rece și curată. Trebuie doar s-o aducem până sus.\n\nLumința a cumpărat un panou solar mic și o pompă electrică. A pus pompa în locul cel mai adânc al albiei, iar panoul pe o stâncă însorită. De la pompă, un furtun lung urca până la un vas mare de lemn, pe pășune. Cât timp era soare, pompa mergea singură și umplea vasul cu apă proaspătă.\n\nPrimii care au venit la apă au fost berbecii. Sunt mai mari și mai puternici decât oile și au împins toată turma la o parte. Lumința a mai pus un vas, puțin mai departe, doar pentru berbeci. Din ziua aceea, oile nu s-au mai apropiat de apa stătătoare.\n\nToamna, când turma a coborât în sat, ciobanii sezonieri i-au spus lui Lixandru că n-au avut niciodată o vară atât de liniștită. Alți doi crescători din sat au venit să vadă pompa și au întrebat-o pe Lumința dacă le poate face și lor una. Ea le-a promis că se întoarce la vară.\n\nÎntrebări:\nCâte oi și câți berbeci are Lixandru?\nAre 300 de oi și 12 berbeci.\nCu cine lucrează Lixandru pe pășune?\nLucrează cu doi ciobani sezonieri, care vin primăvara și pleacă toamna.\nCum arăta albia pârâului în august?\nAlbia era aproape uscată: mai curgea doar un fir subțire de apă și rămăseseră câteva bălți de apă stătătoare.\nDe ce le e sete oilor după ce primesc sare?\nPentru că ling sarea adusă de la salină, iar sarea le face sete.\nCum funcționează invenția Luminței?\nUn panou solar pune în mișcare o pompă din albie, iar apa urcă printr-un furtun până la un vas de pe pășune.\nDe ce a mai pus Lumința un vas?\nPentru că berbecii, mai mari și mai puternici, împingeau toată turma la o parte."
+    },
+    {
+      "title": "Farul de la Sulina",
+      "summary": "A retired lighthouse keeper tells his granddaughter how the lighthouse lens gathers light, how he wiped the damp glass and how the reserve burner kept the light on through a stormy night.",
+      "newWords": [
+        "păzitor",
+        "depărta",
+        "feroce",
+        "arzător",
+        "incert",
+        "răsputere",
+        "umezeală"
+      ],
+      "text": "Jănel Brumaru a fost, timp de 30 de ani, păzitorul unui far de lângă Sulina, unde Dunărea se varsă în Marea Neagră. Acum are 80 de ani și locuiește în oraș, dar în fiecare vară o duce pe nepoata lui, Docia, să vadă farul.\n\n— Ce făcea un păzitor de far toată noaptea? l-a întrebat Docia anul acesta.\n\n— Avea grijă ca lumina să nu se stingă niciodată, i-a răspuns bunicul. Navele care veneau de pe mare se uitau după ea, ca să știe unde e țărmul. Și cele care se depărtau de țărm, spre larg, se uitau înapoi la ea.\n\nAu urcat cele aproape 200 de trepte până sus. Acolo, în mijlocul unei camere de sticlă, stătea o lentilă mare, cât un om. Era făcută din zeci de inele de sticlă, puse unul lângă altul.\n\n— Lentila asta a inventat-o un fizician francez, Fresnel, acum două sute de ani, a spus Jănel. Înainte de el, lumina unei lămpi se pierdea în toate direcțiile. Inelele lui o adună într-un singur fascicul puternic, care se vede de la 30 de kilometri. Cu cât se depărtează nava, cu atât lumina pare mai mică, dar nu dispare.\n\nDocia a observat lângă lentilă un aparat vechi de metal.\n\n— Ăsta e arzătorul de rezervă, a spus bunicul. Farul mergea cu curent electric, dar dacă se oprea curentul, aprindeam arzătorul cu petrol. Arzătorul era mai slab decât becul, dar lentila îi făcea lumina destul de puternică.\n\nCea mai grea parte a meseriei era umezeala. Lângă mare, aerul e plin de apă, iar noaptea umezeala se așeza pe sticla lentilei ca un strat subțire de ceață. Jănel urca de mai multe ori pe noapte și ștergea sticla din răsputeri, până când strălucea din nou.\n\n— Și când era furtună? a întrebat Docia.\n\n— Atunci era cel mai greu. Vremea pe mare e mereu incertă: dimineața e soare, iar seara poate începe o furtună. Îmi amintesc o noapte de noiembrie, cu un vânt feroce, care sufla din răsputeri. Valurile erau feroce, iar curentul s-a oprit de două ori. De fiecare dată am aprins arzătorul în câteva minute. Dimineața, căpitanul unei nave care ajunsese în port a venit să-mi mulțumească.\n\nDocia s-a uitat lung la lentilă. Acasă, a desenat farul și, dedesubt, a scris: „Bunicul meu a fost păzitorul luminii.”\n\nÎntrebări:\nCe meserie a avut Jănel timp de 30 de ani?\nA fost păzitorul unui far de lângă Sulina.\nCine a inventat lentila farului și cum funcționează ea?\nA inventat-o fizicianul Fresnel; inelele de sticlă adună lumina într-un singur fascicul puternic.\nCe se întâmpla cu lumina când nava se depărta de țărm?\nLumina părea mai mică, dar nu dispărea.\nCe făcea Jănel când se oprea curentul?\nAprindea arzătorul de rezervă, care mergea cu petrol.\nDe ce era umezeala o problemă?\nPentru că se așeza pe sticla lentilei ca un strat de ceață, iar Jănel trebuia să o șteargă din răsputeri.\nCum era vremea în noaptea din noiembrie?\nVremea era incertă, vântul era feroce și sufla din răsputeri, iar valurile erau feroce."
+    },
+    {
+      "title": "O carte despre forța aburului",
+      "summary": "A short review of a retired engineer's book on steam engines and hydraulic machines, told in chronological order and as gripping as a novel.",
+      "newWords": [
+        "vapori",
+        "hidraulic",
+        "cronologic",
+        "prefață",
+        "coeficient",
+        "palpitant"
+      ],
+      "text": "Am citit de curând „Forța aburului”, cartea pe care inginerul Avrigeanu a scris-o după ce a ieșit la pensie. Timp de 40 de ani a reparat pompe și prese într-o uzină, iar acum povestește istoria mașinilor cu care a lucrat. Recunosc că am deschis-o fără mari așteptări. Am închis-o la două noaptea.\n\nPrefața e scrisă de un profesor de mecanică, care fusese studentul autorului. În prefață, el spune că nimeni nu explică o mașină mai limpede decât cineva care a desfăcut-o de o sută de ori. Prefața are doar trei pagini, dar te face să vrei să citești mai departe.\n\nAutorul își spune povestea în ordine cronologică. Ordinea cronologică nu e o alegere originală, dar aici e cea potrivită, pentru că fiecare invenție pornește de la problema celei de dinainte. Primul capitol începe în 1712, în Anglia. Minele de cărbune se umpleau cu apă, iar Thomas Newcomen a construit o mașină care o scotea afară. În cilindrul mașinii intrau vapori fierbinți, apoi vaporii erau răciți cu apă rece, iar pistonul cobora.\n\nMașina lui Newcomen mergea, dar consuma enorm de mult cărbune. Aici autorul explică foarte clar ce este coeficientul de randament: partea din energia combustibilului care se transformă în lucru util. La mașina lui Newcomen, coeficientul era de aproximativ un procent. Restul energiei se pierdea, pentru că cilindrul era încălzit și răcit la fiecare mișcare. În 1769, James Watt a avut ideea să răcească vaporii într-un vas separat, iar cilindrul să rămână mereu cald. Coeficientul de randament a crescut de câteva ori.\n\nCapitolul despre presele hidraulice mi s-a părut cel mai palpitant. În 1795, Joseph Bramah a obținut un brevet pentru o presă în care un piston mic apasă pe un lichid, iar lichidul împinge un piston mare cu o forță mult mai mare. Autorul a lucrat zeci de ani cu prese hidraulice și povestește cum se repară un sistem hidraulic care pierde ulei, cum sună o pompă obosită și cum îți dai seama, după zgomot, ce piesă trebuie schimbată.\n\nCartea are și defecte. Pe alocuri sunt prea multe cifre, iar ultimul capitol, despre mașinile de azi, e grăbit. Dar ce rămâne e o carte palpitantă despre un subiect pe care îl credeam plictisitor. O recomand oricui a privit vreodată un utilaj și s-a întrebat cum funcționează.\n\nÎntrebări:\nCine a scris cartea „Forța aburului”?\nA scris-o inginerul Avrigeanu, după ce a ieșit la pensie.\nCine a scris prefața?\nPrefața e scrisă de un profesor de mecanică, fost student al autorului.\nDe ce se potrivește ordinea cronologică acestei cărți?\nPentru că fiecare invenție pornește de la problema celei de dinainte.\nCe este coeficientul de randament?\nEste partea din energia combustibilului care se transformă în lucru util.\nCe idee a avut James Watt?\nA avut ideea să răcească vaporii într-un vas separat, ca cilindrul să rămână mereu cald.\nCe capitol i s-a părut cel mai palpitant celui care a scris textul?\nCapitolul despre presele hidraulice."
+    },
+    {
+      "title": "Plăcile din sertar",
+      "summary": "In 1896 Henri Becquerel leaves photographic plates with uranium salts in a drawer on cloudy days and finds clear images on them, an inexplicable result that leads to the discovery of radioactivity.",
+      "newWords": [
+        "uraniu",
+        "inexplicabil",
+        "claritate",
+        "tentă",
+        "culminant"
+      ],
+      "text": "În februarie 1896, fizicianul francez Becquerel lucra la Paris cu o întrebare simplă. Cu câteva luni înainte se descoperiseră razele X, care trec prin hârtie și prin lemn. Becquerel se întreba dacă unele substanțe care strălucesc după ce stau în soare nu trimit și ele raze asemănătoare.\n\nPentru experimentele lui a ales sărurile de uraniu. Uraniul este un metal greu, iar sărurile lui au o tentă galben-verzuie și strălucesc slab în întuneric după ce au stat la lumină. Becquerel a învelit o placă fotografică în hârtie neagră groasă, prin care nu trece lumina soarelui. Pe hârtie a pus câteva cristale de uraniu și a lăsat totul la soare o zi întreagă. Când a developat placa, a văzut pe ea conturul cristalelor. A crezut că soarele „încarcă” uraniul, iar uraniul trimite apoi raze prin hârtie.\n\nLa sfârșitul lunii februarie, cerul Parisului s-a acoperit de nori. Zile întregi, lumina a avut o tentă cenușie, iar soarele nu s-a arătat deloc. Becquerel a pus plăcile pregătite, cu uraniul deasupra, într-un sertar întunecat și a așteptat vreme mai bună.\n\nAici vine momentul culminant al poveștii. La 1 martie, deși soarele încă nu ieșise, Becquerel a hotărât să developeze plăcile totuși. Se aștepta la imagini foarte slabe sau la nimic. A găsit însă contururi puternice, de o claritate neașteptată, mai clare chiar decât cele de la soare.\n\nRezultatul era inexplicabil. Dacă uraniul nu primise lumină, de unde venea energia razelor? Becquerel a repetat experimentul de mai multe ori, cu plăci ținute numai la întuneric. Rezultatul a fost mereu același, cu aceeași claritate. Uraniul trimitea raze singur, fără ajutorul soarelui.\n\nCe părea inexplicabil în 1896 a devenit, în câțiva ani, un domeniu nou al fizicii. Marie Curie a numit fenomenul radioactivitate și a descoperit alte elemente cu aceeași proprietate. În 1903, Becquerel și soții Curie au primit împreună Premiul Nobel pentru fizică. Mulți istorici spun că momentul culminant al descoperirii nu a fost o idee genială, ci decizia de a developa niște plăci despre care Becquerel credea că nu vor arăta nimic.\n\nÎntrebări:\nCe întrebare avea Becquerel în februarie 1896?\nSe întreba dacă substanțele care strălucesc după ce stau în soare trimit și ele raze asemănătoare razelor X.\nCe tentă au sărurile de uraniu?\nAu o tentă galben-verzuie.\nDe ce a pus Becquerel plăcile într-un sertar?\nPentru că cerul Parisului s-a acoperit de nori și soarele nu s-a arătat zile întregi.\nCare este momentul culminant al poveștii?\nMomentul în care Becquerel a developat plăcile din sertar și a găsit contururi de o claritate neașteptată.\nDe ce era rezultatul inexplicabil?\nPentru că uraniul nu primise lumină, dar trimisese totuși raze puternice.\nCum a numit Marie Curie fenomenul?\nL-a numit radioactivitate."
+    },
+    {
+      "title": "Vasul care udă singur",
+      "summary": "A high-school student in Iași enters a flower pot that waters itself in a school inventors' contest, writes its technical description, wins a consolation prize and learns what certification is needed to sell it.",
+      "newWords": [
+        "punctaj",
+        "unanimitate",
+        "consolare",
+        "memoriu",
+        "certificare"
+      ],
+      "text": "Săndica Corlăteanu are 17 ani și învață la un liceu din Iași. Anul trecut a construit un vas pentru flori care își udă singur planta. În pământ e un senzor care măsoară umezeala. Când umezeala scade sub un anumit nivel, o pompă mică aduce apă dintr-un rezervor ascuns în peretele vasului. Săndica l-a făcut pentru bunica ei, care pleacă des la sora ei și își găsește florile uscate când se întoarce.\n\nÎn martie, profesorul ei de fizică, domnul Năstăsel, i-a spus că la Iași se organizează un concurs de invenții pentru elevi. Fiecare participant trebuia să trimită, pe lângă invenție, un memoriu tehnic: un text de câteva pagini care explică problema, soluția și felul în care funcționează aparatul. Săndica a scris memoriul în trei seri. Domnul Năstăsel l-a citit și i-a spus că memoriul e bun, dar prea lung. L-a scurtat la patru pagini.\n\nJuriul acorda fiecărui proiect un punctaj pentru patru criterii: originalitate, utilitate, calitatea execuției și prezentarea. Punctajul maxim era de 100 de puncte. În ziua concursului, Săndica a explicat de trei ori, în fața a trei membri ai juriului, cum funcționează vasul. A turnat apă în rezervor, a scos senzorul din pământ ca să arate cum pornește pompa și a răspuns la toate întrebările.\n\nSeara s-au anunțat rezultatele. Săndica a obținut un punctaj de 86 de puncte. Premiul întâi a fost acordat, în unanimitate, unui băiat care construise un aparat ce sortează singur deșeurile din plastic. Juriul a anunțat că decizia a fost luată în unanimitate, fără nicio discuție. Săndica a primit un premiu de consolare: o carte despre senzori și o vizită într-un laborator al universității.\n\nPremiul de consolare a fost, până la urmă, mai util decât s-ar fi așteptat. După festivitate, unul dintre membrii juriului, inginer la o firmă din Iași, a venit la ea.\n\n— Vasul tău e foarte practic, i-a spus el. Dacă vrei să-l vinzi într-o zi, ai nevoie de o certificare. Orice aparat electric care ajunge în magazine trece printr-o certificare de siguranță.\n\nI-a explicat că certificarea cere teste și documente, iar memoriul ei tehnic e un început foarte bun. Săndica a plecat acasă cu cartea sub braț și cu un plan nou. Vara aceasta vrea să afle cât costă o certificare și cine o face.\n\nÎntrebări:\nCum funcționează vasul construit de Săndica?\nUn senzor măsoară umezeala din pământ, iar când ea scade, o pompă mică aduce apă dintr-un rezervor ascuns.\nCe este un memoriu tehnic?\nEste un text care explică problema, soluția și felul în care funcționează aparatul.\nPentru ce criterii acorda juriul punctajul?\nPentru originalitate, utilitate, calitatea execuției și prezentare.\nCe punctaj a obținut Săndica?\nA obținut un punctaj de 86 de puncte.\nCum a fost acordat premiul întâi?\nA fost acordat în unanimitate unui băiat care construise un aparat ce sortează deșeurile din plastic.\nCe i-a explicat inginerul despre certificare?\nI-a explicat că orice aparat electric vândut în magazine are nevoie de o certificare de siguranță, cu teste și documente."
+    },
+    {
+      "title": "Vioara de sub cerul liber",
+      "summary": "A violinist in Sibiu cannot be heard at an open-air concert, and an old instrument maker builds a small clip-on sensor that amplifies her violin without harming it.",
+      "newWords": [
+        "amplifica",
+        "simfonie",
+        "instrumental",
+        "impresar",
+        "afectiv"
+      ],
+      "text": "Terezia Andrieș cântă la vioară într-o orchestră din Sibiu. Vioara ei are peste o sută de ani și a primit-o de la profesoara ei, când a terminat facultatea. Pentru Terezia, vioara are o valoare afectivă mult mai mare decât prețul ei. Nu ar schimba-o pentru nicio altă vioară din lume.\n\nÎn iunie, orchestra a fost invitată să cânte în aer liber, în centrul orașului, o simfonie de Beethoven. La repetiție, Terezia a avut o surpriză neplăcută. În sala de concert, sunetul viorii umple tot spațiul. Afară însă sunetul se pierde, iar zgomotul străzii acoperă notele cele mai fine. Microfoanele obișnuite, puse în fața orchestrei, prindeau și ele zgomotul străzii.\n\nImpresarul Tereziei, domnul Clinciu, a venit la repetiție și a ascultat-o din celălalt capăt al pieței.\n\n— Nu te aud deloc, i-a spus. Trebuie să amplificăm vioara. Altfel nu are rost să cânți.\n\nTerezia s-a dus la meșterul Ralea, care repară instrumente de 50 de ani într-un atelier mic din centrul vechi. Meșterul a ascultat problema și a zis că există aparate care se montează în lemnul viorii.\n\n— Nu vreau să se facă nicio gaură în ea, a spus Terezia. E vorba de o legătură afectivă, nu doar de un instrument.\n\nMeșterul s-a gândit două zile. Apoi a construit un senzor foarte mic, care se prinde cu o clemă moale sub corzi, fără să atingă lacul. Senzorul nu ascultă aerul, ca un microfon, ci simte vibrațiile lemnului. Un aparat de mărimea unei cutii de chibrituri amplifică aceste vibrații și le trimite spre difuzoare. Așa, zgomotul străzii nu mai e amplificat, ci doar vocea viorii.\n\nDomnul Clinciu era sceptic. Ca impresar, auzise multe promisiuni. La a doua repetiție însă a stat din nou în celălalt capăt al pieței și a auzit fiecare notă. A spus că vioara sună amplificată, dar nu pare amplificată: are același timbru cald ca în sală.\n\nConcertul a avut loc într-o seară caldă de iunie. Peste două mii de oameni au ascultat simfonia până la ultima notă. La final, orchestra a mai cântat o piesă scurtă, pur instrumentală, pentru vioară și violoncel. Meșterul Ralea a ascultat-o din primul rând. A doua zi, alți trei muzicieni au venit la atelier să-i ceară același senzor.\n\nÎntrebări:\nDe ce are vioara Tereziei o valoare afectivă atât de mare?\nPentru că a primit-o de la profesoara ei, când a terminat facultatea.\nCe s-a întâmplat cu sunetul viorii în aer liber?\nSunetul se pierdea, iar zgomotul străzii acoperea notele cele mai fine.\nCe i-a spus impresarul Tereziei?\nI-a spus că nu o aude deloc și că trebuie să amplifice vioara.\nCum funcționează senzorul meșterului Ralea?\nSimte vibrațiile lemnului, iar un aparat mic le amplifică și le trimite spre difuzoare.\nCe a cântat orchestra la concert?\nA cântat o simfonie de Beethoven și, la final, o piesă scurtă, pur instrumentală.\nDe ce zgomotul străzii nu mai era amplificat?\nPentru că senzorul nu ascultă aerul, ca un microfon, ci doar vibrațiile lemnului."
+    },
+    {
+      "title": "Brățara care numără pașii",
+      "summary": "An accountant in Craiova uses a fitness band to look after her heart, learns how she sleeps, joins an informal running group and keeps her Sunday cake.",
+      "newWords": [
+        "cardiovascular",
+        "veghe",
+        "disciplina",
+        "informal",
+        "remușcare"
+      ],
+      "text": "Smarandița Bârzoi are 48 de ani și lucrează ca economistă la o firmă din Craiova. Stă opt ore pe zi pe scaun, iar seara mai stă două ore pe canapea. La controlul anual, medicul de familie i-a spus că analizele sunt bune, dar că ar trebui să se miște mai mult.\n\n— Mișcarea e cel mai bun prieten al sistemului cardiovascular, i-a explicat medicul. Inima are nevoie de efort, nu doar de odihnă. Jumătate de oră de mers rapid pe zi face o mare diferență.\n\nFiul ei i-a dăruit de ziua ei o brățară inteligentă. Ideea de a număra pașii nu e nouă, dar brățara de azi face mult mai mult. Un senzor mic măsoară pulsul, iar aplicația de pe telefon arată în fiecare seară câte minute de efort cardiovascular a făcut purtătorul. Smarandița a aflat repede că în zilele de birou abia ajungea la zece minute.\n\nNoaptea, brățara urmărește și somnul. Dimineața, aplicația îi arăta un grafic cu fazele somnului: somn ușor, somn adânc și perioade de veghe. Smarandița credea că doarme fără probleme. Graficul arăta însă trei sau patru perioade scurte de veghe în fiecare noapte, de obicei după ce bea ceai târziu sau se uita la telefon în pat.\n\nA hotărât să-și disciplineze serile. A mutat ceaiul înainte de ora opt și a lăsat telefonul în bucătărie. Nu a fost ușor să se disciplineze singură, dar după două săptămâni perioadele de veghe din grafic s-au împuținat.\n\nPentru mișcare, o colegă i-a vorbit de un grup informal de alergători din Parcul Romanescu. Grupul nu are antrenor, nici taxă, nici reguli scrise. E un grup informal de vecini care se întâlnesc marțea și joia la șapte seara și aleargă împreună, fiecare în ritmul lui. Smarandița a început cu mers rapid și, după o lună, alerga deja câte un kilometru fără pauză.\n\nCând lipsea de la o întâlnire, simțea o mică remușcare. Brățara o anunța și ea, cu o vibrație scurtă, că nu s-a mișcat destul. Duminica însă, Smarandița mănâncă o prăjitură cu fiul ei, fără nicio remușcare. Medicul de familie i-a spus că și asta face parte dintr-o viață sănătoasă.\n\nÎntrebări:\nCe i-a spus medicul despre sistemul cardiovascular?\nI-a spus că mișcarea e cel mai bun prieten al sistemului cardiovascular și că inima are nevoie de efort, nu doar de odihnă.\nCe arată aplicația brățării în fiecare seară?\nArată câte minute de efort cardiovascular a făcut purtătorul.\nCe perioade de veghe a descoperit Smarandița?\nA descoperit trei sau patru perioade scurte de veghe în fiecare noapte.\nCum și-a disciplinat Smarandița serile?\nA mutat ceaiul înainte de ora opt și a lăsat telefonul în bucătărie.\nCe fel de grup de alergători a găsit?\nA găsit un grup informal de vecini, fără antrenor și fără reguli scrise.\nCând mănâncă Smarandița o prăjitură fără nicio remușcare?\nDuminica, împreună cu fiul ei."
+    },
+    {
+      "title": "Sticlă nouă din cioburi",
+      "summary": "A glassmaker in Suceava turns broken jars and old bottles into new purple glass and makes a vase for her daffodils.",
+      "newWords": [
+        "ciob",
+        "vechitură",
+        "purpuriu",
+        "narcisă",
+        "rostogoli",
+        "trânti"
+      ],
+      "text": "Ioneta Vulcănescu are un atelier mic de sticlă la marginea Sucevei. Face pahare, vase și lămpi, pe care le vinde la târguri și pe internet. Într-o zi de martie, vântul a deschis fereastra atelierului și a trântit ușa cu putere. Raftul de lângă ușă s-a clătinat, iar un borcan mare a căzut pe podea. S-a spart în mii de cioburi.\n\nIoneta a strâns cioburile cu grijă, într-o cutie. Când a vrut să le arunce, s-a oprit. Sticla e făcută din nisip topit la temperaturi foarte mari. Cioburile sunt tot sticlă și se pot topi din nou. Mai mult, un ciob se topește mai ușor decât nisipul, așa că un cuptor care topește cioburi consumă mai puțin gaz.\n\nA doua zi, Ioneta a urcat în podul casei. Acolo se strânseseră, în 30 de ani, tot felul de vechituri: sticle goale, borcane crăpate, geamuri vechi. Când a mutat o ladă, câteva sticle s-au rostogolit pe podea până la perete. Pentru alții erau doar vechituri. Pentru ea erau materie primă.\n\nLe-a spălat, le-a sortat după culoare și le-a spart în bucăți mici. Apoi a topit cioburile în cuptor. Sticla topită e ca mierea groasă. Ioneta ia puțină sticlă pe capătul unei țevi lungi și o rostogolește pe o placă de metal, ca să-i dea o formă rotundă. Apoi suflă în țeavă, iar sticla se umflă ca un balon.\n\nPrima încercare a ieșit cenușie și tulbure. Ioneta a citit că, dacă pui în sticlă puțin mangan, aceasta capătă o culoare purpurie. A încercat de mai multe ori, cu cantități diferite. La a cincea încercare a obținut exact ce voia: un vas purpuriu, prin care lumina trece caldă, ca printr-un apus de soare.\n\nÎn aprilie, în grădina ei au înflorit narcisele. Ioneta a pus primele narcise în vasul purpuriu și l-a așezat în fereastra atelierului. Galbenul narciselor pe sticla purpurie se vedea de pe stradă. Vecinii au intrat să întrebe de vas. Când au aflat că e făcut din cioburi și vechituri, au început să-i aducă propriile borcane sparte.\n\nAcum, lângă ușa atelierului, Ioneta are o ladă pe care scrie: „Cioburi, vă rog!” Ușa nu se mai trântește, pentru că a pus un opritor de lemn. Dar Ioneta îi este recunoscătoare vântului din martie.\n\nÎntrebări:\nCe s-a întâmplat în atelierul Ionetei într-o zi de martie?\nVântul a trântit ușa, iar un borcan mare a căzut și s-a spart în mii de cioburi.\nDe ce e mai ușor să topești cioburi decât nisip?\nPentru că un ciob se topește mai ușor, iar cuptorul consumă mai puțin gaz.\nCe vechituri a găsit Ioneta în pod?\nA găsit sticle goale, borcane crăpate și geamuri vechi.\nDe ce rostogolește Ioneta sticla topită pe o placă de metal?\nCa să-i dea o formă rotundă.\nCum a obținut Ioneta sticla purpurie?\nA pus în sticlă puțin mangan și a încercat cu cantități diferite.\nCe flori a pus Ioneta în vasul purpuriu?\nA pus primele narcise din grădina ei."
+    },
+    {
+      "title": "Lumina de pe stradă",
+      "summary": "A column on the history of street lighting: oil lamps, gas lamps in the great cities, Bucharest's lamp oil in 1857, Timișoara's electric lights in 1884 and today's smart lamps.",
+      "newWords": [
+        "metropolă",
+        "stradal",
+        "arcadă",
+        "brâu"
+      ],
+      "text": "Seara, când mă întorc acasă, nu mă gândesc niciodată la felinarele de pe stradă. Ele se aprind singure, iar noi trecem pe lângă ele fără să le vedem. Și totuși, iluminatul stradal este una dintre invențiile care au schimbat cel mai mult viața orașelor.\n\nAcum trei sute de ani, după apus, orașele erau întunecate. Cine ieșea seara își ducea propria lampă. Mulți oameni nu ieșeau deloc. Chiar și cei care aveau o lampă preferau să rămână acasă, pentru că străzile erau pline de gropi și de noroi, iar pe întuneric nu vedeai unde calci.\n\nPrimul mare pas a venit de la gaz. La începutul secolului al XIX-lea, Londra a aprins pe câteva străzi felinare cu gaz. În câteva decenii, iluminatul stradal cu gaz a ajuns în toate marile metropole ale Europei. O metropolă luminată noaptea era un spectacol: oamenii se plimbau pe sub arcadele clădirilor, cafenelele rămâneau deschise până târziu, iar magazinele își arătau vitrinele. Arcadele, care ziua dau umbră, deveneau seara un culoar de lumină.\n\nȘi România are un loc în această poveste. În 1857, Bucureștiul a fost printre primele orașe din lume luminate public cu petrol lampant. În 1884, Timișoara a aprins printre primele în Europa un iluminat stradal electric. Nu era încă o metropolă, dar a mers mai repede decât multe orașe mari.\n\nMie îmi place cel mai mult cum arată clădirile vechi noaptea. Multe au, între etaje, un brâu de piatră, o bandă decorativă care înconjoară fațada. Ziua, brâul abia se observă. Noaptea, luminat de jos, brâul pare desenat cu creionul, iar arcadele de la parter își arată fiecare linie.\n\nAzi, iluminatul stradal se schimbă din nou. Lămpile noi consumă mult mai puțin curent decât cele vechi. În unele metropole, felinarele au senzori: se fac mai puternice când trece cineva și mai slabe când strada e goală. Așa se economisește energie, iar cerul de deasupra orașului devine iar puțin mai întunecat, ca să se vadă stelele.\n\nData viitoare când treceți pe sub un felinar, uitați-vă o clipă la el. În spatele luminii lui sunt două sute de ani de invenții.\n\nÎntrebări:\nCe făceau mulți oameni seara, acum trei sute de ani?\nNu ieșeau deloc din casă.\nCu ce a început iluminatul stradal modern?\nA început cu felinare cu gaz, la Londra, la începutul secolului al XIX-lea.\nCum arăta o metropolă luminată noaptea?\nOamenii se plimbau pe sub arcade, cafenelele rămâneau deschise, iar magazinele își arătau vitrinele.\nCe s-a întâmplat la București în 1857 și la Timișoara în 1884?\nBucureștiul a fost luminat public cu petrol lampant, iar Timișoara a aprins un iluminat stradal electric.\nCe este brâul unei clădiri?\nEste o bandă decorativă de piatră care înconjoară fațada, între etaje.\nCum funcționează felinarele cu senzori?\nSe fac mai puternice când trece cineva și mai slabe când strada e goală."
+    }
+  ]
+}
