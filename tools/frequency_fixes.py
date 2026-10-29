@@ -1160,6 +1160,46 @@ _OVERRIDES_D = {
         "niekad": ["niekada"], "trūksta": ["trūkti"], "na": ["na"], "ei": ["ei"], "tad": ["tad"], "šiek": ["šiek"],
         "gaila": ["gaila"], "iškart": ["iškart"], "visgi": ["visgi"], "kuomet": ["kuomet"], "nedaug": ["nedaug"],
         "nagi": ["nagi"],
+        # The personal pronouns, whose tables name each other (mes in aš's, tu in jūs's), and tiek apart from tiekti.
+        "tu": ["tu"], "tau": ["tu"], "tave": ["tu"], "tavęs": ["tu"], "tavimi": ["tu"], "tavim": ["tu"],
+        "tavyje": ["tu"], "tavy": ["tu"], "mes": ["mes"], "mūsų": ["mes"], "mums": ["mes"], "mus": ["mes"],
+        "mumis": ["mes"], "mumyse": ["mes"], "jie": ["jie"], "juos": ["jie"], "jiems": ["jie"], "jais": ["jie"],
+        "juose": ["jie"], "ji": ["ji"], "jos": ["ji"], "ją": ["ji"], "jai": ["ji"], "jas": ["ji"], "ja": ["ji"],
+        "joje": ["ji"], "joms": ["ji"], "jomis": ["ji"], "jose": ["ji"], "jūs": ["jūs"], "jūsų": ["jūs"],
+        "jums": ["jūs"], "jus": ["jūs"], "jumis": ["jūs"], "jumyse": ["jūs"], "aš": ["aš"], "man": ["aš"],
+        "mane": ["aš"], "manęs": ["aš"], "manimi": ["aš"], "manim": ["aš"], "manyje": ["aš"], "jis": ["jis"],
+        "jo": ["jis"], "jį": ["jis"], "jam": ["jis"], "juo": ["jis"], "jame": ["jis"], "tiek": ["tiek"],
+        "baltų": ["baltas"], "baltos": ["baltas"], "baltą": ["baltas"], "baltai": ["baltas"], "baltomis": ["baltas"],
+        "baltoje": ["baltas"], "pasauliui": ["pasaulis"], "nebėra": ["būti"], "lygiai": ["lygus"], "duomenų": ["duomuo"], "duomenys": ["duomuo"], "duomenis": ["duomuo"],
+        "duomenimis": ["duomuo"], "duomenims": ["duomuo"], "duomenyse": ["duomuo"],
+        # The words the pack lacks that simplemma filed under words it made up (toli of tolus, aplink of aplinkti,
+        # nelabai of nelabas, reiktų of reikti, gali of galis), the forms of netekti ("to lose") that went to tekti, the
+        # past of paklausti ("asked") that went to paklausyti, March (kovo) apart from kova, and the feminine and plural
+        # forms kept as entries (pati, šita, pinigai, judvi).
+        "neteko": ["netekti"], "neteks": ["netekti"], "netekti": ["netekti"], "netenka": ["netekti"], "netekau":
+        ["netekti"], "netekai": ["netekti"], "netekome": ["netekti"], "netektų": ["netekti"], "netekęs":
+        ["netekti"], "netekus": ["netekti"], "netenkame": ["netekti"], "netekote": ["netekti"], "neteksi":
+        ["netekti"], "netenku": ["netekti"], "neteksiu": ["netekti"], "neteksime": ["netekti"], "netekom":
+        ["netekti"], "netenki": ["netekti"], "netekot": ["netekti"], "neteksim": ["netekti"], "netekdavo":
+        ["netekti"], "netekčiau": ["netekti"], "netenkam": ["netekti"], "neteksite": ["netekti"], "netenkate":
+        ["netekti"], "netektume": ["netekti"], "netektum": ["netekti"], "neteksit": ["netekti"], "netekdamas":
+        ["netekti"], "netekę": ["netekti"], "netekusi": ["netekti"], "netekusių": ["netekti"], "toli": ["toli"],
+        "toliausiai": ["toli"], "toliausia": ["toli"], "aplink": ["aplink"], "nelabai": ["nelabai"], "gali":
+        ["galėti"], "galiu": ["galėti"], "galių": ["galia"], "galiai": ["galia"], "reiktų": ["reikėti"],
+        "reiks": ["reikėti"], "reik": ["reikėti"], "reiki": ["reikėti"], "reikdavo": ["reikėti"], "reikti":
+        ["reikėti"], "tereikia": ["reikėti"], "kovo": ["kovas"], "kovas": ["kovas"], "tavim": ["tu"], "judvi":
+        ["jūs"], "judviejų": ["jūs"], "judviem": ["jūs"], "pinigai": ["pinigas"], "pinigams": ["pinigas"],
+        "piniguose": ["pinigas"], "pati": ["pats"], "pačios": ["pats"], "pačią": ["pats"], "pačioje": ["pats"],
+        "pačiai": ["pats"], "pačia": ["pats"], "pačias": ["pats"], "pačiose": ["pats"], "pačioms": ["pats"],
+        "šita": ["šis"], "šitą": ["šis"], "šitos": ["šis"], "šitai": ["šis"], "šitų": ["šis"], "šitoje":
+        ["šis"], "šitose": ["šis"], "šitoms": ["šis"], "šitomis": ["šis"], "paklausė": ["paklausti"],
+        "paklausiau": ["paklausti"], "paklausei": ["paklausti"], "paklausėte": ["paklausti"], "paklausėme":
+        ["paklausti"], "paklausėm": ["paklausti"], "tolesnis": ["tolesnis"], "tolesnį": ["tolesnis"],
+        "tolesnio": ["tolesnis"], "tolesnių": ["tolesnis"], "tolesniam": ["tolesnis"], "tolesnius":
+        ["tolesnis"], "tolesnės": ["tolesnis"], "tolesnė": ["tolesnis"], "tolesni": ["tolesnis"], "tolesnę":
+        ["tolesnis"], "tolesnei": ["tolesnis"], "tolesniems": ["tolesnis"], "tolesnes": ["tolesnis"],
+        "tolesniame": ["tolesnis"], "tolesnėje": ["tolesnis"], "tolesniu": ["tolesnis"], "tolesnėmis":
+        ["tolesnis"],
     },
     # Latvian: 'ir', 'bija', 'būs', 'esmu', 'nav'... have entries of their own and kept their counts apart
     # from 'būt'; 'šis' and its forms were counted for 'tas'; man/tev stood apart from es/tu; frequent
@@ -1218,7 +1258,7 @@ _EXCLUDE_D = {
     # 'ok' (sent to 'oko'); village forms of 'vas' that would follow it to 'vi'.
     "sl": {"ok", "vaseh", "vasi", "vasjo", "vasmi"},
     # Abbreviations
-    "lt": {"mln", "proc", "tūkst"},
+    "lt": {"mln", "proc", "tūkst", "kt", "kt.", "mėn", "mėn.", "tolia", "toliai", "tolių", "tolui", "galį", "galio", "galis"},
     "lv": set(),
     "et": set(),
 }

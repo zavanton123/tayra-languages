@@ -122,6 +122,8 @@ SOURCE_ORDER["gl"] = ["frequencywords"]
 # Esperanto is counted from subtitles and news alone: its Wikipedia, much of it pages made by bots, adds their words
 # ("municipo", "kantono", "asteroido") and its headings' ("ligilo", "referenco") to the first thousand.
 SOURCE_ORDER["eo"] = ["frequencywords", "leipzig"]
+# Lithuanian is counted from web text, subtitles and news, as its shipped list was, which its courses are pinned to.
+SOURCE_ORDER["lt"] = ["wordfreq", "frequencywords", "leipzig"]
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -1411,6 +1413,65 @@ def slovene_unstressed(text):
     return unicodedata.normalize("NFC", bare).replace("ł", "l").replace("ə", "e")
 
 
+# Lithuanian: the pack gives many forms and the words they are filed under with their accent marks (merginõs, yrà of
+# bū́ti), which text never writes; without them the forms are found and filed (merginos of mergina, yra of būti).
+LITHUANIAN_ACCENTS = {"\u0300", "\u0301", "\u0303"}
+
+
+def lithuanian_unaccented(text):
+    """A Lithuanian word without the accent marks (grave, acute, tilde, and the dot kept over an accented i)."""
+    bare = "".join(c for c in unicodedata.normalize("NFD", text) if c not in LITHUANIAN_ACCENTS)
+    return unicodedata.normalize("NFC", bare.replace("i\u0307", "i").replace("j\u0307", "j")).replace("ý", "y")
+
+
+# A Lithuanian word the English Wiktionary gives as a diminutive or other word made from another (berniukas of
+# bernas, upelis of upė, žvaigždutė of žvaigždė) is a word of its own, not that word's form: only inflections group.
+LITHUANIAN_DERIVED_TAGS = {"diminutive", "augmentative", "endearing", "pejorative", "derogatory"}
+LITHUANIAN_KINDS = {"noun", "verb", "adj", "adv"}
+LITHUANIAN_DUMP = os.path.join(DICTIONARIES, "kaikki.org-dictionary-Lithuanian.jsonl.gz")
+
+
+# The case endings of Lithuanian nouns and adjectives, with the nominative endings of the words that take them.
+LITHUANIAN_CASE_ENDINGS = [
+    ("iams", ["ys", "is", "ias", "ius"]), ("iais", ["ys", "is", "ias", "ius"]), ("iuose", ["ys", "is", "ias", "ius"]),
+    ("iai", ["ys", "is", "ias", "ius"]), ("ių", ["ys", "is", "ias", "ius", "ė"]), ("ius", ["ys", "is", "ias"]),
+    ("iui", ["ys", "is", "ias", "ius"]), ("iu", ["ys", "is", "ias"]), ("io", ["ys", "is", "ias"]),
+    ("ams", ["as"]), ("ais", ["as"]), ("uose", ["as"]), ("ai", ["as"]), ("ui", ["as", "us"]), ("ų", ["as", "a", "ė", "us"]),
+    ("us", ["as"]), ("ą", ["as", "a"]), ("o", ["as"]), ("e", ["as", "ė"]), ("u", ["as"]),
+    ("oms", ["a"]), ("omis", ["a"]), ("ose", ["a"]), ("oje", ["a"]), ("os", ["a"]), ("as", ["a"]),
+    ("ėms", ["ė"]), ("ėmis", ["ė"]), ("ėse", ["ė"]), ("ėje", ["ė"]), ("ės", ["ė"]), ("ei", ["ė"]), ("es", ["ė"]), ("ę", ["ė", "ęs"]),
+    ("iems", ["as", "is", "us"]), ("i", ["as", "is", "us"]),
+]
+
+
+def lithuanian_derived():
+    """
+    The Lithuanian words the dump gives as made from another, with that word and their parts of speech; and the
+    masculine nouns a feminine one's table names (mokytojas in mokytoja's), which are no forms of it.
+    """
+    import gzip
+    derived, masculine = defaultdict(set), defaultdict(set)
+    if not os.path.exists(LITHUANIAN_DUMP):
+        return derived, masculine
+    with gzip.open(LITHUANIAN_DUMP, "rt", encoding="utf-8") as dump:
+        for line in dump:
+            entry = json.loads(line)
+            if entry.get("pos") == "noun":
+                word = lithuanian_unaccented(entry["word"].lower())
+                for form in entry.get("forms", []):
+                    tags = set(form.get("tags") or [])
+                    named = lithuanian_unaccented(form.get("form", "").lower())
+                    if "masculine" in tags and "canonical" not in tags and named != word:
+                        masculine[named].add(word)
+            for sense in entry.get("senses", []):
+                if set(sense.get("tags", [])) & LITHUANIAN_DERIVED_TAGS:
+                    for target in sense.get("form_of", []) + sense.get("alt_of", []):
+                        if target.get("word"):
+                            word = lithuanian_unaccented(entry["word"].lower())
+                            derived[word].add((lithuanian_unaccented(target["word"].lower()), entry.get("pos", "")))
+    return derived, masculine
+
+
 def is_wordlike(text):
     """Letters, hyphens and apostrophes; and the vowel signs and other marks of the scripts that write them apart."""
     return all(c.isalpha() or unicodedata.category(c)[0] == "M" or c in "-'ʻ\u200c" for c in text)
@@ -1702,6 +1763,8 @@ def load_dictionary(language):
             word, word_lc = MACEDONIAN_REFLEXIVE.sub("", word), MACEDONIAN_REFLEXIVE.sub("", word_lc)
             if p in ("noun", "verb", "adj"):
                 MACEDONIAN_KINDS[word_lc].add(p)
+        if language == "lt":
+            word, word_lc = lithuanian_unaccented(word), lithuanian_unaccented(word_lc)
         pos[word_lc].add(p)
         if p not in WORD_POS and not (language == "ko" and p == "counter"):
             continue
@@ -1730,6 +1793,8 @@ def load_dictionary(language):
         # Some of its forms name their word with stress marks (imel of imẹ́ti, pil of píti), which no headword has.
         if language == "sl":
             lemma = slovene_unstressed(lemma)
+        if language == "lt":
+            form_lc, lemma = lithuanian_unaccented(form_lc), lithuanian_unaccented(lemma)
         if language == "mk":
             form_lc, lemma = MACEDONIAN_REFLEXIVE.sub("", form_lc), MACEDONIAN_REFLEXIVE.sub("", lemma)
         if is_wordlike(lemma):
@@ -1816,6 +1881,28 @@ def load_dictionary(language):
 
         for form_lc, of in lemmas.items():
             lemmas[form_lc] = [lemma for lemma in of if macedonian_form_of(form_lc, lemma)]
+    if language == "lt":
+        # A diminutive or other derived word is no form of its base word, but a word of its own; a masculine noun is no
+        # form of its feminine.
+        derived, masculine = lithuanian_derived()
+        for word, feminines in masculine.items():
+            if word in lemmas:
+                lemmas[word] = [lemma for lemma in lemmas[word] if lemma not in feminines]
+        for word, made_from in derived.items():
+            bases = {base for base, _ in made_from}
+            if word in lemmas:
+                lemmas[word] = [lemma for lemma in lemmas[word] if lemma not in bases]
+            for _, p in made_from:
+                if p in WORD_POS:
+                    pos[word].add(p)
+                    common.setdefault(word, word)
+        # A word of the pack is a form only of a word of its own kind: an adjective (žinomas, baltas) is no verb's or
+        # noun's form, a verb no noun's, a noun no adjective's, as the pack's links between them now and then make them.
+        for form_lc, of in lemmas.items():
+            kinds = pos.get(form_lc, set()) & LITHUANIAN_KINDS
+            if kinds:
+                lemmas[form_lc] = [lemma for lemma in of if lemma == form_lc or not pos.get(lemma, set()) & LITHUANIAN_KINDS
+                                   or pos[lemma] & kinds]
     if language == "ro":
         ROMANIAN_KINDS.update(romanian_kinds(db, lemmas))
     if language == "fi":
@@ -2142,8 +2229,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         # simplemma takes Arabic words for others of their root (انت for آن); the Arabic list knows its forms itself.
         if language == "ar":
             return None
+        nominal = lithuanian_nominal(form) if language == "lt" and not form.endswith(("ti", "tis")) else None
         if lemmatizer is None or len(form) < 2 or not is_wordlike(form) or not lemmatizer.is_known(form):
-            return None
+            return nominal
         # Web text in every language is full of English, and simplemma knows English loanwords.
         if language != "en" and english_share(form) >= freq.get(form, 0):
             return None
@@ -2152,6 +2240,18 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         # simplemma gives a Bulgarian reflexive verb's forms as the pronoun (нуждаеш of се).
         if language == "bg" and key in ("се", "си") and form != key:
             return None
+        # A Lithuanian noun's or adjective's case form the pack lacks (merginos, kariai, žaidėjai) is its word's, by the
+        # regular endings, where simplemma makes up a word for it (mergintis, karė, žaidėja) or names a rarer one; and a word
+        # simplemma makes up that neither the pack nor text has (aplinkti, susyti, vaikinti) is none.
+        if language == "lt":
+            # An infinitive is no other kind of word's form (užimti, not užimtas; patirti, not patirtis).
+            if key != form and form.endswith(("ti", "tis")) and pos.get(key, set()) & {"noun", "adj"} and "verb" not in pos[key]:
+                guessed.setdefault(form, form)
+                return form
+            if nominal and (key not in pos or count(nominal) > count(key)):
+                return nominal
+            if key not in pos and not count(key) and key not in overrides:
+                return None
         if (lemma != key and language not in CAPITALISED_NOUNS) or (key in pos and key not in common) or key in excluded:
             return None
         # simplemma gives a negated Slovak verb as a word of its own (neurobil of neurobiť).
@@ -2159,6 +2259,24 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             return slovak_positive(key)
         guessed.setdefault(key, lemma)
         return key
+
+    def lithuanian_nominal(form):
+        """The commonest noun or adjective of the pack a Lithuanian form is a regular case form of, or None."""
+        found = []
+        for ending, bases in LITHUANIAN_CASE_ENDINGS:
+            if not form.endswith(ending) or len(form) - len(ending) < 2:
+                continue
+            stem = form[:-len(ending)]
+            stems = {stem}
+            if ending.startswith("i") or ending in ("ių",):
+                stems |= {stem[:-1] + "t"} if stem.endswith("č") else set()
+                stems |= {stem[:-2] + "d"} if stem.endswith("dž") else set()
+            for st in stems:
+                for base in bases:
+                    word = st + base
+                    if word != form and word in common and pos.get(word, set()) & {"noun", "adj"} and word not in excluded:
+                        found.append(word)
+        return max(found, key=count) if found else None
 
     def slovak_positive(word):
         """
