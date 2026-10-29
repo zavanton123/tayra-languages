@@ -1,0 +1,200 @@
+{
+  "id": "bs-mini-6500",
+  "rankUpTo": 6500,
+  "level": "C1",
+  "title": "Inženjerska vještina",
+  "description": "Ten stories about engineers and inventors in Bosnia and Herzegovina who solve everyday problems with machines, water, electronics and patient measuring.",
+  "topic": "Engineering",
+  "names": [
+    "Anita",
+    "Lerić",
+    "Sarajevo",
+    "Sarajevu",
+    "Sarajeva",
+    "Dragomir",
+    "Krehić",
+    "Cvjetko",
+    "Cvjetkova",
+    "Vatreš",
+    "Livno",
+    "Livna",
+    "Kosjenka",
+    "Kosjenkina",
+    "Nizana",
+    "Isović",
+    "Mostar",
+    "Mostara",
+    "Trebinje",
+    "Trebinja",
+    "Olja",
+    "Musić",
+    "Tuzla",
+    "Tuzli",
+    "Tuzle",
+    "Murveta",
+    "Ćeman",
+    "Gradačac",
+    "Gradačcu",
+    "Rozita",
+    "Rozitina",
+    "Džananović",
+    "Ševket",
+    "Vukica",
+    "Vukičin",
+    "Vukičina",
+    "Tafro",
+    "Ljubljana",
+    "Ljubljani",
+    "Čapljina",
+    "Čapljine",
+    "Sumbula",
+    "Ljubijankić",
+    "Beč",
+    "Beču",
+    "Kosara",
+    "Rasko",
+    "Raskovo",
+    "Bihać",
+    "Bihaću",
+    "Bihaća",
+    "Neum",
+    "Neumu"
+  ],
+  "lessons": [
+    {
+      "title": "Skuter za strme ulice",
+      "summary": "Anita, a mechanical engineering student in Sarajevo, builds an electric scooter for her final project; her mentor makes her collect concrete numbers first, a digital twin shows the brake problem, and the scooter passes its first ride.",
+      "newWords": [
+        "skuter",
+        "raskrsnica",
+        "mehanički",
+        "karakteristika",
+        "ukupan",
+        "preskakati",
+        "konkretan",
+        "dvojnik"
+      ],
+      "text": "Anita Lerić studira mašinstvo u Sarajevu i ove godine piše završni rad. Tema zvuči jednostavno: električni skuter za grad s mnogo brda. Većina skutera koje Anita viđa na ulicama napravljena je za ravne gradove, a Sarajevo je sve samo ne ravno. Na strmim ulicama iznad čaršije obični skuteri ili stanu ili brzo potroše bateriju.\n\nNa prvom sastanku s mentorom, profesorom Dragomirom Krehićem, pokazala mu je svoje crteže i rekla da bi odmah htjela kupiti dijelove.\n\n— Nemojte preskakati korake — rekao je profesor. — Prvo mi donesite konkretne brojeve. Koliko je strma najstrmija ulica kojom će skuter ići? Koliko je težak vozač? Koliko kilometara skuter treba preći s jednom baterijom?\n\nAnita je dvije sedmice hodala po gradu s mobitelom u ruci i mjerila nagib ulica. Pitala je i trideset kolega koliko kilometara dnevno pređu. Tek kad je imala konkretne odgovore, napravila je tabelu s osnovnim karakteristikama skutera: snagom motora, kapacitetom baterije, najvećom brzinom i ukupnom težinom. Ukupna težina nije smjela biti veća od osamnaest kilograma, jer skuter treba unijeti u tramvaj i nositi uz stepenice do stana.\n\nZatim je na kompjuteru napravila digitalnog dvojnika svog skutera. To je model koji ima iste karakteristike kao pravi skuter, samo što postoji u programu. Na dvojniku je mogla probati stotinu verzija, a da ne potroši ni marku. Dvojnik joj je pokazao dvije stvari: motor ima dovoljno snage i za najstrmiju ulicu, ali se električna kočnica na dugom spuštanju previše zagrijava.\n\n— Dodajte i mehaničku kočnicu — savjetovao je profesor. — Električni sistem ponekad otkaže. Mehanička kočnica radi i kad je baterija prazna.\n\nAnita je na zadnji točak ugradila malu mehaničku kočnicu. Skuter je postao teži za pola kilograma, ali je ukupna težina ostala ispod granice.\n\nPrvu pravu vožnju napravila je u nedjelju ujutro, kad na ulicama nema mnogo automobila. Krenula je s vrha jedne strme ulice i polako se spustila do prve raskrsnice. Na raskrsnici je bilo crveno svjetlo, i skuter je stao mirno i sigurno. Na drugoj raskrsnici probala je samo mehaničku kočnicu, i ona je bila dovoljna. Onda se popela nazad, do vrha, bez ijednog zaustavljanja.\n\nKod kuće je uporedila podatke s vožnje s podacima dvojnika. Razlika je bila manja od pet posto.\n\nKad je u junu branila rad, jedan profesor pitao ju je zašto je toliko vremena potrošila na brojeve prije nego što je kupila prvi dio.\n\n— Zato što mi je mentor rekao da ne preskačem korake — odgovorila je Anita. — I imao je pravo. Bez tih mjerenja skuter bi stao već na prvoj ulici iznad čaršije.\n\nDanas Anita skuterom svaki dan ide na fakultet. Na svakoj raskrsnici neko je pita gdje se takav skuter može kupiti.\n\nPitanja:\nZašto Anita pravi poseban skuter za Sarajevo?\nZato što su obični skuteri napravljeni za ravne gradove, a Sarajevo ima mnogo strmih ulica.\nŠta je profesor tražio prije kupovine dijelova?\nTražio je konkretne brojeve: nagib ulica, težinu vozača i koliko kilometara skuter treba preći.\nŠta je digitalni dvojnik skutera?\nTo je model u programu koji ima iste karakteristike kao pravi skuter.\nZašto je Anita dodala mehaničku kočnicu?\nZato što se električna kočnica previše zagrijavala, a mehanička radi i kad je baterija prazna.\nKolika je smjela biti ukupna težina skutera?\nUkupna težina nije smjela biti veća od osamnaest kilograma."
+    },
+    {
+      "title": "Kolijevka koja se sama ljulja",
+      "summary": "In Livno, retired mechanic Cvjetko, who once invented a whistling tin rooster for his roof, builds a quiet self-rocking cradle for his granddaughter's baby out of the family's old wooden cradle.",
+      "newWords": [
+        "izumjeti",
+        "kolijevka",
+        "pijetao",
+        "zviždati",
+        "papuča",
+        "bos",
+        "galama"
+      ],
+      "text": "Cvjetko Vatreš iz Livna ima sedamdeset i dvije godine. Cijeli radni vijek proveo je kao mehaničar u jednoj radionici, a u penziji i dalje smišlja i pravi korisne stvari za kuću. Na krovu njegove kuće stoji limeni pijetao koji se okreće prema vjetru. Kad zapuše jak vjetar, pijetao počne zviždati, jer je Cvjetko u njega ugradio malu cijev. Tako komšije znaju da treba skloniti veš. Tog pijetla izumio je prije četrdeset godina, i to je bila prva stvar koju je izumio.\n\nProšlog proljeća njegova unuka Kosjenka rodila je sina i došla s bebom kod djeda na nekoliko sedmica. Beba je spavala samo dok je neko ljulja na rukama. Čim bi je stavili u krevet, probudila bi se i počela plakati. Kosjenka je noću ustajala po pet-šest puta i danju je bila sva umorna.\n\nU kući je bilo i previše galame. Čajnik je ujutro glasno zviždao, komšijin pravi pijetao javljao se u pet sati, a stari frižider je bučno radio cijelu noć. Svaka galama budila je bebu.\n\nCvjetko je odlučio pomoći. Prvo je čajniku skinuo dio koji zviždi, a frižideru je promijenio stari motor. Onda se popeo na tavan i našao drvenu kolijevku u kojoj je, prije trideset godina, spavala Kosjenkina mama.\n\n— Kolijevka je dobra — rekao je. — Samo joj treba neko ko će je ljuljati cijelu noć.\n\nDvije sedmice radio je u podrumu. Ispod kolijevke postavio je jaku oprugu i mali tihi motor. Kad beba zaplače, mali mikrofon to čuje i kolijevka se počne polako ljuljati, deset minuta, a onda sama stane. Najteže je bilo naći pravi ritam. Prva verzija ljuljala je prebrzo, a druga je škripala. Cvjetko je noću hodao po kući bos, bez papuča, da ne probudi bebu, i slušao da li kolijevka škripi. Papuče su mu ostajale pred vratima podruma.\n\nTreća verzija bila je potpuno tiha. Prve noći beba se probudila samo jednom. Kolijevka se ljuljala deset minuta, i beba je opet zaspala. Kosjenka je prvi put nakon tri sedmice spavala do jutra.\n\n— Djede, šta si to izumio? — pitala je ujutro.\n\n— Ništa novo — rekao je Cvjetko. — Kolijevka postoji stotinama godina. Ja sam joj samo dodao ruku koja se nikad ne umori.\n\nKad su se Kosjenka i beba vratile kući, kolijevku su ponijele sa sobom. Cvjetko je čajniku vratio dio koji zviždi. Ujutro opet zvižde i čajnik i limeni pijetao na krovu, ali to sada nikome ne smeta. Cvjetko obuje papuče, skuha kafu i u svesku zapiše šta bi sljedeće mogao izumjeti.\n\nPitanja:\nŠta je Cvjetko izumio prije četrdeset godina?\nIzumio je limenog pijetla koji se okreće prema vjetru i zviždi kad zapuše jak vjetar.\nZašto je Kosjenka noću ustajala po pet-šest puta?\nBeba je spavala samo dok je neko ljulja, a u krevetu bi se probudila.\nŠta je u kući budilo bebu?\nBudila ju je galama: čajnik koji zviždi, komšijin pijetao i stari frižider.\nKako radi Cvjetkova kolijevka?\nKad beba zaplače, mikrofon to čuje i kolijevka se polako ljulja deset minuta.\nZašto je Cvjetko noću hodao bos?\nHodao je bos, bez papuča, da ne probudi bebu i da čuje da li kolijevka škripi."
+    },
+    {
+      "title": "Voda za selo iznad Trebinja",
+      "summary": "Hydraulic engineer Nizana from Mostar finds that a village's summer water shortage comes not from its spring but from old, mineral-clogged and leaking pipes, and the village replaces them.",
+      "newWords": [
+        "žeđ",
+        "snabdijevati",
+        "distribucija",
+        "manjak",
+        "oticati",
+        "uslijed",
+        "mineral"
+      ],
+      "text": "Nizana Isović je građevinski inženjer iz Mostara i bavi se vodom: izvorima, cijevima i rezervoarima. Prošlog ljeta pozvali su je iz jednog sela iznad Trebinja. Selo ima sedamdeset kuća i snabdijeva se vodom s izvora u brdu, dva kilometra iznad kuća. Voda s izvora ide u betonski rezervoar, a iz rezervoara cijevima do svake kuće.\n\nZimi i u proljeće vode ima dovoljno. Ali ljeti, uslijed suše i velikih vrućina, u selu je svake godine manjak vode. U julu i augustu kuće na kraju sela danima nemaju vodu u česmi. Ljudi tada nose vodu u kantama od komšija, a djeca trče do starog bunara da utole žeđ.\n\n— Svi kažu da izvor ljeti oslabi — rekao je Nizani jedan stariji čovjek iz sela. — Ali ja mislim da voda negdje otiče.\n\nNizana je prvo izmjerila koliko vode daje izvor. Mjerila je tri dana zaredom, u najtoplijem dijelu augusta. Izvor je i tada davao dovoljno vode za sve kuće. Manjak, dakle, nije dolazio od izvora, nego od distribucije: od cijevi kojima voda ide od rezervoara do kuća.\n\nCijevi su bile stare pedeset godina. Kad su radnici otkopali jedan dio, vidjelo se da je na nekoliko mjesta cijev pukla. Voda je kroz te pukotine oticala u zemlju prije nego što bi stigla do kuća. Nizana je izračunala da kroz pukotine otiče skoro trećina vode.\n\nPostojao je i drugi problem. Voda s ovog izvora je vrlo dobra za piće, ali je bogata mineralima. Minerali su se pedeset godina skupljali na unutrašnjoj strani cijevi, kao bijela kora. Uslijed toga neke cijevi bile su dvaput uže nego kad su postavljene. Kroz usku cijev prolazi manje vode, pa do posljednjih kuća, gdje cijev ide uzbrdo, voda često nije ni stizala.\n\n— Minerali u vodi nisu loši za ljude — objasnila je Nizana mještanima. — Ali za stare cijevi jesu.\n\nPlan je bio jednostavan, ali je tražio mnogo rada. Selo je zamijenilo glavnu cijev novom, od plastike na koju se minerali ne hvataju. Na kraju sela, iznad posljednjih kuća, napravljen je drugi, manji rezervoar. On se puni noću, kad niko ne troši vodu, a danju snabdijeva kuće na kraju sela. Tako je distribucija vode postala ravnomjernija.\n\nRadili su od septembra do novembra, uglavnom subotom, kad su svi mještani bili slobodni.\n\nSljedećeg ljeta bila je jednako velika suša. Ali ovaj put voda je tekla u svakoj kući, i ujutro i navečer. Djeca su i dalje trčala do starog bunara, ali sada ne zbog žeđi, nego zato što je voda iz njega najhladnija u selu.\n\nPitanja:\nOdakle se selo snabdijeva vodom?\nSelo se snabdijeva vodom s izvora u brdu, dva kilometra iznad kuća.\nZašto je ljeti u selu bio manjak vode?\nManjak vode nije dolazio od izvora, nego od starih cijevi u kojima su bile pukotine.\nŠta se dešavalo s vodom kroz pukotine?\nVoda je kroz pukotine oticala u zemlju prije nego što bi stigla do kuća.\nZašto su neke cijevi bile uže nego prije?\nVoda je bogata mineralima, a minerali su se pedeset godina skupljali na unutrašnjoj strani cijevi.\nČemu služi novi rezervoar na kraju sela?\nPuni se noću, a danju snabdijeva vodom kuće na kraju sela."
+    },
+    {
+      "title": "Kvadrant na krovu fakulteta",
+      "summary": "Astronomer Olja in Tuzla builds a wooden copy of an old quadrant with her students; after nights of passing clouds and a too-bright full moon, they measure the height of the pole star and find their town's latitude.",
+      "newWords": [
+        "astronom",
+        "kvadrant",
+        "luna",
+        "polaran",
+        "prolazan",
+        "nailaziti",
+        "sagledati"
+      ],
+      "text": "Olja Musić je astronom i predaje na univerzitetu u Tuzli. Svake godine sa studentima prve godine radi jedan praktičan projekat. Ove jeseni odlučila je da naprave kvadrant, instrument kojim su astronomi prije četiristo godina mjerili koliko je neka zvijezda visoko iznad horizonta.\n\n— Kvadrant je četvrtina kruga — objasnila je studentima. — Na luku su ucrtani stepeni, od nule do devedeset. Na jednoj strani je cijev kroz koju gledate zvijezdu, a sa vrha visi konac s malim tegom. Kad zvijezdu vidite kroz cijev, konac vam pokaže njenu visinu u stepenima.\n\nStudenti su kvadrant napravili od drveta. Imao je skoro metar u prečniku, a stepene su ucrtali vrlo pažljivo, jer i mala greška na luku daje veliku grešku na nebu. Kvadrant su postavili na ravni krov fakulteta.\n\nPrvi zadatak bio je izmjeriti visinu polarne zvijezde. Polarna zvijezda se skoro ne pomjera, jer stoji gotovo tačno iznad sjevernog pola Zemlje. Zato je njena visina iznad horizonta jednaka geografskoj širini mjesta s kojeg je gledamo. Ako studenti tačno izmjere polarnu zvijezdu, znat će na kojoj širini leži Tuzla, bez karte i bez mobitela.\n\nPrve noći nije išlo. Sa zapada su stalno nailazili oblaci. Kad bi se jedan razišao, već bi nailazio drugi. Studenti su htjeli odustati, ali ih je Olja smirila.\n\n— To su prolazni oblaci — rekla je. — Astronom mora imati strpljenja. Svi stari astronomi su više čekali nego mjerili.\n\nDruge noći nebo je bilo čisto, ali na njemu je bila puna luna. Luna je bila tako sjajna da se slabije zvijezde uopće nisu vidjele. Polarna zvijezda se vidjela, ali je jedna studentica primijetila da se na tom svjetlu teško vidi gdje konac stoji.\n\nTreće noći sve je bilo kako treba: nebo bez oblaka, a luna je izašla tek poslije ponoći. Svaki student izmjerio je polarnu zvijezdu tri puta. Olja je sve brojeve zapisala u tabelu. Mjerenja su se razlikovala, ali je srednja vrijednost bila četrdeset i četiri stepena.\n\nSljedećeg dana sjeli su da sagledaju rezultate. Na karti su pronašli geografsku širinu Tuzle: nešto više od četrdeset četiri i po stepena. Razlika je bila samo pola stepena.\n\n— Kad sagledate cijelu stvar — rekla je Olja — ovo je odličan rezultat za drveni instrument i konac. Prije četiristo godina astronomi su tako pravili karte cijelog svijeta.\n\nJedan student pitao je da li bi s kvadrantom mogli vidjeti i polarnu svjetlost. Olja se nasmijala i rekla da je za to Tuzla predaleko od polarnog kruga. Kvadrant je ostao na krovu fakulteta, a novi studenti sada svake jeseni mjere njime polarnu zvijezdu.\n\nPitanja:\nŠta je kvadrant?\nKvadrant je instrument kojim su astronomi mjerili koliko je neka zvijezda visoko iznad horizonta.\nZašto su studenti mjerili baš polarnu zvijezdu?\nNjena visina iznad horizonta jednaka je geografskoj širini mjesta s kojeg je gledamo.\nŠta se desilo prve noći?\nSa zapada su stalno nailazili oblaci, ali Olja je rekla da su to prolazni oblaci.\nZašto druga noć nije bila dobra?\nNa nebu je bila puna luna, toliko sjajna da se slabije zvijezde nisu vidjele.\nKakav je bio rezultat mjerenja?\nSrednja vrijednost bila je četrdeset i četiri stepena, samo pola stepena manje od prave širine Tuzle."
+    },
+    {
+      "title": "Džem i kečap na istoj liniji",
+      "summary": "Food engineer Murveta runs a small plum jam factory in Gradačac; to keep the machines busy in winter she takes on ketchup, designs a washing station that cleans the whole line in ninety minutes, and adds a plum jam with coconut.",
+      "newWords": [
+        "džem",
+        "šljiva",
+        "kečap",
+        "kokos",
+        "uprljati",
+        "praonica"
+      ],
+      "text": "Murveta Ćeman je inženjer prehrambene tehnologije i vodi malu fabriku u Gradačcu. Gradačac je poznat po šljivama, i fabrika već dvadeset godina pravi džem od šljiva. Krajem ljeta šljive stižu iz okolnih voćnjaka u velikim sanducima. Radnici ih peru, vade im koštice, a onda se šljive kuhaju sa malo šećera i pune u staklene tegle. U dobroj godini fabrika napravi dvjesto hiljada tegli džema.\n\nAli šljive se beru samo dva mjeseca godišnje. Ostatak godine mašine su uglavnom stajale, a radnici su radili skraćeno. Murveta je dugo tražila proizvod koji bi mogla praviti zimi, na istim mašinama.\n\nJednog dana nazvala ju je jedna trgovina iz Tuzle. Tražili su domaći kečap. Paradajz se zimi može kupiti kao gusta pasta, pa se kečap može kuhati cijele godine. Murveta je odmah pristala, ali je znala da je najteži dio tek pred njom.\n\nProblem je bio u čišćenju. Džem i kečap idu kroz iste cijevi, iste kotlove i istu mašinu za punjenje. Ako u džemu ostane i malo kečapa, džem će imati čudan okus. A kečap uprlja sve čega se dotakne: cijevi, trake, zidove, pa i radnike. Prve sedmice radnici su se smijali da je cijela fabrika crvena.\n\nFabrika je imala praonicu, ali samo za tegle. Mašine su se prale ručno, i to je trajalo cijeli dan. Murveta je s dvojicom mehaničara napravila novu praonicu za cijelu liniju. To je sistem koji kroz cijevi i kotlove prvo pušta toplu vodu, zatim vodu sa sredstvom za pranje, a na kraju opet čistu vruću vodu. Na kraju jedan radnik uzme uzorak vode iz posljednje cijevi i provjeri da li je potpuno čista.\n\nS novom praonicom linija se opere za sat i po. Ujutro se puni kečap, popodne praonica opere sve što se uprljalo, a navečer se može puniti džem.\n\nPrve zime kečap se dobro prodavao. Onda je Murveta probala još nešto: džem od šljiva sa malo kokosa. Kokos je skup i dolazi izdaleka, pa se stavlja samo jedna kašika na teglu. Prvi su ga probali radnici. Neki su mislili da kokos ne ide uz šljive, ali su do kraja smjene pojeli cijelu teglu.\n\nDanas fabrika radi cijele godine. Ljeti pravi džem od šljiva, zimi kečap, a džem s kokosom pravi se dva puta mjesečno. Nijedan radnik više ne radi skraćeno. A kad neki posjetilac pita šta je najvažnija mašina u fabrici, Murveta ga ne vodi do kotlova, nego do praonice.\n\nPitanja:\nPo čemu je poznat Gradačac?\nGradačac je poznat po šljivama.\nZašto je Murveta tražila novi proizvod?\nŠljive se beru samo dva mjeseca godišnje, a ostatak godine mašine su uglavnom stajale.\nZašto je kečap pravio problem?\nDžem i kečap idu kroz iste mašine, a kečap uprlja sve čega se dotakne.\nKako radi nova praonica?\nKroz cijevi i kotlove prvo pušta toplu vodu, zatim vodu sa sredstvom za pranje, a na kraju čistu vruću vodu.\nKoliko kokosa ide u jednu teglu džema?\nU jednu teglu ide samo jedna kašika kokosa."
+    },
+    {
+      "title": "Firma koja nije bankrotirala",
+      "summary": "When a cheap foreign rival nearly drives Rozita's small Tuzla electronics firm into bankruptcy, she refuses layoffs, ends the old model, and wins buyers back with a ten-year guarantee, while the embittered senior engineer Ševket ends up leading the new design.",
+      "newWords": [
+        "bankrotirati",
+        "otpust",
+        "suparnik",
+        "elektronika",
+        "prestanak",
+        "ogorčen",
+        "imidž"
+      ],
+      "text": "Rozita Džananović vodi firmu u Tuzli koja pravi elektroniku za grijanje: male uređaje koji upravljaju kotlovima u kućama i zgradama. Firma ima četrdeset radnika i postoji dvadeset pet godina. Dugo je imala imidž male, solidne domaće firme čije uređaje montiraju lokalni majstori.\n\nPrije tri godine na tržište je došao veliki suparnik, jedna strana firma s fabrikama na tri kontinenta. Njegovi uređaji bili su za trećinu jeftiniji. Za šest mjeseci Rozitina firma izgubila je pola kupaca. Računovođa joj je pokazao brojeve: ako se ništa ne promijeni, firma će bankrotirati do kraja godine.\n\nNeki su joj savjetovali otpust petnaest radnika. Tako bi se smanjili troškovi, a firma bi možda izdržala još godinu ili dvije. Rozita nije htjela otpust. Mislila je da firma koja ostane bez pola inženjera neće imati ko praviti nove uređaje, i da će onda sigurno bankrotirati, samo malo kasnije.\n\nSazvala je sve inženjere u jednu salu.\n\n— Suparnik je jeftiniji i to ne možemo promijeniti — rekla je. — Ali možemo biti bolji u nečemu drugom.\n\nInženjeri su prethodnih mjeseci kupili nekoliko suparnikovih uređaja i rastavili ih. Elektronika u njima bila je jeftina, i mnogi su se kvarili poslije dvije-tri godine. Rozita je odlučila da će njena firma za svaki uređaj garantovati deset godina. Ako se uređaj pokvari, firma ga zamijeni besplatno, i to u roku od jednog dana.\n\n— Možemo li zaista garantovati deset godina? — pitao je jedan mladi inženjer.\n\n— Sa starim modelom ne možemo — odgovorila je Rozita.\n\nStari model bio je najprodavaniji uređaj firme, ali je imao slabu tačku: jedan dio se pregrijavao. Zato je Rozita objavila prestanak njegove proizvodnje. Najstariji inženjer u firmi, Ševket, bio je ogorčen. On je taj model napravio prije dvadeset godina i bio je ponosan na njega. Nekoliko dana ni s kim nije razgovarao.\n\nOnda mu je Rozita ponudila da vodi tim koji će napraviti novi model. Ševket je prvo odbio, a sutradan je došao s papirom na kojem je već bio nacrtao novu ploču. Ogorčen je bio još sedmicu dana, ali je radio do kasno svaku večer. Najbolje je znao gdje je stari model bio slab.\n\nNovi uređaj bio je gotov za osam mjeseci. Testirali su ga u komorama gdje je mjesecima radio na velikoj vrućini i hladnoći. Tek tada je Rozita bila sigurna da može garantovati deset godina.\n\nPrestanak starog modela i garancija od deset godina promijenili su imidž firme. Majstori su počeli preporučivati njene uređaje, jer im se kupci više nisu vraćali s pokvarenim uređajima. Za dvije godine firma je imala više kupaca nego prije dolaska suparnika.\n\nFirma nije bankrotirala, i otpusta nije bilo. Ševket danas kaže da je prestanak starog modela bio najbolja odluka u historiji firme, iako mu je tada bilo teško.\n\nPitanja:\nŠta pravi Rozitina firma?\nPravi elektroniku za grijanje, male uređaje koji upravljaju kotlovima.\nZašto je firma mogla bankrotirati?\nVeliki suparnik prodavao je uređaje za trećinu jeftinije, pa je firma izgubila pola kupaca.\nZašto Rozita nije htjela otpust radnika?\nMislila je da firma bez pola inženjera neće imati ko praviti nove uređaje.\nZašto je Ševket bio ogorčen?\nRozita je objavila prestanak proizvodnje starog modela, koji je on napravio i na koji je bio ponosan.\nKako se promijenio imidž firme?\nMajstori su počeli preporučivati njene uređaje, jer firma garantuje deset godina za svaki uređaj."
+    },
+    {
+      "title": "Staro kamenje za masline",
+      "summary": "Mechanical engineer Vukica comes home to her family's olive grove near Čapljina, replaces her great-grandfather's slow stone mill and its mouldy mats with a modern machine, and moves the old stones, freshly painted, into the yard for visitors.",
+      "newWords": [
+        "maslina",
+        "smrskati",
+        "premjestiti",
+        "olakšavati",
+        "plijesan",
+        "obojiti"
+      ],
+      "text": "Vukica Tafro je inženjer mašinstva. Deset godina radila je u jednoj fabrici u Ljubljani, a prošle godine vratila se kući, na porodično imanje kod Čapljine. Njen otac tu ima masline, kao što su ih imali njegov otac i djed. Na imanju raste šesto stabala maslina, a ulje se pravi u staroj kamenoj kući pored puta.\n\nU toj kući stoji mašina koju je napravio Vukičin pradjed. To su dva velika okrugla kamena koja se polako okreću u kamenom koritu. Kamenje smrska masline, zajedno s košticama, u gustu tamnu masu. Masa se zatim stavlja na okrugle pletene prostirke, prostirke se slažu jedna na drugu, a onda se iz njih iscijedi ulje.\n\nVukica je prve jeseni cijelo vrijeme radila s ocem. Brzo je vidjela dva problema. Prvi je bio vrijeme: kamenje je masline smrskalo sporo, i jedna tura trajala je skoro tri sata. Drugi problem bile su prostirke. Ako se ne operu i ne osuše odmah, na njima se pojavi plijesan. Plijesan je teško vidjeti, ali se osjeti u ulju. Te godine otac je morao baciti nekoliko litara ulja, jer je imalo okus plijesni.\n\nVukica je predložila da kupe modernu mašinu. U njoj čelični dijelovi smrskaju masline za nekoliko minuta, a ulje se odvaja od mase bez prostirki. Gdje nema prostirki, nema ni plijesni.\n\nOtac nije bio sretan. Kamenje njegovog djeda bilo mu je drago, i nije htio da ga neko baci.\n\n— Niko ga neće baciti — rekla je Vukica. — Možemo ga premjestiti u dvorište. Neka ga ljudi vide.\n\nTako su i uradili. Krajem zime, uz pomoć komšija i jedne dizalice, uspjeli su premjestiti staro kamenje iz kuće u dvorište, pod novi drveni krov. Bilo je teško, ali niko se nije žalio. Vukica je očistila drveni dio stare mašine i obojila ga tamnom zelenom bojom, kao što je, prema starim slikama, nekad bio obojen. Kamenje nije bojila, jer kamen treba ostati kakav jeste.\n\nNa njegovo mjesto postavili su novu mašinu. Mašina mnogo olakšava posao. Ranije su za jednu turu trebala tri čovjeka, a sada je dovoljan jedan. Otac kaže da mu mašina olakšava i cijelu jesen, jer više ne radi do ponoći.\n\nDruge jeseni ulje je bilo bistro i bez ikakvog okusa plijesni. A staro kamenje u dvorištu postalo je mjesto gdje se svi zaustavljaju. Turisti koji kupuju ulje slikaju se pored njega, a djeca iz škole u selu dolaze da vide kako se nekad od maslina pravilo ulje.\n\nJednom godišnje, za goste, otac pokrene i staro kamenje. Tada ono opet polako smrska masline, kao prije sto godina, a otac objašnjava gostima kako je to radio njegov djed.\n\nPitanja:\nGdje Vukičina porodica ima masline?\nIma ih na porodičnom imanju kod Čapljine.\nKako radi stara mašina?\nDva velika kamena okreću se u koritu i polako smrskaju masline u gustu masu.\nZašto se na prostirkama pojavljivala plijesan?\nPlijesan se pojavi ako se prostirke ne operu i ne osuše odmah.\nŠta su uradili sa starim kamenjem?\nOdlučili su ga premjestiti u dvorište, a Vukica je obojila drveni dio stare mašine.\nKako nova mašina olakšava posao?\nRanije su za jednu turu trebala tri čovjeka, a sada je dovoljan jedan."
+    },
+    {
+      "title": "Novi dom za leoparde",
+      "summary": "Civil engineer Sumbula designs the Sarajevo zoo's new leopard enclosure: a fence and glass no leopard can slip past, tall grass for sneaking, cameras that miss nothing, the coyotes moved away, and a quiet den once an ultrasound shows the female is expecting cubs.",
+      "newWords": [
+        "leopard",
+        "kojot",
+        "šunjati",
+        "umaknuti",
+        "ultrazvuk"
+      ],
+      "text": "Sumbula Ljubijankić je građevinski inženjer iz Sarajeva. Obično projektuje škole i stambene zgrade, ali prošle godine dobila je neobičan posao: zoološki vrt u Sarajevu tražio je novu nastambu za dva leoparda, mužjaka i ženku, koji su trebali doći iz zoološkog vrta u Beču.\n\nPrvo je dvije sedmice čitala o leopardima i razgovarala s čuvarima. Saznala je da je leopard odličan penjač i da skače u visinu skoro tri metra. Zato ograda mora biti visoka pet metara, a njen gornji dio nagnut prema unutra, da leopard ne bi mogao umaknuti preko nje. Na strani prema posjetiocima umjesto ograde postavila je debelo staklo kroz koje se sve vidi.\n\n— Leopardi ne vole da ih neko stalno gleda — rekla joj je glavna čuvarica. — Vole se šunjati kroz visoku travu i odmarati se na granama.\n\nSumbula je zato u nastambi posadila visoku travu i grmlje, a od debelih stabala napravila grane na različitim visinama. Napravila je i veliki kamen koji se iznutra grije, jer leopardi zimi vole ležati na toplom. Posjetioci tako ne vide leoparde uvijek, ali kad jedan izađe iz trave, to je pravi doživljaj.\n\nIpak, čuvari moraju svaki dan znati gdje je koja životinja. Sumbula je postavila osam kamera, tako da ni jedan dio nastambe ne ostaje skriven. Leopard se može šunjati kroz travu koliko hoće, ali kamerama ne može umaknuti.\n\nPored nastambe nalazio se prostor za kojote. Čuvari su upozorili Sumbulu da kojoti noću glasno zavijaju i da bi leopardi mogli biti nervozni. Zoološki vrt je zato odlučio premjestiti kojote na drugu stranu vrta. Kojoti su dobili novi, veći prostor pored rijeke, a leopardi tišinu.\n\nLeopardi su stigli u maju. Prvih dana skoro nisu izlazili iz trave, ali su se poslije mjesec dana navikli. Mužjak je volio ležati na toplom kamenu, a ženka na najvišoj grani.\n\nU jesen su čuvari primijetili da se ženka mijenja. Veterinarka je došla s prenosnim aparatom za ultrazvuk. Ultrazvuk je pokazao da ženka očekuje mladunce. Sumbula je odmah dobila još jedan zadatak: mirnu jazbinu u kojoj ženka može roditi i čuvati mladunce, a da je niko ne uznemirava. Napravila je malu kamenu jazbinu s jednom kamerom unutra, tako da čuvari mogu sve vidjeti, a da ne ulaze.\n\nU januaru su se rodila dva mladunca. Prvih sedmica čuvari su ih gledali samo preko kamere. Kad su mladunci prvi put izašli iz jazbine i počeli se šunjati kroz travu za majkom, posjetioci su stajali pred staklom satima.\n\nPitanja:\nKakav je posao dobila Sumbula?\nTrebala je napraviti novu nastambu za dva leoparda u zoološkom vrtu u Sarajevu.\nZašto je gornji dio ograde nagnut prema unutra?\nLeopard je odličan penjač i skače visoko, pa ne smije umaknuti preko ograde.\nZašto je Sumbula posadila visoku travu?\nLeopardi se vole šunjati kroz visoku travu i ne vole da ih neko stalno gleda.\nZašto je zoološki vrt odlučio premjestiti kojote?\nKojoti noću glasno zavijaju, pa bi leopardi mogli biti nervozni.\nŠta je pokazao ultrazvuk?\nUltrazvuk je pokazao da ženka očekuje mladunce."
+    },
+    {
+      "title": "Robot na školskoj priredbi",
+      "summary": "In Bihać, a school robotics club led by physics teacher Kosara builds a basketball-shooting robot for the end-of-year show; quiet Rasko writes its program, gains self-respect, and the club's success brings local media and a discount for a summer camp.",
+      "newWords": [
+        "priredba",
+        "košarkaški",
+        "samopoštovanje",
+        "medijski",
+        "džez",
+        "povlastica"
+      ],
+      "text": "Kosara je nastavnica fizike u jednoj osnovnoj školi u Bihaću i vodi školski klub robotike. Klub ima dvanaest članova, od dvanaest do četrnaest godina. Svakog juna škola organizira veliku priredbu za kraj školske godine: hor pjeva, školski džez orkestar svira, a učenici pokazuju šta su naučili. Ove godine klub robotike dobio je deset minuta na priredbi.\n\n— Hajde da napravimo nešto što će svi razumjeti — predložila je Kosara. — Robota koji gađa koš.\n\nDjeca su bila oduševljena. Škola ima košarkaški teren u dvorištu, a skoro svi u klubu igraju košarku. Plan je bio da robot stoji na liniji slobodnog bacanja i ubaci košarkašku loptu u koš, pred cijelom školom.\n\nMehanički dio napravili su za mjesec dana: ruku na oprugu, malu platformu na točkovima i držač za loptu. Teži dio bio je program. Robot je trebao izračunati pod kojim uglom i kojom snagom treba baciti loptu. U tome je najviše pomogao Rasko, dječak iz sedmog razreda koji je na času uvijek šutio. U klubu ga dotad skoro niko nije primjećivao.\n\nRasko je ostajao poslije nastave i mijenjao program. Prvih dana robot je bacao loptu preko koša ili pored njega. Rasko je zapisivao svako bacanje u svesku i polako popravljao brojeve. Treće sedmice robot je pogodio koš šest puta od deset. Četvrte sedmice devet puta od deset.\n\nKosara je vidjela da se Rasko mijenja. Počeo je govoriti na sastancima kluba, objašnjavati drugima šta je promijenio, pa čak i raspravljati s njom. Jednom joj je rekao da se prvi put osjeća važnim u školi. Kosara je mislila da je to važnije od svakog robota. Samopoštovanje se ne može naučiti iz knjige, ali može narasti kad dijete vidi da je nešto samo napravilo. Raskovo samopoštovanje raslo je sa svakim pogođenim košem.\n\nPriredba se održavala u školskom dvorištu, pored košarkaškog terena, i tog dana dvorište je bilo puno roditelja. Džez orkestar je odsvirao dvije pjesme, a onda je Rasko izašao na teren s robotom i objasnio kako radi. Robot je bacio loptu pet puta i pet puta pogodio koš. Roditelji su pljeskali tako glasno da se džez orkestar jedva čuo kad je ponovo počeo svirati.\n\nNa priredbi je bila i jedna novinarka lokalne televizije. Sutradan je prilog o košarkaškom robotu bio u večernjim vijestima, a onda su ga prenijeli i drugi portali. Škola nikad nije imala takvu medijsku pažnju. Kosara je dobila desetak poziva medijskih kuća, a direktor škole nije mogao vjerovati.\n\nJedna firma iz Bihaća koja organizira ljetni kamp robotike javila se školi. Članovi kluba dobili su povlasticu: kamp ih košta upola manje nego drugu djecu. Rasko je bio prvi koji se prijavio. Kaže da će uz tu povlasticu na kampu naučiti napraviti robota koji nikad ne promaši.\n\nPitanja:\nŠta organizira škola svakog juna?\nŠkola organizira veliku priredbu za kraj školske godine.\nŠta je napravio klub robotike?\nNapravio je robota koji ubacuje košarkašku loptu u koš.\nKako je Rasko pomogao?\nOstajao je poslije nastave, zapisivao svako bacanje i popravljao program.\nKako se Rasko promijenio?\nPočeo je govoriti na sastancima i objašnjavati drugima, a samopoštovanje mu je naraslo.\nKakvu su povlasticu dobili članovi kluba?\nLjetni kamp robotike košta ih upola manje nego ostale."
+    },
+    {
+      "title": "Djeveruša i sidro",
+      "summary": "A marine engineer, bridesmaid at her cousin's wedding party on a boat off Neum, frees the jammed anchor winch by bending a hook out of wire to fish out a fallen pin, so the boat gets back for the farewell on time.",
+      "newWords": [
+        "djeveruša",
+        "sidro",
+        "rastanak",
+        "ugljen",
+        "udica",
+        "žalosno"
+      ],
+      "text": "Moja rođaka udavala se u junu, u Neumu, i zamolila me da joj budem djeveruša. Pristala sam odmah, iako nisam znala šta djeveruša tačno radi. Ispostavilo se da djeveruša nosi cvijeće za mladu, popravlja joj vjenčanicu kad zapne, pamti gdje je ko ostavio torbu i, kad zatreba, rješava probleme. Ovaj put problem je bio mehanički, a to je moja struka. Ja sam inženjer i popravljam brodove.\n\nPoslije vjenčanja svi gosti ukrcali su se na jedan veliki drveni brod. Plan je bio da isplovimo, da na otvorenom moru stanemo, ručamo i kupamo se, a da se u sedam sati vratimo u luku. Na zadnjem dijelu broda kuhar je pekao ribu i povrće na roštilju na drveni ugljen. Miris ugljena i ribe širio se cijelim brodom.\n\nNa pola sata od obale kapetan je spustio sidro. Sidro je uhvatilo dno, i brod je mirno stajao. Gosti su skakali u more, djeca su se smijala, a mlada i mladoženja sjedili su na prednjem dijelu broda i gledali obalu.\n\nU šest sati kapetan je htio podići sidro. Motor koji podiže lanac radio je, ali lanac je stajao. Kapetan je pokušao tri puta, pa je pozvao mornara. Ni on nije znao šta se desilo. Gosti su počeli pitati hoćemo li stići na vrijeme, jer je u osam sati u restoranu na obali trebao biti rastanak s gostima koji putuju kući iste noći.\n\nRođaka me pogledala. Izula sam cipele, podigla haljinu djeveruše i otišla na prednji dio broda. Pogledala sam mašinu. Ispod bubnja na koji ide lanac vidjela sam da nedostaje jedan mali metalni klin. Bez njega bubanj se nije mogao okretati. Bio je ispao i pao u usku pukotinu ispod mašine, duboko, gdje ga ruka nije mogla dohvatiti.\n\nTražila sam od mornara komad tanke čvrste žice i alat. Od žice sam savila malu udicu, kao za ribu, samo bez vrha. Spustila sam udicu u pukotinu i polako je okretala. Treći put udica ga je uhvatila. Izvukla sam ga, očistila i vratila na mjesto.\n\nKapetan je uključio motor. Lanac je krenuo, i sidro je izašlo iz mora puno blata i trave. Gosti su pljeskali, a kuhar mi je kao nagradu dao najveću ribu s roštilja.\n\nU luku smo stigli u sedam i petnaest. Rastanak u restoranu počeo je tačno u osam. Gosti koji su putovali kući grlili su mladu i mladoženju i obećavali da će doći u posjetu. Bilo mi je žalosno što se dan završava, i mislim da nije bilo samo meni. Rođaka je rekla da je žalosno samo to što nismo ostali na moru još jedan sat.\n\nNa rastanku mi je kapetan dao svoj broj telefona. Kaže da mu na brodu treba neko ko zna popraviti sidro i ne boji se ni haljine ni blata. Udicu od žice čuvam i danas, u ladici, pored slika sa svadbe.\n\nPitanja:\nZašto je inženjerka bila djeveruša?\nRođaka se udavala u Neumu i zamolila je da joj bude djeveruša.\nŠta je kuhar pekao na roštilju?\nPekao je ribu i povrće na drveni ugljen.\nZašto se sidro nije moglo podići?\nNedostajao je mali metalni klin, koji je pao u usku pukotinu ispod mašine.\nKako je izvukla klin?\nOd žice je savila malu udicu, spustila je u pukotinu i njome izvukla klin.\nKada je počeo rastanak u restoranu?\nRastanak u restoranu počeo je tačno u osam."
+    }
+  ]
+}
