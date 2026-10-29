@@ -1,0 +1,185 @@
+{
+  "id": "bs-mini-6900",
+  "rankUpTo": 6900,
+  "level": "C1",
+  "title": "Brojevi i zaključivanje",
+  "description": "Columns and stories about thinking with numbers in everyday life: a maths teacher's one principle, a baker scaling a cherry pie, a grandmother who weighs watermelons by hand, a library quiz, counting grasshoppers on Vlašić, renovating a flat in Mostar, a dentist's dose, a boat trip from Neum and a summer camp on the Una.",
+  "topic": "Numbers and reasoning",
+  "names": [
+    "Zenica",
+    "Zenici",
+    "Arzema",
+    "Remzo",
+    "Zinajda",
+    "Travnik",
+    "Travniku",
+    "Sarajevo",
+    "Sarajevu",
+    "Hazema",
+    "Sedin",
+    "Bihać",
+    "Bihaću",
+    "Bihaća",
+    "Lutfa",
+    "Dijan",
+    "Jasmela",
+    "Jasmelinoj",
+    "Tuzla",
+    "Tuzli",
+    "Elvedina",
+    "Sadin",
+    "Sadinu",
+    "Vlašić",
+    "Vlašiću",
+    "Rasima",
+    "Emdin",
+    "Emdinom",
+    "Mostar",
+    "Mostaru",
+    "Neretva",
+    "Neretvu",
+    "Tarbuk",
+    "Alemka",
+    "Alemke",
+    "Halida",
+    "Erzad",
+    "Neum",
+    "Neumu",
+    "Seida",
+    "Tijan",
+    "Una",
+    "Uni"
+  ],
+  "lessons": [
+    {
+      "title": "Kreda i jedno načelo",
+      "summary": "Arzema, a maths teacher in Zenica who still writes with chalk, explains in her column the one principle she writes on the board every September, why she lets pupils correct their own mistakes, and how a pupil who answered too lightly saw his error through the price of two rolls.",
+      "newWords": [
+        "kreda",
+        "načelo",
+        "logika",
+        "donekle",
+        "ispravljati",
+        "olako"
+      ],
+      "text": "Predajem matematiku u jednoj gimnaziji u Zenici već dvadeset godina, i još uvijek pišem kredom. Kolege su odavno prešle na bijele table i flomastere, a neki i na pametne ekrane. Ja i dalje volim zvuk krede na zelenoj tabli i bijelu prašinu koja mi na kraju dana ostane na prstima. Učenici se šale da me po tragovima krede mogu pronaći bilo gdje u školi.\n\nIpak, ovaj tekst nije o kredi, nego o jednom načelu. Svake godine, prvog septembra, na tablu napišem istu rečenicu: „Svaki odgovor mora imati razlog.“ To načelo ne pripada samo matematici. Ko ga jednom nauči, primjenjuje ga i u prodavnici, i u razgovoru, i kad čita vijesti.\n\nLogika se ne uči napamet. Mnogi učenici misle da je matematika skup pravila koja treba zapamtiti. To je donekle tačno: pravila postoje i korisno ih je znati. Ali pravilo bez razumijevanja je kao recept koji nikad nisi probao skuhati. Možeš ga pročitati sto puta, a ručka i dalje nema. Logika je ono što pravila spaja u cjelinu.\n\nNajviše vremena provodim ispravljajući greške. Nekada sam crvenom olovkom ispravljala svaku grešku u svesci i vraćala sveske bez riječi. Danas radim drugačije: ne ispravljam ja, nego učenik. Kredom napišem na tablu zadatak s jednom greškom i pitam: „Gdje logika više ne vrijedi?“ Razred šuti, a onda se javi jedan, pa drugi. Kad učenik sam pronađe grešku i sam je ispravi, zapamti je mnogo bolje nego kad mu je ja pokažem.\n\nProšle sedmice jedan je učenik olako napisao da je dva puta dva pet, samo da bi brzo završio. Nisam ga ispravila. Pitala sam ga koliko će platiti dvije kifle ako jedna košta dvije marke. Nasmijao se i rekao da će platiti četiri. — A zašto onda na tabli piše pet? — pitala sam. Zadatak nije bio težak. Bio je samo olako riješen, a to nije isto.\n\nOlako se ne griješi samo u školi. Odrasli često olako povjeruju broju koji vide u reklami. „Popust do pedeset posto“ zvuči lijepo, ali logika pita: na koji proizvod, i od koje cijene? Ko postavi to pitanje, donekle se već zaštitio od razočarenja.\n\nZato moje načelo ostaje isto, i zato ga svakog septembra ponovo pišem kredom. Ako ništa drugo ne ponesu iz moje učionice, voljela bih da ponesu to: odgovor bez razloga nije odgovor. Sve ostalo se može naučiti, ispraviti i ponoviti.\n\nArzema, profesorica matematike\n\nPitanja:\nČime Arzema piše na tabli?\nPiše kredom, iako su kolege odavno prešle na flomastere i ekrane.\nKoje načelo piše svakog septembra?\nPiše načelo da svaki odgovor mora imati razlog.\nKako danas ispravlja greške?\nNapiše zadatak s jednom greškom, a učenici sami pronađu grešku i isprave je.\nŠta je jedan učenik olako napisao?\nNapisao je da je dva puta dva pet, samo da bi brzo završio.\nZašto je pravilo samo donekle dovoljno?\nZato što pravilo bez razumijevanja ne pomaže, a logika spaja pravila u cjelinu."
+    },
+    {
+      "title": "Pita s trešnjama u dvije posude",
+      "summary": "Remzo, a baker in Travnik, gets an order for a cherry pie twice as wide as usual; his daughter Zinajda, a maths student, shows him that doubling the radius of his round copper dish means four times as much dough, and he turns the question round to ask how big a dish his cherries can fill.",
+      "newWords": [
+        "trešnja",
+        "bakar",
+        "svojstvo",
+        "radijus",
+        "tijesto",
+        "obrnuti"
+      ],
+      "text": "Remzo je pekar u Travniku. Svakog jutra peče hljeb i pite, a u junu, kad trešnje postanu zrele, peče i svoju poznatu pitu s trešnjama. Peče je u staroj okrugloj posudi od bakra, koju je dobio od oca. Posuda je teška i stalno je treba čistiti, ali Remzo ne bi dao tu posudu ni za jednu novu.\n\n— Bakar ima jedno dobro svojstvo — objašnjava on kupcima. — Toplota se kroz bakar brzo širi na sve strane, pa pita nigdje ne izgori, a nigdje ne ostane sirova.\n\nJednog ponedjeljka dobio je veliku narudžbu. Škola u komšiluku slavi kraj godine i traži pitu s trešnjama, ali mnogo veću od obične. Remzo je u podrumu pronašao još jednu posudu od bakra, širu od prve. Izmjerio je obje. Mala posuda ima radijus od 15 centimetara, a velika radijus od 30.\n\n— Radijus je dva puta veći, znači da mi treba dva puta više tijesta — rekao je.\n\nNjegova kći Zinajda, koja studira matematiku u Sarajevu, upravo je došla kući. Pogledala je posude i rekla:\n\n— Nije tako, tata. Kad je radijus dva puta veći, površina nije dva puta veća, nego četiri puta. Tijesta ti treba četiri puta više.\n\nRemzo nije odmah povjerovao. Zinajda je uzela papir i nacrtala dva kruga, jedan u drugom. Objasnila mu je da površina kruga raste s kvadratom radijusa. To je svojstvo svakog kruga, bio on na papiru ili u kuhinji. — Dva puta veći radijus, četiri puta veća površina. Zato ti i trešanja treba četiri puta više.\n\n— Onda da obrnemo pitanje — rekao je Remzo poslije kratkog razmišljanja. — Ako imam samo tri puta više trešanja nego inače, koliku posudu mogu napuniti?\n\nZinajda se nasmijala. Otac je obrnuo zadatak, a pravilo je ostalo isto. Izračunali su zajedno: za tri puta više trešanja treba posuda s radijusom od otprilike 26 centimetara. Velika posuda je ipak bila šira, pa su odlučili kupiti još trešanja na pijaci.\n\nSutradan ujutro Remzo je napravio četiri puta više tijesta nego obično. Tijesto je tanko rasporedio po velikoj posudi, stavio trešnje, dodao šećer i stavio pitu u rernu. Kad je bila gotova, pustio ju je da se malo ohladi, a onda je posudu obrnuo na veliku drvenu dasku. Pita je izašla cijela i jednako pečena sa svih strana. Bakar je i ovaj put pokazao svoje svojstvo.\n\n— Tijesta je bilo tačno koliko treba — rekao je Remzo zadovoljno. — Ni kašika viška.\n\nPitanja:\nU čemu Remzo peče pitu s trešnjama?\nPeče je u staroj okrugloj posudi od bakra, koju je dobio od oca.\nKoje svojstvo ima bakar?\nToplota se kroz bakar brzo širi na sve strane, pa pita ne izgori.\nKoliki radijus imaju dvije posude?\nMala posuda ima radijus od 15 centimetara, a velika od 30.\nKoliko tijesta treba za veliku posudu?\nTreba četiri puta više tijesta, jer površina kruga raste s kvadratom radijusa.\nKako je Remzo obrnuo pitanje?\nPitao je koliku posudu može napuniti ako ima tri puta više trešanja."
+    },
+    {
+      "title": "Nana bez vage",
+      "summary": "At the Bihać market, grandmother Hazema guesses the weight of watermelons just by lifting them; her grandson Sedin checks every guess on a small scale between customers, adds up peppers and blueberries in his head, and finds that her errors are tiny.",
+      "newWords": [
+        "lubenica",
+        "paprika",
+        "borovnica",
+        "košara",
+        "mahnuti",
+        "ugrabiti"
+      ],
+      "text": "Nana Hazema svake srijede prodaje voće i povrće na pijaci u Bihaću. Ljeti na njenom stolu ima svega: crvene i zelene paprike, paradajz, krastavci, velike lubenice i košare pune borovnica, koje njen komšija bere na planini iznad sela. Ovog ljeta s njom na pijacu ide i unuk Sedin, koji je upravo završio osmi razred.\n\nSedin je ponio malu digitalnu vagu. Nana prodaje na pijaci četrdeset godina i vagu za lubenice nikad nije trebala. Lubenicu samo podigne, malo je odmjeri u rukama i kaže koliko je teška.\n\n— Ova ima šest kila — kaže nana i spusti lubenicu na sto.\n\nSedin je stavi na vagu. Vaga pokaže šest kilograma i 200 grama. Nana mahne rukom, kao da je to sitnica.\n\n— Tih 200 grama ni ne računam — kaže ona.\n\nSedin odluči ozbiljno provjeriti nanu. Svaki put kad nana procijeni jednu lubenicu, on zapiše njenu procjenu, a onda i ono što pokaže vaga. Između dva kupca ugrabi po minutu ili dvije, izvadi svesku i računa. Do podne je zapisao dvadeset lubenica. Nana je u prosjeku griješila manje od 300 grama. Kod manjih lubenica greška je bila manja, a kod najvećih nešto veća.\n\n— Nano, ti si bolja od vage — kaže Sedin.\n\n— Nisam ja bolja — odgovara nana. — Samo sam ih u životu podigla više nego ti.\n\nS paprikama je drugačije. Nana ih ne procjenjuje jednu po jednu, nego ih stavlja u kesu i mjeri na vagi. Kilogram paprike košta tri marke, a lubenica marku po kilogramu. Jedna gospođa traži dva kilograma paprike i jednu lubenicu od sedam kilograma. Sedin brzo izračuna u glavi: šest maraka za paprike i sedam za lubenicu, ukupno 13. Nana mu namigne. Unuk je ugrabio priliku da pokaže šta zna.\n\nNajbrže se prodaju borovnice. Košara borovnica košta deset maraka, i do jedanaest sati ostanu samo dvije košare. Sedin primijeti da kupci koji uzmu borovnice skoro uvijek kupe i nešto povrća, najčešće paprike. Zapiše i to u svesku.\n\nKad se pijaca počne prazniti, nana mahne komšinici sa susjednog stola i počne slagati prazne košare. Sedin sabere zaradu i pokaže joj brojeve. Nana kaže da je sve tačno, a nije ni pogledala svesku.\n\n— Kako znaš? — pita Sedin.\n\n— Prodala sam dvadeset lubenica i sve borovnice, a paprike je ostalo malo — kaže ona. — Toliko otprilike zaradim svake srijede.\n\nSedin se nasmije. Nana nema ni vagu ni svesku, ali ima ono što on tek uči: osjećaj za brojeve.\n\nPitanja:\nŠta nana Hazema prodaje na pijaci?\nProdaje paprike, paradajz, krastavce, lubenice i košare borovnica.\nKako nana zna koliko je teška lubenica?\nSamo je podigne i odmjeri u rukama.\nŠta je Sedin radio između kupaca?\nUgrabio bi minutu ili dvije, zapisao nanine procjene i ono što pokaže vaga.\nKoliko je gospođa platila paprike i lubenicu?\nPlatila je 13 maraka: šest za paprike i sedam za lubenicu.\nŠta je Sedin primijetio o kupcima borovnica?\nPrimijetio je da skoro uvijek kupe i nešto povrća, najčešće paprike."
+    },
+    {
+      "title": "Kolumna: Brojevi iza sapunice",
+      "summary": "A columnist whose neighbour Lutfa never misses her evening soap opera looks at the numbers behind it: how popularity is estimated from a sample, why a 'shocking' two per cent drop may be no drop at all, and why viewers' frustration peaked when the writers changed too much.",
+      "newWords": [
+        "sapunica",
+        "kolumna",
+        "popularnost",
+        "šokantno",
+        "podsvijest",
+        "frustracija"
+      ],
+      "text": "Moja komšinica Lutfa svako veče u osam sati gasi telefon. Tada počinje njena sapunica, i tih četrdeset minuta niko je ne smije zvati. Sapunica ima već više od tri stotine epizoda. Priča je o velikoj porodici koja vodi hotel na moru: neko otvori restoran, neko izgubi ključeve, neko se naljuti na brata zbog auta. Kad sam je pitala zašto to gleda, Lutfa je odgovorila kratko: — Zato što znam šta će se desiti.\n\nTaj odgovor mi nije izlazio iz glave, pa je ova kolumna o brojevima iza sapunice.\n\nPopularnost jedne serije mjeri se brojem gledalaca. Niko ne broji svakog gledaoca posebno. Istraživači prate nekoliko hiljada domaćinstava i iz njih procjenjuju cijelu zemlju. To je uzorak, a svaki uzorak ima grešku. Kad u novinama pročitam da je broj gledalaca jedne sapunice „šokantno pao“ za dva posto, prvo se pitam kolika je ta greška. Ako je greška uzorka dva posto, onda pad nije šokantno velik. Možda to uopće nije pad.\n\nDruga stvar koju brojevi pokazuju još je zanimljivija. Popularnost sapunice ne raste kad se u priči desi nešto veliko, nego kad se ništa posebno ne dešava. Gledaoci se vraćaju poznatim licima, poznatom hotelu i poznatoj muzici na početku. Psiholozi kažu da naša podsvijest voli ono što može predvidjeti. Svjesno tražimo nešto novo, a podsvijest traži red. Ono što podsvijest prepozna, to joj donosi mir.\n\nZato je frustracija gledalaca najveća kad se priča previše promijeni. Prošle godine scenaristi su odlučili da porodica proda hotel i preseli se u grad. Broj gledalaca je odmah pao, i to mnogo više od dva posto, a na internetu se skupilo hiljadu ljutih komentara. Frustracija je bila tolika da su scenaristi poslije mjesec dana vratili porodicu u hotel. Lutfa mi je to ispričala s velikim olakšanjem, kao da se vratila neka njena rodbina.\n\nNe mislim da je išta od ovoga šokantno novo. Ali brojevi lijepo pokazuju nešto što svi znamo: poslije dana punog vijesti, obaveza i iznenađenja, mnogi ljudi navečer žele mir. Sapunica im ga daje. Njena popularnost nije tajna; ona je mjera našeg umora.\n\nOvu kolumnu sam pisala dok je Lutfa gledala svoju sapunicu. Kad se epizoda završila, došla je do mene i pitala o čemu pišem. Rekla sam joj da pišem o njenoj seriji.\n\n— Samo nemoj napisati kako se završava — rekla je.\n\n— Ne brini — odgovorila sam. — Ne znam, a mislim da to ne zna niko.\n\nPitanja:\nŠta Lutfa radi svako veče u osam sati?\nGasi telefon i gleda svoju sapunicu.\nKako se mjeri popularnost serije?\nMjeri se brojem gledalaca, koji istraživači procjenjuju iz uzorka od nekoliko hiljada domaćinstava.\nZašto pad od dva posto možda nije šokantno velik?\nZato što i uzorak ima grešku, a ona može biti dva posto.\nŠta voli naša podsvijest?\nPodsvijest voli ono što može predvidjeti.\nKada je frustracija gledalaca bila najveća?\nBila je najveća kad su scenaristi odlučili da porodica proda hotel."
+    },
+    {
+      "title": "Pitanje za pehar",
+      "summary": "In the season's last quiz night at the Tuzla library, Dijan and Jasmela's team must beat the favourites who have won the cup three years running; the final question asks how many people must be in a room to be sure two share a birth month, and Jasmela's calm resolve brings their triumph.",
+      "newWords": [
+        "pehar",
+        "favorit",
+        "dominacija",
+        "žar",
+        "odlučnost",
+        "trijumf"
+      ],
+      "text": "Svakog četvrtka u gradskoj biblioteci u Tuzli održava se kviz znanja. Igra se u ekipama od po troje, a ekipa s najviše bodova na kraju sezone dobija mali srebreni pehar. Već tri godine zaredom pehar je odnosila ista ekipa, „Sove“. Njihova dominacija bila je tolika da su druge ekipe odavno prestale misliti na prvo mjesto. I ove sezone bili su favoriti, i niko u to nije sumnjao.\n\nDijan i Jasmela igraju u ekipi „Mravi“ zajedno s kolegom s posla. Dijan na kviz dolazi sa žarom kao dijete na utakmicu: javlja se prvi, piše brzo i glasno se raduje svakom tačnom odgovoru. Jasmela je mirnija. Ona radi kao knjigovođa i navikla je sve provjeriti dva puta prije nego što nešto potpiše.\n\nOve sezone dogodilo se nešto novo. „Mravi“ su sedmicu za sedmicom skupljali bodove, i pred posljednji četvrtak bili su samo bod iza favorita. Dominacija „Sova“ prvi put je bila u pitanju. Biblioteka je te večeri bila puna.\n\nPosljednje pitanje nosilo je dva boda i bilo je iz logike. Voditelj ga je pročitao polako: — Koliko najmanje ljudi mora biti u jednoj sobi da bismo bili sigurni da dvoje od njih imaju rođendan u istom mjesecu?\n\nZa stolom favorita odmah su nešto napisali i predali papir. Dijan je sa žarom uzeo olovku. — Dvanaest! Ima dvanaest mjeseci!\n\n— Čekaj — rekla je Jasmela. — Zamisli dvanaest ljudi koji su rođeni u dvanaest različitih mjeseci. To je moguće, zar ne? Onda još nismo sigurni. Tek 13. čovjek mora pasti u neki mjesec koji je već zauzet.\n\nDijan je pogledao sto favorita, koji su bili tako brzi i tako sigurni. Htio je napisati dvanaest, kao i oni. Ali Jasmela je govorila s takvom odlučnošću da se nije usudio. Napisali su 13.\n\nVoditelj je pročitao tačan odgovor: 13. „Sove“ su napisale dvanaest. „Mravi“ su osvojili dva boda i završili sezonu na prvom mjestu, bod ispred favorita.\n\nTrijumf je bio tih, kako je i dolikovalo biblioteci. Dobili su pehar, sok i kolač od bibliotekarke. Kapiten „Sova“ prišao im je, čestitao im i rekao da dogodine pehar neće dati tako lako. Dijan je od uzbuđenja pričao bez prestanka, a Jasmela je samo rekla: — Trijumf nije u tome što smo znali. Trijumf je što smo provjerili.\n\nPehar sada stoji na polici u Jasmelinoj kancelariji. Kad je kolege pitaju za tajnu, ona im kaže da je to bila odlučnost, a ne sreća: odlučnost da ne vjeruje prvom odgovoru, makar ga dali favoriti.\n\nPitanja:\nKo je bio favorit kviza?\nFavorit je bila ekipa „Sove“, koja je tri godine zaredom odnosila pehar.\nKako Dijan igra kviz?\nIgra sa žarom: javlja se prvi, piše brzo i glasno se raduje.\nKakvo je bilo posljednje pitanje?\nPitanje je bilo koliko najmanje ljudi mora biti u sobi da bi dvoje sigurno imali rođendan u istom mjesecu.\nZašto je tačan odgovor 13?\nZato što dvanaest ljudi može biti rođeno u dvanaest različitih mjeseci, pa tek 13. mora pasti u zauzet mjesec.\nKako Jasmela objašnjava njihov trijumf?\nKaže da je to bila odlučnost da ne vjeruje prvom odgovoru, a ne sreća."
+    },
+    {
+      "title": "Skakavci u okvirima",
+      "summary": "On a meadow on Vlašić, biologist Elvedina and her student Sadin estimate how many grasshoppers live there by scattering square frames, photographing each one at once with a camera, counting the insects later, and multiplying by the meadow's area.",
+      "newWords": [
+        "skakavac",
+        "izdaleka",
+        "razbacati",
+        "fotoaparat",
+        "mah",
+        "preletjeti"
+      ],
+      "text": "Livada na Vlašiću izdaleka izgleda mirno. Trava se lagano njiše, a osim nekoliko krava na rubu šume ništa se ne miče. Ali kad biologinja Elvedina i njen student Sadin siđu s puta i zakorače u travu, livada oživi. Na svakom koraku iz trave iskoči skakavac, pa drugi, pa deseti.\n\nElvedina proučava skakavce već petnaest godina. Svakog jula dolazi na ovu livadu s istim pitanjem: koliko skakavaca živi na njoj? Brojati ih jednog po jednog je nemoguće. Livada ima dva hektara, a skakavci ne stoje na mjestu. Zato Elvedina radi kao svaki dobar istraživač: ne broji sve, nego uzme uzorak.\n\nIz auta izvade dvadeset kvadratnih okvira od tankog drveta. Svaki okvir ima stranicu od jednog metra. Elvedina kaže Sadinu da ih razbaca po livadi.\n\n— Kako da ih razbacam? — pita Sadin. — Gdje da ih stavim?\n\n— Nigdje posebno — kaže ona. — Zatvori oči i baci. Ako ih stavljaš tamo gdje vidiš mnogo skakavaca, uzorak neće biti pošten.\n\nSadin razbaca okvire, neke bliže šumi, neke na sredini livade. Onda počne glavni posao. Skakavce u okvirima treba prebrojati, ali čim se čovjek nagne nad okvir, skakavci poskaču na sve strane. Neki skakavac preleti iz jednog okvira u drugi, i onda bi ga Sadin mogao izbrojati dva puta.\n\nZato Elvedina nosi fotoaparat. Prilazi svakom okviru polako i snimi ga u jednom mahu, odozgo, prije nego što se skakavci uplaše. Fotoaparat uhvati sve što je u okviru u istom trenutku, pa nijedan skakavac ne može preletjeti u susjedni okvir i biti izbrojan dva puta. Brojanje se radi poslije, na velikom ekranu.\n\nVjetar puše na mahove. Kad zapuše, trava se povije i skakavci se sakriju. Tada Elvedina čeka, a kad vjetar stane, ponovo podigne fotoaparat.\n\nUveče u planinarskom domu broje. U dvadeset okvira našli su ukupno 160 skakavaca, u prosjeku osam na kvadratni metar. Dva hektara imaju 20.000 kvadratnih metara. Sadin pomnoži i dobije 160.000 skakavaca.\n\n— To je samo procjena — kaže Elvedina. — Ali dobra procjena. Prošle godine bilo ih je 140.000. Livada je zdrava.\n\nSljedećeg jutra, dok idu prema autu, Sadin se okrene i pogleda livadu. Izdaleka opet izgleda mirno i prazno. Sada zna da u njoj živi cijeli jedan grad.\n\nPitanja:\nKako livada izgleda izdaleka?\nIzdaleka izgleda mirno, kao da se ništa ne miče.\nZašto Sadin mora razbacati okvire bez gledanja?\nZato što uzorak ne bi bio pošten kad bi ih stavljao tamo gdje vidi mnogo skakavaca.\nZašto Elvedina snima okvire fotoaparatom?\nFotoaparat u jednom mahu uhvati cijeli okvir, pa nijedan skakavac ne može preletjeti u drugi okvir i biti izbrojan dva puta.\nKoliko su skakavaca našli u okvirima?\nNašli su 160 skakavaca, u prosjeku osam na kvadratni metar.\nKoliko skakavaca živi na livadi?\nPrema procjeni, na livadi živi 160.000 skakavaca."
+    },
+    {
+      "title": "Obnova stana u Mostaru",
+      "summary": "Before Rasima moves into her grandmother's old flat in Mostar, she and her brother Emdin plan the renovation with numbers: they remove the old tiles, work out how much paint the walls need minus the windows, buy timber, and mark the drill holes for wooden pegs to hold the shelves.",
+      "newWords": [
+        "obnova",
+        "uklanjati",
+        "građa",
+        "bušilica",
+        "klin",
+        "useljavati"
+      ],
+      "text": "Rasima se za mjesec dana useljava u stan koji je naslijedila od nane, u staroj ulici iznad Neretve u Mostaru. Stan je svijetao i ima pogled na Neretvu, ali nije obnavljan trideset godina. Prije nego što se useli, treba ga srediti. Obnovu planira s bratom Emdinom, koji je građevinski inženjer i voli sve izračunati unaprijed.\n\n— Obnova bez računa je kao put bez mape — kaže Emdin prve subote i otvori svesku.\n\nPočinju od kupatila. Stare pločice treba ukloniti. Uklanjaju ih polako, jednu po jednu, da ne oštete cijevi u zidu. Emdin izmjeri zidove i izračuna koliko novih pločica treba: 18 kvadratnih metara, i još deset posto više, jer se pri sjećenju uvijek nešto polomi.\n\nOnda dolaze sobe. Emdin izmjeri dužinu i visinu svakog zida i sabere površine. Od toga oduzme površinu prozora i vrata, jer njih neće bojiti. Na kanti boje piše da jedna kanta pokrije 40 kvadratnih metara, ali on zna da zid treba bojiti dva puta. Kad sve izračuna, ispadne da im treba šest kanti boje. Rasima kaže da bi ona kupila četiri, odoka. Emdin se samo nasmije.\n\nZa police i novi ormar trebaju i građu. U prodavnici građevinskog materijala kupuju daske od bukve. Emdin je i ovdje sve izračunao: koliko je dasaka potrebno, koliko je široka svaka polica i koliko otpada ostaje kad se daske izrežu. Građa je skupa, pa ne žele kupiti ni dasku više nego što treba.\n\nPolice će stajati na drvenim klinovima. Emdin olovkom označi mjesta na zidu, svako na tačno četrdeset centimetara od drugog, pa uzme bušilicu. Bušilica je glasna, i komšinica iz stana ispod dođe pitati koliko će to trajati. — Još šest rupa — kaže Rasima. — Brojimo ih.\n\nU svaku rupu Emdin zabije po jedan klin, a onda na klinove postavi daske. Rasima stavi libelu na policu. Mjehurić stoji tačno na sredini.\n\n— Vidiš — kaže Emdin. — Kad su klinovi na istoj visini, polica je ravna. Tu nema nikakve tajne, samo mjerenje.\n\nZa mjesec dana obnova je završena. Rasima vraća bratu bušilicu i daje mu kutiju baklava iz čaršije kao zahvalnost. Te večeri useljava se u stan i na novu policu stavlja naninu staru džezvu. Na kraju svoje sveske Emdin dopiše još jedan broj: novac koji su uštedjeli zato što nisu kupovali odoka.\n\nPitanja:\nKada se Rasima useljava u stan?\nUseljava se za mjesec dana, kad obnova bude gotova.\nZašto stare pločice uklanjaju polako?\nUklanjaju ih polako da ne oštete cijevi u zidu.\nKako Emdin računa koliko boje treba?\nSabere površine zidova, oduzme prozore i vrata, i računa da se zid boji dva puta.\nZašto ne žele kupiti više građe nego što treba?\nZato što je građa skupa.\nNa čemu stoje police?\nPolice stoje na drvenim klinovima, za koje je Emdin izbušio rupe bušilicom."
+    },
+    {
+      "title": "Koliko anestezije treba jednom zubu",
+      "summary": "Mr Tarbuk comes to dentist Alemka in Zenica with a sore tooth; she explains why the lower jaw needs more anaesthetic than the upper, how the safe limit depends on body weight, honestly tells him he does not need an expensive treatment, and advises him to wait before eating the steak he has planned.",
+      "newWords": [
+        "anestezija",
+        "čeljust",
+        "limit",
+        "poštenje",
+        "dogovarati",
+        "biftek"
+      ],
+      "text": "Gospodin Tarbuk već tri dana osjeća bol u jednom zubu, dolje lijevo. U ponedjeljak ujutro nazove ordinaciju doktorice Alemke u Zenici. Medicinska sestra s njim dogovara termin za isti dan, u jedanaest sati.\n\nDoktorica Alemka pregleda zub i snimi ga. — Imate mali karijes — kaže ona. — Popravit ćemo ga plombom. Dat ću vam anesteziju, pa nećete ništa osjetiti.\n\nGospodin Tarbuk je inženjer i voli znati kako stvari rade. Pita je koliko anestezije treba za jedan zub.\n\n— Zavisi od toga gdje je zub — objašnjava doktorica. — Gornja čeljust ima tanju i mekšu kost, pa anestezija lako prođe do živca. Za gornji zub često je dovoljna jedna mala ampula. Donja čeljust je mnogo čvršća. Kod donjih zuba anesteziju dajem bliže živcu, a ponekad treba i više od jedne ampule.\n\n— A postoji li neki limit? — pita on.\n\n— Postoji. Limit zavisi od težine tijela. Za odraslog čovjeka od 70 kilograma limit je oko sedam ampula. Vama će trebati jedna, možda dvije. Daleko smo od limita.\n\nGospodin Tarbuk je zadovoljan odgovorom. Doktorica mu da anesteziju, i nakon nekoliko minuta on više ne osjeća ni zub ni pola donje usne. Popravak traje dvadeset minuta.\n\nPoslije toga on se sjeti nečega. Prijatelj mu je rekao da bi trebalo ugraditi skupu krunicu, i pita doktoricu da li mu treba.\n\n— Ne treba vam — kaže ona. — Zub je zdrav i plomba će dugo trajati. Mogla bih vam prodati krunicu, ali to ne bi bilo pošteno. Poštenje je u ovom poslu važnije od zarade. Pacijent koji mi vjeruje vratit će se kod mene i za deset godina.\n\nGospodin Tarbuk cijeni to poštenje. Na izlazu s medicinskom sestrom dogovara sljedeći pregled za šest mjeseci.\n\n— Još nešto — kaže doktorica dok on oblači jaknu. — Šta planirate za ručak?\n\n— Biftek — kaže on. — Žena ga je obećala.\n\n— Biftek može, ali tek za dva-tri sata, kad anestezija prođe. Dok ne osjećate usnu, teško je jesti kako treba. Do tada je bolje ne jesti ništa.\n\nGospodin Tarbuk pogleda na sat i izračuna: anestezija je dana u jedanaest i petnaest, pa će proći oko dva. Ručak će pomjeriti za tri. Kad stigne kući, žena se nasmije i kaže da je biftek ionako još u frižideru.\n\nPitanja:\nS kim gospodin Tarbuk dogovara termin?\nTermin dogovara s medicinskom sestrom u ordinaciji doktorice Alemke.\nZašto donja čeljust treba više anestezije?\nZato što je kost donje čeljusti mnogo čvršća od kosti gornje čeljusti.\nOd čega zavisi limit anestezije?\nLimit zavisi od težine tijela; za odraslog čovjeka od 70 kilograma to je oko sedam ampula.\nZašto mu doktorica ne prodaje krunicu?\nZato što mu krunica ne treba, a za nju je poštenje važnije od zarade.\nKada smije pojesti biftek?\nSmije ga pojesti kad anestezija prođe, za dva-tri sata."
+    },
+    {
+      "title": "Prije nego što zapuše vjetar",
+      "summary": "In Neum, Halida and her son Erzad plan a small-boat trip along the coast: Erzad learns to connect speed, time and distance, they work out when they must turn back before the afternoon wind makes the sea rough, and on the way two dolphins surface beside the boat.",
+      "newWords": [
+        "smjerati",
+        "otploviti",
+        "povezivati",
+        "težiti",
+        "buran",
+        "isplivati"
+      ],
+      "text": "U pet sati ujutro Halida čuje korake u hodniku. Njen sin Erzad, petnaestogodišnjak, već je obučen i stoji pred vratima s ruksakom.\n\n— Šta smjeraš u ovo doba? — pita ga ona.\n\n— Ništa loše ne smjeram — kaže Erzad. — Hoću vidjeti kako se planira izlet čamcem.\n\nHalida se nasmije. Ona ima mali čamac s motorom u luci u Neumu, a za danas su se dogovorili otploviti do jedne uvale na obali, šest nautičkih milja dalje. Erzad je cijelo ljeto pitao da ide s njom, ali Halida je postavila uslov: prvo mora sam izračunati plan.\n\nSjedaju za kuhinjski sto. Halida mu objašnjava da plan na moru znači povezivati tri broja: brzinu, vrijeme i put. Čamac vozi pet čvorova, to jest pet milja na sat. Ako je uvala šest milja daleko, put u jednom smjeru traje nešto više od sat i deset minuta.\n\n— A sada vremenska prognoza — kaže Halida. — Na moru moraš povezivati i brojeve i vjetar.\n\nPrognoza kaže da će od dva sata poslije podne zapuhati jak vjetar, i da će more biti burno. Halida ne voli burno more u malom čamcu. Ona uvijek teži tome da bude u luci prije vjetra, a ne poslije. Erzad računa: ako otplove u šest, u uvali su malo poslije sedam. Mogu ostati tri sata, kupati se i doručkovati. Ako krenu natrag u deset i petnaest, u luci su prije pola dvanaest. To je dva i po sata prije vjetra.\n\n— Zašto tolika rezerva? — pita Erzad.\n\n— Zato što prognoza nije sat — kaže Halida. — Vjetar ponekad stigne i ranije. Kad se planira na moru, treba težiti sigurnosti, a ne brzini.\n\nU šest sati otplove iz luke. More je mirno, kao staklo. Pola sata poslije, blizu čamca iz vode isplivaju dva delfina. Isplivaju, zarone i opet isplivaju malo dalje, kao da se utrkuju s čamcem. Halida uspori motor, i nekoliko minuta samo ih gledaju.\n\nU uvali sve ide po planu. U deset i petnaest krenu natrag. Kad su ušli u luku, sat je pokazivao 11:25. Vjetar je stigao već u pola dva, pola sata ranije nego što je pisalo u prognozi. Kroz prozor kuhinje gledali su kako more postaje burno i kako bijeli valovi udaraju o obalu.\n\n— Vidiš zašto rezerva — kaže Halida.\n\nErzad klimne glavom. U svesku zapiše: brzina, vrijeme, put, vjetar. I ispod toga: uvijek sat više.\n\nPitanja:\nŠta Halida pita Erzada u pet sati ujutro?\nPita ga šta smjera u ovo doba, a on kaže da ništa loše ne smjera.\nKoja tri broja treba povezivati na moru?\nTreba povezivati brzinu, vrijeme i put.\nČemu Halida uvijek teži na moru?\nTeži tome da bude u luci prije vjetra, jer je sigurnost važnija od brzine.\nKada je more postalo burno?\nMore je postalo burno u pola dva, kad je stigao vjetar, pola sata ranije od prognoze.\nŠta je isplivalo blizu čamca?\nBlizu čamca isplivala su dva delfina."
+    },
+    {
+      "title": "Raspored za četiri spavaonice",
+      "summary": "At a summer camp on the Una, leader Seida must fit twenty-four children into four dormitories by a few simple rules, pins their names on a board, works out by elimination which room is making noise at night, counts chicken thighs and bottles of mosquito lotion, and hears young Tijan's plan to patent a door bell.",
+      "newWords": [
+        "spavaonica",
+        "zabadati",
+        "galamiti",
+        "losion",
+        "bedro",
+        "patent"
+      ],
+      "text": "Seida već šest ljeta vodi ljetnu školu u prirodi na Uni, nedaleko od Bihaća. Škola ima četiri spavaonice, svaka sa šest kreveta, a ove sedmice došlo je tačno dvadeset i četvero djece. Prvo veče uvijek počinje istim zadatkom: rasporedom po spavaonicama.\n\nSeida ima tri pravila. Braća i sestre spavaju u istoj spavaonici, ako to žele. Najmlađi spavaju u spavaonici najbližoj njenoj sobi. I niko ne smije biti jedini iz svog grada u spavaonici, da se ne bi osjećao sam.\n\nNa zidu u velikoj sobi za ručak visi drvena ploča. Seida napiše imena djece na male komade papira i zabada ih iglama u četiri polja, po jedno za svaku spavaonicu. Kad neko pravilo nije ispunjeno, izvadi iglu i zabada ime u drugo polje. Djeca stoje oko nje i daju prijedloge. Nakon pola sata raspored je gotov i sva tri pravila su ispunjena.\n\nTe noći, oko ponoći, iz jedne spavaonice čuje se smijeh. Neko galami, i to sve glasnije. Seida izađe u hodnik. Spavaonice su jedna do druge, a zidovi su tanki, pa ne može odmah reći ko galami. Zato razmišlja korak po korak. U prvoj spavaonici su najmlađi, a oni su zaspali još u deset. U četvrtoj je svjetlo ugašeno i potpuno je tiho. Ostaju druga i treća. Seida stane pred drugu: tišina. Stane pred vrata treće: smijeh postane još jači. Otvori vrata, i odmah nastane tišina.\n\n— Ko galami u ponoć, sutra ujutro prvi pere suđe — kaže ona mirno. Više niko ne galami.\n\nUjutro je čeka računanje. Za ručak se spremaju pileća bedra. Svako dijete dobije po dva bedra, a četiri voditelja po jedno. Seida izračuna: četrdeset osam i četiri, ukupno pedeset i dva bedra. Kuvarica naruči 60, jer neko uvijek traži još.\n\nNa rijeci ima mnogo komaraca, pa se svako veče djeca mažu losionom. Jedna flaša losiona dovoljna je otprilike za deset večeri jednog djeteta. Seida računa: dvadeset i četvero djece, sedam večeri. Treba im 17 flaša losiona, a u ormaru ih ima dvanaest. Popodne pošalje jednog voditelja u Bihać po još pet.\n\nZa večerom joj priđe Tijan, dječak od deset godina iz treće spavaonice. Pokaže joj crtež: tanak konac na vratima spavaonice i malo zvono na njemu. Kad neko noću otvori vrata, zvono se čuje.\n\n— Prijavit ću patent — kaže Tijan ozbiljno.\n\n— Za patent treba tačan plan — kaže Seida. — Nacrtaj koliko je dug konac i gdje stoji zvono, pa ćemo vidjeti.\n\nTijan cijelo veče crta i mjeri. Seida zabada njegov crtež na ploču, pored rasporeda. Ispod crteža on krupnim slovima napiše: „Patent treće spavaonice“.\n\nPitanja:\nKoliko spavaonica ima škola u prirodi?\nŠkola ima četiri spavaonice, svaka sa šest kreveta.\nKako Seida pravi raspored?\nZabada imena djece iglama u četiri polja na drvenoj ploči.\nKako je Seida otkrila koja spavaonica galami?\nPrvo je izbacila prvu i četvrtu, gdje je bilo tiho, a onda je slušala pred vratima druge i treće.\nKoliko je bedara trebalo za ručak?\nTrebalo je pedeset i dva bedra, a kuvarica je naručila 60.\nŠta Tijan želi prijaviti kao patent?\nŽeli prijaviti patent za konac sa zvonom koje se čuje kad neko noću otvori vrata."
+    }
+  ]
+}
