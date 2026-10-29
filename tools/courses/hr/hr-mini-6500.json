@@ -1,0 +1,185 @@
+{
+  "id": "hr-mini-6500",
+  "rankUpTo": 6500,
+  "level": "C1",
+  "title": "Inženjerska vještina",
+  "description": "Ten texts about engineering in everyday life: a crane operator and his whistling signalman in Zagreb, a power plant on the Drava, a textile lab testing wool and jeans, 3D-printed dentures in Osijek, an electronic nose for truffles in Istria, a hospital engineer's machines in Split, a blacksmith at a Samobor fair, a student bridge competition, a column on a car-parts factory that went bankrupt, and a safer village crossroads.",
+  "topic": "Engineering",
+  "names": [
+    "Strahimir",
+    "Ljubivoj",
+    "Zagreb",
+    "Trešnjevka",
+    "Trešnjevci",
+    "Ninoslava",
+    "Vitislav",
+    "Drava",
+    "Varaždin",
+    "Teofila",
+    "Pag",
+    "Miroslavka",
+    "Osijek",
+    "Radmir",
+    "Godimir",
+    "Dragovan",
+    "Garo",
+    "Buzet",
+    "Istra",
+    "Velimirka",
+    "Split",
+    "Solin",
+    "Samobor",
+    "Vjekomir",
+    "Kornelijan",
+    "Želislava",
+    "Svjetlanka",
+    "Hrvatska",
+    "Njemačka",
+    "Italija",
+    "Francuska",
+    "Domislava"
+  ],
+  "lessons": [
+    {
+      "title": "Dizalica iznad Trešnjevke",
+      "summary": "Strahimir, a crane operator in Zagreb, explains why a crane is never loaded to its maximum, how his signalman Ljubivoj whistles when the radio fails, and why he leaves glass panels on the ground on a windy day.",
+      "newWords": [
+        "dizalica",
+        "fiksan",
+        "maksimum",
+        "opteretiti",
+        "rizično",
+        "zviždati",
+        "baraka",
+        "predah"
+      ],
+      "text": "Strahimir živi u Zagrebu i već dvadeset godina upravlja dizalicom. Ove godine na Trešnjevci se gradi nova zgrada sa sedam katova, a njegova dizalica stoji usred gradnje kao visok žuti toranj. Svako jutro u šest sati Strahimir se penje četrdeset metara do male sobice na vrhu dizalice. Penjanje traje deset minuta, pa se do podneva ne spušta.\n\nDizalica ima fiksan stup, a ruka na vrhu okreće se u krug. Stup je fiksan jer stoji na betonskom temelju koji je težak više od sto tona. Sve ostalo se pomiče: ruka, mala kolica koja voze po ruci i kuka koja visi na čeličnom užetu.\n\nNajvažnija riječ na dizalici je maksimum. Svaka dizalica ima svoj maksimum, najveći teret koji smije podići. Strahimirova dizalica blizu stupa može podići šest tona, a na kraju ruke samo tonu i pol. Što je teret dalje od stupa, to je maksimum manji. Na zaslonu u sobici Strahimir uvijek vidi koliko je dizalica opterećena, a kad je opterećena više od 90 posto, uređaj se oglasi.\n\n— Dizalicu nikad ne smiješ opteretiti do kraja — kaže Strahimir mladim radnicima. — Maksimum nije cilj, nego granica. Kad je teret blizu granice, to je rizično, osobito kad puše vjetar.\n\nStrahimir s vrha ne vidi sve. Dolje ga vodi Ljubivoj, koji stoji uz teret i s njim razgovara preko radija. Kad radio ne radi, Ljubivoj zviždi. Jedno kratko zviždanje znači „podigni“, dva kratka „spusti“, a jedno dugo „stani“. Ljubivoj zviždi tako glasno da ga Strahimir čuje i kroz zatvoren prozor. — Radio je dobar — kaže Ljubivoj — ali zviždati znam od djetinjstva i to me nikad nije iznevjerilo.\n\nU podne Strahimir silazi na predah. Radnici imaju baraku uz ogradu: malu drvenu kuću sa stolom, klupama i hladnjakom. U baraci se jede, grije i suši odjeća kad pada kiša. Predah traje pola sata. Strahimir pije kavu, gleda plan zgrade na zidu barake i s Ljubivojem dogovara posao za poslijepodne.\n\nJedne srijede ujutro vjetar je bio jak. Zaslon je pokazivao da puše više od 60 kilometara na sat, a tog dana trebalo je podići velike staklene ploče za prozore. — Danas je to rizično — rekao je Strahimir. Nije htio opteretiti dizalicu ni do pola maksimuma. Ljubivoj se složio. Ploče su ostale na zemlji, a radnici su taj dan radili unutar zgrade.\n\nSutradan je vjetar stao. Strahimir je podigao staklo, ploču po ploču, polako i bez žurbe. Ljubivoj je zviždao samo dvaput, a u podne su obojica u baraci imali zaslužen predah.\n\nPitanja:\nZašto je stup dizalice fiksan?\nStup je fiksan jer stoji na betonskom temelju koji je težak više od sto tona.\nŠto je maksimum dizalice?\nMaksimum je najveći teret koji dizalica smije podići, a manji je što je teret dalje od stupa.\nŠto radi Ljubivoj kad radio ne radi?\nKad radio ne radi, Ljubivoj zviždi, a svako zviždanje ima svoje značenje.\nŠto radnici rade u baraci?\nU baraci jedu, griju se, suše odjeću i imaju predah.\nZašto Strahimir u srijedu nije podigao staklene ploče?\nVjetar je bio jak, a to je bilo previše rizično."
+    },
+    {
+      "title": "Elektrana na Dravi",
+      "summary": "Ninoslava, an engineer at a power plant on the Drava near Varaždin, shows a school class how the river turns the turbines, why a whirlpool at a pipe's mouth is bad, what a frozen lake once meant for the plant, and why one plant stopping does not put the lights out.",
+      "newWords": [
+        "elektrana",
+        "ravnica",
+        "izdaleka",
+        "vrtlog",
+        "zalediti",
+        "znatno",
+        "prestanak"
+      ],
+      "text": "Ninoslava je inženjerka i već petnaest godina radi u elektrani na Dravi, nedaleko od Varaždina. Elektrana se vidi izdaleka: dugi betonski zid preko rijeke, a iza njega veliko jezero. Oko Varaždina je ravnica, pa se zid elektrane primijeti izdaleka, jer oko njega nema brda, samo polja i redovi visokih stabala.\n\nJednog travanjskog jutra u elektranu je došao razred iz osnovne škole s učiteljem Vitislavom. Ninoslava ih je dočekala na ulazu i svakom djetetu dala žutu kacigu.\n\n— Drava ovdje teče kroz ravnicu — počela je. — Ravnica je lijepa, ali rijeka u ravnici teče sporo i nema velikog pada. Zato smo napravili zid koji podiže vodu za nekoliko metara. Voda iz jezera onda pada kroz široke cijevi, okreće velike kotače i tako nastaje struja.\n\nSpustili su se u veliku dvoranu u kojoj su stajala dva ogromna stroja. Ninoslava je otvorila mala vrata u podu. Ispod njih tekla je voda i stvarala vrtlog. — Vidite li vrtlog? — pitala je djecu. — Voda se vrti kao u kadi kad izvadite čep. Mali vrtlog je normalan, ali velik vrtlog na ulazu u cijev nije dobar, jer u cijev unosi zrak, a stroj tada radi lošije. Zato inženjeri mjere svaki vrtlog i oblikuju ulaz u cijev tako da vrtloga bude što manje.\n\nJedna djevojčica pitala je radi li elektrana i zimi. — Radi — rekla je Ninoslava — ali zima nam stvara posla. Prije trideset godina bila je tako hladna zima da se jezero gotovo cijelo zaledilo. Led je bio debeo dvadeset centimetara. Kad se jezero zaledi, led pritišće željezne rešetke na ulazu u cijevi, pa smo ga morali razbijati. Danas se jezero rijetko zaledi, jer su zime toplije, ali smo uvijek spremni.\n\nUčitelj Vitislav pitao je koliko struje elektrana daje. Ninoslava je rekla da daje znatno više struje nego što troši cijeli Varaždin. — U proljeće, kad se snijeg u planinama otopi, Drava je puna vode i elektrana radi znatno više nego krajem ljeta — dodala je.\n\nNa kraju su djeca htjela znati što bi se dogodilo kad bi elektrana stala. — Prestanak rada jedne elektrane ne znači da će se svjetla u gradu ugasiti — objasnila je Ninoslava. — Elektrane su povezane, i kad jedna stane, druge rade više. Ipak, svaki prestanak rada pažljivo planiramo. Jednom godišnje elektrana stane na tjedan dana, kad inženjeri pregledavaju strojeve, a o tom prestanku rada drugi znaju mjesecima unaprijed.\n\nDok su se vraćali autobusom kroz ravnicu, djeca su se okretala da još jednom vide elektranu. Zid se vidio izdaleka, još dugo, sve dok nije nestao iza stabala.\n\nPitanja:\nZašto se elektrana vidi izdaleka?\nOko Varaždina je ravnica, a oko zida elektrane nema brda.\nZašto je na Dravi napravljen zid?\nRijeka u ravnici teče sporo i nema velikog pada, pa zid podiže vodu za nekoliko metara.\nZašto velik vrtlog na ulazu u cijev nije dobar?\nVelik vrtlog unosi zrak u cijev, a stroj tada radi lošije.\nŠto se dogodilo kad se jezero zaledilo?\nLed je pritiskao rešetke na ulazu u cijevi, pa su ga morali razbijati.\nŠto znači prestanak rada jedne elektrane?\nTo ne znači da će se svjetla ugasiti, jer druge elektrane tada rade više."
+    },
+    {
+      "title": "Vuna pod mikroskopom",
+      "summary": "Teofila, a textile engineer in Zagreb, compares her grandmother's wool cardigan with a synthetic one, measures a wool fibre against a hair, tears threads in a testing machine, and rubs jeans until a hole appears.",
+      "newWords": [
+        "vuna",
+        "vesta",
+        "svojstvo",
+        "vlas",
+        "nit",
+        "kidati",
+        "traperice",
+        "odijevati",
+        "usto"
+      ],
+      "text": "Teofila je inženjerka tekstila i radi u laboratoriju u Zagrebu. Njen posao je ispitivati tkanine: koliko griju, koliko su čvrste, koliko traju i kako se ponašaju kad se operu. Kaže da se ljudi odijevaju svaki dan, a da gotovo nitko ne razmišlja o tome od čega je ono što nosi.\n\nJednog ponedjeljka Teofila je u laboratorij donijela dvije veste. Jednu joj je davno isplela baka, od vune ovaca s Paga. Druga je bila nova, kupljena u trgovini, od umjetnih vlakana. Na pogled su veste bile slične: obje sive, obje mekane. Ali Teofila je htjela pokazati mladom kolegi da svaka tkanina ima svoja svojstva.\n\nNajprije je pod mikroskop stavila jedno vlakno vune, a pokraj njega jednu svoju vlas. Vlakno vune bilo je tanje od vlasi. — Ova vuna je tanja od moje kose — rekla je. — Svaka vlas ima glatku površinu, a vlakno vune ima male ljuske. Zbog tih ljuski vuna drži zrak, a zrak grije. To je najvažnije svojstvo vune.\n\nZatim je na obje veste stavila jednaku količinu vode. Bakina vesta od vune upila je vodu, a ipak je ostala topla. Nova vesta bila je mokra i hladna. — Vuna grije i kad je vlažna — rekla je Teofila. — Usto, vuna ne zadržava neugodne mirise. Zato se u planinama ljudi odijevaju u vunu već tisućama godina.\n\nPoslije podne ispitivali su čvrstoću. Stroj u laboratoriju cijeli dan kida niti. Hvata nit na dva kraja i polako je vuče, a na zaslonu se vidi kolikom je snagom kida. Nit od vune kidala se lakše od niti od umjetnih vlakana. — Vidiš, vuna nije savršena — rekla je Teofila. — Svaka tkanina ima dobra i loša svojstva.\n\nNa kraju dana ispitali su traperice. Proizvođač iz Varaždina htio je znati koliko dugo traperice traju na koljenima. Teofila je komad tkanine stavila pod stroj koji ga trlja tisućama puta, kao da netko u trapericama kleči u vrtu. Nakon dvadeset tisuća pokreta tkanina se istanjila, a nakon trideset tisuća pojavila se rupa. — Za traperice je to dobar rezultat — rekla je.\n\nNavečer je Teofila odjenula bakinu vestu i otišla kući. Vesta je bila stara trideset godina, a još je grijala kao prvi dan. Usto je bila lijepa, a to ni jedan stroj ne može izmjeriti.\n\nPitanja:\nŠto Teofila ispituje u laboratoriju?\nIspituje tkanine: koliko griju, koliko su čvrste i koliko traju.\nŠto je Teofila vidjela pod mikroskopom?\nVidjela je da je vlakno vune tanje od njene vlasi i da ima male ljuske.\nKoje je najvažnije svojstvo vune?\nVuna drži zrak, pa grije i kad je vlažna.\nKako stroj ispituje nit?\nStroj hvata nit na dva kraja, polako je vuče i kida.\nKada se na trapericama pojavila rupa?\nRupa se pojavila nakon trideset tisuća pokreta."
+    },
+    {
+      "title": "Proteza iz pisača",
+      "summary": "Miroslavka, a retired teacher in Osijek, gets new dentures: the dentist first fills a cavity under a local anaesthetic, then scans her mouth instead of taking a mould, and the dental technician Radmir prints a solid set that fits on the first try.",
+      "newWords": [
+        "čekaonica",
+        "proteza",
+        "šupljina",
+        "anestezija",
+        "salveta",
+        "olakšavati",
+        "solidan"
+      ],
+      "text": "Miroslavka ima 72 godine i živi u Osijeku. Stara proteza više joj ne odgovara: klizi kad jede i smeta joj kad govori. Zato se jednog utorka ujutro našla u čekaonici zubne ordinacije u centru grada.\n\nČekaonica je bila svijetla, s biljkama na prozoru i malim stolom punim časopisa. U čekaonici su sjedili još jedan stariji gospodin i majka s djetetom. Miroslavka je čitala časopis i pokušavala ne misliti na bušilicu.\n\nZubarica ju je pozvala u ordinaciju, posjela je u stolicu i oko vrata joj stavila papirnatu salvetu. — Prije nove proteze moramo pogledati zube koje još imate — rekla je. Na jednom donjem zubu našla je malu šupljinu. — Šupljina nije velika, ali proteza će se oslanjati baš na taj zub, pa ga moramo popraviti.\n\n— Hoće li boljeti? — pitala je Miroslavka.\n\n— Dat ću vam lokalnu anesteziju — odgovorila je zubarica. — Anestezija djeluje samo na taj dio usta. Najprije ćete osjetiti mali ubod, a onda ništa.\n\nAnestezija je brzo djelovala. Zubarica je očistila šupljinu i zatvorila je. Kad je završila, Miroslavka je salvetom obrisala usta i odahnula.\n\nZatim je u ordinaciju ušao Radmir, zubni tehničar. On radi proteze već trideset godina. Nekad je uzimao otisak usta mekanom masom koju pacijent mora držati u ustima nekoliko minuta. Miroslavka je to pamtila od prošlog puta kao nešto vrlo neugodno. Ovaj put Radmir je u ruci imao mali uređaj veličine četkice za zube. Polako ga je vodio po njenim ustima, a na zaslonu se pojavila slika svih zuba i desni u tri dimenzije.\n\n— To nam jako olakšava posao — rekao je Radmir. — A pacijentima olakšava cijeli postupak. Nema mase, nema čekanja.\n\nZa tjedan dana Miroslavka je opet sjedila u čekaonici. Radmir joj je donio novu protezu, napravljenu na pisaču koji radi u tri dimenzije, i pažljivo joj ju je stavio u usta. Proteza je odmah dobro sjela. — Solidan rad — rekla je zubarica i nasmiješila se. — Nije samo solidan — rekla je Miroslavka. — Odličan je.\n\nNavečer je Miroslavka pojela jabuku, prvi put nakon dugo vremena. Proteza se nije ni pomaknula.\n\nPitanja:\nZašto je Miroslavka otišla zubarici?\nStara proteza više joj nije odgovarala: klizila je i smetala joj je kad govori.\nŠto je zubarica našla na donjem zubu?\nNašla je malu šupljinu i popravila ju je.\nZašto Miroslavka nije osjetila bol?\nZubarica joj je dala lokalnu anesteziju.\nKako je Radmir napravio sliku njenih usta?\nVodio je mali uređaj po njenim ustima, a slika se pojavila na zaslonu.\nŠto je Miroslavka napravila navečer?\nPojela je jabuku, a proteza se nije ni pomaknula."
+    },
+    {
+      "title": "Nos koji ne griješi",
+      "summary": "Godimir, an engineer in Buzet, builds an electronic nose for truffles: he watches the truffle hunter Dragovan's dog sniff, learns how wasps can be trained to smell, and finds that a flea collar and a polecat confuse both the dog and the machine.",
+      "newWords": [
+        "njušiti",
+        "intuicija",
+        "fascinirati",
+        "polizati",
+        "buha",
+        "tvor",
+        "osa"
+      ],
+      "text": "Godimir je inženjer elektronike i živi u Buzetu, u Istri. Od djetinjstva ga fascinira kako psi njuše. Pas može nanjušiti tartuf pod zemljom, dvadeset centimetara duboko, a to ne može ni jedan uređaj koji je čovjek napravio. Godimir već tri godine radi na elektroničkom nosu: maloj kutiji koja njuši zrak i javlja kad osjeti miris tartufa.\n\nJedne jesenske nedjelje otišao je u šumu s Dragovanom, koji tartufe traži četrdeset godina. S njima je bio Dragovanov pas Garo, mali i crn, s dugim ušima. Garo je trčao između stabala, njušio zemlju i odjednom počeo kopati. Dragovan ga je pohvalio, a on mu je polizao ruku. Ispod zemlje bio je tartuf.\n\n— Kako znaš gdje ga treba pustiti? — pitao je Godimir.\n\n— To je intuicija — rekao je Dragovan. — Znam koja stabla tartufi vole i kakva je zemlja dobra. Ali na kraju intuicija nije dovoljna. Garo njuši, a ja samo hodam za njim.\n\nGodimir je kutiju stavio na zemlju na istom mjestu. Kutija je javila slab signal. Pas je bio bolji, ali uređaj je ipak nešto osjetio. To ga je razveselilo.\n\nNavečer je Godimir čitao o osama. Znanstvenici su naučili ose prepoznavati određene mirise: kad osa osjeti miris, dobije šećernu vodu. Nakon nekoliko pokušaja osa se okreće prema mirisu koji je naučila. — Ose uče brže od pasa — napisao je Godimir u bilježnicu. — Ali osu ne možeš povesti u šumu na uzici. To ga je fasciniralo više od svega: priroda je odavno riješila ono što inženjeri tek pokušavaju.\n\nSljedeći tjedan Garo je slabije njušio. Dragovan je primijetio da se stalno češe i odveo ga je veterinaru. Imao je buhe. Veterinar mu je stavio ogrlicu protiv buha. Buha više nije bilo, ali ogrlica je imala jak miris i Garo je dva dana tražio tartufe lošije nego inače. Godimir je zapisao i to: jak miris blizu nosa smeta i psu i uređaju.\n\nTreći put, u šumi kraj potoka, kutija je odjednom pokazala vrlo jak signal, a nije bilo tartufa. Dragovan se nasmijao i pokazao na rupu ispod stijene. — Ovdje živi tvor — rekao je. — Tvor ima miris koji sve pokrije. Kutija je osjetila tvora, a ne tartuf. Garo je samo polizao nos i otišao dalje.\n\nGodimir je shvatio da njegov elektronički nos mora naučiti razlikovati mirise, a ne samo njušiti. Pas to radi bez razmišljanja. Uređaj će morati učiti kao osa, korak po korak.\n\nPitanja:\nŠto Godimira fascinira od djetinjstva?\nFascinira ga kako psi njuše.\nŠto je Dragovan rekao o intuiciji?\nRekao je da intuicija nije dovoljna: Garo njuši, a on samo hoda za njim.\nKako znanstvenici uče ose prepoznavati mirise?\nKad osa osjeti miris, dobije šećernu vodu, pa se nakon nekoliko pokušaja okreće prema tom mirisu.\nZašto je Garo dva dana slabije tražio tartufe?\nImao je ogrlicu protiv buha koja je imala jak miris.\nZašto je kutija kraj potoka pokazala jak signal?\nIspod stijene živio je tvor, a uređaj je osjetio njegov miris."
+    },
+    {
+      "title": "Uređaji koji gledaju u tijelo",
+      "summary": "Velimirka, a biomedical engineer at a Split hospital, spends a day with her machines: an ultrasound for routine pregnancy check-ups, the magnetic scanner that no metal may approach, and a device that measures the lungs of young rowers, and she remembers the first computer she ever repaired.",
+      "newWords": [
+        "fetus",
+        "magnetni",
+        "plućni",
+        "transfer"
+      ],
+      "text": "Velimirka je inženjerka u bolnici u Splitu. Ne liječi ljude, nego uređaje: brine se o tome da svaki aparat u bolnici radi kako treba. Kaže da je njen posao kao posao mehaničara, samo što se njeni „automobili“ nalaze u bolničkim sobama.\n\nU osam ujutro otišla je na odjel na koji trudnice dolaze na redovite preglede. Liječnica je rekla da ultrazvuk od jučer pokazuje mutnu sliku. Velimirka je pregledala sondu, zamijenila jedan kabel i uređaj je opet radio. Prva trudnica toga jutra bila je mlada žena iz Solina. Na zaslonu se pojavio fetus, star dvadeset tjedana. Vidjele su mu se ruke, noge i srce koje kuca. — Fetus je zdrav i dobro raste — rekla je liječnica. Velimirka je tiho izašla. Voli taj trenutak, kad uređaj koji je popravila pokaže nešto tako lijepo.\n\nPoslije toga otišla je u podrum, gdje stoji uređaj za magnetnu rezonanciju. To je veliki bijeli valjak u koji pacijent legne. Uređaj stvara jako magnetno polje i s pomoću njega snima tijelo iznutra. Magnetno polje je toliko jako da u sobu ne smije ući nitko s metalnim predmetima. Na vratima piše velikim slovima: „Jako magnetno polje! Bez metala!“ Velimirka je ostavila ključeve, sat i olovku u ormariću i tek onda ušla. Magnetni uređaj nikad se ne isključuje, ni noću, pa mora biti stalno hlađen.\n\nPoslije podne bila je u sobi gdje se mjeri plućni kapacitet. Ondje su sjedili mladi veslači iz splitskog kluba koji svake godine dolaze na pregled. Svaki veslač puše u cijev što jače može, a uređaj mjeri koliko zraka izađe iz pluća. Plućni kapacitet veslača bio je znatno veći od prosjeka. Velimirka je provjerila uređaj, jer su brojevi bili tako visoki da je liječnik posumnjao u grešku. Greške nije bilo.\n\nNa kraju dana pobrinula se za transfer podataka. Svaki uređaj šalje slike i brojeve na glavno računalo bolnice, a odande liječnici vide nalaze na svojim stolovima. Transfer je toga dana bio spor, pa je Velimirka pronašla kabel koji nije bio dobro spojen.\n\nNavečer je kolegi pričala kako je počela raditi prije dvadeset pet godina. Tada je u bolnici bilo samo jedno računalo, veliko kao ormar. To računalo nije znalo ništa od onoga što danas radi mobitel u džepu, ali Velimirka ga se sjeća s ljubavlju. To je bilo prvo računalo koje je popravila.\n\nPitanja:\nŠto Velimirka radi u bolnici?\nBrine se o tome da svaki uređaj u bolnici radi kako treba.\nŠto se vidjelo na zaslonu ultrazvuka?\nVidio se fetus star dvadeset tjedana, s rukama, nogama i srcem koje kuca.\nZašto Velimirka prije ulaska ostavlja ključeve i sat?\nMagnetno polje je jako, pa u sobu ne smije ući nitko s metalnim predmetima.\nŠto je pokazao plućni kapacitet veslača?\nBio je znatno veći od prosjeka.\nZašto je transfer podataka bio spor?\nJedan kabel nije bio dobro spojen.\nKakvo je bilo prvo računalo koje je Velimirka popravila?\nBilo je veliko kao ormar."
+    },
+    {
+      "title": "Kovač na sajmu",
+      "summary": "At a craft fair in Samobor the historian Vjekomir explains how blacksmiths of long-ago times worked, while the blacksmith Kornelijan stokes his forge, heats iron to a glowing red and forges a fish hook, a nail and a hinge.",
+      "newWords": [
+        "kovač",
+        "povjesničar",
+        "davni",
+        "založiti",
+        "žarki",
+        "udica",
+        "povrh"
+      ],
+      "text": "Svake jeseni u Samoboru se održava sajam starih zanata. Na glavnom trgu ima štandova s medom, košarama i drvenim igračkama, ali najviše ljudi uvijek stoji oko kovača. Ove godine kovač je bio Kornelijan, a uz njega je stajao povjesničar Vjekomir iz gradskog muzeja, koji je publici objašnjavao što kovač radi.\n\n— U davnim vremenima svako selo imalo je svog kovača — počeo je povjesničar. — Kovač je radio potkove za konje, alat za polje, čavle, ključeve i brave. Bez kovača nije bilo ni plugova ni motika. U davnim stoljećima kovač je bio inženjer svog sela.\n\nKornelijan je najprije založio vatru. U ognjište je stavio ugljen, a zatim je mijehom puhao zrak u vatru. Ugljen se rasplamsao i postao žarko crven. — Vatru treba založiti polako — rekao je Kornelijan. — Ako je založiš prebrzo, ugljen izgori, a željezo se ne zagrije kako treba.\n\nKad je vatra bila spremna, stavio je u nju tanku šipku željeza. Nakon nekoliko minuta šipka je postala žarka, gotovo narančasta. — Po boji kovač zna koliko je željezo vruće — objasnio je povjesničar. — Davni kovači nisu imali toplomjer. Imali su samo oči i iskustvo.\n\nKornelijan je izvadio žarku šipku i počeo ju je oblikovati čekićem na nakovnju. Od šipke je najprije napravio čavao, a zatim udicu. Udica je bila mala i tanka, savinuta na kraju, s oštrim vrhom. — Ribari s otoka nekad su svaku udicu kupovali od kovača — rekao je Vjekomir. — Dobra udica nije se smjela saviti ni slomiti. Kovač je morao znati koliko dugo grijati željezo i kada ga ohladiti u vodi.\n\nKornelijan je udicu spustio u kantu s vodom. Voda je zašištala, a para se podigla iznad kante. Djeca su se nasmijala i približila se. Jedan dječak pitao je smije li uzeti udicu. — Ova udica ide u muzej — rekao je Kornelijan. — Ali tebi ću napraviti drugu. I doista mu je napravio još jednu udicu.\n\nPovrh čavla i udica, Kornelijan je toga dana napravio i šarku za vrata, mali nož i nekoliko kuka za kuhinju. Povrh toga, svakom djetetu dao je da jednom lupi čekićem po žarkom željezu. Povjesničar je rekao da je to najbolji sat povijesti koji je ikad održao.\n\nNavečer, kad je sajam završio, Kornelijan je ugasio vatru, a Vjekomir je udicu koju je kovač napravio stavio u vitrinu muzeja, uz udice davnih kovača iz sela oko Samobora.\n\nPitanja:\nŠto je povjesničar rekao o kovačima u davnim vremenima?\nRekao je da je svako selo imalo svog kovača i da je kovač bio inženjer svog sela.\nKako Kornelijan založi vatru?\nStavi ugljen u ognjište i mijehom puše zrak u vatru, polako.\nKako kovač zna koliko je željezo vruće?\nKovač to zna po boji, kad je željezo žarko crveno ili narančasto.\nKakva je bila udica koju je Kornelijan napravio?\nBila je mala i tanka, savinuta na kraju, s oštrim vrhom.\nŠto je Kornelijan napravio povrh čavla i udica?\nNapravio je šarku za vrata, mali nož i nekoliko kuka za kuhinju."
+    },
+    {
+      "title": "Most od drvenih štapića",
+      "summary": "At a student competition in Split, Želislava and Svjetlanka bring a bridge made of wooden sticks; the jury calls each team up, checks that every bridge is the students' own work, and loads it until it breaks, and the two learn not to force a joint or to think too highly of themselves.",
+      "newWords": [
+        "žiri",
+        "prozvati",
+        "sjedati",
+        "autentičan",
+        "siliti",
+        "umisliti",
+        "patent",
+        "šokantno"
+      ],
+      "text": "Svakog proljeća studenti građevine iz cijele Hrvatske dolaze u Split na natjecanje. Zadatak je jednostavan: napraviti most od drvenih štapića i ljepila. Most mora biti dug jedan metar i ne smije biti teži od pola kilograma. Pobjeđuje most koji izdrži najveći teret.\n\nŽelislava i Svjetlanka iz Zagreba radile su na svom mostu dva mjeseca. Najteži su bili spojevi, mjesta na kojima se štapići susreću. Svjetlanka je u početku htjela štapiće siliti u uske utore. — Nemoj ih siliti — rekla joj je Želislava. — Kad siliš drvo, ono napukne, a most puca baš na tom mjestu. Smislile su mali spoj od tri štapića koji se ne sili, nego lijepi. Profesor im je u šali rekao da bi taj spoj trebale prijaviti za patent. Želislava se nasmijala: — Patent za štapiće? Ipak, spoj je bio njihov ponos.\n\nNa dan natjecanja dvorana je bila puna. Za dugim stolom sjedio je žiri: tri profesora i jedna inženjerka iz građevinske tvrtke. Na tom natjecanju ekipe uvijek sjedaju u redove po abecedi, a članovi žirija ne sjedaju sve dok ne dođu svi. Kad žiri prozove ekipu, studenti donesu most do sredine dvorane i kratko objasne kako su ga napravili.\n\nPrije ispitivanja žiri provjerava je li svaki most autentičan rad studenata. Traže skice, fotografije i bilježnice iz kojih se vidi kako je most nastajao. Jedna inženjerka iz žirija rekla je da svake godine netko donese most koji nije autentičan, nego kupljen. Takav most odmah ispada.\n\nŽelislavu i Svjetlanku prozvali su kao sedme. Most je stavljen na stroj koji polako dodaje teret. Na zaslonu su rasli brojevi: 20 kilograma, 30, 40. Kod 52 kilograma most je puknuo, ali ne na njihovom spoju. — Šokantno je koliko vaš most izdrži za svoju težinu — rekao je jedan profesor iz žirija. — Šokantno, ali točno izmjereno.\n\nNakon svakog ispitivanja ekipa se vraća i sjeda na svoje mjesto, a žiri prozove sljedeću. Studenti iz Osijeka su prije natjecanja svima govorili da će sigurno pobijediti. Umislili su si da nitko ne može napraviti bolji most. Njihov most puknuo je kod 28 kilograma. Svjetlanka je tiho rekla Želislavi: — Nikad ne treba umisliti da si već pobijedio.\n\nKad je žiri na kraju prozvao pobjednike, Želislava i Svjetlanka bile su druge. Uz diplomu su dobile i knjigu o mostovima. U vlaku prema Zagrebu već su crtale novi spoj.\n\nPitanja:\nKakav most moraju napraviti studenti?\nMoraju napraviti most od drvenih štapića i ljepila, dug jedan metar i lakši od pola kilograma.\nZašto Želislava nije htjela siliti štapiće u utore?\nKad siliš drvo, ono napukne, a most puca baš na tom mjestu.\nŠto radi žiri prije ispitivanja?\nProvjerava je li svaki most autentičan rad studenata.\nKoliki je teret izdržao most Želislave i Svjetlanke?\nIzdržao je 52 kilograma.\nŠto su umislili studenti iz Osijeka?\nUmislili su si da nitko ne može napraviti bolji most."
+    },
+    {
+      "title": "Kolumna: tvornica na kraju ulice",
+      "summary": "A columnist remembers the car-parts factory where his father worked, the endless conveyor belt, the day it went bankrupt and its machines were sold off for a few kuna, and the realisation that the workers' knowledge is still in use in the small firms they later founded.",
+      "newWords": [
+        "automobilski",
+        "beskonačan",
+        "bankrotirati",
+        "rasprodati",
+        "kuna",
+        "uporaba",
+        "spoznaja"
+      ],
+      "text": "Kad sam bio dijete, na kraju naše ulice u Zagrebu stajala je tvornica automobilskih dijelova. Ondje se nisu radili cijeli automobili, nego ono što se u njima ne vidi: kočnice, dijelovi motora, sjedala i brave. Moj otac radio je u toj tvornici trideset godina. Automobilski dijelovi iz naše ulice odlazili su u tvornice automobila u Njemačkoj, Italiji i Francuskoj.\n\nNajviše sam volio dane kad me otac vodio na posao. U velikoj dvorani tekla je traka koja mi se činila beskonačnom. Na njoj su putovali dijelovi, od jednog radnika do drugog, a svaki je dodavao nešto svoje. Traka nikad nije stajala. Kad sam pitao oca gdje traka završava, rekao je da ne završava, nego se vraća ispod poda. Za mene je to bila beskonačna traka, kao beskonačan put.\n\nOnda su došle teške godine. Strani kupci prestali su naručivati, a tvornica je imala sve manje posla. Jedne zime čuli smo da je tvornica bankrotirala. Otac je došao kući rano i dugo sjedio u kuhinji bez riječi. Tvornica nije bankrotirala zbog loših radnika, nego zato što se svijet oko nje promijenio brže nego ona.\n\nSljedećeg proljeća strojeve su rasprodali. Rasprodali su ih za nekoliko tisuća kuna, iako je svaki nekad koštao kao kuća. Tada se u Hrvatskoj još plaćalo u kunama, a ja pamtim kako je otac rekao da je za te kune tvornica prodala i svoje znanje. Bio je tužan, ali nije bio u pravu.\n\nMnogo godina poslije shvatio sam da se znanje ne može rasprodati. Otac i nekoliko njegovih kolega otvorili su malu radionicu u dvorištu. Kupili su dva stara stroja iz svoje tvornice i počeli raditi dijelove za poljoprivredne strojeve. Danas u toj radionici radi dvadeset ljudi. Stari strojevi još su u uporabi, a u uporabi je i sve ono što su ljudi naučili na traci.\n\nTo je za mene najvažnija spoznaja iz te priče. Kad tvornica bankrotira, ne nestaje sve. Strojevi se mogu rasprodati, zgrada se može srušiti, ali znanje ostaje u ljudima i nastavlja raditi negdje drugdje. Ta spoznaja ne čini prošlost manje tužnom, ali joj daje smisao.\n\nZgrada na kraju naše ulice danas je tehnološki park. U velikoj dvorani, gdje je nekad bila beskonačna traka, mladi inženjeri razvijaju programe za automobile. Neki od njih ne znaju što se ondje nekad radilo. Kad prolazim pokraj zgrade, sjetim se oca i pomislim da automobilski posao u našoj ulici nikad nije sasvim prestao.\n\nPitanja:\nŠto se radilo u tvornici na kraju ulice?\nOndje su se radili automobilski dijelovi: kočnice, dijelovi motora, sjedala i brave.\nZašto se traka djetetu činila beskonačnom?\nNikad nije stajala, a otac je rekao da ne završava, nego se vraća ispod poda.\nZašto je tvornica bankrotirala?\nStrani kupci prestali su naručivati, a svijet se promijenio brže od tvornice.\nZa koliko su strojeve rasprodali?\nRasprodali su ih za nekoliko tisuća kuna.\nKoja je najvažnija spoznaja iz te priče?\nKad tvornica bankrotira, znanje ostaje u ljudima i nastavlja raditi negdje drugdje."
+    },
+    {
+      "title": "Raskrižje kod livade",
+      "summary": "Domislava, a traffic engineer from Osijek, makes a village crossroads safer: she has the old pines trimmed so drivers can see, paints lines that create an optical illusion of a narrowing road, and the villagers, some still in slippers, replace the withered flowers in the middle with meadow plants.",
+      "newWords": [
+        "raskrižje",
+        "bor",
+        "livada",
+        "odjuriti",
+        "obmana",
+        "papuča",
+        "uvenuo"
+      ],
+      "text": "Na kraju jednog sela kod Osijeka nalazi se raskrižje dviju cesta. S jedne strane raskrižja je velika livada, a s druge stari borovi koje je posadio netko prije sto godina. Mještani već dugo govore da je to raskrižje opasno. Vozači dolaze brzo s glavne ceste, a zbog borova ne vide automobile koji dolaze sa sporedne.\n\nDomislava je prometna inženjerka iz Osijeka. Jednog lipanjskog jutra došla je na raskrižje i cijeli dan ga promatrala. Brojila je automobile i mjerila brzinu. Mnogi vozači su usporili tek kad su bili usred raskrižja, a neki su se zaustavili na znak, ali odmah zatim odjurili dalje kao da se žure na vlak. Jedan stari gospodin iz kuće pokraj raskrižja izašao je u papučama da je pita što radi. — Ovdje svi samo odjure — rekao joj je. — Nitko ne gleda.\n\nDomislava je predložila tri stvari. Prvo, borovi ostaju, jer su lijepi i stari, ali donje grane treba skratiti. Tako će vozači vidjeti ispod grana, a bor će i dalje davati hlad. Drugo, na cestu će nacrtati crte koje stvaraju optičku obmanu. Crte su sve bliže jedna drugoj, pa se vozaču čini da se cesta sužava. Obmana nije opasna: cesta je jednako široka, ali vozač nesvjesno uspori. — To je dobra obmana — rekla je Domislava. — Oči se malo zbune, a svi su sigurniji.\n\nTreće, u sredini raskrižja bio je mali krug s cvijećem. Cvijeće je bilo uvenulo, jer ga nitko nije zalijevao. Uvenulo cvijeće nije opasno, ali pokazuje da se o raskrižju nitko ne brine. Domislava je predložila da se uvenule biljke zamijene biljkama s livade, koje ne traže mnogo vode.\n\nU rujnu su radnici skratili grane borova i nacrtali crte na cesti. Jedne subote mještani su se okupili da zasade biljke. Stari gospodin opet je došao u papučama, a žena mu je donijela gumene čizme i rekla da se u papučama ne kopa. Djeca su s livade donijela cvijeće, a on je pokazivao gdje ga posaditi.\n\nMjesec dana poslije Domislava je opet mjerila brzinu. Vozači su sada usporavali prije raskrižja. Gotovo nitko više nije odjurio bez gledanja. Crte su radile svoj posao, borovi više nisu skrivali cestu, a krug u sredini bio je zelen i živ, kao mala livada.\n\nPitanja:\nZašto je raskrižje bilo opasno?\nVozači su dolazili brzo, a zbog borova nisu vidjeli automobile sa sporedne ceste.\nŠto je stari gospodin rekao Domislavi?\nRekao je da svi samo odjure i da nitko ne gleda.\nZašto borovi nisu posječeni?\nBorovi su lijepi i stari, pa su radnici samo skratili donje grane.\nKakvu obmanu stvaraju crte na cesti?\nCrte su sve bliže jedna drugoj, pa se vozaču čini da se cesta sužava.\nČime je zamijenjeno uvenulo cvijeće?\nZamijenjeno je biljkama s livade, koje ne traže mnogo vode."
+    }
+  ]
+}
