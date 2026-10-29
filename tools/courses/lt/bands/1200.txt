@@ -1,0 +1,100 @@
+1	1101	kortelė	kortele kortelei korteles kortelių kortelėje kortelėmis kortelėms kortelės kortelėse kortelę
+2	1102	laikraštis	laikraštyje laikraštį laikraščiai laikraščiais laikraščiams laikraščio laikraščiu laikraščiui laikraščiuose laikraščius laikraščių
+3	1103	kokybė	kokybe kokybei kokybės kokybę
+4	1104	rizika	rizikai rizikos riziką
+5	1105	pabandyti	pabandai pabandau pabandei pabando pabandom pabandome pabandyk pabandykime pabandykit pabandykite pabandys pabandysim pabandysime pabandysiu pabandytų pabandyčiau pabandė pabandėme pabandžiau
+6	1106	namie	
+7	1107	susitarimas	susitarimai susitarimais susitarimams susitarime susitarimo susitarimu susitarimui susitarimuose susitarimus susitarimą susitarimų
+8	1108	išskyrus	
+9	1109	balsuoti	balsavai balsavau balsavimas balsavimo balsavo balsavom balsavome balsavot balsavote balsavus balsavęs balsuodamas balsuoja balsuojam balsuojame balsuojant balsuojantis balsuojate balsuoji balsuoju balsuok balsuokim balsuokime balsuokit balsuokite balsuos balsuosi balsuosiantis balsuosim balsuosime balsuosite balsuosiu balsuotum balsuotume balsuotų balsuočiau
+10	1110	suaugęs	suaugus suaugusi suaugusia suaugusiai suaugusiais suaugusiaisiais suaugusiajam suaugusiam suaugusieji suaugusiems suaugusiesiems suaugusio suaugusiojo suaugusioms suaugusios suaugusiu suaugusiuoju suaugusiuosius suaugusius suaugusią suaugusių suaugusiųjų suaugusysis suaugusį suaugusįjį suaugę
+11	1111	spręsti	sprendi sprendė sprendėme sprendžia sprendžiame sprendžiate sprendžiau sprendžiu spręs spręsdavo spręsim spręsime spręsite spręsiu spręsk spręskite spręstume spręstų
+12	1112	visuomet	
+13	1113	juosta	juostai juostas juostoje juostomis juostoms juostos juostose juostą juostų
+14	1114	takas	takai takais takams take tako taku takui takuose takus taką takų
+15	1115	būrys	būriai būriais būriams būrio būriu būriui būrius būrių būry būryje būrį
+16	1116	pažymėti	pažymi pažymime pažymiu pažymėjau pažymėjimai pažymėjimais pažymėjimas pažymėjime pažymėjimo pažymėjimu pažymėjimus pažymėjimą pažymėjimų pažymėjo pažymėjome pažymėkite pažymės pažymėsime pažymėtų
+17	1117	skanus	skanaus skanesni skanesnio skanesnis skanesnė skanesnės skanesnę skanesnį skani skaniai skaniais skanias skaniau skaniausi skaniausia skaniausiai skaniausias skaniausiomis skaniausios skaniausiu skaniausius skaniausią skanieji skaniems skanioji skaniomis skanios skaniu skanius skanią skanių skanu skanusis skanūs skanų
+18	1118	reikalauti	reikalaudamas reikalaudavo reikalauja reikalaujam reikalaujamas reikalaujame reikalaujant reikalaujantis reikalaujat reikalaujate reikalauji reikalauju reikalauk reikalaukite reikalaus reikalausi reikalausime reikalausite reikalausiu reikalauta reikalautas reikalautų reikalaučiau reikalavai reikalavau reikalavo reikalavote
+19	1119	trukti	trukdavo truko truks truksi truksiantis truktų trukus trukusi trukusiai trukusiame trukusias trukusio trukusioje trukusios trukusius trukusią trukusių trukusį trukę trukęs trunka trunkantis
+20	1120	atstumas	atstumai atstumais atstumams atstumo atstumu atstumui atstumus atstumą atstumų
+21	1121	terminas	terminai terminais terminams termino terminu terminui terminus terminą terminų
+22	1122	dviratis	dviračiais dviračių dviratyje dviratė dviratės dviratę dviratį dviračiai dviračiais dviračiams dviračio dviračiu dviračiui dviračius dviračių
+23	1123	kietas	kieta kietai kietais kietajame kietam kietasis kietesni kietesnio kietesnis kietesnių kietesnė kietesnį kietieji kieto kietoji kietojo kietos kietosiomis kietosioms kietosios kietu kietuoju kietuosius kietus kietą kietąjį kietąsias kietų kietųjų kiečiau kiečiausi kiečiausia kiečiausiais kiečiausias kiečiausio kiečiausios kiečiausius kiečiausią kiečiausių
+24	1124	anglas	anglai anglais anglams angle anglių anglo anglu anglus anglą anglė anglę anglų
+25	1125	biuras	biurai biurais biurams biure biuro biuru biurui biuruose biurus biurą biurų
+26	1126	patvirtintas	patvirtinta patvirtintais patvirtintame patvirtinto patvirtintoje patvirtintomis patvirtintos patvirtintose patvirtintu patvirtintuose patvirtintus patvirtintą
+27	1127	svajonė	svajone svajonei svajones svajonių svajonėmis svajonėms svajonės svajonėse svajonę
+28	1128	bendradarbiauti	bendradarbiaudamas bendradarbiauja bendradarbiaujam bendradarbiaujame bendradarbiaujant bendradarbiaujantis bendradarbiauji bendradarbiauju bendradarbiauk bendradarbiaukim bendradarbiaus bendradarbiausi bendradarbiausim bendradarbiausime bendradarbiausite bendradarbiausiu bendradarbiautų bendradarbiavau bendradarbiavimas bendradarbiavimo bendradarbiavo bendradarbiavom bendradarbiavome bendradarbiavęs
+29	1129	kairė	kaire kairei kaires kairių kairėje kairėmis kairės kairę
+30	1130	ramybė	ramybe ramybei ramybes ramybėje ramybės ramybę
+31	1131	vakarėlis	vakarėli vakarėliai vakarėliais vakarėliams vakarėlio vakarėliu vakarėliui vakarėliuose vakarėlius vakarėlių vakarėlyje vakarėlį
+32	1132	mėsa	mėsai mėsas mėsoje mėsomis mėsos mėsą
+33	1133	lapas	lapai lapais lapams lape lapo lapu lapuose lapus lapą lapų
+34	1134	pareikšti	pareikš pareikštų pareiškia pareiškiame pareiškiau pareiškiu pareiškė pareiškėme pareiškėte
+35	1135	trūkti	trūksta
+36	1136	virtuvė	virtuve virtuvei virtuves virtuvių virtuvėje virtuvės virtuvėse virtuvę
+37	1137	akcija	akcijai akcijas akcijoje akcijomis akcijoms akcijos akcijose akcijų akciją akcijų
+38	1138	kalbėtis	kalbamės kalbasi kalbatės kalbiesi kalbuosi kalbėdavomės kalbėdavosi kalbėjausi kalbėjomės kalbėjosi kalbėjotės kalbėkitės kalbėsimės kalbėsis kalbėsiuosi kalbėtųsi
+39	1139	prašymas	prašymai prašymais prašymams prašyme prašymo prašymu prašymui prašymuose prašymus prašymą prašymų
+40	1140	organizmas	organizmai organizmais organizmams organizme organizmo organizmu organizmui organizmuose organizmus organizmą organizmų
+41	1141	lenta	lentas lentele lenteles lentelių lentelė lentelėje lentelėmis lentelėms lentelės lentelėse lentelę lentoje lentomis lentos lentose lentą lentų
+42	1142	sektorius	sektoriai sektoriais sektoriams sektoriau sektoriaus sektoriui sektoriuje sektoriumi sektoriuose sektorių
+43	1143	griežtas	griežčiausia griežta griežtai griežtais griežtam griežtame griežtasis griežtesnes griežtesni griežtesniais griežtesniems griežtesnio griežtesnis griežtesniu griežtesnius griežtesnių griežtesnė griežtesnės griežtesnę griežtesnį griežtiems griežto griežtoje griežtojo griežtomis griežtos griežtosios griežtu griežtus griežtą griežtų griežčiau griežčiausia griežčiausiai griežčiausias griežčiausios griežčiausius griežčiausią griežčiausių
+44	1144	faktas	faktai faktais faktams fakte fakto faktu faktui faktus faktą faktų
+45	1145	prisijungti	prisijungi prisijungia prisijungiame prisijungiau prisijungiu prisijungs prisijungsime prisijungsiu prisijungtų prisijungė prisijungėme prisijunk prisijunkite
+46	1146	seksas	sekse sekso seksu seksui seksą
+47	1147	stovykla	stovyklai stovyklas stovykloje stovyklomis stovykloms stovyklos stovyklose stovyklą stovyklų
+48	1148	aktas	aktai aktais aktams akte akto aktu aktui aktuose aktus aktą aktų
+49	1149	kaimynas	kaimynai kaimynais kaimynams kaimyne kaimyno kaimynu kaimynui kaimynus kaimyną kaimynė kaimynų
+50	1150	įsigyti	įsigijai įsigijau įsigijo įsigijome įsigijote įsigis įsigydavo įsigyja įsigyjame įsigyji įsigyk įsigykite įsigysi įsigysite įsigysiu įsigytų
+51	1151	apdovanojimas	apdovanojimai apdovanojimais apdovanojimams apdovanojimo apdovanojimu apdovanojimui apdovanojimuose apdovanojimus apdovanojimą apdovanojimų
+52	1152	ginti	gena genamas genant genu gina ginam giname ginant ginantis ginat ginate gindamas gindavau gindavo gini gink ginkime ginkit ginkite gins ginsi ginsiantis ginsim ginsime ginsite ginsiu ginsiąs gintas gintum gintų ginu ginčiau ginė gyniau gynė gynęs
+53	1153	pajamos	pajamas pajamomis pajamoms pajamų
+54	1154	vartoti	vartodama vartodamas vartodami vartodavo vartoja vartojai vartojama vartojamais vartojamas vartojame vartojami vartojamo vartojamos vartojamą vartojamų vartojant vartojat vartojate vartojau vartoji vartojo vartojot vartojote vartoju vartojęs vartok vartokime vartokite vartos vartosi vartosite vartosiu vartotas vartotų vartočiau
+55	1155	įsakymas	įsakymai įsakymais įsakymams įsakyme įsakymo įsakymu įsakymui įsakymuose įsakymus įsakymą įsakymų
+56	1156	radijas	radijo radiju radijui radijuje radijus radiją radijų
+57	1157	sustabdyti	sustabdo sustabdykite sustabdys sustabdysime sustabdytume sustabdytų sustabdė sustabdėme sustabdžiau
+58	1158	žiūrovas	žiūrovai žiūrovais žiūrovams žiūrove žiūrovo žiūrovu žiūrovui žiūrovus žiūrovą žiūrovė žiūrovų
+59	1159	nugara	nugarai nugaras nugaroje nugaros nugarą nugarų
+60	1160	ežeras	ežerai ežerais ežerams ežere ežero ežeru ežeruose ežerus ežerą ežerų
+61	1161	išsiaiškinti	išsiaiškina išsiaiškinau išsiaiškink išsiaiškinkime išsiaiškinkite išsiaiškino išsiaiškinome išsiaiškinote išsiaiškins išsiaiškinsime išsiaiškinsite išsiaiškinsiu išsiaiškintume išsiaiškintų
+62	1162	pasitraukti	pasitrauk pasitraukia pasitraukiau pasitraukite pasitraukiu pasitrauks pasitrauksiu pasitrauktų pasitraukė pasitraukėme
+63	1163	mobilus	mobilaus mobili mobiliais mobiliaisiais mobiliajam mobiliajame mobiliam mobilias mobilieji mobiliems mobiliesiems mobilioji mobiliojo mobiliojoje mobilios mobiliosios mobiliu mobiliuoju mobiliuose mobiliuosiuose mobiliuosius mobilius mobilią mobiliąja mobiliąją mobiliąsias mobilių mobiliųjų mobilusis mobilūs mobilų mobilųjį
+64	1164	variantas	variantai variantais variantams variante varianto variantu variantui variantus variantą variantų
+65	1165	gausus	gausaus gausesnes gausesni gausesnio gausesnis gausesnių gausesnė gausesnės gausesnį gausia gausiai gausiais gausiam gausiame gausias gausiau gausiausia gausiausiai gausiausias gausiausios gausiausią gausiausių gausiems gausioje gausiomis gausioms gausios gausius gausią gausių gausu gausūs gausų
+66	1166	reikšmė	reikšme reikšmes reikšmių reikšmėmis reikšmės reikšmę
+67	1167	parlamentas	parlamente parlamento parlamentu parlamentui parlamentus parlamentą parlamentų
+68	1168	kunigas	kunigai kunigais kunigams kunige kunigo kunigu kunigui kunigus kunigą kunigų
+69	1169	sustoti	sustodavo sustoja sustojame sustojau sustoji sustojo sustojome sustoju sustok sustokime sustokite sustos sustosime sustotų
+70	1170	vidinis	vidine vidinei vidines vidiniai vidiniais vidiniam vidiniame vidiniams vidinio vidiniu vidiniuose vidinius vidinių vidinė vidinėje vidinėmis vidinės vidinėse vidinę vidinį
+71	1171	pasilikti	pasilieka pasiliekame pasilieki pasilieku pasilik pasilikau pasilikdavo pasilikite pasiliko pasilikome pasiliks pasiliksime pasiliksiu pasiliktų pasilikčiau
+72	1172	bandymas	bandymai bandymais bandymams bandyme bandymo bandymu bandymui bandymuose bandymus bandymą bandymų
+73	1173	linksmas	linksma linksmai linksmaisiais linksmajai linksmam linksmasis linksmesni linksmesnio linksmesnis linksmesnius linksmesnių linksmesnė linksmesnės linksmi linksmiau linksmiausia linksmiausias linksmiausiu linksmiausių linksmieji linksmiems linksmo linksmoje linksmoji linksmojo linksmojoje linksmomis linksmos linksmosios linksmu linksmuose linksmuosiuose linksmuosius linksmus linksmą linksmąją linksmąsias linksmų linksmųjų
+74	1174	įrašyti	įrašai įrašant įrašau įrašei įrašiau įrašius įrašo įrašom įrašomas įrašydamas įrašyk įrašykit įrašykite įrašys įrašysi įrašysim įrašysime įrašysit įrašysiu įrašyta įrašytais įrašytas įrašyto įrašytoje įrašytos įrašytu įrašytum įrašytume įrašytus įrašytą įrašytų įrašyčiau įrašė įrašėm įrašėme įrašėt įrašėte įrašęs
+75	1175	pramonė	pramone pramonei pramonėje pramonės pramonę
+76	1176	smūgis	smūgi smūgiai smūgiais smūgiams smūgio smūgiu smūgiui smūgius smūgių smūgyje smūgį
+77	1177	apsaugoti	apsaugo apsaugodavo apsaugojo apsaugok apsaugokite apsaugosime apsaugosite apsaugotume apsaugotumėte apsaugotų
+78	1178	misija	misijai misijas misijoje misijomis misijoms misijos misijose misiją misijų
+79	1179	būdamas	būdama būdami būdamos
+80	1180	kažkur	
+81	1181	vartai	vartams vartuose vartus vartų
+82	1182	slaptas	slapta slaptai slaptais slaptajai slaptam slaptame slaptasis slaptieji slapto slaptoje slaptoji slaptojo slaptojoje slaptomis slaptos slaptose slaptosioms slaptosios slaptu slaptuoju slaptuosius slaptus slaptą slaptąja slaptąją slaptąjį slaptąsias slaptų slaptųjų slapčiausia slapčiausias slapčiausio slapčiausius slapčiausių
+83	1183	kolega	kolegai kolegas kolege kolegei kolegių kolegomis kolegoms kolegos kolegą kolegė kolegėmis kolegėms kolegės kolegę kolegų
+84	1184	minėti	mini minime minite minėdavo minėjai minėjau minėjo minėjome minėjote minės minėsime minėtų
+85	1185	procentas	procentai procentais procentams procento procentu procentui procentus procentą procentų
+86	1186	prireikti	prireikdavo prireikia prireiks prireiktų prireikė
+87	1187	batas	batai batais batams bate bato batu batuose batus batą batų
+88	1188	nepriklausomybė	nepriklausomybe nepriklausomybei nepriklausomybės nepriklausomybę
+89	1189	pasirašyti	pasirašai pasirašau pasirašiau pasirašo pasirašome pasirašydavo pasirašyk pasirašys pasirašysime pasirašysiu pasirašytų pasirašė pasirašėme pasirašėte
+90	1190	sugalvoti	sugalvodavo sugalvoja sugalvojai sugalvojau sugalvoji sugalvojo sugalvojom sugalvojome sugalvojote sugalvoju sugalvok sugalvokite sugalvos sugalvosime sugalvosite sugalvosiu sugalvotų sugalvočiau
+91	1191	didis	didi didiems didysis didį didįjį didžiai didžiais didžio didžiu didžiuose didžius didžių
+92	1192	gražiai	gražiau gražiausiai
+93	1193	institutas	institutai institutais instituto institutu institutui institutuose institutus institutą institutų
+94	1194	profesorius	profesoriai profesoriais profesoriau profesoriaus profesoriui profesoriumi profesorių
+95	1195	tvirtinti	tvirtina tvirtinai tvirtinant tvirtinantis tvirtinat tvirtinate tvirtinau tvirtindamas tvirtindavo tvirtini tvirtino tvirtinote tvirtins tvirtinsime tvirtinsiu tvirtintų tvirtinu
+96	1196	rengti	rengdamas rengdavai rengdavo rengdavome rengei rengia rengiam rengiame rengiant rengiantis rengiat rengiate rengiau rengiu rengs rengsime rengta rengtas rengto rengtos rengtą rengtų rengčiau rengė rengėme rengėt
+97	1197	stogas	stogai stogais stogams stogo stogu stogui stogus stogą stogų
+98	1198	neseniai	
+99	1199	raštas	raštai raštais rašte rašto raštu raštuose raštus raštą raštų
+100	1200	taurė	taure taurei taures taurių taurėje taurėmis taurėms taurės taurę

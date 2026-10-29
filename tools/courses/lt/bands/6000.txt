@@ -1,0 +1,100 @@
+1	5901	sutrumpintas	sutrumpinta sutrumpintai sutrumpinti sutrumpinto sutrumpintos sutrumpintą
+2	5902	papildytas	papildyta papildytos papildytą
+3	5903	dėvėjimas	dėvėjimo dėvėjimui dėvėjimą
+4	5904	slapstytis	slapstosi slapstėsi
+5	5905	voltas	voltai volte volto voltu voltą voltų
+6	5906	abejingas	abejinga abejingais abejingam abejingi abejingiau abejingiems abejingo abejingos abejingu abejingus abejingą abejingų
+7	5907	žudymas	žudymai žudymo žudymu žudymui žudymus žudymą žudymų
+8	5908	baigus	
+9	5909	išsitraukti	išsitraukia išsitraukiau išsitraukiu išsitrauks išsitraukė
+10	5910	sudėtinis	sudėtine sudėtines sudėtiniai sudėtinių sudėtinė sudėtinės sudėtinę
+11	5911	niekis	
+12	5912	kavalerija	kavalerijos
+13	5913	admirolas	admirolo
+14	5914	milijonierius	milijonieriai milijonieriais milijonieriaus milijonieriui milijonieriumi milijonierių
+15	5915	brandus	brandaus brandesniame brandesnio brandesnis brandesnių brandesnė brandu brandui brandūs brandų brandžia brandžiai brandžiais brandžiam brandžiame brandžias brandžiau brandžiausio brandžiausius brandžiausių brandžiomis brandžioms brandžios brandžiose brandžiu brandžiuose brandžius brandžią brandžių
+16	5916	mėsainis	mėsainiai mėsainio mėsainius mėsainių mėsainį
+17	5917	paskubėti	paskubėjo
+18	5918	žaidžiamas	žaidžiama žaidžiami žaidžiamos
+19	5919	liemuo	liemeniu liemens liemenį
+20	5920	dairytis	besidairant dairaisi dairausi dairiausi dairomės dairosi dairotės dairydavomės dairydavosi dairykis dairykitės dairysimės dairysitės dairytųsi dairėmės dairėsi
+21	5921	navikas	navikai navikais naviko naviką navikų
+22	5922	titanas	titanai titanams titane titano titanus titaną titanų
+23	5923	išpažintis	išpažinties išpažintį išpažinčių
+24	5924	šmėkla	šmėklas šmėklomis šmėklos šmėklą šmėklų
+25	5925	suėsti	suėda suėdė suės
+26	5926	sprandas	sprando sprandą
+27	5927	pauzė	pauzes pauzių pauzės pauzę
+28	5928	šviestuvas	šviestuvai šviestuvais šviestuvo šviestuvus šviestuvą šviestuvų
+29	5929	apsisprendimas	apsisprendimo apsisprendimu apsisprendimui apsisprendimą
+30	5930	remontuoti	remontavo remontuoja
+31	5931	palaidinė	palaidine palaidines palaidinių palaidinės palaidinę
+32	5932	išsivystęs	išsivystę išsivysčiusi išsivysčiusias išsivysčiusio išsivysčiusioje išsivysčiusioms išsivysčiusios išsivysčiusiose išsivysčiusių
+33	5933	dragūnas	dragūno dragūnu dragūnui dragūną dragūnų
+34	5934	slidus	slidaus slidi slidu slidūs slidžiai slidžiais slidžiame slidžios slidžiu
+35	5935	kreivas	kreiva kreivai kreivais kreivame kreive kreivi kreivo kreivoji kreivos kreivu kreivą kreivų
+36	5936	kraujospūdis	kraujospūdį kraujospūdžio kraujospūdžiui
+37	5937	išdėstymas	išdėstymo išdėstymu išdėstymą
+38	5938	tvartas	tvartai tvarte tvarto tvartuose tvartus tvartą tvartų
+39	5939	apgaudinėti	apgaudinėja apgaudinėjame apgaudinėjo
+40	5940	pastogė	pastoge pastoges pastogėje pastogės pastogėse pastogę
+41	5941	miestietė	miestiečių
+42	5942	daugintis	dauginasi dauginosi
+43	5943	įsileisti	įsileido įsileidžia įsileis
+44	5944	slaugyti	slaugai slaugant slaugau slauge slaugei slaugiau slaugių slaugo slaugomas slaugykit slaugysiu slaugė slaugės slaugę
+45	5945	pasigesti	pasigedau pasigedo pasigedome pasigenda pasigendame pasigendu
+46	5946	pažintinis	pažintines pažintiniai pažintiniais pažintiniame pažintinio pažintiniu pažintinius pažintinių pažintinė pažintinės pažintinę pažintinį
+47	5947	anoniminis	anoniminiai anoniminiais anoniminiame anoniminio anoniminiu anoniminius anoniminių anoniminė anoniminės anoniminę anoniminį
+48	5948	nusivilti	nusivilia nusivils nusivyliau nusivylė nusivylėme nusivylėte
+49	5949	zuikis	zuiki zuikiai zuikio zuikiu zuikius zuikių zuikį
+50	5950	iššauti	iššauna iššaus iššautų iššovė
+51	5951	abortas	abortai abortams aborto abortui abortus abortą abortų
+52	5952	pasiteirauti	pasiteirauja pasiteiraus pasiteiravau pasiteiravo pasiteiravome
+53	5953	padidėjimas	padidėjimo padidėjimui padidėjimą
+54	5954	modeliavimas	modeliavimo modeliavimu modeliavimui modeliavimą
+55	5955	vartininkas	vartininkai vartininko vartininku vartininkui vartininką vartininkų
+56	5956	rūpestingas	rūpestinga rūpestingai rūpestingi rūpestingo rūpestingos rūpestingu rūpestingą rūpestingų
+57	5957	diktatorius	diktatoriai diktatoriais diktatoriaus diktatoriui diktatoriumi diktatorių diktatorė
+58	5958	guminis	gumine gumines guminiai guminiais guminiu guminius guminių guminė guminėmis guminės guminę
+59	5959	žinovas	žinovai žinovams žinove žinovo žinovu žinovą žinovų
+60	5960	išvystytas	išvystyta išvystytos išvystytą
+61	5961	lūžti	lūždavo lūžo lūžta lūžtu
+62	5962	konservatyvus	konservatyvaus konservatyvi konservatyviai konservatyvias konservatyvios konservatyviosios konservatyvius konservatyvią konservatyviąją konservatyvių konservatyvūs konservatyvų
+63	5963	bibliotekininkas	bibliotekininkai bibliotekininke bibliotekininko bibliotekininku bibliotekininkus bibliotekininkė bibliotekininkės bibliotekininkų
+64	5964	berti	berdavo beri beria beriam beriame beriat beriu berk berkime berkite bersite berta bertas berte bėrė
+65	5965	aršus	aršiai aršaus aršesnė aršesnės arši aršiai aršiais aršias aršiau aršiausi aršiausiai aršiausių aršios aršią aršių aršūs aršų
+66	5966	pingvinas	pingvinai pingvinais pingvinams pingvine pingvinu pingvinui pingvinus pingviną pingvinų
+67	5967	prancūziškai	
+68	5968	pašėlęs	pašėlusi pašėlusiai pašėlusias pašėlusio pašėlusios pašėlusius pašėlusią pašėlusių pašėlusį pašėlę
+69	5969	savanoriškai	
+70	5970	įtaisas	įtaisu įtaisus įtaisą įtaisų
+71	5971	skųsti	skundus skundė skundęs skundžia skundžiamas skundžiantis skųs
+72	5972	sugriūti	sugrius sugriuvo sugriūtų sugriūva
+73	5973	simpatija	simpatijas simpatijos simpatiją simpatijų
+74	5974	tapyti	tapytų tapė
+75	5975	prikelti	prikelia prikels prikeltų prikėlė
+76	5976	kaupimas	kaupime kaupimo kaupimu kaupimui kaupimą
+77	5977	sustiprintas	sustiprinta sustiprinto sustiprintos sustiprintu sustiprintą
+78	5978	rinkliava	rinkliavas rinkliavos rinkliavą rinkliavų
+79	5979	įskaudinti	įskaudina įskaudinau įskaudino įskaudins įskaudintų
+80	5980	pranokti	pranoko pranoks pranoksta pranoktų
+81	5981	krevetė	krevete krevetes krevetėmis krevetėms krevetės krevetėse krevetę krevečių
+82	5982	gangsteris	gangsteriai gangsterio gangsterių gangsterį
+83	5983	tostas	tostus tostą tostų
+84	5984	abipusis	abipuse abipusiais abipusio abipusiu abipusius abipusių abipusė abipusės abipusę abipusį
+85	5985	ruonis	ruoniai ruoniams ruonio ruonius ruonių ruonį
+86	5986	kooperatyvas	kooperatyvai kooperatyvams kooperatyve kooperatyvo kooperatyvui kooperatyvus kooperatyvą kooperatyvų
+87	5987	dinastija	dinastijai dinastijoje dinastijos dinastiją dinastijų
+88	5988	atsigerti	atsigerkite
+89	5989	sukaktis	sukakties sukaktį sukakčiai sukakčių
+90	5990	šalti	šalo šalom šals šalsime šaltų šalčiau šalė šąla šąlate šąlu
+91	5991	sunerimęs	sunerimusi sunerimusios sunerimę
+92	5992	atsistatydinimas	atsistatydinimo atsistatydinimą
+93	5993	supistas	supistai supistais supisto supistu supistuose supistus supistą supistų
+94	5994	surašytas	surašyta surašytos surašytus surašytą
+95	5995	skęsti	skendau skendo skendęs skęs skęsi skęsiu skęsk skęsta skęstam skęstame skęstu skęstų
+96	5996	areštuotas	areštuota areštuoto areštuotos areštuotus
+97	5997	vokiškai	
+98	5998	te	
+99	5999	pravažiuoti	pravažiavo pravažiavome pravažiuoja pravažiuos
+100	6000	kritiškai	

@@ -1,0 +1,100 @@
+1	1501	katė	kate katei kates katių katėmis katėms katės katę katų kačių
+2	1502	pasižymėti	pasižymi pasižymite pasižymėdavo pasižymėjo pasižymėkite pasižymės pasižymėtų
+3	1503	laikrodis	laikrodi laikrodyje laikrodį laikrodžiai laikrodžiais laikrodžio laikrodžiu laikrodžiui laikrodžiuose laikrodžius laikrodžių
+4	1504	prancūzas	prancūzai prancūzais prancūzams prancūze prancūzo prancūzu prancūzui prancūzus prancūzą prancūzų
+5	1505	lygtis	lygos lygtį
+6	1506	siaubingas	siaubinga siaubingai siaubingais siaubingam siaubingame siaubingesnio siaubingesnis siaubingesnėje siaubingi siaubingiausia siaubingiausias siaubingiausios siaubingiausią siaubingo siaubingoje siaubingomis siaubingos siaubingu siaubingus siaubingą siaubingų
+7	1507	šviesus	šviesaus šviesesne šviesesnes šviesesni šviesesnio šviesesnis šviesesniu šviesesnius šviesesnė šviesesnėmis šviesesnės šviesesnę šviesesnį šviesi šviesia šviesiai šviesiais šviesias šviesiau šviesiausi šviesiausia šviesiausias šviesiausius šviesiausių šviesioje šviesioji šviesiomis šviesios šviesiosios šviesiu šviesius šviesią šviesiąją šviesių šviesiųjų šviesu šviesusis šviesūs šviesų
+8	1508	žemyn	
+9	1509	dailė	daile dailei dailių dailėje dailės dailę
+10	1510	keltis	keldavausi keldavomės keldavosi keliamės keliasi keliatės keliesi keliuosi kelkimės kelkis kelkitės kelsimės kelsis kelsiuosi keltųsi kėliausi kėlėsi
+11	1511	sovietas	sovietai sovietais sovietams sovietu sovietus sovietų
+12	1512	interesas	interesai interesais interesams intereso interesu interesui interesuose interesus interesą interesų
+13	1513	tikinti	tikina tikino tikins
+14	1514	ekipa	ekipai ekipas ekipoje ekipomis ekipoms ekipos ekipose ekipą ekipų
+15	1515	sumažėti	sumažėja sumažėjo sumažės sumažėtų
+16	1516	paplūdimys	paplūdimiai paplūdimiais paplūdimiams paplūdimio paplūdimiu paplūdimiui paplūdimiuose paplūdimius paplūdimių paplūdimy paplūdimyje paplūdimį
+17	1517	užsičiaupti	užsičiaupi užsičiaupia užsičiaupiau užsičiaupk užsičiaupkit užsičiaupkite užsičiaups užsičiaupsi užsičiaupsit užsičiaupsite užsičiaupsiu užsičiauptum užsičiauptumėt užsičiauptų užsičiaupčiau užsičiaupęs
+18	1518	reklama	reklamai reklamas reklamoje reklamomis reklamoms reklamos reklamose reklamą reklamų
+19	1519	investicija	investicijai investicijas investicijomis investicijoms investicijos investicijose investiciją investicijų
+20	1520	artėti	artėdamas artėja artėjam artėjame artėjant artėjat artėjate artėjau artėji artėjo artėjome artėju artės artėsim artėsite artėtų
+21	1521	pagarba	pagarbos pagarbą pagarbų
+22	1522	srautas	srautai srautais srautams sraute srauto srautu srautui srautuose srautus srautą srautų
+23	1523	sėkmingas	sėkminga sėkmingais sėkmingam sėkmingame sėkmingesni sėkmingesnis sėkmingesnė sėkmingi sėkmingiau sėkmingiausi sėkmingiausia sėkmingiausiai sėkmingiausiais sėkmingiausias sėkmingiausios sėkmingiausių sėkmingiems sėkmingo sėkmingomis sėkmingos sėkmingose sėkmingu sėkmingui sėkmingus sėkmingą sėkmingų
+24	1524	gamykla	gamyklai gamyklas gamykloje gamyklomis gamykloms gamyklos gamyklose gamyklą gamyklų
+25	1525	nauda	naudai naudas naudos naudą naudų
+26	1526	kamuolys	kamuoliai kamuoliais kamuolio kamuoliu kamuoliui kamuolius kamuolių kamuoly kamuolį
+27	1527	paminklas	paminklai paminklais paminklams paminklo paminklu paminklui paminklus paminklą paminklų
+28	1528	arklys	arkliai arkliais arkliams arklio arkliu arkliui arklius arklių arkly arklyje arklį
+29	1529	pan.	pan
+30	1530	geležinkelis	geležinkeliai geležinkeliais geležinkeliams geležinkelio geležinkeliu geležinkeliui geležinkelius geležinkelių geležinkelyje geležinkelį
+31	1531	egzaminas	egzaminai egzaminais egzaminams egzamine egzamino egzaminu egzaminui egzaminuose egzaminus egzaminą egzaminų
+32	1532	valia	valiai valias valioje valios valią valių
+33	1533	turinys	turinio turiniu turiniui turinį
+34	1534	liaudis	liaudie liaudies liaudyje liaudį liaudžiai liaudžio
+35	1535	pažįstamas	pažįstamai pažįstamais pažįstamam pažįstami pažįstamiems pažįstamo pažįstamomis pažįstamos pažįstamu pažįstamus pažįstamą pažįstamų
+36	1536	įjungti	įjungei įjungi įjungia įjungiam įjungiamas įjungiame įjungiant įjungiau įjungiu įjungs įjungsi įjungsim įjungsime įjungsit įjungsiu įjungta įjungtas įjungtum įjungtume įjungtų įjungus įjungė įjungėme įjungęs įjunk įjunkim įjunkit įjunkite
+37	1537	visiškas	visiška visiškais visiškam visiškame visiški visiško visiškoje visiškomis visiškos visišku visiškus visišką visiškų
+38	1538	liūdnas	liūdna liūdnai liūdnais liūdnasis liūdnesnis liūdnesnius liūdnesnių liūdnesnė liūdnesnės liūdni liūdniau liūdniausi liūdniausia liūdniausias liūdniausios liūdniausių liūdnieji liūdniems liūdno liūdnoji liūdnomis liūdnos liūdnose liūdnu liūdnus liūdną liūdnąja liūdnų
+39	1539	partizanas	partizanai partizanais partizanams partizane partizano partizanu partizanui partizanus partizaną partizanė partizanų
+40	1540	tęstis	tęsdavosi tęsiasi tęsis tęstųsi tęsėsi
+41	1541	pardavimas	pardavimai pardavimais pardavimams pardavime pardavimo pardavimu pardavimui pardavimuose pardavimus pardavimą pardavimų
+42	1542	nugalėtojas	nugalėtoja nugalėtojai nugalėtojais nugalėtojams nugalėtojo nugalėtojomis nugalėtojoms nugalėtojos nugalėtoju nugalėtojui nugalėtojus nugalėtoją nugalėtojų
+43	1543	įrankis	įranki įrankiai įrankiais įrankiams įrankio įrankiu įrankius įrankių įrankyje įrankį
+44	1544	atsiųsti	atsiuntė atsiunčia atsiųs atsiųsdavo atsiųsiu atsiųsk atsiųskite atsiųstumėte atsiųstų
+45	1545	pajėgus	pajėgi pajėgia pajėgiais pajėgiame pajėgiausi pajėgiausia pajėgiausias pajėgiausios pajėgiausių pajėgios pajėgiu pajėgią pajėgių pajėgūs pajėgų
+46	1546	derybos	derybas derybomis deryboms derybose derybų
+47	1547	būdingas	būdingus būdinga būdingai būdingais būdingi būdingiau būdingiausių būdingiems būdingo būdingomis būdingoms būdingos būdingu būdingus būdingą būdingų
+48	1548	skatinti	skatina skatiname skatinau skatindavo skatinkite skatino skatinome skatins skatinsime skatinsite skatintų skatinu
+49	1549	sapnas	sapnai sapnais sapne sapno sapnu sapnui sapnuose sapnus sapną sapnų
+50	1550	raketa	raketai raketas raketoje raketomis raketoms raketos raketose raketą raketų
+51	1551	svarstyti	svarstai svarstau svarsto svarstome svarstote svarstys svarstysime svarstytume svarstytų svarstyčiau svarstė svarstėme svarstėte svarsčiau
+52	1552	žiaurus	žiauraus žiauresnio žiauresnis žiauresnės žiauri žiauria žiauriai žiauriais žiauriam žiauriame žiaurias žiauriau žiauriausi žiauriausia žiauriausias žiauriausios žiauriausiu žiauriausių žiaurioje žiaurios žiauriu žiaurius žiaurią žiaurių žiauru žiaurusis žiaurūs žiaurų žiaurųjį
+53	1553	išskirtinis	išskirtine išskirtines išskirtini išskirtiniai išskirtiniais išskirtiniam išskirtiniame išskirtiniams išskirtinio išskirtiniu išskirtinius išskirtinių išskirtinė išskirtinėje išskirtinėmis išskirtinės išskirtinę išskirtinį
+54	1554	moksleivis	moksleiviai moksleiviais moksleiviams moksleivio moksleiviu moksleiviui moksleivius moksleivių moksleivį
+55	1555	auksinis	auksine auksinei auksines auksini auksiniai auksiniais auksiniam auksiniame auksiniams auksinio auksiniu auksiniuose auksinius auksinių auksinė auksinėje auksinėmis auksinės auksinėse auksinę auksinį
+56	1556	loti	lodavo loja lojant lojantis lojat loji lojo loju lok loki los lote
+57	1557	patarti	patardavo patarei patari pataria patariam patariame patariate patariau patariu patark patarkit patarkite patars patarsi patarsim patarsime patarsit patarsite patarsiu patartum patartume patartumėt patartumėte patartų patarčiau patarė patarėm patarėt
+58	1558	prietaisas	prietaisai prietaisais prietaisams prietaise prietaiso prietaisu prietaisui prietaisuose prietaisus prietaisą prietaisų
+59	1559	spartus	spartaus spartesni spartesnio spartesnis spartesniu spartesnių spartesnį sparti spartų sparčiai sparčiam sparčiausia sparčiausiai sparčiausių sparčios sparčiu sparčius sparčią sparčių
+60	1560	kritika	kritikai kritikas kritikos kritiką kritikų
+61	1561	leidinys	leidiniai leidiniais leidiniams leidinio leidiniu leidiniui leidiniuose leidinius leidinių leidinyje leidinį
+62	1562	įrengti	įrengia įrengiau įrengs įrengsime įrengtų įrengė įrengėme
+63	1563	ausis	ausiai ausies ausimi ausimis ausims ausyje ausys ausyse ausį ausų
+64	1564	patiekalas	patiekalai patiekalais patiekalams patiekale patiekalo patiekalu patiekalui patiekaluose patiekalus patiekalą patiekalų
+65	1565	olimpinis	olimpine olimpinei olimpines olimpiniai olimpiniam olimpiniame olimpiniams olimpinio olimpiniu olimpinius olimpinių olimpinė olimpinėje olimpinėmis olimpinėms olimpinės olimpinėse olimpinę olimpinį
+66	1566	augimas	augimo augimu augimui augimą
+67	1567	lankytojas	lankytoja lankytojai lankytojais lankytojams lankytojo lankytoju lankytojui lankytojus lankytoją lankytojų
+68	1568	pirkėjas	pirkėja pirkėjai pirkėjais pirkėjams pirkėjo pirkėju pirkėjui pirkėjus pirkėją pirkėjų
+69	1569	efektyvus	efektyvaus efektyvesne efektyvesnes efektyvesni efektyvesniais efektyvesniam efektyvesnio efektyvesnis efektyvesniu efektyvesnius efektyvesnių efektyvesnė efektyvesnės efektyvesnę efektyvesnį efektyvi efektyvia efektyviai efektyviais efektyviam efektyvias efektyviau efektyviausi efektyviausia efektyviausiai efektyviausias efektyviausios efektyviausiu efektyviausius efektyviausią efektyviausių efektyvios efektyviu efektyvius efektyvią efektyvių efektyvu efektyvūs efektyvų
+70	1570	procedūra	procedūrai procedūras procedūroje procedūromis procedūroms procedūros procedūrose procedūrą procedūrų
+71	1571	tolimas	tolima tolimai tolimais tolimame tolimesnei tolimesnes tolimesni tolimesniam tolimesniame tolimesniems tolimesnio tolimesnis tolimesniuose tolimesnius tolimesnių tolimesnė tolimesnėje tolimesnės tolimesnę tolimesnį tolimi tolimiausiame tolimiausias tolimiausių tolimo tolimoje tolimojo tolimojoje tolimos tolimosios tolimu tolimuose tolimuosiuose tolimus tolimą tolimąją tolimąjį tolimų tolimųjų
+72	1572	prakeiktas	prakeikta prakeiktieji prakeiktos prakeiktą
+73	1573	pasimatymas	pasimatymai pasimatymais pasimatymams pasimatyme pasimatymo pasimatymui pasimatymuose pasimatymus pasimatymą pasimatymų
+74	1574	klinika	klinikai klinikas klinikoje klinikomis klinikoms klinikos klinikose kliniką klinikų
+75	1575	administracinis	administracine administracinei administracines administraciniai administraciniais administraciniam administraciniame administracinio administraciniu administraciniuose administracinius administracinių administracinė administracinėje administracinėmis administracinėms administracinės administracinėse administracinę administracinį
+76	1576	baseinas	baseinai baseinais baseinams baseine baseino baseinu baseinui baseinuose baseinus baseiną baseinų
+77	1577	daržovė	daržove daržovei daržoves daržovių daržovėje daržovėmis daržovėms daržovės daržovėse daržovę
+78	1578	kvailys	kvailiai kvailiais kvailiams kvailio kvailiu kvailiui kvailius kvailių kvaily kvailį
+79	1579	tikėjimas	tikėjimai tikėjime tikėjimo tikėjimu tikėjimui tikėjimus tikėjimą tikėjimų
+80	1580	avarija	avarijai avarijas avarijoje avarijomis avarijoms avarijos avarijose avariją avarijų
+81	1581	alio	
+82	1582	šonas	šonai šonais šone šono šonu šonui šonuose šonus šoną šonų
+83	1583	pirminis	pirmine pirminei pirmines pirminiai pirminiais pirminiam pirminiame pirminio pirminiu pirminiuose pirminius pirminių pirminė pirminėje pirminėmis pirminės pirminę pirminį
+84	1584	neretas	nereta neretai neretam
+85	1585	taikytis	taikaus taikomės taikos taikosi taikysis taikėmės taikėsi
+86	1586	rūpestis	rūpestį rūpesčiai rūpesčiais rūpesčiams rūpesčio rūpesčiu rūpesčiuose rūpesčius rūpesčių
+87	1587	pakrantė	pakrante pakrantei pakrantes pakrantėje pakrantėmis pakrantės pakrantėse pakrantę pakrančių
+88	1588	nafta	naftai naftoje naftos naftą
+89	1589	turas	turai ture turo turu turui turuose turus turą turų
+90	1590	vilkas	vilkai vilkais vilkams vilke vilko vilku vilkui vilkuose vilką vilkų
+91	1591	išmanus	išmanaus išmani išmaniai išmaniaisiais išmaniajam išmaniajame išmanieji išmaniesiems išmanioji išmaniojo išmanios išmaniosiomis išmaniosios išmaniuoju išmaniuosiuose išmaniuosius išmanią išmaniąja išmaniąją išmaniąsias išmanių išmaniųjų išmanusis išmanūs išmanų išmanųjį
+92	1592	skubėti	skuba skubam skubame skubant skubantis skubat skubate skubi skubos skubu skubėdamas skubėdavau skubėdavo skubėjai skubėjau skubėjo skubėjote skubėk skubėkim skubėkit skubėkite skubės skubėsi skubėtų skubėčiau
+93	1593	meistras	meistrai meistrais meistrams meistro meistru meistrui meistrus meistrą meistrų
+94	1594	kitur	
+95	1595	medalis	medaliai medaliais medalio medaliu medalius medalių medalį
+96	1596	priešingas	priešinga priešingai priešingi priešingo priešingoje priešingomis priešingos priešingose priešingu priešingus priešingą priešingų
+97	1597	sutvarkyti	sutvarkiau sutvarko sutvarkome sutvarkykite sutvarkys sutvarkysime sutvarkytume sutvarkytų sutvarkė sutvarkėme
+98	1598	kryžius	kryžiai kryžiais kryžiams kryžiau kryžiaus kryžiui kryžiuje kryžiumi kryžių
+99	1599	registruoti	registravo registravus registravęs registruoja registruojant registruojantis registruoji registruoju registruos registruosim registruota registruotai registruotais registruotam registruotame registruotas registruotiems registruoto registruotos registruotu registruotus registruotą registruotų
+100	1600	unikalus	unikalaus unikali unikalia unikaliai unikaliais unikaliame unikalias unikaliausias unikaliausių unikaliems unikalioje unikaliomis unikalios unikaliu unikalius unikalią unikalių unikalu unikalūs unikalų

@@ -1,0 +1,100 @@
+1	3301	susikurti	susikuri susikuria susikuriame susikurkite susikurs susikursite susikurtų susikūriau susikūrė susikūrėme
+2	3302	vilnietis	vilnietė vilnietį vilniečiai vilniečiais vilniečiams vilniečio vilniečiu vilniečiui vilniečius vilniečių
+3	3303	šalmas	šalmai šalmais šalme šalmo šalmu šalmui šalmus šalmą šalmų
+4	3304	kraštovaizdis	kraštovaizdyje kraštovaizdį kraštovaizdžiai kraštovaizdžio kraštovaizdžiu kraštovaizdžiui kraštovaizdžių
+5	3305	senjora	senjorai senjorais senjorams senjoras senjoro senjorus senjorų
+6	3306	pavienis	pavienes pavieniai pavieniais pavieniams pavienio pavienius pavienių pavienė pavienėmis pavienėms pavienės pavienį
+7	3307	vyrauti	vyrauja vyrautų
+8	3308	žarna	žarnai žarnas žarnoje žarnomis žarnos žarnose žarną žarnų
+9	3309	pažanga	pažangai pažangos pažangą pažangų
+10	3310	ryžis	ryžiai ryžiais ryžio ryžiu ryžius ryžių
+11	3311	kuprinė	kuprine kuprines kuprinių kuprinėje kuprinėmis kuprinės kuprinę
+12	3312	kasdienybė	kasdienybe kasdienybei kasdienybėje kasdienybės kasdienybę
+13	3313	krikščionis	krikščionimis krikščionims krikščionio krikščioniui krikščionys krikščionį
+14	3314	austi	audi audė audžia audžiant aus ausdavo ausi ausim ausk austas austinas
+15	3315	užsakyti	užsakiau užsako užsakydavo užsakykite užsakys užsakytų užsakė užsakėme
+16	3316	kalti	kal kala kalam kalamas kalei kali kaliau kalk kals kalte kaltinai kaltų kalu kalėm kalėt
+17	3317	junginys	junginiai junginiais junginio junginiui junginius junginių junginį
+18	3318	žaibas	žaibai žaibais žaibe žaibo žaibu žaibus žaibą žaibų
+19	3319	mažumas	mažumai mažumoje mažumoms mažumos mažumą mažumų
+20	3320	šalin	
+21	3321	fiksuoti	fiksavo fiksavome fiksuodavo fiksuoja fiksuojame fiksuojate fiksuokite fiksuos fiksuotų
+22	3322	leitenantas	leitenantai leitenanto leitenantu leitenantui leitenantą leitenantų
+23	3323	degtinė	degtine degtinei degtinėje degtinės degtinę
+24	3324	užuomina	užuominas užuominomis užuominos užuominą užuominų
+25	3325	apklausas	apklausai apklausoje apklausomis apklausoms apklausose apklausus apklausą apklausų
+26	3326	buitis	buities buitimi buityje buitį buičiai
+27	3327	prekiauti	prekiaudavo prekiauja prekiaujame prekiauju prekiaus prekiavo
+28	3328	piratas	piratai piratais piratams pirate pirato piratu piratui piratuose piratus piratą piratų
+29	3329	sargas	sargai sargais sargams sarge sargo sargu sargui sargus sargą sargų
+30	3330	paklausus	paklausi paklausia paklausias paklausiausia paklausiausias paklausiausios paklausiausių paklausios paklausiu paklausią paklausūs
+31	3331	žydėti	težydi žydi žydime žydint žydintis žydinčių žydėdavo žydėjimas žydėjimo žydėjo žydėk žydės žydėtų
+32	3332	stiprybė	stiprybe stiprybes stiprybių stiprybės stiprybę
+33	3333	iškviesti	iškvies iškviestų iškvietė iškvietėme iškviečia iškviečiau
+34	3334	sesija	sesijai sesijas sesijoje sesijos sesijose sesiją sesijų
+35	3335	kankinti	kankina kankinai kankinant kankinau kankindavo kankini kankinkit kankinkite kankino kankinom kankins kankinsi kankinsiu kankintų kankinu kankinčiau
+36	3336	kažkodėl	
+37	3337	lūkestis	lūkestį lūkesčiai lūkesčiais lūkesčiams lūkesčius lūkesčių
+38	3338	kriminalinis	kriminaline kriminalinei kriminalines kriminaliniai kriminaliniais kriminaliniam kriminaliniame kriminaliniams kriminalinio kriminaliniu kriminaliniuose kriminalinius kriminalinių kriminalinė kriminalinėje kriminalinės kriminalinėse kriminalinę kriminalinį
+39	3339	numirti	numirs numirsi numirsiu numirtų numirė numiršta
+40	3340	ieškomas	ieškoma ieškomi ieškomo ieškomos ieškomu ieškomus ieškomą ieškomų
+41	3341	tatuiruotė	tatuiruote tatuiruotes tatuiruotėmis tatuiruotės tatuiruotę tatuiruočių
+42	3342	nukreiptas	nukreipta nukreipto nukreiptos nukreiptu nukreiptus nukreiptą
+43	3343	smogti	smogei smogi smogia smogiau smogiu smogs smogsi smogsime smogsiu smogtų smogus smogčiau smogė smogęs smok smokite
+44	3344	marškiniai	marškiniams marškinius
+45	3345	projektavimas	projektavimo projektavimu projektavimui projektavimą
+46	3346	keitimas	keitimai keitimo keitimu keitimui keitimus keitimą keitimų
+47	3347	agresyvus	agresyvaus agresyvesni agresyvesnis agresyvesnių agresyvesnė agresyvesnės agresyvi agresyvia agresyviai agresyviais agresyviam agresyvias agresyviau agresyviausių agresyvioje agresyvios agresyviu agresyvius agresyvią agresyvių agresyvūs agresyvų
+48	3348	logiškas	logiška logiškai logiški logiško logiškos logišku logiškus logišką logiškų
+49	3349	pamaina	pamainas pamainoje pamainomis pamainos pamainą pamainų
+50	3350	daugėti	daugėja daugėjo daugės daugėtų
+51	3351	vaizduotė	vaizduote vaizduotei vaizduotes vaizduotėje vaizduotės vaizduotę
+52	3352	liudyti	liudija liudijo liudys liudytų
+53	3353	nėštumas	nėštumo nėštumu nėštumui nėštumą nėštumų
+54	3354	skelbimas	skelbimai skelbimais skelbime skelbimo skelbimu skelbimui skelbimuose skelbimus skelbimą skelbimų
+55	3355	atsiminti	atsimenam atsimenamas atsimenant atsimenantis atsimenat atsiminei atsimink atsiminkime atsiminkit atsiminkite atsimins atsiminsi atsiminsime atsiminsite atsiminsiu atsimintum atsimintų atsiminus atsiminčiau
+56	3356	patikra	patikrai patikras patikros patikrą patikrų
+57	3357	beisbolas	beisbole beisbolo beisbolu beisbolui beisbolą
+58	3358	nebenorėti	nebenori nebenorime nebenorite nebenoriu nebenorėjai nebenorėjau nebenorėjo nebenorės nebenorėsi nebenorėčiau
+59	3359	išvysti	išvysta išvystame išvystu išvystume išvystų
+60	3360	šalininkas	šalininkai šalininkais šalininkams šalininku šalininkus šalininką šalininkų
+61	3361	įspėjimas	įspėjimai įspėjimais įspėjimo įspėjimu įspėjimus įspėjimą įspėjimų
+62	3362	išsigandęs	išsigandusi išsigandusio išsigandusios išsigandusių išsigandusį išsigandę
+63	3363	technologinis	technologine technologinei technologines technologiniai technologiniais technologiniam technologiniame technologiniams technologinio technologiniu technologinius technologinių technologinė technologinės technologinę technologinį
+64	3364	apleistas	apleista apleistais apleistame apleisto apleistoje apleistos apleistose apleistuose apleistus apleistą
+65	3365	priešintis	priešinamės priešinasi priešinausi priešinosi priešinsimės priešinsis priešintųsi
+66	3366	fonas	fone fono fonu fonui foną
+67	3367	ištikti	ištikdavo ištiko ištiks ištiktų ištikus ištikęs ištinka
+68	3368	apsispręsti	apsisprendė apsisprendėme apsisprendėte apsisprendžia apsisprendžiau apsispręs apsispręsime apsispręsite apsispręsiu apsispręskite apsispręstų
+69	3369	uždėti	uždeda uždėjau uždėjo uždėjome uždėk uždėkite uždės uždėtų
+70	3370	pakraštys	pakrašty pakraštyje pakraštį pakraščiai pakraščiais pakraščio pakraščiu pakraščiuose pakraščius pakraščių
+71	3371	pasveikinti	pasveikina pasveikinau pasveikino pasveikins pasveikinsiu pasveikintų
+72	3372	baletas	balete baleto baletu baletui baletus baletą baletų
+73	3373	zoologija	zoologijos
+74	3374	faktorius	faktoriai faktoriais faktoriaus faktoriuje faktoriumi faktorių
+75	3375	kontroliuojamas	kontroliuojama kontroliuojamame kontroliuojami kontroliuojamiems kontroliuojamo kontroliuojamos kontroliuojamose kontroliuojamu kontroliuojamuose kontroliuojamus kontroliuojamą kontroliuojamų
+76	3376	neatsakyti	neatsakau neatsakiau neatsako neatsakome neatsakys neatsakysiu neatsakytų neatsakė
+77	3377	sutikimas	sutikimai sutikimo sutikimu sutikimui sutikimus sutikimą sutikimų
+78	3378	alternatyva	alternatyvai alternatyvas alternatyvomis alternatyvos alternatyvą
+79	3379	dvynys	dvyniai dvyniais dvyniams dvynio dvyniu dvynius dvynių dvynį
+80	3380	nuolaida	nuolaidas nuolaidomis nuolaidoms nuolaidos nuolaidą nuolaidų
+81	3381	šildymas	šildymo šildymu šildymui šildymą
+82	3382	nepakankamai	
+83	3383	sudeginti	sudegina sudegindavo sudegino sudegins sudeginsi sudeginsime sudegintų
+84	3384	startuoti	startavo startuoja startuos
+85	3385	muilas	muilo muilu muilus muilą muilų
+86	3386	nepasiduoti	nepasidaviau nepasidavė nepasiduoda nepasiduodu nepasiduok nepasiduokite nepasiduos nepasiduosime nepasiduosiu nepasiduotų
+87	3387	vabzdys	vabzdį vabzdžiai vabzdžiais vabzdžiams vabzdžio vabzdžius vabzdžių
+88	3388	duetas	duetai dueto duetu duetui duetus duetą duetų
+89	3389	dalinti	dalina dalinai dalinamas daliname dalinantis dalinau dalindamas dalindavai dalindavo dalini dalink dalinkite dalino dalins dalinsim dalinsime dalinsite dalinsiu dalintum dalintų dalinu
+90	3390	įgaliojimas	įgaliojimai įgaliojimais įgaliojimo įgaliojimus įgaliojimą įgaliojimų
+91	3391	dažai	dažams dažuose dažus dažą dažų
+92	3392	puolėjas	puolėja puolėjai puolėjo puolėju puolėjui puolėją puolėjų
+93	3393	vežimas	vežimai vežimais vežimams vežime vežimo vežimu vežimui vežimus vežimą vežimų
+94	3394	palengvinti	palengvina palengvino palengvins palengvintų
+95	3395	šunsnukis	šunsnukiai
+96	3396	pardavinėti	pardavinėdavo pardavinėja pardavinėjame pardavinėjo pardavinėjome pardavinėju pardavinės pardavinėsime pardavinėtų
+97	3397	niekuomet	
+98	3398	užimtumas	užimtumo užimtumu užimtumui užimtumą
+99	3399	pajudėti	pajuda pajudėjo pajudėjome pajudėkite pajudės pajudėtų
+100	3400	triušis	triuši triušiai triušiais triušiams triušio triušiu triušius triušių triušį

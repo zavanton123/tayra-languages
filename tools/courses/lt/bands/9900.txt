@@ -1,0 +1,100 @@
+1	9801	inkvizicija	inkvizicijos
+2	9802	deleguotas	deleguota deleguoto deleguotos deleguotus deleguotą
+3	9803	didvyrė	didvyre didvyrės
+4	9804	vyriškai	
+5	9805	kivirčas	kivirčai kivirčo kivirčus kivirčą kivirčų
+6	9806	šildomas	šildoma šildomi šildomos šildomą šildomų
+7	9807	regzti	rezga rezgė
+8	9808	sukiotis	sukiojasi sukiojosi sukiosis
+9	9809	raitas	raiti
+10	9810	pakarti	pakorė
+11	9811	kardiologas	kardiologai kardiologo kardiologą kardiologų
+12	9812	prasimušti	prasimuša prasimušė
+13	9813	gaida	gaidos gaidą
+14	9814	savadarbis	savadarbiais savadarbius savadarbių savadarbė savadarbėmis savadarbės savadarbę savadarbį
+15	9815	jūrmylė	jūrmyles jūrmylių jūrmylėmis jūrmylės
+16	9816	kapotas	kapotais kapoto kapotomis kapotos kapotu kapotą
+17	9817	polis	
+18	9818	kopijavimas	kopijavimo kopijavimą
+19	9819	apvaizda	apvaizdos
+20	9820	apdrausti	apdraudė apdraudžia
+21	9821	dėjimas	dėjimo dėjimu dėjimų
+22	9822	vargonininkas	vargonininko vargonininkų
+23	9823	atgaivinimas	atgaivinimo atgaivinimu atgaivinimui atgaivinimą
+24	9824	vetuoti	vetavo vetuos
+25	9825	progresuoti	progresavo progresuoja
+26	9826	substratas	substrato substratą
+27	9827	cirkuliuoti	cirkuliavo cirkuliuoja cirkuliuos cirkuliuotų
+28	9828	supančioti	supančiojo supančios
+29	9829	kupeta	kupetoje kupetą
+30	9830	dilgėlė	dilgėles dilgėlių dilgėlėmis dilgėlės
+31	9831	diriguoti	dirigavo diriguoja diriguos
+32	9832	smilkalas	smilkalai smilkalais smilkalus smilkalų
+33	9833	atsistatydinęs	atsistatydinus atsistatydinusio atsistatydinusį
+34	9834	priiminėti	priiminėja priiminėjo priiminės
+35	9835	apipilti	apipila apipilkite apipils apipylė
+36	9836	paslysti	paslydau paslydo
+37	9837	tvarstis	tvarsčiai tvarsčių
+38	9838	paklusnus	paklusni paklusniai paklusnūs
+39	9839	memuarai	memuaruose memuarus memuarų
+40	9840	paveldėtas	paveldėta paveldėto paveldėtos paveldėtą
+41	9841	socializacija	socializacijos socializaciją
+42	9842	lakštingala	lakštingalos lakštingalų
+43	9843	išpilti	išpila išpilkite išpylė
+44	9844	mirtininkas	mirtininkai mirtininko mirtininkui mirtininkus mirtininkų
+45	9845	asfaltavimas	asfaltavimo
+46	9846	alpinistas	alpinistai alpinistų
+47	9847	tausoti	tausoja tausokite
+48	9848	finansininkas	finansininkai finansininke finansininko finansininku finansininkų
+49	9849	žaloti	žaloja žalojo
+50	9850	perklausa	perklausas perklausoje perklausos perklausą perklausų
+51	9851	lenktis	lenkiasi lenkitės lenkiuosi
+52	9852	paklotas	paklota paklotos paklotą
+53	9853	skalikas	skalikai skalikais skalike skaliko skaliku skaliką skalikų
+54	9854	gladiatorius	gladiatoriai gladiatoriaus gladiatorių
+55	9855	efektingas	efektinga efektingai efektingi efektingiau efektingu efektingus efektingą
+56	9856	persvarstyti	persvarsto
+57	9857	atauga	ataugos ataugų
+58	9858	skęstantis	skęstanti skęstantį skęstančiajam skęstančio skęstančios skęstančiuosius skęstančius skęstančią skęstančių skęstančiųjų
+59	9859	kukulis	kukuliai kukuliais kukulius kukulių
+60	9860	nulaužti	
+61	9861	praminti	praminė
+62	9862	asfaltuoti	asfaltuotų
+63	9863	gotika	gotikos
+64	9864	žiogas	žioge žiogo žiogą
+65	9865	taiklumas	taiklumo taiklumu taiklumą
+66	9866	bergždžias	bergždžiai bergždžios bergždžių
+67	9867	pakavimas	pakavimo pakavimui
+68	9868	bombarduoti	bombardavo bombarduoja
+69	9869	įšokti	įšoka įšokau įšoko
+70	9870	šantažas	šantažo šantažu šantažui šantažą
+71	9871	kirpimas	kirpimai kirpimo kirpimu kirpimus
+72	9872	taupus	taupesni taupesnis taupiai taupiosios taupūs taupų
+73	9873	paženklinti	paženklina paženklino paženklins paženklintų
+74	9874	slalomas	slalomo
+75	9875	įprasminti	įprasmina įprasmino
+76	9876	feminizmas	feminizmo
+77	9877	kraštietis	kraštiečiai kraštiečiams
+78	9878	atodūsis	atodūsiai atodūsio atodūsiu atodūsį
+79	9879	nusirengti	nusirengia nusirengė
+80	9880	mikroskopas	mikroskopai mikroskopo mikroskopu mikroskopą
+81	9881	pašventintas	pašventinta
+82	9882	žiupsnelis	žiupsnelio žiupsneliu žiupsnelį
+83	9883	skubėjimas	skubėjimo skubėjimą
+84	9884	apsižvalgyti	apsižvalgo
+85	9885	prorektorius	prorektoriaus
+86	9886	doroti	doros
+87	9887	atlaikas	atlaikai atlaiko
+88	9888	atžalynas	atžalyno
+89	9889	nuogąstauti	nuogąstauja nuogąstavo
+90	9890	užsibrėžti	užsibrėžia užsibrėžtų užsibrėžė
+91	9891	jurginas	jurginai jurgino jurginus jurginą jurginų
+92	9892	bendruomeninis	bendruomeniniai bendruomeninio bendruomeninių bendruomeninės bendruomeninį
+93	9893	pasvarstyti	pasvarstykite pasvarstė
+94	9894	ginekologas	ginekologai ginekologo ginekologą ginekologų
+95	9895	ultimatumas	ultimatumais ultimatumo ultimatumą ultimatumų
+96	9896	trumpinti	trumpina
+97	9897	niežulys	niežulio niežulį
+98	9898	bendraautoris	bendraautoriai bendraautoriais bendraautorius bendraautorių
+99	9899	sprogdinti	sprogdina sprogdino
+100	9900	prievartauti	prievartaudavo prievartauja prievartavo

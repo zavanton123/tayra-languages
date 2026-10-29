@@ -1,0 +1,100 @@
+1	5501	tęsinys	tęsiniai tęsinio tęsinius tęsinių tęsinyje tęsinį
+2	5502	vada	vadai vados vadą
+3	5503	riešas	riešai riešo riešus riešą riešų
+4	5504	plakti	plak plaka plakame plakant plakate plakite plaks plaksi plaktų plaku plakė
+5	5505	minusas	minusai minuso minusu minusus minusą minusų
+6	5506	areštuoti	areštavo areštuoja areštuotų
+7	5507	fortepijonas	fortepijono fortepijonu fortepijonui fortepijoną fortepijonų
+8	5508	sumokėtas	sumokėta sumokėto sumokėtos sumokėtus sumokėtą
+9	5509	kankinimas	kankinimai kankinimais kankinimams kankinimo kankinimu kankinimui kankinimuose kankinimus kankinimą kankinimų
+10	5510	nufilmuotas	nufilmuota nufilmuotame nufilmuoto nufilmuotoje nufilmuotus nufilmuotą
+11	5511	registruotis	registravosi registruojasi registruokitės
+12	5512	gulti	gula gulam gulantis guldamas guldavo gulk gulkit gulkite guls gulsi gulte gulu gulė
+13	5513	išpildyti	išpildo išpildys išpildytų išpildė išpildžiau
+14	5514	komendantas	komendanto
+15	5515	privati	
+16	5516	suomis	suomiai suomiais suomiams suomiui suomių
+17	5517	įnešti	įneš įneša įneštų įnešė
+18	5518	proveržis	proveržiais proveržio proveržiu proveržiui proveržių proveržį
+19	5519	mažametis	mažamete mažametei mažametė mažametės mažametę mažametį mažamečiai mažamečiais mažamečiams mažamečio mažamečiu mažamečiui mažamečius mažamečių
+20	5520	sukrėsti	sukrečia sukrės sukrėskite sukrėstų sukrėtė
+21	5521	injekcija	injekcijas injekcijomis injekcijos injekciją injekcijų
+22	5522	komercija	komercijos komerciją
+23	5523	nervintis	nervinamės nervinasi nervinatės nervinausi nervinosi nervinuosi
+24	5524	inventorius	inventoriaus inventoriumi inventorių
+25	5525	meistrė	meistre meistrės meistrę
+26	5526	išleidžiamas	išleidžiama išleidžiami išleidžiamos išleidžiamų
+27	5527	žiaurumas	žiaurumai žiaurumo žiaurumu žiaurumus žiaurumą žiaurumų
+28	5528	šiandieninis	šiandienines šiandieniniai šiandieniniam šiandieniniame šiandieniniams šiandieninio šiandieninius šiandieninių šiandieninė šiandieninėje šiandieninėmis šiandieninės šiandieninę šiandieninį
+29	5529	šokoladinis	šokoladiniai šokoladiniais šokoladinio šokoladiniu šokoladinius šokoladinių šokoladinė šokoladinės šokoladinę šokoladinį
+30	5530	planinis	planiniai planiniam planinio planinius planinių planinė planinės planinę planinį
+31	5531	nesklandumas	nesklandumai nesklandumais nesklandumams nesklandumus nesklandumų
+32	5532	išrasti	išrado
+33	5533	smalsumas	smalsumo smalsumu smalsumui smalsumą
+34	5534	peizažas	peizažai peizažais peizažo peizažu peizažus peizažą peizažų
+35	5535	kauptis	kaupiasi kaupsis kaupėsi
+36	5536	atsispirti	atsispiria atsispirs atsispyrė
+37	5537	identiškas	identiška identiškai identiški identiško identiškos identišku identiškus identišką identiškų
+38	5538	gairė	gaire gaires gairių gairėmis gairėms gairės gairėse
+39	5539	liūdėti	liūdi liūdim liūdime liūdint liūdit liūdėjai liūdėjau liūdėjo liūdėjęs liūdėsi liūdėsit liūdėtum liūdėtų liūdžiu
+40	5540	sumaištis	sumaišties sumaištyje sumaištį sumaiščiai
+41	5541	jautrumas	jautrumo jautrumu jautrumui jautrumą
+42	5542	orientacija	orientacijos orientaciją
+43	5543	pianistas	pianistai pianiste pianisto pianistu pianistą pianistų
+44	5544	bejėgis	bejėgiai bejėgiais bejėgius bejėgių bejėgė bejėgės
+45	5545	rankovė	rankove rankoves rankovių rankovėje rankovėmis rankovės rankovėse rankovę
+46	5546	tankis	tankio tankį
+47	5547	susietas	susieta susietos
+48	5548	tikslingas	tikslinga tikslingai tikslingiau tikslingiausia tikslingos tikslingą
+49	5549	apgyvendinti	apgyvendina apgyvendino apgyvendintų
+50	5550	pavedimas	pavedimai pavedimais pavedimo pavedimu pavedimus pavedimą pavedimų
+51	5551	derinamas	derinama derinami derinamos derinamų
+52	5552	pražudyti	pražudo pražudys pražudytų pražudė
+53	5553	akvariumas	akvariumai akvariume akvariumo akvariumui akvariumuose akvariumus akvariumą akvariumų
+54	5554	kėbulas	kėbulai kėbulo kėbulu kėbulus kėbulą kėbulų
+55	5555	perversmas	perversmai perversmo perversmu perversmui perversmą
+56	5556	susivienijimas	susivienijime susivienijimo susivienijimu susivienijimui susivienijimus susivienijimą susivienijimų
+57	5557	briedis	briedi briedį briedžiai briedžiais briedžio briedžiu briedžiui briedžius briedžių
+58	5558	baltarusis	baltarusiai baltarusiais baltarusiams baltarusio baltarusiu baltarusiui baltarusius baltarusį
+59	5559	japoniškas	japoniška japoniškam japoniškame japoniški japoniško japoniškos japoniškus japonišką japoniškų
+60	5560	neatsisakyti	neatsisakau neatsisakiau neatsisako neatsisakome neatsisakykite neatsisakys neatsisakysiu neatsisakytų neatsisakyčiau neatsisakė neatsisakėme
+61	5561	pusseserė	pussesere pusseserei pusseserių pusseserės pusseserę
+62	5562	pasąmonė	pasąmone pasąmonėje pasąmonės pasąmonę
+63	5563	taktikas	taktikai taktikos taktiką taktikų
+64	5564	pašalpa	pašalpas pašalpoms pašalpos pašalpą pašalpų
+65	5565	aistringas	aistringa aistringai aistringi aistringiau aistringiausias aistringo aistringos aistringu aistringą aistringų
+66	5566	pasimėgauti	pasimėgauja pasimėgaukite
+67	5567	okupuotas	okupuota okupuotame okupuoto okupuotoje okupuotos okupuotose okupuotą
+68	5568	pliusas	pliusai pliuso pliusu pliusus pliusą pliusų
+69	5569	ketvertas	ketvertai ketverte ketverto ketvertu ketvertui ketvertus ketvertą
+70	5570	pasitenkinimas	pasitenkinimo pasitenkinimu pasitenkinimą
+71	5571	niūrus	niūresnės niūri niūria niūriai niūriais niūrias niūrioje niūrioms niūrios niūriu niūrius niūrią niūrių niūru niūrūs niūrų
+72	5572	apibūdinimas	apibūdinimai apibūdinimo apibūdinimu apibūdinimus apibūdinimą apibūdinimų
+73	5573	pamokyti	pamoko pamokys pamokytų pamokė
+74	5574	migrantas	migrantų
+75	5575	kamerinis	kameriniame kamerinio kameriniu kamerinių kamerinė kamerinėje kamerinės kamerinį
+76	5576	pasigirti	pasigirs pasigyrė
+77	5577	prastova	prastovas prastovos prastovą prastovų
+78	5578	filmuotas	filmuota filmuotoje filmuotos filmuotus filmuotą
+79	5579	iškvietimas	iškvietimai iškvietimo iškvietimus iškvietimą iškvietimų
+80	5580	paauglystė	paauglystėje paauglystės paauglystę
+81	5581	pasimetęs	pasimetus pasimetusi pasimetusiems pasimetusio pasimetusios pasimetusių pasimetusį pasimetę
+82	5582	obelis	obelimis obelims obelių obels obelys obelį obelų
+83	5583	nesmagus	nesmagi nesmagiai nesmagu
+84	5584	likviduoti	likvidavo likvidavus likviduoja likviduojant likviduokit likviduosime likviduota likviduotas
+85	5585	sudedamas	sudedama sudedami sudedamoji sudedamos sudedamosios sudedamąsias sudedamųjų
+86	5586	įkalinimas	įkalinimo įkalinimu įkalinimą
+87	5587	išsiskyrimas	išsiskyrimai išsiskyrimo išsiskyrimu išsiskyrimus išsiskyrimą išsiskyrimų
+88	5588	parašiutas	parašiutai parašiutais parašiuto parašiutu parašiutus parašiutą parašiutų
+89	5589	poza	pozas pozoje pozomis pozos pozose pozą pozų
+90	5590	vaistinis	vaistinei vaistines vaistiniai vaistiniais vaistinio vaistiniu vaistinius vaistinių vaistinėje vaistinėms vaistinės vaistinėse vaistinę
+91	5591	sergti	sergam sergant sergat sergu
+92	5592	grįstas	grįsta grįstais grįsti grįsto grįstos grįstus grįstą grįstų
+93	5593	etatas	etatai etatais etatams etato etatu etatus etatą etatų
+94	5594	valdytis	valdos
+95	5595	jaudulys	jaudulio jauduliu jauduliui jaudulį
+96	5596	išplatinti	išplatina išplatino išplatinome išplatins išplatintų
+97	5597	trigubas	triguba trigubai trigubo trigubos trigubą trigubų
+98	5598	tuberkuliozė	tuberkulioze tuberkuliozės tuberkuliozę
+99	5599	pervežimas	pervežimai pervežimais pervežimo pervežimu pervežimui pervežimus pervežimą pervežimų
+100	5600	vilkti	velka velki vilk vilkai vilkau vilkdamas vilki vilkime vilkit vilkite vilko vilks

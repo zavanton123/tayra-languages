@@ -1,0 +1,100 @@
+1	4101	drebėjimas	drebėjimai drebėjimo drebėjimu drebėjimui drebėjimus drebėjimą drebėjimų
+2	4102	suskaičiuoti	suskaičiavau suskaičiavo suskaičiavome suskaičiuoja suskaičiuok suskaičiuokime suskaičiuokite suskaičiuos suskaičiuosime suskaičiuotų
+3	4103	kopa	kopai kopas kopomis kopos kopose kopą kopų
+4	4104	nepasitenkinimas	nepasitenkinimo nepasitenkinimu nepasitenkinimui nepasitenkinimą
+5	4105	jūrininkas	jūrininkai jūrininkams jūrininke jūrininko jūrininku jūrininkui jūrininkus jūrininką jūrininkų
+6	4106	atkaklus	atkaklaus atkakli atkakliai atkakliau atkakliausi atkaklios atkakliu atkaklią atkaklių atkaklūs atkaklų
+7	4107	fejerverkas	fejerverkai fejerverkais fejerverkams fejerverko fejerverku fejerverkus fejerverką fejerverkų
+8	4108	susilaikyti	susilaikau susilaikiau susilaiko susilaikykite susilaikys susilaikysiu susilaikytų susilaikė
+9	4109	izoliuoti	izoliavo izoliuoja izoliuotų
+10	4110	kariauti	kariaudamas kariauja kariaujam kariaujamas kariaujame kariaujant kariaujate kariauji kariauk kariaukit kariaus kariausi kariausim kariausime kariautų kariavai kariavau kariavo kariavom kariavome kariavot kariavote kariavus
+11	4111	indeksas	indeksai indekse indekso indeksu indeksui indeksus indeksą indeksų
+12	4112	šaukštas	šaukštai šaukštais šaukšto šaukštu šaukštus šaukštą šaukštų
+13	4113	autoritetas	autoritetai autoritetais autoritetams autoriteto autoritetu autoritetui autoritetus autoritetą autoritetų
+14	4114	nešdintis	nešdinkitės
+15	4115	sesutė	sesute sesutei sesutėmis sesutės sesutę sesučių
+16	4116	akcininkas	akcininkai akcininkais akcininkams akcininke akcininko akcininku akcininkui akcininkus akcininkė akcininkų
+17	4117	nykštukas	nykštukai nykštukais nykštukams nykštuke nykštuko nykštuku nykštukui nykštukus nykštuką nykštukų
+18	4118	plėtoti	plėtoja plėtojo plėtos plėtosime
+19	4119	pupelė	pupeles pupelių pupelėmis pupelės pupelėse
+20	4120	atgaivinti	atgaivina atgaivinkite atgaivino atgaivins atgaivintų
+21	4121	kabina	kabinoje kabinose kabiną kabinų
+22	4122	nusižengimas	nusižengimai nusižengimams nusižengimo nusižengimus nusižengimą nusižengimų
+23	4123	europietis	europiečiai europiečiais europiečiams europiečio europiečiu europiečiui europiečius europiečių
+24	4124	nebaigtas	nebaigta nebaigti nebaigto nebaigtos nebaigtus nebaigtą nebaigtų
+25	4125	universalus	universalaus universali universalia universaliai universaliais universalias universaliausias universalios universaliu universalius universalią universalių universalūs universalų
+26	4126	rezultatyvus	rezultatyvaus rezultatyviai rezultatyviau rezultatyviausi rezultatyviausia rezultatyviausiai rezultatyviausias rezultatyviausiu rezultatyviausią rezultatyviausių rezultatyvius rezultatyvių rezultatyvūs rezultatyvų
+27	4127	krosnis	krosniai krosnies krosnimi krosnimis krosnių krosnyje krosnys krosnį
+28	4128	derinti	derina deriname derinau derindavo derinkite derino derinome derins derinsime derinsite derintų derinu
+29	4129	romėnas	romėnai romėnams romėne romėnu romėnus romėną romėnų
+30	4130	maršalas	maršalo maršalu
+31	4131	suorganizuoti	suorganizavo suorganizavome suorganizuoja suorganizuos suorganizuotų
+32	4132	paprasti	
+33	4133	gerumas	gerumo gerumu gerumus gerumą
+34	4134	pabėgėlė	pabėgėlių
+35	4135	išdavikas	išdavikai išdavikais išdavikams išdavike išdaviko išdaviku išdavikui išdavikus išdaviką išdavikų
+36	4136	fiksuotas	fiksuota fiksuoto fiksuotojo fiksuotos fiksuotu fiksuotus fiksuotą
+37	4137	atstovybė	atstovybe atstovybei atstovybes atstovybių atstovybėje atstovybėmis atstovybėms atstovybės atstovybėse atstovybę
+38	4138	genetinis	genetine genetinei genetines genetiniai genetiniais genetinio genetiniu genetinius genetinių genetinė genetinės genetinę genetinį
+39	4139	susirūpinimas	susirūpinimo susirūpinimu susirūpinimui susirūpinimą
+40	4140	darbinis	darbine darbines darbiniai darbiniais darbiniame darbinio darbiniu darbinius darbinių darbinė darbinėje darbinės darbinę darbinį
+41	4141	prekybininkas	prekybininkai prekybininkais prekybininkams prekybininko prekybininkus prekybininkų
+42	4142	truputėlis	truputėli truputėlio truputėlį
+43	4143	pasmerktas	pasmerkta pasmerktasis pasmerkti pasmerktos pasmerktų
+44	4144	veteranas	veteranai veteranais veteranams veterano veteranu veteranui veteranus veteraną veteranų
+45	4145	įtvirtinti	įtvirtina įtvirtino įtvirtins įtvirtintų
+46	4146	kolona	kolonai kolonas kolonoje kolonomis kolonos koloną kolonų
+47	4147	prospektas	prospektai prospekte prospekto prospektu prospektuose prospektus prospektą prospektų
+48	4148	konsultantas	konsultantai konsultantais konsultantams konsultante konsultanto konsultantu konsultantui konsultantus konsultantą konsultantų
+49	4149	gautis	gaunasi gausis gautųsi gavosi
+50	4150	spektras	spektrai spektre spektro spektru spektrui spektrą spektrų
+51	4151	sąmokslas	sąmokslai sąmokslo sąmokslu sąmokslus sąmokslą sąmokslų
+52	4152	matmuo	matmenimis matmenis matmens matmenys matmenų
+53	4153	peržiūra	peržiūrai peržiūras peržiūroje peržiūros peržiūrą peržiūrų
+54	4154	imuninis	imunine imuninei imunines imuninių imuninė imuninės imuninę imuninį
+55	4155	musė	muse musei muses musių musėmis musės musę musų
+56	4156	išdėstyti	išdėsto išdėstykite išdėstys išdėstytų išdėstė išdėstėme išdėsčiau
+57	4157	grąža	grąžos grąžą grąžų
+58	4158	prasmingas	prasminga prasmingai prasmingais prasmingam prasmingesnis prasmingi prasmingiau prasmingiausių prasmingo prasmingos prasmingu prasmingus prasmingą prasmingų
+59	4159	analogiškas	analogiška analogiškai analogiški analogiškiems analogiško analogiškoje analogiškomis analogiškos analogišku analogiškus analogišką analogiškų
+60	4160	urėdija	urėdijai urėdijoje urėdijos urėdiją urėdijų
+61	4161	programavimas	programavimo programavimu programavimą
+62	4162	netvarka	netvarkoje netvarkos netvarką
+63	4163	apyvarta	apyvartai apyvartoje apyvartoms apyvartos apyvartą apyvartų
+64	4164	doras	dora dorai dorais dori doro doru dorus dorą dorų
+65	4165	varpa	varpai varpoje varpos varpą varpų
+66	4166	kaukolė	kaukole kaukoles kaukolių kaukolėje kaukolėmis kaukolės kaukolę
+67	4167	pasivaikščiojimas	pasivaikščiojimai pasivaikščiojimams pasivaikščiojimo pasivaikščiojimu pasivaikščiojimui pasivaikščiojimus pasivaikščiojimą pasivaikščiojimų
+68	4168	monitorius	monitoriai monitoriaus monitoriuje monitoriuose monitorių
+69	4169	žavėti	žavi žavintis žaviu žavėjo žavės
+70	4170	pakyla	pakylos pakylą
+71	4171	trumpalaikis	trumpalaike trumpalaikei trumpalaikes trumpalaikiai trumpalaikiais trumpalaikio trumpalaikiu trumpalaikius trumpalaikių trumpalaikė trumpalaikėje trumpalaikės trumpalaikę trumpalaikį
+72	4172	sumažėjęs	sumažėjus sumažėjusi sumažėjusia sumažėjusias sumažėjusio sumažėjusiomis sumažėjusios sumažėjusią sumažėjusių sumažėjusį sumažėję
+73	4173	patrulis	patruliai patruliais patruliams patrulio patrulius patrulių patrulį
+74	4174	nunešti	nuneš nuneša nunešiau nuneštų nunešė
+75	4175	analitika	analitikai analitikas analitike analitiko analitikos analitiku analitikui analitikus analitiką analitikų
+76	4176	išsaugojimas	išsaugojimo išsaugojimu išsaugojimui išsaugojimą
+77	4177	vidurdienis	vidurdieni vidurdienio vidurdienį
+78	4178	sutapimas	sutapimai sutapimais sutapimo sutapimu sutapimą sutapimų
+79	4179	užregistruoti	užregistravo užregistruoja užregistruos užregistruotų
+80	4180	malūnas	malūnai malūnais malūne malūno malūnu malūnui malūną malūnų
+81	4181	ola	olai olas oloje olos olose olą olų
+82	4182	sausumas	sausumo sausumoje sausumos sausumą
+83	4183	nemalonumas	nemalonumai nemalonumais nemalonumus nemalonumų
+84	4184	sprendžiamas	sprendžiama sprendžiami sprendžiamos
+85	4185	senatvė	senatvei senatves senatvėje senatvės senatvę
+86	4186	atlaikyti	atlaikantis atlaikius atlaikom atlaikydavo atlaikys atlaikysi atlaikysim atlaikysime atlaikytume atlaikytų atlaikė atlaikėme atlaikęs
+87	4187	granatas	granatai granato granatomis granatos granatą granatų
+88	4188	žudynės	žudynes žudynių žudynėmis žudynėms žudynėse
+89	4189	česnakas	česnakai česnakais česnako česnaku česnakuose česnakus česnaką česnakų
+90	4190	išmintingas	išmintinga išmintingai išmintingasis išmintingesni išmintingesnis išmintingesnė išmintingi išmintingiau išmintingo išmintingos išmintingu išmintingus išmintingą
+91	4191	nuotolis	nuotolio nuotoliu nuotolius nuotolių nuotolyje nuotolį
+92	4192	deivė	deive deivei deives deivių deivėmis deivės deivę
+93	4193	mineralas	mineralai mineralais mineralo mineralus mineralų
+94	4194	privilegija	privilegijas privilegijomis privilegijos privilegiją privilegijų
+95	4195	treniruoti	treniravai treniravau treniravo treniravom treniravęs treniruoja treniruojam treniruojame treniruojantis treniruojate treniruoju treniruok treniruos treniruosi treniruosit treniruosite treniruosiu treniruotas treniruote treniruotum treniruotumėt treniruotumėte treniruotą treniruotų treniruočiau
+96	4196	kumštis	kumštyje kumštį kumščiai kumščiais kumščio kumščiu kumščius kumščių
+97	4197	pasikliauti	pasikliauja pasikliauju pasikliauk pasikliaukite pasikliauna
+98	4198	derinys	deriniai deriniais derinio deriniu deriniui derinius derinių derinyje derinį
+99	4199	tyrinėtojas	tyrinėtojai tyrinėtojams tyrinėtojo tyrinėtoju tyrinėtojus tyrinėtoją tyrinėtojų
+100	4200	striukė	striuke striukes striukių striukėmis striukės striukę

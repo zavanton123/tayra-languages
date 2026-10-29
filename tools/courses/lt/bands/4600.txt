@@ -1,0 +1,100 @@
+1	4501	nuvilti	nuvilia nuvils nuvilsiu nuvyliau nuvylė
+2	4502	bolševikas	bolševikai bolševikais bolševikams bolševikus bolševikų
+3	4503	nedaugelis	nedaugelio nedaugeliui nedaugelį
+4	4504	tądien	
+5	4505	epocha	epochai epochas epochoje epochos epochą epochų
+6	4506	veikalas	veikalai veikale veikalo veikaluose veikalus veikalą veikalų
+7	4507	vaizduojamas	vaizduojama vaizduojami vaizduojamojo vaizduojamos vaizduojamą
+8	4508	užkrėsti	užkrečia užkrės užkrėstų užkrėtė
+9	4509	apdorojimas	apdorojimo apdorojimu apdorojimui apdorojimą
+10	4510	atsiminimas	atsiminimai atsiminimais atsiminimuose atsiminimus atsiminimų
+11	4511	lankytis	
+12	4512	prancūziškas	prancūziška prancūziškam prancūziškame prancūziški prancūziško prancūziškos prancūzišku prancūziškus prancūzišką prancūziškų
+13	4513	ožka	ožkai ožkas ožkomis ožkoms ožkos ožką ožkų
+14	4514	penkiasdešimt	penkiasdešimties penkiasdešimtyje penkiasdešimčiai
+15	4515	diskutuoti	diskutavo diskutavome diskutuodavo diskutuoja diskutuojame diskutuos diskutuosime
+16	4516	pritrūkti	pritrūkdavo pritrūko pritrūkome pritrūks pritrūksta pritrūktų
+17	4517	gailėti	gaili gailiesi gailiuosi gailėdavausi gailėjo gailėkis gailėsiesi gailėsiuosi gailėtumeisi gailėčiausi tesigaili
+18	4518	vestuvinis	vestuvine vestuvines vestuviniai vestuvinio vestuviniu vestuvinius vestuvinių vestuvinė vestuvinės vestuvinę vestuvinį
+19	4519	biografija	biografijas biografijoje biografijomis biografijos biografijose biografiją biografijų
+20	4520	perspėjimas	perspėjimai perspėjimo perspėjimus perspėjimą perspėjimų
+21	4521	pokaris	pokario pokariu pokaryje pokarį
+22	4522	kyšis	kyšiai kyšio kyšius kyšių kyšį
+23	4523	daržas	daržai daržais daržams darže daržo daržu daržui daržuose daržus daržą daržų
+24	4524	apsaugotas	apsaugota apsaugotoje apsaugotos apsaugotą
+25	4525	nešiojamas	nešiojama nešiojamais nešiojamasis nešiojami nešiojamieji nešiojamojo nešiojamos nešiojamu nešiojamuoju nešiojamuosius nešiojamus nešiojamą nešiojamąjį nešiojamų nešiojamųjų
+26	4526	nusivylimas	nusivylimai nusivylimo nusivylimu nusivylimui nusivylimus nusivylimą nusivylimų
+27	4527	himnas	himnai himnams himno himnu himnui himnuose himnus himną himnų
+28	4528	pademonstruoti	pademonstravo pademonstruoja pademonstruos
+29	4529	aukoti	aukodavo aukoja aukojame aukojate aukoji aukojo aukoju aukotų
+30	4530	degalinė	degalines degalinių degalinėje degalinės degalinėse degalinę
+31	4531	apribotas	apribota apribotos
+32	4532	malka	malkas malkomis malkoms malkos malką malkų
+33	4533	siuntinys	siuntiniai siuntinio siuntiniu siuntinius siuntinių siuntinį
+34	4534	geba	gebos
+35	4535	diagnozuotas	diagnozuota
+36	4536	malonė	malonei malonių malonėje malonę
+37	4537	pretendentas	pretendentai pretendentais pretendentams pretendento pretendentu pretendentui pretendentus pretendentų
+38	4538	airis	airi airiai airiais airiams airio airiu airiui airius airių
+39	4539	rastis	rados radosi randasi rasis rastųsi
+40	4540	nuodingas	nuodinga nuodingais nuodingi nuodingo nuodingoji nuodingomis nuodingos nuodingosios nuodingu nuodingą nuodingąjį nuodingų nuodingųjų
+41	4541	susprogdinti	susprogdina susprogdino susprogdins
+42	4542	mėnesinis	mėnesines mėnesiniai mėnesinio mėnesinius mėnesinių mėnesinė mėnesinės mėnesinę mėnesinį
+43	4543	pretenzija	pretenzijas pretenzijomis pretenzijoms pretenzijos pretenziją pretenzijų
+44	4544	pritarimas	pritarimo pritarimu pritarimą
+45	4545	apeiti	apeidavo apeina apeinu apeis apeitų apėjau apėjo
+46	4546	asistentas	asistentai asistentais asistente asistento asistentu asistentui asistentą asistentų
+47	4547	darbuotis	darbavausi darbavosi darbuojamės darbuojasi darbuojuosi darbuosis
+48	4548	loterija	loterijas loterijoje loterijos loteriją loterijų
+49	4549	bandelė	bandele bandeles bandelių bandelės bandelėse bandelę
+50	4550	segmentas	segmentai segmente segmento segmentui segmentuose segmentus segmentą segmentų
+51	4551	draugauti	draugauja draugaujam draugaujame draugauju draugaus draugavau draugavo draugavom draugavome
+52	4552	ribojamas	ribojama ribojami ribojamos ribojamų
+53	4553	banditas	banditai banditais banditams bandito banditu banditus banditą banditų
+54	4554	apsupti	apsupa apsupo apsups apsuptų
+55	4555	auklėjimas	auklėjime auklėjimo auklėjimu auklėjimui auklėjimą
+56	4556	padėka	padėkas padėkomis padėką padėkų
+57	4557	išplisti	išplinta išplis išplistų išplito
+58	4558	varis	vari vario varį
+59	4559	žarnynas	žarnyne žarnyno žarnynu žarnynui žarnyną
+60	4560	baimintis	baiminamės baiminasi baiminatės baiminausi baiminomės baiminosi baiminuosi
+61	4561	įmesti	įmes įmesdavo įmeskite įmestų įmeta įmetė
+62	4562	išaiškinti	išaiškina išaiškino išaiškins išaiškintų
+63	4563	įprastinis	įprastine įprastiniai įprastinio įprastiniu įprastinių įprastinė įprastinėmis įprastinės įprastinę įprastinį
+64	4564	barjeras	barjerai barjerais barjero barjeru barjerui barjerus barjerą barjerų
+65	4565	akumuliatorius	akumuliatoriai akumuliatoriais akumuliatoriaus akumuliatoriumi akumuliatoriuose akumuliatorių
+66	4566	hobis	hobi hobiai hobiais hobiams hobio hobiu hobiui hobiuose hobius hobių hobyje hobį
+67	4567	bajoras	bajorai bajorams bajorienė bajoro bajoru bajorus bajorą bajorų
+68	4568	morka	morkai morkas morkomis morkoms morkos morkose morką
+69	4569	mafija	mafijai mafijos mafiją
+70	4570	streikas	streikai streikais streikams streike streiko streiku streikui streikus streiką streikų
+71	4571	nepriekaištingas	nepriekaištinga nepriekaištingai nepriekaištingi nepriekaištingo nepriekaištingos nepriekaištingą
+72	4572	kitąmet	
+73	4573	rėmas	rėmai rėmo rėmu rėmuose rėmus rėmą rėmų
+74	4574	sulaikymas	sulaikymai sulaikymo sulaikymui sulaikymus sulaikymą sulaikymų
+75	4575	nešiotas	nešioti nešiotų
+76	4576	tikslumas	tikslumo tikslumu tikslumą
+77	4577	finišas	finišas finiše finišo finišą
+78	4578	atspaudas	atspaudai atspaudais atspaudo atspaudu atspaudus atspaudą atspaudų
+79	4579	patirtas	patirtais patirto patirtos patirtus patirtą
+80	4580	kelnaitės	kelnaites kelnaitėmis kelnaičių
+81	4581	tempti	tempia tempk tempė
+82	4582	rauti	raudamas rauk rauki rauna rauni raus rautų rovė
+83	4583	snaiperis	snaiperiai snaiperio snaiperiu snaiperius snaiperių snaiperį
+84	4584	įteiktas	įteikta įteiktos
+85	4585	apsuptas	apsupta apsuptai apsuptam apsuptame apsupto apsuptoje apsuptos apsuptą
+86	4586	sauga	saugai saugas saugos saugą
+87	4587	kristalas	kristalai kristalais kristalo kristalus kristalų
+88	4588	intensyvumas	intensyvumo intensyvumu intensyvumui intensyvumą
+89	4589	bendradarbis	bendradarbiai bendradarbiais bendradarbiams bendradarbio bendradarbiu bendradarbiui bendradarbius bendradarbių bendradarbį
+90	4590	užkariauti	užkariauja užkariaujam užkariaus užkariausi užkariausim užkariausime užkariausiu užkariauta užkariautas užkariautum užkariautų užkariavau užkariavo užkariavom užkariavęs
+91	4591	vienatvė	vienatve vienatvėje vienatvės vienatvę
+92	4592	jogas	joga jogai jogos jogą
+93	4593	nelaisvė	nelaisvėje nelaisvės nelaisvę
+94	4594	investicinis	investicine investicinei investicines investiciniai investiciniais investiciniam investiciniams investicinio investiciniu investicinius investicinių investicinė investicinėje investicinės investicinę investicinį
+95	4595	barzda	barzdas barzdoje barzdomis barzdos barzdą barzdų
+96	4596	gelmė	gelme gelmes gelmių gelmėje gelmės gelmėse gelmę
+97	4597	narvas	narve narvo narvuose narvus narvų
+98	4598	smiltynė	smiltynėje smiltynės smiltynę
+99	4599	išteklius	ištekliams
+100	4600	lošimas	lošimai lošimais lošimo lošimus lošimą lošimų

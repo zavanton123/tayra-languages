@@ -1,0 +1,100 @@
+1	5001	vaidinimas	vaidinimai vaidinime vaidinimo vaidinimu vaidinimus vaidinimą vaidinimų
+2	5002	nepalankus	nepalankaus nepalanki nepalankia nepalankiai nepalankias nepalankioje nepalankiomis nepalankioms nepalankios nepalankiu nepalankius nepalankią nepalankių nepalanku nepalankūs nepalankų
+3	5003	egzotiškas	egzotiška egzotiškai egzotiškais egzotiškame egzotiškesnių egzotiški egzotiškiausių egzotiško egzotiškoje egzotiškomis egzotiškos egzotiškose egzotiškosios egzotišku egzotiškuose egzotiškus egzotišką egzotiškąją egzotiškų
+4	5004	importas	importo importu importui importą
+5	5005	pasitarnauti	pasitarnauja pasitarnaus pasitarnautų pasitarnavo
+6	5006	keturiasdešimt	keturiasdešimties
+7	5007	maistinis	maistine maistines maistiniai maistinių maistinė maistinėmis maistinės maistinę
+8	5008	rūkymas	rūkymo rūkymui rūkymą
+9	5009	solistas	solistai solistais soliste solisto solistu solistui solistus solistą solistų
+10	5010	darbovietė	darboviete darbovietei darbovietes darbovietėje darbovietėms darbovietės darbovietėse darbovietę darboviečių
+11	5011	delfinas	delfinai delfinais delfinams delfine delfino delfinus delfiną delfinų
+12	5012	įsidarbinti	įsidarbina įsidarbinau įsidarbino įsidarbins
+13	5013	komunalinis	komunalines komunaliniai komunalinio komunalinius komunalinių komunalinėms komunalinės komunalinį
+14	5014	sklandyti	sklando sklandė sklandžiau
+15	5015	pupa	pupas pupomis pupos pupą pupų
+16	5016	vena	venas venomis venos venose veną venų
+17	5017	gynimas	gynimo gynimui gynimą
+18	5018	rutina	rutinoje rutinos rutiną
+19	5019	opozicinis	opozicine opozicinei opozicines opoziciniai opozicinio opozicinių opozicinė opozicinėmis opozicinės opozicinę opozicinį
+20	5020	spalvingas	spalvinga spalvingais spalvingame spalvingesnis spalvingi spalvingiau spalvingo spalvingomis spalvingos spalvingu spalvingus spalvingą spalvingų
+21	5021	tuoktis	tuokdavosi tuokiamės tuokiasi tuokiatės tuoksimės tuoksis tuokėmės tuokėsi
+22	5022	švenčiamas	švenčiama švenčiami švenčiamos švenčiamą
+23	5023	žalingas	žalinga žalingai žalingais žalingi žalingiems žalingo žalingos žalingu žalingus žalingą žalingų
+24	5024	sučiupti	sučiumpa sučiupo sučiuptų
+25	5025	begalinis	begaline begalinei begalines begaliniai begaliniame begalinio begaliniu begalinius begalinių begalinė begalinėje begalinėmis begalinės begalinę begalinį
+26	5026	labirintas	labirintai labirintais labirinte labirinto labirintu labirintuose labirintus labirintą
+27	5027	kalibras	kalibro
+28	5028	raitelis	raiteliai raitelio raiteliu raitelius raitelių raitelį
+29	5029	sintezė	sinteze sintezei sintezės sintezę
+30	5030	nepatenkintas	nepatenkinta nepatenkinto nepatenkintos nepatenkintus nepatenkintą nepatenkintųjų
+31	5031	rikiuotė	rikiuotėje rikiuotės rikiuotę
+32	5032	pasamdyti	pasamdo pasamdytų pasamdė
+33	5033	nubaustas	nubausta nubaustos nubaustųjų
+34	5034	atspindys	atspindį atspindžiai atspindžiais atspindžio atspindžius atspindžių
+35	5035	snukis	snuki snukiai snukio snukiu snukiui snukius snukių snukyje snukį
+36	5036	suinteresuotas	suinteresuota suinteresuoti suinteresuotiems suinteresuotomis suinteresuotoms suinteresuotos suinteresuotus suinteresuotų suinteresuotųjų
+37	5037	palinkėti	palinki palinkėjau palinkėjo palinkėkite palinkėsiu palinkėtų palinkėčiau
+38	5038	vaga	vagai vagas vagoje vagos vagą vagų
+39	5039	žandikaulis	žandikauliai žandikauliais žandikaulio žandikauliu žandikaulių žandikaulyje žandikaulį
+40	5040	vyšnia	vyšnias vyšnioje vyšniomis vyšnios vyšnią vyšnių
+41	5041	trylika	trylikoje trylikos
+42	5042	įžūlus	įžūlaus įžūlesni įžūli įžūliai įžūliais įžūliu įžūlius įžūlią įžūlių įžūlu įžūlūs įžūlų
+43	5043	riaušės	riaušes riaušių riaušėmis riaušėse
+44	5044	emigracija	emigracijai emigracijoje emigracijos emigraciją emigracijų
+45	5045	pasišalinti	pasišalina pasišalino pasišalins pasišalintų
+46	5046	nuosmukis	nuosmuki nuosmukiai nuosmukio nuosmukiu nuosmukių nuosmukį
+47	5047	nuteisti	nuteis nuteisdamas nuteisia nuteisiamas nuteisiate nuteisiau nuteisiu nuteisk nuteistų nuteisus nuteisė nuteisėte
+48	5048	neteisus	neteisi neteisia neteisūs
+49	5049	palyginimas	palyginimai palyginimais palyginimo palyginimui palyginimą palyginimų
+50	5050	nuosekliai	
+51	5051	išspręstas	išspręsta išspręstos
+52	5052	spūstis	spūsties spūstims spūstyje spūstys spūstyse spūstį spūsčių
+53	5053	kultas	kultai kulto kultu kultą kultų
+54	5054	bendražygis	bendražygiai bendražygiais bendražygiams bendražygio bendražygiu bendražygius bendražygių bendražygį
+55	5055	gaminimas	gaminimo gaminimu gaminimui gaminimą
+56	5056	išsisukti	išsisuka išsisukau išsisuko išsisuks
+57	5057	angliškas	angliška angliškais angliškam angliški angliško angliškoje angliškojo angliškomis angliškos anglišku angliškus anglišką angliškąjį angliškų
+58	5058	bazilika	bazilikai bazilikas bazilikoje bazilikos baziliką bazilikų
+59	5059	krovininis	krovininiai krovininiais krovininiam krovininiame krovininio krovininiu krovininius krovininių krovininės krovininį
+60	5060	ištrauka	ištraukas ištraukoje ištraukos ištraukose ištrauką ištraukų
+61	5061	terorizmas	terorizmo terorizmu terorizmui terorizmą
+62	5062	vaizduoti	vaizdavo vaizduoja vaizduos
+63	5063	era	erai eroje eros erą
+64	5064	statistinis	statistiniai statistiniais statistinio statistinius statistinių statistinė statistinės statistinę statistinį
+65	5065	patinas	patinams patine patino patinu patinui patinus patinų
+66	5066	sinagoga	sinagogas sinagogoje sinagogos sinagogose sinagogą sinagogų
+67	5067	kalavijas	kalavijai kalavijais kalavijo kalaviju kalavijus kalaviją kalavijų
+68	5068	alkoholinis	alkoholiniai alkoholiniais alkoholiniams alkoholinio alkoholinius alkoholinių alkoholinės
+69	5069	izoliuotas	izoliuota izoliuotai izoliuotame izoliuotoje izoliuotos izoliuotus izoliuotą
+70	5070	dramatiškas	dramatiška dramatiškai dramatiškais dramatiškesnė dramatiški dramatiškiau dramatiškiausių dramatiško dramatiškomis dramatiškos dramatišku dramatiškus dramatišką dramatiškų
+71	5071	nustebęs	nustebusi nustebę
+72	5072	narkomanas	narkomanai narkomanais narkomanams narkomano narkomanu narkomanui narkomanus narkomaną narkomanų
+73	5073	sumanyti	sumaniau sumanys sumanytų sumanė sumanėme sumanėte
+74	5074	didinimas	didinimo didinimu didinimui didinimą
+75	5075	nužudęs	nužudę nužudžius nužudžiusi nužudžiusiam nužudžiusio nužudžiusį
+76	5076	prisijungimas	prisijungimo prisijungimui prisijungimus prisijungimą prisijungimų
+77	5077	raktelis	rakteliai rakteliais raktelio raktelius raktelių raktelį
+78	5078	ventiliacija	ventiliacijai ventiliacijos ventiliaciją
+79	5079	apsisukti	apsisuka apsisukau apsisuko apsisuks
+80	5080	pjūklas	pjūklai pjūklais pjūklo pjūklu pjūklus pjūklą pjūklų
+81	5081	dirigentas	dirigentai dirigentais dirigento dirigentu dirigentui dirigentą dirigentų
+82	5082	atletas	atletai atletais atletams atlete atleto atletu atletui atletus atletą atletė atletų
+83	5083	pakartotinis	pakartotinei pakartotiniai pakartotiniam pakartotiniame pakartotiniams pakartotinio pakartotinius pakartotinių pakartotinė pakartotinės pakartotinę pakartotinį
+84	5084	išvežtas	išvežta išvežtos
+85	5085	rimti	rimsta rimus
+86	5086	autas	auto autą
+87	5087	nudėtas	nudėti
+88	5088	pakelis	pakeliai pakeliais pakelio pakeliuose pakelius pakelyje pakelį
+89	5089	pakabinti	pakabina pakabinau pakabinkite pakabino pakabinome pakabinsime pakabintų
+90	5090	tvirtinamas	tvirtinama tvirtinami tvirtinamos tvirtinamą
+91	5091	animacinis	animaciniai animaciniais animaciniame animacinio animacinius animacinių animacinė animacinės animacinį
+92	5092	rentgenas	rentgeno rentgenu rentgeną
+93	5093	neeilinis	neeiline neeilines neeiliniai neeiliniais neeiliniam neeiliniame neeilinio neeilinius neeilinių neeilinė neeilinėje neeilinės neeilinę neeilinį
+94	5094	skambesys	skambesio skambesiu skambesius skambesį
+95	5095	skaidrumas	skaidrumo skaidrumu skaidrumui skaidrumą
+96	5096	darbotvarkė	darbotvarke darbotvarkei darbotvarkes darbotvarkių darbotvarkėje darbotvarkės darbotvarkę
+97	5097	solidus	solidaus solidesnio solidesnis solidi solidu solidūs solidų solidžiai solidžias solidžios solidžiu solidžią solidžių
+98	5098	lieptas	liepta liepti liepto lieptą lieptų
+99	5099	zombis	zombi zombiai zombiais zombio zombiu zombiui zombius zombių zombį
+100	5100	palmė	palme palmes palmių palmėmis palmės palmę

@@ -1,0 +1,100 @@
+1	9901	apsireiškimas	apsireiškimo
+2	9902	pajuoka	pajuokos pajuokų
+3	9903	bučkis	bučkį
+4	9904	bybis	bybiai bybio bybiu bybių bybį
+5	9905	meilutis	meilutė
+6	9906	suardyti	suardo suardė
+7	9907	plovykla	plovyklas plovykloje plovyklos plovyklą
+8	9908	montuoti	montavo montuoja
+9	9909	gorila	gorilos gorilų
+10	9910	mūvėti	mūvi mūvėjo mūvėkite
+11	9911	giedojimas	giedojimo giedojimu giedojimą
+12	9912	valytis	
+13	9913	žydiškas	žydiška žydiško žydiškos žydišką žydiškų
+14	9914	nusiųstas	nusiųsta nusiųstos
+15	9915	narcizas	narcizai narcizus narcizų
+16	9916	pervestas	pervesta pervestos pervestus
+17	9917	giminingas	gimininga giminingi giminingos giminingą giminingų
+18	9918	pompa	pompos pompą
+19	9919	prisitaikymas	prisitaikymo prisitaikymą
+20	9920	įžiebimas	įžiebimo įžiebimą
+21	9921	aristokratas	aristokratai aristokratams aristokratų
+22	9922	laistyti	laisto laistykite laistys laistė
+23	9923	laužti	laužia laužė
+24	9924	keitimasis	keitimosi keitimąsi
+25	9925	sutvirtintas	sutvirtinta sutvirtintos
+26	9926	praba	prabos
+27	9927	nuginkluoti	nuginklavo nuginkluoja
+28	9928	plepėti	plepa plepėjo
+29	9929	pelningumas	pelningumo pelningumą
+30	9930	išgarsinti	išgarsino
+31	9931	sausakimšas	sausakimša sausakimšai sausakimšame sausakimšos
+32	9932	linksminti	linksmina linksmindavo linksmino linksmins
+33	9933	monarchija	monarchijai monarchijos monarchiją
+34	9934	pagirios	pagirias pagiriomis pagirioms
+35	9935	atlasas	atlaso atlasą
+36	9936	milicininkas	milicininkai milicininko milicininkui milicininkus milicininkų
+37	9937	pasitempti	pasitempiau pasitempė
+38	9938	spyruoklė	spyruoklės
+39	9939	sveikintis	sveikinasi sveikinosi
+40	9940	įkurdinti	įkurdino
+41	9941	pervertinti	pervertina pervertinamas pervertinat pervertinau pervertini pervertino pervertinot pervertinta pervertintas pervertintos
+42	9942	amaras	amalai amalas amalą amarai amarų
+43	9943	anonimas	anonimai anonimais anonimo anonimu anonimų
+44	9944	plikledis	plikledžio
+45	9945	persirgti	perserga persirgo
+46	9946	kenkėjiškas	kenkėjiški kenkėjiško kenkėjiškus kenkėjišką kenkėjiškų
+47	9947	neatitinkantis	neatitinkanti neatitinkančiais neatitinkančias neatitinkančio neatitinkančios neatitinkančiu neatitinkančius neatitinkančių
+48	9948	šluoti	šlavė šlavėme šluoja šluojamas šluojami šluoji šluok šluosi šluotas šluote šluotų
+49	9949	sutrinti	sutriname sutrinkite sutrintų
+50	9950	odelė	odele odelės odelę
+51	9951	tarimas	tarimo tarimu tarimą
+52	9952	skrodimas	skrodimo skrodimą
+53	9953	infekuoti	infekuotų
+54	9954	nubalsuoti	nubalsavo nubalsuos
+55	9955	desperatiškas	desperatiškai desperatiški desperatiškus
+56	9956	grotos	grotomis
+57	9957	kramtomas	kramtoma kramtomoji kramtomos kramtomosios kramtomą kramtomąją
+58	9958	gotas	gotai gotų
+59	9959	paklusnumas	paklusnumo paklusnumu paklusnumą
+60	9960	iškrova	iškrovos iškrovą
+61	9961	suodžiai	suodžiais suodžius suodžių
+62	9962	pakartas	
+63	9963	tūzas	tūzai tūze tūzu tūzus tūzą
+64	9964	katekizmas	katekizme katekizmo katekizmą
+65	9965	burbėti	burba burbi burbu burbėjo burbės
+66	9966	užmaskuoti	užmaskavo užmaskuoja užmaskuotų
+67	9967	baigdamas	baigdama baigdami
+68	9968	šifravimas	šifravimo
+69	9969	turiningas	turininga turiningai turiningo turiningos turiningą turiningų
+70	9970	moteriškumas	moteriškumo moteriškumu moteriškumą
+71	9971	primatas	primatai primato primatą primatų
+72	9972	pasidairyti	pasidairykite
+73	9973	nugabentas	nugabenta nugabentos
+74	9974	tobulybė	tobulybės tobulybę
+75	9975	kraunamas	kraunama kraunami kraunamos
+76	9976	legalizuoti	legalizavimas legalizavimo legalizavo
+77	9977	avantiūra	avantiūrai avantiūras avantiūroms avantiūros avantiūrą avantiūrų
+78	9978	karyba	karybos
+79	9979	išskyrimas	išskyrimo išskyrimą
+80	9980	myžti	myš myši myža myžau myži myžk myžu
+81	9981	archyvinis	archyviniai archyviniais archyvinio archyvinius archyvinių archyvinė archyvinės archyvinę archyvinį
+82	9982	sanglauda	sanglaudos sanglaudą
+83	9983	pamotė	pamote pamotės pamotę
+84	9984	medalionas	medalioną
+85	9985	chloridas	chlorido
+86	9986	sukčiauti	sukčiauja sukčiavo
+87	9987	analogija	analogijomis analogijos analogiją analogijų
+88	9988	praraja	prarajos prarają
+89	9989	sulūžti	sulūžo
+90	9990	salyklas	salyklo salyklą
+91	9991	perlipti	perlipau perlipo
+92	9992	flirtuoti	flirtavo flirtuoja
+93	9993	atskubėti	atskuba atskubėjo atskubės
+94	9994	dryžuotas	dryžuota dryžuoti dryžuotą
+95	9995	išvadinti	išvadino išvadins
+96	9996	rezervuotas	rezervuota rezervuotai rezervuotos
+97	9997	lupti	lupa lupo
+98	9998	smukimas	smukimo smukimu smukimą
+99	9999	įtikinėti	įtikinėja įtikinėjo
+100	10000	identifikuotas	identifikuota identifikuotos

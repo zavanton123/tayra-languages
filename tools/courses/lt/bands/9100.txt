@@ -1,0 +1,100 @@
+1	9001	būdelė	būdeles būdelių būdelėje būdelės būdelę
+2	9002	budistas	budistai budistų
+3	9003	pralaužti	pralaužė
+4	9004	meteorologija	meteorologijos
+5	9005	manikiūras	manikiūro manikiūru manikiūrą
+6	9006	tepti	tepa tepk tepkite tepu tepė
+7	9007	ištempti	ištempia ištemps ištempė
+8	9008	vaivadija	vaivadijoje vaivadijos
+9	9009	neišspręstas	neišspręsta neišspręsti neišspręstos neišspręstų
+10	9010	neprotingas	neprotinga neprotingai neprotingi neprotingų
+11	9011	pasisemti	pasisemia pasisėmiau pasisėmė
+12	9012	nardyti	nardo nardė
+13	9013	užsitraukti	užsitraukia užsitrauks užsitraukė
+14	9014	ramstis	ramsčiai ramsčiu
+15	9015	švirkštas	švirkštai švirkšto švirkštu švirkštus švirkštą
+16	9016	užsipulti	užsipuola užsipuolė
+17	9017	presas	preso presu presui presą
+18	9018	girininkija	girininkijoje girininkijos girininkijų
+19	9019	klaidžioti	klaidžioja klaidžiojo
+20	9020	muitininkas	muitininkai muitininkams muitininko muitininkų
+21	9021	prigyti	prigijo prigis prigyja prigytų
+22	9022	bitininkystė	bitininkyste bitininkystei bitininkystės bitininkystę
+23	9023	užverstas	užversta užversti užverstos
+24	9024	medynas	medynai medyne medyno medynuose medynus medynų
+25	9025	išsilaipinti	išsilaipino
+26	9026	korozija	korozijai korozijos
+27	9027	įvykdymas	įvykdymo įvykdymui įvykdymą
+28	9028	gardžia	gardžiais gardžias gardžios gardžiu gardžius gardžią gardžių
+29	9029	sutrikdymas	sutrikdymo sutrikdymu sutrikdymą
+30	9030	skandalingas	skandalinga skandalingai skandalingi skandalingo skandalingoje skandalingos skandalingosios skandalingu skandalingą skandalingąją skandalingų skandalingųjų
+31	9031	ainis	ainiai ainiais ainiams ainiu ainius ainių ainė
+32	9032	paisyti	paisau paiso paisykite paisys paisė
+33	9033	anapilin	
+34	9034	vogtas	vogta vogtais vogtos vogtus vogtą
+35	9035	įmantrus	įmantraus įmantresnių įmantri įmantriai įmantriais įmantrios įmantrius įmantrią įmantrių įmantrūs įmantrų
+36	9036	kelininkas	kelininkai kelininkams kelininkus kelininkų
+37	9037	trenksmas	trenksmo trenksmu trenksmą
+38	9038	disidentas	disidentai disidentais disidento disidentu disidentus disidentų
+39	9039	kurstyti	kursto kurstė
+40	9040	apdraustas	apdrausta apdraustiems apdraustiesiems apdraustos apdraustus apdraustųjų
+41	9041	prailginti	prailgina prailgino
+42	9042	dvokas	dvoko dvoką
+43	9043	susikalbėti	susikalbėtų
+44	9044	tryliktas	trylikta tryliktasis trylikto tryliktoji tryliktos tryliktosios tryliktus tryliktą tryliktąją
+45	9045	nulėkti	nulekia nulėkiau nulėkė
+46	9046	pirmakursis	pirmakursiai pirmakursiams pirmakursius pirmakursių
+47	9047	pogrupis	pogrupio pogrupius pogrupyje
+48	9048	nepamirštamas	nepamirštama nepamirštami nepamirštamos nepamirštamą nepamirštamų
+49	9049	sukritikuoti	sukritikavo
+50	9050	nušokti	nušoka nušoko
+51	9051	įsisavinimas	įsisavinimo įsisavinimui įsisavinimą
+52	9052	skerdykla	skerdyklas skerdykloje skerdyklos skerdyklose skerdyklą skerdyklų
+53	9053	susitelkimas	susitelkime susitelkimo susitelkimą
+54	9054	anaiptol	
+55	9055	atskiriamas	atskiriama atskiriami atskiriamos
+56	9056	probleminis	problemines probleminio probleminius probleminių probleminė probleminės probleminėse probleminę
+57	9057	kiaušidė	kiaušides kiaušidės kiaušidžių
+58	9058	įsižeisti	įsižeidė įsižeidžia įsižeidžiau įsižeis
+59	9059	lituanistika	lituanistikos
+60	9060	trykšti	trykšta tryško
+61	9061	įsirašyti	įsirašė
+62	9062	aguona	aguonas aguonomis aguonos aguonų
+63	9063	prisigerti	prisigeria prisigėrė
+64	9064	sultinys	sultinio sultiniu sultinyje sultinį
+65	9065	sutalpinti	sutalpino
+66	9066	sodrus	sodraus sodri sodriai sodrias sodrios sodrią sodrių sodrų
+67	9067	kuklumas	kuklumo kuklumu kuklumą
+68	9068	išgabentas	išgabenta išgabentos
+69	9069	stropus	stropi stropiai stropiau
+70	9070	pleistras	pleistrai pleistro pleistru pleistrus pleistrą pleistrų
+71	9071	nusišauti	nusišovė
+72	9072	įžiebti	įžiebia įžiebs įžiebė
+73	9073	konfrontacija	konfrontacijai konfrontacijos konfrontaciją
+74	9074	paeiti	paeina
+75	9075	kvailumas	kvailumo kvailumu kvailumui kvailumą
+76	9076	modifikuoti	modifikavo modifikuotų
+77	9077	sliekas	sliekai sliekus slieką sliekų
+78	9078	riešutėlis	riešutėlio riešutėlių
+79	9079	nuėmimas	nuėmimo nuėmimą
+80	9080	diafragma	diafragmos
+81	9081	atmušti	atmuša atmušė
+82	9082	palaužti	palaužtų
+83	9083	riebalinis	riebalines riebaliniame riebalinio riebalinių riebalinės riebalinį
+84	9084	sutramdyti	sutramdytų sutramdė
+85	9085	migrena	migrenos migreną
+86	9086	ateinant	
+87	9087	atgaila	atgailos atgailą
+88	9088	susitraukimas	susitraukimai susitraukimo susitraukimą susitraukimų
+89	9089	aštuoniasdešimt	aštuoniasdešimties
+90	9090	cirkuliacija	cirkuliacijai cirkuliacijoje cirkuliacijos cirkuliaciją
+91	9091	kroatas	kroatai kroatais kroatės kroatų
+92	9092	lietingas	lietinga lietingi lietingo lietingos lietingu lietingą lietingų
+93	9093	porteris	porterio
+94	9094	skersinis	skersinio skersinį
+95	9095	išparduoti	išpardavė išpardavėme išparduoda išparduodame išparduota išparduotas
+96	9096	šliužas	šliužai šliuže šliužo šliužu šliužus šliužų
+97	9097	pranašauti	pranašauja pranašavo
+98	9098	pagirys	pagiriuose pagirių
+99	9099	imtynininkas	imtynininkai imtynininko imtynininkų
+100	9100	nuotaikingas	nuotaikinga nuotaikingai nuotaikingame nuotaikingi nuotaikingos nuotaikingą nuotaikingų

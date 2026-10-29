@@ -1,0 +1,100 @@
+1	2601	ambasadorius	ambasadoriai ambasadoriais ambasadoriams ambasadoriau ambasadoriaus ambasadoriui ambasadoriumi ambasadorių ambasadorė
+2	2602	aktyvumas	aktyvumo aktyvumu aktyvumui aktyvumą
+3	2603	katinas	katinai katinams katine katino katinu katinui katinus katiną katinų
+4	2604	amatas	amatai amatais amatams amato amatu amatui amatus amatą amatų
+5	2605	koncentracija	koncentracijai koncentracijas koncentracijos koncentraciją koncentracijų
+6	2606	intelektas	intelekte intelekto intelektu intelektui intelektą
+7	2607	startas	startai startams starte starto startu startui startuose startus startą startų
+8	2608	pritaikytas	pritaikyta pritaikytais pritaikyto pritaikytoje pritaikytomis pritaikytos pritaikytose pritaikytu pritaikytuose pritaikytus pritaikytą
+9	2609	pralaimėjimas	pralaimėjimai pralaimėjimais pralaimėjimo pralaimėjimu pralaimėjimui pralaimėjimus pralaimėjimą pralaimėjimų
+10	2610	gaudyti	gaudai gaudant gaudantis gaudau gaudei gaudo gaudom gaudomas gaudome gaudydamas gaudydavo gaudydavom gaudydavome gaudyk gaudykim gaudykit gaudykite gaudys gaudysi gaudysim gaudysime gaudysiu gaudytas gaudytum gaudytų gaudyčiau gaudė gaudėm gaudėme gaudę gaudęs gaudžiau gaudžius
+11	2611	kompozitorius	kompozitoriai kompozitoriams kompozitoriaus kompozitoriui kompozitoriumi kompozitorių kompozitorė
+12	2612	raida	raidai raidoje raidos raidą
+13	2613	moneta	monetas monetomis monetoms monetos monetą monetų
+14	2614	dažnis	dažniai dažniais dažnio dažniu dažnius dažnių dažnį
+15	2615	karštis	karšti karštyje karštį karščiai karščiams karščio karščiu karščiui karščius karščių
+16	2616	pagrįstas	pagrįsta pagrįstai pagrįstais pagrįsto pagrįstomis pagrįstos pagrįstus pagrįstą
+17	2617	šautuvas	šautuvai šautuvais šautuvo šautuvu šautuvus šautuvą šautuvų
+18	2618	triukas	triukai triukais triukams triuko triuku triukus triuką triukų
+19	2619	pagrobti	pagrobi pagrobia pagrobiau pagrobiu pagrobk pagrobkim pagrobs pagrobsim pagrobsime pagrobsiu pagrobta pagrobtas pagrobtų pagrobė
+20	2620	užsukti	užsuka užsukame užsukate užsukau užsukdavau užsukdavo užsukite užsuko užsukome užsuks užsuksite užsuktų užsuku
+21	2621	įkūrėjas	įkūrėja įkūrėjai įkūrėjams įkūrėjo įkūrėjos įkūrėju įkūrėjui įkūrėjus įkūrėją įkūrėjų
+22	2622	sieti	sieja siejame siejo siek sieki siekime siekite sies
+23	2623	vystymasis	vystymosi vystymuisi vystymusi vystymąsi
+24	2624	anglis	anglies anglimi anglimis anglims angliu anglyje anglys anglyse anglį
+25	2625	nusipelnyti	nusipelnei nusipelniau nusipelno nusipelnė nusipelnėme nusipelnėte
+26	2626	boba	bobas bobomis boboms bobos bobą bobų
+27	2627	centas	centai centais cente cento centu centus centą centų
+28	2628	direkcija	direkcijai direkcijas direkcijoje direkcijos direkciją direkcijų
+29	2629	lygmuo	lygmenimis lygmenis lygmeniu lygmens lygmenyje lygmenys lygmenyse lygmenį lygmenų
+30	2630	miegamasis	miegamajam miegamajame miegamieji miegamojo miegamuoju miegamuosiuose miegamuosius miegamąjį miegamųjų
+31	2631	kasa	kasai kasas kasoje kasomis kasos kasose kasą kasų
+32	2632	atėmimas	atėmimo atėmimu atėmimą
+33	2633	žiurkė	žiurke žiurkei žiurkes žiurkių žiurkėmis žiurkėms žiurkės žiurkę žiurkų
+34	2634	neįgalus	neįgalaus neįgali neįgaliais neįgaliaisiais neįgaliajam neįgaliam neįgalieji neįgaliems neįgaliesiems neįgaliojo neįgalios neįgaliu neįgaliuosius neįgalius neįgalią neįgalių neįgaliųjų neįgalusis neįgalūs neįgalų neįgalųjį
+35	2635	klaidingas	klaidinga klaidingai klaidingame klaidingi klaidingo klaidingomis klaidingos klaidingu klaidingus klaidingą klaidingų
+36	2636	neužtekti	neužteko neužteks neužtektų neužtenka
+37	2637	tinklalapis	tinklalapiai tinklalapio tinklalapiu tinklalapiui tinklalapiuose tinklalapius tinklalapių tinklalapyje tinklalapį tinklapis
+38	2638	atnaujinimas	atnaujinimai atnaujinimo atnaujinimu atnaujinimui atnaujinimus atnaujinimą atnaujinimų
+39	2639	pamažu	
+40	2640	rūbas	rūbai rūbais rūbams rūbo rūbu rūbus rūbą rūbų
+41	2641	plonas	plona plonai plonais ploname plonasis plonesni plonesnis plonesnius plonesnė plonesnėmis plonesnį ploni ploniausią plono plonoje plonomis plonos plonosios plonu plonus ploną plonąsias plonų
+42	2642	mažutis	mažute mažutė mažutės mažutę mažutį mažučiai mažučio mažučius mažučių
+43	2643	atsisveikinti	atsisveikina atsisveikinai atsisveikinam atsisveikiname atsisveikinant atsisveikinat atsisveikinate atsisveikinau atsisveikindamas atsisveikini atsisveikink atsisveikinkim atsisveikinkime atsisveikinkit atsisveikinkite atsisveikino atsisveikinom atsisveikinome atsisveikinote atsisveikins atsisveikinsi atsisveikinsim atsisveikinsime atsisveikinsit atsisveikinsiu atsisveikintų atsisveikinu atsisveikinus atsisveikinčiau atsisveikinęs
+44	2644	meninis	menine meninei menines meniniai meniniais meniniams meninio meniniu meninius meninių meninė meninėmis meninės meninę meninį
+45	2645	paskyra	paskyras paskyroje paskyromis paskyroms paskyros paskyrose paskyrą paskyrų
+46	2646	atkūrimas	atkūrimo atkūrimu atkūrimui atkūrimą
+47	2647	sankryža	sankryžas sankryžoje sankryžos sankryžose sankryžą sankryžų
+48	2648	trauma	traumai traumas traumomis traumoms traumos traumą traumų
+49	2649	pašnekovas	pašnekovai pašnekovams pašnekovo pašnekovu pašnekovui pašnekovus pašnekovą pašnekovų
+50	2650	mergelė	mergele mergelei mergeles mergelių mergelėms mergelės mergelę
+51	2651	idiotas	idiotai idiotais idioto idiotu idiotų
+52	2652	gerklė	gerkle gerklei gerkles gerklių gerklėje gerklėms gerklės gerklę gerklų
+53	2653	vežti	veža vežė
+54	2654	ruožas	ruožai ruožais ruože ruožo ruožu ruožui ruožuose ruožus ruožą ruožų
+55	2655	karališkas	karališka karališkai karališkajai karališkajame karališkame karališkasis karališkieji karališko karališkoje karališkoji karališkojo karališkojoje karališkos karališkose karališkosiomis karališkosios karališku karališkuoju karališkuose karališkuosiuose karališkuosius karališkus karališką karališkąja karališkąją karališkąjį karališkąsias karališkų karališkųjų
+56	2656	rytojus	rytojaus rytojui rytojų
+57	2657	dalinys	daliniai daliniais daliniams dalinio daliniu daliniui daliniuose dalinius dalinių daliny dalinyje dalinį
+58	2658	lavonas	lavonai lavonais lavonams lavono lavonu lavonui lavonus lavoną lavonų
+59	2659	ritmas	ritmai ritmais ritme ritmo ritmu ritmui ritmus ritmą
+60	2660	prioritetas	prioritetai prioritetais prioritetams prioriteto prioritetu prioritetuose prioritetus prioritetą prioritetų
+61	2661	žmogiškas	žmogiška žmogiškais žmogiškaisiais žmogiškajai žmogiškasis žmogiškesniais žmogiškesnis žmogiški žmogiškiau žmogiškieji žmogiško žmogiškoji žmogiškojo žmogiškomis žmogiškos žmogiškosios žmogišku žmogiškuoju žmogiškuosius žmogiškus žmogišką žmogiškąją žmogiškąjį žmogiškąsias žmogiškų žmogiškųjų
+62	2662	subjektas	subjektai subjektais subjektams subjekto subjektu subjektui subjektuose subjektus subjektą subjektų
+63	2663	kilimas	kilimai kilimais kilimams kilime kilimo kilimu kilimui kilimus kilimą kilimų
+64	2664	tariant	
+65	2665	dama	damai damas damomis damoms damos damą damų
+66	2666	atsiradimas	atsiradimo atsiradimu atsiradimui atsiradimą
+67	2667	banginis	banginiai banginiais banginiams banginio banginiu banginiui banginiuose banginius banginių banginį
+68	2668	panaudotas	panaudota panaudoto panaudotos panaudotus panaudotą
+69	2669	komisariatas	komisariate komisariato komisariatu komisariatui komisariatuose komisariatus komisariatą komisariatų
+70	2670	kančia	kančiai kančias kančioje kančiomis kančioms kančios kančiose kančią kančių
+71	2671	lėlė	lėle lėlei lėles lėlių lėlėje lėlėmis lėlėms lėlės lėlę
+72	2672	revoliucija	revoliucijai revoliucijas revoliucijoje revoliucijos revoliuciją revoliucijų
+73	2673	plisti	plinta plis plistų plito
+74	2674	laidus	laidu laidų
+75	2675	valyti	valant valantis valau valei valiau valius valo valoma valomas valome valydamas valydavo valyk valykite valys valysi valysim valysime valysiu valytum valytų valė valėt
+76	2676	panevėžietis	panevėžietė panevėžietį panevėžiečiai panevėžiečiais panevėžiečiams panevėžiečio panevėžiečiui panevėžiečius panevėžiečių
+77	2677	atkurti	atkuria atkuriame atkurs atkursime atkurtų atkūrė atkūrėme
+78	2678	standartinis	standartine standartines standartiniai standartiniais standartiniam standartiniame standartinio standartiniu standartinius standartinių standartinė standartinėje standartinėmis standartinės standartinę standartinį
+79	2679	vaikelis	vaikeli vaikeliai vaikelio vaikeliu vaikeliui vaikelius vaikelį
+80	2680	siauras	siaura siaurai siaurais siauram siaurame siaure siauresniame siauresnis siauresnė siauresnės siauresnę siauri siauriau siauriausią siauriems siauro siauroje siaurojo siauromis siauros siaurose siauru siaurus siaurą siaurąja siaurąją siaurų
+81	2681	drakonas	drakonai drakonais drakono drakonu drakoną drakonų
+82	2682	kaita	kaitos kaitą
+83	2683	pirštinė	pirštine pirštines pirštinių pirštinėmis pirštinės pirštinę
+84	2684	laužas	laužai laužams lauže laužo laužu laužui laužus laužą laužų
+85	2685	tvarkymas	tvarkymo
+86	2686	prieiga	prieigai prieigas prieigomis prieigoms prieigos prieigose prieigą prieigų
+87	2687	tapatybė	tapatybei tapatybes tapatybių tapatybės tapatybę
+88	2688	pavargti	pavargai pavargau pavargdavome pavargo pavargom pavargome pavargot pavargote pavargs pavargsi pavargsite pavargsta pavargstame pavargstate pavargsti pavargstu pavargtum
+89	2689	emocinis	emocine emocinei emocines emociniai emociniais emociniam emociniame emociniams emocinio emociniu emocinius emocinių emocinė emocinėmis emocinės emocinę emocinį
+90	2690	pasirinktas	pasirinkta pasirinktai pasirinktais pasirinktam pasirinktame pasirinktiems pasirinkto pasirinktoje pasirinktoms pasirinktos pasirinktose pasirinktu pasirinktuose pasirinktus pasirinktą
+91	2691	remtis	remiamės remiasi remiatės remiuosi remkitės remsis remtųsi rėmiausi rėmėsi
+92	2692	tapyba	tapybai tapyboje tapybos tapybą
+93	2693	būtybė	būtybe būtybei būtybes būtybių būtybėmis būtybėms būtybės būtybę
+94	2694	atsiliepti	atsiliepdavo atsiliepia atsilieps atsilieptų atsiliepė
+95	2695	detektyvas	detektyvai detektyvais detektyvams detektyve detektyvo detektyvu detektyvui detektyvus detektyvą detektyvų
+96	2696	svaras	svarai svarais svari svaro svaru svarui svarus svarą svarų
+97	2697	užsiėmęs	užsiėmus užsiėmusi užsiėmusios užsiėmę
+98	2698	panaikinti	panaikina panaikino panaikinome panaikins panaikintų
+99	2699	atgauti	atgauna atgaus atgausime atgausite atgausiu atgautumėte atgautų atgaučiau atgavau atgavo atgavome
+100	2700	šimtmetis	šimtmetyje šimtmetį šimtmečiai šimtmečiais šimtmečiams šimtmečio šimtmečiu šimtmečiui šimtmečius šimtmečių

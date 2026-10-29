@@ -1,0 +1,100 @@
+1	9301	pramušti	pramuša pramušė
+2	9302	sąsiauris	sąsiaurio sąsiauriu sąsiaurius sąsiauryje sąsiaurį
+3	9303	kanoja	kanojomis kanoją kanojų
+4	9304	didmeninis	didmenine didmenines didmeniniai didmeninio didmeninė didmeninėje didmeninės didmeninę
+5	9305	sugriebti	sugriebia sugriebė
+6	9306	eigulys	eiguliai eigulio eigulių
+7	9307	ledynmetis	ledynmetyje ledynmetį ledynmečio ledynmečiu ledynmečiui
+8	9308	užsikabinti	užsikabina užsikabinau užsikabino
+9	9309	išsibarstęs	išsibarstę išsibarsčiusi išsibarsčiusios išsibarsčiusius išsibarsčiusių
+10	9310	levanda	levandomis levandos levandų
+11	9311	praskaidrinti	praskaidrina praskaidrino praskaidrins praskaidrintų
+12	9312	žemuogė	žemuoges žemuogių žemuogėmis žemuogės
+13	9313	sušaudytas	sušaudyta
+14	9314	sankaupa	sankaupas sankaupos sankaupų
+15	9315	kursuoti	kursuoja kursuos
+16	9316	teisena	teisenos teiseną
+17	9317	reikalingumas	reikalingumo reikalingumu reikalingumą
+18	9318	gaivinti	gaivina gaivino gaivins
+19	9319	dienelė	dienelę
+20	9320	tobulumas	tobulumo tobulumu tobulumui tobulumą
+21	9321	išbrauktas	išbraukta išbrauktos
+22	9322	atplėšti	atplėšia atplėšė
+23	9323	šermukšnis	šermukšnio šermukšnių
+24	9324	orgija	orgijai orgijas orgijoje orgijomis orgijos orgijose orgiją
+25	9325	tūnoti	tūno tūnojo
+26	9326	kupė	
+27	9327	drenažas	drenažo drenažą
+28	9328	daugiavaikis	daugiavaike daugiavaikes daugiavaikių daugiavaikė daugiavaikėje daugiavaikėms daugiavaikės daugiavaikę
+29	9329	demaskuoti	demaskavo demaskuoja
+30	9330	autostrada	autostradoje autostradomis autostrados autostradą autostradų
+31	9331	meistriškas	meistriška meistriškai
+32	9332	fortūna	fortūnos fortūną
+33	9333	sodinamas	sodinama sodinami sodinamos
+34	9334	gilė	gile giles gilės gilę
+35	9335	pajungtas	pajungta pajungti
+36	9336	memorandumas	memorandume memorandumo memorandumą
+37	9337	arogantiškas	arogantiška arogantiškai arogantiški arogantišku arogantišką arogantiškų
+38	9338	šlakelis	šlakelio šlakeliu šlakelį
+39	9339	suniokoti	suniokoja suniokojo
+40	9340	džemas	džemo džemu džemą
+41	9341	iškaba	iškabas iškabos iškabose iškabą iškabų
+42	9342	paskuba	paskubomis
+43	9343	pėdkelnės	pėdkelnes pėdkelnių
+44	9344	atestatas	atestatai atestato atestatus atestatą atestatų
+45	9345	birti	byra
+46	9346	pamalonintas	pamaloninta
+47	9347	amžininkas	amžininkai amžininkų
+48	9348	cisterna	cisternas cisternos cisternose cisterną cisternų
+49	9349	išraiškingas	išraiškinga išraiškingai išraiškingais išraiškingi išraiškingo išraiškingos išraiškingą
+50	9350	primesti	primestų primeta primetė
+51	9351	rampa	rampos rampų
+52	9352	gubernija	gubernijoje gubernijos
+53	9353	fiksavimas	fiksavimo fiksavimui fiksavimą
+54	9354	kedras	kedro kedrų
+55	9355	ciklonas	ciklonai ciklono ciklonui cikloną ciklonų
+56	9356	užtvindyti	užtvindo užtvindys užtvindė
+57	9357	pasikonsultuoti	pasikonsultuokite
+58	9358	rotacija	rotacijai rotacijos rotaciją
+59	9359	aukštuomenė	aukštuomenei aukštuomenės
+60	9360	išugdyti	išugdytų išugdė
+61	9361	posmas	posmai posmus posmą posmų
+62	9362	krapas	krapai krapais krapo krapus krapų
+63	9363	anuliuoti	anuliavo
+64	9364	perkrautas	perkrauta perkrautos
+65	9365	stabilizatorius	stabilizatoriai stabilizatorių
+66	9366	nevalgus	nevalgiau
+67	9367	kraupus	kraupaus kraupi kraupiai kraupios kraupią kraupu kraupūs kraupų
+68	9368	rimtis	rimos rimties rimtį
+69	9369	faktūra	faktūras faktūromis faktūros faktūrą faktūrų
+70	9370	giedra	giedromis giedros giedrą
+71	9371	paupys	paupio paupiuose paupių paupyje
+72	9372	aspirinas	aspirino aspirinui aspiriną
+73	9373	streikuoti	streikavo streikuoja
+74	9374	spaudinys	spaudiniai spaudinius spaudinių
+75	9375	patyrinėti	
+76	9376	slaptumas	slaptumo slaptumą
+77	9377	rangas	rangą
+78	9378	atsitraukimas	atsitraukimo atsitraukimą
+79	9379	skraistė	skraiste skraistės skraistę
+80	9380	gluosnis	gluosniai gluosnio gluosniu gluosnių
+81	9381	naktinėti	naktinės
+82	9382	lėtėti	lėtėja
+83	9383	magnatas	magnato magnatu magnatui magnatą magnatų
+84	9384	pintas	pinta pintos pintą
+85	9385	rėmelis	rėmeliai rėmeliais rėmelio rėmelius rėmelių rėmelį
+86	9386	apkeliauti	apkeliaučiau apkeliavai apkeliavau apkeliavo apkeliavome apkeliavęs
+87	9387	suvaržyti	suvaržo suvaržys suvaržė
+88	9388	žibėti	žiba žibėjo žibės
+89	9389	baklažanas	baklažanai baklažanais baklažano baklažanuose baklažanus baklažaną baklažanų
+90	9390	ciniškas	ciniška ciniškai ciniški ciniško ciniškos ciniškų
+91	9391	šaškė	šaškių šaškėmis
+92	9392	užtaisytas	užtaisytu užtaisytą
+93	9393	kvailioti	kvailioja
+94	9394	protezas	protezai protezais protezo protezu protezus protezą protezų
+95	9395	jutimas	jutimai jutimo
+96	9396	pražūti	pražus pražuvai pražuvo pražuvęs pražūna pražūsi pražūsim pražūsime
+97	9397	išsprūsti	išsprūdo išsprūsta
+98	9398	voratinklis	voratinkliai voratinklio voratinklius voratinklių voratinklyje voratinklį
+99	9399	inteligentija	inteligentijos
+100	9400	kailiniai	kailiniams kailinius

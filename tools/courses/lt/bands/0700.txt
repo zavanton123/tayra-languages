@@ -1,0 +1,100 @@
+1	601	berniukas	berniukai berniukais berniukams berniuke berniuko berniuku berniukui berniukus berniuką berniukų
+2	602	autorius	autoriai autoriais autoriams autoriau autoriaus autoriui autoriumi autorių autorė autorės
+3	603	bijoti	bijai bijant bijantis bijau bijo bijodamas bijodavau bijodavo bijojai bijojau bijojo bijojom bijojome bijojot bijojote bijok bijokime bijokit bijokite bijom bijomas bijome bijos bijosi bijosime bijosite bijosiu bijot bijote bijotum bijotų bijočiau
+4	604	rungtynės	rungtynes rungtynių rungtynėmis rungtynėms rungtynėse
+5	605	itin	
+6	606	ponia	ponias ponioms ponios ponią
+7	607	eilė	eile eilei eiles eilių eilėje eilėmis eilės eilėse eilę
+8	608	gegužė	geguže gegužei gegužių gegužės gegužę
+9	609	rinka	rinkai rinkas rinkoje rinkomis rinkoms rinkos rinkose rinką rinkų
+10	610	atsitikti	atsitik atsitikdavo atsitikime atsitiko atsitiks atsitiksi atsitiktinai atsitiktų atsitikus atsitinka atsitinkant
+11	611	transportas	transportai transporte transporto transportu transportui transportą
+12	612	balsas	balsai balsais balsams balse balso balsu balsui balsuose balsus balsą balsų
+13	613	kūrinys	kūriniai kūriniais kūriniams kūrinio kūriniu kūriniui kūriniuose kūrinius kūrinių kūrinyje kūrinį
+14	614	milijonas	milijonai milijonais milijonams milijono milijonu milijonui milijonus milijoną milijonų
+15	615	laimingas	laiminga laimingai laimingais laimingam laimingasis laimingesne laimingesni laimingesnis laimingesniu laimingesnius laimingesnių laimingesnė laimingesnės laimingesnę laimingesnį laimingi laimingiausi laimingiausia laimingiausias laimingiausios laimingiausiu laimingiausią laimingiausių laimingieji laimingiems laimingo laimingoji laimingojo laimingos laimingosioms laimingosios laimingu laiminguoju laiminguosius laimingus laimingą laimingąją laimingų laimingųjų
+16	616	juodas	juodai juodais juodaisiais juodajai juodajam juodajame juodam juodame juodasis juodesnis juodesnė juodi juodieji juodiems juodo juodoje juodoji juodojo juodojoje juodos juodosiomis juodosios juodosiose juodu juoduoju juoduosiuose juoduosius juodus juodą juodąja juodąją juodąjį juodąsias juodųjų juodžiau juodžiausia juodžiausias juodžiausios juodžiausią
+17	617	šiol	
+18	618	vadovauti	vadovaudamas vadovauja vadovaujam vadovaujama vadovaujamas vadovaujame vadovaujant vadovaujanti vadovaujantiems vadovaujantis vadovaujantys vadovaujančiam vadovaujančias vadovaujančio vadovaujančios vadovaujančiose vadovaujančiu vadovaujančią vadovaujančių vadovaujate vadovauji vadovauju vadovauk vadovaus vadovausi vadovausiantis vadovausim vadovausime vadovausit vadovausite vadovausiu vadovautum vadovautų vadovaučiau vadovavai vadovavau vadovavo vadovavote vadovavęs
+19	619	judėti	juda judam judame judant judantis judat judate judi judu judėdama judėdamas judėdami judėdavo judėjai judėjau judėjo judėjome judėjęs judėk judėkim judėkime judėkit judėkite judės judėsi judėsim judėsime judėsit judėsite judėsiu judėtum judėtume judėtų
+20	620	birželis	birželi birželio birželiu birželiui birželyje birželį
+21	621	šaltinis	šaltini šaltiniai šaltiniais šaltiniams šaltinio šaltiniu šaltiniui šaltiniuose šaltinius šaltinių šaltinyje šaltinį
+22	622	maždaug	
+23	623	laisvas	laisva laisvais laisvajame laisvam laisvasis laisvesnes laisvesni laisvesnis laisvesnė laisvesnę laisvesnį laisvi laisviau laisvieji laisviems laisviesiems laisvo laisvoje laisvoji laisvojo laisvojoje laisvoms laisvos laisvosios laisvu laisvuoju laisvuosius laisvus laisvą laisvąją laisvąjį laisvų laisvųjų
+24	624	lėktuvas	lėktuvai lėktuvais lėktuvams lėktuve lėktuvo lėktuvu lėktuvui lėktuvuose lėktuvus lėktuvą lėktuvų
+25	625	tipas	tipai tipais tipams tipo tipu tipui tipus tipą tipų
+26	626	balandis	balandi balandį balandžiai balandžiais balandžio balandžiu balandžiui balandžius balandžių
+27	627	sėdėti	sėdi sėdim sėdimas sėdime sėdimų sėdintis sėdit sėdite sėdėdavai sėdėdavau sėdėdavo sėdėdavom sėdėdavome sėdėjai sėdėjau sėdėjo sėdėjom sėdėjome sėdėjot sėdėjote sėdėjęs sėdėk sėdėkim sėdėkit sėdėkite sėdės sėdėsi sėdėsim sėdėsime sėdėsit sėdėsite sėdėsiu sėdėtum sėdėtume sėdėtumėt sėdėtų sėdėčiau sėdžiu
+28	628	vykdyti	vykdai vykdant vykdantis vykdau vykdei vykdo vykdom vykdomas vykdome vykdot vykdote vykdydamas vykdydavo vykdyk vykdykim vykdykit vykdykite vykdymas vykdys vykdysi vykdysim vykdysime vykdysit vykdysite vykdysiu vykdytas vykdytum vykdytų vykdė vykdėm vykdėme vykdėte vykdęs vykdžiau
+29	629	objektas	objektai objektais objektams objekte objekto objektu objektui objektuose objektus objektą objektų
+30	630	sektis	sekas sekasi sekdavosi sekos seksis sektųsi sekėsi
+31	631	daugybė	daugybe daugybei daugybes daugybėje daugybės daugybę
+32	632	klientas	klientai klientais klientams kliente kliento klientu klientui klientus klientą klientė klientų
+33	633	lapkritis	lapkritį lapkričio lapkričiui
+34	634	pavadinimas	pavadinimai pavadinimais pavadinimams pavadinime pavadinimo pavadinimu pavadinimui pavadinimuose pavadinimus pavadinimą pavadinimų
+35	635	liautis	liaujasi liaukis liaukitės liausis liautųsi liaučiaus lioviausi liovėsi
+36	636	paskelbti	paskelbia paskelbiame paskelbiau paskelbs paskelbsime paskelbsiu paskelbtų paskelbė paskelbėme paskelbėte
+37	637	atsakymas	atsakymai atsakymais atsakymams atsakyme atsakymo atsakymu atsakymui atsakymuose atsakymus atsakymą atsakymų
+38	638	sala	salai salas saloje salomis salos salose salą salų
+39	639	pilnas	pilna pilnai pilnais pilnam pilname pilnesnį pilni pilno pilnoje pilnoji pilnomis pilnos pilnose pilnu pilnuose pilnus pilną pilnų
+40	640	prarasti	praradai praradau prarado praradom praradome praradot praradote praradus praradęs praranda prarandam prarandamas prarandame prarandant prarandat prarandate prarandi prarandu praras prarasdamas prarasdavo prarasi prarasim prarasime prarasit prarasite prarasiu prarasta prarastas prarastasis prarasto prarastoji prarastos prarastum prarastume prarastus prarastą prarastų prarasčiau
+41	641	karys	kariai kariais kariams kario kariu kariui karius karių kary karį
+42	642	penktadienis	penktadieni penktadieniai penktadieniais penktadienio penktadieniu penktadieniui penktadienyje penktadienį
+43	643	pagalvoti	pagalvodavau pagalvoja pagalvojai pagalvojame pagalvojate pagalvojau pagalvoji pagalvojo pagalvojom pagalvojome pagalvojote pagalvoju pagalvok pagalvokime pagalvokit pagalvokite pagalvos pagalvosime pagalvosite pagalvosiu pagalvotume pagalvotumėte pagalvotų pagalvočiau
+44	644	kapitonas	kapitonai kapitone kapitono kapitonu kapitonui kapitonus kapitoną kapitonų
+45	645	stalas	stalai stalais stalams stale stalo stalu stalui staluose stalus stalą stalų
+46	646	pasiruošęs	pasiruošus pasiruošusi pasiruošusiam pasiruošusiems pasiruošusios pasiruošusius pasiruošusių pasiruošusį pasiruošę
+47	647	pakankamai	
+48	648	būtinas	būtina būtinais būtini būtiniausi būtiniausia būtiniausiais būtiniausias būtiniausiems būtiniausiomis būtiniausioms būtiniausios būtiniausius būtiniausią būtiniausių būtiniems būtino būtinoji būtinojo būtinomis būtinoms būtinos būtinosioms būtinosios būtinu būtinuosius būtinus būtiną būtinąją būtinąjį būtinąsias būtinų būtinųjų
+49	649	sukelti	sukeldavo sukeli sukelia sukeliamas sukeliant sukeliantis sukeliate sukeliu sukels sukeltų sukėliau sukėlus sukėlė sukėlėme sukėlęs
+50	650	gydyti	gydai gydant gydantis gydau gydo gydoma gydomas gydome gydot gydydamas gydydavo gydyk gydykite gydymas gydymo gydys gydysi gydysim gydysiu gydyta gydytas gydytų gydė gydėm gydėme gydėte gydęs gydžiau
+51	651	pirkti	perka perkam perkama perkamas perkame perkami perkamos perkamosios perkamų perkant perkate perki perku pirk pirkai pirkau pirkdamas pirkdavo pirkimas pirkime pirkimo pirkit pirkite pirko pirkom pirkome pirkot pirkote pirks pirksi pirksim pirksite pirksiu pirktas pirktos pirktą pirktų pirkčiau pirkęs
+52	652	galia	galiai galias galioje galiomis galioms galios galią galių
+53	653	ypatingas	ypatinga ypatingais ypatingajam ypatingajame ypatingam ypatingame ypatingasis ypatingi ypatingiau ypatingiausias ypatingiausios ypatingieji ypatingiems ypatingo ypatingoje ypatingoji ypatingojo ypatingomis ypatingoms ypatingos ypatingosios ypatingu ypatinguoju ypatinguosius ypatingus ypatingą ypatingąja ypatingąją ypatingąjį ypatingų ypatingųjų
+54	654	vairuotojas	vairuotoja vairuotojai vairuotojais vairuotojams vairuotojau vairuotojo vairuotoju vairuotojui vairuotojus vairuotoją vairuotojų
+55	655	jungtinis	jungtine jungtinei jungtines jungtinės jungtiniai jungtiniais jungtiniam jungtiniame jungtiniams jungtinio jungtiniu jungtiniuose jungtinius jungtinių jungtinė jungtinėje jungtinėmis jungtinėms jungtinės jungtinėse jungtinę jungtinį
+56	656	kalnas	kalnai kalnais kalnams kalną kalne kalno kalnu kalnui kalnuose kalnus kalną kalnų
+57	657	padėtis	padėties padėtimi padėtyje padėtį padėčiai padėčių
+58	658	nuomonė	nuomone nuomonei nuomones nuomonių nuomonėje nuomonėmis nuomonėms nuomonės nuomonę
+59	659	dukra	dukrai dukras dukrele dukrelei dukreles dukrelių dukrelė dukrelėmis dukrelės dukrelę dukromis dukroms dukros dukrą dukrų
+60	660	kamera	kamerai kameras kameroje kameromis kameroms kameros kamerose kamerą kamerų
+61	661	elektra	elektrai elektros elektrą
+62	662	butas	buta butai butais butams bute buto butu butui butuose butus butą butų
+63	663	ekonomika	ekonomikai ekonomikas ekonomikoje ekonomikoms ekonomikos ekonomikose ekonomiką ekonomikų
+64	664	žvaigždė	žvaigžde žvaigždei žvaigždes žvaigždių žvaigždėje žvaigždėmis žvaigždėms žvaigždės žvaigždėse žvaigždę žvaigždžių
+65	665	sekti	sek seka sekai sekam sekame sekant sekat sekate sekdamas sekdavo sekei seki sekiau sekime sekit sekite seko seks seksi seksim seksime seksit seksite seksiu sektinas sektos sektum sektume sektumėte sektų seku seką sekčiau sekė sekėm sekėme sekėte sekęs senka
+66	666	tvarka	tvarkai tvarkas tvarkoje tvarkos tvarką tvarkų
+67	667	atskiras	atskira atskirai atskirais atskiram atskirame atskirasis atskiri atskiriems atskiro atskiroje atskirojo atskirojoje atskiromis atskiroms atskiros atskirose atskirosios atskiru atskiruose atskirus atskirą atskirąja atskirąją atskirąjį atskirų
+68	668	žinomas	žinomai žinomais žinomam žinomame žinomesnių žinomi žinomiausi žinomiausia žinomiausias žinomiausios žinomiausią žinomiausių žinomiems žinomo žinomoje žinomomis žinomos žinomose žinomu žinomus žinomą žinomų
+69	669	meras	merai merais merams mere meri mero meru merui merus merą merė merų
+70	670	skaityti	skaitai skaitant skaitantis skaitau skaitei skaito skaitom skaitomas skaitome skaitot skaitote skaitydamas skaitydavai skaitydavau skaitydavo skaitydavom skaitydavome skaitydavote skaityk skaitykim skaitykit skaitykite skaitys skaitysi skaitysim skaitysime skaitysit skaitysiu skaitytas skaitytum skaitytumėte skaitytų skaityčiau skaitė skaitėm skaitėme skaitėt skaitėte skaičiau
+71	671	organizuoti	organizavau organizavimas organizavimo organizavo organizavome organizavęs organizuodamas organizuodavo organizuodavom organizuodavome organizuoja organizuojam organizuojamas organizuojame organizuojant organizuojantis organizuojate organizuoji organizuoju organizuok organizuos organizuosime organizuosite organizuosiu organizuota organizuotai organizuotais organizuotam organizuotame organizuotas organizuoto organizuotoje organizuotos organizuotose organizuotu organizuotuose organizuotus organizuotą organizuotų
+72	672	baisus	baisaus baisesni baisesnio baisesnis baisesniu baisesnių baisesnė baisesnės baisi baisia baisiai baisiais baisiame baisias baisiau baisiausi baisiausia baisiausiai baisiausiais baisiausias baisiausio baisiausios baisiausiu baisiausią baisiausių baisioje baisioji baisiomis baisios baisiosios baisiu baisius baisią baisių baisu baisusis baisūs baisų baisųjį
+73	673	žalias	žalia žaliai žaliais žaliaisiais žaliajai žaliajam žaliajame žaliam žaliame žaliasis žaliau žaliausių žalio žalioje žalioji žaliojo žaliojoje žaliomis žalios žaliose žaliosiomis žaliosioms žaliosios žaliosiose žaliu žaliuoju žaliuosius žalius žalią žaliąja žaliąją žaliąjį žaliąsias žalių žaliųjų
+74	674	platus	plataus platesne platesnei platesnes platesni platesniam platesnio platesnis platesniu platesnių platesnė platesnės platesnę platesnį platu platūs platų plačia plačiai plačiais plačiajai plačiam plačiame plačias plačiau plačiausia plačiausiai plačiausias plačioje plačioji plačiomis plačios plačiosios plačiu plačius plačią plačiąja plačiąją plačių
+75	675	pradžioje	
+76	676	dešimt	dešimties dešimtimi dešimtimis dešimtims dešimtis dešimtyje dešimtys dešimtyse dešimtį dešimčia dešimčiai dešimčių
+77	677	mėgti	mėgai mėgau mėgdavau mėgdavo mėgdavom mėgdavome mėgdavote mėgo mėgote mėgsta mėgstam mėgstame mėgstantis mėgstat mėgstate mėgsti mėgstu mėgtum mėgtų mėgčiau mėgęs
+78	678	vadintis	vadinas vadinasi vadinosi vadinsis vadintųsi
+79	679	jaunimas	jaunime jaunimo jaunimu jaunimui jaunimą
+80	680	turtas	turtai turtais turtams turte turto turtu turtui turtuose turtus turtą turtų
+81	681	kovoti	kovodamas kovodavau kovodavo kovoja kovojai kovojam kovojame kovojant kovojantis kovojat kovojate kovojau kovoji kovojo kovojom kovojome kovojote kovoju kovojęs kovok kovokime kovokit kovokite kovosi kovosim kovosime kovosit kovosite kovosiu kovotum kovotume kovotumėm kovotų kovočiau
+82	682	vaistas	vaistai vaistais vaistams vaisto vaistu vaistui vaistus vaistą vaistų
+83	683	vertinti	vertina vertinai vertinam vertinama vertinamam vertinamas vertiname vertinami vertinamo vertinamos vertinamu vertinamus vertinamą vertinamų vertinant vertinantis vertinat vertinate vertinau vertindamas vertindavo vertini vertink vertinkime vertinkite vertino vertinome vertins vertinsim vertinsime vertinsite vertinsiu vertinta vertintas vertintinas vertintų vertinu vertinąs vertinčiau
+84	684	linija	linijai linijas linijoje linijomis linijoms linijos linijose liniją linijų
+85	685	papasakoti	papasakoja papasakojau papasakoji papasakojo papasakojome papasakoju papasakok papasakokite papasakos papasakosime papasakosiu papasakotų papasakočiau
+86	686	nemažas	nemaža nemažai nemažam nemaži nemažiau nemažo nemažoje nemažos nemažu nemažus nemažą nemažų
+87	687	beje	
+88	688	palaikyti	palaikant palaikantis palaikau palaikei palaikiau palaiko palaikom palaikomas palaikome palaikote palaikydamas palaikydavau palaikydavo palaikydavęs palaikyk palaikykim palaikykime palaikykit palaikykite palaikys palaikysi palaikysim palaikysime palaikysit palaikysite palaikysiu palaikytas palaikytum palaikytume palaikytumėte palaikytų palaikyčiau palaikė palaikėme palaikėt palaikėte palaikęs
+89	689	departamentas	departamentai departamentams departamente departamento departamentu departamentui departamentuose departamentą departamentų
+90	690	mokinys	mokiniai mokiniais mokiniams mokinio mokiniu mokiniui mokinius mokinių mokiny mokinė mokinį
+91	691	studentas	studentai studentais studentams studente studento studentu studentui studentus studentą studentė studentų
+92	692	sėkmė	sėkmės sėkme sėkmei sėkmes sėkmių sėkmės sėkmę
+93	693	kompiuteris	kompas kompiuteri kompiuteriai kompiuteriais kompiuteriams kompiuterio kompiuteriu kompiuteriui kompiuteriuose kompiuterius kompiuterių kompiuteryje kompiuterį
+94	694	įtaka	įtakai įtakas įtakoje įtakos įtaką įtakų
+95	695	sudėtingas	sudėtinga sudėtingai sudėtingais sudėtingam sudėtingame sudėtingesnes sudėtingesni sudėtingesniais sudėtingesnio sudėtingesnis sudėtingesnius sudėtingesnių sudėtingesnė sudėtingesnės sudėtingesnę sudėtingesnį sudėtingi sudėtingiau sudėtingiausia sudėtingiausiais sudėtingiausias sudėtingiausiomis sudėtingiausios sudėtingiausiu sudėtingiausius sudėtingiausią sudėtingiausių sudėtingiems sudėtingo sudėtingoje sudėtingomis sudėtingoms sudėtingos sudėtingose sudėtingu sudėtingus sudėtingą sudėtingų
+96	696	lengvai	lengviau lengviausiai
+97	697	čempionatas	čempionatai čempionatams čempionate čempionato čempionatu čempionatui čempionatuose čempionatus čempionatą čempionatų
+98	698	valdyti	tevaldo valdai valdant valdantis valdau valdei valdo valdom valdomas valdome valdot valdote valdydamas valdyk valdykim valdykit valdykite valdys valdysi valdysim valdysime valdysit valdysiu valdyta valdytas valdytum valdytume valdytų valdyčiau valdė valdėm valdėme valdęs valdžiau
+99	699	rūmas	rūmai rūmais rūmams rūmuose rūmus rūmų
+100	700	kiekis	kieki kiekiai kiekiais kiekiams kiekio kiekiu kiekiui kiekius kiekių kiekyje kiekį

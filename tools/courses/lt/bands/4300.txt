@@ -1,0 +1,100 @@
+1	4201	psichiatras	psichiatrai psichiatre psichiatro psichiatru psichiatrui psichiatrus psichiatrą psichiatrų
+2	4202	smuikas	smuikai smuiko smuiku smuikui smuikus smuiką smuikų
+3	4203	kolektyvinis	kolektyvine kolektyvinei kolektyvines kolektyviniai kolektyviniame kolektyvinio kolektyviniuose kolektyvinius kolektyvinių kolektyvinė kolektyvinėje kolektyvinės kolektyvinėse kolektyvinę kolektyvinį
+4	4204	paminėtas	paminėta paminėtos
+5	4205	atsilikti	atsilieka atsiliekame atsiliko atsilikome atsiliks
+6	4206	fragmentas	fragmentai fragmentais fragmento fragmentu fragmentus fragmentą fragmentų
+7	4207	tarpinis	tarpines tarpiniai tarpiniais tarpinio tarpinius tarpinių tarpinė tarpinėje tarpinės tarpinę tarpinį
+8	4208	ypatybė	ypatybes ypatybių ypatybėmis ypatybės ypatybę
+9	4209	respublikonas	respublikonai respublikonais respublikonams respublikono respublikonui respublikonus respublikoną respublikonų
+10	4210	gretimas	gretima gretimai gretimame gretimo gretimoje gretimos gretimose gretimuose gretimus gretimą gretimų
+11	4211	laukan	lauk
+12	4212	šernas	šernai šernais šernams šerno šernu šernus šerną šernų
+13	4213	pakviestas	pakviesta pakviestos
+14	4214	brolija	brolijai brolijos broliją
+15	4215	gydytis	gydausi gydosi gydotės gydykis gydysis gydėsi gydžiausi
+16	4216	piramidė	piramide piramides piramidėje piramidės piramidę piramidžių
+17	4217	seminarija	seminarijoje seminarijos seminariją
+18	4218	nutolęs	nutolusi nutolusias nutolusio nutolusioje nutolusios nutolusiose nutolusiuose nutolusius nutolusių nutolę
+19	4219	stebinti	stebina
+20	4220	apmokėti	apmoka apmokėdavo apmokėjo apmokės apmokėtų
+21	4221	ekologija	ekologijai ekologijos ekologiją
+22	4222	egzistavimas	egzistavimo egzistavimu egzistavimui egzistavimą
+23	4223	dubuo	dubenimis dubenis dubeniu dubeniui dubens dubenyje dubenys dubenį dubenų
+24	4224	ištaisyti	ištaiso ištaisys ištaisysime ištaisytų ištaisė
+25	4225	žiūrėdamas	žiūrėdama žiūrėdami žiūrėdamos
+26	4226	kapsulė	kapsule kapsules kapsulių kapsulėje kapsulėmis kapsulės kapsulę
+27	4227	kakta	kaktoje kaktomis kaktos kaktą
+28	4228	lenktynininkas	lenktynininkai lenktynininkais lenktynininkams lenktynininko lenktynininku lenktynininkui lenktynininkus lenktynininką lenktynininkų
+29	4229	ideologija	ideologijai ideologijos ideologiją ideologijų
+30	4230	diagnozė	diagnoze diagnozei diagnozes diagnozių diagnozės diagnozę
+31	4231	buveinė	buveines buveinių buveinėje buveinėms buveinės buveinę
+32	4232	suburti	suburia suburs suburtų subūriau subūrė subūrėme
+33	4233	nukeliauti	nukeliauja nukeliauju nukeliaus nukeliausi nukeliausim nukeliausime nukeliausite nukeliausiu nukeliautų nukeliavai nukeliavau nukeliavo nukeliavom nukeliavome nukeliavęs
+34	4234	leidyba	leidybai leidyboje leidybos leidybą
+35	4235	pipiras	pipirai pipirais pipiro pipiru pipirus pipirą pipirų
+36	4236	paliestas	paliesta paliesti paliestos
+37	4237	citrina	citrinas citrinoje citrinomis citrinos citrinose citriną citrinų
+38	4238	pašalintas	pašalinta pašalintiems pašalinto pašalintos pašalintą
+39	4239	ypatumas	ypatumai ypatumais ypatumo ypatumus ypatumų
+40	4240	skatinimas	skatinimo skatinimu skatinimui skatinimą
+41	4241	lemiamas	lemiama lemiamai lemiamame lemiami lemiamo lemiamoje lemiamos lemiamose lemiamu lemiamus lemiamą
+42	4242	apibrėžti	apibrėš apibrėžia apibrėžtų apibrėžė
+43	4243	teisti	teis teisiate teisiau teisimas teisime teisiu teisk teistas teistum teistų teisčiau teisėt
+44	4244	sekimas	sekimo sekimu sekimą
+45	4245	pasitikrinti	pasitikrina pasitikrinau pasitikrink pasitikrinkite pasitikrino pasitikrinome
+46	4246	uždarymas	uždarymo uždarymu uždarymui uždarymą
+47	4247	mandatas	mandatai mandatais mandato mandatu mandatui mandatus mandatą mandatų
+48	4248	kišti	kiš kiša kišai kišam kišant kišantis kišat kišate kišau kišdamas kišdavo kiši kišk kiškit kiškite kišo kištum kištume kištumėt kišu
+49	4249	apyrankė	apyranke apyrankes apyrankių apyrankėmis apyrankės apyrankę
+50	4250	ugdyti	ugdant ugdantis ugdo ugdomas ugdome ugdykime ugdys ugdė
+51	4251	milicija	milicijai milicijos miliciją
+52	4252	vainikas	vainikai vainikais vainikams vainike vainiko vainiku vainikuose vainikus vainiką vainikų
+53	4253	blaivas	blaiva blaivai blaivaus blaivi blaivia blaiviai blaiviam blaiviau blaiviems blaivioje blaiviomis blaivios blaiviu blaivią blaivių blaivo blaivus blaivūs blaivų
+54	4254	susidomėti	susidomi susidomėjai susidomėjau susidomėjo susidomėjote susidomės susidomėtų
+55	4255	stuburas	stubure stuburo stuburu stuburui stuburus stuburą
+56	4256	apsisaugoti	apsisaugosite apsisaugotų
+57	4257	jaučiamas	jaučiama jaučiami jaučiamos
+58	4258	pagerbti	pagerbia pagerbiame pagerbs pagerbė
+59	4259	meistriškumas	meistriškumo meistriškumu meistriškumui meistriškumą
+60	4260	pavydas	pavydo pavydą
+61	4261	nepatogumas	nepatogumai nepatogumais nepatogumo nepatogumus nepatogumą nepatogumų
+62	4262	kontora	kontoras kontoroje kontoros kontorą kontorų
+63	4263	vertybinis	vertybines vertybiniai vertybiniais vertybinio vertybinius vertybinių vertybinė vertybinės vertybinį
+64	4264	batelis	bateliai bateliais bateliams batelio batelius batelių batelį
+65	4265	skysti	skydai skydo skydus skysta skystu skystų
+66	4266	klausa	klausas klausos klausą
+67	4267	koncernas	koncernai koncerne koncerno koncernu koncernui koncernų
+68	4268	folkloras	folkloro folkloru folklorą
+69	4269	pasiuntinys	pasiuntiniai pasiuntinio pasiuntiniu pasiuntiniui pasiuntinius pasiuntinių pasiuntinį
+70	4270	pianinas	pianino pianinu pianinus pianiną pianinų
+71	4271	plaukioti	plaukioja plaukiojame plaukiojau plaukiojo plaukioju plaukios
+72	4272	ambicija	ambicijas ambicijomis ambicijoms ambicijos ambiciją ambicijų
+73	4273	delegacija	delegacijai delegacijas delegaciją delegacijoje delegacijoms delegacijos delegacijose delegaciją delegacijų
+74	4274	žūtis	žūties žūtimi žūtys žūtį žūčių
+75	4275	pataisyti	pataisai pataiso pataisys pataisytų pataisė
+76	4276	tautybė	tautybes tautybių tautybės tautybę
+77	4277	perėjimas	perėjimo perėjimu perėjimui perėjimą perėjimų
+78	4278	smalsus	smalsaus smalsi smalsiai smalsiam smalsiems smalsios smalsių smalsu smalsūs
+79	4279	apgailėtinas	apgailėtinai apgailėtinais apgailėtini apgailėtino apgailėtinu apgailėtinus apgailėtiną apgailėtinų
+80	4280	gailėtis	gailimės gailisi gailitės gailėjausi gailėjosi gailėsis gailėsitės gailėtųsi
+81	4281	nakvynė	nakvyne nakvynei nakvynes nakvynių nakvynės nakvynę
+82	4282	gruntas	gruntai grunte grunto gruntu gruntui gruntą
+83	4283	rektorius	rektoriaus rektoriui rektoriumi rektorių
+84	4284	užrakintas	užrakinta užrakintos užrakintus užrakintą
+85	4285	tarybinis	tarybines tarybiniai tarybiniais tarybiniame tarybinio tarybinius tarybinių tarybinė tarybinėje tarybinės tarybinę tarybinį
+86	4286	grafas	grafai grafe grafienė grafienės grafo grafu grafui
+87	4287	parodytas	parodyta parodytame parodyto parodytos parodytą
+88	4288	vyskupija	vyskupijai vyskupijoje vyskupijos vyskupiją vyskupijų
+89	4289	kvailystė	kvailyste kvailystes kvailystės kvailystę kvailysčių
+90	4290	makas	makai make maki mako maku makui maką
+91	4291	arkivyskupas	arkivyskupe arkivyskupo arkivyskupu arkivyskupui arkivyskupą
+92	4292	slidinėjimas	slidinėjimo slidinėjimu slidinėjimą
+93	4293	persekiojimas	persekiojimai persekiojimo persekiojimu persekiojimui persekiojimus persekiojimą persekiojimų
+94	4294	altorius	altoriai altoriaus altoriui altoriuje altoriumi altorių
+95	4295	traktorius	traktoriai traktoriais traktoriams traktoriaus traktoriumi traktoriuose traktorių
+96	4296	susiklostyti	susiklosto susiklostys susiklostytų susiklostė
+97	4297	stiprumas	stiprumo stiprumu stiprumą
+98	4298	ištverti	ištveria ištvers ištversiu ištvertų ištvėriau ištvėrė
+99	4299	delnas	delnai delnais delne delno delnu delnuose delnus delną delnų
+100	4300	pravardė	pravarde pravardes pravardės pravardę pravardžių

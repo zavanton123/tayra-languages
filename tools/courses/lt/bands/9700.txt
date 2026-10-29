@@ -1,0 +1,100 @@
+1	9601	vartyti	vartau varto vartė varčiau
+2	9602	celiuliozė	celiuliozės celiuliozę
+3	9603	humusas	humuso
+4	9604	paaukotas	paaukota paaukotos paaukotus
+5	9605	natūra	natūroje natūros natūrą
+6	9606	pervaža	pervažoje pervažos pervažą
+7	9607	saikingas	saikingai
+8	9608	populiarinti	populiarina populiarino
+9	9609	paršelis	paršeliai paršelio paršelius paršelių paršelį
+10	9610	įžeidinėti	įžeidinėja įžeidinėjo
+11	9611	matinis	matiniai matinė matinės
+12	9612	neskanus	neskani neskaniai neskanios neskanu neskanūs
+13	9613	išlauktas	išlaukti
+14	9614	nešėja	nešėjai nešėjas nešėjos nešėją nešėjų
+15	9615	signalizuoti	signalizavo signalizuodami signalizuoja signalizuok
+16	9616	atmintinė	atmintine atmintines atmintinėje atmintinės atmintinėse atmintinę atmintinų
+17	9617	akvarelė	akvarele akvarelių akvarelės
+18	9618	pailgas	pailga pailgos pailgą
+19	9619	konstravimas	konstravimo
+20	9620	šturmanas	šturmano šturmanu šturmanui
+21	9621	šaudykla	šaudykloje šaudyklos šaudyklą
+22	9622	vaikaitis	vaikaitę vaikaičiai vaikaičiu vaikaičiui vaikaičius vaikaičių
+23	9623	astrologija	astrologijos astrologiją
+24	9624	benzininis	benzininiai benzininiais benzininio benzininiu benzininius benzininių benzininė
+25	9625	iškloti	iškloja išklojo išklokite išklos
+26	9626	undinė	undinių undinės
+27	9627	monarchas	monarchai monarche monarcho monarchui monarchą
+28	9628	dagys	dagio
+29	9629	kepurėlė	kepurėle kepurėles kepurėlės kepurėlę
+30	9630	investuotas	investuota investuotos
+31	9631	blaivumas	blaivumo blaivumą
+32	9632	priklausymas	priklausymo priklausymą
+33	9633	monsinjoras	monsinjore monsinjoro monsinjoru
+34	9634	pagalys	pagaliais pagaliu pagalius pagalių pagalį
+35	9635	gleivė	gleives gleivių gleivėmis
+36	9636	manganas	mangano
+37	9637	šamanas	šamanai šamano šamaną šamanų
+38	9638	atspausdinti	atspausdina atspausdino atspausdintų
+39	9639	abonementas	abonemento abonementus abonementą abonementų
+40	9640	medelynas	medelyne medelyno medelyną medelynų
+41	9641	unitazas	unitazo unitazą unitazų
+42	9642	įsilaužėlis	įsilaužėliai įsilaužėliams įsilaužėlius įsilaužėlių
+43	9643	titras	titrai titrus
+44	9644	mažyti	
+45	9645	padvigubinti	padvigubino padvigubins
+46	9646	totalus	totalaus totali totaliai totalų
+47	9647	transformuoti	transformavo transformuoja
+48	9648	patriotinis	patriotines patriotinio patriotinių patriotinė patriotinės patriotinį
+49	9649	nugriūti	nugrius nugriuvo
+50	9650	zebras	zebrai zebrais zebro zebrą zebrų
+51	9651	angelė	angelės
+52	9652	paklausęs	paklausius paklaususi paklausę
+53	9653	sumalti	sumalkite sumalė
+54	9654	nežūti	nežus nežuvo nežūsta nežūtų
+55	9655	salynas	salyne salyno salyną
+56	9656	melionas	melionai meliono melionus melioną melionų
+57	9657	vaikščiojimas	vaikščiojimo vaikščiojimą
+58	9658	optimistas	optimistai optimistu
+59	9659	ugnelė	ugnele ugnelės ugnelę
+60	9660	atlikinėti	atlikinėjo
+61	9661	persimesti	persimes persimeta persimetė
+62	9662	plėšyti	plėšo plėšė
+63	9663	jėgeris	jėgerių
+64	9664	plaštaka	plaštakas plaštakos plaštaką plaštakų
+65	9665	atkalbėti	atkalbu atkalbėjai atkalbėjo atkalbėjome atkalbėtum atkalbėčiau
+66	9666	apkarpyti	apkarpo apkarpė
+67	9667	lygtinis	lygtine lygtinio lygtinė lygtinės lygtinę lygtinį
+68	9668	konsultuotis	konsultavausi konsultavomės konsultavosi konsultuojasi
+69	9669	priteistas	priteista priteistos priteistą
+70	9670	pralaimėtas	pralaimėta
+71	9671	susižavėjęs	susižavėjusi susižavėję
+72	9672	įsijausti	įsijaus įsijautė įsijaučia
+73	9673	šepetys	šepetį šepečio šepečius šepečių
+74	9674	svainis	svaine svainio svainiu svainiui svainė svainį
+75	9675	sandėliavimas	sandėliavimo sandėliavimui
+76	9676	skaldyti	skaldo skaldyk skaldė
+77	9677	paslaugus	paslaugi paslaugiai paslaugūs
+78	9678	slidinėti	slidinėja slidinėjo
+79	9679	aviganis	aviganiai aviganio aviganiu aviganių aviganį
+80	9680	kūnelis	kūneliai kūnelio kūnelius kūnelių
+81	9681	nudžiuginti	nudžiugino nudžiugins nudžiugintų
+82	9682	parsinešti	parsineša parsinešame parsinešiau parsinešk parsinešė
+83	9683	ekonomija	ekonomijos ekonomiją
+84	9684	protestantas	protestantai protestantų
+85	9685	pagrobėjas	pagrobėjai pagrobėjais pagrobėjams pagrobėjo pagrobėjus pagrobėją pagrobėjų
+86	9686	kaktusas	kaktusai kaktusams kaktuso kaktusus kaktusą kaktusų
+87	9687	tezė	tezes tezių tezės
+88	9688	purpurinis	purpurine purpuriniai purpurinių purpurinė purpurinės purpurinę
+89	9689	neryškus	neryški neryškios neryškių neryškūs
+90	9690	padalijimas	padalijimo padalijimą
+91	9691	sušauktas	sušauktame sušauktą
+92	9692	audinė	audines audinėms audinės
+93	9693	paskatintas	paskatinta
+94	9694	argas	argo
+95	9695	prastumti	prastūmė
+96	9696	komiškas	komiška komiškai komiško komiškos komiškų
+97	9697	kempingas	kempinge kempingo kempingą
+98	9698	šiaudinis	šiaudine šiaudiniai šiaudiniu šiaudinius šiaudinių šiaudinės šiaudinį
+99	9699	keršyti	keršija keršys
+100	9700	atkaklumas	atkaklumo atkaklumu atkaklumą

@@ -1,0 +1,100 @@
+1	8001	klasikas	klasikai klasiko klasiką klasikų
+2	8002	iltis	iltimis iltys ilčių
+3	8003	oazė	oaze oazes oazėje oazės oazę
+4	8004	artumas	artumo artumu artumui artumą
+5	8005	dezinfekavimas	dezinfekavimo dezinfekavimui
+6	8006	įnašas	įnašu įnašai įnašais įnašo įnašu įnašui įnašą įnašų
+7	8007	suvilioti	suviliojo suvilios suviliotų
+8	8008	nuomojamas	nuomojama nuomojamam nuomojamame nuomojami nuomojamo nuomojamoje nuomojamos nuomojamose nuomojamuose nuomojamą nuomojamų
+9	8009	atstoti	atstodavo atstoja atstojo atstos
+10	8010	išdžiūti	išdžius išdžiūsta išdžiūtų išdžiūva
+11	8011	išsiskiriantis	išsiskirianti išsiskiriantys išsiskiriančios išsiskiriančių
+12	8012	pralenkti	pralenkia pralenks pralenkė
+13	8013	miškinis	miškinio miškinių miškinį
+14	8014	tikrumas	tikrumo tikrumu tikrumą
+15	8015	pataisa	
+16	8016	nesenas	nesena nesenai neseni nesenus neseną
+17	8017	budelis	budeli budeliai budeliams budelio budeliu budeliui budelius budelių budelį
+18	8018	apeliacija	apeliacijas apeliacijos apeliaciją apeliacijų
+19	8019	kiaušinienė	kiaušiniene kiaušinienės kiaušinienę
+20	8020	skolinimasis	skolinimosi skolinimuisi skolinimąsi
+21	8021	pripildytas	pripildyta pripildyto pripildytos pripildytą
+22	8022	pigmentas	pigmentai pigmento pigmentų
+23	8023	choreografija	choreografijoje choreografijos choreografiją
+24	8024	sandūra	sandūroje sandūros sandūrą
+25	8025	aminorūgštis	aminorūgštimis aminorūgštys aminorūgščių
+26	8026	apvogti	apvagia apvogė
+27	8027	žibintuvėlis	žibintuvėliais žibintuvėlio žibintuvėliu žibintuvėlį
+28	8028	graudus	graudi graudu graudūs graudžiai graudžiau graudžiausios graudžios graudžiosios graudžiu graudžią graudžių
+29	8029	irkluotoja	irkluotojai irkluotojams irkluotojas irkluotojus irkluotojų
+30	8030	rezervacija	rezervacijas rezervacijos rezervaciją rezervacijų
+31	8031	dilema	dilemos dilemą dilemų
+32	8032	kamanė	kamane kamanei kamanių kamanės kamanę kamanų
+33	8033	pakeičiamas	pakeičiama pakeičiami pakeičiamos
+34	8034	sviedinys	sviediniai sviediniais sviedinio sviedinius sviedinių sviedinį
+35	8035	funkcionavimas	funkcionavimo funkcionavimui funkcionavimą
+36	8036	konkurencingas	konkurencinga konkurencingi konkurencingoje konkurencingu konkurencingus konkurencingą konkurencingų
+37	8037	išvežimas	išvežimo išvežimui išvežimą
+38	8038	permatomas	permatoma permatomi permatomo permatomos permatomu permatomus permatomą permatomų
+39	8039	receptorius	receptoriai receptorių
+40	8040	kirpti	kerpa kerpi kerpu kirpai kirpau kirpdavau kirpk kirpo kirptas kirptume kirpęs
+41	8041	granata	
+42	8042	užlaikyti	užlaikai užlaikiau užlaiko užlaikot užlaikyk užlaikykit užlaikykite užlaikys užlaikysim užlaikysime užlaikysiu užlaikytas užlaikė
+43	8043	papūga	papūgoje papūgos papūgą papūgų
+44	8044	žyma	žymas žymos žymą
+45	8045	atitrūkti	atitrūko atitrūksta
+46	8046	autizmas	autizmo autizmu
+47	8047	atgarsis	atgarsiai atgarsio atgarsius atgarsių atgarsį
+48	8048	svirtis	svirties svirtimi svirtys svirtį svirčių
+49	8049	šildytuvas	šildytuvai šildytuvo šildytuvus šildytuvą šildytuvų
+50	8050	padorumas	padorumo padorumui padorumą
+51	8051	nacionalizmas	nacionalizmo nacionalizmą
+52	8052	diktuoti	diktavo diktuoja diktuos
+53	8053	išlieti	išliedavo išlieja išliejo išliekite
+54	8054	chartija	chartijoje chartijos chartiją
+55	8055	vengimas	vengimo vengimu vengimą
+56	8056	išbraukti	išbraukia išbraukite
+57	8057	krikštytojas	krikštytojo
+58	8058	orchidėja	orchidėjas orchidėjoje orchidėjomis orchidėjos orchidėją orchidėjų
+59	8059	plastika	plastikos
+60	8060	kankinamas	kankinama kankinami kankinamos kankinamų
+61	8061	puskarininkis	puskarininki puskarininkių puskarininkį
+62	8062	arbitražas	arbitraže arbitražo arbitražu arbitražui arbitražą
+63	8063	beribis	beribiai beribio beribiu beribė beribės beribę beribį
+64	8064	australas	australų
+65	8065	brazilas	brazilai brazilams brazilus brazilą brazilų
+66	8066	nešiotojas	nešiotoja nešiotojai nešiotojais nešiotojo nešiotojus nešiotojų
+67	8067	rišti	riša rišdavau rišdavo riši rišimas rišimo rišk rišo rišu
+68	8068	prisikelti	prisikels prisikėlė
+69	8069	prašytis	prašosi prašėsi
+70	8070	uostyti	uostai uostant uostau uostei uosto uostomas uostot uostydavo uostyk uostysi uostysim uostytų uostė uosčiau
+71	8071	gobtuvas	gobtuvais gobtuvu gobtuvą
+72	8072	žvyrkelis	žvyrkeliai žvyrkeliams žvyrkelio žvyrkeliu žvyrkelių
+73	8073	padas	padai pado padu padų
+74	8074	sėklidė	sėklides sėklidės sėklidžių
+75	8075	nulemtas	nulemta nulemto nulemtą
+76	8076	iliustruotas	iliustruota iliustruotos iliustruotą
+77	8077	transmisija	transmisijos transmisiją
+78	8078	koordinacinis	koordinacinė koordinacinės
+79	8079	simfonija	simfonijai simfonijas simfonijoje simfonijos simfoniją
+80	8080	drovus	drovi drovia droviais drovu drovūs drovų
+81	8081	prasiskverbti	prasiskverbia prasiskverbė
+82	8082	augalija	augalijai augalijos augaliją
+83	8083	komandiruotė	komandiruotes komandiruotėje komandiruotės komandiruotę komandiruočių
+84	8084	deleguoti	delegavo deleguoja deleguos deleguotų
+85	8085	išdurti	išdūrė
+86	8086	sruoga	sruogos sruogą
+87	8087	pildytis	pildosi
+88	8088	itališkai	
+89	8089	didinamas	didinama didinami didinamos didinamuoju didinamą
+90	8090	išsekti	išseko išseks išsenka
+91	8091	skambus	skambaus skambia skambiai skambiais skambias skambiausias skambiomis skambios skambiu skambius skambių skambūs
+92	8092	apokalipsė	apokalipse apokalipses apokalipsės apokalipsę
+93	8093	skalbykla	skalbyklas skalbykloje skalbyklos skalbyklą
+94	8094	ploti	plodavo ploja plojo
+95	8095	augalininkystė	augalininkyste augalininkystės augalininkystę
+96	8096	priešiškumas	priešiškumo priešiškumu priešiškumą
+97	8097	nutiestas	nutiesta nutiesto nutiestos nutiestu
+98	8098	talismanas	talismanai talismano talismanu talismaną talismanų
+99	8099	įsikišimas	įsikišimo įsikišimą
+100	8100	krona	kronas kronos kronose kroną kronų

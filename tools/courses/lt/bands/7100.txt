@@ -1,0 +1,100 @@
+1	7001	suprojektuoti	suprojektavo suprojektuotų
+2	7002	nesirūpinti	nesirūpina nesirūpinau nesirūpino nesirūpins
+3	7003	turbina	turbinas turbinos turbiną turbinų
+4	7004	perleisti	perleido perleidžia perleis perleistų
+5	7005	mirtingas	mirtingajam mirtingasis mirtingi mirtingieji mirtingiesiems mirtinguosius mirtingųjų
+6	7006	taurelė	taureles taurelių taurelės taurelę
+7	7007	sunerimti	sunerimau sunerimo sunerimsta
+8	7008	išspausdintas	išspausdinta išspausdintame išspausdintos
+9	7009	pertvara	pertvaras pertvaromis pertvaros pertvarą pertvarų
+10	7010	metraštis	metraštyje metraštį metraščiai metraščio metraščiuose metraščių
+11	7011	parengtis	parengties parengtyje parengtį
+12	7012	briauna	briaunas briaunoje briaunomis briaunos briauną briaunų
+13	7013	pasiaukojimas	pasiaukojimo pasiaukojimu pasiaukojimą
+14	7014	apiplėšti	apiplėšia apiplėšime
+15	7015	kiniškas	kiniška kiniškame kiniški kiniškiems kiniško kiniškoms kiniškos kinišku kiniškus kinišką kiniškų
+16	7016	aksesuaras	aksesuarai aksesuarais aksesuarams aksesuaro aksesuaru aksesuarus aksesuarą aksesuarų
+17	7017	aklavietė	aklaviete aklavietei aklavietėje aklavietės aklavietę
+18	7018	kankintis	kankinasi kankinatės kankinausi kankinosi kankinsis kankinuosi
+19	7019	švaistyti	švaisto švaistome švaistote
+20	7020	trinti	trina trintų
+21	7021	pasodintas	pasodinta pasodintos pasodintus
+22	7022	diegimas	diegimo diegimu diegimui diegimą
+23	7023	suvartojimas	suvartojimo suvartojimą
+24	7024	sankirta	sankirtoje sankirtos sankirtą
+25	7025	pradžiuginti	pradžiugina pradžiugino pradžiugins pradžiugintų
+26	7026	stovyklavietė	stovyklavietes stovyklavietėje stovyklavietės stovyklavietę stovyklaviečių
+27	7027	krakmolas	krakmolo krakmolu krakmolą
+28	7028	bitininkas	bitininkai bitininkams bitininko bitininku bitininkus bitininkų
+29	7029	prizinis	prizines prizinio prizinių prizinės prizinę prizinį
+30	7030	antgalis	antgaliai antgaliu antgalių antgalį
+31	7031	modifikacija	modifikacijas modifikacijos modifikacijų
+32	7032	sveikti	sveiks sveiksta
+33	7033	bebaimis	bebaime bebaimiai bebaimiais bebaimio bebaimiu bebaimiuose bebaimius bebaimių bebaimė bebaimės bebaimį
+34	7034	koldūnas	koldūnai koldūnais koldūne koldūnus koldūnų
+35	7035	pasala	pasaloje pasalos
+36	7036	netaisyklingas	netaisyklinga netaisyklingai netaisyklingo netaisyklingos netaisyklingų
+37	7037	kartelė	kartelių kartelės kartelę
+38	7038	nardymas	nardymo nardymui
+39	7039	išskirtinumas	išskirtinumo išskirtinumu išskirtinumą išskirtinumų
+40	7040	sukilti	sukilo sukils sukyla
+41	7041	silkė	silke silkes silkių silkės silkę
+42	7042	aprūpintas	aprūpinta aprūpintos aprūpintą
+43	7043	nuplaukti	nuplaukia nuplauks nuplaukė
+44	7044	išgabenti	išgabena išgabeno
+45	7045	kvalifikacinis	kvalifikaciniai kvalifikaciniame kvalifikacinio kvalifikacinius kvalifikacinių kvalifikacinės kvalifikacinį
+46	7046	iškasti	iškasa iškastų iškasė
+47	7047	reklamuoti	reklamavo reklamuoja reklamuojame reklamuotų
+48	7048	pastorius	pastoriaus pastoriumi
+49	7049	nepadorus	nepadoraus nepadori nepadoriai nepadoriais nepadorias nepadorios nepadoriu nepadorius nepadorių nepadoru nepadorūs nepadorų
+50	7050	chemikalas	chemikalai chemikalais chemikalo chemikalus chemikalų
+51	7051	sugalvotas	sugalvota sugalvotos sugalvotą
+52	7052	pelnytas	pelnyta pelnytai pelnyto pelnytos pelnytą pelnytų
+53	7053	stovas	stovai stovo stovu stovus stovą stovų
+54	7054	painus	painesnė paini painiai painios painią painu painūs painų
+55	7055	trobelė	trobelėje trobelės trobelę
+56	7056	talpykla	talpyklas talpykloje talpyklos talpyklose talpyklą talpyklų
+57	7057	romantikas	romantikai romantikams romantiką romantikų
+58	7058	sėstis	sėdasi
+59	7059	operuoti	operavo operuoja
+60	7060	žadinti	žadina žadinantis žadindavo žadink žadino žadins žadinu žadinęs
+61	7061	talka	talkas talkoje talkos talką talkų
+62	7062	suskirstytas	suskirstyta suskirstytos
+63	7063	spausdintuvas	spausdintuvai spausdintuvais spausdintuvams spausdintuve spausdintuvo spausdintuvu spausdintuvui spausdintuvus spausdintuvą spausdintuvų
+64	7064	garsinis	garsines garsiniai garsiniais garsinio garsiniu garsinius garsinių garsinė garsinėmis garsinės garsinę garsinį
+65	7065	paaugti	paauga paaugau paaugo paaugs
+66	7066	skriausti	skriaudė skriaudžia
+67	7067	gręžinys	gręžiniai gręžiniais gręžinio gręžiniuose gręžinius gręžinių gręžinį
+68	7068	rokenrolas	rokenrolo rokenrolui rokenrolą
+69	7069	įsibėgėti	įsibėgėja įsibėgėjo įsibėgės
+70	7070	apsidairyti	apsidairiau apsidairyk apsidairykime apsidairykite apsidairė
+71	7071	derva	dervas dervoje dervos dervą dervų
+72	7072	pelnytis	pelnyti
+73	7073	įžymus	įžymias įžymioji įžymios įžymių įžymusis įžymūs įžymų
+74	7074	sakramentas	sakramento sakramentą sakramentų
+75	7075	pasitaisyti	pasitaiso pasitaisys pasitaisytų pasitaisė
+76	7076	atsipalaidavęs	atsipalaidavus atsipalaidavusi atsipalaidavusios atsipalaidavę
+77	7077	tenisininkas	tenisininkai tenisininkams tenisininko tenisininkui tenisininkus tenisininkė tenisininkų
+78	7078	savigyna	savigynai savigynos savigyną
+79	7079	chirurginis	chirurgines chirurginio chirurginiu chirurginių chirurginė chirurginės chirurginę
+80	7080	bręsti	brendai brendo bręsdamas bręsta bręstant bręstantis
+81	7081	skardis	skardžio skardį skardžiai skardžio skardžius skardžių
+82	7082	triukšmingas	triukšminga triukšmingai triukšmingais triukšmingam triukšmingi triukšmingiausia triukšmingo triukšmingoje triukšmingose triukšmingu triukšmingą triukšmingų
+83	7083	žūklė	žūklei žūklės žūklę
+84	7084	naktų	
+85	7085	užpultas	užpulta
+86	7086	sloga	slogai slogos slogą
+87	7087	dujotiekis	dujotiekio dujotiekiu dujotiekiui dujotiekius dujotiekių dujotiekį
+88	7088	pietauti	pietauja pietaus pietavo
+89	7089	kalbininkas	kalbininkai kalbininko kalbininkus kalbininką kalbininkų
+90	7090	apskritimas	apskritimai apskritime apskritimo apskritimu apskritimus apskritimą apskritimų
+91	7091	rangytis	rangos rangosi
+92	7092	kritiškas	kritiška kritiški kritiškiau kritiškoje kritiškos kritišku kritiškus kritišką kritiškų
+93	7093	lydinys	lydiniai lydinio lydinius lydinių lydinį
+94	7094	paveikus	paveiki paveikia
+95	7095	suskubti	suskubo suskubome suskubs
+96	7096	įbrėžimas	įbrėžimai įbrėžimams įbrėžimo įbrėžimus įbrėžimų
+97	7097	tarpsnis	tarpsniais tarpsnio tarpsniu tarpsnių tarpsnyje tarpsnį
+98	7098	varžtas	varžtai varžtais varžto varžtus varžtą varžtų
+99	7099	įkristi	įkrenta įkris įkrito
+100	7100	emigruoti	emigravo emigruoja

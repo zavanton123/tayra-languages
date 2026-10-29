@@ -1,0 +1,100 @@
+1	9701	masonas	masonai masono masonų
+2	9702	dirželis	dirželiai dirželiais dirželio dirželiu dirželius dirželių dirželį
+3	9703	kiaulpienė	kiaulpienes kiaulpienių kiaulpienės
+4	9704	valytuvas	valytuvai valytuvo valytuvus valytuvų
+5	9705	žemiškas	žemiška žemiškais žemiški žemiškos žemiškus žemišką žemiškąjį žemiškų
+6	9706	nusiristi	nusirito
+7	9707	kabinėtis	kabinėjasi kabinėjosi
+8	9708	rifas	rifai rifo rifų
+9	9709	kontinentas	kontinente kontinento kontinentuose kontinentus kontinentą kontinentų
+10	9710	skarda	
+11	9711	biologas	biologai biologo biologų
+12	9712	lopinėlis	lopinėlio lopinėlyje lopinėlį
+13	9713	sujungiamas	sujungiama sujungiami sujungiamos
+14	9714	trekas	treko
+15	9715	parodija	parodijas parodijos parodiją parodijų
+16	9716	apdegti	apdegė
+17	9717	verkšlenti	verkšlena
+18	9718	peršalti	peršalai peršalau peršalo peršals peršalsi peršalus peršalęs
+19	9719	pudingas	pudingo pudingą
+20	9720	prisipildyti	prisipildo prisipildys prisipildė
+21	9721	nuostolingas	nuostolinga nuostolingai nuostolingi nuostolingą nuostolingų
+22	9722	balistinis	balistines balistinių balistinės balistinę
+23	9723	teologas	teologai teologo teologų
+24	9724	nikelis	nikelio nikelį
+25	9725	temperamentas	temperamentai temperamento temperamentą
+26	9726	išlydėti	išlydi išlydėjo išlydės
+27	9727	pasidarbuoti	pasidarbavo
+28	9728	parengiamas	parengiama parengiamasis parengiami parengiamieji parengiamiesiems parengiamojo parengiamuosius parengiamąją
+29	9729	skaitytis	skaitosi
+30	9730	išmatavimas	išmatavimai išmatavimus išmatavimų
+31	9731	antropologija	antropologijos antropologiją
+32	9732	išganymas	išganymo išganymą
+33	9733	nurašyti	nurašo nurašytų nurašė
+34	9734	išspirti	išspyrė
+35	9735	meškerė	meškere meškeres meškerių meškerėmis meškerės meškerę
+36	9736	pagerbimas	pagerbimo pagerbimui pagerbimą
+37	9737	restauratorius	restauratoriai restauratoriams restauratorių
+38	9738	daiktavardis	daiktavardžiai daiktavardžio daiktavardžių
+39	9739	judaizmas	judaizme judaizmo judaizmą
+40	9740	automatizavimas	automatizavimo
+41	9741	užkopti	užkopė
+42	9742	boras	boro boru
+43	9743	pūkas	pūkai pūko pūkų
+44	9744	nutukęs	nutukusiems nutukusių nutukę
+45	9745	apipintas	apipinta apipintos apipintą
+46	9746	parketas	parketo parketą
+47	9747	sugriežtintas	sugriežtinta sugriežtinto sugriežtintos sugriežtintą
+48	9748	pogrindinis	pogrindiniai pogrindinė pogrindinės pogrindinę pogrindinį
+49	9749	atsitiesti	atsities atsitiesia atsitiesė
+50	9750	kašmyras	kašmyre kašmyro
+51	9751	kojelė	kojeles kojelių kojelėmis kojelės
+52	9752	nektaras	nektaro nektaru nektarą
+53	9753	senbuvis	senbuviai senbuviais senbuviams senbuvių
+54	9754	nutildyti	nutildo nutildė
+55	9755	penėti	peni peniu
+56	9756	negarbingas	negarbinga negarbingai negarbingi
+57	9757	susijaudinti	susijaudina susijaudinau susijaudino
+58	9758	dalininkas	dalininkai dalininkais dalininke dalininko dalininku dalininkų
+59	9759	veidelis	veidelį
+60	9760	šeichas	šeichai šeiche šeichui šeichą šeichų
+61	9761	nukautas	nukauta nukautųjų
+62	9762	publicistas	
+63	9763	prispaustas	prispausta prispaustos prispaustą
+64	9764	pasidalijimas	pasidalijimo pasidalijimą
+65	9765	nežinojimas	nežinojimo nežinojimu
+66	9766	nuolydis	nuolydžio nuolydžiu
+67	9767	reformuoti	
+68	9768	šeiminis	šeiminiai šeiminio šeiminius šeiminių šeiminės šeiminę šeiminį
+69	9769	diskvalifikuotas	diskvalifikuota
+70	9770	ežerėlis	ežerėliai ežerėlio ežerėliuose ežerėlius ežerėlių ežerėlyje ežerėlį
+71	9771	perėmimas	perėmimo perėmimu perėmimui perėmimą
+72	9772	atokvėpis	atokvėpio atokvėpiu atokvėpį
+73	9773	žiedelis	žiedeliai žiedeliais žiedelio žiedelius žiedelių žiedelį
+74	9774	devyniasdešimt	
+75	9775	abeja	abejas abejoms abejose
+76	9776	atitikimas	atitikimo atitikimą
+77	9777	žirafa	žirafos žirafą
+78	9778	nugirsti	nugirdau nugirdo nugirsta
+79	9779	orakulas	orakulo
+80	9780	mobilizuoti	mobilizavo mobilizuoja
+81	9781	padovanotas	padovanota padovanotos padovanotą
+82	9782	universalas	universalai universalo
+83	9783	koordinacija	koordinacijos koordinaciją
+84	9784	kapa	
+85	9785	pašėlti	pašėlo
+86	9786	ridikėlis	ridikėliai ridikėliais ridikėlius ridikėlių
+87	9787	debesuotas	debesuota debesuotai debesuoti debesuotus debesuotą
+88	9788	pavaduoti	pavadavo pavaduoja pavaduos
+89	9789	neproporcingas	neproporcinga neproporcingai neproporcingo neproporcingos neproporcingą
+90	9790	nedrąsus	nedrąsi nedrąsiai nedrąsu nedrąsūs
+91	9791	lepinti	lepina lepino lepins
+92	9792	brendimas	brendimo
+93	9793	užburti	užburia užburs užbūrė
+94	9794	vaizdavimas	vaizdavimo
+95	9795	neperšaunamas	neperšaunama neperšaunamos neperšaunamą neperšaunamų
+96	9796	piketas	piketai pikete piketo piketu piketus piketą piketų
+97	9797	aistruolis	aistruoliai aistruoliams aistruolius aistruolių
+98	9798	spėlionė	spėliones spėlionių spėlionėmis spėlionėms spėlionės
+99	9799	padangė	padanges padangių padangėje padangės padangę
+100	9800	korėjietis	korėjiečiai korėjiečiais korėjiečiams

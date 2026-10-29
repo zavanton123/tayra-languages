@@ -1,0 +1,100 @@
+1	4601	tyras	tyra tyri tyro tyros tyru tyruose tyrą
+2	4602	valda	valdoje valdose valdą
+3	4603	pasklisti	pasklido pasklinda pasklis pasklistų
+4	4604	puoselėti	puoselėja puoselėjame puoselėjate puoselėjau puoselėjo puoselėkime puoselės
+5	4605	prisėsti	prisėda prisėdau prisėdo prisėdu prisėskite
+6	4606	atsistatydinti	atsistatydina atsistatydino atsistatydins atsistatydinsiu atsistatydintų atsistatydinu
+7	4607	koeficientas	koeficientai koeficiento koeficientu koeficientus koeficientą koeficientų
+8	4608	džinsai	džinsais džinsus džinsų
+9	4609	blokuoti	blokavo blokuodavo blokuoja blokuos blokuotų
+10	4610	bedarbis	bedarbiai bedarbiais bedarbiams bedarbio bedarbiu bedarbiui bedarbius bedarbių bedarbė bedarbį
+11	4611	signalizacija	signalizacijai signalizacijas signalizacijos signalizaciją
+12	4612	palydėti	palydi palydėdavo palydėjau palydėjo palydės palydėtų
+13	4613	tobulinimas	tobulinimo tobulinimui tobulinimą
+14	4614	raundas	raundai raunde raundo raundui raundą raundų
+15	4615	viščiukas	viščiukai viščiukais viščiukams viščiuko viščiuku viščiukus viščiuką viščiukų
+16	4616	avinas	avinai avinais avinams avine avino avinu avinui avinus aviną avinų
+17	4617	griovys	grioviai grioviais griovio grioviu grioviuose griovius griovių griovyje griovį
+18	4618	gyvavimas	gyvavimo gyvavimui gyvavimą
+19	4619	porcija	porcijai porcijas porcijomis porcijos porciją porcijų
+20	4620	amžinybė	amžinybe amžinybei amžinybėje amžinybės amžinybę
+21	4621	derėtis	derėjomės derėjosi derėsimės derėsis derėtųsi
+22	4622	gidas	gidai gidais gidams gide gido gidu gidus gidą gidų
+23	4623	panašumas	panašumai panašumo panašumu panašumus panašumą panašumų
+24	4624	surašyti	surašiau surašo surašyk surašykite surašys surašytų surašė surašėme
+25	4625	saga	sagas sagomis sagos sagą sagų
+26	4626	susimąstyti	susimąstai susimąstau susimąsto susimąstome susimąstyk susimąstys susimąstytų susimąstė susimąstėte susimąsčiau
+27	4627	miestietis	miestietį miestiečiai miestiečiams miestiečio miestiečius
+28	4628	saugojimas	saugojimo saugojimu saugojimui saugojimą
+29	4629	išvaryti	išvaro išvaryk išvarys išvarytų išvarė
+30	4630	pasididžiavimas	pasididžiavimo pasididžiavimu pasididžiavimą
+31	4631	kepsnys	kepsniai kepsniais kepsnio kepsniu kepsnius kepsnių kepsnį
+32	4632	išgydyti	išgydo išgydys išgydė
+33	4633	kunigaikštystė	kunigaikštystei kunigaikštystėje kunigaikštystės kunigaikštystę kunigaikštysčių
+34	4634	skirstomas	skirstoma skirstomi skirstomos skirstomųjų
+35	4635	nukelti	nukelia nukelkite nukels nukeltų nukėlė
+36	4636	prototipas	prototipai prototipo prototipu prototipus prototipą prototipų
+37	4637	gailestis	gailestį gailesčio gailesčiu
+38	4638	komplimentas	komplimentai komplimentais komplimento komplimentu komplimentus komplimentą komplimentų
+39	4639	avalynė	avalyne avalynei avalynės avalynę
+40	4640	instinktas	instinktai instinktais instinktams instinkto instinktu instinktus instinktą instinktų
+41	4641	pervesti	perveda pervedė pervedžiau perves pervesdavo pervestų
+42	4642	stalčius	stalčiai stalčiaus stalčiuje stalčiuose stalčių
+43	4643	bausti	baudi baudė baudžia baudžiame baudžiate baudžiu baus bausdamas bausdavo bausdavęs bausiu bausk bauskit bausta baustas baustų
+44	4644	įžengti	įžengia įžengiau įžengs įžengtų įžengė įžengėme
+45	4645	pasėlis	pasėliai pasėliams pasėliuose pasėlius pasėlių
+46	4646	genocidas	genocide genocido genocidu genocidui genocidus genocidą
+47	4647	nepagrįstas	nepagrįsta nepagrįstai nepagrįstais nepagrįsti nepagrįsto nepagrįstomis nepagrįstos nepagrįstu nepagrįstus nepagrįstą nepagrįstų
+48	4648	ryžtingas	ryžtinga ryžtingai ryžtingais ryžtingesnė ryžtingi ryžtingiau ryžtingiems ryžtingo ryžtingos ryžtingus ryžtingą ryžtingų
+49	4649	sunaikinimas	sunaikinimo sunaikinimu sunaikinimui sunaikinimą
+50	4650	pajausti	pajausite pajaustų pajauti pajautė pajaučia pajaučiame pajaučiau
+51	4651	prieplauka	prieplaukas prieplaukoje prieplaukos prieplauką prieplaukų
+52	4652	užpuolimas	užpuolimai užpuolime užpuolimo užpuolimu užpuolimus užpuolimą užpuolimų
+53	4653	radaras	radarai radarais radaro radaru radarus radarą radarų
+54	4654	konstatuoti	konstatavo konstatuoja konstatuojame konstatuoju
+55	4655	ietis	ietie ieties ietimi ietimis ietys ietį iečių
+56	4656	servetėlė	servetėle servetėles servetėlių servetėlėmis servetėlės servetėlę
+57	4657	šarvas	šarvais šarvo šarvu šarvuose šarvus šarvą šarvų
+58	4658	orkaitė	orkaite orkaitei orkaitėje orkaitės orkaitę
+59	4659	įmoka	įmokas įmokomis įmokos įmoką įmokų
+60	4660	atakuoti	atakavo atakuodavo atakuoja atakuos atakuotų
+61	4661	didėjantis	didėjanti didėjantys didėjantį didėjančia didėjančiais didėjančias didėjančio didėjančios didėjančiu didėjančius didėjančią didėjančių
+62	4662	skiepas	skiepai skiepais skiepams skiepo skiepus skiepą skiepų
+63	4663	pagalbininkas	pagalbininkai pagalbininkais pagalbininkams pagalbininke pagalbininko pagalbininku pagalbininkus pagalbininką pagalbininkų
+64	4664	samdyti	samdai samdant samdau samdei samdo samdome samdot samdote samdyk samdys samdysiu samdytas samdytum samdytų samdė samdėme samdęs samdžiau
+65	4665	preliminarus	preliminari preliminariai preliminariais preliminariame preliminarias preliminarioje preliminarios preliminariu preliminarius preliminarią preliminarių preliminarūs preliminarų
+66	4666	pasirengimas	pasirengimo pasirengimu pasirengimui pasirengimą
+67	4667	interpretacija	interpretacijai interpretacijas interpretacijoje interpretacijomis interpretacijoms interpretacijos interpretaciją interpretacijų
+68	4668	artilerija	artilerijai artilerijos artileriją
+69	4669	tenkinti	tenkina tenkinamas tenkinamos tenkinantis tenkini tenkino tenkins tenkintas tenkintų
+70	4670	subtilus	subtilaus subtilesnio subtilesnis subtilesnius subtilesnių subtilesnė subtili subtiliai subtiliais subtiliau subtilios subtiliu subtilius subtilią subtilu subtilūs subtilų
+71	4671	prisikėlimas	prisikėlimo prisikėlimui prisikėlimą
+72	4672	sumaišyti	sumaišiau sumaišo sumaišome sumaišyk sumaišykite sumaišytų sumaišė
+73	4673	ėsti	ėda ėdantis ėdi ėdu ėdė ėdžiau ės ėsi ėsiu ėsk ėskit ėstų
+74	4674	apartamentas	apartamentai apartamentais apartamentu apartamentui apartamentuose apartamentus apartamentą apartamentų
+75	4675	vaistininkas	vaistininkai vaistininkams vaistininko vaistininku vaistininką vaistininkų
+76	4676	agresija	agresijai agresijos agresiją
+77	4677	diabetas	diabeto diabetu diabetui diabetą
+78	4678	vanagas	vanagai vanage vanago vanagu vanagui vanagus vanagą vanagų
+79	4679	ane	
+80	4680	kreipimasis	kreipimaisi kreipimesi kreipimosi kreipimusi kreipimusis kreipimąsi kreipimųsi
+81	4681	steigti	steigia steigs steigė
+82	4682	apmaudas	apmaudu apmaudus apmaudą
+83	4683	muštynės	muštynes muštynių muštynėmis muštynėms muštynėse
+84	4684	megztinis	megztiniai megztinio megztiniu megztinius megztinių megztinį
+85	4685	legalus	legalaus legali legaliai legalios legaliu legalius legalią legalių legalu legalūs legalų
+86	4686	malti	mala malat maldavai maldavau maldavo maldavom maldavome malei mali malk malki malkite malsi maltais maltas malte maltus maltų malu malė malęs
+87	4687	strazdas	strazdai strazde strazdo strazdu strazdui strazdą strazdų
+88	4688	emigrantas	emigrantai emigrantais emigrantams emigrante emigranto emigrantu emigrantus emigrantų
+89	4689	susirūpinęs	susirūpinus susirūpinusi susirūpinusios susirūpinusių susirūpinę
+90	4690	spausdinti	spausdina spausdiname spausdino spausdintų
+91	4691	įvažiavimas	įvažiavimai įvažiavimo įvažiavimu įvažiavimus įvažiavimą įvažiavimų
+92	4692	regėti	regi regima regimas regime regite regiu regėdamas regėjai regėjau regėjo regėjome regėjęs regėsi regėsit regėsiu regėtų
+93	4693	drebėti	dreba drebam drebantis drebančiomis drebančiu drebat drebate drebi drebu drebėdamas drebėdavo drebėjau drebėjo drebėkit drebėkite drebės drebėtų drebėčiau
+94	4694	progresas	progreso progresu progresui progresą
+95	4695	šventovė	šventove šventoves šventovių šventovėje šventovės šventovę
+96	4696	paltas	paltai palte palto paltu paltus paltą paltų
+97	4697	dalyti	dalai dalija dalijam dalijame dalijant dalijantis dalijate dalijau dalijo dalijęs dalydavo dalys dalysime dalyte dalė
+98	4698	prižiūrimas	prižiūrima prižiūrimi prižiūrimoje prižiūrimos prižiūrimose prižiūrimuose prižiūrimus prižiūrimą prižiūrimų
+99	4699	konjakas	konjako konjaku konjaką
+100	4700	pašaras	pašarai pašarais pašarams pašaro pašaru pašarui pašarus pašarą pašarų

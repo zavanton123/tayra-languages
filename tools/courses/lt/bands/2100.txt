@@ -1,0 +1,100 @@
+1	2001	analizė	analize analizei analizes analizių analizėje analizėmis analizėms analizės analizę
+2	2002	išvaizda	išvaizdai išvaizdoje išvaizdos išvaizdą išvaizdų
+3	2003	ana	
+4	2004	krepšininkas	krepšininkai krepšininkais krepšininkams krepšininke krepšininko krepšininku krepšininkui krepšininkus krepšininką krepšininkė krepšininkų
+5	2005	tekėti	teka tekant tekantis teki teku tekėdavo tekėjai tekėjau tekėjo tekėjus tekėk tekėkite tekės tekėsi tekėsit tekėsite tekėsiu tekėtum tekėtų tekėčiau
+6	2006	gerbėjas	gerbėja gerbėjai gerbėjais gerbėjams gerbėjau gerbėjo gerbėjoms gerbėjos gerbėju gerbėjui gerbėjus gerbėją gerbėjų
+7	2007	turgus	turgaus turgui turguje turgumi turguose turgūs turgų
+8	2008	kišenė	kišene kišenei kišenes kišenių kišenėje kišenėmis kišenės kišenėse kišenę
+9	2009	baldas	baldai baldais baldams baldo baldu baldus baldą baldų
+10	2010	aukščiau	
+11	2011	šviežias	šviežesnė švieži šviežia šviežiai šviežiais šviežiausi šviežiausia šviežiausias šviežio šviežiomis šviežioms šviežios šviežiu šviežius šviežią šviežių
+12	2012	netikėtas	netikėta netikėtais netikėtam netikėti netikėtiems netikėto netikėtoje netikėtomis netikėtoms netikėtos netikėtu netikėtus netikėtą netikėtų netikėčiau netikėčiausiais netikėčiausias netikėčiausiose netikėčiausių
+13	2013	laiptai	laiptais laiptams laiptus laiptų
+14	2014	paminėti	pamini paminėjau paminėjo paminėjome paminėjote paminės paminėsiu paminėtų paminėčiau
+15	2015	perimti	perima perimame perimdavo perims perimtų perėmiau perėmė perėmėme
+16	2016	branduolinis	branduoline branduolinei branduolines branduoliniai branduoliniais branduoliniam branduoliniame branduoliniams branduolinio branduoliniu branduoliniuose branduolinius branduolinių branduolinė branduolinėje branduolinės branduolinę branduolinį
+17	2017	pasiekimas	pasiekimai pasiekimais pasiekimams pasiekimo pasiekimu pasiekimus pasiekimą pasiekimų
+18	2018	religija	religijai religijas religijoje religijomis religijoms religijos religijose religiją religijų
+19	2019	kautis	kaudavosi kaunamės kaunasi kausimės kausis kovėmės kovėsi
+20	2020	priekinis	priekine priekinei priekines priekiniai priekiniais priekiniame priekinio priekiniu priekinius priekinių priekinė priekinėje priekinėmis priekinės priekinėse priekinę priekinį
+21	2021	pasiduoti	pasidavei pasidaviau pasidavus pasidavė pasidavėm pasidavėme pasidavėt pasidavėte pasidavęs pasiduoda pasiduodam pasiduodame pasiduodant pasiduodantis pasiduodat pasiduodate pasiduodi pasiduodu pasiduok pasiduokim pasiduokit pasiduokite pasiduos pasiduosi pasiduosim pasiduosime pasiduosite pasiduosiu pasiduotum pasiduotume pasiduotų pasiduočiau
+22	2022	įspėti	įspėdavo įspėja įspėjame įspėjau įspėjo įspėjome įspėju įspės įspėtų
+23	2023	slėpti	slepi slepia slepiam slepiama slepiamas slepiame slepiant slepiantis slepiat slepiate slepiu slėpdama slėpdamas slėpdavo slėpei slėpiau slėpk slėpkit slėpkite slėps slėpsi slėpsim slėpsime slėpsiu slėptum slėptų slėpčiau slėpė slėpėm slėpėt slėpėte
+24	2024	vyskupas	vyskupai vyskupais vyskupams vyskupe vyskupo vyskupu vyskupui vyskupus vyskupą vyskupų
+25	2025	nukristi	nukrenta nukrinta nukris nukrisdavo nukristų nukritau nukrito
+26	2026	cheminis	chemine cheminei chemines chemini cheminiai cheminiais cheminiame cheminiams cheminio cheminiu cheminius cheminių cheminė cheminėje cheminėmis cheminėms cheminės cheminėse cheminę cheminį
+27	2027	nutraukti	nutraukdavo nutraukia nutraukiame nutraukite nutrauks nutrauksime nutrauktų
+28	2028	dalytis	daliaus dalijamės dalijasi dalijatės dalijomės dalijosi dalijuosi dalydavosi dalykitės dalysimės dalysis dalytųsi
+29	2029	sąžiningas	sąžininga sąžiningai sąžiningais sąžiningam sąžiningi sąžiningiau sąžiningiausias sąžiningiausią sąžiningiems sąžiningo sąžiningoje sąžiningoji sąžiningos sąžiningu sąžininguose sąžiningus sąžiningą sąžiningų
+30	2030	kuras	kure kuro kuru kurui kurą
+31	2031	menkas	menka menkai menkais menkam menkesni menkesnio menkesnis menkesnė menkesnės menkesnę menki menkiau menkiausi menkiausia menkiausiai menkiausias menkiausiems menkiausio menkiausios menkiausius menkiausią menkiausių menkiems menko menkoje menkos menku menką menkų
+32	2032	pobūdis	pobūdį pobūdžio pobūdžiu pobūdžiui
+33	2033	perspėti	perspėdamas perspėdavo perspėja perspėjai perspėjame perspėjant perspėjantis perspėjau perspėjo perspėjot perspėju perspėjus perspėjęs perspėk perspėkit perspėkite perspės perspėsiu perspėtas perspėtum perspėtumėt perspėtų
+34	2034	angelas	angelai angelais angelams angele angelo angelu angelui angelus angelą angelų
+35	2035	eglė	egle eglei egles eglių eglėmis eglėms eglės eglę
+36	2036	nepastebėti	nepastebi nepastebime nepastebite nepastebiu nepastebėdavau nepastebėjai nepastebėjau nepastebėjo nepastebėjome nepastebėjote nepastebės nepastebėsi nepastebėsite nepastebėtų
+37	2037	strategija	strategijai strategijas strategijoje strategijomis strategijoms strategijos strategijose strategiją strategijų
+38	2038	tvarkyti	tvarkau tvarkiau tvarko tvarkome tvarkomi tvarkote tvarkydavo tvarkykite tvarkys tvarkytų tvarkė tvarkėme
+39	2039	denis	deni deniai deniams denio deniu deniui denius denių denyje denį
+40	2040	gerbti	gerbi gerbia gerbiame gerbiate gerbiau gerbiu gerbk gerbkime gerbkite gerbs gerbsime gerbsiu gerbtume gerbtų gerbė gerbėme
+41	2041	katalikas	katalikai katalikais katalikams kataliko kataliku katalikui katalikus kataliką katalikų
+42	2042	grandinė	grandine grandinei grandines grandinių grandinėje grandinėmis grandinėms grandinės grandinėse grandinę
+43	2043	padovanoti	padovanoja padovanojau padovanojo padovanok padovanokite padovanos padovanosite padovanosiu padovanotų
+44	2044	gintaras	gintarai gintare gintaro gintaru gintarui gintarus gintarą gintarų
+45	2045	uždirbti	uždirba uždirbame uždirbate uždirbau uždirbdavau uždirbdavo uždirbi uždirbo uždirbome uždirbs uždirbsi uždirbsime uždirbsiu uždirbtų uždirbu uždirbčiau
+46	2046	žvejys	žvejai žvejais žvejams žvejo žveju žvejui žvejus žvejį žvejų
+47	2047	šypsotis	besišypsantis šypsaisi šypsausi šypsodavosi šypsojaisi šypsojausi šypsojosi šypsokimės šypsokis šypsokitės šypsomės šypsosi šypsosimės šypsosis šypsositės šypsotumeisi šypsotės šypsotųsi
+48	2048	kuriamas	kuriama kuriamai kuriamais kuriamame kuriami kuriamo kuriamoje kuriamoms kuriamos kuriamu kuriamus kuriamą kuriamų
+49	2049	paauglė	paaugle paauglei paaugles paaugliai paaugliais paaugliams paauglio paaugliu paaugliui paauglius paauglių paauglys paauglėms paauglės paauglę paauglį
+50	2050	mažinti	mažina mažinama mažinamas mažiname mažinami mažinamos mažinant mažinantis mažinat mažinate mažink mažinkime mažinkite mažino mažins mažinsime mažintų mažinu
+51	2051	staigmena	staigmenas staigmenomis staigmenos staigmeną staigmenų
+52	2052	pačiam	
+53	2053	rytinis	rytine rytinei rytines rytiniai rytiniais rytiniam rytiniame rytinio rytiniu rytiniuose rytinius rytinių rytinė rytinėje rytinėmis rytinėms rytinės rytinėse rytinę rytinį
+54	2054	nuostolis	nuostoliai nuostoliais nuostoliams nuostolio nuostolius nuostolių nuostolį
+55	2055	paskatinti	paskatina paskatinkite paskatino paskatins paskatinsime paskatintų
+56	2056	paskaita	paskaitai paskaitas paskaitoje paskaitomis paskaitoms paskaitos paskaitose paskaitą paskaitų
+57	2057	požymis	požymiai požymiais požymiams požymio požymiu požymius požymių požymį
+58	2058	blokas	blokai blokais blokams bloke bloko bloku blokui blokuose blokus bloką blokų
+59	2059	poezija	poezijai poezijoje poezijos poeziją
+60	2060	nuosavybė	nuosavybe nuosavybei nuosavybėje nuosavybės nuosavybę
+61	2061	kvėpavimas	kvėpavimo kvėpavimu kvėpavimui kvėpavimą
+62	2062	sovietinis	sovietine sovietinei sovietines sovietiniai sovietiniais sovietiniam sovietiniams sovietinio sovietiniu sovietiniuose sovietinius sovietinių sovietinė sovietinėje sovietinės sovietinę sovietinį
+63	2063	gyvulys	gyvuliai gyvuliais gyvuliams gyvulio gyvuliu gyvuliui gyvulius gyvulių gyvuly gyvulį
+64	2064	pasižiūrėti	pasižiūri pasižiūrime pasižiūriu pasižiūrėjau pasižiūrėjo pasižiūrėk pasižiūrėkime pasižiūrėkit pasižiūrėkite pasižiūrės pasižiūrėsime pasižiūrėsiu pasižiūrėtume pasižiūrėtų
+65	2065	sklypas	sklypai sklypais sklypams sklype sklypo sklypu sklypui sklypuose sklypus sklypą sklypų
+66	2066	princas	princai princais princo princu princui princus princą princų
+67	2067	neteisėtas	neteisėta neteisėtai neteisėtais neteisėti neteisėtiems neteisėto neteisėtomis neteisėtos neteisėtu neteisėtus neteisėtą neteisėtų
+68	2068	kepti	kepa kepam kepamas kepame kepant kepantis kepdavau kepdavo kepdavom kepei kepi kepiau kepk kepkite keps kepsi kepsim kepsime kepsite kepsiu kepta keptas keptų kepu kepė kepėm kepėte kepęs
+69	2069	opera	operai operas operoje operos operose operą operų
+70	2070	uždaras	uždarose uždara uždarai uždaram uždarame uždare uždari uždariau uždariausias uždaro uždaroje uždaroji uždarojoje uždaros uždarose uždarosios uždaru uždaruose uždarą uždarąją uždarąsias uždarų uždarųjų
+71	2071	degti	dega degam degame degant degantis degaus degdamas degdavau degdavo degei degi degiau degios degiu degių degs degsi degsim degsime degsit degsite degte degtų degu degus degė dek dekit dekite
+72	2072	pilvas	pilvai pilvais pilve pilvo pilvu pilvui pilvus pilvą pilvų
+73	2073	ceremonija	ceremonijai ceremonijas ceremonijoje ceremonijomis ceremonijoms ceremonijos ceremonijose ceremoniją ceremonijų
+74	2074	jautrus	jautraus jautresni jautresnis jautresnius jautresnė jautresnės jautri jautria jautriai jautriais jautriam jautriame jautrias jautriau jautriausi jautriausia jautriausias jautriausios jautriausius jautriausią jautriausių jautriems jautrioje jautriomis jautrioms jautrios jautriose jautriu jautrius jautrią jautrių jautru jautrūs jautrų
+75	2075	suvalgyti	suvalgai suvalgau suvalgei suvalgiau suvalgius suvalgo suvalgome suvalgote suvalgydavau suvalgydavo suvalgyk suvalgykim suvalgykime suvalgykit suvalgykite suvalgys suvalgysi suvalgysim suvalgysime suvalgysit suvalgysite suvalgysiu suvalgytas suvalgyto suvalgytum suvalgytume suvalgytumėt suvalgytą suvalgytų suvalgyčiau suvalgė suvalgėm suvalgėme suvalgėt suvalgėte suvalgęs
+76	2076	patikrinimas	patikrinimai patikrinimais patikrinimams patikrinime patikrinimo patikrinimu patikrinimui patikrinimus patikrinimą patikrinimų
+77	2077	vakarinis	vakarine vakarinei vakarines vakariniai vakariniais vakariniam vakariniame vakarinio vakariniu vakariniuose vakarinius vakarinių vakarinė vakarinėje vakarinėmis vakarinėms vakarinės vakarinėse vakarinę vakarinį
+78	2078	nužudytas	nužudyta nužudytam nužudytasis nužudytieji nužudyto nužudytojo nužudytos nužudytosios nužudytu nužudytus nužudytą nužudytąjį nužudytųjų
+79	2079	rūgštis	rūgšties rūgštimi rūgštimis rūgštys rūgštį rūgščiai rūgščių
+80	2080	sparnas	sparnai sparnais sparne sparnelis sparnelius sparno sparnu sparnui sparnus sparną sparnų
+81	2081	rekordas	rekordai rekordais rekordo rekordu rekordui rekordus rekordą rekordų
+82	2082	svajoti	svajodamas svajodavau svajodavo svajoja svajojai svajojam svajojame svajojant svajojantis svajojate svajojau svajoji svajojo svajojom svajojome svajojot svajojote svajoju svajojęs svajok svajokit svajos svajosi svajosim svajosite svajočiau
+83	2083	dėžutė	dėžute dėžutei dėžutes dėžutėje dėžutėmis dėžutėms dėžutės dėžutėse dėžutę dėžučių
+84	2084	tarnauti	tarnauja tarnauju tarnaus tarnautų tarnavau tarnavo
+85	2085	pasienis	pasieniais pasienio pasieniu pasieniuose pasienyje pasienį
+86	2086	neblogas	nebloga neblogais neblogi neblogos neblogus neblogą neblogų
+87	2087	kaklas	kakle kaklo kaklu kaklui kaklus kaklą kaklų
+88	2088	vairas	vairai vairais vairo vairu vairui vairus vairą vairų
+89	2089	tikimybė	tikimybe tikimybei tikimybių tikimybės tikimybę
+90	2090	supratimas	supratimo supratimu supratimui supratimą
+91	2091	linkti	linkai linki linkim linkime linkite linko links linksi linksta linkstame linksti linkstu linkus linkę linkęs
+92	2092	mygtukas	mygtukai mygtukais mygtuko mygtuku mygtukus mygtuką mygtukų
+93	2093	pėdsakas	pėdsakai pėdsakais pėdsako pėdsakus pėdsaką pėdsakų
+94	2094	užsikrėsti	užsikrečia užsikrės užsikrėstų užsikrėtė užsikrėčiau
+95	2095	didinti	didina didinam didiname didinant didinantis didinate didindamas didini didink didinkit didinkite didino didins didinsime didintų didinu didinus
+96	2096	apribojimas	apribojimai apribojimais apribojimams apribojimo apribojimu apribojimui apribojimus apribojimą apribojimų
+97	2097	nelegalus	nelegalaus nelegali nelegalia nelegaliai nelegaliais nelegalias nelegalioje nelegaliomis nelegalios nelegaliose nelegaliu nelegaliuose nelegalius nelegalią nelegalių nelegalu nelegalūs nelegalų
+98	2098	nutarti	nutardavo nutarei nutaria nutariau nutars nutarsime nutarsite nutarsiu nutartų nutarė nutarėm nutarėme nutarėt nutarėte nutaręs
+99	2099	pristatytas	pristatyta pristatytame pristatyto pristatytoje pristatytos pristatytus pristatytą
+100	2100	draugystė	draugyste draugystei draugystes draugystėje draugystės draugystę draugysčių

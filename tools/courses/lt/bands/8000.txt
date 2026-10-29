@@ -1,0 +1,100 @@
+1	7901	įgaliotinis	įgaliotiniai įgaliotinio įgaliotiniu įgaliotinį
+2	7902	šiurkščiai	šiurkščiau
+3	7903	mojuoti	mojavo mojuoja
+4	7904	žaltys	žalty žaltį žalčio žalčių
+5	7905	nuvežtas	nuvežta
+6	7906	iškviestas	iškviesta iškviestiems iškviestos
+7	7907	susivokti	susivokia susivoks susivokė
+8	7908	stažuotė	stažuotei stažuotes stažuotėje stažuotėms stažuotės stažuotę stažuočių
+9	7909	tirštas	tiršta tirštesnis tirštesnė tiršto tirštos tirštus tirštą tirštų
+10	7910	taurus	tauraus tauriam tauriojo taurios tauriuosius taurius tauriųjų taurusis taurūs taurų
+11	7911	sunaudoti	sunaudodavo sunaudoja sunaudojame sunaudojo sunaudos sunaudotų
+12	7912	erdvas	erdvesnes erdvesni erdvesnio erdvesnis erdvesnius erdvesnė erdvesnės erdvesnėse erdvesnę erdvesnį erdvi erdviau erdvu erdvus
+13	7913	aliarmas	aliarmo aliarmą
+14	7914	parakas	paraką
+15	7915	suleisti	suleido suleidžia suleis
+16	7916	ženkliukas	ženkliukai ženkliukais ženkliuku ženkliukus ženkliuką ženkliukų
+17	7917	dopingas	dopingo dopingą
+18	7918	dangtelis	dangteliais dangtelio dangteliu dangtelius dangtelį
+19	7919	užsiiminėti	užsiiminėja užsiiminėjau užsiiminėjo
+20	7920	atbėgti	atbėga atbėgo atbėgs
+21	7921	išdygti	išdygo išdygs išdygsta išdygtų
+22	7922	ženklinimas	ženklinimo ženklinimą
+23	7923	sočiai	
+24	7924	choreografas	choreografai choreografais choreografe choreografo choreografu choreografui choreografą choreografų
+25	7925	gamintas	gaminta gamintais gaminto gamintos gamintu gamintus gamintą
+26	7926	ideologinis	ideologine ideologines ideologiniai ideologiniais ideologinio ideologiniu ideologinių ideologinė ideologinės ideologinę
+27	7927	susilaužyti	susilaužiau susilaužo susilaužė
+28	7928	gysla	gyslai gyslomis gyslos gyslose gyslą gyslų
+29	7929	nevertinti	nevertina nevertinau nevertini nevertino nevertins nevertinu
+30	7930	išsilaisvinti	išsilaisvina išsilaisvino
+31	7931	garbinimas	garbinimo garbinimu garbinimą
+32	7932	pagrasinti	pagrasino
+33	7933	bevardis	bevardi bevardė bevardės bevardę bevardį bevardžiai bevardžiais bevardžiam bevardžiame bevardžiams bevardžio bevardžiu bevardžiui bevardžiuose bevardžius
+34	7934	nepaklusti	nepaklus nepakluso nepaklūsta
+35	7935	sujaudinti	sujaudina sujaudino
+36	7936	nebrangus	nebrangaus nebrangiai nebrangios nebrangių nebrangu nebrangų
+37	7937	dvejopas	dvejopa dvejopai dvejopais dvejopi dvejopos dvejopu dvejopus dvejopą dvejopų
+38	7938	sėdint	
+39	7939	numirėlis	numirėliai numirėlio numirėlius numirėlių
+40	7940	pagardinti	pagardiname pagardinkite pagardintų
+41	7941	šilas	šile šilui šilą šilų
+42	7942	krautuvėlė	krautuvėlių krautuvėlėje krautuvėlės krautuvėlę
+43	7943	rūšiavimas	rūšiavimo rūšiavimą
+44	7944	bobutė	bobutei bobutės bobutę bobučių
+45	7945	persikas	persikai persikais persike persiko persikus persiką persikų
+46	7946	madona	madonos madoną
+47	7947	dinamitas	dinamitais dinamito dinamitu dinamitui dinamitą
+48	7948	neįveikiamas	neįveikiama neįveikiami neįveikiamos neįveikiamu neįveikiamą neįveikiamų
+49	7949	kirpėjas	kirpėjai kirpėjo kirpėju kirpėjui kirpėjus kirpėją kirpėjų
+50	7950	aušinimas	aušinimo aušinimui
+51	7951	burlaivis	burlaiviai burlaivio burlaiviu burlaivių burlaivį
+52	7952	apibrėžiamas	apibrėžiama apibrėžiami apibrėžiamos
+53	7953	sumedžioti	sumedžiojo sumedžiotų
+54	7954	atskyrimas	atskyrimo atskyrimui atskyrimą
+55	7955	spindėti	spindi spindėjo spindės
+56	7956	užgesinti	užgesina užgesino
+57	7957	veidrodėlis	veidrodėli veidrodėliai veidrodėlio veidrodėlius veidrodėlių veidrodėlį
+58	7958	nekontroliuojamas	nekontroliuojama nekontroliuojamai nekontroliuojami nekontroliuojamo nekontroliuojamą
+59	7959	dislokuoti	dislokuos dislokuotų
+60	7960	vilkolakis	vilkolakiai vilkolakiais vilkolakio vilkolakiu vilkolakius vilkolakių vilkolakį
+61	7961	sunkokas	sunkoka sunkokai
+62	7962	uranas	urano uranui uraną
+63	7963	apysaka	apysakoje apysakos apysaką apysakų
+64	7964	vikšras	vikšrai vikšrais vikšre vikšrus vikšrą vikšrų
+65	7965	pieninis	pienines pieniniai pieninio pieninių pieninė pieninės pieninę pieninį
+66	7966	korespondentas	korespondentai korespondente korespondentu korespondentus korespondentą korespondentų
+67	7967	davai	
+68	7968	maitinamas	maitinama maitinami maitinamos maitinamųjų
+69	7969	treti	
+70	7970	pastūmėti	pastūmėjo pastūmės
+71	7971	barsukas	barsukai barsuke barsuko barsuku barsukui barsuką
+72	7972	pasipilti	pasipila pasipils pasipylė
+73	7973	išalkęs	išalkus išalkusi išalkusiems išalkusių išalkę
+74	7974	mokestinis	mokestines mokestiniai mokestinius mokestinių mokestinė mokestinėms mokestinės mokestinę mokestinį
+75	7975	paskęsti	paskendo paskęs paskęsta paskęstų
+76	7976	pudra	pudros pudrą
+77	7977	barbaras	barbarai barbarus barbarų
+78	7978	informatorius	informatoriai informatoriaus informatoriumi informatorių
+79	7979	kojytė	kojytes kojytės kojytę kojyčių
+80	7980	šarvuotas	šarvuota šarvuotieji šarvuotoji šarvuotos šarvuotosios šarvuotu šarvuotus šarvuotą
+81	7981	persti	perdi perdė perdėm perdėt perdžia persi
+82	7982	išplitęs	išplitus išplitusi išplitusio išplitusios išplitusių išplitę
+83	7983	susisieti	susisiekite
+84	7984	prosenelis	proseneliai prosenelio
+85	7985	vyriškumas	vyriškumo vyriškumu vyriškumą
+86	7986	įlįsti	įlenda įlindau įlindo
+87	7987	baltarusiškas	baltarusiška baltarusiškai baltarusiškais baltarusiški baltarusiško baltarusiškomis baltarusiškos baltarusiškus baltarusišką baltarusiškų
+88	7988	neapgalvotas	neapgalvota neapgalvotai neapgalvoti neapgalvoto neapgalvotos neapgalvotus neapgalvotą neapgalvotų
+89	7989	kompaktiškas	kompaktiška kompaktiškai kompaktiški kompaktiško kompaktiškos kompaktišką kompaktiškų
+90	7990	būgnininkas	būgnininkai būgnininko būgnininku būgnininką
+91	7991	kolonėlė	kolonėles kolonėlių kolonėlėje kolonėlės kolonėlę
+92	7992	nelauktas	nelaukta nelauktai nelaukti nelauktų
+93	7993	nuotėkis	nuotėkio nuotėkį
+94	7994	prigimtinis	prigimtinio prigimtinė prigimtinės prigimtinę prigimtinį
+95	7995	vedžioti	vedžioja vedžiojau vedžiojo
+96	7996	delegatas	delegatai delegatais delegatams delegatus delegatų
+97	7997	suformuluoti	suformulavo
+98	7998	kryptingas	kryptinga kryptingai kryptingo kryptingą
+99	7999	populiarėti	populiarėja populiarės
+100	8000	pamergė	pamerge pamerges pamergių pamergės

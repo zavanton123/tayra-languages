@@ -1,0 +1,100 @@
+1	9201	draskyti	drasko draskė
+2	9202	ratukas	ratukai ratukais ratukus ratuką ratukų
+3	9203	neištirtas	neištirta neištirti neištirtos neištirtų
+4	9204	apsirūpinti	apsirūpina apsirūpino
+5	9205	pateisinamas	pateisinama pateisinami pateisinamos pateisinamų
+6	9206	blizgutis	blizgučiai blizgučiais blizgučius blizgučių
+7	9207	gedulas	gedulo gedulą
+8	9208	painioti	painioja
+9	9209	praleidimas	praleidimo praleidimą
+10	9210	sauja	saujoje saujomis saujos saują
+11	9211	atšokti	atšoka atšoko atšoks
+12	9212	priestatas	priestate priestato priestatą
+13	9213	iššifruoti	iššifravo
+14	9214	šizofrenija	šizofrenijos šizofreniją
+15	9215	menkinti	menkina menkino
+16	9216	nestiprus	nestipriai nestiprūs
+17	9217	šeškas	šeškai šeške šeško šeškus šešką šeškų
+18	9218	įžūlumas	įžūlumo įžūlumą
+19	9219	biurokratas	biurokratai biurokratais biurokratams biurokrato biurokratus biurokratų
+20	9220	dalyba	dalybas dalyboje dalybomis dalybos dalybose dalybų
+21	9221	dubleris	dubleriai dublerių
+22	9222	eliminuoti	eliminavo eliminuoja
+23	9223	kasnakt	
+24	9224	šaukiamas	šaukiama šaukiami šaukiamųjų
+25	9225	skolinti	skolina skolindavo skolino skolintų
+26	9226	iliuzionistas	iliuzionistai iliuzionisto iliuzionistą iliuzionistų
+27	9227	restauracija	restauracijos restauraciją
+28	9228	airė	aires airės airėse airę airį
+29	9229	kultūringas	kultūringa kultūringai kultūringi kultūringiau kultūringo kultūringos kultūringą
+30	9230	skalūnas	skalūno skalūnų
+31	9231	trukdymas	trukdymai trukdymo trukdymu trukdymą trukdymų
+32	9232	rodmuo	rodmenimis rodmenis rodmenys rodmenų
+33	9233	ananasas	ananasai ananasais ananasams ananaso ananasus ananasą ananasų
+34	9234	antpuolis	antpuoliai antpuolio antpuolius antpuolių antpuolį
+35	9235	guosti	guodė guodžia
+36	9236	kandis	kandi kandžiais kandžiu kandžių
+37	9237	užtikti	užtikai užtikau užtiko užtikome užtiksiu užtiktum užtiktų užtinka
+38	9238	savikaina	savikainos savikainą
+39	9239	izoliavimas	izoliavimo
+40	9240	įmaišyti	įmaišome įmaišykite
+41	9241	kalbintas	kalbinta kalbintos
+42	9242	subyrėti	subyrėjo subyrės subyrėtų
+43	9243	pakibti	pakibo pakibs pakimba
+44	9244	įtartinas	
+45	9245	mažiukas	mažiukai mažiukus mažiuką mažiukų
+46	9246	šnipinėti	šnipinėja šnipinėjo
+47	9247	teoretikas	teoretikai teoretikų
+48	9248	šturmas	šturmo šturmą
+49	9249	gaudyklė	gaudykles gaudyklių gaudyklėmis gaudyklės gaudyklę
+50	9250	kirpėja	kirpėjos
+51	9251	nuskandinti	nuskandino
+52	9252	panirti	panirau paniro panirs panyra
+53	9253	statytis	statosi statėsi
+54	9254	rauginti	raugintų
+55	9255	paspaudė	paspaudę
+56	9256	klijuoti	klijavau klijuoja klijuojant klijuoju klijuotų
+57	9257	ėriukas	ėriukai ėriuko ėriuku ėriukui ėriukus ėriuką
+58	9258	aktyvinti	aktyvina
+59	9259	siųstas	siųsta siųstos siųstus siųstą
+60	9260	snarglys	snargliai snargliais snargliams snargliui snarglius snarglių snargly snarglį
+61	9261	beprotnamis	beprotnamį
+62	9262	nevykdymas	nevykdymo nevykdymą
+63	9263	paskaičiuotas	paskaičiuota
+64	9264	kooperacija	kooperacijos kooperaciją
+65	9265	aukojimas	aukojimo aukojimą
+66	9266	atsirinkti	atsirenka atsirinko atsirinks
+67	9267	pareikštas	pareikšta pareikštais pareikšto pareikštos pareikštus pareikštą
+68	9268	mecenatas	mecenatai mecenato mecenatu mecenatų
+69	9269	šėlti	šėlo šėls šėlsta
+70	9270	paglostyti	paglosto paglostys paglostė
+71	9271	neatpažintas	neatpažinti neatpažintus neatpažintą neatpažintų
+72	9272	lenkė	lenkę
+73	9273	nukirpti	nukirpo
+74	9274	doktorantas	doktorantai doktorantams doktoranto doktorantų
+75	9275	išvažiavimas	išvažiavimai išvažiavimo išvažiavimą
+76	9276	amazonė	amazonėje amazonės
+77	9277	dėmelė	dėmeles dėmelių dėmelės dėmelę
+78	9278	liberalizmas	liberalizmo liberalizmą
+79	9279	pašventinti	pašventino
+80	9280	milijoninis	milijonines milijoninius milijoninių milijoninė milijoninės milijoninę milijoninį
+81	9281	antisemitizmas	antisemitizmo antisemitizmu antisemitizmą
+82	9282	pasiskųsti	pasiskundė pasiskundžia
+83	9283	katalikybė	katalikybės katalikybę
+84	9284	pagroti	pagrojo pagros
+85	9285	katinėlis	katinėliai katinėliui katinėlį
+86	9286	sūpynės	sūpynes sūpynių sūpynėse
+87	9287	užbaigimas	užbaigimo užbaigimui užbaigimą
+88	9288	nusifilmuoti	nusifilmavo
+89	9289	susižaloti	susižaloja susižalojo
+90	9290	išgalvoti	išgalvojo išgalvotų
+91	9291	mokytojauti	mokytojavo
+92	9292	homoseksualumas	homoseksualumo homoseksualumu homoseksualumui homoseksualumą
+93	9293	žaluma	žalumos
+94	9294	kepėjas	kepėjai kepėjo kepėju kepėją kepėjų
+95	9295	rūgštus	rūgštaus rūgštu rūgštūs rūgščią
+96	9296	laidumas	laidumo laidumą
+97	9297	aptarimas	aptarimai aptarime aptarimo aptarimui aptarimus aptarimą aptarimų
+98	9298	smaigalys	smaigalio smaigaliu smaigalyje smaigalį
+99	9299	kurortinis	kurortiniame kurortinio kurortinius kurortinių kurortinės kurortinėse kurortinę
+100	9300	replika	replikas replikomis replikos repliką replikų

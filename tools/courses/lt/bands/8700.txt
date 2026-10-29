@@ -1,0 +1,100 @@
+1	8601	prievartavimas	prievartavimai prievartavimo prievartavimu prievartavimą prievartavimų
+2	8602	pavežti	pavežė
+3	8603	piktnaudžiauti	piktnaudžiauja piktnaudžiavo
+4	8604	ganyti	besiganant besiganydamas ganausi gano ganomas ganosi ganydamas ganydavo ganydavosi ganysis ganytis ganyčiau ganė ganėsi
+5	8605	papartis	paparčio paparčių
+6	8606	gultas	gultai gulto gultus gultą gultų
+7	8607	paralyžius	paralyžiaus paralyžių
+8	8608	vangus	vangi vangiai vangūs
+9	8609	gyvenimiškas	gyvenimiška gyvenimiškai gyvenimiški gyvenimiškos gyvenimiškose gyvenimiškus gyvenimišką gyvenimiškų
+10	8610	karikatūra	karikatūras karikatūros karikatūrą karikatūrų
+11	8611	pasižadėti	pasižada pasižadu pasižadėjau pasižadėjo
+12	8612	brukti	bruk bruka brukama brukamas bruki bruko bruks
+13	8613	pasibelsti	pasibeldė pasibeldžia pasibels
+14	8614	aprėpti	aprėpia aprėps
+15	8615	įpareigojimas	įpareigojimai įpareigojimo įpareigojimus įpareigojimą įpareigojimų
+16	8616	šlapdriba	šlapdribos šlapdribą
+17	8617	tamprus	tampri tampriai tamprius tamprūs
+18	8618	įnirtingas	įnirtinga įnirtingai įnirtingi įnirtingo įnirtingos įnirtingų
+19	8619	glaustis	glaudėsi glaudžiasi
+20	8620	klozetas	klozete klozeto klozetus klozetą
+21	8621	pavirti	pavirkite pavirs
+22	8622	fermeris	fermeriai fermerio fermerių
+23	8623	saltas	salto
+24	8624	baudinys	baudinio baudinių baudinį
+25	8625	žvėrynas	žvėryne žvėryno žvėryną
+26	8626	uždengtas	uždengta uždengtame uždengtos uždengtą
+27	8627	skilti	skilo skils skyla
+28	8628	plėšimas	plėšimo plėšimu plėšimus plėšimą plėšimų
+29	8629	pavyzdingas	pavyzdinga pavyzdingai pavyzdingi pavyzdingu pavyzdingą
+30	8630	klojimas	klojimo klojimą
+31	8631	patikslintas	patikslinta patikslintais patikslintos patikslintus patikslintą
+32	8632	japoniškai	
+33	8633	melisa	melisos melisų
+34	8634	įduoti	įdavei įdaviau įdavė įduoda įduodame įduoki įduokit įduos įduosi įduosiu įduotų įduočiau
+35	8635	lavinti	lavinai laviname lavins
+36	8636	kombinezonas	kombinezonai kombinezonais kombinezono kombinezonu kombinezonus kombinezoną kombinezonų
+37	8637	lygiavertis	lygiavertes lygiavertė lygiavertės lygiavertį lygiaverčiai lygiaverčiais lygiaverčio lygiaverčiu lygiaverčius lygiaverčių
+38	8638	horoskopas	horoskopai horoskopais horoskope horoskopo horoskopu horoskopus horoskopą horoskopų
+39	8639	revolveris	revolverio revolveriu revolverius revolverį
+40	8640	manipuliacija	manipuliacijas manipuliacijomis manipuliacijoms manipuliacijos manipuliaciją manipuliacijų
+41	8641	apvalkalas	apvalkale apvalkalo apvalkalą
+42	8642	medūza	medūzas medūzos medūzą medūzų
+43	8643	prisirišęs	prisirišus prisirišusi prisirišę
+44	8644	paveldėjimas	paveldėjimo paveldėjimą
+45	8645	sukonstruoti	sukonstravo
+46	8646	užsidegimas	užsidegimo užsidegimu užsidegimą
+47	8647	tampyti	tampo tampė
+48	8648	dvideginis	dvideginio dvideginiu dvideginį
+49	8649	šukė	šukes šukių šukėmis šukės
+50	8650	kontrabandinis	kontrabandines kontrabandiniais kontrabandinio kontrabandinių kontrabandinėmis kontrabandinės kontrabandinį
+51	8651	kyšininkavimas	kyšininkavimo kyšininkavimu kyšininkavimą
+52	8652	teisėtvarka	teisėtvarkos teisėtvarką
+53	8653	tanklaivis	tanklaiviai tanklaiviais tanklaivio tanklaivius tanklaivių tanklaivį
+54	8654	supjaustytas	supjaustyta supjaustytos supjaustytu supjaustytus supjaustytą
+55	8655	pusšimtis	pusšimtyje pusšimtį pusšimčio pusšimčiu pusšimčiui
+56	8656	santūrus	santūraus santūresni santūri santūriai santūriau santūrūs
+57	8657	padidinimas	padidinimo padidinimui padidinimą
+58	8658	veik	
+59	8659	privilioti	privilioja priviliojo privilios
+60	8660	elektrikas	elektrikai elektriko elektriku elektrikų
+61	8661	išsivaduoti	
+62	8662	įdomumas	įdomumo įdomumą
+63	8663	susidorojimas	susidorojimo susidorojimu susidorojimą
+64	8664	gailus	gailiai gailius gailių
+65	8665	užsakomas	užsakoma užsakomaisiais užsakomasis užsakomi užsakomos užsakomuoju užsakomuosius užsakomųjų
+66	8666	diametras	diametro
+67	8667	prasčiausia	prasčiausiai prasčiausias prasčiausią prasčiausių
+68	8668	vyriausybinis	vyriausybines vyriausybiniai vyriausybinio vyriausybinius vyriausybinių vyriausybinė vyriausybinėms vyriausybinės vyriausybinę vyriausybinį
+69	8669	holas	holo holą
+70	8670	apmauti	apmaus apmausi apmausit apmausiu apmautumėte apmovei apmoviau apmovė apmovėm apmovėme apmovėt apmovėte
+71	8671	ledinis	lediniame ledinio lediniu ledinių ledinė ledinės ledinę ledinį
+72	8672	priekrantė	priekrantėje priekrantės
+73	8673	pozuoti	pozavo pozuoja
+74	8674	sąmyšis	sąmyšio sąmyšiui sąmyšį
+75	8675	rūgštingumas	rūgštingumo rūgštingumui rūgštingumą
+76	8676	atsiskyrimas	atsiskyrimo atsiskyrimą
+77	8677	atskaita	atskaitoje atskaitos
+78	8678	klavišas	klavišai klavišais klavišo klavišu klavišus klavišą klavišų
+79	8679	tramplinas	tramplino tramplinu
+80	8680	atsilikimas	atsilikimo atsilikimą
+81	8681	užstoti	užstoja užstojo užstos užstotų
+82	8682	atotrūkis	atotrūkio atotrūkį
+83	8683	ginčijamas	ginčijami ginčijamo ginčijamos ginčijamus ginčijamą ginčijamų
+84	8684	apšilimas	apšilimo apšilimui apšilimą
+85	8685	sustingti	sustingau sustingo sustings sustingsta sustingtų
+86	8686	perukas	perukais peruko peruku perukus peruką perukų
+87	8687	nežemiškas	nežemiška nežemiško nežemiškos nežemišką nežemiškų
+88	8688	suremontuoti	suremontavo suremontuos
+89	8689	bardas	bardai bardo bardų
+90	8690	teršti	terš teršia teršė
+91	8691	iškeptas	iškepta iškeptos iškeptus iškeptą
+92	8692	spausdintas	spausdinta spausdinto spausdintos spausdintą
+93	8693	atstumtas	atstumta atstumtaisiais atstumtasis atstumtieji atstumtuoju atstumtąja atstumtųjų
+94	8694	apmąstyti	apmąsto apmąstykite apmąstė
+95	8695	keiksmažodis	keiksmažodį keiksmažodžiai keiksmažodžiais keiksmažodžius keiksmažodžių
+96	8696	ketera	keteros keterą
+97	8697	nesivarginti	nesivargina nesivargink nesivargino
+98	8698	skruzdė	skruzdes skruzdės skruzdžių
+99	8699	atgavimas	atgavimo atgavimą
+100	8700	apsakyti	

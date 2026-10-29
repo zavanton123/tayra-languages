@@ -1,0 +1,100 @@
+1	1801	vienetas	vienetai vienetais vienetams vienete vieneto vienetu vienetui vienetuose vienetus vienetą vienetų
+2	1802	minėtas	minėta minėtai minėtais minėtam minėtame minėtasis minėtieji minėtiems minėto minėtoje minėtoji minėtojo minėtomis minėtoms minėtos minėtose minėtosios minėtu minėtuoju minėtuose minėtus minėtą minėtąją minėtąjį minėtąsias minėtųjų
+3	1803	kovotojas	kovotoja kovotojai kovotojais kovotojams kovotojo kovotojos kovotoju kovotojui kovotojus kovotoją kovotojų
+4	1804	bomba	bombai bombas bomboje bombomis bomboms bombos bombą bombų
+5	1805	perkelti	perkelia perkeliame perkelkite perkels perkelsime perkeltų perkėlė perkėlėme
+6	1806	anas	anai anais anam aname anie aniems ano anoje anos anuo anuos aną anų
+7	1807	turistas	turistai turistais turistams turiste turisto turistui turistus turistą turistė turistų
+8	1808	sėkla	sėklai sėklas sėklomis sėkloms sėklos sėklose sėklą sėklų
+9	1809	trukdyti	trukdai trukdantis trukdau trukdei trukdo trukdom trukdomas trukdome trukdot trukdote trukdydavo trukdykite trukdys trukdysi trukdysiu trukdytum trukdytų trukdyčiau trukdė trukdėm trukdžiau trukdžius
+10	1810	statinys	statiniai statiniais statiniams statinio statiniu statiniui statiniuose statinius statinių statinyje statinį
+11	1811	internetinis	internetine internetinei internetines internetiniai internetiniais internetiniam internetiniame internetiniams internetinio internetiniu internetiniuose internetinius internetinių internetinė internetinėje internetinėmis internetinės internetinėse internetinę internetinį
+12	1812	užtrukti	užtrukau užtrukdavo užtruko užtrukome užtruks užtruksime užtruksite užtruktų užtrunka užtrunku
+13	1813	organas	organai organais organams organe organo organu organui organuose organus organą organų
+14	1814	klaipėdietis	klaipėdietė klaipėdietį klaipėdiečiai klaipėdiečiais klaipėdiečiams klaipėdiečio klaipėdiečiu klaipėdiečiui klaipėdiečius klaipėdiečių
+15	1815	rinkimasis	rinkimuose
+16	1816	storas	stora storai storais storam storasis store storesnes storesni storesniais storesnis storesnių storesnė storesnės storesnę storesnį stori storiau storiausi storiausia storiausias storiausią storiausių storiems storo storojo storos storosios storu storus storą storų
+17	1817	įkurtas	įkurta įkurtai įkurtam įkurtame įkurto įkurtoje įkurtos įkurtu įkurtą
+18	1818	pakilti	pakilau pakildavo pakilo pakilome pakils pakiltų pakylame
+19	1819	atlyginimas	atlyginimai atlyginimais atlyginimams atlyginimo atlyginimu atlyginimui atlyginimus atlyginimą atlyginimų
+20	1820	visoks	visokia visokiais visokiam visokias visokie visokiems visokio visokiomis visokios visokiu visokius visokią visokių visokį
+21	1821	pramoga	pramogai pramogas pramogomis pramogoms pramogos pramogą pramogų
+22	1822	dizainas	dizainai dizainais dizaine dizaino dizainu dizainui dizainus dizainą dizainų
+23	1823	kūrybinis	kūrybine kūrybinei kūrybines kūrybiniai kūrybiniais kūrybiniam kūrybiniame kūrybiniams kūrybinio kūrybiniu kūrybinius kūrybinių kūrybinė kūrybinėje kūrybinėms kūrybinės kūrybinėse kūrybinę kūrybinį
+24	1824	apatinis	apatine apatines apatiniai apatiniais apatiniam apatiniame apatiniams apatinio apatiniu apatiniuose apatinius apatinių apatinė apatinėje apatinės apatinę apatinį
+25	1825	pavogti	pavagia pavogei pavogiau pavogs pavogtų pavogė
+26	1826	auginti	augina auginam auginame auginate auginau augindavo augini auginkime augino auginome augins auginsime auginsite auginsiu augintų auginu
+27	1827	televizorius	televizoriai televizoriais televizoriams televizoriau televizoriaus televizoriui televizoriuje televizoriumi televizoriuose televizorių
+28	1828	rinkėjas	rinkėjų rinkėja rinkėjai rinkėjais rinkėjams rinkėjau rinkėjo rinkėju rinkėjui rinkėjus rinkėją rinkėjų
+29	1829	skystis	skydais skystyje skystį skysčiai skysčiais skysčiams skysčio skysčiu skysčiui skysčius skysčių
+30	1830	paieška	paieškai paieškas paieškoje paieškomis paieškoms paieškos paieškose paiešką paieškų
+31	1831	regioninis	regionine regioninei regionines regioniniai regioniniais regioniniam regioniniame regioniniams regioninio regioniniu regioniniuose regioninius regioninių regioninė regioninėje regioninės regioninėse regioninę regioninį
+32	1832	legenda	legendai legendas legendoje legendomis legendoms legendos legendose legendą legendų
+33	1833	mamytė	mamyte mamytei mamytes mamytėmis mamytėms mamytės mamytę mamyčių
+34	1834	pertrauka	pertraukas pertraukomis pertraukos pertrauką pertraukų
+35	1835	spaudimas	spaudimo spaudimu spaudimui spaudimą
+36	1836	modernus	modernaus modernesni modernesnis modernesnių modernesnė modernesnės modernesnę moderni modernia moderniai moderniais moderniam moderniame modernias moderniausi moderniausia moderniausias moderniausios moderniausią moderniausių moderniems modernioje modernioji moderniojo moderniomis modernios moderniose moderniosios moderniu moderniuose modernius modernią moderniąsias modernių moderniųjų modernu modernusis modernūs modernų
+37	1837	padidėti	padidėja padidėjo padidės padidėtų
+38	1838	visuomeninis	visuomenine visuomeninei visuomenines visuomeniniai visuomeniniais visuomeniniam visuomeniniame visuomeniniams visuomeninio visuomeniniu visuomeniniuose visuomeninius visuomeninių visuomeninė visuomeninėje visuomeninėmis visuomeninėms visuomeninės visuomeninėse visuomeninę visuomeninį
+39	1839	užsakymas	užsakymai užsakymais užsakymams užsakymo užsakymu užsakymus užsakymą užsakymų
+40	1840	federacija	federacijai federacijas federacijoje federacijomis federacijoms federacijos federacijose federaciją federacijų
+41	1841	fakultetas	fakultetai fakultete fakulteto fakultetu fakultetui fakultetuose fakultetus fakultetą fakultetų
+42	1842	reikšmingas	reikšminga reikšmingai reikšmingais reikšmingesni reikšmingesnis reikšmingesnė reikšmingi reikšmingiausi reikšmingiausia reikšmingiausias reikšmingiausiu reikšmingiausius reikšmingiausią reikšmingiausių reikšmingo reikšmingomis reikšmingos reikšmingu reikšmingus reikšmingą reikšmingų
+43	1843	šįvakar	
+44	1844	smėlis	smeli smelio smėlio smėliu smėlyje smėlį
+45	1845	interviu	
+46	1846	paskola	paskolai paskolas paskolomis paskoloms paskolos paskolą paskolų
+47	1847	popiežius	popiežiai popiežiau popiežiaus popiežiui popiežiumi popiežių
+48	1848	programėlė	programėle programėlei programėles programėlių programėlėje programėlėmis programėlėms programėlės programėlėse programėlę
+49	1849	konstrukcija	konstrukcijai konstrukcijas konstrukcijoje konstrukcijomis konstrukcijoms konstrukcijos konstrukcijose konstrukciją konstrukcijų
+50	1850	scenarijus	scenarijai scenarijais scenarijams scenarijaus scenarijui scenarijuje scenarijumi scenarijų
+51	1851	ciklas	ciklai ciklais ciklams cikle ciklo ciklu ciklui ciklus ciklą ciklų
+52	1852	dėtis	dedamės dedantis dedas dedasi dedatės dediesi dėdamasis dėdavosi dėjaisi dėjaus dėjausi dėjosi dėjęsis dėkis dėkitės dėsies dėsiesi dėsis dėsiuos
+53	1853	buvimas	buvimo buvimu buvimui buvimą
+54	1854	paskirtis	paskirties paskirtimi paskirtį paskirčiai paskirčių
+55	1855	informacinis	informacine informacinei informacines informaciniai informaciniais informaciniame informaciniams informacinio informaciniu informaciniuose informacinius informacinių informacinė informacinėje informacinėmis informacinėms informacinės informacinėse informacinę informacinį
+56	1856	užsikrėtimas	užsikrėtimo
+57	1857	iškovoti	iškovoja iškovojo iškovos iškovotų
+58	1858	dvidešimt	dvidešimties dvidešimtyje dvidešimtį dvidešimčia dvidešimčiai
+59	1859	vertingas	vertinga vertingais vertingesni vertingesnio vertingesnis vertingesnė vertingesnės vertingi vertingiau vertingiausi vertingiausia vertingiausias vertingiausio vertingiausios vertingiausiu vertingiausius vertingiausią vertingiausių vertingo vertingomis vertingos vertingosios vertingu vertingus vertingą vertingąsias vertingų vertingųjų
+60	1860	bičas	bičai bičais bičams biče bičo biču bičui bičus bičą bičų
+61	1861	didvyris	didvyri didvyriai didvyriais didvyriams didvyrio didvyriu didvyriui didvyrius didvyrių didvyrį
+62	1862	pėsčias	pėstieji pėstiesiems pėsčia pėsčiajam pėsčiasis pėsčioji pėsčiojo pėsčiomis pėsčiosios pėsčiuoju pėsčiuosius pėsčiąją pėsčiąjį pėsčiųjų
+63	1863	nusileisti	nusileidau nusileidi nusileido nusileidome nusileidžia nusileidžiame nusileidžiu nusileis nusileisdavo nusileiskite nusileistų
+64	1864	vargas	vargai vargais varge vargo vargu vargą
+65	1865	nusikaltėlis	nusikaltėle nusikaltėli nusikaltėliai nusikaltėliais nusikaltėliams nusikaltėlio nusikaltėliu nusikaltėliui nusikaltėlius nusikaltėlių nusikaltėlė nusikaltėlės nusikaltėlį
+66	1866	civilinis	civiline civilinei civilines civiliniai civiliniais civiliniam civiliniame civiliniams civilinio civiliniu civilinius civilinių civilinė civilinėje civilinėmis civilinėms civilinės civilinėse civilinę civilinį
+67	1867	atsikratyti	atsikrato atsikratome atsikratyk atsikratykite atsikratys atsikratysi atsikratysime atsikratysite atsikratytume atsikratytų atsikratė atsikratėme atsikračiau
+68	1868	atžvilgis	atžvilgiais atžvilgiu atžvilgių
+69	1869	sužeistas	sužeista sužeistais sužeistaisiais sužeistam sužeistasis sužeistieji sužeistiems sužeistiesiems sužeisto sužeistojo sužeistos sužeistu sužeistuosius sužeistus sužeistą sužeistąjį sužeistųjų
+70	1870	katedra	katedrai katedras katedroje katedromis katedros katedrą katedrų
+71	1871	remontas	remontai remonto remontu remontui remontus remontą remontų
+72	1872	apžiūrėti	apžiūri apžiūrim apžiūrimas apžiūrint apžiūrintis apžiūriu apžiūrėdavo apžiūrėjai apžiūrėjau apžiūrėjo apžiūrėjom apžiūrėjome apžiūrėjus apžiūrėjęs apžiūrėk apžiūrėkim apžiūrėkime apžiūrėkit apžiūrėkite apžiūrės apžiūrėsi apžiūrėsim apžiūrėsime apžiūrėsite apžiūrėsiu apžiūrėtum apžiūrėtume apžiūrėtumėte apžiūrėtų apžiūrėčiau
+73	1873	varžovas	varžovai varžovais varžovams varžove varžovo varžovu varžovui varžovus varžovą varžovų
+74	1874	produkcija	produkcijai produkcijoje produkcijos produkciją
+75	1875	pagaminti	pagamina pagaminame pagaminau pagamindavo pagaminkite pagamino pagaminome pagamins pagaminsite pagamintų
+76	1876	rankinis	rankine rankines rankiniai rankiniais rankiniam rankiniame rankinio rankiniu rankiniui rankinius rankinių rankinė rankinėje rankinėmis rankinės rankinę rankinį
+77	1877	spindulys	spinduliai spinduliais spinduliams spindulio spinduliu spinduliui spinduliuose spindulius spindulių spindulyje spindulį
+78	1878	praktiškas	praktiška praktiškai praktiškais praktiškesni praktiški praktiškiau praktiškos praktišku praktiškus praktišką praktiškų
+79	1879	kardas	kardai kardais karde kardo kardu kardui kardus kardą kardų
+80	1880	galerija	galerijai galerijas galerijoje galerijos galerijose galeriją galerijų
+81	1881	susisiekimas	susisiekimo susisiekimui susisiekimą
+82	1882	aliejus	aliejai aliejais aliejaus aliejui aliejuje aliejumi aliejų
+83	1883	nuostata	nuostatai nuostatais nuostatas nuostatomis nuostatoms nuostatos nuostatose nuostatuose nuostatus nuostatą nuostatų
+84	1884	palankus	palankaus palankesne palankesnes palankesni palankesnio palankesnis palankesnius palankesnių palankesnė palankesnės palankesnę palankesnį palanki palankia palankiai palankiais palankias palankiausi palankiausia palankiausiai palankiausias palankiausios palankiausiu palankiausią palankioje palankiomis palankioms palankios palankiu palankius palankią palankių palanku palankūs palankų
+85	1885	kėdė	kėde kėdei kėdes kėdėje kėdėmis kėdėms kėdės kėdėse kėdę kėdžių
+86	1886	miegas	miege miego miegu miegui miegus miegą
+87	1887	audra	audrai audras audroje audromis audroms audros audrą audrų
+88	1888	dėkingas	dėkinga dėkingai dėkingi dėkingos dėkingų
+89	1889	pasakojimas	pasakojimai pasakojimais pasakojime pasakojimo pasakojimu pasakojimui pasakojimuose pasakojimus pasakojimą pasakojimų
+90	1890	kadencija	kadencijai kadencijas kadencijoje kadencijoms kadencijos kadenciją kadencijų
+91	1891	lyginti	lygina lyginama lyginamas lyginamasis lyginame lyginami lyginamoji lyginamos lyginamosios lyginamuoju lyginamąją lyginant lyginat lyginate lyginau lygindamas lygini lygino lyginome lygins lyginsi lyginsim lyginsime lyginsiu lygintume lyginu
+92	1892	pusryčiai	pusryčiais pusryčiams pusryčiuose pusryčius pusryčių
+93	1893	melas	melai melais mele meli melo melu melui melus melą melų
+94	1894	vengti	vengdamas vengdavo vengei vengi vengia vengiam vengiame vengiant vengiate vengiau vengiu vengs vengsi vengsime vengsite vengsiu vengtinas vengtų vengčiau vengė vengėte vengęs venk venki venkime venkit venkite
+95	1895	išeitis	išeičių išeities išeitimi išeitys išeitį išeičių
+96	1896	reforma	reformai reformas reformomis reformoms reformos reformą reformų
+97	1897	statusas	statuso statusu statusui statusą
+98	1898	baterija	baterijai baterijas baterijoje baterijomis baterijoms baterijos baterijose bateriją baterijų
+99	1899	penkeri	penkeriais penkerias penkeriems penkerius penkerių
+100	1900	minimas	minima minimai minimame minimi minimo minimoje minimos minimu minimus minimą minimų

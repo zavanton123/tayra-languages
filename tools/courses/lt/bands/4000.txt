@@ -1,0 +1,100 @@
+1	3901	šlamštas	šlamšto šlamštu šlamštą
+2	3902	bučinys	bučiniai bučiniais bučiniams bučinio bučiniu bučiniui bučinius bučinių bučinyje bučinį
+3	3903	įpėdinis	įpėdiniai įpėdiniams įpėdinio įpėdiniu įpėdiniui įpėdinį
+4	3904	diagnostika	diagnostikai diagnostikos diagnostiką
+5	3905	reabilitacija	reabilitacijai reabilitacijos reabilitaciją
+6	3906	įsimylėjęs	įsimylėjus įsimylėjusi įsimylėjusio įsimylėjusios įsimylėjusių įsimylėjusį įsimylėję
+7	3907	vaikutis	vaikutį vaikučiai vaikučiais vaikučiams vaikučio vaikučiu vaikučiui vaikučius vaikučių
+8	3908	užauginti	užaugina užauginau užaugino užauginome užauginote užaugins užaugintų
+9	3909	vagonas	vagonai vagonais vagone vagono vagonu vagonui vagonuose vagonus vagoną vagonų
+10	3910	tinklinis	tinkliniai tinklinio tinklinės tinklinį
+11	3911	tyrėjas	tyrėjams tyrėjui tyrėjus tyrėją tyrėjų
+12	3912	taupyti	taupai taupau taupiau taupo taupome taupyk taupykite taupys taupytų taupė
+13	3913	tekstilė	tekstilei tekstilės tekstilę
+14	3914	vogti	vagia vogdavo vogtų vogė
+15	3915	auklėtinis	auklėtiniai auklėtiniais auklėtiniams auklėtinio auklėtiniu auklėtiniui auklėtinius auklėtinių auklėtinį
+16	3916	suplanuotas	suplanuota suplanuotai suplanuotiems suplanuoto suplanuotos suplanuotu suplanuotus suplanuotą
+17	3917	ilgėtis	ilgimės ilgisi ilgitės ilgiuosi ilgėjausi ilgėjosi ilgėsimės ilgėsis
+18	3918	jutiklis	jutikliai jutikliais jutiklio jutikliu jutiklius jutiklių jutiklį
+19	3919	koplyčia	koplyčioje koplyčios koplyčią
+20	3920	paremti	paremia parems paremsime paremtume paremtų
+21	3921	atletika	atletikai atletikoje atletikos atletiką
+22	3922	kilpa	kilpai kilpas kilpoje kilpomis kilpos kilpose kilpą kilpų
+23	3923	prižadėti	prižada prižadu prižadėjau prižadėjo
+24	3924	sąlytis	sąlytį sąlyčio
+25	3925	bėgis	begiu bėgiai bėgiais bėgio bėgiu bėgiui bėgius bėgių bėgyje bėgį
+26	3926	demonstracija	demonstracijai demonstracijas demonstracijoje demonstracijomis demonstracijoms demonstracijos demonstracijose demonstraciją demonstracijų
+27	3927	neprarasti	nepraradau neprarado nepraradome nepraranda neprarandu nepraras neprarasime neprarasite neprarasiu nepraraskime nepraraskite neprarastume neprarastų neprarasčiau
+28	3928	slėptuvė	slėptuves slėptuvių slėptuvėje slėptuvės slėptuvėse slėptuvę
+29	3929	benamis	bename benamei benami benamiai benamiais benamiam benamiams benamio benamiu benamiui benamius benamių benamė benamėmis benamės benamę benamį
+30	3930	pavogtas	pavogta pavogtais pavogto pavogtos pavogtus pavogtą
+31	3931	galaktika	galaktikai galaktikas galaktikoje galaktikos galaktikose galaktiką galaktikų
+32	3932	atsitiktinis	atsitiktine atsitiktines atsitiktiniai atsitiktiniais atsitiktiniam atsitiktiniams atsitiktiniems atsitiktinio atsitiktiniu atsitiktinius atsitiktinių atsitiktinė atsitiktinės atsitiktinėse atsitiktinę atsitiktinį
+33	3933	rikti	rikai riko riktas
+34	3934	jautiena	jautienai jautienoje jautienos jautieną
+35	3935	apsigyventi	apsigyvena apsigyvenau apsigyveno apsigyvenome apsigyvens apsigyventų
+36	3936	tiesti	tiesdamas tiesi tiesia tiesiam tiesiame tiesiant tiesiau tiesimas tiesimo tiesiu tiesk tiesė
+37	3937	sukauptas	sukaupta sukaupto sukauptomis sukauptos sukauptu sukauptus sukauptą
+38	3938	sverti	sveri sveria sveriate sveriu svers svertų svėriau
+39	3939	pulsas	pulso pulsą
+40	3940	plėstis	plečiasi plėsis plėtėsi
+41	3941	aplinkosauga	aplinkosaugos
+42	3942	atsakas	atsaku atsakui atsaką
+43	3943	islamas	islamo islamui islamą
+44	3944	būstinė	būstinei būstines būstinėje būstinės būstinėse būstinę
+45	3945	referendumas	referendumai referendume referendumo referendumu referendumui referendumuose referendumą referendumų
+46	3946	gesti	gedo genda gendantis gendi gesdavo gestai gestais gestas gesto gestu gestus gestą gestų gęsta gęsti
+47	3947	bailys	bailiai bailiais bailiams bailio bailiu bailius
+48	3948	taisyti	taisai taisau taisei taisiau taiso taisom taisome taisydamas taisydavo taisyk taisykit taisys taisysiu taisytas taisytų taisė taisėm
+49	3949	ukrainietis	ukrainietė ukrainietės ukrainietį ukrainiečiai ukrainiečiais ukrainiečiams ukrainiečio ukrainiečiui ukrainiečius ukrainiečių
+50	3950	krikščionybė	krikščionybe krikščionybei krikščionybėje krikščionybės krikščionybę
+51	3951	blynas	blynai blynais blynams blyno blynus blyną blynų
+52	3952	rodyklė	rodykle rodykles rodyklių rodyklėmis rodyklės rodyklę
+53	3953	nesutarimas	nesutarimai nesutarimais nesutarimams nesutarimus nesutarimą nesutarimų
+54	3954	susituokti	susituokia susituoks susituoksime susituokė susituokėme susituokėte
+55	3955	ekipažas	ekipažai ekipažams ekipaže ekipažo ekipažu ekipažui ekipažą ekipažų
+56	3956	individas	individai individams individo individu individui individus individą individų
+57	3957	slenkstis	slenkstį slenksčiai slenksčio slenksčius slenksčių
+58	3958	plunksna	plunksnai plunksnas plunksneles plunksnelė plunksnoje plunksnomis plunksnos plunksnose plunksną plunksnų
+59	3959	tobulinti	tobulina tobuliname tobulinau tobulino tobulins tobulinsime tobulinu
+60	3960	atskristi	atskrenda atskridau atskrido atskridome atskris atskrisdavo
+61	3961	galvijas	galvijai galvijams galvijau galvijo galvijus galviją galvijų
+62	3962	gabus	gabaus gabesnius gabi gabiai gabiais gabiam gabiausi gabiausias gabiausieji gabiausiems gabiausius gabiausių gabieji gabiems gabios gabiose gabius gabią gabių gabūs gabų
+63	3963	kvadratinis	kvadratiniai kvadratiniam kvadratiniame kvadratinio kvadratinius kvadratinių kvadratinė kvadratinės kvadratinę kvadratinį
+64	3964	susitikinėti	susitikinėdavo susitikinėja susitikinėjame susitikinėjate susitikinėjau susitikinėjo susitikinėjome susitikinėju susitikinės
+65	3965	europinis	europine europinei europines europiniai europiniais europiniame europiniams europinio europiniu europiniuose europinius europinių europinė europinėje europinėmis europinėms europinės europinėse europinę europinį
+66	3966	sugesti	sugedo sugenda suges sugestų
+67	3967	lėtinis	lėtine lėtines lėtiniai lėtinio lėtiniu lėtinius lėtinių lėtinė lėtinėmis lėtinės lėtinę lėtinį
+68	3968	apriboti	apriboja apribojo apribokite apribos apribotų
+69	3969	pulkas	pulkai pulkais pulkams pulke pulko pulku pulkui pulkus pulką pulkų
+70	3970	kilnus	kilnaus kilnesnio kilnesnis kilnesnė kilnesnį kilni kilnia kilniai kilniais kilniam kilnias kilniausias kilniausiasis kilniausios kilniausių kilniems kilnioji kilnios kilniu kilnią kilnių kilniųjų kilnu kilnusis kilnūs kilnų kilnųjį
+71	3971	sudegti	sudega sudegs sudegtų sudegė
+72	3972	garas	garams gare garo garu garui garuose garus garą garų
+73	3973	pasiryžęs	pasiryžus pasiryžusi pasiryžusiems pasiryžusios pasiryžusių pasiryžę
+74	3974	amerikietiškas	amerikietiška amerikietiškai amerikietiškais amerikietiškame amerikietiškasis amerikietiški amerikietiško amerikietiškoje amerikietiškojo amerikietiškos amerikietiškosios amerikietišku amerikietiškus amerikietišką amerikietiškąjį amerikietiškų
+75	3975	linksmintis	linksminamės linksminasi linksminkitės linksminomės linksminosi linksminsis linksminuosi
+76	3976	pakankamas	pakankama pakankami pakankamo pakankamos pakankamu pakankamus pakankamą pakankamų
+77	3977	lazeris	lazeriai lazeriais lazerio lazeriu lazerius lazerių lazerį
+78	3978	musulmonas	musulmonai musulmonais musulmonams musulmonu musulmonus musulmonė musulmonų
+79	3979	klausinėti	klausinėdavo klausinėja klausinėjau klausinėjo klausinėju klausinės
+80	3980	knygelė	knygele knygeles knygelių knygelėje knygelėmis knygelės knygelėse knygelę
+81	3981	tarša	taršą
+82	3982	antrinis	antrine antrinei antrines antriniai antriniam antrinio antrinius antrinių antrinė antrinėje antrinėmis antrinės antrinę antrinį
+83	3983	riebus	riebaus riebesni riebesnio riebesnis riebesnė riebesnį riebi riebia riebiai riebiais riebiau riebios riebiosios riebius riebią riebių riebiųjų riebūs riebų
+84	3984	pomėgis	pomėgiai pomėgiais pomėgiams pomėgio pomėgiu pomėgiui pomėgius pomėgių pomėgį
+85	3985	dabartis	dabarties dabartimi dabartyje dabartį dabarčiai
+86	3986	stabilumas	stabilumo stabilumu stabilumui stabilumą
+87	3987	herbas	herbai herbais herbe herbo herbu herbui herbuose herbus herbą herbų
+88	3988	popierinis	popierine popierines popieriniai popieriniais popieriniame popierinio popieriniu popierinius popierinių popierinė popierinės popierinę popierinį
+89	3989	atšauktas	atšaukta atšaukto atšauktos atšauktus atšauktą
+90	3990	ieškinys	ieškiniai ieškiniais ieškiniams ieškinio ieškiniu ieškiniui ieškiniuose ieškinius ieškinių ieškinyje ieškinį
+91	3991	įsitraukti	įsitraukia įsitraukiame įsitraukiau įsitrauks įsitrauktų įsitraukė
+92	3992	plėsti	plečia plečiame plės plėsime plėskite plėstų plėtė
+93	3993	kalis	kalio
+94	3994	avarinis	avarine avarinei avarini avariniai avariniais avariniam avariniame avariniams avarinio avariniu avarinius avarinių avarinė avarinėmis avarinės avarinę avarinį
+95	3995	pažangus	pažangaus pažangesnis pažangesnių pažangesnė pažangi pažangia pažangiai pažangiais pažangias pažangiausi pažangiausia pažangiausias pažangiausiomis pažangiausios pažangiausius pažangiausią pažangiausių pažangioji pažangiojo pažangiomis pažangios pažangius pažangią pažangių pažangūs
+96	3996	priartėti	priartėdavo priartėja priartėjo priartėjome priartės priartėsime priartėtų
+97	3997	finalinis	finalinei finalines finaliniai finaliniam finaliniame finalinio finaliniu finalinių finalinė finalinėje finalinėmis finalinėms finalinės finalinėse finalinę finalinį
+98	3998	mandagus	mandagaus mandagesni mandagesnis mandagesnė mandagi mandagiai mandagiais mandagiau mandagiu mandagių mandagu mandagūs mandagų
+99	3999	aukštumas	aukštumoje aukštumomis aukštumos aukštumose aukštumą aukštumų
+100	4000	tremtis	tremties tremtimi tremtyje tremtį

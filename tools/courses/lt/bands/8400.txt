@@ -1,0 +1,100 @@
+1	8301	telefoninis	telefoniniai telefoniniams telefoninio telefoninius telefoninių telefoninį
+2	8302	gimnazistas	gimnazistai gimnazistais gimnazistams gimnazistus gimnazistų
+3	8303	vestis	vedasi vedėsi vesdavosi
+4	8304	juvelyrika	juvelyrikos juvelyriką
+5	8305	nušalintas	nušalinta nušalintojo
+6	8306	padarymas	padarymo padarymu padarymui padarymą
+7	8307	darbingumas	darbingumo darbingumui darbingumą
+8	8308	prisiartinti	prisiartina prisiartino
+9	8309	pagerintas	pagerinta pagerintos pagerintą
+10	8310	grumtis	grumiasi grumsis grūmėsi
+11	8311	svetimšalis	svetimšaliai svetimšaliams svetimšalio svetimšalius svetimšalių svetimšalį
+12	8312	adventas	advento adventą
+13	8313	gipsas	gipso gipsu gipsą
+14	8314	dvitaškis	dvitaškiai dvitaškiais dvitaškio dvitaškiu dvitaškius dvitaškių dvitaškį
+15	8315	atgabentas	atgabenta atgabento atgabentos
+16	8316	dėlė	dėlei dėles dėlių
+17	8317	sumanytoja	sumanytojai sumanytojas sumanytojo sumanytojos sumanytojų
+18	8318	išskirtas	išskirta išskirtos
+19	8319	reprezentuoti	reprezentavo reprezentuoja
+20	8320	fanatikas	fanatikai fanatikais fanatikams fanatikų
+21	8321	žinynas	žinynai žinyne žinyno žinyną
+22	8322	kliedesys	kliedesiai kliedesiais kliedesius kliedesių kliedesį
+23	8323	įamžintas	įamžinta įamžintos įamžintus
+24	8324	samanos	samanas samanomis samanų
+25	8325	klastotė	klastotes klastotėmis klastotę klastočių
+26	8326	praustis	prausiasi prauskitės prausėsi
+27	8327	ragauti	ragauja ragaujame ragauju ragaukite ragaus ragavau ragavo
+28	8328	sklendė	sklendes sklendės sklendę
+29	8329	vietovardis	vietovardžiai vietovardžiais vietovardžio vietovardžius vietovardžių
+30	8330	laužyti	laužys
+31	8331	apart	
+32	8332	įteisintas	įteisinta įteisintos
+33	8333	gėlynas	gėlynai gėlynais gėlynams gėlyne gėlyno gėlynu gėlynuose gėlynus gėlyną gėlynų
+34	8334	grožėtis	grožimės grožisi grožėjausi grožėjomės grožėkitės
+35	8335	žuvėdra	žuvėdroje žuvėdros žuvėdrą žuvėdrų
+36	8336	santykinis	santykinė santykinės santykinę santykinį
+37	8337	modifikuotas	modifikuota modifikuotos modifikuotus modifikuotą
+38	8338	dekoruotas	dekoruota dekoruoto dekoruotos dekoruotą
+39	8339	pargabenti	pargabeno pargabentų
+40	8340	avokadas	avokadai avokadais avokado avokadu avokaduose avokadus avokadą avokadų
+41	8341	neigimas	neigimo neigimu neigimą
+42	8342	sergėtojas	sergėtoja sergėtojai sergėtojams sergėtojų
+43	8343	pelytė	pelyte pelytės pelytę
+44	8344	provokacija	provokacijai provokacijas provokacijomis provokacijoms provokacijos provokaciją provokacijų
+45	8345	aukuras	aukure aukuro aukuru aukurą aukurų
+46	8346	trupė	trupe trupei trupėje trupėse
+47	8347	ba	
+48	8348	kaitra	kaitrai kaitroje kaitros kaitrą
+49	8349	miškininkystė	miškininkystės
+50	8350	romuva	romuvos
+51	8351	drėkinti	drėkina drėkinkite
+52	8352	keturratis	keturratį keturračiai keturračiais keturračio keturračiu keturračius keturračių
+53	8353	suderinamas	suderinama suderinami suderinamos
+54	8354	skalbti	skalbdavo skalbei skalbia skalbiant skalbiat skalbiau skalbiu skalbk skalbs skalbsi skalbė
+55	8355	nepataikyti	nepataiko nepataikė
+56	8356	aplinkkelis	aplinkkeliais aplinkkelio aplinkkeliu aplinkkeliui aplinkkelyje aplinkkelį
+57	8357	lukštas	lukštai lukšto lukštu lukštus lukštų
+58	8358	liaudiškas	liaudiška liaudiškai liaudiško liaudiškos liaudiškus liaudišką liaudiškų
+59	8359	sprogdinimas	sprogdinimo sprogdinimus sprogdinimą sprogdinimų
+60	8360	suremontuotas	suremontuota suremontuotos suremontuotą
+61	8361	praktikuoti	praktikavo praktikuoja
+62	8362	nerimtas	nerimta nerimtai nerimti
+63	8363	aneksija	aneksijos aneksiją
+64	8364	mikrobas	mikrobai mikrobams mikrobus mikrobų
+65	8365	išgama	išgamos
+66	8366	peršokti	peršoka peršoko peršoks
+67	8367	atpirkimas	atpirkimo
+68	8368	įtarus	įtariai įtarūs
+69	8369	ištirtas	ištirtos ištirtus
+70	8370	realizavimas	realizavimo
+71	8371	suverenitetas	suvereniteto suverenitetui suverenitetą
+72	8372	apreiškimas	apreiškimo
+73	8373	nukreipiamas	nukreipiama nukreipiami nukreipiamos
+74	8374	susikirsti	susikerta susikirs susikirto
+75	8375	įtikti	įtiko įtiktų
+76	8376	rūkalai	rūkalais rūkalus rūkalų
+77	8377	dantistas	dantistai dantisto dantistą dantistė dantistų
+78	8378	žodelis	žodeliai žodeliais žodelio žodeliu žodelius žodelių žodelį
+79	8379	apsimokėti	apsimoka apsimokėjo apsimokės apsimokėtų
+80	8380	hebrajai	hebrajų
+81	8381	problematika	problematikai problematikos problematiką
+82	8382	restauruotas	restauruota restauruotos restauruotą
+83	8383	supykdyti	supykdys supykdė
+84	8384	tikroviškas	tikroviška tikroviškai tikroviški tikroviškiau tikroviškus tikrovišką
+85	8385	žemyninis	žemynine žemyninė žemyninėje žemyninės žemyninę
+86	8386	suklaidinti	suklaidina suklaidino
+87	8387	iššaukti	iššaukia iššauks iššaukė
+88	8388	pažadėtas	pažadėta pažadėtoji pažadėtos pažadėtą pažadėtąją
+89	8389	derlingas	derlinga derlingi derlingos derlingą
+90	8390	netikslus	netiksli netiksliai netikslios netikslią netikslu netikslūs
+91	8391	malūnsparnis	malūnsparni malūnsparniai malūnsparnio malūnsparniu malūnsparnius malūnsparnių malūnsparnyje malūnsparnį
+92	8392	raštiškas	raštiškai raštiško raštiškos raštiškus raštišką
+93	8393	suskaičiuotas	suskaičiuota suskaičiuotos
+94	8394	pakėlimas	pakėlimo pakėlimu pakėlimą
+95	8395	kapelionas	kapeliono kapelionu
+96	8396	gintarinis	gintarinių gintarinė gintarinės
+97	8397	partizaninis	partizaniniam partizaninio partizaninės partizaninį
+98	8398	biurokratija	biurokratijai biurokratijos biurokratiją
+99	8399	pirmąsyk	
+100	8400	stinta	stintas stintos stintų

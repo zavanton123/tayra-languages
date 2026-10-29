@@ -1,0 +1,100 @@
+1	6701	užplūsti	užplūdo užplūs užplūsta
+2	6702	kraštutinis	kraštutiniais kraštutiniu kraštutinius kraštutinių kraštutinė kraštutinėmis kraštutinės kraštutinį
+3	6703	treniruoklis	treniruokliai treniruokliais treniruoklio treniruoklius treniruoklių treniruoklį
+4	6704	gilintis	gilinamės gilinasi gilinausi gilinosi gilinsis
+5	6705	esė	ese eses
+6	6706	laukelis	laukelius laukelyje laukelį
+7	6707	užmirštas	užmiršta užmirštame užmirštos užmirštus užmirštą
+8	6708	simboliškas	simboliška simboliškai simbolišku
+9	6709	tiražas	tiražai tiražo tiražu tiražą
+10	6710	eksploatacija	eksploatacijai eksploatacijos eksploataciją
+11	6711	šokiruoti	šokiravo šokiruoja
+12	6712	kobra	kobros kobrą kobrų
+13	6713	pūti	pus puvau pūdamas pūk pūki pūkit pūna pūsit pūva pūvant
+14	6714	nelygus	nelygi nelygiai nelygioje nelygios nelygių nelygu nelygūs
+15	6715	atsikvėpti	atsikvepia atsikvėps atsikvėpė
+16	6716	eksperimentuoti	eksperimentavau eksperimentavo eksperimentavome eksperimentuodavau eksperimentuoja eksperimentuojame eksperimentuojant eksperimentuojantis eksperimentuoju eksperimentuosime eksperimentuotų
+17	6717	kepinys	kepiniai kepiniais kepiniams kepinio kepiniui kepiniuose kepinius kepinių
+18	6718	vengras	vengrai vengrams vengru vengrė vengrų
+19	6719	varpelis	varpeliai varpelio varpeliu varpelius varpelių varpelį
+20	6720	plėšrūnas	plėšrūnai plėšrūno plėšrūnui plėšrūnus plėšrūną plėšrūnų
+21	6721	neatsiliepti	neatsiliepia neatsilieps neatsiliepė
+22	6722	vamzdynas	vamzdynai vamzdynais vamzdyne vamzdyno vamzdynu vamzdynuose vamzdynus vamzdyną vamzdynų
+23	6723	šlaunis	šlaunies šlaunimis šlaunyje šlaunys šlaunį šlaunų
+24	6724	stabdymas	stabdymo stabdymui stabdymą
+25	6725	abstraktus	abstraktaus abstraktesnius abstraktūs abstraktų abstrakčiai abstrakčiais abstrakčias abstrakčiau abstrakčios abstrakčiu abstrakčius abstrakčią abstrakčių
+26	6726	gija	gijas gijomis gijos giją gijų
+27	6727	išsikelti	išsikelia išsikels išsikeltų išsikėliau išsikėlė
+28	6728	styga	stygas stygomis stygoms stygos stygą stygų
+29	6729	stoka	stoką
+30	6730	plaktukas	plaktukai plaktuko plaktuku plaktuką
+31	6731	bendraamžis	bendraamžiai bendraamžiais bendraamžio bendraamžiu bendraamžius bendraamžių bendraamžį
+32	6732	doktrina	doktrinai doktrinoje doktrinos doktriną doktrinų
+33	6733	nesudėtingas	nesudėtinga nesudėtingai nesudėtingi nesudėtingos nesudėtingą nesudėtingų
+34	6734	eskizas	eskizai eskizo eskizuose eskizus eskizą eskizų
+35	6735	sudėtingumas	sudėtingumo sudėtingumu sudėtingumui sudėtingumą
+36	6736	semtis	semiamės semiasi semiatės semiesi semiuosi sėmėsi
+37	6737	atjungti	atjungia atjungė
+38	6738	išminčius	išminčiai išminčiais išminčiaus išminčių
+39	6739	neskirti	neskiria neskiriu neskirs neskyriau neskyrė
+40	6740	šauksmas	šauksmai šauksmo šauksmu šauksmus šauksmą šauksmų
+41	6741	valkata	valkatas valkatos valkatų
+42	6742	betoninis	betonine betonines betoniniai betoniniais betoninio betoniniu betoninius betoninių betoninė betoninės betoninę betoninį
+43	6743	nr.	
+44	6744	intelektualas	intelektualai intelektualais intelektualams intelektualo intelektualu intelektualus intelektualų
+45	6745	lelija	lelijas lelijomis lelijos leliją lelijų
+46	6746	stačiatikis	stačiatikiai stačiatikiams stačiatikių
+47	6747	akademikas	akademikai akademikais akademikams akademiko akademikus akademikų
+48	6748	kalendorinis	kalendorines kalendoriniai kalendoriniais kalendoriniams kalendorinio kalendorinius kalendorinių kalendorinė kalendorinės
+49	6749	peticija	peticijas peticijoje peticijos peticiją peticijų
+50	6750	piliulė	piliules piliulių piliulės piliulę
+51	6751	skaudinti	skaudina skaudino
+52	6752	pakaitalas	pakaitalai pakaitalo pakaitalu pakaitalus pakaitalą pakaitalų
+53	6753	antplūdis	antplūdį antplūdžio antplūdžiu antplūdžiui
+54	6754	pakentėti	pakentėk
+55	6755	perimetras	perimetro perimetrą
+56	6756	trejetas	trejetai trejeto trejetui trejetus trejetą trejetų
+57	6757	grikis	grikiai grikiais grikiuose grikius grikių
+58	6758	matomumas	matomumo matomumui matomumą
+59	6759	prekiautojas	prekiautojai prekiautojams prekiautojo prekiautojus prekiautojų
+60	6760	smarvė	smarve smarvės smarvę
+61	6761	naudojimasis	naudojimosi naudojimąsi
+62	6762	reljefas	reljefo reljefą
+63	6763	riksmas	riksmai riksmo riksmus riksmą riksmų
+64	6764	žalgirietis	žalgirietį žalgiriečiai žalgiriečiams žalgiriečio žalgiriečius žalgiriečių
+65	6765	pasekti	paseks pasektų pasekė
+66	6766	neštis	nešasi nešdavosi nešuosi nešėsi
+67	6767	sužadėtuvės	sužadėtuves sužadėtuvių
+68	6768	laiptelis	laipteliai laipteliais laiptelio laipteliu laiptelius laiptelių
+69	6769	išryškinti	išryškina išryškino
+70	6770	prijungimas	prijungimo prijungimui prijungimą
+71	6771	septyniolika	septyniolikoje septyniolikos
+72	6772	ūsai	ūsams ūsuose ūsus
+73	6773	buriavimas	buriavimo buriavimu buriavimą
+74	6774	tualetinis	tualetinio tualetiniu tualetinį
+75	6775	investavimas	investavimo investavimu investavimui investavimą
+76	6776	strypas	strypai strypo strypu strypus strypą strypų
+77	6777	elektromagnetinis	elektromagnetines elektromagnetinio elektromagnetinius elektromagnetinių elektromagnetinė elektromagnetinės elektromagnetinį
+78	6778	tuzinas	tuzinai tuzino tuzinu tuziną
+79	6779	išmokėti	išmokėjo išmokės išmokėtų
+80	6780	liukas	liuko liuką
+81	6781	finišuoti	finišuoti finišavo finišuos
+82	6782	persirengti	persirengia persirengė
+83	6783	velti	veli veliu velk velki velkit vels velsi vėlei vėliau vėlėme
+84	6784	gimnastika	gimnastikos gimnastiką
+85	6785	užsidaręs	užsidarius užsidariusi užsidariusios užsidarę
+86	6786	nusivesti	nusivedė nusives
+87	6787	radioaktyvus	radioaktyvaus radioaktyvesnė radioaktyvi radioaktyviais radioaktyvias radioaktyvioje radioaktyvioji radioaktyviojo radioaktyviomis radioaktyvios radioaktyviu radioaktyvius radioaktyvią radioaktyvių radioaktyviųjų radioaktyvūs radioaktyvų
+88	6788	įrodinėti	įrodinėja įrodinėjo
+89	6789	nevienodas	nevienoda nevienodai nevienodo nevienodos nevienodą nevienodų
+90	6790	dumblas	dumble dumblo dumblu dumblą
+91	6791	savaitraštis	savaitraštyje savaitraštį savaitraščio savaitraščiui
+92	6792	gebėti	gebame gebate gebu gebėdavo gebėjo gebės gebėsime gebėsite gebėtų
+93	6793	brėžinys	brėžiniai brėžiniais brėžiniuose brėžinius brėžinių brėžinį
+94	6794	detektorius	detektoriai detektoriais detektoriaus detektoriumi detektorių
+95	6795	pedalas	pedalai pedalais pedalo pedalus pedalą pedalų
+96	6796	nukrypti	nukrypo nukryps nukrypsta
+97	6797	nepagarba	nepagarbos nepagarbą
+98	6798	komplikuotas	komplikuota komplikuoti komplikuotą
+99	6799	apsakymas	apsakymai apsakymo apsakymus apsakymą apsakymų
+100	6800	pasirengti	pasirengia pasirengė

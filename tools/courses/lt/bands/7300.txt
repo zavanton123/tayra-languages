@@ -1,0 +1,100 @@
+1	7201	paminėjimas	paminėjimo paminėjimui paminėjimą paminėjimų
+2	7202	augmenija	augmenijai augmenijos augmeniją
+3	7203	banalus	banalaus banali banaliai banalios banaliu banalių banalu banalūs banalų
+4	7204	pagonis	pagonių pagonys
+5	7205	pavykęs	pavykus pavykusio pavykę
+6	7206	garėti	gari gariu
+7	7207	kofeinas	kofeino kofeinu
+8	7208	suburtas	suburta suburtai suburtos suburtą
+9	7209	išsklaidyti	išsklaido išsklaidys išsklaidytų išsklaidė
+10	7210	vegetaras	vegetarai vegetarams vegetare vegetaro vegetaru vegetarė vegetarų
+11	7211	užtraukti	užtraukia užtrauks užtrauktų užtraukė
+12	7212	sudaužytas	sudaužyta sudaužyto sudaužytos sudaužytus sudaužytą
+13	7213	akcizas	akcizai akcizais akcizo akcizus akcizą akcizų
+14	7214	paspartinti	paspartina paspartino paspartins paspartintų
+15	7215	kalvis	kalvio
+16	7216	darykla	daryklai darykloje daryklos daryklą daryklų
+17	7217	uoslė	uosle uoslės uoslę
+18	7218	nutilti	nutilo nutils nutyla
+19	7219	filologija	filologijos filologiją
+20	7220	klastingas	klastinga klastingai klastingi klastingiausių klastingo klastingos klastingu klastingą
+21	7221	išlaisvinimas	išlaisvinimo išlaisvinimą
+22	7222	eksponuoti	eksponavo eksponuoja eksponuos eksponuotų
+23	7223	išvirti	išverda išvirkite išvirs išvirė
+24	7224	suklastoti	suklastojo suklastotų
+25	7225	neleistinas	neleistina neleistinai neleistino neleistinoje neleistinos neleistinose neleistinus neleistiną neleistinų
+26	7226	skaitiklis	skaitikliai skaitiklio skaitiklius skaitiklių skaitiklį
+27	7227	arija	arijai arijas arijoje arijos ariją arijų
+28	7228	susitaikymas	susitaikymo susitaikymui susitaikymą
+29	7229	sodininkystė	sodininkyste sodininkystės sodininkystę
+30	7230	apmokėjimas	apmokėjimo apmokėjimu apmokėjimui apmokėjimus apmokėjimą
+31	7231	grotelės	groteles grotelių grotelėmis grotelėse
+32	7232	nepakeliamas	nepakeliama nepakeliamai nepakeliamo nepakeliamos nepakeliamą nepakeliamų
+33	7233	griūtis	griūties griūtys griūtį
+34	7234	žvakutė	žvakutes žvakutėmis žvakutės žvakutę žvakučių
+35	7235	įtaisyti	įtaisai įtaiso įtaisė
+36	7236	priglausti	priglaudė priglaudžia priglaus priglauskite priglaustų
+37	7237	astma	astmai astmos astmą
+38	7238	paprastumas	paprastumo paprastumu paprastumą
+39	7239	rapsas	rapsai rapsus rapsų
+40	7240	išsivystymas	išsivystymo išsivystymui išsivystymą
+41	7241	stiklainis	stiklainiai stiklainio stiklainiu stiklainius stiklainių stiklainyje stiklainį
+42	7242	pakvaišęs	pakvaišusi pakvaišusios pakvaišę
+43	7243	subalansuotas	subalansuota subalansuotai subalansuoto subalansuotos subalansuotus subalansuotą
+44	7244	dievybė	dievybes dievybių dievybės dievybę
+45	7245	magistralė	magistrale magistrales magistralėje magistralės magistralėse magistralę
+46	7246	atsakinėti	atsakinėja atsakinėjo atsakinės
+47	7247	švelnumas	švelnumo švelnumu švelnumui švelnumą
+48	7248	senutė	senute senutei senutes senutės senutę
+49	7249	kanadietis	kanadietė kanadiečiai kanadiečiais kanadiečiams kanadiečio kanadiečiu kanadiečius kanadiečių
+50	7250	išradingas	išradinga išradingai išradingais išradingesni išradingi išradingos išradingą išradingų
+51	7251	trenktis	trenkiasi trenkėsi
+52	7252	paprika	paprikas paprikomis paprikos paprikose papriką paprikų
+53	7253	bombardavimas	bombardavimai bombardavimo bombardavimus bombardavimą bombardavimų
+54	7254	prietaras	prietarai prietarais prietaro prietarus prietarą prietarų
+55	7255	burtis	buriasi bursis būrėsi
+56	7256	krėslas	krėsle krėslo krėslu krėslui krėslą krėslų
+57	7257	blizgėti	blizga blizgantis blizgi blizgu blizgėdavo blizgėjo blizgėtų
+58	7258	žaidėja	žaidėjomis žaidėjos
+59	7259	klestėjimas	klestėjimo klestėjimui klestėjimą
+60	7260	eksportuoti	eksportavo eksportuodavo eksportuoja eksportuojame
+61	7261	lydeka	lydekai lydekas lydekos lydeką lydekų
+62	7262	mozaika	mozaikos mozaiką
+63	7263	pasigailėjimas	pasigailėjimo
+64	7264	ūsas	ūsais ūsui ūsą ūsų
+65	7265	išsikviesti	išsikvietė išsikviečia išsikviečiau
+66	7266	kurtis	
+67	7267	integruoti	integravo integruoja integruotų
+68	7268	rafinuotas	rafinuota rafinuotai rafinuoti rafinuoto rafinuotos rafinuotus rafinuotą rafinuotų
+69	7269	papildas	papildais papildams papilduose papildus papildą papildų
+70	7270	paradoksas	paradoksą paradoksų
+71	7271	knygnešys	knygnešiai knygnešio knygnešių
+72	7272	perprasti	perpranta perpratau perprato
+73	7273	pažaboti	pažabotų
+74	7274	gastrolės	gastroles gastrolių gastrolėmis gastrolėms
+75	7275	stichija	stichijai stichijas stichijos stichiją stichijų
+76	7276	iškęsti	iškentė iškenčia iškenčiau
+77	7277	trijulė	trijule trijulei trijulių trijulės trijulę
+78	7278	suspausti	suspaudė suspaudžia suspausk suspauskite suspaustų
+79	7279	šaldymas	šaldymo šaldymui
+80	7280	apsinuodijimas	apsinuodijimai apsinuodijimo apsinuodijimu apsinuodijimus apsinuodijimą apsinuodijimų
+81	7281	veiksmingumas	veiksmingumo veiksmingumu veiksmingumą
+82	7282	susižeisti	susižeidė susižeidžia
+83	7283	spausdinamas	spausdinama spausdinami spausdinamos
+84	7284	pribaigti	pribaigtų pribaigė
+85	7285	atstovaujamas	atstovaujama atstovaujamai atstovaujami atstovaujamoji atstovaujamos atstovaujamosios atstovaujamą atstovaujamų
+86	7286	kampinis	kampiniai kampinio kampinių kampinį
+87	7287	mėginimas	mėginimai mėginimais mėginimams mėginimo mėginimu mėginimus mėginimą mėginimų
+88	7288	pradas	pradai prado pradu pradus pradą pradų
+89	7289	krėsti	krečia krėtė
+90	7290	atpažįstamas	atpažįstama atpažįstami atpažįstamo atpažįstamos atpažįstamu atpažįstamą atpažįstamų
+91	7291	egzistencija	egzistencijai egzistencijos egzistenciją
+92	7292	nuoširdumas	nuoširdumo nuoširdumu nuoširdumą
+93	7293	tikyba	tikybos tikybą
+94	7294	reperis	reperiai reperio reperiu reperių reperį
+95	7295	savižudis	savižudį savižudžiai savižudžio savižudžiui savižudžių
+96	7296	čigonas	čigonai čigonais čigone čigonus čigoną čigonų
+97	7297	muziejininkas	muziejininkai muziejininkams muziejininko muziejininkė muziejininkų
+98	7298	neturtingas	neturtinga neturtingi neturtingiems neturtingo neturtingos neturtingą neturtingų neturtingųjų
+99	7299	senvagė	senvage senvagei senvagėje senvagės senvagę
+100	7300	francis	franci francio franciu

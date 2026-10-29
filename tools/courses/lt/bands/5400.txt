@@ -1,0 +1,100 @@
+1	5301	susirėmimas	susirėmimai susirėmimams susirėmimo susirėmimuose susirėmimus susirėmimą susirėmimų
+2	5302	palestinietis	palestinietė palestinietį palestiniečiai palestiniečiais palestiniečiams palestiniečius palestiniečių
+3	5303	užnugaris	užnugario užnugaryje užnugarį
+4	5304	siūti	siuva siuvam siuvant siuvau siuvo siuvu siūdamas siūk siūsiu siūta siūtas
+5	5305	nedarbingumas	nedarbingumo nedarbingumą
+6	5306	žirklės	žirkles žirklių žirklėmis
+7	5307	ketvirtfinalis	ketvirtfinalio ketvirtfinalyje ketvirtfinalį
+8	5308	sąmoningumas	sąmoningumo sąmoningumu sąmoningumui sąmoningumą
+9	5309	matuoti	matavo matuoja matuos
+10	5310	sustojimas	sustojimo sustojimu sustojimą sustojimų
+11	5311	išprovokuoti	išprovokavo išprovokuoja išprovokuos išprovokuotų
+12	5312	išmestas	išmesta išmesto išmestos išmestus išmestą
+13	5313	sueiti	sueina sueis suėjo
+14	5314	pasenęs	pasenusi pasenusia pasenusiais pasenusias pasenusios pasenusius pasenusią pasenusių pasenusį pasenę
+15	5315	kištis	kišasi kišosi kištųsi
+16	5316	sutarimas	sutarimo sutarimu sutarimus sutarimą sutarimų
+17	5317	nenaudojamas	nenaudojama nenaudojami nenaudojamo nenaudojamos nenaudojamus nenaudojamą nenaudojamų
+18	5318	išstumti	išstumia išstums išstumtų išstūmė
+19	5319	laikymasis	laikymosi laikymusi laikymąsi
+20	5320	prijungtas	prijungta prijungtais prijungtos prijungtą
+21	5321	baigiant	
+22	5322	globoti	globoja globojo globotų
+23	5323	grupelė	grupele grupelei grupeles grupelėje grupelėmis grupelės grupelėse grupelę
+24	5324	kautynės	kautynes kautynių kautynėms kautynėse
+25	5325	bernas	bernai bernais bernams berne berni berno bernu bernui bernus berną bernų
+26	5326	klijai	klijais klijus klijų
+27	5327	nuslėpti	nuslėptų nuslėpė
+28	5328	gama	gamoje gamos gamą
+29	5329	mirtingumas	mirtingumo mirtingumą
+30	5330	plautis	plautį plaučiais plaučiams plaučio plaučiuose plaučius plaučių
+31	5331	natris	natrio
+32	5332	neutralus	neutralaus neutrali neutraliai neutraliais neutralioje neutralios neutraliu neutralius neutralią neutralių neutralūs neutralų
+33	5333	informatika	informatikai informatikas informatikos informatiką
+34	5334	teisiamas	teisiama teisiamajam teisiamasis teisiami teisiamieji teisiamo teisiamoji teisiamojo teisiamos teisiamuosius teisiamą teisiamų teisiamųjų
+35	5335	pedagogika	pedagogikos pedagogiką
+36	5336	transliuoti	transliavo transliuodavo transliuoja transliuos
+37	5337	donoras	donorai donorais donorams donore donoro donoru donorui donorus donorą donorų
+38	5338	marti	marčias marčios marčių
+39	5339	polius	poli poliai poliuje polių
+40	5340	nuostaba	nuostabai nuostabos nuostabą
+41	5341	įkalinti	įkalina įkalino
+42	5342	aa	
+43	5343	užuosti	užuodi užuodė užuodžia užuodžiau
+44	5344	papildymas	papildymai papildymo papildymui papildymus papildymą papildymų
+45	5345	pasiteisinti	pasiteisina pasiteisino pasiteisins pasiteisintų
+46	5346	gravitacija	gravitacijai gravitacijos gravitaciją
+47	5347	šalinti	šalina šalinama šalinamas šalinamos šalinant šalinantis šalindamas šalink šalino
+48	5348	kamštis	kamštyje kamštį kamščiai kamščio kamščiu kamščiuose kamščius kamščių
+49	5349	norvegas	norvegai norvegais norvegams norvegu norvegui norvegė norvegų
+50	5350	flotilė	flotile flotilei flotilėje flotilės flotilę
+51	5351	patyrus	patyriau
+52	5352	grifas	grifai grifo grifu grifą grifų
+53	5353	rėmimas	rėmimo rėmimui rėmimą
+54	5354	koncertinis	koncertine koncertines koncertinio koncertinius koncertinių koncertinė koncertinėje koncertinės koncertinę koncertinį
+55	5355	užlipti	užlipau užlipo užlipome užlips
+56	5356	apsiaustas	apsiaustai apsiaustais apsiausto apsiaustu apsiaustus apsiaustą
+57	5357	nenormalus	nenormalaus nenormali nenormaliai nenormalių nenormalu nenormalūs
+58	5358	požemis	požemiai požemio požemiuose požemius požemių požemyje požemį
+59	5359	plati	
+60	5360	instruktorius	instruktoriai instruktoriais instruktoriams instruktoriaus instruktoriui instruktoriumi instruktorių instruktorė
+61	5361	sukakti	sukako sukaks sukanka
+62	5362	estetika	estetikai estetikos estetiką
+63	5363	pavaizduotas	pavaizduota pavaizduotos
+64	5364	tirpalas	tirpalai tirpale tirpalo tirpalu tirpaluose tirpalą tirpalų
+65	5365	kvalifikuotas	kvalifikuota kvalifikuotai kvalifikuoti kvalifikuotiems kvalifikuoto kvalifikuotos kvalifikuotu kvalifikuotus kvalifikuotą kvalifikuotų
+66	5366	pasigirsti	pasigirdo pasigirsdavo pasigirsta
+67	5367	užterštas	užteršta užteršto užterštos užterštu užterštus užterštą
+68	5368	senti	senai sendamas seno senom sensta senstam senstame senstant senstate sensti senstu senus
+69	5369	asfaltas	asfalte asfalto asfaltu asfaltui asfaltus asfaltą
+70	5370	privesti	priveda privedė prives privestų
+71	5371	moliūgas	moliūgai moliūgo moliūgu moliūguose moliūgus moliūgą moliūgų
+72	5372	pelėda	pelėdas pelėdoms pelėdos pelėdą pelėdų
+73	5373	krioklys	kriokliai kriokliais krioklio kriokliu kriokliuose krioklius krioklių krioklį
+74	5374	setas	setai sete seto setu setą setų
+75	5375	apdaila	apdailai apdailos apdailą
+76	5376	nugabenti	nugabeno nugabens
+77	5377	skyrimas	skyrimo skyrimu skyrimui skyrimą
+78	5378	nupiešti	nupieš nupiešiau nupieškite nupiešė
+79	5379	pasisukti	pasisuka pasisuko pasisuks pasisuksi pasisuktų
+80	5380	kraujotaka	kraujotakai kraujotakos kraujotaką
+81	5381	užklupti	užklumpa užklupdavo užklupo užklups užkluptų
+82	5382	tėviškė	tėviškėje tėviškės tėviškę
+83	5383	suvaidinti	suvaidina suvaidinau suvaidino suvaidins suvaidintų
+84	5384	svarstyklės	svarstykles svarstyklių svarstyklėms
+85	5385	paveiktas	paveikta paveiktiems paveikto paveiktos paveiktose paveiktus paveiktą
+86	5386	skrynia	skrynioje skrynios skrynią
+87	5387	terpė	terpių terpėje terpės terpę
+88	5388	pelningas	pelninga pelningai pelningais pelningi pelningiausi pelningiausia pelningiausias pelningiausios pelningiausiu pelningiausių pelningo pelningos pelningu pelningus pelningą pelningų
+89	5389	violetinis	violetine violetiniai violetiniais violetinio violetiniu violetinių violetinė violetinės violetinę violetinį
+90	5390	autorinis	autorinei autorines autoriniai autoriniais autoriniame autorinio autorinių autorinė autorinėje autorinėmis autorinės autorinę autorinį
+91	5391	avilys	aviliai aviliais avilio aviliu aviliuose avilius avilių avily avilyje avilį
+92	5392	plėvelė	plėvele plėveles plėvelių plėvelės plėvelę
+93	5393	gadinti	gadina gadino gadins
+94	5394	apgalvoti	apgalvoja apgalvoju apgalvokite apgalvotų
+95	5395	darnus	darnaus darni darnia darniai darniam darnios darniu darnius darnią darnių darnūs
+96	5396	čiužinys	čiužiniai čiužiniais čiužinio čiužiniu čiužinius čiužinių čiužinį
+97	5397	pranešėjas	pranešėjai pranešėjais pranešėjams pranešėjo pranešėju pranešėjui pranešėjus pranešėją pranešėjų
+98	5398	ekosistema	ekosistemai ekosistemas ekosistemoje ekosistemomis ekosistemoms ekosistemos ekosistemose ekosistemą ekosistemų
+99	5399	ryžtis	ryšitės ryžausi ryžomės ryžosi ryžotės ryžtasi ryžtųsi
+100	5400	neatsiejamas	neatsiejama neatsiejamai neatsiejami neatsiejamos neatsiejamu

@@ -1,0 +1,100 @@
+1	3201	kandidatūra	kandidatūrai kandidatūras kandidatūros kandidatūrą kandidatūrų
+2	3202	papuošalas	papuošalai papuošalais papuošalams papuošalo papuošalu papuošalus papuošalą papuošalų
+3	3203	pasidalyti	pasidalija pasidalijame pasidalijo pasidalykite pasidalys pasidalysite
+4	3204	litras	litrai litrais litre litro litru litrui litrus litrą litrų
+5	3205	užsisakyti	užsisakau užsisakiau užsisako užsisakome užsisakydavo užsisakykite užsisakys užsisakysite užsisakė užsisakėme
+6	3206	sustabdytas	sustabdyta sustabdyto sustabdytos sustabdytą
+7	3207	bėgant	
+8	3208	sovietmetis	sovietmetyje sovietmetį sovietmečio sovietmečiu sovietmečiui
+9	3209	devintas	devinta devintai devintajame devintam devintame devintasis devinto devintoje devintoji devintojo devintos devintosios devintu devintuosius devintus devintą devintąja devintąją devintąjį
+10	3210	pelė	pele pelei peles pelių pelėmis pelėms pelės pelę pelų
+11	3211	suvokimas	suvokimo suvokimu suvokimui suvokimą
+12	3212	prisitaikyti	prisitaikau prisitaikiau prisitaiko prisitaikome prisitaikys prisitaikytų prisitaikė prisitaikėme
+13	3213	vystytis	vystosi vystysis vystėsi
+14	3214	mazgas	mazgai mazgais mazge mazgo mazgu mazguose mazgus mazgą mazgų
+15	3215	slėgis	slėgio slėgiu slėgiui slėgyje slėgį
+16	3216	atidaryta	atidarytoje atidarytomis atidarytos atidarytą
+17	3217	katalogas	katalogai kataloge katalogo kataloguose katalogus katalogą katalogų
+18	3218	pomidoras	pomidorai pomidorais pomidoro pomidoru pomidoruose pomidorus pomidorą pomidorų
+19	3219	pratybos	pratybas pratybomis pratyboms pratybose pratybų
+20	3220	praktinis	praktine praktines praktiniai praktiniais praktiniame praktiniams praktinio praktiniu praktiniuose praktinius praktinių praktinė praktinėje praktinės praktinę praktinį
+21	3221	sportuoti	sportavau sportavo sportuoja sportuojame sportuojate sportuoji sportuoju sportuok sportuokite
+22	3222	pasikeitimas	pasikeitimai pasikeitimo pasikeitimu pasikeitimui pasikeitimus pasikeitimą pasikeitimų
+23	3223	nepatogus	nepatogaus nepatogi nepatogiai nepatogias nepatogios nepatogius nepatogią nepatogių nepatogu nepatogūs nepatogų
+24	3224	atlygis	atlygiai atlygio atlygiu atlygiui atlygius atlygį
+25	3225	administravimas	administravimo
+26	3226	gabalėlis	gabalėlių gabalėliai gabalėliais gabalėlio gabalėliu gabalėlius gabalėlių gabalėlį
+27	3227	įlanka	įlankas įlankoje įlankos įlanką įlankų
+28	3228	pavara	pavaras pavaros pavarą pavarų
+29	3229	teisėtas	teisėta teisėtai teisėtais teisėtam teisėtiems teisėto teisėtos teisėtu teisėtus teisėtą
+30	3230	kolonija	kolonijai kolonijas kolonijoje kolonijoms kolonijos kolonijose koloniją kolonijų
+31	3231	plius	
+32	3232	dėtas	dėta dėto dėtos dėtus
+33	3233	buitinis	buitine buitinei buitines buitiniai buitiniais buitiniams buitinio buitiniu buitinius buitinių buitinė buitinėmis buitinėms buitinės buitinę buitinį
+34	3234	petys	peties pety petyje petį pečiams pečio
+35	3235	plienas	plieno plienu plienui plieną
+36	3236	konkurentas	konkurentai konkurentais konkurentams konkurento konkurentu konkurentui konkurentus konkurentą konkurentų
+37	3237	rojus	rojui rojuje rojumi rojų
+38	3238	apginti	apgina apgins apginsime apgintume apgintų apgynė
+39	3239	sargybinis	sargybiniai sargybiniais sargybiniams sargybinio sargybiniu sargybiniui sargybinius sargybinių sargybinį
+40	3240	kėlinys	kėliniai kėlinio kėliniui kėlinius kėlinių kėlinyje kėlinį
+41	3241	procesorius	procesoriai procesoriais procesoriaus procesoriui procesoriumi procesoriuose procesorių
+42	3242	gubernatorius	gubernatoriai gubernatoriaus gubernatoriui gubernatoriumi gubernatorių
+43	3243	palieti	palies paliesk palieskite paliestų palietė palietėme paliečia paliečiau
+44	3244	slauga	slaugos slaugą
+45	3245	paklaustas	paklausta paklaustos
+46	3246	padaras	padarais padarams padare padaro padaru padarui padarus padarą padarų
+47	3247	kraujagyslė	kraujagysles kraujagyslių kraujagyslėmis kraujagyslėms kraujagyslės kraujagyslėse kraujagyslę
+48	3248	apsistoti	apsistodavo apsistoja apsistojau apsistojo apsistojome apsistos
+49	3249	skleisti	skleidė skleidžia skleidžiame skleis skleistų
+50	3250	lėkštė	lėkšte lėkštes lėkštėje lėkštės lėkštę lėkščių
+51	3251	melagis	melage melagi melagiai melagio melagiu melagiui melagius melagių melagė melagį
+52	3252	olimpiada	olimpiadai olimpiadas olimpiadoje olimpiados olimpiadose olimpiadą olimpiadų
+53	3253	gėris	gėrio gėriu gėriui gėrį
+54	3254	sutrikęs	sutrikus sutrikusi sutrikusiam sutrikusio sutrikusios sutrikusiu sutrikusią sutrikusį sutrikę
+55	3255	branda	brandai brandas brandos brandą
+56	3256	protėvis	protėvi protėviai protėviais protėviams protėvio protėviu protėviui protėvius protėvių protėvį
+57	3257	tiriamas	tiriama tiriamasis tiriami tiriamieji tiriamiesiems tiriamo tiriamoji tiriamos tiriamosios tiriamuosius tiriamąjį tiriamų
+58	3258	išklausyti	išklausiau išklauso išklausome išklausyk išklausykite išklausys išklausysime išklausytų išklausė išklausėme
+59	3259	korporacija	korporacijai korporacijas korporacijoje korporacijoms korporacijos korporaciją korporacijų
+60	3260	pasidžiaugti	pasidžiaugia pasidžiaugiau pasidžiaugiu pasidžiaugtų pasidžiaugė pasidžiaukime pasidžiaukite
+61	3261	jėgainė	jėgainei jėgaines jėgainių jėgainėje jėgainėmis jėgainėms jėgainės jėgainėse jėgainę
+62	3262	įsikurti	įsikurdavo įsikuria įsikurs įsikūriau įsikūrė įsikūrėme įsikūrėte
+63	3263	įsigalioti	įsigalioja įsigaliojo įsigalios įsigaliotų
+64	3264	prieštarauti	prieštarauja prieštaraujame prieštarauju prieštarautų prieštaravo
+65	3265	siunta	siuntas siuntoje siuntomis siuntoms siuntos siuntose siuntą siuntų
+66	3266	šachmatai	šachmatais šachmatams šachmatuose šachmatus šachmatų
+67	3267	keramika	keramikai keramikas keramikoje keramikos keramiką keramikų
+68	3268	nuopelnas	nuopelnai nuopelnais nuopelno nuopelnu nuopelnus nuopelnų
+69	3269	kokteilis	kokteili kokteiliai kokteiliais kokteiliams kokteilio kokteiliu kokteiliui kokteiliuose kokteilius kokteilių kokteilį
+70	3270	dominuoti	dominavo dominuoja dominuos dominuotų
+71	3271	merginti	merginai merginom
+72	3272	leidėja	leidėjai leidėjais leidėjams leidėjas leidėjo leidėju leidėjui leidėjus leidėją leidėjų
+73	3273	perdirbimas	perdirbimo perdirbimu perdirbimui perdirbimą
+74	3274	resursas	resursai resursais resursams resursus resursą resursų
+75	3275	komunistas	komunistai komunistais komunistams komuniste komunistu komunistus komunistų
+76	3276	praradimas	praradimai praradimais praradimo praradimu praradimus praradimą praradimų
+77	3277	nulemti	nulemia nulems nulemtų nulėmė
+78	3278	išvežti	išveš išveža išvežame išveždavo išvežtų išvežė išvežėme
+79	3279	pakenkti	pakenkia pakenks pakenktų pakenkė
+80	3280	švarkas	švarkai švarkais švarko švarku švarkus švarką švarkų
+81	3281	pakuotė	pakuote pakuotes pakuotėje pakuotėmis pakuotės pakuotėse pakuotę pakuočių
+82	3282	sklandus	sklandaus sklandesnis sklandesnį sklandi sklandu sklandų sklandžia sklandžiai sklandžiam sklandžios sklandžiu sklandžią
+83	3283	naminis	namine namines namini naminiai naminiais naminiams naminio naminiu naminius naminių naminėms naminį
+84	3284	sutuoktinis	sutuoktiniai sutuoktiniais sutuoktiniams sutuoktinio sutuoktiniu sutuoktiniui sutuoktinius sutuoktinių
+85	3285	atidėti	atideda atidedame atidedu atidėjo atidėjome atidėkite atidės atidėtų
+86	3286	licencija	licencijas licencijomis licencijoms licencijos licenciją licencijų
+87	3287	lazdelė	lazdele lazdeles lazdelių lazdelėmis lazdelės lazdelę
+88	3288	takelis	takeliai takeliais takelio takeliu takeliuose takelius takelių takelyje takelį
+89	3289	orlaivis	orlaiviai orlaiviais orlaiviams orlaivio orlaiviu orlaiviui orlaiviuose orlaivius orlaivių orlaivyje orlaivį
+90	3290	nesustoti	nesustoja nesustojo nesustok nesustokite nesustos nesustosime nesustotų
+91	3291	plyta	plytas plytomis plytos plytą plytų
+92	3292	investuotojas	investuotojai investuotojais investuotojams investuotojo investuotoju investuotojui investuotojus investuotoją investuotojų
+93	3293	rutulys	rutuliai rutulio rutulius rutulių rutulį
+94	3294	legendinis	legendine legendiniai legendiniais legendiniam legendinio legendiniu legendinius legendinių legendinė legendinės legendinę legendinį
+95	3295	rikis	riki rikio rikiu rikiui rikį
+96	3296	užduoti	uždaviau uždavė uždavėme užduoda užduodame užduodavo užduodu užduok užduokite užduos užduotų
+97	3297	ralis	ralio raliui ralių ralyje ralį
+98	3298	troškimas	troškimai troškimais troškimams troškimo troškimu troškimui troškimus troškimą troškimų
+99	3299	svarstomas	svarstoma svarstomi svarstomos svarstomu svarstomą svarstomų
+100	3300	studija	

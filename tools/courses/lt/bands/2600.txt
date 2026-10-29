@@ -1,0 +1,100 @@
+1	2501	svarba	svarbos svarbą
+2	2502	sudėti	sudeda sudedam sudedame sudedi sudedu sudėjau sudėjo sudėjome sudėk sudėkime sudėkite sudės sudėsime sudėsite sudėtume sudėtų
+3	2503	šūvis	šūviai šūviais šūviams šūvio šūviu šūvius šūvių šūvį
+4	2504	nustebinti	nustebina nustebink nustebinkite nustebino nustebins nustebinsi nustebinsiu nustebintų
+5	2505	sandėlis	sandėliai sandėliais sandėlio sandėliu sandėliui sandėliuose sandėlius sandėlių sandėlyje sandėlį
+6	2506	pasveikti	pasveikau pasveiko pasveiks pasveiksiu pasveiksta pasveiktų
+7	2507	uodega	uodegas uodegoje uodegomis uodegos uodegą uodegų
+8	2508	salonas	salonai salonams salone salono salonu salonui salonuose salonus saloną salonų
+9	2509	žymė	žyme žymes žymių žymėmis žymės žymę
+10	2510	remti	remdavo remi remia remiame remiate remiu rems remsime remtų rėmė rėmėme
+11	2511	pritaikyti	pritaikiau pritaiko pritaikome pritaikys pritaikysime pritaikysite pritaikytų pritaikė pritaikėme
+12	2512	tunelis	tuneliai tuneliais tunelio tuneliu tuneliuose tunelius tunelių tunelyje tunelį
+13	2513	paduoti	padavei padaviau padavus padavė padavėte padavęs paduoda paduodamas paduodant paduodi paduodu paduok paduokim paduokime paduokit paduokite paduos paduosi paduosim paduosime paduosit paduosite paduosiu paduota paduotas paduotum paduotume paduotumėte paduotų paduočiau
+14	2514	danga	dangai dangas dangoje dangomis dangoms dangos dangą
+15	2515	slėnis	slėni slėniai slėnio slėniu slėniui slėniuose slėnius slėnių slėnyje slėnį
+16	2516	nelengvas	nelengva nelengvai nelengvais nelengvame nelengvi nelengvo nelengvos nelengvu nelengvus nelengvą nelengvų
+17	2517	paieškoti	paieškai paieško paieškojau paieškojus paieškojęs paieškok paieškokim paieškokime paieškokit paieškokite paieškom paieškos paieškosi paieškosim paieškosime paieškosiu paieškot paieškotum
+18	2518	pajėgumas	pajėgumai pajėgumais pajėgumams pajėgumo pajėgumu pajėgumus pajėgumą pajėgumų
+19	2519	niekšas	niekšai niekšais niekšams niekše niekšo niekšu niekšui niekšus niekšą niekšė niekšų
+20	2520	veterinarija	veterinarijoje veterinarijos veterinariją
+21	2521	teta	tetai tetoms tetos tetą tetų
+22	2522	nuodėmė	nuodėme nuodėmei nuodėmes nuodėmių nuodėmėje nuodėmėms nuodėmės nuodėmę
+23	2523	užmigti	užmiega užmiegam užmiegant užmiegi užmiegu užmigai užmigau užmigdamas užmigdavau užmigdavo užmigo užmigom užmigome užmigote užmigs užmigsi užmigsim užmigsime užmigsite užmigsiu užmigtų užmigčiau užmik
+24	2524	kone	
+25	2525	mušti	muš muša mušam mušant mušat mušdamas mušdavo mušei muši mušiau mušimas mušime mušimo mušiu mušk muškim muškime muškit muškite muštų mušu muščiau mušė mušėm mušėt mušėte mušęs
+26	2526	sandoris	sandoriai sandoriais sandoriams sandorio sandoriu sandoriui sandoriuose sandorius sandorių sandorį
+27	2527	pavadintas	pavadinta pavadintam pavadintame pavadinto pavadintoje pavadintos pavadintu pavadintą
+28	2528	obuolys	obuoliai obuoliais obuolio obuoliu obuoliui obuoliuose obuolius obuolių obuolį
+29	2529	įsipareigojimas	įsipareigojimai įsipareigojimais įsipareigojimams įsipareigojimo įsipareigojimu įsipareigojimui įsipareigojimus įsipareigojimą įsipareigojimų
+30	2530	ypatingai	ypatingiau
+31	2531	praneštas	pranešta
+32	2532	karvė	karve karvei karves karvių karvėmis karvėms karvės karvę
+33	2533	kortas	kortai kortomis kortos kortuose kortus kortą kortų
+34	2534	stebuklingas	stebuklinga stebuklingai stebuklingais stebuklingasis stebuklingi stebuklingo stebuklingoji stebuklingojo stebuklingomis stebuklingos stebuklingu stebuklinguoju stebuklingus stebuklingą stebuklingų stebuklingųjų
+35	2535	kriterijus	kriterijai kriterijais kriterijams kriterijaus kriterijui kriterijumi kriterijuose kriterijų
+36	2536	tortas	tortai tortams torto tortu tortui tortus tortą tortų
+37	2537	perspektyva	perspektyvai perspektyvas perspektyvoje perspektyvomis perspektyvoms perspektyvos perspektyvą perspektyvų
+38	2538	neturintis	neturinti neturintieji neturintiems neturintys neturintį neturinčia neturinčiai neturinčiais neturinčiam neturinčias neturinčio neturinčiomis neturinčioms neturinčios neturinčiu neturinčius neturinčią neturinčių neturinčiųjų neturį neturįs
+39	2539	popietė	popiete popietei popietes popietėje popietėmis popietės popietę
+40	2540	serialas	serialai serialams seriale serialo serialui serialuose serialus serialą serialų
+41	2541	socialdemokratas	socialdemokratai socialdemokratais socialdemokratams socialdemokrate socialdemokrato socialdemokratui socialdemokratus socialdemokratė socialdemokratų
+42	2542	figūra	figūrai figūras figūromis figūroms figūros figūrą figūrų
+43	2543	sąvoka	sąvokai sąvokas sąvokomis sąvokos sąvoką
+44	2544	interjeras	interjerai interjerais interjerams interjere interjero interjeru interjerui interjeruose interjerus interjerą interjerų
+45	2545	rasa	rasai rasas rasomis rasos rasą rasų
+46	2546	užfiksuoti	užfiksavau užfiksavo užfiksavome užfiksuoja užfiksuos užfiksuotų
+47	2547	vargšas	vargšai vargšais vargšams vargše vargšo vargšu vargšui vargšus vargšą vargšė vargšų
+48	2548	personažas	personažai personažais personažams personaže personažo personažu personažui personažuose personažus personažą personažų
+49	2549	schema	schemai schemas schemoje schemomis schemos schemose schemą schemų
+50	2550	eilėraštis	eilėraštyje eilėraštį eilėraščiai eilėraščiais eilėraščiams eilėraščio eilėraščiu eilėraščiui eilėraščiuose eilėraščius eilėraščių
+51	2551	sraigtasparnis	sraigtasparni sraigtasparniai sraigtasparniais sraigtasparniams sraigtasparnio sraigtasparniu sraigtasparniui sraigtasparnius sraigtasparnių sraigtasparnyje sraigtasparnį
+52	2552	akcentuoti	akcentavau akcentavo akcentavome akcentavęs akcentuodamas akcentuodavo akcentuoja akcentuojame akcentuojant akcentuojantis akcentuojate akcentuoju akcentuokite akcentuos akcentuosime akcentuosite akcentuota akcentuotas
+53	2553	investuoti	investavau investavo investavome investuoja investuojame investuoji investuoju investuok investuokite investuos investuosime investuotų
+54	2554	išversti	išvers išversi išversiu išversk išverskit išverskite išversta išverstas išverstum išverstumėte išverstų išversčiau išvertei išverti išvertus išvertė išvertęs išverčia išverčiamas išverčiame išverčiau išverčiu
+55	2555	bakterija	bakterijai bakterijas bakterijomis bakterijoms bakterijos bakteriją bakterijų
+56	2556	garažas	garažai garažais garažams garaže garažo garažu garažui garažuose garažus garažą garažų
+57	2557	uoga	uogas uogomis uogoms uogos uogose uogą uogų
+58	2558	vagystė	vagyste vagystei vagystes vagystėmis vagystės vagystę vagysčių
+59	2559	teisėsauga	teisėsaugai teisėsaugoje teisėsaugos teisėsaugą
+60	2560	varžytis	varžaisi varžausi varžomės varžosi varžysimės varžysis varžysitės varžėmės varžėsi
+61	2561	vienuolynas	vienuolynai vienuolyne vienuolyno vienuolynu vienuolynui vienuolynuose vienuolynus vienuolyną vienuolynų
+62	2562	minimalus	minimalaus minimali minimalia minimaliai minimaliais minimalias minimalioji minimaliomis minimalioms minimalios minimaliosios minimaliu minimalius minimalią minimalių minimalūs minimalų
+63	2563	išsirinkti	išsirenka išsirenkame išsirenku išsirink išsirinkau išsirinkdavo išsirinkite išsirinko išsirinkome išsirinkote išsirinks išsirinksime išsirinksite išsirinktų
+64	2564	metinis	metinei metines metiniai metiniame metiniams metinio metiniuose metinius metinių metinė metinėje metinėmis metinėms metinėse metinę metinį
+65	2565	pasipriešinimas	pasipriešinime pasipriešinimo pasipriešinimu pasipriešinimui pasipriešinimą
+66	2566	tikintis	besitikintiems besitikintis besitikinčių tikintieji tikintiesiems tikintys tikintysis tikinčiaisiais tikinčiuosius tikinčius tikinčių tikinčiųjų tikįs
+67	2567	paverti	pavers paversdavo paversime paverskime paverskite pavertė paverčia paverčiame
+68	2568	koridorius	koridoriai koridoriais koridoriams koridoriaus koridoriuje koridoriumi koridoriuose koridorių
+69	2569	ambasada	ambasadai ambasadas ambasadoje ambasadomis ambasados ambasadose ambasadą ambasadų
+70	2570	eiga	eigai eigoje eigos eigą
+71	2571	sugadinti	sugadina sugadinau sugadino sugadins sugadinsite sugadintų
+72	2572	strateginis	strategine strategines strateginiai strateginiais strateginiam strateginiame strateginiams strateginio strateginiu strateginius strateginių strateginė strateginės strateginę strateginį
+73	2573	rūta	rūtai rūtas rūtos rūtą rūtų
+74	2574	aštrus	aštraus aštresni aštresniais aštresnio aštresnis aštresniu aštresnius aštresnių aštresnė aštresnės aštresnį aštri aštria aštriai aštriais aštriam aštriame aštrias aštriau aštriausias aštriausiu aštriausią aštriomis aštrios aštriosios aštriu aštriuoju aštrius aštrią aštriąją aštrių aštru aštrūs aštrų
+75	2575	ištisas	ištisa ištisai ištisi ištisomis ištisos ištisus ištisą ištisų
+76	2576	periodas	periodai periodais periode periodo periodu periodui periodus periodą periodų
+77	2577	derlius	derliai derliaus derliui derliumi derlių
+78	2578	graikas	graikai graikais graikams graike graiko graiku graikui graikus graiką graikų
+79	2579	lytinis	lytiniai lytiniais lytiniam lytinio lytiniu lytiniuose lytinius lytinių lytinė lytinės lytinę lytinį
+80	2580	valdytojas	valdytoja valdytojai valdytojais valdytojams valdytojau valdytojo valdytojos valdytoju valdytojui valdytojus valdytoją valdytojų
+81	2581	ekstremalus	ekstremalaus ekstremali ekstremalia ekstremaliai ekstremaliais ekstremalias ekstremaliausių ekstremaliems ekstremalioje ekstremaliomis ekstremalioms ekstremalios ekstremaliose ekstremaliu ekstremalių ekstremalią ekstremalių ekstremalu ekstremalūs ekstremalų
+82	2582	maitinimas	maitinimo maitinimu maitinimui maitinimą
+83	2583	apkaltinti	apkaltina apkaltinai apkaltiname apkaltinant apkaltinau apkaltindamas apkaltini apkaltink apkaltinkit apkaltino apkaltins apkaltinsime apkaltinsiu apkaltinta apkaltintam apkaltintas apkaltinto apkaltintos apkaltintą apkaltintų apkaltinu apkaltinus apkaltinęs
+84	2584	giminaitis	giminaite giminaitei giminaiti giminaitė giminaitės giminaitę giminaitį giminaičiai giminaičiais giminaičiams giminaičio giminaičiu giminaičiui giminaičius giminaičių
+85	2585	skaitytojas	skaitytoja skaitytojai skaitytojais skaitytojams skaitytojau skaitytojo skaitytojos skaitytoju skaitytojui skaitytojus skaitytoją skaitytojų
+86	2586	veidrodis	veidrodi veidrodyje veidrodį veidrodžiai veidrodžiais veidrodžiams veidrodžio veidrodžiu veidrodžius veidrodžių
+87	2587	apibūdinti	apibūdina apibūdiname apibūdindavo apibūdinkite apibūdino apibūdinote apibūdintum apibūdintumėte apibūdinčiau
+88	2588	aistra	aistrai aistras aistroms aistros aistrą
+89	2589	pamėginti	pamėgina pamėginau pamėgink pamėginkime pamėginkite pamėgino pamėgins pamėginsime pamėginsiu pamėgintume pamėgintų
+90	2590	apsimesti	apsimes apsimesdamas apsimesdavau apsimesdavo apsimesi apsimesim apsimesime apsimesite apsimesiu apsimesk apsimeskim apsimeskime apsimeskit apsimeskite apsimestinai apsimestum apsimestume apsimestų apsimesčiau apsimeta apsimetam apsimetame apsimetantis apsimetat apsimetate apsimetei apsimeti apsimetu apsimetė apsimetėme apsimetėt apsimetėte apsimetęs apsimečiau
+91	2591	septintas	septinta septintajam septintajame septintam septintame septintasis septintieji septintiesiems septinto septintoje septintoji septintojo septintos septintosios septintuoju septintus septintą septintąją septintąjį septintųjų
+92	2592	pardavėjas	pardavėja pardavėjai pardavėjais pardavėjams pardavėjau pardavėjo pardavėju pardavėjui pardavėjus pardavėją pardavėjų
+93	2593	didenybė	didenybe didenybės didenybę
+94	2594	pasivaikščioti	pasivaikščiojai pasivaikščiojau pasivaikščiojome pasivaikščiojote pasivaikščiojus pasivaikščiok pasivaikščiokim pasivaikščiokime pasivaikščiokit pasivaikščiokite pasivaikščios pasivaikščiosi pasivaikščiosim pasivaikščiosime pasivaikščiosiu pasivaikščiotume pasivaikščiotumėte pasivaikščiotų pasivaikščiočiau
+95	2595	degalai	degalais degalams degalus degalų
+96	2596	karininkas	karininkai karininkais karininkams karininke karininko karininku karininkui karininkus karininką karininkų
+97	2597	mitas	mitai mitais mitams mite mito mitu mituose mitus mitą mitų
+98	2598	liežuvis	liežuvi liežuviai liežuviais liežuvio liežuviu liežuviui liežuvius liežuvių liežuvį
+99	2599	populiarumas	populiarumo populiarumu populiarumui populiarumą
+100	2600	rožė	rože rožei rožes rožių rožėje rožėmis rožės rožę

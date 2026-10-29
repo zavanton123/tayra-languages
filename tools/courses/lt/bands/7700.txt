@@ -1,0 +1,100 @@
+1	7601	viesulas	viesule viesulo viesului viesulą viesulų
+2	7602	lakas	lakai lako laką
+3	7603	įsisavinti	įsisavina įsisavino įsisavins įsisavintų
+4	7604	dauba	dauboje daubos daubą
+5	7605	meksikietis	meksikiečių
+6	7606	pagirti	pagirdavo pagiria pagirs pagyrė
+7	7607	dejuoti	dejavo dejavęs dejuodamas dejuoja dejuojame dejuojantis dejuojate dejuoji dejuok
+8	7608	kulinarija	kulinarijoje kulinarijos kulinariją
+9	7609	smūgiuoti	smūgiavo smūgiuoja
+10	7610	kapitalinis	kapitaliniam kapitalinio kapitalinį
+11	7611	saugotoja	saugotojai saugotojais saugotojas saugotojo
+12	7612	pastumti	pastumia pastūmė
+13	7613	geometrija	geometrijos geometriją
+14	7614	specifikacija	specifikacijas specifikacijoje specifikacijos specifikacijų
+15	7615	beprotystė	beprotystės
+16	7616	teminis	temines teminiai teminius teminių teminė teminės
+17	7617	halas	halai halo halu halus
+18	7618	svaigti	svaigo svaigsta svaigsti svaigstu
+19	7619	esybė	esybe esybei esybių esybės esybę
+20	7620	nusistatymas	nusistatymo nusistatymu nusistatymus nusistatymą nusistatymų
+21	7621	plėtojimas	plėtojimo plėtojimui plėtojimą
+22	7622	neliestas	neliesti neliestų
+23	7623	pakabukas	pakabukai pakabuko pakabuką pakabukų
+24	7624	nugarėlė	nugarėle nugarėlėje nugarėlės nugarėlę
+25	7625	nusispjauti	nusispjauna
+26	7626	gražulis	gražulio gražulį
+27	7627	pusrutulis	pusrutuliai pusrutuliais pusrutulio pusrutulius pusrutulių pusrutulyje pusrutulį
+28	7628	avėti	avi avim avint aviu avėdamas avėjau avėjo avės avėsiu
+29	7629	tobulėjimas	tobulėjimo tobulėjimui tobulėjimą
+30	7630	maniškis	maniškiai
+31	7631	dokumentacija	dokumentacijoje dokumentacijos dokumentaciją
+32	7632	pareiti	pareina pareis parėjo
+33	7633	erdvinis	erdviniai erdvinio erdvinių erdvinė erdvinės erdvinę erdvinį
+34	7634	meteoritas	meteoritai meteorito meteoritus meteoritą meteoritų
+35	7635	džiovintas	džiovinta džiovintais džiovinto džiovintomis džiovintos džiovintuose džiovintus džiovintą
+36	7636	grafa	grafai grafoje grafos grafose grafą grafų
+37	7637	nušalinti	nušalino
+38	7638	nulipti	nulipau nulipo
+39	7639	stigti	stigo stigs stinga
+40	7640	apgadinti	apgadina apgadino apgadintų
+41	7641	pasakymas	pasakymai pasakymo pasakymus pasakymą pasakymų
+42	7642	sukrauti	sukrauna sukrautų sukrovė
+43	7643	orda	ordos ordą
+44	7644	literatas	literatai literatų
+45	7645	motorinis	motorine motorines motoriniai motoriniams motorinio motoriniu motorinius motorinių motorinė motorinės motorinę
+46	7646	įsitraukimas	įsitraukimo įsitraukimu įsitraukimą
+47	7647	asas	asai asais asams asi aso asu asus asą asė asų
+48	7648	antrinti	antrina antrino antrins
+49	7649	profilaktinis	profilaktiniai profilaktinio profilaktinius profilaktinių profilaktinė profilaktinės profilaktinę profilaktinį
+50	7650	priespauda	priespaudoje priespaudos priespaudą
+51	7651	kulminacija	kulminacijos kulminaciją
+52	7652	krikštatėvis	krikštamote krikštamotė krikštamotės krikštatėvi krikštatėvio krikštatėviu krikštatėviui krikštatėvį
+53	7653	nusisukti	nusisuka nusisuko nusisuks
+54	7654	dinamiškas	dinamiška dinamiškai dinamiškais dinamiški dinamiško dinamiškoje dinamiškos dinamišku dinamišką
+55	7655	pakrypti	pakrypo pakryps pakrypsta pakryptų
+56	7656	pašautas	pašauta
+57	7657	adaptacija	adaptacijai adaptacijoje adaptacijos adaptaciją
+58	7658	didžėjus	didžėjai didžėjau didžėjaus didžėjumi didžėjė didžėjų
+59	7659	kelmas	kelmai kelmais kelme kelmo kelmu kelmus kelmą kelmų
+60	7660	baravykas	baravykai baravykais baravyko baravyku baravykuose baravykus baravyką baravykų
+61	7661	pažeminti	pažemina pažemino
+62	7662	krypti	krypo kryps krypsta kryptų
+63	7663	paktas	pakto paktą
+64	7664	skubotas	skubota skubotai skuboti skubotų
+65	7665	pakilus	pakili pakilia pakiliai pakilios pakilią
+66	7666	guolis	guoliai guoliais guoliams guolio guoliu guoliuose guolius guolių guolyje guolį
+67	7667	įsiklausyti	įsiklausau įsiklauso įsiklausyk įsiklausykite įsiklausytų įsiklausė
+68	7668	šerti	šeria šėriau šėrė
+69	7669	klasifikacija	klasifikacijoje klasifikacijos klasifikaciją
+70	7670	branginti	brangina branginame branginkime brangino branginu
+71	7671	klodas	klodai klodais klodo kloduose klodus klodą klodų
+72	7672	kupolas	kupole kupolo kupolu kupolą
+73	7673	prislėgtas	prislėgta prislėgtos
+74	7674	atlaisvinti	atlaisvina atlaisvino atlaisvins
+75	7675	rubrika	rubrikai rubrikoje rubrikos rubriką rubrikų
+76	7676	žiburys	žiburiai žiburio žiburiu žiburius
+77	7677	paliudyti	paliudijo paliudys paliudytų
+78	7678	luktelėti	luktelti luktelėjęs luktelėk luktelėkim luktelėkime luktelėkit luktelėkite lukterėti
+79	7679	fiziologinis	fiziologines fiziologiniai fiziologiniais fiziologinio fiziologinius fiziologinių fiziologinės fiziologinę fiziologinį
+80	7680	išnuomoti	išnuomoja išnuomojo
+81	7681	romantinis	romantiniai romantinio romantinius romantinių romantinė romantinėje romantinės romantinę romantinį
+82	7682	kaštonas	kaštonai kaštono kaštonus kaštonų
+83	7683	akordeonas	akordeono akordeonu akordeonui akordeoną
+84	7684	importuoti	importavo importuoja importuos importuotų
+85	7685	žolinis	žoliniai žolinių žolinė žolinę
+86	7686	išsispręsti	išsisprendė išsisprendžia išsispręs išsispręstų
+87	7687	teisintis	teisinasi teisinosi
+88	7688	anatomija	anatomijos anatomiją
+89	7689	laikysena	laikysenos laikyseną
+90	7690	rugys	rugiai rugiais rugiuose rugius rugių
+91	7691	miglotas	miglota miglotai migloti migloto miglotomis miglotos miglotą miglotų
+92	7692	buhalterinis	buhalterine buhalterines buhalteriniai buhalteriniais buhalterinius buhalterinė buhalterinės buhalterinę
+93	7693	draudikas	draudikai draudikams draudiko draudiku draudikų
+94	7694	šurmulys	šurmulio šurmuliu šurmuliui šurmulį
+95	7695	nuolankus	nuolankaus nuolanki nuolankiai nuolankios nuolankūs
+96	7696	knygutė	knygutes knygutėje knygutės knygutę knygučių
+97	7697	kliūti	klius kliuvo kliūna kliūva
+98	7698	ąžuolynas	ąžuolyne ąžuolyno
+99	7699	bulius	buliai buliais buliaus buliumi
+100	7700	girdyti	girdant girdau girdei girdo girdė girdėt girdžius

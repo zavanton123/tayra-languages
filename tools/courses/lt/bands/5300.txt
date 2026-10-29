@@ -1,0 +1,100 @@
+1	5201	taiklus	taiklaus taikli taikliai taikliais taikliau taikliausiai taiklios taikliu taiklius taiklią taiklių taiklūs taiklų
+2	5202	saulėlydis	saulėlydyje saulėlydį saulėlydžiai saulėlydžiais saulėlydžio saulėlydžius saulėlydžių
+3	5203	šūdinas	šūdina šūdinai šūdinais šūdinam šūdiname šūdinesnis šūdini šūdiniau šūdiniausias šūdino šūdinoje šūdinomis šūdinos šūdinu šūdinus šūdiną šūdinų
+4	5204	nejaukus	nejauki nejaukiai nejaukios nejaukią nejaukių nejauku
+5	5205	senolis	senoliai senoliais senoliams senolio senoliui senolius senolį
+6	5206	galvutė	galvute galvutes galvutėmis galvutės galvutę galvučių
+7	5207	atsisakymas	atsisakymo atsisakymu atsisakymą
+8	5208	pasitraukimas	pasitraukimo pasitraukimą
+9	5209	skelbtas	skelbta skelbtais skelbto skelbtus skelbtą
+10	5210	reginys	reginiai reginiais reginio reginiu reginius reginių reginį
+11	5211	atsitiktinumas	atsitiktinumai atsitiktinumo atsitiktinumu atsitiktinumui atsitiktinumus atsitiktinumą atsitiktinumų
+12	5212	kotas	kotai koto kotu kotus kotą
+13	5213	sauskelnės	sauskelnes sauskelnių sauskelnėmis
+14	5214	pastatymas	pastatymais pastatymams pastatyme pastatymo pastatymu pastatymui pastatymus pastatymą pastatymų
+15	5215	silpnumas	silpnumo silpnumu silpnumą
+16	5216	molekulė	molekules molekulių molekulėje molekulėmis molekulėms molekulės molekulę
+17	5217	kvadratas	kvadratai kvadratais kvadrato kvadratu kvadratą kvadratų
+18	5218	negailestingas	negailestinga negailestingai negailestingi negailestingo negailestingos negailestingu negailestingą negailestingų
+19	5219	astronomas	astronomai astronomams astronome astronomo astronomu astronomui astronomus astronomą astronomų
+20	5220	mūras	mūro mūru mūrus mūrą mūrų
+21	5221	atsibosti	atsibodai atsibodau atsibodo atsibodot atsibodote atsibodus atsibos atsibosi atsibosta
+22	5222	minėjimas	minėjimai minėjime minėjimo minėjimui minėjimus minėjimą minėjimų
+23	5223	paveikslėlis	paveikslėliai paveikslėliais paveikslėlio paveikslėlius paveikslėlių paveikslėlyje paveikslėlį
+24	5224	perteikti	perteikia perteiks perteikė
+25	5225	komfortas	komforto komfortu komfortui komfortą
+26	5226	naivus	naivi naivia naiviai naiviems naivios naivius naivu naivūs
+27	5227	pažįstama	
+28	5228	sureaguoti	sureagavo sureagavome sureaguoja sureaguos sureaguotų
+29	5229	įvedimas	įvedimo įvedimu įvedimui įvedimą
+30	5230	lažybos	lažybas lažybose lažybų
+31	5231	dangtis	dangtį dangčiai dangčio dangčiu dangčius dangčių
+32	5232	mįslė	mįsles mįslių mįslėmis mįslės mįslę
+33	5233	vandentiekis	vandentiekio vandentiekį
+34	5234	sugedęs	sugedus sugedusi sugedusio sugedusios sugedusiu sugedusius sugedusią sugedusių sugedusį sugedę
+35	5235	sotus	sotesnio sotesnis soti sotieji sotu sotūs sotų sočiais sočios sočius sočią sočių sočiųjų
+36	5236	pasipiktinimas	pasipiktinimo pasipiktinimui pasipiktinimą
+37	5237	kaklaraištis	kaklaraištį kaklaraiščiai kaklaraiščiais kaklaraiščio kaklaraiščiu kaklaraiščius kaklaraiščių
+38	5238	parazitas	parazitai parazitais parazitams parazitu parazitus parazitų
+39	5239	nuodai	nuodams nuoduose nuodus
+40	5240	ketvirtadalis	ketvirtadaliai ketvirtadalio ketvirtadaliu ketvirtadaliui ketvirtadalius ketvirtadalį
+41	5241	artistas	artistai artistais artistams artisto artistu artistui artistus artistą artistų
+42	5242	sumontuotas	sumontuota sumontuotos sumontuotu sumontuotus
+43	5243	netikėtumas	netikėtumai netikėtumais netikėtumams netikėtumo netikėtumu netikėtumui netikėtumus netikėtumų
+44	5244	kasetė	kasetes kasetėje kasetės kasetę kasečių
+45	5245	dovanėlė	dovanėle dovanėles dovanėlių dovanėlėmis dovanėlės dovanėlę
+46	5246	įdiegtas	įdiegta įdiegtos įdiegtą
+47	5247	santaka	santakoje santakos
+48	5248	lengvata	lengvatas lengvatomis lengvatos lengvatą lengvatų
+49	5249	kartelis	karteliai kartelio karteliu karteliui kartelį
+50	5250	dekoracija	dekoracijas dekoracijomis dekoracijoms dekoracijos dekoraciją dekoracijų
+51	5251	nutartis	nutarties nutartimi nutartyje nutartys nutartį
+52	5252	stumti	stumia stumiame stums stumtų stūmiau stūmė
+53	5253	naujagimis	naujagimiai naujagimiams naujagimio naujagimiu naujagimius naujagimių naujagimį
+54	5254	kanalizacija	kanalizacijos kanalizaciją kanalizacijų
+55	5255	nepasiruošęs	nepasiruošus nepasiruošusi nepasiruošusios nepasiruošusius nepasiruošę
+56	5256	antena	antenas antenos anteną antenų
+57	5257	sąvartynas	sąvartynai sąvartyne sąvartyno sąvartynu sąvartynuose sąvartynus sąvartyną sąvartynų
+58	5258	mergytė	mergytei mergytės mergytę
+59	5259	sprukti	spruk sprukai sprukau sprukit sprukite spruko spruks spruksime spruktų sprunka sprunkam sprunkame sprunki sprunku
+60	5260	intriga	intrigas intrigomis intrigos intrigose intrigą intrigų
+61	5261	pasipriešinti	pasipriešino pasipriešins pasipriešintų
+62	5262	reglamentas	reglamentai reglamente reglamento reglamentu reglamentui reglamentus reglamentą reglamentų
+63	5263	pildyti	pildau pildo pildome pildyk pildys pildė pildžiau
+64	5264	pridaryti	pridariau pridaro pridarys pridarytų pridarė
+65	5265	buhalteris	buhalteri buhalteriai buhalteriais buhalteriams buhalterio buhalteriu buhalteriui buhalterių buhalterė buhalterį
+66	5266	atsisveikinimas	atsisveikinimo atsisveikinimu atsisveikinimui atsisveikinimą
+67	5267	skardinė	skardine skardines skardinių skardinėje skardinėmis skardinės skardinėse skardinę
+68	5268	daugkartinis	daugkartines daugkartiniai daugkartinio daugkartiniu daugkartinius daugkartinių daugkartinė daugkartinės daugkartinę daugkartinį
+69	5269	armėnų	
+70	5270	drobė	drobe drobes drobių drobėje drobės drobėse drobę
+71	5271	perspektyvus	perspektyvaus perspektyvesnė perspektyvi perspektyviai perspektyviais perspektyvias perspektyviausi perspektyviausias perspektyviausių perspektyvios perspektyviu perspektyvius perspektyvią perspektyvių perspektyvu perspektyvūs
+72	5272	pakęsti	pakenčia
+73	5273	voverė	vovere voverei voveres voverių voverėmis voverėms voverės voverę
+74	5274	insultas	insultai insulto insultu insultui insultą insultų
+75	5275	lig	
+76	5276	kosulys	kosulio kosuliu kosuliui kosulį
+77	5277	kalnelis	kalneliai kalneliais kalnelio kalneliu kalnelius kalnelių kalnelyje kalnelį
+78	5278	vėsus	vėsaus vėsesni vėsesniam vėsesnio vėsesnis vėsesnių vėsesnė vėsesnėje vėsesnės vėsi vėsiai vėsiame vėsiau vėsiausia vėsioje vėsios vėsiu vėsią vėsu vėsūs
+79	5279	pranašystė	pranašyste pranašystes pranašystėmis pranašystės pranašystę pranašysčių
+80	5280	identifikuoti	identifikavo identifikuoja identifikuos identifikuotų
+81	5281	boksininkas	boksininkai boksininkams boksininko boksininku boksininkui boksininką boksininkų
+82	5282	kontaktinis	kontaktine kontaktiniai kontaktinio kontaktiniu kontaktinius kontaktinių kontaktinė kontaktinės kontaktinę kontaktinį
+83	5283	transformacija	transformacijai transformacijas transformacijos transformaciją transformacijų
+84	5284	atspėti	atspėjo atspėjote atspėk atspėkite
+85	5285	užsiregistruoti	užsiregistravau užsiregistravo užsiregistravom užsiregistravome užsiregistravus užsiregistravęs užsiregistruoja užsiregistruokite užsiregistruosite užsiregistruosiu
+86	5286	rašiklis	rašikliai rašikliais rašiklio rašikliu rašiklius rašiklių rašiklį
+87	5287	filosofinis	filosofine filosofines filosofiniai filosofiniais filosofinio filosofiniu filosofinius filosofinių filosofinė filosofinės filosofinę filosofinį
+88	5288	atvežtas	atvežta atvežtais atvežtam atvežtiems atvežto atvežtos atvežtus atvežtą
+89	5289	surištas	surišta surišti surištomis surištos surištus surištą surištų
+90	5290	silpnybė	silpnybe silpnybei silpnybes silpnybių silpnybėmis silpnybėms silpnybės silpnybę
+91	5291	nuskęsti	nuskendo nuskęs nuskęsta
+92	5292	nušautas	nušauta nušauto nušautos nušautą
+93	5293	akiratis	akiratyje akiratį akiračio
+94	5294	įamžinti	įamžina įamžino
+95	5295	vežėjas	vežėja vežėjai vežėjais vežėjams vežėjo vežėju vežėjui vežėjus vežėją vežėjų
+96	5296	piešimas	piešimo piešimu piešimui piešimą
+97	5297	išbūti	išbus išbuvau išbuvo išbūkite
+98	5298	nebuvimas	nebuvimo nebuvimu nebuvimą
+99	5299	evakuacija	evakuacijai evakuacijas evakuacijos evakuaciją evakuacijų
+100	5300	laidojimas	laidojimo laidojimui laidojimą

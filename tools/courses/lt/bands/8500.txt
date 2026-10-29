@@ -1,0 +1,100 @@
+1	8401	pelenė	pelene pelenę
+2	8402	perrinkimas	perrinkimo perrinkimą
+3	8403	vaistinėlė	vaistinėlėje vaistinėlės vaistinėlę
+4	8404	redagavimas	redagavimo
+5	8405	kulkšnis	kulkšnies kulkšnių kulkšnys kulkšnį
+6	8406	kajutė	kajutėje kajutės kajutėse kajutę
+7	8407	nuoviras	nuovirai nuovirais nuovire nuoviro nuoviru nuovirą
+8	8408	pasimatuoti	pasimatavau pasimatuokite
+9	8409	pasiūti	pasiuvo pasiūtų
+10	8410	priblokšti	priblokš pribloškia pribloškė
+11	8411	keistuolė	keistuolių
+12	8412	kvepėti	kvepėdavo kvepėjo kvepės kvepėtų
+13	8413	žentas	žento žentu žentui žentą
+14	8414	šunytis	šunyti šunytį šunyčiai šunyčio šunyčiu šunyčius šunyčių
+15	8415	bėgdamas	bėgdama bėgdami
+16	8416	pervedimas	pervedimai pervedimo pervedimu pervedimus pervedimą pervedimų
+17	8417	konstruktyvus	konstruktyvaus konstruktyvi konstruktyviai konstruktyviam konstruktyvias konstruktyviu konstruktyvius konstruktyvią konstruktyvių konstruktyvų
+18	8418	iškirsti	iškirto
+19	8419	juokdarys	juokdariai juokdario juokdariu
+20	8420	dubenėlis	dubenėliai dubenėlio dubenėliu dubenėliuose dubenėlius dubenėlių dubenėlyje dubenėlį
+21	8421	balnas	balna balne balno balnu balnus balną balnų
+22	8422	išeivis	išeiviai išeiviais išeiviams išeivius išeivių
+23	8423	negrįžtamas	negrįžtama negrįžtamai negrįžtami negrįžtamus negrįžtamų
+24	8424	mandarinas	mandarinai mandarinus mandarinų
+25	8425	kepuraitė	kepuraite kepuraitėmis kepuraitės kepuraitę kepuraičių
+26	8426	paskiepyti	paskiepytų
+27	8427	savaiminis	savaiminio savaiminiu savaiminės
+28	8428	ištrintas	ištrinta ištrintos
+29	8429	peiliukas	peiliukai peiliuko peiliuku peiliukus peiliuką peiliukų
+30	8430	karkasas	karkasai karkaso karkasą
+31	8431	stabilizuotis	stabilizavosi stabilizuojasi stabilizuosis
+32	8432	režisuoti	režisavo režisuoja režisuos
+33	8433	nutekėjimas	nutekėjimo nutekėjimu nutekėjimui nutekėjimą
+34	8434	kryžkelė	kryžkelių kryžkelėje kryžkelės
+35	8435	bankomatas	bankomatai bankomate bankomato bankomatui bankomatuose bankomatus bankomatą bankomatų
+36	8436	kaitinti	kaitina kaitiname kaitinkite kaitino
+37	8437	sekretoriatas	sekretoriate sekretoriato sekretoriatui sekretoriatą
+38	8438	aviena	avienos avieną
+39	8439	tinklelis	tinklelio tinkleliu tinklelius tinklelių tinklelį
+40	8440	galiūnas	galiūnai galiūnu galiūnus galiūną galiūnų
+41	8441	klebonija	klebonijoje klebonijos kleboniją
+42	8442	lojalus	lojali lojaliems lojalios lojaliu lojalius lojalių lojalūs
+43	8443	litvakas	litvakai litvakams litvako litvakų
+44	8444	stengti	stengiantis
+45	8445	pramonininkas	pramonininkai pramonininko pramonininkų
+46	8446	domėjimasis	domėjimosi domėjimąsi
+47	8447	skeletas	skeletai skelete skeleto skeletus skeletą skeletų
+48	8448	dusulys	dusulio dusulį
+49	8449	vergija	vergijos vergiją
+50	8450	poetinis	poetinio poetinių poetinė poetinės
+51	8451	kariauna	kariaunos kariauną
+52	8452	žemėtvarka	žemėtvarkos
+53	8453	besti	beda bedantis bedantė bedu bedus bedė bedęs bes besk beskite
+54	8454	išspausti	išspaudžia išspauskite
+55	8455	užsimegzti	užsimegs užsimezga užsimezgė
+56	8456	komikas	komikai komiko komiku komikui komikų
+57	8457	darbingas	darbinga darbingai darbingesni darbingi darbingo darbingų
+58	8458	konkreti	
+59	8459	dvivietis	dviviete dvivietė dvivietės dvivietę dvivietį dviviečiame dviviečio dviviečių
+60	8460	nutolti	nutolo nutolome nutols nutolsta
+61	8461	išsikrauti	išsikrauna išsikrovė
+62	8462	freska	freskas freskomis freskos freską freskų
+63	8463	praėjimas	praėjimai praėjimo praėjimus praėjimą
+64	8464	ropė	ropes ropių ropėms ropės ropę
+65	8465	prilyginti	prilygina prilygino prilygintų
+66	8466	atrakcionas	atrakcionai atrakcionais atrakcionus atrakcioną atrakcionų
+67	8467	išplauti	išplauna išplovė
+68	8468	nutylėti	nutyli nutylint nutyliu nutylėjai nutylėjau nutylėjo nutylėtų
+69	8469	plaukuotas	plaukuota plaukuotos
+70	8470	neapibrėžtas	neapibrėžta neapibrėžtai neapibrėžtam neapibrėžti neapibrėžto neapibrėžtoje neapibrėžtos neapibrėžtą
+71	8471	tarpininkavimas	tarpininkavimo tarpininkavimu tarpininkavimą
+72	8472	kurmis	kurmi kurmiai kurmio kurmiu kurmius kurmį
+73	8473	prieaugis	prieaugio prieaugiui prieaugį
+74	8474	dėvimas	dėvima dėvimi dėvimos dėvimų
+75	8475	užteršti	užteršia užterštų užteršė
+76	8476	užuomazga	užuomazgas užuomazgos užuomazgų
+77	8477	raganosis	raganosi raganosiai raganosiu raganosius raganosių raganosį
+78	8478	onkologija	onkologijos
+79	8479	dziudo	
+80	8480	užvakar	
+81	8481	išsisklaidyti	išsisklaido išsisklaidys išsisklaidė
+82	8482	pranykti	pranyko pranyks pranyksta
+83	8483	negras	negrai
+84	8484	žuvytė	žuvytes žuvytėmis žuvytės žuvytę žuvyčių
+85	8485	kaimiškas	kaimiško kaimiškos kaimiškose kaimiškosios kaimišką kaimiškų kaimiškųjų
+86	8486	veisimas	veisimo veisimu veisimui
+87	8487	pakloti	paklojo
+88	8488	tupėti	tupi tupėjo
+89	8489	skustuvas	skustuvai skustuvo skustuvu skustuvą skustuvų
+90	8490	pažemintas	pažeminta
+91	8491	emblema	emblemos emblemą
+92	8492	rimtumas	rimtumo rimtumu rimtumą
+93	8493	perdaryti	perdariau perdaro perdarome perdarykim perdarykit perdarys perdarysiu perdaryta perdarytas perdarė perdarėme
+94	8494	rumunas	rumunai rumunams rumunų
+95	8495	provokuoti	provokavo provokuoja provokuoju provokuos
+96	8496	barakas	barakai barako barakuose barakus baraką barakų
+97	8497	sutema	sutemas sutemos sutemą sutemų
+98	8498	neaiškumas	neaiškumai neaiškumo neaiškumus neaiškumų
+99	8499	skutimasis	skutimosi
+100	8500	ekstraktas	ekstraktai ekstraktais ekstrakto ekstraktu ekstraktus ekstraktą ekstraktų

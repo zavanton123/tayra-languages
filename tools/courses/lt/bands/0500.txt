@@ -1,0 +1,100 @@
+1	401	vienintelis	vienintele vienintelei vieninteles vieninteli vieninteliai vieninteliam vieninteliame vieninteliams vienintelio vieninteliu vieninteliui vienintelius vienintelių vienintelė vienintelėje vienintelės vienintelę vienintelį
+2	402	karantinas	karantine karantino karantiną
+3	403	ryšys	ryšiai ryšiais ryšiams ryšio ryšiu ryšiui ryšiuose ryšius ryšių ryšyje ryšį
+4	404	sukurti	sukurdavo sukuri sukuria sukuriame sukuriu sukurk sukurkime sukurkite sukurs sukursi sukursime sukursiu sukurtum sukurtume sukurtų sukurčiau sukūrei sukūriau sukūrė sukūrėm sukūrėme sukūrėte
+5	405	trumpas	trumpa trumpai trumpais trumpam trumpame trumpasis trumpesni trumpesniam trumpesnio trumpesnis trumpesniu trumpesnių trumpesnė trumpesnės trumpesnį trumpi trumpiau trumpiausia trumpiausias trumpiausiu trumpiausią trumpo trumpoje trumpojo trumpomis trumpos trumposiomis trumposios trumpu trumpui trumpuoju trumpus trumpą trumpąja trumpąją trumpąjį trumpąsias trumpų trumpųjų
+6	406	pora	porai poras poroje poromis poroms poros porose porą porų
+7	407	rinkti	renka renkam renkamas renkame renkami renkamės renkant renkantis renkasi renkatės renki renkiesi renku renkuosi rink rinkai rinkau rinkausi rinkdama rinkdamas rinkdami rinkdavo rinkdavosi rinkimės rinkis rinkitės rinko rinkome rinkosi rinks rinksimės rinksis rinksitės rinktas rinktis rinktų rinktųsi rinkčiausi rinkęs
+8	408	laukas	laukai laukais laukams lauke lauko lauku laukui laukuose lauką laukų
+9	409	bažnyčia	bažnyčią bažnyčiai bažnyčias bažnyčioje bažnyčiomis bažnyčioms bažnyčios bažnyčiose bažnyčią bažnyčių
+10	410	trečias	tretieji tretiems tretiesiems trečia trečiai trečiais trečiaisiais trečiajai trečiajam trečiajame trečiam trečiame trečiasis trečio trečioje trečioji trečiojo trečiojoje trečioms trečios trečiose trečiosiomis trečiosioms trečiosios trečiosiose trečiu trečiuoju trečiuosius trečius trečią trečiąja trečiąją trečiąjį trečiąsias trečių trečiųjų
+11	411	gana	ganietis ganoje ganos ganą
+12	412	sveiki	
+13	413	veidas	veidai veidais veide veido veidu veidui veiduose veidus veidą veidų
+14	414	pastatas	pastatai pastatais pastatams pastate pastato pastatu pastatui pastatuose pastatus pastatą pastatų
+15	415	menas	menai menais menams mene meno menu menui menuose menus meną menų
+16	416	gydytojas	gydytoja gydytojai gydytojais gydytojams gydytojau gydytojo gydytojos gydytoju gydytojui gydytojus gydytoją gydytojų
+17	417	priežastis	priežasties priežastimi priežastimis priežastims priežastys priežastį priežasčiai priežasčiu priežasčių
+18	418	teritorija	teritorijai teritorijas teritorijoje teritorijomis teritorijoms teritorijos teritorijose teritoriją teritorijų
+19	419	daina	dainai dainas dainoje dainomis dainoms dainos dainose dainą dainų
+20	420	miškas	miško miškai miškais miškams miške miško mišku miškui miškuose miškus mišką miškų
+21	421	privalėti	privalai privalau privalo privalom privaloma privalomai privalomais privalomas privalomasis privalome privalomi privalomiems privalomo privalomoji privalomojo privalomos privalomosios privalomu privalomuoju privalomus privalomą privalomąją privalomąjį privalomąsias privalomų privalomųjų privalot privalote privalėjai privalėjau privalėjo privalėjom privalėjome privalėjote privalės privalėsi privalėsime privalėsite privalėsiu privalėtų
+22	422	žaisti	žaidei žaidi žaidė žaidėm žaidėme žaidėt žaidėte žaidęs žaidžia žaidžiam žaidžiame žaidžiant žaidžiantis žaidžiat žaidžiate žaidžiau žaidžiu žais žaisdamas žaisdavau žaisdavo žaisdavom žaisdavome žaisi žaisim žaisime žaisit žaisite žaisiu žaisk žaiskim žaiskime žaiskit žaiskite žaistum žaistume žaistumėt žaistų žaisčiau
+23	423	malonus	malonaus malonesne malonesnio malonesnis malonesniu malonesnė malonesnės malonesnę maloni malonia maloniai maloniais maloniam maloniame malonias maloniau maloniausi maloniausia maloniausias maloniausius maloniausią maloniausių malonioje maloniomis malonioms malonios maloniu malonius malonią maloniųjų malonu malonūs malonų
+24	424	prekyba	prekybai prekyboje prekybos prekybą
+25	425	skirtingas	skirtinga skirtingai skirtingais skirtingam skirtingame skirtingi skirtingiems skirtingo skirtingom skirtingomis skirtingoms skirtingos skirtingose skirtingu skirtinguose skirtingus skirtingą skirtingų
+26	426	aplinka	aplinkai aplinkas aplinką aplinkoje aplinkomis aplinkos aplinkose aplinką aplinkų
+27	427	nuotrauka	nuotraukai nuotraukas nuotraukoje nuotraukomis nuotraukoms nuotraukos nuotraukose nuotrauką nuotraukų
+28	428	šalia	
+29	429	sužinoti	sužinai sužinau sužino sužinojai sužinojau sužinojo sužinojom sužinojome sužinojote sužinok sužinokite sužinome sužinos sužinosi sužinosime sužinosite sužinosiu sužinotum sužinotume sužinotumėte sužinotų sužinočiau
+30	430	organizacija	organizacijai organizacijas organizacijoje organizacijomis organizacijoms organizacijos organizacijose organizaciją organizacijų
+31	431	paimti	paima paimame paimdavo paimi paimk paimkime paimkit paimkite paims paimsi paimsim paimsime paimsite paimsiu paimtume paimtų paimu paimčiau paėmei paėmiau paėmė paėmėm paėmėme paėmėte
+32	432	euras	eur eurai eurais euro euru eurui eurus eurą eurų
+33	433	bendrovė	bendrove bendrovei bendroves bendrovės bendrovių bendrovėje bendrovėmis bendrovėms bendrovės bendrovėse bendrovę
+34	434	sutartis	sutarties sutartimi sutartimis sutartims sutartyje sutartys sutartyse sutartį sutarčiai sutarčių
+35	435	šūdas	šūdai šūdais šūde šūdo šūdu šūdui šūdus šūdą šūdų
+36	436	vaizdas	vaizdai vaizdais vaizdams vaizde vaizdo vaizdu vaizdui vaizduose vaizdus vaizdą vaizdų
+37	437	pasakoti	pasakodavau pasakodavo pasakoja pasakojame pasakojate pasakojau pasakoji pasakojo pasakojome pasakojote pasakoju pasakosime pasakosiu pasakotų
+38	438	kraštas	kraštai kraštais kraštams krašte krašto kraštu kraštui kraštuose kraštus kraštą kraštų
+39	439	sąlyga	sąlygų sąlygas sąlygomis sąlygoms sąlygos sąlygose sąlygą sąlygų
+40	440	prisiminti	prisimena prisimenam prisimename prisimenate prisimeni prisimenu prisimindavau prisimindavo prisiminiau prisimink prisiminkim prisiminkime prisiminkite prisimins prisiminsi prisiminsime prisiminsite prisiminsiu prisiminta prisimintume prisimintų prisiminčiau prisiminė prisiminėm prisiminėme
+41	441	gi	
+42	442	tarnyba	tarnybai tarnybas tarnyboje tarnybomis tarnyboms tarnybos tarnybose tarnybą tarnybų
+43	443	ženklas	ženklai ženklais ženklams ženkle ženkli ženkliai ženklo ženklu ženklui ženkluose ženklus ženklą ženklų
+44	444	pakeisti	pakeis pakeisdavo pakeisi pakeisime pakeisite pakeisiu pakeisk pakeiskime pakeiskite pakeistum pakeistume pakeistumėte pakeistų pakeisčiau pakeiti pakeitimas pakeitimų pakeitė pakeitėme pakeitėte pakeičia pakeičiame pakeičiau pakeičiu
+45	445	turbūt	
+46	446	kompanija	kompanijai kompanijas kompanijoje kompanijomis kompanijoms kompanijos kompanijose kompaniją kompanijų
+47	447	pavyzdžiui	
+48	448	surasti	suradai suradau surado suradom suradome suradot suradote suradus suradęs suranda surandam surandame surandant surandat surandi surandu suras surasdavo surasi surasim surasime surasit surasite surasiu surask suraskim suraskime suraskit suraskite surasta surastas surastos surastum surastume surastumėm surastumėt surastumėte surastų surasčiau
+49	449	brangus	brangaus brangesni brangesnio brangesnis brangesnius brangesnių brangesnė brangesnės brangi brangiai brangiais brangiam brangias brangiau brangiausi brangiausia brangiausiai brangiausias brangiausiasis brangiausioji brangiausiu brangiausius brangiausią brangiausių brangieji brangioji brangiomis brangios brangiosios brangiu brangius brangią brangiąją brangių brangiųjų brangu brangusis brangūs brangų
+50	450	rodyti	rodai rodant rodantis rodau rodei rodo rodom rodoma rodomas rodome rodomi rodomo rodomos rodomą rodomąjį rodomų rodot rodote rodydamas rodydavo rodyk rodykit rodykite rodys rodysi rodysim rodysime rodysit rodysite rodysiu rodyta rodytas rodytą rodytų rodyčiau rodė rodėme rodėte rodžiau
+51	451	įvykti	įvykdavo įvyko įvyks įvyksiantis įvyksta įvykstant įvyktų įvykus įvykęs
+52	452	vyresnis	vyresni vyresniais vyresniajam vyresniam vyresniame vyresniems vyresnio vyresnioji vyresniojo vyresniosios vyresniu vyresniuoju vyresniuosius vyresnius vyresnių vyresnysis vyresnė vyresnės vyresnėse vyresnę vyresnį vyresnįjį vyriausia vyriausiajai vyriausiajam vyriausias vyriausiasis vyriausieji vyriausio vyriausioji vyriausiojo vyriausios vyriausiosios vyriausiuoju vyriausią vyriausiąja vyriausiąją vyriausiąjį vyriausiųjų
+53	453	teisingas	teisinga teisingai teisingais teisingam teisingame teisingasis teisingesnis teisingesnių teisingesnė teisingesnės teisingi teisingiau teisingiausi teisingiausia teisingiausiai teisingiausias teisingo teisingoje teisingoji teisingojo teisingos teisingu teisingus teisingą teisingų teisingųjų
+54	454	daktaras	daktarai daktarais daktarams daktare daktaro daktaru daktarui daktarus daktarą daktarų
+55	455	atsirasti	atsiradai atsiradau atsirado atsiradome atsiradote atsiranda atsiras atsirasdavo atsirastų
+56	456	tinklas	tinklai tinklais tinklams tinkle tinklo tinklu tinklui tinkluose tinklus tinklą tinklų
+57	457	jėga	jėgos jėgai jėgas jėgomis jėgoms jėgos jėgą jėgų
+58	458	penki	penkiais penkias penkiems penkiomis penkioms penkios penkiose penkis penkiuose penkių
+59	459	spalva	spalvai spalvas spalvomis spalvoms spalvos spalvą spalvų
+60	460	santykis	santykiai santykiais santykiams santykio santykiu santykiui santykiuose santykius santykių santykyje santykį
+61	461	bendruomenė	bendruomene bendruomenei bendruomenes bendruomenės bendruomenėse bendruomenių bendruomenėje bendruomenėmis bendruomenėms bendruomenės bendruomenėse bendruomenę
+62	462	kelionė	kelione kelionei keliones kelionių kelionėje kelionėmis kelionėms kelionės kelionėse kelionę
+63	463	nuspręsti	nusprendei nusprendi nusprendė nusprendėm nusprendėme nusprendėte nusprendžia nusprendžiame nusprendžiate nusprendžiau nusprendžiu nuspręs nuspręsdavo nuspręsi nuspręsime nuspręsite nuspręsiu nuspręsk nuspręskite nuspręstume nuspręstumėte nuspręstų
+64	464	baigtis	baigdavosi baigiasi baigsis baigties baigtimi baigtį baigtųsi baigčiai baigės baigėsi
+65	465	paprastai	paprasčiau paprasčiausiai
+66	466	tuoj	
+67	467	paskui	paskiau paskiausiai
+68	468	koja	kojai kojas kojoje kojomis kojoms kojos kojose koją kojų
+69	469	valstybinis	valstybine valstybinei valstybines valstybiniai valstybiniais valstybiniam valstybiniame valstybiniams valstybinio valstybiniu valstybiniuose valstybinius valstybinių valstybinė valstybinėje valstybinėmis valstybinėms valstybinės valstybinėse valstybinę valstybinį
+70	470	šventė	šventes šventėje šventėmis šventėms šventės šventėse šventę švenčių
+71	471	ramus	ramaus ramesni ramesniems ramesnio ramesnis ramesniu ramesnių ramesnė ramesnėje ramesnės ramesnę ramesnį rami ramia ramiai ramiais ramiajame ramiam ramiame ramias ramiau ramiausi ramiausiai ramiausią ramiems ramioje ramiojo ramios ramiu ramius ramią ramių ramu ramusis ramūs ramų ramųjį
+72	472	lyg	
+73	473	procesas	procesai procesais procesams procesą procese proceso procesu procesui procesuose procesus procesą procesų
+74	474	klasė	klase klasei klases klasių klasėje klasėmis klasėms klasės klasėse klasę
+75	475	kitaip	
+76	476	keletas	keletai keleto keletu keletui keletą
+77	477	kilti	kilai kildamas kildavo kilk kilkim kilkime kilkit kilkite kilo kilome kils kilsi kilsim kilsime kilsite kilsiu kiltų kyla kylam kylame kylant kylantis kylat kylate kyli kylu
+78	478	specialus	specialaus speciali specialia specialiai specialiais specialiaisiais specialiajam specialiajame specialiam specialiame specialias specialieji specialiems specialioje specialioji specialiojo specialiojoje specialiomis specialios specialiose specialiosiomis specialiosioms specialiosios specialiosiose specialiu specialiuoju specialiuose specialiuosius specialius specialią specialiąja specialiąją specialiąsias specialių specialiųjų specialusis specialūs specialų specialųjį
+79	479	sąrašas	sąrašai sąrašais sąraše sąrašo sąrašu sąrašui sąrašuose sąrašus sąrašą sąrašų
+80	480	laikotarpis	laikotarpi laikotarpiai laikotarpiais laikotarpio laikotarpiu laikotarpiui laikotarpius laikotarpių laikotarpyje laikotarpį
+81	481	kaina	kainai kainas kainoje kainomis kainoms kainos kainose kainą kainų
+82	482	tikėti	netikiu tiki tikim tikime tikint tikite tikiu tikėdamas tikėdavo tikėjai tikėjau tikėjo tikėjome tikėjote tikėjęs tikėk tikėkime tikėkit tikėkite tikės tikėsi tikėsime tikėsit tikėsite tikėsiu tikėtinai tikėtinas tikėtum tikėtume tikėtumėte tikėtų tikėčiau
+83	483	technologija	technologijai technologijas technologijoje technologijomis technologijoms technologijos technologijose technologiją technologijų
+84	484	susitikti	susitik susitikai susitikau susitikdamas susitikdavau susitikdavo susitikdavome susitikim susitikit susitikite susitiko susitikom susitikome susitikot susitikote susitiks susitiksi susitiksim susitiksime susitiksit susitiksite susitiksiu susitiktum susitiktume susitiktumėte susitiktų susitikus susitikčiau susitikęs susitinka susitinkam susitinkame susitinkant susitinkat susitinkate susitinki susitinku susitinkąs
+85	485	pirmininkas	pirmininkai pirmininkais pirmininkams pirmininke pirmininko pirmininku pirmininkui pirmininkus pirmininką pirmininkė pirmininkų
+86	486	baltas	balas baltai baltais baltaisiais baltajai baltajam baltajame baltam baltame baltams baltasis baltesnes baltesni baltesnė baltieji baltiems baltiesiems balto baltoje baltoji baltojo baltojoje baltomis baltos baltosios baltu baltuoju baltuose baltuosiuose baltuosius baltus baltą baltąja baltąją baltąjį baltąsias baltų baltųjų balus
+87	487	ilgai	
+88	488	taškas	taškai taškais taškams taške taško tašku taškuose taškus tašką taškų
+89	489	vertas	verta vertais vertesnis verti verto vertos vertu vertus vertą vertų verčiau verčiausius
+90	490	bėgti	bėga bėgai bėgam bėgame bėgantis bėgat bėgate bėgau bėgdavai bėgdavau bėgdavo bėgdavome bėgi bėgo bėgom bėgome bėgot bėgs bėgsi bėgsiantis bėgsim bėgsime bėgsit bėgsite bėgsiu bėgte bėgtum bėgtume bėgtumėte bėgtų bėgu bėgčiau bėgęs bėk bėki bėkim bėkime bėkit bėkite
+91	491	teatras	teatrai teatrais teatrams teatre teatro teatru teatrui teatruose teatrus teatrą teatrų
+92	492	laisvė	laisve laisvei laisves laisvės laisvę laisvių laisvėje laisvėmis laisvėms laisvės laisvę
+93	493	saugumas	saugume saugumo saugumu saugumui saugumą
+94	494	idėja	idėjos idėjai idėjas idėjoje idėjomis idėjoms idėjos idėjose idėją idėjų
+95	495	pastebėti	pastebi pastebima pastebimai pastebimas pastebime pastebimi pastebimos pastebimus pastebimą pastebimų pastebintis pastebite pastebiu pastebėdavau pastebėdavo pastebėdavote pastebėjai pastebėjau pastebėjo pastebėjom pastebėjome pastebėjot pastebėjote pastebėjus pastebėjęs pastebėkime pastebėkit pastebėkite pastebės pastebėsi pastebėsime pastebėsit pastebėsite pastebėsiu pastebėta pastebėtas pastebėtum pastebėtų pastebėčiau
+96	496	saulė	saule saulei saules saulių saulėje saulės saulę
+97	497	pietūs	pietumis pietums pietuose pietus pietų
+98	498	medis	medi medio medyje medį medžiai medžiais medžiams medžio medžiu medžiui medžiuose medžius medžių
+99	499	keliauti	keliaudama keliaudamas keliaudami keliaudavau keliaudavo keliauja keliaujam keliaujame keliaujant keliaujantis keliaujat keliaujate keliauji keliauju keliauk keliaukim keliaukime keliaukit keliaukite keliaus keliausi keliausim keliausime keliausit keliausite keliausiu keliautum keliautume keliautumei keliautų keliaučiau keliavai keliavau keliavo keliavom keliavome keliavot keliavote keliavęs
+100	500	dalyvis	dalyviai dalyviais dalyviams dalyvio dalyviu dalyviui dalyvius dalyvių dalyvį

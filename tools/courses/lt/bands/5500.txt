@@ -1,0 +1,100 @@
+1	5401	devyneri	devyneriais devyneriems devynerius devynerių
+2	5402	purvinas	purvinus purviną purvinų
+3	5403	baigimas	baigimo baigimą
+4	5404	santaupos	santaupas santaupoms santaupų
+5	5405	kačiukas	kačiukai kačiukais kačiuko kačiukus kačiuką kačiukų
+6	5406	oranžinis	oranžine oranžiniai oranžiniais oranžinio oranžiniu oranžinius oranžinių oranžinės oranžinę oranžinį
+7	5407	siuvimas	siuvimo siuvimą
+8	5408	siera	sieros sierą
+9	5409	prekinis	prekiniai prekiniais prekinio prekiniu prekinius prekinių prekinę prekinį
+10	5410	alkūnė	alkūne alkūnes alkūnių alkūnėje alkūnėmis alkūnės alkūnę
+11	5411	išryškėti	išryškėja išryškėjo išryškės išryškėtų
+12	5412	pradingti	pradingo pradings pradingsta
+13	5413	ikimokyklinis	ikimokyklines ikimokykliniame ikimokyklinio ikimokyklinių ikimokyklinės ikimokyklinėse ikimokyklinį
+14	5414	suvienyti	suvienija suvienijo suvienys
+15	5415	lemtingas	lemtinga lemtingai lemtingi lemtingo lemtingoji lemtingos lemtingu lemtingus lemtingą lemtingąjį lemtingų
+16	5416	kubas	kubai kubais kube kubo kubu kubuose kubus kubą kubų
+17	5417	sumanus	sumanaus sumani sumaniai sumaniosios sumanių sumanūs
+18	5418	imtynės	imtynes imtynių imtynėmis imtynėse
+19	5419	hibridinis	hibridine hibridines hibridiniai hibridiniais hibridiniam hibridiniame hibridiniams hibridinio hibridiniu hibridinius hibridinių hibridinė hibridinės hibridinę hibridinį
+20	5420	burti	buria buriame buriant buriantis buriu burkite burs burtų burčiau būrei būriau būrė būrėte
+21	5421	pranašas	pranašai pranašo pranašą
+22	5422	gimda	gimdoje gimdos gimdą
+23	5423	kopėčios	kopėčias kopėčiomis kopėčioms kopėčių
+24	5424	atsivesti	atsiveda atsivedė atsives atsivesdavo atsivesk atsivestų
+25	5425	nepasitikėjimas	nepasitikėjimo nepasitikėjimu nepasitikėjimą
+26	5426	gamybinis	gamybine gamybinei gamybines gamybiniai gamybiniais gamybiniame gamybinio gamybiniu gamybinius gamybinių gamybinė gamybinėmis gamybinėms gamybinės gamybinėse gamybinę gamybinį
+27	5427	dešra	dešromis dešros dešrose dešrą dešrų
+28	5428	dėkingumas	dėkingumo dėkingumu dėkingumą
+29	5429	tarmė	tarme tarmes tarmių tarmėje tarmės tarmėse tarmę
+30	5430	užstrigti	užstrigo užstrigs užstringa
+31	5431	lynas	lynai lyno lynu lynus lyną lynų
+32	5432	alkoholikas	alkoholikai alkoholikais alkoholikams alkoholike alkoholiko alkoholiku alkoholikui alkoholiką alkoholikė alkoholikų
+33	5433	atsivežti	atsiveš atsivešiu atsiveža atsivežame atsiveždavo atsivežiau atsivežė atsivežėme
+34	5434	atsitrenkti	atsitrenkia atsitrenks atsitrenkė
+35	5435	laivyba	laivybai laivybos laivybą
+36	5436	bėgikas	bėgikai bėgikais bėgikams bėgiko bėgikus bėgiką bėgikų
+37	5437	apsiginti	apsigintų apsigyniau apsigynė
+38	5438	debiutuoti	debiutavo debiutuoja debiutuos
+39	5439	klevas	klevai kleve klevo klevą klevų
+40	5440	išžudyti	išžudė
+41	5441	išdrįsti	išdrįs išdrįsau išdrįsite išdrįsiu išdrįsk išdrįso išdrįsta išdrįstų išdrįsčiau
+42	5442	nusišypsoti	nusišypsai nusišypso nusišypsodavo nusišypsojo nusišypsokite nusišypsos
+43	5443	protestuoti	protestavau protestavo protestavęs protestuodamas protestuodavo protestuoja protestuojant protestuojantis protestuoju protestuos
+44	5444	trofėjus	trofėjai trofėjais trofėjaus trofėjų
+45	5445	navigacija	navigacijai navigacijos navigaciją
+46	5446	gynybinis	gynybine gynybines gynybiniai gynybiniais gynybinio gynybinius gynybinių gynybinė gynybinėmis gynybinės gynybinę
+47	5447	atvirumas	atvirumo atvirumu atvirumui atvirumą
+48	5448	atšvęsti	atšventė atšventėme atšvenčiau atšvęsime
+49	5449	bankininkas	bankininkai bankininkais bankininkams bankininko bankininku bankininkui bankininkus bankininką bankininkų
+50	5450	teikėjas	teikėja teikėjai teikėjais teikėjams teikėjo teikėjui teikėjus teikėją teikėjų
+51	5451	dezinfekuoti	dezinfekuoja
+52	5452	susikaupęs	susikaupus susikaupusi susikaupusias susikaupusios susikaupusius susikaupusią susikaupusių susikaupusį susikaupę
+53	5453	paskirstymas	paskirstymo paskirstymu paskirstymui paskirstymą
+54	5454	patikslinti	patikslina patikslino patikslins patikslinsiu
+55	5455	pagyvenęs	pagyvenus pagyvenusi pagyvenusiais pagyvenusiems pagyvenusio pagyvenusios pagyvenusius pagyvenusią pagyvenusių pagyvenę
+56	5456	šeimyninis	šeimynines šeimyniniai šeimyniniam šeimyninio šeimyninius šeimyninių šeimyninė šeimyninės šeimyninę šeimyninį
+57	5457	pasisavinti	pasisavina pasisavino pasisavintų
+58	5458	pūslė	pūslei pūsles pūslių pūslėje pūslės pūslę
+59	5459	pakilęs	pakilusi pakilusia pakilusios pakilusius pakilusią pakilusių pakilusį pakilę
+60	5460	iššokti	iššoka iššokau iššoko iššoks
+61	5461	suteikimas	suteikime suteikimo suteikimą
+62	5462	pamėgtas	pamėgta pamėgtame pamėgti pamėgtoje pamėgtos pamėgtose pamėgtu pamėgtus pamėgtą pamėgtų
+63	5463	išmušti	išmuš išmuša išmuštų išmušė
+64	5464	kurjeris	kurjeriai kurjerio kurjeriu kurjeriui kurjerius kurjerių kurjerį
+65	5465	dešrelė	dešreles dešrelių dešrelėmis dešrelės dešrelę
+66	5466	galybė	galybe galybes galybę galybių galybėmis galybės galybę
+67	5467	kolūkis	kolūkiai kolūkiams kolūkio kolūkiui kolūkius kolūkių kolūkyje kolūkį
+68	5468	kraustytis	kraustausi kraustosi kraustysis kraustėsi
+69	5469	nešiotis	nešiodavosi nešiojamės nešiojasi nešiojatės nešiojausi nešiojosi nešiojuosi
+70	5470	supjaustyti	supjausto supjaustome supjaustyk supjaustykite supjaustytų supjaustė supjausčiau
+71	5471	nuotaka	
+72	5472	išsinuomoti	išsinuomoja išsinuomojau išsinuomojo išsinuomojome
+73	5473	teirautis	teiraudavosi teiraujasi teiraujuosi teiravausi teiravomės teiravosi
+74	5474	atsibusti	atsibudau atsibudo atsibunda atsibundi atsibundu atsibus
+75	5475	nevykęs	nevykusi nevykusiai nevykusio nevykusios nevykusiu nevykusius nevykusią nevykusių nevykusį nevykę
+76	5476	nepatenkinti	nepatenkina nepatenkino nepatenkins nepatenkintų
+77	5477	glaudus	glaudaus glaudesni glaudesniam glaudesniems glaudesnio glaudesnis glaudesnius glaudesnių glaudesnė glaudesnės glaudesnę glaudesnį glaudi glaudūs glaudų glaudžiais glaudžius
+78	5478	pieštukas	pieštukai pieštukais pieštuko pieštuku pieštukuose pieštukus pieštuką pieštukų
+79	5479	pradininkas	pradininkai pradininkais pradininko pradininku pradininkų
+80	5480	išnešti	išneš išneša išneškite išnešė
+81	5481	iškrypėlis	iškrypėliai iškrypėliais iškrypėlio iškrypėliu iškrypėlius iškrypėlių iškrypėlį
+82	5482	matrica	matricos matricą
+83	5483	majonezas	majonezo majonezu majonezą
+84	5484	reidas	reidai reidais reide reido reiduose reidus reidą reidų
+85	5485	atvirukas	atvirukai atvirukais atviruke atviruko atvirukuose atvirukus atviruką atvirukų
+86	5486	spausdinimas	spausdinimo spausdinimui spausdinimą
+87	5487	žuvininkystė	žuvininkyste žuvininkystei žuvininkystės žuvininkystę
+88	5488	išprotėjęs	išprotėjusi išprotėjusios išprotėjusių išprotėjusį išprotėję
+89	5489	mikrorajonas	mikrorajone mikrorajono mikrorajonuose mikrorajoną mikrorajonų
+90	5490	pavirsti	pavirsi pavirsim pavirsime pavirsit pavirsiu pavirsk pavirsta pavirstant pavirstum pavirstų pavirsčiau pavirtai pavirtau pavirtom pavirtote pavirtus pavirtęs
+91	5491	aprūpinimas	aprūpinimo aprūpinimu aprūpinimui aprūpinimą
+92	5492	liuteronas	liuteronai liuteronu liuteronų
+93	5493	sužavėtas	sužavėta
+94	5494	atsiskaityti	atsiskaito atsiskaitydavo atsiskaitys atsiskaitysime atsiskaitytų atsiskaitė
+95	5495	sustiprėti	sustiprėja sustiprėjo sustiprės sustiprėtų
+96	5496	sudaužyti	sudaužo sudaužys sudaužytų sudaužė
+97	5497	austras	austrai austrams austre austres austrių austrus austrą austrė austrėmis austrėms austrės austrėse austrų
+98	5498	veržtis	veržiamės veržiasi veržtųsi
+99	5499	stendas	stendai stendais stende stendo stenduose stendus stendą stendų
+100	5500	nepakankamas	nepakankama nepakankami nepakankamo nepakankamos nepakankamu nepakankamą nepakankamų

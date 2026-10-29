@@ -1,0 +1,100 @@
+1	701	vasaris	vasario vasariu vasariui vasarį
+2	702	sukurtas	sukurta sukurtais sukurtame sukurto sukurtoje sukurtomis sukurtos sukurtose sukurtu sukurtus sukurtą
+3	703	skambinti	skambina skambinai skambinam skambiname skambinant skambinantis skambinat skambinate skambinau skambindamas skambindavai skambindavau skambindavo skambini skambink skambinkim skambinkit skambinkite skambino skambinom skambinome skambinot skambinote skambins skambinsi skambinsim skambinsime skambinsiu skambintum skambintumėte skambintų skambinu skambinčiau skambinęs
+4	704	svečias	svety svečiai svečiais svečiams svečio svečioje svečios svečiose svečiu svečiui svečiuose svečius svečią svečių
+5	705	pasiimti	pasiima pasiimame pasiimdavau pasiimdavo pasiimi pasiimk pasiimkite pasiims pasiimsi pasiimsime pasiimsiu pasiimtų pasiimu pasiimčiau pasiėmei pasiėmiau pasiėmė pasiėmėme
+6	706	ratas	ratai ratais ratams rate rato ratu ratui ratuose ratus ratų ratą ratų
+7	707	atsargus	atsargaus atsargesni atsargesniems atsargesnis atsargesnius atsargesnė atsargesnės atsargi atsargiai atsargiais atsargiam atsargiau atsargiems atsargios atsargiu atsargius atsargūs atsargų
+8	708	uždaryti	uždarai uždarant uždarau uždarei uždariau uždarius uždaro uždarom uždaroma uždaromas uždarome uždaromi uždaromos uždarote uždarydavo uždaryk uždarykim uždarykime uždarykit uždarykite uždarys uždarysi uždarysim uždarysime uždarysit uždarysite uždarysiu uždaryta uždarytas uždarytumėt uždarytų uždaryčiau uždarė uždarėm uždarėme uždarėt uždaręs
+9	709	doleris	doleri doleriai doleriais dolerio doleriu doleriui dolerius dolerių dolerį
+10	710	paruošti	paruoš paruošdavo paruošei paruoši paruošia paruošiame paruošiau paruošim paruošimas paruošime paruošimo paruošite paruošiu paruošk paruoškim paruoškime paruoškit paruoškite paruošta paruoštais paruoštas paruošto paruoštoje paruoštomis paruoštos paruoštu paruoštum paruoštume paruoštus paruoštą paruoštų paruošus paruoščiau paruošė paruošėm paruošėme paruošėt paruošėte paruošęs
+11	711	atidaryti	atidarai atidarant atidarau atidarei atidariau atidarius atidaro atidarom atidaromas atidarome atidarot atidarote atidarydamas atidarydavo atidaryk atidarykim atidarykime atidarykit atidarykite atidarys atidarysi atidarysim atidarysime atidarysit atidarysite atidarysiu atidarytame atidarytas atidaryto atidarytum atidarytume atidarytus atidarytų atidaryčiau atidarė atidarėme atidarėt atidarėte atidaręs
+12	712	jausti	jaus jausdamas jausdavau jausdavo jausi jausime jausit jausite jausiu jausk jauskite jaustum jaustume jaustumėt jaustumėte jaustų jausčiau jautei jautė jautėme jautėt jautėte jautęs jaučia jaučiam jaučiame jaučiant jaučiantis jaučiat jaučiate jaučiau jaučiu
+13	713	miegoti	miega miegam miegame miegant miegantis miegat miegate miegi miegodama miegodamas miegodami miegodavau miegodavo miegodavom miegojai miegojau miegojo miegojom miegojome miegojot miegojote miegojęs miegok miegokim miegokime miegokit miegokite miegos miegosi miegosim miegosime miegosit miegosite miegosiu miegotum miegotume miegotų miegočiau miegu
+14	714	perduoti	perdavei perdaviau perdavus perdavė perdavėme perdavėt perdavęs perduoda perduodama perduodamas perduodame perduodant perduodantis perduodate perduodavau perduodavo perduodi perduodu perduok perduokime perduokit perduokite perduos perduosi perduosim perduosime perduosit perduosite perduosiu perduota perduotas perduotum perduotume perduotumėt perduotų perduočiau
+15	715	jonas	janas jona jonai jonais joni jono jonu jonui jonus joną jonų
+16	716	šviesti	švietimas švietimo švietė šviečia
+17	717	erdvė	erdve erdvei erdves erdvių erdvių erdvėje erdvėmis erdvėms erdvės erdvėse erdvę erdvų
+18	718	seniai	seniau seniausiai
+19	719	paroda	parodas parodoje parodomis parodoms parodos parodose parodą parodų
+20	720	rūšis	rūšiai rūšies rūšimi rūšimis rūšims rūšių rūšyje rūšys rūšį
+21	721	nuolat	
+22	722	kviesti	kvies kviesdamas kviesdavo kviesi kviesiantis kviesim kviesime kviesit kviesiu kviesk kvieskim kvieskime kvieskit kvieskite kviestas kviestumėte kviestų kviesčiau kvietei kvieti kvietė kvietėm kvietėme kvietėt kvietėte kvietęs kviečia kviečiam kviečiame kviečiant kviečiantis kviečiat kviečiau kviečiu
+23	723	straipsnis	straipsni straipsniai straipsniais straipsniams straipsnio straipsniu straipsniui straipsniuose straipsnius straipsnių straipsnyje straipsnį
+24	724	mokestis	mokesti mokestį mokesčiai mokesčiais mokesčiams mokesčio mokesčiu mokesčiui mokesčius mokesčių
+25	725	medicina	medicinai medicinoje medicinos mediciną
+26	726	gruodis	gruodyje gruodį gruodžiai gruodžio gruodžiu gruodžiui
+27	727	klaida	klaidai klaidas klaidomis klaidoms klaidos klaidose klaidą klaidų
+28	728	viešbutis	viešbutyje viešbutį viešbučiai viešbučiais viešbučiams viešbučio viešbučiu viešbučiui viešbučiuose viešbučius viešbučių
+29	729	temperatūra	temperatūrai temperatūras temperatūroje temperatūroms temperatūros temperatūrose temperatūrą temperatūrų
+30	730	rugpjūtis	rugpjūtį rugpjūčio rugpjūčiui
+31	731	įrašas	įrašais įrašams įraše įrašu įrašui įrašuose įrašus įrašą įrašų
+32	732	didžiulis	didžiulis didžiule didžiulei didžiules didžiuliai didžiuliais didžiuliam didžiuliame didžiuliams didžiulio didžiuliu didžiuliui didžiuliuose didžiulius didžiulių didžiulė didžiulėje didžiulėmis didžiulės didžiulėse didžiulę didžiulį
+33	733	blogai	blogiau blogiausiai
+34	734	augalas	augalai augalais augalams augale augalo augalu augalui augaluose augalus augalą augalų
+35	735	numatyti	numatant numatantis numatau numatei numato numatoma numatomas numatome numatydamas numatykite numatys numatyta numatytas numatytų numatė numatėme numatėt numatėte numatęs numačiau
+36	736	šimtas	šimtai šimtais šimtams šimte šimto šimtu šimtui šimtuose šimtus šimtą šimtų
+37	737	planuoti	planavai planavau planavimas planavimo planavo planavom planavome planavot planavote planavęs planuodamas planuodavau planuodavome planuoja planuojam planuojamas planuojame planuojant planuojantis planuojat planuojate planuoji planuoju planuokite planuosite planuota planuotas planuotų
+38	738	sostinė	sostine sostinei sostines sostinių sostinėje sostinėmis sostinės sostinėse sostinę
+39	739	vakar	
+40	740	laiškas	laiškai laiškais laiškams laiške laiško laišku laiškui laiškuose laiškus laišką laiškų
+41	741	imtis	imamės imasi imatės imdavosi imiesi imkimės imkis imkitės imsimės imsis imsitės imsiuos imsiuosi imties imtyje imtųsi imuosi imčiausi ėmiausi ėmėmės ėmėsi ėmėtės
+42	742	mokslininkas	mokslininkai mokslininkais mokslininkams mokslininke mokslininko mokslininku mokslininkui mokslininkus mokslininką mokslininkė mokslininkų
+43	743	šeši	šešiais šešias šešiems šešiomis šešioms šešios šešiose šešis šešiuose šešių
+44	744	kaukė	kauke kaukei kaukes kaukių kaukėmis kaukėms kaukės kaukėse kaukę
+45	745	paskambinti	paskambina paskambinau paskambindavo paskambini paskambink paskambinkite paskambino paskambinome paskambins paskambinsiu paskambintų paskambinu
+46	746	įprastas	įprasta įprastai įprastais įprastam įprastame įprasti įprastiems įprasto įprastoje įprastomis įprastoms įprastos įprastose įprastu įprastuose įprastus įprastą įprastų
+47	747	oficialus	neoficialiai neoficialus oficialaus oficialesnį oficiali oficialia oficialiai oficialiais oficialiajame oficialiam oficialiame oficialias oficialioje oficialioji oficialiojoje oficialiomis oficialios oficialiose oficialiosios oficialiu oficialiuose oficialius oficialią oficialiąją oficialių oficialu oficialusis oficialūs oficialų
+48	748	pagrindas	pagrindai pagrindais pagrinde pagrindo pagrindu pagrindui pagrindus pagrindą pagrindų
+49	749	mokytojas	mokytojai mokytojais mokytojams mokytojau mokytojo mokytoju mokytojui mokytojus mokytoją mokytojų
+50	750	pirmyn	
+51	751	vidurys	viduriai vidurio viduriu viduriuose vidurius vidurių vidury viduryje vidurį
+52	752	proga	progai progas progomis progoms progos progą progų
+53	753	pirmadienis	pirmadieni pirmadieniais pirmadienio pirmadieniui pirmadienių pirmadienį
+54	754	ketinti	ketina ketinai ketinam ketiname ketinant ketinantis ketinat ketinate ketinau ketindamas ketini ketino ketinom ketinome ketinot ketinote ketins ketinsi ketintų ketinu ketinąs ketinčiau
+55	755	pažinti	pažinai pažinau pažink pažinkim pažinkime pažino pažinome pažinot pažinote pažins pažinsi pažinsim pažinsit pažinsite pažinsiu pažintum pažintume pažintumėt pažintumėte pažintų pažinčiau pažįsta pažįstam pažįstame pažįstant pažįstat pažįstate pažįsti pažįstu
+56	756	žaidėjas	žaidėjai žaidėjais žaidėjams žaidėjau žaidėjo žaidėju žaidėjui žaidėjus žaidėją žaidėjų
+57	757	atnešti	atneš atneš atneša atnešam atnešant atnešantis atnešat atnešdavo atnešei atneši atnešiau atnešim atnešime atnešit atnešite atnešiu atnešk atneškime atneškit atneškite atnešta atneštas atneštos atneštum atneštumėm atneštus atneštą atneštų atnešu atnešus atneščiau atnešė atnešėm atnešėme atnešėt atnešėte atnešęs
+58	758	operacija	operacijai operacijas operacijoje operacijomis operacijoms operacijos operacijose operaciją operacijų
+59	759	nesvarbus	nesvarbi nesvarbios nesvarbu nesvarbūs
+60	760	riba	ribas riboje ribomis ribos ribose ribą ribų
+61	761	prasmė	prasme prasmes prasmių prasmėmis prasmės prasmę
+62	762	normalus	normalaus normali normalia normaliai normaliais normaliam normaliame normalias normaliems normalioje normaliomis normalioms normalios normaliose normaliu normalius normalią normalių normalu normalūs normalų
+63	763	etapas	etapai etapais etapams etape etapo etapu etapui etapuose etapus etapų etapą etapų
+64	764	raudonas	raudonai raudonais raudonaisiais raudonajai raudonajam raudonajame raudonam raudoname raudonasis raudonesnis raudoni raudonieji raudoniems raudoniesiems raudono raudonoje raudonoji raudonojo raudonojoje raudonomis raudonos raudonosiomis raudonosios raudonu raudonuoju raudonuosius raudonus raudoną raudonąja raudonąją raudonąjį raudonąsias raudonų raudonųjų
+65	765	pristatyti	pristatau pristato pristatome pristatydavo pristatyk pristatykite pristatys pristatysime pristatysite pristatysiu pristatytų pristatė pristatėme pristačiau
+66	766	žiema	žiemai žiemas žiemomis žiemoms žiemos žiemą žiemų
+67	767	atsisakyti	atsisakai atsisakant atsisakantis atsisakau atsisakei atsisakiau atsisakius atsisako atsisakom atsisakome atsisakote atsisakydamas atsisakydavau atsisakydavo atsisakyk atsisakykim atsisakykime atsisakykite atsisakys atsisakysi atsisakysim atsisakysime atsisakysit atsisakysite atsisakysiu atsisakytum atsisakytume atsisakytumėte atsisakytų atsisakyčiau atsisakė atsisakėm atsisakėme atsisakėt atsisakėte atsisakęs
+68	768	lyderis	lyderi lyderiai lyderiais lyderiams lyderio lyderiu lyderiui lyderius lyderių lyderė lyderį
+69	769	asmeninis	asmenine asmeninei asmenines asmeninė asmenini asmeniniai asmeniniais asmeniniam asmeniniame asmeniniams asmeninio asmeniniu asmeniniuose asmeninius asmeninių asmeninė asmeninėje asmeninėmis asmeninėms asmeninės asmeninėse asmeninę asmeninį
+70	770	patalpa	patalpai patalpas patalpoje patalpomis patalpoms patalpos patalpose patalpą patalpų
+71	771	gaminti	gamina gaminai gaminam gaminamas gaminame gaminant gaminantis gaminate gaminau gamindamas gamindavo gamini gamink gaminkite gamino gaminome gaminote gamins gaminsi gaminsim gaminsime gaminsite gaminsiu gamintum gamintų gaminu gaminčiau gaminęs
+72	772	kreiptis	kreipdavosi kreipiamės kreipiasi kreipiatės kreipiausi kreipiesi kreipiuosi kreipkis kreipkitės kreipsimės kreipsis kreipsiuosi kreiptųsi kreipčiausi kreipėmės kreipėsi kreipėtės
+73	773	parama	paramai paramas paramos paramą
+74	774	atiduoti	atidavei atidaviau atidavė atidavėm atidavėme atidavėt atidavėte atidavęs atiduoda atiduodam atiduodama atiduodamas atiduodame atiduodami atiduodant atiduodantis atiduodat atiduodate atiduodavo atiduodi atiduodu atiduok atiduokim atiduokime atiduokit atiduokite atiduos atiduosi atiduosim atiduosime atiduosit atiduosite atiduosiu atiduota atiduotas atiduotum atiduotume atiduotų atiduočiau
+75	775	populiarus	populiaraus populiaresni populiaresnis populiaresnė populiaresnės populiari populiaria populiariai populiariais populiariam populiariame populiarias populiariausi populiariausia populiariausiais populiariausias populiariausio populiariausiomis populiariausios populiariausiu populiariausius populiariausią populiariausių populiariausiųjų populiarieji populiarioje populiarioji populiariomis populiarios populiariosios populiariu populiarius populiarią populiariąją populiarių populiaru populiarusis populiarūs populiarų
+76	776	pergalė	pergale pergalei pergales pergalių pergalėje pergalėmis pergalėms pergalės pergalę
+77	777	apskritis	apskrities apskritims apskrityje apskritys apskrityse apskritį apskričiai apskričių
+78	778	paleisti	paleidau paleidi paleido paleidome paleidžia paleidžiame paleis paleisdavo paleisime paleisiu paleisk paleiskite paleistų
+79	779	šeštadienis	šeštadieni šeštadieniai šeštadieniais šeštadienio šeštadieniui šeštadienius šeštadienį
+80	780	dovana	dovanai dovanomis dovanoms dovanos dovanose dovaną dovanų
+81	781	gerti	gerdamas gerdami gerdavo geri geria geriam geriama geriamas geriamasis geriame geriamo geriamojo geriamąjį geriant geriat geriate geriu gerk gerkit gerkite gers gersi gersim gersime gersit gersite gersiu gerte gertum gertų gerčiau gėrei gėriau gėrė gėrėm gėrėme gėrėt gėrėte gėręs
+82	782	lova	lovai lovas lovoje lovomis lovos lovose lovą lovų
+83	783	pasirinkti	pasirenka pasirenkame pasirenkate pasirenki pasirenku pasirink pasirinkai pasirinkau pasirinkdavo pasirinkime pasirinkite pasirinko pasirinkome pasirinkote pasirinks pasirinksi pasirinksime pasirinksite pasirinksiu pasirinktume pasirinktų pasirinkčiau
+84	784	prekė	preke prekei prekes prekių prekėmis prekėms prekės prekę
+85	785	išvykti	išvykai išvykau išvykdavo išvykimas išvykimo išvyko išvykome išvykote išvyks išvyksime išvyksite išvyksiu išvyksta išvykstame išvykstate išvyksti išvykstu išvyktų išvykusiųjų
+86	786	komitetas	komitetai komitetams komitete komiteto komitetu komitetui komitetuose komitetus komitetą komitetų
+87	787	vadas	vadais vadams vade vadi vado vadu vadui vadus vadą vadė vadų
+88	788	smagus	smagaus smagesnio smagesnis smagesnė smagi smagia smagiai smagiais smagiam smagias smagiau smagiausia smagiausias smagiausius smagiausią smagiausių smagioji smagiomis smagios smagiosios smagiu smagius smagią smagių smagu smagūs smagų
+89	789	langas	langai langais langams lange lango langu langui languose langus langą langų
+90	790	keisti	keis keisdamas keisdavau keisdavo keisdavom keisdavote keisi keisim keisime keisite keisiu keisk keiskime keiskit keiskite keistum keistume keistų keitei keiti keitė keitėme keitęs keičia keičiam keičiame keičiant keičiantis keičiate keičiau keičiu
+91	791	dabartinis	dabartine dabartinei dabartines dabartiniai dabartiniais dabartiniam dabartiniame dabartiniams dabartinio dabartiniu dabartiniuose dabartinius dabartinių dabartinė dabartinėje dabartinėmis dabartinėms dabartinės dabartinėse dabartinę dabartinį
+92	792	institucija	institucijai institucijas institucijoje institucijomis institucijoms institucijos institucijose instituciją institucijų
+93	793	pavojingas	pavojinga pavojingai pavojingais pavojingame pavojingasis pavojingesni pavojingesnio pavojingesnis pavojingesniu pavojingesnių pavojingesnė pavojingesnės pavojingesnę pavojingi pavojingiau pavojingiausi pavojingiausia pavojingiausiam pavojingiausias pavojingiausio pavojingiausiomis pavojingiausios pavojingiausiu pavojingiausius pavojingiausią pavojingiausių pavojingo pavojingoje pavojingojo pavojingomis pavojingoms pavojingos pavojingose pavojingu pavojingus pavojingą pavojingų
+94	794	oda	odai odas odoje odos odą odų
+95	795	pilietis	piliečiams piliete pilietei pilieti pilietė pilietės pilietę pilietį piliečiai piliečiais piliečiams piliečio piliečiu piliečiui piliečius piliečių
+96	796	festivalis	festivaliai festivaliais festivaliams festivalio festivaliu festivaliui festivaliuose festivalius festivalių festivalyje festivalį
+97	797	žuvis	žuviai žuvie žuvies žuvimi žuvimis žuvims žuvyje žuvys žuvyse žuvį žuvų
+98	798	aktorius	aktore aktorei aktores aktoriai aktoriais aktoriams aktoriaus aktoriui aktoriumi aktorių aktorė aktorėmis aktorės aktorę
+99	799	garsas	garsai garsais garsams garse garso garsu garsuose garsą
+100	800	protas	protai protais prote proto protu protui protuose protus protą protų

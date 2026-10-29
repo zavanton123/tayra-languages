@@ -1,0 +1,100 @@
+1	9401	pasaulietis	pasauliečiai pasauliečiais pasauliečių
+2	9402	raketė	rakete raketę
+3	9403	statybvietė	statybvietėje statybvietės statybvietėse statybvietę statybviečių
+4	9404	maistingas	maistinga maistingi maistingos maistingus maistingą maistingąsias maistingų maistingųjų
+5	9405	slopinimas	slopinimo slopinimu slopinimą
+6	9406	blyksnis	blyksniai blyksnius blyksnių blyksnį
+7	9407	liestis	liečiasi
+8	9408	suartinti	suartina suartino suartins
+9	9409	utėlė	utėles utėlių utėlėmis utėlėms utėlės utėlę
+10	9410	liejimas	liejimo liejimą
+11	9411	kriminalas	kriminalai kriminalo kriminalu kriminalą
+12	9412	maldininkas	maldininkai maldininkams maldininkų
+13	9413	klausymas	klausymo klausymus klausymą klausymų
+14	9414	išnuomotas	išnuomota išnuomotame išnuomotos išnuomotą
+15	9415	purus	puraus puri purios puriu purūs
+16	9416	konfidencialus	konfidenciali konfidencialia konfidencialiai konfidencialios konfidencialius konfidencialią konfidencialūs
+17	9417	pikapas	pikapą pikapų
+18	9418	tarnavimas	tarnavimo tarnavimą
+19	9419	filtravimas	filtravimo
+20	9420	išplėtimas	išplėtimo išplėtimą
+21	9421	korespondencija	korespondencijos korespondenciją
+22	9422	čiuožykla	čiuožyklas čiuožykloje čiuožyklos čiuožyklą
+23	9423	maliarija	maliarijos maliariją
+24	9424	epidemiologas	epidemiologai
+25	9425	opozicionierius	opozicionieriaus opozicionierių
+26	9426	dekanatas	dekanato
+27	9427	anyta	anytai anytas anytoje anytos anytą
+28	9428	akordas	akordai akordais akordams akordo akordu akordus akordą akordų
+29	9429	honoraras	honorarams honoraro honorarus honorarą honorarų
+30	9430	platuma	platumos platumose platumų
+31	9431	skeptikas	skeptikai skeptikams skeptikus skeptikų
+32	9432	industrinis	industriniame industrinio industrinių industrinė industrinės industrinėse industrinę industrinį
+33	9433	tarpininkauti	tarpininkauja tarpininkavo
+34	9434	įgijimas	įgijimo įgijimu įgijimą
+35	9435	mišrainė	mišraines mišrainių mišrainės mišrainę
+36	9436	džiūti	džiūsta džiūva
+37	9437	savitumas	savitumo savitumą
+38	9438	bendrumas	bendrumo bendrumą bendrumų
+39	9439	blakė	blakes blakių blakės
+40	9440	desantininkas	desantininkai desantininkų
+41	9441	bylinėjimasis	bylinėjimosi bylinėjimąsi
+42	9442	smulkintas	smulkinta smulkintais smulkinto smulkintomis smulkintu smulkintus smulkintą
+43	9443	pažerti	pažeria pažers pažėrė
+44	9444	nusimesti	nusimetė
+45	9445	šiurpas	šiurpą
+46	9446	cunamis	cunamiai cunamio cunamius cunamių cunamį
+47	9447	kyšulys	kyšulio kyšulyje kyšulį
+48	9448	išsekimas	išsekimo išsekimu išsekimą
+49	9449	šnekus	šnekos šnekų
+50	9450	afrikietė	afrikietis afrikiečiai afrikiečius afrikiečių
+51	9451	rutuliukas	rutuliukai rutuliukais rutuliukus rutuliukų
+52	9452	sumanytas	sumanyta sumanyto
+53	9453	sueiga	sueigoje sueigos sueigose sueigą
+54	9454	karpa	karpai karpomis karpoms karpos karpą karpų
+55	9455	iškastinis	iškastinio iškastiniu iškastinių iškastinį
+56	9456	darymas	darymo darymu darymą
+57	9457	pustrečio	pustrečios pustrečių
+58	9458	aukštybė	aukštybių aukštybėse
+59	9459	dūris	dūriai dūriais dūrio dūrių dūrį
+60	9460	apsidrausti	
+61	9461	bulgaras	bulgarai bulgari bulgaru bulgarų
+62	9462	suskaldyti	suskaldys suskaldytų suskaldė
+63	9463	bekelė	bekele bekelei bekelėje bekelės
+64	9464	pasiutęs	pasiutusi pasiutusiai pasiutusios pasiutusiu pasiutę
+65	9465	nachui	nachuj nahui nx
+66	9466	vaizdajuostė	vaizdajuostes vaizdajuostėje vaizdajuostės vaizdajuostę vaizdajuosčių
+67	9467	blaivybė	blaivybės blaivybę
+68	9468	kadagys	kadagio kadagių
+69	9469	žinomumas	žinomumo žinomumu žinomumą
+70	9470	prisiglausti	prisiglaudė prisiglausk
+71	9471	tropinis	tropiniai tropinio tropinių tropinė tropinės
+72	9472	išlošti	išloš išlošia išlošė
+73	9473	dešimtadalis	dešimtadaliu dešimtadalį
+74	9474	pakeliamas	pakeliama pakeliami pakeliamos
+75	9475	intakas	intakai intako intakų
+76	9476	nedrausti	nedraudė nedraudžia nedraus
+77	9477	užgauti	užgauna užgaus užgausi užgautas užgautų užgavai užgavau užgavo užgavot
+78	9478	gruntinis	gruntiniai gruntinio gruntinius gruntinių gruntinį
+79	9479	patruliuoti	patruliavo patruliuoja patruliuos
+80	9480	sociologas	sociologai sociologo sociologų
+81	9481	asmenvardis	asmenvardžiai asmenvardžiais asmenvardžiams asmenvardžius asmenvardžių
+82	9482	kūrybingumas	kūrybingumo kūrybingumu kūrybingumą
+83	9483	negaliojantis	negaliojantys negaliojančia negaliojančiais negaliojančiomis negaliojančiu negaliojančių
+84	9484	iššvaistyti	iššvaisto iššvaistytų iššvaistė iššvaisčiau
+85	9485	kobaltas	kobalto
+86	9486	tankumas	tankumo tankumą
+87	9487	eiliškumas	eiliškumo eiliškumą
+88	9488	klaidinti	klaidina klaidinamas klaidinat klaidino
+89	9489	kambarėlis	kambarėlio kambarėliuose kambarėlyje kambarėlį
+90	9490	demonstravimas	demonstravimo demonstravimu demonstravimui demonstravimą
+91	9491	rūpyba	rūpybos
+92	9492	pakrikštytas	pakrikštyta
+93	9493	aplaidumas	aplaidumo aplaidumu aplaidumą
+94	9494	sterlingas	sterlingų
+95	9495	žvilgtelėti	žvilgteli žvilgtelėjau žvilgtelėjo
+96	9496	dramaturgija	dramaturgijos dramaturgiją
+97	9497	nusilenkti	nusilenkia nusilenks nusilenkė
+98	9498	nuovoka	nuovokos nuovoką
+99	9499	lėlytė	lėlytės lėlytę lėlyčių
+100	9500	sultonas	sultone sultono sultonu sultonui sultoną

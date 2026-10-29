@@ -1,0 +1,100 @@
+1	2101	surengtas	surengta surengtame surengto surengtoje surengtos surengtose surengtu surengtuose surengtus surengtą
+2	2102	aprašymas	aprašymai aprašymais aprašyme aprašymo aprašymu aprašymui aprašymuose aprašymus aprašymą aprašymų
+3	2103	stresas	stresai strese streso stresu stresui stresą stresų
+4	2104	pelnas	pelnai pelno pelnu pelnui pelnus pelną pelnų
+5	2105	malda	maldai maldas maldoje maldomis maldoms maldos maldose maldą maldų
+6	2106	medžiotojas	medžiotoja medžiotojai medžiotojais medžiotojams medžiotojau medžiotojo medžiotoju medžiotojui medžiotojus medžiotoją medžiotojų
+7	2107	būsena	būseną būsenai būsenas būsenoje būsenomis būsenos būseną būsenų
+8	2108	gebėjimas	gebėjimai gebėjimais gebėjimams gebėjime gebėjimo gebėjimu gebėjimui gebėjimus gebėjimą gebėjimų
+9	2109	dvasinis	dvasine dvasinei dvasines dvasiniai dvasiniais dvasiniam dvasiniame dvasiniams dvasinio dvasiniu dvasinius dvasinių dvasinė dvasinėje dvasinėmis dvasinės dvasinę dvasinį
+10	2110	taksi	
+11	2111	reikiamas	reikiama reikiamai reikiamais reikiamam reikiami reikiamo reikiamoje reikiamomis reikiamos reikiamu reikiamus reikiamą reikiamų
+12	2112	bitė	bite bitei bites bitėje bitėmis bitėms bitės bitę bitų bičių
+13	2113	drąsa	drąsai drąsos drąsą
+14	2114	senovė	senove senovei senovėje senovės senovę
+15	2115	momentas	momentai momentais momento momentui momentus momentą momentų
+16	2116	laidoti	laidoja laidojame laidojo laidos
+17	2117	tyla	tylai tyloje tylomis tylos tylą tylų
+18	2118	juoda	juodomis juodos juodų
+19	2119	pala	
+20	2120	aušra	aušrai aušroje aušros aušrą aušrų
+21	2121	spausti	spaudė spaudžia spaudžiam spaudžiame spaudžiau spaudžiu spaus spausk spauskite spaustų
+22	2122	laivynas	laivynais laivyne laivyno laivynu laivynui laivynuose laivyną
+23	2123	liberalas	liberalai liberalais liberalams liberalo liberalu liberalui liberalus liberalų
+24	2124	blogis	blogio blogiu blogiui blogį
+25	2125	valtis	valties valtimi valtimis valtims valtyje valtys valtyse valtį valčiai valčių
+26	2126	pabūti	pabus pabuvau pabuvo pabuvome pabūk pabūkime pabūkite pabūsiu pabūtų pabūčiau
+27	2127	šnekėti	šneka šnekam šnekame šnekant šnekat šnekate šneki šneku šnekėjai šnekėjau šnekėjo šnekėjom šnekėjome šnekėjot šnekėjote šnekėjęs šnekėk šnekėkit šnekės šnekėsi šnekėsim šnekėsime šnekėsiu šnekėtum šnekėtumėme šnekėčiau
+28	2128	slėptis	slepiamės slepiasi slepiatės slepiesi slepiuosi slėpdavosi slėpeisi slėpiausi slėpkimės slėpkis slėpkitės slėpsiesi slėpsimės slėpsis slėptųsi slėpčiausi slėpėmės slėpėsi
+29	2129	rusas	rusai rusais rusams ruse rusei rusi ruso rusu rusui rusus rusą rusė rusę
+30	2130	instrumentas	instrumentai instrumentais instrumentams instrumento instrumentu instrumentui instrumentus instrumentą instrumentų
+31	2131	herojus	herojai herojais herojams herojaus herojui herojumi herojų
+32	2132	matematika	matematikai matematikas matematiko matematikoje matematikos matematiką matematikų
+33	2133	lytis	lyties lytimi lytims lytys lytį lyčiai lyčių
+34	2134	dugnas	dugnais dugne dugno dugnu dugną dugnų
+35	2135	užaugti	užauga užaugai užaugau užaugo užaugom užaugome užaugote užaugs užaugsiu užaugtų
+36	2136	ansamblis	ansambliai ansambliams ansamblio ansambliu ansambliui ansambliuose ansamblius ansamblių ansamblyje ansamblį
+37	2137	pyragas	pyragai pyragais pyragams pyrage pyrago pyragu pyragui pyragus pyragą pyragų
+38	2138	priėmimas	priėmimai priėmime priėmimo priėmimui priėmimuose priėmimus priėmimą priėmimų
+39	2139	tylėti	tyli tylim tylime tylit tylite tyliu tylėdavo tylėjai tylėjau tylėjo tylėjom tylėjome tylėjot tylėjote tylėjęs tylėk tylėkit tylėkite tylės tylėsi tylėsim tylėsime tylėsit tylėsiu tylėtum tylėtų tylėčiau
+40	2140	sąmonė	sąmone sąmonei sąmonėje sąmonės sąmonę
+41	2141	šeštas	šešta šeštai šeštaisiais šeštajam šeštajame šeštam šeštame šeštasis šešto šeštoje šeštoji šeštojo šeštos šeštosios šeštuoju šeštus šeštą šeštąja šeštąją šeštąjį
+42	2142	šešėlis	šešėli šešėliai šešėliais šešėlio šešėliu šešėliui šešėliuose šešėlius šešėlių šešėlyje šešėlį
+43	2143	raidė	raide raidei raides raidėmis raidės raidę raidžių
+44	2144	įgūdis	įgūdį įgūdžiai įgūdžiais įgūdžiams įgūdžius įgūdžių
+45	2145	komercinis	komercine komercinei komercines komerciniai komerciniais komerciniame komerciniams komercinio komerciniu komerciniuose komercinius komercinių komercinė komercinėje komercinėmis komercinėms komercinės komercinėse komercinę komercinį
+46	2146	prizas	prizai prizais prizo prizu prizus prizą prizų
+47	2147	skelbiamas	skelbiama skelbiamais skelbiamame skelbiami skelbiamo skelbiamoje skelbiamomis skelbiamos skelbiamu skelbiamuose skelbiamus skelbiamą skelbiamų
+48	2148	kopija	kopijas kopijomis kopijos kopiją kopijų
+49	2149	užmušti	užmuš užmuša užmušiu užmuštų užmušė
+50	2150	choras	chorai chorais chorams chore choro choru chorui choruose chorus chorą chorų
+51	2151	rodos	
+52	2152	psichologinis	psichologine psichologinei psichologines psichologiniai psichologiniais psichologiniam psichologiniame psichologinio psichologiniu psichologinius psichologinių psichologinė psichologinėje psichologinėmis psichologinės psichologinėse psichologinę psichologinį
+53	2153	idealus	idealaus ideali idealia idealiai idealiame idealias idealiausiai idealiausias idealioje idealiomis idealios idealiu idealius idealią idealių idealu idealūs idealų
+54	2154	pragaras	pragarai pragare pragaro pragaru pragarui pragaruose pragarą pragarų
+55	2155	perdavimas	perdavimai perdavimais perdavimo perdavimu perdavimui perdavimus perdavimą perdavimų
+56	2156	įprotis	įprotį įpročiai įpročiais įpročiams įpročio įpročiu įpročiui įpročius įpročių
+57	2157	priešais	
+58	2158	arena	arenoje arenos arenose areną arenų
+59	2159	derėti	dera derant derantis derančių derate deri derėjo derės derėtų
+60	2160	veislė	veisle veislei veisles veislių veislėmis veislės veislę
+61	2161	nukreipti	nukreipdavo nukreipia nukreipiame nukreipk nukreipkite nukreips nukreipsite nukreiptų nukreipė
+62	2162	žemaitis	žemaitė žemaitį žemaičiai žemaičiams žemaičio žemaičiui žemaičius žemaičių
+63	2163	profesija	profesijai profesijas profesijoje profesijomis profesijoms profesijos profesiją profesijų
+64	2164	ketveri	ketveriais ketverias ketveriems ketverios ketverius ketverių
+65	2165	bjaurus	bjauraus bjauresni bjauresnio bjauresnis bjauresnė bjauresnės bjauri bjauria bjauriai bjauriais bjauriame bjaurias bjauriau bjauriausi bjauriausia bjauriausiai bjauriausias bjauriausių bjaurioji bjauriojo bjauriomis bjaurios bjauriu bjauriuoju bjaurius bjaurią bjauriąją bjaurių bjauriųjų bjauru bjaurusis bjaurūs bjaurų
+66	2166	trokšti	trokš trokšdamas trokšdavau trokšta trokštam trokštamas trokštame trokštamą trokštant trokštantis trokštat trokštate trokšte trokštu trokštum trokštumėm trokštų trokščiau troškai troškau troško troškom troškote troškus troškęs
+67	2167	medicininis	medicinine medicininei medicinines medicininiai medicininiais medicininio medicininiu medicininiuose medicininius medicininių medicininė medicininėje medicininėmis medicininėms medicininės medicininę medicininį
+68	2168	pirmenybė	pirmenybe pirmenybes pirmenybių pirmenybėms pirmenybės pirmenybėse pirmenybę
+69	2169	orkestras	orkestrai orkestrais orkestre orkestro orkestru orkestrui orkestruose orkestrus orkestrą orkestrų
+70	2170	filmuoti	filmavau filmavimas filmavimo filmavo filmavome filmuodavo filmuoja filmuojame filmuoji filmuoju filmuos filmuosime filmuotų
+71	2171	priedas	priedai priedais priedams priede priedo priedu priedus priedą priedų
+72	2172	reaguoti	reagavo reagavome reaguodavo reaguoja reaguojame reaguojate reaguoji reaguoju reaguokite reaguos reaguosime reaguosite reaguotų reaguočiau
+73	2173	nereikalingas	nereikalinga nereikalingais nereikalingi nereikalingo nereikalingos nereikalingu nereikalingus nereikalingą nereikalingų
+74	2174	ilgalaikis	ilgalaike ilgalaikei ilgalaikes ilgalaikiai ilgalaikiais ilgalaikiam ilgalaikiame ilgalaikiams ilgalaikio ilgalaikiu ilgalaikius ilgalaikių ilgalaikė ilgalaikėje ilgalaikėmis ilgalaikėms ilgalaikės ilgalaikę ilgalaikį
+75	2175	didėti	didėja didėjo didės didėtų
+76	2176	žaizda	žaizdai žaizdas žaizdomis žaizdoms žaizdos žaizdą žaizdų
+77	2177	šaunus	šaunaus šaunia šauniai šauniais šauniau šauniausia šauniausias šauniausio šauniausią šauniausių šaunioji šauniojo šaunios šauniu šaunius šaunią šaunių šaunusis šaunūs šaunų
+78	2178	nervas	nervai nervais nervams nervo nervus nervą nervų
+79	2179	grybas	grybai grybais grybams grybe grybo grybuose grybus grybą grybų
+80	2180	nuvažiuoti	nuvažiavau nuvažiavo nuvažiavom nuvažiavome nuvažiuoja nuvažiuojame nuvažiuoji nuvažiuoju nuvažiuokite nuvažiuos nuvažiuosi nuvažiuosime nuvažiuosiu nuvažiuotų
+81	2181	sausas	sausa sausai sausais sausajame sausam sausasis sausesni sausesniais sausesnis sausesnius sausesnė sausesnėse sausesnį sausiau sausiausias sausiems sauso sausoje sausojo sausomis sausos sausose sausu sausuoju sausuose sausus sausą sausąjį sausų sausųjų
+82	2182	išmokyti	išmokiau išmokyk išmokykite išmokys išmokysime išmokysiu išmokytų išmokė
+83	2183	tirti	tirdamas tiri tiria tiriame tiriamojo tiriamųjų tiriu tirs tirsime tirsite tirtas tirtų tyriau tyrė tyrėm tyrėme tyrėte tyrę tyręs
+84	2184	dulkė	dulke dulkes dulkių dulkėmis dulkėms dulkės dulkėse dulkę
+85	2185	vadovybė	vadovybe vadovybei vadovybėje vadovybės vadovybę
+86	2186	krūva	krūvai krūvas krūvoje krūvos krūvose krūvą
+87	2187	muzikantas	muzikantai muzikantais muzikantams muzikante muzikanto muzikantu muzikantui muzikantus muzikantą muzikantų
+88	2188	debesis	debesie debesies debesimi debesimis debesims debesio debesiui debesyje debesys debesyse debesį debesų
+89	2189	pasas	pasai pasais pase pasi paso pasu pasui pasus pasą pasų
+90	2190	gylis	gyliai gylio gyliu gyliui gylyje gylį
+91	2191	mada	madai madas madoje madomis mados madą madų
+92	2192	bulvė	bulve bulvei bulves bulvės bulvių bulvėmis bulvėms bulvės bulvę
+93	2193	archyvas	archyvai archyve archyvo archyvui archyvuose archyvus archyvą archyvų
+94	2194	incidentas	incidentai incidentais incidentams incidente incidento incidentu incidentui incidentus incidentą incidentų
+95	2195	pailsėti	pailsi pailsiu pailsėjau pailsėjo pailsėk pailsėkite pailsės pailsėsite pailsėsiu pailsėtų
+96	2196	vėluoti	vėlavai vėlavau vėlavo vėlavom vėluodamas vėluodavau vėluoja vėluojam vėluojame vėluojantis vėluojat vėluojate vėluoji vėluoju vėluosi vėluosim vėluosime vėluosiu vėluotum
+97	2197	motociklas	motociklai motociklais motociklams motocikle motociklo motociklu motociklui motociklus motociklą motociklų
+98	2198	nuoma	nuomai nuomoje nuomos nuomą
+99	2199	šaulys	šauliai šauliais šauliams šaulio šauliu šauliui šaulius šaulių šaulį
+100	2200	bruožas	bruožai bruožais bruožams bruožo bruožu bruožus bruožą bruožų

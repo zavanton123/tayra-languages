@@ -1,0 +1,100 @@
+1	6401	dioksidas	dioksido dioksidu dioksidą
+2	6402	eterinis	eteriniai eteriniais eterinio eteriniu eterinius eterinių eterinį
+3	6403	uosis	uosiai uosio uosius uosių
+4	6404	išvystyti	išvysto išvystytų išvystė
+5	6405	biudžetinis	biudžetines biudžetiniai biudžetinio biudžetinius biudžetinių biudžetinė biudžetinėje biudžetinėmis biudžetinėms biudžetinės biudžetinėse biudžetinę
+6	6406	tvarkomas	tvarkoma tvarkomame tvarkomo tvarkomos tvarkomą tvarkomų
+7	6407	išsivežti	išsiveš išsiveža išsivežė
+8	6408	tėkmė	tėkme tėkmėje tėkmės tėkmę
+9	6409	paskirstyti	paskirsto paskirstykite paskirstys paskirstė
+10	6410	kompaktinis	kompaktiniai kompaktinio kompaktinių kompaktinė kompaktinės kompaktinę kompaktinį
+11	6411	saulėtekis	saulėtekio saulėtekiu saulėtekyje saulėtekį
+12	6412	muštis	mušasi mušėsi
+13	6413	nenaudingas	nenaudinga nenaudingi nenaudingos nenaudingus nenaudingą nenaudingų
+14	6414	perėti	peri perėjai perėjome perėjote
+15	6415	prisilietimas	prisilietimai prisilietimo prisilietimu prisilietimą prisilietimų
+16	6416	broliukas	broliukai broliuko broliuku broliukui broliukus broliuką
+17	6417	trintis	trinasi trinties trintį
+18	6418	šampūnas	šampūnai šampūno šampūnu šampūną šampūnų
+19	6419	trukdis	trukdžiai trukdžiais trukdžių
+20	6420	tirpti	tirpdavo tirpo tirps tirpsta tirpstant tirpstantis tirpstu
+21	6421	kabliukas	kabliukai kabliuko kabliukus kabliuką kabliukų
+22	6422	susižavėjimas	susižavėjimo susižavėjimu susižavėjimą
+23	6423	potraukis	potraukio potraukiu potraukiui potraukių potraukį
+24	6424	kakava	kakavoje kakavos kakavą
+25	6425	nusakyti	nusako nusakė
+26	6426	sielvartas	sielvarto sielvartą
+27	6427	užpildytas	užpildyta užpildytos užpildytus užpildytą
+28	6428	dėstytoja	dėstytojos
+29	6429	stačiakampis	stačiakampiai stačiakampiais stačiakampio stačiakampius stačiakampių stačiakampyje stačiakampė stačiakampės stačiakampį
+30	6430	auglys	augliai augliais auglio auglius auglių auglį
+31	6431	rogės	roges rogių rogėmis rogėse
+32	6432	pasiklausyti	pasiklausiau pasiklauso pasiklausykite
+33	6433	formuojamas	formuojama formuojami formuojamo formuojamos formuojamą
+34	6434	plytelė	plyteles plytelių plytelėmis plytelės
+35	6435	galvosūkis	galvosūkiai galvosūkius galvosūkių galvosūkį
+36	6436	simpatiškas	simpatiška simpatiški simpatiškos simpatišku simpatiškų
+37	6437	kopti	kopi kopia kopiame kops koptų kopė
+38	6438	puošnus	puošnaus puošni puošniai puošniais puošniau puošnios puošniu puošnią puošnių puošnūs
+39	6439	atsekti	atsekė
+40	6440	milijardierius	milijardieriai milijardieriaus milijardieriui milijardieriumi milijardierių
+41	6441	pjūvis	pjūvio pjūviai pjūviais pjūvio pjūviu pjūvius pjūvių pjūvį
+42	6442	užraktas	užraktai užraktais užrakto užraktu užraktus užraktą užraktų
+43	6443	kūrybiškas	kūrybiška kūrybiškai kūrybiški kūrybiškiau kūrybiškos kūrybišku kūrybišką kūrybiškų
+44	6444	buhalterija	buhalterijai buhalterijoje buhalterijos buhalteriją
+45	6445	šonkaulis	šonkauliai šonkauliais šonkauliu šonkaulius šonkaulių šonkaulį
+46	6446	didybė	didybe didybei didybės didybę
+47	6447	triumfas	triumfo triumfu triumfą
+48	6448	vadintas	vadinta vadintame vadinto vadintos vadintą
+49	6449	sensacija	sensacijas sensacijos sensaciją sensacijų
+50	6450	susikoncentruoti	susikoncentravo susikoncentruoja susikoncentruokite
+51	6451	žieminis	žiemines žieminiai žieminius žieminių žieminėmis žieminės žieminę žieminį
+52	6452	naudingumas	naudingumo naudingumu naudingumą
+53	6453	produktyvumas	produktyvumo produktyvumu produktyvumui produktyvumą
+54	6454	teroristinis	teroristine teroristinei teroristines teroristiniai teroristiniais teroristinio teroristiniu teroristinius teroristinių teroristinė teroristinėmis teroristinės teroristinę teroristinį
+55	6455	koreguoti	koregavo koreguoja koreguojame
+56	6456	penketas	penketai penketais penkete penketo penketui penketus penketą penketų
+57	6457	kiškis	kiški kiškiai kiškio kiškių kiškį
+58	6458	nukirsti	nukerta nukirsdavo nukirstų nukirto
+59	6459	debiutas	debiutai debiuto debiutu debiutą debiutų
+60	6460	genys	geniais genio geniu genius genių geny
+61	6461	skatinantis	skatinanti skatinantys skatinantį skatinančiai skatinančias skatinančiomis skatinančios skatinančius skatinančią skatinančių
+62	6462	išsiplėsti	išsiplečia išsiplės išsiplėtė
+63	6463	masalas	masalo masalu masalui masalą
+64	6464	išlyginti	išlygina išlyginkite išlygino
+65	6465	atsinaujinti	atsinaujina atsinaujino atsinaujins atsinaujintų
+66	6466	imtuvas	imtuvai imtuvo imtuvus imtuvą imtuvų
+67	6467	estafetė	estafetes estafetėje estafetėmis estafetės estafetėse estafetę estafečių
+68	6468	įdėtas	įdėta įdėto įdėtos įdėtą
+69	6469	išsekęs	išsekus išsekusi išsekusiems išsekusios išsekusių išsekusį išsekę
+70	6470	radiatorius	radiatoriai radiatoriaus radiatoriui radiatoriuje radiatorių
+71	6471	daužyti	daužo daužydavo daužė
+72	6472	paviljonas	paviljonai paviljone paviljono paviljonuose paviljonus paviljoną paviljonų
+73	6473	niuansas	niuansai niuansais niuansus niuansą niuansų
+74	6474	sperma	spermoje spermos spermą
+75	6475	lazerinis	lazeriniai lazerinio lazeriniu lazerinius lazerinių lazerinė lazerinės lazerinę lazerinį
+76	6476	žingsnelis	žingsneliai žingsneliais žingsnelio žingsneliu žingsnelius žingsnelių žingsnelį
+77	6477	užeiga	užeigoje užeigos užeigą užeigų
+78	6478	portugalas	portugalai portugalo portugalu portugalų
+79	6479	subingalvis	subingalvi subingalviai subingalvio subingalviu subingalviui subingalvius subingalvių subingalvė subingalvį
+80	6480	sutaisyti	sutaisė
+81	6481	išgarsėti	išgarsėjau išgarsėjo
+82	6482	automatizuotas	automatizuota automatizuotai automatizuoti automatizuotos automatizuotą
+83	6483	deputatas	deputatai deputatais deputato deputatu deputatus deputatą deputatų
+84	6484	koordinuotas	koordinuota koordinuotai koordinuoti koordinuoto koordinuotą koordinuotų
+85	6485	raištis	raištį raiščiai raiščiais raiščio raiščiu raiščius raiščių
+86	6486	prisidėjęs	prisidėjus prisidėjusi prisidėjusiems prisidėjusios prisidėjusius prisidėjusių prisidėjusį prisidėję
+87	6487	kibirkštis	kibirkštis kibirkšties kibirkštys kibirkštį
+88	6488	girtuoklis	girtuokli girtuokliai girtuoklio girtuokliu girtuokliui girtuoklius girtuoklių girtuoklė girtuoklį
+89	6489	pasiskirstymas	pasiskirstymo pasiskirstymą
+90	6490	aibė	aibe aibes aibių aibėje aibės aibę
+91	6491	krokodilas	krokodilai krokodilams krokodile krokodilo krokodilu krokodilus krokodilą krokodilų
+92	6492	ligi	
+93	6493	surenkamas	surenkama surenkami surenkamos surenkamų
+94	6494	dingimas	dingimai dingimo dingimu dingimą dingimų
+95	6495	nepasiekiamas	nepasiekiama nepasiekiami nepasiekiamoje nepasiekiamos nepasiekiamose nepasiekiamą
+96	6496	savarankiškumas	savarankiškumo savarankiškumą
+97	6497	apgalvotas	apgalvota apgalvotai apgalvotais apgalvoto apgalvotos apgalvotus apgalvotą
+98	6498	beprasmis	beprasmiai beprasmiais beprasmio beprasmiu beprasmius beprasmių beprasmė beprasmės beprasmį
+99	6499	penas	penai peno peną
+100	6500	paprašytas	paprašyta paprašytos

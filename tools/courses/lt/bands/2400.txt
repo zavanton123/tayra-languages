@@ -1,0 +1,100 @@
+1	2301	prokuratūra	prokuratūrai prokuratūroje prokuratūros prokuratūrą
+2	2302	istorikas	istorikai istorikais istorikams istorike istoriko istoriku istorikui istorikus istoriką istorikė istorikų
+3	2303	galinis	galine galines galiniai galiniais galiniame galinio galiniu galinius galinių galinė galinėje galinės galinėse galinę galinį
+4	2304	maksimalus	maksimalaus maksimali maksimalia maksimaliai maksimaliais maksimaliam maksimalias maksimalios maksimaliu maksimalius maksimalią maksimalių maksimalūs maksimalų
+5	2305	senis	seni seniais seniams senio seniu seniui senius senių senį
+6	2306	išėjimas	išėjimai išėjimo išėjimu išėjimui išėjimus išėjimą išėjimų
+7	2307	siūlymas	siūlymai siūlymais siūlymams siūlymo siūlymu siūlymui siūlymus siūlymą siūlymų
+8	2308	trenkti	trenk trenkdamas trenkdavo trenkei trenki trenkia trenkiant trenkiantis trenkiau trenkim trenkit trenkite trenkiu trenks trenksi trenksiu trenkta trenktas trenktum trenktų trenkčiau trenkė trenkėt trenkėte trenkęs
+9	2309	valstietė	valstietės valstiečių
+10	2310	darbininkas	darbininkai darbininkais darbininkams darbininke darbininki darbininko darbininku darbininkui darbininkus darbininką darbininkė darbininkų
+11	2311	eilinis	eiline eiliniai eiliniais eiliniam eiliniame eiliniams eilinio eiliniu eilinius eilinių eilinė eilinėje eilinės eilinę eilinį
+12	2312	išprotėti	išprotėdavo išprotėja išprotėjai išprotėjau išprotėjo išprotėjom išprotėjot išprotėjote išprotėjus išprotėjąs išprotėk išprotėkime išprotės išprotėsi išprotėsim išprotėsiu išprotėtų išprotėčiau
+13	2313	konteineris	konteineri konteineriai konteineriais konteineriams konteinerio konteineriu konteineriuose konteinerius konteinerių konteineryje konteinerį
+14	2314	rekomenduojamas	rekomenduojama rekomenduojami rekomenduojamo rekomenduojamos rekomenduojamus rekomenduojamą rekomenduojamų
+15	2315	šiukšlės	šiukšles šiukšlių šiukšlėmis šiukšlėms šiukšlėse
+16	2316	naktinis	naktine naktinei naktines naktiniai naktiniais naktiniam naktiniame naktiniams naktinio naktiniu naktiniuose naktinius naktinių naktinė naktinėje naktinę naktinį
+17	2317	reguliarus	reguliaraus reguliari reguliaria reguliariai reguliariajame reguliarias reguliariojo reguliarios reguliarius reguliarių reguliarusis reguliarūs reguliarų reguliarųjį
+18	2318	pasimatyti	pasimato pasimatys pasimatysime pasimatė
+19	2319	užrašas	užrašais užrašams užrašu užrašuose užrašus užrašą užrašų
+20	2320	pralaimėti	pralaimi pralaimime pralaimėjau pralaimėjo pralaimėjome pralaimės pralaimėsi pralaimėsime pralaimėsite pralaimėtų
+21	2321	gynėjas	gynėjai gynėjais gynėjams gynėjau gynėjo gynėjos gynėju gynėjui gynėjus gynėją gynėjų
+22	2322	aktualus	aktualaus aktualesnes aktualesni aktualesnio aktualesnis aktualesnių aktualesnė aktualesnės aktualesnį aktuali aktualia aktualiai aktualiais aktualiam aktualias aktualiau aktualiausi aktualiausia aktualiausiais aktualiausias aktualiausiems aktualiausiomis aktualiausios aktualiausius aktualiausią aktualiausių aktualiomis aktualioms aktualios aktualiu aktualius aktualią aktualių aktualu aktualusis aktualūs aktualų
+23	2323	džiugus	džiugaus džiugesnis džiugesnė džiugesnį džiugi džiugia džiugiai džiugiausi džiugiausia džiugiomis džiugios džiugią džiugiąsias džiugių džiugu džiugui džiugūs džiugų
+24	2324	stebėjimas	stebėjimai stebėjimais stebėjimams stebėjimo stebėjimu stebėjimui stebėjimus stebėjimą stebėjimų
+25	2325	virti	verda verdam verdame verdant verdate verdi verdu virdamas virdavo virei viriau virk virkim virkime virkite virs virsi virsiu virtas virte virtų virus virčiau virė virėm
+26	2326	pedagogas	pedagogai pedagogais pedagogams pedagoge pedagogo pedagogu pedagogui pedagogus pedagogą pedagogų
+27	2327	kompiuterinis	kompiuterine kompiuterines kompiuteriniai kompiuteriniais kompiuteriniam kompiuteriniams kompiuterinio kompiuteriniu kompiuteriniuose kompiuterinius kompiuterinių kompiuterinė kompiuterinės kompiuterinę kompiuterinį
+28	2328	skolingas	skolinga skolingi
+29	2329	nesunkus	nesunkaus nesunki nesunkiai nesunkiu nesunkius nesunkių nesunku nesunkūs nesunkų
+30	2330	registras	registrai registre registro registrui registruose registrus registrą registrų
+31	2331	mylia	mylias myliomis mylios mylią mylių
+32	2332	nevertas	neverta neverti nevertos neverčiau
+33	2333	uostamiestis	uostamiestyje uostamiestį uostamiesčiai uostamiesčio uostamiesčiu uostamiesčiui
+34	2334	patarėjas	patarėjai patarėjais patarėjams patarėjo patarėju patarėjui patarėjus patarėją patarėjų
+35	2335	redakcija	redakcijai redakcijas redakcijoje redakcijos redakcijose redakciją redakcijų
+36	2336	demokratas	demokratai demokratais demokratams demokrate demokrato demokratu demokratui demokratus demokratų demokratą demokratų
+37	2337	pietinis	pietine pietinei pietines pietiniai pietiniame pietinio pietiniu pietiniuose pietinius pietinių pietinė pietinėje pietinės pietinėse pietinę pietinį
+38	2338	titulas	titulai titulais titulo titulu titulus titulą titulų
+39	2339	rekonstrukcija	rekonstrukcijai rekonstrukcijas rekonstrukcijos rekonstrukciją rekonstrukcijų
+40	2340	įvartis	įvartį įvarčiai įvarčiais įvarčio įvarčiu įvarčius įvarčių
+41	2341	netikras	netikra netikrais netikri netikro netikromis netikros netikru netikrus netikrą netikrų
+42	2342	žmogžudystė	žmogžudyste žmogžudystei žmogžudystes žmogžudystėmis žmogžudystės žmogžudystę žmogžudysčių
+43	2343	saldus	saldaus saldesni saldesnio saldesnis saldi saldiems saldu saldusis saldūs saldų saldųjį saldžia saldžiai saldžiais saldžiam saldžiame saldžias saldžiau saldžiausia saldžiausias saldžiausio saldžiausią saldžioji saldžiojo saldžiomis saldžios saldžiosios saldžiu saldžiuoju saldžiuose saldžiuosius saldžius saldžią saldžiąja saldžiąsias saldžių saldžiųjų
+44	2344	nukentėti	nukentėjau nukentėjo nukentėjome nukentės nukentėtų
+45	2345	ruošti	ruoš ruošdavo ruoši ruošia ruošiame ruošiate ruošiau ruošite ruošiu ruošk ruoškite ruošė
+46	2346	tiekimas	tiekimo tiekimu tiekimui tiekimą
+47	2347	manymas	manymu manymų
+48	2348	atmesti	atmes atmesdavo atmeskime atmestume atmestų atmeta atmetėme atmetu atmetė atmetėme atmečiau
+49	2349	baltymas	baltymai baltymais baltymams baltymo baltymu baltymuose baltymus baltymą baltymų
+50	2350	mechanizmas	mechanizmai mechanizmais mechanizmams mechanizme mechanizmo mechanizmu mechanizmui mechanizmus mechanizmą mechanizmų
+51	2351	rūsys	rūsiai rūsiais rūsio rūsiu rūsiuose rūsius rūsių rūsy rūsyje rūsį
+52	2352	atnaujintas	atnaujinta atnaujintame atnaujinto atnaujintoje atnaujintos atnaujintose atnaujintu atnaujintuose atnaujintus atnaujintą
+53	2353	šiaurinis	šiaurine šiaurinei šiaurines šiauriniai šiauriniame šiaurinio šiauriniu šiauriniuose šiaurinius šiaurinių šiaurinė šiaurinėje šiaurinės šiaurinėse šiaurinę šiaurinį
+54	2354	kailis	kaili kailiai kailiais kailiams kailio kailiu kailiui kailius kailių kailyje kailį
+55	2355	dovanas	dovanai dovanoji dovanojo dovanoms dovanos dovanose dovanu dovaną
+56	2356	įėjimas	įėjimai įėjimais įėjime įėjimo įėjimu įėjimui įėjimus įėjimą įėjimų
+57	2357	lydėti	lydi lydima lydimas lydimi lydimą lydint lydintis lydėdamas lydėdavau lydėdavo lydėjau lydėjo lydėjom lydėjome lydėjęs lydės lydėsim lydėsime lydėsiu lydėtum lydėtų lydžiu telydi
+58	2358	esminis	esmine esmines esminiai esminiais esminiams esminio esminiu esminius esminių esminė esminėmis esminėms esminės esminę esminį
+59	2359	patenkintas	patenkinta patenkintos patenkintą
+60	2360	išskirti	išskiria išskiriame išskirkite išskirs išskirtų išskirčiau išskyriau išskyrė išskyrėme
+61	2361	įvertinimas	įvertinimai įvertinimais įvertinimo įvertinimu įvertinimui įvertinimus įvertinimą įvertinimų
+62	2362	mačas	mačai mače mačo maču mačui mačuose mačus mačą mačų
+63	2363	iškelti	iškeldavo iškelia iškeliame iškelk iškelkite iškels iškelsime iškeltume iškeltų iškėliau iškėlė iškėlėme
+64	2364	netikėtai	
+65	2365	sergantis	sergantiems sergančiai sergančiais sergančio sergančiu sergančius sergančių
+66	2366	stotelė	stotele stotelei stoteles stotelių stotelėje stotelėmis stotelės stotelėse stotelę
+67	2367	skundas	skundai skundais skundams skunde skundo skundu skundui skunduose skundus skundą skundų
+68	2368	seniūnas	seniūnai seniūnais seniūnams seniūne seniūno seniūnu seniūnui seniūną seniūnų
+69	2369	epidemija	epidemijai epidemijas epidemijomis epidemijoms epidemijos epidemiją epidemijų
+70	2370	užpulti	užpuldavo užpuls užpultų užpuola užpuolė
+71	2371	teisininkas	teisininkai teisininkais teisininkams teisininke teisininko teisininku teisininkui teisininkus teisininką teisininkė teisininkų
+72	2372	provincija	provincijai provincijas provincijoje provincijos provincijose provinciją provincijų
+73	2373	piniginė	piniginei piniginėje piniginėmis piniginėms piniginės piniginėse piniginę
+74	2374	išimtis	išimties išimtimi išimtimis išimtys išimtyse išimtį išimčių
+75	2375	dalelė	dalele dalelei daleles dalelių dalelėje dalelėmis dalelėms dalelės dalelę
+76	2376	italas	italai italais italams itale itales italo italu italui italus italą italė italės italę italų
+77	2377	paketas	paketai paketais paketams pakete paketo paketu paketui paketuose paketus paketą paketų
+78	2378	medus	medaus medui meduje medumi medūs medų
+79	2379	nebūtinas	nebūtina nebūtini nebūtinos nebūtinų
+80	2380	srovė	srove srovei sroves srovių srovėje srovėmis srovės srovę
+81	2381	veiksnys	veiksniai veiksniais veiksniams veiksnio veiksniu veiksnius veiksnių veiksnį
+82	2382	sujungti	sujungia sujungiame sujungs sujungtų sujungė sujungėme sujunkite
+83	2383	daugiabutis	daugiabutyje daugiabutį daugiabučiai daugiabučiame daugiabučiams daugiabučio daugiabučiu daugiabučiui daugiabučiuose daugiabučius daugiabučių
+84	2384	siaubas	siaubai siaube siaubo siaubu siaubui siaubus siaubą siaubų
+85	2385	pakartoti	pakartoja pakartojau pakartojo pakartoju pakartok pakartokite pakartos pakartosime pakartosiu pakartočiau
+86	2386	milijardas	milijardai milijardais milijardams milijardo milijardu milijardui milijardus milijardą milijardų
+87	2387	sankcija	sankcijas sankcijoje sankcijomis sankcijoms sankcijos sankciją sankcijų
+88	2388	gyvenvietė	gyvenviete gyvenvietei gyvenvietes gyvenvietėje gyvenvietės gyvenvietėse gyvenvietę gyvenviečių
+89	2389	girtas	girta girtai girtam girtesnis girtesnė girtesnį girtiems girto girtos girtu girtus girtą girtų
+90	2390	įtarimas	įtarimai įtarimais įtarimams įtarimo įtarimui įtarimus įtarimą įtarimų
+91	2391	šaudyti	šaudo šaudydavo šaudys šaudytų šaudė
+92	2392	atitinkamas	atitinkama atitinkamais atitinkamam atitinkamame atitinkami atitinkamiems atitinkamo atitinkamoje atitinkamomis atitinkamoms atitinkamos atitinkamose atitinkamu atitinkamuose atitinkamus atitinkamą atitinkamų
+93	2393	sidabras	sidabre sidabro sidabru sidabrui sidabrą sidabrų
+94	2394	balta	
+95	2395	taika	taikoje taiką
+96	2396	eksperimentas	eksperimentai eksperimentais eksperimentams eksperimente eksperimento eksperimentu eksperimentui eksperimentuose eksperimentus eksperimentą eksperimentų
+97	2397	rizikuoti	rizikavo rizikuoja rizikuojame rizikuojate rizikuoji rizikuoju rizikuos rizikuosime rizikuotų rizikuočiau
+98	2398	netyčia	
+99	2399	nebebūti	nebebus nebebuvo nebebūsiu nebebūtų
+100	2400	dėstytojas	dėstytojai dėstytojais dėstytojams dėstytojo dėstytoju dėstytojui dėstytojus dėstytoją dėstytojų

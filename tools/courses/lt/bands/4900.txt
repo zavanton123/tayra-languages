@@ -1,0 +1,100 @@
+1	4801	poilsiautojas	poilsiautoja poilsiautojai poilsiautojais poilsiautojams poilsiautojus poilsiautojų
+2	4802	priešiškas	priešiška priešiškai priešiški priešiško priešiškoje priešiškomis priešiškos priešišku priešiškus priešišką priešiškų
+3	4803	deramas	derama deramai deramo deramos deramu deramą
+4	4804	alergija	alergijai alergijas alergijomis alergijos alergiją alergijų
+5	4805	ginkluotė	ginkluote ginkluotei ginkluotės ginkluotę
+6	4806	orumas	orumo orumu orumui orumą
+7	4807	bortas	borto bortus bortą bortų
+8	4808	krautuvė	krautuve krautuvei krautuves krautuvių krautuvėje krautuvės krautuvėse krautuvę krautuvų
+9	4809	platinti	platino
+10	4810	valgykla	valgyklas valgykloje valgyklos valgyklose valgyklą valgyklų
+11	4811	tęsiamas	tęsiama tęsiami tęsiamos
+12	4812	apelsinas	apelsinai apelsinais apelsine apelsino apelsinu apelsinus apelsiną apelsinų
+13	4813	gausybė	gausybe gausybės gausybę
+14	4814	masyvas	masyvai masyve masyvo masyvus masyvą masyvų
+15	4815	entuziazmas	entuziazmo entuziazmu entuziazmą
+16	4816	gardas	gardai gardaus garde gardesnis gardesnė gardi gardiems gardo gardu garduose gardus gardą gardūs gardų gardžiausi gardžiausiais gardžiausias gardžiausius gardžiausią gardžiausių
+17	4817	katilas	katilai katilams katile katilo katilu katilui katilus katilą katilų
+18	4818	rudis	rudi rudį rudžiai rudžio rudžiui rudžių
+19	4819	fui	fu
+20	4820	sąveika	sąveikas sąveikoje sąveikos sąveiką
+21	4821	rūkas	rūke rūku rūkui rūkus rūką
+22	4822	entuziastas	entuziastai entuziastais entuziastams entuziasto entuziastu entuziastui entuziastus entuziastų
+23	4823	nubėgti	nubėga nubėgau nubėgo nubėgu
+24	4824	pasigaminti	pasigamina pasigaminau pasigaminkite pasigamino pasigamins pasigaminsite pasigamintų
+25	4825	skveras	skverai skverams skvere skvero skveru skverui skveruose skverus skverą skverų
+26	4826	pragyvenimas	pragyvenimo pragyvenimui pragyvenimą
+27	4827	kompromisas	kompromisai kompromisams kompromiso kompromisu kompromisus kompromisą kompromisų
+28	4828	nufotografuoti	nufotografavau nufotografavo nufotografuoja nufotografuokite nufotografuos nufotografuotų
+29	4829	prestižinis	prestižine prestižinei prestižines prestižiniai prestižiniais prestižiniame prestižinio prestižiniu prestižiniuose prestižinius prestižinių prestižinė prestižinėje prestižinėmis prestižinės prestižinėse prestižinę prestižinį
+30	4830	tapytoja	tapytojai tapytojas tapytojo tapytojos tapytoju tapytojui tapytoją tapytojų
+31	4831	tūkstantmetis	tūkstantmetyje tūkstantmetį tūkstantmečio tūkstantmečiui tūkstantmečius tūkstantmečių
+32	4832	melagingas	melaginga melagingai melagingais melagingi melagingo melagingos melagingus melagingą melagingų
+33	4833	pasilenkti	pasilenk pasilenkia pasilenkite pasilenkė
+34	4834	apsirengti	apsirengia apsirengiau apsirengė apsirenkite
+35	4835	samprata	sampratos sampratą
+36	4836	apdirbimas	apdirbimo apdirbimu apdirbimą
+37	4837	hektaras	hektarai hektarais hektaro hektarui hektaruose hektarus hektarą hektarų
+38	4838	gavėjas	gavėja gavėjai gavėjais gavėjams gavėjo gavėju gavėjui gavėjus gavėją gavėjų
+39	4839	bjaurybė	bjaurybės
+40	4840	skatinamas	skatinama skatinami skatinamos skatinamąsias
+41	4841	nata	natas natomis natos natą natų
+42	4842	antibiotikas	antibiotikai antibiotikais antibiotikams antibiotiko antibiotikui antibiotikus antibiotiką antibiotikų
+43	4843	apaštalas	apaštalai apaštalais apaštalo apaštalui apaštalus apaštalų
+44	4844	apleisti	apleido apleidžia apleis apleistų
+45	4845	raminti	ramina raminau ramino raminu
+46	4846	integruotas	integruota integruotai integruoto integruotoje integruotomis integruotos integruotu integruotus integruotą
+47	4847	invazija	invazijai invazijos invaziją invazijų
+48	4848	patiekti	patiekdavo patiekdavome patiekia patiekiamas patiekiame patiekiant patiekim patiekite patiekiu patieks patieksi patieksim patieksime patieksiu patiekta patiektas patiekus patiekėme
+49	4849	narystė	naryste narystei narystės narystę
+50	4850	perkūnas	perkūnai perkūnais perkūno perkūnu perkūnui
+51	4851	pritaikymas	pritaikymo pritaikymu pritaikymui pritaikymą
+52	4852	samdomas	samdoma samdomais samdomam samdomi samdomiems samdomo samdomos samdomu samdomus samdomą samdomų
+53	4853	epidemiologinis	epidemiologiniai epidemiologiniais epidemiologinio epidemiologinių epidemiologinė epidemiologinės epidemiologinę
+54	4854	kampelis	kampeliai kampelio kampeliu kampeliuose kampelius kampelių kampelyje kampelį
+55	4855	naikintuvas	naikintuvai naikintuvais naikintuvams naikintuvo naikintuvu naikintuvui naikintuvuose naikintuvus naikintuvą naikintuvų
+56	4856	stiprinimas	stiprinimo stiprinimu stiprinimui stiprinimą
+57	4857	perteklius	pertekliaus pertekliui pertekliumi perteklių
+58	4858	vertėjas	vertėjams vertėją vertėjų
+59	4859	pretenduoti	pretendavo pretenduoja pretenduos pretenduotų
+60	4860	vertikalus	vertikalaus vertikali vertikaliai vertikalias vertikalioje vertikalios vertikalią vertikalūs vertikalų
+61	4861	ambicingas	ambicinga ambicingai ambicingais ambicingam ambicingasis ambicingesni ambicingesnius ambicingesnių ambicingesnį ambicingi ambicingiausią ambicingiausių ambicingiems ambicingo ambicingos ambicingu ambicingus ambicingą ambicingų
+62	4862	įstrigti	įstrigo įstrigs įstrigtų įstringa
+63	4863	tara	taroje taros tarą
+64	4864	pokeris	pokerio pokerį
+65	4865	erkė	erke erkes erkių erkėmis erkėms erkės erkę
+66	4866	atostogauti	atostogauja atostogaujame atostogaujate atostogauju atostogaus atostogavau atostogavo atostogavome
+67	4867	kirvis	kirviai kirviais kirvio kirviu kirvius kirvių kirvį
+68	4868	įpilti	įpila įpildavo įpilk įpilkite įpiltų įpilu įpylė
+69	4869	šiukšlė	šiukšle šiukšles šiukšlių šiukšlėmis šiukšlėms šiukšlėse šiukšlę
+70	4870	reanimacija	reanimacijoje reanimacijos reanimaciją
+71	4871	organizacinis	organizacines organizaciniai organizaciniais organizacinio organizacinius organizacinių organizacinė organizacinės organizacinę organizacinį
+72	4872	absolventas	absolventai absolventais absolventams absolvento absolventus absolventų
+73	4873	spraga	spragas spragoje spragomis spragos spragą spragų
+74	4874	archeologas	archeologai archeologais archeologams archeologo archeologus archeologų
+75	4875	panaikintas	panaikinta panaikintos panaikintą
+76	4876	atžala	atžalai atžalas atžalomis atžaloms atžalos atžalą atžalų
+77	4877	sužavėti	sužavi sužavėjo sužavės
+78	4878	įkalbėti	įkalbamas įkalbėjai įkalbėjau įkalbėjo įkalbėjom įkalbėjote įkalbėk įkalbės įkalbėsi įkalbėsit įkalbėsiu įkalbėtume įkalbėtų įkalbėčiau
+79	4879	patogumas	patogumai patogumais patogumo patogumu patogumui patogumus patogumą patogumų
+80	4880	antklodė	antklode antklodes antklodėmis antklodės antklodę antklodžių
+81	4881	rašytinis	rašytine rašytiniai rašytiniais rašytiniame rašytinio rašytiniu rašytiniuose rašytinius rašytinių rašytinė rašytinės rašytinę rašytinį
+82	4882	apykaita	apykaitai apykaitoje apykaitos apykaitą
+83	4883	siurprizas	siurprizai siurprizo siurprizu siurprizus siurprizą siurprizų
+84	4884	poteris	poterio poterius poterį
+85	4885	pjauti	pjauk pjaukit pjaukite pjauna pjaunam pjauname pjauni pjaunu pjaus pjausi pjausite pjaučiau pjoviau pjovė
+86	4886	užrakinti	užrakina užrakinkite užrakino užrakintų
+87	4887	teleskopas	teleskopai teleskopais teleskopo teleskopu teleskopui teleskopus teleskopą teleskopų
+88	4888	etiketė	etikete etiketei etiketes etiketėje etiketėmis etiketėms etiketės etiketėse etiketę etikečių
+89	4889	draustinis	draustiniai draustinio draustiniu draustiniui draustiniuose draustinius draustinių draustinyje draustinį
+90	4890	apsipirkti	apsipirko
+91	4891	soja	sojos soją sojų
+92	4892	kardinolas	kardinolai kardinolams kardinolo kardinolu kardinolui kardinolus kardinolą kardinolų
+93	4893	pajuokauti	pajuokauja pajuokavau pajuokavo pajuokavome
+94	4894	senumas	senumo
+95	4895	susijungti	susijungia susijungs susijungtų susijungė
+96	4896	nusikalstamumas	nusikalstamumo nusikalstamumu nusikalstamumui nusikalstamumą
+97	4897	vynuogė	vynuoges vynuogių vynuogėmis vynuogėms vynuogės vynuogėse vynuogę
+98	4898	apibrėžimas	apibrėžimai apibrėžimo apibrėžimu apibrėžimus apibrėžimą apibrėžimų
+99	4899	radiacija	radiacijai radiacijos radiaciją
+100	4900	sūnėnas	sūnėno sūnėnu sūnėnui sūnėną

@@ -1,0 +1,100 @@
+1	2701	pusantro	pusantros pusantrų
+2	2702	terapija	terapijai terapijas terapijoje terapijos terapiją terapijų
+3	2703	mišinys	mišiniai mišinio mišiniu mišiniui mišiniuose mišinius mišinių mišinyje mišinį
+4	2704	vertimas	vertimai vertimais vertime vertimo vertimu vertimus vertimą vertimų
+5	2705	dykuma	dykumas dykumoje dykumomis dykumos dykumose dykumą dykumų
+6	2706	atvirkščias	atvirkščiai
+7	2707	matas	matai mate mato matu matui matus matą matų
+8	2708	federalinis	federaline federalinei federalines federaliniai federaliniam federaliniame federalinio federaliniu federalinius federalinių federalinė federalinėje federalinėms federalinės federalinę federalinį
+9	2709	suvaldyti	suvaldys suvaldytų suvaldė
+10	2710	pasibaigti	pasibaigdavo pasibaigia pasibaigs pasibaigtų pasibaigė
+11	2711	komentuoti	komentavo komentuoja komentuos
+12	2712	pasitikti	pasitikdavo pasitiko pasitikome pasitiks pasitiksime pasitiktų pasitinka pasitinkame
+13	2713	valymas	valymo valymu valymui valymus valymą
+14	2714	pilkas	pilkai pilkais pilkaisiais pilkajai pilkam pilkasis pilki pilkieji pilkiesiems pilko pilkoje pilkoji pilkojo pilkojoje pilkos pilkosios pilku pilkuosius pilkus pilkąja pilkąją pilkųjų
+15	2715	inovacija	inovacijas inovacijomis inovacijoms inovacijos inovaciją inovacijų
+16	2716	magija	magijai magijos magiją
+17	2717	matavimas	matavimai matavimais matavimams matavimo matavimui matavimus matavimą matavimų
+18	2718	riteris	riteriai riteriais riteriams riterio riterius riterių riterį
+19	2719	gražuolė	gražuole gražuolei gražuoles gražuolių gražuolėmis gražuolėms gražuolės gražuolę
+20	2720	sužeisti	sužeidė sužeidžia sužeistų
+21	2721	konsultacija	konsultacijai konsultacijas konsultacijoje konsultacijomis konsultacijoms konsultacijos konsultaciją konsultacijų
+22	2722	keliautojas	keliautoja keliautojai keliautojais keliautojams keliautojo keliautojos keliautoju keliautojui keliautojus keliautoją keliautojų
+23	2723	nuspręstas	nuspręsta
+24	2724	maišas	maišais maišams maiše maišu maišuose maišus maišą maišų
+25	2725	pavargęs	pavargus pavargusi pavargusias pavargusiems pavargusios pavargusius pavargusią pavargusių pavargę
+26	2726	rungtis	rungiasi rungsis rungties rungtyje rungtys rungtyse rungtį rungčių rungėsi
+27	2727	įtikinti	įtikina įtikino įtikinome įtikins įtikintų
+28	2728	jaunystė	jaunyste jaunystei jaunystes jaunystėje jaunystės jaunystę
+29	2729	kasdienis	kasdiene kasdienes kasdieniai kasdieniais kasdieniam kasdieniame kasdieniams kasdienio kasdieniu kasdieniuose kasdienius kasdienių kasdienė kasdienėje kasdienėms kasdienės kasdienėse kasdienę kasdienį
+30	2730	įgytas	įgyta įgyti įgyto įgytomis įgytos įgytus įgytą įgytų
+31	2731	rėmėjas	rėmėja rėmėjai rėmėjais rėmėjams rėmėjo rėmėjos rėmėju rėmėjui rėmėjus rėmėją rėmėjų
+32	2732	pasirašytas	pasirašyta pasirašytame pasirašyto pasirašytoje pasirašytos pasirašytu pasirašytus pasirašytą
+33	2733	pabaisa	pabaisai pabaisas pabaisomis pabaisoms pabaisos pabaisą pabaisų
+34	2734	ištikimas	ištikima ištikimai ištikimais ištikimam ištikimasis ištikimi ištikimiausi ištikimiausia ištikimiausias ištikimiausius ištikimiausių ištikimieji ištikimiems ištikimo ištikimos ištikimu ištikimus ištikimą ištikimų
+35	2735	seksualinis	seksualine seksualines seksualiniai seksualiniais seksualiniam seksualiniams seksualinio seksualiniu seksualinius seksualinių seksualinė seksualinės seksualinę seksualinį
+36	2736	pilietinis	pilietine pilietinei pilietines pilietiniai pilietiniame pilietiniams pilietinio pilietiniu pilietinius pilietinių pilietinė pilietinės pilietinę pilietinį
+37	2737	aiškintis	aiškinamės aiškinantis aiškinasi aiškinausi aiškindamasis aiškiniesi aiškinkimės aiškinkis aiškinkitės aiškinosi aiškinsimės aiškinsis aiškinsitės aiškinsiuosi aiškintųsi aiškinuosi aiškinčiausi aiškinęsis besiaiškinant
+38	2738	pokštas	pokštai pokštais pokštams pokšto pokštu pokštui pokštus pokštą pokštų
+39	2739	surinktas	surinkta surinktais surinkto surinktomis surinktos surinktus surinktą
+40	2740	išlipti	išlipa išlipai išlipam išlipame išlipau išlipdavo išlipi išlipk išlipkim išlipkit išlipkite išlipo išlipom išlipome išlipot išlips išlipsi išlipsim išlipsime išlipsite išlipsiu išliptume išliptų išlipu išlipus išlipčiau išlipęs
+41	2741	alkanas	alkana alkanam alkanesnis alkanesnės alkani alkaniems alkano alkanos alkanu alkanus alkaną alkanų
+42	2742	sofa	sofas sofoje sofos sofą sofų
+43	2743	klanas	klanai klanams klane klano klanu klanui klanus klaną klanų
+44	2744	apklausa	apklausos
+45	2745	skraidyti	skraidau skraido skraidydavo skraidymas skraidymo skraidys skraidytų skraidė skraidžiau
+46	2746	sviestas	svieste sviesto sviestu sviestui sviestą
+47	2747	nusiteikęs	nusiteikus nusiteikusi nusiteikusiais nusiteikusiems nusiteikusio nusiteikusios nusiteikusius nusiteikusių nusiteikusį nusiteikę
+48	2748	nuoroda	nuorodas nuorodoje nuorodomis nuorodos nuorodą nuorodų
+49	2749	peržiūrėti	peržiūri peržiūrime peržiūriu peržiūrėjau peržiūrėjo peržiūrėjome peržiūrėkite peržiūrės peržiūrėsime peržiūrėtų
+50	2750	ilsėtis	ilsiesi ilsimės ilsisi ilsitės ilsiuosi ilsėdavosi ilsėjausi ilsėjosi ilsėkis ilsėkitės ilsėsimės ilsėsis ilsėtųsi
+51	2751	vaiduoklis	vaiduokli vaiduokliai vaiduokliais vaiduokliams vaiduoklio vaiduokliu vaiduokliui vaiduoklius vaiduoklių vaiduoklį
+52	2752	pastovus	pastovaus pastoviai pastoviais pastovioji pastovios pastoviosios pastovius pastovią pastovių pastovūs pastovų
+53	2753	atidarymas	atidarymai atidaryme atidarymo atidarymu atidarymui atidarymą
+54	2754	ūkinis	ūkine ūkinei ūkines ūkiniai ūkiniais ūkiniame ūkiniams ūkinio ūkiniu ūkinius ūkinių ūkinė ūkinėje ūkinėms ūkinės ūkinę ūkinį
+55	2755	chemija	chemijoje chemijos chemiją
+56	2756	uola	uolai uolas uoloje uolomis uoloms uolos uolose uolą uolų
+57	2757	beprotiškas	beprotiška beprotiškai beprotiškais beprotiškame beprotiški beprotiško beprotiškomis beprotiškos beprotišku beprotiškus beprotišką beprotiškų
+58	2758	nepažįstamas	nepažįstama nepažįstamai nepažįstamais nepažįstamaisiais nepažįstamajam nepažįstamam nepažįstamame nepažįstamasis nepažįstami nepažįstamieji nepažįstamiems nepažįstamiesiems nepažįstamo nepažįstamoje nepažįstamoji nepažįstamojo nepažįstamos nepažįstamu nepažįstamuoju nepažįstamuosius nepažįstamus nepažįstamą nepažįstamąja nepažįstamąjį nepažįstamų nepažįstamųjų
+59	2759	išpuolis	išpuoliai išpuoliais išpuoliams išpuolio išpuoliu išpuolius išpuolių išpuolyje išpuolį
+60	2760	izoliacija	izoliacijai izoliacijoje izoliacijos izoliaciją
+61	2761	medžioti	medžiodamas medžiodami medžiodavai medžiodavo medžiodavome medžioja medžiojai medžiojam medžiojamas medžiojame medžiojami medžiojant medžiojantis medžiojate medžiojau medžioji medžiojo medžiojom medžiojome medžiojot medžiojote medžioju medžiojęs medžios medžiosi medžiosime medžiosiu medžiotume medžiotų medžiočiau
+62	2762	vienuolis	vienuole vienuoles vienuoli vienuoliai vienuoliams vienuolio vienuoliu vienuoliui vienuolius vienuolių vienuolė vienuolėmis vienuolės vienuolę vienuolį
+63	2763	danas	danai danais danams dane dani dano danu danui danus daną danė danėje danės danę danų
+64	2764	važinėti	važinėdamas važinėdavau važinėdavo važinėja važinėjai važinėjam važinėjame važinėjant važinėjat važinėjate važinėjau važinėji važinėjo važinėjom važinėjome važinėjot važinėju važinėjęs važinėk važinės važinėsi važinėsim važinėsiu važinėtume važinėtų važinėčiau
+65	2765	liftas	liftai liftais liftams lifte lifto liftu liftui liftuose liftus liftą liftų
+66	2766	tiktai	
+67	2767	priešininkas	priešininkai priešininkais priešininkams priešininke priešininko priešininku priešininkui priešininkus priešininką priešininkų
+68	2768	geležinis	geležine geležinei geležines geležini geležiniai geležiniais geležiniam geležiniame geležinio geležiniu geležiniuose geležinius geležinių geležinė geležinėje geležinės geležinėse geležinę geležinį
+69	2769	japonas	japonai japonais japonams japone japoni japonu japonus japoną japonė japonų
+70	2770	atsistoti	atsistodavo atsistoja atsistojau atsistoji atsistojo atsistoju atsistok atsistokite atsistos atsistosiu atsistotų
+71	2771	priklausomybė	priklausomybe priklausomybei priklausomybes priklausomybių priklausomybėmis priklausomybės priklausomybę
+72	2772	garbingas	garbinga garbingai garbingais garbingam garbingasis garbingesnio garbingi garbingiausias garbingiausio garbingiausioje garbingiausiu garbingiausią garbingiausių garbingiausiųjų garbingieji garbingiems garbingo garbingoje garbingos garbingu garbinguosius garbingus garbingą garbingų
+73	2773	jungti	jungdamas jungia jungiam jungiamas jungiame jungiami jungiant jungiantis jungiu jungs jungsime jungtų jungė junk junkime junkit junkite
+74	2774	kokybiškas	kokybiška kokybiškai kokybiškais kokybiškam kokybiškesnio kokybiškesnis kokybiškesnės kokybiškesnę kokybiškesnį kokybiški kokybiškiau kokybiškiausias kokybiškiausio kokybiško kokybiškos kokybišku kokybiškus kokybišką kokybiškų
+75	2775	savaime	
+76	2776	klausytis	
+77	2777	formulė	formule formules formulių formulėje formulėmis formulės formulėse formulę
+78	2778	atominis	atomine atominei atomines atominės atominiai atominiam atominiame atominio atominiu atominius atominių atominė atominėje atominės atominėse atominę atominį
+79	2779	atsiverti	atsiverdavo atsiveria atsivers atsiversite atsiverskite atsivertė atsivertų atsiverčia atsiverčiau atsiverčiu atsivėrė
+80	2780	kompozicija	kompozicijai kompozicijas kompozicijoje kompozicijomis kompozicijoms kompozicijos kompozicijose kompoziciją kompozicijų
+81	2781	kaimyninis	kaimynine kaimyninei kaimynines kaimyniniame kaimyninio kaimyniniuose kaimyninių kaimyninė kaimyninėje kaimyninėmis kaimyninėms kaimyninės kaimyninėse kaimyninę kaimyninį
+82	2782	vyriškas	vyriška vyriškais vyriškasis vyriškesnis vyriški vyriško vyriškomis vyriškos vyriškose vyriškosios vyrišku vyriškus vyrišką vyriškų
+83	2783	iškilti	iškilo iškils iškiltų
+84	2784	ašara	ašaras ašaroje ašaromis ašaroms ašaros ašarose ašarą ašarų
+85	2785	mėgstamas	mėgstama mėgstamai mėgstamais mėgstamam mėgstamame mėgstami mėgstamiems mėgstamo mėgstamoje mėgstamomis mėgstamos mėgstamu mėgstamus mėgstamą mėgstamų
+86	2786	šlovė	šlove šlovei šlovėje šlovės šlovę
+87	2787	pasiekiamas	pasiekiama pasiekiami pasiekiamo pasiekiamoje pasiekiamos pasiekiamose pasiekiamus pasiekiamą pasiekiamų
+88	2788	neskubėti	neskuba neskubame neskubate neskubi neskubu neskubėjau neskubėjo neskubėjome neskubėk neskubėkime neskubėkite neskubės neskubėtų neskubėčiau
+89	2789	sustiprinti	sustiprina sustiprino sustiprins sustiprinsime sustiprintų
+90	2790	originalas	originalai originale originali originalo originalu originalui originalus originalą originalų
+91	2791	šlykštus	šlykštaus šlykšti šlykštu šlykštūs šlykštų šlykščiai šlykščiais šlykščios šlykščiu šlykščius šlykščių
+92	2792	atminti	atmena atmink atminkite
+93	2793	kreditas	kreditai kreditais kredito kreditu kreditui kreditus kreditą kreditų
+94	2794	ugniagesys	ugniagesiai ugniagesiais ugniagesiams ugniagesio ugniagesiu ugniagesius ugniagesių
+95	2795	pastaba	pastabas pastaboje pastabomis pastaboms pastabos pastabą
+96	2796	psichologija	psichologijai psichologijoje psichologijos psichologiją
+97	2797	nuosprendis	nuosprendyje nuosprendį nuosprendžiai nuosprendžio nuosprendžiu nuosprendžiui nuosprendžius nuosprendžių
+98	2798	pusvalandis	pusvalandi pusvalandį pusvalandžio pusvalandžiu pusvalandžiui pusvalandžius
+99	2799	ateivis	ateiviai ateiviais ateiviams ateivio ateiviu ateiviui ateivius ateivių ateivė ateivį
+100	2800	maldauti	maldauja maldauju

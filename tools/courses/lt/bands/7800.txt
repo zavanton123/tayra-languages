@@ -1,0 +1,100 @@
+1	7701	atidengtas	atidengta atidengtos atidengtą
+2	7702	sujaukti	sujaukia sujauks sujauktų sujaukė
+3	7703	imbieras	imbiere imbiero imbieru imbieruose imbierą imbierų
+4	7704	korta	
+5	7705	trikotažas	trikotažo trikotažą
+6	7706	motoroleris	motoroleriai motorolerio motoroleriu motorolerius motorolerių motorolerį
+7	7707	atsukti	atsuka atsuko
+8	7708	selenas	selene seleno
+9	7709	šmeižtas	šmeižto šmeižtu šmeižtą
+10	7710	snaigė	snaige snaigei snaiges snaigių snaigės snaigę
+11	7711	nuleistas	nuleista nuleistomis nuleistos
+12	7712	pasijuokti	pasijuokia pasijuoks pasijuokė pasijuokėme
+13	7713	nusiplauti	nusiplaukite nusiplauna nusiplaus nusiplovė
+14	7714	žemutinis	žemutiniame žemutinio žemutinių žemutinė žemutinėje žemutinės žemutinę žemutinį
+15	7715	misionierius	misionieriai misionieriams misionieriaus misionierių
+16	7716	solinis	solinio solinių solinė solinės solinę solinį
+17	7717	bokštelis	bokšteliai bokšteliais bokštelio bokšteliu bokštelių bokštelyje bokštelį
+18	7718	vata	vatos
+19	7719	numanyti	numanau numano numanote numanė
+20	7720	uolus	uoli uoliai uoliau
+21	7721	pragyventi	pragyvena pragyvenau pragyveno pragyventų
+22	7722	veiksmažodis	veiksmažodžiai veiksmažodžio veiksmažodžiu veiksmažodžių
+23	7723	durnas	durna durnai durne durnesnę durniau durniausi durniems durnos durną durnų
+24	7724	rajoninis	rajoniniai rajoninio rajoniniuose rajoninių rajoninės
+25	7725	supakuoti	supakavo supakuotų
+26	7726	dėmesingas	dėmesinga dėmesingai dėmesingais dėmesingesni dėmesingi dėmesingiems dėmesingo dėmesingu dėmesingus dėmesingą
+27	7727	pagunda	pagundoms pagundos pagundų
+28	7728	herojė	herojėmis herojės heroję
+29	7729	išspausdinti	išspausdino
+30	7730	nebūdingas	nebūdinga nebūdingo nebūdingos nebūdingą
+31	7731	bauginti	baugina baugino
+32	7732	patėvis	patėvio patėviu patėvį
+33	7733	pagreitis	pagreitį pagreičio pagreičiu
+34	7734	neutralizuoti	neutralizavo neutralizuoja neutralizuos
+35	7735	mistinis	mistines mistiniai mistiniu mistinius mistinių mistinė mistinės mistinę mistinį
+36	7736	aiškėti	aiškėja
+37	7737	sugautas	sugauta sugautos sugautus sugautą
+38	7738	lipdukas	lipduk lipdukai lipdukais lipdukams lipduko lipduku lipdukui lipdukus lipduką lipdukų
+39	7739	šluostė	šluoste šluostės šluostę
+40	7740	vatas	vato vatą vatų
+41	7741	senėjimas	senėjimo senėjimui senėjimą
+42	7742	apmąstymas	apmąstymams apmąstymai apmąstymais apmąstymams apmąstymo apmąstymui apmąstymus apmąstymų
+43	7743	siuvėjas	siuvėjai siuvėjo siuvėjos siuvėją siuvėjų
+44	7744	nesutapti	nesutampa nesutapo nesutaps
+45	7745	šriftas	šrifto šriftu šriftą
+46	7746	naikinamas	naikinama naikinami naikinamos naikinamų
+47	7747	teisėtumas	teisėtumo teisėtumu teisėtumą
+48	7748	priemoka	priemokas priemokos priemoką priemokų
+49	7749	išlėkti	išlekia išlėkiau išlėks išlėkė
+50	7750	žinduolis	žinduoli žinduoliai žinduolius žinduolių
+51	7751	paukštiena	paukštienos paukštieną
+52	7752	kvartetas	kvartete kvarteto kvartetu kvartetą
+53	7753	tribunolas	tribunolai tribunole tribunolo tribunolą
+54	7754	padėklas	padėklais padėklo padėklus padėklą padėklų
+55	7755	kalvė	kalve kalvių kalvėje kalvės kalvę
+56	7756	gaisrinis	gaisrine gaisrinei gaisrines gaisriniams gaisrinio gaisrinių gaisrinė gaisrinėje gaisrinės gaisrinę
+57	7757	spinduliuoti	spinduliavo spinduliuoja spinduliuojantis spinduliuoji spinduliuosite spinduliuote
+58	7758	apgavystė	apgavyste apgavystes apgavystėms apgavystės apgavystę apgavysčių
+59	7759	apmokymas	apmokymai apmokymams apmokymo apmokymui apmokymuose apmokymus apmokymų
+60	7760	ernis	erni erniai erniams ernio erniu ernių ernį
+61	7761	įgalinti	įgalina įgalino įgalins
+62	7762	psichoterapija	psichoterapijos psichoterapiją
+63	7763	pūga	pūgoje pūgos pūgą pūgų
+64	7764	inteligentas	inteligentai inteligento inteligentus inteligentų
+65	7765	reaktyvinis	reaktyviniai reaktyvinio reaktyvinių reaktyvinės reaktyvinį
+66	7766	tunas	tunai tuno tunu tuną tunų
+67	7767	epicentras	epicentrai epicentre epicentro epicentru epicentrui epicentrą
+68	7768	nuteikti	nuteikia nuteiks nuteikė
+69	7769	atpildas	atpildo atpildą
+70	7770	loginis	logines loginio loginių loginė loginės loginę loginį
+71	7771	molekulinis	molekulinio molekulinė molekulinės molekulinę
+72	7772	ispaniškas	ispaniška ispaniškais ispaniškajam ispaniškasis ispaniško ispaniškojo ispaniškos ispanišku ispaniškuoju ispanišką ispaniškąjį ispaniškų
+73	7773	lopšelis	lopšeliai lopšelio lopšeliuose lopšelių
+74	7774	kreivė	kreivę
+75	7775	riedulys	rieduliai riedulio riedulių riedulį
+76	7776	nusitaikyti	nusitaiko nusitaikė
+77	7777	ūkininkauti	ūkininkauja ūkininkavo
+78	7778	antika	antikos
+79	7779	apsukti	apsuka apsukite apsuko apsuks
+80	7780	nekaltybė	nekaltybės nekaltybę
+81	7781	skurdžius	skurdžiai skurdžiau skurdžioje skurdžios skurdžiuose skurdžių
+82	7782	patalpinti	patalpino
+83	7783	stirna	stirnomis stirnos stirną stirnų
+84	7784	kapela	kapelos kapelų
+85	7785	apčiuopiamas	apčiuopiama apčiuopiamai apčiuopiamo apčiuopiamos apčiuopiamu apčiuopiamą apčiuopiamų
+86	7786	gyvybingas	gyvybinga gyvybingai gyvybingi gyvybingos gyvybingą gyvybingų
+87	7787	boulingas	boulingai boulingo boulingus boulingą
+88	7788	atšaukimas	atšaukimo atšaukimui atšaukimą
+89	7789	išplėstas	išplėsta išplėstos išplėstą
+90	7790	limonadas	limonado limonadu limonadą limonadų
+91	7791	racija	racijos raciją
+92	7792	valgiaraštis	valgiaraštyje valgiaraštį valgiaraščio valgiaraščius
+93	7793	sužaistas	sužaista sužaistos
+94	7794	užleisti	užleido užleidžia užleis užleistų
+95	7795	apsikeitimas	apsikeitimo apsikeitimą
+96	7796	mudvi	many mudviejų mudviem
+97	7797	skydliaukė	skydliaukės skydliaukę
+98	7798	iškovotas	iškovota iškovotos iškovotus iškovotą
+99	7799	meilus	meili meiliai meilios meilūs
+100	7800	smuklė	smuklėje smuklės smuklę

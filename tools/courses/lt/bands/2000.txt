@@ -1,0 +1,100 @@
+1	1901	skylė	skyle skylei skyles skylių skylėje skylėmis skylėms skylės skylę
+2	1902	įgula	įgulai įgulas įguloje įguloms įgulos įgulą įgulų
+3	1903	pataisas	pataisomis pataisoms pataisos pataisose pataisą pataisų
+4	1904	dainininkas	dainininkai dainininkais dainininkams dainininke dainininko dainininku dainininkui dainininkus dainininką dainininkė dainininkų
+5	1905	palyginti	palygina palygink palyginkime palyginkite palygino palyginome palyginsime palygintume
+6	1906	kompleksas	kompleksai kompleksais komplekse komplekso kompleksu kompleksui kompleksus kompleksą kompleksų
+7	1907	sunkvežimis	sunkvežimi sunkvežimiai sunkvežimiais sunkvežimiams sunkvežimio sunkvežimiu sunkvežimiui sunkvežimiuose sunkvežimius sunkvežimių sunkvežimyje sunkvežimį
+8	1908	maršrutas	maršrutai maršrutais maršrutams maršrute maršruto maršrutu maršrutuose maršrutus maršrutą maršrutų
+9	1909	prisipažinti	prisipažinau prisipažink prisipažinkime prisipažinkite prisipažino prisipažinote prisipažins prisipažinsiu prisipažintų prisipažįsta prisipažįstu
+10	1910	tuojaus	tuojau
+11	1911	kolektyvas	kolektyvai kolektyvais kolektyvams kolektyve kolektyviai kolektyvo kolektyvu kolektyvui kolektyvuose kolektyvus kolektyvą kolektyvų
+12	1912	aplinkinis	aplinkines aplinkiniai aplinkiniais aplinkiniams aplinkinio aplinkiniu aplinkiniuose aplinkinius aplinkinių aplinkinių aplinkinė aplinkinėje aplinkinėmis aplinkinėms aplinkinės aplinkinėse aplinkinę aplinkinį
+13	1913	skaitmeninis	skaitmenine skaitmeninei skaitmenines skaitmeniniai skaitmeniniais skaitmeniniam skaitmeniniame skaitmeninio skaitmeniniu skaitmeninius skaitmeninių skaitmeninė skaitmeninėje skaitmeninėmis skaitmeninėms skaitmeninės skaitmeninėse skaitmeninę skaitmeninį
+14	1914	vienišas	vieniša vienišais vienišam vienišasis vienišesnė vieniši vienišiau vienišiausią vienišiausių vienišiems vienišo vienišojo vienišomis vienišoms vienišos vienišu vienišus vienišą vienišąjį vienišų vienišųjų
+15	1915	padalinys	padaliniai padaliniais padaliniams padalinio padaliniu padaliniui padaliniuose padalinius padalinių padaliny padalinyje padalinį
+16	1916	išspręsti	išsprendė išsprendėme išsprendžia išsprendžiame išspręs išspręsime išspręsite išspręstume išspręstų
+17	1917	trasa	trasai trasas trasoje trasomis trasoms trasos trasose trasą trasų
+18	1918	korpusas	korpusai korpuse korpuso korpusu korpusui korpusuose korpusus korpusą korpusų
+19	1919	talentas	talentai talentais talentams talento talentu talentui talentuose talentus talentą talentų
+20	1920	mažylis	mažyle mažylei mažyliai mažyliais mažyliams mažylio mažyliu mažyliui mažylius mažylių mažylė mažylės mažylę mažylį
+21	1921	žemiau	
+22	1922	žirgas	žirgai žirgais žirgams žirge žirgo žirgu žirgui žirgus žirgą žirgų
+23	1923	kalinys	kaliniai kaliniais kaliniams kalinio kaliniu kaliniui kalinius kalinių kaliny kalinį
+24	1924	personalas	personalo personalu personalui personalą
+25	1925	trukmė	trukme trukmei trukmes trukmės trukmę
+26	1926	švelnus	švelnaus švelnesnes švelnesni švelnesniais švelnesnis švelnesnių švelnesnė švelnesnėmis švelnesnės švelnesnę švelnesnį švelni švelnia švelniais švelnias švelniau švelniausia švelniausias švelniausią švelnioji švelniomis švelnios švelniu švelnius švelnią švelnių švelniųjų švelnu švelnusis švelnūs švelnų
+27	1927	parapija	parapijai parapijas parapijoje parapijos parapijose parapiją parapijų
+28	1928	susirinkimas	susirinkimai susirinkimams susirinkimo susirinkimu susirinkimui susirinkimuose susirinkimus susirinkimą susirinkimų
+29	1929	išvis	
+30	1930	atnaujinti	atnaujina atnaujiname atnaujinau atnaujindavo atnaujinkime atnaujinkite atnaujino atnaujinome atnaujins atnaujinsime atnaujintų
+31	1931	liesti	lieja liejamas liejamos liejantis liejate liejau liejo liejome lieju liek lieki liekime lies liesdamas liesdavau liesdavo liesi liesiu liesk lieskit liestum liestų lietei lieti lietum lietė lietėte lietęs lietų liečia liečiame liečiant liečiantis liečiate liečiau liečiu
+32	1932	saugiai	saugiau saugiausiai
+33	1933	susidaryti	susidariau susidaro susidarydavo susidarykite susidarys susidarytų susidarė
+34	1934	statistika	statistikoje statistikos
+35	1935	medžioklė	medžiokle medžioklei medžiokles medžioklių medžioklėje medžioklėms medžioklės medžioklėse medžioklę
+36	1936	pajūris	pajūrio pajūrio pajūriu pajūriui pajūryje pajūrį
+37	1937	klysti	klydai klydau klydo klydom klydome klydote klydus klydęs klysi klysta klystam klystame klystant klystantis klystat klystate klystu klystų
+38	1938	mudu	many mudviejų mudviem
+39	1939	tamsa	tamsoje tamsos tamsą tamsų
+40	1940	sunkumas	sunkumai sunkumais sunkumams sunkumo sunkumu sunkumus sunkumą sunkumų
+41	1941	nemėgti	nemėgau nemėgo nemėgsta nemėgstame nemėgstate nemėgsti nemėgstu
+42	1942	virsti	virsdamas virsdavo virsim virsit virsk virsta virstam virstame virstu virstų virtai virtau virto virtus virtęs
+43	1943	architektas	architektai architektais architektams architekte architekto architektu architektui architektus architektą architektė architektų
+44	1944	apgailestauti	apgailestauja apgailestaujame apgailestauju apgailestavo
+45	1945	gabalas	gabalai gabalais gabale gabalo gabalu gabalui gabalus gabalą gabalų
+46	1946	jautis	jauti jautį jauči jaučiai jaučiais jaučiams jaučio jaučiu jaučiui jaučius jaučių
+47	1947	draugiškas	draugiška draugiškai draugiškais draugiškam draugiškame draugiškesni draugiškesnis draugiškesnius draugiškesnė draugiškesnės draugiški draugiškiausias draugiškiems draugiško draugiškomis draugiškos draugiškose draugišku draugiškus draugišką draugiškų
+48	1948	nuotykis	nuotykiai nuotykiais nuotykiams nuotykio nuotykiu nuotykiui nuotykius nuotykių nuotykyje nuotykį
+49	1949	pamatas	pamatai pamatais pamate pamato pamatu pamatus pamatą pamatų
+50	1950	pilotas	pilotai pilotais pilotams pilote piloto pilotu pilotui pilotus pilotą pilotė pilotų
+51	1951	kareivis	kareivi kareiviai kareiviais kareiviams kareivio kareiviu kareiviui kareivius kareivių kareivė kareivį
+52	1952	išleistas	išleista išleistame išleisto išleistoje išleistomis išleistos išleistus išleistą
+53	1953	spinta	spintas spintelei spinteles spintelių spintelė spintelėje spintelės spintelėse spintelę spintoje spintos spintose spintą spintų
+54	1954	energetika	energetikoje energetikos
+55	1955	raginti	ragina raginame raginau ragino raginome ragins raginu raginčiau
+56	1956	versti	vers versdavo verstų verčia verčiate verčiu
+57	1957	linas	linai line lini lino linu linui linus liną linų
+58	1958	gimtas	gimta gimtajai gimtajam gimtajame gimtasis gimtieji gimto gimtoje gimtoji gimtojo gimtojoje gimtosiomis gimtosios gimtosiose gimtuoju gimtuose gimtuosiuose gimtuosius gimtą gimtąja gimtąją gimtąjį gimtąsias gimtų gimtųjų
+59	1959	šaukti	šauk šaukdamas šaukdavai šaukdavo šaukdavote šaukei šauki šaukia šaukiam šaukiame šaukiant šaukiat šaukiate šaukiau šaukit šaukite šaukiu šauks šauksi šauksim šauksiu šauktas šaukte šauktum šauktų šaukė šaukėt šaukėte
+60	1960	komunikacija	komunikacijai komunikacijas komunikacijoje komunikacijomis komunikacijos komunikaciją komunikacijų
+61	1961	diskas	diskai diskais diske disko disku diskuose diskus diską diskų
+62	1962	vitaminas	vitaminai vitaminais vitaminams vitamino vitaminu vitaminus vitaminą vitaminų
+63	1963	pareiškimas	pareiškimai pareiškimais pareiškimams pareiškime pareiškimo pareiškimu pareiškimui pareiškimuose pareiškimus pareiškimą pareiškimų
+64	1964	šaknis	šakniai šaknies šaknimi šaknimis šaknims šaknys šaknyse šaknį šaknų
+65	1965	atsipalaiduoti	atsipalaidavau atsipalaidavo atsipalaidavome atsipalaiduoja atsipalaiduoji atsipalaiduoju atsipalaiduok atsipalaiduokite atsipalaiduos atsipalaiduosite atsipalaiduotų
+66	1966	garsiai	garsiau garsiausiai
+67	1967	gaminys	gaminiai gaminiais gaminiams gaminio gaminiu gaminiui gaminiuose gaminius gaminių gaminį
+68	1968	išsiųsti	išsiuntė išsiuntėme išsiunčia išsiunčiame išsiunčiau išsiųs išsiųsdavo išsiųsime išsiųskite išsiųstų
+69	1969	žmonija	žmonijai žmonijos žmoniją
+70	1970	gelbėti	gelbsti gelbėdavo gelbėja gelbėjo gelbėk gelbėkit gelbėkite gelbės gelbėtų
+71	1971	poetas	poetai poetais poetams poete poeto poetu poetui poetus poetą poetė poetų
+72	1972	pašalinti	pašalina pašaliname pašalinkite pašalino pašalinome pašalins pašalinsime pašalinsite pašalintų
+73	1973	butelis	buteli buteliai buteliais butelio buteliu buteliui buteliuose butelius butelių butelyje butelį
+74	1974	apimtis	apimties apimtimi apimtimis apimtims apimtyje apimtys apimtyse apimtį apimčiai apimčių
+75	1975	mėgautis	mėgaujamės mėgaujasi mėgaujatės mėgaujiesi mėgaujuosi mėgaukimės mėgaukis mėgaukitės mėgausimės mėgausis mėgausitės mėgautųsi mėgavausi mėgavomės mėgavosi
+76	1976	standartas	standartai standartais standartams standarto standartu standartui standartuose standartus standartą standartų
+77	1977	atstovauti	atstovauja atstovaujame atstovaujate atstovauju atstovaus atstovausiu atstovautų atstovavau atstovavo
+78	1978	tėvelis	tėveli tėveliai tėveliais tėveliams tėvelio tėveliu tėveliui tėvelius tėvelių tėvelį
+79	1979	kvėpuoti	kvėpavo kvėpuoja kvėpuojame kvėpuojate kvėpuoji kvėpuoju kvėpuok kvėpuokite kvėpuos
+80	1980	svetimas	svetima svetimais svetimam svetimame svetimesnis svetimi svetimiems svetimo svetimoje svetimojo svetimos svetimose svetimu svetimuose svetimus svetimą svetimų
+81	1981	sąjūdis	sąjūdyje sąjūdį sąjūdžiai sąjūdžio sąjūdžiu sąjūdžiui
+82	1982	ginkluotas	ginkluota ginkluotai ginkluotais ginkluotam ginkluotame ginkluotasis ginkluoti ginkluotiems ginkluoto ginkluotomis ginkluotoms ginkluotos ginkluotose ginkluotosiomis ginkluotosioms ginkluotosios ginkluotosiose ginkluotu ginkluotuose ginkluotus ginkluotą ginkluotąsias ginkluotų ginkluotųjų
+83	1983	druska	druskai druskas druskomis druskos druską druskų
+84	1984	skulptūra	skulptūrai skulptūras skulptūroje skulptūromis skulptūroms skulptūros skulptūrose skulptūrą skulptūrų
+85	1985	įsitikinti	įsitikina įsitikinau įsitikini įsitikink įsitikinkite įsitikino įsitikinome įsitikinote įsitikins įsitikinsime įsitikinsite įsitikintum įsitikintume įsitikintumėte įsitikintų įsitikinu įsitikinčiau
+86	1986	infrastruktūra	infrastruktūrai infrastruktūras infrastruktūroje infrastruktūros infrastruktūrą infrastruktūrų
+87	1987	masinis	masine masinei masines masinės masiniai masiniais masiniam masiniams masinio masiniu masiniuose masinius masinių masinė masinėje masinės masinėse masinę masinį
+88	1988	prieiti	prieik prieikite prieina prieiname prieini prieinu prieis prieisime prieitų priėjau priėjo priėjome
+89	1989	raudona	raudonos
+90	1990	įdėti	įdeda įdedam įdedame įdedi įdedu įdėjai įdėjau įdėjo įdėjome įdėk įdėkite įdės įdėsi įdėsime įdėsiu įdėtų
+91	1991	kiaulė	kiaule kiaulei kiaules kiaulių kiaulėmis kiaulėms kiaulės kiaulę
+92	1992	religinis	religine religinei religines religiniai religiniais religiniame religinio religiniu religinius religinių religinė religinėmis religinėms religinės religinę religinį
+93	1993	vamzdis	vamzdyje vamzdį vamzdžiai vamzdžiais vamzdžio vamzdžiu vamzdžiui vamzdžiuose vamzdžius vamzdžių
+94	1994	mėgėjas	mėgėjai mėgėjais mėgėjams mėgėjo mėgėju mėgėjui mėgėjus mėgėją mėgėjų
+95	1995	kolegija	kolegijai kolegijas kolegijoje kolegijoms kolegijos kolegijose kolegiją kolegijų
+96	1996	jaudintis	jaudinamės jaudinasi jaudinatės jaudinausi jaudiniesi jaudinomės jaudinosi jaudinsis jaudinuosi
+97	1997	cigaretė	cigarete cigaretes cigaretėmis cigaretėms cigaretės cigaretę cigarečių
+98	1998	kažkada	
+99	1999	viršūnė	viršūne viršūnei viršūnes viršūnių viršūnėje viršūnėmis viršūnės viršūnėse viršūnę
+100	2000	neįprastas	neįprasta neįprastai neįprastais neįprastame neįprasto neįprastoje neįprastomis neįprastos neįprastose neįprastu neįprastus neįprastą neįprastų

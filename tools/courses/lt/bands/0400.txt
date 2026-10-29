@@ -1,0 +1,100 @@
+1	301	žmona	žmonai žmonas žmonomis žmonoms žmonos žmoną žmonų
+2	302	mergina	merginas merginoje merginomis merginoms merginos merginose merginą merginų
+3	303	namo	
+4	304	galas	galai galais galams gale galo galu galui galuose galus galą galų
+5	305	žaidimas	žaidimai žaidimais žaidimams žaidime žaidimo žaidimu žaidimui žaidimuose žaidimus žaidimą žaidimų
+6	306	verslas	verslai verslais verslams versle versli verslo verslu verslui versluose verslus verslą verslų
+7	307	skyrius	skyriai skyriais skyriams skyriau skyriaus skyriui skyriuje skyriumi skyriuose skyrių
+8	308	tad	
+9	309	visiškai	
+10	310	planas	planai planais planams plane plano planu planui planuose planus planą planų
+11	311	muzika	musikai muzikai muzikais muzikams muzikas muziko muzikoje muzikos muziką muzikų
+12	312	mirtis	mirtie mirties mirtimi mirtimis mirtyje mirtys mirtį mirčiai mirčių
+13	313	pradžia	pradžiai pradžias pradžiomis pradžios pradžią pradžių
+14	314	sritis	srities sritimi sritimis sritims srityje sritys srityse sritį sričiai sričių
+15	315	jaunas	jauna jaunai jaunais jaunajai jaunam jaunasis jaunesni jaunesnieji jaunesniems jaunesnio jaunesnioji jaunesniojo jaunesnis jaunesniuoju jaunesnių jaunesnysis jaunesnė jaunesnės jauni jauniausia jauniausias jauniausiu jaunieji jauniems jauniesiems jauno jaunoji jaunojo jaunoms jaunos jaunosios jaunu jaunuosius jaunus jauną jaunąją jaunąjį jaunų jaunųjų
+16	316	sudaryti	sudarai sudarant sudarantis sudarau sudarei sudariau sudarius sudaro sudarom sudaroma sudaromas sudarome sudarote sudarydamas sudarydavo sudarydavom sudaryk sudarykim sudarykime sudarykite sudarys sudarysi sudarysim sudarysime sudarysit sudarysite sudarysiu sudaryta sudarytas sudarytume sudarytų sudaryčiau sudarė sudarėm sudarėme sudarėt sudarėte sudaręs tesudaro
+17	317	abu	abi abiejose abiejuose abiejų abiem
+18	318	durys	durimis durims duris durių duryse durų
+19	319	mašina	mašinai mašinas mašinoje mašinomis mašinoms mašinos mašinose mašiną mašinų
+20	320	stiprus	stipraus stipresni stipresnio stipresnis stipresniu stipresnius stipresnių stipresnė stipresnės stipresnę stipresnį stipri stipria stipriai stipriais stipriam stiprias stipriau stipriausi stipriausia stipriausiai stipriausias stipriausios stipriausiu stipriausius stipriausią stipriausių stiprioji stiprios stipriosios stipriu stiprius stiprią stipriąsias stiprių stipriųjų stipru stiprūs stiprų
+21	321	meilė	meile meilei meiles meilių meilėje meilės meilę
+22	322	laivas	laivai laivais laivams laive laivo laivu laivui laivuose laivus laivą laivų
+23	323	ligoninė	ligonine ligoninei ligonines ligoninių ligoninėje ligoninėmis ligoninėms ligoninės ligoninėse ligoninę
+24	324	pasak	
+25	325	programa	programai programas programoje programomis programoms programos programose programą programų
+26	326	irgi	
+27	327	kūnas	kūnai kūnais kūnams kūne kūno kūnu kūnui kūnuose kūnus kūną kūnų
+28	328	kartais	
+29	329	pažiūrėti	pažiūri pažiūriu pažiūrėdavau pažiūrėjau pažiūrėjo pažiūrėjome pažiūrėk pažiūrėkim pažiūrėkime pažiūrėkit pažiūrėkite pažiūrės pažiūrėsi pažiūrėsim pažiūrėsime pažiūrėsite pažiūrėsiu pažiūrėtume pažiūrėtumėte pažiūrėtų pažiūrėčiau
+30	330	ministras	ministrai ministrais ministrams ministre ministro ministru ministrui ministrus ministrų ministrą ministrų
+31	331	sportas	sporte sporto sportu sportui sportus sportą sportų
+32	332	daugelis	daugelio daugeliu daugeliui daugelių daugelyje daugelį
+33	333	parodyti	parodai parodau parodei parodo parodome parodote parodydavo parodyk parodykime parodykit parodykite parodys parodysi parodysim parodysime parodysite parodysiu parodytume parodytų parodyčiau parodė parodėme parodėte parodžiau
+34	334	ypač	
+35	335	tikslas	tikslai tikslais tikslams tikslaus tiksle tikslesnes tikslesni tikslesnis tikslesnius tikslesnių tikslesnė tikslesnės tikslesnę tikslesnį tiksli tikslia tiksliais tiksliam tikslias tiksliausią tikslieji tiksliomis tikslios tiksliu tiksliuosius tikslius tikslią tikslių tiksliųjų tikslo tikslu tikslui tikslus tikslą tikslūs tikslų
+36	336	nė	
+37	337	atsiprašyti	atsiprašome atsiprašai atsiprašant atsiprašau atsiprašei atsiprašiau atsiprašo atsiprašom atsiprašome atsiprašot atsiprašydamas atsiprašyk atsiprašykime atsiprašykit atsiprašykite atsiprašys atsiprašysi atsiprašysim atsiprašysime atsiprašysiu atsiprašytum atsiprašytų atsiprašyčiau atsiprašė atsiprašėme atsiprašęs
+38	338	brolis	broli broliai broliais broliams brolio broliu broliui brolius brolių brolį
+39	339	taryba	tarybai tarybas taryboje taryboms tarybos tarybose tarybą tarybų
+40	340	tikti	netinka tikai tikau tikit tiko tikome tiks tiksi tiksiantis tiksite tiktum tiktume tiktų tikus tikčiau tinka tinkam tinkamai tinkamas tinkame tinkantis tinkat tinkate tinki tinku
+41	341	politika	politikai politikais politikams politikas politike politiko politikoje politikos politiku politikui politikus politiką politikė politikų
+42	342	ūkis	ūkiai ūkiams ūkio ūkiu ūkiui ūkiuose ūkius ūkių ūkyje ūkį
+43	343	pabaiga	pabaigai pabaigas pabaigoje pabaigos pabaigą pabaigų
+44	344	socialinis	socialine socialinei socialines socialiniai socialiniais socialiniam socialiniame socialiniams socialinio socialiniu socialiniuose socialinius socialinių socialinė socialinėje socialinėmis socialinėms socialinės socialinėse socialinę socialinį
+45	345	rašyti	rašai rašant rašantis rašau rašei rašiau rašo rašom rašoma rašomas rašome rašot rašote rašte rašydamas rašydavau rašydavo rašydavome rašyk rašykit rašykite rašys rašysi rašysim rašysime rašysite rašysiu rašyta rašytas rašytum rašytume rašytų rašyčiau rašė rašėm rašėme rašėt rašėte rašęs
+46	346	klubas	klubai klubais klubams klube klubo klubu klubui klubuose klubus klubą klubų
+47	347	karalius	karaliai karaliais karaliams karaliau karaliaus karaliene karalienei karalienes karalienės karalienių karalienė karalienėmis karalienės karalienėse karalienę karaliui karaliuje karaliumi karalių
+48	348	kaimas	kaimai kaimais kaimams kaime kaimeliai kaimelio kaimelis kaimeliui kaimeliuose kaimelių kaimelyje kaimelį kaimo kaimu kaimui kaimuose kaimus kaimą kaimų
+49	349	kambarys	kambariai kambariais kambariams kambario kambariu kambariui kambariuose kambarius kambarių kambary kambaryje kambarį
+50	350	tarptautinis	tarptautine tarptautinei tarptautines tarptautiniai tarptautiniais tarptautiniam tarptautiniame tarptautiniams tarptautinio tarptautiniu tarptautiniuose tarptautinius tarptautinių tarptautinė tarptautinėje tarptautinėmis tarptautinėms tarptautinės tarptautinėse tarptautinę tarptautinį
+51	351	paslauga	paslaugai paslaugas paslaugomis paslaugoms paslaugos paslaugose paslaugą paslaugų
+52	352	medžiaga	medžiagai medžiagas medžiagoje medžiagomis medžiagoms medžiagos medžiagose medžiagą medžiagų
+53	353	sąjunga	sąjunga sąjungos sąjungai sąjungas sąjungoje sąjungomis sąjungoms sąjungos sąjungą sąjungų
+54	354	priklausyti	priklausai priklausant priklausantis priklausau priklausiau priklauso priklausom priklausomas priklausome priklausot priklausote priklausydavo priklausys priklausysi priklausysime priklausytum priklausytumėt priklausytų priklausąs priklausė priklausėme priklausęs
+55	355	rezultatas	rezultatai rezultatais rezultatams rezultate rezultato rezultatu rezultatui rezultatuose rezultatus rezultatą rezultatų
+56	356	vaikinas	vaikinai vaikinais vaikinams vaikine vaikino vaikinu vaikinui vaikinus vaikiną vaikinų
+57	357	ginklas	ginklai ginklais ginklams ginkle ginklo ginklu ginklui ginkluose ginklus ginklą ginklų
+58	358	pareigūnas	pareigūnai pareigūnais pareigūnams pareigūne pareigūno pareigūnu pareigūnui pareigūnus pareigūną pareigūnė pareigūnų
+59	359	vidus	vidaus vidui viduje vidumi vidų
+60	360	universitetas	universitetai universitetais universitetams universitete universiteto universitetu universitetui universitetuose universitetus universitetą universitetų
+61	361	pastaras	pastaraisiais pastarajai pastarajam pastarajame pastarasis pastarieji pastariesiems pastaroji pastarojo pastarojoje pastarosiomis pastarosioms pastarosios pastarosiose pastaruoju pastaruosiuose pastaruosius pastarąja pastarąją pastarąjį pastarąsias pastarųjų
+62	362	kova	kovai kovoje kovomis kovoms kovos kovose kovą kovų
+63	363	tiesus	tiesaus tiesesnis tiesia tiesiai tiesiais tiesiam tiesiame tiesiau tiesiausias tiesiausią tiesioje tiesioji tiesiojoje tiesios tiesiose tiesiosios tiesiu tiesius tiesiąją tiesių tiesiųjų tiesu tiesūs tiesų
+64	364	būtent	
+65	365	nutikti	nutik nutikai nutikdavo nutiko nutiks nutiktų nutikus nutikęs nutinka nutinkant
+66	366	rimtas	rimta rimtai rimtais rimtam rimtame rimtesne rimtesnes rimtesni rimtesniais rimtesniems rimtesnio rimtesnis rimtesnius rimtesnių rimtesnė rimtesnės rimtesnę rimtesnį rimtiems rimto rimtoje rimtomis rimtoms rimtos rimtose rimtosios rimtu rimtuosius rimtus rimtą rimtų rimtųjų rimčiau rimčiausi rimčiausiai rimčiausias rimčiausios rimčiausią rimčiausių
+67	367	blogas	bloga blogais blogam blogasis blogesni blogesnio blogesnis blogesnių blogesnė blogesnės blogi blogiau blogiausi blogiausia blogiausiam blogiausias blogiausio blogiausios blogiausiu blogiausius blogiausią blogiausių blogieji blogiems blogo blogoji blogojo blogoms blogos blogosios blogu bloguoju bloguose blogus blogą blogąja blogąją blogų blogųjų
+68	368	širdis	širdi širdie širdies širdimi širdimis širdims širdyje širdys širdyse širdį širdžiai širdžių
+69	369	nacionalinis	nacionaline nacionalinei nacionalines nacionaliniai nacionaliniais nacionaliniam nacionaliniame nacionaliniams nacionalinio nacionaliniu nacionaliniui nacionaliniuose nacionalinius nacionalinių nacionalinė nacionalinėje nacionalinėmis nacionalinėms nacionalinės nacionalinėse nacionalinę nacionalinį
+70	370	pasirodyti	pasirodai pasirodau pasirodo pasirodome pasirodote pasirodydavo pasirodys pasirodysi pasirodysime pasirodysite pasirodysiu pasirodytų pasirodė pasirodėme pasirodėte pasirodžiau
+71	371	direktorius	direktore direktorei direktoriai direktoriais direktoriams direktoriau direktoriaus direktoriui direktoriumi direktorių direktorė direktorės direktorę
+72	372	žinia	žiniai žinias žinioje žiniomis žinioms žinios žiniose žinią žinių
+73	373	įstaiga	įstaigai įstaigas įstaigoje įstaigomis įstaigoms įstaigos įstaigose įstaigą įstaigų
+74	374	mielas	miela mielais mielajam mielam mielame mielasis miele mielesni mielesnis mielesnė mielesnį mieli mieliau mieliausi mieliausia mieliausias mieliausiasis mieliausioji mieliausios mieliausią mieliausių mielieji mieliems mielo mieloji mielojo mielomis mielos mielosioms mielosios mielu mieluoju mielus mielą mieląja mieląją mieląjį mielų mielųjų
+75	375	jaustis	jausdavaisi jausdavausi jausdavomės jausdavosi jausiesi jausimės jausis jausitės jausiuosi jauskis jauskitės jaustumeisi jaustumėmės jaustumės jaustumėtės jaustųsi jausčiausi jauteisi jautiesi jautėmės jautėsi jautėtės jaučiamės jaučiasi jaučiatės jaučiausi jaučiuos jaučiuosi
+76	376	daiktas	daiktai daiktais daiktams daikte daikto daiktu daiktui daiktuose daiktus daiktą daiktų
+77	377	viešas	vieša viešai viešais viešaisiais viešajai viešajam viešajame viešam viešame viešasis vieši viešieji viešiems viešiesiems viešo viešoje viešoji viešojo viešojoje viešoms viešos viešose viešosiomis viešosioms viešosios viešosiose viešu viešuoju viešuose viešuosiuose viešuosius viešus viešą viešąja viešąją viešąjį viešąsias viešų viešųjų
+78	378	vos	
+79	379	šiek	
+80	380	laikytis	besilaikant besilaikantis laikaisi laikausi laikeisi laikiausi laikomės laikos laikosi laikotės laikydamasis laikydavosi laikykimės laikykis laikykitės laikysiesi laikysimės laikysis laikysitės laikysiuosi laikytumeisi laikytumėmės laikytų laikytųsi laikyčiausi laikėmės laikėsi laikėtės laikęsis
+81	381	forma	formai formas formoje formomis formoms formos formose formų formą formų
+82	382	paprastas	paprasta paprastais paprastam paprastame paprastasis paprastesne paprastesni paprastesnio paprastesnis paprastesniu paprastesnių paprastesnė paprastesnės paprastesnę paprastesnį paprastieji paprastiems paprasto paprastoje paprastoji paprastojo paprastomis paprastos paprastosios paprastu paprastus paprastą paprastų paprastųjų paprasčiau paprasčiausi paprasčiausia paprasčiausiai paprasčiausias paprasčiausio paprasčiausios paprasčiausiu paprasčiausią paprasčiausių
+83	383	gyvas	gyva gyvai gyvais gyvaisiais gyvajai gyvajam gyvam gyvame gyvasis gyvesni gyvesnis gyvesnė gyvi gyviau gyvieji gyviems gyviesiems gyvo gyvoje gyvoji gyvojo gyvojoje gyvomis gyvoms gyvos gyvose gyvosios gyvu gyvuoju gyvuose gyvuosiuose gyvuosius gyvus gyvą gyvąja gyvąją gyvąjį gyvų gyvųjų
+84	384	pasiekti	pasiekdavo pasiekei pasiekia pasiekiame pasiekiau pasiekiu pasieks pasieksi pasieksime pasieksite pasieksiu pasiektum pasiektume pasiektumėte pasiektų pasiekčiau pasiekė pasiekėme pasiekėte
+85	385	mintis	minas minties mintimi mintimis mintims mintyje mintys mintyse mintį minčiai minčių
+86	386	pavykti	pavykdavo pavyko pavyks pavyksta pavyktų
+87	387	prasidėti	prasideda prasidėdavo prasidėjo prasidės prasidėtų
+88	388	keturi	keturiais keturias keturiems keturiomis keturioms keturios keturiose keturis keturiuose keturių
+89	389	įstatymas	įstatymai įstatymais įstatymams įstatyme įstatymo įstatymu įstatymui įstatymuose įstatymus įstatymą įstatymų
+90	390	sutikti	sutik sutikai sutikau sutikdamas sutikime sutikit sutikite sutiko sutikom sutikome sutikot sutikote sutiks sutiksi sutiksim sutiksime sutiksit sutiksite sutiksiu sutiktum sutiktume sutiktumėte sutiktų sutikus sutikčiau sutikęs sutinka sutinkam sutinkama sutinkamas sutinkame sutinkami sutinkamos sutinkamų sutinkant sutinkantis sutinkat sutinkate sutinku
+91	391	siena	sienai sienas sienoje sienomis sienoms sienos sienose sieną sienų
+92	392	jūra	jūrai jūras jūroje jūromis jūros jūrose jūrą jūrų
+93	393	mokėti	besimokantiems besimokančių besimokančiųjų moka mokam mokama mokamas mokame mokant mokantiems mokantis mokantys mokančių mokat mokate moki moku mokėdamas mokėdavo mokėjai mokėjau mokėjo mokėjom mokėjome mokėjęs mokėk mokėkime mokėkit mokėkite mokės mokėsim mokėsime mokėsit mokėsite mokėsiu mokėtas mokėtum mokėtų mokėčiau
+94	394	artimas	artima artimai artimais artimaisiais artimam artimasis artimesni artimesnis artimesnė artimi artimiau artimiausi artimiausia artimiausiais artimiausiame artimiausias artimiausiems artimiausio artimiausioje artimiausiomis artimiausios artimiausiu artimiausius artimiausią artimiausių artimieji artimiesiems artimo artimoje artimojo artimos artimu artimuoju artimuosiuose artimuosius artimus artimą artimų artimųjų
+95	395	įdomus	įdomaus įdomesnes įdomesni įdomesnio įdomesnis įdomesniu įdomesnių įdomesnė įdomesnės įdomesnį įdomi įdomia įdomiais įdomiam įdomiame įdomias įdomiau įdomiausi įdomiausia įdomiausiais įdomiausias įdomiausiems įdomiausiomis įdomiausios įdomiausiu įdomiausius įdomiausią įdomiausių įdomiomis įdomioms įdomios įdomiosios įdomiu įdomius įdomią įdomių įdomu įdomūs įdomų
+96	396	užsienis	užsienio užsieniu užsieniui užsieniuose užsienius užsienių užsienyje užsienį
+97	397	partija	partijai partijas partijoje partijomis partijoms partijos partijose partiją partijų
+98	398	valdžia	valdžiai valdžioje valdžioms valdžios valdžią valdžių
+99	399	ministerija	ministerijai ministerijas ministerijoje ministerijomis ministerijoms ministerijos ministerijose ministeriją ministerijų
+100	400	vasara	vasarai vasaras vasaromis vasaroms vasaros vasarą vasarų

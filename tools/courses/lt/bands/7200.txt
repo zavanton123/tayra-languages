@@ -1,0 +1,100 @@
+1	7101	kabėti	kaba kabėjo kabės
+2	7102	lustas	lustai lustams luste lusto lustu lustus lustą lustų
+3	7103	irti	irai irsta yra
+4	7104	pražanga	pražangas pražangomis pražangos pražangą pražangų
+5	7105	plyšti	plyš plyšo plyšta
+6	7106	pasivažinėti	
+7	7107	atsiduoti	atsidaviau atsidavė atsiduoda atsiduodi atsiduodu
+8	7108	ausinė	ausinėmis ausinės ausinėse
+9	7109	leopardas	leopardai leopardo leopardus leopardą leopardų
+10	7110	sūkurys	sūkurio sūkury sūkuryje sūkurį
+11	7111	nepavykęs	nepavykus nepavykusi nepavykusio nepavykusios nepavykusių nepavykusį nepavykę
+12	7112	revoliucinis	revoliucine revoliucini revoliuciniam revoliucinio revoliucinius revoliucinių revoliucinė revoliucinės revoliucinį
+13	7113	dyzelinas	dyzelino dyzelinu dyzelinui dyzeliną
+14	7114	apgadintas	apgadinta apgadinto apgadintos apgadintus apgadintą
+15	7115	egiptietis	egiptiečiai egiptiečiams egiptiečio egiptiečiu egiptiečius egiptiečių
+16	7116	neįvertinti	neįvertina neįvertiname neįvertinau neįvertino neįvertinome neįvertins
+17	7117	atsilikęs	atsilikusi atsilikusios atsilikusių atsilikę
+18	7118	nujausti	nujautė nujaučia nujaučiau nujaučiu
+19	7119	įkandimas	įkandimai įkandimo įkandimus įkandimą įkandimų
+20	7120	tekila	tekilas tekiloje tekilos tekilą tekilų
+21	7121	stumbras	stumbrai stumbro stumbrą stumbrų
+22	7122	kontrastas	kontrastai kontrasto kontrastu kontrastą kontrastų
+23	7123	šaldytas	šaldyta šaldytais šaldyti šaldyto šaldytomis šaldytos šaldytus šaldytą šaldytų
+24	7124	šiukšlynas	šiukšlynais šiukšlyne šiukšlyno šiukšlynu šiukšlynus šiukšlyną šiukšlynų
+25	7125	propaguoti	propagavo propaguoja
+26	7126	biuletenis	biuleteniai biuleteniais biuletenio biuleteniuose biuletenius biuletenių biuletenyje biuletenį
+27	7127	intervalas	intervalai intervalais intervale intervalu intervalus intervalą
+28	7128	jausmingas	jausminga jausmingai jausmingi jausmingo jausmingos jausmingą jausmingų
+29	7129	savanaudis	savanaude savanaudi savanaudė savanaudžiai savanaudžiu savanaudžių
+30	7130	ruoša	ruošai ruošoje ruošos ruošą
+31	7131	anomalija	anomalijas anomalijoje anomalijomis anomalijos anomaliją anomalijų
+32	7132	manija	manijos maniją manijų
+33	7133	pjaustyti	pjaustai pjaustant pjaustau pjaustei pjausto pjaustom pjaustydamas pjaustydavo pjaustykite pjaustysi pjaustysiu pjaustytas pjaustyto pjaustytų pjaustė pjausčiau
+34	7134	bombonešis	bombonešiai bombonešiais bombonešio bombonešiui bombonešius bombonešių bombonešį
+35	7135	svetingumas	svetingumo svetingumu svetingumą
+36	7136	žodinis	žodine žodiniai žodinio žodinius žodinių žodinė žodinės žodinę žodinį
+37	7137	sutuoktinė	sutuoktine sutuoktinei sutuoktinės sutuoktinę sutuoktinį
+38	7138	naršyti	naršant naršau naršei naršiau naršo naršome naršykite naršė
+39	7139	neganda	negandas negandomis negandos negandų
+40	7140	kertinis	kertiniai kertiniais kertinio kertiniu kertinius kertinių kertinė kertinės kertinį
+41	7141	justi	juntame jutau
+42	7142	stilistika	stilistikos stilistiką
+43	7143	begalybė	begalybe begalybės begalybę
+44	7144	gruzinas	gruzinai gruzinais gruzinams gruzino gruzinui gruziną gruzinų
+45	7145	bokalas	bokalai bokale bokalo bokalu bokalus bokalą bokalų
+46	7146	sistemingas	sisteminga sistemingai sistemingo sistemingą
+47	7147	pasišnekėti	pasišnekame pasišnekėjo pasišnekėjome
+48	7148	susivienyti	susivienija susivienijo susivienys
+49	7149	turėklas	turėklai turėklais turėklo turėklus turėklų
+50	7150	suduoti	sudavė suduoda suduos suduotų
+51	7151	kišimasis	kišimosi kišimuisi kišimusi kišimąsi
+52	7152	driežas	driežai drieže driežo driežu driežus driežą driežų
+53	7153	pažeminimas	pažeminimo pažeminimu pažeminimus pažeminimą
+54	7154	garsenybė	garsenybe garsenybei garsenybes garsenybių garsenybėmis garsenybės garsenybę
+55	7155	kontaktuoti	kontaktavo kontaktuoja
+56	7156	defektas	defektai defektais defekto defektu defektus defektą defektų
+57	7157	subtitras	subtitrai subtitrais subtitrus subtitrų
+58	7158	apaugęs	apaugusi apaugusio apaugusios apaugusią apaugusių apaugusį apaugę
+59	7159	nuožmus	nuožmaus nuožmesnė nuožmi nuožmiai nuožmios nuožmią nuožmių nuožmūs
+60	7160	aptvertas	aptverta aptvertoje aptvertos aptvertą
+61	7161	psichiatrinis	psichiatrines psichiatrinių psichiatrinė psichiatrinėje psichiatrinės psichiatrinę
+62	7162	nepakankamumas	nepakankamumo nepakankamumu nepakankamumui nepakankamumą
+63	7163	pretekstas	preteksto pretekstu pretekstą pretekstų
+64	7164	produktyvus	produktyvesni produktyvesnis produktyvi produktyviai produktyviau produktyviausi produktyviausių produktyvios produktyvių produktyvūs produktyvų
+65	7165	prisiliesti	prisilies prisilieti prisilietė prisiliečia
+66	7166	atlaidus	atlaidesni atlaidi atlaidūs atlaidų atlaidžiai
+67	7167	skuduras	skudurai skudurais skuduru skudurus skudurą skudurų
+68	7168	siautėti	siautėja siautėjo
+69	7169	santarvė	santarvėje santarvės
+70	7170	budizmas	budizmo budizmu budizmą
+71	7171	įkūnyti	įkūnija įkūnijo įkūnys
+72	7172	spenelis	speneliai speneliais spenelio spenelius spenelių spenelį
+73	7173	spiritas	spirito spiritu spiritą
+74	7174	garstyčia	garstyčiomis garstyčias garstyčiomis garstyčios garstyčių
+75	7175	bulvaras	bulvare bulvaro bulvarą
+76	7176	interpretuoti	interpretavo interpretuoja interpretuojame interpretuos interpretuotų
+77	7177	kruša	krušai krušos krušą
+78	7178	vakarietiškas	vakarietiška vakarietiško vakarietiškos vakarietišką vakarietiškų
+79	7179	balsis	balsiai balsio balsiu balsius balsių balsį
+80	7180	burokėlis	burokėliai burokėliais burokėlius burokėlių burokėlį
+81	7181	gamtininkas	gamtininkai gamtininkais gamtininko gamtininku gamtininkui gamtininką gamtininkų
+82	7182	kanjonas	kanjone kanjono kanjoną kanjonų
+83	7183	šalikas	šalikai šalikais šaliko šaliku šalikus šaliką šalikų
+84	7184	trimitas	trimitai trimito trimitu trimitui trimitą trimitų
+85	7185	pražūtis	pražūties pražūtį pražūčiai
+86	7186	uždanga	uždangos uždangą
+87	7187	mūza	mūzai mūzas mūzos mūzą mūzų
+88	7188	sudarytojas	sudarytoja sudarytojai sudarytojo sudarytojų
+89	7189	nesąmoningas	nesąmoninga nesąmoningai nesąmoningais nesąmoningi nesąmoningiems nesąmoningo nesąmoningu nesąmoningą nesąmoningų
+90	7190	mikrobanga	mikrobangas mikrobangomis mikrobangų
+91	7191	pajus	pajaus
+92	7192	suolelis	suoleliai suolelio suolelių suolelį
+93	7193	europietiškas	europietiška europietiškai europietiškais europietiško europietiškoje europietiškojo europietiškomis europietiškos europietišku europietiškus europietišką europietiškų
+94	7194	įdegis	įdegio įdegį
+95	7195	pasenti	pasenau paseno pasens pasensiu pasensta
+96	7196	tvarkytojas	tvarkytoja tvarkytojai tvarkytojais tvarkytojams tvarkytojau tvarkytojos tvarkytojui tvarkytojus tvarkytoją tvarkytojų
+97	7197	išteisinti	išteisina išteisino išteisins
+98	7198	atsilyginti	atsilygina atsilygino atsilygins
+99	7199	energetikas	energetikai energetikams energetiko energetiką energetikų
+100	7200	motinystė	motinystei motinystės motinystę

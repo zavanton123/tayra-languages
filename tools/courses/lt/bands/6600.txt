@@ -1,0 +1,100 @@
+1	6501	atpalaiduoti	atpalaiduoja atpalaiduok atpalaiduokite atpalaiduos atpalaiduotų
+2	6502	senolė	senolei senolių senolės senolę
+3	6503	proporcija	proporcijas proporcijomis proporcijos proporciją proporcijų
+4	6504	jėzuitas	jėzuitai jėzuitų
+5	6505	diapazonas	diapazone diapazono diapazonu diapazoną
+6	6506	nemiga	nemigos nemigą
+7	6507	nežinomybė	nežinomybe nežinomybei nežinomybėje nežinomybės nežinomybę
+8	6508	atsigavimas	atsigavimo atsigavimui atsigavimą
+9	6509	gervė	gerve gerves gervių gervėmis gervės gervę
+10	6510	skalė	skale skalių skalėje skalės skalę
+11	6511	šeimyna	šeimynai šeimynoje šeimynos šeimyną šeimynų
+12	6512	serumas	serumai serume serumo
+13	6513	kilimėlis	kilimėliai kilimėlio kilimėliu kilimėlius kilimėlių kilimėlį
+14	6514	kontūras	kontūrai kontūro kontūrus kontūrą kontūrų
+15	6515	ornamentas	ornamentai ornamentais ornamentus ornamentų
+16	6516	kometa	kometos kometą kometų
+17	6517	haliucinacija	haliucinacijas haliucinacijomis haliucinacijos haliucinacijų
+18	6518	kirpykla	kirpyklas kirpykloje kirpyklomis kirpykloms kirpyklos kirpyklose kirpyklą kirpyklų
+19	6519	riebalai	riebalams riebaluose
+20	6520	atšilimas	atšilimo atšilimu atšilimui atšilimą
+21	6521	aštuoniolika	aštuoniolikai aštuoniolikos
+22	6522	ugnikalnis	ugnikalniai ugnikalnio ugnikalnius ugnikalnių ugnikalnyje ugnikalnį
+23	6523	heroinas	heroino heroinu heroiną
+24	6524	įkelti	įkelia įkelkite įkels įkeltų įkėlė
+25	6525	relikvija	relikvijas relikvijos relikviją relikvijų
+26	6526	nakvoti	nakvodavo nakvoja nakvojo nakvojome nakvos
+27	6527	pripildyti	pripildo pripildykite pripildys pripildytų pripildė
+28	6528	sąlygoti	sąlygoja sąlygojo sąlygotų
+29	6529	tinginys	tinginiai tinginiais tinginiams tinginio tinginiu tinginiui tinginius tinginių tinginy tinginį
+30	6530	parūpinti	parūpina parūpino parūpins
+31	6531	psichiatrija	psichiatrijoje psichiatrijos
+32	6532	aparatūra	aparatūrai aparatūros aparatūrą aparatūrų
+33	6533	išmaišyti	išmaišiau išmaišome išmaišyk išmaišykite išmaišė
+34	6534	saitas	saitai saitais saito saitus saitą saitų
+35	6535	vaikštinėti	vaikštinėja vaikštinėjau vaikštinėjo vaikštinėju
+36	6536	mirtinas	
+37	6537	nykštys	nykštį nykščiai nykščiais nykščio nykščiu nykščius
+38	6538	patikėtas	patikėta patikėtos patikėtą
+39	6539	susidraugauti	susidraugauja susidraugavau susidraugavo susidraugavome
+40	6540	stabdomas	stabdoma stabdomi stabdomos
+41	6541	pridengti	pridengia pridengs pridengtų pridenkite
+42	6542	atsilaikyti	atsilaikiau atsilaiko atsilaikys atsilaikysime atsilaikytų atsilaikė
+43	6543	pavaldinys	pavaldiniai pavaldiniais pavaldiniams pavaldinio pavaldiniu pavaldinius pavaldinių pavaldinį
+44	6544	iniciatyvus	iniciatyvaus iniciatyvi iniciatyvių iniciatyvūs iniciatyvų
+45	6545	ikona	ikonas ikonomis ikonoms ikonos ikoną ikonų
+46	6546	pliažas	pliažai pliaže pliažo pliažuose pliažus pliažą pliažų
+47	6547	torpeda	torpedomis torpedos torpedų
+48	6548	graužikas	graužikai graužikais graužikams graužiko graužikus graužiką graužikų
+49	6549	muitas	muitai muitais muito muitus muitų
+50	6550	praeivis	praeiviai praeiviais praeiviams praeivio praeiviui praeivius praeivių praeivį
+51	6551	slėgti	slegia slėgs slėgė
+52	6552	penktadalis	penktadaliai penktadalio penktadaliu penktadalius penktadalį
+53	6553	apšviesti	apšvies apšviestų apšvietė apšviečia
+54	6554	trikdyti	trikdo trikdys trikdė
+55	6555	vaizdingas	vaizdinga vaizdingais vaizdingame vaizdingi vaizdingiau vaizdingiausios vaizdingo vaizdingoje vaizdingomis vaizdingos vaizdingus vaizdingą vaizdingų
+56	6556	hercogas	hercogo hercogu hercogų
+57	6557	bučiuotis	bučiavomės bučiavosi bučiuojamės bučiuojasi
+58	6558	sutrikdyti	sutrikdo sutrikdys sutrikdytų sutrikdė
+59	6559	klastojimas	klastojimo klastojimu klastojimą klastojimų
+60	6560	vaistažolė	vaistažoles vaistažolių vaistažolėmis vaistažolės
+61	6561	actas	acte acto actu actą
+62	6562	užtvaras	užtvarai užtvaro užtvaromis užtvaros užtvarus užtvarą užtvarų
+63	6563	prielaida	
+64	6564	nemandagus	nemandagiai nemandagu nemandagūs
+65	6565	aklai	
+66	6566	smakras	smakrai smakro smakru smakrą
+67	6567	susikrauti	susikroviau susikrovė
+68	6568	kvota	kvotas kvotos kvotą kvotų
+69	6569	restauravimas	restauravimo restauravimui
+70	6570	papuoštas	papuošta papuoštos papuoštą
+71	6571	docentas	docentai docento
+72	6572	partrenkti	partrenkia partrenkė
+73	6573	grįžtantis	grįžtanti grįžtantiems grįžtantys grįžtantį grįžtančio grįžtančios grįžtančius grįžtančių grįžtančiųjų
+74	6574	išbėgti	išbėga išbėgau išbėgdavo išbėgo išbėgome išbėgs išbėgtų
+75	6575	intuicija	intuicijai intuicijos intuiciją
+76	6576	plazma	plazmos plazmą
+77	6577	kasdieninis	kasdienine kasdieniniai kasdieniniame kasdieninio kasdieninius kasdieninių kasdieninė kasdieninėje kasdieninės kasdieninį
+78	6578	spyglys	spygliai spygliais spyglio spyglius spyglių spygly spyglį
+79	6579	pertvarkyti	pertvarkai pertvarko pertvarkys pertvarkė
+80	6580	pižama	pižamas pižamoje pižamomis pižamos pižamą pižamų
+81	6581	limuzinas	limuzinai limuzinais limuzinams limuzine limuzino limuzinu limuzinus limuziną limuzinų
+82	6582	įmušti	įmuša įmuškite įmušė
+83	6583	palaiminti	palaimina palaimino palaimins palaimintų
+84	6584	fantastinis	fantastiniai fantastiniame fantastinio fantastinius fantastinių fantastinė fantastinės fantastinį
+85	6585	brangenybė	brangenybes brangenybių brangenybėmis brangenybės brangenybę
+86	6586	paspaudimas	paspaudimai paspaudimais paspaudimo paspaudimu paspaudimus paspaudimą paspaudimų
+87	6587	paskleisti	paskleidė paskleidžia paskleis paskleiskite paskleistų
+88	6588	partinis	partiniai partiniais partinio partiniu partinius partinių partinė partinės partinę
+89	6589	vargti	vargau vargo vargom vargsta vargstam vargstat vargstate vargsti vargstu
+90	6590	išnykimas	išnykimo išnykimą
+91	6591	gaišti	gaišo gaišta
+92	6592	kiemelis	kiemeliai kiemelio kiemeliu kiemeliuose kiemelius kiemelių kiemelyje kiemelį
+93	6593	šalna	šalnas šalnos šalną šalnų
+94	6594	spoksoti	spokso spoksojo
+95	6595	pisti	pis pisa pisantis pisau pisi pisimas pisk pistum pisčiau
+96	6596	administruoti	administruoja administruos administruotų
+97	6597	išvaduoti	išvadavo išvaduoja išvaduos išvaduotų
+98	6598	praryti	prarijo praris praryja
+99	6599	žygdarbis	žygdarbiai žygdarbio žygdarbiu žygdarbiui žygdarbius žygdarbių žygdarbį
+100	6600	juosmuo	juosmeniu juosmens juosmenį

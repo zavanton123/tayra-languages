@@ -1,0 +1,100 @@
+1	6601	latakas	latakai latako lataku latakui latakų
+2	6602	žvaigždynas	žvaigždynai žvaigždynais žvaigždyne žvaigždyno žvaigždynu žvaigždynus žvaigždyną žvaigždynų
+3	6603	veiklus	veikli veiklioji veiklios veikliosios veiklią veiklių veikliųjų veiklūs
+4	6604	mašinėlė	mašinėle mašinėles mašinėlių mašinėlės mašinėlę
+5	6605	vaišės	vaišes vaišių vaišėmis vaišėms vaišėse
+6	6606	degtukas	degtukai degtukais degtuko degtuku degtukus degtuką degtukų
+7	6607	ūkininkavimas	ūkininkavimo ūkininkavimu ūkininkavimui ūkininkavimą
+8	6608	aitvaras	aitvarai aitvarams aitvaro aitvaru aitvarus aitvarą aitvarų
+9	6609	rabinas	rabinai rabinais rabinams rabine rabino rabinu rabinui rabiną rabinų
+10	6610	galiukas	galiukai galiukais galiuko galiuku galiukus galiuką galiukų
+11	6611	porelė	porele porelės porelę
+12	6612	nesuprantamas	nesuprantama nesuprantamai nesuprantami nesuprantamo nesuprantamu nesuprantamus nesuprantamą nesuprantamų
+13	6613	operatyvinis	operatyvinio operatyvinių operatyvinė operatyvinės operatyvinę
+14	6614	didikas	didikai didikais didikams didiko didikų
+15	6615	grafystė	grafyste grafystei grafystes grafystėje grafystės grafystę grafysčių
+16	6616	elitinis	elitines elitiniai elitiniais elitiniame elitiniams elitinio elitinius elitinių elitinė elitinėje elitinės elitinę elitinį
+17	6617	etnografinis	etnografiniai etnografiniais etnografinio etnografiniu etnografinius etnografinių etnografinė etnografinėje etnografinės etnografinę etnografinį
+18	6618	užkąsti	užkąskite
+19	6619	fainas	faina fainai faini fainos fainą fainų
+20	6620	žvalgas	žvalgai žvalgo žvalgus žvalgų
+21	6621	visagalis	visagali visagaliame visagalio visagaliu visagalius visagalė visagalį
+22	6622	trajektorija	trajektorijos trajektoriją trajektorijų
+23	6623	viela	vielai vielos vielą vielų
+24	6624	nutiesti	nuties nutiesia nutiesė
+25	6625	avansas	avanso avansu avansus avansą
+26	6626	buriuotoja	buriuotojai buriuotojams buriuotojas buriuotojo buriuotojų
+27	6627	vienuoliktas	vienuolikai vienuolikta vienuoliktasis vienuolikto vienuoliktoje vienuoliktoji vienuoliktos vienuoliktosios vienuoliktus vienuoliktą
+28	6628	kietis	kieti kiečiai
+29	6629	minus	
+30	6630	eksploatuoti	eksploatavo eksploatuoja eksploatuos
+31	6631	žirnis	žirniai žirniais žirnio žirniuose žirnius žirnių žirnį
+32	6632	apžvalgininkas	apžvalgininkai apžvalgininkams apžvalgininko apžvalgininkui apžvalgininkų
+33	6633	sumontuoti	sumontavo sumontuotų
+34	6634	pabūklas	pabūklai pabūklais pabūklo pabūklus pabūklų
+35	6635	įsidėmėti	įsidėmi įsidėmėjau įsidėmėjo įsidėmėk įsidėmėkite
+36	6636	užsispyrimas	užsispyrimo užsispyrimu užsispyrimą
+37	6637	konsolė	konsolių konsolėje konsolės konsolę
+38	6638	kryžiuotis	kryžiuočiai kryžiuočiais kryžiuočius kryžiuočių
+39	6639	vokalistas	vokaliste vokalisto vokalistu vokalistui vokalistų
+40	6640	bankrutuoti	bankrutavo bankrutuoja bankrutuos bankrutuotų
+41	6641	nusiminęs	nusiminusi nusiminę
+42	6642	perteklinis	perteklines pertekliniai perteklinio perteklinius perteklinių perteklinė perteklinės perteklinę perteklinį
+43	6643	atgimti	atgims atgimsta atgimtų atgimė
+44	6644	naras	narai narams naro narus narų
+45	6645	hibridas	hibridai hibrido hibridu hibridus hibridą hibridų
+46	6646	šiaulietis	šiaulietė šiauliečiai šiauliečiais šiauliečiams šiauliečio šiauliečiu šiauliečius šiauliečių
+47	6647	sukviesti	sukvies sukvietė sukviečia
+48	6648	numalšinti	numalšina numalšino numalšins numalšintų
+49	6649	tardymas	tardymai tardymo tardymus tardymų
+50	6650	supirkimas	supirkimo supirkimą
+51	6651	dukrytė	dukryte dukrytei dukrytės dukrytę
+52	6652	užstatyti	užstatai užstato užstatytų užstatė
+53	6653	tęstinumas	tęstinumo tęstinumu tęstinumui tęstinumą
+54	6654	pasisekimas	pasisekimo pasisekimu pasisekimą
+55	6655	sakalas	sakalai sakale sakalo sakaluose sakalą sakalų
+56	6656	dujinis	dujines dujiniai dujinio dujiniu dujinius dujinių dujinė dujinės dujinę dujinį
+57	6657	dalijimasis	dalijimosi dalijimąsi
+58	6658	skirstyti	skirsto skirstys
+59	6659	įspūdingai	įspūdingiau įspūdingiausiai
+60	6660	servisas	servisai servise serviso servisuose servisus servisą servisų
+61	6661	įsilaužimas	įsilaužimai įsilaužimo įsilaužimus įsilaužimą įsilaužimų
+62	6662	nustebintas	nustebinta
+63	6663	įmontuotas	įmontuota įmontuotais įmontuotos įmontuotu įmontuotą
+64	6664	savanoriškas	savanoriška savanoriškais savanoriški savanoriško savanoriškos savanorišką savanoriškąją
+65	6665	planšetė	planšete planšetes planšetėje planšetėmis planšetės planšetę planšečių
+66	6666	memorialas	memoriale memorialo memorialą memorialų
+67	6667	kaimietis	kaimieti kaimietį kaimiečiai kaimiečiais kaimiečio kaimiečiu kaimiečius kaimiečių
+68	6668	periodinis	periodiniai periodinio periodinius periodinių periodinė periodinėje periodinės periodinę
+69	6669	teisminis	teisminiai teisminiam teisminio teisminiu teisminius teisminių teisminė teisminės teisminę teisminį
+70	6670	šaipytis	šaiposi šaipydavosi šaipysis šaipėsi
+71	6671	piktžolė	piktžoles piktžolių piktžolėmis piktžolėms piktžolės piktžolėse piktžolę
+72	6672	valstybingumas	valstybingumo valstybingumui valstybingumą
+73	6673	atėjimas	atėjimo atėjimu atėjimui atėjimą
+74	6674	naminė	naminei naminės naminę
+75	6675	šveicaras	šveicarai šveicarą šveicarų
+76	6676	arsenalas	arsenale arsenalo arsenalu arsenalus arsenalą arsenalų
+77	6677	lenkiškas	lenkiška lenkiškais lenkiški lenkiškos lenkiškose lenkiškus lenkišką lenkiškų
+78	6678	švaistymas	švaistymo švaistymą
+79	6679	atsieiti	atsieina atsieis atsieitų atsiėjo
+80	6680	uodas	uodai uodais uodams uodo uodu uodus uodų
+81	6681	kalbėjimas	kalbėjimo kalbėjimą
+82	6682	plojimas	plojimai plojimais plojimus plojimų
+83	6683	lengvaatletis	lengvaatletė lengvaatlečiai lengvaatlečiams lengvaatlečio lengvaatlečiu lengvaatlečius lengvaatlečių
+84	6684	sužadėtinis	sužadėtiniai sužadėtinio sužadėtiniu sužadėtiniui sužadėtinį
+85	6685	rąstas	rąstai rąsto rąstu rąstus rąstą rąstų
+86	6686	budėjimas	budėjimai budėjimo budėjimui budėjimus budėjimą budėjimų
+87	6687	pristabdyti	pristabdo pristabdys pristabdė
+88	6688	sąžiningumas	sąžiningumo sąžiningumu sąžiningumą
+89	6689	rasizmas	rasizmo rasizmu rasizmą
+90	6690	proporcingas	proporcinga proporcingai proporcingi proporcingos proporcingą
+91	6691	išsigelbėti	išsigelbėjo išsigelbės
+92	6692	atitikmuo	atitikmenis atitikmens atitikmenys atitikmenį atitikmenų
+93	6693	atstatytas	atstatyta atstatytos atstatytą
+94	6694	sprintas	sprinte sprinto
+95	6695	chuliganas	chuliganai chuliganams chuligano chuliganu chuliganui chuliganus chuliganą chuliganų
+96	6696	šakutė	šakute šakutes šakutės šakutę šakučių
+97	6697	versmė	versmių versmės
+98	6698	magas	magai mago magų
+99	6699	primityvus	primityvaus primityvi primityvia primityviai primityviais primityvios primityvius primityvią primityvių primityvu primityvūs primityvų
+100	6700	kartonas	kartonams kartono kartoną

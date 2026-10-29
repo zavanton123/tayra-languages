@@ -1,0 +1,100 @@
+1	901	žydas	žydai žydais žydams žyde žydo žydu žydui žydus žydą žydė žydų
+2	902	aukštis	aukšti aukštyje aukštį aukščio aukščiu aukščiui aukščių
+3	903	statyti	statai statant statau statei stato statom statomas statome statomi statot statote statydamas statydavo statydavome statyk statykime statykit statykite statys statysi statysim statysime statysiu statyta statytame statytas statyto statytos statytum statytuose statytą statytų statyčiau statė statėm statėme statėte statęs stačiau
+4	904	viltis	viliasi viltie vilties viltimi viltimis viltyje viltys viltį vilčiai vilčius vilčių vylėsi
+5	905	vyrukas	vyruk vyrukai vyrukais vyrukams vyruko vyruku vyrukui vyrukus vyruką vyrukų
+6	906	fondas	fondai fondais fondams fonde fondo fondu fondui fonduose fondus fondą fondų
+7	907	rinktinė	rinktine rinktinei rinktines rinktinių rinktinėje rinktinėmis rinktinėms rinktinės rinktinėse rinktinę
+8	908	užduotis	užduoties užduotimi užduotimis užduotims užduotyje užduotys užduotyse užduotį užduočiai užduočių
+9	909	skirtumas	skirtumai skirtumais skirtumams skirtumo skirtumu skirtumui skirtumus skirtumą skirtumų
+10	910	paslaptis	paslapties paslaptimi paslaptimis paslaptims paslaptyje paslaptys paslaptį paslapčių
+11	911	nusikaltimas	nusikaltimai nusikaltimais nusikaltimams nusikaltime nusikaltimo nusikaltimu nusikaltimui nusikaltimuose nusikaltimus nusikaltimų nusikaltimą nusikaltimų
+12	912	netekti	netekai netekau netekdamas netekdavo neteko netekom netekome netekot netekote neteks neteksi neteksim neteksime neteksit neteksite neteksiu netektum netektume netektų netekus netekusi netekusių netekčiau netekę netekęs netenka netenkam netenkame netenkate netenki netenku
+13	913	smegenys	smegenimis smegenims smegenis smegenyse smegenų
+14	914	kalėjimas	kalėjimai kalėjimais kalėjimams kalėjime kalėjimo kalėjimu kalėjimui kalėjimuose kalėjimus kalėjimą kalėjimų
+15	915	autobusas	autobusai autobusais autobusams autobuse autobuso autobusu autobusui autobusuose autobusus autobusą autobusų
+16	916	aplink	
+17	917	paskelbtas	paskelbta paskelbtai paskelbtais paskelbtam paskelbtame paskelbtiems paskelbto paskelbtoje paskelbtomis paskelbtoms paskelbtos paskelbtose paskelbtu paskelbtuose paskelbtus paskelbtą
+18	918	atviras	atvira atvirais atvirajame atviram atvirame atvirasis atvirą atviresni atviresniems atviresnio atviresnis atviresnių atviresnė atviresnės atviresnę atviri atviriausias atviroje atviroji atvirojo atvirojoje atviromis atviroms atviros atvirose atvirosios atvirosiose atviru atviruose atvirus atvirą atvirąjį atvirų
+19	919	dangus	dangau dangaus dangui danguje dangumi dangumis dangūs dangų
+20	920	panelė	panele panelei paneles panelių panelėmis panelėms panelės panelę
+21	921	trečiadienis	trečiadieniais trečiadienio trečiadienį
+22	922	antradienis	antradieni antradieniai antradieniais antradienio antradieniui antradieniuose antradienių antradienį
+23	923	rūpėti	nerūpi rūpejo rūpi rūpim rūpimas rūpime rūpit rūpite rūpiu rūpėjo rūpės rūpėtum rūpėtų rūpėčiau terūpi
+24	924	užtekti	užtekdavo užteko užteks užteksim užtektinai užtektų užtenka
+25	925	nepavykti	nepavykdavo nepavyko nepavyks nepavyksta nepavyktų
+26	926	svetainė	svetaine svetainei svetaines svetainių svetainėje svetainėmis svetainėms svetainės svetainėse svetainę
+27	927	ekonominis	ekonomine ekonominei ekonomines ekonomini ekonominiai ekonominiais ekonominiam ekonominiame ekonominiams ekonominio ekonominiu ekonominius ekonominių ekonominė ekonominėje ekonominėmis ekonominėms ekonominės ekonominėse ekonominę ekonominį
+28	928	deja	
+29	929	akimirka	akimirkai akimirkas akimirkoje akimirkomis akimirkoms akimirkos akimirką akimirkų
+30	930	žurnalistas	žurnalistai žurnalistais žurnalistams žurnaliste žurnalistei žurnalisto žurnalistu žurnalistui žurnalistus žurnalistą žurnalistė žurnalistės žurnalistę žurnalistų
+31	931	išlaikyti	išlaikant išlaikantis išlaikau išlaikei išlaikiau išlaikius išlaiko išlaikomas išlaikome išlaikot išlaikote išlaikydavo išlaikyk išlaikykime išlaikykit išlaikykite išlaikys išlaikysi išlaikysim išlaikysime išlaikysit išlaikysite išlaikysiu išlaikyta išlaikytas išlaikytum išlaikytume išlaikytumėte išlaikytų išlaikyčiau išlaikė išlaikėm išlaikėme išlaikėt išlaikėte išlaikęs
+32	932	salė	sale salei sales salių salėje salėmis salėms salės salėse salę
+33	933	istorinis	istorine istorinei istorines istorinės istoriniai istoriniais istoriniam istoriniame istoriniams istorinio istoriniu istoriniuose istorinius istorinių istorinė istorinėje istorinėmis istorinėms istorinės istorinėse istorinę istorinį
+34	934	vestuvės	vestuves vestuvių vestuvėmis vestuvėms vestuvėse
+35	935	įvertinti	įvertina įvertinai įvertinamas įvertiname įvertinant įvertinantis įvertinat įvertinau įvertindamas įvertini įvertink įvertinkime įvertinkit įvertinkite įvertino įvertinome įvertinot įvertinote įvertins įvertinsi įvertinsim įvertinsime įvertinsite įvertinsiu įvertinta įvertintam įvertintas įvertintiems įvertintos įvertintum įvertintume įvertintus įvertintą įvertintų įvertinu įvertinus įvertinčiau įvertinęs
+36	936	klausti	klaus klausdamas klausdavau klausdavo klausei klausi klausia klausiam klausiama klausiamas klausiame klausiami klausiant klausiat klausiate klausiau klausim klausime klausit klausite klausiu klausiusi klausk klauskit klauskite klaustum klaustumėte klaustų klausčiau klausė klausėm klausėme klausėt klausėte klausę klausęs
+37	937	pasikalbėti	pasikalba pasikalbame pasikalbu pasikalbėdavo pasikalbėjau pasikalbėjo pasikalbėjome pasikalbėk pasikalbėkime pasikalbėkite pasikalbės pasikalbėsime pasikalbėsiu pasikalbėtų
+38	938	lygus	lygaus lygesnis lygesnė lygesnės lygesnėse lygi lygia lygiai lygiam lygias lygiau lygioje lygiomis lygios lygiosiomis lygiosios lygiu lygiuose lygius lygią lygiąsias lygiųjų lygu lygūs lygų
+39	939	patikrinti	patikrina patikriname patikrinau patikrindavo patikrink patikrinkite patikrino patikrinome patikrins patikrinsime patikrinsiu patikrintume patikrintų patikrinu
+40	940	stoti	stodamas stodavo stoja stojai stojam stojame stojant stojantis stojat stojau stoji stojo stojom stojome stojote stoju stojus stojęs stok stokit stokite stos stosi stosiantis stosime stosit stosite stosiu stotum stotume stotumėte stotų stočiau
+41	941	sąskaita	sąskaitai sąskaitas sąskaitoje sąskaitomis sąskaitoms sąskaitos sąskaitose sąskaitą sąskaitų
+42	942	toli	toliausia toliausiai
+43	943	ugdymas	ugdyme ugdymo ugdymu ugdymui ugdymą
+44	944	gaila	
+45	945	krepšinis	krepšini krepšinio krepšiniu krepšiniui krepšinyje krepšinį
+46	946	fizinis	fizine fizinei fizines fizini fiziniai fiziniais fiziniam fiziniame fiziniams fizinio fiziniu fiziniui fiziniuose fizinius fizinių fizinė fizinėje fizinėmis fizinėms fizinės fizinėse fizinę fizinį
+47	947	naudotis	naudodavosi naudojamės naudojasi naudojatės naudojausi naudojiesi naudojomės naudojosi naudojuosi naudokis naudokitės naudosimės naudosis naudositės naudotųsi
+48	948	išgyventi	išgyvena išgyvenai išgyvenam išgyvenamas išgyvename išgyvenant išgyvenantis išgyvenat išgyvenate išgyvenau išgyvendavau išgyvendavo išgyveni išgyvenk išgyvenkite išgyveno išgyvenom išgyvenome išgyvenot išgyvenote išgyvens išgyvensi išgyvensim išgyvensime išgyvensit išgyvensite išgyvensiu išgyventa išgyventas išgyventum išgyventume išgyventumėm išgyventumėte išgyventų išgyvenu išgyvenus išgyvenčiau išgyvenęs
+49	949	savaitgalis	savaitgali savaitgaliai savaitgaliais savaitgaliams savaitgalio savaitgaliu savaitgaliui savaitgalius savaitgalių savaitgalį
+50	950	vokietis	vokietei vokieti vokietė vokietės vokietį vokiečiai vokiečiais vokiečiams vokiečio vokiečiu vokiečiui vokiečius vokiečių
+51	951	savininkas	savininkai savininkais savininkams savininke savininko savininku savininkui savininkus savininką savininkė savininkų
+52	952	metras	metrai metrais metrams metre metru metrus metrą metrų
+53	953	vartotojas	vartotoja vartotojai vartotojais vartotojams vartotojo vartotoju vartotojui vartotojus vartotoją vartotojų
+54	954	armija	armijai armijas armijoje armijomis armijos armiją armijų
+55	955	priežiūra	priežiūrai priežiūroje priežiūros priežiūrą priežiūrų
+56	956	plotas	plotai plotais plotams plote ploto plotu plotui plotuose plotus plotą plotų
+57	957	pastatyti	pastato pastatome pastatydavo pastatyk pastatykite pastatys pastatysim pastatysime pastatysiu pastatytume pastatytų pastatė pastatėme pastatėte pastačiau
+58	958	teikti	teikdamas teikdavo teikia teikiam teikiamas teikiame teikiant teikiantis teikiate teikiau teikiu teiks teiksime teiksite teiktų teikus teikčiau teikė teikėme teikėt teikęs
+59	959	šeimininkas	šeimininkai šeimininkais šeimininkams šeimininke šeimininkei šeimininkes šeimininkių šeimininko šeimininku šeimininkui šeimininkus šeimininką šeimininkė šeimininkėmis šeimininkėms šeimininkės šeimininkę šeimininkų
+60	960	patirti	patirdavo patiri patiria patiriame patiriate patiriu patirkite patirs patirsi patirsime patirsite patirsiu patirta patirtum patirtų patyrei patyrė patyrėme patyrėte
+61	961	siūlyti	siūloma siūlant siūlantis siūlau siūliau siūlom siūloma siūlomas siūlome siūlot siūlote siūlydamas siūlydavo siūlyk siūlykit siūlykite siūlys siūlysi siūlysiantis siūlysime siūlysiu siūlytum siūlytume siūlytų siūlyčiau siūlėme siūlėte siūlęs
+62	962	mokytoja	mokytojai mokytojoms mokytojos mokytoją mokytojų
+63	963	dešimtmetis	dešimtmetyje dešimtmetį dešimtmečiai dešimtmečiais dešimtmečiams dešimtmečio dešimtmečiu dešimtmečiui dešimtmečiuose dešimtmečius dešimtmečių
+64	964	laimė	laime laimei laimes laimių laimėje laimės laimę
+65	965	ketvirtadienis	ketvirtadieni ketvirtadieniais ketvirtadienio ketvirtadieniui ketvirtadienį
+66	966	teisėjas	teisėja teisėjai teisėjais teisėjams teisėjau teisėjo teisėju teisėjui teisėjus teisėją teisėjų
+67	967	variklis	varikli varikliai varikliais varikliams variklio varikliu varikliui varikliuose variklius variklių variklyje variklį
+68	968	link	
+69	969	futbolas	futbole futbolo futbolu futbolui futbolą
+70	970	ruoštis	ruošdavosi ruošiamės ruošiasi ruošiatės ruošiausi ruošiesi ruošimės ruošis ruošitės ruošiuosi ruoškis ruoškitės ruoštųsi ruošėmės ruošėsi ruošėtės
+71	971	priekis	prieki priekiais priekio priekiu priekyje priekį
+72	972	kodas	kodai kodais kode kodo kodu kodus kodą kodų
+73	973	testas	testai testais testams teste testo testu testui testuose testus testą testų
+74	974	tekstas	tekstai tekstais tekstams tekste teksto tekstu tekstui tekstuose tekstus tekstą tekstų
+75	975	sekundė	sekunde sekundei sekundes sekundėmis sekundėms sekundės sekundę sekundžių
+76	976	kariuomenė	kariuomene kariuomenei kariuomenes kariuomenių kariuomenėje kariuomenės kariuomenę
+77	977	kryptis	krypties kryptimi kryptimis kryptims kryptyje kryptys kryptyse kryptį krypčiai krypčių
+78	978	įgyvendinti	įgyvendina įgyvendinama įgyvendinamas įgyvendiname įgyvendinant įgyvendindama įgyvendindamas įgyvendinimas įgyvendinimą įgyvendink įgyvendino įgyvendinome įgyvendins įgyvendinsi įgyvendinsime įgyvendinsiu įgyvendinta įgyvendintas įgyvendintos įgyvendintum įgyvendintume įgyvendintus įgyvendintų įgyvendinu įgyvendinus įgyvendinęs
+79	979	scena	scenai scenas scenoje scenomis scenoms scenos scenose sceną scenų
+80	980	gimnazija	gimnazijai gimnazijas gimnazijoje gimnazijomis gimnazijos gimnazijose gimnaziją gimnazijų
+81	981	sumokėti	sumoka sumokame sumokate sumoku sumokėjai sumokėjau sumokėjo sumokėjome sumokėjote sumokėkite sumokės sumokėsi sumokėsime sumokėsite sumokėsiu sumokėtume sumokėtų sumokėčiau
+82	982	stotis	stotie stoties stotimi stotimis stotims stotyje stotys stotyse stotį stočiai stočių
+83	983	virš	
+84	984	galiausiai	
+85	985	nelabai	
+86	986	išleisti	išleidai išleidau išleidi išleido išleidom išleidome išleidote išleidžia išleidžiame išleidžiate išleidžiu išleis išleisdavo išleisi išleisime išleisite išleisiu išleiskite išleistumėte išleistų
+87	987	laikinas	laikina laikinai laikinais laikinajai laikinajam laikinam laikiname laikinasis laikini laikinieji laikino laikinoje laikinoji laikinojo laikinojoje laikinoms laikinos laikinose laikinosios laikinu laikinuoju laikinuosius laikinus laikiną laikinąja laikinąją laikinąjį laikinąsias laikinų laikinųjų
+88	988	sunkiai	sunkiau sunkiausiai
+89	989	plaukas	plaukai plaukais plaukams plauko plauku plaukuose plaukus plauką plaukų
+90	990	draudimas	draudimai draudimais draudimams draudime draudimo draudimu draudimui draudimus draudimą draudimų
+91	991	poreikis	poreikiai poreikiais poreikiams poreikio poreikiu poreikiui poreikius poreikių poreikį
+92	992	apygarda	apygardai apygardas apygardoje apygardos apygardose apygardą apygardų
+93	993	paviršius	paviršiai paviršiais paviršiams paviršiaus paviršiui paviršiuje paviršiumi paviršių
+94	994	vaidmuo	vaidmenimis vaidmenis vaidmeniu vaidmeniui vaidmens vaidmenyje vaidmenys vaidmenį vaidmenų
+95	995	ugnis	ugni ugniai ugnie ugnies ugnimi ugniui ugnių ugnyje ugnys ugnyse ugnį
+96	996	pamoka	pamokai pamokas pamokoje pamokomis pamokoms pamokos pamokose pamoką pamokų
+97	997	auksas	aukse aukso auksu auksui auksą auksų
+98	998	niekur	
+99	999	biblioteka	bibliotekai bibliotekas bibliotekoje bibliotekomis bibliotekoms bibliotekos bibliotekose biblioteką bibliotekų
+100	1000	karjera	karjerai karjeras karjeroje karjeros karjerą karjerų

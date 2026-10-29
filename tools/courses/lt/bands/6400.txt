@@ -1,0 +1,100 @@
+1	6301	liemenėlė	liemenėle liemenėles liemenėlių liemenėlės liemenėlę
+2	6302	įkarštis	įkarštyje įkarštį įkarščio įkarščiu
+3	6303	pavesti	paveda pavedė pavedžiau pavestų
+4	6304	įsirengti	įsirengia įsirengtų įsirengė
+5	6305	sumažėjimas	sumažėjimo sumažėjimu sumažėjimui sumažėjimą
+6	6306	sudėtas	sudėta sudėtos sudėtus
+7	6307	apdoroti	apdoroja apdorojo apdorotų
+8	6308	tikslinis	tikslinei tikslines tikslinio tikslinių tikslinė tikslinėmis tikslinėms tikslinės tikslinę tikslinį
+9	6309	atgyti	atgijo atgis atgyja
+10	6310	kankinys	kankiniai kankiniais kankinio kankiniu kankinius kankinių kankinį
+11	6311	materialus	materialaus materiali materialiai materialiais materialiame materialios materialius materialiąją materialių materialų materialųjį
+12	6312	motelis	motelio moteliuose motelyje
+13	6313	nusikalsti	nusikalsta nusikalstamas nusikalstantis nusikaltai nusikaltau nusikalto nusikaltome nusikaltot nusikaltęs
+14	6314	ramunė	ramune ramunei ramunes ramunių ramunės
+15	6315	visaip	
+16	6316	neįkainojamas	neįkainojama neįkainojami neįkainojamos neįkainojamus neįkainojamą neįkainojamų
+17	6317	platina	platinos
+18	6318	pasaulėžiūra	pasaulėžiūrai pasaulėžiūros pasaulėžiūrą pasaulėžiūrų
+19	6319	paėmimas	paėmimo paėmimu paėmimą
+20	6320	sukrėtimas	sukrėtimai sukrėtimams sukrėtimo sukrėtimu sukrėtimą sukrėtimų
+21	6321	kaltininkas	kaltininkai kaltininkais kaltininkams kaltininke kaltininko kaltininku kaltininkui kaltininkus kaltininką kaltininkų
+22	6322	nuskriausti	nuskriaudė nuskriaus nuskriaustų
+23	6323	susilieti	susilieja susiliejo susilies susilietų
+24	6324	troleibusas	troleibusai troleibusais troleibusams troleibuso troleibusu troleibusus troleibusą troleibusų
+25	6325	pririštas	pririšta pririšti pririštos pririštus pririštą pririštų
+26	6326	išdėstytas	išdėstyta išdėstytais išdėstytomis išdėstytos išdėstytus išdėstytą
+27	6327	orientuotis	orientavosi orientuojamės orientuojasi orientuojuosi
+28	6328	vienaip	
+29	6329	pareiškėjas	pareiškėja pareiškėjai pareiškėjais pareiškėjams pareiškėjo pareiškėjos pareiškėjui pareiškėjų
+30	6330	atsiriboti	atsiriboja atsiribojame atsiribojau atsiribojo atsiriboju atsiribokite
+31	6331	įsikišti	įsikiš įsikiša įsikišo
+32	6332	gitaristas	gitariste gitaristo gitaristu gitaristui gitaristų
+33	6333	pirklys	pirkliai pirklio pirklius pirklių
+34	6334	ringas	ringo ringą
+35	6335	reikštis	reikšis reiškiasi reiškėsi
+36	6336	atsakomas	atsakoma atsakomajam atsakomasis atsakomi atsakomieji atsakomiesiems atsakomoji atsakomojo atsakomosios atsakomosiose atsakomuosius atsakomąja atsakomąjį atsakomąsias atsakomųjų
+37	6337	orgazmas	orgazmai orgazmo orgazmu orgazmus orgazmą orgazmų
+38	6338	sutrikti	sutrikau sutriko sutriks sutriktų
+39	6339	fosforas	fosforo fosforu fosforą
+40	6340	triumfuoti	triumfavo triumfuoja triumfuos
+41	6341	pasiklysti	pasiklydau pasiklydo pasiklysta
+42	6342	įdarbinti	įdarbina įdarbino įdarbins įdarbintų
+43	6343	pamokslas	pamokslai pamokslais pamokslo pamokslus pamokslą pamokslų
+44	6344	apkrova	apkrovai apkrovas apkrovoms apkrovos apkrovą apkrovų
+45	6345	siuntimas	siuntimo siuntimu siuntimui siuntimus siuntimą
+46	6346	patobulinti	patobulina patobulino patobulintų
+47	6347	susitraukti	susitraukia susitrauks susitrauktų susitraukė
+48	6348	paplitimas	paplitimo paplitimui paplitimą
+49	6349	plieninis	plieniniai plieninio plieniniu plieninius plieninių plieninė plieninės plieninį
+50	6350	rašyba	rašybos rašybą
+51	6351	apsiversti	apsivers apsivertė apsiverčia
+52	6352	spurga	spurgas spurgoms spurgos spurgą spurgų
+53	6353	blet	ble
+54	6354	išsaugotas	išsaugota išsaugotos išsaugotus išsaugotą
+55	6355	bendrininkas	bendrininkai bendrininkais bendrininkams bendrininke bendrininko bendrininku bendrininkus bendrininką bendrininkų
+56	6356	šiaudas	šiaudai šiaudais šiaudo šiaudus šiaudą šiaudų
+57	6357	priekaba	priekabas priekaboje priekabomis priekabos priekabą priekabų
+58	6358	pašalinimas	pašalinimo pašalinimu pašalinimą
+59	6359	miškininkas	miškininkai miškininkais miškininkams miškininko miškininkus miškininkų
+60	6360	įteisinti	įteisina įteisino įteisintų
+61	6361	reporteris	reporteriai reporteriais reporteriams reporterio reporteriu reporteriui reporterius reporterių
+62	6362	dažas	dažais
+63	6363	asortimentas	asortimente asortimento asortimentu asortimentui asortimentą
+64	6364	skanėstas	skanėstai skanėstais skanėsto skanėstu skanėstus skanėstą skanėstų
+65	6365	kraštotyra	kraštotyros
+66	6366	faktinis	faktine faktines faktiniai faktiniais faktinio faktiniu faktinius faktinių faktinė faktinėmis faktinės faktinę faktinį
+67	6367	išmetimas	išmetimai išmetimo išmetimui išmetimus išmetimą išmetimų
+68	6368	gaisrininkas	gaisrininkai gaisrininkais gaisrininkams gaisrininko gaisrininku gaisrininkui gaisrininkus gaisrininkų
+69	6369	yda	ydas ydomis ydos ydą ydų
+70	6370	parsivežti	parsiveš parsiveža parsiveždavo parsivežiau parsivežtų parsivežė parsivežėme
+71	6371	atitraukti	atitraukia atitraukite atitrauks atitrauktų atitraukė
+72	6372	supaprastintas	supaprastinta supaprastinti supaprastintos supaprastintą
+73	6373	santechnikas	santechnikai santechniko santechniku santechnikus santechniką santechnikė santechnikų
+74	6374	gavyba	gavybai gavybos gavybą
+75	6375	funkcinis	funkcines funkciniai funkciniais funkcinio funkcinius funkcinių funkcinė funkcinės funkcinę funkcinį
+76	6376	metafora	metaforomis metaforos metaforą metaforų
+77	6377	toksinas	toksinai toksinais toksino toksinus toksiną toksinų
+78	6378	optimistiškas	optimistiška optimistiškai optimistiškesnis optimistiški optimistiškiau optimistiškiausiai
+79	6379	patalynė	patalyne patalynėje patalynės patalynę
+80	6380	komentatorius	komentatoriai komentatoriaus komentatorių
+81	6381	pamąstyti	pamąstyk pamąstykime pamąsčiau
+82	6382	pakomentuoti	pakomentavo
+83	6383	pridedamas	pridedama pridedami pridedamos
+84	6384	perkėla	perkėloje perkėlos perkėlą
+85	6385	įregistruoti	įregistravo įregistruotų
+86	6386	įžeidimas	įžeidimai įžeidimais įžeidimo įžeidimu įžeidimus įžeidimą įžeidimų
+87	6387	pasėdėti	pasėdėjo pasėdėk pasėdėkite pasėdėtų
+88	6388	trispalvė	trispalve trispalvių trispalvėmis trispalvės trispalvę
+89	6389	dukterėčia	dukterėčiai dukterėčios dukterėčią
+90	6390	uždarbis	uždarbio uždarbiu uždarbį
+91	6391	radis	radio radži radžio radžiui radžius
+92	6392	pritaikomas	pritaikoma pritaikomi pritaikomos pritaikomų
+93	6393	gūsis	gūsiai gūsiais gūsio gūsiuose gūsius gūsių gūsį
+94	6394	krabas	krabai krabo krabus krabą krabų
+95	6395	įsivelti	įsivelia įsivels įsivėlė
+96	6396	transportavimas	transportavimo transportavimu transportavimui transportavimą
+97	6397	koordinavimas	koordinavimo koordinavimą
+98	6398	atstovavimas	atstovavimo atstovavimu atstovavimą
+99	6399	karnavalas	karnavale karnavalo karnavalui karnavalą karnavalų
+100	6400	garbus	garbaus garbiems garbius garbusis garbūs

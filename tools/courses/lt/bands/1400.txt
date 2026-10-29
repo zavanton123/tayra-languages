@@ -1,0 +1,100 @@
+1	1301	tarti	tardama tardamas tarei tari taria tariamai tariamas tariame tariantis tariate tariau tariu tark tarkim tarkime tarkite tars tarsite tarsiu tartum tartų tarė taręs
+2	1302	lemti	lemdavo lemia lemiantis lems lemta lemtas lemtų lėmė lėmęs
+3	1303	nepriklausomas	nepriklausoma nepriklausomai nepriklausomais nepriklausomam nepriklausomi nepriklausomiems nepriklausomo nepriklausomoje nepriklausomos nepriklausomu nepriklausomus nepriklausomą nepriklausomų
+4	1304	galingas	galinga galingai galingais galingam galingasis galingesnes galingesni galingesnio galingesnis galingesniu galingesnius galingesnių galingesnė galingesnės galingesnę galingesnį galingi galingiausi galingiausia galingiausiam galingiausias galingiausio galingiausios galingiausiu galingiausią galingiausių galingieji galingiems galingo galingojo galingomis galingos galingosios galingu galinguosius galingus galingą galingų galingųjų
+5	1305	tol	
+6	1306	pažeidimas	pažeidimai pažeidimais pažeidimams pažeidimo pažeidimu pažeidimui pažeidimus pažeidimą pažeidimų
+7	1307	menininkas	menininkai menininkais menininkams menininke menininko menininku menininkui menininkus menininką menininkė menininkų
+8	1308	generolas	generolai generolais generolams generole generolo generolu generolui generolus generolą generolė generolų
+9	1309	techninis	technine techninei technines techniniai techniniais techniniam techniniame techniniams techninio techniniu techninius techninių techninė techninėje techninėmis techninėms techninės techninę techninį
+10	1310	gimęs	gimus gimusi gimusia gimusiai gimusiais gimusiam gimusias gimusieji gimusiems gimusio gimusios gimusiu gimusius gimusią gimusių gimusiųjų gimusį gimę
+11	1311	smarkus	smarkaus smarki smarkiai smarkias smarkiau smarkiausiai smarkiausias smarkiems smarkioms smarkios smarkią smarkių smarkusis smarkūs smarkų
+12	1312	vynas	vynai vynais vynams vyne vyno vynu vynui vynus vyną vynų
+13	1313	dvaras	dvarai dvare dvaro dvaru dvarui dvaruose dvarus dvarą dvarų
+14	1314	juokauti	juokaudamas juokaudavau juokaudavo juokaudavome juokauja juokaujam juokaujame juokaujat juokaujate juokauji juokauju juokauk juokauki juokausiu juokautų juokaučiau juokavai juokavau juokavo juokavom juokavome juokavot juokavęs
+15	1315	struktūra	struktūrai struktūras struktūroje struktūromis struktūroms struktūros struktūrose struktūrą struktūrų
+16	1316	žala	žalai žalas žalieji žalos žalą žalų
+17	1317	pavadinti	pavadina pavadiname pavadinau pavadinkime pavadino pavadinome pavadinote pavadins pavadinsi pavadinsime pavadinsiu pavadintum pavadintume pavadintų pavadinčiau
+18	1318	rusų	
+19	1319	ekranas	ekranai ekranais ekranams ekrane ekrano ekranu ekranui ekranuose ekranus ekraną ekranų
+20	1320	aiškinti	aiškina aiškinai aiškinama aiškinamas aiškiname aiškinant aiškinantis aiškinat aiškinate aiškinau aiškindamas aiškindavo aiškini aiškink aiškino aiškinome aiškins aiškinsi aiškinsit aiškinsite aiškinsiu aiškintų aiškinu
+21	1321	pulti	puldavo pulk pulkime pulkit pulkite puls pulsi pulsim pulsime pulsit pulsite pulsiu pulta pultas pulto pultum pultume pultą pultų pulčiau puola puolam puolama puolamas puolame puolami puolamos puolant puolate puolei puoli puoliau puolu puolusi puolė puolėme puolėt puolę puolęs
+22	1322	mėlynas	mėlyna mėlynai mėlynais mėlyname mėlynasis mėlynieji mėlyno mėlynoji mėlynojo mėlynojoje mėlynomis mėlynos mėlynosios mėlynu mėlynuose mėlynuosius mėlynus mėlyną mėlynąja mėlynąją mėlynąjį mėlynų mėlynųjų
+23	1323	aiškiai	aiškiau aiškiausiai
+24	1324	kilęs	kilus kilusi kilusia kilusiais kilusiam kilusiame kilusias kilusiems kilusio kilusios kilusiu kilusius kilusią kilusių kilusį kilę
+25	1325	lenkas	lenkai lenkais lenkams lenki lenko lenku lenkui lenkus lenką lenkų
+26	1326	nepamiršti	nepamirš nepamiršau nepamiršime nepamiršk nepamirškim nepamirškime nepamirškite nepamiršo nepamiršote nepamiršta nepamirštame nepamirštu nepamirštų
+27	1327	duktė	dukte dukteriai dukterimi dukterimis dukterims dukteris dukters dukterys dukterį dukterų duktės
+28	1328	praktika	praktikai praktikas praktikoje praktikomis praktikoms praktikos praktiką praktikų
+29	1329	pažadas	pažadai pažadais pažadams pažadi pažado pažadu pažadui pažadus pažadą pažadų
+30	1330	vaikystė	vaikyste vaikystes vaikystės vaikystėje vaikystės vaikystę
+31	1331	verslininkas	verslininkai verslininkais verslininkams verslininke verslininko verslininku verslininkui verslininkus verslininką verslininkė verslininkų
+32	1332	bausmė	bausme bausmei bausmes bausmių bausmėmis bausmės bausmę
+33	1333	albumas	albumai albume albumo albumu albumui albumuose albumus albumą albumų
+34	1334	negeras	negera negerai negeri negero negerus negerą negerų
+35	1335	nesąmonė	nesąmone nesąmones nesąmonių nesąmonėmis nesąmonėms nesąmonės nesąmonę
+36	1336	mokyti	besimokantiems besimokančių besimokančiųjų mokai mokant mokantiems mokantis mokantys mokančių mokau mokei mokiau mokinti moko mokom mokoma mokomas mokome mokot mokote mokydamas mokydavo mokyk mokykite mokys mokysi mokysime mokysit mokysite mokysiu mokytas mokytum mokytų mokyčiau mokė mokėme mokėt mokėte mokęs
+37	1337	žadėti	žada žadam žadamas žadame žadant žadantis žadat žadate žadi žadu žadėdama žadėdamas žadėdavo žadėjai žadėjau žadėjo žadėjom žadėjome žadėjot žadėjote žadėjęs žadėta žadėtas žadėtų žadėčiau
+38	1338	realus	realaus realesnis realesnių realesnė reali realia realiai realiais realiam realiame realias realiau realiausia realiausiu realiausių realiems realioje realiomis realioms realios realiose realiu realiuoju realius realią realių realu realusis realūs realų realųjį
+39	1339	šiluma	šilumai šilumoje šilumos šilumą
+40	1340	dainuoti	dainavai dainavau dainavo dainavom dainavome dainavot dainavote dainavęs dainuodama dainuodamas dainuodami dainuodavau dainuodavo dainuodavom dainuodavome dainuoja dainuojam dainuojame dainuojant dainuojantis dainuojat dainuojate dainuoji dainuoju dainuok dainuokim dainuokime dainuokit dainuokite dainuos dainuosi dainuosim dainuosime dainuosite dainuosiu dainuotum dainuotume dainuotų dainuočiau
+41	1341	biudžetas	biudžeto biudžetai biudžetams biudžete biudžeto biudžetu biudžetui biudžetus biudžetą biudžetų
+42	1342	kabinetas	kabinetai kabinetais kabinetą kabinete kabineto kabinetu kabinetui kabinetuose kabinetus kabinetą kabinetų
+43	1343	konfliktas	konfliktai konfliktais konfliktams konflikte konflikto konfliktu konfliktui konfliktuose konfliktus konfliktą konfliktų
+44	1344	neigiamas	neigiama neigiamai neigiamais neigiami neigiamiems neigiamo neigiamomis neigiamoms neigiamos neigiamu neigiamus neigiamą neigiamų
+45	1345	visgi	
+46	1346	režimas	režimai režimais režime režimo režimu režimui režimus režimą režimų
+47	1347	teisinis	teisine teisinei teisines teisiniai teisiniais teisiniam teisiniams teisinio teisiniu teisinius teisinių teisinė teisinėje teisinėmis teisinės teisinę teisinį
+48	1348	skubus	skubaus skubia skubiai skubiais skubiam skubias skubiau skubiausiai skubioji skubios skubiosios skubiu skubius skubią skubiąją skubių skubu skubūs skubų
+49	1349	kaltė	kalte kaltes kaltės kaltę
+50	1350	nuolatinis	nuolatine nuolatinei nuolatines nuolatiniai nuolatiniais nuolatiniam nuolatiniame nuolatiniams nuolatinio nuolatiniu nuolatinius nuolatinių nuolatinė nuolatinėje nuolatinėmis nuolatinės nuolatinę nuolatinį
+51	1351	atmintis	atmintie atminties atmintimi atmintyje atmintys atmintį atminčiai
+52	1352	kanalas	kanalai kanalais kanalams kanale kanalo kanalu kanalui kanaluose kanalus kanalą kanalų
+53	1353	greit	
+54	1354	šiltas	šilta šiltai šiltais šiltajam šiltam šiltame šiltasis šiltesni šiltesnio šiltesnis šiltesnius šiltesnių šiltesnė šiltesnės šiltesnę šiltesnį šiltiems šilto šiltoje šiltojo šiltomis šiltoms šiltos šiltose šiltu šiltuoju šiltuose šiltus šiltą šiltąjį šiltųjų šilčiau šilčiausi šilčiausia šilčiausiai šilčiausias šilčiausius šilčiausią šilčiausių
+55	1355	režisierius	režisieriai režisieriais režisieriams režisieriau režisieriaus režisieriui režisieriumi režisierių režisierė
+56	1356	nekęsti	nekentei nekenti nekentė nekentėm nekentėme nekentėt nekenčia nekenčiam nekenčiame nekenčiantis nekenčiat nekenčiate nekenčiau nekenčiu nekęs nekęsdamas nekęsdavai nekęsdavo nekęsi nekęsim nekęsiu nekęsk nekęskit nekęskite nekęstum nekęstumėt nekęstų nekęsčiau
+57	1357	grynas	gryna grynai grynais grynaisiais grynajam grynam gryname grynasis gryne gryni gryniausi gryniausia gryniausias gryniausiu gryno grynoji grynojo grynomis grynos grynosios grynu grynui grynuosiuose grynuosius grynus gryną grynąja grynąją grynąjį grynų grynųjų
+58	1358	detalė	detale detalei detales detalių detalėmis detalėms detalės detalėse detalę detalų
+59	1359	pakelti	pakeldavo pakeli pakelia pakeliu pakelk pakelkite pakels pakelsime pakeltų pakėliau pakėlė pakėlėme
+60	1360	paveldas	paveldo paveldu paveldui paveldą
+61	1361	kategorija	kategorijai kategorijas kategorijoje kategorijomis kategorijoms kategorijos kategorijose kategoriją kategorijų
+62	1362	vaikščioti	vaikštai vaikštau vaikšto vaikštome vaikštote vaikščiodamas vaikščiodavau vaikščiodavo vaikščiodavome vaikščioja vaikščiojai vaikščiojame vaikščiojant vaikščiojanti vaikščiojantis vaikščiojantys vaikščiojantį vaikščiojate vaikščiojau vaikščiojo vaikščiojom vaikščiojome vaikščiojot vaikščiok vaikščiokit vaikščiokite vaikščios vaikščiosi vaikščiosim vaikščiosime vaikščiosit vaikščiosiu vaikščiotum vaikščiotume vaikščiotų vaikščiočiau
+63	1363	svoris	svoriai svorio svoriu svoriui svorius svorių svoryje svorį
+64	1364	išaugti	išauga išaugau išaugdavo išaugo išaugome išaugs išaugtų
+65	1365	įrodymas	įrodymai įrodymais įrodymams įrodymo įrodymu įrodymus įrodymą įrodymų
+66	1366	kuomet	
+67	1367	sėkmingai	sėkmingiau sėkmingiausiai
+68	1368	medinis	medine medines mediniai mediniais mediniame medinio mediniu mediniuose medinius medinių medinė medinėje medinėmis medinės medinėse medinę medinį
+69	1369	dveji	dvejais dvejas dvejiems dvejomis dvejoms dvejose dvejuose dvejus dvejų
+70	1370	išvengti	išvengia išvengiame išvengiau išvengs išvengsi išvengsime išvengsite išvengtum išvengtume išvengtumėte išvengtų išvengčiau išvengė išvengėme
+71	1371	įvesti	įveda įvedam įvedame įvedant įvedei įvedi įvedu įvedus įvedė įvedėt įvedęs įvedžiau įves įvesdamas įvesi įvesim įvesime įvesite įvesiu įvesk įveskite įvesta įvestas įvestų
+72	1372	sveikinti	sveikina sveikinam sveikiname sveikinantis sveikindamas sveikindavo sveikini sveikink sveikinkit sveikino sveikinome sveikinote sveikins sveikinsime sveikintinas sveikintum sveikinu
+73	1373	finansai	finansais finansams finansuose finansus finansų
+74	1374	akivaizdus	akivaizdaus akivaizdesni akivaizdesnė akivaizdesnę akivaizdi akivaizdu akivaizdūs akivaizdų akivaizdžia akivaizdžiais akivaizdžias akivaizdžiau akivaizdžiausi akivaizdžiausia akivaizdžiausiai akivaizdžiausias akivaizdžios akivaizdžiu akivaizdžius akivaizdžią akivaizdžių
+75	1375	siūlas	siūlai siūlais siūlo siūlu siūlus siūlą siūlų
+76	1376	aplinkybė	aplinkybe aplinkybes aplinkybių aplinkybėmis aplinkybėms aplinkybės aplinkybėse aplinkybę
+77	1377	dvasia	dvasiai dvasias dvasioje dvasiomis dvasioms dvasios dvasiose dvasią dvasių
+78	1378	kiemas	kiemai kiemais kiemams kieme kiemo kiemu kiemuose kiemus kiemą kiemų
+79	1379	panaudoti	panaudodavo panaudoja panaudojame panaudojau panaudoji panaudojo panaudojome panaudoju panaudokite panaudos panaudosime panaudosite panaudosiu panaudotume panaudotų
+80	1380	tiesioginis	tiesiogine tiesioginei tiesiogines tiesioginiai tiesioginiais tiesioginiam tiesioginiame tiesioginiams tiesioginio tiesioginiu tiesioginiuose tiesioginius tiesioginių tiesioginė tiesioginėje tiesioginėms tiesioginės tiesioginėse tiesioginę tiesioginį
+81	1381	užsiimti	užsiima užsiimam užsiimame užsiimant užsiimantis užsiimat užsiimate užsiimdamas užsiimdavo užsiimi užsiimk užsiimkim užsiimkime užsiimkit užsiimkite užsiims užsiimsi užsiimsim užsiimsime užsiimsite užsiimsiu užsiimtum užsiimtų užsiimu užsiimčiau užsiėmei užsiėmiau užsiėmė užsiėmėm
+82	1382	teisingumas	teisingumo teisingumu teisingumui teisingumą
+83	1383	kaltas	kalta kaltai kaltais kalte kaltieji kaltiems kalto kaltos kaltu kaltuosius kaltus kaltą kaltų kaltųjų kalčiausia kalčiausias
+84	1384	krantas	krantai krantais krantams krante kranto krantu krantuose krantus krantą krantų
+85	1385	dalia	daliai dalios dalią dalių
+86	1386	atskleisti	atskleidė atskleidėme atskleidžia atskleidžiame atskleidžiau atskleis atskleisdavo atskleisime atskleisite atskleisiu atskleisk atskleiskite atskleistų
+87	1387	mūšis	mūšiai mūšiais mūšiams mūšio mūšiu mūšiui mūšiuose mūšius mūšių mūšyje mūšį
+88	1388	surengti	surengdavo surengia surengiau surengs surengsime surengsiu surengtų surengė surengėme surengėte surenk surenkite
+89	1389	paaiškėti	paaiškėdavo paaiškėja paaiškėjo paaiškės paaiškėtų
+90	1390	dvigubas	dviguba dvigubai dvigubais dvigubame dvigubi dvigubo dvigubos dvigubu dvigubus dvigubą dvigubų
+91	1391	puslapis	puslapi puslapiai puslapiams puslapio puslapiu puslapiui puslapiuose puslapius puslapių puslapyje puslapį
+92	1392	kostiumas	kostiumai kostiumais kostiumo kostiumu kostiumui kostiumuose kostiumus kostiumą kostiumų
+93	1393	skambutis	skambutį skambučiai skambučiais skambučiams skambučio skambučiu skambučiui skambučius skambučių
+94	1394	sluoksnis	sluoksniai sluoksniais sluoksniams sluoksnio sluoksniu sluoksniui sluoksniuose sluoksnius sluoksnių sluoksnyje sluoksnį
+95	1395	pastangos	pastangas pastangomis pastangoms pastangose pastangų
+96	1396	atlikėjas	atlikėjai atlikėjais atlikėjams atlikėjo atlikėjoms atlikėjos atlikėju atlikėjui atlikėjus atlikėją atlikėjų
+97	1397	išsiskirti	išsiskirdavo išsiskiria išsiskiriame išsiskirs išsiskirsime išsiskirtų išsiskyrei išsiskyriau išsiskyrus išsiskyrusi išsiskyrusiems išsiskyrusios išsiskyrusių išsiskyrė išsiskyrėm išsiskyrėme išsiskyrėte išsiskyrę išsiskyręs
+98	1398	patarimas	patarimai patarimais patarimo patarimu patarimus patarimą patarimų
+99	1399	simbolis	simboliai simboliais simboliams simbolio simboliu simbolius simbolių simbolį
+100	1400	rinkinys	rinkiniai rinkiniais rinkinio rinkiniu rinkiniui rinkiniuose rinkinius rinkinių rinkiny rinkinyje rinkinį

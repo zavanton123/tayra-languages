@@ -1,0 +1,100 @@
+1	4401	išdavystė	išdavyste išdavystei išdavystes išdavystėmis išdavystės išdavystę išdavysčių
+2	4402	senokas	senokai
+3	4403	balti	
+4	4404	pašalinis	pašaline pašalines pašalini pašaliniai pašaliniais pašaliniam pašaliniams pašalinio pašaliniu pašalinius pašalinių pašalinė pašalinį
+5	4405	kritimas	kritimo kritimu kritimui kritimus kritimą
+6	4406	lakstyti	lakstau laksto lakstydavo lakstys lakstytų lakstė laksčiau
+7	4407	budėti	budi budim budime budinas budint budintis budit budėdavo budėdavome budėjau budėjo budėjęs budėk budėkite budėsi budėsime budėsit budėsiu budėtų
+8	4408	puokštė	puokšte puokštei puokštes puokštėmis puokštėms puokštės puokštę puokščių
+9	4409	įpareigoti	įpareigoja įpareigojo įpareigotų
+10	4410	beprotybė	beprotybe beprotybei beprotybes beprotybėje beprotybės beprotybę
+11	4411	meška	meškai meškas meškos mešką meškų
+12	4412	įsipareigoti	įsipareigoja įsipareigojame įsipareigojo įsipareigojome įsipareigos įsipareigotų
+13	4413	jaukas	jaukai jauko jauku jaukus jauką jaukų
+14	4414	pikas	pikai piko piku piką pikų
+15	4415	žiūrint	
+16	4416	mitingas	mitingai mitinge mitingo mitingu mitingui mitinguose mitingus mitingą mitingų
+17	4417	ilgti	ilgau ilgo ilgom
+18	4418	pažadinti	pažadina pažadindavo pažadino pažadins pažadintų
+19	4419	maitintis	maitinamės maitinasi maitinatės maitinausi maitiniesi maitinkitės maitinosi maitinsis maitinuosi
+20	4420	kompensuoti	kompensavo kompensuoja kompensuos kompensuotų
+21	4421	burbulas	burbulai burbulais burbulams burbule burbulo burbulu burbului burbuluose burbulus burbulą burbulų
+22	4422	mikrofonas	mikrofonai mikrofone mikrofono mikrofonu mikrofonus mikrofoną mikrofonų
+23	4423	paradas	paradai paradais parado paradu paradui paraduose paradus paradą paradų
+24	4424	sijonas	sijonai sijonais sijono sijonu sijonui sijonus sijoną sijonų
+25	4425	rezervatas	rezervatai rezervate rezervato rezervatuose rezervatus rezervatą rezervatų
+26	4426	fantastika	fantastikos fantastiką
+27	4427	baltarusių	
+28	4428	žvejoti	žvejodamas žvejodavo žvejoja žvejojam žvejojant žvejojantis žvejojate žvejoji žvejojo žvejojome žvejoju žvejos žvejosim žvejočiau
+29	4429	kaimynystė	kaimynyste kaimynystei kaimynystėje kaimynystės kaimynystę
+30	4430	unija	unijai unijoje unijos uniją unijų
+31	4431	bendrabutis	bendrabutyje bendrabutį bendrabučiai bendrabučio bendrabučiu bendrabučiuose bendrabučius bendrabučių
+32	4432	padavėja	padavėjai padavėjais padavėjo padavėjoms padavėjos padavėju padavėjui padavėją padavėjų
+33	4433	adata	adatas adatomis adatos adatą adatų
+34	4434	balansas	balanse balanso balansu balansui balansą
+35	4435	prezervatyvas	prezervatyvai prezervatyvais prezervatyvo prezervatyvu prezervatyvuose prezervatyvus prezervatyvą prezervatyvų
+36	4436	aprašas	apraše aprašo aprašu aprašus aprašą aprašų
+37	4437	pabėgimas	pabėgimai pabėgimo pabėgimu pabėgimą pabėgimų
+38	4438	išplėsti	išplečia išplės išplėtė išplėtėme
+39	4439	svarstymas	svarstymai svarstymais svarstymams svarstyme svarstymo svarstymui svarstymuose svarstymus svarstymą svarstymų
+40	4440	įkūrimas	įkūrimo įkūrimu įkūrimui įkūrimą
+41	4441	harmonija	harmonijai harmonijoje harmonijos harmoniją
+42	4442	išrašyti	išrašai išrašo išrašydavo išrašys išrašytų išrašė
+43	4443	vedamas	vedama vedamajame vedami vedamo vedamos vedamų
+44	4444	psichinis	psichine psichinei psichines psichinio psichiniu psichinius psichinių psichinė psichinėmis psichinės psichinę psichinį
+45	4445	komplektas	komplektai komplekte komplekto komplektu komplektus komplektą komplektų
+46	4446	migti	mik miki mikit minga
+47	4447	akimirksnis	akimirksnio akimirksniu akimirksnį
+48	4448	įsiveržti	įsiverš įsiveržia įsiveržė
+49	4449	kriauklė	kriaukle kriaukles kriauklių kriauklėje kriauklėmis kriauklės kriauklę
+50	4450	parinkti	parenka parenku parinkau parinkdavo parinkite parinko parinkome parinks parinktų
+51	4451	inžinerinis	inžinerinei inžinerines inžineriniai inžineriniam inžineriniams inžinerinio inžineriniu inžineriniuose inžinerinius inžinerinių inžinerinė inžinerinėje inžinerinėms inžinerinės inžinerinę inžinerinį
+52	4452	lygybė	lygybe lygybės lygybę
+53	4453	ginčytis	ginčijamės ginčijasi ginčijomės ginčijosi ginčysis
+54	4454	atomas	atomai atomais atomams atomo atomui atomus atomą atomų
+55	4455	repeticija	repeticijai repeticijas repeticijoje repeticijos repeticijose repeticiją repeticijų
+56	4456	atsinešti	atsineš atsineša atsinešame atsinešdavo atsinešiau atsineškite atsineštų atsinešė atsinešėme
+57	4457	skaidrus	skaidraus skaidresnis skaidresnė skaidresnės skaidresnį skaidri skaidriai skaidriam skaidriau skaidrios skaidrius skaidrią skaidru skaidrūs skaidrų
+58	4458	išgąsdinti	išgąsdina išgąsdino išgąsdins išgąsdintų
+59	4459	farmacija	farmacijoje farmacijos farmaciją
+60	4460	pagelbėti	pagelbsti pagelbėdavo pagelbėja pagelbėjo pagelbės pagelbėtų
+61	4461	grasinimas	grasinimai grasinimais grasinimams grasinimo grasinimu grasinimus grasinimą grasinimų
+62	4462	sandėris	sandėrio sandėriui sandėrius sandėrių sandėrį
+63	4463	vokiškas	vokiška vokiškais vokiški vokiško vokiškojo vokiškomis vokiškos vokiškosios vokišku vokiškus vokišką vokiškų
+64	4464	išlaikymas	išlaikymo išlaikymu išlaikymui išlaikymą
+65	4465	iliustracija	iliustracijai iliustracijas iliustracijoje iliustracijomis iliustracijoms iliustracijos iliustracijose iliustraciją iliustracijų
+66	4466	oponentas	oponentai oponentais oponentams oponento oponentui oponentus oponentą oponentų
+67	4467	atrama	atramas atramos atramą atramų
+68	4468	tremtinys	tremtiniai tremtiniams tremtinio tremtinius tremtinių
+69	4469	kalcis	kalcio kalciu kalcį
+70	4470	darbelis	darbeliai darbeliais darbelio darbelius darbelių darbelį
+71	4471	tolti	tolo tolsta
+72	4472	nuskambėti	nuskamba nuskambėjo nuskambės nuskambėtų
+73	4473	pana	panai panas panoms panos paną panų
+74	4474	jaudinti	jaudina jaudinantis jaudini jaudink jaudino jaudins jaudinu
+75	4475	braškė	braške braškes braškių braškėmis braškėms braškės braškėse braškę
+76	4476	apklausti	apklaus apklausia apklaustų apklausė apklausėme
+77	4477	arka	arkai arkas arkoje arkos arką arkų
+78	4478	komplikacija	komplikacijas komplikacijomis komplikacijoms komplikacijos komplikacijų
+79	4479	krikštas	krikšto krikštu krikštą
+80	4480	pasidomėti	pasidomi pasidomėjau pasidomėjo pasidomėjome pasidomėkime pasidomėkite pasidomėsiu
+81	4481	merga	mergai mergas mergoms mergos mergą mergų
+82	4482	rekordinis	rekordines rekordiniai rekordinio rekordiniu rekordinius rekordinių rekordinė rekordinę rekordinį
+83	4483	orbita	orbitas orbitoje orbitos orbitose orbitą
+84	4484	mūrinis	mūrine mūrinei mūriniai mūriniame mūrinio mūrinių mūrinė mūrinėje mūrinės mūrinę mūrinį
+85	4485	apsunkinti	apsunkina apsunkino apsunkins apsunkintų
+86	4486	stiebas	stiebai stiebais stiebo stiebu stiebus stiebą stiebų
+87	4487	galėdamas	galėdama galėdami
+88	4488	filmukas	filmukai filmuke filmuko filmuku filmukus filmuką filmukų
+89	4489	išimti	išima išimame išimk išimkite išims išimtų išėmiau išėmė
+90	4490	geografija	geografijos geografiją geografijų
+91	4491	kanapė	kanapes kanapių kanapėmis kanapės
+92	4492	realizuoti	realizavo realizuoja realizuojame realizuotų
+93	4493	atkurtas	atkurta atkurtai atkurtos atkurtą
+94	4494	įsigijimas	įsigijimai įsigijimams įsigijimo įsigijimu įsigijimui įsigijimus įsigijimą įsigijimų
+95	4495	azotas	azoto azotu azotą
+96	4496	šalutinis	šalutine šalutiniai šalutiniais šalutinio šalutiniu šalutinius šalutinių šalutinį
+97	4497	dosnus	dosnesni dosni dosniai dosnias dosniau dosniausi dosniausiai dosniausias dosnios dosnius dosnią dosnių dosnūs dosnų
+98	4498	infekcinis	infekcine infekcines infekcinių infekcinė infekcinėmis infekcinėms infekcinės infekcinę
+99	4499	klounas	klounai klounais klounams kloune klouno klounu klounui klounus klouną klounų
+100	4500	varpas	varpais varpe varpo varpu varpui varpus

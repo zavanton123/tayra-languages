@@ -1,0 +1,100 @@
+1	101	gal	
+2	102	gyvenimas	gyvenimai gyvenimais gyvenimams gyvenime gyvenimo gyvenimu gyvenimui gyvenimuose gyvenimus gyvenimą gyvenimų
+3	103	pasaulis	pasauli pasauliai pasauliais pasauliams pasaulio pasauliu pasauliui pasauliuose pasaulius pasaulių pasaulyje pasaulį
+4	104	mažas	maža mažais mažam mažame mažasis mažesnes mažesni mažesnio mažesnis mažesniu mažesnius mažesnių mažesnė mažesnės mažesnę mažesnį maži mažiau mažiausia mažiausiai mažiausias mažiausių mažieji mažo mažoje mažoji mažojo mažojoje mažomis mažos mažosios mažu mažuoju mažus mažą mažąją mažąjį mažų mažųjų
+5	105	padėti	padeda padedama padedamas padedame padedami padedant padedantis padedat padedate padedi padedu padėdamas padėdavo padėjai padėjau padėjo padėjome padėjot padėjote padėjus padėjęs padėk padėkim padėkime padėkit padėkite padės padėsi padėsim padėsime padėsit padėsite padėsiu padėtum padėtume padėtumėte padėtų padėčiau tepadeda
+6	106	jog	jogi
+7	107	svarbus	svarbaus svarbesni svarbesnio svarbesnis svarbesniu svarbesnių svarbesnė svarbesnės svarbi svarbia svarbiai svarbiais svarbiam svarbiame svarbias svarbiau svarbiausi svarbiausia svarbiausiais svarbiausias svarbiausio svarbiausiomis svarbiausios svarbiausiose svarbiausiu svarbiausius svarbiausią svarbiausių svarbiems svarbiomis svarbios svarbiose svarbiu svarbius svarbią svarbių svarbu svarbūs svarbų
+8	108	dalis	dali daliai dalies dalimi dalimis dalims daliui dalyje dalys dalyse dalį
+9	109	tikras	tikra tikrais tikraisiais tikrajam tikrajame tikram tikrame tikrasis tikresnis tikri tikriausi tikriausia tikriausiai tikriausias tikriausią tikrieji tikriems tikro tikroje tikroji tikrojo tikrom tikromis tikroms tikros tikrose tikrosios tikru tikruoju tikruose tikruosius tikrus tikrą tikrąja tikrąją tikrąjį tikrąsias tikrų tikrųjų
+10	110	todėl	todėl
+11	111	vyras	vyrai vyrais vyrams vyraus vyre vyresniaisiais vyresnieji vyresniesiems vyresniąja vyresniųjų vyresnėmis vyresnėms vyri vyrių vyro vyru vyrui vyruose vyrus vyrą vyrų
+12	112	gauti	gaudavo gauk gaukite gauna gaunama gaunamas gauname gaunami gaunamos gaunamų gaunant gaunate gauni gaunu gaus gausi gausim gausime gausit gausite gausiu gauta gautas gautos gautum gautume gautus gautą gautų gaučiau gavai gavau gavo gavom gavome gavot gavote gavus gavęs
+13	113	pradėti	pradeda pradedam pradedamas pradedame pradedant pradedantis pradedat pradedate pradedi pradedu pradėdamas pradėdavau pradėdavo pradėjai pradėjau pradėjo pradėjom pradėjome pradėjot pradėjote pradėjus pradėjęs pradėk pradėkim pradėkime pradėkit pradėkite pradės pradėsi pradėsim pradėsime pradėsit pradėsite pradėsiu pradėtum pradėtume pradėtumėte pradėtų pradėčiau
+14	114	savęs	sau save savim savimi savy savyje
+15	115	kelias	keliai keliais keliams kelio keliu keliui keliuose kelius kelią kelių kely kelyje
+16	116	dirbti	dirba dirbai dirbam dirbame dirbant dirbančių dirbat dirbate dirbau dirbdamas dirbdavau dirbdavo dirbdavome dirbi dirbk dirbkim dirbkime dirbkit dirbkite dirbo dirbom dirbome dirbot dirbote dirbs dirbsi dirbsim dirbsime dirbsit dirbsite dirbsiu dirbtinai dirbtum dirbtume dirbtų dirbu dirbus dirbčiau dirbęs
+17	117	tiesiog	
+18	118	tada	
+19	119	na	
+20	120	kiek	
+21	121	tapti	tampa tampam tampame tampant tampantis tampate tampi tampu tapai tapau tapdamas tapdavo tapk tapkime tapkite tapo tapom tapome tapot tapote taps tapsi tapsiantis tapsim tapsime tapsit tapsite tapsiu taptum taptume taptumėt taptumėte taptų tapus tapčiau tapęs
+22	122	atrodyti	atrodai atrodant atrodantis atrodau atrodei atrodo atrodom atrodome atrodot atrodote atrodydamas atrodydavo atrodyk atrodykit atrodykite atrodys atrodysi atrodysim atrodysime atrodysite atrodysiu atrodytum atrodytume atrodytumėme atrodytumėt atrodytumėte atrodytų atrodyčiau atrodė atrodėm atrodėme atrodėt atrodėte atrodęs atrodžiau
+23	123	šeima	šeimai šeimą šeimai šeimas šeimoje šeimomis šeimoms šeimos šeimose šeimą šeimų
+24	124	draugas	draugai draugais draugams drauge draugei drauges draugi draugių draugo draugu draugui draugus draugą draugė draugėje draugėmis draugėms draugės draugę draugų
+25	125	jeigu	
+26	126	pagal	
+27	127	dievas	dievai dievais dievams dieve dievo dievu dievui dievus dievą dievų
+28	128	kol	
+29	129	tėvas	tėvai tėvais tėvams tėve tėvo tėvu tėvui tėvus tėvą tėvų
+30	130	juk	
+31	131	vykti	vyk vykai vykau vykdamas vykdavau vykdavo vykime vykit vykite vyko vykom vykome vykote vyks vyksi vyksiantis vyksim vyksime vyksit vyksite vyksiu vyksta vykstam vykstame vykstant vykstantis vykstat vykstate vyksti vykstu vyktum vyktume vyktumėte vyktų vykčiau vykęs
+32	132	kalbėti	kalbam kalbama kalbame kalbant kalbantis kalbat kalbate kalbi kalbu kalbėdavai kalbėdavo kalbėdavome kalbėjai kalbėjau kalbėjo kalbėjom kalbėjome kalbėjot kalbėjote kalbėjęs kalbėk kalbėkim kalbėkime kalbėkit kalbėkite kalbės kalbėsi kalbėsim kalbėsime kalbėsit kalbėsite kalbėsiu kalbėtum kalbėtume kalbėtumėme kalbėtumėt kalbėtumėte kalbėtų kalbėčiau
+33	133	moteris	moteri moteriai moterie moteries moterimi moterimis moterims moters moteryje moterys moterį moterų
+34	134	valstybė	valstybe valstybei valstybes valstybė valstybėje valstybės valstybių valstybėje valstybėmis valstybėms valstybės valstybėse valstybę
+35	135	prašyti	prašai prašant prašantis prašau prašei prašiau prašo prašom prašoma prašomas prašome prašot prašote prašydamas prašydavo prašyk prašykit prašykite prašys prašysi prašysim prašysime prašysit prašysiu prašyta prašytas prašytum prašytume prašytų prašyčiau prašė prašėm prašėme prašėt prašėte prašęs
+36	136	ačiū	
+37	137	greitai	greičiau greičiausiai
+38	138	gyventi	gyvena gyvenai gyvenam gyvenamas gyvename gyvenamųjų gyvenant gyvenantis gyvenat gyvenate gyvenau gyvendamas gyvendavo gyveni gyvenk gyvenkime gyvenkit gyvenkite gyveno gyvenom gyvenome gyvenot gyvenote gyvens gyvensi gyvensim gyvensime gyvensit gyvensite gyvensiu gyventum gyventume gyventumėt gyventumėte gyventų gyvenu gyvenus gyvenčiau gyvenęs
+39	139	ateiti	ateidavo ateik ateikit ateikite ateina ateinam ateiname ateinantiems ateinantis ateinantys ateinantį ateinančiais ateinančias ateinančio ateinančios ateinančius ateinančią ateinančių ateini ateinu ateis ateisi ateisim ateisime ateisit ateisite ateisiu ateitum ateitų ateičiau atėjai atėjau atėjo atėjom atėjome atėjot atėjote atėjęs teateinie
+40	140	mokykla	mokyklai mokyklas mokykloje mokyklomis mokykloms mokyklos mokyklose mokyklą mokyklų
+41	141	štai	
+42	142	pinigas	pinigai pinigais pinigams pinigo pinigu pinigui piniguose pinigus pinigą pinigų
+43	143	naudoti	naudodamas naudodavo naudoja naudojai naudojam naudojama naudojamais naudojamas naudojame naudojami naudojamo naudojamos naudojamu naudojamus naudojamą naudojamų naudojant naudojantis naudojat naudojate naudojau naudoji naudojimas naudojimo naudojimu naudojimui naudojimą naudojo naudojome naudojote naudoju naudok naudokite naudos naudosi naudosime naudosite naudosiu naudotų
+44	144	ponas	ponai ponais ponams pone pono ponu ponui ponus poną ponų
+45	145	kartu	
+46	146	kiekvienas	kiekviena kiekvienai kiekvienais kiekvienam kiekviename kiekvieną kiekvieni kiekvieniems kiekvieno kiekvienoj kiekvienoje kiekvienomis kiekvienoms kiekvienos kiekvienose kiekvienu kiekvienuose kiekvienus kiekvieną kiekvienų
+47	147	joks	jokia jokiai jokiais jokiam jokiame jokias jokie jokiems jokio jokioje jokiomis jokioms jokios jokiose jokiu jokiuose jokius jokią jokių jokį
+48	148	centras	centrai centrais centrams centre centro centru centrui centruose centrus centrų centrą centrų
+49	149	kalba	kalbai kalbas kalboje kalbomis kalboms kalbos kalbose kalbą kalbų
+50	150	trys	trijose trijuose trijų trimis trims tris
+51	151	skirti	skirdamas skirdavo skiria skiriama skiriamas skiriamasis skiriame skiriami skiriamoji skiriamos skiriamą skiriamų skiriant skiriu skirk skirkite skirs skirsime skirsite skirsiu skirta skirtais skirtame skirtas skirto skirtoje skirtomis skirtos skirtose skirtu skirtuose skirtus skirtą skirtų skyriau skyrus skyrė skyrėme skyręs
+52	152	tiesa	tiesai tiesas tiesoje tiesomis tiesos tiesą
+53	153	žemė	žeme žemei žemes žemių žemėje žemėmis žemės žemėse žemę žemų
+54	154	rasti	radai radau rado radom radome radot radote radus radęs randa randam randamas randame randant randat randate randi randu ras rasdavo rasdavome rasi rasim rasime rasit rasite rasiu rask raskim raskime raskit raskite rastas rastum rastume rastumėt rastumėte rastų rasčiau
+55	155	vanduo	vandeniai vandeniams vandenimis vandenims vandenio vandenis vandeniu vandeniui vandenių vandens vandenyje vandenys vandenyse vandenį vandenų
+56	156	tarp	
+57	157	leisti	leidai leidau leidi leido leidome leidot leidote leidus leidęs leidžia leidžiam leidžiame leidžiant leidžiantis leidžiat leidžiate leidžiu leisdamas leisdavo leisi leisim leisime leisit leisite leisiu leisk leiskim leiskime leiskit leiskite leista leistas leistina leistinas leistinos leistiną leistum leistų leisčiau
+58	158	dažnai	dažniau dažniausiai
+59	159	savaitė	savaite savaitei savaites savaitėje savaitėmis savaitėms savaitės savaitę savaičių
+60	160	kažkas	kažkas kažkam kažkieno kažko kažkuo kažką
+61	161	grupė	grupe grupei grupes grupė grupėmis grupių grupėje grupėmis grupėms grupės grupėse grupę
+62	162	savivaldybė	savivaldybe savivaldybei savivaldybes savivaldybių savivaldybėje savivaldybėmis savivaldybėms savivaldybės savivaldybėse savivaldybę
+63	163	antras	antra antrai antrais antraisiais antrajai antrajam antrajame antram antrame antrasis antri antrieji antriems antro antroje antroji antrojo antrojoje antromis antroms antros antrose antrosiomis antrosios antrosiose antru antruoju antruose antruosius antrus antrą antrąja antrąją antrąjį antrąsias antrų antrųjų
+64	164	vardas	vardai vardais varde vardi vardo vardu vardui vardus vardą vardų
+65	165	mirti	mirdavo mirei miriau mirk mirs mirsi mirsim mirsime mirsit mirsite mirsiu mirtinai mirtum mirtų mirusi mirusiais mirusiam mirusieji mirusiems mirusio mirusiojo mirusios mirusiu mirusiuosius mirusius mirusių mirusiųjų mirusysis mirusį mirusįjį mirčiau mirė mirę miręs miršta mirštame mirštantis miršti mirštu
+66	166	sistema	sistemai sistemas sistemą sistemoje sistemomis sistemoms sistemos sistemose sistemą sistemų
+67	167	vakaras	vakarai vakarais vakarams vakare vakaro vakaru vakarui vakaruose vakarus vakarą vakarė vakarų
+68	168	puikus	puikaus puikesni puikesnė puikesnę puiki puikia puikiais puikiam puikiame puikias puikiausi puikiausia puikiausiai puikiausias puikiausios puikiausius puikiausią puikiausių puikieji puikiems puikiesiems puikioje puikioji puikiojo puikiomis puikios puikiosios puikiu puikiuose puikiuosius puikius puikią puikiąja puikiąją puikių puiku puikusis puikūs puikųjį
+69	169	šiandien	šiandien
+70	170	grįžti	grįžtu grįš grįši grįšim grįšime grįšit grįšite grįšiu grįžai grįžau grįždamas grįždavau grįždavo grįždavome grįžk grįžkim grįžkime grįžkit grįžkite grįžo grįžom grįžome grįžot grįžote grįžta grįžtam grįžtame grįžtant grįžtat grįžtate grįžtu grįžtum grįžtume grįžtumėt grįžtumėte grįžtų grįžus grįžčiau grįžęs
+71	171	pas	
+72	172	ranka	rankai rankas rankoje rankomis rankoms rankos rankose ranką rankų
+73	173	patikti	nepatinka patik patikai patikau patikdavo patikime patiko patikome patikot patikote patiks patiksi patiksime patiksit patiksiu patiktum patiktų patikčiau patikęs patinka patinkam patinkame patinkantis patinkat patinkate patinki patinku
+74	174	laukti	lauk laukdama laukdamas laukdami laukdavau laukdavo laukei lauki laukia laukiam laukiama laukiamajame laukiamas laukiame laukiami laukiamos laukiamą laukiant laukiantis laukiat laukiate laukiau laukit laukite laukiu lauks lauksi lauksim lauksime lauksite lauksiu lauktas lauktų laukus laukė laukėm laukėme laukėte laukęs
+75	175	taigi	
+76	176	atlikti	atlieka atliekam atliekama atliekamas atliekame atliekant atliekantis atliekas atliekate atlieki atliekomis atliekoms atliekos atlieku atliekų atlik atlikai atlikau atlikdamas atlikdavo atlikime atlikite atliko atlikom atlikome atlikote atliks atliksi atliksim atliksime atliksite atliksiu atlikta atliktas atliktum atliktumėte atliktų atlikus atlikęs
+77	177	mama	mamai mamas mamomis mamoms mamos mamą mamų
+78	178	mėnuo	mėnesi mėnesiai mėnesiais mėnesiams mėnesio mėnesiu mėnesiui mėnesius mėnesių mėnesį
+79	179	rajonas	rajonai rajonais rajonams rajone rajono rajonu rajonui rajonuose rajonus rajoną rajonų
+80	180	komanda	komandai komandas komandoje komandomis komandoms komandos komandose komandą komandų
+81	181	narys	nare narei nares nariai nariais nariams nario nariu nariui narius narių nary narė narėje narėmis narėms narės narėse narę narį
+82	182	likti	lieka liekam liekame liekant liekantis liekat liekate lieku lik likai likau likdavau likdavo liki likim likit likite liko likom likome likot likote liks liksi liksim liksime liksit liksite liksiu likte liktinai liktum liktume liktumėm liktumėt liktumėte liktų likčiau telieka
+83	183	žinoma	
+84	184	pusė	puse pusei puses pusių pusėje pusėmis pusėms pusės pusėse pusę
+85	185	visada	visad visados
+86	186	teisė	teise teisei teises teisių teisėje teisėmis teisėms teisės teisę
+87	187	įvairus	įvairaus įvairesni įvairesnio įvairesnis įvairesnių įvairesnė įvairesnį įvairi įvairia įvairiai įvairiais įvairias įvairiau įvairiausi įvairiausiais įvairiausias įvairiausiems įvairiausio įvairiausiomis įvairiausioms įvairiausios įvairiausiose įvairiausiuose įvairiausius įvairiausią įvairiausių įvairiems įvairiom įvairiomis įvairioms įvairios įvairiose įvairiu įvairiuose įvairius įvairią įvairių įvairūs įvairų
+88	188	tyrimas	tyrimai tyrimais tyrimams tyrime tyrimo tyrimu tyrimui tyrimuose tyrimus tyrimą tyrimų
+89	189	gyventojas	gyventoja gyventojai gyventojais gyventojams gyventojau gyventojo gyventojoms gyventojos gyventoju gyventojui gyventojus gyventoją gyventojų
+90	190	klausimas	klausimai klausimais klausimams klausime klausimo klausimu klausimui klausimuose klausimus klausimą klausimų
+91	191	automobilis	automobili automobiliai automobiliais automobiliams automobilio automobiliu automobiliui automobiliuose automobilius automobilių automobilių automobilį automobilyje automobilį
+92	192	atvejis	atvejai atvejams atveji atvejo atveju atvejui atvejus atvejyje atvejį atvejų
+93	193	dalykas	dalykai dalykais dalykams dalyke dalyko dalyku dalykui dalykuose dalykus dalyką dalykų
+94	194	niekada	niekad
+95	195	istorija	istorijai istorijas istorijoje istorijomis istorijoms istorijos istorijose istoriją istorijų
+96	196	atleisti	atleidai atleidau atleidi atleido atleidom atleidome atleidot atleidote atleidus atleidęs atleidžia atleidžiam atleidžiamas atleidžiame atleidžiami atleidžiant atleidžiat atleidžiate atleidžiu atleis atleisdamas atleisi atleisim atleisit atleisite atleisiu atleisk atleiski atleiskit atleiskite atleista atleistas atleistos atleistum atleistume atleistumėte atleistų atleisčiau teatleidžia
+97	197	rytas	ryta rytai rytais rytams ryte ryto rytu rytui rytuose rytus rytą rytų
+98	198	asmuo	asmenimis asmenims asmenis asmeniu asmeniui asmens asmenyje asmenys asmenį asmenų
+99	199	veikla	veiklai veiklas veiklą veikloje veiklomis veikloms veiklos veiklose veiklą veiklų
+100	200	problema	problemai problemas problemoje problemomis problemoms problemos problemose problemą problemų

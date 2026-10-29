@@ -1,0 +1,100 @@
+1	3501	bananas	bananai bananais bananams banane banano bananu bananui bananuose bananus bananą bananų
+2	3502	dirbinys	dirbiniai dirbiniais dirbiniams dirbinio dirbinius dirbinių dirbinį
+3	3503	apžiūra	apžiūrai apžiūras apžiūros apžiūrą apžiūrų
+4	3504	įkvėptas	įkvėpta įkvėpti įkvėpto įkvėptos įkvėptu įkvėptus įkvėptą įkvėptų
+5	3505	šlapimas	šlapime šlapimo šlapimu šlapimą
+6	3506	švyturys	švyturiai švyturiais švyturio švyturiu švyturiui švyturius švyturių švyturyje švyturį
+7	3507	aptiktas	aptikta aptikto aptiktos aptiktu aptiktus aptiktą
+8	3508	drėgnas	drėgna drėgname drėgnesnis drėgnesnė drėgni drėgno drėgnoje drėgnomis drėgnos drėgnose drėgnu drėgnuose drėgnus drėgną drėgnų drėgnųjų
+9	3509	terasa	terasoje terasomis terasos terasose terasą terasų
+10	3510	lubos	lubas lubomis lubose lubų
+11	3511	ryklys	rykliai rykliais rykliams ryklio rykliu ryklius ryklių ryklį
+12	3512	gedėti	gedi gedimai gedimams gedimas gedime gedimo gedimui gedimus gedimą gedimų gedint gedite gedėdamas gedėjai gedėjau gedėjo gedėjome gedės gedėsi gedėtume gedėtų gedžiu
+13	3513	majoras	majoro majoru majorui majorą
+14	3514	lankas	lankais lanke lanko lankoje lanku lankus lanką lankų
+15	3515	stabdys	stabdy stabdį stabdžiai stabdžiais stabdžiams stabdžio stabdžiu stabdžius stabdžių
+16	3516	antraip	
+17	3517	dailus	dailaus dailesnė daili dailia dailiai dailiais dailias dailiau dailioji dailiojo dailios dailiosios dailiu dailius dailią dailiųjų dailusis dailūs dailų
+18	3518	atlikimas	atlikimo atlikimu atlikimui atlikimą
+19	3519	automatiškas	automatiškai
+20	3520	rankšluostis	rankšluostį rankšluosčiai rankšluosčiais rankšluosčio rankšluosčiu rankšluosčius rankšluosčių
+21	3521	augintinis	augintiniai augintiniais augintiniams augintinio augintiniu augintiniui augintinius augintinių augintinį
+22	3522	zodiakas	zodiakai zodiake zodiako zodiaku zodiakui zodiaką zodiakų
+23	3523	iškeltas	iškelta iškelto iškeltomis iškeltos iškeltus iškeltą
+24	3524	komisaras	komisarai komisare komisaro komisaru komisarui komisarą komisarė komisarų
+25	3525	iškeliauti	iškeliauja iškeliaujam iškeliaujame iškeliaujant iškeliauji iškeliauju iškeliaus iškeliausi iškeliausime iškeliausiu iškeliautum iškeliautų iškeliavai iškeliavau iškeliavo iškeliavom iškeliavome iškeliavus iškeliavęs
+26	3526	kruopštus	kruopštaus kruopštūs kruopštų kruopščiai kruopščios kruopščiu kruopščių
+27	3527	filosofas	filosofai filosofo filosofu filosofui filosofus filosofą filosofų
+28	3528	aprūpinti	aprūpina aprūpindavo aprūpino aprūpins aprūpintų
+29	3529	drėgmė	drėgme drėgmei drėgmės drėgmę
+30	3530	sužaloti	sužaloja sužalojai sužalojau sužalojo sužalojote sužalojęs sužalok sužalos sužalota sužalotam sužalotas sužalotasis sužaloto sužalotos sužalotus sužalotą sužalotų sužaločiau
+31	3531	litas	litais lite lito litui litus litą litų
+32	3532	įkaitas	įkaitai įkaitais įkaitams įkaite įkaito įkaitu įkaitus įkaitą įkaitų
+33	3533	drįsti	drįs drįsai drįsau drįsdavo drįsiu drįso drįsot drįsta drįstame drįstat drįstate drįstu drįstų drįsčiau
+34	3534	linkėjimas	linkėjimai linkėjimais linkėjimus linkėjimą linkėjimų
+35	3535	krikščioniškas	krikščioniška krikščioniškai krikščioniškame krikščioniškasis krikščioniški krikščioniško krikščioniškoje krikščioniškoji krikščioniškojo krikščioniškos krikščioniškosios krikščioniškuosiuose krikščionišką krikščioniškąją krikščioniškąsias krikščioniškų krikščioniškųjų
+36	3536	raiška	raiškai raiškos raišką
+37	3537	kovinis	kovine kovinei kovines koviniai koviniais kovinio koviniu kovinius kovinių kovinė kovinėje kovinėmis kovinės kovinę kovinį
+38	3538	prieskonis	prieskoniai prieskoniais prieskonio prieskoniu prieskonius prieskonių prieskonį
+39	3539	džiuginti	džiugina džiugindavo džiugino džiugins džiugintų
+40	3540	įvardyti	įvardija įvardijo įvardys įvardytumėte įvardytų įvardyčiau
+41	3541	giesmė	giesme giesmei giesmes giesmių giesmėmis giesmės giesmę
+42	3542	vampyras	vampyrai vampyrais vampyrams vampyre vampyro vampyru vampyrui vampyrus vampyrą vampyrė vampyrų
+43	3543	genas	genai genais geno genuose geną genų
+44	3544	nematytas	nematyta nematytais nematyti nematyto nematytos nematytu nematytus nematytą nematytų
+45	3545	kazino	
+46	3546	žavėtis	žaviesi žavimės žavisi žavitės žaviuosi žavėjausi žavėjosi žavėtųsi
+47	3547	persekioti	persekiodavo persekioja persekiojo persekios persekiotų
+48	3548	pusfinalis	pusfinaliai pusfinalio pusfinaliuose pusfinalius pusfinalių pusfinalyje pusfinalį
+49	3549	ištekėjęs	ištekėjus ištekėjusi ištekėjusia ištekėjusiai ištekėjusios ištekėjusią
+50	3550	pilė	pilį
+51	3551	absoliutus	absoliutaus absoliuti absoliutūs absoliutų absoliučia absoliučiais absoliučioje absoliučios absoliučiu absoliučius absoliučią absoliučių
+52	3552	kenkti	kenki kenkia kenkiant kenkiantis kenkiate kenkiu kenks kenktų kenkė
+53	3553	atsiimti	atsiima atsiimdavo atsiims atsiimtų atsiėmiau atsiėmė
+54	3554	psichika	psichikai psichikoje psichikos psichiką
+55	3555	išgyvenimas	išgyvenimas išgyvenimai išgyvenimais išgyvenimo išgyvenimu išgyvenimui išgyvenimus išgyvenimą išgyvenimų
+56	3556	auklė	aukle auklei aukles auklių auklėmis auklėms auklės auklę
+57	3557	sargyba	sargyboje sargybos sargybą
+58	3558	voras	vorai vorais vore voro voru vorui vorus vorą vorų
+59	3559	parodymas	parodymai parodymais parodymams parodymo parodymuose parodymus parodymą parodymų
+60	3560	liudijimas	liudijimai liudijimais liudijimams liudijime liudijimo liudijimu liudijimus liudijimą liudijimų
+61	3561	savižudybė	savižudybe savižudybei savižudybes savižudybių savižudybėmis savižudybės savižudybę
+62	3562	šventasis	šventoji
+63	3563	užsidėti	užsideda užsidedi užsidedu užsidėjau užsidėjo užsidėk užsidėkite užsidėtų
+64	3564	diplomatinis	diplomatine diplomatinei diplomatines diplomatiniai diplomatiniais diplomatiniam diplomatiniame diplomatiniams diplomatinio diplomatiniu diplomatiniuose diplomatinius diplomatinių diplomatinė diplomatinėje diplomatinėmis diplomatinėms diplomatinės diplomatinėse diplomatinę diplomatinį
+65	3565	maišyti	maišai maišant maišau maišiau maišo maišoma maišomas maišome maišomi maišomos maišot maišote maišyk maišykim maišykite maišys maišysi maišysite maišytas maišytų maišyčiau maišė
+66	3566	priešgaisrinis	priešgaisrinei priešgaisriniai priešgaisrinio priešgaisrinius priešgaisrinių priešgaisrinė priešgaisrinėje priešgaisrinėms priešgaisrinės priešgaisrinę
+67	3567	juridinis	juridiniai juridiniais juridiniam juridiniams juridinio juridiniu juridinius juridinių juridinė juridinėje juridinės juridinę juridinį
+68	3568	redaguoti	redagavo redaguoja
+69	3569	šlapias	šlapi šlapia šlapiai šlapiais šlapio šlapioje šlapiomis šlapios šlapiu šlapius šlapią šlapių
+70	3570	ekspedicija	ekspedicijai ekspedicijas ekspedicijoje ekspedicijoms ekspedicijos ekspedicijose ekspediciją ekspedicijų
+71	3571	upelis	upeli upeliai upeliais upelio upeliu upeliuose upelius upelių upelyje upelį
+72	3572	užkandis	užkandį užkandžiai užkandžiais užkandžiams užkandžio užkandžiu užkandžiui užkandžius užkandžių
+73	3573	nepasitikėti	nepasitiki nepasitikime nepasitikite nepasitikiu nepasitikėjau nepasitikėjo nepasitikėkite nepasitikės
+74	3574	būtinybė	būtinybe būtinybei būtinybės būtinybę
+75	3575	ištrūkti	ištrūko ištrūksta ištrūktų
+76	3576	logika	logikai logikos logiką
+77	3577	atitinkantis	atitinkanti atitinkantiems atitinkantys atitinkantį atitinkančia atitinkančiais atitinkančias atitinkančio atitinkančioje atitinkančiomis atitinkančioms atitinkančios atitinkančiu atitinkančius atitinkančią atitinkančių
+78	3578	apskaičiuoti	apskaičiavai apskaičiavau apskaičiavo apskaičiavom apskaičiavote apskaičiavus apskaičiuoja apskaičiuojam apskaičiuojant apskaičiuojantis apskaičiuoju apskaičiuok apskaičiuokime apskaičiuokit apskaičiuokite apskaičiuos apskaičiuosime apskaičiuosiu apskaičiuota apskaičiuotas apskaičiuotum apskaičiuotų
+79	3579	prieglauda	prieglaudai prieglaudas prieglaudoje prieglaudos prieglaudose prieglaudą prieglaudų
+80	3580	mechaninis	mechanine mechanines mechaniniai mechaniniam mechaninio mechaniniu mechaninius mechaninių mechaninė mechaninės mechaninę mechaninį
+81	3581	statybinis	statybines statybiniai statybiniais statybinio statybinius statybinių statybinė statybinėmis statybinėms statybinės statybinę statybinį
+82	3582	atvaizdas	atvaizdai atvaizdais atvaizdams atvaizdo atvaizdu atvaizduose atvaizdus atvaizdą atvaizdų
+83	3583	nusižudyti	nusižudant nusižudo nusižudydavo nusižudyk nusižudys nusižudysi nusižudysiu nusižudytum nusižudyčiau nusižudė nusižudęs
+84	3584	universitetinis	universitete universitetinei universitetines universitetinio universitetiniu universitetinių universitetinė universitetinėje universitetinės universitetinę universitetinį
+85	3585	paragauti	paragauja paragaukite paragaus paragavau paragavo
+86	3586	vyriškis	vyriškiai vyriškio vyriškiu vyriškiui vyriškį
+87	3587	neįvykti	neįvyko neįvyks neįvyksta neįvyktų
+88	3588	palaikai	palaikais palaikus palaikų
+89	3589	burtininkas	burtininkai burtininkais burtininkams burtininke burtininko burtininku burtininkui burtininkus burtininką burtininkė burtininkų
+90	3590	išvyka	išvykas išvykoje išvykoms išvykos išvykose išvyką išvykų
+91	3591	kentėti	kentėjau kentėjo kentės kentėtų kenčiu
+92	3592	fiziškas	fiziškai fiziškai
+93	3593	žvakė	žvake žvakes žvakių žvakėmis žvakės žvakę
+94	3594	atsitikimas	atsitikimai atsitikimo atsitikimu atsitikimus atsitikimą atsitikimų
+95	3595	rėkti	rėk rėkdamas rėkdavo rėkei rėki rėkiam rėkiant rėkiantis rėkiat rėkiau rėkit rėkiu rėks rėksi rėksiu rėkte rėktų rėkčiau rėkė rėkėt rėkęs
+96	3596	padaugėti	padaugėja padaugėjo padaugės padaugėtų
+97	3597	kopūstas	kopūstai kopūstais kopūsto kopūstui kopūstuose kopūstus kopūstą kopūstų
+98	3598	grafika	grafikos
+99	3599	prezidentūra	prezidentūrai prezidentūroje prezidentūros prezidentūrą
+100	3600	pirmauti	pirmauja pirmaujame pirmavo

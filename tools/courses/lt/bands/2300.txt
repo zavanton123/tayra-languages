@@ -1,0 +1,100 @@
+1	2201	alga	algai algas algomis algoms algos algą algų
+2	2202	paskirti	paskirdavo paskiri paskiria paskirkite paskirs paskirtų paskyriau paskyrė paskyrėme
+3	2203	triukšmas	triukšmo triukšmu triukšmui triukšmą
+4	2204	abejoti	abejodamas abejoja abejojai abejojam abejojame abejojant abejojantis abejojate abejojau abejoji abejojo abejoju abejojąs abejojęs abejotinai abejotinas abejotų abejočiau
+5	2205	sprogimas	sprogimai sprogimams sprogimo sprogimu sprogimui sprogimus sprogimą sprogimų
+6	2206	puolimas	puolimai puolime puolimo puolimu puolimui puolimus puolimą puolimų
+7	2207	dešinys	dešiniaisiais dešiniajai dešiniajam dešiniajame dešinieji dešiniesiems dešinio dešinioji dešiniojo dešiniojoje dešiniosios dešiniu dešiniuoju dešiniuosius dešiniąja dešiniąją dešiniųjų dešinysis dešinį dešinįjį
+8	2208	judesys	judesiai judesiais judesio judesiu judesiui judesius judesių judesy judesį
+9	2209	išlaidos	išlaidas išlaidomis išlaidoms
+10	2210	nesutikti	nesutikau nesutiko nesutikome nesutiks nesutiksi nesutiksime nesutiksite nesutiksiu nesutiktų nesutikčiau nesutinka nesutinkame nesutinkate nesutinki nesutinku
+11	2211	jungtis	jungiasi jungsis jungties jungtimi jungtimis jungtims jungtys jungtį jungtųsi jungčiai jungčių jungėsi junkis junkitės
+12	2212	gelbėjimas	gelbėjimo gelbėjimu gelbėjimui gelbėjimą
+13	2213	nukentėjęs	nukentėjus nukentėjusi nukentėjusia nukentėjusiai nukentėjusiaisiais nukentėjusiajai nukentėjusiajam nukentėjusiam nukentėjusiame nukentėjusias nukentėjusieji nukentėjusiems nukentėjusiesiems nukentėjusio nukentėjusioje nukentėjusioji nukentėjusiojo nukentėjusioms nukentėjusios nukentėjusiosios nukentėjusiuoju nukentėjusiuose nukentėjusiuosius nukentėjusius nukentėjusią nukentėjusiąja nukentėjusiąją nukentėjusių nukentėjusiųjų nukentėjusysis nukentėjusį nukentėjusįjį nukentėję
+14	2214	palydovas	palydovai palydovais palydovams palydove palydovių palydovo palydovu palydovui palydovus palydovą palydovė palydovės palydovę palydovų
+15	2215	užfiksuotas	užfiksuota užfiksuotais užfiksuoto užfiksuotos užfiksuotu užfiksuotus užfiksuotą
+16	2216	sultys	sultimis sultims sultis sultyse sulčiu sulčių
+17	2217	paveikti	paveiks paveiktų paveikė
+18	2218	video	
+19	2219	pulkininkas	pulkininkai pulkininke pulkininko pulkininku pulkininkui pulkininką pulkininkė
+20	2220	užpakalis	užpakaliai užpakaliais užpakalio užpakaliu užpakaliui užpakaliuose užpakalius užpakalių užpakalyje užpakalį
+21	2221	šaldytuvas	šaldytuvai šaldytuve šaldytuvo šaldytuvu šaldytuvuose šaldytuvus šaldytuvą šaldytuvų
+22	2222	veikimas	veikimo veikimu veikimui veikimą
+23	2223	patraukti	patrauk patraukdavo patraukia patraukiame patraukite patraukiu patrauks patrauktų
+24	2224	mažytis	mažyte mažytes mažytė mažytėje mažytėmis mažytės mažytę mažytį mažyčiai mažyčiame mažyčio mažyčiu mažyčius mažyčių
+25	2225	pasiilgti	pasiilgai pasiilgau pasiilgo pasiilgome pasiilgote pasiilgs pasiilgsiu pasiilgsta pasiilgsti pasiilgstu
+26	2226	susirgimas	susirgimai susirgimais susirgimams susirgimo susirgimus susirgimą susirgimų
+27	2227	kapinės	kapines kapinėse
+28	2228	patyręs	patyrusi patyrusia patyrusiais patyrusiam patyrusiems patyrusio patyrusios patyrusiu patyrusius patyrusią patyrusių patyrusį patyrę
+29	2229	atminimas	atminimo atminimu atminimui atminimą
+30	2230	nežinomas	nežinoma nežinomam nežinomasis nežinomi nežinomo nežinomoje nežinomos nežinomu nežinomus nežinomą nežinomų nežinomųjų
+31	2231	konservatorius	konservatoriai konservatoriais konservatoriams konservatoriaus konservatoriui konservatoriumi konservatorių
+32	2232	piešinys	piešiniai piešiniais piešinio piešiniu piešiniuose piešinius piešinių piešinyje piešinį
+33	2233	reitingas	reitingai reitingais reitingams reitinge reitingo reitingu reitinguose reitingus reitingą reitingų
+34	2234	tendencija	tendencijai tendencijas tendencijomis tendencijoms tendencijos tendencijose tendenciją tendencijų
+35	2235	rekomenduoti	rekomendavo rekomenduoja rekomenduojame rekomenduoju rekomenduos rekomenduotume rekomenduotumėte rekomenduotų rekomenduočiau
+36	2236	neigti	neigia neigiame neigiu neigs neigė neik neikite
+37	2237	marios	marias mariomis marioms mariose marių
+38	2238	žuvęs	žuvus žuvusi žuvusiais žuvusiam žuvusieji žuvusiems žuvusiesiems žuvusio žuvusiojo žuvusios žuvusiosios žuvusiu žuvusiuosius žuvusius žuvusių žuvusiųjų žuvusysis žuvusį žuvusįjį žuvę
+39	2239	žengti	žengdamas žengei žengi žengia žengiame žengiant žengiantis žengiat žengiate žengiau žengiu žengs žengsi žengsime žengsit žengsite žengsiu žengtas žengte žengtume žengtų žengus žengčiau žengė žengėme žengęs ženk ženkime ženkit ženkite
+40	2240	žvalgyba	žvalgybai žvalgyboje žvalgybos žvalgybą žvalgybų
+41	2241	dalyvavimas	dalyvavimo dalyvavimu dalyvavimui dalyvavimą
+42	2242	demokratija	demokratijai demokratijas demokratijoje demokratijomis demokratijoms demokratijos demokratijose demokratiją demokratijų
+43	2243	juokas	juokai juokais juoko juoku juokus juoką juokų
+44	2244	vagis	vagi vagie vagies vagimi vagimis vagims vagio vagiu vagiui vagių vagys vagį
+45	2245	riešutas	riešutai riešutais riešutams riešuto riešutu riešutuose riešutus riešutą riešutų
+46	2246	laisvai	laisviau
+47	2247	ginčas	ginčai ginčais ginčams ginče ginčo ginču ginčui ginčuose ginčus ginčą ginčų
+48	2248	vaistinė	vaistinei vaistines vaistinių vaistinėje vaistinėms vaistinės vaistinėse vaistinę
+49	2249	mityba	mitybai mityboje mitybos mitybą
+50	2250	atšaukti	atšaukia atšauks atšauksime atšauktų atšaukė
+51	2251	liūtas	liūtai liūtais liūtams liūte liūto liūtu liūtui liūtus liūtą liūtė liūtėmis liūtės liūtų liūčių
+52	2252	įkurti	įkuria įkurs įkurtų įkūriau įkūrė įkūrėme įkūrėte
+53	2253	ribotas	ribota ribotai ribotais ribotam riboti riboto ribotos ribotu ribotus ribotą ribotų
+54	2254	padanga	padangas padangoje padangomis padangoms padangos padangą padangų
+55	2255	nužudymas	nužudymai nužudymais nužudyme nužudymo nužudymu nužudymui nužudymus nužudymą nužudymų
+56	2256	tikrinti	tikrina tikriname tikrinau tikrindavo tikrinkite tikrino tikrinome tikrins tikrinsime tikrinsiu tikrintų tikrinu
+57	2257	susirgti	suserga susergi susirgai susirgau susirgdavo susirgo susirgs susirgsi susirgsiu susirgtų
+58	2258	žvėris	žvėrie žvėries žvėrimi žvėrimis žvėrims žvėriui žvėrių žvėrys žvėrį
+59	2259	filosofija	filosofijai filosofiją filosofijoje filosofijos filosofiją
+60	2260	nuleisti	nuleidau nuleido nuleidžia nuleidžiame nuleis nuleisk nuleiskite nuleistų
+61	2261	mažėti	mažėja mažėjo mažės mažėtų
+62	2262	frakcija	frakcijai frakcijas frakcijoje frakcijomis frakcijoms frakcijos frakcijose frakciją frakcijų
+63	2263	naudotas	naudota naudotais naudoto naudotojo naudotos naudotus naudotą naudotų
+64	2264	atitekti	atitekdavo atiteko atiteks atitektų atitenka
+65	2265	rūkyti	rūkai rūkant rūkau rūkei rūkiau rūko rūkot rūkote rūkydamas rūkydavo rūkydavome rūkyk rūkykit rūkykite rūkys rūkysi rūkysit rūkysite rūkysiu rūkytų rūkyčiau rūkė rūkėm rūkėt rūkęs
+66	2266	pripažintas	pripažinta pripažintai pripažintais pripažintam pripažintiems pripažintos pripažintu pripažintą
+67	2267	bėgimas	bėgimai bėgime bėgimo bėgimu bėgimui bėgimus bėgimą bėgimų
+68	2268	galioti	galioja galiojo galiotų
+69	2269	atmosfera	atmosferai atmosferoje atmosferos atmosferą atmosferų
+70	2270	pakeliui	
+71	2271	efektas	efektai efektais efektams efekto efektu efektui efektus efektą efektų
+72	2272	gauja	gaujai gaujas gaujoje gaujomis gaujoms gaujos gaują gaujų
+73	2273	motyvas	motyvai motyvais motyvo motyvu motyvus motyvą motyvų
+74	2274	užimtas	užimta užimtame užimto užimtoje užimtos užimtose užimtu užimtą užimtų užimtųjų
+75	2275	data	datai datas datomis datoms datos datą datų
+76	2276	metro	
+77	2277	stadionas	stadionai stadionams stadione stadiono stadionui stadionuose stadionus stadioną stadionų
+78	2278	išsilavinimas	išsilavinimo išsilavinimu išsilavinimui išsilavinimą
+79	2279	lūpa	lūpai lūpas lūpomis lūpoms lūpos lūpose lūpą lūpų
+80	2280	gyvatė	gyvate gyvatei gyvates gyvatėmis gyvatėms gyvatės gyvatę gyvačių
+81	2281	minia	miniai minias minioje miniomis minioms minios minią minių
+82	2282	ikiteisminis	ikiteisminiai ikiteisminiais ikiteisminiam ikiteisminiame ikiteisminio ikiteisminiu ikiteisminiuose ikiteisminius ikiteisminių ikiteisminį
+83	2283	pasireikšti	pasireikš pasireikštų pasireiškia pasireiškė
+84	2284	kosmosas	kosmose kosmoso kosmosu kosmosui kosmosus kosmosą
+85	2285	nemalonus	nemalonaus nemaloni nemalonia nemaloniai nemaloniais nemalonias nemaloniausia nemaloniausių nemalonioje nemaloniomis nemalonios nemalonius nemalonią nemalonu nemalonūs nemalonų
+86	2286	pažeistas	pažeista pažeisti pažeisto pažeistoje pažeistoms pažeistos pažeistose pažeistus pažeistą pažeistų
+87	2287	psichologas	psichologai psichologais psichologams psichologe psichologo psichologu psichologui psichologus psichologą psichologė psichologų
+88	2288	išreikšti	išreikš išreikškite išreikštų išreiškia išreiškiame išreiškiau išreiškiu išreiškė
+89	2289	nutarimas	nutarimai nutarimais nutarime nutarimo nutarimu nutarimui nutarimus nutarimą nutarimų
+90	2290	ketvirtis	ketvirti ketvirtyje ketvirtį ketvirčiai ketvirčiais ketvirčio ketvirčiu ketvirčiui ketvirčius ketvirčių
+91	2291	grūdas	grūdai grūdais grūdams grūdo grūduose grūdus grūdą grūdų
+92	2292	šypsena	šypsenas šypsenoje šypsenomis šypsenos šypseną šypsenų
+93	2293	nagas	nagai nagais nagams nago nagu nagui naguose nagus nagą nagų
+94	2294	deguonis	deguonies deguonimi deguoniui deguonį
+95	2295	kirsti	kerta kertam kertame kertant kertate kertu kirs kirsdamas kirsdavo kirsi kirsim kirsime kirsit kirsite kirsiu kirsk kirskim kirskit kirskite kirstų kirtai kirtau kirto kirtome kirtot kirtote kirtus kirtęs
+96	2296	aprašyti	aprašai aprašant aprašantis aprašau aprašiau aprašo aprašoma aprašomas aprašome aprašydamas aprašydavo aprašyk aprašykit aprašykite aprašys aprašysi aprašysiu aprašyta aprašytas aprašytume aprašytų aprašė aprašėme aprašėte aprašęs
+97	2297	komentaras	komentarai komentarais komentare komentaro komentaru komentaruose komentarus komentarą komentarų
+98	2298	padėjėjas	padėjėja padėjėjai padėjėjais padėjėjams padėjėjo padėjėjos padėjėju padėjėjui padėjėjus padėjėją padėjėjų
+99	2299	princesė	princese princesei princeses princesių princesės princesę
+100	2300	užsiėmimas	užsiėmimai užsiėmimais užsiėmimams užsiėmime užsiėmimo užsiėmimu užsiėmimui užsiėmimuose užsiėmimus užsiėmimą užsiėmimų

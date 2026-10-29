@@ -1,0 +1,100 @@
+1	8101	nusiteikimas	nusiteikimo nusiteikimu nusiteikimui nusiteikimą
+2	8102	registravimas	registravimo registravimą
+3	8103	nesugebėjimas	nesugebėjimo nesugebėjimu nesugebėjimą
+4	8104	nepataisomas	nepataisoma nepataisomai nepataisomo nepataisomos nepataisomą nepataisomų
+5	8105	vasarinis	vasarines vasariniai vasarinių vasarinėmis vasarinės vasarinę vasarinį
+6	8106	dobilas	dobilai dobilais dobilienė dobilo dobilui dobilus dobilą dobilų
+7	8107	susiruošti	susiruošia susiruošiau susiruošiu susiruošė susiruošėme susiruošėte
+8	8108	pergyventi	pergyvena pergyvenau pergyveno
+9	8109	įbauginti	įbaugino
+10	8110	pasimylėti	pasimylėjo
+11	8111	kosėti	kosi kosint kosti kosėdamas kosėdavome kosėja kosėjo
+12	8112	emyratas	emyratai emyratais emyratams emyratuose emyratus emyratų
+13	8113	sušildyti	sušildo sušildys sušildytų
+14	8114	dažiklis	dažikliai dažiklius dažiklių
+15	8115	midus	midaus midi midui midų
+16	8116	užgožti	užgoš užgožia užgožtų užgožė
+17	8117	gigantas	gigantai gigantais gigantams gigante giganto gigantu gigantui gigantus gigantų
+18	8118	fašistas	fašistai fašistais fašistams fašiste fašistu fašistui fašistus fašistą fašistų
+19	8119	demografinis	demografine demografines demografiniai demografiniais demografinius demografinių demografinė demografinėms demografinės demografinę demografinį
+20	8120	surašymas	surašymo surašymą
+21	8121	prisipažinimas	prisipažinimai prisipažinimo prisipažinimu prisipažinimą prisipažinimų
+22	8122	kvantinis	kvantinio kvantinių kvantinė kvantinės kvantinę
+23	8123	kanklės	kankles kanklių kanklėmis
+24	8124	vaitas	vaito
+25	8125	dorybė	dorybes dorybių dorybėmis dorybės dorybę
+26	8126	kėsintis	kėsinasi kėsinosi kėsinsis
+27	8127	septyniasdešimt	septyniasdešimties
+28	8128	darna	darnai darnoje darnos darną darnų
+29	8129	kompensavimas	kompensavimo kompensavimu kompensavimui kompensavimą
+30	8130	glūdėti	glūdi
+31	8131	seniena	senienas senienomis senienos senienų
+32	8132	globalinis	globalines globaliniai globalinio globaliniu globalinių globalinė globalinės globalinę globalinį
+33	8133	išaiškintas	išaiškinta išaiškintos
+34	8134	toleruoti	toleravo toleruoja toleruoju
+35	8135	siekimas	siekimo siekimu siekimą
+36	8136	skverbtis	skverbiasi skverbsis skverbėsi
+37	8137	elektronas	elektronai elektrono elektronus elektroną elektronų
+38	8138	amonis	amonio
+39	8139	pralaidumas	pralaidumo pralaidumą
+40	8140	pirmumas	pirmumo pirmumą
+41	8141	karūnavimas	karūnavimo karūnavimą
+42	8142	atsipūsti	
+43	8143	atverstas	atversta atversti atverstą
+44	8144	suaugti	suauga suaugau suaugo suaugs
+45	8145	pričiupti	pričiupo
+46	8146	troba	trobas troboje trobos trobose trobą trobų
+47	8147	pasidėti	pasidėjau pasidėjo pasidėk pasidėkite
+48	8148	pasiryžti	pasiryš pasiryžau pasiryžo pasiryžta pasiryžtų
+49	8149	lošti	lošia lošė
+50	8150	vakuumas	vakuume vakuumo vakuumą
+51	8151	žmogžudys	žmogžudy žmogžudė žmogžudį žmogžudžiai žmogžudžio žmogžudžiu žmogžudžiui žmogžudžius žmogžudžių
+52	8152	oksidas	oksido oksidu oksidus oksidų
+53	8153	tyčinis	tyčiniai tyčinio tyčiniu tyčinius tyčinių tyčinė tyčinės tyčinę tyčinį
+54	8154	stiklinis	stikliniai stikliniais stikliniame stiklinio stikliniuose stiklinį
+55	8155	išsakytas	išsakyta išsakyto išsakytomis išsakytoms išsakytos išsakytus išsakytą
+56	8156	pravesti	pravedė praves
+57	8157	klajoti	klajoja klajojo
+58	8158	firminis	firminiais firminio firminiu firminius firminių firminė firminės firminę firminį
+59	8159	rikiuotis	rikiavosi rikiuojasi
+60	8160	dėlioti	dėlioja dėliojame dėliojau dėliojo dėlioju dėliokite
+61	8161	optika	optikos
+62	8162	patina	patinai patiną
+63	8163	psichopatas	psichopatai psichopatų
+64	8164	taikytas	taikyta taikytos taikytą
+65	8165	paskaičiuoti	paskaičiavau paskaičiavo paskaičiavome paskaičiuoja paskaičiuokime paskaičiuokite
+66	8166	milimetras	milimetrai milimetro milimetru milimetrus milimetrą milimetrų
+67	8167	išjudinti	išjudina išjudino išjudins
+68	8168	dusti	duso dūsta dūstu
+69	8169	dėklas	dėklo dėklu dėklus dėklą
+70	8170	nuomoti	nuomodavo nuomoja nuomojo nuomoju
+71	8171	paruošiamas	paruošiama paruošiami paruošiamieji paruošiamos paruošiamuosius paruošiamus paruošiamų
+72	8172	antsvoris	antsvorio antsvoriu antsvorį
+73	8173	belstis	beldėsi beldžiasi belskis
+74	8174	nuošalus	nuošali nuošaliai nuošaliame nuošaliau nuošalioje nuošalios nuošaliuose nuošalią nuošalių nuošalų
+75	8175	fantomas	fantomo fantomu fantomą
+76	8176	feniksas	feniksai fenikse fenikso feniksą
+77	8177	barikada	barikadas barikados barikadą barikadų
+78	8178	pašnekėti	pašnekėjome
+79	8179	apsišikti	apsišik apsišika apsišikai apsišikau apsišikit apsišiko apsišiks apsišiksi apsišiksite apsišiksiu apsišikęs
+80	8180	įdarbinimas	įdarbinimo įdarbinimu įdarbinimui įdarbinimą
+81	8181	tabu	
+82	8182	savigarba	savigarbos savigarbą
+83	8183	suberti	suberkite
+84	8184	išsimaudyti	išsimaudė
+85	8185	lygintuvas	lygintuvo lygintuvu lygintuvą
+86	8186	nebeveikti	nebeveikia nebeveikė
+87	8187	rytdiena	rytdienai rytdienos rytdieną
+88	8188	išgelbėjimas	išgelbėjimo išgelbėjimą
+89	8189	neminėti	nemini neminėjo neminėsiu
+90	8190	šauktis	šaukiasi šaukėsi
+91	8191	gimstamumas	gimstamumo gimstamumui gimstamumą
+92	8192	socialistas	socialistai socialistais socialistu socialistui socialistų
+93	8193	permiegoti	permiegojo
+94	8194	godus	godi godūs godžiai
+95	8195	antžeminis	antžemines antžeminiai antžeminio antžeminius antžeminių antžeminė antžeminės antžeminę
+96	8196	išdidumas	išdidumo išdidumą
+97	8197	įkyrėti	įkyri įkyriu įkyrėjo
+98	8198	apsikeisti	apsikeitė apsikeitėme apsikeičia
+99	8199	sutvėrimas	sutvėrimai sutvėrimo sutvėrimus sutvėrimų
+100	8200	nušluoti	nušlavė nušluoja nušluos nušluotų

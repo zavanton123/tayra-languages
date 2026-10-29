@@ -1,0 +1,100 @@
+1	5801	odinis	odine odines odiniai odiniais odinio odiniu odinius odinių odinė odinėje odinės odinę odinį
+2	5802	totorius	totoriai totorių
+3	5803	teroras	teroro teroru terorą
+4	5804	sulėtinti	sulėtina sulėtino sulėtins sulėtintų
+5	5805	skrieti	skrieja skriejo skries skrietų
+6	5806	giluma	gilumoje gilumos gilumą
+7	5807	piktnaudžiavimas	piktnaudžiavimo piktnaudžiavimu piktnaudžiavimui piktnaudžiavimą
+8	5808	atidėtas	atidėta atidėto atidėtos atidėtą
+9	5809	samdinys	samdiniai samdiniais samdiniams samdinio samdiniu samdiniui samdinius samdinių
+10	5810	pageidavimas	pageidavimai pageidavimais pageidavimu pageidavimus pageidavimą pageidavimų
+11	5811	nuolauža	nuolaužas nuolaužomis nuolaužos nuolaužų
+12	5812	divizija	divizijai divizijoje divizijos diviziją divizijų
+13	5813	kalbinti	kalbina kalbiname kalbinau kalbino kalbinome kalbins kalbintų kalbinu
+14	5814	dalinis	daline dalines daliniam daliniame daliniu dalinius dalinė dalinę
+15	5815	pertvarka	pertvarkas pertvarkos pertvarką pertvarkų
+16	5816	skorpionas	skorpionai skorpionais skorpionams skorpione skorpiono skorpionu skorpionui skorpionus skorpioną skorpionų
+17	5817	susidarymas	susidarymo susidarymui susidarymą
+18	5818	imigracija	imigracijai imigracijos imigraciją
+19	5819	sudužti	suduš sudužo sudūžta
+20	5820	mutacija	mutacijas mutacijos mutaciją mutacijų
+21	5821	magnis	magnio magniu magnį
+22	5822	užkratas	užkratu užkratui užkratą užkratų
+23	5823	optinis	optines optiniai optinio optiniu optinius optinių optinė optinės optinį
+24	5824	gerinimas	gerinimo gerinimu gerinimui gerinimą
+25	5825	nusinešti	nusineš nusineša nusinešė
+26	5826	laimikis	laimikiai laimikio laimikiu laimikiui laimikių laimikį
+27	5827	vakarykštis	vakarykštes vakarykštė vakarykštės vakarykštę vakarykštį vakarykščiai vakarykščio vakarykščius vakarykščių
+28	5828	kliudyti	kliudo kliudys kliudytų kliudė kliudęs kliudžiau
+29	5829	nupirktas	nupirkta nupirktos nupirktus nupirktą
+30	5830	aromatas	aromatai aromatais aromato aromatu aromatus aromatą aromatų
+31	5831	tarifas	tarifai tarifo tarifu tarifus tarifą tarifų
+32	5832	sirupas	sirupe sirupo sirupu sirupui sirupą sirupų
+33	5833	biznis	biznio bizniu biznį
+34	5834	velionis	velionio velioniu velioniui velionių velionį
+35	5835	išmetamas	išmetama išmetami išmetamo išmetamos išmetamosiomis išmetamosiose išmetamus išmetamą išmetamų išmetamųjų
+36	5836	užtvanka	užtvankas užtvankos užtvanką užtvankų
+37	5837	tyčiotis	tyčiojasi tyčiojosi tyčiosis
+38	5838	našlaitė	našlaite našlaites našlaitės našlaitę našlaičių
+39	5839	judinti	judina judinat judini judink judinkit judinkite judino judintum judintų judinu
+40	5840	kūrybiškumas	kūrybiškumo kūrybiškumu kūrybiškumui kūrybiškumą
+41	5841	užtaisas	užtaisais užtaisu užtaisus užtaisą užtaisų
+42	5842	dienotvarkė	dienotvarke dienotvarkėje dienotvarkės dienotvarkę
+43	5843	alyvuogė	alyvuoges alyvuogių alyvuogėmis alyvuogės
+44	5844	dinamika	dinamikoje dinamikos dinamiką
+45	5845	atsiskirti	atsiskiria atsiskirs atsiskirtų atsiskyrė
+46	5846	kokosas	kokosai kokosais kokoso kokosu kokosus kokosą kokosų
+47	5847	palaiminimas	palaiminimo palaiminimu palaiminimą palaiminimų
+48	5848	našlaitis	našlaitį našlaičiai našlaičiais našlaičiams našlaičio našlaičiu našlaičius
+49	5849	pašaukimas	pašaukimo pašaukimą
+50	5850	brautis	braunas braunasi brovėsi
+51	5851	represija	represijas represijomis represijoms represijos represijų
+52	5852	kriaušė	kriauše kriaušes kriaušių kriaušėmis kriaušės kriaušę
+53	5853	gyvensena	gyvensenai gyvensenos gyvenseną
+54	5854	stereotipas	stereotipai stereotipais stereotipui stereotipus stereotipą stereotipų
+55	5855	gailestingumas	gailestingumo gailestingumu gailestingumą
+56	5856	jungiklis	jungikliai jungiklio jungikliu jungiklius jungiklių jungiklį
+57	5857	padėtas	padėta padėto padėtos padėtą
+58	5858	užvesti	užveda užvedė
+59	5859	mylėtojas	mylėtoja mylėtojai mylėtojams mylėtojo mylėtojus mylėtoją mylėtojų
+60	5860	pasikėsinimas	pasikėsinimai pasikėsinimo pasikėsinimu pasikėsinimą pasikėsinimų
+61	5861	įgimtas	įgimta įgimto įgimtos įgimtu įgimtus įgimtą įgimtų
+62	5862	užpilti	užpila užpilame užpildavo užpilk užpilkite užpilu užpyliau užpylė
+63	5863	valgymas	valgymo valgymu valgymui valgymus valgymą valgymų
+64	5864	tvarkingai	tvarkingiau
+65	5865	išsikraustyti	išsikrausto išsikraustys išsikraustė išsikrausčiau
+66	5866	sprendinys	sprendiniai sprendinio sprendiniui sprendinius sprendinių sprendinį
+67	5867	užsakovas	užsakovai užsakovais užsakovams užsakovo užsakovu užsakovui užsakovus užsakovą užsakovų
+68	5868	akmeninis	akmenines akmeniniai akmeniniais akmeninio akmeniniu akmeninius akmeninių akmeninė akmeninės akmeninę akmeninį
+69	5869	pimpis	pimpi pimpiai pimpiais pimpio pimpiu pimpius pimpių pimpį
+70	5870	slibinas	slibinai slibinais slibinams slibine slibino slibinu slibinui slibinus slibiną slibinų
+71	5871	dyzelinis	dyzeliniai dyzeliniais dyzeliniam dyzelinio dyzeliniu dyzeliniuose dyzelinius dyzelinių dyzelinį
+72	5872	garbinti	garbina garbiname garbino garbintų
+73	5873	žygiuoti	žygiavo žygiuoja žygiuos
+74	5874	kauliukas	kauliukai kauliukais kauliuko kauliukus kauliuką kauliukų
+75	5875	infarktas	infarkto infarktu infarktą infarktų
+76	5876	taisyklingas	taisyklinga taisyklingai taisyklingi taisyklingo taisyklingos taisyklingą
+77	5877	knygynas	knygyne knygyno knygynuose knygynus knygyną knygynų
+78	5878	rodytis	rodosi rodysis rodės rodėsi
+79	5879	apkaltas	apkalta apkaltai apkaltos apkaltą
+80	5880	iliustruoti	iliustravo iliustruoja iliustruos iliustruotų
+81	5881	apytikslis	apytiksliai apytiksliais apytikslė apytikslį
+82	5882	praplėsti	praplečia praplės praplėtė
+83	5883	kaubojas	kaubojai kaubojais kaubojams kaubojau kaubojaus kauboju kaubojui kaubojus kaubojų
+84	5884	keistuolis	keistuoliai keistuoliais keistuolio keistuoliu keistuolius keistuolį
+85	5885	paukštelis	paukšteliai paukšteliais paukštelio paukšteliui paukštelius paukštelių paukštelį
+86	5886	suprojektuotas	suprojektuota suprojektuoto suprojektuotos suprojektuotą
+87	5887	pakoreguoti	pakoregavo pakoreguoja pakoreguokite pakoreguos
+88	5888	apklaustas	apklausta apklaustasis apklaustos apklaustųjų
+89	5889	getas	getai getais gete geto getuose getus getą getų
+90	5890	archeologija	archeologijai archeologijos
+91	5891	paguoda	paguodos paguodą
+92	5892	fenomenas	fenomenai fenomeno fenomenu fenomenui fenomenus fenomeną fenomenų
+93	5893	estetinis	estetine estetines estetiniai estetinio estetiniu estetinių estetinė estetinės estetinę estetinį
+94	5894	brangakmenis	brangakmeniai brangakmeniais brangakmenio brangakmeniu brangakmenius brangakmenių brangakmenį
+95	5895	pilti	pila pilam pilame pildavo pilkite pils pylė
+96	5896	turgavietė	turgavietes turgavietėje turgavietės turgavietėse turgavietę turgaviečių
+97	5897	šen	šenai
+98	5898	slopinti	slopina slopins
+99	5899	džiovinti	džiovintų džiovina džiovinkite džiovino džiovintų
+100	5900	regbis	regbio regbiui regbį

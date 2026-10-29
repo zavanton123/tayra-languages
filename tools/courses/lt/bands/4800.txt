@@ -1,0 +1,100 @@
+1	4701	peržengti	peržengi peržengia peržengiau peržengs peržengė peržengėme
+2	4702	girti	girdavo giri giriantis giriu girkite girs girsite gyrus gyrė gyręs
+3	4703	dainavimas	dainavime dainavimo dainavimu dainavimui dainavimą
+4	4704	soda	sodai sodos sodą sodų
+5	4705	instancija	instancijai instancijas instancijoje instancijoms instancijos instancijose instanciją instancijų
+6	4706	žvaigždutė	žvaigždute žvaigždutei žvaigždutes žvaigždutės žvaigždutę žvaigždučių
+7	4707	išleistuvės	išleistuves išleistuvių išleistuvėms išleistuvėse
+8	4708	belaisvis	belaisviai belaisviais belaisviams belaisvius belaisvių belaisvį
+9	4709	javas	javai javams javi javuose javus javų
+10	4710	nusivylęs	nusivylus nusivylusi nusivylusios nusivylusių nusivylę
+11	4711	cilindras	cilindrai cilindre cilindro cilindru cilindrus cilindrą cilindrų
+12	4712	pensininkas	pensininkai pensininkais pensininkams pensininko pensininku pensininkui pensininkus pensininką pensininkė pensininkų
+13	4713	subręsti	subrendai subrendau subrendo subrendus subrendusi subrendusios subrendusius subrendusių subrendę subrendęs subręs subręsi subręsk subręsta
+14	4714	patarėja	patarėjos
+15	4715	šaligatvis	šaligatviai šaligatviais šaligatvio šaligatviu šaligatvius šaligatvių šaligatvyje šaligatvį
+16	4716	griūti	grius griuvau griuvo griuvus griuvęs griūdamas griūdavo griūk griūkite griūna griūsi griūsime griūsiu griūtų griūva griūvant griūvantis
+17	4717	statistikas	statistikai statistiką statistikų
+18	4718	vinis	vini vinies vinimi vinimis vinio vinių vinys vinį
+19	4719	eglutė	eglute eglutei eglutes eglutėmis eglutės eglutę eglučių
+20	4720	agurkas	agurkai agurkais agurkams agurko agurku agurkus agurką agurkų
+21	4721	bunkeris	bunkeriai bunkerio bunkeriuose bunkerius bunkerių bunkeryje bunkerį
+22	4722	pavaldus	pavaldaus pavaldi pavaldūs pavaldžia pavaldžioms pavaldžios pavaldžiose pavaldžius pavaldžių
+23	4723	sugrįžimas	sugrįžimai sugrįžimo sugrįžimu sugrįžimui sugrįžimą
+24	4724	įkrovimas	įkrovimo įkrovimu
+25	4725	iniciatorius	iniciatoriai iniciatoriais iniciatoriams iniciatoriaus iniciatoriui iniciatoriumi iniciatorių
+26	4726	generatorius	generatoriai generatoriais generatoriaus generatoriumi generatorių
+27	4727	eksperimentinis	eksperimentine eksperimentinei eksperimentines eksperimentiniai eksperimentiniais eksperimentiniame eksperimentinio eksperimentinius eksperimentinių eksperimentinė eksperimentinėje eksperimentinės eksperimentinę eksperimentinį
+28	4728	rankraštis	rankrašti rankraštį rankraščiai rankraščio rankraščiuose rankraščius rankraščių
+29	4729	lavinimas	lavinimo lavinimu lavinimui lavinimą
+30	4730	pateikimas	pateikimo pateikimu pateikimui pateikimą
+31	4731	konkuruoti	konkuravau konkuravo konkuruoja konkuruojame konkuruojant konkuruojantis konkuruotų
+32	4732	vilna	vilnai vilnos vilną vilnų
+33	4733	apiplėšimas	apiplėšimai apiplėšimo apiplėšimu apiplėšimus apiplėšimą apiplėšimų
+34	4734	materialinis	materialine materialinei materialines materialiniai materialinio materialinius materialinių materialinė materialinės materialinę materialinį
+35	4735	kepimas	kepimo kepimui kepimą
+36	4736	įsitvirtinti	įsitvirtina įsitvirtino įsitvirtins įsitvirtintų
+37	4737	asmeniškas	asmeniška asmeniški asmeniško asmeniškos asmenišku asmeniškus asmenišką asmeniškų
+38	4738	sertifikatas	sertifikatai sertifikatais sertifikato sertifikatu sertifikatui sertifikatus sertifikatą sertifikatų
+39	4739	nenustatytas	nenustatyta nenustatytais nenustatyti nenustatyto nenustatytos nenustatytu nenustatytą nenustatytų
+40	4740	liekana	liekanas liekanomis liekanos liekanų
+41	4741	prakaitas	prakaito prakaitu prakaitą
+42	4742	diplomatija	diplomatijai diplomatijoje diplomatijos diplomatiją
+43	4743	žydras	žydra žydrai žydram žydrasis žydri žydriau žydrieji žydriems žydro žydroji žydrojo žydromis žydros žydrus žydrą žydrąją žydrąjį žydrąsias žydrų žydrųjų
+44	4744	samurajus	samurajai samurajams samurajau samurajaus samurajui samurajumi samurajų
+45	4745	kabelis	kabeli kabeliai kabeliais kabelio kabeliu kabelius kabelių kabelį
+46	4746	atsispindėti	atsispindi atsispindėjo atsispindės atsispindėtų
+47	4747	tvarkaraštis	tvarkaraštyje tvarkaraštį tvarkaraščiai tvarkaraščio tvarkaraščiu tvarkaraščius tvarkaraščių
+48	4748	anketa	anketai anketas anketoje anketos anketose anketą anketų
+49	4749	kenksmingas	kenksminga kenksmingi kenksmingiems kenksmingo kenksmingomis kenksmingos kenksmingus kenksmingą kenksmingų
+50	4750	šerifas	šerifo
+51	4751	moralė	moralei moralės moralę
+52	4752	mechanikas	mechanikai mechanikais mechanikams mechanike mechaniko mechaniku mechanikui mechanikus mechaniką mechanikė mechanikų
+53	4753	prieštaringas	prieštaringa prieštaringai prieštaringi prieštaringo prieštaringos prieštaringu prieštaringus prieštaringą prieštaringų
+54	4754	budrus	budresni budri budriai budriais budriam budriems budrios budriu budrius budrių budrūs
+55	4755	formavimas	formavime formavimo formavimu formavimui formavimą
+56	4756	pagimdyti	pagimdei pagimdo pagimdys pagimdytų pagimdė pagimdžiau
+57	4757	atstatymas	atstatymo atstatymu atstatymui atstatymą
+58	4758	čiulpti	čiulpdama čiulpei čiulpi čiulpia čiulpiamas čiulpiant čiulpiantis čiulpiat čiulpiau čiulpiu čiulpk čiulpkit čiulps čiulpsi čiulpsiu čiulptum čiulpčiau čiulpė čiulpęs
+59	4759	suplanuoti	suplanavo suplanavome suplanavote suplanuoja suplanuokite suplanuotų
+60	4760	grįžimas	grįžimo grįžimu grįžimui grįžimą
+61	4761	dykas	dyka dykai dyko dykui dyką
+62	4762	patikrintas	patikrinta patikrinto patikrintos patikrintose patikrintu patikrintus patikrintą
+63	4763	tvarkingas	tvarkinga tvarkingais tvarkingesnės tvarkingesnį tvarkingi tvarkingiau tvarkingiems tvarkingo tvarkingoje tvarkingos tvarkingus tvarkingą tvarkingų
+64	4764	lašiša	lašišas lašišomis lašišos lašišą lašišų
+65	4765	deginti	degina degindavo degino degins degintų
+66	4766	str.	str
+67	4767	konfederacija	konfederacijai konfederacijos konfederaciją
+68	4768	neatsakingas	neatsakinga neatsakingai neatsakingais neatsakingi neatsakingo neatsakingos neatsakingu neatsakingus neatsakingą neatsakingų
+69	4769	aliuminis	aliuminio aliuminiu aliuminiui aliuminius aliuminį
+70	4770	galūnė	galūne galūnes galūnių galūnėmis galūnės galūnėse galūnę
+71	4771	užsimerkti	užsimerk užsimerki užsimerkia užsimerkiau užsimerkit užsimerkite užsimerkiu užsimerksime užsimerksiu užsimerktum užsimerkus užsimerkčiau užsimerkė užsimerkęs
+72	4772	aplankas	aplankai aplanke aplanko aplankuose aplankus aplanką aplankų
+73	4773	ryžtas	ryžto ryžtu ryžtą
+74	4774	užpuolikas	užpuolikai užpuolikais užpuolikams užpuoliko užpuolikui užpuolikus užpuoliką užpuolikų
+75	4775	priimtinas	priimtina priimtinesnis priimtinesnė priimtini priimtiniausia priimtiniausiu priimtiniausią priimtino priimtinos priimtinu priimtiną priimtinų
+76	4776	gimdyti	gimdai gimdant gimdau gimdei gimdo gimdome gimdyk gimdykit gimdys gimdysi gimdysime gimdysiu gimdė gimdėme gimdžiau
+77	4777	įžymybė	įžymybe įžymybes įžymybių įžymybėmis įžymybėms įžymybės įžymybę
+78	4778	pašokti	pašoka pašokau pašoko pašoks
+79	4779	kaboti	kabo kabojo kabos
+80	4780	nepripažinti	nepripažino nepripažins nepripažintų nepripažįsta nepripažįstate nepripažįstu
+81	4781	apgyvendinimas	apgyvendinimo apgyvendinimu apgyvendinimui apgyvendinimą
+82	4782	tarpininkas	tarpininkai tarpininkais tarpininko tarpininku tarpininkui tarpininkus tarpininką tarpininkų
+83	4783	polinkis	polinkiai polinkio polinkiu polinkiui polinkius polinkių polinkį
+84	4784	vandenilis	vandenilio vandeniliu vandenilį
+85	4785	status	stataus statu statūs statų stačia stačiai stačiais stačias stačiau stačiausias stačiausioje stačios stačiose stačiu stačius stačią stačių
+86	4786	kalėti	kali kalimas kalimo kalintis kaliu kalėjai kalėjau kalėjo kalėjus kalėjęs kalėsi
+87	4787	iškepti	iškepa iškepdavo iškepiau iškepkite iškeps iškeptų iškepė
+88	4788	seansas	seansai seanse seanso seansuose seansus seansą seansų
+89	4789	krepšelis	krepšeliai krepšeliais krepšelio krepšeliu krepšeliui krepšeliuose krepšelius krepšelių krepšelyje krepšelį
+90	4790	gramas	gramai gramais grame gramo gramus gramą gramų
+91	4791	uždegti	uždega uždegs uždegtų uždegė uždek uždekite
+92	4792	pagrįsti	pagrindė pagrindžia pagrįstų
+93	4793	griauti	griaudamas griaukit griaukite griauna griaunam griaunama griaunamas griauname griaunami griaunamos griaunamąja griaunantis griaunate griauni griaunu griausi griautų griovė griovėme
+94	4794	akcinis	akcine akcinei akcines akcinio akcinių akcinė akcinėmis akcinės akcinę akcinį
+95	4795	kokainas	kokaino kokainu kokainą
+96	4796	sekcija	sekcijas sekcijoje sekcijos sekciją sekcijų
+97	4797	suolas	suolai suolais suole suolo suoluose suolus suolą suolų
+98	4798	tematika	tematikos tematiką
+99	4799	darinys	dariniai dariniais darinio dariniu darinius darinių darinį
+100	4800	seržantas	seržantai seržanto seržantui seržantą seržantų

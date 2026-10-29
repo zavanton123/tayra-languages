@@ -1,0 +1,100 @@
+1	4001	linksmybė	linksmybes linksmybių linksmybėmis linksmybėms linksmybės
+2	4002	rangovas	rangovai rangovais rangovams rangovo rangovu rangovui rangovus rangovą rangovų
+3	4003	specializuotas	specializuota specializuoti specializuoto specializuotoje specializuotos specializuotose specializuotu specializuotuose specializuotus specializuotą specializuotų
+4	4004	vadovavimas	vadovavimo vadovavimu vadovavimui vadovavimą
+5	4005	vokas	vokai voke voko voku vokuose vokus voką vokų
+6	4006	užmiršti	užmiršai užmiršau užmiršk užmirškim užmirškime užmirškit užmiršom užmiršot užmiršote užmirštu užmirštumėte užmiršus užmiršęs
+7	4007	boksas	bokse bokso boksu boksą
+8	4008	atidus	atidaus atidesni atidesniems atidesnio atidesnis atidesnė atidi atidiems atidusis atidūs atidų atidžiais atidžiam atidžias atidžiau atidžiausi atidžios
+9	4009	divizionas	divizionai divizione diviziono divizionus divizioną divizionų
+10	4010	įtemptas	įtempta įtemptai įtemptais įtempto įtemptoje įtemptos įtemptu įtemptus įtemptą
+11	4011	guma	gumas gumomis gumos gumą gumų
+12	4012	plokštė	plokšte plokštes plokštėmis plokštėms plokštę
+13	4013	našlė	našle našlei našlių našlėms našlės našlę
+14	4014	erdvėlaivis	erdvėlaiviai erdvėlaiviais erdvėlaivio erdvėlaiviu erdvėlaiviui erdvėlaivius erdvėlaivių erdvėlaivyje erdvėlaivį
+15	4015	solidarumas	solidarumo solidarumu solidarumui solidarumą
+16	4016	impulsas	impulsai impulsais impulsams impulso impulsu impulsui impulsus impulsą impulsų
+17	4017	nuojauta	nuojautos nuojautą nuojautų
+18	4018	parametras	parametrai parametrais parametrus parametrą parametrų
+19	4019	sindromas	sindromo sindromu sindromui sindromą
+20	4020	marinti	marina marinai
+21	4021	apeiga	apeigas apeigomis apeigoms apeigos apeigose apeigų
+22	4022	magnetinis	magnetines magnetiniai magnetinio magnetiniu magnetinius magnetinių magnetinė magnetinėmis magnetinės magnetinę magnetinį
+23	4023	melsti	meldei meldi meldė meldėm meldžia meldžiam meldžiame meldžiantis meldžiau meldžiu mels melsi melsime melsiu melsk melskite melstų
+24	4024	charakteristika	charakteristikas charakteristikomis charakteristikos charakteristiką charakteristikų
+25	4025	kiaušas	kiaušai kiaušais kiaušams kiauši kiaušu kiaušuose kiaušus kiaušą kiaušų
+26	4026	priepuolis	priepuoliai priepuoliais priepuolio priepuoliui priepuolius priepuolių priepuolį
+27	4027	piniginis	pinigine pinigines piniginiai piniginiais piniginiams piniginio piniginiu piniginius piniginių piniginį
+28	4028	tyrinėjimas	tyrinėjimai tyrinėjimais tyrinėjimams tyrinėjimo tyrinėjimui tyrinėjimus tyrinėjimą tyrinėjimų
+29	4029	išvyti	išveja išvijo išvyk išvys išvysi išvysime išvysite išvysiu
+30	4030	komandinis	komandines komandiniai komandiniame komandinio komandiniu komandinių komandinė komandinėje komandinės komandinėse komandinę komandinį
+31	4031	ate	atia
+32	4032	glaudžia	glaudžiai glaudžių
+33	4033	patylėti	patyli patyliu patylėjus patylėk patylėkim patylėkit patylėkite patylėsi patylėsite patylėsiu patylėtum patylėtų patylėčiau
+34	4034	botanika	botanikai botanikas botaniko botanikos botaniką botanikų
+35	4035	sudarymas	sudarymo sudarymu sudarymui sudarymą
+36	4036	rankena	rankenas rankenomis rankenos rankeną rankenų
+37	4037	demonstruoti	demonstravo demonstruodavo demonstruoja demonstruojame demonstruojate demonstruokite demonstruos demonstruotų
+38	4038	būgnas	būgnai būgnais būgnams būgno būgnus būgną būgnų
+39	4039	sutaupyti	sutaupai sutaupau sutaupiau sutaupo sutaupome sutaupys sutaupysime sutaupysite sutaupytume sutaupytų sutaupė sutaupėme
+40	4040	gabenti	gabena gabename gabendavo gabeno gabens gabentų
+41	4041	skausmingas	skausminga skausmingai skausmingais skausmingi skausmingiau skausmingiausia skausmingo skausmingos skausmingu skausmingus skausmingą skausmingų
+42	4042	nepasisekti	nepasiseka nepasiseks nepasisektų nepasisekė
+43	4043	šaudymas	šaudymo šaudymu šaudymui šaudymus šaudymą šaudymų
+44	4044	bagažas	bagažai bagaže bagažo bagažu bagažui bagažą
+45	4045	sąnarys	sąnariai sąnariams sąnario sąnariuose sąnarius sąnarių
+46	4046	pluoštas	pluoštai pluoštais pluošto pluoštu pluoštui pluoštus pluoštą
+47	4047	rotušė	rotušėje rotušės rotušę
+48	4048	laikymas	laikymo laikymu laikymui laikymą
+49	4049	augalinis	augalines augaliniai augaliniais augaliniame augalinio augaliniu augaliniuose augalinius augalinių augalinė augalinės augalinę augalinį
+50	4050	statula	statulai statulas statulos statulą statulų
+51	4051	užmegzti	užmegs užmegztų užmezga užmezgiau užmezgė užmezgėme
+52	4052	sparta	spartai spartos spartą
+53	4053	padirbėti	padirbėjau padirbėjo padirbės
+54	4054	išsipildyti	išsipildo išsipildys išsipildytų išsipildė
+55	4055	vadovautis	vadovaujamės vadovaujasi vadovaujatės vadovaujuosi vadovaukis vadovaukitės vadovausimės vadovausis vadovausitės vadovautųsi vadovavausi vadovavosi
+56	4056	koncertuoti	koncertavau koncertavo koncertuodavo koncertuoja koncertuoju koncertuos koncertuotų
+57	4057	meniu	
+58	4058	palikuonis	palikuoniai palikuonimis palikuonims palikuonio palikuonių palikuonys palikuonį
+59	4059	sukčiavimas	sukčiavimai sukčiavimo sukčiavimu sukčiavimui sukčiavimą sukčiavimų
+60	4060	prievolė	prievole prievoles prievolių prievolės prievolę
+61	4061	frankas	franko franku frankui frankus franką frankų
+62	4062	nenuostabus	nenuostabu
+63	4063	liemenė	liemene liemenei liemenes liemenių liemenėmis liemenės liemenę
+64	4064	tobulėti	tobulėja tobulėjame tobulėji tobulėjo tobulėju tobulės tobulėtų
+65	4065	modulis	moduliai moduliais modulio moduliu modulius modulių modulyje modulį
+66	4066	plastikinis	plastikine plastikines plastikiniai plastikiniais plastikiniame plastikinio plastikiniu plastikiniuose plastikinius plastikinių plastikinė plastikinėje plastikinėmis plastikinės plastikinėse plastikinę plastikinį
+67	4067	išsakyti	išsakiau išsako išsakykite išsakytų išsakė išsakėme
+68	4068	lažintis	lažinasi lažinosi lažinuosi
+69	4069	sudominti	sudomina sudomino sudomins
+70	4070	eksponatas	eksponatai eksponatais eksponatams eksponato eksponatu eksponatus eksponatą eksponatų
+71	4071	filtras	filtrai filtrais filtro filtru filtrus filtrą filtrų
+72	4072	elnias	elniai elniais elnio elniu elniui elnius elnią elnių
+73	4073	fazė	fazei fazes fazių fazėje fazėmis fazės fazėse fazę
+74	4074	didingas	didinga didingai didingi didingiausias didingiausių didingo didingos didingu didingus didingą didingų
+75	4075	organinis	organine organines organiniai organinio organinius organinių organinė organinėmis organinės organinę organinį
+76	4076	keičiamas	keičiama keičiami keičiamos keičiamų
+77	4077	kuopa	kuopai kuopoje kuopos kuopą kuopų
+78	4078	ištikimybė	ištikimybe ištikimybei ištikimybės ištikimybę
+79	4079	lemputė	lempute lemputei lemputes lemputėmis lemputėms lemputės lemputę lempučių
+80	4080	apeliacinis	apeliacine apeliaciniam apeliaciniame apeliacinio apeliaciniu apeliacinius apeliacinė apeliacinės apeliacinę apeliacinį
+81	4081	pabusti	pabudau pabudo pabunda pabundi pabundu pabustų
+82	4082	moralinis	moraline moralines moraliniai moraliniais moraliniam moralinio moraliniu moralinius moralinių moralinė moralinės moralinę moralinį
+83	4083	užuojauta	užuojautai užuojautas užuojautoje užuojautos užuojautą
+84	4084	tarnybinis	tarnybine tarnybinei tarnybines tarnybiniai tarnybiniais tarnybiniam tarnybiniame tarnybinio tarnybiniu tarnybinius tarnybinių tarnybinė tarnybinės tarnybinėse tarnybinę tarnybinį
+85	4085	apetitas	apetitai apetito apetitu apetitui apetitą
+86	4086	greitkelis	greitkeliai greitkeliais greitkelio greitkeliu greitkeliuose greitkelius greitkelių greitkelyje greitkelį
+87	4087	faktiškas	faktiškai
+88	4088	siurblys	siurbliai siurbliais siurblio siurbliu siurblius siurblių siurblį
+89	4089	senukas	senukai senukais senukams senuko senuku senukui senukus senuką senukų
+90	4090	pastiprinimas	pastiprinimo pastiprinimui pastiprinimą
+91	4091	išskristi	išskrenda išskrendu išskridau išskrido išskridome išskris
+92	4092	kvietys	kviečiu kviečiai kviečiais kviečiams kviečiu kviečiuose kviečius kviečių
+93	4093	bazinis	bazine bazines baziniai baziniais baziniame bazinio baziniu bazinius bazinių bazinė bazinėje bazinės bazinę bazinį
+94	4094	statymas	statymai statymo statymu statymui statymus statymą statymų
+95	4095	sulaužyti	sulaužiau sulaužo sulaužykite sulaužys sulaužytų sulaužė
+96	4096	literatūrinis	literatūrine literatūriniai literatūriniame literatūrinio literatūriniu literatūrinius literatūrinių literatūrinė literatūrinės literatūrinę literatūrinį
+97	4097	prostitutė	prostitute prostitutes prostitutėmis prostitutėms prostitutės prostitutę prostitučių
+98	4098	persvara	persvaros persvarą
+99	4099	jauniklis	jaunikliai jaunikliais jaunikliams jauniklio jaunikliu jauniklius jauniklių jauniklį
+100	4100	algoritmas	algoritmai algoritmais algoritmams algoritme algoritmo algoritmu algoritmui algoritmus algoritmą algoritmų

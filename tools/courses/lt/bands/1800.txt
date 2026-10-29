@@ -1,0 +1,100 @@
+1	1701	kavinė	kavine kavinei kavines kavinių kavinėje kavinėmis kavinėms kavinės kavinėse kavinę
+2	1702	drausti	draudei draudi draudė draudėt draudžia draudžiam draudžiama draudžiamas draudžiame draudžiant draudžiantis draudžiate draudžiu draus drausdavo drausimas drausime drausite drausk drausta draustas draustų
+3	1703	intensyvus	intensyvaus intensyvesni intensyvesnio intensyvesnis intensyvesnius intensyvesnių intensyvesnė intensyvesnės intensyvesnį intensyvi intensyvia intensyviai intensyviam intensyvias intensyviau intensyviausi intensyviausia intensyviausiai intensyviausias intensyviausią intensyviausių intensyvioms intensyvios intensyviosios intensyviu intensyvius intensyvią intensyvių intensyvūs intensyvų
+4	1704	ataka	atakas atakoje atakomis atakoms atakos atakose ataką atakų
+5	1705	savarankiškas	savarankiška savarankiškai savarankiškais savarankiškam savarankiški savarankiško savarankiškos savarankišku savarankiškus savarankišką savarankiškų
+6	1706	protrūkis	protrūkiai protrūkiais protrūkiams protrūkio protrūkiu protrūkiui protrūkius protrūkių protrūkį
+7	1707	domėtis	domiesi domimės domisi domitės domiuosi domėjaisi domėjausi domėjomės domėjosi domėjotės domėkis domėkitės domėsimės domėsis domėsitės domėtųsi
+8	1708	didžiuotis	didžiuotis didžiavaisi didžiavausi didžiavosi didžiuodavausi didžiuodavosi didžiuojamės didžiuojasi didžiuojatės didžiuojiesi didžiuojuosi didžiuokimės didžiuokis didžiuokitės didžiuosimės didžiuosis didžiuositės didžiuosiuosi didžiuotumeisi didžiuotumėtės didžiuotųsi didžiuočiausi
+9	1709	nuoširdus	nuoširdžiai nuoširdaus nuoširdesni nuoširdesnio nuoširdesnis nuoširdi nuoširdiems nuoširdu nuoširdūs nuoširdų nuoširdžia nuoširdžiai nuoširdžiais nuoširdžiam nuoširdžiau nuoširdžiausi nuoširdžiausiai nuoširdžiausias nuoširdžiausius nuoširdžiausią nuoširdžioji nuoširdžios nuoširdžiose nuoširdžiu nuoširdžius nuoširdžią nuoširdžių
+10	1710	pasitaikyti	pasitaiko pasitaikydavo pasitaikys pasitaikytų pasitaikė
+11	1711	vonia	voniai vonias vonioje voniomis vonios voniose vonią vonių
+12	1712	nurimti	nurimau nurimk nurimkim nurimkime nurimkit nurimkite nurimo nurimot nurims nurimsi nurimsit nurimsiu nurimsta nurimstam nurimtų nurimus nurimčiau
+13	1713	žudyti	žudai žudant žudantis žudau žudei žudo žudom žudomas žudome žudomi žudot žudote žudydamas žudydavo žudyk žudykim žudykime žudykit žudykite žudys žudysi žudysim žudysite žudysiu žudytum žudytumėt žudytų žudyčiau žudė žudėme žudėte žudęs žudžiau
+14	1714	tona	tonai tonais tonas tono tonomis tonos tonu tonus toną tonų
+15	1715	dėka	
+16	1716	prisiekti	prisiekia prisiekiau prisiekiu prisieks prisiekė
+17	1717	policininkas	policininkai policininkais policininkams policininke policininko policininku policininkui policininkus policininką policininkė policininkų
+18	1718	nurodymas	nurodymai nurodymais nurodymams nurodymo nurodymu nurodymus nurodymą nurodymų
+19	1719	padidinti	padidina padidinkite padidino padidinome padidins padidinsime padidintume padidintų
+20	1720	būstas	būstai būstais būstams būste būsto būstu būstui būstuose būstus būstą būstų
+21	1721	šou	
+22	1722	krepšys	krepšiai krepšiais krepšiams krepšio krepšiu krepšiuose krepšius krepšių krepšy krepšyje krepšį
+23	1723	poilsis	poilsio poilsiu poilsiui poilsį
+24	1724	nustoti	nustoja nustojai nustojam nustojame nustojate nustojau nustoji nustojo nustojom nustojome nustojot nustojote nustoju nustojus nustojęs nustok nustokim nustokime nustokit nustokite nustos nustosi nustosim nustosime nustosite nustosiu nustotum nustotumėm nustotumėte nustotų nustočiau
+25	1725	išmoka	išmokas išmokomis išmokoms išmokos išmoką išmokų
+26	1726	išvada	išvadai išvadas išvadoje išvadomis išvadoms išvados išvadose išvadą išvadų
+27	1727	dirbtinis	dirbtine dirbtines dirbtini dirbtiniai dirbtiniais dirbtiniam dirbtiniame dirbtiniams dirbtinio dirbtiniu dirbtinius dirbtinių dirbtinė dirbtinėje dirbtinėmis dirbtinėms dirbtinės dirbtinę dirbtinį
+28	1728	opozicija	opozicijai opozicijoje opozicijos opoziciją
+29	1729	kontroliuoti	kontroliavo kontroliavome kontroliuoja kontroliuojame kontroliuojate kontroliuoju kontroliuokite kontroliuos kontroliuosime kontroliuotų
+30	1730	įtampa	įtampai įtampas įtampoje įtampos įtampą
+31	1731	architektūra	architektūros architektūrai architektūroje architektūroms architektūros architektūrą
+32	1732	kaltinimas	kaltinimai kaltinimais kaltinimams kaltinimo kaltinimu kaltinimus kaltinimą kaltinimų
+33	1733	lyga	lygoje lygose lygą
+34	1734	susisiekti	susisiekia susisiekiau susisieks susisieksime susisiektų susisiekė susisiekėme
+35	1735	vėliava	vėliavai vėliavas vėliavoje vėliavomis vėliavos vėliavą vėliavų
+36	1736	ligonis	ligoni ligoniai ligoniais ligoniams ligonio ligoniu ligoniui ligonius ligonių ligonė ligonį
+37	1737	krovinys	kroviniai kroviniais kroviniams krovinio kroviniu krovinius krovinių krovinyje krovinį
+38	1738	leistis	leidausi leidiesi leidosi leidžiamės leidžiasi leidžiatės leidžiuosi leisimės leisis leisitės leiskitės leistųsi
+39	1739	prokuroras	prokurorai prokurorais prokurorams prokurore prokuroro prokuroru prokurorui prokurorus prokurorą prokurorė prokurorų
+40	1740	apsauginis	apsaugine apsaugines apsauginiai apsauginiais apsauginio apsauginiu apsauginius apsauginių apsauginė apsauginėmis apsauginės apsauginę apsauginį
+41	1741	bendrija	bendrijai bendrijas bendrijoje bendrijoms bendrijos bendrijose bendriją bendrijų
+42	1742	švęsti	šventei šventi šventėm šventėme šventėte švenčia švenčiam švenčiame švenčiate švenčiau švenčiu švęs švęsdavo švęsdavome švęsime švęsiu švęskime švęskite švęstų
+43	1743	kolekcija	kolekcijai kolekcijas kolekcijoje kolekcijomis kolekcijoms kolekcijos kolekcijose kolekciją kolekcijų
+44	1744	piktas	pikta piktai piktais piktam piktams piktasis piktesni piktesnis piktesnė piktieji piktiems pikto piktoji piktojo piktos piktosios piktu piktuoju piktus piktą piktąja piktąją piktąjį piktąsias piktų piktųjų pikčiausia
+45	1745	židinys	židiniai židiniais židiniams židinio židiniu židiniui židiniuose židinius židinių židinyje židinį
+46	1746	krūtinė	krūtine krūtinei krūtines krūtinių krūtinėje krūtinėmis krūtinės krūtinę
+47	1747	vaidinti	vaidina vaidiname vaidinate vaidinau vaidindavau vaidindavo vaidini vaidino vaidinome vaidinote vaidins vaidinsi vaidinsiu vaidintų vaidinu
+48	1748	dailininkas	dailininkai dailininkais dailininkams dailininke dailininko dailininku dailininkui dailininkus dailininką dailininkė dailininkų
+49	1749	paskirtas	paskirta paskirtajam paskirtam paskirtasis paskirto paskirtoji paskirtojo paskirtos paskirtu paskirtus paskirtą
+50	1750	pasistengti	pasistengiau pasistengs pasistengsime pasistengsite pasistengsiu pasistengtų pasistengė pasistengėme pasistenk pasistenkime pasistenkite
+51	1751	ištraukti	ištrauk ištraukdavo ištrauki ištraukia ištraukiau ištraukite ištraukiu ištrauks ištrauktų ištraukė ištraukėme
+52	1752	mastas	mastai mastais mastams masto mastu mastui mastus mastą mastų
+53	1753	palaikymas	palaikymo palaikymu palaikymui palaikymą
+54	1754	sniegas	sniege sniego sniegu sniegui sniegus sniegą
+55	1755	sūris	sūri sūriai sūriais sūrio sūriu sūriui sūrius sūrių sūryje sūrį
+56	1756	finalas	finalai finale finalo finalui finaluose finalus finalą finalų
+57	1757	sportinis	sportine sportinei sportines sportiniai sportiniais sportiniam sportiniame sportinio sportiniu sportinius sportinių sportinė sportinėje sportinėms sportinės sportinėse sportinę sportinį
+58	1758	kelnės	kelnes kelnių kelnėmis kelnėms kelnėse
+59	1759	klasikinis	klasikine klasikinei klasikines klasikiniai klasikiniais klasikiniame klasikinio klasikiniu klasikinius klasikinių klasikinė klasikinėje klasikinės klasikinę klasikinį
+60	1760	rokas	rokai roke roki roko roku rokui roką rokų
+61	1761	šaunuolis	šaunuoliai
+62	1762	cukrus	cukraus cukrui cukruje cukrumi cukruose cukrų
+63	1763	laukinis	laukine laukinei laukines laukini laukiniai laukiniais laukiniam laukiniame laukiniams laukinio laukiniu laukiniuose laukinius laukinių laukinė laukinėje laukinėmis laukinėms laukinės laukinėse laukinę laukinį
+64	1764	išvažiuoti	išvažiavai išvažiavau išvažiavo išvažiavom išvažiavome išvažiuodavo išvažiuoja išvažiuojame išvažiuoji išvažiuoju išvažiuokite išvažiuos išvažiuosime išvažiuosiu išvažiuotų išvažiuočiau
+65	1765	leidžiamas	leidžiama leidžiamame leidžiami leidžiamo leidžiamoji leidžiamos leidžiamosios leidžiamus leidžiamą leidžiamąją leidžiamų
+66	1766	reiškinys	reiškiniai reiškiniais reiškiniams reiškinio reiškiniu reiškiniui reiškinius reiškinių reiškinį
+67	1767	stiklas	stiklai stiklais stikle stiklo stiklu stiklui stiklus stiklą stiklų
+68	1768	fotografija	fotografijai fotografijas fotografijoje fotografijomis fotografijoms fotografijos fotografijose fotografiją fotografijų
+69	1769	raumuo	raumenimis raumenims raumenis raumeniui raumens raumenys raumenyse raumenį raumenų
+70	1770	konstitucija	konstitucijai konstitucijoje konstitucijos konstitucijose konstituciją
+71	1771	asmeniškai	
+72	1772	matomas	matoma matomai matomais matomam matomi matomiems matomo matomoje matomos matomose matomu matomus matomą matomų
+73	1773	pasiruošti	pasiruoš pasiruoši pasiruošia pasiruošiau pasiruošime pasiruošiu pasiruošk pasiruoškite pasiruoštų pasiruošė pasiruošėme
+74	1774	padėkoti	padėkoja padėkojau padėkojo padėkokite padėkos
+75	1775	birža	biržoje biržos biržose biržą biržų
+76	1776	geltonas	geltona geltonai geltonais geltonaisiais geltonajai geltonajam geltonasis geltonesnių geltoni geltonieji geltono geltonoje geltonoji geltonojo geltonojoje geltonomis geltonoms geltonos geltonosios geltonu geltonuosiuose geltonuosius geltonus geltoną geltonąja geltonąją geltonąjį geltonų geltonųjų
+77	1777	diskusija	diskusijai diskusijas diskusijoje diskusijomis diskusijoms diskusijos diskusijose diskusiją diskusijų
+78	1778	įspūdis	įspūdi įspūdį įspūdžiai įspūdžiais įspūdžiams įspūdžio įspūdžiu įspūdžius įspūdžių
+79	1779	pažadėti	pažada pažadame pažadėjau pažadėjo pažadėjome pažadėjote pažadėk pažadėkite pažadės pažadėtų
+80	1780	išmesti	išmes išmesdavo išmesk išmeskite išmestų išmeta išmetame išmetu išmetė išmetėme išmečiau
+81	1781	niekaip	
+82	1782	kulka	kulkai kulkas kulkomis kulkoms kulkos kulką kulkų
+83	1783	įtarti	įtarei įtari įtaria įtariam įtariamas įtariamasis įtariame įtariate įtariau įtariu įtars įtarsi įtarta įtartas įtartinai įtarė įtarę įtaręs
+84	1784	pasekmė	pasekme pasekmes pasekmių pasekmėmis pasekmėms pasekmės pasekmę
+85	1785	atimti	atima atimame atimate atimi atimk atimkite atims atimsi atimsime atimtų atėmė
+86	1786	taikinys	taikiniai taikiniais taikiniams taikinio taikiniu taikiniui taikinius taikinių taikinyje taikinį
+87	1787	apimtas	apima apimta apimtame apimti apimto apimtoje apimtos apimtose apimtą apimtų
+88	1788	nerimas	nerime nerimi nerimo nerimu nerimui nerimą
+89	1789	žodžiu	
+90	1790	abejonė	abejonei abejones abejonių abejonėmis abejonėms abejonės abejonę
+91	1791	pagamintas	pagaminta pagamintai pagamintais pagamintame pagamintiems pagaminto pagamintos pagamintu pagamintus pagamintą
+92	1792	žygis	žygiai žygiais žygiams žygio žygiu žygiui žygiuose žygius žygių žygyje žygį
+93	1793	džiaugsmas	džiaugsmai džiaugsmais džiaugsme džiaugsmo džiaugsmu džiaugsmui džiaugsmus džiaugsmą džiaugsmų
+94	1794	rekomendacija	rekomendacijas rekomendacijomis rekomendacijoms rekomendacijos rekomendacijose rekomendaciją rekomendacijų
+95	1795	užbaigti	užbaigia užbaigs užbaigsime užbaigtų užbaigė užbaigėme užbaikite
+96	1796	žaidynės	žaidynes žaidynių žaidynėmis žaidynėms žaidynėse
+97	1797	mėginti	mėgina mėginai mėginam mėginame mėginant mėginate mėginau mėgindamas mėgindavo mėgini mėgink mėginkim mėginkime mėginkit mėginkite mėgino mėginom mėginome mėginot mėginote mėgins mėginsi mėginsim mėginsime mėginsite mėginsiu mėgintum mėgintų mėginu mėginčiau mėginęs
+98	1798	pajusti	pajunta pajuntame pajuntate pajunti pajuntu pajusdavo pajusi pajusime pajusite pajusiu pajusk pajuskite pajustum pajustume pajustų pajutai pajutau pajuto pajutome pajutote
+99	1799	globa	globai globas globoje globos globą
+100	1800	realybė	realybe realybei realybes realybėje realybės realybę

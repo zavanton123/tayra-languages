@@ -1,0 +1,100 @@
+1	8501	mergiotė	mergiotės
+2	8502	užtemimas	užtemimai užtemimo užtemimu užtemimą užtemimų
+3	8503	dieninis	dienines dieniniai dieninio dieninius dieninių dieninė dieninės dieninę dieninį
+4	8504	kasinėjimas	kasinėjimai kasinėjimo kasinėjimus kasinėjimų
+5	8505	refleksas	refleksai refleksus refleksą refleksų
+6	8506	perskaitęs	perskaitę perskaičius perskaičiusi
+7	8507	autentiškumas	autentiškumo autentiškumu autentiškumą
+8	8508	pražysti	pražydo pražys pražysta
+9	8509	biurokratinis	biurokratine biurokratines biurokratiniai biurokratiniais biurokratinio biurokratinius biurokratinių biurokratinė biurokratinėmis biurokratinės biurokratinę biurokratinį
+10	8510	išsivalyti	išsivalo išsivalys išsivalytų
+11	8511	apskritas	apskrito apskritojo apskritos apskritus apskritą
+12	8512	nuodyti	nuodija nuodijam nuodijamas nuodijat nuodijo nuodiju nuodykite nuodysim
+13	8513	aprodyti	aprodo aprodys aprodė
+14	8514	supratingas	supratinga supratingai supratingi
+15	8515	konsulas	konsule konsulo konsulu konsulus
+16	8516	rupūžė	rupūže rupūžes rupūžių rupūžėmis rupūžės rupūžę
+17	8517	pamaloninti	pamalonina pamalonink pamalonino pamalonins pamalonintų
+18	8518	susiimti	susiėmiau susiėmė
+19	8519	drėkinimas	drėkinimo drėkinimui
+20	8520	lenkiškai	
+21	8521	sušilti	sušilo sušils sušyla
+22	8522	veranda	verandoje verandos verandą
+23	8523	kiaušinėlis	kiaušinėliai kiaušinėliais kiaušinėlius kiaušinėlių kiaušinėlį
+24	8524	afera	aferas aferoje aferomis aferos aferą aferų
+25	8525	patalpintas	patalpinta patalpintos patalpintą
+26	8526	žolynas	žolynai žolynais žolyno žolynus žolynų
+27	8527	pervažiuoti	pervažiavo pervažiuos
+28	8528	puošmena	puošmenas puošmenos puošmeną puošmenų
+29	8529	atlygintas	atlyginta
+30	8530	skaitmuo	skaitmenimis skaitmenis skaitmenys skaitmenų
+31	8531	sužadinti	sužadina sužadino
+32	8532	patikėtinis	patikėtinio patikėtiniu patikėtinių
+33	8533	apmokestinimas	apmokestinimo apmokestinimą
+34	8534	kaupas	kaupi kaupo kaupu
+35	8535	stabilizuoti	stabilizuoja stabilizuotų
+36	8536	sula	sulos sulą
+37	8537	nusėsti	nusėda nusėdo
+38	8538	pralinksminti	pralinksmina pralinksmino pralinksmins
+39	8539	epilepsija	epilepsijos
+40	8540	religingas	religinga religingi religingos religingų
+41	8541	įsivėlęs	įsivėlus įsivėlusi įsivėlusios įsivėlę
+42	8542	kraštietė	kraštiečių
+43	8543	pasivažinėjimas	pasivažinėjimai pasivažinėjimo pasivažinėjimu pasivažinėjimus pasivažinėjimą
+44	8544	skiepytis	
+45	8545	projektinis	projektiniai projektinio projektinius projektinių projektinė projektinės projektinę projektinį
+46	8546	variacija	variacijas variacijos variacijų
+47	8547	emocionalus	emocionalaus emocionali emocionaliai emocionalios emocionalūs emocionalų
+48	8548	narsus	narsiai narsioji narsūs
+49	8549	metikas	metikai metiko metiką metikų
+50	8550	žaismingas	žaisminga žaismingai žaismingi žaismingomis žaismingos žaismingą žaismingų
+51	8551	mankštintis	mankštinasi mankštinkitės mankštinuosi
+52	8552	atgalinis	atgaline atgalinio
+53	8553	daigas	daigais daigams daiguose daigus daigą daigų
+54	8554	sinonimas	sinonimai sinonimu sinonimų
+55	8555	biliardas	biliardo biliardą
+56	8556	žvalus	žvalesnis žvalesnė žvali žvaliai žvaliau žvalūs
+57	8557	įsibrovėlis	įsibrovėliai įsibrovėlius įsibrovėlių įsibrovėlį
+58	8558	encefalitas	encefalito encefalitu encefalitą
+59	8559	gaudynės	gaudynes gaudynių
+60	8560	patarlė	patarlių patarlės patarlę
+61	8561	turnyrinis	turnyrinė turnyrinėje turnyrinės turnyrinę
+62	8562	priteisti	priteisia priteistų priteisė
+63	8563	sugriežtinti	sugriežtino sugriežtins sugriežtintų
+64	8564	savimonė	savimonės savimonę
+65	8565	agregatas	agregatai agregato agregatu agregatus agregatą agregatų
+66	8566	faraonas	faraonai faraone faraono faraonu faraonų
+67	8567	čiuožti	čiuožia
+68	8568	sudužęs	sudužus sudužusiame sudužusio sudužusios sudužusių sudužusį
+69	8569	apšviestas	apšviesta apšviestame apšviestoje apšviestos apšviestose apšviestus apšviestą
+70	8570	sunkiasvoris	sunkiasvoriai sunkiasvorio sunkiasvoriu sunkiasvorių sunkiasvorė sunkiasvorės sunkiasvorį
+71	8571	kinietis	kinietė kinietį kiniečiai kiniečiais kiniečiams kiniečiu kiniečius kiniečių
+72	8572	pakirsti	pakerta pakirs pakirstų pakirto
+73	8573	sauna	saunoje saunos sauną saunų
+74	8574	važinėtis	važinėjasi važinėjomės važinėjosi
+75	8575	blizgesys	blizgesio blizgesį
+76	8576	perjungti	perjungia perjungė
+77	8577	pusdienis	pusdienio pusdienį
+78	8578	seilė	seiles seilių seilėmis seilėse seilę
+79	8579	skiepyti	skiepija skiepijo
+80	8580	negyvenamas	negyvenama negyvenamoje negyvenamos negyvenamosios negyvenamą negyvenamų negyvenamųjų
+81	8581	transliuotas	transliuota transliuotame transliuoto transliuotoje transliuotojo transliuotą
+82	8582	paskirstytas	paskirstyta paskirstytos
+83	8583	užmesti	užmeta užmetė užmečiau
+84	8584	brangti	brango brangs brangsta brangtų
+85	8585	šešėlinis	šešėline šešėlines šešėlinio šešėlinių šešėlinė šešėlinės šešėlinę
+86	8586	pederastas	pedas pederastai pederaste pederastu pederastus pederastą pederastų pedikas
+87	8587	pliūpsnis	pliūpsniai pliūpsniais pliūpsnio pliūpsnius pliūpsnį
+88	8588	išvilioti	išvilioja išviliojo
+89	8589	luitas	luitai luito luitus luitą luitų
+90	8590	santrauka	santrauką
+91	8591	įsiterpti	įsiterpia įsiterpė
+92	8592	nuodugnus	nuodugniai nuodugniau nuodugnios nuodugnią nuodugnų
+93	8593	lietuvaitis	lietuvaite lietuvaitei lietuvaitė lietuvaitės lietuvaitę lietuvaičiai lietuvaičiams lietuvaičius lietuvaičių
+94	8594	maniežas	manieže maniežo maniežą
+95	8595	mastelis	masteliais mastelio masteliu mastelį
+96	8596	geologija	geologijos geologiją
+97	8597	liturgija	liturgijai liturgijoje liturgijos liturgiją
+98	8598	sureguliuoti	sureguliavo sureguliuoja sureguliuos sureguliuotų
+99	8599	nykimas	nykimo nykimu nykimą
+100	8600	kunigaikštienė	kunigaikštiene kunigaikštienės

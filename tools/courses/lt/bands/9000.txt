@@ -1,0 +1,100 @@
+1	8901	padvigubėti	padvigubėja padvigubėjo padvigubės
+2	8902	nepasirengęs	nepasirengusi nepasirengusios nepasirengę
+3	8903	užmigdyti	užmigdo užmigdytų užmigdė
+4	8904	susėsti	susėda susėdo
+5	8905	atmetimas	atmetimo atmetimą
+6	8906	jotvingis	jotvingiai jotvingių
+7	8907	kąsti	kanda kando kandu kandus kąsk kąstum
+8	8908	sudraskyti	sudrasko sudraskytų sudraskė
+9	8909	įslaptintas	įslaptinta įslaptintos įslaptintus įslaptintą
+10	8910	pakabintas	pakabinta pakabintos pakabintą
+11	8911	veltis	
+12	8912	suorganizuotas	suorganizuota suorganizuotos
+13	8913	polisas	poliso polisus polisą polisų
+14	8914	kilmingas	kilminga kilmingi kilmingo kilmingos kilmingą kilmingų
+15	8915	bambukas	bambukai bambuko bambuką bambukų
+16	8916	apsieiti	apsieina apsieis
+17	8917	seklys	sekliai sekliams seklio seklius seklių
+18	8918	transportuoti	transportuoja
+19	8919	lavina	laviną lavinų
+20	8920	svėrė	
+21	8921	fosfatas	fosfatai fosfato fosfatų
+22	8922	mobilizacija	mobilizacijos mobilizaciją
+23	8923	kompetentingas	kompetentinga kompetentingai kompetentingais kompetentingą kompetentingi kompetentingoms kompetentingos kompetentingą kompetentingų
+24	8924	įsakas	įsake įsaku įsakus įsaką
+25	8925	nerūpestingas	nerūpestinga nerūpestingai nerūpestingi nerūpestingos nerūpestingą
+26	8926	pirmokas	pirmokai pirmokams pirmokes pirmokui pirmokus pirmokę pirmokų
+27	8927	žmogelis	žmogeliai žmogeliui žmogelių žmogelį
+28	8928	išgarsėjęs	išgarsėjusi išgarsėjusio išgarsėjusios
+29	8929	montažas	montažo
+30	8930	nepradėtas	nepradėta nepradėti nepradėtos nepradėtų
+31	8931	supuvęs	supuvusi supuvusio supuvusios supuvusią supuvusių supuvusį supuvę
+32	8932	konservavimas	konservavimo
+33	8933	klotis	klojasi klojosi klosis kloties
+34	8934	sodinukas	sodinukai sodinukais sodinukus sodinukų
+35	8935	įgristi	įgriso
+36	8936	priešingybė	priešingybių priešingybės priešingybę
+37	8937	grandinėlė	grandinėle grandinėles grandinėlių grandinėlės grandinėlę
+38	8938	raukšlė	raukšles raukšlių raukšlėmis raukšlėms raukšlę
+39	8939	karoliai	karoliais karolius karolių
+40	8940	katastrofiškas	katastrofiška katastrofiškai katastrofiški katastrofiškos katastrofiškus katastrofišką katastrofiškų
+41	8941	aukotis	aukojasi aukojosi
+42	8942	arklidė	arklide arklides arklidėmis arklidės arklidėse arklidę arklidžių
+43	8943	pamišėlė	pamišėlių
+44	8944	dezinfekcinis	dezinfekcinių dezinfekcinėmis
+45	8945	pilietiškas	pilietiška pilietiškai pilietiški pilietiško pilietiškos pilietiškus pilietišką pilietiškų
+46	8946	laipsniškas	laipsniškai laipsnišką
+47	8947	stiprintuvas	stiprintuvo stiprintuvą
+48	8948	įsigalėti	įsigali įsigalėjo įsigalėtų
+49	8949	kaisti	kais kaista
+50	8950	ledkalnis	ledkalnio ledkalnių ledkalnį
+51	8951	suvaldytas	suvaldyta
+52	8952	dvasiškas	dvasiškai
+53	8953	išpažinti	išpažino išpažįsta
+54	8954	priešnuodis	priešnuodį priešnuodžiai priešnuodžio priešnuodžių
+55	8955	sportiškas	sportiška sportiškai sportiški sportiško sportiškos sportišką sportiškų
+56	8956	prekystalis	prekystaliai prekystalio prekystalius prekystalių prekystalį
+57	8957	piktybinis	piktybiniai piktybinių
+58	8958	dūda	dūdos dūdą dūdų
+59	8959	balerina	balerinai balerinas balerinomis balerinos balerinų
+60	8960	pasilinksminimas	pasilinksminimo pasilinksminimui pasilinksminimus pasilinksminimų
+61	8961	kreida	kreidos
+62	8962	kavalierius	kavalieriai kavalieriaus kavalierių
+63	8963	paklaida	paklaidos paklaidą
+64	8964	spiečius	spiečiai spiečiaus spiečiuje spiečių
+65	8965	dėstymas	dėstymo dėstymą
+66	8966	iškėlimas	iškėlimo iškėlimu iškėlimui iškėlimą
+67	8967	paštininkas	paštininkai paštininke paštininko paštininku paštininkui paštininką
+68	8968	įsikūnijimas	įsikūnijimo įsikūnijimu įsikūnijimą
+69	8969	būriuotis	būriavosi būriuojasi būriuosis
+70	8970	minkštimas	minkštimo minkštimu minkštimą
+71	8971	imitacija	imitacijomis imitacijos imitaciją
+72	8972	išteisintas	išteisinta
+73	8973	kasyba	kasybos
+74	8974	suvažiuoti	suvažiavo suvažiuodavo suvažiuoja suvažiuos
+75	8975	harmoningas	harmoninga harmoningai harmoningi harmoningo harmoningos harmoningus harmoningą harmoningų
+76	8976	negatyvas	negatyvai negatyvo negatyvus negatyvą negatyvų
+77	8977	daržininkystė	daržininkyste daržininkystės daržininkystę
+78	8978	konsultacinis	konsultacines konsultacinė konsultacinėje konsultacinės konsultacinę
+79	8979	ilgaamžiškumas	ilgaamžiškumo ilgaamžiškumu ilgaamžiškumą
+80	8980	neliečiamybė	neliečiamybės neliečiamybę
+81	8981	gniaužti	gniaužia gniaužtų
+82	8982	pašaukti	pašauktų pašaukė
+83	8983	peržiūrėtas	peržiūrėta peržiūrėtos
+84	8984	krosnelė	krosnelių krosnelėje krosnelės krosnelę
+85	8985	modernizmas	modernizmo
+86	8986	būtinumas	būtinumo būtinumu būtinumą
+87	8987	nevedęs	nevedę
+88	8988	jūsiškis	jūsiškiai jūsiškių
+89	8989	dirgiklis	dirgikliai dirgiklius dirgiklių dirgiklį
+90	8990	snigti	snigdavo snigo snigs sninga sningant
+91	8991	šiknaskylė	šiknaskyle šiknaskylės šiknaskylę
+92	8992	lankomumas	lankomumo lankomumu lankomumą
+93	8993	jojimas	jojimo jojimą
+94	8994	asmenukė	asmenuke asmenukes asmenukių asmenukėje asmenukėms asmenukės asmenukę
+95	8995	pernykštis	pernykštes pernykštė pernykštės pernykštę pernykštį pernykščiai pernykščiame pernykščio pernykščių
+96	8996	pasisaugoti	pasisaugokite
+97	8997	sustatyti	sustato sustatė
+98	8998	pavadėlis	pavadėlio pavadėlį
+99	8999	žiemoti	žiemoja
+100	9000	simuliacija	simuliacijas simuliacijoje simuliacijos simuliaciją

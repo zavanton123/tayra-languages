@@ -1,0 +1,100 @@
+1	9101	paaukštinti	paaukštino
+2	9102	pjovimas	pjovimo
+3	9103	džiūgauti	džiūgauja džiūgavo
+4	9104	suteptas	sutepta sutepti suteptos suteptą suteptų
+5	9105	ginamas	ginama ginamajam ginamasis ginami ginamojo ginamos ginamą ginamąjį
+6	9106	susikaupimas	susikaupimo susikaupimui susikaupimą
+7	9107	realizacija	realizacijos realizaciją
+8	9108	sąveikauti	sąveikauja
+9	9109	migruoti	migravo migruoja migruos
+10	9110	atvaizduoti	atvaizduoja
+11	9111	iškrėsti	iškrečia iškrės iškrėtė
+12	9112	vaflis	vafliai vaflio vaflius vaflių vaflyje
+13	9113	kolekcininkas	kolekcininkai kolekcininko kolekcininkus kolekcininkų
+14	9114	prieangis	prieangio prieangyje prieangį
+15	9115	nitratas	nitrato nitratų
+16	9116	išrinkimas	išrinkimo išrinkimą
+17	9117	procentinis	procentine procentiniais procentinio procentiniu procentinių procentinė
+18	9118	nuslopinti	nuslopina nuslopino nuslopins
+19	9119	dinaminis	dinamines dinaminio dinaminė dinaminės
+20	9120	renta	rentas rentos rentą
+21	9121	įduba	įduboje įdubos įdubą
+22	9122	išsivesti	išsiveda išsivedė
+23	9123	glitimas	glitimo
+24	9124	upėtakis	upėtakiai upėtakiais upėtakio upėtakius upėtakių upėtakį
+25	9125	sėdėjimas	sėdėjimo sėdėjimą
+26	9126	trupėti	trupa trupės
+27	9127	svečiuotis	svečiavosi svečiuojasi svečiuosis
+28	9128	puma	pumos pumų
+29	9129	karti	
+30	9130	paaukštintas	paaukštinta
+31	9131	smurtinis	smurtiniai smurtinio smurtiniu smurtinius smurtinių smurtinė smurtinės smurtinę smurtinį
+32	9132	citadelė	citadele citadelės
+33	9133	apvirtas	apvirto apvirtus
+34	9134	klyksmas	klyksmai klyksmais klyksmą
+35	9135	sudrebinti	sudrebino sudrebins
+36	9136	gyvis	gyviai gyviams gyvius gyvių gyvį
+37	9137	picerija	picerijoje picerijos piceriją picerijų
+38	9138	įsiplieksti	įsiplieks įsiplieskia įsiplieskė
+39	9139	laimas	laimai laimo
+40	9140	savanaudiškas	savanaudiška savanaudiškai savanaudiškais savanaudiški savanaudiškos savanaudiškų
+41	9141	ramunėlė	ramunėlių ramunėlės
+42	9142	pirmais	
+43	9143	pasipiktinęs	pasipiktinusi pasipiktinusių pasipiktinę
+44	9144	padavėjas	
+45	9145	vaidybinis	vaidybinio vaidybinius vaidybinių vaidybinį
+46	9146	hiena	hienas hienoms hienos hieną hienų
+47	9147	atidėjimas	atidėjimai atidėjimo atidėjimus atidėjimą atidėjimų
+48	9148	gelžbetonis	gelžbetonio
+49	9149	varinis	variniai variniame varinio varinių varinį
+50	9150	nacija	nacijos naciją nacijų
+51	9151	nacistinis	nacistine nacistinio nacistinių nacistinė nacistinės nacistinę
+52	9152	padirbti	padirba padirbo padirbtų
+53	9153	užkabinti	užkabina užkabino
+54	9154	pasvajoti	pasvajoja
+55	9155	gulėdamas	gulėdama gulėdami
+56	9156	derlingumas	derlingumo derlingumu derlingumą
+57	9157	spalvinis	spalvine spalviniai spalvinius spalvinių spalvinė spalvinės spalvinę
+58	9158	nekaltumas	nekaltumo nekaltumu nekaltumą
+59	9159	sandarus	sandari sandariai sandariame sandarios sandarūs
+60	9160	mezgimas	mezgimo mezgimą
+61	9161	gyti	gijai gijo gyja gyji
+62	9162	ūpas	ūpo ūpą
+63	9163	bumas	bumo bumu bumui bumą
+64	9164	įsiveržimas	įsiveržimo įsiveržimui įsiveržimą
+65	9165	abejingumas	abejingumo abejingumu abejingumą
+66	9166	paranoja	paranojos paranoją
+67	9167	antrininkas	antrininkai antrininko antrininku antrininką antrininkų
+68	9168	chaotiškas	chaotiška chaotiškai chaotiški chaotiško chaotiškos chaotišku chaotiškus chaotišką chaotiškų
+69	9169	žiebtuvėlis	žiebtuvėlio žiebtuvėlių žiebtuvėlį
+70	9170	tinkas	tinko
+71	9171	bijūnas	bijūnai bijūnais bijūnams bijūno bijūnus bijūną bijūnų
+72	9172	ištuštinti	ištuština ištuštino
+73	9173	suirti	suiro suirtų suyra
+74	9174	eksportuojamas	eksportuojama eksportuojami eksportuojamos eksportuojamų
+75	9175	veistis	veisiasi veisėsi
+76	9176	deklaravimas	deklaravimo deklaravimą
+77	9177	dygti	dygo dygsta dygstant
+78	9178	aukštaūgis	aukštaūgiai aukštaūgio aukštaūgiu aukštaūgius aukštaūgių aukštaūgį
+79	9179	pažastis	pažasties pažastimi pažastyje pažastys pažastyse pažastį pažastų
+80	9180	knibždėti	knibžda knibždėjo
+81	9181	susilpnėti	susilpnėja susilpnėjo susilpnės
+82	9182	kietumas	kietumo
+83	9183	halė	halėje halės halę
+84	9184	gelti	gelia geliantis geliate geliu gelk gelsiu geltų gėlus gėlėm
+85	9185	išlaisvintas	išlaisvinta išlaisvintos
+86	9186	slapti	
+87	9187	perrinktas	perrinkta perrinktam
+88	9188	nurodinėti	nurodinėja nurodinėjo
+89	9189	vasarnamis	vasarnamio vasarnamyje vasarnamį
+90	9190	susijaudinimas	susijaudinimo susijaudinimą
+91	9191	nupasakoti	nupasakojo
+92	9192	prastėti	prastėja prastėjo prastės
+93	9193	raportas	raporte raporto raportus raportą
+94	9194	popierėlis	popierėliai popierėlio popierėliu popierėlius popierėlių popierėlį
+95	9195	savana	savanoje savanos savaną
+96	9196	grybauti	grybauja grybaujant grybauji grybavimas grybavimo grybavo
+97	9197	įdirbis	įdirbio įdirbį
+98	9198	girininkas	girininko girininku girininką girininkų
+99	9199	momentinis	momentiniai momentinio momentinių momentinė momentinės momentinę momentinį
+100	9200	skanduoti	skandavo skanduoja

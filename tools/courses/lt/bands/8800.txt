@@ -1,0 +1,100 @@
+1	8701	karosas	karosai karoso karosus karosą
+2	8702	kosmonautas	kosmonautai kosmonaute kosmonauto kosmonautus kosmonautų
+3	8703	kirmėlė	kirmėle kirmėles kirmėlių kirmėlėmis kirmėlės
+4	8704	alerginis	alergines alerginių alerginė alerginėmis alerginės alerginę
+5	8705	plaukelis	plaukeliai plaukeliais plaukelius plaukelių
+6	8706	suskambėti	suskamba suskambėjo suskambės suskambėtų
+7	8707	ratelis	ratelio rateliu ratelius ratelių ratelyje ratelį
+8	8708	skliautas	skliautai skliautais skliaute skliauto skliautu skliautą
+9	8709	dotacija	dotacijas dotacijomis dotacijos dotaciją dotacijų
+10	8710	mąstytojas	mąstytojai mąstytojo mąstytojų
+11	8711	apytikris	apytikriai apytikriais
+12	8712	trilogija	trilogijos trilogiją
+13	8713	žiotys	žiotimis žiotis žiotyse žiočių
+14	8714	pusryčiauti	pusryčiaudamas pusryčiaujam pusryčiaujant pusryčiauju pusryčiaukite pusryčiaus pusryčiausi pusryčiausime pusryčiaučiau pusryčiavai pusryčiavau pusryčiavome pusryčiavote pusryčiavus
+15	8715	parinkimas	parinkimo parinkimą
+16	8716	praturtėti	praturtėjo praturtės
+17	8717	smurtauti	smurtauja smurtavo
+18	8718	įveiktas	įveikta įveiktos įveiktą
+19	8719	karščiuoti	karščiavo karščiuoja
+20	8720	apdairus	apdairesni apdairi apdairiai apdairiau apdairūs
+21	8721	kriminalistas	kriminalistai kriminalistams kriminalistu kriminalistus kriminalistų
+22	8722	demokratiškas	demokratiška demokratiškai demokratiškais demokratiški demokratiškoje demokratiškos demokratiškus demokratišką demokratiškų
+23	8723	globojamas	globojama globojami globojamiems globojamus globojamą globojamų
+24	8724	chloras	chloro chloru chlorui chlorą
+25	8725	šventikas	šventikai šventiko šventikų
+26	8726	pantera	panteros
+27	8727	prabusti	prabudau prabudo prabunda prabundu
+28	8728	spardyti	spardo spardė
+29	8729	atsiskyrėlis	atsiskyrėlio atsiskyrėlių
+30	8730	maketas	maketai maketo maketus maketą
+31	8731	nenoras	nenoru nenorą
+32	8732	nokautas	nokauto nokautu nokautą nokautų
+33	8733	snapas	snape snapo snapu snapus snapą
+34	8734	stalius	staliai staliaus stalių
+35	8735	arkliukas	arkliukai arkliuko arkliuku arkliukui arkliuką arkliukų
+36	8736	vaikytis	vaikosi
+37	8737	ieškovas	ieškovai ieškovams ieškove ieškovo ieškovu ieškovui ieškovus ieškovą ieškovė ieškovų
+38	8738	blogybė	blogybes blogybių blogybės blogybę
+39	8739	įamžinimas	įamžinimo įamžinimui įamžinimą
+40	8740	tapatumas	tapatumo tapatumą
+41	8741	kvietinis	kvietiniai kvietinių kvietinė
+42	8742	užkurti	užkuria užkurs užkūrė
+43	8743	siurbti	siurbdamas siurbei siurbia siurbiu siurbk siurbs siurbsi siurbė
+44	8744	pajėgti	pajėgs pajėgsime pajėgsiu pajėgtų pajėgė
+45	8745	skraidinti	skraidina skraidins
+46	8746	apsukas	apsukomis apsukos apsukų
+47	8747	verslumas	verslumo verslumą
+48	8748	būda	būdoje būdos
+49	8749	brokolis	brokoliai brokoliais brokoliuose brokolius brokolių
+50	8750	lošėjas	lošėjai lošėjo lošėją lošėjų
+51	8751	atsiremti	atsiremia atsiremk atsirėmė
+52	8752	pasižadėjimas	pasižadėjimai pasižadėjimo pasižadėjimus pasižadėjimą pasižadėjimų
+53	8753	skaitytuvas	skaitytuvai skaitytuvo skaitytuvus skaitytuvą skaitytuvų
+54	8754	rankininkas	rankininkai rankininkais rankininkams rankininko rankininkus rankininkė
+55	8755	įteikimas	įteikimo įteikimą
+56	8756	reformacija	reformacijos
+57	8757	svetingas	svetinga svetingai svetingi svetingą svetingų
+58	8758	dažymas	dažymo dažymui
+59	8759	kanopa	kanopas kanopomis kanopos kanopų
+60	8760	postūmis	postūmio postūmiu postūmį
+61	8761	dauginimasis	dauginimosi dauginimuisi dauginimąsi
+62	8762	įtaisytas	įtaisyta įtaisytos įtaisytu įtaisytą
+63	8763	atsiprašinėti	atsiprašinėja atsiprašinėjo
+64	8764	dvasingumas	dvasingumo dvasingumu dvasingumą
+65	8765	neapibrėžtumas	neapibrėžtumo neapibrėžtumui neapibrėžtumą
+66	8766	pritapti	pritampa pritaps pritaptų
+67	8767	razina	razinas razinomis razinos razinų
+68	8768	senamadiškas	senamadiška senamadiškai senamadiški senamadiško senamadišku senamadiškų
+69	8769	pasipūtęs	pasipūtusi pasipūtę
+70	8770	bedugnis	bedugnė bedugnės
+71	8771	nesuderinamas	nesuderinama nesuderinami nesuderinamos nesuderinamus nesuderinamą nesuderinamų
+72	8772	nuožiūra	
+73	8773	paaiškinamas	paaiškinama paaiškinami
+74	8774	panieka	paniekos panieką
+75	8775	agitacija	agitacijai agitacijoje agitacijos agitaciją
+76	8776	infekuotas	infekuota infekuotos infekuotą infekuotųjų
+77	8777	lokalus	lokalaus lokali lokaliai lokalias lokalius lokalių lokalų
+78	8778	nutekėti	nuteka nutekėjo nutekės nutekėtų
+79	8779	gatvelė	gatvele gatveles gatvelių gatvelėje gatvelėmis gatvelės gatvelėse gatvelę
+80	8780	recenzija	recenzijas recenzijoje recenzijos recenzijų
+81	8781	procesija	procesijoje procesijos procesiją procesijų
+82	8782	gyvybingumas	gyvybingumo gyvybingumu gyvybingumui gyvybingumą
+83	8783	sulyginti	sulygina sulygino
+84	8784	pilnametystė	pilnametystės
+85	8785	pameluoti	pamelavau pamelavo
+86	8786	parnešti	parneša parnešdavo parnešė
+87	8787	vagonėlis	vagonėliai vagonėlio vagonėlių vagonėlyje vagonėlį
+88	8788	olimpietis	olimpietį olimpiečiai olimpiečiams olimpiečiu olimpiečius olimpiečių
+89	8789	švilpukas	švilpukai švilpuko švilpuku švilpukus švilpuką švilpukų
+90	8790	bendrinis	bendrine bendriniu bendrinių bendrinės bendrinę
+91	8791	atsidusti	atsiduso atsidūsta
+92	8792	žvalgytis	žvalgausi žvalgomės žvalgosi žvalgyti žvalgėsi
+93	8793	atsiskyręs	atsiskyrus atsiskyrusi atsiskyrusios atsiskyrusių atsiskyrę
+94	8794	perdirbamas	perdirbama perdirbami perdirbamos perdirbamų
+95	8795	gudas	gudai gudienė gudo gudu gudų
+96	8796	korėjietė	korėjiečių
+97	8797	nugriautas	nugriauta nugriauto nugriautos
+98	8798	supakuotas	supakuota supakuotos supakuotus supakuotą
+99	8799	perdirbtas	perdirbta perdirbto perdirbtos perdirbtus perdirbtą
+100	8800	konditerija	konditerijos

@@ -1,0 +1,100 @@
+1	7401	susukti	susuka susukite susuko susuks susuktų
+2	7402	kaupiamas	kaupiama kaupiami kaupiamoji kaupiamos kaupiamų kaupiamųjų
+3	7403	paplisti	paplis paplito
+4	7404	ištirpti	ištirpo ištirps ištirpsta
+5	7405	pusiaukelė	pusiaukelėje pusiaukelės pusiaukelę
+6	7406	seksualumas	seksualumo seksualumu seksualumą
+7	7407	paleidžiamas	paleidžiama paleidžiami paleidžiamos paleidžiamų
+8	7408	keblus	kebli kebliau keblioje keblios keblią keblių keblu
+9	7409	jaunėlis	jaunėlio jaunėliui jaunėlė jaunėlės jaunėlį
+10	7410	kreipti	kreipia kreipiame kreipiu kreipkite kreips kreiptų kreipė
+11	7411	spaudžiamas	spaudžiama spaudžiami spaudžiamos
+12	7412	naujakurys	naujakuriai naujakuriams naujakurius naujakurių
+13	7413	nuomotis	nuomojamės nuomojasi nuomojosi nuomojuosi nuomosis
+14	7414	pavaišinti	pavaišina pavaišino pavaišins
+15	7415	atsinaujinimas	atsinaujinimo atsinaujinimui atsinaujinimą
+16	7416	įkyrus	įkyraus įkyriai įkyriais įkyrios įkyrių įkyrūs įkyrų
+17	7417	išsijungti	išsijungia išsijungė
+18	7418	moksliškas	moksliškai
+19	7419	daviklis	davikliai davikliais daviklio daviklius daviklių daviklį
+20	7420	šaukštelis	šaukšteliai šaukšteliais šaukštelio šaukšteliu šaukštelius šaukštelių šaukštelį
+21	7421	cenzūra	cenzūros cenzūrą
+22	7422	pasimesti	pasimeta pasimetė pasimečiau
+23	7423	erekcija	erekcijas erekcijos erekciją
+24	7424	pakisti	pakinta pakito
+25	7425	mėtytis	mėtos mėtosi mėtėsi
+26	7426	motoras	motorai motoro motoru motorą motorų
+27	7427	hierarchija	hierarchijoje hierarchijos hierarchiją
+28	7428	filharmonija	filharmonijoje filharmonijos filharmoniją
+29	7429	slinkti	slenka slinko slinks
+30	7430	neregėtas	neregėta neregėtai neregėtais neregėti neregėto neregėtos neregėtu neregėtus neregėtą neregėtų
+31	7431	eksploatavimas	eksploatavimo eksploatavimu eksploatavimui eksploatavimą
+32	7432	išardyti	išardo išardys išardytų išardė
+33	7433	dramaturgas	dramaturgai dramaturgo dramaturgu dramaturgų
+34	7434	milas	milo
+35	7435	perkūnija	perkūnijomis perkūnijos perkūniją
+36	7436	slysti	slydo slysta slystų
+37	7437	ieškotoja	ieškotojai ieškotojais ieškotojams ieškotojas ieškotojo ieškotoją ieškotojų
+38	7438	keistokas	keistoka keistokai keistoki
+39	7439	paaukštinimas	paaukštinimo paaukštinimą
+40	7440	kioskas	kioskai kioske kiosko kioskuose kioskus kioską kioskų
+41	7441	įsitaisyti	įsitaisiau įsitaiso įsitaisykite įsitaisė
+42	7442	autoritarinis	autoritarine autoritariniam autoritarinio autoritariniu autoritarinių autoritarinė autoritarinėje autoritarinės autoritarinę autoritarinį
+43	7443	garsinti	garsina garsino garsins garsintų
+44	7444	įleidžiamas	įleidžiama įleidžiami įleidžiamos
+45	7445	flagmanas	flagmanai flagmanams flagmane flagmano flagmanu flagmanui flagmanuose flagmanus flagmaną flagmanų
+46	7446	brendis	brendi brendį brendžio brendžiu
+47	7447	kapitalizmas	kapitalizme kapitalizmo kapitalizmui kapitalizmą
+48	7448	gyvūnija	gyvūnijai gyvūnijos gyvūniją
+49	7449	projekcija	projekcijas projekcijos projekciją projekcijų
+50	7450	montavimas	montavimo
+51	7451	kupranugaris	kupranugari kupranugariai kupranugario kupranugariu kupranugarius kupranugarių kupranugarį
+52	7452	ruošimas	ruošimo ruošimu ruošimą
+53	7453	ruletė	ruletės ruletę
+54	7454	užkliūti	užklius užkliuvau užkliuvo užkliūdavo užkliūva
+55	7455	grindinis	grindinio grindiniu grindinyje grindinį
+56	7456	sutvirtinti	sutvirtina sutvirtinkite sutvirtino sutvirtins
+57	7457	sudegintas	sudeginta sudeginto sudegintos
+58	7458	konsultavimas	konsultavimo
+59	7459	tęstinis	tęstiniai tęstinio tęstinių tęstinė tęstinės tęstinę tęstinį
+60	7460	pagerbtas	pagerbta pagerbtos
+61	7461	įgaliotas	įgaliota įgaliotam įgaliotasis įgalioto
+62	7462	šlapintis	besišlapinantis šlapinaisi šlapinamės šlapinantis šlapinasi šlapinausi šlapindamasis šlapindavausi šlapindavosi šlapiniesi šlapinosi šlapinuosi
+63	7463	priaugti	priauga priaugau priaugo
+64	7464	stalelis	stalelio stalelių stalelį
+65	7465	nelogiškas	nelogiška nelogiškai nelogiški
+66	7466	parodomas	parodoma parodomasis parodomi parodomieji parodomoji parodomojo parodomąją parodomąsias parodomųjų
+67	7467	publikuotas	publikuota publikuotame publikuoto publikuotos
+68	7468	klestėti	klestėjo klestės klestėtų
+69	7469	budrumas	budrumo budrumą
+70	7470	išbandytas	išbandyta išbandytos išbandytus išbandytą
+71	7471	ganykla	ganyklas ganykloje ganyklomis ganyklos ganyklose ganyklą ganyklų
+72	7472	prostitucija	prostitucijai prostitucijos prostituciją
+73	7473	prestižas	prestižo prestižą
+74	7474	pasipiršti	pasipirš pasipiršau pasipiršo
+75	7475	žymėjimas	žymėjimo žymėjimą
+76	7476	diktatūra	diktatūrai diktatūros diktatūrą diktatūrų
+77	7477	užgriūti	užgrius užgriuvo užgriūna užgriūva
+78	7478	tautodailė	tautodailės
+79	7479	plantacija	plantacijas plantacijoje plantacijos plantacijose plantaciją plantacijų
+80	7480	sekamas	sekama sekami sekamos sekamų
+81	7481	įtraukimas	įtraukimo įtraukimui įtraukimą
+82	7482	idealas	idealai idealais idealams idealo idealą
+83	7483	ėmimas	ėmimo ėmimu ėmimą
+84	7484	troškulys	troškulio troškuliu troškuliui troškulį
+85	7485	nekantrus	nekantri nekantriai nekantrūs
+86	7486	šildyti	šildo šildome šildys šildytų šildė
+87	7487	perpildytas	perpildyta perpildytame perpildytoje perpildytos perpildytose perpildytuose perpildytus
+88	7488	pasipildyti	pasipildo pasipildys pasipildytų pasipildė
+89	7489	trūkstamas	trūkstama trūkstamos trūkstamus trūkstamą trūkstamų
+90	7490	bolidas	bolidai bolido bolidu bolidus bolidą bolidų
+91	7491	išnaudojamas	išnaudojama išnaudojami išnaudojamos
+92	7492	išsiskirstyti	išsiskirsto išsiskirstome išsiskirstys išsiskirstė
+93	7493	cinamonas	cinamone cinamono cinamonu cinamoną
+94	7494	dominavimas	dominavimo dominavimui dominavimą
+95	7495	aikštynas	aikštynai aikštyne aikštyno aikštynuose aikštyną aikštynų
+96	7496	pagarsėjęs	pagarsėjusi pagarsėjusio pagarsėjusioje pagarsėjusiu pagarsėjusią pagarsėjusį pagarsėję
+97	7497	papirkti	papirko
+98	7498	migla	migloje miglos miglą miglų
+99	7499	dislokuotas	dislokuota dislokuotame dislokuotiems dislokuoto dislokuotos dislokuotus dislokuotą
+100	7500	tornadas	tornadai tornade tornado tornadu tornadą tornadų

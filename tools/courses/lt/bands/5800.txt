@@ -1,0 +1,100 @@
+1	5701	pasistatyti	pasistato pasistatė pasistatėme pasistačiau
+2	5702	patriotas	patriotai patriotais patriotams patriote patrioto patriotu patriotus patriotą patriotų
+3	5703	slapyvardis	slapyvardį slapyvardžiai slapyvardžiais slapyvardžio slapyvardžiu slapyvardžius
+4	5704	kalorija	kalorijas kalorijos kalorijų
+5	5705	suvesti	suveda suvedė
+6	5706	idiotė	idiote
+7	5707	grėsmingas	grėsminga grėsmingai grėsmingi grėsmingiausia grėsmingo grėsmingos grėsmingu grėsmingus grėsmingą grėsmingų
+8	5708	neištikimas	neištikima neištikimi neištikimos neištikimą
+9	5709	darytis	daryta daryto darytoje darytomis darytos darytose darytu darytus darytą
+10	5710	užsidegti	užsidega užsidegs užsidegtų užsidegė
+11	5711	vaidyba	vaidybai vaidybos vaidybą
+12	5712	šienas	šiene šieno šienu šienui šieną
+13	5713	apibrėžtas	apibrėžta apibrėžto apibrėžtoje apibrėžtos apibrėžtą
+14	5714	vaza	vazas vazoje vazos vazose vazą vazų
+15	5715	tautosaka	tautosakoje tautosakos tautosaką
+16	5716	verstis	verčiamės verčiasi
+17	5717	valytojas	valytoja valytojai valytojams valytojo valytojos valytoju valytojui valytojus valytoją
+18	5718	vykdytojas	vykdytoja vykdytojai vykdytojais vykdytojams vykdytojo vykdytojui vykdytojus vykdytojų
+19	5719	kūrybingas	kūrybinga kūrybingai kūrybingais kūrybingi kūrybingiems kūrybingos kūrybingus kūrybingą kūrybingų
+20	5720	stygius	stygiaus stygiumi stygių
+21	5721	konsultuoti	konsultavo konsultuoja konsultuojame konsultuoju konsultuos konsultuotų
+22	5722	kaminas	kaminai kamine kamino kaminu kaminus kaminą kaminų
+23	5723	alkis	alkio alkiui alkį
+24	5724	panorama	panoramoje panoramos panoramą
+25	5725	armėnas	armėnai armėnams armėne armėno armėnui armėnus armėną
+26	5726	vaizdinys	vaizdiniai vaizdiniais vaizdinio vaizdinių vaizdinyje
+27	5727	pakitimas	pakitimai pakitimams pakitimus pakitimų
+28	5728	nuodas	nuodais nuodo nuodu nuodų
+29	5729	centralizuotas	centralizuota centralizuotai centralizuoto centralizuotoje centralizuotos centralizuotu centralizuotą
+30	5730	evakuoti	evakavo evakuoja evakuotų
+31	5731	bristi	brenda brendame brendi brido brisdavo
+32	5732	užbaigtas	užbaigta užbaigtos
+33	5733	kablys	kabliai kabliais kablio kabliu kablius kablių kably kablį
+34	5734	romantika	romantikos
+35	5735	prakeiksmas	prakeiksmai prakeiksmo prakeiksmu prakeiksmus prakeiksmą prakeiksmų
+36	5736	pakeltas	pakelta pakelto pakeltomis pakeltos pakeltu pakeltą
+37	5737	absurdas	absurdo absurdu absurdą absurdų
+38	5738	nejudėti	nejuda nejudėjo nejudės nejudėtų
+39	5739	uždengti	uždengia uždengs uždengtų uždengė uždenkite
+40	5740	skruostas	skruostai skruostais skruosto skruostu skruostuose skruostus skruostą skruostų
+41	5741	pirmtakas	pirmtakai pirmtakais pirmtako pirmtaku pirmtakui pirmtakus pirmtaką pirmtakų
+42	5742	rengėja	rengėjai rengėjams rengėjas rengėjo rengėjos rengėjus rengėjų
+43	5743	prieinamumas	prieinamumo prieinamumu prieinamumui prieinamumą
+44	5744	pagarbus	pagarbaus pagarbiai pagarbiau pagarbią
+45	5745	pasisakymas	pasisakymai pasisakymais pasisakyme pasisakymo pasisakymu pasisakymuose pasisakymus pasisakymą pasisakymų
+46	5746	išdidus	išdidi išdidūs išdidžiai išdidžios
+47	5747	susišaudymas	susišaudymai susišaudymo susišaudymui susišaudymą susišaudymų
+48	5748	nepageidaujamas	nepageidaujama nepageidaujami nepageidaujamo nepageidaujamu nepageidaujamus nepageidaujamą nepageidaujamų
+49	5749	šiurkštus	šiurkštaus šiurkšti šiurkštūs šiurkštų šiurkščiais šiurkščiu šiurkščius
+50	5750	kvitas	kvitai kvitais kvito kvitus kvitą kvitų
+51	5751	dekanas	dekano dekanu dekanui dekaną
+52	5752	sužlugdyti	sužlugdo sužlugdys sužlugdytų sužlugdė
+53	5753	atkovoti	atkovodavo atkovoja atkovojo atkovotų
+54	5754	grubus	grubesnes grubesni grubesnės grubiai grubiais grubią grubių grubu
+55	5755	pupytė	pupyte pupytei pupytes pupytėmis pupytėms pupytės pupytę pupyčių
+56	5756	steigiamas	steigiama steigiamajame steigiamasis steigiami steigiamojo steigiamos steigiamąjį
+57	5757	statutas	statuto statutu statutą statutų
+58	5758	važiuoklė	važiuokle važiuokles važiuoklėje važiuoklės važiuoklę
+59	5759	išsiveržti	išsiverš išsiveržia išsiveržė
+60	5760	įsilaužti	įsilaužia įsilaužė
+61	5761	žinojimas	žinojimo žinojimu žinojimą
+62	5762	staklės	stakles staklių staklėmis
+63	5763	girtis	girdavosi giriasi gyrėsi
+64	5764	bažnytinis	bažnytinei bažnytiniai bažnytinio bažnytinių bažnytinė bažnytinės bažnytinę bažnytinį
+65	5765	parkeris	parkerio parkeriu parkerį
+66	5766	šiluminis	šilumines šiluminio šiluminių šiluminė šiluminės šiluminę
+67	5767	šešiolika	šešiolikos
+68	5768	sirena	sirenai sirenas sirenomis sirenos sireną sirenų
+69	5769	horizontalus	horizontalaus horizontali horizontaliai horizontalioje horizontalios horizontalią horizontalūs
+70	5770	publikuoti	publikavo publikuoja publikuos publikuosime publikuotų
+71	5771	grotuvas	grotuvai grotuvais grotuve grotuvo grotuvą grotuvų
+72	5772	amunicija	amunicijos amuniciją
+73	5773	rega	regos regą
+74	5774	rusiškai	
+75	5775	priverstinis	priverstines priverstinio priverstiniu priverstinių priverstinė priverstinės priverstinę priverstinį
+76	5776	sutiktas	sutikta sutiktais sutiktam sutiktiems sutikto sutiktos sutiktu sutiktus sutiktą
+77	5777	prizininkas	prizininkai prizininkais prizininkams prizininku prizininkus prizininką prizininkų
+78	5778	šaukimas	šaukimai šaukimo šaukimu šaukimus šaukimą
+79	5779	karatė	
+80	5780	išgėręs	išgėrus išgėrusi išgėrusios išgėrusius išgėrusių išgėrusį išgėrę
+81	5781	perkeliamas	perkeliama perkeliami perkeliamos
+82	5782	vedlys	vedliai vedlio vedliu vedliui vedlius vedlių vedlį
+83	5783	šaudmuo	šaudmenimis šaudmenis šaudmenys šaudmenį šaudmenų
+84	5784	pavestas	pavesta pavestą
+85	5785	ieškojimas	ieškojimai ieškojimais ieškojimams ieškojimo ieškojimu ieškojimus ieškojimą ieškojimų
+86	5786	pratęsimas	pratęsimo pratęsimą
+87	5787	grafinis	grafiniai grafiniais grafinio grafinius grafinių grafinė grafinės grafinį
+88	5788	cukrinis	cukriniai cukrinio cukriniu cukrinius cukrinių cukrinės cukrinį
+89	5789	patentas	patentai patento patentus patentą patentų
+90	5790	ironiškas	ironiška ironiškai ironiško ironišku ironišką
+91	5791	įvažiuoti	įvažiavo įvažiuoja
+92	5792	raštelis	rašteliai raštelio rašteliu raštelius raštelių raštelyje raštelį
+93	5793	tulpė	tulpe tulpes tulpių tulpėmis tulpės tulpę
+94	5794	kratytis	kratos kratosi kratėsi
+95	5795	parlamentinis	parlamentinei parlamentines parlamentiniame parlamentinio parlamentinių parlamentinė parlamentinės parlamentinę parlamentinį
+96	5796	mikroorganizmas	mikroorganizmai mikroorganizmais mikroorganizmams mikroorganizmus mikroorganizmų
+97	5797	nepastebimas	nepastebima nepastebimai nepastebimi nepastebimos nepastebimą
+98	5798	antraštė	antrašte antraštei antraštes antraštėje antraštėmis antraštėms antraštės antraštėse antraštę antraščių
+99	5799	paguldyti	paguldo paguldė paguldžiau
+100	5800	gandras	gandrai gandrams gandro gandru gandrus gandrą gandrų

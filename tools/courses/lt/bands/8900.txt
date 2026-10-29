@@ -1,0 +1,100 @@
+1	8801	pasėti	pasėja pasėjau pasėjo pasėsi pasėtų
+2	8802	garantas	garanto garantu garantą garantų
+3	8803	perdanga	perdangas perdangos
+4	8804	išrašytas	išrašyta išrašytos išrašytus išrašytą
+5	8805	globotinis	globotiniai globotiniais globotiniams globotinio globotinius globotinį
+6	8806	painiava	painiavos painiavą
+7	8807	vartytis	vartais
+8	8808	ištrauktas	ištraukta ištrauktos ištrauktus ištrauktą
+9	8809	užtrauktukas	užtrauktuku užtrauktuką
+10	8810	tolis	tolį
+11	8811	kviestinis	kviestinei kviestiniai kviestiniais kviestiniams kviestinių kviestinė
+12	8812	kitimas	kitimo kitimą
+13	8813	išklotas	išklota išklotos išklotą
+14	8814	prievartautojas	prievartautojai prievartautojams prievartautojo prievartautojui prievartautojus prievartautoją prievartautojų
+15	8815	neatskiriamas	neatskiriama neatskiriami
+16	8816	apskaičiavimas	apskaičiavimai apskaičiavimais apskaičiavimo apskaičiavimu apskaičiavimus
+17	8817	gilinti	gilina gilino gilins
+18	8818	apnuodijimas	apnuodijimo
+19	8819	niekingas	niekinga niekingai niekingi niekingą
+20	8820	reiškiamas	reiškiama reiškiami reiškiamos reiškiamus reiškiamą
+21	8821	folija	folijoje folijos foliją
+22	8822	griovimas	griovimo griovimu griovimui griovimą
+23	8823	puikuotis	puikavosi puikuojasi puikuosis puikuotųsi
+24	8824	šnekėtis	šnekamės šnekas šnekasi šnekėjomės šnekėjosi
+25	8825	elgeta	elgetas elgetos elgetų
+26	8826	konvojus	konvojai konvojaus konvojų
+27	8827	sumušimas	sumušimai sumušimo sumušimu sumušimus sumušimą sumušimų
+28	8828	mergvakaris	mergvakario mergvakarį
+29	8829	išvestas	išvesta išvestos
+30	8830	siutinti	siutina siutino
+31	8831	salelė	saleles salelių salelėje salelės salelę
+32	8832	pakraipa	pakraipos pakraipų
+33	8833	žvengti	žvengi žvengia žvengiam žvengiat žvengiau žvengė
+34	8834	durklas	durklą
+35	8835	spyris	spyriais spyrio spyriu spyrių spyrį
+36	8836	užmojis	užmojai užmojais užmojams užmojo užmoju užmojus užmojį užmojų
+37	8837	pražūtingas	pražūtinga pražūtingo pražūtingos pražūtingu pražūtingą pražūtingų
+38	8838	kuratorius	kuratoriai kuratoriaus kuratoriumi kuratorių
+39	8839	apieškoti	apieškojo
+40	8840	įsiskverbti	įsiskverbia įsiskverbė
+41	8841	nuobodulys	nuobodulio nuobodulį
+42	8842	suderinamumas	suderinamumo suderinamumą
+43	8843	motinėlė	motinėlių motinėlės motinėlę
+44	8844	sukrėstas	sukrėsta sukrėstą
+45	8845	mongolas	mongolai mongolus mongolą mongolė mongolų
+46	8846	kripta	kriptoje kriptos kriptą
+47	8847	teptukas	teptukai teptukais teptuko teptuku teptukus teptuką teptukų
+48	8848	kraitis	kraityje kraitį kraičio kraičiu
+49	8849	batonas	batono batonu batoną
+50	8850	insulinas	insulino insulinui insuliną
+51	8851	perkrauti	perkrauna perkrovė
+52	8852	ryškėti	ryškėja ryškėjo
+53	8853	meškinas	meškiną
+54	8854	nepaliestas	nepaliesta nepaliesti nepaliestos nepaliestą nepaliestų
+55	8855	užblokuotas	užblokuota užblokuotos
+56	8856	pralošti	praloš pralošia pralošiame pralošė
+57	8857	išieškojimas	išieškojimo išieškojimu išieškojimą
+58	8858	sraigtas	sraigtai sraigtais sraigto sraigtu sraigtus sraigtą sraigtų
+59	8859	nepakeičiamas	nepakeičiama nepakeičiami nepakeičiamos nepakeičiamu nepakeičiamą nepakeičiamų
+60	8860	prancūzė	prancūzei prancūzių prancūzės prancūzę
+61	8861	keistenybė	keistenybes keistenybių keistenybės
+62	8862	pobūvis	pobūvio pobūviui pobūviuose pobūvius pobūvių pobūvyje pobūvį
+63	8863	mažokas	mažoka mažokai
+64	8864	aprimti	aprimo aprims aprimsta
+65	8865	darkart	
+66	8866	sanitarinis	sanitarines sanitariniai sanitariniu sanitarinių sanitarinė sanitarinės
+67	8867	įvaikinimas	įvaikinimo įvaikinimą
+68	8868	skaitykla	skaitykloje skaityklos skaityklą
+69	8869	įkainis	įkainiai įkainius įkainių įkainį
+70	8870	ligotas	ligota ligoti ligotiems ligotus ligotą ligotų
+71	8871	paskandinti	paskandina paskandino
+72	8872	kraštinis	kraštiniuose kraštinių kraštinės
+73	8873	atidengti	atidengia atidengs atidengė
+74	8874	vėtra	vėtros vėtrų
+75	8875	numylėtinis	numylėtiniai numylėtiniu numylėtinius numylėtinių numylėtinį
+76	8876	metodologija	metodologijos metodologiją
+77	8877	išaiškinimas	išaiškinimai išaiškinime išaiškinimo išaiškinimu išaiškinimui išaiškinimus išaiškinimą išaiškinimų
+78	8878	darbštus	darbšti darbštūs darbštų darbščios darbščius darbščią darbščių
+79	8879	išsidėstymas	išsidėstymo išsidėstymą
+80	8880	privažiuoti	privažiavo privažiuoja
+81	8881	pasiryžimas	pasiryžimo pasiryžimu pasiryžimą
+82	8882	užsiauginti	užsiaugina užsiauginame užsiauginau užsiaugino
+83	8883	spagečiai	spagečiais spagečius spagečių
+84	8884	žirgynas	žirgyne žirgyno žirgyną
+85	8885	šviesiaplaukis	šviesiaplaukei šviesiaplaukė šviesiaplaukės šviesiaplaukę
+86	8886	stimulas	stimulo stimulu stimulą stimulų
+87	8887	diskoteka	diskotekas diskotekoje diskotekos diskotekose diskoteką diskotekų
+88	8888	barščiai	barščius
+89	8889	žeisti	žeidė žeidžia
+90	8890	išjungimas	išjungimo
+91	8891	konstatuotas	konstatuota
+92	8892	analitinis	analitinio analitinius analitinių analitinė analitinės analitinę analitinį
+93	8893	čiuožimas	čiuožimo
+94	8894	spanguolė	spanguoles spanguolių spanguolėmis spanguolės
+95	8895	padalyti	padalijo padalykite
+96	8896	intarpas	intarpai intarpais intarpus intarpų
+97	8897	išsipildymas	išsipildymo išsipildymą
+98	8898	proteinas	proteinai proteino proteinų
+99	8899	paguosti	paguos paguostų
+100	8900	pabloginti	pablogina pablogino pablogins pablogintų

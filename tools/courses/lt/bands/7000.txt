@@ -1,0 +1,100 @@
+1	6901	susirašinėjimas	susirašinėjimai susirašinėjimo susirašinėjimuose susirašinėjimus susirašinėjimą susirašinėjimų
+2	6902	pastabus	pastabesni pastabi pastabūs pastabų
+3	6903	įsibrauti	įsibrauna įsibrovė
+4	6904	taukai	taukais taukuose taukus taukų
+5	6905	vaizdinis	vaizdine vaizdines vaizdiniam vaizdiniame vaizdinius vaizdinė vaizdinės vaizdinę vaizdinį
+6	6906	švytėti	švyti švytėjo švytės švytėtų
+7	6907	lygumas	lygumoje lygumos lygumose lygumų
+8	6908	šepetėlis	šepetėliai šepetėlio šepetėliu šepetėlių šepetėlį
+9	6909	dalykinis	dalykines dalykiniai dalykinio dalykiniuose dalykinius dalykinių dalykinė dalykinėmis dalykinės dalykinę dalykinį
+10	6910	sutriuškinti	sutriuškino
+11	6911	išnaudojimas	išnaudojimo išnaudojimu išnaudojimą
+12	6912	demonstrantas	demonstrantai demonstrantais demonstrantams demonstrantus demonstrantų
+13	6913	strigti	strigo strigs stringa
+14	6914	improvizacija	improvizacijai improvizacijas improvizacijomis improvizacijos improvizaciją improvizacijų
+15	6915	tėtė	tėte tėtės tėčių
+16	6916	suabejoti	suabejoja suabejojau suabejojo
+17	6917	apsėstas	apsėsta
+18	6918	pervežti	perveža pervežtų pervežė
+19	6919	mečetė	mečete mečetei mečetes mečetėje mečetės mečetėse mečetę mečečių
+20	6920	jodas	jodai jodo jodu jodą
+21	6921	poryt	
+22	6922	neapsakomas	neapsakoma neapsakomai neapsakomo neapsakomą
+23	6923	lenktyniauti	lenktyniauja lenktyniaus lenktyniavo
+24	6924	motociklininkas	motociklininkai motociklininkams motociklininko motociklininkui motociklininkus motociklininką motociklininkų
+25	6925	amas	ame ami amo amą
+26	6926	cerkvė	cerkve cerkvėje cerkvės cerkvėse cerkvę
+27	6927	miltinis	miltiniai miltinio miltiniui miltinių miltinį
+28	6928	išnagrinėti	išnagrinėjo išnagrinėsime išnagrinėtų
+29	6929	erotinis	erotine erotines erotiniai erotiniais erotinio erotinius erotinių erotinė erotinėje erotinėmis erotinės erotinį
+30	6930	keturkojis	keturkojai keturkojais keturkojams keturkojo keturkoju keturkojui keturkojus keturkojį keturkojų
+31	6931	apykaklė	apykakle apykakles apykaklių apykaklės apykaklę
+32	6932	užkrėstas	užkrėsta užkrėsto užkrėstoje užkrėstos užkrėstus užkrėstą
+33	6933	nemirtingas	nemirtinga nemirtingai nemirtingais nemirtingasis nemirtingi nemirtingieji nemirtingiems nemirtingo nemirtingojo nemirtingos nemirtingu nemirtinguoju nemirtingą nemirtingąjį nemirtingų nemirtingųjų
+34	6934	favoritas	favoritai favoritais favoritams favorito favoritu favoritus favoritą favoritų
+35	6935	jubiliejinis	jubiliejines jubiliejiniai jubiliejiniame jubiliejinio jubiliejinius jubiliejinių jubiliejinė jubiliejinėje jubiliejinės jubiliejinę jubiliejinį
+36	6936	pritvirtintas	pritvirtinta pritvirtintos
+37	6937	globėja	globėjos
+38	6938	lieknas	liekna lieknam lieknesnis lieknesnė liekni liekno lieknos liekną
+39	6939	paklodė	paklode paklodes paklodėmis paklodės paklodėse paklodę paklodžių
+40	6940	šerdis	šerdies šerdyje šerdį
+41	6941	pėstininkai	
+42	6942	prakaituoti	prakaitavau prakaitavo prakaituoja prakaituojant prakaituoji prakaituoju prakaituok prakaituosime prakaituotų
+43	6943	kompasas	kompaso kompasu kompasą
+44	6944	direktyva	direktyvas direktyvoje direktyvomis direktyvos direktyvą direktyvų
+45	6945	ilgesys	ilgesio ilgesiu ilgesius ilgesį
+46	6946	konsulatas	konsulate konsulato konsulatui konsulatą
+47	6947	pykinimas	pykinimo pykinimu pykinimą
+48	6948	nukauti	nukautų nukovė
+49	6949	memorialinis	memorialiniame memorialinio memorialinių memorialinė memorialinės memorialinę memorialinį
+50	6950	nežinantis	nežinanti nežinantiems nežinantys nežinančio nežinančių nežinąs
+51	6951	žuvelė	žuvele žuveles žuvelių žuvelėmis žuvelės žuvelę
+52	6952	griuvėsiai	griuvėsiams griuvėsius
+53	6953	pykinti	pykina pykino
+54	6954	dvišalis	dvišales dvišaliai dvišaliais dvišaliame dvišalio dvišaliu dvišaliuose dvišalius dvišalių dvišalės dvišalę dvišalį
+55	6955	nustumti	nustumia nustums nustūmė
+56	6956	ironija	ironijos ironiją
+57	6957	tėvystė	tėvyste tėvystei tėvystės tėvystę
+58	6958	skurdas	skurdą
+59	6959	autonomija	autonomijai autonomijas autonomijoje autonomijos autonomiją autonomijų
+60	6960	lojalumas	lojalumo lojalumu lojalumą
+61	6961	zondas	zondai zondo zondu zondą zondų
+62	6962	nutikimas	nutikimai nutikimo nutikimus nutikimą nutikimų
+63	6963	žemdirbystė	žemdirbyste žemdirbystei žemdirbystėje žemdirbystės žemdirbystę
+64	6964	sociologija	sociologijai sociologijos sociologiją
+65	6965	moteriškė	moteriškei moteriškių moteriškės moteriškę
+66	6966	užterštumas	užterštumo užterštumu užterštumą
+67	6967	įlipti	įlipau įlipo
+68	6968	išgalvotas	išgalvota išgalvotais išgalvotame išgalvoto išgalvotomis išgalvotos išgalvotus išgalvotą
+69	6969	estrada	estradoje estrados estradą
+70	6970	audimas	audime audimo audimu audimui audimus audimą
+71	6971	gvardija	gvardijai gvardijos gvardiją
+72	6972	strategas	strategai strategams stratego strategu strategui strategų
+73	6973	pyragėlis	pyragėliai pyragėliais pyragėlio pyragėlius pyragėlių pyragėlį
+74	6974	kulkosvaidis	kulkosvaidį kulkosvaidžiai kulkosvaidžiais kulkosvaidžio kulkosvaidžiu kulkosvaidžius kulkosvaidžių
+75	6975	išaiškėti	išaiškėja išaiškėjo išaiškės išaiškėtų
+76	6976	dezinformacija	dezinformacijos dezinformaciją
+77	6977	adekvatus	adekvataus adekvati adekvatu adekvatūs adekvatų adekvačiai adekvačias adekvačios adekvačius adekvačią adekvačių
+78	6978	sietis	siejasi siejosi
+79	6979	nelemtas	nelemta nelemti nelemto nelemtos nelemtą nelemtų
+80	6980	taksistas	taksistai taksistais taksistams taksisto taksistu taksistui taksistą taksistų
+81	6981	nestabilus	nestabilaus nestabili nestabiliai nestabilios nestabilią nestabilūs
+82	6982	monografija	monografijas monografijoje monografijos monografiją monografijų
+83	6983	palangė	palanges palangių palangės palangę
+84	6984	didėjimas	didėjimo didėjimu didėjimui didėjimą
+85	6985	eitynės	eitynes eitynių eitynėmis eitynėse
+86	6986	elementarus	elementaraus elementari elementaria elementariai elementarias elementariausias elementariausiems elementariausių elementarios elementarius elementarią elementarių elementariųjų elementaru elementarūs elementarų
+87	6987	žiurkėnas	žiurkėnai žiurkėnais žiurkėnams žiurkėne žiurkėno žiurkėnu žiurkėnui žiurkėnus žiurkėną žiurkėnų
+88	6988	dimensija	dimensijas dimensijoje dimensijos dimensiją dimensijų
+89	6989	padainuoti	padainavau padainavo padainuos padainuosiu padainuotų
+90	6990	pagyventi	pagyvena pagyveno pagyvensim pagyvensime
+91	6991	daržinė	daržinėje daržinės daržinę
+92	6992	kirtis	kirtį kirčiai kirčiais kirčio kirčiu kirčius kirčių
+93	6993	dangoraižis	dangoraiži dangoraižiai dangoraižio dangoraižiui dangoraižius dangoraižių dangoraižyje dangoraižį
+94	6994	karieta	karietomis karietos karietą karietų
+95	6995	deginimas	deginimo deginimu deginimui deginimą
+96	6996	prasitarti	prasitaria prasitariau prasitars prasitarė
+97	6997	membrana	membranas membranos membraną membranų
+98	6998	intelektinis	intelektine intelektiniai intelektinio intelektinius intelektinių intelektinė intelektinės intelektinę intelektinį
+99	6999	patyrimas	patyrimai patyrimais patyrimo patyrimu patyrimus patyrimą patyrimų
+100	7000	įkliūti	įklius įkliuvo įkliūna

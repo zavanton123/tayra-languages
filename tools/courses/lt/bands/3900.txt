@@ -1,0 +1,100 @@
+1	3801	šlaitas	šlaitai šlaitais šlaite šlaito šlaitu šlaituose šlaitus šlaitą šlaitų
+2	3802	dirvožemis	dirvožemiai dirvožemio dirvožemiu dirvožemiui dirvožemiuose dirvožemių dirvožemyje dirvožemį
+3	3803	išmintis	išminties išmintimi išmintį
+4	3804	nutrauktas	nutraukta nutraukto nutrauktos nutrauktus nutrauktą
+5	3805	posakis	posakiai posakiais posakio posakiu posakius posakių posakį
+6	3806	apgaulė	apgaule apgaulei apgaules apgaulių apgaulės apgaulę
+7	3807	slaugytoja	slaugytojai slaugytojams slaugytojas slaugytojo slaugytojos slaugytojus slaugytoją slaugytojų
+8	3808	teorinis	teorine teorines teoriniai teoriniais teorinio teoriniu teorinius teorinių teorinė teorinėje teorinėmis teorinės teorinę teorinį
+9	3809	reaktorius	reaktoriai reaktoriais reaktoriaus reaktoriui reaktoriuje reaktoriuose reaktorių
+10	3810	pasikviesti	pasikvies pasikviesdavo pasikviesk pasikviestų pasikvietė pasikvietėme pasikviečia pasikviečiau
+11	3811	maratonas	maratonai maratonais maratone maratono maratonu maratonui maratonuose maratonus maratoną maratonų
+12	3812	nuraminti	nuramina nuraminau nuramino nuramins nuramintų
+13	3813	distancija	distancijas distancijoje distancijos distancijose distanciją distancijų
+14	3814	susibūrimas	susibūrimai susibūrimams susibūrime susibūrimo susibūrimuose susibūrimus susibūrimą susibūrimų
+15	3815	atgimimas	atgimime atgimimo atgimimu atgimimui atgimimą
+16	3816	aplenkti	aplenk aplenkia aplenks aplenktų aplenkė aplenkėme
+17	3817	eidamas	eidama eidami eidamos
+18	3818	paslėptas	paslėpta paslėpto paslėptos paslėptu paslėptus paslėptą
+19	3819	ritulys	ritulio ritulį
+20	3820	sekantis	sekančiai sekančiais sekančio sekančiu sekančius sekančių
+21	3821	skautas	skautai skautams skautus skautų
+22	3822	spalvotas	spalvota spalvotai spalvotais spalvoti spalvotieji spalvoto spalvotomis spalvotos spalvotu spalvotus spalvotą spalvotų spalvotųjų
+23	3823	gimdymas	gimdymai gimdyme gimdymo gimdymui gimdymuose gimdymus gimdymą gimdymų
+24	3824	spyna	spynai spynas spynoje spynos spyną spynų
+25	3825	užkrečiamas	užkrečiama užkrečiami užkrečiamoji užkrečiamos užkrečiamosiomis užkrečiamosios užkrečiamąsias užkrečiamų užkrečiamųjų
+26	3826	grasinti	grasina grasindavo grasino grasintų
+27	3827	vedybos	vedybas vedybomis vedyboms vedybų
+28	3828	juodaodis	juodaodė juodaodės juodaodę juodaodį juodaodžiai juodaodžiais juodaodžiams juodaodžio juodaodžiu juodaodžiui juodaodžius juodaodžių
+29	3829	pranešamas	pranešama
+30	3830	gaidys	gaidy gaidį gaidžiai gaidžio gaidžiu gaidžiui gaidžius gaidžių
+31	3831	dekoratyvinis	dekoratyvine dekoratyvines dekoratyviniai dekoratyviniais dekoratyviniams dekoratyvinio dekoratyvinius dekoratyvinių dekoratyvinė dekoratyvinėmis dekoratyvinės dekoratyvinę dekoratyvinį
+32	3832	pilka	pilkos pilką pilkų
+33	3833	virėjas	virėja virėjai virėjais virėjo virėju virėjui virėjus virėją virėjų
+34	3834	karstas	karstai karste karsto karstu karstui karstuose karstus karstą karstų
+35	3835	nubausti	nubaudė nubaus nubaustų
+36	3836	elitas	elito elitu elitui elitą
+37	3837	atlikėja	
+38	3838	sprogmuo	sprogmenimis sprogmenims sprogmenis sprogmeniu sprogmeniui sprogmens sprogmenys sprogmenį sprogmenų
+39	3839	iškilmingas	iškilminga iškilmingai iškilmingam iškilmingame iškilmingi iškilmingo iškilmingoje iškilmingos iškilmingu iškilmingą iškilmingų
+40	3840	pagerėti	pagerėja pagerėjo pagerės pagerėtų
+41	3841	tragiškas	tragiška tragiškai tragiškais tragiški tragiško tragiškoje tragiškos tragišku tragiškus tragišką tragiškų
+42	3842	profilis	profiliai profilio profiliu profiliuose profilius profilių profilyje profilį
+43	3843	tyrinėti	tyrinėja tyrinėjame tyrinėjau tyrinėjo tyrinėjome tyrinėju tyrinės
+44	3844	burtas	burtai burtais burtams burto burtu burtuose burtus burtą burtų
+45	3845	priesaika	priesaikai priesaikas priesaikos priesaiką
+46	3846	vystymas	vystymo vystymu vystymui vystymą
+47	3847	plėšikas	plėšikai plėšikais plėšikams plėšiko plėšiku plėšikus plėšiką plėšikų
+48	3848	formuotis	formavosi formuojasi formuosis formuotųsi
+49	3849	dronas	dronai dronais dronams drone drono dronu dronui dronus droną dronų
+50	3850	šulinys	šuliniai šulinio šuliniu šuliniui šuliniuose šulinius šulinių šuliny šulinyje šulinį
+51	3851	minti	mena menantis meni menu minam minant minei mink minkit mins minsiu mintinai minu minė minėt myniau mynė
+52	3852	tiekti	tiekia tiekiame tiekiant tiekiu tieks tieksim tieksiu tiektų tiekčiau tiekė
+53	3853	vargus	vargiai vargu vargų
+54	3854	gimtinė	gimtine gimtinei gimtines gimtinėje gimtinės gimtinėse gimtinę
+55	3855	užregistruotas	užregistruota užregistruotos užregistruotus užregistruotą
+56	3856	dvasininkas	dvasininkai dvasininkais dvasininkams dvasininko dvasininku dvasininkui dvasininkus dvasininką dvasininkų
+57	3857	olandas	olandai olandams olande olando olandu olandui olandus olandą olandė olandų
+58	3858	garsėti	garsėja garsėjo
+59	3859	liūdesys	liūdesio liūdesiu liūdesiui liūdesy liūdesyje liūdesį
+60	3860	pramoninis	pramonines pramoniniai pramoniniam pramoniniame pramoninio pramoniniu pramoninius pramoninių pramoninė pramoninėje pramoninės pramoninę pramoninį
+61	3861	kirtimas	kirtimai kirtimais kirtimo kirtimu kirtimui kirtimus kirtimą kirtimų
+62	3862	džiunglės	džiungles džiunglių džiunglėmis džiunglėse
+63	3863	netektis	netekties netektimi netektys netektį netekčių
+64	3864	aktyvistas	aktyvistai aktyvistais aktyvistams aktyviste aktyvisto aktyvistu aktyvistui aktyvistus aktyvistą aktyvistų
+65	3865	stebėtojas	stebėtoja stebėtojai stebėtojais stebėtojams stebėtojo stebėtoju stebėtojus stebėtoją stebėtojų
+66	3866	lempa	lempai lempas lempomis lempos lempą lempų
+67	3867	ištrinti	ištrina ištrinkite ištrintų ištrynė
+68	3868	patranka	patrankas patrankomis patrankos patranką patrankų
+69	3869	milžinas	milžinai milžinais milžine milžino milžinu milžinui milžinus milžiną milžinų
+70	3870	pasislėpti	pasislepia pasislėps pasislėptų pasislėpė
+71	3871	pedagoginis	pedagogine pedagogines pedagoginiais pedagoginiam pedagoginiame pedagoginio pedagoginių pedagoginė pedagoginėje pedagoginės pedagoginėse pedagoginę pedagoginį
+72	3872	augintojas	augintoja augintojai augintojais augintojams augintojo augintojos augintojui augintojus augintoją augintojų
+73	3873	širdelė	širdele širdeles širdelių širdelėmis širdelės širdelę
+74	3874	ketinimas	ketinimai ketinimais ketinimams ketinimo ketinimu ketinimus ketinimą ketinimų
+75	3875	kasti	kasam kasame kasant kasantis kasdamas kasei kasi kasiau kasim kasimas kasime kasimo kasiu kask kaskim kaskit kaskite kasu kasė kasėme
+76	3876	strėlė	strėle strėles strėlių strėlėmis strėlėms strėlės strėlę
+77	3877	orientuotas	orientuota orientuoti orientuoto orientuotos orientuotus orientuotą orientuotų
+78	3878	publikacija	publikacijai publikacijas publikacijoje publikacijomis publikacijos publikacijose publikaciją publikacijų
+79	3879	hormonas	hormonai hormonais hormono hormonu hormonus hormoną hormonų
+80	3880	šoninis	šonine šonines šoniniai šoninio šoninius šoninių šoninė šoninės šoninę šoninį
+81	3881	aptarnauti	aptarnaudavo aptarnauja aptarnaujame aptarnaus aptarnautų aptarnavo
+82	3882	ašis	ašiai ašies ašimi ašims ašių ašyje ašys ašį
+83	3883	padorus	padoraus padoresni padoresnio padoresnis padori padoria padoriai padoriais padoriam padorias padoriau padoriausia padoriausias padoriomis padorios padoriu padorius padorią padorių padoru padorūs padorų
+84	3884	šukuosena	šukuosenas šukuosenomis šukuosenos šukuoseną šukuosenų
+85	3885	pirkinys	pirkiniai pirkiniais pirkiniams pirkinio pirkiniu pirkiniui pirkinius pirkinių pirkinį
+86	3886	chirurgas	chirurgai chirurgams chirurge chirurgo chirurgu chirurgui chirurgus chirurgą chirurgų
+87	3887	užuolaida	užuolaidas užuolaidomis užuolaidos užuolaidą užuolaidų
+88	3888	gudrus	gudraus gudresni gudresnio gudresnis gudresnius gudresnė gudresnį gudri gudriai gudriais gudrias gudriau gudriausia gudriausias gudriausią gudriausių gudrieji gudrioji gudrios gudriu gudrią gudrių gudriųjų gudru gudrūs gudrų
+89	3889	užvaldyti	užvaldant užvaldo užvaldyk užvaldys užvaldysi užvaldysim užvaldysime užvaldyta užvaldytas užvaldytų užvaldė užvaldėme užvaldęs
+90	3890	padengti	padengia padengiame padengs padengtų padengė padenkite
+91	3891	suformuotas	suformuota suformuotai suformuoto suformuotoje suformuotos suformuotus suformuotą
+92	3892	pagalbinis	pagalbine pagalbines pagalbiniai pagalbiniam pagalbinio pagalbiniu pagalbinius pagalbinių pagalbinė pagalbinės pagalbinėse pagalbinę pagalbinį
+93	3893	testamentas	testamentai testamente testamento testamentu testamentui testamentą testamentų
+94	3894	negražus	negraži negražiai negražiais negražios negražius negražių negražu negražūs negražų
+95	3895	susidoroti	susidoroja susidorojo susidoros susidorosiu susidorotų
+96	3896	statybininkas	statybininkai statybininkais statybininkams statybininko statybininku statybininkui statybininkus statybininką statybininkų
+97	3897	padidintas	padidinta padidinto padidintos padidintu padidintus padidintą
+98	3898	plokščias	plokšti plokščio plokščios plokščiu plokščią plokščių
+99	3899	aštuoneri	aštuonerius aštuonerių
+100	3900	vairavimas	vairavimo vairavimu vairavimui vairavimą

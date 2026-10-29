@@ -1,0 +1,100 @@
+1	3401	stebėtis	stebiesi stebimės stebisi stebiuosi stebėdavausi stebėdavosi stebėjausi stebėjosi
+2	3402	sukilimas	sukilimai sukilime sukilimo sukilimu sukilimui sukilimus sukilimą sukilimų
+3	3403	nematomas	nematoma nematomais nematomi nematomo nematomoje nematomos nematomu nematomus nematomą nematomų
+4	3404	dienraštis	dienraštyje dienraštį dienraščiai dienraščiams dienraščio dienraščiu dienraščiui dienraščiuose dienraščių
+5	3405	joti	jodamas joja jojam jojame jojant jojantis jojate jojau joji jojo jojome jojote joju jok joki jokime jokit jokite josi josim josime josit josite josiu jotume jočiau
+6	3406	erelis	ereli ereliai ereliais ereliams erelio ereliu ereliui erelius erelių erelį
+7	3407	dešimtas	dešimtiems dešimta dešimtajame dešimtam dešimtame dešimtasis dešimto dešimtoje dešimtoji dešimtojo dešimtos dešimtosios dešimtuoju dešimtus dešimtą dešimtąja dešimtąją dešimtąjį dešimtų dešimtųjų
+8	3408	bronza	bronzos bronzą
+9	3409	paaukoti	paaukoja paaukojau paaukojo paaukojome paaukokite paaukos paaukotų
+10	3410	atkarpa	atkarpas atkarpoje atkarpomis atkarpoms atkarpos atkarpose atkarpą atkarpų
+11	3411	įkvėpimas	įkvėpimo įkvėpimu įkvėpimui įkvėpimą
+12	3412	komponentas	komponentai komponentais komponentams komponento komponentus komponentą komponentų
+13	3413	atsparus	atsparaus atsparesni atsparesnis atsparesnė atsparesnės atspari atsparia atsparias atsparią atspariomis atsparios atspariu atsparius atsparią atsparių atsparūs atsparų
+14	3414	slaptažodis	slaptažodi slaptažodį slaptažodžiai slaptažodžiais slaptažodžiams slaptažodžio slaptažodžiu slaptažodžiuose slaptažodžius slaptažodžių
+15	3415	plastikas	plastiko plastiku plastikui plastiką plastikų
+16	3416	pasiūlytas	pasiūlyta pasiūlyto pasiūlytomis pasiūlytos pasiūlytus pasiūlytą
+17	3417	atokus	atokaus atokesnes atokesniuose atokesnius atokesnių atokesnėje atokesnėse atoki atokiai atokiame atokias atokiau atokiausius atokioje atokios atokiose atokiuose atokius atokią atokių atokų
+18	3418	tankus	tankaus tankesni tankesnis tankesnių tankesnė tanki tankiai tankiau tankiausiai tankios tankiu tankią tankių tanku tankūs tankų
+19	3419	bakalauras	bakalaurai bakalauro bakalaurą bakalaurų
+20	3420	atstatyti	atstato atstatome atstatys atstatysime atstatytų atstatė
+21	3421	įsijungti	įsijungi įsijungia įsijungiau įsijungiu įsijungs įsijungtų įsijungė įsijunk įsijunkite
+22	3422	makaronas	makaronai makaronais makarono makaronu makaronuose makaronus makaroną makaronų
+23	3423	tarnas	tarnai tarnais tarnams tarne tarno tarnu tarnui tarnus tarną tarnų
+24	3424	susidūrimas	susidūrimai susidūrimo susidūrimui susidūrimus susidūrimą susidūrimų
+25	3425	genijus	genijai genijaus genijui genijumi genijų
+26	3426	savitas	savita savitai savitais saviti savito savitomis savitos savitu savitus savitą savitų savičiausių
+27	3427	grupuotė	grupuote grupuotei grupuotes grupuotėje grupuotėmis grupuotėms grupuotės grupuotę grupuočių
+28	3428	skaitymas	skaitymai skaitymo skaitymu skaitymui skaitymus skaitymą skaitymų
+29	3429	pasiruošimas	pasiruošimai pasiruošimo pasiruošimu pasiruošimui pasiruošimus pasiruošimą
+30	3430	numesti	numes numesite numestų numesčiau numeta numetei numetė numečiau
+31	3431	bukas	buka bukai bukais bukesnio bukesnis bukesnė buki bukiausias bukiems buko bukos buku bukus buką bukų
+32	3432	saugykla	saugyklas saugykloje saugyklos saugyklose saugyklą saugyklų
+33	3433	kontraktas	kontraktai kontraktais kontrakte kontrakto kontraktu kontraktus kontraktą kontraktų
+34	3434	užsidaryti	užsidariau užsidaro užsidarome užsidarydavo užsidarys užsidarytų užsidarė
+35	3435	nepanašus	nepanaši nepanašios nepanašu nepanašūs
+36	3436	atsisėsti	atsisėda atsisėdau atsisėdi atsisėdo atsisėdome atsisėdu atsisės atsisėsk atsisėskite atsisėstų
+37	3437	analizuoti	analizavau analizavo analizavome analizavot analizavęs analizuodamas analizuodavau analizuoja analizuojam analizuojame analizuojant analizuojantis analizuoji analizuoju analizuok analizuokime analizuokite analizuos analizuosime analizuosite analizuota analizuotas analizuotų
+38	3438	žaliava	žaliavas žaliavos žaliavą žaliavų
+39	3439	kompensacija	kompensacijai kompensacijas kompensacijomis kompensacijoms kompensacijos kompensaciją kompensacijų
+40	3440	pavydėti	pavydi pavydim pavydit pavydite pavydėdamas pavydėdavai pavydėdavau pavydėjai pavydėjau pavydėjo pavydėjote pavydėk pavydės pavydėsi pavydėsiu pavydėtum pavydėtų pavydėčiau pavydžiu
+41	3441	įsteigti	įsteigiau įsteigs įsteigtų įsteigė įsteigėme
+42	3442	dėsnis	dėsniai dėsniais dėsniams dėsnio dėsniu dėsnius dėsnių dėsnį
+43	3443	skydas	skyde skydu skydą skydų
+44	3444	reguliavimas	reguliavimo reguliavimu reguliavimui reguliavimą
+45	3445	lietuviškai	
+46	3446	atsarginis	atsargines atsarginiai atsarginio atsarginiu atsarginius atsarginių atsarginės atsarginę atsarginį
+47	3447	kritinis	kritinei kritines kritiniai kritiniais kritiniam kritinio kritiniu kritinius kritinių kritinė kritinėje kritinėmis kritinės kritinėse kritinę kritinį
+48	3448	batalionas	batalionai batalione bataliono batalionui batalionuose batalionus batalioną batalionų
+49	3449	seminaras	seminarai seminarais seminarams seminare seminaro seminarui seminaruose seminarus seminarą seminarų
+50	3450	nepilnametis	nepilnamete nepilnametes nepilnametė nepilnametės nepilnametę nepilnametį nepilnamečiai nepilnamečiais nepilnamečiams nepilnamečio nepilnamečiu nepilnamečiui nepilnamečius nepilnamečių
+51	3451	sužaisti	sužaidė sužaidėme sužaidžia sužais sužaistų
+52	3452	dialogas	dialogai dialogais dialoge dialogo dialogu dialogui dialoguose dialogus dialogą dialogų
+53	3453	diplomatas	diplomatai diplomatais diplomatams diplomato diplomatu diplomatui diplomatus diplomatą diplomatė diplomatų
+54	3454	eteris	eterio eteriu eteriui eteryje eterį
+55	3455	prasti	prasi prastų prasčiau pratai prato pratus pratusi pratę pratęs
+56	3456	būrelis	būreliai būreliais būreliams būrelio būreliu būreliui būreliuose būrelius būrelių būrelyje būrelį
+57	3457	instrukcija	instrukcijai instrukcijas instrukcijoje instrukcijomis instrukcijos instrukcijose instrukciją instrukcijų
+58	3458	užkirsti	užkerta užkirs užkirstų užkirto
+59	3459	mina	minai minos miną minų
+60	3460	lapė	lape lapei lapes lapių lapėms lapės lapę
+61	3461	apdovanoti	apdovanodavo apdovanoja apdovanojo apdovanos apdovanosime apdovanotų
+62	3462	desertas	desertai desertams deserto desertu desertui desertus desertą desertų
+63	3463	nevykėlis	nevykėliai nevykėliais nevykėliams nevykėlio nevykėliu nevykėlius nevykėlių nevykėlė nevykėlį
+64	3464	lapelis	lapeliai lapeliais lapelio lapeliu lapeliuose lapelius lapelių lapelyje lapelį
+65	3465	sugauti	sugauna sugauname sugaus sugautų sugavo
+66	3466	melodija	melodijai melodijas melodijomis melodijos melodiją melodijų
+67	3467	rožinis	rožine rožines rožiniai rožiniais rožiniame rožinio rožiniu rožinius rožinių rožinė rožinės rožinę rožinį
+68	3468	vystyti	vystant vystantis vysto vystomas vystome vystydamas vystys vystytų vystė vystėme vysčiau
+69	3469	likutis	likutį likučiai likučiais likučio likučius likučių
+70	3470	pažinoti	pažinojau pažinojo pažinojome pažinojote pažinotų
+71	3471	atspalvis	atspalviai atspalviais atspalviams atspalvio atspalviu atspalvius atspalvių atspalvį
+72	3472	balionas	balionai balionais balionams balione baliono balionu balionuose balionus balioną balionų
+73	3473	kerštas	keršto kerštu kerštui kerštą
+74	3474	prabangus	prabangaus prabangesni prabangesnių prabangi prabangia prabangiai prabangiais prabangiam prabangiame prabangiau prabangiausio prabangiausią prabangiausių prabangioje prabangios prabangiose prabangiu prabangiuose prabangius prabangią prabangių prabangu prabangūs prabangų
+75	3475	žlugti	žlugo žlugs žlugtų žlunga
+76	3476	pakopa	pakopas pakopoje pakopomis pakopos pakopose pakopą pakopų
+77	3477	agentė	agente agentės agentę
+78	3478	perlas	perlai perlais perle perlo perlu perlui perlus perlą perlų
+79	3479	verkus	verki verkia verkiame verkių
+80	3480	košė	koše košei košes košių košės košę
+81	3481	forumas	forumai forume forumo forumu forumui forumuose forumus forumą forumų
+82	3482	vadovėlis	vadovėliai vadovėliais vadovėliams vadovėlio vadovėliu vadovėliuose vadovėlius vadovėlių vadovėlyje vadovėlį
+83	3483	sugrąžinti	sugrąžina sugrąžino sugrąžins sugrąžintų
+84	3484	anga	angas angoje angomis angos angą angų
+85	3485	balkonas	balkonai balkonais balkone balkono balkonu balkonui balkonuose balkonus balkoną balkonų
+86	3486	tabakas	tabako tabaku tabakui tabaką
+87	3487	taikymas	taikymo taikymu taikymui taikymą taikymų
+88	3488	suderintas	suderinta suderintai suderinti suderintos suderintu suderintus suderintą suderintų
+89	3489	įsitikinimas	įsitikinimai įsitikinimais įsitikinimams įsitikinimo įsitikinimu įsitikinimui įsitikinimus įsitikinimą įsitikinimų
+90	3490	apsirengęs	apsirengus apsirengusi apsirengusio apsirengusios apsirengusius apsirengusią apsirengusių apsirengusį apsirengę
+91	3491	jachta	jachtai jachtas jachtoje jachtomis jachtoms jachtos jachtose jachtą jachtų
+92	3492	atsigauti	atsigauna atsigaus atsigausiu atsigautų atsigavau atsigavo
+93	3493	fotografuoti	fotografavau fotografavo fotografuodavo fotografuoja fotografuojate fotografuoji fotografuoju fotografuokite fotografuos fotografuotų
+94	3494	nuimti	nuima nuimame nuimkite nuims nuimtų nuėmė
+95	3495	palei	
+96	3496	konvencija	konvencijai konvencijas konvencijoje konvencijos konvenciją konvencijų
+97	3497	parašas	parašais parašu parašus parašą parašų
+98	3498	atsidaryti	atsidarai atsidariau atsidaro atsidarys atsidarė atsidarėme
+99	3499	šešeri	šešeriais šešerias šešerius šešerių
+100	3500	veika	veikai veikas veikomis veikoms veikos veiką veikų

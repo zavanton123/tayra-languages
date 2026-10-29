@@ -1,0 +1,100 @@
+1	3001	akiniai	akiniams akiniuose akinius
+2	3002	misti	minta mintame mintat mis misdamas misi
+3	3003	geležis	geležies geležimi geležiui geležius geležių geležį
+4	3004	susidomėjimas	susidomėjimo susidomėjimu susidomėjimą
+5	3005	stabilus	stabilaus stabilesnis stabilesnė stabilesnę stabili stabiliai stabiliam stabilias stabiliau stabiliausių stabilios stabiliu stabilius stabilią stabilių stabilu stabilūs stabilų
+6	3006	panika	panikai panikoje panikos paniką
+7	3007	susitaikyti	susitaikai susitaikiau susitaiko susitaikykite susitaikys susitaikytų susitaikė susitaikėme susitaikėte
+8	3008	protestuotojas	protestuotojai protestuotojais protestuotojams protestuotojo protestuotojus protestuotoją protestuotojų
+9	3009	paleistas	paleista paleistam paleisto paleistos paleistus
+10	3010	kapitalas	kapitale kapitalo kapitalu kapitalui kapitalą
+11	3011	įteikti	įteikdavo įteikia įteikiame įteikiau įteiks įteiksiu įteiktų įteikė įteikėme
+12	3012	prigimtis	prigimties prigimtimi prigimtyje prigimtį prigimčiai
+13	3013	puošti	puoš puošdavo puošia puošiame puošiant puošiantis puoškite puošta puoštas puoštų puošė puošęs
+14	3014	sūnelis	sūneli sūnelio sūneliu sūneliui sūnelį
+15	3015	pritraukti	pritraukdavo pritraukia pritrauks pritrauktų pritraukė
+16	3016	parlamentaras	parlamentarai parlamentarams parlamentaro parlamentaru parlamentarui parlamentarus parlamentarą parlamentarų
+17	3017	lobis	lobiai lobiais lobio lobiu lobius lobių lobį
+18	3018	žanras	žanrai žanrais žanre žanro žanru žanrui žanrus žanrą žanrų
+19	3019	humoras	humoro humoru humorui humorą
+20	3020	piliakalnis	piliakalniai piliakalnio piliakalnius piliakalnių piliakalnyje piliakalnį
+21	3021	išraiška	išraiškai išraiškas išraiškos išraišką išraiškų
+22	3022	sąžinė	sąžine sąžinei sąžinės sąžinę
+23	3023	nuvesti	nuveda nuvedė nuvedžiau nuves nuvestų
+24	3024	alternatyvus	alternatyvaus alternatyvi alternatyvia alternatyviai alternatyviais alternatyviam alternatyvias alternatyvioje alternatyviojo alternatyviomis alternatyvioms alternatyvios alternatyviosios alternatyviu alternatyviuoju alternatyvius alternatyvią alternatyviąja alternatyviąją alternatyvių alternatyvusis alternatyvūs alternatyvų
+25	3025	višta	vištai vištas vištoms vištos vištą vištų
+26	3026	pica	picai picas picoje picos picą picų
+27	3027	inspekcija	inspekcijai inspekcijas inspekcijoje inspekcijoms inspekcijos inspekciją inspekcijų
+28	3028	paraginti	paragina paraginau paragino paragins
+29	3029	aštuntas	aštunta aštuntai aštuntajame aštuntam aštuntame aštuntasis aštunto aštuntoje aštuntoji aštuntojo aštuntojoje aštuntos aštuntosios aštuntus aštuntą aštuntąją aštuntąjį
+30	3030	specialybė	specialybei specialybes specialybių specialybės specialybę
+31	3031	ragas	ragai ragais rage rago ragu ragus ragą ragų
+32	3032	siekis	siekiai siekiais siekiams siekio siekiui siekiuose siekius siekių siekį
+33	3033	mėginys	mėginiai mėginiams mėginio mėginiu mėginiui mėginiuose mėginius mėginių mėginyje mėginį
+34	3034	priprasti	pripranta pripranti pripras priprasi priprasite priprasiu priprask pripraskit priprastų pripratai pripratau priprato pripratom pripratome pripratote pripratus pripratusi pripratę pripratęs
+35	3035	kalbėdamas	kalbėdama kalbėdami kalbėdamos
+36	3036	ispanas	ispanai ispanais ispanams ispane ispanei ispano ispanu ispanui ispanus ispaną ispanė ispanę ispanų
+37	3037	vištiena	vištienai vištienos vištieną
+38	3038	nesveikas	nesveika nesveikai nesveikais nesveikam nesveiki nesveiko nesveikos nesveiku nesveikus nesveiką nesveikų
+39	3039	apskaita	apskaitoje apskaitos apskaitose apskaitą apskaitų
+40	3040	ekspozicija	ekspozicijai ekspozicijas ekspozicijoje ekspozicijomis ekspozicijoms ekspozicijos ekspozicijose ekspoziciją ekspozicijų
+41	3041	prognozė	prognozei prognozes prognozių prognozėje prognozėmis prognozėms prognozės prognozėse prognozę
+42	3042	lašas	lašai lašais lašeliai lašelis lašo lašu lašus lašą lašų
+43	3043	risti	risk rita ritai
+44	3044	nėščias	nėščia nėščiai nėščioji nėščioms nėščios nėščiosioms nėščiosios nėščią nėščiąsias nėščių nėščiųjų
+45	3045	prisiimti	prisiima prisiimame prisiimi prisiimkite prisiims prisiimtų prisiimu prisiėmiau prisiėmė
+46	3046	sausainis	sausaini sausainiai sausainiais sausainiams sausainio sausainiu sausainius sausainių sausainį
+47	3047	akademinis	akademine akademinei akademines akademiniai akademiniais akademiniam akademiniame akademiniams akademinio akademiniu akademiniuose akademinius akademinių akademinė akademinėje akademinėmis akademinės akademinėse akademinę akademinį
+48	3048	garantija	garantijai garantijas garantijomis garantijoms garantijos garantiją garantijų
+49	3049	kontekstas	kontekstai kontekste konteksto kontekstu kontekstuose kontekstus kontekstą
+50	3050	sugebėjimas	sugebėjimai sugebėjimais sugebėjimo sugebėjimu sugebėjimus sugebėjimą sugebėjimų
+51	3051	siužetas	siužetai siužete siužeto siužetu siužetui siužetus siužetą siužetų
+52	3052	diplomas	diplomai diplomais diplomo diplomu diplomus diplomą diplomų
+53	3053	kojinė	kojine kojines kojinių kojinėje kojinėmis kojinės kojinėse kojinę
+54	3054	kremas	kremai kremais kremo kremu kremui kremus kremą kremų
+55	3055	krikščionė	krikščionių
+56	3056	pamesti	pames pamestų pameta pametei pametė pametėme pamečiau
+57	3057	magistras	magistrai magistro magistrą magistrų
+58	3058	gargždas	gargždai gargždais gargždams gargždo gargžduose gargždus gargždų
+59	3059	sukilėlis	sukilėliai sukilėliais sukilėliams sukilėlio sukilėlius sukilėlių
+60	3060	šokėjas	šokėjai šokėjais šokėjams šokėjau šokėjo šokėju šokėjui šokėjus šokėją šokėjų
+61	3061	filialas	filialai filialais filiale filialo filialu filialui filialuose filialus filialą filialų
+62	3062	atspindėti	atspindi atspindėjo atspindės atspindėtų atspindžiu
+63	3063	civilizacija	civilizacijai civilizacijas civilizacijomis civilizacijos civilizaciją civilizacijų
+64	3064	stabdyti	stabdo stabdome stabdytų stabdė
+65	3065	košmaras	košmarai košmarais košmare košmaro košmaru košmaruose košmarus košmarą košmarų
+66	3066	indėlis	indėliai indėliais indėlio indėliu indėliuose indėlius indėlių indėlį
+67	3067	savivalda	savivaldai savivaldoje savivaldos savivaldą
+68	3068	sutapti	sutampa sutapo sutaps sutaptų
+69	3069	ištekėti	išteka išteku ištekėjau ištekėjo ištekės ištekėsi ištekėsiu ištekėtų
+70	3070	konkrečiai	konkrečiau
+71	3071	gerbiamas	gerbiama gerbiamai gerbiamam gerbiamasis gerbiami gerbiamieji gerbiamiems gerbiamo gerbiamoji gerbiamos gerbiamu gerbiamą gerbiamų
+72	3072	suformuoti	suformavo suformavome suformuoja suformuojame suformuokite suformuos suformuotų
+73	3073	uždegimas	uždegimai uždegimais uždegimams uždegimo uždegimu uždegimui uždegimus uždegimą uždegimų
+74	3074	ekskursija	ekskursijai ekskursijas ekskursijoje ekskursijomis ekskursijoms ekskursijos ekskursijose ekskursiją ekskursijų
+75	3075	nuosavas	nuosava nuosavai nuosavais nuosavam nuosavame nuosavi nuosavo nuosavoje nuosavomis nuosavos nuosavu nuosavuose nuosavus nuosavą nuosavų
+76	3076	beždžionė	beždžione beždžionei beždžiones beždžionių beždžionėmis beždžionėms beždžionės beždžionę
+77	3077	laimėjimas	laimėjimai laimėjimais laimėjimo laimėjimu laimėjimui laimėjimus laimėjimą laimėjimų
+78	3078	tigras	tigrai tigrais tigrams tigre tigro tigru tigrui tigrus tigrą tigrų
+79	3079	spąstai	spąstais spąstuose spąstus spąstų
+80	3080	išmanyti	išmanai išmanau išmano išmanome išmanote išmanytų išmanė
+81	3081	užtikrintas	užtikrinta užtikrintai užtikrintos užtikrintu užtikrintą
+82	3082	sąjungininkas	sąjungininkai sąjungininkais sąjungininkams sąjungininke sąjungininko sąjungininku sąjungininkui sąjungininkus sąjungininką sąjungininkų
+83	3083	cirkas	cirkai cirkais cirkams cirke cirko cirku cirkui cirkuose cirkus cirką cirkų
+84	3084	pažymėtas	pažymėta pažymėtais pažymėtame pažymėto pažymėtoje pažymėtos pažymėtose pažymėtu pažymėtus pažymėtą
+85	3085	išbandymas	išbandymai išbandymais išbandymams išbandymo išbandymu išbandymui išbandymus išbandymą išbandymų
+86	3086	aisus	aisiais aisias
+87	3087	leidykla	leidyklai leidykloje leidykloms leidyklos leidyklą leidyklų
+88	3088	paplitęs	paplitus paplitusi paplitusio paplitusios paplitusius paplitusią paplitusių paplitusį paplitę
+89	3089	klebonas	klebonai klebono klebonu klebonui kleboną
+90	3090	puodas	puodai puodais puodams puode puodo puodu puodui puoduose puodus puodą puodų
+91	3091	tikrovė	tikrove tikrovei tikrovėje tikrovės tikrovę
+92	3092	frontas	frontai frontais fronte fronto frontu frontui frontuose frontus frontą frontų
+93	3093	liepsna	liepsnai liepsnas liepsnoje liepsnomis liepsnoms liepsnos liepsnose liepsną liepsnų
+94	3094	pirtis	pirties pirtimi pirtyje pirtys pirtyse pirtį pirčių
+95	3095	telkinys	telkiniai telkiniais telkiniams telkinio telkiniuose telkinius telkinių telkinyje telkinį
+96	3096	administratorius	administratoriai administratoriais administratoriams administratoriaus administratoriui administratoriumi administratorių administratorė
+97	3097	latvis	latviai latviais latviams latvio latviui latvius latvių latvė latvį
+98	3098	tvarkytis	tvarkausi tvarkomės tvarkosi tvarkotės tvarkykitės tvarkysis tvarkytųsi tvarkėsi
+99	3099	nacis	naciai naciais naciams nacio nacius nacių
+100	3100	tragedija	tragedijas tragedijoje tragedijos tragediją tragedijų

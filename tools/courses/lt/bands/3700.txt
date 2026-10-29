@@ -1,0 +1,100 @@
+1	3601	tempas	tempai tempais tempams tempu tempui tempus tempą
+2	3602	lentyna	lentynas lentynoje lentynos lentynose lentyną lentynų
+3	3603	paskelbimas	paskelbimo paskelbimui paskelbimą
+4	3604	dviratininkas	dviratininkai dviratininkams dviratininko dviratininku dviratininkui dviratininkus dviratininką dviratininkė dviratininkų
+5	3605	sukūrimas	sukūrimo sukūrimu sukūrimui sukūrimą
+6	3606	naudotojas	naudotojai naudotojais naudotojams naudotojau naudotojo naudotojui naudotojus naudotoją naudotojų
+7	3607	jubiliejus	jubiliejai jubiliejaus jubiliejui jubiliejumi jubiliejų
+8	3608	dvikova	dvikovai dvikovas dvikovoje dvikovos dvikovose dvikovą dvikovų
+9	3609	branduolys	branduoliai branduoliais branduolio branduoliu branduolius branduolių branduolyje branduolį
+10	3610	fotoaparatas	fotoaparatai fotoaparatais fotoaparatams fotoaparate fotoaparato fotoaparatu fotoaparatui fotoaparatus fotoaparatą fotoaparatų
+11	3611	tūris	tūriai tūrio tūrių tūrį
+12	3612	inspektorius	inspektoriai inspektoriais inspektoriams inspektoriaus inspektoriui inspektoriumi inspektorių inspektorė
+13	3613	ištarti	ištardamas ištardavo ištarei ištari ištaria ištariant ištariau ištariu ištark ištarkite ištars ištarsi ištarsiu ištarta ištartas ištartum ištartumėte ištartą ištartų ištarus ištarė ištarėte ištaręs
+14	3614	pasiskolinti	pasiskolina pasiskolinau pasiskolino pasiskolinome pasiskolintų
+15	3615	juostelė	juostele juosteles juostelių juostelėmis juostelės juostelę
+16	3616	pavalgyti	pavalgai pavalgiau pavalgė pavalgėme
+17	3617	mineralinis	mineralines mineraliniai mineralinio mineraliniu mineralinių mineralinė mineralinėmis mineralinės mineralinį
+18	3618	etninis	etnine etnines etniniai etniniais etniniams etninio etninius etninių etninė etninėje etninės etninėse etninę etninį
+19	3619	pjesė	pjese pjeses pjesių pjesėje pjesės pjesėse pjesę
+20	3620	pasodinti	pasodina pasodinau pasodink pasodinkite pasodino pasodinome pasodins pasodinsime pasodintų
+21	3621	tvirtovė	tvirtove tvirtoves tvirtovių tvirtovėje tvirtovės tvirtovėse tvirtovę
+22	3622	neįdomus	neįdomi neįdomios neįdomu neįdomūs
+23	3623	atsitraukti	atsitraukia atsitraukite atsitrauks atsitrauktų atsitraukė
+24	3624	pojūtis	pojūtį pojūčiai pojūčiais pojūčiams pojūčio pojūčiu pojūčiui pojūčius pojūčių
+25	3625	sakinys	sakiniai sakiniais sakinio sakiniu sakinius sakinių sakiny sakinyje sakinį
+26	3626	suklysti	suklydai suklydau suklydo suklydome suklydote suklysta
+27	3627	staliukas	staliukai staliukais staliuko staliuku staliukus staliuką staliukų
+28	3628	išlaisvinti	išlaisvina išlaisvinkite išlaisvino išlaisvins išlaisvintų
+29	3629	gyvuoti	gyvavo gyvuoja gyvuos gyvuotų tegyvuoja
+30	3630	dainius	dainiaus dainiui dainiumi dainių
+31	3631	išvesti	išveda išvedė išves išvestų
+32	3632	suvažiavimas	suvažiavime suvažiavimo suvažiavimui suvažiavimuose suvažiavimą suvažiavimų
+33	3633	komedija	komedijai komedijas komedijoje komedijos komedijose komediją komedijų
+34	3634	teritorinis	teritorine teritorinei teritorines teritoriniai teritoriniam teritoriniams teritorinio teritoriniu teritoriniuose teritorinius teritorinių teritorinė teritorinėje teritorinėmis teritorinės teritorinę teritorinį
+35	3635	giria	giriai girias girioje girios giriose girią girių
+36	3636	industrija	industrijai industrijas industrijoje industrijos industriją industrijų
+37	3637	šilti	šilo šils šiltų šilčiau šyla šylant šylantis
+38	3638	indėnas	indėnai indėnais indėnams indėnus indėnų
+39	3639	prievarta	prievartai prievartos prievartą
+40	3640	paspausti	paspaudi paspaudžia paspaudžiau paspaus paspauskite paspaustų
+41	3641	ekspresas	ekspreso ekspresui
+42	3642	plakatas	plakatai plakatais plakato plakatu plakatuose plakatus plakatą plakatų
+43	3643	alėja	alėja alėjai alėjoje alėjos alėją alėjų
+44	3644	ritualas	ritualai ritualais ritualams ritualo ritualu ritualui ritualuose ritualus ritualą ritualų
+45	3645	įtakingas	įtakinga įtakingai įtakingais įtakingam įtakingesnis įtakingi įtakingiausi įtakingiausiais įtakingiausias įtakingiausio įtakingiausiu įtakingiausių įtakingiems įtakingo įtakingos įtakingu įtakingus įtakingą įtakingų
+46	3646	atvykimas	atvykimo atvykimu atvykimui atvykimą
+47	3647	aidas	aidai aide aidi aido aidu aidui aidą aidų
+48	3648	skaudus	skaudaus skaudesnė skaudesnės skaudūs skaudų skaudžia skaudžiai skaudžiais skaudžias skaudžiausia skaudžiausiai skaudžiausias skaudžiausios skaudžiausią skaudžiausių skaudžiomis skaudžios skaudžiu skaudžius skaudžią
+49	3649	benzinas	benzine benzini benzino benzinu benzinui benziną benzinų
+50	3650	ministrė	ministre ministrei ministres ministrėmis ministrės ministrę
+51	3651	apvalus	apvalaus apvali apvalia apvaliais apvaliam apvalias apvaliausios apvaliojo apvalios apvaliosios apvalius apvalią apvalių apvalūs apvalų
+52	3652	sutvarkytas	sutvarkyta sutvarkytos sutvarkytus sutvarkytą
+53	3653	bučiuoti	bučiavai bučiavau bučiavo bučiavęs bučiuodamas bučiuodavo bučiuoja bučiuojam bučiuojamas bučiuojant bučiuoji bučiuoju bučiuok bučiuokit bučiuokite bučiuos bučiuosi bučiuosit bučiuosiu bučiuotum bučiuotų bučiuočiau
+54	3654	dieta	dietai dietas dietomis dietos dietą dietų
+55	3655	gąsti	gandai gando gandus
+56	3656	rasė	rase rases rasių rasės rasę
+57	3657	trąša	trąšai trąšas trąšomis trąšoms trąšos trąšų
+58	3658	dirva	dirvai dirvas dirvoje dirvoms dirvos dirvose dirvą dirvų
+59	3659	velniškas	velniškai velnišką
+60	3660	alfa	alfas alfos alfą
+61	3661	permaina	permainas permainomis permainoms permainos permainų
+62	3662	prielaidas	prielaidomis prielaidos prielaidą prielaidų
+63	3663	senatorius	senatoriai senatoriais senatoriams senatoriaus senatoriui senatoriumi senatorių
+64	3664	šovinys	šoviniai šoviniais šovinio šovinius šovinių šovinį
+65	3665	perkeltas	perkelta perkeltos perkeltą
+66	3666	mišrus	mišraus mišri mišriai mišrias mišrioje mišriomis mišrioms mišrios mišrią mišrių mišrūs mišrų
+67	3667	nusileidimas	nusileidimo nusileidimui nusileidimą nusileidimų
+68	3668	karūna	karūnai karūnoje karūnomis karūnos karūną
+69	3669	sergamumas	sergamumo sergamumu sergamumui sergamumą
+70	3670	aras	arai arais are aro aru arus arą arų
+71	3671	auginimas	auginime auginimo auginimu auginimui auginimą
+72	3672	kamuoliukas	kamuoliukai kamuoliukais kamuoliuko kamuoliuku kamuoliukus kamuoliuką kamuoliukų
+73	3673	žemdirbys	žemdirbiai žemdirbiais žemdirbiams žemdirbio žemdirbius žemdirbių
+74	3674	premjera	premjerai premjeroje premjeros premjerą premjerų
+75	3675	šįryt	
+76	3676	formalus	formalaus formali formalia formaliai formaliais formaliam formalias formalioji formaliojo formalios formaliu formaliuose formaliuosius formalius formalią formaliąją formalių formalu formalusis formalūs formalų formalųjį
+77	3677	bankrotas	bankrotai bankrotais bankroto bankrotu bankrotui bankrotus bankrotą bankrotų
+78	3678	seifas	seife seifo seifu seifuose seifus seifą seifų
+79	3679	dokumentinis	dokumentine dokumentiniai dokumentiniam dokumentiniame dokumentiniams dokumentinio dokumentiniuose dokumentinius dokumentinių dokumentinė dokumentinės dokumentinę dokumentinį
+80	3680	nesusipratimas	nesusipratimai nesusipratimams nesusipratimo nesusipratimu nesusipratimus nesusipratimą nesusipratimų
+81	3681	nedarbas	nedarbo nedarbu nedarbą
+82	3682	metinės	metines metinių metinėmis metinėms metinėse
+83	3683	ankštas	ankšta ankštame ankštesnių ankštoje ankštos ankštose ankštuose ankštą ankščiau ankščiausias
+84	3684	kupinas	kupina kupiname kupini kupino kupinoje kupinu kupinus kupiną kupinų
+85	3685	viceministras	viceministrai viceministre viceministro viceministru viceministrui viceministrus viceministrė viceministrų
+86	3686	fantastiškas	fantastiška fantastiškai fantastiškais fantastiški fantastiško fantastiškos fantastiškus fantastišką fantastiškų
+87	3687	išsigąsti	išsigandau išsigando išsigandome išsigąs išsigąsta išsigąstu išsigąstų
+88	3688	ožys	ožiai ožiais ožio ožiu ožiui ožius ožių ožy ožį
+89	3689	paskaityti	paskaitau paskaito paskaityk paskaitykite paskaitysiu paskaitė paskaičiau
+90	3690	išankstinis	išankstine išankstines išankstiniai išankstiniais išankstiniam išankstiniame išankstiniams išankstinio išankstiniu išankstinius išankstinių išankstinė išankstinėje išankstinės išankstinę išankstinį
+91	3691	mūsiškis	mūsiškiai mūsiškiams mūsiškio mūsiškius mūsiškių mūsiškį
+92	3692	valdininkas	valdininkai valdininkais valdininkams valdininko valdininku valdininkui valdininkus valdininkė valdininkų
+93	3693	palaidoti	palaidojau palaidojo palaidos palaidotų
+94	3694	nesėkmingas	nesėkminga nesėkmingai nesėkmingi nesėkmingo nesėkmingos nesėkmingu nesėkmingus nesėkmingą nesėkmingų
+95	3695	penkiolika	penkiolikai penkiolikoje penkiolikos
+96	3696	sveikinimas	sveikinimai sveikinimais sveikinime sveikinimo sveikinimu sveikinimus sveikinimą sveikinimų
+97	3697	gerinti	gerina geriname gerino gerins gerinsime gerintų
+98	3698	apsilankymas	apsilankymai apsilankymo apsilankymu apsilankymui apsilankymus apsilankymą apsilankymų
+99	3699	nepriimti	nepriima nepriimame nepriimdavo nepriimkite nepriims nepriimtų nepriimu nepriėmė
+100	3700	atrinkti	atrenka atrenkamas atrenkant atrenku atrinkai atrinkau atrinkdavo atrinkite atrinko atrinkome atrinkote atrinks atrinksiu atrinkta atrinktais atrinktas atrinktieji atrinktiems atrinktos atrinktus atrinktų atrinkus atrinkęs

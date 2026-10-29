@@ -1,0 +1,100 @@
+1	4901	kronika	kronikas kronikoje kronikos kronikose kroniką kronikų
+2	4902	mėlynė	mėlyne mėlynes mėlynių mėlynėmis mėlynėms mėlynės mėlynę
+3	4903	šakelė	šakele šakeles šakelių šakelėmis šakelės šakelę
+4	4904	pabėgėlis	pabėgėliai pabėgėliais pabėgėliams pabėgėlio pabėgėlius
+5	4905	steigimas	steigimo steigimu steigimui steigimą
+6	4906	sklaida	sklaidos sklaidą
+7	4907	kartotis	kartojasi kartojosi kartosis kartotųsi
+8	4908	statinė	statine statinei statines statinėje statinėmis statinės statinėse statinę statinų
+9	4909	išgauti	išgaudavo išgauna išgaus išgavo
+10	4910	nufilmuoti	nufilmavo nufilmavome nufilmuoja nufilmuos nufilmuotų
+11	4911	beržas	beržai beržais beržo beržu beržus beržą beržų
+12	4912	klasika	klasikos
+13	4913	dešimtukas	dešimtuke dešimtuko dešimtuku dešimtukuose dešimtukus dešimtuką dešimtukų
+14	4914	patelė	patele patelei pateles patelių patelėmis patelės patelę
+15	4915	pasimokyti	pasimokiau pasimoko pasimokykite pasimokys pasimokytų pasimokė pasimokėme
+16	4916	plovimas	plovimo plovimu plovimui plovimą
+17	4917	cituoti	citavo cituoja cituoju
+18	4918	tautietis	tautieti tautiečiai tautiečiais tautiečiams tautiečio tautiečiu tautiečiui tautiečius tautiečių
+19	4919	šokėja	šokėjoms
+20	4920	sužalojimas	sužalojimai sužalojimais sužalojimo sužalojimu sužalojimus sužalojimą sužalojimų
+21	4921	autentiškas	autentiška autentiškai autentiškais autentiški autentiško autentiškoje autentiškomis autentiškos autentišku autentiškus autentišką autentiškų
+22	4922	fėja	fėjai fėjas fėjomis fėjoms fėjos fėją fėjų
+23	4923	įkišti	įkiša įkišau įkiškite įkišo
+24	4924	žavesys	žavesio žavesiu žavesiui žavesį
+25	4925	šokas	šoke šokui
+26	4926	šokinėti	šokinėdavo šokinėja šokinėjo šokinės
+27	4927	madingas	madinga madingai madingais madingam madingame madingi madingiausių madingiems madingo madingomis madingos madingu madingą madingų
+28	4928	sugadintas	sugadinta sugadinto sugadintos sugadintus sugadintą
+29	4929	masiškas	masiškai
+30	4930	giedoti	gieda giedamas giedame giedant giedantis giedi giedodavau giedodavo giedojau giedojo giedojome giedok giedokime giedokit giedokite giedos giedosi giedosiu giedu tegieda
+31	4931	priėjimas	priėjimo priėjimą
+32	4932	laukimas	laukime laukimo laukimu laukimą
+33	4933	įpratęs	įpratus įpratusi įpratusios įpratę
+34	4934	tartis	tarties
+35	4935	mokyklinis	mokyklines mokykliniai mokykliniais mokykliniam mokykliniame mokyklinio mokykliniuose mokyklinius mokyklinių mokyklinė mokyklinėmis mokyklinės mokyklinę mokyklinį
+36	4936	ertmė	ertmes ertmių ertmėje ertmės ertmėse ertmę
+37	4937	pamilti	pamilau pamilkite pamilo pamils pamilsiu pamilsta pamiltų
+38	4938	neramumas	neramumai neramumais neramumams neramumus neramumų
+39	4939	gandas	gandais ganduose gandą gandų
+40	4940	mirus	
+41	4941	čiupti	čiumpa čiupau čiupk čiupkite čiupo
+42	4942	žievė	žieve žieves žievių žievėje žievės žievę
+43	4943	keras	kerai kerais kerams kere keri kero keru keruose kerus kerų
+44	4944	sodinti	sodina sodinam sodiname sodinant sodinate sodinau sodindavo sodini sodink sodinkit sodinkite sodino sodins sodinsite sodintų sodinu
+45	4945	žurnalistika	žurnalistikoje žurnalistikos žurnalistiką
+46	4946	dieviškas	dieviška dieviškajam dieviškajame dieviškasis dieviškesnis dieviški dieviškoje dieviškoji dieviškojo dieviškos dieviškosios dievišku dieviškus dievišką dieviškąją dieviškųjų
+47	4947	žaisliukas	žaisliukai žaisliukais žaisliuko žaisliuku žaisliukus žaisliuką žaisliukų
+48	4948	stiprėti	stiprėja stiprėjo stiprės
+49	4949	sukaupti	sukaupia sukaupiau sukauptų sukaupė
+50	4950	ekonomiškas	ekonomiškai ekonomiškesni ekonomiškesnis ekonomiški ekonomiškiau ekonomiško ekonomiškos ekonomišku ekonomiškų
+51	4951	sėti	sėjai sėjant sėjo sėkite sės sėsi sėsim sėsime sėsit sėsite sėsiu
+52	4952	tauras	taure tauro taurą
+53	4953	nertis	neriasi neries
+54	4954	archeologinis	archeologiniai archeologiniais archeologinio archeologinius archeologinių archeologinė archeologinės archeologinį
+55	4955	horizontas	horizontai horizontais horizonte horizonto horizontu horizontuose horizontus horizontą horizontų
+56	4956	prekeivis	prekeiviai prekeiviais prekeiviams prekeivio prekeiviu prekeivius prekeivių prekeivį
+57	4957	banda	bandas bandoje bandomis bandos bandą bandų
+58	4958	varlė	varle varlei varles varlių varlėmis varlėms varlės varlę
+59	4959	imigrantas	imigrantai imigrantais imigrantams imigranto imigrantu imigrantus imigrantą imigrantų
+60	4960	motyvuoti	motyvavo motyvuoja motyvuos motyvuotų
+61	4961	keptuvė	keptuve keptuves keptuvių keptuvėje keptuvės keptuvę
+62	4962	atsiprašymas	atsiprašymai atsiprašymo atsiprašymu atsiprašymus atsiprašymą atsiprašymų
+63	4963	bendramintis	bendramintį bendraminčiai bendraminčiais bendraminčiams bendraminčiu bendraminčius bendraminčių
+64	4964	kurčias	kurtieji kurtiesiems kurtu kurtus kurčiam kurčius kurčiųjų
+65	4965	galiojimas	galiojimo galiojimui galiojimą
+66	4966	orderis	orderiai orderio orderiu orderius orderių orderį
+67	4967	kraujuoti	kraujavai kraujavau kraujavo kraujavome kraujuodavo kraujuoja kraujuojant kraujuojanti kraujuojantis kraujuojančios kraujuojančią kraujuojate kraujuoji kraujuoju kraujuosi kraujuosiu kraujuočiau
+68	4968	pareigybė	pareigybei pareigybes pareigybių pareigybėms pareigybės pareigybę
+69	4969	susipažinęs	susipažinus susipažinusi susipažinę
+70	4970	degimas	degimo degimą
+71	4971	prilygti	prilygo prilygs prilygsta prilygtų
+72	4972	veja	vejas vejoje vejos veją vejų
+73	4973	prevencinis	prevencine prevencines prevencinio prevencinius prevencinių prevencinė prevencinėmis prevencinėms prevencinės prevencinę prevencinį
+74	4974	užsispyręs	užsispyrus užsispyrusi užsispyrusiai užsispyrusio užsispyrusios užsispyrusiu užsispyrusį užsispyrę
+75	4975	geografinis	geografine geografines geografiniai geografiniais geografinio geografiniu geografiniuose geografinius geografinių geografinė geografinėje geografinėms geografinės geografinę geografinį
+76	4976	maudytis	maudausi maudomės maudosi maudydavosi maudysis maudėsi
+77	4977	išlikimas	išlikime išlikimo išlikimui išlikimą
+78	4978	papuošti	papuoš papuošdavo papuošia papuošiau papuoškite papuoštų papuošė
+79	4979	sanatorija	sanatorijas sanatorijoje sanatorijos sanatorijose sanatoriją sanatorijų
+80	4980	džinas	džino džiną
+81	4981	įtvirtintas	įtvirtinta įtvirtinto įtvirtintos įtvirtintus įtvirtintą
+82	4982	lauras	laurai laurais lauro laurus laurą laurų
+83	4983	užsirašyti	užsirašau užsirašiau užsirašo užsirašyk užsirašykite užsirašė
+84	4984	prakeikti	prakeikia prakeikė
+85	4985	tvarus	tvaraus tvari tvariai tvariam tvarios tvariosios tvariu tvarius tvarią tvarių tvarūs tvarų
+86	4986	gajus	gaja gajaus gaji gajos gajūs gajų
+87	4987	susieti	susieja susiejo susietų
+88	4988	pereinamas	pereinama pereinamajam pereinamasis pereinamoji pereinamojo pereinamosios pereinamuoju pereinamąją pereinamąjį pereinamųjų
+89	4989	įsigytas	įsigyta įsigytais įsigyto įsigytos įsigytu įsigytus įsigytą
+90	4990	grupinis	grupines grupiniai grupinio grupiniu grupinius grupinių grupinė grupinės grupinėse grupinę grupinį
+91	4991	įleisti	įleido įleidžia įleis įleistų
+92	4992	atsargumas	atsargumo atsargumą
+93	4993	rekonstruoti	rekonstravo rekonstruoja rekonstruos
+94	4994	struktūrinis	struktūrines struktūriniai struktūrinio struktūrinius struktūrinių struktūrinė struktūrinėms struktūrinės struktūrinį
+95	4995	plyšys	plyšiai plyšio plyšiuose plyšius plyšių plyšį
+96	4996	beprasmiškas	beprasmiška beprasmiškai beprasmiški beprasmiško beprasmiškos beprasmišku beprasmišką beprasmiškų
+97	4997	skystas	skystai skysto skystos skystus skystą skystųjų
+98	4998	parvežti	parveš parveža parvežiau parvežtų parvežė
+99	4999	neveikti	neveikdavo neveiks neveiktų neveikė
+100	5000	apsvarstyti	apsvarstykite apsvarstys apsvarstysime apsvarstytų apsvarstė apsvarstėme

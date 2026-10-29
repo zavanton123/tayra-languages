@@ -1,0 +1,100 @@
+1	7801	klaikus	klaikaus klaiki klaikiai klaiku klaikūs klaikų
+2	7802	rūšiuoti	rūšiuoja rūšiuojam rūšiuojame rūšiuoju
+3	7803	pagreitinti	pagreitina pagreitino pagreitins pagreitintų
+4	7804	pagaliukas	pagaliukai pagaliukais pagaliuko pagaliuku pagaliukus pagaliuką pagaliukų
+5	7805	ventiliavimas	ventiliavimo
+6	7806	izoliatorius	izoliatoriaus izoliatoriuje izoliatoriuose izoliatorių
+7	7807	faksas	fakso faksu faksą
+8	7808	šarvai	
+9	7809	jaunavedys	jaunavedžiai jaunavedžiais jaunavedžiams jaunavedžius jaunavedžių
+10	7810	avietė	avietes avietėmis avietės aviečių
+11	7811	precedentas	precedento precedentą precedentų
+12	7812	kibti	kibdavo kibs kimba
+13	7813	geisti	geidei geidi geidė geidžia geidžiama geidžiamas geidžiu geistas
+14	7814	atsidėkoti	atsidėkoja atsidėkojo atsidėkos
+15	7815	patriarchas	patriarcho patriarchu
+16	7816	priešprieša	priešpriešos priešpriešą priešpriešų
+17	7817	badauti	badauja badaus badavo
+18	7818	siluetas	siluetai silueto siluetu siluetus siluetą siluetų
+19	7819	projektuotojas	projektuotoja projektuotojai projektuotojais projektuotojams projektuotojo projektuotojų
+20	7820	tinkamumas	tinkamumo tinkamumu tinkamumą
+21	7821	margas	marga margi margieji margą margų
+22	7822	kontrabandininkas	kontrabandininkai kontrabandininkams kontrabandininko kontrabandininkus kontrabandininką kontrabandininkų
+23	7823	žmogiškumas	žmogiškumo žmogiškumu žmogiškumui žmogiškumą
+24	7824	telegrama	telegramoje telegramos telegramą
+25	7825	išdaiga	išdaigai išdaigas išdaigoms išdaigos išdaigą išdaigų
+26	7826	apsaugininkas	apsaugininkai apsaugininkais apsaugininkams apsaugininko apsaugininku apsaugininkui apsaugininkus apsaugininką apsaugininkų
+27	7827	atsistatyti	atsistato atsistatys atsistatytų atsistatė
+28	7828	įtvirtinimas	įtvirtinimai įtvirtinimo įtvirtinimus įtvirtinimą įtvirtinimų
+29	7829	palengvėjimas	palengvėjimo palengvėjimu palengvėjimą
+30	7830	skilimas	skilimo skilimą
+31	7831	šešiasdešimt	šešiasdešimties
+32	7832	sinoptikas	sinoptikai sinoptiko sinoptikė sinoptikų
+33	7833	tukti	tuk tunka
+34	7834	pajudinti	pajudino
+35	7835	pakaušis	pakaušio pakaušyje pakaušį
+36	7836	tipinis	tipiniai tipinio tipinių tipinė tipinę tipinį
+37	7837	apgavikas	apgavikai apgavikų
+38	7838	sušaukti	sušaukė
+39	7839	rauda	raudai raudas raudomis raudos raudų
+40	7840	legionierius	legionieriai legionieriams legionieriaus legionierių
+41	7841	populiarinimas	populiarinimo populiarinimu populiarinimą
+42	7842	neatitikimas	neatitikimai neatitikimo neatitikimus neatitikimą neatitikimų
+43	7843	bendrystė	bendrystėje bendrystės bendrystę
+44	7844	diegas	diege diegą
+45	7845	sulėtėti	sulėtėja sulėtėjo sulėtės sulėtėtų
+46	7846	graikiškas	graikiška graikiški graikiško graikiškos graikišku graikiškuose graikiškus graikišką graikiškų
+47	7847	porcelianas	porceliano porcelianą
+48	7848	ozonas	ozono ozonu ozonui ozoną
+49	7849	nežmoniškas	nežmoniška nežmoniškai nežmoniško nežmoniškomis nežmoniškos nežmonišku nežmonišką
+50	7850	kramtyti	kramtai kramtant kramtau kramto kramtot kramtote kramtyk kramtykit kramtykite kramtysi kramčiau
+51	7851	vaikinukas	vaikinukai vaikinuko vaikinukui vaikinuką
+52	7852	neatsargus	neatsargaus neatsargiai neatsargius neatsargių neatsargu neatsargūs neatsargų
+53	7853	prisiskambinti	prisiskambino
+54	7854	užlieti	užlieja užliejo užliekite užlies užlietų
+55	7855	aptvaras	aptvarai aptvare aptvaro aptvaruose aptvarus aptvarą
+56	7856	pertvarkymas	pertvarkymo pertvarkymui pertvarkymus pertvarkymą
+57	7857	godumas	godumo godumu godumą
+58	7858	vikrus	vikraus vikresnis vikriai vikriau vikrūs
+59	7859	bamba	bamboje bambos bambą
+60	7860	kaklelis	kaklelio kaklelyje kaklelį
+61	7861	užaugintas	užauginta užauginto užaugintomis užaugintos užaugintus užaugintą
+62	7862	menkė	menkes menkių menkės menkę
+63	7863	išprievartauti	išprievartavo
+64	7864	cepelinas	cepelinai cepelinais cepelinams cepelino cepelinus cepelinų
+65	7865	potyris	potyriai potyriais potyrius potyrių potyrį
+66	7866	autografas	autografais autografo autografu autografus autografą autografų
+67	7867	pasiskirstyti	pasiskirsto pasiskirstys pasiskirstytų pasiskirstė
+68	7868	išpjauti	išpjaukite išpjauna išpjautų išpjovė
+69	7869	traktuoti	traktavo traktuoja traktuojame
+70	7870	apmokėtas	apmokėta apmokėtos
+71	7871	įsteigimas	įsteigimo įsteigimu įsteigimui įsteigimą
+72	7872	prožektorius	prožektoriais prožektoriaus prožektoriumi prožektorių
+73	7873	registratūra	registratūroje registratūros
+74	7874	laivelis	laiveliai laiveliais laivelio laiveliu laivelius laivelių laivelį
+75	7875	auklėti	auklėja auklėjame auklėjo auklėtų
+76	7876	mušamas	mušamaisiais mušami mušamieji mušamos mušamųjų
+77	7877	pirmininkauti	pirmininkauja pirmininkaus pirmininkavo
+78	7878	nukeltas	nukelta nukeltos
+79	7879	pasalas	pasalą
+80	7880	protinis	protiniai protinio protinius protinių protinė protinės protinę protinį
+81	7881	panikuoti	panikuoja
+82	7882	biržietis	biržietė biržiečiai biržiečiais biržiečiams biržiečio biržiečiui biržiečius biržiečių
+83	7883	turėtojas	turėtojai turėtojams turėtoju turėtojui turėtojus turėtoją turėtojų
+84	7884	nutapyti	nutapiau nutapytų nutapė
+85	7885	įsiutęs	įsiutusi įsiutusių įsiutę
+86	7886	pabrangti	pabrango pabrangs pabrangsta pabrangtų
+87	7887	skaistus	skaisti skaisčia skaisčiai skaisčios skaisčią
+88	7888	sušaudyti	sušaudė
+89	7889	glostyti	glosto glostė
+90	7890	šikti	šik šika šikai šikam šikame šikantis šikau šiki šikom šiks šiksi šiku šikčiau
+91	7891	dekoruoti	dekoravo dekoruoja dekoruotų
+92	7892	paveldimas	paveldima paveldimos paveldimų
+93	7893	nacionalistas	nacionalistai nacionalistu nacionalistų
+94	7894	gaubtas	gaubtai gaubtais gaubto gaubtu gaubtą gaubtų
+95	7895	grojimas	grojimo grojimu grojimą
+96	7896	improvizuoti	improvizuoja improvizuokite improvizuos improvizuotų
+97	7897	piemuo	piemenis piemens piemenys piemenį piemenų
+98	7898	kambarinis	kambarine kambarines kambariniai kambariniams kambarinius kambarinių kambarinė kambarinėms kambarinės
+99	7899	įsidėti	įsideda įsidėjau įsidėjo įsidėkite
+100	7900	okupuoti	okupavo okupuoja okupuotų

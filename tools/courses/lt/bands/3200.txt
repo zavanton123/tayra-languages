@@ -1,0 +1,100 @@
+1	3101	krūtis	krūties krūtimi krūtimis krūtys krūtį krūtų
+2	3102	ilgametis	ilgamete ilgametei ilgametes ilgametė ilgametėje ilgametės ilgametėse ilgametę ilgametį ilgamečiai ilgamečiais ilgamečiam ilgamečio ilgamečiu ilgamečiui ilgamečius ilgamečių
+3	3103	palapinė	palapine palapinei palapines palapinių palapinėje palapinėmis palapinės palapinėse palapinę
+4	3104	turėdamas	turėdama turėdami turėdamos
+5	3105	vadybininkas	vadybininkai vadybininkais vadybininkams vadybininke vadybininko vadybininku vadybininkui vadybininkus vadybininką vadybininkų
+6	3106	uždraustas	uždrausta uždrausto uždraustos uždraustu uždraustus uždraustą
+7	3107	aviacija	aviacijai aviacijoje aviacijos aviaciją
+8	3108	kekšė	kekše kekšei kekšes kekšių kekšėmis kekšėms kekšės kekšę
+9	3109	storis	storio storiu storį
+10	3110	charakteris	charakteriai charakteriais charakteriams charakterio charakteriu charakteriui charakterius charakterių charakterį
+11	3111	paaiškinimas	paaiškinimai paaiškinimais paaiškinime paaiškinimo paaiškinimu paaiškinimui paaiškinimus paaiškinimą paaiškinimų
+12	3112	depresija	depresijai depresijoje depresijos depresiją depresijų
+13	3113	pusiausvyra	pusiausvyrai pusiausvyros pusiausvyrą
+14	3114	deimantas	deimantai deimantais deimante deimanto deimantu deimantus deimantą deimantų
+15	3115	kuklus	kuklaus kuklesni kuklesnis kuklesnių kuklesnė kuklesnės kuklesnį kukli kuklia kukliai kukliais kukliame kuklias kukliau kukliausias kukliausią kukliomis kuklios kuklius kuklią kuklių kuklu kuklūs kuklų
+16	3116	ūgis	ūgio ūgiu ūgiui ūgį
+17	3117	potencialas	potencialo potencialu potencialui potencialus potencialą potencialų
+18	3118	nebūtinai	
+19	3119	gentis	genties gentimi gentimis gentyje gentys gentyse gentį genčiai genčių
+20	3120	inkstas	inkstai inkstais inkstams inksto inkstu inkstuose inkstus inkstą inkstų
+21	3121	etika	etikai etikos etiką
+22	3122	nepakakti	nepakako nepakaks nepakaktų nepakanka
+23	3123	svogūnas	svogūnai svogūnais svogūno svogūnu svogūnuose svogūnus svogūną svogūnų
+24	3124	kęsti	kenti kentė kentėt kenčia kenčiam kenčiame kenčiant kenčiantis kenčiat kenčiate kenčiau kenčiu
+25	3125	preparatas	preparatai preparatais preparato preparatu preparatuose preparatus preparatą preparatų
+26	3126	priskiriamas	priskiriama priskiriami priskiriamo priskiriamos priskiriamus priskiriamų
+27	3127	fantazija	fantazijai fantazijas fantazijomis fantazijoms fantazijos fantazijose fantaziją fantazijų
+28	3128	plauti	plaudamas plaudavo plauk plauki plaukime plaukit plaukite plauna plaunam plaunamas plauname plaunami plaunamos plaunant plaunat plaunate plauni plaunu plaus plausi plausit plausiu plaučiau plovei ploviau plovė
+29	3129	purvas	purvai purvais purve purvo purvu purvui purvus purvą
+30	3130	paslaptingas	paslaptinga paslaptingajam paslaptingasis paslaptingesni paslaptingi paslaptingiausi paslaptingiausiame paslaptingiausiu paslaptingiausių paslaptingo paslaptingoje paslaptingoji paslaptingojo paslaptingos paslaptingose paslaptingosios paslaptingu paslaptinguose paslaptingus paslaptingą paslaptingąją paslaptingų paslaptingųjų
+31	3131	imunitetas	imuniteto imunitetu imunitetui imunitetą
+32	3132	frazė	fraze frazes frazių frazėmis frazės frazę
+33	3133	eilutė	eilute eilutes eilutėje eilutėmis eilutės eilutėse eilutę eilučių
+34	3134	padidėjęs	padidėjus padidėjusi padidėjusia padidėjusiam padidėjusias padidėjusio padidėjusiomis padidėjusios padidėjusiu padidėjusius padidėjusią padidėjusių padidėjusį padidėję
+35	3135	teroristas	teroristai teroristais teroristams teroriste teroristo teroristu teroristui teroristus teroristą teroristų
+36	3136	tankas	tankai tankais tankams tanke tanko tanku tankui tanką tankų
+37	3137	įstoti	įstoja įstojai įstojau įstojo įstojome įstos
+38	3138	vienkartinis	vienkartine vienkartinei vienkartines vienkartiniai vienkartiniais vienkartiniems vienkartinio vienkartiniu vienkartiniuose vienkartinius vienkartinių vienkartinė vienkartinėmis vienkartinėms vienkartinės vienkartinę vienkartinį
+39	3139	trisdešimt	trisdešimties trisdešimčia trisdešimčiai
+40	3140	formuoti	formavo formuoja formuojame formuokite formuos formuosime formuotų
+41	3141	nepakartojamas	nepakartojama nepakartojamai nepakartojami nepakartojamo nepakartojamos nepakartojamu nepakartojamus nepakartojamą
+42	3142	suveikti	suveikdavo suveikia suveiks suveiktų suveikė
+43	3143	suimtas	suimta suimtajam suimtam suimtasis suimtieji suimtiesiems suimtojo suimtuosius suimtus suimtą suimtųjų
+44	3144	sklisti	sklido sklinda sklis sklisdavo sklistų
+45	3145	kilogramas	kilogramai kilogramais kilogramo kilogramu kilogramui kilogramus kilogramą kilogramų
+46	3146	kepenys	kepenimis kepenims kepenis kepeniu kepenyse kepenų
+47	3147	posūkis	posūkiai posūkio posūkiu posūkiui posūkiuose posūkius posūkių posūkyje posūkį
+48	3148	migracija	migracijai migracijos migraciją migracijų
+49	3149	atleidimas	atleidimai atleidimais atleidimo atleidimu atleidimui atleidimus atleidimą atleidimų
+50	3150	prognozuoti	prognozavo prognozavome prognozavęs prognozuoja prognozuojam prognozuojamas prognozuojame prognozuojant prognozuota prognozuotas prognozuotume
+51	3151	aukcionas	aukcionai aukcionais aukcionams aukcione aukciono aukcionui aukcionuose aukcionus aukcioną aukcionų
+52	3152	chaosas	chaose chaoso chaosu chaosui chaosą
+53	3153	taikus	taiki taikiai taikiais taikiam taikiems taikiomis taikios taikiu taikius taikią taikių taikūs taikų
+54	3154	urvas	urvai urvais urve urvo urvu urvuose urvus urvą urvų
+55	3155	rengtis	rengiamės rengiasi rengiatės rengiausi rengiesi rengiuosi rengėmės rengėsi renkitės
+56	3156	sąsaja	sąsajas sąsajomis sąsajos sąsają sąsajų
+57	3157	trauktis	traukiasi trauksis traukėsi
+58	3158	supažindinti	supažindina supažindiname supažindinau supažindino supažindinome supažindins
+59	3159	globėjas	globėjai globėjais globėjams globėjo globėju globėjui globėjus globėją globėjų
+60	3160	saldainis	saldainiai saldainiais saldainiams saldainio saldainiu saldainius saldainių saldainį
+61	3161	pasisakyti	pasisakau pasisakiau pasisako pasisakome pasisakydavo pasisakys pasisakytų pasisakė
+62	3162	uniforma	uniformas uniformomis uniformos uniformą uniformų
+63	3163	įvaizdis	įvaizdį įvaizdžio įvaizdžiui
+64	3164	reisas	reisai reisais reise reiso reisu reisui reisuose reisus reisą reisų
+65	3165	nuveikti	nuveikei nuveikia nuveikiau nuveiks nuveiktų nuveikė nuveikėme nuveikėte
+66	3166	failas	failai failais failams faile failo failu failuose failus failą failų
+67	3167	įrengimas	įrengimai įrengimais įrengimo įrengimu įrengimui įrengimus įrengimą įrengimų
+68	3168	demonas	demonai demonais demonams demone demono demonu demonus demoną demonų
+69	3169	demokratinis	demokratine demokratinei demokratines demokratiniai demokratiniais demokratiniam demokratiniame demokratinio demokratiniu demokratiniuose demokratinius demokratinių demokratinių demokratinė demokratinėje demokratinėmis demokratinėms demokratinės demokratinėse demokratinę demokratinį
+70	3170	šampanas	šampane šampano šampanu šampanui šampaną
+71	3171	pratimas	pratimai pratimais pratimams pratimo pratimui pratimus pratimą pratimų
+72	3172	žemynas	žemynai žemyne žemyno žemynu žemynui žemynuose žemynus žemyną žemynų
+73	3173	lyti	lijau lijo lijus lis lyja lyjant lyk lys lysim lysiu
+74	3174	paleidimas	paleidimo paleidimu paleidimui paleidimą paleidimų
+75	3175	vėžlys	vėžliai vėžliais vėžlio vėžliu vėžliui vėžlius vėžlių
+76	3176	nusiųsti	nusiuntė nusiuntėme nusiunčia nusiunčiau nusiųs nusiųskite
+77	3177	nerealus	nerealaus nereali nerealiai nerealios nerealius nerealią nerealių nerealu nerealūs nerealų
+78	3178	klinikinis	klinikine klinikiniai klinikiniais klinikiniams klinikinio klinikinius klinikinių klinikinė klinikinėje klinikinės klinikinę klinikinį
+79	3179	sukeltas	sukelta sukeltai sukeltais sukelto sukeltomis sukeltoms sukeltos sukeltu sukeltus sukeltą
+80	3180	civilis	civiliai civiliais civiliams civilio civilius civilių civilį
+81	3181	erzinti	erzina erziname erzinantis erzinau erzindavo erzini erzino erzins erzinsi erzinsit erzinsiu erzintų erzinu erzinęs
+82	3182	pabaigti	pabaigia pabaigiau pabaigs pabaigsime pabaigsiu pabaigtų pabaigė pabaigėme
+83	3183	piešti	pieš piešdamas piešdavau piešdavo piešei pieši piešia piešiant piešiate piešiau piešiu piešk pieškim pieškite pieštų piešė piešėm piešęs
+84	3184	arabas	arabai arabais arabo arabu arabus arabą arabų
+85	3185	laureatas	laureatai laureatais laureatams laureato laureatu laureatui laureatus laureatą laureatų
+86	3186	tyčia	
+87	3187	paprotys	paprotį papročiai papročiais papročiams papročio papročiu papročiuose papročius papročių
+88	3188	teisybė	teisybe teisybei teisybės teisybę
+89	3189	publika	publikai publikoje publikos publiką
+90	3190	griebti	griebia griebiau griebk griebkite griebtų griebė
+91	3191	mugė	mugei muges mugių mugėje mugėms mugės mugėse mugę
+92	3192	portretas	portretai portretais portrete portreto portretu portretui portretus portretą portretų
+93	3193	povandeninis	povandenine povandeniniai povandeniniais povandeniniame povandeninio povandeniniu povandeniniuose povandeninius povandeninių povandeninė povandeninės povandeninę povandeninį
+94	3194	pėstininkas	pėstininkais pėstininkams pėstininke pėstininko pėstininku pėstininkus pėstininką pėstininkų
+95	3195	ferma	fermas fermoje fermoms fermos fermose fermą fermų
+96	3196	puika	puikai puikų
+97	3197	švedas	švedai švedais švedams švedo švedu švedus švedą švedų
+98	3198	fasadas	fasadai fasadais fasadams fasade fasado fasadu fasadui fasaduose fasadus fasadą fasadų
+99	3199	areštas	areštai arešte arešto areštu areštui areštus areštą areštų
+100	3200	iškristi	iškrenta iškrinta iškris iškrisdavo iškristų iškritau iškrito

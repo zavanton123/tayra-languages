@@ -1,0 +1,100 @@
+1	1	ir	
+2	2	būti	bus buvai buvau buvo buvome buvote buvusi buvusio buvę buvęs būdavo būk būkite būna būsi būsime būsite būsiu būtinai būtum būtume būtų būčiau esam esame esant esantis esate esi esu nebus nebuvau nebuvo nebėra nebūna nebūtų nesu nėra yra
+3	3	kad	
+4	4	aš	aš ašai man mane manim manimi many manyje manę manęs mudviejų mudviem
+5	5	jis	jam jame jiedu jinai jisai jį jo juo juodu jų jį jųdviejų
+6	6	kas	kam kame ką kieno ko kuo ką
+7	7	tai	
+8	8	į	į
+9	9	tu	tau tave tavim tavimi tavy tavyje tavęs
+10	10	su	
+11	11	tas	ta tais tam tame tasai tie tiems to toje tomis toms tos tose tuo tuos tuose tą tų
+12	12	galėti	gali galim galima galimas galime galimų galintis galit galite galiu galėjai galėjau galėjo galėjome galės galėsi galėsim galėsime galėsite galėsiu galėtum galėtume galėtumėt galėtumėte galėtų galėčiau negali negalim negalima negalime negalite negaliu negalėjai negalėjau negalėjo negalėjome negalės negalėsiu negalėtų negalėčiau
+13	13	iš	iš
+14	14	ne	
+15	15	ji	ja jai jas jiedvi joje jomis joms jos jose ją jųdviejų
+16	16	taip	
+17	17	turėti	neturi neturime neturite neturiu neturėjau neturėjo neturėtų turi turim turima turimas turime turint turintis turit turite turiu turėdavo turėjai turėjau turėjo turėjom turėjome turėjote turėjęs turėk turės turėsi turėsim turėsime turėsite turėsiu turėtu turėtum turėtume turėtumėt turėtumėte turėtų turėčiau
+18	18	mes	many mudviejų mudviem mumis mums mumyse mus mūsų
+19	19	kuris	kuri kuria kuriai kuriais kuriam kuriame kurias kurie kuriems kurio kurioje kuriom kuriomis kurioms kurios kuriose kuriuo kuriuos kuriuose kurią kurių kurį kurį
+20	20	kaip	
+21	21	o	
+22	22	ar	
+23	23	jie	jais jiedu jiems juodu juos juose jų jųdviejų
+24	24	šis	šiuo ši šia šiai šiais šiam šiame šias šie šiems šio šioje šiomis šioms šios šiose šita šitai šitas šitoje šitomis šitoms šitos šitose šitą šitų šiuo šiuos šiuose šią šių šį
+25	25	visas	visa visais visam visame visasis visi visiems viso visoje visomis visoms visos visose visu visuose visus visų visą visų
+26	26	bet	
+27	27	jūs	judvi judviejų judviem jumis jums jumyse jus jūsų
+28	28	tik	
+29	29	savo	
+30	30	čia	čia
+31	31	apie	
+32	32	vienas	viena vienai vienais vienam viename vieni vieniems vieno vienoje vienomis vienoms vienos vienose vienu vienui vienuose vienus vieną vienų
+33	33	žmogus	žmonėms žmonės žmonių žmogau žmogaus žmogui žmoguje žmogumi žmogų žmones žmonių žmonėm žmonėmis žmonėms žmonės žmonėse
+34	34	nuo	
+35	35	gerai	geriau geriausiai
+36	36	labai	labiau labiausiai
+37	37	kitas	kita kitai kitais kitam kitame kiti kitiems kito kitoj kitoje kitom kitomis kitoms kitos kitose kitu kituose kitus kitų kitą kitų
+38	38	norėti	nenori nenorim nenorime nenorite nenoriu nenorėjau nenorėjo nori norim norima norime norint norintis norit norite noriu norėdamas norėdavo norėjai norėjau norėjo norėjom norėjome norėjot norėjote norėjęs norės norėsi norėsime norėsit norėsite norėsiu norėtum norėtume norėtumėt norėtumėte norėtų norėčiau tenori
+39	39	daug	daugiau daugiausia daugiausiai
+40	40	kai	
+41	41	dar	
+42	42	toks	tokia tokiai tokiais tokiam tokiame tokias tokie tokiems tokio tokioje tokiomis tokioms tokios tokiose tokiu tokiuose tokius tokių tokią tokių tokį
+43	43	dėl	dėl
+44	44	jau	
+45	45	per	
+46	46	mano	manas
+47	47	jei	
+48	48	žinoti	nežinai nežinau nežino nežinojau nežinome nežinoti težino žin žinai žinant žinau žino žinodamas žinojai žinojau žinojo žinojom žinojome žinojot žinojote žinojęs žinok žinokit žinokite žinome žinos žinosi žinosim žinosime žinosit žinosite žinosiu žinote žinotum žinotume žinotumėt žinotumėte žinotų žinočiau
+49	49	po	
+50	50	reikėti	nereikėjo nereikės nereikėtų reik reikdavo reiki reikia reikiant reiks reikti reiktų reikėdavo reikėjo reikės reikėtų tereikia
+51	51	metai	metais metams metuose metus metų metų
+52	52	sakyti	nesakyk sakai sakant sakau sakei sakiau sako sakom sakome sakot sakote sakydama sakydamas sakydami sakydavai sakydavau sakydavo sakyk sakykim sakykime sakykit sakykite sakys sakysi sakysim sakysime sakysit sakysite sakysiu sakytum sakytume sakytų sakyčiau sakė sakėm sakėme sakėt sakėte sakęs
+53	53	viskas	viskam viską visko viskuo viską
+54	54	už	už
+55	55	metas	metams mete meto metu metui metuose metą metų
+56	56	iki	
+57	57	kur	
+58	58	pats	pati patiem patiems paties patys patį pačia pačiai pačiais pačiame pačias pačioj pačioje pačiom pačiomis pačioms pačios pačiose pačiu pačiuose pačius pačią pačių
+59	59	didelis	didele dideles dideli dideliais didelio dideliu didelius didelių didelė didelės didelę didelį didesni didesnio didesnis didesnių didesnė didesnės didesnę didesnį didieji didžiausi didžiausia didžiausias didžiausio didžiausios didžiausią didžiausių didžioji didžiojo didžiojoje didžiosios didžiąją didžiųjų nedidelis nedidelė nedidelės nedidelę nedidelį
+60	60	pat	
+61	61	koks	kokia kokiai kokiais kokiam kokiame kokias kokie kokiems kokio kokioje kokiomis kokioms kokios kokiose kokiu kokiuose kokius kokią kokių kokį
+62	62	dabar	
+63	63	laikas	laikai laikais laikams laike laiko laiku laikui laikuose laikus laiką laikų
+64	64	geras	gera gerais geram gerasis geresne geresni geresnio geresnis geresniu geresnius geresnių geresnė geresnės geresnę geresnį geri geriausi geriausia geriausiais geriausiam geriausias geriausio geriausios geriausiu geriausius geriausią geriausių geriausiųjų gero geroji geros gerosios geru geruoju gerus gerą gerąja gerąją gerų
+65	65	darbas	darbai darbais darbams darban darbą darbe darbi darbo darbu darbui darbuose darbus darbų darbą darbų
+66	66	diena	dienai dienas dieną dienoje dienomis dienoms dienos dienose dieną dienų
+67	67	niekas	niekai niekais niekam niekame niekams nieke niekieno nieko nieks nieku niekui niekuo niekus nieką niekų
+68	68	pirmas	pirma pirmai pirmaisiais pirmajai pirmajam pirmajame pirmam pirmame pirmasis pirmi pirmiau pirmiausia pirmiausiai pirmieji pirmiems pirmiesiems pirmo pirmoje pirmoji pirmojo pirmojoje pirmomis pirmos pirmose pirmosiomis pirmosios pirmosiose pirmu pirmuoju pirmuose pirmuosius pirmus pirmą pirmąja pirmąją pirmąjį pirmąsias pirmų pirmųjų
+69	69	nes	
+70	70	tačiau	tačiau
+71	71	nors	
+72	72	prie	
+73	73	vieta	vietai vietas vietoje vietomis vietoms vietos vietose vietą vietų
+74	74	eiti	eidavau eidavo eidavom eidavome eik eikim eikime eikit eikite eime eina einam einama einame einantis einat einate eini einu einąs eis eisi eisim eisime eisit eisite eisiu eitum eitume eitumėt eitumėte eitų eičiau ėjai ėjau ėjo ėjom ėjome ėjęs
+75	75	naujas	nauja naujai naujais naujaisiais naujajam naujajame naujam naujame naujasis naujausi naujausia naujausiais naujausias naujausios naujausius naujausią naujausių nauji naujieji naujiems naujo naujoje naujoji naujojo naujojoje naujomis naujoms naujos naujosios nauju naujuoju naujuosius naujus naują naująja naująją naująjį naujų naujųjų
+76	76	bei	
+77	77	vaikas	vaikai vaikais vaikams vaike vaiki vaiko vaiku vaikui vaikuose vaikus vaikų vaiką vaikų
+78	78	tikrai	tikriau tikriausiai
+79	79	tavo	tavas
+80	80	daryti	darai darant darantis darau darei dariau darius daro darom daroma daromas darome darot darote darydama darydamas darydami darydavo daryk darykit darykite darys darysi darysim darysime darysit darysite darysiu darytas darytum darytumėte darytų daryčiau darė darėm darėme darėte daręs nedaryk
+81	81	prieš	prieš
+82	82	kartas	kartai kartams karto kartui kartus kartusis kartą kartūs kartų karčiai karčiais karčioji karčios karčiu karčius karčią karčių karčiųjų
+83	83	manyti	manai manant manantis manau manei maniau manom manome manot manote manydamas manydavai manydavau manydavo manyk manykim manykime manykit manykite manys manysi manysim manysime manysite manysiu manytum manytume manytumėt manytumėte manytų manyčiau manąs manė manėm manėme manėt manėte nemanau
+84	84	matyti	matai matant matau matei mato matom matome matosi matot matote matydama matydamas matydami matydavau matys matysi matysime matysite matysiu matyt matytas matytis matytum matytume matytų matytųsi matyčiau matė matėm matėme matėmės matėsi matėt matėte matęs mačiau mačius nematau nemačiau
+85	85	šalis	šali šaliai šalies šalimi šalimis šalims šaliu šalių šalyje šalys šalyse šalį
+86	86	suprasti	nesupranta nesupranti nesuprantu nesupratau supranta suprantam suprantama suprantamas suprantame suprantantis suprantat suprantate supranti suprantu supras suprasdamas suprasdami suprasi suprasime suprasite suprasiu suprask supraskit supraskite suprasta suprastas suprastum suprastume suprastumėte suprastų suprasčiau supratai supratau suprato supratom supratome supratot supratote supratęs
+87	87	du	dvi dviejose dviejuose dviejų dviem
+88	88	ten	
+89	89	nei	
+90	90	tiek	
+91	91	net	
+92	92	pasakyti	pasakai pasakant pasakau pasakei pasakiau pasakius pasako pasakom pasakome pasakot pasakote pasakydamas pasakydavo pasakyk pasakykim pasakykime pasakykit pasakykite pasakys pasakysi pasakysim pasakysime pasakysit pasakysite pasakysiu pasakyta pasakytas pasakytum pasakytume pasakytumėt pasakytumėte pasakytų pasakyčiau pasakė pasakėm pasakėme pasakėt pasakėte pasakęs
+93	93	miestas	miestai miestais miestams mieste miesto miestu miestui miestuose miestus miestą miestų
+94	94	ant	
+95	95	be	
+96	96	namas	namai namais namams name namu namui namuose namus namą namų
+97	97	arba	
+98	98	vis	
+99	99	kodėl	
+100	100	padaryti	padarai padarant padarau padarei padariau padarius padaro padarom padaromas padarome padarot padarydamas padarydavo padaryk padarykim padarykime padarykit padarykite padarys padarysi padarysim padarysime padarysit padarysite padarysiu padaryta padarytas padarytum padarytume padarytumėt padarytumėte padarytų padaryčiau padarė padarėm padarėme padarėt padarėte padaręs

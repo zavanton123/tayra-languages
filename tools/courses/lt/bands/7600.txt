@@ -1,0 +1,100 @@
+1	7501	praturtinti	praturtina praturtino praturtins praturtinsite praturtintų
+2	7502	talpinti	talpina
+3	7503	įkrauti	įkrovė
+4	7504	sukimasis	sukimosi sukimąsi
+5	7505	invalidas	invalidai invalidais invalidams invalido invalidų
+6	7506	pokylis	pokyliai pokylio pokyliui pokylius pokylių pokylyje pokylį
+7	7507	pinti	pina pinki pins pinsiu pintų pynė pynę
+8	7508	sušis	suši sušiai sušiams sušio sušius sušių sušį
+9	7509	duoklė	duoklės duoklę
+10	7510	romus	romų
+11	7511	imituoti	imitavo imituodavo imituoja
+12	7512	žadintuvas	žadintuvo žadintuvui žadintuvą
+13	7513	pasiaiškinti	pasiaiškino
+14	7514	keiktis	keikiasi keikėsi
+15	7515	šnipinėjimas	šnipinėjimo šnipinėjimu šnipinėjimui šnipinėjimą
+16	7516	varža	varžai varžo varžos varžą
+17	7517	įžanga	įžangoje įžangos įžangą
+18	7518	likvidavimas	likvidavimo likvidavimui likvidavimą
+19	7519	atkartoti	atkartoja atkartojo atkartotų
+20	7520	pionierius	pionieriai pionieriumi pionierių
+21	7521	vainikuoti	vainikavo vainikuoja vainikuos
+22	7522	tingus	tingi tingiai tingios tingių tingūs tingų
+23	7523	kepykla	kepyklai kepyklas kepykloje kepyklos kepyklose kepyklą kepyklų
+24	7524	skerdynės	skerdynes skerdynių skerdynėmis
+25	7525	litis	ličiai ličio
+26	7526	uoliena	uolienas uolienos uolieną uolienų
+27	7527	neviršyti	neviršija
+28	7528	arbūzas	arbūzai arbūzais arbūzams arbūzo arbūzu arbūzui arbūzus arbūzą arbūzų
+29	7529	sujungimas	sujungimo sujungimui sujungimą
+30	7530	geranoriškas	geranoriška geranoriškai geranoriški geranoriško geranoriškos geranorišku geranoriškų
+31	7531	blokada	blokadai blokadas blokados blokadą blokadų
+32	7532	skolininkas	skolininkai skolininkams skolininko skolininkui skolininkus skolininką skolininkų
+33	7533	kabinti	kabino
+34	7534	nukrypimas	nukrypimai nukrypimais nukrypimo nukrypimus nukrypimą nukrypimų
+35	7535	pasisiūlyti	pasisiūliau pasisiūlo pasisiūlys pasisiūlė
+36	7536	išanalizuoti	išanalizavo išanalizavome išanalizuoja išanalizuokite išanalizuos išanalizuotų
+37	7537	aukštaitis	aukštaitė aukštaičiai aukštaičiais aukštaičiams aukštaičio aukštaičių
+38	7538	opus	opi opias opiausia opiausias opiausių opios opiu opią
+39	7539	trapas	trapo trapu trapus trapų
+40	7540	nereikšmingas	nereikšminga nereikšmingi nereikšmingos nereikšmingus nereikšmingą nereikšmingų
+41	7541	ištremtas	ištremta ištremtos
+42	7542	pasipelnyti	pasipelnė
+43	7543	sėja	sėjos sėją
+44	7544	vyti	veju vijau vyk vykime vykit vykite vytas
+45	7545	atsikraustyti	atsikrausto atsikraustė atsikraustėme atsikrausčiau
+46	7546	dzūkas	dzūkai dzūkais dzūkams dzūko dzūkų
+47	7547	tvarumas	tvarumo tvarumu tvarumui tvarumą
+48	7548	konfigūracija	konfigūracijas konfigūracijomis konfigūracijos konfigūraciją konfigūracijų
+49	7549	akustinis	akustiniai akustiniais akustinio akustinius akustinių akustinė akustinės akustinę akustinį
+50	7550	skinti	skina skinant skindamas skindavo skini skins skintume skintų skyniau skynė skynėme
+51	7551	pavydus	pavydu pavydui pavydų pavydžios pavydžiu
+52	7552	sultingas	sultinga sultingais sultingi sultingos sultingus sultingą
+53	7553	supykęs	supykus supykusi supykę
+54	7554	susipykti	susipykau susipyko susipykome susipykote susipyksta
+55	7555	žvirblis	žvirbli žvirbliai žvirblio žvirbliu žvirblius žvirblių žvirblį
+56	7556	tramvajus	tramvajaus tramvajui tramvajuje tramvajumi tramvajuose tramvajų
+57	7557	blaškytis	blaškausi blaškiausi blaškomės blaškosi blaškėsi
+58	7558	mentė	mente mentes mentės mentę mentų menčių
+59	7559	kuponas	kuponais kupono kuponus kuponą kuponų
+60	7560	moliuskas	moliuskai moliuskais moliuskus moliuskų
+61	7561	nepajėgus	nepajėgi nepajėgia nepajėgiau nepajėgios nepajėgiu nepajėgūs
+62	7562	pamatinis	pamatines pamatiniai pamatinio pamatinių pamatinė pamatinės pamatinį
+63	7563	atsigręžti	atsigręš atsigręžia atsigręžiame atsigręžk atsigręžtų atsigręžė
+64	7564	brutalus	brutalaus brutali brutalia brutaliai brutalios brutaliu brutalius brutalią brutalių brutalūs brutalų
+65	7565	kloti	kloja klojo klokite
+66	7566	molas	molo molą molų
+67	7567	rezervuaras	rezervuarai rezervuare rezervuaro rezervuarus rezervuarą rezervuarų
+68	7568	luomas	luomai luomo luomu luomui luomus luomą luomų
+69	7569	ledynas	ledynai ledyno ledynus ledyną ledynų
+70	7570	įtempti	įtempk įtemptų
+71	7571	skurdus	skurdesnis skurdesnių skurdesnė skurdi skurdu skurdžiame skurdžiausi skurdžiausia skurdžiausiai skurdžiausių
+72	7572	ūminis	ūminio ūminių ūminė ūminėmis ūminės ūminį
+73	7573	pergalingas	pergalingai pergalingo pergalingą pergalingų
+74	7574	apgyvendintas	apgyvendinta apgyvendintame apgyvendintoje apgyvendintos apgyvendintose apgyvendintuose apgyvendintą
+75	7575	patobulinimas	patobulinimai patobulinimus patobulinimų
+76	7576	susikauti	susikaus susikovė
+77	7577	gardinti	gardina gardinkite gardino
+78	7578	besąlygiškas	besąlygiška besąlygiškai besąlygiško besąlygiškos besąlygišką
+79	7579	neilgas	neilga neilgam neilgą
+80	7580	restauruoti	restauravo restauruoja
+81	7581	kreditorius	kreditoriai kreditoriais kreditoriams kreditoriui kreditorių
+82	7582	pavergti	pavergia pavergs pavergtų pavergė
+83	7583	nutukimas	nutukimo nutukimu nutukimui nutukimą
+84	7584	persigalvoti	persigalvoja persigalvojo persigalvos persigalvotų
+85	7585	kritęs	kritus kritusi kritusio kritusios kritusius kritusią kritusių kritusį kritę
+86	7586	civilizuotas	civilizuota civilizuotai civilizuotais civilizuotam civilizuoti civilizuoto civilizuotomis civilizuotos civilizuotą civilizuotų
+87	7587	stulpelis	stulpeliai stulpelio stulpelius stulpelių
+88	7588	pasiturintis	pasiturinti pasiturintieji pasiturintiems pasiturintys pasiturinčios pasiturinčių
+89	7589	blusa	blusas blusoms blusos blusų
+90	7590	spiralė	spirale spiralių spiralės spiralę
+91	7591	netvarkingas	netvarkinga netvarkingame netvarkingi netvarkingo netvarkingos netvarkinguose netvarkingus netvarkingą netvarkingų
+92	7592	užsitarnauti	užsitarnauja užsitarnavo
+93	7593	mamutas	mamutai mamutais mamute mamuto mamutu mamutui mamutus mamutą mamutų
+94	7594	kąsnis	kąsniais kąsnio kąsniu kąsnį
+95	7595	reglamentuoti	reglamentavo reglamentuoja reglamentuotų
+96	7596	fleita	fleitai fleitos
+97	7597	etiketas	etikete etiketo etiketu etiketą
+98	7598	melsvas	melsva melsvai melsvi melsvos melsvą
+99	7599	pasipuošti	pasipuoš pasipuošia pasipuošiau pasipuoškite pasipuošė
+100	7600	ryškumas	ryškumo ryškumą

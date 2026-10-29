@@ -1,0 +1,100 @@
+1	3701	serveris	serveriai serveriais serveriams serverio serveriu serveriuose serverius serverių serveryje serverį
+2	3702	pakliūti	paklius pakliuvau pakliuvo pakliuvome pakliūdavo pakliūna pakliūsi pakliūtų pakliūva
+3	3703	akivaizdžiai	akivaizdžiai
+4	3704	antis	anti anties antimi antims antys antį ančių
+5	3705	kalėdinis	kalėdine kalėdinei kalėdines kalėdiniai kalėdiniais kalėdinio kalėdiniu kalėdinius kalėdinių kalėdinė kalėdinėje kalėdinėmis kalėdinės kalėdinę kalėdinį
+6	3706	humanitarinis	humanitarine humanitarinei humanitarines humanitariniai humanitariniais humanitariniams humanitarinio humanitariniu humanitariniuose humanitarinius humanitarinių humanitarinė humanitarinėms humanitarinės humanitarinę humanitarinį
+7	3707	poelgis	poelgiai poelgiais poelgio poelgiu poelgiui poelgius poelgių poelgį
+8	3708	jūrinis	jūrine jūriniai jūriniam jūriniame jūriniams jūrinio jūriniu jūriniuose jūrinius jūrinių jūrinė jūrinėmis jūrinės jūrinę jūrinį
+9	3709	prižiūrėtoja	prižiūrėtojai prižiūrėtojais prižiūrėtojams prižiūrėtojas prižiūrėtojo prižiūrėtojos prižiūrėtoju prižiūrėtojui prižiūrėtojus prižiūrėtoją prižiūrėtojų
+10	3710	masažas	masažai masažais masažo masažu masažui masažus masažą masažų
+11	3711	pažaisti	pažaidžia pažaiskime pažaiskite
+12	3712	mažinimas	mažinimai mažinimo mažinimu mažinimui mažinimą
+13	3713	gražinti	gražina gražinai gražinamas gražinau gražink gražinkim gražinkime gražinkite gražino gražinote gražins gražinsi gražinsim gražinsime gražinsiu gražintas gražintum gražintume gražintų gražinu gražinęs
+14	3714	perėja	perėjas perėjoje perėjomis perėjos perėjose perėją perėjų
+15	3715	negalia	negalias negalią
+16	3716	pažinimas	pažinimo pažinimu pažinimui pažinimą
+17	3717	skrybėlė	skrybėle skrybėlei skrybėles skrybėlių skrybėlėje skrybėlės skrybėlę
+18	3718	trauka	traukos
+19	3719	požeminis	požemines požeminiai požeminiame požeminio požeminiu požeminius požeminių požeminė požeminėje požeminės požeminėse požeminę požeminį
+20	3720	iškyla	iškylai iškylas iškyloje iškyloms iškylos iškylą iškylų
+21	3721	pagalvė	pagalve pagalves pagalvių pagalvėmis pagalvės pagalvę
+22	3722	klausytojas	klausytoja klausytojai klausytojais klausytojams klausytojau klausytojo klausytoju klausytojui klausytojus klausytoją klausytojų
+23	3723	pasitarimas	pasitarimai pasitarime pasitarimo pasitarimui pasitarimuose pasitarimus pasitarimą pasitarimų
+24	3724	abiturientas	abiturientai abiturientams abituriente abituriento abiturientu abiturientui abiturientus abiturientą abiturientė abiturientų
+25	3725	susiformuoti	susiformavo susiformuoja susiformuos susiformuotų
+26	3726	colis	coli coliai coliais colio coliu coliui colius colių colyje colį
+27	3727	nedalyvauti	nedalyvaudavo nedalyvauja nedalyvaujame nedalyvauju nedalyvaus nedalyvausime nedalyvausiu nedalyvautų nedalyvaučiau nedalyvavau nedalyvavo
+28	3728	plikas	plika plikai plike pliki pliko plikomis plikos pliku plikus pliką plikų
+29	3729	ekonomistas	ekonomistai ekonomistais ekonomistams ekonomiste ekonomisto ekonomistu ekonomistui ekonomistus ekonomistą ekonomistė ekonomistų
+30	3730	paklausa	paklausos paklausą
+31	3731	poliklinika	poliklinikas poliklinikoje poliklinikos poliklinikose polikliniką poliklinikų
+32	3732	tešla	tešlai tešloje tešlos tešlą
+33	3733	turkas	turkai turkais turkams turko turku turkui turkus turkų
+34	3734	veiksmingas	veiksminga veiksmingai veiksmingam veiksmingesni veiksmingesnis veiksmingesnių veiksmingesnė veiksmingesnės veiksmingi veiksmingiau veiksmingiausia veiksmingiausiai veiksmingiausias veiksmingiausios veiksmingiausią veiksmingiausių veiksmingo veiksmingos veiksmingu veiksmingus veiksmingą veiksmingų
+35	3735	liudytojas	liudytoja liudytojai liudytojais liudytojams liudytojo liudytojos liudytoju liudytojui liudytojus liudytoją liudytojų
+36	3736	alka	alkos
+37	3737	laiptinė	laiptine laiptines laiptinių laiptinėje laiptinėms laiptinės laiptinėse laiptinę
+38	3738	lotynas	lotynų
+39	3739	maras	marai maro marui marą
+40	3740	pamišęs	pamišusi pamišusios pamišę
+41	3741	surinkimas	surinkimo surinkimu surinkimui surinkimą
+42	3742	laida	
+43	3743	rusiškas	rusiška rusiškais rusiški rusiško rusiškoje rusiškos rusišku rusiškus rusišką rusiškų
+44	3744	suvaržymas	suvaržymai suvaržymais suvaržymams suvaržymo suvaržymus suvaržymą suvaržymų
+45	3745	kritikuoti	kritikavo kritikuoja kritikuojame kritikuoju kritikuos
+46	3746	nesąžiningas	nesąžininga nesąžiningai nesąžiningais nesąžiningi nesąžiningo nesąžiningu nesąžiningus nesąžiningą nesąžiningų
+47	3747	valgomas	valgoma valgomajam valgomajame valgomasis valgomi valgomieji valgomo valgomoji valgomojo valgomos valgomosios valgomuoju valgomuosius valgomus valgomą valgomąjį valgomų valgomųjų
+48	3748	užjausti	užjaus užjausk užjauti užjaučia užjaučiam užjaučiame užjaučiantis užjaučiantys užjaučiat užjaučiu
+49	3749	delta	deltoje deltos deltą
+50	3750	iliuzija	iliuzijai iliuzijas iliuzijomis iliuzijos iliuzijose iliuziją iliuzijų
+51	3751	neramus	neramaus nerami neramia neramiais neramiame neramiausių neramioje neramios neramiu neramiuose neramius neramią neramių neramu neramūs
+52	3752	kaunietis	kaunietė kaunietį kauniečiai kauniečiais kauniečiams kauniečio kauniečiui kauniečius kauniečių
+53	3753	žavus	žavaus žavia žaviai žaviajai žavias žaviau žaviausi žaviausia žaviausias žaviausių žavioji žaviomis žavios žaviu žavią žaviąją žavių žavu žavusis žavūs žavų
+54	3754	paimtas	paimta paimtais paimto paimtos paimtuose paimtus paimtą
+55	3755	viskis	viski viskio viskiu viskiui viskyje viskį
+56	3756	žibintas	žibintai žibintais žibintams žibinte žibinto žibintu žibintus žibintą žibintų
+57	3757	muitinė	muitinei muitinių muitinėje muitinės muitinę
+58	3758	lūžis	lūži lūžiai lūžiais lūžio lūžiu lūžius lūžių lūžį
+59	3759	rangyti	rango
+60	3760	epizodas	epizodai epizodais epizode epizodo epizodu epizoduose epizodus epizodą epizodų
+61	3761	kibernetinis	kibernetines kibernetiniai kibernetiniam kibernetiniams kibernetinio kibernetiniu kibernetinius kibernetinių kibernetinė kibernetinėje kibernetinėmis kibernetinėms kibernetinės kibernetinę kibernetinį
+62	3762	pasprukti	paspruko pasprunka
+63	3763	golfas	golfe golfo golfu golfui golfą
+64	3764	molis	moli molio moliu moliui molį
+65	3765	kariškis	kariškiai kariškiais kariškiams kariškio kariškiu kariškiui kariškius kariškių kariškį
+66	3766	auditorija	auditorijai auditorijas auditorijoje auditorijomis auditorijos auditorijose auditoriją
+67	3767	maitinti	maitina maitiname maitinate maitinau maitindavo maitino maitins maitintų maitinu
+68	3768	potvynis	potvyniai potvyniams potvynio potvyniu potvyniui potvynius potvynių potvynį
+69	3769	ignoruoti	ignoravau ignoravo ignoruoja ignoruojame ignoruojate ignoruokite ignoruos ignoruosime ignoruotų
+70	3770	reguliuoti	reguliavo reguliuoja reguliuos
+71	3771	antspaudas	antspaudai antspaudais antspaudo antspaudu antspaudus antspaudą antspaudų
+72	3772	kasmetinis	kasmetine kasmetines kasmetiniai kasmetiniam kasmetiniame kasmetinio kasmetiniuose kasmetinių kasmetinė kasmetinėje kasmetinės kasmetinę kasmetinį
+73	3773	kasykla	kasyklas kasykloje kasyklos kasyklose kasyklą kasyklų
+74	3774	rašymas	rašymo rašymu rašymui rašymą
+75	3775	ekologinis	ekologine ekologinei ekologines ekologiniai ekologiniais ekologiniam ekologiniame ekologiniams ekologinio ekologiniu ekologiniuose ekologinius ekologinių ekologinį ekologinė ekologinėje ekologinėmis ekologinės ekologinę ekologinį
+76	3776	apkabinti	apkabina apkabinai apkabiname apkabinau apkabindamas apkabindavau apkabindavo apkabini apkabink apkabinkim apkabinkime apkabinkit apkabinkite apkabino apkabins apkabinsi apkabinsit apkabinsiu apkabintum apkabintų apkabinu apkabinčiau apkabinęs
+77	3777	septyneri	septyneriems septynerius septynerių
+78	3778	metodika	metodikas metodikoje metodikomis metodikos metodiką metodikų
+79	3779	pušis	pušies pušimis pušys pušų
+80	3780	sumušti	sumuš sumuša sumuštų sumušė
+81	3781	detalus	detalaus detalesnio detalesnius detalesnių detalesnė detalesnės detalesnę detalesnį detali detaliai detaliajame detaliam detalias detaliau detalieji detaliojo detalios detaliuoju detaliuosius detalius detalią detaliųjų detalusis detalūs detalųjį
+82	3782	prieglobstis	prieglobstyje prieglobstį prieglobsčio prieglobsčiu prieglobsčiui
+83	3783	kantrus	kantresni kantresnė kantri kantriai kantriam kantriausi kantriems kantrios kantrusis kantrūs
+84	3784	sfera	sferas sferoje sferoms sferos sferose sferą sferų
+85	3785	priskirti	priskiria priskiriate priskiriu priskirs priskirtų priskirčiau priskyrė
+86	3786	absoliučiai	
+87	3787	šnipas	šnipai šnipais šnipams šnipo šnipu šnipus šnipą šnipų
+88	3788	kukurūzas	kukurūzai kukurūzais kukurūzams kukurūzo kukurūzus kukurūzų
+89	3789	palaidotas	palaidota palaidotos palaidotus
+90	3790	dramblys	drambliai drambliais drambliams dramblio drambliu dramblius dramblių drambly dramblį
+91	3791	rudas	rudai rudais rudasis rudieji rudo rudoje rudoji rudojo rudos rudosios rudu rudui ruduoju ruduosius rudus rudą rudąją rudąjį rudųjų
+92	3792	pelkė	pelkes pelkių pelkėje pelkės pelkėse pelkę
+93	3793	medvilnė	medvilne medvilnės medvilnę
+94	3794	šikna	šiknas šiknoje šiknos šikną šiknų
+95	3795	vaikiškas	vaikiška vaikiškai vaikiškais vaikiški vaikiško vaikiškoje vaikiškos vaikišku vaikiškus vaikišką vaikiškų
+96	3796	išvakarės	išvakares išvakarių išvakarėse
+97	3797	pūsti	puti pučia pučiu pūs pūsite pūsk pūtė pūčiau
+98	3798	pristatomas	pristatoma pristatomi pristatomo pristatomos pristatomus pristatomą pristatomų
+99	3799	paneigti	paneigia paneigs paneigtų paneigė
+100	3800	išsilaikyti	išsilaikiau išsilaiko išsilaikydavo išsilaikys išsilaikytų išsilaikė

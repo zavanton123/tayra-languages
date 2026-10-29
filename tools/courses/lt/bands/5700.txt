@@ -1,0 +1,100 @@
+1	5601	šikšnosparnis	šikšnosparniai šikšnosparniais šikšnosparnio šikšnosparniu šikšnosparnius šikšnosparnių šikšnosparnį
+2	5602	pasiūla	pasiūlos pasiūlą
+3	5603	užaugęs	užaugus užaugusi užaugusios užaugusius užaugusių užaugę
+4	5604	įtikinamas	įtikinama įtikinamai įtikinami įtikinamos įtikinamus įtikinamą įtikinamų
+5	5605	apsvaigęs	apsvaigus apsvaigusi apsvaigusiam apsvaigusios apsvaigusių apsvaigusį apsvaigę
+6	5606	vaškas	vaško vašku vaškui vaškus vašką vaškų
+7	5607	puota	puotai puotoje puotos puotą puotų
+8	5608	dinozauras	dinozaurai dinozaurais dinozauro dinozauru dinozaurus dinozaurų
+9	5609	paguldytas	paguldyta paguldytos
+10	5610	mėtyti	mėto mėtys mėtė
+11	5611	panorėti	panorėjo panorės panorėsi panorėsite panorėsiu panorėtų
+12	5612	kontrolierius	kontrolieriai kontrolieriams kontrolieriaus kontrolieriui kontrolieriumi kontrolierių
+13	5613	neatvykti	neatvykdavo neatvyko neatvyks neatvyksta
+14	5614	keleivinis	keleiviniai keleiviniam keleiviniams keleivinio keleivinius keleivinių keleivinė keleivinį
+15	5615	svyravimas	svyravimai svyravimais svyravimams svyravimo svyravimu svyravimus svyravimą svyravimų
+16	5616	sekėjas	sekėjų sekėjai sekėjais sekėjams sekėjus sekėjų
+17	5617	retorika	retorikoje retorikos retoriką
+18	5618	suvenyras	suvenyrai suvenyrais suvenyrams suvenyro suvenyru suvenyrus suvenyrą suvenyrų
+19	5619	tvirtinimas	tvirtinimai tvirtinimo tvirtinimu tvirtinimui tvirtinimus tvirtinimą
+20	5620	griebtis	griebiamės griebiasi griebiatės griebiausi griebsis griebėsi
+21	5621	tolygus	tolygi tolygiai tolygiau tolygios tolygu tolygūs tolygų
+22	5622	slavas	slavai slavo slavą slavų
+23	5623	antstolis	antstoli antstoliai antstoliais antstoliams antstolio antstoliui antstolius antstolių antstolį
+24	5624	meilužis	meilužiai meilužiais meilužio meilužiu meilužiui meilužį
+25	5625	didmiestis	didmiestyje didmiestį didmiesčiai didmiesčiams didmiesčio didmiesčiui didmiesčiuose didmiesčius didmiesčių
+26	5626	fermentas	fermentai fermentais fermento fermentus fermentą fermentų
+27	5627	išleidimas	išleidimo išleidimą
+28	5628	pridėtinis	pridėtinė pridėtinės pridėtinę
+29	5629	granitas	granito granitu granitą
+30	5630	santvarka	santvarkai santvarkoje santvarkos santvarką
+31	5631	antakis	antakiai antakiais antakio antakius antakių antakyje antakį
+32	5632	informavimas	informavimo informavimu informavimui informavimą
+33	5633	kraujavimas	kraujavimo kraujavimą
+34	5634	persas	persai persais persams perse perso persui persus persų
+35	5635	kvailė	
+36	5636	atsiskleisti	atsiskleidė atsiskleidžia atsiskleis atsiskleistų
+37	5637	gintis	ginsimės ginsis gyniausi gynėmės
+38	5638	sintetinis	sintetines sintetiniai sintetiniais sintetinio sintetinius sintetinių sintetinė sintetinėmis sintetinės sintetinę sintetinį
+39	5639	užstatas	užstatu užstatui užstatus užstatą užstatų
+40	5640	ašmenys	ašmenimis ašmenis ašmenų ašmuo
+41	5641	išplaukti	išplaukdavo išplaukia išplauks
+42	5642	varnas	varne varno varnu varnus
+43	5643	nupjautas	nupjauta nupjauti nupjauto nupjautos nupjautų
+44	5644	susituokęs	susituokus susituokusi susituokusiems susituokusios susituokusių susituokę
+45	5645	kateris	kateriai kateriais katerio kateriu katerius katerių kateryje katerį
+46	5646	cinkas	cinko cinku cinką
+47	5647	metodinis	metodinio metodinių metodinė metodinės metodinę
+48	5648	evangelija	evangelijoje evangelijos evangelijose evangeliją evangelijų
+49	5649	stilingas	stilinga stilingai stilingais stilingi stilingiausios stilingiausią stilingiausių stilingo stilingos stilingu stilingus stilingą stilingų
+50	5650	siųstuvas	siųstuvai siųstuvais siųstuvo siųstuvus siųstuvą siųstuvų
+51	5651	tarakonas	tarakonai tarakonais tarakonams tarakono tarakonus tarakoną tarakonų
+52	5652	suskirstyti	suskirstytų suskirstė suskirstėme
+53	5653	atsidavimas	atsidavimo atsidavimu atsidavimą
+54	5654	įdomiai	įdomiau įdomiausiai
+55	5655	kosmetika	kosmetikai kosmetikoje kosmetikos kosmetiką
+56	5656	egzempliorius	egzemplioriai egzemplioriais egzemplioriaus egzempliorių
+57	5657	šunelis	šuneli šuneliai šunelio šuneliu šuneliui šunelius šunelių
+58	5658	nuobauda	nuobaudas nuobaudomis nuobaudos nuobaudą nuobaudų
+59	5659	matymas	matymo matymu matymą
+60	5660	pateisinti	pateisina pateisino pateisins pateisintų pateisinu
+61	5661	atkeršyti	atkeršijo atkeršys
+62	5662	chanas	chanai chano chanu chanui chaną chanų
+63	5663	įregistruotas	įregistruota įregistruotame įregistruotos įregistruotą
+64	5664	matuojamas	matuojama matuojami matuojamos
+65	5665	meditacija	meditacijai meditacijas meditacijos meditaciją meditacijų
+66	5666	magnetas	magnetai magnetais magneto magnetu magnetą magnetų
+67	5667	mažėjimas	mažėjimo mažėjimu mažėjimui mažėjimą
+68	5668	praleistas	praleista praleisto praleistos praleistu praleistus praleistą
+69	5669	grobis	grobio grobį
+70	5670	smirdėti	smirda smirdi smirdėjo
+71	5671	raginimas	raginimai raginimais raginimams raginimo raginimu raginimui raginimus raginimą raginimų
+72	5672	lesbietė	lesbiete lesbietes lesbietėmis lesbietės lesbietę lesbiečių
+73	5673	vakarieniauti	vakarieniaudamas vakarieniauja vakarieniaujam vakarieniaujame vakarieniaujant vakarieniaujate vakarieniauji vakarieniauju vakarieniauk vakarieniaukim vakarieniaukime vakarieniaukit vakarieniaus vakarieniausi vakarieniausim vakarieniausime vakarieniausite vakarieniausiu vakarieniavai vakarieniavau vakarieniavo vakarieniavom vakarieniavome vakarieniavote vakarieniavęs
+74	5674	infliacija	infliacijai infliacijos infliaciją
+75	5675	lemtis	lemties lemtimi lemtį
+76	5676	našumas	našumo našumu našumą
+77	5677	diegti	diegia diegiama diegiamas diegiame diegiant diegė
+78	5678	atmestas	atmesta atmestos
+79	5679	katalikiškas	katalikiška katalikiško katalikiškoje katalikiškojo katalikiškos katalikiškosios katalikišką katalikiškų
+80	5680	atplaukti	atplaukdavo atplaukia atplauks atplaukė
+81	5681	varginti	vargina vargino vargins
+82	5682	prabilti	prabilo prabils prabiltų prabyla
+83	5683	pasikartoti	pasikartoja pasikartojo pasikartos pasikartosiu pasikartotų
+84	5684	atributas	atributai atributais atributo atributu atributus atributą atributų
+85	5685	suėmimas	suėmimai suėmime suėmimo suėmimui suėmimą suėmimų
+86	5686	tiltelis	tilteliai tiltelio tilteliu tiltelius tiltelių tiltelį
+87	5687	įsiminti	įsimena įsimenu įsiminiau įsiminkite įsimins įsimintų įsiminė
+88	5688	prekybinis	prekybines prekybiniai prekybiniame prekybinio prekybinius prekybinių prekybinė prekybinės prekybinę prekybinį
+89	5689	žolelė	žoleles žolelių žolelėmis žolelėms žolelės
+90	5690	skėtis	skėtyje skėtį skėčiai skėčiais skėčio skėčiu skėčius skėčių
+91	5691	palaimintas	palaiminta palaimintasis palaimintojo palaimintos palaimintuoju
+92	5692	irklavimas	irklavimo irklavimą
+93	5693	baronas	baronai baronams barone baroniene baronienei baronienė baronienės baronienę barono baronu baronui baronus baroną baronų
+94	5694	supykti	supykau supyko supyks supyksta supyktų
+95	5695	dvejetas	dvejetai dvejetais dvejete dvejeto dvejetu dvejetui dvejetus dvejetą dvejetų
+96	5696	matuoklis	matuokliai matuokliais matuoklio matuokliu matuoklius matuoklį
+97	5697	repertuaras	repertuare repertuaro repertuaru repertuarą
+98	5698	spaustuvė	spaustuvėje spaustuvės spaustuvę
+99	5699	atsiųstas	atsiųsta atsiųstais atsiųstame atsiųsto atsiųstoje atsiųstos atsiųstu atsiųstuose atsiųstus atsiųstą
+100	5700	elfas	elfai elfų

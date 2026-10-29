@@ -1,0 +1,100 @@
+1	2401	išvalyti	išvalai išvalant išvalau išvalei išvaliau išvalius išvalo išvalom išvalomas išvalome išvalydavo išvalyk išvalykime išvalykit išvalykite išvalys išvalysi išvalysime išvalysit išvalysite išvalysiu išvalyta išvalytas išvalytume išvalytų išvalyčiau išvalė išvalėm
+2	2402	inžinierius	inžinieriai inžinieriais inžinieriams inžinieriau inžinieriaus inžinieriui inžinieriumi inžinierių inžinierė
+3	2403	nerimauti	nerimauja nerimaujame nerimaujate nerimauji nerimauju nerimavau nerimavo nerimavome
+4	2404	pristatymas	pristatymai pristatymais pristatymams pristatyme pristatymo pristatymu pristatymui pristatymuose pristatymus pristatymą pristatymų
+5	2405	užeiti	užeidavo užeikite užeina užeini užeinu užeis užeitų užėjau užėjo užėjome
+6	2406	šiąnakt	
+7	2407	nuobodus	nuobodaus nuobodesnis nuobodesnė nuobodi nuobodu nuobodūs nuobodų nuobodžiai nuobodžiais nuobodžiame nuobodžias nuobodžiau nuobodžiausia nuobodžiausias nuobodžios nuobodžiu nuobodžius nuobodžią nuobodžių
+8	2408	saugotis	saugojosi saugokis saugokitės
+9	2409	linkėti	linki linkim linkime linkint linkintis linkite linkiu linkėdamas linkėjau linkėjo linkėjot linkėčiau
+10	2410	kunigaikštis	kunigaikšti kunigaikštį kunigaikščiai kunigaikščiais kunigaikščiams kunigaikščio kunigaikščiu kunigaikščiui kunigaikščius kunigaikščių
+11	2411	imperija	imperijai imperijas imperijoje imperijos imperiją imperijų
+12	2412	kvalifikacija	kvalifikacijai kvalifikacijas kvalifikacijoje kvalifikacijos kvalifikaciją kvalifikacijų
+13	2413	salotas	salotomis salotoms salotos salotose salotų
+14	2414	atvežti	atveš atvešime atveža atvežame atveždavo atvežiau atvežtų atvežu atvežė atvežėme
+15	2415	kodeksas	kodeksai kodekse kodekso kodeksu kodeksui kodeksą
+16	2416	dėstyti	dėstai dėstant dėstantis dėstau dėsto dėstomas dėstote dėstydamas dėstyk dėstykite dėstys dėstė dėstėte dėstęs dėsčiau
+17	2417	nelaimingas	nelaiminga nelaimingai nelaimingais nelaimingasis nelaimingi nelaimingiausi nelaimingiems nelaimingo nelaimingos nelaimingu nelaimingus nelaimingą nelaimingų
+18	2418	protokolas	protokolai protokolais protokolams protokole protokolo protokolu protokolui protokoluose protokolus protokolą protokolų
+19	2419	štabas	štabai štabe štabo štabu štabui štabą štabų
+20	2420	tiekėjas	tiekėjai tiekėjais tiekėjams tiekėjo tiekėju tiekėjui tiekėjus tiekėją tiekėjų
+21	2421	pridėti	prideda pridedame pridedi pridedu pridėjau pridėjo pridėjome pridėk pridėkime pridėkite pridės pridėsi pridėsime pridėsite pridėsiu pridėtume pridėtų pridėčiau
+22	2422	žvejyba	žvejybai žvejyboje žvejybos žvejybą
+23	2423	veltui	
+24	2424	dovanoti	dovanodamas dovanodavo dovanoja dovanojai dovanojamas dovanojame dovanojant dovanojau dovanoji dovanojo dovanojom dovanojot dovanoju dovanojus dovanojęs dovanok dovanokime dovanokit dovanokite dovanos dovanosim dovanosime dovanosiu dovanota dovanotais dovanotam dovanotas dovanotos dovanotu dovanotus dovanotą dovanotų dovanočiau
+25	2425	atpažinti	atpažinau atpažindavo atpažino atpažinote atpažins atpažinsite atpažintų atpažįsta atpažįstame atpažįstate atpažįsti atpažįstu
+26	2426	persikelti	persikelia persikelkime persikels persikeltų persikėliau persikėlė persikėlėme
+27	2427	vergas	vergai vergais vergams verge vergo vergu vergui vergus vergą vergė vergės vergų
+28	2428	dirbtuvė	dirbtuvei dirbtuves dirbtuvių dirbtuvėje dirbtuvėmis dirbtuvėms dirbtuvės dirbtuvėse dirbtuvę
+29	2429	liudininkas	liudininkai liudininkais liudininkams liudininke liudininko liudininku liudininkui liudininkus liudininką liudininkė liudininkų
+30	2430	senamiestis	senamiestyje senamiestį senamiesčio senamiesčiu senamiesčiui senamiesčių
+31	2431	suimti	suima suimk suimkite suims suimtų suėmė
+32	2432	tabletė	tabletes tabletėmis tabletės tabletę tablečių
+33	2433	kvietimas	kvietimai kvietimais kvietimams kvietime kvietimo kvietimu kvietimui kvietimus kvietimą kvietimų
+34	2434	laimėtojas	laimėtoja laimėtojai laimėtojais laimėtojams laimėtojo laimėtojos laimėtoju laimėtojui laimėtojus laimėtoją laimėtojų
+35	2435	staigus	staigaus staigi staigia staigiai staigiau staigios staigiu staigius staigią staigių staigūs staigų
+36	2436	receptas	receptai receptais receptams recepte recepto receptu receptui receptuose receptus receptą receptų
+37	2437	sriuba	sriubai sriubas sriuboje sriubomis sriuboms sriubos sriubą sriubų
+38	2438	kurortas	kurortai kurortams kurorte kurorto kurortu kurortui kurortuose kurortus kurortą kurortų
+39	2439	nuteistas	nuteista nuteistai nuteistaisiais nuteistajai nuteistajam nuteistam nuteistasis nuteistieji nuteistiems nuteistiesiems nuteisto nuteistoji nuteistojo nuteistosios nuteistuoju nuteistuosius nuteistus nuteistą nuteistąjį nuteistųjų
+40	2440	sekretorius	sekretoriai sekretoriaus sekretoriui sekretoriumi
+41	2441	apranga	aprangai aprangas aprangoje aprangomis aprangos aprangą aprangų
+42	2442	patrauklus	patrauklaus patrauklesne patrauklesnio patrauklesnis patrauklesniu patrauklesnė patrauklesnės patrauklesnį patraukli patrauklia patraukliais patraukliame patrauklias patraukliau patraukliausia patraukliausiai patraukliausias patraukliausio patraukliausius patraukliausią patraukliausių patrauklioji patraukliomis patrauklioms patrauklios patraukliu patrauklią patrauklių patrauklu patrauklusis patrauklūs patrauklų
+43	2443	užrašyti	užrašai užrašant užrašau užrašei užrašiau užrašo užrašom užrašomas užrašydavo užrašyk užrašykim užrašykit užrašykite užrašysi užrašysim užrašysime užrašysite užrašysiu užrašytas užrašytum užrašytų užrašyčiau užrašė užrašėm užrašėme užrašęs
+44	2444	anūkas	anūku anūkai anūkais anūkams anūke anūko anūku anūkui anūkus anūką anūkų
+45	2445	lokys	lokiai lokiais lokiams lokio lokiu lokiui lokius lokių loky lokyje lokį
+46	2446	naujokas	naujokai naujokais naujokams naujoke naujoko naujoku naujokui naujokus naujoką naujokų
+47	2447	aspektas	aspektai aspektais aspektams aspekto aspektu aspektus aspektą aspektų
+48	2448	laisvalaikis	laisvalaikio laisvalaikiu laisvalaikiui laisvalaikį
+49	2449	paraiška	paraiškas paraiškoje paraiškoms paraiškos paraiškose paraišką paraiškų
+50	2450	koalicija	koalicijai koalicijas koalicijoje koalicijoms koalicijos koaliciją koalicijų
+51	2451	gelbėtojas	gelbėtoja gelbėtojai gelbėtojais gelbėtojams gelbėtojau gelbėtojo gelbėtojos gelbėtoju gelbėtojui gelbėtojus gelbėtoją gelbėtojų
+52	2452	gamtinis	gamtine gamtinei gamtines gamtinę gamtiniai gamtiniais gamtiniame gamtinio gamtiniu gamtiniuose gamtinius gamtinių gamtinė gamtinėje gamtinėmis gamtinėms gamtinės gamtinę gamtinį
+53	2453	puodelis	puodeli puodeliai puodelio puodeliu puodeliui puodelius puodelių puodelyje puodelį
+54	2454	gerovė	gerove gerovei geroves gerovėje gerovės gerovę
+55	2455	diržas	diržai diržais dirže diržo diržu diržus diržą diržų
+56	2456	trečdalis	trečdaliai trečdaliais trečdalio trečdaliu trečdaliui trečdalius trečdalių trečdalį
+57	2457	ragana	raganai raganas raganomis raganoms raganos raganą raganų
+58	2458	dominti	domina dominantis domino domins domintų dominu
+59	2459	gripas	gripo gripu gripui gripą
+60	2460	dūmas	dūmai dūmais dūmams dūmo dūmu dūmuose dūmus dūmą dūmų
+61	2461	įtrauktas	įtraukta įtraukto įtrauktos įtrauktą
+62	2462	prieinamas	prieinama prieinamais prieinami prieinamo prieinamomis prieinamos prieinamose prieinamu prieinamus prieinamą prieinamų
+63	2463	metalinis	metaline metalinei metalines metalini metaliniai metaliniais metaliniame metalinio metaliniu metalinius metalinių metalinė metalinėje metalinėmis metalinės metalinėse metalinę metalinį
+64	2464	nušauti	nušauna nušaus nušausite nušautų nušoviau nušovė
+65	2465	tvora	tvorai tvoras tvoroje tvoromis tvoros tvorą tvorų
+66	2466	kvartalas	kvartalai kvartalais kvartale kvartalo kvartalu kvartalui kvartaluose kvartalus kvartalą kvartalų
+67	2467	pataikyti	pataikau pataikei pataikiau pataiko pataikydavo pataikys pataikytų pataikė pataikėme pataikėte
+68	2468	formatas	formatai formatais formate formato formatu formatui formatuose formatus formatą formatų
+69	2469	nuogas	nuoga nuogai nuogais nuogam nuogasis nuogi nuogieji nuogo nuogomis nuogos nuogu nuogus nuogą nuogų
+70	2470	atitinkamai	
+71	2471	pagerinti	pagerina pagerino pagerins pagerinsite pagerintume pagerintų
+72	2472	fabrikas	fabrika fabrikai fabrike fabriko fabriku fabrikui fabrikuose fabrikus fabriką fabrikų
+73	2473	išorė	išorės išorę išore išorei išorėje išorės išorę
+74	2474	operatorius	operatoriai operatoriais operatoriams operatoriaus operatoriui operatoriumi operatorių
+75	2475	gėjus	gėjai gėjais gėjams gėjaus gėjui gėjumi gėjų
+76	2476	mokėjimas	mokėjimai mokėjimais mokėjimams mokėjimo mokėjimu mokėjimui mokėjimus mokėjimą mokėjimų
+77	2477	padažas	padažai padažais padaže padažo padažu padažui padažus padažą padažų
+78	2478	kantrybė	kantrybe kantrybei kantrybes kantrybės kantrybę
+79	2479	ąžuolas	ąžuolai ąžuolais ąžuolo ąžuolu ąžuolui ąžuolus ąžuolą ąžuolų
+80	2480	respublikinis	respublikine respublikinei respublikiniame respublikinio respublikiniuose respublikinių respublikinė respublikinėje respublikinės respublikinėse respublikinę respublikinį
+81	2481	papildyti	papildai papildau papildo papildydavo papildys papildysime papildytų papildė
+82	2482	fizika	fizikai fizikams fizikas fiziko fizikoje fizikos fiziku fizikus fiziką fizikų
+83	2483	marškinėliai	marškinėliais marškinėlius marškinėlių
+84	2484	įvykdyti	įvykdo įvykdys įvykdysime įvykdytų įvykdė įvykdėme įvykdžiau
+85	2485	dušas	dušai dušais duše dušo dušu dušui dušuose dušus dušą dušų
+86	2486	kliūtis	kliūties kliūtimi kliūtimis kliūtims kliūtys kliūtį kliūčiai kliūčių
+87	2487	laidotuvės	laidotuves laidotuvių laidotuvėms laidotuvėse
+88	2488	darbdavys	darbdaviai darbdaviais darbdaviams darbdavio darbdaviu darbdaviui darbdavius darbdavių darbdavė darbdavį
+89	2489	išnykti	išnyko išnyks išnyksta išnyktų
+90	2490	šiandiena	šiandienai šiandienos šiandieną
+91	2491	fotografas	fotografai fotografais fotografams fotografe fotografo fotografu fotografui fotografus fotografą fotografė fotografų
+92	2492	uždavinys	uždaviniai uždaviniais uždaviniams uždavinio uždaviniu uždaviniui uždavinius uždavinių uždavinį
+93	2493	drama	dramai dramoje dramos dramose dramą dramų
+94	2494	programinis	programine programinei programines programiniai programinio programinius programinių programinė programinėje programinės programinę programinį
+95	2495	įvairovė	įvairove įvairovei įvairovėje įvairovės įvairovę
+96	2496	šaltis	šaltyje šaltį šalčiai šalčiams šalčio šalčiu šalčiui šalčius šalčių
+97	2497	plaučiai	plaučiais plaučiams plaučiuose plaučius plaučių
+98	2498	atskirtis	atskirti atskirties atskirtimi atskirtį atskirtyje atskirtį atskirčiai
+99	2499	nekilnojamas	nekilnojamajam nekilnojamasis nekilnojamo nekilnojamojo nekilnojamuoju nekilnojamą nekilnojamąjį nekilnojamųjų
+100	2500	žaislas	žaislai žaislais žaislams žaislo žaislu žaislus žaislą žaislų

@@ -1,0 +1,100 @@
+1	6201	nervinis	nervinei nervinio nervinių nervinė nervinės nervinę nervinį
+2	6202	rašinys	rašiniai rašinio rašinius rašinių rašinyje rašinį
+3	6203	tolerancija	tolerancijai tolerancijos toleranciją
+4	6204	gėdingas	gėdinga gėdingai gėdingi gėdingo gėdingos gėdingu gėdingą gėdingų
+5	6205	prisiekęs	prisiekus prisiekusi prisiekusieji prisiekusiems prisiekusiesiems prisiekusiuosius prisiekusių prisiekusiųjų prisiekę
+6	6206	pasiteisinimas	pasiteisinimai pasiteisinimais pasiteisinimo pasiteisinimus pasiteisinimą pasiteisinimų
+7	6207	liesas	liesa liesam liesesnis lieso liesos liesu liesą liesąsias liesų
+8	6208	išplatintas	išplatinta išplatintame išplatinto išplatintoje išplatintos išplatintą
+9	6209	plaukikas	plaukikai plaukikais plaukikams plaukiko plaukiku plaukikus plaukikė plaukikų
+10	6210	poskyris	poskyrio poskyriui poskyryje poskyrį
+11	6211	klaviatūra	klaviatūroje klaviatūros klaviatūrą klaviatūrų
+12	6212	vaivorykštė	vaivorykšte vaivorykštes vaivorykštės vaivorykštę
+13	6213	nesiliauti	nesiliauja nesiliaus nesiliovė
+14	6214	varna	varnai varnoms varnos varną varnų
+15	6215	gyvulininkystė	gyvulininkyste gyvulininkystei gyvulininkystėje gyvulininkystės gyvulininkystę
+16	6216	išreikštas	išreikšta išreikšto išreikštos išreikštu išreikštą
+17	6217	turtuolis	turtuoliai turtuoliais turtuoliams turtuolio turtuoliu turtuoliui turtuolius turtuolių turtuolį
+18	6218	gelsvas	gelsva gelsvai gelsvi gelsvo gelsvos gelsvu gelsvą gelsvų
+19	6219	belgas	belgai belgais belgams belgo belgui belgų
+20	6220	apsuptis	apsupties apsuptyje apsuptį
+21	6221	lama	lamai lamos lamą lamų
+22	6222	manevras	manevrai manevrams manevro manevruose manevrus manevrą manevrų
+23	6223	apraiška	apraiškas apraiškomis apraiškoms apraiškos apraišką apraiškų
+24	6224	rusvas	rusva rusvai rusvi rusvos rusvus rusvų
+25	6225	pamaitinti	pamaitina pamaitinkite pamaitino pamaitins pamaitintų
+26	6226	palaima	palaimos palaimą
+27	6227	perdėtas	perdėtai perdėti perdėto perdėtos perdėtu perdėtą perdėtų
+28	6228	pasitvirtinti	pasitvirtina pasitvirtino pasitvirtins pasitvirtintų
+29	6229	saulėgrąža	saulėgrąžas saulėgrąžomis saulėgrąžos saulėgrąžose saulėgrąžų
+30	6230	bebras	bebrai bebrais bebrams bebre bebro bebru bebrus bebrą bebrų
+31	6231	aktualija	aktualijas aktualijomis aktualijoms aktualijos aktualijų
+32	6232	licėjus	licėjaus licėjuje licėjų
+33	6233	atremti	atremia atremtų atrėmė
+34	6234	regata	regatoje regatos regatą
+35	6235	deficitas	deficitai deficito deficitu deficitui deficitus deficitą deficitų
+36	6236	patobulintas	patobulinta patobulinto patobulintos patobulintą
+37	6237	tušti	
+38	6238	išsigelbėjimas	išsigelbėjimo išsigelbėjimu išsigelbėjimą
+39	6239	rezistencija	rezistencijos
+40	6240	puta	putas putomis putos putų
+41	6241	pogrindis	pogrindyje pogrindį pogrindžio
+42	6242	nugriauti	nugriaus nugriautų nugriovė
+43	6243	dzin	
+44	6244	suklastotas	suklastota suklastotais suklastoto suklastotomis suklastotos suklastotu suklastotus suklastotą
+45	6245	susijaudinęs	susijaudinus susijaudinusi susijaudinę
+46	6246	skolintis	skolinamės skolinasi skolindavosi skolinosi skolinsis
+47	6247	tranzitas	tranzito tranzitu tranzitui tranzitą
+48	6248	išpirkti	išpirko išpirks išpirktų
+49	6249	serijinis	serijinei serijiniai serijinio serijiniu serijinius serijinių serijinė serijinės serijinį
+50	6250	pašauti	pašaukite pašovė
+51	6251	specializuotis	specializavosi specializuojasi
+52	6252	cigaras	cigarai cigarais cigarams cigaro cigaru cigarui cigarus cigarą cigarų
+53	6253	nepavojingas	nepavojinga nepavojingi nepavojingos nepavojingų
+54	6254	aerodromas	aerodromai aerodrome aerodromo aerodromu aerodromus aerodromą aerodromų
+55	6255	persikraustyti	persikrausto persikraustys persikraustė persikraustėme persikrausčiau
+56	6256	optimalus	optimalaus optimali optimaliai optimalias optimaliausia optimaliausias optimaliausią optimalios optimalią optimalių optimalu optimalų
+57	6257	auklėtoja	auklėtojai auklėtojas auklėtojo auklėtojomis auklėtojoms auklėtojos auklėtoją auklėtojų
+58	6258	miežis	miežiai miežiams miežio miežiuose miežius miežių miežį
+59	6259	kandidatuoti	kandidatavo kandidatuoja kandidatuoju kandidatuos kandidatuosiu
+60	6260	egzekucija	egzekucijai egzekucijas egzekucijoje egzekucijomis egzekucijos egzekuciją egzekucijų
+61	6261	neleidžiamas	neleidžiama neleidžiami
+62	6262	barnis	barni barniai barniais barniams barnio barniu barniui barnius barnių barnyje barnį
+63	6263	parengimas	parengimo parengimu parengimui parengimą
+64	6264	grietinė	grietine grietinės grietinę
+65	6265	vergovė	vergove vergovei vergovės vergovę
+66	6266	legionas	legionai legionais legione legiono legionu legionui legionus legioną legionų
+67	6267	nukritęs	nukritus nukritusi nukritusiais nukritusio nukritusius nukritusią nukritusių nukritusį nukritę
+68	6268	išvalymas	išvalymo išvalymui išvalymą
+69	6269	svetur	
+70	6270	pavasarinis	pavasarinei pavasarines pavasariniai pavasarinio pavasarinius pavasarinių pavasarinė pavasarinės pavasarinę pavasarinį
+71	6271	pastovėti	pastovi pastoviu
+72	6272	atskleistas	atskleista atskleistos
+73	6273	makštis	makšties makštyje makštys makštį
+74	6274	aiškinimas	aiškinimai aiškinimais aiškinimo aiškinimu aiškinimus aiškinimą aiškinimų
+75	6275	tribūnas	tribūnoje tribūnos tribūnose tribūną tribūnų
+76	6276	naujamiestis	naujamiestyje naujamiesčio naujamiesčiu
+77	6277	žąsis	žąsies žąsimi žąsys žąsį žąsų
+78	6278	ekspertizė	ekspertize ekspertizei ekspertizes ekspertizių ekspertizės ekspertizę
+79	6279	palėpė	palėpėje palėpės palėpę
+80	6280	cechas	cechai ceche cecho cechus cechą cechų
+81	6281	iškeisti	iškeis iškeistų iškeitė iškeičia iškeičiau
+82	6282	novelė	novele novelei noveles novelių novelėje novelės novelėse novelę
+83	6283	cementas	cemente cemento cementu cementą
+84	6284	žavinga	
+85	6285	užblokuoti	užblokavo užblokuoja užblokuotų
+86	6286	pučiamas	pučiamaisiais pučiamieji pučiamųjų
+87	6287	basas	basa basai basam base basi basiems baso basomis basos basus basą basų
+88	6288	gavimas	gavimo gavimui gavimą
+89	6289	liūtis	liūties liūtims liūtys liūtį liūčiai
+90	6290	raštingumas	raštingumo raštingumui raštingumą
+91	6291	lotyniškas	lotyniška lotyniškai lotyniškais lotyniški lotyniško lotyniškos lotyniškų
+92	6292	atvažiavęs	atvažiavus atvažiavusi atvažiavusiam atvažiavusiems atvažiavusio atvažiavusios atvažiavusius atvažiavusių atvažiavusį atvažiavę
+93	6293	omaras	omarai omarais omarams omare omaro omaru omarui omarus omarą omarų
+94	6294	išdavimas	išdavimo išdavimu išdavimą išdavimų
+95	6295	senyvas	senyva senyvi senyviems senyvo senyvos senyvus senyvą senyvų
+96	6296	specifika	specifikos specifiką
+97	6297	siausti	siaus siautė siaučia
+98	6298	piligrimas	piligrimai piligrimams piligrimo piligrimus piligrimų
+99	6299	lakūnas	lakūnai lakūno lakūnui lakūnų
+100	6300	šachas	šacho

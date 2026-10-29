@@ -1,0 +1,100 @@
+1	6101	prieštaravimas	prieštaravimai prieštaravimo prieštaravimus prieštaravimą prieštaravimų
+2	6102	atsidavęs	atsidavusi atsidavusiai atsidavusio atsidavusios atsidavusią atsidavusių atsidavusį atsidavę
+3	6103	reguliuojamas	reguliuojama reguliuojami reguliuojamo reguliuojamoje reguliuojamos reguliuojamu reguliuojamą reguliuojamų
+4	6104	nepaisyti	nepaiso nepaisys nepaisė
+5	6105	citata	citatas citatos citatą citatų
+6	6106	užvirti	užverda užvirkite užvirs užvirė
+7	6107	pasitarti	pasitarkite pasitarė pasitarėme
+8	6108	derinimas	derinimai derinimo derinimu derinimui derinimą derinimų
+9	6109	prūsas	prūsai prūsus prūsų
+10	6110	skylutė	skylute skylutes skylutėmis skylutės skylutę skylučių
+11	6111	šortai	šortais šortus šortų
+12	6112	dažyti	dažant dažantis dažau dažei dažiau dažo dažomas dažydavau dažydavo dažyk dažysim dažytas dažytos dažė dažėme
+13	6113	komunistinis	komunistine komunistiniam komunistiniame komunistinio komunistiniu komunistinių komunistinė komunistinėje komunistinės komunistinę
+14	6114	formavimasis	formavimosi formavimuisi formavimąsi
+15	6115	blogėti	blogėja blogėjant blogėjo blogės blogėtų
+16	6116	apmokamas	apmokama apmokami apmokamo apmokamos apmokamu apmokamus apmokamą apmokamų
+17	6117	palyda	palydas palydos palydą palydų
+18	6118	aušrinis	aušrine aušrinei aušrinė aušrinės aušrinę
+19	6119	baidarė	baidare baidares baidarių baidarėmis baidarės baidarę
+20	6120	semestras	semestre semestro semestrui semestrus semestrą semestrų
+21	6121	intervencija	intervencijai intervencijas intervencijomis intervencijos intervenciją intervencijų
+22	6122	nepastebėtas	nepastebėta nepastebėtai nepastebėtam nepastebėtiems
+23	6123	montuojamas	montuojama montuojami montuojamos
+24	6124	užkardas	užkardoje užkardos užkardą užkardų
+25	6125	nusiimti	nusiima nusiimtų nusiėmė
+26	6126	kratas	kratą kratų
+27	6127	išeivija	išeivijoje išeivijos
+28	6128	manipuliuoti	manipuliavo manipuliuoja
+29	6129	nuskristi	nuskrenda nuskridau nuskrido nuskridome nuskris
+30	6130	portfelis	portfeliai portfelio portfeliu portfelius portfelių portfelyje portfelį
+31	6131	konservatorija	konservatorijoje konservatorijos konservatoriją
+32	6132	perdirbti	perdirba perdirbame perdirbo perdirbs perdirbtų
+33	6133	stokoti	stokoja stokojame stokojate stokojo stokos
+34	6134	drausmė	drausme drausmės drausmę
+35	6135	garai	garais garams garuose garus
+36	6136	pasilinksminti	pasilinksmino
+37	6137	smukti	smuko smuks smunka
+38	6138	glėbys	glėbiais glėbio glėbiu glėbius glėby glėbyje glėbį
+39	6139	daugiametis	daugiametes daugiametė daugiametės daugiametę daugiametį daugiamečiai daugiamečio daugiamečius daugiamečių
+40	6140	pabrėžiamas	pabrėžiama pabrėžiami
+41	6141	veterinaras	veterinarai veterinare veterinaro veterinaru veterinarui veterinarą veterinarė veterinarų
+42	6142	pamišėlis	pamišėliai pamišėlio
+43	6143	kranas	kranai krano kranu kranus kraną kranų
+44	6144	pasigailėti	pasigaili pasigailėjau pasigailėjo pasigailėk pasigailės
+45	6145	numušti	numuš numuša numušė
+46	6146	susekti	susekė
+47	6147	neišgirsti	neišgirdau neišgirdo neišgirdome neišgirs neišgirsi neišgirsime neišgirsite neišgirsta
+48	6148	letena	letenas letenomis letenos leteną letenų
+49	6149	baltaodis	baltaodė baltaodės baltaodį baltaodžiai baltaodžiams baltaodžiui baltaodžių
+50	6150	judrus	judraus judri judriame judriausiose judriausių judrioje judrioji judriojo judrios judrią judrių judrūs judrų
+51	6151	sezoninis	sezonines sezoniniai sezoniniais sezoniniams sezoninio sezoniniu sezoninių sezoninė sezoninės sezoninę sezoninį
+52	6152	pridėtas	pridėta pridėtos pridėtą
+53	6153	pilnatis	pilnaties pilnatį pilnačiai
+54	6154	konservai	konservais konservuose konservus konservų
+55	6155	supilti	supila supilame supilk supilkite supyliau supylė
+56	6156	kelintas	kelinta kelinti kelintus kelintą
+57	6157	asamblėja	asamblėjai asamblėjoje asamblėjos asamblėją
+58	6158	mitologija	mitologijoje mitologijos mitologiją
+59	6159	išgirti	išgirs
+60	6160	išsilavinęs	išsilavinusi išsilavinusio išsilavinusios išsilavinusius išsilavinusių išsilavinę
+61	6161	viryklė	virykle virykles viryklių viryklėje viryklės viryklę
+62	6162	simbolika	simbolikos simboliką
+63	6163	nuoskauda	nuoskaudas nuoskaudos nuoskaudą nuoskaudų
+64	6164	mainyti	mainai maino
+65	6165	laboratorinis	laboratoriniai laboratoriniais laboratoriniams laboratorinius laboratorinių laboratorinė laboratorinėmis laboratorinės laboratorinę
+66	6166	tarnaitė	tarnaite tarnaites tarnaitės tarnaitę
+67	6167	katytė	katyte katytes katytės katytę katyčių
+68	6168	atsisukti	atsisuka atsisukau atsisuko atsisuks atsisuktų atsisuku
+69	6169	įžvalga	įžvalgas įžvalgomis įžvalgos įžvalgą
+70	6170	nesibaigiantis	nesibaigianti nesibaigiantys nesibaigiantį nesibaigiančiais nesibaigiančias nesibaigiančio nesibaigiančios nesibaigiančiu nesibaigiančią nesibaigiančių
+71	6171	karpis	karpiai karpiams karpio karpiui karpių karpį
+72	6172	vardyti	vardija vardijo
+73	6173	stažas	stažo stažu stažą
+74	6174	vargonai	vargonais vargonams vargonus vargonų
+75	6175	pasirašymas	pasirašymo pasirašymui pasirašymą
+76	6176	bevertis	bevertes bevertė bevertėmis bevertės bevertį beverčiai beverčiu beverčių
+77	6177	užmiestis	užmiestyje užmiestį užmiesčio
+78	6178	gabumas	gabumai gabumais gabumus gabumų
+79	6179	ausinis	ausines ausinių ausinę
+80	6180	pušynas	pušynai pušyne pušyno pušynuose pušynus pušyną pušynų
+81	6181	atvykėlis	atvykėliai atvykėliais atvykėliams atvykėlio atvykėliui atvykėlius atvykėlių atvykėlį
+82	6182	germanas	germano germanų
+83	6183	lęšis	lęšiai lęšiais lęšio lęšiuose lęšius lęšių lęšį
+84	6184	elegantiškas	elegantiška elegantiškai elegantiškais elegantiški elegantiško elegantiškos elegantiškus elegantišką elegantiškų
+85	6185	nervinti	nervina nervinantis nervinat nervindavo nervini nervino nervins nervinsi nervinu
+86	6186	lipnus	lipnaus lipni lipnia lipnias lipniomis lipnios lipniu lipnius lipnią lipnūs
+87	6187	skirstymas	skirstyme skirstymo skirstymą
+88	6188	kulinarinis	kulinarines kulinariniai kulinariniais kulinariniame kulinarinio kulinarinius kulinarinių kulinarinė kulinarinės kulinarinę kulinarinį
+89	6189	driektis	driekiasi drieksis driektųsi driekėsi
+90	6190	išauginti	išaugina išaugino išaugins išaugintų
+91	6191	sutvarkymas	sutvarkymo sutvarkymu sutvarkymui sutvarkymą
+92	6192	tikrinimas	tikrinimai tikrinimo tikrinimui tikrinimus tikrinimą tikrinimų
+93	6193	amatininkas	amatininkai amatininko amatininkus amatininkų
+94	6194	gaidukas	gaiduką
+95	6195	čekas	čekai čekais čekams čekių čeko čekus čeką čekų
+96	6196	lazdynas	lazdynai lazdyno lazdynuose lazdynų
+97	6197	troškinys	troškiniai troškiniams troškinio troškiniui troškinius troškinių troškinį
+98	6198	abėcėlė	abėcėle abėcėlei abėcėles abėcėlės abėcėlę
+99	6199	meškiukas	meškiukai meškiuko meškiuku meškiukus meškiuką meškiukų
+100	6200	kėlimas	kėlimo kėlimu kėlimą

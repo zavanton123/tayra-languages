@@ -1,0 +1,100 @@
+1	5101	nagrinėjimas	nagrinėjimo nagrinėjimui nagrinėjimą
+2	5102	pastebėjimas	pastebėjimai pastebėjimais pastebėjimo pastebėjimu pastebėjimus pastebėjimą pastebėjimų
+3	5103	atlyginti	atlygina atlygino atlygins atlygintų
+4	5104	mokėtoja	mokėtojai mokėtojams mokėtojas mokėtojo mokėtoju mokėtojų
+5	5105	nuplauti	nuplauk nuplaukite nuplauna nuplauname nuplaus nuplautų nuplovė
+6	5106	užtikrinimas	užtikrinimo užtikrinimu užtikrinimui užtikrinimą
+7	5107	nuspėti	nuspėja nuspėjo
+8	5108	profsąjunga	profsąjungai profsąjungas profsąjungomis profsąjungos profsąjungą profsąjungų
+9	5109	pastoti	pastoja pastojau pastojo pastos pastotų
+10	5110	pamaldos	pamaldas pamaldomis pamaldoms pamaldose
+11	5111	tepalas	tepalai tepalais tepalo tepalu tepalus tepalą tepalų
+12	5112	kompleksinis	kompleksines kompleksiniai kompleksinio kompleksinius kompleksinių kompleksinė kompleksinėmis kompleksinės kompleksinę kompleksinį
+13	5113	neribotas	neribota neribotai neribotais neribotam neriboti neriboto neribotos neribotą neribotų
+14	5114	įdiegti	įdiegs įdiegtų įdiegė įdiegėme
+15	5115	karščiavimas	karščiavimo karščiavimu karščiavimui karščiavimą
+16	5116	sodininkas	sodininkai sodininkams sodininke sodininko sodininku sodininkui sodininką sodininkė sodininkų
+17	5117	drugelis	drugeli drugeliai drugeliais drugeliams drugelio drugeliu drugelius drugelių drugelį
+18	5118	grandis	grandies grandimi grandims grandyje grandyse grandį grandžiai grandžių
+19	5119	įvežtinis	įvežtiniai įvežtinių
+20	5120	pelenai	pelenams pelenuose pelenus
+21	5121	juokelis	juokeliai juokeliais juokelio juokeliu juokelius juokelių juokelį
+22	5122	betonas	betono betonu betonui betoną betonų
+23	5123	nuversti	nuvers nuverstų nuvertė nuverčia
+24	5124	debatai	debatams debatuose debatus debatų
+25	5125	burė	bure bures burių burėmis burėms burės burėse burę
+26	5126	saulėtas	saulėta saulėtais saulėtajame saulėtame saulėto saulėtoje saulėtomis saulėtos saulėtu saulėtą saulėtąją saulėtų
+27	5127	pažymys	pažymiai pažymiais pažymio pažymius pažymių pažymį
+28	5128	energetinis	energetine energetinei energetines energetiniai energetiniais energetiniam energetiniams energetinio energetiniu energetinius energetinių energetinė energetinėje energetinės energetinę energetinį
+29	5129	priskirtas	priskirta priskirtos priskirtą
+30	5130	turistinis	turistines turistiniai turistiniam turistinio turistiniuose turistinius turistinių turistinė turistinės turistinį
+31	5131	peršalimas	peršalimo peršalimu peršalimui peršalimą peršalimų
+32	5132	kanceliarija	kanceliarijai kanceliarijoje kanceliarijos kanceliariją
+33	5133	kumpis	kumpiai kumpio kumpiu kumpių kumpyje kumpį
+34	5134	autonominis	autonomine autonomines autonominiai autonominiame autonominio autonominiu autonominius autonominių autonominė autonominėje autonominės autonominę autonominį
+35	5135	sausra	sausrai sausras sausros sausrą sausrų
+36	5136	nenumatytas	nenumatyta nenumatytais nenumatyti nenumatytiems nenumatyto nenumatytoms nenumatytos nenumatytus nenumatytą nenumatytų
+37	5137	seselė	sesele seselių seselės seselę
+38	5138	itališkas	itališka itališkais itališkame itališkasis itališki itališko itališkoje itališkomis itališkos itališkosios itališku itališkus itališką itališkų
+39	5139	keturiolika	keturiolikai keturiolikoje keturiolikos
+40	5140	ach	
+41	5141	byloti	byloja bylojo bylotų
+42	5142	disertacija	disertacijai disertacijas disertacijoje disertacijos disertaciją disertacijų
+43	5143	ponis	poni poniai poniams ponio poniu ponius ponių ponį
+44	5144	kancleris	kanclerio kancleriu kancleriui kanclerį
+45	5145	centimetras	centimetrai centimetrais centimetre centimetro centimetru centimetrui centimetrus centimetrą centimetrų
+46	5146	tipiškas	tipiška tipiškai tipiški tipiškos tipišką tipiškų
+47	5147	anekdotas	anekdotai anekdotais anekdote anekdoto anekdotus anekdotą anekdotų
+48	5148	gulbė	gulbe gulbei gulbes gulbių gulbėje gulbėmis gulbėms gulbės gulbę
+49	5149	instaliacija	instaliacijai instaliacijas instaliacijomis instaliacijos instaliaciją instaliacijų
+50	5150	meilužė	meiluže meilužei meilužes meilužių meilužėmis meilužės meilužę
+51	5151	socialus	sociali socialiai socialūs
+52	5152	šedevras	šedevrai šedevro šedevru šedevrus šedevrą šedevrų
+53	5153	fortas	forte forto fortus fortą fortų
+54	5154	diskriminacija	diskriminacijai diskriminacijos diskriminaciją
+55	5155	uraganas	uraganai uragane uragano uraganu uraganui uraganą uraganų
+56	5156	skiltis	skilties skiltyje skiltys skiltį skilčių
+57	5157	sujungtas	sujungta sujungtos
+58	5158	laikmetis	laikmetyje laikmetį laikmečio laikmečiu laikmečiui laikmečių
+59	5159	absurdiškas	absurdiška absurdiškai absurdiškais absurdiški absurdiškiausių absurdiško absurdiškos absurdišku absurdiškus absurdišką absurdiškų
+60	5160	rezoliucija	rezoliucijas rezoliucijoje rezoliucijos rezoliuciją rezoliucijų
+61	5161	notaras	notarai notarams notaro notarui notarus notarą notarų
+62	5162	nuotakas	nuotakai nuotakomis nuotakos nuotaką nuotakų
+63	5163	pagrobimas	pagrobimai pagrobimo pagrobimu pagrobimus pagrobimą pagrobimų
+64	5164	lankymas	lankymo lankymui lankymą
+65	5165	kamienas	kamienai kamienais kamiene kamieno kamienu kamienus kamieną kamienų
+66	5166	pažyma	pažymas pažymoje pažymos pažymą
+67	5167	paskyrimas	paskyrimo paskyrimui paskyrimus paskyrimą paskyrimų
+68	5168	pablogėti	pablogėja pablogėjo pablogės pablogėtų
+69	5169	panaikinimas	panaikinimo panaikinimu panaikinimui panaikinimą
+70	5170	kibiras	kibirai kibirais kibire kibiro kibiru kibirus kibirą kibirų
+71	5171	šėtonas	šėtone šėtono šėtonu šėtonui šėtoną
+72	5172	genialus	genialaus geniali genialiai genialios genialiu genialius genialią genialių genialu genialusis genialūs genialų
+73	5173	priemiestis	priemiestyje priemiestį priemiesčio priemiesčiu priemiesčiuose priemiesčius priemiesčių
+74	5174	patikimumas	patikimumo patikimumu patikimumui patikimumą
+75	5175	oligarchas	oligarchai oligarchams oligarche oligarcho oligarchui oligarchus oligarchą oligarchų
+76	5176	propaganda	propagandai propagandos propagandą
+77	5177	reklaminis	reklaminei reklamines reklaminiai reklaminiais reklaminiame reklaminio reklaminiu reklaminiuose reklaminius reklaminių reklaminė reklaminėje reklaminės reklaminę reklaminį
+78	5178	atskirtas	atskirta atskirtiems atskirtoje atskirtos atskirtus atskirtą atskirtų
+79	5179	trikampis	trikampiai trikampio trikampiu trikampiui trikampių trikampyje trikampį
+80	5180	pusiasalis	pusiasalio pusiasalyje pusiasalį
+81	5181	artintis	artinasi artinosi
+82	5182	neviltis	nevilties neviltimi neviltyje neviltį
+83	5183	skydelis	skydeliai skydeliais skydelio skydeliu skydelius skydelių skydelyje skydelį
+84	5184	laidyti	laidai laido laidė
+85	5185	žlugimas	žlugimo žlugimu žlugimą
+86	5186	emisija	emisijas emisijomis emisijos emisiją emisijų
+87	5187	energingas	energinga energingai energingam energingesni energingesnis energingesnė energingi energingiau energingiausių energingiems energingos energingu energingus energingą energingų
+88	5188	paveldėti	paveldi paveldėjau paveldėjo paveldėjome paveldėjote paveldės paveldėtų
+89	5189	žvyras	žvyro žvyru žvyrą
+90	5190	kruvinas	kruvinasis kruviniausia kruviniausias kruviniausių kruvinoji kruvinojo kruvinomis kruvinosios kruvinus kruviną kruvinų kruvinųjų
+91	5191	išsivystyti	išsivysto išsivystys išsivystė
+92	5192	priekaištas	priekaištai priekaištais priekaištus priekaištą priekaištų
+93	5193	grietinėlė	grietinėle grietinėlei grietinėlės grietinėlę
+94	5194	krova	krovai krovos krovą
+95	5195	gerėti	gerėja gerėjo gerės gerėtų
+96	5196	šviesoforas	šviesoforai šviesoforais šviesoforo šviesoforu šviesoforus šviesoforą šviesoforų
+97	5197	garantuotas	garantuota garantuotai garantuoto garantuotos garantuotą
+98	5198	nutraukimas	nutraukime nutraukimo nutraukimui nutraukimą nutraukimų
+99	5199	kenkėjas	kenkėjai kenkėjais kenkėjams kenkėjo kenkėjus kenkėjų
+100	5200	dezinfekcija	dezinfekcijai dezinfekcijos dezinfekciją

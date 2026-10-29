@@ -1,0 +1,100 @@
+1	1201	pernai	
+2	1202	likimas	likimai likimais likime likimo likimu likimui likimus likimą likimų
+3	1203	prisidėti	prisideda prisidedame prisidedate prisidedu prisidėdavo prisidėjau prisidėjo prisidėjome prisidėjote prisidėkite prisidės prisidėsime prisidėsite prisidėsiu prisidėtų
+4	1204	atsakomybė	atsakomybe atsakomybei atsakomybes atsakomybė atsakomybių atsakomybėje atsakomybėmis atsakomybės atsakomybę
+5	1205	kitoks	kitokia kitokie kitokių
+6	1206	pasitikėti	pasitiki pasitikime pasitikite pasitikiu pasitikėjau pasitikėjo pasitikėjome pasitikėk pasitikėkite pasitikės pasitikėsite pasitikėtų
+7	1207	elektroninis	elektronine elektroninei elektronines elektroniniai elektroniniais elektroniniame elektroniniams elektroninio elektroniniu elektroniniuose elektroninius elektroninių elektroninė elektroninėje elektroninėmis elektroninėms elektroninės elektroninėse elektroninę elektroninį
+8	1208	žiniasklaida	žiniasklaidai žiniasklaidoje žiniasklaidos žiniasklaidose žiniasklaidą
+9	1209	keleivis	keleivi keleiviai keleiviais keleiviams keleivio keleiviu keleiviui keleivius keleivių keleivė keleivį
+10	1210	juokingas	juokinga juokingai juokingais juokingi juokingiau juokingiausia juokingiausias juokingo juokingos juokingu juokingus juokingą juokingų
+11	1211	elektrinis	elektrine elektrinei elektrines elektrinės elektriniai elektriniais elektriniam elektriniame elektriniams elektrinio elektriniu elektrinius elektrinių elektrinė elektrinėje elektrinėmis elektrinėms elektrinės elektrinėse elektrinę elektrinį
+12	1212	apylinkė	apylinke apylinkei apylinkes apylinkių apylinkėje apylinkėmis apylinkėms apylinkės apylinkėse apylinkę
+13	1213	lipti	limpa lipa lipai lipam lipame lipant lipat lipate lipau lipdamas lipi lipk lipkim lipkime lipkit lipkite lipo lipom lipome lipsi lipsim lipsime lipsit lipsiu lipte liptum lipu lipčiau lipęs
+14	1214	skristi	skrenda skrendam skrendame skrendant skrendantis skrendat skrendate skrendi skrendu skridai skridau skrido skridom skridome skridot skridote skridęs skris skrisdamas skrisdami skrisi skrisim skrisime skrisit skrisite skrisiu skrisk skriskim skriskime skriskit skriskite skriste skristum skristume skristų skrisčiau
+15	1215	įskaityti	įskaitant
+16	1216	esą	
+17	1217	grąžinti	grąžina grąžinai grąžinam grąžinamas grąžiname grąžinant grąžinau grąžindamas grąžindavo grąžini grąžink grąžinkim grąžinkime grąžinkit grąžinkite grąžino grąžinom grąžinote grąžins grąžinsi grąžinsim grąžinsime grąžinsit grąžinsite grąžinsiu grąžintas grąžintum grąžintume grąžintumėt grąžintumėte grąžintų grąžinu grąžinus grąžinčiau grąžinęs
+18	1218	planeta	planetai planetas planetoje planetomis planetoms planetos planetose planetą planetų
+19	1219	grėsmė	grėsmės grėsme grėsmei grėsmes grėsmių grėsmėmis grėsmėms grėsmės grėsmę
+20	1220	žurnalas	žurnalai žurnalais žurnalams žurnale žurnalo žurnalu žurnalui žurnaluose žurnalus žurnalą žurnalų
+21	1221	raktas	raktai raktais rakte rakto raktu raktus raktą raktų
+22	1222	pabėgti	pabėga pabėgau pabėgdavo pabėgo pabėgome pabėgs pabėgtų pabėgu pabėk
+23	1223	gerokai	
+24	1224	kalė	kale kalei kales kalių kalėms kalės kalę kalų
+25	1225	pradėtas	pradėta pradėtam pradėtame pradėto pradėtos pradėtu pradėtus pradėtą
+26	1226	šauti	šauna šauni šaunu šaus šautų šovė
+27	1227	vedėjas	vedėja vedėjai vedėjais vedėjams vedėjo vedėju vedėjui vedėjus vedėją vedėjų
+28	1228	nusipirkti	nusipirk nusipirkai nusipirkau nusipirkite nusipirko nusipirkom nusipirkome nusipirkote nusipirks nusipirksi nusipirksite nusipirksiu nusipirktum nusipirktų nusipirkčiau
+29	1229	versija	versijai versijas versijoje versijomis versijoms versijos versijose versiją versijų
+30	1230	gėrimas	gėrimai gėrimais gėrimams gėrime gėrimo gėrimu gėrimui gėrimuose gėrimus gėrimą gėrimų
+31	1231	suma	sumai sumas sumoje sumomis sumos sumą sumų
+32	1232	skonis	skoni skoniai skoniais skoniams skonio skoniu skoniui skonius skonių skonyje skonį
+33	1233	pasinaudoti	pasinaudoja pasinaudojame pasinaudojau pasinaudojo pasinaudojome pasinaudok pasinaudokime pasinaudokite pasinaudos pasinaudosime pasinaudosite pasinaudosiu pasinaudotų pasinaudočiau
+34	1234	iššūkis	iššūkį iššūkių iššūki iššūkiai iššūkiais iššūkiams iššūkio iššūkiu iššūkiui iššūkius iššūkių iššūkyje iššūkį
+35	1235	kampas	kampai kampais kampe kampo kampu kampui kampuose kampus kampą kampų
+36	1236	seniūnija	seniūnijai seniūnijas seniūnijoje seniūnijoms seniūnijos seniūnijose seniūniją seniūnijų
+37	1237	nuotolinis	nuotolines nuotolinio nuotoliniu nuotolinius nuotolinių nuotolinės nuotolinę nuotolinį
+38	1238	premjeras	premjerai premjerais premjerams premjere premjero premjeru premjerui premjerus premjerą premjerė premjerų
+39	1239	gynyba	gynybai gynyboje gynybos gynybą
+40	1240	būklė	būkle būklei būkles būklių būklėje būklės būklę
+41	1241	kontaktas	kontaktai kontaktais kontaktams kontakto kontaktu kontaktui kontaktuose kontaktus kontaktą kontaktų
+42	1242	eismas	eisme eismo eismui eismą
+43	1243	praeitis	praeities praeitimi praeityje praeitį praeičiai
+44	1244	serija	serijai serijas serijoje serijomis serijoms serijos serijose seriją serijų
+45	1245	elgesys	elgesio elgesiu elgesiui elgesių elgesį elgesyje elgesį
+46	1246	ankstus	ankstaus ankstesne ankstesnei ankstesnes ankstesni ankstesniais ankstesniajame ankstesniam ankstesniame ankstesnieji ankstesniems ankstesniesiems ankstesnio ankstesnioji ankstesniojo ankstesniosios ankstesnis ankstesniu ankstesniuose ankstesnius ankstesniąja ankstesniąją ankstesniąsias ankstesnių ankstesniųjų ankstesnysis ankstesnė ankstesnėje ankstesnėmis ankstesnėms ankstesnės ankstesnėse ankstesnę ankstesnį ankstesnįjį ankstų anksčiau anksčiausia anksčiausią
+47	1247	įveikti	įveikdavo įveikia įveikiau įveiks įveiksime įveiksite įveiksiu įveiktume įveiktų įveikė įveikėme įveikėte
+48	1248	vaisius	vaisiai vaisiais vaisiams vaisiui vaisiuje vaisiumi vaisiuose vaisių
+49	1249	tiltas	tiltai tiltais tilto tiltu tiltui tiltus tiltą tiltų
+50	1250	išgelbėti	išgelbsti išgelbėja išgelbėjo išgelbėjome išgelbėk išgelbės išgelbėsite išgelbėtų
+51	1251	skaudėti	skaud skauda skaudi skaudu skaudą skaudėdavo skaudėjo skaudės skaudėtų
+52	1252	smulkus	smulkaus smulkesnes smulkesni smulkesnis smulkesnius smulkesnių smulkesnės smulki smulkia smulkiai smulkiais smulkiajam smulkiam smulkias smulkiau smulkiausias smulkiausios smulkiausių smulkieji smulkiems smulkiesiems smulkioji smulkiojo smulkiomis smulkioms smulkios smulkiosioms smulkiosios smulkiu smulkiuosius smulkius smulkią smulkiąją smulkių smulkiųjų smulkusis smulkūs smulkų smulkųjį
+53	1253	groti	grodamas grodavai grodavau grodavo grodavome groja grojai grojam grojamas grojame grojant grojantis grojate grojau groji grojo grojome grojot grojote groju grojęs grok grokit grokite gros grosi grosim grosime grosite grosiu grota grotas grotum grotų gročiau
+54	1254	atostogos	atostogas atostogomis atostogoms atostogose atostogų atostogų
+55	1255	patogus	patogaus patogesne patogesnes patogesni patogesnio patogesnis patogesniu patogesnių patogesnė patogesnės patogesnę patogesnį patogi patogia patogiai patogiais patogiam patogiame patogias patogiau patogiausi patogiausia patogiausias patogiausią patogioje patogiomis patogioms patogios patogiu patogius patogią patogių patogu patogūs patogų
+56	1256	arbata	arbatai arbatas arbatoje arbatomis arbatoms arbatos arbatą arbatų
+57	1257	atsidurti	atsidurdavau atsidurdavo atsiduri atsiduria atsiduriame atsiduriate atsiduriu atsidurs atsidursi atsidursime atsidursite atsidursiu atsidurtume atsidurtų atsidūrei atsidūriau atsidūrė atsidūrėme atsidūrėte
+58	1258	paveikslas	paveikslai paveikslais paveikslams paveiksle paveikslo paveikslu paveikslui paveiksluose paveikslus paveikslą paveikslų
+59	1259	gaisras	gaisrai gaisrais gaisrams gaisre gaisro gaisru gaisrui gaisruose gaisrus gaisrą gaisrų
+60	1260	kvapas	kvapai kvapais kvape kvapo kvapu kvapui kvapus kvapą kvapų
+61	1261	įrengtas	įrengta įrengtais įrengtame įrengto įrengtoje įrengtoji įrengtomis įrengtos įrengtose įrengtu įrengtuose įrengtus įrengtą
+62	1262	skaičiuoti	skaičiavai skaičiavau skaičiavimas skaičiavimo skaičiavo skaičiavome skaičiavote skaičiavęs skaičiuodamas skaičiuodavai skaičiuodavau skaičiuodavo skaičiuoja skaičiuojam skaičiuojama skaičiuojamas skaičiuojame skaičiuojant skaičiuojantis skaičiuojate skaičiuoji skaičiuoju skaičiuok skaičiuokime skaičiuokit skaičiuokite skaičiuos skaičiuosi skaičiuosim skaičiuosime skaičiuosite skaičiuosiu skaičiuotum skaičiuotume skaičiuotų
+63	1263	sumažinti	sumažina sumažiname sumažinau sumažink sumažinkite sumažino sumažinome sumažins sumažinsime sumažinsite sumažintume sumažintumėte sumažintų
+64	1264	sportininkas	sportininkai sportininkais sportininkams sportininke sportininko sportininku sportininkui sportininkus sportininką sportininkė sportininkų
+65	1265	rinkimai	rinkimus
+66	1266	iniciatyva	iniciatyvai iniciatyvas iniciatyvoje iniciatyvomis iniciatyvoms iniciatyvos iniciatyvose iniciatyvą
+67	1267	kaltinti	kaltina kaltinama kaltinamajai kaltinamajam kaltinamajame kaltinamam kaltinamas kaltinamasis kaltiname kaltinami kaltinamieji kaltinamiems kaltinamiesiems kaltinamo kaltinamoji kaltinamojo kaltinamos kaltinamosios kaltinamuoju kaltinamuosius kaltinamus kaltinamąjį kaltinamųjų kaltinant kaltinat kaltinate kaltindamas kaltindami kaltindavau kaltini kaltink kaltinkit kaltino kaltins kaltinsi kaltinta kaltintas kaltintų kaltinu
+68	1268	žemas	žema žemai žemais žemam žemesne žemesnei žemesnes žemesni žemesnio žemesnis žemesniu žemesnius žemesnių žemesniųjų žemesnė žemesnėje žemesnėmis žemesnės žemesnę žemesnį žemi žemiausia žemiausias žemiausio žemiausios žemiausią žemiausių žemieji žemo žemoje žemomis žemoms žemos žemose žemu žemuosiuose žemus žemą žemųjų
+69	1269	generalinis	generaline generalinei generalini generaliniai generaliniam generaliniams generalinio generaliniu generalinius generalinių generalinė generalinėje generalinės generalinę generalinį
+70	1270	sirgti	serga sergame sergate sergi sergu sirgai sirgau sirgdamas sirgdavau sirgdavo sirgo sirgote sirgs sirgsi sirgsiu sirgtum sirgtų sirgčiau sirgęs sirk
+71	1271	dažnas	dažniau dažna dažnais dažnam dažname dažnesne dažnesnes dažnesni dažnesnio dažnesnis dažnesniu dažnesnius dažnesnių dažnesnė dažnesnės dažnesnę dažnesnį dažni dažniau dažniausi dažniausia dažniausiai dažniausiais dažniausias dažniausioms dažniausios dažniausius dažniausią dažniausių dažno dažnoje dažnos dažnu dažnuose dažnus dažną dažnų
+72	1272	tvirtas	tvirta tvirtai tvirtais tvirtam tvirtesni tvirtesnio tvirtesnis tvirtesnių tvirtesnė tvirtesnės tvirtesnį tvirtiems tvirto tvirtos tvirtu tvirtuose tvirtus tvirtą tvirtų tvirčiau tvirčiausia tvirčiausias tvirčiausiu
+73	1273	popierius	popieriai popieriais popieriams popieriaus popieriui popieriuje popieriumi popieriuose popierių
+74	1274	sodyba	sodybai sodybas sodyboje sodybomis sodyboms sodybos sodybose sodybą sodybų
+75	1275	ryškus	ryškaus ryškesnes ryškesni ryškesnis ryškesnius ryškesnių ryškesnė ryškesnės ryškesnę ryški ryškia ryškiai ryškiais ryškiam ryškias ryškiau ryškiausi ryškiausia ryškiausiai ryškiausiais ryškiausias ryškiausio ryškiausiomis ryškiausioms ryškiausios ryškiausiu ryškiausius ryškiausią ryškiausių ryškiomis ryškios ryškiu ryškius ryškią ryškių ryšku ryškui ryškūs ryškų
+76	1276	traukinys	traukiniai traukiniais traukiniams traukinio traukiniu traukiniui traukiniuose traukinius traukinių traukiny traukinyje traukinį
+77	1277	įrodyti	įrodai įrodant įrodantis įrodau įrodei įrodo įrodydamas įrodyk įrodykit įrodykite įrodys įrodysi įrodysim įrodysime įrodysite įrodysiu įrodyta įrodytas įrodytum įrodytume įrodytumėt įrodytų įrodyčiau įrodė įrodėm įrodėme įrodėte įrodęs įrodžiau įrodžius
+78	1278	kasmet	
+79	1279	kristi	krenta krentam krentame krentant krentantis krentat krenti krentu krinta kris krisdamas krisdavo krisi krisime krisite krisiu krisk kriskit kriste kristinai kristum kritai kritau krito kritom
+80	1280	švarus	švaraus švaresni švaresnio švaresnis švaresniu švaresnė švaresnės švaresnę švaresnį švari švaria švariai švariais švariam švariame švarias švariau švariausias švariausio švariausių švarioje švarios švariosios švariu švarius švarią švarių švaru švarūs švarų
+81	1281	suknelė	suknele suknelei sukneles suknelių suknelėje suknelėmis suknelėms suknelės suknelę
+82	1282	skirtis	skirdavosi skiriamės skiriasi skiriatės skiriuosi skirsis skirtųsi skyrėmės skyrėsi
+83	1283	vietoj	
+84	1284	prastas	prasta prastai prastais prastam prastesne prastesnes prastesni prastesniais prastesnis prastesniu prastesniuoju prastesnių prastesnė prastesnėje prastesnės prastesnę prastesnį prasto prastoje prastomis prastos prastu prastus prastą prasčiausi prasčiausius
+85	1285	parengti	parengia parengiau parengs parengsime parengta parengtai parengtais parengtam parengtame parengtas parengtiems parengto parengtoje parengtojo parengtomis parengtoms parengtos parengtose parengtu parengtus parengtą parengtąjį parengtų parengė parengėme
+86	1286	baras	barai barais barams bare baro baru barui baruose barus barą barų
+87	1287	vairuoti	vairavai vairavau vairavo vairavom vairavot vairavote vairavęs vairuodamas vairuoja vairuojam vairuojama vairuojamas vairuojame vairuojant vairuojantis vairuojat vairuojate vairuoji vairuoju vairuok vairuokit vairuokite vairuos vairuosi vairuosime vairuosite vairuosiu vairuotas vairuotum vairuotą vairuotų vairuočiau
+88	1288	valdyba	valdybai valdyboje valdyboms valdybos valdybose valdybą valdybų
+89	1289	pavaduotojas	pavaduotoja pavaduotojai pavaduotojais pavaduotojams pavaduotojau pavaduotojo pavaduotojos pavaduotoju pavaduotojui pavaduotojus pavaduotoją pavaduotojų
+90	1290	nemokamas	nemokama nemokamai nemokamais nemokamam nemokame nemokami nemokamo nemokamoje nemokamomis nemokamoms nemokamos nemokamose nemokamu nemokamus nemokamą nemokamų
+91	1291	keistis	keisdavosi keisimės keisis keistųsi keitėmės keitėsi keičiamės keičiasi keičiuosi
+92	1292	susidurti	susidurdavo susiduri susiduria susiduriame susiduriate susiduriu susidurs susidursime susidursite susidurtume susidurtų susidūrei susidūriau susidūrė susidūrėme susidūrėte
+93	1293	dešinė	dešine dešinei dešines dešinių dešinėje dešinės dešinę dešinų
+94	1294	signalas	signalai signalais signalo signalu signalui signalus signalą signalų
+95	1295	atkreipti	atkreipdavo atkreipia atkreipiame atkreipiau atkreipiu atkreipk atkreipkite atkreips atkreipsime atkreipsiu atkreiptų atkreipčiau atkreipė atkreipėme atkreipėte
+96	1296	plotis	plotyje plotį pločio
+97	1297	spektaklis	spektakliai spektakliais spektakliams spektaklio spektakliu spektakliui spektakliuose spektaklius spektaklių spektaklyje spektaklį
+98	1298	valdovas	valdovai valdovais valdovams valdove valdovei valdovo valdovu valdovui valdovus valdovą valdovė valdovės valdovę valdovų
+99	1299	plėtra	plėtrai plėtroje plėtros plėtrą
+100	1300	lėtas	lėta lėtai lėtam lėtesniam lėtesnis lėtesniu lėtesnė lėtesnį lėto lėtoji lėtos lėtu lėtuoju lėtą lėtų lėčiau lėčiausiai

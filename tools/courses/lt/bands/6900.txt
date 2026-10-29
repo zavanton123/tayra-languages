@@ -1,0 +1,100 @@
+1	6801	ristis	ritas ritasi ritos ritosi
+2	6802	dvyliktas	dvylikta dvyliktam dvyliktame dvyliktasis dvylikto dvyliktoje dvyliktoji dvyliktojo dvyliktos dvyliktosioms dvyliktosios dvyliktus dvyliktą dvyliktąją dvyliktąjį dvyliktų
+3	6803	įpareigotas	įpareigota įpareigotos
+4	6804	tulžis	tulžies tulžį
+5	6805	lakštas	lakštai lakštais lakšto lakštu lakštus lakštą lakštų
+6	6806	bėglys	bėgliai bėglio bėgliu bėgliui bėglius bėglį
+7	6807	dantukas	dantukai dantukais dantukus dantukų
+8	6808	gramatika	gramatikoje gramatikos gramatiką
+9	6809	trikdis	trikdžiai trikdžius trikdžių
+10	6810	valandėlė	valandėlei valandėlių valandėlės valandėlę
+11	6811	sužeidimas	sužeidimai sužeidimais sužeidimo sužeidimus sužeidimą sužeidimų
+12	6812	saugiklis	saugikliai saugiklio saugikliu saugiklius saugiklių saugiklį
+13	6813	funkcionuoti	funkcionavo funkcionuoja funkcionuos funkcionuotų
+14	6814	negirdėtas	negirdėta negirdėti negirdėto negirdėtos negirdėtus negirdėtą negirdėtų
+15	6815	kintamas	kintamo kintamoji kintamomis kintamos kintamosios kintamąją kintamųjų
+16	6816	dvejoti	dvejoja dvejojate dvejojau dvejojo dvejoju dvejos
+17	6817	paviršinis	paviršiniai paviršinio paviršinius paviršinių paviršinės paviršinį
+18	6818	dainelė	daineles dainelės dainelę
+19	6819	nulinis	nulinio nuliniu nulinė nulinės nulinę nulinį
+20	6820	akistata	akistatai akistatas akistatoje akistatos akistatą
+21	6821	nuoseklus	nuoseklaus nuosekli nuosekliau nuoseklios nuosekliu nuoseklią nuoseklių nuoseklu nuoseklūs nuoseklų
+22	6822	priminimas	priminimai priminimo priminimu priminimus priminimą priminimų
+23	6823	spontaniškas	spontaniška spontaniškai spontaniški spontaniško spontaniškos spontanišku spontanišką
+24	6824	laika	
+25	6825	negalavimas	negalavimai negalavimais negalavimams negalavimo negalavimus negalavimą negalavimų
+26	6826	malšinti	malšina malšino
+27	6827	smerkti	smerkia smerkiame smerkiu smerkė
+28	6828	arbatpinigiai	arbatpinigiams arbatpinigius arbatpinigių
+29	6829	pasivyti	pasiveja pasivijo pasivys pasivytų
+30	6830	taktika	
+31	6831	graužti	grauš graužia graužė
+32	6832	oranžinė	oranžinės
+33	6833	vulkanas	vulkano vulkaną vulkanų
+34	6834	platintojas	platintoja platintojai platintojais platintojo platintojui platintojus platintoją platintojų
+35	6835	aviža	avižas avižomis avižos avižose avižų
+36	6836	pylimas	pylimai pylimo pylimą pylimų
+37	6837	šašlykas	šašlykai šašlykais šašlykams šašlyko šašlykus šašlyką šašlykų
+38	6838	traktas	trakte trakto traktą
+39	6839	paskata	paskatas paskatos paskatą paskatų
+40	6840	padegti	padega padegė
+41	6841	barokas	baroko
+42	6842	pyragaitis	pyragaitį pyragaičiai pyragaičiais pyragaičio pyragaičius pyragaičių
+43	6843	pikti	
+44	6844	pavaizduoti	pavaizdavo
+45	6845	išpardavimas	išpardavimai išpardavimo išpardavimus išpardavimą išpardavimų
+46	6846	rekonstruotas	rekonstruota rekonstruotame rekonstruotoje rekonstruotos rekonstruotą
+47	6847	skeptiškas	skeptiška skeptiškai skeptiškiau skeptišką
+48	6848	sandėliukas	sandėliukai sandėliuke sandėliuko sandėliukuose sandėliukus sandėliuką sandėliukų
+49	6849	prasiveržti	prasiverš prasiveržia prasiveržė
+50	6850	suspėti	suspėja suspėjo suspės suspėsiu suspėtų
+51	6851	laimėtas	laimėta laimėtais laimėto laimėtos laimėtus laimėtą
+52	6852	plokštuma	plokštumoje plokštumos plokštumą plokštumų
+53	6853	proza	prozoje prozos prozą
+54	6854	išsinešti	išsineš išsineša išsinešė
+55	6855	mechanika	mechanikos
+56	6856	atmaina	atmainas atmainomis atmainos atmainą
+57	6857	sudėlioti	sudėlioja sudėliojau sudėliojo sudėliojome sudėlios sudėliotų
+58	6858	iždas	ižde iždo iždui iždą
+59	6859	projektuoti	projektavo projektuoja projektuojame
+60	6860	griaustinis	griaustini griaustiniais griaustinio griaustiniu griaustiniui griaustinį
+61	6861	prispausti	prispaudė prispaudžia prispauskite prispaustų
+62	6862	užverti	užveria užvers užvertė užverčia užvėrė
+63	6863	poligonas	poligonai poligone poligono poligonuose poligonus poligoną poligonų
+64	6864	migdolas	migdolai migdolais migdolo migdoluose migdolus migdolą migdolų
+65	6865	apsimetinėti	apsimetinėja apsimetinėjo
+66	6866	skalbiniai	skalbiniais skalbinius skalbinių
+67	6867	brokas	broko broku broką
+68	6868	neteisybė	neteisybe neteisybei neteisybes neteisybės neteisybę
+69	6869	ispaniškai	
+70	6870	matematinis	matematine matematines matematiniai matematinio matematinius matematinių matematinė matematinėms matematinės
+71	6871	uogienė	uogiene uogienei uogienes uogienių uogienėje uogienėms uogienės uogienę
+72	6872	tarpeklis	tarpeklio tarpekliuose tarpeklių tarpeklyje tarpeklį
+73	6873	homoseksualas	homoseksualai homoseksualais homoseksuali homoseksualu homoseksualus homoseksualų
+74	6874	juntamas	juntama juntami juntamos juntamą
+75	6875	garsiakalbis	garsiakalbi garsiakalbiai garsiakalbiais garsiakalbio garsiakalbiu garsiakalbiui garsiakalbiuose garsiakalbius garsiakalbių garsiakalbį
+76	6876	reagavimas	reagavimo reagavimą
+77	6877	parinktas	parinkta parinktos parinktus
+78	6878	isterija	isterijai isterijomis isterijos isteriją isterijų
+79	6879	genetiškai	
+80	6880	išsigimėlis	išsigimėli išsigimėliai išsigimėliais išsigimėlio išsigimėliu išsigimėlius išsigimėlių išsigimėlė išsigimėlį
+81	6881	marmuras	marmure marmuro marmurą
+82	6882	lektorius	lektoriai lektorių
+83	6883	genetika	genetikos genetiką
+84	6884	racionas	racione raciono racioną
+85	6885	ženklelis	ženkleliu ženklelius ženklelį
+86	6886	pamarys	pamario pamariui pamaryje pamarį
+87	6887	anūkė	anūkei anūkių anūkės anūkę
+88	6888	perrašyti	perrašiau perrašo perrašydamas perrašyk perrašykite perrašys perrašysi perrašysiu perrašyta perrašytas perrašė perrašėme perrašėte
+89	6889	helis	heli helio heliu heliui helyje helį
+90	6890	transplantacija	transplantacijai transplantacijos transplantacijų
+91	6891	formalumas	formalumai formalumu formalumus formalumą formalumų
+92	6892	rusti	rus
+93	6893	išgelbėtas	išgelbėta išgelbėtieji išgelbėto išgelbėtos išgelbėtą išgelbėtųjų
+94	6894	kursti	kurs
+95	6895	vemti	vemdamas vemdavau vemdavo vemi vemia vemiame vemiant vemiantis vemk vems vemsi vemsite vemsiu vėmiau vėmė
+96	6896	lietis	liejasi liejosi liekis liesis
+97	6897	sugerti	sugeria sugers sugertų sugėrė
+98	6898	grimas	grimo grimu grimui grimą grimų
+99	6899	mandagumas	mandagumo mandagumu mandagumą
+100	6900	kirminas	kirminai kirminais kirminams kirmine kirmino kirminu kirminus kirminą kirminų

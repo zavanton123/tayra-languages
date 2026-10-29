@@ -1,0 +1,100 @@
+1	6001	varškė	varške varškės varškę
+2	6002	platinamas	platinama platinami platinamomis platinamos platinamų
+3	6003	specializacija	specializacijos specializaciją specializacijų
+4	6004	sveikatingumas	sveikatingumo sveikatingumui sveikatingumą
+5	6005	gudrybė	gudrybe gudrybes gudrybių gudrybėmis gudrybės gudrybę
+6	6006	išmėginti	išmėginau išmėgink išmėginkite išmėgino išmėgins
+7	6007	repetuoti	repetavau repetavo repetavome repetuodavo repetuodavome repetuoja repetuojam repetuojame repetuoji repetuoju
+8	6008	arterija	arterijas arterijomis arterijos arterijose arteriją arterijų
+9	6009	nuvalyti	nuvalo nuvalykite nuvalysite nuvalytų nuvalė
+10	6010	šluota	šluotas šluotomis šluotos šluotą šluotų
+11	6011	slyva	slyvas slyvomis slyvos slyvą slyvų
+12	6012	adyti	ado adomas
+13	6013	jaunikis	jaunikiai jaunikio jaunikiu jaunikiui jaunikius jaunikių jaunikį
+14	6014	mankšta	mankštai mankštas mankštos mankštą
+15	6015	kategoriškas	kategoriška kategoriškai kategoriškų
+16	6016	atgabenti	atgabena atgabeno atgabens atgabentų
+17	6017	šachta	šachtas šachtoje šachtos šachtose šachtą šachtų
+18	6018	kamuoti	kamavo kamuoja kamuos
+19	6019	renesansas	renesanso renesansą
+20	6020	sumuštas	sumušta sumuštam sumušto sumuštos sumuštą
+21	6021	gliukozė	gliukozės gliukozę
+22	6022	programuotoja	programuotojai programuotojams programuotojas programuotojo programuotoju programuotojų
+23	6023	atstumti	atstumia atstums atstumtų atstūmė
+24	6024	padavimas	padavimai padavimo padavimus padavimą padavimų
+25	6025	banknotas	banknotai banknotais banknote banknoto banknotu banknotus banknotą banknotų
+26	6026	chalatas	chalatai chalatais chalato chalatu chalatus chalatą chalatų
+27	6027	gabenimas	gabenimo gabenimu gabenimui gabenimą
+28	6028	materija	materijos materiją
+29	6029	langelis	langeliai langeliais langelio langelius langelių langelyje langelį
+30	6030	apgaulingas	apgaulinga apgaulingai apgaulingi apgaulingo apgaulingos apgaulingu apgaulingą apgaulingų
+31	6031	pranašus	pranašesni pranašesnis pranašesnių pranašesnė pranašesnės pranašu pranašų
+32	6032	tikęs	tikusi tikusios tikę
+33	6033	drastiškas	drastiška drastiškai drastiški drastiškiems drastiško drastiškos drastiškus drastišką drastiškų
+34	6034	pažymimas	pažymima pažymimi pažymimos
+35	6035	audringas	audringa audringai audringais audringi audringo audringoje audringomis audringos audringu audringus audringą audringų
+36	6036	rašalas	rašalo rašalu rašalą
+37	6037	pažeidėjas	pažeidėja pažeidėjai pažeidėjais pažeidėjams pažeidėjo pažeidėjui pažeidėjus pažeidėją pažeidėjų
+38	6038	pakvietimas	pakvietimo pakvietimu pakvietimus pakvietimą pakvietimų
+39	6039	maniakas	maniakai maniako maniaku maniakui maniaką maniakų
+40	6040	susijungimas	susijungimo susijungimui susijungimą
+41	6041	paskolinti	paskolina paskolinau paskolino paskolins paskolintų
+42	6042	limitas	limitai limito limitus limitą limitų
+43	6043	niša	nišas nišoje nišos nišose nišą nišų
+44	6044	apsidžiaugti	apsidžiaugiau apsidžiaugs apsidžiaugtų apsidžiaugė apsidžiaugėme
+45	6045	sandara	sandaros sandarą sandarų
+46	6046	kontrolinis	kontroline kontrolines kontroliniai kontrolinio kontrolinius kontrolinių kontrolinė kontrolinės kontrolinėse kontrolinį
+47	6047	naršyklė	naršykle naršykles naršyklių naršyklėje naršyklės naršyklę
+48	6048	vokalinis	vokaline vokalines vokaliniai vokalinio vokaliniu vokalinių vokalinė vokalinės
+49	6049	vamzdelis	vamzdeliai vamzdeliais vamzdelio vamzdeliu vamzdelius vamzdelių vamzdelį
+50	6050	sėdėdamas	sėdėdama sėdėdami
+51	6051	nuomininkas	nuomininkai nuomininkais nuomininkams nuomininko nuomininku nuomininkui nuomininkus nuomininką nuomininkų
+52	6052	pornografija	pornografijos pornografiją
+53	6053	atimtas	atimta atimtos atimtą
+54	6054	vožtuvas	vožtuvai vožtuvo vožtuvus vožtuvą vožtuvų
+55	6055	kabintis	kabinas kabinasi kabinos kabinosi
+56	6056	melioracija	melioracijai melioracijos
+57	6057	sąsiuvinis	sąsiuviniai sąsiuvinio sąsiuvinius sąsiuvinių sąsiuvinyje sąsiuvinį
+58	6058	ištvermė	ištverme ištvermei ištvermės ištvermę
+59	6059	išpirka	išpirkos išpirką
+60	6060	girtumas	girtumo girtumui girtumą
+61	6061	intymus	intymaus intymi intymiai intymiam intymias intymiau intymiausias intymiausių intymiomis intymios intymiu intymius intymią intymiąją intymių intymu intymūs intymų
+62	6062	gaivus	gaivaus gaivesnis gaivi gaivia gaiviai gaiviaisiais gaivieji gaivios gaiviu gaiviuosius gaivius gaivių gaiviųjų gaivu gaivūs gaivų
+63	6063	kelialapis	kelialapiai kelialapio kelialapius kelialapių kelialapį
+64	6064	tuštuma	tuštumoje tuštumos tuštumą
+65	6065	nusigauti	nusigavo
+66	6066	hipotezė	hipoteze hipotezes hipotezių hipotezės hipotezę
+67	6067	teologija	teologijos teologiją
+68	6068	kondicionierius	kondicionieriai kondicionieriais kondicionieriaus kondicionierių
+69	6069	simfoninis	simfoniniais simfoniniam simfoniniame simfoninio simfoniniu simfoninės simfoninį
+70	6070	astronautas	astronautai astronautais astronautams astronautu astronautus astronautą astronautė astronautų
+71	6071	profilaktika	profilaktikai profilaktikos profilaktiką
+72	6072	taupymas	taupymo taupymui taupymą
+73	6073	krauti	krauna krauname kraunu krovė
+74	6074	įrašymas	įrašymo įrašymą
+75	6075	maudymasis	maudymosi
+76	6076	susiburti	susiburia susiburs susibūrė susibūrėme
+77	6077	komunizmas	komunizmo komunizmu komunizmą
+78	6078	poema	poemas poemoje poemos poemą poemų
+79	6079	sisteminis	sistemine sistemines sisteminio sisteminių sisteminė sisteminės sisteminę sisteminį
+80	6080	mielės	mieles mielių mielėmis
+81	6081	liauka	liaukas liaukos liaukų
+82	6082	nelygybė	nelygybe nelygybei nelygybės nelygybę
+83	6083	optimizmas	optimizmo optimizmu optimizmui optimizmą
+84	6084	pabėgęs	pabėgus pabėgusi pabėgusiam pabėgusio pabėgusios pabėgusius pabėgusią pabėgusių pabėgusį pabėgę
+85	6085	astronomija	astronomijoje astronomijos astronomiją
+86	6086	pramoginis	pramoginiai pramoginiais pramoginiame pramoginiams pramoginio pramoginiuose pramoginius pramoginių pramoginė pramoginėje pramoginėmis pramoginės pramoginę
+87	6087	medelis	medeliai medeliais medeliams medelio medelius medelių medelį
+88	6088	užtaisyti	užtaisai užtaiso užtaisė
+89	6089	įsivaizduojamas	įsivaizduojama įsivaizduojamai įsivaizduojamais įsivaizduojamam įsivaizduojami įsivaizduojamo įsivaizduojamos įsivaizduojamu įsivaizduojamą įsivaizduojamų
+90	6090	skalbimas	skalbimo
+91	6091	atpažinimas	atpažinimo atpažinimui atpažinimą
+92	6092	sužadėtinė	sužadėtine sužadėtinei sužadėtinių sužadėtinės sužadėtinę
+93	6093	maniera	manieras manieromis manieros manierą manierų
+94	6094	galingumas	galingumo galingumu galingumą
+95	6095	užgrobti	užgrobs užgrobtų užgrobė
+96	6096	spėlioti	spėlioja spėliojo
+97	6097	asteroidas	asteroidai asteroidams asteroide asteroido asteroidus asteroidą asteroidų
+98	6098	prezidiumas	prezidiumo prezidiumą
+99	6099	jogurtas	jogurtai jogurtais jogurto jogurtu jogurtus jogurtą
+100	6100	žavingas	žavingai žavingi žavingo žavingoji žavingos žavingu žavingą žavingų

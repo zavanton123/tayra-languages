@@ -1,0 +1,100 @@
+1	4301	radikalus	radikalaus radikalesni radikali radikalia radikaliai radikaliojo radikalios radikalius radikalią radikalių radikalu radikalūs radikalų
+2	4302	estas	estai estais estams este estes esto estu estui estus estą estų
+3	4303	palata	palatas palatoje palatos palatose palatą palatų
+4	4304	buteliukas	buteliukai buteliukais buteliuke buteliuko buteliuku buteliukuose buteliukus buteliuką buteliukų
+5	4305	pakilimas	pakilimais pakilime pakilimo pakilimu pakilimui pakilimus pakilimą pakilimų
+6	4306	rizikingas	rizikinga rizikingai rizikingais rizikingesnis rizikingi rizikingo rizikingomis rizikingos rizikingus rizikingą rizikingų
+7	4307	markė	markes markių markėje markės markę
+8	4308	nobelis	nobelio
+9	4309	atsikelti	atsikeldavau atsikeli atsikelia atsikeliu atsikelkite atsikels atsikėliau atsikėlė atsikėlėme
+10	4310	sutelktas	sutelkta sutelktai sutelkti sutelktomis sutelktos sutelktų
+11	4311	bėgioti	bėgiodavau bėgiodavo bėgioja bėgiojame bėgiojau bėgiojo bėgioju bėgios bėgiotų
+12	4312	nutrūkti	nutrūko nutrūks nutrūksta nutrūktų
+13	4313	jūreivis	jūreivi jūreiviai jūreiviais jūreiviams jūreivio jūreiviu jūreivius jūreivių jūreivį
+14	4314	atsiliepimas	atsiliepimai atsiliepimais atsiliepimo atsiliepimus atsiliepimą atsiliepimų
+15	4315	caras	carams care caro caru carui carą carų
+16	4316	gražuolis	gražuoliai gražuolio gražuoliu gražuolius gražuolį
+17	4317	savijauta	savijautai savijautos savijautą
+18	4318	rungtyniauti	rungtyniauja rungtyniaus rungtyniavo
+19	4319	subsidija	subsidijas subsidijomis subsidijoms subsidijos subsidiją subsidijų
+20	4320	auskaras	auskarai auskarais auskaro auskaru auskarus auskarą auskarų
+21	4321	išlįsti	išlenda išlindo išlįs išlįstų
+22	4322	paklusti	paklus pakluso paklustų paklūsta paklūsti
+23	4323	fontanas	fontanai fontanais fontane fontano fontanu fontanui fontanus fontaną fontanų
+24	4324	magiškas	magiška magiškai magiški magiško magiškos magišku magiškus magišką magiškų
+25	4325	sugriautas	sugriauta sugriauti sugriauto sugriautos sugriautą sugriautų
+26	4326	reportažas	reportažai reportažais reportaže reportažo reportažu reportažui reportažuose reportažus reportažą reportažų
+27	4327	prijungti	prijungia prijungtų prijungė
+28	4328	perkėlimas	perkėlimo perkėlimu perkėlimui perkėlimą
+29	4329	atsparumas	atsparumą atsparumo atsparumu atsparumui atsparumą
+30	4330	santara	santaros
+31	4331	nuovargis	nuovargio nuovargiu nuovargiui nuovargį
+32	4332	lageris	lagerio lageriuose lagerius lagerių lageryje lagerį
+33	4333	vidurnaktis	vidurnakčio
+34	4334	sutrukdyti	sutrukdei sutrukdo sutrukdys sutrukdysi sutrukdysite sutrukdysiu sutrukdyta sutrukdytas sutrukdytų sutrukdyčiau sutrukdė sutrukdėm sutrukdėme sutrukdėt sutrukdžiau
+35	4335	vabalas	vabalai vabalais vabalams vabale vabalo vabalus vabalą vabalų
+36	4336	biologija	biologijoje biologijos biologiją
+37	4337	kiauliena	kiaulienos kiaulieną
+38	4338	gausa	gausai gausoje gausos gausą
+39	4339	įkaltis	įkalčiai įkalčiais įkalčiu įkalčius įkalčių
+40	4340	kombinacija	kombinacijas kombinacijos kombinaciją kombinacijų
+41	4341	automatas	automatai automatais automato automatu automatus automatą automatų
+42	4342	kiauras	kiaura kiaurai kiauru kiaurą
+43	4343	sumažintas	sumažinta sumažintomis sumažintos sumažintu sumažintą
+44	4344	rezidencija	rezidencijai rezidencijoje rezidencijos rezidenciją rezidencijų
+45	4345	einant	
+46	4346	radinys	radiniai radiniais radinio radiniu radinius radinių radinį
+47	4347	brigada	brigadai brigadas brigadoje brigados brigadą brigadų
+48	4348	išsiųstas	išsiųsta išsiųstame išsiųstos išsiųstą
+49	4349	naikinimas	naikinimo naikinimu naikinimui naikinimą
+50	4350	sirgalius	sirgaliai sirgaliais sirgaliams sirgaliaus sirgalių
+51	4351	šilkas	šilkai šilko šilku šilkus šilką
+52	4352	laima	laimos laimą
+53	4353	simbolinis	simboline simbolines simboliniai simboliniame simbolinio simboliniu simbolinius simbolinių simbolinė simbolinėje simbolinės simbolinę simbolinį
+54	4354	obligacija	obligacijas obligacijomis obligacijoms obligacijos obligacijų
+55	4355	senatas	senato senatui senatą
+56	4356	sienelė	sieneles sienelių sienelėje sienelėmis sienelės sienelėse sienelę
+57	4357	gabaliukas	gabaliukai gabaliukais gabaliuko gabaliukus gabaliuką gabaliukų
+58	4358	išradimas	išradimai išradimais išradimams išradimo išradimu išradimus išradimą išradimų
+59	4359	vienuolika	vienuolikoje vienuolikos vienuoliką
+60	4360	deklaruoti	deklaravau deklaravo deklaravus deklaravęs deklaruodamas deklaruodavo deklaruoja deklaruojamas deklaruojame deklaruojant deklaruojate deklaruoji deklaruoju deklaruos deklaruota deklaruotas deklaruotų
+61	4361	sekretorė	sekretore sekretorei sekretorių sekretorės sekretorę
+62	4362	nustebti	nustebau nustebo nustebome nustebote nustebs nustebsi nustebsite nustebtų nustebčiau nustemba nustembu
+63	4363	įžeisti	įžeidi įžeidė įžeidžia įžeidžiau įžeistų
+64	4364	racionalus	racionalaus racionalesnis racionali racionaliai racionaliais racionalias racionaliau racionaliausias racionalios racionaliu racionalius racionalią racionalių racionalu racionalūs racionalų
+65	4365	integracija	integracijai integracijos integraciją
+66	4366	važiavimas	važiavimai važiavime važiavimo važiavimu važiavimui važiavimuose važiavimus važiavimą važiavimų
+67	4367	atėjus	
+68	4368	rausvas	rausva rausvai rausvais rausvasis rausvi rausvo rausvos rausvu rausvus rausvą rausvų
+69	4369	steigėja	steigėjai steigėjais steigėjams steigėjas steigėjo steigėjos steigėju steigėjus steigėją steigėjų
+70	4370	randas	randai randais rando randu randus randą randų
+71	4371	nemiegoti	nemiega nemiegojau nemiegojo nemiegos nemiegu
+72	4372	padengtas	padengta padengto padengtos padengtus padengtą
+73	4373	atsiskaitymas	atsiskaitymai atsiskaitymais atsiskaitymams atsiskaitymo atsiskaitymui atsiskaitymus atsiskaitymą atsiskaitymų
+74	4374	regėjimas	regėjimo regėjimu regėjimui regėjimą
+75	4375	architektūrinis	architektūrine architektūrines architektūriniai architektūriniais architektūrinio architektūriniu architektūrinius architektūrinių architektūrinė architektūrinės architektūrinę architektūrinį
+76	4376	prisistatyti	prisistato prisistatydavo prisistatys prisistatytų prisistatė prisistačiau
+77	4377	dvokti	dvoki dvokia dvokiame dvokiantis dvokiantys dvokiantį dvokiančio dvokiančių dvokiu dvoks dvoksi dvoktų dvokė
+78	4378	rūda	rūdoje rūdos rūdą
+79	4379	skulptorius	skulptoriai skulptoriams skulptoriaus skulptoriui skulptoriumi skulptorių
+80	4380	chirurgija	chirurgijai chirurgijoje chirurgijos chirurgiją
+81	4381	piktintis	piktinasi piktinosi piktinsis
+82	4382	objektyvus	objektyvaus objektyvi objektyviai objektyviais objektyviam objektyvias objektyviau objektyvios objektyvius objektyvią objektyvių objektyvu objektyvūs objektyvų
+83	4383	lenkti	lenk lenkia lenkiame lenkite lenkiu lenks lenktų
+84	4384	prabanga	prabangoje prabangos prabangą
+85	4385	nusibosti	nusibodo nusibos nusibosta
+86	4386	plentas	plente plento plentu plentą plentų
+87	4387	prabėgti	prabėga prabėgo prabėgs
+88	4388	negausus	negausi negausiai negausiu negausių negausu negausūs
+89	4389	baris	bari bario bariu bariui baryje barį
+90	4390	priedanga	priedangos priedangą
+91	4391	enciklopedija	enciklopedijoje enciklopedijos enciklopedijose enciklopediją enciklopedijų
+92	4392	platinimas	platinimo platinimu platinimui platinimą
+93	4393	evoliucija	evoliucijai evoliucijoje evoliucijos evoliuciją
+94	4394	alyva	alyvai alyvomis alyvos alyvose alyvą alyvų
+95	4395	nykti	nyk nyki nyko nyks nyksta nykstam nykstantis nykstančių nyksti nykstu nyktų nyku nykus
+96	4396	kaupti	kaupia kaupiame kaupiau kaupiu kaups kaupė
+97	4397	operatyvus	operatyvaus operatyvi operatyviai operatyviau operatyviosios operatyvūs operatyvų
+98	4398	disciplina	disciplinas disciplinos discipliną disciplinų
+99	4399	furgonas	furgonai furgonais furgonams furgone furgono furgonu furgonui furgonus furgoną furgonų
+100	4400	kisti	kinta kis

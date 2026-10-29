@@ -1,0 +1,100 @@
+1	8201	pakrauti	pakrauna pakrovė
+2	8202	jaukumas	jaukumo jaukumu jaukumą
+3	8203	užkoduotas	užkoduota užkoduotą
+4	8204	susimauti	susimovė
+5	8205	dalijamas	dalijama dalijami dalijamos dalijamų
+6	8206	netekimas	netekimo netekimą
+7	8207	gesinti	gesina gesino
+8	8208	įstatyti	įstatai įstato įstatykite įstatė
+9	8209	neįsivaizduojamas	neįsivaizduojama neįsivaizduojamai neįsivaizduojami neįsivaizduojamo neįsivaizduojamos neįsivaizduojamą
+10	8210	skaitęs	skaitę skaičiusi
+11	8211	keliavimas	keliavimo keliavimą
+12	8212	supainioti	supainioja supainiojo
+13	8213	pageidaujamas	pageidaujama pageidaujami pageidaujamo pageidaujamus pageidaujamą pageidaujamų
+14	8214	pasigrožėti	pasigrožėkite
+15	8215	kopijuoti	kopijavo kopijuoja
+16	8216	armėniškas	armėniška armėniški armėniško armėniškoji armėniškos armėniškose armėniškosios armėnišką armėniškų
+17	8217	sujaudintas	sujaudinta
+18	8218	šlepetė	šlepetes šlepetėmis šlepetės šlepečių
+19	8219	mistika	mistikos
+20	8220	netiesioginis	netiesiogine netiesioginiai netiesioginiu netiesioginių netiesioginė netiesioginės netiesioginį
+21	8221	meškėnas	meškėnai meškėno meškėnus meškėną meškėnų
+22	8222	gira	giras giros girą girų
+23	8223	rakštis	rakštimi rakštys rakštį rakščio rakščių
+24	8224	krateris	kraterio kraterių krateryje kraterį
+25	8225	išmatuoti	išmatavo
+26	8226	mažuma	
+27	8227	atlaidai	atlaidais atlaiduose
+28	8228	prasibrauti	prasibrovė
+29	8229	vaidentis	vaidenasi
+30	8230	perstoti	perstojo
+31	8231	patrauklumas	patrauklumo patrauklumu patrauklumą
+32	8232	mėta	mėtas mėtomis mėtų
+33	8233	stimuliuoti	stimuliuoja stimuliuos
+34	8234	fotografuotis	fotografavausi fotografavosi fotografuojasi
+35	8235	įniršis	įniršio įniršį
+36	8236	taikiklis	taikikliu taikiklyje taikiklį
+37	8237	dvarininkas	dvarininkai dvarininko dvarininkų
+38	8238	išsižioti	išsižioja išsižiojam išsižioji išsižiojo išsižioju išsižiojęs išsižiok išsižiokit išsižiokite išsižiosi
+39	8239	sceninis	sceniniai sceninio sceniniu sceninius sceninių sceninės sceninę sceninį
+40	8240	laižyti	laižai laižei laižo laižydavo laižyk laižysime laižysiu laižė laižęs
+41	8241	arkangelas	arkangele arkangelo
+42	8242	abudu	
+43	8243	išsimiegoti	išsimiegokite
+44	8244	dosnumas	dosnumo dosnumu dosnumą
+45	8245	minimumas	minimumo minimumą
+46	8246	apšaudyti	apšaudo apšaudė
+47	8247	režisūra	režisūros režisūrą
+48	8248	nusiprausti	nusiprauskite
+49	8249	fiziologija	fiziologijos fiziologiją
+50	8250	nasrai	nasrais nasruose nasrus nasrų
+51	8251	balius	baliai baliaus baliuje balių
+52	8252	bronzinis	bronzine bronzines bronzini bronziniai bronzinio bronziniu bronzinių bronzinė bronzinės bronzinę bronzinį
+53	8253	rašysena	rašysenos rašyseną
+54	8254	priemaiša	priemaišomis priemaišos priemaišų
+55	8255	šablonas	šablonai šablono šablonus šabloną šablonų
+56	8256	nesantaika	nesantaikos nesantaiką
+57	8257	apsiriboti	apsiribodavo apsiriboja apsiribojo apsiribos
+58	8258	koralas	koralai koralų
+59	8259	taisymas	taisymo taisymui taisymą
+60	8260	valykla	valyklas valykloje valyklos valyklą valyklų
+61	8261	jungas	jungo jungu jungą
+62	8262	ištremti	ištrėmė
+63	8263	smuikininkas	smuikininkai smuikininko smuikininkė smuikininkų
+64	8264	pritvirtinti	pritvirtinkite pritvirtino pritvirtintų
+65	8265	pievelė	pievelėje pievelės pievelę
+66	8266	socializmas	socializmo socializmą
+67	8267	devyniolika	devyniolikos
+68	8268	užsitęsęs	užsitęsus užsitęsusi užsitęsusio užsitęsusios užsitęsusiu užsitęsusių užsitęsusį
+69	8269	prilipti	prilipai prilipo prilipom prilipome prilipot prilips priliptų prilipus prilipęs
+70	8270	čiaupas	čiaupo čiaupą čiaupų
+71	8271	sumažinimas	sumažinimo sumažinimui sumažinimą
+72	8272	angaras	angarai angare angaro angaruose angarą angarų
+73	8273	masinti	masina
+74	8274	paveldėtojas	paveldėtojai paveldėtojo paveldėtoju paveldėtoją paveldėtojų
+75	8275	sūrus	sūraus sūriame sūrios sūrūs
+76	8276	neištikimybė	neištikimybe neištikimybei neištikimybės neištikimybę
+77	8277	perkopti	perkopia perkops perkopė
+78	8278	apsėsti	apsėda apsėdo
+79	8279	plakimas	plakimo plakimą
+80	8280	temti	temk temom temsta temstant
+81	8281	pasiglemžti	pasiglemžia pasiglemžė
+82	8282	įžvalgus	įžvalgi įžvalgiai įžvalgų
+83	8283	kastuvas	kastuvais kastuvo kastuvu kastuvus kastuvą kastuvų
+84	8284	perpjauti	perpjaukite perpjauna perpjovė
+85	8285	plaukiojimas	plaukiojimo plaukiojimui plaukiojimą
+86	8286	apvaisinimas	apvaisinimo apvaisinimui apvaisinimą
+87	8287	nuliūdinti	nuliūdina nuliūdino
+88	8288	įžiūrėti	įžiūri
+89	8289	entuziastingas	entuziastinga entuziastingai entuziastingi entuziastingų
+90	8290	lopšys	lopšio lopšiu lopšyje lopšį
+91	8291	įdaras	įdarais įdaru įdarui įdarą
+92	8292	nudažyti	nudažo nudažė
+93	8293	antkapis	antkapiai antkapio antkapius antkapių antkapį
+94	8294	figūrėlė	figūrėles figūrėlių figūrėlėmis figūrėlės figūrėlę
+95	8295	spirti	spiria spirs spyrė
+96	8296	pamaldus	pamaldų
+97	8297	pamiškė	pamiškėje pamiškės pamiškėse pamiškę
+98	8298	žetonas	žetonus žetonų
+99	8299	lietuvininkas	lietuvininkai lietuvininkus lietuvininkų
+100	8300	sambūris	sambūriai sambūrio sambūrius sambūrių sambūrį

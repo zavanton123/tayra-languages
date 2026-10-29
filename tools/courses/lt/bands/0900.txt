@@ -1,0 +1,100 @@
+1	801	pagaliau	
+2	802	sekmadienis	sekmadieni sekmadieniais sekmadienio sekmadieniu sekmadieniui sekmadienius sekmadienių sekmadienį
+3	803	užtikrinti	užtikrina užtikrinai užtikrinamas užtikriname užtikrinant užtikrinantis užtikrinau užtikrindamas užtikrini užtikrink užtikrinkime užtikrinkite užtikrino užtikrinome užtikrins užtikrinsi užtikrinsim užtikrinsime užtikrinsite užtikrinsiu užtikrintum užtikrintume užtikrintumėte užtikrintų užtikrinu užtikrinus užtikrinčiau užtikrinęs
+4	804	spauda	spaudai spaudas spaudoje spaudos spaudą
+5	805	vėjas	vėjai vėjais vėjams vėjau vėjo vėju vėjui vėjuje vėjuose vėjus vėją vėjų
+6	806	išgirsti	išgirdai išgirdau išgirdo išgirdom išgirdome išgirdot išgirdote išgirdus išgirdęs išgirsdavai išgirsdavau išgirsdavo išgirsdavote išgirsi išgirsim išgirsime išgirsit išgirsite išgirsiu išgirsk išgirskime išgirskite išgirsta išgirstam išgirstame išgirstant išgirstantis išgirstas išgirstate išgirstiems išgirstos išgirstu išgirstum išgirstume išgirstumėm išgirstumėte išgirstus išgirstų išgirsčiau
+7	807	noras	norai norais norams noriai noriau noro noru norui norus norą norų
+8	808	laipsnis	laipsni laipsniai laipsniais laipsnio laipsniu laipsniui laipsnius laipsnių laipsnį
+9	809	para	parai paras paromis paroms paros parą parų
+10	810	reikalavimas	reikalavimai reikalavimais reikalavimams reikalavime reikalavimo reikalavimu reikalavimui reikalavimus reikalavimą reikalavimų
+11	811	lėšos	lėšas lėšomis lėšoms lėšų
+12	812	greitis	greityje greitį greičiai greičiais greičiams greičio greičiu greičiui greičiuose greičius greičių
+13	813	pasaulinis	pasauline pasaulinei pasaulines pasaulini pasauliniai pasauliniais pasauliniam pasauliniame pasaulinio pasauliniu pasauliniuose pasaulinius pasaulinių pasaulinė pasaulinėje pasaulinėmis pasaulinėms pasaulinės pasaulinėse pasaulinę pasaulinį
+14	814	zona	zonai zonas zonoje zonomis zonoms zonos zonose zoną zonų
+15	815	infekcija	infekcijai infekcijas infekcijomis infekcijoms infekcijos infekciją infekcijų
+16	816	senelis	senele senelei seneles seneli seneliai seneliais seneliams senelio seneliu seneliui senelius senelių senelė senelėms senelės senelę senelį
+17	817	paaiškinti	paaiškina paaiškiname paaiškinau paaiškindavo paaiškink paaiškinkite paaiškino paaiškinome paaiškins paaiškinsi paaiškinsime paaiškinsiu paaiškintumėte paaiškintų paaiškinu
+18	818	upė	upe upei upes upių upėje upėmis upėms upės upėse upę
+19	819	akmuo	akmenimis akmenims akmenio akmenis akmeniu akmeniui akmens akmenyje akmenys akmenyse akmenį akmenų
+20	820	šventas	šventa šventai šventais šventaisiais šventajai šventajam šventajame šventam šventame švente šventesni šventesnis šventieji šventiesiems švento šventoje šventoji šventojo šventojoje šventomis šventos šventose šventosios šventu šventuoju šventuosius šventus šventą šventąja šventąją šventąjį šventų šventųjų švenčiausia švenčiausias švenčiausioji švenčiausios švenčiausiosios
+21	821	pozicija	pozicijai pozicijas pozicijoje pozicijomis pozicijoms pozicijos pozicijose poziciją pozicijų
+22	822	netgi	
+23	823	skausmas	skausmai skausmais skausmams skausme skausmo skausmu skausmui skausmuose skausmus skausmą skausmų
+24	824	funkcija	funkcijai funkcijas funkcijomis funkcijoms funkcijos funkciją funkcijų
+25	825	retas	reta retai retais retam retame retesni retesniais retesnis retesnius retesnių retesnė retesnės retieji retiems reto retomis retoms retos retu retui retus retą retų retųjų rečiau rečiausia rečiausiai rečiausias rečiausiems rečiausią rečiausių
+26	826	pasiūlymas	pasiūlymai pasiūlymais pasiūlymams pasiūlyme pasiūlymo pasiūlymu pasiūlymui pasiūlymuose pasiūlymus pasiūlymą pasiūlymų
+27	827	karštas	karšta karštai karštais karštajai karštam karštame karštasis karštesnis karštesnė karštesnės karštieji karštiems karšto karštoje karštoji karštojo karštojoje karštomis karštos karštosios karštu karštuoju karštuose karštuosius karštus karštą karštąja karštąją karštąjį karštąsias karštų karštųjų karščiau karščiausi karščiausia karščiausias karščiausios karščiausią karščiausių
+28	828	pokalbis	pokalbi pokalbiai pokalbiais pokalbiams pokalbio pokalbiu pokalbiui pokalbiuose pokalbius pokalbių pokalbyje pokalbį
+29	829	pripažinti	pripažindavo pripažink pripažinkim pripažinkime pripažinkite pripažino pripažins pripažinsiu pripažintų pripažįsta pripažįstame pripažįstate pripažįsti pripažįstu
+30	830	sesuo	seseria seseriai seserie seserimi seserimis seserims seseris sesers seseryje seserys seserį seserų
+31	831	rytoj	
+32	832	turnyras	turnyrai turnyrais turnyrams turnyre turnyro turnyru turnyrui turnyruose turnyrus turnyrą turnyrų
+33	833	nueiti	nueidavau nueidavo nueidavome nueik nueikite nueina nueiname nueini nueinu nueis nueisi nueisime nueisite nueisiu nueitumėte nueitų nueičiau nuėjai nuėjau nuėjo nuėjom nuėjome nuėjote
+34	834	pasiūlyti	pasiūlai pasiūlau pasiūliau pasiūlo pasiūlome pasiūlyk pasiūlykite pasiūlys pasiūlysi pasiūlysime pasiūlysite pasiūlysiu pasiūlytumėte pasiūlytų pasiūlyčiau pasiūlė pasiūlėme pasiūlėte
+35	835	įsivaizduoti	įsivaizdavai įsivaizdavau įsivaizdavo įsivaizdavome įsivaizdavote įsivaizduodavau įsivaizduoja įsivaizduojame įsivaizduojate įsivaizduoji įsivaizduoju įsivaizduok įsivaizduokim įsivaizduokime įsivaizduokit įsivaizduokite įsivaizduotume įsivaizduotumėte įsivaizduočiau
+36	836	išlikti	išlieka išlieka išliekame išliekant išliekantis išlieki išlieku išlik išlikai išlikau išlikdavo išlikim išlikit išlikite išliko išlikom išlikome išliks išliksi išliksim išliksime išliksite išliksiu išliktum išliktume išliktumėte išliktų išlikčiau išlikęs
+37	837	kava	kavai kavas kavoje kavos kavą
+38	838	karinis	karine karinei karines kariniai kariniais kariniam kariniame kariniams karinio kariniu kariniuose karinius karinių karinių karinė karinėje karinėmis karinėms karinės karinėse karinę karinį
+39	839	miestelis	miesteli miesteliai miesteliams miestelio miesteliu miesteliui miesteliuose miestelius miestelių miestelyje miestelį
+40	840	arti	arei aria ariam ariantis ariau ariu ark arki arsiu artas arte arus arčiau arčiausiai arė arėme arėt
+41	841	leidimas	leidimai leidimais leidime leidimo leidimu leidimui leidimus leidimą leidimų
+42	842	paklausti	paklaus paklausdavau paklausdavo paklausei paklausiau paklausime paklausite paklausk paklauskime paklauskit paklauskite paklaustume paklaustumėte paklaustų paklausčiau paklausė paklausėm paklausėme paklausėte
+43	843	pasirūpinti	pasirūpina pasirūpiname pasirūpinau pasirūpindavo pasirūpink pasirūpinkime pasirūpinkite pasirūpino pasirūpinome pasirūpins pasirūpinsime pasirūpinsiu pasirūpintume pasirūpintų
+44	844	neleisti	neleidau neleidi neleido neleidome neleidžia neleidžiame neleidžiate neleidžiu neleis neleisdavo neleisi neleisime neleisite neleisiu neleisk neleiskime neleiskite neleistume neleistų neleisčiau
+45	845	modelis	modelio modelių modelį
+46	846	šokis	šoki šokiai šokiais šokiams šokio šokiu šokiui šokiuose šokius šokių šokį
+47	847	paukštis	paukšti paukštyje paukštė paukštį paukščiai paukščiais paukščiams paukščio paukščiu paukščiui paukščius paukščių
+48	848	televizija	televizijai televizijas televizijoje televizijoms televizijos televizijose televiziją televizijų
+49	849	kvailas	kvaila kvailai kvailais kvailam kvailame kvailasis kvaile kvailesnio kvailesnis kvailesniu kvailesnė kvailesnės kvaili kvailiau kvailiausi kvailiausia kvailiausias kvailiausio kvailiausius kvailiausią kvailiausių kvailiems kvailo kvailomis kvailoms kvailos kvailu kvailuose kvailus kvailą kvailų
+50	850	plaukti	plauk plaukdamas plaukdavau plaukdavo plaukdavome plaukei plauki plaukia plaukiam plaukiame plaukiant plaukiantis plaukiat plaukiate plaukiau plaukimas plaukime plaukimo plaukit plaukite plaukiu plauks plauksi plauksim plauksime plauksit plauksiu plaukte plauktum plauktume plauktų plaukus plaukčiau plaukė plaukėm plaukėme plaukėte plaukę plaukęs
+51	851	garsus	garsaus garsesnis garsesnių garsi garsia garsiais garsiajame garsiam garsiausi garsiausia garsiausiais garsiausias garsiausio garsiausios garsiausiu garsiausius garsiausią garsiausių garsieji garsiems garsioje garsioji garsiojo garsiojoje garsios garsiosios garsiu garsiuoju garsius garsią garsiąja garsiąją garsių garsiųjų garsui garsusis garsūs garsų garsųjį
+52	852	užimti	užima užimame užimate užimdavo užimk užims užimsime užimu užėmiau užėmė užėmėme
+53	853	teisus	teisi teisia teisiai teisiam teisiau teisios teisiu teisiųjų teisu teisusis teisūs teisų
+54	854	medikas	medikai medikais medikams medike mediko mediku medikui medikus medikų mediką medikų
+55	855	šiaip	
+56	856	viršus	viršaus viršui viršuje viršumi viršų
+57	857	įmanomas	įmanoma įmanomai įmanomais įmanomi įmanomo įmanomomis įmanomos įmanomose įmanomu įmanomus įmanomą įmanomų
+58	858	netrukus	
+59	859	pasirinkimas	pasirinkimai pasirinkimais pasirinkimams pasirinkimo pasirinkimu pasirinkimui pasirinkimus pasirinkimą pasirinkimų
+60	860	restoranas	restoranai restoranais restoranams restorane restorano restoranu restoranui restoranuose restoranus restoraną restoranų
+61	861	auka	aukai aukas aukomis aukoms aukos auką aukų
+62	862	treneris	treneri treneriai treneriais treneriams trenerio treneriu treneriui trenerius trenerių trenerė trenerį
+63	863	bendrauti	bendraudama bendraudamas bendraudami bendraudamos bendraudavau bendraudavo bendraudavęs bendrauja bendraujam bendraujame bendraujant bendraujantis bendraujat bendraujate bendrauji bendrauju bendrauk bendraukime bendraukite bendraus bendrausi bendrausim bendrausime bendrausit bendrausite bendrausiu bendrautume bendrautų bendraučiau bendravai bendravau bendravimas bendravimo bendravo bendravom bendravome bendravot bendravote bendravęs
+64	864	lietuviškas	lietuviška lietuviškais lietuviškam lietuviškame lietuviškasis lietuviški lietuviškiausios lietuviškieji lietuviškiems lietuviško lietuviškoje lietuviškoji lietuviškojo lietuviškomis lietuviškoms lietuviškos lietuviškose lietuviškosios lietuvišku lietuviškuoju lietuviškuose lietuviškuosius lietuviškus lietuvišką lietuviškąja lietuviškąją lietuviškų lietuviškųjų
+65	865	stilius	stiliai stiliais stiliams stiliaus stiliui stiliuje stiliumi stilių
+66	866	gimti	gimdamas gimdavo gimei gimė gimiau gimk gims gimsi gimsta gimstam gimstame gimstant gimstantis gimsti gimtume gimė gimėm gimėme gimėt gimėte
+67	867	šiemet	
+68	868	atsakingas	atsakinga atsakingai atsakingais atsakingam atsakingasis atsakingesne atsakingesni atsakingesnis atsakingesnį atsakingi atsakingiau atsakingiausi atsakingiausias atsakingiausieji atsakingiausios atsakingiausiose atsakingieji atsakingiems atsakingo atsakingojo atsakingomis atsakingoms atsakingos atsakingose atsakingosios atsakingu atsakinguoju atsakinguose atsakinguosius atsakingus atsakingą atsakingų atsakingųjų
+69	869	patirtis	patirties patirtimi patirtimis patirtyje patirtys patirtį patirčiai patirčių
+70	870	aikštelė	aikštele aikštelei aikšteles aikštelių aikštelėje aikštelėmis aikštelėms aikštelės aikštelėse aikštelę
+71	871	tarpas	tarpai tarpais tarpe tarpo tarpu tarpui tarpus tarpą tarpų
+72	872	tegu	tegul
+73	873	žiedas	žiedai žiedais žiedams žiede žiedo žiedu žiedui žieduose žiedus žiedą žiedų
+74	874	iškart	
+75	875	tema	temai temas temoje temomis temoms temos temose temą temų
+76	876	koncertas	koncertai koncertais koncertams koncerte koncerto koncertu koncertui koncertuose koncertus koncertą koncertų
+77	877	asociacija	asociacijai asociacijas asociacijoje asociacijomis asociacijoms asociacijos asociaciją asociacijų
+78	878	mesti	mesdamas mesdavau mesdavo mesi mesiantis mesim mesime mesite mesiu mesk meskim meskime meskit meskite mestas meste mestum mestumėt mestų mesčiau meta metam metame metant metat metei meti metė metėm metėme metėt metėte metęs mečiau
+79	879	žingsnis	žingsni žingsniai žingsniais žingsniams žingsnio žingsniu žingsniui žingsnius žingsnių žingsnyje žingsnį
+80	880	pavojus	pavojai pavojais pavojaus pavoju pavojui pavojuje pavojumi pavojų
+81	881	įranga	įrangai įrangas įrangoje įrangos įrangą
+82	882	neįmanomas	neįmanoma neįmanomais neįmanomi neįmanomo neįmanomos neįmanomu neįmanomus neįmanomą neįmanomų
+83	883	vidutinis	vidutine vidutinei vidutines vidutiniai vidutiniais vidutiniam vidutiniame vidutiniams vidutinio vidutiniu vidutinius vidutinių vidutinė vidutinėje vidutinėmis vidutinėms vidutinės vidutinę vidutinį
+84	884	tiksliai	tiksliau
+85	885	rūpintis	rūpinamės rūpinasi rūpinatės rūpinausi rūpindavosi rūpiniesi rūpinkimės rūpinkis rūpinkitės rūpinomės rūpinosi rūpinsimės rūpinsis rūpinsitės rūpinsiuosi rūpintųsi rūpinuosi
+86	886	taikyti	taikai taikant taikau taikiau taiko taikoma taikomas taikome taikomi taikomieji taikomo taikomoji taikomojo taikomomis taikomos taikomosios taikomuosius taikomus taikomą taikomąją taikomų taikomųjų taikys taikysime taikytų taikė taikėme
+87	887	žūti	žus žuvo žūdavo žūk žūna žūsta žūtų žūva
+88	888	ledas	ledai ledais ledams lede ledi ledo ledu ledui ledus ledą ledų
+89	889	esmė	esme esmių esmės esmę
+90	890	administracija	administracijai administracijas administracijoje administracijomis administracijoms administracijos administracijose administraciją administracijų
+91	891	pavasaris	pavasari pavasariais pavasario pavasariu pavasariui pavasarį
+92	892	pavyzdys	pavyzdyje pavyzdžiu pavyzdį pavyzdžiai pavyzdžiais pavyzdžio pavyzdžiu pavyzdžiuose pavyzdžius pavyzdžių
+93	893	sugrįžti	sugrįš sugrįši sugrįšime sugrįšite sugrįšiu sugrįžau sugrįždavo sugrįžk sugrįžkime sugrįžkite sugrįžo sugrįžome sugrįžta sugrįžtu sugrįžtų sugrįžčiau
+94	894	technika	technikai technikas technikoje technikomis technikos techniką technikų
+95	895	sukti	suk suka sukam sukamas sukamės sukant sukantis sukas sukasi sukate sukau sukdamas sukdavo sukdavosi suki sukiesi sukis sukit sukite suko sukosi suks suksi suksis sukta suktas suktis suktą suktųsi suku sukuosi sukčiai sukčiais sukčiams sukčiaus sukčiui sukčiumi sukčius sukčių
+96	896	mokymas	mokymai mokymais mokymams mokyme mokymo mokymu mokymui mokymus mokymą mokymų
+97	897	sugebėti	sugeba sugebam sugebame sugebanti sugebantis sugebančių sugebat sugebate sugebi sugebu sugebėdavai sugebėdavau sugebėdavo sugebėjai sugebėjau sugebėjo sugebėjom sugebėjome sugebėjot sugebėjote sugebėjęs sugebės sugebėsi sugebėsim sugebėsime sugebėsit sugebėsite sugebėsiu sugebėtum sugebėtume sugebėtumėte sugebėtų sugebėčiau
+98	898	drabužis	drabužiai drabužiais drabužiams drabužio drabužiu drabužiuose drabužius drabužių drabužį
+99	899	partneris	partneri partneriai partneriais partneriams partnerio partneriu partneriui partnerius partnerių partneryje partnerė partnerį
+100	900	išmokti	išmok išmokai išmokau išmokim išmokime išmokit išmokite išmoko išmokom išmokome išmokot išmokote išmoks išmoksi išmoksim išmoksime išmoksit išmoksite išmoksiu išmoksta išmokstame išmoksti išmokstu išmokta išmoktas išmoktum išmoktume išmoktumėt išmoktumėte išmoktų išmokus išmokčiau išmokęs

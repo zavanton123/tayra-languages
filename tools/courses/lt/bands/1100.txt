@@ -1,0 +1,100 @@
+1	1001	sodas	sodai sodais sodams sode sodo sodu sodui soduose sodus sodą sodų
+2	1002	ekspertas	ekspertai ekspertais ekspertams eksperte eksperto ekspertu ekspertui ekspertus ekspertą ekspertė ekspertų
+3	1003	įrenginys	įrenginiai įrenginiais įrenginiams įrenginio įrenginiu įrenginiui įrenginiuose įrenginius įrenginių įrenginyje įrenginį
+4	1004	sulaikyti	sulaikant sulaikei sulaikiau sulaikius sulaiko sulaikomas sulaikydavo sulaikyk sulaikykit sulaikykite sulaikys sulaikysi sulaikysim sulaikysime sulaikysiu sulaikyta sulaikytam sulaikytas sulaikytasis sulaikytieji sulaikytiems sulaikytiesiems sulaikyto sulaikytojo sulaikytos sulaikytosios sulaikytuosius sulaikytus sulaikytą sulaikytąjį sulaikytų sulaikytųjų sulaikyčiau sulaikė sulaikėm sulaikėme sulaikėt sulaikėte sulaikęs
+5	1005	žinutė	žinute žinutei žinutes žinutėje žinutėmis žinutėms žinutės žinutėse žinutę žinučių
+6	1006	kainuoti	kainavai kainavo kainavęs kainuodavo kainuoja kainuojantis kainuojate kainuoji kainuoju kainuos kainuosiu kainuotų
+7	1007	kandidatas	kandidatai kandidatais kandidatams kandidate kandidatei kandidates kandidato kandidatu kandidatui kandidatus kandidatą kandidatė kandidatėmis kandidatės kandidatę kandidatų kandidačių
+8	1008	privatus	privataus privatesnio privatiems privatu privatūs privatų privačia privačiai privačiais privačiajam privačiajame privačiam privačiame privačias privačiau privačioje privačiojo privačiomis privačioms privačios privačiose privačiu privačiuose privačius privačią privačių
+9	1009	kūrėjas	kūrėja kūrėjai kūrėjais kūrėjams kūrėjau kūrėjo kūrėjos kūrėju kūrėjui kūrėjus kūrėją kūrėjų
+10	1010	aikštė	aikšte aikštei aikštes aikštėje aikštėmis aikštėms aikštės aikštėse aikštę aikščių
+11	1011	kontrolė	kontrole kontrolei kontroles kontrolėje kontrolės kontrolę
+12	1012	ištiesti	išties ištiesia ištiesk ištieskite ištiesė
+13	1013	finansinis	finansine finansinei finansines finansiniai finansiniais finansiniam finansiniame finansiniams finansinio finansiniu finansiniuose finansinius finansinių finansinė finansinėje finansinėmis finansinėms finansinės finansinėse finansinę finansinį
+14	1014	atrasti	atradai atradau atradimai atradimais atradimas atradimo atradimu atradimui atradimus atradimą atradimų atrado atradom atradome atradote atradus atradęs atranda atrandame atrandant atrandate atrandi atrandu atras atrasdavau atrasdavo atrasi atrasim atrasime atrasite atrasiu atrask atraskime atraskite atrasta atrastas atrastum atrastume atrastų
+15	1015	priminti	primena primindamas primindavau primindavo primini primink priminkit priminkite primins priminsi priminsime priminsite priminsiu primintum primintų priminčiau
+16	1016	atvažiuoti	atvažiavai atvažiavau atvažiavo atvažiavom atvažiavome atvažiavote atvažiuodavau atvažiuodavo atvažiuoja atvažiuojam atvažiuojame atvažiuojate atvažiuoji atvažiuoju atvažiuok atvažiuokit atvažiuokite atvažiuos atvažiuosi atvažiuosime atvažiuosiu atvažiuotų atvažiuočiau
+17	1017	protingas	protinga protingai protingais protingam protingasis protingesni protingesniais protingesnio protingesnis protingesniu protingesnių protingesnė protingesnės protingesnį protingi protingiau protingiausi protingiausia protingiausiai protingiausiais protingiausias protingiausieji protingiausios protingiausiu protingiausius protingiausią protingiausių protingieji protingiems protingo protingomis protingos protingu protingus protingą protingų protingųjų
+18	1018	kasdien	
+19	1019	savas	sava savais savajam savajame savam savame savi saviems savoje savojo savom savomis savoms savos savose savosiomis savosioms savosios savu savuoju savuosiuose savuosius savus savą savąją savąjį savų
+20	1020	elementas	elementai elementais elementams elemente elemento elementu elementui elementuose elementus elementą elementų
+21	1021	naudingas	naudinga naudingai naudingais naudingesni naudingesnio naudingesnis naudingesnių naudingesnė naudingesnės naudingi naudingiau naudingiausi naudingiausia naudingiausiai naudingiausias naudingiausio naudingiausios naudingiausiu naudingiausių naudingo naudingomis naudingoms naudingos naudingosios naudingu naudingus naudingą naudingąsias naudingų naudingųjų
+22	1022	natūralus	natūralu natūralaus natūralesnes natūralesnis natūralesnį natūrali natūralia natūraliai natūraliais natūraliam natūralias natūraliau natūraliausias natūraliausių natūralioje natūraliomis natūralioms natūralios natūraliose natūraliosios natūraliu natūralius natūralią natūralių natūralu natūralūs natūralų
+23	1023	ūkininkas	ūkininkai ūkininkais ūkininkams ūkininke ūkininko ūkininku ūkininkui ūkininkus ūkininką ūkininkė ūkininkų
+24	1024	skambėti	skamba skambant skambantis skambat skambate skambi skambėdamas skambėdavo skambėjo skambės skambėsi skambėtų
+25	1025	pasikeisti	pasikeis pasikeisdavo pasikeisk pasikeistų pasikeitei pasikeiti pasikeitė pasikeitėme pasikeitėte pasikeičia pasikeičiau
+26	1026	principas	principai principais principams principo principu principui principus principą principų
+27	1027	bėda	bėdai bėdas bėdoje bėdomis bėdoms bėdą bėdų
+28	1028	savybė	savybe savybes savybių savybėmis savybėms savybės savybėse savybę
+29	1029	pavardė	pavarde pavardei pavardes pavardėmis pavardės pavardę pavardžių
+30	1030	valstija	valstijai valstijas valstijoje valstijomis valstijoms valstijose valstiją valstijų
+31	1031	čempionas	čempionai čempionais čempionams čempione čempionei čempionių čempiono čempionu čempionui čempionus čempioną čempionė čempionėmis čempionės čempionę čempionų
+32	1032	baimė	baime baimei baimes baimių baimėje baimėmis baimėms baimės baimę
+33	1033	skrydis	skrydyje skrydį skrydžiai skrydžiais skrydžiams skrydžio skrydžiu skrydžiui skrydžiuose skrydžius skrydžių
+34	1034	bazė	baze bazei bazes bazių bazėje bazėmis bazėms bazės bazėse bazę
+35	1035	tęsti	tęs tęsi tęsia tęsiame tęsiau tęsime tęsiu tęsk tęskime tęskite tęstų tęsė
+36	1036	vertė	verte vertei vertes vertę verčių
+37	1037	visur	
+38	1038	tradicija	tradicijai tradicijas tradicijoje tradicijomis tradicijoms tradicijos tradicijose tradiciją tradicijų
+39	1039	banga	bangai bangas bangoje bangomis bangoms bangos bangose bangą bangų
+40	1040	ruduo	rudenio rudeniu rudeniui rudens rudenį
+41	1041	rašytojas	rašytoja rašytojai rašytojais rašytojams rašytojau rašytojo rašytojos rašytoju rašytojui rašytojus rašytoją rašytojų
+42	1042	judėjimas	judėjimai judėjime judėjimo judėjimu judėjimui judėjimuose judėjimus judėjimą judėjimų
+43	1043	tradicinis	tradicine tradicinei tradicines tradiciniai tradiciniais tradiciniam tradiciniame tradiciniams tradicinio tradiciniu tradiciniuose tradicinius tradicinių tradicinė tradicinėje tradicinėmis tradicinėms tradicinės tradicinėse tradicinę tradicinį
+44	1044	šokti	šok šoka šokai šokam šokame šokant šokantis šokat šokate šokau šokdama šokdamas šokdami šokdavai šokdavau šokdavo šokdavom šoki šokim šokime šokit šokite šoko šokom šokome šokot šoks šoksi šoksim šoksime šoksit šoksite šoksiu šoktum šoktume šoktų šoku šokčiau šokęs
+45	1045	priešas	priešai priešams prieše priešo priešu priešui priešus priešą priešų
+46	1046	dantis	danties dantimi dantimis dantims dantys dantyse dantį dantų
+47	1047	surinkti	surenka surenkame surenki surenku surink surinkai surinkau surinkdavo surinkite surinko surinkom surinkome surinkote surinks surinksime surinksiu surinktume surinktų
+48	1048	paprašyti	paprašai paprašau paprašiau paprašo paprašome paprašydavo paprašyk paprašykite paprašys paprašysi paprašysime paprašysite paprašysiu paprašytų paprašyčiau paprašė paprašėme
+49	1049	kūdikis	kūdiki kūdikiai kūdikiais kūdikiams kūdikio kūdikiu kūdikiui kūdikius kūdikių kūdikį
+50	1050	pakviesti	pakvies pakviesdavo pakviesi pakviesime pakviesiu pakviesk pakvieskite pakviestų pakviesčiau pakvietė pakvietėme pakvietėte pakviečia pakviečiau
+51	1051	paklausyti	paklausai paklausau paklauso paklausyk paklausykite paklausys
+52	1052	šiuolaikinis	šiuolaikine šiuolaikinei šiuolaikines šiuolaikiniai šiuolaikiniais šiuolaikiniam šiuolaikiniame šiuolaikiniams šiuolaikinio šiuolaikiniu šiuolaikiniuose šiuolaikinius šiuolaikinių šiuolaikinė šiuolaikinėje šiuolaikinėmis šiuolaikinėms šiuolaikinės šiuolaikinėse šiuolaikinę šiuolaikinį
+53	1053	varyti	varai varant varantis varančiuosius varančiųjų varau varei varo varom varoma varomais varomas varome varomi varomiems varomo varomoji varomos varomosios varomu varomus varomą varomąja varomų varomųjų varot varydamas varyk varykim varykit varykite varys varysi varysim varysime varysiu varytų varyčiau varė
+54	1054	pokytis	pokytį pokyčiai pokyčiais pokyčiams pokyčio pokyčiu pokyčiui pokyčius pokyčių
+55	1055	negu	
+56	1056	karalystė	karalyste karalystei karalystes karalystės karalystėje karalystės karalystėse karalystę karalysčių
+57	1057	garbė	garbe garbei garbių garbės garbę garbų
+58	1058	bičiulis	bičiule bičiulei bičiules bičiuli bičiuliai bičiuliais bičiuliams bičiulio bičiuliu bičiuliui bičiulius bičiulių bičiulė bičiulės bičiulę bičiulį
+59	1059	amerikietis	amerikiečiai amerikiete amerikietei amerikieti amerikietė amerikietės amerikietę amerikietį amerikiečiai amerikiečiais amerikiečiams amerikiečio amerikiečiu amerikiečiui amerikiečius amerikiečių
+60	1060	posėdis	posėdyje posėdį posėdžiai posėdžiams posėdžio posėdžiu posėdžiui posėdžiuose posėdžius posėdžių
+61	1061	centrinis	centrine centrinei centrines centrini centriniai centriniam centriniame centriniams centrinio centriniu centriniuose centrinius centrinių centrinė centrinėje centrinės centrinėse centrinę centrinį
+62	1062	pvz.	pvz
+63	1063	siųsti	siuntei siuntė siuntėme siuntėt siuntėte siunčia siunčiam siunčiamas siunčiame siunčiami siunčiant siunčiantis siunčiat siunčiate siunčiau siunčiu siųs siųsdamas siųsdavau siųsdavo siųsi siųsim siųsime siųsit siųsiu siųsk siųskit siųskite siųstų siųsčiau
+64	1064	kūryba	kūrybai kūryboje kūrybos kūrybą
+65	1065	informuoti	informavai informavau informavo informavom informavome informavote informavus informavęs informuodamas informuoja informuojam informuojamas informuojame informuojant informuojantis informuojate informuoju informuok informuokit informuokite informuos informuosime informuosiu informuota informuotas informuotos informuotą informuotų
+66	1066	metodas	metodai metodais metodams metodo metodu metodus metodą metodų
+67	1067	alus	alaus ali alui aluje alumi alų
+68	1068	siela	sielai sielas sieloje sielomis sieloms sielos sielose sielą sielų
+69	1069	agentūra	agentūros agentūrai agentūras agentūroje agentūromis agentūroms agentūros agentūrose agentūrą agentūrų
+70	1070	konferencija	konferencijai konferencijas konferencijoje konferencijoms konferencijos konferencijose konferenciją konferencijų
+71	1071	pasirodymas	pasirodymai pasirodymais pasirodymams pasirodyme pasirodymo pasirodymu pasirodymui pasirodymuose pasirodymus pasirodymą pasirodymų
+72	1072	pirštas	pirštai pirštais piršte piršto pirštu pirštui pirštuose pirštus pirštą pirštų
+73	1073	įsitikinęs	įsitikinus įsitikinusi įsitikinusios įsitikinę
+74	1074	mokslinis	moksline mokslinei mokslines moksliniai moksliniais moksliniam moksliniame moksliniams mokslinio moksliniu moksliniuose mokslinius mokslinių mokslinė mokslinėje mokslinės mokslinėse mokslinę mokslinį
+75	1075	šaltas	šalta šaltai šaltais šaltajam šaltam šaltame šaltasis šaltesnei šaltesnes šaltesni šaltesnio šaltesnis šaltesnių šaltesnė šaltesnėmis šaltesnės šaltieji šaltiems šalto šaltoje šaltoji šaltojo šaltomis šaltos šaltu šaltuoju šaltuose šaltus šaltą šaltąjį šaltųjų šalčiau šalčiausia šalčiausias šalčiausiose šalčiausių
+76	1076	žymus	žymaus žymesnio žymesnis žymesnius žymesnių žymi žymiai žymiais žymiajame žymiam žymiau žymiausi žymiausia žymiausiais žymiausias žymiausiems žymiausio žymiausios žymiausiu žymiausius žymiausią žymiausių žymieji žymioji žymiojo žymios žymiosios žymiu žymius žymią žymiąją žymiąsias žymusis žymūs žymų žymųjį
+77	1077	pabrėžti	pabrėš pabrėšiu pabrėždavo pabrėžia pabrėžiame pabrėžiu pabrėžkite pabrėžčiau pabrėžė
+78	1078	septyni	septyniais septynias septyniems septyniomis septynioms septynios septyniose septynis septyniuose septynių
+79	1079	spėti	spėdavo spėja spėjai spėjam spėjame spėjat spėjate spėjau spėji spėjo spėjom spėjome spėjot spėjote spėju spėjęs spėk spėkit spėkite spės spėsi spėsim spėsime spėsit spėsite spėsiu spėtum spėtume spėtumėt spėtų spėčiau
+80	1080	mažai	
+81	1081	kursas	kursai kursais kursams kurse kurso kursu kursui kursuose kursus kursą kursų
+82	1082	ties	
+83	1083	dėkoti	dėkodamas dėkodavo dėkoja dėkojam dėkojame dėkojant dėkojate dėkojau dėkoji dėkojo dėkojome dėkoju dėkojęs dėkok dėkokime dėkokit dėkokite dėkos dėkosi dėkosime dėkosiu dėkotumėt dėkotų
+84	1084	tamsus	tamsaus tamsesni tamsesnio tamsesnis tamsesnė tamsesnės tamsi tamsia tamsiai tamsiais tamsiajame tamsiam tamsiame tamsias tamsiau tamsiausia tamsiausias tamsiausios tamsiausią tamsiausių tamsioje tamsioji tamsiojo tamsiojoje tamsiomis tamsios tamsiosios tamsiu tamsiuoju tamsius tamsią tamsiąją tamsiąsias tamsių tamsiųjų tamsu tamsusis tamsūs tamsųjį
+85	1085	paštas	paštai pašte pašto paštu paštui paštus paštą paštų
+86	1086	bilietas	bilietai bilietais bilietams bilieto bilietu bilietui bilietuose bilietus bilietą bilietų
+87	1087	požiūris	požiūriai požiūriais požiūriams požiūrio požiūriu požiūriui požiūrius požiūrių požiūryje požiūrį
+88	1088	krizė	krize krizei krizes krizių krizėje krizėmis krizėms krizės krizėse krizę
+89	1089	kartoti	kartodamas kartodavai kartodavau kartodavo kartodavome kartoja kartojai kartojam kartojama kartojamas kartojame kartojami kartojamos kartojamus kartojamų kartojant kartojantis kartojate kartojau kartoji kartojo kartoju kartojęs kartok kartokit kartokite kartos kartosi kartosime kartosiu kartotum
+90	1090	dujos	dujas dujomis dujoms dujose dujų
+91	1091	išgerti	išgerdavau išgerdavo išgerdavote išgeri išgeria išgeriam išgeriant išgeriantis išgeriate išgeriu išgerk išgerkim išgerkime išgerkit išgerkite išgers išgersi išgersim išgersime išgersit išgersite išgersiu išgerta išgertas išgerto išgertos išgertum išgertume išgertumėt išgertų išgerčiau išgėrei išgėriau išgėrė išgėrėm išgėrėme išgėrėt išgėrėte
+92	1092	sudėtis	sudėties sudėtimi sudėtyje sudėtys sudėtį sudėčiai sudėčių
+93	1093	gimtadienis	gimtadieni gimtadieniai gimtadieniams gimtadienio gimtadieniu gimtadieniui gimtadienius gimtadienių gimtadienyje gimtadienį
+94	1094	poveikis	poveikiai poveikio poveikiu poveikiui poveikius poveikių poveikį
+95	1095	pienas	piene pieno pienu pienui pieną
+96	1096	advokatas	advokatai advokatais advokatams advokate advokato advokatu advokatui advokatus advokatą advokatė advokatų
+97	1097	literatūra	literatūrai literatūroje literatūros literatūrą
+98	1098	gamintojas	gamintoja gamintojai gamintojais gamintojams gamintojo gamintojoms gamintojos gamintoju gamintojui gamintojus gamintojų gamintoją gamintojų
+99	1099	ketvirtas	ketvirta ketvirtai ketvirtais ketvirtajai ketvirtajame ketvirtam ketvirtame ketvirtasis ketvirto ketvirtoje ketvirtoji ketvirtojo ketvirtojoje ketvirtos ketvirtosios ketvirtu ketvirtuoju ketvirtuosius ketvirtus ketvirtą ketvirtąja ketvirtąją ketvirtąjį
+100	1100	gėlė	gėle gėlei gėles gėlių gėlėmis gėlėms gėlės gėlėse gėlę gėlų
