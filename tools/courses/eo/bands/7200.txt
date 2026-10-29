@@ -1,0 +1,100 @@
+1	7101	ĝemela	ĝemelaj ĝemelajn ĝemelan
+2	7102	kurbigi	kurbiganta kurbigantaj kurbigantajn kurbigantan kurbigante kurbigas kurbigata kurbigataj kurbigatajn kurbigatan kurbigate kurbiginta kurbigintaj kurbigintajn kurbigintan kurbiginte kurbigis kurbigita kurbigitaj kurbigitajn kurbigitan kurbigite kurbigonta kurbigontaj kurbigontajn kurbigontan kurbigonte kurbigos kurbigu kurbigus
+3	7103	skarpo	skarpoj skarpojn skarpon
+4	7104	komplemento	komplementoj komplementojn komplementon
+5	7105	fragmenta	fragmentaj fragmentajn fragmentan
+6	7106	popolmuziko	popolmuzikoj popolmuzikojn popolmuzikon
+7	7107	maldekstramana	maldekstramanaj maldekstramanajn maldekstramanan
+8	7108	pojno	pojnoj pojnojn pojnon
+9	7109	tomboŝtono	tomboŝtonoj tomboŝtonojn tomboŝtonon
+10	7110	sterila	sterilaj sterilajn sterilan
+11	7111	tenti	tentanta tentantaj tentantajn tentantan tentante tentas tentata tentataj tentatajn tentatan tentate tentinta tentintaj tentintajn tentintan tentinte tentis tentita tentitaj tentitajn tentitan tentite tentonta tentontaj tentontajn tentontan tentonte tentos tentu tentus
+12	7112	greke	
+13	7113	neĝa	neĝaj neĝajn neĝan
+14	7114	malĝojigi	malĝojiganta malĝojigantaj malĝojigantajn malĝojigantan malĝojigante malĝojigas malĝojigata malĝojigataj malĝojigatajn malĝojigatan malĝojigate malĝojiginta malĝojigintaj malĝojigintajn malĝojigintan malĝojiginte malĝojigis malĝojigita malĝojigitaj malĝojigitajn malĝojigitan malĝojigite malĝojigonta malĝojigontaj malĝojigontajn malĝojigontan malĝojigonte malĝojigos malĝojigu malĝojigus
+15	7115	adepto	adeptoj adeptojn adepton
+16	7116	ascendi	ascendanta ascendantaj ascendantajn ascendantan ascendante ascendanto ascendantoj ascendas ascendinta ascendintaj ascendintajn ascendintan ascendinte ascendis ascendonta ascendontaj ascendontajn ascendontan ascendonte ascendos ascendu ascendus
+17	7117	eksceso	ekscesoj ekscesojn eksceson
+18	7118	demografio	demografioj demografiojn demografion
+19	7119	hungaro	hungaroj hungarojn hungaron
+20	7120	delfeno	delfenoj delfenojn delfenon
+21	7121	unuj	unujn unun
+22	7122	komikso	komiksoj komiksojn komikson
+23	7123	klaĉi	klaĉanta klaĉantaj klaĉantajn klaĉantan klaĉante klaĉas klaĉinta klaĉintaj klaĉintajn klaĉintan klaĉinte klaĉis klaĉonta klaĉontaj klaĉontajn klaĉontan klaĉonte klaĉos klaĉu klaĉus
+24	7124	krusto	krustoj krustojn kruston
+25	7125	idiomaĵo	idiomaĵoj idiomaĵojn idiomaĵon
+26	7126	erozii	erozianta eroziantaj eroziantajn eroziantan eroziante erozias eroziata eroziataj eroziatajn eroziatan eroziate eroziinta eroziintaj eroziintajn eroziintan eroziinte eroziis eroziita eroziitaj eroziitajn eroziitan eroziite erozionta eroziontaj eroziontajn eroziontan erozionte erozios eroziu erozius
+27	7127	bombono	bombonoj bombonojn bombonon
+28	7128	bolto	boltoj boltojn bolton
+29	7129	buĉisto	buĉistoj buĉistojn buĉiston
+30	7130	patrioto	patriotoj patriotojn patrioton
+31	7131	fosto	fostoj fostojn foston
+32	7132	kompata	kompataj kompatajn kompatan
+33	7133	fidinde	
+34	7134	lirika	lirikaj lirikajn lirikan
+35	7135	ŝajniga	ŝajnigaj ŝajnigajn ŝajnigan
+36	7136	tornado	tornadoj tornadojn tornadon
+37	7137	magiisto	magiistoj magiistojn magiiston
+38	7138	malakra	malakraj malakrajn malakran
+39	7139	riĉega	riĉegaj riĉegajn riĉegan
+40	7140	bushaltejo	bushaltejoj bushaltejojn bushaltejon
+41	7141	laŭvorte	
+42	7142	mardo	mardoj mardojn mardon
+43	7143	valoraĵo	valoraĵoj valoraĵojn valoraĵon
+44	7144	bedaŭrinda	bedaŭrindaj bedaŭrindajn bedaŭrindan
+45	7145	emirlando	emirlandoj emirlandojn emirlandon
+46	7146	kurzo	kurzoj kurzojn kurzon
+47	7147	akcenti	akcentanta akcentantaj akcentantajn akcentantan akcentante akcentas akcentata akcentataj akcentatajn akcentatan akcentate akcentinta akcentintaj akcentintajn akcentintan akcentinte akcentis akcentita akcentitaj akcentitajn akcentitan akcentite akcentonta akcentontaj akcentontajn akcentontan akcentonte akcentos akcentu akcentus
+48	7148	kontentiga	kontentigaj kontentigajn kontentigan
+49	7149	subakva	subakvaj subakvajn subakvan
+50	7150	laŭlonge	
+51	7151	bluo	bluoj bluojn bluon
+52	7152	ĵuriano	ĵurianoj ĵurianojn ĵurianon
+53	7153	komunisma	komunismaj komunismajn komunisman
+54	7154	nasko	naskoj naskojn naskon
+55	7155	duonpatro	duonpatroj duonpatrojn duonpatron
+56	7156	konfido	konfidoj konfidojn konfidon
+57	7157	furioze	
+58	7158	mustelo	musteloj mustelojn mustelon
+59	7159	anekdoto	anekdotoj anekdotojn anekdoton
+60	7160	spionado	spionadoj spionadojn spionadon
+61	7161	gorilo	goriloj gorilojn gorilon
+62	7162	latinida	latinidaj latinidajn latinidan
+63	7163	integralo	integraloj integralojn integralon
+64	7164	kvietigi	kvietiganta kvietigantaj kvietigantajn kvietigantan kvietigante kvietigas kvietiginta kvietigintaj kvietigintajn kvietigintan kvietiginte kvietigis kvietigonta kvietigontaj kvietigontajn kvietigontan kvietigonte kvietigos kvietigu kvietigus
+65	7165	trompa	trompaj trompajn trompan
+66	7166	cinika	cinikaj cinikajn cinikan
+67	7167	anuso	anusoj anusojn anuson
+68	7168	pentrado	pentradoj pentradojn pentradon
+69	7169	konsekvenca	konsekvencaj konsekvencajn konsekvencan
+70	7170	torpedo	torpedoj torpedojn torpedon
+71	7171	fremdigi	fremdiganta fremdigantaj fremdigantajn fremdigantan fremdigante fremdigas fremdigata fremdigataj fremdigatajn fremdigatan fremdigate fremdiginta fremdigintaj fremdigintajn fremdigintan fremdiginte fremdigis fremdigita fremdigitaj fremdigitajn fremdigitan fremdigite fremdigonta fremdigontaj fremdigontajn fremdigontan fremdigonte fremdigos fremdigu fremdigus
+72	7172	vikario	vikarioj vikariojn vikarion
+73	7173	propozicio	propozicioj propoziciojn propozicion
+74	7174	erotika	erotikaj erotikajn erotikan
+75	7175	ĵargono	ĵargonoj ĵargonojn ĵargonon
+76	7176	paralizo	paralizoj paralizojn paralizon
+77	7177	perimetro	perimetroj perimetrojn perimetron
+78	7178	fajrobrigado	fajrobrigadoj fajrobrigadojn fajrobrigadon
+79	7179	sameo	sameoj sameojn sameon
+80	7180	karmo	karmoj karmojn karmon
+81	7181	cirila	cirilaj cirilajn cirilan
+82	7182	detalema	detalemaj detalemajn detaleman
+83	7183	homaj rajtoj	homaj rajtoj
+84	7184	observatorio	observatorioj observatoriojn observatorion
+85	7185	rinocero	rinoceroj rinocerojn rinoceron
+86	7186	ombrelo	ombreloj ombrelojn ombrelon
+87	7187	farso	farsoj farsojn farson
+88	7188	ordinarulo	ordinaruloj ordinarulojn ordinarulon
+89	7189	piro	piroj pirojn piron
+90	7190	kredaro	kredaroj kredarojn kredaron
+91	7191	psalmo	psalmoj psalmojn psalmon
+92	7192	defaŭlte	
+93	7193	zinko	zinkoj zinkojn zinkon
+94	7194	penetra	penetraj penetrajn penetran
+95	7195	kulturi	kulturanta kulturantaj kulturantajn kulturantan kulturante kulturas kulturata kulturataj kulturatajn kulturatan kulturate kulturinta kulturintaj kulturintajn kulturintan kulturinte kulturis kulturita kulturitaj kulturitajn kulturitan kulturite kulturonta kulturontaj kulturontajn kulturontan kulturonte kulturos kulturu kulturus
+96	7196	legoma	legomaj legomajn legoman
+97	7197	jubileo	jubileoj jubileojn jubileon
+98	7198	fruktodona	fruktodonaj fruktodonajn fruktodonan
+99	7199	perturbo	perturboj perturbojn perturbon
+100	7200	alivesti	alivestanta alivestantaj alivestantajn alivestantan alivestante alivestas alivestata alivestataj alivestatajn alivestatan alivestate alivestinta alivestintaj alivestintajn alivestintan alivestinte alivestis alivestita alivestitaj alivestitajn alivestitan alivestite alivestonta alivestontaj alivestontajn alivestontan alivestonte alivestos alivestu alivestus

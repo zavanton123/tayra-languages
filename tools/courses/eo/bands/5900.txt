@@ -1,0 +1,100 @@
+1	5801	diplomatio	diplomatioj diplomatiojn diplomation
+2	5802	interstela	interstelaj interstelajn interstelan
+3	5803	mirige	
+4	5804	vinagro	vinagroj vinagrojn vinagron
+5	5805	promenado	promenadoj promenadojn promenadon
+6	5806	amuzi	amuzanta amuzantaj amuzantajn amuzantan amuzante amuzas amuzata amuzataj amuzatajn amuzatan amuzate amuzinta amuzintaj amuzintajn amuzintan amuzinte amuzis amuzita amuzitaj amuzitajn amuzitan amuzite amuzonta amuzontaj amuzontajn amuzontan amuzonte amuzos amuzu amuzus
+7	5807	malkapabla	malkapablaj malkapablajn malkapablan
+8	5808	miksado	miksadoj miksadojn miksadon
+9	5809	nabo	naboj nabojn nabon
+10	5810	butero	buteroj buterojn buteron
+11	5811	oponi	oponanta oponantaj oponantajn oponantan oponante oponantoj oponanton oponas oponinta oponintaj oponintajn oponintan oponinte oponis opononta oponontaj oponontajn oponontan opononte oponos oponu oponus
+12	5812	brakringo	brakringoj brakringojn brakringon
+13	5813	fortuno	fortunoj fortunojn fortunon
+14	5814	loterio	loterioj loteriojn loterion
+15	5815	ĝeno	ĝenoj ĝenojn ĝenon
+16	5816	mezurilo	mezuriloj mezurilojn mezurilon
+17	5817	fosilio	fosilioj fosiliojn fosilion
+18	5818	amplifilo	amplifiloj amplifilojn amplifilon
+19	5819	adapto	adaptoj adaptojn adapton
+20	5820	amatora	amatoraj amatorajn amatoran
+21	5821	tirano	tiranoj tiranojn tiranon
+22	5822	tajli	tajlanta tajlantaj tajlantajn tajlantan tajlante tajlas tajlata tajlataj tajlatajn tajlatan tajlate tajlinta tajlintaj tajlintajn tajlintan tajlinte tajlis tajlita tajlitaj tajlitajn tajlitan tajlite tajlonta tajlontaj tajlontajn tajlontan tajlonte tajlos tajlu tajlus
+23	5823	dudimensia	dudimensiaj dudimensiajn dudimensian
+24	5824	standardo	standardoj standardojn standardon
+25	5825	kombilo	kombiloj kombilojn kombilon
+26	5826	meznombro	meznombroj meznombrojn meznombron
+27	5827	imamo	imamoj imamojn imamon
+28	5828	seruro	seruroj serurojn seruron
+29	5829	superstiĉo	superstiĉoj superstiĉojn superstiĉon
+30	5830	pedalo	pedaloj pedalojn pedalon
+31	5831	striki	strikanta strikantaj strikantajn strikantan strikante strikantoj strikas strikinta strikintaj strikintajn strikintan strikinte strikis strikonta strikontaj strikontajn strikontan strikonte strikos striku strikus
+32	5832	boaco	boacoj boacojn boacon
+33	5833	kroata	kroataj kroatajn kroatan
+34	5834	aristokrataro	aristokrataroj aristokratarojn aristokrataron
+35	5835	rimarko	rimarkoj rimarkojn rimarkon
+36	5836	bunta	buntaj buntajn buntan
+37	5837	klaŭno	klaŭnoj klaŭnojn klaŭnon
+38	5838	ŝiparo	ŝiparoj ŝiparojn ŝiparon
+39	5839	draŝi	draŝanta draŝantaj draŝantajn draŝantan draŝante draŝas draŝata draŝataj draŝatajn draŝatan draŝate draŝinta draŝintaj draŝintajn draŝintan draŝinte draŝis draŝita draŝitaj draŝitajn draŝitan draŝite draŝonta draŝontaj draŝontajn draŝontan draŝonte draŝos draŝu draŝus
+40	5840	diabeto	diabetoj diabetojn diabeton
+41	5841	flora	floraj florajn floran
+42	5842	dogmo	dogmoj dogmojn dogmon
+43	5843	ekbruli	ekbrulanta ekbrulantaj ekbrulantajn ekbrulantan ekbrulante ekbrulas ekbrulinta ekbrulintaj ekbrulintajn ekbrulintan ekbrulinte ekbrulis ekbrulonta ekbrulontaj ekbrulontajn ekbrulontan ekbrulonte ekbrulos ekbrulu ekbrulus
+44	5844	aflikti	afliktanta afliktantaj afliktantajn afliktantan afliktante afliktas afliktata afliktataj afliktatajn afliktatan afliktate afliktinta afliktintaj afliktintajn afliktintan afliktinte afliktis afliktita afliktitaj afliktitajn afliktitan afliktite afliktonta afliktontaj afliktontajn afliktontan afliktonte afliktos afliktu afliktus
+45	5845	skanilo	skaniloj skanilojn skanilon
+46	5846	akuzativo	akuzativoj akuzativojn akuzativon
+47	5847	fervoro	fervoroj fervorojn fervoron
+48	5848	ŝtala	ŝtalaj ŝtalajn ŝtalan
+49	5849	algo	algoj algojn algon
+50	5850	deprimo	deprimoj deprimojn deprimon
+51	5851	orfejo	orfejoj orfejojn orfejon
+52	5852	amuleto	amuletoj amuletojn amuleton
+53	5853	angio	angioj angiojn angion
+54	5854	pasko	paskoj paskojn paskon
+55	5855	suba	subaj subajn suban
+56	5856	nomada	nomadaj nomadajn nomadan
+57	5857	infaneto	infanetoj infanetojn infaneton
+58	5858	kavalireco	kavalirecoj kavalirecojn kavalirecon
+59	5859	elŝipiĝi	elŝipiĝanta elŝipiĝantaj elŝipiĝantajn elŝipiĝantan elŝipiĝante elŝipiĝas elŝipiĝinta elŝipiĝintaj elŝipiĝintajn elŝipiĝintan elŝipiĝinte elŝipiĝis elŝipiĝonta elŝipiĝontaj elŝipiĝontajn elŝipiĝontan elŝipiĝonte elŝipiĝos elŝipiĝu elŝipiĝus
+60	5860	ŝmiri	ŝmiranta ŝmirantaj ŝmirantajn ŝmirantan ŝmirante ŝmiras ŝmirata ŝmirataj ŝmiratajn ŝmiratan ŝmirate ŝmirinta ŝmirintaj ŝmirintajn ŝmirintan ŝmirinte ŝmiris ŝmirita ŝmiritaj ŝmiritajn ŝmiritan ŝmirite ŝmironta ŝmirontaj ŝmirontajn ŝmirontan ŝmironte ŝmiros ŝmiru ŝmirus
+61	5861	grego	gregoj gregojn gregon
+62	5862	gemo	gemoj gemojn gemon
+63	5863	atenano	atenanoj atenanojn atenanon
+64	5864	kapitulaco	kapitulacoj kapitulacojn kapitulacon
+65	5865	stenografio	stenografioj stenografiojn stenografion
+66	5866	malsaĝulo	malsaĝuloj malsaĝulojn malsaĝulon
+67	5867	videbleco	videblecoj videblecojn videblecon
+68	5868	graso	grasoj grasojn grason
+69	5869	absurdaĵo	absurdaĵoj absurdaĵojn absurdaĵon
+70	5870	ungo	ungoj ungojn ungon
+71	5871	fascina	fascinaj fascinajn fascinan
+72	5872	drogo	drogoj drogojn drogon
+73	5873	frankfurto	frankfurtoj frankfurtojn frankfurton
+74	5874	konsisto	konsistoj konsistojn konsiston
+75	5875	piedfingro	piedfingroj piedfingrojn piedfingron
+76	5876	femalo	femaloj femalojn femalon
+77	5877	ĝustigo	ĝustigoj ĝustigojn ĝustigon
+78	5878	atleto	atletoj atletojn atleton
+79	5879	maljuste	
+80	5880	mikroskopo	mikroskopoj mikroskopojn mikroskopon
+81	5881	bakejo	bakejoj bakejojn bakejon
+82	5882	bruto	brutoj brutojn bruton
+83	5883	skani	skananta skanantaj skanantajn skanantan skanante skanas skaninta skanintaj skanintajn skanintan skaninte skanis skanonta skanontaj skanontajn skanontan skanonte skanos skanu skanus
+84	5884	supernatura	supernaturaj supernaturajn supernaturan
+85	5885	serbo	serboj serbojn serbon
+86	5886	fajna	fajnaj fajnajn fajnan
+87	5887	fiere	
+88	5888	spontane	spontanee
+89	5889	labortago	labortagoj labortagojn labortagon
+90	5890	ŝafido	ŝafidoj ŝafidojn ŝafidon
+91	5891	unuigo	unuigoj unuigojn unuigon
+92	5892	mumio	mumioj mumiojn mumion
+93	5893	kolumno	kolumnoj kolumnojn kolumnon
+94	5894	feŭda	feŭdaj feŭdajn feŭdan
+95	5895	arbalesto	arbalestoj arbalestojn arbaleston
+96	5896	mistere	
+97	5897	malebligi	malebliganta malebligantaj malebligantajn malebligantan malebligante malebligas malebliginta malebligintaj malebligintajn malebligintan malebliginte malebligis malebligonta malebligontaj malebligontajn malebligontan malebligonte malebligos malebligu malebligus
+98	5898	mustardo	mustardoj mustardojn mustardon
+99	5899	turmento	turmentoj turmentojn turmenton
+100	5900	silicio	silicioj siliciojn silicion

@@ -1,0 +1,100 @@
+1	1	la	
+2	2	esti	estanta estantaj estantajn estantan estante estanto estas estinta estintaj estintajn estintan estinte estinto estis estonta estontaj estontajn estontan estonte estonto estonton estos estu estus stas
+3	3	de	
+4	4	mi	mia miaj miajn mian min
+5	5	vi	via viaj viajn vian vin
+6	6	kaj	
+7	7	en	
+8	8	ne	
+9	9	al	
+10	10	por	
+11	11	li	lia liaj liajn lian lin
+12	12	ni	nia niaj niajn nian nin
+13	13	ĉu	chu cxu
+14	14	ke	
+15	15	kiu	kiuj kiujn kiun
+16	16	ĝi	ghi ĝia ĝiaj ĝiajn ĝian ĝin
+17	17	tiu	tiuj tiujn tiun
+18	18	kiel	
+19	19	tio	tion
+20	20	ili	ilia iliaj iliajn ilian ilin
+21	21	kun	
+22	22	povi	povanta povantaj povantajn povantan povante povas povinta povintaj povintajn povintan povinte povis povonta povontaj povontajn povontan povonte povos povu povus
+23	23	kio	kion
+24	24	sed	
+25	25	pli	
+26	26	ĉi	chi cxi
+27	27	havi	havanta havantaj havantajn havantan havante havanto havas havata havataj havatajn havatan havate havinta havintaj havintajn havintan havinte havis havita havitaj havitajn havitan havite havonta havontaj havontajn havontan havonte havos havu havus
+28	28	pri	
+29	29	tie	tien
+30	30	aŭ	au aux
+31	31	fari	faranta farantaj farantajn farantan farante faranto farantoj faras farata farataj faratajn faratan farate farinta farintaj farintajn farintan farinte farinto faris farita faritaj faritajn faritan farite faronta farontaj farontajn farontan faronte faros farota farotaj faru farus
+32	32	ŝi	shi shia shiaj shiajn shian sxi ŝia ŝiaj ŝiajn ŝian ŝin
+33	33	diri	diranta dirantaj dirantajn dirantan dirante diras dirata dirataj diratajn diratan dirate dirinta dirintaj dirintajn dirintan dirinte diris dirita diritaj diritajn diritan dirite dironta dirontaj dirontajn dirontan dironte diros diru dirus
+34	34	ĉiu	chiu cxiu cxiuj ĉiuj ĉiujn ĉiun
+35	35	sur	
+36	36	ankaŭ	ankau ankaux
+37	37	el	
+38	38	sia	siaj siajn sian
+39	39	jes	
+40	40	alia	aliaj aliajn alian
+41	41	devi	devanta devantaj devantajn devantan devante devas devinta devintaj devintajn devintan devinte devis devonta devontaj devontajn devontan devonte devos devu devus
+42	42	da	
+43	43	per	
+44	44	se	
+45	45	nur	
+46	46	voli	volanta volantaj volantajn volantan volante volas volata volataj volatajn volatan volate volinta volintaj volintajn volintan volinte volis volita volitaj volitajn volitan volite volonta volontaj volontajn volontan volos volu volus
+47	47	kiam	
+48	48	dum	
+49	49	unu	unun
+50	50	vidi	vd vidanta vidantaj vidantajn vidantan vidante vidanto vidas vidata vidataj vidatajn vidatan vidate vidinta vidintaj vidintajn vidintan vidinte vidinto vidis vidita viditaj viditajn viditan vidite vidonta vidontaj vidontajn vidontan vidonte vidos vidota vidu vidus
+51	51	plej	
+52	52	scii	scianta sciantaj sciantajn sciantan sciante scianto scias sciata sciataj sciatajn sciatan sciate sciinta sciintaj sciintajn sciintan sciinte sciis sciita sciitaj sciitajn sciitan sciite scionta sciontaj sciontajn sciontan scionte scios sciu scius
+53	53	iri	iranta irantaj irantajn irantan irante iras irinta irintaj irintajn irintan irinte iris ironta irontaj irontajn irontan ironte iros iru irus
+54	54	veni	venanta venantaj venantajn venantan venante venas veninta venintaj venintajn venintan veninte venintoj venis venonta venontaj venontajn venontan venonte venos venu venus
+55	55	bone	
+56	56	kie	kien
+57	57	nun	
+58	58	oni	onia oniajn onin
+59	59	do	
+60	60	ĉe	che
+61	61	tiel	
+62	62	jaro	jaroj jarojn jaron
+63	63	homo	homoj homojn homon
+64	64	ĝis	ghis
+65	65	ol	
+66	66	granda	grandaj grandajn grandan
+67	67	pro	
+68	68	ĉar	char
+69	69	ĉio	chio ĉion
+70	70	kial	
+71	71	post	
+72	72	je	
+73	73	bona	bonaj bonajn bonan
+74	74	tre	
+75	75	du	
+76	76	okazi	okazanta okazantaj okazantajn okazantan okazante okazanton okazas okazinta okazintaj okazintajn okazintan okazinte okazis okazonta okazontaj okazontajn okazontan okazonte okazos okazu okazus
+77	77	multa	multaj multajn multan
+78	78	iu	iuj iujn iun
+79	79	fare	
+80	80	jam	
+81	81	antaŭ	antau antaux
+82	82	tempo	tempoj tempojn tempon
+83	83	inter	
+84	84	ja	
+85	85	unua	unuaj unuajn unuan
+86	86	kelka	kelkaj kelkajn kelkan
+87	87	ekzisti	ekzistanta ekzistantaj ekzistantajn ekzistantan ekzistante ekzistas ekzistinta ekzistintaj ekzistintajn ekzistintan ekzistinte ekzistis ekzistonta ekzistontaj ekzistontajn ekzistontan ekzistonte ekzistos ekzistu ekzistus
+88	88	jen	
+89	89	io	iojn ion
+90	90	uzi	uzanta uzantaj uzantajn uzantan uzante uzanto uzantoj uzantojn uzanton uzas uzata uzataj uzatajn uzatan uzate uzinta uzintaj uzintajn uzintan uzinte uzis uzitaj uzitajn uzitan uzite uzonta uzontaj uzontajn uzontan uzonte uzos uzota uzotaj uzu uzus
+91	91	doni	donanta donantaj donantajn donantan donante donanto donas donata donataj donatajn donatan donate donato doninta donintaj donintajn donintan doninte donis donita donitaj donitajn donitan donite dononta donontaj donontajn donontan dononte donos donu donus
+92	92	nu	
+93	93	paroli	parolanta parolantaj parolantajn parolantan parolante parolanto parolantoj parolantojn parolanton parolas parolata parolataj parolatajn parolatan parolate parolinta parolintaj parolintajn parolintan parolinte parolis parolita parolitaj parolitajn parolitan parolite parolonta parolontaj parolontajn parolontan parolonte parolos parolu parolus
+94	94	resti	restanta restantaj restantajn restantan restante restantoj restas restinta restintaj restintajn restintan restinte restis restonta restontaj restontajn restontan restonte restos restu restus
+95	95	eĉ	ech ecx
+96	96	laŭ	lau laux
+97	97	neniu	neniuj neniujn neniun
+98	98	rigardi	rigardanta rigardantaj rigardantajn rigardantan rigardante rigardanto rigardas rigardata rigardataj rigardatajn rigardatan rigardate rigardinta rigardintaj rigardintajn rigardintan rigardinte rigardis rigardita rigarditaj rigarditajn rigarditan rigardite rigardonta rigardontaj rigardontajn rigardontan rigardonte rigardos rigardu rigardus
+99	99	trovi	trovanta trovantaj trovantajn trovantan trovante trovas trovata trovataj trovatajn trovatan trovate trovinta trovintaj trovintajn trovintan trovinte trovinto trovintoj trovis trovita trovitaj trovitajn trovitan trovite trovonta trovontaj trovontajn trovontan trovonte trovos trovota trovu trovus
+100	100	poste	

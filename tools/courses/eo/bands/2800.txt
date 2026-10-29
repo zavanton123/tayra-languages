@@ -1,0 +1,100 @@
+1	2701	licenco	licencoj licencojn licencon
+2	2702	kordo	kordoj kordojn kordon
+3	2703	flanken	
+4	2704	glacio	glacioj glaciojn glacion
+5	2705	mutaciinto	mutaciintoj mutaciintojn mutaciinton
+6	2706	memoraĵo	memoraĵoj memoraĵojn memoraĵon
+7	2707	estingi	estinganta estingantaj estingantajn estingantan estingante estingas estingata estingataj estingatajn estingatan estingate estinginta estingintaj estingintajn estingintan estinginte estingis estingita estingitaj estingitajn estingitan estingite estingonta estingontaj estingontajn estingontan estingonte estingos estingotaj estingu estingus
+8	2708	imiti	imitanta imitantaj imitantajn imitantan imitante imitas imitata imitataj imitatajn imitatan imitate imitinta imitintaj imitintajn imitintan imitinte imitis imitita imititaj imititajn imititan imitite imitonta imitontaj imitontajn imitontan imitonte imitos imitu imitus
+9	2709	kosma	kosmaj kosmajn kosman
+10	2710	regule	
+11	2711	indulgi	indulganta indulgantaj indulgantajn indulgantan indulgante indulgas indulginta indulgintaj indulgintajn indulgintan indulginte indulgis indulgonta indulgontaj indulgontajn indulgontan indulgonte indulgos indulgu indulgus
+12	2712	kontraŭe	
+13	2713	planti	plantanta plantantaj plantantajn plantantan plantante plantas plantata plantataj plantatajn plantatan plantate plantinta plantintaj plantintajn plantintan plantinte plantis plantita plantitaj plantitajn plantitan plantite plantonta plantontaj plantontajn plantontan plantonte plantos plantu plantus
+14	2714	akceptebla	akcepteblaj akcepteblajn akcepteblan
+15	2715	montriĝi	montriĝanta montriĝantaj montriĝantajn montriĝantan montriĝante montriĝas montriĝinta montriĝintaj montriĝintajn montriĝintan montriĝinte montriĝis montriĝonta montriĝontaj montriĝontajn montriĝontan montriĝonte montriĝos montriĝu montriĝus
+16	2716	konvene	
+17	2717	poŝtelefono	poŝtelefonoj poŝtelefonojn poŝtelefonon
+18	2718	milita	militaj militajn militan
+19	2719	klingo	klingoj klingojn klingon
+20	2720	tuko	tukoj tukojn tukon
+21	2721	kamparano	kamparanoj kamparanojn kamparanon
+22	2722	insekto	insektoj insektojn insekton
+23	2723	kranio	kranioj kraniojn kranion
+24	2724	instrua	instruaj instruajn instruan
+25	2725	odori	odoranta odorantaj odorantajn odorantan odorante odoras odorinta odorintaj odorintajn odorintan odorinte odoris odoronta odorontaj odorontajn odorontan odoronte odoros odoru odorus
+26	2726	evento	eventoj eventojn eventon
+27	2727	droni	dronanta dronantaj dronantajn dronantan dronante dronantoj dronas dronata dronataj dronatajn dronatan dronate droninta dronintaj dronintajn dronintan droninte dronis dronita dronitaj dronitajn dronitan dronite drononta dronontaj dronontajn dronontan drononte dronos dronu dronus
+28	2728	heredaĵo	heredaĵoj heredaĵojn heredaĵon
+29	2729	tunelo	tuneloj tunelojn tunelon
+30	2730	ekvacio	ekvacioj ekvaciojn ekvacion
+31	2731	fusilo	fusiloj fusilojn fusilon
+32	2732	serpento	serpentoj serpentojn serpenton
+33	2733	trankviligi	trankviliganta trankviligantaj trankviligantajn trankviligantan trankviligante trankviligas trankviligata trankviligataj trankviligatajn trankviligatan trankviligate trankviliginta trankviligintaj trankviligintajn trankviligintan trankviliginte trankviligis trankviligita trankviligitaj trankviligitajn trankviligitan trankviligite trankviligonta trankviligontaj trankviligontajn trankviligontan trankviligonte trankviligos trankviligu trankviligus
+34	2734	simpatia	simpatiaj simpatiajn simpatian
+35	2735	greko	grekoj grekojn grekon
+36	2736	kompanio	kompanioj kompaniojn kompanion
+37	2737	ŝlosi	shlosas shlosu ŝlosanta ŝlosantaj ŝlosantajn ŝlosantan ŝlosante ŝlosas ŝlosata ŝlosataj ŝlosatajn ŝlosatan ŝlosate ŝlosinta ŝlosintaj ŝlosintajn ŝlosintan ŝlosinte ŝlosis ŝlosita ŝlositaj ŝlositajn ŝlositan ŝlosite ŝlosonta ŝlosontaj ŝlosontajn ŝlosontan ŝlosonte ŝlosos ŝlosu ŝlosus
+38	2738	mortiga	mortigaj mortigajn mortigan
+39	2739	patento	patentoj patentojn patenton
+40	2740	plata	plataj platajn platan
+41	2741	senato	senatoj senatojn senaton
+42	2742	rifuĝi	rifuĝanta rifuĝantaj rifuĝantajn rifuĝantan rifuĝante rifuĝas rifuĝinta rifuĝintaj rifuĝintajn rifuĝintan rifuĝinte rifuĝinto rifuĝintoj rifuĝintojn rifuĝinton rifuĝis rifuĝonta rifuĝontaj rifuĝontajn rifuĝontan rifuĝonte rifuĝos rifuĝu rifuĝus
+43	2743	fordoni	fordonanta fordonantaj fordonantajn fordonantan fordonante fordonas fordonata fordonataj fordonatajn fordonatan fordonate fordoninta fordonintaj fordonintajn fordonintan fordoninte fordonis fordonita fordonitaj fordonitajn fordonitan fordonite fordononta fordonontaj fordonontajn fordonontan fordononte fordonos fordonu fordonus
+44	2744	eligi	eliganta eligantaj eligantajn eligantan eligante eligas eligata eligataj eligatajn eligatan eligate eliginta eligintaj eligintajn eligintan eliginte eligis eligita eligitaj eligitajn eligitan eligite eligonta eligontaj eligontajn eligontan eligonte eligos eligu eligus
+45	2745	malplimulto	malplimultoj malplimultojn malplimulton
+46	2746	bezonata	bezonataj bezonatajn bezonatan
+47	2747	placo	placoj placojn placon
+48	2748	preterlasi	preterlasanta preterlasantaj preterlasantajn preterlasantan preterlasante preterlasas preterlasata preterlasataj preterlasatajn preterlasatan preterlasate preterlasinta preterlasintaj preterlasintajn preterlasintan preterlasinte preterlasis preterlasita preterlasitaj preterlasitajn preterlasitan preterlasite preterlasonta preterlasontaj preterlasontajn preterlasontan preterlasonte preterlasos preterlasu preterlasus
+49	2749	amen	
+50	2750	meblo	mebloj meblojn meblon
+51	2751	deveno	devenoj devenojn devenon
+52	2752	altiĝi	altiĝanta altiĝantaj altiĝantajn altiĝantan altiĝante altiĝas altiĝinta altiĝintaj altiĝintajn altiĝintan altiĝinte altiĝis altiĝonta altiĝontaj altiĝontajn altiĝontan altiĝonte altiĝos altiĝu altiĝus
+53	2753	diktatoro	diktatoroj diktatorojn diktatoron
+54	2754	malantaŭen	
+55	2755	ekloĝi	ekloĝanta ekloĝantaj ekloĝantajn ekloĝantan ekloĝante ekloĝas ekloĝata ekloĝataj ekloĝatajn ekloĝatan ekloĝate ekloĝinta ekloĝintaj ekloĝintajn ekloĝintan ekloĝinte ekloĝis ekloĝita ekloĝitaj ekloĝitajn ekloĝitan ekloĝite ekloĝonta ekloĝontaj ekloĝontajn ekloĝontan ekloĝonte ekloĝos ekloĝu ekloĝus
+56	2756	unueco	unuecoj unuecojn unuecon
+57	2757	kolonia	koloniaj koloniajn kolonian
+58	2758	formorti	formortanta formortantaj formortantajn formortantan formortante formortas formortinta formortintaj formortintajn formortintan formortinte formortis formortonta formortontaj formortontajn formortontan formortonte formortos formortu formortus
+59	2759	anonco	anoncoj anoncojn anoncon
+60	2760	regularo	regularoj regularojn regularon
+61	2761	plaĝo	plaĝoj plaĝojn plaĝon
+62	2762	disiĝi	disiĝanta disiĝantaj disiĝantajn disiĝantan disiĝante disiĝas disiĝinta disiĝintaj disiĝintajn disiĝintan disiĝinte disiĝis disiĝonta disiĝontaj disiĝontajn disiĝontan disiĝonte disiĝos disiĝu disiĝus
+63	2763	kaĉo	kaĉoj kaĉojn kaĉon
+64	2764	kandelo	kandeloj kandelojn kandelon
+65	2765	skemo	skemoj skemojn skemon
+66	2766	minejo	minejoj minejojn minejon
+67	2767	interspaco	interspacoj interspacojn interspacon
+68	2768	ri	ria rian rin
+69	2769	unuafoje	
+70	2770	trairejo	trairejoj trairejojn trairejon
+71	2771	rekono	rekonoj rekonojn rekonon
+72	2772	formeti	formetanta formetantaj formetantajn formetantan formetante formetas formetinta formetintaj formetintajn formetintan formetinte formetis formetonta formetontaj formetontajn formetontan formetonte formetos formetu formetus
+73	2773	stulte	
+74	2774	fianĉino	fianĉinoj fianĉinojn fianĉinon
+75	2775	ekdormi	ekdormanta ekdormantaj ekdormantajn ekdormantan ekdormante ekdormas ekdorminta ekdormintaj ekdormintajn ekdormintan ekdorminte ekdormis ekdormonta ekdormontaj ekdormontajn ekdormontan ekdormonte ekdormos ekdormu ekdormus
+76	2776	montaro	montaroj montarojn montaron
+77	2777	alkroĉi	alkroĉanta alkroĉantaj alkroĉantajn alkroĉantan alkroĉante alkroĉas alkroĉata alkroĉataj alkroĉatajn alkroĉatan alkroĉate alkroĉinta alkroĉintaj alkroĉintajn alkroĉintan alkroĉinte alkroĉis alkroĉita alkroĉitaj alkroĉitajn alkroĉitan alkroĉite alkroĉonta alkroĉontaj alkroĉontajn alkroĉontan alkroĉonte alkroĉos alkroĉu alkroĉus
+78	2778	serĉo	serĉoj serĉojn serĉon
+79	2779	instruistino	instruistinoj instruistinojn instruistinon
+80	2780	interparoli	interparolanta interparolantaj interparolantajn interparolantan interparolante interparolas interparolinta interparolintaj interparolintajn interparolintan interparolinte interparolis interparolonta interparolontaj interparolontajn interparolontan interparolonte interparolos interparolu interparolus
+81	2781	kunveno	kunvenoj kunvenojn kunvenon
+82	2782	videbli	videblanta videblantaj videblantajn videblantan videblante videblas videblinta videblintaj videblintajn videblintan videblinte videblis videblonta videblontaj videblontajn videblontan videblonte videblos videblu videblus
+83	2783	ronda	rondaj rondajn rondan
+84	2784	strebi	strebanta strebantaj strebantajn strebantan strebante strebas strebinta strebintaj strebintajn strebintan strebinte strebis strebonta strebontaj strebontajn strebontan strebonte strebos strebu strebus
+85	2785	praktiki	praktikanta praktikantaj praktikantajn praktikantan praktikante praktikanto praktikantoj praktikantojn praktikas praktikata praktikataj praktikatajn praktikatan praktikate praktikinta praktikintaj praktikintajn praktikintan praktikinte praktikis praktikita praktikitaj praktikitajn praktikitan praktikite praktikonta praktikontaj praktikontajn praktikontan praktikonte praktikos praktiku praktikus
+86	2786	sekretario	sekretarioj sekretariojn sekretarion
+87	2787	aldo	aldoj aldojn aldon
+88	2788	tranĉeo	tranĉeoj tranĉeojn tranĉeon
+89	2789	necese	
+90	2790	armena	armenaj armenajn armenan
+91	2791	telero	teleroj telerojn teleron
+92	2792	emo	emoj emojn emon
+93	2793	entrepreni	entreprenanta entreprenantaj entreprenantajn entreprenantan entreprenante entreprenas entreprenata entreprenataj entreprenatajn entreprenatan entreprenate entrepreninta entreprenintaj entreprenintajn entreprenintan entrepreninte entreprenis entreprenita entreprenitaj entreprenitajn entreprenitan entreprenite entreprenonta entreprenontaj entreprenontajn entreprenontan entreprenonte entreprenos entreprenota entreprenotaj entreprenu entreprenus
+94	2794	onidiro	onidiroj onidirojn onidiron
+95	2795	verŝajna	verŝajnaj verŝajnajn verŝajnan
+96	2796	komercisto	komercistoj komercistojn komerciston
+97	2797	dissendo	dissendoj dissendojn dissendon
+98	2798	marborda	marbordaj marbordajn marbordan
+99	2799	psikologia	psikologiaj psikologiajn psikologian psiĥologia
+100	2800	egale	

@@ -1,0 +1,100 @@
+1	501	loka	lokaj lokajn lokan
+2	502	moviĝi	moviĝanta moviĝantaj moviĝantajn moviĝantan moviĝante moviĝas moviĝinta moviĝintaj moviĝintajn moviĝintan moviĝinte moviĝis moviĝonta moviĝontaj moviĝontajn moviĝontan moviĝonte moviĝos moviĝu moviĝus
+3	503	filino	filinoj filinojn filinon
+4	504	moŝto	moŝtoj moŝtojn moŝton
+5	505	informo	informacio informoj informojn informon
+6	506	sekcio	sekcioj sekciojn sekcion
+7	507	arbaro	arbaroj arbarojn arbaron
+8	508	ĉefa	ĉefaj ĉefajn ĉefan
+9	509	vendi	vendanta vendantaj vendantajn vendantan vendante vendanto vendantoj vendantojn vendanton vendas vendata vendataj vendatajn vendatan vendate vendinta vendintaj vendintajn vendintan vendinte vendis vendita venditaj venditajn venditan vendite vendonta vendontaj vendontajn vendontan vendonte vendos vendota vendu vendus
+10	510	manĝaĵo	manĝaĵoj manĝaĵojn manĝaĵon
+11	511	valoro	valoroj valorojn valoron
+12	512	kampo	kampoj kampojn kampon
+13	513	prezidanto	prezidantoj prezidantojn prezidanton prezidento prezidentoj prezidenton
+14	514	letero	leteroj leterojn leteron
+15	515	eta	etaj etajn etan
+16	516	lanĉi	lanĉanta lanĉantaj lanĉantajn lanĉantan lanĉante lanĉas lanĉata lanĉataj lanĉatajn lanĉatan lanĉate lanĉinta lanĉintaj lanĉintajn lanĉintan lanĉinte lanĉis lanĉita lanĉitaj lanĉitajn lanĉitan lanĉite lanĉonta lanĉontaj lanĉontajn lanĉontan lanĉonte lanĉos lanĉota lanĉu lanĉus
+17	517	kaŝi	kashas kashi kashu kaŝanta kaŝantaj kaŝantajn kaŝantan kaŝante kaŝanto kaŝas kaŝata kaŝataj kaŝatajn kaŝatan kaŝate kaŝinta kaŝintaj kaŝintajn kaŝintan kaŝinte kaŝis kaŝita kaŝitaj kaŝitajn kaŝitan kaŝite kaŝonta kaŝontaj kaŝontajn kaŝontan kaŝonte kaŝos kaŝu kaŝus
+18	518	regi	reganta regantaj regantajn regantan regante regantoj regantojn reganton regas regata regataj regatajn regatan regate regatoj reginta regintaj regintajn regintan reginte regis regita regitaj regitajn regitan regite regonta regontaj regontajn regontan regonte regos regota regu regus
+19	519	materialo	materialoj materialojn materialon
+20	520	malaperi	malaperanta malaperantaj malaperantajn malaperantan malaperante malaperas malaperinta malaperintaj malaperintajn malaperintan malaperinte malaperis malaperonta malaperontaj malaperontajn malaperontan malaperonte malaperos malaperu malaperus
+21	521	traduko	tradukoj tradukojn tradukon
+22	522	arbo	arboj arbojn arbon
+23	523	animo	animoj animojn animon
+24	524	ebla	eblaj eblajn eblan
+25	525	redukti	reduktanta reduktantaj reduktantajn reduktantan reduktante reduktas reduktata reduktataj reduktatajn reduktatan reduktate reduktinta reduktintaj reduktintajn reduktintan reduktinte reduktis reduktita reduktitaj reduktitajn reduktitan reduktite reduktonta reduktontaj reduktontajn reduktontan reduktonte reduktos reduktota reduktu reduktus
+26	526	rekte	
+27	527	konsisti	konsistanta konsistantaj konsistantajn konsistantan konsistante konsistas konsistinta konsistintaj konsistintajn konsistintan konsistinte konsistis konsistonta konsistontaj konsistontajn konsistontan konsistonte konsistos konsistu konsistus
+28	528	intenci	intencanta intencantaj intencantajn intencantan intencante intencas intencata intencataj intencatajn intencatan intencate intencinta intencintaj intencintajn intencintan intencinte intencis intencita intencitaj intencitajn intencitan intencite intenconta intencontaj intencontajn intencontan intenconte intencos intencu intencus
+29	529	socio	socioj sociojn socion
+30	530	linio	linioj liniojn linion
+31	531	nivelo	niveloj nivelojn nivelon
+32	532	trinki	trinkanta trinkantaj trinkantajn trinkantan trinkante trinkas trinkata trinkataj trinkatajn trinkatan trinkate trinkinta trinkintaj trinkintajn trinkintan trinkinte trinkis trinkita trinkitaj trinkitajn trinkitan trinkite trinkonta trinkontaj trinkontajn trinkontan trinkonte trinkos trinku trinkus
+33	533	kapablo	kapabloj kapablojn kapablon
+34	534	limo	limoj limojn limon
+35	535	okazaĵo	okazaĵoj okazaĵojn okazaĵon
+36	536	facile	
+37	537	pozicio	pozicioj poziciojn pozicion
+38	538	metodo	metodoj metodojn metodon
+39	539	bazita	bazitaj bazitajn bazitan
+40	540	klaso	klasoj klasojn klason
+41	541	preferi	preferanta preferantaj preferantajn preferantan preferante preferas preferata preferataj preferatajn preferatan preferate preferinta preferintaj preferintajn preferintan preferinte preferis preferita preferitaj preferitajn preferitan preferite preferonta preferontaj preferontajn preferontan preferonte preferos preferota preferu preferus
+42	542	rakonto	rakontoj rakontojn rakonton
+43	543	aranĝi	aranghi aranĝanta aranĝantaj aranĝantajn aranĝantan aranĝante aranĝanto aranĝantoj aranĝantojn aranĝas aranĝata aranĝataj aranĝatajn aranĝatan aranĝate aranĝinta aranĝintaj aranĝintajn aranĝintan aranĝinte aranĝis aranĝita aranĝitaj aranĝitajn aranĝitan aranĝite aranĝonta aranĝontaj aranĝontajn aranĝontan aranĝonte aranĝos aranĝota aranĝotaj aranĝu aranĝus
+44	544	modelo	modeloj modelojn modelon
+45	545	malnova	malnovaj malnovajn malnovan
+46	546	rilati	rilatanta rilatantaj rilatantajn rilatantan rilatante rilatas rilatata rilatataj rilatatajn rilatatan rilatate rilatinta rilatintaj rilatintajn rilatintan rilatinte rilatis rilatita rilatitaj rilatitajn rilatitan rilatite rilatonta rilatontaj rilatontajn rilatontan rilatonte rilatos rilatu rilatus
+47	547	nura	nuraj nurajn nuran
+48	548	krome	
+49	549	frue	
+50	550	ĉielo	ĉieloj ĉielojn ĉielon
+51	551	konsenti	konsentanta konsentantaj konsentantajn konsentantan konsentante konsentas konsentata konsentataj konsentatajn konsentatan konsentate konsentinta konsentintaj konsentintajn konsentintan konsentinte konsentis konsentita konsentitaj konsentitajn konsentitan konsentite konsentonta konsentontaj konsentontajn konsentontan konsentonte konsentos konsentu konsentus
+52	552	sidiĝi	sidiĝanta sidiĝantaj sidiĝantajn sidiĝantan sidiĝante sidiĝas sidiĝinta sidiĝintaj sidiĝintajn sidiĝintan sidiĝinte sidiĝis sidiĝonta sidiĝontaj sidiĝontajn sidiĝontan sidiĝonte sidiĝos sidiĝu sidiĝus
+53	553	certa	certaj certajn certan
+54	554	imagi	imaganta imagantaj imagantajn imagantan imagante imagas imagata imagataj imagatajn imagatan imagate imaginta imagintaj imagintajn imagintan imaginte imagis imagita imagitaj imagitajn imagitan imagite imagonta imagontaj imagontajn imagontan imagonte imagos imagu imagus
+55	555	koncerne	
+56	556	reen	
+57	557	tasko	taskoj taskojn taskon
+58	558	kvanto	kvantoj kvantojn kvanton
+59	559	oferti	ofertanta ofertantaj ofertantajn ofertantan ofertante ofertas ofertata ofertataj ofertatajn ofertatan ofertate ofertinta ofertintaj ofertintajn ofertintan ofertinte ofertis ofertita ofertitaj ofertitajn ofertitan ofertite ofertonta ofertontaj ofertontajn ofertontan ofertonte ofertos ofertu ofertus
+60	560	promesi	promesanta promesantaj promesantajn promesantan promesante promesas promesata promesataj promesatajn promesatan promesate promesinta promesintaj promesintajn promesintan promesinte promesis promesita promesitaj promesitajn promesitan promesite promesonta promesontaj promesontajn promesontan promesonte promesos promesu promesus
+61	561	celi	celanta celantaj celantajn celantan celante celas celata celataj celatajn celatan celate celinta celintaj celintajn celintan celinte celis celita celitaj celitajn celitan celite celonta celontaj celontajn celontan celonte celos celu celus
+62	562	devigi	deviganta devigantaj devigantajn devigantan devigante devigas devigata devigataj devigatajn devigatan devigate deviginta devigintaj devigintajn devigintan deviginte devigis devigita devigitaj devigitajn devigitan devigite devigonta devigontaj devigontajn devigontan devigonte devigos devigu devigus
+63	563	sciigi	sciiganta sciigantaj sciigantajn sciigantan sciigante sciigas sciigata sciigataj sciigatajn sciigatan sciigate sciiginta sciigintaj sciigintajn sciigintan sciiginte sciigis sciigita sciigitaj sciigitajn sciigitan sciigite sciigonta sciigontaj sciigontajn sciigontan sciigonte sciigos sciigu sciigus
+64	564	partopreni	partoprenanta partoprenantaj partoprenantajn partoprenantan partoprenante partoprenanto partoprenantoj partoprenantojn partoprenanton partoprenas partopreninta partoprenintaj partoprenintajn partoprenintan partopreninte partoprenintoj partoprenis partoprenonta partoprenontaj partoprenontajn partoprenontan partoprenonte partoprenontoj partoprenos partoprenu partoprenus
+65	565	agi	aganta agantaj agantajn agantan agante agantoj agas agata agataj agatajn agatan agate aginta agintaj agintajn agintan aginte agis agita agitaj agitajn agitan agite agonta agontaj agontajn agontan agonte agos agu agus
+66	566	aĝo	aĝoj aĝojn aĝon
+67	567	tuŝi	tushi tuŝanta tuŝantaj tuŝantajn tuŝantan tuŝante tuŝas tuŝata tuŝataj tuŝatajn tuŝatan tuŝate tuŝinta tuŝintaj tuŝintajn tuŝintan tuŝinte tuŝis tuŝita tuŝitaj tuŝitajn tuŝitan tuŝite tuŝonta tuŝontaj tuŝontajn tuŝontan tuŝonte tuŝos tuŝu tuŝus
+68	568	ĉie	chie
+69	569	eŭropa	eŭropaj eŭropajn eŭropan
+70	570	kamarado	kamaradoj kamaradojn kamaradon
+71	571	energio	energioj energiojn energion
+72	572	edzo	edzoj edzojn edzon
+73	573	supozi	supozanta supozantaj supozantajn supozantan supozante supozas supozata supozataj supozatajn supozatan supozate supozinta supozintaj supozintajn supozintan supozinte supozis supozita supozitaj supozitajn supozitan supozite supozonta supozontaj supozontajn supozontan supozonte supozos supozota supozu supozus
+74	574	brita	britaj britajn britan
+75	575	detrui	detruanta detruantaj detruantajn detruantan detruante detruanto detruantoj detruas detruata detruataj detruatajn detruatan detruate detruinta detruintaj detruintajn detruintan detruinte detruis detruita detruitaj detruitajn detruitan detruite detruonta detruontaj detruontajn detruontan detruonte detruos detruotaj detruu detruus
+76	576	popolo	popoloj popolojn popolon
+77	577	aserti	asertanta asertantaj asertantajn asertantan asertante asertas asertata asertataj asertatajn asertatan asertate asertinta asertintaj asertintajn asertintan asertinte asertis asertita asertitaj asertitajn asertitan asertite asertonta asertontaj asertontajn asertontan asertonte asertos asertu asertus
+78	578	ruĝa	rughaj ruĝaj ruĝajn ruĝan
+79	579	mallonga	mallongaj mallongajn mallongan
+80	580	ses	
+81	581	maŝino	maŝinoj maŝinojn maŝinon
+82	582	silenti	silentanta silentantaj silentantajn silentantan silentante silentas silentinta silentintaj silentintajn silentintan silentinte silentis silentonta silentontaj silentontajn silentontan silentonte silentos silentu silentus
+83	583	konstruaĵo	konstruaĵoj konstruaĵojn konstruaĵon
+84	584	barono	baronoj baronojn baronon
+85	585	projekto	projektoj projektojn projekton
+86	586	protekti	protektanta protektantaj protektantajn protektantan protektante protektanto protektantoj protektantojn protektanton protektas protektata protektataj protektatajn protektatan protektate protektato protektinta protektintaj protektintajn protektintan protektinte protektis protektita protektitaj protektitajn protektitan protektite protektito protektitoj protektonta protektontaj protektontajn protektontan protektonte protektos protektota protektu protektus
+87	587	malhelpi	malhelpanta malhelpantaj malhelpantajn malhelpantan malhelpante malhelpas malhelpata malhelpataj malhelpatajn malhelpatan malhelpate malhelpinta malhelpintaj malhelpintajn malhelpintan malhelpinte malhelpis malhelpita malhelpitaj malhelpitajn malhelpitan malhelpite malhelponta malhelpontaj malhelpontajn malhelpontan malhelponte malhelpos malhelpu malhelpus
+88	588	ekonomia	ekonomiaj ekonomiajn ekonomian
+89	589	ĉambro	chambro ĉambrego ĉambroj ĉambrojn ĉambron
+90	590	influi	influanta influantaj influantajn influantan influante influantoj influas influata influataj influatajn influatan influate influinta influintaj influintajn influintan influinte influis influita influitaj influitajn influitan influite influonta influontaj influontajn influontan influonte influos influu influus
+91	591	kies	
+92	592	veturi	veturanta veturantaj veturantajn veturantan veturante veturas veturata veturataj veturatajn veturatan veturate veturinta veturintaj veturintajn veturintan veturinte veturis veturita veturitaj veturitajn veturitan veturite veturonta veturontaj veturontajn veturontan veturonte veturos veturu veturus
+93	593	duono	duonoj duonojn duonon
+94	594	telefoni	telefonanta telefonantaj telefonantajn telefonantan telefonante telefonas telefonata telefonataj telefonatajn telefonatan telefonate telefoninta telefonintaj telefonintajn telefonintan telefoninte telefonis telefonita telefonitaj telefonitajn telefonitan telefonite telefononta telefonontaj telefonontajn telefonontan telefononte telefonos telefonu telefonus
+95	595	nigra	nigraj nigrajn nigran
+96	596	plenumi	plenumanta plenumantaj plenumantajn plenumantan plenumante plenumantoj plenumantojn plenumas plenumata plenumataj plenumatajn plenumatan plenumate plenuminta plenumintaj plenumintajn plenumintan plenuminte plenumis plenumita plenumitaj plenumitajn plenumitan plenumite plenumonta plenumontaj plenumontajn plenumontan plenumonte plenumos plenumu plenumus
+97	597	movi	movanta movantaj movantajn movantan movante movas movata movataj movatajn movatan movate movinta movintaj movintajn movintan movinte movis movita movitaj movitajn movitan movite movonta movontaj movontajn movontan movonte movos movu movus
+98	598	vizaĝo	vizaĝoj vizaĝojn vizaĝon
+99	599	posta	postaj postajn postan
+100	600	gepatroj	gepatrojn

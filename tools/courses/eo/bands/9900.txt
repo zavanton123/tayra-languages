@@ -1,0 +1,100 @@
+1	9801	adjektiva	adjektivaj adjektivajn adjektivan
+2	9802	nelegitima	nelegitimaj nelegitimajn nelegitiman
+3	9803	apokalipsa	apokalipsaj apokalipsajn apokalipsan
+4	9804	minareto	minaretoj minaretojn minareton
+5	9805	kavalira	kavaliraj kavalirajn kavaliran
+6	9806	piedvojo	piedvojoj piedvojojn piedvojon
+7	9807	vice	
+8	9808	amplekse	
+9	9809	fifame	
+10	9810	kazaĥa	kazaĥaj kazaĥajn kazaĥan
+11	9811	marbirdo	marbirdoj marbirdojn marbirdon
+12	9812	amindumado	amindumadoj amindumadojn amindumadon
+13	9813	strateto	stratetoj stratetojn strateton
+14	9814	krabo	kraboj krabojn krabon
+15	9815	pliklarigi	pliklariganta pliklarigantaj pliklarigantajn pliklarigantan pliklarigante pliklarigas pliklarigata pliklarigataj pliklarigatajn pliklarigatan pliklarigate pliklariginta pliklarigintaj pliklarigintajn pliklarigintan pliklariginte pliklarigis pliklarigita pliklarigitaj pliklarigitajn pliklarigitan pliklarigite pliklarigonta pliklarigontaj pliklarigontajn pliklarigontan pliklarigonte pliklarigos pliklarigu pliklarigus
+16	9816	priplanti	priplantanta priplantantaj priplantantajn priplantantan priplantante priplantas priplantata priplantataj priplantatajn priplantatan priplantate priplantinta priplantintaj priplantintajn priplantintan priplantinte priplantis priplantita priplantitaj priplantitajn priplantitan priplantite priplantonta priplantontaj priplantontajn priplantontan priplantonte priplantos priplantu priplantus
+17	9817	kadmio	kadmioj kadmiojn kadmion
+18	9818	akupunkturo	akupunkturoj akupunkturojn akupunkturon
+19	9819	pozitivismo	pozitivismoj pozitivismojn pozitivismon
+20	9820	framasonismo	framasonismoj framasonismojn framasonismon
+21	9821	flegisto	flegistoj flegistojn flegiston
+22	9822	dupleksa	dupleksaj dupleksajn dupleksan
+23	9823	latuna	latunaj latunajn latunan
+24	9824	citilo	citiloj citilojn citilon
+25	9825	fajfilo	fajfiloj fajfilojn fajfilon
+26	9826	alkoholismo	alkoholismoj alkoholismojn alkoholismon
+27	9827	akustiko	akustikoj akustikojn akustikon
+28	9828	ĉioscia	ĉiosciaj ĉiosciajn ĉioscian
+29	9829	ampero	amperoj amperojn amperon
+30	9830	homama	homamaj homamajn homaman
+31	9831	veŝto	veŝtoj veŝtojn veŝton
+32	9832	alternado	alternadoj alternadojn alternadon
+33	9833	aneksaĵo	aneksaĵoj aneksaĵojn aneksaĵon
+34	9834	help	
+35	9835	elektromagnetismo	elektromagnetismoj elektromagnetismojn elektromagnetismon
+36	9836	antimono	antimonoj antimonojn antimonon
+37	9837	koronaria	koronariaj koronariajn koronarian
+38	9838	rusto	rustoj rustojn ruston
+39	9839	antagonismo	antagonismoj antagonismojn antagonismon
+40	9840	aŭtisma	aŭtismaj aŭtismajn aŭtisman
+41	9841	spontaneco	spontanecoj spontanecojn spontanecon
+42	9842	pumo	pumoj pumojn pumon
+43	9843	nemovebla	nemoveblaj nemoveblajn nemoveblan
+44	9844	anekdota	anekdotaj anekdotajn anekdotan
+45	9845	kalkultabelo	kalkultabeloj kalkultabelojn kalkultabelon
+46	9846	metalroko	metalrokoj metalrokojn metalrokon
+47	9847	togo	togoj togojn togon
+48	9848	kontrapunkto	kontrapunktoj kontrapunktojn kontrapunkton
+49	9849	boao	boaoj boaojn boaon
+50	9850	adhero	adheroj adherojn adheron
+51	9851	vegetarismo	vegetarismoj vegetarismojn vegetarismon
+52	9852	sindona	sindonaj sindonajn sindonan
+53	9853	nekompetenta	nekompetentaj nekompetentajn nekompetentan
+54	9854	tinuso	tinusoj tinusojn tinuson
+55	9855	heraldika	heraldikaj heraldikajn heraldikan
+56	9856	savano	savanoj savanojn savanon
+57	9857	fregato	fregatoj fregatojn fregaton
+58	9858	atomkerno	atomkernoj atomkernojn atomkernon
+59	9859	feŭdo	feŭdoj feŭdojn feŭdon
+60	9860	montoflanko	montoflankoj montoflankojn montoflankon
+61	9861	okangula	okangulaj okangulajn okangulan
+62	9862	neĝoŝtormo	neĝoŝtormoj neĝoŝtormojn neĝoŝtormon
+63	9863	anoncado	anoncadoj anoncadojn anoncadon
+64	9864	vestado	vestadoj vestadojn vestadon
+65	9865	gravitado	gravitadoj gravitadojn gravitadon
+66	9866	ventromuskoloj	ventromuskolo ventromuskolojn ventromuskolon
+67	9867	gnostikismo	gnostikismoj gnostikismojn gnostikismon
+68	9868	eritrocito	eritrocitoj eritrocitojn eritrociton
+69	9869	sfinkso	sfinksoj sfinksojn sfinkson
+70	9870	konglomerato	konglomeratoj konglomeratojn konglomeraton
+71	9871	siliko	silikoj silikojn silikon
+72	9872	ripozejo	ripozejoj ripozejojn ripozejon
+73	9873	ario	arioj ariojn arion
+74	9874	rulŝtuparo	rulŝtuparoj rulŝtuparojn rulŝtuparon
+75	9875	artikulo	artikuloj artikulojn artikulon
+76	9876	kompendio	kompendioj kompendiojn kompendion
+77	9877	aŭreolo	aŭreoloj aŭreolojn aŭreolon
+78	9878	livreo	livreoj livreojn livreon
+79	9879	apokrifa	apokrifaj apokrifajn apokrifan
+80	9880	zebro	zebroj zebrojn zebron
+81	9881	bulvardo	bulvardoj bulvardojn bulvardon
+82	9882	filumo	filumoj filumojn filumon
+83	9883	gekokoj	gekoko gekokojn gekokon
+84	9884	abstinado	abstinadoj abstinadojn abstinadon
+85	9885	filologio	filologioj filologiojn filologion
+86	9886	enirhalo	enirhaloj enirhalojn enirhalon
+87	9887	sincereco	sincerecoj sincerecojn sincerecon
+88	9888	ekoregiono	ekoregionoj ekoregionojn ekoregionon
+89	9889	germaniumo	germaniumoj germaniumojn germaniumon
+90	9890	ironia	ironiaj ironiajn ironian
+91	9891	ŝteliri	ŝteliranta ŝtelirantaj ŝtelirantajn ŝtelirantan ŝtelirante ŝteliras ŝtelirinta ŝtelirintaj ŝtelirintajn ŝtelirintan ŝtelirinte ŝteliris ŝtelironta ŝtelirontaj ŝtelirontajn ŝtelirontan ŝtelironte ŝteliros ŝteliru ŝtelirus
+92	9892	anjono	anjonoj anjonojn anjonon
+93	9893	ĵetlanco	ĵetlancoj ĵetlancojn ĵetlancon
+94	9894	bukla	buklaj buklajn buklan
+95	9895	tabulludo	tabulludoj tabulludojn tabulludon
+96	9896	vorte	
+97	9897	grade	
+98	9898	bei	beanta beantaj beantajn beantan beante beas beinta beintaj beintajn beintan beinte beis beonta beontaj beontajn beontan beonte beos beu beus
+99	9899	plagiato	plagiatoj plagiatojn plagiaton
+100	9900	fluoro	fluoroj fluorojn fluoron

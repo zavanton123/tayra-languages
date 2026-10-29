@@ -1,0 +1,100 @@
+1	1501	faligi	faliganta faligantaj faligantajn faligantan faligante faligas faligata faligataj faligatajn faligatan faligate faliginta faligintaj faligintajn faligintan faliginte faligis faligita faligitaj faligitajn faligitan faligite faligonta faligontaj faligontajn faligontan faligonte faligos faligu faligus
+2	1502	ĉiutaga	ĉiutagaj ĉiutagajn ĉiutagan
+3	1503	spekti	spektanta spektantaj spektantajn spektantan spektante spektanto spektantoj spektantojn spektanton spektas spektata spektataj spektatajn spektatan spektate spektinta spektintaj spektintajn spektintan spektinte spektis spektita spektitaj spektitajn spektitan spektite spektonta spektontaj spektontajn spektontan spektonte spektos spektu spektus
+4	1504	progreso	progresoj progresojn progreson
+5	1505	dia	diaj diajn dian
+6	1506	dorso	dorsoj dorsojn dorson
+7	1507	kompati	kompatanta kompatantaj kompatantajn kompatantan kompatante kompatas kompatata kompatataj kompatatajn kompatatan kompatate kompatinta kompatintaj kompatintajn kompatintan kompatinte kompatis kompatita kompatitaj kompatitajn kompatitan kompatite kompatonta kompatontaj kompatontajn kompatontan kompatonte kompatos kompatu kompatus
+8	1508	perspektivo	perspektivoj perspektivojn perspektivon
+9	1509	revo	revoj revojn revon
+10	1510	sonĝi	sonĝanta sonĝantaj sonĝantajn sonĝantan sonĝante sonĝas sonĝinta sonĝintaj sonĝintajn sonĝintan sonĝinte sonĝis sonĝonta sonĝontaj sonĝontajn sonĝontan sonĝonte sonĝos sonĝu sonĝus
+11	1511	ĉefurbo	ĉefurboj ĉefurbojn ĉefurbon
+12	1512	konstruo	konstruoj konstruojn konstruon
+13	1513	kaĉjo	kaĉjoj kaĉjojn kaĉjon
+14	1514	sorto	sortoj sortojn sorton
+15	1515	vasta	vastaj vastajn vastan
+16	1516	vundo	vundoj vundojn vundon
+17	1517	prave	
+18	1518	miksi	miksanta miksantaj miksantajn miksantan miksante miksas miksata miksataj miksatajn miksatan miksate miksinta miksintaj miksintajn miksintan miksinte miksis miksita miksitaj miksitajn miksitan miksite miksonta miksontaj miksontajn miksontan miksonte miksos miksu miksus
+19	1519	saĝa	saĝaj saĝajn saĝan
+20	1520	duobla	duoblaj duoblajn duoblan
+21	1521	tipa	tipaj tipajn tipan
+22	1522	akademia	akademiaj akademiajn akademian
+23	1523	nekredeble	
+24	1524	malsukcesi	malsukcesanta malsukcesantaj malsukcesantajn malsukcesantan malsukcesante malsukcesas malsukcesinta malsukcesintaj malsukcesintajn malsukcesintan malsukcesinte malsukcesis malsukcesonta malsukcesontaj malsukcesontajn malsukcesontan malsukcesonte malsukcesos malsukcesu malsukcesus
+25	1525	dato	datoj datojn daton
+26	1526	peni	penanta penantaj penantajn penantan penante penas peninta penintaj penintajn penintan peninte penis penonta penontaj penontajn penontan penonte penos penu penus
+27	1527	lakto	laktoj laktojn lakton
+28	1528	hospitalo	hospitaloj hospitalojn hospitalon
+29	1529	juda	judaj judajn judan
+30	1530	citaĵo	citaĵoj citaĵojn citaĵon
+31	1531	publiko	publikoj publikojn publikon
+32	1532	malpeza	malpezaj malpezajn malpezan
+33	1533	hm	
+34	1534	senco	sencoj sencojn sencon
+35	1535	marŝi	marshi marshu marŝanta marŝantaj marŝantajn marŝantan marŝante marŝas marŝinta marŝintaj marŝintajn marŝintan marŝinte marŝis marŝonta marŝontaj marŝontajn marŝontan marŝonte marŝos marŝu marŝus
+36	1536	nuntempa	nuntempaj nuntempajn nuntempan
+37	1537	malsati	malsatanta malsatantaj malsatantajn malsatantan malsatante malsatas malsatinta malsatintaj malsatintajn malsatintan malsatinte malsatis malsatonta malsatontaj malsatontajn malsatontan malsatonte malsatos malsatu malsatus
+38	1538	juro	juroj jurojn juron
+39	1539	severa	severaj severajn severan
+40	1540	rememori	rememoranta rememorantaj rememorantajn rememorantan rememorante rememoras rememorata rememorataj rememoratajn rememoratan rememorate rememorinta rememorintaj rememorintajn rememorintan rememorinte rememoris rememorita rememoritaj rememoritajn rememoritan rememorite rememoronta rememorontaj rememorontajn rememorontan rememoronte rememoros rememoru rememorus
+41	1541	imposto	impostoj impostojn imposton
+42	1542	nuligi	nuliganta nuligantaj nuligantajn nuligantan nuligante nuligas nuligata nuligataj nuligatajn nuligatan nuligate nuliginta nuligintaj nuligintajn nuligintan nuliginte nuligis nuligita nuligitaj nuligitajn nuligitan nuligite nuligonta nuligontaj nuligontajn nuligontan nuligonte nuligos nuligu nuligus
+43	1543	permeso	permesoj permesojn permeson
+44	1544	sekso	seksoj seksojn sekson
+45	1545	krizo	krizoj krizojn krizon
+46	1546	dolaro	dolaroj dolarojn dolaron
+47	1547	revidi	revidanta revidantaj revidantajn revidantan revidante revidas revidinta revidintaj revidintajn revidintan revidinte revidis revidonta revidontaj revidontajn revidontan revidonte revidos revidu revidus
+48	1548	laŭdire	
+49	1549	ĉampiono	ĉampionoj ĉampionojn ĉampionon
+50	1550	statuso	statusoj statusojn statuson
+51	1551	renkontiĝo	renkontiĝoj renkontiĝojn renkontiĝon
+52	1552	viktimo	viktimoj viktimojn viktimon
+53	1553	iniciato	iniciatoj iniciatojn iniciaton
+54	1554	media	mediaj mediajn median
+55	1555	negativa	negativaj negativajn negativan
+56	1556	multekosta	multekostaj multekostajn multekostan
+57	1557	graveco	gravecoj gravecojn gravecon
+58	1558	nelonge	
+59	1559	stiri	stiranta stirantaj stirantajn stirantan stirante stiranto stirantoj stiras stirata stirataj stiratajn stiratan stirate stirinta stirintaj stirintajn stirintan stirinte stiris stirita stiritaj stiritajn stiritan stirite stironta stirontaj stirontajn stirontan stironte stiros stiru stirus
+60	1560	venko	venkoj venkojn venkon
+61	1561	anonci	anoncanta anoncantaj anoncantajn anoncantan anoncante anoncanto anoncantoj anoncantojn anoncas anoncata anoncataj anoncatajn anoncatan anoncate anoncinta anoncintaj anoncintajn anoncintan anoncinte anoncis anoncita anoncitaj anoncitajn anoncitan anoncite anonconta anoncontaj anoncontajn anoncontan anonconte anoncos anoncu anoncus
+62	1562	naĝi	naĝanta naĝantaj naĝantajn naĝantan naĝante naĝanto naĝantoj naĝantojn naĝas naĝinta naĝintaj naĝintajn naĝintan naĝinte naĝis naĝonta naĝontaj naĝontajn naĝontan naĝonte naĝos naĝu naĝus
+63	1563	minaci	minacanta minacantaj minacantajn minacantan minacante minacas minacata minacataj minacatajn minacatan minacate minacinta minacintaj minacintajn minacintan minacinte minacis minacita minacitaj minacitajn minacitan minacite minaconta minacontaj minacontajn minacontan minaconte minacos minacu minacus
+64	1564	supreniri	supreniranta suprenirantaj suprenirantajn suprenirantan suprenirante supreniras suprenirinta suprenirintaj suprenirintajn suprenirintan suprenirinte supreniris suprenironta suprenirontaj suprenirontajn suprenirontan suprenironte supreniros supreniru suprenirus
+65	1565	malplena	malplenaj malplenajn malplenan
+66	1566	forĵeti	forĵetanta forĵetantaj forĵetantajn forĵetantan forĵetante forĵetas forĵetata forĵetataj forĵetatajn forĵetatan forĵetate forĵetinta forĵetintaj forĵetintajn forĵetintan forĵetinte forĵetis forĵetita forĵetitaj forĵetitajn forĵetitan forĵetite forĵetonta forĵetontaj forĵetontajn forĵetontan forĵetonte forĵetos forĵetota forĵetu forĵetus
+67	1567	parte	
+68	1568	elsendi	elsendanta elsendantaj elsendantajn elsendantan elsendante elsendas elsendata elsendataj elsendatajn elsendatan elsendate elsendinta elsendintaj elsendintajn elsendintan elsendinte elsendis elsendita elsenditaj elsenditajn elsenditan elsendite elsendonta elsendontaj elsendontajn elsendontan elsendonte elsendos elsendu elsendus
+69	1569	kompreno	komprenoj komprenojn komprenon
+70	1570	absolute	
+71	1571	fazo	fazoj fazojn fazon
+72	1572	instali	instalanta instalantaj instalantajn instalantan instalante instalas instalata instalataj instalatajn instalatan instalate instalinta instalintaj instalintajn instalintan instalinte instalis instalita instalitaj instalitajn instalitan instalite instalonta instalontaj instalontajn instalontan instalonte instalos instalota instalu instalus
+73	1573	zorgo	zorgoj zorgojn zorgon
+74	1574	konduti	kondutanta kondutantaj kondutantajn kondutantan kondutante kondutas kondutinta kondutintaj kondutintajn kondutintan kondutinte kondutis kondutonta kondutontaj kondutontajn kondutontan kondutonte kondutos kondutu kondutus
+75	1575	ministro	ministroj ministrojn ministron
+76	1576	tavolo	tavoloj tavolojn tavolon
+77	1577	adopti	adoptanta adoptantaj adoptantajn adoptantan adoptante adoptanto adoptantoj adoptas adoptata adoptataj adoptatajn adoptatan adoptate adoptinta adoptintaj adoptintajn adoptintan adoptinte adoptis adoptitaj adoptitajn adoptitan adoptite adoptonta adoptontaj adoptontajn adoptontan adoptonte adoptos adoptu adoptus
+78	1578	pado	padoj padojn padon
+79	1579	oceano	oceanoj oceanojn oceanon
+80	1580	papero	paperoj paperojn paperon
+81	1581	referenco	referencoj referencojn referencon
+82	1582	esploristo	esploristoj esploristojn esploriston
+83	1583	radiado	radiadoj radiadojn radiadon
+84	1584	prezento	prezentoj prezentojn prezenton
+85	1585	tridek	
+86	1586	familia	familiaj familiajn familian
+87	1587	alfronti	alfrontanta alfrontantaj alfrontantajn alfrontantan alfrontante alfrontas alfrontata alfrontataj alfrontatajn alfrontatan alfrontate alfrontinta alfrontintaj alfrontintajn alfrontintan alfrontinte alfrontis alfrontita alfrontitaj alfrontitajn alfrontitan alfrontite alfrontonta alfrontontaj alfrontontajn alfrontontan alfrontonte alfrontos alfrontu alfrontus
+88	1588	egala	egalaj egalajn egalan
+89	1589	kontakti	kontaktanta kontaktantaj kontaktantajn kontaktantan kontaktante kontaktas kontaktata kontaktataj kontaktatajn kontaktatan kontaktate kontaktinta kontaktintaj kontaktintajn kontaktintan kontaktinte kontaktis kontaktita kontaktitaj kontaktitajn kontaktitan kontaktite kontaktonta kontaktontaj kontaktontajn kontaktontan kontaktonte kontaktos kontaktu kontaktus
+90	1590	ero	era eran eroj erojn eron
+91	1591	alteco	altecoj altecojn altecon
+92	1592	gaso	gasoj gasojn gason
+93	1593	vino	vinoj vinojn vinon
+94	1594	flava	flavaj flavajn flavan
+95	1595	kodo	kodoj kodojn kodon
+96	1596	tanko	tankoj tankojn tankon
+97	1597	sperto	spertoj spertojn sperton
+98	1598	varo	varoj varojn varon
+99	1599	teknika	teknikaj teknikajn teknikan teĥnika teĥnikaj teĥnikajn
+100	1600	aĥ	

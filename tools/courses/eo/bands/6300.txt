@@ -1,0 +1,100 @@
+1	6201	maldorma	maldormaj maldormajn maldorman
+2	6202	duope	
+3	6203	fikse	
+4	6204	mastrino	mastrinoj mastrinojn mastrinon
+5	6205	pasintjare	
+6	6206	aĉi	aĉanta aĉantaj aĉantajn aĉantan aĉante aĉas aĉinta aĉintaj aĉintajn aĉintan aĉinte aĉis aĉonta aĉontaj aĉontajn aĉontan aĉonte aĉos aĉu aĉus
+7	6207	parenteze	
+8	6208	mikado	mikadoj mikadojn mikadon
+9	6209	kartografia	kartografiaj kartografiajn kartografian
+10	6210	feliĉeco	feliĉecoj feliĉecojn feliĉecon
+11	6211	fuŝulo	fuŝuloj fuŝulojn fuŝulon
+12	6212	neordinara	neordinaraj neordinarajn neordinaran
+13	6213	kvincent	
+14	6214	taĥikardio	taĥikardioj taĥikardiojn taĥikardion
+15	6215	jakvo	jakvoj jakvojn jakvon
+16	6216	milfoje	
+17	6217	lernantino	lernantinoj lernantinojn lernantinon
+18	6218	adoleskulo	adoleskuloj adoleskulojn adoleskulon
+19	6219	balo	baloj balojn balon
+20	6220	fumtubo	fumtuboj fumtubojn fumtubon
+21	6221	kojono	kojonoj kojonojn kojonon
+22	6222	unuokululo	unuokululoj unuokululojn unuokululon
+23	6223	ellerni	ellernanta ellernantaj ellernantajn ellernantan ellernante ellernas ellerninta ellernintaj ellernintajn ellernintan ellerninte ellernis ellernonta ellernontaj ellernontajn ellernontan ellernonte ellernos ellernu ellernus
+24	6224	ĉeriza	ĉerizaj ĉerizajn ĉerizan
+25	6225	kredema	kredemaj kredemajn kredeman
+26	6226	stabejo	stabejoj stabejojn stabejon
+27	6227	kamparanaĉo	kamparanaĉoj kamparanaĉojn kamparanaĉon
+28	6228	promenadi	promenadanta promenadantaj promenadantajn promenadantan promenadante promenadas promenadinta promenadintaj promenadintajn promenadintan promenadinte promenadis promenadonta promenadontaj promenadontajn promenadontan promenadonte promenados promenadu promenadus
+29	6229	maldolĉa	maldolĉaj maldolĉajn maldolĉan
+30	6230	bandaĝi	bandaĝanta bandaĝantaj bandaĝantajn bandaĝantan bandaĝante bandaĝas bandaĝata bandaĝataj bandaĝatajn bandaĝatan bandaĝate bandaĝinta bandaĝintaj bandaĝintajn bandaĝintan bandaĝinte bandaĝis bandaĝita bandaĝitaj bandaĝitajn bandaĝitan bandaĝite bandaĝonta bandaĝontaj bandaĝontajn bandaĝontan bandaĝonte bandaĝos bandaĝu bandaĝus
+31	6231	litkovrilo	litkovriloj litkovrilojn litkovrilon
+32	6232	cikorio	cikorioj cikoriojn cikorion
+33	6233	bongusti	bongustanta bongustantaj bongustantajn bongustantan bongustante bongustas bongustinta bongustintaj bongustintajn bongustintan bongustinte bongustis bongustonta bongustontaj bongustontajn bongustontan bongustonte bongustos bongustu bongustus
+34	6234	malŝategi	malŝateganta malŝategantaj malŝategantajn malŝategantan malŝategante malŝategas malŝateginta malŝategintaj malŝategintajn malŝategintan malŝateginte malŝategis malŝategonta malŝategontaj malŝategontajn malŝategontan malŝategonte malŝategos malŝategu malŝategus
+35	6235	amegi	ameganta amegantaj amegantajn amegantan amegante amegas ameginta amegintaj amegintajn amegintan ameginte amegis amegonta amegontaj amegontajn amegontan amegonte amegos amegu amegus
+36	6236	ŝuti	ŝutanta ŝutantaj ŝutantajn ŝutantan ŝutante ŝutas ŝutinta ŝutintaj ŝutintajn ŝutintan ŝutinte ŝutis ŝutonta ŝutontaj ŝutontajn ŝutontan ŝutonte ŝutos ŝutu ŝutus
+37	6237	ŝufaristo	ŝufaristoj ŝufaristojn ŝufariston
+38	6238	malbonulo	malbonuloj malbonulojn malbonulon
+39	6239	mallaborema	mallaboremaj mallaboremajn mallaboreman
+40	6240	ĉefkvartiro	ĉefkvartiroj ĉefkvartirojn ĉefkvartiron
+41	6241	eksenti	eksentanta eksentantaj eksentantajn eksentantan eksentante eksentas eksentinta eksentintaj eksentintajn eksentintan eksentinte eksentis eksentonta eksentontaj eksentontajn eksentontan eksentonte eksentos eksentu eksentus
+42	6242	biletujo	biletujoj biletujojn biletujon
+43	6243	bonulo	bonuloj bonulojn bonulon
+44	6244	hundino	hundinoj hundinojn hundinon
+45	6245	eksedziĝo	eksedziĝoj eksedziĝojn eksedziĝon
+46	6246	informiĝi	informiĝanta informiĝantaj informiĝantajn informiĝantan informiĝante informiĝas informiĝinta informiĝintaj informiĝintajn informiĝintan informiĝinte informiĝis informiĝonta informiĝontaj informiĝontajn informiĝontan informiĝonte informiĝos informiĝu informiĝus
+47	6247	keglo	kegloj keglojn keglon
+48	6248	elŝiri	elŝiranta elŝirantaj elŝirantajn elŝirantan elŝirante elŝiras elŝirinta elŝirintaj elŝirintajn elŝirintan elŝirinte elŝiris elŝironta elŝirontaj elŝirontajn elŝirontan elŝironte elŝiros elŝiru elŝirus
+49	6249	premsonĝo	premsonĝoj premsonĝojn premsonĝon
+50	6250	aliiĝi	aliiĝanta aliiĝantaj aliiĝantajn aliiĝantan aliiĝante aliiĝas aliiĝinta aliiĝintaj aliiĝintajn aliiĝintan aliiĝinte aliiĝis aliiĝonta aliiĝontaj aliiĝontajn aliiĝontan aliiĝonte aliiĝos aliiĝu aliiĝus
+51	6251	alivestiĝi	alivestiĝanta alivestiĝantaj alivestiĝantajn alivestiĝantan alivestiĝante alivestiĝas alivestiĝinta alivestiĝintaj alivestiĝintajn alivestiĝintan alivestiĝinte alivestiĝis alivestiĝonta alivestiĝontaj alivestiĝontajn alivestiĝontan alivestiĝonte alivestiĝos alivestiĝu alivestiĝus
+52	6252	belaĵo	belaĵoj belaĵojn belaĵon
+53	6253	kuracistino	kuracistinoj kuracistinojn kuracistinon
+54	6254	marvirino	marvirinoj marvirinojn marvirinon
+55	6255	vojeto	vojetoj vojetojn vojeton
+56	6256	scenaristo	scenaristoj scenaristojn scenariston
+57	6257	okulumi	okulumanta okulumantaj okulumantajn okulumantan okulumante okulumas okuluminta okulumintaj okulumintajn okulumintan okuluminte okulumis okulumonta okulumontaj okulumontajn okulumontan okulumonte okulumos okulumu okulumus
+58	6258	eklerni	eklernanta eklernantaj eklernantajn eklernantan eklernante eklernas eklerninta eklernintaj eklernintajn eklernintan eklerninte eklernis eklernonta eklernontaj eklernontajn eklernontan eklernonte eklernos eklernu eklernus
+59	6259	lernigi	lerniganta lernigantaj lernigantajn lernigantan lernigante lernigas lerniginta lernigintaj lernigintajn lernigintan lerniginte lernigis lernigonta lernigontaj lernigontajn lernigontan lernigonte lernigos lernigu lernigus
+60	6260	preterflugi	preterfluganta preterflugantaj preterflugantajn preterflugantan preterflugante preterflugas preterfluginta preterflugintaj preterflugintajn preterflugintan preterfluginte preterflugis preterflugonta preterflugontaj preterflugontajn preterflugontan preterflugonte preterflugos preterflugu preterflugus
+61	6261	gluteo	gluteoj gluteojn gluteon
+62	6262	blovo	blovoj blovojn blovon
+63	6263	survesti	survestanta survestantaj survestantajn survestantan survestante survestas survestinta survestintaj survestintajn survestintan survestinte survestis survestonta survestontaj survestontajn survestontan survestonte survestos survestu survestus
+64	6264	ĉirkaŭrigardi	ĉirkaŭrigardanta ĉirkaŭrigardantaj ĉirkaŭrigardantajn ĉirkaŭrigardantan ĉirkaŭrigardante ĉirkaŭrigardas ĉirkaŭrigardinta ĉirkaŭrigardintaj ĉirkaŭrigardintajn ĉirkaŭrigardintan ĉirkaŭrigardinte ĉirkaŭrigardis ĉirkaŭrigardonta ĉirkaŭrigardontaj ĉirkaŭrigardontajn ĉirkaŭrigardontan ĉirkaŭrigardonte ĉirkaŭrigardos ĉirkaŭrigardu ĉirkaŭrigardus
+65	6265	ankro	ankroj ankrojn ankron
+66	6266	pinglo	pingloj pinglojn pinglon
+67	6267	kuirado	kuiradoj kuiradojn kuiradon
+68	6268	mistika	mistikaj mistikajn mistikan
+69	6269	plumaro	plumaroj plumarojn plumaron
+70	6270	lernejestro	lernejestroj lernejestrojn lernejestron
+71	6271	superulo	superuloj superulojn superulon
+72	6272	altaĵo	altaĵoj altaĵojn altaĵon
+73	6273	malŝarĝi	malŝarĝanta malŝarĝantaj malŝarĝantajn malŝarĝantan malŝarĝante malŝarĝas malŝarĝata malŝarĝataj malŝarĝatajn malŝarĝatan malŝarĝate malŝarĝinta malŝarĝintaj malŝarĝintajn malŝarĝintan malŝarĝinte malŝarĝis malŝarĝita malŝarĝitaj malŝarĝitajn malŝarĝitan malŝarĝite malŝarĝonta malŝarĝontaj malŝarĝontajn malŝarĝontan malŝarĝonte malŝarĝos malŝarĝu malŝarĝus
+74	6274	sekvantaro	sekvantaroj sekvantarojn sekvantaron
+75	6275	ba	
+76	6276	kapuĉo	kapuĉoj kapuĉojn kapuĉon
+77	6277	numeralo	numeraloj numeralojn numeralon
+78	6278	izola	izolaj izolajn izolan
+79	6279	trajektorio	trajektorioj trajektoriojn trajektorion
+80	6280	diverse	
+81	6281	difina	difinaj difinajn difinan
+82	6282	glaĉero	glaĉeroj glaĉerojn glaĉeron
+83	6283	bongustaĵo	bongustaĵoj bongustaĵojn bongustaĵon
+84	6284	alligi	alliganta alligantaj alligantajn alligantan alligante alligas alligata alligataj alligatajn alligatan alligate alliginta alligintaj alligintajn alligintan alliginte alligis alligita alligitaj alligitajn alligitan alligite alligonta alligontaj alligontajn alligontan alligonte alligos alligu alligus
+85	6285	hormono	hormonoj hormonojn hormonon
+86	6286	pagenda	pagendaj pagendajn pagendan
+87	6287	dediĉo	dediĉoj dediĉojn dediĉon
+88	6288	malfido	malfidoj malfidojn malfidon
+89	6289	aprezo	aprezoj aprezojn aprezon
+90	6290	kuiristo	kuiristoj kuiristojn kuiriston
+91	6291	segilo	segiloj segilojn segilon
+92	6292	ĉirkaŭaĵo	ĉirkaŭaĵoj ĉirkaŭaĵojn ĉirkaŭaĵon
+93	6293	piŝto	piŝtoj piŝtojn piŝton
+94	6294	zenito	zenitoj zenitojn zeniton
+95	6295	roza	rozaj rozajn rozan
+96	6296	birda	birdaj birdajn birdan
+97	6297	forĝisto	forĝistoj forĝistojn forĝiston
+98	6298	admoni	admonanta admonantaj admonantajn admonantan admonante admonas admonata admonataj admonatajn admonatan admonate admoninta admonintaj admonintajn admonintan admoninte admonis admonita admonitaj admonitajn admonitan admonite admononta admonontaj admonontajn admonontan admononte admonos admonu admonus
+99	6299	bombi	bombanta bombantaj bombantajn bombantan bombante bombas bombata bombataj bombatajn bombatan bombate bombinta bombintaj bombintajn bombintan bombinte bombis bombita bombitaj bombitajn bombitan bombite bombonta bombontaj bombontajn bombontan bombonte bombos bombu bombus
+100	6300	urbdomo	urbdomoj urbdomojn urbdomon urbodomo urbodomoj urbodomojn urbodomon

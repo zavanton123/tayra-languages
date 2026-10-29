@@ -1,0 +1,100 @@
+1	8901	diversigi	diversiganta diversigantaj diversigantajn diversigantan diversigante diversigas diversigata diversigataj diversigatajn diversigatan diversigate diversiginta diversigintaj diversigintajn diversigintan diversiginte diversigis diversigita diversigitaj diversigitajn diversigitan diversigite diversigonta diversigontaj diversigontajn diversigontan diversigonte diversigos diversigu diversigus
+2	8902	lubrikaĵo	lubrikaĵoj lubrikaĵojn lubrikaĵon
+3	8903	kolporti	kolportanta kolportantaj kolportantajn kolportantan kolportante kolportas kolportata kolportataj kolportatajn kolportatan kolportate kolportinta kolportintaj kolportintajn kolportintan kolportinte kolportis kolportita kolportitaj kolportitajn kolportitan kolportite kolportonta kolportontaj kolportontajn kolportontan kolportonte kolportos kolportu kolportus
+4	8904	varmeta	varmetaj varmetajn varmetan
+5	8905	plagiati	plagiatanta plagiatantaj plagiatantajn plagiatantan plagiatante plagiatas plagiatinta plagiatintaj plagiatintajn plagiatintan plagiatinte plagiatis plagiatonta plagiatontaj plagiatontajn plagiatontan plagiatonte plagiatos plagiatu plagiatus
+6	8906	ekuzi	ekuzanta ekuzantaj ekuzantajn ekuzantan ekuzante ekuzas ekuzinta ekuzintaj ekuzintajn ekuzintan ekuzinte ekuzis ekuzonta ekuzontaj ekuzontajn ekuzontan ekuzonte ekuzos ekuzu ekuzus
+7	8907	lepro	leproj leprojn lepron
+8	8908	sane	
+9	8909	nadlo	nadloj nadlojn nadlon
+10	8910	malfeliĉe	
+11	8911	brileti	briletanta briletantaj briletantajn briletantan briletante briletas briletinta briletintaj briletintajn briletintan briletinte briletis briletonta briletontaj briletontajn briletontan briletonte briletos briletu briletus
+12	8912	pentofari	pentofaranta pentofarantaj pentofarantajn pentofarantan pentofarante pentofaras pentofarinta pentofarintaj pentofarintajn pentofarintan pentofarinte pentofaris pentofaronta pentofarontaj pentofarontajn pentofarontan pentofaronte pentofaros pentofaru pentofarus
+13	8913	elparoli	elparolanta elparolantaj elparolantajn elparolantan elparolante elparolas elparolata elparolataj elparolatajn elparolatan elparolate elparolinta elparolintaj elparolintajn elparolintan elparolinte elparolis elparolita elparolitaj elparolitajn elparolitan elparolite elparolonta elparolontaj elparolontajn elparolontan elparolonte elparolos elparolu elparolus
+14	8914	aniĝi	aniĝanta aniĝantaj aniĝantajn aniĝantan aniĝante aniĝas aniĝinta aniĝintaj aniĝintajn aniĝintan aniĝinte aniĝis aniĝonta aniĝontaj aniĝontajn aniĝontan aniĝonte aniĝos aniĝu aniĝus
+15	8915	tolo	toloj tolojn tolon
+16	8916	bangalo	bangaloj bangalojn bangalon
+17	8917	kanario	kanarioj kanariojn kanarion
+18	8918	galopi	galopanta galopantaj galopantajn galopantan galopante galopas galopinta galopintaj galopintajn galopintan galopinte galopis galoponta galopontaj galopontajn galopontan galoponte galopos galopu galopus
+19	8919	alii	alianta aliantaj aliantajn aliantan aliante alias aliinta aliintaj aliintajn aliintan aliinte aliis alionta aliontaj aliontajn aliontan alionte alios aliu aliuj alius
+20	8920	luksaĵo	luksaĵoj luksaĵojn luksaĵon
+21	8921	hipokrita	hipokritaj hipokritajn hipokritan
+22	8922	aspirino	aspirinoj aspirinojn aspirinon
+23	8923	zefiro	zefiroj zefirojn zefiron
+24	8924	datiĝi	datiĝanta datiĝantaj datiĝantajn datiĝantan datiĝante datiĝas datiĝinta datiĝintaj datiĝintajn datiĝintan datiĝinte datiĝis datiĝonta datiĝontaj datiĝontajn datiĝontan datiĝonte datiĝos datiĝu datiĝus
+25	8925	prismo	prismoj prismojn prismon
+26	8926	hangaro	hangaroj hangarojn hangaron
+27	8927	fao	
+28	8928	klasike	
+29	8929	galo	galoj galojn galon
+30	8930	gipso	gipsoj gipsojn gipson
+31	8931	urbosilueto	urbosiluetoj urbosiluetojn urbosilueton
+32	8932	kupra	kupraj kuprajn kupran
+33	8933	eŭnuko	eŭnukoj eŭnukojn eŭnukon
+34	8934	onda	ondaj ondajn ondan
+35	8935	afekcio	afekcioj afekciojn afekcion
+36	8936	spaceto	spacetoj spacetojn spaceton
+37	8937	elektromagneto	elektromagnetoj elektromagnetojn elektromagneton
+38	8938	kolorigi	koloriganta kolorigantaj kolorigantajn kolorigantan kolorigante kolorigas kolorigata kolorigataj kolorigatajn kolorigatan kolorigate koloriginta kolorigintaj kolorigintajn kolorigintan koloriginte kolorigis kolorigita kolorigitaj kolorigitajn kolorigitan kolorigite kolorigonta kolorigontaj kolorigontajn kolorigontan kolorigonte kolorigos kolorigu kolorigus
+39	8939	demagogo	demagogoj demagogojn demagogon
+40	8940	regajni	regajnanta regajnantaj regajnantajn regajnantan regajnante regajnas regajninta regajnintaj regajnintajn regajnintan regajninte regajnis regajnonta regajnontaj regajnontajn regajnontan regajnonte regajnos regajnu regajnus
+41	8941	naskiĝurbo	naskiĝurboj naskiĝurbojn naskiĝurbon
+42	8942	tulipo	tulipoj tulipojn tulipon
+43	8943	aŭtonomeco	aŭtonomecoj aŭtonomecojn aŭtonomecon
+44	8944	beletro	beletroj beletrojn beletron
+45	8945	natureco	naturecoj naturecojn naturecon
+46	8946	cerbumi	cerbumanta cerbumantaj cerbumantajn cerbumantan cerbumante cerbumas cerbuminta cerbumintaj cerbumintajn cerbumintan cerbuminte cerbumis cerbumonta cerbumontaj cerbumontajn cerbumontan cerbumonte cerbumos cerbumu cerbumus
+47	8947	ambaŭflanke	
+48	8948	amuzado	amuzadoj amuzadojn amuzadon
+49	8949	heroe	
+50	8950	frizisto	frizistoj frizistojn friziston
+51	8951	spioni	spionanta spionantaj spionantajn spionantan spionante spionas spioninta spionintaj spionintajn spionintan spioninte spionis spiononta spionontaj spionontajn spionontan spiononte spionos spionu spionus
+52	8952	leprulo	lepruloj leprulojn leprulon
+53	8953	rabobesto	rabbesto rabobestoj rabobestojn rabobeston
+54	8954	palisumi	palisumanta palisumantaj palisumantajn palisumantan palisumante palisumas palisuminta palisumintaj palisumintajn palisumintan palisuminte palisumis palisumonta palisumontaj palisumontajn palisumontan palisumonte palisumos palisumu palisumus
+55	8955	petardo	petardoj petardojn petardon
+56	8956	blanko	blankoj blankojn blankon
+57	8957	parole	
+58	8958	profundeco	profundecoj profundecojn profundecon
+59	8959	insista	insistaj insistajn insistan
+60	8960	harpo	harpoj harpojn harpon
+61	8961	oto	
+62	8962	benzeno	benzenoj benzenojn benzenon
+63	8963	glazuro	glazuroj glazurojn glazuron
+64	8964	magnezio	magnezioj magneziojn magnezion
+65	8965	lotuso	lotusoj lotusojn lotuson
+66	8966	mediano	medianoj medianojn medianon
+67	8967	sabotado	sabotadoj sabotadojn sabotadon
+68	8968	hindeŭropa	hindeŭropaj hindeŭropajn hindeŭropan
+69	8969	kanjono	kanjonoj kanjonojn kanjonon
+70	8970	akumulatoro	akumulatoroj akumulatorojn akumulatoron
+71	8971	trafikŝtopiĝo	trafikŝtopiĝoj trafikŝtopiĝojn trafikŝtopiĝon
+72	8972	klado	kladoj kladojn kladon
+73	8973	ŝtonminejo	ŝtonminejoj ŝtonminejojn ŝtonminejon
+74	8974	afekcia	afekciaj afekciajn afekcian
+75	8975	kameo	kameoj kameojn kameon
+76	8976	katedro	katedroj katedrojn katedron
+77	8977	prefiksi	prefiksanta prefiksantaj prefiksantajn prefiksantan prefiksante prefiksas prefiksata prefiksataj prefiksatajn prefiksatan prefiksate prefiksinta prefiksintaj prefiksintajn prefiksintan prefiksinte prefiksis prefiksita prefiksitaj prefiksitajn prefiksitan prefiksite prefiksonta prefiksontaj prefiksontajn prefiksontan prefiksonte prefiksos prefiksu prefiksus
+78	8978	astero	asteroj asterojn asteron
+79	8979	paŝadi	paŝadanta paŝadantaj paŝadantajn paŝadantan paŝadante paŝadas paŝadinta paŝadintaj paŝadintajn paŝadintan paŝadinte paŝadis paŝadonta paŝadontaj paŝadontajn paŝadontan paŝadonte paŝados paŝadu paŝadus
+80	8980	tribordo	tribordoj tribordojn tribordon
+81	8981	aŭtororajto	aŭtororajtoj aŭtororajtojn aŭtororajton aŭtorrajtojn
+82	8982	kimono	kimonoj kimonojn kimonon
+83	8983	scivola	scivolaj scivolajn scivolan
+84	8984	bretaro	bretaroj bretarojn bretaron
+85	8985	terminaro	terminaroj terminarojn terminaron
+86	8986	snoba	snobaj snobajn snoban
+87	8987	teatrejo	teatrejoj teatrejojn teatrejon
+88	8988	karaoke	
+89	8989	ventego	ventegoj ventegojn ventegon
+90	8990	alpafi	alpafanta alpafantaj alpafantajn alpafantan alpafante alpafas alpafinta alpafintaj alpafintajn alpafintan alpafinte alpafis alpafonta alpafontaj alpafontajn alpafontan alpafonte alpafos alpafu alpafus
+91	8991	malsimili	malsimilanta malsimilantaj malsimilantajn malsimilantan malsimilante malsimilas malsimilinta malsimilintaj malsimilintajn malsimilintan malsimilinte malsimilis malsimilonta malsimilontaj malsimilontajn malsimilontan malsimilonte malsimilos malsimilu malsimilus
+92	8992	sangavida	sangavidaj sangavidajn sangavidan
+93	8993	apatia	apatiaj apatiajn apatian
+94	8994	fajrigi	fajriganta fajrigantaj fajrigantajn fajrigantan fajrigante fajrigas fajriginta fajrigintaj fajrigintajn fajrigintan fajriginte fajrigis fajrigonta fajrigontaj fajrigontajn fajrigontan fajrigonte fajrigos fajrigu fajrigus
+95	8995	pristudi	pristudanta pristudantaj pristudantajn pristudantan pristudante pristudas pristudinta pristudintaj pristudintajn pristudintan pristudinte pristudis pristudonta pristudontaj pristudontajn pristudontan pristudonte pristudos pristudu pristudus
+96	8996	ĝibulo	ĝibuloj ĝibulojn ĝibulon
+97	8997	produktadrimedoj	produktadrimedo produktadrimedojn produktadrimedon
+98	8998	zoologio	zoologioj zoologiojn zoologion
+99	8999	aeronaŭtiko	aeronaŭtikoj aeronaŭtikojn aeronaŭtikon
+100	9000	altestimo	altestimoj altestimojn altestimon

@@ -1,0 +1,100 @@
+1	7001	krevo	krevoj krevojn krevon
+2	7002	desegnado	desegnadoj desegnadojn desegnadon
+3	7003	gimnastiko	gimnastikoj gimnastikojn gimnastikon
+4	7004	aramea	arameaj arameajn aramean
+5	7005	araneo	araneoj araneojn araneon
+6	7006	pora	poraj porajn poran
+7	7007	kontingento	kontingentoj kontingentojn kontingenton
+8	7008	majesta	majestaj majestajn majestan
+9	7009	eksterulo	eksteruloj eksterulojn eksterulon
+10	7010	maŭro	maŭroj maŭrojn maŭron
+11	7011	akrido	akridoj akridojn akridon
+12	7012	volupto	voluptoj voluptojn volupton
+13	7013	arakido	arakidoj arakidojn arakidon
+14	7014	afekta	afektaj afektajn afektan
+15	7015	simboleco	simbolecoj simbolecojn simbolecon
+16	7016	divido	dividoj dividojn dividon
+17	7017	rakontado	rakontadoj rakontadojn rakontadon
+18	7018	libertempo	libertempoj libertempojn libertempon
+19	7019	aŭtenteco	aŭtentecoj aŭtentecojn aŭtentecon aŭtentikeco
+20	7020	ripo	ripoj ripojn ripon
+21	7021	pilgrimado	pilgrimadoj pilgrimadojn pilgrimadon
+22	7022	uzurpi	uzurpanta uzurpantaj uzurpantajn uzurpantan uzurpante uzurpanto uzurpantoj uzurpanton uzurpas uzurpata uzurpataj uzurpatajn uzurpatan uzurpate uzurpinta uzurpintaj uzurpintajn uzurpintan uzurpinte uzurpis uzurpita uzurpitaj uzurpitajn uzurpitan uzurpite uzurponta uzurpontaj uzurpontajn uzurpontan uzurponte uzurpos uzurpu uzurpus
+23	7023	broĉo	broĉoj broĉojn broĉon
+24	7024	urno	urnoj urnojn urnon
+25	7025	ĉiusemajne	
+26	7026	pugno	pugnoj pugnojn pugnon
+27	7027	epilepsio	epilepsioj epilepsiojn epilepsion
+28	7028	libia	libiaj libiajn libian
+29	7029	skismo	skismoj skismojn skismon
+30	7030	falsaĵo	falsaĵoj falsaĵojn falsaĵon
+31	7031	mentoro	mentoroj mentorojn mentoron
+32	7032	spagetoj	spageto spagetojn spageton
+33	7033	eburo	eburoj eburojn eburon
+34	7034	guteto	gutetoj gutetojn guteton
+35	7035	mini	minanta minantaj minantajn minantan minante minas mininta minintaj minintajn minintan mininte minis minonta minontaj minontajn minontan minonte minos minu
+36	7036	kripla	kriplaj kriplajn kriplan
+37	7037	glori	gloranta glorantaj glorantajn glorantan glorante gloras glorata glorataj gloratajn gloratan glorate glorinta glorintaj glorintajn glorintan glorinte gloris glorita gloritaj gloritajn gloritan glorite gloronta glorontaj glorontajn glorontan gloronte gloros gloru glorus
+38	7038	trio	trioj triojn trion
+39	7039	miro	miroj mirojn miron
+40	7040	disde	
+41	7041	urĝeco	urĝecoj urĝecojn urĝecon
+42	7042	kava	kavaj kavajn kavan
+43	7043	flaŭro	flaŭroj flaŭrojn flaŭron
+44	7044	juano	juanoj juanojn juanon
+45	7045	modela	modelaj modelajn modelan
+46	7046	pikilo	pikiloj pikilojn pikilon
+47	7047	svingo	svingoj svingojn svingon
+48	7048	diferenci	diferencanta diferencantaj diferencantajn diferencantan diferencante diferencas diferencinta diferencintaj diferencintajn diferencintan diferencinte diferencis diferenconta diferencontaj diferencontajn diferencontan diferenconte diferencos diferencu diferencus
+49	7049	tranco	trancoj trancojn trancon
+50	7050	neŝanĝebla	neŝanĝeblaj neŝanĝeblajn neŝanĝeblan
+51	7051	rezino	rezinoj rezinojn rezinon
+52	7052	aksiomo	aksiomoj aksiomojn aksiomon
+53	7053	imuneco	imunecoj imunecojn imunecon
+54	7054	fabo	faboj fabojn fabon
+55	7055	mallaŭdi	mallaŭdanta mallaŭdantaj mallaŭdantajn mallaŭdantan mallaŭdante mallaŭdas mallaŭdata mallaŭdataj mallaŭdatajn mallaŭdatan mallaŭdate mallaŭdinta mallaŭdintaj mallaŭdintajn mallaŭdintan mallaŭdinte mallaŭdis mallaŭdita mallaŭditaj mallaŭditajn mallaŭditan mallaŭdite mallaŭdonta mallaŭdontaj mallaŭdontajn mallaŭdontan mallaŭdonte mallaŭdos mallaŭdu mallaŭdus
+56	7056	malrespekto	malrespektoj malrespektojn malrespekton
+57	7057	prononco	prononcoj prononcojn prononcon
+58	7058	klabo	klaboj klabojn klabon
+59	7059	amareco	amarecoj amarecojn amarecon
+60	7060	konciza	koncizaj koncizajn koncizan
+61	7061	repudii	repudianta repudiantaj repudiantajn repudiantan repudiante repudias repudiata repudiataj repudiatajn repudiatan repudiate repudiinta repudiintaj repudiintajn repudiintan repudiinte repudiis repudiita repudiitaj repudiitajn repudiitan repudiite repudionta repudiontaj repudiontajn repudiontan repudionte repudios repudiu repudius
+62	7062	juristo	juristoj juristojn juriston
+63	7063	neekzistanta	neekzistantaj neekzistantajn neekzistantan
+64	7064	aritmetiko	aritmetikoj aritmetikojn aritmetikon
+65	7065	plenplena	plenplenaj plenplenajn plenplenan
+66	7066	skio	skioj skiojn skion
+67	7067	cigano	ciganoj ciganojn ciganon
+68	7068	konforma	konformaj konformajn konforman
+69	7069	kanvaso	kanvasoj kanvasojn kanvason
+70	7070	inerta	inertaj inertajn inertan
+71	7071	plutonio	plutonioj plutoniojn plutonion
+72	7072	instruejo	instruejoj instruejojn instruejon
+73	7073	saboti	sabotanta sabotantaj sabotantajn sabotantan sabotante sabotantoj sabotas sabotata sabotataj sabotatajn sabotatan sabotate sabotinta sabotintaj sabotintajn sabotintan sabotinte sabotinton sabotis sabotita sabotitaj sabotitajn sabotitan sabotite sabotonta sabotontaj sabotontajn sabotontan sabotonte sabotos sabotu sabotus
+74	7074	imuna	imunaj imunajn imunan
+75	7075	senkapigi	senkapiganta senkapigantaj senkapigantajn senkapigantan senkapigante senkapigas senkapigata senkapigataj senkapigatajn senkapigatan senkapigate senkapiginta senkapigintaj senkapigintajn senkapigintan senkapiginte senkapigis senkapigita senkapigitaj senkapigitajn senkapigitan senkapigite senkapigonta senkapigontaj senkapigontajn senkapigontan senkapigonte senkapigos senkapigu senkapigus
+76	7076	trijara	trijaraj trijarajn trijaran
+77	7077	despota	despotaj despotajn despotan
+78	7078	sagaca	sagacaj sagacajn sagacan
+79	7079	elfaro	elfaroj elfarojn elfaron
+80	7080	liberalismo	liberalismoj liberalismojn liberalismon
+81	7081	bulgaro	bulgaroj bulgarojn bulgaron
+82	7082	militema	militemaj militemajn militeman
+83	7083	kosmopramo	kosmopramoj kosmopramojn kosmopramon
+84	7084	triobligi	triobliganta triobligantaj triobligantajn triobligantan triobligante triobligas triobligata triobligataj triobligatajn triobligatan triobligate triobliginta triobligintaj triobligintajn triobligintan triobliginte triobligis triobligita triobligitaj triobligitajn triobligitan triobligite triobligonta triobligontaj triobligontajn triobligontan triobligonte triobligos triobligu triobligus
+85	7085	luti	lutanta lutantaj lutantajn lutantan lutante lutas lutata lutataj lutatajn lutatan lutate lutinta lutintaj lutintajn lutintan lutinte lutis lutita lutitaj lutitajn lutitan lutite lutonta lutontaj lutontajn lutontan lutonte lutos lutu lutus
+86	7086	nokti	noktanta noktantaj noktantajn noktantan noktante noktas noktinta noktintaj noktintajn noktintan noktinte noktis noktonta noktontaj noktontajn noktontan noktonte noktos noktu noktus
+87	7087	arbitracii	arbitracianta arbitraciantaj arbitraciantajn arbitraciantan arbitraciante arbitracianto arbitraciantoj arbitracias arbitraciinta arbitraciintaj arbitraciintajn arbitraciintan arbitraciinte arbitraciis arbitracionta arbitraciontaj arbitraciontajn arbitraciontan arbitracionte arbitracios arbitraciu arbitracius
+88	7088	kancera	kanceraj kancerajn kanceran
+89	7089	ciklono	ciklonoj ciklonojn ciklonon
+90	7090	dolĉakvo	dolĉakvoj dolĉakvojn dolĉakvon
+91	7091	hebreo	hebreoj hebreojn hebreon
+92	7092	sunpanelo	sunpaneloj sunpanelojn sunpanelon
+93	7093	trairo	trairoj trairojn trairon
+94	7094	glatigi	glatiganta glatigantaj glatigantajn glatigantan glatigante glatigas glatigata glatigataj glatigatajn glatigatan glatigate glatiginta glatigintaj glatigintajn glatigintan glatiginte glatigis glatigita glatigitaj glatigitajn glatigitan glatigite glatigonta glatigontaj glatigontajn glatigontan glatigonte glatigos glatigu glatigus
+95	7095	dek-kvara	dek-kvaraj dek-kvaran dekkvaran
+96	7096	rubando	rubandoj rubandojn rubandon
+97	7097	persisto	persistoj persistojn persiston
+98	7098	doko	dokoj dokojn dokon
+99	7099	perfida	perfidaj perfidajn perfidan
+100	7100	restadi	restadanta restadantaj restadantajn restadantan restadante restadas restadinta restadintaj restadintajn restadintan restadinte restadis restadonta restadontaj restadontajn restadontan restadonte restados restadu restadus

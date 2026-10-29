@@ -1,0 +1,100 @@
+1	8201	ramo	ramoj ramojn ramon
+2	8202	pesi	pesanta pesantaj pesantajn pesantan pesante pesas pesata pesataj pesatajn pesatan pesate pesinta pesintaj pesintajn pesintan pesinte pesis pesita pesitaj pesitajn pesitan pesite pesonta pesontaj pesontajn pesontan pesonte pesos pesu pesus
+3	8203	idealismo	idealismoj idealismojn idealismon
+4	8204	kriketo	kriketoj kriketojn kriketon
+5	8205	sekskuniĝo	sekskuniĝoj sekskuniĝojn sekskuniĝon
+6	8206	devota	devotaj devotajn devotan
+7	8207	kondomo	kondomoj kondomojn kondomon
+8	8208	kapilaro	kapilaroj kapilarojn kapilaron
+9	8209	epiteto	epitetoj epitetojn epiteton
+10	8210	geedzo	geedzojn geedzon
+11	8211	sovaĝeco	sovaĝecoj sovaĝecojn sovaĝecon
+12	8212	polpo	polpoj polpojn polpon
+13	8213	brutaleco	brutalecoj brutalecojn brutalecon
+14	8214	marksismo	marksismoj marksismojn marksismon
+15	8215	arbitraciisto	arbitraciistoj arbitraciistojn arbitraciiston
+16	8216	torio	torioj toriojn torion
+17	8217	basbalo	basbaloj basbalojn basbalon
+18	8218	pendaĵo	pendaĵoj pendaĵojn pendaĵon
+19	8219	laceco	lacecoj lacecojn lacecon
+20	8220	parazita	parazitaj parazitajn parazitan
+21	8221	kristaligi	kristaliganta kristaligantaj kristaligantajn kristaligantan kristaligante kristaligas kristaligata kristaligataj kristaligatajn kristaligatan kristaligate kristaliginta kristaligintaj kristaligintajn kristaligintan kristaliginte kristaligis kristaligita kristaligitaj kristaligitajn kristaligitan kristaligite kristaligonta kristaligontaj kristaligontajn kristaligontan kristaligonte kristaligos kristaligu kristaligus
+22	8222	senŝeligi	senŝeliganta senŝeligantaj senŝeligantajn senŝeligantan senŝeligante senŝeligas senŝeligata senŝeligataj senŝeligatajn senŝeligatan senŝeligate senŝeliginta senŝeligintaj senŝeligintajn senŝeligintan senŝeliginte senŝeligis senŝeligita senŝeligitaj senŝeligitajn senŝeligitan senŝeligite senŝeligonta senŝeligontaj senŝeligontajn senŝeligontan senŝeligonte senŝeligos senŝeligu senŝeligus
+23	8223	ruzaĵo	ruzaĵoj ruzaĵojn ruzaĵon
+24	8224	eto	etoj etojn eton
+25	8225	elekta	elektaj elektajn elektan
+26	8226	acero	aceroj acerojn aceron
+27	8227	pento	pentoj pentojn penton
+28	8228	vapori	vaporanta vaporantaj vaporantajn vaporantan vaporante vaporas vaporinta vaporintaj vaporintajn vaporintan vaporinte vaporis vaporonta vaporontaj vaporontajn vaporontan vaporonte vaporos vaporu vaporus
+29	8229	tripiedo	tripiedoj tripiedojn tripiedon
+30	8230	fablo	fabloj fablojn fablon
+31	8231	linie	
+32	8232	lingve	
+33	8233	plateno	platenoj platenojn platenon
+34	8234	demandado	demandadoj demandadojn demandadon
+35	8235	subjunktivo	subjunktivoj subjunktivojn subjunktivon
+36	8236	korneo	korneoj korneojn korneon
+37	8237	distingebla	distingeblaj distingeblajn distingeblan
+38	8238	brulema	brulemaj brulemajn bruleman
+39	8239	kalko	kalkoj kalkojn kalkon
+40	8240	falko	falkoj falkojn falkon
+41	8241	vortludo	vortludoj vortludojn vortludon
+42	8242	imputi	imputanta imputantaj imputantajn imputantan imputante imputas imputata imputataj imputatajn imputatan imputate imputinta imputintaj imputintajn imputintan imputinte imputis imputita imputitaj imputitajn imputitan imputite imputonta imputontaj imputontajn imputontan imputonte imputos imputu imputus
+43	8243	stufaĵo	stufaĵoj stufaĵojn stufaĵon
+44	8244	aneŭrismo	aneŭrismoj aneŭrismojn aneŭrismon
+45	8245	lavmaŝino	lavmaŝinoj lavmaŝinojn lavmaŝinon
+46	8246	satana	satanaj satanajn satanan
+47	8247	doma	domaj domajn doman
+48	8248	brakumo	brakumoj brakumojn brakumon
+49	8249	brizo	brizoj brizojn brizon
+50	8250	ups	
+51	8251	subvesto	subvestoj subvestojn subveston
+52	8252	maŭzoleo	maŭzoleoj maŭzoleojn maŭzoleon
+53	8253	topografio	topografioj topografiojn topografion
+54	8254	semida	semidaj semidajn semidan
+55	8255	gepardo	gepardoj gepardojn gepardon
+56	8256	neregebla	neregeblaj neregeblajn neregeblan
+57	8257	pensfabriko	pensfabrikoj pensfabrikojn pensfabrikon
+58	8258	kirasi	kirasanta kirasantaj kirasantajn kirasantan kirasante kirasas kirasata kirasataj kirasatajn kirasatan kirasate kirasinta kirasintaj kirasintajn kirasintan kirasinte kirasis kirasita kirasitaj kirasitajn kirasitan kirasite kirasonta kirasontaj kirasontajn kirasontan kirasonte kirasos kirasu kirasus
+59	8259	malinda	malindaj malindajn malindan
+60	8260	konfitaĵo	konfitaĵoj konfitaĵojn konfitaĵon
+61	8261	izolado	izoladoj izoladojn izoladon
+62	8262	senlaborulo	senlaboruloj senlaborulojn senlaborulon
+63	8263	kamparana	kamparanaj kamparanajn kamparanan
+64	8264	profesie	
+65	8265	taksonomio	taksonomioj taksonomiojn taksonomion
+66	8266	leŭkemio	leŭkemioj leŭkemiojn leŭkemion
+67	8267	kunekzistado	kunekzistadoj kunekzistadojn kunekzistadon
+68	8268	linko	linkoj linkojn linkon
+69	8269	kaŝmira	kaŝmiraj kaŝmirajn kaŝmiran
+70	8270	jaguaro	jaguaroj jaguarojn jaguaron
+71	8271	ĉarmo	ĉarmoj ĉarmojn ĉarmon
+72	8272	tornistro	tornistroj tornistrojn tornistron
+73	8273	alaska	alaskaj alaskajn alaskan
+74	8274	baptisto	baptistoj baptistojn baptiston
+75	8275	naturisto	naturistoj naturistojn naturiston
+76	8276	atolo	atoloj atolojn atolon
+77	8277	referenci	referencanta referencantaj referencantajn referencantan referencante referencas referencata referencataj referencatajn referencatan referencate referencinta referencintaj referencintajn referencintan referencinte referencis referencita referencitaj referencitajn referencitan referencite referencito referencitoj referencitojn referenciton referenconta referencontaj referencontajn referencontan referenconte referencos referencu referencus
+78	8278	kvinobla	kvinoblaj kvinoblajn kvinoblan
+79	8279	laktozo	laktozoj laktozojn laktozon
+80	8280	sledo	sledoj sledojn sledon
+81	8281	bastiono	bastionoj bastionojn bastionon
+82	8282	ĥolero	ĥoleroj ĥolerojn ĥoleron
+83	8283	filologo	filologoj filologojn filologon
+84	8284	samnomulo	samnomuloj samnomulojn samnomulon
+85	8285	persvado	persvadoj persvadojn persvadon
+86	8286	azera	azeraj azerajn azeran
+87	8287	longitudo	longitudoj longitudojn longitudon
+88	8288	anatemo	anatemoj anatemojn anatemon
+89	8289	friso	frisoj frisojn frison
+90	8290	parabolo	paraboloj parabolojn parabolon
+91	8291	imperativo	imperativoj imperativojn imperativon
+92	8292	kurdo	kurdoj kurdojn kurdon
+93	8293	parenceco	parencecoj parencecojn parencecon
+94	8294	alĥemio	alkemio alkemion alĥemioj alĥemiojn alĥemion
+95	8295	virŝafo	virŝafoj virŝafojn virŝafon
+96	8296	adoleska	adoleskaj adoleskajn adoleskan
+97	8297	pensiulo	pensiuloj pensiulojn pensiulon
+98	8298	akompanantaro	akompanantaroj akompanantarojn akompanantaron
+99	8299	kreo	kreoj kreojn kreon
+100	8300	likvidi	likvidanta likvidantaj likvidantajn likvidantan likvidante likvidantoj likvidas likvidata likvidataj likvidatajn likvidatan likvidate likvidinta likvidintaj likvidintajn likvidintan likvidinte likvidis likvidita likviditaj likviditajn likviditan likvidite likvidonta likvidontaj likvidontajn likvidontan likvidonte likvidos likvidu likvidus

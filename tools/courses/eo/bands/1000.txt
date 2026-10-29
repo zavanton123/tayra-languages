@@ -1,0 +1,100 @@
+1	901	ĝardeno	ghardeno ĝardenoj ĝardenojn ĝardenon
+2	902	plaĉi	plachas plachos plaĉanta plaĉantaj plaĉantajn plaĉantan plaĉante plaĉas plaĉinta plaĉintaj plaĉintajn plaĉintan plaĉinte plaĉis plaĉonta plaĉontaj plaĉontajn plaĉontan plaĉonte plaĉos plaĉu plaĉus
+3	903	malfacila	malfacilaj malfacilajn malfacilan
+4	904	freneziĝi	freneziĝanta freneziĝantaj freneziĝantajn freneziĝantan freneziĝante freneziĝas freneziĝinta freneziĝintaj freneziĝintajn freneziĝintan freneziĝinte freneziĝis freneziĝonta freneziĝontaj freneziĝontajn freneziĝontan freneziĝonte freneziĝos freneziĝu freneziĝus
+5	905	atento	atentoj atentojn atenton
+6	906	travivi	travivanta travivantaj travivantajn travivantan travivante travivas travivata travivataj travivatajn travivatan travivate travivinta travivintaj travivintajn travivintan travivinte travivis travivita travivitaj travivitajn travivitan travivite travivonta travivontaj travivontajn travivontan travivonte travivos travivu travivus
+7	907	fakto	faktoj faktojn fakton
+8	908	scienca	sciencaj sciencajn sciencan
+9	909	meza	mezaj mezajn mezan
+10	910	dubi	dubanta dubantaj dubantajn dubantan dubante dubantoj dubas dubinta dubintaj dubintajn dubintan dubinte dubis dubonta dubontaj dubontajn dubontan dubonte dubos dubu dubus
+11	911	komuna	komunaj komunajn komunan
+12	912	numero	numeroj numerojn numeron
+13	913	estro	estroj estrojn estron
+14	914	romia	romiaj romiajn romian
+15	915	murdi	murdanta murdantaj murdantajn murdantan murdante murdantoj murdas murdata murdataj murdatajn murdatan murdate murdinta murdintaj murdintajn murdintan murdinte murdinto murdintoj murdintojn murdinton murdis murdita murditaj murditajn murditan murdite murdonta murdontaj murdontajn murdontan murdonte murdos murdu murdus
+16	916	kroma	kromaj kromajn kroman
+17	917	konduto	kondutoj kondutojn konduton
+18	918	idioto	idiotoj idiotojn idioton
+19	919	temperaturo	temperaturoj temperaturojn temperaturon
+20	920	malantaŭ	
+21	921	kompletigi	kompletiganta kompletigantaj kompletigantajn kompletigantan kompletigante kompletigas kompletigata kompletigataj kompletigatajn kompletigatan kompletigate kompletiginta kompletigintaj kompletigintajn kompletigintan kompletiginte kompletigis kompletigita kompletigitaj kompletigitajn kompletigitan kompletigite kompletigonta kompletigontaj kompletigontajn kompletigontan kompletigonte kompletigos kompletigota kompletigu kompletigus
+22	922	funkcio	funkcioj funkciojn funkcion
+23	923	ligo	ligoj ligojn ligon
+24	924	transdoni	transdonanta transdonantaj transdonantajn transdonantan transdonante transdonas transdonata transdonataj transdonatajn transdonatan transdonate transdoninta transdonintaj transdonintajn transdonintan transdoninte transdonis transdonita transdonitaj transdonitajn transdonitan transdonite transdononta transdonontaj transdonontajn transdonontan transdononte transdonos transdonu transdonus
+25	925	postulo	postuloj postulojn postulon
+26	926	pasigi	pasiganta pasigantaj pasigantajn pasigantan pasigante pasigas pasigata pasigataj pasigatajn pasigatan pasigate pasiginta pasigintaj pasigintajn pasigintan pasiginte pasigis pasigita pasigitaj pasigitajn pasigitan pasigite pasigonta pasigontaj pasigontajn pasigontan pasigonte pasigos pasigu pasigus
+27	927	esprimi	esprimanta esprimantaj esprimantajn esprimantan esprimante esprimas esprimata esprimataj esprimatajn esprimatan esprimate espriminta esprimintaj esprimintajn esprimintan espriminte esprimis esprimita esprimitaj esprimitajn esprimitan esprimite esprimonta esprimontaj esprimontajn esprimontan esprimonte esprimos esprimu esprimus
+28	928	persona	personaj personajn personan
+29	929	teritorio	teritorioj teritoriojn teritorion
+30	930	memoro	memoroj memorojn memoron
+31	931	sono	sonoj sonojn sonon
+32	932	islama	islamaj islamajn islaman
+33	933	kredo	kredoj kredojn kredon
+34	934	normo	normoj normojn normon
+35	935	dolori	doloranta dolorantaj dolorantajn dolorantan dolorante doloras dolorinta dolorintaj dolorintajn dolorintan dolorinte doloris doloronta dolorontaj dolorontajn dolorontan doloronte doloros doloru dolorus
+36	936	stato	statoj statojn staton
+37	937	kosto	kostoj kostojn koston
+38	938	rapideco	rapidecoj rapidecojn rapidecon
+39	939	organizi	organizanta organizantaj organizantajn organizantan organizante organizanto organizantoj organizas organizata organizataj organizatajn organizatan organizate organizinta organizintaj organizintajn organizintan organizinte organizinto organizintoj organizintojn organizis organizita organizitaj organizitajn organizitan organizite organizonta organizontaj organizontajn organizontan organizonte organizos organizu organizus
+40	940	noto	notoj notojn noton
+41	941	aprilo	apriloj aprilojn aprilon
+42	942	trajto	trajtoj trajtojn trajton
+43	943	kliento	klientoj klientojn klienton
+44	944	teamo	teamoj teamojn teamon
+45	945	provo	provoj provojn provon
+46	946	marko	markoj markojn markon
+47	947	danĝero	danĝeroj danĝerojn danĝeron
+48	948	oficiala	oficialaj oficialajn oficialan
+49	949	vundi	vundanta vundantaj vundantajn vundantan vundante vundas vundata vundataj vundatajn vundatan vundate vundinta vundintaj vundintajn vundintan vundinte vundis vundita vunditaj vunditajn vunditan vundite vundito vunditoj vunditojn vundonta vundontaj vundontajn vundontan vundonte vundos vundu vundus
+50	950	ie	ien
+51	951	male	
+52	952	avantaĝo	avantaĝoj avantaĝojn avantaĝon
+53	953	scipovi	scipovanta scipovantaj scipovantajn scipovantan scipovante scipovas scipovinta scipovintaj scipovintajn scipovintan scipovinte scipovis scipovonta scipovontaj scipovontajn scipovontan scipovonte scipovos scipovu scipovus
+54	954	loĝejo	loĝejoj loĝejojn loĝejon
+55	955	noti	notanta notantaj notantajn notantan notante notas notata notataj notatajn notatan notate notinta notintaj notintajn notintan notinte notis notita notitaj notitajn notitan notite notonta notontaj notontajn notontan notonte notos notu notus
+56	956	monda	mondaj mondajn mondan
+57	957	supra	supraj suprajn supran
+58	958	deziro	deziroj dezirojn deziron
+59	959	nenia	neniaj neniajn nenian
+60	960	caro	caroj carojn caron
+61	961	stilo	stiloj stilojn stilon
+62	962	decido	decidoj decidojn decidon
+63	963	princo	princoj princojn princon
+64	964	kompari	komparanta komparantaj komparantajn komparantan komparante komparas komparata komparataj komparatajn komparatan komparate komparinta komparintaj komparintajn komparintan komparinte komparis komparita komparitaj komparitajn komparitan komparite komparonta komparontaj komparontajn komparontan komparonte komparos komparota komparotaj komparu komparus
+65	965	scio	scioj sciojn scion
+66	966	flugo	flugoj flugojn flugon
+67	967	frazo	frazoj frazojn frazon
+68	968	religia	religiaj religiajn religian
+69	969	malami	malamanta malamantaj malamantajn malamantan malamante malamas malamata malamataj malamatajn malamatan malamate malaminta malamintaj malamintajn malamintan malaminte malamis malamita malamitaj malamitajn malamitan malamite malamonta malamontaj malamontajn malamontan malamonte malamos malamota malamu malamus
+70	970	alie	
+71	971	edziĝi	edziĝanta edziĝantaj edziĝantajn edziĝantan edziĝante edziĝanto edziĝantoj edziĝanton edziĝas edziĝinta edziĝintaj edziĝintajn edziĝintan edziĝinte edziĝintoj edziĝis edziĝonta edziĝontaj edziĝontajn edziĝontan edziĝonte edziĝos edziĝu edziĝus
+72	972	preter	
+73	973	fizika	fizikaj fizikajn fizikan
+74	974	komerca	komercaj komercajn komercan
+75	975	fuĝi	fuĝanta fuĝantaj fuĝantajn fuĝantan fuĝante fuĝanto fuĝantoj fuĝantojn fuĝas fuĝinta fuĝintaj fuĝintajn fuĝintan fuĝinte fuĝintoj fuĝis fuĝonta fuĝontaj fuĝontajn fuĝontan fuĝonte fuĝos fuĝu fuĝus
+76	976	miliardo	miliardoj miliardojn miliardon
+77	977	eksteren	
+78	978	verda	verdaj verdajn verdan
+79	979	tutmonda	tutmondaj tutmondajn tutmondan
+80	980	liveri	liveranta liverantaj liverantajn liverantan liverante liveranto liverantoj liveras liverata liverataj liveratajn liveratan liverate liverinta liverintaj liverintajn liverintan liverinte liveris liverita liveritaj liveritajn liveritan liverite liveronta liverontaj liverontajn liverontan liveronte liveros liverota liverotaj liveru liverus
+81	981	sorĉistino	sorĉistinoj sorĉistinojn sorĉistinon
+82	982	hinda	hindaj hindajn hindan
+83	983	penso	pensoj pensojn penson
+84	984	nomumi	nomumanta nomumantaj nomumantajn nomumantan nomumante nomumas nomumata nomumataj nomumatajn nomumatan nomumate nomuminta nomumintaj nomumintajn nomumintan nomuminte nomumis nomumita nomumitaj nomumitajn nomumitan nomumite nomumito nomumitoj nomumitojn nomumonta nomumontaj nomumontajn nomumontan nomumonte nomumos nomumota nomumotaj nomumu nomumus
+85	985	determini	determinanta determinantaj determinantajn determinantan determinante determinanto determinantoj determinantojn determinanton determinas determinata determinataj determinatajn determinatan determinate determininta determinintaj determinintajn determinintan determininte determinis determinita determinitaj determinitajn determinitan determinite determinonta determinontaj determinontajn determinontan determinonte determinos determinota determinu determinus
+86	986	revolucio	revolucioj revoluciojn revolucion
+87	987	bezono	bezonoj bezonojn bezonon
+88	988	sano	sanoj sanojn sanon
+89	989	regno	regnoj regnojn regnon
+90	990	distrikto	distriktoj distriktojn distrikton
+91	991	solvi	solvanta solvantaj solvantajn solvantan solvante solvanto solvantoj solvantojn solvas solvata solvataj solvatajn solvatan solvate solvato solvinta solvintaj solvintajn solvintan solvinte solvis solvita solvitaj solvitajn solvitan solvite solvonta solvontaj solvontajn solvontan solvonte solvos solvu solvus
+92	992	preĝejo	preĝejoj preĝejojn preĝejon
+93	993	pliiĝi	pliiĝanta pliiĝantaj pliiĝantajn pliiĝantan pliiĝante pliiĝas pliiĝinta pliiĝintaj pliiĝintajn pliiĝintan pliiĝinte pliiĝis pliiĝonta pliiĝontaj pliiĝontajn pliiĝontan pliiĝonte pliiĝos pliiĝu pliiĝus
+94	994	greka	grekaj grekajn grekan
+95	995	ok	
+96	996	krii	krianta kriantaj kriantajn kriantan kriante krias kriinta kriintaj kriintajn kriintan kriinte kriis krionta kriontaj kriontajn kriontan krionte krios kriu krius
+97	997	tradicio	tradicioj tradiciojn tradicion
+98	998	mastro	mastroj mastrojn mastron
+99	999	teatro	teatroj teatrojn teatron
+100	1000	relative	

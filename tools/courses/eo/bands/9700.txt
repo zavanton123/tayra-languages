@@ -1,0 +1,100 @@
+1	9601	okcent	
+2	9602	enrigardi	enrigardanta enrigardantaj enrigardantajn enrigardantan enrigardante enrigardas enrigardinta enrigardintaj enrigardintajn enrigardintan enrigardinte enrigardis enrigardonta enrigardontaj enrigardontajn enrigardontan enrigardonte enrigardos enrigardu enrigardus
+3	9603	diligenteco	diligentecoj diligentecojn diligentecon
+4	9604	rapidumo	rapidumoj rapidumojn rapidumon
+5	9605	terurega	teruregaj teruregajn teruregan
+6	9606	pavimo	pavimoj pavimojn pavimon
+7	9607	penadi	penadanta penadantaj penadantajn penadantan penadante penadas penadinta penadintaj penadintajn penadintan penadinte penadis penadonta penadontaj penadontajn penadontan penadonte penados penadu penadus
+8	9608	miaŭi	miaŭanta miaŭantaj miaŭantajn miaŭantan miaŭante miaŭas miaŭinta miaŭintaj miaŭintajn miaŭintan miaŭinte miaŭis miaŭonta miaŭontaj miaŭontajn miaŭontan miaŭonte miaŭos miaŭu miaŭus
+9	9609	longigi	longiganta longigantaj longigantajn longigantan longigante longigas longiginta longigintaj longigintajn longigintan longiginte longigis longigonta longigontaj longigontajn longigontan longigonte longigos longigu longigus
+10	9610	boateto	boatetoj boatetojn boateton
+11	9611	pereiga	pereigaj pereigajn pereigan
+12	9612	nazeto	nazetoj nazetojn nazeton
+13	9613	ŝo	
+14	9614	anksio	anksioj anksiojn anksion
+15	9615	kunloĝanto	kunloĝantoj kunloĝantojn kunloĝanton
+16	9616	kuiristino	kuiristinoj kuiristinojn kuiristinon
+17	9617	kverelema	kverelemaj kverelemajn kvereleman
+18	9618	unuvoĉe	
+19	9619	forrabo	forraboj forrabojn forrabon
+20	9620	nekredema	nekredemaj nekredemajn nekredeman
+21	9621	opozicii	opozicianta opoziciantaj opoziciantajn opoziciantan opoziciante opoziciantojn opozicias opoziciinta opoziciintaj opoziciintajn opoziciintan opoziciinte opoziciis opozicionta opoziciontaj opoziciontajn opoziciontan opozicionte opozicios opoziciu opozicius
+22	9622	monsubteni	monsubtenanta monsubtenantaj monsubtenantajn monsubtenantan monsubtenante monsubtenas monsubteninta monsubtenintaj monsubtenintajn monsubtenintan monsubteninte monsubtenintoj monsubtenis monsubtenonta monsubtenontaj monsubtenontajn monsubtenontan monsubtenonte monsubtenos monsubtenu monsubtenus
+23	9623	penseme	
+24	9624	kanapo	kanapoj kanapojn kanapon
+25	9625	amnezia	amneziaj amneziajn amnezian
+26	9626	violento	violentoj violentojn violenton
+27	9627	frenezeco	frenezecoj frenezecojn frenezecon
+28	9628	malmilde	
+29	9629	korniko	kornikoj kornikojn kornikon
+30	9630	retroiri	retroiranta retroirantaj retroirantajn retroirantan retroirante retroiras retroirinta retroirintaj retroirintajn retroirintan retroirinte retroiris retroironta retroirontaj retroirontajn retroirontan retroironte retroiros retroiru retroirus
+31	9631	ŝmalco	ŝmalcoj ŝmalcojn ŝmalcon
+32	9632	liano	lianoj lianojn lianon
+33	9633	malprudente	
+34	9634	postebrio	postebrioj postebriojn postebrion
+35	9635	ĉenero	ĉeneroj ĉenerojn ĉeneron
+36	9636	olivoleo	olivoleoj olivoleojn olivoleon
+37	9637	homeca	homecaj homecajn homecan
+38	9638	malŝtopi	malŝtopanta malŝtopantaj malŝtopantajn malŝtopantan malŝtopante malŝtopas malŝtopata malŝtopataj malŝtopatajn malŝtopatan malŝtopate malŝtopinta malŝtopintaj malŝtopintajn malŝtopintan malŝtopinte malŝtopis malŝtopita malŝtopitaj malŝtopitajn malŝtopitan malŝtopite malŝtoponta malŝtopontaj malŝtopontajn malŝtopontan malŝtoponte malŝtopos malŝtopota malŝtopu malŝtopus
+39	9639	ovaĵo	ovaĵoj ovaĵojn ovaĵon
+40	9640	samseksama	samseksamaj samseksamajn samseksaman
+41	9641	bierumi	bierumanta bierumantaj bierumantajn bierumantan bierumante bierumas bieruminta bierumintaj bierumintajn bierumintan bieruminte bierumis bierumonta bierumontaj bierumontajn bierumontan bierumonte bierumos bierumu bierumus
+42	9642	angori	angoranta angorantaj angorantajn angorantan angorante angoras angorinta angorintaj angorintajn angorintan angorinte angoris angoronta angorontaj angorontajn angorontan angoronte angoros angoru angorus
+43	9643	bezonaĵo	bezonaĵoj bezonaĵojn bezonaĵon
+44	9644	tolŝuo	tolŝuoj tolŝuojn tolŝuon
+45	9645	diboĉi	diboĉanta diboĉantaj diboĉantajn diboĉantan diboĉante diboĉas diboĉinta diboĉintaj diboĉintajn diboĉintan diboĉinte diboĉis diboĉonta diboĉontaj diboĉontajn diboĉontan diboĉonte diboĉos diboĉu diboĉus
+46	9646	gladilo	gladiloj gladilojn gladilon
+47	9647	televidi	televidanta televidantaj televidantajn televidantan televidante televidas televidinta televidintaj televidintajn televidintan televidinte televidis televidonta televidontaj televidontajn televidontan televidonte televidos televidu televidus
+48	9648	malglataĵo	malglataĵoj malglataĵojn malglataĵon
+49	9649	lernadi	lernadanta lernadantaj lernadantajn lernadantan lernadante lernadas lernadinta lernadintaj lernadintajn lernadintan lernadinte lernadis lernadonta lernadontaj lernadontajn lernadontan lernadonte lernados lernadu lernadus
+50	9650	deflori	defloranta deflorantaj deflorantajn deflorantan deflorante defloras deflorinta deflorintaj deflorintajn deflorintan deflorinte defloris defloronta deflorontaj deflorontajn deflorontan defloronte defloros defloru deflorus
+51	9651	senzorgeco	senzorgecoj senzorgecojn senzorgecon
+52	9652	hupo	hupoj hupojn hupon
+53	9653	negativaĵo	negativaĵoj negativaĵojn negativaĵon
+54	9654	laĉo	laĉoj laĉojn laĉon
+55	9655	volapukisto	volapukistoj volapukistojn volapukiston
+56	9656	malgeja	malgejaj malgejajn malgejan
+57	9657	bavi	
+58	9658	biliono	bilionoj bilionojn bilionon
+59	9659	distordo	distordoj distordojn distordon
+60	9660	patosa	patosaj patosajn patosan
+61	9661	ĉirkaŭmordi	ĉirkaŭmordanta ĉirkaŭmordantaj ĉirkaŭmordantajn ĉirkaŭmordantan ĉirkaŭmordante ĉirkaŭmordas ĉirkaŭmordinta ĉirkaŭmordintaj ĉirkaŭmordintajn ĉirkaŭmordintan ĉirkaŭmordinte ĉirkaŭmordis ĉirkaŭmordonta ĉirkaŭmordontaj ĉirkaŭmordontajn ĉirkaŭmordontan ĉirkaŭmordonte ĉirkaŭmordos ĉirkaŭmordu ĉirkaŭmordus
+62	9662	speguliĝo	speguliĝoj speguliĝojn speguliĝon
+63	9663	emocii	emocianta emociantaj emociantajn emociantan emociante emocias emociinta emociintaj emociintajn emociintan emociinte emociis emocionta emociontaj emociontajn emociontan emocionte emocios emociu emocius
+64	9664	aliaĵo	aliaĵoj aliaĵojn aliaĵon
+65	9665	pleniĝi	pleniĝanta pleniĝantaj pleniĝantajn pleniĝantan pleniĝante pleniĝas pleniĝinta pleniĝintaj pleniĝintajn pleniĝintan pleniĝinte pleniĝis pleniĝonta pleniĝontaj pleniĝontajn pleniĝontan pleniĝonte pleniĝos pleniĝu pleniĝus
+66	9666	frukti	fruktanta fruktantaj fruktantajn fruktantan fruktante fruktas fruktinta fruktintaj fruktintajn fruktintan fruktinte fruktis fruktonta fruktontaj fruktontajn fruktontan fruktonte fruktos fruktu fruktus
+67	9667	suprenlevi	suprenlevanta suprenlevantaj suprenlevantajn suprenlevantan suprenlevante suprenlevas suprenlevinta suprenlevintaj suprenlevintajn suprenlevintan suprenlevinte suprenlevis suprenlevonta suprenlevontaj suprenlevontajn suprenlevontan suprenlevonte suprenlevos suprenlevu suprenlevus
+68	9668	gefianĉo	gefianĉoj gefianĉojn gefianĉon
+69	9669	glaciaro	glaciaroj glaciarojn glaciaron
+70	9670	grinci	grincanta grincantaj grincantajn grincantan grincante grincas grincinta grincintaj grincintajn grincintan grincinte grincis grinconta grincontaj grincontajn grincontan grinconte grincos grincu grincus
+71	9671	alnajli	alnajlanta alnajlantaj alnajlantajn alnajlantan alnajlante alnajlas alnajlinta alnajlintaj alnajlintajn alnajlintan alnajlinte alnajlis alnajlonta alnajlontaj alnajlontajn alnajlontan alnajlonte alnajlos alnajlu alnajlus
+72	9672	noktovesto	noktovestoj noktovestojn noktoveston
+73	9673	fatalo	fataloj fatalojn fatalon
+74	9674	kunkudri	kunkudranta kunkudrantaj kunkudrantajn kunkudrantan kunkudrante kunkudras kunkudrinta kunkudrintaj kunkudrintajn kunkudrintan kunkudrinte kunkudris kunkudronta kunkudrontaj kunkudrontajn kunkudrontan kunkudronte kunkudros kunkudru kunkudrus
+75	9675	orfino	orfinoj orfinojn orfinon
+76	9676	paralizulo	paralizuloj paralizulojn paralizulon
+77	9677	kloaka	kloakaj kloakajn kloakan
+78	9678	sportema	sportemaj sportemajn sporteman
+79	9679	muzikema	muzikemaj muzikemajn muzikeman
+80	9680	ĝirafa	ĝirafaj ĝirafajn ĝirafan
+81	9681	ĝisi	ĝisanta ĝisantaj ĝisantajn ĝisantan ĝisante ĝisas ĝisinta ĝisintaj ĝisintajn ĝisintan ĝisinte ĝisis ĝisonta ĝisontaj ĝisontajn ĝisontan ĝisonte ĝisos ĝisu ĝisus
+82	9682	duonombro	duonombroj duonombrojn duonombron
+83	9683	malvolvi	malvolvanta malvolvantaj malvolvantajn malvolvantan malvolvante malvolvas malvolvinta malvolvintaj malvolvintajn malvolvintan malvolvinte malvolvis malvolvonta malvolvontaj malvolvontajn malvolvontan malvolvonte malvolvos malvolvu malvolvus
+84	9684	pensadi	pensadanta pensadantaj pensadantajn pensadantan pensadante pensadas pensadinta pensadintaj pensadintajn pensadintan pensadinte pensadis pensadonta pensadontaj pensadontajn pensadontan pensadonte pensados pensadu pensadus
+85	9685	ludoni	ludonanta ludonantaj ludonantajn ludonantan ludonante ludonas ludoninta ludonintaj ludonintajn ludonintan ludoninte ludonis ludononta ludonontaj ludonontajn ludonontan ludononte ludonos ludonu ludonus
+86	9686	pudelo	pudeloj pudelojn pudelon
+87	9687	rekudri	rekudranta rekudrantaj rekudrantajn rekudrantan rekudrante rekudras rekudrinta rekudrintaj rekudrintajn rekudrintan rekudrinte rekudris rekudronta rekudrontaj rekudrontajn rekudrontan rekudronte rekudros rekudru rekudrus
+88	9688	banujo	banujoj banujojn banujon
+89	9689	ĉefflegistino	ĉefflegistinoj ĉefflegistinojn ĉefflegistinon
+90	9690	malvirgigi	malvirgiganta malvirgigantaj malvirgigantajn malvirgigantan malvirgigante malvirgigas malvirgiginta malvirgigintaj malvirgigintajn malvirgigintan malvirgiginte malvirgigis malvirgigonta malvirgigontaj malvirgigontajn malvirgigontan malvirgigonte malvirgigos malvirgigu malvirgigus
+91	9691	lante	
+92	9692	kolegino	koleginoj koleginojn koleginon
+93	9693	maltrankvileco	maltrankvilecoj maltrankvilecojn maltrankvilecon
+94	9694	mokadi	mokadanta mokadantaj mokadantajn mokadantan mokadante mokadas mokadinta mokadintaj mokadintajn mokadintan mokadinte mokadis mokadonta mokadontaj mokadontajn mokadontan mokadonte mokados mokadu mokadus
+95	9695	enabismiĝi	enabismiĝanta enabismiĝantaj enabismiĝantajn enabismiĝantan enabismiĝante enabismiĝas enabismiĝinta enabismiĝintaj enabismiĝintajn enabismiĝintan enabismiĝinte enabismiĝis enabismiĝonta enabismiĝontaj enabismiĝontajn enabismiĝontan enabismiĝonte enabismiĝos enabismiĝu enabismiĝus
+96	9696	hati	hatanta hatantaj hatantajn hatantan hatante hatas hatinta hatintaj hatintajn hatintan hatinte hatis hatonta hatontaj hatontajn hatontan hatonte hatos hatu hatus
+97	9697	impulsiĝema	impulsiĝemaj impulsiĝemajn impulsiĝeman
+98	9698	atendejo	atendejoj atendejojn atendejon
+99	9699	malamikiĝi	malamikiĝanta malamikiĝantaj malamikiĝantajn malamikiĝantan malamikiĝante malamikiĝas malamikiĝinta malamikiĝintaj malamikiĝintajn malamikiĝintan malamikiĝinte malamikiĝis malamikiĝonta malamikiĝontaj malamikiĝontajn malamikiĝontan malamikiĝonte malamikiĝos malamikiĝu malamikiĝus
+100	9700	sekurigo	sekurigoj sekurigojn sekurigon

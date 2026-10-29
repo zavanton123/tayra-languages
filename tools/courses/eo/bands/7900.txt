@@ -1,0 +1,100 @@
+1	7801	odo	odoj odojn odon
+2	7802	botanikisto	botanikistoj botanikistojn botanikiston
+3	7803	kolesterolo	kolesteroloj kolesterolojn kolesterolon
+4	7804	admono	admonoj admonojn admonon
+5	7805	tunizia	tuniziaj tuniziajn tunizian
+6	7806	stepo	stepoj stepojn stepon
+7	7807	frustri	frustranta frustrantaj frustrantajn frustrantan frustrante frustras frustrata frustrataj frustratajn frustratan frustrate frustrinta frustrintaj frustrintajn frustrintan frustrinte frustris frustrita frustritaj frustritajn frustritan frustrite frustronta frustrontaj frustrontajn frustrontan frustronte frustros frustru frustrus
+8	7808	miriado	miriadoj miriadojn miriadon
+9	7809	tenoro	tenoroj tenorojn tenoron
+10	7810	nestabila	nestabilaj nestabilajn nestabilan
+11	7811	librovendejo	librovendejoj librovendejojn librovendejon
+12	7812	unuope	
+13	7813	frajto	frajtoj frajtojn frajton
+14	7814	funkciigo	funkciigoj funkciigojn funkciigon
+15	7815	virta	virtaj virtajn virtan
+16	7816	helpverbo	helpverboj helpverbojn helpverbon
+17	7817	patologia	patologiaj patologiajn patologian
+18	7818	kalumnii	kalumnianta kalumniantaj kalumniantajn kalumniantan kalumniante kalumnias kalumniata kalumniataj kalumniatajn kalumniatan kalumniate kalumniinta kalumniintaj kalumniintajn kalumniintan kalumniinte kalumniis kalumniita kalumniitaj kalumniitajn kalumniitan kalumniite kalumnionta kalumniontaj kalumniontajn kalumniontan kalumnionte kalumnios kalumniu kalumnius
+19	7819	kvarpiedulo	kvarpieduloj kvarpiedulojn kvarpiedulon
+20	7820	zepelino	zepelinoj zepelinojn zepelinon
+21	7821	heroeco	heroecoj heroecojn heroecon
+22	7822	plibeligi	plibeliganta plibeligantaj plibeligantajn plibeligantan plibeligante plibeligas plibeliginta plibeligintaj plibeligintajn plibeligintan plibeliginte plibeligis plibeligonta plibeligontaj plibeligontajn plibeligontan plibeligonte plibeligos plibeligu plibeligus
+23	7823	objektiveco	objektivecoj objektivecojn objektivecon
+24	7824	absolvi	absolvanta absolvantaj absolvantajn absolvantan absolvante absolvas absolvata absolvataj absolvatajn absolvatan absolvate absolvinta absolvintaj absolvintajn absolvintan absolvinte absolvis absolvita absolvitaj absolvitajn absolvitan absolvite absolvonta absolvontaj absolvontajn absolvontan absolvonte absolvos absolvu absolvus
+25	7825	mo	
+26	7826	perversa	perversaj perversajn perversan
+27	7827	hezito	hezitoj hezitojn heziton
+28	7828	forteco	fortecoj fortecojn fortecon
+29	7829	pilgrimi	pilgrimanta pilgrimantaj pilgrimantajn pilgrimantan pilgrimante pilgrimanto pilgrimantoj pilgrimas pilgriminta pilgrimintaj pilgrimintajn pilgrimintan pilgriminte pilgrimis pilgrimonta pilgrimontaj pilgrimontajn pilgrimontan pilgrimonte pilgrimos pilgrimu pilgrimus
+30	7830	timida	timidaj timidajn timidan
+31	7831	ŝvita	ŝvitaj ŝvitajn ŝvitan
+32	7832	genui	genuanta genuantaj genuantajn genuantan genuante genuas genuinta genuintaj genuintajn genuintan genuinte genuis genuonta genuontaj genuontajn genuontan genuonte genuos genuu genuus
+33	7833	bonkoreco	bonkorecoj bonkorecojn bonkorecon
+34	7834	ulaĉo	ulaĉoj ulaĉojn ulaĉon
+35	7835	zloto	zlotoj zlotojn zloton
+36	7836	kirlovaĵo	kirlovaĵoj kirlovaĵojn kirlovaĵon
+37	7837	altpreza	altprezaj altprezajn altprezan
+38	7838	katakombo	katakomboj katakombojn katakombon
+39	7839	dubigi	dubiganta dubigantaj dubigantajn dubigantan dubigante dubigas dubiginta dubigintaj dubigintajn dubigintan dubiginte dubigis dubigonta dubigontaj dubigontajn dubigontan dubigonte dubigos dubigu dubigus
+40	7840	feliso	felisoj felisojn felison
+41	7841	fuŝisto	fuŝistoj fuŝistojn fuŝiston
+42	7842	laborilo	laboriloj laborilojn laborilon
+43	7843	tutkore	
+44	7844	iglo	igloj iglojn iglon
+45	7845	ŝteleco	ŝtelecoj ŝtelecojn ŝtelecon
+46	7846	ŝraŭbingo	ŝraŭbingoj ŝraŭbingojn ŝraŭbingon
+47	7847	malsorĉi	malsorĉanta malsorĉantaj malsorĉantajn malsorĉantan malsorĉante malsorĉas malsorĉinta malsorĉintaj malsorĉintajn malsorĉintan malsorĉinte malsorĉis malsorĉonta malsorĉontaj malsorĉontajn malsorĉontan malsorĉonte malsorĉos malsorĉu malsorĉus
+48	7848	fiŝisto	fiŝistoj fiŝistojn fiŝiston
+49	7849	malakceli	malakcelanta malakcelantaj malakcelantajn malakcelantan malakcelante malakcelas malakcelinta malakcelintaj malakcelintajn malakcelintan malakcelinte malakcelis malakcelonta malakcelontaj malakcelontajn malakcelontan malakcelonte malakcelos malakcelu malakcelus
+50	7850	seninterrompe	
+51	7851	fridi	fridanta fridantaj fridantajn fridantan fridante fridas fridinta fridintaj fridintajn fridintan fridinte fridis fridonta fridontaj fridontajn fridontan fridonte fridos fridu fridus
+52	7852	ŝtormi	ŝtormanta ŝtormantaj ŝtormantajn ŝtormantan ŝtormante ŝtormas ŝtorminta ŝtormintaj ŝtormintajn ŝtormintan ŝtorminte ŝtormis ŝtormonta ŝtormontaj ŝtormontajn ŝtormontan ŝtormonte ŝtormos ŝtormu ŝtormus
+53	7853	ĥemio	ĥemioj ĥemiojn ĥemion
+54	7854	veterinaro	veterinaroj veterinarojn veterinaron
+55	7855	matroso	matrosoj matrosojn matroson
+56	7856	kambio	kambioj kambiojn kambion
+57	7857	saneco	sanecoj sanecojn sanecon
+58	7858	incendii	incendianta incendiantaj incendiantajn incendiantan incendiante incendias incendiinta incendiintaj incendiintajn incendiintan incendiinte incendiis incendionta incendiontaj incendiontajn incendiontan incendionte incendios incendiu incendius
+59	7859	kateto	katetoj katetojn kateton
+60	7860	kaŝema	kaŝemaj kaŝemajn kaŝeman
+61	7861	buki	bukanta bukantaj bukantajn bukantan bukante bukas bukinta bukintaj bukintajn bukintan bukinte bukis bukonta bukontaj bukontajn bukontan bukonte bukos buku bukus
+62	7862	hejmbesto	hejmbestoj hejmbestojn hejmbeston
+63	7863	siringo	siringoj siringojn siringon
+64	7864	laborulo	laboruloj laborulojn laborulon
+65	7865	kartuno	kartunoj kartunojn kartunon
+66	7866	friska	friskaj friskajn friskan
+67	7867	sencerbulo	sencerbuloj sencerbulojn sencerbulon
+68	7868	nenies	
+69	7869	reĝidino	reĝidinoj reĝidinojn reĝidinon
+70	7870	deziregi	dezireganta deziregantaj deziregantajn deziregantan deziregante deziregas dezireginta deziregintaj deziregintajn deziregintan dezireginte deziregis deziregonta deziregontaj deziregontajn deziregontan deziregonte deziregos deziregu deziregus
+71	7871	abortaĵo	abortaĵoj abortaĵojn abortaĵon
+72	7872	knabeco	knabecoj knabecojn knabecon
+73	7873	triope	
+74	7874	flavbekulo	flavbekuloj flavbekulojn flavbekulon
+75	7875	honte	
+76	7876	tremanta	tremantaj tremantajn tremantan
+77	7877	bruliĝi	bruliĝanta bruliĝantaj bruliĝantajn bruliĝantan bruliĝante bruliĝas bruliĝinta bruliĝintaj bruliĝintajn bruliĝintan bruliĝinte bruliĝis bruliĝonta bruliĝontaj bruliĝontajn bruliĝontan bruliĝonte bruliĝos bruliĝu bruliĝus
+78	7878	senspure	
+79	7879	drinkemulo	drinkemuloj drinkemulojn drinkemulon
+80	7880	antaŭlonge	
+81	7881	almozpeti	almozpetanta almozpetantaj almozpetantajn almozpetantan almozpetante almozpetas almozpetinta almozpetintaj almozpetintajn almozpetintan almozpetinte almozpetis almozpetonta almozpetontaj almozpetontajn almozpetontan almozpetonte almozpetos almozpetu almozpetus
+82	7882	fotografaĵo	fotografaĵoj fotografaĵojn fotografaĵon
+83	7883	mensoga	mensogaj mensogajn mensogan
+84	7884	belaspekta	belaspektaj belaspektajn belaspektan
+85	7885	malamiki	malamikanta malamikantaj malamikantajn malamikantan malamikante malamikas malamikinta malamikintaj malamikintajn malamikintan malamikinte malamikis malamikonta malamikontaj malamikontajn malamikontan malamikonte malamikos malamiku malamikus
+86	7886	malbonega	malbonegaj malbonegajn malbonegan
+87	7887	inspekto	inspektoj inspektojn inspekton
+88	7888	ŝtoniĝi	ŝtoniĝanta ŝtoniĝantaj ŝtoniĝantajn ŝtoniĝantan ŝtoniĝante ŝtoniĝas ŝtoniĝinta ŝtoniĝintaj ŝtoniĝintajn ŝtoniĝintan ŝtoniĝinte ŝtoniĝis ŝtoniĝonta ŝtoniĝontaj ŝtoniĝontajn ŝtoniĝontan ŝtoniĝonte ŝtoniĝos ŝtoniĝu ŝtoniĝus
+89	7889	detaleto	detaletoj detaletojn detaleton
+90	7890	subvestaĵo	subvestaĵoj subvestaĵojn subvestaĵon
+91	7891	fianĉiĝo	fianĉiĝoj fianĉiĝojn fianĉiĝon
+92	7892	lekcio	lekcioj lekciojn lekcion
+93	7893	grandanime	
+94	7894	manlaboro	manlaboroj manlaborojn manlaboron
+95	7895	kvaki	kvakanta kvakantaj kvakantajn kvakantan kvakante kvakas kvakinta kvakintaj kvakintajn kvakintan kvakinte kvakis kvakonta kvakontaj kvakontajn kvakontan kvakonte kvakos kvaku kvakus
+96	7896	anasino	anasinoj anasinojn anasinon
+97	7897	sentaŭga	sentaŭgaj sentaŭgajn sentaŭgan
+98	7898	pufa	pufaj pufajn pufan
+99	7899	lokusto	lokustoj lokustojn lokuston
+100	7900	aliformiĝo	aliformiĝoj aliformiĝojn aliformiĝon

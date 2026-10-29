@@ -1,0 +1,100 @@
+1	5201	surfaca	surfacaj surfacajn surfacan
+2	5202	parado	paradoj paradojn paradon
+3	5203	mita	mitaj mitajn mitan
+4	5204	abomeno	abomenoj abomenojn abomenon
+5	5205	konzolo	konzoloj konzolojn konzolon
+6	5206	kolektado	kolektadoj kolektadojn kolektadon
+7	5207	ĉeftemo	ĉeftemoj ĉeftemojn ĉeftemon
+8	5208	teologo	teologoj teologojn teologon
+9	5209	ambicio	ambicioj ambiciojn ambicion
+10	5210	vendado	vendadoj vendadojn vendadon
+11	5211	kimra	kimraj kimrajn kimran
+12	5212	kineta	kinetaj kinetajn kinetan
+13	5213	realigebla	realigeblaj realigeblajn realigeblan
+14	5214	volvaĵo	volvaĵoj volvaĵojn volvaĵon
+15	5215	promeno	promenoj promenojn promenon
+16	5216	fakulo	fakuloj fakulojn fakulon
+17	5217	amazono	amazonoj amazonojn amazonon
+18	5218	sklavigi	sklaviganta sklavigantaj sklavigantajn sklavigantan sklavigante sklavigas sklavigata sklavigataj sklavigatajn sklavigatan sklavigate sklaviginta sklavigintaj sklavigintajn sklavigintan sklaviginte sklavigis sklavigita sklavigitaj sklavigitajn sklavigitan sklavigite sklavigonta sklavigontaj sklavigontajn sklavigontan sklavigonte sklavigos sklavigu sklavigus
+19	5219	teoremo	teoremoj teoremojn teoremon
+20	5220	maroka	marokaj marokajn marokan
+21	5221	spontana	spontanaj spontanajn spontanan spontanea spontaneaj spontaneajn spontanean
+22	5222	rekompenci	rekompencanta rekompencantaj rekompencantajn rekompencantan rekompencante rekompencas rekompencinta rekompencintaj rekompencintajn rekompencintan rekompencinte rekompencis rekompenconta rekompencontaj rekompencontajn rekompencontan rekompenconte rekompencos rekompencu rekompencus
+23	5223	teruraĵo	teruraĵoj teruraĵojn teruraĵon
+24	5224	pereigi	pereiganta pereigantaj pereigantajn pereigantan pereigante pereigas pereigata pereigataj pereigatajn pereigatan pereigate pereiginta pereigintaj pereigintajn pereigintan pereiginte pereigis pereigita pereigitaj pereigitajn pereigitan pereigite pereigonta pereigontaj pereigontajn pereigontan pereigonte pereigos pereigu pereigus
+25	5225	kunesti	kunestanta kunestantaj kunestantajn kunestantan kunestante kunestas kunestinta kunestintaj kunestintajn kunestintan kunestinte kunestis kunestonta kunestontaj kunestontajn kunestontan kunestonte kunestos kunestu kunestus
+26	5226	manĝeti	manĝetanta manĝetantaj manĝetantajn manĝetantan manĝetante manĝetas manĝetinta manĝetintaj manĝetintajn manĝetintan manĝetinte manĝetis manĝetonta manĝetontaj manĝetontajn manĝetontan manĝetonte manĝetos manĝetu manĝetus
+27	5227	dronigi	droniganta dronigantaj dronigantajn dronigantan dronigante dronigas droniginta dronigintaj dronigintajn dronigintan droniginte dronigis dronigonta dronigontaj dronigontajn dronigontan dronigonte dronigos dronigu dronigus
+28	5228	amindumi	amindumanta amindumantaj amindumantajn amindumantan amindumante amindumas aminduminta amindumintaj amindumintajn amindumintan aminduminte amindumis amindumonta amindumontaj amindumontajn amindumontan amindumonte amindumos amindumu amindumus
+29	5229	afabli	afablanta afablantaj afablantajn afablantan afablante afablas afablinta afablintaj afablintajn afablintan afablinte afablis afablonta afablontaj afablontajn afablontan afablonte afablos afablu afablus
+30	5230	miaopinie	
+31	5231	karega	karegaj karegajn karegan
+32	5232	maljuni	maljunanta maljunantaj maljunantajn maljunantan maljunante maljunas maljuninta maljunintaj maljunintajn maljunintan maljuninte maljunis maljunonta maljunontaj maljunontajn maljunontan maljunonte maljunos maljunu maljunus
+33	5233	mojosi	mojosanta mojosantaj mojosantajn mojosantan mojosante mojosas mojosinta mojosintaj mojosintajn mojosintan mojosinte mojosis mojosonta mojosontaj mojosontajn mojosontan mojosonte mojosos mojosu mojosus
+34	5234	nenial	
+35	5235	sekretariino	sekretariinoj sekretariinojn sekretariinon
+36	5236	alveturi	alveturanta alveturantaj alveturantajn alveturantan alveturante alveturas alveturinta alveturintaj alveturintajn alveturintan alveturinte alveturis alveturonta alveturontaj alveturontajn alveturontan alveturonte alveturos alveturu alveturus
+37	5237	homarano	homaranoj homaranojn homaranon
+38	5238	prava	pravaj pravajn pravan
+39	5239	hurli	hurlanta hurlantaj hurlantajn hurlantan hurlante hurlas hurlinta hurlintaj hurlintajn hurlintan hurlinte hurlis hurlonta hurlontaj hurlontajn hurlontan hurlonte hurlos hurlu hurlus
+40	5240	malplaĉi	malplaĉanta malplaĉantaj malplaĉantajn malplaĉantan malplaĉante malplaĉas malplaĉinta malplaĉintaj malplaĉintajn malplaĉintan malplaĉinte malplaĉis malplaĉonta malplaĉontaj malplaĉontajn malplaĉontan malplaĉonte malplaĉos malplaĉu malplaĉus
+41	5241	senvestiĝi	senvestiĝanta senvestiĝantaj senvestiĝantajn senvestiĝantan senvestiĝante senvestiĝas senvestiĝinta senvestiĝintaj senvestiĝintajn senvestiĝintan senvestiĝinte senvestiĝis senvestiĝonta senvestiĝontaj senvestiĝontajn senvestiĝontan senvestiĝonte senvestiĝos senvestiĝu senvestiĝus
+42	5242	enlitigi	enlitiganta enlitigantaj enlitigantajn enlitigantan enlitigante enlitigas enlitiginta enlitigintaj enlitigintajn enlitigintan enlitiginte enlitigis enlitigonta enlitigontaj enlitigontajn enlitigontan enlitigonte enlitigos enlitigu enlitigus
+43	5243	ekscitiĝi	ekscitiĝanta ekscitiĝantaj ekscitiĝantajn ekscitiĝantan ekscitiĝante ekscitiĝas ekscitiĝinta ekscitiĝintaj ekscitiĝintajn ekscitiĝintan ekscitiĝinte ekscitiĝis ekscitiĝonta ekscitiĝontaj ekscitiĝontajn ekscitiĝontan ekscitiĝonte ekscitiĝos ekscitiĝu ekscitiĝus
+44	5244	lipharoj	lipharo lipharojn lipharon
+45	5245	blagi	blaganta blagantaj blagantajn blagantan blagante blagas blaginta blagintaj blagintajn blagintan blaginte blagis blagonta blagontaj blagontajn blagontan blagonte blagos blagu blagus
+46	5246	poeziaĵo	poeziaĵoj poeziaĵojn poeziaĵon
+47	5247	spriti	spritanta spritantaj spritantajn spritantan spritante spritas spritinta spritintaj spritintajn spritintan spritinte spritis spritonta spritontaj spritontajn spritontan spritonte spritos spritu spritus
+48	5248	flavi	flavanta flavantaj flavantajn flavantan flavante flavas flavinta flavintaj flavintajn flavintan flavinte flavis flavonta flavontaj flavontajn flavontan flavonte flavos flavu flavus
+49	5249	drinkaĵo	drinkaĵoj drinkaĵojn drinkaĵon
+50	5250	parolaĉi	parolaĉanta parolaĉantaj parolaĉantajn parolaĉantan parolaĉante parolaĉas parolaĉinta parolaĉintaj parolaĉintajn parolaĉintan parolaĉinte parolaĉis parolaĉonta parolaĉontaj parolaĉontajn parolaĉontan parolaĉonte parolaĉos parolaĉu parolaĉus
+51	5251	avenuo	avenuoj avenuojn avenuon
+52	5252	laŭdo	laŭdoj laŭdojn laŭdon
+53	5253	fiero	fieroj fierojn fieron
+54	5254	esperante	
+55	5255	riĉeco	riĉecoj riĉecojn riĉecon
+56	5256	gracio	gracioj graciojn gracion
+57	5257	krepusko	krepuskoj krepuskojn krepuskon
+58	5258	malvarmigi	malvarmiganta malvarmigantaj malvarmigantajn malvarmigantan malvarmigante malvarmigas malvarmigata malvarmigataj malvarmigatajn malvarmigatan malvarmigate malvarmiginta malvarmigintaj malvarmigintajn malvarmigintan malvarmiginte malvarmigis malvarmigita malvarmigitaj malvarmigitajn malvarmigitan malvarmigite malvarmigonta malvarmigontaj malvarmigontajn malvarmigontan malvarmigonte malvarmigos malvarmigu malvarmigus
+59	5259	fondaĵo	fondaĵoj fondaĵojn fondaĵon
+60	5260	marnivelo	marniveloj marnivelojn marnivelon
+61	5261	hibrido	hibridoj hibridojn hibridon
+62	5262	suspektinda	suspektindaj suspektindajn suspektindan
+63	5263	senvestigi	senvestiganta senvestigantaj senvestigantajn senvestigantan senvestigante senvestigas senvestigata senvestigataj senvestigatajn senvestigatan senvestigate senvestiginta senvestigintaj senvestigintajn senvestigintan senvestiginte senvestigis senvestigita senvestigitaj senvestigitajn senvestigitan senvestigite senvestigonta senvestigontaj senvestigontajn senvestigontan senvestigonte senvestigos senvestigu senvestigus
+64	5264	aidoso	aidosoj aidosojn aidoson
+65	5265	glaco	glacoj glacojn glacon
+66	5266	sudano	sudanoj sudanojn sudanon
+67	5267	sociologio	sociologioj sociologiojn sociologion
+68	5268	koramiko	koramikoj koramikojn koramikon
+69	5269	agiti	agitanta agitantaj agitantajn agitantan agitante agitanto agitantoj agitanton agitas agitata agitataj agitatajn agitatan agitate agitinta agitintaj agitintajn agitintan agitinte agitis agitita agititaj agititajn agititan agitite agitonta agitontaj agitontajn agitontan agitonte agitos agitu agitus
+70	5270	inaŭguri	inaŭguranta inaŭgurantaj inaŭgurantajn inaŭgurantan inaŭgurante inaŭguras inaŭgurata inaŭgurataj inaŭguratajn inaŭguratan inaŭgurate inaŭgurinta inaŭgurintaj inaŭgurintajn inaŭgurintan inaŭgurinte inaŭguris inaŭgurita inaŭguritaj inaŭguritajn inaŭguritan inaŭgurite inaŭguronta inaŭgurontaj inaŭgurontajn inaŭgurontan inaŭguronte inaŭguros inaŭguru inaŭgurus
+71	5271	dekstro	dekstroj dekstrojn dekstron
+72	5272	gejo	gejoj gejojn gejon
+73	5273	ĉasio	ĉasioj ĉasiojn ĉasion
+74	5274	organizado	organizadoj organizadojn organizadon
+75	5275	deprimi	deprimanta deprimantaj deprimantajn deprimantan deprimante deprimas deprimata deprimataj deprimatajn deprimatan deprimate depriminta deprimintaj deprimintajn deprimintan depriminte deprimis deprimita deprimitaj deprimitajn deprimitan deprimite deprimonta deprimontaj deprimontajn deprimontan deprimonte deprimos deprimu deprimus
+76	5276	krampo	krampoj krampojn krampon
+77	5277	devigo	devigoj devigojn devigon
+78	5278	bito	bitoj bitojn biton
+79	5279	konsulo	konsuloj konsulojn konsulon
+80	5280	pligrandiĝi	pligrandiĝanta pligrandiĝantaj pligrandiĝantajn pligrandiĝantan pligrandiĝante pligrandiĝas pligrandiĝinta pligrandiĝintaj pligrandiĝintajn pligrandiĝintan pligrandiĝinte pligrandiĝis pligrandiĝonta pligrandiĝontaj pligrandiĝontajn pligrandiĝontan pligrandiĝonte pligrandiĝos pligrandiĝu pligrandiĝus
+81	5281	teruri	teruranta terurantaj terurantajn terurantan terurante teruras terurata terurataj teruratajn teruratan terurate terurinta terurintaj terurintajn terurintan terurinte teruris terurita teruritaj teruritajn teruritan terurite teruronta terurontaj terurontajn terurontan teruronte teruros teruru terurus
+82	5282	kino	kinoj kinojn kinon
+83	5283	stando	standoj standojn standon
+84	5284	drinkado	drinkadoj drinkadojn drinkadon
+85	5285	garantio	garantioj garantiojn garantion
+86	5286	sintezi	sintezanta sintezantaj sintezantajn sintezantan sintezante sintezas sintezata sintezataj sintezatajn sintezatan sintezate sintezinta sintezintaj sintezintajn sintezintan sintezinte sintezis sintezita sintezitaj sintezitajn sintezitan sintezite sintezonta sintezontaj sintezontajn sintezontan sintezonte sintezos sintezu sintezus
+87	5287	konstruejo	konstruejoj konstruejojn konstruejon
+88	5288	sabato	sabatoj sabatojn sabaton
+89	5289	silko	silkoj silkojn silkon
+90	5290	argilo	argiloj argilojn argilon
+91	5291	reakcio	reakcioj reakciojn reakcion
+92	5292	anticipe	
+93	5293	komentisto	komentistoj komentistojn komentiston
+94	5294	filipina	filipinaj filipinajn filipinan
+95	5295	geologia	geologiaj geologiajn geologian
+96	5296	mencio	mencioj menciojn mencion
+97	5297	malsame	
+98	5298	klifo	klifoj klifojn klifon
+99	5299	kelta	keltaj keltajn keltan
+100	5300	terorismo	terorismoj terorismojn terorismon

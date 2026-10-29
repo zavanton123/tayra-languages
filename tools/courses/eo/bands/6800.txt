@@ -1,0 +1,100 @@
+1	6701	biokemia	biokemiaj biokemiajn biokemian
+2	6702	tineo	tineoj tineojn tineon
+3	6703	situo	situoj situojn situon
+4	6704	butano	butanoj butanojn butanon
+5	6705	agrara	agraraj agrarajn agraran
+6	6706	neŭtraleco	neŭtralecoj neŭtralecojn neŭtralecon
+7	6707	gradiento	gradientoj gradientojn gradienton
+8	6708	groco	grocoj grocojn grocon
+9	6709	kunekzisti	kunekzistanta kunekzistantaj kunekzistantajn kunekzistantan kunekzistante kunekzistas kunekzistinta kunekzistintaj kunekzistintajn kunekzistintan kunekzistinte kunekzistis kunekzistonta kunekzistontaj kunekzistontajn kunekzistontan kunekzistonte kunekzistos kunekzistu kunekzistus
+10	6710	indeksi	indeksanta indeksantaj indeksantajn indeksantan indeksante indeksanto indeksantoj indeksas indeksata indeksataj indeksatajn indeksatan indeksate indeksinta indeksintaj indeksintajn indeksintan indeksinte indeksis indeksita indeksitaj indeksitajn indeksitan indeksite indeksonta indeksontaj indeksontajn indeksontan indeksonte indeksos indeksu indeksus
+11	6711	bestaro	bestaroj bestarojn bestaron
+12	6712	anima	animaj animajn animan
+13	6713	petroselo	petroseloj petroselojn petroselon
+14	6714	interparolo	interparoloj interparolojn interparolon
+15	6715	aŭtoreco	aŭtorecoj aŭtorecojn aŭtorecon
+16	6716	partizano	partizanoj partizanojn partizanon
+17	6717	kokso	koksoj koksojn kokson
+18	6718	krokodilo	krokodiloj krokodilojn krokodilon
+19	6719	mikroorganismo	mikroorganismoj mikroorganismojn mikroorganismon
+20	6720	hanti	hantanta hantantaj hantantajn hantantan hantante hantas hantata hantataj hantatajn hantatan hantate hantinta hantintaj hantintajn hantintan hantinte hantis hantita hantitaj hantitajn hantitan hantite hantonta hantontaj hantontajn hantontan hantonte hantos hantu hantus
+21	6721	alkroĉiĝi	alkroĉiĝanta alkroĉiĝantaj alkroĉiĝantajn alkroĉiĝantan alkroĉiĝante alkroĉiĝas alkroĉiĝinta alkroĉiĝintaj alkroĉiĝintajn alkroĉiĝintan alkroĉiĝinte alkroĉiĝis alkroĉiĝonta alkroĉiĝontaj alkroĉiĝontajn alkroĉiĝontan alkroĉiĝonte alkroĉiĝos alkroĉiĝu alkroĉiĝus
+22	6722	tablotuko	tablotukoj tablotukojn tablotukon
+23	6723	sengrasa	sengrasaj sengrasajn sengrasan
+24	6724	farbi	farbanta farbantaj farbantajn farbantan farbante farbas farbata farbataj farbatajn farbatan farbate farbinta farbintaj farbintajn farbintan farbinte farbis farbita farbitaj farbitajn farbitan farbite farbonta farbontaj farbontajn farbontan farbonte farbos farbu farbus
+25	6725	broŝuro	broŝuroj broŝurojn broŝuron
+26	6726	androido	androidoj androidojn androidon
+27	6727	gildo	gildoj gildojn gildon
+28	6728	klako	klakoj klakojn klakon
+29	6729	antropologo	antropologoj antropologojn antropologon
+30	6730	ĉikanema	ĉikanemaj ĉikanemajn ĉikaneman
+31	6731	respekte	
+32	6732	balzamo	balzamoj balzamojn balzamon
+33	6733	superŝuti	superŝutanta superŝutantaj superŝutantajn superŝutantan superŝutante superŝutas superŝutata superŝutataj superŝutatajn superŝutatan superŝutate superŝutinta superŝutintaj superŝutintajn superŝutintan superŝutinte superŝutis superŝutita superŝutitaj superŝutitajn superŝutitan superŝutite superŝutonta superŝutontaj superŝutontajn superŝutontan superŝutonte superŝutos superŝutu superŝutus
+34	6734	luli	lulanta lulantaj lulantajn lulantan lulante lulas lulinta lulintaj lulintajn lulintan lulinte lulis lulonta lulontaj lulontajn lulontan lulonte lulos lulu lulus
+35	6735	leona	leonaj leonajn leonan
+36	6736	grandanima	grandanimaj grandanimajn grandaniman
+37	6737	gusti	gustanta gustantaj gustantajn gustantan gustante gustas gustinta gustintaj gustintajn gustintan gustinte gustis gustonta gustontaj gustontajn gustontan gustonte gustos gustu gustus
+38	6738	menuo	menuoj menuojn menuon
+39	6739	opera	operaj operajn operan
+40	6740	tropiko	tropikoj tropikojn tropikon
+41	6741	duoble	
+42	6742	sunleviĝo	sunleviĝoj sunleviĝojn sunleviĝon
+43	6743	krania	kraniaj kraniajn kranian
+44	6744	aŭtomato	aŭtomatoj aŭtomatojn aŭtomaton
+45	6745	melankolio	melankolioj melankoliojn melankolion
+46	6746	necesaĵo	necesaĵoj necesaĵojn necesaĵon
+47	6747	kalkulado	kalkuladoj kalkuladojn kalkuladon
+48	6748	lineara	linearaj linearajn linearan
+49	6749	milvo	milvoj milvojn milvon
+50	6750	akceptema	akceptemaj akceptemajn akcepteman
+51	6751	entropio	entropioj entropiojn entropion
+52	6752	feto	fetoj fetojn feton
+53	6753	parencaro	parencaroj parencarojn parencaron
+54	6754	sammaniere	
+55	6755	elmeti	elmetanta elmetantaj elmetantajn elmetantan elmetante elmetas elmetata elmetataj elmetatajn elmetatan elmetate elmetinta elmetintaj elmetintajn elmetintan elmetinte elmetis elmetita elmetitaj elmetitajn elmetitan elmetite elmetonta elmetontaj elmetontajn elmetontan elmetonte elmetos elmetu elmetus
+56	6756	dividiĝi	dividiĝanta dividiĝantaj dividiĝantajn dividiĝantan dividiĝante dividiĝas dividiĝinta dividiĝintaj dividiĝintajn dividiĝintan dividiĝinte dividiĝis dividiĝonta dividiĝontaj dividiĝontajn dividiĝontan dividiĝonte dividiĝos dividiĝu dividiĝus
+57	6757	blindulo	blinduloj blindulojn blindulon
+58	6758	antaŭjuĝo	antaŭjuĝoj antaŭjuĝojn antaŭjuĝon
+59	6759	alkonstrui	alkonstruanta alkonstruantaj alkonstruantajn alkonstruantan alkonstruante alkonstruas alkonstruata alkonstruataj alkonstruatajn alkonstruatan alkonstruate alkonstruinta alkonstruintaj alkonstruintajn alkonstruintan alkonstruinte alkonstruis alkonstruita alkonstruitaj alkonstruitajn alkonstruitan alkonstruite alkonstruonta alkonstruontaj alkonstruontajn alkonstruontan alkonstruonte alkonstruos alkonstruu alkonstruus
+60	6760	redaktoro	redaktoroj redaktorojn redaktoron
+61	6761	ruĝiĝi	ruĝiĝanta ruĝiĝantaj ruĝiĝantajn ruĝiĝantan ruĝiĝante ruĝiĝas ruĝiĝinta ruĝiĝintaj ruĝiĝintajn ruĝiĝintan ruĝiĝinte ruĝiĝis ruĝiĝonta ruĝiĝontaj ruĝiĝontajn ruĝiĝontan ruĝiĝonte ruĝiĝos ruĝiĝu ruĝiĝus
+62	6762	gastigantino	gastigantinoj gastigantinojn gastigantinon
+63	6763	sino	sinoj sinojn sinon
+64	6764	senescepte	
+65	6765	damninda	damnindaj damnindajn damnindan
+66	6766	kanzono	kanzonoj kanzonojn kanzonon
+67	6767	ĝemo	ĝemoj ĝemojn ĝemon
+68	6768	surdulo	surduloj surdulojn surdulon
+69	6769	skrapi	skrapanta skrapantaj skrapantajn skrapantan skrapante skrapas skrapata skrapataj skrapatajn skrapatan skrapate skrapinta skrapintaj skrapintajn skrapintan skrapinte skrapis skrapita skrapitaj skrapitajn skrapitan skrapite skraponta skrapontaj skrapontajn skrapontan skraponte skrapos skrapu skrapus
+70	6770	barako	barakoj barakojn barakon
+71	6771	burĝono	burĝonoj burĝonojn burĝonon
+72	6772	lanterno	lanternoj lanternojn lanternon
+73	6773	transformado	transformadoj transformadojn transformadon
+74	6774	ĉinia	ĉiniaj ĉiniajn ĉinian
+75	6775	etimologio	etimologioj etimologiojn etimologion
+76	6776	mekanike	meĥanike
+77	6777	protektorato	protektoratoj protektoratojn protektoraton
+78	6778	borde	
+79	6779	propravole	
+80	6780	abrupte	
+81	6781	konvinkiĝi	konvinkiĝanta konvinkiĝantaj konvinkiĝantajn konvinkiĝantan konvinkiĝante konvinkiĝas konvinkiĝinta konvinkiĝintaj konvinkiĝintajn konvinkiĝintan konvinkiĝinte konvinkiĝis konvinkiĝonta konvinkiĝontaj konvinkiĝontajn konvinkiĝontan konvinkiĝonte konvinkiĝos konvinkiĝu konvinkiĝus
+82	6782	lunĉi	lunĉanta lunĉantaj lunĉantajn lunĉantan lunĉante lunĉas lunĉinta lunĉintaj lunĉintajn lunĉintan lunĉinte lunĉis lunĉonta lunĉontaj lunĉontajn lunĉontan lunĉonte lunĉos lunĉu lunĉus
+83	6783	pliaĝa	pliaĝaj pliaĝajn pliaĝan
+84	6784	merita	meritaj meritajn meritan
+85	6785	nepardonebla	nepardoneblaj nepardoneblajn nepardoneblan
+86	6786	arpeĝo	arpeĝoj arpeĝojn arpeĝon
+87	6787	gapi	gapanta gapantaj gapantajn gapantan gapante gapas gapinta gapintaj gapintajn gapintan gapinte gapis gaponta gapontaj gapontajn gapontan gaponte gapos gapu gapus
+88	6788	aspergi	asperganta aspergantaj aspergantajn aspergantan aspergante aspergas aspergata aspergataj aspergatajn aspergatan aspergate asperginta aspergintaj aspergintajn aspergintan asperginte aspergis aspergita aspergitaj aspergitajn aspergitan aspergite aspergonta aspergontaj aspergontajn aspergontan aspergonte aspergos aspergu aspergus
+89	6789	deksesa	deksesaj deksesajn deksesan
+90	6790	konsolo	konsoloj konsolojn konsolon
+91	6791	libreto	libretoj libretojn libreton
+92	6792	bonvolo	bonvoloj bonvolojn bonvolon
+93	6793	vojkruciĝo	vojkruciĝoj vojkruciĝojn vojkruciĝon
+94	6794	reptilio	reptilioj reptiliojn reptilion
+95	6795	konverĝo	konverĝoj konverĝojn konverĝon
+96	6796	popolriĉa	popolriĉaj popolriĉajn popolriĉan
+97	6797	sinagogo	sinagogoj sinagogojn sinagogon
+98	6798	akordi	akordanta akordantaj akordantajn akordantan akordante akordas akordinta akordintaj akordintajn akordintan akordinte akordis akordonta akordontaj akordontajn akordontan akordonte akordos akordu akordus
+99	6799	vianda	viandaj viandajn viandan
+100	6800	laŭŝajne	

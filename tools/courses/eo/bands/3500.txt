@@ -1,0 +1,100 @@
+1	3401	pronomo	pronomoj pronomojn pronomon
+2	3402	kalsono	kalsoneto kalsonetoj kalsoneton kalsonoj kalsonojn kalsonon
+3	3403	meleagro	meleagroj meleagrojn meleagron
+4	3404	pupo	pupoj pupojn pupon
+5	3405	laŭleĝe	
+6	3406	egaleco	egalecoj egalecojn egalecon
+7	3407	sudorienta	sudorientaj sudorientajn sudorientan
+8	3408	espereble	
+9	3409	paradokso	paradoksoj paradoksojn paradokson
+10	3410	infekti	infektanta infektantaj infektantajn infektantan infektante infektas infektata infektataj infektatajn infektatan infektate infektinta infektintaj infektintajn infektintan infektinte infektis infektita infektitaj infektitajn infektitan infektite infektonta infektontaj infektontajn infektontan infektonte infektos infektu infektus
+11	3411	ŝultro	ŝultroj ŝultrojn ŝultron
+12	3412	konfuzo	konfuzoj konfuzojn konfuzon
+13	3413	trombo	tromboj trombojn trombon
+14	3414	deko	dekoj dekojn dekon
+15	3415	rupio	rupioj rupiojn rupion
+16	3416	jako	jakoj jakojn jakon
+17	3417	piedbati	piedbatanta piedbatantaj piedbatantajn piedbatantan piedbatante piedbatas piedbatata piedbatataj piedbatatajn piedbatatan piedbatate piedbatinta piedbatintaj piedbatintajn piedbatintan piedbatinte piedbatis piedbatita piedbatitaj piedbatitajn piedbatitan piedbatite piedbatonta piedbatontaj piedbatontajn piedbatontan piedbatonte piedbatos piedbatu piedbatus
+18	3418	kohera	koheraj koherajn koheran
+19	3419	insulti	insultanta insultantaj insultantajn insultantan insultante insultas insultata insultataj insultatajn insultatan insultate insultinta insultintaj insultintajn insultintan insultinte insultis insultita insultitaj insultitajn insultitan insultite insultonta insultontaj insultontajn insultontan insultonte insultos insultu insultus
+20	3420	teologio	teologioj teologiojn teologion
+21	3421	senkulpigi	senkulpiganta senkulpigantaj senkulpigantajn senkulpigantan senkulpigante senkulpigas senkulpigata senkulpigataj senkulpigatajn senkulpigatan senkulpigate senkulpiginta senkulpigintaj senkulpigintajn senkulpigintan senkulpiginte senkulpigis senkulpigita senkulpigitaj senkulpigitajn senkulpigitan senkulpigite senkulpigonta senkulpigontaj senkulpigontajn senkulpigontan senkulpigonte senkulpigos senkulpigu senkulpigus
+22	3422	klarneto	klarnetoj klarnetojn klarneton
+23	3423	fajrobrigadisto	fajrobrigadistoj fajrobrigadistojn fajrobrigadiston
+24	3424	biero	bieroj bierojn bieron
+25	3425	cetero	ceteroj ceterojn ceteron
+26	3426	brasiko	brasikoj brasikojn brasikon
+27	3427	tabulo	tabuloj tabulojn tabulon
+28	3428	destini	destinanta destinantaj destinantajn destinantan destinante destinas destinata destinataj destinatajn destinatan destinate destininta destinintaj destinintajn destinintan destininte destinis destinita destinitaj destinitajn destinitan destinite destinonta destinontaj destinontajn destinontan destinonte destinos destinu destinus
+29	3429	testamento	testamentoj testamentojn testamenton
+30	3430	servilo	serviloj servilojn servilon
+31	3431	preparo	preparoj preparojn preparon
+32	3432	rubaĵo	rubaĵoj rubaĵojn rubaĵon
+33	3433	definitiva	definitivaj definitivajn definitivan
+34	3434	koridoro	koridoroj koridorojn koridoron
+35	3435	dekduo	dekduoj dekduojn dekduon
+36	3436	universitata	universitataj universitatajn universitatan
+37	3437	mallevi	mallevanta mallevantaj mallevantajn mallevantan mallevante mallevas mallevata mallevataj mallevatajn mallevatan mallevate mallevinta mallevintaj mallevintajn mallevintan mallevinte mallevis mallevita mallevitaj mallevitajn mallevitan mallevite mallevonta mallevontaj mallevontajn mallevontan mallevonte mallevos mallevu mallevus
+38	3438	fandi	fandanta fandantaj fandantajn fandantan fandante fandas fandata fandataj fandatajn fandatan fandate fandinta fandintaj fandintajn fandintan fandinte fandis fandita fanditaj fanditajn fanditan fandite fandonta fandontaj fandontajn fandontan fandonte fandos fandu fandus
+39	3439	bori	boranta borantaj borantajn borantan borante boras borata borataj boratajn boratan borate borato borinta borintaj borintajn borintan borinte boris borita boritaj boritajn boritan borite boronta borontaj borontajn borontan boronte boros boru borus
+40	3440	elektromagneta	elektromagnetaj elektromagnetajn elektromagnetan
+41	3441	sincere	
+42	3442	vualo	vualoj vualojn vualon
+43	3443	bofrato	bofratoj bofratojn bofraton
+44	3444	infana	infanaj infanajn infanan
+45	3445	nevo	nevoj nevojn nevon
+46	3446	masko	maskoj maskojn maskon
+47	3447	kasko	kaskoj kaskojn kaskon
+48	3448	eksplicite	
+49	3449	kredito	kreditoj krediton
+50	3450	bakterio	bakterioj bakteriojn bakterion
+51	3451	ekspliki	eksplikanta eksplikantaj eksplikantajn eksplikantan eksplikante eksplikas eksplikata eksplikataj eksplikatajn eksplikatan eksplikate eksplikinta eksplikintaj eksplikintajn eksplikintan eksplikinte eksplikis eksplikita eksplikitaj eksplikitajn eksplikitan eksplikite eksplikonta eksplikontaj eksplikontajn eksplikontan eksplikonte eksplikos ekspliku eksplikus
+52	3452	tondro	tondroj tondrojn tondron
+53	3453	depreni	deprenanta deprenantaj deprenantajn deprenantan deprenante deprenas deprenata deprenataj deprenatajn deprenatan deprenate depreninta deprenintaj deprenintajn deprenintan depreninte deprenis deprenita deprenitaj deprenitajn deprenitan deprenite deprenonta deprenontaj deprenontajn deprenontan deprenonte deprenos deprenu deprenus
+54	3454	nazio	nazioj naziojn nazion
+55	3455	vojaĝado	vojaĝadoj vojaĝadojn vojaĝadon
+56	3456	sigelo	sigeloj sigelojn sigelon
+57	3457	programisto	programistoj programistojn programiston
+58	3458	amuzo	amuzoj amuzojn amuzon
+59	3459	glata	glataj glatajn glatan
+60	3460	bunkro	bunkroj bunkrojn bunkron
+61	3461	tabako	tabakoj tabakojn tabakon
+62	3462	disigita	disigitaj disigitajn disigitan
+63	3463	neebla	neeblaj neeblajn neeblan
+64	3464	varmo	varmoj varmojn varmon
+65	3465	rapido	rapidoj rapidojn rapidon
+66	3466	virto	virtoj virtojn virton
+67	3467	federacio	federacioj federaciojn federacion
+68	3468	eseo	eseoj eseojn eseon
+69	3469	malagrabla	malagrablaj malagrablajn malagrablan
+70	3470	fanfaroni	fanfaronanta fanfaronantaj fanfaronantajn fanfaronantan fanfaronante fanfaronas fanfaroninta fanfaronintaj fanfaronintajn fanfaronintan fanfaroninte fanfaronis fanfarononta fanfaronontaj fanfaronontajn fanfaronontan fanfarononte fanfaronos fanfaronu fanfaronus
+71	3471	adaptiĝi	adaptiĝanta adaptiĝantaj adaptiĝantajn adaptiĝantan adaptiĝante adaptiĝas adaptiĝinta adaptiĝintaj adaptiĝintajn adaptiĝintan adaptiĝinte adaptiĝis adaptiĝonta adaptiĝontaj adaptiĝontajn adaptiĝontan adaptiĝonte adaptiĝos adaptiĝu adaptiĝus
+72	3472	okcidente	
+73	3473	frunto	fruntoj fruntojn frunton
+74	3474	enfermi	enfermanta enfermantaj enfermantajn enfermantan enfermante enfermas enfermata enfermataj enfermatajn enfermatan enfermate enferminta enfermintaj enfermintajn enfermintan enferminte enfermis enfermita enfermitaj enfermitajn enfermitan enfermite enfermonta enfermontaj enfermontajn enfermontan enfermonte enfermos enfermu enfermus
+75	3475	ideala	idealaj idealajn idealan
+76	3476	honora	honoraj honorajn honoran
+77	3477	kabineto	kabinetoj kabinetojn kabineton
+78	3478	kapsulo	kapsuloj kapsulojn kapsulon
+79	3479	maltrankvila	maltrankvilaj maltrankvilajn maltrankvilan
+80	3480	pretiĝi	pretiĝanta pretiĝantaj pretiĝantajn pretiĝantan pretiĝante pretiĝas pretiĝinta pretiĝintaj pretiĝintajn pretiĝintan pretiĝinte pretiĝis pretiĝonta pretiĝontaj pretiĝontajn pretiĝontan pretiĝonte pretiĝos pretiĝu pretiĝus
+81	3481	naŭa	naŭaj naŭajn naŭan
+82	3482	galaksio	galaksioj galaksiojn galaksion
+83	3483	lampo	lampoj lampojn lampon
+84	3484	treege	
+85	3485	konsiderinde	
+86	3486	remeti	remetanta remetantaj remetantajn remetantan remetante remetas remetinta remetintaj remetintajn remetintan remetinte remetis remetonta remetontaj remetontajn remetontan remetonte remetos remetu remetus
+87	3487	malfermo	malfermoj malfermojn malfermon
+88	3488	sanigi	saniganta sanigantaj sanigantajn sanigantan sanigante sanigas saniginta sanigintaj sanigintajn sanigintan saniginte sanigis sanigonta sanigontaj sanigontajn sanigontan sanigonte sanigos sanigu sanigus
+89	3489	mafio	mafioj mafiojn mafion
+90	3490	vortprovizo	vortprovizoj vortprovizojn vortprovizon
+91	3491	edzinigi	edziniganta edzinigantaj edzinigantajn edzinigantan edzinigante edzinigas edziniginta edzinigintaj edzinigintajn edzinigintan edziniginte edzinigis edzinigonta edzinigontaj edzinigontajn edzinigontan edzinigonte edzinigos edzinigu edzinigus
+92	3492	multege	
+93	3493	enterigi	enteriganta enterigantaj enterigantajn enterigantan enterigante enterigas enterigata enterigataj enterigatajn enterigatan enterigate enteriginta enterigintaj enterigintajn enterigintan enteriginte enterigis enterigita enterigitaj enterigitajn enterigitan enterigite enterigonta enterigontaj enterigontajn enterigontan enterigonte enterigos enterigu enterigus
+94	3494	eksplodigi	eksplodiganta eksplodigantaj eksplodigantajn eksplodigantan eksplodigante eksplodigas eksplodigata eksplodigataj eksplodigatajn eksplodigatan eksplodigate eksplodiginta eksplodigintaj eksplodigintajn eksplodigintan eksplodiginte eksplodigis eksplodigita eksplodigitaj eksplodigitajn eksplodigitan eksplodigite eksplodigonta eksplodigontaj eksplodigontajn eksplodigontan eksplodigonte eksplodigos eksplodigu eksplodigus
+95	3495	neeble	
+96	3496	novalo	novaloj novalojn novalon
+97	3497	falĉilo	falĉiloj falĉilojn falĉilon
+98	3498	daŭrigo	daŭrigoj daŭrigojn daŭrigon
+99	3499	pace	
+100	3500	retiri	retiranta retirantaj retirantajn retirantan retirante retiras retirata retirataj retiratajn retiratan retirate retirinta retirintaj retirintajn retirintan retirinte retiris retirita retiritaj retiritajn retiritan retirite retironta retirontaj retirontajn retirontan retironte retiros retiru retirus

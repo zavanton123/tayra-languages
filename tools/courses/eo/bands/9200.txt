@@ -1,0 +1,100 @@
+1	9101	iriso	irisoj irisojn irison
+2	9102	funikularo	funikularoj funikularojn funikularon
+3	9103	eŭska	eŭskaj eŭskajn eŭskan
+4	9104	aervojo	aervojoj aervojojn aervojon
+5	9105	akvaforto	akvafortoj akvafortojn akvaforton
+6	9106	geto	getoj getojn geton
+7	9107	kejlo	kejloj kejlojn kejlon
+8	9108	asketo	asketoj asketojn asketon
+9	9109	kvarobla	kvaroblaj kvaroblajn kvaroblan
+10	9110	terglito	terglitoj terglitojn tergliton
+11	9111	aliseksema	aliseksemaj aliseksemajn alisekseman
+12	9112	vortumi	vortumanta vortumantaj vortumantajn vortumantan vortumante vortumas vortumata vortumataj vortumatajn vortumatan vortumate vortuminta vortumintaj vortumintajn vortumintan vortuminte vortumis vortumita vortumitaj vortumitajn vortumitan vortumite vortumonta vortumontaj vortumontajn vortumontan vortumonte vortumos vortumu vortumus
+13	9113	seninfana	seninfanaj seninfanajn seninfanan
+14	9114	deponaĵo	deponaĵoj deponaĵojn deponaĵon
+15	9115	panoramo	panoramoj panoramojn panoramon
+16	9116	dueli	duelanta duelantaj duelantajn duelantan duelante duelas duelinta duelintaj duelintajn duelintan duelinte duelis duelonta duelontaj duelontajn duelontan duelonte duelos duelu duelus
+17	9117	paradi	paradanta paradantaj paradantajn paradantan paradante paradas paradinta paradintaj paradintajn paradintan paradinte paradis paradonta paradontaj paradontajn paradontan paradonte parados paradu paradus
+18	9118	kvintesenco	kvintesencoj kvintesencojn kvintesencon
+19	9119	efemero	efemeroj efemerojn efemeron
+20	9120	polvosuĉi	polvosuĉanta polvosuĉantaj polvosuĉantajn polvosuĉantan polvosuĉante polvosuĉas polvosuĉinta polvosuĉintaj polvosuĉintajn polvosuĉintan polvosuĉinte polvosuĉis polvosuĉonta polvosuĉontaj polvosuĉontajn polvosuĉontan polvosuĉonte polvosuĉos polvosuĉu polvosuĉus
+21	9121	ebrieco	ebriecoj ebriecojn ebriecon
+22	9122	insiste	
+23	9123	konkursa	konkursaj konkursajn konkursan
+24	9124	ŝakpeco	ŝakpecoj ŝakpecojn ŝakpecon
+25	9125	poligloto	poliglotoj poliglotojn poligloton
+26	9126	volano	volanoj volanojn volanon
+27	9127	tonelo	toneloj tonelojn tonelon
+28	9128	ipsilono	ipsilonoj ipsilonojn ipsilonon
+29	9129	malhelo	malheloj malhelojn malhelon
+30	9130	eksoni	eksonanta eksonantaj eksonantajn eksonantan eksonante eksonas eksoninta eksonintaj eksonintajn eksonintan eksoninte eksonis eksononta eksonontaj eksonontajn eksonontan eksononte eksonos eksonu eksonus
+31	9131	telepatie	
+32	9132	senhonte	
+33	9133	agmaniero	agmanieroj agmanierojn agmanieron
+34	9134	juni	junanta junantaj junantajn junantan junante junas juninta junintaj junintajn junintan juninte junis junonta junontaj junontajn junontan junonte junos junu junus
+35	9135	unuavide	
+36	9136	veruko	verukoj verukojn verukon
+37	9137	interrete	
+38	9138	serene	
+39	9139	trioble	
+40	9140	memorigo	memorigoj memorigojn memorigon
+41	9141	skalpi	skalpanta skalpantaj skalpantajn skalpantan skalpante skalpas skalpinta skalpintaj skalpintajn skalpintan skalpinte skalpinto skalpis skalponta skalpontaj skalpontajn skalpontan skalponte skalpos skalpu skalpus
+42	9142	kategoriigi	kategoriiganta kategoriigantaj kategoriigantajn kategoriigantan kategoriigante kategoriigas kategoriigata kategoriigataj kategoriigatajn kategoriigatan kategoriigate kategoriiginta kategoriigintaj kategoriigintajn kategoriigintan kategoriiginte kategoriigis kategoriigita kategoriigitaj kategoriigitajn kategoriigitan kategoriigite kategoriigonta kategoriigontaj kategoriigontajn kategoriigontan kategoriigonte kategoriigos kategoriigu kategoriigus
+43	9143	akcepteble	
+44	9144	file	
+45	9145	vandalo	vandaloj vandalojn vandalon
+46	9146	menonito	menonitoj menonitojn menoniton
+47	9147	abdiko	abdikoj abdikojn abdikon
+48	9148	ĉarniro	ĉarniroj ĉarnirojn ĉarniron
+49	9149	apopleksio	apopleksioj apopleksiojn apopleksion
+50	9150	ruini	ruinanta ruinantaj ruinantajn ruinantan ruinante ruinas ruinata ruinataj ruinatajn ruinatan ruinate ruininta ruinintaj ruinintajn ruinintan ruininte ruinis ruinita ruinitaj ruinitajn ruinitan ruinite ruinonta ruinontaj ruinontajn ruinontan ruinonte ruinos ruinu ruinus
+51	9151	kvarangula	kvarangulaj kvarangulajn kvarangulan
+52	9152	priplori	priploranta priplorantaj priplorantajn priplorantan priplorante priploras priplorata priplorataj priploratajn priploratan priplorate priplorinta priplorintaj priplorintajn priplorintan priplorinte priploris priplorita priploritaj priploritajn priploritan priplorite priploronta priplorontaj priplorontajn priplorontan priploronte priploros priploru priplorus
+53	9153	anusa	anusaj anusajn anusan
+54	9154	flankenlasi	flankenlasanta flankenlasantaj flankenlasantajn flankenlasantan flankenlasante flankenlasas flankenlasata flankenlasataj flankenlasatajn flankenlasatan flankenlasate flankenlasinta flankenlasintaj flankenlasintajn flankenlasintan flankenlasinte flankenlasis flankenlasita flankenlasitaj flankenlasitajn flankenlasitan flankenlasite flankenlasonta flankenlasontaj flankenlasontajn flankenlasontan flankenlasonte flankenlasos flankenlasu flankenlasus
+55	9155	citoplasmo	citoplasmoj citoplasmojn citoplasmon
+56	9156	interligiteco	interligitecoj interligitecojn interligitecon
+57	9157	novico	novicoj novicojn novicon
+58	9158	ribo	riboj ribojn ribon
+59	9159	alproprigi	alpropriganta alproprigantaj alproprigantajn alproprigantan alproprigante alproprigas alpropriginta alproprigintaj alproprigintajn alproprigintan alpropriginte alproprigis alproprigonta alproprigontaj alproprigontajn alproprigontan alproprigonte alproprigos alproprigu alproprigus
+60	9160	malvirto	malvirtoj malvirtojn malvirton
+61	9161	vindi	vindanta vindantaj vindantajn vindantan vindante vindas vindata vindataj vindatajn vindatan vindate vindinta vindintaj vindintajn vindintan vindinte vindis vindita vinditaj vinditajn vinditan vindite vindonta vindontaj vindontajn vindontan vindonte vindos vindu vindus
+62	9162	krimeco	krimecoj krimecojn krimecon
+63	9163	ronroni	ronronanta ronronantaj ronronantajn ronronantan ronronante ronronas ronroninta ronronintaj ronronintajn ronronintan ronroninte ronronis ronrononta ronronontaj ronronontajn ronronontan ronrononte ronronos ronronu ronronus
+64	9164	abundeco	abundecoj abundecojn abundecon
+65	9165	ĉevalejo	ĉevalejoj ĉevalejojn ĉevalejon
+66	9166	memvole	
+67	9167	rokmuziko	rokmuzikoj rokmuzikojn rokmuzikon
+68	9168	surpreni	surprenanta surprenantaj surprenantajn surprenantan surprenante surprenas surpreninta surprenintaj surprenintajn surprenintan surpreninte surprenis surprenonta surprenontaj surprenontajn surprenontan surprenonte surprenos surprenu surprenus
+69	9169	ekinteresiĝi	ekinteresiĝanta ekinteresiĝantaj ekinteresiĝantajn ekinteresiĝantan ekinteresiĝante ekinteresiĝas ekinteresiĝinta ekinteresiĝintaj ekinteresiĝintajn ekinteresiĝintan ekinteresiĝinte ekinteresiĝis ekinteresiĝonta ekinteresiĝontaj ekinteresiĝontajn ekinteresiĝontan ekinteresiĝonte ekinteresiĝos ekinteresiĝu ekinteresiĝus
+70	9170	disĵeti	disĵetanta disĵetantaj disĵetantajn disĵetantan disĵetante disĵetas disĵetata disĵetataj disĵetatajn disĵetatan disĵetate disĵetinta disĵetintaj disĵetintajn disĵetintan disĵetinte disĵetis disĵetita disĵetitaj disĵetitajn disĵetitan disĵetite disĵetonta disĵetontaj disĵetontajn disĵetontan disĵetonte disĵetos disĵetu disĵetus
+71	9171	kavernulo	kavernuloj kavernulojn kavernulon
+72	9172	akcidente	
+73	9173	muelŝtono	muelŝtonoj muelŝtonojn muelŝtonon
+74	9174	striptizo	striptizoj striptizojn striptizon
+75	9175	centimo	centimoj centimojn centimon
+76	9176	konsciiĝi	konsciiĝanta konsciiĝantaj konsciiĝantajn konsciiĝantan konsciiĝante konsciiĝas konsciiĝinta konsciiĝintaj konsciiĝintajn konsciiĝintan konsciiĝinte konsciiĝis konsciiĝonta konsciiĝontaj konsciiĝontajn konsciiĝontan konsciiĝonte konsciiĝos konsciiĝu konsciiĝus
+77	9177	teksti	tekstanta tekstantaj tekstantajn tekstantan tekstante tekstas tekstinta tekstintaj tekstintajn tekstintan tekstinte tekstis tekstonta tekstontaj tekstontajn tekstontan tekstonte tekstos tekstu tekstus
+78	9178	hipnotigi	hipnotiganta hipnotigantaj hipnotigantajn hipnotigantan hipnotigante hipnotiganto hipnotigas hipnotigata hipnotigataj hipnotigatajn hipnotigatan hipnotigate hipnotiginta hipnotigintaj hipnotigintajn hipnotigintan hipnotiginte hipnotigis hipnotigita hipnotigitaj hipnotigitajn hipnotigitan hipnotigite hipnotigonta hipnotigontaj hipnotigontajn hipnotigontan hipnotigonte hipnotigos hipnotigu hipnotigus
+79	9179	plugisto	plugistoj plugistojn plugiston
+80	9180	ĝiri	ĝiranta ĝirantaj ĝirantajn ĝirantan ĝirante ĝiras ĝirinta ĝirintaj ĝirintajn ĝirintan ĝirinte ĝiris ĝironta ĝirontaj ĝirontajn ĝirontan ĝironte ĝiros ĝiru ĝirus
+81	9181	cikonio	cikonioj cikoniojn cikonion
+82	9182	kontinui	kontinuanta kontinuantaj kontinuantajn kontinuantan kontinuante kontinuas kontinuinta kontinuintaj kontinuintajn kontinuintan kontinuinte kontinuis kontinuonta kontinuontaj kontinuontajn kontinuontan kontinuonte kontinuos kontinuu kontinuus
+83	9183	foro	foroj forojn foron
+84	9184	najbarejo	najbarejoj najbarejojn najbarejon
+85	9185	kalo	kaloj kalojn kalon
+86	9186	epigrafo	epigrafoj epigrafojn epigrafon
+87	9187	janiĉaro	janiĉaroj janiĉarojn janiĉaron
+88	9188	skvaŝo	skvaŝoj skvaŝojn skvaŝon
+89	9189	kornvala	kornvalaj kornvalajn kornvalan
+90	9190	altranĉi	altranĉanta altranĉantaj altranĉantajn altranĉantan altranĉante altranĉas altranĉata altranĉataj altranĉatajn altranĉatan altranĉate altranĉinta altranĉintaj altranĉintajn altranĉintan altranĉinte altranĉis altranĉita altranĉitaj altranĉitajn altranĉitan altranĉite altranĉonta altranĉontaj altranĉontajn altranĉontan altranĉonte altranĉos altranĉu altranĉus
+91	9191	dido	didoj didojn didon
+92	9192	kunfluejo	kunfluejoj kunfluejojn kunfluejon
+93	9193	monogamio	monogamioj monogamiojn monogamion
+94	9194	nitrata	nitrataj nitratajn nitratan
+95	9195	neŭtrino	neŭtrinoj neŭtrinojn neŭtrinon
+96	9196	anglikano	anglikanoj anglikanojn anglikanon
+97	9197	natria	natriaj natriajn natrian
+98	9198	demandosigno	demandosignoj demandosignojn demandosignon
+99	9199	vagina	vaginaj vaginajn vaginan
+100	9200	struto	strutoj strutojn struton

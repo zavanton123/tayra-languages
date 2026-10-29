@@ -1,0 +1,100 @@
+1	1301	eki	ekanta ekantaj ekantajn ekantan ekante ekas ekata ekataj ekatajn ekatan ekate ekinta ekintaj ekintajn ekintan ekinte ekis ekita ekitaj ekitajn ekitan ekite ekonta ekontaj ekontajn ekontan ekonte ekos eku ekus
+2	1302	kilometro	kilometroj kilometrojn kilometron
+3	1303	paŝo	paŝoj paŝojn paŝon
+4	1304	parlamento	parlamentoj parlamentojn parlamenton
+5	1305	malproksima	malproksimaj malproksimajn malproksiman
+6	1306	enspezo	enspezoj enspezojn enspezon
+7	1307	romano	romanoj romanojn romanon
+8	1308	ino	inoj inojn inon
+9	1309	buŝo	buŝoj buŝojn buŝon
+10	1310	fek	
+11	1311	formiĝi	formiĝanta formiĝantaj formiĝantajn formiĝantan formiĝante formiĝas formiĝinta formiĝintaj formiĝintajn formiĝintan formiĝinte formiĝis formiĝonta formiĝontaj formiĝontajn formiĝontan formiĝonte formiĝos formiĝu formiĝus
+12	1312	plue	
+13	1313	trejni	trejnanta trejnantaj trejnantajn trejnantan trejnante trejnas trejnata trejnataj trejnatajn trejnatan trejnate trejninta trejnintaj trejnintajn trejnintan trejninte trejnis trejnita trejnitaj trejnitajn trejnitan trejnite trejnonta trejnontaj trejnontajn trejnontan trejnonte trejnos trejnu trejnus
+14	1314	dediĉi	dediĉanta dediĉantaj dediĉantajn dediĉantan dediĉante dediĉas dediĉata dediĉataj dediĉatajn dediĉatan dediĉate dediĉinta dediĉintaj dediĉintajn dediĉintan dediĉinte dediĉis dediĉita dediĉitaj dediĉitajn dediĉitan dediĉite dediĉonta dediĉontaj dediĉontajn dediĉontan dediĉonte dediĉos dediĉu dediĉus
+15	1315	dekstra	dekstraj dekstrajn dekstran
+16	1316	literaturo	literaturoj literaturojn literaturon
+17	1317	boato	boatoj boatojn boaton
+18	1318	pardonpeti	pardonpetanta pardonpetantaj pardonpetantajn pardonpetantan pardonpetante pardonpetas pardonpetinta pardonpetintaj pardonpetintajn pardonpetintan pardonpetinte pardonpetis pardonpetonta pardonpetontaj pardonpetontajn pardonpetontan pardonpetonte pardonpetos pardonpetu pardonpetus
+19	1319	danci	dancanta dancantaj dancantajn dancantan dancante dancas dancata dancataj dancatajn dancatan dancate dancinta dancintaj dancintajn dancintan dancinte dancis dancita dancitaj dancitajn dancitan dancite danconta dancontaj dancontajn dancontan danconte dancos dancu dancus
+20	1320	institucio	institucioj instituciojn institucion
+21	1321	malfrui	malfruanta malfruantaj malfruantajn malfruantan malfruante malfruas malfruinta malfruintaj malfruintajn malfruintan malfruinte malfruis malfruonta malfruontaj malfruontajn malfruontan malfruonte malfruos malfruu malfruus
+22	1322	reflekti	reflektanta reflektantaj reflektantajn reflektantan reflektante reflektas reflektata reflektataj reflektatajn reflektatan reflektate reflektinta reflektintaj reflektintajn reflektintan reflektinte reflektis reflektita reflektitaj reflektitajn reflektitan reflektite reflektonta reflektontaj reflektontajn reflektontan reflektonte reflektos reflektu reflektus
+23	1323	mallumo	mallumoj mallumojn mallumon
+24	1324	angulo	anguloj angulojn angulon
+25	1325	pantalono	pantalonoj pantalonojn pantalonon
+26	1326	apenaŭ	
+27	1327	kapabla	kapablaj kapablajn kapablan
+28	1328	origino	originoj originojn originon
+29	1329	bileto	biletoj biletojn bileton
+30	1330	plezuro	plezuroj plezurojn plezuron
+31	1331	salti	saltanta saltantaj saltantajn saltantan saltante saltas saltinta saltintaj saltintajn saltintan saltinte saltis saltonta saltontaj saltontajn saltontan saltonte saltos saltu saltus
+32	1332	grave	
+33	1333	forpeli	forpelanta forpelantaj forpelantajn forpelantan forpelante forpelas forpelata forpelataj forpelatajn forpelatan forpelate forpelinta forpelintaj forpelintajn forpelintan forpelinte forpelis forpelita forpelitaj forpelitajn forpelitan forpelite forpelito forpelitoj forpelonta forpelontaj forpelontajn forpelontan forpelonte forpelos forpelu forpelus
+34	1334	muzeo	muzeoj muzeojn muzeon
+35	1335	unio	unioj uniojn union
+36	1336	matene	
+37	1337	gazeto	gazetoj gazetojn gazeton
+38	1338	sezono	sezonoj sezonojn sezonon
+39	1339	administri	administranta administrantaj administrantajn administrantan administrante administranto administrantoj administrantojn administranton administras administrata administrataj administratajn administratan administrate administrinta administrintaj administrintajn administrintan administrinte administris administrita administritaj administritajn administritan administrite administronta administrontaj administrontajn administrontan administronte administros administrota administru administrus
+40	1340	eksperimento	eksperimentoj eksperimentojn eksperimenton
+41	1341	risko	riskoj riskojn riskon
+42	1342	rublo	rubloj rublojn rublon
+43	1343	maldekstre	maldekstren
+44	1344	leviĝi	leviĝanta leviĝantaj leviĝantajn leviĝantan leviĝante leviĝas leviĝinta leviĝintaj leviĝintajn leviĝintan leviĝinte leviĝis leviĝonta leviĝontaj leviĝontajn leviĝontan leviĝonte leviĝos leviĝu leviĝus
+45	1345	dume	
+46	1346	paciento	pacientoj pacientojn pacienton
+47	1347	detalo	detaloj detalojn detalon
+48	1348	laŭleĝa	laŭleĝaj laŭleĝajn laŭleĝan
+49	1349	kurso	kursoj kursojn kurson
+50	1350	kandidato	kandidatoj kandidatojn kandidaton
+51	1351	efektive	
+52	1352	horloĝo	horlogho horloĝoj horloĝojn horloĝon
+53	1353	fermita	fermitaj fermitajn fermitan
+54	1354	taŭga	taŭgaj taŭgajn taŭgan
+55	1355	komenca	komencaj komencajn komencan
+56	1356	sekve	
+57	1357	lupo	lupoj lupojn lupon
+58	1358	aprobi	aprobanta aprobantaj aprobantajn aprobantan aprobante aprobas aprobata aprobataj aprobatajn aprobatan aprobate aprobinta aprobintaj aprobintajn aprobintan aprobinte aprobis aprobita aprobitaj aprobitajn aprobitan aprobite aprobonta aprobontaj aprobontajn aprobontan aprobonte aprobos aprobu aprobus
+59	1359	templo	temploj templojn templon
+60	1360	merdo	merdoj merdojn merdon
+61	1361	silento	silentoj silentojn silenton
+62	1362	riveli	rivelanta rivelantaj rivelantajn rivelantan rivelante rivelanto rivelas rivelata rivelataj rivelatajn rivelatan rivelate rivelinta rivelintaj rivelintajn rivelintan rivelinte rivelis rivelita rivelitaj rivelitajn rivelitan rivelite rivelonta rivelontaj rivelontajn rivelontan rivelonte rivelos rivelu rivelus
+63	1363	milo	miloj milojn milon
+64	1364	lavi	lavanta lavantaj lavantajn lavantan lavante lavas lavata lavataj lavatajn lavatan lavate lavinta lavintaj lavintajn lavintan lavinte lavis lavita lavitaj lavitajn lavitan lavite lavonta lavontaj lavontajn lavontan lavonte lavos lavu lavus
+65	1365	verkinto	verkintoj verkintojn verkinton
+66	1366	ebligi	ebliganta ebligantaj ebligantajn ebligantan ebligante ebliganto ebligas ebligata ebligataj ebligatajn ebligatan ebligate ebliginta ebligintaj ebligintajn ebligintan ebliginte ebligis ebligita ebligitaj ebligitajn ebligitan ebligite ebligonta ebligontaj ebligontajn ebligontan ebligonte ebligos ebligu ebligus
+67	1367	difekti	difektanta difektantaj difektantajn difektantan difektante difektas difektata difektataj difektatajn difektatan difektate difektinta difektintaj difektintajn difektintan difektinte difektis difektita difektitaj difektitajn difektitan difektite difektonta difektontaj difektontajn difektontan difektonte difektos difektu difektus
+68	1368	sonĝo	sonĝoj sonĝojn sonĝon
+69	1369	lastatempe	
+70	1370	pano	panoj panojn panon
+71	1371	klubo	kluboj klubojn klubon
+72	1372	stacio	stacioj staciojn stacion
+73	1373	indiĝena	indiĝenaj indiĝenajn indiĝenan
+74	1374	tranĉi	tranĉanta tranĉantaj tranĉantajn tranĉantan tranĉante tranĉanto tranĉas tranĉata tranĉataj tranĉatajn tranĉatan tranĉate tranĉinta tranĉintaj tranĉintajn tranĉintan tranĉinte tranĉis tranĉita tranĉitaj tranĉitajn tranĉitan tranĉite tranĉonta tranĉontaj tranĉontajn tranĉontan tranĉonte tranĉos tranĉu tranĉus
+75	1375	oficiro	oficiroj oficirojn oficiron
+76	1376	avo	avoj avojn avon
+77	1377	mordi	mordanta mordantaj mordantajn mordantan mordante mordas mordata mordataj mordatajn mordatan mordate mordinta mordintaj mordintajn mordintan mordinte mordis mordita morditaj morditajn morditan mordite mordonta mordontaj mordontajn mordontan mordonte mordos mordu mordus
+78	1378	okcidento	okcidentoj okcidentojn okcidenton
+79	1379	difinita	difinitaj difinitajn difinitan
+80	1380	revuo	revuoj revuojn revuon
+81	1381	konkuri	konkuranta konkurantaj konkurantajn konkurantan konkurante konkuranto konkurantoj konkurantojn konkuranton konkuras konkurinta konkurintaj konkurintajn konkurintan konkurinte konkuris konkuronta konkurontaj konkurontajn konkurontan konkuronte konkuros konkuru konkurus
+82	1382	malforta	malfortaj malfortajn malfortan
+83	1383	brave	
+84	1384	kongreso	kongresoj kongresojn kongreson
+85	1385	vesto	vestoj vestojn veston
+86	1386	demono	demonoj demonojn demonon
+87	1387	pentri	pentranta pentrantaj pentrantajn pentrantan pentrante pentras pentrata pentrataj pentratajn pentratan pentrate pentrinta pentrintaj pentrintajn pentrintan pentrinte pentris pentrita pentritaj pentritajn pentritan pentrite pentronta pentrontaj pentrontajn pentrontan pentronte pentros pentru pentrus
+88	1388	eskapi	eskapanta eskapantaj eskapantajn eskapantan eskapante eskapas eskapinta eskapintaj eskapintajn eskapintan eskapinte eskapis eskaponta eskapontaj eskapontajn eskapontan eskaponte eskapos eskapu eskapus
+89	1389	malferma	malfermaj malfermajn malferman
+90	1390	kanalo	kanaloj kanalojn kanalon
+91	1391	sekvo	sekvoj sekvojn sekvon
+92	1392	generacio	generacioj generaciojn generacion
+93	1393	subite	
+94	1394	branĉo	branĉoj branĉojn branĉon
+95	1395	feliĉo	feliĉoj feliĉojn feliĉon
+96	1396	kruro	kruroj krurojn kruron
+97	1397	fiksi	fiksanta fiksantaj fiksantajn fiksantan fiksante fiksas fiksata fiksataj fiksatajn fiksatan fiksate fiksinta fiksintaj fiksintajn fiksintan fiksinte fiksis fiksita fiksitaj fiksitajn fiksitan fiksite fiksonta fiksontaj fiksontajn fiksontan fiksonte fiksos fiksu fiksus
+98	1398	itala	italaj italajn italan
+99	1399	cifereca	ciferecaj ciferecajn ciferecan
+100	1400	ĵuri	ĵuranta ĵurantaj ĵurantajn ĵurantan ĵurante ĵuras ĵurata ĵurataj ĵuratajn ĵuratan ĵurate ĵurinta ĵurintaj ĵurintajn ĵurintan ĵurinte ĵuris ĵurita ĵuritaj ĵuritajn ĵuritan ĵurite ĵuronta ĵurontaj ĵurontajn ĵurontan ĵuronte ĵuros ĵuru ĵurus

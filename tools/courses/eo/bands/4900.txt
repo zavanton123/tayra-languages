@@ -1,0 +1,100 @@
+1	4801	vidigi	vidiganta vidigantaj vidigantajn vidigantan vidigante vidigas vidiginta vidigintaj vidigintajn vidigintan vidiginte vidigis vidigonta vidigontaj vidigontajn vidigontan vidigonte vidigos vidigu vidigus
+2	4802	detektivo	detektivoj detektivojn detektivon
+3	4803	deturni	deturnanta deturnantaj deturnantajn deturnantan deturnante deturnas deturnata deturnataj deturnatajn deturnatan deturnate deturninta deturnintaj deturnintajn deturnintan deturninte deturnis deturnita deturnitaj deturnitajn deturnitan deturnite deturnonta deturnontaj deturnontajn deturnontan deturnonte deturnos deturnu deturnus
+4	4804	elektroniko	elektronikoj elektronikojn elektronikon
+5	4805	forkonduki	forkondukanta forkondukantaj forkondukantajn forkondukantan forkondukante forkondukas forkondukinta forkondukintaj forkondukintajn forkondukintan forkondukinte forkondukis forkondukonta forkondukontaj forkondukontajn forkondukontan forkondukonte forkondukos forkonduku forkondukus
+6	4806	azilo	aziloj azilojn azilon
+7	4807	kverelo	kvereloj kverelojn kverelon
+8	4808	engluti	englutanta englutantaj englutantajn englutantan englutante englutas englutata englutataj englutatajn englutatan englutate englutinta englutintaj englutintajn englutintan englutinte englutis englutita englutitaj englutitajn englutitan englutite englutonta englutontaj englutontajn englutontan englutonte englutos englutu englutus
+9	4809	disdoni	disdonanta disdonantaj disdonantajn disdonantan disdonante disdonanto disdonas disdonata disdonataj disdonatajn disdonatan disdonate disdoninta disdonintaj disdonintajn disdonintan disdoninte disdonis disdonita disdonitaj disdonitajn disdonitan disdonite disdononta disdonontaj disdonontajn disdonontan disdononte disdonos disdonu disdonus
+10	4810	bero	beroj berojn beron
+11	4811	malamikeco	malamikecoj malamikecojn malamikecon
+12	4812	anticipi	anticipanta anticipantaj anticipantajn anticipantan anticipante anticipas anticipata anticipataj anticipatajn anticipatan anticipate anticipinta anticipintaj anticipintajn anticipintan anticipinte anticipis anticipita anticipitaj anticipitajn anticipitan anticipite anticiponta anticipontaj anticipontajn anticipontan anticiponte anticipos anticipu anticipus
+13	4813	esperanta	esperantaj esperantajn esperantan
+14	4814	falsi	falsanta falsantaj falsantajn falsantan falsante falsas falsata falsataj falsatajn falsatan falsate falsinta falsintaj falsintajn falsintan falsinte falsinto falsis falsita falsitaj falsitajn falsitan falsite falsonta falsontaj falsontajn falsontan falsonte falsos falsu falsus
+15	4815	multnombra	multnombraj multnombrajn multnombran
+16	4816	stako	stakoj stakojn stakon
+17	4817	olda	oldaj oldajn oldan
+18	4818	geamikoj	geamiko geamikojn geamikon
+19	4819	alifoje	
+20	4820	francino	francinoj francinojn francinon
+21	4821	senso	sensoj sensojn senson
+22	4822	suspekto	suspektoj suspektojn suspekton
+23	4823	veziko	vezikoj vezikojn vezikon
+24	4824	trumpeto	trumpetoj trumpetojn trumpeton
+25	4825	deknaŭa	deknaŭaj deknaŭajn deknaŭan
+26	4826	patrono	patronoj patronojn patronon
+27	4827	subfosi	subfosanta subfosantaj subfosantajn subfosantan subfosante subfosanto subfosas subfosata subfosataj subfosatajn subfosatan subfosate subfosinta subfosintaj subfosintajn subfosintan subfosinte subfosis subfosita subfositaj subfositajn subfositan subfosite subfosonta subfosontaj subfosontajn subfosontan subfosonte subfosos subfosu subfosus
+28	4828	respektinda	respektindaj respektindajn respektindan
+29	4829	staĝo	staĝoj staĝojn staĝon
+30	4830	ornamo	ornamoj ornamojn ornamon
+31	4831	plenumiĝi	plenumiĝanta plenumiĝantaj plenumiĝantajn plenumiĝantan plenumiĝante plenumiĝas plenumiĝinta plenumiĝintaj plenumiĝintajn plenumiĝintan plenumiĝinte plenumiĝis plenumiĝonta plenumiĝontaj plenumiĝontajn plenumiĝontan plenumiĝonte plenumiĝos plenumiĝu plenumiĝus
+32	4832	subiri	subiranta subirantaj subirantajn subirantan subirante subiras subirinta subirintaj subirintajn subirintan subirinte subiris subironta subirontaj subirontajn subirontan subironte subiros subiru subirus
+33	4833	pure	
+34	4834	seksperforto	seksperfortoj seksperfortojn seksperforton
+35	4835	servistino	servistinoj servistinojn servistinon
+36	4836	alko	alkoj alkojn alkon
+37	4837	kirurgo	kirurgoj kirurgojn kirurgon ĥirurgo
+38	4838	subaro	subaroj subarojn subaron
+39	4839	neatendite	
+40	4840	restarigi	restariganta restarigantaj restarigantajn restarigantan restarigante restarigas restarigata restarigataj restarigatajn restarigatan restarigate restariginta restarigintaj restarigintajn restarigintan restariginte restarigis restarigita restarigitaj restarigitajn restarigitan restarigite restarigonta restarigontaj restarigontajn restarigontan restarigonte restarigos restarigu restarigus
+41	4841	elimino	eliminado eliminadoj eliminoj eliminojn eliminon
+42	4842	nerekta	nerektaj nerektajn nerektan
+43	4843	utopio	utopioj utopiojn utopion
+44	4844	foko	fokoj fokojn fokon
+45	4845	altebenaĵo	altebenaĵoj altebenaĵojn altebenaĵon
+46	4846	plasto	plastoj plastojn plaston
+47	4847	baptopatrino	baptopatrinoj baptopatrinojn baptopatrinon
+48	4848	poŝtisto	poŝtistoj poŝtistojn poŝtiston
+49	4849	ĉerizarbo	ĉerizarboj ĉerizarbojn ĉerizarbon
+50	4850	ĵaluzi	ĵaluzanta ĵaluzantaj ĵaluzantajn ĵaluzantan ĵaluzante ĵaluzas ĵaluzinta ĵaluzintaj ĵaluzintajn ĵaluzintan ĵaluzinte ĵaluzis ĵaluzonta ĵaluzontaj ĵaluzontajn ĵaluzontan ĵaluzonte ĵaluzos ĵaluzu ĵaluzus
+51	4851	belulo	beluloj belulojn belulon
+52	4852	malĝoji	malĝojanta malĝojantaj malĝojantajn malĝojantan malĝojante malĝojas malĝojinta malĝojintaj malĝojintajn malĝojintan malĝojinte malĝojis malĝojonta malĝojontaj malĝojontajn malĝojontan malĝojonte malĝojos malĝoju malĝojus
+53	4853	guti	gutanta gutantaj gutantajn gutantan gutante gutas gutinta gutintaj gutintajn gutintan gutinte gutis gutonta gutontaj gutontajn gutontan gutonte gutos gutu gutus
+54	4854	antaŭtempa	antaŭtempaj antaŭtempajn antaŭtempan
+55	4855	venteto	ventetoj ventetojn venteton
+56	4856	aĉaĵo	aĉaĵoj aĉaĵojn aĉaĵon
+57	4857	ekkuri	ekkuranta ekkurantaj ekkurantajn ekkurantan ekkurante ekkuras ekkurinta ekkurintaj ekkurintajn ekkurintan ekkurinte ekkuris ekkuronta ekkurontaj ekkurontajn ekkurontan ekkuronte ekkuros ekkuru ekkurus
+58	4858	povra	povraj povrajn povran
+59	4859	forrabi	forrabanta forrabantaj forrabantajn forrabantan forrabante forrabas forrabata forrabataj forrabatajn forrabatan forrabate forrabinta forrabintaj forrabintajn forrabintan forrabinte forrabis forrabita forrabitaj forrabitajn forrabitan forrabite forrabonta forrabontaj forrabontajn forrabontan forrabonte forrabos forrabu forrabus
+60	4860	narkotaĵo	narkotaĵoj narkotaĵojn narkotaĵon
+61	4861	ŝtipo	ŝtipoj ŝtipojn ŝtipon
+62	4862	reĝi	reĝanta reĝantaj reĝantajn reĝantan reĝante reĝas reĝinta reĝintaj reĝintajn reĝintan reĝinte reĝis reĝonta reĝontaj reĝontajn reĝontan reĝonte reĝos reĝu reĝus
+63	4863	iradi	iradanta iradantaj iradantajn iradantan iradante iradas iradinta iradintaj iradintajn iradintan iradinte iradis iradonta iradontaj iradontajn iradontan iradonte irados iradu iradus
+64	4864	sonorigi	sonoriganta sonorigantaj sonorigantajn sonorigantan sonorigante sonorigas sonoriginta sonorigintaj sonorigintajn sonorigintan sonoriginte sonorigis sonorigonta sonorigontaj sonorigontajn sonorigontan sonorigonte sonorigos sonorigu sonorigus
+65	4865	idolo	idoloj idolojn idolon
+66	4866	portugalo	portugaloj portugalojn portugalon
+67	4867	malkonsenti	malkonsentanta malkonsentantaj malkonsentantajn malkonsentantan malkonsentante malkonsentas malkonsentinta malkonsentintaj malkonsentintajn malkonsentintan malkonsentinte malkonsentis malkonsentonta malkonsentontaj malkonsentontajn malkonsentontan malkonsentonte malkonsentos malkonsentu malkonsentus
+68	4868	drivi	drivanta drivantaj drivantajn drivantan drivante drivas drivinta drivintaj drivintajn drivintan drivinte drivis drivonta drivontaj drivontajn drivontan drivonte drivos drivu drivus
+69	4869	norden	
+70	4870	ĉiea	ĉieaj ĉieajn ĉiean
+71	4871	balotanto	balotantoj balotantojn balotanton
+72	4872	sterko	sterkoj sterkojn sterkon
+73	4873	malĝuste	
+74	4874	tuje	
+75	4875	kremo	kremoj kremojn kremon
+76	4876	demokrato	demokratoj demokratojn demokraton
+77	4877	jene	
+78	4878	bankisto	bankistoj bankistojn bankiston
+79	4879	harmonia	harmoniaj harmoniajn harmonian
+80	4880	vizitadi	vizitadanta vizitadantaj vizitadantajn vizitadantan vizitadante vizitadas vizitadata vizitadataj vizitadatajn vizitadatan vizitadate vizitadinta vizitadintaj vizitadintajn vizitadintan vizitadinte vizitadis vizitadita vizitaditaj vizitaditajn vizitaditan vizitadite vizitadonta vizitadontaj vizitadontajn vizitadontan vizitadonte vizitados vizitadu vizitadus
+81	4881	harmonii	harmonianta harmoniantaj harmoniantajn harmoniantan harmoniante harmonias harmoniinta harmoniintaj harmoniintajn harmoniintan harmoniinte harmoniis harmonionta harmoniontaj harmoniontajn harmoniontan harmonionte harmonios harmoniu harmonius
+82	4882	intesto	intestoj intestojn inteston
+83	4883	vulpo	vulpoj vulpojn vulpon
+84	4884	fonemo	fonemoj fonemojn fonemon
+85	4885	komputi	komputanta komputantaj komputantajn komputantan komputante komputas komputata komputataj komputatajn komputatan komputate komputinta komputintaj komputintajn komputintan komputinte komputis komputita komputitaj komputitajn komputitan komputite komputonta komputontaj komputontajn komputontan komputonte komputos komputu komputus
+86	4886	poezia	poeziaj poeziajn poezian
+87	4887	rezonado	rezonadoj rezonadojn rezonadon
+88	4888	logike	
+89	4889	taglibro	taglibroj taglibrojn taglibron
+90	4890	deca	decaj decajn decan
+91	4891	abelo	abeloj abelojn abelon
+92	4892	frosta	frostaj frostajn frostan
+93	4893	malsupera	malsuperaj malsuperajn malsuperan
+94	4894	vitra	vitraj vitrajn vitran
+95	4895	blokado	blokadoj blokadojn blokadon
+96	4896	vicreĝo	vicreĝoj vicreĝojn vicreĝon
+97	4897	kontrakti	kontraktanta kontraktantaj kontraktantajn kontraktantan kontraktante kontraktanto kontraktantoj kontraktas kontraktata kontraktataj kontraktatajn kontraktatan kontraktate kontraktinta kontraktintaj kontraktintajn kontraktintan kontraktinte kontraktis kontraktita kontraktitaj kontraktitajn kontraktitan kontraktite kontraktonta kontraktontaj kontraktontajn kontraktontan kontraktonte kontraktos kontraktu kontraktus
+98	4898	cendo	cendoj cendojn cendon
+99	4899	valideco	validecoj validecojn validecon
+100	4900	parola	parolaj parolajn parolan

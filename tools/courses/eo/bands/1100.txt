@@ -1,0 +1,100 @@
+1	1001	ekonomio	ekonomioj ekonomiojn ekonomion
+2	1002	traduki	tradukanta tradukantaj tradukantajn tradukantan tradukante tradukantoj tradukas tradukata tradukataj tradukatajn tradukatan tradukate tradukinta tradukintaj tradukintajn tradukintan tradukinte tradukis tradukita tradukitaj tradukitajn tradukitan tradukite tradukonta tradukontaj tradukontajn tradukontan tradukonte tradukos traduku tradukus
+3	1003	diable	
+4	1004	hieraŭ	
+5	1005	libereco	liberecoj liberecojn liberecon
+6	1006	kosti	kostanta kostantaj kostantajn kostantan kostante kostas kostinta kostintaj kostintajn kostintan kostinte kostis kostonta kostontaj kostontajn kostontan kostonte kostos kostu kostus
+7	1007	metro	metroj metrojn metron
+8	1008	resto	restoj restojn reston
+9	1009	veturilo	veturiloj veturilojn veturilon
+10	1010	surbaze	
+11	1011	blua	bluaj bluajn bluan
+12	1012	grundo	grundoj grundojn grundon
+13	1013	artisto	artistoj artistojn artiston
+14	1014	aĝa	agha aĝaj aĝajn aĝan
+15	1015	malfacile	
+16	1016	tekniko	teknikoj teknikojn teknikon teĥniko teĥnikon
+17	1017	identigi	identiganta identigantaj identigantajn identigantan identigante identigas identigata identigataj identigatajn identigatan identigate identiginta identigintaj identigintajn identigintan identiginte identigis identigita identigitaj identigitajn identigitan identigite identigonta identigontaj identigontajn identigontan identigonte identigos identigu identigus
+18	1018	mapo	mapoj mapojn mapon
+19	1019	tribunalo	tribunaloj tribunalojn tribunalon
+20	1020	reĝino	reĝinoj reĝinojn reĝinon
+21	1021	paĝo	paĝoj paĝojn paĝon
+22	1022	frapi	frapanta frapantaj frapantajn frapantan frapante frapas frapata frapataj frapatajn frapatan frapate frapinta frapintaj frapintajn frapintan frapinte frapis frapita frapitaj frapitajn frapitan frapite fraponta frapontaj frapontajn frapontan fraponte frapos frapu frapus
+23	1023	cerbo	cerboj cerbojn cerbon
+24	1024	floro	floroj florojn floron
+25	1025	unuo	unuoj unuojn unuon
+26	1026	puŝi	pushis puŝanta puŝantaj puŝantajn puŝantan puŝante puŝas puŝata puŝataj puŝatajn puŝatan puŝate puŝinta puŝintaj puŝintajn puŝintan puŝinte puŝis puŝita puŝitaj puŝitajn puŝitan puŝite puŝonta puŝontaj puŝontajn puŝontan puŝonte puŝos puŝu puŝus
+27	1027	generi	generanta generantaj generantajn generantan generante generanto generas generata generataj generatajn generatan generate generinta generintaj generintajn generintan generinte generis generita generitaj generitajn generitan generite generonta generontaj generontajn generontan generonte generos generu generus
+28	1028	figuro	figuroj figurojn figuron
+29	1029	lo	
+30	1030	merkato	merkatoj merkatojn merkaton
+31	1031	troviĝi	troviĝanta troviĝantaj troviĝantajn troviĝantan troviĝante troviĝas troviĝinta troviĝintaj troviĝintajn troviĝintan troviĝinte troviĝis troviĝonta troviĝontaj troviĝontajn troviĝontan troviĝonte troviĝos troviĝu troviĝus
+32	1032	supozeble	
+33	1033	lago	lagoj lagojn lagon
+34	1034	misio	misioj misiojn mision
+35	1035	adiaŭ	adiau
+36	1036	realigi	realiganta realigantaj realigantajn realigantan realigante realigas realigata realigataj realigatajn realigatan realigate realiginta realigintaj realigintajn realigintan realiginte realigis realigita realigitaj realigitajn realigitan realigite realigonta realigontaj realigontajn realigontan realigonte realigos realigu realigus
+37	1037	averti	avertanta avertantaj avertantajn avertantan avertante avertantoj avertas avertata avertataj avertatajn avertatan avertate avertinta avertintaj avertintajn avertintan avertinte avertis avertita avertitaj avertitajn avertitan avertite avertonta avertontaj avertontajn avertontan avertonte avertos avertu avertus
+38	1038	fiŝo	fiŝoj fiŝojn fiŝon
+39	1039	pentraĵo	pentraĵoj pentraĵojn pentraĵon
+40	1040	normala	normalaj normalajn normalan
+41	1041	ranĉo	ranĉoj ranĉojn ranĉon
+42	1042	efika	efikaj efikajn efikan
+43	1043	telefono	telefonoj telefonojn telefonon
+44	1044	demeti	demetanta demetantaj demetantajn demetantan demetante demetas demetata demetataj demetatajn demetatan demetate demetinta demetintaj demetintajn demetintan demetinte demetis demetita demetitaj demetitajn demetitan demetite demetonta demetontaj demetontajn demetontan demetonte demetos demetu demetus
+45	1045	multo	multoj multojn multon
+46	1046	ripeti	ripetanta ripetantaj ripetantajn ripetantan ripetante ripetas ripetata ripetataj ripetatajn ripetatan ripetate ripetinta ripetintaj ripetintajn ripetintan ripetinte ripetis ripetita ripetitaj ripetitajn ripetitan ripetite ripetonta ripetontaj ripetontajn ripetontan ripetonte ripetos ripetota ripetotaj ripetotajn ripetu ripetus
+47	1047	varii	varianta variantaj variantajn variantan variante varianto variantoj variantojn varianton varias variata variataj variatajn variatan variate variinta variintaj variintajn variintan variinte variis variita variitaj variitajn variitan variite varionta variontaj variontajn variontan varionte varios variu varius
+48	1048	diablo	diabloj diablojn diablon
+49	1049	dokumento	dokumentoj dokumentojn dokumenton
+50	1050	karaktero	karakteroj karakterojn karakteron
+51	1051	profunda	profundaj profundajn profundan
+52	1052	vaste	
+53	1053	argumenti	argumentanta argumentantaj argumentantajn argumentantan argumentante argumentas argumentata argumentataj argumentatajn argumentatan argumentate argumentinta argumentintaj argumentintajn argumentintan argumentinte argumentis argumentita argumentitaj argumentitajn argumentitan argumentite argumentonta argumentontaj argumentontajn argumentontan argumentonte argumentos argumentu argumentus
+54	1054	ĝui	ĝuanta ĝuantaj ĝuantajn ĝuantan ĝuante ĝuantoj ĝuas ĝuata ĝuataj ĝuatajn ĝuatan ĝuate ĝuinta ĝuintaj ĝuintajn ĝuintan ĝuinte ĝuis ĝuita ĝuitaj ĝuitajn ĝuitan ĝuite ĝuonta ĝuontaj ĝuontajn ĝuontan ĝuonte ĝuos ĝuu ĝuus
+55	1055	motoro	motoroj motorojn motoron
+56	1056	gamo	gamoj gamojn gamon
+57	1057	konfirmi	konfirmanta konfirmantaj konfirmantajn konfirmantan konfirmante konfirmantoj konfirmas konfirmata konfirmataj konfirmatajn konfirmatan konfirmate konfirminta konfirmintaj konfirmintajn konfirmintan konfirminte konfirmis konfirmita konfirmitaj konfirmitajn konfirmitan konfirmite konfirmonta konfirmontaj konfirmontajn konfirmontan konfirmonte konfirmos konfirmu konfirmus
+58	1058	ekzameno	ekzamenoj ekzamenojn ekzamenon
+59	1059	apliko	aplikoj aplikojn aplikon
+60	1060	vido	vidoj vidojn vidon
+61	1061	konflikto	konfliktoj konfliktojn konflikton
+62	1062	individua	individuaj individuajn individuan
+63	1063	malmulte	
+64	1064	estaĵo	estaĵoj estaĵojn estaĵon
+65	1065	plori	ploranta plorantaj plorantajn plorantan plorante ploras plorinta plorintaj plorintajn plorintan plorinte ploris ploronta plorontaj plorontajn plorontan ploronte ploros ploru plorus
+66	1066	reteni	retenanta retenantaj retenantajn retenantan retenante retenas retenata retenataj retenatajn retenatan retenate reteninta retenintaj retenintajn retenintan reteninte retenis retenita retenitaj retenitajn retenitan retenite retenonta retenontaj retenontajn retenontan retenonte retenos retenota retenu retenus
+67	1067	petegi	peteganta petegantaj petegantajn petegantan petegante petegas petegata petegataj petegatajn petegatan petegate peteginta petegintaj petegintajn petegintan peteginte petegis petegita petegitaj petegitajn petegitan petegite petegonta petegontaj petegontajn petegontan petegonte petegos petegu petegus
+68	1068	trankvile	
+69	1069	ĝusta	ĝustaj ĝustajn ĝustan
+70	1070	soni	sonanta sonantaj sonantajn sonantan sonante sonas sonata sonataj sonatajn sonatan sonate sonato sonatoj sonatojn sonaton soninta sonintaj sonintajn sonintan soninte sonis sonita sonitaj sonitajn sonitan sonite sononta sonontaj sonontajn sonontan sononte sonos sonu sonus
+71	1071	esplori	esploranta esplorantaj esplorantajn esplorantan esplorante esploranto esplorantoj esploras esplorata esplorataj esploratajn esploratan esplorate esplorinta esplorintaj esplorintajn esplorintan esplorinte esploris esplorita esploritaj esploritajn esploritan esplorite esploronta esplorontaj esplorontajn esplorontan esploronte esploros esploru esplorus
+72	1072	premo	premoj premojn premon
+73	1073	mil	
+74	1074	haki	hakanta hakantaj hakantajn hakantan hakante hakas hakata hakataj hakatajn hakatan hakate hakinta hakintaj hakintajn hakintan hakinte hakis hakita hakitaj hakitajn hakitan hakite hakonta hakontaj hakontajn hakontan hakonte hakos haku hakus
+75	1075	ekster	
+76	1076	titolo	titoloj titolojn titolon
+77	1077	ekscii	ekscianta eksciantaj eksciantajn eksciantan eksciante ekscias eksciinta eksciintaj eksciintajn eksciintan eksciinte eksciis ekscionta eksciontaj eksciontajn eksciontan ekscionte ekscios eksciu ekscius
+78	1078	multobla	multoblaj multoblajn multoblan
+79	1079	luno	lunoj lunojn lunon
+80	1080	gasto	gastoj gastojn gaston
+81	1081	aliĝi	aliĝanta aliĝantaj aliĝantajn aliĝantan aliĝante aliĝas aliĝinta aliĝintaj aliĝintajn aliĝintan aliĝinte aliĝis aliĝonta aliĝontaj aliĝontajn aliĝontan aliĝonte aliĝos aliĝu aliĝus
+82	1082	aŭtoritato	aŭtoritatoj aŭtoritatojn aŭtoritaton
+83	1083	manko	mankoj mankojn mankon
+84	1084	novaĵo	novaĵoj novaĵojn novaĵon
+85	1085	klara	klaraj klarajn klaran
+86	1086	proceso	procesoj procesojn proceson
+87	1087	kalkuli	kalkulanta kalkulantaj kalkulantajn kalkulantan kalkulante kalkulas kalkulata kalkulataj kalkulatajn kalkulatan kalkulate kalkulinta kalkulintaj kalkulintajn kalkulintan kalkulinte kalkulis kalkulita kalkulitaj kalkulitajn kalkulitan kalkulite kalkulonta kalkulontaj kalkulontajn kalkulontan kalkulonte kalkulos kalkulu kalkulus
+88	1088	defendi	defendanta defendantaj defendantajn defendantan defendante defendanto defendantoj defendantojn defendanton defendas defendata defendataj defendatajn defendatan defendate defendinta defendintaj defendintajn defendintan defendinte defendis defendita defenditaj defenditajn defenditan defendite defendonta defendontaj defendontajn defendontan defendonte defendos defendu defendus
+89	1089	honoro	honoroj honorojn honoron
+90	1090	venigi	veniganta venigantaj venigantajn venigantan venigante venigas venigata venigataj venigatajn venigatan venigate veniginta venigintaj venigintajn venigintan veniginte venigis venigita venigitaj venigitajn venigitan venigite venigonta venigontaj venigontajn venigontan venigonte venigos venigu venigus
+91	1091	forpreni	forprenanta forprenantaj forprenantajn forprenantan forprenante forprenas forprenata forprenataj forprenatajn forprenatan forprenate forpreninta forprenintaj forprenintajn forprenintan forpreninte forprenis forprenita forprenitaj forprenitajn forprenitan forprenite forprenonta forprenontaj forprenontajn forprenontan forprenonte forprenos forprenu forprenus
+92	1092	utila	utilaj utilajn utilan
+93	1093	mesaĝo	mesaĝoj mesaĝojn mesaĝon
+94	1094	direkti	direktanta direktantaj direktantajn direktantan direktante direktanto direktantoj direktantojn direktanton direktas direktata direktataj direktatajn direktatan direktate direktinta direktintaj direktintajn direktintan direktinte direktis direktita direktitaj direktitajn direktitan direktite direktonta direktontaj direktontajn direktontan direktonte direktos direktu direktus
+95	1095	brako	brakoj brakojn brakon
+96	1096	plimulto	plimultoj plimultojn plimulton
+97	1097	perfekta	perfektaj perfektajn perfektan
+98	1098	antikva	antikvaj antikvajn antikvan
+99	1099	laboristo	laboristoj laboristojn laboriston
+100	1100	hispana	hispanaj hispanajn hispanan

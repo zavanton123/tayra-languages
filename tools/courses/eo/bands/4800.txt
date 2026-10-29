@@ -1,0 +1,100 @@
+1	4701	ekstertera	eksterteraj eksterterajn eksterteran
+2	4702	rafini	rafinanta rafinantaj rafinantajn rafinantan rafinante rafinas rafinata rafinataj rafinatajn rafinatan rafinate rafininta rafinintaj rafinintajn rafinintan rafininte rafinis rafinita rafinitaj rafinitajn rafinitan rafinite rafinonta rafinontaj rafinontajn rafinontan rafinonte rafinos rafinu rafinus
+3	4703	realismo	realismoj realismojn realismon
+4	4704	detektilo	detektiloj detektilojn detektilon
+5	4705	rekonstruo	rekonstruoj rekonstruojn rekonstruon
+6	4706	monaĥino	monakino monaĥinoj monaĥinojn monaĥinon
+7	4707	eskadro	eskadroj eskadrojn eskadron
+8	4708	atlantika	atlantikaj atlantikajn atlantikan
+9	4709	suden	
+10	4710	stadiono	stadionoj stadionojn stadionon
+11	4711	komunejo	komunejoj komunejojn komunejon
+12	4712	kantistino	kantistinoj kantistinojn kantistinon
+13	4713	soleco	solecoj solecojn solecon
+14	4714	realiĝi	realiĝanta realiĝantaj realiĝantajn realiĝantan realiĝante realiĝas realiĝinta realiĝintaj realiĝintajn realiĝintan realiĝinte realiĝis realiĝonta realiĝontaj realiĝontajn realiĝontan realiĝonte realiĝos realiĝu realiĝus
+15	4715	kateno	katenoj katenojn katenon
+16	4716	fleksi	fleksanta fleksantaj fleksantajn fleksantan fleksante fleksas fleksata fleksataj fleksatajn fleksatan fleksate fleksinta fleksintaj fleksintajn fleksintan fleksinte fleksis fleksita fleksitaj fleksitajn fleksitan fleksite fleksonta fleksontaj fleksontajn fleksontan fleksonte fleksos fleksu fleksus
+17	4717	prezidanteco	prezidantecoj prezidantecojn prezidantecon
+18	4718	handikapo	handikapoj handikapojn handikapon
+19	4719	sankteco	sanktecoj sanktecojn sanktecon
+20	4720	fendo	fendoj fendojn fendon
+21	4721	brilo	briloj brilojn brilon
+22	4722	interfero	interferoj interferojn interferon
+23	4723	blindigi	blindiganta blindigantaj blindigantajn blindigantan blindigante blindigas blindigata blindigataj blindigatajn blindigatan blindigate blindiginta blindigintaj blindigintajn blindigintan blindiginte blindigis blindigita blindigitaj blindigitajn blindigitan blindigite blindigonta blindigontaj blindigontajn blindigontan blindigonte blindigos blindigu blindigus
+24	4724	luksa	luksaj luksajn luksan
+25	4725	sekurigi	sekuriganta sekurigantaj sekurigantajn sekurigantan sekurigante sekurigas sekurigata sekurigataj sekurigatajn sekurigatan sekurigate sekuriginta sekurigintaj sekurigintajn sekurigintan sekuriginte sekurigis sekurigita sekurigitaj sekurigitajn sekurigitan sekurigite sekurigonta sekurigontaj sekurigontajn sekurigontan sekurigonte sekurigos sekurigu sekurigus
+26	4726	baze	
+27	4727	kurejo	kurejoj kurejojn kurejon
+28	4728	algluiĝi	algluiĝanta algluiĝantaj algluiĝantajn algluiĝantan algluiĝante algluiĝas algluiĝinta algluiĝintaj algluiĝintajn algluiĝintan algluiĝinte algluiĝis algluiĝonta algluiĝontaj algluiĝontajn algluiĝontan algluiĝonte algluiĝos algluiĝu algluiĝus
+29	4729	patrolo	patroloj patrolojn patrolon
+30	4730	embarasi	embarasanta embarasantaj embarasantajn embarasantan embarasante embarasas embarasata embarasataj embarasatajn embarasatan embarasate embarasinta embarasintaj embarasintajn embarasintan embarasinte embarasis embarasita embarasitaj embarasitajn embarasitan embarasite embarasonta embarasontaj embarasontajn embarasontan embarasonte embarasos embarasu embarasus
+31	4731	toro	toroj torojn toron
+32	4732	favore	
+33	4733	fleksebleco	flekseblecoj flekseblecojn flekseblecon
+34	4734	sidigi	sidiganta sidigantaj sidigantajn sidigantan sidigante sidigas sidigata sidigataj sidigatajn sidigatan sidigate sidiginta sidigintaj sidigintajn sidigintan sidiginte sidigis sidigita sidigitaj sidigitajn sidigitan sidigite sidigonta sidigontaj sidigontajn sidigontan sidigonte sidigos sidigu sidigus
+35	4735	skribe	
+36	4736	urina	urinaj urinajn urinan
+37	4737	heroaĵo	heroaĵoj heroaĵojn heroaĵon
+38	4738	principe	
+39	4739	navigado	navigacio navigacion navigadoj navigadojn navigadon
+40	4740	genaro	genaroj genarojn genaron
+41	4741	inventaĵo	inventaĵoj inventaĵojn inventaĵon
+42	4742	svingi	svinganta svingantaj svingantajn svingantan svingante svingas svingata svingataj svingatajn svingatan svingate svinginta svingintaj svingintajn svingintan svinginte svingis svingita svingitaj svingitajn svingitan svingite svingonta svingontaj svingontajn svingontan svingonte svingos svingu svingus
+43	4743	limi	limanta limantaj limantajn limantan limante limas limata limataj limatajn limatan limate liminta limintaj limintajn limintan liminte limis limita limitaj limitajn limitan limite limito limonta limontaj limontajn limontan limonte limos limu limus
+44	4744	subjektiva	subjektivaj subjektivajn subjektivan
+45	4745	agitado	agitadoj agitadojn agitadon
+46	4746	humiligi	humiliganta humiligantaj humiligantajn humiligantan humiligante humiligas humiligata humiligataj humiligatajn humiligatan humiligate humiliginta humiligintaj humiligintajn humiligintan humiliginte humiligis humiligita humiligitaj humiligitajn humiligitan humiligite humiligonta humiligontaj humiligontajn humiligontan humiligonte humiligos humiligu humiligus
+47	4747	admiro	admiroj admirojn admiron
+48	4748	eventuala	eventualaj eventualajn eventualan
+49	4749	ĉien	
+50	4750	duŝi	duŝanta duŝantaj duŝantajn duŝantan duŝante duŝas duŝata duŝataj duŝatajn duŝatan duŝate duŝinta duŝintaj duŝintajn duŝintan duŝinte duŝis duŝita duŝitaj duŝitajn duŝitan duŝite duŝonta duŝontaj duŝontajn duŝontan duŝonte duŝos duŝu duŝus
+51	4751	saĝo	saĝoj saĝojn saĝon
+52	4752	simpatio	simpatioj simpatiojn simpation
+53	4753	naciismo	naciismoj naciismojn naciismon
+54	4754	sanktejo	sanktejoj sanktejojn sanktejon
+55	4755	roto	rotoj rotojn roton
+56	4756	senchava	senchavaj senchavajn senchavan
+57	4757	gaje	
+58	4758	kolombo	kolomboj kolombojn kolombon
+59	4759	maski	maskanta maskantaj maskantajn maskantan maskante maskas maskata maskataj maskatajn maskatan maskate maskato maskinta maskintaj maskintajn maskintan maskinte maskis maskita maskitaj maskitajn maskitan maskite maskonta maskontaj maskontajn maskontan maskonte maskos maskotan maskoto maskotoj maskoton masku maskus
+60	4760	disiĝo	disiĝoj disiĝojn disiĝon
+61	4761	akustika	akustikaj akustikajn akustikan
+62	4762	fortega	fortegaj fortegajn fortegan
+63	4763	fabriki	fabrikanta fabrikantaj fabrikantajn fabrikantan fabrikante fabrikanto fabrikantoj fabrikas fabrikata fabrikataj fabrikatajn fabrikatan fabrikate fabrikinta fabrikintaj fabrikintajn fabrikintan fabrikinte fabrikis fabrikita fabrikitaj fabrikitajn fabrikitan fabrikite fabrikonta fabrikontaj fabrikontajn fabrikontan fabrikonte fabrikos fabriku fabrikus
+64	4764	abdiki	abdikanta abdikantaj abdikantajn abdikantan abdikante abdikas abdikata abdikataj abdikatajn abdikatan abdikate abdikinta abdikintaj abdikintajn abdikintan abdikinte abdikis abdikita abdikitaj abdikitajn abdikitan abdikite abdikonta abdikontaj abdikontajn abdikontan abdikonte abdikos abdiku abdikus
+65	4765	testudo	testudoj testudojn testudon
+66	4766	kulo	kuloj kulojn kulon
+67	4767	atentema	atentemaj atentemajn atenteman
+68	4768	jena	jenaj jenajn jenan
+69	4769	kupono	kuponoj kuponojn kuponon
+70	4770	plonĝi	plonĝanta plonĝantaj plonĝantajn plonĝantan plonĝante plonĝas plonĝinta plonĝintaj plonĝintajn plonĝintan plonĝinte plonĝis plonĝonta plonĝontaj plonĝontajn plonĝontan plonĝonte plonĝos plonĝu plonĝus
+71	4771	heroa	heroaj heroajn heroan
+72	4772	egipto	egiptoj egiptojn egipton
+73	4773	iafoje	
+74	4774	hontigi	hontiganta hontigantaj hontigantajn hontigantan hontigante hontigas hontigata hontigataj hontigatajn hontigatan hontigate hontiginta hontigintaj hontigintajn hontigintan hontiginte hontigis hontigita hontigitaj hontigitajn hontigitan hontigite hontigonta hontigontaj hontigontajn hontigontan hontigonte hontigos hontigu hontigus
+75	4775	perturbi	perturbanta perturbantaj perturbantajn perturbantan perturbante perturbas perturbata perturbataj perturbatajn perturbatan perturbate perturbinta perturbintaj perturbintajn perturbintan perturbinte perturbis perturbita perturbitaj perturbitajn perturbitan perturbite perturbonta perturbontaj perturbontajn perturbontan perturbonte perturbos perturbu perturbus
+76	4776	radii	radianta radiantaj radiantajn radiantan radiante radias radiata radiataj radiatajn radiatan radiate radiinta radiintaj radiintajn radiintan radiinte radiis radiita radiitaj radiitajn radiitan radiite radionta radiontaj radiontajn radiontan radionte radios radiu radius
+77	4777	inundo	inundoj inundojn inundon
+78	4778	virbovo	virbovoj virbovojn virbovon
+79	4779	favorata	favorataj favoratajn favoratan
+80	4780	ŝtrumpeto	ŝtrumpetoj ŝtrumpetojn ŝtrumpeton
+81	4781	gastejo	gastejoj gastejojn gastejon
+82	4782	digo	digoj digojn digon
+83	4783	ĉarlatano	ĉarlatanoj ĉarlatanojn ĉarlatanon
+84	4784	flanka	flankaj flankajn flankan
+85	4785	vulgara	vulgaraj vulgarajn vulgaran
+86	4786	polica	policaj policajn polican
+87	4787	plago	plagoj plagojn plagon
+88	4788	demokratia	demokratiaj demokratiajn demokratian
+89	4789	maŝinaro	maŝinaroj maŝinarojn maŝinaron
+90	4790	ĝino	ĝinoj ĝinojn ĝinon
+91	4791	kverko	kverkoj kverkojn kverkon
+92	4792	amara	amaraj amarajn amaran
+93	4793	forko	forkoj forkojn forkon
+94	4794	irado	iradoj iradojn iradon
+95	4795	moralo	moraloj moralojn moralon
+96	4796	krano	kranoj kranojn kranon
+97	4797	algebro	algebroj algebrojn algebron
+98	4798	disponi	disponanta disponantaj disponantajn disponantan disponante disponas disponinta disponintaj disponintajn disponintan disponinte disponis dispononta disponontaj disponontajn disponontan dispononte disponos disponu disponus
+99	4799	judismo	judismoj judismojn judismon
+100	4800	domaĝo	domaĝoj domaĝojn domaĝon

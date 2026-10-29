@@ -1,0 +1,100 @@
+1	9901	difrakto	difraktoj difraktojn difrakton
+2	9902	hidro	hidroj hidrojn hidron
+3	9903	orangutango	orangutangoj orangutangojn orangutangon
+4	9904	kontentigo	kontentigoj kontentigojn kontentigon
+5	9905	raciismo	raciismoj raciismojn raciismon
+6	9906	subatoma	subatomaj subatomajn subatoman
+7	9907	incendio	incendioj incendiojn incendion
+8	9908	norvego	norvegoj norvegojn norvegon
+9	9909	terarmeo	terarmeoj terarmeojn terarmeon
+10	9910	sesono	sesonoj sesonojn sesonon
+11	9911	tripunkto	tripunktoj tripunktojn tripunkton
+12	9912	glitilo	glitiloj glitilojn glitilon
+13	9913	martestudo	martestudoj martestudojn martestudon
+14	9914	nekrologo	nekrologoj nekrologojn nekrologon
+15	9915	peso	pesoj pesojn peson
+16	9916	kapsiketo	kapsiketoj kapsiketojn kapsiketon
+17	9917	mopedo	mopedoj mopedojn mopedon
+18	9918	orto	ortoj ortojn orton
+19	9919	alergio	alergioj alergiojn alergion
+20	9920	punko	punkoj punkojn punkon
+21	9921	kobalto	kobaltoj kobaltojn kobalton
+22	9922	ezofago	ezofagoj ezofagojn ezofagon
+23	9923	safrano	safranoj safranojn safranon
+24	9924	belgo	belgoj belgojn belgon
+25	9925	ĉasteco	ĉastecoj ĉastecojn ĉastecon
+26	9926	afido	afidoj afidojn afidon
+27	9927	triliono	trilionoj trilionojn trilionon
+28	9928	pilono	pilonoj pilonojn pilonon
+29	9929	fajromuro	fajromuroj fajromurojn fajromuron
+30	9930	plantaro	plantaroj plantarojn plantaron
+31	9931	tuniko	tunikoj tunikojn tunikon
+32	9932	segmenti	segmentanta segmentantaj segmentantajn segmentantan segmentante segmentas segmentata segmentataj segmentatajn segmentatan segmentate segmentinta segmentintaj segmentintajn segmentintan segmentinte segmentis segmentita segmentitaj segmentitajn segmentitan segmentite segmentonta segmentontaj segmentontajn segmentontan segmentonte segmentos segmentu segmentus
+33	9933	grejso	grejsoj grejsojn grejson
+34	9934	poligamio	poligamioj poligamiojn poligamion
+35	9935	piedingo	piedingoj piedingojn piedingon
+36	9936	perso	persoj persojn person
+37	9937	aglomeri	aglomeranta aglomerantaj aglomerantajn aglomerantan aglomerante aglomeras aglomerata aglomerataj aglomeratajn aglomeratan aglomerate aglomerinta aglomerintaj aglomerintajn aglomerintan aglomerinte aglomeris aglomerita aglomeritaj aglomeritajn aglomeritan aglomerite aglomeronta aglomerontaj aglomerontajn aglomerontan aglomeronte aglomeros aglomeru aglomerus
+38	9938	radiumo	radiumoj radiumojn radiumon
+39	9939	biosfero	biosferoj biosferojn biosferon
+40	9940	skalpo	skalpoj skalpojn skalpon
+41	9941	nemetalo	nemetaloj nemetalojn nemetalon
+42	9942	bolivia	boliviaj boliviajn bolivian
+43	9943	arketipo	arketipoj arketipojn arketipon
+44	9944	kolĉeno	kolĉenoj kolĉenojn kolĉenon
+45	9945	impete	
+46	9946	filozofie	
+47	9947	dekstrume	
+48	9948	neono	neonoj neonojn neonon
+49	9949	arkivado	arkivadoj arkivadojn arkivadon
+50	9950	kristanigo	kristanigoj kristanigojn kristanigon
+51	9951	arseniko	arsenikoj arsenikojn arsenikon
+52	9952	elokventeco	elokventecoj elokventecojn elokventecon
+53	9953	muko	mukoj mukojn mukon
+54	9954	pulpo	pulpoj pulpojn pulpon
+55	9955	vagino	vaginoj vaginojn vaginon
+56	9956	solenoido	solenoidoj solenoidojn solenoidon
+57	9957	eĥino	eĥinoj eĥinojn eĥinon
+58	9958	baptujo	baptujoj baptujojn baptujon
+59	9959	evitebla	eviteblaj eviteblajn eviteblan
+60	9960	inkao	inkaoj inkaojn inkaon
+61	9961	teleregilo	teleregiloj teleregilojn teleregilon
+62	9962	kunvenejo	kunvenejoj kunvenejojn kunvenejon
+63	9963	fondiĝi	fondiĝanta fondiĝantaj fondiĝantajn fondiĝantan fondiĝante fondiĝas fondiĝinta fondiĝintaj fondiĝintajn fondiĝintan fondiĝinte fondiĝis fondiĝonta fondiĝontaj fondiĝontajn fondiĝontan fondiĝonte fondiĝos fondiĝu fondiĝus
+64	9964	meg	
+65	9965	argono	argonoj argonojn argonon
+66	9966	aviada	aviadaj aviadajn aviadan
+67	9967	lafo	lafoj lafojn lafon
+68	9968	molusko	moluskoj moluskojn moluskon
+69	9969	fruktozo	fruktozoj fruktozojn fruktozon
+70	9970	placebo	placeboj placebojn placebon
+71	9971	neekzistado	neekzistadoj neekzistadojn neekzistadon
+72	9972	aŭtokratio	aŭtokratioj aŭtokratiojn aŭtokration
+73	9973	saksofono	saksofonoj saksofonojn saksofonon
+74	9974	voĉkordo	voĉkordoj voĉkordojn voĉkordon
+75	9975	meridiano	meridianoj meridianojn meridianon
+76	9976	manufakturo	manufakturoj manufakturojn manufakturon
+77	9977	sorĉbastono	sorĉbastonoj sorĉbastonojn sorĉbastonon
+78	9978	turbano	turbanoj turbanojn turbanon
+79	9979	artefarita inteligenteco	artefarita inteligenteco
+80	9980	formulado	formuladoj formuladojn formuladon
+81	9981	muzikologio	muzikologioj muzikologiojn muzikologion
+82	9982	magmo	magmoj magmojn magmon
+83	9983	ĉefenirejo	ĉefenirejoj ĉefenirejojn ĉefenirejon
+84	9984	karakalo	karakaloj karakalojn karakalon
+85	9985	nilono	nilonoj nilonojn nilonon
+86	9986	mangano	manganoj manganojn manganon
+87	9987	hobiisto	hobiistoj hobiistojn hobiiston
+88	9988	flandro	flandroj flandrojn flandron
+89	9989	senmoveco	senmovecoj senmovecojn senmovecon
+90	9990	analfabeteco	analfabetecoj analfabetecojn analfabetecon
+91	9991	prima	primaj primajn priman
+92	9992	krustaco	krustacoj krustacojn krustacon
+93	9993	kvinto	kvintoj kvintojn kvinton
+94	9994	pogromo	pogromoj pogromojn pogromon
+95	9995	nektaro	nektaroj nektarojn nektaron
+96	9996	orkideo	orkideoj orkideojn orkideon
+97	9997	ombri	ombranta ombrantaj ombrantajn ombrantan ombrante ombras ombrinta ombrintaj ombrintajn ombrintan ombrinte ombris ombronta ombrontaj ombrontajn ombrontan ombronte ombros ombru ombrus
+98	9998	altruisma	altruismaj altruismajn altruisman
+99	9999	parafrazi	parafrazanta parafrazantaj parafrazantajn parafrazantan parafrazante parafrazas parafrazata parafrazataj parafrazatajn parafrazatan parafrazate parafrazinta parafrazintaj parafrazintajn parafrazintan parafrazinte parafrazis parafrazita parafrazitaj parafrazitajn parafrazitan parafrazite parafrazonta parafrazontaj parafrazontajn parafrazontan parafrazonte parafrazos parafrazu parafrazus
+100	10000	lumjaro	lumjaroj lumjarojn lumjaron

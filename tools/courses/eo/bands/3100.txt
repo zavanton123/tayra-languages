@@ -1,0 +1,100 @@
+1	3001	vasko	vaskoj vaskojn vaskon
+2	3002	dolorigi	doloriganta dolorigantaj dolorigantajn dolorigantan dolorigante dolorigas dolorigata dolorigataj dolorigatajn dolorigatan dolorigate doloriginta dolorigintaj dolorigintajn dolorigintan doloriginte dolorigis dolorigita dolorigitaj dolorigitajn dolorigitan dolorigite dolorigonta dolorigontaj dolorigontajn dolorigontan dolorigonte dolorigos dolorigu dolorigus
+3	3003	ŝovi	ŝovanta ŝovantaj ŝovantajn ŝovantan ŝovante ŝovas ŝovinta ŝovintaj ŝovintajn ŝovintan ŝovinte ŝovis ŝovonta ŝovontaj ŝovontajn ŝovontan ŝovonte ŝovos ŝovu ŝovus
+4	3004	banejo	banejoj banejojn banejon
+5	3005	bruna	brunaj brunajn brunan
+6	3006	truko	trukoj trukojn trukon
+7	3007	opero	operoj operojn operon
+8	3008	civila	civilaj civilajn civilan
+9	3009	fosi	fosanta fosantaj fosantajn fosantan fosante fosas fosata fosataj fosatajn fosatan fosate fosinta fosintaj fosintajn fosintan fosinte fosis fosita fositaj fositajn fositan fosite fosonta fosontaj fosontajn fosontan fosonte fosos fosu fosus
+10	3010	provoki	provokanta provokantaj provokantajn provokantan provokante provokanto provokas provokata provokataj provokatajn provokatan provokate provokinta provokintaj provokintajn provokintan provokinte provokis provokita provokitaj provokitajn provokitan provokite provokonta provokontaj provokontajn provokontan provokonte provokos provoku provokus
+11	3011	eksterordinara	eksterordinaraj eksterordinarajn eksterordinaran
+12	3012	interveni	intervenanta intervenantaj intervenantajn intervenantan intervenante intervenas interveninta intervenintaj intervenintajn intervenintan interveninte intervenis intervenonta intervenontaj intervenontajn intervenontan intervenonte intervenos intervenu intervenus
+13	3013	aprobo	aproboj aprobojn aprobon
+14	3014	taso	tasoj tasojn tason
+15	3015	sinkronigi	sinkroniganta sinkronigantaj sinkronigantajn sinkronigantan sinkronigante sinkronigas sinkronigata sinkronigataj sinkronigatajn sinkronigatan sinkronigate sinkroniginta sinkronigintaj sinkronigintajn sinkronigintan sinkroniginte sinkronigis sinkronigita sinkronigitaj sinkronigitajn sinkronigitan sinkronigite sinkronigonta sinkronigontaj sinkronigontajn sinkronigontan sinkronigonte sinkronigos sinkronigu sinkronigus
+16	3016	ofendi	ofendanta ofendantaj ofendantajn ofendantan ofendante ofendas ofendata ofendataj ofendatajn ofendatan ofendate ofendinta ofendintaj ofendintajn ofendintan ofendinte ofendis ofendita ofenditaj ofenditajn ofenditan ofendite ofendonta ofendontaj ofendontajn ofendontan ofendonte ofendos ofendu ofendus
+17	3017	rivereto	riveretoj riveretojn rivereton
+18	3018	ideologio	ideologioj ideologiojn ideologion
+19	3019	fora	foraj forajn foran
+20	3020	malriĉeco	malriĉecoj malriĉecojn malriĉecon
+21	3021	mistera	misteraj misterajn misteran
+22	3022	ligna	lignaj lignajn lignan
+23	3023	ornami	ornamanta ornamantaj ornamantajn ornamantan ornamante ornamas ornamata ornamataj ornamatajn ornamatan ornamate ornaminta ornamintaj ornamintajn ornamintan ornaminte ornamis ornamita ornamitaj ornamitajn ornamitan ornamite ornamonta ornamontaj ornamontajn ornamontan ornamonte ornamos ornamu ornamus
+24	3024	halto	haltoj haltojn halton
+25	3025	gustumi	gustumanta gustumantaj gustumantajn gustumantan gustumante gustumas gustuminta gustumintaj gustumintajn gustumintan gustuminte gustumis gustumonta gustumontaj gustumontajn gustumontan gustumonte gustumos gustumu gustumus
+26	3026	balailo	balailoj balailojn balailon
+27	3027	mezlernejo	mezlernejoj mezlernejojn mezlernejon
+28	3028	kokino	kokinoj kokinojn kokinon
+29	3029	integra	integraj integrajn integran
+30	3030	idealo	idealoj idealojn idealon
+31	3031	nutraĵo	nutraĵoj nutraĵojn nutraĵon
+32	3032	linia	liniaj liniajn linian
+33	3033	sanktulo	sanktuloj sanktulojn sanktulon
+34	3034	muskolo	muskoloj muskolojn muskolon
+35	3035	arkitekto	arkitektoj arkitektojn arkitekton
+36	3036	horizontala	horizontalaj horizontalajn horizontalan
+37	3037	ĉagreni	ĉagrenanta ĉagrenantaj ĉagrenantajn ĉagrenantan ĉagrenante ĉagrenas ĉagrenata ĉagrenataj ĉagrenatajn ĉagrenatan ĉagrenate ĉagreninta ĉagrenintaj ĉagrenintajn ĉagrenintan ĉagreninte ĉagrenis ĉagrenita ĉagrenitaj ĉagrenitajn ĉagrenitan ĉagrenite ĉagrenonta ĉagrenontaj ĉagrenontajn ĉagrenontan ĉagrenonte ĉagrenos ĉagrenu ĉagrenus
+38	3038	grafo	grafoj grafojn grafon
+39	3039	fi	
+40	3040	liberiĝi	liberiĝanta liberiĝantaj liberiĝantajn liberiĝantan liberiĝante liberiĝas liberiĝinta liberiĝintaj liberiĝintajn liberiĝintan liberiĝinte liberiĝis liberiĝonta liberiĝontaj liberiĝontajn liberiĝontan liberiĝonte liberiĝos liberiĝu liberiĝus
+41	3041	sekigi	sekiganta sekigantaj sekigantajn sekigantan sekigante sekigas sekigata sekigataj sekigatajn sekigatan sekigate sekiginta sekigintaj sekigintajn sekigintan sekiginte sekigis sekigita sekigitaj sekigitajn sekigitan sekigite sekigonta sekigontaj sekigontajn sekigontan sekigonte sekigos sekigu sekigus
+42	3042	kruela	kruelaj kruelajn kruelan
+43	3043	ludilo	ludiloj ludilojn ludilon
+44	3044	ŝtalo	ŝtaloj ŝtalojn ŝtalon
+45	3045	reĝlando	reĝlandoj reĝlandojn reĝlandon
+46	3046	malkovro	malkovroj malkovrojn malkovron
+47	3047	dieto	dietoj dietojn dieton
+48	3048	bani	bananta banantaj banantajn banantan banante banas banata banataj banatajn banatan banate banato baninta banintaj banintajn banintan baninte banis banita banitaj banitajn banitan banite banonta banontaj banontajn banontan banonte banos banu banus
+49	3049	malsaniĝi	malsaniĝanta malsaniĝantaj malsaniĝantajn malsaniĝantan malsaniĝante malsaniĝas malsaniĝinta malsaniĝintaj malsaniĝintajn malsaniĝintan malsaniĝinte malsaniĝis malsaniĝonta malsaniĝontaj malsaniĝontajn malsaniĝontan malsaniĝonte malsaniĝos malsaniĝu malsaniĝus
+50	3050	havaĵo	havaĵoj havaĵojn havaĵon
+51	3051	urĝa	urĝaj urĝajn urĝan
+52	3052	fotilo	fotiloj fotilojn fotilon
+53	3053	bovo	bovoj bovojn bovon
+54	3054	konscienco	konsciencoj konsciencojn konsciencon
+55	3055	alarmo	alarmoj alarmojn alarmon
+56	3056	ekzekuto	ekzekutoj ekzekutojn ekzekuton
+57	3057	feliĉe	
+58	3058	dokumenti	dokumentanta dokumentantaj dokumentantajn dokumentantan dokumentante dokumentas dokumentata dokumentataj dokumentatajn dokumentatan dokumentate dokumentinta dokumentintaj dokumentintajn dokumentintan dokumentinte dokumentis dokumentita dokumentitaj dokumentitajn dokumentitan dokumentite dokumentonta dokumentontaj dokumentontajn dokumentontan dokumentonte dokumentos dokumentu dokumentus
+59	3059	dikti	diktanta diktantaj diktantajn diktantan diktante diktas diktata diktataj diktatajn diktatan diktate diktato diktatojn diktinta diktintaj diktintajn diktintan diktinte diktis diktita diktitaj diktitajn diktitan diktite diktonta diktontaj diktontajn diktontan diktonte diktos diktu diktus
+60	3060	bano	banoj banojn banon
+61	3061	reklami	reklamanta reklamantaj reklamantajn reklamantan reklamante reklamanto reklamantoj reklamantojn reklamanton reklamas reklamata reklamataj reklamatajn reklamatan reklamate reklaminta reklamintaj reklamintajn reklamintan reklaminte reklamis reklamita reklamitaj reklamitajn reklamitan reklamite reklamonta reklamontaj reklamontajn reklamontan reklamonte reklamos reklamu reklamus
+62	3062	malmultekosta	malmultekostaj malmultekostajn malmultekostan
+63	3063	akiro	akiroj akirojn akiron
+64	3064	redaktisto	redaktistoj redaktistojn redaktiston
+65	3065	skandalo	skandaloj skandalojn skandalon
+66	3066	liberala	liberalaj liberalajn liberalan
+67	3067	eldonisto	eldonistoj eldonistojn eldoniston
+68	3068	okaze	
+69	3069	instruo	instruoj instruojn instruon
+70	3070	aera	aeraj aerajn aeran
+71	3071	ĉasisto	ĉasistoj ĉasistojn ĉasiston
+72	3072	kuniĝi	kuniĝanta kuniĝantaj kuniĝantajn kuniĝantan kuniĝante kuniĝas kuniĝinta kuniĝintaj kuniĝintajn kuniĝintan kuniĝinte kuniĝis kuniĝonta kuniĝontaj kuniĝontajn kuniĝontan kuniĝonte kuniĝos kuniĝu kuniĝus
+73	3073	gvido	gvidoj gvidojn gvidon
+74	3074	analoga	analogaj analogajn analogan
+75	3075	alteriĝi	alteriĝanta alteriĝantaj alteriĝantajn alteriĝantan alteriĝante alteriĝas alteriĝinta alteriĝintaj alteriĝintajn alteriĝintan alteriĝinte alteriĝis alteriĝonta alteriĝontaj alteriĝontajn alteriĝontan alteriĝonte alteriĝos alteriĝu alteriĝus
+76	3076	akuzo	akuzoj akuzojn akuzon
+77	3077	malplenigi	malpleniganta malplenigantaj malplenigantajn malplenigantan malplenigante malplenigas malplenigata malplenigataj malplenigatajn malplenigatan malplenigate malpleniginta malplenigintaj malplenigintajn malplenigintan malpleniginte malplenigis malplenigita malplenigitaj malplenigitajn malplenigitan malplenigite malplenigonta malplenigontaj malplenigontajn malplenigontan malplenigonte malplenigos malplenigu malplenigus
+78	3078	karcero	karceroj karcerojn karceron
+79	3079	kaco	kacoj kacojn kacon
+80	3080	bankroto	bankrotoj bankrotojn bankroton
+81	3081	koto	kotoj kotojn koton
+82	3082	proklami	proklamanta proklamantaj proklamantajn proklamantan proklamante proklamas proklamata proklamataj proklamatajn proklamatan proklamate proklaminta proklamintaj proklamintajn proklamintan proklaminte proklamis proklamita proklamitaj proklamitajn proklamitan proklamite proklamonta proklamontaj proklamontajn proklamontan proklamonte proklamos proklamu proklamus
+83	3083	damna	damnaj damnajn damnan
+84	3084	duonhoro	duonhoroj duonhorojn duonhoron
+85	3085	vidvino	vidvinoj vidvinojn vidvinon
+86	3086	vundiĝi	vundiĝanta vundiĝantaj vundiĝantajn vundiĝantan vundiĝante vundiĝas vundiĝinta vundiĝintaj vundiĝintajn vundiĝintan vundiĝinte vundiĝis vundiĝonta vundiĝontaj vundiĝontajn vundiĝontan vundiĝonte vundiĝos vundiĝu vundiĝus
+87	3087	plezure	
+88	3088	agordi	agordanta agordantaj agordantajn agordantan agordante agordas agordata agordataj agordatajn agordatan agordate agordinta agordintaj agordintajn agordintan agordinte agordis agordita agorditaj agorditajn agorditan agordite agordonta agordontaj agordontajn agordontan agordonte agordos agordu agordus
+89	3089	malliberulo	malliberuloj malliberulojn malliberulon
+90	3090	apuda	apudaj apudajn apudan
+91	3091	vika	vikaj vikajn vikan
+92	3092	laci	lacanta lacantaj lacantajn lacantan lacante lacas lacinta lacintaj lacintajn lacintan lacinte lacis laconta lacontaj lacontajn lacontan laconte lacos lacu lacus
+93	3093	penti	pentanta pentantaj pentantajn pentantan pentante pentanto pentantoj pentas pentata pentataj pentatajn pentatan pentate pentinta pentintaj pentintajn pentintan pentinte pentis pentita pentitaj pentitajn pentitan pentite pentonta pentontaj pentontajn pentontan pentonte pentos pentu pentus
+94	3094	nepo	nepoj nepojn nepon
+95	3095	enmigri	enmigranta enmigrantaj enmigrantajn enmigrantan enmigrante enmigrantoj enmigras enmigrinta enmigrintaj enmigrintajn enmigrintan enmigrinte enmigrinto enmigrintoj enmigrintojn enmigris enmigronta enmigrontaj enmigrontajn enmigrontan enmigronte enmigros enmigru enmigrus
+96	3096	konstitucia	konstituciaj konstituciajn konstitucian
+97	3097	kaŝe	
+98	3098	pasio	pasioj pasiojn pasion
+99	3099	parametro	parametroj parametrojn parametron
+100	3100	malavantaĝo	malavantaĝoj malavantaĝojn malavantaĝon

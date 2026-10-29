@@ -1,0 +1,100 @@
+1	2201	skriba	skribaj skribajn skriban
+2	2202	agentejo	agentejoj agentejojn agentejon
+3	2203	varia	variaj variajn varian
+4	2204	konsilo	konsiloj konsilojn konsilon
+5	2205	oĉjo	oĉjoj oĉjojn oĉjon
+6	2206	ŝategi	ŝateganta ŝategantaj ŝategantajn ŝategantan ŝategante ŝategas ŝateginta ŝategintaj ŝategintajn ŝategintan ŝateginte ŝategis ŝategonta ŝategontaj ŝategontajn ŝategontan ŝategonte ŝategos ŝategu ŝategus
+7	2207	honti	hontanta hontantaj hontantajn hontantan hontante hontas hontinta hontintaj hontintajn hontintan hontinte hontis hontonta hontontaj hontontajn hontontan hontonte hontos hontu hontus
+8	2208	matĉo	matĉoj matĉojn matĉon maĉo
+9	2209	ano	anoj anojn anon
+10	2210	indiano	indianoj indianojn indianon
+11	2211	kelo	keloj kelojn kelon
+12	2212	surda	surdaj surdajn surdan
+13	2213	komparo	komparoj komparojn komparon
+14	2214	asembleo	asembleoj asembleojn asembleon
+15	2215	botelo	boteloj botelojn botelon
+16	2216	atribui	atribuanta atribuantaj atribuantajn atribuantan atribuante atribuas atribuata atribuataj atribuatajn atribuatan atribuate atribuinta atribuintaj atribuintajn atribuintan atribuinte atribuis atribuita atribuitaj atribuitajn atribuitan atribuite atribuonta atribuontaj atribuontajn atribuontan atribuonte atribuos atribuu atribuus
+17	2217	fuŝi	fuŝanta fuŝantaj fuŝantajn fuŝantan fuŝante fuŝanto fuŝas fuŝata fuŝataj fuŝatajn fuŝatan fuŝate fuŝinta fuŝintaj fuŝintajn fuŝintan fuŝinte fuŝis fuŝita fuŝitaj fuŝitajn fuŝitan fuŝite fuŝonta fuŝontaj fuŝontajn fuŝontan fuŝonte fuŝos fuŝu fuŝus
+18	2218	perfekte	
+19	2219	emocio	emocioj emociojn emocion
+20	2220	ree	
+21	2221	fundamenta	fundamentaj fundamentajn fundamentan
+22	2222	akuzito	akuzitoj akuzitojn akuziton
+23	2223	teatraĵo	teatraĵoj teatraĵojn teatraĵon
+24	2224	lipo	lipoj lipojn lipon
+25	2225	loĝantaro	loĝantaroj loĝantarojn loĝantaron
+26	2226	malfacileco	malfacilecoj malfacilecojn malfacilecon
+27	2227	sorĉisto	sorĉistoj sorĉistojn sorĉiston
+28	2228	mendi	mendanta mendantaj mendantajn mendantan mendante mendanto mendas mendata mendataj mendatajn mendatan mendate mendinta mendintaj mendintajn mendintan mendinte mendinto mendis mendita menditaj menditajn menditan mendite mendonta mendontaj mendontajn mendontan mendonte mendos mendu mendus
+29	2229	ĉiujare	
+30	2230	rilate	
+31	2231	riĉaĵo	riĉaĵoj riĉaĵojn riĉaĵon
+32	2232	vane	
+33	2233	trudi	trudanta trudantaj trudantajn trudantan trudante trudas trudata trudataj trudatajn trudatan trudate trudinta trudintaj trudintajn trudintan trudinte trudis trudita truditaj truditajn truditan trudite trudonta trudontaj trudontajn trudontan trudonte trudos trudu trudus
+34	2234	preĝo	preĝoj preĝojn preĝon
+35	2235	vitro	vitroj vitrojn vitron
+36	2236	dometo	dometoj dometojn dometon
+37	2237	morala	moralaj moralajn moralan
+38	2238	ĝenro	ĝenroj ĝenrojn ĝenron
+39	2239	giganta	gigantaj gigantajn gigantan
+40	2240	akademio	akademioj akademiojn akademion
+41	2241	establado	establadoj establadojn establadon
+42	2242	kosmoŝipo	kosmoŝipoj kosmoŝipojn kosmoŝipon
+43	2243	valori	valoranta valorantaj valorantajn valorantan valorante valoras valorinta valorintaj valorintajn valorintan valorinte valoris valoronta valorontaj valorontajn valorontan valoronte valoros valoru valorus
+44	2244	garantii	garantianta garantiantaj garantiantajn garantiantan garantiante garantianto garantiantoj garantias garantiata garantiataj garantiatajn garantiatan garantiate garantiinta garantiintaj garantiintajn garantiintan garantiinte garantiis garantiita garantiitaj garantiitajn garantiitan garantiite garantionta garantiontaj garantiontajn garantiontan garantionte garantios garantiu garantius
+45	2245	itinero	itineroj itinerojn itineron
+46	2246	transporti	transportanta transportantaj transportantajn transportantan transportante transportanto transportas transportata transportataj transportatajn transportatan transportate transportinta transportintaj transportintajn transportintan transportinte transportis transportita transportitaj transportitajn transportitan transportite transportonta transportontaj transportontajn transportontan transportonte transportos transportu transportus
+47	2247	ciklo	cikloj ciklojn ciklon
+48	2248	turka	turkaj turkajn turkan
+49	2249	junulino	junulinoj junulinojn junulinon
+50	2250	heredi	heredanta heredantaj heredantajn heredantan heredante heredanto heredantoj heredantojn heredanton heredas heredata heredataj heredatajn heredatan heredate heredinta heredintaj heredintajn heredintan heredinte heredintoj heredis heredita hereditaj hereditajn hereditan heredite heredonta heredontaj heredontajn heredontan heredonte heredonto heredontoj heredontojn heredonton heredos heredu heredus
+51	2251	bonŝanco	bonŝancoj bonŝancojn bonŝancon
+52	2252	traktado	traktadoj traktadojn traktadon
+53	2253	malmola	malmolaj malmolajn malmolan
+54	2254	strategio	strategioj strategiojn strategion
+55	2255	eniro	eniroj enirojn eniron
+56	2256	ŝipanaro	ŝipanaroj ŝipanarojn ŝipanaron
+57	2257	enlitiĝi	enlitiĝanta enlitiĝantaj enlitiĝantajn enlitiĝantan enlitiĝante enlitiĝas enlitiĝinta enlitiĝintaj enlitiĝintajn enlitiĝintan enlitiĝinte enlitiĝis enlitiĝonta enlitiĝontaj enlitiĝontajn enlitiĝontan enlitiĝonte enlitiĝos enlitiĝu enlitiĝus
+58	2258	petrolo	petroloj petrolojn petrolon
+59	2259	nokta	noktaj noktajn noktan
+60	2260	konkurso	konkursoj konkursojn konkurson
+61	2261	nocio	nocioj nociojn nocion
+62	2262	agrikulturo	agrikulturoj agrikulturojn agrikulturon
+63	2263	papo	papoj papojn papon
+64	2264	krio	krioj kriojn krion
+65	2265	entombigi	entombiganta entombigantaj entombigantajn entombigantan entombigante entombigas entombigata entombigataj entombigatajn entombigatan entombigate entombiginta entombigintaj entombigintajn entombigintan entombiginte entombigis entombigita entombigitaj entombigitajn entombigitan entombigite entombigonta entombigontaj entombigontajn entombigontan entombigonte entombigos entombigota entombigu entombigus
+66	2266	molekulo	molekuloj molekulojn molekulon
+67	2267	komuniki	komunikanta komunikantaj komunikantajn komunikantan komunikante komunikas komunikata komunikataj komunikatajn komunikatan komunikate komunikinta komunikintaj komunikintajn komunikintan komunikinte komunikis komunikita komunikitaj komunikitajn komunikitan komunikite komunikonta komunikontaj komunikontajn komunikontan komunikonte komunikos komuniku komunikus
+68	2268	tuja	tujaj tujajn tujan
+69	2269	urĝe	
+70	2270	ĉeno	ĉenoj ĉenojn ĉenon
+71	2271	malseka	malsekaj malsekajn malsekan
+72	2272	planko	plankoj plankojn plankon
+73	2273	rekomenci	rekomencanta rekomencantaj rekomencantajn rekomencantan rekomencante rekomencas rekomencata rekomencataj rekomencatajn rekomencatan rekomencate rekomencinta rekomencintaj rekomencintajn rekomencintan rekomencinte rekomencis rekomencita rekomencitaj rekomencitajn rekomencitan rekomencite rekomenconta rekomencontaj rekomencontajn rekomencontan rekomenconte rekomencos rekomencu rekomencus
+74	2274	brito	britoj britojn briton
+75	2275	malbeno	malbenoj malbenojn malbenon
+76	2276	najbara	najbaraj najbarajn najbaran
+77	2277	gvidita	gviditaj gviditajn gviditan
+78	2278	rezolucio	rezolucioj rezoluciojn rezolucion
+79	2279	spuri	spuranta spurantaj spurantajn spurantan spurante spuras spurata spurataj spuratajn spuratan spurate spurinta spurintaj spurintajn spurintan spurinte spuris spurita spuritaj spuritajn spuritan spurite spuronta spurontaj spurontajn spurontan spuronte spuros spuru spurus
+80	2280	pisi	pisanta pisantaj pisantajn pisantan pisante pisas pisinta pisintaj pisintajn pisintan pisinte pisis pisonta pisontaj pisontajn pisontan pisonte pisos pisu pisus
+81	2281	akceli	akcelanta akcelantaj akcelantajn akcelantan akcelante akcelas akcelata akcelataj akcelatajn akcelatan akcelate akcelinta akcelintaj akcelintajn akcelintan akcelinte akcelis akcelita akcelitaj akcelitajn akcelitan akcelite akcelonta akcelontaj akcelontajn akcelontan akcelonte akcelos akcelu akcelus
+82	2282	aŭdaci	aŭdacanta aŭdacantaj aŭdacantajn aŭdacantan aŭdacante aŭdacas aŭdacinta aŭdacintaj aŭdacintajn aŭdacintan aŭdacinte aŭdacis aŭdaconta aŭdacontaj aŭdacontajn aŭdacontan aŭdaconte aŭdacos aŭdacu aŭdacus
+83	2283	perdiĝi	perdiĝanta perdiĝantaj perdiĝantajn perdiĝantan perdiĝante perdiĝas perdiĝinta perdiĝintaj perdiĝintajn perdiĝintan perdiĝinte perdiĝis perdiĝonta perdiĝontaj perdiĝontajn perdiĝontan perdiĝonte perdiĝos perdiĝu perdiĝus
+84	2284	konsonanto	konsonantoj konsonantojn konsonanton
+85	2285	persekuti	persekutanta persekutantaj persekutantajn persekutantan persekutante persekutanto persekutantoj persekutantojn persekutas persekutata persekutataj persekutatajn persekutatan persekutate persekutatojn persekutinta persekutintaj persekutintajn persekutintan persekutinte persekutis persekutita persekutitaj persekutitajn persekutitan persekutite persekutonta persekutontaj persekutontajn persekutontan persekutonte persekutos persekutu persekutus
+86	2286	eterna	eternaj eternajn eternan
+87	2287	instrukcio	instrukcioj instrukciojn instrukcion
+88	2288	stacidomo	stacidomoj stacidomojn stacidomon
+89	2289	deviga	devigaj devigajn devigan
+90	2290	kolego	kolegoj kolegojn kolegon
+91	2291	kontinua	kontinuaj kontinuajn kontinuan
+92	2292	survoje	
+93	2293	ekvilibro	ekvilibroj ekvilibrojn ekvilibron
+94	2294	plibonigo	plibonigoj plibonigojn plibonigon
+95	2295	miri	miranta mirantaj mirantajn mirantan mirante miras mirinta mirintaj mirintajn mirintan mirinte miris mironta mirontaj mirontajn mirontan mironte miros miru mirus
+96	2296	frakasi	frakasanta frakasantaj frakasantajn frakasantan frakasante frakasas frakasata frakasataj frakasatajn frakasatan frakasate frakasinta frakasintaj frakasintajn frakasintan frakasinte frakasis frakasita frakasitaj frakasitajn frakasitan frakasite frakasonta frakasontaj frakasontajn frakasontan frakasonte frakasos frakasu frakasus
+97	2297	paŭzo	paŭzoj paŭzojn paŭzon
+98	2298	libere	
+99	2299	litero	literoj literojn literon
+100	2300	pendi	pendanta pendantaj pendantajn pendantan pendante pendas pendinta pendintaj pendintajn pendintan pendinte pendis pendonta pendontaj pendontajn pendontan pendonte pendos pendu pendus

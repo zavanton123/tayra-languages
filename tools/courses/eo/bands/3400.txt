@@ -1,0 +1,100 @@
+1	3301	riĉulo	riĉuloj riĉulojn riĉulon
+2	3302	aĉ	ach
+3	3303	pinta	pintaj pintajn pintan
+4	3304	personeco	personecoj personecojn personecon
+5	3305	valuto	valutoj valutojn valuton
+6	3306	kortumo	kortumoj kortumojn kortumon
+7	3307	sultano	sultanoj sultanojn sultanon
+8	3308	nodo	nodoj nodojn nodon
+9	3309	segmento	segmentoj segmentojn segmenton
+10	3310	kuniklo	kunikloj kuniklojn kuniklon
+11	3311	hungara	hungaraj hungarajn hungaran
+12	3312	baronino	baroninoj baroninojn baroninon
+13	3313	arao	araoj araojn araon
+14	3314	pirata	pirataj piratajn piratan
+15	3315	kafejo	kafejoj kafejojn kafejon
+16	3316	datumbazo	datumbazoj datumbazojn datumbazon
+17	3317	neŭtrala	neŭtralaj neŭtralajn neŭtralan
+18	3318	spiono	spionoj spionojn spionon
+19	3319	korto	kortoj kortojn korton
+20	3320	malkaŝi	malkaŝanta malkaŝantaj malkaŝantajn malkaŝantan malkaŝante malkaŝas malkaŝata malkaŝataj malkaŝatajn malkaŝatan malkaŝate malkaŝinta malkaŝintaj malkaŝintajn malkaŝintan malkaŝinte malkaŝis malkaŝita malkaŝitaj malkaŝitajn malkaŝitan malkaŝite malkaŝonta malkaŝontaj malkaŝontajn malkaŝontan malkaŝonte malkaŝos malkaŝu malkaŝus
+21	3321	esperantisto	esperantistoj esperantistojn esperantiston
+22	3322	ŝtelo	ŝteloj ŝtelojn ŝtelon
+23	3323	permesilo	permesiloj permesilojn permesilon
+24	3324	gepatra	gepatraj gepatrajn gepatran
+25	3325	baki	bakanta bakantaj bakantajn bakantan bakante bakas bakata bakataj bakatajn bakatan bakate bakinta bakintaj bakintajn bakintan bakinte bakis bakita bakitaj bakitajn bakitan bakite bakonta bakontaj bakontajn bakontan bakonte bakos baku bakus
+26	3326	familiano	familianoj familianojn familianon
+27	3327	plendo	plendoj plendojn plendon
+28	3328	monitori	monitoranta monitorantaj monitorantajn monitorantan monitorante monitoras monitorata monitorataj monitoratajn monitoratan monitorate monitorinta monitorintaj monitorintajn monitorintan monitorinte monitoris monitorita monitoritaj monitoritajn monitoritan monitorite monitoronta monitorontaj monitorontajn monitorontan monitoronte monitoros monitoru monitorus
+29	3329	arkivo	arkivoj arkivojn arkivon arĥivo
+30	3330	verdire	
+31	3331	denunci	denuncanta denuncantaj denuncantajn denuncantan denuncante denuncanto denuncas denuncata denuncataj denuncatajn denuncatan denuncate denuncinta denuncintaj denuncintajn denuncintan denuncinte denuncis denuncita denuncitaj denuncitajn denuncitan denuncite denunconta denuncontaj denuncontajn denuncontan denunconte denuncos denuncu denuncus
+32	3332	penetri	penetranta penetrantaj penetrantajn penetrantan penetrante penetras penetrata penetrataj penetratajn penetratan penetrate penetrinta penetrintaj penetrintajn penetrintan penetrinte penetris penetrita penetritaj penetritajn penetritan penetrite penetronta penetrontaj penetrontajn penetrontan penetronte penetros penetru penetrus
+33	3333	korekte	
+34	3334	venĝi	venĝanta venĝantaj venĝantajn venĝantan venĝante venĝanto venĝantoj venĝas venĝata venĝataj venĝatajn venĝatan venĝate venĝinta venĝintaj venĝintajn venĝintan venĝinte venĝis venĝita venĝitaj venĝitajn venĝitan venĝite venĝonta venĝontaj venĝontajn venĝontan venĝonte venĝos venĝu venĝus
+35	3335	fortranĉi	fortranĉanta fortranĉantaj fortranĉantajn fortranĉantan fortranĉante fortranĉas fortranĉinta fortranĉintaj fortranĉintajn fortranĉintan fortranĉinte fortranĉis fortranĉonta fortranĉontaj fortranĉontajn fortranĉontan fortranĉonte fortranĉos fortranĉu fortranĉus
+36	3336	bubo	buboj bubojn bubon
+37	3337	malica	malicaj malicajn malican
+38	3338	izoli	izolanta izolantaj izolantajn izolantan izolante izolas izolata izolataj izolatajn izolatan izolate izolinta izolintaj izolintajn izolintan izolinte izolis izolitaj izolitajn izolitan izolite izolonta izolontaj izolontajn izolontan izolonte izolos izolu izolus
+39	3339	hidrogeno	hidrogenoj hidrogenojn hidrogenon
+40	3340	envii	envianta enviantaj enviantajn enviantan enviante envias enviinta enviintaj enviintajn enviintan enviinte enviis envionta enviontaj enviontajn enviontan envionte envios enviu envius
+41	3341	ĉifri	ĉifranta ĉifrantaj ĉifrantajn ĉifrantan ĉifrante ĉifras ĉifrata ĉifrataj ĉifratajn ĉifratan ĉifrate ĉifrinta ĉifrintaj ĉifrintajn ĉifrintan ĉifrinte ĉifris ĉifrita ĉifritaj ĉifritajn ĉifritan ĉifrite ĉifronta ĉifrontaj ĉifrontajn ĉifrontan ĉifronte ĉifros ĉifru ĉifrus
+42	3342	fromaĝo	fromaĝoj fromaĝojn fromaĝon
+43	3343	babilado	babiladoj babiladojn babiladon
+44	3344	salto	saltego saltegoj saltegojn saltegon saltoj saltojn salton
+45	3345	praa	praaj praajn praan
+46	3346	malpermeso	malpermesoj malpermesojn malpermeson
+47	3347	timema	timemaj timemajn timeman
+48	3348	boto	botoj botojn boton
+49	3349	homamaso	homamasoj homamasojn homamason
+50	3350	patrujo	patrujoj patrujojn patrujon
+51	3351	asekuro	asekuroj asekurojn asekuron
+52	3352	posttagmeze	
+53	3353	tagmanĝo	tagmanĝoj tagmanĝojn tagmanĝon
+54	3354	kopeko	kopekoj kopekojn kopekon
+55	3355	ekami	ekamanta ekamantaj ekamantajn ekamantan ekamante ekamas ekaminta ekamintaj ekamintajn ekamintan ekaminte ekamis ekamonta ekamontaj ekamontajn ekamontan ekamonte ekamos ekamu ekamus
+56	3356	monarko	monarkoj monarkojn monarkon
+57	3357	elpeli	elpelanta elpelantaj elpelantajn elpelantan elpelante elpelas elpelata elpelataj elpelatajn elpelatan elpelate elpelinta elpelintaj elpelintajn elpelintan elpelinte elpelis elpelita elpelitaj elpelitajn elpelitan elpelite elpelonta elpelontaj elpelontajn elpelontan elpelonte elpelos elpelu elpelus
+58	3358	acida	acidaj acidajn acidan
+59	3359	rideto	ridetoj ridetojn rideton
+60	3360	knabineto	knabinetoj knabinetojn knabineton
+61	3361	ekonomiko	ekonomikoj ekonomikojn ekonomikon
+62	3362	nulo	nuloj nulojn nulon
+63	3363	elpreni	elprenanta elprenantaj elprenantajn elprenantan elprenante elprenas elprenata elprenataj elprenatajn elprenatan elprenate elpreninta elprenintaj elprenintajn elprenintan elpreninte elprenis elprenita elprenitaj elprenitajn elprenitan elprenite elprenonta elprenontaj elprenontajn elprenontan elprenonte elprenos elprenu elprenus
+64	3364	diplomo	diplomoj diplomojn diplomon
+65	3365	malobei	malobeanta malobeantaj malobeantajn malobeantan malobeante malobeanto malobeantoj malobeas malobeata malobeataj malobeatajn malobeatan malobeate malobeinta malobeintaj malobeintajn malobeintan malobeinte malobeis malobeita malobeitaj malobeitajn malobeitan malobeite malobeonta malobeontaj malobeontajn malobeontan malobeonte malobeos malobeu malobeus
+66	3366	studado	studadoj studadojn studadon
+67	3367	siatempe	
+68	3368	batalado	bataladoj bataladojn bataladon
+69	3369	misilo	misiloj misilojn misilon
+70	3370	sesio	sesioj sesiojn sesion
+71	3371	tamburo	tamburoj tamburojn tamburon
+72	3372	tarifo	tarifoj tarifojn tarifon
+73	3373	propraĵo	propraĵoj propraĵojn propraĵon
+74	3374	torturo	torturoj torturojn torturon
+75	3375	abunda	abundaj abundajn abundan
+76	3376	maksimumo	maksimumoj maksimumojn maksimumon
+77	3377	laŭvole	
+78	3378	memmortigo	memmortigoj memmortigojn memmortigon
+79	3379	fabelo	fabeloj fabelojn fabelon
+80	3380	kunpremi	kunpremanta kunpremantaj kunpremantajn kunpremantan kunpremante kunpremas kunpremata kunpremataj kunprematajn kunprematan kunpremate kunpreminta kunpremintaj kunpremintajn kunpremintan kunpreminte kunpremis kunpremita kunpremitaj kunpremitajn kunpremitan kunpremite kunpremonta kunpremontaj kunpremontajn kunpremontan kunpremonte kunpremos kunpremu kunpremus
+81	3381	mezurado	mezuradoj mezuradojn mezuradon
+82	3382	iluzio	iluzioj iluziojn iluzion
+83	3383	ekkrii	ekkrianta ekkriantaj ekkriantajn ekkriantan ekkriante ekkrias ekkriinta ekkriintaj ekkriintajn ekkriintan ekkriinte ekkriis ekkrionta ekkriontaj ekkriontajn ekkriontan ekkrionte ekkrios ekkriu ekkrius
+84	3384	laŭta	laŭtaj laŭtajn laŭtan
+85	3385	sorĉo	sorĉoj sorĉojn sorĉon
+86	3386	puto	putoj putojn puton
+87	3387	krajono	krajonoj krajonojn krajonon
+88	3388	komerci	komercanta komercantaj komercantajn komercantan komercante komercanto komercas komercinta komercintaj komercintajn komercintan komercinte komercis komerconta komercontaj komercontajn komercontan komerconte komercos komercu komercus
+89	3389	finalo	finaloj finalojn finalon
+90	3390	rondo	rondoj rondojn rondon
+91	3391	aĉeto	aĉetoj aĉetojn aĉeton
+92	3392	premii	premianta premiantaj premiantajn premiantan premiante premias premiata premiataj premiatajn premiatan premiate premiinta premiintaj premiintajn premiintan premiinte premiis premiita premiitaj premiitajn premiitan premiite premiito premiitoj premiitojn premionta premiontaj premiontajn premiontan premionte premios premiu premius
+93	3393	monarkio	monarkioj monarkiojn monarkion monarĥio
+94	3394	silenta	silentaj silentajn silentan
+95	3395	kolektiva	kolektivaj kolektivajn kolektivan
+96	3396	harmonio	harmonioj harmoniojn harmonion
+97	3397	malplej	
+98	3398	himno	himnoj himnojn himnon
+99	3399	barilo	bariloj barilojn barilon
+100	3400	modesta	modestaj modestajn modestan

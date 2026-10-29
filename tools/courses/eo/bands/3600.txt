@@ -1,0 +1,100 @@
+1	3501	meksika	meksikaj meksikajn meksikan
+2	3502	inĝenierarto	inĝenierartoj inĝenierartojn inĝenierarton
+3	3503	enui	enuanta enuantaj enuantajn enuantan enuante enuas enuinta enuintaj enuintajn enuintan enuinte enuis enuonta enuontaj enuontajn enuontan enuonte enuos enuu enuus
+4	3504	alflugi	alfluganta alflugantaj alflugantajn alflugantan alflugante alflugas alfluginta alflugintaj alflugintajn alflugintan alfluginte alflugis alflugonta alflugontaj alflugontajn alflugontan alflugonte alflugos alflugu alflugus
+5	3505	ŭaŭ	
+6	3506	elangligi	elangliganta elangligantaj elangligantajn elangligantan elangligante elangligas elangliginta elangligintaj elangligintajn elangligintan elangliginte elangligis elangligonta elangligontaj elangligontajn elangligontan elangligonte elangligos elangligu elangligus
+7	3507	kreteno	kretenoj kretenojn kretenon
+8	3508	anasido	anasidoj anasidojn anasidon
+9	3509	divorco	divorcoj divorcojn divorcon
+10	3510	tagmanĝi	tagmanĝanta tagmanĝantaj tagmanĝantajn tagmanĝantan tagmanĝante tagmanĝas tagmanĝinta tagmanĝintaj tagmanĝintajn tagmanĝintan tagmanĝinte tagmanĝis tagmanĝonta tagmanĝontaj tagmanĝontajn tagmanĝontan tagmanĝonte tagmanĝos tagmanĝu tagmanĝus
+11	3511	ellitiĝi	ellitiĝanta ellitiĝantaj ellitiĝantajn ellitiĝantan ellitiĝante ellitiĝas ellitiĝinta ellitiĝintaj ellitiĝintajn ellitiĝintan ellitiĝinte ellitiĝis ellitiĝonta ellitiĝontaj ellitiĝontajn ellitiĝontan ellitiĝonte ellitiĝos ellitiĝu ellitiĝus
+12	3512	mirigi	miriganta mirigantaj mirigantajn mirigantan mirigante mirigas mirigata mirigataj mirigatajn mirigatan mirigate miriginta mirigintaj mirigintajn mirigintan miriginte mirigis mirigita mirigitaj mirigitajn mirigitan mirigite mirigonta mirigontaj mirigontajn mirigontan mirigonte mirigos mirigu mirigus
+13	3513	indekso	indeksoj indeksojn indekson
+14	3514	lenso	lensoj lensojn lenson
+15	3515	nenie	
+16	3516	turniro	turniroj turnirojn turniron
+17	3517	atmosfera	atmosferaj atmosferajn atmosferan
+18	3518	vermo	vermoj vermojn vermon
+19	3519	kunhavi	kunhavanta kunhavantaj kunhavantajn kunhavantan kunhavante kunhavas kunhavata kunhavataj kunhavatajn kunhavatan kunhavate kunhavinta kunhavintaj kunhavintajn kunhavintan kunhavinte kunhavis kunhavita kunhavitaj kunhavitajn kunhavitan kunhavite kunhavonta kunhavontaj kunhavontajn kunhavontan kunhavonte kunhavos kunhavu kunhavus
+20	3520	etikedi	etikedanta etikedantaj etikedantajn etikedantan etikedante etikedas etikedata etikedataj etikedatajn etikedatan etikedate etikedinta etikedintaj etikedintajn etikedintan etikedinte etikedis etikedita etikeditaj etikeditajn etikeditan etikedite etikedonta etikedontaj etikedontajn etikedontan etikedonte etikedos etikedu etikedus
+21	3521	buĉi	buĉanta buĉantaj buĉantajn buĉantan buĉante buĉas buĉata buĉataj buĉatajn buĉatan buĉate buĉinta buĉintaj buĉintajn buĉintan buĉinte buĉis buĉita buĉitaj buĉitajn buĉitan buĉite buĉonta buĉontaj buĉontajn buĉontan buĉonte buĉos buĉu buĉus
+22	3522	vendisto	vendistoj vendistojn vendiston
+23	3523	sieĝo	sieĝoj sieĝojn sieĝon
+24	3524	cindro	cindroj cindrojn cindron
+25	3525	strio	strioj striojn strion
+26	3526	febro	febroj febrojn febron
+27	3527	damaĝi	damaĝanta damaĝantaj damaĝantajn damaĝantan damaĝante damaĝas damaĝata damaĝataj damaĝatajn damaĝatan damaĝate damaĝinta damaĝintaj damaĝintajn damaĝintan damaĝinte damaĝis damaĝita damaĝitaj damaĝitajn damaĝitan damaĝite damaĝonta damaĝontaj damaĝontajn damaĝontan damaĝonte damaĝos damaĝu damaĝus
+28	3528	malvera	malveraj malverajn malveran
+29	3529	ĝemelo	ĝemeloj ĝemelojn ĝemelon
+30	3530	kolerigi	koleriganta kolerigantaj kolerigantajn kolerigantan kolerigante kolerigas kolerigata kolerigataj kolerigatajn kolerigatan kolerigate koleriginta kolerigintaj kolerigintajn kolerigintan koleriginte kolerigis kolerigita kolerigitaj kolerigitajn kolerigitan kolerigite kolerigonta kolerigontaj kolerigontajn kolerigontan kolerigonte kolerigos kolerigu kolerigus
+31	3531	malpurigi	malpuriganta malpurigantaj malpurigantajn malpurigantan malpurigante malpurigas malpurigata malpurigataj malpurigatajn malpurigatan malpurigate malpuriginta malpurigintaj malpurigintajn malpurigintan malpuriginte malpurigis malpurigita malpurigitaj malpurigitajn malpurigitan malpurigite malpurigonta malpurigontaj malpurigontajn malpurigontan malpurigonte malpurigos malpurigu malpurigus
+32	3532	funebra	funebraj funebrajn funebran
+33	3533	aresto	arestoj arestojn areston
+34	3534	pretigo	pretigoj pretigojn pretigon
+35	3535	senĉesa	senĉesaj senĉesajn senĉesan
+36	3536	duelo	dueloj duelojn duelon
+37	3537	arkivi	arkivanta arkivantaj arkivantajn arkivantan arkivante arkivas arkivata arkivataj arkivatajn arkivatan arkivate arkivinta arkivintaj arkivintajn arkivintan arkivinte arkivis arkivita arkivitaj arkivitajn arkivitan arkivite arkivonta arkivontaj arkivontajn arkivontan arkivonte arkivos arkivu arkivus
+38	3538	ambulanco	ambulancoj ambulancojn ambulancon
+39	3539	vaporo	vaporoj vaporojn vaporon
+40	3540	aleksandro	aleksandroj aleksandrojn aleksandron
+41	3541	dentisto	dentistoj dentistojn dentiston
+42	3542	veturado	veturadoj veturadojn veturadon
+43	3543	korvo	korvoj korvojn korvon
+44	3544	asistanto	asistantoj asistantojn asistanton
+45	3545	kora	koraj korajn koran
+46	3546	fulmo	fulmoj fulmojn fulmon
+47	3547	diligenta	diligentaj diligentajn diligentan
+48	3548	brakhorloĝo	brakhorloĝoj brakhorloĝojn brakhorloĝon
+49	3549	kurbo	kurboj kurbojn kurbon
+50	3550	feo	feoj feojn feon
+51	3551	ĉerizo	ĉerizoj ĉerizojn ĉerizon
+52	3552	geografio	geografioj geografiojn geografion
+53	3553	polvo	polvoj polvojn polvon
+54	3554	centre	
+55	3555	malĝojo	malĝojoj malĝojojn malĝojon
+56	3556	maksimume	
+57	3557	verdikto	verdiktoj verdiktojn verdikton
+58	3558	fizike	
+59	3559	municipo	municipoj municipojn municipon
+60	3560	fervoja	fervojaj fervojajn fervojan
+61	3561	adaptado	adaptadoj adaptadojn adaptadon
+62	3562	katoliko	katolikoj katolikojn katolikon
+63	3563	originalo	originaloj originalojn originalon
+64	3564	sistema	sistemaj sistemajn sisteman
+65	3565	eldiri	eldiranta eldirantaj eldirantajn eldirantan eldirante eldiras eldirata eldirataj eldiratajn eldiratan eldirate eldirinta eldirintaj eldirintajn eldirintan eldirinte eldiris eldirita eldiritaj eldiritajn eldiritan eldirite eldironta eldirontaj eldirontajn eldirontan eldironte eldiros eldiru eldirus
+66	3566	senutila	senutilaj senutilajn senutilan
+67	3567	duo	duoj duojn duon
+68	3568	varmiĝi	varmiĝanta varmiĝantaj varmiĝantajn varmiĝantan varmiĝante varmiĝas varmiĝinta varmiĝintaj varmiĝintajn varmiĝintan varmiĝinte varmiĝis varmiĝonta varmiĝontaj varmiĝontajn varmiĝontan varmiĝonte varmiĝos varmiĝu varmiĝus
+69	3569	kamioneto	kamionetoj kamionetojn kamioneton
+70	3570	malŝati	malŝatanta malŝatantaj malŝatantajn malŝatantan malŝatante malŝatas malŝatata malŝatataj malŝatatajn malŝatatan malŝatate malŝatinta malŝatintaj malŝatintajn malŝatintan malŝatinte malŝatis malŝatita malŝatitaj malŝatitajn malŝatitan malŝatite malŝatonta malŝatontaj malŝatontajn malŝatontan malŝatonte malŝatos malŝatu malŝatus
+71	3571	avizo	avizoj avizojn avizon
+72	3572	diino	diinoj diinojn diinon
+73	3573	korespondado	korespondadoj korespondadojn korespondadon
+74	3574	gaja	gajaj gajajn gajan
+75	3575	malantaŭo	malantaŭoj malantaŭojn malantaŭon
+76	3576	ŝildo	ŝildoj ŝildojn ŝildon
+77	3577	dormĉambro	dormoĉambro dormoĉambroj dormoĉambrojn dormoĉambron dormĉambroj dormĉambrojn dormĉambron
+78	3578	perforte	
+79	3579	faŝismo	faŝismoj faŝismojn faŝismon
+80	3580	emblemo	emblemoj emblemojn emblemon
+81	3581	kompakta	kompaktaj kompaktajn kompaktan
+82	3582	karbo	karboj karbojn karbon
+83	3583	freneze	
+84	3584	translokigi	translokiganta translokigantaj translokigantajn translokigantan translokigante translokigas translokigata translokigataj translokigatajn translokigatan translokigate translokiginta translokigintaj translokigintajn translokigintan translokiginte translokigis translokigita translokigitaj translokigitajn translokigitan translokigite translokigonta translokigontaj translokigontajn translokigontan translokigonte translokigos translokigu translokigus
+85	3585	renkonto	renkontoj renkontojn renkonton
+86	3586	lokomotivo	lokomotivoj lokomotivojn lokomotivon
+87	3587	malvero	malveroj malverojn malveron
+88	3588	revolucia	revoluciaj revoluciajn revolucian
+89	3589	averaĝa	averaĝaj averaĝajn averaĝan
+90	3590	surprizi	surprizanta surprizantaj surprizantajn surprizantan surprizante surprizas surprizata surprizataj surprizatajn surprizatan surprizate surprizinta surprizintaj surprizintajn surprizintan surprizinte surprizis surprizita surprizitaj surprizitajn surprizitan surprizite surprizonta surprizontaj surprizontajn surprizontan surprizonte surprizos surprizu surprizus
+91	3591	laste	
+92	3592	pacienco	paciencoj paciencojn paciencon
+93	3593	seniluziigi	seniluziiganta seniluziigantaj seniluziigantajn seniluziigantan seniluziigante seniluziigas seniluziigata seniluziigataj seniluziigatajn seniluziigatan seniluziigate seniluziiginta seniluziigintaj seniluziigintajn seniluziigintan seniluziiginte seniluziigis seniluziigita seniluziigitaj seniluziigitajn seniluziigitan seniluziigite seniluziigonta seniluziigontaj seniluziigontajn seniluziigontan seniluziigonte seniluziigos seniluziigu seniluziigus
+94	3594	faŭno	faŭnoj faŭnojn faŭnon
+95	3595	mediteranea	mediteraneaj mediteraneajn mediteranean
+96	3596	hebrea	hebreaj hebreajn hebrean
+97	3597	liro	liroj lirojn liron
+98	3598	prediki	predikanta predikantaj predikantajn predikantan predikante predikanto predikantoj predikas predikata predikataj predikatajn predikatan predikate predikato predikatoj predikatojn predikaton predikinta predikintaj predikintajn predikintan predikinte predikis predikita predikitaj predikitajn predikitan predikite predikonta predikontaj predikontajn predikontan predikonte predikos prediku predikus
+99	3599	drinkejo	drinkejoj drinkejojn drinkejon
+100	3600	modera	moderaj moderajn moderan

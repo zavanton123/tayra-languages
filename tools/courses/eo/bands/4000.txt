@@ -1,0 +1,100 @@
+1	3901	perforta	perfortaj perfortajn perfortan
+2	3902	senpaga	senpagaj senpagajn senpagan
+3	3903	saŭco	saŭcoj saŭcojn saŭcon
+4	3904	parazito	parazitoj parazitojn paraziton
+5	3905	ĉefepiskopo	ĉefepiskopoj ĉefepiskopojn ĉefepiskopon
+6	3906	dozo	dozoj dozojn dozon
+7	3907	gastiganto	gastigantoj gastigantojn gastiganton
+8	3908	lingvistiko	lingvistikoj lingvistikojn lingvistikon
+9	3909	arĝento	arĝentoj arĝentojn arĝenton
+10	3910	minimumo	minimumoj minimumojn minimumon
+11	3911	kavalerio	kavalerioj kavaleriojn kavalerion
+12	3912	kajo	kajoj kajojn kajon
+13	3913	italo	italoj italojn italon
+14	3914	revoki	revokanta revokantaj revokantajn revokantan revokante revokas revokata revokataj revokatajn revokatan revokate revokinta revokintaj revokintajn revokintan revokinte revokis revokita revokitaj revokitajn revokitan revokite revokonta revokontaj revokontajn revokontan revokonte revokos revoku revokus
+15	3915	buŝa	buŝaj buŝajn buŝan
+16	3916	grafika	grafikaj grafikajn grafikan
+17	3917	vazo	vazoj vazojn vazon
+18	3918	deponi	deponanta deponantaj deponantajn deponantan deponante deponanto deponantoj deponas deponata deponataj deponatajn deponatan deponate deponinta deponintaj deponintajn deponintan deponinte deponis deponita deponitaj deponitajn deponitan deponite depononta deponontaj deponontajn deponontan depononte deponos deponu deponus
+19	3919	fikcio	fikcioj fikciojn fikcion
+20	3920	malsukceso	malsukcesoj malsukcesojn malsukceson
+21	3921	kuratoro	kuratoroj kuratorojn kuratoron
+22	3922	konekti	konektanta konektantaj konektantajn konektantan konektante konektas konektata konektataj konektatajn konektatan konektate konektinta konektintaj konektintajn konektintan konektinte konektis konektita konektitaj konektitajn konektitan konektite konektonta konektontaj konektontajn konektontan konektonte konektos konektu konektus
+23	3923	enteni	entenanta entenantaj entenantajn entenantan entenante entenas entenata entenataj entenatajn entenatan entenate enteninta entenintaj entenintajn entenintan enteninte entenis entenita entenitaj entenitajn entenitan entenite entenonta entenontaj entenontajn entenontan entenonte entenos entenu entenus
+24	3924	diabla	diablaj diablajn diablan
+25	3925	paki	pakanta pakantaj pakantajn pakantan pakante pakas pakata pakataj pakatajn pakatan pakate pakinta pakintaj pakintajn pakintan pakinte pakis pakita pakitaj pakitajn pakitan pakite pakonta pakontaj pakontajn pakontan pakonte pakos paku pakus
+26	3926	flanke	
+27	3927	koko	kokoj kokojn kokon
+28	3928	nazia	naziaj naziajn nazian
+29	3929	televidilo	televidiloj televidilojn televidilon
+30	3930	angoro	angoroj angorojn angoron
+31	3931	pokalo	pokaloj pokalojn pokalon
+32	3932	rigida	rigidaj rigidajn rigidan
+33	3933	ĉiopova	ĉiopovaj ĉiopovajn ĉiopovan
+34	3934	lojala	lojalaj lojalajn lojalan
+35	3935	private	
+36	3936	konfeso	konfesoj konfesojn konfeson
+37	3937	infanterio	infanterioj infanteriojn infanterion
+38	3938	tropika	tropikaj tropikajn tropikan
+39	3939	blankulo	blankuloj blankulojn blankulon
+40	3940	profesiulo	profesiuloj profesiulojn profesiulon
+41	3941	funto	funtoj funtojn funton
+42	3942	lasero	laseroj laserojn laseron
+43	3943	samtempa	samtempaj samtempajn samtempan
+44	3944	portebla	porteblaj porteblajn porteblan
+45	3945	vodko	vodkoj vodkojn vodkon
+46	3946	elvoki	elvokanta elvokantaj elvokantajn elvokantan elvokante elvokas elvokata elvokataj elvokatajn elvokatan elvokate elvokinta elvokintaj elvokintajn elvokintan elvokinte elvokis elvokita elvokitaj elvokitajn elvokitan elvokite elvokonta elvokontaj elvokontajn elvokontan elvokonte elvokos elvoku elvokus
+47	3947	ade	
+48	3948	onidire	
+49	3949	venena	venenaj venenajn venenan
+50	3950	tradukisto	tradukistoj tradukistojn tradukiston
+51	3951	ebria	ebriaj ebriajn ebrian
+52	3952	beno	benoj benojn benon
+53	3953	teorie	
+54	3954	ambasado	ambasadoj ambasadojn ambasadon
+55	3955	fikcia	fikciaj fikciajn fikcian
+56	3956	multfoje	
+57	3957	kristala	kristalan
+58	3958	elstari	elstaranta elstarantaj elstarantajn elstarantan elstarante elstaranto elstaras elstarinta elstarintaj elstarintajn elstarintan elstarinte elstaris elstaronta elstarontaj elstarontajn elstarontan elstaronte elstaros elstaru elstarus
+59	3959	ploro	ploroj plorojn ploron
+60	3960	sciuro	sciuroj sciurojn sciuron
+61	3961	entuziasmo	entuziasmoj entuziasmojn entuziasmon
+62	3962	vigle	
+63	3963	kroni	kronanta kronantaj kronantajn kronantan kronante kronas kronata kronataj kronatajn kronatan kronate kroninta kronintaj kronintajn kronintan kroninte kronis kronita kronitaj kronitajn kronitan kronite krononta kronontaj kronontajn kronontan krononte kronos kronu kronus
+64	3964	jupo	jupoj jupojn jupon
+65	3965	vana	vanaj vanajn vanan
+66	3966	korno	kornoj kornojn kornon
+67	3967	kompili	kompilanta kompilantaj kompilantajn kompilantan kompilante kompilas kompilata kompilataj kompilatajn kompilatan kompilate kompilinta kompilintaj kompilintajn kompilintan kompilinte kompilis kompilita kompilitaj kompilitajn kompilitan kompilite kompilonta kompilontaj kompilontajn kompilontan kompilonte kompilos kompilu kompilus
+68	3968	prioritato	prioritatoj prioritatojn prioritaton
+69	3969	transformiĝi	transformiĝanta transformiĝantaj transformiĝantajn transformiĝantan transformiĝante transformiĝas transformiĝinta transformiĝintaj transformiĝintajn transformiĝintan transformiĝinte transformiĝis transformiĝonta transformiĝontaj transformiĝontajn transformiĝontan transformiĝonte transformiĝos transformiĝu transformiĝus
+70	3970	malalte	
+71	3971	malvenki	malvenkanta malvenkantaj malvenkantajn malvenkantan malvenkante malvenkas malvenkata malvenkataj malvenkatajn malvenkatan malvenkate malvenkinta malvenkintaj malvenkintajn malvenkintan malvenkinte malvenkis malvenkita malvenkitaj malvenkitajn malvenkitan malvenkite malvenkonta malvenkontaj malvenkontajn malvenkontan malvenkonte malvenkonto malvenkos malvenku malvenkus
+72	3972	amasigi	amasiganta amasigantaj amasigantajn amasigantan amasigante amasigas amasigata amasigataj amasigatajn amasigatan amasigate amasiginta amasigintaj amasigintajn amasigintan amasiginte amasigis amasigita amasigitaj amasigitajn amasigitan amasigite amasigonta amasigontaj amasigontajn amasigontan amasigonte amasigos amasigu amasigus
+73	3973	descendi	descendanta descendantaj descendantajn descendantan descendante descendanto descendantoj descendas descendinta descendintaj descendintajn descendintan descendinte descendis descendonta descendontaj descendontajn descendontan descendonte descendos descendu descendus
+74	3974	malbeni	malbenanta malbenantaj malbenantajn malbenantan malbenante malbenas malbenata malbenataj malbenatajn malbenatan malbenate malbeninta malbenintaj malbenintajn malbenintan malbeninte malbenis malbenitaj malbenitajn malbenitan malbenite malbenonta malbenontaj malbenontajn malbenontan malbenonte malbenos malbenu malbenus
+75	3975	jono	jonoj jonojn jonon
+76	3976	procesio	procesioj procesiojn procesion
+77	3977	simbola	simbolaj simbolajn simbolan
+78	3978	katino	katinoj katinojn katinon
+79	3979	maniko	manikoj manikojn manikon
+80	3980	kolizio	kolizioj koliziojn kolizion
+81	3981	duone	
+82	3982	dudeka	dudekaj dudekajn dudekan
+83	3983	manipulado	manipuladoj manipuladojn manipuladon
+84	3984	altigi	altiganta altigantaj altigantajn altigantan altigante altigas altigata altigataj altigatajn altigatan altigate altiginta altigintaj altigintajn altigintan altiginte altigis altigita altigitaj altigitajn altigitan altigite altigonta altigontaj altigontajn altigontan altigonte altigos altigu altigus
+85	3985	policano	policanoj policanojn policanon
+86	3986	akva	akvaj akvajn akvan
+87	3987	puŝo	puŝoj puŝojn puŝon
+88	3988	edziĝo	edziĝoj edziĝojn edziĝon
+89	3989	deci	decanta decantaj decantajn decantan decante decas decinta decintaj decintajn decintan decinte decis deconta decontaj decontajn decontan deconte decos decu decus
+90	3990	tendo	tendoj tendojn tendon
+91	3991	ekskluziva	ekskluzivaj ekskluzivajn ekskluzivan
+92	3992	vendredo	vendredoj vendredojn vendredon
+93	3993	municipa	municipaj municipajn municipan
+94	3994	apude	
+95	3995	sintezo	sintezoj sintezojn sintezon
+96	3996	reciproke	
+97	3997	furioza	furiozaj furiozajn furiozan
+98	3998	inflacio	inflacioj inflaciojn inflacion
+99	3999	tiama	tiamaj tiamajn tiaman
+100	4000	manĝejo	manĝejoj manĝejojn manĝejon

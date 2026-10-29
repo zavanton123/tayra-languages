@@ -1,0 +1,100 @@
+1	7701	akordiĝi	akordiĝanta akordiĝantaj akordiĝantajn akordiĝantan akordiĝante akordiĝas akordiĝinta akordiĝintaj akordiĝintajn akordiĝintan akordiĝinte akordiĝis akordiĝonta akordiĝontaj akordiĝontajn akordiĝontan akordiĝonte akordiĝos akordiĝu akordiĝus
+2	7702	estimo	estimoj estimojn estimon
+3	7703	ĝisnuna	ĝisnunaj ĝisnunajn ĝisnunan
+4	7704	falango	falangoj falangojn falangon
+5	7705	poŝtejo	poŝtejoj poŝtejojn poŝtejon
+6	7706	norena	norenaj norenajn norenan
+7	7707	satira	satiraj satirajn satiran
+8	7708	enklavo	enklavoj enklavojn enklavon
+9	7709	pupilo	pupiloj pupilojn pupilon
+10	7710	laŭtparolilo	laŭtparoliloj laŭtparolilojn laŭtparolilon
+11	7711	anestezo	anestezoj anestezojn anestezon
+12	7712	dioksido	dioksidoj dioksidojn dioksidon
+13	7713	riverbordo	riverbordoj riverbordojn riverbordon
+14	7714	pajlo	pajloj pajlojn pajlon
+15	7715	kurioze	
+16	7716	feĉo	feĉoj feĉojn feĉon
+17	7717	kovarda	kovardaj kovardajn kovardan
+18	7718	sepulti	sepultanta sepultantaj sepultantajn sepultantan sepultante sepultas sepultata sepultataj sepultatajn sepultatan sepultate sepultinta sepultintaj sepultintajn sepultintan sepultinte sepultis sepultita sepultitaj sepultitajn sepultitan sepultite sepultonta sepultontaj sepultontajn sepultontan sepultonte sepultos sepultu sepultus
+19	7719	trinketi	trinketanta trinketantaj trinketantajn trinketantan trinketante trinketas trinketinta trinketintaj trinketintajn trinketintan trinketinte trinketis trinketonta trinketontaj trinketontajn trinketontan trinketonte trinketos trinketu trinketus
+20	7720	turkisa	turkisaj turkisajn turkisan
+21	7721	skandale	
+22	7722	fuŝa	fuŝaj fuŝajn fuŝan
+23	7723	primo	primoj primojn primon
+24	7724	asekuri	asekuranta asekurantaj asekurantajn asekurantan asekurante asekuras asekurata asekurataj asekuratajn asekuratan asekurate asekurinta asekurintaj asekurintajn asekurintan asekurinte asekuris asekurita asekuritaj asekuritajn asekuritan asekurite asekuronta asekurontaj asekurontajn asekurontan asekuronte asekuros asekuru asekurus
+25	7725	amaskomunikilo	amaskomunikiloj amaskomunikilojn amaskomunikilon
+26	7726	postkuro	postkuroj postkurojn postkuron
+27	7727	drenilo	dreniloj drenilojn drenilon
+28	7728	ĵetono	ĵetonoj ĵetonojn ĵetonon
+29	7729	kunligo	kunligoj kunligojn kunligon
+30	7730	kosta	kostaj kostajn kostan
+31	7731	milio	milioj miliojn milion
+32	7732	sabotanto	sabotantoj sabotantojn sabotanton
+33	7733	celerio	celerioj celeriojn celerion
+34	7734	mensogado	mensogadoj mensogadojn mensogadon
+35	7735	frida	fridaj fridajn fridan
+36	7736	praarbaro	praarbaroj praarbarojn praarbaron
+37	7737	korseto	korsetoj korsetojn korseton
+38	7738	slipo	slipoj slipojn slipon
+39	7739	plejmulte	
+40	7740	iufoje	
+41	7741	naiveco	naivecoj naivecojn naivecon
+42	7742	sati	satanta satantaj satantajn satantan satante satas satinta satintaj satintajn satintan satinte satis satonta satontaj satontajn satontan satonte satos satu satus
+43	7743	sani	sananta sanantaj sanantajn sanantan sanante sanas saninta sanintaj sanintajn sanintan saninte sanis sanonta sanontaj sanontajn sanontan sanonte sanos sanu sanus
+44	7744	frumatene	
+45	7745	kredebla	kredeblaj kredeblajn kredeblan
+46	7746	kontraŭfaŝisto	kontraŭfaŝistoj kontraŭfaŝistojn kontraŭfaŝiston
+47	7747	enprizonigi	enprizoniganta enprizonigantaj enprizonigantajn enprizonigantan enprizonigante enprizonigas enprizonigata enprizonigataj enprizonigatajn enprizonigatan enprizonigate enprizoniginta enprizonigintaj enprizonigintajn enprizonigintan enprizoniginte enprizonigis enprizonigita enprizonigitaj enprizonigitajn enprizonigitan enprizonigite enprizonigonta enprizonigontaj enprizonigontajn enprizonigontan enprizonigonte enprizonigos enprizonigu enprizonigus
+48	7748	mankateno	mankatenoj mankatenojn mankatenon
+49	7749	breĉo	breĉoj breĉojn breĉon
+50	7750	anso	ansoj ansojn anson
+51	7751	alilanda	alilandaj alilandajn alilandan
+52	7752	lakeo	lakeoj lakeojn lakeon
+53	7753	ĉokolada	ĉokoladaj ĉokoladajn ĉokoladan
+54	7754	naztruo	naztruoj naztruojn naztruon
+55	7755	profundiĝi	profundiĝanta profundiĝantaj profundiĝantajn profundiĝantan profundiĝante profundiĝas profundiĝinta profundiĝintaj profundiĝintajn profundiĝintan profundiĝinte profundiĝis profundiĝonta profundiĝontaj profundiĝontajn profundiĝontan profundiĝonte profundiĝos profundiĝu profundiĝus
+56	7756	kurioza	kuriozaj kuriozajn kuriozan
+57	7757	fajrero	fajreroj fajrerojn fajreron
+58	7758	mandolino	mandolinoj mandolinojn mandolinon
+59	7759	glisi	glisanta glisantaj glisantajn glisantan glisante glisas glisinta glisintaj glisintajn glisintan glisinte glisis glisonta glisontaj glisontajn glisontan glisonte glisos glisu glisus
+60	7760	morale	
+61	7761	borso	borsoj borsojn borson
+62	7762	ekvatora	ekvatoraj ekvatorajn ekvatoran
+63	7763	veziro	veziroj vezirojn veziron
+64	7764	naziismo	naziismoj naziismojn naziismon
+65	7765	mondpokalo	mondpokaloj mondpokalojn mondpokalon
+66	7766	amare	
+67	7767	humileco	humilecoj humilecojn humilecon
+68	7768	mistikulo	mistikuloj mistikulojn mistikulon
+69	7769	orgeno	orgenoj orgenojn orgenon
+70	7770	plandumo	plandumoj plandumojn plandumon
+71	7771	akrobato	akrobatoj akrobatojn akrobaton
+72	7772	mankateni	mankatenanta mankatenantaj mankatenantajn mankatenantan mankatenante mankatenas mankatenata mankatenataj mankatenatajn mankatenatan mankatenate mankateninta mankatenintaj mankatenintajn mankatenintan mankateninte mankatenis mankatenita mankatenitaj mankatenitajn mankatenitan mankatenite mankatenonta mankatenontaj mankatenontajn mankatenontan mankatenonte mankatenos mankatenu mankatenus
+73	7773	verdo	verdoj verdojn verdon
+74	7774	doganejo	doganejoj doganejojn doganejon
+75	7775	internaĵo	internaĵoj internaĵojn internaĵon
+76	7776	frateto	fratetoj fratetojn frateton
+77	7777	implikiĝi	implikiĝanta implikiĝantaj implikiĝantajn implikiĝantan implikiĝante implikiĝas implikiĝinta implikiĝintaj implikiĝintajn implikiĝintan implikiĝinte implikiĝis implikiĝonta implikiĝontaj implikiĝontajn implikiĝontan implikiĝonte implikiĝos implikiĝu implikiĝus
+78	7778	ĵonglisto	ĵonglistoj ĵonglistojn ĵongliston
+79	7779	kurbiĝi	kurbiĝanta kurbiĝantaj kurbiĝantajn kurbiĝantan kurbiĝante kurbiĝas kurbiĝinta kurbiĝintaj kurbiĝintajn kurbiĝintan kurbiĝinte kurbiĝis kurbiĝonta kurbiĝontaj kurbiĝontajn kurbiĝontan kurbiĝonte kurbiĝos kurbiĝu kurbiĝus
+80	7780	pripenso	pripensoj pripensojn pripenson
+81	7781	formikejo	formikejoj formikejojn formikejon
+82	7782	snobo	snoboj snobojn snobon
+83	7783	artiŝoko	artiŝokoj artiŝokojn artiŝokon
+84	7784	malsupro	malsuproj malsuprojn malsupron
+85	7785	ekrigardi	ekrigardanta ekrigardantaj ekrigardantajn ekrigardantan ekrigardante ekrigardas ekrigardinta ekrigardintaj ekrigardintajn ekrigardintan ekrigardinte ekrigardis ekrigardonta ekrigardontaj ekrigardontajn ekrigardontan ekrigardonte ekrigardos ekrigardu ekrigardus
+86	7786	alibio	alibioj alibiojn alibion
+87	7787	umo	umoj umojn umon
+88	7788	tintilo	tintiloj tintilojn tintilon
+89	7789	vivigi	viviganta vivigantaj vivigantajn vivigantan vivigante vivigas vivigata vivigataj vivigatajn vivigatan vivigate viviginta vivigintaj vivigintajn vivigintan viviginte vivigis vivigita vivigitaj vivigitajn vivigitan vivigite vivigonta vivigontaj vivigontajn vivigontan vivigonte vivigos vivigu vivigus
+90	7790	blufi	blufanta blufantaj blufantajn blufantan blufante blufas blufinta blufintaj blufintajn blufintan blufinte blufis blufonta blufontaj blufontajn blufontan blufonte blufos blufu blufus
+91	7791	majstroverko	majstroverkoj majstroverkojn majstroverkon
+92	7792	ludisto	ludistoj ludistojn ludiston
+93	7793	flugmaŝino	flugmaŝinoj flugmaŝinojn flugmaŝinon
+94	7794	eksigi	eksiganta eksigantaj eksigantajn eksigantan eksigante eksigas eksigata eksigataj eksigatajn eksigatan eksigate eksiginta eksigintaj eksigintajn eksigintan eksiginte eksigis eksigita eksigitaj eksigitajn eksigitan eksigite eksigonta eksigontaj eksigontajn eksigontan eksigonte eksigos eksigu eksigus
+95	7795	emocie	
+96	7796	marmoro	marmoroj marmorojn marmoron
+97	7797	patriarkeco	patriarkecoj patriarkecojn patriarkecon
+98	7798	darmo	darmoj darmojn darmon
+99	7799	fasti	fastanta fastantaj fastantajn fastantan fastante fastas fastinta fastintaj fastintajn fastintan fastinte fastis fastonta fastontaj fastontajn fastontan fastonte fastos fastu fastus
+100	7800	disciplina	disciplinaj disciplinajn disciplinan

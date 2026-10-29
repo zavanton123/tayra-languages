@@ -1,0 +1,100 @@
+1	2501	kamparo	kamparoj kamparojn kamparon
+2	2502	interno	internoj internojn internon
+3	2503	torto	tortoj tortojn torton
+4	2504	magio	magioj magiojn magion
+5	2505	tiele	
+6	2506	skui	skuanta skuantaj skuantajn skuantan skuante skuas skuata skuataj skuatajn skuatan skuate skuinta skuintaj skuintajn skuintan skuinte skuis skuita skuitaj skuitajn skuitan skuite skuonta skuontaj skuontajn skuontan skuonte skuos skuu skuus
+7	2507	retrovi	retrovanta retrovantaj retrovantajn retrovantan retrovante retrovas retrovata retrovataj retrovatajn retrovatan retrovate retrovinta retrovintaj retrovintajn retrovintan retrovinte retrovis retrovita retrovitaj retrovitajn retrovitan retrovite retrovonta retrovontaj retrovontajn retrovontan retrovonte retrovos retrovu retrovus
+8	2508	amplekso	ampleksoj ampleksojn amplekson
+9	2509	alkutimiĝi	alkutimiĝanta alkutimiĝantaj alkutimiĝantajn alkutimiĝantan alkutimiĝante alkutimiĝas alkutimiĝinta alkutimiĝintaj alkutimiĝintajn alkutimiĝintan alkutimiĝinte alkutimiĝis alkutimiĝonta alkutimiĝontaj alkutimiĝontajn alkutimiĝontan alkutimiĝonte alkutimiĝos alkutimiĝu alkutimiĝus
+10	2510	aŭtomata	aŭtomataj aŭtomatajn aŭtomatan
+11	2511	amikino	amikinoj amikinojn amikinon
+12	2512	satelito	satelitoj satelitojn sateliton
+13	2513	salo	saloj salojn salon
+14	2514	gvidado	gvidadoj gvidadojn gvidadon
+15	2515	bonkora	bonkoraj bonkorajn bonkoran
+16	2516	ekzerci	ekzercanta ekzercantaj ekzercantajn ekzercantan ekzercante ekzercas ekzercata ekzercataj ekzercatajn ekzercatan ekzercate ekzercinta ekzercintaj ekzercintajn ekzercintan ekzercinte ekzercis ekzercita ekzercitaj ekzercitajn ekzercitan ekzercite ekzerconta ekzercontaj ekzercontajn ekzercontan ekzerconte ekzercos ekzercu ekzercus
+17	2517	sperta	spertaj spertajn spertan
+18	2518	postvivi	postvivanta postvivantaj postvivantajn postvivantan postvivante postvivanto postvivas postvivata postvivataj postvivatajn postvivatan postvivate postvivinta postvivintaj postvivintajn postvivintan postvivinte postvivis postvivita postvivitaj postvivitajn postvivitan postvivite postvivonta postvivontaj postvivontajn postvivontan postvivonte postvivos postvivu postvivus
+19	2519	simptomo	simptomoj simptomojn simptomon
+20	2520	matematika	matematikaj matematikajn matematikan
+21	2521	translokiĝi	translokiĝanta translokiĝantaj translokiĝantajn translokiĝantan translokiĝante translokiĝas translokiĝinta translokiĝintaj translokiĝintajn translokiĝintan translokiĝinte translokiĝis translokiĝonta translokiĝontaj translokiĝontajn translokiĝontan translokiĝonte translokiĝos translokiĝu translokiĝus
+22	2522	konfiski	konfiskanta konfiskantaj konfiskantajn konfiskantan konfiskante konfiskas konfiskata konfiskataj konfiskatajn konfiskatan konfiskate konfiskinta konfiskintaj konfiskintajn konfiskintan konfiskinte konfiskis konfiskita konfiskitaj konfiskitajn konfiskitan konfiskite konfiskonta konfiskontaj konfiskontajn konfiskontan konfiskonte konfiskos konfiskotaj konfisku konfiskus
+23	2523	poŝto	poŝtoj poŝtojn poŝton
+24	2524	interalie	
+25	2525	norde	
+26	2526	ĝojo	ĝojoj ĝojojn ĝojon
+27	2527	transpreni	transprenanta transprenantaj transprenantajn transprenantan transprenante transprenas transprenata transprenataj transprenatajn transprenatan transprenate transpreninta transprenintaj transprenintajn transprenintan transpreninte transprenis transprenita transprenitaj transprenitajn transprenitan transprenite transprenonta transprenontaj transprenontajn transprenontan transprenonte transprenos transprenu transprenus
+28	2528	urbestro	urbestroj urbestrojn urbestron
+29	2529	bravulo	bravuloj bravulojn bravulon
+30	2530	proteino	proteinoj proteinojn proteinon
+31	2531	tutaĵo	tutaĵoj tutaĵojn tutaĵon
+32	2532	lerta	lertaj lertajn lertan
+33	2533	enirejo	enirejoj enirejojn enirejon
+34	2534	akcio	akcioj akciojn akcion
+35	2535	minimuma	minimumaj minimumajn minimuman
+36	2536	pritrakti	pritraktanta pritraktantaj pritraktantajn pritraktantan pritraktante pritraktas pritraktata pritraktataj pritraktatajn pritraktatan pritraktate pritraktinta pritraktintaj pritraktintajn pritraktintan pritraktinte pritraktis pritraktita pritraktitaj pritraktitajn pritraktitan pritraktite pritraktonta pritraktontaj pritraktontajn pritraktontan pritraktonte pritraktos pritraktu pritraktus
+37	2537	migri	migranta migrantaj migrantajn migrantan migrante migranto migrantoj migrantojn migranton migras migrinta migrintaj migrintajn migrintan migrinte migris migronta migrontaj migrontajn migrontan migronte migros migru migrus
+38	2538	oksigeno	oksigenoj oksigenojn oksigenon
+39	2539	ŝarĝi	ŝarĝanta ŝarĝantaj ŝarĝantajn ŝarĝantan ŝarĝante ŝarĝas ŝarĝata ŝarĝataj ŝarĝatajn ŝarĝatan ŝarĝate ŝarĝinta ŝarĝintaj ŝarĝintajn ŝarĝintan ŝarĝinte ŝarĝis ŝarĝita ŝarĝitaj ŝarĝitajn ŝarĝitan ŝarĝite ŝarĝonta ŝarĝontaj ŝarĝontajn ŝarĝontan ŝarĝonte ŝarĝos ŝarĝu ŝarĝus
+40	2540	feliĉi	feliĉanta feliĉantaj feliĉantajn feliĉantan feliĉante feliĉas feliĉinta feliĉintaj feliĉintajn feliĉintan feliĉinte feliĉis feliĉonta feliĉontaj feliĉontajn feliĉontan feliĉonte feliĉos feliĉu feliĉus
+41	2541	silentiĝi	silentiĝanta silentiĝantaj silentiĝantajn silentiĝantan silentiĝante silentiĝas silentiĝinta silentiĝintaj silentiĝintajn silentiĝintan silentiĝinte silentiĝis silentiĝonta silentiĝontaj silentiĝontajn silentiĝontan silentiĝonte silentiĝos silentiĝu silentiĝus
+42	2542	apartamento	apartamentoj apartamentojn apartamenton
+43	2543	kapitulaci	kapitulacanta kapitulacantaj kapitulacantajn kapitulacantan kapitulacante kapitulacas kapitulacata kapitulacataj kapitulacatajn kapitulacatan kapitulacate kapitulacinta kapitulacintaj kapitulacintajn kapitulacintan kapitulacinte kapitulacis kapitulacita kapitulacitaj kapitulacitajn kapitulacitan kapitulacite kapitulaconta kapitulacontaj kapitulacontajn kapitulacontan kapitulaconte kapitulacos kapitulacu kapitulacus
+44	2544	gazetaro	gazetaroj gazetarojn gazetaron
+45	2545	ĉirkaŭe	
+46	2546	paralela	paralelaj paralelajn paralelan
+47	2547	volumeno	volumenoj volumenojn volumenon
+48	2548	mona	monaj monajn monan
+49	2549	tensio	tensioj tensiojn tension
+50	2550	volumo	volumoj volumojn volumon
+51	2551	globo	globoj globojn globon
+52	2552	aprezi	aprezanta aprezantaj aprezantajn aprezantan aprezante aprezas aprezata aprezataj aprezatajn aprezatan aprezate aprezinta aprezintaj aprezintajn aprezintan aprezinte aprezis aprezita aprezitaj aprezitajn aprezitan aprezite aprezonta aprezontaj aprezontajn aprezontan aprezonte aprezos aprezu aprezus
+53	2553	onklino	onklinoj onklinojn onklinon
+54	2554	ŝtelisto	ŝtelistoj ŝtelistojn ŝteliston
+55	2555	trono	tronoj tronojn tronon
+56	2556	lukto	luktoj luktojn lukton
+57	2557	konverti	konvertanta konvertantaj konvertantajn konvertantan konvertante konvertas konvertata konvertataj konvertatajn konvertatan konvertate konvertinta konvertintaj konvertintajn konvertintan konvertinte konvertis konvertita konvertitaj konvertitajn konvertitan konvertite konvertito konvertitoj konvertitojn konvertiton konvertonta konvertontaj konvertontajn konvertontan konvertonte konvertos konvertu konvertus
+58	2558	ministerio	ministerioj ministeriojn ministerion
+59	2559	aventuro	aventuroj aventurojn aventuron
+60	2560	efektivigo	efektivigoj efektivigojn efektivigon
+61	2561	densa	densaj densajn densan
+62	2562	rizo	rizoj rizojn rizon
+63	2563	azia	aziaj aziajn azian
+64	2564	ĉirkaŭa	ĉirkaŭaj ĉirkaŭajn ĉirkaŭan
+65	2565	peze	
+66	2566	pafado	pafadoj pafadojn pafadon
+67	2567	dependa	dependaj dependajn dependan
+68	2568	aŭtomobilo	aŭtomobiloj aŭtomobilojn aŭtomobilon
+69	2569	sporto	sportoj sportojn sporton
+70	2570	gajno	gajnoj gajnojn gajnon
+71	2571	ilustri	ilustranta ilustrantaj ilustrantajn ilustrantan ilustrante ilustras ilustrata ilustrataj ilustratajn ilustratan ilustrate ilustrinta ilustrintaj ilustrintajn ilustrintan ilustrinte ilustris ilustrita ilustritaj ilustritajn ilustritan ilustrite ilustronta ilustrontaj ilustrontajn ilustrontan ilustronte ilustros ilustru ilustrus
+72	2572	interagado	interagadoj interagadojn interagadon
+73	2573	forpasi	forpasanta forpasantaj forpasantajn forpasantan forpasante forpasas forpasinta forpasintaj forpasintajn forpasintan forpasinte forpasis forpasonta forpasontaj forpasontajn forpasontan forpasonte forpasos forpasu forpasus
+74	2574	korekti	korektanta korektantaj korektantajn korektantan korektante korektas korektata korektataj korektatajn korektatan korektate korektinta korektintaj korektintajn korektintan korektinte korektis korektita korektitaj korektitajn korektitan korektite korektonta korektontaj korektontajn korektontan korektonte korektos korektu korektus
+75	2575	raketo	raketoj raketojn raketon
+76	2576	maljunulino	maljunulinoj maljunulinojn maljunulinon
+77	2577	adori	adoranta adorantaj adorantajn adorantan adorante adorantoj adorantojn adoranton adoras adorata adorataj adoratajn adoratan adorate adorinta adorintaj adorintajn adorintan adorinte adoris adorita adoritaj adoritajn adoritan adorite adoronta adorontaj adorontajn adorontan adoronte adoros adoru adorus
+78	2578	kapitalo	kapitaloj kapitalojn kapitalon
+79	2579	virgulino	virgulinoj virgulinojn virgulinon
+80	2580	proporcio	proporcioj proporciojn proporcion
+81	2581	pakaĵo	pakaĵoj pakaĵojn pakaĵon
+82	2582	servisto	servistoj servistojn serviston
+83	2583	skipo	skipoj skipojn skipon
+84	2584	tera	teraj terajn teran
+85	2585	detala	detalaj detalajn detalan
+86	2586	kvadrata	kvadrataj kvadratajn kvadratan
+87	2587	geografia	geografiaj geografiajn geografian
+88	2588	tombejo	tombejoj tombejojn tombejon
+89	2589	orbito	orbitoj orbitojn orbiton
+90	2590	aha	
+91	2591	kadavro	kadavroj kadavrojn kadavron
+92	2592	peno	penoj penojn penon
+93	2593	samo	samoj samojn samon
+94	2594	ĝoja	ĝojaj ĝojajn ĝojan
+95	2595	elirejo	elirejoj elirejojn elirejon
+96	2596	nuklea	nukleaj nukleajn nuklean
+97	2597	guto	gutoj gutojn guton
+98	2598	ripozo	ripozoj ripozojn ripozon
+99	2599	glavo	glavoj glavojn glavon
+100	2600	fundo	fundoj fundojn fundon

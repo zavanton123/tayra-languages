@@ -1,0 +1,100 @@
+1	6301	ekstravaganca	ekstravagancaj ekstravagancajn ekstravagancan
+2	6302	maltrankvilo	maltrankviloj maltrankvilojn maltrankvilon
+3	6303	patroneco	patronecoj patronecojn patronecon
+4	6304	elektrolito	elektrolitoj elektrolitojn elektroliton
+5	6305	rakonta	rakontaj rakontajn rakontan
+6	6306	baso	basoj basojn bason
+7	6307	subtegmento	subtegmentoj subtegmentojn subtegmenton
+8	6308	gracia	graciaj graciajn gracian
+9	6309	leda	ledaj ledajn ledan
+10	6310	distrikta	distriktaj distriktajn distriktan
+11	6311	markolo	markoloj markolojn markolon
+12	6312	panei	paneanta paneantaj paneantajn paneantan paneante paneas paneinta paneintaj paneintajn paneintan paneinte paneis paneonta paneontaj paneontajn paneontan paneonte paneos paneu paneus
+13	6313	katolikismo	katolikismoj katolikismojn katolikismon
+14	6314	balbuti	balbutanta balbutantaj balbutantajn balbutantan balbutante balbutas balbutinta balbutintaj balbutintajn balbutintan balbutinte balbutis balbutonta balbutontaj balbutontajn balbutontan balbutonte balbutos balbutu balbutus
+15	6315	jardo	jardoj jardojn jardon
+16	6316	atingebla	atingeblaj atingeblajn atingeblan
+17	6317	tragedia	tragediaj tragediajn tragedian
+18	6318	neorganika	neorganikaj neorganikajn neorganikan
+19	6319	baziliko	bazilikoj bazilikojn bazilikon
+20	6320	erupcio	erupcioj erupciojn erupcion
+21	6321	mikroskopa	mikroskopaj mikroskopajn mikroskopan
+22	6322	nimfo	nimfoj nimfojn nimfon
+23	6323	ĉiumonate	
+24	6324	putra	putraj putrajn putran
+25	6325	monbileto	monbiletoj monbiletojn monbileton
+26	6326	herezulo	herezuloj herezulojn herezulon
+27	6327	amfibia	amfibiaj amfibiajn amfibian
+28	6328	sudoriento	sudorientoj sudorientojn sudorienton
+29	6329	betono	betonoj betonojn betonon
+30	6330	aerfluo	aerfluoj aerfluojn aerfluon
+31	6331	teleskopo	teleskopoj teleskopojn teleskopon
+32	6332	anatomia	anatomiaj anatomiajn anatomian
+33	6333	veterprognozo	veterprognozoj veterprognozojn veterprognozon
+34	6334	dek-dua	dekdua dekduaj
+35	6335	malsekigi	malsekiganta malsekigantaj malsekigantajn malsekigantan malsekigante malsekigas malsekigata malsekigataj malsekigatajn malsekigatan malsekigate malsekiginta malsekigintaj malsekigintajn malsekigintan malsekiginte malsekigis malsekigita malsekigitaj malsekigitajn malsekigitan malsekigite malsekigonta malsekigontaj malsekigontajn malsekigontan malsekigonte malsekigos malsekigu malsekigus
+36	6336	meteorito	meteoritoj meteoritojn meteoriton
+37	6337	maĉi	maĉanta maĉantaj maĉantajn maĉantan maĉante maĉas maĉinta maĉintaj maĉintajn maĉintan maĉinte maĉis maĉonta maĉontaj maĉontajn maĉontan maĉonte maĉos maĉu maĉus
+38	6338	sorĉado	sorĉadoj sorĉadojn sorĉadon
+39	6339	pasvorto	pasvortoj pasvortojn pasvorton
+40	6340	salmo	salmoj salmojn salmon
+41	6341	telegrafo	telegrafoj telegrafojn telegrafon
+42	6342	parkejo	parkejoj parkejojn parkejon
+43	6343	digesti	digestanta digestantaj digestantajn digestantan digestante digestas digestata digestataj digestatajn digestatan digestate digestinta digestintaj digestintajn digestintan digestinte digestis digestita digestitaj digestitajn digestitan digestite digestonta digestontaj digestontajn digestontan digestonte digestos digestu digestus
+44	6344	malmoderna	malmodernaj malmodernajn malmodernan
+45	6345	apogo	apogoj apogojn apogon
+46	6346	arterio	arterioj arteriojn arterion
+47	6347	kosmonaŭto	kosmonaŭtoj kosmonaŭtojn kosmonaŭton
+48	6348	rezoni	rezonanta rezonantaj rezonantajn rezonantan rezonante rezonas rezoninta rezonintaj rezonintajn rezonintan rezoninte rezonis rezononta rezonontaj rezonontajn rezonontan rezononte rezonos rezonu rezonus
+49	6349	kolao	kolaoj kolaojn kolaon
+50	6350	agadi	agadanta agadantaj agadantajn agadantan agadante agadas agadinta agadintaj agadintajn agadintan agadinte agadis agadonta agadontaj agadontajn agadontan agadonte agados agadu agadus
+51	6351	memregado	memregadoj memregadojn memregadon
+52	6352	halucino	halucinoj halucinojn halucinon
+53	6353	spico	spicoj spicojn spicon
+54	6354	kondamno	kondamnoj kondamnojn kondamnon
+55	6355	stereotipo	stereotipoj stereotipojn stereotipon
+56	6356	malsovaĝigi	malsovaĝiganta malsovaĝigantaj malsovaĝigantajn malsovaĝigantan malsovaĝigante malsovaĝiganto malsovaĝigas malsovaĝigata malsovaĝigataj malsovaĝigatajn malsovaĝigatan malsovaĝigate malsovaĝiginta malsovaĝigintaj malsovaĝigintajn malsovaĝigintan malsovaĝiginte malsovaĝigis malsovaĝigita malsovaĝigitaj malsovaĝigitajn malsovaĝigitan malsovaĝigite malsovaĝigonta malsovaĝigontaj malsovaĝigontajn malsovaĝigontan malsovaĝigonte malsovaĝigos malsovaĝigu malsovaĝigus
+57	6357	astro	astroj astrojn astron
+58	6358	sali	salanta salantaj salantajn salantan salante salas salata salataj salatajn salatan salate salatoj salatojn salaton salinta salintaj salintajn salintan salinte salis salita salitaj salitajn salitan salite salonta salontaj salontajn salontan salonte salos salu salus
+59	6359	praktikado	praktikadoj praktikadojn praktikadon
+60	6360	ontologio	ontologioj ontologiojn ontologion
+61	6361	genetiko	genetikoj genetikojn genetikon
+62	6362	flue	
+63	6363	vendrede	
+64	6364	altestimi	altestimanta altestimantaj altestimantajn altestimantan altestimante altestimas altestimata altestimataj altestimatajn altestimatan altestimate altestiminta altestimintaj altestimintajn altestimintan altestiminte altestimis altestimita altestimitaj altestimitajn altestimitan altestimite altestimonta altestimontaj altestimontajn altestimontan altestimonte altestimos altestimu altestimus
+65	6365	humaneco	humanecoj humanecojn humanecon
+66	6366	ŝarĝaŭto	ŝarĝaŭtoj ŝarĝaŭtojn ŝarĝaŭton
+67	6367	kokaĵo	kokaĵoj kokaĵojn kokaĵon
+68	6368	malaja	malajaj malajajn malajan
+69	6369	maŝinpafilo	maŝinpafiloj maŝinpafilojn maŝinpafilon
+70	6370	ŝaho	ŝahoj ŝahojn ŝahon
+71	6371	vikinga	vikingaj vikingajn vikingan
+72	6372	modeste	
+73	6373	telefona	telefonaj telefonajn telefonan
+74	6374	ekzercado	ekzercadoj ekzercadojn ekzercadon
+75	6375	leksikono	leksikonoj leksikonojn leksikonon
+76	6376	antologio	antologioj antologiojn antologion
+77	6377	unuflanke	
+78	6378	alarmi	alarmanta alarmantaj alarmantajn alarmantan alarmante alarmas alarminta alarmintaj alarmintajn alarmintan alarminte alarmis alarmonta alarmontaj alarmontajn alarmontan alarmonte alarmos alarmu alarmus
+79	6379	refreŝigi	refreŝiganta refreŝigantaj refreŝigantajn refreŝigantan refreŝigante refreŝigas refreŝigata refreŝigataj refreŝigatajn refreŝigatan refreŝigate refreŝiginta refreŝigintaj refreŝigintajn refreŝigintan refreŝiginte refreŝigis refreŝigita refreŝigitaj refreŝigitajn refreŝigitan refreŝigite refreŝigonta refreŝigontaj refreŝigontajn refreŝigontan refreŝigonte refreŝigos refreŝigu refreŝigus
+80	6380	sennombra	sennombraj sennombrajn sennombran
+81	6381	kota	kotaj kotajn kotan
+82	6382	frata	frataj fratajn fratan
+83	6383	brile	
+84	6384	krucumi	krucumanta krucumantaj krucumantajn krucumantan krucumante krucumas krucumata krucumataj krucumatajn krucumatan krucumate krucuminta krucumintaj krucumintajn krucumintan krucuminte krucumis krucumita krucumitaj krucumitajn krucumitan krucumite krucumonta krucumontaj krucumontajn krucumontan krucumonte krucumos krucumu krucumus
+85	6385	lukso	luksoj luksojn lukson
+86	6386	kompetenta	kompetentaj kompetentajn kompetentan
+87	6387	diskriminacii	diskriminacianta diskriminaciantaj diskriminaciantajn diskriminaciantan diskriminaciante diskriminacias diskriminaciata diskriminaciataj diskriminaciatajn diskriminaciatan diskriminaciate diskriminaciinta diskriminaciintaj diskriminaciintajn diskriminaciintan diskriminaciinte diskriminaciis diskriminaciita diskriminaciitaj diskriminaciitajn diskriminaciitan diskriminaciite diskriminacionta diskriminaciontaj diskriminaciontajn diskriminaciontan diskriminacionte diskriminacios diskriminaciu diskriminacius
+88	6388	glando	glandoj glandojn glandon
+89	6389	tutmondiĝo	tutmondiĝoj tutmondiĝojn tutmondiĝon
+90	6390	kvarangulo	kvaranguloj kvarangulojn kvarangulon
+91	6391	anglikana	anglikanaj anglikanajn anglikanan
+92	6392	kalva	kalvaj kalvajn kalvan
+93	6393	dormeto	dormetoj dormetojn dormeton
+94	6394	unuanime	
+95	6395	svelta	sveltaj sveltajn sveltan
+96	6396	bovaĵo	bovaĵoj bovaĵojn bovaĵon
+97	6397	metropolo	metropoloj metropolojn metropolon
+98	6398	scivolema	scivolemaj scivolemajn scivoleman
+99	6399	mandareno	mandarenoj mandarenojn mandarenon
+100	6400	loĝloko	loĝlokoj loĝlokojn loĝlokon

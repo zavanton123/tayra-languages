@@ -1,0 +1,100 @@
+1	6101	hipoteza	hipotezaj hipotezajn hipotezan
+2	6102	vato	vatoj vatojn vaton
+3	6103	perpendikulara	perpendikularaj perpendikularajn perpendikularan
+4	6104	merkredo	merkredoj merkredojn merkredon
+5	6105	neado	neadoj neadojn neadon
+6	6106	participo	participoj participojn participon
+7	6107	mezgranda	mezgrandaj mezgrandajn mezgrandan
+8	6108	bruado	bruadoj bruadojn bruadon
+9	6109	onikso	oniksoj oniksojn onikson
+10	6110	narciso	narcisoj narcisojn narcison
+11	6111	improvizi	improvizanta improvizantaj improvizantajn improvizantan improvizante improvizas improvizata improvizataj improvizatajn improvizatan improvizate improvizinta improvizintaj improvizintajn improvizintan improvizinte improvizis improvizita improvizitaj improvizitajn improvizitan improvizite improvizonta improvizontaj improvizontajn improvizontan improvizonte improvizos improvizu improvizus
+12	6112	degeneri	degeneranta degenerantaj degenerantajn degenerantan degenerante degeneras degenerinta degenerintaj degenerintajn degenerintan degenerinte degeneris degeneronta degenerontaj degenerontajn degenerontan degeneronte degeneros degeneru degenerus
+13	6113	decide	
+14	6114	irlandano	irlandanoj irlandanojn irlandanon
+15	6115	ŝimo	ŝimoj ŝimojn ŝimon
+16	6116	cenzuro	cenzuroj cenzurojn cenzuron
+17	6117	papago	papagoj papagojn papagon
+18	6118	dizerti	dizertanta dizertantaj dizertantajn dizertantan dizertante dizertas dizertinta dizertintaj dizertintajn dizertintan dizertinte dizertinto dizertintoj dizertintojn dizertis dizertonta dizertontaj dizertontajn dizertontan dizertonte dizertos dizertu dizertus
+19	6119	aplaŭdo	aplaŭdoj aplaŭdojn aplaŭdon
+20	6120	bandito	banditoj banditojn banditon
+21	6121	sterni	sternanta sternantaj sternantajn sternantan sternante sternas sternata sternataj sternatajn sternatan sternate sterninta sternintaj sternintajn sternintan sterninte sternis sternita sternitaj sternitajn sternitan sternite sternonta sternontaj sternontajn sternontan sternonte sternos sternu sternus
+22	6122	adresi	adresanta adresantaj adresantajn adresantan adresante adresas adresata adresataj adresatajn adresatan adresate adresato adresatoj adresaton adresinta adresintaj adresintajn adresintan adresinte adresis adresita adresitaj adresitajn adresitan adresite adresonta adresontaj adresontajn adresontan adresonte adresos adresu adresus
+23	6123	antikvaĵo	antikvaĵoj antikvaĵojn antikvaĵon
+24	6124	kriaĉi	kriaĉanta kriaĉantaj kriaĉantajn kriaĉantan kriaĉante kriaĉas kriaĉinta kriaĉintaj kriaĉintajn kriaĉintan kriaĉinte kriaĉis kriaĉonta kriaĉontaj kriaĉontajn kriaĉontan kriaĉonte kriaĉos kriaĉu kriaĉus
+25	6125	bebino	bebinoj bebinojn bebinon
+26	6126	zorga	zorgaj zorgajn zorgan
+27	6127	tolaĵo	tolaĵoj tolaĵojn tolaĵon
+28	6128	pantoflo	pantofloj pantoflojn pantoflon
+29	6129	sablero	sableroj sablerojn sableron
+30	6130	samovaro	samovaroj samovarojn samovaron
+31	6131	aŭstro	aŭstroj aŭstrojn aŭstron
+32	6132	ĉeffiguro	ĉeffiguroj ĉeffigurojn ĉeffiguron
+33	6133	detrua	detruaj detruajn detruan
+34	6134	pendolo	pendoloj pendolojn pendolon
+35	6135	akompano	akompanoj akompanojn akompanon
+36	6136	vertebrulo	vertebruloj vertebrulojn vertebrulon
+37	6137	mozaiko	mozaikoj mozaikojn mozaikon
+38	6138	bubaĉo	bubaĉoj bubaĉojn bubaĉon
+39	6139	stablo	stabloj stablojn stablon
+40	6140	malsate	
+41	6141	virga	virgaj virgajn virgan
+42	6142	heliĝi	heliĝanta heliĝantaj heliĝantajn heliĝantan heliĝante heliĝas heliĝinta heliĝintaj heliĝintajn heliĝintan heliĝinte heliĝis heliĝonta heliĝontaj heliĝontajn heliĝontan heliĝonte heliĝos heliĝu heliĝus
+43	6143	manĝilaro	manĝilaroj manĝilarojn manĝilaron
+44	6144	citadelo	citadeloj citadelojn citadelon
+45	6145	evoluado	evoluadoj evoluadojn evoluadon
+46	6146	kontraŭvole	
+47	6147	biomaso	biomasoj biomasojn biomason
+48	6148	ĵetkubo	ĵetkuboj ĵetkubojn ĵetkubon
+49	6149	varbi	varbanta varbantaj varbantajn varbantan varbante varbas varbata varbataj varbatajn varbatan varbate varbinta varbintaj varbintajn varbintan varbinte varbis varbita varbitaj varbitajn varbitan varbite varbonta varbontaj varbontajn varbontan varbonte varbos varbu varbus
+50	6150	signi	signis
+51	6151	ĉine	
+52	6152	nefidinda	nefidindaj nefidindajn nefidindan
+53	6153	parodio	parodioj parodiojn parodion
+54	6154	brue	
+55	6155	rapidege	
+56	6156	franjo	franjoj franjojn franjon
+57	6157	akvujo	akvujoj akvujojn akvujon
+58	6158	prostituitino	prostituitinoj prostituitinojn prostituitinon
+59	6159	baleto	baledo baletoj baletojn baleton
+60	6160	aktorado	aktoradoj aktoradojn aktoradon
+61	6161	recikligi	recikliganta recikligantaj recikligantajn recikligantan recikligante recikligas recikligata recikligataj recikligatajn recikligatan recikligate recikliginta recikligintaj recikligintajn recikligintan recikliginte recikligis recikligita recikligitaj recikligitajn recikligitan recikligite recikligonta recikligontaj recikligontajn recikligontan recikligonte recikligos recikligu recikligus
+62	6162	socialisto	socialistoj socialistojn socialiston
+63	6163	centralo	centraloj centralojn centralon
+64	6164	kredinda	kredindaj kredindajn kredindan
+65	6165	matematike	
+66	6166	akvofalo	akvofaloj akvofalojn akvofalon
+67	6167	kutimiĝi	kutimiĝanta kutimiĝantaj kutimiĝantajn kutimiĝantan kutimiĝante kutimiĝas kutimiĝinta kutimiĝintaj kutimiĝintajn kutimiĝintan kutimiĝinte kutimiĝis kutimiĝonta kutimiĝontaj kutimiĝontajn kutimiĝontan kutimiĝonte kutimiĝos kutimiĝu kutimiĝus
+68	6168	tikli	tiklanta tiklantaj tiklantajn tiklantan tiklante tiklas tiklinta tiklintaj tiklintajn tiklintan tiklinte tiklis tiklonta tiklontaj tiklontajn tiklontan tiklonte tiklos tiklu tiklus
+69	6169	malvarmumi	malvarmumanta malvarmumantaj malvarmumantajn malvarmumantan malvarmumante malvarmumas malvarmuminta malvarmumintaj malvarmumintajn malvarmumintan malvarmuminte malvarmumis malvarmumonta malvarmumontaj malvarmumontajn malvarmumontan malvarmumonte malvarmumos malvarmumu malvarmumus
+70	6170	fazeolo	fazeoloj fazeolojn fazeolon
+71	6171	kuzino	kuzinoj kuzinojn kuzinon
+72	6172	parki	parkanta parkantaj parkantajn parkantan parkante parkas parkinta parkintaj parkintajn parkintan parkinte parkis parkonta parkontaj parkontajn parkontan parkonte parkos parku parkus
+73	6173	certiĝi	certiĝanta certiĝantaj certiĝantajn certiĝantan certiĝante certiĝas certiĝinta certiĝintaj certiĝintajn certiĝintan certiĝinte certiĝis certiĝonta certiĝontaj certiĝontajn certiĝontan certiĝonte certiĝos certiĝu certiĝus
+74	6174	amuzaĵo	amuzaĵoj amuzaĵojn amuzaĵon
+75	6175	vivadi	vivadanta vivadantaj vivadantajn vivadantan vivadante vivadas vivadinta vivadintaj vivadintajn vivadintan vivadinte vivadis vivadonta vivadontaj vivadontajn vivadontan vivadonte vivados vivadu vivadus
+76	6176	benko	benkoj benkojn benkon
+77	6177	ribelema	ribelemaj ribelemajn ribeleman
+78	6178	sepsa	sepsaj sepsajn sepsan
+79	6179	liturgio	liturgioj liturgiojn liturgion
+80	6180	kondiĉa	kondiĉaj kondiĉajn kondiĉan
+81	6181	identigilo	identigiloj identigilojn identigilon
+82	6182	bonfaranto	bonfarantoj bonfarantojn bonfaranton
+83	6183	erao	eraoj eraojn eraon
+84	6184	pipro	piproj piprojn pipron
+85	6185	sinonimo	sinonimoj sinonimojn sinonimon
+86	6186	konservatorio	konservatorioj konservatoriojn konservatorion
+87	6187	disciplini	disciplinanta disciplinantaj disciplinantajn disciplinantan disciplinante disciplinas disciplinata disciplinataj disciplinatajn disciplinatan disciplinate disciplininta disciplinintaj disciplinintajn disciplinintan disciplininte disciplinis disciplinita disciplinitaj disciplinitajn disciplinitan disciplinite disciplinonta disciplinontaj disciplinontajn disciplinontan disciplinonte disciplinos disciplinu disciplinus
+88	6188	pokape	
+89	6189	oksido	oksidoj oksidojn oksidon
+90	6190	alterni	alternanta alternantaj alternantajn alternantan alternante alternas alterninta alternintaj alternintajn alternintan alterninte alternis alternonta alternontaj alternontajn alternontan alternonte alternos alternu alternus
+91	6191	marĉa	marĉaj marĉajn marĉan
+92	6192	konsterni	konsternanta konsternantaj konsternantajn konsternantan konsternante konsternas konsternata konsternataj konsternatajn konsternatan konsternate konsterninta konsternintaj konsternintajn konsternintan konsterninte konsternis konsternita konsternitaj konsternitajn konsternitan konsternite konsternonta konsternontaj konsternontajn konsternontan konsternonte konsternos konsternu konsternus
+93	6193	kanona	kanonaj kanonajn kanonan
+94	6194	altvalora	altvaloraj altvalorajn altvaloran
+95	6195	trapenetri	trapenetranta trapenetrantaj trapenetrantajn trapenetrantan trapenetrante trapenetras trapenetrata trapenetrataj trapenetratajn trapenetratan trapenetrate trapenetrinta trapenetrintaj trapenetrintajn trapenetrintan trapenetrinte trapenetris trapenetrita trapenetritaj trapenetritajn trapenetritan trapenetrite trapenetronta trapenetrontaj trapenetrontajn trapenetrontan trapenetronte trapenetros trapenetru trapenetrus
+96	6196	fotarto	fotartoj fotartojn fotarton
+97	6197	galono	galonoj galonojn galonon
+98	6198	poluado	poluadoj poluadojn poluadon
+99	6199	ame	
+100	6200	teraso	terasoj terasojn terason

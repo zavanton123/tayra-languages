@@ -1,0 +1,100 @@
+1	9401	alfiksi	alfiksanta alfiksantaj alfiksantajn alfiksantan alfiksante alfiksas alfiksinta alfiksintaj alfiksintajn alfiksintan alfiksinte alfiksis alfiksonta alfiksontaj alfiksontajn alfiksontan alfiksonte alfiksos alfiksu alfiksus
+2	9402	ĉano	ĉanoj ĉanojn ĉanon
+3	9403	ekstre	
+4	9404	stalono	stalonoj stalonojn stalonon
+5	9405	ardo	ardoj ardojn ardon
+6	9406	ajne	
+7	9407	pordanso	pordansoj pordansojn pordanson
+8	9408	avizi	avizanta avizantaj avizantajn avizantan avizante avizas avizata avizataj avizatajn avizatan avizate avizinta avizintaj avizintajn avizintan avizinte avizis avizita avizitaj avizitajn avizitan avizite avizonta avizontaj avizontajn avizontan avizonte avizos avizu avizus
+9	9409	vojplano	vojplanoj vojplanojn vojplanon
+10	9410	kalkanumo	kalkanumoj kalkanumojn kalkanumon
+11	9411	flugdrako	flugdrakoj flugdrakojn flugdrakon
+12	9412	nigri	nigranta nigrantaj nigrantajn nigrantan nigrante nigras nigrinta nigrintaj nigrintajn nigrintan nigrinte nigris nigronta nigrontaj nigrontajn nigrontan nigronte nigros nigru nigrus
+13	9413	malalti	malaltanta malaltantaj malaltantajn malaltantan malaltante malaltas malaltinta malaltintaj malaltintajn malaltintan malaltinte malaltis malaltonta malaltontaj malaltontajn malaltontan malaltonte malaltos malaltu malaltus
+14	9414	formiki	formikanta formikantaj formikantajn formikantan formikante formikas formikinta formikintaj formikintajn formikintan formikinte formikis formikonta formikontaj formikontajn formikontan formikonte formikos formiku formikus
+15	9415	deĵavuo	deĵavuoj deĵavuojn deĵavuon
+16	9416	fortreni	fortrenanta fortrenantaj fortrenantajn fortrenantan fortrenante fortrenas fortreninta fortrenintaj fortrenintajn fortrenintan fortreninte fortrenis fortrenonta fortrenontaj fortrenontajn fortrenontan fortrenonte fortrenos fortrenu fortrenus
+17	9417	soriko	sorikoj sorikojn sorikon
+18	9418	rikani	rikananta rikanantaj rikanantajn rikanantan rikanante rikanas rikaninta rikanintaj rikanintajn rikanintan rikaninte rikanis rikanonta rikanontaj rikanontajn rikanontan rikanonte rikanos rikanu rikanus
+19	9419	kortuŝe	
+20	9420	poŝoŝtelisto	poŝoŝtelistoj poŝoŝtelistojn poŝoŝteliston poŝŝteliston
+21	9421	adulto	adultoj adultojn adulton
+22	9422	amorantino	amorantinoj amorantinojn amorantinon
+23	9423	giĉeto	giĉetoj giĉetojn giĉeton
+24	9424	viatiko	viatikoj viatikojn viatikon
+25	9425	ŝokiĝi	ŝokiĝanta ŝokiĝantaj ŝokiĝantajn ŝokiĝantan ŝokiĝante ŝokiĝas ŝokiĝinta ŝokiĝintaj ŝokiĝintajn ŝokiĝintan ŝokiĝinte ŝokiĝis ŝokiĝonta ŝokiĝontaj ŝokiĝontajn ŝokiĝontan ŝokiĝonte ŝokiĝos ŝokiĝu ŝokiĝus
+26	9426	angore	
+27	9427	pendoli	pendolanta pendolantaj pendolantajn pendolantan pendolante pendolas pendolinta pendolintaj pendolintajn pendolintan pendolinte pendolis pendolonta pendolontaj pendolontajn pendolontan pendolonte pendolos pendolu pendolus
+28	9428	ĉea	
+29	9429	gardistino	gardistinoj gardistinojn gardistinon
+30	9430	katalepsio	katalepsioj katalepsiojn katalepsion
+31	9431	alpremi	alpremanta alpremantaj alpremantajn alpremantan alpremante alpremas alpreminta alpremintaj alpremintajn alpremintan alpreminte alpremis alpremonta alpremontaj alpremontajn alpremontan alpremonte alpremos alpremu alpremus
+32	9432	amnezio	amnezioj amneziojn amnezion
+33	9433	stimulaĵo	stimulaĵoj stimulaĵojn stimulaĵon
+34	9434	kataklismo	kataklismoj kataklismojn kataklismon
+35	9435	malafable	
+36	9436	permesebla	
+37	9437	afervojaĝo	afervojaĝoj afervojaĝojn afervojaĝon
+38	9438	kringo	kringoj kringojn kringon
+39	9439	nekonato	nekonatoj nekonatojn nekonaton
+40	9440	pekli	peklanta peklantaj peklantajn peklantan peklante peklas peklata peklataj peklatajn peklatan peklate peklinta peklintaj peklintajn peklintan peklinte peklis peklita peklitaj peklitajn peklitan peklite peklonta peklontaj peklontajn peklontan peklonte peklos peklu peklus
+41	9441	maljunulejo	maljunulejoj maljunulejojn maljunulejon
+42	9442	malama	malamaj malamajn malaman
+43	9443	sidadi	sidadanta sidadantaj sidadantajn sidadantan sidadante sidadas sidadinta sidadintaj sidadintajn sidadintan sidadinte sidadis sidadonta sidadontaj sidadontajn sidadontan sidadonte sidados sidadu sidadus
+44	9444	tualeto	tualetoj tualetojn tualeton
+45	9445	najado	najadoj najadojn najadon
+46	9446	anticipo	anticipoj anticipojn anticipon
+47	9447	gejunuloj	gejunulo gejunulojn gejunulon
+48	9448	neanstataŭigebla	neanstataŭigeblaj neanstataŭigeblajn neanstataŭigeblan
+49	9449	defluilo	defluiloj defluilojn defluilon
+50	9450	ekspediciano	ekspedicianoj ekspedicianojn ekspedicianon
+51	9451	sporti	sportanta sportantaj sportantajn sportantan sportante sportas sportinta sportintaj sportintajn sportintan sportinte sportis sportonta sportontaj sportontajn sportontan sportonte sportos sportu sportus
+52	9452	ĥaose	
+53	9453	okarino	okarinoj okarinojn okarinon
+54	9454	ambaŭdirekte	
+55	9455	lernejano	lernejanoj lernejanojn lernejanon
+56	9456	ambaŭmane	
+57	9457	kruelaĵo	kruelaĵoj kruelaĵojn kruelaĵon
+58	9458	amasbuĉi	amasbuĉanta amasbuĉantaj amasbuĉantajn amasbuĉantan amasbuĉante amasbuĉas amasbuĉinta amasbuĉintaj amasbuĉintajn amasbuĉintan amasbuĉinte amasbuĉis amasbuĉonta amasbuĉontaj amasbuĉontajn amasbuĉontan amasbuĉonte amasbuĉos amasbuĉu amasbuĉus
+59	9459	senpekigi	senpekiganta senpekigantaj senpekigantajn senpekigantan senpekigante senpekigas senpekigata senpekigataj senpekigatajn senpekigatan senpekigate senpekiginta senpekigintaj senpekigintajn senpekigintan senpekiginte senpekigis senpekigita senpekigitaj senpekigitajn senpekigitan senpekigite senpekigonta senpekigontaj senpekigontajn senpekigontan senpekigonte senpekigos senpekigu senpekigus
+60	9460	digesto	digestoj digestojn digeston
+61	9461	laŭreato	laŭreatoj laŭreatojn laŭreaton
+62	9462	antaŭmanĝaĵo	antaŭmanĝaĵoj antaŭmanĝaĵojn antaŭmanĝaĵon
+63	9463	ekpruvi	ekpruvanta ekpruvantaj ekpruvantajn ekpruvantan ekpruvante ekpruvas ekpruvinta ekpruvintaj ekpruvintajn ekpruvintan ekpruvinte ekpruvis ekpruvonta ekpruvontaj ekpruvontajn ekpruvontan ekpruvonte ekpruvos ekpruvu ekpruvus
+64	9464	varmege	
+65	9465	nenuligebla	nenuligeblaj nenuligeblajn nenuligeblan
+66	9466	ekkreski	ekkreskanta ekkreskantaj ekkreskantajn ekkreskantan ekkreskante ekkreskas ekkreskinta ekkreskintaj ekkreskintajn ekkreskintan ekkreskinte ekkreskis ekkreskonta ekkreskontaj ekkreskontajn ekkreskontan ekkreskonte ekkreskos ekkresku ekkreskus
+67	9467	malsimpligi	malsimpliganta malsimpligantaj malsimpligantajn malsimpligantan malsimpligante malsimpligas malsimpliginta malsimpligintaj malsimpligintajn malsimpligintan malsimpliginte malsimpligis malsimpligonta malsimpligontaj malsimpligontajn malsimpligontan malsimpligonte malsimpligos malsimpligu malsimpligus
+68	9468	senbezona	senbezonaj senbezonajn senbezonan
+69	9469	brulo	bruloj brulojn brulon
+70	9470	akeno	akenoj akenojn akenon
+71	9471	varbiĝi	varbiĝanta varbiĝantaj varbiĝantajn varbiĝantan varbiĝante varbiĝas varbiĝinta varbiĝintaj varbiĝintajn varbiĝintan varbiĝinte varbiĝis varbiĝonta varbiĝontaj varbiĝontajn varbiĝontan varbiĝonte varbiĝos varbiĝu varbiĝus
+72	9472	novriĉulo	novriĉuloj novriĉulojn novriĉulon
+73	9473	fortulo	fortuloj fortulojn fortulon
+74	9474	judaro	judaroj judarojn judaron
+75	9475	relegi	releganta relegantaj relegantajn relegantan relegante relegas releginta relegintaj relegintajn relegintan releginte relegis relegonta relegontaj relegontajn relegontan relegonte relegos relegu relegus
+76	9476	senhomiĝi	senhomiĝanta senhomiĝantaj senhomiĝantajn senhomiĝantan senhomiĝante senhomiĝas senhomiĝinta senhomiĝintaj senhomiĝintajn senhomiĝintan senhomiĝinte senhomiĝis senhomiĝonta senhomiĝontaj senhomiĝontajn senhomiĝontan senhomiĝonte senhomiĝos senhomiĝu senhomiĝus
+77	9477	komplezema	komplezemaj komplezemajn komplezeman
+78	9478	malamegi	malameganta malamegantaj malamegantajn malamegantan malamegante malamegas malameginta malamegintaj malamegintajn malamegintan malameginte malamegis malamegonta malamegontaj malamegontajn malamegontan malamegonte malamegos malamegu malamegus
+79	9479	kokcinelo	kokcineloj kokcinelojn kokcinelon
+80	9480	pinarbo	pinarboj pinarbojn pinarbon
+81	9481	batadi	batadanta batadantaj batadantajn batadantan batadante batadas batadinta batadintaj batadintajn batadintan batadinte batadis batadonta batadontaj batadontajn batadontan batadonte batados batadu batadus
+82	9482	floristo	floristoj floristojn floriston
+83	9483	fornelo	forneloj fornelojn fornelon
+84	9484	slojdo	slojdoj slojdojn slojdon
+85	9485	onani	onananta onanantaj onanantajn onanantan onanante onanas onaninta onanintaj onanintajn onanintan onaninte onanis onanonta onanontaj onanontajn onanontan onanonte onanos onanu onanus
+86	9486	akno	aknoj aknojn aknon
+87	9487	nazmuko	nazmukoj nazmukojn nazmukon
+88	9488	tenaca	tenacaj tenacajn tenacan
+89	9489	babiladi	babiladanta babiladantaj babiladantajn babiladantan babiladante babiladas babiladinta babiladintaj babiladintajn babiladintan babiladinte babiladis babiladonta babiladontaj babiladontajn babiladontan babiladonte babilados babiladu babiladus
+90	9490	mucida	mucidaj mucidajn mucidan
+91	9491	malkompleta	malkompletaj malkompletajn malkompletan
+92	9492	infanaĉo	infanaĉoj infanaĉojn infanaĉon
+93	9493	armaĵo	armaĵoj armaĵojn armaĵon
+94	9494	eskorto	eskortoj eskortojn eskorton
+95	9495	ĉareto	ĉaretoj ĉaretojn ĉareton
+96	9496	albordiĝo	albordiĝoj albordiĝojn albordiĝon
+97	9497	pafarko	pafarkoj pafarkojn pafarkon
+98	9498	eskalo	eskaloj eskalojn eskalon
+99	9499	taja	tajaj tajajn tajan
+100	9500	akrobataĵo	akrobataĵoj akrobataĵojn akrobataĵon

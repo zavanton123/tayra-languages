@@ -1,0 +1,100 @@
+1	9001	andaluza	andaluzaj andaluzajn andaluzan
+2	9002	eklektika	eklektikaj eklektikajn eklektikan
+3	9003	balasto	balastoj balastojn balaston
+4	9004	dogma	dogmaj dogmajn dogman
+5	9005	kojno	kojnoj kojnojn kojnon
+6	9006	antaŭo	antaŭoj antaŭojn antaŭon
+7	9007	flavo	flavoj flavojn flavon
+8	9008	homonimo	homonimoj homonimojn homonimon
+9	9009	navigebla	navigeblaj navigeblajn navigeblan
+10	9010	polemiki	polemikanta polemikantaj polemikantajn polemikantan polemikante polemikas polemikinta polemikintaj polemikintajn polemikintan polemikinte polemikis polemikonta polemikontaj polemikontajn polemikontan polemikonte polemikos polemiku polemikus
+11	9011	fugon	
+12	9012	ĉambristino	ĉambristinoj ĉambristinojn ĉambristinon
+13	9013	akceptejo	akceptejoj akceptejojn akceptejon
+14	9014	majonezo	majonezoj majonezojn majonezon
+15	9015	lace	
+16	9016	babuŝo	babuŝoj babuŝojn babuŝon
+17	9017	blondulino	blondulinoj blondulinojn blondulinon
+18	9018	vorteto	vortetoj vortetojn vorteton
+19	9019	tigra	tigraj tigrajn tigran
+20	9020	moke	
+21	9021	susuri	susuranta susurantaj susurantajn susurantan susurante susuras susurinta susurintaj susurintajn susurintan susurinte susuris susuronta susurontaj susurontajn susurontan susuronte susuros susuru susurus
+22	9022	semaforo	semaforoj semaforojn semaforon
+23	9023	drumo	drumoj drumojn drumon
+24	9024	senemocia	senemociaj senemociajn senemocian
+25	9025	laciga	lacigaj lacigajn lacigan
+26	9026	ametisto	ametistoj ametistojn ametiston
+27	9027	kvardeka	kvardekaj kvardekajn kvardekan
+28	9028	linĉi	linĉanta linĉantaj linĉantajn linĉantan linĉante linĉas linĉata linĉataj linĉatajn linĉatan linĉate linĉinta linĉintaj linĉintajn linĉintan linĉinte linĉis linĉita linĉitaj linĉitajn linĉitan linĉite linĉonta linĉontaj linĉontajn linĉontan linĉonte linĉos linĉu linĉus
+29	9029	kongregacio	kongregacioj kongregaciojn kongregacion
+30	9030	kuniĝo	kuniĝoj kuniĝojn kuniĝon
+31	9031	forgesema	forgesemaj forgesemajn forgeseman
+32	9032	ŝafa	ŝafaj ŝafajn ŝafan
+33	9033	tagiĝi	tagiĝanta tagiĝantaj tagiĝantajn tagiĝantan tagiĝante tagiĝas tagiĝinta tagiĝintaj tagiĝintajn tagiĝintan tagiĝinte tagiĝis tagiĝonta tagiĝontaj tagiĝontajn tagiĝontan tagiĝonte tagiĝos tagiĝu tagiĝus
+34	9034	banĝo	banĝoj banĝojn banĝon
+35	9035	establo	establoj establojn establon
+36	9036	kermeso	kermesoj kermesojn kermeson
+37	9037	kuirpoto	kuirpotoj kuirpotojn kuirpoton
+38	9038	malbonodora	malbonodoraj malbonodorajn malbonodoran
+39	9039	velura	veluraj velurajn veluran
+40	9040	vole	
+41	9041	kvizo	kvizoj kvizojn kvizon
+42	9042	malrespekti	malrespektanta malrespektantaj malrespektantajn malrespektantan malrespektante malrespektas malrespektata malrespektataj malrespektatajn malrespektatan malrespektate malrespektinta malrespektintaj malrespektintajn malrespektintan malrespektinte malrespektis malrespektita malrespektitaj malrespektitajn malrespektitan malrespektite malrespektonta malrespektontaj malrespektontajn malrespektontan malrespektonte malrespektos malrespektu malrespektus
+43	9043	mago	magoj magojn magon
+44	9044	kandelingo	kandelingoj kandelingojn kandelingon
+45	9045	berilio	berilioj beriliojn berilion
+46	9046	gentekniko	genteknikoj genteknikojn genteknikon
+47	9047	gramatikisto	gramatikistoj gramatikistojn gramatikiston
+48	9048	moteto	motetoj motetojn moteton
+49	9049	ovario	ovarioj ovariojn ovarion
+50	9050	pio	pioj piojn pion
+51	9051	aŭtismo	aŭtismoj aŭtismojn aŭtismon
+52	9052	rotaciado	rotaciadoj rotaciadojn rotaciadon
+53	9053	emajlo	emajloj emajlojn emajlon
+54	9054	vertico	verticoj verticojn verticon
+55	9055	cirkulero	cirkuleroj cirkulerojn cirkuleron
+56	9056	eldonaĵo	eldonaĵoj eldonaĵojn eldonaĵon
+57	9057	kvakero	kvakeroj kvakerojn kvakeron
+58	9058	razilo	raziloj razilojn razilon
+59	9059	nitrato	nitratoj nitratojn nitraton
+60	9060	rolludo	rolludoj rolludojn rolludon
+61	9061	konverĝa	konverĝaj konverĝajn konverĝan
+62	9062	sistemigi	sistemiganta sistemigantaj sistemigantajn sistemigantan sistemigante sistemigas sistemigata sistemigataj sistemigatajn sistemigatan sistemigate sistemiginta sistemigintaj sistemigintajn sistemigintan sistemiginte sistemigis sistemigita sistemigitaj sistemigitajn sistemigitan sistemigite sistemigonta sistemigontaj sistemigontajn sistemigontan sistemigonte sistemigos sistemigu sistemigus
+63	9063	viŝi	viŝanta viŝantaj viŝantajn viŝantan viŝante viŝas viŝata viŝataj viŝatajn viŝatan viŝate viŝinta viŝintaj viŝintajn viŝintan viŝinte viŝis viŝita viŝitaj viŝitajn viŝitan viŝite viŝonta viŝontaj viŝontajn viŝontan viŝonte viŝos viŝu viŝus
+64	9064	asisti	asistanta asistantaj asistantajn asistantan asistante asistantoj asistantojn asistanton asistas asistinta asistintaj asistintajn asistintan asistinte asistis asistonta asistontaj asistontajn asistontan asistonte asistos asistu asistus
+65	9065	pezega	pezegaj pezegajn pezegan
+66	9066	surtuto	surtutoj surtutojn surtuton
+67	9067	akolito	akolitoj akolitojn akoliton
+68	9068	abrupta	abruptaj abruptajn abruptan
+69	9069	malva	malvaj malvajn malvan
+70	9070	iĉo	iĉoj iĉojn iĉon
+71	9071	aĵeto	aĵetoj aĵetojn aĵeton
+72	9072	intestaro	intestaroj intestarojn intestaron
+73	9073	pacema	pacemaj pacemajn paceman
+74	9074	mondvaste	
+75	9075	dekoracii	dekoracianta dekoraciantaj dekoraciantajn dekoraciantan dekoraciante dekoracias dekoraciata dekoraciataj dekoraciatajn dekoraciatan dekoraciate dekoraciinta dekoraciintaj dekoraciintajn dekoraciintan dekoraciinte dekoraciis dekoraciita dekoraciitaj dekoraciitajn dekoraciitan dekoraciite dekoracionta dekoraciontaj dekoraciontajn dekoraciontan dekoracionte dekoracios dekoraciu dekoracius
+76	9076	ekstudi	ekstudanta ekstudantaj ekstudantajn ekstudantan ekstudante ekstudas ekstudinta ekstudintaj ekstudintajn ekstudintan ekstudinte ekstudis ekstudonta ekstudontaj ekstudontajn ekstudontan ekstudonte ekstudos ekstudu ekstudus
+77	9077	provizejo	provizejoj provizejojn provizejon
+78	9078	adopta	adoptaj adoptajn adoptan
+79	9079	praavino	praavinoj praavinojn praavinon
+80	9080	malfavoro	malfavoroj malfavorojn malfavoron
+81	9081	kanonisto	kanonistoj kanonistojn kanoniston
+82	9082	juko	jukoj jukojn jukon
+83	9083	ŝafaro	ŝafaroj ŝafarojn ŝafaron
+84	9084	forpelo	forpeloj forpelojn forpelon
+85	9085	aertubo	aertuboj aertubojn aertubon
+86	9086	cignino	cigninoj cigninojn cigninon
+87	9087	oscedi	oscedanta oscedantaj oscedantajn oscedantan oscedante oscedas oscedinta oscedintaj oscedintajn oscedintan oscedinte oscedis oscedonta oscedontaj oscedontajn oscedontan oscedonte oscedos oscedu oscedus
+88	9088	fida	fidaj fidajn fidan
+89	9089	karma	karmaj karmajn karman
+90	9090	ĝisosta	ĝisostaj ĝisostajn ĝisostan
+91	9091	regnestro	regnestroj regnestrojn regnestron
+92	9092	respondado	respondadoj respondadojn respondadon
+93	9093	loti	lotanta lotantaj lotantajn lotantan lotante lotas lotinta lotintaj lotintajn lotintan lotinte lotis lotonta lotontaj lotontajn lotontan lotonte lotos lotu lotus
+94	9094	akademie	
+95	9095	preterito	preteritoj preteritojn preteriton
+96	9096	taoismo	taoismoj taoismojn taoismon
+97	9097	higieno	higienoj higienojn higienon
+98	9098	ekleziestro	ekleziestroj ekleziestrojn ekleziestron
+99	9099	anemio	anemioj anemiojn anemion
+100	9100	konsekro	konsekroj konsekrojn konsekron

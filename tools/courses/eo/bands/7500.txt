@@ -1,0 +1,100 @@
+1	7401	saliko	salikoj salikojn salikon
+2	7402	mediti	meditanta meditantaj meditantajn meditantan meditante meditas meditinta meditintaj meditintajn meditintan meditinte meditis meditonta meditontaj meditontajn meditontan meditonte meditos meditu meditus
+3	7403	akvovaporo	akvovaporoj akvovaporojn akvovaporon
+4	7404	marioneto	marionetoj marionetojn marioneton
+5	7405	reunuiĝo	reunuiĝoj reunuiĝojn reunuiĝon
+6	7406	bonteni	bontenanta bontenantaj bontenantajn bontenantan bontenante bontenas bontenata bontenataj bontenatajn bontenatan bontenate bonteninta bontenintaj bontenintajn bontenintan bonteninte bontenis bontenita bontenitaj bontenitajn bontenitan bontenite bontenonta bontenontaj bontenontajn bontenontan bontenonte bontenos bontenu bontenus
+7	7407	tabuo	tabuoj tabuojn tabuon
+8	7408	maŝo	maŝoj maŝojn maŝon
+9	7409	pluigi	pluiganta pluigantaj pluigantajn pluigantan pluigante pluigas pluiginta pluigintaj pluigintajn pluigintan pluiginte pluigis pluigonta pluigontaj pluigontajn pluigontan pluigonte pluigos pluigu pluigus
+10	7410	tolerebla	tolereblaj tolereblajn tolereblan
+11	7411	telepatio	telepatioj telepatiojn telepation
+12	7412	rokenrolo	rokenroloj rokenrolojn rokenrolon
+13	7413	bulbo	bulboj bulbojn bulbon
+14	7414	penetro	penetroj penetrojn penetron
+15	7415	individueco	individuecoj individuecojn individuecon
+16	7416	musko	muskoj muskojn muskon
+17	7417	enigma	enigmaj enigmajn enigman
+18	7418	ombra	ombraj ombrajn ombran
+19	7419	diafana	diafanaj diafanajn diafanan
+20	7420	ekzistado	ekzistadoj ekzistadon
+21	7421	vulturo	vulturoj vulturojn vulturon
+22	7422	sindevigo	sindevigoj sindevigojn sindevigon
+23	7423	gasmasko	gasmaskoj gasmaskojn gasmaskon
+24	7424	malboneco	malbonecoj malbonecojn malbonecon
+25	7425	biografia	biografiaj biografiajn biografian
+26	7426	junulara	junularaj junularajn junularan
+27	7427	diskutado	diskutadoj diskutadojn diskutadon
+28	7428	ŝraŭbo	ŝraŭboj ŝraŭbojn ŝraŭbon
+29	7429	musa	musaj musajn musan
+30	7430	pingveno	pingvenoj pingvenojn pingvenon
+31	7431	linda	lindaj lindajn lindan
+32	7432	skorpio	skorpioj skorpiojn skorpion
+33	7433	kupeo	kupeoj kupeojn kupeon
+34	7434	preteco	pretecoj pretecojn pretecon
+35	7435	aperigi	aperiganta aperigantaj aperigantajn aperigantan aperigante aperigas aperiginta aperigintaj aperigintajn aperigintan aperiginte aperigis aperigonta aperigontaj aperigontajn aperigontan aperigonte aperigos aperigu aperigus
+36	7436	porkino	porkinoj porkinojn porkinon
+37	7437	sorĉa	sorĉaj sorĉajn sorĉan
+38	7438	petalo	petaloj petalojn petalon
+39	7439	pruno	prunoj prunojn prunon
+40	7440	afekti	afektanta afektantaj afektantajn afektantan afektante afektas afektata afektataj afektatajn afektatan afektate afektinta afektintaj afektintajn afektintan afektinte afektis afektita afektitaj afektitajn afektitan afektite afektonta afektontaj afektontajn afektontan afektonte afektos afektu afektus
+41	7441	pepi	pepanta pepantaj pepantajn pepantan pepante pepas pepinta pepintaj pepintajn pepintan pepinte pepis peponta pepontaj pepontajn pepontan peponte pepos pepu pepus
+42	7442	baroka	barokaj barokajn barokan
+43	7443	ĉefstrato	ĉefstratoj ĉefstratojn ĉefstraton
+44	7444	inflamo	inflamoj inflamojn inflamon
+45	7445	antarkta	antarktaj antarktajn antarktan
+46	7446	manĝebla	manĝeblaj manĝeblajn manĝeblan
+47	7447	doktrina	doktrinaj doktrinajn doktrinan
+48	7448	elektrigi	elektriganta elektrigantaj elektrigantajn elektrigantan elektrigante elektrigas elektrigata elektrigataj elektrigatajn elektrigatan elektrigate elektriginta elektrigintaj elektrigintajn elektrigintan elektriginte elektrigis elektrigita elektrigitaj elektrigitajn elektrigitan elektrigite elektrigonta elektrigontaj elektrigontajn elektrigontan elektrigonte elektrigos elektrigu elektrigus
+49	7449	pornografio	pornografioj pornografiojn pornografion
+50	7450	kazino	kazinoj kazinojn kazinon
+51	7451	kromnomo	kromnomoj kromnomojn kromnomon
+52	7452	sovaĝe	
+53	7453	almanako	almanakoj almanakojn almanakon
+54	7454	pensiono	pensionoj pensionojn pensionon
+55	7455	akcizo	akcizoj akcizojn akcizon
+56	7456	naŭo	naŭoj naŭojn naŭon
+57	7457	lustro	lustroj lustrojn lustron
+58	7458	amase	
+59	7459	policestro	policestroj policestrojn policestron
+60	7460	konvertiĝi	konvertiĝanta konvertiĝantaj konvertiĝantajn konvertiĝantan konvertiĝante konvertiĝas konvertiĝinta konvertiĝintaj konvertiĝintajn konvertiĝintan konvertiĝinte konvertiĝis konvertiĝonta konvertiĝontaj konvertiĝontajn konvertiĝontan konvertiĝonte konvertiĝos konvertiĝu konvertiĝus
+61	7461	lilio	lilioj liliojn lilion
+62	7462	alkohola	alkoholaj alkoholajn alkoholan
+63	7463	natrio	natrioj natriojn natrion
+64	7464	abdomeno	abdomenoj abdomenojn abdomenon
+65	7465	veldi	veldanta veldantaj veldantajn veldantan veldante veldas veldata veldataj veldatajn veldatan veldate veldinta veldintaj veldintajn veldintan veldinte veldis veldita velditaj velditajn velditan veldite veldonta veldontaj veldontajn veldontan veldonte veldos veldu veldus
+66	7466	nesti	nestanta nestantaj nestantajn nestantan nestante nestas nestinta nestintaj nestintajn nestintan nestinte nestis nestonta nestontaj nestontajn nestontan nestonte nestos nestu nestus
+67	7467	maksimo	maksimoj maksimojn maksimon
+68	7468	kuseno	kusenoj kusenojn kusenon
+69	7469	spritaĵo	spritaĵoj spritaĵojn spritaĵon
+70	7470	famiĝi	famiĝanta famiĝantaj famiĝantajn famiĝantan famiĝante famiĝas famiĝinta famiĝintaj famiĝintajn famiĝintan famiĝinte famiĝis famiĝonta famiĝontaj famiĝontajn famiĝontan famiĝonte famiĝos famiĝu famiĝus
+71	7471	kompatema	kompatemaj kompatemajn kompateman
+72	7472	leterportisto	leterportistoj leterportistojn leterportiston
+73	7473	telepatia	telepatiaj telepatiajn telepatian
+74	7474	dormema	dormemaj dormemajn dormeman
+75	7475	pruo	pruoj pruojn pruon
+76	7476	sindonema	sindonemaj sindonemajn sindoneman
+77	7477	artefari	artefaranta artefarantaj artefarantajn artefarantan artefarante artefaras artefarata artefarataj artefaratajn artefaratan artefarate artefarinta artefarintaj artefarintajn artefarintan artefarinte artefaris artefaritaj artefaritajn artefaritan artefarite artefaronta artefarontaj artefarontajn artefarontan artefaronte artefaros artefaru artefarus
+78	7478	nikelo	nikeloj nikelojn nikelon
+79	7479	pagado	pagadoj pagadojn pagadon
+80	7480	reelekti	reelektanta reelektantaj reelektantajn reelektantan reelektante reelektas reelektata reelektataj reelektatajn reelektatan reelektate reelektinta reelektintaj reelektintajn reelektintan reelektinte reelektis reelektita reelektitaj reelektitajn reelektitan reelektite reelektonta reelektontaj reelektontajn reelektontan reelektonte reelektos reelektu reelektus
+81	7481	teksado	teksadoj teksadojn teksadon
+82	7482	metafiziko	metafizikoj metafizikojn metafizikon
+83	7483	kanabo	kanaboj kanabojn kanabon
+84	7484	nomenklaturo	nomenklaturoj nomenklaturojn nomenklaturon
+85	7485	ĉeftendenco	ĉeftendencon
+86	7486	potenciala	potencialaj potencialajn potencialan
+87	7487	transitiva	transitivaj transitivajn transitivan
+88	7488	tajdo	tajdoj tajdojn tajdon
+89	7489	poŝtkarto	poŝtkartoj poŝtkartojn poŝtkarton
+90	7490	garbejo	garbejoj garbejojn garbejon
+91	7491	pacience	
+92	7492	pene	
+93	7493	cipreso	cipresoj cipresojn cipreson
+94	7494	rusta	rustaj rustajn rustan
+95	7495	reveturi	reveturanta reveturantaj reveturantajn reveturantan reveturante reveturas reveturinta reveturintaj reveturintajn reveturintan reveturinte reveturis reveturonta reveturontaj reveturontajn reveturontan reveturonte reveturos reveturu reveturus
+96	7496	mistifiki	mistifikanta mistifikantaj mistifikantajn mistifikantan mistifikante mistifikanto mistifikas mistifikata mistifikataj mistifikatajn mistifikatan mistifikate mistifikinta mistifikintaj mistifikintajn mistifikintan mistifikinte mistifikis mistifikita mistifikitaj mistifikitajn mistifikitan mistifikite mistifikonta mistifikontaj mistifikontajn mistifikontan mistifikonte mistifikos mistifiku mistifikus
+97	7497	dekoro	dekoroj dekorojn dekoron
+98	7498	zumi	zumanta zumantaj zumantajn zumantan zumante zumas zuminta zumintaj zumintajn zumintan zuminte zumis zumonta zumontaj zumontajn zumontan zumonte zumos zumu zumus
+99	7499	ĉarmi	ĉarmanta ĉarmantaj ĉarmantajn ĉarmantan ĉarmante ĉarmas ĉarmata ĉarmataj ĉarmatajn ĉarmatan ĉarmate ĉarminta ĉarmintaj ĉarmintajn ĉarmintan ĉarminte ĉarmis ĉarmita ĉarmitaj ĉarmitajn ĉarmitan ĉarmite ĉarmonta ĉarmontaj ĉarmontajn ĉarmontan ĉarmonte ĉarmos ĉarmu ĉarmus
+100	7500	sondilo	sondiloj sondilojn sondilon

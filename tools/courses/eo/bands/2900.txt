@@ -1,0 +1,100 @@
+1	2801	tage	
+2	2802	organo	organoj organojn organon
+3	2803	rozo	rozoj rozojn rozon
+4	2804	ekzerco	ekzercoj ekzercojn ekzercon
+5	2805	esenco	esencoj esencojn esencon
+6	2806	ambasadoro	ambasadoroj ambasadorojn ambasadoron
+7	2807	malfacilaĵo	malfacilaĵoj malfacilaĵojn malfacilaĵon
+8	2808	eliro	eliroj elirojn eliron
+9	2809	kaŝiĝi	kaŝiĝanta kaŝiĝantaj kaŝiĝantajn kaŝiĝantan kaŝiĝante kaŝiĝas kaŝiĝinta kaŝiĝintaj kaŝiĝintajn kaŝiĝintan kaŝiĝinte kaŝiĝis kaŝiĝonta kaŝiĝontaj kaŝiĝontajn kaŝiĝontan kaŝiĝonte kaŝiĝos kaŝiĝu kaŝiĝus
+10	2810	benzino	benzinoj benzinojn benzinon
+11	2811	fore	
+12	2812	strategia	strategiaj strategiajn strategian
+13	2813	plurfoje	
+14	2814	vigla	viglaj viglajn viglan
+15	2815	demokrata	demokrataj demokratajn demokratan
+16	2816	amori	amoranta amorantaj amorantajn amorantan amorante amoras amorinta amorintaj amorintajn amorintan amorinte amoris amoronta amorontaj amorontajn amorontan amoronte amoros amoru amorus
+17	2817	ekkoni	ekkonanta ekkonantaj ekkonantajn ekkonantan ekkonante ekkonas ekkoninta ekkonintaj ekkonintajn ekkonintan ekkoninte ekkonis ekkononta ekkonontaj ekkonontajn ekkonontan ekkononte ekkonos ekkonu ekkonus
+18	2818	juste	
+19	2819	futo	futoj futojn futon
+20	2820	malamika	malamikaj malamikajn malamikan
+21	2821	virtuala	virtualaj virtualajn virtualan
+22	2822	damni	damnanta damnantaj damnantajn damnantan damnante damnas damnata damnataj damnatajn damnatan damnate damninta damnintaj damnintajn damnintan damninte damnis damnita damnitaj damnitajn damnitan damnite damnito damnonta damnontaj damnontajn damnontan damnonte damnos damnu damnus
+23	2823	kompare	
+24	2824	eksterlande	
+25	2825	ŝelo	ŝeloj ŝelojn ŝelon
+26	2826	genuo	genuoj genuojn genuon
+27	2827	konsento	konsentoj konsentojn konsenton
+28	2828	komunista	komunistaj komunistajn komunistan
+29	2829	militistaro	militistaroj militistarojn militistaron
+30	2830	skribilo	skribiloj skribilojn skribilon
+31	2831	urbeto	urbetoj urbetojn urbeton
+32	2832	protesto	protestoj protestojn proteston
+33	2833	sensencaĵo	sensencaĵoj sensencaĵojn sensencaĵon
+34	2834	firme	
+35	2835	piano	pianoj pianojn pianon
+36	2836	ĉaro	ĉaroj ĉarojn ĉaron
+37	2837	kolapso	kolapsoj kolapsojn kolapson
+38	2838	algoritmo	algoritmoj algoritmojn algoritmon
+39	2839	plumo	plumoj plumojn plumon
+40	2840	plenkreska	plenkreskaj plenkreskajn plenkreskan
+41	2841	fieri	fieranta fierantaj fierantajn fierantan fierante fieras fierinta fierintaj fierintajn fierintan fierinte fieris fieronta fierontaj fierontajn fierontan fieronte fieros fieru fierus
+42	2842	recenzo	recenzoj recenzojn recenzon
+43	2843	frapo	frapoj frapojn frapon
+44	2844	substreki	substrekanta substrekantaj substrekantajn substrekantan substrekante substrekas substrekata substrekataj substrekatajn substrekatan substrekate substrekinta substrekintaj substrekintajn substrekintan substrekinte substrekis substrekita substrekitaj substrekitajn substrekitan substrekite substrekonta substrekontaj substrekontajn substrekontan substrekonte substrekos substreku substrekus
+45	2845	sako	sakoj sakojn sakon
+46	2846	indiĝeno	indiĝenoj indiĝenojn indiĝenon
+47	2847	brazila	brazilaj brazilajn brazilan
+48	2848	akso	aksoj aksojn akson
+49	2849	malakcepti	malakceptanta malakceptantaj malakceptantajn malakceptantan malakceptante malakceptas malakceptata malakceptataj malakceptatajn malakceptatan malakceptate malakceptinta malakceptintaj malakceptintajn malakceptintan malakceptinte malakceptis malakceptita malakceptitaj malakceptitajn malakceptitan malakceptite malakceptonta malakceptontaj malakceptontajn malakceptontan malakceptonte malakceptos malakceptu malakceptus
+50	2850	ampleksi	ampleksanta ampleksantaj ampleksantajn ampleksantan ampleksante ampleksas ampleksata ampleksataj ampleksatajn ampleksatan ampleksate ampleksinta ampleksintaj ampleksintajn ampleksintan ampleksinte ampleksis ampleksita ampleksitaj ampleksitajn ampleksitan ampleksite ampleksonta ampleksontaj ampleksontajn ampleksontan ampleksonte ampleksos ampleksu ampleksus
+51	2851	realo	realoj realojn realon
+52	2852	sklaveco	sklavecoj sklavecojn sklavecon
+53	2853	senigi	seniganta senigantaj senigantajn senigantan senigante senigas senigata senigataj senigatajn senigatan senigate seniginta senigintaj senigintajn senigintan seniginte senigis senigita senigitaj senigitajn senigitan senigite senigonta senigontaj senigontajn senigontan senigonte senigos senigu senigus
+54	2854	aĝi	aĝanta aĝantaj aĝantajn aĝantan aĝante aĝas aĝinta aĝintaj aĝintajn aĝintan aĝinte aĝis aĝonta aĝontaj aĝontajn aĝontan aĝonte aĝos aĝu aĝus
+55	2855	spiro	spiroj spirojn spiron
+56	2856	evangelio	evangelioj evangeliojn evangelion
+57	2857	maltrankviligi	maltrankviliganta maltrankviligantaj maltrankviligantajn maltrankviligantan maltrankviligante maltrankviligas maltrankviligata maltrankviligataj maltrankviligatajn maltrankviligatan maltrankviligate maltrankviliginta maltrankviligintaj maltrankviligintajn maltrankviligintan maltrankviliginte maltrankviligis maltrankviligita maltrankviligitaj maltrankviligitajn maltrankviligitan maltrankviligite maltrankviligonta maltrankviligontaj maltrankviligontajn maltrankviligontan maltrankviligonte maltrankviligos maltrankviligu maltrankviligus
+58	2858	venĝo	venĝoj venĝojn venĝon
+59	2859	materio	materioj materiojn materion
+60	2860	molekula	molekulaj molekulajn molekulan
+61	2861	tumoro	tumoroj tumorojn tumoron
+62	2862	bonvenigi	bonveniganta bonvenigantaj bonvenigantajn bonvenigantan bonvenigante bonvenigas bonvenigata bonvenigataj bonvenigatajn bonvenigatan bonvenigate bonveniginta bonvenigintaj bonvenigintajn bonvenigintan bonveniginte bonvenigis bonvenigita bonvenigitaj bonvenigitajn bonvenigitan bonvenigite bonvenigonta bonvenigontaj bonvenigontajn bonvenigontan bonvenigonte bonvenigos bonvenigu bonvenigus
+63	2863	lageto	lagetoj lagetojn lageton
+64	2864	dormo	dormoj dormojn dormon
+65	2865	birdeto	birdetoj birdetojn birdeton
+66	2866	ŝirmi	ŝirmanta ŝirmantaj ŝirmantajn ŝirmantan ŝirmante ŝirmas ŝirmata ŝirmataj ŝirmatajn ŝirmatan ŝirmate ŝirminta ŝirmintaj ŝirmintajn ŝirmintan ŝirminte ŝirmis ŝirmita ŝirmitaj ŝirmitajn ŝirmitan ŝirmite ŝirmonta ŝirmontaj ŝirmontajn ŝirmontan ŝirmonte ŝirmos ŝirmu ŝirmus
+67	2867	fortika	fortikaj fortikajn fortikan
+68	2868	teknologia	teknologiaj teknologiajn teknologian
+69	2869	danĝere	
+70	2870	nune	
+71	2871	infaneco	infanecoj infanecojn infanecon
+72	2872	mandato	mandatoj mandatojn mandaton
+73	2873	kultivi	kultivanta kultivantaj kultivantajn kultivantan kultivante kultivas kultivata kultivataj kultivatajn kultivatan kultivate kultivinta kultivintaj kultivintajn kultivintan kultivinte kultivis kultivita kultivitaj kultivitajn kultivitan kultivite kultivonta kultivontaj kultivontajn kultivontan kultivonte kultivos kultivu kultivus
+74	2874	glora	gloraj glorajn gloran
+75	2875	rememorigi	rememoriganta rememorigantaj rememorigantajn rememorigantan rememorigante rememorigas rememoriginta rememorigintaj rememorigintajn rememorigintan rememoriginte rememorigis rememorigonta rememorigontaj rememorigontajn rememorigontan rememorigonte rememorigos rememorigu rememorigus
+76	2876	praktike	
+77	2877	landlimo	landlimoj landlimojn landlimon
+78	2878	honesta	honestaj honestajn honestan
+79	2879	foriro	foriroj forirojn foriron
+80	2880	racia	raciaj raciajn racian
+81	2881	formale	
+82	2882	sveda	svedaj svedajn svedan
+83	2883	ŝajna	ŝajnaj ŝajnajn ŝajnan
+84	2884	kovrilo	kovriloj kovrilojn kovrilon
+85	2885	marmoto	marmotoj marmotojn marmoton
+86	2886	malvarmi	malvarmanta malvarmantaj malvarmantajn malvarmantan malvarmante malvarmas malvarminta malvarmintaj malvarmintajn malvarmintan malvarminte malvarmis malvarmonta malvarmontaj malvarmontajn malvarmontan malvarmonte malvarmos malvarmu malvarmus
+87	2887	elŝalti	elŝaltanta elŝaltantaj elŝaltantajn elŝaltantan elŝaltante elŝaltas elŝaltata elŝaltataj elŝaltatajn elŝaltatan elŝaltate elŝaltinta elŝaltintaj elŝaltintajn elŝaltintan elŝaltinte elŝaltis elŝaltita elŝaltitaj elŝaltitajn elŝaltitan elŝaltite elŝaltonta elŝaltontaj elŝaltontajn elŝaltontan elŝaltonte elŝaltos elŝaltu elŝaltus
+88	2888	akto	aktoj aktojn akton
+89	2889	grimpi	grimpanta grimpantaj grimpantajn grimpantan grimpante grimpas grimpata grimpataj grimpatajn grimpatan grimpate grimpinta grimpintaj grimpintajn grimpintan grimpinte grimpis grimpita grimpitaj grimpitajn grimpitan grimpite grimponta grimpontaj grimpontajn grimpontan grimponte grimpos grimpu grimpus
+90	2890	malaltigi	malaltiganta malaltigantaj malaltigantajn malaltigantan malaltigante malaltigas malaltigata malaltigataj malaltigatajn malaltigatan malaltigate malaltiginta malaltigintaj malaltigintajn malaltigintan malaltiginte malaltigis malaltigita malaltigitaj malaltigitajn malaltigitan malaltigite malaltigonta malaltigontaj malaltigontajn malaltigontan malaltigonte malaltigos malaltigu malaltigus
+91	2891	cirklo	cirkloj cirklojn cirklon
+92	2892	leono	leonoj leonojn leonon
+93	2893	subskribo	subskriboj subskribojn subskribon
+94	2894	prononci	prononcanta prononcantaj prononcantajn prononcantan prononcante prononcanto prononcas prononcata prononcataj prononcatajn prononcatan prononcate prononcinta prononcintaj prononcintajn prononcintan prononcinte prononcis prononcita prononcitaj prononcitajn prononcitan prononcite prononconta prononcontaj prononcontajn prononcontan prononconte prononcos prononcu prononcus
+95	2895	varme	
+96	2896	ligilo	ligiloj ligilojn ligilon
+97	2897	intrigo	intrigoj intrigojn intrigon
+98	2898	malŝpari	malŝparanta malŝparantaj malŝparantajn malŝparantan malŝparante malŝparas malŝparata malŝparataj malŝparatajn malŝparatan malŝparate malŝparinta malŝparintaj malŝparintajn malŝparintan malŝparinte malŝparis malŝparita malŝparitaj malŝparitajn malŝparitan malŝparite malŝparonta malŝparontaj malŝparontajn malŝparontan malŝparonte malŝparos malŝparu malŝparus
+99	2899	pravigi	praviganta pravigantaj pravigantajn pravigantan pravigante pravigas pravigata pravigataj pravigatajn pravigatan pravigate praviginta pravigintaj pravigintajn pravigintan praviginte pravigis pravigita pravigitaj pravigitajn pravigitan pravigite pravigonta pravigontaj pravigontajn pravigontan pravigonte pravigos pravigu pravigus
+100	2900	likva	likvaj likvajn likvan

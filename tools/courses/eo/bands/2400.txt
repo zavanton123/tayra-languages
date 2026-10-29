@@ -1,0 +1,100 @@
+1	2301	suspekti	suspektanta suspektante suspektas suspektata suspektato suspektatoj suspektatojn suspektaton suspektis suspektita suspektitaj suspektitajn suspektite suspektito suspektiton suspektu suspektus
+2	2302	konscii	konscianta konsciantaj konsciantajn konsciantan konsciante konscias konsciinta konsciintaj konsciintajn konsciintan konsciinte konsciis konscionta konsciontaj konsciontajn konsciontan konscionte konscios konsciu konscius
+3	2303	magneta	magnetaj magnetajn magnetan
+4	2304	ĝisdatigi	ĝisdatiganta ĝisdatigantaj ĝisdatigantajn ĝisdatigantan ĝisdatigante ĝisdatiganto ĝisdatigas ĝisdatigata ĝisdatigataj ĝisdatigatajn ĝisdatigatan ĝisdatigate ĝisdatiginta ĝisdatigintaj ĝisdatigintajn ĝisdatigintan ĝisdatiginte ĝisdatigis ĝisdatigita ĝisdatigitaj ĝisdatigitajn ĝisdatigitan ĝisdatigite ĝisdatigonta ĝisdatigontaj ĝisdatigontajn ĝisdatigontan ĝisdatigonte ĝisdatigos ĝisdatigu ĝisdatigus
+5	2305	respekti	respektanta respektantaj respektantajn respektantan respektante respektas respektata respektataj respektatajn respektatan respektate respektinta respektintaj respektintajn respektintan respektinte respektis respektita respektitaj respektitajn respektitan respektite respektonta respektontaj respektontajn respektontan respektonte respektos respektu respektus
+6	2306	aldono	aldonoj aldonojn aldonon
+7	2307	opcio	opcioj opciojn opcion
+8	2308	ju	
+9	2309	detruo	detruoj detruojn detruon
+10	2310	pico	picoj picojn picon
+11	2311	respondeco	respondecoj respondecojn respondecon
+12	2312	matematiko	matematikoj matematikojn matematikon
+13	2313	gratuli	gratulanta gratulantaj gratulantajn gratulantan gratulante gratulas gratulata gratulataj gratulatajn gratulatan gratulate gratulinta gratulintaj gratulintajn gratulintan gratulinte gratulis gratulita gratulitaj gratulitajn gratulitan gratulite gratulonta gratulontaj gratulontajn gratulontan gratulonte gratulos gratulu gratulus
+14	2314	kioma	kiomaj kiomajn kioman
+15	2315	elspezo	elspezoj elspezojn elspezon
+16	2316	maksimuma	maksimumaj maksimumajn maksimuman
+17	2317	alternativo	alternativoj alternativojn alternativon
+18	2318	malsani	malsanas malsanis malsanos
+19	2319	brui	bruanta bruantaj bruantajn bruantan bruante bruas bruinta bruintaj bruintajn bruintan bruinte bruis bruonta bruontaj bruontajn bruontan bruonte bruos bruu bruus
+20	2320	ŝargi	ŝarganta ŝargantaj ŝargantajn ŝargantan ŝargante ŝargas ŝargata ŝargataj ŝargatajn ŝargatan ŝargate ŝarginta ŝargintaj ŝargintajn ŝargintan ŝarginte ŝargis ŝargita ŝargitaj ŝargitajn ŝargitan ŝargite ŝargonta ŝargontaj ŝargontajn ŝargontan ŝargonte ŝargos ŝargu ŝargus
+21	2321	formato	formatoj formatojn formaton
+22	2322	resaniĝi	resaniĝanta resaniĝantaj resaniĝantajn resaniĝantan resaniĝante resaniĝas resaniĝinta resaniĝintaj resaniĝintajn resaniĝintan resaniĝinte resaniĝis resaniĝonta resaniĝontaj resaniĝontajn resaniĝontan resaniĝonte resaniĝos resaniĝu resaniĝus
+23	2323	sago	sagoj sagojn sagon
+24	2324	dosiero	dosieroj dosierojn dosieron
+25	2325	aljuĝi	aljuĝanta aljuĝantaj aljuĝantajn aljuĝantan aljuĝante aljuĝas aljuĝata aljuĝataj aljuĝatajn aljuĝatan aljuĝate aljuĝinta aljuĝintaj aljuĝintajn aljuĝintan aljuĝinte aljuĝis aljuĝita aljuĝitaj aljuĝitajn aljuĝitan aljuĝite aljuĝonta aljuĝontaj aljuĝontajn aljuĝontan aljuĝonte aljuĝos aljuĝu aljuĝus
+26	2326	ŝtormo	ŝtormoj ŝtormojn ŝtormon
+27	2327	vida	vidaj vidajn vidan
+28	2328	hipotezo	hipotezoj hipotezojn hipotezon
+29	2329	fantazio	fantazioj fantaziojn fantazion
+30	2330	komputila	komputilaj komputilajn komputilan
+31	2331	integri	integranta integrantaj integrantajn integrantan integrante integras integrata integrataj integratajn integratan integrate integrinta integrintaj integrintajn integrintan integrinte integris integrita integritaj integritajn integritan integrite integronta integrontaj integrontajn integrontan integronte integros integru integrus
+32	2332	pomo	pomoj pomojn pomon
+33	2333	defio	defioj defiojn defion
+34	2334	rabi	rabanta rabantaj rabantajn rabantan rabante rabas rabata rabataj rabatajn rabatan rabate rabato rabatoj rabatojn rabaton rabinta rabintaj rabintajn rabintan rabinte rabis rabita rabitaj rabitajn rabitan rabite rabonta rabontaj rabontajn rabontan rabonte rabos rabu rabus
+35	2335	evidenta	evidentaj evidentajn evidentan
+36	2336	melodio	melodioj melodiojn melodion
+37	2337	malvenko	malvenkoj malvenkojn malvenkon
+38	2338	herbo	herboj herbojn herbon
+39	2339	fono	fonoj fonojn fonon
+40	2340	kvindek	
+41	2341	protokolo	protokoloj protokolojn protokolon
+42	2342	produktaĵo	produktaĵoj produktaĵojn produktaĵon
+43	2343	talento	talentoj talentojn talenton
+44	2344	malsata	malsataj malsatajn malsatan
+45	2345	kinejo	kinejoj kinejojn kinejon
+46	2346	kvarono	kvaronoj kvaronojn kvaronon
+47	2347	ŝoforo	ŝoforoj ŝoforojn ŝoforon
+48	2348	forporti	forportanta forportantaj forportantajn forportantan forportante forportas forportata forportataj forportatajn forportatan forportate forportinta forportintaj forportintajn forportintan forportinte forportis forportita forportitaj forportitajn forportitan forportite forportitoj forportonta forportontaj forportontajn forportontan forportonte forportos forportu forportus
+49	2349	nekutima	nekutimaj nekutimajn nekutiman
+50	2350	opozicio	opozicioj opoziciojn opozicion
+51	2351	vira	viraj virajn viran
+52	2352	profesio	profesioj profesiojn profesion
+53	2353	kontraŭulo	kontraŭuloj kontraŭulojn kontraŭulon
+54	2354	oferto	ofertoj ofertojn oferton
+55	2355	murdisto	murdistoj murdistojn murdiston
+56	2356	sepa	sepaj sepajn sepan
+57	2357	eminenta	eminentaj eminentajn eminentan
+58	2358	medalo	medaloj medalojn medalon
+59	2359	voko	vokoj vokojn vokon
+60	2360	ŝtuparo	ŝtuparoj ŝtuparojn ŝtuparon
+61	2361	monaĥo	monako monaĥoj monaĥojn monaĥon
+62	2362	suben	
+63	2363	faciligi	faciliganta faciligantaj faciligantajn faciligantan faciligante faciliganto faciligantoj faciligas faciligata faciligataj faciligatajn faciligatan faciligate faciliginta faciligintaj faciligintajn faciligintan faciliginte faciligis faciligita faciligitaj faciligitajn faciligitan faciligite faciligonta faciligontaj faciligontajn faciligontan faciligonte faciligos faciligu faciligus
+64	2364	malvarmo	malvarmoj malvarmojn malvarmon
+65	2365	magia	magiaj magiajn magian
+66	2366	interŝanĝo	interŝanĝoj interŝanĝojn interŝanĝon
+67	2367	rado	radoj radojn radon
+68	2368	roli	rolanta rolantaj rolantajn rolantan rolante rolanto rolantojn rolas rolinta rolintaj rolintajn rolintan rolinte rolis rolonta rolontaj rolontajn rolontan rolonte rolos rolu rolus
+69	2369	indiko	indikoj indikojn indikon
+70	2370	daŭra	daŭraj daŭrajn daŭran
+71	2371	malpura	malpuraj malpurajn malpuran
+72	2372	fia	fiaj fiajn fian
+73	2373	amikeco	amikecoj amikecojn amikecon
+74	2374	stariĝi	stariĝanta stariĝantaj stariĝantajn stariĝantan stariĝante stariĝas stariĝinta stariĝintaj stariĝintajn stariĝintan stariĝinte stariĝis stariĝonta stariĝontaj stariĝontajn stariĝontan stariĝonte stariĝos stariĝu stariĝus
+75	2375	malbela	malbelaj malbelajn malbelan
+76	2376	mola	molaj molajn molan
+77	2377	rango	rangoj rangojn rangon
+78	2378	revi	revanta revantaj revantajn revantan revante revas revinta revintaj revintajn revintan revinte revis revonta revontaj revontajn revontan revonte revos revu revus
+79	2379	nesto	nestoj nestojn neston
+80	2380	konkero	konkeroj konkerojn konkeron
+81	2381	kolero	koleroj kolerojn koleron
+82	2382	festeno	festenoj festenojn festenon
+83	2383	disputo	disputoj disputojn disputon
+84	2384	belege	
+85	2385	elspezi	elspezanta elspezantaj elspezantajn elspezantan elspezante elspezanto elspezantoj elspezas elspezata elspezataj elspezatajn elspezatan elspezate elspezinta elspezintaj elspezintajn elspezintan elspezinte elspezis elspezita elspezitaj elspezitajn elspezitan elspezite elspezonta elspezontaj elspezontajn elspezontan elspezonte elspezos elspezu elspezus
+86	2386	flago	flagoj flagojn flagon
+87	2387	babili	babilanta babilantaj babilantajn babilantan babilante babilas babilinta babilintaj babilintajn babilintan babilinte babilis babilonta babilontaj babilontajn babilontan babilonte babilos babilu babilus
+88	2388	rubo	ruboj rubojn rubon
+89	2389	alianco	aliancoj aliancojn aliancon
+90	2390	nekredebla	nekredeblaj nekredeblajn nekredeblan
+91	2391	lerneja	lernejaj lernejajn lernejan
+92	2392	aŭtoro	aŭtoroj aŭtorojn aŭtoron
+93	2393	ŝafo	ŝafoj ŝafojn ŝafon
+94	2394	apetito	apetitoj apetitojn apetiton
+95	2395	filozofo	filozofoj filozofojn filozofon
+96	2396	simileco	similecoj similecojn similecon
+97	2397	publikigo	publikigoj publikigojn publikigon
+98	2398	folio	folioj foliojn folion
+99	2399	guberniestro	guberniestroj guberniestrojn guberniestron
+100	2400	memorigi	memoriganta memorigantaj memorigantajn memorigantan memorigante memorigas memorigata memorigataj memorigatajn memorigatan memorigate memoriginta memorigintaj memorigintajn memorigintan memoriginte memorigis memorigita memorigitaj memorigitajn memorigitan memorigite memorigonta memorigontaj memorigontajn memorigontan memorigonte memorigos memorigu memorigus

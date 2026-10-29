@@ -1,0 +1,100 @@
+1	5301	bazi	bazanta bazantaj bazantajn bazantan bazante bazas bazata bazataj bazatajn bazatan bazate bazinta bazintaj bazintajn bazintan bazinte bazis bazitaj bazitajn bazitan bazite bazonta bazontaj bazontajn bazontan bazonte bazos bazota bazu bazus
+2	5302	sume	
+3	5303	salato	salatoj salatojn salaton
+4	5304	utero	uteroj uterojn uteron
+5	5305	afrikano	afrikanoj afrikanojn afrikanon
+6	5306	spira	spiraj spirajn spiran
+7	5307	mitologio	mitologioj mitologiojn mitologion
+8	5308	analizisto	analizistoj analizistojn analiziston
+9	5309	specialisto	specialistoj specialistojn specialiston
+10	5310	avara	avaraj avarajn avaran
+11	5311	proletaro	proletaroj proletarojn proletaron
+12	5312	ĥano	ĥanoj ĥanojn ĥanon
+13	5313	altiro	altiroj altirojn altiron
+14	5314	detruado	detruadoj detruadojn detruadon
+15	5315	komunio	komunioj komuniojn komunion
+16	5316	senmorteco	senmortecoj senmortecojn senmortecon
+17	5317	trempi	trempanta trempantaj trempantajn trempantan trempante trempas trempata trempataj trempatajn trempatan trempate trempinta trempintaj trempintajn trempintan trempinte trempis trempita trempitaj trempitajn trempitan trempite tremponta trempontaj trempontajn trempontan tremponte trempos trempu trempus
+18	5318	konsulejo	konsulejoj konsulejojn konsulejon
+19	5319	kresto	krestoj krestojn kreston
+20	5320	ambicia	ambiciaj ambiciajn ambician
+21	5321	faldi	faldanta faldantaj faldantajn faldantan faldante faldas faldata faldataj faldatajn faldatan faldate faldinta faldintaj faldintajn faldintan faldinte faldis faldita falditaj falditajn falditan faldite faldonta faldontaj faldontajn faldontan faldonte faldos faldu faldus
+22	5322	konsulti	konsultanta konsultantaj konsultantajn konsultantan konsultante konsultas konsultata konsultataj konsultatajn konsultatan konsultate konsultinta konsultintaj konsultintajn konsultintan konsultinte konsultis konsultita konsultitaj konsultitajn konsultitan konsultite konsultonta konsultontaj konsultontajn konsultontan konsultonte konsultos konsultu konsultus
+23	5323	rutino	rutinoj rutinojn rutinon
+24	5324	ponardo	ponardoj ponardojn ponardon
+25	5325	anglalingva	anglalingvaj anglalingvajn anglalingvan
+26	5326	leporo	leporoj leporojn leporon
+27	5327	aflikto	afliktoj afliktojn aflikton
+28	5328	preteriri	preteriranta preterirantaj preterirantajn preterirantan preterirante preteriras preterirata preterirataj preteriratajn preteriratan preterirate preteririnta preteririntaj preteririntajn preteririntan preteririnte preteriris preteririta preteriritaj preteriritajn preteriritan preteririte preterironta preterirontaj preterirontajn preterirontan preterironte preteriros preteriru preterirus
+29	5329	konfederacio	konfederacioj konfederaciojn konfederacion
+30	5330	regilo	regiloj regilojn regilon
+31	5331	vagono	vagonoj vagonojn vagonon
+32	5332	peruko	perukoj perukojn perukon
+33	5333	abismo	abismoj abismojn abismon
+34	5334	ĵurnalismo	ĵurnalismoj ĵurnalismojn ĵurnalismon
+35	5335	psikologo	psikologoj psikologojn psikologon
+36	5336	returni	returnanta returnantaj returnantajn returnantan returnante returnas returnata returnataj returnatajn returnatan returnate returninta returnintaj returnintajn returnintan returninte returnis returnita returnitaj returnitajn returnitan returnite returnonta returnontaj returnontajn returnontan returnonte returnos returnu returnus
+37	5337	oranĝa	oranĝaj oranĝajn oranĝan
+38	5338	unusola	unusolaj unusolajn unusolan
+39	5339	plialtigi	plialtiganta plialtigantaj plialtigantajn plialtigantan plialtigante plialtigas plialtigata plialtigataj plialtigatajn plialtigatan plialtigate plialtiginta plialtigintaj plialtigintajn plialtigintan plialtiginte plialtigis plialtigita plialtigitaj plialtigitajn plialtigitan plialtigite plialtigonta plialtigontaj plialtigontajn plialtigontan plialtigonte plialtigos plialtigu plialtigus
+40	5340	karolo	karoloj karolojn karolon
+41	5341	poluso	polusoj polusojn poluson
+42	5342	kronika	kronikaj kronikajn kronikan
+43	5343	prezentado	prezentadoj prezentadojn prezentadon
+44	5344	eksiĝo	eksiĝoj eksiĝojn eksiĝon
+45	5345	plejmulto	plejmultoj plejmultojn plejmulton
+46	5346	herbejo	herbejoj herbejojn herbejon
+47	5347	alivorte	
+48	5348	ŝablono	ŝablonoj ŝablonojn ŝablonon
+49	5349	retpaĝo	retpaĝoj retpaĝojn retpaĝon
+50	5350	eterneco	eternecoj eternecojn eternecon
+51	5351	ĵazo	ĵazoj ĵazojn ĵazon
+52	5352	tergaso	tergasoj tergasojn tergason
+53	5353	loza	lozaj lozajn lozan
+54	5354	novelo	noveloj novelojn novelon
+55	5355	flandra	flandraj flandrajn flandran
+56	5356	ornamaĵo	ornamaĵoj ornamaĵojn ornamaĵon
+57	5357	formularo	formularoj formularojn formularon
+58	5358	hakilo	hakiloj hakilojn hakilon
+59	5359	ekskurso	ekskursoj ekskursojn ekskurson
+60	5360	rifuzo	rifuzoj rifuzojn rifuzon
+61	5361	enamiĝo	enamiĝoj enamiĝojn enamiĝon
+62	5362	malriĉulo	malriĉuloj malriĉulojn malriĉulon
+63	5363	sidejo	sidejoj sidejojn sidejon
+64	5364	sekiĝi	sekiĝanta sekiĝantaj sekiĝantajn sekiĝantan sekiĝante sekiĝas sekiĝinta sekiĝintaj sekiĝintajn sekiĝintan sekiĝinte sekiĝis sekiĝonta sekiĝontaj sekiĝontajn sekiĝontan sekiĝonte sekiĝos sekiĝu sekiĝus
+65	5365	naŭzo	naŭzoj naŭzojn naŭzon
+66	5366	vivmaniero	vivmanieroj vivmanierojn vivmanieron
+67	5367	fuĝo	fuĝoj fuĝojn fuĝon
+68	5368	avangardo	avangardoj avangardojn avangardon
+69	5369	malutila	malutilaj malutilajn malutilan
+70	5370	apostola	apostolaj apostolajn apostolan
+71	5371	arkta	arktaj arktajn arktan
+72	5372	speguli	spegulanta spegulantaj spegulantajn spegulantan spegulante spegulas spegulata spegulataj spegulatajn spegulatan spegulate spegulinta spegulintaj spegulintajn spegulintan spegulinte spegulis spegulita spegulitaj spegulitajn spegulitan spegulite spegulonta spegulontaj spegulontajn spegulontan spegulonte spegulos spegulu spegulus
+73	5373	observo	observoj observojn observon
+74	5374	tridimensia	tridimensiaj tridimensiajn tridimensian
+75	5375	turbino	turbinoj turbinojn turbinon
+76	5376	kraŝi	kraŝanta kraŝantaj kraŝantajn kraŝantan kraŝante kraŝas kraŝinta kraŝintaj kraŝintajn kraŝintan kraŝinte kraŝis kraŝonta kraŝontaj kraŝontajn kraŝontan kraŝonte kraŝos kraŝu kraŝus
+77	5377	elasta	elastaj elastajn elastan
+78	5378	malforto	malfortoj malfortojn malforton
+79	5379	astronomo	astronomoj astronomojn astronomon
+80	5380	korpuso	korpusoj korpusojn korpuson
+81	5381	dujara	dujaraj dujarajn dujaran
+82	5382	rosmaro	rosmaroj rosmarojn rosmaron
+83	5383	tertremo	tertremoj tertremojn tertremon
+84	5384	mistrakti	mistraktanta mistraktantaj mistraktantajn mistraktantan mistraktante mistraktas mistraktata mistraktataj mistraktatajn mistraktatan mistraktate mistraktinta mistraktintaj mistraktintajn mistraktintan mistraktinte mistraktis mistraktita mistraktitaj mistraktitajn mistraktitan mistraktite mistraktonta mistraktontaj mistraktontajn mistraktontan mistraktonte mistraktos mistraktu mistraktus
+85	5385	ŝtopilo	ŝtopiloj ŝtopilojn ŝtopilon
+86	5386	rajtigo	rajtigoj rajtigojn rajtigon
+87	5387	angle	
+88	5388	go	
+89	5389	pensmaniero	pensmanieroj pensmanierojn pensmanieron
+90	5390	scivolemo	scivolemoj scivolemojn scivolemon
+91	5391	sendanĝera	sendanĝeraj sendanĝerajn sendanĝeran
+92	5392	intrigi	intriganta intrigantaj intrigantajn intrigantan intrigante intrigantoj intrigas intriginta intrigintaj intrigintajn intrigintan intriginte intrigis intrigonta intrigontaj intrigontajn intrigontan intrigonte intrigos intrigu intrigus
+93	5393	kalifo	kalifoj kalifojn kalifon
+94	5394	ingredienco	ingrediencoj ingrediencojn ingrediencon
+95	5395	socie	
+96	5396	aborto	abortoj abortojn aborton
+97	5397	sinistra	sinistraj sinistrajn sinistran
+98	5398	purpura	purpuraj purpurajn purpuran
+99	5399	cerba	cerbaj cerbajn cerban
+100	5400	senprecedenca	senprecedencaj senprecedencajn senprecedencan

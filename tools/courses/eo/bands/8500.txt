@@ -1,0 +1,100 @@
+1	8401	eĥi	eĥanta eĥantaj eĥantajn eĥantan eĥante eĥas eĥinta eĥintaj eĥintajn eĥintan eĥinte eĥis eĥonta eĥontaj eĥontajn eĥontan eĥonte eĥos eĥu eĥus
+2	8402	rugbeo	rugbeoj rugbeojn rugbeon
+3	8403	runo	runoj runojn runon
+4	8404	nominativo	nominativoj nominativojn nominativon
+5	8405	remparo	remparoj remparojn remparon
+6	8406	gitaristo	gitaristoj gitaristojn gitariston
+7	8407	alegorio	alegorioj alegoriojn alegorion
+8	8408	pastra	pastraj pastrajn pastran
+9	8409	laguno	lagunoj lagunojn lagunon
+10	8410	feminismo	feminismoj feminismojn feminismon
+11	8411	jogo	jogoj jogojn jogon
+12	8412	dativo	dativoj dativojn dativon
+13	8413	kozako	kozakoj kozakojn kozakon
+14	8414	kuristo	kuristoj kuristojn kuriston
+15	8415	ĉefpunkto	ĉefpunktoj ĉefpunktojn
+16	8416	logaritmo	logaritmoj logaritmojn logaritmon
+17	8417	materialisma	materialismaj materialismajn materialisman
+18	8418	panikiĝi	panikiĝanta panikiĝantaj panikiĝantajn panikiĝantan panikiĝante panikiĝas panikiĝinta panikiĝintaj panikiĝintajn panikiĝintan panikiĝinte panikiĝis panikiĝonta panikiĝontaj panikiĝontajn panikiĝontan panikiĝonte panikiĝos panikiĝu panikiĝus
+19	8419	paroĥano	paroĥanoj paroĥanojn paroĥanon
+20	8420	opo	opoj opojn opon
+21	8421	trolo	troloj trolojn trolon
+22	8422	vila	vilan
+23	8423	viziero	vizieroj vizierojn vizieron
+24	8424	meteoro	meteoroj meteorojn meteoron
+25	8425	ranido	ranidoj ranidojn ranidon
+26	8426	kakao	kakaoj kakaojn kakaon
+27	8427	jugo	jugoj jugojn jugon
+28	8428	laŭmoda	laŭmodaj laŭmodajn laŭmodan
+29	8429	ekflami	ekflamanta ekflamantaj ekflamantajn ekflamantan ekflamante ekflamas ekflaminta ekflamintaj ekflamintajn ekflamintan ekflaminte ekflamis ekflamonta ekflamontaj ekflamontajn ekflamontan ekflamonte ekflamos ekflamu ekflamus
+30	8430	akvoenergio	akvoenergioj akvoenergiojn akvoenergion
+31	8431	komputilludo	komputilludoj komputilludojn komputilludon
+32	8432	arkiduko	arkidukoj arkidukojn arkidukon
+33	8433	deklinacio	deklinacioj deklinaciojn deklinacion
+34	8434	inhibicii	inhibicianta inhibiciantaj inhibiciantajn inhibiciantan inhibiciante inhibicias inhibiciinta inhibiciintaj inhibiciintajn inhibiciintan inhibiciinte inhibiciis inhibicionta inhibiciontaj inhibiciontajn inhibiciontan inhibicionte inhibicios inhibiciu inhibicius
+35	8435	nerefutebla	nerefuteblaj nerefuteblajn nerefuteblan
+36	8436	batalpreta	batalpretaj batalpretajn batalpretan
+37	8437	senkulpigo	senkulpigoj senkulpigojn senkulpigon
+38	8438	lesba	lesbaj lesbajn lesban
+39	8439	vakero	vakeroj vakerojn vakeron
+40	8440	basgitaro	basgitaroj basgitarojn basgitaron
+41	8441	tatuo	tatuoj tatuojn tatuon
+42	8442	terakoto	terakotoj terakotojn terakoton
+43	8443	gvati	gvatanta gvatantaj gvatantajn gvatantan gvatante gvatas gvatata gvatataj gvatatajn gvatatan gvatate gvatinta gvatintaj gvatintajn gvatintan gvatinte gvatis gvatita gvatitaj gvatitajn gvatitan gvatite gvatonta gvatontaj gvatontajn gvatontan gvatonte gvatos gvatu gvatus
+44	8444	astmo	astmoj astmojn astmon
+45	8445	klasbatalo	klasbataloj klasbatalojn klasbatalon
+46	8446	poŝmono	poŝmonoj poŝmonojn poŝmonon
+47	8447	patroni	patronanta patronantaj patronantajn patronantan patronante patronas patronata patronataj patronatajn patronatan patronate patroninta patronintaj patronintajn patronintan patroninte patronis patronita patronitaj patronitajn patronitan patronite patrononta patronontaj patronontajn patronontan patrononte patronos patronu patronus
+48	8448	kokoso	kokosoj kokosojn kokoson
+49	8449	meteologio	meteologioj meteologiojn meteologion
+50	8450	eskorti	eskortanta eskortantaj eskortantajn eskortantan eskortante eskortas eskortata eskortataj eskortatajn eskortatan eskortate eskortinta eskortintaj eskortintajn eskortintan eskortinte eskortis eskortita eskortitaj eskortitajn eskortitan eskortite eskortonta eskortontaj eskortontajn eskortontan eskortonte eskortos eskortu eskortus
+51	8451	sciteorio	sciteorioj sciteoriojn sciteorion
+52	8452	titanio	titanioj titaniojn titanion
+53	8453	patriotismo	patriotismoj patriotismojn patriotismon
+54	8454	etruska	etruskaj etruskajn etruskan
+55	8455	ovala	ovalaj ovalajn ovalan
+56	8456	podkasto	podkastoj podkastojn podkaston
+57	8457	majusklo	majuskloj majusklojn majusklon
+58	8458	laborema	laboremaj laboremajn laboreman
+59	8459	makako	makakoj makakojn makakon
+60	8460	opio	opioj opiojn opion
+61	8461	manpremo	manpremoj manpremojn manpremon
+62	8462	titana	titanaj titanajn titanan
+63	8463	mariĥuano	mariĥuanoj mariĥuanojn mariĥuanon
+64	8464	multipliki	multiplikanta multiplikantaj multiplikantajn multiplikantan multiplikante multiplikas multiplikata multiplikataj multiplikatajn multiplikatan multiplikate multiplikato multiplikatojn multiplikaton multiplikinta multiplikintaj multiplikintajn multiplikintan multiplikinte multiplikis multiplikita multiplikitaj multiplikitajn multiplikitan multiplikite multiplikonta multiplikontaj multiplikontajn multiplikontan multiplikonte multiplikos multipliku multiplikus
+65	8465	kovi	kovanta kovantaj kovantajn kovantan kovante kovas kovata kovataj kovatajn kovatan kovate kovinta kovintaj kovintajn kovintan kovinte kovis kovita kovitaj kovitajn kovitan kovite kovonta kovontaj kovontajn kovontan kovonte kovos kovu kovus
+66	8466	lado	ladoj ladojn ladon
+67	8467	navaha	navahaj navahajn navahan
+68	8468	grifo	grifoj grifojn grifon
+69	8469	liceo	liceoj liceojn liceon
+70	8470	akirebla	akireblaj akireblajn akireblan
+71	8471	benigna	benignaj benignajn benignan
+72	8472	groto	grotoj grotojn groton
+73	8473	esperantista	esperantistaj esperantistajn esperantistan
+74	8474	flirti	flirtanta flirtantaj flirtantajn flirtantan flirtante flirtas flirtinta flirtintaj flirtintajn flirtintan flirtinte flirtis flirtonta flirtontaj flirtontajn flirtontan flirtonte flirtos flirtu flirtus
+75	8475	procesi	procesanta procesantaj procesantajn procesantan procesante procesantoj procesas procesata procesataj procesatajn procesatan procesate procesinta procesintaj procesintajn procesintan procesinte procesis procesita procesitaj procesitajn procesitan procesite procesonta procesontaj procesontajn procesontan procesonte procesos procesu procesus
+76	8476	edzeca	edzecaj edzecajn edzecan
+77	8477	estiĝo	estiĝoj estiĝojn estiĝon
+78	8478	gango	gangoj gangojn gangon
+79	8479	altruismo	altruismoj altruismojn altruismon
+80	8480	gruzo	gruzoj gruzojn gruzon
+81	8481	radioaktiveco	radioaktivecoj radioaktivecojn radioaktivecon
+82	8482	keroseno	kerosenoj kerosenojn kerosenon
+83	8483	tataro	tataroj tatarojn tataron
+84	8484	interregistara	interregistaraj interregistarajn interregistaran
+85	8485	novnaskito	novnaskitoj novnaskitojn novnaskiton
+86	8486	fosfato	fosfatoj fosfatojn fosfaton
+87	8487	alpingli	alpinglanta alpinglantaj alpinglantajn alpinglantan alpinglante alpinglas alpinglata alpinglataj alpinglatajn alpinglatan alpinglate alpinglinta alpinglintaj alpinglintajn alpinglintan alpinglinte alpinglis alpinglita alpinglitaj alpinglitajn alpinglitan alpinglite alpinglonta alpinglontaj alpinglontajn alpinglontan alpinglonte alpinglos alpinglu alpinglus
+88	8488	tamburi	tamburanta tamburantaj tamburantajn tamburantan tamburante tamburas tamburinta tamburintaj tamburintajn tamburintan tamburinte tamburis tamburonta tamburontaj tamburontajn tamburontan tamburonte tamburos tamburu tamburus
+89	8489	truto	trutoj trutojn truton
+90	8490	paralizi	paralizanta paralizantaj paralizantajn paralizantan paralizante paralizas paralizinta paralizintaj paralizintajn paralizintan paralizinte paralizis paralizonta paralizontaj paralizontajn paralizontan paralizonte paralizos paralizu paralizus
+91	8491	meĉo	meĉoj meĉojn meĉon
+92	8492	disvolvigi	disvolviganta disvolvigantaj disvolvigantajn disvolvigantan disvolvigante disvolvigas disvolvigata disvolvigataj disvolvigatajn disvolvigatan disvolvigate disvolviginta disvolvigintaj disvolvigintajn disvolvigintan disvolviginte disvolvigis disvolvigita disvolvigitaj disvolvigitajn disvolvigitan disvolvigite disvolvigonta disvolvigontaj disvolvigontajn disvolvigontan disvolvigonte disvolvigos disvolvigu disvolvigus
+93	8493	lemo	lemoj lemojn lemon
+94	8494	sencela	sencelaj sencelajn sencelan
+95	8495	furoro	furoroj furorojn furoron
+96	8496	bulteno	bultenoj bultenojn bultenon
+97	8497	iberia	iberiaj iberiajn iberian
+98	8498	pie	
+99	8499	fenikso	feniksoj feniksojn fenikson
+100	8500	hordeo	hordeoj hordeojn hordeon

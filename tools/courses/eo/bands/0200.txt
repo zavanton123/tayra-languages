@@ -1,0 +1,100 @@
+1	101	nova	novaj novajn novan
+2	102	eble	
+3	103	preni	prenanta prenantaj prenantajn prenantan prenante prenanto prenas prenata prenataj prenatajn prenatan prenate preninta prenintaj prenintajn prenintan preninte prenis prenita prenitaj prenitajn prenitan prenite prenonta prenontaj prenontajn prenontan prenonte prenos prenota prenotaj prenu prenus
+4	104	vivo	vivoj vivojn vivon
+5	105	tago	tagoj tagojn tagon
+6	106	tamen	
+7	107	ekzemple	
+8	108	morti	mortanta mortantaj mortantajn mortantan mortante mortanto mortanton mortas mortinta mortintaj mortintajn mortintan mortinte mortinto mortintoj mortintojn mortinton mortis mortonta mortontaj mortontajn mortontan mortonte mortonto mortontoj mortontojn mortos mortu mortus
+9	109	atendi	atendanta atendantaj atendantajn atendantan atendante atendas atendata atendataj atendatajn atendatan atendate atendinta atendintaj atendintajn atendintan atendinte atendis atendita atenditaj atenditajn atenditan atendite atendonta atendontaj atendontajn atendontan atendonte atendos atendota atendu atendus
+10	110	tia	tiaj tiajn tian
+11	111	pensi	pensanta pensantaj pensantajn pensantan pensante pensanto pensantoj pensas pensata pensataj pensatajn pensatan pensate pensinta pensintaj pensintajn pensintan pensinte pensis pensita pensitaj pensitajn pensitan pensite pensonta pensontaj pensontajn pensontan pensonte pensos pensu pensus
+12	112	dio	dioj diojn dion
+13	113	ho	
+14	114	kompreni	komprenanta komprenantaj komprenantajn komprenantan komprenante komprenantoj komprenas komprenata komprenataj komprenatajn komprenatan komprenate kompreninta komprenintaj komprenintajn komprenintan kompreninte komprenis komprenita komprenitaj komprenitajn komprenitan komprenite komprenonta komprenontaj komprenontajn komprenontan komprenonte komprenos komprenota komprenotaj komprenu komprenus
+15	115	sinjoro	s-ro sinjoroj sinjorojn sinjoron
+16	116	helpi	helpanta helpantaj helpantajn helpantan helpante helpanto helpantoj helpantojn helpanton helpas helpata helpataj helpatajn helpatan helpate helpinta helpintaj helpintajn helpintan helpinte helpis helpita helpitaj helpitajn helpitan helpite helponta helpontaj helpontajn helpontan helponte helpos helpu helpus
+17	117	iĝi	iĝanta iĝantaj iĝantajn iĝantan iĝante iĝas iĝinta iĝintaj iĝintajn iĝintan iĝinte iĝis iĝonta iĝontaj iĝontajn iĝontan iĝonte iĝos iĝu iĝus
+18	118	plu	
+19	119	ankoraŭ	
+20	120	neniam	
+21	121	nenio	nenion
+22	122	bezoni	bezonanta bezonantaj bezonantajn bezonantan bezonante bezonanton bezonas bezonataj bezonatajn bezonatan bezonate bezoninta bezonintaj bezonintajn bezonintan bezoninte bezonis bezonita bezonitaj bezonitajn bezonitan bezonite bezononta bezonontaj bezonontajn bezonontan bezononte bezonos bezonu bezonus
+23	123	ĉiam	chiam
+24	124	tiam	
+25	125	koni	konanta konantaj konantajn konantan konante konas konata konataj konatajn konatan konate konato konatoj konatojn konaton koninta konintaj konintajn konintan koninte konis konita konitaj konitajn konitan konite kononta konontaj konontajn konontan kononte konos konu konus
+26	126	vere	
+27	127	kia	kiaj kiajn kian
+28	128	vivi	vivanta vivantaj vivantajn vivantan vivante vivanto vivantoj vivanton vivas vivinta vivintaj vivintajn vivintan vivinte vivis vivonta vivontaj vivontajn vivontan vivonte vivos vivu vivus
+29	129	danko	dankoj dankojn dankon
+30	130	patro	patroj patrojn patron
+31	131	mondo	mondoj mondojn mondon
+32	132	sen	
+33	133	multe	
+34	134	lasi	lasanta lasantaj lasantajn lasantan lasante lasas lasata lasataj lasatajn lasatan lasate lasinta lasintaj lasintajn lasintan lasinte lasis lasita lasitaj lasitajn lasitan lasite lasonta lasontaj lasontajn lasontan lasonte lasos lasu lasus
+35	135	mem	
+36	136	peti	petanta petantaj petantajn petantan petante petanto petantoj petas petata petataj petatajn petatan petate petinta petintaj petintajn petintan petinte petis petita petitaj petitajn petitan petite petito petonta petontaj petontajn petontan petonte petos petu petus
+37	137	sub	
+38	138	parto	partoj partojn parton
+39	139	ofte	
+40	140	tri	
+41	141	grava	gravaj gravajn gravan
+42	142	infano	infanoj infanojn infanon
+43	143	kontraŭ	kontrau
+44	144	nomi	nomanta nomantaj nomantajn nomantan nomante nomas nomata nomataj nomatajn nomatan nomate nominta nomintaj nomintajn nomintan nominte nomis nomita nomitaj nomitajn nomitan nomite nomonta nomontaj nomontajn nomontan nomonte nomos nomota nomu nomus
+45	145	nomo	nomoj nomojn nomon
+46	146	reveni	revenanta revenantaj revenantajn revenantan revenante revenas reveninta revenintaj revenintajn revenintan reveninte revenintoj revenis revenonta revenontaj revenontajn revenontan revenonte revenos revenu revenus
+47	147	tra	
+48	148	kredi	kredanta kredantaj kredantajn kredantan kredante kredanto kredantoj kredantojn kredanton kredas kredata kredataj kredatajn kredatan kredate kredinta kredintaj kredintajn kredintan kredinte kredis kredita kreditaj kreditajn kreditan kredite kredonta kredontaj kredontajn kredontan kredonte kredos kredu kredus
+49	149	tuta	tutaj tutajn tutan
+50	150	montri	montranta montrantaj montrantajn montrantan montrante montras montrata montrataj montratajn montratan montrate montrinta montrintaj montrintajn montrintan montrinte montris montrita montritaj montritajn montritan montrite montronta montrontaj montrontajn montrontan montronte montros montrota montru montrus
+51	151	foriri	foriranta forirantaj forirantajn forirantan forirante foriranton foriras foririnta foririntaj foririntajn foririntan foririnte foriris forironta forirontaj forirontajn forirontan forironte foriros foriru forirus
+52	152	loko	lokoj lokojn lokon
+53	153	ricevi	ricevanta ricevantaj ricevantajn ricevantan ricevante ricevanto ricevantoj ricevantojn ricevanton ricevas ricevata ricevataj ricevatajn ricevatan ricevate ricevinta ricevintaj ricevintajn ricevintan ricevinte ricevis ricevita ricevitaj ricevitajn ricevitan ricevite ricevonta ricevontaj ricevontajn ricevontan ricevonte ricevos ricevu ricevus
+54	154	tuj	
+55	155	tiom	
+56	156	tute	
+57	157	komenci	komencanta komencantaj komencantajn komencantan komencante komencanto komencantoj komencantojn komencas komencata komencataj komencatajn komencatan komencate komencinta komencintaj komencintajn komencintan komencinte komencis komencita komencitaj komencitajn komencitan komencite komenconta komencontaj komencontajn komencontan komenconte komencos komencu komencus
+58	158	lando	landoj landojn landon
+59	159	pardoni	pardonanta pardonantaj pardonantajn pardonantan pardonante pardonas pardonata pardonataj pardonatajn pardonatan pardonate pardoninta pardonintaj pardonintajn pardonintan pardoninte pardonis pardonita pardonitaj pardonitajn pardonitan pardonite pardononta pardonontaj pardonontajn pardonontan pardononte pardonos pardonu pardonus
+60	160	ŝati	shatas shatata shatus ŝatanta ŝatantaj ŝatantajn ŝatantan ŝatante ŝatanto ŝatantoj ŝatanton ŝatas ŝatata ŝatataj ŝatatajn ŝatatan ŝatate ŝatato ŝatinta ŝatintaj ŝatintajn ŝatintan ŝatinte ŝatis ŝatita ŝatitaj ŝatitajn ŝatitan ŝatite ŝatonta ŝatontaj ŝatontajn ŝatontan ŝatonte ŝatos ŝatu ŝatus
+61	161	aŭdi	audi aŭdanta aŭdantaj aŭdantajn aŭdantan aŭdante aŭdas aŭdata aŭdataj aŭdatajn aŭdatan aŭdate aŭdinta aŭdintaj aŭdintajn aŭdintan aŭdinte aŭdis aŭdita aŭditaj aŭditajn aŭditan aŭdite aŭdonta aŭdontaj aŭdontajn aŭdontan aŭdonte aŭdos aŭdu aŭdus
+62	162	laboro	laboroj laborojn laboron
+63	163	certe	
+64	164	permesi	permesanta permesantaj permesantajn permesantan permesante permesas permesata permesataj permesatajn permesatan permesate permesinta permesintaj permesintajn permesintan permesinte permesis permesita permesitaj permesitajn permesitan permesite permesonta permesontaj permesontajn permesontan permesonte permesos permesota permesu permesus
+65	165	saluto	sal salutoj salutojn saluton
+66	166	manĝi	manghas mangxi mangxu manĝanta manĝantaj manĝantajn manĝantan manĝante manĝanto manĝantoj manĝas manĝata manĝataj manĝatajn manĝatan manĝate manĝinta manĝintaj manĝintajn manĝintan manĝinte manĝis manĝita manĝitaj manĝitajn manĝitan manĝite manĝonta manĝontaj manĝontajn manĝontan manĝonte manĝos manĝu manĝus
+67	167	iom	
+68	168	si	sin
+69	169	skribi	skribanta skribantaj skribantajn skribantan skribante skribas skribata skribataj skribatajn skribatan skribate skribinta skribintaj skribintajn skribintan skribinte skribis skribita skribitaj skribitajn skribitan skribite skribito skribonta skribontaj skribontajn skribontan skribonte skribos skribu skribus
+70	170	sama	samaj samajn saman
+71	171	for	
+72	172	tro	
+73	173	afero	aferoj aferojn aferon
+74	174	amiko	amikoj amikojn amikon
+75	175	hodiaŭ	hodiau hodiaux
+76	176	bonvoli	bonvolanta bonvolantaj bonvolantajn bonvolantan bonvolante bonvolas bonvolinta bonvolintaj bonvolintajn bonvolintan bonvolinte bonvolis bonvolonta bonvolontaj bonvolontajn bonvolontan bonvolonte bonvolos bonvolu bonvolus bv
+77	177	milito	militoj militojn militon
+78	178	kiom	
+79	179	paĉjo	paĉjoj paĉjojn paĉjon
+80	180	ludi	ludanta ludantaj ludantajn ludantan ludante ludanto ludantoj ludantojn ludanton ludas ludata ludataj ludatajn ludatan ludate ludinta ludintaj ludintajn ludintan ludinte ludis ludita luditaj luditajn luditan ludite ludito luditoj ludonta ludontaj ludontajn ludontan ludonte ludos ludu ludus
+81	181	mortigi	mortiganta mortigantaj mortigantajn mortigantan mortigante mortigas mortigata mortigataj mortigatajn mortigatan mortigate mortiginta mortigintaj mortigintajn mortigintan mortiginte mortiginto mortigis mortigita mortigitaj mortigitajn mortigitan mortigite mortigitoj mortigonta mortigontaj mortigontajn mortigontan mortigonte mortigos mortigotaj mortigotan mortigu mortigus
+82	182	alta	altaj altajn altan
+83	183	panjo	panjoj panjojn panjon
+84	184	lingvo	lingvoj lingvojn lingvon
+85	185	sekvi	sekvanta sekvantaj sekvantajn sekvantan sekvante sekvanto sekvantoj sekvantojn sekvas sekvata sekvataj sekvatajn sekvatan sekvate sekvinta sekvintaj sekvintajn sekvintan sekvinte sekvis sekvita sekvitaj sekvitajn sekvitan sekvite sekvonta sekvontaj sekvontajn sekvontan sekvonte sekvontojn sekvos sekvota sekvotaj sekvu sekvus
+86	186	kvankam	
+87	187	viro	viroj virojn viron
+88	188	labori	laboranta laborantaj laborantajn laborantan laborante laboranto laborantoj laboras laborinta laborintaj laborintajn laborintan laborinte laboris laboronta laborontaj laborontajn laborontan laboronte laboros laboru laborus
+89	189	ekde	
+90	190	rapide	
+91	191	virino	virinoj virinojn virinon
+92	192	uzita	uzitaj uzitajn uzitan
+93	193	inkludi	inkludanta inkludantaj inkludantajn inkludantan inkludante inkludas inkludata inkludataj inkludatajn inkludatan inkludate inkludinta inkludintaj inkludintajn inkludintan inkludinte inkludis inkludita inkluditaj inkluditajn inkluditan inkludite inkludonta inkludontaj inkludontajn inkludontan inkludonte inkludos inkludota inkludu inkludus
+94	194	filo	filoj filojn filon
+95	195	provi	provanta provantaj provantajn provantan provante provas provata provataj provatajn provatan provate provinta provintaj provintajn provintan provinte provis provita provitaj provitajn provitan provite provonta provontaj provontajn provontan provonte provos provu provus
+96	196	aŭskulti	aŭskultanta aŭskultantaj aŭskultantajn aŭskultantan aŭskultante aŭskultanto aŭskultantoj aŭskultantojn aŭskultanton aŭskultas aŭskultata aŭskultataj aŭskultatajn aŭskultatan aŭskultate aŭskultinta aŭskultintaj aŭskultintajn aŭskultintan aŭskultinte aŭskultis aŭskultita aŭskultitaj aŭskultitajn aŭskultitan aŭskultite aŭskultonta aŭskultontaj aŭskultontajn aŭskultontan aŭskultonte aŭskultos aŭskultu aŭskultus
+97	197	sistemo	sistemoj sistemojn sistemon
+98	198	meti	metanta metantaj metantajn metantan metante metas metata metataj metatajn metatan metate metinta metintaj metintajn metintan metinte metis metita metitaj metitajn metitan metite metonta metontaj metontajn metontan metonte metos metota metotaj metu metus
+99	199	malgranda	malgrandaj malgrandajn malgrandan
+100	200	kune	

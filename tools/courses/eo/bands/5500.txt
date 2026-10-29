@@ -1,0 +1,100 @@
+1	5401	piedpilko	piedpilkoj piedpilkojn piedpilkon
+2	5402	firmigi	firmiganta firmigantaj firmigantajn firmigantan firmigante firmigas firmigata firmigataj firmigatajn firmigatan firmigate firmiginta firmigintaj firmigintajn firmigintan firmiginte firmigis firmigita firmigitaj firmigitajn firmigitan firmigite firmigonta firmigontaj firmigontajn firmigontan firmigonte firmigos firmigu firmigus
+3	5403	cirko	cirkoj cirkojn cirkon
+4	5404	kantono	kantonoj kantonojn kantonon
+5	5405	malstabila	malstabilaj malstabilajn malstabilan
+6	5406	reviviĝo	reviviĝoj reviviĝojn reviviĝon
+7	5407	kokaino	kokainoj kokainojn kokainon
+8	5408	dorloti	dorlotanta dorlotantaj dorlotantajn dorlotantan dorlotante dorlotas dorlotata dorlotataj dorlotatajn dorlotatan dorlotate dorlotinta dorlotintaj dorlotintajn dorlotintan dorlotinte dorlotis dorlotita dorlotitaj dorlotitajn dorlotitan dorlotite dorlotonta dorlotontaj dorlotontajn dorlotontan dorlotonte dorlotos dorlotu dorlotus
+9	5409	admirinda	admirindaj admirindajn admirindan
+10	5410	artaĵo	artaĵoj artaĵojn artaĵon
+11	5411	june	
+12	5412	kerna	kernaj kernajn kernan
+13	5413	bazlernejo	bazlernejoj bazlernejojn bazlernejon
+14	5414	konfuza	konfuzaj konfuzajn konfuzan
+15	5415	boligi	boliganta boligantaj boligantajn boligantan boligante boligas boligata boligataj boligatajn boligatan boligate boliginta boligintaj boligintajn boligintan boliginte boligis boligita boligitaj boligitajn boligitan boligite boligonta boligontaj boligontajn boligontan boligonte boligos boligu boligus
+16	5416	akuŝo	akuŝoj akuŝojn akuŝon
+17	5417	prudento	prudentoj prudentojn prudenton
+18	5418	teknikisto	teknikistoj teknikistojn teknikiston teĥnikistoj
+19	5419	mateo	mateoj mateojn mateon
+20	5420	zorgeme	
+21	5421	hoko	hokoj hokojn hokon
+22	5422	policejo	policejoj policejojn policejon
+23	5423	kvalita	kvalitaj kvalitajn kvalitan
+24	5424	monaĥa	monaĥaj monaĥajn monaĥan
+25	5425	hereda	heredaj heredajn heredan
+26	5426	ŝoseo	ŝoseoj ŝoseojn ŝoseon
+27	5427	grasa	grasaj grasajn grasan
+28	5428	koloniano	kolonianoj kolonianojn kolonianon
+29	5429	nuanco	nuancoj nuancojn nuancon
+30	5430	detale	
+31	5431	nervoza	nervozaj nervozajn nervozan
+32	5432	disvolvi	disvolvanta disvolvantaj disvolvantajn disvolvantan disvolvante disvolvas disvolvata disvolvataj disvolvatajn disvolvatan disvolvate disvolvinta disvolvintaj disvolvintajn disvolvintan disvolvinte disvolvis disvolvita disvolvitaj disvolvitajn disvolvitan disvolvite disvolvonta disvolvontaj disvolvontajn disvolvontan disvolvonte disvolvos disvolvu disvolvus
+33	5433	tajpilo	tajpiloj tajpilojn tajpilon
+34	5434	intelekto	intelektoj intelektojn intelekton
+35	5435	radiuso	radiusoj radiusojn radiuson
+36	5436	delegacio	delegacioj delegaciojn delegacion
+37	5437	pipo	pipoj pipojn pipon
+38	5438	departemento	departementoj departementojn departementon
+39	5439	kajto	kajtoj kajtojn kajton
+40	5440	eksa	eksaj eksajn eksan
+41	5441	buroo	burooj buroojn buroon
+42	5442	trifoje	
+43	5443	koordinato	koordinatoj koordinatojn koordinaton
+44	5444	dolĉaĵo	dolĉaĵoj dolĉaĵojn dolĉaĵon
+45	5445	forpaso	forpasoj forpasojn forpason
+46	5446	peranto	perantoj perantojn peranton
+47	5447	suverena	suverenaj suverenajn suverenan
+48	5448	ceremonia	ceremoniaj ceremoniajn ceremonian
+49	5449	sintaksa	sintaksaj sintaksajn sintaksan
+50	5450	unuiĝi	unuiĝanta unuiĝantaj unuiĝantajn unuiĝantan unuiĝante unuiĝas unuiĝintaj unuiĝintajn unuiĝintan unuiĝinte unuiĝis unuiĝonta unuiĝontaj unuiĝontajn unuiĝontan unuiĝonte unuiĝos unuiĝu unuiĝus
+51	5451	dormejo	dormejoj dormejojn dormejon
+52	5452	monate	
+53	5453	ĉimpanzo	ĉimpanzoj ĉimpanzojn ĉimpanzon
+54	5454	komputiko	komputikoj komputikojn komputikon
+55	5455	delegito	delegitoj delegitojn delegiton
+56	5456	brulego	brulegoj brulegojn brulegon
+57	5457	malkuraĝa	malkuraĝaj malkuraĝajn malkuraĝan
+58	5458	rifo	rifoj rifojn rifon
+59	5459	resalti	resaltanta resaltantaj resaltantajn resaltantan resaltante resaltas resaltinta resaltintaj resaltintajn resaltintan resaltinte resaltis resaltonta resaltontaj resaltontajn resaltontan resaltonte resaltos resaltu resaltus
+60	5460	folkloro	folkloroj folklorojn folkloron
+61	5461	heliumo	heliumoj heliumojn heliumon
+62	5462	degeli	degelanta degelantaj degelantajn degelantan degelante degelas degelinta degelintaj degelintajn degelintan degelinte degelis degelonta degelontaj degelontajn degelontan degelonte degelos degelu degelus
+63	5463	moraleco	moralecoj moralecojn moralecon
+64	5464	koncipi	koncipanta koncipantaj koncipantajn koncipantan koncipante koncipas koncipinta koncipintaj koncipintajn koncipintan koncipinte koncipis konciponta koncipontaj koncipontajn koncipontan konciponte koncipos koncipu koncipus
+65	5465	amfibio	amfibioj amfibiojn amfibion
+66	5466	semi	semanta semantaj semantajn semantan semante semas semata semataj sematajn sematan semate seminta semintaj semintajn semintan seminte semis semita semitaj semitajn semitan semite semonta semontaj semontajn semontan semonte semos semu semus
+67	5467	utileco	utilecoj utilecojn utilecon
+68	5468	pensio	pensioj pensiojn pension
+69	5469	retumilo	retumiloj retumilojn retumilon
+70	5470	nenecesa	nenecesaj nenecesajn nenecesan
+71	5471	asimilado	asimiladoj asimiladojn asimiladon
+72	5472	sentima	sentimaj sentimajn sentiman
+73	5473	vagadi	vagadanta vagadantaj vagadantajn vagadantan vagadante vagadas vagadinta vagadintaj vagadintajn vagadintan vagadinte vagadis vagadonta vagadontaj vagadontajn vagadontan vagadonte vagados vagadu vagadus
+74	5474	perfekteco	perfektecoj perfektecojn perfektecon
+75	5475	koeficiento	koeficientoj koeficientojn koeficienton
+76	5476	ĉirkaŭbraki	ĉirkaŭbrakanta ĉirkaŭbrakantaj ĉirkaŭbrakantajn ĉirkaŭbrakantan ĉirkaŭbrakante ĉirkaŭbrakas ĉirkaŭbrakata ĉirkaŭbrakataj ĉirkaŭbrakatajn ĉirkaŭbrakatan ĉirkaŭbrakate ĉirkaŭbrakinta ĉirkaŭbrakintaj ĉirkaŭbrakintajn ĉirkaŭbrakintan ĉirkaŭbrakinte ĉirkaŭbrakis ĉirkaŭbrakita ĉirkaŭbrakitaj ĉirkaŭbrakitajn ĉirkaŭbrakitan ĉirkaŭbrakite ĉirkaŭbrakonta ĉirkaŭbrakontaj ĉirkaŭbrakontajn ĉirkaŭbrakontan ĉirkaŭbrakonte ĉirkaŭbrakos ĉirkaŭbraku ĉirkaŭbrakus
+77	5477	martelo	marteloj martelojn martelon
+78	5478	interligo	interligoj interligojn interligon
+79	5479	ĉikani	ĉikananta ĉikanantaj ĉikanantajn ĉikanantan ĉikanante ĉikananto ĉikanantoj ĉikanas ĉikanata ĉikanataj ĉikanatajn ĉikanatan ĉikanate ĉikaninta ĉikanintaj ĉikanintajn ĉikanintan ĉikaninte ĉikanis ĉikanita ĉikanitaj ĉikanitajn ĉikanitan ĉikanite ĉikanonta ĉikanontaj ĉikanontajn ĉikanontan ĉikanonte ĉikanos ĉikanu ĉikanus
+80	5480	alojo	alojoj alojojn alojon
+81	5481	diferencigi	diferenciganta diferencigantaj diferencigantajn diferencigantan diferencigante diferencigas diferencigata diferencigataj diferencigatajn diferencigatan diferencigate diferenciginta diferencigintaj diferencigintajn diferencigintan diferenciginte diferencigis diferencigita diferencigitaj diferencigitajn diferencigitan diferencigite diferencigonta diferencigontaj diferencigontajn diferencigontan diferencigonte diferencigos diferencigu diferencigus
+82	5482	ŝafino	ŝafinoj ŝafinojn ŝafinon
+83	5483	prizono	prizonoj prizonojn prizonon
+84	5484	segi	seganta segantaj segantajn segantan segante segas segata segataj segatajn segatan segate seginta segintaj segintajn segintan seginte segis segita segitaj segitajn segitan segite segonta segontaj segontajn segontan segonte segos segu segus
+85	5485	ĉeko	ĉekoj ĉekojn ĉekon
+86	5486	ravi	ravanta ravantaj ravantajn ravantan ravante ravas ravata ravataj ravatajn ravatan ravate ravinta ravintaj ravintajn ravintan ravinte ravis ravita ravitaj ravitajn ravitan ravite ravonta ravontaj ravontajn ravontan ravonte ravos ravu ravus
+87	5487	komponaĵo	komponaĵoj komponaĵojn komponaĵon
+88	5488	pacienca	paciencaj paciencajn paciencan
+89	5489	okdek	
+90	5490	amoro	amoroj amorojn amoron
+91	5491	apelacio	apelacioj apelaciojn apelacion
+92	5492	nordoriento	nordorientoj nordorientojn nordorienton
+93	5493	balotado	balotadoj balotadojn balotadon
+94	5494	flakono	flakonoj flakonojn flakonon
+95	5495	rumo	rumoj rumojn rumon
+96	5496	graco	gracoj gracojn gracon
+97	5497	areno	arenoj arenojn arenon
+98	5498	kloako	kloakoj kloakojn kloakon
+99	5499	ĵaŭdo	jxauxdo ĵaŭdoj ĵaŭdojn ĵaŭdon
+100	5500	bizono	bizonoj bizonojn bizonon

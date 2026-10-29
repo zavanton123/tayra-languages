@@ -1,0 +1,100 @@
+1	3801	procesoro	procesoroj procesorojn procesoron
+2	3802	trankvilo	trankviloj trankvilojn trankvilon
+3	3803	maldekstro	maldekstroj maldekstrojn maldekstron
+4	3804	tragedio	tragedioj tragediojn tragedion
+5	3805	time	
+6	3806	subita	subitaj subitajn subitan
+7	3807	plejparto	plejpartoj plejpartojn plejparton
+8	3808	disvastiĝo	disvastiĝoj disvastiĝojn disvastiĝon
+9	3809	mizera	mizeraj mizerajn mizeran
+10	3810	negoco	negocoj negocojn negocon
+11	3811	eksterordinare	
+12	3812	okulharo	okulharoj okulharojn okulharon
+13	3813	ial	
+14	3814	kometo	kometoj kometojn kometon
+15	3815	fumo	fumoj fumojn fumon
+16	3816	inciti	incitanta incitantaj incitantajn incitantan incitante incitas incitata incitataj incitatajn incitatan incitate incitinta incitintaj incitintajn incitintan incitinte incitis incitita incititaj incititajn incititan incitite incitonta incitontaj incitontajn incitontan incitonte incitos incitu incitus
+17	3817	konkreta	konkretaj konkretajn konkretan
+18	3818	gefratoj	gefrato gefratojn gefraton
+19	3819	malĝoja	malĝojaj malĝojajn malĝojan
+20	3820	vori	voranta vorantaj vorantajn vorantan vorante voras vorata vorataj voratajn voratan vorate vorinta vorintaj vorintajn vorintan vorinte voris vorita voritaj voritajn voritan vorite voronta vorontaj vorontajn vorontan voronte voros voru vorus
+21	3821	fragmento	fragmentoj fragmentojn fragmenton
+22	3822	pa	
+23	3823	ekpensi	ekpensanta ekpensantaj ekpensantajn ekpensantan ekpensante ekpensas ekpensinta ekpensintaj ekpensintajn ekpensintan ekpensinte ekpensis ekpensonta ekpensontaj ekpensontajn ekpensontan ekpensonte ekpensos ekpensu ekpensus
+24	3824	deŝiri	deŝiranta deŝirantaj deŝirantajn deŝirantan deŝirante deŝiras deŝirinta deŝirintaj deŝirintajn deŝirintan deŝirinte deŝiris deŝironta deŝirontaj deŝirontajn deŝirontan deŝironte deŝiros deŝiru deŝirus
+25	3825	konstelacio	konstelacioj konstelaciojn konstelacion
+26	3826	strando	strandoj strandojn strandon
+27	3827	kuba	kubaj kubajn kuban
+28	3828	volontulo	volontuloj volontulojn volontulon
+29	3829	laika	laikaj laikajn laikan
+30	3830	tributo	tributoj tributojn tributon
+31	3831	supereco	superecoj superecojn superecon
+32	3832	intertempe	
+33	3833	malutili	malutilanta malutilantaj malutilantajn malutilantan malutilante malutilas malutilinta malutilintaj malutilintajn malutilintan malutilinte malutilis malutilonta malutilontaj malutilontajn malutilontan malutilonte malutilos malutilu malutilus
+34	3834	kuŝiĝi	kuŝiĝanta kuŝiĝantaj kuŝiĝantajn kuŝiĝantan kuŝiĝante kuŝiĝas kuŝiĝinta kuŝiĝintaj kuŝiĝintajn kuŝiĝintan kuŝiĝinte kuŝiĝis kuŝiĝonta kuŝiĝontaj kuŝiĝontajn kuŝiĝontan kuŝiĝonte kuŝiĝos kuŝiĝu kuŝiĝus
+35	3835	ekflugi	ekfluganta ekflugantaj ekflugantajn ekflugantan ekflugante ekflugas ekfluginta ekflugintaj ekflugintajn ekflugintan ekfluginte ekflugis ekflugonta ekflugontaj ekflugontajn ekflugontan ekflugonte ekflugos ekflugu ekflugus
+36	3836	nedankinde	
+37	3837	mallume	
+38	3838	okej	
+39	3839	nokoj	noko nokojn nokon
+40	3840	brilianto	briliantoj briliantojn brilianton
+41	3841	rediri	rediranta redirantaj redirantajn redirantan redirante rediras redirinta redirintaj redirintajn redirintan redirinte rediris redironta redirontaj redirontajn redirontan redironte rediros rediru redirus
+42	3842	tabelo	tabeloj tabelojn tabelon
+43	3843	eksporti	eksportanta eksportantaj eksportantajn eksportantan eksportante eksportanto eksportantoj eksportas eksportata eksportataj eksportatajn eksportatan eksportate eksportinta eksportintaj eksportintajn eksportintan eksportinte eksportis eksportita eksportitaj eksportitajn eksportitan eksportite eksportonta eksportontaj eksportontajn eksportontan eksportonte eksportos eksportu eksportus
+44	3844	tigo	tigoj tigojn tigon
+45	3845	abolicii	abolicianta aboliciantaj aboliciantajn aboliciantan aboliciante abolicias aboliciata aboliciataj aboliciatajn aboliciatan aboliciate aboliciinta aboliciintaj aboliciintajn aboliciintan aboliciinte aboliciis aboliciita aboliciitaj aboliciitajn aboliciitan aboliciite abolicionta aboliciontaj aboliciontajn aboliciontan abolicionte abolicios aboliciotaj aboliciu abolicius
+46	3846	satano	satanoj satanojn satanon
+47	3847	disŝiri	disŝiranta disŝirantaj disŝirantajn disŝirantan disŝirante disŝiras disŝirata disŝirataj disŝiratajn disŝiratan disŝirate disŝirinta disŝirintaj disŝirintajn disŝirintan disŝirinte disŝiris disŝirita disŝiritaj disŝiritajn disŝiritan disŝirite disŝironta disŝirontaj disŝirontajn disŝirontan disŝironte disŝiros disŝiru disŝirus
+48	3848	postaĵo	postaĵoj postaĵojn postaĵon
+49	3849	ledo	ledoj ledojn ledon
+50	3850	regimento	regimentoj regimentojn regimenton
+51	3851	etika	etikaj etikajn etikan
+52	3852	oportuna	oportunaj oportunajn oportunan
+53	3853	ekzekuti	ekzekutanta ekzekutantaj ekzekutantajn ekzekutantan ekzekutante ekzekutas ekzekutata ekzekutataj ekzekutatajn ekzekutatan ekzekutate ekzekutinta ekzekutintaj ekzekutintajn ekzekutintan ekzekutinte ekzekutis ekzekutita ekzekutitaj ekzekutitajn ekzekutitan ekzekutite ekzekutonta ekzekutontaj ekzekutontajn ekzekutontan ekzekutonte ekzekutos ekzekutu ekzekutus
+54	3854	depresio	depresioj depresiojn depresion
+55	3855	skoto	skotoj skotojn skoton
+56	3856	somera	someraj somerajn someran
+57	3857	makuli	makulanta makulantaj makulantajn makulantan makulante makulanto makulas makulata makulataj makulatajn makulatan makulate makulinta makulintaj makulintajn makulintan makulinte makulis makulita makulitaj makulitajn makulitan makulite makulonta makulontaj makulontajn makulontan makulonte makulos makulu makulus
+58	3858	komitato	komitatoj komitatojn komitaton
+59	3859	gramatika	gramatikaj gramatikajn gramatikan
+60	3860	navigi	naviganta navigantaj navigantajn navigantan navigante navigas navigata navigataj navigatajn navigatan navigate naviginta navigintaj navigintajn navigintan naviginte navigis navigita navigitaj navigitajn navigitan navigite navigonta navigontaj navigontajn navigontan navigonte navigos navigu navigus
+61	3861	konstati	konstatanta konstatantaj konstatantajn konstatantan konstatante konstatas konstatata konstatataj konstatatajn konstatatan konstatate konstatinta konstatintaj konstatintajn konstatintan konstatinte konstatis konstatita konstatitaj konstatitajn konstatitan konstatite konstatonta konstatontaj konstatontajn konstatontan konstatonte konstatos konstatu konstatus
+62	3862	ŝoko	ŝokoj ŝokojn ŝokon
+63	3863	indikilo	indikiloj indikilojn indikilon
+64	3864	mobilizi	mobilizanta mobilizantaj mobilizantajn mobilizantan mobilizante mobilizas mobilizata mobilizataj mobilizatajn mobilizatan mobilizate mobilizinta mobilizintaj mobilizintajn mobilizintan mobilizinte mobilizis mobilizita mobilizitaj mobilizitajn mobilizitan mobilizite mobilizonta mobilizontaj mobilizontajn mobilizontan mobilizonte mobilizos mobilizu mobilizus
+65	3865	motivo	motivoj motivojn motivon
+66	3866	neŭrono	neŭronoj neŭronojn neŭronon
+67	3867	veneno	venenoj venenojn venenon
+68	3868	diskreta	diskretaj diskretajn diskretan
+69	3869	laborejo	laborejoj laborejojn laborejon
+70	3870	honto	hontoj hontojn honton
+71	3871	prezentisto	prezentistoj prezentistojn prezentiston
+72	3872	sunlumo	sunlumoj sunlumojn sunlumon
+73	3873	kruta	krutaj krutajn krutan
+74	3874	eksiĝi	eksiĝanta eksiĝantaj eksiĝantajn eksiĝantan eksiĝante eksiĝas eksiĝinta eksiĝintaj eksiĝintajn eksiĝintan eksiĝinte eksiĝis eksiĝonta eksiĝontaj eksiĝontajn eksiĝontan eksiĝonte eksiĝos eksiĝu eksiĝus
+75	3875	korupto	koruptoj koruptojn korupton
+76	3876	ega	egaj egajn egan
+77	3877	vespera	vesperaj vesperajn vesperan
+78	3878	malabunda	malabundaj malabundajn malabundan
+79	3879	telegramo	telegramoj telegramojn telegramon
+80	3880	tagmezo	tagmezoj tagmezojn tagmezon
+81	3881	heroino	heroinoj heroinojn heroinon
+82	3882	pioniro	pioniroj pionirojn pioniron
+83	3883	taktiko	taktikoj taktikojn taktikon
+84	3884	elektrodo	elektrodoj elektrodojn elektrodon
+85	3885	kapableco	kapablecoj kapablecojn kapablecon
+86	3886	pasiva	pasivaj pasivajn pasivan
+87	3887	azeno	azenoj azenojn azenon
+88	3888	humila	humilaj humilajn humilan
+89	3889	plado	pladoj pladojn pladon
+90	3890	estri	estranta estrantaj estrantajn estrantan estrante estras estrata estrataj estratajn estratan estrate estrinta estrintaj estrintajn estrintan estrinte estris estrita estritaj estritajn estritan estrite estronta estrontaj estrontajn estrontan estronte estros estru estrus
+91	3891	luma	lumaj lumajn luman
+92	3892	briko	brikoj brikojn brikon
+93	3893	sorĉi	sorĉanta sorĉantaj sorĉantajn sorĉantan sorĉante sorĉanto sorĉas sorĉata sorĉataj sorĉatajn sorĉatan sorĉate sorĉinta sorĉintaj sorĉintajn sorĉintan sorĉinte sorĉis sorĉita sorĉitaj sorĉitajn sorĉitan sorĉite sorĉonta sorĉontaj sorĉontajn sorĉontan sorĉonte sorĉos sorĉu sorĉus
+94	3894	desegnaĵo	desegnaĵoj desegnaĵojn desegnaĵon
+95	3895	tuto	tutoj tutojn tuton
+96	3896	pulmo	pulmoj pulmojn pulmon
+97	3897	astronaŭto	astronaŭtoj astronaŭtojn astronaŭton
+98	3898	perfido	perfidoj perfidojn perfidon
+99	3899	suko	sukoj sukojn sukon
+100	3900	kolonelo	koloneloj kolonelojn kolonelon

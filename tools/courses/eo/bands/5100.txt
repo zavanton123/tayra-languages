@@ -1,0 +1,100 @@
+1	5001	ultimato	ultimatoj ultimatojn ultimaton
+2	5002	obsedi	obsedanta obsedantaj obsedantajn obsedantan obsedante obsedas obsedata obsedataj obsedatajn obsedatan obsedate obsedinta obsedintaj obsedintajn obsedintan obsedinte obsedis obsedita obseditaj obseditajn obseditan obsedite obsedonta obsedontaj obsedontajn obsedontan obsedonte obsedos obsedu obsedus
+3	5003	plezurigi	plezuriganta plezurigantaj plezurigantajn plezurigantan plezurigante plezurigas plezurigata plezurigataj plezurigatajn plezurigatan plezurigate plezuriginta plezurigintaj plezurigintajn plezurigintan plezuriginte plezurigis plezurigita plezurigitaj plezurigitajn plezurigitan plezurigite plezurigonta plezurigontaj plezurigontajn plezurigontan plezurigonte plezurigos plezurigu plezurigus
+4	5004	nekomprenebla	nekompreneblaj nekompreneblajn nekompreneblan
+5	5005	fumado	fumadoj fumadojn fumadon
+6	5006	hepato	hepatoj hepatojn hepaton
+7	5007	ordeno	ordenoj ordenojn ordenon
+8	5008	kirurgia	kirurgiaj kirurgiajn kirurgian
+9	5009	persisti	persistanta persistantaj persistantajn persistantan persistante persistas persistinta persistintaj persistintajn persistintan persistinte persistis persistonta persistontaj persistontajn persistontan persistonte persistos persistu persistus
+10	5010	kanelo	kaneloj kanelojn kanelon
+11	5011	kombi	kombanta kombantaj kombantajn kombantan kombante kombas kombata kombataj kombatajn kombatan kombate kombinta kombintaj kombintajn kombintan kombinte kombis kombita kombitaj kombitajn kombitan kombite kombonta kombontaj kombontajn kombontan kombonte kombos kombu kombus
+12	5012	asfalto	asfaltoj asfaltojn asfalton
+13	5013	hejmtasko	hejmtaskoj hejmtaskojn hejmtaskon
+14	5014	virina	virinaj virinajn virinan
+15	5015	malneta	malnetaj malnetajn malnetan
+16	5016	ebi	ebanta ebantaj ebantajn ebantan ebante ebas ebinta ebintaj ebintajn ebintan ebinte ebis ebonta ebontaj ebontajn ebontan ebonte ebos ebu ebus
+17	5017	neeviteble	
+18	5018	lanco	lancoj lancojn lancon
+19	5019	sintakso	sintaksoj sintaksojn sintakson
+20	5020	flegi	fleganta flegantaj flegantajn flegantan flegante flegantoj flegas flegata flegataj flegatajn flegatan flegate fleginta flegintaj flegintajn flegintan fleginte flegis flegita flegitaj flegitajn flegitan flegite flegonta flegontaj flegontajn flegontan flegonte flegos flegu flegus
+21	5021	blato	blatoj blatojn blaton
+22	5022	maturiĝi	maturiĝanta maturiĝantaj maturiĝantajn maturiĝantan maturiĝante maturiĝas maturiĝinta maturiĝintaj maturiĝintajn maturiĝintan maturiĝinte maturiĝis maturiĝonta maturiĝontaj maturiĝontajn maturiĝontan maturiĝonte maturiĝos maturiĝu maturiĝus
+23	5023	alti	altanta altantaj altantajn altantan altante altas altinta altintaj altintajn altintan altinte altis altonta altontaj altontajn altontan altonte altos altu altus
+24	5024	hu	
+25	5025	dukto	duktoj duktojn dukton
+26	5026	vegetara	vegetaraj vegetarajn vegetaran
+27	5027	vango	vangoj vangojn vangon
+28	5028	malbelega	malbelegaj malbelegajn malbelegan
+29	5029	stela	stelaj stelajn stelan
+30	5030	aktiveco	aktivecoj aktivecojn aktivecon
+31	5031	ikono	ikonoj ikonojn ikonon
+32	5032	devio	devioj deviojn devion
+33	5033	vilaĝano	vilaĝanoj vilaĝanojn vilaĝanon
+34	5034	ŝargo	ŝargoj ŝargojn ŝargon
+35	5035	ŝtona	ŝtonaj ŝtonajn ŝtonan
+36	5036	moduli	modulanta modulantaj modulantajn modulantan modulante modulas modulata modulataj modulatajn modulatan modulate modulinta modulintaj modulintajn modulintan modulinte modulis modulita modulitaj modulitajn modulitan modulite modulonta modulontaj modulontajn modulontan modulonte modulos modulu modulus
+37	5037	fiŝkaptisto	fiŝkaptistoj fiŝkaptistojn fiŝkaptiston
+38	5038	sieĝi	sieĝanta sieĝantaj sieĝantajn sieĝantan sieĝante sieĝantoj sieĝantojn sieĝas sieĝata sieĝataj sieĝatajn sieĝatan sieĝate sieĝinta sieĝintaj sieĝintajn sieĝintan sieĝinte sieĝis sieĝita sieĝitaj sieĝitajn sieĝitan sieĝite sieĝonta sieĝontaj sieĝontajn sieĝontan sieĝonte sieĝos sieĝu sieĝus
+39	5039	anstataŭigo	anstataŭigoj anstataŭigojn anstataŭigon
+40	5040	frosto	frostoj frostojn froston
+41	5041	riglilo	rigliloj riglilojn riglilon
+42	5042	atenco	atencoj atencojn atencon
+43	5043	diplomato	diplomatoj diplomatojn diplomaton
+44	5044	flegistino	flegistinoj flegistinojn flegistinon
+45	5045	escepta	esceptaj esceptajn esceptan
+46	5046	gramo	gramoj gramojn gramon
+47	5047	paroĥo	paroĥoj paroĥojn paroĥon
+48	5048	dorlotbesto	dorlotbestoj dorlotbestojn dorlotbeston
+49	5049	trankvileco	trankvilecoj trankvilecojn trankvilecon
+50	5050	fulmotondro	fulmotondroj fulmotondrojn fulmotondron
+51	5051	finance	
+52	5052	mato	matoj matojn maton
+53	5053	teda	tedaj tedajn tedan
+54	5054	silentigi	silentiganta silentigantaj silentigantajn silentigantan silentigante silentigas silentigata silentigataj silentigatajn silentigatan silentigate silentiginta silentigintaj silentigintajn silentigintan silentiginte silentigis silentigita silentigitaj silentigitajn silentigitan silentigite silentigonta silentigontaj silentigontajn silentigontan silentigonte silentigos silentigu silentigus
+55	5055	minus	
+56	5056	dentopasto	dentopastoj dentopastojn dentopaston
+57	5057	senkosta	senkostaj senkostajn senkostan
+58	5058	friti	fritanta fritantaj fritantajn fritantan fritante fritas fritata fritataj fritatajn fritatan fritate fritinta fritintaj fritintajn fritintan fritinte fritis fritita frititaj frititajn frititan fritite fritonta fritontaj fritontajn fritontan fritonte fritos fritu fritus
+59	5059	niĉo	niĉoj niĉojn niĉon
+60	5060	kuntiri	kuntiranta kuntirantaj kuntirantajn kuntirantan kuntirante kuntiras kuntirata kuntirataj kuntiratajn kuntiratan kuntirate kuntirinta kuntirintaj kuntirintajn kuntirintan kuntirinte kuntiris kuntirita kuntiritaj kuntiritajn kuntiritan kuntirite kuntironta kuntirontaj kuntirontajn kuntirontan kuntironte kuntiros kuntiru kuntirus
+61	5061	veturo	veturoj veturojn veturon
+62	5062	fosaĵo	fosaĵoj fosaĵojn fosaĵon
+63	5063	radioaktiva	radioaktivaj radioaktivajn radioaktivan
+64	5064	komplimento	komplimentoj komplimentojn komplimenton
+65	5065	malafabla	malafablaj malafablajn malafablan
+66	5066	frostigi	frostiganta frostigantaj frostigantajn frostigantan frostigante frostigas frostigata frostigataj frostigatajn frostigatan frostigate frostiginta frostigintaj frostigintajn frostigintan frostiginte frostigis frostigita frostigitaj frostigitajn frostigitan frostigite frostigonta frostigontaj frostigontajn frostigontan frostigonte frostigos frostigu frostigus
+67	5067	literumi	literumanta literumantaj literumantajn literumantan literumante literumanto literumantoj literumas literumata literumataj literumatajn literumatan literumate literuminta literumintaj literumintajn literumintan literuminte literumis literumita literumitaj literumitajn literumitan literumite literumonta literumontaj literumontajn literumontan literumonte literumos literumu literumus
+68	5068	fajra	fajraj fajrajn fajran
+69	5069	pluralo	pluraloj pluralojn pluralon
+70	5070	mojosa	mojosaj mojosajn mojosan
+71	5071	polvosuĉilo	polvosuĉiloj polvosuĉilojn polvosuĉilon
+72	5072	ĝermi	ĝermanta ĝermantaj ĝermantajn ĝermantan ĝermante ĝermas ĝerminta ĝermintaj ĝermintajn ĝermintan ĝerminte ĝermis ĝermonta ĝermontaj ĝermontajn ĝermontan ĝermonte ĝermos ĝermu ĝermus
+73	5073	lerteco	lertecoj lertecojn lertecon
+74	5074	metroo	metrooj metroojn metroon
+75	5075	orienten	
+76	5076	belga	belgaj belgajn belgan
+77	5077	aŭdilo	aŭdiloj aŭdilojn aŭdilon
+78	5078	krozoŝipo	krozoŝipoj krozoŝipojn krozoŝipon krozŝipo krozŝipoj krozŝipojn krozŝipon
+79	5079	apelacii	apelacianta apelaciantaj apelaciantajn apelaciantan apelaciante apelaciantoj apelacias apelaciata apelaciataj apelaciatajn apelaciatan apelaciate apelaciinta apelaciintaj apelaciintajn apelaciintan apelaciinte apelaciis apelaciita apelaciitaj apelaciitajn apelaciitan apelaciite apelacionta apelaciontaj apelaciontajn apelaciontan apelacionte apelacios apelaciu apelacius
+80	5080	mamzono	mamzonoj mamzonojn mamzonon
+81	5081	dezerta	dezertaj dezertajn dezertan
+82	5082	kontraŭdiri	kontraŭdiranta kontraŭdirantaj kontraŭdirantajn kontraŭdirantan kontraŭdirante kontraŭdiras kontraŭdirata kontraŭdirataj kontraŭdiratajn kontraŭdiratan kontraŭdirate kontraŭdirinta kontraŭdirintaj kontraŭdirintajn kontraŭdirintan kontraŭdirinte kontraŭdiris kontraŭdirita kontraŭdiritaj kontraŭdiritajn kontraŭdiritan kontraŭdirite kontraŭdironta kontraŭdirontaj kontraŭdirontajn kontraŭdirontan kontraŭdironte kontraŭdiros kontraŭdiru kontraŭdirus
+83	5083	talio	talioj taliojn talion
+84	5084	home	
+85	5085	abio	abioj abiojn abion
+86	5086	malespero	malesperoj malesperojn malesperon
+87	5087	taktika	taktikaj taktikajn taktikan
+88	5088	mentono	mentonoj mentonojn mentonon
+89	5089	ebena	ebenaj ebenajn ebenan
+90	5090	obskura	obskuraj obskurajn obskuran
+91	5091	skribisto	skribistoj skribistojn skribiston
+92	5092	ekspedi	ekspedas ekspedis ekspedus
+93	5093	eksplodilo	eksplodiloj eksplodilojn eksplodilon
+94	5094	malkontenta	malkontentaj malkontentajn malkontentan
+95	5095	nano	nanoj nanojn nanon
+96	5096	pramo	pramoj pramojn pramon
+97	5097	ema	emaj emajn eman
+98	5098	gotika	gotikaj gotikajn gotikan
+99	5099	dezirinda	dezirindaj dezirindajn dezirindan
+100	5100	dulingva	dulingvaj dulingvajn dulingvan

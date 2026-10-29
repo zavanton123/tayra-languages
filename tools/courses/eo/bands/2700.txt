@@ -1,0 +1,100 @@
+1	2601	foresto	forestoj forestojn foreston
+2	2602	senĉese	
+3	2603	hazarda	hazardaj hazardajn hazardan
+4	2604	ekskludi	ekskludanta ekskludantaj ekskludantajn ekskludantan ekskludante ekskludas ekskludata ekskludataj ekskludatajn ekskludatan ekskludate ekskludinta ekskludintaj ekskludintajn ekskludintan ekskludinte ekskludis ekskludita ekskluditaj ekskluditajn ekskluditan ekskludite ekskludonta ekskludontaj ekskludontajn ekskludontan ekskludonte ekskludos ekskludu ekskludus
+5	2605	atomo	atomoj atomojn atomon
+6	2606	klera	kleraj klerajn kleran
+7	2607	vikingo	vikingoj vikingojn vikingon
+8	2608	matenmanĝo	matenmangho matenmanĝoj matenmanĝojn matenmanĝon
+9	2609	revenigi	reveniganta revenigantaj revenigantajn revenigantan revenigante revenigas reveniginta revenigintaj revenigintajn revenigintan reveniginte revenigis revenigonta revenigontaj revenigontajn revenigontan revenigonte revenigos revenigu revenigus
+10	2610	adiaŭi	adiaŭanta adiaŭantaj adiaŭantajn adiaŭantan adiaŭante adiaŭas adiaŭinta adiaŭintaj adiaŭintajn adiaŭintan adiaŭinte adiaŭis adiaŭonta adiaŭontaj adiaŭontajn adiaŭontan adiaŭonte adiaŭos adiaŭu adiaŭus
+11	2611	adoptita	adoptitaj adoptitajn adoptitan
+12	2612	endi	endanta endantaj endantajn endantan endante endas endinta endintaj endintajn endintan endinte endis endonta endontaj endontajn endontan endonte endos endu endus
+13	2613	far	
+14	2614	probable	
+15	2615	reputacio	reputacioj reputaciojn reputacion
+16	2616	dimanĉo	dimanĉoj dimanĉojn dimanĉon
+17	2617	danco	dancoj dancojn dancon
+18	2618	artilerio	artilerioj artileriojn artilerion
+19	2619	neniom	
+20	2620	maldungi	maldunganta maldungantaj maldungantajn maldungantan maldungante maldungas maldungata maldungataj maldungatajn maldungatan maldungate maldunginta maldungintaj maldungintajn maldungintan maldunginte maldungis maldungita maldungitaj maldungitajn maldungitan maldungite maldungonta maldungontaj maldungontajn maldungontan maldungonte maldungos maldungu maldungus
+21	2621	portreto	portretoj portretojn portreton
+22	2622	hodiaŭa	hodiaŭaj hodiaŭajn hodiaŭan
+23	2623	supozo	supozoj supozojn supozon
+24	2624	kamero	kameroj kamerojn kameron
+25	2625	stimuli	stimulanta stimulantaj stimulantajn stimulantan stimulante stimulas stimulata stimulataj stimulatajn stimulatan stimulate stimulinta stimulintaj stimulintajn stimulintan stimulinte stimulis stimulita stimulitaj stimulitajn stimulitan stimulite stimulonta stimulontaj stimulontajn stimulontan stimulonte stimulos stimulu stimulus
+26	2626	tumulto	tumultoj tumultojn tumulton
+27	2627	reĝisoro	reĝisoroj reĝisorojn reĝisoron
+28	2628	statuo	statuoj statuojn statuon
+29	2629	historie	
+30	2630	anglo	angloj anglojn anglon
+31	2631	izolita	izolitaj izolitajn izolitan
+32	2632	originala	originalaj originalajn originalan
+33	2633	kaverno	kavernoj kavernojn kavernon
+34	2634	ribeli	ribelanta ribelantaj ribelantajn ribelantan ribelante ribelanto ribelantoj ribelantojn ribelanton ribelas ribelinta ribelintaj ribelintajn ribelintan ribelinte ribelis ribelonta ribelontaj ribelontajn ribelontan ribelonte ribelos ribelu ribelus
+35	2635	precizeco	precizecoj precizecojn precizecon
+36	2636	racio	racioj raciojn racion
+37	2637	krevi	krevanta krevantaj krevantajn krevantan krevante krevas krevinta krevintaj krevintajn krevintan krevinte krevis krevonta krevontaj krevontajn krevontan krevonte krevos krevu krevus
+38	2638	sufero	suferoj suferojn suferon
+39	2639	militi	militanta militantaj militantajn militantan militante militas militinta militintaj militintajn militintan militinte militis militonta militontaj militontajn militontan militonte militos militu militus
+40	2640	atestanto	atestantoj atestantojn atestanton
+41	2641	repreni	reprenanta reprenantaj reprenantajn reprenantan reprenante reprenas reprenata reprenataj reprenatajn reprenatan reprenate repreninta reprenintaj reprenintajn reprenintan repreninte reprenis reprenita reprenitaj reprenitajn reprenitan reprenite reprenonta reprenontaj reprenontajn reprenontan reprenonte reprenos reprenu reprenus
+42	2642	alimaniere	
+43	2643	malriĉa	malriĉaj malriĉajn malriĉan
+44	2644	modo	modoj modojn modon
+45	2645	profundo	profundoj profundojn profundon
+46	2646	moviĝo	moviĝoj moviĝojn moviĝon
+47	2647	edukado	edukadoj edukadojn edukadon
+48	2648	piediri	piediranta piedirantaj piedirantajn piedirantan piedirante piediranto piedirantoj piedirantojn piediranton piediras piedirinta piedirintaj piedirintajn piedirintan piedirinte piediris piedironta piedirontaj piedirontajn piedirontan piedironte piediros piediru piedirus
+49	2649	ruliĝi	ruliĝanta ruliĝantaj ruliĝantajn ruliĝantan ruliĝante ruliĝas ruliĝinta ruliĝintaj ruliĝintajn ruliĝintan ruliĝinte ruliĝis ruliĝonta ruliĝontaj ruliĝontajn ruliĝontan ruliĝonte ruliĝos ruliĝu ruliĝus
+50	2650	ĝustatempe	
+51	2651	alfabeto	alfabetoj alfabetojn alfabeton
+52	2652	fidela	fidelaj fidelajn fidelan
+53	2653	kolora	koloraj kolorajn koloran
+54	2654	ŝtupo	shtupojn ŝtupoj ŝtupojn ŝtupon
+55	2655	aŭtuno	aŭtunoj aŭtunojn aŭtunon
+56	2656	malpliiĝi	malpliiĝanta malpliiĝantaj malpliiĝantajn malpliiĝantan malpliiĝante malpliiĝas malpliiĝinta malpliiĝintaj malpliiĝintajn malpliiĝintan malpliiĝinte malpliiĝis malpliiĝonta malpliiĝontaj malpliiĝontajn malpliiĝontan malpliiĝonte malpliiĝos malpliiĝu malpliiĝus
+57	2657	singarde	
+58	2658	subtera	subteraj subterajn subteran
+59	2659	eksplodi	eksplodanta eksplodantaj eksplodantajn eksplodantan eksplodante eksplodas eksplodinta eksplodintaj eksplodintajn eksplodintan eksplodinte eksplodis eksplodonta eksplodontaj eksplodontajn eksplodontan eksplodonte eksplodos eksplodu eksplodus
+60	2660	etna	etnaj etnajn etnan
+61	2661	troigi	troiganta troigantaj troigantajn troigantan troigante troigas troigata troigataj troigatajn troigatan troigate troiginta troigintaj troigintajn troigintan troiginte troigis troigita troigitaj troigitajn troigitan troigite troigonta troigontaj troigontajn troigontan troigonte troigos troigu troigus
+62	2662	teoria	teoriaj teoriajn teorian
+63	2663	sukero	sukeroj sukerojn sukeron
+64	2664	trafiko	trafikoj trafikojn trafikon
+65	2665	rekonstrui	rekonstruanta rekonstruantaj rekonstruantajn rekonstruantan rekonstruante rekonstruas rekonstruata rekonstruataj rekonstruatajn rekonstruatan rekonstruate rekonstruinta rekonstruintaj rekonstruintajn rekonstruintan rekonstruinte rekonstruis rekonstruita rekonstruitaj rekonstruitajn rekonstruitan rekonstruite rekonstruonta rekonstruontaj rekonstruontajn rekonstruontan rekonstruonte rekonstruos rekonstruu rekonstruus
+66	2666	gramatiko	gramatikoj gramatikojn gramatikon
+67	2667	luigi	luiganta luigantaj luigantajn luigantan luigante luiganto luigantoj luigantojn luiganton luigas luigata luigataj luigatajn luigatan luigate luiginta luigintaj luigintajn luigintan luiginte luigis luigita luigitaj luigitajn luigitan luigite luigonta luigontaj luigontajn luigontan luigonte luigos luigu luigus
+68	2668	bonŝanca	bonŝancaj bonŝancajn bonŝancan
+69	2669	persone	
+70	2670	verŝi	verŝanta verŝantaj verŝantajn verŝantan verŝante verŝas verŝata verŝataj verŝatajn verŝatan verŝate verŝinta verŝintaj verŝintajn verŝintan verŝinte verŝis verŝita verŝitaj verŝitajn verŝitan verŝite verŝonta verŝontaj verŝontajn verŝontan verŝonte verŝos verŝu verŝus
+71	2671	altlernejo	altlernejoj altlernejojn altlernejon
+72	2672	enlanda	enlandaj enlandajn enlandan
+73	2673	senmova	senmovaj senmovajn senmovan
+74	2674	vizio	vizioj viziojn vizion
+75	2675	sendepende	
+76	2676	ĉemizo	ĉemizoj ĉemizojn ĉemizon
+77	2677	okulvitroj	okulvitro okulvitrojn okulvitron
+78	2678	malbenita	malbenitaj malbenitajn malbenitan
+79	2679	rigardo	rigardoj rigardojn rigardon
+80	2680	ruino	ruinoj ruinojn ruinon
+81	2681	statistiko	statistikoj statistikojn statistikon
+82	2682	doktrino	doktrinoj doktrinojn doktrinon
+83	2683	violono	violonoj violonojn violonon
+84	2684	flamo	flamoj flamojn flamon
+85	2685	ĉiuokaze	
+86	2686	sinsekva	sinsekvaj sinsekvajn sinsekvan
+87	2687	amuze	
+88	2688	rompiĝi	rompiĝanta rompiĝantaj rompiĝantajn rompiĝantan rompiĝante rompiĝas rompiĝinta rompiĝintaj rompiĝintajn rompiĝintan rompiĝinte rompiĝis rompiĝonta rompiĝontaj rompiĝontajn rompiĝontan rompiĝonte rompiĝos rompiĝu rompiĝus
+89	2689	paca	pacaj pacajn pacan
+90	2690	enlasi	enlasanta enlasantaj enlasantajn enlasantan enlasante enlasas enlasata enlasataj enlasatajn enlasatan enlasate enlasinta enlasintaj enlasintajn enlasintan enlasinte enlasis enlasita enlasitaj enlasitajn enlasitan enlasite enlasonta enlasontaj enlasontajn enlasontan enlasonte enlasos enlasu enlasus
+91	2691	marĉo	marĉoj marĉojn marĉon
+92	2692	devii	devianta deviantaj deviantajn deviantan deviante devianto deviantoj devias deviinta deviintaj deviintajn deviintan deviinte deviis devionta deviontaj deviontajn deviontan devionte devios deviu devius
+93	2693	profiti	profitanta profitantaj profitantajn profitantan profitante profitanto profitantoj profitantojn profitanton profitas profitinta profitintaj profitintajn profitintan profitinte profitis profitonta profitontaj profitontajn profitontan profitonte profitos profitu profitus
+94	2694	profeto	profetoj profetojn profeton
+95	2695	kolo	koloj kolojn kolon
+96	2696	eniĝi	eniĝanta eniĝantaj eniĝantajn eniĝantan eniĝante eniĝas eniĝinta eniĝintaj eniĝintajn eniĝintan eniĝinte eniĝis eniĝonta eniĝontaj eniĝontajn eniĝontan eniĝonte eniĝos eniĝu eniĝus
+97	2697	konkludo	konkludoj konkludojn konkludon
+98	2698	fortigi	fortiganta fortigantaj fortigantajn fortigantan fortigante fortigas fortigata fortigataj fortigatajn fortigatan fortigate fortiginta fortigintaj fortigintajn fortigintan fortiginte fortigis fortigita fortigitaj fortigitajn fortigitan fortigite fortigonta fortigontaj fortigontajn fortigontan fortigonte fortigos fortigu fortigus
+99	2699	emfazo	emfazoj emfazojn emfazon
+100	2700	troa	troaj troajn troan

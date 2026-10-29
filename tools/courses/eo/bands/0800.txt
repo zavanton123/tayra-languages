@@ -1,0 +1,100 @@
+1	701	maljuna	maljunaj maljunajn maljunan
+2	702	stelo	steloj stelojn stelon
+3	703	timo	timoj timojn timon
+4	704	pravi	pravanta pravantaj pravantajn pravantan pravante pravas pravinta pravintaj pravintajn pravintan pravinte pravis pravonta pravontaj pravontajn pravontan pravonte pravos pravu pravus
+5	705	gvidi	gvidanta gvidantaj gvidantajn gvidantan gvidante gvidantoj gvidantojn gvidanton gvidas gvidata gvidataj gvidatajn gvidatan gvidate gvidinta gvidintaj gvidintajn gvidintan gvidinte gvidis gviditaj gviditajn gviditan gvidite gvidonta gvidontaj gvidontajn gvidontan gvidonte gvidos gvidota gvidu gvidus
+6	706	kulturo	kulturoj kulturojn kulturon
+7	707	junio	junioj juniojn junion
+8	708	amerika	amerikaj amerikajn amerikan
+9	709	muro	muroj murojn muron
+10	710	aparta	apartaj apartajn apartan
+11	711	agado	agadoj agadojn agadon
+12	712	subskribi	subskribanta subskribantaj subskribantajn subskribantan subskribante subskribas subskribata subskribataj subskribatajn subskribatan subskribate subskribinta subskribintaj subskribintajn subskribintan subskribinte subskribinto subskribintoj subskribintojn subskribis subskribita subskribitaj subskribitajn subskribitan subskribite subskribonta subskribontaj subskribontajn subskribontan subskribonte subskribos subskribu subskribus
+13	713	malfrua	malfruaj malfruajn malfruan
+14	714	kolekti	kolektanta kolektantaj kolektantajn kolektantan kolektante kolektanto kolektantoj kolektantojn kolektanton kolektas kolektinta kolektis kolektita kolektitaj kolektitajn kolektitan kolektite kolektos kolektu kolektus
+15	715	rajto	rajtoj rajtojn rajton
+16	716	koloro	koloroj kolorojn koloron
+17	717	septembro	septembroj septembrojn septembron
+18	718	kuo	ku kuoj kuojn kuon
+19	719	specio	specioj speciojn specion
+20	720	julio	julioj juliojn julion
+21	721	orienta	orientaj orientajn orientan
+22	722	fermi	fermanta fermantaj fermantajn fermantan fermante fermanto fermanton fermas fermata fermataj fermatajn fermatan fermate ferminta fermintaj fermintajn fermintan ferminte fermis fermitaj fermitajn fermitan fermite fermonta fermontaj fermontajn fermontan fermonte fermos fermu fermus
+23	723	situi	situanta situantaj situantajn situantan situante situas situinta situintaj situintajn situintan situinte situis situonta situontaj situontajn situontan situonte situos situu situus
+24	724	studo	studoj studojn studon
+25	725	bati	batanta batantaj batantajn batantan batante batanto batantoj batas batata batataj batatajn batatan batate batato batatoj batatojn batinta batintaj batintajn batintan batinte batis batita batitaj batitajn batitan batite batonta batontaj batontajn batontan batonte batos batu batus
+26	726	dezajno	dezajnoj dezajnojn dezajnon
+27	727	marto	martoj martojn marton
+28	728	inviti	invitanta invitantaj invitantajn invitantan invitante invitas invitata invitataj invitatajn invitatan invitate invitinta invitintaj invitintajn invitintan invitinte invitis invitita invititaj invititajn invititan invitite invitito invititoj invitonta invitontaj invitontajn invitontan invitonte invitos invitu invitus
+29	729	belega	belegaj belegajn belegan
+30	730	oktobro	oktobroj oktobrojn oktobron
+31	731	ŝlosilo	ŝlosiloj ŝlosilojn ŝlosilon
+32	732	usona	usonaj usonajn usonan
+33	733	tipe	
+34	734	raporti	raportanta raportantaj raportantajn raportantan raportante raportanto raportantoj raportas raportata raportataj raportatajn raportatan raportate raportinta raportintaj raportintajn raportintan raportinte raportis raportita raportitaj raportitajn raportitan raportite raportonta raportontaj raportontajn raportontan raportonte raportos raportu raportus
+35	735	naski	naskanta naskantaj naskantajn naskantan naskante naskas naskata naskataj naskatajn naskatan naskate naskinta naskintaj naskintajn naskintan naskinte naskis naskita naskitaj naskitajn naskitan naskite naskonta naskontaj naskontajn naskontan naskonte naskos nasku naskus
+36	736	organizo	organizoj organizojn organizon
+37	737	viva	vivaj vivajn vivan
+38	738	spaco	spacoj spacojn spacon
+39	739	malfrue	
+40	740	radio	radioj radiojn radion
+41	741	listo	listoj listojn liston
+42	742	boni	bonanta bonantaj bonantajn bonantan bonante bonas boninta bonintaj bonintajn bonintan boninte bonis bononta bonontaj bonontajn bonontan bononte bonos bonu bonus
+43	743	januaro	januaroj januarojn januaron
+44	744	polico	policoj policojn policon
+45	745	profesoro	profesoroj profesorojn profesoron
+46	746	aliro	aliroj alirojn aliron
+47	747	elemento	elementoj elementojn elementon
+48	748	eklezio	eklezioj ekleziojn eklezion
+49	749	donaco	donacoj donacojn donacon
+50	750	preta	pretaj pretajn pretan
+51	751	suno	sunoj sunojn sunon
+52	752	vojaĝi	vojaĝanta vojaĝantaj vojaĝantajn vojaĝantan vojaĝante vojaĝanto vojaĝantoj vojaĝantojn vojaĝanton vojaĝas vojaĝinta vojaĝintaj vojaĝintajn vojaĝintan vojaĝinte vojaĝis vojaĝonta vojaĝontaj vojaĝontajn vojaĝontan vojaĝonte vojaĝos vojaĝu vojaĝus
+53	753	signo	signoj signojn signon
+54	754	produkto	produktoj produktojn produkton
+55	755	sekundo	sekundoj sekundojn sekundon
+56	756	ekstere	
+57	757	oficejo	oficejoj oficejojn oficejon
+58	758	ordono	ordonoj ordonojn ordonon
+59	759	aspekto	aspektoj aspektojn aspekton
+60	760	tradicia	tradiciaj tradiciajn tradician
+61	761	danki	dankanta dankantaj dankantajn dankantan dankante dankas dankata dankataj dankatajn dankatan dankate dankinta dankintaj dankintajn dankintan dankinte dankis dankita dankitaj dankitajn dankitan dankite dankonta dankontaj dankontajn dankontan dankonte dankos danku dankus
+62	762	nuntempe	
+63	763	subteno	subtenoj subtenojn subtenon
+64	764	registri	registranta registrantaj registrantajn registrantan registrante registranto registrantoj registras registrata registrataj registratajn registratan registrate registrinta registrintaj registrintajn registrintan registrinte registris registrita registritaj registritajn registritan registrite registrito registritoj registritojn registronta registrontaj registrontajn registrontan registronte registros registru registrus
+65	765	komerco	komercoj komercojn komercon
+66	766	ejo	ejoj ejojn ejon
+67	767	aŭgusto	augusto aŭgustoj aŭgustojn aŭguston
+68	768	scienco	sciencoj sciencojn sciencon
+69	769	ĵeti	jhetas jheti jhetu ĵetanta ĵetantaj ĵetantajn ĵetantan ĵetante ĵetanto ĵetantoj ĵetas ĵetata ĵetataj ĵetatajn ĵetatan ĵetate ĵetinta ĵetintaj ĵetintajn ĵetintan ĵetinte ĵetis ĵetita ĵetitaj ĵetitajn ĵetitan ĵetite ĵetonta ĵetontaj ĵetontajn ĵetontan ĵetonte ĵetos ĵetu ĵetus
+70	770	komence	
+71	771	dependi	dependanta dependantaj dependantajn dependantan dependante dependanto dependantoj dependantojn dependanton dependas dependata dependataj dependatajn dependatan dependate dependinta dependintaj dependintajn dependintan dependinte dependis dependita dependitaj dependitajn dependitan dependite dependonta dependontaj dependontajn dependontan dependonte dependos dependu dependus
+72	772	malsupren	
+73	773	procento	procentoj procentojn procenton
+74	774	ĝeni	ĝenanta ĝenantaj ĝenantajn ĝenantan ĝenante ĝenas ĝenata ĝenataj ĝenatajn ĝenatan ĝenate ĝeninta ĝenintaj ĝenintajn ĝenintan ĝeninte ĝenis ĝenita ĝenitaj ĝenitajn ĝenitan ĝenite ĝenonta ĝenontaj ĝenontajn ĝenontan ĝenonte ĝenos ĝenu ĝenus
+75	775	festo	festoj festojn feston
+76	776	anstataŭigi	anstataŭiganta anstataŭigantaj anstataŭigantajn anstataŭigantan anstataŭigante anstataŭigas anstataŭigata anstataŭigataj anstataŭigatajn anstataŭigatan anstataŭigate anstataŭiginta anstataŭigintaj anstataŭigintajn anstataŭigintan anstataŭiginte anstataŭigis anstataŭigita anstataŭigitaj anstataŭigitajn anstataŭigitan anstataŭigite anstataŭigonta anstataŭigontaj anstataŭigontajn anstataŭigontan anstataŭigonte anstataŭigos anstataŭigota anstataŭigotaj anstataŭigu anstataŭigus
+77	777	sukceso	sukcesoj sukcesojn sukceson
+78	778	kuŝi	kuŝanta kuŝantaj kuŝantajn kuŝantan kuŝante kuŝas kuŝinta kuŝintaj kuŝintajn kuŝintan kuŝinte kuŝis kuŝonta kuŝontaj kuŝontajn kuŝontan kuŝonte kuŝos kuŝu kuŝus
+79	779	stranga	strangaj strangajn strangan
+80	780	ekstera	eksteraj eksterajn eksteran
+81	781	specifa	specifaj specifajn specifan
+82	782	direkte	
+83	783	koncepto	konceptoj konceptojn koncepton
+84	784	aro	aroj arojn aron
+85	785	prizorgi	prizorganta prizorgantaj prizorgantajn prizorgantan prizorgante prizorganto prizorgantoj prizorganton prizorgas prizorgata prizorgataj prizorgatajn prizorgatan prizorgate prizorginta prizorgintaj prizorgintajn prizorgintan prizorginte prizorgis prizorgita prizorgitaj prizorgitajn prizorgitan prizorgite prizorgonta prizorgontaj prizorgontajn prizorgontan prizorgonte prizorgos prizorgu prizorgus
+86	786	sango	sangoj sangojn sangon
+87	787	rapida	rapidaj rapidajn rapidan
+88	788	vento	ventoj ventojn venton
+89	789	reala	realaj realajn realan
+90	790	dateno	datenoj datenojn datenon
+91	791	ulo	uloj ulojn ulon
+92	792	sento	sentoj sentojn senton
+93	793	individuo	individuoj individuojn individuon
+94	794	rapidi	rapidanta rapidantaj rapidantajn rapidantan rapidante rapidas rapidinta rapidintaj rapidintajn rapidintan rapidinte rapidis rapidonta rapidontaj rapidontajn rapidontan rapidonte rapidos rapidu rapidus
+95	795	ajna	ajnaj ajnajn ajnan
+96	796	plibonigi	pliboniganta plibonigantaj plibonigantajn plibonigantan plibonigante plibonigas plibonigata plibonigataj plibonigatajn plibonigatan plibonigate pliboniginta plibonigintaj plibonigintajn plibonigintan pliboniginte plibonigis plibonigita plibonigitaj plibonigitajn plibonigitan plibonigite plibonigonta plibonigontaj plibonigontajn plibonigontan plibonigonte plibonigos plibonigu plibonigus
+97	797	dividi	dividanta dividantaj dividantajn dividantan dividante dividanto dividantoj dividanton dividas dividata dividataj dividatajn dividatan dividate dividinta dividintaj dividintajn dividintan dividinte dividis dividita dividitaj dividitajn dividitan dividite dividonta dividontaj dividontajn dividontan dividonte dividos dividu dividus
+98	798	trajno	trajnoj trajnojn trajnon
+99	799	instruisto	instruistoj instruistojn instruiston
+100	800	novembro	novembroj novembrojn novembron

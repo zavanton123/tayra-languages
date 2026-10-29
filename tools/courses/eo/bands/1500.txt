@@ -1,0 +1,100 @@
+1	1401	potenca	potencaj potencajn potencan
+2	1402	po	
+3	1403	malbono	malbonoj malbonojn malbonon
+4	1404	zono	zonoj zonojn zonon
+5	1405	difino	difinoj difinojn difinon
+6	1406	danĝera	danĝeraj danĝerajn danĝeran
+7	1407	nekonata	nekonataj nekonatajn nekonatan
+8	1408	interesi	interesanta interesantaj interesantajn interesantan interesante interesas interesata interesataj interesatajn interesatan interesate interesinta interesintaj interesintajn interesintan interesinte interesis interesita interesitaj interesitajn interesitan interesite interesonta interesontaj interesontajn interesontan interesonte interesos interesu interesus
+9	1409	promeni	promenanta promenantaj promenantajn promenantan promenante promenas promeninta promenintaj promenintajn promenintan promeninte promenis promenonta promenontaj promenontajn promenontan promenonte promenos promenu promenus
+10	1410	universo	universoj universojn universon
+11	1411	kuiri	kuiranta kuirantaj kuirantajn kuirantan kuirante kuiras kuirata kuirataj kuiratajn kuiratan kuirate kuirinta kuirintaj kuirintajn kuirintan kuirinte kuiris kuirita kuiritaj kuiritajn kuiritan kuirite kuironta kuirontaj kuirontajn kuirontan kuironte kuiros kuiru kuirus
+12	1412	ŝajnigi	ŝajniganta ŝajnigantaj ŝajnigantajn ŝajnigantan ŝajnigante ŝajniganto ŝajnigas ŝajnigata ŝajnigataj ŝajnigatajn ŝajnigatan ŝajnigate ŝajniginta ŝajnigintaj ŝajnigintajn ŝajnigintan ŝajniginte ŝajnigis ŝajnigita ŝajnigitaj ŝajnigitajn ŝajnigitan ŝajnigite ŝajnigonta ŝajnigontaj ŝajnigontajn ŝajnigontan ŝajnigonte ŝajnigos ŝajnigu ŝajnigus
+13	1413	ribelo	ribeloj ribelojn ribelon
+14	1414	kondamni	kondamnanta kondamnantaj kondamnantajn kondamnantan kondamnante kondamnas kondamnata kondamnataj kondamnatajn kondamnatan kondamnate kondamnatoj kondamninta kondamnintaj kondamnintajn kondamnintan kondamninte kondamnis kondamnita kondamnitaj kondamnitajn kondamnitan kondamnite kondamnito kondamnitoj kondamnitojn kondamniton kondamnonta kondamnontaj kondamnontajn kondamnontan kondamnonte kondamnos kondamnu kondamnus
+15	1415	sciencisto	sciencistoj sciencistojn scienciston
+16	1416	flughaveno	flughavenoj flughavenojn flughavenon
+17	1417	foresti	forestanta forestantaj forestantajn forestantan forestante forestanto forestas forestinta forestintaj forestintajn forestintan forestinte forestis forestonta forestontaj forestontajn forestontan forestonte forestos forestu forestus
+18	1418	origine	
+19	1419	dialekto	dialektoj dialektojn dialekton
+20	1420	dekstre	dekstren
+21	1421	kontrakto	kontraktoj kontraktojn kontrakton
+22	1422	industria	industriaj industriajn industrian
+23	1423	ŝuldo	ŝuldoj ŝuldojn ŝuldon
+24	1424	eltiri	eltiranta eltirantaj eltirantajn eltirantan eltirante eltiras eltirata eltirataj eltiratajn eltiratan eltirate eltirinta eltirintaj eltirintajn eltirintan eltirinte eltiris eltirita eltiritaj eltiritajn eltiritan eltirite eltironta eltirontaj eltirontajn eltirontan eltironte eltiros eltiru eltirus
+25	1425	ampleksa	ampleksaj ampleksajn ampleksan
+26	1426	kutima	kutimaj kutimajn kutiman
+27	1427	eco	ecoj ecojn econ
+28	1428	hejma	hejmaj hejmajn hejman
+29	1429	respekto	respektoj respektojn respekton
+30	1430	eksterlanda	eksterlandaj eksterlandajn eksterlandan
+31	1431	profesia	profesiaj profesiajn profesian
+32	1432	financa	financaj financajn financan
+33	1433	kolekto	kolektoj kolektojn kolekton
+34	1434	strange	
+35	1435	apliki	aplikanta aplikantaj aplikantajn aplikantan aplikante aplikas aplikata aplikataj aplikatajn aplikatan aplikate aplikinta aplikintaj aplikintajn aplikintan aplikinte aplikis aplikita aplikitaj aplikitajn aplikitan aplikite aplikonta aplikontaj aplikontajn aplikontan aplikonte aplikos aplikotaj apliku aplikus
+36	1436	kisi	kisanta kisantaj kisantajn kisantan kisante kisas kisinta kisintaj kisintajn kisintan kisinte kisis kisonta kisontaj kisontajn kisontan kisonte kisos kisu kisus
+37	1437	vespere	
+38	1438	maltrankviliĝi	maltrankviliĝanta maltrankviliĝantaj maltrankviliĝantajn maltrankviliĝantan maltrankviliĝante maltrankviliĝas maltrankviliĝinta maltrankviliĝintaj maltrankviliĝintajn maltrankviliĝintan maltrankviliĝinte maltrankviliĝis maltrankviliĝonta maltrankviliĝontaj maltrankviliĝontajn maltrankviliĝontan maltrankviliĝonte maltrankviliĝos maltrankviliĝu maltrankviliĝus
+39	1439	verki	verkanta verkantaj verkantajn verkantan verkante verkas verkata verkataj verkatajn verkatan verkate verkinta verkintaj verkintajn verkintan verkinte verkintoj verkintojn verkinton verkis verkita verkitaj verkitajn verkitan verkite verkonta verkontaj verkontajn verkontan verkonte verkos verku verkus
+40	1440	dento	dentego dentegoj dentegojn dentegon dentoj dentojn denton
+41	1441	salajro	salajroj salajrojn salajron
+42	1442	des	
+43	1443	inventi	inventanta inventantaj inventantajn inventantan inventante inventas inventata inventataj inventatajn inventatan inventate inventinta inventintaj inventintajn inventintan inventinte inventinto inventintoj inventintojn inventinton inventis inventita inventitaj inventitajn inventitan inventite inventonta inventontaj inventontajn inventontan inventonte inventos inventu inventus
+44	1444	poemo	poemoj poemojn poemon
+45	1445	kristano	kristanoj kristanojn kristanon
+46	1446	norma	normaj normajn norman
+47	1447	konsumi	konsumanta konsumantaj konsumantajn konsumantan konsumante konsumanto konsumantoj konsumantojn konsumanton konsumas konsumata konsumataj konsumatajn konsumatan konsumate konsuminta konsumintaj konsumintajn konsumintan konsuminte konsumis konsumita konsumitaj konsumitajn konsumitan konsumite konsumonta konsumontaj konsumontajn konsumontan konsumonte konsumos konsumu konsumus
+48	1448	sekureco	sekurecoj sekurecojn sekurecon
+49	1449	timigi	timiganta timigantaj timigantajn timigantan timigante timigas timigata timigataj timigatajn timigatan timigate timiginta timigintaj timigintajn timigintan timiginte timigis timigita timigitaj timigitajn timigitan timigite timigonta timigontaj timigontajn timigontan timigonte timigos timigu timigus
+50	1450	kesto	kestoj kestojn keston
+51	1451	kvina	kvinaj kvinajn kvinan
+52	1452	filozofio	filozofioj filozofiojn filozofion
+53	1453	enhavo	enhavoj enhavojn enhavon
+54	1454	citi	citanta citantaj citantajn citantan citante citas citata citataj citatajn citatan citate citinta citintaj citintajn citintan citinte citis citita cititaj cititajn cititan citite citonta citontaj citontajn citontan citonte citos citu citus
+55	1455	peko	pekoj pekojn pekon
+56	1456	albumo	albumoj albumojn albumon
+57	1457	ora	oraj orajn oran
+58	1458	pia	piaj piajn pian
+59	1459	malfermita	malfermitaj malfermitajn malfermitan
+60	1460	veti	vetanta vetantaj vetantajn vetantan vetante vetanto vetas vetata vetataj vetatajn vetatan vetate vetinta vetintaj vetintajn vetintan vetinte vetis vetita vetitaj vetitajn vetitan vetite vetonta vetontaj vetontajn vetontan vetonte vetos vetu vetus
+61	1461	povo	povoj povojn povon
+62	1462	monstro	monstroj monstrojn monstron
+63	1463	marbordo	marbordoj marbordojn marbordon
+64	1464	ĉia	chia ĉiaj ĉiajn ĉian
+65	1465	elmontri	elmontranta elmontrantaj elmontrantajn elmontrantan elmontrante elmontras elmontrata elmontrataj elmontratajn elmontratan elmontrate elmontrinta elmontrintaj elmontrintajn elmontrintan elmontrinte elmontris elmontrita elmontritaj elmontritajn elmontritan elmontrite elmontronta elmontrontaj elmontrontajn elmontrontan elmontronte elmontros elmontru elmontrus
+66	1466	kemia	kemiaj kemiajn kemian ĥemia ĥemiaj
+67	1467	ĉefo	ĉefoj ĉefojn ĉefon
+68	1468	rideti	ridetanta ridetantaj ridetantajn ridetantan ridetante ridetas ridetinta ridetintaj ridetintajn ridetintan ridetinte ridetis ridetonta ridetontaj ridetontajn ridetontan ridetonte ridetos ridetu ridetus
+69	1469	videbla	videblaj videblajn videblan
+70	1470	unufoje	
+71	1471	erari	eraranta erarantaj erarantajn erarantan erarante eraras erarinta erarintaj erarintajn erarintan erarinte eraris eraronta erarontaj erarontajn erarontan eraronte eraros eraru erarus
+72	1472	unuiĝinta	unuiĝintaj unuiĝintajn unuiĝintan
+73	1473	esenca	esencaj esencajn esencan
+74	1474	perforto	perfortoj perfortojn perforton
+75	1475	franco	francoj francojn francon
+76	1476	ĉesigi	ĉesiganta ĉesigantaj ĉesigantajn ĉesigantan ĉesigante ĉesigas ĉesigata ĉesigataj ĉesigatajn ĉesigatan ĉesigate ĉesiginta ĉesigintaj ĉesigintajn ĉesigintan ĉesiginte ĉesigis ĉesigita ĉesigitaj ĉesigitajn ĉesigitan ĉesigite ĉesigonta ĉesigontaj ĉesigontajn ĉesigontan ĉesigonte ĉesigos ĉesigu ĉesigus
+77	1477	evidente	
+78	1478	sana	sanaj sanajn sanan
+79	1479	naŭ	
+80	1480	kampanjo	kampanjoj kampanjojn kampanjon
+81	1481	reago	reagoj reagojn reagon
+82	1482	vagi	vaganta vagantaj vagantajn vagantan vagante vaganto vagantoj vagas vaginta vagintaj vagintajn vagintan vaginte vagis vagonta vagontaj vagontajn vagontan vagonte vagos vagu vagus
+83	1483	sceno	scenoj scenojn scenon
+84	1484	respondeci	respondecanta respondecantaj respondecantajn respondecantan respondecante respondecas respondecinta respondecintaj respondecintajn respondecintan respondecinte respondecis respondeconta respondecontaj respondecontajn respondecontan respondeconte respondecos respondecu respondecus
+85	1485	violonisto	violonistoj violonistojn violoniston
+86	1486	kunteksto	kuntekstoj kuntekstojn kuntekston
+87	1487	agnoski	agnoskanta agnoskantaj agnoskantajn agnoskantan agnoskante agnoskas agnoskata agnoskataj agnoskatajn agnoskatan agnoskate agnoskinta agnoskintaj agnoskintajn agnoskintan agnoskinte agnoskis agnoskita agnoskitaj agnoskitajn agnoskitan agnoskite agnoskonta agnoskontaj agnoskontajn agnoskontan agnoskonte agnoskos agnosku agnoskus
+88	1488	kristnasko	kristnaskoj kristnaskojn kristnaskon
+89	1489	saluti	salutanta salutantaj salutantajn salutantan salutante salutas salutata salutataj salutatajn salutatan salutate salutinta salutintaj salutintajn salutintan salutinte salutis salutita salutitaj salutitajn salutitan salutite salutonta salutontaj salutontajn salutontan salutonte salutos salutu salutus
+90	1490	eduki	edukanta edukantaj edukantajn edukantan edukante edukas edukata edukataj edukatajn edukatan edukate edukaton edukinta edukintaj edukintajn edukintan edukinte edukis edukita edukitaj edukitajn edukitan edukite edukonta edukontaj edukontajn edukontan edukonte edukos eduku edukus
+91	1491	konkeri	konkeranta konkerantaj konkerantajn konkerantan konkerante konkeranto konkerantoj konkerantojn konkeras konkerata konkerataj konkeratajn konkeratan konkerate konkerinta konkerintaj konkerintajn konkerintan konkerinte konkerinto konkerintoj konkerinton konkeris konkerita konkeritaj konkeritajn konkeritan konkerite konkeronta konkerontaj konkerontajn konkerontan konkeronte konkeros konkeru konkerus
+92	1492	koncerni	koncernanta koncernantaj koncernantajn koncernantan koncernante koncernas koncernata koncernataj koncernatajn koncernatan koncernate koncernato koncernatoj koncernatojn koncerninta koncernintaj koncernintajn koncernintan koncerninte koncernis koncernita koncernitaj koncernitajn koncernitan koncernite koncernonta koncernontaj koncernontajn koncernontan koncernonte koncernos koncernu koncernus
+93	1493	ruso	rusoj rusojn ruson
+94	1494	kastelo	kasteloj kastelojn kastelon
+95	1495	altiri	altiranta altirantaj altirantajn altirantan altirante altiranto altirantoj altiras altirata altirataj altiratajn altiratan altirate altirinta altirintaj altirintajn altirintan altirinte altiris altirita altiritaj altiritajn altiritan altirite altironta altirontaj altirontajn altirontan altironte altiros altiru altirus
+96	1496	kuraĝa	kuraĝaj kuraĝajn kuraĝan
+97	1497	rezisti	rezistanta rezistantaj rezistantajn rezistantan rezistante rezistanto rezistantoj rezistas rezistata rezistataj rezistatajn rezistatan rezistate rezistinta rezistintaj rezistintajn rezistintan rezistinte rezistis rezistita rezistitaj rezistitajn rezistitan rezistite rezistonta rezistontaj rezistontajn rezistontan rezistonte rezistos rezistu rezistus
+98	1498	argumento	argumentoj argumentojn argumenton
+99	1499	heroo	herooj heroojn heroon
+100	1500	muzika	muzikaj muzikajn muzikan

@@ -1,0 +1,100 @@
+1	8701	zibelo	zibeloj zibelojn zibelon
+2	8702	agresemo	agresemoj agresemojn agresemon
+3	8703	kavigi	kaviganta kavigantaj kavigantajn kavigantan kavigante kavigas kavigata kavigataj kavigatajn kavigatan kavigate kaviginta kavigintaj kavigintajn kavigintan kaviginte kavigis kavigita kavigitaj kavigitajn kavigitan kavigite kavigonta kavigontaj kavigontajn kavigontan kavigonte kavigos kavigu kavigus
+4	8704	orminejo	orminejoj orminejojn orminejon
+5	8705	poplo	poploj poplojn poplon
+6	8706	lingvistika	lingvistikaj lingvistikajn lingvistikan
+7	8707	jeso	jesoj jesojn jeson
+8	8708	tusi	tusanta tusantaj tusantajn tusantan tusante tusas tusinta tusintaj tusintajn tusintan tusinte tusis tusonta tusontaj tusontajn tusontan tusonte tusos tusu tusus
+9	8709	anonime	
+10	8710	dalai-lamao	
+11	8711	insulino	insulinoj insulinojn insulinon
+12	8712	ĝemelurbo	ĝemelurboj ĝemelurbojn ĝemelurbon
+13	8713	atlaso	atlasoj atlasojn atlason
+14	8714	belfrido	belfridoj belfridojn belfridon
+15	8715	ribela	ribelaj ribelajn ribelan
+16	8716	polemiko	polemikoj polemikojn polemikon
+17	8717	vivminaca	vivminacaj vivminacajn vivminacan
+18	8718	baroko	barokoj barokojn barokon
+19	8719	nebuleto	nebuletoj nebuletojn nebuleton
+20	8720	ĉefpastro	ĉefpastroj ĉefpastrojn ĉefpastron
+21	8721	gameto	gametoj gametojn gameton
+22	8722	misfunkcio	misfunkcioj misfunkciojn misfunkcion
+23	8723	klingono	klingonoj klingonojn klingonon
+24	8724	pinĉi	pinĉanta pinĉantaj pinĉantajn pinĉantan pinĉante pinĉas pinĉata pinĉataj pinĉatajn pinĉatan pinĉate pinĉinta pinĉintaj pinĉintajn pinĉintan pinĉinte pinĉis pinĉita pinĉitaj pinĉitajn pinĉitan pinĉite pinĉonta pinĉontaj pinĉontajn pinĉontan pinĉonte pinĉos pinĉu pinĉus
+25	8725	tabloteniso	tablotenisoj tablotenisojn tablotenison
+26	8726	transpaŝi	transpaŝanta transpaŝantaj transpaŝantajn transpaŝantan transpaŝante transpaŝas transpaŝinta transpaŝintaj transpaŝintajn transpaŝintan transpaŝinte transpaŝis transpaŝonta transpaŝontaj transpaŝontajn transpaŝontan transpaŝonte transpaŝos transpaŝu transpaŝus
+27	8727	pinĉilo	pinĉiloj pinĉilojn pinĉilon
+28	8728	sarkasmo	sarkasmoj sarkasmojn sarkasmon
+29	8729	orelringo	orelringoj orelringojn orelringon
+30	8730	kolportisto	kolportistoj kolportistojn kolportiston
+31	8731	sifiliso	sifilisoj sifilisojn sifilison
+32	8732	akapari	akaparanta akaparantaj akaparantajn akaparantan akaparante akaparas akaparata akaparataj akaparatajn akaparatan akaparate akaparinta akaparintaj akaparintajn akaparintan akaparinte akaparis akaparita akaparitaj akaparitajn akaparitan akaparite akaparonta akaparontaj akaparontajn akaparontan akaparonte akaparos akaparu akaparus
+33	8733	bakisto	bakistoj bakistojn bakiston
+34	8734	geavoj	geavo geavojn geavon
+35	8735	malvigla	malviglaj malviglajn malviglan
+36	8736	aso	asoj asojn ason
+37	8737	heroldo	heroldoj heroldojn heroldon
+38	8738	etimologia	etimologiaj etimologiajn etimologian
+39	8739	termometro	termometroj termometrojn termometron
+40	8740	elektrotekniko	elektroteknikoj elektroteknikojn elektroteknikon
+41	8741	rivoluo	rivoluoj rivoluojn rivoluon
+42	8742	solo	soloj solojn solon
+43	8743	tricio	tricioj triciojn tricion
+44	8744	fagoto	fagotoj fagotojn fagoton
+45	8745	pratempa	pratempaj pratempajn pratempan
+46	8746	solisto	solistoj solistojn soliston
+47	8747	brakseĝo	brakseĝoj brakseĝojn brakseĝon
+48	8748	birdido	birdidoj birdidojn birdidon
+49	8749	enterigo	enterigoj enterigojn enterigon
+50	8750	ro	
+51	8751	prizonulo	prizonuloj prizonulojn prizonulon
+52	8752	pasamento	pasamentoj pasamentojn pasamenton
+53	8753	beto	betoj betojn beton
+54	8754	melono	melonoj melonojn melonon
+55	8755	baraĵo	baraĵoj baraĵojn baraĵon
+56	8756	arkaismo	arkaismoj arkaismojn arkaismon
+57	8757	megabajto	megabajtoj megabajtojn megabajton
+58	8758	erektiĝo	erektiĝoj erektiĝojn erektiĝon
+59	8759	melodramo	melodramoj melodramojn melodramon
+60	8760	neĝero	neĝeroj neĝerojn neĝeron
+61	8761	kirli	kirlanta kirlantaj kirlantajn kirlantan kirlante kirlas kirlata kirlataj kirlatajn kirlatan kirlate kirlinta kirlintaj kirlintajn kirlintan kirlinte kirlis kirlita kirlitaj kirlitajn kirlitan kirlite kirlonta kirlontaj kirlontajn kirlontan kirlonte kirlos kirlu kirlus
+62	8762	estiminda	estimindaj estimindajn estimindan
+63	8763	brulado	bruladoj bruladojn bruladon
+64	8764	elektrolizo	elektrolizoj elektrolizojn elektrolizon
+65	8765	ĉefkomando	ĉefkomandon
+66	8766	butikumado	butikumadoj butikumadojn butikumadon
+67	8767	dualismo	dualismoj dualismojn dualismon
+68	8768	glosaro	glosaroj glosarojn glosaron
+69	8769	malseketa	malseketaj malseketajn malseketan
+70	8770	duonfrato	duonfratoj duonfratojn duonfraton
+71	8771	agrablaĵo	agrablaĵoj agrablaĵojn agrablaĵon
+72	8772	lavujo	lavujoj lavujojn lavujon
+73	8773	branko	brankoj brankojn brankon
+74	8774	pando	pandoj pandojn pandon
+75	8775	izomero	izomeroj izomerojn izomeron
+76	8776	paranoja	paranojaj paranojajn paranojan
+77	8777	kare	
+78	8778	freŝe	
+79	8779	vasteco	vastecoj vastecojn vastecon
+80	8780	ruĝe	
+81	8781	pasero	paseroj paserojn paseron
+82	8782	matrono	matronoj matronojn matronon
+83	8783	anheli	anhelanta anhelantaj anhelantajn anhelantan anhelante anhelas anhelinta anhelintaj anhelintajn anhelintan anhelinte anhelis anhelonta anhelontaj anhelontajn anhelontan anhelonte anhelos anhelu anhelus
+84	8784	elcento	elcentoj elcentojn elcenton
+85	8785	flagri	flagranta flagrantaj flagrantajn flagrantan flagrante flagras flagrinta flagrintaj flagrintajn flagrintan flagrinte flagris flagronta flagrontaj flagrontajn flagrontan flagronte flagros flagru flagrus
+86	8786	spasmo	spasmoj spasmojn spasmon
+87	8787	netolerema	netoleremaj netoleremajn netolereman
+88	8788	malaltiĝi	malaltiĝanta malaltiĝantaj malaltiĝantajn malaltiĝantan malaltiĝante malaltiĝas malaltiĝinta malaltiĝintaj malaltiĝintajn malaltiĝintan malaltiĝinte malaltiĝis malaltiĝonta malaltiĝontaj malaltiĝontajn malaltiĝontan malaltiĝonte malaltiĝos malaltiĝu malaltiĝus
+89	8789	malaktivigi	malaktiviganta malaktivigantaj malaktivigantajn malaktivigantan malaktivigante malaktivigas malaktivigata malaktivigataj malaktivigatajn malaktivigatan malaktivigate malaktiviginta malaktivigintaj malaktivigintajn malaktivigintan malaktiviginte malaktivigis malaktivigita malaktivigitaj malaktivigitajn malaktivigitan malaktivigite malaktivigonta malaktivigontaj malaktivigontajn malaktivigontan malaktivigonte malaktivigos malaktivigu malaktivigus
+90	8790	tipografio	tipografioj tipografiojn tipografion
+91	8791	metalurgio	metalurgioj metalurgiojn metalurgion
+92	8792	kursivo	kursivoj kursivojn kursivon
+93	8793	amoristino	amoristinoj amoristinojn amoristinon
+94	8794	astrologio	astrologioj astrologiojn astrologion
+95	8795	paganismo	paganismoj paganismojn paganismon
+96	8796	etero	eteroj eterojn eteron
+97	8797	albano	albanoj albanojn albanon
+98	8798	ardezo	ardezoj ardezojn ardezon
+99	8799	afrikato	afrikatoj afrikatojn afrikaton
+100	8800	soneto	sonetoj sonetojn soneton

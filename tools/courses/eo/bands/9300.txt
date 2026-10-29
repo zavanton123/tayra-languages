@@ -1,0 +1,100 @@
+1	9201	aberacio	aberacioj aberaciojn aberacion
+2	9202	plekti	plektanta plektantaj plektantajn plektantan plektante plektas plektata plektataj plektatajn plektatan plektate plektinta plektintaj plektintajn plektintan plektinte plektis plektita plektitaj plektitajn plektitan plektite plektonta plektontaj plektontajn plektontan plektonte plektos plektu plektus
+3	9203	fiŝaĵo	fiŝaĵoj fiŝaĵojn fiŝaĵon
+4	9204	kronometro	kronometroj kronometrojn kronometron
+5	9205	hotela	hotelaj hotelajn hotelan
+6	9206	antaŭsento	antaŭsentoj antaŭsentojn antaŭsenton
+7	9207	administrejo	administrejoj administrejojn administrejon
+8	9208	egoisto	egoistoj egoistojn egoiston
+9	9209	ekfali	ekfalanta ekfalantaj ekfalantajn ekfalantan ekfalante ekfalas ekfalinta ekfalintaj ekfalintajn ekfalintan ekfalinte ekfalis ekfalonta ekfalontaj ekfalontajn ekfalontan ekfalonte ekfalos ekfalu ekfalus
+10	9210	alkudri	alkudranta alkudrantaj alkudrantajn alkudrantan alkudrante alkudras alkudrata alkudrataj alkudratajn alkudratan alkudrate alkudrinta alkudrintaj alkudrintajn alkudrintan alkudrinte alkudris alkudrita alkudritaj alkudritajn alkudritan alkudrite alkudronta alkudrontaj alkudrontajn alkudrontan alkudronte alkudros alkudru alkudrus
+11	9211	peniko	penikoj penikojn penikon
+12	9212	ruzeco	ruzecoj ruzecojn ruzecon
+13	9213	malĝoje	
+14	9214	restaŭri	restaŭranta restaŭrantaj restaŭrantajn restaŭrantan restaŭrante restaŭras restaŭrinta restaŭrintaj restaŭrintajn restaŭrintan restaŭrinte restaŭris restaŭronta restaŭrontaj restaŭrontajn restaŭrontan restaŭronte restaŭros restaŭru restaŭrus
+15	9215	stetoskopo	stetoskopoj stetoskopojn stetoskopon
+16	9216	joto	jotoj jotojn joton
+17	9217	kamela	kamelaj kamelajn kamelan
+18	9218	lumbo	lumboj lumbojn lumbon
+19	9219	zigomo	zigomoj zigomojn zigomon
+20	9220	pugtruo	pugtruoj pugtruojn pugtruon
+21	9221	ĝigolo	ĝigoloj ĝigolojn ĝigolon
+22	9222	kore	
+23	9223	silentema	silentemaj silentemajn silenteman
+24	9224	pluŝa	pluŝaj pluŝajn pluŝan
+25	9225	kulti	kultanta kultantaj kultantajn kultantan kultante kultas kultinta kultintaj kultintajn kultintan kultinte kultis kultonta kultontaj kultontajn kultontan kultonte kultos kultu kultus
+26	9226	ŝirmilo	ŝirmiloj ŝirmilojn ŝirmilon
+27	9227	mistifiko	mistifikoj mistifikojn mistifikon
+28	9228	plastiko	plastikoj plastikojn plastikon
+29	9229	forĵetaĵo	forĵetaĵoj forĵetaĵojn forĵetaĵon
+30	9230	amasbuĉado	amasbuĉadoj amasbuĉadojn amasbuĉadon
+31	9231	kristaniĝi	kristaniĝanta kristaniĝantaj kristaniĝantajn kristaniĝantan kristaniĝante kristaniĝas kristaniĝinta kristaniĝintaj kristaniĝintajn kristaniĝintan kristaniĝinte kristaniĝis kristaniĝonta kristaniĝontaj kristaniĝontajn kristaniĝontan kristaniĝonte kristaniĝos kristaniĝu kristaniĝus
+32	9232	allogo	allogoj allogojn allogon
+33	9233	faŭki	faŭkanta faŭkantaj faŭkantajn faŭkantan faŭkante faŭkas faŭkinta faŭkintaj faŭkintajn faŭkintan faŭkinte faŭkis faŭkonta faŭkontaj faŭkontajn faŭkontan faŭkonte faŭkos faŭku faŭkus
+34	9234	staplo	staploj staplojn staplon
+35	9235	delica	delicaj delicajn delican
+36	9236	stoko	stokoj stokojn stokon
+37	9237	agonio	agonioj agoniojn agonion
+38	9238	duŝejo	duŝejoj duŝejojn duŝejon
+39	9239	variola	variolaj variolajn variolan
+40	9240	anoreksio	anoreksioj anoreksiojn anoreksion
+41	9241	pudingo	pudingoj pudingojn pudingon
+42	9242	bazilisko	baziliskoj baziliskojn baziliskon
+43	9243	modli	modlanta modlantaj modlantajn modlantan modlante modlas modlata modlataj modlatajn modlatan modlate modlinta modlintaj modlintajn modlintan modlinte modlis modlita modlitaj modlitajn modlitan modlite modlonta modlontaj modlontajn modlontan modlonte modlos modlu modlus
+44	9244	etiketo	etiketoj etiketojn etiketon
+45	9245	albina	albinaj albinajn albinan
+46	9246	marmelado	marmeladoj marmeladojn marmeladon
+47	9247	tere	
+48	9248	negocisto	negocistoj negocistojn negociston
+49	9249	bastoneto	bastonetoj bastonetojn bastoneton
+50	9250	tripo	tripoj tripojn tripon
+51	9251	hodiaŭe	
+52	9252	subjupo	subjupoj subjupojn subjupon
+53	9253	kvine	
+54	9254	stratangulo	stratanguloj stratangulojn stratangulon
+55	9255	konjako	konjakoj konjakojn konjakon
+56	9256	krizantemo	krizantemoj krizantemojn krizantemon
+57	9257	poreo	poreoj poreojn poreon
+58	9258	katarakto	kataraktoj kataraktojn katarakton
+59	9259	lorno	lornoj lornojn lornon
+60	9260	jungi	junganta jungantaj jungantajn jungantan jungante jungas jungata jungataj jungatajn jungatan jungate junginta jungintaj jungintajn jungintan junginte jungis jungita jungitaj jungitajn jungitan jungite jungonta jungontaj jungontajn jungontan jungonte jungos jungu jungus
+61	9261	lapfermilo	lapfermiloj lapfermilojn lapfermilon
+62	9262	ĉiom	
+63	9263	ventumilo	ventumiloj ventumilojn ventumilon
+64	9264	vindotuko	vindotukoj vindotukojn vindotukon
+65	9265	mole	
+66	9266	ŝercemulo	ŝercemuloj ŝercemulojn ŝercemulon
+67	9267	krepo	krepoj krepojn krepon
+68	9268	administre	
+69	9269	psikoterapio	psikoterapioj psikoterapiojn psikoterapion
+70	9270	monaĥismo	monaĥismoj monaĥismojn monaĥismon
+71	9271	hajlo	hajloj hajlojn hajlon
+72	9272	orgenisto	orgenistoj orgenistojn orgeniston
+73	9273	ŝabato	ŝabatoj ŝabatojn ŝabaton
+74	9274	izotropa	izotropaj izotropajn izotropan
+75	9275	konfisko	konfiskoj konfiskojn konfiskon
+76	9276	ekspoziciejo	ekspoziciejoj ekspoziciejojn ekspoziciejon
+77	9277	ermito	ermitoj ermitojn ermiton
+78	9278	fugo	fugoj fugojn
+79	9279	piĝino	piĝinoj piĝinojn piĝinon
+80	9280	akvodislimo	akvodislimoj akvodislimojn akvodislimon
+81	9281	hereza	herezaj herezajn herezan
+82	9282	aerosolo	aerosoloj aerosolojn aerosolon
+83	9283	hipoteko	hipotekoj hipotekojn hipotekon
+84	9284	strii	strianta striantaj striantajn striantan striante strias striata striataj striatajn striatan striate striato striinta striintaj striintajn striintan striinte striis striita striitaj striitajn striitan striite strionta striontaj striontajn striontan strionte strios striu strius
+85	9285	sviso	svisoj svisojn svison
+86	9286	filmeto	filmetoj filmetojn filmeton
+87	9287	glumarko	glumarkoj glumarkojn glumarkon
+88	9288	mungoto	mungotoj mungotojn mungoton
+89	9289	bramo	bramoj bramojn bramon
+90	9290	lingvoscienco	lingvosciencoj lingvosciencojn lingvosciencon
+91	9291	propano	propanoj propanojn propanon
+92	9292	pligrandigo	pligrandigoj pligrandigojn pligrandigon
+93	9293	himnaro	himnaroj himnarojn himnaron
+94	9294	markigo	markigoj markigojn markigon
+95	9295	parafrazo	parafrazoj parafrazojn parafrazon
+96	9296	gladiatoro	gladiatoroj gladiatorojn gladiatoron
+97	9297	ribosomo	ribosomoj ribosomojn ribosomon
+98	9298	aŭstronezia	aŭstroneziaj aŭstroneziajn aŭstronezian
+99	9299	ŝanceli	ŝancelanta ŝancelantaj ŝancelantajn ŝancelantan ŝancelante ŝancelas ŝancelata ŝancelataj ŝancelatajn ŝancelatan ŝancelate ŝancelinta ŝancelintaj ŝancelintajn ŝancelintan ŝancelinte ŝancelis ŝancelita ŝancelitaj ŝancelitajn ŝancelitan ŝancelite ŝancelonta ŝancelontaj ŝancelontajn ŝancelontan ŝancelonte ŝancelos ŝancelu ŝancelus
+100	9300	rami	ramanta ramantaj ramantajn ramantan ramante ramas ramata ramataj ramatajn ramatan ramate raminta ramintaj ramintajn ramintan raminte ramis ramita ramitaj ramitajn ramitan ramite ramonta ramontaj ramontajn ramontan ramonte ramos ramu ramus

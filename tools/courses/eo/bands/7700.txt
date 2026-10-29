@@ -1,0 +1,100 @@
+1	7601	pigo	pigoj pigojn pigon
+2	7602	sendo	sendoj sendojn sendon
+3	7603	unuavice	
+4	7604	bingo	bingoj bingojn bingon
+5	7605	arde	
+6	7606	paf	
+7	7607	tomata	tomataj tomatajn tomatan
+8	7608	orumi	orumanta orumantaj orumantajn orumantan orumante orumas orumata orumataj orumatajn orumatan orumate oruminta orumintaj orumintajn orumintan oruminte orumis orumita orumitaj orumitajn orumitan orumite orumonta orumontaj orumontajn orumontan orumonte orumos orumu orumus
+9	7609	flamigi	flamiganta flamigantaj flamigantajn flamigantan flamigante flamigas flamigata flamigataj flamigatajn flamigatan flamigate flamiginta flamigintaj flamigintajn flamigintan flamiginte flamigis flamigita flamigitaj flamigitajn flamigitan flamigite flamigonta flamigontaj flamigontajn flamigontan flamigonte flamigos flamigu flamigus
+10	7610	bulko	bulkoj bulkojn bulkon
+11	7611	ronĝi	ronĝanta ronĝantaj ronĝantajn ronĝantan ronĝante ronĝas ronĝinta ronĝintaj ronĝintajn ronĝintan ronĝinte ronĝis ronĝonta ronĝontaj ronĝontajn ronĝontan ronĝonte ronĝos ronĝu ronĝus
+12	7612	tiaro	tiaroj tiarojn tiaron
+13	7613	polva	polvaj polvajn polvan
+14	7614	kanibalo	kanibaloj kanibalojn kanibalon
+15	7615	tempesto	tempestoj tempestojn tempeston
+16	7616	afikso	afiksoj afiksojn afikson
+17	7617	mjelo	mjeloj mjelojn mjelon
+18	7618	samseksemo	samseksemoj samseksemojn samseksemon
+19	7619	hegemonio	hegemonioj hegemoniojn hegemonion
+20	7620	havaja	havajaj havajajn havajan
+21	7621	jonigi	joniganta jonigantaj jonigantajn jonigantan jonigante jonigas jonigata jonigataj jonigatajn jonigatan jonigate joniginta jonigintaj jonigintajn jonigintan joniginte jonigis jonigita jonigitaj jonigitajn jonigitan jonigite jonigonta jonigontaj jonigontajn jonigontan jonigonte jonigos jonigu jonigus
+22	7622	rubuso	rubusoj rubusojn rubuson
+23	7623	heliko	helikoj helikojn helikon
+24	7624	luo	luoj luojn luon
+25	7625	ĉielarko	ĉielarkoj ĉielarkojn ĉielarkon
+26	7626	insulano	insulanoj insulanojn insulanon
+27	7627	konjunkcio	konjunkcioj konjunkciojn konjunkcion
+28	7628	duonjara	duonjaraj duonjarajn duonjaran
+29	7629	efektiviĝi	efektiviĝanta efektiviĝantaj efektiviĝantajn efektiviĝantan efektiviĝante efektiviĝas efektiviĝinta efektiviĝintaj efektiviĝintajn efektiviĝintan efektiviĝinte efektiviĝis efektiviĝonta efektiviĝontaj efektiviĝontajn efektiviĝontan efektiviĝonte efektiviĝos efektiviĝu efektiviĝus
+30	7630	teren	
+31	7631	gangreno	gangrenoj gangrenojn gangrenon
+32	7632	senutile	
+33	7633	malrespekta	malrespektaj malrespektajn malrespektan
+34	7634	sunradio	sunradioj sunradiojn sunradion
+35	7635	latva	latvaj latvajn latvan
+36	7636	lingvaĵo	lingvaĵoj lingvaĵojn lingvaĵon
+37	7637	kolerega	koleregaj koleregajn koleregan
+38	7638	sovaĝejo	sovaĝejoj sovaĝejojn sovaĝejon
+39	7639	genealogio	genealogioj genealogiojn genealogion
+40	7640	nuba	nubaj nubajn nuban
+41	7641	konjugi	konjuganta konjugantaj konjugantajn konjugantan konjugante konjugas konjugata konjugataj konjugatajn konjugatan konjugate konjugato konjuginta konjugintaj konjugintajn konjugintan konjuginte konjugis konjugita konjugitaj konjugitajn konjugitan konjugite konjugito konjugonta konjugontaj konjugontajn konjugontan konjugonte konjugos konjugu konjugus
+42	7642	debuta	debutaj debutajn debutan
+43	7643	samnoma	samnomaj samnomajn samnoman
+44	7644	ekscitiĝo	ekscitiĝoj ekscitiĝojn ekscitiĝon
+45	7645	maldiligenta	maldiligentaj maldiligentajn maldiligentan
+46	7646	monata	monataj monatajn monatan
+47	7647	butonumi	butonumanta butonumantaj butonumantajn butonumantan butonumante butonumas butonumata butonumataj butonumatajn butonumatan butonumate butonuminta butonumintaj butonumintajn butonumintan butonuminte butonumis butonumita butonumitaj butonumitajn butonumitan butonumite butonumonta butonumontaj butonumontajn butonumontan butonumonte butonumos butonumu butonumus
+48	7648	ŝraŭbi	ŝraŭbanta ŝraŭbantaj ŝraŭbantajn ŝraŭbantan ŝraŭbante ŝraŭbas ŝraŭbinta ŝraŭbintaj ŝraŭbintajn ŝraŭbintan ŝraŭbinte ŝraŭbis ŝraŭbonta ŝraŭbontaj ŝraŭbontajn ŝraŭbontan ŝraŭbonte ŝraŭbos ŝraŭbu ŝraŭbus
+49	7649	forsta	forstaj forstajn forstan
+50	7650	hamstro	hamstroj hamstrojn hamstron
+51	7651	aktori	aktoranta aktorantaj aktorantajn aktorantan aktorante aktoras aktorinta aktorintaj aktorintajn aktorintan aktorinte aktoris aktoronta aktorontaj aktorontajn aktorontan aktoronte aktoros aktoru aktorus
+52	7652	ridado	ridadoj ridadojn ridadon
+53	7653	memkontenta	memkontentaj memkontentajn memkontentan
+54	7654	inventisto	inventistoj inventistojn inventiston
+55	7655	frostopunkto	frostopunktoj frostopunktojn frostopunkton
+56	7656	paraŝuto	paraŝutoj paraŝutojn paraŝuton
+57	7657	skolo	skoloj skolojn skolon
+58	7658	rimo	rimoj rimojn rimon
+59	7659	pluvarbaro	pluvarbaroj pluvarbarojn pluvarbaron
+60	7660	dedukti	deduktanta deduktantaj deduktantajn deduktantan deduktante deduktas deduktata deduktataj deduktatajn deduktatan deduktate deduktinta deduktintaj deduktintajn deduktintan deduktinte deduktis deduktita deduktitaj deduktitajn deduktitan deduktite deduktonta deduktontaj deduktontajn deduktontan deduktonte deduktos deduktu deduktus
+61	7661	neplenaĝulo	neplenaĝuloj neplenaĝulojn neplenaĝulon
+62	7662	farmi	farmanta farmantaj farmantajn farmantan farmante farmanto farmantoj farmas farmata farmataj farmatajn farmatan farmate farminta farmintaj farmintajn farmintan farminte farmis farmita farmitaj farmitajn farmitan farmite farmonta farmontaj farmontajn farmontan farmonte farmos farmu farmus
+63	7663	mortpuno	mortpunoj mortpunojn mortpunon
+64	7664	ani	ananta anantaj anantajn anantan anante anas aninta anintaj anintajn anintan aninte anis anonta anontaj anontajn anontan anonte anos anu anus
+65	7665	remilo	remiloj remilojn remilon
+66	7666	grumbli	grumblanta grumblantaj grumblantajn grumblantan grumblante grumblas grumblinta grumblintaj grumblintajn grumblintan grumblinte grumblis grumblonta grumblontaj grumblontajn grumblontan grumblonte grumblos grumblu grumblus
+67	7667	bagatelo	bagateloj bagatelojn bagatelon
+68	7668	pego	pegoj pegojn pegon
+69	7669	knaba	knabaj knabajn knaban
+70	7670	bluokula	bluokulaj bluokulajn bluokulan
+71	7671	konigi	koniganta konigantaj konigantajn konigantan konigante konigas koniginta konigintaj konigintajn konigintan koniginte konigis konigonta konigontaj konigontajn konigontan konigonte konigos konigu konigus
+72	7672	kvare	
+73	7673	ŝaktabulo	ŝaktabuloj ŝaktabulojn ŝaktabulon
+74	7674	neaŭdebla	neaŭdeblaj neaŭdeblajn neaŭdeblan
+75	7675	anarkia	anarkiaj anarkiajn anarkian
+76	7676	viskozeco	viskozecoj viskozecojn viskozecon
+77	7677	trezorejo	trezorejoj trezorejojn trezorejon
+78	7678	vebero	veberoj veberojn veberon
+79	7679	fotosintezo	fotosintezoj fotosintezojn fotosintezon
+80	7680	kromo	kromon
+81	7681	inkvizicio	inkvizicioj inkviziciojn inkvizicion
+82	7682	aktivismo	aktivismoj aktivismojn aktivismon
+83	7683	apoteko	apotekoj apotekojn apotekon
+84	7684	haitia	haitiaj haitiajn haitian
+85	7685	ventra	ventraj ventrajn ventran
+86	7686	kaliko	kalikoj kalikojn kalikon
+87	7687	sonaro	sonaroj sonarojn sonaron
+88	7688	emerito	emeritoj emeritojn emeriton
+89	7689	ventoli	ventolanta ventolantaj ventolantajn ventolantan ventolante ventolas ventolata ventolataj ventolatajn ventolatan ventolate ventolinta ventolintaj ventolintajn ventolintan ventolinte ventolis ventolita ventolitaj ventolitajn ventolitan ventolite ventolonta ventolontaj ventolontajn ventolontan ventolonte ventolos ventolu ventolus
+90	7690	mordo	mordoj mordojn mordon
+91	7691	anarkiismo	anarkiismoj anarkiismojn anarkiismon anarĥiismo
+92	7692	siro	siroj sirojn siron
+93	7693	holdo	holdoj holdojn holdon
+94	7694	serpenta	serpentaj serpentajn serpentan
+95	7695	refali	refalanta refalantaj refalantajn refalantan refalante refalas refalinta refalintaj refalintajn refalintan refalinte refalis refalonta refalontaj refalontajn refalontan refalonte refalos refalu refalus
+96	7696	gazetanonco	gazetanoncoj gazetanoncojn gazetanoncon
+97	7697	panero	paneroj panerojn paneron
+98	7698	pneŭmatiko	pneŭmatikoj pneŭmatikojn pneŭmatikon
+99	7699	koktelo	kokteloj koktelojn koktelon
+100	7700	ardi	ardanta ardantaj ardantajn ardantan ardante ardas ardinta ardintaj ardintajn ardintan ardinte ardis ardonta ardontaj ardontajn ardontan ardonte ardos ardu ardus

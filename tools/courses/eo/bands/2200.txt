@@ -1,0 +1,100 @@
+1	2101	klarigo	klarigoj klarigojn klarigon
+2	2102	persa	persaj persajn persan
+3	2103	preterpasi	preterpasanta preterpasantaj preterpasantajn preterpasantan preterpasante preterpasanto preterpasantoj preterpasas preterpasata preterpasataj preterpasatajn preterpasatan preterpasate preterpasinta preterpasintaj preterpasintajn preterpasintan preterpasinte preterpasis preterpasita preterpasitaj preterpasitajn preterpasitan preterpasite preterpasonta preterpasontaj preterpasontajn preterpasontan preterpasonte preterpasos preterpasu preterpasus
+4	2104	disvastigi	disvastiganta disvastigantaj disvastigantajn disvastigantan disvastigante disvastigas disvastigata disvastigataj disvastigatajn disvastigatan disvastigate disvastiginta disvastigintaj disvastigintajn disvastigintan disvastiginte disvastigis disvastigita disvastigitaj disvastigitajn disvastigitan disvastigite disvastigonta disvastigontaj disvastigontajn disvastigontan disvastigonte disvastigos disvastigu disvastigus
+5	2105	parenco	parencoj parencojn parencon
+6	2106	medicino	medicinoj medicinojn medicinon
+7	2107	ĉapelo	chapelo ĉapeloj ĉapelojn ĉapelon
+8	2108	akuzi	akuzanta akuzantaj akuzantajn akuzantan akuzante akuzantoj akuzanton akuzas akuzata akuzataj akuzatajn akuzatan akuzate akuzato akuzinta akuzintaj akuzintajn akuzintan akuzinte akuzis akuzita akuzitaj akuzitajn akuzitan akuzite akuzitoj akuzitojn akuziton akuzonta akuzontaj akuzontajn akuzontan akuzonte akuzos akuzu akuzus
+9	2109	honori	honoranta honorantaj honorantajn honorantan honorante honoras honorata honorataj honoratajn honoratan honorate honorinta honorintaj honorintajn honorintan honorinte honoris honorita honoritaj honoritajn honoritan honorite honoronta honorontaj honorontajn honorontan honoronte honoros honoru honorus
+10	2110	iniciati	iniciatanta iniciatantaj iniciatantajn iniciatantan iniciatante iniciatas iniciatata iniciatataj iniciatatajn iniciatatan iniciatate iniciatinta iniciatintaj iniciatintajn iniciatintan iniciatinte iniciatinto iniciatintoj iniciatinton iniciatis iniciatita iniciatitaj iniciatitajn iniciatitan iniciatite iniciatonta iniciatontaj iniciatontajn iniciatontan iniciatonte iniciatos iniciatu iniciatus
+11	2111	skatolo	skatoloj skatolojn skatolon
+12	2112	respektive	
+13	2113	vespermanĝo	vespermanĝoj vespermanĝojn vespermanĝon
+14	2114	agrabla	agrablaj agrablajn agrablan
+15	2115	miksaĵo	miksaĵoj miksaĵojn miksaĵon
+16	2116	decida	decidaj decidajn decidan
+17	2117	kruda	krudaj krudajn krudan
+18	2118	rajdi	rajdanta rajdantaj rajdantajn rajdantan rajdante rajdanto rajdantoj rajdantojn rajdanton rajdas rajdata rajdataj rajdatajn rajdatan rajdate rajdinta rajdintaj rajdintajn rajdintan rajdinte rajdis rajdita rajditaj rajditajn rajditan rajdite rajdonta rajdontaj rajdontajn rajdontan rajdonte rajdos rajdu rajdus
+19	2119	mikrofono	mikrofonoj mikrofonojn mikrofonon
+20	2120	kolonio	kolonioj koloniojn kolonion
+21	2121	konatiĝi	konatiĝanta konatiĝantaj konatiĝantajn konatiĝantan konatiĝante konatiĝas konatiĝinta konatiĝintaj konatiĝintajn konatiĝintan konatiĝinte konatiĝis konatiĝonta konatiĝontaj konatiĝontajn konatiĝontan konatiĝonte konatiĝos konatiĝu konatiĝus
+22	2122	senfina	senfinaj senfinajn senfinan
+23	2123	sovetia	sovetiaj sovetiajn sovetian
+24	2124	partnero	partneroj partnerojn partneron
+25	2125	kruco	krucoj krucojn krucon
+26	2126	parko	parkoj parkojn parkon
+27	2127	fundamento	fundamentoj fundamentojn fundamenton
+28	2128	aj	
+29	2129	profito	profitoj profitojn profiton
+30	2130	hararo	hararoj hararojn hararon
+31	2131	malamo	malamoj malamojn malamon
+32	2132	lui	luanta luantaj luantajn luantan luante luanto luantoj luantojn luas luata luataj luatajn luatan luate luinta luintaj luintajn luintan luinte luintoj luis luita luitaj luitajn luitan luite luonta luontaj luontajn luontan luonte luos luu luus
+33	2133	artefarita	artefaritaj artefaritajn artefaritan
+34	2134	peceto	pecetoj pecetojn peceton
+35	2135	kompromiso	kompromisoj kompromisojn kompromison
+36	2136	ekstrema	ekstremaj ekstremajn ekstreman
+37	2137	larmo	larmoj larmojn larmon
+38	2138	alparoli	alparolanta alparolantaj alparolantajn alparolantan alparolante alparolas alparolata alparolataj alparolatajn alparolatan alparolate alparolinta alparolintaj alparolintajn alparolintan alparolinte alparolis alparolita alparolitaj alparolitajn alparolitan alparolite alparolonta alparolontaj alparolontajn alparolontan alparolonte alparolos alparolu alparolus
+39	2139	geknabo	geknaboj geknabojn geknabon
+40	2140	vortaro	vortaroj vortarojn vortaron
+41	2141	meriti	meritanta meritantaj meritantajn meritantan meritante meritantoj meritas meritata meritataj meritatajn meritatan meritate meritinta meritintaj meritintajn meritintan meritinte meritis meritita merititaj merititajn merititan meritite meritonta meritontaj meritontajn meritontan meritonte meritos meritu meritus
+42	2142	kristalo	kristaloj kristalojn kristalon
+43	2143	tuno	tunoj tunojn tunon
+44	2144	konscio	konscioj konsciojn konscion
+45	2145	cigaredo	cigaredoj cigaredojn cigaredon
+46	2146	hispano	hispanoj hispanojn hispanon
+47	2147	domaĝe	
+48	2148	putino	putinoj putinojn putinon
+49	2149	varmigi	varmiganta varmigantaj varmigantajn varmigantan varmigante varmigas varmigata varmigataj varmigatajn varmigatan varmigate varmiginta varmigintaj varmigintajn varmigintan varmiginte varmigis varmigita varmigitaj varmigitajn varmigitan varmigite varmigonta varmigontaj varmigontajn varmigontan varmigonte varmigos varmigu varmigus
+50	2150	redakti	redaktanta redaktantaj redaktantajn redaktantan redaktante redaktas redaktata redaktataj redaktatajn redaktatan redaktate redaktinta redaktintaj redaktintajn redaktintan redaktinte redaktis redaktita redaktitaj redaktitajn redaktitan redaktite redaktonta redaktontaj redaktontajn redaktontan redaktonte redaktos redaktu redaktus
+51	2151	fremdulo	fremduloj fremdulojn fremdulon
+52	2152	mamo	mamoj mamojn mamon
+53	2153	potencialo	potencialoj potencialojn potencialon
+54	2154	apero	aperoj aperojn aperon
+55	2155	kamerao	kameraoj kameraojn kameraon
+56	2156	mararmeo	mararmeoj mararmeojn mararmeon
+57	2157	pretigi	pretiganta pretigantaj pretigantajn pretigantan pretigante pretigas pretigata pretigataj pretigatajn pretigatan pretigate pretiginta pretigintaj pretigintajn pretigintan pretiginte pretigis pretigita pretigitaj pretigitajn pretigitan pretigite pretigonta pretigontaj pretigontajn pretigontan pretigonte pretigos pretigu pretigus
+58	2158	interpreti	interpretanta interpretantaj interpretantajn interpretantan interpretante interpretanto interpretantoj interpretas interpretata interpretataj interpretatajn interpretatan interpretate interpretinta interpretintaj interpretintajn interpretintan interpretinte interpretis interpretita interpretitaj interpretitajn interpretitan interpretite interpretonta interpretontaj interpretontajn interpretontan interpretonte interpretos interpretota interpretotaj interpretu interpretus
+59	2159	priskribo	priskriboj priskribojn priskribon
+60	2160	ĝentila	ĝentilaj ĝentilajn ĝentilan
+61	2161	klimato	klimatoj klimatojn klimaton
+62	2162	uniformo	uniformoj uniformojn uniformon
+63	2163	substantivo	substantivoj substantivojn substantivon
+64	2164	havigi	haviganta havigantaj havigantajn havigantan havigante havigas havigata havigataj havigatajn havigatan havigate haviginta havigintaj havigintajn havigintan haviginte havigis havigita havigitaj havigitajn havigitan havigite havigonta havigontaj havigontajn havigontan havigonte havigos havigu havigus
+65	2165	baterio	baterioj bateriojn baterion
+66	2166	detekti	detektanta detektantaj detektantajn detektantan detektante detektas detektata detektataj detektatajn detektatan detektate detektinta detektintaj detektintajn detektintan detektinte detektis detektita detektitaj detektitajn detektitan detektite detektonta detektontaj detektontajn detektontan detektonte detektos detektu detektus
+67	2167	inteligenta	inteligentaj inteligentajn inteligentan
+68	2168	lukti	luktanta luktantaj luktantajn luktantan luktante luktanton luktas luktinta luktintaj luktintajn luktintan luktinte luktis luktonta luktontaj luktontajn luktontan luktonte luktos luktu luktus
+69	2169	interese	
+70	2170	karakteriza	karakterizaj karakterizajn karakterizan
+71	2171	serioza	seriozaj seriozajn seriozan
+72	2172	protesti	protestantaj protestantajn protestantan protestante protestanto protestantoj protestantojn protestanton protestas protestata protestataj protestatajn protestatan protestate protestinta protestintaj protestintajn protestintan protestinte protestis protestita protestitaj protestitajn protestitan protestite protestonta protestontaj protestontajn protestontan protestonte protestos protestu protestus
+73	2173	bieno	bienoj bienojn bienon
+74	2174	nature	
+75	2175	komando	komandoj komandojn komandon
+76	2176	emfazi	emfazanta emfazantaj emfazantajn emfazantan emfazante emfazas emfazata emfazataj emfazatajn emfazatan emfazate emfazinta emfazintaj emfazintajn emfazintan emfazinte emfazis emfazita emfazitaj emfazitajn emfazitan emfazite emfazonta emfazontaj emfazontajn emfazontan emfazonte emfazos emfazu emfazus
+77	2177	kuko	kukoj kukojn kukon
+78	2178	kalkulo	kalkuloj kalkulojn kalkulon
+79	2179	enveni	envenanta envenantaj envenantajn envenantan envenante envenas enveninta envenintaj envenintajn envenintan enveninte envenis envenonta envenontaj envenontajn envenontan envenonte envenos envenu envenus
+80	2180	rekordo	rekordoj rekordojn rekordon
+81	2181	tranĉilo	tranĉiloj tranĉilojn tranĉilon
+82	2182	agrikultura	agrikulturaj agrikulturajn agrikulturan
+83	2183	ruinigi	ruiniganta ruinigantaj ruinigantajn ruinigantan ruinigante ruinigas ruinigata ruinigataj ruinigatajn ruinigatan ruinigate ruiniginta ruinigintaj ruinigintajn ruinigintan ruiniginte ruinigis ruinigita ruinigitaj ruinigitajn ruinigitan ruinigite ruinigonta ruinigontaj ruinigontajn ruinigontan ruinigonte ruinigos ruinigu ruinigus
+84	2184	streĉi	streĉanta streĉantaj streĉantajn streĉantan streĉante streĉas streĉata streĉataj streĉatajn streĉatan streĉate streĉinta streĉintaj streĉintajn streĉintan streĉinte streĉis streĉita streĉitaj streĉitajn streĉitan streĉite streĉonta streĉontaj streĉontajn streĉontan streĉonte streĉos streĉu streĉus
+85	2185	sentema	sentemaj sentemajn senteman
+86	2186	absoluta	absolutaj absolutajn absolutan
+87	2187	invento	inventoj inventojn inventon
+88	2188	gratulo	gratuloj gratulojn gratulon
+89	2189	plenkreskulo	plenkreskuloj plenkreskulojn plenkreskulon
+90	2190	rezervi	rezervanta rezervantaj rezervantajn rezervantan rezervante rezervas rezervata rezervataj rezervatajn rezervatan rezervate rezervinta rezervintaj rezervintajn rezervintan rezervinte rezervis rezervita rezervitaj rezervitajn rezervitan rezervite rezervonta rezervontaj rezervontajn rezervontan rezervonte rezervos rezervu rezervus
+91	2191	delikata	delikataj delikatajn delikatan
+92	2192	alternativa	alternativaj alternativajn alternativan
+93	2193	favora	favoraj favorajn favoran
+94	2194	kvartalo	kvartaloj kvartalojn kvartalon
+95	2195	oferi	oferanta oferantaj oferantajn oferantan oferante oferas oferata oferataj oferatajn oferatan oferate oferinta oferintaj oferintajn oferintan oferinte oferis oferita oferitaj oferitajn oferitan oferite oferonta oferontaj oferontajn oferontan oferonte oferos oferu oferus
+96	2196	disciplino	disciplinoj disciplinojn disciplinon
+97	2197	nobla	noblaj noblajn noblan
+98	2198	maljunulo	maljunuloj maljunulojn maljunulon
+99	2199	agrable	
+100	2200	kunpreni	kunprenanta kunprenantaj kunprenantajn kunprenantan kunprenante kunprenas kunpreninta kunprenintaj kunprenintajn kunprenintan kunpreninte kunprenis kunprenonta kunprenontaj kunprenontajn kunprenontan kunprenonte kunprenos kunprenu kunprenus

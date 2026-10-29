@@ -1,0 +1,100 @@
+1	8101	memorinda	memorindaj memorindajn memorindan
+2	8102	penicilino	penicilinoj penicilinojn penicilinon
+3	8103	sennoma	sennomaj sennomajn sennoman
+4	8104	hejmaresto	hejmarestoj hejmarestojn hejmareston
+5	8105	stratosfero	stratosferoj stratosferojn stratosferon
+6	8106	cunamo	cunamoj cunamojn cunamon
+7	8107	amfiteatro	amfiteatroj amfiteatrojn amfiteatron
+8	8108	koloniismo	koloniismoj koloniismojn koloniismon
+9	8109	mode	
+10	8110	kloro	kloroj klorojn kloron
+11	8111	antisemitismo	antisemitismoj antisemitismojn antisemitismon
+12	8112	alto	altoj altojn alton
+13	8113	bolpunkto	bolpunktoj bolpunktojn bolpunkton
+14	8114	interrompa	interrompaj interrompajn interrompan
+15	8115	prezentaĵo	prezentaĵoj prezentaĵojn prezentaĵon
+16	8116	eleganteco	elegantecoj elegantecojn elegantecon
+17	8117	vejna	vejnaj vejnajn vejnan
+18	8118	muzike	
+19	8119	insuleto	insuletoj insuletojn insuleton
+20	8120	kanuo	kanuoj kanuojn kanuon
+21	8121	akreco	akrecoj akrecojn akrecon
+22	8122	ekstazo	ekstazoj ekstazojn ekstazon
+23	8123	alflui	alfluanta alfluantaj alfluantajn alfluantan alfluante alfluanto alfluantoj alfluantojn alfluas alfluinta alfluintaj alfluintajn alfluintan alfluinte alfluis alfluonta alfluontaj alfluontajn alfluontan alfluonte alfluos alfluu alfluus
+24	8124	osta	ostaj ostajn ostan
+25	8125	hieno	hienoj hienojn hienon
+26	8126	katapulto	katapultoj katapultojn katapulton
+27	8127	ĉirkaŭo	ĉirkaŭoj ĉirkaŭojn ĉirkaŭon
+28	8128	horzono	horzonoj horzonojn horzonon
+29	8129	robota	robotaj robotajn robotan
+30	8130	cis	
+31	8131	anime	
+32	8132	kapitolo	kapitoloj kapitolojn kapitolon
+33	8133	trafiklumoj	trafiklumo trafiklumojn trafiklumon
+34	8134	tajfuno	tajfunoj tajfunojn tajfunon tifono tifonoj tifonon
+35	8135	respektema	respektemaj respektemajn respekteman
+36	8136	nekropsio	nekropsioj nekropsiojn nekropsion
+37	8137	rabisto	rabistoj rabistojn rabiston
+38	8138	pianisto	pianistoj pianistojn pianiston
+39	8139	ozono	ozonoj ozonojn ozonon
+40	8140	konjugacio	konjugacioj konjugaciojn konjugacion
+41	8141	aŭditorio	aŭditorioj aŭditoriojn aŭditorion
+42	8142	pluvego	pluvegoj pluvegojn pluvegon
+43	8143	tibetano	tibetanoj tibetanojn tibetanon
+44	8144	bluso	bluoj blusoj blusojn bluson
+45	8145	malorda	malordaj malordajn malordan
+46	8146	ekrigardo	ekrigardoj ekrigardojn ekrigardon
+47	8147	egoismo	egoismoj egoismojn egoismon
+48	8148	enuigi	enuiganta enuigantaj enuigantajn enuigantan enuigante enuigas enuigata enuigataj enuigatajn enuigatan enuigate enuiginta enuigintaj enuigintajn enuigintan enuiginte enuigis enuigita enuigitaj enuigitajn enuigitan enuigite enuigonta enuigontaj enuigontajn enuigontan enuigonte enuigos enuigu enuigus
+49	8149	koltuko	koltukoj koltukojn koltukon
+50	8150	kapoto	kapotoj kapotojn kapoton
+51	8151	naivulo	naivuloj naivulojn naivulon
+52	8152	hipnoto	hipnotoj hipnotojn hipnoton
+53	8153	ateismo	ateismoj ateismojn ateismon
+54	8154	kroato	kroatoj kroatojn kroaton
+55	8155	misuzo	misuzoj misuzojn misuzon
+56	8156	multipliko	multiplikoj multiplikojn multiplikon
+57	8157	pino	pinoj pinojn pinon
+58	8158	obstrukco	obstrukcoj obstrukcojn obstrukcon
+59	8159	kratero	krateroj kraterojn krateron
+60	8160	senvertebrulo	senvertebruloj senvertebrulojn senvertebrulon
+61	8161	herbicido	herbicidoj herbicidojn herbicidon
+62	8162	satelita	satelitaj satelitajn satelitan
+63	8163	animala	animalaj animalajn animalan
+64	8164	antimaterio	antimaterioj antimateriojn antimaterion
+65	8165	ĉevala	ĉevalaj ĉevalajn ĉevalan
+66	8166	meksikia	meksikiaj meksikiajn meksikian
+67	8167	malbonŝanca	malbonŝancaj malbonŝancajn malbonŝancan
+68	8168	palato	palatoj palatojn palaton
+69	8169	triki	trikanta trikantaj trikantajn trikantan trikante trikas trikata trikataj trikatajn trikatan trikate trikinta trikintaj trikintajn trikintan trikinte trikis trikita trikitaj trikitajn trikitan trikite trikonta trikontaj trikontajn trikontan trikonte trikos triku trikus
+70	8170	teksisto	teksistoj teksistojn teksiston
+71	8171	raŭpo	raŭpoj raŭpojn raŭpon
+72	8172	muldi	muldanta muldantaj muldantajn muldantan muldante muldas muldata muldataj muldatajn muldatan muldate muldinta muldintaj muldintajn muldintan muldinte muldis muldita mulditaj mulditajn mulditan muldite muldonta muldontaj muldontajn muldontan muldonte muldos muldu muldus
+73	8173	streko	strekoj strekojn strekon
+74	8174	variolo	varioloj variolojn variolon
+75	8175	pimpa	pimpaj pimpajn pimpan
+76	8176	aŭdebla	aŭdeblaj aŭdeblajn aŭdeblan
+77	8177	bova	bovaj bovajn bovan
+78	8178	kontrabando	kontrabandoj kontrabandojn kontrabandon
+79	8179	tagmeze	
+80	8180	verkaro	verkaroj verkarojn verkaron
+81	8181	medolo	medoloj medolojn medolon
+82	8182	nenatura	nenaturaj nenaturajn nenaturan
+83	8183	aperturo	aperturoj aperturojn aperturon
+84	8184	vaporŝipo	vaporŝipoj vaporŝipojn vaporŝipon
+85	8185	presado	presadoj presadojn presadon
+86	8186	entuziasmulo	entuziasmuloj entuziasmulojn entuziasmulon
+87	8187	infinitivo	infinitivoj infinitivojn infinitivon
+88	8188	labormerkato	labormerkatoj labormerkatojn labormerkaton
+89	8189	streketo	streketoj streketojn streketon
+90	8190	kripto	kriptoj kriptojn kripton
+91	8191	figo	figoj figojn figon
+92	8192	kurta	kurtaj kurtajn kurtan
+93	8193	aromo	aromoj aromojn aromon
+94	8194	mala	malaj malajn malan
+95	8195	analizilo	analiziloj analizilojn analizilon
+96	8196	meduzo	meduzoj meduzojn meduzon
+97	8197	faceto	facetoj facetojn faceton
+98	8198	pantaloneto	pantalonetoj pantalonetojn pantaloneton
+99	8199	drinkulo	drinkuloj drinkulojn drinkulon
+100	8200	elasteco	elastecoj elastecojn elastecon

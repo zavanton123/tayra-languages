@@ -1,0 +1,100 @@
+1	4001	moro	moroj morojn moron
+2	4002	apostolo	apostoloj apostolojn apostolon
+3	4003	tiparo	tiparoj tiparojn tiparon
+4	4004	kostumo	kostumoj kostumojn kostumon
+5	4005	duoninsulo	duoninsuloj duoninsulojn duoninsulon
+6	4006	artefakto	artefaktoj artefaktojn artefakton
+7	4007	polui	poluanta poluantaj poluantajn poluantan poluante poluanto poluantoj poluas poluata poluataj poluatajn poluatan poluate poluinta poluintaj poluintajn poluintan poluinte poluis poluita poluitaj poluitajn poluitan poluite poluonta poluontaj poluontajn poluontan poluonte poluos poluu poluus
+8	4008	ekregi	ekreganta ekregantaj ekregantajn ekregantan ekregante ekregas ekreginta ekregintaj ekregintajn ekregintan ekreginte ekregis ekregonta ekregontaj ekregontajn ekregontan ekregonte ekregos ekregu ekregus
+9	4009	korbo	korboj korbojn korbon
+10	4010	aglo	agloj aglojn aglon
+11	4011	pureco	purecoj purecojn purecon
+12	4012	ridinde	
+13	4013	juneco	junecoj junecojn junecon
+14	4014	energia	energiaj energiajn energian
+15	4015	bedaŭro	bedaŭroj bedaŭrojn bedaŭron
+16	4016	ŝvebi	ŝvebanta ŝvebantaj ŝvebantajn ŝvebantan ŝvebante ŝvebas ŝvebinta ŝvebintaj ŝvebintajn ŝvebintan ŝvebinte ŝvebis ŝvebonta ŝvebontaj ŝvebontajn ŝvebontan ŝvebonte ŝvebos ŝvebu ŝvebus
+17	4017	plua	pluaj pluajn pluan
+18	4018	formanĝi	formanĝanta formanĝantaj formanĝantajn formanĝantan formanĝante formanĝas formanĝinta formanĝintaj formanĝintajn formanĝintan formanĝinte formanĝis formanĝonta formanĝontaj formanĝontajn formanĝontan formanĝonte formanĝos formanĝu formanĝus
+19	4019	komerce	
+20	4020	juvelo	juveloj juvelojn juvelon
+21	4021	ripeto	ripetoj ripetojn ripeton
+22	4022	seminario	seminarioj seminariojn seminarion
+23	4023	malfavora	malfavoraj malfavorajn malfavoran
+24	4024	ekipi	ekipanta ekipantaj ekipantajn ekipantan ekipante ekipas ekipata ekipataj ekipatajn ekipatan ekipate ekipinta ekipintaj ekipintajn ekipintan ekipinte ekipis ekipita ekipitaj ekipitajn ekipitan ekipite ekiponta ekipontaj ekipontajn ekipontan ekiponte ekipos ekipu ekipus
+25	4025	originale	
+26	4026	svati	svatanta svatantaj svatantajn svatantan svatante svatanto svatantoj svatantojn svatas svatata svatataj svatatajn svatatan svatate svatinta svatintaj svatintajn svatintan svatinte svatis svatita svatitaj svatitajn svatitan svatite svatonta svatontaj svatontajn svatontan svatonte svatos svatu svatus
+27	4027	oleo	oleoj oleojn oleon
+28	4028	kontraŭstari	kontraŭstaranta kontraŭstarantaj kontraŭstarantajn kontraŭstarantan kontraŭstarante kontraŭstaras kontraŭstarinta kontraŭstarintaj kontraŭstarintajn kontraŭstarintan kontraŭstarinte kontraŭstaris kontraŭstaronta kontraŭstarontaj kontraŭstarontajn kontraŭstarontan kontraŭstaronte kontraŭstaros kontraŭstaru kontraŭstarus
+29	4029	bildigi	bildiganta bildigantaj bildigantajn bildigantan bildigante bildiganto bildigantoj bildigas bildigata bildigataj bildigatajn bildigatan bildigate bildiginta bildigintaj bildigintajn bildigintan bildiginte bildigis bildigita bildigitaj bildigitajn bildigitan bildigite bildigonta bildigontaj bildigontajn bildigontan bildigonte bildigos bildigu bildigus
+30	4030	abundo	abundoj abundojn abundon
+31	4031	femuro	femuroj femurojn femuron
+32	4032	amika	amikaj amikajn amikan
+33	4033	hundaĉo	hundaĉoj hundaĉojn hundaĉon
+34	4034	samopinii	samopinianta samopiniantaj samopiniantajn samopiniantan samopiniante samopinias samopiniinta samopiniintaj samopiniintajn samopiniintan samopiniinte samopiniis samopinionta samopiniontaj samopiniontajn samopiniontan samopinionte samopinios samopiniu samopinius
+35	4035	lumi	lumanta lumantaj lumantajn lumantan lumante lumas luminta lumintaj lumintajn lumintan luminte lumis lumonta lumontaj lumontajn lumontan lumonte lumos lumu lumus
+36	4036	kameraisto	kameraistoj kameraistojn kameraiston
+37	4037	kajero	kajeroj kajerojn kajeron
+38	4038	malstreĉiĝi	malstreĉiĝanta malstreĉiĝantaj malstreĉiĝantajn malstreĉiĝantan malstreĉiĝante malstreĉiĝas malstreĉiĝinta malstreĉiĝintaj malstreĉiĝintajn malstreĉiĝintan malstreĉiĝinte malstreĉiĝis malstreĉiĝonta malstreĉiĝontaj malstreĉiĝontajn malstreĉiĝontan malstreĉiĝonte malstreĉiĝos malstreĉiĝu malstreĉiĝus
+39	4039	diradi	diradanta diradantaj diradantajn diradantan diradante diradas diradinta diradintaj diradintajn diradintan diradinte diradis diradonta diradontaj diradontajn diradontan diradonte dirados diradu diradus
+40	4040	stultumi	stultumanta stultumantaj stultumantajn stultumantan stultumante stultumas stultuminta stultumintaj stultumintajn stultumintan stultuminte stultumis stultumonta stultumontaj stultumontajn stultumontan stultumonte stultumos stultumu stultumus
+41	4041	alkonduki	alkondukanta alkondukantaj alkondukantajn alkondukantan alkondukante alkondukas alkondukata alkondukataj alkondukatajn alkondukatan alkondukate alkondukinta alkondukintaj alkondukintajn alkondukintan alkondukinte alkondukis alkondukita alkondukitaj alkondukitajn alkondukitan alkondukite alkondukonta alkondukontaj alkondukontajn alkondukontan alkondukonte alkondukos alkonduku alkondukus
+42	4042	mastrumi	mastrumanta mastrumantaj mastrumantajn mastrumantan mastrumante mastrumas mastruminta mastrumintaj mastrumintajn mastrumintan mastruminte mastrumis mastrumonta mastrumontaj mastrumontajn mastrumontan mastrumonte mastrumos mastrumu mastrumus
+43	4043	kuketo	kuketoj kuketojn kuketon
+44	4044	aŭdigi	aŭdiganta aŭdigantaj aŭdigantajn aŭdigantan aŭdigante aŭdigas aŭdiginta aŭdigintaj aŭdigintajn aŭdigintan aŭdiginte aŭdigis aŭdigonta aŭdigontaj aŭdigontajn aŭdigontan aŭdigonte aŭdigos aŭdigu aŭdigus
+45	4045	enorde	
+46	4046	najbarino	najbarinoj najbarinojn najbarinon
+47	4047	fraĉjo	fraĉjoj fraĉjojn fraĉjon
+48	4048	koramikino	koramikinoj koramikinojn koramikinon
+49	4049	barbisto	barbistoj barbistojn barbiston
+50	4050	idisto	idistoj idistojn idiston
+51	4051	komplezo	komplezoj komplezojn komplezon
+52	4052	kvantuma	kvantumaj kvantumajn kvantuman
+53	4053	dankema	dankemaj dankemajn dankeman
+54	4054	kliniĝi	kliniĝanta kliniĝantaj kliniĝantajn kliniĝantan kliniĝante kliniĝas kliniĝinta kliniĝintaj kliniĝintajn kliniĝintan kliniĝinte kliniĝis kliniĝonta kliniĝontaj kliniĝontajn kliniĝontan kliniĝonte kliniĝos kliniĝu kliniĝus
+55	4055	malsaĝa	malsaĝaj malsaĝajn malsaĝan
+56	4056	kaduka	kadukaj kadukajn kadukan
+57	4057	intervjui	intervjuanta intervjuantaj intervjuantajn intervjuantan intervjuante intervjuanto intervjuantoj intervjuanton intervjuas intervjuata intervjuataj intervjuatajn intervjuatan intervjuate intervjuinta intervjuintaj intervjuintajn intervjuintan intervjuinte intervjuis intervjuita intervjuitaj intervjuitajn intervjuitan intervjuite intervjuito intervjuitoj intervjuonta intervjuontaj intervjuontajn intervjuontan intervjuonte intervjuos intervjuu intervjuus
+58	4058	korpa	korpaj korpajn korpan
+59	4059	mensa	mensaj mensajn mensan
+60	4060	diamanto	diamantoj diamantojn diamanton
+61	4061	kantado	kantadoj kantadojn kantadon
+62	4062	resumi	resumanta resumantaj resumantajn resumantan resumante resumas resumata resumataj resumatajn resumatan resumate resuminta resumintaj resumintajn resumintan resuminte resumis resumita resumitaj resumitajn resumitan resumite resumonta resumontaj resumontajn resumontan resumonte resumos resumu resumus
+63	4063	laborado	laboradoj laboradojn laboradon
+64	4064	havebleco	haveblecoj haveblecojn haveblecon
+65	4065	subtila	subtilaj subtilajn subtilan
+66	4066	para	paraj parajn paran
+67	4067	dikfingro	dikfingroj dikfingrojn dikfingron
+68	4068	orientiĝo	orientiĝoj orientiĝojn orientiĝon
+69	4069	propagandi	propagandanta propagandantaj propagandantajn propagandantan propagandante propagandanto propagandantoj propagandantojn propagandas propagandinta propagandintaj propagandintajn propagandintan propagandinte propagandis propagandonta propagandontaj propagandontajn propagandontan propagandonte propagandos propagandu propagandus
+70	4070	neatendita	neatenditaj neatenditajn neatenditan
+71	4071	bovido	bovidoj bovidojn bovidon
+72	4072	batalisto	batalistoj batalistojn bataliston
+73	4073	ŝipano	ŝipanoj ŝipanojn ŝipanon
+74	4074	graveda	gravedaj gravedajn gravedan
+75	4075	duobligi	duobliganta duobligantaj duobligantajn duobligantan duobligante duobligas duobligata duobligataj duobligatajn duobligatan duobligate duobliginta duobligintaj duobligintajn duobligintan duobliginte duobligis duobligita duobligitaj duobligitajn duobligitan duobligite duobligonta duobligontaj duobligontajn duobligontan duobligonte duobligos duobligu duobligus
+76	4076	etno	etnoj etnojn etnon
+77	4077	boneco	bonecoj bonecojn bonecon
+78	4078	fendi	fendanta fendantaj fendantajn fendantan fendante fendas fendata fendataj fendatajn fendatan fendate fendinta fendintaj fendintajn fendintan fendinte fendis fendita fenditaj fenditajn fenditan fendite fendonta fendontaj fendontajn fendontan fendonte fendos fendu fendus
+79	4079	sindikato	sindikatoj sindikatojn sindikaton
+80	4080	ŝika	ŝikaj ŝikajn ŝikan
+81	4081	derivaĵo	derivaĵoj derivaĵojn derivaĵon
+82	4082	saĝe	
+83	4083	nekompleta	nekompletaj nekompletajn nekompletan
+84	4084	ilustraĵo	ilustraĵoj ilustraĵojn ilustraĵon
+85	4085	najbareco	najbarecoj najbarecojn najbarecon
+86	4086	konvencio	konvencioj konvenciojn konvencion
+87	4087	bando	bandoj bandojn bandon
+88	4088	unuopaĵo	unuopaĵoj unuopaĵojn unuopaĵon
+89	4089	cigno	cignoj cignojn cignon
+90	4090	restado	restadoj restadojn restadon
+91	4091	dunganto	dungantoj dungantojn dunganton
+92	4092	proverbo	proverboj proverbojn proverbon
+93	4093	senlima	senlimaj senlimajn senliman
+94	4094	krima	krimaj krimajn kriman
+95	4095	cepo	cepoj cepojn cepon
+96	4096	surtera	surteraj surterajn surteran
+97	4097	nenormala	nenormalaj nenormalajn nenormalan
+98	4098	kviete	
+99	4099	sabla	sablaj sablajn sablan
+100	4100	spermo	spermoj spermojn spermon

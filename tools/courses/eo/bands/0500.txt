@@ -1,0 +1,100 @@
+1	401	artikolo	artikoloj artikolojn artikolon
+2	402	komenciĝi	komenciĝanta komenciĝantaj komenciĝantajn komenciĝantan komenciĝante komenciĝas komenciĝinta komenciĝintaj komenciĝintajn komenciĝintan komenciĝinte komenciĝis komenciĝonta komenciĝontaj komenciĝontajn komenciĝontan komenciĝonte komenciĝos komenciĝu komenciĝus
+3	403	juna	junaj junajn junan
+4	404	formi	formanta formantaj formantajn formantan formante formanto formantoj formas formata formataj formatajn formatan formate forminta formintaj formintajn formintan forminte formis formita formitaj formitajn formitan formite formonta formontaj formontajn formontan formonte formos formu formus
+5	405	kompreneble	
+6	406	kontroli	kontrolanta kontrolantaj kontrolantajn kontrolantan kontrolante kontrolanto kontrolas kontrolata kontrolataj kontrolatajn kontrolatan kontrolate kontrolinta kontrolintaj kontrolintajn kontrolintan kontrolinte kontrolis kontrolita kontrolitaj kontrolitajn kontrolitan kontrolite kontrolonta kontrolontaj kontrolontajn kontrolontan kontrolonte kontrolos kontrolota kontrolu kontrolus
+7	407	nacia	naciaj naciajn nacian
+8	408	proponi	proponanta proponantaj proponantajn proponantan proponante proponanto proponantoj proponas proponata proponataj proponatajn proponatan proponate proponinta proponintaj proponintajn proponintan proponinte proponinto proponintoj proponis proponita proponitaj proponitajn proponitan proponite propononta proponontaj proponontajn proponontan propononte proponos proponu proponus
+9	409	forigi	foriganta forigantaj forigantajn forigantan forigante forigas forigata forigataj forigatajn forigatan forigate foriginta forigintaj forigintajn forigintan foriginte forigis forigita forigitaj forigitajn forigitan forigite forigonta forigontaj forigontajn forigontan forigonte forigos forigotaj forigu forigus
+10	410	farti	fartanta fartantaj fartantajn fartantan fartante fartas fartinta fartintaj fartintajn fartintan fartinte fartis fartonta fartontaj fartontajn fartontan fartonte fartos fartu fartus
+11	411	kuri	kuranta kurantaj kurantajn kurantan kurante kuras kurinta kurintaj kurintajn kurintan kurinte kuris kuronta kurontaj kurontajn kurontan kuronte kuros kuru kurus
+12	412	ĝenerale	
+13	413	supren	
+14	414	monato	monatoj monatojn monaton
+15	415	aĵo	ajho ajhoj aĵoj aĵojn aĵon
+16	416	indiki	indikanta indikantaj indikantajn indikantan indikante indikanto indikantoj indikas indikata indikataj indikatajn indikatan indikate indikinta indikintaj indikintajn indikintan indikinte indikis indikita indikitaj indikitajn indikitan indikite indikonta indikontaj indikontajn indikontan indikonte indikos indiku indikus
+17	417	sufiĉi	sufiĉanta sufiĉantaj sufiĉantajn sufiĉantan sufiĉante sufiĉas sufiĉinta sufiĉintaj sufiĉintajn sufiĉintan sufiĉinte sufiĉis sufiĉonta sufiĉontaj sufiĉontajn sufiĉontan sufiĉonte sufiĉos sufiĉu sufiĉus
+18	418	franca	francaj francajn francan
+19	419	ŝanĝo	ŝanĝoj ŝanĝojn ŝanĝon
+20	420	evoluo	evoluoj evoluojn evoluon
+21	421	moderna	modernaj modernajn modernan
+22	422	fakte	
+23	423	efiko	efikoj efikojn efikon
+24	424	internacia	internaciaj internaciajn internacian
+25	425	venki	venkanta venkantaj venkantajn venkantan venkante venkanto venkantoj venkas venkata venkataj venkatajn venkatan venkate venkinta venkintaj venkintajn venkintan venkinte venkinto venkintoj venkinton venkis venkita venkitaj venkitajn venkitan venkite venkito venkitoj venkitojn venkonta venkontaj venkontajn venkontan venkonte venkos venku venkus
+26	426	finiĝi	finiĝanta finiĝantaj finiĝantajn finiĝantan finiĝante finiĝas finiĝinta finiĝintaj finiĝintajn finiĝintan finiĝinte finiĝis finiĝonta finiĝontaj finiĝontajn finiĝontan finiĝonte finiĝos finiĝu finiĝus
+27	427	deklari	deklaranta deklarantaj deklarantajn deklarantan deklarante deklaras deklarata deklarataj deklaratajn deklaratan deklarate deklarinta deklarintaj deklarintajn deklarintan deklarinte deklaris deklarita deklaritaj deklaritajn deklaritan deklarite deklaronta deklarontaj deklarontajn deklarontan deklaronte deklaros deklarotaj deklaru deklarus
+28	428	armeo	armeoj armeojn armeon
+29	429	forta	fortaj fortajn fortan
+30	430	konduki	kondukanta kondukantaj kondukantajn kondukantan kondukante kondukanto kondukantoj kondukanton kondukas kondukata kondukataj kondukatajn kondukatan kondukate kondukinta kondukintaj kondukintajn kondukintan kondukinte kondukis kondukita kondukitaj kondukitajn kondukitan kondukite kondukonta kondukontaj kondukontajn kondukontan kondukonte kondukos kondukota konduku kondukus
+31	431	precipe	
+32	432	respondi	respondanta respondantaj respondantajn respondantan respondante respondanto respondantoj respondantojn respondanton respondas respondata respondataj respondatajn respondatan respondate respondinta respondintaj respondintajn respondintan respondinte respondis respondita responditaj responditajn responditan respondite respondonta respondontaj respondontajn respondontan respondonte respondos respondu respondus
+33	433	klarigi	klariganta klarigantaj klarigantajn klarigantan klarigante klarigas klarigata klarigataj klarigatajn klarigatan klarigate klariginta klarigintaj klarigintajn klarigintan klariginte klarigis klarigita klarigitaj klarigitajn klarigitan klarigite klarigonta klarigontaj klarigontajn klarigontan klarigonte klarigos klarigu klarigus
+34	434	bedaŭri	bedaŭranta bedaŭrantaj bedaŭrantajn bedaŭrantan bedaŭrante bedaŭras bedaŭrata bedaŭrataj bedaŭratajn bedaŭratan bedaŭrate bedaŭrinta bedaŭrintaj bedaŭrintajn bedaŭrintan bedaŭrinte bedaŭris bedaŭrita bedaŭritaj bedaŭritajn bedaŭritan bedaŭrite bedaŭronta bedaŭrontaj bedaŭrontajn bedaŭrontan bedaŭronte bedaŭros bedaŭru bedaŭrus
+35	435	priskribi	priskribanta priskribantaj priskribantajn priskribantan priskribante priskribas priskribata priskribataj priskribatajn priskribatan priskribate priskribinta priskribintaj priskribintajn priskribintan priskribinte priskribis priskribita priskribitaj priskribitajn priskribitan priskribite priskribonta priskribontaj priskribontajn priskribontan priskribonte priskribos priskribu priskribus
+36	436	viziti	vizitanta vizitantaj vizitantajn vizitantan vizitante vizitanto vizitantoj vizitantojn vizitanton vizitas vizitata vizitataj vizitatajn vizitatan vizitate vizitinta vizitintaj vizitintajn vizitintan vizitinte vizitis vizitita vizititaj vizititajn vizititan vizitite vizitonta vizitontaj vizitontajn vizitontan vizitonte vizitos vizitu vizitus
+37	437	almenaŭ	almenaux
+38	438	iomete	
+39	439	liberigi	liberiganta liberigantaj liberigantajn liberigantan liberigante liberiganto liberigantoj liberigas liberigata liberigataj liberigatajn liberigatan liberigate liberiginta liberigintaj liberigintajn liberigintan liberiginte liberiginto liberigis liberigita liberigitaj liberigitajn liberigitan liberigite liberigonta liberigontaj liberigontajn liberigontan liberigonte liberigonto liberigos liberigota liberigu liberigus
+40	440	ago	agoj agojn agon
+41	441	aŭto	aŭtoj aŭtojn aŭton
+42	442	bonege	
+43	443	flanko	flankoj flankojn flankon
+44	444	voki	vokanta vokantaj vokantajn vokantan vokante vokas vokata vokataj vokatajn vokatan vokate vokinta vokintaj vokintajn vokintan vokinte vokis vokita vokitaj vokitajn vokitan vokite vokonta vokontaj vokontajn vokontan vokonte vokos voku vokus
+45	445	besto	bestoj bestojn beston
+46	446	periodo	periodoj periodojn periodon
+47	447	plejparte	
+48	448	studento	studentoj studentojn studenton
+49	449	bildo	bildoj bildojn bildon
+50	450	soldato	soldatoj soldatojn soldaton
+51	451	instrui	instruanta instruantaj instruantajn instruantan instruante instruas instruata instruataj instruatajn instruatan instruate instruinta instruintaj instruintajn instruintan instruinte instruis instruita instruitaj instruitajn instruitan instruite instruonta instruontaj instruontajn instruontan instruonte instruos instruu instruus
+52	452	politika	politikaj politikajn politikan
+53	453	angla	anglaj anglajn anglan
+54	454	socia	sociaj sociajn socian
+55	455	servo	servoj servojn servon
+56	456	evoluigi	evoluiganta evoluigantaj evoluigantajn evoluigantan evoluigante evoluigas evoluigata evoluigataj evoluigatajn evoluigatan evoluigate evoluiginta evoluigintaj evoluigintajn evoluigintan evoluiginte evoluigis evoluigita evoluigitaj evoluigitajn evoluigitan evoluigite evoluigonta evoluigontaj evoluigontajn evoluigontan evoluigonte evoluigos evoluigu evoluigus
+57	457	punkto	punktoj punktojn punkton
+58	458	germana	germanaj germanajn germanan
+59	459	leĝo	leghojn leĝoj leĝojn leĝon
+60	460	kvazaŭ	
+61	461	sidi	sidanta sidantaj sidantajn sidantan sidante sidantoj sidas sidinta sidintaj sidintajn sidintan sidinte sidis sidonta sidontaj sidontajn sidontan sidonte sidos sidu sidus
+62	462	reprezenti	reprezentanta reprezentantaj reprezentantajn reprezentantan reprezentante reprezentanto reprezentantoj reprezentantojn reprezentanton reprezentas reprezentata reprezentataj reprezentatajn reprezentatan reprezentate reprezentinta reprezentintaj reprezentintajn reprezentintan reprezentinte reprezentis reprezentita reprezentitaj reprezentitajn reprezentitan reprezentite reprezentonta reprezentontaj reprezentontajn reprezentontan reprezentonte reprezentos reprezentu reprezentus
+63	463	kialo	kialoj kialojn kialon
+64	464	apogi	apoganta apogantaj apogantajn apogantan apogante apoganto apogantoj apogas apogata apogataj apogatajn apogatan apogate apoginta apogintaj apogintajn apogintan apoginte apogis apogita apogitaj apogitajn apogitan apogite apogonta apogontaj apogontajn apogontan apogonte apogos apogota apogu apogus
+65	465	tria	triaj triajn trian
+66	466	hej	
+67	467	plia	pliaj pliajn plian
+68	468	manki	mankanta mankantaj mankantajn mankantan mankante mankas mankinta mankintaj mankintajn mankintan mankinte mankis mankonta mankontaj mankontajn mankontan mankonte mankos manku mankus
+69	469	batalo	bataloj batalojn batalon
+70	470	malalta	malaltaj malaltajn malaltan
+71	471	rekoni	rekonanta rekonantaj rekonantajn rekonantan rekonante rekonas rekonata rekonataj rekonatajn rekonatan rekonate rekoninta rekonintaj rekonintajn rekonintan rekoninte rekonis rekonita rekonitaj rekonitajn rekonitan rekonite rekononta rekonontaj rekonontajn rekonontan rekononte rekonos rekonu rekonus
+72	472	hejmo	hejmoj hejmojn hejmon
+73	473	establi	establanta establantaj establantajn establantan establante establas establata establataj establatajn establatan establate establinta establintaj establintajn establintan establinte establis establita establitaj establitajn establitan establite establonta establontaj establontajn establontan establonte establos establota establu establus
+74	474	kapabli	kapablanta kapablantaj kapablantajn kapablantan kapablante kapablas kapablinta kapablintaj kapablintajn kapablintan kapablinte kapablis kapablonta kapablontaj kapablontajn kapablontan kapablonte kapablos kapablu kapablus
+75	475	trafi	trafanta trafantaj trafantajn trafantan trafante trafas trafata trafataj trafatajn trafatan trafate trafinta trafintaj trafintajn trafintan trafinte trafis trafita trafitaj trafitajn trafitan trafite trafito trafonta trafontaj trafontajn trafontan trafonte trafos trafu trafus
+76	476	okcidenta	okcidentaj okcidentajn okcidentan
+77	477	fonto	fontoj fontojn fonton
+78	478	bonvole	
+79	479	stari	staranta starantaj starantajn starantan starante staras starinta starintaj starintajn starintan starinte staris staronta starontaj starontajn starontan staronte staros staru starus
+80	480	pripensi	pripensanta pripensantaj pripensantajn pripensantan pripensante pripensas pripensata pripensataj pripensatajn pripensatan pripensate pripensinta pripensintaj pripensintajn pripensintan pripensinte pripensis pripensita pripensitaj pripensitajn pripensitan pripensite pripensonta pripensontaj pripensontajn pripensontan pripensonte pripensos pripensota pripensu pripensus
+81	481	centro	centroj centrojn centron
+82	482	programo	programoj programojn programon
+83	483	helpo	helpoj helpojn helpon
+84	484	batali	batalanta batalantaj batalantajn batalantan batalante batalanto batalantoj batalantojn batalanton batalas batalinta batalintaj batalintajn batalintan batalinte batalis batalonta batalontaj batalontajn batalontan batalonte batalos batalu batalus
+85	485	vero	veroj verojn veron
+86	486	plena	plenaj plenajn plenan
+87	487	planedo	planedoj planedojn planedon
+88	488	aldoni	aldonanta aldonantaj aldonantajn aldonantan aldonante aldonas aldonata aldonataj aldonatajn aldonatan aldonate aldoninta aldonintaj aldonintajn aldonintan aldoninte aldonis aldonita aldonitaj aldonitajn aldonitan aldonite aldononta aldonontaj aldonontajn aldonontan aldononte aldonos aldonota aldonu aldonus
+89	489	limigi	limiganta limigantaj limigantajn limigantan limigante limigas limigata limigataj limigatajn limigatan limigate limiginta limigintaj limigintajn limigintan limiginte limigis limigita limigitaj limigitajn limigitan limigite limigonta limigontaj limigontajn limigontan limigonte limigos limigu limigus
+90	490	aliflanke	
+91	491	antaŭa	antaŭaj antaŭajn antaŭan
+92	492	certi	certanta certantaj certantajn certantan certante certas certinta certintaj certintajn certintan certinte certis certonta certontaj certontajn certontan certonte certos certu certus
+93	493	ofta	oftaj oftajn oftan
+94	494	ĉeesti	ĉeestanta ĉeestantaj ĉeestantajn ĉeestantan ĉeestante ĉeestanto ĉeestantoj ĉeestantojn ĉeestas ĉeestinta ĉeestintaj ĉeestintajn ĉeestintan ĉeestinte ĉeestinto ĉeestintoj ĉeestis ĉeestonta ĉeestontaj ĉeestontajn ĉeestontan ĉeestonte ĉeestos ĉeestu ĉeestus
+95	495	proksima	proksimaj proksimajn proksiman
+96	496	rompi	rompanta rompantaj rompantajn rompantan rompante rompas rompata rompataj rompatajn rompatan rompate rompinta rompintaj rompintajn rompintan rompinte rompis rompita rompitaj rompitajn rompitan rompite romponta rompontaj rompontajn rompontan romponte rompos rompota rompu rompus
+97	497	publika	publikaj publikajn publikan
+98	498	kanti	kantanta kantantaj kantantajn kantantan kantante kantanto kantas kantata kantataj kantatajn kantatan kantate kantato kantatoj kantatojn kantaton kantinta kantintaj kantintajn kantintan kantinte kantis kantita kantitaj kantitajn kantitan kantite kantonta kantontaj kantontajn kantontan kantonte kantos kantu kantus
+99	499	hejmen	
+100	500	feliĉa	felicha feliĉaj feliĉajn feliĉan

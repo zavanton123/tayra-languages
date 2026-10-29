@@ -1,0 +1,100 @@
+1	6601	vando	vandoj vandojn vandon
+2	6602	dianto	diantoj diantojn dianton
+3	6603	malestimi	malestimanta malestimantaj malestimantajn malestimantan malestimante malestimantoj malestimas malestimata malestimataj malestimatajn malestimatan malestimate malestiminta malestimintaj malestimintajn malestimintan malestiminte malestimis malestimita malestimitaj malestimitajn malestimitan malestimite malestimonta malestimontaj malestimontajn malestimontan malestimonte malestimos malestimu malestimus
+4	6604	amafero	amaferoj amaferojn amaferon
+5	6605	ekvatoro	ekvatoroj ekvatorojn ekvatoron
+6	6606	komuniko	komunikoj
+7	6607	humanismo	humanismoj humanismojn humanismon
+8	6608	rabeno	rabenoj rabenojn rabenon
+9	6609	vasalo	vasaloj vasalojn vasalon
+10	6610	antropologio	antropologioj antropologiojn antropologion
+11	6611	piceo	piceoj piceojn piceon
+12	6612	superbazaro	superbazaroj superbazarojn superbazaron
+13	6613	amatoro	amatoroj amatorojn amatoron
+14	6614	cenzuri	cenzuranta cenzurantaj cenzurantajn cenzurantan cenzurante cenzuras cenzurata cenzurataj cenzuratajn cenzuratan cenzurate cenzurinta cenzurintaj cenzurintajn cenzurintan cenzurinte cenzuris cenzurita cenzuritaj cenzuritajn cenzuritan cenzurite cenzuronta cenzurontaj cenzurontajn cenzurontan cenzuronte cenzuros cenzuru cenzurus
+15	6615	budo	budoj budojn budon
+16	6616	nekoni	nekonanta nekonantaj nekonantajn nekonantan nekonante nekonas nekonataj nekonatajn nekonatan nekonate nekoninta nekonintaj nekonintajn nekonintan nekoninte nekonis nekonita nekonitaj nekonitajn nekonitan nekonite nekononta nekonontaj nekonontajn nekonontan nekononte nekonos nekonu nekonus
+17	6617	hejtilo	hejtiloj hejtilojn hejtilon
+18	6618	psikozo	psikozoj psikozojn psikozon
+19	6619	momenta	momentaj momentajn momentan
+20	6620	bakalaŭro	bakalaŭroj bakalaŭrojn bakalaŭron
+21	6621	abstraktado	abstraktadoj abstraktadojn abstraktadon
+22	6622	skoldi	skoldanta skoldantaj skoldantajn skoldantan skoldante skoldas skoldinta skoldintaj skoldintajn skoldintan skoldinte skoldis skoldonta skoldontaj skoldontajn skoldontan skoldonte skoldos skoldu skoldus
+23	6623	fanatikulo	fanatikuloj fanatikulojn fanatikulon
+24	6624	laŭeble	
+25	6625	rana	ranaj ranajn ranan
+26	6626	fiksrigardi	fiksrigardanta fiksrigardantaj fiksrigardantajn fiksrigardantan fiksrigardante fiksrigardas fiksrigardinta fiksrigardintaj fiksrigardintajn fiksrigardintan fiksrigardinte fiksrigardis fiksrigardonta fiksrigardontaj fiksrigardontajn fiksrigardontan fiksrigardonte fiksrigardos fiksrigardu fiksrigardus
+27	6627	lokiĝi	lokiĝanta lokiĝantaj lokiĝantajn lokiĝantan lokiĝante lokiĝas lokiĝinta lokiĝintaj lokiĝintajn lokiĝintan lokiĝinte lokiĝis lokiĝonta lokiĝontaj lokiĝontajn lokiĝontan lokiĝonte lokiĝos lokiĝu lokiĝus
+28	6628	estona	estonaj estonajn estonan
+29	6629	lumrapideco	lumrapidecoj lumrapidecojn lumrapidecon
+30	6630	ŝatokupo	ŝatokupoj ŝatokupojn ŝatokupon
+31	6631	kalio	kalioj kaliojn kalion
+32	6632	alfabeta	alfabetaj alfabetajn alfabetan
+33	6633	loĝdenso	loĝdensoj loĝdensojn loĝdenson
+34	6634	orbita	orbitaj orbitajn orbitan
+35	6635	impertinenta	impertinentaj impertinentajn impertinentan
+36	6636	delikate	
+37	6637	najli	najlanta najlantaj najlantajn najlantan najlante najlas najlata najlataj najlatajn najlatan najlate najlinta najlintaj najlintajn najlintan najlinte najlis najlita najlitaj najlitajn najlitan najlite najlonta najlontaj najlontajn najlontan najlonte najlos najlu najlus
+38	6638	smeraldo	smeraldoj smeraldojn smeraldon
+39	6639	predikado	predikadoj predikadojn predikadon
+40	6640	sabate	
+41	6641	civilizi	civilizanta civilizantaj civilizantajn civilizantan civilizante civilizas civilizata civilizataj civilizatajn civilizatan civilizate civilizinta civilizintaj civilizintajn civilizintan civilizinte civilizis civilizita civilizitaj civilizitajn civilizitan civilizite civilizonta civilizontaj civilizontajn civilizontan civilizonte civilizos civilizu civilizus
+42	6642	cico	cicoj cicojn cicon
+43	6643	strofo	strofoj strofojn strofon
+44	6644	ruĝeco	ruĝecoj ruĝecojn ruĝecon
+45	6645	ekstraktado	ekstraktadoj ekstraktadojn ekstraktadon
+46	6646	kosmostacio	kosmostacioj kosmostaciojn kosmostacion
+47	6647	dreni	drenanta drenantaj drenantajn drenantan drenante drenas drenata drenataj drenatajn drenatan drenate dreninta drenintaj drenintajn drenintan dreninte drenis drenita drenitaj drenitajn drenitan drenite drenonta drenontaj drenontajn drenontan drenonte drenos drenu drenus
+48	6648	escepti	esceptanta esceptantaj esceptantajn esceptantan esceptante esceptas esceptata esceptataj esceptatajn esceptatan esceptate esceptinta esceptintaj esceptintajn esceptintan esceptinte esceptis esceptita esceptitaj esceptitajn esceptitan esceptite esceptonta esceptontaj esceptontajn esceptontan esceptonte esceptos esceptu esceptus
+49	6649	eko	ekoj ekojn ekon
+50	6650	zipo	zipoj zipojn zipon
+51	6651	kajuto	kajutoj kajutojn kajuton
+52	6652	frenezulejo	frenezulejoj frenezulejojn frenezulejon
+53	6653	kaso	kasoj kasojn kason
+54	6654	fresko	freskoj freskojn freskon
+55	6655	mikrobo	mikroboj mikrobojn mikrobon
+56	6656	strigo	strigoj strigojn strigon
+57	6657	kalkano	kalkanoj kalkanojn kalkanon
+58	6658	skolto	skoltoj skoltojn skolton
+59	6659	operejo	operejoj operejojn operejon
+60	6660	senpova	senpovaj senpovajn senpovan
+61	6661	bronzo	bronzoj bronzojn bronzon
+62	6662	metropolita	metropolitaj metropolitajn metropolitan
+63	6663	metano	metanoj metanojn metanon
+64	6664	manifesto	manifestoj manifestojn manifeston
+65	6665	edukisto	edukistoj edukistojn edukiston
+66	6666	oktavo	oktavoj oktavojn oktavon
+67	6667	hejti	hejtanta hejtantaj hejtantajn hejtantan hejtante hejtas hejtata hejtataj hejtatajn hejtatan hejtate hejtinta hejtintaj hejtintajn hejtintan hejtinte hejtis hejtita hejtitaj hejtitajn hejtitan hejtite hejtonta hejtontaj hejtontajn hejtontan hejtonte hejtos hejtu hejtus
+68	6668	preventi	preventanta preventantaj preventantajn preventantan preventante preventas preventata preventataj preventatajn preventatan preventate preventinta preventintaj preventintajn preventintan preventinte preventis preventita preventitaj preventitajn preventitan preventite preventonta preventontaj preventontajn preventontan preventonte preventos preventu preventus
+69	6669	duopa	duopaj duopajn duopan
+70	6670	marĉandi	marĉandanta marĉandantaj marĉandantajn marĉandantan marĉandante marĉandas marĉandinta marĉandintaj marĉandintajn marĉandintan marĉandinte marĉandis marĉandonta marĉandontaj marĉandontajn marĉandontan marĉandonte marĉandos marĉandu marĉandus
+71	6671	rekruto	rekrutoj rekrutojn rekruton
+72	6672	ronĝulo	ronĝuloj ronĝulojn ronĝulon
+73	6673	lutro	lutroj lutrojn lutron
+74	6674	malsimila	malsimilaj malsimilajn malsimilan
+75	6675	sekreteco	sekretecoj sekretecojn sekretecon
+76	6676	ironie	
+77	6677	misfamigi	misfamiganta misfamigantaj misfamigantajn misfamigantan misfamigante misfamigas misfamigata misfamigataj misfamigatajn misfamigatan misfamigate misfamiginta misfamigintaj misfamigintajn misfamigintan misfamiginte misfamigis misfamigita misfamigitaj misfamigitajn misfamigitan misfamigite misfamigonta misfamigontaj misfamigontajn misfamigontan misfamigonte misfamigos misfamigu misfamigus
+78	6678	alo	aloj alojn alon
+79	6679	fojno	fojnoj fojnojn fojnon
+80	6680	primato	primatoj primatojn primaton
+81	6681	konverĝi	konverĝanta konverĝantaj konverĝantajn konverĝantan konverĝante konverĝas konverĝinta konverĝintaj konverĝintajn konverĝintan konverĝinte konverĝis konverĝonta konverĝontaj konverĝontajn konverĝontan konverĝonte konverĝos konverĝu konverĝus
+82	6682	ĉi-foje	ĉifoje
+83	6683	malvarmumo	malvarmumoj malvarmumojn malvarmumon
+84	6684	humile	
+85	6685	murmuri	murmuranta murmurantaj murmurantajn murmurantan murmurante murmuras murmurata murmurataj murmuratajn murmuratan murmurate murmurinta murmurintaj murmurintajn murmurintan murmurinte murmuris murmurita murmuritaj murmuritajn murmuritan murmurite murmuronta murmurontaj murmurontajn murmurontan murmuronte murmuros murmuru murmurus
+86	6686	malobeema	malobeemaj malobeemajn malobeeman
+87	6687	ŝako	ŝakoj ŝakojn ŝakon
+88	6688	manovri	manovranta manovrantaj manovrantajn manovrantan manovrante manovras manovrata manovrataj manovratajn manovratan manovrate manovrinta manovrintaj manovrintajn manovrintan manovrinte manovris manovrita manovritaj manovritajn manovritan manovrite manovronta manovrontaj manovrontajn manovrontan manovronte manovros manovru manovrus
+89	6689	fraŭla	fraŭlaj fraŭlajn fraŭlan
+90	6690	sinkrona	sinkronaj sinkronajn sinkronan
+91	6691	intuicio	intuicioj intuiciojn intuicion
+92	6692	bambuo	bambuoj bambuojn bambuon
+93	6693	inaŭguro	inaŭguroj inaŭgurojn inaŭguron
+94	6694	mezurunuo	mezurunuoj mezurunuojn mezurunuon
+95	6695	oscili	oscilanta oscilantaj oscilantajn oscilantan oscilante oscilas oscilinta oscilintaj oscilintajn oscilintan oscilinte oscilis oscilonta oscilontaj oscilontajn oscilontan oscilonte oscilos oscilu oscilus
+96	6696	lama	lamaj lamajn laman
+97	6697	nescio	nescioj nesciojn nescion
+98	6698	duiliono	duilionoj duilionojn duilionon
+99	6699	printempe	
+100	6700	hipio	hipioj hipiojn hipion

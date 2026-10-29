@@ -1,0 +1,100 @@
+1	1601	analizi	analizanta analizantaj analizantajn analizantan analizante analizanto analizantoj analizanton analizas analizata analizataj analizatajn analizatan analizate analizinta analizintaj analizintajn analizintan analizinte analizis analizita analizitaj analizitajn analizitan analizite analizonta analizontaj analizontajn analizontan analizonte analizos analizu analizus
+2	1602	freŝa	freshan freŝaj freŝajn freŝan
+3	1603	cent	
+4	1604	konstitucio	konstitucioj konstituciojn konstitucion
+5	1605	roboto	robotoj robotojn roboton
+6	1606	ŝarĝo	ŝarĝoj ŝarĝojn ŝarĝon
+7	1607	administrado	administradoj administradojn administradon
+8	1608	resurso	resursoj resursojn resurson
+9	1609	interesa	interesaj interesajn interesan
+10	1610	koncerto	koncertoj koncertojn koncerton
+11	1611	haŭto	haŭtoj haŭtojn haŭton
+12	1612	kategorio	kategorioj kategoriojn kategorion
+13	1613	deklaro	deklaroj deklarojn deklaron
+14	1614	modifi	modifanta modifantaj modifantan modifante modifas modifis modifita modifitaj modifitajn modifitan modifite modifos modifu modifus
+15	1615	difekto	difektoj difektojn difekton
+16	1616	malrapide	
+17	1617	vendo	vendoj vendojn vendon
+18	1618	surprizo	surprizoj surprizojn surprizon
+19	1619	portugala	portugalaj portugalajn portugalan
+20	1620	distingi	distinganta distingantaj distingantajn distingantan distingante distingas distingata distingataj distingatajn distingatan distingate distinginta distingintaj distingintajn distingintan distinginte distingis distingita distingitaj distingitajn distingitan distingite distingonta distingontaj distingontajn distingontan distingonte distingos distingota distingotaj distingu distingus
+21	1621	haveno	havenoj havenojn havenon
+22	1622	regula	regulaj regulajn regulan
+23	1623	poeto	poetoj poetojn poeton
+24	1624	maldekstra	maldekstraj maldekstrajn maldekstran
+25	1625	kuraĝo	kuraĝoj kuraĝojn kuraĝon
+26	1626	beni	benanta benantaj benantajn benantan benante benas benata benataj benatajn benatan benate beninta benintaj benintajn benintan beninte benis benita benitaj benitajn benitan benite benito benonta benontaj benontajn benontan benonte benos benu benus
+27	1627	malfermiĝi	malfermiĝanta malfermiĝantaj malfermiĝantajn malfermiĝantan malfermiĝante malfermiĝas malfermiĝinta malfermiĝintaj malfermiĝintajn malfermiĝintan malfermiĝinte malfermiĝis malfermiĝonta malfermiĝontaj malfermiĝontajn malfermiĝontan malfermiĝonte malfermiĝos malfermiĝu malfermiĝus
+28	1628	puno	punoj punojn punon
+29	1629	mejlo	mejloj mejlojn mejlon
+30	1630	vokalo	vokaloj vokalojn vokalon
+31	1631	ankoraŭfoje	
+32	1632	kosmo	kosmoj kosmojn kosmon
+33	1633	kvereli	kverelanta kverelantaj kverelantajn kverelantan kverelante kverelas kverelinta kverelintaj kverelintajn kverelintan kverelinte kverelis kverelonta kverelontaj kverelontajn kverelontan kverelonte kverelos kverelu kverelus
+34	1634	paŝi	paŝanta paŝantaj paŝantajn paŝantan paŝante paŝas paŝata paŝataj paŝatajn paŝatan paŝate paŝinta paŝintaj paŝintajn paŝintan paŝinte paŝis paŝita paŝitaj paŝitajn paŝitan paŝite paŝonta paŝontaj paŝontajn paŝontan paŝonte paŝos paŝu paŝus
+35	1635	omo	omoj omojn omon
+36	1636	ĉasi	ĉasanta ĉasantaj ĉasantajn ĉasantan ĉasante ĉasantoj ĉasas ĉasata ĉasataj ĉasatajn ĉasatan ĉasate ĉasinta ĉasintaj ĉasintajn ĉasintan ĉasinte ĉasis ĉasita ĉasitaj ĉasitajn ĉasitan ĉasite ĉasonta ĉasontaj ĉasontajn ĉasontan ĉasonte ĉasos ĉasu ĉasus
+37	1637	spegulo	speguloj spegulojn spegulon
+38	1638	pistolo	pistoloj pistolojn pistolon
+39	1639	dufoje	
+40	1640	teo	teoj teojn teon
+41	1641	malsupra	malsupraj malsuprajn malsupran
+42	1642	pasinteco	pasintecoj pasintecojn pasintecon
+43	1643	elektro	elektroj elektrojn elektron
+44	1644	frenezulo	frenezuloj frenezulojn frenezulon
+45	1645	parolo	paroloj parolojn parolon
+46	1646	defendo	defendoj defendojn defendon
+47	1647	pafilo	pafiloj pafilojn pafilon
+48	1648	minaco	minacoj minacojn minacon
+49	1649	rezigni	rezignanta rezignantaj rezignantajn rezignantan rezignante rezignas rezignata rezignataj rezignatajn rezignatan rezignate rezigninta rezignintaj rezignintajn rezignintan rezigninte rezignis rezignita rezignitaj rezignitajn rezignitan rezignite rezignonta rezignontaj rezignontajn rezignontan rezignonte rezignos rezignu rezignus
+50	1650	kopio	kopioj kopiojn kopion
+51	1651	aktoro	aktoroj aktorojn aktoron
+52	1652	katolika	katolikaj katolikajn katolikan
+53	1653	ĵurnalo	ĵurnaloj ĵurnalojn ĵurnalon
+54	1654	festi	festanta festantaj festantajn festantan festante festanto festantoj festanton festas festata festataj festatajn festatan festate festinta festintaj festintajn festintan festinte festis festita festitaj festitajn festitan festite festonta festontaj festontajn festontan festonte festos festu festus
+55	1655	amaso	amasoj amasojn amason
+56	1656	fakta	faktaj faktajn faktan
+57	1657	robo	roboj robojn robon
+58	1658	ekzisto	ekzistoj ekzistojn ekziston
+59	1659	skribaĵo	skribaĵoj skribaĵojn skribaĵon
+60	1660	vetero	veteroj veterojn veteron
+61	1661	kompatinda	kompatindaj kompatindajn kompatindan
+62	1662	porko	porkoj porkojn porkon
+63	1663	kunulo	kunuloj kunulojn kunulon
+64	1664	fremda	fremdaj fremdajn fremdan
+65	1665	konstante	
+66	1666	gesinjoroj	gesinjoro gesinjorojn gesinjoron
+67	1667	forflugi	forfluganta forflugantaj forflugantajn forflugantan forflugante forflugas forfluginta forflugintaj forflugintajn forflugintan forfluginte forflugis forflugonta forflugontaj forflugontajn forflugontan forflugonte forflugos forflugu forflugus
+68	1668	malliberejo	malliberejoj malliberejojn malliberejon
+69	1669	sinteno	sintenoj sintenojn sintenon
+70	1670	ondo	ondoj ondojn ondon
+71	1671	kolegio	kolegioj kolegiojn kolegion
+72	1672	flugilo	flugiloj flugilojn flugilon
+73	1673	akcidento	akcidentoj akcidentojn akcidenton
+74	1674	malĝusta	malĝustaj malĝustajn malĝustan
+75	1675	posedaĵo	posedaĵoj posedaĵojn posedaĵon
+76	1676	flui	fluanta fluantaj fluantajn fluantan fluante fluas fluinta fluintaj fluintajn fluintan fluinte fluis fluonta fluontaj fluontajn fluontan fluonte fluos fluu fluus
+77	1677	ombro	ombroj ombrojn ombron
+78	1678	formala	formalaj formalajn formalan
+79	1679	sudo	su sudoj sudojn sudon
+80	1680	sektoro	sektoroj sektorojn sektoron
+81	1681	retejo	retejoj retejojn retejon
+82	1682	posteulo	posteuloj posteulojn posteulon
+83	1683	pruvo	pruvoj pruvojn pruvon
+84	1684	fumi	fumanta fumantaj fumantajn fumantan fumante fumanto fumantoj fumas fumata fumataj fumatajn fumatan fumate fuminta fumintaj fumintajn fumintan fuminte fumis fumita fumitaj fumitajn fumitan fumite fumonta fumontaj fumontajn fumontan fumonte fumos fumu fumus
+85	1685	egali	egalanta egalantaj egalantajn egalantan egalante egalantoj egalas egalata egalataj egalatajn egalatan egalate egalinta egalintaj egalintajn egalintan egalinte egalis egalita egalitaj egalitajn egalitan egalite egalonta egalontaj egalontajn egalontan egalonte egalos egalu egalus
+86	1686	tribo	triboj tribojn tribon
+87	1687	tedi	tedanta tedantaj tedantajn tedantan tedante tedas tedata tedataj tedatajn tedatan tedate tedinta tedintaj tedintajn tedintan tedinte tedis tedita teditaj teditajn teditan tedite tedonta tedontaj tedontajn tedontan tedonte tedos tedu tedus
+88	1688	defii	defianta defiantaj defiantajn defiantan defiante defianto defiantoj defiantojn defias defiata defiataj defiatajn defiatan defiate defiinta defiintaj defiintajn defiintan defiinte defiis defiita defiitaj defiitajn defiitan defiite defionta defiontaj defiontajn defiontan defionte defios defiu defius
+89	1689	rimarkinda	rimarkindaj rimarkindajn rimarkindan
+90	1690	kontraŭbatali	kontraŭbatalanta kontraŭbatalantaj kontraŭbatalantajn kontraŭbatalantan kontraŭbatalante kontraŭbatalas kontraŭbatalata kontraŭbatalataj kontraŭbatalatajn kontraŭbatalatan kontraŭbatalate kontraŭbatalinta kontraŭbatalintaj kontraŭbatalintajn kontraŭbatalintan kontraŭbatalinte kontraŭbatalis kontraŭbatalita kontraŭbatalitaj kontraŭbatalitajn kontraŭbatalitan kontraŭbatalite kontraŭbatalonta kontraŭbatalontaj kontraŭbatalontajn kontraŭbatalontan kontraŭbatalonte kontraŭbatalos kontraŭbatalu kontraŭbatalus
+91	1691	administra	administraj administrajn administran
+92	1692	krimo	krimoj krimojn krimon
+93	1693	bordo	bordoj bordojn bordon
+94	1694	presi	presanta presantaj presantajn presantan presante presas presata presataj presatajn presatan presate presinta presintaj presintajn presintan presinte presis presita presitaj presitajn presitan presite presonta presontaj presontajn presontan presonte presos presu presus
+95	1695	invado	invadoj invadojn invadon
+96	1696	interŝanĝi	interŝanĝanta interŝanĝantaj interŝanĝantajn interŝanĝantan interŝanĝante interŝanĝanto interŝanĝantoj interŝanĝas interŝanĝata interŝanĝataj interŝanĝatajn interŝanĝatan interŝanĝate interŝanĝinta interŝanĝintaj interŝanĝintajn interŝanĝintan interŝanĝinte interŝanĝis interŝanĝita interŝanĝitaj interŝanĝitajn interŝanĝitan interŝanĝite interŝanĝonta interŝanĝontaj interŝanĝontajn interŝanĝontan interŝanĝonte interŝanĝos interŝanĝu interŝanĝus
+97	1697	reĝimo	reĝimoj reĝimojn reĝimon
+98	1698	koleri	koleranta kolerantaj kolerantajn kolerantan kolerante koleras kolerinta kolerintaj kolerintajn kolerintan kolerinte koleris koleronta kolerontaj kolerontajn kolerontan koleronte koleros koleru kolerus
+99	1699	stultaĵo	stultaĵoj stultaĵojn stultaĵon
+100	1700	alumeto	alumetoj alumetojn alumeton

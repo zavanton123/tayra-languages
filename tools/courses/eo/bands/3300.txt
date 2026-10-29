@@ -1,0 +1,100 @@
+1	3201	lumigi	lumiganta lumigantaj lumigantajn lumigantan lumigante lumigas lumigata lumigataj lumigatajn lumigatan lumigate lumiginta lumigintaj lumigintajn lumigintan lumiginte lumigis lumigita lumigitaj lumigitajn lumigitan lumigite lumigonta lumigontaj lumigontajn lumigontan lumigonte lumigos lumigu lumigus
+2	3202	golfo	golfoj golfojn golfon
+3	3203	parlamenta	parlamentaj parlamentajn parlamentan
+4	3204	interago	interagoj interagojn interagon
+5	3205	putinido	putinidoj putinidojn putinidon
+6	3206	muziki	muzikanta muzikantaj muzikantajn muzikantan muzikante muzikas muzikinta muzikintaj muzikintajn muzikintan muzikinte muzikis muzikonta muzikontaj muzikontajn muzikontan muzikonte muzikos muziku muzikus
+7	3207	mezuro	mezuroj mezurojn mezuron
+8	3208	eksidi	eksidanta eksidantaj eksidantajn eksidantan eksidante eksidas eksidinta eksidintaj eksidintajn eksidintan eksidinte eksidis eksidonta eksidontaj eksidontajn eksidontan eksidonte eksidos eksidu eksidus
+9	3209	genia	geniaj geniajn genian
+10	3210	rozkolora	rozkoloraj rozkolorajn rozkoloran
+11	3211	elito	elitoj elitojn eliton
+12	3212	ebenaĵo	ebenaĵoj ebenaĵojn ebenaĵon
+13	3213	gluo	gluoj gluojn gluon
+14	3214	romkatolika	romkatolikaj romkatolikajn romkatolikan
+15	3215	ekspozicio	ekspozicioj ekspoziciojn ekspozicion
+16	3216	mojose	
+17	3217	infanino	infaninoj infaninojn infaninon
+18	3218	ekkompreni	ekkomprenanta ekkomprenantaj ekkomprenantajn ekkomprenantan ekkomprenante ekkomprenas ekkomprenata ekkomprenataj ekkomprenatajn ekkomprenatan ekkomprenate ekkompreninta ekkomprenintaj ekkomprenintajn ekkomprenintan ekkompreninte ekkomprenis ekkomprenita ekkomprenitaj ekkomprenitajn ekkomprenitan ekkomprenite ekkomprenonta ekkomprenontaj ekkomprenontajn ekkomprenontan ekkomprenonte ekkomprenos ekkomprenu ekkomprenus
+19	3219	kristnaska	kristnaskaj kristnaskajn kristnaskan
+20	3220	katedralo	katedraloj katedralojn katedralon
+21	3221	aktivigi	aktiviganta aktivigantaj aktivigantajn aktivigantan aktivigante aktiviganto aktivigantoj aktivigas aktivigata aktivigataj aktivigatajn aktivigatan aktivigate aktiviginta aktivigintaj aktivigintajn aktivigintan aktiviginte aktivigis aktivigita aktivigitaj aktivigitajn aktivigitan aktivigite aktivigonta aktivigontaj aktivigontajn aktivigontan aktivigonte aktivigos aktivigu aktivigus
+22	3222	tendaro	tendaroj tendarojn tendaron
+23	3223	ĥaoso	kaoso ĥaosoj ĥaosojn ĥaoson
+24	3224	pozi	pozanta pozantaj pozantajn pozantan pozante pozas pozinta pozintaj pozintajn pozintan pozinte pozis pozonta pozontaj pozontajn pozontan pozonte pozos pozu pozus
+25	3225	organizaĵo	organizaĵoj organizaĵojn organizaĵon
+26	3226	fantomo	fantomoj fantomojn fantomon
+27	3227	oficisto	oficistoj oficistojn oficiston
+28	3228	trinkaĵo	trinkaĵoj trinkaĵojn trinkaĵon
+29	3229	eksplodo	eksplodoj eksplodojn eksplodon
+30	3230	konservativa	konservativaj konservativajn konservativan
+31	3231	ekskluzive	
+32	3232	intence	
+33	3233	mallonge	
+34	3234	majoro	majoroj majorojn majoron
+35	3235	luna	lunaj lunajn lunan
+36	3236	acido	acidoj acidojn acidon
+37	3237	psikologio	psikologioj psikologiojn psikologion
+38	3238	korea	koreaj koreajn korean
+39	3239	elŝuti	elŝutanta elŝutantaj elŝutantajn elŝutantan elŝutante elŝutas elŝutata elŝutataj elŝutatajn elŝutatan elŝutate elŝutinta elŝutintaj elŝutintajn elŝutintan elŝutinte elŝutis elŝutita elŝutitaj elŝutitajn elŝutitan elŝutite elŝutonta elŝutontaj elŝutontajn elŝutontan elŝutonte elŝutos elŝutu elŝutus
+40	3240	kvieta	kvietaj kvietajn kvietan
+41	3241	ĉokolado	ĉokoladoj ĉokoladojn ĉokoladon
+42	3242	mantelo	manteloj mantelojn mantelon
+43	3243	ĉasado	ĉasadoj ĉasadojn ĉasadon
+44	3244	refoje	
+45	3245	societo	societoj societojn societon
+46	3246	turisto	turistoj turistojn turiston
+47	3247	maljuniĝi	maljuniĝanta maljuniĝantaj maljuniĝantajn maljuniĝantan maljuniĝante maljuniĝas maljuniĝinta maljuniĝintaj maljuniĝintajn maljuniĝintan maljuniĝinte maljuniĝis maljuniĝonta maljuniĝontaj maljuniĝontajn maljuniĝontan maljuniĝonte maljuniĝos maljuniĝu maljuniĝus
+48	3248	alirebla	alireblaj alireblajn alireblan
+49	3249	fraŭlo	fraŭloj fraŭlojn fraŭlon
+50	3250	korespondi	korespondanta korespondantaj korespondantajn korespondantan korespondante korespondanto korespondantoj korespondas korespondinta korespondintaj korespondintajn korespondintan korespondinte korespondis korespondonta korespondontaj korespondontajn korespondontan korespondonte korespondos korespondu korespondus
+51	3251	asocio	asocioj asociojn asocion
+52	3252	fervora	fervoraj fervorajn fervoran
+53	3253	hazardo	hazardoj hazardojn hazardon
+54	3254	naŭzi	naŭzanta naŭzantaj naŭzantajn naŭzantan naŭzante naŭzas naŭzata naŭzataj naŭzatajn naŭzatan naŭzate naŭzinta naŭzintaj naŭzintajn naŭzintan naŭzinte naŭzis naŭzita naŭzitaj naŭzitajn naŭzitan naŭzite naŭzonta naŭzontaj naŭzontajn naŭzontan naŭzonte naŭzos naŭzu naŭzus
+55	3255	salono	salonoj salonojn salonon
+56	3256	eksponi	eksponanta eksponantaj eksponantajn eksponantan eksponante eksponas eksponata eksponataj eksponatajn eksponatan eksponate eksponinta eksponintaj eksponintajn eksponintan eksponinte eksponis eksponita eksponitaj eksponitajn eksponitan eksponite ekspononta eksponontaj eksponontajn eksponontan ekspononte eksponos eksponu eksponus
+57	3257	martiro	martiroj martirojn martiron
+58	3258	alloga	allogaj allogajn allogan
+59	3259	migrado	migradoj migradojn migradon
+60	3260	ŝtopi	ŝtopanta ŝtopantaj ŝtopantajn ŝtopantan ŝtopante ŝtopas ŝtopata ŝtopataj ŝtopatajn ŝtopatan ŝtopate ŝtopinta ŝtopintaj ŝtopintajn ŝtopintan ŝtopinte ŝtopis ŝtopita ŝtopitaj ŝtopitajn ŝtopitan ŝtopite ŝtoponta ŝtopontaj ŝtopontajn ŝtopontan ŝtoponte ŝtopos ŝtopu ŝtopus
+61	3261	distribuado	distribuadoj distribuadojn distribuadon
+62	3262	portreti	portretanta portretantaj portretantajn portretantan portretante portretas portretata portretataj portretatajn portretatan portretate portretinta portretintaj portretintajn portretintan portretinte portretis portretita portretitaj portretitajn portretitan portretite portretonta portretontaj portretontajn portretontan portretonte portretos portretu portretus
+63	3263	arkeologia	arkeologiaj arkeologiajn arkeologian arĥeologia arĥeologiaj
+64	3264	skizo	skizoj skizojn skizon
+65	3265	partnereco	partnerecoj partnerecojn partnerecon
+66	3266	anaso	anasoj anasojn anason
+67	3267	festado	festadoj festadojn festadon
+68	3268	evolua	evoluaj evoluajn evoluan
+69	3269	policisto	policistoj policistojn policiston
+70	3270	damaĝo	damaĝoj damaĝojn damaĝon
+71	3271	deteni	detenanta detenantaj detenantajn detenantan detenante detenas detenata detenataj detenatajn detenatan detenate deteninta detenintaj detenintajn detenintan deteninte detenis detenita detenitaj detenitajn detenitan detenite detenonta detenontaj detenontajn detenontan detenonte detenos detenu detenus
+72	3272	sanga	sangaj sangajn sangan
+73	3273	apartigo	apartigoj apartigojn apartigon
+74	3274	skota	skotaj skotajn skotan
+75	3275	mistero	misteroj misterojn misteron
+76	3276	kantisto	kantistoj kantistojn kantiston
+77	3277	kriterio	kriterioj kriteriojn kriterion
+78	3278	duŝo	duŝoj duŝojn duŝon
+79	3279	maizo	maizoj maizojn maizon
+80	3280	mallongigi	mallongiganta mallongigantaj mallongigantajn mallongigantan mallongigante mallongigas mallongigata mallongigataj mallongigatajn mallongigatan mallongigate mallongiginta mallongigintaj mallongigintajn mallongigintan mallongiginte mallongigis mallongigita mallongigitaj mallongigitajn mallongigitan mallongigite mallongigonta mallongigontaj mallongigontajn mallongigontan mallongigonte mallongigos mallongigu mallongigus
+81	3281	budĝeto	budĝetoj budĝetojn budĝeton buĝeto buĝetoj buĝetojn buĝeton
+82	3282	pretendi	pretendanta pretendantaj pretendantajn pretendantan pretendante pretendantoj pretendas pretendinta pretendintaj pretendintajn pretendintan pretendinte pretendis pretendonta pretendontaj pretendontajn pretendontan pretendonte pretendos pretendu pretendus
+83	3283	urbocentro	urbcentro urbocentroj urbocentrojn urbocentron
+84	3284	kliniko	klinikoj klinikojn klinikon
+85	3285	prognozo	prognozoj prognozojn prognozon
+86	3286	fera	feraj ferajn feran
+87	3287	atente	
+88	3288	ĵuro	ĵuroj ĵurojn ĵuron
+89	3289	neceso	necesoj necesojn neceson
+90	3290	ellasi	ellasanta ellasantaj ellasantajn ellasantan ellasante ellasas ellasata ellasataj ellasatajn ellasatan ellasate ellasinta ellasintaj ellasintajn ellasintan ellasinte ellasis ellasita ellasitaj ellasitajn ellasitan ellasite ellasonta ellasontaj ellasontajn ellasontan ellasonte ellasos ellasu ellasus
+91	3291	evidentiĝi	evidentiĝanta evidentiĝantaj evidentiĝantajn evidentiĝantan evidentiĝante evidentiĝas evidentiĝinta evidentiĝintaj evidentiĝintajn evidentiĝintan evidentiĝinte evidentiĝis evidentiĝonta evidentiĝontaj evidentiĝontajn evidentiĝontan evidentiĝonte evidentiĝos evidentiĝu evidentiĝus
+92	3292	inkluzivi	inkluzivanta inkluzivantaj inkluzivantajn inkluzivantan inkluzivante inkluzivas inkluzivata inkluzivataj inkluzivatajn inkluzivatan inkluzivate inkluzivinta inkluzivintaj inkluzivintajn inkluzivintan inkluzivinte inkluzivis inkluzivita inkluzivitaj inkluzivitajn inkluzivitan inkluzivite inkluzivonta inkluzivontaj inkluzivontajn inkluzivontan inkluzivonte inkluzivos inkluzivu inkluzivus
+93	3293	renovigi	renoviganta renovigantaj renovigantajn renovigantan renovigante renovigas renovigata renovigataj renovigatajn renovigatan renovigate renoviginta renovigintaj renovigintajn renovigintan renoviginte renovigis renovigita renovigitaj renovigitajn renovigitan renovigite renovigonta renovigontaj renovigontajn renovigontan renovigonte renovigos renovigu renovigus
+94	3294	kelnero	kelneroj kelnerojn kelneron
+95	3295	frago	fragoj fragojn fragon
+96	3296	biologio	biologioj biologiojn biologion
+97	3297	felo	feloj felojn felon
+98	3298	akurata	akurataj akuratajn akuratan
+99	3299	interveno	intervenoj intervenojn intervenon
+100	3300	sensenca	sensencaj sensencajn sensencan

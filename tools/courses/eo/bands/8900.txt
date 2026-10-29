@@ -1,0 +1,100 @@
+1	8801	maratono	maratonoj maratonojn maratonon
+2	8802	etrusko	etruskoj etruskojn etruskon
+3	8803	efemera	efemeraj efemerajn efemeran
+4	8804	rektangulo	rektanguloj rektangulojn rektangulon
+5	8805	senkapa	senkapaj senkapajn senkapan
+6	8806	malforteco	malfortecoj malfortecojn malfortecon
+7	8807	seke	
+8	8808	strikodo	strekkodo strekokodo strikodoj strikodojn strikodon
+9	8809	prostato	prostatoj prostatojn prostaton
+10	8810	dragono	dragonoj dragonojn dragonon
+11	8811	centono	centonoj centonojn centonon
+12	8812	moka	mokaj mokajn mokan
+13	8813	anoncisto	anoncistoj anoncistojn anonciston
+14	8814	trouzi	trouzanta trouzantaj trouzantajn trouzantan trouzante trouzas trouzata trouzataj trouzatajn trouzatan trouzate trouzinta trouzintaj trouzintajn trouzintan trouzinte trouzis trouzita trouzitaj trouzitajn trouzitan trouzite trouzonta trouzontaj trouzontajn trouzontan trouzonte trouzos trouzu trouzus
+15	8815	fibolo	fiboloj fibolojn fibolon
+16	8816	distanca	distancaj distancajn distancan
+17	8817	urbego	urbegoj urbegojn urbegon
+18	8818	manio	manioj maniojn manion
+19	8819	kvindeka	kvindekaj kvindekajn kvindekan
+20	8820	edzeco	edzecoj edzecojn edzecon
+21	8821	morte	
+22	8822	golfeto	golfetoj golfetojn golfeton
+23	8823	ungvento	ungventoj ungventojn ungventon
+24	8824	militŝipo	militŝipoj militŝipojn militŝipon
+25	8825	trumpetisto	trumpetistoj trumpetistojn trumpetiston
+26	8826	filipinano	filipinanoj filipinanojn filipinanon
+27	8827	piero	pieroj pierojn pieron
+28	8828	gramatike	
+29	8829	tuberkulozo	tuberkulozoj tuberkulozojn tuberkulozon
+30	8830	kataluno	katalunoj katalunojn katalunon
+31	8831	krispa	krispaj krispajn krispan
+32	8832	kubuto	kubutoj kubutojn kubuton
+33	8833	netransitiva	netransitivaj netransitivajn netransitivan
+34	8834	kvadranto	kvadrantoj kvadrantojn kvadranton
+35	8835	neŭtrona	neŭtronaj neŭtronajn neŭtronan
+36	8836	malabundo	malabundoj malabundojn malabundon
+37	8837	rulseĝo	rulseĝoj rulseĝojn rulseĝon
+38	8838	ankri	ankranta ankrantaj ankrantajn ankrantan ankrante ankras ankrinta ankrintaj ankrintajn ankrintan ankrinte ankris ankronta ankrontaj ankrontajn ankrontan ankronte ankros ankru ankrus
+39	8839	distili	distilanta distilantaj distilantajn distilantan distilante distilas distilata distilataj distilatajn distilatan distilate distilinta distilintaj distilintajn distilintan distilinte distilis distilita distilitaj distilitajn distilitan distilite distilonta distilontaj distilontajn distilontan distilonte distilos distilu distilus
+40	8840	somerdomo	somerdomoj somerdomojn somerdomon
+41	8841	nigrula	nigrulaj nigrulajn nigrulan
+42	8842	safiro	safiroj safirojn safiron
+43	8843	avarulo	avaruloj avarulojn avarulon
+44	8844	facilanima	facilanimaj facilanimajn facilaniman
+45	8845	vidvo	vidvoj vidvojn vidvon
+46	8846	kilobajto	kilobajtoj kilobajtojn kilobajton
+47	8847	manioko	maniokoj maniokojn maniokon
+48	8848	helpilo	helpiloj helpilojn helpilon
+49	8849	minaca	minacaj minacajn minacan
+50	8850	cimbalo	cimbaloj cimbalojn cimbalon
+51	8851	idiosinkrazia	idiosinkraziaj idiosinkraziajn idiosinkrazian
+52	8852	sukceno	sukcenoj sukcenojn sukcenon
+53	8853	pankreato	pankreatoj pankreatojn pankreaton
+54	8854	biokemio	biokemioj biokemiojn biokemion
+55	8855	botaniko	botanikoj botanikojn botanikon
+56	8856	individuismo	individuismoj individuismojn individuismon
+57	8857	celulozo	celulozoj celulozojn celulozon
+58	8858	malsaĝeco	malsaĝecoj malsaĝecojn malsaĝecon
+59	8859	deklino	deklinoj deklinojn deklinon
+60	8860	evidentigi	evidentiganta evidentigantaj evidentigantajn evidentigantan evidentigante evidentigas evidentigata evidentigataj evidentigatajn evidentigatan evidentigate evidentiginta evidentigintaj evidentigintajn evidentigintan evidentiginte evidentigis evidentigita evidentigitaj evidentigitajn evidentigitan evidentigite evidentigonta evidentigontaj evidentigontajn evidentigontan evidentigonte evidentigos evidentigu evidentigus
+61	8861	liberulo	liberuloj liberulojn liberulon
+62	8862	supernovao	supernovaoj supernovaojn supernovaon
+63	8863	malbonaŭgura	malbonaŭguraj malbonaŭgurajn malbonaŭguran
+64	8864	enkasigi	enkasiganta enkasigantaj enkasigantajn enkasigantan enkasigante enkasigas enkasigata enkasigataj enkasigatajn enkasigatan enkasigate enkasiginta enkasigintaj enkasigintajn enkasigintan enkasiginte enkasigis enkasigita enkasigitaj enkasigitajn enkasigitan enkasigite enkasigonta enkasigontaj enkasigontajn enkasigontan enkasigonte enkasigos enkasigu enkasigus
+65	8865	impregni	impregnanta impregnantaj impregnantajn impregnantan impregnante impregnas impregnata impregnataj impregnatajn impregnatan impregnate impregninta impregnintaj impregnintajn impregnintan impregninte impregnis impregnita impregnitaj impregnitajn impregnitan impregnite impregnonta impregnontaj impregnontajn impregnontan impregnonte impregnos impregnu impregnus
+66	8866	realaĵo	realaĵoj realaĵojn realaĵon
+67	8867	traktaĵo	traktaĵoj traktaĵojn traktaĵon
+68	8868	bobelo	bobeloj bobelojn bobelon
+69	8869	libraro	libraroj librarojn libraron
+70	8870	pritondi	pritondanta pritondantaj pritondantajn pritondantan pritondante pritondas pritondata pritondataj pritondatajn pritondatan pritondate pritondinta pritondintaj pritondintajn pritondintan pritondinte pritondis pritondita pritonditaj pritonditajn pritonditan pritondite pritondonta pritondontaj pritondontajn pritondontan pritondonte pritondos pritondu pritondus
+71	8871	rubujo	rubujoj rubujojn rubujon
+72	8872	vaki	vakanta vakantaj vakantajn vakantan vakante vakas vakinta vakintaj vakintajn vakintan vakinte vakis vakonta vakontaj vakontajn vakontan vakonte vakos vaku vakus
+73	8873	demandaro	demandaroj demandarojn demandaron
+74	8874	madamo	madamoj madamojn madamon
+75	8875	mineralakvo	mineralakvoj mineralakvojn mineralakvon
+76	8876	kapvesto	kapvestoj kapvestojn kapveston
+77	8877	absorbo	absorboj absorbojn absorbon
+78	8878	provoka	provokaj provokajn provokan
+79	8879	lesbo	lesboj lesbojn lesbon
+80	8880	taŭge	
+81	8881	mirlando	mirlandoj mirlandojn mirlandon
+82	8882	alkaloido	alkaloidoj alkaloidojn alkaloidon
+83	8883	senatente	
+84	8884	vojaĝa	vojaĝaj vojaĝajn vojaĝan
+85	8885	falsado	falsadoj falsadojn falsadon
+86	8886	roso	rosoj rosojn roson
+87	8887	frambo	framboj frambojn frambon
+88	8888	spamo	spamoj spamojn spamon
+89	8889	protezo	protezoj protezojn protezon
+90	8890	skvama	skvamaj skvamajn skvaman
+91	8891	socipolitika	socipolitikaj socipolitikajn socipolitikan
+92	8892	plugi	pluganta plugantaj plugantajn plugantan plugante plugas plugata plugataj plugatajn plugatan plugate pluginta plugintaj plugintajn plugintan pluginte plugis plugita plugitaj plugitajn plugitan plugite plugonta plugontaj plugontajn plugontan plugonte plugos plugu plugus
+93	8893	brodi	brodanta brodantaj brodantajn brodantan brodante brodas brodata brodataj brodatajn brodatan brodate brodinta brodintaj brodintajn brodintan brodinte brodis brodita broditaj broditajn broditan brodite brodonta brodontaj brodontajn brodontan brodonte brodos brodu brodus
+94	8894	krucumo	krucumoj krucumojn krucumon
+95	8895	diareo	diareoj diareojn diareon
+96	8896	kvarko	kvarkoj kvarkojn kvarkon
+97	8897	kliniĝo	kliniĝoj kliniĝojn kliniĝon
+98	8898	analfabeta	analfabetaj analfabetajn analfabetan
+99	8899	sulfido	sulfidoj sulfidojn sulfidon
+100	8900	nesimetria	nesimetriaj nesimetriajn nesimetrian

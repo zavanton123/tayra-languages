@@ -1,0 +1,100 @@
+1	4901	salivo	salivoj salivojn salivon
+2	4902	ŝminko	ŝminkoj ŝminkojn ŝminkon
+3	4903	polimero	polimeroj polimerojn polimeron
+4	4904	fizikisto	fizikistoj fizikistojn fizikiston
+5	4905	vesperto	vespertoj vespertojn vesperton
+6	4906	mallongigo	mallongigoj mallongigojn mallongigon
+7	4907	papilio	papilioj papiliojn papilion
+8	4908	logi	loganta logantaj logantajn logantan logante logas logata logataj logatajn logatan logate loginta logintaj logintajn logintan loginte logis logita logitaj logitajn logitan logite logonta logontaj logontajn logontan logonte logos logu logus
+9	4909	hektaro	hektaroj hektarojn hektaron
+10	4910	masonisto	masonistoj masonistojn masoniston
+11	4911	transsalti	transsaltanta transsaltantaj transsaltantajn transsaltantan transsaltante transsaltas transsaltata transsaltataj transsaltatajn transsaltatan transsaltate transsaltinta transsaltintaj transsaltintajn transsaltintan transsaltinte transsaltis transsaltita transsaltitaj transsaltitajn transsaltitan transsaltite transsaltonta transsaltontaj transsaltontajn transsaltontan transsaltonte transsaltos transsaltu transsaltus
+12	4912	kreditoro	kreditoroj kreditorojn kreditoron
+13	4913	vizo	vizoj vizojn vizon
+14	4914	petskribo	petskriboj petskribojn petskribon
+15	4915	simpleco	simplecoj simplecojn simplecon
+16	4916	kopirajto	kopirajtoj kopirajtojn kopirajton
+17	4917	tiro	tirado tiroj tirojn tiron
+18	4918	lacigi	laciganta lacigantaj lacigantajn lacigantan lacigante lacigas lacigata lacigataj lacigatajn lacigatan lacigate laciginta lacigintaj lacigintajn lacigintan laciginte lacigis lacigita lacigitaj lacigitajn lacigitan lacigite lacigonta lacigontaj lacigontajn lacigontan lacigonte lacigos lacigu lacigus
+19	4919	draste	
+20	4920	ĵaluzo	ĵaluzoj ĵaluzojn ĵaluzon
+21	4921	sata	sataj satajn satan
+22	4922	mezaĝa	mezaĝaj mezaĝajn mezaĝan
+23	4923	tomato	tomatoj tomatojn tomaton
+24	4924	ekzotika	ekzotikaj ekzotikajn ekzotikan
+25	4925	filtri	filtranta filtrantaj filtrantajn filtrantan filtrante filtras filtrata filtrataj filtratajn filtratan filtrate filtrinta filtrintaj filtrintajn filtrintan filtrinte filtris filtrita filtritaj filtritajn filtritan filtrite filtronta filtrontaj filtrontajn filtrontan filtronte filtros filtru filtrus
+26	4926	lerte	
+27	4927	frekventi	frekventanta frekventantaj frekventantajn frekventantan frekventante frekventas frekventinta frekventintaj frekventintajn frekventintan frekventinte frekventis frekventonta frekventontaj frekventontajn frekventontan frekventonte frekventos frekventu frekventus
+28	4928	ĉagreno	ĉagrenoj ĉagrenojn ĉagrenon
+29	4929	bankedo	bankedoj bankedojn bankedon
+30	4930	senmorta	senmortaj senmortajn senmortan
+31	4931	tordi	tordanta tordantaj tordantajn tordantan tordante tordas tordata tordataj tordatajn tordatan tordate tordinta tordintaj tordintajn tordintan tordinte tordis tordita torditaj torditajn torditan tordite tordonta tordontaj tordontajn tordontan tordonte tordos tordu tordus
+32	4932	renovigebla	renovigeblaj renovigeblajn renovigeblan
+33	4933	ateisto	ateistoj ateistojn ateiston
+34	4934	pasto	pastoj pastojn paston
+35	4935	antibiotiko	antibiotikoj antibiotikojn antibiotikon
+36	4936	izoliteco	izolitecoj izolitecojn izolitecon
+37	4937	novedzino	novedzinoj novedzinojn novedzinon
+38	4938	kargo	kargoj kargojn kargon
+39	4939	superflua	superfluaj superfluajn superfluan
+40	4940	uragano	uraganoj uraganojn uraganon
+41	4941	muzelo	muzeloj muzelojn muzelon
+42	4942	ekzamenado	ekzamenadoj ekzamenadojn ekzamenadon
+43	4943	renovigo	renovigoj renovigojn renovigon
+44	4944	abomeninda	abomenindaj abomenindajn abomenindan
+45	4945	galaksia	galaksiaj galaksiajn galaksian
+46	4946	libervole	
+47	4947	gimnazio	gimnazioj gimnaziojn gimnazion
+48	4948	eldonejo	eldonejoj eldonejojn eldonejon
+49	4949	gratifiko	gratifikoj gratifikojn gratifikon
+50	4950	dorno	dornoj dornojn dornon
+51	4951	mongolo	mongoloj mongolojn mongolon
+52	4952	naĝejo	naĝejoj naĝejojn naĝejon
+53	4953	liki	likanta likantaj likantajn likantan likante likas likata likataj likatajn likatan likate likinta likintaj likintajn likintan likinte likis likita likitaj likitajn likitan likite likonta likontaj likontajn likontan likonte likos liku likus
+54	4954	ĝojigi	ĝojiganta ĝojigantaj ĝojigantajn ĝojigantan ĝojigante ĝojigas ĝojigata ĝojigataj ĝojigatajn ĝojigatan ĝojigate ĝojiginta ĝojigintaj ĝojigintajn ĝojigintan ĝojiginte ĝojigis ĝojigita ĝojigitaj ĝojigitajn ĝojigitan ĝojigite ĝojigonta ĝojigontaj ĝojigontajn ĝojigontan ĝojigonte ĝojigos ĝojigu ĝojigus
+55	4955	viena	vienaj vienajn vienan
+56	4956	datumo	datumoj datumojn datumon
+57	4957	kotono	kotonoj kotonojn kotonon
+58	4958	hundido	hundidoj hundidojn hundidon
+59	4959	vektoro	vektoroj vektorojn vektoron
+60	4960	ingo	ingoj ingojn ingon
+61	4961	simetria	simetriaj simetriajn simetrian
+62	4962	mango	mangoj mangojn mangon
+63	4963	sandviĉo	sandviĉoj sandviĉojn sandviĉon
+64	4964	monstra	monstraj monstrajn monstran
+65	4965	provoko	provokoj provokojn provokon
+66	4966	planeda	planedaj planedajn planedan
+67	4967	dimanĉe	
+68	4968	vulkano	vulkanoj vulkanojn vulkanon
+69	4969	elfali	elfalanta elfalantaj elfalantajn elfalantan elfalante elfalas elfalinta elfalintaj elfalintajn elfalintan elfalinte elfalis elfalonta elfalontaj elfalontajn elfalontan elfalonte elfalos elfalu elfalus
+70	4970	bagatela	bagatelaj bagatelajn bagatelan
+71	4971	videble	
+72	4972	enmigrado	enmigradoj enmigradojn enmigradon
+73	4973	binara	binaraj binarajn binaran
+74	4974	skvamo	skvamoj skvamojn skvamon
+75	4975	pilgrimo	pilgrimoj pilgrimojn pilgrimon
+76	4976	portalo	portaloj portalojn portalon
+77	4977	kurado	kuradoj kuradojn kuradon
+78	4978	akciulo	akciuloj akciulojn akciulon
+79	4979	miriga	mirigaj mirigajn mirigan
+80	4980	germane	
+81	4981	bapto	baptoj baptojn bapton
+82	4982	solena	solenaj solenajn solenan
+83	4983	orfo	orfoj orfojn orfon
+84	4984	monopolo	monopoloj monopolojn monopolon
+85	4985	ŝviti	ŝvitanta ŝvitantaj ŝvitantajn ŝvitantan ŝvitante ŝvitas ŝvitinta ŝvitintaj ŝvitintajn ŝvitintan ŝvitinte ŝvitis ŝvitonta ŝvitontaj ŝvitontajn ŝvitontan ŝvitonte ŝvitos ŝvitu ŝvitus
+86	4986	makzelo	makzeloj makzelojn makzelon
+87	4987	gajeco	gajecoj gajecojn gajecon
+88	4988	sofo	sofoj sofojn sofon
+89	4989	dankemo	dankemoj dankemojn dankemon
+90	4990	vive	
+91	4991	akordigi	akordiganta akordigantaj akordigantajn akordigantan akordigante akordigas akordigata akordigataj akordigatajn akordigatan akordigate akordiginta akordigintaj akordigintajn akordigintan akordiginte akordigis akordigita akordigitaj akordigitajn akordigitan akordigite akordigonta akordigontaj akordigontajn akordigontan akordigonte akordigos akordigu akordigus
+92	4992	jado	jadoj jadojn jadon
+93	4993	senvalora	senvaloraj senvalorajn senvaloran
+94	4994	akumuli	akumulanta akumulantaj akumulantajn akumulantan akumulante akumulas akumulata akumulataj akumulatajn akumulatan akumulate akumulinta akumulintaj akumulintajn akumulintan akumulinte akumulis akumulita akumulitaj akumulitajn akumulitan akumulite akumulonta akumulontaj akumulontajn akumulontan akumulonte akumulos akumulu akumulus
+95	4995	subtrahi	subtrahanta subtrahantaj subtrahantajn subtrahantan subtrahante subtrahas subtrahata subtrahataj subtrahatajn subtrahatan subtrahate subtrahinta subtrahintaj subtrahintajn subtrahintan subtrahinte subtrahis subtrahita subtrahitaj subtrahitajn subtrahitan subtrahite subtrahonta subtrahontaj subtrahontajn subtrahontan subtrahonte subtrahos subtrahu subtrahus
+96	4996	rifuĝejo	rifuĝejoj rifuĝejojn rifuĝejon
+97	4997	kurteno	kurtenoj kurtenojn kurtenon
+98	4998	arkeologo	arkeologoj arkeologojn arkeologon
+99	4999	futuro	futuroj futurojn futuron
+100	5000	ĉefroli	ĉefrolanta ĉefrolantaj ĉefrolantajn ĉefrolantan ĉefrolante ĉefrolas ĉefrolinta ĉefrolintaj ĉefrolintajn ĉefrolintan ĉefrolinte ĉefrolis ĉefrolonta ĉefrolontaj ĉefrolontajn ĉefrolontan ĉefrolonte ĉefrolos ĉefrolu ĉefrolus

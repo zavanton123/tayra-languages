@@ -1,0 +1,100 @@
+1	801	rusa	rusaj rusajn rusan
+2	802	plani	plananta planantaj planantajn planantan planante planas planata planataj planatajn planatan planate planinta planintaj planintajn planintan planinte planis planita planitaj planitajn planitan planite planonta planontaj planontajn planontan planonte planos planu planus
+3	803	nuna	nunaj nunajn nunan
+4	804	sep	
+5	805	interna	internaj internajn internan
+6	806	eraro	eraroj erarojn eraron
+7	807	stulta	stultaj stultajn stultan
+8	808	fondi	fondanta fondantaj fondantajn fondantan fondante fondas fondata fondataj fondatajn fondatan fondate fondinta fondintaj fondintajn fondintan fondinte fondinto fondintoj fondintojn fondinton fondis fondita fonditaj fonditajn fonditan fondite fondonta fondontaj fondontajn fondontan fondonte fondos fondu fondus
+9	809	reiri	reiranta reirantaj reirantajn reirantan reirante reiras reirinta reirintaj reirintajn reirintan reirinte reiris reironta reirontaj reirontajn reirontan reironte reiros reiru reirus
+10	810	hundo	hundoj hundojn hundon
+11	811	bazo	bazoj bazojn bazon
+12	812	diferenco	diferencoj diferencojn diferencon
+13	813	larĝa	larĝaj larĝajn larĝan
+14	814	strato	stratoj stratojn straton
+15	815	operacio	operacioj operaciojn operacion
+16	816	piedo	piedoj piedojn piedon
+17	817	oro	oroj orojn oron
+18	818	avinjo	avinjoj avinjojn avinjon
+19	819	imperio	imperioj imperiojn imperion
+20	820	intereso	interesoj interesojn intereson
+21	821	klopodi	klopodanta klopodantaj klopodantajn klopodantan klopodante klopodas klopodinta klopodintaj klopodintajn klopodintan klopodinte klopodis klopodonta klopodontaj klopodontajn klopodontan klopodonte klopodos klopodu klopodus
+22	822	natura	naturaj naturajn naturan
+23	823	interkonsento	interkonsentoj interkonsentojn interkonsenton
+24	824	malmulta	malmultaj malmultajn malmultan
+25	825	pardono	pardonoj pardonojn pardonon
+26	826	necesa	necesaj necesajn necesan
+27	827	armilo	armiloj armilojn armilon
+28	828	aresti	arestanta arestantaj arestantajn arestantan arestante arestas arestata arestataj arestatajn arestatan arestate arestinta arestintaj arestintajn arestintan arestinte arestintoj arestis arestita arestitaj arestitajn arestitan arestite arestito arestitoj arestitojn arestiton arestonta arestontaj arestontajn arestontan arestonte arestos arestu arestus
+29	829	klare	
+30	830	planto	plantoj plantojn planton
+31	831	pura	puraj purajn puran
+32	832	fama	famaj famajn faman
+33	833	direktoro	direktoroj direktorojn direktoron
+34	834	ĉelo	ĉeloj ĉelojn ĉelon
+35	835	grandeco	grandecoj grandecojn grandecon
+36	836	fenestro	fenestroj fenestrojn fenestron
+37	837	kutimi	kutimanta kutimantaj kutimantajn kutimantan kutimante kutimas kutiminta kutimintaj kutimintajn kutimintan kutiminte kutimis kutimonta kutimontaj kutimontajn kutimontan kutimonte kutimos kutimu kutimus
+38	838	historia	historiaj historiajn historian
+39	839	terura	teruraj terurajn teruran
+40	840	okupi	okupanta okupantaj okupantajn okupantan okupante okupantoj okupas okupata okupataj okupatajn okupatan okupate okupinta okupintaj okupintajn okupintan okupinte okupis okupita okupitaj okupitajn okupitan okupite okuponta okupontaj okupontajn okupontan okuponte okupos okupu okupus
+41	841	princino	princinoj princinojn princinon
+42	842	pruvi	pruvanta pruvantaj pruvantajn pruvantan pruvante pruvanto pruvas pruvata pruvataj pruvatajn pruvatan pruvate pruvinta pruvintaj pruvintajn pruvintan pruvinte pruvis pruvita pruvitaj pruvitajn pruvitan pruvite pruvonta pruvontaj pruvontajn pruvontan pruvonte pruvos pruvu pruvus
+43	843	influo	influoj influojn influon
+44	844	kanto	kantoj kantojn kanton
+45	845	suferi	suferanta suferantaj suferantajn suferantan suferante suferanto suferantoj suferantojn suferanton suferas suferata suferataj suferatajn suferatan suferate suferinta suferintaj suferintajn suferintan suferinte suferis suferita suferitaj suferitajn suferitan suferite suferonta suferontaj suferontajn suferontan suferonte suferos suferu suferus
+46	846	provizi	provizanta provizantaj provizantajn provizantan provizante provizanto provizantoj provizantojn provizanton provizas provizata provizataj provizatajn provizatan provizate provizinta provizintaj provizintajn provizintan provizinte provizis provizita provizitaj provizitajn provizitan provizite provizonta provizontaj provizontajn provizontan provizonte provizos provizu provizus
+47	847	ŝajne	
+48	848	sole	
+49	849	turni	turnanta turnantaj turnantajn turnantan turnante turnas turnata turnataj turnatajn turnatan turnate turninta turnintaj turnintajn turnintan turninte turnis turnita turnitaj turnitajn turnitan turnite turnonta turnontaj turnontajn turnontan turnonte turnos turnu turnus
+50	850	reto	retoj retojn reton
+51	851	grado	gradoj gradojn gradon
+52	852	fina	finaj finajn finan
+53	853	trankviliĝi	trankviliĝanta trankviliĝantaj trankviliĝantajn trankviliĝantan trankviliĝante trankviliĝas trankviliĝinta trankviliĝintaj trankviliĝintajn trankviliĝintan trankviliĝinte trankviliĝis trankviliĝonta trankviliĝontaj trankviliĝontajn trankviliĝontan trankviliĝonte trankviliĝos trankviliĝu trankviliĝus
+54	854	indico	indicoj indicojn indicon
+55	855	respubliko	respublikoj respublikojn respublikon
+56	856	vojaĝo	vojaĝoj vojaĝojn vojaĝon
+57	857	taksi	taksanta taksantaj taksantajn taksantan taksante taksas taksata taksataj taksatajn taksatan taksate taksinta taksintaj taksintajn taksintan taksinte taksis taksita taksitaj taksitajn taksitan taksite taksonta taksontaj taksontajn taksontan taksonte taksos taksota taksu taksus
+58	858	aparteni	apartenanta apartenantaj apartenantajn apartenantan apartenante apartenas aparteninta apartenintaj apartenintajn apartenintan aparteninte apartenis apartenonta apartenontaj apartenontajn apartenontan apartenonte apartenos apartenu apartenus
+59	859	praktiko	praktikoj praktikojn praktikon
+60	860	dungi	dunganta dungantaj dungantajn dungantan dungante dungantoj dungantojn dunganton dungas dungata dungataj dungatajn dungatan dungate dunginta dungintaj dungintajn dungintan dunginte dungis dungita dungitaj dungitajn dungitan dungite dungito dungitoj dungitojn dungiton dungonta dungontaj dungontajn dungontan dungonte dungos dungu dungus
+61	861	stultulo	stultuloj stultulojn stultulon
+62	862	medio	medioj mediojn medion
+63	863	religio	religioj religiojn religion
+64	864	fidi	fidanta fidantaj fidantajn fidantan fidante fidas fidata fidataj fidatajn fidatan fidate fidinta fidintaj fidintajn fidintan fidinte fidis fidita fiditaj fiditajn fiditan fidite fidonta fidontaj fidontajn fidontan fidonte fidos fidu fidus
+65	865	peco	pecoj pecojn pecon
+66	866	simili	similanta similantaj similantajn similantan similante similas similinta similintaj similintajn similintan similinte similis similonta similontaj similontajn similontan similonte similos similu similus
+67	867	trupo	trupoj trupojn trupon
+68	868	sendependa	sendependaj sendependajn sendependan
+69	869	februaro	februaroj februarojn februaron
+70	870	vico	vicoj vicojn vicon
+71	871	entute	
+72	872	forte	
+73	873	antaŭen	
+74	874	rekta	rektaj rektajn rektan
+75	875	seĝo	seĝoj seĝojn seĝon
+76	876	gardi	gardanta gardantaj gardantajn gardantan gardante gardanto gardantoj gardantojn gardanton gardas gardata gardataj gardatajn gardatan gardate gardaton gardinta gardintaj gardintajn gardintan gardinte gardis gardita garditaj garditajn garditan gardite gardonta gardontaj gardontajn gardontan gardonte gardos gardu gardus
+77	877	varma	varmaj varmajn varman
+78	878	elteni	eltenanta eltenantaj eltenantajn eltenantan eltenante eltenas eltenata eltenataj eltenatajn eltenatan eltenate elteninta eltenintaj eltenintajn eltenintan elteninte eltenis eltenita eltenitaj eltenitajn eltenitan eltenite eltenonta eltenontaj eltenontajn eltenontan eltenonte eltenos eltenu eltenus
+79	879	spirito	spiritoj spiritojn spiriton
+80	880	imperiestro	imperiestroj imperiestrojn imperiestron
+81	881	turo	turoj turojn turon
+82	882	rimedo	rimedoj rimedojn rimedon
+83	883	akompani	akompananta akompanantaj akompanantajn akompanantan akompanante akompananto akompanas akompanata akompanataj akompanatajn akompanatan akompanate akompaninta akompanintaj akompanintajn akompanintan akompaninte akompanis akompanita akompanitaj akompanitajn akompanitan akompanite akompanonta akompanontaj akompanontajn akompanontan akompanonte akompanos akompanu akompanus
+84	884	prepari	preparanta preparantaj preparantajn preparantan preparante preparas preparata preparataj preparatajn preparatan preparate preparinta preparintaj preparintajn preparintan preparinte preparis preparita preparitaj preparitajn preparitan preparite preparonta preparontaj preparontajn preparontan preparonte preparos preparu preparus
+85	885	onklo	onkloj onklojn onklon
+86	886	elektra	elektraj elektrajn elektran
+87	887	sklavo	sklavoj sklavojn sklavon
+88	888	certigi	certiganta certigantaj certigantajn certigantan certigante certigas certigata certigataj certigatajn certigatan certigate certiginta certigintaj certigintajn certigintan certiginte certigis certigita certigitaj certigitajn certigitan certigite certigonta certigontaj certigontajn certigontan certigonte certigos certigu certigus
+89	889	redoni	redonanta redonantaj redonantajn redonantan redonante redonas redonata redonataj redonatajn redonatan redonate redoninta redonintaj redonintajn redonintan redoninte redonis redonita redonitaj redonitajn redonitan redonite redononta redonontaj redonontajn redonontan redononte redonos redonu redonus
+90	890	ĝoji	ĝojanta ĝojantaj ĝojantajn ĝojantan ĝojante ĝojas ĝojinta ĝojintaj ĝojintajn ĝojintan ĝojinte ĝojis ĝojonta ĝojontaj ĝojontajn ĝojontan ĝojonte ĝojos ĝoju ĝojus
+91	891	plene	
+92	892	vilaĝo	vilagho vilaĝoj vilaĝojn vilaĝon
+93	893	diskuti	diskutanta diskutantaj diskutantajn diskutantan diskutante diskutanto diskutas diskutata diskutataj diskutatajn diskutatan diskutate diskutinta diskutintaj diskutintajn diskutintan diskutinte diskutis diskutita diskutitaj diskutitajn diskutitan diskutite diskutonta diskutontaj diskutontajn diskutontan diskutonte diskutos diskutu diskutus
+94	894	fine	
+95	895	privata	privataj privatajn privatan
+96	896	ĉevalo	ĉevaloj ĉevalojn ĉevalon
+97	897	naskiĝi	naskiĝanta naskiĝantaj naskiĝantajn naskiĝantan naskiĝante naskiĝas naskiĝinta naskiĝintaj naskiĝintajn naskiĝintan naskiĝinte naskiĝis naskiĝonta naskiĝontaj naskiĝontajn naskiĝontan naskiĝonte naskiĝos naskiĝu naskiĝus
+98	898	surfaco	surfacoj surfacojn surfacon
+99	899	komputilo	komputiloj komputilojn komputilon
+100	900	rifuzi	rifuzanta rifuzantaj rifuzantajn rifuzantan rifuzante rifuzas rifuzata rifuzataj rifuzatajn rifuzatan rifuzate rifuzinta rifuzintaj rifuzintajn rifuzintan rifuzinte rifuzis rifuzita rifuzitaj rifuzitajn rifuzitan rifuzite rifuzonta rifuzontaj rifuzontajn rifuzontan rifuzonte rifuzos rifuzu rifuzus

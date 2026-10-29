@@ -1,0 +1,100 @@
+1	1801	favoro	favoroj favorojn favoron
+2	1802	veki	vekanta vekantaj vekantajn vekantan vekante vekas vekata vekataj vekatajn vekatan vekate vekinta vekintaj vekintajn vekintan vekinte vekis vekita vekitaj vekitajn vekitan vekite vekonta vekontaj vekontajn vekontan vekonte vekos veku vekus
+3	1803	kuglo	kugloj kuglojn kuglon
+4	1804	riski	riskanta riskantaj riskantajn riskantan riskante riskas riskata riskataj riskatajn riskatan riskate riskinta riskintaj riskintajn riskintan riskinte riskis riskita riskitaj riskitajn riskitan riskite riskonta riskontaj riskontajn riskontan riskonte riskos risku riskus
+5	1805	sendependeco	sendependecoj sendependecojn sendependecon
+6	1806	specife	
+7	1807	mara	maraj marajn maran
+8	1808	konveni	konvenanta konvenantaj konvenantajn konvenantan konvenante konvenas konveninta konvenintaj konvenintajn konvenintan konveninte konvenis konvenonta konvenontaj konvenontajn konvenontan konvenonte konvenos konvenu konvenus
+9	1809	intenco	intencoj intencojn intencon
+10	1810	okazigi	okaziganta okazigantaj okazigantajn okazigantan okazigante okazigas okazigata okazigataj okazigatajn okazigatan okazigate okaziginta okazigintaj okazigintajn okazigintan okaziginte okazigis okazigita okazigitaj okazigitajn okazigitan okazigite okazigonta okazigontaj okazigontajn okazigontan okazigonte okazigos okazigu okazigus
+11	1811	stabila	stabilaj stabilajn stabilan
+12	1812	muzikisto	muzikistoj muzikistojn muzikiston
+13	1813	malantaŭa	malantaŭaj malantaŭajn malantaŭan
+14	1814	vizito	vizitoj vizitojn viziton
+15	1815	sufiĉa	sufiĉaj sufiĉajn sufiĉan
+16	1816	sablo	sabloj sablojn sablon
+17	1817	historiisto	historiistoj historiistojn historiiston
+18	1818	malhela	malhelaj malhelajn malhelan
+19	1819	biciklo	bicikloj biciklojn biciklon
+20	1820	minimume	
+21	1821	kreskigi	kreskiganta kreskigantaj kreskigantajn kreskigantan kreskigante kreskigas kreskigata kreskigataj kreskigatajn kreskigatan kreskigate kreskiginta kreskigintaj kreskigintajn kreskigintan kreskiginte kreskigis kreskigita kreskigitaj kreskigitajn kreskigitan kreskigite kreskigonta kreskigontaj kreskigontajn kreskigontan kreskigonte kreskigos kreskigu kreskigus
+22	1822	bruo	bruego bruoj bruojn bruon
+23	1823	kerno	kernoj kernojn kernon
+24	1824	registara	registaraj registarajn registaran
+25	1825	valora	valoraj valorajn valoran
+26	1826	buso	busoj busojn buson
+27	1827	glaso	glasoj glasojn glason
+28	1828	desegni	desegnanta desegnantaj desegnantajn desegnantan desegnante desegnas desegnata desegnataj desegnatajn desegnatan desegnate desegninta desegnintaj desegnintajn desegnintan desegninte desegnis desegnita desegnitaj desegnitajn desegnitan desegnite desegnonta desegnontaj desegnontajn desegnontan desegnonte desegnos desegnu desegnus
+29	1829	peto	petoj petojn peton
+30	1830	partiklo	partikloj partiklojn partiklon
+31	1831	odoro	odoroj odorojn odoron
+32	1832	etulo	etuloj etulojn etulon
+33	1833	neniel	
+34	1834	mekanismo	mekanismoj mekanismojn mekanismon meĥanismo meĥanismon
+35	1835	prezentiĝi	prezentiĝanta prezentiĝantaj prezentiĝantajn prezentiĝantan prezentiĝante prezentiĝas prezentiĝinta prezentiĝintaj prezentiĝintajn prezentiĝintan prezentiĝinte prezentiĝis prezentiĝonta prezentiĝontaj prezentiĝontajn prezentiĝontan prezentiĝonte prezentiĝos prezentiĝu prezentiĝus
+36	1836	emi	emanta emantaj emantajn emantan emante emas eminta emintaj emintajn emintan eminte emis emonta emontaj emontajn emontan emonte emos emu emus
+37	1837	dika	dikaj dikajn dikan
+38	1838	unuiĝo	unuiĝoj unuiĝojn unuiĝon
+39	1839	ridinda	ridindaj ridindajn ridindan
+40	1840	reformo	reformoj reformojn reformon
+41	1841	ofico	oficoj oficojn oficon
+42	1842	ponto	pontoj pontojn ponton
+43	1843	enkonduko	enkondukoj enkondukojn enkondukon
+44	1844	edziniĝi	edziniĝanta edziniĝantaj edziniĝantajn edziniĝantan edziniĝante edziniĝas edziniĝinta edziniĝintaj edziniĝintajn edziniĝintan edziniĝinte edziniĝis edziniĝonta edziniĝontaj edziniĝontajn edziniĝontan edziniĝonte edziniĝos edziniĝu edziniĝus
+45	1845	komponisto	komponistoj komponistojn komponiston
+46	1846	forveturi	forveturanta forveturantaj forveturantajn forveturantan forveturante forveturas forveturinta forveturintaj forveturintajn forveturintan forveturinte forveturis forveturonta forveturontaj forveturontajn forveturontan forveturonte forveturos forveturu forveturus
+47	1847	naskiĝo	naskiĝoj naskiĝojn naskiĝon
+48	1848	kiso	kisoj kisojn kison
+49	1849	koncedi	koncedanta koncedantaj koncedantajn koncedantan koncedante koncedas koncedata koncedataj koncedatajn koncedatan koncedate koncedinta koncedintaj koncedintajn koncedintan koncedinte koncedis koncedita konceditaj konceditajn konceditan koncedite koncedonta koncedontaj koncedontajn koncedontan koncedonte koncedos koncedota koncedu koncedus
+50	1850	plifortigi	plifortiganta plifortigantaj plifortigantajn plifortigantan plifortigante plifortigas plifortigata plifortigataj plifortigatajn plifortigatan plifortigate plifortiginta plifortigintaj plifortigintajn plifortigintan plifortiginte plifortigis plifortigita plifortigitaj plifortigitajn plifortigitan plifortigite plifortigonta plifortigontaj plifortigontajn plifortigontan plifortigonte plifortigos plifortigu plifortigus
+51	1851	transiri	transiranta transirantaj transirantajn transirantan transirante transiras transirata transirataj transiratajn transiratan transirate transirinta transirintaj transirintajn transirintan transirinte transiris transirita transiritaj transiritajn transiritan transirite transironta transirontaj transirontajn transirontan transironte transiros transiru transirus
+52	1852	sopiri	sopiranta sopirantaj sopirantajn sopirantan sopirante sopiras sopirinta sopirintaj sopirintajn sopirintan sopirinte sopiris sopironta sopirontaj sopirontajn sopirontan sopironte sopiros sopiru sopirus
+53	1853	festivalo	festivaloj festivalojn festivalon
+54	1854	promeso	promesoj promesojn promeson
+55	1855	organismo	organismoj organismojn organismon
+56	1856	cetera	ceteraj ceterajn ceteran
+57	1857	ordigi	ordiganta ordigantaj ordigantajn ordigantan ordigante ordiganto ordigas ordigata ordigataj ordigatajn ordigatan ordigate ordiginta ordigintaj ordigintajn ordigintan ordiginte ordigis ordigita ordigitaj ordigitajn ordigitan ordigite ordigonta ordigontaj ordigontajn ordigontan ordigonte ordigos ordigu ordigus
+58	1858	verbo	verboj verbojn verbon
+59	1859	pasaĝero	pasaĝeroj pasaĝerojn pasaĝeron
+60	1860	rezulti	rezultanta rezultantaj rezultantajn rezultantan rezultante rezultanto rezultas rezultinta rezultintaj rezultintajn rezultintan rezultinte rezultis rezultonta rezultontaj rezultontajn rezultontan rezultonte rezultos rezultu rezultus
+61	1861	grandioza	grandiozaj grandiozajn grandiozan
+62	1862	domini	dominanta dominantaj dominantajn dominantan dominante dominanto dominantoj dominanton dominas dominata dominataj dominatajn dominatan dominate domininta dominintaj dominintajn dominintan domininte dominis dominita dominitaj dominitajn dominitan dominite dominonta dominontaj dominontajn dominontan dominonte dominos dominu dominus
+63	1863	reta	retaj retajn retan
+64	1864	spuro	spuroj spurojn spuron
+65	1865	puni	punanta punantaj punantajn punantan punante punas punata punataj punatajn punatan punate puninta punintaj punintajn punintan puninte punis punita punitaj punitajn punitan punite punitoj punonta punontaj punontajn punontan punonte punos punu punus
+66	1866	konstanta	konstantaj konstantajn konstantan
+67	1867	gloro	gloroj glorojn gloron
+68	1868	eventuale	
+69	1869	dolĉa	dolcha dolĉaj dolĉajn dolĉan
+70	1870	kontenta	kontentaj kontentajn kontentan
+71	1871	enkonduki	enkondukanta enkondukantaj enkondukantajn enkondukantan enkondukante enkondukanto enkondukas enkondukata enkondukataj enkondukatajn enkondukatan enkondukate enkondukinta enkondukintaj enkondukintajn enkondukintan enkondukinte enkondukis enkondukita enkondukitaj enkondukitajn enkondukitan enkondukite enkondukonta enkondukontaj enkondukontajn enkondukontan enkondukonte enkondukos enkonduku enkondukus
+72	1872	ekhavi	ekhavanta ekhavantaj ekhavantajn ekhavantan ekhavante ekhavas ekhavata ekhavataj ekhavatajn ekhavatan ekhavate ekhavinta ekhavintaj ekhavintajn ekhavintan ekhavinte ekhavis ekhavita ekhavitaj ekhavitajn ekhavitan ekhavite ekhavonta ekhavontaj ekhavontajn ekhavontan ekhavonte ekhavos ekhavu ekhavus
+73	1873	karakterizi	karakterizanta karakterizantaj karakterizantajn karakterizantan karakterizante karakterizas karakterizata karakterizataj karakterizatajn karakterizatan karakterizate karakterizinta karakterizintaj karakterizintajn karakterizintan karakterizinte karakterizis karakterizita karakterizitaj karakterizitajn karakterizitan karakterizite karakterizonta karakterizontaj karakterizontajn karakterizontan karakterizonte karakterizos karakterizu karakterizus
+74	1874	vastigi	vastiganta vastigantaj vastigantajn vastigantan vastigante vastigas vastigata vastigataj vastigatajn vastigatan vastigate vastiginta vastigintaj vastigintajn vastigintan vastiginte vastigis vastigita vastigitaj vastigitajn vastigitan vastigite vastigonta vastigontaj vastigontajn vastigontan vastigonte vastigos vastigu vastigus
+75	1875	konstruado	konstruadoj konstruadojn konstruadon
+76	1876	anstataŭi	anstataŭanta anstataŭantaj anstataŭantajn anstataŭantan anstataŭante anstataŭanto anstataŭantoj anstataŭantojn anstataŭanton anstataŭas anstataŭata anstataŭataj anstataŭatajn anstataŭatan anstataŭate anstataŭinta anstataŭintaj anstataŭintajn anstataŭintan anstataŭinte anstataŭis anstataŭita anstataŭitaj anstataŭitajn anstataŭitan anstataŭite anstataŭonta anstataŭontaj anstataŭontajn anstataŭontan anstataŭonte anstataŭos anstataŭu anstataŭus
+77	1877	asociita	asociitaj asociitajn asociitan
+78	1878	poezio	poezioj poeziojn poezion
+79	1879	skribo	skriboj skribojn skribon
+80	1880	etaĝo	etaĝoj etaĝojn etaĝon
+81	1881	perfidi	perfidanta perfidantaj perfidantajn perfidantan perfidante perfidas perfidata perfidataj perfidatajn perfidatan perfidate perfidinta perfidintaj perfidintajn perfidintan perfidinte perfidis perfidita perfiditaj perfiditajn perfiditan perfidite perfidonta perfidontaj perfidontajn perfidontan perfidonte perfidos perfidu perfidus
+82	1882	arkitekturo	arkitekturoj arkitekturojn arkitekturon arĥitekturo
+83	1883	frukto	fruktoj fruktojn frukton
+84	1884	nutri	nutranta nutrantaj nutrantajn nutrantan nutrante nutranto nutras nutrata nutrataj nutratajn nutratan nutrate nutrinta nutrintaj nutrintajn nutrintan nutrinte nutris nutrita nutritaj nutritajn nutritan nutrite nutronta nutrontaj nutrontajn nutrontan nutronte nutros nutru nutrus
+85	1885	anĝelo	anĝeloj anĝelojn anĝelon
+86	1886	bato	batoj batojn baton
+87	1887	insisti	insistanta insistantaj insistantajn insistantan insistante insistas insistinta insistintaj insistintajn insistintan insistinte insistis insistonta insistontaj insistontajn insistontan insistonte insistos insistu insistus
+88	1888	oficiale	
+89	1889	justa	justaj justajn justan
+90	1890	kuraĝi	kuraĝanta kuraĝantaj kuraĝantajn kuraĝantan kuraĝante kuraĝas kuraĝinta kuraĝintaj kuraĝintajn kuraĝintan kuraĝinte kuraĝis kuraĝonta kuraĝontaj kuraĝontajn kuraĝontan kuraĝonte kuraĝos kuraĝu kuraĝus
+91	1891	malrapida	malrapidaj malrapidajn malrapidan
+92	1892	drinki	drinkanta drinkantaj drinkantajn drinkantan drinkante drinkas drinkinta drinkintaj drinkintajn drinkintan drinkinte drinkis drinkonta drinkontaj drinkontajn drinkontan drinkonte drinkos drinku drinkus
+93	1893	eluzi	eluzanta eluzantaj eluzantajn eluzantan eluzante eluzas eluzata eluzataj eluzatajn eluzatan eluzate eluzinta eluzintaj eluzintajn eluzintan eluzinte eluzis eluzita eluzitaj eluzitajn eluzitan eluzite eluzonta eluzontaj eluzontajn eluzontan eluzonte eluzos eluzu eluzus
+94	1894	relativa	relativaj relativajn relativan
+95	1895	fero	feroj ferojn feron
+96	1896	rando	randoj randojn randon
+97	1897	debato	debatoj debatojn debaton
+98	1898	viruso	virusoj virusojn viruson
+99	1899	justeco	justecoj justecojn justecon
+100	1900	esence	

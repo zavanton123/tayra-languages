@@ -1,0 +1,100 @@
+1	4601	triangulo	trianguloj triangulojn triangulon
+2	4602	busto	bustoj bustojn buston
+3	4603	funebro	funebroj funebrojn funebron
+4	4604	kuirarto	kuirartoj kuirartojn kuirarton
+5	4605	peka	pekaj pekajn pekan
+6	4606	akvario	akvarioj akvariojn akvarion
+7	4607	koŝmaro	koŝmaroj koŝmarojn koŝmaron
+8	4608	fianĉo	fianĉoj fianĉojn fianĉon
+9	4609	atombombo	atombomboj atombombojn atombombon
+10	4610	glate	
+11	4611	envolvi	envolvanta envolvantaj envolvantajn envolvantan envolvante envolvas envolvata envolvataj envolvatajn envolvatan envolvate envolvinta envolvintaj envolvintajn envolvintan envolvinte envolvis envolvita envolvitaj envolvitajn envolvitan envolvite envolvonta envolvontaj envolvontajn envolvontan envolvonte envolvos envolvu envolvus
+12	4612	gvidisto	gvidistoj gvidistojn gvidiston
+13	4613	denaska	denaskaj denaskajn denaskan
+14	4614	svarmi	svarmanta svarmantaj svarmantajn svarmantan svarmante svarmas svarminta svarmintaj svarmintajn svarmintan svarminte svarmis svarmonta svarmontaj svarmontajn svarmontan svarmonte svarmos svarmu svarmus
+15	4615	ofendo	ofendoj ofendojn ofendon
+16	4616	malavara	malavaraj malavarajn malavaran
+17	4617	skribotablo	skribotabloj skribotablojn skribotablon skribtablon
+18	4618	radaro	radaroj radarojn radaron
+19	4619	buklo	bukloj buklojn buklon
+20	4620	vundebla	vundeblaj vundeblajn vundeblan
+21	4621	admiranto	admirantoj admirantojn admiranton
+22	4622	instinkto	instinktoj instinktojn instinkton
+23	4623	insulto	insultoj insultojn insulton
+24	4624	etoso	etosoj etosojn etoson
+25	4625	velo	veloj velojn velon
+26	4626	fidindeco	fidindecoj fidindecojn fidindecon
+27	4627	trompo	trompoj trompojn trompon
+28	4628	ĉizi	ĉizanta ĉizantaj ĉizantajn ĉizantan ĉizante ĉizas ĉizata ĉizataj ĉizatajn ĉizatan ĉizate ĉizinta ĉizintaj ĉizintajn ĉizintan ĉizinte ĉizis ĉizita ĉizitaj ĉizitajn ĉizitan ĉizite ĉizonta ĉizontaj ĉizontajn ĉizontan ĉizonte ĉizos ĉizu ĉizus
+29	4629	absurda	absurdaj absurdajn absurdan
+30	4630	kapro	kaproj kaprojn kapron
+31	4631	fronta	frontaj frontajn frontan
+32	4632	ŝveli	ŝvelanta ŝvelantaj ŝvelantajn ŝvelantan ŝvelante ŝvelas ŝvelinta ŝvelintaj ŝvelintajn ŝvelintan ŝvelinte ŝvelis ŝvelonta ŝvelontaj ŝvelontajn ŝvelontan ŝvelonte ŝvelos ŝvelu ŝvelus
+33	4633	necerteco	necertecoj necertecojn necertecon
+34	4634	muĝi	muĝanta muĝantaj muĝantajn muĝantan muĝante muĝas muĝinta muĝintaj muĝintajn muĝintan muĝinte muĝis muĝonta muĝontaj muĝontajn muĝontan muĝonte muĝos muĝu muĝus
+35	4635	fatala	fatalaj fatalajn fatalan
+36	4636	senespera	senesperaj senesperajn senesperan
+37	4637	vidaĵo	vidaĵoj vidaĵojn vidaĵon
+38	4638	rasismo	rasismon
+39	4639	kaŝa	kaŝaj kaŝajn kaŝan
+40	4640	rondiri	rondiranta rondirantaj rondirantajn rondirantan rondirante rondiras rondirinta rondirintaj rondirintajn rondirintan rondirinte rondiris rondironta rondirontaj rondirontajn rondirontan rondironte rondiros rondiru rondirus
+41	4641	antaŭurbo	antaŭurboj antaŭurbojn antaŭurbon
+42	4642	brando	brandoj brandojn brandon
+43	4643	ĝermo	ĝermoj ĝermojn ĝermon
+44	4644	siria	siriaj siriajn sirian
+45	4645	rasa	rasaj rasajn rasan
+46	4646	alsendi	alsendanta alsendantaj alsendantajn alsendantan alsendante alsendas alsendata alsendataj alsendatajn alsendatan alsendate alsendinta alsendintaj alsendintajn alsendintan alsendinte alsendis alsendita alsenditaj alsenditajn alsenditan alsendite alsendonta alsendontaj alsendontajn alsendontan alsendonte alsendos alsendu alsendus
+47	4647	bolŝeviko	bolŝevikoj bolŝevikojn bolŝevikon
+48	4648	mutacii	mutacianta mutaciantaj mutaciantajn mutaciantan mutaciante mutacias mutaciinta mutaciintaj mutaciintajn mutaciintan mutaciinte mutaciintoj mutaciis mutacionta mutaciontaj mutaciontajn mutaciontan mutacionte mutacios mutaciu mutacius
+49	4649	pumpilo	pumpiloj pumpilojn pumpilon
+50	4650	sunbrilo	sunbriloj sunbrilojn sunbrilon
+51	4651	insigno	insignoj insignojn insignon
+52	4652	prestiĝa	prestiĝaj prestiĝajn prestiĝan
+53	4653	bapti	baptanta baptantaj baptantajn baptantan baptante baptas baptata baptataj baptatajn baptatan baptate baptinta baptintaj baptintajn baptintan baptinte baptis baptita baptitaj baptitajn baptitan baptite baptonta baptontaj baptontajn baptontan baptonte baptos baptu baptus
+54	4654	korpoparto	korpopartoj korpopartojn korpoparton
+55	4655	mielo	mieloj mielojn mielon
+56	4656	junaĝo	junaĝoj junaĝojn junaĝon
+57	4657	flustri	flustranta flustrantaj flustrantajn flustrantan flustrante flustrantoj flustras flustrata flustrataj flustratajn flustratan flustrate flustrinta flustrintaj flustrintajn flustrintan flustrinte flustris flustrita flustritaj flustritajn flustritan flustrite flustronta flustrontaj flustrontajn flustrontan flustronte flustros flustru flustrus
+58	4658	gravuri	gravuranta gravurantaj gravurantajn gravurantan gravurante gravuras gravurata gravurataj gravuratajn gravuratan gravurate gravurinta gravurintaj gravurintajn gravurintan gravurinte gravuris gravurita gravuritaj gravuritajn gravuritan gravurite gravuronta gravurontaj gravurontajn gravurontan gravuronte gravuros gravuru gravurus
+59	4659	spiralo	spiraloj spiralojn spiralon
+60	4660	atenta	atentaj atentajn atentan
+61	4661	triumfo	triumfoj triumfojn triumfon
+62	4662	kono	konoj konojn konon
+63	4663	magazeno	magazenoj magazenojn magazenon
+64	4664	digno	dignoj dignojn dignon
+65	4665	baloto	balotoj balotojn baloton
+66	4666	anonima	anonimaj anonimajn anoniman
+67	4667	aŭguri	aŭguranta aŭgurantaj aŭgurantajn aŭgurantan aŭgurante aŭguras aŭgurinta aŭgurintaj aŭgurintajn aŭgurintan aŭgurinte aŭguris aŭguronta aŭgurontaj aŭgurontajn aŭgurontan aŭguronte aŭguros aŭguru aŭgurus
+68	4668	triopo	triopoj triopojn triopon
+69	4669	mizero	mizeroj mizerojn mizeron
+70	4670	plasmo	plasmoj plasmojn plasmon
+71	4671	kraĉi	kraĉanta kraĉantaj kraĉantajn kraĉantan kraĉante kraĉas kraĉinta kraĉintaj kraĉintajn kraĉintan kraĉinte kraĉis kraĉonta kraĉontaj kraĉontajn kraĉontan kraĉonte kraĉos kraĉu kraĉus
+72	4672	eliĝi	eliĝanta eliĝantaj eliĝantajn eliĝantan eliĝante eliĝas eliĝinta eliĝintaj eliĝintajn eliĝintan eliĝinte eliĝis eliĝonta eliĝontaj eliĝontajn eliĝontan eliĝonte eliĝos eliĝu eliĝus
+73	4673	luko	lukoj lukojn lukon
+74	4674	glaciaĵo	glaciaĵoj glaciaĵojn glaciaĵon
+75	4675	postkuri	postkuranta postkurantaj postkurantajn postkurantan postkurante postkuras postkurata postkurataj postkuratajn postkuratan postkurate postkurinta postkurintaj postkurintajn postkurintan postkurinte postkuris postkurita postkuritaj postkuritajn postkuritan postkurite postkuronta postkurontaj postkurontajn postkurontan postkuronte postkuros postkuru postkurus
+76	4676	arda	ardaj ardajn ardan
+77	4677	pagana	paganaj paganajn paganan
+78	4678	kortego	kortegoj kortegojn kortegon
+79	4679	deklami	deklamanta deklamantaj deklamantajn deklamantan deklamante deklamas deklamata deklamataj deklamatajn deklamatan deklamate deklaminta deklamintaj deklamintajn deklamintan deklaminte deklamis deklamita deklamitaj deklamitajn deklamitan deklamite deklamonta deklamontaj deklamontajn deklamontan deklamonte deklamos deklamu deklamus
+80	4680	komprenado	komprenadoj komprenadojn komprenadon
+81	4681	neŭtrono	neŭtronoj neŭtronojn neŭtronon
+82	4682	dogano	doganoj doganojn doganon
+83	4683	subvencio	subvencioj subvenciojn subvencion
+84	4684	delikto	deliktoj deliktojn delikton
+85	4685	junularo	junularoj junularojn junularon
+86	4686	insula	insulaj insulajn insulan
+87	4687	froti	frotanta frotantaj frotantajn frotantan frotante frotas frotata frotataj frotatajn frotatan frotate frotinta frotintaj frotintajn frotintan frotinte frotis frotita frotitaj frotitajn frotitan frotite frotonta frotontaj frotontajn frotontan frotonte frotos frotu frotus
+88	4688	malgrandega	malgrandegaj malgrandegajn malgrandegan
+89	4689	printempa	printempaj printempajn printempan
+90	4690	malsovaĝa	malsovaĝaj malsovaĝajn malsovaĝan
+91	4691	usonano	usonanoj usonanojn usonanon
+92	4692	frateco	fratecoj fratecojn fratecon
+93	4693	nitrogeno	nitrogenoj nitrogenojn nitrogenon
+94	4694	komplementa	komplementaj komplementajn komplementan
+95	4695	akurate	
+96	4696	sesdek	
+97	4697	malprofunda	malprofundaj malprofundajn malprofundan
+98	4698	retpoŝto	retpoŝtoj retpoŝtojn retpoŝton
+99	4699	pikselo	pikseloj pikselojn pikselon
+100	4700	seanco	seancoj seancojn seancon

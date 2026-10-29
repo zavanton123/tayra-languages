@@ -1,0 +1,100 @@
+1	4201	demonstri	demonstranta demonstrantaj demonstrantajn demonstrantan demonstrante demonstrantojn demonstras demonstrinta demonstrintaj demonstrintajn demonstrintan demonstrinte demonstris demonstronta demonstrontaj demonstrontajn demonstrontan demonstronte demonstros demonstru demonstrus
+2	4202	estigi	estiganta estigantaj estigantajn estigantan estigante estigas estigata estigataj estigatajn estigatan estigate estiginta estigintaj estigintajn estigintan estiginte estigis estigita estigitaj estigitajn estigitan estigite estigonta estigontaj estigontajn estigontan estigonte estigos estigu estigus
+3	4203	mane	
+4	4204	piramido	piramidoj piramidojn piramidon
+5	4205	akuta	akutaj akutajn akutan
+6	4206	kurba	kurbaj kurbajn kurban
+7	4207	nordano	nordanoj nordanojn nordanon
+8	4208	poto	potoj potojn poton
+9	4209	noktomezo	noktomezoj noktomezojn noktomezon
+10	4210	facileco	facilecoj facilecojn facilecon
+11	4211	malligi	malliganta malligantaj malligantajn malligantan malligante malligas malligata malligataj malligatajn malligatan malligate malliginta malligintaj malligintajn malligintan malliginte malligis malligita malligitaj malligitajn malligitan malligite malligonta malligontaj malligontajn malligontan malligonte malligos malligu malligus
+12	4212	epidemio	epidemioj epidemiojn epidemion
+13	4213	stabo	staboj stabojn stabon
+14	4214	postresti	postrestanta postrestantaj postrestantajn postrestantan postrestante postrestas postrestinta postrestintaj postrestintajn postrestintan postrestinte postrestis postrestonta postrestontaj postrestontajn postrestontan postrestonte postrestos postrestu postrestus
+15	4215	timiga	timigaj timigajn timigan
+16	4216	flori	floranta florantaj florantajn florantan florante floras florinta florintaj florintajn florintan florinte floris floronta florontaj florontajn florontan floronte floros floru florus
+17	4217	zorgema	zorgemaj zorgemajn zorgeman
+18	4218	unuopa	unuopaj unuopajn unuopan
+19	4219	sudokcidenta	sudokcidentaj sudokcidentajn sudokcidentan
+20	4220	adiaŭa	adiaŭaj adiaŭajn adiaŭan
+21	4221	piki	pikanta pikantaj pikantajn pikantan pikante pikas pikata pikataj pikatajn pikatan pikate pikinta pikintaj pikintajn pikintan pikinte pikis pikita pikitaj pikitajn pikitan pikite pikonta pikontaj pikontajn pikontan pikonte pikos piku pikus
+22	4222	ŝranko	ŝrankoj ŝrankojn ŝrankon
+23	4223	kodekso	kodeksoj kodeksojn kodekson
+24	4224	aŭtenta	aŭtentaj aŭtentajn aŭtentan aŭtentika aŭtentikaj
+25	4225	banano	bananoj bananojn bananon
+26	4226	alpreni	alprenanta alprenantaj alprenantajn alprenantan alprenante alprenas alprenata alprenataj alprenatajn alprenatan alprenate alpreninta alprenintaj alprenintajn alprenintan alpreninte alprenis alprenita alprenitaj alprenitajn alprenitan alprenite alprenonta alprenontaj alprenontajn alprenontan alprenonte alprenos alprenu alprenus
+27	4227	gasti	gastanta gastantaj gastantajn gastantan gastante gastas gastinta gastintaj gastintajn gastintan gastinte gastis gastonta gastontaj gastontajn gastontan gastonte gastos gastu gastus
+28	4228	ĝemi	ĝemanta ĝemantaj ĝemantajn ĝemantan ĝemante ĝemas ĝeminta ĝemintaj ĝemintajn ĝemintan ĝeminte ĝemis ĝemonta ĝemontaj ĝemontajn ĝemontan ĝemonte ĝemos ĝemu ĝemus
+29	4229	malvarmiĝi	malvarmiĝanta malvarmiĝantaj malvarmiĝantajn malvarmiĝantan malvarmiĝante malvarmiĝas malvarmiĝinta malvarmiĝintaj malvarmiĝintajn malvarmiĝintan malvarmiĝinte malvarmiĝis malvarmiĝonta malvarmiĝontaj malvarmiĝontajn malvarmiĝontan malvarmiĝonte malvarmiĝos malvarmiĝu malvarmiĝus
+30	4230	delogi	deloganta delogantaj delogantajn delogantan delogante delogas delogata delogataj delogatajn delogatan delogate deloginta delogintaj delogintajn delogintan deloginte delogis delogita delogitaj delogitajn delogitan delogite delogonta delogontaj delogontajn delogontan delogonte delogos delogu delogus
+31	4231	gastamo	gastamoj gastamojn gastamon
+32	4232	trista	tristaj tristajn tristan
+33	4233	motorciklo	motorcikloj motorciklojn motorciklon
+34	4234	matrico	matricoj matricojn matricon
+35	4235	ĉirkaŭiri	ĉirkaŭiranta ĉirkaŭirantaj ĉirkaŭirantajn ĉirkaŭirantan ĉirkaŭirante ĉirkaŭiras ĉirkaŭirinta ĉirkaŭirintaj ĉirkaŭirintajn ĉirkaŭirintan ĉirkaŭirinte ĉirkaŭiris ĉirkaŭironta ĉirkaŭirontaj ĉirkaŭirontajn ĉirkaŭirontan ĉirkaŭironte ĉirkaŭiros ĉirkaŭiru ĉirkaŭirus
+36	4236	semo	semoj semojn semon
+37	4237	lernolibro	lernolibroj lernolibrojn lernolibron
+38	4238	necerta	necertaj necertajn necertan
+39	4239	bildstrio	bildstrioj bildstriojn bildstrion
+40	4240	hoj	
+41	4241	tiuokaze	
+42	4242	ĉies	
+43	4243	deklivo	deklivoj deklivojn deklivon
+44	4244	ekapero	ekaperoj ekaperojn ekaperon
+45	4245	facili	facilanta facilantaj facilantajn facilantan facilante facilas facilinta facilintaj facilintajn facilintan facilinte facilis facilonta facilontaj facilontajn facilontan facilonte facilos facilu facilus
+46	4246	barko	barkoj barkojn barkon
+47	4247	honorario	honorarioj honorariojn honorarion
+48	4248	pala	palaj palajn palan
+49	4249	baleno	balenoj balenojn balenon
+50	4250	tigro	tigroj tigrojn tigron
+51	4251	kulpa	kulpaj kulpajn kulpan
+52	4252	ektimi	ektimanta ektimantaj ektimantajn ektimantan ektimante ektimas ektiminta ektimintaj ektimintajn ektimintan ektiminte ektimis ektimonta ektimontaj ektimontajn ektimontan ektimonte ektimos ektimu ektimus
+53	4253	komprenigi	kompreniganta komprenigantaj komprenigantajn komprenigantan komprenigante komprenigas komprenigata komprenigataj komprenigatajn komprenigatan komprenigate kompreniginta komprenigintaj komprenigintajn komprenigintan kompreniginte komprenigis komprenigita komprenigitaj komprenigitajn komprenigitan komprenigite komprenigonta komprenigontaj komprenigontajn komprenigontan komprenigonte komprenigos komprenigu komprenigus
+54	4254	aliokaze	
+55	4255	pasia	pasiaj pasiajn pasian
+56	4256	peticio	peticioj peticiojn peticion
+57	4257	simboli	simbolanta simbolantaj simbolantajn simbolantan simbolante simbolas simbolata simbolataj simbolatajn simbolatan simbolate simbolinta simbolintaj simbolintajn simbolintan simbolinte simbolis simbolita simbolitaj simbolitajn simbolitan simbolite simbolonta simbolontaj simbolontajn simbolontan simbolonte simbolos simbolu simbolus
+58	4258	demisii	demisias demisiis demisius
+59	4259	magistrato	magistratoj magistratojn magistraton
+60	4260	komika	komikaj komikajn komikan
+61	4261	ulino	ulinoj ulinojn ulinon
+62	4262	misiisto	misiistoj misiistojn misiiston
+63	4263	vorta	vortaj vortajn vortan
+64	4264	reaperi	reaperanta reaperantaj reaperantajn reaperantan reaperante reaperanto reaperantoj reaperanton reaperas reaperinta reaperintaj reaperintajn reaperintan reaperinte reaperis reaperonta reaperontaj reaperontajn reaperontan reaperonte reaperos reaperu reaperus
+65	4265	plenumo	plenumoj plenumojn plenumon
+66	4266	teatra	teatraj teatrajn teatran
+67	4267	sepdek	
+68	4268	huligano	huliganoj huliganojn huliganon
+69	4269	mieno	mienoj mienojn mienon
+70	4270	furzo	furzoj furzojn furzon
+71	4271	urini	urinanta urinantaj urinantajn urinantan urinante urinas urininta urinintaj urinintajn urinintan urininte urinis urinonta urinontaj urinontajn urinontan urinonte urinos urinu urinus
+72	4272	postsekvi	postsekvanta postsekvantaj postsekvantajn postsekvantan postsekvante postsekvas postsekvata postsekvataj postsekvatajn postsekvatan postsekvate postsekvinta postsekvintaj postsekvintajn postsekvintan postsekvinte postsekvis postsekvita postsekvitaj postsekvitajn postsekvitan postsekvite postsekvonta postsekvontaj postsekvontajn postsekvontan postsekvonte postsekvos postsekvu postsekvus
+73	4273	fekaĵo	fekaĵoj fekaĵojn fekaĵon
+74	4274	postmorgaŭ	
+75	4275	mallaŭte	
+76	4276	tricent	
+77	4277	malsekiĝi	malsekiĝanta malsekiĝantaj malsekiĝantajn malsekiĝantan malsekiĝante malsekiĝas malsekiĝinta malsekiĝintaj malsekiĝintajn malsekiĝintan malsekiĝinte malsekiĝis malsekiĝonta malsekiĝontaj malsekiĝontajn malsekiĝontan malsekiĝonte malsekiĝos malsekiĝu malsekiĝus
+78	4278	malico	malicoj malicojn malicon
+79	4279	rekompenco	rekompencoj rekompencojn rekompencon
+80	4280	bovlo	bovloj bovlojn bovlon
+81	4281	aŭdaca	aŭdacaj aŭdacajn aŭdacan
+82	4282	formorto	formortoj formortojn formorton
+83	4283	monpuno	monpunoj monpunojn monpunon
+84	4284	ekonomie	
+85	4285	suvereneco	suverenecoj suverenecojn suverenecon
+86	4286	cilindro	cilindroj cilindrojn cilindron
+87	4287	vestiblo	vestibloj vestiblojn vestiblon
+88	4288	allasi	allasanta allasantaj allasantajn allasantan allasante allasas allasata allasataj allasatajn allasatan allasate allasinta allasintaj allasintajn allasintan allasinte allasis allasita allasitaj allasitajn allasitan allasite allasonta allasontaj allasontajn allasontan allasonte allasos allasu allasus
+89	4289	urino	urinoj urinojn urinon
+90	4290	prefikso	prefiksoj prefiksojn prefikson
+91	4291	malklara	malklaraj malklarajn malklaran
+92	4292	milde	
+93	4293	vintra	vintraj vintrajn vintran
+94	4294	aneksi	aneksanta aneksantaj aneksantajn aneksantan aneksante aneksas aneksata aneksataj aneksatajn aneksatan aneksate aneksinta aneksintaj aneksintajn aneksintan aneksinte aneksis aneksita aneksitaj aneksitajn aneksitan aneksite aneksonta aneksontaj aneksontajn aneksontan aneksonte aneksos aneksu aneksus
+95	4295	gesto	gestoj gestojn geston
+96	4296	biografio	biografioj biografiojn biografion
+97	4297	informa	informaj informajn informan
+98	4298	herba	herbaj herbajn herban
+99	4299	kardinalo	kardinaloj kardinalojn kardinalon
+100	4300	na	

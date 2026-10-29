@@ -1,0 +1,100 @@
+1	4301	bicikli	biciklanta biciklantaj biciklantajn biciklantan biciklante biciklanto biciklantoj biciklantojn biciklas biciklinta biciklintaj biciklintajn biciklintan biciklinte biciklis biciklonta biciklontaj biciklontajn biciklontan biciklonte biciklos biciklu biciklus
+2	4302	kriegi	krieganta kriegantaj kriegantajn kriegantan kriegante kriegas kriegata kriegataj kriegatajn kriegatan kriegate krieginta kriegintaj kriegintajn kriegintan krieginte kriegis kriegita kriegitaj kriegitajn kriegitan kriegite kriegonta kriegontaj kriegontajn kriegontan kriegonte kriegos kriegu kriegus
+3	4303	sanktigi	sanktiganta sanktigantaj sanktigantajn sanktigantan sanktigante sanktigas sanktigata sanktigataj sanktigatajn sanktigatan sanktigate sanktiginta sanktigintaj sanktigintajn sanktigintan sanktiginte sanktigis sanktigita sanktigitaj sanktigitajn sanktigitan sanktigite sanktigonta sanktigontaj sanktigontajn sanktigontan sanktigonte sanktigos sanktigu sanktigus
+4	4304	televida	televidaj televidajn televidan
+5	4305	afiŝo	afiŝoj afiŝojn afiŝon
+6	4306	tablojdo	tablojdoj tablojdojn tablojdon
+7	4307	agresema	agresemaj agresemajn agreseman
+8	4308	geometria	geometriaj geometriajn geometrian
+9	4309	milimetro	milimetroj milimetrojn milimetron
+10	4310	dise	
+11	4311	geedzoj	geedzojn
+12	4312	bazaro	bazaroj bazarojn bazaron
+13	4313	geedzeco	geedzecoj geedzecojn geedzecon
+14	4314	ekosistemo	ekosistemoj ekosistemojn ekosistemon
+15	4315	verkado	verkadoj verkadojn verkadon
+16	4316	aerumi	aerumanta aerumantaj aerumantajn aerumantan aerumante aerumas aerumata aerumataj aerumatajn aerumatan aerumate aeruminta aerumintaj aerumintajn aerumintan aeruminte aerumis aerumita aerumitaj aerumitajn aerumitan aerumite aerumonta aerumontaj aerumontajn aerumontan aerumonte aerumos aerumu aerumus
+17	4317	reeniri	reeniranta reenirantaj reenirantajn reenirantan reenirante reeniras reenirinta reenirintaj reenirintajn reenirintan reenirinte reeniris reenironta reenirontaj reenirontajn reenirontan reenironte reeniros reeniru reenirus
+18	4318	livero	liveroj liverojn liveron
+19	4319	senfine	
+20	4320	ŝoki	ŝokanta ŝokantaj ŝokantajn ŝokantan ŝokante ŝokas ŝokata ŝokataj ŝokatajn ŝokatan ŝokate ŝokinta ŝokintaj ŝokintajn ŝokintan ŝokinte ŝokis ŝokita ŝokitaj ŝokitajn ŝokitan ŝokite ŝokonta ŝokontaj ŝokontajn ŝokontan ŝokonte ŝokos ŝoku ŝokus
+21	4321	sunsubiro	sunsubiroj sunsubirojn sunsubiron
+22	4322	kano	kanoj kanojn kanon
+23	4323	meso	mesoj mesojn meson
+24	4324	balanci	balancanta balancantaj balancantajn balancantan balancante balancas balancata balancataj balancatajn balancatan balancate balancinta balancintaj balancintajn balancintan balancinte balancis balancita balancitaj balancitajn balancitan balancite balanconta balancontaj balancontajn balancontan balanconte balancos balancu balancus
+25	4325	kanceliero	kancelieroj kancelierojn kancelieron
+26	4326	almozo	almozoj almozojn almozon
+27	4327	grenado	grenadoj grenadojn grenadon
+28	4328	rabo	raboj rabojn rabon
+29	4329	aboni	abonanta abonantaj abonantajn abonantan abonante abonanto abonantoj abonantojn abonas abonata abonataj abonatajn abonatan abonate aboninta abonintaj abonintajn abonintan aboninte abonis abonita abonitaj abonitajn abonitan abonite abononta abonontaj abonontajn abonontan abononte abonos abonu abonus
+30	4330	arabo	araboj arabojn arabon
+31	4331	faruno	farunoj farunojn farunon
+32	4332	plimalbonigi	plimalboniganta plimalbonigantaj plimalbonigantajn plimalbonigantan plimalbonigante plimalbonigas plimalbonigata plimalbonigataj plimalbonigatajn plimalbonigatan plimalbonigate plimalboniginta plimalbonigintaj plimalbonigintajn plimalbonigintan plimalboniginte plimalbonigis plimalbonigita plimalbonigitaj plimalbonigitajn plimalbonigitan plimalbonigite plimalbonigonta plimalbonigontaj plimalbonigontajn plimalbonigontan plimalbonigonte plimalbonigos plimalbonigu plimalbonigus
+33	4333	movebla	moveblaj moveblajn moveblan
+34	4334	rotacia	rotaciaj rotaciajn rotacian
+35	4335	ansero	anseroj anserojn anseron
+36	4336	embaraso	embarasoj embarasojn embarason
+37	4337	sakramento	sakramentoj sakramentojn sakramenton
+38	4338	anarkiisto	anarkiistoj anarkiistojn anarkiiston anarĥiistoj
+39	4339	rampi	rampanta rampantaj rampantajn rampantan rampante rampas rampinta rampintaj rampintajn rampintan rampinte rampis ramponta rampontaj rampontajn rampontan ramponte rampos rampu rampus
+40	4340	cimo	cimoj cimojn cimon
+41	4341	organiza	organizaj organizajn organizan
+42	4342	legio	legioj legiojn legion
+43	4343	eŭro	eŭroj eŭrojn eŭron
+44	4344	koincidi	koincidanta koincidantaj koincidantajn koincidantan koincidante koincidas koincidinta koincidintaj koincidintajn koincidintan koincidinte koincidis koincidonta koincidontaj koincidontajn koincidontan koincidonte koincidos koincidu koincidus
+45	4345	teroristo	teroristoj teroristojn teroriston
+46	4346	alternative	
+47	4347	kapto	kaptoj kaptojn kapton
+48	4348	sangi	sanganta sangantaj sangantajn sangantan sangante sangas sanginta sangintaj sangintajn sangintan sanginte sangis sangonta sangontaj sangontajn sangontan sangonte sangos sangu sangus
+49	4349	heziti	hezitanta hezitantaj hezitantajn hezitantan hezitante hezitas hezitinta hezitintaj hezitintajn hezitintan hezitinte hezitis hezitonta hezitontaj hezitontajn hezitontan hezitonte hezitos hezitu hezitus
+50	4350	takto	taktoj taktojn takton
+51	4351	alĝustigi	alĝustiganta alĝustigantaj alĝustigantajn alĝustigantan alĝustigante alĝustigas alĝustigata alĝustigataj alĝustigatajn alĝustigatan alĝustigate alĝustiginta alĝustigintaj alĝustigintajn alĝustigintan alĝustiginte alĝustigis alĝustigita alĝustigitaj alĝustigitajn alĝustigitan alĝustigite alĝustigonta alĝustigontaj alĝustigontajn alĝustigontan alĝustigonte alĝustigos alĝustigu alĝustigus
+52	4352	fontano	fontanoj fontanojn fontanon
+53	4353	montara	montaraj montarajn montaran
+54	4354	arbitra	arbitraj arbitrajn arbitran
+55	4355	skizi	skizanta skizantaj skizantajn skizantan skizante skizas skizata skizataj skizatajn skizatan skizate skizinta skizintaj skizintajn skizintan skizinte skizinto skizintoj skizis skizita skizitaj skizitajn skizitan skizite skizonta skizontaj skizontajn skizontan skizonte skizos skizu skizus
+56	4356	gitaro	gitaroj gitarojn gitaron
+57	4357	civilizacio	civilizacioj
+58	4358	sveni	svenanta svenantaj svenantajn svenantan svenante svenas sveninta svenintaj svenintajn svenintan sveninte svenis svenonta svenontaj svenontajn svenontan svenonte svenos svenu svenus
+59	4359	rompo	rompoj rompojn rompon
+60	4360	strangoli	strangolanta strangolantaj strangolantajn strangolantan strangolante strangolas strangolinta strangolintaj strangolintajn strangolintan strangolinte strangolis strangolonta strangolontaj strangolontajn strangolontan strangolonte strangolos strangolu strangolus
+61	4361	broso	brosoj brosojn broson
+62	4362	sensignifa	sensignifaj sensignifajn sensignifan
+63	4363	baseno	basenoj basenojn basenon
+64	4364	kurento	kurentoj kurentojn kurenton
+65	4365	monta	montaj montajn montan
+66	4366	klavaro	klavaroj klavarojn klavaron
+67	4367	interrompo	interrompoj interrompojn interrompon
+68	4368	dekreto	dekretoj dekretojn dekreton
+69	4369	akcelo	akceloj akcelojn akcelon
+70	4370	eksterlando	eksterlandoj eksterlandojn eksterlandon
+71	4371	plenluno	plenlunoj plenlunojn plenlunon
+72	4372	erare	
+73	4373	reale	
+74	4374	konko	konkoj konkojn konkon
+75	4375	kudri	kudranta kudrantaj kudrantajn kudrantan kudrante kudras kudrata kudrataj kudratajn kudratan kudrate kudrinta kudrintaj kudrintajn kudrintan kudrinte kudris kudrita kudritaj kudritajn kudritan kudrite kudronta kudrontaj kudrontajn kudrontan kudronte kudros kudru kudrus
+76	4376	eksperimenti	eksperimentanta eksperimentantaj eksperimentantajn eksperimentantan eksperimentante eksperimentas eksperimentata eksperimentataj eksperimentatajn eksperimentatan eksperimentate eksperimentinta eksperimentintaj eksperimentintajn eksperimentintan eksperimentinte eksperimentis eksperimentita eksperimentitaj eksperimentitajn eksperimentitan eksperimentite eksperimentonta eksperimentontaj eksperimentontajn eksperimentontan eksperimentonte eksperimentos eksperimentu eksperimentus
+77	4377	stimulo	stimuloj stimulojn stimulon
+78	4378	empiria	empiriaj empiriajn empirian
+79	4379	suĉi	suĉanta suĉantaj suĉantajn suĉantan suĉante suĉas suĉata suĉataj suĉatajn suĉatan suĉate suĉinta suĉintaj suĉintajn suĉintan suĉinte suĉis suĉita suĉitaj suĉitajn suĉitan suĉite suĉonta suĉontaj suĉontajn suĉontan suĉonte suĉos suĉu suĉus
+80	4380	trie	
+81	4381	pere	
+82	4382	komforta	komfortaj komfortajn komfortan
+83	4383	video	videoj videojn videon
+84	4384	kompleto	kompletoj kompletojn kompleton
+85	4385	mongola	mongolaj mongolajn mongolan
+86	4386	geniulo	geniuloj geniulojn geniulon
+87	4387	klano	klanoj klanojn klanon
+88	4388	fondo	fondoj fondojn fondon
+89	4389	hela	helaj helajn helan
+90	4390	vakuo	vakuoj vakuojn vakuon
+91	4391	koncentri	koncentranta koncentrantaj koncentrantajn koncentrantan koncentrante koncentras koncentrata koncentrataj koncentratajn koncentratan koncentrate koncentrinta koncentrintaj koncentrintajn koncentrintan koncentrinte koncentris koncentrita koncentritaj koncentritajn koncentritan koncentrite koncentronta koncentrontaj koncentrontajn koncentrontan koncentronte koncentros koncentru koncentrus
+92	4392	areto	aretoj aretojn areton
+93	4393	soleca	solecaj solecajn solecan
+94	4394	taĉmento	taĉmentoj taĉmentojn taĉmenton
+95	4395	boli	bolanta bolantaj bolantajn bolantan bolante bolas bolinta bolintaj bolintajn bolintan bolinte bolis bolonta bolontaj bolontajn bolontan bolonte bolos bolu bolus
+96	4396	bakteria	bakteriaj bakteriajn bakterian
+97	4397	malakcepto	malakceptoj malakceptojn malakcepton
+98	4398	geometrio	geometrioj geometriojn geometrion
+99	4399	be	
+100	4400	tritiko	tritikoj tritikojn tritikon

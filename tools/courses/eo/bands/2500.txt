@@ -1,0 +1,100 @@
+1	2401	ĉiukaze	
+2	2402	validi	validanta validantaj validantajn validantan validante validas validinta validintaj validintajn validintan validinte validis validonta validontaj validontajn validontan validonte validos validu validus
+3	2403	plato	platoj platojn platon
+4	2404	sude	
+5	2405	variaĵo	variaĵoj variaĵojn variaĵon
+6	2406	triono	trionoj trionojn trionon
+7	2407	kristanismo	kristanismoj kristanismojn kristanismon
+8	2408	kvardek	
+9	2409	kulpigi	kulpiganta kulpigantaj kulpigantajn kulpigantan kulpigante kulpigas kulpigata kulpigataj kulpigatajn kulpigatan kulpigate kulpiginta kulpigintaj kulpigintajn kulpigintan kulpiginte kulpigis kulpigita kulpigitaj kulpigitajn kulpigitan kulpigite kulpigonta kulpigontaj kulpigontajn kulpigontan kulpigonte kulpigos kulpigu kulpigus
+10	2410	efiki	efikanta efikantaj efikantajn efikantan efikante efikas efikinta efikintaj efikintajn efikintan efikinte efikis efikonta efikontaj efikontajn efikontan efikonte efikos efiku efikus
+11	2411	kopii	kopianta kopiantaj kopiantajn kopiantan kopiante kopias kopiata kopiataj kopiatajn kopiatan kopiate kopiinta kopiintaj kopiintajn kopiintan kopiinte kopiis kopiita kopiitaj kopiitajn kopiitan kopiite kopionta kopiontaj kopiontajn kopiontan kopionte kopios kopiu kopius
+12	2412	ekstra	ekstraj ekstrajn ekstran
+13	2413	jesi	jesanta jesantaj jesantajn jesantan jesante jesas jesinta jesintaj jesintajn jesintan jesinte jesis jesonta jesontaj jesontajn jesontan jesonte jesos jesu jesus
+14	2414	fadeno	fadenoj fadenojn fadenon
+15	2415	prokrasti	prokrastanta prokrastantaj prokrastantajn prokrastantan prokrastante prokrastas prokrastata prokrastataj prokrastatajn prokrastatan prokrastate prokrastinta prokrastintaj prokrastintajn prokrastintan prokrastinte prokrastis prokrastita prokrastitaj prokrastitajn prokrastitan prokrastite prokrastonta prokrastontaj prokrastontajn prokrastontan prokrastonte prokrastos prokrastu prokrastus
+16	2416	blovi	blovanta blovantaj blovantajn blovantan blovante blovas blovata blovataj blovatajn blovatan blovate blovinta blovintaj blovintajn blovintan blovinte blovis blovita blovitaj blovitajn blovitan blovite blovonta blovontaj blovontajn blovontan blovonte blovos blovu blovus
+17	2417	partopreno	partoprenoj partoprenojn partoprenon
+18	2418	organika	organikaj organikajn organikan
+19	2419	kravato	kravatoj kravatojn kravaton
+20	2420	karto	kartoj kartojn karton
+21	2421	aŭtomate	
+22	2422	kolapsi	kolapsanta kolapsantaj kolapsantajn kolapsantan kolapsante kolapsas kolapsata kolapsataj kolapsatajn kolapsatan kolapsate kolapsinta kolapsintaj kolapsintajn kolapsintan kolapsinte kolapsis kolapsita kolapsitaj kolapsitajn kolapsitan kolapsite kolapsonta kolapsontaj kolapsontajn kolapsontan kolapsonte kolapsos kolapsu kolapsus
+23	2423	geno	genoj genojn genon
+24	2424	kontentigi	kontentiganta kontentigantaj kontentigantajn kontentigantan kontentigante kontentigas kontentigata kontentigataj kontentigatajn kontentigatan kontentigate kontentiginta kontentigintaj kontentigintajn kontentigintan kontentiginte kontentigis kontentigita kontentigitaj kontentigitajn kontentigitan kontentigite kontentigonta kontentigontaj kontentigontajn kontentigontan kontentigonte kontentigos kontentigu kontentigus
+25	2425	malsupreniri	malsupreniranta malsuprenirantaj malsuprenirantajn malsuprenirantan malsuprenirante malsupreniras malsuprenirinta malsuprenirintaj malsuprenirintajn malsuprenirintan malsuprenirinte malsupreniris malsuprenironta malsuprenirontaj malsuprenirontajn malsuprenirontan malsuprenironte malsupreniros malsupreniru malsuprenirus
+26	2426	kunigi	kuniganta kunigantaj kunigantajn kunigantan kunigante kunigas kunigata kunigataj kunigatajn kunigatan kunigate kuniginta kunigintaj kunigintajn kunigintan kuniginte kunigis kunigita kunigitaj kunigitajn kunigitan kunigite kunigonta kunigontaj kunigontajn kunigontan kunigonte kunigos kunigu kunigus
+27	2427	rikolti	rikoltanta rikoltantaj rikoltantajn rikoltantan rikoltante rikoltas rikoltata rikoltataj rikoltatajn rikoltatan rikoltate rikoltinta rikoltintaj rikoltintajn rikoltintan rikoltinte rikoltis rikoltita rikoltitaj rikoltitajn rikoltitan rikoltite rikoltonta rikoltontaj rikoltontajn rikoltontan rikoltonte rikoltos rikoltu rikoltus
+28	2428	bari	baranta barantaj barantajn barantan barante baras barata barataj baratajn baratan barate barato barinta barintaj barintajn barintan barinte baris barita baritaj baritajn baritan barite baritoj baronta barontaj barontajn barontan baronte baros baru barus
+29	2429	absorbi	absorbanta absorbantaj absorbantajn absorbantan absorbante absorbas absorbata absorbataj absorbatajn absorbatan absorbate absorbinta absorbintaj absorbintajn absorbintan absorbinte absorbis absorbita absorbitaj absorbitajn absorbitan absorbite absorbonta absorbontaj absorbontajn absorbontan absorbonte absorbos absorbu absorbus
+30	2430	ekzemplero	ekzempleroj ekzemplerojn ekzempleron
+31	2431	alveno	alvenoj alvenojn alvenon
+32	2432	kontrasto	kontrastoj kontrastojn kontraston
+33	2433	dubo	duboj dubojn dubon
+34	2434	pliboniĝi	pliboniĝanta pliboniĝantaj pliboniĝantajn pliboniĝantan pliboniĝante pliboniĝas pliboniĝinta pliboniĝintaj pliboniĝintajn pliboniĝintan pliboniĝinte pliboniĝis pliboniĝonta pliboniĝontaj pliboniĝontajn pliboniĝontan pliboniĝonte pliboniĝos pliboniĝu pliboniĝus
+35	2435	malvarme	
+36	2436	faŝisto	faŝistoj faŝistojn faŝiston
+37	2437	pejzaĝo	pejzaĝoj pejzaĝojn pejzaĝon
+38	2438	eksciti	ekscitanta ekscitantaj ekscitantajn ekscitantan ekscitante ekscitas ekscitata ekscitataj ekscitatajn ekscitatan ekscitate ekscitinta ekscitintaj ekscitintajn ekscitintan ekscitinte ekscitis ekscitita ekscititaj ekscititajn ekscititan ekscitite ekscitonta ekscitontaj ekscitontajn ekscitontan ekscitonte ekscitos ekscitu ekscitus
+39	2439	neniigi	neniiganta neniigantaj neniigantajn neniigantan neniigante neniigas neniigata neniigataj neniigatajn neniigatan neniigate neniiginta neniigintaj neniigintajn neniigintan neniiginte neniigis neniigita neniigitaj neniigitajn neniigitan neniigite neniigonta neniigontaj neniigontajn neniigontan neniigonte neniigos neniigu neniigus
+40	2440	kunveni	kunvenanta kunvenantaj kunvenantajn kunvenantan kunvenante kunvenas kunveninta kunvenintaj kunvenintajn kunvenintan kunveninte kunvenis kunvenonta kunvenontaj kunvenontajn kunvenontan kunvenonte kunvenos kunvenu kunvenus
+41	2441	poŝo	poŝoj poŝojn poŝon
+42	2442	brigado	brigadoj brigadojn brigadon
+43	2443	infekto	infektoj infektojn infekton
+44	2444	ventro	ventroj ventrojn ventron
+45	2445	fiaski	fiaskanta fiaskantaj fiaskantajn fiaskantan fiaskante fiaskas fiaskinta fiaskintaj fiaskintajn fiaskintan fiaskinte fiaskis fiaskonta fiaskontaj fiaskontajn fiaskontan fiaskonte fiaskos fiasku fiaskus
+46	2446	katastrofo	katastrofoj katastrofojn katastrofon
+47	2447	konfidi	konfidanta konfidantaj konfidantajn konfidantan konfidante konfidas konfidata konfidataj konfidatajn konfidatan konfidate konfidinta konfidintaj konfidintajn konfidintan konfidinte konfidis konfidita konfiditaj konfiditajn konfiditan konfidite konfidonta konfidontaj konfidontajn konfidontan konfidonte konfidos konfidu konfidus
+48	2448	speciale	
+49	2449	transiro	transiroj transirojn transiron
+50	2450	malmulto	malmultoj malmultojn malmulton
+51	2451	legado	legadoj legadojn legadon
+52	2452	destino	destinoj destinojn destinon
+53	2453	pasporto	pasportoj pasportojn pasporton
+54	2454	infanaĝo	infanaĝoj infanaĝojn infanaĝon
+55	2455	armi	armanta armantaj armantajn armantan armante armas armata armataj armatajn armatan armate arminta armintaj armintajn armintan arminte armis armita armitaj armitajn armitan armite armonta armontaj armontajn armontan armonte armos armu armus
+56	2456	pentristo	pentristoj pentristojn pentriston
+57	2457	fermiĝi	fermiĝanta fermiĝantaj fermiĝantajn fermiĝantan fermiĝante fermiĝas fermiĝinta fermiĝintaj fermiĝintajn fermiĝintan fermiĝinte fermiĝis fermiĝonta fermiĝontaj fermiĝontajn fermiĝontan fermiĝonte fermiĝos fermiĝu fermiĝus
+58	2458	financo	financoj financojn financon
+59	2459	blinda	blindaj blindajn blindan
+60	2460	sube	
+61	2461	brava	bravaj bravajn bravan
+62	2462	kuirejo	kuirejoj kuirejojn kuirejon
+63	2463	deka	dekaj dekajn dekan
+64	2464	malsato	malsatoj malsatojn malsaton
+65	2465	negoci	negocanta negocantaj negocantajn negocantan negocante negocas negocata negocataj negocatajn negocatan negocate negocinta negocintaj negocintajn negocintan negocinte negocis negocita negocitaj negocitajn negocitan negocite negoconta negocontaj negocontajn negocontan negoconte negocos negocu negocus
+66	2466	farado	faradoj faradojn faradon
+67	2467	filozofia	filozofiaj filozofiajn filozofian
+68	2468	vertikala	vertikalaj vertikalajn vertikalan
+69	2469	valo	valoj valojn valon
+70	2470	inteligenteco	inteligentecoj inteligentecojn inteligentecon
+71	2471	brusto	brustoj brustojn bruston
+72	2472	posttagmezo	posttagmezoj posttagmezojn posttagmezon
+73	2473	butono	butonoj butonojn butonon
+74	2474	distribuo	distribuoj distribuojn distribuon
+75	2475	maltrafi	maltrafanta maltrafantaj maltrafantajn maltrafantan maltrafante maltrafas maltrafinta maltrafintaj maltrafintajn maltrafintan maltrafinte maltrafis maltrafonta maltrafontaj maltrafontajn maltrafontan maltrafonte maltrafos maltrafu maltrafus
+76	2476	provizora	provizoraj provizorajn provizoran
+77	2477	vosto	vostoj vostojn voston
+78	2478	bloko	blokoj blokojn blokon
+79	2479	ĵurnalisto	ĵurnalistoj ĵurnalistojn ĵurnaliston
+80	2480	sfero	sferoj sferojn sferon
+81	2481	silabo	silaboj silabojn silabon
+82	2482	prepariĝi	prepariĝanta prepariĝantaj prepariĝantajn prepariĝantan prepariĝante prepariĝas prepariĝinta prepariĝintaj prepariĝintajn prepariĝintan prepariĝinte prepariĝis prepariĝonta prepariĝontaj prepariĝontajn prepariĝontan prepariĝonte prepariĝos prepariĝu prepariĝus
+83	2483	malliberigi	malliberiganta malliberigantaj malliberigantajn malliberigantan malliberigante malliberigas malliberigata malliberigataj malliberigatajn malliberigatan malliberigate malliberiginta malliberigintaj malliberigintajn malliberigintan malliberiginte malliberigis malliberigita malliberigitaj malliberigitajn malliberigitan malliberigite malliberigito malliberigitoj malliberigitojn malliberigonta malliberigontaj malliberigontajn malliberigontan malliberigonte malliberigos malliberigu malliberigus
+84	2484	ekspluati	ekspluatanta ekspluatantaj ekspluatantajn ekspluatantan ekspluatante ekspluatas ekspluatata ekspluatataj ekspluatatajn ekspluatatan ekspluatate ekspluatinta ekspluatintaj ekspluatintajn ekspluatintan ekspluatinte ekspluatis ekspluatita ekspluatitaj ekspluatitajn ekspluatitan ekspluatite ekspluatonta ekspluatontaj ekspluatontajn ekspluatontan ekspluatonte ekspluatos ekspluatu ekspluatus
+85	2485	taksio	taksioj taksiojn taksion
+86	2486	milda	mildaj mildajn mildan
+87	2487	dinastio	dinastioj dinastiojn dinastion
+88	2488	kanada	kanadaj kanadajn kanadan
+89	2489	postlasi	postlasanta postlasantaj postlasantajn postlasantan postlasante postlasas postlasata postlasataj postlasatajn postlasatan postlasate postlasinta postlasintaj postlasintajn postlasintan postlasinte postlasis postlasita postlasitaj postlasitajn postlasitan postlasite postlasonta postlasontaj postlasontajn postlasontan postlasonte postlasos postlasu postlasus
+90	2490	intervjuo	intervjuoj intervjuojn intervjuon
+91	2491	barelo	bareloj barelojn barelon
+92	2492	monaĥejo	monaĥejoj monaĥejojn monaĥejon
+93	2493	pensado	pensadoj pensadojn pensadon
+94	2494	paradizo	paradizoj paradizojn paradizon
+95	2495	savo	savoj savojn savon
+96	2496	romiano	romianoj romianojn romianon
+97	2497	simio	simioj simiojn simion
+98	2498	kancero	kanceroj kancerojn kanceron
+99	2499	trapasi	trapasanta trapasantaj trapasantajn trapasantan trapasante trapasas trapasata trapasataj trapasatajn trapasatan trapasate trapasinta trapasintaj trapasintajn trapasintan trapasinte trapasis trapasita trapasitaj trapasitajn trapasitan trapasite trapasonta trapasontaj trapasontajn trapasontan trapasonte trapasos trapasu trapasus
+100	2500	riproĉi	riproĉanta riproĉantaj riproĉantajn riproĉantan riproĉante riproĉas riproĉata riproĉataj riproĉatajn riproĉatan riproĉate riproĉinta riproĉintaj riproĉintajn riproĉintan riproĉinte riproĉis riproĉita riproĉitaj riproĉitajn riproĉitan riproĉite riproĉonta riproĉontaj riproĉontajn riproĉontan riproĉonte riproĉos riproĉu riproĉus

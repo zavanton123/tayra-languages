@@ -1,0 +1,100 @@
+1	7201	incenso	incensoj incensojn incenson
+2	7202	abunde	
+3	7203	ĥoro	ĥoroj ĥorojn ĥoron ĥoruso
+4	7204	siropo	siropoj siropojn siropon
+5	7205	konsekri	konsekranta konsekrantaj konsekrantajn konsekrantan konsekrante konsekras konsekrata konsekrataj konsekratajn konsekratan konsekrate konsekrinta konsekrintaj konsekrintajn konsekrintan konsekrinte konsekris konsekrita konsekritaj konsekritajn konsekritan konsekrite konsekronta konsekrontaj konsekrontajn konsekrontan konsekronte konsekros konsekru konsekrus
+6	7206	malespera	malesperaj malesperajn malesperan
+7	7207	erco	ercoj ercojn ercon
+8	7208	ĉeftendenca	ĉeftendencaj ĉeftendencajn ĉeftendencan
+9	7209	drasta	drastaj drastajn drastan
+10	7210	dek-kvina	dekkvina dekkvinaj dekkvinan
+11	7211	busa	busaj busajn busan
+12	7212	honesteco	honestecoj honestecojn honestecon
+13	7213	biologie	
+14	7214	konkava	konkavaj konkavajn konkavan
+15	7215	ŝanhaja	ŝanhajaj ŝanhajajn ŝanhajan
+16	7216	jo	
+17	7217	pafisto	pafistoj pafistojn pafiston
+18	7218	miopeco	miopecoj miopecojn miopecon
+19	7219	ĉifono	ĉifonoj ĉifonojn ĉifonon
+20	7220	malsukcese	
+21	7221	monteta	montetaj montetajn montetan
+22	7222	lima	limaj limajn liman
+23	7223	mamula	mamulaj mamulajn mamulan
+24	7224	ebenigi	ebeniganta ebenigantaj ebenigantajn ebenigantan ebenigante ebenigas ebenigata ebenigataj ebenigatajn ebenigatan ebenigate ebeniginta ebenigintaj ebenigintajn ebenigintan ebeniginte ebenigis ebenigita ebenigitaj ebenigitajn ebenigitan ebenigite ebenigonta ebenigontaj ebenigontajn ebenigontan ebenigonte ebenigos ebenigu ebenigus
+25	7225	vertebro	vertebroj vertebrojn vertebron
+26	7226	flosigi	flosiganta flosigantaj flosigantajn flosigantan flosigante flosigas flosigata flosigataj flosigatajn flosigatan flosigate flosiginta flosigintaj flosigintajn flosigintan flosiginte flosigis flosigita flosigitaj flosigitajn flosigitan flosigite flosigonta flosigontaj flosigontajn flosigontan flosigonte flosigos flosigu flosigus
+27	7227	mulo	muloj mulojn mulon
+28	7228	citrono	citronoj citronojn citronon
+29	7229	bo	
+30	7230	tajloro	tajloroj tajlorojn tajloron
+31	7231	akcento	akcentoj akcentojn akcenton
+32	7232	piedvesto	piedvestoj piedvestojn piedveston
+33	7233	hipokritulo	hipokrituloj hipokritulojn hipokritulon
+34	7234	podio	podioj podiojn podion
+35	7235	malnobla	malnoblaj malnoblajn malnoblan
+36	7236	bestkuracisto	bestkuracistoj bestkuracistojn bestkuraciston bestokuracisto bestokuracistoj
+37	7237	kanadano	kanadanoj kanadanojn kanadanon
+38	7238	puzlo	puzloj puzlojn puzlon
+39	7239	aristokrato	aristokratoj aristokratojn aristokraton
+40	7240	murpentraĵo	murpentraĵoj murpentraĵojn murpentraĵon
+41	7241	trafa	trafaj trafajn trafan
+42	7242	bremso	bremsoj bremsojn bremson
+43	7243	fluoreska	fluoreskaj fluoreskajn fluoreskan
+44	7244	patologio	patologioj patologiojn patologion
+45	7245	sondi	sondanta sondantaj sondantajn sondantan sondante sondas sondata sondataj sondatajn sondatan sondate sondinta sondintaj sondintajn sondintan sondinte sondis sondita sonditaj sonditajn sonditan sondite sondonta sondontaj sondontajn sondontan sondonte sondos sondu sondus
+46	7246	vibri	vibranta vibrantaj vibrantajn vibrantan vibrante vibras vibrinta vibrintaj vibrintajn vibrintan vibrinte vibris vibronta vibrontaj vibrontajn vibrontan vibronte vibros vibru vibrus
+47	7247	vitamino	vitaminoj vitaminojn vitaminon
+48	7248	kalkulilo	kalkuliloj kalkulilojn kalkulilon
+49	7249	altega	altegaj altegajn altegan
+50	7250	brovo	brovoj brovojn brovon
+51	7251	ŝerce	
+52	7252	felto	feltoj feltojn felton
+53	7253	gladi	gladanta gladantaj gladantajn gladantan gladante gladas gladata gladataj gladatajn gladatan gladate gladinta gladintaj gladintajn gladintan gladinte gladis gladita gladitaj gladitajn gladitan gladite gladonta gladontaj gladontajn gladontan gladonte glados gladu gladus
+54	7254	inkluziva	inkluzivaj inkluzivajn inkluzivan
+55	7255	refuti	refutanta refutantaj refutantajn refutantan refutante refutas refutata refutataj refutatajn refutatan refutate refutinta refutintaj refutintajn refutintan refutinte refutis refutita refutitaj refutitajn refutitan refutite refutonta refutontaj refutontajn refutontan refutonte refutos refutu refutus
+56	7256	georgia	georgiaj georgiajn georgian
+57	7257	stano	stanoj stanojn stanon
+58	7258	flugkompanio	flugkompanioj flugkompaniojn flugkompanion
+59	7259	kloakaĵo	kloakaĵoj kloakaĵojn kloakaĵon
+60	7260	elektrona	elektronaj elektronajn elektronan
+61	7261	amelo	ameloj amelojn amelon
+62	7262	ostro	ostroj ostrojn ostron
+63	7263	hieroglifo	hieroglifoj hieroglifojn hieroglifon
+64	7264	laboristaro	laboristaroj laboristarojn laboristaron
+65	7265	farebla	fareblaj fareblajn fareblan
+66	7266	pasejo	pasejoj pasejojn pasejon
+67	7267	agordo	agordoj agordojn agordon
+68	7268	senlaca	senlacaj senlacajn senlacan
+69	7269	oblikva	oblikvaj oblikvajn oblikvan
+70	7270	legebla	legeblaj legeblajn legeblan
+71	7271	pritraktado	pritraktadoj pritraktadojn pritraktadon
+72	7272	refrakto	refraktoj refraktojn refrakton
+73	7273	teksasa	teksasaj teksasajn teksasan
+74	7274	interpunkcio	interpunkcioj interpunkciojn interpunkcion
+75	7275	trusto	trustoj trustojn truston
+76	7276	enuiga	enuigaj enuigajn enuigan
+77	7277	senkolora	senkoloraj senkolorajn senkoloran
+78	7278	ĝuo	ĝuoj ĝuojn ĝuon
+79	7279	malprudenta	malprudentaj malprudentajn malprudentan
+80	7280	revolvero	revolveroj revolverojn revolveron
+81	7281	renversiĝi	renversiĝanta renversiĝantaj renversiĝantajn renversiĝantan renversiĝante renversiĝas renversiĝinta renversiĝintaj renversiĝintajn renversiĝintan renversiĝinte renversiĝis renversiĝonta renversiĝontaj renversiĝontajn renversiĝontan renversiĝonte renversiĝos renversiĝu renversiĝus
+82	7282	dehaki	dehakanta dehakantaj dehakantajn dehakantan dehakante dehakas dehakata dehakataj dehakatajn dehakatan dehakate dehakinta dehakintaj dehakintajn dehakintan dehakinte dehakis dehakita dehakitaj dehakitajn dehakitan dehakite dehakonta dehakontaj dehakontajn dehakontan dehakonte dehakos dehaku dehakus
+83	7283	tirana	tiranaj tiranajn tiranan
+84	7284	ena	enaj enajn enan
+85	7285	koralo	koraloj koralojn koralon
+86	7286	retino	retinoj retinojn retinon
+87	7287	senarbarigo	senarbarigoj senarbarigojn senarbarigon
+88	7288	batalema	batalemaj batalemajn bataleman
+89	7289	aksa	aksaj aksajn aksan
+90	7290	serena	serenaj serenajn serenan
+91	7291	pluva	pluvaj pluvajn pluvan
+92	7292	purgatorio	purgatorioj purgatoriojn purgatorion
+93	7293	akomodiĝi	akomodiĝanta akomodiĝantaj akomodiĝantajn akomodiĝantan akomodiĝante akomodiĝas akomodiĝinta akomodiĝintaj akomodiĝintajn akomodiĝintan akomodiĝinte akomodiĝis akomodiĝonta akomodiĝontaj akomodiĝontajn akomodiĝontan akomodiĝonte akomodiĝos akomodiĝu akomodiĝus
+94	7294	kruca	krucaj krucajn krucan
+95	7295	maljunaĝo	maljunaĝoj maljunaĝojn maljunaĝon
+96	7296	periodaĵo	periodaĵoj periodaĵojn periodaĵon
+97	7297	procedura	proceduraj procedurajn proceduran
+98	7298	mezlerneja	mezlernejaj mezlernejajn mezlernejan
+99	7299	prognozi	prognozanta prognozantaj prognozantajn prognozantan prognozante prognozas prognozata prognozataj prognozatajn prognozatan prognozate prognozinta prognozintaj prognozintajn prognozintan prognozinte prognozis prognozita prognozitaj prognozitajn prognozitan prognozite prognozonta prognozontaj prognozontajn prognozontan prognozonte prognozos prognozu prognozus
+100	7300	umbiliko	umbilikoj umbilikojn umbilikon

@@ -1,0 +1,100 @@
+1	5701	fajraĵo	fajraĵoj fajraĵojn fajraĵon
+2	5702	likvoro	likvoroj likvorojn likvoron
+3	5703	gombo	gomboj gombojn gombon
+4	5704	kantaĵo	kantaĵoj kantaĵojn kantaĵon
+5	5705	kuradi	kuradanta kuradantaj kuradantajn kuradantan kuradante kuradas kuradinta kuradintaj kuradintajn kuradintan kuradinte kuradis kuradonta kuradontaj kuradontajn kuradontan kuradonte kurados kuradu kuradus
+6	5706	febla	feblaj feblajn feblan
+7	5707	juki	jukanta jukantaj jukantajn jukantan jukante jukas jukinta jukintaj jukintajn jukintan jukinte jukis jukonta jukontaj jukontajn jukontan jukonte jukos juku jukus
+8	5708	ekpluvi	ekpluvanta ekpluvantaj ekpluvantajn ekpluvantan ekpluvante ekpluvas ekpluvinta ekpluvintaj ekpluvintajn ekpluvintan ekpluvinte ekpluvis ekpluvonta ekpluvontaj ekpluvontajn ekpluvontan ekpluvonte ekpluvos ekpluvu ekpluvus
+9	5709	kompatindulo	kompatinduloj kompatindulojn kompatindulon
+10	5710	malfortulo	malfortuloj malfortulojn malfortulon
+11	5711	endormiĝi	endormiĝanta endormiĝantaj endormiĝantajn endormiĝantan endormiĝante endormiĝas endormiĝinta endormiĝintaj endormiĝintajn endormiĝintan endormiĝinte endormiĝis endormiĝonta endormiĝontaj endormiĝontajn endormiĝontan endormiĝonte endormiĝos endormiĝu endormiĝus
+12	5712	armo	armoj armojn armon
+13	5713	rigardadi	rigardadanta rigardadantaj rigardadantajn rigardadantan rigardadante rigardadas rigardadinta rigardadintaj rigardadintajn rigardadintan rigardadinte rigardadis rigardadonta rigardadontaj rigardadontajn rigardadontan rigardadonte rigardados rigardadu rigardadus
+14	5714	furzi	furzanta furzantaj furzantajn furzantan furzante furzas furzinta furzintaj furzintajn furzintan furzinte furzis furzonta furzontaj furzontajn furzontan furzonte furzos furzu furzus
+15	5715	senkiale	
+16	5716	antaŭhieraŭ	
+17	5717	ĉijare	
+18	5718	vespermanĝi	vespermanĝanta vespermanĝantaj vespermanĝantajn vespermanĝantan vespermanĝante vespermanĝas vespermanĝinta vespermanĝintaj vespermanĝintajn vespermanĝintan vespermanĝinte vespermanĝis vespermanĝonta vespermanĝontaj vespermanĝontajn vespermanĝontan vespermanĝonte vespermanĝos vespermanĝu vespermanĝus
+19	5719	gesti	gestanta gestantaj gestantajn gestantan gestante gestas gestinta gestintaj gestintajn gestintan gestinte gestis gestonta gestontaj gestontajn gestontan gestonte gestos gestu gestus
+20	5720	pigra	pigraj pigrajn pigran
+21	5721	mirego	miregoj miregojn miregon
+22	5722	forfikiĝu	
+23	5723	nepino	nepinoj nepinojn nepinon
+24	5724	tekulero	tekuleroj tekulerojn tekuleron
+25	5725	korbopilko	korbopilkoj korbopilkojn korbopilkon
+26	5726	trinkmono	trinkmonoj trinkmonojn trinkmonon
+27	5727	palto	paltoj paltojn palton
+28	5728	merda	merdaj merdajn merdan
+29	5729	porcelano	porcelanoj porcelanojn porcelanon
+30	5730	antaŭparolo	antaŭparoloj antaŭparolojn antaŭparolon
+31	5731	disleksio	disleksioj disleksiojn disleksion
+32	5732	sekvado	sekvadoj sekvadojn sekvadon
+33	5733	etanolo	etanoloj etanolojn etanolon
+34	5734	mondoparto	mondopartoj mondopartojn mondoparton
+35	5735	aerpremo	aerpremoj aerpremojn aerpremon
+36	5736	balono	balonoj balonojn balonon
+37	5737	mefito	mefitoj mefitojn mefiton
+38	5738	ekkapti	ekkaptanta ekkaptantaj ekkaptantajn ekkaptantan ekkaptante ekkaptas ekkaptata ekkaptataj ekkaptatajn ekkaptatan ekkaptate ekkaptinta ekkaptintaj ekkaptintajn ekkaptintan ekkaptinte ekkaptis ekkaptita ekkaptitaj ekkaptitajn ekkaptitan ekkaptite ekkaptonta ekkaptontaj ekkaptontajn ekkaptontan ekkaptonte ekkaptos ekkaptu ekkaptus
+39	5739	aldona	aldonaj aldonajn aldonan
+40	5740	simfonio	simfonioj simfoniojn simfonion
+41	5741	kleriko	klerikoj klerikojn klerikon
+42	5742	programlingvo	programlingvoj programlingvojn programlingvon
+43	5743	kvitanco	kvitancoj kvitancojn kvitancon
+44	5744	hidrargo	hidrargoj hidrargojn hidrargon
+45	5745	ŝvito	ŝvitoj ŝvitojn ŝviton
+46	5746	triumfi	triumfanta triumfantaj triumfantajn triumfantan triumfante triumfas triumfinta triumfintaj triumfintajn triumfintan triumfinte triumfis triumfonta triumfontaj triumfontajn triumfontan triumfonte triumfos triumfu triumfus
+47	5747	protono	protonoj protonojn protonon
+48	5748	pulma	pulmaj pulmajn pulman
+49	5749	fragila	fragilaj fragilajn fragilan
+50	5750	antaŭsigno	antaŭsignoj antaŭsignojn antaŭsignon
+51	5751	vakcino	vakcinoj vakcinojn vakcinon
+52	5752	troigo	troigoj troigojn troigon
+53	5753	malfidi	malfidanta malfidantaj malfidantajn malfidantan malfidante malfidas malfidata malfidataj malfidatajn malfidatan malfidate malfidinta malfidintaj malfidintajn malfidintan malfidinte malfidis malfidita malfiditaj malfiditajn malfiditan malfidite malfidonta malfidontaj malfidontajn malfidontan malfidonte malfidos malfidu malfidus
+54	5754	butikumi	butikumanta butikumantaj butikumantajn butikumantan butikumante butikumas butikuminta butikumintaj butikumintajn butikumintan butikuminte butikumis butikumonta butikumontaj butikumontajn butikumontan butikumonte butikumos butikumu butikumus
+55	5755	glui	gluanta gluantaj gluantajn gluantan gluante gluas gluata gluataj gluatajn gluatan gluate gluinta gluintaj gluintajn gluintan gluinte gluis gluita gluitaj gluitajn gluitan gluite gluonta gluontaj gluontajn gluontan gluonte gluos gluu gluus
+56	5756	fiŝkaptado	fiŝkaptadoj fiŝkaptadojn fiŝkaptadon
+57	5757	peono	peonoj peonojn peonon
+58	5758	amoniako	amoniakoj amoniakojn amoniakon
+59	5759	inda	indaj indajn indan
+60	5760	analizado	analizadoj analizadojn analizadon
+61	5761	kampanji	kampanjanta kampanjantaj kampanjantajn kampanjantan kampanjante kampanjas kampanjinta kampanjintaj kampanjintajn kampanjintan kampanjinte kampanjis kampanjonta kampanjontaj kampanjontajn kampanjontan kampanjonte kampanjos kampanju kampanjus
+62	5762	antikvo	antikvoj antikvojn antikvon
+63	5763	obeema	obeemaj obeemajn obeeman
+64	5764	ordinare	
+65	5765	hordo	hordoj hordojn hordon
+66	5766	genocido	genocidoj genocidojn genocidon
+67	5767	amasiĝi	amasiĝanta amasiĝantaj amasiĝantajn amasiĝantan amasiĝante amasiĝas amasiĝinta amasiĝintaj amasiĝintajn amasiĝintan amasiĝinte amasiĝis amasiĝonta amasiĝontaj amasiĝontajn amasiĝontan amasiĝonte amasiĝos amasiĝu amasiĝus
+68	5768	fekunda	fekundaj fekundajn fekundan
+69	5769	progresado	progresadoj progresadojn progresadon
+70	5770	repertuaro	repertuaroj repertuarojn repertuaron
+71	5771	sala	salaj salajn salan
+72	5772	pieco	piecoj piecojn piecon
+73	5773	melki	melkanta melkantaj melkantajn melkantan melkante melkas melkata melkataj melkatajn melkatan melkate melkinta melkintaj melkintajn melkintan melkinte melkis melkita melkitaj melkitajn melkitan melkite melkonta melkontaj melkontajn melkontan melkonte melkos melku melkus
+74	5774	soifo	soifoj soifojn soifon
+75	5775	turbo	turboj turbojn turbon
+76	5776	superrigardo	superrigardoj superrigardojn superrigardon
+77	5777	fonologio	fonologioj fonologiojn fonologion
+78	5778	deserto	desertoj desertojn deserton
+79	5779	jogurto	jahurto jahurton jogurtoj jogurtojn jogurton
+80	5780	klaki	klakanta klakantaj klakantajn klakantan klakante klakas klakinta klakintaj klakintajn klakintan klakinte klakis klakonta klakontaj klakontajn klakontan klakonte klakos klaku klakus
+81	5781	iro	iroj irojn iron
+82	5782	nordokcidento	nordokcidentoj nordokcidentojn nordokcidenton
+83	5783	katalogo	katalogoj katalogojn katalogon
+84	5784	malkonvena	malkonvenaj malkonvenajn malkonvenan
+85	5785	pereo	pereoj pereojn pereon
+86	5786	senviva	senvivaj senvivajn senvivan
+87	5787	agreso	agresoj agresojn agreson
+88	5788	kvinjara	kvinjaraj kvinjarajn kvinjaran
+89	5789	trotuaro	trotuaroj trotuarojn trotuaron
+90	5790	akuzanto	akuzantoj akuzantojn akuzanton
+91	5791	sklavino	sklavinoj sklavinojn sklavinon
+92	5792	alvoko	alvokoj alvokojn alvokon
+93	5793	malforte	
+94	5794	triangula	triangulaj triangulajn triangulan
+95	5795	epopeo	epopeoj epopeojn epopeon
+96	5796	submara	submaraj submarajn submaran
+97	5797	kromosomo	kromosomoj kromosomojn kromosomon
+98	5798	interplekti	interplektanta interplektantaj interplektantajn interplektantan interplektante interplektas interplektata interplektataj interplektatajn interplektatan interplektate interplektinta interplektintaj interplektintajn interplektintan interplektinte interplektis interplektita interplektitaj interplektitajn interplektitan interplektite interplektonta interplektontaj interplektontajn interplektontan interplektonte interplektos interplektu interplektus
+99	5799	konvulsio	konvulsioj konvulsiojn konvulsion
+100	5800	stifto	stiftoj stiftojn stifton

@@ -1,0 +1,100 @@
+1	1901	ekvidi	ekvidanta ekvidantaj ekvidantajn ekvidantan ekvidante ekvidas ekvidata ekvidataj ekvidatajn ekvidatan ekvidate ekvidinta ekvidintaj ekvidintajn ekvidintan ekvidinte ekvidis ekvidita ekviditaj ekviditajn ekviditan ekvidite ekvidonta ekvidontaj ekvidontajn ekvidontan ekvidonte ekvidos ekvidu ekvidus
+2	1902	brila	brilaj brilajn brilan
+3	1903	konferenco	konferencoj konferencojn konferencon
+4	1904	ceremonio	ceremonioj ceremoniojn ceremonion
+5	1905	pluvi	pluvanta pluvantaj pluvantajn pluvantan pluvante pluvas pluvinta pluvintaj pluvintajn pluvintan pluvinte pluvis pluvonta pluvontaj pluvontajn pluvontan pluvonte pluvos pluvu pluvus
+6	1906	fabriko	fabrikoj fabrikojn fabrikon
+7	1907	supera	superaj superajn superan
+8	1908	ignori	ignoranta ignorantaj ignorantajn ignorantan ignorante ignoras ignorata ignorataj ignoratajn ignoratan ignorate ignorinta ignorintaj ignorintajn ignorintan ignorinte ignoris ignorita ignoritaj ignoritajn ignoritan ignorite ignoronta ignorontaj ignorontajn ignorontan ignoronte ignoros ignoru ignorus
+9	1909	kaŭzo	kauzo kaŭzoj kaŭzojn kaŭzon
+10	1910	nei	neanta neantaj neantajn neantan neante neanto neantoj neas neata neataj neatajn neatan neate neinta neintaj neintajn neintan neinte neis neita neitaj neitajn neitan neite neonta neontaj neontajn neontan neonte neos neu neus
+11	1911	dezerto	dezertoj dezertojn dezerton
+12	1912	dati	datanta datantaj datantajn datantan datante datas datata datataj datatajn datatan datate datinta datintaj datintajn datintan datinte datis datita datitaj datitajn datitan datite datonta datontaj datontajn datontan datonte datos datu datus
+13	1913	rajtigi	rajtiganta rajtigantaj rajtigantajn rajtigantan rajtigante rajtigas rajtigata rajtigataj rajtigatajn rajtigatan rajtigate rajtiginta rajtigintaj rajtigintajn rajtigintan rajtiginte rajtigis rajtigita rajtigitaj rajtigitajn rajtigitan rajtigite rajtigonta rajtigontaj rajtigontajn rajtigontan rajtigonte rajtigos rajtigu rajtigus
+14	1914	estado	estadoj estadojn estadon
+15	1915	falsa	falsaj falsajn falsan
+16	1916	bastono	bastonoj bastonojn bastonon
+17	1917	monero	moneroj monerojn moneron
+18	1918	aliri	aliranta alirantaj alirantajn alirantan alirante aliras alirata alirataj aliratajn aliratan alirate alirinta alirintaj alirintajn alirintan alirinte aliris alirita aliritaj aliritajn aliritan alirite alironta alirontaj alirontajn alirontan alironte aliros aliru alirus
+19	1919	retiriĝi	retiriĝanta retiriĝantaj retiriĝantajn retiriĝantan retiriĝante retiriĝas retiriĝinta retiriĝintaj retiriĝintajn retiriĝintan retiriĝinte retiriĝis retiriĝonta retiriĝontaj retiriĝontajn retiriĝontan retiriĝonte retiriĝos retiriĝu retiriĝus
+20	1920	verso	versoj versojn verson
+21	1921	ekstreme	
+22	1922	arta	artaj artajn artan
+23	1923	lango	langoj langojn langon
+24	1924	farendaĵo	farendaĵoj farendaĵojn farendaĵon
+25	1925	tendenco	tendencoj tendencojn tendencon
+26	1926	kritiki	kritikanta kritikantaj kritikantajn kritikantan kritikante kritikanto kritikantoj kritikantojn kritikas kritikata kritikataj kritikatajn kritikatan kritikate kritikinta kritikintaj kritikintajn kritikintan kritikinte kritikis kritikita kritikitaj kritikitajn kritikitan kritikite kritikonta kritikontaj kritikontajn kritikontan kritikonte kritikos kritiku kritikus
+27	1927	tono	tonoj tonojn tonon
+28	1928	origini	originanta originantaj originantajn originantan originante originas originata originataj originatajn originatan originate origininta originintaj originintajn originintan origininte originis originita originitaj originitajn originitan originite originonta originontaj originontajn originontan originonte originos originu originus
+29	1929	printempo	printempoj printempojn printempon
+30	1930	bovino	bovinoj bovinojn bovinon
+31	1931	bruli	brulanta brulantaj brulantajn brulantan brulante brulas brulinta brulintaj brulintajn brulintan brulinte brulis brulonta brulontaj brulontajn brulontan brulonte brulos brulu brulus
+32	1932	kritiko	kritikoj kritikojn kritikon
+33	1933	islamano	islamanoj islamanojn islamanon
+34	1934	unuigi	unuiganta unuigantaj unuigantajn unuigantan unuigante unuigas unuigata unuigataj unuigatajn unuigatan unuigate unuiginta unuigintaj unuigintajn unuigintan unuiginte unuigis unuigita unuigitaj unuigitajn unuigitan unuigite unuigonta unuigontaj unuigontajn unuigontan unuigonte unuigos unuigu unuigus
+35	1935	estimi	estimanta estimantaj estimantajn estimantan estimante estimas estimata estimataj estimatajn estimatan estimate estiminta estimintaj estimintajn estimintan estiminte estimis estimita estimitaj estimitajn estimitan estimite estimonta estimontaj estimontajn estimontan estimonte estimos estimu estimus
+36	1936	poento	poentoj poentojn poenton
+37	1937	softvaro	softvaroj softvarojn softvaron
+38	1938	mezepoka	mezepokaj mezepokajn mezepokan
+39	1939	biologia	biologiaj biologiajn biologian
+40	1940	ligno	lignoj lignojn lignon
+41	1941	atesti	atestanta atestantaj atestantajn atestantan atestante atestantoj atestantojn atestanton atestas atestata atestataj atestatajn atestatan atestate atestinta atestintaj atestintajn atestintan atestinte atestis atestita atestitaj atestitajn atestitan atestite atestonta atestontaj atestontajn atestontan atestonte atestos atestu atestus
+42	1942	interrompi	interrompanta interrompantaj interrompantajn interrompantan interrompante interrompanto interrompantoj interrompas interrompata interrompataj interrompatajn interrompatan interrompate interrompinta interrompintaj interrompintajn interrompintan interrompinte interrompis interrompita interrompitaj interrompitajn interrompitan interrompite interromponta interrompontaj interrompontajn interrompontan interromponte interrompos interrompu interrompus
+43	1943	metalo	metaloj metalojn metalon
+44	1944	maso	masoj masojn mason
+45	1945	advokato	advokatoj advokatojn advokaton
+46	1946	ringo	ringoj ringojn ringon
+47	1947	ekvivalenta	ekvivalentaj ekvivalentajn ekvivalentan
+48	1948	substanco	substancoj substancojn substancon
+49	1949	islamo	islamoj islamojn islamon
+50	1950	trejnado	trejnadoj trejnadojn trejnadon
+51	1951	trairi	trairanta trairantaj trairantajn trairantan trairante trairas trairinta trairintaj trairintajn trairintan trairinte trairis traironta trairontaj trairontajn trairontan traironte trairos trairu trairus
+52	1952	escepto	esceptoj esceptojn escepton
+53	1953	okupo	okupoj okupojn okupon
+54	1954	suna	sunaj sunajn sunan
+55	1955	aktuale	
+56	1956	regado	regadoj regadojn regadon
+57	1957	prunti	pruntanta pruntantaj pruntantajn pruntantan pruntante pruntas pruntata pruntataj pruntatajn pruntatan pruntate pruntinta pruntintaj pruntintajn pruntintan pruntinte pruntis pruntita pruntitaj pruntitajn pruntitan pruntite pruntonta pruntontaj pruntontajn pruntontan pruntonte pruntos pruntu pruntus
+58	1958	mensogo	mensogoj mensogojn mensogon
+59	1959	demokratio	demokratioj demokratiojn demokration
+60	1960	manĝo	mangho manĝoj manĝojn manĝon
+61	1961	voĉdoni	voĉdonanta voĉdonantaj voĉdonantajn voĉdonantan voĉdonante voĉdonantoj voĉdonas voĉdonata voĉdonataj voĉdonatajn voĉdonatan voĉdonate voĉdoninta voĉdonintaj voĉdonintajn voĉdonintan voĉdoninte voĉdonis voĉdonita voĉdonitaj voĉdonitajn voĉdonitan voĉdonite voĉdononta voĉdonontaj voĉdonontajn voĉdonontan voĉdononte voĉdonos voĉdonu voĉdonus
+62	1962	sesa	sesaj sesajn sesan
+63	1963	elimini	eliminanta eliminantaj eliminantajn eliminantan eliminante eliminas eliminata eliminataj eliminatajn eliminatan eliminate elimininta eliminintaj eliminintajn eliminintan elimininte eliminis eliminita eliminitaj eliminitajn eliminitan eliminite eliminonta eliminontaj eliminontajn eliminontan eliminonte eliminos eliminu eliminus
+64	1964	ties	
+65	1965	mezo	mezoj mezojn mezon
+66	1966	atmosfero	atmosferoj atmosferojn atmosferon
+67	1967	neĝo	neĝoj neĝojn neĝon
+68	1968	konfuzi	konfuzanta konfuzantaj konfuzantajn konfuzantan konfuzante konfuzas konfuzata konfuzataj konfuzatajn konfuzatan konfuzate konfuzinta konfuzintaj konfuzintajn konfuzintan konfuzinte konfuzis konfuzita konfuzitaj konfuzitajn konfuzitan konfuzite konfuzonta konfuzontaj konfuzontajn konfuzontan konfuzonte konfuzos konfuzu konfuzus
+69	1969	fido	fidoj fidojn fidon
+70	1970	malŝalti	malŝaltanta malŝaltantaj malŝaltantajn malŝaltantan malŝaltante malŝaltas malŝaltata malŝaltataj malŝaltatajn malŝaltatan malŝaltate malŝaltinta malŝaltintaj malŝaltintajn malŝaltintan malŝaltinte malŝaltis malŝaltita malŝaltitaj malŝaltitajn malŝaltitan malŝaltite malŝaltonta malŝaltontaj malŝaltontajn malŝaltontan malŝaltonte malŝaltos malŝaltu malŝaltus
+71	1971	solida	solidaj solidajn solidan
+72	1972	gusto	gustoj gustojn guston
+73	1973	afrika	afrikaj afrikajn afrikan
+74	1974	akra	akraj akrajn akran
+75	1975	antaŭdiri	antaŭdiranta antaŭdirantaj antaŭdirantajn antaŭdirantan antaŭdirante antaŭdiras antaŭdirata antaŭdirataj antaŭdiratajn antaŭdiratan antaŭdirate antaŭdirinta antaŭdirintaj antaŭdirintajn antaŭdirintan antaŭdirinte antaŭdiris antaŭdirita antaŭdiritaj antaŭdiritajn antaŭdiritan antaŭdirite antaŭdironta antaŭdirontaj antaŭdirontajn antaŭdirontan antaŭdironte antaŭdiros antaŭdiru antaŭdirus
+76	1976	pafo	pafoj pafojn pafon
+77	1977	diverseco	diversecoj diversecojn diversecon
+78	1978	rara	raraj rarajn raran
+79	1979	ekiri	ekiranta ekirantaj ekirantajn ekirantan ekirante ekiras ekirinta ekirintaj ekirintajn ekirintan ekirinte ekiris ekironta ekirontaj ekirontajn ekirontan ekironte ekiros ekiru ekirus
+80	1980	leŭtenanto	leŭtenantoj leŭtenantojn leŭtenanton
+81	1981	beleco	belecoj belecojn belecon
+82	1982	uzado	uzadoj uzadojn uzadon
+83	1983	klasifiki	klasifikanta klasifikantaj klasifikantajn klasifikantan klasifikante klasifikas klasifikata klasifikataj klasifikatajn klasifikatan klasifikate klasifikinta klasifikintaj klasifikintajn klasifikintan klasifikinte klasifikis klasifikita klasifikitaj klasifikitajn klasifikitan klasifikite klasifikonta klasifikontaj klasifikontajn klasifikontan klasifikonte klasifikos klasifiku klasifikus
+84	1984	tutmonde	
+85	1985	antaŭenigi	antaŭeniganta antaŭenigantaj antaŭenigantajn antaŭenigantan antaŭenigante antaŭenigas antaŭenigata antaŭenigataj antaŭenigatajn antaŭenigatan antaŭenigate antaŭeniginta antaŭenigintaj antaŭenigintajn antaŭenigintan antaŭeniginte antaŭenigis antaŭenigita antaŭenigitaj antaŭenigitajn antaŭenigitan antaŭenigite antaŭenigonta antaŭenigontaj antaŭenigontajn antaŭenigontan antaŭenigonte antaŭenigos antaŭenigu antaŭenigus
+86	1986	praktika	praktikaj praktikajn praktikan
+87	1987	deveni	devenanta devenantaj devenantajn devenantan devenante devenas deveninta devenintaj devenintajn devenintan deveninte devenis devenonta devenontaj devenontajn devenontan devenonte devenos devenu devenus
+88	1988	falo	faloj falojn falon
+89	1989	aranĝo	aranĝoj aranĝojn aranĝon
+90	1990	iel	
+91	1991	tubo	tuboj tubojn tubon
+92	1992	kaptilo	kaptiloj kaptilojn kaptilon
+93	1993	laŭdi	laŭdanta laŭdantaj laŭdantajn laŭdantan laŭdante laŭdas laŭdata laŭdataj laŭdatajn laŭdatan laŭdate laŭdinta laŭdintaj laŭdintajn laŭdintan laŭdinte laŭdis laŭdita laŭditaj laŭditajn laŭditan laŭdite laŭdonta laŭdontaj laŭdontajn laŭdontan laŭdonte laŭdos laŭdu laŭdus
+94	1994	distingo	distingoj distingojn distingon
+95	1995	restoracio	restoracioj restoraciojn restoracion
+96	1996	antaŭvidi	antaŭvidanta antaŭvidantaj antaŭvidantajn antaŭvidantan antaŭvidante antaŭvidas antaŭvidata antaŭvidataj antaŭvidatajn antaŭvidatan antaŭvidate antaŭvidinta antaŭvidintaj antaŭvidintajn antaŭvidintan antaŭvidinte antaŭvidis antaŭvidita antaŭviditaj antaŭviditajn antaŭviditan antaŭvidite antaŭvidonta antaŭvidontaj antaŭvidontajn antaŭvidontan antaŭvidonte antaŭvidos antaŭvidu antaŭvidus
+97	1997	roko	rokoj rokojn rokon
+98	1998	sukcese	
+99	1999	konvena	konvenaj konvenajn konvenan
+100	2000	ekzakte	

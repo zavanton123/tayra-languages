@@ -1,0 +1,100 @@
+1	3601	kokido	kokidoj kokidojn kokidon
+2	3602	senkulpa	senkulpaj senkulpajn senkulpan
+3	3603	kunligi	kunliganta kunligantaj kunligantajn kunligantan kunligante kunligas kunligata kunligataj kunligatajn kunligatan kunligate kunliginta kunligintaj kunligintajn kunligintan kunliginte kunligis kunligita kunligitaj kunligitajn kunligitan kunligite kunligonta kunligontaj kunligontajn kunligontan kunligonte kunligos kunligu kunligus
+4	3604	knabeto	knabetoj knabetojn knabeton
+5	3605	multi	multanta multantaj multantajn multantan multante multas multinta multintaj multintajn multintan multinte multis multonta multontaj multontajn multontan multonte multos multu multus
+6	3606	aŭstra	aŭstraj aŭstrajn aŭstran
+7	3607	ĉino	ĉinoj ĉinojn ĉinon
+8	3608	sufoki	sufokanta sufokantaj sufokantajn sufokantan sufokante sufokas sufokata sufokataj sufokatajn sufokatan sufokate sufokinta sufokintaj sufokintajn sufokintan sufokinte sufokis sufokita sufokitaj sufokitajn sufokitan sufokite sufokonta sufokontaj sufokontajn sufokontan sufokonte sufokos sufoku sufokus
+9	3609	aludi	aludanta aludantaj aludantajn aludantan aludante aludas aludata aludataj aludatajn aludatan aludate aludinta aludintaj aludintajn aludintan aludinte aludis aludita aluditaj aluditajn aluditan aludite aludonta aludontaj aludontajn aludontan aludonte aludos aludu aludus
+10	3610	deklaracio	deklaracioj deklaraciojn deklaracion
+11	3611	kalendaro	kalendaroj kalendarojn kalendaron
+12	3612	nenien	
+13	3613	komplete	
+14	3614	ĉiaokaze	
+15	3615	tento	tentoj tentojn tenton
+16	3616	humida	humidaj humidajn humidan
+17	3617	interreta	interretaj interretajn interretan
+18	3618	komplekseco	kompleksecoj kompleksecojn kompleksecon
+19	3619	peniso	penisoj penisojn penison
+20	3620	devizo	devizoj devizojn devizon
+21	3621	makulo	makuloj makulojn makulon
+22	3622	forumo	forumoj forumojn forumon
+23	3623	pridemandi	pridemandanta pridemandantaj pridemandantajn pridemandantan pridemandante pridemandas pridemandata pridemandataj pridemandatajn pridemandatan pridemandate pridemandinta pridemandintaj pridemandintajn pridemandintan pridemandinte pridemandis pridemandita pridemanditaj pridemanditajn pridemanditan pridemandite pridemandonta pridemandontaj pridemandontajn pridemandontan pridemandonte pridemandos pridemandu pridemandus
+24	3624	tranokti	tranoktanta tranoktantaj tranoktantajn tranoktantan tranoktante tranoktas tranoktinta tranoktintaj tranoktintajn tranoktintan tranoktinte tranoktis tranoktonta tranoktontaj tranoktontajn tranoktontan tranoktonte tranoktos tranoktu tranoktus
+25	3625	modifo	modifoj modifojn modifon
+26	3626	injekti	injektanta injektantaj injektantajn injektantan injektante injektas injektata injektataj injektatajn injektatan injektate injektinta injektintaj injektintajn injektintan injektinte injektis injektita injektitaj injektitajn injektitan injektite injektonta injektontaj injektontajn injektontan injektonte injektos injektu injektus
+27	3627	saĝeco	saĝecoj saĝecojn saĝecon
+28	3628	kontraŭa	kontraŭaj kontraŭajn kontraŭan
+29	3629	presaĵo	presaĵoj presaĵojn presaĵon
+30	3630	konkludi	konkludanta konkludantaj konkludantajn konkludantan konkludante konkludas konkludata konkludataj konkludatajn konkludatan konkludate konkludinta konkludintaj konkludintajn konkludintan konkludinte konkludis konkludita konkluditaj konkluditajn konkluditan konkludite konkludonta konkludontaj konkludontajn konkludontan konkludonte konkludos konkludu konkludus
+31	3631	akcepto	akceptoj akceptojn akcepton
+32	3632	titoli	titolanta titolantaj titolantajn titolantan titolante titolanto titolas titolata titolataj titolatajn titolatan titolate titolinta titolintaj titolintajn titolintan titolinte titolis titolita titolitaj titolitajn titolitan titolite titolonta titolontaj titolontajn titolontan titolonte titolos titolu titolus
+33	3633	etendiĝi	etendiĝanta etendiĝantaj etendiĝantajn etendiĝantan etendiĝante etendiĝas etendiĝinta etendiĝintaj etendiĝintajn etendiĝintan etendiĝinte etendiĝis etendiĝonta etendiĝontaj etendiĝontajn etendiĝontan etendiĝonte etendiĝos etendiĝu etendiĝus
+34	3634	nigrulo	nigruloj nigrulojn nigrulon
+35	3635	antaŭi	antaŭanta antaŭantaj antaŭantajn antaŭantan antaŭante antaŭas antaŭata antaŭataj antaŭatajn antaŭatan antaŭate antaŭinta antaŭintaj antaŭintajn antaŭintan antaŭinte antaŭis antaŭita antaŭitaj antaŭitajn antaŭitan antaŭite antaŭonta antaŭontaj antaŭontajn antaŭontan antaŭonte antaŭos antaŭu antaŭus
+36	3636	spektro	spektroj spektrojn spektron
+37	3637	cifero	ciferoj ciferojn ciferon
+38	3638	ĝoje	
+39	3639	romantika	romantikaj romantikajn romantikan
+40	3640	kabano	kabanoj kabanojn kabanon
+41	3641	fonetika	fonetikaj fonetikajn fonetikan
+42	3642	trabo	traboj trabojn trabon
+43	3643	ĝusti	ĝustanta ĝustantaj ĝustantajn ĝustantan ĝustante ĝustas ĝustinta ĝustintaj ĝustintajn ĝustintan ĝustinte ĝustis ĝustonta ĝustontaj ĝustontajn ĝustontan ĝustonte ĝustos ĝustu ĝustus
+44	3644	biblia	bibliaj bibliajn biblian
+45	3645	genio	genioj geniojn genion
+46	3646	pordisto	pordistoj pordistojn pordiston
+47	3647	gvardio	gvardioj gvardiojn gvardion
+48	3648	plumbo	plumboj plumbojn plumbon
+49	3649	turismo	turismoj turismojn turismon
+50	3650	relo	reloj relojn relon
+51	3651	aktive	
+52	3652	kemiaĵo	kemiaĵoj kemiaĵojn kemiaĵon
+53	3653	kuniri	kuniranta kunirantaj kunirantajn kunirantan kunirante kuniranto kuniras kunirinta kunirintaj kunirintajn kunirintan kunirinte kuniris kunironta kunirontaj kunirontajn kunirontan kunironte kuniros kuniru kunirus
+54	3654	sinmortigi	sinmortiganta sinmortigantaj sinmortigantajn sinmortigantan sinmortigante sinmortigantoj sinmortigas sinmortiginta sinmortigintaj sinmortigintajn sinmortigintan sinmortiginte sinmortiginto sinmortigintoj sinmortigis sinmortigonta sinmortigontaj sinmortigontajn sinmortigontan sinmortigonte sinmortigos sinmortigu sinmortigus
+55	3655	pendumi	pendumanta pendumantaj pendumantajn pendumantan pendumante pendumas pendumata pendumataj pendumatajn pendumatan pendumate penduminta pendumintaj pendumintajn pendumintan penduminte pendumis pendumita pendumitaj pendumitajn pendumitan pendumite pendumiton pendumonta pendumontaj pendumontajn pendumontan pendumonte pendumos pendumu pendumus
+56	3656	afable	
+57	3657	ĝentlemano	ĝentlemanoj ĝentlemanojn ĝentlemanon
+58	3658	soifi	soifanta soifantaj soifantajn soifantan soifante soifas soifinta soifintaj soifintajn soifintan soifinte soifis soifonta soifontaj soifontajn soifontan soifonte soifos soifu soifus
+59	3659	sinmortigo	sinmortigoj sinmortigojn sinmortigon
+60	3660	distri	distranta distrantaj distrantajn distrantan distrante distras distrata distrataj distratajn distratan distrate distrinta distrintaj distrintajn distrintan distrinte distris distrita distritaj distritajn distritan distrite distronta distrontaj distrontajn distrontan distronte distros distru distrus
+61	3661	posedo	posedoj posedojn posedon
+62	3662	semajnfino	semajnfinoj semajnfinojn semajnfinon
+63	3663	legomo	legomoj legomojn legomon
+64	3664	komento	komentoj komentojn komenton
+65	3665	provizore	
+66	3666	etiko	etikoj etikojn etikon
+67	3667	kirurgio	kirurgioj kirurgiojn kirurgion ĥirurgio
+68	3668	humuro	humuroj humurojn humuron
+69	3669	ruza	ruzaj ruzajn ruzan
+70	3670	adopto	adoptoj adoptojn adopton
+71	3671	enŝlosi	enŝlosanta enŝlosantaj enŝlosantajn enŝlosantan enŝlosante enŝlosas enŝlosata enŝlosataj enŝlosatajn enŝlosatan enŝlosate enŝlosinta enŝlosintaj enŝlosintajn enŝlosintan enŝlosinte enŝlosis enŝlosita enŝlositaj enŝlositajn enŝlositan enŝlosite enŝlosonta enŝlosontaj enŝlosontajn enŝlosontan enŝlosonte enŝlosos enŝlosu enŝlosus
+72	3672	kaĝo	kaĝoj kaĝojn kaĝon
+73	3673	eklezia	ekleziaj ekleziajn eklezian
+74	3674	dana	danaj danajn danan
+75	3675	mamulo	mamuloj mamulojn mamulon
+76	3676	nordokcidenta	nordokcidentaj nordokcidentajn nordokcidentan
+77	3677	moskeo	moskeoj moskeojn moskeon
+78	3678	turko	turkoj turkojn turkon
+79	3679	polo	poloj polojn polon
+80	3680	prelego	prelegoj prelegojn prelegon
+81	3681	eklabori	eklaboranta eklaborantaj eklaborantajn eklaborantan eklaborante eklaboras eklaborinta eklaborintaj eklaborintajn eklaborintan eklaborinte eklaboris eklaboronta eklaborontaj eklaborontajn eklaborontan eklaboronte eklaboros eklaboru eklaborus
+82	3682	manipuli	manipulanta manipulantaj manipulantajn manipulantan manipulante manipulas manipulata manipulataj manipulatajn manipulatan manipulate manipulinta manipulintaj manipulintajn manipulintan manipulinte manipulis manipulita manipulitaj manipulitajn manipulitan manipulite manipulonta manipulontaj manipulontajn manipulontan manipulonte manipulos manipulu manipulus
+83	3683	peli	pelanta pelantaj pelantajn pelantan pelante pelas pelata pelataj pelatajn pelatan pelate pelinta pelintaj pelintajn pelintan pelinte pelis pelita pelitaj pelitajn pelitan pelite pelonta pelontaj pelontajn pelontan pelonte pelos pelu pelus
+84	3684	ŝiri	ŝiranta ŝirantaj ŝirantajn ŝirantan ŝirante ŝiras ŝirata ŝirataj ŝiratajn ŝiratan ŝirate ŝirinta ŝirintaj ŝirintajn ŝirintan ŝirinte ŝiris ŝirita ŝiritaj ŝiritajn ŝiritan ŝirite ŝironta ŝirontaj ŝirontajn ŝirontan ŝironte ŝiros ŝiru ŝirus
+85	3685	diagnozo	diagnozoj diagnozojn diagnozon
+86	3686	disĉiplo	disĉiploj disĉiplojn disĉiplon
+87	3687	laŭlitere	
+88	3688	elĉerpita	elĉerpitaj elĉerpitajn elĉerpitan
+89	3689	kuriero	kurieroj kurierojn kurieron
+90	3690	cirkuli	cirkulanta cirkulantaj cirkulantajn cirkulantan cirkulante cirkulas cirkulinta cirkulintaj cirkulintajn cirkulintan cirkulinte cirkulis cirkulonta cirkulontaj cirkulontajn cirkulontan cirkulonte cirkulos cirkulu cirkulus
+91	3691	subteksto	subtekstoj subtekstojn subtekston
+92	3692	asocii	asocianta asociantaj asociantajn asociantan asociante asocias asociata asociataj asociatajn asociatan asociate asociinta asociintaj asociintajn asociintan asociinte asociis asociitaj asociitajn asociitan asociite asocionta asociontaj asociontajn asociontan asocionte asocios asociu asocius
+93	3693	kemio	kemioj kemiojn kemion
+94	3694	kiraso	kirasoj kirasojn kirason
+95	3695	enzimo	enzimoj enzimojn enzimon
+96	3696	putri	putranta putrantaj putrantajn putrantan putrante putras putrinta putrintaj putrintajn putrintan putrinte putris putronta putrontaj putrontajn putrontan putronte putros putru putrus
+97	3697	predo	predoj predojn predon
+98	3698	ĝisdatigo	ĝisdatigoj ĝisdatigojn ĝisdatigon
+99	3699	altaro	altaroj altarojn altaron
+100	3700	dependeco	dependecoj dependecojn dependecon

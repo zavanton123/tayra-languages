@@ -1,0 +1,100 @@
+1	5101	ĝustigi	ĝustiganta ĝustigantaj ĝustigantajn ĝustigantan ĝustigante ĝustigas ĝustigata ĝustigataj ĝustigatajn ĝustigatan ĝustigate ĝustiginta ĝustigintaj ĝustigintajn ĝustigintan ĝustiginte ĝustigis ĝustigita ĝustigitaj ĝustigitajn ĝustigitan ĝustigite ĝustigonta ĝustigontaj ĝustigontajn ĝustigontan ĝustigonte ĝustigos ĝustigu ĝustigus
+2	5102	indulgo	indulgoj indulgojn indulgon
+3	5103	astronomio	astronomioj astronomiojn astronomion
+4	5104	privateco	privatecoj privatecojn privatecon
+5	5105	relativeco	relativecoj relativecojn relativecon
+6	5106	dekano	dekanoj dekanojn dekanon
+7	5107	laŭvice	
+8	5108	enskribi	enskribanta enskribantaj enskribantajn enskribantan enskribante enskribas enskribata enskribataj enskribatajn enskribatan enskribate enskribinta enskribintaj enskribintajn enskribintan enskribinte enskribis enskribita enskribitaj enskribitajn enskribitan enskribite enskribonta enskribontaj enskribontajn enskribontan enskribonte enskribos enskribu enskribus
+9	5109	supro	suproj suprojn supron
+10	5110	infuzaĵo	infuzaĵoj infuzaĵojn infuzaĵon
+11	5111	kortuŝi	kortuŝanta kortuŝantaj kortuŝantajn kortuŝantan kortuŝante kortuŝas kortuŝata kortuŝataj kortuŝatajn kortuŝatan kortuŝate kortuŝinta kortuŝintaj kortuŝintajn kortuŝintan kortuŝinte kortuŝis kortuŝita kortuŝitaj kortuŝitajn kortuŝitan kortuŝite kortuŝonta kortuŝontaj kortuŝontajn kortuŝontan kortuŝonte kortuŝos kortuŝu kortuŝus
+12	5112	piĵamo	piĵamoj piĵamojn piĵamon
+13	5113	fratineto	fratinetoj fratinetojn fratineton
+14	5114	jaraĝa	jaraĝaj jaraĝajn jaraĝan
+15	5115	aluminio	aluminioj aluminiojn aluminion
+16	5116	altranga	altrangaj altrangajn altrangan
+17	5117	hele	
+18	5118	so	
+19	5119	dolora	doloraj dolorajn doloran
+20	5120	sojlo	sojloj sojlojn sojlon
+21	5121	sufokiĝi	sufokiĝanta sufokiĝantaj sufokiĝantajn sufokiĝantan sufokiĝante sufokiĝas sufokiĝinta sufokiĝintaj sufokiĝintajn sufokiĝintan sufokiĝinte sufokiĝis sufokiĝonta sufokiĝontaj sufokiĝontajn sufokiĝontan sufokiĝonte sufokiĝos sufokiĝu sufokiĝus
+22	5122	globeto	globetoj globetojn globeton
+23	5123	ama	amaj amajn aman
+24	5124	novulo	novuloj novulojn novulon
+25	5125	komploto	komplotoj komplotojn komploton
+26	5126	paralelo	paraleloj paralelojn paralelon
+27	5127	garnizono	garnizonoj garnizonojn garnizonon
+28	5128	samseksema	samseksemaj samseksemajn samsekseman
+29	5129	lulilo	luliloj lulilojn lulilon
+30	5130	krudaĵo	krudaĵoj krudaĵojn krudaĵon
+31	5131	dancado	dancadoj dancadojn dancadon
+32	5132	porkaĵo	porkaĵoj porkaĵojn porkaĵon
+33	5133	mallerta	mallertaj mallertajn mallertan
+34	5134	ŝrumpi	ŝrumpanta ŝrumpantaj ŝrumpantajn ŝrumpantan ŝrumpante ŝrumpas ŝrumpinta ŝrumpintaj ŝrumpintajn ŝrumpintan ŝrumpinte ŝrumpis ŝrumponta ŝrumpontaj ŝrumpontajn ŝrumpontan ŝrumponte ŝrumpos ŝrumpu ŝrumpus
+35	5135	racie	
+36	5136	integreco	integrecoj integrecojn integrecon
+37	5137	latitudo	latitudoj latitudojn latitudon
+38	5138	kaprico	kapricoj kapricojn kapricon
+39	5139	nula	nulaj nulajn nulan
+40	5140	franko	frankoj frankojn frankon
+41	5141	konflikti	konfliktanta konfliktantaj konfliktantajn konfliktantan konfliktante konfliktas konfliktinta konfliktintaj konfliktintajn konfliktintan konfliktinte konfliktis konfliktonta konfliktontaj konfliktontajn konfliktontan konfliktonte konfliktos konfliktu konfliktus
+42	5142	pneŭo	pneŭoj pneŭojn pneŭon
+43	5143	estingiĝi	estingiĝanta estingiĝantaj estingiĝantajn estingiĝantan estingiĝante estingiĝas estingiĝinta estingiĝintaj estingiĝintajn estingiĝintan estingiĝinte estingiĝis estingiĝonta estingiĝontaj estingiĝontajn estingiĝontan estingiĝonte estingiĝos estingiĝu estingiĝus
+44	5144	ĥameleono	kameleono kameleonon ĥameleonoj ĥameleonojn ĥameleonon
+45	5145	patriarko	patriarkoj patriarkojn patriarkon
+46	5146	kuvo	kuvoj kuvojn kuvon
+47	5147	kooperativo	kooperativoj kooperativojn kooperativon
+48	5148	subpremo	subpremoj subpremojn subpremon
+49	5149	belo	beloj belojn belon
+50	5150	sprita	spritaj spritajn spritan
+51	5151	albordiĝi	albordiĝanta albordiĝantaj albordiĝantajn albordiĝantan albordiĝante albordiĝas albordiĝinta albordiĝintaj albordiĝintajn albordiĝintan albordiĝinte albordiĝis albordiĝonta albordiĝontaj albordiĝontajn albordiĝontan albordiĝonte albordiĝos albordiĝu albordiĝus
+52	5152	kotleto	kotletoj kotletojn kotleton
+53	5153	lobo	loboj lobojn lobon
+54	5154	fridujo	fridujoj fridujojn fridujon
+55	5155	malbonŝanco	malbonŝancoj malbonŝancojn malbonŝancon
+56	5156	kredigi	krediganta kredigantaj kredigantajn kredigantan kredigante kredigas krediginta kredigintaj kredigintajn kredigintan krediginte kredigis kredigonta kredigontaj kredigontajn kredigontan kredigonte kredigos kredigu kredigus
+57	5157	kaleŝo	kaleŝoj kaleŝojn kaleŝon
+58	5158	interrilato	interrilatoj interrilatojn interrilaton
+59	5159	helena	helenaj helenajn helenan
+60	5160	manĝigi	manĝiganta manĝigantaj manĝigantajn manĝigantan manĝigante manĝigas manĝigata manĝigataj manĝigatajn manĝigatan manĝigate manĝiginta manĝigintaj manĝigintajn manĝigintan manĝiginte manĝigis manĝigita manĝigitaj manĝigitajn manĝigitan manĝigite manĝigonta manĝigontaj manĝigontajn manĝigontan manĝigonte manĝigos manĝigu manĝigus
+61	5161	psikiatro	psikiatroj psikiatrojn psikiatron
+62	5162	baziĝi	baziĝanta baziĝantaj baziĝantajn baziĝantan baziĝante baziĝas baziĝinta baziĝintaj baziĝintajn baziĝintan baziĝinte baziĝis baziĝonta baziĝontaj baziĝontajn baziĝontan baziĝonte baziĝos baziĝu baziĝus
+63	5163	persista	persistaj persistajn persistan
+64	5164	imponi	imponanta imponantaj imponantajn imponantan imponante imponas imponata imponataj imponatajn imponatan imponate imponinta imponintaj imponintajn imponintan imponinte imponis imponita imponitaj imponitajn imponitan imponite impononta imponontaj imponontajn imponontan impononte imponos imponu imponus
+65	5165	nupto	nuptoj nuptojn nupton
+66	5166	dece	
+67	5167	abomenaĵo	abomenaĵoj abomenaĵojn abomenaĵon
+68	5168	problema	problemaj problemajn probleman
+69	5169	prelegi	preleganta prelegantaj prelegantajn prelegantan prelegante preleganto prelegantoj prelegantojn prelegas preleginta prelegintaj prelegintajn prelegintan preleginte prelegis prelegonta prelegontaj prelegontajn prelegontan prelegonte prelegos prelegu prelegus
+70	5170	litro	litroj litrojn litron
+71	5171	metaforo	metaforoj metaforojn metaforon
+72	5172	ensemblo	ensembloj ensemblojn ensemblon
+73	5173	nafto	naftoj naftojn nafton
+74	5174	meditado	meditadoj meditadojn meditadon
+75	5175	terano	teranoj teranojn teranon
+76	5176	mastri	mastranta mastrantaj mastrantajn mastrantan mastrante mastras mastrinta mastrintaj mastrintajn mastrintan mastrinte mastris mastronta mastrontaj mastrontajn mastrontan mastronte mastros mastru mastrus
+77	5177	koleriĝi	koleriĝanta koleriĝantaj koleriĝantajn koleriĝantan koleriĝante koleriĝas koleriĝinta koleriĝintaj koleriĝintajn koleriĝintan koleriĝinte koleriĝis koleriĝonta koleriĝontaj koleriĝontajn koleriĝontan koleriĝonte koleriĝos koleriĝu koleriĝus
+78	5178	obstaklo	obstakloj obstaklojn obstaklon
+79	5179	urbano	urbanoj urbanojn urbanon
+80	5180	konsekvenco	konsekvencoj konsekvencojn konsekvencon
+81	5181	tuteco	tutecoj tutecojn tutecon
+82	5182	dinamiko	dinamikoj dinamikojn dinamikon
+83	5183	trejnisto	trejnistoj trejnistojn trejniston
+84	5184	unco	uncoj uncojn uncon
+85	5185	genezo	genezoj genezojn genezon
+86	5186	kemiisto	kemiistoj kemiistojn kemiiston ĥemiisto ĥemiistoj
+87	5187	mediumo	mediumoj mediumojn mediumon
+88	5188	ĉaso	ĉasoj ĉasojn ĉason
+89	5189	sankcio	sankcioj sankciojn sankcion
+90	5190	malkonekti	malkonektanta malkonektantaj malkonektantajn malkonektantan malkonektante malkonektas malkonektata malkonektataj malkonektatajn malkonektatan malkonektate malkonektinta malkonektintaj malkonektintajn malkonektintan malkonektinte malkonektis malkonektita malkonektitaj malkonektitajn malkonektitan malkonektite malkonektonta malkonektontaj malkonektontajn malkonektontan malkonektonte malkonektos malkonektu malkonektus
+91	5191	edikto	ediktoj ediktojn edikton
+92	5192	omaĝi	omaĝanta omaĝantaj omaĝantajn omaĝantan omaĝante omaĝas omaĝata omaĝataj omaĝatajn omaĝatan omaĝate omaĝinta omaĝintaj omaĝintajn omaĝintan omaĝinte omaĝis omaĝita omaĝitaj omaĝitajn omaĝitan omaĝite omaĝonta omaĝontaj omaĝontajn omaĝontan omaĝonte omaĝos omaĝu omaĝus
+93	5193	jeno	jenoj jenojn jenon
+94	5194	klariĝi	klariĝanta klariĝantaj klariĝantajn klariĝantan klariĝante klariĝas klariĝinta klariĝintaj klariĝintajn klariĝintan klariĝinte klariĝis klariĝonta klariĝontaj klariĝontajn klariĝontan klariĝonte klariĝos klariĝu klariĝus
+95	5195	ĉarme	
+96	5196	haltejo	haltejoj haltejojn haltejon
+97	5197	pekulo	pekuloj pekulojn pekulon
+98	5198	enspezi	enspezanta enspezantaj enspezantajn enspezantan enspezante enspezas enspezinta enspezintaj enspezintajn enspezintan enspezinte enspezis enspezonta enspezontaj enspezontajn enspezontan enspezonte enspezos enspezu enspezus
+99	5199	malvasta	malvastaj malvastajn malvastan
+100	5200	armilaro	armilaroj armilarojn armilaron

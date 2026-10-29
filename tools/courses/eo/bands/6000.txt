@@ -1,0 +1,100 @@
+1	5901	sunenergio	sunenergioj sunenergiojn sunenergion
+2	5902	finaĵo	finaĵoj finaĵojn finaĵon
+3	5903	minado	minadoj minadojn minadon
+4	5904	hierarkia	hierarkiaj hierarkiajn hierarkian
+5	5905	trofeo	trofeoj trofeojn trofeon
+6	5906	pozo	pozoj pozojn pozon
+7	5907	dresi	dresanta dresantaj dresantajn dresantan dresante dresas dresata dresataj dresatajn dresatan dresate dresinta dresintaj dresintajn dresintan dresinte dresis dresita dresitaj dresitajn dresitan dresite dresonta dresontaj dresontajn dresontan dresonte dresos dresu dresus
+8	5908	rakedo	rakedoj rakedojn rakedon
+9	5909	glacia	glaciaj glaciajn glacian
+10	5910	ĉifrado	ĉifradoj ĉifradojn ĉifradon
+11	5911	cilindra	cilindraj cilindrajn cilindran
+12	5912	abatejo	abatejoj abatejojn abatejon
+13	5913	sapo	sapoj sapojn sapon
+14	5914	skandala	skandalaj skandalajn skandalan
+15	5915	senkonscia	senkonsciaj senkonsciajn senkonscian
+16	5916	krozi	krozanta krozantaj krozantajn krozantan krozante krozas krozinta krozintaj krozintajn krozintan krozinte krozis krozonta krozontaj krozontajn krozontan krozonte krozos krozu krozus
+17	5917	alkoholulo	alkoholuloj alkoholulojn alkoholulon
+18	5918	bandaĝo	bandaĝoj bandaĝojn bandaĝon
+19	5919	ungego	ungegoj ungegojn ungegon
+20	5920	kaŝmiro	kaŝmiroj kaŝmirojn kaŝmiron
+21	5921	pulvo	pulvoj pulvojn pulvon
+22	5922	ekstrakti	ekstraktanta ekstraktantaj ekstraktantajn ekstraktantan ekstraktante ekstraktas ekstraktata ekstraktataj ekstraktatajn ekstraktatan ekstraktate ekstraktinta ekstraktintaj ekstraktintajn ekstraktintan ekstraktinte ekstraktis ekstraktita ekstraktitaj ekstraktitajn ekstraktitan ekstraktite ekstraktonta ekstraktontaj ekstraktontajn ekstraktontan ekstraktonte ekstraktos ekstraktu ekstraktus
+23	5923	dekreti	dekretanta dekretantaj dekretantajn dekretantan dekretante dekretas dekretata dekretataj dekretatajn dekretatan dekretate dekretinta dekretintaj dekretintajn dekretintan dekretinte dekretis dekretita dekretitaj dekretitajn dekretitan dekretite dekretonta dekretontaj dekretontajn dekretontan dekretonte dekretos dekretu dekretus
+24	5924	senhejma	senhejmaj senhejmajn senhejman
+25	5925	koruso	korusoj korusojn koruson
+26	5926	diligente	
+27	5927	desegno	desegnoj desegnojn desegnon
+28	5928	senzorga	senzorgaj senzorgajn senzorgan
+29	5929	eliksiro	eliksiroj eliksirojn eliksiron
+30	5930	fetoro	fetoroj fetorojn fetoron
+31	5931	serĉilo	serĉiloj serĉilojn serĉilon
+32	5932	ceramiko	ceramikoj ceramikojn ceramikon
+33	5933	pasema	pasemaj pasemajn paseman
+34	5934	malŝlosi	malŝlosanta malŝlosantaj malŝlosantajn malŝlosantan malŝlosante malŝlosas malŝlosata malŝlosataj malŝlosatajn malŝlosatan malŝlosate malŝlosinta malŝlosintaj malŝlosintajn malŝlosintan malŝlosinte malŝlosis malŝlosita malŝlositaj malŝlositajn malŝlositan malŝlosite malŝlosonta malŝlosontaj malŝlosontajn malŝlosontan malŝlosonte malŝlosos malŝlosu malŝlosus
+35	5935	kazerno	kazernoj kazernojn kazernon
+36	5936	akordo	akordoj akordojn akordon
+37	5937	sandalo	sandaloj sandalojn sandalon
+38	5938	hunda	hundaj hundajn hundan
+39	5939	fuŝaĵo	fuŝaĵoj fuŝaĵojn fuŝaĵon
+40	5940	palmo	palmoj palmojn palmon
+41	5941	omaĝo	omaĝoj omaĝojn omaĝon
+42	5942	varianco	variancoj variancojn variancon
+43	5943	nederlandano	nederlandanoj nederlandanojn nederlandanon
+44	5944	sprono	spronoj spronojn spronon
+45	5945	centaŭro	centaŭroj centaŭrojn centaŭron kentaŭro
+46	5946	injektilo	injektiloj injektilojn injektilon
+47	5947	neŭtraligi	neŭtraliganta neŭtraligantaj neŭtraligantajn neŭtraligantan neŭtraligante neŭtraligas neŭtraligata neŭtraligataj neŭtraligatajn neŭtraligatan neŭtraligate neŭtraliginta neŭtraligintaj neŭtraligintajn neŭtraligintan neŭtraliginte neŭtraligis neŭtraligita neŭtraligitaj neŭtraligitajn neŭtraligitan neŭtraligite neŭtraligonta neŭtraligontaj neŭtraligontajn neŭtraligontan neŭtraligonte neŭtraligos neŭtraligu neŭtraligus
+48	5948	vaka	vakaj vakajn vakan
+49	5949	princlando	princlandoj princlandojn princlandon
+50	5950	alŝuti	alŝutanta alŝutantaj alŝutantajn alŝutantan alŝutante alŝutanto alŝutas alŝutata alŝutataj alŝutatajn alŝutatan alŝutate alŝutinta alŝutintaj alŝutintajn alŝutintan alŝutinte alŝutis alŝutita alŝutitaj alŝutitajn alŝutitan alŝutite alŝutonta alŝutontaj alŝutontajn alŝutontan alŝutonte alŝutos alŝutu alŝutus
+51	5951	fluida	fluidaj fluidajn fluidan
+52	5952	bankrota	bankrotaj bankrotajn bankrotan
+53	5953	kunfandiĝi	kunfandiĝanta kunfandiĝantaj kunfandiĝantajn kunfandiĝantan kunfandiĝante kunfandiĝas kunfandiĝinta kunfandiĝintaj kunfandiĝintajn kunfandiĝintan kunfandiĝinte kunfandiĝis kunfandiĝonta kunfandiĝontaj kunfandiĝontajn kunfandiĝontan kunfandiĝonte kunfandiĝos kunfandiĝu kunfandiĝus
+54	5954	faka	fakaj fakajn fakan
+55	5955	ŝtatestro	ŝtatestroj ŝtatestrojn ŝtatestron
+56	5956	nutra	nutraj nutrajn nutran
+57	5957	kolektiĝi	kolektiĝanta kolektiĝantaj kolektiĝantajn kolektiĝantan kolektiĝante kolektiĝas kolektiĝinta kolektiĝintaj kolektiĝintajn kolektiĝintan kolektiĝinte kolektiĝis kolektiĝonta kolektiĝontaj kolektiĝontajn kolektiĝontan kolektiĝonte kolektiĝos kolektiĝu kolektiĝus
+58	5958	magie	
+59	5959	ruse	
+60	5960	ĝardena	ĝardenaj ĝardenajn ĝardenan
+61	5961	estulo	estuloj estulojn estulon
+62	5962	ligiĝi	ligiĝanta ligiĝantaj ligiĝantajn ligiĝantan ligiĝante ligiĝas ligiĝinta ligiĝintaj ligiĝintajn ligiĝintan ligiĝinte ligiĝis ligiĝonta ligiĝontaj ligiĝontajn ligiĝontan ligiĝonte ligiĝos ligiĝu ligiĝus
+63	5963	trui	truanta truantaj truantajn truantan truante truas truata truataj truatajn truatan truate truinta truintaj truintajn truintan truinte truis truita truitaj truitajn truitan truite truonta truontaj truontajn truontan truonte truos truu truus
+64	5964	imitaĵo	imitaĵoj imitaĵojn imitaĵon
+65	5965	neoficiala	neoficialaj neoficialajn neoficialan
+66	5966	lano	lanoj lanojn lanon
+67	5967	transskribi	transskribanta transskribantaj transskribantajn transskribantan transskribante transskribanto transskribantoj transskribas transskribata transskribataj transskribatajn transskribatan transskribate transskribinta transskribintaj transskribintajn transskribintan transskribinte transskribis transskribita transskribitaj transskribitajn transskribitan transskribite transskribonta transskribontaj transskribontajn transskribontan transskribonte transskribos transskribu transskribus
+68	5968	antaŭenigo	antaŭenigoj antaŭenigojn antaŭenigon
+69	5969	bizara	bizaraj bizarajn bizaran
+70	5970	dancisto	dancistoj dancistojn danciston
+71	5971	inklino	inklinoj inklinojn inklinon
+72	5972	ĝentile	
+73	5973	torento	torentoj torentojn torenton
+74	5974	ĉerpi	ĉerpanta ĉerpantaj ĉerpantajn ĉerpantan ĉerpante ĉerpas ĉerpata ĉerpataj ĉerpatajn ĉerpatan ĉerpate ĉerpinta ĉerpintaj ĉerpintajn ĉerpintan ĉerpinte ĉerpis ĉerpita ĉerpitaj ĉerpitajn ĉerpitan ĉerpite ĉerponta ĉerpontaj ĉerpontajn ĉerpontan ĉerponte ĉerpos ĉerpu ĉerpus
+75	5975	lingvaro	lingvaroj lingvarojn lingvaron
+76	5976	burokrato	burokratoj burokratojn burokraton
+77	5977	volvi	volvanta volvantaj volvantajn volvantan volvante volvas volvata volvataj volvatajn volvatan volvate volvinta volvintaj volvintajn volvintan volvinte volvis volvita volvitaj volvitajn volvitan volvite volvonta volvontaj volvontajn volvontan volvonte volvos volvu volvus
+78	5978	formiko	formikoj formikojn formikon
+79	5979	dolĉe	
+80	5980	mevo	mevoj mevojn mevon
+81	5981	scienculo	scienculoj scienculojn scienculon
+82	5982	praulo	prauloj praulojn praulon
+83	5983	diro	diroj dirojn diron
+84	5984	alproksimigi	alproksimiganta alproksimigantaj alproksimigantajn alproksimigantan alproksimigante alproksimigas alproksimigata alproksimigataj alproksimigatajn alproksimigatan alproksimigate alproksimiginta alproksimigintaj alproksimigintajn alproksimigintan alproksimiginte alproksimigis alproksimigita alproksimigitaj alproksimigitajn alproksimigitan alproksimigite alproksimigonta alproksimigontaj alproksimigontajn alproksimigontan alproksimigonte alproksimigos alproksimigu alproksimigus
+85	5985	lokigi	lokiganta lokigantaj lokigantajn lokigantan lokigante lokigas lokigata lokigataj lokigatajn lokigatan lokigate lokiginta lokigintaj lokigintajn lokigintan lokiginte lokigis lokigita lokigitaj lokigitajn lokigitan lokigite lokigonta lokigontaj lokigontajn lokigontan lokigonte lokigos lokigu lokigus
+86	5986	benzinujo	benzinujoj benzinujojn benzinujon
+87	5987	malapero	malaperoj malaperojn malaperon
+88	5988	nomado	nomadoj nomadojn nomadon
+89	5989	antikorpo	antikorpoj antikorpojn antikorpon
+90	5990	festa	festaj festajn festan
+91	5991	selo	seloj selojn selon
+92	5992	prepozicio	prepozicioj prepoziciojn prepozicion
+93	5993	vidindaĵo	vidindaĵoj vidindaĵojn vidindaĵon
+94	5994	miraĝo	miraĝoj miraĝojn miraĝon
+95	5995	ĉevalido	ĉevalidoj ĉevalidojn ĉevalidon
+96	5996	kroĉi	kroĉanta kroĉantaj kroĉantajn kroĉantan kroĉante kroĉas kroĉata kroĉataj kroĉatajn kroĉatan kroĉate kroĉinta kroĉintaj kroĉintajn kroĉintan kroĉinte kroĉis kroĉita kroĉitaj kroĉitajn kroĉitan kroĉite kroĉonta kroĉontaj kroĉontajn kroĉontan kroĉonte kroĉos kroĉu kroĉus
+97	5997	kaosa	kaosaj kaosajn kaosan ĥaosa ĥaosan
+98	5998	moda	modaj modajn modan
+99	5999	modernigi	moderniganta modernigantaj modernigantajn modernigantan modernigante modernigas moderniginta modernigintaj modernigintajn modernigintan moderniginte modernigis modernigonta modernigontaj modernigontajn modernigontan modernigonte modernigos modernigu modernigus
+100	6000	morteco	mortecoj mortecojn mortecon

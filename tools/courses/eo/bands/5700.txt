@@ -1,0 +1,100 @@
+1	5601	malagrablaĵo	malagrablaĵoj malagrablaĵojn malagrablaĵon
+2	5602	suvereno	suverenoj suverenojn suverenon
+3	5603	eksplodaĵo	eksplodaĵoj eksplodaĵojn eksplodaĵon
+4	5604	loze	
+5	5605	vulkana	vulkanaj vulkanajn vulkanan
+6	5606	ĵurio	ĵurioj ĵuriojn ĵurion
+7	5607	malnovgreka	malnovgrekaj malnovgrekajn malnovgrekan
+8	5608	proksimuma	proksimumaj proksimumajn proksimuman
+9	5609	korekta	korektaj korektajn korektan
+10	5610	koito	koitoj koitojn koiton
+11	5611	parkere	
+12	5612	senmove	
+13	5613	flua	fluaj fluajn fluan
+14	5614	dokumentaro	dokumentaroj dokumentarojn dokumentaron
+15	5615	forĝi	forĝanta forĝantaj forĝantajn forĝantan forĝante forĝas forĝata forĝataj forĝatajn forĝatan forĝate forĝinta forĝintaj forĝintajn forĝintan forĝinte forĝis forĝita forĝitaj forĝitajn forĝitan forĝite forĝonta forĝontaj forĝontajn forĝontan forĝonte forĝos forĝu forĝus
+16	5616	altitudo	altitudoj altitudojn altitudon
+17	5617	bendo	bendoj bendojn bendon
+18	5618	superforti	superfortanta superfortantaj superfortantajn superfortantan superfortante superfortas superfortata superfortataj superfortatajn superfortatan superfortate superfortinta superfortintaj superfortintajn superfortintan superfortinte superfortis superfortita superfortitaj superfortitajn superfortitan superfortite superfortonta superfortontaj superfortontajn superfortontan superfortonte superfortos superfortu superfortus
+19	5619	ĵaluza	ĵaluzaj ĵaluzajn ĵaluzan
+20	5620	kongresa	kongresaj kongresajn kongresan
+21	5621	bilardo	bilardoj bilardojn bilardon
+22	5622	kraki	krakanta krakantaj krakantajn krakantan krakante krakas krakinta krakintaj krakintajn krakintan krakinte krakis krakonta krakontaj krakontajn krakontan krakonte krakos kraku krakus
+23	5623	komo	komoj komojn komon
+24	5624	prozo	prozoj prozojn prozon
+25	5625	reformi	reformanta reformantaj reformantajn reformantan reformante reformas reforminta reformintaj reformintajn reformintan reforminte reformis reformonta reformontaj reformontajn reformontan reformonte reformos reformu reformus
+26	5626	triobla	trioblaj trioblajn trioblan
+27	5627	garaĝo	garaĝoj garaĝojn garaĝon
+28	5628	tondilo	tondiloj tondilojn tondilon
+29	5629	muta	mutaj mutajn mutan
+30	5630	ekplori	ekploranta ekplorantaj ekplorantajn ekplorantan ekplorante ekploras ekplorinta ekplorintaj ekplorintajn ekplorintan ekplorinte ekploris ekploronta ekplorontaj ekplorontajn ekplorontan ekploronte ekploros ekploru ekplorus
+31	5631	sentaŭgulo	sentaŭguloj sentaŭgulojn sentaŭgulon
+32	5632	afableco	afablecoj afablecojn afablecon
+33	5633	maljuneco	maljunecoj maljunecojn maljunecon
+34	5634	petoli	petolanta petolantaj petolantajn petolantan petolante petolas petolinta petolintaj petolintajn petolintan petolinte petolis petolonta petolontaj petolontajn petolontan petolonte petolos petolu petolus
+35	5635	ducent	
+36	5636	atenteme	
+37	5637	ŝipestro	ŝipestroj ŝipestrojn ŝipestron
+38	5638	kredeble	
+39	5639	ursino	ursinoj ursinojn ursinon
+40	5640	neantaŭvidebla	neantaŭvideblaj neantaŭvideblajn neantaŭvideblan
+41	5641	prediko	predikoj predikojn predikon
+42	5642	ekologio	ekologioj ekologiojn ekologion
+43	5643	kulero	kuleroj kulerojn kuleron
+44	5644	subaĉeti	subaĉetanta subaĉetantaj subaĉetantajn subaĉetantan subaĉetante subaĉetas subaĉetata subaĉetataj subaĉetatajn subaĉetatan subaĉetate subaĉetinta subaĉetintaj subaĉetintajn subaĉetintan subaĉetinte subaĉetis subaĉetita subaĉetitaj subaĉetitajn subaĉetitan subaĉetite subaĉetonta subaĉetontaj subaĉetontajn subaĉetontan subaĉetonte subaĉetos subaĉetu subaĉetus
+45	5645	banala	banalaj banalajn banalan
+46	5646	daŭro	daŭroj daŭrojn daŭron
+47	5647	grafeo	grafeoj grafeojn grafeon
+48	5648	oksigeni	oksigenanta oksigenantaj oksigenantajn oksigenantan oksigenante oksigenanto oksigenantoj oksigenanton oksigenas oksigenata oksigenataj oksigenatajn oksigenatan oksigenate oksigeninta oksigenintaj oksigenintajn oksigenintan oksigeninte oksigenis oksigenita oksigenitaj oksigenitajn oksigenitan oksigenite oksigenonta oksigenontaj oksigenontajn oksigenontan oksigenonte oksigenos oksigenu oksigenus
+49	5649	balkono	balkonoj balkonojn balkonon
+50	5650	korekto	korektoj korektojn korekton
+51	5651	alio	alioj aliojn alion
+52	5652	funde	
+53	5653	lutecio	lutecioj luteciojn lutecion
+54	5654	ĉiumatene	
+55	5655	bukedo	bukedoj bukedojn bukedon
+56	5656	viskio	viskioj viskiojn viskion
+57	5657	ŝanceliĝi	ŝanceliĝanta ŝanceliĝantaj ŝanceliĝantajn ŝanceliĝantan ŝanceliĝante ŝanceliĝas ŝanceliĝinta ŝanceliĝintaj ŝanceliĝintajn ŝanceliĝintan ŝanceliĝinte ŝanceliĝis ŝanceliĝonta ŝanceliĝontaj ŝanceliĝontajn ŝanceliĝontan ŝanceliĝonte ŝanceliĝos ŝanceliĝu ŝanceliĝus
+58	5658	ferdeko	ferdekoj ferdekojn ferdekon
+59	5659	albana	albanaj albanajn albanan
+60	5660	elkreski	elkreskanta elkreskantaj elkreskantajn elkreskantan elkreskante elkreskas elkreskinta elkreskintaj elkreskintajn elkreskintan elkreskinte elkreskis elkreskonta elkreskontaj elkreskontajn elkreskontan elkreskonte elkreskos elkresku elkreskus
+61	5661	veno	venoj venojn venon
+62	5662	tragika	tragikaj tragikajn tragikan
+63	5663	lirli	lirlanta lirlantaj lirlantajn lirlantan lirlante lirlas lirlinta lirlintaj lirlintajn lirlintan lirlinte lirlis lirlonta lirlontaj lirlontajn lirlontan lirlonte lirlos lirlu lirlus
+64	5664	superba	superbaj superbajn superban
+65	5665	bufono	bufonoj bufonojn bufonon
+66	5666	perlabori	perlaboranta perlaborantaj perlaborantajn perlaborantan perlaborante perlaboras perlaborinta perlaborintaj perlaborintajn perlaborintan perlaborinte perlaboris perlaboronta perlaborontaj perlaborontajn perlaborontan perlaboronte perlaboros perlaboru perlaborus
+67	5667	paroladi	paroladanta paroladantaj paroladantajn paroladantan paroladante paroladas paroladinta paroladintaj paroladintajn paroladintan paroladinte paroladis paroladonta paroladontaj paroladontajn paroladontan paroladonte parolados paroladu paroladus
+68	5668	faŭko	faŭkoj faŭkojn faŭkon
+69	5669	alglui	algluanta algluantaj algluantajn algluantan algluante algluas algluata algluataj algluatajn algluatan algluate algluinta algluintaj algluintajn algluintan algluinte algluis algluita algluitaj algluitajn algluitan algluite algluonta algluontaj algluontajn algluontan algluonte algluos algluu algluus
+70	5670	frostiĝi	frostiĝanta frostiĝantaj frostiĝantajn frostiĝantan frostiĝante frostiĝas frostiĝinta frostiĝintaj frostiĝintajn frostiĝintan frostiĝinte frostiĝis frostiĝonta frostiĝontaj frostiĝontajn frostiĝontan frostiĝonte frostiĝos frostiĝu frostiĝus
+71	5671	aŭtoritata	aŭtoritataj aŭtoritatajn aŭtoritatan
+72	5672	samseksemulo	samseksemuloj samseksemulojn samseksemulon
+73	5673	ofteco	oftecoj oftecojn oftecon
+74	5674	furaĝo	furaĝoj furaĝojn furaĝon
+75	5675	adoleskanto	adoleskantoj adoleskantojn adoleskanton
+76	5676	antaŭvidebla	antaŭvideblaj antaŭvideblajn antaŭvideblan
+77	5677	maldekstrulo	maldekstruloj maldekstrulojn maldekstrulon
+78	5678	kameno	kamenoj kamenojn kamenon
+79	5679	flugfolio	flugfolioj flugfoliojn flugfolion
+80	5680	akre	
+81	5681	sanservo	sanservoj sanservojn sanservon
+82	5682	izotopo	izotopoj izotopojn izotopon
+83	5683	aklami	aklamanta aklamantaj aklamantajn aklamantan aklamante aklamas aklamata aklamataj aklamatajn aklamatan aklamate aklaminta aklamintaj aklamintajn aklamintan aklaminte aklamis aklamita aklamitaj aklamitajn aklamitan aklamite aklamonta aklamontaj aklamontajn aklamontan aklamonte aklamos aklamu aklamus
+84	5684	kastri	kastranta kastrantaj kastrantajn kastrantan kastrante kastras kastrata kastrataj kastratajn kastratan kastrate kastrinta kastrintaj kastrintajn kastrintan kastrinte kastris kastrita kastritaj kastritajn kastritan kastrite kastronta kastrontaj kastrontajn kastrontan kastronte kastros kastru kastrus
+85	5685	fidele	
+86	5686	jesa	jesaj jesajn jesan
+87	5687	stango	stangoj stangojn stangon
+88	5688	mamuto	mamutoj mamutojn mamuton
+89	5689	puna	punaj punajn punan
+90	5690	aŭdio	aŭdioj aŭdiojn aŭdion
+91	5691	prezidi	prezidanta prezidantaj prezidantajn prezidantan prezidante prezidantoj prezidantojn prezidanton prezidas prezidinta prezidintaj prezidintajn prezidintan prezidinte prezidis prezidonta prezidontaj prezidontajn prezidontan prezidonte prezidos prezidu prezidus
+92	5692	makaronioj	makaronio makaroniojn makaronion
+93	5693	malfeliĉi	malfeliĉanta malfeliĉantaj malfeliĉantajn malfeliĉantan malfeliĉante malfeliĉas malfeliĉinta malfeliĉintaj malfeliĉintajn malfeliĉintan malfeliĉinte malfeliĉis malfeliĉonta malfeliĉontaj malfeliĉontajn malfeliĉontan malfeliĉonte malfeliĉos malfeliĉu malfeliĉus
+94	5694	surtreti	surtretanta surtretantaj surtretantajn surtretantan surtretante surtretas surtretinta surtretintaj surtretintajn surtretintan surtretinte surtretis surtretonta surtretontaj surtretontajn surtretontan surtretonte surtretos surtretu surtretus
+95	5695	seksumi	seksumanta seksumantaj seksumantajn seksumantan seksumante seksumas seksuminta seksumintaj seksumintajn seksumintan seksuminte seksumis seksumonta seksumontaj seksumontajn seksumontan seksumonte seksumos seksumu seksumus
+96	5696	feliĉigi	feliĉiganta feliĉigantaj feliĉigantajn feliĉigantan feliĉigante feliĉigas feliĉiginta feliĉigintaj feliĉigintajn feliĉigintan feliĉiginte feliĉigis feliĉigonta feliĉigontaj feliĉigontajn feliĉigontan feliĉigonte feliĉigos feliĉigu feliĉigus
+97	5697	liva	livaj livajn livan
+98	5698	plorigi	ploriganta plorigantaj plorigantajn plorigantan plorigante plorigas ploriginta plorigintaj plorigintajn plorigintan ploriginte plorigis plorigonta plorigontaj plorigontajn plorigontan plorigonte plorigos plorigu plorigus
+99	5699	farenda	farendaj farendajn farendan
+100	5700	antaŭsenti	antaŭsentanta antaŭsentantaj antaŭsentantajn antaŭsentantan antaŭsentante antaŭsentas antaŭsentinta antaŭsentintaj antaŭsentintajn antaŭsentintan antaŭsentinte antaŭsentis antaŭsentonta antaŭsentontaj antaŭsentontajn antaŭsentontan antaŭsentonte antaŭsentos antaŭsentu antaŭsentus

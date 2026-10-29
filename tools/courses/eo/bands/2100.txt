@@ -1,0 +1,100 @@
+1	2001	ekesti	ekestanta ekestantaj ekestantajn ekestantan ekestante ekestas ekestinta ekestintaj ekestintajn ekestintan ekestinte ekestis ekestonta ekestontaj ekestontajn ekestontan ekestonte ekestos ekestu ekestus
+2	2002	dividado	dividadoj dividadojn dividadon
+3	2003	distribui	distribuanta distribuantaj distribuantajn distribuantan distribuante distribuas distribuata distribuataj distribuatajn distribuatan distribuate distribuinta distribuintaj distribuintajn distribuintan distribuinte distribuis distribuita distribuitaj distribuitajn distribuitan distribuite distribuonta distribuontaj distribuontajn distribuontan distribuonte distribuos distribuota distribuu distribuus
+4	2004	legendo	legendoj legendojn legendon
+5	2005	rito	ritoj ritojn riton
+6	2006	cento	centoj centojn centon
+7	2007	investi	investanta investantaj investantajn investantan investante investanto investantoj investantojn investanton investas investata investataj investatajn investatan investate investinta investintaj investintajn investintan investinte investis investita investitaj investitajn investitan investite investonta investontaj investontajn investontan investonte investos investu investus
+8	2008	konsiderinda	konsiderindaj konsiderindajn konsiderindan
+9	2009	kuraci	kuracanta kuracantaj kuracantajn kuracantan kuracante kuracanto kuracas kuracata kuracataj kuracatajn kuracatan kuracate kuracaton kuracinta kuracintaj kuracintajn kuracintan kuracinte kuracis kuracita kuracitaj kuracitajn kuracitan kuracite kuraconta kuracontaj kuracontajn kuracontan kuraconte kuracos kuracu kuracus
+10	2010	respondeca	respondecaj respondecajn respondecan
+11	2011	instruado	instruadoj instruadojn instruadon
+12	2012	kunlaboro	kunlaboroj kunlaborojn kunlaboron
+13	2013	scenejo	scenejoj scenejojn scenejon
+14	2014	lernado	lernadoj lernadojn lernadon
+15	2015	supo	supoj supojn supon
+16	2016	reagi	reaganta reagantaj reagantajn reagantan reagante reagas reagata reagataj reagatajn reagatan reagate reaginta reagintaj reagintajn reagintan reaginte reagis reagita reagitaj reagitajn reagitan reagite reagonta reagontaj reagontajn reagontan reagonte reagos reagu reagus
+17	2017	kanono	kanonoj kanonojn kanonon
+18	2018	invadi	invadanta invadantaj invadantajn invadantan invadante invadanto invadantoj invadantojn invadanton invadas invadata invadataj invadatajn invadatan invadate invadinta invadintaj invadintajn invadintan invadinte invadintoj invadis invadita invaditaj invaditajn invaditan invadite invadonta invadontaj invadontajn invadontan invadonte invados invadu invadus
+19	2019	masklo	maskloj masklojn masklon
+20	2020	tegmento	tegmentoj tegmentojn tegmenton
+21	2021	administracio	administracioj administraciojn administracion
+22	2022	atingo	atingoj atingojn atingon
+23	2023	specimeno	specimenoj specimenojn specimenon
+24	2024	monteto	montetoj montetojn monteton
+25	2025	kontraŭi	kontraŭanta kontraŭantaj kontraŭantajn kontraŭantan kontraŭante kontraŭantoj kontraŭantojn kontraŭas kontraŭinta kontraŭintaj kontraŭintajn kontraŭintan kontraŭinte kontraŭinto kontraŭis kontraŭonta kontraŭontaj kontraŭontajn kontraŭontan kontraŭonte kontraŭos kontraŭu kontraŭus
+26	2026	estraro	estraroj estrarojn estraron
+27	2027	eldoni	eldonanta eldonantaj eldonantajn eldonantan eldonante eldonas eldonata eldonataj eldonatajn eldonatan eldonate eldoninta eldonintaj eldonintajn eldonintan eldoninte eldonis eldonita eldonitaj eldonitajn eldonitan eldonite eldononta eldonontaj eldonontajn eldonontan eldononte eldonos eldonu eldonus
+28	2028	kanajlo	kanajloj kanajlojn kanajlon
+29	2029	sendube	
+30	2030	konsili	konsilanta konsilantaj konsilantajn konsilantan konsilante konsilanto konsilantoj konsilas konsilata konsilataj konsilatajn konsilatan konsilate konsilinta konsilintaj konsilintajn konsilintan konsilinte konsilinto konsilis konsilita konsilitaj konsilitajn konsilitan konsilite konsilonta konsilontaj konsilontajn konsilontan konsilonte konsilos konsilu konsilus
+31	2031	laboratorio	laboratorioj laboratoriojn laboratorion
+32	2032	frekvenco	frekvencoj frekvencojn frekvencon
+33	2033	egipta	egiptaj egiptajn egiptan
+34	2034	due	
+35	2035	reganto	regantoj regantojn reganton
+36	2036	fervojo	fervojoj fervojojn fervojon
+37	2037	karulino	karulinoj karulinojn karulinon
+38	2038	aliancano	aliancanoj aliancanojn aliancanon
+39	2039	brili	brilanta brilantaj brilantajn brilantan brilante brilas brilinta brilintaj brilintajn brilintan brilinte brilis brilonta brilontaj brilontajn brilontan brilonte brilos brilu brilus
+40	2040	asimili	asimilanta asimilantaj asimilantajn asimilantan asimilante asimilas asimilata asimilataj asimilatajn asimilatan asimilate asimilinta asimilintaj asimilintajn asimilintan asimilinte asimilis asimilita asimilitaj asimilitajn asimilitan asimilite asimilonta asimilontaj asimilontajn asimilontan asimilonte asimilos asimilu asimilus
+41	2041	percepti	perceptanta perceptantaj perceptantajn perceptantan perceptante perceptanto perceptantoj perceptas perceptata perceptataj perceptatajn perceptatan perceptate perceptinta perceptintaj perceptintajn perceptintan perceptinte perceptis perceptita perceptitaj perceptitajn perceptitan perceptite perceptonta perceptontaj perceptontajn perceptontan perceptonte perceptos perceptu perceptus
+42	2042	reveno	revenoj revenojn revenon
+43	2043	proksimiĝi	proksimiĝanta proksimiĝantaj proksimiĝantajn proksimiĝantan proksimiĝante proksimiĝas proksimiĝinta proksimiĝintaj proksimiĝintajn proksimiĝintan proksimiĝinte proksimiĝis proksimiĝonta proksimiĝontaj proksimiĝontajn proksimiĝontan proksimiĝonte proksimiĝos proksimiĝu proksimiĝus
+44	2044	lingva	lingvaj lingvajn lingvan
+45	2045	toleri	toleranta tolerantaj tolerantajn tolerantan tolerante toleras tolerata tolerataj toleratajn toleratan tolerate tolerinta tolerintaj tolerintajn tolerintan tolerinte toleris tolerita toleritaj toleritajn toleritan tolerite toleronta tolerontaj tolerontajn tolerontan toleronte toleros toleru tolerus
+46	2046	antaŭfiksi	antaŭfiksanta antaŭfiksantaj antaŭfiksantajn antaŭfiksantan antaŭfiksante antaŭfiksas antaŭfiksata antaŭfiksataj antaŭfiksatajn antaŭfiksatan antaŭfiksate antaŭfiksinta antaŭfiksintaj antaŭfiksintajn antaŭfiksintan antaŭfiksinte antaŭfiksis antaŭfiksita antaŭfiksitaj antaŭfiksitajn antaŭfiksitan antaŭfiksite antaŭfiksonta antaŭfiksontaj antaŭfiksontajn antaŭfiksontan antaŭfiksonte antaŭfiksos antaŭfiksu antaŭfiksus
+47	2047	sumo	sumoj sumojn sumon
+48	2048	juĝo	juĝoj juĝojn juĝon
+49	2049	valida	validaj validajn validan
+50	2050	kontinento	kontinentoj kontinentojn kontinenton
+51	2051	restaĵo	restaĵoj restaĵojn restaĵon
+52	2052	interne	
+53	2053	fiksa	fiksaj fiksajn fiksan
+54	2054	episkopo	episkopoj episkopojn episkopon
+55	2055	tiamaniere	
+56	2056	ŝuldi	ŝuldanta ŝuldantaj ŝuldantajn ŝuldantan ŝuldante ŝuldanto ŝuldantoj ŝuldas ŝuldata ŝuldataj ŝuldatajn ŝuldatan ŝuldate ŝuldinta ŝuldintaj ŝuldintajn ŝuldintan ŝuldinte ŝuldis ŝuldita ŝulditaj ŝulditajn ŝulditan ŝuldite ŝuldonta ŝuldontaj ŝuldontajn ŝuldontan ŝuldonte ŝuldos ŝuldu ŝuldus
+57	2057	bombo	bomboj bombojn bombon
+58	2058	interesiĝi	interesiĝanta interesiĝantaj interesiĝantajn interesiĝantan interesiĝante interesiĝas interesiĝinta interesiĝintaj interesiĝintajn interesiĝintan interesiĝinte interesiĝis interesiĝonta interesiĝontaj interesiĝontajn interesiĝontan interesiĝonte interesiĝos interesiĝu interesiĝus
+59	2059	spirita	spiritaj spiritajn spiritan
+60	2060	afabla	afablaj afablajn afablan
+61	2061	meze	
+62	2062	universala	universalaj universalajn universalan
+63	2063	pola	polaj polajn polan
+64	2064	studio	studioj studiojn studion
+65	2065	radiko	radikoj radikojn radikon
+66	2066	prosperi	prosperanta prosperantaj prosperantajn prosperantan prosperante prosperas prosperata prosperataj prosperatajn prosperatan prosperate prosperinta prosperintaj prosperintajn prosperintan prosperinte prosperis prosperita prosperitaj prosperitajn prosperitan prosperite prosperonta prosperontaj prosperontajn prosperontan prosperonte prosperos prosperu prosperus
+67	2067	ĉefministro	ĉefministroj ĉefministrojn ĉefministron
+68	2068	laca	lacaj lacajn lacan
+69	2069	imperia	imperiaj imperiajn imperian
+70	2070	literatura	literaturaj literaturajn literaturan
+71	2071	fiziko	fizikoj fizikojn fizikon
+72	2072	ŝnuro	ŝnuroj ŝnurojn ŝnuron
+73	2073	seksa	seksaj seksajn seksan
+74	2074	eterne	
+75	2075	pirato	piratoj piratojn piraton
+76	2076	piloto	pilotoj pilotojn piloton
+77	2077	volonte	
+78	2078	financi	financanta financantaj financantajn financantan financante financanto financantoj financas financata financataj financatajn financatan financate financinta financintaj financintajn financintan financinte financis financita financitaj financitajn financitan financite financonta financontaj financontajn financontan financonte financos financota financu financus
+79	2079	plendi	plendanta plendantaj plendantajn plendantan plendante plendanto plendantoj plendas plendinta plendintaj plendintajn plendintan plendinte plendis plendonta plendontaj plendontajn plendontan plendonte plendos plendu plendus
+80	2080	cirkonstanco	cirkonstancoj cirkonstancojn cirkonstancon
+81	2081	surskribo	surskriboj surskribojn surskribon
+82	2082	necesejo	necesejoj necesejojn necesejon
+83	2083	enmeti	enmetanta enmetantaj enmetantajn enmetantan enmetante enmetas enmetata enmetataj enmetatajn enmetatan enmetate enmetinta enmetintaj enmetintajn enmetintan enmetinte enmetis enmetita enmetitaj enmetitajn enmetitan enmetite enmetonta enmetontaj enmetontajn enmetontan enmetonte enmetos enmetu enmetus
+84	2084	mekanika	mekanikaj mekanikajn mekanikan meĥanika
+85	2085	proceduro	proceduroj procedurojn proceduron
+86	2086	elektrono	elektronoj elektronojn elektronon
+87	2087	duko	dukoj dukojn dukon
+88	2088	pilolo	piloloj pilolojn pilolon
+89	2089	realeco	realecoj realecojn realecon
+90	2090	kolono	kolonoj kolonojn kolonon
+91	2091	kuzo	kuzoj kuzojn kuzon
+92	2092	fajfi	fajfanta fajfantaj fajfantajn fajfantan fajfante fajfanto fajfas fajfata fajfataj fajfatajn fajfatan fajfate fajfinta fajfintaj fajfintajn fajfintan fajfinte fajfis fajfita fajfitaj fajfitajn fajfitan fajfite fajfonta fajfontaj fajfontajn fajfontan fajfonte fajfos fajfu fajfus
+93	2093	kritikisto	kritikistoj kritikistojn kritikiston
+94	2094	sidloko	sidlokoj sidlokojn sidlokon
+95	2095	surhavi	surhavanta surhavantaj surhavantajn surhavantan surhavante surhavas surhavinta surhavintaj surhavintajn surhavintan surhavinte surhavis surhavonta surhavontaj surhavontajn surhavontan surhavonte surhavos surhavu surhavus
+96	2096	enorma	enormaj enormajn enorman
+97	2097	konservado	konservadoj konservadojn konservadon
+98	2098	fortikaĵo	fortikaĵoj fortikaĵojn fortikaĵon
+99	2099	karno	karnoj karnojn karnon
+100	2100	juĝi	juĝanta juĝantaj juĝantajn juĝantan juĝante juĝanto juĝantoj juĝanton juĝas juĝata juĝataj juĝatajn juĝatan juĝate juĝatoj juĝinta juĝintaj juĝintajn juĝintan juĝinte juĝis juĝita juĝitaj juĝitajn juĝitan juĝite juĝonta juĝontaj juĝontajn juĝontan juĝonte juĝos juĝu juĝus

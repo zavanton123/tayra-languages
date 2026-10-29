@@ -1,0 +1,100 @@
+1	3101	cirkulado	cirkuladoj cirkuladojn cirkuladon
+2	3102	hura	
+3	3103	stulti	stultanta stultantaj stultantajn stultantan stultante stultas stultinta stultintaj stultintajn stultintan stultinte stultis stultonta stultontaj stultontajn stultontan stultonte stultos stultu stultus
+4	3104	blondulo	blonduloj blondulojn blondulon
+5	3105	fileto	filetoj filetojn fileton
+6	3106	mallarĝa	mallarĝaj mallarĝajn mallarĝan
+7	3107	esploro	esploroj esplorojn esploron
+8	3108	sociala	socialaj socialajn socialan
+9	3109	mineralo	mineraloj mineralojn mineralon
+10	3110	lundo	lundoj lundojn lundon
+11	3111	definitive	
+12	3112	importi	importanta importantaj importantajn importantan importante importas importata importataj importatajn importatan importate importinta importintaj importintajn importintan importinte importis importita importitaj importitajn importitan importite importonta importontaj importontajn importontan importonte importos importu importus
+13	3113	ŝtofo	ŝtofoj ŝtofojn ŝtofon
+14	3114	israela	israelaj israelajn israelan
+15	3115	grandskala	grandskalaj grandskalajn grandskalan
+16	3116	saĝulo	saĝuloj saĝulojn saĝulon
+17	3117	adjektivo	adjektivoj adjektivojn adjektivon
+18	3118	inversa	inversaj inversajn inversan
+19	3119	pezi	pezanta pezantaj pezantajn pezantan pezante pezas pezinta pezintaj pezintajn pezintan pezinte pezis pezonta pezontaj pezontajn pezontan pezonte pezos pezu pezus
+20	3120	nul	
+21	3121	malsanulo	malsanuloj malsanulojn malsanulon
+22	3122	centimetro	centimetroj centimetrojn centimetron
+23	3123	nervo	nervoj nervojn nervon
+24	3124	malgajni	malgajnanta malgajnantaj malgajnantajn malgajnantan malgajnante malgajnas malgajnata malgajnataj malgajnatajn malgajnatan malgajnate malgajninta malgajnintaj malgajnintajn malgajnintan malgajninte malgajninto malgajnintoj malgajnintojn malgajninton malgajnis malgajnita malgajnitaj malgajnitajn malgajnitan malgajnite malgajnonta malgajnontaj malgajnontajn malgajnontan malgajnonte malgajnos malgajnu malgajnus
+25	3125	censo	censoj censojn censon
+26	3126	provizo	provizoj provizojn provizon
+27	3127	rano	ranoj ranojn ranon
+28	3128	pendigi	pendiganta pendigantaj pendigantajn pendigantan pendigante pendigas pendigata pendigataj pendigatajn pendigatan pendigate pendiginta pendigintaj pendigintajn pendigintan pendiginte pendigis pendigita pendigitaj pendigitajn pendigitan pendigite pendigonta pendigontaj pendigontajn pendigontan pendigonte pendigos pendigu pendigus
+29	3129	elparolo	elparoloj elparolojn elparolon
+30	3130	eblo	ebloj eblojn eblon
+31	3131	nebulo	nebuloj nebulojn nebulon
+32	3132	larĝe	
+33	3133	pligrandigi	pligrandiganta pligrandigantaj pligrandigantajn pligrandigantan pligrandigante pligrandigas pligrandigata pligrandigataj pligrandigatajn pligrandigatan pligrandigate pligrandiginta pligrandigintaj pligrandigintajn pligrandigintan pligrandiginte pligrandigis pligrandigita pligrandigitaj pligrandigitajn pligrandigitan pligrandigite pligrandigonta pligrandigontaj pligrandigontajn pligrandigontan pligrandigonte pligrandigos pligrandigu pligrandigus
+34	3134	estiĝi	estiĝanta estiĝantaj estiĝantajn estiĝantan estiĝante estiĝas estiĝinta estiĝintaj estiĝintajn estiĝintan estiĝinte estiĝis estiĝonta estiĝontaj estiĝontajn estiĝontan estiĝonte estiĝos estiĝu estiĝus
+35	3135	komplekso	kompleksoj kompleksojn komplekson
+36	3136	komponi	komponanta komponantaj komponantajn komponantan komponante komponanto komponantoj komponas komponata komponataj komponatajn komponatan komponate komponinta komponintaj komponintajn komponintan komponinte komponis komponita komponitaj komponitajn komponitan komponite kompononta komponontaj komponontajn komponontan kompononte komponos komponu komponus
+37	3137	sekto	sektoj sektojn sekton
+38	3138	zorge	
+39	3139	subpremi	subpremanta subpremantaj subpremantajn subpremantan subpremante subpremanto subpremantoj subpremas subpremata subpremataj subprematajn subprematan subpremate subpreminta subpremintaj subpremintajn subpremintan subpreminte subpremis subpremita subpremitaj subpremitajn subpremitan subpremite subpremonta subpremontaj subpremontajn subpremontan subpremonte subpremos subpremu subpremus
+40	3140	perfidulo	perfiduloj perfidulojn perfidulon
+41	3141	dinamika	dinamikaj dinamikajn dinamikan
+42	3142	malofta	maloftaj maloftajn maloftan
+43	3143	colo	coloj colojn colon
+44	3144	horizonto	horizontoj horizontojn horizonton
+45	3145	fungo	fungoj fungojn fungon
+46	3146	kolbaso	kolbasoj kolbasojn kolbason
+47	3147	flosi	flosanta flosantaj flosantajn flosantan flosante flosas flosinta flosintaj flosintajn flosintan flosinte flosis flosonta flosontaj flosontajn flosontan flosonte flosos flosu flosus
+48	3148	deponejo	deponejoj deponejojn deponejon
+49	3149	translokigo	translokigoj translokigojn translokigon
+50	3150	intelekta	intelektaj intelektajn intelektan
+51	3151	gorĝo	gorĝoj gorĝojn gorĝon
+52	3152	oriente	
+53	3153	rete	
+54	3154	persvadi	persvadanta persvadantaj persvadantajn persvadantan persvadante persvadas persvadata persvadataj persvadatajn persvadatan persvadate persvadinta persvadintaj persvadintajn persvadintan persvadinte persvadis persvadita persvaditaj persvaditajn persvaditan persvadite persvadonta persvadontaj persvadontajn persvadontan persvadonte persvados persvadu persvadus
+55	3155	gravito	gravitoj gravitojn graviton
+56	3156	kruci	krucanta krucantaj krucantajn krucantan krucante krucas krucata krucataj krucatajn krucatan krucate krucinta krucintaj krucintajn krucintan krucinte krucis krucita krucitaj krucitajn krucitan krucite kruconta krucontaj krucontajn krucontan kruconte krucos krucu krucus
+57	3157	konversacio	konversacioj konversaciojn konversacion
+58	3158	sincera	sinceraj sincerajn sinceran
+59	3159	formulo	formuloj formulojn formulon
+60	3160	aŭtovojo	aŭtovojoj aŭtovojojn aŭtovojon
+61	3161	membreco	membrecoj membrecojn membrecon
+62	3162	amerikano	amerikanoj amerikanojn amerikanon
+63	3163	pruntedoni	pruntedonanta pruntedonantaj pruntedonantajn pruntedonantan pruntedonante pruntedonanto pruntedonantoj pruntedonantojn pruntedonanton pruntedonas pruntedonata pruntedonataj pruntedonatajn pruntedonatan pruntedonate pruntedoninta pruntedonintaj pruntedonintajn pruntedonintan pruntedoninte pruntedonis pruntedonita pruntedonitaj pruntedonitajn pruntedonitan pruntedonite pruntedononta pruntedonontaj pruntedonontajn pruntedonontan pruntedononte pruntedonos pruntedonu pruntedonus
+64	3164	komenti	komentanta komentantaj komentantajn komentantan komentante komentantoj komentariita komentas komentata komentataj komentatajn komentatan komentate komentinta komentintaj komentintajn komentintan komentinte komentis komentita komentitaj komentitajn komentitan komentite komentonta komentontaj komentontajn komentontan komentonte komentos komentu komentus
+65	3165	metala	metalaj metalajn metalan
+66	3166	propagando	propagandoj propagandojn propagandon
+67	3167	forpuŝi	forpuŝanta forpuŝantaj forpuŝantajn forpuŝantan forpuŝante forpuŝas forpuŝata forpuŝataj forpuŝatajn forpuŝatan forpuŝate forpuŝinta forpuŝintaj forpuŝintajn forpuŝintan forpuŝinte forpuŝis forpuŝita forpuŝitaj forpuŝitajn forpuŝitan forpuŝite forpuŝonta forpuŝontaj forpuŝontajn forpuŝontan forpuŝonte forpuŝos forpuŝu forpuŝus
+68	3168	dimensio	dimensioj dimensiojn dimension
+69	3169	oka	okaj okajn okan
+70	3170	mino	minoj minojn minon
+71	3171	ekspozicii	ekspozicianta ekspoziciantaj ekspoziciantajn ekspoziciantan ekspoziciante ekspozicianto ekspoziciantoj ekspozicias ekspoziciata ekspoziciataj ekspoziciatajn ekspoziciatan ekspoziciate ekspoziciinta ekspoziciintaj ekspoziciintajn ekspoziciintan ekspoziciinte ekspoziciis ekspoziciita ekspoziciitaj ekspoziciitajn ekspoziciitan ekspoziciite ekspozicionta ekspoziciontaj ekspoziciontajn ekspoziciontan ekspozicionte ekspozicios ekspoziciu ekspozicius
+72	3172	tenilo	teniloj tenilojn tenilon
+73	3173	konjekti	konjektanta konjektantaj konjektantajn konjektantan konjektante konjektas konjektinta konjektintaj konjektintajn konjektintan konjektinte konjektis konjektonta konjektontaj konjektontajn konjektontan konjektonte konjektos konjektu konjektus
+74	3174	oj	
+75	3175	eksperto	ekspertoj ekspertojn eksperton
+76	3176	vivdaŭro	vivdaŭroj vivdaŭrojn vivdaŭron vivodaŭro vivodaŭron
+77	3177	sekure	
+78	3178	matura	maturaj maturajn maturan
+79	3179	almeti	almetanta almetantaj almetantajn almetantan almetante almetas almetata almetataj almetatajn almetatan almetate almetinta almetintaj almetintajn almetintan almetinte almetis almetita almetitaj almetitajn almetitan almetite almetonta almetontaj almetontajn almetontan almetonte almetos almetu almetus
+80	3180	valizo	valizoj valizojn valizon
+81	3181	sonorilo	sonoriloj sonorilojn sonorilon
+82	3182	vereco	verecoj verecojn verecon
+83	3183	famulo	famuloj famulojn famulon
+84	3184	malsukcesa	malsukcesaj malsukcesajn malsukcesan
+85	3185	maskla	masklaj masklajn masklan
+86	3186	certeco	certecoj certecojn certecon
+87	3187	muŝo	muŝoj muŝojn muŝon
+88	3188	sinteza	sintezaj sintezajn sintezan
+89	3189	aliulo	aliuloj aliulojn aliulon
+90	3190	klini	klinanta klinantaj klinantajn klinantan klinante klinas klinata klinataj klinatajn klinatan klinate klininta klinintaj klinintajn klinintan klininte klinis klinita klinitaj klinitajn klinitan klinite klinonta klinontaj klinontajn klinontan klinonte klinos klinu klinus
+91	3191	muelejo	muelejoj muelejojn muelejon
+92	3192	vidiĝi	vidiĝanta vidiĝantaj vidiĝantajn vidiĝantan vidiĝante vidiĝas vidiĝinta vidiĝintaj vidiĝintajn vidiĝintan vidiĝinte vidiĝis vidiĝonta vidiĝontaj vidiĝontajn vidiĝontan vidiĝonte vidiĝos vidiĝu vidiĝus
+93	3193	arĝenta	arĝentaj arĝentajn arĝentan
+94	3194	tajpi	tajpanta tajpantaj tajpantajn tajpantan tajpante tajpas tajpata tajpataj tajpatajn tajpatan tajpate tajpinta tajpintaj tajpintajn tajpintan tajpinte tajpis tajpita tajpitaj tajpitajn tajpitan tajpite tajponta tajpontaj tajpontajn tajpontan tajponte tajpos tajpu tajpus
+95	3195	respektiva	respektivaj respektivajn respektivan
+96	3196	ĉeĥa	ĉeĥaj ĉeĥajn ĉeĥan
+97	3197	simpligi	simpliganta simpligantaj simpligantajn simpligantan simpligante simpligas simpligata simpligataj simpligatajn simpligatan simpligate simpliginta simpligintaj simpligintajn simpligintan simpliginte simpligis simpligita simpligitaj simpligitajn simpligitan simpligite simpligonta simpligontaj simpligontajn simpligontan simpligonte simpligos simpligu simpligus
+98	3198	jare	
+99	3199	frenezigi	freneziganta frenezigantaj frenezigantajn frenezigantan frenezigante frenezigas freneziginta frenezigintaj frenezigintajn frenezigintan freneziginte frenezigis frenezigonta frenezigontaj frenezigontajn frenezigontan frenezigonte frenezigos frenezigu frenezigus
+100	3200	arko	arkoj arkojn arkon

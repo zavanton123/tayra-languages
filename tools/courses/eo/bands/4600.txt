@@ -1,0 +1,100 @@
+1	4501	kolektivo	kolektivoj kolektivojn kolektivon
+2	4502	fideleco	fidelecoj fidelecojn fidelecon
+3	4503	procedo	procedoj procedojn procedon
+4	4504	spiritismo	spiritismoj spiritismojn spiritismon
+5	4505	enigmo	enigmoj enigmojn enigmon
+6	4506	aplaŭdi	aplaŭdanta aplaŭdantaj aplaŭdantajn aplaŭdantan aplaŭdante aplaŭdas aplaŭdata aplaŭdataj aplaŭdatajn aplaŭdatan aplaŭdate aplaŭdinta aplaŭdintaj aplaŭdintajn aplaŭdintan aplaŭdinte aplaŭdis aplaŭdita aplaŭditaj aplaŭditajn aplaŭditan aplaŭdite aplaŭdonta aplaŭdontaj aplaŭdontajn aplaŭdontan aplaŭdonte aplaŭdos aplaŭdu aplaŭdus
+7	4507	forsendi	forsendanta forsendantaj forsendantajn forsendantan forsendante forsendas forsendata forsendataj forsendatajn forsendatan forsendate forsendinta forsendintaj forsendintajn forsendintan forsendinte forsendis forsendita forsenditaj forsenditajn forsenditan forsendite forsendonta forsendontaj forsendontajn forsendontan forsendonte forsendos forsendu forsendus
+8	4508	analiza	analizaj analizajn analizan
+9	4509	aldonaĵo	aldonaĵoj aldonaĵojn aldonaĵon
+10	4510	ĉiel	
+11	4511	trinkejo	trinkejoj trinkejojn trinkejon
+12	4512	idiota	idiotaj idiotajn idiotan
+13	4513	saŭno	saŭnoj saŭnojn saŭnon
+14	4514	frosti	frostanta frostantaj frostantajn frostantan frostante frostas frostinta frostintaj frostintajn frostintan frostinte frostis frostonta frostontaj frostontajn frostontan frostonte frostos frostu frostus
+15	4515	teknike	
+16	4516	blogo	blogoj blogojn blogon
+17	4517	munti	muntanta muntantaj muntantajn muntantan muntante muntas muntinta muntintaj muntintajn muntintan muntinte muntis muntonta muntontaj muntontajn muntontan muntonte muntos muntu muntus
+18	4518	rigora	rigoraj rigorajn rigoran
+19	4519	malkonsento	malkonsentoj malkonsentojn malkonsenton
+20	4520	malvarmeta	malvarmetaj malvarmetajn malvarmetan
+21	4521	ajlo	ajloj ajlojn ajlon
+22	4522	asteroido	asteroidoj asteroidojn asteroidon
+23	4523	teksi	teksanta teksantaj teksantajn teksantan teksante teksas teksata teksataj teksatajn teksatan teksate teksinta teksintaj teksintajn teksintan teksinte teksis teksita teksitaj teksitajn teksitan teksite teksonta teksontaj teksontajn teksontan teksonte teksos teksu teksus
+24	4524	rolulo	roluloj rolulojn rolulon
+25	4525	merito	meritoj meritojn meriton
+26	4526	komprenebla	kompreneblaj kompreneblajn kompreneblan
+27	4527	terminologio	terminologioj terminologiojn terminologion
+28	4528	pumpi	pumpanta pumpantaj pumpantajn pumpantan pumpante pumpas pumpata pumpataj pumpatajn pumpatan pumpate pumpinta pumpintaj pumpintajn pumpintan pumpinte pumpis pumpita pumpitaj pumpitajn pumpitan pumpite pumponta pumpontaj pumpontajn pumpontan pumponte pumpos pumpu pumpus
+29	4529	rivalo	rivaloj rivalojn rivalon
+30	4530	oho	
+31	4531	carino	carinoj carinojn carinon
+32	4532	hamako	hamakoj hamakojn hamakon
+33	4533	proletara	proletaraj proletarajn proletaran
+34	4534	simpli	simplanta simplantaj simplantajn simplantan simplante simplas simplinta simplintaj simplintajn simplintan simplinte simplis simplonta simplontaj simplontajn simplontan simplonte simplos simplu simplus
+35	4535	oldulo	olduloj oldulojn oldulon
+36	4536	nazmukulo	nazmukuloj nazmukulojn nazmukulon
+37	4537	timegi	timeganta timegantaj timegantajn timegantan timegante timegas timeginta timegintaj timegintajn timegintan timeginte timegis timegonta timegontaj timegontajn timegontan timegonte timegos timegu timegus
+38	4538	krabro	krabroj krabrojn krabron
+39	4539	urĝi	urĝanta urĝantaj urĝantajn urĝantan urĝante urĝas urĝinta urĝintaj urĝintajn urĝintan urĝinte urĝis urĝonta urĝontaj urĝontajn urĝontan urĝonte urĝos urĝu urĝus
+40	4540	ekmoviĝi	ekmoviĝanta ekmoviĝantaj ekmoviĝantajn ekmoviĝantan ekmoviĝante ekmoviĝas ekmoviĝinta ekmoviĝintaj ekmoviĝintajn ekmoviĝintan ekmoviĝinte ekmoviĝis ekmoviĝonta ekmoviĝontaj ekmoviĝontajn ekmoviĝontan ekmoviĝonte ekmoviĝos ekmoviĝu ekmoviĝus
+41	4541	beleta	beletaj beletajn beletan
+42	4542	esperantigi	esperantiganta esperantigantaj esperantigantajn esperantigantan esperantigante esperantigas esperantigata esperantigataj esperantigatajn esperantigatan esperantigate esperantiginta esperantigintaj esperantigintajn esperantigintan esperantiginte esperantigis esperantigita esperantigitaj esperantigitajn esperantigitan esperantigite esperantigonta esperantigontaj esperantigontajn esperantigontan esperantigonte esperantigos esperantigu esperantigus
+43	4543	eterno	eternoj eternojn eternon
+44	4544	feroca	ferocaj ferocajn ferocan
+45	4545	forbruli	forbrulanta forbrulantaj forbrulantajn forbrulantan forbrulante forbrulas forbrulinta forbrulintaj forbrulintajn forbrulintan forbrulinte forbrulis forbrulonta forbrulontaj forbrulontajn forbrulontan forbrulonte forbrulos forbrulu forbrulus
+46	4546	ekparoli	ekparolanta ekparolantaj ekparolantajn ekparolantan ekparolante ekparolas ekparolinta ekparolintaj ekparolintajn ekparolintan ekparolinte ekparolis ekparolonta ekparolontaj ekparolontajn ekparolontan ekparolonte ekparolos ekparolu ekparolus
+47	4547	mitralo	mitraloj mitralojn mitralon
+48	4548	plenkreski	plenkreskanta plenkreskantaj plenkreskantajn plenkreskantan plenkreskante plenkreskas plenkreskinta plenkreskintaj plenkreskintajn plenkreskintan plenkreskinte plenkreskis plenkreskonta plenkreskontaj plenkreskontajn plenkreskontan plenkreskonte plenkreskos plenkresku plenkreskus
+49	4549	fripono	friponoj friponojn friponon
+50	4550	adolta	adoltaj adoltajn adoltan
+51	4551	komunikiĝi	komunikiĝanta komunikiĝantaj komunikiĝantajn komunikiĝantan komunikiĝante komunikiĝas komunikiĝinta komunikiĝintaj komunikiĝintajn komunikiĝintan komunikiĝinte komunikiĝis komunikiĝonta komunikiĝontaj komunikiĝontajn komunikiĝontan komunikiĝonte komunikiĝos komunikiĝu komunikiĝus
+52	4552	matenmanĝi	matenmanĝanta matenmanĝantaj matenmanĝantajn matenmanĝantan matenmanĝante matenmanĝas matenmanĝinta matenmanĝintaj matenmanĝintajn matenmanĝintan matenmanĝinte matenmanĝis matenmanĝonta matenmanĝontaj matenmanĝontajn matenmanĝontan matenmanĝonte matenmanĝos matenmanĝu matenmanĝus
+53	4553	beligi	beliganta beligantaj beligantajn beligantan beligante beligas beligata beligataj beligatajn beligatan beligate beliginta beligintaj beligintajn beligintan beliginte beligis beligita beligitaj beligitajn beligitan beligite beligonta beligontaj beligontajn beligontan beligonte beligos beligu beligus
+54	4554	elveni	elvenanta elvenantaj elvenantajn elvenantan elvenante elvenas elveninta elvenintaj elvenintajn elvenintan elveninte elvenis elvenonta elvenontaj elvenontajn elvenontan elvenonte elvenos elvenu elvenus
+55	4555	edzigi	edziganta edzigantaj edzigantajn edzigantan edzigante edzigas edzigata edzigataj edzigatajn edzigatan edzigate edziginta edzigintaj edzigintajn edzigintan edziginte edzigis edzigita edzigitaj edzigitajn edzigitan edzigite edzigonta edzigontaj edzigontajn edzigontan edzigonte edzigos edzigu edzigus
+56	4556	krudulo	kruduloj krudulojn krudulon
+57	4557	steleto	steletoj steletojn steleton
+58	4558	helico	helicoj helicojn helicon
+59	4559	statuto	statutoj statutojn statuton
+60	4560	ukraina	ukrainaj ukrainajn ukrainan
+61	4561	korelacio	korelacioj korelaciojn korelacion
+62	4562	enŝipiĝi	enŝipiĝanta enŝipiĝantaj enŝipiĝantajn enŝipiĝantan enŝipiĝante enŝipiĝas enŝipiĝinta enŝipiĝintaj enŝipiĝintajn enŝipiĝintan enŝipiĝinte enŝipiĝis enŝipiĝonta enŝipiĝontaj enŝipiĝontajn enŝipiĝontan enŝipiĝonte enŝipiĝos enŝipiĝu enŝipiĝus
+63	4563	baldaŭa	baldaŭaj baldaŭajn baldaŭan
+64	4564	memstara	memstaraj memstarajn memstaran
+65	4565	svedo	svedoj svedojn svedon
+66	4566	golo	goloj golojn golon
+67	4567	nuntempo	nuntempoj nuntempojn nuntempon
+68	4568	animalo	animaloj animalojn animalon
+69	4569	koncentrejo	koncentrejoj koncentrejojn koncentrejon
+70	4570	krimulo	krimuloj krimulojn krimulon
+71	4571	ekscito	ekscitoj ekscitojn eksciton
+72	4572	toksa	toksaj toksajn toksan
+73	4573	samkiel	
+74	4574	evakui	evakuanta evakuantaj evakuantajn evakuantan evakuante evakuas evakuata evakuataj evakuatajn evakuatan evakuate evakuinta evakuintaj evakuintajn evakuintan evakuinte evakuis evakuita evakuitaj evakuitajn evakuitan evakuite evakuitoj evakuonta evakuontaj evakuontajn evakuontan evakuonte evakuos evakuu evakuus
+75	4575	transistoro	transistoroj transistorojn transistoron
+76	4576	permanente	
+77	4577	honore	
+78	4578	malfeliĉo	malfeliĉoj malfeliĉojn malfeliĉon
+79	4579	militservo	militservoj militservojn militservon
+80	4580	severe	
+81	4581	paniko	panikoj panikojn panikon
+82	4582	embrio	embrioj embriojn embrion
+83	4583	almozulo	almozuloj almozulojn almozulon
+84	4584	ĉevalino	ĉevalinoj ĉevalinojn ĉevalinon
+85	4585	recepto	receptoj receptojn recepton
+86	4586	referendumo	referendumoj referendumojn referendumon
+87	4587	veli	velanta velantaj velantajn velantan velante velas velinta velintaj velintajn velintan velinte velis velonta velontaj velontajn velontan velonte velos velu velus
+88	4588	kupro	kuproj kuprojn kupron
+89	4589	diskriminacio	diskriminacioj diskriminaciojn diskriminacion
+90	4590	inspekti	inspektanta inspektantaj inspektantajn inspektantan inspektante inspektas inspektata inspektataj inspektatajn inspektatan inspektate inspektinta inspektintaj inspektintajn inspektintan inspektinte inspektis inspektita inspektitaj inspektitajn inspektitan inspektite inspektonta inspektontaj inspektontajn inspektontan inspektonte inspektos inspektu inspektus
+91	4591	hardi	hardanta hardantaj hardantajn hardantan hardante hardanto hardas hardata hardataj hardatajn hardatan hardate hardinta hardintaj hardintajn hardintan hardinte hardis hardita harditaj harditajn harditan hardite hardonta hardontaj hardontajn hardontan hardonte hardos hardu hardus
+92	4592	kortuŝa	kortuŝaj kortuŝajn kortuŝan
+93	4593	maljusta	maljustaj maljustajn maljustan
+94	4594	alies	
+95	4595	printilo	printiloj printilojn printilon
+96	4596	eĥo	eĥoj eĥojn eĥon
+97	4597	kreto	kretoj kretojn kreton
+98	4598	instanco	instancoj instancojn instancon
+99	4599	magneto	magnetoj magnetojn magneton
+100	4600	solido	solidoj solidojn solidon

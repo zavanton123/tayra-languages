@@ -1,0 +1,100 @@
+1	301	kapo	kapoj kapojn kapon
+2	302	ŝtato	shtato shtaton ŝtatoj ŝtatojn ŝtaton
+3	303	simple	
+4	304	decidi	decidanta decidantaj decidantajn decidantan decidante decidanto decidantoj decidantojn decidas decidata decidataj decidatajn decidatan decidate decidinta decidintaj decidintajn decidintan decidinte decidinton decidis decidita deciditaj deciditajn deciditan decidite decidonta decidontaj decidontajn decidontan decidonte decidos decidota decidu decidus
+5	305	inkluzive	
+6	306	konservi	konservanta konservantaj konservantajn konservantan konservante konservas konservata konservataj konservatajn konservatan konservate konservinta konservintaj konservintajn konservintan konservinte konservis konservita konservitaj konservitajn konservitan konservite konservonta konservontaj konservontajn konservontan konservonte konservos konservota konservotaj konservu konservus
+7	307	nokto	noktoj noktojn nokton
+8	308	flugi	fluganta flugantaj flugantajn flugantan flugante flugantoj flugas fluginta flugintaj flugintajn flugintan fluginte flugis flugonta flugontaj flugontajn flugontan flugonte flugos flugu flugus
+9	309	universitato	universitatoj universitatojn universitaton
+10	310	maniero	manieroj manierojn manieron
+11	311	memori	memoranta memorantaj memorantajn memorantan memorante memoras memorata memorataj memoratajn memoratan memorate memorinta memorintaj memorintajn memorintan memorinte memoris memorita memoritaj memoritajn memoritan memorite memoronta memorontaj memorontajn memorontan memoronte memoros memoru memorus
+12	312	prezenti	prezentanta prezentantaj prezentantajn prezentantan prezentante prezentas prezentata prezentataj prezentatajn prezentatan prezentate prezentinta prezentintaj prezentintajn prezentintan prezentinte prezentis prezentita prezentitaj prezentitajn prezentitan prezentite prezentonta prezentontaj prezentontajn prezentontan prezentonte prezentos prezentotaj prezentu prezentus
+13	313	loĝi	loĝanta loĝantaj loĝantajn loĝantan loĝante loĝanto loĝantoj loĝantojn loĝanton loĝas loĝata loĝataj loĝatajn loĝatan loĝate loĝinta loĝintaj loĝintajn loĝintan loĝinte loĝis loĝita loĝitaj loĝitajn loĝitan loĝite loĝonta loĝontaj loĝontajn loĝontan loĝonte loĝos loĝu loĝus
+14	314	rakonti	rakontanta rakontantaj rakontantajn rakontantan rakontante rakontanto rakontantoj rakontantojn rakontanton rakontas rakontata rakontataj rakontatajn rakontatan rakontate rakontinta rakontintaj rakontintajn rakontintan rakontinte rakontis rakontita rakontitaj rakontitajn rakontitan rakontite rakontonta rakontontaj rakontontajn rakontontan rakontonte rakontos rakontu rakontus
+15	315	longa	longaj longajn longan
+16	316	pordo	pordego pordegoj pordegojn pordegon pordoj pordojn pordon
+17	317	iam	
+18	318	kvin	
+19	319	urbo	urboj urbojn urbon
+20	320	familio	familioj familiojn familion
+21	321	aĉeti	aĉetanta aĉetantaj aĉetantajn aĉetantan aĉetante aĉetanto aĉetantoj aĉetantojn aĉetanton aĉetas aĉetata aĉetataj aĉetatajn aĉetatan aĉetate aĉetinta aĉetintaj aĉetintajn aĉetintan aĉetinte aĉetis aĉetita aĉetitaj aĉetitajn aĉetitan aĉetite aĉetonta aĉetontaj aĉetontajn aĉetontan aĉetonte aĉetos aĉetota aĉetu aĉetus
+22	322	necesi	necesanta necesantaj necesantajn necesantan necesante necesas necesinta necesintaj necesintajn necesintan necesinte necesis necesonta necesontaj necesontajn necesontan necesonte necesos necesu necesus
+23	323	forgesi	forgesanta forgesantaj forgesantajn forgesantan forgesante forgesas forgesata forgesataj forgesatajn forgesatan forgesate forgesinta forgesintaj forgesintajn forgesintan forgesinte forgesis forgesita forgesitaj forgesitajn forgesitan forgesite forgesonta forgesontaj forgesontajn forgesontan forgesonte forgesos forgesu forgesus
+24	324	fojo	fojoj fojojn fojon
+25	325	longe	
+26	326	kutime	
+27	327	eliri	eliranta elirantaj elirantajn elirantan elirante eliranto eliras elirinta elirintaj elirintajn elirintan elirinte eliris elironta elirontaj elirontajn elirontan elironte eliros eliru elirus
+28	328	sinjorino	s-ino sinjorinoj sinjorinojn sinjorinon
+29	329	homa	homaj homajn homan
+30	330	ordo	ordoj ordojn ordon
+31	331	foje	
+32	332	areo	areoj areojn areon
+33	333	rezulto	rezultoj rezultojn rezulton
+34	334	muziko	muzikoj muzikojn muzikon
+35	335	nombro	nombroj nombrojn nombron
+36	336	historio	historioj historiojn historion
+37	337	kreski	kreskanta kreskantaj kreskantajn kreskantan kreskante kreskas kreskinta kreskintaj kreskintajn kreskintan kreskinte kreskis kreskonta kreskontaj kreskontajn kreskontan kreskonte kreskos kresku kreskus
+38	338	akcepti	akceptanta akceptantaj akceptantajn akceptantan akceptante akceptanto akceptantoj akceptas akceptata akceptataj akceptatajn akceptatan akceptate akceptinta akceptintaj akceptintajn akceptintan akceptinte akceptis akceptita akceptitaj akceptitajn akceptitan akceptite akceptonta akceptontaj akceptontajn akceptontan akceptonte akceptos akceptota akceptu akceptus
+39	339	gravi	gravanta gravantaj gravantajn gravantan gravante gravas gravinta gravintaj gravintajn gravintan gravinte gravis gravonta gravontaj gravontajn gravontan gravonte gravos gravu gravus
+40	340	forto	fortoj fortojn forton
+41	341	halti	haltanta haltantaj haltantajn haltantan haltante haltas haltinta haltintaj haltintajn haltintan haltinte haltis haltonta haltontaj haltontajn haltontan haltonte haltos haltu haltus
+42	342	korpo	korpoj korpojn korpon
+43	343	simila	similaj similajn similan
+44	344	verŝajne	
+45	345	renkonti	renkontanta renkontantaj renkontantajn renkontantan renkontante renkontas renkontata renkontataj renkontatajn renkontatan renkontate renkontinta renkontintaj renkontintajn renkontintan renkontinte renkontis renkontita renkontitaj renkontitajn renkontitan renkontite renkontonta renkontontaj renkontontajn renkontontan renkontonte renkontos renkontu renkontus
+46	346	morgaŭ	morgau
+47	347	malbona	malbonaj malbonajn malbonan
+48	348	ludo	ludoj ludojn ludon
+49	349	he	
+50	350	proksime	
+51	351	kazo	kazoj kazojn kazon
+52	352	ĵus	jhus
+53	353	regiono	regionoj regionojn regionon
+54	354	akiri	akiranta akirantaj akirantajn akirantan akirante akiranto akirantoj akiras akirata akirataj akiratajn akiratan akirate akirinta akirintaj akirintajn akirintan akirinte akiris akirita akiritaj akiritajn akiritan akirite akironta akirontaj akirontajn akirontan akironte akiros akiru akirus
+55	355	minuto	minutoj minutojn minuton
+56	356	speco	specoj specojn specon
+57	357	speciala	specialaj specialajn specialan
+58	358	knabino	knabinoj knabinojn knabinon
+59	359	koro	koroj korojn koron
+60	360	ekzemplo	ekz ekzemploj ekzemplojn ekzemplon
+61	361	momento	momentoj momentojn momenton
+62	362	firmao	firmaoj firmaojn firmaon
+63	363	dek	
+64	364	publikigi	publikiganta publikigantaj publikigantajn publikigantan publikigante publikigas publikigata publikigataj publikigatajn publikigatan publikigate publikiginta publikigintaj publikigintajn publikigintan publikiginte publikigis publikigita publikigitaj publikigitajn publikigitan publikigite publikigonta publikigontaj publikigontajn publikigontan publikigonte publikigos publikigu publikigus
+65	365	gvidanto	gvidantoj gvidantojn gvidanton
+66	366	temi	temanta temantaj temantajn temantan temante temas teminta temintaj temintajn temintan teminte temis temonta temontaj temontajn temontan temonte temos temu temus
+67	367	rolo	roloj rolojn rolon
+68	368	pagi	paganta pagantaj pagantajn pagantan pagante paganto pagantoj pagas pagata pagataj pagatajn pagatan pagate pagato paginta pagintaj pagintajn pagintan paginte pagis pagita pagitaj pagitajn pagitan pagite pagonta pagontaj pagontajn pagontan pagonte pagos pagota pagotaj pagu pagus
+69	369	diversa	diversaj diversajn diversan
+70	370	temo	temoj temojn temon
+71	371	daŭrigi	daŭriganta daŭrigantaj daŭrigantajn daŭrigantan daŭrigante daŭriganto daŭrigas daŭrigata daŭrigataj daŭrigatajn daŭrigatan daŭrigate daŭriginta daŭrigintaj daŭrigintajn daŭrigintan daŭriginte daŭrigis daŭrigita daŭrigitaj daŭrigitajn daŭrigitan daŭrigite daŭrigonta daŭrigontaj daŭrigontajn daŭrigontan daŭrigonte daŭrigos daŭrigota daŭrigu daŭrigus
+72	372	ligi	liganta ligantaj ligantajn ligantan ligante liganto ligantoj liganton ligas ligata ligataj ligatajn ligatan ligate liginta ligintaj ligintajn ligintan liginte ligis ligita ligitaj ligitajn ligitan ligite ligonta ligontaj ligontajn ligontan ligonte ligos ligu ligus
+73	373	pasi	pasanta pasantaj pasantajn pasantan pasante pasanto pasantoj pasas pasata pasataj pasatajn pasatan pasate pasatoj pasinta pasintaj pasintajn pasintan pasinte pasinto pasinton pasis pasita pasitaj pasitajn pasitan pasite pasonta pasontaj pasontajn pasontan pasonte pasos pasu pasus
+74	374	pafi	pafanta pafantaj pafantajn pafantan pafante pafanto pafantoj pafas pafata pafataj pafatajn pafatan pafate pafinta pafintaj pafintajn pafintan pafinte pafis pafita pafitaj pafitajn pafitan pafite pafonta pafontaj pafontajn pafontan pafonte pafos pafu pafus
+75	375	gajni	gajnanta gajnantaj gajnantajn gajnantan gajnante gajnas gajnata gajnataj gajnatajn gajnatan gajnate gajninta gajnintaj gajnintajn gajnintan gajninte gajninto gajnintoj gajnintojn gajninton gajnis gajnita gajnitaj gajnitajn gajnitan gajnite gajnonta gajnontaj gajnontajn gajnontan gajnonte gajnos gajnu gajnus
+76	376	sankta	sanktaj sanktajn sanktan
+77	377	amo	amoj amojn amon
+78	378	krom	
+79	379	demando	demandoj demandojn demandon
+80	380	lumo	lumoj lumojn lumon
+81	381	esprimo	esprimoj esprimojn esprimon
+82	382	ŝipo	ŝipoj ŝipojn ŝipon
+83	383	enhavi	enhavanta enhavantaj enhavantajn enhavantan enhavante enhavas enhavata enhavataj enhavatajn enhavatan enhavate enhavinta enhavintaj enhavintajn enhavintan enhavinte enhavis enhavita enhavitaj enhavitajn enhavitan enhavite enhavonta enhavontaj enhavontajn enhavontan enhavonte enhavos enhavu enhavus
+84	384	trakti	traktanta traktantaj traktantajn traktantan traktante traktas traktata traktataj traktatajn traktatan traktate traktato traktatoj traktatojn traktaton traktinta traktintaj traktintajn traktintan traktinte traktis traktita traktitaj traktitajn traktitan traktite traktonta traktontaj traktontajn traktontan traktonte traktos traktota traktotaj traktu traktus
+85	385	konsideri	konsideranta konsiderantaj konsiderantajn konsiderantan konsiderante konsideras konsiderata konsiderataj konsideratajn konsideratan konsiderate konsiderinta konsiderintaj konsiderintajn konsiderintan konsiderinte konsideris konsiderita konsideritaj konsideritajn konsideritan konsiderite konsideronta konsiderontaj konsiderontajn konsiderontan konsideronte konsideros konsiderota konsiderotaj konsideru konsiderus
+86	386	atenti	atentanta atentantaj atentantajn atentantan atentante atentas atentata atentataj atentatajn atentatan atentate atentinta atentintaj atentintajn atentintan atentinte atentis atentita atentitaj atentitajn atentitan atentite atentonta atentontaj atentontajn atentontan atentonte atentos atentu atentus
+87	387	aspekti	aspektanta aspektantaj aspektantajn aspektantan aspektante aspektas aspektinta aspektintaj aspektintajn aspektintan aspektinte aspektis aspektonta aspektontaj aspektontajn aspektontan aspektonte aspektos aspektu aspektus
+88	388	potenco	potencoj potencojn potencon
+89	389	libera	liberaj liberajn liberan
+90	390	savi	savanta savantaj savantajn savantan savante savanto savantoj savantojn savanton savas savata savataj savatajn savatan savate savinta savintaj savintajn savintan savinte savis savita savitaj savitajn savitan savite savonta savontaj savontajn savontan savonte savos savu savus
+91	391	aperi	aperanta aperantaj aperantajn aperantan aperante aperas aperinta aperintaj aperintajn aperintan aperinte aperis aperonta aperontaj aperontajn aperontan aperonte aperos aperu aperus
+92	392	finfine	
+93	393	fali	falanta falantaj falantajn falantan falante falanto falas falata falataj falatajn falatan falate falinta falintaj falintajn falintan falinte falis falita falitaj falitajn falitan falite falonta falontaj falontajn falontan falonte falos falu falus
+94	394	daŭri	daŭranta daŭrantaj daŭrantajn daŭrantan daŭrante daŭras daŭrata daŭrataj daŭratajn daŭratan daŭrate daŭrinta daŭrintaj daŭrintajn daŭrintan daŭrinte daŭris daŭrita daŭritaj daŭritajn daŭritan daŭrite daŭronta daŭrontaj daŭrontajn daŭrontan daŭronte daŭros daŭru daŭrus
+95	395	fratino	fratinoj fratinojn fratinon
+96	396	rilato	rilatoj rilatojn rilaton
+97	397	fariĝi	fariĝanta fariĝantaj fariĝantajn fariĝantan fariĝante fariĝas fariĝinta fariĝintaj fariĝintajn fariĝintan fariĝinte fariĝis fariĝonta fariĝontaj fariĝontajn fariĝontan fariĝonte fariĝos fariĝu fariĝus
+98	398	prefere	
+99	399	membro	membroj membrojn membron
+100	400	persono	personoj personojn personon

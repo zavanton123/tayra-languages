@@ -1,0 +1,100 @@
+1	8301	bataleto	bataletoj bataletojn bataleton
+2	8302	antropologia	antropologiaj antropologiajn antropologian
+3	8303	ada	adaj adajn adan
+4	8304	imito	imitoj imitojn imiton
+5	8305	kontraŭagi	kontraŭaganta kontraŭagantaj kontraŭagantajn kontraŭagantan kontraŭagante kontraŭagas kontraŭagata kontraŭagataj kontraŭagatajn kontraŭagatan kontraŭagate kontraŭaginta kontraŭagintaj kontraŭagintajn kontraŭagintan kontraŭaginte kontraŭagis kontraŭagita kontraŭagitaj kontraŭagitajn kontraŭagitan kontraŭagite kontraŭagonta kontraŭagontaj kontraŭagontajn kontraŭagontan kontraŭagonte kontraŭagos kontraŭagu kontraŭagus
+6	8306	slovaka	slovakaj slovakajn slovakan
+7	8307	inhibicio	inhibicioj inhibiciojn inhibicion
+8	8308	bonintenca	bonintencaj bonintencajn bonintencan
+9	8309	altfrekvenco	altfrekvencoj altfrekvencojn altfrekvencon
+10	8310	inflama	inflamaj inflamajn inflaman
+11	8311	parkerigi	parkeriganta parkerigantaj parkerigantajn parkerigantan parkerigante parkerigas parkerigata parkerigataj parkerigatajn parkerigatan parkerigate parkeriginta parkerigintaj parkerigintajn parkerigintan parkeriginte parkerigis parkerigita parkerigitaj parkerigitajn parkerigitan parkerigite parkerigonta parkerigontaj parkerigontajn parkerigontan parkerigonte parkerigos parkerigu parkerigus
+12	8312	gumo	gumoj gumojn gumon
+13	8313	taksiisto	taksiistoj taksiistojn taksiiston
+14	8314	ŝovelilo	ŝoveliloj ŝovelilojn ŝovelilon
+15	8315	aŭdace	
+16	8316	eriko	erikoj erikojn erikon
+17	8317	tagnokto	tagnoktoj tagnoktojn tagnokton
+18	8318	spactempo	spactempoj spactempojn spactempon
+19	8319	slango	slangoj slangojn slangon
+20	8320	klorido	kloridoj kloridojn kloridon
+21	8321	kohereco	koherecoj koherecojn koherecon
+22	8322	unuanima	unuanimaj unuanimajn unuaniman
+23	8323	koncesio	koncesioj koncesiojn koncesion
+24	8324	akcia	akciaj akciajn akcian
+25	8325	modernisma	modernismaj modernismajn modernisman
+26	8326	tendeno	tendenoj tendenojn tendenon
+27	8327	ilumini	iluminanta iluminantaj iluminantajn iluminantan iluminante iluminanto iluminas iluminata iluminataj iluminatajn iluminatan iluminate ilumininta iluminintaj iluminintajn iluminintan ilumininte iluminis iluminita iluminitaj iluminitajn iluminitan iluminite iluminito iluminiton iluminonta iluminontaj iluminontajn iluminontan iluminonte iluminos iluminu iluminus
+28	8328	arigi	ariganta arigantaj arigantajn arigantan arigante arigas arigata arigataj arigatajn arigatan arigate ariginta arigintaj arigintajn arigintan ariginte arigis arigita arigitaj arigitajn arigitan arigite arigonta arigontaj arigontajn arigontan arigonte arigos arigu arigus
+29	8329	kaldrono	kaldronoj kaldronojn kaldronon
+30	8330	omaro	omaroj omarojn omaron
+31	8331	histerio	histerioj histeriojn histerion
+32	8332	antaŭiri	antaŭiranta antaŭirantaj antaŭirantajn antaŭirantan antaŭirante antaŭiras antaŭirinta antaŭirintaj antaŭirintajn antaŭirintan antaŭirinte antaŭiris antaŭironta antaŭirontaj antaŭirontajn antaŭirontan antaŭironte antaŭiros antaŭiru antaŭirus
+33	8333	narkoti	narkotanta narkotantaj narkotantajn narkotantan narkotante narkotas narkotata narkotataj narkotatajn narkotatan narkotate narkotinta narkotintaj narkotintajn narkotintan narkotinte narkotis narkotita narkotitaj narkotitajn narkotitan narkotite narkotonta narkotontaj narkotontajn narkotontan narkotonte narkotos narkotu narkotus
+34	8334	spina	spinaj spinajn spinan
+35	8335	persekutado	persekutadoj persekutadojn persekutadon
+36	8336	raĝo	raĝoj raĝojn raĝon
+37	8337	hindo	hindoj hindojn hindon
+38	8338	viola	violaj violajn violan
+39	8339	oblato	oblatoj oblatojn oblaton
+40	8340	alofono	alofonoj alofonojn alofonon
+41	8341	kvino	kvinoj kvinojn kvinon
+42	8342	aveno	avenoj avenojn avenon
+43	8343	fosado	fosadoj fosadojn fosadon
+44	8344	ekspansio	ekspansioj ekspansiojn ekspansion
+45	8345	kamaradeco	kamaradecoj kamaradecojn kamaradecon
+46	8346	rektigi	rektiganta rektigantaj rektigantajn rektigantan rektigante rektigas rektigata rektigataj rektigatajn rektigatan rektigate rektiginta rektigintaj rektigintajn rektigintan rektiginte rektigis rektigita rektigitaj rektigitajn rektigitan rektigite rektigonta rektigontaj rektigontajn rektigontan rektigonte rektigos rektigu rektigus
+47	8347	aŭdaco	aŭdacoj aŭdacojn aŭdacon
+48	8348	nelegebla	nelegeblaj nelegeblajn nelegeblan
+49	8349	dek du	dek du
+50	8350	pato	patoj patojn paton
+51	8351	kvarco	kvarcoj kvarcojn kvarcon
+52	8352	sukerkano	sukerkanoj sukerkanojn sukerkanon
+53	8353	ĉieliro	ĉieliroj ĉielirojn ĉieliron
+54	8354	blindeco	blindecoj blindecojn blindecon
+55	8355	mento	mentoj mentojn menton
+56	8356	ĉilia	ĉiliaj ĉiliajn ĉilian
+57	8357	spezo	spezoj spezojn spezon
+58	8358	sesangula	sesangulaj sesangulajn sesangulan
+59	8359	estuaro	estuaroj estuarojn estuaron
+60	8360	poŝtkodo	poŝtkodoj poŝtkodojn poŝtkodon
+61	8361	ortografia	ortografiaj ortografiajn ortografian
+62	8362	plako	plakoj plakojn plakon
+63	8363	kovalenta	kovalentaj kovalentajn kovalentan
+64	8364	kvociento	kvocientoj kvocientojn kvocienton
+65	8365	responda	respondaj respondajn respondan
+66	8366	buo	buoj buojn buon
+67	8367	konservaĵo	konservaĵoj konservaĵojn konservaĵon
+68	8368	elaĉeti	elaĉetanta elaĉetantaj elaĉetantajn elaĉetantan elaĉetante elaĉetas elaĉetata elaĉetataj elaĉetatajn elaĉetatan elaĉetate elaĉetinta elaĉetintaj elaĉetintajn elaĉetintan elaĉetinte elaĉetis elaĉetita elaĉetitaj elaĉetitajn elaĉetitan elaĉetite elaĉetonta elaĉetontaj elaĉetontajn elaĉetontan elaĉetonte elaĉetos elaĉetu elaĉetus
+69	8369	vizaĝa	vizaĝaj vizaĝajn vizaĝan
+70	8370	adi	
+71	8371	ĉevalaĵo	ĉevalaĵoj ĉevalaĵojn ĉevalaĵon
+72	8372	montopinto	montopintoj montopintojn montopinton
+73	8373	pulsi	pulsanta pulsantaj pulsantajn pulsantan pulsante pulsas pulsinta pulsintaj pulsintajn pulsintan pulsinte pulsis pulsonta pulsontaj pulsontajn pulsontan pulsonte pulsos pulsu pulsus
+74	8374	taŭro	taŭroj taŭrojn taŭron
+75	8375	pensema	pensemaj pensemajn penseman
+76	8376	lino	linoj linojn linon
+77	8377	direkta	direktaj direktajn direktan
+78	8378	mistikismo	mistikismoj mistikismojn mistikismon
+79	8379	partoprena	partoprenaj partoprenajn partoprenan
+80	8380	senkulpeco	senkulpecoj senkulpecojn senkulpecon
+81	8381	antikvulo	antikvuloj antikvulojn antikvulon
+82	8382	cenzuristo	cenzuristoj cenzuristojn cenzuriston
+83	8383	embria	embriaj embriajn embrian
+84	8384	brula	brulaj brulajn brulan
+85	8385	slovena	slovenaj slovenajn slovenan
+86	8386	beko	bekoj bekojn bekon
+87	8387	kulpigo	kulpigoj kulpigojn kulpigon
+88	8388	pavo	pavoj pavojn pavon
+89	8389	piednoto	piednotoj piednotojn piednoton
+90	8390	malkvieta	malkvietaj malkvietajn malkvietan
+91	8391	plasmido	plasmidoj plasmidojn plasmidon
+92	8392	gnuo	gnuoj gnuojn gnuon
+93	8393	astrologo	astrologoj astrologojn astrologon
+94	8394	interjekcio	interjekcioj interjekciojn interjekcion
+95	8395	aplika	aplikaj aplikajn aplikan
+96	8396	elokventa	elokventaj elokventajn elokventan
+97	8397	diluvo	diluvoj diluvojn diluvon
+98	8398	nihilismo	nihilismoj nihilismojn nihilismon
+99	8399	ĵaŭde	
+100	8400	ŝlimo	ŝlimoj ŝlimojn ŝlimon

@@ -1,0 +1,100 @@
+1	8501	apostrofo	apostrofoj apostrofojn apostrofon
+2	8502	laiko	laikoj laikojn laikon
+3	8503	staturo	staturoj staturojn staturon
+4	8504	ĉefroligi	ĉefroligante ĉefroligas ĉefroligis
+5	8505	fervorulo	fervoruloj fervorulojn fervorulon
+6	8506	haremo	haremoj haremojn haremon
+7	8507	humana	humanaj humanajn humanan
+8	8508	sloveno	slovenoj slovenojn slovenon
+9	8509	lipido	lipidoj lipidojn lipidon
+10	8510	bulo	buloj bulojn bulon
+11	8511	senatenta	senatentaj senatentajn senatentan
+12	8512	distance	
+13	8513	pecetigi	pecetiganta pecetigantaj pecetigantajn pecetigantan pecetigante pecetigas pecetigata pecetigataj pecetigatajn pecetigatan pecetigate pecetiginta pecetigintaj pecetigintajn pecetigintan pecetiginte pecetigis pecetigita pecetigitaj pecetigitajn pecetigitan pecetigite pecetigonta pecetigontaj pecetigontajn pecetigontan pecetigonte pecetigos pecetigu pecetigus
+14	8514	iai	iaanta iaantaj iaantajn iaantan iaante iaas iainta iaintaj iaintajn iaintan iainte iais iaonta iaontaj iaontajn iaontan iaonte iaos iau iaus
+15	8515	malklare	
+16	8516	cianido	cianidoj cianidojn cianidon
+17	8517	ŝoka	ŝokaj ŝokajn ŝokan
+18	8518	ento	entoj entojn enton
+19	8519	kantverkisto	kantverkistoj kantverkistojn kantverkiston
+20	8520	naŭdek	
+21	8521	kvinangulo	kvinanguloj kvinangulojn kvinangulon
+22	8522	karnomanĝulo	karnomanĝuloj karnomanĝulojn karnomanĝulon
+23	8523	diafragmo	diafragmoj diafragmojn diafragmon
+24	8524	lignokarbo	lignokarboj lignokarbojn lignokarbon
+25	8525	hazardludo	hazardludoj hazardludojn hazardludon
+26	8526	geologo	geologoj geologojn geologon
+27	8527	skribaĉi	skribaĉanta skribaĉantaj skribaĉantajn skribaĉantan skribaĉante skribaĉas skribaĉinta skribaĉintaj skribaĉintajn skribaĉintan skribaĉinte skribaĉis skribaĉonta skribaĉontaj skribaĉontajn skribaĉontan skribaĉonte skribaĉos skribaĉu skribaĉus
+28	8528	parolema	parolemaj parolemajn paroleman
+29	8529	ĉantaĝi	ĉantaĝanta ĉantaĝantaj ĉantaĝantajn ĉantaĝantan ĉantaĝante ĉantaĝas ĉantaĝata ĉantaĝataj ĉantaĝatajn ĉantaĝatan ĉantaĝate ĉantaĝinta ĉantaĝintaj ĉantaĝintajn ĉantaĝintan ĉantaĝinte ĉantaĝis ĉantaĝita ĉantaĝitaj ĉantaĝitajn ĉantaĝitan ĉantaĝite ĉantaĝonta ĉantaĝontaj ĉantaĝontajn ĉantaĝontan ĉantaĝonte ĉantaĝos ĉantaĝu ĉantaĝus
+30	8530	dombesto	dombestoj dombestojn dombeston
+31	8531	akvarelo	akvareloj akvarelojn akvarelon
+32	8532	prema	premaj premajn preman
+33	8533	kamionisto	kamionistoj kamionistojn kamioniston
+34	8534	praavo	praavoj praavojn praavon
+35	8535	venĝema	venĝemaj venĝemajn venĝeman
+36	8536	indikativo	indikativoj indikativojn indikativon
+37	8537	granito	granitoj granitojn graniton
+38	8538	apendico	apendicoj apendicojn apendicon
+39	8539	prostituado	prostituadoj prostituadojn prostituadon
+40	8540	facilmova	facilmovaj facilmovajn facilmovan
+41	8541	nito	nitoj nitojn niton
+42	8542	purpuro	purpuroj purpurojn purpuron
+43	8543	morfino	morfinoj morfinojn morfinon
+44	8544	tibio	tibioj tibiojn tibion
+45	8545	granato	granatoj granatojn granaton
+46	8546	vanta	vantaj vantajn vantan
+47	8547	lento	lentoj lentojn lenton
+48	8548	lamenti	lamentanta lamentantaj lamentantajn lamentantan lamentante lamentas lamentinta lamentintaj lamentintajn lamentintan lamentinte lamentis lamentonta lamentontaj lamentontajn lamentontan lamentonte lamentos lamentu lamentus
+49	8549	juvelisto	juvelistoj juvelistojn juveliston
+50	8550	inteligente	
+51	8551	aborti	abortanta abortantaj abortantajn abortantan abortante abortas abortata abortataj abortatajn abortatan abortate abortinta abortintaj abortintajn abortintan abortinte abortis abortita abortitaj abortitajn abortitan abortite abortonta abortontaj abortontajn abortontan abortonte abortos abortu abortus
+52	8552	efektiva	efektivaj efektivajn efektivan
+53	8553	streĉe	
+54	8554	trouzo	trouzoj trouzojn trouzon
+55	8555	barakti	baraktanta baraktantaj baraktantajn baraktantan baraktante baraktas baraktinta baraktintaj baraktintajn baraktintan baraktinte baraktis baraktonta baraktontaj baraktontajn baraktontan baraktonte baraktos baraktu baraktus
+56	8556	aŭtokrato	aŭtokratoj aŭtokratojn aŭtokraton
+57	8557	manĝeto	manĝetoj manĝetojn manĝeton
+58	8558	tiko	tikoj tikojn tikon
+59	8559	siriano	sirianoj sirianojn sirianon
+60	8560	sojfabo	sojfaboj sojfabojn sojfabon
+61	8561	abstraktaĵo	abstraktaĵoj abstraktaĵojn abstraktaĵon
+62	8562	medo	medoj medojn medon
+63	8563	regeneri	regeneranta regenerantaj regenerantajn regenerantan regenerante regeneras regenerata regenerataj regeneratajn regeneratan regenerate regenerinta regenerintaj regenerintajn regenerintan regenerinte regeneris regenerita regeneritaj regeneritajn regeneritan regenerite regeneronta regenerontaj regenerontajn regenerontan regeneronte regeneros regeneru regenerus
+64	8564	deŭterio	deŭterioj deŭteriojn deŭterion
+65	8565	malpliigo	malpliigoj malpliigojn malpliigon
+66	8566	ŝtatiĝo	ŝtatiĝoj ŝtatiĝojn ŝtatiĝon
+67	8567	grifelo	grifeloj grifelojn grifelon
+68	8568	cerealo	cerealoj cerealojn cerealon
+69	8569	improvizo	improvizoj improvizojn improvizon
+70	8570	litovo	litovoj litovojn litovon
+71	8571	ekbrilo	ekbriloj ekbrilojn ekbrilon
+72	8572	fraŭda	fraŭdaj fraŭdajn fraŭdan
+73	8573	superjaro	superjaroj superjarojn superjaron
+74	8574	ĝinzo	ĝinzoj ĝinzojn ĝinzon
+75	8575	bardo	bardoj bardojn bardon
+76	8576	kudromaŝino	kudromaŝinoj kudromaŝinojn kudromaŝinon
+77	8577	veluro	veluroj velurojn veluron
+78	8578	nenieco	neniecoj neniecojn neniecon
+79	8579	masaĝo	masaĝoj masaĝojn masaĝon
+80	8580	ruzo	ruzoj ruzojn ruzon
+81	8581	desegnisto	desegnistoj desegnistojn desegniston
+82	8582	afazio	afazioj afaziojn afazion
+83	8583	aborigeno	aborigenoj aborigenojn aborigenon
+84	8584	serĉrezulto	serĉrezultoj serĉrezultojn serĉrezulton
+85	8585	karikaturo	karikaturoj karikaturojn karikaturon
+86	8586	ŝario	ŝarioj ŝariojn ŝarion
+87	8587	afgano	afganoj afganojn afganon
+88	8588	sekvaĵo	sekvaĵoj sekvaĵojn sekvaĵon
+89	8589	bodhisatvo	bodhisatvoj bodhisatvojn bodhisatvon
+90	8590	gisto	gistoj gistojn giston
+91	8591	fuko	fukoj fukojn fukon
+92	8592	vampiro	vampiroj vampirojn vampiron
+93	8593	tempio	tempioj tempiojn tempion
+94	8594	ŝipkonstruejo	ŝipkonstruejoj ŝipkonstruejojn ŝipkonstruejon
+95	8595	ĵeto	ĵetoj ĵetojn ĵeton
+96	8596	feministo	feministoj feministojn feministon
+97	8597	ŝtupetaro	ŝtupetaroj ŝtupetarojn ŝtupetaron
+98	8598	cinamo	cinamoj cinamojn cinamon
+99	8599	sageto	sagetoj sagetojn sageton
+100	8600	penado	penadoj penadojn penadon

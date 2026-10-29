@@ -1,0 +1,100 @@
+1	6501	pagano	paganoj paganojn paganon
+2	6502	lumturo	lumturoj lumturojn lumturon
+3	6503	amnestio	amnestioj amnestiojn amnestion
+4	6504	tajlanda	tajlandaj tajlandajn tajlandan
+5	6505	volto	voltoj voltojn volton
+6	6506	vipo	vipoj vipojn vipon
+7	6507	redakcio	redakcioj redakciojn redakcion
+8	6508	atesto	atestoj atestojn ateston
+9	6509	paso	pasoj pasojn pason
+10	6510	kruele	
+11	6511	infarkto	infarktoj infarktojn infarkton
+12	6512	sekalo	sekaloj sekalojn sekalon
+13	6513	senkonscie	
+14	6514	kompaso	kompasoj kompasojn kompason
+15	6515	faŝisma	faŝismaj faŝismajn faŝisman
+16	6516	kandidatiĝi	kandidatiĝanta kandidatiĝantaj kandidatiĝantajn kandidatiĝantan kandidatiĝante kandidatiĝas kandidatiĝinta kandidatiĝintaj kandidatiĝintajn kandidatiĝintan kandidatiĝinte kandidatiĝis kandidatiĝonta kandidatiĝontaj kandidatiĝontajn kandidatiĝontan kandidatiĝonte kandidatiĝos kandidatiĝu kandidatiĝus
+17	6517	kastoro	kastoroj kastorojn kastoron
+18	6518	kataro	kataroj katarojn kataron
+19	6519	fifama	fifamaj fifamajn fifaman
+20	6520	tiea	tieaj tieajn tiean
+21	6521	kelke	
+22	6522	buĉejo	buĉejoj buĉejojn buĉejon
+23	6523	vomi	vomanta vomantaj vomantajn vomantan vomante vomas vominta vomintaj vomintajn vomintan vominte vomis vomonta vomontaj vomontajn vomontan vomonte vomos vomu vomus
+24	6524	antikvaĵisto	antikvaĵistoj antikvaĵistojn antikvaĵiston
+25	6525	ferma	fermaj fermajn ferman
+26	6526	festotago	festotagoj festotagojn festotagon
+27	6527	repo	repoj repojn repon
+28	6528	teniso	tenisoj tenisojn tenison
+29	6529	pacigi	paciganta pacigantaj pacigantajn pacigantan pacigante pacigantojn pacigas pacigata pacigataj pacigatajn pacigatan pacigate paciginta pacigintaj pacigintajn pacigintan paciginte pacigis pacigita pacigitaj pacigitajn pacigitan pacigite pacigonta pacigontaj pacigontajn pacigontan pacigonte pacigos pacigu pacigus
+30	6530	malmorala	malmoralaj malmoralajn malmoralan
+31	6531	biodiverseco	biodiversecoj biodiversecojn biodiversecon
+32	6532	faraono	faraonoj faraonojn faraonon
+33	6533	foiro	foiroj foirojn foiron
+34	6534	morfemo	morfemoj morfemojn morfemon
+35	6535	melankolia	melankoliaj melankoliajn melankolian
+36	6536	serpo	serpoj serpojn serpon
+37	6537	forgeso	forgesoj forgesojn forgeson
+38	6538	bruno	brunoj brunojn brunon
+39	6539	klapo	klapoj klapojn klapon
+40	6540	minusklo	minuskloj minusklojn minusklon
+41	6541	adverbo	adverboj adverbojn adverbon
+42	6542	feko	fekoj fekojn fekon
+43	6543	heleno	helenoj helenojn helenon
+44	6544	larvo	larvoj larvojn larvon
+45	6545	matena	matenaj matenajn matenan
+46	6546	plezuriga	plezurigaj plezurigajn plezurigan
+47	6547	paliĝi	paliĝanta paliĝantaj paliĝantajn paliĝantan paliĝante paliĝas paliĝinta paliĝintaj paliĝintajn paliĝintan paliĝinte paliĝis paliĝonta paliĝontaj paliĝontajn paliĝontan paliĝonte paliĝos paliĝu paliĝus
+48	6548	mandiblo	mandibloj mandiblojn mandiblon
+49	6549	adaptilo	adaptiloj adaptilojn adaptilon
+50	6550	vakso	vaksoj vaksojn vakson
+51	6551	kahelo	kaheloj kahelojn kahelon
+52	6552	ratifi	ratifanta ratifantaj ratifantajn ratifantan ratifante ratifas ratifinta ratifintaj ratifintajn ratifintan ratifinte ratifis ratifonta ratifontaj ratifontajn ratifontan ratifonte ratifos ratifu ratifus
+53	6553	klono	klonoj klonojn klonon
+54	6554	propulsi	propulsanta propulsantaj propulsantajn propulsantan propulsante propulsas propulsata propulsataj propulsatajn propulsatan propulsate propulsinta propulsintaj propulsintajn propulsintan propulsinte propulsis propulsita propulsitaj propulsitajn propulsitan propulsite propulsonta propulsontaj propulsontajn propulsontan propulsonte propulsos propulsu propulsus
+55	6555	litova	litovaj litovajn litovan
+56	6556	tekno	teknoj teknojn teknon
+57	6557	potenculo	potenculoj potenculojn potenculon
+58	6558	persiko	persikoj persikojn persikon
+59	6559	ĉefverko	ĉefverkoj ĉefverkojn ĉefverkon
+60	6560	ludkarto	ludkartoj ludkartojn ludkarton
+61	6561	poro	poroj porojn poron
+62	6562	aŭtobiografio	aŭtobiografioj aŭtobiografiojn aŭtobiografion
+63	6563	arogi	arogantaj arogantajn arogantan arogante aroganto arogas aroginta arogintaj arogintajn arogintan aroginte arogis arogonta arogontaj arogontajn arogontan arogonte arogos arogu arogus
+64	6564	iutage	
+65	6565	pastoro	pastoroj pastorojn pastoron
+66	6566	boji	bojanta bojantaj bojantajn bojantan bojante bojas bojinta bojintaj bojintajn bojintan bojinte bojis bojonta bojontaj bojontajn bojontan bojonte bojos boju bojus
+67	6567	unuaklasa	unuaklasaj unuaklasajn unuaklasan
+68	6568	ĉarpentisto	ĉarpentistoj ĉarpentistojn ĉarpentiston
+69	6569	inicialo	inicialoj inicialojn inicialon
+70	6570	prete	
+71	6571	ismo	ismoj ismojn ismon
+72	6572	lulkanto	lulkantoj lulkantojn lulkanton
+73	6573	brulaĵo	brulaĵoj brulaĵojn brulaĵon
+74	6574	sulfuro	sulfuroj sulfurojn sulfuron
+75	6575	rutina	rutinaj rutinajn rutinan
+76	6576	arkipelago	arkipelagoj arkipelagojn arkipelagon
+77	6577	utile	
+78	6578	supraĵo	supraĵoj supraĵojn supraĵon
+79	6579	eno	enoj enojn enon
+80	6580	dukino	dukinoj dukinojn dukinon
+81	6581	ĉifro	ĉifroj ĉifrojn ĉifron
+82	6582	rimeno	rimenoj rimenojn rimenon
+83	6583	nove	
+84	6584	pripensado	pripensadoj pripensadojn pripensadon
+85	6585	kvinono	kvinonoj kvinonojn kvinonon
+86	6586	angula	angulaj angulajn angulan
+87	6587	elĉerpi	elĉerpanta elĉerpantaj elĉerpantajn elĉerpantan elĉerpante elĉerpas elĉerpata elĉerpataj elĉerpatajn elĉerpatan elĉerpate elĉerpinta elĉerpintaj elĉerpintajn elĉerpintan elĉerpinte elĉerpis elĉerpitaj elĉerpitajn elĉerpitan elĉerpite elĉerponta elĉerpontaj elĉerpontajn elĉerpontan elĉerponte elĉerpos elĉerpu elĉerpus
+88	6588	vivaĵo	vivaĵoj vivaĵojn vivaĵon
+89	6589	kamelo	kameloj kamelojn kamelon
+90	6590	perfektigi	perfektiganta perfektigantaj perfektigantajn perfektigantan perfektigante perfektigas perfektigata perfektigataj perfektigatajn perfektigatan perfektigate perfektiginta perfektigintaj perfektigintajn perfektigintan perfektiginte perfektigis perfektigita perfektigitaj perfektigitajn perfektigitan perfektigite perfektigonta perfektigontaj perfektigontajn perfektigontan perfektigonte perfektigos perfektigu perfektigus
+91	6591	futbalo	futbaloj futbalojn futbalon
+92	6592	risorto	risortoj risortojn risorton
+93	6593	kaŝejo	kaŝejoj kaŝejojn kaŝejon
+94	6594	dramisto	dramistoj dramistojn dramiston
+95	6595	ĉefparto	ĉefpartoj ĉefpartojn ĉefparton
+96	6596	afgana	afganaj afganajn afganan
+97	6597	kontraŭleĝe	
+98	6598	adresaro	adresaroj adresarojn adresaron
+99	6599	subgrupo	subgrupoj subgrupojn subgrupon
+100	6600	malagrable	

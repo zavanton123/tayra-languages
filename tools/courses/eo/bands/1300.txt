@@ -1,0 +1,100 @@
+1	1201	okupiĝi	okupiĝanta okupiĝantaj okupiĝantajn okupiĝantan okupiĝante okupiĝas okupiĝinta okupiĝintaj okupiĝintajn okupiĝintan okupiĝinte okupiĝis okupiĝonta okupiĝontaj okupiĝontajn okupiĝontan okupiĝonte okupiĝos okupiĝu okupiĝus
+2	1202	ĉeesto	ĉeestoj ĉeestojn ĉeeston
+3	1203	ripozi	ripozanta ripozantaj ripozantajn ripozantan ripozante ripozas ripozinta ripozintaj ripozintajn ripozintan ripozinte ripozis ripozonta ripozontaj ripozontajn ripozontan ripozonte ripozos ripozu ripozus
+4	1204	fiulo	fiuloj fiulojn fiulon
+5	1205	renkontiĝi	renkontiĝanta renkontiĝantaj renkontiĝantajn renkontiĝantan renkontiĝante renkontiĝas renkontiĝinta renkontiĝintaj renkontiĝintajn renkontiĝintan renkontiĝinte renkontiĝis renkontiĝonta renkontiĝontaj renkontiĝontajn renkontiĝontan renkontiĝonte renkontiĝos renkontiĝu renkontiĝus
+6	1206	malsupre	
+7	1207	simbolo	simboloj simbolojn simbolon
+8	1208	sperti	spertanta spertantaj spertantajn spertantan spertante spertanto spertas spertata spertataj spertatajn spertatan spertate spertinta spertintaj spertintajn spertintan spertinte spertis spertita spertitaj spertitajn spertitan spertite spertonta spertontaj spertontajn spertontan spertonte spertos spertu spertus
+9	1209	fronto	frontoj frontojn fronton
+10	1210	propono	proponoj proponojn proponon
+11	1211	kafo	kafoj kafojn kafon
+12	1212	forkuri	forkuranta forkurantaj forkurantajn forkurantan forkurante forkuras forkurata forkurataj forkuratajn forkuratan forkurate forkurinta forkurintaj forkurintajn forkurintan forkurinte forkuris forkurita forkuritaj forkuritajn forkuritan forkurite forkuronta forkurontaj forkurontajn forkurontan forkuronte forkuros forkuru forkurus
+13	1213	jardeko	jardekoj jardekojn jardekon
+14	1214	eldono	eldonoj eldonojn eldonon
+15	1215	fingro	fingroj fingrojn fingron
+16	1216	dudek	
+17	1217	oriento	orientoj orientojn orienton
+18	1218	preĝi	preĝanta preĝantaj preĝantajn preĝantan preĝante preĝas preĝata preĝataj preĝatajn preĝatan preĝate preĝinta preĝintaj preĝintajn preĝintan preĝinte preĝis preĝita preĝitaj preĝitajn preĝitan preĝite preĝonta preĝontaj preĝontajn preĝontan preĝonte preĝos preĝu preĝus
+19	1219	germano	germanoj germanojn germanon
+20	1220	generalo	generaloj generalojn generalon
+21	1221	fluo	fluoj fluojn fluon
+22	1222	kompleta	kompletaj kompletajn kompletan
+23	1223	mirinda	mirindaj mirindajn mirindan
+24	1224	purigi	puriganta purigantaj purigantajn purigantan purigante purigas purigata purigataj purigatajn purigatan purigate puriginta purigintaj purigintajn purigintan puriginte purigis purigita purigitaj purigitajn purigitan purigite purigonta purigontaj purigontajn purigontan purigonte purigos purigu purigus
+25	1225	verkisto	verkistoj verkistojn verkiston
+26	1226	haro	haroj harojn haron
+27	1227	televido	televidoj televidojn televidon
+28	1228	foto	fotoj fotojn foton
+29	1229	bonveno	bonvenoj bonvenojn bonvenon
+30	1230	vestaĵo	vestaĵoj vestaĵojn vestaĵon
+31	1231	parolado	paroladoj paroladojn paroladon
+32	1232	elpensi	elpensanta elpensantaj elpensantajn elpensantan elpensante elpensas elpensata elpensataj elpensatajn elpensatan elpensate elpensinta elpensintaj elpensintajn elpensintan elpensinte elpensis elpensita elpensitaj elpensitajn elpensitan elpensite elpensonta elpensontaj elpensontajn elpensontan elpensonte elpensos elpensu elpensus
+33	1233	ebleco	eblecoj eblecojn eblecon
+34	1234	ridi	ridanta ridantaj ridantajn ridantan ridante ridantoj ridas ridinta ridintaj ridintajn ridintan ridinte ridis ridonta ridontaj ridontajn ridontan ridonte ridos ridu ridus
+35	1235	difini	difinanta difinantaj difinantajn difinantan difinante difinas difinata difinataj difinatajn difinatan difinate difininta difinintaj difinintajn difinintan difininte difinis difinitaj difinitajn difinitan difinite difinonta difinontaj difinontajn difinontan difinonte difinos difinotaj difinu difinus
+36	1236	lito	litoj litojn liton
+37	1237	hasti	hastanta hastantaj hastantajn hastantan hastante hastas hastinta hastintaj hastintajn hastintan hastinte hastis hastonta hastontaj hastontajn hastontan hastonte hastos hastu hastus
+38	1238	ido	idoj idojn idon
+39	1239	evolui	evoluanta evoluantaj evoluantajn evoluantan evoluante evoluas evoluinta evoluintaj evoluintajn evoluintan evoluinte evoluis evoluonta evoluontaj evoluontajn evoluontan evoluonte evoluos evoluu evoluus
+40	1240	klasika	klasikaj klasikajn klasikan
+41	1241	ĉirkaŭi	ĉirkaŭanta ĉirkaŭantaj ĉirkaŭantajn ĉirkaŭantan ĉirkaŭante ĉirkaŭas ĉirkaŭata ĉirkaŭataj ĉirkaŭatajn ĉirkaŭatan ĉirkaŭate ĉirkaŭinta ĉirkaŭintaj ĉirkaŭintajn ĉirkaŭintan ĉirkaŭinte ĉirkaŭis ĉirkaŭita ĉirkaŭitaj ĉirkaŭitajn ĉirkaŭitan ĉirkaŭite ĉirkaŭonta ĉirkaŭontaj ĉirkaŭontajn ĉirkaŭontan ĉirkaŭonte ĉirkaŭos ĉirkaŭu ĉirkaŭus
+42	1242	japana	japanaj japanajn japanan
+43	1243	vesti	vestanta vestantaj vestantajn vestantan vestante vestas vestata vestataj vestatajn vestatan vestate vestinta vestintaj vestintajn vestintan vestinte vestis vestita vestitaj vestitajn vestitan vestite vestonta vestontaj vestontajn vestontan vestonte vestos vestu vestus
+44	1244	sekreto	sekretoj sekretojn sekreton
+45	1245	entrepreno	entreprenoj entreprenojn entreprenon
+46	1246	facila	facilaj facilajn facilan
+47	1247	biblioteko	bibliotekoj bibliotekojn bibliotekon
+48	1248	inĝeniero	inĝenieroj inĝenierojn inĝenieron
+49	1249	leciono	lecionoj lecionojn lecionon
+50	1250	freneza	frenezaj frenezajn frenezan
+51	1251	rato	ratoj ratojn raton
+52	1252	baza	bazaj bazajn bazan
+53	1253	somero	someroj somerojn someron
+54	1254	haltigi	haltiganta haltigantaj haltigantajn haltigantan haltigante haltigas haltigata haltigataj haltigatajn haltigatan haltigate haltiginta haltigintaj haltigintajn haltigintan haltiginte haltigis haltigita haltigitaj haltigitajn haltigitan haltigite haltigonta haltigontaj haltigontajn haltigontan haltigonte haltigos haltigota haltigu haltigus
+55	1255	kresko	kreskoj kreskojn kreskon
+56	1256	mencii	mencianta menciantaj menciantajn menciantan menciante mencias menciata menciataj menciatajn menciatan menciate menciinta menciintaj menciintajn menciintan menciinte menciis menciita menciitaj menciitajn menciitan menciite mencionta menciontaj menciontajn menciontan mencionte mencios menciu mencius
+57	1257	estonteco	estontecoj estontecojn estontecon
+58	1258	malsana	malsanaj malsanajn malsanan
+59	1259	enketo	enketoj enketojn enketon
+60	1260	lastatempa	lastatempaj lastatempajn lastatempan
+61	1261	superi	superanta superantaj superantajn superantan superante superas superata superataj superatajn superatan superate superinta superintaj superintajn superintan superinte superis superita superitaj superitajn superitan superite superonta superontaj superontajn superontan superonte superos superu superus
+62	1262	tipo	tipoj tipojn tipon
+63	1263	distanco	distancoj distancojn distancon
+64	1264	elstara	elstaraj elstarajn elstaran
+65	1265	donaci	donacanta donacantaj donacantajn donacantan donacante donacantoj donacas donacata donacataj donacatajn donacatan donacate donacinta donacintaj donacintajn donacintan donacinte donacis donacita donacitaj donacitajn donacitan donacite donaconta donacontaj donacontajn donacontan donaconte donacos donacu donacus
+66	1266	ekrano	ekranoj ekranojn ekranon
+67	1267	nome	
+68	1268	ekzameni	ekzamenanta ekzamenantaj ekzamenantajn ekzamenantan ekzamenante ekzamenanto ekzamenantoj ekzamenantojn ekzamenas ekzamenata ekzamenataj ekzamenatajn ekzamenatan ekzamenate ekzameninta ekzamenintaj ekzamenintajn ekzamenintan ekzameninte ekzamenis ekzamenita ekzamenitaj ekzamenitajn ekzamenitan ekzamenite ekzamenonta ekzamenontaj ekzamenontajn ekzamenontan ekzamenonte ekzamenos ekzamenu ekzamenus
+69	1269	kulpi	kulpanta kulpantaj kulpantajn kulpantan kulpante kulpas kulpinta kulpintaj kulpintajn kulpintan kulpinte kulpis kulponta kulpontaj kulpontajn kulpontan kulponte kulpos kulpu kulpus
+70	1270	sekreta	sekretaj sekretajn sekretan
+71	1271	araba	arabaj arabajn araban
+72	1272	rilata	rilataj rilatajn rilatan
+73	1273	taŭgi	taŭganta taŭgantaj taŭgantajn taŭgantan taŭgante taŭgas taŭginta taŭgintaj taŭgintajn taŭgintan taŭginte taŭgis taŭgonta taŭgontaj taŭgontajn taŭgontan taŭgonte taŭgos taŭgu taŭgus
+74	1274	ordinara	ordinaraj ordinarajn ordinaran
+75	1275	nokte	
+76	1276	ĉarma	charma ĉarmaj ĉarmajn ĉarman
+77	1277	geedziĝi	geedziĝanta geedziĝantaj geedziĝantajn geedziĝantan geedziĝante geedziĝantoj geedziĝas geedziĝinta geedziĝintaj geedziĝintajn geedziĝintan geedziĝinte geedziĝis geedziĝonta geedziĝontaj geedziĝontajn geedziĝontan geedziĝonte geedziĝontoj geedziĝos geedziĝu geedziĝus
+78	1278	volo	voloj volojn volon
+79	1279	cervo	cervoj cervojn cervon
+80	1280	ĉiutage	
+81	1281	obei	obeanta obeantaj obeantajn obeantan obeante obeas obeata obeataj obeatajn obeatan obeate obeinta obeintaj obeintajn obeintan obeinte obeis obeita obeitaj obeitajn obeitan obeite obeonta obeontaj obeontajn obeontan obeonte obeos obeu obeus
+82	1282	avino	avinoj avinojn avinon
+83	1283	vintro	vintroj vintrojn vintron
+84	1284	aĉa	aĉaj aĉajn aĉan
+85	1285	muso	musoj musojn muson
+86	1286	anstataŭ	
+87	1287	federacia	federaciaj federaciajn federacian
+88	1288	prezo	prezoj prezojn prezon
+89	1289	samtempe	
+90	1290	aktiva	aktivaj aktivajn aktivan
+91	1291	bele	
+92	1292	bruligi	bruliganta bruligantaj bruligantajn bruligantan bruligante bruligas bruligata bruligataj bruligatajn bruligatan bruligate bruliginta bruligintaj bruligintajn bruligintan bruliginte bruligis bruligita bruligitaj bruligitajn bruligitan bruligite bruligonta bruligontaj bruligontajn bruligontan bruligonte bruligos bruligu bruligus
+93	1293	urba	urbaj urbajn urban
+94	1294	konfesi	konfesanta konfesantaj konfesantajn konfesantan konfesante konfesanto konfesantoj konfesas konfesata konfesataj konfesatajn konfesatan konfesate konfesinta konfesintaj konfesintajn konfesintan konfesinte konfesis konfesita konfesitaj konfesitajn konfesitan konfesite konfesonta konfesontaj konfesontajn konfesontan konfesonte konfesos konfesota konfesu konfesus
+95	1295	plenigi	pleniganta plenigantaj plenigantajn plenigantan plenigante plenigas plenigata plenigataj plenigatajn plenigatan plenigate pleniginta plenigintaj plenigintajn plenigintan pleniginte plenigis plenigita plenigitaj plenigitajn plenigitan plenigite plenigonta plenigontaj plenigontajn plenigontan plenigonte plenigos plenigu plenigus
+96	1296	bedaŭrinde	
+97	1297	manuskripto	manuskriptoj manuskriptojn manuskripton
+98	1298	instrumento	instrumentoj instrumentojn instrumenton
+99	1299	terure	
+100	1300	analizo	analizoj analizojn analizon

@@ -1,0 +1,100 @@
+1	9501	deflankiĝi	deflankiĝanta deflankiĝantaj deflankiĝantajn deflankiĝantan deflankiĝante deflankiĝas deflankiĝinta deflankiĝintaj deflankiĝintajn deflankiĝintan deflankiĝinte deflankiĝis deflankiĝonta deflankiĝontaj deflankiĝontajn deflankiĝontan deflankiĝonte deflankiĝos deflankiĝu deflankiĝus
+2	9502	kodicilo	kodiciloj kodicilojn kodicilon
+3	9503	kepo	kepoj kepojn kepon
+4	9504	juĝafero	juĝaferoj juĝaferojn juĝaferon
+5	9505	aldiri	aldiranta aldirantaj aldirantajn aldirantan aldirante aldiras aldirinta aldirintaj aldirintajn aldirintan aldirinte aldiris aldironta aldirontaj aldirontajn aldirontan aldironte aldiros aldiru aldirus
+6	9506	malfidinda	malfidindaj malfidindajn malfidindan
+7	9507	ŝtelema	ŝtelemaj ŝtelemajn ŝteleman
+8	9508	senpeka	senpekaj senpekajn senpekan
+9	9509	adorkliniĝi	adorkliniĝanta adorkliniĝantaj adorkliniĝantajn adorkliniĝantan adorkliniĝante adorkliniĝas adorkliniĝinta adorkliniĝintaj adorkliniĝintajn adorkliniĝintan adorkliniĝinte adorkliniĝis adorkliniĝonta adorkliniĝontaj adorkliniĝontajn adorkliniĝontan adorkliniĝonte adorkliniĝos adorkliniĝu adorkliniĝus
+10	9510	nescia	nesciaj nesciajn nescian
+11	9511	vivipova	vivipovaj vivipovajn vivipovan
+12	9512	saltoŝnuro	saltoŝnuroj saltoŝnurojn saltoŝnuron
+13	9513	ublieto	ublietoj ublietojn ublieton
+14	9514	skabelo	skabeloj skabelojn skabelon
+15	9515	bovejo	bovejoj bovejojn bovejon
+16	9516	dekmil	
+17	9517	randaĵo	randaĵoj randaĵojn randaĵon
+18	9518	akuŝdoloro	akuŝdoloroj akuŝdolorojn akuŝdoloron
+19	9519	akuŝi	akuŝanta akuŝantaj akuŝantajn akuŝantan akuŝante akuŝas akuŝinta akuŝintaj akuŝintajn akuŝintan akuŝinte akuŝis akuŝonta akuŝontaj akuŝontajn akuŝontan akuŝonte akuŝos akuŝu akuŝus
+20	9520	turto	turtoj turtojn turton
+21	9521	grilo	griloj grilojn grilon
+22	9522	anarĥia	anarĥiaj anarĥiajn anarĥian
+23	9523	megalomaniulo	megalomaniuloj megalomaniulojn megalomaniulon
+24	9524	knanjo	knanjoj knanjojn knanjon
+25	9525	forfikulo	forfikuloj forfikulojn forfikulon
+26	9526	rakonteto	rakontetoj rakontetojn rakonteton
+27	9527	profundegaĵo	profundegaĵoj profundegaĵojn profundegaĵon
+28	9528	serpentido	serpentidoj serpentidojn serpentidon
+29	9529	alvokiĝo	alvokiĝoj alvokiĝojn alvokiĝon
+30	9530	vakerino	vakerinoj vakerinojn vakerinon
+31	9531	lunatiko	lunatikoj lunatikojn lunatikon
+32	9532	fumaĵo	fumaĵon
+33	9533	fekulo	fekuloj fekulojn fekulon
+34	9534	babilemulo	babilemuloj babilemulojn babilemulon
+35	9535	malĉasta	malĉastaj malĉastajn malĉastan
+36	9536	frizi	frizanta frizantaj frizantajn frizantan frizante frizas frizata frizataj frizatajn frizatan frizate frizinta frizintaj frizintajn frizintan frizinte frizis frizita frizitaj frizitajn frizitan frizite frizonta frizontaj frizontajn frizontan frizonte frizos frizu frizus
+37	9537	bubino	bubinoj bubinojn bubinon
+38	9538	domaĉo	domaĉoj domaĉojn domaĉon
+39	9539	fika	fikaj fikajn fikan
+40	9540	mateni	matenanta matenantaj matenantajn matenantan matenante matenas mateninta matenintaj matenintajn matenintan mateninte matenis matenonta matenontaj matenontajn matenontan matenonte matenos matenu matenus
+41	9541	hortensio	hortensioj hortensiojn hortension
+42	9542	ostejo	ostejoj ostejojn ostejon
+43	9543	tutnokte	
+44	9544	gravediĝo	gravediĝoj gravediĝojn gravediĝon
+45	9545	urben	
+46	9546	bataladi	bataladanta bataladantaj bataladantajn bataladantan bataladante bataladas bataladinta bataladintaj bataladintajn bataladintan bataladinte bataladis bataladonta bataladontaj bataladontajn bataladontan bataladonte batalados bataladu bataladus
+47	9547	kafujo	kafujoj kafujojn kafujon
+48	9548	elradiki	elradikanta elradikantaj elradikantajn elradikantan elradikante elradikas elradikinta elradikintaj elradikintajn elradikintan elradikinte elradikis elradikonta elradikontaj elradikontajn elradikontan elradikonte elradikos elradiku elradikus
+49	9549	alpisto	alpistoj alpistojn alpiston
+50	9550	amikumi	amikumanta amikumantaj amikumantajn amikumantan amikumante amikumas amikuminta amikumintaj amikumintajn amikumintan amikuminte amikumis amikumonta amikumontaj amikumontajn amikumontan amikumonte amikumos amikumu amikumus
+51	9551	esperantistino	esperantistinoj esperantistinojn esperantistinon
+52	9552	transvesti	transvestanta transvestantaj transvestantajn transvestantan transvestante transvestas transvestinta transvestintaj transvestintajn transvestintan transvestinte transvestis transvestonta transvestontaj transvestontajn transvestontan transvestonte transvestos transvestu transvestus
+53	9553	nekalkulebla	nekalkuleblaj nekalkuleblajn nekalkuleblan
+54	9554	dancadi	dancadanta dancadantaj dancadantajn dancadantan dancadante dancadas dancadinta dancadintaj dancadintajn dancadintan dancadinte dancadis dancadonta dancadontaj dancadontajn dancadontan dancadonte dancados dancadu dancadus
+55	9555	matro	matroj matrojn matron
+56	9556	kaserolo	kaseroloj kaserolojn kaserolon
+57	9557	volitivo	volitivoj volitivojn volitivon
+58	9558	jupeto	jupetoj jupetojn jupeton
+59	9559	oldulino	oldulinoj oldulinojn oldulinon
+60	9560	poŝtoficejo	poŝtoficejoj poŝtoficejojn poŝtoficejon
+61	9561	abrikotarbo	abrikotarboj abrikotarbojn abrikotarbon
+62	9562	velveturi	velveturanta velveturantaj velveturantajn velveturantan velveturante velveturas velveturinta velveturintaj velveturintajn velveturintan velveturinte velveturis velveturonta velveturontaj velveturontajn velveturontan velveturonte velveturos velveturu velveturus
+63	9563	nubeto	nubetoj nubetojn nubeton
+64	9564	arbeto	arbetoj arbetojn arbeton
+65	9565	dissemi	dissemanta dissemantaj dissemantajn dissemantan dissemante dissemas disseminta dissemintaj dissemintajn dissemintan disseminte dissemis dissemonta dissemontaj dissemontajn dissemontan dissemonte dissemos dissemu dissemus
+66	9566	ŝaŭmvino	ŝaŭmvinoj ŝaŭmvinojn ŝaŭmvinon
+67	9567	skafandro	skafandroj skafandrojn skafandron
+68	9568	korega	koregaj koregajn koregan
+69	9569	robote	
+70	9570	interplektiĝi	interplektiĝanta interplektiĝantaj interplektiĝantajn interplektiĝantan interplektiĝante interplektiĝas interplektiĝinta interplektiĝintaj interplektiĝintajn interplektiĝintan interplektiĝinte interplektiĝis interplektiĝonta interplektiĝontaj interplektiĝontajn interplektiĝontan interplektiĝonte interplektiĝos interplektiĝu interplektiĝus
+71	9571	fato	fatoj fatojn faton
+72	9572	elreviĝo	elreviĝoj elreviĝojn elreviĝon
+73	9573	zapi	zapanta zapantaj zapantajn zapantan zapante zapas zapinta zapintaj zapintajn zapintan zapinte zapis zaponta zapontaj zapontajn zapontan zaponte zapos zapu zapus
+74	9574	sobra	sobraj sobrajn sobran
+75	9575	hobio	hobioj hobiojn hobion
+76	9576	ŝaŝliko	ŝaŝlikoj ŝaŝlikojn ŝaŝlikon
+77	9577	kondolenci	kondolencas
+78	9578	razeno	razenoj razenojn razenon
+79	9579	anĝeluso	anĝelusoj anĝelusojn anĝeluson
+80	9580	malgaje	
+81	9581	tremigi	tremiganta tremigantaj tremigantajn tremigantan tremigante tremigas tremiginta tremigintaj tremigintajn tremigintan tremiginte tremigis tremigonta tremigontaj tremigontajn tremigontan tremigonte tremigos tremigu tremigus
+82	9582	gekuzoj	gekuzo gekuzojn gekuzon
+83	9583	surporti	surportanta surportantaj surportantajn surportantan surportante surportas surportinta surportintaj surportintajn surportintan surportinte surportis surportonta surportontaj surportontajn surportontan surportonte surportos surportu surportus
+84	9584	itale	
+85	9585	senparole	
+86	9586	grunti	gruntanta gruntantaj gruntantajn gruntantan gruntante gruntas gruntinta gruntintaj gruntintajn gruntintan gruntinte gruntis gruntonta gruntontaj gruntontajn gruntontan gruntonte gruntos gruntu gruntus
+87	9587	ĉefŝlosilo	ĉefŝlosiloj ĉefŝlosilojn ĉefŝlosilon
+88	9588	portiko	portikoj portikojn portikon
+89	9589	varti	vartanta vartantaj vartantajn vartantan vartante vartas vartinta vartintaj vartintajn vartintan vartinte vartis vartonta vartontaj vartontajn vartontan vartonte vartos vartu vartus
+90	9590	instruiĝi	instruiĝanta instruiĝantaj instruiĝantajn instruiĝantan instruiĝante instruiĝas instruiĝinta instruiĝintaj instruiĝintajn instruiĝintan instruiĝinte instruiĝis instruiĝonta instruiĝontaj instruiĝontajn instruiĝontan instruiĝonte instruiĝos instruiĝu instruiĝus
+91	9591	moralaĵo	moralaĵoj moralaĵojn moralaĵon
+92	9592	agigi	agiganta agigantaj agigantajn agigantan agigante agigas agiginta agigintaj agigintajn agigintan agiginte agigis agigonta agigontaj agigontajn agigontan agigonte agigos agigu agigus
+93	9593	reokazi	reokazanta reokazantaj reokazantajn reokazantan reokazante reokazas reokazinta reokazintaj reokazintajn reokazintan reokazinte reokazis reokazonta reokazontaj reokazontajn reokazontan reokazonte reokazos reokazu reokazus
+94	9594	doktoriĝa	doktoriĝaj doktoriĝajn doktoriĝan
+95	9595	zigzagi	zigzaganta zigzagantaj zigzagantajn zigzagantan zigzagante zigzagas zigzaginta zigzagintaj zigzagintajn zigzagintan zigzaginte zigzagis zigzagonta zigzagontaj zigzagontajn zigzagontan zigzagonte zigzagos zigzagu zigzagus
+96	9596	karamboli	karambolanta karambolantaj karambolantajn karambolantan karambolante karambolas karambolinta karambolintaj karambolintajn karambolintan karambolinte karambolis karambolonta karambolontaj karambolontajn karambolontan karambolonte karambolos karambolu karambolus
+97	9597	ĉasejo	ĉasejoj ĉasejojn ĉasejon
+98	9598	amaĵo	amaĵoj amaĵojn amaĵon
+99	9599	miregi	mireganta miregantaj miregantajn miregantan miregante miregas mireginta miregintaj miregintajn miregintan mireginte miregis miregonta miregontaj miregontajn miregontan miregonte miregos miregu miregus
+100	9600	halebardo	halebardoj halebardojn halebardon

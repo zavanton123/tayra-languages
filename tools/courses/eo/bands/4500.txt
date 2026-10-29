@@ -1,0 +1,100 @@
+1	4401	metiisto	metiistoj metiistojn metiiston
+2	4402	barbo	barboj barbojn barbon
+3	4403	bonvena	bonvenaj bonvenajn bonvenan
+4	4404	arbusto	arbustoj arbustojn arbuston
+5	4405	jara	jaraj jarajn jaran
+6	4406	hierarkio	hierarkioj hierarkiojn hierarkion
+7	4407	puĉo	puĉoj puĉojn puĉon
+8	4408	konversacii	konversacianta konversaciantaj konversaciantajn konversaciantan konversaciante konversacianto konversaciantoj konversacias konversaciinta konversaciintaj konversaciintajn konversaciintan konversaciinte konversaciis konversacionta konversaciontaj konversaciontajn konversaciontan konversacionte konversacios konversaciu konversacius
+9	4409	generatoro	generatoroj generatorojn generatoron
+10	4410	tapiŝo	tapisho tapiŝoj tapiŝojn tapiŝon
+11	4411	kapelo	kapeloj kapelojn kapelon
+12	4412	ĉerko	ĉerkoj ĉerkojn ĉerkon
+13	4413	fotisto	fotistoj fotistojn fotiston
+14	4414	patrina	patrinaj patrinajn patrinan
+15	4415	bredi	bredanta bredantaj bredantajn bredantan bredante bredanto bredas bredata bredataj bredatajn bredatan bredate bredinta bredintaj bredintajn bredintan bredinte bredis bredita breditaj breditajn breditan bredite bredonta bredontaj bredontajn bredontan bredonte bredos bredu bredus
+16	4416	amendo	amendoj amendojn amendon
+17	4417	zoo	zooj zoojn zoon
+18	4418	entreprenisto	entreprenistoj entreprenistojn entrepreniston
+19	4419	malgrava	malgravaj malgravajn malgravan
+20	4420	tramo	tramoj tramojn tramon
+21	4421	ĉiela	ĉielaj ĉielajn ĉielan
+22	4422	videoludo	videoludoj videoludojn videoludon
+23	4423	adekvata	adekvataj adekvatajn adekvatan
+24	4424	konsoli	konsolanta konsolantaj konsolantajn konsolantan konsolante konsolanto konsolas konsolata konsolataj konsolatajn konsolatan konsolate konsolinta konsolintaj konsolintajn konsolintan konsolinte konsolis konsolita konsolitaj konsolitajn konsolitan konsolite konsolonta konsolontaj konsolontajn konsolontan konsolonte konsolos konsolu konsolus
+25	4425	okulfrapa	okulfrapaj okulfrapajn okulfrapan
+26	4426	alikaze	
+27	4427	kukolo	kukoloj kukolojn kukolon
+28	4428	estadi	estadanta estadantaj estadantajn estadantan estadante estadas estadinta estadintaj estadintajn estadintan estadinte estadis estadonta estadontaj estadontajn estadontan estadonte estados estadu estadus
+29	4429	allogi	alloganta allogantaj allogantajn allogantan allogante allogas allogata allogataj allogatajn allogatan allogate alloginta allogintaj allogintajn allogintan alloginte allogis allogita allogitaj allogitajn allogitan allogite allogonta allogontaj allogontajn allogontan allogonte allogos allogu allogus
+30	4430	decidiĝi	decidiĝanta decidiĝantaj decidiĝantajn decidiĝantan decidiĝante decidiĝas decidiĝinta decidiĝintaj decidiĝintajn decidiĝintan decidiĝinte decidiĝis decidiĝonta decidiĝontaj decidiĝontajn decidiĝontan decidiĝonte decidiĝos decidiĝu decidiĝus
+31	4431	manovro	manovroj manovrojn manovron
+32	4432	pako	pakoj pakojn pakon
+33	4433	plafono	plafonoj plafonojn plafonon
+34	4434	animacio	animacioj animaciojn animacion
+35	4435	formuli	formulanta formulantaj formulantajn formulantan formulante formulas formulata formulataj formulatajn formulatan formulate formulinta formulintaj formulintajn formulintan formulinte formulis formulita formulitaj formulitajn formulitan formulite formulonta formulontaj formulontajn formulontan formulonte formulos formulu formulus
+36	4436	malkaŝe	
+37	4437	prepara	preparaj preparajn preparan
+38	4438	norvega	norvegaj norvegajn norvegan
+39	4439	porcio	porcioj porciojn porcion
+40	4440	tezo	tezoj tezojn tezon
+41	4441	genro	genroj genrojn genron
+42	4442	veneni	venenanta venenantaj venenantajn venenantan venenante venenas venenata venenataj venenatajn venenatan venenate veneninta venenintaj venenintajn venenintan veneninte venenis venenita venenitaj venenitajn venenitan venenite venenonta venenontaj venenontajn venenontan venenonte venenos venenu venenus
+43	4443	pesto	pestoj pestojn peston
+44	4444	fraŭdo	fraŭdoj fraŭdojn fraŭdon
+45	4445	neevitebla	neeviteblaj neeviteblajn neeviteblan
+46	4446	malkonstrui	malkonstruanta malkonstruantaj malkonstruantajn malkonstruantan malkonstruante malkonstruas malkonstruata malkonstruataj malkonstruatajn malkonstruatan malkonstruate malkonstruinta malkonstruintaj malkonstruintajn malkonstruintan malkonstruinte malkonstruis malkonstruita malkonstruitaj malkonstruitajn malkonstruitan malkonstruite malkonstruonta malkonstruontaj malkonstruontajn malkonstruontan malkonstruonte malkonstruos malkonstruu malkonstruus
+47	4447	malbari	malbaranta malbarantaj malbarantajn malbarantan malbarante malbaras malbarata malbarataj malbaratajn malbaratan malbarate malbarinta malbarintaj malbarintajn malbarintan malbarinte malbaris malbarita malbaritaj malbaritajn malbaritan malbarite malbaronta malbarontaj malbarontajn malbarontan malbaronte malbaros malbaru malbarus
+48	4448	rapidigi	rapidiganta rapidigantaj rapidigantajn rapidigantan rapidigante rapidigas rapidiginta rapidigintaj rapidigintajn rapidigintan rapidiginte rapidigis rapidigonta rapidigontaj rapidigontajn rapidigontan rapidigonte rapidigos rapidigu rapidigus
+49	4449	celebri	celebranta celebrantaj celebrantajn celebrantan celebrante celebras celebrata celebrataj celebratajn celebratan celebrate celebrinta celebrintaj celebrintajn celebrintan celebrinte celebris celebrita celebritaj celebritajn celebritan celebrite celebronta celebrontaj celebrontajn celebrontan celebronte celebros celebru celebrus
+50	4450	vinbero	vinberoj vinberojn vinberon
+51	4451	peki	pekanta pekantaj pekantajn pekantan pekante pekantoj pekas pekinta pekintaj pekintajn pekintan pekinte pekinto pekintoj pekintojn pekinton pekis pekonta pekontaj pekontajn pekontan pekonte pekos peku pekus
+52	4452	naiva	naivaj naivajn naivan
+53	4453	katastrofa	katastrofaj katastrofajn katastrofan
+54	4454	ellabori	ellaboranta ellaborantaj ellaborantajn ellaborantan ellaborante ellaboranto ellaboranton ellaboras ellaborata ellaborataj ellaboratajn ellaboratan ellaborate ellaborinta ellaborintaj ellaborintajn ellaborintan ellaborinte ellaboris ellaborita ellaboritaj ellaboritajn ellaboritan ellaborite ellaboronta ellaborontaj ellaborontajn ellaborontan ellaboronte ellaboros ellaboru ellaborus
+55	4455	malhelpo	malhelpoj malhelpojn malhelpon
+56	4456	disfali	disfalanta disfalantaj disfalantajn disfalantan disfalante disfalas disfalinta disfalintaj disfalintajn disfalintan disfalinte disfalis disfalonta disfalontaj disfalontajn disfalontan disfalonte disfalos disfalu disfalus
+57	4457	tondi	tondanta tondantaj tondantajn tondantan tondante tondas tondata tondataj tondatajn tondatan tondate tondinta tondintaj tondintajn tondintan tondinte tondis tondita tonditaj tonditajn tonditan tondite tondonta tondontaj tondontajn tondontan tondonte tondos tondu tondus
+58	4458	ŝpruci	ŝprucanta ŝprucantaj ŝprucantajn ŝprucantan ŝprucante ŝprucas ŝprucata ŝprucataj ŝprucatajn ŝprucatan ŝprucate ŝprucinta ŝprucintaj ŝprucintajn ŝprucintan ŝprucinte ŝprucis ŝprucita ŝprucitaj ŝprucitajn ŝprucitan ŝprucite ŝpruconta ŝprucontaj ŝprucontajn ŝprucontan ŝpruconte ŝprucos ŝprucu ŝprucus
+59	4459	sunsistemo	sunsistemoj sunsistemojn sunsistemon
+60	4460	haste	
+61	4461	vilao	vilaoj vilaojn vilaon
+62	4462	malegaleco	malegalecoj malegalecojn malegalecon
+63	4463	gravedeco	gravedecoj gravedecojn gravedecon
+64	4464	umi	umanta umantaj umantajn umantan umante umas uminta umintaj umintajn umintan uminte umis umonta umontaj umontajn umontan umonte umos umu umus
+65	4465	vejno	vejnoj vejnojn vejnon
+66	4466	divizio	divizioj diviziojn divizion
+67	4467	marŝo	marŝoj marŝojn marŝon
+68	4468	socialismo	socialismoj socialismojn socialismon
+69	4469	valvo	valvoj valvojn valvon
+70	4470	disrompi	disrompanta disrompantaj disrompantajn disrompantan disrompante disrompas disrompata disrompataj disrompatajn disrompatan disrompate disrompinta disrompintaj disrompintajn disrompintan disrompinte disrompis disrompita disrompitaj disrompitajn disrompitan disrompite disromponta disrompontaj disrompontajn disrompontan disromponte disrompos disrompu disrompus
+71	4471	efekto	efektoj efektojn efekton
+72	4472	okcidenten	
+73	4473	sorbi	sorbanta sorbantaj sorbantajn sorbantan sorbante sorbanto sorbas sorbata sorbataj sorbatajn sorbatan sorbate sorbinta sorbintaj sorbintajn sorbintan sorbinte sorbis sorbita sorbitaj sorbitajn sorbitan sorbite sorbonta sorbontaj sorbontajn sorbontan sorbonte sorbos sorbu sorbus
+74	4474	ĉagreniĝi	ĉagreniĝanta ĉagreniĝantaj ĉagreniĝantajn ĉagreniĝantan ĉagreniĝante ĉagreniĝas ĉagreniĝinta ĉagreniĝintaj ĉagreniĝintajn ĉagreniĝintan ĉagreniĝinte ĉagreniĝis ĉagreniĝonta ĉagreniĝontaj ĉagreniĝontajn ĉagreniĝontan ĉagreniĝonte ĉagreniĝos ĉagreniĝu ĉagreniĝus
+75	4475	interpretisto	interpretistoj interpretistojn interpretiston
+76	4476	kultivado	kultivadoj kultivadojn kultivadon
+77	4477	mizerulo	mizeruloj mizerulojn mizerulon
+78	4478	proksimulo	proksimuloj proksimulojn proksimulon
+79	4479	obstina	obstinaj obstinajn obstinan
+80	4480	evolucio	evolucioj evoluciojn evolucion
+81	4481	unuforma	unuformaj unuformajn unuforman
+82	4482	plaĉe	
+83	4483	spado	spadoj spadojn spadon
+84	4484	parfumo	parfumoj parfumojn parfumon
+85	4485	termino	terminoj terminojn terminon
+86	4486	kondensilo	kondensiloj kondensilojn kondensilon
+87	4487	prudenta	prudentaj prudentajn prudentan
+88	4488	admiri	admiranta admirantaj admirantajn admirantan admirante admirantoj admirantojn admiranton admiras admirata admirataj admiratajn admiratan admirate admirinta admirintaj admirintajn admirintan admirinte admiris admirita admiritaj admiritajn admiritan admirite admironta admirontaj admirontajn admirontan admironte admiros admiru admirus
+89	4489	variigi	variiganta variigantaj variigantajn variigantan variigante variigas variigata variigataj variigatajn variigatan variigate variiginta variigintaj variigintajn variigintan variiginte variigis variigita variigitaj variigitajn variigitan variigite variigonta variigontaj variigontajn variigontan variigonte variigos variigu variigus
+90	4490	banĉambro	banĉambroj banĉambrojn banĉambron
+91	4491	feino	feinoj feinojn feinon
+92	4492	lardo	lardoj lardojn lardon
+93	4493	inteligento	inteligentoj inteligentojn inteligenton
+94	4494	foriĝi	foriĝanta foriĝantaj foriĝantajn foriĝantan foriĝante foriĝas foriĝinta foriĝintaj foriĝintajn foriĝintan foriĝinte foriĝis foriĝonta foriĝontaj foriĝontajn foriĝontan foriĝonte foriĝos foriĝu foriĝus
+95	4495	reno	renoj renojn renon
+96	4496	bordelo	bordeloj bordelojn bordelon
+97	4497	abundi	abundanta abundantaj abundantajn abundantan abundante abundas abundinta abundintaj abundintajn abundintan abundinte abundis abundonta abundontaj abundontajn abundontan abundonte abundos abundu abundus
+98	4498	alineo	alineoj alineojn alineon
+99	4499	kabo	kaboj kabojn kabon
+100	4500	kalibro	kalibroj kalibrojn kalibron

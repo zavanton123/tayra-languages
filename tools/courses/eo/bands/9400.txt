@@ -1,0 +1,100 @@
+1	9301	pergameno	pergamenoj pergamenojn pergamenon
+2	9302	fermiono	fermionoj fermionojn fermionon
+3	9303	poliomjelito	poliomjelitoj poliomjelitojn poliomjeliton
+4	9304	portisto	portistoj portistojn portiston
+5	9305	sori	soranta sorantaj sorantajn sorantan sorante soras sorinta sorintaj sorintajn sorintan sorinte soris soronta sorontaj sorontajn sorontan soronte soros soru sorus
+6	9306	artrito	artritoj artritojn artriton
+7	9307	volframo	volframoj volframojn volframon
+8	9308	mejozo	mejozoj mejozojn mejozon
+9	9309	fanto	fantoj fantojn fanton
+10	9310	fringo	fringoj fringojn fringon
+11	9311	apio	apioj apiojn apion
+12	9312	manovra	manovraj manovrajn manovran
+13	9313	ĝirafo	ĝirafoj ĝirafojn ĝirafon
+14	9314	soleno	solenoj solenojn solenon
+15	9315	seriozeco	seriozecoj seriozecojn seriozecon
+16	9316	parada	paradaj paradajn paradan
+17	9317	seksumo	seksumoj seksumojn seksumon
+18	9318	sendolore	
+19	9319	korako	korakoj korakojn korakon
+20	9320	ŝlemilo	ŝlemiloj ŝlemilojn ŝlemilon
+21	9321	aroga	arogaj arogajn arogan
+22	9322	lacega	lacegaj lacegajn lacegan
+23	9323	merizo	merizoj merizojn merizon
+24	9324	reenkarniĝi	reenkarniĝanta reenkarniĝantaj reenkarniĝantajn reenkarniĝantan reenkarniĝante reenkarniĝas reenkarniĝinta reenkarniĝintaj reenkarniĝintajn reenkarniĝintan reenkarniĝinte reenkarniĝis reenkarniĝonta reenkarniĝontaj reenkarniĝontajn reenkarniĝontan reenkarniĝonte reenkarniĝos reenkarniĝu reenkarniĝus
+25	9325	favorigi	favoriganta favorigantaj favorigantajn favorigantan favorigante favorigas favoriginta favorigintaj favorigintajn favorigintan favoriginte favorigis favorigonta favorigontaj favorigontajn favorigontan favorigonte favorigos favorigu favorigus
+26	9326	difektiĝi	difektiĝanta difektiĝantaj difektiĝantajn difektiĝantan difektiĝante difektiĝas difektiĝinta difektiĝintaj difektiĝintajn difektiĝintan difektiĝinte difektiĝis difektiĝonta difektiĝontaj difektiĝontajn difektiĝontan difektiĝonte difektiĝos difektiĝu difektiĝus
+27	9327	postsigno	postsignoj postsignojn postsignon
+28	9328	alitempe	
+29	9329	mirege	
+30	9330	flugarmeo	flugarmeoj flugarmeojn flugarmeon
+31	9331	redaktora	redaktoraj redaktorajn redaktoran
+32	9332	vina	vinaj vinajn vinan
+33	9333	familiestro	familiestroj familiestrojn familiestron
+34	9334	pudro	pudroj pudrojn pudron
+35	9335	alforĝi	alforĝanta alforĝantaj alforĝantajn alforĝantan alforĝante alforĝas alforĝinta alforĝintaj alforĝintajn alforĝintan alforĝinte alforĝis alforĝonta alforĝontaj alforĝontajn alforĝontan alforĝonte alforĝos alforĝu alforĝus
+36	9336	dancistino	dancistinoj dancistinojn dancistinon
+37	9337	maniulo	maniuloj maniulojn maniulon
+38	9338	rezultato	rezultatoj rezultatojn rezultaton
+39	9339	senhaveco	senhavecoj senhavecojn senhavecon
+40	9340	trompeti	trompetanta trompetantaj trompetantajn trompetantan trompetante trompetas trompetinta trompetintaj trompetintajn trompetintan trompetinte trompetis trompetonta trompetontaj trompetontajn trompetontan trompetonte trompetos trompetu trompetus
+41	9341	krispo	krispoj krispojn krispon
+42	9342	studejo	studejoj studejojn studejon
+43	9343	promenigi	promeniganta promenigantaj promenigantajn promenigantan promenigante promenigas promeniginta promenigintaj promenigintajn promenigintan promeniginte promenigis promenigonta promenigontaj promenigontajn promenigontan promenigonte promenigos promenigu promenigus
+44	9344	deksepjara	deksepjaraj deksepjarajn deksepjaran
+45	9345	alrampi	alrampanta alrampantaj alrampantajn alrampantan alrampante alrampas alrampinta alrampintaj alrampintajn alrampintan alrampinte alrampis alramponta alrampontaj alrampontajn alrampontan alramponte alrampos alrampu alrampus
+46	9346	anunciacio	anunciacioj anunciaciojn anunciacion
+47	9347	encerbigi	encerbiganta encerbigantaj encerbigantajn encerbigantan encerbigante encerbigas encerbiginta encerbigintaj encerbigintajn encerbigintan encerbiginte encerbigis encerbigonta encerbigontaj encerbigontajn encerbigontan encerbigonte encerbigos encerbigu encerbigus
+48	9348	kleo	kleoj kleojn kleon
+49	9349	kontraŭnatura	kontraŭnaturaj kontraŭnaturajn kontraŭnaturan
+50	9350	brogi	broganta brogantaj brogantajn brogantan brogante brogas brogata brogataj brogatajn brogatan brogate broginta brogintaj brogintajn brogintan broginte brogis brogita brogitaj brogitajn brogitan brogite brogonta brogontaj brogontajn brogontan brogonte brogos brogu brogus
+51	9351	kelnerino	kelnerinoj kelnerinojn kelnerinon
+52	9352	blazo	blazoj blazojn blazon
+53	9353	avokado	avokadoj avokadojn avokadon
+54	9354	venadi	
+55	9355	fantomloĝita	fantomloĝitaj fantomloĝitajn fantomloĝitan
+56	9356	orgio	orgioj orgiojn orgion
+57	9357	fruktarbejo	fruktarbejoj fruktarbejojn fruktarbejon
+58	9358	aliformigi	aliformiganta aliformigantaj aliformigantajn aliformigantan aliformigante aliformigas aliformigata aliformigataj aliformigatajn aliformigatan aliformigate aliformiginta aliformigintaj aliformigintajn aliformigintan aliformiginte aliformigis aliformigita aliformigitaj aliformigitajn aliformigitan aliformigite aliformigonta aliformigontaj aliformigontajn aliformigontan aliformigonte aliformigos aliformigu aliformigus
+59	9359	sidvango	sidvangoj sidvangojn sidvangon
+60	9360	grafologo	grafologoj grafologojn grafologon
+61	9361	orgojlo	orgojloj orgojlojn orgojlon
+62	9362	proksimumi	proksimumanta proksimumantaj proksimumantajn proksimumantan proksimumante proksimumas proksimuminta proksimumintaj proksimumintajn proksimumintan proksimuminte proksimumis proksimumonta proksimumontaj proksimumontajn proksimumontan proksimumonte proksimumos proksimumu proksimumus
+63	9363	geonkloj	geonklo geonklojn geonklon
+64	9364	mespilo	mespiloj mespilojn mespilon
+65	9365	teujo	teujoj teujojn teujon
+66	9366	piratino	piratinoj piratinojn piratinon
+67	9367	kunludi	kunludanta kunludantaj kunludantajn kunludantan kunludante kunludas kunludinta kunludintaj kunludintajn kunludintan kunludinte kunludis kunludonta kunludontaj kunludontajn kunludontan kunludonte kunludos kunludu kunludus
+68	9368	neniamo	neniamoj neniamojn neniamon
+69	9369	alsupri	alsupranta alsuprantaj alsuprantajn alsuprantan alsuprante alsupras alsuprinta alsuprintaj alsuprintajn alsuprintan alsuprinte alsupris alsupronta alsuprontaj alsuprontajn alsuprontan alsupronte alsupros alsupru alsuprus
+70	9370	adiaŭfesto	adiaŭfestoj adiaŭfestojn adiaŭfeston
+71	9371	montro	montroj montrojn montron
+72	9372	malviva	malvivaj malvivajn malvivan
+73	9373	memamo	memamoj memamojn memamon
+74	9374	ĥina	
+75	9375	kruelega	kruelegaj kruelegajn kruelegan
+76	9376	gravedigi	gravediganta gravedigantaj gravedigantajn gravedigantan gravedigante gravedigas gravediginta gravedigintaj gravedigintajn gravedigintan gravediginte gravedigis gravedigonta gravedigontaj gravedigontajn gravedigontan gravedigonte gravedigos gravedigu gravedigus
+77	9377	bemolo	bemoloj bemolojn bemolon
+78	9378	laŭteco	laŭtecoj laŭtecojn laŭtecon
+79	9379	mokao	mokaoj mokaojn mokaon
+80	9380	klozeto	klozetoj klozetojn klozeton
+81	9381	mokaa	mokaaj mokaajn mokaan
+82	9382	dekalkuli	dekalkulanta dekalkulantaj dekalkulantajn dekalkulantan dekalkulante dekalkulas dekalkulinta dekalkulintaj dekalkulintajn dekalkulintan dekalkulinte dekalkulis dekalkulonta dekalkulontaj dekalkulontajn dekalkulontan dekalkulonte dekalkulos dekalkulu dekalkulus
+83	9383	vespiri	vespiranta vespirantaj vespirantajn vespirantan vespirante vespiras vespirinta vespirintaj vespirintajn vespirintan vespirinte vespiris vespironta vespirontaj vespirontajn vespirontan vespironte vespiros vespiru vespirus
+84	9384	gejaĉo	gejaĉoj gejaĉojn gejaĉon
+85	9385	metronomo	metronomoj metronomojn metronomon
+86	9386	ekflori	ekfloranta ekflorantaj ekflorantajn ekflorantan ekflorante ekfloras ekflorinta ekflorintaj ekflorintajn ekflorintan ekflorinte ekfloris ekfloronta ekflorontaj ekflorontajn ekflorontan ekfloronte ekfloros ekfloru ekflorus
+87	9387	ŝipruino	ŝipruinoj ŝipruinojn ŝipruinon
+88	9388	orkestrestro	orkestrestroj orkestrestrojn orkestrestron
+89	9389	kareco	karecoj karecojn karecon
+90	9390	ridetigi	ridetiganta ridetigantaj ridetigantajn ridetigantan ridetigante ridetigas ridetiginta ridetigintaj ridetigintajn ridetigintan ridetiginte ridetigis ridetigonta ridetigontaj ridetigontajn ridetigontan ridetigonte ridetigos ridetigu ridetigus
+91	9391	vaflo	vafloj vaflojn vaflon
+92	9392	lanta	lantaj lantajn lantan
+93	9393	hipokritaĵo	hipokritaĵoj hipokritaĵojn hipokritaĵon
+94	9394	ĉipso	ĉipsoj ĉipsojn ĉipson
+95	9395	steko	stekoj stekojn stekon
+96	9396	bido	bidoj bidojn bidon
+97	9397	flageto	flagetoj flagetojn flageton
+98	9398	kripo	kripoj kripojn kripon
+99	9399	ĉiuspeca	ĉiuspecaj ĉiuspecajn ĉiuspecan
+100	9400	krevmaizo	krevmaizoj krevmaizojn krevmaizon

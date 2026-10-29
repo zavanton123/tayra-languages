@@ -1,0 +1,100 @@
+1	5501	fiereco	fierecoj fierecojn fierecon
+2	5502	diocezo	diocezoj diocezojn diocezon
+3	5503	antaŭeco	antaŭecoj antaŭecojn antaŭecon
+4	5504	blinde	
+5	5505	neĝi	neĝanta neĝantaj neĝantajn neĝantan neĝante neĝas neĝinta neĝintaj neĝintajn neĝintan neĝinte neĝis neĝonta neĝontaj neĝontajn neĝontan neĝonte neĝos neĝu neĝus
+6	5506	fervore	
+7	5507	vortico	vorticoj vorticojn vorticon
+8	5508	titano	titanoj titanojn titanon
+9	5509	budhano	budhanoj budhanojn budhanon
+10	5510	co	
+11	5511	kongrui	kongruanta kongruantaj kongruantajn kongruantan kongruante kongruas kongruinta kongruintaj kongruintajn kongruintan kongruinte kongruis kongruonta kongruontaj kongruontajn kongruontan kongruonte kongruos kongruu kongruus
+12	5512	mueli	muelanta muelantaj muelantajn muelantan muelante muelas muelata muelataj muelatajn muelatan muelate muelinta muelintaj muelintajn muelintan muelinte muelis muelita muelitaj muelitajn muelitan muelite muelonta muelontaj muelontajn muelontan muelonte muelos muelu muelus
+13	5513	koverto	kovertoj kovertojn koverton
+14	5514	neŭrologia	neŭrologiaj neŭrologiajn neŭrologian
+15	5515	presejo	presejoj presejojn presejon
+16	5516	rojo	rojoj rojojn rojon
+17	5517	neo	neoj neojn neon
+18	5518	alarmilo	alarmiloj alarmilojn alarmilon
+19	5519	pastrino	pastrinoj pastrinojn pastrinon
+20	5520	animeo	animeoj animeojn animeon
+21	5521	malglata	malglataj malglatajn malglatan
+22	5522	amikiĝi	amikiĝanta amikiĝantaj amikiĝantajn amikiĝantan amikiĝante amikiĝas amikiĝinta amikiĝintaj amikiĝintajn amikiĝintan amikiĝinte amikiĝis amikiĝonta amikiĝontaj amikiĝontajn amikiĝontan amikiĝonte amikiĝos amikiĝu amikiĝus
+23	5523	malleviĝi	malleviĝanta malleviĝantaj malleviĝantajn malleviĝantan malleviĝante malleviĝas malleviĝinta malleviĝintaj malleviĝintajn malleviĝintan malleviĝinte malleviĝis malleviĝonta malleviĝontaj malleviĝontajn malleviĝontan malleviĝonte malleviĝos malleviĝu malleviĝus
+24	5524	telefonnumero	telefonnumeroj telefonnumerojn telefonnumeron
+25	5525	brua	bruaj bruajn bruan
+26	5526	breto	bretoj bretojn breton
+27	5527	ladskatolo	ladskatoloj ladskatolojn ladskatolon
+28	5528	paŝti	paŝtanta paŝtantaj paŝtantajn paŝtantan paŝtante paŝtas paŝtinta paŝtintaj paŝtintajn paŝtintan paŝtinte paŝtis paŝtonta paŝtontaj paŝtontajn paŝtontan paŝtonte paŝtos paŝtu paŝtus
+29	5529	brutala	brutalaj brutalajn brutalan
+30	5530	fame	
+31	5531	ambigua	ambiguaj ambiguajn ambiguan
+32	5532	naĝilo	naĝiloj naĝilojn naĝilon
+33	5533	gepatro	gepatrojn gepatron
+34	5534	skii	skianta skiantaj skiantajn skiantan skiante skianto skiantoj skias skiinta skiintaj skiintajn skiintan skiinte skiis skionta skiontaj skiontajn skiontan skionte skios skiu skius
+35	5535	bofratino	bofratinoj bofratinojn bofratinon
+36	5536	sfera	sferaj sferajn sferan
+37	5537	krueleco	kruelecoj kruelecojn kruelecon
+38	5538	arkaika	arkaikaj arkaikajn arkaikan
+39	5539	atena	atenaj atenajn atenan
+40	5540	videblo	videbloj videblojn videblon
+41	5541	angino	anginoj anginojn anginon
+42	5542	faldo	faldoj faldojn faldon
+43	5543	programaro	programaroj programarojn programaron
+44	5544	skulptisto	skulptistoj skulptistojn skulptiston
+45	5545	konspiri	konspiranta konspirantaj konspirantajn konspirantan konspirante konspiranto konspirantoj konspirantojn konspiras konspirinta konspirintaj konspirintajn konspirintan konspirinte konspiris konspironta konspirontaj konspirontajn konspirontan konspironte konspiros konspiru konspirus
+46	5546	fremdlingvo	fremdlingvoj fremdlingvojn fremdlingvon
+47	5547	degradi	degradanta degradantaj degradantajn degradantan degradante degradas degradata degradataj degradatajn degradatan degradate degradinta degradintaj degradintajn degradintan degradinte degradis degradita degraditaj degraditajn degraditan degradite degradonta degradontaj degradontajn degradontan degradonte degrados degradu degradus
+48	5548	blue	
+49	5549	vide	
+50	5550	senhonta	senhontaj senhontajn senhontan
+51	5551	feki	fekanta fekantaj fekantajn fekantan fekante fekas fekinta fekintaj fekintajn fekintan fekinte fekis fekonta fekontaj fekontajn fekontan fekonte fekos feku fekus
+52	5552	surteriĝi	surteriĝanta surteriĝantaj surteriĝantajn surteriĝantan surteriĝante surteriĝas surteriĝinta surteriĝintaj surteriĝintajn surteriĝintan surteriĝinte surteriĝis surteriĝonta surteriĝontaj surteriĝontajn surteriĝontan surteriĝonte surteriĝos surteriĝu surteriĝus
+53	5553	masto	mastoj mastojn maston
+54	5554	pledo	pledoj pledojn pledon
+55	5555	razi	razanta razantaj razantajn razantan razante razas razata razataj razatajn razatan razate razinta razintaj razintajn razintan razinte razis razita razitaj razitajn razitan razite razonta razontaj razontajn razontan razonte razos razu razus
+56	5556	pulvoro	pulvoroj pulvorojn pulvoron
+57	5557	fonologia	fonologiaj fonologiajn fonologian
+58	5558	koincido	koincidoj koincidojn koincidon
+59	5559	kasisto	kasistoj kasistojn kasiston
+60	5560	konuso	konusoj konusojn konuson
+61	5561	poŝtmarko	poŝtmarkoj poŝtmarkojn poŝtmarkon
+62	5562	simplanima	simplanimaj simplanimajn simplaniman
+63	5563	uranio	uranioj uraniojn uranion
+64	5564	pavimi	pavimanta pavimantaj pavimantajn pavimantan pavimante pavimas pavimata pavimataj pavimatajn pavimatan pavimate paviminta pavimintaj pavimintajn pavimintan paviminte pavimis pavimita pavimitaj pavimitajn pavimitan pavimite pavimonta pavimontaj pavimontajn pavimontan pavimonte pavimos pavimu pavimus
+65	5565	ceramika	ceramikaj ceramikajn ceramikan
+66	5566	konstruisto	konstruistoj konstruistojn konstruiston
+67	5567	reklamo	reklamoj reklamojn reklamon
+68	5568	falĉi	falĉanta falĉantaj falĉantajn falĉantan falĉante falĉas falĉata falĉataj falĉatajn falĉatan falĉate falĉinta falĉintaj falĉintajn falĉintan falĉinte falĉis falĉita falĉitaj falĉitajn falĉitan falĉite falĉonta falĉontaj falĉontajn falĉontan falĉonte falĉos falĉu falĉus
+69	5569	vintre	
+70	5570	vokto	voktoj voktojn vokton
+71	5571	tuŝo	tuŝoj tuŝojn tuŝon
+72	5572	gasa	gasaj gasajn gasan
+73	5573	aparataro	aparataroj aparatarojn aparataron
+74	5574	fasado	fasadoj fasadojn fasadon
+75	5575	neglekti	neglektanta neglektantaj neglektantajn neglektantan neglektante neglektas neglektata neglektataj neglektatajn neglektatan neglektate neglektinta neglektintaj neglektintajn neglektintan neglektinte neglektis neglektita neglektitaj neglektitajn neglektitan neglektite neglektonta neglektontaj neglektontajn neglektontan neglektonte neglektos neglektu neglektus
+76	5576	nerekte	
+77	5577	ortografio	ortografioj ortografiojn ortografion
+78	5578	pedali	pedalanta pedalantaj pedalantajn pedalantan pedalante pedalas pedalinta pedalintaj pedalintajn pedalintan pedalinte pedalis pedalonta pedalontaj pedalontajn pedalontan pedalonte pedalos pedalu pedalus
+79	5579	glano	glanoj glanojn glanon
+80	5580	muzikilo	muzikiloj muzikilojn muzikilon
+81	5581	skarabo	skaraboj skarabojn skarabon
+82	5582	cemento	cementoj cementojn cementon
+83	5583	kapitalisma	kapitalismaj kapitalismajn kapitalisman
+84	5584	koncilio	koncilioj konciliojn koncilion
+85	5585	kampulo	kampuloj kampulojn kampulon
+86	5586	okazintaĵo	okazintaĵoj okazintaĵojn okazintaĵon
+87	5587	grajno	grajnoj grajnojn grajnon
+88	5588	monujo	monujoj monujojn monujon
+89	5589	ŝtoneto	ŝtonetoj ŝtonetojn ŝtoneton
+90	5590	soldulo	solduloj soldulojn soldulon
+91	5591	koncerna	koncernaj koncernajn koncernan
+92	5592	sensence	
+93	5593	pseŭdonimo	pseŭdonimoj pseŭdonimojn pseŭdonimon
+94	5594	dilemo	dilemoj dilemojn dilemon
+95	5595	pledi	pledanta pledantaj pledantajn pledantan pledante pledas pledinta pledintaj pledintajn pledintan pledinte pledis pledonta pledontaj pledontajn pledontan pledonte pledos pledu pledus
+96	5596	transversa	transversaj transversajn transversan
+97	5597	matematikisto	matematikistoj matematikistojn matematikiston
+98	5598	mansardo	mansardoj mansardojn mansardon
+99	5599	malsamo	malsamoj malsamojn malsamon
+100	5600	karibuo	karibuoj karibuojn karibuon

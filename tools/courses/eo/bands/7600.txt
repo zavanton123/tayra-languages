@@ -1,0 +1,100 @@
+1	7501	algebra	algebraj algebrajn algebran
+2	7502	modulado	moduladoj moduladojn moduladon
+3	7503	kronologio	kronologioj kronologiojn kronologion
+4	7504	kontento	kontentoj kontentojn kontenton
+5	7505	probabla	probablaj probablajn probablan
+6	7506	konvojo	konvojoj konvojojn konvojon
+7	7507	modemo	modemoj modemojn modemon
+8	7508	apokalipso	apokalipsoj apokalipsojn apokalipson
+9	7509	ridindigi	ridindiganta ridindigantaj ridindigantajn ridindigantan ridindigante ridindigas ridindigata ridindigataj ridindigatajn ridindigatan ridindigate ridindiginta ridindigintaj ridindigintajn ridindigintan ridindiginte ridindigis ridindigita ridindigitaj ridindigitajn ridindigitan ridindigite ridindigonta ridindigontaj ridindigontajn ridindigontan ridindigonte ridindigos ridindigu ridindigus
+10	7510	foliumi	foliumanta foliumantaj foliumantajn foliumantan foliumante foliumas foliumata foliumataj foliumatajn foliumatan foliumate foliuminta foliumintaj foliumintajn foliumintan foliuminte foliumis foliumita foliumitaj foliumitajn foliumitan foliumite foliumonta foliumontaj foliumontajn foliumontan foliumonte foliumos foliumu foliumus
+11	7511	teko	tekoj tekojn tekon
+12	7512	fanfaro	fanfaroj fanfarojn fanfaron
+13	7513	adjutanto	adjutantoj adjutantojn adjutanton
+14	7514	najtingalo	najtingaloj najtingalojn najtingalon
+15	7515	pokero	pokeroj pokerojn pokeron
+16	7516	karaoko	karaokeo karaokoj karaokojn karaokon
+17	7517	kerubo	keruboj kerubojn kerubon
+18	7518	israelano	israelanoj israelanojn israelanon
+19	7519	predikisto	predikistoj predikistojn predikiston
+20	7520	tolerema	toleremaj toleremajn tolereman
+21	7521	mamnutri	mamnutranta mamnutrantaj mamnutrantajn mamnutrantan mamnutrante mamnutras mamnutrata mamnutrataj mamnutratajn mamnutratan mamnutrate mamnutrinta mamnutrintaj mamnutrintajn mamnutrintan mamnutrinte mamnutris mamnutrita mamnutritaj mamnutritajn mamnutritan mamnutrite mamnutronta mamnutrontaj mamnutrontajn mamnutrontan mamnutronte mamnutros mamnutru mamnutrus
+22	7522	imperiismo	imperiismoj imperiismojn imperiismon
+23	7523	poluaĵo	poluaĵoj poluaĵojn poluaĵon
+24	7524	misa	misaj misajn misan
+25	7525	grandparte	
+26	7526	konĉerto	konĉertoj konĉertojn konĉerton
+27	7527	verdi	verdanta verdantaj verdantajn verdantan verdante verdas verdinta verdintaj verdintajn verdintan verdinte verdis verdonta verdontaj verdontajn verdontan verdonte verdos verdu verdus
+28	7528	rankoro	rankoron
+29	7529	optimisto	optimistoj optimistojn optimiston
+30	7530	gobio	gobioj gobiojn gobion
+31	7531	diverskolora	diverskoloraj diverskolorajn diverskoloran
+32	7532	saniga	sanigaj sanigajn sanigan
+33	7533	kadeto	kadetoj kadetojn kadeton
+34	7534	ĉefrolo	ĉefroloj ĉefrolojn ĉefrolon
+35	7535	recenzi	recenzanta recenzantaj recenzantajn recenzantan recenzante recenzas recenzinta recenzintaj recenzintajn recenzintan recenzinte recenzis recenzonta recenzontaj recenzontajn recenzontan recenzonte recenzos recenzu recenzus
+36	7536	toksino	toksinoj toksinojn toksinon
+37	7537	teksa	teksaj teksajn teksan
+38	7538	ludejo	ludejoj ludejojn ludejon
+39	7539	optimismo	optimismoj optimismojn optimismon
+40	7540	verando	verandoj verandojn verandon
+41	7541	asbesto	asbestoj asbestojn asbeston
+42	7542	katekismo	katekismoj katekismojn katekismon
+43	7543	kunlaborado	kunlaboradoj kunlaboradojn kunlaboradon
+44	7544	sendolora	sendoloraj sendolorajn sendoloran
+45	7545	renoma	renomaj renomajn renoman
+46	7546	ŝoveli	ŝovelanta ŝovelantaj ŝovelantajn ŝovelantan ŝovelante ŝovelas ŝovelinta ŝovelintaj ŝovelintajn ŝovelintan ŝovelinte ŝovelis ŝovelonta ŝovelontaj ŝovelontajn ŝovelontan ŝovelonte ŝovelos ŝovelu ŝovelus
+47	7547	dekstrulo	dekstruloj dekstrulojn dekstrulon
+48	7548	knari	knaranta knarantaj knarantajn knarantan knarante knaras knarinta knarintaj knarintajn knarintan knarinte knaris knaronta knarontaj knarontajn knarontan knaronte knaros knaru knarus
+49	7549	ruĝo	ruĝoj ruĝojn ruĝon
+50	7550	ruze	
+51	7551	finpretigi	finpretiganta finpretigantaj finpretigantajn finpretigantan finpretigante finpretigas finpretigata finpretigataj finpretigatajn finpretigatan finpretigate finpretiginta finpretigintaj finpretigintajn finpretigintan finpretiginte finpretigis finpretigita finpretigitaj finpretigitajn finpretigitan finpretigite finpretigonta finpretigontaj finpretigontajn finpretigontan finpretigonte finpretigos finpretigu finpretigus
+52	7552	blovinstrumento	blovinstrumentoj blovinstrumentojn blovinstrumenton
+53	7553	dizelo	dizeloj dizelojn dizelon
+54	7554	balistika	balistikaj balistikajn balistikan
+55	7555	profeta	profetaj profetajn profetan
+56	7556	ironio	ironioj ironiojn ironion
+57	7557	aŭtisto	aŭtistoj aŭtistojn aŭtiston
+58	7558	salamandro	salamandroj salamandrojn salamandron
+59	7559	glita	glitaj glitajn glitan
+60	7560	vekhorloĝo	vekhorloĝoj vekhorloĝojn vekhorloĝon
+61	7561	fantazia	fantaziaj fantaziajn fantazian
+62	7562	aleo	aleoj aleojn aleon
+63	7563	boko	bokoj bokojn bokon
+64	7564	fingringo	fingringoj fingringojn fingringon
+65	7565	trompe	
+66	7566	dekoracio	dekoracioj dekoraciojn dekoracion
+67	7567	rufa	rufaj rufajn rufan
+68	7568	sendorma	sendormaj sendormajn sendorman
+69	7569	plialtiĝi	plialtiĝanta plialtiĝantaj plialtiĝantajn plialtiĝantan plialtiĝante plialtiĝas plialtiĝinta plialtiĝintaj plialtiĝintajn plialtiĝintan plialtiĝinte plialtiĝis plialtiĝonta plialtiĝontaj plialtiĝontajn plialtiĝontan plialtiĝonte plialtiĝos plialtiĝu plialtiĝus
+70	7570	deksepa	deksepaj deksepajn deksepan
+71	7571	kalcio	kalcioj kalciojn kalcion
+72	7572	luterano	luteranoj luteranojn luteranon
+73	7573	virabelo	virabeloj virabelojn virabelon
+74	7574	klavo	klavoj klavojn klavon
+75	7575	okula	okulaj okulajn okulan
+76	7576	oazo	oazoj oazojn oazon
+77	7577	taverno	tavernoj tavernojn tavernon
+78	7578	bonfaro	bonfaroj bonfarojn bonfaron
+79	7579	cisterno	cisternoj cisternojn cisternon
+80	7580	materialismo	materialismoj materialismojn materialismon
+81	7581	stamfi	stamfanta stamfantaj stamfantajn stamfantan stamfante stamfanto stamfas stamfinta stamfintaj stamfintajn stamfintan stamfinte stamfis stamfonta stamfontaj stamfontajn stamfontan stamfonte stamfos stamfu stamfus
+82	7582	histeria	histeriaj histeriajn histerian
+83	7583	krema	kreman
+84	7584	minuskla	minusklaj minusklajn minusklan
+85	7585	reaĉeti	reaĉetanta reaĉetantaj reaĉetantajn reaĉetantan reaĉetante reaĉetas reaĉetinta reaĉetintaj reaĉetintajn reaĉetintan reaĉetinte reaĉetis reaĉetonta reaĉetontaj reaĉetontajn reaĉetontan reaĉetonte reaĉetos reaĉetu reaĉetus
+86	7586	ŝajno	ŝajnoj ŝajnojn ŝajnon
+87	7587	fraŭdi	fraŭdanta fraŭdantaj fraŭdantajn fraŭdantan fraŭdante fraŭdas fraŭdinta fraŭdintaj fraŭdintajn fraŭdintan fraŭdinte fraŭdis fraŭdonta fraŭdontaj fraŭdontajn fraŭdontan fraŭdonte fraŭdos fraŭdu fraŭdus
+88	7588	oranĝkolora	oranĝkoloraj oranĝkolorajn oranĝkoloran
+89	7589	analfabeto	analfabetoj analfabetojn analfabeton
+90	7590	rento	rentoj rentojn renton
+91	7591	kronologia	kronologiaj kronologiajn kronologian
+92	7592	dizelmotoro	dizelmotoroj dizelmotorojn dizelmotoron
+93	7593	idealigi	idealiganta idealigantaj idealigantajn idealigantan idealigante idealigas idealigata idealigataj idealigatajn idealigatan idealigate idealiginta idealigintaj idealigintajn idealigintan idealiginte idealigis idealigita idealigitaj idealigitajn idealigitan idealigite idealigonta idealigontaj idealigontajn idealigontan idealigonte idealigos idealigu idealigus
+94	7594	nesekura	nesekuraj nesekurajn nesekuran
+95	7595	sintezilo	sinteziloj sintezilojn sintezilon
+96	7596	ebura	eburaj eburajn eburan
+97	7597	girlando	girlandoj girlandojn girlandon
+98	7598	oranĝo	oranĝoj oranĝojn oranĝon
+99	7599	plando	plandoj plandojn plandon
+100	7600	disfalo	disfaloj disfalojn disfalon

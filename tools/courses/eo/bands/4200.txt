@@ -1,0 +1,100 @@
+1	4101	silente	
+2	4102	giganto	gigantoj gigantojn giganton
+3	4103	manlibro	manlibroj manlibrojn manlibron
+4	4104	eltrovo	eltrovoj eltrovojn eltrovon
+5	4105	baro	baroj barojn baron
+6	4106	trovebli	troveblanta troveblantaj troveblantajn troveblantan troveblante troveblas troveblinta troveblintaj troveblintajn troveblintan troveblinte troveblis troveblonta troveblontaj troveblontajn troveblontan troveblonte troveblos troveblu troveblus
+7	4107	blonda	blondaj blondajn blondan
+8	4108	magnetofono	magnetofonoj magnetofonojn magnetofonon
+9	4109	greno	grenoj grenojn grenon
+10	4110	dramo	dramoj dramojn dramon
+11	4111	progresema	progresemaj progresemajn progreseman
+12	4112	akĉento	akĉentoj akĉentojn akĉenton
+13	4113	polusa	polusaj polusajn polusan
+14	4114	enciklopedio	enciklopedioj enciklopediojn enciklopedion
+15	4115	kapdoloro	kapdoloroj kapdolorojn kapdoloron
+16	4116	intima	intimaj intimajn intiman
+17	4117	disputi	disputanta disputantaj disputantajn disputantan disputante disputas disputata disputataj disputatajn disputatan disputate disputinta disputintaj disputintajn disputintan disputinte disputis disputita disputitaj disputitajn disputitan disputite disputonta disputontaj disputontajn disputontan disputonte disputos disputu disputus
+18	4118	kontraŭo	kontraŭoj kontraŭojn kontraŭon
+19	4119	parlamentano	parlamentanoj parlamentanojn parlamentanon
+20	4120	lunde	
+21	4121	momente	
+22	4122	kubo	kuboj kubojn kubon
+23	4123	leki	lekanta lekantaj lekantajn lekantan lekante lekanto lekas lekata lekataj lekatajn lekatan lekate lekinta lekintaj lekintajn lekintan lekinte lekis lekita lekitaj lekitajn lekitan lekite lekonta lekontaj lekontajn lekontan lekonte lekos leku lekus
+24	4124	majuskla	majusklaj majusklajn majusklan
+25	4125	juĝejo	juĝejoj juĝejojn juĝejon
+26	4126	surŝipe	
+27	4127	cirkla	cirklaj cirklajn cirklan
+28	4128	damo	damoj damojn damon
+29	4129	baptopatro	baptopatroj baptopatrojn baptopatron
+30	4130	jarmilo	jarmiloj jarmilojn jarmilon
+31	4131	teologia	teologiaj teologiajn teologian
+32	4132	malgaja	malgajaj malgajajn malgajan
+33	4133	ĉefkomandanto	ĉefkomandantoj ĉefkomandantojn ĉefkomandanton
+34	4134	firma	firmaj firmajn firman
+35	4135	pruntepreni	prunteprenanta prunteprenantaj prunteprenantajn prunteprenantan prunteprenante prunteprenanto prunteprenantoj prunteprenantojn prunteprenanton prunteprenas prunteprenata prunteprenataj prunteprenatajn prunteprenatan prunteprenate pruntepreninta prunteprenintaj prunteprenintajn prunteprenintan pruntepreninte prunteprenis prunteprenita prunteprenitaj prunteprenitajn prunteprenitan prunteprenite prunteprenonta prunteprenontaj prunteprenontajn prunteprenontan prunteprenonte prunteprenos prunteprenu prunteprenus
+36	4136	svisa	svisaj svisajn svisan
+37	4137	proksimeco	proksimecoj proksimecojn proksimecon
+38	4138	fotono	fotonoj fotonojn fotonon
+39	4139	japano	japanoj japanojn japanon
+40	4140	sopiro	sopiroj sopirojn sopiron
+41	4141	velki	velkanta velkantaj velkantajn velkantan velkante velkas velkinta velkintaj velkintajn velkintan velkinte velkis velkonta velkontaj velkontajn velkontan velkonte velkos velku velkus
+42	4142	torturi	torturanta torturantaj torturantajn torturantan torturante torturas torturata torturataj torturatajn torturatan torturate torturinta torturintaj torturintajn torturintan torturinte torturis torturita torturitaj torturitajn torturitan torturite torturitoj torturonta torturontaj torturontajn torturontan torturonte torturos torturu torturus
+43	4143	agnosko	agnoskoj agnoskojn agnoskon
+44	4144	bonfarto	bonfartoj bonfartojn bonfarton
+45	4145	submarŝipo	submarŝipoj submarŝipojn submarŝipon
+46	4146	bofilo	bofiloj bofilojn bofilon
+47	4147	gripo	gripoj gripojn gripon
+48	4148	mutacio	mutacioj mutaciojn mutacion
+49	4149	akademiano	akademianoj akademianojn akademianon
+50	4150	stati	statanta statantaj statantajn statantan statante statas statinta statintaj statintajn statintan statinte statis statonta statontaj statontajn statontan statonte statos statu status
+51	4151	balai	balaanta balaantaj balaantajn balaantan balaante balaas balaata balaataj balaatajn balaatan balaate balainta balaintaj balaintajn balaintan balainte balais balaita balaitaj balaitajn balaitan balaite balaonta balaontaj balaontajn balaontan balaonte balaos balau balaus
+52	4152	adoranto	adorantoj adorantojn adoranton
+53	4153	prospero	prosperoj prosperojn prosperon
+54	4154	internacie	
+55	4155	regali	regalanta regalantaj regalantajn regalantan regalante regalas regalata regalataj regalatajn regalatan regalate regalinta regalintaj regalintajn regalintan regalinte regalis regalita regalitaj regalitajn regalitan regalite regalonta regalontaj regalontajn regalontan regalonte regalos regalu regalus
+56	4156	transakcio	transakcioj transakciojn transakcion
+57	4157	deĉifri	deĉifranta deĉifrantaj deĉifrantajn deĉifrantan deĉifrante deĉifras deĉifrata deĉifrataj deĉifratajn deĉifratan deĉifrate deĉifrinta deĉifrintaj deĉifrintajn deĉifrintan deĉifrinte deĉifris deĉifrita deĉifritaj deĉifritajn deĉifritan deĉifrite deĉifronta deĉifrontaj deĉifrontajn deĉifrontan deĉifronte deĉifros deĉifru deĉifrus
+58	4158	grafiko	grafikoj grafikojn grafikon
+59	4159	kunsido	kunsidoj kunsidojn kunsidon
+60	4160	kaki	kakanta kakantaj kakantajn kakantan kakante kakas kakinta kakintaj kakintajn kakintan kakinte kakis kakonta kakontaj kakontajn kakontan kakonte kakos kaku kakus
+61	4161	komune	
+62	4162	malordo	malordoj malordojn malordon
+63	4163	ŝaltilo	ŝaltiloj ŝaltilojn ŝaltilon
+64	4164	verde	
+65	4165	humoro	humoroj humorojn humoron
+66	4166	balado	baladoj baladojn baladon
+67	4167	gluti	glutanta glutantaj glutantajn glutantan glutante glutas glutata glutataj glutatajn glutatan glutate glutinta glutintaj glutintajn glutintan glutinte glutis glutita glutitaj glutitajn glutitan glutite glutonta glutontaj glutontajn glutontan glutonte glutos glutu glutus
+68	4168	hororo	hororoj hororojn hororon
+69	4169	komedio	komedioj komediojn komedion
+70	4170	kupolo	kupoloj kupolojn kupolon
+71	4171	kolizii	kolizianta koliziantaj koliziantajn koliziantan koliziante kolizias koliziinta koliziintaj koliziintajn koliziintan koliziinte koliziis kolizionta koliziontaj koliziontajn koliziontan kolizionte kolizios koliziu kolizius
+72	4172	lingvisto	lingvistoj lingvistojn lingviston
+73	4173	kolera	koleraj kolerajn koleran
+74	4174	aerarmeo	aerarmeoj aerarmeojn aerarmeon
+75	4175	eleganta	elegantaj elegantajn elegantan
+76	4176	serba	serbaj serbajn serban
+77	4177	dolore	
+78	4178	fojfoje	
+79	4179	pelto	peltoj peltojn pelton
+80	4180	vicprezidanto	vicprezidantoj vicprezidantojn vicprezidanton vicprezidento
+81	4181	inundi	inundanta inundantaj inundantajn inundantan inundante inundas inundata inundataj inundatajn inundatan inundate inundinta inundintaj inundintajn inundintan inundinte inundis inundita inunditaj inunditajn inunditan inundite inundonta inundontaj inundontajn inundontan inundonte inundos inundu inundus
+82	4182	protestanta	protestantaj protestantajn protestantan
+83	4183	ŝpini	ŝpinanta ŝpinantaj ŝpinantajn ŝpinantan ŝpinante ŝpinas ŝpinata ŝpinataj ŝpinatajn ŝpinatan ŝpinate ŝpininta ŝpinintaj ŝpinintajn ŝpinintan ŝpininte ŝpinis ŝpinita ŝpinitaj ŝpinitajn ŝpinitan ŝpinite ŝpinonta ŝpinontaj ŝpinontajn ŝpinontan ŝpinonte ŝpinos ŝpinu ŝpinus
+84	4184	ĉiufoje	
+85	4185	finno	finnoj finnojn finnon
+86	4186	tremi	tremantaj tremantajn tremantan tremante tremas treminta tremintaj tremintajn tremintan treminte tremis tremonta tremontaj tremontajn tremontan tremonte tremos tremu tremus
+87	4187	kondiĉe	
+88	4188	riparo	riparoj riparojn riparon
+89	4189	lunĉo	lunĉoj lunĉojn lunĉon
+90	4190	ĉiama	ĉiamaj ĉiamajn ĉiaman
+91	4191	rememoro	rememoroj rememorojn rememoron
+92	4192	objektiva	objektivaj objektivajn objektivan
+93	4193	nordorienta	nordorientaj nordorientajn nordorientan
+94	4194	prestiĝo	prestiĝoj prestiĝojn prestiĝon
+95	4195	renversi	renversanta renversantaj renversantajn renversantan renversante renversas renversata renversataj renversatajn renversatan renversate renversinta renversintaj renversintajn renversintan renversinte renversis renversita renversitaj renversitajn renversitan renversite renversonta renversontaj renversontajn renversontan renversonte renversos renversu renversus
+96	4196	ioma	iomaj iomajn ioman
+97	4197	pizo	pizoj pizojn pizon
+98	4198	dura	duraj durajn duran
+99	4199	deputi	deputanta deputantaj deputantajn deputantan deputante deputas deputata deputataj deputatajn deputatan deputate deputinta deputintaj deputintajn deputintan deputinte deputis deputita deputitaj deputitajn deputitan deputite deputito deputitoj deputitojn deputiton deputonta deputontaj deputontajn deputontan deputonte deputos deputu deputus
+100	4200	membrano	membranoj membranojn membranon

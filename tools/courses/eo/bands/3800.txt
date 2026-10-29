@@ -1,0 +1,100 @@
+1	3701	disertaĵo	disertaĵoj disertaĵojn disertaĵon
+2	3702	rido	ridoj ridojn ridon
+3	3703	mirindaĵo	mirindaĵoj mirindaĵojn mirindaĵon
+4	3704	nukleo	nukleoj nukleojn nukleon
+5	3705	trafe	
+6	3706	arkitektura	arkitekturaj arkitekturajn arkitekturan
+7	3707	korupti	koruptanta koruptantaj koruptantajn koruptantan koruptante koruptas koruptata koruptataj koruptatajn koruptatan koruptate koruptinta koruptintaj koruptintajn koruptintan koruptinte koruptis koruptita koruptitaj koruptitajn koruptitan koruptite koruptonta koruptontaj koruptontajn koruptontan koruptonte koruptos koruptu koruptus
+8	3708	fluto	flutoj flutojn fluton
+9	3709	najlo	najloj najlojn najlon
+10	3710	finna	finnaj finnajn finnan
+11	3711	kapitalismo	kapitalismoj kapitalismojn kapitalismon
+12	3712	ondolongo	ondolongoj ondolongojn ondolongon
+13	3713	krado	kradoj kradojn kradon
+14	3714	filio	filioj filiojn filion
+15	3715	ĝangalo	ĝangaloj ĝangalojn ĝangalon
+16	3716	spite	
+17	3717	kuraĝe	
+18	3718	antaŭeniri	antaŭeniranta antaŭenirantaj antaŭenirantajn antaŭenirantan antaŭenirante antaŭeniras antaŭenirinta antaŭenirintaj antaŭenirintajn antaŭenirintan antaŭenirinte antaŭeniris antaŭenironta antaŭenirontaj antaŭenirontajn antaŭenirontan antaŭenironte antaŭeniros antaŭeniru antaŭenirus
+19	3719	aktivulo	aktivuloj aktivulojn aktivulon
+20	3720	honeste	
+21	3721	ekbruligi	ekbruliganta ekbruligantaj ekbruligantajn ekbruligantan ekbruligante ekbruligas ekbruligata ekbruligataj ekbruligatajn ekbruligatan ekbruligate ekbruliginta ekbruligintaj ekbruligintajn ekbruligintan ekbruliginte ekbruligis ekbruligita ekbruligitaj ekbruligitajn ekbruligitan ekbruligite ekbruligonta ekbruligontaj ekbruligontajn ekbruligontan ekbruligonte ekbruligos ekbruligu ekbruligus
+22	3722	sciigo	sciigoj sciigojn sciigon
+23	3723	elementa	elementaj elementajn elementan
+24	3724	heredo	heredoj heredojn heredon
+25	3725	anteno	antenoj antenojn antenon
+26	3726	ies	
+27	3727	rikolto	rikoltoj rikoltojn rikolton
+28	3728	percepto	perceptoj perceptojn percepton
+29	3729	elefanto	elefantoj elefantojn elefanton
+30	3730	instigo	instigoj instigojn instigon
+31	3731	anstataŭaĵo	anstataŭaĵoj anstataŭaĵojn anstataŭaĵon
+32	3732	ĝermana	ĝermanaj ĝermanajn ĝermanan
+33	3733	uzebla	uzeblaj uzeblajn uzeblan
+34	3734	benzinejo	benzinejoj benzinejojn benzinejon
+35	3735	belulino	belulinoj belulinojn belulinon
+36	3736	sonigi	soniganta sonigantaj sonigantajn sonigantan sonigante sonigas sonigata sonigataj sonigatajn sonigatan sonigate soniginta sonigintaj sonigintajn sonigintan soniginte sonigis sonigita sonigitaj sonigitajn sonigitan sonigite sonigonta sonigontaj sonigontajn sonigontan sonigonte sonigos sonigu sonigus
+37	3737	preskribi	preskribanta preskribantaj preskribantajn preskribantan preskribante preskribas preskribata preskribataj preskribatajn preskribatan preskribate preskribinta preskribintaj preskribintajn preskribintan preskribinte preskribis preskribita preskribitaj preskribitajn preskribitan preskribite preskribonta preskribontaj preskribontajn preskribontan preskribonte preskribos preskribu preskribus
+38	3738	sitelo	siteloj sitelojn sitelon
+39	3739	ganto	gantoj gantojn ganton
+40	3740	elĵeti	elĵetanta elĵetantaj elĵetantajn elĵetantan elĵetante elĵetas elĵetata elĵetataj elĵetatajn elĵetatan elĵetate elĵetinta elĵetintaj elĵetintajn elĵetintan elĵetinte elĵetis elĵetita elĵetitaj elĵetitajn elĵetitan elĵetite elĵetonta elĵetontaj elĵetontajn elĵetontan elĵetonte elĵetos elĵetu elĵetus
+41	3741	faro	faroj farojn faron
+42	3742	drako	drakoj drakojn drakon
+43	3743	treni	trenanta trenantaj trenantajn trenantan trenante trenas trenata trenataj trenatajn trenatan trenate treninta trenintaj trenintajn trenintan treninte trenis trenita trenitaj trenitajn trenitan trenite trenonta trenontaj trenontajn trenontan trenonte trenos trenu trenus
+44	3744	sufikso	sufiksoj sufiksojn sufikson
+45	3745	scivoli	scivolanta scivolantaj scivolantajn scivolantan scivolante scivolas scivolinta scivolintaj scivolintajn scivolintan scivolinte scivolis scivolonta scivolontaj scivolontajn scivolontan scivolonte scivolos scivolu scivolus
+46	3746	abomena	abomenaj abomenajn abomenan
+47	3747	brutaro	brutaroj brutarojn brutaron
+48	3748	operaciumo	operaciumoj operaciumojn operaciumon
+49	3749	talenta	talentaj talentajn talentan
+50	3750	forviŝi	forviŝanta forviŝantaj forviŝantajn forviŝantan forviŝante forviŝas forviŝata forviŝataj forviŝatajn forviŝatan forviŝate forviŝinta forviŝintaj forviŝintajn forviŝintan forviŝinte forviŝis forviŝita forviŝitaj forviŝitajn forviŝitan forviŝite forviŝonta forviŝontaj forviŝontajn forviŝontan forviŝonte forviŝos forviŝu forviŝus
+51	3751	komparebla	kompareblaj kompareblajn kompareblan
+52	3752	farbo	farboj farbojn farbon
+53	3753	plasta	plastaj plastajn plastan
+54	3754	kamiono	kamionoj kamionojn kamionon
+55	3755	ilaro	ilaroj ilarojn ilaron
+56	3756	preteksto	pretekstoj pretekstojn pretekston
+57	3757	impona	imponaj imponajn imponan
+58	3758	tagiĝo	tagiĝoj tagiĝojn tagiĝon
+59	3759	sekrete	
+60	3760	elmigri	elmigranta elmigrantaj elmigrantajn elmigrantan elmigrante elmigranto elmigrantoj elmigrantojn elmigras elmigrinta elmigrintaj elmigrintajn elmigrintan elmigrinte elmigrinto elmigrintoj elmigris elmigronta elmigrontaj elmigrontajn elmigrontan elmigronte elmigros elmigru elmigrus
+61	3761	biskvito	biskvitoj biskvitojn biskviton
+62	3762	abstrakta	abstraktaj abstraktajn abstraktan
+63	3763	akreo	akreoj akreojn akreon
+64	3764	arbara	arbaraj arbarajn arbaran
+65	3765	reprodukti	reproduktanta reproduktantaj reproduktantajn reproduktantan reproduktante reproduktantoj reproduktas reproduktata reproduktataj reproduktatajn reproduktatan reproduktate reproduktinta reproduktintaj reproduktintajn reproduktintan reproduktinte reproduktis reproduktita reproduktitaj reproduktitajn reproduktitan reproduktite reproduktonta reproduktontaj reproduktontajn reproduktontan reproduktonte reproduktos reproduktu reproduktus
+66	3766	interagi	interaganta interagantaj interagantajn interagantan interagante interagas interaginta interagintaj interagintajn interagintan interaginte interagis interagonta interagontaj interagontajn interagontan interagonte interagos interagu interagus
+67	3767	tonalto	tonaltoj tonaltojn tonalton
+68	3768	ĝardenisto	ĝardenistoj ĝardenistojn ĝardeniston
+69	3769	gento	gentoj gentojn genton
+70	3770	utilo	utiloj utilojn utilon
+71	3771	aroganta	arogantaj arogantajn arogantan
+72	3772	brakumi	brakumanta brakumantaj brakumantajn brakumantan brakumante brakumas brakumata brakumataj brakumatajn brakumatan brakumate brakuminta brakumintaj brakumintajn brakumintan brakuminte brakumis brakumita brakumitaj brakumitajn brakumitan brakumite brakumonta brakumontaj brakumontajn brakumontan brakumonte brakumos brakumu brakumus
+73	3773	aktorino	aktorinoj aktorinojn aktorinon
+74	3774	rosti	rostanta rostantaj rostantajn rostantan rostante rostas rostata rostataj rostatajn rostatan rostate rostinta rostintaj rostintajn rostintan rostinte rostis rostita rostitaj rostitajn rostitan rostite rostonta rostontaj rostontajn rostontan rostonte rostos rostu rostus
+75	3775	tosti	tostanta tostantaj tostantajn tostantan tostante tostas tostinta tostintaj tostintajn tostintan tostinte tostis tostonta tostontaj tostontajn tostontan tostonte tostos tostu tostus
+76	3776	kaŭri	kaŭranta kaŭrantaj kaŭrantajn kaŭrantan kaŭrante kaŭras kaŭrinta kaŭrintaj kaŭrintajn kaŭrintan kaŭrinte kaŭris kaŭronta kaŭrontaj kaŭrontajn kaŭrontan kaŭronte kaŭros kaŭru kaŭrus
+77	3777	maristo	maristoj maristojn mariston
+78	3778	refari	refaranta refarantaj refarantajn refarantan refarante refaras refarinta refarintaj refarintajn refarintan refarinte refaris refaronta refarontaj refarontajn refarontan refaronte refaros refaru refarus
+79	3779	remi	remanta remantaj remantajn remantan remante remanto remantoj remantojn remas reminta remintaj remintajn remintan reminte remis remonta remontaj remontajn remontan remonte remontoj remos remu remus
+80	3780	stomako	stomakoj stomakojn stomakon
+81	3781	karbono	karbonoj karbonojn karbonon
+82	3782	cikatro	cikatroj cikatrojn cikatron
+83	3783	france	
+84	3784	obligacio	obligacioj obligaciojn obligacion
+85	3785	atributo	atributoj atributojn atributon
+86	3786	gliti	glitanta glitantaj glitantajn glitantan glitante glitas glitinta glitintaj glitintajn glitintan glitinte glitis glitonta glitontaj glitontajn glitontan glitonte glitos glitu glitus
+87	3787	kilogramo	kilogramoj kilogramojn kilogramon
+88	3788	ferii	ferianta feriantaj feriantajn feriantan feriante feriantoj feriantojn ferias feriinta feriintaj feriintajn feriintan feriinte feriis ferionta feriontaj feriontajn feriontan ferionte ferios feriu ferius
+89	3789	helikoptero	helikopteroj helikopterojn helikopteron
+90	3790	bariero	barieroj barierojn barieron
+91	3791	malluma	mallumaj mallumajn malluman
+92	3792	komforto	komfortoj komfortojn komforton
+93	3793	mendo	mendoj mendojn mendon
+94	3794	foti	fotanta fotantaj fotantajn fotantan fotante fotas fotata fotataj fotatajn fotatan fotate fotinta fotintaj fotintajn fotintan fotinte fotis fotita fotitaj fotitajn fotitan fotite fotonta fotontaj fotontajn fotontan fotonte fotos fotu fotus
+95	3795	socialisma	socialismaj socialismajn socialisman
+96	3796	metio	metioj metiojn metion
+97	3797	nukso	nuksoj nuksojn nukson
+98	3798	divorci	divorcanta divorcantaj divorcantajn divorcantan divorcante divorcas divorcinta divorcintaj divorcintajn divorcintan divorcinte divorcis divorconta divorcontaj divorcontajn divorcontan divorconte divorcos divorcu divorcus
+99	3799	eŭropano	eŭropanoj eŭropanojn eŭropanon
+100	3800	sonori	sonoranta sonorantaj sonorantajn sonorantan sonorante sonoranto sonorantoj sonorantojn sonoras sonorinta sonorintaj sonorintajn sonorintan sonorinte sonoris sonoronta sonorontaj sonorontajn sonorontan sonoronte sonoros sonoru sonorus

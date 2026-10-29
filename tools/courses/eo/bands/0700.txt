@@ -1,0 +1,100 @@
+1	601	reĝa	reĝaj reĝajn reĝan
+2	602	havebla	haveblaj haveblajn haveblan
+3	603	signifo	signifoj signifojn signifon
+4	604	teorio	teorioj teoriojn teorion
+5	605	plano	planoj planojn planon
+6	606	maro	maroj marojn maron
+7	607	naturo	naturoj naturojn naturon
+8	608	ataki	atakanta atakantaj atakantajn atakantan atakante atakanto atakantoj atakantojn atakanton atakas atakata atakataj atakatajn atakatan atakate atakinta atakintaj atakintajn atakintan atakinte atakis atakita atakitaj atakitajn atakitan atakite atakonta atakontaj atakontajn atakontan atakonte atakos ataku atakus
+9	609	voĉo	vocho vochon voĉoj voĉojn voĉon
+10	610	kondiĉo	kondiĉoj kondiĉojn kondiĉon
+11	611	posedi	posedanta posedantaj posedantajn posedantan posedante posedanto posedantoj posedantojn posedanton posedas posedata posedataj posedatajn posedatan posedate posedinta posedintaj posedintajn posedintan posedinte posedis posedita poseditaj poseditajn poseditan posedite posedonta posedontaj posedontajn posedontan posedonte posedos posedu posedus
+12	612	partio	partioj partiojn partion
+13	613	vespero	vesperoj vesperojn vesperon
+14	614	norda	nordaj nordajn nordan
+15	615	majo	majoj majojn majon
+16	616	objekto	objektoj objektojn objekton
+17	617	studi	studanta studantaj studantajn studantan studante studanto studantoj studantojn studas studata studataj studatajn studatan studate studinta studintaj studintajn studintan studinte studis studita studitaj studitajn studitan studite studonta studontaj studontajn studontan studonte studos studu studus
+18	618	signifa	signifaj signifajn signifan
+19	619	esplorado	esploradoj esploradojn esploradon
+20	620	procezo	procezoj procezojn procezon
+21	621	ŝtono	ŝtonego ŝtonegojn ŝtonoj ŝtonojn ŝtonon
+22	622	politiko	politikoj politikojn politikon
+23	623	nacio	nacioj naciojn nacion
+24	624	mateno	matenoj matenojn matenon
+25	625	supre	
+26	626	produktado	produktadoj produktadojn produktadon
+27	627	suda	sudaj sudajn sudan
+28	628	verko	verkoj verkojn verkon
+29	629	preti	pretanta pretantaj pretantajn pretantan pretante pretas pretinta pretintaj pretintajn pretintan pretinte pretis pretonta pretontaj pretontajn pretontan pretonte pretos pretu pretus
+30	630	movado	movadoj movadojn movadon
+31	631	centra	centraj centrajn centran
+32	632	versio	versioj versiojn version
+33	633	malbone	
+34	634	nepre	
+35	635	blanka	blankaj blankajn blankan
+36	636	strukturo	strukturoj strukturojn strukturon
+37	637	aviadilo	aviadiloj aviadilojn aviadilon
+38	638	aparato	aparatoj aparatojn aparaton
+39	639	serio	serioj seriojn serion
+40	640	ia	iaj iajn ian
+41	641	komenco	komencoj komencojn komencon
+42	642	eviti	evitanta evitantaj evitantajn evitantan evitante evitas evitata evitataj evitatajn evitatan evitate evitinta evitintaj evitintajn evitintan evitinte evitis evitita evititaj evititajn evititan evitite evitonta evitontaj evitontajn evitontan evitonte evitos evitota evitu evitus
+43	643	impliki	implikanta implikantaj implikantajn implikantan implikante implikas implikata implikataj implikatajn implikatan implikate implikinta implikintaj implikintajn implikintan implikinte implikis implikita implikitaj implikitajn implikitan implikite implikonta implikontaj implikontajn implikontan implikonte implikos impliku implikus
+44	644	ordoni	ordonanta ordonantaj ordonantajn ordonantan ordonante ordonas ordonata ordonataj ordonatajn ordonatan ordonate ordoninta ordonintaj ordonintajn ordonintan ordoninte ordonis ordonita ordonitaj ordonitajn ordonitan ordonite ordononta ordonontaj ordonontajn ordonontan ordononte ordonos ordonu ordonus
+45	645	kovri	kovranta kovrantaj kovrantajn kovrantan kovrante kovras kovrata kovrataj kovratajn kovratan kovrate kovrinta kovrintaj kovrintajn kovrintan kovrinte kovris kovrita kovritaj kovritajn kovritan kovrite kovronta kovrontaj kovrontajn kovrontan kovronte kovros kovrota kovru kovrus
+46	646	elekto	elektoj elektojn elekton
+47	647	ĝenerala	ĝeneralaj ĝeneralajn ĝeneralan
+48	648	ŝteli	shtelas shtelu ŝtelanta ŝtelantaj ŝtelantajn ŝtelantan ŝtelante ŝtelanto ŝtelantoj ŝtelas ŝtelata ŝtelataj ŝtelatajn ŝtelatan ŝtelate ŝtelinta ŝtelintaj ŝtelintajn ŝtelintan ŝtelinte ŝtelis ŝtelita ŝtelitaj ŝtelitajn ŝtelitan ŝtelite ŝtelonta ŝtelontaj ŝtelontajn ŝtelontan ŝtelonte ŝtelos ŝtelu ŝtelus
+49	649	hejme	
+50	650	respondo	respondoj respondojn respondon
+51	651	esperi	esperantaj esperantajn esperantan esperas esperata esperataj esperatajn esperatan esperate esperinta esperintaj esperintajn esperintan esperinte esperis esperita esperitaj esperitajn esperitan esperite esperonta esperontaj esperontajn esperontan esperonte esperos esperu esperus
+52	652	aero	aeroj aerojn aeron
+53	653	tiri	tiranta tirantaj tirantajn tirantan tirante tiras tirata tirataj tiratajn tiratan tirate tirinta tirintaj tirintajn tirintan tirinte tiris tirita tiritaj tiritajn tiritan tirite tironta tirontaj tirontajn tirontan tironte tiros tiru tirus
+54	654	pastro	pastroj pastrojn pastron
+55	655	simpla	simplaj simplajn simplan
+56	656	origina	originaj originajn originan
+57	657	malamiko	malamikoj malamikojn malamikon
+58	658	bonega	bonegaj bonegajn bonegan
+59	659	fajro	fajroj fajrojn fajron
+60	660	arto	artoj artojn arton
+61	661	nederlanda	nederlandaj nederlandajn nederlandan
+62	662	aparte	
+63	663	teknologio	teknologioj teknologiojn teknologion teĥnologio
+64	664	rivero	riveroj riverojn riveron
+65	665	situacio	situacioj situaciojn situacion
+66	666	damne	
+67	667	malgraŭ	
+68	668	ununura	ununuraj ununurajn ununuran
+69	669	anstataŭe	
+70	670	kontrolo	kontroloj kontrolojn kontrolon
+71	671	sekva	sekvaj sekvajn sekvan
+72	672	rimarki	rimarkanta rimarkantaj rimarkantajn rimarkantan rimarkante rimarkas rimarkata rimarkataj rimarkatajn rimarkatan rimarkate rimarkinta rimarkintaj rimarkintajn rimarkintan rimarkinte rimarkis rimarkita rimarkitaj rimarkitajn rimarkitan rimarkite rimarkonta rimarkontaj rimarkontajn rimarkontan rimarkonte rimarkos rimarku rimarkus
+73	673	levi	levanta levantaj levantajn levantan levante levas levata levataj levatajn levatan levate levinta levintaj levintajn levintan levinte levis levita levitaj levitajn levitan levite levonta levontaj levontajn levontan levonte levos levu levus
+74	674	malpermesi	malpermesanta malpermesantaj malpermesantajn malpermesantan malpermesante malpermesas malpermesata malpermesataj malpermesatajn malpermesatan malpermesate malpermesinta malpermesintaj malpermesintajn malpermesintan malpermesinte malpermesis malpermesita malpermesitaj malpermesitajn malpermesitan malpermesite malpermesonta malpermesontaj malpermesontajn malpermesontan malpermesonte malpermesos malpermesota malpermesu malpermesus
+75	675	observi	observanta observantaj observantajn observantan observante observanto observantoj observantojn observanton observas observata observataj observatajn observatan observate observinta observintaj observintajn observintan observinte observis observita observitaj observitajn observitan observite observonta observontaj observontajn observontan observonte observos observu observus
+76	676	insulo	insuloj insulojn insulon
+77	677	trans	
+78	678	paco	pacoj pacojn pacon
+79	679	malsano	malsanoj malsanojn malsanon
+80	680	populara	popularaj popularajn popularan
+81	681	malkovri	malkovranta malkovrantaj malkovrantajn malkovrantan malkovrante malkovras malkovrata malkovrataj malkovratajn malkovratan malkovrate malkovrinta malkovrintaj malkovrintajn malkovrintan malkovrinte malkovrinto malkovris malkovrita malkovritaj malkovritajn malkovritan malkovrite malkovronta malkovrontaj malkovrontajn malkovrontan malkovronte malkovros malkovru malkovrus
+82	682	kapitano	kapitanoj kapitanojn kapitanon
+83	683	kuracisto	kuracistoj kuracistojn kuraciston
+84	684	servi	servanta servantaj servantajn servantan servante servanto servantoj servas servata servataj servatajn servatan servate servinta servintaj servintajn servintan servinte servis servita servitaj servitajn servitan servite servonta servontaj servontajn servontan servonte servos servu servus
+85	685	ŝanco	ŝancoj ŝancojn ŝancon
+86	686	bebo	beboj bebojn bebon
+87	687	atako	atakoj atakojn atakon
+88	688	nomiĝi	nomiĝanta nomiĝantaj nomiĝantajn nomiĝantan nomiĝante nomiĝas nomiĝinta nomiĝintaj nomiĝintajn nomiĝintan nomiĝinte nomiĝis nomiĝonta nomiĝontaj nomiĝontajn nomiĝontan nomiĝonte nomiĝos nomiĝu nomiĝus
+89	689	ege	
+90	690	ĉefe	
+91	691	ŝanĝiĝi	ŝanĝiĝanta ŝanĝiĝantaj ŝanĝiĝantajn ŝanĝiĝantan ŝanĝiĝante ŝanĝiĝas ŝanĝiĝinta ŝanĝiĝintaj ŝanĝiĝintajn ŝanĝiĝintan ŝanĝiĝinte ŝanĝiĝis ŝanĝiĝonta ŝanĝiĝontaj ŝanĝiĝontajn ŝanĝiĝontan ŝanĝiĝonte ŝanĝiĝos ŝanĝiĝu ŝanĝiĝus
+92	692	teksto	tekstoj tekstojn tekston
+93	693	birdo	birdoj birdojn birdon
+94	694	apud	
+95	695	semajno	semajnoj semajnojn semajnon
+96	696	regulo	reguloj regulojn regulon
+97	697	raporto	raportoj raportojn raporton
+98	698	ĉina	ĉinaj ĉinajn ĉinan
+99	699	komunumo	komunumoj komunumojn komunumon
+100	700	decembro	decembroj decembrojn decembron

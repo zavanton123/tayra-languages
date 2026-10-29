@@ -1,0 +1,100 @@
+1	6001	skeleto	skeletoj skeletojn skeleton
+2	6002	pigmento	pigmentoj pigmentojn pigmenton
+3	6003	bibliotekisto	bibliotekistoj bibliotekistojn bibliotekiston
+4	6004	kolumo	kolumoj kolumojn kolumon
+5	6005	infera	inferaj inferajn inferan
+6	6006	hirudo	hirudoj hirudojn hirudon
+7	6007	nevino	nevinoj nevinojn nevinon
+8	6008	matraco	matracoj matracojn matracon
+9	6009	ŝtrumpo	ŝtrumpoj ŝtrumpojn ŝtrumpon
+10	6010	eltranĉi	eltranĉanta eltranĉantaj eltranĉantajn eltranĉantan eltranĉante eltranĉas eltranĉata eltranĉataj eltranĉatajn eltranĉatan eltranĉate eltranĉinta eltranĉintaj eltranĉintajn eltranĉintan eltranĉinte eltranĉis eltranĉita eltranĉitaj eltranĉitajn eltranĉitan eltranĉite eltranĉonta eltranĉontaj eltranĉontajn eltranĉontan eltranĉonte eltranĉos eltranĉu eltranĉus
+11	6011	naĝado	naĝadoj naĝadojn naĝadon
+12	6012	redakcia	redakciaj redakciajn redakcian
+13	6013	reenkarniĝo	reenkarniĝoj reenkarniĝojn reenkarniĝon
+14	6014	elektado	elektadoj elektadojn elektadon
+15	6015	malaperigi	malaperiganta malaperigantaj malaperigantajn malaperigantan malaperigante malaperigas malaperigata malaperigataj malaperigatajn malaperigatan malaperigate malaperiginta malaperigintaj malaperigintajn malaperigintan malaperiginte malaperigis malaperigita malaperigitaj malaperigitajn malaperigitan malaperigite malaperigonta malaperigontaj malaperigontajn malaperigontan malaperigonte malaperigos malaperigu malaperigus
+16	6016	pluvero	pluveroj pluverojn pluveron
+17	6017	bufedo	bufedoj bufedojn bufedon
+18	6018	nuko	nukoj nukojn nukon
+19	6019	artifiko	artifikoj artifikojn artifikon
+20	6020	tirkesto	tirkestoj tirkestojn tirkeston
+21	6021	malario	malarioj malariojn malarion
+22	6022	diftongo	diftongoj diftongojn diftongon
+23	6023	komuneco	komunecoj komunecojn komunecon
+24	6024	plugilo	plugiloj plugilojn plugilon
+25	6025	furiozi	furiozanta furiozantaj furiozantajn furiozantan furiozante furiozanto furiozas furiozinta furiozintaj furiozintajn furiozintan furiozinte furiozis furiozonta furiozontaj furiozontajn furiozontan furiozonte furiozos furiozu furiozus
+26	6026	live	
+27	6027	karpo	karpoj karpojn karpon
+28	6028	malsaĝe	
+29	6029	likvo	likvoj likvojn likvon
+30	6030	trarigardi	trarigardanta trarigardantaj trarigardantajn trarigardantan trarigardante trarigardas trarigardinta trarigardintaj trarigardintajn trarigardintan trarigardinte trarigardis trarigardonta trarigardontaj trarigardontajn trarigardontan trarigardonte trarigardos trarigardu trarigardus
+31	6031	venta	ventaj ventajn ventan
+32	6032	presilo	presiloj presilojn presilon
+33	6033	grati	gratanta gratantaj gratantajn gratantan gratante gratas gratata gratataj gratatajn gratatan gratate gratinta gratintaj gratintajn gratintan gratinte gratis gratita gratitaj gratitajn gratitan gratite gratonta gratontaj gratontajn gratontan gratonte gratos gratu gratus
+34	6034	laŭvorta	laŭvortaj laŭvortajn laŭvortan
+35	6035	adheri	adheranta adherantaj adherantajn adherantan adherante adheras adherinta adherintaj adherintajn adherintan adherinte adheris adheronta adherontaj adherontajn adherontan adheronte adheros adheru adherus
+36	6036	manpleno	manplenoj manplenojn manplenon
+37	6037	eklipso	eklipsoj eklipsojn eklipson
+38	6038	testiko	testikoj testikojn testikon
+39	6039	avida	avidaj avidajn avidan
+40	6040	dense	
+41	6041	ultraviola	ultraviolaj ultraviolajn ultraviolan
+42	6042	senespere	
+43	6043	aŭkcio	aŭkcioj aŭkciojn aŭkcion
+44	6044	leĝa	leĝaj leĝajn leĝan
+45	6045	navo	navoj navojn navon
+46	6046	komunismo	komunismoj komunismojn komunismon
+47	6047	grafito	grafitoj grafitojn grafiton
+48	6048	cigaro	cigaroj cigarojn cigaron
+49	6049	arĉo	arĉoj arĉojn arĉon
+50	6050	atentigi	atentiganta atentigantaj atentigantajn atentigantan atentigante atentigas atentiginta atentigintaj atentigintajn atentigintan atentiginte atentigis atentigonta atentigontaj atentigontajn atentigontan atentigonte atentigos atentigu atentigus
+51	6051	aludo	aludoj aludojn aludon
+52	6052	enŝalti	enŝaltanta enŝaltantaj enŝaltantajn enŝaltantan enŝaltante enŝaltas enŝaltata enŝaltataj enŝaltatajn enŝaltatan enŝaltate enŝaltinta enŝaltintaj enŝaltintajn enŝaltintan enŝaltinte enŝaltis enŝaltita enŝaltitaj enŝaltitajn enŝaltitan enŝaltite enŝaltonta enŝaltontaj enŝaltontajn enŝaltontan enŝaltonte enŝaltos enŝaltu enŝaltus
+53	6053	klareco	klarecoj klarecojn klarecon
+54	6054	eltiraĵo	eltiraĵoj eltiraĵojn eltiraĵon
+55	6055	vegetarano	vegetaranoj vegetaranojn vegetaranon
+56	6056	kojoto	kojotoj kojotojn kojoton
+57	6057	suferado	suferadoj suferadojn suferadon
+58	6058	injekto	injektoj injektojn injekton
+59	6059	zingibro	zingibroj zingibrojn zingibron
+60	6060	submondo	submondoj submondojn submondon
+61	6061	fluido	fluidoj fluidojn fluidon
+62	6062	bajto	bajtoj bajtojn bajton
+63	6063	samlandano	samlandanoj samlandanojn samlandanon
+64	6064	vito	vitoj vitojn viton
+65	6065	rimarkigi	rimarkiganta rimarkigantaj rimarkigantajn rimarkigantan rimarkigante rimarkigas rimarkiginta rimarkigintaj rimarkigintajn rimarkigintan rimarkiginte rimarkigis rimarkigonta rimarkigontaj rimarkigontajn rimarkigontan rimarkigonte rimarkigos rimarkigu rimarkigus
+66	6066	indiferenta	indiferentaj indiferentajn indiferentan
+67	6067	sudokcidento	sudokcidentoj sudokcidentojn sudokcidenton
+68	6068	akcelilo	akceliloj akcelilojn akcelilon
+69	6069	liturgia	liturgiaj liturgiajn liturgian
+70	6070	dekono	dekonoj dekonojn dekonon
+71	6071	ekzekutisto	ekzekutistoj ekzekutistojn ekzekutiston
+72	6072	vilaĝeto	vilaĝetoj vilaĝetojn vilaĝeton
+73	6073	violo	violoj violojn violon
+74	6074	buŝtuko	buŝtukoj buŝtukojn buŝtukon
+75	6075	svarmo	svarmoj svarmojn svarmon
+76	6076	marŝalo	marŝaloj marŝalojn marŝalon
+77	6077	damasko	damaskoj damaskojn damaskon
+78	6078	anatomio	anatomioj anatomiojn anatomion
+79	6079	sindromo	sindromoj sindromojn sindromon
+80	6080	simetrio	simetrioj simetriojn simetrion
+81	6081	anomalio	anomalioj anomaliojn anomalion
+82	6082	abato	abatoj abatojn abaton
+83	6083	konveksa	konveksaj konveksajn konveksan
+84	6084	spertulo	spertuloj spertulojn spertulon
+85	6085	maĉgumo	maĉgumoj maĉgumojn maĉgumon
+86	6086	rangi	ranganta rangantaj rangantajn rangantan rangante rangas ranginta rangintaj rangintajn rangintan ranginte rangis rangonta rangontaj rangontajn rangontan rangonte rangos rangu rangus
+87	6087	bankroti	bankrotanta bankrotantaj bankrotantajn bankrotantan bankrotante bankrotas bankrotinta bankrotintaj bankrotintajn bankrotintan bankrotinte bankrotis bankrotonta bankrotontaj bankrotontajn bankrotontan bankrotonte bankrotos bankrotu bankrotus
+88	6088	montrilo	montriloj montrilojn montrilon
+89	6089	kabalo	kabaloj kabalojn kabalon
+90	6090	malĝentila	malĝentilaj malĝentilajn malĝentilan
+91	6091	doktora	doktoraj doktorajn doktoran
+92	6092	malkiel	
+93	6093	sencele	
+94	6094	proleto	proletoj proletojn proleton
+95	6095	malpravi	malpravanta malpravantaj malpravantajn malpravantan malpravante malpravas malpravinta malpravintaj malpravintajn malpravintan malpravinte malpravis malpravonta malpravontaj malpravontajn malpravontan malpravonte malpravos malpravu malpravus
+96	6096	flako	flakoj flakojn flakon
+97	6097	vivado	vivadoj vivadojn vivadon
+98	6098	patra	patraj patrajn patran
+99	6099	admiralo	admiraloj admiralojn admiralon
+100	6100	duobliĝi	duobliĝanta duobliĝantaj duobliĝantajn duobliĝantan duobliĝante duobliĝas duobliĝinta duobliĝintaj duobliĝintajn duobliĝintan duobliĝinte duobliĝis duobliĝonta duobliĝontaj duobliĝontajn duobliĝontan duobliĝonte duobliĝos duobliĝu duobliĝus

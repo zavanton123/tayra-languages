@@ -1,0 +1,100 @@
+1	6401	tegi	teganta tegantaj tegantajn tegantan tegante tegas tegata tegataj tegatajn tegatan tegate teginta tegintaj tegintajn tegintan teginte tegis tegita tegitaj tegitajn tegitan tegite tegonta tegontaj tegontajn tegontan tegonte tegos tegu tegus
+2	6402	trunko	trunkoj trunkojn trunkon
+3	6403	moskito	moskitoj moskitojn moskiton
+4	6404	anodo	anodoj anodojn anodon
+5	6405	tekokomputilo	tekokomputiloj tekokomputilojn tekokomputilon
+6	6406	subspecio	subspecioj subspeciojn subspecion
+7	6407	montrofingro	montrofingroj montrofingrojn montrofingron
+8	6408	klaviceno	klavicenoj klavicenojn klavicenon
+9	6409	nebulozo	nebulozoj nebulozojn nebulozon
+10	6410	obeemo	obeemoj obeemojn obeemon
+11	6411	slavo	slavoj slavojn slavon
+12	6412	korupta	koruptaj koruptajn koruptan
+13	6413	geografie	
+14	6414	brazilano	brazilanoj brazilanojn brazilanon
+15	6415	kolere	
+16	6416	mallaŭta	mallaŭtaj mallaŭtajn mallaŭtan
+17	6417	incesto	incestoj incestojn inceston
+18	6418	biologo	biologoj biologojn biologon
+19	6419	amasa	amasaj amasajn amasan
+20	6420	unike	
+21	6421	hufo	hufoj hufojn hufon
+22	6422	aŭroro	aŭroroj aŭrorojn aŭroron
+23	6423	idaro	idaroj idarojn idaron
+24	6424	bopatro	bopatroj bopatrojn bopatron
+25	6425	heĝo	heĝoj heĝojn heĝon
+26	6426	neuzata	neuzataj neuzatajn neuzatan
+27	6427	perlo	perloj perlojn perlon
+28	6428	erozio	erozioj eroziojn erozion
+29	6429	entuziasma	entuziasmaj entuziasmajn entuziasman
+30	6430	rava	ravaj ravajn ravan
+31	6431	herezo	herezoj herezojn herezon
+32	6432	ĝena	ĝenaj ĝenajn ĝenan
+33	6433	enreta	enretaj enretajn enretan
+34	6434	eksplodema	eksplodemaj eksplodemajn eksplodeman
+35	6435	vespo	vespoj vespojn vespon
+36	6436	dispeli	dispelanta dispelantaj dispelantajn dispelantan dispelante dispelas dispelata dispelataj dispelatajn dispelatan dispelate dispelinta dispelintaj dispelintajn dispelintan dispelinte dispelis dispelita dispelitaj dispelitajn dispelitan dispelite dispelonta dispelontaj dispelontajn dispelontan dispelonte dispelos dispelu dispelus
+37	6437	prudente	
+38	6438	merkrede	
+39	6439	riproĉo	riproĉoj riproĉojn riproĉon
+40	6440	hermetika	hermetikaj hermetikajn hermetikan
+41	6441	malsimpla	malsimplaj malsimplajn malsimplan
+42	6442	madono	madonoj madonojn madonon
+43	6443	barĝo	barĝoj barĝojn barĝon
+44	6444	serĝento	serĝentoj serĝentojn serĝenton
+45	6445	reĝeco	reĝecoj reĝecojn reĝecon
+46	6446	ŝanĝebleco	ŝanĝeblecoj ŝanĝeblecojn ŝanĝeblecon
+47	6447	genealogia	genealogiaj genealogiajn genealogian
+48	6448	humura	humuraj humurajn humuran
+49	6449	metafizika	metafizikaj metafizikajn metafizikan
+50	6450	vuo	vu vuoj vuojn vuon
+51	6451	malfari	malfaranta malfarantaj malfarantajn malfarantan malfarante malfaras malfarinta malfarintaj malfarintajn malfarintan malfarinte malfaris malfaronta malfarontaj malfarontajn malfarontan malfaronte malfaros malfaru malfarus
+52	6452	kuraĝigi	kuraĝiganta kuraĝigantaj kuraĝigantajn kuraĝigantan kuraĝigante kuraĝigas kuraĝigata kuraĝigataj kuraĝigatajn kuraĝigatan kuraĝigate kuraĝiginta kuraĝigintaj kuraĝigintajn kuraĝigintan kuraĝiginte kuraĝigis kuraĝigita kuraĝigitaj kuraĝigitajn kuraĝigitan kuraĝigite kuraĝigonta kuraĝigontaj kuraĝigontajn kuraĝigontan kuraĝigonte kuraĝigos kuraĝigu kuraĝigus
+53	6453	burĝo	burĝoj burĝojn burĝon
+54	6454	pisti	pistanta pistantaj pistantajn pistantan pistante pistas pistata pistataj pistatajn pistatan pistate pistinta pistintaj pistintajn pistintan pistinte pistis pistita pistitaj pistitajn pistitan pistite pistonta pistontaj pistontajn pistontan pistonte pistos pistu pistus
+55	6455	kuregi	kureganta kuregantaj kuregantajn kuregantan kuregante kuregas kuregata kuregataj kuregatajn kuregatan kuregate kureginta kuregintaj kuregintajn kuregintan kureginte kuregis kuregita kuregitaj kuregitajn kuregitan kuregite kuregonta kuregontaj kuregontajn kuregontan kuregonte kuregos kuregu kuregus
+56	6456	atoma	atomaj atomajn atoman
+57	6457	obĵeto	obĵetoj obĵetojn obĵeton
+58	6458	spirado	spiradoj spiradojn spiradon
+59	6459	gudro	gudroj gudrojn gudron
+60	6460	siavice	
+61	6461	deliri	deliranta delirantaj delirantajn delirantan delirante deliras delirinta delirintaj delirintajn delirintan delirinte deliris delironta delirontaj delirontajn delirontan delironte deliros deliru delirus
+62	6462	ostaĝo	ostaĝoj ostaĝojn ostaĝon
+63	6463	tubero	tuberoj tuberojn tuberon
+64	6464	postmorta	postmortaj postmortajn postmortan
+65	6465	reverso	reversoj reversojn reverson
+66	6466	rekonebla	rekoneblaj rekoneblajn rekoneblan
+67	6467	abono	abonoj abonojn abonon
+68	6468	mise	
+69	6469	librejo	librejoj librejojn librejon
+70	6470	vakera	vakeraj vakerajn vakeran
+71	6471	senhelpa	senhelpaj senhelpajn senhelpan
+72	6472	ŝilingo	ŝilingoj ŝilingojn ŝilingon
+73	6473	familiara	familiaraj familiarajn familiaran
+74	6474	olivo	olivoj olivojn olivon
+75	6475	muzikaĵo	muzikaĵoj muzikaĵojn muzikaĵon
+76	6476	tondri	tondranta tondrantaj tondrantajn tondrantan tondrante tondras tondrinta tondrintaj tondrintajn tondrintan tondrinte tondris tondronta tondrontaj tondrontajn tondrontan tondronte tondros tondru tondrus
+77	6477	eksperimentado	eksperimentadoj eksperimentadojn eksperimentadon
+78	6478	singularo	singularoj singularojn singularon
+79	6479	pokapa	pokapaj pokapajn pokapan
+80	6480	satiro	satiroj satirojn satiron
+81	6481	malsane	
+82	6482	ŝinko	ŝinkoj ŝinkojn ŝinkon
+83	6483	dek-unua	dekunua dekunuaj dekunuajn dekunuan
+84	6484	sparko	sparkoj sparkojn sparkon
+85	6485	naskiĝloko	naskiĝlokoj naskiĝlokojn naskiĝlokon
+86	6486	malkonfesi	malkonfesanta malkonfesantaj malkonfesantajn malkonfesantan malkonfesante malkonfesas malkonfesata malkonfesataj malkonfesatajn malkonfesatan malkonfesate malkonfesinta malkonfesintaj malkonfesintajn malkonfesintan malkonfesinte malkonfesis malkonfesita malkonfesitaj malkonfesitajn malkonfesitan malkonfesite malkonfesonta malkonfesontaj malkonfesontajn malkonfesontan malkonfesonte malkonfesos malkonfesu malkonfesus
+87	6487	labirinto	labirintoj labirintojn labirinton
+88	6488	dekoka	dekokaj dekokajn dekokan
+89	6489	ŝarko	ŝarkoj ŝarkojn ŝarkon
+90	6490	monumenta	monumentaj monumentajn monumentan
+91	6491	ajuto	ajutoj ajutojn ajuton
+92	6492	jeto	jetoj jetojn jeton
+93	6493	hola	
+94	6494	kombino	kombinoj kombinojn kombinon
+95	6495	kaŭĉuko	kaŭĉukoj kaŭĉukojn kaŭĉukon
+96	6496	belarto	belartoj belartojn belarton
+97	6497	ŝamano	ŝamanoj ŝamanojn ŝamanon
+98	6498	nigre	
+99	6499	spongo	spongoj spongojn spongon
+100	6500	netuŝebla	netuŝeblaj netuŝeblajn netuŝeblan

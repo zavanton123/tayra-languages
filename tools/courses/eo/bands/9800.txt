@@ -1,0 +1,100 @@
+1	9701	pluvnubo	pluvnuboj pluvnubojn pluvnubon
+2	9702	banaleco	banalecoj banalecojn banalecon
+3	9703	amaro	amaroj amarojn amaron
+4	9704	musido	musidoj musidojn musidon
+5	9705	blui	bluanta bluantaj bluantajn bluantan bluante bluas bluinta bluintaj bluintajn bluintan bluinte bluis bluonta bluontaj bluontajn bluontan bluonte bluos bluu bluus
+6	9706	kalejdoskopo	kalejdoskopoj kalejdoskopojn kalejdoskopon
+7	9707	elrigardi	elrigardanta elrigardantaj elrigardantajn elrigardantan elrigardante elrigardas elrigardinta elrigardintaj elrigardintajn elrigardintan elrigardinte elrigardis elrigardonta elrigardontaj elrigardontajn elrigardontan elrigardonte elrigardos elrigardu elrigardus
+8	9708	plenaĝulo	plenaĝuloj plenaĝulojn plenaĝulon
+9	9709	samaĝulo	samaĝuloj samaĝulojn samaĝulon
+10	9710	kofro	kofroj kofrojn kofron
+11	9711	anseraĵo	anseraĵoj anseraĵojn anseraĵon
+12	9712	gestolingvo	gestolingvoj gestolingvojn gestolingvon
+13	9713	inkubsonĝo	inkubsonĝoj inkubsonĝojn inkubsonĝon
+14	9714	gufujo	gufujoj gufujojn gufujon
+15	9715	plejeble	
+16	9716	pavino	pavinoj pavinojn pavinon
+17	9717	sciura	sciuraj sciurajn sciuran
+18	9718	vejni	vejnanta vejnantaj vejnantajn vejnantan vejnante vejnas vejnata vejnataj vejnatajn vejnatan vejnate vejninta vejnintaj vejnintajn vejnintan vejninte vejnis vejnita vejnitaj vejnitajn vejnitan vejnite vejnonta vejnontaj vejnontajn vejnontan vejnonte vejnos vejnu vejnus
+19	9719	inkubo	inkuboj inkubojn inkubon
+20	9720	disporti	disportanta disportantaj disportantajn disportantan disportante disportas disportinta disportintaj disportintajn disportintan disportinte disportis disportonta disportontaj disportontajn disportontan disportonte disportos disportu disportus
+21	9721	ĉefulo	ĉefuloj ĉefulojn ĉefulon
+22	9722	seksatenci	seksatencanta seksatencantaj seksatencantajn seksatencantan seksatencante seksatencas seksatencinta seksatencintaj seksatencintajn seksatencintan seksatencinte seksatencis seksatenconta seksatencontaj seksatencontajn seksatencontan seksatenconte seksatencos seksatencu seksatencus
+23	9723	rigli	riglanta riglantaj riglantajn riglantan riglante riglas riglata riglataj riglatajn riglatan riglate riglinta riglintaj riglintajn riglintan riglinte riglis riglita riglitaj riglitajn riglitan riglite riglonta riglontaj riglontajn riglontan riglonte riglos riglu riglus
+24	9724	viviĝi	viviĝanta viviĝantaj viviĝantajn viviĝantan viviĝante viviĝas viviĝinta viviĝintaj viviĝintajn viviĝintan viviĝinte viviĝis viviĝonta viviĝontaj viviĝontajn viviĝontan viviĝonte viviĝos viviĝu viviĝus
+25	9725	reiro	reiroj reirojn reiron
+26	9726	kolegaro	kolegaroj kolegarojn kolegaron
+27	9727	kvarope	
+28	9728	agresi	agresanta agresantaj agresantajn agresantan agresante agresantoj agresas agresinta agresintaj agresintajn agresintan agresinte agresis agresonta agresontaj agresontajn agresontan agresonte agresos agresu agresus
+29	9729	grimaci	grimacanta grimacantaj grimacantajn grimacantan grimacante grimacas grimacinta grimacintaj grimacintajn grimacintan grimacinte grimacis grimaconta grimacontaj grimacontajn grimacontan grimaconte grimacos grimacu grimacus
+30	9730	kantaĉi	kantaĉanta kantaĉantaj kantaĉantajn kantaĉantan kantaĉante kantaĉas kantaĉinta kantaĉintaj kantaĉintajn kantaĉintan kantaĉinte kantaĉis kantaĉonta kantaĉontaj kantaĉontajn kantaĉontan kantaĉonte kantaĉos kantaĉu kantaĉus
+31	9731	ravino	ravinoj ravinojn ravinon
+32	9732	malzorga	malzorgaj malzorgajn malzorgan
+33	9733	profitebla	profiteblaj profiteblajn profiteblan
+34	9734	jodli	jodlanta jodlantaj jodlantajn jodlantan jodlante jodlas jodlinta jodlintaj jodlintajn jodlintan jodlinte jodlis jodlonta jodlontaj jodlontajn jodlontan jodlonte jodlos jodlu jodlus
+35	9735	traĥeo	traĥeoj traĥeojn traĥeon
+36	9736	alvokiĝi	alvokiĝanta alvokiĝantaj alvokiĝantajn alvokiĝantan alvokiĝante alvokiĝas alvokiĝinta alvokiĝintaj alvokiĝintajn alvokiĝintan alvokiĝinte alvokiĝis alvokiĝonta alvokiĝontaj alvokiĝontajn alvokiĝontan alvokiĝonte alvokiĝos alvokiĝu alvokiĝus
+37	9737	aliĝilo	aliĝiloj aliĝilojn aliĝilon
+38	9738	antaŭiĝi	antaŭiĝanta antaŭiĝantaj antaŭiĝantajn antaŭiĝantan antaŭiĝante antaŭiĝas antaŭiĝinta antaŭiĝintaj antaŭiĝintajn antaŭiĝintan antaŭiĝinte antaŭiĝis antaŭiĝonta antaŭiĝontaj antaŭiĝontajn antaŭiĝontan antaŭiĝonte antaŭiĝos antaŭiĝu antaŭiĝus
+39	9739	kompleti	kompletanta kompletantaj kompletantajn kompletantan kompletante kompletas kompletinta kompletintaj kompletintajn kompletintan kompletinte kompletis kompletonta kompletontaj kompletontajn kompletontan kompletonte kompletos kompletu kompletus
+40	9740	hodiaŭo	hodiaŭoj hodiaŭojn hodiaŭon
+41	9741	nudisto	nudistoj nudistojn nudiston
+42	9742	valsi	valsanta valsantaj valsantajn valsantan valsante valsas valsinta valsintaj valsintajn valsintan valsinte valsis valsonta valsontaj valsontajn valsontan valsonte valsos valsu valsus
+43	9743	larmi	larmanta larmantaj larmantajn larmantan larmante larmas larminta larmintaj larmintajn larmintan larminte larmis larmonta larmontaj larmontajn larmontan larmonte larmos larmu larmus
+44	9744	feliĉiĝi	feliĉiĝanta feliĉiĝantaj feliĉiĝantajn feliĉiĝantan feliĉiĝante feliĉiĝas feliĉiĝinta feliĉiĝintaj feliĉiĝintajn feliĉiĝintan feliĉiĝinte feliĉiĝis feliĉiĝonta feliĉiĝontaj feliĉiĝontajn feliĉiĝontan feliĉiĝonte feliĉiĝos feliĉiĝu feliĉiĝus
+45	9745	korinfarkto	korinfarktoj korinfarktojn korinfarkton
+46	9746	avio	avioj aviojn avion
+47	9747	mondaĝo	mondaĝoj mondaĝojn mondaĝon
+48	9748	kunlaboraĵo	kunlaboraĵoj kunlaboraĵojn kunlaboraĵon
+49	9749	malplaĉa	malplaĉaj malplaĉajn malplaĉan
+50	9750	astrologiisto	astrologiistoj astrologiistojn astrologiiston
+51	9751	grasulo	grasuloj grasulojn grasulon
+52	9752	platega	plategaj plategajn plategan
+53	9753	saligi	saliganta saligantaj saligantajn saligantan saligante saligas saligata saligataj saligatajn saligatan saligate saliginta saligintaj saligintajn saligintan saliginte saligis saligita saligitaj saligitajn saligitan saligite saligonta saligontaj saligontajn saligontan saligonte saligos saligu saligus
+54	9754	malpure	
+55	9755	enorda	enordaj enordajn enordan
+56	9756	damno	damnoj damnojn damnon
+57	9757	fuŝparoli	fuŝparolanta fuŝparolantaj fuŝparolantajn fuŝparolantan fuŝparolante fuŝparolas fuŝparolinta fuŝparolintaj fuŝparolintajn fuŝparolintan fuŝparolinte fuŝparolis fuŝparolonta fuŝparolontaj fuŝparolontajn fuŝparolontan fuŝparolonte fuŝparolos fuŝparolu fuŝparolus
+58	9758	amuzejo	amuzejoj amuzejojn amuzejon
+59	9759	grandulo	granduloj grandulojn grandulon
+60	9760	enuiĝi	enuiĝanta enuiĝantaj enuiĝantajn enuiĝantan enuiĝante enuiĝas enuiĝinta enuiĝintaj enuiĝintajn enuiĝintan enuiĝinte enuiĝis enuiĝonta enuiĝontaj enuiĝontajn enuiĝontan enuiĝonte enuiĝos enuiĝu enuiĝus
+61	9761	varicelo	variceloj varicelojn varicelon
+62	9762	kokrito	kokritoj kokritojn kokriton
+63	9763	manĝilo	manĝiloj manĝilojn manĝilon
+64	9764	malbelo	malbeloj malbelojn malbelon
+65	9765	malpurega	malpuregaj malpuregajn malpuregan
+66	9766	pruda	prudaj prudajn prudan
+67	9767	pasifrukto	pasifruktoj pasifruktojn pasifrukton
+68	9768	spionino	spioninoj spioninojn spioninon
+69	9769	moruso	morusoj morusojn moruson
+70	9770	ŝŝ	
+71	9771	disflori	disfloranta disflorantaj disflorantajn disflorantan disflorante disfloras disflorinta disflorintaj disflorintajn disflorintan disflorinte disfloris disfloronta disflorontaj disflorontajn disflorontan disfloronte disfloros disfloru disflorus
+72	9772	mondohistorio	mondohistorioj mondohistoriojn mondohistorion
+73	9773	humiliĝi	humiliĝanta humiliĝantaj humiliĝantajn humiliĝantan humiliĝante humiliĝas humiliĝinta humiliĝintaj humiliĝintajn humiliĝintan humiliĝinte humiliĝis humiliĝonta humiliĝontaj humiliĝontajn humiliĝontan humiliĝonte humiliĝos humiliĝu humiliĝus
+74	9774	kramfo	kramfoj kramfojn kramfon
+75	9775	paŭti	paŭtanta paŭtantaj paŭtantajn paŭtantan paŭtante paŭtas paŭtinta paŭtintaj paŭtintajn paŭtintan paŭtinte paŭtis paŭtonta paŭtontaj paŭtontajn paŭtontan paŭtonte paŭtos paŭtu paŭtus
+76	9776	agendo	agendoj agendojn agendon
+77	9777	grefto	greftoj greftojn grefton
+78	9778	paneo	paneoj paneojn paneon
+79	9779	frandi	frandanta frandantaj frandantajn frandantan frandante frandas frandinta frandintaj frandintajn frandintan frandinte frandis frandonta frandontaj frandontajn frandontan frandonte frandos frandu frandus
+80	9780	filozofado	filozofadoj filozofadojn filozofadon
+81	9781	tiufoje	
+82	9782	embargo	embargoj embargojn embargon
+83	9783	barto	bartoj bartojn barton
+84	9784	kankro	kankroj kankrojn kankron
+85	9785	hokeo	hokeoj hokeojn hokeon
+86	9786	absolutismo	absolutismoj absolutismojn absolutismon
+87	9787	arbitracio	arbitracioj arbitraciojn arbitracion
+88	9788	ĉeĥo	ĉeĥoj ĉeĥojn ĉeĥon
+89	9789	foliaro	foliaroj foliarojn foliaron
+90	9790	formaldehido	formaldehidoj formaldehidojn formaldehidon
+91	9791	laŭlitera	laŭliteraj laŭliterajn laŭliteran
+92	9792	kaŭstika	kaŭstikaj kaŭstikajn kaŭstikan
+93	9793	piko	pikoj pikojn pikon
+94	9794	kontrabaso	kontrabasoj kontrabasojn kontrabason
+95	9795	kabrioleto	kabrioletoj kabrioletojn kabrioleton
+96	9796	salikoko	salikokoj salikokojn salikokon
+97	9797	lakta	laktaj laktajn laktan
+98	9798	folii	folianta foliantaj foliantajn foliantan foliante folianto foliantoj foliantojn folias foliinta foliintaj foliintajn foliintan foliinte foliis folionta foliontaj foliontajn foliontan folionte folios foliu folius
+99	9799	ceramikisto	ceramikistoj ceramikistojn ceramikiston
+100	9800	peptido	peptidoj peptidojn peptidon

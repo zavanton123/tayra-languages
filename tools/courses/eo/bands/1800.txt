@@ -1,0 +1,100 @@
+1	1701	fenomeno	fenomenoj fenomenojn fenomenon
+2	1702	fidinda	fidindaj fidindajn fidindan
+3	1703	naskiĝtago	naskiĝtagoj naskiĝtagojn naskiĝtagon
+4	1704	subjekto	subjektoj subjektojn subjekton
+5	1705	butiko	butikoj butikojn butikon
+6	1706	bongusta	bongustaj bongustajn bongustan
+7	1707	nubo	nuboj nubojn nubon
+8	1708	protekto	protektoj protektojn protekton
+9	1709	agento	agentoj agentojn agenton
+10	1710	ina	inaj inajn inan
+11	1711	mondmilito	mondmilitoj mondmilitojn mondmiliton
+12	1712	miraklo	mirakloj miraklojn miraklon
+13	1713	kontribuo	kontribuoj kontribuojn kontribuon
+14	1714	simile	
+15	1715	aserto	asertoj asertojn aserton
+16	1716	terapio	terapioj terapiojn terapion
+17	1717	pugo	pugoj pugojn pugon
+18	1718	tiutempe	
+19	1719	klopodo	klopodoj klopodojn klopodon
+20	1720	kampara	kamparaj kamparajn kamparan
+21	1721	gastigi	gastiganta gastigantaj gastigantajn gastigantan gastigante gastigantoj gastigantojn gastiganton gastigas gastigata gastigataj gastigatajn gastigatan gastigate gastiginta gastigintaj gastigintajn gastigintan gastiginte gastigis gastigita gastigitaj gastigitajn gastigitan gastigite gastigonta gastigontaj gastigontajn gastigontan gastigonte gastigos gastigu gastigus
+22	1722	movo	movoj movojn movon
+23	1723	bono	bonoj bonojn bonon
+24	1724	aminda	amindaj amindajn amindan
+25	1725	pozitiva	pozitivaj pozitivajn pozitivan
+26	1726	nordo	nordoj nordojn nordon
+27	1727	ekstari	ekstaranta ekstarantaj ekstarantajn ekstarantan ekstarante ekstaras ekstarinta ekstarintaj ekstarintajn ekstarintan ekstarinte ekstaris ekstaronta ekstarontaj ekstarontajn ekstarontan ekstaronte ekstaros ekstaru ekstarus
+28	1728	amuza	amuzaj amuzajn amuzan
+29	1729	kadro	kadroj kadrojn kadron
+30	1730	juĝisto	juĝistoj juĝistojn juĝiston
+31	1731	disigi	disiganta disigantaj disigantajn disigantan disigante disigantoj disigas disigata disigataj disigatajn disigatan disigate disiginta disigintaj disigintajn disigintan disiginte disigis disigitaj disigitajn disigitan disigite disigonta disigontaj disigontajn disigontan disigonte disigos disigu disigus
+32	1732	ŝerci	ŝercanta ŝercantaj ŝercantajn ŝercantan ŝercante ŝercantoj ŝercas ŝercinta ŝercintaj ŝercintajn ŝercintan ŝercinte ŝercis ŝerconta ŝercontaj ŝercontajn ŝercontan ŝerconte ŝercos ŝercu ŝercus
+33	1733	kulpo	kulpoj kulpojn kulpon
+34	1734	ekspedicio	ekspedicioj ekspediciojn ekspedicion
+35	1735	eltrovi	eltrovanta eltrovantaj eltrovantajn eltrovantan eltrovante eltrovas eltrovata eltrovataj eltrovatajn eltrovatan eltrovate eltrovinta eltrovintaj eltrovintajn eltrovintan eltrovinte eltrovinto eltrovintoj eltrovis eltrovita eltrovitaj eltrovitajn eltrovitan eltrovite eltrovonta eltrovontaj eltrovontajn eltrovontan eltrovonte eltrovos eltrovu eltrovus
+36	1736	pago	pagoj pagojn pagon
+37	1737	malofte	
+38	1738	konsistigi	konsistiganta konsistigantaj konsistigantajn konsistigantan konsistigante konsistigas konsistigata konsistigataj konsistigatajn konsistigatan konsistigate konsistiginta konsistigintaj konsistigintajn konsistigintan konsistiginte konsistigis konsistigita konsistigitaj konsistigitajn konsistigitan konsistigite konsistigonta konsistigontaj konsistigontajn konsistigontan konsistigonte konsistigos konsistigu konsistigus
+39	1739	trezoro	trezoroj trezorojn trezoron
+40	1740	gardisto	gardistoj gardistojn gardiston
+41	1741	serioze	
+42	1742	civilizo	civilizoj civilizojn civilizon
+43	1743	kariero	karieroj karierojn karieron
+44	1744	kunmeti	kunmetanta kunmetantaj kunmetantajn kunmetantan kunmetante kunmetas kunmetata kunmetataj kunmetatajn kunmetatan kunmetate kunmetinta kunmetintaj kunmetintajn kunmetintan kunmetinte kunmetis kunmetita kunmetitaj kunmetitajn kunmetitan kunmetite kunmetonta kunmetontaj kunmetontajn kunmetontan kunmetonte kunmetos kunmetu kunmetus
+45	1745	krono	kronoj kronojn kronon
+46	1746	kutimo	kutimoj kutimojn kutimon
+47	1747	longo	longoj longojn longon
+48	1748	pluvo	pluvoj pluvojn pluvon
+49	1749	maldika	maldikaj maldikajn maldikan
+50	1750	kelkfoje	kelkafoje
+51	1751	adreso	adresoj adresojn adreson
+52	1752	adapti	adaptanta adaptantaj adaptantajn adaptantan adaptante adaptas adaptata adaptataj adaptatajn adaptatan adaptate adaptinta adaptintaj adaptintajn adaptintan adaptinte adaptinto adaptintoj adaptintojn adaptis adaptita adaptitaj adaptitajn adaptitan adaptite adaptonta adaptontaj adaptontajn adaptontan adaptonte adaptos adaptu adaptus
+53	1753	alte	
+54	1754	listigi	listiganta listigantaj listigantajn listigantan listigante listigas listigata listigataj listigatajn listigatan listigate listiginta listigintaj listigintajn listigintan listiginte listigis listigita listigitaj listigitajn listigitan listigite listigonta listigontaj listigontajn listigontan listigonte listigos listigu listigus
+55	1755	cetere	
+56	1756	ŝerco	ŝercoj ŝercojn ŝercon
+57	1757	disko	diskoj diskojn diskon
+58	1758	murdo	murdoj murdojn murdon
+59	1759	diveni	divenanta divenantaj divenantajn divenantan divenante divenas diveninta divenintaj divenintajn divenintan diveninte divenis divenonta divenontaj divenontajn divenontan divenonte divenos divenu divenus
+60	1760	ferio	ferioj feriojn ferion
+61	1761	nuda	nudaj nudajn nudan
+62	1762	ĉiujara	ĉiujaraj ĉiujarajn ĉiujaran
+63	1763	malproksime	
+64	1764	tereno	terenoj terenojn terenon
+65	1765	laŭte	
+66	1766	malsanulejo	malsanulejoj malsanulejojn malsanulejon
+67	1767	apartigi	apartiganta apartigantaj apartigantajn apartigantan apartigante apartigas apartigata apartigataj apartigatajn apartigatan apartigate apartiginta apartigintaj apartigintajn apartigintan apartiginte apartigis apartigita apartigitaj apartigitajn apartigitan apartigite apartigonta apartigontaj apartigontajn apartigontan apartigonte apartigos apartigu apartigus
+68	1768	komunisto	komunistoj komunistojn komuniston
+69	1769	najbaro	najbaroj najbarojn najbaron
+70	1770	turniĝi	turniĝanta turniĝantaj turniĝantajn turniĝantan turniĝante turniĝas turniĝinta turniĝintaj turniĝintajn turniĝintan turniĝinte turniĝis turniĝonta turniĝontaj turniĝontajn turniĝontan turniĝonte turniĝos turniĝu turniĝus
+71	1771	hazarde	
+72	1772	asigni	asignanta asignantaj asignantajn asignantan asignante asignas asignata asignataj asignatajn asignatan asignate asigninta asignintaj asignintajn asignintan asigninte asignis asignita asignitaj asignitajn asignitan asignite asignonta asignontaj asignontajn asignontan asignonte asignos asignu asignus
+73	1773	liberigo	liberigoj liberigojn liberigon
+74	1774	popola	popolaj popolajn popolan
+75	1775	amuziĝi	amuziĝanta amuziĝantaj amuziĝantajn amuziĝantan amuziĝante amuziĝas amuziĝinta amuziĝintaj amuziĝintajn amuziĝintan amuziĝinte amuziĝis amuziĝonta amuziĝontaj amuziĝontajn amuziĝontan amuziĝonte amuziĝos amuziĝu amuziĝus
+76	1776	aĉulo	aĉuloj aĉulojn aĉulon
+77	1777	alproksimiĝi	alproksimiĝanta alproksimiĝantaj alproksimiĝantajn alproksimiĝantan alproksimiĝante alproksimiĝas alproksimiĝinta alproksimiĝintaj alproksimiĝintajn alproksimiĝintan alproksimiĝinte alproksimiĝis alproksimiĝonta alproksimiĝontaj alproksimiĝontajn alproksimiĝontan alproksimiĝonte alproksimiĝos alproksimiĝu alproksimiĝus
+78	1778	stoki	stokanta stokantaj stokantajn stokantan stokante stokas stokata stokataj stokatajn stokatan stokate stokinta stokintaj stokintajn stokintan stokinte stokis stokita stokitaj stokitajn stokitan stokite stokonta stokontaj stokontajn stokontan stokonte stokos stoku stokus
+79	1779	osto	ostoj ostojn oston
+80	1780	pezo	pezoj pezojn pezon
+81	1781	gambo	gamboj gambojn gambon
+82	1782	medikamento	medikamentoj medikamentojn medikamenton
+83	1783	devo	devoj devojn devon
+84	1784	ĉapitro	ĉapitroj ĉapitrojn ĉapitron
+85	1785	profunde	
+86	1786	fiasko	fiaskoj fiaskojn fiaskon
+87	1787	cedi	cedanta cedantaj cedantajn cedantan cedante cedas cedata cedataj cedatajn cedatan cedate cedinta cedintaj cedintajn cedintan cedinte cedis cedita ceditaj ceditajn ceditan cedite cedonta cedontaj cedontajn cedontan cedonte cedos cedu cedus
+88	1788	seka	sekaj sekajn sekan
+89	1789	diskuto	diskutoj diskutojn diskuton
+90	1790	kunlabori	kunlaboranta kunlaborantaj kunlaborantajn kunlaborantan kunlaborante kunlaboranto kunlaborantoj kunlaborantojn kunlaboranton kunlaboras kunlaborinta kunlaborintaj kunlaborintajn kunlaborintan kunlaborinte kunlaborintojn kunlaboris kunlaboronta kunlaborontaj kunlaborontajn kunlaborontan kunlaboronte kunlaboros kunlaboru kunlaborus
+91	1791	aktuala	aktualaj aktualajn aktualan
+92	1792	monumento	monumentoj monumentojn monumenton
+93	1793	pilko	pilkoj pilkojn pilkon
+94	1794	mirinde	
+95	1795	urso	ursoj ursojn urson
+96	1796	enamiĝi	enamiĝanta enamiĝantaj enamiĝantajn enamiĝantan enamiĝante enamiĝas enamiĝinta enamiĝintaj enamiĝintajn enamiĝintan enamiĝinte enamiĝis enamiĝonta enamiĝontaj enamiĝontajn enamiĝontan enamiĝonte enamiĝos enamiĝu enamiĝus
+97	1797	ŝpari	ŝparanta ŝparantaj ŝparantajn ŝparantan ŝparante ŝparas ŝparata ŝparataj ŝparatajn ŝparatan ŝparate ŝparinta ŝparintaj ŝparintajn ŝparintan ŝparinte ŝparis ŝparita ŝparitaj ŝparitajn ŝparitan ŝparite ŝparonta ŝparontaj ŝparontajn ŝparontan ŝparonte ŝparos ŝparu ŝparus
+98	1798	karesi	karesanta karesantaj karesantajn karesantan karesante karesas karesinta karesintaj karesintajn karesintan karesinte karesis karesonta karesontaj karesontajn karesontan karesonte karesos karesu karesus
+99	1799	konvinki	konvinkanta konvinkantaj konvinkantajn konvinkantan konvinkante konvinkas konvinkata konvinkataj konvinkatajn konvinkatan konvinkate konvinkinta konvinkintaj konvinkintajn konvinkintan konvinkinte konvinkis konvinkita konvinkitaj konvinkitajn konvinkitan konvinkite konvinkonta konvinkontaj konvinkontajn konvinkontan konvinkonte konvinkos konvinku konvinkus
+100	1800	aliloke	

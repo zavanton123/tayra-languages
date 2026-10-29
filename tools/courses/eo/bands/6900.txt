@@ -1,0 +1,100 @@
+1	6801	strangulo	stranguloj strangulojn strangulon
+2	6802	birdejo	birdejoj birdejojn birdejon
+3	6803	koso	kosoj kosojn koson
+4	6804	oratoro	oratoroj oratorojn oratoron
+5	6805	interezo	interezoj interezojn interezon
+6	6806	katido	katidoj katidojn katidon
+7	6807	trogo	trogoj trogojn trogon
+8	6808	glubendo	glubendoj glubendojn glubendon
+9	6809	melodia	melodiaj melodiajn melodian
+10	6810	mikrometro	mikrometroj mikrometrojn mikrometron
+11	6811	florbrasiko	florbrasikoj florbrasikojn florbrasikon
+12	6812	tima	timaj timajn timan
+13	6813	amikaro	amikaroj amikarojn amikaron
+14	6814	armeano	armeanoj armeanojn armeanon
+15	6815	primadono	primadonoj primadonojn primadonon
+16	6816	alaŭdo	alaŭdoj alaŭdojn alaŭdon
+17	6817	duafoje	
+18	6818	kvita	kvitaj kvitajn kvitan
+19	6819	senzorge	
+20	6820	versaĵo	versaĵoj versaĵojn versaĵon
+21	6821	ekpreni	ekprenanta ekprenantaj ekprenantajn ekprenantan ekprenante ekprenas ekpreninta ekprenintaj ekprenintajn ekprenintan ekpreninte ekprenis ekprenonta ekprenontaj ekprenontajn ekprenontan ekprenonte ekprenos ekprenu ekprenus
+22	6822	humanisto	humanistoj humanistojn humaniston
+23	6823	maldungo	maldungoj maldungojn maldungon
+24	6824	preĝeja	preĝejaj preĝejajn preĝejan
+25	6825	anarĥio	anarkio anarkion anarĥioj anarĥiojn anarĥion
+26	6826	blazono	blazonoj blazonojn blazonon
+27	6827	fiziologio	fiziologioj fiziologiojn fiziologion
+28	6828	kronado	kronadoj kronadojn kronadon
+29	6829	elektromotoro	elektromotoroj elektromotorojn elektromotoron
+30	6830	parseko	parsekoj parsekojn parsekon
+31	6831	treti	tretanta tretantaj tretantajn tretantan tretante tretas tretinta tretintaj tretintajn tretintan tretinte tretis tretonta tretontaj tretontajn tretontan tretonte tretos tretu tretus
+32	6832	enkarniĝi	enkarniĝanta enkarniĝantaj enkarniĝantajn enkarniĝantan enkarniĝante enkarniĝas enkarniĝinta enkarniĝintaj enkarniĝintajn enkarniĝintan enkarniĝinte enkarniĝintoj enkarniĝis enkarniĝonta enkarniĝontaj enkarniĝontajn enkarniĝontan enkarniĝonte enkarniĝos enkarniĝu enkarniĝus
+33	6833	gluto	glutoj glutojn gluton
+34	6834	portugale	
+35	6835	trompisto	trompistoj trompistojn trompiston
+36	6836	avide	
+37	6837	kooperado	kooperadoj kooperadojn kooperadon
+38	6838	reflekto	reflektoj reflektojn reflekton
+39	6839	ete	
+40	6840	pru	
+41	6841	enua	enuaj enuajn enuan
+42	6842	gravediĝi	gravediĝanta gravediĝantaj gravediĝantajn gravediĝantan gravediĝante gravediĝas gravediĝinta gravediĝintaj gravediĝintajn gravediĝintan gravediĝinte gravediĝis gravediĝonta gravediĝontaj gravediĝontajn gravediĝontan gravediĝonte gravediĝos gravediĝu gravediĝus
+43	6843	menhiro	menhiroj menhirojn menhiron
+44	6844	kreskaĵo	kreskaĵoj kreskaĵojn kreskaĵon
+45	6845	aŭdienco	aŭdiencoj aŭdiencojn aŭdiencon
+46	6846	kateni	katenanta katenantaj katenantajn katenantan katenante katenas katenata katenataj katenatajn katenatan katenate kateninta katenintaj katenintajn katenintan kateninte katenis katenita katenitaj katenitajn katenitan katenite katenonta katenontaj katenontajn katenontan katenonte katenos katenu katenus
+47	6847	atenci	atencanta atencantaj atencantajn atencantan atencante atencas atencata atencataj atencatajn atencatan atencate atencinta atencintaj atencintajn atencintan atencinte atencintoj atencis atencita atencitaj atencitajn atencitan atencite atenconta atencontaj atencontajn atencontan atenconte atencos atencu atencus
+48	6848	enlistigi	enlistiganta enlistigantaj enlistigantajn enlistigantan enlistigante enlistigas enlistigata enlistigataj enlistigatajn enlistigatan enlistigate enlistiginta enlistigintaj enlistigintajn enlistigintan enlistiginte enlistigis enlistigita enlistigitaj enlistigitajn enlistigitan enlistigite enlistigonta enlistigontaj enlistigontajn enlistigontan enlistigonte enlistigos enlistigu enlistigus
+49	6849	proksimigi	proksimiganta proksimigantaj proksimigantajn proksimigantan proksimigante proksimigas proksimiginta proksimigintaj proksimigintajn proksimigintan proksimiginte proksimigis proksimigonta proksimigontaj proksimigontajn proksimigontan proksimigonte proksimigos proksimigu proksimigus
+50	6850	nukleotido	nukleotidoj nukleotidojn nukleotidon
+51	6851	helpa	helpaj helpajn helpan
+52	6852	bobeno	bobenoj bobenojn bobenon
+53	6853	dinosaŭro	dinosaŭroj dinosaŭrojn dinosaŭron
+54	6854	kakto	kaktoj kaktojn kakton
+55	6855	ekzakta	ekzaktaj ekzaktajn ekzaktan
+56	6856	akvovojo	akvovojoj akvovojojn akvovojon
+57	6857	ebeno	ebenoj ebenojn ebenon
+58	6858	paŝtisto	paŝtistoj paŝtistojn paŝtiston
+59	6859	melo	meloj melojn melon
+60	6860	konsileto	konsiletoj konsiletojn konsileton
+61	6861	tiraneco	tiranecoj tiranecojn tiranecon
+62	6862	pitoreska	pitoreskaj pitoreskajn pitoreskan
+63	6863	aroma	aromaj aromajn aroman
+64	6864	kontentiĝi	kontentiĝanta kontentiĝantaj kontentiĝantajn kontentiĝantan kontentiĝante kontentiĝas kontentiĝinta kontentiĝintaj kontentiĝintajn kontentiĝintan kontentiĝinte kontentiĝis kontentiĝonta kontentiĝontaj kontentiĝontajn kontentiĝontan kontentiĝonte kontentiĝos kontentiĝu kontentiĝus
+65	6865	alkoholaĵo	alkoholaĵoj alkoholaĵojn alkoholaĵon
+66	6866	abomeni	abomenanta abomenantaj abomenantajn abomenantan abomenante abomenas abomenata abomenataj abomenatajn abomenatan abomenate abomeninta abomenintaj abomenintajn abomenintan abomeninte abomenis abomenita abomenitaj abomenitajn abomenitan abomenite abomenonta abomenontaj abomenontajn abomenontan abomenonte abomenos abomenu abomenus
+67	6867	ribelulo	ribeluloj ribelulojn ribelulon
+68	6868	psika	psikaj psikajn psikan
+69	6869	korporacio	korporacioj korporaciojn korporacion
+70	6870	adicii	adicianta adiciantaj adiciantajn adiciantan adiciante adicias adiciata adiciataj adiciatajn adiciatan adiciate adiciinta adiciintaj adiciintajn adiciintan adiciinte adiciis adiciita adiciitaj adiciitajn adiciitan adiciite adicionta adiciontaj adiciontajn adiciontan adicionte adicios adiciu adicius
+71	6871	pelvo	pelvoj pelvojn pelvon
+72	6872	mitologia	mitologiaj mitologiajn mitologian
+73	6873	aviado	aviadoj aviadojn aviadon
+74	6874	tokseco	toksecoj toksecojn toksecon
+75	6875	ŝaŭmo	ŝaŭmoj ŝaŭmojn ŝaŭmon
+76	6876	kalumnio	kalumnioj kalumniojn kalumnion
+77	6877	konverto	konvertoj konvertojn konverton
+78	6878	alterne	
+79	6879	superhoma	superhomaj superhomajn superhoman
+80	6880	duno	dunoj dunojn dunon
+81	6881	teksaĵo	teksaĵoj teksaĵojn teksaĵon
+82	6882	kasedo	kasedoj kasedojn kasedon
+83	6883	entjero	entjeroj entjerojn entjeron
+84	6884	metriko	metrikoj metrikojn metrikon
+85	6885	ministo	ministoj ministojn ministon
+86	6886	tribuno	tribunoj tribunojn tribunon
+87	6887	varmi	varmanta varmantaj varmantajn varmantan varmante varmas varminta varmintaj varmintajn varmintan varminte varmis varmonta varmontaj varmontajn varmontan varmonte varmos varmu varmus
+88	6888	idaĉo	idaĉoj idaĉojn idaĉon
+89	6889	amiki	amikanta amikantaj amikantajn amikantan amikante amikas amikinta amikintaj amikintajn amikintan amikinte amikis amikonta amikontaj amikontajn amikontan amikonte amikos amiku amikus
+90	6890	kiamaniere	
+91	6891	bakujo	bakujoj bakujojn bakujon
+92	6892	geamantoj	geamanto geamantojn geamanton
+93	6893	mordeto	mordetoj mordetojn mordeton
+94	6894	disdividi	disdividanta disdividantaj disdividantajn disdividantan disdividante disdividas disdividinta disdividintaj disdividintajn disdividintan disdividinte disdividis disdividonta disdividontaj disdividontajn disdividontan disdividonte disdividos disdividu disdividus
+95	6895	akvumi	akvumanta akvumantaj akvumantajn akvumantan akvumante akvumas akvuminta akvumintaj akvumintajn akvumintan akvuminte akvumis akvumonta akvumontaj akvumontajn akvumontan akvumonte akvumos akvumu akvumus
+96	6896	avĉjo	avĉjoj avĉjojn avĉjon
+97	6897	bedaŭregi	bedaŭreganta bedaŭregantaj bedaŭregantajn bedaŭregantan bedaŭregante bedaŭregas bedaŭreginta bedaŭregintaj bedaŭregintajn bedaŭregintan bedaŭreginte bedaŭregis bedaŭregonta bedaŭregontaj bedaŭregontajn bedaŭregontan bedaŭregonte bedaŭregos bedaŭregu bedaŭregus
+98	6898	returne	
+99	6899	estiel	
+100	6900	poltrono	poltronoj poltronojn poltronon

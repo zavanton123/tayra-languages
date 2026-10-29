@@ -1,0 +1,100 @@
+1	201	eniri	eniranta enirantaj enirantajn enirantan enirante eniras enirata enirataj eniratajn eniratan enirate enirinta enirintaj enirintajn enirintan enirinte eniris enirita eniritaj eniritajn eniritan enirite enironta enirontaj enirontajn enirontan enironte eniros eniru enirus
+2	202	ek	
+3	203	jarcento	jarcentoj jarcentojn jarcenton jc
+4	204	krei	kreanta kreantaj kreantajn kreantan kreante kreanto kreantoj kreas kreata kreataj kreatajn kreatan kreate kreinta kreintaj kreintajn kreintan kreinte kreinto kreintoj kreintojn kreinton kreis kreita kreitaj kreitajn kreitan kreite kreitojn kreonta kreontaj kreontajn kreontan kreonte kreos kreu kreus
+5	205	produkti	produktanta produktantaj produktantajn produktantan produktante produktanto produktantoj produktantojn produktanton produktas produktata produktataj produktatajn produktatan produktate produktato produktinta produktintaj produktintajn produktintan produktinte produktinto produktis produktita produktitaj produktitajn produktitan produktite produktonta produktontaj produktontajn produktontan produktonte produktos produktota produktu produktus
+6	206	daŭre	
+7	207	vorto	vortoj vortojn vorton
+8	208	denove	
+9	209	ŝajni	ŝajnanta ŝajnantaj ŝajnantajn ŝajnantan ŝajnante ŝajnas ŝajnata ŝajnataj ŝajnatajn ŝajnatan ŝajnate ŝajninta ŝajnintaj ŝajnintajn ŝajnintan ŝajninte ŝajnis ŝajnita ŝajnitaj ŝajnitajn ŝajnitan ŝajnite ŝajnonta ŝajnontaj ŝajnontajn ŝajnontan ŝajnonte ŝajnos ŝajnu ŝajnus
+10	210	tero	teroj terojn teron
+11	211	akvo	akvoj akvojn akvon
+12	212	patrino	patrinoj patrinojn patrinon
+13	213	preskaŭ	preskau
+14	214	morto	mortoj mortojn morton
+15	215	propra	propraj proprajn propran
+16	216	perdi	perdanta perdantaj perdantajn perdantan perdante perdas perdata perdataj perdatajn perdatan perdate perdinta perdintaj perdintajn perdintan perdinte perdis perdita perditaj perditajn perditan perdite perdonta perdontaj perdontajn perdontan perdonte perdos perdu perdus
+17	217	ĉirkaŭ	
+18	218	ajn	
+19	219	utiligi	utiliganta utiligantaj utiligantajn utiligantan utiligante utiliganto utiligas utiligata utiligataj utiligatajn utiligatan utiligate utiliginta utiligintaj utiligintajn utiligintan utiliginte utiligis utiligita utiligitaj utiligitajn utiligitan utiligite utiligonta utiligontaj utiligontajn utiligontan utiligonte utiligos utiligota utiligotaj utiligu utiligus
+20	220	libro	libroj librojn libron
+21	221	same	
+22	222	fino	finoj finojn finon
+23	223	fini	finanta finantaj finantajn finantan finante finantoj finas finata finataj finatajn finatan finate fininta finintaj finintajn finintan fininte finis finita finitaj finitajn finitan finite finonta finontaj finontajn finontan finonte finos finote finu finus
+24	224	postuli	postulanta postulantaj postulantajn postulantan postulante postulanto postulantoj postulanton postulas postulata postulataj postulatajn postulatan postulate postulato postulatoj postulaton postulinta postulintaj postulintajn postulintan postulinte postulis postulita postulitaj postulitajn postulitan postulite postulonta postulontaj postulontajn postulontan postulonte postulos postulu postulus
+25	225	ene	
+26	226	atingi	atinganta atingantaj atingantajn atingantan atingante atingas atingata atingataj atingatajn atingatan atingate atinginta atingintaj atingintajn atingintan atinginte atingis atingita atingitaj atingitajn atingitan atingite atingonta atingontaj atingontajn atingontan atingonte atingos atingota atingotaj atingu atingus
+27	227	igi	iganta igantaj igantajn igantan igante iganto igas igata igataj igatajn igatan igate iginta igintaj igintajn igintan iginte igis igita igitaj igitajn igitan igite igonta igontaj igontajn igontan igonte igos igu igus
+28	228	ci	cia ciaj ciajn cian cin
+29	229	problemo	problemoj problemojn problemon
+30	230	serĉi	serĉanta serĉantaj serĉantajn serĉantan serĉante serĉanto serĉantoj serĉantojn serĉanton serĉas serĉata serĉataj serĉatajn serĉatan serĉate serĉinta serĉintaj serĉintajn serĉintan serĉinte serĉis serĉita serĉitaj serĉitajn serĉitan serĉite serĉonta serĉontaj serĉontajn serĉontan serĉonte serĉos serĉu serĉus
+31	231	bela	belaj belajn belan
+32	232	malsama	malsamaj malsamajn malsaman
+33	233	uzo	uzoj uzojn uzon
+34	234	dua	duaj duajn duan
+35	235	timi	timanta timantaj timantajn timantan timante timas timata timataj timatajn timatan timate timinta timintaj timintajn timintan timinte timis timita timitaj timitajn timitan timite timonta timontaj timontajn timontan timonte timos timu timus
+36	236	lasta	lastaj lastajn lastan
+37	237	mano	manoj manojn manon
+38	238	senti	sentanta sentantaj sentantajn sentantan sentante sentas sentata sentataj sentatajn sentatan sentate sentinta sentintaj sentintajn sentintan sentinte sentis sentita sentitaj sentitajn sentitan sentite sentonta sentontaj sentontajn sentontan sentonte sentos sentu sentus
+39	239	domo	domego domegoj domegojn domegon domoj domojn domon
+40	240	formo	formoj formojn formon
+41	241	pluraj	plura plurajn pluran
+42	242	knabo	knaboj knabojn knabon knaĉjo
+43	243	alporti	alportanta alportantaj alportantajn alportantan alportante alportanto alportas alportata alportataj alportatajn alportatan alportate alportinta alportintaj alportintajn alportintan alportinte alportis alportita alportitaj alportitajn alportitan alportite alportonta alportontaj alportontajn alportontan alportonte alportos alportu alportus
+44	244	frua	fruaj fruajn fruan
+45	245	alveni	alvenanta alvenantaj alvenantajn alvenantan alvenante alvenanto alvenantoj alvenas alveninta alvenintaj alvenintajn alvenintan alveninte alvenis alvenonta alvenontaj alvenontajn alvenontan alvenonte alvenos alvenu alvenus
+46	246	ami	amanta amantaj amantajn amantan amante amanto amantoj amantojn amanton amas amata amataj amatajn amatan amate amato amatojn amaton aminta amintaj amintajn amintan aminte amis amita amitaj amitajn amitan amite amonta amontaj amontajn amontan amonte amos amu amus
+47	247	porti	portanta portantaj portantajn portantan portante portanto portantoj portantojn portanton portas portata portataj portatajn portatan portate portinta portintaj portintajn portintan portinte portis portita portitaj portitajn portitan portite portonta portontaj portontajn portontan portonte portos portu portus
+48	248	celo	celoj celojn celon
+49	249	kapti	kaptanta kaptantaj kaptantajn kaptantan kaptante kaptanto kaptantoj kaptantojn kaptas kaptata kaptataj kaptatajn kaptatan kaptate kaptinta kaptintaj kaptintajn kaptintan kaptinte kaptis kaptita kaptitaj kaptitajn kaptitan kaptite kaptito kaptitoj kaptitojn kaptiton kaptonta kaptontaj kaptontajn kaptontan kaptonte kaptos kaptotaj kaptu kaptus
+50	250	reĝo	reĝoj reĝojn reĝon
+51	251	ha	
+52	252	horo	horoj horojn horon
+53	253	sendi	sendanta sendantaj sendantajn sendantan sendante sendanto sendantoj sendas sendata sendataj sendatajn sendatan sendate sendinta sendintaj sendintajn sendintan sendinte sendinto sendintoj sendintojn sendinton sendis sendita senditaj senditajn senditan sendite sendito senditoj senditojn senditon sendonta sendontaj sendontajn sendontan sendonte sendos sendota sendotaj sendu sendus
+54	254	malpli	
+55	255	teni	tenanta tenantaj tenantajn tenantan tenante tenas tenata tenataj tenatajn tenatan tenate teninta tenintaj tenintajn tenintan teninte tenis tenita tenitaj tenitajn tenitan tenite tenonta tenontaj tenontajn tenontan tenonte tenos tenota tenotaj tenu tenus
+56	256	ebli	eblanta eblantaj eblantajn eblantan eblante eblas eblinta eblintaj eblintajn eblintan eblinte eblis eblonta eblontaj eblontajn eblontan eblonte eblos eblu eblus
+57	257	nek	
+58	258	sukcesi	sukcesanta sukcesantaj sukcesantajn sukcesantan sukcesante sukcesas sukcesinta sukcesintaj sukcesintajn sukcesintan sukcesinte sukcesintoj sukcesis sukcesonta sukcesontaj sukcesontajn sukcesontan sukcesonte sukcesos sukcesu sukcesus
+59	259	elekti	elektanta elektantaj elektantajn elektantan elektante elektas elektata elektataj elektatajn elektatan elektate elektinta elektintaj elektintajn elektintan elektinte elektis elektita elektitaj elektitajn elektitan elektite elektito elektonta elektontaj elektontajn elektontan elektonte elektos elektota elektu elektus
+60	260	forlasi	forlasanta forlasantaj forlasantajn forlasantan forlasante forlasas forlasata forlasataj forlasatajn forlasatan forlasate forlasinta forlasintaj forlasintajn forlasintan forlasinte forlasis forlasita forlasitaj forlasitajn forlasitan forlasite forlasonta forlasontaj forlasontajn forlasontan forlasonte forlasos forlasu forlasus
+61	261	demandi	demandanta demandantaj demandantajn demandantan demandante demandanto demandas demandata demandataj demandatajn demandatan demandate demandinta demandintaj demandintajn demandintan demandinte demandis demandita demanditaj demanditajn demanditan demandite demandito demandonta demandontaj demandontajn demandontan demandonte demandos demandu demandus
+62	262	proksimume	
+63	263	kaŭzi	kaŭzanta kaŭzantaj kaŭzantajn kaŭzantan kaŭzante kaŭzas kaŭzata kaŭzataj kaŭzatajn kaŭzatan kaŭzate kaŭzinta kaŭzintaj kaŭzintajn kaŭzintan kaŭzinte kaŭzis kaŭzita kaŭzitaj kaŭzitajn kaŭzitan kaŭzite kaŭzonta kaŭzontaj kaŭzontajn kaŭzontan kaŭzonte kaŭzos kaŭzu kaŭzus
+64	264	lernejo	lernejoj lernejojn lernejon
+65	265	vera	veraj verajn veran
+66	266	konstrui	konstruanta konstruantaj konstruantajn konstruantan konstruante konstruanto konstruantoj konstruantojn konstruanton konstruas konstruata konstruataj konstruatajn konstruatan konstruate konstruinta konstruintaj konstruintajn konstruintan konstruinte konstruis konstruita konstruitaj konstruitajn konstruitan konstruite konstruonta konstruontaj konstruontajn konstruontan konstruonte konstruos konstruota konstruotaj konstruu konstruus
+67	267	frato	fratoj fratojn fraton
+68	268	opinii	opinianta opiniantaj opiniantajn opiniantan opiniante opinias opiniata opiniataj opiniatajn opiniatan opiniate opiniinta opiniintaj opiniintajn opiniintan opiniinte opiniis opiniita opiniitaj opiniitajn opiniitan opiniite opinionta opiniontaj opiniontajn opiniontan opinionte opinios opiniu opinius
+69	269	super	
+70	270	edzino	edzinoj edzinojn edzinon
+71	271	unue	
+72	272	ĉesi	chesu ĉesanta ĉesantaj ĉesantajn ĉesantan ĉesante ĉesas ĉesata ĉesataj ĉesatajn ĉesatan ĉesate ĉesinta ĉesintaj ĉesintajn ĉesintan ĉesinte ĉesis ĉesita ĉesitaj ĉesitajn ĉesitan ĉesite ĉesonta ĉesontaj ĉesontajn ĉesontan ĉesonte ĉesos ĉesu ĉesus
+73	273	ŝanĝi	ŝanĝanta ŝanĝantaj ŝanĝantajn ŝanĝantan ŝanĝante ŝanĝas ŝanĝata ŝanĝataj ŝanĝatajn ŝanĝatan ŝanĝate ŝanĝinta ŝanĝintaj ŝanĝintajn ŝanĝintan ŝanĝinte ŝanĝis ŝanĝita ŝanĝitaj ŝanĝitajn ŝanĝitan ŝanĝite ŝanĝonta ŝanĝontaj ŝanĝontajn ŝanĝontan ŝanĝonte ŝanĝos ŝanĝu ŝanĝus
+74	274	deziri	deziranta dezirantaj dezirantajn dezirantan dezirante deziras dezirata dezirataj deziratajn deziratan dezirate dezirinta dezirintaj dezirintajn dezirintan dezirinte deziris dezirita deziritaj deziritajn deziritan dezirite dezironta dezirontaj dezirontajn dezirontan dezironte deziros deziru dezirus
+75	275	miliono	milionoj milionojn milionon
+76	276	mono	monoj monojn monon
+77	277	legi	leganta legantaj legantajn legantan legante leganto legantoj legantojn leganton legas legata legataj legatajn legatan legate legato legaton leginta legintaj legintajn legintan leginte legis legita legitaj legitajn legitan legite legonta legontaj legontajn legontan legonte legos legota legu legus
+78	278	tial	
+79	279	baldaŭ	baldau baldaux
+80	280	grupo	grupoj grupojn grupon
+81	281	sola	solaj solajn solan
+82	282	registaro	registaroj registarojn registaron
+83	283	dormi	dormanta dormantaj dormantajn dormantan dormante dormanto dormantoj dormantojn dormanton dormas dorminta dormintaj dormintajn dormintan dorminte dormis dormonta dormontaj dormontajn dormontan dormonte dormos dormu dormus
+84	284	filmo	filmoj filmojn filmon
+85	285	rajti	rajtanta rajtantaj rajtantajn rajtantan rajtante rajtas rajtinta rajtintaj rajtintajn rajtintan rajtinte rajtis rajtonta rajtontaj rajtontajn rajtontan rajtonte rajtos rajtu rajtus
+86	286	ĝuste	
+87	287	lerni	lernanta lernantaj lernantajn lernantan lernante lernanto lernantoj lernantojn lernanton lernas lernata lernataj lernatajn lernatan lernate lerninta lernintaj lernintajn lernintan lerninte lerninto lernis lernita lernitaj lernitajn lernitan lernite lernonta lernontaj lernontajn lernontan lernonte lernos lernu lernus
+88	288	disponigi	disponiganta disponigantaj disponigantajn disponigantan disponigante disponigas disponigata disponigataj disponigatajn disponigatan disponigate disponiginta disponigintaj disponigintajn disponigintan disponiginte disponigis disponigita disponigitaj disponigitajn disponigitan disponigite disponigonta disponigontaj disponigontajn disponigontan disponigonte disponigos disponigota disponigotaj disponigu disponigus
+89	289	funkcii	funkcianta funkciantaj funkciantajn funkciantan funkciante funkcias funkciinta funkciintaj funkciintajn funkciintan funkciinte funkciis funkcionta funkciontaj funkciontajn funkciontan funkcionte funkcios funkciu funkcius
+90	290	ambaŭ	ambau
+91	291	malfermi	malfermanta malfermantaj malfermantajn malfermantan malfermante malfermas malfermata malfermataj malfermatajn malfermatan malfermate malferminta malfermintaj malfermintajn malfermintan malferminte malfermis malfermitaj malfermitajn malfermitan malfermite malfermonta malfermontaj malfermontajn malfermontan malfermonte malfermos malfermu malfermus
+92	292	vojo	vojoj vojojn vojon
+93	293	kara	karaj karajn karan
+94	294	ideo	ideoj ideojn ideon
+95	295	okulo	okuloj okulojn okulon
+96	296	zorgi	zorganta zorgantaj zorgantajn zorgantan zorgante zorganto zorgantoj zorgas zorginta zorgintaj zorgintajn zorgintan zorginte zorgis zorgonta zorgontaj zorgontajn zorgontan zorgonte zorgos zorgu zorgus
+97	297	kvar	
+98	298	signifi	signifanta signifantaj signifantajn signifantan signifante signifas signifata signifataj signifatajn signifatan signifate signifinta signifintaj signifintajn signifintan signifinte signifis signifita signifitaj signifitajn signifitan signifite signifonta signifontaj signifontajn signifontan signifonte signifos signifu signifus
+99	299	antaŭe	
+100	300	sufiĉe	

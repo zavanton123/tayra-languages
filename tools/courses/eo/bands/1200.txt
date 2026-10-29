@@ -1,0 +1,100 @@
+1	1101	grandega	grandegaj grandegajn grandegan
+2	1102	principo	principoj principojn principon
+3	1103	konsilio	konsilioj konsiliojn konsilion
+4	1104	opinio	opinioj opiniojn opinion
+5	1105	starigi	stariganta starigantaj starigantajn starigantan starigante starigas starigata starigataj starigatajn starigatan starigate stariginta starigintaj starigintajn starigintan stariginte starigis starigita starigitaj starigitajn starigitan starigite starigonta starigontaj starigontajn starigontan starigonte starigos starigota starigu starigus
+6	1106	halo	haloj halojn halon
+7	1107	tablo	tabloj tablojn tablon
+8	1108	civitano	civitanoj civitanojn civitanon
+9	1109	kombini	kombinanta kombinantaj kombinantajn kombinantan kombinante kombinanto kombinas kombinata kombinataj kombinatajn kombinatan kombinate kombininta kombinintaj kombinintajn kombinintan kombininte kombinis kombinita kombinitaj kombinitajn kombinitan kombinite kombinonta kombinontaj kombinontajn kombinontan kombinonte kombinos kombinu kombinus
+10	1110	vekiĝi	vekiĝanta vekiĝantaj vekiĝantajn vekiĝantan vekiĝante vekiĝas vekiĝinta vekiĝintaj vekiĝintajn vekiĝintan vekiĝinte vekiĝis vekiĝonta vekiĝontaj vekiĝontajn vekiĝontan vekiĝonte vekiĝos vekiĝu vekiĝus
+11	1111	komisiono	komisionoj komisionojn komisionon
+12	1112	infero	inferoj inferojn inferon
+13	1113	kunporti	kunportanta kunportantaj kunportantajn kunportantan kunportante kunportas kunportata kunportataj kunportatajn kunportatan kunportate kunportinta kunportintaj kunportintajn kunportintan kunportinte kunportis kunportita kunportitaj kunportitajn kunportitan kunportite kunportonta kunportontaj kunportontajn kunportontan kunportonte kunportos kunportu kunportus
+14	1114	viando	viandoj viandojn viandon
+15	1115	kato	katoj katojn katon
+16	1116	kontakto	kontaktoj kontaktojn kontakton
+17	1117	mensogi	mensoganta mensogantaj mensogantajn mensogantan mensogante mensoganto mensogantoj mensoganton mensogas mensoginta mensogintaj mensogintajn mensogintan mensoginte mensogis mensogonta mensogontaj mensogontajn mensogontan mensogonte mensogos mensogu mensogus
+18	1118	banko	bankoj bankojn bankon
+19	1119	signalo	signaloj signalojn signalon
+20	1120	komandi	komandanta komandantaj komandantajn komandantan komandante komandanto komandantoj komandantojn komandanton komandas komandata komandataj komandatajn komandatan komandate komandinta komandintaj komandintajn komandintan komandinte komandis komandita komanditaj komanditajn komanditan komandite komandonta komandontaj komandontajn komandontan komandonte komandos komandu komandus
+21	1121	malvarma	malvarmaj malvarmajn malvarman
+22	1122	okazo	okazoj okazojn okazon
+23	1123	surmeti	surmetanta surmetantaj surmetantajn surmetantan surmetante surmetas surmetinta surmetintaj surmetintajn surmetintan surmetinte surmetis surmetonta surmetontaj surmetontajn surmetontan surmetonte surmetos surmetu surmetus
+24	1124	trankvila	trankvilaj trankvilajn trankvilan
+25	1125	kontribui	kontribuanta kontribuantaj kontribuantajn kontribuantan kontribuante kontribuanto kontribuantoj kontribuantojn kontribuas kontribuata kontribuataj kontribuatajn kontribuatan kontribuate kontribuinta kontribuintaj kontribuintajn kontribuintan kontribuinte kontribuis kontribuita kontribuitaj kontribuitajn kontribuitan kontribuite kontribuonta kontribuontaj kontribuontajn kontribuontan kontribuonte kontribuos kontribuu kontribuus
+26	1126	truo	truoj truojn truon
+27	1127	eduko	edukoj edukojn edukon
+28	1128	revido	revidoj revidojn revidon
+29	1129	solvo	solvoj solvojn solvon
+30	1130	espero	esperoj esperojn esperon
+31	1131	aldone	
+32	1132	testo	testoj testojn teston
+33	1133	efektivigi	efektiviganta efektivigantaj efektivigantajn efektivigantan efektivigante efektiviganto efektivigantoj efektivigas efektivigata efektivigataj efektivigatajn efektivigatan efektivigate efektiviginta efektivigintaj efektivigintajn efektivigintan efektiviginte efektivigis efektivigita efektivigitaj efektivigitajn efektivigitan efektivigite efektivigonta efektivigontaj efektivigontajn efektivigontan efektivigonte efektivigos efektivigota efektivigotaj efektivigu efektivigus
+34	1134	ŝuo	shuojn ŝuoj ŝuojn ŝuon
+35	1135	kultura	kulturaj kulturajn kulturan
+36	1136	epoko	epokoj epokojn epokon
+37	1137	doktoro	d-ro doktoroj doktorojn doktoron
+38	1138	alvoki	alvokanta alvokantaj alvokantajn alvokantan alvokante alvokanto alvokantoj alvokantojn alvokanton alvokas alvokata alvokataj alvokatajn alvokatan alvokate alvokinta alvokintaj alvokintajn alvokintan alvokinte alvokis alvokita alvokitaj alvokitajn alvokitan alvokite alvokonta alvokontaj alvokontajn alvokontan alvokonte alvokos alvoku alvokus
+39	1139	perdo	perdoj perdojn perdon
+40	1140	kvara	kvaraj kvarajn kvaran
+41	1141	subteni	subtenanta subtenantaj subtenantajn subtenantan subtenante subtenanto subtenantoj subtenantojn subtenanton subtenas subtenata subtenataj subtenatajn subtenatan subtenate subteninta subtenintaj subtenintajn subtenintan subteninte subtenis subtenita subtenitaj subtenitajn subtenitan subtenite subtenonta subtenontaj subtenontajn subtenontan subtenonte subtenos subtenu subtenus
+42	1142	karulo	karuloj karulojn karulon
+43	1143	hotelo	hoteloj hotelojn hotelon
+44	1144	sukcesa	sukcesaj sukcesajn sukcesan
+45	1145	sekura	sekuraj sekurajn sekuran
+46	1146	komunikado	komunikadoj komunikadojn komunikadon
+47	1147	ilo	iloj ilojn ilon
+48	1148	normale	
+49	1149	etendi	etendanta etendantaj etendantajn etendantan etendante etendas etendata etendataj etendatajn etendatan etendate etendinta etendintaj etendintajn etendintan etendinte etendis etendita etenditaj etenditajn etenditan etendite etendonta etendontaj etendontajn etendontan etendonte etendos etendota etendu etendus
+50	1150	ovo	ovoj ovojn ovon
+51	1151	ŝalti	ŝaltanta ŝaltantaj ŝaltantajn ŝaltantan ŝaltante ŝaltas ŝaltata ŝaltataj ŝaltatajn ŝaltatan ŝaltate ŝaltinta ŝaltintaj ŝaltintajn ŝaltintan ŝaltinte ŝaltis ŝaltita ŝaltitaj ŝaltitajn ŝaltitan ŝaltite ŝaltonta ŝaltontaj ŝaltontajn ŝaltontan ŝaltonte ŝaltos ŝaltu ŝaltus
+52	1152	morta	mortaj mortajn mortan
+53	1153	progresi	progresanta progresantaj progresantajn progresantan progresante progresas progresinta progresintaj progresintajn progresintan progresinte progresintoj progresis progresonta progresontaj progresontajn progresontan progresonte progresos progresu progresus
+54	1154	doloro	doloroj dolorojn doloron
+55	1155	trompi	trompanta trompantaj trompantajn trompantan trompante trompanto trompantoj trompantojn trompanton trompas trompata trompataj trompatajn trompatan trompate trompinta trompintaj trompintajn trompintan trompinte trompis trompita trompitaj trompitajn trompitan trompite tromponta trompontaj trompontajn trompontan tromponte trompos trompu trompus
+56	1156	sugesti	sugestanta sugestantaj sugestantajn sugestantan sugestante sugestas sugestata sugestataj sugestatajn sugestatan sugestate sugestinta sugestintaj sugestintajn sugestintan sugestinte sugestis sugestita sugestitaj sugestitajn sugestitan sugestite sugestonta sugestontaj sugestontajn sugestontan sugestonte sugestos sugestu sugestus
+57	1157	ve	
+58	1158	tombo	tomboj tombojn tombon
+59	1159	menso	mensoj mensojn menson
+60	1160	spiri	spiranta spirantaj spirantajn spirantan spirante spirantoj spiras spirata spirataj spiratajn spiratan spirate spirinta spirintaj spirintajn spirintan spirinte spiris spiritaj spiritajn spiritan spirite spiritoj spiritojn spiriton spironta spirontaj spirontajn spirontan spironte spiros spiru spirus
+61	1161	riĉa	riĉaj riĉajn riĉan
+62	1162	palaco	palacoj palacojn palacon
+63	1163	pinto	pintoj pintojn pinton
+64	1164	faktoro	faktoroj faktorojn faktoron
+65	1165	transformi	transformanta transformantaj transformantajn transformantan transformante transformas transformata transformataj transformatajn transformatan transformate transforminta transformintaj transformintajn transformintan transforminte transformis transformita transformitaj transformitajn transformitan transformite transformonta transformontaj transformontajn transformontan transformonte transformos transformota transformu transformus
+66	1166	iama	iamaj iamajn iaman
+67	1167	premi	premanta premantaj premantajn premantan premante premantoj premas premata premataj prematajn prematan premate preminta premintaj premintajn premintan preminte premis premita premitaj premitajn premitan premite premonta premontaj premontajn premontan premonte premos premu premus
+68	1168	majstro	majstroj majstrojn majstron
+69	1169	peza	pezaj pezajn pezan
+70	1170	posteno	postenoj postenojn postenon
+71	1171	junulo	junuloj junulojn junulon
+72	1172	orelo	oreloj orelojn orelon
+73	1173	homaro	homaroj homarojn homaron
+74	1174	monto	montego montoj montojn monton
+75	1175	unika	unikaj unikajn unikan
+76	1176	rekomendi	rekomendanta rekomendantaj rekomendantajn rekomendantan rekomendante rekomendanto rekomendantoj rekomendas rekomendata rekomendataj rekomendatajn rekomendatan rekomendate rekomendinta rekomendintaj rekomendintajn rekomendintan rekomendinte rekomendis rekomendita rekomenditaj rekomenditajn rekomenditan rekomendite rekomendonta rekomendontaj rekomendontajn rekomendontan rekomendonte rekomendos rekomendu rekomendus
+77	1177	marki	markanta markantaj markantajn markantan markante markas markata markataj markatajn markatan markate markinta markintaj markintajn markintan markinte markis markita markitaj markitajn markitan markite markonta markontaj markontajn markontan markonte markos marku markus
+78	1178	paro	paroj parojn paron
+79	1179	spektaklo	spektakloj spektaklojn spektaklon
+80	1180	provinco	provincoj provincojn provincon
+81	1181	instigi	instiganta instigantaj instigantajn instigantan instigante instiganto instigantoj instigas instigata instigataj instigatajn instigatan instigate instiginta instigintaj instigintajn instigintan instiginte instigis instigita instigitaj instigitajn instigitan instigite instigonta instigontaj instigontajn instigontan instigonte instigos instigu instigus
+82	1182	premio	premioj premiojn premion
+83	1183	latina	latinaj latinajn latinan
+84	1184	perei	pereanta pereantaj pereantajn pereantan pereante pereas pereinta pereintaj pereintajn pereintan pereinte pereis pereonta pereontaj pereontajn pereontan pereonte pereos pereu pereus
+85	1185	kvalito	kvalitoj kvalitojn kvaliton
+86	1186	informi	informanta informantaj informantajn informantan informante informanto informantoj informantojn informas informata informataj informatajn informatan informate informinta informintaj informintajn informintan informinte informis informita informitaj informitajn informitan informite informonta informontaj informontajn informontan informonte informos informu informus
+87	1187	sovaĝa	sovaĝaj sovaĝajn sovaĝan
+88	1188	plie	
+89	1189	preciza	precizaj precizajn precizan
+90	1190	kreado	kreadoj kreadojn kreadon
+91	1191	kompleksa	kompleksaj kompleksajn kompleksan
+92	1192	direkto	direktoj direktojn direkton
+93	1193	precize	
+94	1194	kristana	kristanaj kristanajn kristanan
+95	1195	judo	judoj judojn judon
+96	1196	mezuri	mezuranta mezurantaj mezurantajn mezurantan mezurante mezuras mezurata mezurataj mezuratajn mezuratan mezurate mezurinta mezurintaj mezurintajn mezurintan mezurinte mezuris mezurita mezuritaj mezuritajn mezuritan mezurite mezuronta mezurontaj mezurontajn mezurontan mezuronte mezuros mezurota mezuru mezurus
+97	1197	nazo	nazoj nazojn nazon
+98	1198	geedziĝo	geedziĝoj geedziĝojn geedziĝon
+99	1199	industrio	industrioj industriojn industrion
+100	1200	fraŭlino	fraŭlinoj fraŭlinojn fraŭlinon

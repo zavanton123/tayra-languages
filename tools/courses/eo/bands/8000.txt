@@ -1,0 +1,100 @@
+1	7901	malgajeco	malgajecoj malgajecojn malgajecon
+2	7902	vigliĝi	vigliĝanta vigliĝantaj vigliĝantajn vigliĝantan vigliĝante vigliĝas vigliĝinta vigliĝintaj vigliĝintajn vigliĝintan vigliĝinte vigliĝis vigliĝonta vigliĝontaj vigliĝontajn vigliĝontan vigliĝonte vigliĝos vigliĝu vigliĝus
+3	7903	longatempe	
+4	7904	freŝi	freŝanta freŝantaj freŝantajn freŝantan freŝante freŝas freŝinta freŝintaj freŝintajn freŝintan freŝinte freŝis freŝonta freŝontaj freŝontajn freŝontan freŝonte freŝos freŝu freŝus
+5	7905	laboradi	laboradanta laboradantaj laboradantajn laboradantan laboradante laboradas laboradinta laboradintaj laboradintajn laboradintan laboradinte laboradis laboradonta laboradontaj laboradontajn laboradontan laboradonte laborados laboradu laboradus
+6	7906	tegolo	tegoloj tegolojn tegolon
+7	7907	rulaĵo	rulaĵoj rulaĵojn rulaĵon
+8	7908	tatuaĵo	tatuaĵoj tatuaĵojn tatuaĵon
+9	7909	maldormi	maldormanta maldormantaj maldormantajn maldormantan maldormante maldormas maldorminta maldormintaj maldormintajn maldormintan maldorminte maldormis maldormonta maldormontaj maldormontajn maldormontan maldormonte maldormos maldormu maldormus
+10	7910	leŭgo	leŭgoj leŭgojn leŭgon
+11	7911	certege	
+12	7912	korsaĵo	korsaĵoj korsaĵojn korsaĵon
+13	7913	bazulo	bazuloj bazulojn bazulon
+14	7914	picejo	picejoj picejojn picejon
+15	7915	afereto	aferetoj aferetojn afereton
+16	7916	enketi	enketanta enketantaj enketantajn enketantan enketante enketas enketinta enketintaj enketintajn enketintan enketinte enketis enketonta enketontaj enketontajn enketontan enketonte enketos enketu enketus
+17	7917	ĉefrespondeculo	ĉefrespondeculoj ĉefrespondeculojn ĉefrespondeculon
+18	7918	ŝipeto	ŝipetoj ŝipetojn ŝipeton
+19	7919	boltingo	boltingoj boltingojn boltingon
+20	7920	malŝato	malŝatoj malŝatojn malŝaton
+21	7921	barbulo	barbuloj barbulojn barbulon
+22	7922	doktorino	doktorinoj doktorinojn doktorinon
+23	7923	ambaŭfoje	
+24	7924	babilaĉi	babilaĉanta babilaĉantaj babilaĉantajn babilaĉantan babilaĉante babilaĉas babilaĉinta babilaĉintaj babilaĉintajn babilaĉintan babilaĉinte babilaĉis babilaĉonta babilaĉontaj babilaĉontajn babilaĉontan babilaĉonte babilaĉos babilaĉu babilaĉus
+25	7925	kondamninda	kondamnindaj kondamnindajn kondamnindan
+26	7926	mojosega	mojosegaj mojosegajn mojosegan
+27	7927	tenera	teneraj tenerajn teneran
+28	7928	fortege	
+29	7929	sepcent	
+30	7930	novnazio	novnazioj novnaziojn novnazion
+31	7931	malproksimo	malproksimoj malproksimojn malproksimon
+32	7932	malhumana	malhumanaj malhumanajn malhumanan
+33	7933	antaŭvido	antaŭvidoj antaŭvidojn antaŭvidon
+34	7934	lunlumo	lunlumoj lunlumojn lunlumon
+35	7935	sagujo	sagujoj sagujojn sagujon
+36	7936	matrikulo	matrikuloj matrikulojn matrikulon
+37	7937	netolerebla	netolereblaj netolereblajn netolereblan
+38	7938	petolema	petolemaj petolemajn petoleman
+39	7939	aperta	apertaj apertajn apertan
+40	7940	alkuri	alkuranta alkurantaj alkurantajn alkurantan alkurante alkuras alkurinta alkurintaj alkurintajn alkurintan alkurinte alkuris alkuronta alkurontaj alkurontajn alkurontan alkuronte alkuros alkuru alkurus
+41	7941	terpomfritoj	terpomfrito terpomfritojn terpomfriton
+42	7942	vicpatrino	vicpatrinoj vicpatrinojn vicpatrinon
+43	7943	etanima	etanimaj etanimajn etaniman
+44	7944	interparolado	interparoladoj interparoladojn interparoladon
+45	7945	vesperiĝo	vesperiĝoj vesperiĝojn vesperiĝon
+46	7946	nomŝildo	nomŝildoj nomŝildojn nomŝildon
+47	7947	ŝafejo	ŝafejoj ŝafejojn ŝafejon
+48	7948	alfo	alfoj alfojn alfon
+49	7949	profitodona	profitdona profitdonajn profitodonaj profitodonajn profitodonan
+50	7950	afekcii	afekcianta afekciantaj afekciantajn afekciantan afekciante afekcias afekciata afekciataj afekciatajn afekciatan afekciate afekciinta afekciintaj afekciintajn afekciintan afekciinte afekciis afekciita afekciitaj afekciitajn afekciitan afekciite afekcionta afekciontaj afekciontajn afekciontan afekcionte afekcios afekciu afekcius
+51	7951	doloriga	dolorigaj dolorigajn dolorigan
+52	7952	liniilo	liniiloj liniilojn liniilon
+53	7953	antaŭaĵo	antaŭaĵoj antaŭaĵojn antaŭaĵon
+54	7954	singulto	singultoj singultojn singulton
+55	7955	konsoliĝi	konsoliĝanta konsoliĝantaj konsoliĝantajn konsoliĝantan konsoliĝante konsoliĝas konsoliĝinta konsoliĝintaj konsoliĝintajn konsoliĝintan konsoliĝinte konsoliĝis konsoliĝonta konsoliĝontaj konsoliĝontajn konsoliĝontan konsoliĝonte konsoliĝos konsoliĝu konsoliĝus
+56	7956	musino	musinoj musinojn musinon
+57	7957	pajaco	pajacoj pajacojn pajacon
+58	7958	enmanigi	enmaniganta enmanigantaj enmanigantajn enmanigantan enmanigante enmanigas enmaniginta enmanigintaj enmanigintajn enmanigintan enmaniginte enmanigis enmanigonta enmanigontaj enmanigontajn enmanigontan enmanigonte enmanigos enmanigu enmanigus
+59	7959	kompliki	komplikanta komplikantaj komplikantajn komplikantan komplikante komplikas komplikata komplikataj komplikatajn komplikatan komplikate komplikinta komplikintaj komplikintajn komplikintan komplikinte komplikis komplikita komplikitaj komplikitajn komplikitan komplikite komplikonta komplikontaj komplikontajn komplikontan komplikonte komplikos kompliku komplikus
+60	7960	malpaki	malpakanta malpakantaj malpakantajn malpakantan malpakante malpakas malpakinta malpakintaj malpakintajn malpakintan malpakinte malpakis malpakonta malpakontaj malpakontajn malpakontan malpakonte malpakos malpaku malpakus
+61	7961	falstelo	falsteloj falstelojn falstelon
+62	7962	ŝraŭbŝlosilo	ŝraŭbŝlosiloj ŝraŭbŝlosilojn ŝraŭbŝlosilon
+63	7963	kuraĝulo	kuraĝuloj kuraĝulojn kuraĝulon
+64	7964	seniluziiĝi	seniluziiĝanta seniluziiĝantaj seniluziiĝantajn seniluziiĝantan seniluziiĝante seniluziiĝas seniluziiĝinta seniluziiĝintaj seniluziiĝintajn seniluziiĝintan seniluziiĝinte seniluziiĝis seniluziiĝonta seniluziiĝontaj seniluziiĝontajn seniluziiĝontan seniluziiĝonte seniluziiĝos seniluziiĝu seniluziiĝus
+65	7965	ruzulo	ruzuloj ruzulojn ruzulon
+66	7966	projekti	projektanta projektantaj projektantajn projektantan projektante projektas projektinta projektintaj projektintajn projektintan projektinte projektis projektonta projektontaj projektontajn projektontan projektonte projektos projektu projektus
+67	7967	ekaŭdi	ekaŭdanta ekaŭdantaj ekaŭdantajn ekaŭdantan ekaŭdante ekaŭdas ekaŭdinta ekaŭdintaj ekaŭdintajn ekaŭdintan ekaŭdinte ekaŭdis ekaŭdonta ekaŭdontaj ekaŭdontajn ekaŭdontan ekaŭdonte ekaŭdos ekaŭdu ekaŭdus
+68	7968	triobliĝi	triobliĝanta triobliĝantaj triobliĝantajn triobliĝantan triobliĝante triobliĝas triobliĝinta triobliĝintaj triobliĝintajn triobliĝintan triobliĝinte triobliĝis triobliĝonta triobliĝontaj triobliĝontajn triobliĝontan triobliĝonte triobliĝos triobliĝu triobliĝus
+69	7969	ŝraŭbilo	ŝraŭbiloj ŝraŭbilojn ŝraŭbilon
+70	7970	rosino	rosinoj rosinojn rosinon
+71	7971	ĉirkaŭflugi	ĉirkaŭfluganta ĉirkaŭflugantaj ĉirkaŭflugantajn ĉirkaŭflugantan ĉirkaŭflugante ĉirkaŭflugas ĉirkaŭfluginta ĉirkaŭflugintaj ĉirkaŭflugintajn ĉirkaŭflugintan ĉirkaŭfluginte ĉirkaŭflugis ĉirkaŭflugonta ĉirkaŭflugontaj ĉirkaŭflugontajn ĉirkaŭflugontan ĉirkaŭflugonte ĉirkaŭflugos ĉirkaŭflugu ĉirkaŭflugus
+72	7972	kareso	karesoj karesojn kareson
+73	7973	ĉefanĝelo	ĉefanĝeloj ĉefanĝelojn ĉefanĝelon
+74	7974	rostaĵo	rostaĵoj rostaĵojn rostaĵon
+75	7975	malvesti	malvestanta malvestantaj malvestantajn malvestantan malvestante malvestas malvestata malvestataj malvestatajn malvestatan malvestate malvestinta malvestintaj malvestintajn malvestintan malvestinte malvestis malvestita malvestitaj malvestitajn malvestitan malvestite malvestonta malvestontaj malvestontajn malvestontan malvestonte malvestos malvestu malvestus
+76	7976	alumetujo	alumetujoj alumetujojn alumetujon
+77	7977	kadavrejo	kadavrejoj kadavrejojn kadavrejon
+78	7978	alveturigi	alveturiganta alveturigantaj alveturigantajn alveturigantan alveturigante alveturigas alveturiginta alveturigintaj alveturigintajn alveturigintan alveturiginte alveturigis alveturigonta alveturigontaj alveturigontajn alveturigontan alveturigonte alveturigos alveturigu alveturigus
+79	7979	pulovero	puloveroj puloverojn puloveron
+80	7980	aĉetaĵo	aĉetaĵoj aĉetaĵojn aĉetaĵon
+81	7981	alskribi	alskribanta alskribantaj alskribantajn alskribantan alskribante alskribas alskribinta alskribintaj alskribintajn alskribintan alskribinte alskribis alskribonta alskribontaj alskribontajn alskribontan alskribonte alskribos alskribu alskribus
+82	7982	fotografi	fotografanta fotografantaj fotografantajn fotografantan fotografante fotografas fotografinta fotografintaj fotografintajn fotografintan fotografinte fotografis fotografonta fotografontaj fotografontajn fotografontan fotografonte fotografos fotografu fotografus
+83	7983	saniĝi	saniĝanta saniĝantaj saniĝantajn saniĝantan saniĝante saniĝas saniĝinta saniĝintaj saniĝintajn saniĝintan saniĝinte saniĝis saniĝonta saniĝontaj saniĝontajn saniĝontan saniĝonte saniĝos saniĝu saniĝus
+84	7984	pugnobati	pugnobatanta pugnobatantaj pugnobatantajn pugnobatantan pugnobatante pugnobatas pugnobatinta pugnobatintaj pugnobatintajn pugnobatintan pugnobatinte pugnobatis pugnobatonta pugnobatontaj pugnobatontajn pugnobatontan pugnobatonte pugnobatontoj pugnobatos pugnobatu pugnobatus
+85	7985	fantomi	fantomanta fantomantaj fantomantajn fantomantan fantomante fantomas fantominta fantomintaj fantomintajn fantomintan fantominte fantomis fantomonta fantomontaj fantomontajn fantomontan fantomonte fantomos fantomu fantomus
+86	7986	plastro	plastroj plastrojn plastron
+87	7987	vipero	viperoj viperojn viperon
+88	7988	piedpremi	piedpremanta piedpremantaj piedpremantajn piedpremantan piedpremante piedpremas piedpremata piedpremataj piedprematajn piedprematan piedpremate piedpreminta piedpremintaj piedpremintajn piedpremintan piedpreminte piedpremis piedpremita piedpremitaj piedpremitajn piedpremitan piedpremite piedpremonta piedpremontaj piedpremontajn piedpremontan piedpremonte piedpremos piedpremu piedpremus
+89	7989	saldo	saldoj saldojn saldon
+90	7990	ekridi	ekridanta ekridantaj ekridantajn ekridantan ekridante ekridas ekridinta ekridintaj ekridintajn ekridintan ekridinte ekridis ekridonta ekridontaj ekridontajn ekridontan ekridonte ekridos ekridu ekridus
+91	7991	brosi	brosanta brosantaj brosantajn brosantan brosante brosas brosinta brosintaj brosintajn brosintan brosinte brosis brosonta brosontaj brosontajn brosontan brosonte brosos brosu brosus
+92	7992	saŭdado	saŭdadoj saŭdadojn saŭdadon
+93	7993	sciiĝi	sciiĝanta sciiĝantaj sciiĝantajn sciiĝantan sciiĝante sciiĝas sciiĝinta sciiĝintaj sciiĝintajn sciiĝintan sciiĝinte sciiĝis sciiĝonta sciiĝontaj sciiĝontajn sciiĝontan sciiĝonte sciiĝos sciiĝu sciiĝus
+94	7994	estinteco	estintecoj estintecojn estintecon
+95	7995	taski	taskanta taskantaj taskantajn taskantan taskante taskas taskata taskataj taskatajn taskatan taskate taskinta taskintaj taskintajn taskintan taskinte taskis taskita taskitaj taskitajn taskitan taskite taskonta taskontaj taskontajn taskontan taskonte taskos tasku taskus
+96	7996	ungolako	ungolakoj ungolakojn ungolakon
+97	7997	murda	murdaj murdajn murdan
+98	7998	kaprino	kaprinoj kaprinojn kaprinon
+99	7999	kiseto	kisetoj kisetojn kiseton
+100	8000	enloĝiĝi	enloĝiĝanta enloĝiĝantaj enloĝiĝantajn enloĝiĝantan enloĝiĝante enloĝiĝas enloĝiĝinta enloĝiĝintaj enloĝiĝintajn enloĝiĝintan enloĝiĝinte enloĝiĝis enloĝiĝonta enloĝiĝontaj enloĝiĝontajn enloĝiĝontan enloĝiĝonte enloĝiĝos enloĝiĝu enloĝiĝus

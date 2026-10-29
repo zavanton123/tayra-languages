@@ -1,0 +1,100 @@
+1	6901	fiulino	fiulinoj fiulinojn fiulinon
+2	6902	enfali	enfalanta enfalantaj enfalantajn enfalantan enfalante enfalas enfalinta enfalintaj enfalintajn enfalintan enfalinte enfalis enfalonta enfalontaj enfalontajn enfalontan enfalonte enfalos enfalu enfalus
+3	6903	kanajlaro	kanajlaroj kanajlarojn kanajlaron
+4	6904	knabinaĉo	knabinaĉoj knabinaĉojn knabinaĉon
+5	6905	arbaristo	arbaristoj arbaristojn arbariston
+6	6906	knabaĉo	knabaĉoj knabaĉojn knabaĉon
+7	6907	fiaĉa	fiaĉaj fiaĉajn fiaĉan
+8	6908	ĉiesulino	ĉiesulinoj ĉiesulinojn ĉiesulinon
+9	6909	malpleni	malplenanta malplenantaj malplenantajn malplenantan malplenante malplenas malpleninta malplenintaj malplenintajn malplenintan malpleninte malplenis malplenonta malplenontaj malplenontajn malplenontan malplenonte malplenos malplenu malplenus
+10	6910	dikulo	dikuloj dikulojn dikulon
+11	6911	aĉe	
+12	6912	naŭcent	
+13	6913	rektanima	rektanimaj rektanimajn rektaniman
+14	6914	ekdiri	ekdiranta ekdirantaj ekdirantajn ekdirantan ekdirante ekdiras ekdirinta ekdirintaj ekdirintajn ekdirintan ekdirinte ekdiris ekdironta ekdirontaj ekdirontajn ekdirontan ekdironte ekdiros ekdiru ekdirus
+15	6915	kompoto	kompotoj kompotojn kompoton
+16	6916	hundaro	hundaroj hundarojn hundaron
+17	6917	adolto	adoltoj adoltojn adolton
+18	6918	filineto	filinetoj filinetojn filineton
+19	6919	enporti	enportanta enportantaj enportantajn enportantan enportante enportas enportinta enportintaj enportintajn enportintan enportinte enportis enportonta enportontaj enportontajn enportontan enportonte enportos enportu enportus
+20	6920	plaĉo	plaĉoj plaĉojn plaĉon
+21	6921	ambaŭseksa	ambaŭseksaj ambaŭseksajn ambaŭseksan
+22	6922	haŝio	haŝioj haŝiojn haŝion
+23	6923	firmo	firmoj firmojn firmon
+24	6924	vestejo	vestejoj vestejojn vestejon
+25	6925	ekboli	ekbolanta ekbolantaj ekbolantajn ekbolantan ekbolante ekbolas ekbolinta ekbolintaj ekbolintajn ekbolintan ekbolinte ekbolis ekbolonta ekbolontaj ekbolontajn ekbolontan ekbolonte ekbolos ekbolu ekbolus
+26	6926	vermuto	vermutoj vermutojn vermuton
+27	6927	kaviaro	kaviaroj kaviarojn kaviaron
+28	6928	febri	febranta febrantaj febrantajn febrantan febrante febras febrinta febrintaj febrintajn febrintan febrinte febris febronta febrontaj febrontajn febrontan febronte febros febru februs
+29	6929	malhoneste	
+30	6930	prifajfi	prifajfanta prifajfantaj prifajfantajn prifajfantan prifajfante prifajfas prifajfinta prifajfintaj prifajfintajn prifajfintan prifajfinte prifajfis prifajfonta prifajfontaj prifajfontajn prifajfontan prifajfonte prifajfos prifajfu prifajfus
+31	6931	timego	timegoj timegojn timegon
+32	6932	terkulturisto	terkulturistoj terkulturistojn terkulturiston
+33	6933	talentulo	talentuloj talentulojn talentulon
+34	6934	talpo	talpoj talpojn talpon
+35	6935	fiparoli	fiparolanta fiparolantaj fiparolantajn fiparolantan fiparolante fiparolas fiparolinta fiparolintaj fiparolintajn fiparolintan fiparolinte fiparolis fiparolonta fiparolontaj fiparolontajn fiparolontan fiparolonte fiparolos fiparolu fiparolus
+36	6936	alilandano	alilandanoj alilandanojn alilandanon
+37	6937	galimatio	galimatioj galimatiojn galimation
+38	6938	konfuziĝi	konfuziĝanta konfuziĝantaj konfuziĝantajn konfuziĝantan konfuziĝante konfuziĝas konfuziĝinta konfuziĝintaj konfuziĝintajn konfuziĝintan konfuziĝinte konfuziĝis konfuziĝonta konfuziĝontaj konfuziĝontajn konfuziĝontan konfuziĝonte konfuziĝos konfuziĝu konfuziĝus
+39	6939	agonii	agonianta agoniantaj agoniantajn agoniantan agoniante agonianto agonias agoniinta agoniintaj agoniintajn agoniintan agoniinte agoniis agonionta agoniontaj agoniontajn agoniontan agonionte agonios agoniu agonius
+40	6940	longiĝi	longiĝanta longiĝantaj longiĝantajn longiĝantan longiĝante longiĝas longiĝinta longiĝintaj longiĝintajn longiĝintan longiĝinte longiĝis longiĝonta longiĝontaj longiĝontajn longiĝontan longiĝonte longiĝos longiĝu longiĝus
+41	6941	aŭguro	aŭguroj aŭgurojn aŭguron
+42	6942	omleto	omletoj omletojn omleton
+43	6943	dormigilo	dormigiloj dormigilojn dormigilon
+44	6944	rebonigi	reboniganta rebonigantaj rebonigantajn rebonigantan rebonigante rebonigas reboniginta rebonigintaj rebonigintajn rebonigintan reboniginte rebonigis rebonigonta rebonigontaj rebonigontajn rebonigontan rebonigonte rebonigos rebonigu rebonigus
+45	6945	neniiĝi	neniiĝanta neniiĝantaj neniiĝantajn neniiĝantan neniiĝante neniiĝas neniiĝinta neniiĝintaj neniiĝintajn neniiĝintan neniiĝinte neniiĝis neniiĝonta neniiĝontaj neniiĝontajn neniiĝontan neniiĝonte neniiĝos neniiĝu neniiĝus
+46	6946	migrulo	migruloj migrulojn migrulon
+47	6947	kamikazo	kamikazoj kamikazojn kamikazon
+48	6948	obstini	obstinanta obstinantaj obstinantajn obstinantan obstinante obstinas obstininta obstinintaj obstinintajn obstinintan obstininte obstinis obstinonta obstinontaj obstinontajn obstinontan obstinonte obstinos obstinu obstinus
+49	6949	aŭdiĝi	aŭdiĝanta aŭdiĝantaj aŭdiĝantajn aŭdiĝantan aŭdiĝante aŭdiĝas aŭdiĝinta aŭdiĝintaj aŭdiĝintajn aŭdiĝintan aŭdiĝinte aŭdiĝis aŭdiĝonta aŭdiĝontaj aŭdiĝontajn aŭdiĝontan aŭdiĝonte aŭdiĝos aŭdiĝu aŭdiĝus
+50	6950	anasa	anasaj anasajn anasan
+51	6951	nebuligi	nebuliganta nebuligantaj nebuligantajn nebuligantan nebuligante nebuligas nebuligata nebuligataj nebuligatajn nebuligatan nebuligate nebuliginta nebuligintaj nebuligintajn nebuligintan nebuliginte nebuligis nebuligita nebuligitaj nebuligitajn nebuligitan nebuligite nebuligonta nebuligontaj nebuligontajn nebuligontan nebuligonte nebuligos nebuligu nebuligus
+52	6952	adulti	adultanta adultantaj adultantajn adultantan adultante adultanto adultas adultinta adultintaj adultintajn adultintan adultinte adultis adultonta adultontaj adultontajn adultontan adultonte adultos adultu adultus
+53	6953	kliŝaĵo	kliŝaĵoj kliŝaĵojn kliŝaĵon
+54	6954	kuŝigi	kuŝiganta kuŝigantaj kuŝigantajn kuŝigantan kuŝigante kuŝigas kuŝiginta kuŝigintaj kuŝigintajn kuŝigintan kuŝiginte kuŝigis kuŝigonta kuŝigontaj kuŝigontajn kuŝigontan kuŝigonte kuŝigos kuŝigu kuŝigus
+55	6955	malfeliĉulo	malfeliĉuloj malfeliĉulojn malfeliĉulon
+56	6956	elporti	elportanta elportantaj elportantajn elportantan elportante elportas elportinta elportintaj elportintajn elportintan elportinte elportis elportonta elportontaj elportontajn elportontan elportonte elportos elportu elportus
+57	6957	amnestii	amnestianta amnestiantaj amnestiantajn amnestiantan amnestiante amnestias amnestiinta amnestiintaj amnestiintajn amnestiintan amnestiinte amnestiis amnestionta amnestiontaj amnestiontajn amnestiontan amnestionte amnestios amnestiu amnestius
+58	6958	malfacilo	malfaciloj malfacilojn malfacilon
+59	6959	aliformiĝi	aliformiĝanta aliformiĝantaj aliformiĝantajn aliformiĝantan aliformiĝante aliformiĝas aliformiĝinta aliformiĝintaj aliformiĝintajn aliformiĝintan aliformiĝinte aliformiĝis aliformiĝonta aliformiĝontaj aliformiĝontajn aliformiĝontan aliformiĝonte aliformiĝos aliformiĝu aliformiĝus
+60	6960	inventaro	inventaroj inventarojn inventaron
+61	6961	kriminala	kriminalan
+62	6962	mortema	mortemaj mortemajn morteman
+63	6963	hieraŭa	hieraŭaj hieraŭajn hieraŭan
+64	6964	komplezi	komplezanta komplezantaj komplezantajn komplezantan komplezante komplezas komplezinta komplezintaj komplezintajn komplezintan komplezinte komplezis komplezonta komplezontaj komplezontajn komplezontan komplezonte komplezos komplezu komplezus
+65	6965	malsanigi	malsaniganta malsanigantaj malsanigantajn malsanigantan malsanigante malsanigas malsaniginta malsanigintaj malsanigintajn malsanigintan malsaniginte malsanigis malsanigonta malsanigontaj malsanigontajn malsanigontan malsanigonte malsanigos malsanigu malsanigus
+66	6966	mitingo	mitingoj mitingojn mitingon
+67	6967	diskriminado	diskriminadoj diskriminadojn diskriminadon
+68	6968	baldakeno	baldakenoj baldakenojn baldakenon
+69	6969	dekori	dekoranta dekorantaj dekorantajn dekorantan dekorante dekoras dekorinta dekorintaj dekorintajn dekorintan dekorinte dekoris dekoronta dekorontaj dekorontajn dekorontan dekoronte dekoros dekoru dekorus
+70	6970	aboli	abolanta abolantaj abolantajn abolantan abolante abolas abolinta abolintaj abolintajn abolintan abolinte abolis abolonta abolontaj abolontajn abolontan abolonte abolos abolu abolus
+71	6971	fetori	fetoranta fetorantaj fetorantajn fetorantan fetorante fetoras fetorinta fetorintaj fetorintajn fetorintan fetorinte fetoris fetoronta fetorontaj fetorontajn fetorontan fetoronte fetoros fetoru fetorus
+72	6972	esperantismo	esperantismoj esperantismojn esperantismon
+73	6973	samideano	samideanoj samideanojn samideanon
+74	6974	fiaĉulo	fiaĉuloj fiaĉulojn fiaĉulon
+75	6975	ruzi	ruzanta ruzantaj ruzantajn ruzantan ruzante ruzas ruzinta ruzintaj ruzintajn ruzintan ruzinte ruzis ruzonta ruzontaj ruzontajn ruzontan ruzonte ruzos ruzu ruzus
+76	6976	mitulo	mituloj mitulojn mitulon
+77	6977	eksteraĵo	eksteraĵoj eksteraĵojn eksteraĵon
+78	6978	timulo	timuloj timulojn timulon
+79	6979	altrudiĝi	altrudiĝanta altrudiĝantaj altrudiĝantajn altrudiĝantan altrudiĝante altrudiĝas altrudiĝinta altrudiĝintaj altrudiĝintajn altrudiĝintan altrudiĝinte altrudiĝis altrudiĝonta altrudiĝontaj altrudiĝontajn altrudiĝontan altrudiĝonte altrudiĝos altrudiĝu altrudiĝus
+80	6980	suĉilo	suĉiloj suĉilojn suĉilon
+81	6981	kisadi	kisadanta kisadantaj kisadantajn kisadantan kisadante kisadas kisadinta kisadintaj kisadintajn kisadintan kisadinte kisadis kisadonta kisadontaj kisadontajn kisadontan kisadonte kisados kisadu kisadus
+82	6982	brulvundi	brulvundanta brulvundantaj brulvundantajn brulvundantan brulvundante brulvundas brulvundinta brulvundintaj brulvundintajn brulvundintan brulvundinte brulvundis brulvundonta brulvundontaj brulvundontajn brulvundontan brulvundonte brulvundos brulvundu brulvundus
+83	6983	anĝeleto	anĝeletoj anĝeletojn anĝeleton
+84	6984	imagebla	imageblaj imageblajn imageblan
+85	6985	forvojaĝi	forvojaĝanta forvojaĝantaj forvojaĝantajn forvojaĝantan forvojaĝante forvojaĝas forvojaĝinta forvojaĝintaj forvojaĝintajn forvojaĝintan forvojaĝinte forvojaĝis forvojaĝonta forvojaĝontaj forvojaĝontajn forvojaĝontan forvojaĝonte forvojaĝos forvojaĝu forvojaĝus
+86	6986	malpaciĝi	malpaciĝanta malpaciĝantaj malpaciĝantajn malpaciĝantan malpaciĝante malpaciĝas malpaciĝinta malpaciĝintaj malpaciĝintajn malpaciĝintan malpaciĝinte malpaciĝis malpaciĝonta malpaciĝontaj malpaciĝontajn malpaciĝontan malpaciĝonte malpaciĝos malpaciĝu malpaciĝus
+87	6987	pliaĝulo	pliaĝuloj pliaĝulojn pliaĝulon
+88	6988	eksalti	eksaltanta eksaltantaj eksaltantajn eksaltantan eksaltante eksaltas eksaltinta eksaltintaj eksaltintajn eksaltintan eksaltinte eksaltis eksaltonta eksaltontaj eksaltontajn eksaltontan eksaltonte eksaltos eksaltu eksaltus
+89	6989	fandiĝi	fandiĝanta fandiĝantaj fandiĝantajn fandiĝantan fandiĝante fandiĝas fandiĝinta fandiĝintaj fandiĝintajn fandiĝintan fandiĝinte fandiĝis fandiĝonta fandiĝontaj fandiĝontajn fandiĝontan fandiĝonte fandiĝos fandiĝu fandiĝus
+90	6990	ŝampuo	ŝampuoj ŝampuojn ŝampuon
+91	6991	procedi	procedanta procedantaj procedantajn procedantan procedante procedas procedinta procedintaj procedintajn procedintan procedinte procedis procedonta procedontaj procedontajn procedontan procedonte procedos procedu procedus
+92	6992	frandaĵo	frandaĵoj frandaĵojn frandaĵon
+93	6993	alrigardi	alrigardanta alrigardantaj alrigardantajn alrigardantan alrigardante alrigardas alrigardinta alrigardintaj alrigardintajn alrigardintan alrigardinte alrigardis alrigardonta alrigardontaj alrigardontajn alrigardontan alrigardonte alrigardos alrigardu alrigardus
+94	6994	ekkanti	ekkantanta ekkantantaj ekkantantajn ekkantantan ekkantante ekkantas ekkantinta ekkantintaj ekkantintajn ekkantintan ekkantinte ekkantis ekkantonta ekkantontaj ekkantontajn ekkantontan ekkantonte ekkantos ekkantu ekkantus
+95	6995	kontuzo	kontuzoj kontuzojn kontuzon
+96	6996	pediko	pedikoj pedikojn pedikon
+97	6997	eltrinki	eltrinkanta eltrinkantaj eltrinkantajn eltrinkantan eltrinkante eltrinkas eltrinkinta eltrinkintaj eltrinkintajn eltrinkintan eltrinkinte eltrinkis eltrinkonta eltrinkontaj eltrinkontajn eltrinkontan eltrinkonte eltrinkos eltrinku eltrinkus
+98	6998	aŭtonoma	aŭtonomaj aŭtonomajn aŭtonoman
+99	6999	fjordo	fjordoj fjordojn fjordon
+100	7000	novjaro	novjaroj novjarojn novjaron

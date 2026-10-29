@@ -1,0 +1,100 @@
+1	8001	paliseto	palisetoj palisetojn paliseton
+2	8002	ekbrili	ekbrilanta ekbrilantaj ekbrilantajn ekbrilantan ekbrilante ekbrilas ekbrilinta ekbrilintaj ekbrilintajn ekbrilintan ekbrilinte ekbrilis ekbrilonta ekbrilontaj ekbrilontajn ekbrilontan ekbrilonte ekbrilos ekbrilu ekbrilus
+3	8003	mokinda	mokindaj mokindajn mokindan
+4	8004	trakuri	trakuranta trakurantaj trakurantajn trakurantan trakurante trakuras trakurinta trakurintaj trakurintajn trakurintan trakurinte trakuris trakuronta trakurontaj trakurontajn trakurontan trakuronte trakuros trakuru trakurus
+5	8005	bleko	blekoj blekojn blekon
+6	8006	vestaĉo	vestaĉoj vestaĉojn vestaĉon
+7	8007	suflori	sufloranta suflorantaj suflorantajn suflorantan suflorante sufloras suflorinta suflorintaj suflorintajn suflorintan suflorinte sufloris sufloronta suflorontaj suflorontajn suflorontan sufloronte sufloros sufloru suflorus
+8	8008	relikvo	relikvoj relikvojn relikvon
+9	8009	limonado	limonadoj limonadojn limonadon
+10	8010	forgesigi	forgesiganta forgesigantaj forgesigantajn forgesigantan forgesigante forgesigas forgesiginta forgesigintaj forgesigintajn forgesigintan forgesiginte forgesigis forgesigonta forgesigontaj forgesigontajn forgesigontan forgesigonte forgesigos forgesigu forgesigus
+11	8011	trinkigi	trinkiganta trinkigantaj trinkigantajn trinkigantan trinkigante trinkigas trinkigata trinkigataj trinkigatajn trinkigatan trinkigate trinkiginta trinkigintaj trinkigintajn trinkigintan trinkiginte trinkigis trinkigita trinkigitaj trinkigitajn trinkigitan trinkigite trinkigonta trinkigontaj trinkigontajn trinkigontan trinkigonte trinkigos trinkigu trinkigus
+12	8012	porkido	porkidoj porkidojn porkidon
+13	8013	senhejmulo	senhejmuloj senhejmulojn senhejmulon
+14	8014	kotizo	kotizoj kotizojn kotizon
+15	8015	malesperi	malesperanta malesperantaj malesperantajn malesperantan malesperante malesperas malesperinta malesperintaj malesperintajn malesperintan malesperinte malesperis malesperonta malesperontaj malesperontajn malesperontan malesperonte malesperos malesperu malesperus
+16	8016	hamido	hamidoj hamidojn hamidon
+17	8017	keĉupo	keĉapo keĉupoj keĉupojn keĉupon
+18	8018	afiŝi	afiŝanta afiŝantaj afiŝantajn afiŝantan afiŝante afiŝas afiŝinta afiŝintaj afiŝintajn afiŝintan afiŝinte afiŝis afiŝonta afiŝontaj afiŝontajn afiŝontan afiŝonte afiŝos afiŝu afiŝus
+19	8019	dormigi	dormiganta dormigantaj dormigantajn dormigantan dormigante dormigas dormiginta dormigintaj dormigintajn dormigintan dormiginte dormigis dormigonta dormigontaj dormigontajn dormigontan dormigonte dormigos dormigu dormigus
+20	8020	mortemulo	mortemuloj mortemulojn mortemulon
+21	8021	junulargastejo	junulargastejoj junulargastejojn junulargastejon
+22	8022	bantuko	bantukoj bantukojn bantukon
+23	8023	fortiko	fortikoj fortikojn fortikon
+24	8024	hupi	hupanta hupantaj hupantajn hupantan hupante hupas hupinta hupintaj hupintajn hupintan hupinte hupis huponta hupontaj hupontajn hupontan huponte hupos hupu hupus
+25	8025	dek-tria	dektria dektriaj dektrian
+26	8026	alĝeria	alĝeriaj alĝeriajn alĝerian
+27	8027	unuforme	
+28	8028	nordoriente	
+29	8029	litio	litioj litiojn lition
+30	8030	akronimo	akronimoj akronimojn akronimon
+31	8031	brido	bridoj bridojn bridon
+32	8032	jaĥto	jakto jaktoj jakton jaĥtoj jaĥtojn jaĥton
+33	8033	bajoneto	bajonetoj bajonetojn bajoneton
+34	8034	vandalismo	vandalismoj vandalismojn vandalismon
+35	8035	hommortigo	hommortigoj hommortigojn hommortigon
+36	8036	dungo	dungoj dungojn dungon
+37	8037	psikologie	
+38	8038	fulgo	fulgoj fulgojn fulgon
+39	8039	amasprodukti	amasproduktanta amasproduktantaj amasproduktantajn amasproduktantan amasproduktante amasproduktas amasproduktata amasproduktataj amasproduktatajn amasproduktatan amasproduktate amasproduktinta amasproduktintaj amasproduktintajn amasproduktintan amasproduktinte amasproduktis amasproduktita amasproduktitaj amasproduktitajn amasproduktitan amasproduktite amasproduktonta amasproduktontaj amasproduktontajn amasproduktontan amasproduktonte amasproduktos amasproduktu amasproduktus
+40	8040	kvantumbito	kvantumbitoj kvantumbitojn kvantumbiton
+41	8041	dano	danoj danojn danon
+42	8042	gruo	gruoj gruojn gruon
+43	8043	energinivelo	energiniveloj energinivelojn energinivelon
+44	8044	krucmilito	krucmilitoj krucmilitojn krucmiliton
+45	8045	konsistorio	konsistorioj konsistoriojn konsistorion
+46	8046	psikiatrio	psikiatrioj psikiatriojn psikiatrion
+47	8047	energie	
+48	8048	dialektiko	dialektikoj dialektikojn dialektikon
+49	8049	bumerango	bumerangoj bumerangojn bumerangon
+50	8050	tatara	tataraj tatarajn tataran
+51	8051	trovebla	troveblaj troveblajn troveblan
+52	8052	timinda	timindaj timindajn timindan
+53	8053	senpere	
+54	8054	strategie	
+55	8055	nuboskrapulo	nuboskrapuloj nuboskrapulojn nuboskrapulon nubskrapulo nubskrapuloj
+56	8056	fiherbo	fiherboj fiherbojn fiherbon
+57	8057	aziano	azianoj azianojn azianon
+58	8058	prerogativo	prerogativoj prerogativojn prerogativon
+59	8059	neŭtra	neŭtraj neŭtrajn neŭtran
+60	8060	vipi	vipanta vipantaj vipantajn vipantan vipante vipas vipata vipataj vipatajn vipatan vipate vipinta vipintaj vipintajn vipintan vipinte vipis vipita vipitaj vipitajn vipitan vipite viponta vipontaj vipontajn vipontan viponte vipos vipu vipus
+61	8061	infanĝardeno	infanĝardenoj infanĝardenojn infanĝardenon
+62	8062	mokado	mokadoj mokadojn mokadon
+63	8063	sportejo	sportejoj sportejojn sportejon
+64	8064	aŭtuna	aŭtunaj aŭtunajn aŭtunan
+65	8065	dekmilo	dekmiloj dekmilojn dekmilon
+66	8066	kulto	kultoj kultojn kulton
+67	8067	psikanalizo	psikanalizoj psikanalizojn psikanalizon
+68	8068	vilaĝa	vilaĝaj vilaĝajn vilaĝan
+69	8069	ŝerifo	ŝerifoj ŝerifojn ŝerifon
+70	8070	impeta	impetaj impetajn impetan
+71	8071	medie	
+72	8072	insularo	insularoj insularojn insularon
+73	8073	delto	deltoj deltojn delton
+74	8074	balotsistemo	balotsistemoj balotsistemojn balotsistemon
+75	8075	ĉefartikolo	ĉefartikoloj ĉefartikolojn ĉefartikolon
+76	8076	analitiko	analitikoj analitikojn analitikon
+77	8077	ŝtelado	ŝteladoj ŝteladojn ŝteladon
+78	8078	fiŝa	fiŝaj fiŝajn fiŝan
+79	8079	lordo	lordoj lordojn lordon
+80	8080	nudeco	nudecoj nudecojn nudecon
+81	8081	latuno	latunoj latunojn latunon
+82	8082	skizofrenio	skizofrenioj skizofreniojn skizofrenion
+83	8083	viskoza	viskozaj viskozajn viskozan
+84	8084	taglumo	taglumoj taglumojn taglumon
+85	8085	psio	psioj psiojn psion
+86	8086	ĝelo	ĝeloj ĝelojn ĝelon
+87	8087	sakso	saksoj saksojn sakson
+88	8088	sekrecio	sekrecioj sekreciojn sekrecion
+89	8089	nepra	nepraj neprajn nepran
+90	8090	ofici	oficanta oficantaj oficantajn oficantan oficante oficanto oficantoj oficantojn oficanton oficas oficinta oficintaj oficintajn oficintan oficinte oficis oficonta oficontaj oficontajn oficontan oficonte oficos oficu oficus
+91	8091	platigi	platiganta platigantaj platigantajn platigantan platigante platigas platigata platigataj platigatajn platigatan platigate platiginta platigintaj platigintajn platigintan platiginte platigis platigita platigitaj platigitajn platigitan platigite platigonta platigontaj platigontajn platigontan platigonte platigos platigu platigus
+92	8092	kiosko	kioskoj kioskojn kioskon
+93	8093	miksilo	miksiloj miksilojn miksilon
+94	8094	komercado	komercadoj komercadojn komercadon
+95	8095	anticipa	anticipaj anticipajn anticipan
+96	8096	ĝihado	ĝihadoj ĝihadojn ĝihadon
+97	8097	finstacio	finstacioj finstaciojn finstacion
+98	8098	naturkatastrofo	naturkatastrofoj naturkatastrofojn naturkatastrofon
+99	8099	karbonhidrato	karbonhidratoj karbonhidratojn karbonhidraton
+100	8100	diakono	diakonoj diakonojn diakonon
