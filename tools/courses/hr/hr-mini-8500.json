@@ -1,0 +1,205 @@
+{
+  "id": "hr-mini-8500",
+  "rankUpTo": 8500,
+  "level": "C2",
+  "title": "Istraživači i putnici",
+  "description": "Ten standalone stories and a column about explorers and travellers: a geologist mapping rock layers in Lika, a solo sailor crossing the Atlantic, a sunken water boat traced in the archive, a naturalist's diary from Velebit, a dialect researcher on Susak, a travelling puppet theatre, a long-haul flight attendant, a column on guidebooks, an emigrant's letters from Chile and a winter at an Antarctic station.",
+  "topic": "Explorers and travellers",
+  "names": [
+    "Kamenislava",
+    "Grabomir",
+    "Zagreb",
+    "Jadrimir",
+    "Plavislava",
+    "Atlantik",
+    "Lošinj",
+    "Tenerife",
+    "Tenerifea",
+    "Barbados",
+    "Valomir",
+    "Ledana",
+    "Silba",
+    "Olib",
+    "Zadar",
+    "Lučimira",
+    "Vjetromir",
+    "Senj",
+    "Velebit",
+    "Srebrenka",
+    "Ostrimir",
+    "Susak",
+    "Susku",
+    "Suska",
+    "Amerika",
+    "Americi",
+    "Bilomir",
+    "Vidoslava",
+    "Slavonija",
+    "Đakovo",
+    "Svitana",
+    "Perunika",
+    "Frankfurt",
+    "Toronto",
+    "Sinj",
+    "Kanada",
+    "Italija",
+    "Bjelan",
+    "Zvjezdislava",
+    "Brač",
+    "Supetar",
+    "Punta",
+    "Arenas",
+    "Arenasu",
+    "Pučišća",
+    "Kremislav",
+    "Hrastimir",
+    "Antarktika",
+    "Delnice",
+    "Delnica",
+    "Antarktici"
+  ],
+  "lessons": [
+    {
+      "title": "Terencem po Lici",
+      "summary": "The geologist Kamenislava and the retired well digger Grabomir get her old off-road car out of the mud, read the rock layers in a road cutting and find where the village's new well should go.",
+      "newWords": [
+        "terenac",
+        "kopač",
+        "zaglibiti",
+        "vertikalan",
+        "zakočiti",
+        "presjek",
+        "debljina",
+        "županija"
+      ],
+      "text": "Geologinja Kamenislava svako proljeće provodi na terenu. Ove godine županija ju je zamolila da istraži kamene slojeve oko jednog sela u Lici, jer su ljudi ondje svakog ljeta ostajali bez vode. U županiji su htjeli znati gdje bi se mogao iskopati novi bunar.\n\nKamenislava je u Zagrebu natovarila svoj stari terenac: šator, čekiće, metar, bilježnice i dvije kante vode. Terenac je imao dvadeset godina, ali još je nikad nije ostavio na cesti.\n\nU selu ju je dočekao Grabomir, umirovljeni kopač bunara. Četrdeset godina kopao je bunare po cijeloj županiji i poznavao je gotovo svaku stijenu.\n\n— Dobar kopač ne kopa napamet — rekao joj je. — Prvo pogleda kamen, a tek onda uzme lopatu.\n\nPrvog jutra krenuli su makadamom prema brdu iznad sela. Noću je padala kiša i put je bio pun blata. Na jednoj livadi kotači su počeli klizati i terenac je zaglibio do osovine. Kamenislava je dodala gas, ali kotači su se samo vrtjeli i bacali blato.\n\n— Nemojte — rekao je Grabomir. — Što više dodajete gas, to ćete dublje zaglibiti.\n\nSkupili su granje i kamenje i stavili ga pod kotače. Kamenislava je polako krenula, a Grabomir je gurao straga. Nakon pola sata terenac je bio vani, a oboje su bili blatni do koljena.\n\nIza brda cesta je prolazila kroz usjek. S lijeve strane dizala se vertikalna stijena, visoka desetak metara. Kamenislava je naglo zakočila i izašla iz auta.\n\n— Ovo je najbolji presjek u cijelom kraju — rekla je oduševljeno. — Kad su gradili cestu, prerezali su brdo kao tortu.\n\nNa vertikalnoj stijeni vidjeli su se slojevi, jedan iznad drugog: sivi vapnenac, tanki crveni sloj gline, pa opet vapnenac. Kamenislava je metrom mjerila debljinu svakog sloja i upisivala je u bilježnicu. Crveni sloj imao je debljinu od samo dvadeset centimetara.\n\n— Taj crveni sloj poznajem — rekao je Grabomir. — Kad smo kopali bunare u susjednom selu, voda se uvijek skupljala baš iznad njega.\n\nKamenislava mu je objasnila da glina ne propušta vodu. Kiša prolazi kroz pukotine u vapnencu, ali na glini zastane. Ako se crveni sloj nastavlja ispod sela, voda bi trebala biti ondje.\n\nSljedećih dana pratili su crveni sloj od presjeka prema selu. Na strmim mjestima Kamenislava je vozila sporo i često kočila, a jednom je zakočila tik pred stadom ovaca. Iznad sela izmjerili su da sloj leži na dubini od dvanaest metara.\n\nKrajem mjeseca karta je bila gotova. Kamenislava ju je predala županiji, a jednu kopiju poklonila je Grabomiru. U jesen su mladi kopači počeli kopati novi bunar, točno na mjestu koje su označili na karti. Na dvanaest metara pojavila se voda.\n\nPitanja:\nZašto je županija poslala Kamenislavu u Liku?\nU županiji su htjeli znati gdje bi se mogao iskopati novi bunar, jer su ljudi ljeti ostajali bez vode.\nGdje je terenac zaglibio?\nTerenac je zaglibio u blatu na livadi, pa su pod kotače stavili granje i kamenje.\nGdje su vidjeli slojeve kamena?\nVidjeli su ih na vertikalnoj stijeni u usjeku, koja je bila prirodni presjek brda.\nŠto je Kamenislava mjerila metrom?\nMjerila je debljinu svakog sloja.\nZašto je crveni sloj bio važan?\nGlina ne propušta vodu, pa se voda skuplja iznad nje."
+    },
+    {
+      "title": "Sam preko oceana",
+      "summary": "The retired ship's engineer Jadrimir sails alone from Tenerife to Barbados, keeps fit, lets a catamaran overtake him and, when his position device fails, works out his position with a sextant so his wife Plavislava gets her message every evening.",
+      "newWords": [
+        "jedriti",
+        "neizvjesnost",
+        "prijemnik",
+        "kondicija",
+        "spremnost",
+        "proračunati",
+        "prestignuti"
+      ],
+      "text": "Jadrimir je cijeli radni vijek proveo u strojarnicama velikih teretnih brodova, ali oduvijek je sanjao da će jednom sam jedriti preko Atlantika. Kad je otišao u mirovinu, kupio je rabljenu jedrilicu dugu deset metara i dvije je godine pripremao za put.\n\nNjegova žena Plavislava nije voljela more, ali poštovala je njegovu želju. Tražila je samo jedno: da joj se javi svaki dan.\n\n— Neizvjesnost mi je gora od oluje — rekla mu je. — Mogu podnijeti sve osim tišine.\n\nJadrimir je zato u jedrilicu ugradio satelitski telefon, uređaj koji pokazuje položaj broda i prijemnik za vremensku prognozu. Dogovorili su se da će joj svake večeri u osam sati poslati poruku s položajem broda.\n\nPrije puta ozbiljno je radio na kondiciji. Svako jutro plivao je kilometar u moru ispred Lošinja i dizao utege u podrumu. Znao je da na oceanu neće spavati više od sat vremena odjednom i da će ponekad satima držati kormilo. Liječnik ga je pregledao i rekao mu da ima kondiciju mnogo mlađeg čovjeka.\n\n— Snaga nije najvažnija — rekao je Jadrimir. — Na oceanu je najvažnija spremnost. Spremnost da sve sam popraviš, da ne spavaš i da čekaš.\n\nKrajem studenoga isplovio je s Tenerifea. Prvih je dana jedrio uz stalan vjetar s istoka, a svake večeri na prijemniku je slušao prognozu. Iako je imao uređaj za položaj, svako bi podne sekstantom proračunao položaj broda, kao što su to radili stari pomorci.\n\n— Zašto to radiš kad imaš uređaj? — pitala ga je Plavislava preko telefona.\n\n— Za svaki slučaj — odgovorio je.\n\nTrećeg dana prestigao ga je veliki bijeli katamaran. Posada mu je mahala s palube, a Jadrimir im je mahnuo natrag. Nije mu smetalo. Nije išao na utrku i nije ga zanimalo tko će koga prestići.\n\nDesetog dana veliki val prelio je palubu i uređaj za položaj prestao je raditi. Jadrimir nije znao gdje je, ali nije se uplašio. U podne je izvadio sekstant, izmjerio visinu sunca i olovkom proračunao položaj. Navečer je Plavislavi poslao poruku, kao i svake večeri. Napisao je da je sve u redu i da opet jedri kao stari pomorci, samo sa suncem i kartom.\n\nTri tjedna kasnije, nakon dvadeset i četiri dana na moru, ugledao je otok Barbados. U luci ga je čekala Plavislava, koja je onamo doletjela avionom.\n\n— Svaku večer čekala sam tvoju poruku — rekla mu je. — Nijednom nisam morala živjeti u neizvjesnosti.\n\n— A ja sam i danas u podne proračunao položaj — nasmijao se Jadrimir. — Do otoka nisam pogriješio ni za milju.\n\nPitanja:\nKako se Jadrimir pripremao za put?\nRadio je na kondiciji, plivao je svako jutro i dizao utege.\nŠto je, prema Jadrimiru, najvažnije na oceanu?\nPrema njemu je najvažnija spremnost da sve sam popravi, da ne spava i da čeka.\nŠto je svake večeri slušao na prijemniku?\nSvake večeri slušao je vremensku prognozu.\nTko ga je prestigao trećeg dana?\nPrestigao ga je veliki bijeli katamaran.\nKako je znao gdje je kad je uređaj prestao raditi?\nIzmjerio je visinu sunca sekstantom i olovkom proračunao položaj.\nZašto Plavislava nije živjela u neizvjesnosti?\nJadrimir joj je svake večeri telefonom poslao poruku, iako uređaj za položaj nije radio."
+    },
+    {
+      "title": "Brod koji je nosio vodu",
+      "summary": "The diver Valomir finds an old wooden boat with an iron water tank off Olib, and the Zadar archivist Ledana uses the harbour office's ship register and a grey folder to learn how the water boat sank in a gale in 1936 with all three crew saved.",
+      "newWords": [
+        "cisterna",
+        "kompresija",
+        "apsorbirati",
+        "naslutiti",
+        "registar",
+        "fascikl",
+        "potonuti"
+      ],
+      "text": "Ronilac Valomir već petnaest godina istražuje stare olupine u moru oko otoka kod Zadra. Prošlog ljeta, između Silbe i Oliba, na dubini od trideset metara pronašao je drveni brod koji nije bio ni na jednoj karti. Brod je bio dug oko dvadeset metara, a u njegovoj sredini stajala je velika željezna cisterna.\n\nValomir je do olupine ronio nekoliko puta. Prije svakog zarona punio je boce zrakom na kompresoru u luci. Kompresija zraka spora je i bučna: kompresor u bocu stisne toliko zraka da ronilac s njim može disati gotovo sat vremena. Valomir je boce uvijek sam provjeravao, jer o dobroj kompresiji ovisi sigurnost svakog zarona.\n\nNa olupini je fotografirao cisternu, izmjerio trup i izvadio mali komad drva. U laboratoriju su mu objasnili da drvo pod morem apsorbira vodu, kao spužva, a ovaj je komad bio pod morem gotovo stotinu godina. Kad bi se naglo osušio na zraku, raspao bi se. Drvo koje apsorbira toliko vode mora se sušiti polako, godinama.\n\nS fotografijama i mjerama Valomir je otišao u arhiv u Zadru. Ondje ga je primila arhivistica Ledana. Pogledala je fotografiju cisterne i nasmiješila se.\n\n— Mislim da sam naslutila što ste našli — rekla je. — Prije vodovoda ljudi na otocima ljeti su ostajali bez vode. Kad bi se kućne cisterne ispraznile, iz Zadra je dolazio brod s velikom cisternom punom slatke vode.\n\nLedana je donijela debelu knjigu: registar brodova zadarske luke. U registar su se zapisivali svi brodovi, s imenom, dužinom, vlasnikom i teretom. Polako je okretala stranice. Pod godinom 1931. našla je ono što je naslutila: drveni brod dug dvadeset i jedan metar, sa željeznom cisternom za četrdeset tona vode.\n\n— Dužina je točna — rekao je Valomir. — Ali kako je takav brod mogao potonuti tako blizu obale?\n\nLedana je otišla u podrum i vratila se s jednim sivim fasciklom. Na fasciklu je pisalo: „Prijevoz vode, 1930. – 1939.“ U njemu su bili računi, pisma ljudi s otoka i jedan kratak izvještaj kapetana luke.\n\nU izvještaju je pisalo da je brod u studenom 1936. plovio prazan prema Zadru. Kod Oliba ga je uhvatila jaka bura. Val je slomio kormilo, a prazna cisterna bila je previše teška za tako mali trup. Brod se nagnuo i počeo primati vodu. Posada je znala da će brod potonuti, pa se u maloj barci odvezla do Oliba. Sva trojica stigla su na obalu mokra, ali živa i zdrava. Brod je potonuo za manje od sat vremena.\n\n— Dakle, nije morao potonuti zato što je bio loše građen — rekao je Valomir. — Uzrok je bila bura.\n\nValomir je arhivu poklonio svoje fotografije. Ledana ih je stavila u isti fascikl, uz izvještaj iz 1936. U registar je olovkom zapisala: „Olupina pronađena 2025., na trideset metara dubine.“\n\nPitanja:\nŠto je Valomir pronašao između Silbe i Oliba?\nPronašao je drveni brod s velikom željeznom cisternom.\nZašto je kompresija zraka važna za ronioca?\nKompresor u bocu stisne toliko zraka da ronilac može disati gotovo sat vremena, a o tome ovisi sigurnost zarona.\nŠto drvo radi pod morem?\nDrvo pod morem apsorbira vodu, kao spužva.\nŠto je Ledana donijela Valomiru?\nDonijela mu je registar brodova zadarske luke i jedan sivi fascikl.\nKako je brod potonuo?\nBura je slomila kormilo, prazna cisterna bila je previše teška, pa je brod počeo primati vodu."
+    },
+    {
+      "title": "Dnevnik hvatača leptira",
+      "summary": "Lučimira, a biology teacher, follows the 1894 diary of her great-grandfather Vjetromir, a butterfly collector, across Velebit: she finds his beech grove, sits out the rain he grumbled about and sleeps in the barn where he once planted a linden tree.",
+      "newWords": [
+        "hvatač",
+        "svagda",
+        "gaj",
+        "mrzovoljan",
+        "štagalj",
+        "hranjiv",
+        "zasaditi"
+      ],
+      "text": "Lučimira predaje biologiju u jednoj gimnaziji u Zagrebu. Prošle zime, na tavanu stare obiteljske kuće u Senju, pronašla je dnevnik svog pradjeda Vjetromira. Vjetromir je bio učitelj, a u slobodno vrijeme strastven hvatač leptira. U ljeto 1894. pješačio je preko Velebita s mrežom, drvenim kutijama i bilježnicom. Lučimira je odlučila sljedećeg ljeta proći istim putem.\n\nDnevnik je bio pisan starinskim jezikom. Već na prvoj stranici pisalo je: „Svagda nosim mrežu, pa i kad mislim da leptira neće biti.“ Lučimira nije poznavala riječ svagda, pa ju je potražila u rječniku. Značila je isto što i uvijek. Pradjed ju je u dnevniku upotrijebio još mnogo puta.\n\nU srpnju je krenula iz Senja, s ruksakom i fotoaparatom umjesto mreže. Prvog dana stigla je do mjesta koje je pradjed opisao ovako: „Iznad sela je bukov gaj. U gaju je hlad, a na suncu na rubu gaja lete plavi leptiri.“ Gaj je još bio ondje. Bukve su bile visoke i stare, a na livadi uz gaj Lučimira je doista vidjela male plave leptire. Fotografirala ih je i usporedila s crtežom u dnevniku. Bila je to ista vrsta.\n\nDrugog dana cijelo je jutro padala kiša. Lučimira je sjedila pod stijenom i čitala dnevnik. I pradjed je jednom imao takav dan: „Kiša pada od zore. Kad pada kiša, mrzovoljan sam, jer leptiri ne lete, a hvatač bez leptira samo je čovjek s mrežom.“ Na kraju stranice dodao je: „Bio sam mrzovoljan do podne, a onda je izašlo sunce.“ Lučimira se nasmijala. Ni ona nije bila dobre volje, ali i njoj je sunce izašlo poslije podne.\n\nTrećeg dana tražila je zaselak u kojem je pradjed proveo tri noći. Pisao je da je spavao u štaglju jedne pastirske obitelji, na sijenu iznad krava. „Domaćica mi je svake večeri donosila zdjelu graha i kozjeg mlijeka. Jelo je jednostavno, ali hranjivo, i nakon njega mogu hodati cijeli dan.“\n\nZaselak je bio gotovo prazan, ali štagalj je još stajao, s novim krovom. Pred njim je rasla velika, široka lipa. Lučimira je otvorila dnevnik na stranici koju je dobro zapamtila: „Prije odlaska zasadio sam pred štagljem mladu lipu, da domaćini imaju hlad.“\n\nIz susjedne kuće izašla je starija žena i pitala je koga traži. Lučimira joj je pročitala tu rečenicu.\n\n— Moj je djed pričao da je tu lipu zasadio neki učitelj s mrežom — rekla je žena. — Mislili smo da je to samo priča.\n\nPozvala je Lučimiru na ručak. Na stolu je bio grah, jednostavan i hranjiv, kao prije sto trideset godina. Te je noći Lučimira spavala u štaglju, na sijenu. Prije spavanja u svoju je bilježnicu napisala: „Svagda ću nositi fotoaparat.“\n\nPitanja:\nTko je bio Vjetromir?\nBio je učitelj i strastven hvatač leptira, a Lučimira je njegova praunuka.\nŠto znači riječ svagda?\nSvagda znači isto što i uvijek.\nŠto je Lučimira vidjela kod bukovog gaja?\nNa livadi uz gaj vidjela je male plave leptire, istu vrstu kao na pradjedovu crtežu.\nZašto je Vjetromir po kiši bio mrzovoljan?\nBio je mrzovoljan jer po kiši leptiri ne lete.\nGdje je pradjed spavao i što je jeo?\nSpavao je u štaglju jedne pastirske obitelji i jeo je grah i kozje mlijeko, jednostavno i hranjivo jelo.\nŠto je pradjed zasadio pred štagljem?\nZasadio je mladu lipu, da domaćini imaju hlad."
+    },
+    {
+      "title": "Vokali sa Suska",
+      "summary": "The dialect researcher Srebrenka records Ostrimir, who came home to the island of Susak after forty years in America, studies the island's double-sounding vowels and irregular verbs, and puts the recordings online, where his granddaughter starts to learn them.",
+      "newWords": [
+        "okrilje",
+        "prepoznatljiv",
+        "nostalgija",
+        "tečnost",
+        "učlaniti",
+        "vokal",
+        "nepravilan"
+      ],
+      "text": "Srebrenka proučava hrvatske govore. Radi u jednom institutu u Zagrebu i pod okriljem instituta već deset godina snima govor starijih ljudi na malim otocima. Ovog proljeća došla je na Susak, mali pješčani otok kod Lošinja. Govor Suska poznat je u cijeloj Hrvatskoj: ljudi s drugih otoka teško ga razumiju, a prepoznatljiv je već nakon nekoliko riječi.\n\nNa Susku danas živi stotinjak ljudi. Prije sedamdeset godina mnogi su otišli u Ameriku, gotovo svi u isti kraj na istočnoj obali. Ondje su radili, osnovali obitelji i ostali.\n\nU luci je Srebrenka upoznala Ostrimira. Četrdeset godina radio je u Americi, a na otok se vratio kad je otišao u mirovinu.\n\n— Zašto ste se vratili? — pitala ga je.\n\n— Nostalgija — rekao je kratko. — U Americi sam imao kuću, posao i prijatelje. Ali nostalgija ne pita što imaš. Svake noći sanjao sam ovaj pijesak.\n\nEngleski je Ostrimir govorio tečno, a kod kuće je i dalje govorio samo govorom svog otoka. Srebrenka ga je pitala je li mu tečnost u engleskom ikad smetala.\n\n— Nikad — rekao je. — Smetalo mi je nešto drugo. Moja djeca govore engleski bolje od mene, ali naš govor nisu naučili.\n\nIspričao joj je da se u Americi odmah učlanio u udrugu ljudi sa Suska. Svake subote nalazili su se u maloj dvorani, kuhali i razgovarali samo govorom otoka. Djecu su također učlanili u udrugu, ali djeca su na sastancima uglavnom šutjela.\n\nSrebrenka je uključila mikrofon i zamolila ga da priča o svom djetinjstvu. Pričao je o ribarenju, o vinogradima u pijesku i o tome kako su djeca nosila vodu s bunara. Srebrenka je pažljivo slušala vokale. U govoru Suska mnogi dugi vokali ne zvuče kao jedan glas, nego kao dva. Zato je taj govor tako prepoznatljiv: dovoljno je čuti kako netko izgovori riječ „more“ ili „kuća“.\n\nPosebno su je zanimali nepravilni glagoli. Ostrimir je za isti glagol upotrebljavao oblike koje nije mogla predvidjeti nikakvim pravilom. Kad je to rekla, on se nasmijao.\n\n— U Americi su mi govorili da je engleski težak jer ima nepravilan glagol na svakom koraku — rekao je. — Neka dođu na Susak.\n\nSnimali su pet dana, svako jutro po dva sata. Srebrenka je snimke spremila u arhiv instituta, a pod okriljem instituta postavljene su i na internet, besplatno, za sve koji ih žele slušati.\n\nMjesec dana kasnije Ostrimir joj je poslao pismo. Njegova unuka u Americi slušala je snimke i počela učiti govor svog djeda. Pisao je da je djevojka još daleko od prave tečnosti, ali da su njeni vokali već prepoznatljivi kao vokali sa Suska.\n\nPitanja:\nPod čijim okriljem Srebrenka snima govore?\nSnima ih pod okriljem jednog instituta u Zagrebu.\nZašto se Ostrimir vratio na Susak?\nVratila ga je nostalgija: svake je noći sanjao pijesak svog otoka.\nU što se Ostrimir učlanio u Americi?\nUčlanio se u udrugu ljudi sa Suska.\nPo čemu je govor Suska prepoznatljiv?\nMnogi dugi vokali ne zvuče kao jedan glas, nego kao dva.\nŠto je Srebrenku posebno zanimalo?\nPosebno su je zanimali nepravilni glagoli.\nŠto je napravila unuka iz Amerike?\nPočela je slušati snimke i učiti govor svog djeda."
+    },
+    {
+      "title": "Teatar u kombiju",
+      "summary": "Bilomir and Vidoslava take their travelling puppet theatre to a village near Đakovo, sweep out the old fire station, have the squeaking door oiled, let the energetic children line up the chairs and play a show about a fisherman's lost net.",
+      "newWords": [
+        "teatar",
+        "odazvati",
+        "naočit",
+        "mesti",
+        "iritirati",
+        "poredati",
+        "energičan"
+      ],
+      "text": "Bilomir i Vidoslava imaju mali putujući teatar lutaka. Cijeli njihov teatar stane u jedan stari kombi: drvena pozornica, plava zavjesa, dvadeset lutaka, dva reflektora i kutija s alatom. Svako ljeto obilaze sela u Slavoniji, gdje djeca rijetko imaju priliku vidjeti predstavu.\n\nU lipnju im je pisala učiteljica iz jednog malog sela kraj Đakova. Napisala je da u selu nema dvorane, ali da postoji stari vatrogasni dom, i pitala ih mogu li doći. Bilomir i Vidoslava odmah su se odazvali. Dosad su se odazvali svakom pozivu iz malog sela, jer su znali da do takvih sela drugi teatar ne dolazi.\n\nKljuč doma donio im je stari vatrogasac, visok i naočit muškarac sijede brade. Otključao je vrata, koja su glasno zaškripala. U domu je bilo mnogo prašine, a na podu suho lišće.\n\n— Ja ću mesti — rekla je Vidoslava i uzela metlu iz kuta. — Ti postavi pozornicu.\n\nDok je Vidoslava mela, Bilomir je s vatrogascem nosio drvene dijelove iz kombija. Vrata su škripala svaki put kad bi ih otvorili. Bilomira je to jako iritiralo.\n\n— Ništa me ne iritira kao vrata koja škripe — rekao je. — A za vrijeme predstave škripa se čuje u svakom redu.\n\nVatrogasac se nasmiješio, otišao kući i vratio se s kanticom ulja. Namazao je šarke i vrata su utihnula.\n\nU pet sati počela su dolaziti djeca. Bilo ih je trideset, a s njima i nekoliko roditelja i baka. Bilomir je zamolio djecu da sama poredaju stolice.\n\n— Poredajte ih u pet redova — rekao je. — Najmanji naprijed, najveći straga.\n\nDjeca su bila energična i glasna, a za nekoliko minuta stolice su stajale u redovima, iako ne baš ravno.\n\nPredstava je bila o mladom ribaru koji traži izgubljenu mrežu. Lutka ribara bila je naočit mladić s crvenom kapom, a pomagala mu je energična baka koja je stalno trčala i vikala. Djeca su se smijala svaki put kad bi se baka pojavila. Kad je ribar napokon našao mrežu, svi su pljeskali.\n\nNakon predstave djeca nisu htjela kući. Ostala su gledati kako Bilomir sprema lutke. Nekoliko djevojčica uzelo je metle iz kuta i počelo mesti pod, kao što je prije predstave radila Vidoslava.\n\n— Kad ćete opet doći? — pitao je jedan dječak.\n\n— Ako nas opet pozovete, opet ćemo se odazvati — rekla je Vidoslava.\n\nKad su krenuli, vatrogasac im je mahao s vrata. Vrata više nisu škripala.\n\nPitanja:\nŠto stane u kombi Bilomira i Vidoslave?\nU kombi stane cijeli njihov teatar: pozornica, zavjesa, lutke, reflektori i kutija s alatom.\nZašto su se odazvali pozivu učiteljice?\nOdazvali su se jer do takvih malih sela drugi teatar ne dolazi.\nTko je donio ključ doma?\nDonio ga je stari vatrogasac, visok i naočit muškarac sijede brade.\nŠto je iritiralo Bilomira?\nIritiralo ga je što vrata škripe.\nKako je Bilomir rekao djeci da poredaju stolice?\nRekao im je da ih poredaju u pet redova, najmanji naprijed, a najveći straga.\nŠto su djevojčice napravile nakon predstave?\nUzele su metle i počele mesti pod."
+    },
+    {
+      "title": "Prvi let za Toronto",
+      "summary": "The flight attendant Svitana looks after Perunika, a woman of seventy-five flying to her son in Canada for the first time, who has rushed across Frankfurt airport and lost her jar of ajvar at security; the airline later rewards Svitana.",
+      "newWords": [
+        "stjuardesa",
+        "tijesan",
+        "jurnjava",
+        "sažaliti",
+        "rastužiti",
+        "nagrađivati"
+      ],
+      "text": "Svitana je stjuardesa već dvanaest godina. Kad je bila djevojčica, mislila je da je stjuardesa netko tko stalno putuje u daleke gradove. Danas zna da je to netko tko po devet sati hoda tijesnim prolazom između sjedala, s kolicima punim kave i čaja. Ipak, svoj posao voli. Najviše voli putnike koji lete prvi put.\n\nTog je jutra letjela iz Frankfurta za Toronto. Na ulazu u avion zaustavila se jedna starija žena s malom torbom. Bila je crvena u licu i jedva je disala.\n\n— Jesam li stigla? — pitala je na hrvatskom. — Je li ovo avion za Toronto?\n\nZvala se Perunika i letjela je iz jednog sela kraj Sinja k sinu i unucima, koji žive u Kanadi. Avion iz Zagreba kasnio je sat vremena, pa je u Frankfurtu morala trčati od jednog kraja zračne luke do drugog. Za ženu od sedamdeset i pet godina to je bila prava jurnjava: pokretne stepenice, dugi hodnici, kontrola putovnica i opet hodnici. Jurnjava je završila tek na vratima aviona.\n\nSvitana se sažalila na nju. Uzela joj je torbu, odvela je do sjedala i donijela joj čašu vode. Perunika je sjela i uzdahnula. Sjedalo je bilo uz prozor, u tijesnom redu od tri mjesta.\n\n— Sve je tako malo — rekla je. — Mislila sam da je avion velik kao kuća.\n\nKad su poletjeli, Svitana je primijetila da je Perunika tužna. Pitala ju je je li joj zlo.\n\n— Nije — rekla je Perunika. — Nego su mi u Zagrebu na kontroli uzeli staklenku ajvara. Sama sam ga napravila za sina. Rekli su da se tekućina ne smije nositi. Ni sama ne znam zašto me to toliko rastužilo.\n\nSvitana je razumjela. I nju bi rastužilo kad bi joj netko uzeo ono što je satima pripremala. Sažalila se na staru ženu još jednom i otišla prema kraju aviona. Ondje je bio jedan potpuno prazan red. Vratila se i pozvala Peruniku da sjedne ondje, gdje ima više mjesta i gdje može ispružiti noge.\n\nTijekom leta Svitana joj je često dolazila. Donijela joj je deku, ručak i kavu. Objasnila joj je kako se gleda film na malom ekranu i kako će u Torontu proći kontrolu.\n\nPred slijetanje Perunika joj je dala malu vrećicu suhih smokava.\n\n— Ovo nisu uzeli — nasmijala se. — Ajvar ću sinu napraviti ovdje.\n\nMjesec dana kasnije Svitana je dobila pismo preko kompanije. Sin starije žene napisao je kompaniji da je njegova majka sletjela sretna i odmorna. Kompanija svake godine nagrađuje članove posade koje putnici posebno pohvale. Te je godine među njima bila i Svitana. Ona je ipak rekla da joj je najveća nagrada bila vrećica smokava.\n\nPitanja:\nKoliko je godina Svitana stjuardesa?\nSvitana je stjuardesa već dvanaest godina.\nZašto je Perunika morala trčati u Frankfurtu?\nAvion iz Zagreba kasnio je sat vremena, pa je to bila prava jurnjava do drugog aviona.\nKako je Svitana pomogla staroj ženi na ulazu u avion?\nSažalila se na nju, uzela joj torbu, odvela je do sjedala i donijela joj vode.\nŠto je Peruniku rastužilo?\nRastužilo ju je što su joj na kontroli uzeli staklenku ajvara.\nGdje je Perunika na kraju sjedila?\nSjedila je u praznom redu na kraju aviona, gdje ima više mjesta nego u tijesnom redu uz prozor.\nKoga kompanija nagrađuje?\nKompanija nagrađuje članove posade koje putnici posebno pohvale."
+    },
+    {
+      "title": "Kolumna: Vodič u džepu",
+      "summary": "A columnist remembers the thick guidebook that was her only support at twenty, the little province it dismissed and she loved, and weighs guidebooks, online reviews, superior 'real travellers' and a friend's call to travel with no guide at all.",
+      "newWords": [
+        "oslonac",
+        "pokrajina",
+        "neodlučan",
+        "nepristran",
+        "sumnjičiti",
+        "udruživati",
+        "nadmoćan",
+        "kontroverzan"
+      ],
+      "text": "Kolumna: Vodič u džepu\n\nKad sam prvi put putovala sama, imala sam dvadeset godina, ruksak i debeli vodič kroz Italiju. Taj mi je vodič bio jedini oslonac. U njemu sam tražila vlakove, jeftine sobe, muzeje i restorane, a navečer sam crvenom olovkom označavala ono što sam vidjela. Danas putujem s mobitelom. Mobitel je postao oslonac milijunima putnika, a debeli vodiči stoje u knjižnicama i skupljaju prašinu.\n\nNe žalim za starim vodičima. Ipak, nešto sam od njih naučila. U onom vodiču jedna mala pokrajina na jugu Italije dobila je samo pola stranice. Autor je napisao da ondje „nema mnogo toga vidjeti“. Bila sam neodlučna. Imala sam slobodan dan i kartu za autobus, ali vodič mi je govorio da ne idem. Na kraju je neodlučna djevojka ipak sjela u autobus. U toj sam pokrajini provela najljepša tri dana tog ljeta: maleni gradovi na brdima, starica koja me pozvala na ručak, more bez ijednog turista.\n\nTada sam prvi put shvatila da nijedan vodič nije nepristran. Svaki autor ima svoj ukus, svoje umorne dane i svoje loše ručkove. Dugo sam nakon toga sumnjičila autore vodiča da pišu samo o onome što su sami voljeli. Danas na isti način sumnjičim recenzije na internetu. Nije ni internet nepristran, samo je glasniji.\n\nPutnici se danas udružuju u velike skupine na internetu. Udružuju se da bi dijelili savjete, zajedno unajmili auto ili našli društvo za planinarenje. To je dobro. Ali u tim skupinama često čujem i nadmoćan ton. Iskusni putnici pišu o „običnim turistima“ kao da su ljudi drugog reda. Turist, kažu, slijedi vodič, a pravi putnik ide kamo ga srce vodi. Taj nadmoćan ton nikad mi se nije sviđao. I turist i putnik žele isto: vidjeti nešto novo i vratiti se kući malo drukčiji.\n\nJedan moj prijatelj ima kontroverzan prijedlog. Kaže da bi se na put trebalo ići bez ikakvog vodiča i bez mobitela. Neka čovjek pita ljude na ulici, neka se izgubi i neka pogriješi. Njegov je prijedlog kontroverzan i mnogi se s njim ne slažu. Ja se slažem napola.\n\nVodič je dobar kao oslonac, ali ne bi smio odlučivati umjesto nas. Neka nam kaže kada vozi zadnji autobus i gdje je ljekarna. Ali kad se kolebamo, kad smo neodlučni ostati ili poći, neka odluči naše vlastito oko. Možda nas i danas, u nekoj maloj pokrajini koju je netko opisao u pola rečenice, čekaju najljepša tri dana ovog ljeta.\n\nPitanja:\nŠto je autorici bio jedini oslonac na prvom putovanju?\nJedini oslonac bio joj je debeli vodič kroz Italiju.\nŠto je vodič napisao o maloj pokrajini na jugu Italije?\nNapisao je da ondje nema mnogo toga vidjeti.\nZašto autorica misli da nijedan vodič nije nepristran?\nSvaki autor ima svoj ukus, svoje umorne dane i svoje loše ručkove.\nZašto se putnici udružuju na internetu?\nUdružuju se da bi dijelili savjete, zajedno unajmili auto ili našli društvo.\nKoji ton smeta autorici u tim skupinama?\nSmeta joj nadmoćan ton iskusnih putnika prema običnim turistima.\nKakav je prijedlog njenog prijatelja?\nKontroverzan: na put bi trebalo ići bez vodiča i bez mobitela."
+    },
+    {
+      "title": "Pisma s kraja svijeta",
+      "summary": "A museum on Brač shows the letters that Bjelan wrote to his sister Zvjezdislava from Punta Arenas after 1906: he describes the dazzling snow, sets up a repair workshop, sends money for her dowry and for five hundred olive trees, and tells of his own modest wedding.",
+      "newWords": [
+        "miraz",
+        "blještav",
+        "domišljat",
+        "srdačan",
+        "petsto",
+        "ženidba",
+        "privrženost"
+      ],
+      "text": "U malom muzeju na Braču ovog je ljeta otvorena izložba pisama. Napisao ih je Bjelan, mladić iz jednog sela iznad Supetra, koji je 1906. otišao na drugi kraj svijeta, u Punta Arenas, grad na samom jugu Južne Amerike. Pisma je sedamnaest godina slao svojoj sestri Zvjezdislavi. Ona ih je sve sačuvala, a njeni su ih unuci prošle godine poklonili muzeju.\n\nBjelan je otišao kad mu je bilo osamnaest godina. Bolest je tih godina uništila gotovo sve vinograde na otoku i obitelj je ostala bez prihoda. Otac nije imao novca ni za kruh, a kamoli za miraz. Zvjezdislava je imala šesnaest godina i bez miraza teško bi se mogla udati. Bjelan je obećao da će joj on skupiti miraz.\n\nPrvo pismo napisao je na brodu. Plovio je dva mjeseca. Opisao je ocean, valove visoke kao kuće i, na kraju puta, planine prekrivene snijegom. „Snijeg je ovdje tako blještav da u njega čovjek ne može dugo gledati“, pisao je. „Ni naše more ljeti nije tako blještavo.“\n\nU Punta Arenasu radio je u luci, istovarivao je ugljen i brašno. Bio je domišljat mladić. Primijetio je da mornari s velikih brodova nemaju gdje popraviti cipele i odjeću, pa je kupio iglu, konac i malo kože i počeo ih popravljati navečer, nakon posla. Za dvije godine imao je malu radionicu u blizini luke. Domišljat i marljiv, svaki je mjesec nešto novca slao kući.\n\nSva pisma završavala su istim riječima: „Srdačan pozdrav ocu, majci i tebi, sestro.“ Ponekad bi dodao i srdačne pozdrave susjedima, svakome po imenu. U pismima nema mnogo pritužbi, iako je život na hladnom jugu bio težak. Ima mnogo pitanja: je li kiša pala na vrijeme, kako je stara smokva iza kuće, je li Zvjezdislava naučila čitati bolje nego on.\n\nGodine 1910. poslao je novac za sestrin miraz. Ostatak je bio za zemlju. Otac je kupio njivu iznad sela i zasadio na njoj petsto mladih maslina. „Neka tih petsto maslina raste za sve nas“, pisao je Bjelan. Zvjezdislava se iduće godine udala, s mirazom od kojeg je mogla kupiti tkalački stan i namještaj.\n\nDvije godine kasnije stiglo je pismo o njegovoj ženidbi. Oženio se djevojkom iz Pučišća, koja je s obitelji također živjela u Punta Arenasu. „Ženidba je bila skromna, ali vesela“, pisao je. „Pjevali smo naše pjesme i bilo je kao da smo kod kuće.“\n\nBjelan se nikad nije vratio na Brač. Ipak, njegova pisma pokazuju veliku privrženost obitelji i otoku. U posljednjem pismu, iz 1923., pita koliko je ulja dalo petsto maslina. Ta privrženost dirnula je mnoge posjetitelje izložbe. Masline koje je otac zasadio i danas rastu iznad sela, a njihovo ulje i danas se prodaje u Supetru.\n\nPitanja:\nZašto je Bjelan otišao s Brača?\nBolest je uništila vinograde, obitelj je ostala bez prihoda, a otac nije imao novca za sestrin miraz.\nKako je Bjelan opisao snijeg u Južnoj Americi?\nNapisao je da je snijeg tako blještav da se ne može gledati.\nKako je pokazao da je domišljat?\nPrimijetio je da mornari nemaju gdje popraviti cipele i odjeću, pa ih je počeo popravljati.\nKojim su riječima završavala njegova pisma?\nZavršavala su riječima: „Srdačan pozdrav ocu, majci i tebi, sestro.“\nŠto je otac zasadio novcem koji je Bjelan poslao?\nZasadio je petsto mladih maslina.\nŠto je Bjelan pisao o svojoj ženidbi?\nPisao je da je ženidba bila skromna, ali vesela."
+    },
+    {
+      "title": "Godina na ledu",
+      "summary": "The microbiologist Kremislav spends a year at an Antarctic research station built on stilts, collects swabs from bare rock for clues to the origin of life, eats one awful pea soup, loses a darts play-off to the doctor and finds a new organism back in Zagreb.",
+      "newWords": [
+        "konstruirati",
+        "bris",
+        "nastanak",
+        "stolar",
+        "brojač",
+        "oduran",
+        "pikado",
+        "doigravanje"
+      ],
+      "text": "Mikrobiolog Kremislav proveo je godinu dana na jednoj međunarodnoj istraživačkoj postaji na Antarktici. Na postaji je živjelo četrnaest ljudi iz osam zemalja: šest znanstvenika, liječnica, kuhar, tri tehničara, dva mehaničara i jedan stolar, Hrastimir iz Delnica.\n\nPostaja je stajala na ledu, daleko od obale. Inženjeri su je konstruirali tako da stoji na visokim čeličnim nogama, kako je snijeg ne bi zatrpao. Vjetar je prolazio ispod zgrade i odnosio snijeg dalje. Svaki dio postaje bio je konstruiran tako da se može rastaviti i prenijeti na novo mjesto.\n\nKremislav je istraživao sitne organizme koji žive u ledu i na golim stijenama. Svako jutro, kad je vrijeme dopuštalo, odlazio je s pomoćnikom do stijena udaljenih dva kilometra. Ondje je uzimao brisove: sterilnim štapićem prešao bi preko kamena, stavio štapić u malu bočicu i zapisao mjesto i vrijeme. Do kraja godine skupio je više od tristo brisova.\n\n— Zašto je to toliko važno? — pitao ga je jednom Hrastimir.\n\n— Ti organizmi žive ondje gdje gotovo ništa ne može živjeti — objasnio je Kremislav. — Možda nam mogu reći nešto o nastanku života na Zemlji. Ili o tome kako bi život mogao izgledati na nekom drugom planetu. Nastanak života i dalje je jedno od najvećih pitanja znanosti.\n\nHrastimir je bio jedini stolar na postaji, ali popravljao je sve: vrata, police, stolice, pa i Kremislavove drvene kutije za bočice. Stolar na Antarktici, govorio je, mora znati raditi s malo drva i puno strpljenja.\n\nNa zidu blagovaonice visio je veliki brojač. Pokazivao je koliko je dana ostalo do dolaska broda koji će ih vratiti kući. Svako jutro netko bi ga pomaknuo za jedan dan. Kad je brojač prvi put pokazao broj manji od sto, kuhar je ispekao tortu.\n\nKuhar se trudio, ali nije bilo lako. Svježe povrće stiglo je samo jednom, s avionom, a sve ostalo bilo je smrznuto ili sušeno. Jednom je skuhao juhu od sušenog graška koja je bila doista odurna. Svi su je pojeli do kraja, iz pristojnosti, a poslije su se mjesecima smijali „odurnoj večeri“.\n\nU dugoj polarnoj noći, kad sunca nije bilo tri mjeseca, najviše ih je zabavljao pikado. Hrastimir je od starih dasaka napravio novu ploču za pikado, s okvirom od hrastovine. Organizirali su turnir: svatko je igrao sa svakim, a četiri najbolja igrača otišla su u doigravanje. U doigravanju je Kremislav izgubio od liječnice, koja je cijelu zimu vježbala svake večeri. Pobijedio je kuhar, koji je o pikadu znao više nego o juhama.\n\nU studenom je brojač napokon pokazao nulu. Na obzoru se pojavio crveni brod. Kremislav je u njegov hladnjak spremio kutije s brisovima, a Hrastimir je ploču za pikado ostavio na zidu, za sljedeću posadu.\n\nŠest mjeseci kasnije, u laboratoriju u Zagrebu, Kremislav je pod mikroskopom pregledao jedan bris s najudaljenije stijene. U njemu je pronašao organizam koji dotad nitko nije opisao.\n\nPitanja:\nKako su inženjeri konstruirali postaju?\nKonstruirali su je tako da stoji na visokim čeličnim nogama, kako je snijeg ne bi zatrpao.\nKako je Kremislav uzimao brisove?\nSterilnim štapićem prešao bi preko kamena i stavio štapić u malu bočicu.\nZašto su ti organizmi važni?\nMožda nam mogu reći nešto o nastanku života na Zemlji.\nŠto je pokazivao brojač u blagovaonici?\nPokazivao je koliko je dana ostalo do dolaska broda.\nKakva je bila juha od sušenog graška?\nBila je odurna, ali su je svi pojeli iz pristojnosti.\nTko je pobijedio na turniru u pikadu?\nPobijedio je kuhar, a Kremislav je u doigravanju izgubio od liječnice."
+    }
+  ]
+}
