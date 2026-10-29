@@ -92,7 +92,7 @@ FALLBACKS = {
     "ka": {"leipzig": ["kat_wikipedia_2021_300K", "kat_news_2020_100K"]},
     "sq": {"leipzig": ["sqi_news_2020_1M", "sqi_wikipedia_2021_300K"]},
     "eu": {"leipzig": ["eus_wikipedia_2021_300K", "eus_news_2020_30K"]},
-    "eo": {"leipzig": ["epo_newscrawl_2017_1M", "epo_wikipedia_2021_300K"]},
+    "eo": {"leipzig": ["epo_newscrawl_2017_1M"]},
     "ko": {"leipzig": ["kor_news_2019_1M"]},
 }
 
@@ -119,6 +119,9 @@ BLEND = {"ko"}
 # Galician is counted from subtitles alone, as its list was first built (wordfreq has no Galician, and the Wikipedia
 # dump blended in after FrequencyWords would add encyclopaedic words).
 SOURCE_ORDER["gl"] = ["frequencywords"]
+# Esperanto is counted from subtitles and news alone: its Wikipedia, much of it pages made by bots, adds their words
+# ("municipo", "kantono", "asteroido") and its headings' ("ligilo", "referenco") to the first thousand.
+SOURCE_ORDER["eo"] = ["frequencywords", "leipzig"]
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}

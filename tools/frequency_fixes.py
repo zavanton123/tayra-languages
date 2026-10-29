@@ -1225,6 +1225,16 @@ _EXCLUDE_D = {
 
 # ---- Reviewed group E ----
 _OVERRIDES_E = {
+    # Esperanto: the conditionals the dictionary has as words of their own (povus "could") are their verbs'; the
+    # plurals it has as entries (multaj, kelkaj) are their words' (multa, kelka); words spelled like a verb's
+    # participle are no forms of it (kredito "credit" of kredi, formato "format" of formi).
+    "eo": {
+        "povus": ["povi"], "devus": ["devi"], "volus": ["voli"],
+        "multaj": ["multa"], "multan": ["multa"], "multajn": ["multa"],
+        "kelkaj": ["kelka"], "kelkan": ["kelka"], "kelkajn": ["kelka"],
+        "kredito": ["kredito"], "krediton": ["kredito"], "kreditoj": ["kredito"], "kreditojn": ["kredito"],
+        "formato": ["formato"], "formaton": ["formato"], "formatoj": ["formato"], "formatojn": ["formato"],
+    },
     # Finnish: personal pronouns kept apart (me/te/he were merged into minä/sinä/hän, minä into mikä);
     # lexicalised adverbs/conjunctions/postpositions that the dictionary lists as case forms of a more
     # common word (niin, näin, hyvin, vaan, joten, jälkeen, takaisin, ...) kept as words, and
@@ -1401,6 +1411,8 @@ _OVERRIDES_E = {
 }
 
 _EXCLUDE_E = {
+    # Esperanto: the language's name (filed under esperi, "to hope"), English "to", and "no" (an abbreviation of nordo).
+    "eo": {"esperanto", "esperanton", "to", "no"},
     # Finnish: English words, abbreviations and names.
     "fi": {"in", "to", "mm", "jan", "miettinen", "turku", "turun", "turussa", "turkuun", "turusta", "turkua", "tku"},
     # Hungarian: abbreviations, an English word and a bare suffix.
