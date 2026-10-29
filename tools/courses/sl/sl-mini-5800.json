@@ -1,0 +1,205 @@
+{
+  "id": "sl-mini-5800",
+  "rankUpTo": 5800,
+  "level": "C1",
+  "title": "Slovenski jezik",
+  "description": "Ten standalone texts about the Slovene language: a proofreader's column on commas, an interview with a children's book translator, a student recording old words, an e-mail from a Slovene teacher in Argentina, an economist learning Slovene, a column on foreign words in nutrition, a spa diary, a portrait of a sailor collecting sea words, a kindergarten newsletter and a report from a puppet theatre.",
+  "topic": "The Slovene language",
+  "names": [
+    "Dalija",
+    "Vrtovec",
+    "Odila",
+    "Grčar",
+    "Štupar",
+    "Ljubljana",
+    "Ljubljani",
+    "Ernej",
+    "Lapanja",
+    "Ria",
+    "Buenos Aires",
+    "Buenos Airesu",
+    "Argentina",
+    "Argentino",
+    "Slovenija",
+    "Sloveniji",
+    "Slovenije",
+    "Aldo",
+    "Ferretti",
+    "Padova",
+    "Padove",
+    "Indija",
+    "Indije",
+    "Brazilija",
+    "Brazilije",
+    "Kuštrin",
+    "Gala",
+    "Šavli",
+    "Ajdovščina",
+    "Ajdovščine",
+    "Mura",
+    "Muri",
+    "Muro",
+    "Arijana",
+    "Arijani",
+    "Ajka",
+    "Ajki",
+    "Dionizij",
+    "Bavdaž",
+    "Piran",
+    "Piranu",
+    "Sredozemlje",
+    "Sredozemlju",
+    "Amerika",
+    "Amerike",
+    "Evropa",
+    "Evropo",
+    "Loreta",
+    "Kerševan",
+    "Kamnik",
+    "Kamnika",
+    "Eman",
+    "Volčič",
+    "Ilka",
+    "Cimperman",
+    "Cimpermanova"
+  ],
+  "lessons": [
+    {
+      "title": "Kolumna: Vejica ni okras",
+      "summary": "A proofreader writes about the Slovene comma: it follows the structure of the sentence, not the breath; the guidelines are clear but few apply them consistently; she once found a gap in her own knowledge; spell-checkers cannot be relied on; and she explains why she aligns short texts only to the left.",
+      "newWords": [
+        "vejica",
+        "napotek",
+        "dosleden",
+        "vrzel",
+        "zanašati",
+        "poravnava",
+        "ironičen"
+      ],
+      "text": "Že petnajst let sem lektorica. Vsak dan berem besedila drugih ljudi: diplomske naloge, prošnje za službo, letna poročila podjetij, jedilnike in vabila na prireditve. Ko me znanci vprašajo, katera napaka je v slovenščini najpogostejša, ne razmišljam dolgo. To je vejica.\n\nMnogi pišejo vejice po občutku. Vejico postavijo tja, kjer bi pri glasnem branju naredili premor, in je ne postavijo tam, kjer premora ne slišijo. Toda slovenska vejica ne sledi dihanju, ampak zgradbi povedi. Osnovno pravilo je preprosto: vejica loči stavke. Zato jo pišemo pred »da«, »ker«, »ki«, »ko« in »ampak«, pa tudi takrat, ko odvisni stavek stoji na začetku povedi: »Ko sem prišla domov, sem skuhala kosilo.«\n\nPravopis ima za vejico jasne napotke. Napotki so kratki in razumljivi, a jih malokdo zares prebere. Tisti, ki jih prebere, jih pogosto ne upošteva dosledno. V istem besedilu enkrat napiše vejico pred »da«, drugič je ne. Takšno besedilo ni samo nepravilno. Zmede tudi bralca, ki ne ve več, ali ima vejica na nekem mestu pomen ali ne. Zato svojim avtorjem vedno rečem: bodite dosledni. Če ste dosledni, je vsako napako lažje najti in popraviti.\n\nKo sem začela delati, sem pri sebi odkrila veliko vrzel. Na fakulteti sem se naučila slovnice, o vejici pred »kot« pa nisem vedela skoraj nič. To vrzel sem zapolnila šele s pravopisom na mizi. Danes vem, da ima podobno vrzel večina ljudi in da je kriva tudi šola, ki vejici nameni le nekaj ur.\n\nDanes se mnogi zanašajo na računalnik. Program podčrta napačno zapisano besedo in včasih predlaga tudi vejico. Toda na vejice, ki jih predlaga, se ne moremo zanašati, saj program ne ve, kaj je pisec hotel povedati. Nekateri se zanašajo celo na to, da bo lektor vse popravil. Lektor bo res popravil napake, a besedilo je še vedno avtorjevo.\n\nPri delu ne urejam le jezika. Avtorji me pogosto prosijo, naj uredim tudi poravnavo besedila. Najraje imajo poravnavo na obe strani, ker je stran videti urejena. A pri takšni poravnavi med besedami v kratkih vrsticah nastanejo velike luknje, zato kratka besedila raje poravnam le na levo.\n\nPrijatelj mi je nekoč ironično rekel, da me napačna vejica razjezi bolj kot zamuda vlaka. Bil je ironičen, a je imel prav. Vejica ni okras. Ena sama vejica lahko spremeni pomen povedi: »Ne, pišite!« pomeni nekaj povsem drugega kot »Ne pišite!«\n\nVprašanja:\nKatera napaka je po mnenju lektorice v slovenščini najpogostejša?\nNajpogostejša napaka je vejica.\nPo čem mnogi pišejo vejice?\nPišejo jih po občutku, tja, kjer bi pri glasnem branju naredili premor.\nZakaj mora biti pisec dosleden?\nKer besedilo, v katerem vejice niso pisane dosledno, zmede bralca.\nKakšno vrzel je lektorica odkrila pri sebi?\nO vejici pred »kot« ni vedela skoraj nič.\nZakaj se na računalnik pri vejicah ne moremo zanašati?\nKer program ne ve, kaj je pisec hotel povedati.\nZakaj kratka besedila poravna le na levo?\nKer pri poravnavi na obe strani med besedami nastanejo velike luknje."
+    },
+    {
+      "title": "Intervju: Robot, ki govori slovensko",
+      "summary": "Translator Dalija Vrtovec explains how she translated a famous children's book about a little robot who learns a human language: she reshaped the jokes so they work in Slovene, used vivid Slovene idioms the robot takes literally, and listened to children so the girl's speech would sound genuine.",
+      "newWords": [
+        "mojstrovina",
+        "preoblikovati",
+        "slikovit",
+        "kreativen",
+        "pristen"
+      ],
+      "text": "Prevajalka Dalija Vrtovec je v slovenščino prevedla otroško knjigo o majhnem robotu, ki se uči človeškega jezika. Knjiga je izšla pred tremi meseci in je že razprodana. Z Dalijo Vrtovec smo se pogovarjali o tem, kako se prevaja knjiga, v kateri je vsaka druga stran igra z besedami.\n\n»Gospa Vrtovec, o čem govori knjiga?«\n\n»Glavni junak je majhen robot. Izdelal ga je star izumitelj, a ga ni naučil govoriti. Robot ne zna nobenega človeškega jezika, zato se ga uči od izumiteljeve vnukinje. Ves čas dela smešne napake, ker vse besede razume dobesedno.«\n\n»Kritiki pravijo, da je izvirnik mojstrovina. Ali vas to ni plašilo?«\n\n»Seveda me je plašilo. Ko prevajaš mojstrovino, se bojiš, da jo boš pokvaril. A mojstrovina ni nedotakljiva. Če jo prevedeš preveč zvesto, v drugem jeziku izgubi prav tisto, zaradi česar je mojstrovina.«\n\n»Zakaj je bil prevod tako zahteven?«\n\n»Ker so robotove napake v izvirniku vezane na angleške izraze. Če bi jih prevedla dobesedno, slovenski otroci ne bi razumeli, kaj je smešno. Zato sem morala mnoge prizore preoblikovati. Zgodbo sem ohranila, napake pa sem preoblikovala tako, da so vezane na slovenske izraze. Nekatere prizore sem preoblikovala tudi trikrat.«\n\n»Lahko navedete primer?«\n\n»Slovenščina je zelo slikovit jezik. Imamo veliko slikovitih izrazov, ki jih vsak otrok razume, čeprav niso logični. Rečemo, da nam je nekaj padlo na pamet. Moj robot to razume dobesedno in pogleda v nebo, da bi videl, kaj bo padlo nanj. Ko mu deklica reče, naj ji ne hodi na živce, se ji umakne s poti. Takšne slikovite izraze sem iskala cele tedne.«\n\n»Ali to ni že pisanje nove knjige?«\n\n»Prevajanje je vedno kreativno delo. Prevajalec mora biti kreativen, a ne sme pozabiti, da knjiga ni njegova. Avtorici sem pisala in ji razložila, kaj bom spremenila. Odgovorila mi je, da ima raje kreativen prevod kot zvest, a dolgočasen.«\n\n»Kako je z deklico, ki uči robota?«\n\n»Želela sem, da je njen govor pristen. Otroci takoj opazijo, če odrasel piše otroški govor, ne da bi ga kdaj zares poslušal. Zato sem več popoldnevov poslušala svojo hčer in njene prijatelje na igrišču. Pristen otroški govor ni knjižen v vsaki besedi, a je še vedno lepa slovenščina. Deklica v knjigi govori prav tako: pristno, živahno in brez napak.«\n\n»Kaj bi radi, da otroci odnesejo iz knjige?«\n\n»Da je materni jezik igrišče. Robot ga spoznava od začetka, otroci pa ga spoznavajo skupaj z njim.«\n\nVprašanja:\nO čem govori knjiga, ki jo je prevedla Dalija Vrtovec?\nGovori o majhnem robotu, ki se uči človeškega jezika.\nZakaj robot dela napake?\nKer vse besede razume dobesedno.\nZakaj je morala prevajalka prizore preoblikovati?\nKer so napake v izvirniku vezane na angleške izraze, ki jih slovenski otroci ne bi razumeli.\nKaj stori robot, ko sliši, da je nekaj padlo na pamet?\nPogleda v nebo, da bi videl, kaj bo padlo nanj.\nKakšen prevod ima raje avtorica?\nRaje ima kreativen prevod kot zvest, a dolgočasen.\nKako je prevajalka poskrbela, da je govor deklice pristen?\nPoslušala je svojo hčer in njene prijatelje na igrišču."
+    },
+    {
+      "title": "Stare besede nad sotesko",
+      "summary": "Ethnology student Odila Grčar drives through a gorge to a mountain village, where old Mrs Štupar welcomes her, shows her how wool was washed, combed and spun, and teaches her old words for the sprouts on stored potatoes, glad to have lived to see someone write her words down.",
+      "newWords": [
+        "soteska",
+        "pričakati",
+        "sijati",
+        "štirideset",
+        "volna",
+        "kal",
+        "obuditi"
+      ],
+      "text": "Odila Grčar študira na fakulteti v Ljubljani. Za nalogo je morala zbrati stare besede, ki jih mladi ne poznajo več. Profesor ji je svetoval, naj obišče kakšno vasico daleč od mesta, kjer ljudje še govorijo tako kot nekoč. Odila se je spomnila na gospo Štupar, staro prijateljico svoje babice, ki živi v majhni vasici nad sotesko.\n\nPot do vasi je vodila skozi ozko sotesko. V soteski je bilo hladno in temno, saj sonce tja ne seže niti poleti. Ko pa se je cesta dvignila nad sotesko, je bilo vse drugače. Sonce je sijalo na travnike, drevesa in strehe redkih hiš.\n\nGospa Štupar jo je pričakala pred hišo. Na klopi pod oknom je imela pripravljeno kavo in piškote. »Nisem mislila, da bom pričakala dan, ko bo nekdo iz mesta prišel po moje besede,« je rekla in se nasmehnila.\n\nNajprej sta govorili o ovcah. Ko je bila gospa Štupar mlada, je imela njena družina štirideset ovac. Vsako pomlad so ovce ostrigli, ženske pa so nato volno prale in predle. Gospa Štupar je predla volno štirideset let, vse do leta, ko so prodali zadnje ovce. Iz omare je prinesla nogavice iz volne, ki jih je pletla njena mama, in star kolovrat, ki še vedno deluje. Pokazala je, kako se volna vrti med prsti in postaja nit. Za vsak del kolovrata je imela posebno besedo in Odila je vse zapisala.\n\nNato sta šli v klet. Na lesenih policah je ležal krompir iz lanske jeseni. Pognal je dolge, bele kali. »Kali je treba odstraniti, preden krompir daš v zemljo,« je rekla gospa Štupar in za kal povedala staro besedo, ki je Odila še nikoli ni slišala. Tudi v slovarju je ni našla. Gospa Štupar je povedala, da so otroci včasih tekmovali, kdo bo našel najdaljšo kal.\n\nPri vsaki stvari, ki jo je vzela v roke, se je gospa Štupar česa spomnila. Vsaka beseda je v njej obudila spomine na mamo, na zimske večere ob peči in na sosede, ki so zvečer prihajali k njim prest. Odila je razumela, da stara beseda ne obudi le spominov, ampak tudi ljudi, ki so jo nekoč uporabljali.\n\nSkozi okno je sijalo že nizko sonce, ko je Odila zaprla zvezek. Zvečer se je poslovila. Obljubila je, da bo spet prišla in prinesla zapisane besede. Profesor ji je kasneje rekel, da je stare besede mogoče obuditi le, če jih ljudje spet začnejo uporabljati. Zato je Odila nekaj besed gospe Štupar zapisala tudi v svojo nalogo, ne le kot gradivo, ampak kot zgled.\n\nVprašanja:\nZakaj je Odila obiskala gospo Štupar?\nZa nalogo je morala zbrati stare besede, ki jih mladi ne poznajo več.\nKakšna je bila pot do vasi?\nVodila je skozi ozko, hladno in temno sotesko.\nKoliko ovac je imela družina gospe Štupar?\nImela je štirideset ovac.\nKaj so ženske delale z volno?\nVolno so prale in predle.\nKaj je bilo v kleti?\nNa policah je ležal krompir, ki je pognal dolge, bele kali.\nKaj je vsaka beseda obudila v gospe Štupar?\nObudila je spomine na mamo, na zimske večere in na sosede."
+    },
+    {
+      "title": "E-pošta iz Buenos Airesa",
+      "summary": "Ernej Lapanja, who teaches at a Saturday Slovene school in Buenos Aires, writes to his friend Ria about the descendants of Slovene emigrants, the school's register of families, the old-fashioned words he keeps discovering, what saddened him, and how he makes Slovene appealing to children through songs and games.",
+      "newWords": [
+        "rojak",
+        "register",
+        "odkrivati",
+        "potreti",
+        "privlačnost",
+        "jutrišnji"
+      ],
+      "text": "Draga Ria,\n\nže tri mesece sem v Buenos Airesu in šele zdaj ti pišem dolgo pismo. Oprosti. Kot veš, poučujem v sobotni šoli, kjer se potomci slovenskih izseljencev učijo slovenščine. Njihovi predniki so se v Argentino izselili pred davnimi leti, otroci pa so rojeni tukaj in doma večinoma govorijo špansko.\n\nRojaki so me sprejeli zelo lepo. Prvi teden sem bil vsak večer na večerji pri drugi družini. Tukajšnji rojaki govorijo slovenščino, ki zveni nekoliko starinsko, a je pravilna in lepa. Mnogi so se je naučili od svojih staršev in jo skrbno varujejo. Ko sem nekemu starejšemu rojaku rekel, da govori lepše kot marsikdo v Ljubljani, je bil zelo vesel.\n\nDruštvo, ki vodi šolo, ima register vseh družin, ki pošiljajo otroke k pouku. V registru je letos 120 imen. Ko sem register prvič pregledal, sem videl, da je bilo pred dvajsetimi leti imen skoraj dvakrat toliko. Učiteljica, ki je poučevala pred menoj, mi je povedala, da jo je to zelo potrlo. Tudi mene je potrlo, ko so mi nekateri starši povedali, da se otroci pred sošolci včasih sramujejo slovenščine. A potrtost ne pomaga, zato sem se odločil, da bom raje iskal rešitve.\n\nVsak dan odkrivam nove besede. Tukajšnji rojaki uporabljajo besede, ki jih doma ne slišimo več, in tudi takšne, ki so jih ustvarili sami za stvari, ki jih v Sloveniji ni. Zapisujem si jih v zvezek. Še bolj zanimivo pa je opazovati otroke, ki odkrivajo slovenščino. Ne odkrivajo je kot predmet, ampak kot skrivni jezik, ki ga razumejo le oni in njihove babice.\n\nZato me najbolj zanima, kaj je za otroka privlačnost jezika, ki ga govori tako malo ljudi tako daleč stran. Mislim, da je njegova privlačnost prav v tem, da je naš. Pojemo pesmi, igramo igre, ki jih igrajo otroci v Sloveniji, in pečemo pecivo po receptih njihovih prababic. Privlačnost slovenščine se ne skriva v slovnici, ampak v vsem, kar lahko z njo delamo skupaj.\n\nZdaj sedim v kuhinji in pripravljam jutrišnjo uro. Za jutrišnji pouk sem izbral pesem o kozi, ki jo vsi poznamo iz vrtca. Otroci se jo bodo naučili na pamet, potem pa jo bodo zapeli staršem. Ko boš imela čas, mi pošlji kakšno novo otroško pesem. Tukaj jih zelo potrebujemo.\n\nLepo te pozdravljam,\nErnej\n\nVprašanja:\nKje poučuje Ernej?\nPoučuje v sobotni šoli v Buenos Airesu.\nKako zveni slovenščina tukajšnjih rojakov?\nZveni nekoliko starinsko, a je pravilna in lepa.\nKaj je Ernej videl, ko je prvič pregledal register?\nVidel je, da je bilo pred dvajsetimi leti imen skoraj dvakrat toliko.\nKaj ga je potrlo?\nPotrlo ga je, da se otroci pred sošolci včasih sramujejo slovenščine.\nV čem je po Ernejevem mnenju privlačnost slovenščine za otroke?\nPrivlačnost je v tem, da je jezik njihov, in v vsem, kar lahko z njim delajo skupaj.\nKaj je izbral za jutrišnji pouk?\nIzbral je pesem o kozi, ki jo vsi poznajo iz vrtca."
+    },
+    {
+      "title": "Ekonomist, ki je hotel razumeti mehanika",
+      "summary": "Italian economist Aldo Ferretti, working at a Ljubljana bank's headquarters, chooses an evening Slovene course, finds the first months stressful, presents a report on youth unemployment in Slovene, and finally understands the mechanic at his car service when he explains the bill.",
+      "newWords": [
+        "ekonomist",
+        "centrala",
+        "klient",
+        "ponudnik",
+        "stresen",
+        "brezposelnost",
+        "servis",
+        "obračun"
+      ],
+      "text": "Aldo Ferretti je ekonomist iz Padove. Pred dvema letoma je prišel delat v centralo neke banke v Ljubljani. Centrala banke stoji v središču mesta, v visoki stavbi iz stekla. Sodelavci so ga sprejeli prijazno in z njim govorili angleško. Kmalu pa je opazil, da sodelavci med seboj govorijo slovensko in da se po sestankih pogovarjajo o stvareh, ki jih on ne razume. Opazil je tudi, da je vsak klient banke vesel, če mu kdo razloži stvari v njegovem jeziku. Odločil se je, da se bo naučil slovenščine.\n\nNa spletu je našel veliko ponudnikov jezikovnih tečajev. Nekateri ponudniki so ponujali hitre tečaje v enem mesecu, drugi pouk po spletu. Aldo je izbral ponudnika, ki je imel večerne ure v majhnih skupinah, dvakrat na teden. V njegovi skupini so bili še inženirka iz Indije, kuhar iz Brazilije in študentka iz Japonske.\n\nPrvo leto je bilo stresno. Aldo je bil vajen, da v službi vse razume in da je dober v svojem delu. Pri pouku pa je bil kot otrok, ki ne zna povedati, česa si želi. Najbolj stresno je bilo telefonirati, saj ni mogel videti obraza sogovornika. Učiteljica mu je svetovala, naj ne misli na napake. »Ko je situacija stresna, človek pozabi tudi tisto, kar zna,« je rekla. »Govorite počasi in brez strahu.«\n\nPo pol leta ga je vodja oddelka prosila, naj pripravi poročilo o brezposelnosti med mladimi v različnih slovenskih regijah. Kot ekonomist je o brezposelnosti vedel veliko, a o njej še nikoli ni govoril v slovenščini. Poročilo je napisal v angleščini, predstavitev pa je pripravil v slovenščini. Vadil jo je vsak večer. Ko je pred kolegi govoril o brezposelnosti, so ga poslušali brez prekinitve, na koncu pa so mu zaploskali.\n\nNajtežji preizkus pa ni bil v službi, ampak v servisu. Ko se mu je pokvaril avto, ga je odpeljal v manjši servis na robu mesta. Mehanik, gospod Kuštrin, je govoril hitro in v narečju. Aldo je razumel le vsako tretjo besedo. Ko je naslednji teden prišel po avto, mu je gospod Kuštrin dal obračun in mu razložil vsako postavko: novi zavorni ploščici, olje, filter in delo. Tokrat je Aldo razumel ves obračun in celo vprašal, zakaj je delo dražje kot lani.\n\n»Vi pa dobro govorite slovensko,« je rekel mehanik.\n\n»V banki se naučiš besede, v servisu pa jezika,« je odgovoril Aldo.\n\nDanes Aldo vsakemu klientu razloži stvari v slovenščini. Kadar ne ve kakšne besede, klienta prosi, naj mu jo pove. Vsak klient mu rad pomaga.\n\nVprašanja:\nKam je prišel delat Aldo Ferretti?\nPrišel je delat v centralo neke banke v Ljubljani.\nZakaj se je odločil, da se bo naučil slovenščine?\nKer sodelavci med seboj govorijo slovensko in ker je vsak klient vesel, če mu kdo razloži stvari v njegovem jeziku.\nKaterega ponudnika tečajev je izbral?\nIzbral je ponudnika, ki je imel večerne ure v majhnih skupinah.\nKaj je bilo zanj najbolj stresno?\nNajbolj stresno je bilo telefonirati.\nO čem je pripravil poročilo?\nPripravil je poročilo o brezposelnosti med mladimi v različnih regijah.\nKaj se je zgodilo v servisu, ko je prišel po avto?\nMehanik mu je razložil obračun in Aldo ga je razumel v celoti."
+    },
+    {
+      "title": "Kolumna: Beljakovine, proteini in drugi tujci",
+      "summary": "A nutrition adviser writes about the foreign words that have pushed Slovene ones aside in gyms and on food labels: protein instead of beljakovine, the carbohydrates marathon runners load up on, cholesterol, processed food, weights and training volume, and the optimal amount of each.",
+      "newWords": [
+        "protein",
+        "hidrat",
+        "holesterol",
+        "maraton",
+        "predelan",
+        "optimalen",
+        "utež",
+        "volumen"
+      ],
+      "text": "Že dvajset let svetujem ljudem, kako naj se prehranjujejo. V tem času se ni spremenila le hrana na policah trgovin, ampak tudi jezik, s katerim o njej govorimo. Kot svetovalka za prehrano bi morala pisati o hrani, danes pa bom pisala o besedah.\n\nKo sem začela delati, so vsi govorili o beljakovinah. Danes v telovadnici skoraj nihče ne reče beljakovine. Mladi fantje in dekleta pijejo proteine, kupujejo proteinske ploščice in štejejo, koliko proteinov so pojedli. Beseda protein ni napačna, saj je mednarodna strokovna beseda. A slovenščina ima za to svojo besedo, ki jo razume vsak otrok: beljakovina. Ime je dobila po beljaku, saj je v jajčnem beljaku veliko beljakovin. Ne trdim, da je protein slaba beseda. Trdim le, da je škoda, če pozabimo na domačo.\n\nPri ogljikovih hidratih je zgodba drugačna. Tu domače besede nimamo, a ljudje strokovno besedo radi skrajšajo. Tekači, ki se pripravljajo na maraton, rečejo, da pred tekmo »nalagajo hidrate«, in mislijo na testenine, riž in kruh. Ko sem lani tekla svoj prvi maraton, sem tudi sama tri dni pred maratonom jedla več testenin, saj telo hidrate shrani kot zalogo energije. Za maraton jih potrebuje veliko.\n\nNekatere tuje besede so ostale tuje, ker domače nikoli ni bilo. Holesterol je tak primer. O holesterolu govorijo zdravniki, oglasi in sosedje na avtobusu. Malokdo pa ve, da holesterol telo potrebuje in da ga večino ustvari samo. Težava ni holesterol sam, ampak njegova previsoka raven.\n\nRada imam besedo predelan. Predelana hrana je hrana, ki je ne prepoznaš več, ko jo vzameš iz embalaže. Predelano meso, predelani sir in predelane žitne kosmiče lahko kupimo v vsaki trgovini. Beseda je slovenska, jasna in pove vse, kar moramo vedeti.\n\nV telovadnici je jezik še bolj pisan. Tam ne dvigujejo uteži, ampak »delajo z utežmi«, in trener ne govori o tem, koliko časa vadijo, ampak o volumnu treninga. Volumen je skupna teža, ki jo nekdo dvigne v enem treningu: teža uteži, pomnožena s številom ponovitev. Ko trener reče, da je volumen previsok, pomeni, da je bilo dela preveč.\n\nNajbolj priljubljena beseda zadnjih let pa je optimalen. Vsak želi optimalno količino beljakovin, optimalen spanec in optimalen trening. A optimalen pomeni le najboljši, kar je mogoče doseči v danih razmerah. Za vsakega človeka je optimalno nekaj drugega. In za jezik je optimalno, da uporabimo besedo, ki jo bralec razume.\n\nVprašanja:\nKatero besedo uporabljajo mladi v telovadnici namesto beljakovine?\nUporabljajo besedo protein.\nPo čem je dobila ime beseda beljakovina?\nIme je dobila po beljaku, saj je v jajčnem beljaku veliko beljakovin.\nKaj delajo tekači pred maratonom?\nJedo več testenin, riža in kruha, ker telo hidrate shrani kot zalogo energije.\nZakaj je holesterol ostal tuja beseda?\nKer domače besede zanj nikoli ni bilo.\nKaj je volumen treninga?\nTo je skupna teža, ki jo nekdo dvigne v enem treningu.\nKaj pomeni beseda optimalen?\nPomeni najboljši, kar je mogoče doseči v danih razmerah."
+    },
+    {
+      "title": "Dnevnik iz term",
+      "summary": "In a diary of her two weeks at a spa in north-eastern Slovenia, where she has back rehabilitation, Gala Šavli records the soft local speech of a physiotherapist and of a pregnant woman from a nearby village, an old dialect dictionary read on a rainy day, and the mosquitoes by the river Mura.",
+      "newWords": [
+        "terme",
+        "rehabilitacija",
+        "severovzhoden",
+        "nosečnica",
+        "komar"
+      ],
+      "text": "Ponedeljek\n\nDanes sem prispela v terme. Zdravnica mi je zaradi bolečin v hrbtu predpisala dva tedna rehabilitacije. Pot iz Ajdovščine je bila dolga, saj so terme v severovzhodnem delu Slovenije, moj dom pa je na zahodu. Iz okna sobe vidim ravnino, polja in v daljavi vrsto dreves ob Muri. V severovzhodnem kotu Slovenije še nisem bila nikoli. Sram me je, a je res.\n\nTorek\n\nPrvi dan rehabilitacije. Fizioterapevtka Arijana mi je pokazala vaje za hrbet. Govori mehko in počasi, z drugačnimi samoglasniki kot mi na Primorskem. Ko sem ji povedala, da jo komaj razumem, se je nasmehnila in rekla, da bo z mano govorila knjižno. Rekla sem ji, naj ne. Prišla sem po rehabilitacijo hrbta, a rada bi se naučila tudi kaj besed iz tega narečja.\n\nSreda\n\nV bazenu z vročo vodo vadi tudi skupina nosečnic. Ena izmed nosečnic, Ajka, je iz bližnje vasice. Pričakuje drugega otroka in na vadbo za nosečnice hodi vsako sredo. Ko sva se po vadbi greli v bazenu, mi je povedala, kako se v njihovem narečju reče hiši, vrtu in kruhu. Vse sem si zapisala v zvezek. Ajka pravi, da njena hči v vrtcu govori knjižno, doma pa v narečju, in da to ni nobena težava.\n\nČetrtek\n\nVes dan je deževalo, zato sem ostala v hiši. V knjižnici sem našla star slovar narečja in ga brala vse popoldne. Mnoge besede, ki mi jih je povedala Ajka, so bile v njem. Zvečer mi je Arijana pokazala, kako se v narečju reče dežju in vetru.\n\nPetek\n\nPo kosilu sem šla na sprehod do Mure. Reka je široka in mirna, ob njej pa raste gost gozd. Na nabrežju sem srečala starejšega gospoda, ki mi je dolgo pripovedoval o mlinih na reki. Kmalu so me obkrožili komarji. Gospod se je smejal in rekel, da so komarji ob Muri del pokrajine kakor mlini. Ko sem se vrnila v sobo, sem imela vse roke rdeče.\n\nSobota\n\nHrbet me boli manj. Arijana pravi, da je rehabilitacija uspešna, ker vaje delam vsak dan. Tudi v zvezku imam vsak dan več besed. Ko pridem domov, bom vadila oboje: vaje za hrbet in nove besede. Arijani in Ajki sem obljubila, da se bom vrnila v terme, a ne zaradi hrbta. Prišla bom poleti, ko bo ob Muri manj komarjev.\n\nVprašanja:\nZakaj je Gala prišla v terme?\nZdravnica ji je zaradi bolečin v hrbtu predpisala dva tedna rehabilitacije.\nV katerem delu Slovenije so terme?\nSo v severovzhodnem delu Slovenije.\nKaj je Gala želela poleg rehabilitacije?\nŽelela se je naučiti besed iz tega narečja.\nKdo je Ajka?\nAjka je nosečnica iz bližnje vasice, ki hodi na vadbo za nosečnice.\nKaj je Gala delala v četrtek, ko je deževalo?\nV knjižnici je našla star slovar narečja in ga brala vse popoldne.\nKaj se je zgodilo na sprehodu ob Muri?\nObkrožili so jo komarji."
+    },
+    {
+      "title": "Portret: Mornar, ki zbira besede",
+      "summary": "A portrait of retired Piran sailor Dionizij Bavdaž, who once loaded fish crates and carried timber on cargo ships and now repairs an old wooden sailing boat, hammering in every nail himself, while filling notebooks with the old seafaring words of the coast for the local maritime museum.",
+      "newWords": [
+        "jadro",
+        "nakladati",
+        "prevažati",
+        "zabiti",
+        "ročica",
+        "pribor",
+        "speljati",
+        "priteči"
+      ],
+      "text": "Dionizij Bavdaž se je rodil v Piranu, v hiši, ki stoji nekaj korakov od morja. Njegov oče je lovil ribe, in ko je bil Dionizij star dvanajst let, je že pomagal na pomolu. Vsako jutro je moral z drugimi dečki nakladati zaboje rib na vozove, ki so jih odpeljali v tovarno. »Nakladali smo, dokler nas niso bolele roke,« se spominja. »Za to smo dobili nekaj kovancev in kos kruha.«\n\nKo je odrasel, je odšel na morje. Trideset let je delal na tovornih ladjah. Z njimi so prevažali les, žito in stroje po vsem Sredozemlju in čez ocean. Najdlje je bil na ladji, ki je prevažala les iz Južne Amerike v Evropo. Danes ladje prevažajo predvsem zabojnike, a on se še spominja časov, ko so tovor nakladali ročno. Na morju je preživel več let kot na kopnem.\n\nDanes je Dionizij upokojen, a ne miruje. V majhni delavnici ob pristanišču popravlja staro leseno jadrnico, ki jo je kupil za malo denarja. Vsak žebelj je zabil sam. »Žeblja ne smeš zabiti prehitro, sicer les poči,« pravi in pokaže, kako ga je treba zabiti s tremi kratkimi udarci. Na steni visi ves njegov pribor: kladiva, žage in igle za jadra. Ta pribor je podedoval od očeta.\n\nJadro je naredil sam, iz debelega belega platna. Jadro je tako veliko, da ga lahko položi čez pol pomola. Je staro in sonce mu je vzelo barvo, a on pravi, da je boljše od novega. Krmilo barke ima leseno ročico, ki jo je naredil sam iz lesa stare češnje. Ko drži ročico, čuti vsak val.\n\nDionizij pa ne popravlja le jadrnice. Že deset let zbira besede, s katerimi so mornarji v Piranu poimenovali vse na barki: vrvi, jadra, vozle in vetrove. Mnoge so prišle iz beneškega narečja, druge so stare slovenske. Zapiše jih v debele zvezke in ob vsaki besedi nariše, kaj pomeni. Ko se je nabralo dvanajst zvezkov, jih je odnesel v pomorski muzej. V muzeju bodo besede izdali v posebni knjigi.\n\nKo je vreme lepo, Dionizij barko odpelje iz pristanišča. Speljati barko skozi ozek vhod v pristanišče ni lahko, saj je tam vedno veliko čolnov. A on jo je speljal že neštetokrat. Ko se na vhodu v pristanišče pokaže belo jadro, priteče na pomol vsaj nekaj radovednih otrok. Pritekli so tudi danes. Dionizij jih je povabil na krov in jim pokazal, kako se reče vsaki vrvi.\n\n»Če besed ne zapišemo, bodo izginile skupaj z nami,« pravi. »Morje bo ostalo, besede pa ne.«\n\nVprašanja:\nKaj je Dionizij delal kot deček?\nVsako jutro je moral nakladati zaboje rib na vozove.\nKaj so prevažali z ladjami, na katerih je delal?\nPrevažali so les, žito in stroje.\nZakaj žeblja ne smeš zabiti prehitro?\nKer les sicer poči.\nOd koga je podedoval svoj pribor?\nPodedoval ga je od očeta.\nKakšne besede zbira Dionizij?\nZbira besede, s katerimi so mornarji v Piranu poimenovali vse na barki.\nKaj se zgodi, ko se na vhodu v pristanišče pokaže belo jadro?\nPriteče nekaj radovednih otrok, ki jih Dionizij povabi na krov."
+    },
+    {
+      "title": "Obvestilo staršem: Mesec besed v vrtcu",
+      "summary": "In a newsletter to parents, kindergarten teacher Loreta Kerševan explains the month of favourite words, asks parents to check their children's hair for head lice, to bring clean sheets and enough nappies, and to bring clean cans and ice-cream sticks for a sustainability week in which children learn to sort rubbish and name it.",
+      "newWords": [
+        "uš",
+        "rjuha",
+        "plenica",
+        "smet",
+        "trajnosten",
+        "pločevinka",
+        "palčka"
+      ],
+      "text": "Spoštovani starši,\n\nv novembru bomo v naši skupini praznovali mesec besed. Vsak otrok bo vsak teden prinesel v vrtec eno besedo, ki jo ima rad, in nam povedal, zakaj mu je všeč. Besede bomo zapisali na velike liste in jih obesili na steno. Prosimo vas, da se z otrokom doma pogovorite o tem, katero besedo bo prinesel. Lahko je stara beseda, ki jo uporablja babica, ali beseda iz narečja, ki ga govorite doma.\n\nŽal moramo začeti z manj prijetno novico. Pri dveh otrocih iz naše skupine smo ta teden našli uši. Uši niso nevarne in niso znak slabe higiene, zelo hitro pa se širijo med otroki, ki se igrajo skupaj. Prosimo vas, da otrokom vsak večer pregledate lase. Če najdete uši, otroka umijte s posebnim šamponom iz lekarne in nam to sporočite. Otrok lahko v vrtec pride naslednji dan.\n\nZaradi uši bomo ta mesec pogosteje prali tudi posteljnino. Vsak otrok potrebuje za počitek svojo rjuho. Prosimo, da v petek odnesete rjuho domov in jo v ponedeljek prinesete nazaj čisto. Na rjuho napišite otrokovo ime, da se rjuhe ne zamenjajo.\n\nStarše najmlajših otrok prosimo, da prinesete dovolj plenic za ves teden. Ta mesec nam je plenic večkrat zmanjkalo. Plenice lahko pustite v otrokovi omarici.\n\nZadnji teden v novembru bo pri nas teden trajnostnega razvoja. Otroci se bodo učili, kako ravnati z odpadki, in spoznali, zakaj je trajnosten način življenja pomemben za vse nas. Naučili se bodo ločevati odpadke in se pogovarjali o tem, kaj se zgodi s smetmi, ko jih odpeljejo. Smet ni le smet: iz nekaterih smeti spet nastanejo nove stvari. Učili se bodo tudi besed, s katerimi poimenujemo različne vrste odpadkov.\n\nZa ustvarjanje potrebujemo vašo pomoč. Prosimo vas, da prinesete prazne in čiste pločevinke ter lesene palčke od sladoleda. Iz pločevink bodo otroci naredili lončke za barvice, iz palčk pa majhne hiške in ograje. Pločevinke morajo biti brez ostrih robov. Palčke lahko zbirate že zdaj.\n\nZahvaljujemo se vam za sodelovanje in vas lepo pozdravljamo.\n\nLoreta Kerševan, vzgojiteljica\n\nVprašanja:\nKaj bo vsak otrok prinesel v vrtec v mesecu besed?\nVsak teden bo prinesel eno besedo, ki jo ima rad.\nKaj so našli pri dveh otrocih?\nNašli so uši.\nKaj morajo starši narediti, če najdejo uši?\nOtroka morajo umiti s posebnim šamponom in to sporočiti v vrtec.\nZakaj naj starši na rjuho napišejo otrokovo ime?\nDa se rjuhe ne zamenjajo.\nKaj se bodo otroci učili v tednu trajnostnega razvoja?\nUčili se bodo ločevati odpadke in spoznali, kaj se zgodi s smetmi.\nKaj bodo otroci naredili iz pločevink in palčk?\nIz pločevink bodo naredili lončke za barvice, iz palčk pa hiške in ograje."
+    },
+    {
+      "title": "Reportaža: Pastir govori po starem",
+      "summary": "A report from a small puppet theatre in Kamnik, where director Eman Volčič stages a play about a shepherd living alone on a mountain pasture who speaks the old dialect of the area; designer Ilka Cimperman shows her sketches of the figures, the grid above the stage, and the play's novelty: children in the audience help the shepherd find the right words.",
+      "newWords": [
+        "teater",
+        "figura",
+        "skica",
+        "samota",
+        "rešetka",
+        "inovacija"
+      ],
+      "text": "V majhnem teatru v središču Kamnika te dni vadijo novo predstavo za otroke. Teater ima le osemdeset sedežev in oder, ki ni večji od dnevne sobe, a ima zvesto občinstvo. Vodja teatra in režiser Eman Volčič pravi, da je majhen teater kot družina: vsi se poznajo in vsak dela vse.\n\nNova predstava govori o pastirju, ki vse poletje živi sam na planini nad dolino. V samoti se pogovarja s kravami, z vetrom in z gorami. Govori v starem narečju, kakršno so nekoč govorili pastirji na tej planini. »Samota v predstavi ni žalostna,« pojasni Volčič. »Pastir v samoti ni osamljen. Ima čas, da opazuje svet in vsaki stvari da pravo ime.«\n\nV predstavi ne nastopajo igralci, ampak figure. V teatru jim tako pravijo, saj niso navadne lutke na nitkah. Vsako figuro vodi lutkar od zadaj, z rokami v njenem telesu. Figure je izdelala oblikovalka Ilka Cimperman. Najprej je narisala več kot sto skic. Na mizi v delavnici leži debela mapa s skicami pastirja, krav in ovčarskega psa. Na prvih skicah je bil pastir star in sključen, na zadnjih je mlad in vesel. »Skica pove, ali figura živi,« pravi Cimpermanova. »Če skica ne živi, tudi figura ne bo.«\n\nNad odrom je kovinska rešetka, na katero obesijo luči in platna. Rešetka je stara skoraj petdeset let in je del prvotne stavbe. Ko je tehnik pred predstavo splezal na rešetko, je zaškripala. »Še zdaj zdrži vse, kar obesimo nanjo,« se smeje Volčič.\n\nInovacija predstave pa ni na odru, ampak v dvorani. Pastir včasih pozabi besedo in prosi otroke za pomoč. Otroci mu povedo knjižno besedo, pastir pa jim nato pove, kako so ji rekli na planini. Tako otroci spoznavajo dve besedi hkrati. Volčič meni, da je ta inovacija preprosta, a deluje. »Otroci se smejijo, kričijo in hkrati se učijo,« pravi. »Na koncu predstave znajo več starih besed kot njihovi starši.«\n\nZa to inovacijo je teater letos prejel nagrado za izvirno lutkovno predstavo. Volčič pravi, da je nagrada lepa, a da mu več pomeni, ko otroci po predstavi pridejo k odru in pastirja vprašajo, kako se reče še kakšni stvari.\n\nPredstavo bodo prvič odigrali v soboto ob 10. uri, nato pa vsako soboto do konca zime.\n\nVprašanja:\nKako velik je teater v Kamniku?\nIma le osemdeset sedežev in majhen oder.\nO čem govori nova predstava?\nGovori o pastirju, ki vse poletje živi sam na planini.\nZakaj pastir v samoti ni osamljen?\nKer ima čas, da opazuje svet in vsaki stvari da pravo ime.\nKaj je oblikovalka naredila, preden je izdelala figure?\nNarisala je več kot sto skic.\nČemu služi rešetka nad odrom?\nNa rešetko obesijo luči in platna.\nV čem je inovacija predstave?\nPastir prosi otroke za pomoč, ko pozabi besedo, in jim pove, kako so ji rekli na planini."
+    }
+  ]
+}
