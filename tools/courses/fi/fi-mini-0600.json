@@ -1,0 +1,199 @@
+{
+  "id": "fi-mini-0600",
+  "rankUpTo": 600,
+  "level": "A2",
+  "title": "Vapaa-aika ja harrastukset",
+  "description": "Ten short stories about how people in Finland spend their free time: music, dance, sport, photography, berry picking, collecting, baking and film.",
+  "topic": "Free time and hobbies",
+  "names": [
+    "Arttu",
+    "Katri",
+    "Jarmo",
+    "Soile",
+    "Martti",
+    "Riitta",
+    "Savonlinna",
+    "Saimaa",
+    "Santeri",
+    "Ismo",
+    "Turku",
+    "Tuukka",
+    "Taneli",
+    "Reeta",
+    "Espoo",
+    "Nuuksio",
+    "Pinja",
+    "Viivi",
+    "Elmeri",
+    "Kasper",
+    "Oulu",
+    "Kuopio",
+    "Tuomo",
+    "Kirsti",
+    "Seinäjoki",
+    "Kuusamo",
+    "Senja",
+    "Patrik",
+    "Vaasa"
+  ],
+  "lessons": [
+    {
+      "title": "Uusi kappale",
+      "summary": "Arttu hears a new song and keeps trying it on his guitar until it sounds right.",
+      "newWords": [
+        "musiikki",
+        "kappale",
+        "kokeilla",
+        "kuulostaa",
+        "tykätä",
+        "eilen",
+        "melkein",
+        "jaksaa",
+        "tietysti",
+        "istua"
+      ],
+      "text": "Arttu tykkää musiikista. Hän soittaa kitaraa melkein joka päivä. Eilen hän kuuli uuden kappaleen. Kappale oli kaunis, ja Arttu halusi soittaa sen itse.\n\nEilen illalla Arttu istui kotona ja otti kitaran. Hän kokeili uutta kappaletta. Se ei kuulostanut hyvältä. Hän kokeili uudestaan. Nyt se kuulosti vähän paremmalta, mutta ei vielä hyvältä.\n\n”Jaksatko vielä?” Artun äiti kysyi.\n\n”Tietysti jaksan”, Arttu sanoi. ”Tämä on hyvä kappale. Haluan osata sen.”\n\nArttu soitti kappaletta tunnin. Kello oli melkein kymmenen. Sitten hän ei enää jaksanut, ja hän lopetti.\n\nTänään Arttu istuu taas kotona ja soittaa. Hän kokeilee kappaletta vielä kerran. Nyt se kuulostaa hyvältä! Hän soittaa sen äidilleen.\n\n”Kuulostaa hienolta”, äiti sanoo. ”Tykkään tästä kappaleesta.”\n\n”Minäkin tykkään”, Arttu sanoo. ”Eilen se ei kuulostanut hyvältä, mutta tänään se kuulostaa hyvältä.”\n\n”Soitatko sen vielä kerran?” äiti kysyy.\n\n”Tietysti”, Arttu sanoo. ”Musiikki on kivaa, mutta se on myös työtä.”\n\nKysymykset:\nMistä Arttu tykkää?\nArttu tykkää musiikista.\nMilloin Arttu kuuli uuden kappaleen?\nHän kuuli sen eilen.\nKuulostiko kappale hyvältä eilen illalla?\nEi, se ei kuulostanut vielä hyvältä.\nKuinka kauan Arttu jaksoi soittaa eilen?\nHän soitti tunnin, ja sitten hän ei enää jaksanut.\nMitä äiti sanoo tänään?\nÄiti sanoo, että kappale kuulostaa hienolta."
+    },
+    {
+      "title": "Uusi harrastus",
+      "summary": "In spring Katri hears about a dance group at work, phones its leader and tries dancing for the first time.",
+      "newWords": [
+        "kevät",
+        "tahansa",
+        "puhelin",
+        "ovi",
+        "kokea",
+        "työpaikka",
+        "yhteydessä",
+        "onneksi"
+      ],
+      "text": "On kevät, ja illat ovat pitkiä. Katri haluaa tehdä jotain uutta. Hän on töissä koko päivän, ja illalla hän on vain kotona.\n\nKatrin työpaikalla on mukava mies, Jarmo. Jarmo kertoo Katrille, että hän tanssii ryhmässä joka viikko.\n\n”Ryhmään voi tulla kuka tahansa”, Jarmo sanoo. ”Sinäkin voit tulla.”\n\n”Mutta minä en osaa tanssia”, Katri sanoo.\n\n”Ei se ole ongelma”, Jarmo sanoo. ”Ole yhteydessä Soileen. Hän vetää ryhmää.” Jarmo antaa Katrille Soilen numeron.\n\nIllalla Katri ottaa puhelimen ja soittaa Soilelle. Onneksi Soile vastaa heti.\n\n”Tule milloin tahansa”, Soile sanoo puhelimessa. ”Ryhmä tanssii huomenna kello 18.”\n\nSeuraavana päivänä Katri menee ryhmän luo. Hän jää oven eteen. Ovi on kiinni, ja Katri ei avaa sitä. Onneksi Jarmo tulee. Hän avaa oven, ja he menevät sisään yhdessä.\n\nSisällä on paljon ihmisiä. Musiikki alkaa. Katri tanssii ensimmäistä kertaa. Se on vaikeaa, mutta hauskaa. Katri kokee jotain uutta, ja hänellä on hyvä mieli.\n\n”Tuletko taas ensi viikolla?” Soile kysyy oven vieressä.\n\n”Tulen tietysti”, Katri sanoo. ”Tämän kevään paras ilta!”\n\nKysymykset:\nMitä Katri haluaa keväällä?\nHän haluaa tehdä jotain uutta.\nKuka kertoo Katrille ryhmästä?\nJarmo kertoo. Hän on Katrin työpaikalla.\nKuka voi tulla ryhmään?\nKuka tahansa voi tulla ryhmään.\nMiten Katri on yhteydessä Soileen?\nHän soittaa Soilelle puhelimella.\nKuka avaa oven?\nJarmo avaa oven.\nMitä Katri kokee illalla?\nHän kokee jotain uutta."
+    },
+    {
+      "title": "Lääkärin neuvo",
+      "summary": "Martti sits too much; the doctor tells him to move a little every day, and a month later he is stronger.",
+      "newWords": [
+        "lääkäri",
+        "liikkua",
+        "vahva",
+        "kanta",
+        "liikaa",
+        "lyhyt",
+        "nykyään",
+        "tarve",
+        "jälleen"
+      ],
+      "text": "Martti ei ole enää nuori. Nykyään hän istuu paljon. Aamulla hän istuu ja lukee lehteä. Päivällä hän istuu ja katsoo tv:tä. Illalla hän istuu taas.\n\nTänään Martti menee lääkäriin. Lääkäri kuuntelee häntä hetken.\n\n”Sinä istut liikaa”, lääkäri sanoo. ”Terveyden kannalta sinun pitää liikkua enemmän. Jokaisella ihmisellä on tarve liikkua.”\n\n”Mutta minä en ole enää vahva”, Martti sanoo.\n\n”Ei tarvitse olla vahva”, lääkäri sanoo. ”Liiku joka päivä vähän. Aloita lyhyillä matkoilla.”\n\nMartti alkaa liikkua. Ensin hän tekee vain lyhyen matkan kotoa kauppaan ja takaisin. Kauppa on lähellä, joten hän ei enää ota autoa. Autolle ei ole tarvetta.\n\nJoka viikko matka on vähän pidempi. Nykyään Martti liikkuu joka päivä. Hän on vahvempi kuin ennen, ja hänellä on hyvä mieli.\n\nKuukauden päästä Martti on jälleen lääkärissä.\n\n”Miten voit?” lääkäri kysyy.\n\n”Hyvin”, Martti sanoo. ”En enää istu liikaa. Liikun joka päivä, ja jalat ovat vahvemmat.”\n\n”Hyvä”, lääkäri sanoo. ”Sinun kannaltasi tämä on paras tapa. Tule jälleen puolen vuoden päästä.”\n\nKysymykset:\nMitä Martti tekee nykyään paljon?\nHän istuu paljon.\nMitä lääkäri sanoo?\nLääkäri sanoo, että Martti istuu liikaa ja hänen pitää liikkua enemmän.\nMikä tarve jokaisella ihmisellä on?\nJokaisella ihmisellä on tarve liikkua.\nMillaisilla matkoilla Martti aloittaa?\nHän aloittaa lyhyillä matkoilla.\nMilloin Martti on jälleen lääkärissä?\nHän on jälleen lääkärissä kuukauden päästä."
+    },
+    {
+      "title": "Aamun valo",
+      "summary": "Riitta gets up early to photograph an old white house by Lake Saimaa in the first light of the day.",
+      "newWords": [
+        "kuvata",
+        "valo",
+        "valkoinen",
+        "itä",
+        "suunta",
+        "kohde",
+        "aikaisin",
+        "alla",
+        "tietty"
+      ],
+      "text": "Riitta asuu Savonlinnassa. Hän tykkää kuvata. Hän ei tarvitse kameraa, koska hän kuvaa puhelimella.\n\nRiitta tietää, että valo on kaunis vain tiettyyn aikaan. Paras valo on aikaisin, kun päivä alkaa. Siksi hän nousee tänään aikaisin, jo kello 4.\n\nUlkona ei ole vielä ketään. Riitta menee Saimaalle. Hän katsoo itään. Idässä on jo vähän valoa. Pian päivä alkaa siitä suunnasta.\n\nLähellä on vanha valkoinen talo. Se on Riitan kohde tänään. Hän haluaa kuvata valkoisen talon, kun ensimmäinen valo tulee.\n\nRiitta istuu ison puun alla ja odottaa. Valo tulee idän suunnasta. Ensin sitä on vähän, sitten enemmän. Vanha valkoinen talo on nyt kuin uusi.\n\nNyt on oikea hetki. Riitta kuvaa talon monta kertaa. Hän kokeilee myös toista suuntaa ja kuvaa Saimaata.\n\nKello 6 Riitta katsoo kuviaan puun alla. Yksi kuva on tosi hieno. Siinä on valkoinen talo ja päivän ensimmäinen valo.\n\n”Hyvä, että nousin aikaisin”, hän sanoo itselleen. ”Ensi kerralla kuvaan toisen kohteen.”\n\nKysymykset:\nMillä Riitta kuvaa?\nHän kuvaa puhelimella.\nMiksi Riitta nousee aikaisin?\nKoska valo on kaunis vain tiettyyn aikaan.\nMistä suunnasta valo tulee?\nValo tulee idän suunnasta.\nMikä on Riitan kohde tänään?\nHänen kohteensa on vanha valkoinen talo.\nMissä Riitta odottaa?\nHän odottaa ison puun alla."
+    },
+    {
+      "title": "Liigan ottelu",
+      "summary": "Santeri and his father watch a league hockey game in Turku, and Santeri's favourite star scores two goals.",
+      "newWords": [
+        "liiga",
+        "tähti",
+        "tuhat",
+        "takana",
+        "päättyä",
+        "jatkua",
+        "kohti"
+      ],
+      "text": "Santeri tykkää jääkiekosta. Hänen joukkueensa pelaa liigassa. Lauantaina Santeri ja hänen isänsä Ismo menevät Turkuun. Siellä on liigan ottelu.\n\nPaikalla on paljon ihmisiä, yli kuusi tuhatta. Santerin ja Ismon paikat ovat maalin takana. Sieltä he näkevät pelin hyvin.\n\n”Kuka on joukkueen tähti?” Ismo kysyy.\n\n”Tuukka”, Santeri sanoo. ”Hän on koko liigan paras pelaaja. Minä tykkään hänestä paljon.”\n\nOttelu alkaa kello 18.30. Ensin toinen joukkue tekee maalin. Tuhannet ihmiset ovat hiljaa. Santerilla on paha mieli.\n\nPeli jatkuu. Sitten Tuukka saa kiekon. Hän lähtee nopeasti kohti maalia ja tekee maalin! Tuhannet ihmiset huutavat.\n\nOttelu jatkuu vielä pitkään. Molemmat joukkueet pelaavat hyvin. Viimeisellä minuutilla Tuukka lähtee taas kohti maalia. Hän tekee toisen maalin aivan Santerin ja Ismon lähellä.\n\nOttelu päättyy 2–1. Santerin joukkue voittaa. Kun ottelu päättyy, Tuukka katsoo Santerin ja Ismon suuntaan ja nostaa kätensä.\n\n”Mikä ilta!” Santeri sanoo. ”Tuukka on oikea tähti.”\n\n”Niin on”, Ismo sanoo. ”Ja meillä oli hyvät paikat maalin takana.”\n\nKysymykset:\nMissä liigan ottelu on?\nOttelu on Turussa.\nKuinka paljon ihmisiä paikalla on?\nPaikalla on yli kuusi tuhatta ihmistä.\nMissä Santerin ja Ismon paikat ovat?\nNe ovat maalin takana.\nKuka on joukkueen tähti?\nTuukka on joukkueen tähti.\nMiten ottelu päättyy?\nOttelu päättyy 2–1, ja Santerin joukkue voittaa."
+    },
+    {
+      "title": "Linja 245",
+      "summary": "Rain stops Taneli and Reeta's trip, so they move it to the next day and only just catch the bus to Nuuksio.",
+      "newWords": [
+        "linja",
+        "kulkea",
+        "saapua",
+        "ehtiä",
+        "tasa",
+        "kunnes",
+        "väli",
+        "estää",
+        "siirtää"
+      ],
+      "text": "Taneli ja Reeta asuvat Espoossa. He haluavat lähteä lauantaina Nuuksioon. Nuuksio on iso alue, ja siellä voi kulkea koko päivän.\n\nLauantaina on kuitenkin kova sade. Sade estää matkan.\n\n”Siirretään matka seuraavaan päivään”, Reeta sanoo.\n\n”Hyvä on”, Taneli sanoo. ”Toivon, että sade ei estä meitä silloin.”\n\nNuuksioon kulkee linja 245. Se lähtee Espoon keskustasta tasan kello 8. Se kulkee sinne tunnin välein.\n\nSeuraavana päivänä Taneli ja Reeta nousevat aikaisin. Nyt on kaunis päivä. Mutta kello on jo 7.40, ja Reeta ei löydä puhelintaan.\n\n”Ehdimmekö?” Reeta kysyy.\n\n”Ehdimme, jos lähdemme nyt”, Taneli sanoo. Onneksi puhelin on oven lähellä. He lähtevät nopeasti.\n\nHe ehtivät juuri. Linja 245 lähtee tasan kello 8. Se kulkee ensin kaupungin läpi ja sitten pieniä teitä. Kello 8.40 se saapuu Nuuksioon.\n\nTaneli ja Reeta kulkevat kahden järven välissä. He kulkevat pitkään, kunnes he haluavat syödä. Sitten he syövät ja katsovat järveä.\n\nKello 14.30 he lähtevät takaisin. Linja 245 lähtee tasan kello 15, ja he ehtivät hyvin. Kello 15.40 he saapuvat taas Espooseen.\n\nKysymykset:\nMikä estää matkan lauantaina?\nSade estää matkan.\nMihin päivään he siirtävät matkan?\nHe siirtävät matkan seuraavaan päivään.\nMikä linja kulkee Nuuksioon?\nLinja 245 kulkee Nuuksioon.\nEhtivätkö Taneli ja Reeta?\nKyllä, he ehtivät juuri.\nMihin aikaan linja 245 saapuu Nuuksioon?\nSe saapuu Nuuksioon kello 8.40.\nKuinka kauan he kulkevat?\nHe kulkevat, kunnes he haluavat syödä."
+    },
+    {
+      "title": "Marjoja metsästä",
+      "summary": "Pinja and Viivi pick berries in autumn; Viivi finds only leaves until Pinja shows her where the berries are.",
+      "newWords": [
+        "syksy",
+        "kerätä",
+        "pohja",
+        "yhtään",
+        "verran",
+        "pelkkä",
+        "sata",
+        "paitsi",
+        "varma"
+      ],
+      "text": "On syksy. Pinja ja hänen ystävänsä Viivi ovat Kuusamossa Pinjan isän talossa. Syksyllä metsässä on satoja marjoja. Tytöt haluavat kerätä niitä. Tämä on Viivin ensimmäinen kerta. He lähtevät heti ulos.\n\nPinja kerää nopeasti. Pian hänen kuppinsa pohjalla on paljon marjoja. Viivi kerää myös, mutta sitten hän katsoo kuppiaan. Siinä on pelkkiä lehtiä!\n\n”Minulla ei ole yhtään marjaa”, Viivi sanoo.\n\n”Oletko varma?” Pinja kysyy.\n\n”Olen varma”, Viivi sanoo. ”Pohjalla on vain lehtiä.”\n\nPinja auttaa Viiviä. ”Katso tänne”, hän sanoo. ”Ne ovat lehtien alla.”\n\nNyt Viivi löytää niitä. Hän ei enää kerää pelkkiä lehtiä. Tunnin päästä molemmilla on saman verran. Viivi on nyt hyvällä mielellä.\n\n”Hienoa!” Pinja sanoo.\n\n”Kerätäänkö vielä?” Viivi kysyy.\n\n”Ei tänään”, Pinja sanoo. ”Meillä on jo hyvä määrä. Mennään takaisin.”\n\nPinjan isä odottaa tyttöjä talossa. Illalla he syövät marjat yhdessä. Kaikki syövät, paitsi koira. Koira ei tykkää niistä.\n\n”Syksy on paras aika”, Viivi sanoo. ”Olen varma, että tulen ensi syksynä taas.”\n\nKysymykset:\nMitä metsässä on syksyllä?\nSiellä on satoja marjoja.\nMitä Viivillä on ensin?\nHänellä on pelkkiä lehtiä, ei yhtään marjaa.\nOnko Viivi varma?\nKyllä, hän on varma.\nMitä Pinja sanoo Viiville?\nHän sanoo: ”Ne ovat lehtien alla.”\nKenellä on enemmän tunnin päästä?\nMolemmilla on saman verran.\nSyövätkö kaikki illalla?\nKaikki syövät, paitsi koira."
+    },
+    {
+      "title": "Puuttuva kuva",
+      "summary": "Elmeri collects league players' pictures; one is missing, and an acquaintance, Kasper, swaps it for one he lacks.",
+      "newWords": [
+        "lista",
+        "puuttua",
+        "eräs",
+        "tyyppi",
+        "tuttu",
+        "hankkia",
+        "selvittää",
+        "toivottavasti",
+        "myöntää"
+      ],
+      "text": "Elmeri kerää kuvia. Hän kerää liigan pelaajien kuvia. Hänellä on lista, ja listalla on kaikki liigan pelaajat, yli 400.\n\nElmerillä on jo melkein kaikki kuvat. Häneltä puuttuu vain yksi kuva. Se on Oulun joukkueen tähden kuva.\n\nElmeri haluaa hankkia tämän kuvan. Mutta mistä? Kaupassa sitä ei ole. Elmeri selvittää asiaa. Hän kysyy kavereiltaan koulussa, mutta kukaan ei tiedä.\n\nEräänä päivänä Elmeri tapaa erään tutun. Hänen nimensä on Kasper. Kasper on mukava tyyppi, ja hänkin kerää kuvia.\n\n”Minulla on tuo kuva”, Kasper sanoo. ”Itse asiassa minulla on kaksi.”\n\n”Annatko yhden minulle?” Elmeri kysyy. ”Se puuttuu minun listaltani.”\n\nKasper miettii. Hän myöntää, että hän ei tarvitse kahta samaa kuvaa. ”Mutta minulta puuttuu myös yksi kuva”, hän sanoo. ”Kuopion maalivahdin kuva. Onko sinulla se?”\n\nElmeri katsoo listaansa. ”Kyllä, minulla on se kaksi kertaa!”\n\nElmeri antaa Kasperille kuvan, ja Kasper antaa Elmerille tähden kuvan. Nyt Elmerin listalta ei puutu yhtään kuvaa.\n\n”Toivottavasti sinäkin saat pian kaikki kuvat”, Elmeri sanoo.\n\n”Toivottavasti”, Kasper sanoo. ”Sinä olet hyvä tyyppi.”\n\nKysymykset:\nMitä Elmeri kerää?\nHän kerää liigan pelaajien kuvia.\nMikä kuva Elmeriltä puuttuu?\nHäneltä puuttuu Oulun joukkueen tähden kuva.\nMiten Elmeri selvittää asiaa?\nHän kysyy kavereiltaan koulussa.\nKuka on Kasper?\nKasper on Elmerin tuttu.\nMitä Kasper myöntää?\nHän myöntää, että hän ei tarvitse kahta samaa kuvaa.\nMistä Elmeri hankkii kuvan?\nHän hankkii sen Kasperilta."
+    },
+    {
+      "title": "Kakku vaimolle",
+      "summary": "Tuomo bakes a cake for his wife Kirsti; the milk runs out, but his mother's answer saves the cake.",
+      "newWords": [
+        "vaimo",
+        "koti",
+        "perustua",
+        "loppua",
+        "turha",
+        "vastaus",
+        "sopiva",
+        "koskea",
+        "tekijä"
+      ],
+      "text": "Tuomo ja hänen vaimonsa Kirsti asuvat Seinäjoella. Heidän kotinsa on pieni, mutta kaunis. Tuomo haluaa tehdä vaimolleen jotain mukavaa. Hän tekee kakun.\n\nTuomo ei tee usein ruokaa, mutta hänellä on hyvä apu: äidin vanha ohje. Kakku perustuu siihen. Äiti tekee aina hyvää ruokaa, ja Tuomo tietää sen.\n\nKirsti on töissä koko päivän, ja Tuomo on kotona yksin. Hän aloittaa. Mutta kesken kaiken maito loppuu. Tuomo katsoo kelloa. Kauppa on jo kiinni, joten kauppaan on turha mennä.\n\nTuomo soittaa äidilleen. ”Minulta loppui maito”, hän sanoo puhelimessa. ”Mitä minä teen?”\n\nÄidin vastaus on helppo. ”Ota vettä”, hän sanoo. ”Se on aivan sopiva.”\n\nNyt Tuomolla on taas hyvä mieli. Hän jatkaa työtä.\n\nIllalla kakku on valmis. Kirsti tulee kotiin. Hän näkee sen ja haluaa koskea siihen.\n\n”Älä koske!” Tuomo sanoo. ”Odota vähän.”\n\n”Kuka on tämän kakun tekijä?” Kirsti kysyy.\n\n”Sinun miehesi”, Tuomo sanoo. ”Onko se hyvä vastaus?”\n\nSeuraavana päivänä on sopiva hetki. Tuomo ja hänen vaimonsa istuvat yhdessä ja syövät kakkua. Se on hyvää. Kodissa on mukavaa.\n\n”Turha ostaa tällaista kaupasta”, Kirsti sanoo. ”Sinä olet hyvä tekijä.”\n\nKysymykset:\nOnko Tuomon ja Kirstin koti iso?\nEi, heidän kotinsa on pieni, mutta kaunis.\nMihin Tuomon kakku perustuu?\nSe perustuu hänen äitinsä vanhaan ohjeeseen.\nMikä loppuu kesken kaiken?\nMaito loppuu.\nMikä on äidin vastaus?\nÄidin vastaus on, että Tuomo voi ottaa vettä.\nMitä Tuomo sanoo, kun Kirsti haluaa koskea siihen?\nHän sanoo: ”Älä koske!”\nKuka on tekijä?\nTuomo on tekijä."
+    },
+    {
+      "title": "Yhteinen idea",
+      "summary": "Two students, Senja and Patrik, start a weekly film evening at their school, and it goes well.",
+      "newWords": [
+        "opiskelija",
+        "idea",
+        "yhteinen",
+        "yhteistyö",
+        "pyrkiä",
+        "mainita",
+        "merkittävä",
+        "osoittaa",
+        "tulevaisuus"
+      ],
+      "text": "Senja ja Patrik ovat opiskelijoita Vaasassa. He tykkäävät elokuvista. Heillä on yhteinen idea: he haluavat näyttää elokuvia muille opiskelijoille joka viikko.\n\nIdea on hyvä, mutta se vaatii paljon työtä. Senja ja Patrik tekevät yhteistyötä. Senja valitsee elokuvat. Patrik hoitaa paikan ja kirjoittaa illasta viestin koulun sivulle.\n\nSitten on ensimmäinen ilta. Opiskelijat tulevat sisään, ja Patrik osoittaa heille paikat. Paikalla on yli 50 opiskelijaa. Se osoittaa, että idea on hyvä.\n\nElokuvan jälkeen opiskelijat puhuvat siitä pitkään. Kaikki haluavat tulla taas ensi viikolla.\n\nSeuraavana päivänä koulun lehti mainitsee illan. Lehti kirjoittaa: ”Opiskelijoiden yhteinen ilta on koululle merkittävä asia. Tämä on hyvää yhteistyötä.” Lehti mainitsee myös Senjan ja Patrikin nimet.\n\n”Meidän yhteistyömme toimii”, Patrik sanoo.\n\n”Niin toimii”, Senja sanoo. ”Mutta mitä tulevaisuus tuo? Me emme ole täällä aina.”\n\nSenja tietää jo jotain tulevaisuudestaan. Hän haluaa tehdä elokuvia. Hän pyrkii ensi keväänä yliopistoon. Patrikkin pyrkii sinne.\n\n”Uudet opiskelijat voivat jatkaa meidän työtämme”, Patrik sanoo. ”Se on merkittävä asia.”\n\nKysymykset:\nMikä on Senjan ja Patrikin yhteinen idea?\nHe haluavat näyttää elokuvia muille opiskelijoille joka viikko.\nMitä Patrik tekee ensimmäisenä iltana?\nHän osoittaa opiskelijoille paikat.\nMitä koulun lehti mainitsee?\nLehti mainitsee illan ja Senjan ja Patrikin nimet.\nMitä Senja tietää tulevaisuudestaan?\nHän haluaa tehdä elokuvia.\nMihin Senja pyrkii ensi keväänä?\nHän pyrkii yliopistoon."
+    }
+  ]
+}
