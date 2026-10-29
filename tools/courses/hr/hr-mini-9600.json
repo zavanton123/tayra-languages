@@ -1,0 +1,177 @@
+{
+  "id": "hr-mini-9600",
+  "rankUpTo": 9600,
+  "level": "C2",
+  "title": "Fizika svakodnevice",
+  "description": "Ten stories about everyday physics: tuning a drum, frying fritters at a fair, rolling a hillside lawn, a shrinking glacier, bees warming their hive, the colours of a peacock, two mirrors at a hairdresser's, solar panels on a roof, brine on a peninsula and filing a key by hand.",
+  "topic": "Everyday physics",
+  "names": [
+    "Branoslav",
+    "Varaždin",
+    "Rumislava",
+    "Zorislavka",
+    "Osijek",
+    "Ozrivoj",
+    "Vlastan",
+    "Zagorje",
+    "Ognjan",
+    "Brezislava",
+    "Zagreb",
+    "Austrija",
+    "Rajislav",
+    "Bjelovar",
+    "Ivorka",
+    "Domivoj",
+    "Radimirka",
+    "Maksimir",
+    "Zlatimirka",
+    "Zadar",
+    "Tihovil",
+    "Dobrava",
+    "Krasivoj",
+    "Split",
+    "Želimirka",
+    "Dubrovnik",
+    "Pelješac",
+    "Svjetomila",
+    "Ston",
+    "Dragoslavka",
+    "Karlovac",
+    "Vrhovac"
+  ],
+  "lessons": [
+    {
+      "title": "Bubanj koji je izgubio glas",
+      "summary": "The drummer Branoslav finds out why his snare drum sounds dull and tunes its membrane screw by screw, while the singer Rumislava tunes her guitar and explains the diaphragm in her microphone.",
+      "newWords": [
+        "membrana",
+        "ugađati",
+        "natezati",
+        "kratkotrajan",
+        "akord",
+        "dijafragma",
+        "ženstven"
+      ],
+      "text": "Branoslav svira bubnjeve u malom sastavu iz Varaždina. Sastav vježba svake subote u podrumu jedne stare kuće, a pjeva Rumislava, koja ima topao, mekan i ženstven glas. Prošle subote Branoslav je primijetio da mu mali bubanj zvuči čudno. Umjesto jasnog i oštrog udarca čuo se tup zvuk, kratkotrajan i mutan, koji je nestao gotovo u istom trenutku.\n\nBubanj je jednostavna naprava. Preko okruglog okvira napeta je tanka membrana, danas najčešće od plastike, a nekad od kože. Kad palica udari u membranu, ona počne vibrirati i gura zrak oko sebe. Ti sitni pokreti zraka putuju do našeg uha i mi ih čujemo kao zvuk. Što je membrana jače napeta, to brže vibrira i to je ton viši. Ako je napeta slabo ili neravnomjerno, vibrira nemirno, a zvuk je kratkotrajan i prljav.\n\nZato se bubanj mora ugađati, baš kao gitara. Na rubu bubnja nalazi se deset malih vijaka. Branoslav je uzeo ključ i počeo ih okretati jedan po jedan. Svakim okretom vijka on malo nateže membranu.\n\n— Bubanj se ne ugađa jednim vijkom — objasnio je Rumislavi. — Ne smiješ natezati samo jednu stranu. Ideš ukrug, svaki put samo malo, kao kad na autu mijenjaš kotač.\n\nKad je završio, lagano je kucnuo prstom po membrani kraj svakog vijka. Na svim mjestima ton je bio isti. Udario je palicom i bubanj je opet zazvučao jasno i dugo.\n\nI Rumislava je morala ugađati svoj instrument. Prvi akord koji je odsvirala na gitari nije bio čist, jer je jedna žica zvučala previše duboko. Okrenula je klin i žicu malo jače napela, pa je isti akord odsvirala još jednom. Sad je bio čist.\n\n— Žica i membrana rade po istom pravilu — rekla je. — Što ih jače natežeš, to je ton viši. Zato svaki akord ovisi o tome koliko je koja žica napeta.\n\nPrije prve pjesme Rumislava je namjestila mikrofon. I u njemu se nalazi tanka membrana, toliko tanka da je gotovo prozirna. Zove se dijafragma. Kad Rumislava pjeva, zrak pomiče dijafragmu, a mikrofon te pokrete pretvara u električni signal. Ako je dijafragma velika, mikrofon bolje čuva duboke i tople tonove, pa njen ženstven glas zvuči punije.\n\n— Zanimljivo je — rekla je — da se i mišić kojim pjevači dišu zove dijafragma. Moj učitelj pjevanja uvijek kaže da trebam pjevati iz dijafragme, a ne iz grla.\n\nBranoslav se nasmijao i podigao palice. Te večeri sastav je odsvirao sve pjesme bez prekida. Bubanj je zvučao jasno, svaki akord gitare bio je čist, a glas Rumislave ispunio je cijeli podrum.\n\nPitanja:\nZašto je mali bubanj zvučao tupo?\nMembrana je bila napeta slabo i neravnomjerno, pa je zvuk bio kratkotrajan i mutan.\nKako Branoslav ugađa bubanj?\nOkreće vijke ukrug, jedan po jedan, i svaki put samo malo nateže membranu.\nŠto je Rumislava napravila kad prvi akord nije bio čist?\nOkrenula je klin, malo jače napela žicu i odsvirala isti akord još jednom.\nŠto je dijafragma u mikrofonu?\nTo je tanka membrana koju zrak pomiče kad Rumislava pjeva.\nKakav glas ima Rumislava?\nRumislava ima topao, mekan i ženstven glas."
+    },
+    {
+      "title": "Uštipci za jesenski sajam",
+      "summary": "Zorislavka and her business partner Ozrivoj sell fritters at the autumn fair in Osijek; the first year they crowd the pan and the fritters soak up oil, so she explains why and brings a thermometer.",
+      "newWords": [
+        "slastičarnica",
+        "kompanjon",
+        "punkt",
+        "uštipak",
+        "nagurati",
+        "mjerač"
+      ],
+      "text": "Zorislavka već petnaest godina vodi malu slastičarnicu u središtu Osijeka. Slastičarnicu je otvorila s Ozrivojem, starim prijateljem iz škole, koji joj je od početka kompanjon: ona peče kolače, a on vodi račune i nabavu. Svake jeseni, kad u gradu traje veliki sajam, njih dvoje otvore na trgu mali prodajni punkt. Na tom punktu prodaju samo jedno: vruće uštipke posute šećerom.\n\nPrve godine uštipci nisu bili dobri. Kad je red ljudi pred punktom postao dug, Ozrivoj je u tavu nagurao što je više tijesta mogao, da bi brže posluživao. Uštipci su izlazili blijedi, teški i puni ulja. Zorislavka je odmah znala što se dogodilo.\n\n— Ulje mora biti jako vruće, oko 170 stupnjeva — objasnila mu je. — Kad u njega staviš komad hladnog tijesta, tijesto uzme dio topline. Ako netko nagura previše komada odjednom, temperatura ulja naglo padne.\n\nObjasnila mu je i zašto je to važno. Kad je ulje dovoljno vruće, voda na površini tijesta odmah se pretvara u paru. Para izlazi iz tijesta i ne pušta ulje unutra, a kora se brzo stvrdne. Zato je dobro pržen uštipak hrskav izvana, mekan iznutra i gotovo suh na dodir. Ako je ulje prehladno, para izlazi sporo, kora ostaje mekana, a tijesto upija ulje kao spužva.\n\nSljedeće godine Zorislavka je na punkt donijela mali mjerač temperature s dugom metalnom iglom. Mjerač je stajao u tavi cijelo vrijeme. Pravilo je bilo jednostavno: u tavu ide najviše osam komada odjednom, a sljedećih osam tek kad mjerač opet pokaže 170 stupnjeva.\n\n— A ako je red dug? — pitao je Ozrivoj.\n\n— Onda ne naguraj više tijesta, nego uzmi drugu tavu — rekla je Zorislavka.\n\nKupili su još jednu tavu i još jedan mjerač. Ozrivoj je pazio na jedan mjerač, a Zorislavka na drugi. Ljudi su čekali kraće nego prije, a uštipci su bili zlatni i lagani. Mnogi kupci kasnije su došli i u slastičarnicu, da probaju i druge kolače.\n\nNa kraju sajma Ozrivoj je izračunao da su prodali gotovo tri tisuće uštipaka.\n\n— Dobar kompanjon zna kad treba stati — rekao je kroz smijeh. — Barem kod tave.\n\nOtada na punktu uvijek stoje dvije tave i dva mjerača, a pravilo o osam uštipaka napisano je na papiru iznad štednjaka.\n\nPitanja:\nŠto Zorislavka i Ozrivoj prodaju na sajmu?\nNa svom prodajnom punktu prodaju vruće uštipke posute šećerom.\nTko je Ozrivoj?\nOzrivoj je Zorislavkin stari prijatelj iz škole i njen kompanjon u slastičarnici.\nZašto uštipci prve godine nisu bili dobri?\nOzrivoj je u tavu nagurao previše tijesta, pa je temperatura ulja naglo pala i uštipci su upili ulje.\nZašto dobro pržen uštipak nije masan?\nVoda na površini tijesta pretvara se u paru, a para ne pušta ulje unutra.\nČemu služi mjerač na punktu?\nMjerač pokazuje temperaturu ulja, pa znaju kad mogu staviti sljedećih osam uštipaka."
+    },
+    {
+      "title": "Valjak na humu",
+      "summary": "Grandfather Vlastan and his grandson Ognjan roll the lawn of a hillside house in Zagorje with an old stone roller, learn why rolling is easier than dragging and why to work across the slope, and leave a hedgehog in the hedge alone.",
+      "newWords": [
+        "hum",
+        "živica",
+        "zelenilo",
+        "valjak",
+        "izdržljiv",
+        "poprijeko",
+        "jež"
+      ],
+      "text": "Djed Vlastan živi u Zagorju, u kući na vrhu niskog huma. S tri strane kuću okružuje gusta živica, a s četvrte se niz hum spušta travnjak, sav u zelenilu. Svakog proljeća, kad se zemlja osuši, Vlastan travnjak poravna starim kamenim valjkom. Valjak je težak gotovo 200 kilograma, a ima dršku od željeza. Napravio ga je još njegov otac i do danas se nije oštetio: kamen je izdržljiv, a ni drška ne popušta.\n\nOve godine u pomoć mu je došao unuk Ognjan, student strojarstva. Kad je vidio valjak, odmah je htio računati.\n\n— Kako uopće pomičeš toliku težinu, djede?\n\n— Ne vučem ga po zemlji, nego ga kotrljam — rekao je Vlastan. — To je cijela tajna.\n\nOgnjan je objasnio da djed ima pravo. Kad predmet vučemo po zemlji, njegova se donja strana cijelo vrijeme tare o tlo, a to jako koči. Valjak dodiruje zemlju samo jednom uskom crtom, a ta se crta ne tare, nego se diže i spušta dok se valjak okreće. Zato je težak valjak lako gurati po ravnom.\n\nNa humu, međutim, ravnog dijela gotovo nema. Ognjan je htio gurati valjak ravno uzbrdo, prema kući.\n\n— Ne tako — rekao je djed. — Kad ideš ravno uz hum, težina valjka cijelo te vrijeme vuče natrag. A ako ti pobjegne, otkotrljat će se sve do potoka. Travnjak se valja poprijeko.\n\nHodali su poprijeko, s jednog kraja huma na drugi, u dugim ravnim crtama. Tako je valjak cijelo vrijeme išao po istoj visini, a težina ga nije vukla ni naprijed ni natrag. Na kraju svake crte okrenuli bi valjak i krenuli malo niže. Ognjan je izračunao da tako rade dvostruko dulje, ali gotovo bez napora.\n\nKad su došli do živice, Ognjan je ispod grana primijetio nešto okruglo i bodljikavo. Bio je to jež. Čim ga je unuk dotaknuo grančicom, jež se smotao u čvrstu loptu.\n\n— I on zna nešto o oblicima — nasmijao se djed. — Kad se smota, nema slabog mjesta. Bodlje su tanke, ali izdržljive, i svaki pritisak raspoređuju po cijelom tijelu.\n\nOstavili su ježa na miru, a dio travnjaka uz živicu nisu ni valjali. Navečer su sjedili na klupi ispred kuće i gledali zelenilo koje se spuštalo niz hum. Tada je jež polako izašao iz živice i otišao u visoku travu.\n\nPitanja:\nGdje živi djed Vlastan?\nVlastan živi u Zagorju, u kući na vrhu niskog huma.\nZašto je težak valjak lako gurati?\nValjak se ne tare o zemlju, nego se kotrlja i dodiruje tlo samo jednom uskom crtom.\nZašto travnjak valjaju poprijeko?\nKad idu poprijeko, valjak ide po istoj visini, pa ga težina ne vuče natrag niz hum.\nŠto je Ognjan našao ispod živice?\nIspod živice našao je ježa, koji se smotao u čvrstu loptu.\nZašto su bodlje korisne ježu?\nBodlje su izdržljive i raspoređuju pritisak po cijelom tijelu."
+    },
+    {
+      "title": "Ledenjak u magli",
+      "summary": "The physics teacher Brezislava takes nineteen students to the largest glacier in Austria and explains how snow turns into ice over millennia, how meltwater undermines the glacier's edge and why the ice is vulnerable.",
+      "newWords": [
+        "devetnaest",
+        "maglovito",
+        "gordo",
+        "tisućljeće",
+        "potkopati",
+        "ranjivost",
+        "melem"
+      ],
+      "text": "Brezislava predaje fiziku u jednoj gimnaziji u Zagrebu. Svakog lipnja vodi učenike završnog razreda u planine, i to uvijek na isto mjesto: do najvećeg ledenjaka u Austriji. Ove godine s njom je putovalo devetnaest učenika.\n\nKad su ujutro stigli do planinarskog doma, bilo je maglovito i hladno, a od leda se nije vidjelo gotovo ništa. Profesorica je rekla da u planinama ujutro često bude maglovito i da treba pričekati. Oko podneva magla se podigla. Iza nje se gordo uzdizao bijeli vrh, a pod njim se spuštala duga rijeka sivog i plavog leda.\n\n— Ovaj ledenjak nije nastao preko noći — rekla je Brezislava. — Ono što vidite skupljalo se tisućljećima. Snijeg koji padne gore ne otopi se ni ljeti. Novi slojevi pritišću stare, zrak izlazi iz snijega i on se polako pretvara u led.\n\nObjasnila je da se ledenjak, iako je čvrst, polako kreće niz dolinu. Led pod velikim pritiskom ponaša se kao vrlo gusto tijesto: teče, samo toliko sporo da to oko ne vidi. Neki dijelovi ovog leda stari su nekoliko tisućljeća. Nastali su u vrijeme kad u ovim krajevima nitko još nije znao pisati.\n\nNa rubu leda učenici su vidjeli potok koji izlazi ispod ledenjaka. Voda je bila siva i mutna od sitnog kamenja.\n\n— Ova voda teče ispod leda — rekla je profesorica. — Ljeti je ima mnogo i ona polako potkopa rub ledenjaka. Kad ga potkopa dovoljno, veliki komadi leda odlome se i padnu u vodu.\n\nPokazala im je fotografiju istog mjesta iz 1990. godine. Tada je led dolazio gotovo do doma, a danas do njega treba hodati pola sata. Svih devetnaest učenika dugo je gledalo tu razliku. Brezislava im je objasnila u čemu je ranjivost ledenjaka. Bijeli led odbija velik dio sunčeve svjetlosti, ali kad se na njemu skupi tamna prašina, led upija više topline i brže se topi. Otopljena voda zatim još jače potkopa rub. Ledenjak je nastajao tisućljećima, ali nekoliko toplih ljeta zaredom dovoljno je da se vidi njegova ranjivost.\n\nNa ledu je sunce bilo jako, iako je zrak bio hladan. Snijeg i led odbijaju svjetlost i prema licu, pa usne brzo ispucaju. Profesorica je svakom učeniku dala mali melem za usne.\n\n— Melem nije ukras — rekla je. — Ovdje gore vjetar i sunce jači su nego u gradu.\n\nNavečer su u domu pisali kratke izvještaje. Jedna je učenica napisala da ledenjak još uvijek gordo stoji pod vrhom, ali da je njegova ranjivost sada vidljiva i golim okom.\n\nPitanja:\nKoliko je učenika putovalo s Brezislavom?\nS njom je putovalo devetnaest učenika.\nKakvo je bilo vrijeme kad su stigli?\nBilo je maglovito i hladno, pa se led gotovo nije vidio.\nKako nastaje ledenjak?\nSnijeg se skuplja tisućljećima, novi slojevi pritišću stare i snijeg se polako pretvara u led.\nKako voda ispod leda mijenja ledenjak?\nVoda potkopa rub ledenjaka, pa se veliki komadi leda odlome.\nZašto je profesorica dala učenicima melem?\nDala im je melem za usne jer su gore vjetar i sunce jači nego u gradu."
+    },
+    {
+      "title": "Pčele koje griju jedna drugu",
+      "summary": "The beekeeper Rajislav shows his niece Ivorka, a biology student, how bees keep warm in a winter cluster, how their work depends on their age, and how he selects calm colonies, while she tells him about research on the bee genome.",
+      "newWords": [
+        "boravište",
+        "trut",
+        "uzrast",
+        "izrastati",
+        "udomiti",
+        "selekcija",
+        "genom"
+      ],
+      "text": "Rajislav drži četrdeset košnica na rubu šume blizu Bjelovara. Njegova nećakinja Ivorka studira biologiju u Zagrebu i u siječnju je došla k njemu na nekoliko dana. Vani je bilo deset stupnjeva ispod nule, a košnice su bile tihe, prekrivene snijegom.\n\n— Što pčele rade po ovakvoj hladnoći? — pitala je Ivorka.\n\nRajislav je prislonio uho na drvenu stijenku košnice. Čulo se tiho, ravnomjerno zujanje.\n\n— Griju se — rekao je.\n\nObjasnio joj je da pčele zimi ne spavaju. Skupe se u gusto klupko oko matice, u sredini košnice. Pčele u sredini klupka brzo pokreću mišiće krila, ali krila ne miču. Od tog rada nastaje toplina, pa je u sredini klupka i zimi oko 30 stupnjeva. Pčele na vanjskoj strani gusto su zbijene i čuvaju toplinu kao kaput. Kad postane hladnije, klupko se stisne. Tada je njegova površina manja i manje topline odlazi u hladan zrak. Kad zatopli, klupko se opet raširi. Pčele s ruba polako ulaze u sredinu da se ugriju, a druge izlaze van, pa nijedna ne ostane predugo na hladnom.\n\nKošnica je pčelama zimsko boravište. Rajislav ju je u jesen dobro pripremio: suzio je ulaz, da ne ulazi hladan zrak, i ostavio im dovoljno meda, jer pčelama treba hrana da bi mogle raditi mišićima. Boravište ne smije biti vlažno, jer vlaga odnosi toplinu brže od suhog zraka.\n\nIvorka se sjetila da je ljeti u košnici vidjela i krupne pčele koje glasno zuje. To su bili trutovi. Trut je muška pčela: veći je od radilice, nema žalac i ne skuplja nektar. Zimi u klupku trutova nema, a ljeti ih u jednoj košnici može biti nekoliko stotina.\n\n— A tko radi ostale poslove? — pitala je.\n\n— Kod pčela posao ovisi o uzrastu — rekao je Rajislav. — Pčele najmlađeg uzrasta čiste košnicu, malo starije grade saće, a najstarije lete po nektar. U proljeće, kad iz zemlje izrastaju prvi cvjetovi, najviše je posla za one koje lete.\n\nPokazao joj je i jednu mladu košnicu. Prošlog svibnja udomio je roj koji je visio na grani kruške u susjedovu vrtu. Roj je stavio u praznu košnicu i ostavio ga na miru. Rekao je da se roj lako udomi ako mu se da suho i tamno mjesto. Pčele su odmah počele graditi, a novo saće izrasta iz dana u dan.\n\nRajislav godinama radi selekciju. Zadržava matice iz zajednica koje su mirne, rade marljivo i dobro podnose zimu. Selekcija je spor posao: rezultati se vide tek nakon nekoliko godina.\n\n— Na fakultetu istražujemo genom pčela — rekla je Ivorka. — Genom je cijeli zapis o tome kako je pčela građena. Znanstvenici u njemu traže razlike između zajednica koje dobro podnose hladnoću i onih koje je podnose loše. Možda će jednog dana pomoći u takvoj selekciji.\n\nRajislav se nasmijao i rekao da njegove pčele dosad nisu čitale nijedan genom, ali da su ipak dobro naučile grijati jedna drugu.\n\nPitanja:\nKako se pčele griju zimi?\nSkupe se u gusto klupko i pokreću mišiće krila, pa od tog rada nastaje toplina.\nZašto boravište pčela ne smije biti vlažno?\nVlaga odnosi toplinu brže od suhog zraka.\nŠto je trut?\nTrut je muška pčela koja je veća od radilice, nema žalac i ne skuplja nektar.\nO čemu ovisi posao pčele?\nPosao pčele ovisi o njenom uzrastu.\nKako je Rajislav dobio mladu košnicu?\nProšlog svibnja udomio je roj koji je visio na grani kruške u susjedovu vrtu."
+    },
+    {
+      "title": "Boje koje nisu boje",
+      "summary": "In a Zagreb park Radimirka and her father Domivoj watch a peacock spread its tail; he explains that the colours come from thin layers in the feathers, and at home they compare them with soap bubbles.",
+      "newWords": [
+        "paun",
+        "živopisan",
+        "diskutirati",
+        "bliskost",
+        "odonda"
+      ],
+      "text": "U subotu ujutro Domivoj je s kćeri Radimirkom otišao u park Maksimir u Zagrebu. Kod jezera su naišli na pauna. Paun je polako hodao stazom, a onda je odjednom raširio veliki rep. Rep je bio živopisan kao slika: zelen, plav i zlatan, a na svakom peru bilo je tamno oko.\n\n— Tata, pogledaj! Kad se pomaknem, boje se mijenjaju — rekla je Radimirka. Kad je stajala lijevo od pauna, perje je bilo zeleno, a kad je prešla desno, postalo je plavo.\n\nDomivoj radi u optici i voli objašnjavati stvari o svjetlosti. Rekao je kćeri da u perju pauna zapravo nema ni plave ni zelene boje. Perje je smeđe. Živopisan sjaj nastaje zato što na svakom peru postoje sitni slojevi, mnogo tanji od dlake. Kad svjetlost padne na njih, dio se odbije od gornjeg sloja, a dio od donjeg. Ti se odbijeni dijelovi svjetlosti zbrajaju, pa se jedne boje pojačaju, a druge nestanu. Koje će boje biti jače, ovisi o tome iz kojeg kuta gledamo.\n\n— Isto se događa na mjehuriću od sapuna — rekao je Domivoj. — Voda sa sapunom nema nikakvu boju, a ipak se po mjehuriću prelijevaju sve boje.\n\nRadimirka nije odmah povjerovala. Cijelim putem do kuće diskutirali su o tome. Ona je mislila da je paun obojen kao njeni crteži, a otac joj je strpljivo objašnjavao bliskost tih dviju pojava: i perje i mjehurić imaju vrlo tanke slojeve, i na oba boja ovisi o kutu.\n\n— Ne vjerujem dok ne vidim — rekla je Radimirka.\n\n— Dobro — odgovorio je otac. — Onda prestanimo diskutirati i napravimo pokus.\n\nKod kuće je Domivoj u zdjeli pomiješao vodu i sapun, a Radimirka je kroz slamku puhala mjehuriće. Na svakom mjehuriću boje su se pomicale i mijenjale, baš kao na repu pauna. Kad bi mjehurić postao vrlo tanak, malo prije nego što pukne, boje bi nestale i on bi postao gotovo proziran.\n\n— Vidiš li sad bliskost? — pitao je otac. — Kad se debljina sloja promijeni, mijenja se i boja.\n\n— Vidim — rekla je Radimirka. — Ali paun je ipak ljepši.\n\nSljedećeg tjedna nacrtala je pauna za školu i ispod crteža napisala da njegovo perje nije obojeno, nego da boje stvara svjetlost. Odonda svaki put kad pere ruke dugo gleda mjehuriće od sapuna. A odonda i otac zna da kći ništa ne vjeruje dok ne vidi pokus.\n\nPitanja:\nGdje su Domivoj i Radimirka vidjeli pauna?\nVidjeli su ga kod jezera u parku Maksimir u Zagrebu.\nKakav je bio rep pauna?\nRep je bio živopisan: zelen, plav i zlatan, a na svakom peru bilo je tamno oko.\nZašto se boje perja mijenjaju?\nBoje nastaju kad se svjetlost odbija od sitnih slojeva na perju, a ovise o kutu iz kojeg gledamo.\nŠto su Domivoj i Radimirka napravili kod kuće?\nNapravili su pokus s mjehurićima od sapuna.\nŠto Radimirka radi odonda?\nOdonda svaki put kad pere ruke dugo gleda mjehuriće od sapuna."
+    },
+    {
+      "title": "Dva zrcala kod frizerke",
+      "summary": "At a hairdresser's in Zadar an older man lets eight-year-old Tihovil go first; between two mirrors the boy sees countless copies of himself, and the hairdresser Zlatimirka explains why it is not a true infinity.",
+      "newWords": [
+        "ustupiti",
+        "zatiljak",
+        "beskonačnost",
+        "izmišljati"
+      ],
+      "text": "Zlatimirka ima mali frizerski salon u Zadru. U subotu ujutro u salonu je bila gužva. Kad je osmogodišnji Tihovil ušao s mamom, na redu je bio jedan stariji gospodin. Vidio je da dječak jedva mirno stoji, pa mu je ustupio svoje mjesto.\n\n— Ja nikamo ne žurim — rekao je. — Mogu još malo čitati novine.\n\nTihovil je sjeo u stolicu ispred velikog zrcala. Iza njega, na drugom zidu, visjelo je još jedno veliko zrcalo. Zlatimirka mu je skratila kosu sa strane, a onda je uzela malo ručno zrcalo i stavila ga iza njegove glave, da on vidi svoj zatiljak. Tihovil, međutim, nije gledao zatiljak. U velikom zrcalu ugledao je nešto mnogo zanimljivije: iza svoje glave vidio je drugo zrcalo, a u njemu opet sebe, pa opet zrcalo, i tako dalje, sve manje i manje. Bezbroj malih glava nizalo se u dugi zelenkasti hodnik.\n\n— Gdje to završava? — pitao je. — Je li to beskonačnost?\n\nZlatimirka se nasmijala. Rekla je da je to pitanje čula već od bezbroj djece. Objasnila mu je da svjetlost putuje od jednog zrcala do drugog i natrag. Svaki put kad se odbije, mi vidimo još jednu sliku, malo dalju i malo manju. Ali nijedno zrcalo nije savršeno: svaki put ono upije mali dio svjetlosti. Zato su daleke slike sve tamnije i pomalo zelene, jer staklo zelenu svjetlost propušta bolje od ostalih. Nakon nekoliko desetaka odraza slika postane toliko tamna da je više ne vidimo.\n\n— To nije prava beskonačnost — rekla je. — Nema ih bezbroj, samo ih ima više nego što možemo izbrojiti.\n\nTihovil je kimnuo, ali je i dalje gledao u hodnik od zrcala. Počeo je izmišljati priču o malom dječaku koji živi u posljednjem zrcalu i ne zna da je samo slika. Mama je rekla da on stalno voli izmišljati takve priče. Stariji gospodin, koji mu je ustupio mjesto, spustio je novine i slušao s osmijehom.\n\n— I ja sam kao dječak volio izmišljati — rekao je. — Mislio sam da u zrcalu postoji drugi grad.\n\nKad je šišanje završilo, Zlatimirka mu je još jednom pokazala zatiljak u ručnom zrcalu. Ovaj put Tihovil ga je pogledao: kosa je bila kratka i ravna. Zahvalio je gospodinu koji mu je ustupio mjesto i rekao mu da ga u zrcalu čeka beskonačnost, ali samo do četrdesete slike.\n\nPitanja:\nZašto je Tihovil došao na red prije starijeg gospodina?\nGospodin je vidio da dječak jedva mirno stoji, pa mu je ustupio svoje mjesto.\nŠto je Zlatimirka htjela da Tihovil vidi u ručnom zrcalu?\nHtjela je da vidi svoj zatiljak.\nŠto je Tihovil vidio između dva zrcala?\nVidio je bezbroj malih slika svoje glave koje su se nizale u dugi hodnik.\nZašto to nije prava beskonačnost?\nSvako zrcalo upije mali dio svjetlosti, pa su daleke slike sve tamnije dok ih više ne vidimo.\nKakvu je priču Tihovil počeo izmišljati?\nPočeo je izmišljati priču o dječaku koji živi u posljednjem zrcalu."
+    },
+    {
+      "title": "Struja s krova",
+      "summary": "Dobrava and Krasivoj put solar panels on their house near Split; after the new meter is activated, the company compensates the surplus on the bill, and they compare this year's quarterly bills with the earlier ones.",
+      "newWords": [
+        "aktivacija",
+        "nadoknada",
+        "nadoknađivati",
+        "kvartal",
+        "dosadašnji",
+        "ovogodišnji",
+        "relevantan",
+        "beneficija"
+      ],
+      "text": "Dobrava i Krasivoj žive u kući na rubu Splita. Prošlog proljeća na krov su postavili sunčane ploče. Dugo su o tome razmišljali, jer ploče nisu jeftine, ali u Splitu sunce sja gotovo cijelu godinu.\n\nSunčane ploče pretvaraju svjetlost u struju. U svakoj ploči nalaze se tanke pločice od posebnog materijala. Kad svjetlost padne na njih, pokrene sitne čestice u materijalu i tako nastaje električna struja. Zanimljivo je da ploče ne vole vrućinu: u hladan i vedar dan rade bolje nego u srpnju, kad se krov jako zagrije.\n\nNakon postavljanja trebalo je čekati aktivaciju. Distributer struje morao je zamijeniti stari mjerač novim, koji mjeri struju u oba smjera: koliko kuća uzme iz mreže i koliko joj vrati. Aktivacija je trajala tri tjedna. Krasivoj je svaki dan gledao ploče na krovu koje su sjale na suncu, a struja iz njih još nije smjela teći u mrežu. Napokon je došao tehničar, provjerio sve spojeve i potvrdio aktivaciju.\n\nDanju ploče proizvode više struje nego što kuća troši. Višak odlazi u mrežu. Za taj višak distributer im daje nadoknadu, ali je ne isplaćuje u novcu, nego je oduzima od računa. Tako on nadoknađuje struju koju su dali mreži danju, a navečer i noću, kad ploče ne rade, oni struju opet uzimaju iz mreže. Nadoknada je, dakle, račun između dana i noći.\n\nRačune dobivaju jednom u kvartalu. Dobrava ih čuva u fascikli, pa je mogla usporediti dosadašnje račune s novima. Svi dosadašnji računi za ljetni kvartal bili su visoki, jer klima-uređaj radi od lipnja do rujna. Ovogodišnji račun za isti kvartal bio je šest puta manji.\n\nKrasivoj je htio točno izračunati koliko štede. Prvo je usporedio ovogodišnji račun za jesen s proljetnim i dobio čudan rezultat. Dobrava mu je objasnila da ti podaci nisu relevantni. — Relevantni su samo isti mjeseci — rekla je. — U jesen sunca ima manje nego u proljeće, a i trošimo drukčije. — Kad je usporedio isti kvartal iz dviju godina, rezultat je bio jasan.\n\nKao kupci koji sami proizvode struju dobili su i dvije beneficije: niži stalni dio računa i besplatan pregled ploča jednom godišnje. Te beneficije nisu velike, ali se svake godine zbrajaju.\n\nZimi je nadoknada manja, jer su dani kratki, a sunce nisko. A nakon jednog jakog juga ploče su bile prekrivene crvenkastom prašinom i proizvodile su četvrtinu manje struje. Krasivoj ih je oprao vodom i već sljedećeg dana mjerač je opet pokazivao dobre brojke. Otada svakih nekoliko tjedana operu ploče, a distributer im nadoknađuje više nego ikad.\n\nPitanja:\nZašto je trebalo čekati aktivaciju?\nDistributer je morao zamijeniti stari mjerač novim, koji mjeri struju u oba smjera.\nKako distributer nadoknađuje višak struje?\nNe isplaćuje nadoknadu u novcu, nego je oduzima od računa.\nKoliko često Dobrava i Krasivoj dobivaju račune?\nRačune dobivaju jednom u kvartalu.\nZašto prvi podaci koje je Krasivoj usporedio nisu bili relevantni?\nUsporedio je jesen s proljećem, a relevantni su samo isti mjeseci.\nKoje su beneficije dobili?\nDobili su niži stalni dio računa i besplatan pregled ploča jednom godišnje."
+    },
+    {
+      "title": "Riba na poluotoku",
+      "summary": "Želimirka, a retired grammar teacher living in an old stone storehouse on the Pelješac peninsula, shows her granddaughter Svjetomila, who has cycled there through the bura, how an egg tells when brine is salty enough, the way she learned to salt herring in Norway.",
+      "newWords": [
+        "gramatika",
+        "poluotok",
+        "zdanje",
+        "zajahati",
+        "prodor",
+        "haringa",
+        "talog"
+      ],
+      "text": "Želimirka je četrdeset godina predavala gramatiku u jednoj školi u Dubrovniku. Sada živi na poluotoku Pelješcu, u starom kamenom zdanju koje je nekad bilo skladište soli. Zidovi su debeli gotovo jedan metar, pa je u kući ljeti hladno, a zimi toplo. Zdanje je izdržljivo: na tom mjestu stoji već tri stoljeća.\n\nU studenom ju je posjetila unuka Svjetomila. Iz Stona je došla biciklom: rano ujutro zajahala je bicikl i vozila trideset kilometara uz more. Pola puta puhala je bura, pa je stigla crvena u licu.\n\n— Bura je prodor hladnog zraka sa sjevera — objasnila joj je baka dok je unuka skidala jaknu. — Hladan zrak teži je od toplog. Kad ga se iza planina skupi dovoljno, prelije se preko vrhova i spusti prema moru, kao voda preko brane. Zato je svaki prodor bure tako nagao.\n\nŽelimirka je tog dana solila ribu. Kao mlada učiteljica provela je godinu dana u Norveškoj i ondje naučila soliti haringe. Haringa u našem moru ne živi, pa ona sada na isti način soli srdele.\n\n— Postupak je isti kao za haringu — rekla je. — Prvo ti treba dovoljno slana voda.\n\nU posudu s vodom spustila je sirovo jaje. Jaje je palo na dno. Zatim je dodavala sol, žlicu po žlicu, i miješala. Kad je u vodi bilo dovoljno soli, jaje se polako podiglo i ostalo plutati.\n\n— Slana voda je gušća od obične — rekla je baka. — Jaje ostaje dolje dok je voda lakša od njega. Kad soli ima dovoljno, voda postane gušća od jajeta i podigne ga.\n\nDodala je još dvije žlice soli. Sol se više nije otapala, nego je na dnu ostao bijeli talog. Talog joj je pokazao da je voda puna soli i da u nju više ništa ne stane.\n\nSvjetomila je primijetila da baka i solenje ribe objašnjava kao gramatiku.\n\n— Ti i za ribu imaš pravila i iznimke — rekla je.\n\n— Svaki posao ima svoju gramatiku — odgovorila je Želimirka. — Pravilo je jaje, a iznimka je talog.\n\nRibu su složile u posudu i prelile slanom vodom. Sutradan je bura još puhala, a baka je na terasu iznijela nekoliko riba koje je ranije posolila. Suh i hladan zrak brzo odnosi vlagu, pa se riba na buri suši dvostruko brže nego za mirna vremena.\n\nSvjetomila je ostala još jedan dan. Kad je bura prestala, ponovno je zajahala bicikl i krenula natrag prema Stonu, a u torbi je nosila staklenku srdela posoljenih kao haringe u Norveškoj.\n\nPitanja:\nGdje živi Želimirka?\nŽivi na poluotoku Pelješcu, u starom kamenom zdanju koje je nekad bilo skladište soli.\nKako je Svjetomila došla k baki?\nRano ujutro zajahala je bicikl i vozila trideset kilometara uz more.\nŠto je bura?\nBura je prodor hladnog i teškog zraka sa sjevera, koji se spušta prema moru.\nGdje je Želimirka naučila soliti haringe?\nNaučila je to u Norveškoj, gdje je kao mlada učiteljica provela godinu dana.\nKako je baka znala da je voda puna soli?\nNa dnu posude ostao je bijeli talog, jer se sol više nije otapala."
+    },
+    {
+      "title": "Ključ za završni ispit",
+      "summary": "The locksmith apprentice Dragoslavka, a left-hander, comes to her final exam in Karlovac well rested, files a duplicate key by hand at a bench moved for her, wears a respirator at the grinder, and the examiner tries the key in the lock.",
+      "newWords": [
+        "odmoran",
+        "ispitivač",
+        "duplikat",
+        "dešnjak",
+        "respirator"
+      ],
+      "text": "Dragoslavka uči za bravaricu u strukovnoj školi u Karlovcu. U lipnju je imala završni ispit. Noć prije ispita rano je legla i ujutro je u radionicu došla odmorna i mirna. Njen nastavnik uvijek kaže da odmoran čovjek ruke drži mirnije, a za ovaj posao mirne ruke važnije su od snage.\n\nNa ispitu su bila dva ispitivača: njen nastavnik i gospodin Vrhovac, stari bravar iz grada. Zadatak je bio jednostavan za reći, a težak za napraviti: ručno izraditi duplikat jednog starog ključa. Strojevi koji ključ kopiraju za dvije minute bili su isključeni. Duplikat je trebalo napraviti turpijom, kao nekad.\n\nRadionica je, kao i većina radionica, uređena za dešnjake. Dragoslavka je ljevak, pa joj je na običnom stolu sve bilo na krivoj strani. Gospodin Vrhovac to je odmah primijetio.\n\n— I ja sam ljevak — rekao je. — Cijeli život radim u radionicama za dešnjake. Premjesti se za onaj stol uz prozor, ondje se sve može okrenuti.\n\nDragoslavka je na stol pričvrstila komad mjedi, a stari ključ položila je pored njega. Prvo je olovkom prenijela oblik zubaca. Zatim je počela turpijati. Turpija reže samo kad ide naprijed, pa je pritiskala samo u tom smjeru, a natrag ju je vraćala lagano, gotovo bez dodira. Mjed se od struganja malo zagrijala, a na stol je padala sitna žuta prašina.\n\nZa grube dijelove trebalo je upotrijebiti brusilicu. Prije nego što ju je uključila, Dragoslavka je stavila zaštitne naočale i respirator. Prašina od brušenja tako je sitna da lebdi u zraku i lako uđe u pluća. Ispitivač Vrhovac strogo je pazio da svaki učenik nosi respirator.\n\n— Respirator nije za ispit — rekao je. — Nosi ga svaki dan, dok god radiš ovaj posao.\n\nNakon dva sata duplikat je bio gotov. Dragoslavka ga je stavila pored starog ključa i pogledala ih prema svjetlu. Zupci su bili jednaki. Drugi ispitivač, njen nastavnik, uzeo je duplikat i stavio ga u bravu na vratima radionice. Ključ se okrenuo iz prvog pokušaja.\n\nGospodin Vrhovac zadovoljno je kimnuo. Rekao je da dobar duplikat ne nastaje u stroju, nego u mirnim rukama, i da je on sam prvi duplikat napravio kad mu je bilo sedamnaest godina, u radionici za dešnjake.\n\nPitanja:\nKako je Dragoslavka došla na ispit?\nDošla je odmorna i mirna, jer je noć prije rano legla.\nTko su bili ispitivači?\nIspitivači su bili njen nastavnik i gospodin Vrhovac, stari bravar iz grada.\nŠto je trebala napraviti na ispitu?\nTrebala je ručno, turpijom, izraditi duplikat jednog starog ključa.\nZašto je Dragoslavka promijenila stol?\nOna je ljevak, a radionica je uređena za dešnjake.\nZašto je stavila respirator?\nPrašina od brušenja vrlo je sitna, lebdi u zraku i lako uđe u pluća."
+    }
+  ]
+}
