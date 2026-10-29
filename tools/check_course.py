@@ -362,6 +362,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return arabic_tokens(text, ranks, names)
     if code == "id":
         return indonesian_tokens(text, ranks, heads, names)
+    if code in FINNIC:
+        return finnic_tokens(text)
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
@@ -1465,6 +1467,97 @@ def indonesian_tokens(text, ranks, heads, names=frozenset()):
     return out
 
 
+# The Finnic languages join case endings, possessive suffixes and clitics to a word (taloissammekin, "in our houses
+# too"), more forms than a list can hold. Their rules, per language (an Estonian entry fills in its own):
+# - questions: the header of a lesson's questions, which is layout, not a word;
+# - clitics: the particles joined at a word's end, at most two (onkohan is on + ko + han), the outermost first;
+# - possessives: the possessive suffixes, which come before the clitics (kotiinsakin is kotiin + sa + kin). Before one
+#   a word's final -n or -t drops (taloni is talo, talon or talot + ni; kotiini is kotiin + ni) and the translative's
+#   -ksi becomes -kse- (talokseni), and the third person is also a vowel lengthened + n after a case ending in a
+#   vowel (talossaan, taloaan, tehdäkseen);
+# - name_endings: the case endings a name takes (Liisan, Liisalle, Tampereella), after at most two letters of a stem
+#   changed by the ending (Helsinki, Helsingissä; Turku, Turussa; Lahti, Lahdessa).
+FINNIC = {
+    "fi": {
+        "questions": "Kysymykset:",
+        "clitics": ("kaan", "kään", "kin", "hans", "häns", "han", "hän", "kos", "kös", "pas", "päs", "pa", "pä", "ko",
+                    "kö"),
+        "possessives": ("nsa", "nsä", "mme", "nne", "ni", "si"),
+        "long_possessive": True,
+        "name_endings": ("n", "a", "ä", "ta", "tä", "ssa", "ssä", "sta", "stä", "an", "en", "in", "on", "un", "yn", "än",
+                         "ön", "seen", "lla", "llä", "lta", "ltä", "lle", "na", "nä", "ksi", "tta", "ttä", "t"),
+    },
+}
+FINNIC_VOWELS = "aeiouyäöå"
+# A word with a hyphen (linja-auto, EU-maa) is one word, outside the list unless listed; the ending after digits
+# (1990-luvulla) is a word of its own. An ending joined to an abbreviation or a number with a colon (tv:ssä, EU:n,
+# 5:een) goes with it.
+FINNIC_WORD = re.compile(r"[^\W\d_]+(?:['’][^\W\d_]+)*(?:-[^\W\d_]+(?:['’][^\W\d_]+)*)*", re.UNICODE)
+
+
+def finnic_tokens(text):
+    text = re.sub(r"(?<=[^\W_]):[^\W\d_]+", "", text)
+    return [m.group(0) for m in FINNIC_WORD.finditer(text)]
+
+
+def finnic_possessive_bases(stem, rules):
+    """The words [stem] may be with its possessive suffix off: taloni is talo, talon or talot; kotiinsa is kotiin;
+    talokseni is taloksi; tehdäkseni is tehdä; talossaan is talossa."""
+    out = []
+    for ending in rules["possessives"]:
+        base = stem[:-len(ending)]
+        if not stem.endswith(ending) or len(base) < 2:
+            continue
+        out += [base, base + "n", base + "t"]
+        if base.endswith("kse"):
+            out += [base[:-3] + "ksi", base[:-3]]
+    if rules.get("long_possessive") and len(stem) > 4 and stem[-1] == "n" and stem[-2] == stem[-3] and stem[-2] in FINNIC_VOWELS:
+        base = stem[:-2]
+        out.append(base)
+        if base.endswith("kse"):
+            out += [base[:-3] + "ksi", base[:-3]]
+    return out
+
+
+def finnic_clitic_stems(word, rules):
+    """[word] and what it is with one or two clitics off (onkohan: onko, on)."""
+    stems = [word]
+    for _ in range(2):
+        stems += [s[:-len(c)] for s in stems for c in rules["clitics"] if s.endswith(c) and len(s) - len(c) >= 2]
+    return list(dict.fromkeys(stems))
+
+
+def finnic_base(word, code, ranks):
+    """The listed form an unlisted Finnic word is with its clitics and possessive suffix off, or None; of several, the
+    one with the least cut off."""
+    rules = FINNIC[code]
+    found = []
+    for stem in finnic_clitic_stems(word, rules):
+        for base in ([stem] if stem != word else []) + finnic_possessive_bases(stem, rules):
+            if base in ranks:
+                found.append(base)
+    return max(found, key=len) if found else None
+
+
+def finnic_name(word, code, names):
+    """Whether a lowercased Finnic word is a name of [names] with case endings, a possessive suffix or clitics
+    (liisalle, tampereella, helsingissä, turkuunkin), or with an ending after an apostrophe (Joe'n)."""
+    rules = FINNIC[code]
+    head = re.split("['’]", word)[0]
+    if head != word and head in names:
+        return True
+    endings = "|".join(sorted(map(re.escape, rules["name_endings"]), key=len, reverse=True))
+    rest_pattern = re.compile(r"[^\W\d_]{0,2}(?:" + endings + ")")
+    for stem in finnic_clitic_stems(word, rules):
+        for candidate in [stem] + finnic_possessive_bases(stem, rules):
+            for name in names:
+                for cut in range(3):
+                    prefix = name[:len(name) - cut]
+                    if len(prefix) >= 3 and candidate.startswith(prefix) and rest_pattern.fullmatch(candidate, len(prefix)):
+                        return True
+    return False
+
+
 def check(path, brief=False):
     course = json.load(open(path, encoding="utf-8"))
     code = course["id"].split("-")[0]
@@ -1510,6 +1603,11 @@ def check(path, brief=False):
     if code == "tr":
         names = {fold(code, turkish_lower(n)) for n in course.get("names", [])}
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
+    # A Finnish name of several words or with a hyphen (Anna-Liisa, Uusi-Seelanti) counts as one known word wherever it is
+    # written whole, and each part of a name counts too, with its endings (finnic_name).
+    if code in FINNIC:
+        long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
+        names = names | {fold(code, part.lower()) for n in course.get("names", []) for part in re.split(r"[\s-]+", n) if part}
     # Hungarian names take their endings unmarked (Annának, Budapestre): each part of a name counts, with its endings.
     if code == "hu":
         names = names | {fold(code, part.lower()) for n in course.get("names", []) for part in n.split()}
@@ -1592,6 +1690,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Pitanja:", "", text)
         if code == "ro":
             text = re.sub(r"(?m)^Întrebări:", "", text)
+        if code in FINNIC:
+            text = re.sub(r"(?m)^" + re.escape(FINNIC[code]["questions"]), "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg", "ro", "mk"):
@@ -1623,6 +1723,9 @@ def check(path, brief=False):
             lowered = [w if w in ranks or w in names or w[:1] not in swap or swap[w[0]] + w[1:] not in ranks else swap[w[0]] + w[1:] for w in lowered]
         if code == "hu":
             lowered = [w if w in ranks or w in names else hungarian_nominal(w, names) or hungarian_base(w, ranks, hu_verbs, words) or w
+                       for w in lowered]
+        if code in FINNIC:
+            lowered = [w if w in ranks or w in names else finnic_base(w, code, ranks) or ("\u0000name" if finnic_name(w, code, names) else w)
                        for w in lowered]
         names_here = names | {"\u0000name"}
         outside = {}
