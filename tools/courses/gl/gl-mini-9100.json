@@ -1,0 +1,176 @@
+{
+  "id": "gl-mini-9100",
+  "rankUpTo": 9100,
+  "level": "C2",
+  "title": "Química e materiais",
+  "description": "Ten stories of chemistry and materials: a school lab in Lugo, new pipes for an empty house, a column on plastics, a vintage car horn, a bronze gorilla, a foaming stream, a botched varnish, a split mayonnaise, a zinc-coated fence and enzymes that clean dye from water.",
+  "topic": "Chemistry and materials",
+  "names": [
+    "Guntroda",
+    "Tructino",
+    "Lugo",
+    "Allariz",
+    "Suíza",
+    "Ansur",
+    "Aloito",
+    "Nova York",
+    "Odoíno",
+    "Ourense",
+    "Tedón",
+    "Verín",
+    "Valencia",
+    "Frogeva",
+    "Ansemundo",
+    "Vigo",
+    "Santiago",
+    "Uxenda",
+    "Pontevedra",
+    "Lérez",
+    "Eldonza",
+    "Hermexildo",
+    "Ferrol",
+    "Oveco",
+    "Lovesindo",
+    "Fortún",
+    "Melide",
+    "Visclavara",
+    "Velasquita"
+  ],
+  "lessons": [
+    {
+      "title": "A cubeta de xeo",
+      "summary": "A chemistry teacher in Lugo lists the lab rules, condenses steam on a tray of ice, has her students measure water with syringes, opens a smelly sulphur solution and leaves the glassware to drain.",
+      "newWords": [
+        "enumerar",
+        "cubeta",
+        "condensar",
+        "xiringa",
+        "cheirento",
+        "pulverizar",
+        "escorrer"
+      ],
+      "text": "Guntroda dá clases de química nun instituto de Lugo. Os martes ten dúas horas seguidas cun grupo de bacharelato, e sempre as pasa no laboratorio, unha sala do soto con fiestras estreitas á altura da rúa, por onde só se ven os pés da xente que vai e vén.\n\nAntes de tocar nada, Guntroda enumera as normas. Enuméraas sempre na mesma orde: as lentes de protección postas, o cabelo recollido, nada de comida nas mesas e as mans lonxe da cara. Cando acaba de enumeralas, pídelle a un alumno que as repita. Hoxe tócalle a Tructino, que as enumera sen un só erro e con certo orgullo.\n\nA primeira práctica é sinxela. Guntroda pon auga a ferver nun matraz e, enriba da boca do matraz, coloca unha cubeta de aceiro chea de xeo. Aos poucos minutos aparecen debaixo da cubeta unhas pingas miúdas, que medran, se xuntan e acaban caendo de novo na auga. «O vapor tocou unha superficie fría e condensouse», explica. «Cando un gas se condensa, perde calor e volve ao estado líquido. É o mesmo que pasa no espello do baño despois dunha ducha quente.» Os alumnos achéganse á cubeta e miran como o vapor se condensa sen parar mentres o xeo se derrete.\n\nDespois Guntroda reparte xiringas de plástico, sen agulla. Cada parella ten que medir con elas cantidades exactas de auga destilada e botalas en tubos de ensaio. A xiringa leva unha escala no lateral, e hai que ler a marca á altura dos ollos, non desde arriba. Tructino e a súa compañeira enchen a xiringa tres veces antes de conseguir os cinco mililitros xustos.\n\nLogo chega a parte que máis lles gusta. Guntroda trae do estante un frasco ben pechado cun composto de xofre. «É o máis cheirento que temos», avisa. Destápao un segundo e volve tapalo. Abonda: un cheiro a ovos podres enche a sala, e todos se tapan o nariz entre risas. Guntroda explica que moitos compostos de xofre son cheirentos e que por iso se lle engade un deles ao gas da cociña, que por si só non cheira: así, se hai unha fuga, nótase axiña.\n\nPara limpar as mesas usan un bote de auga con xabón. Pulverizar un líquido, explícalles Guntroda, é dividilo en pingas tan finas que flotan no aire uns segundos; por iso o xabón pulverizado chega a todos os recunchos da mesa, e a auga pulverizada seca antes ca se a botasen a chorro.\n\nAo final lavan todo o material. Os tubos e os frascos quedan boca abaixo nunha reixa de madeira para que escorran. Guntroda insiste en que non os sequen cun pano, porque o pano deixa fíos; é mellor que a auga escorra soa e que o vidro seque ao aire. Cando soa o timbre, as últimas pingas aínda escorren polas paredes dos tubos.\n\nPreguntas:\nQue fai Guntroda antes de empezar a práctica?\nEnumera as normas do laboratorio, sempre na mesma orde.\nPor que aparecen pingas debaixo da cubeta?\nPorque o vapor toca unha superficie fría e condénsase.\nPara que usan as xiringas?\nPara medir cantidades exactas de auga destilada.\nPor que se lle engade un composto cheirento ao gas da cociña?\nPorque o gas por si só non cheira, e así nótase axiña se hai unha fuga.\nPor que deixa Guntroda que o material escorra só?\nPorque o pano deixa fíos, e é mellor que a auga escorra soa e o vidro seque ao aire."
+    },
+    {
+      "title": "Os canos da casa pechada",
+      "summary": "A plumber in Allariz renews the pipes of a house that has stood empty for twenty years: the walled-up windows are opened, he scrapes off limescale, fits screwed brass joints and covers the new copper pipes with insulation.",
+      "newWords": [
+        "deshabitar",
+        "tapiar",
+        "cano",
+        "incrustar",
+        "raspar",
+        "enroscar",
+        "recubrir"
+      ],
+      "text": "A casa de pedra da praza vella de Allariz estivo deshabitada vinte anos. Os donos emigraron a Suíza e, antes de marchar, decidiron tapiar con ladrillos os ocos das fiestras da planta baixa, para que non entrasen a chuvia nin os animais. Este inverno volveu un neto, Ansur, que quere vivir nela, e chamou a Aloito, un fontaneiro que xa arranxou moitas casas deshabitadas e sabe o que adoita atopar nelas.\n\nPrimeiro hai que abrir os ocos tapiados. Ansur e un albanel sacan os ladrillos un a un, e a luz volve entrar na cociña. Cos ocos tapiados, a casa parecía un almacén; sen os ladrillos, volve parecer unha casa.\n\nLogo Aloito baixa ao soto, por onde entra a auga da rúa. Os canos son de ferro, dos anos setenta, e por fóra están cubertos de ferruxe. Por dentro, cando Aloito corta un anaco de cano coa serra, ve que a cal se incrustou nas paredes ata deixar un buraco do tamaño dun lapis. «A auga de aquí é dura», explícalle a Ansur. «Leva moito calcio disolto, e co tempo ese calcio queda incrustado no metal coma unha pedra.»\n\nPara que Ansur o vexa, raspa a capa branca coa punta dun coitelo. Sae en anacos duros, que non se desfán entre os dedos. Raspa un pouco máis e aparece o ferro, escuro e cheo de buracos pequenos. Non paga a pena limpar eses canos: Aloito decide cambialos todos por canos de cobre: o cobre non colle ferruxe coma o ferro, e a cal queda incrustada nel moito menos.\n\nMide, corta e solda os canos novos. Nas unións coa chave de paso e co quentador pon unha peza de latón enroscada: cada peza vai enroscada a man, unha volta, outra, ata que queda firme. «Non hai que enroscala de máis», dille a Ansur, «porque se te pasas de forza, rompes a peza.» Despois deixa cada billa nova ben enroscada na cociña e no baño.\n\nPor último, Aloito decide recubrir os canos que van polo soto e polas paredes de fóra. Quedan recubertos cunha funda gris e branda, para que a auga quente non perda calor e para que a fría non xee nas noites de xaneiro, que en Allariz son longas. Os canos recubertos parecen serpes grises pegadas á parede.\n\nÁ tarde Aloito abre a chave xeral. Ansur abre a billa da cociña: primeiro sae aire, despois unha auga escura e, ao final, auga limpa e transparente. Por primeira vez en vinte anos, a casa xa non está deshabitada.\n\nPreguntas:\nPor que estaban tapiados os ocos das fiestras?\nOs donos decidiron tapialos para que non entrasen a chuvia nin os animais.\nQue ve Aloito dentro dos canos vellos?\nVe que a cal se incrustou nas paredes ata deixar un buraco do tamaño dun lapis.\nQue fai Aloito para que Ansur vexa a capa de cal?\nRaspa a capa branca coa punta dun coitelo.\nPor que non hai que enroscar de máis as pezas de latón?\nPorque, se te pasas de forza, rompes a peza.\nPara que quedan recubertos os canos?\nPara que a auga quente non perda calor e a fría non xee no inverno."
+    },
+    {
+      "title": "O século do plástico",
+      "summary": "A column on plastics: what they are made of, how oil companies turn crude into plastic pellets, which kinds dominate kitchen packaging, what the numbers on containers mean and how production has tripled.",
+      "newWords": [
+        "denominar",
+        "petroleira",
+        "predominar",
+        "respectivo",
+        "triplicar"
+      ],
+      "text": "Chamamos plástico a un grupo moi grande de materiais que teñen pouco en común á primeira vista: a botella da auga, a bolsa do pan, o mango da tixola, a funda do móbil. Os químicos denominan polímeros a estes materiais: moléculas longuísimas, feitas de miles de pezas pequenas que se repiten unha detrás doutra, coma as contas dun colar. Cando cambian as pezas ou o xeito en que se unen, cambia o material: máis duro ou máis brando, transparente ou opaco, capaz de soportar a auga fervendo ou non.\n\nO primeiro plástico sintético naceu en 1907, nun laboratorio preto de Nova York, e o seu inventor denominouno co seu propio apelido. Durante uns anos foi o material das radios, dos teléfonos e dos botóns. Hoxe case ninguén lembra como se denominou, pero vivimos rodeados dos seus descendentes.\n\nCase todos eles saen do petróleo e do gas. As grandes petroleiras non só venden gasolina: unha parte do cru que extraen vai a plantas químicas, onde se transforma en bólas pequenas de plástico que logo compran as fábricas de botellas, bolsas e recipientes. Por iso, cando falamos do futuro do plástico, falamos tamén do futuro das petroleiras. Algunhas xa contan con que a demanda de gasolina baixe nos próximos anos, e esperan que o plástico lles dea o que deixen de gañar cos coches.\n\nHai moitos plásticos, pero nas nosas cociñas predominan uns poucos. Nas botellas de auga e de refrescos predomina un; nas bolsas e no papel transparente, outro; nos vasos do iogur e en moitas tapas, un terceiro. Que predominen tan poucos é unha boa noticia para a reciclaxe, porque cada un deles se pode separar e tratar á parte.\n\nPara axudar nesa separación, moitos recipientes levan debaixo un triángulo cun número. Cada número indica o seu respectivo material: o 1 é o plástico das botellas de auga; o 2 e o 4 son dous tipos do plástico das bolsas, coas súas respectivas densidades, alta e baixa; o 5 é o dos vasos do iogur. Pouca xente se fixa neses números, pero as plantas de clasificación traballan grazas a eles, e cada plástico vai ao seu respectivo contedor.\n\nAs cifras dan que pensar. A produción mundial de plástico case se chegou a triplicar en trinta anos, e os recipientes de usar e tirar son a parte que máis medrou. Se o consumo se seguise triplicando ao mesmo ritmo, os sistemas de reciclaxe que temos hoxe non darían feito.\n\nOs supermercados poden facer moito, porque deciden como se venden os produtos: algunhas cadeas xa venden a froita solta e o leite en botellas de vidro que se devolven. O resto depende de nós: de levar a bolsa da casa, de mercar sen envoltorios cando se pode e de separar ben o que tiramos.\n\nPreguntas:\nComo denominan os químicos os plásticos?\nDenominan polímeros a estes materiais: moléculas longuísimas feitas de pezas pequenas que se repiten.\nQue fan as petroleiras con parte do cru que extraen?\nLévana a plantas químicas, onde se transforma en bólas pequenas de plástico.\nPor que é unha boa noticia que predominen poucos plásticos?\nPorque cada un deles se pode separar e tratar á parte.\nQue indica o número do triángulo?\nIndica o respectivo material de cada recipiente.\nComo medrou a produción mundial de plástico?\nCase se chegou a triplicar en trinta anos."
+    },
+    {
+      "title": "A bucina do coche de 1965",
+      "summary": "A mechanic at an Ourense car dealership restores the horn of a 1965 car: a seller in Valencia finds the mislaid part, packs it and sends it, and the mechanic tunes the old valve radio and plays the horn down the phone to the owner.",
+      "newWords": [
+        "concesionario",
+        "bucina",
+        "extraviar",
+        "despachar",
+        "embalar",
+        "sintonizar",
+        "descolgar"
+      ],
+      "text": "Odoíno traballa no taller dun concesionario de Ourense. O concesionario vende coches novos, case todos eléctricos, pero Odoíno é o único mecánico da casa que aínda sabe arranxar os vellos, e por iso, de cando en vez, aparece alguén cun coche que xa non se fabrica.\n\nO mes pasado apareceu Tedón, un mestre xubilado de Verín, cun coche de 1965 que gardara nun garaxe durante anos. O motor andaba, pero a bucina non soaba, e Tedón quería que todo funcionase coma cando o coche era novo. Odoíno desmontou a bucina, unha trompa de latón, e viu que dentro a peza de aceiro estaba rota e os contactos verdes de óxido. Aquela bucina non tiña arranxo.\n\nBuscar unha peza dun coche así é un traballo de paciencia. Odoíno pasou unha tarde no ordenador e atopou unha bucina igual nunha tenda de pezas antigas de Valencia. Chamou, e o vendedor díxolle que si, que a tiña, pero que estivera extraviada uns días no almacén e acababa de aparecer. «Se a pide hoxe, o luns pola mañá queda despachada», explicou. «Despácheme a peza canto antes, por favor», díxolle Odoíno, e o vendedor riu: «Despachar unha peza así lévame cinco minutos. Embalala ben, media hora.»\n\nO mércores chegou a caixa. Aquel vendedor embala as pezas con moito coidado: a bucina viña envolta en papel, dentro dunha bolsa e rodeada de cartón, para que non se rabuñase. Odoíno pensou: «Oxalá todos embalen así.» Moitas pezas chegan sen embalar, nunha bolsa solta, e algunhas rompen polo camiño. Antes de montala, revisou a caixa dúas veces, para que ningún parafuso quedase extraviado entre os papeis.\n\nMontou a bucina, conectou os cables e premeu o botón do volante. A bucina soou forte e clara, cun ton grave que xa non teñen os coches modernos. Os compañeiros do concesionario saíron da oficina para escoitala.\n\nXa que tiña o coche no taller, Odoíno revisou tamén a radio, un aparello de válvulas. Acendeuna, esperou a que as válvulas quentasen e xirou o botón moi amodo, ata sintonizar unha emisora. Sintonizando así, a modo, atopou primeiro unha emisora de música tradicional, e deixou a radio sintonizada nela.\n\nDespois chamou a Tedón desde o teléfono do taller. Cando Tedón descolgou, Odoíno non dixo nada: achegou o teléfono ao volante e premeu a bucina. Ao día seguinte, Tedón contoullo rindo á muller da recepción: «Descolguei o teléfono e, en vez dunha voz, oín a bucina do meu coche.»\n\nPreguntas:\nQue problema tiña o coche de Tedón?\nA bucina non soaba, porque a peza de aceiro estaba rota.\nOnde atopou Odoíno unha bucina igual?\nNunha tenda de pezas antigas de Valencia.\nQue lle pasara á peza no almacén?\nEstivera extraviada uns días e acababa de aparecer.\nComo embala as pezas aquel vendedor?\nCon moito coidado: a bucina viña envolta en papel, nunha bolsa e rodeada de cartón.\nQue fixo Odoíno cando Tedón descolgou o teléfono?\nAchegou o teléfono ao volante e premeu a bucina."
+    },
+    {
+      "title": "Un gorila de bronce",
+      "summary": "A sculptor and a founder near Santiago cast a bronze gorilla for a park in Vigo by the lost-wax method: the wax must not warp, the gas is lit, the mould is broken with small hammers and the finished piece is praised.",
+      "newWords": [
+        "gorila",
+        "deformar",
+        "inflamar",
+        "repenicar",
+        "valoroso",
+        "eloxiar",
+        "figurar"
+      ],
+      "text": "Frogeva é escultora e pasou tres meses traballando nun gorila. Un parque de Vigo encargoulle unha figura para a zona infantil: un gorila sentado, do tamaño dun neno, ao que os nenos puidesen subir. Frogeva modelouno primeiro en barro e despois fundiuno en bronce coa axuda de Ansemundo, que ten unha pequena fundición nas aforas de Santiago.\n\nAnsemundo traballa coa técnica da cera perdida, que ten miles de anos. Primeiro fai unha copia da figura en cera. Despois cobre a cera con varias capas dunha pasta de area fina que endurece ao secar. Cando a pasta está seca, quenta o conxunto no forno: a cera derrétese e sae por uns buracos, e dentro queda un oco coa forma exacta da figura. Por ese oco entra o bronce.\n\nO problema da cera é a calor. Aquel xullo foi quente, e unha mañá Frogeva atopou a copia de cera deformada: un brazo baixara un pouco e a cara parecía cansa. A cera deforma con pouca calor, e unha copia deformada daría un gorila de bronce deformado. Frogeva tivo que corrixila coas ferramentas e, desde entón, gardaron a cera nun cuarto fresco, lonxe das fiestras.\n\nO día da fundición, Ansemundo acendeu o forno. O gas inflamouse cun estalido suave e unha chama azul. Antes revisara que non houbese trapos con aceite preto do forno, porque un trapo así pode inflamarse só coa calor. O bronce, unha mestura de cobre e estaño, funde a uns mil graos, e Ansemundo verteuno no molde amodo, sen présa.\n\nAo día seguinte, cando o metal arrefriou, romperon o molde. Fixérono con martelos pequenos, a golpes curtos e seguidos: os martelos repenicaban sobre a capa dura coma a choiva nun tellado, e o molde ía caendo en anacos. Debaixo apareceu o gorila, escuro e cuberto de po. Frogeva pasou logo dúas semanas limando e puíndo, e nalgunhas zonas repenicou co martelo e un punzón para darlle textura ao pelo.\n\nO bronce é un material valoroso: non colle ferruxe coma o ferro, resiste séculos á intemperie e, se algún día se retirase a escultura, o metal podería fundirse outra vez. Ansemundo garda nun caixón todos os restos de bronce, porque son valorosos e volven ao forno na peza seguinte.\n\nO día que instalaron a escultura, os nenos subiron ao gorila antes de que ninguén dixese unha palabra. Os pais eloxiaron o traballo de Frogeva, e unha mestra eloxiaba sobre todo a cara do animal, tranquila e sabia. O gorila figuraría no catálogo de esculturas públicas da cidade, e Frogeva só pediu unha cousa: figurar nel xunto a Ansemundo, e non soa.\n\nPreguntas:\nQue encargou o parque de Vigo?\nUn gorila de bronce sentado, do tamaño dun neno, para a zona infantil.\nPor que gardaron a cera nun cuarto fresco?\nPorque a cera deforma con pouca calor, e unha copia deformada daría un gorila deformado.\nPor que revisara Ansemundo que non houbese trapos con aceite?\nPorque un trapo así pode inflamarse só coa calor do forno.\nComo romperon o molde?\nCon martelos pequenos, que repenicaban sobre a capa dura coma a choiva nun tellado.\nPor que garda Ansemundo os restos de bronce?\nPorque son valorosos e volven ao forno na peza seguinte.\nQue eloxiaba a mestra?\nEloxiaba sobre todo a cara do animal, tranquila e sabia."
+    },
+    {
+      "title": "A escuma do regato",
+      "summary": "A chemistry student in Pontevedra samples a suburban stream that runs into the Lérez after it floods some gardens, has a second lab confirm her results and shares them with the residents.",
+      "newWords": [
+        "suburbano",
+        "desembocar",
+        "asolagar",
+        "aludir",
+        "condicionar",
+        "corroborar",
+        "partillar"
+      ],
+      "text": "Uxenda estuda química ambiental en Pontevedra e vive nun barrio suburbano, entre a cidade e as primeiras aldeas, onde as casas novas con xardín se mesturan coas hortas de sempre. Polo barrio pasa un regato pequeno, sen nome nos mapas, que vai desembocar no Lérez uns quilómetros máis abaixo.\n\nEn marzo choveu tres semanas seguidas. O regato asolagou as hortas da beira, e a auga chegou ata uns garaxes. Cando baixou, os veciños empezaron a falar dunha escuma branca que flotaba no regato. Ninguén dicía nada claro. Na panadaría falábase da escuma, sempre aludindo ao cheiro; unha veciña aludiu ás hortas asolagadas e ás leitugas que perdera; e ao final alguén lle preguntou á moza que estudaba química.\n\nUxenda colleu mostras en tres puntos: no monte, por riba do barrio; no medio do barrio suburbano; e preto de onde o regato vai desembocar no río. Analizounas no laboratorio da facultade. No punto do medio atopou moito deterxente; nos outros dous, moi pouco. Pero sabía que unha soa análise pode enganar, porque o día conta moito: a choiva trae máis auga, o sol quenta, e unha descarga dunha hora pode condicionar toda a mostra. De feito, as choivas daquela semana condicionaron a primeira toma.\n\nPor iso repetiu a toma unha semana despois e levou parte das mostras a outro laboratorio, en Vigo, para corroborar os datos. O laboratorio de Vigo devolveu as súas táboas corroborando o que ela vira: o deterxente aparecía sempre no mesmo tramo. Unha vez corroborado o resultado, Uxenda percorreu ese tramo con botas de auga e atopou un cano vello, rachado polas choivas, que botaba ao regato a auga sucia de varias casas. Non era culpa de ningún veciño: o cano rompera coas inundacións.\n\nUxenda decidiu partillar todo o que sabía. «Partillamos as táboas e as fotos con todo o barrio», propúxolles Uxenda aos da asociación de veciños, e a información partillada chegou ao concello. Nun mes, os operarios cambiaron o cano.\n\nEn xuño, Uxenda volveu coller mostras. O deterxente baixara case ata o nivel normal e a escuma desaparecera. O regato segue pasando polo barrio, e as augas que desembocan no Lérez veñen agora claras.\n\nPreguntas:\nOnde vive Uxenda?\nNun barrio suburbano de Pontevedra, entre a cidade e as primeiras aldeas.\nOnde vai desembocar o regato?\nNo Lérez, uns quilómetros máis abaixo do barrio.\nQue pasou en marzo?\nChoveu tres semanas seguidas e o regato asolagou as hortas da beira.\nPor que pode enganar unha soa análise?\nPorque a choiva, o sol ou unha descarga poden condicionar a mostra.\nPara que levou Uxenda mostras a Vigo?\nPara corroborar os datos noutro laboratorio.\nQue decidiu facer Uxenda co que sabía?\nDecidiu partillar as táboas e as fotos coa asociación de veciños."
+    },
+    {
+      "title": "O verniz con présa",
+      "summary": "A carpenter's apprentice in Ferrol botches the varnish on an oak table; her master reprimands her without belittling her, explains how varnish dries, and the hard-to-please customer leaves satisfied.",
+      "newWords": [
+        "chafallada",
+        "reprender",
+        "menosprezar",
+        "aplacar",
+        "contentar",
+        "motivador"
+      ],
+      "text": "Eldonza leva oito meses de aprendiz na carpintaría de Hermexildo, en Ferrol. Un venres pola tarde tiña que darlle verniz a unha mesa de carballo que o señor Oveco viría buscar o luns. Tiña présa por marchar, así que deu unha capa grosa, sen lixar a madeira, e deixou a mesa ao lado da porta do patio, por onde entraba a humidade do mar.\n\nO sábado pola mañá, a mesa era unha chafallada. O verniz estaba pegañento, cheo de burbullas e con pingas secas nos bordos. Na superficie quedara pegado un mosquito. Eldonza viuno e quixo desaparecer.\n\nHermexildo reprendeuna, pero sen berros. «Isto é unha chafallada, e sábelo», dixo. «Se te teño que reprender, non é porque non saibas facelo, que sabes: é porque tiveches présa.» Hermexildo nunca menospreza os aprendices. Di que el tamén fixo moitas chafalladas aos vinte anos e que menosprezar a quen empeza só serve para que deixe o oficio. Aquilo aplacouna un pouco: a vergoña non desapareceu, pero aplacouse, e Eldonza, xa máis aplacada, puido escoitar.\n\nDespois, Hermexildo explicoulle por que fallara o verniz. Aquel verniz, dixo, leva un líquido que ten que evaporarse primeiro; despois, o resto reacciona co osíxeno do aire e endurece. Se a capa é grosa, a parte de enriba seca antes ca a de abaixo e o líquido queda atrapado: de aí as burbullas e o tacto pegañento. E se hai moita humidade, todo vai máis amodo.\n\nPasaron o sábado raspando o verniz cunha folla de aceiro e lixando a madeira ata deixala limpa. Despois Eldonza deu tres capas finas, unha cada día, lixando suavemente entre elas, nun cuarto seco e quente.\n\nO luns, cando chegou o señor Oveco, a mesa brillaba. Era un home difícil de contentar: o ano anterior devolvera dúas cadeiras por un detalle que ninguén máis vía. Pasou a man pola madeira, mirouna de lado contra a luz e dixo que si, que unha mesa así contentaría a calquera.\n\nCando marchou, Hermexildo díxolle a Eldonza: «Este fin de semana aprendiches máis ca en tres meses.» Para ela foi a frase máis motivadora do ano. Hermexildo ten ese xeito: despois de cada erro, atopa sempre unha palabra motivadora.\n\nPreguntas:\nPor que a mesa era unha chafallada?\nPorque Eldonza deu unha capa grosa de verniz con présa, sen lixar, nun sitio húmido.\nPor que a reprendeu Hermexildo?\nReprendeuna porque tivera présa, non porque non soubese facelo.\nPor que nunca menospreza Hermexildo os aprendices?\nPorque menosprezar a quen empeza só serve para que deixe o oficio.\nQue fixeron o sábado?\nRasparon o verniz, lixaron a madeira e Eldonza deu tres capas finas.\nComo era o señor Oveco?\nEra un home difícil de contentar, pero dixo que unha mesa así contentaría a calquera."
+    },
+    {
+      "title": "A maionesa cortada",
+      "summary": "A cooking teacher in Vigo, once a chemist, explains to keen students how egg yolk links oil and water, how to rescue a split mayonnaise and how to dress a salad; the pastry class is postponed.",
+      "newWords": [
+        "congregar",
+        "ávido",
+        "pospor",
+        "enlazar",
+        "horrendo",
+        "aliñar"
+      ],
+      "text": "Lovesindo dá un curso de cociña os sábados pola mañá nunha escola de Vigo. O curso congrega xente moi diversa: unha enfermeira que xa se xubilou, dous estudantes de enxeñaría, un mariñeiro que quere aprender a facer doces. O que os congrega é a curiosidade: son alumnos ávidos, que preguntan o porqué de todo, e Lovesindo, que antes de ser cociñeiro foi químico, está encantado con eles.\n\nAquel sábado tocaba facer bolos, pero o forno grande da escola estaba avariado desde o xoves e o técnico non podía vir ata o martes. Lovesindo tivo que pospor a clase dos bolos unha semana. Non lle gusta pospor nada, pero aproveitou para dar un tema que tiña pendente: as mesturas de aceite e auga.\n\n«Aceite e auga non se mesturan», explicou. Botou aceite nun vaso con auga: o aceite quedou enriba, separado. Axitou o vaso e, durante uns segundos, formouse unha néboa de pingas, pero ao pouco volveron separarse. «Para que se manteñan xuntos, cómpre algo que se leve ben cos dous.» Ese algo está na xema do ovo: unha molécula cun extremo que queda enlazado á auga e outro enlazado ao aceite. Esas moléculas rodean cada pinga de aceite e enlazan as pingas coa auga que hai arredor.\n\nOs alumnos fixeron maionesa por parellas. Os dous estudantes, ávidos de resultados, botaron todo o aceite de golpe, e a maionesa cortóuselles: quedou un líquido amarelo e cheo de grans, de aspecto horrendo. «Parece pintura vella», dixo un deles. Lovesindo riu. «Ten un aspecto horrendo, pero ten arranxo.» Puxo unha xema nova nunha cunca e engadiu a maionesa cortada pouco a pouco, culler a culler, mentres batía. A mestura volveu ligar, lisa e brillante.\n\nDespois tocou aliñar unha ensalada. Lovesindo ensinoulles a aliñala cunha mestura de tres partes de aceite, unha de vinagre, sal e unha culler pequena de mostaza. A mostaza tamén axuda a enlazar o aceite co vinagre, aínda que a mestura se separa ao cabo dun anaco. «Por iso hai que aliñar a ensalada xusto antes de levala á mesa», dixo.\n\nÁ unha, o curso rematou cunha comida entre todos. O mariñeiro preguntou se a semana seguinte, co forno xa arranxado, terían que pospor algo máis. Lovesindo díxolle que non: a clase dos bolos xa non se pospón máis.\n\nPreguntas:\nComo son os alumnos de Lovesindo?\nSon alumnos ávidos, que preguntan o porqué de todo.\nQue xente congrega o curso de Lovesindo?\nUnha enfermeira que xa se xubilou, dous estudantes de enxeñaría e un mariñeiro.\nPor que tivo que pospor a clase dos bolos?\nPorque o forno grande da escola estaba avariado e o técnico non podía vir ata o martes.\nQue fai a molécula da xema?\nTen un extremo enlazado á auga e outro ao aceite, e así mantén os dous xuntos.\nQue aspecto tiña a maionesa cortada?\nTiña un aspecto horrendo, coma pintura vella.\nCando hai que aliñar a ensalada?\nXusto antes de levala á mesa, porque a mestura se separa ao cabo dun anaco."
+    },
+    {
+      "title": "O valado novo",
+      "summary": "A retired man near Melide protects his vegetable garden: wild boars root up the potatoes, a galvanised wire fence becomes unavoidable, he scares birds off with shiny strips and keeps motherless chicks caged at night.",
+      "newWords": [
+        "fozar",
+        "forzoso",
+        "responsabilizar",
+        "espantar",
+        "desvalido",
+        "engaiolar"
+      ],
+      "text": "Fortún vive nunha casa con horta nas aforas de Melide. Desde que se xubilou, a horta é o seu traballo: patacas, cebolas, leitugas e unhas filas de feixóns. Unha noite de setembro, uns xabarís baixaron do monte e fozaron todo o campo de patacas. Pola mañá, Fortún atopou a terra revolta e as patacas pequenas espalladas polo chan. Os xabarís fozan buscando raíces e vermes, e co fociño levantan a terra coma un arado.\n\nO valado vello era unha rede de plástico verde de hai quince anos. O sol estragárao: a súa luz rompe pouco a pouco as moléculas do plástico, e a rede, que antes era flexible, estaba ríxida e rompía coa man. Era forzoso cambiala. Fortún falouno coa súa veciña, Visclavara, que ten a horta ao lado e tamén sufrira os xabarís.\n\n«Eu responsabilízome de encargar o material na cooperativa», dixo ela.\n«E eu de colocalo», respondeu Fortún.\n\nEscolleron arame de aceiro cuberto de cinc. Visclavara, que foi mestra de ciencias, explicoulle por que: a capa de cinc oxídase antes ca o ferro e protéxeo, e mentres quede cinc, o aceiro non colle ferruxe. Custaba o dobre ca a rede de plástico, pero era un gasto forzoso, e un arame así dura trinta anos.\n\nOs xabarís non foron o único problema. Cando Fortún sementou de novo, os paxaros comíanlle as sementes. Para espantalos, atou entre as estacas unhas tiras de plástico prateado, que brillan ao sol e fan ruído co vento. As tiras espantan os paxaros sen facerlles mal, e Visclavara púxoas tamén na súa horta para espantar os que lle comían as leitugas.\n\nAdemais, Visclavara deixoulle uns pitos que quedaran sen nai. Eran tan pequenos e tan desvalidos que piaban se se afastaban uns centímetros da lámpada de calor. De noite, Fortún deixábaos engaiolados nunha gaiola grande, dentro do alpendre, para que non pasasen frío nin os molestasen os gatos. De día andaban soltos nun cercado. Ao cabo dun mes xa non parecían desvalidos: corrían pola horta, e engaiolalos á noite custáballe máis ca recoller as patacas.\n\nEn outubro, o valado novo estaba rematado, e desde entón Fortún responsabilízase de revisalo cada semana. Os xabarís volveron unha noite, fozaron un pouco ao pé do arame e marcharon outra vez ao monte sen entrar.\n\nPreguntas:\nQue fixeron os xabarís unha noite de setembro?\nBaixaron do monte e fozaron todo o campo de patacas.\nPor que era forzoso cambiar o valado?\nPorque o sol estragara a rede de plástico, que estaba ríxida e rompía coa man.\nDe que se responsabiliza Visclavara?\nResponsabilízase de encargar o material na cooperativa.\nComo espanta Fortún os paxaros?\nCon tiras de plástico prateado, que brillan ao sol e fan ruído co vento.\nPor que deixaba os pitos engaiolados de noite?\nPorque eran desvalidos, e así non pasaban frío nin os molestaban os gatos."
+    },
+    {
+      "title": "A encima que limpa a cor",
+      "summary": "A researcher readmitted to her university group in Santiago traps enzymes in soft beads to break down textile dyes; a news site exaggerates her first result, and a failed test with real factory water shows her what to change.",
+      "newWords": [
+        "readmitir",
+        "inmobilizar",
+        "amplificar",
+        "magnificar",
+        "personificar",
+        "escandalizar",
+        "desconsolar"
+      ],
+      "text": "Velasquita deixou a tese de química hai tres anos para traballar nunha fábrica téxtil de Ourense. Alí viu de preto un problema que só coñecía dos libros: a auga que sae de tinguir os tecidos, cargada dunha cor que custa moito eliminar. Ao cabo de dous anos pediu volver á universidade, e o seu antigo grupo de investigación de Santiago aceptou readmitila. Non readmiten a todo o mundo, pero a súa experiencia na fábrica pesou moito.\n\nO seu proxecto parte dunha idea sinxela. Hai fungos que producen unha encima capaz de romper as moléculas da cor. O problema é que, se a encima se bota directamente na auga, vaise coa corrente e non se pode recuperar. Por iso Velasquita ten que inmobilizala: mestura a encima cunha pasta feita de algas e deixa caer a mestura, pinga a pinga, nun baño de auga con calcio. Cada pinga endurece e forma unha bóla pequena, coma unha perla branda, coa encima dentro. As bólas métense nun filtro, a auga pasa a través delas, e a encima, inmobilizada nas bólas, queda alí traballando semanas.\n\nPara saber canta cor rompe, Velasquita mide a auga cun aparello que fai pasar luz a través dela. Cando as cantidades son mínimas, o sinal é tan débil que hai que amplificalo: o aparello amplifica a luz que recibe ata que se poden ler os valores.\n\nO primeiro resultado bo chegou en febreiro: unha auga azul escura saíu do filtro case transparente. A universidade publicou unha nota prudente, pero un xornal dixital publicouna magnificada. O titular falaba dun «descubrimento que acabará coa contaminación dos ríos» e personificaba a encima coma «un pequeno operario que limpa a auga mentres nós durmimos». Algúns colegas quedaron escandalizados, e un deles escribiulle: «Quen escribiu isto magnifica cada frase.» Velasquita respondeulle: «Eu non me escandalizo. Unha molécula personificada enténdese mellor.»\n\nO que si a deixou desconsolada foi o experimento seguinte. Con auga real da fábrica, chea de sales e restos de xabón, as bólas desfixéronse en catro días e o filtro deixou de funcionar. Velasquita pasou unha tarde desconsolada, mirando o filtro cheo dunha papa azul. Ao día seguinte, a súa directora díxolle que un resultado así non a debía desconsolar: era xusto o que cumpría saber antes de pensar nunha fábrica. Agora proba bólas máis duras, e o filtro leva tres semanas funcionando.\n\nPreguntas:\nPor que aceptou o grupo readmitir a Velasquita?\nPorque a súa experiencia na fábrica téxtil pesou moito.\nPor que ten que inmobilizar a encima?\nPorque, se se bota directamente na auga, vaise coa corrente e non se pode recuperar.\nPara que hai que amplificar o sinal?\nPara poder ler os valores cando as cantidades de cor son mínimas.\nComo personificaba o xornal a encima?\nComa un pequeno operario que limpa a auga mentres nós durmimos.\nQue a deixou desconsolada?\nQue as bólas se desfixeron en catro días coa auga real da fábrica."
+    }
+  ]
+}
