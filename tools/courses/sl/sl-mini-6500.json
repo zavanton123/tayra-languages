@@ -1,0 +1,209 @@
+{
+  "id": "sl-mini-6500",
+  "rankUpTo": 6500,
+  "level": "C1",
+  "title": "Inženirstvo",
+  "description": "Ten standalone portraits, interviews, columns, diaries, reports and letters about engineering in Slovenia: a bridge site, a fish pass, an old gearbox, a ski jump for children, a lighthouse, an ancient iron furnace, a passive house, a lecture on processors, lessons from nature and a cooled market stall.",
+  "topic": "Engineering",
+  "names": [
+    "Afrika",
+    "Afrike",
+    "Amerika",
+    "Amerike",
+    "Antonela",
+    "Bojmir",
+    "Brežicah",
+    "Cvelbar",
+    "Dorijan",
+    "Dorijanova",
+    "Dragomila",
+    "Dragomilo",
+    "Drava",
+    "Dravi",
+    "Dravo",
+    "Erina",
+    "Evropa",
+    "Evrope",
+    "Gaberc",
+    "Kamnik",
+    "Kamnika",
+    "Kocjan",
+    "Kranj",
+    "Kranju",
+    "Krka",
+    "Krke",
+    "Krki",
+    "Kropa",
+    "Kropo",
+    "Krunoslav",
+    "Krunoslava",
+    "Kukovec",
+    "Ljubljana",
+    "Ljubljani",
+    "Maribor",
+    "Mariboru",
+    "Münchnu",
+    "Nikoleta",
+    "Piran",
+    "Pirana",
+    "Piranu",
+    "Pirjevec",
+    "Ptuj",
+    "Ptuju",
+    "Rastko",
+    "Rastku",
+    "Rupar",
+    "Sava",
+    "Savo",
+    "Tržič",
+    "Tržiča",
+    "Tržiču",
+    "Tugomir",
+    "Velenje",
+    "Velenju",
+    "Viljana",
+    "Vozelj",
+    "Zlatica",
+    "Šegula",
+    "Šinigoj"
+  ],
+  "lessons": [
+    {
+      "title": "Portret: Inženirka v kavbojkah",
+      "summary": "A portrait of Erina Kocjan, who runs the building site of a new bridge over the Sava near Brežice: her old jeans, the ladders she climbs to check that the pillars are vertical, the heap of river gravel they reuse, the Monday meetings that make the work run smoothly and the spring flood.",
+      "newWords": [
+        "gradbišče",
+        "kavbojke",
+        "zlesti",
+        "navpičen",
+        "prod",
+        "kopica",
+        "steči"
+      ],
+      "text": "Erina Kocjan je inženirka in že dve leti vodi gradbišče novega mostu čez Savo pri Brežicah. Na gradbišče pride vsako jutro ob šestih, še pred delavci. Najprej obleče stare kavbojke in topel pulover, nato si nadene čelado in gre ob reki do stebrov. »V pisarni sem samo takrat, ko res moram,« pravi. »Most se gradi na gradbišču, ne za mizo.«\n\nDelavci so bili na začetku malo presenečeni. Mlada ženska v kavbojkah, z načrti pod roko, ni bila takšna, kot so si predstavljali vodjo gradbišča. A Erina jih je hitro prepričala. Že prvi teden je zlezla na vsak oder, ki so ga postavili, in sama preverila, ali so stebri res navpični. »Če steber ni čisto navpičen, bo most čez petdeset let imel težave,« razloži. »Zato raje zlezem gor in pogledam sama, kot da bi verjela samo številkam na zaslonu.« Delavci so se kmalu navadili, da jo vidijo visoko na odru, v kavbojkah in z metrom v roki. Eden od njih je nekoč rekel, da je Erina na lestvi hitrejša od njega. »Ker sem zlezla že na več odrov kot on,« se smeje.\n\nPreden so lahko začeli graditi stebre, so morali iz reke odstraniti kopico proda. Prod je bil povsod: ob bregu, okoli velikih kamnov in tam, kjer zdaj stojijo stebri. Stroji so ga vozili na kup ob cesti, in kmalu je tam stala kopica, visoka skoraj kot hiša. Erina ni hotela, da bi prod vozili daleč stran. »Prod iz reke je dober material,« pravi. »Del ga bomo dodali betonu, iz drugega dela pa bomo naredili novo pot ob reki.«\n\nErina pravi, da je najtežji vedno prvi dan po dolgem premoru. »Ko se delo enkrat začne, vse steče samo od sebe. Vsak ve, kaj mora narediti. A da delo res steče, potrebuješ dober načrt in ljudi, ki si zaupajo.« Zato se vsak ponedeljek ob sedmih zjutraj z vsemi delavci dobi pred pisarno na gradbišču. Pogovorijo se o tednu, ki je pred njimi, in o tem, kaj bi lahko šlo narobe. Ko je vse jasno, delo hitro steče.\n\nSpomladi je Sava narasla in voda je prišla skoraj do vrha novih stebrov. Dva dni so čakali, da je upadla. Erina je ta čas ostala na gradbišču in vsako uro merila višino vode. Ko se je reka umirila, je bila ob stebrih spet nova kopica proda. »Reka nam je vrnila, kar smo ji vzeli,« se smeje.\n\nDo jeseni so postavili vse štiri stebre. Most bodo odprli prihodnje poletje. Erina že ve, kaj bo naredila tisti dan: oblekla bo svoje najstarejše kavbojke in šla peš čez most, od enega brega do drugega.\n\nVprašanja:\nKaj vodi Erina Kocjan?\nErina vodi gradbišče novega mostu čez Savo pri Brežicah.\nKaj obleče, ko zjutraj pride na gradbišče?\nObleče stare kavbojke in topel pulover, nato si nadene čelado.\nZakaj je zlezla na vsak oder?\nKer je hotela sama preveriti, ali so stebri res navpični.\nKaj bodo naredili s kopico proda?\nDel proda bodo dodali betonu, iz drugega dela pa bodo naredili pot ob reki.\nKdaj delo na gradbišču hitro steče?\nKo imajo dober načrt in ko vsak ve, kaj mora narediti.\nKaj bo Erina naredila, ko bodo most odprli?\nOblekla bo najstarejše kavbojke in šla peš čez most."
+    },
+    {
+      "title": "Intervju: Ribe gredo po stopnicah",
+      "summary": "An interview with engineer Tugomir Šinigoj by the new fish pass on the Drava near Ptuj: why fish need a way past a dam, the native species it is built for, the counting camera and its findings, the water that still drives the machines, his childhood by a stream mouth and the pastures at his next site.",
+      "newWords": [
+        "migracija",
+        "avtohton",
+        "izsledek",
+        "gnati",
+        "izliv",
+        "pašnik",
+        "naravoslovje"
+      ],
+      "text": "Tugomir Šinigoj je inženir, ki že dvajset let načrtuje prehode za ribe ob jezovih elektrarn. Pred kratkim so pri Ptuju odprli nov prehod na Dravi. Z njim smo se pogovarjali kar na bregu reke.\n\nZakaj ribe sploh potrebujejo prehod?\nKer potujejo. Mnoge ribe vsako leto plavajo po reki gor proti izviru, do mest, kjer se rodijo mlade ribe, nato pa se vrnejo nazaj. Tej poti pravimo migracija. Ko na reki postavimo jez, se migracija takoj ustavi. Riba pride do jezu in ne more naprej. Prehod je zato nekakšno stopnišče iz majhnih bazenov, po katerih riba plava ali skače gor, mimo jezu.\n\nAli vse ribe zmorejo to pot?\nNe vse enako. Najbolj nas skrbijo avtohtone vrste, torej ribe, ki v Dravi živijo že tisoče let. Avtohtone ribe so vajene čiste in hladne vode ter proda na dnu. Nove vrste, ki jih je v reko prinesel človek, so pogosto močnejše in jim jemljejo prostor. Zato smo prehod naredili tako, da najbolj ustreza ribam avtohtonih vrst: dno smo pokrili s prodom in kamni, voda pa teče počasi.\n\nKako veste, da prehod deluje?\nTo nam povedo izsledki meritev. V prehodu imamo kamero in napravo, ki šteje ribe. Prvi izsledki so zelo dobri: samo to pomlad je skozi prehod plavalo več kot deset tisoč rib. Izsledki kažejo tudi, da migracija poteka predvsem zvečer in zgodaj zjutraj, ko je svetlobe malo. Tega nismo pričakovali, zato bomo odslej zvečer ugasnili luči ob prehodu.\n\nAli prehod elektrarni ne jemlje vode?\nMalo že. Prehod potrebuje nekaj vode, ki potem ne gre skozi stroje. A razlika je majhna. Voda je v teh krajih že pred sto leti gnala mline in žage, danes pa z njo ženemo velike stroje elektrarne. Tudi ko del vode teče skozi prehod, bo preostala voda še vedno gnala stroje skoraj z enako močjo.\n\nKako ste sploh postali inženir za ribe?\nOdraščal sem na kmetiji ob izlivu majhnega potoka v Dravo. Na izlivu sem z dedom opazoval ribe, ki so iz reke plavale v potok. Okoli izliva so bili pašniki, na katerih so se pasle krave, in poleti sem tam preživel cele dneve. V šoli me je najbolj zanimalo naravoslovje, a sem rad tudi risal in računal. Na fakulteti sem izbral gradbeništvo, naravoslovja pa nisem nikoli pozabil. Danes pravim, da je moje delo pol naravoslovje in pol gradnja.\n\nKje boste delali naslednje leto?\nOb izlivu Krke v Savo. Tam so ob reki veliki pašniki, ki jih reka pogosto poplavi. Kmetje se bojijo, da bo nov jez poplave še povečal. Zato bomo prehod in jez načrtovali skupaj z njimi. Pašniki morajo ostati pašniki, ribe pa morajo priti do izliva in nazaj.\n\nVprašanja:\nKaj je migracija rib?\nMigracija je pot, ko ribe plavajo po reki gor, do mest, kjer se rodijo mlade ribe, in se potem vrnejo.\nKaterim ribam najbolj ustreza novi prehod?\nNajbolj ustreza ribam avtohtonih vrst, ki v Dravi živijo že tisoče let.\nKaj kažejo prvi izsledki meritev?\nIzsledki kažejo, da je skozi prehod plavalo več kot deset tisoč rib in da migracija poteka predvsem zvečer in zgodaj zjutraj.\nKaj je voda v teh krajih gnala pred sto leti?\nPred sto leti je voda gnala mline in žage.\nKje je Tugomir odraščal?\nOdraščal je na kmetiji ob izlivu majhnega potoka v Dravo, kjer so bili okoli izliva pašniki.\nZakaj bodo jez ob Krki načrtovali skupaj s kmeti?\nKer se kmetje bojijo, da bo nov jez povečal poplave na njihovih pašnikih."
+    },
+    {
+      "title": "Kolumna: Star avto ni predrag",
+      "summary": "In a column, Kranj mechanic Rastko Pirjevec explains why repairing an old car is often wiser than buying a new one: a broken gearbox often needs only one small part inside its housing, his father heard a bad cylinder by ear, he can guarantee honest work but not a car that lasts forever, he keeps used parts because imports are slow, and his main reason is not money.",
+      "newWords": [
+        "predrag",
+        "menjalnik",
+        "ohišje",
+        "valj",
+        "jamčiti",
+        "uvoz",
+        "poglaviten"
+      ],
+      "text": "Avtomehanik Rastko Pirjevec ima že trideset let delavnico v Kranju. V kolumni piše, zakaj je popravilo starega avta pogosto pametnejše od nakupa novega.\n\nV mojo delavnico vsak teden pride kdo, ki mi reče: »Popravilo je predrago, raje bom kupil nov avto.« Razumem ga. Nov avto se sveti, lepo diši in ima garancijo. A ko skupaj sedeva in izračunava, koliko bi stal nov avto in koliko popravilo, se pogosto izkaže, da popravilo sploh ni predrago.\n\nVzemimo menjalnik. Menjalnik je del avta, ki ga ljudje najmanj poznajo, a brez njega avto ne gre nikamor. Ko menjalnik začne glasno brneti ali ko prestave težko prestavljaš, ljudje mislijo, da je konec. V resnici je v ohišju menjalnika pogosto pokvarjen samo en majhen del. Ohišje odprem, del zamenjam, ohišje spet zaprem, in menjalnik dela kot nov. Za to porabim dan ali dva dela. Nov menjalnik bi bil res predrag, nov avto pa bi bil še dražji.\n\nPodobno je z motorjem. Moj oče, ki je bil tudi mehanik, je govoril, da ima vsak motor svoj glas. Ko en valj ne dela tako, kot bi moral, motor zveni drugače, nekoliko nemirno. Dober mehanik to sliši, še preden odpre pokrov. Pogosto je treba samo očistiti valj ali zamenjati majhen del ob njem. Motor s štirimi valji je preprost stroj, če ga poznaš. Oče me je naučil, da najprej poslušam in šele potem odprem ohišje.\n\nSeveda ne morem jamčiti, da bo star avto vozil večno. Nihče ne more jamčiti za kaj takega, tudi tovarna ne. Lahko pa jamčim, da delo opravim pošteno in da lastniku povem, kaj se splača popraviti in kaj ne. Če bi bilo popravilo res predrago, mu to povem odkrito, in včasih mu tudi sam svetujem nakup drugega avta.\n\nDruga težava so rezervni deli. Večino delov danes dobimo iz uvoza, in ko je uvoz počasen, na del čakamo tudi po dva tedna. Lastnik medtem nima avta, s katerim bi šel v službo. Zato hranim veliko rabljenih delov iz starih avtov, ki jih nihče več ne vozi. Tako sem manj odvisen od uvoza, lastnik pa svoj avto prej dobi nazaj.\n\nKaj je torej poglavitni razlog, da ljudem svetujem popravilo? Ni denar, čeprav tudi ta šteje. Poglavitni razlog je, da za vsak nov avto porabimo veliko kovine, plastike in energije. Če star avto vozi še pet let, za teh pet let ni treba narediti novega. Poglavitna stvar pri avtu namreč ni, kako se sveti, ampak ali vas vsak dan varno pripelje domov.\n\nVprašanja:\nKaj ljudje pogosto rečejo Rastku, ko pridejo v delavnico?\nRečejo mu, da je popravilo predrago in da bodo raje kupili nov avto.\nKaj je pogosto pokvarjeno v ohišju menjalnika?\nPogosto je pokvarjen samo en majhen del.\nKako dober mehanik sliši, da en valj ne dela dobro?\nMotor zveni drugače, in dober mehanik to sliši, še preden odpre pokrov.\nKaj lahko Rastko jamči lastnikom avtov?\nJamči lahko, da delo opravi pošteno in da jim pove, kaj se splača popraviti.\nZakaj hrani rabljene dele iz starih avtov?\nKer je uvoz delov počasen in bi lastnik sicer dolgo čakal na avto.\nKaj je poglavitni razlog, da svetuje popravilo?\nPoglavitni razlog je, da za vsak nov avto porabimo veliko kovine, plastike in energije."
+    },
+    {
+      "title": "Dnevnik: Skakalnica za najmlajše",
+      "summary": "In her diary, engineering student Nikoleta describes a month-long student competition to design a small ski jump for a club in Tržič: her group of friends, the young jumpers they watch, the radius of the curve they calculate in three ways, the model they build, the applause at the presentation and the plaque they win.",
+      "newWords": [
+        "druščina",
+        "skakalec",
+        "radij",
+        "obetaven",
+        "aplavz",
+        "plaketa",
+        "nagraditi"
+      ],
+      "text": "Ponedeljek, 6. marca\nDanes smo na fakulteti dobili nalogo za tekmovanje. Smučarski klub iz Tržiča bi rad imel novo majhno skakalnico za otroke, študenti pa lahko pošljemo svoje načrte. Najboljši načrt bodo nagradili s plaketo in z denarjem, klub pa ga bo tudi zgradil. Takoj sem vprašala dva fanta iz mojega letnika in dve dekleti iz višjega letnika, ali bi sodelovali. Vsi so rekli ja. Smo prava druščina: dva zelo dobro računata, eden lepo riše, ena pa zna izdelati vsak model.\n\nSreda, 8. marca\nZ vlakom smo šli v Tržič, da bi videli hrib, kjer bo vse to stalo. Trener nam je pokazal, kako trenirajo mladi skakalci, stari od osem do dvanajst let. Skakalci so bili v debelih oblekah in s čeladami, in čeprav so bili tako majhni, so skočili brez strahu. Trener nam je razložil, da se mladi skakalci najprej naučijo pravilno stati in mirno pristati. »Naši skakalci so še majhni, zato mora biti vse varno in preprosto,« je rekel. »Mlad skakalec se mora počutiti dobro, ne pa se bati.« Nato so skočili še skakalci iz starejše skupine, ki letijo že zelo daleč.\n\nČetrtek, 16. marca\nVes dan smo računali. Najtežji je radij ovinka na dnu hriba, kjer gre otrok s pobočja na ravno. Če je radij premajhen, otroka v ovinku preveč stisne k tlom. Če je radij prevelik, je vse skupaj preveliko za naš hrib. Radij smo izračunali na tri različne načine, in šele na tretji način smo vsi dobili isto število. Nato smo šli skupaj na pico. Moja druščina zna dobro delati, še bolje pa se zna smejati.\n\nSobota, 25. marca\nCel dan smo bili pri meni doma in izdelovali model iz lesa in kartona. Na mizi so bili kosi lesa, lepilo, škarje in kup risb. Mama nam je prinesla čaj in rekla, da je to najbolj urejen nered, kar jih je kdaj videla.\n\nPetek, 31. marca\nDanes smo naš načrt predstavili pred komisijo. Bila sem tako živčna, da sem prve stavke govorila prehitro. Potem sem se umirila. Ko smo končali, je bil v dvorani velik aplavz. Česa takega nisem pričakovala. Profesor Kukovec je rekel, da je naš načrt najbolj obetaven, ker je hkrati varen in poceni. Obetavni so bili tudi drugi načrti, a komisija je nagradila nas. Dobili smo plaketo in nekaj denarja za izlet. Plaketa zdaj visi na steni v moji sobi. Ko jo pogledam, se spomnim, kakšen aplavz je bil v dvorani in kako srečna je bila vsa naša druščina.\n\nVprašanja:\nKaj bi rad imel smučarski klub iz Tržiča?\nRad bi imel novo majhno skakalnico za otroke.\nKoliko so bili stari mladi skakalci?\nSkakalci so bili stari od osem do dvanajst let.\nZakaj je bil radij ovinka najtežji del naloge?\nKer otroka pri majhnem radiju preveč stisne k tlom, pri velikem pa je vse skupaj preveliko za hrib.\nKaj je Nikoletina druščina izdelovala v soboto?\nIzdelovala je model iz lesa in kartona.\nZakaj je profesor rekel, da je njihov načrt najbolj obetaven?\nKer je hkrati varen in poceni.\nS čim so jih nagradili?\nNagradili so jih s plaketo in z nekaj denarja za izlet."
+    },
+    {
+      "title": "Portret: Luč na koncu pomola",
+      "summary": "A portrait of engineer Bojmir Gaberc, who renewed the old lighthouse in Piran: the keepers who once lived there and supplied it with oil, the new light and its regular flashes, why every cable must be well insulated against salt, how the lighthouse made the town easier to recognise, and the tours visitors can now book.",
+      "newWords": [
+        "svetilnik",
+        "blisk",
+        "izoliran",
+        "oskrbovati",
+        "prepoznavnost",
+        "destinacija",
+        "rezervirati"
+      ],
+      "text": "Bojmir Gaberc je inženir, ki se ukvarja z lučmi ob morju. Zadnji dve leti je skrbel za obnovo starega svetilnika v Piranu. Svetilnik stoji na koncu mesta, tam, kjer se kopno konča in se začne odprto morje. Ponoči ga vidijo ladje daleč na morju, podnevi pa ga fotografirajo ljudje, ki se sprehajajo ob obali.\n\nKo je Bojmir prvič vstopil v svetilnik, je bil presenečen, kako majhen je prostor v njem. »Tu je nekoč živel čuvaj s svojo družino,« pravi. »Vsak dan je moral oskrbovati luč z oljem, očistiti steklo in paziti, da luč ne ugasne. Ljudje, ki so oskrbovali svetilnike, so živeli precej izolirano. Svetilnik je bil zanje dom in služba hkrati.« Danes v njem nihče več ne živi. Z elektriko ga zdaj oskrbuje mestno omrežje, za vsak primer pa ima svetilnik tudi baterije, ki ga oskrbujejo, če zmanjka toka.\n\nNajpomembnejši del svetilnika je luč, ki daje bliske. Vsak svetilnik ob obali ima svoj red bliskov, da ga kapitani lahko ločijo od drugih. Ta svetilnik da en blisk vsakih nekaj sekund, in kapitan, ki prešteje bliske, ve, katero luč vidi. »Ko smo staro luč zamenjali z novo, se red bliskov ni smel spremeniti niti za sekundo,« razloži Bojmir. »Ladje se zanašajo nanj. Nov blisk je zdaj svetlejši, porabi pa veliko manj energije.«\n\nNajveč dela so imeli s kabli. Morje je blizu, in sol pride povsod, tudi v najmanjšo odprtino. Zato morajo biti vsi kabli dobro izolirani. »Kabel, ki ni dobro izoliran, v morskem zraku hitro propade,« pravi Bojmir. »Raje sem porabil teden več in vse izolirane kable še enkrat preveril, kot da bi luč ugasnila sredi zimske noči.«\n\nObnova pa ni pomagala samo ladjam. Svetilnik je postal eden od simbolov mesta, in občina pravi, da se je s tem povečala prepoznavnost Pirana. Na razglednicah in v turističnih vodnikih je zdaj pogosto prav svetilnik. Prepoznavnost mesta je pomembna, ker je Piran priljubljena destinacija za turiste iz vse Evrope. Destinacija, ki ima en jasen simbol, ostane ljudem dlje v spominu.\n\nZato so se odločili, da bodo svetilnik odprli za obiskovalce. Ob sobotah lahko manjše skupine pogledajo v notranjost in slišijo zgodbo o čuvajih. Ogled je treba rezervirati vnaprej, ker je prostor majhen. »Ljudje mi pišejo: „Rezervirali smo ogled za soboto, ali bomo videli tudi luč?“« se smeje Bojmir. »Odgovorim jim, da jo bodo videli zvečer, s pomola, kot vsi drugi.« Ogled je rezervirala tudi njegova mama, ki v svetilniku še ni bila nikoli.\n\nVprašanja:\nKje stoji stari svetilnik?\nSvetilnik stoji na koncu Pirana, kjer se kopno konča in se začne odprto morje.\nKako so nekoč živeli ljudje, ki so oskrbovali svetilnike?\nŽiveli so precej izolirano, svetilnik pa jim je bil dom in služba hkrati.\nZakaj ima vsak svetilnik svoj red bliskov?\nDa ga kapitani lahko ločijo od drugih svetilnikov.\nZakaj morajo biti kabli dobro izolirani?\nKer je morje blizu in kabel, ki ni dobro izoliran, v morskem zraku hitro propade.\nZakaj je prepoznavnost mesta pomembna?\nKer je Piran priljubljena destinacija za turiste iz vse Evrope.\nZakaj je treba ogled rezervirati vnaprej?\nKer je prostor v svetilniku majhen."
+    },
+    {
+      "title": "Poročilo: Železo kot pred dva tisoč leti",
+      "summary": "A report on a weekend near Kropa where archaeologist Antonela Šegula and volunteers rebuilt an ancient iron furnace: the old hearth found at the site, the reddish ore, the base of the furnace set in a pit in the ground, the firewood and tree trunks for charcoal, the three basic elements of the process and the small piece of iron they got in the end.",
+      "newWords": [
+        "ruda",
+        "najdišče",
+        "ognjišče",
+        "drva",
+        "deblo",
+        "prvina"
+      ],
+      "text": "V gozdu nad Kropo, kjer so kovači delali z železom že pred stoletji, se je prejšnji konec tedna zbralo dvajset ljudi. Prišli so raziskovalci, študenti in nekaj domačinov, ki jih zanima, kako so ljudje pred dva tisoč leti dobili železo iz zemlje. Vodila jih je Antonela Šegula, ki na univerzi raziskuje, kako so živeli ljudje v tistem času.\n\nNajprej so si ogledali najdišče. Najdišče leži na majhni ravnini pod hribom, blizu potoka. Tam so pred tremi leti odkrili staro ognjišče, okoli njega pa kose pečene gline in rdečega kamna. »Ta kamen je ruda,« je razložila Antonela in vsakemu pokazala kos. »Rude je bilo v teh hribih veliko. Ljudje so jo nabirali kar na površju, v potokih in na poljih. Ognjišče, ki smo ga našli, pa ni bilo za kuhanje. Na njem so iz rude pridobivali železo.«\n\nUdeleženci so nato poskusili narediti enako. Iz gline in peska so zgradili majhno peč, visoko kot človek. »Spodnji del peči postavimo v jamo v zemlji,« je rekla Antonela. »Zemlja drži toploto, in peč je tako tudi bolj trdna. Kdor je pred dva tisoč leti delal tukaj, je peč prav tako postavil v jamo, globoko do kolen.« Eden od študentov je potem z lopato skopal še ozek jarek za cev, skozi katero so kasneje pihali zrak.\n\nZa tak ogenj potrebuješ veliko drv. Že dan prej so domačini v gozdu pripravili dve stari debli, ki ju je pred meseci podrl veter. Debli so z žago razdelili na krajše kose in iz njih naredili drva. Del drv so porabili za ogenj na novem ognjišču ob peči, kjer so si lahko ogreli roke, večino pa so prej spremenili v oglje. »Ruda, ogenj in zrak so tri poglavitne prvine tega postopka,« je rekla Antonela. »Če ena od teh prvin manjka ali je je premalo, železa ne dobiš.«\n\nKo je bila peč polna, so vanjo plast za plastjo dali rudo in oglje. Ves dan so drug za drugim pihali zrak v peč, in iz vrha se je dvigal gost dim. Otroci iz bližnjih hiš so sedeli na deblu ob novem ognjišču in gledali. Proti večeru so peč odprli. Na dnu je ležal temen, grob kos, ne večji od pesti. Antonela ga je dvignila in se nasmehnila. »To je železo,« je rekla. »Malo ga je, a je pravo.«\n\nUdeleženci so se dogovorili, da bodo prihodnje leto spet prišli. Antonela pa je obljubila, da bodo takrat poskusili iz tega železa narediti še žebelj.\n\nVprašanja:\nKaj so pred tremi leti odkrili na ravnini pod hribom?\nOdkrili so staro ognjišče, okoli njega pa kose gline in rude.\nKje so ljudje nekoč nabirali rudo?\nRudo so nabirali kar na površju, v potokih in na poljih.\nZakaj postavijo spodnji del peči v jamo v zemlji?\nKer zemlja drži toploto in je peč tako bolj trdna.\nOd kod so dobili drva?\nDomačini so z žago razdelili dve stari debli, ki ju je podrl veter.\nKatere so tri poglavitne prvine postopka?\nTri poglavitne prvine so ruda, ogenj in zrak.\nKaj so našli na dnu peči?\nNa dnu peči je ležal majhen kos železa."
+    },
+    {
+      "title": "Pismo: Hiša, ki diha sama",
+      "summary": "In a letter to her brother, Zlatica describes moving with her husband and their newborn from an old flat into a small passive house near Kamnik: the unbearable summer heat and knocking pipes of the old flat, the house their stepmother Dragomila, an energy engineer, helped plan, how its walls, windows and fresh-air system work, and the corner of the garden she keeps for rest.",
+      "newWords": [
+        "vseliti",
+        "novorojenček",
+        "mačeha",
+        "trkati",
+        "neznosen",
+        "posrečiti",
+        "sprostitev"
+      ],
+      "text": "Dragi brat,\n\nkončno ti pišem iz nove hiše. Pred tremi tedni sva se z možem vselila, in to samo deset dni po tem, ko se je rodil najin sin. Vsi so nama govorili, da je to slaba ideja, a majhna hiša je bila pripravljena, in nisva hotela čakati. Ko sva se vselila, sva imela v vsaki sobi kup škatel, v naročju pa novorojenčka. Danes se smejem, takrat pa nisem bila prepričana, da se bo vse posrečilo.\n\nSaj se spomniš najinega starega stanovanja v Ljubljani. Poleti je bila vročina v njem neznosna, saj so okna gledala na jug, stene pa so bile tanke. V zimskem času je bilo spet drugače. Saj veš, kako cevi za ogrevanje v tisti stavbi trkajo vso noč. Še danes jih slišim, kako trkajo, ko se spomnim tiste zime. Ko je bila vročina poleti spet neznosna, sva se odločila, da greva ven iz mesta.\n\nHišo nama je pomagala načrtovati najina mačeha Dragomila. Veš, da je inženirka za energijo in da o hišah ve več kot kdorkoli. Ko se je pred leti poročila z očetom, sem bila do nje zadržana. Ti si mačeho sprejel prej kot jaz. Zdaj sem ji zelo hvaležna. Mačeha je cel mesec risala načrte z nama in nama razložila vse, česar nisva razumela.\n\nNajina hiša je pasivna. To pomeni, da skoraj ne potrebuje ogrevanja. Stene so debele in dobro zaprte, okna imajo tri stekla, in toplota ne gre ven. Svež zrak prihaja v sobe skozi posebno napravo, ki toploto iz starega zraka preda novemu. Zato je v hiši vedno enako toplo, in nobena cev ne trka. Ko je zunaj vroče, ostane v sobah prijetno, saj nad okni stojijo široke strehe, ki jih varujejo pred soncem. V mestu je bila poletna noč pogosto neznosna, tukaj pa ni nobena.\n\nNajbolj se je posrečilo pri novorojenčku. Sin spi dobro, ker je v sobi tiho in zrak je vedno svež. Babica, ki naju je obiskala prejšnji teden, je rekla, da še ni videla tako mirnega novorojenčka. Mislim, da ima prav hiša pri tem svoj del zaslug.\n\nZa konec ti moram povedati še to: na vrtu sem si uredila kotiček za sprostitev. Tam stoji stara klop, ob njej pa nekaj rož. Ko sin zaspi, sedem tja za pol ure. To je moja edina sprostitev v dnevu, a mi je dovolj. Pridi naju kmalu obiskat, in vzemi s seboj še Dragomilo in očeta.\n\nLepo te pozdravljam,\nZlatica\n\nVprašanja:\nKdaj sta se Zlatica in njen mož vselila v novo hišo?\nVselila sta se pred tremi tedni, deset dni po tem, ko se je rodil njun sin.\nKakšno je bilo življenje v starem stanovanju?\nPoleti je bila vročina neznosna, v zimskem času pa tam cevi za ogrevanje trkajo vso noč.\nKdo jima je pomagal načrtovati hišo?\nPomagala jima je njuna mačeha Dragomila, ki je inženirka za energijo.\nZakaj je v hiši vedno enako toplo?\nKer so stene debele, okna imajo tri stekla, posebna naprava pa toploto iz starega zraka preda novemu.\nKaj je rekla babica o novorojenčku?\nRekla je, da še ni videla tako mirnega novorojenčka.\nKje je Zlatica našla prostor za sprostitev?\nNa vrtu si je uredila kotiček za sprostitev s staro klopjo in rožami."
+    },
+    {
+      "title": "Poročilo s predavanja: Kaj zmore procesor",
+      "summary": "A report on a library lecture in Maribor by chip designer Viljana Cvelbar: a processor as a collection of billions of tiny switches, why \"the computer thinks\" is only a phrase, the point of her talk, how processors specialise and how long her own specialisation took, the excitement when she passed round a silicon disc, and the heat that limits how fast a chip can run.",
+      "newWords": [
+        "procesor",
+        "skupek",
+        "fraza",
+        "poanta",
+        "specializacija",
+        "vznemirjenje",
+        "nezmožnost"
+      ],
+      "text": "V knjižnici v Mariboru je bilo v torek zvečer polno kot redko kdaj. Na predavanje o tem, kako delujejo procesorji, je prišlo več kot sto ljudi: dijaki, študenti, upokojenci in nekaj staršev z otroki. Predavanje je imela Viljana Cvelbar, inženirka, ki že petnajst let načrtuje procesorje za podjetje v Münchnu.\n\nNajprej je pokazala zelo povečano sliko procesorja. Na zaslonu se je pojavilo nekaj, kar je bilo podobno mestu z ulicami in hišami. »Procesor je skupek milijard drobnih stikal,« je razložila. »Vsako stikalo zna samo dve stvari: prepustiti tok ali ga ustaviti. Nič več. Procesor je torej skupek zelo preprostih delov, ki pa jih je neverjetno veliko.«\n\nNato je opozorila na stavek, ki ga slišimo vsak dan: računalnik misli. »To je samo fraza,« je rekla. »Računalnik ne misli. Procesor sledi navodilom, korak za korakom, zelo hitro in brez napak. Ko rečemo, da računalnik nekaj ve ali nekaj hoče, uporabljamo fraze, ki so lepe, a nam ne povedo veliko o tem, kako procesor dela.«\n\nKaj je torej poanta? Viljana jo je povedala jasno: procesor je hiter, ker dela majhne korake, ne pa zato, ker bi bil pameten. Ta poanta se je ponavljala skozi vse predavanje. Ko je kdo vprašal, kako procesor prepozna obraz na fotografiji, je odgovorila z isto poanto: z milijoni majhnih korakov.\n\nPotem je govorila o specializaciji. Nekateri procesorji so narejeni za vse, drugi pa so ozko specializirani: eni rišejo slike na zaslonu, drugi obdelujejo zvok, tretji delajo v avtih. Takšna specializacija procesorjev je danes zelo pogosta. Tudi njena lastna specializacija je trajala dolgo. Po študiju v Ljubljani je še pet let študirala v tujini, preden je smela sama načrtovati del procesorja.\n\nNajlepši trenutek večera je bil, ko je iz torbe vzela tanko okroglo ploščo, ki je bila v luči videti v vseh barvah. Na njej je bilo več sto procesorjev, še preden so jih razdelili. Ko je plošča šla iz roke v roko, je dvorano prevzelo pravo vznemirjenje. Otroci so vstali s stolov, da bi jo videli. Viljana je priznala, da tudi sama čuti enako vznemirjenje vsakič, ko vidi novo ploščo.\n\nNa koncu je govorila še o tem, kaj procesorje omejuje. Največja težava je toplota. Več ko je stikal na majhnem prostoru, bolj vroč postane procesor. Nezmožnost, da bi to toploto dovolj hitro spravili ven, je danes glavna meja hitrosti. »Prav zaradi te nezmožnosti se trudimo najti nove rešitve,« je rekla. »Kdor jih bo našel, pa morda danes sedi med vami.« Dvorana se je smejala, aplavz pa je trajal dolgo.\n\nVprašanja:\nKaj je procesor, kot ga je opisala Viljana Cvelbar?\nProcesor je skupek milijard drobnih stikal.\nZakaj je rekla, da je stavek »računalnik misli« samo fraza?\nKer računalnik ne misli, ampak procesor sledi navodilom, korak za korakom.\nKaj je bila poanta njenega predavanja?\nPoanta je bila, da je procesor hiter, ker dela majhne korake, ne pa zato, ker bi bil pameten.\nKako dolgo je trajala njena specializacija?\nPo študiju v Ljubljani je še pet let študirala v tujini.\nKaj je v dvorani povzročilo vznemirjenje?\nVznemirjenje je povzročila tanka okrogla plošča z več sto procesorji.\nKaj je danes glavna meja hitrosti procesorjev?\nGlavna meja je nezmožnost, da bi toploto dovolj hitro spravili ven."
+    },
+    {
+      "title": "Kolumna: Narava je bila prva inženirka",
+      "summary": "In a column, engineer Krunoslav Rupar writes about engineers who copy nature: spider silk compared with steel, the backward-pointing thorns of the roses in his garden, the crow that bends a stick into a tool, titanium parts built hollow like a bird's bone, and a desert beetle whose trick now helps people quench their thirst with fog nets on several continents.",
+      "newWords": [
+        "posnemati",
+        "svila",
+        "trn",
+        "vrana",
+        "titan",
+        "žeja",
+        "kontinent"
+      ],
+      "text": "Ko sem bil študent, sem mislil, da inženir vse izumi sam. Danes vem, da veliko dobrih rešitev ni naših. Narava jih je našla že pred milijoni let, inženir pa jo pogosto samo posnema. Zato me ni sram. Kdor zna naravo dobro posnemati, se veliko nauči.\n\nVzemimo svilo. Svilo poznamo iz trgovin z blagom, a še bolj zanimiva je svila, ki jo naredi pajek. Pajkova svila je zelo tanka, a je glede na svojo težo močnejša od jekla. Raziskovalci po vsem svetu jo že leta poskušajo narediti v tovarni. Do zdaj se jim je to posrečilo le deloma, a vsako leto so bližje. Ko bo uspelo, bomo imeli vrvi in tkanine, ki bodo lahke kot svila in močne kot jeklo.\n\nDrugi primer najdem kar na svojem vrtu. Ob ograji rastejo vrtnice, in vsako poletje me njihovi trni ujamejo za rokav. Zakaj trni tako dobro držijo blago? Ker niso ravni, ampak obrnjeni nazaj. Ko roko potegneš stran, se trn v blago zarije še bolj. Po istem načelu so inženirji naredili trak, ki se prime blaga in drži, dokler ga ne potegneš v drugo smer. Kdo bi si mislil, da nas lahko nekaj nauči tudi trn.\n\nTretji primer so ptice. Vrana velja za eno najbolj pametnih ptic. Raziskovalci so opazili, da zna vrana iz palice narediti orodje: konec palice zavije in z njo potegne hrano iz luknje. Inženirji, ki razvijajo robote, vrane natančno opazujejo, ker jih zanima, kako se žival nauči nove naloge. Ptice so pomembne tudi zato, ker so njihove kosti lahke in hkrati trdne. V notranjosti so prazne in imajo le drobne opore. Danes iz titana delamo dele za letala, ki so od znotraj narejeni prav tako. Del iz titana je zato skoraj tako lahek kot plastika, a mnogo bolj trden. Titan je drag, zato ga ne smemo porabiti niti malo preveč, in tu nam narava spet pokaže pot.\n\nNajbolj pa mi je všeč zgodba o majhnem hrošču, ki živi v puščavi. Tam skoraj nikoli ne dežuje, a zjutraj pride z morja megla. Hrošč se postavi proti vetru, na njegovem hrbtu se nabirajo kapljice, in voda mu nato steče naravnost v usta. Tako se hrošč reši žeje. Inženirji so to posnemali in naredili velike mreže, ki iz megle naberejo vodo. Takšne mreže danes stojijo v suhih krajih na več kontinentih, od Amerike do Afrike. Na vsakem kontinentu, kjer jih postavijo, je žeja zdaj manjša težava, saj ljudem ni treba več voziti vode od daleč.\n\nZato, ko me študenti vprašajo, kje naj iščejo ideje, jim odgovorim: najprej pojdite ven in glejte.\n\nVprašanja:\nZakaj Krunoslava ni sram, da inženir naravo pogosto posnema?\nKer se veliko nauči, kdor zna naravo dobro posnemati.\nKaj je posebnega na pajkovi svili?\nPajkova svila je zelo tanka, a je glede na težo močnejša od jekla.\nZakaj trni vrtnic tako dobro držijo blago?\nKer niso ravni, ampak obrnjeni nazaj.\nKaj zna narediti vrana?\nVrana zna iz palice narediti orodje in z njim potegniti hrano iz luknje.\nZakaj so deli letal iz titana lahki?\nKer so v notranjosti prazni in imajo le drobne opore, kot kosti ptic.\nKako se hrošč v puščavi reši žeje?\nNa njegovem hrbtu se nabirajo kapljice iz megle, voda pa mu nato steče v usta."
+    },
+    {
+      "title": "Portret: Stojnica, ki se hladi s soncem",
+      "summary": "A portrait of young engineer Dorijan Vozelj, who designed a market stall with a solar roof and a cooled drawer after watching his grandmother's garlic and vegetables wilt in the summer heat: the first stall he built himself, the investors he looked for and the one who said yes, the factory that will produce fifty stalls, and the coordination it all needs.",
+      "newWords": [
+        "stojnica",
+        "česen",
+        "vlagatelj",
+        "proizvesti",
+        "koordinacija"
+      ],
+      "text": "Dorijan Vozelj ima šele 27 let, a njegovo ime na tržnici v Ljubljani že vsi poznajo. Pred dvema letoma je naredil stojnico, ki ima na strehi sončne celice, pod pultom pa hladen predal. Danes takšne stojnice uporablja že dvajset prodajalcev, prihodnje leto pa naj bi jih bilo več kot sto.\n\nZamisel se je rodila pri babici. Babica že štirideset let prodaja zelenjavo na tržnici, najbolj znana pa je po svojem česnu. Česen goji sama, na majhni njivi za hišo, in ljudje pridejo ponj tudi iz drugih mest. Dorijan ji je kot študent ob sobotah pomagal na stojnici. Poleti je opazil, da sta solata in paradižnik do dvanajstih že mehka, česen pa na soncu izgubi svojo lepo belo barvo. »Babica je vsako soboto domov nesla del zelenjave, ki je ni mogla prodati,« pravi. »To se mi je zdelo škoda, saj je sonce, ki ji je zelenjavo uničevalo, hkrati dajalo dovolj energije, da bi jo ohladili.«\n\nPrvo stojnico je izdelal sam, v garaži staršev. Na streho je pritrdil sončne celice, pod pult pa postavil predal, ki ga ohladi majhna naprava. Babica najprej ni verjela, da bo delovalo, potem pa je v predal dala česen in solato. Ko je ob 14.00 odprla predal, je bila solata še vedno sveža. Od takrat babica stojnice ne da iz rok.\n\nZa več stojnic pa je Dorijan potreboval denar. Iskal je vlagatelje in jim predstavljal svoj načrt. Prvi vlagatelji so bili prijazni, a so rekli, da je trg premajhen. Šele šesti vlagatelj je prišel na tržnico, vse jutro opazoval prodajalce in na koncu kupil kilogram česna pri babici. Teden kasneje je rekel ja. »Ta vlagatelj je razumel, da ne prodajam naprave, ampak sveže sadje in zelenjavo,« pravi Dorijan. Z denarjem vlagatelja so se dogovorili s tovarno v Velenju, ki bo to leto proizvedla petdeset novih stojnic. Tovarna je že proizvedla prvih deset, in Dorijan pravi, da so boljše od tiste, ki jo je naredil v garaži.\n\nNajtežje pri vsem tem ni bilo tehnično delo, ampak koordinacija. Tovarna, tržnica, prodajalci in vlagatelj imajo vsak svoje želje in svoj čas. Brez dobre koordinacije bi nove stojnice prišle na tržnico sredi zime, ko jih nihče ne potrebuje. Dorijan zato vsak ponedeljek pokliče vse, ki sodelujejo, in z njimi preveri, kje so. »Koordinacija mi vzame več časa kot risanje načrtov,« se smeje. »A brez nje ne gre.«\n\nOb sobotah pa je še vedno na tržnici. Stoji ob stojnici svoje babice, pomaga pripraviti česen in drugim prodajalcem razlaga, kako deluje predal.\n\nVprašanja:\nKaj ima Dorijanova stojnica na strehi in pod pultom?\nNa strehi ima sončne celice, pod pultom pa hladen predal.\nPo čem je znana njegova babica?\nBabica je znana po svojem česnu, ki ga goji sama.\nKaj je Dorijan opazil poleti na tržnici?\nOpazil je, da je solata do dvanajstih že mehka in da česen na soncu izgubi lepo belo barvo.\nKateri vlagatelj je na koncu rekel ja?\nŠesti vlagatelj, ki je vse jutro opazoval prodajalce in kupil kilogram česna.\nKoliko stojnic bo tovarna v Velenju proizvedla to leto?\nTovarna bo to leto proizvedla petdeset novih stojnic.\nZakaj je koordinacija tako pomembna?\nKer imajo tovarna, tržnica, prodajalci in vlagatelj vsak svoje želje in svoj čas."
+    }
+  ]
+}
