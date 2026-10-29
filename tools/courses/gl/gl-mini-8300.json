@@ -1,0 +1,197 @@
+{
+  "id": "gl-mini-8300",
+  "rankUpTo": 8300,
+  "level": "C2",
+  "title": "Deseño e artesanía",
+  "description": "Ten stories of design and craft: hand-made glasses, a chestnut basket, an old valve radio, a wooden boat, a prehistory exhibition, a typewriter, a tasting menu, a playground, a wooden teething ring and a wooden tennis racket.",
+  "topic": "Design and craft",
+  "names": [
+    "Roser",
+    "Cacheiro",
+    "Lugo",
+    "Quim",
+    "Merchi",
+    "Requeijo",
+    "Kepa",
+    "Bilbao",
+    "Antas",
+    "Taras",
+    "Ferrol",
+    "Yuki",
+    "Alemaña",
+    "Gutier",
+    "Vilachá",
+    "Bueu",
+    "Priya",
+    "Milena",
+    "Ansede",
+    "Ourense",
+    "Ravi",
+    "Londres",
+    "Xurés",
+    "Galicia",
+    "Europa",
+    "Arnau",
+    "Vega",
+    "Coruña",
+    "Olivetti",
+    "Italia",
+    "Karim",
+    "Lobato",
+    "Vigo",
+    "Aiko",
+    "Lalín",
+    "Marrocos",
+    "Moraña",
+    "Oksana",
+    "Beade",
+    "Polidoro",
+    "Cangas",
+    "Lukas",
+    "Yasmin",
+    "Leiro",
+    "Sora",
+    "Jonas",
+    "Pontevedra",
+    "Olena"
+  ],
+  "lessons": [
+    {
+      "title": "Unhas lentes á medida",
+      "summary": "An optician in Lugo who makes frames by hand measures a customer's face and makes him a pair of glasses that finally fits.",
+      "newWords": [
+        "óptico",
+        "manual",
+        "antelación",
+        "patilla",
+        "lóbulo",
+        "septo",
+        "comprensible"
+      ],
+      "text": "Roser Cacheiro é óptica desde hai vinte anos. Na súa tenda de Lugo, a poucos pasos da muralla, vende lentes coma calquera outra óptica, pero no fondo do local ten un pequeno obradoiro onde fai monturas a man. É un traballo manual, lento e minucioso: corta a placa de acetato, líxaa, quéntaa para darlle forma e pule cada peza ata que brilla. Por iso quen quere unhas lentes feitas por ela ten que pedir cita con moita antelación; agora mesmo, con tres meses de antelación.\n\nQuim pediu a súa cita en xaneiro e chegou un martes de abril cunha caixa de cartón chea de lentes vellas. «Teño seis pares e ningún me queda ben», explicou. «Todas escorregan polo nariz ou fanme dano detrás das orellas.»\n\nA óptica probou un par tras outro e observou como lle quedaban. Despois mediuno con calma: a distancia entre os ollos, a largura da cara, a altura de cada orella. «A túa orella dereita está case un centímetro máis abaixo ca esquerda», díxolle. «É moi frecuente, pero as lentes de fábrica non o teñen en conta. Por iso unha patilla che aperta e a outra queda solta.»\n\nTamén lle mirou o nariz. Quim ten o septo un pouco desviado cara á esquerda, e as lentes caían sempre cara a ese lado. Roser procura que cada explicación sexa comprensible para calquera persoa, así que colleu un espello e amosoullo. «O septo é a parede que separa as dúas fosas do nariz», dixo. «O teu non está no medio, e por iso a ponte da montura ten que ir un chisco desprazada.»\n\nQuedaba un detalle. Quim leva un pequeno aro no lóbulo da orella esquerda, e a punta da patilla rozáballe nel cada vez que movía a cabeza. Roser anotou que aquela patilla tiña que curvar un pouco máis arriba, lonxe do lóbulo.\n\nDurante tres semanas, entre cliente e cliente, a óptica traballou na montura: recortou a fronte, curvou cada patilla á súa altura e axustou a ponte ao septo de Quim. O traballo manual non admite présas, e ela sábeo ben.\n\nCando Quim volveu, Roser púxolle as lentes novas. Non escorregaron. Ningunha patilla apertaba e o aro do lóbulo quedaba libre. Quim moveu a cabeza dun lado ao outro e riu. «Vou ter que tirar os outros seis pares», dixo.\n\n«Non os tires», respondeulle a óptica. «Tráemos. Os cristais pódense aproveitar.»\n\nPreguntas:\nPor que hai que pedir cita con antelación para ter unhas lentes de Roser?\nPorque fai as monturas a man, e o traballo manual é lento e minucioso.\nQue problema tiñan as orellas de Quim?\nA orella dereita estaba case un centímetro máis abaixo ca esquerda, e unha patilla apertáballe mentres a outra quedaba solta.\nPor que caían as lentes cara á esquerda?\nPorque Quim ten o septo desviado cara a ese lado.\nComo fixo Roser para que a explicación fose comprensible?\nColleu un espello e amosoulle o nariz.\nQue tocaba a punta da patilla esquerda?\nO aro que Quim leva no lóbulo da orella."
+    },
+    {
+      "title": "A canastra de castiñeiro",
+      "summary": "A basket maker in the hills near Antas shows her apprentice how chestnut strips are cut, soaked and woven into a traditional basket.",
+      "newWords": [
+        "canastra",
+        "silvicultura",
+        "remollo",
+        "intemperie",
+        "orballo",
+        "lentitude",
+        "visón"
+      ],
+      "text": "Merchi Requeijo fai canastras desde os quince anos, cando llo ensinou o seu tío. A canastra galega tradicional non se fai con vimbio, senón con tiras finas de castiñeiro, e cada unha leva unha semana de traballo. Hoxe Merchi ten setenta anos e un aprendiz, Kepa, un rapaz de Bilbao que se instalou nunha aldea preto de Antas para aprender o oficio.\n\nO primeiro que lle explicou Merchi foi de onde sae a madeira. De moza estudou silvicultura e traballou anos no coidado dos montes, e sabe que un bo souto se mantén con podas regulares. «A silvicultura non é só plantar árbores», díxolle a Kepa. «É saber cales cortar, cando e canto. Se podas ben un castiñeiro, bota varas novas e dereitas, e esas son as que nos serven.» As varas córtanse no inverno, coa savia parada.\n\nDespois as varas pártense en tiras e póñense a remollo. Merchi ten un pío de pedra xunto ao regato, e alí as deixa varios días, cubertas de auga fría. «Sen remollo, a madeira racha ao dobrala», explicou. Unha mañá, mentres sacaban as tiras do remollo, viron un visón na beira do regato. Era escuro, pequeno e rápido, e meteuse entre as pedras antes de que Kepa puidese sacarlle unha foto. «Ese visón vén todos os anos», dixo Merchi. «Non é de aquí, pero xa é un veciño máis.»\n\nAs tiras mollas gárdanse baixo un alpendre, nunca á intemperie, porque o sol forte as seca demasiado rápido e o vento énchenas de po. A canastra feita, en cambio, aguanta a intemperie anos e anos. Merchi ten unha no patio, chea de leña, que xa leva dez invernos fóra.\n\nAquel outono choveu pouco, pero case todas as mañás caía orballo. A Merchi gustáballe. «Co orballo as tiras non se resecan», díxolle a Kepa, e traballaban no alpendre coa porta aberta, vendo o orballo sobre a herba.\n\nO que máis lle custou a Kepa foi a lentitude do oficio. El quería tecer rápido, e as tiras saíanlle tortas. Merchi deixáballe equivocarse e logo desfacía con el as voltas mal feitas. «A lentitude non é un defecto», dicía. «É a maneira de que a canastra dure corenta anos.»\n\nAo cabo de dúas semanas, Kepa rematou a súa primeira canastra. Non era perfecta, pero aguantaba o peso dun saco de patacas sen moverse. Merchi deulle a volta, mirouna por baixo e asentiu.\n\nPreguntas:\nDe que se fai a canastra galega tradicional?\nFaise con tiras finas de castiñeiro, non con vimbio.\nQue lle ensinou a silvicultura a Merchi?\nQue un bo souto se mantén con podas regulares, e que hai que saber que árbores cortar, cando e canto.\nPor que se poñen as tiras a remollo?\nPorque sen remollo a madeira racha ao dobrala.\nQue viron unha mañá na beira do regato?\nViron un visón, escuro, pequeno e rápido.\nPor que non se gardan as tiras á intemperie?\nPorque o sol forte as seca demasiado rápido e o vento énchenas de po.\nQue pensa Merchi da lentitude do oficio?\nQue non é un defecto, senón a maneira de que a canastra dure corenta anos."
+    },
+    {
+      "title": "A radio que volveu falar",
+      "summary": "A radio restorer in Ferrol measures, cleans and repairs an old valve radio until it plays without distortion.",
+      "newWords": [
+        "voltímetro",
+        "ferruxe",
+        "distorsión",
+        "substancial",
+        "desgrazadamente",
+        "emporiso"
+      ],
+      "text": "Taras restaura radios antigas nun baixo de Ferrol. Vive na cidade desde hai quince anos; traballou nun estaleiro e, cando se xubilou, converteu a súa afección nun pequeno negocio. As paredes do taller están cubertas de andeis con radios de madeira, de baquelita e de plástico, cada unha cunha etiqueta co nome do seu dono.\n\nUnha tarde entrou Yuki cunha radio enorme envolta nunha manta. Herdárana dunha veciña que lle deixara o piso e todo o que había nel. «Acendina unha vez e saíu un ruído horrible», contou. «Pódese arranxar?»\n\nTaras abriu a caixa traseira. Antes de enchufar nada, colleu o voltímetro e mediu os compoñentes un por un. «Nunca acendo unha radio vella sen pasar antes o voltímetro», explicou. «Se hai unha peza mal, pódese queimar o transformador, e iso xa non ten arranxo.» O voltímetro confirmou o que sospeitaba: os condensadores estaban secos.\n\nPor dentro, o chasis de metal estaba cuberto de ferruxe. A radio pasara anos nun faiado con humidade, e a ferruxe comera os parafusos e parte das soldaduras. Taras limpou a ferruxe cun cepillo de arame e un produto especial, e logo pintou o metal para protexelo.\n\nO ruído que oíra Yuki era distorsión. «A distorsión vén dos condensadores secos e dunha válvula gastada», díxolle Taras. «A música chega, pero chega deformada.» Desgrazadamente, aquela válvula xa non se fabrica. Taras tivo que buscala en internet e atopou unha nun taller de Alemaña. Desgrazadamente, tamén, o altofalante tiña o cartón rachado, e houbo que cambialo por outro da mesma época.\n\nA reparación foi substancial: condensadores novos, unha válvula, un altofalante, o chasis limpo e pintado. Taras deulle un orzamento a Yuki e advertiulle que era unha cantidade substancial, máis do que vale a radio nunha tenda de antigüidades. Emporiso, Yuki non dubidou. «Non a quero para vendela», dixo. «Quero oír nela as noticias pola mañá, coma a miña veciña.»\n\nCinco semanas despois, Taras chamouna. Cando Yuki entrou no taller, a radio xa estaba acesa nunha emisora de música clásica. Non había distorsión: o son era cálido e limpo, un pouco abafado, como soan as radios de antes. A radio estaba lonxe de ser perfecta; emporiso, Yuki levouna para a casa abrazada, coma quen leva unha persoa da familia.\n\nPreguntas:\nQue fai Taras antes de enchufar unha radio vella?\nMide os compoñentes un por un co voltímetro.\nPor que tiña ferruxe o chasis?\nPorque a radio pasara anos nun faiado con humidade.\nDe onde viña a distorsión?\nDos condensadores secos e dunha válvula gastada.\nQue problemas atopou Taras desgrazadamente?\nQue a válvula xa non se fabrica e que o altofalante tiña o cartón rachado.\nPor que decidiu Yuki pagar unha reparación tan substancial?\nPorque non quería a radio para vendela, senón para oír nela as noticias pola mañá."
+    },
+    {
+      "title": "Unha dorna nova",
+      "summary": "An old boatbuilder in Bueu and his engineering-student apprentice build a traditional wooden boat by eye, fix a mistake on the starboard side and launch it.",
+      "newWords": [
+        "reto",
+        "eminente",
+        "estribor",
+        "craso",
+        "ápice",
+        "incesante",
+        "decorrer"
+      ],
+      "text": "Gutier Vilachá é carpinteiro de ribeira en Bueu, e leva cincuenta anos facendo barcos de madeira sen planos. Mide co ollo, coa man e cunhas táboas finas que el chama «moldes». Este ano un pescador do porto encargoulle unha dorna, unha embarcación tradicional de proa alta, e Gutier aceptou o reto aínda que xa ten setenta e tantos anos.\n\nÁ carpintería chegou en febreiro Priya, unha estudante de enxeñaría naval que fai a tese sobre os barcos tradicionais. Ía estar alí tres meses, como aprendiz. A súa directora de tese, unha eminente enxeñeira que deu clases en medio mundo, dixéralle: «Os números xa os sabes. Agora vai aprender o que non está nos libros.» Para Priya, aquilo era o maior reto da súa carreira.\n\nAs primeiras semanas Priya só mirou. Gutier colocaba unha táboa en babor e despois a súa compañeira en estribor, e as dúas tiñan que curvar exactamente igual. O golpe do mazo era incesante, de oito da mañá a seis da tarde, e mesturábase co ruído incesante das gaivotas sobre o porto.\n\nEn marzo, Gutier deixoulle colocar unha táboa a ela. Priya mediu, cortou e cravou unha táboa en estribor, orgullosa. Ao día seguinte, Gutier pasou a man polo casco e detívose. A táboa estaba un dedo máis baixa ca de babor. Fora un erro craso, dos que un enxeñeiro descobre no papel e un carpinteiro descobre coa palma da man. «Non pasa nada», dixo Gutier. «Un erro craso só é grave se non o ves.» Quitaron a táboa de estribor e Priya fixo outra.\n\nEn abril visitou a carpintería a eminente directora. Mediu a dorna cos seus aparellos durante unha hora e comparou os números cos dos barcos antigos que estudara. As medidas de Gutier non se desviaban nin un ápice das tradicionais. «Nin un ápice», repetiu a enxeñeira, admirada. «E sen planos.»\n\nOs meses decorreron rápido. Gutier, que non ten présa para nada, dicía que o tempo decorre doutra maneira cando se traballa coas mans. A botadura decorreu nunha mañá de maio, con sol e moita xente no peirao. A dorna entrou na auga, balanceou un pouco cara a estribor e quedou dereita.\n\nPriya volveu á universidade con cadernos cheos de debuxos. Na primeira páxina da súa tese escribiu o nome de Gutier.\n\nPreguntas:\nQue reto aceptou Gutier este ano?\nAceptou facer unha dorna tradicional para un pescador, aínda que xa ten setenta e tantos anos.\nQue lle dixo a Priya a súa eminente directora de tese?\nDíxolle que os números xa os sabía e que agora ía aprender o que non está nos libros.\nQue erro craso cometeu Priya?\nColocou unha táboa en estribor un dedo máis baixa ca de babor.\nQue descubriu a directora ao medir a dorna?\nQue as medidas de Gutier non se desviaban nin un ápice das tradicionais.\nComo decorreu a botadura?\nDecorreu nunha mañá de maio, con sol e moita xente no peirao."
+    },
+    {
+      "title": "Dez mil anos nun corredor",
+      "summary": "An exhibition designer in Ourense plans the glass cases and the timeline of a small prehistory exhibition with a London colleague.",
+      "newWords": [
+        "vitrina",
+        "prehistoria",
+        "espécime",
+        "hemisferio",
+        "equivalencia",
+        "cosmopolita",
+        "aval",
+        "trámite"
+      ],
+      "text": "Milena Ansede deseña exposicións para museos. O seu traballo non se ve, pero nótase: decide onde vai cada obxecto, a que altura, con que luz e en que orde. Este inverno o museo de Ourense encargoulle unha pequena exposición sobre a prehistoria da provincia, nunha sala longa e estreita, case un corredor.\n\nPara os textos e os mapas traballou con Ravi, un deseñador gráfico de Londres que vive en Ourense desde hai cinco anos. Ravi creceu nunha cidade cosmopolita, onde se falan douscentos idiomas, e sempre di que unha exposición ten que entendela calquera visitante, veña de onde veña. «O museo tamén ten que ser cosmopolita», repite.\n\nA primeira idea de Milena foi converter o corredor nunha liña do tempo. Fixeron a conta xuntos: a sala mide dez metros, e a exposición abarca dez mil anos. A equivalencia era perfecta: un metro, mil anos. Ravi pintou no chan unha liña con marcas, e ao comezo da sala puxo un cartel que explicaba a equivalencia en tres idiomas.\n\nAo longo da liña colocaron as vitrinas. Milena quería vitrinas baixas, á altura dos ollos dun neno, porque a metade dos visitantes ían ser grupos escolares. Na primeira vitrina puxeron ferramentas de pedra; na segunda, anacos de cerámica; na última, un machado de bronce.\n\nO obxecto máis delicado era un espécime de carballo fosilizado, atopado nunha turbeira do Xurés. Aquel espécime tiña que estar nunha vitrina pechada, con humidade controlada, e Milena colocouno no centro da sala, onde todo o mundo pasaría ao seu carón.\n\nNa parede do fondo, Ravi debuxou un mapa do hemisferio norte durante a última glaciación, co xeo cubrindo boa parte de Europa. Galicia, ao sur do xeo, aparecía como unha terra verde. Ao lado colocou un pequeno globo: «Así os nenos ven en que hemisferio están e onde estaba o xeo.»\n\nAntes de imprimir os textos, faltaba un trámite importante: o aval científico. Un grupo de arqueólogos da universidade revisou cada cartel e cada data. Corrixiron dúas cifras e unha palabra, e despois asinaron o seu aval. Era o último trámite antes da imprenta, e sen ese aval o museo non inauguraba.\n\nO día da inauguración, unha clase de primaria percorreu o corredor contando os metros en voz alta: «Un, dous, tres... mil, dous mil, tres mil anos!» Milena mirábaos desde a porta. A prehistoria, polo menos aquela mañá, medía exactamente dez metros.\n\nPreguntas:\nQue lle encargou o museo de Ourense a Milena?\nUnha pequena exposición sobre a prehistoria da provincia, nunha sala longa e estreita.\nQue equivalencia usaron na liña do tempo?\nUn metro equivalía a mil anos.\nPor que quería Milena vitrinas baixas?\nPorque a metade dos visitantes ían ser grupos escolares, e as vitrinas tiñan que estar á altura dos ollos dun neno.\nOnde colocou Milena o espécime de carballo fosilizado?\nNunha vitrina pechada, con humidade controlada, no centro da sala.\nQue mostraba o mapa da parede do fondo?\nO hemisferio norte durante a última glaciación, co xeo cubrindo boa parte de Europa.\nQuen deu o aval científico?\nUn grupo de arqueólogos da universidade."
+    },
+    {
+      "title": "A máquina da señora Vega",
+      "summary": "A typewriter repairer in A Coruña restores the machine a retired newspaper typist used for thirty years, and she tells him about her work.",
+      "newWords": [
+        "mecanógrafo",
+        "examinador",
+        "redacción",
+        "masculinidade",
+        "elocuente",
+        "fugaz",
+        "respectuosamente"
+      ],
+      "text": "Arnau arranxa máquinas de escribir nun local pequeno da Coruña. Hai dez anos pensaba que o negocio duraría pouco, pero cada vez lle chegan máis máquinas: tráenas escritores, estudantes de deseño que queren escribir cartas «de verdade» e persoas maiores que gardaron a súa máquina durante décadas.\n\nUnha mañá entrou a señora Vega, unha muller de oitenta anos, cunha Olivetti verde nunha maleta. «Con esta máquina gañei a vida durante trinta anos», díxolle. «Fun mecanógrafa nun xornal.»\n\nMentres Arnau desmontaba a máquina, ela contoulle como conseguira o posto. En 1965 presentouse a un exame no propio xornal. Había vinte candidatas, todas mulleres, porque daquela case ningún home traballaba de mecanógrafo. O examinador, un señor serio de lentes grosas, ditaba un texto e cronometraba cada candidata. «O examinador non dicía nada», lembrou a señora Vega, «só miraba o reloxo e contaba os erros.» Ela escribiu sesenta palabras por minuto sen un só fallo, e ao día seguinte empezou a traballar.\n\nA redacción daquel xornal era unha sala enorme chea de mesas, papeis e teléfonos. Na redacción traballaban corenta homes e catro mulleres, e cada unha delas era mecanógrafa. A señora Vega fala daquela masculinidade sen rancor, pero sen nostalxia: «Era un mundo de gravatas e voces altas. A masculinidade notábase ata no ton dos chistes.» Co tempo foron entrando mulleres xornalistas, e a redacción cambiou.\n\nO seu traballo era pasar a limpo os artigos que os xornalistas escribían a man. O que máis lle gustaba era un columnista moi elocuente, que escribía frases longas e precisas sen riscar nada. «Era elocuente ata na letra», dixo, e riu. Outros, en cambio, entregaban follas que había que adiviñar.\n\nArnau atopou o problema da máquina: unha mola rota e o rolo endurecido. Tivo que encargar a mola en Italia e cambiar a goma do rolo. Durante as tres semanas de espera, a señora Vega pasou dúas veces polo taller para ver como ía.\n\nCando a máquina estivo lista, Arnau púxolle unha folla e deixouna escribir. A señora Vega sentou, colocou as mans e, despois de trinta anos sen tocar unha máquina, escribiu unha liña enteira sen mirar o teclado. Foi un momento fugaz, de poucos segundos, pero Arnau quedou calado. «A memoria das mans é fugaz?», preguntoulle. «Non», respondeu ela. «É a única que non marcha.»\n\nArnau entregoulle a Olivetti respectuosamente, coas dúas mans, como se entrega unha cousa valiosa. Ela agradeceullo e respondeu tamén respectuosamente, tratándoo de vostede, como facía na redacción.\n\nPreguntas:\nPor que había só mulleres no exame de 1965?\nPorque daquela case ningún home traballaba de mecanógrafo.\nQue facía o examinador durante o exame?\nDitaba un texto, miraba o reloxo e contaba os erros.\nComo era a redacción do xornal?\nEra unha sala enorme chea de mesas, papeis e teléfonos, onde traballaban corenta homes e catro mulleres.\nQue columnista lle gustaba máis á señora Vega?\nUn columnista moi elocuente, que escribía frases longas e precisas sen riscar nada.\nQue fixo a señora Vega cando a máquina estivo lista?\nEscribiu unha liña enteira sen mirar o teclado.\nComo lle entregou Arnau a máquina?\nRespectuosamente, coas dúas mans, como se entrega unha cousa valiosa."
+    },
+    {
+      "title": "O menú da leitería",
+      "summary": "A chef in Vigo designs a tasting menu with a nutrition student, using milk from a village dairy, cabbage stalks and tamarind.",
+      "newWords": [
+        "solombo",
+        "puré",
+        "penca",
+        "tamarindo",
+        "nutrición",
+        "leitería",
+        "quecer",
+        "pudin"
+      ],
+      "text": "Karim Lobato é cociñeiro e ten un restaurante pequeno no centro de Vigo. Cada primavera deseña un menú novo de cinco pratos, e para el deseñar un menú é coma deseñar un moble: cada peza ten que encaixar coas outras. Este ano pediulle axuda a Aiko, unha estudante de nutrición que fai as prácticas no restaurante.\n\nO prato principal ía ser solombo de tenreira. Karim compra o solombo a un gandeiro de Lalín, e quería servilo cun puré de patacas e pencas de verza. As pencas son os talos grosos da verza, os que moita xente tira, e Karim queríaas no prato. «As pencas teñen máis sabor do que parece», explicou. Cocíaas pouco, para que quedasen tenras pero enteiras, ao carón do puré.\n\nAiko propuxo cambiar unha parte da pataca do puré por cabaza. «A nutrición non é só contar calorías», dixo. «A cabaza dálle cor ao prato e máis fibra ao puré.» Karim probou o novo puré e aceptou. O solombo, coas pencas e o puré laranxa, quedaba un prato de cores de outono.\n\nPara a salsa do solombo, Karim quería algo ácido. Probou con limón, con mazá e, por último, con tamarindo, unha froita que coñecera na casa da súa avoa, en Marrocos. O tamarindo ten unha polpa escura, doce e ácida ao mesmo tempo. Fixo unha salsa reducida de tamarindo e mel, e Aiko anotou no seu caderno que o tamarindo achega fibra e potasio.\n\nO leite para as sobremesas vén dunha leitería de Moraña, unha das poucas que aínda venden leite fresco directamente da granxa. A leitería é dunha familia que ten trinta vacas, e Karim vai alí cada luns coa furgoneta.\n\nCon ese leite fixo a sobremesa: un pudin de pan e laranxa. Primeiro pon o leite a quecer nunha pota, a lume baixo, con pel de laranxa e canela. Cando o leite quece, sen chegar a ferver, retira a pota e deixa que repouse. Despois mestura o leite co pan duro, os ovos e o azucre, e coce o pudin ao baño maría. Aiko quería reducir o azucre, e o pudin quedou menos doce pero con máis sabor a laranxa.\n\nA primeira noite do menú novo, unha clienta preguntou de onde viña o leite do pudin. Karim saíu da cociña e contoulle a historia da leitería de Moraña. Á semana seguinte, a clienta foi mercar alí o leite.\n\nPreguntas:\nComo compara Karim o deseño dun menú?\nDi que deseñar un menú é coma deseñar un moble, porque cada peza ten que encaixar coas outras.\nCon que serviu o solombo?\nCun puré de patacas e cabaza e con pencas de verza.\nQue son as pencas?\nSon os talos grosos da verza, os que moita xente tira.\nComo é o tamarindo?\nTen unha polpa escura, doce e ácida ao mesmo tempo.\nDe onde vén o leite para as sobremesas?\nDunha leitería de Moraña que vende leite fresco directamente da granxa.\nQue fai Karim co leite antes de facer o pudin?\nPon o leite a quecer con pel de laranxa e canela, sen chegar a ferver."
+    },
+    {
+      "title": "Un parque no outeiro",
+      "summary": "A landscape designer in Beade plans a playground on a slope with a long slide and a wooden donkey, and the neighbours agree on it.",
+      "newWords": [
+        "tobogán",
+        "asno",
+        "concordia",
+        "pompa",
+        "invencible",
+        "fenomenal"
+      ],
+      "text": "Oksana deseña parques infantís. Vive en Beade, un barrio de Vigo con moitas costas, e o concello encargoulle un parque nun terreo con forte pendente, onde antes había unha horta abandonada. Antes de debuxar nada, Oksana convocou unha reunión cos veciños.\n\nA reunión non comezou ben. Uns querían un parque plano, con area e bancos; outros preferían deixar o terreo como estaba. Oksana escoitou todas as opinións e despois explicou a súa idea: aproveitar a pendente en vez de aplanala. Mostrou un debuxo cun tobogán longo, de aceiro, que baixaba pola ladeira desde o alto ata a parte baixa. Pouco a pouco as voces baixaron, e a reunión rematou en concordia. «Cando hai concordia nun barrio», díxolle despois unha veciña, «as cousas fanse rápido.»\n\nNo alto do terreo, xunto á saída do tobogán, Oksana quería unha escultura de madeira para que os nenos subisen nela. Pensou nun cabalo, pero un veciño maior contoulle que naquela horta houbera durante anos un asno, o asno do señor Polidoro, que levaba as patacas ao mercado. Así que a escultura foi un asno de castiñeiro, de orellas longas, que fixo un carpinteiro de Cangas.\n\nPara a parte baixa, Oksana deseñou unha zona plana con area e unha fonte. Na fonte instalou un pequeno aparello que fai pompas de xabón cando os nenos premen un botón. Cada pompa sobe, brilla co sol e rebenta sobre a area, e os nenos máis pequenos pasan o tempo perseguindo cada pompa ata que desaparece.\n\nO seu fillo Lukas, de sete anos, foi o primeiro en probar o parque, unha semana antes da inauguración. Subiu ao asno, baixou polo tobogán sete veces seguidas e, no alto da costa, abriu os brazos. «Mamá, aquí arriba son invencible!», berrou. Oksana riu. Pensou que ese era o mellor xeito de saber se un parque funciona: que un neno se sinta invencible nel.\n\nO día da inauguración había nenos no tobogán, nenos subidos ao asno e nenos correndo detrás de cada pompa de xabón. O señor Polidoro, sentado nun banco, mirou o asno de madeira e dixo que se parecía moito ao seu. «Está fenomenal», díxolle a Oksana. «O parque está fenomenal, e o asno aínda mellor.»\n\nPreguntas:\nOnde ía estar o novo parque?\nNun terreo con forte pendente de Beade, onde antes había unha horta abandonada.\nComo rematou a reunión cos veciños?\nRematou en concordia, despois de que Oksana explicase a súa idea.\nPor que a escultura foi un asno e non un cabalo?\nPorque naquela horta houbera durante anos un asno, o do señor Polidoro.\nQue fai o aparello da fonte?\nFai unha pompa de xabón tras outra cando os nenos premen un botón.\nQue berrou Lukas no alto da costa?\nBerrou que alí arriba era invencible.\nQue dixo o señor Polidoro do parque?\nDixo que o parque estaba fenomenal, e o asno aínda mellor."
+    },
+    {
+      "title": "Un aro de faia",
+      "summary": "A toymaker in Leiro carves a wooden teething ring for her baby, whose first teeth came early and hurt at night.",
+      "newWords": [
+        "cólico",
+        "chorimicar",
+        "enxiva",
+        "prematuramente",
+        "malestar",
+        "soportable"
+      ],
+      "text": "Yasmin fai xoguetes de madeira nun taller detrás da súa casa, en Leiro. Fai trens, cubos con letras e animais de rodas, e véndeos nunha tenda de Ourense e por internet. Hai seis meses naceu a súa filla Sora, e desde entón o taller abre menos horas.\n\nOs primeiros meses foron duros. Sora tiña cólico case todas as tardes: encollía as pernas, choraba e non había forma de calmala. A pediatra explicoulles a Yasmin e ao seu home que o cólico é frecuente nos bebés e que adoita pasar só, cara aos tres ou catro meses. E así foi: un día Sora deixou de chorar polas tardes, e a casa recuperou a calma.\n\nA calma durou pouco. Aos catro meses e medio, Sora empezou a chorimicar polas noites. Non era o choro forte do cólico, senón un queixume baixo e continuo. Chorimicaba, metía as mans na boca e bababa moito. Yasmin mirou e viu que tiña as enxivas inchadas e vermellas. Na enxiva de abaixo xa se adiviñaba un punto branco: o primeiro dente.\n\n«Están saíndolle prematuramente», comentou o seu home. A pediatra, na revisión, díxolles que non: hai bebés aos que os dentes lles saen prematuramente e outros que tardan un ano, e as dúas cousas son normais. Para o malestar, recomendoulles un mordedor frío e moita paciencia.\n\nYasmin mirou os mordedores das tendas. Case todos eran de plástico, e non lle gustaban. Entón fixo o que sabe facer: colleu un anaco de faia, unha madeira dura que non solta astelas, e tallou un aro liso, do tamaño da man de Sora. Lixouno durante unha tarde enteira ata que quedou suave coma unha pedra de río, e deulle unha capa de aceite de oliva, sen vernices nin pinturas.\n\nSora agarrou o aro e levouno á boca. Mordeuno con forza, coas enxivas, e por primeira vez en varios días deixou de chorimicar. O malestar non desapareceu, pero a noite volveuse soportable. «Non é que non chore», contáballe Yasmin á súa nai polo teléfono, «pero agora é soportable.»\n\nSemanas despois, Yasmin fixo outros dez aros de faia e púxoos á venda na tenda de Ourense. Esgotáronse en tres días.\n\nPreguntas:\nQue lle pasaba a Sora os primeiros meses?\nTiña cólico case todas as tardes.\nQue facía Sora polas noites aos catro meses e medio?\nEmpezou a chorimicar, metía as mans na boca e bababa moito.\nComo tiña as enxivas?\nInchadas e vermellas, e na enxiva de abaixo adiviñábase o primeiro dente.\nQue lles dixo a pediatra sobre os dentes que saen prematuramente?\nQue hai bebés aos que os dentes lles saen prematuramente e outros que tardan un ano, e que as dúas cousas son normais.\nDe que fixo Yasmin o mordedor?\nDun anaco de faia, liso e cuberto cunha capa de aceite de oliva.\nComo foi a noite despois do aro?\nA noite volveuse soportable."
+    },
+    {
+      "title": "A raqueta de Olena",
+      "summary": "A racket maker in Pontevedra builds a lighter wooden racket for a retired woman whose therapist told her to change her old one, and explains why tennis balls go flat.",
+      "newWords": [
+        "raqueta",
+        "ocio",
+        "terapeuta",
+        "presurización",
+        "xofre"
+      ],
+      "text": "Jonas fai raquetas de tenis de madeira nun taller de Pontevedra. Hoxe case todas as raquetas son de fibra de carbono, pero hai xogadores que prefiren a madeira, máis flexible e máis silenciosa, e Jonas fai unhas sesenta ao ano, todas a man.\n\nUnha tarde entrou Olena, unha muller xubilada de setenta anos. Xoga ao tenis tres veces por semana, e o tenis é o seu ocio principal desde que deixou de traballar. «Non teño outro ocio», dixo, rindo. «Nin televisión nin xardín: só tenis.» Pero levaba meses cun malestar no cóbado, e a súa terapeuta díxolle que a culpa era da raqueta, demasiado pesada.\n\nJonas preguntou que máis lle dixera a terapeuta. Olena levaba un papel: raqueta lixeira, mango máis groso e cordas menos tensas. A terapeuta explicáralle que un mango fino obriga a apertar máis a man, e esa tensión chega ata o cóbado.\n\nJonas deseñou unha raqueta con láminas de freixo e de nogueira, máis finas que as habituais, e fixo o mango un centímetro máis groso. Mentres encolaba as láminas, Olena preguntoulle por outra cousa que a tiña intrigada: por que as pelotas novas botan tanto e ao mes xa non botan nada.\n\n«É pola presurización», explicou Jonas. «Dentro da pelota hai aire a máis presión que fóra. Por iso os botes das pelotas veñen pechados: a presurización mantense mentres o bote está pechado. Cando o abres, o aire vai saíndo pouco a pouco pola goma, e a pelota perde a presurización.» Despois colleu unha pelota vella, cortouna pola metade e amosoulle a capa de caucho. «Este caucho vulcanízase con xofre. O xofre fai que a goma sexa elástica e resistente. Se cheiras unha pelota nova, ás veces aínda se nota un pouco o xofre.»\n\nTres semanas despois, a raqueta estaba lista. Olena colleuna e moveuna no aire. Pesaba case cen gramos menos ca súa raqueta vella. Ao mes volveu ao taller: xogara doce partidos coa raqueta nova e o malestar do cóbado case desaparecera. A súa terapeuta, dixo, quería o teléfono de Jonas.\n\nPreguntas:\nPor que algúns xogadores prefiren as raquetas de madeira?\nPorque son máis flexibles e máis silenciosas.\nQue é o tenis para Olena?\nÉ o seu ocio principal desde que deixou de traballar.\nQue lle dixo a terapeuta a Olena?\nQue a culpa do malestar do cóbado era da raqueta, demasiado pesada, e que necesitaba unha raqueta lixeira, cun mango máis groso e cordas menos tensas.\nPor que as pelotas perden a presurización?\nPorque, cando se abre o bote, o aire vai saíndo pouco a pouco pola goma.\nPara que serve o xofre no caucho?\nFai que a goma sexa elástica e resistente."
+    }
+  ]
+}
