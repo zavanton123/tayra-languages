@@ -1,0 +1,187 @@
+{
+  "id": "sl-mini-5500",
+  "rankUpTo": 5500,
+  "level": "C1",
+  "title": "Likovna umetnost",
+  "description": "Portraits, interviews, reviews, a lecture report, a column, a workshop, a letter and a diary about painting, sculpture, restoration, film, stage design and public art in Slovenia.",
+  "topic": "Visual arts",
+  "names": [
+    "Bronislava",
+    "Gabrovšek",
+    "Kamnik",
+    "Kranj",
+    "Lavoslav",
+    "Pečovnik",
+    "Maribor",
+    "Jarmila",
+    "Drobnič",
+    "Ptuj",
+    "Mura",
+    "Spomenka",
+    "Ilovar",
+    "Velenje",
+    "Zmagoslav",
+    "Rakovec",
+    "Ljubljana",
+    "Dobroslava",
+    "Intihar",
+    "Celje",
+    "Vladimira",
+    "Novšak",
+    "Slovenija",
+    "Rudolfina",
+    "Hvastja",
+    "Miroslava",
+    "Bizilj",
+    "Slavomira",
+    "Kočevje",
+    "Božidar",
+    "Esih",
+    "Kristijana",
+    "Stojana"
+  ],
+  "lessons": [
+    {
+      "title": "Portret: Kip, ki mora počakati",
+      "summary": "A portrait of sculptor Bronislava Gabrovšek, who casts bronze in an old barn above Kamnik: her alloy, the thickness of the wax, how gravity fills the mould, why the cast must rest, and how her biggest statue went to Kranj by lorry.",
+      "newWords": [
+        "dimnik",
+        "zmes",
+        "debelina",
+        "gravitacija",
+        "mirovati",
+        "trdnost",
+        "bronast",
+        "kamion"
+      ],
+      "text": "Bronislava Gabrovšek že trideset let ustvarja bronaste kipe. Njena delavnica stoji v stari kmečki hiši nad Kamnikom. Tam, kjer so nekoč stale krave, ima zdaj peč z visokim dimnikom. Kadar se iz dimnika dviga gost dim, sosedje vedo, da Bronislava tisti dan lije nov kip.\n\nBron ni čista kovina, ampak zmes bakra in kositra. »Vsak umetnik ima svojo zmes,« pravi Bronislava. »Jaz dam v zmes nekaj več bakra, ker ima potem kip lepšo, bolj rdečo barvo.« Kovino stopi v peči pri več kot tisoč stopinjah. Takrat gre skozi dimnik vroč zrak, v delavnici pa je vroče kot sredi poletja.\n\nPreden lahko lije, mora pripraviti model. Kip najprej oblikuje iz gline, nato pa izdela njegov natančen posnetek iz voska. Pri tem je najpomembnejša debelina stene, saj bo kip na koncu znotraj prazen. Če je stena zelo tanka, se kovina ohladi, preden zapolni ves prostor. Če je zelo debela, je kip zelo težak in lahko poči. »Debelina mora biti na vseh mestih enaka, približno pol centimetra,« razloži Bronislava. Debelino preverja z majhnim merilom, ki ga je naredila sama. Model nato prekrije s plastjo posebne mase in vse skupaj da v peč. Vosek se stopi in izteče, v masi pa ostane prazen prostor v obliki kipa.\n\nV ta prostor nato spusti tekočo kovino. Pri tem ji pomaga gravitacija. Formo postavi tako, da kovina sama teče od zgoraj proti dnu in zapolni vsak kotiček. »Gravitacija je moja najboljša pomočnica,« se nasmehne. »Če formo postavim narobe, gravitacija ne more opraviti svojega dela in v kipu ostanejo luknje.«\n\nNato pride na vrsto potrpljenje. Kip mora v formi mirovati vsaj dva dni. Medtem se kovina počasi ohladi in dobi svojo trdnost. Če bi kip vzela ven prezgodaj, bi bila njegova trdnost manjša in bi lahko počil. Mladi umetniki, ki prihajajo k njej na tečaje, se morajo tega naučiti najprej. »Ko kip miruje, mora mirovati tudi umetnik,« jim pravi.\n\nPrav zaradi svoje trdnosti bronasti kipi na mestnih trgih stojijo stoletja. Bronasti kip ne razpade kot les in se ne zlomi kot glina. S časom ga prekrije le tanka zelena plast, ki ga celo ščiti pred vremenom.\n\nLani je Bronislava končala svoj največji kip: bronasto žensko s košaro jabolk, visoko dva metra in pol, za trg v Kranju. Kip je bil tako težak, da so ga morali odpeljati s kamionom. Kamion je vozil zelo počasi, Bronislava pa je ves čas sedela ob vozniku. Ko je kamion prispel na trg, je tam že čakalo veliko ljudi. Z dvigalom so kip previdno postavili na njegovo mesto. »Tisto noč sem prvič po dveh mesecih res mirno spala,« pravi Bronislava.\n\nVprašanja:\nIz česa je zmes, ki ji pravimo bron?\nBron je zmes bakra in kositra, Bronislava pa da vanjo nekaj več bakra.\nZakaj je tako pomembna debelina stene?\nKer kovina zelo tanke stene ne zapolni do konca, zaradi zelo debele stene pa je kip zelo težak in lahko poči.\nKako Bronislavi pri delu pomaga gravitacija?\nZaradi gravitacije kovina sama teče od zgoraj proti dnu in zapolni vsak kotiček forme.\nZakaj mora kip dva dni mirovati?\nKer se mora počasi ohladiti, da kovina dobi svojo trdnost.\nZakaj bronasti kipi na trgih stojijo tako dolgo?\nKer je bron trden, ne razpade kot les in se ne zlomi kot glina.\nKako so največji kip pripeljali v Kranj?\nOdpeljali so ga s kamionom, ki je vozil zelo počasi."
+    },
+    {
+      "title": "Intervju: Slika s podstrešja",
+      "summary": "Restorer Lavoslav Pečovnik explains how a painting found in an attic was damaged by swings in temperature and by mould, why its varnish turned brown, what lead white shows on an X-ray, how he cleaned it step by step and which conditions it needs now.",
+      "newWords": [
+        "podstrešje",
+        "nihanje",
+        "okužiti",
+        "staranje",
+        "svinec",
+        "postopno",
+        "oživiti",
+        "parameter"
+      ],
+      "text": "Restavrator Lavoslav Pečovnik že dvajset let popravlja stare slike v svoji delavnici v Mariboru. Lani mu je neka družina prinesla veliko sliko v težkem okvirju, ki so jo našli na podstrešju, ko so menjali streho. Slika je bila temna, umazana in polna plesni. Danes visi v mestnem muzeju. Vprašali smo ga, kako je potekalo njegovo delo.\n\nV kakšnem stanju je bila slika, ko ste jo prvič videli?\n\nV slabem. Na podstrešju je ležala najmanj petdeset let, zavita v staro odejo. Podstrešje je za sliko najslabši prostor, kar si ga lahko zamislimo. Poleti je pod streho zelo vroče, v zimskih mesecih pa mrzlo. To nihanje temperature platnu zelo škodi. Ob vsaki spremembi se platno malo razširi ali skrči, plast barve pa tega ne zmore, zato dobi drobne razpoke. Več let takega nihanja pusti na sliki na tisoče razpok.\n\nKaj pa plesen?\n\nKo je vlage preveč, plesen hitro okuži platno. Zato sem sliko najprej dal v posebno sobo, saj plesen rada okuži tudi druge predmete v delavnici. Če plesen okuži platno globoko, ga je težko rešiti. Na srečo je bila tukaj samo na površini.\n\nZakaj je bila slika tako temna?\n\nZaradi staranja laka. Slikar je čez barve dal tanko plast laka, ki z leti postane rumen in nato rjav. Zaradi staranja je bila slika videti, kot bi jo gledali skozi rjavo steklo. Staranje barv je počasnejše in se pri vsaki barvi kaže drugače: nekatere se skoraj ne spremenijo, druge postanejo temnejše.\n\nKako ste ugotovili, kaj je pod rjavo plastjo?\n\nNaredili smo rentgenski posnetek. Stari slikarji so belo barvo delali iz svinca. Svinec žarkov skoraj ne prepusti, zato so bele površine na posnetku zelo svetle. Tako sem videl, kje je slikar uporabil največ bele barve, in celo to, da je nekoč na sliki stala še ena hiša, ki jo je pozneje prekril z barvo. Barv s svincem danes skoraj ne uporabljamo več.\n\nKako ste se lotili čiščenja?\n\nPostopno. Pri tem delu ne smeš hiteti. Najprej sem z mehkim čopičem odstranil prah. Nato sem postopno, košček za koščkom, odstranil stari lak. Pod rjavo plastjo se je počasi pokazala pokrajina z reko, modrim nebom in zelenimi polji. Tako sem oživil barve, ki jih nihče ni videl pol stoletja. Ko restavrator oživi staro sliko, ima vedno občutek, da jo tudi sam vidi prvič.\n\nKaj slika potrebuje zdaj?\n\nZa vsako sliko določimo parametre okolja: temperaturo, vlago in svetlobo. Za to sliko je primerna temperatura okoli dvajset stopinj in vlaga okoli petdeset odstotkov. Muzej oba parametra meri vsako uro. Če se kateri od parametrov spremeni, sistem opozori osebje. Družina, ki je sliko našla, pa jo zdaj pogosto obišče.\n\nVprašanja:\nZakaj je podstrešje slab prostor za sliko?\nKer je pod streho poleti zelo vroče, v zimskih mesecih pa mrzlo, in to nihanje temperature platnu škodi.\nZakaj je Lavoslav sliko najprej dal v posebno sobo?\nKer plesen rada okuži tudi druge predmete v delavnici.\nZakaj je bila slika tako temna?\nZaradi staranja laka, ki z leti postane rumen in nato rjav.\nKaj je pokazal rentgenski posnetek?\nPokazal je, kje so bele barve s svincem, in hišo, ki jo je slikar pozneje prekril z barvo.\nKako je Lavoslav sliko čistil?\nČistil jo je postopno, košček za koščkom, in tako oživil njene barve.\nKatere parametre muzej meri vsako uro?\nMuzej meri temperaturo in vlago."
+    },
+    {
+      "title": "Ocena razstave: Ravnina v dvanajstih mesecih",
+      "summary": "A review of Jarmila Drobnič's exhibition in Ptuj: twelve paintings of the same field through the year, the hedges and the old linden tree of her village, a tiny ant hidden in one canvas, and a painting of a solar eclipse over the plain.",
+      "newWords": [
+        "ravnina",
+        "njiva",
+        "grm",
+        "listje",
+        "lipa",
+        "mravlja",
+        "mrk",
+        "očarati"
+      ],
+      "text": "V galeriji v Ptuju je do konca meseca na ogled razstava Jarmile Drobnič. Umetnica živi v majhnem kraju ob Muri in že več kot dvajset let slika eno samo pokrajino: ravnino, na kateri je preživela otroštvo. Nekdo bi rekel, da je ravnina dolgočasna, saj na njej ni gora ne slapov. Po ogledu razstave tega ne bo rekel nihče.\n\nOsrednji del razstave je dvanajst slik iste njive. Umetnica je eno leto vsak mesec sedla na isto mesto ob robu njive in jo slikala. Januarja je njiva siva in prazna, aprila jo prekrije nežna zelena barva, julija je rumena od žita, novembra pa temno rjava, saj so jo kmetje že obdelali. Ko obiskovalec hodi od slike do slike, ima občutek, da se pred njim vrti celo leto. Njiva tako postane nekakšen koledar, ki ne kaže dni, ampak letne čase.\n\nRavnina pa ni nikoli povsem prazna. Ob robu njiv rastejo dolge vrste grmov, ki jih ljudje ob Muri sadijo kot zaščito pred vetrom. Jarmila Drobnič jih slika z veliko ljubezni: vsak grm ima svojo obliko in svojo senco. Jeseni postane listje grmov rdeče in rumeno, v zimskih mesecih pa ostanejo le gole veje. Na eni od slik veter nosi listje čez njivo, in kdor dolgo gleda, ga skoraj sliši.\n\nPosebno mesto ima na razstavi stara lipa sredi kraja, kjer živi umetnica. Lipa je visoka kot hiša in stara več sto let. Pod njo so se včasih zbirali ljudje iz vse okolice, danes pa se v njeni senci igrajo otroci. Umetnica jo je slikala v cvetu, ko lipa diši tako močno, da jo začutiš že s ceste. Ob sliki visi kratko besedilo, v katerem piše, da je pod to lipo kot deklica prvič risala.\n\nNajveč obiskovalcev se ustavi pred veliko sliko travnika. Med travami je namreč skrita drobna mravlja, ki ni večja od nohta. Umetnica pravi, da je mravlja njen podpis. Ljudje mravljo iščejo tudi po več minut, otroci pa jo najdejo skoraj takoj.\n\nNa koncu razstave visi temna slika z naslovom Mrk. Ko je bil pred nekaj leti nad ravnino delni sončni mrk, je Jarmila Drobnič sedla sredi polja. V nekaj minutah je na platno ujela čudno, sivo svetlobo, v kateri so ptice nehale peti. Mrk je trajal manj kot dve uri, slika pa zdaj obiskovalcem pokaže, kako je bila ravnina videti tisto jutro.\n\nRazstava me je očarala, ker pokaže, koliko lepega skriva pokrajina, mimo katere se večina ljudi pelje brez pogleda. Prepričan sem, da bo očarala tudi vas. Slike ne kričijo, ampak tiho vabijo, naj se ustavimo. Ko sem zapustil galerijo, sem ravnino skozi okno avtobusa gledal z drugimi očmi.\n\nVprašanja:\nKatero pokrajino slika Jarmila Drobnič?\nSlika ravnino ob Muri, na kateri je preživela otroštvo.\nKaj je osrednji del razstave?\nOsrednji del je dvanajst slik iste njive, ki jih je naslikala v enem letu, vsak mesec eno.\nZakaj ljudje ob Muri sadijo grme ob robu njiv?\nGrme sadijo kot zaščito pred vetrom.\nKaj umetnici pomeni stara lipa sredi kraja?\nPod to lipo je kot deklica prvič risala.\nKje je skrita mravlja?\nMravlja je skrita med travami na veliki sliki travnika in je umetničin podpis.\nKako je Jarmila Drobnič naslikala mrk?\nKo je bil mrk, je sedla sredi polja in v nekaj minutah naslikala njegovo sivo svetlobo."
+    },
+    {
+      "title": "Delavnica: Pingvini iz časopisnega papirja",
+      "summary": "In a library workshop in Velenje, Spomenka Ilovar shows children how to make papier-mâché penguins with flour paste instead of shop glue, which once gave a boy a rash, and how to paint them with a few handy tools.",
+      "newWords": [
+        "pingvin",
+        "moka",
+        "izpuščaj",
+        "priročen",
+        "tresti",
+        "namizen",
+        "kanček"
+      ],
+      "text": "Vsako sredo po pouku se v knjižnici v Velenju zbere dvanajst otrok med sedmim in desetim letom. Delavnico vodi učiteljica likovne umetnosti Spomenka Ilovar. Ta mesec otroci izdelujejo pingvine iz starih časopisov.\n\nSpomenka najprej pokaže fotografijo pravih pingvinov. »Pingvin ima okroglo telo, majhno glavo in kratka krila,« razloži. »Na hrbtu je črn, na trebuhu pa bel.« Nato vsak otrok dobi balon. Balon bo telo pingvina.\n\nSpomenka ne uporablja lepila iz trgovine. Vsak teden v veliki posodi zmeša moko in vodo, da dobi gosto, belo maso. »Moka je poceni, nima vonja in se z rok hitro umije,« pravi. Pred leti se je enemu od dečkov po lepilu iz trgovine na rokah pojavil rdeč izpuščaj. Izpuščaj je po nekaj dneh izginil, Spomenka pa se je takrat odločila, da bo uporabljala samo moko in vodo. Od takrat noben otrok ni več dobil izpuščaja.\n\nOtroci iz časopisa naredijo ozke trakove, jih dajo v maso iz moke in jih drug za drugim položijo na balon, plast za plastjo. Ko je papir suh, Spomenka iz balona previdno spusti zrak, v rokah pa ostane lahko, prazno telo pingvina. Glavo in krila naredijo iz papirja, ki ga stisnejo v roki.\n\nPotem pride na vrsto barva. Spomenka ima škatlo, v kateri so priročni pripomočki, ki jih je zbrala doma: stare zobne ščetke, žlice, kozarci in lesene palice. »Za majhne točke je stara zobna ščetka bolj priročna od vsakega čopiča,« pravi. Preden otroci odprejo barve, morajo stekleničke dobro tresti, da se barva v njih zmeša. Otroci jih tresejo tako zavzeto, da se vsi smejejo. »Najprej tresti, potem odpreti!« jim ponavlja Spomenka.\n\nPri delu otrokom pomagajo namizne svetilke. Spomenka jih postavi na vsako mizo, da otroci dobro vidijo podrobnosti. Namizna svetilka tudi malo greje, zato je barva pod njo hitreje suha. Na koncu vsak pingvin dobi še oranžen kljun in oranžne noge. Za kljun zadostuje kanček barve, a delati je treba natančno. »Samo kanček!« ponovi Spomenka, ko eden od dečkov na kljun da pol stekleničke. Z malo vode in kančkom potrpljenja je pingvin spet lep.\n\nOb koncu delavnice na polici v knjižnici stoji dvanajst pingvinov, vsak malo drugačen. Nekateri so debeli, drugi suhi, eden ima celo šal. Starši jih lahko odnesejo domov naslednji teden, ko bodo pingvini povsem suhi.\n\nVprašanja:\nIz česa otroci izdelujejo pingvine?\nIzdelujejo jih iz starih časopisov, ki jih položijo na balon.\nZakaj Spomenka uporablja moko namesto lepila iz trgovine?\nKer se je enemu od dečkov po lepilu iz trgovine na rokah pojavil izpuščaj.\nKateri pripomočki so priročni za delo z barvo?\nPriročni pripomočki so stare zobne ščetke, žlice, kozarci in lesene palice.\nZakaj morajo otroci tresti stekleničke?\nDa se barva v njih dobro zmeša.\nZakaj so na mizah namizne svetilke?\nDa otroci vidijo podrobnosti in da je barva hitreje suha.\nKoliko barve potrebuje kljun?\nZa kljun zadostuje kanček oranžne barve."
+    },
+    {
+      "title": "Poročilo s predavanja: Prve gibljive slike",
+      "summary": "A report on a library lecture in Ljubljana in which film historian Zmagoslav Rakovec explained the illusion of movement, the inventors' early prototypes, film formats, the first public screenings and the season's programme.",
+      "newWords": [
+        "iluzija",
+        "pionir",
+        "prototip",
+        "format",
+        "projekcija",
+        "privabiti",
+        "spored"
+      ],
+      "text": "V četrtek je v knjižnici v Ljubljani predaval filmski zgodovinar Zmagoslav Rakovec. Predavanje z naslovom Kako so se slike začele premikati je bilo prvo v letošnjem ciklu o zgodovini vizualnih umetnosti. Dvorana je bila polna do zadnjega sedeža.\n\nPredavatelj je začel s preprostim vprašanjem: zakaj vidimo gibanje, kjer ga ni? Film je namreč le vrsta mirujočih slik, ki si hitro sledijo. Če pred očmi v eni sekundi zamenjamo dovolj slik, jih možgani povežejo v gibanje. Ta iluzija je osnova vsakega filma. »Kino je v resnici velika in zelo lepa iluzija,« je dejal Rakovec. Iluzija gibanja je bila ljudem znana že dolgo prej, kot je nastal film, saj so otroci že v 19. stoletju vrteli bobne s slikami in gledali skakajoče konje.\n\nNato je govoril o tem, kdo so bili pionirji filma. Ti pionirji niso bili umetniki, ampak večinoma izumitelji, fotografi in obrtniki. Vsak od njih je v svoji delavnici sestavil prototip naprave, ki naj bi slike posnela in jih pokazala ljudem. Rakovec je na platnu pokazal fotografije več takih naprav. Prvi prototip je bil pogosto velik, težak in hrupen, drugi in tretji pa sta bila že precej manjša. Nekateri pionirji so delali po več let, preden je njihov prototip zares deloval.\n\nZanimiv del predavanja je bil posvečen formatu filma. Vsak izumitelj je sprva uporabljal svoj format traku, zato filma, posnetega z eno napravo, ni bilo mogoče predvajati z drugo. Sčasoma se je uveljavil trak, širok 35 milimetrov. Ta format se je obdržal več kot sto let in ga nekateri režiserji uporabljajo še danes.\n\nNajbolj živahno je bilo, ko je Rakovec opisal prve javne projekcije. Na njih je močna luč slike metala na belo platno. Projekcija je trajala le nekaj minut, a ljudje so plačali, da so jo videli. Ena od prvih projekcij je prikazala vlak, ki pripelje na postajo, in obiskovalci so baje skočili s stolov. Rakovec je dodal, da je zgodba verjetno pretirana, a dobro pokaže, kako močna je bila nova iluzija.\n\nPrvi filmi so ljudi privabili s preprostimi prizori iz vsakdanjega življenja: delavci zapuščajo tovarno, otrok zajtrkuje, morje udarja ob obalo. Kmalu so lastniki kinov ugotovili, da gledalce najbolj privabi zgodba. Tako so nastali prvi kratki igrani filmi.\n\nNa koncu je predavatelj odgovarjal na vprašanja. Organizatorji so povedali, da je spored cikla objavljen na spletni strani knjižnice. Po sporedu bo naslednje predavanje čez dva tedna, govorilo pa bo o zgodovini barvne fotografije.\n\nVprašanja:\nZakaj vidimo gibanje, ko gledamo film?\nKer možgani hitro zaporedje mirujočih slik povežejo v gibanje; to je iluzija.\nKdo so bili pionirji filma?\nVečinoma so bili izumitelji, fotografi in obrtniki.\nKaj je vsak od njih sestavil v svoji delavnici?\nSestavil je prototip naprave, ki naj bi slike posnela in jih pokazala ljudem.\nKateri format filma se je uveljavil?\nUveljavil se je trak, širok 35 milimetrov.\nS čim so prvi filmi privabili ljudi?\nPrivabili so jih s preprostimi prizori iz vsakdanjega življenja.\nKje je objavljen spored cikla?\nSpored je objavljen na spletni strani knjižnice."
+    },
+    {
+      "title": "Intervju: Labirint na odru",
+      "summary": "Stage designer Dobroslava Intihar talks about the cloth labyrinth she built for a children's play in Celje: how the audience sees shadows through the walls, why the set is team work, how she tested the materials, the spare parts, the costume fittings and the cat's little bell.",
+      "newWords": [
+        "uprizoritev",
+        "labirint",
+        "kolektiven",
+        "preizkušati",
+        "nadomesten",
+        "pomeriti",
+        "zvonec"
+      ],
+      "text": "Dobroslava Intihar je pripravila sceno za novo uprizoritev v gledališču v Celju. Gre za igro za otroke o dečku, ki v velikem vrtu išče svojo mačko. Uprizoritev je bila prvič na odru prejšnji teden in vse predstave do konca meseca so že razprodane. Z Dobroslavo smo se pogovarjali o tem, kako je nastajala scena.\n\nKje se je začelo vaše delo?\n\nPri besedilu in v pogovorih z režiserjem. V zgodbi je vrt v resnici labirint, v katerem se deček izgublja. Takoj sem vedela, da mora biti labirint glavni del scene. A labirint na odru je težka naloga. Igralci se morajo med stenami izgubljati, gledalci pa jih morajo ves čas videti.\n\nKako ste to rešili?\n\nStene labirinta so iz tankega belega blaga, ki je napeto na lesene okvirje. Ko luč sveti od zadaj, gledalci skozi blago vidijo senco mačke, deček na drugi strani stene pa je ne vidi. Tako otroci v dvorani vedo več kot junak in mu glasno pomagajo, kam naj gre. Stene stojijo na kolesih, zato se labirint med predstavo večkrat spremeni.\n\nSte vse to naredili sami?\n\nNikakor. Scena je kolektivno delo. Jaz narišem načrt, v delavnici izdelajo okvirje, slikarji pobarvajo blago, tehniki pa poskrbijo za luč. Brez kolektivnega dela v gledališču ne nastane nič. Ko je uprizoritev končana, je vsak, ki je pri njej sodeloval, malo tudi avtor scene. Prav to kolektivno ustvarjanje mi je pri gledališču najljubše.\n\nKako ste izbrali blago?\n\nDolgo sem ga preizkušala. Dva tedna smo v delavnici preizkušali različne vrste blaga. Nekatere so bile pretemne in senca se ni videla, druge so se hitro strgale. Igralci so se mi smejali, ker sem jih prosila, naj se zaletavajo v stene. Vse preizkušamo tako dolgo, dokler nismo prepričani, da je scena varna.\n\nKaj se zgodi, če se med predstavo kaj pokvari?\n\nZa vsak del scene imamo nadomestne dele. Če se blago strga, ga tehnik v nekaj minutah zamenja z nadomestnim. V skladišču imamo tudi nekaj nadomestnih koles, saj se ta pri hitrem premikanju sten najhitreje pokvarijo.\n\nSte sodelovali tudi pri kostumih?\n\nKostume je pripravila druga oblikovalka, a sva tesno sodelovali, da se barve ujemajo. Najlepši trenutek je bil, ko so igralci prvič pomerili kostume na odru, med stenami labirinta. Mačko igra visoka igralka, ki je svoj kostum pomerila kar trikrat, ker se ji je dolgi rep ujel med okvirje. Zdaj je rep krajši, igralci pa kostume pomerijo še pred vsako predstavo.\n\nKakšno vlogo ima zvonec, ki ga nosi mačka?\n\nMačka ima okoli vratu majhen zvonec. Deček jo na koncu najde prav po zvoku zvonca. Zvonec smo dolgo iskali, saj mora zveneti tako glasno, da ga slišijo tudi v zadnji vrsti, a ne sme biti neprijeten. Ko na koncu predstave zazveni, otroci v dvorani vedno zaploskajo.\n\nVprašanja:\nO čem govori nova uprizoritev v Celju?\nGovori o dečku, ki v velikem vrtu išče svojo mačko.\nZakaj gledalci vidijo mačko, deček pa ne?\nKer luč sveti od zadaj in gledalci skozi blago vidijo njeno senco.\nZakaj Dobroslava pravi, da je scena kolektivno delo?\nKer pri njej sodelujejo slikarji, tehniki in delavnica, ki izdela okvirje.\nKako dolgo so preizkušali blago?\nBlago so preizkušali dva tedna.\nKaj naredi tehnik, če se blago strga?\nZamenja ga z nadomestnim.\nKako deček na koncu najde mačko?\nNajde jo po zvoku zvonca, ki ga ima okoli vratu."
+    },
+    {
+      "title": "Kolumna: Komu pripada kip na trgu",
+      "summary": "In her column, Vladimira Novšak weighs the arguments in a dispute over cleaning an old bronze statue blackened by traffic fumes: the city's custodians, the ethics of restoration, the sculptor's explicit wishes, a fence that would stop children climbing it and the choice of the restorer.",
+      "newWords": [
+        "onesnaževanje",
+        "skrbnik",
+        "etika",
+        "izrecen",
+        "onemogočiti",
+        "konkurenčen"
+      ],
+      "text": "Na glavnem trgu našega mesta že skoraj sto let stoji bronast kip deklice z gosjo. Generacije otrok so ji božale glavo in sedele gosji na hrbtu. V zadnjih desetletjih pa je kip postal skoraj črn. Krivo je onesnaževanje zraka, saj ob trgu vsak dan pelje na tisoče avtomobilov. Mesto se je zato odločilo, da bo kip očistilo, in v mestu se je začela razprava, kakršne nismo imeli že dolgo.\n\nZa kipe in druga umetniška dela na javnih mestih skrbijo mestni skrbniki dediščine. Skrbniki so predlagali, naj kip očistijo samo toliko, da onesnaževanje ne bi več škodilo kovini. Tanka zelena plast, ki se je na bronu nabrala v sto letih, bi ostala. Ljudje, ki so se oglasili v časopisu, pa so bili razdeljeni. Eni si želijo deklico, ki se sveti kot nova. Drugi pravijo, da kip brez sledi časa ni več isti kip.\n\nObe strani imata prav. Etika restavriranja pravi, da restavrator ne sme izbrisati zgodovine predmeta. Kip, ki so ga sto let močili dež in božale otroške roke, nosi to zgodovino na svoji površini. A etika ni samo stvar strokovnjakov. Kip stoji na trgu za ljudi in ljudje imajo pravico, da o njem povedo svoje.\n\nPomagala je mapa iz mestnega arhiva. Avtor kipa je v pismu mestu izrecno zapisal, da želi, da bi kip s časom »postal del trga, kot so del trga drevesa in kamni«. Izrecne želje avtorja ne moremo prezreti. Zdi se mi, da je s tem izrecno povedal, da kip ne potrebuje sijaja.\n\nDruga razprava je še bolj živahna. Skrbniki bi okoli kipa radi postavili nizko ograjo, ki bi otrokom onemogočila plezanje na gos. Ograja bi res zaščitila kip, a bi onemogočila tudi tisto, zaradi česar ga imamo radi. Kip, ki se ga ne smeš dotakniti, postane le še predmet v muzeju. Raje bi videla, da bi skrbniki enkrat na leto preverili, ali je kip trden, in da bi ga otroci še naprej lahko božali.\n\nDobra novica je, da bo delo opravila izkušena restavratorka iz Ljubljane. Mesto jo je izbralo na javnem razpisu, na katerem je bilo pet ponudb. Njena ponudba ni bila najcenejša, a je bila konkurenčna, saj vključuje tudi pregled kipa vsakih pet let. Konkurenčni postopek je pokazal, da v Sloveniji ni malo ljudi, ki znajo ravnati s takimi deli.\n\nUpam, da bo deklica z gosjo jeseni spet na svojem mestu, malo svetlejša, a še vedno naša. In upam, da bo mesto naredilo kaj tudi proti onesnaževanju, saj bo sicer čez dvajset let spet črna.\n\nVprašanja:\nZakaj je kip deklice z gosjo postal skoraj črn?\nKrivo je onesnaževanje zraka zaradi prometa ob trgu.\nKaj so predlagali skrbniki dediščine?\nPredlagali so, naj kip očistijo le toliko, da onesnaževanje ne bi več škodilo kovini.\nKaj pravi etika restavriranja?\nRestavrator ne sme izbrisati zgodovine predmeta.\nKaj je avtor kipa izrecno zapisal v pismu?\nZapisal je, da želi, da bi kip s časom postal del trga.\nZakaj avtorica kolumne ne mara ograje?\nKer bi otrokom onemogočila, da bi se kipa dotikali in ga božali.\nZakaj je bila ponudba restavratorke konkurenčna?\nKer ni bila draga in vključuje tudi pregled kipa vsakih pet let."
+    },
+    {
+      "title": "Slikarka v zdravilišču",
+      "summary": "Retired pharmaceutical chemist Rudolfina Hvastja spends three weeks at a spa for her back, is restless at first, starts painting the old bathhouse with watercolours bought from her pension, shelters from a storm under the arcades and ends up leading a small painting group.",
+      "newWords": [
+        "farmacevtski",
+        "pokojnina",
+        "zdravilišče",
+        "nemiren",
+        "kopališče",
+        "zateči",
+        "zaživeti"
+      ],
+      "text": "Rudolfina Hvastja je trideset let delala kot kemičarka v farmacevtski tovarni. V farmacevtskem laboratoriju je bilo vse natančno izmerjeno in zapisano, vsak dan je bil podoben prejšnjemu. Ko je šla v pokoj, si je obljubila, da bo končno počela nekaj, kar ni natančno. Že s prvo pokojnino si je kupila škatlo vodenih barv, mapo dobrega papirja in tri čopiče.\n\nLani jeseni jo je začel boleti hrbet. Zdravnica ji je svetovala tri tedne v zdravilišču, kjer bi hodila na kopeli in vaje. Rudolfina je izbrala majhno zdravilišče v hribih, kjer ljudje že sto let prihajajo k toplim vrelcem. Barve je vzela s seboj, čeprav ni verjela, da bo imela čas zanje.\n\nPrve dni je bila zelo nemirna. Vstajala je ob šestih, kot je bila navajena, in ni vedela, kaj bi z dnevom. Med vajami je ves čas gledala na uro, popoldne pa je nemirno hodila po parku. »Nemirni ljudje se tukaj počasi umirijo,« ji je rekla starejša gospa, ki je bila v zdravilišču že petič.\n\nČetrti dan je Rudolfina v parku sedla na klop nasproti starega kopališča. Kopališče je bilo zgrajeno pred več kot sto leti, z visokimi okni, rumeno fasado in streho iz zelenega bakra. Danes se ljudje kopajo v novi stavbi, staro kopališče pa je odprto le za obiske. Odprla je mapo in ga začela risati.\n\nPopoldne se je nebo zatemnilo in začelo je močno deževati. Rudolfina se je z mapo pod roko zatekla pod streho pred vhodom v kopališče. Tja so se zatekli še trije gostje zdravilišča. Med čakanjem so gledali njeno risbo. »Vi pa znate,« je rekel eden od njih. »Ne znam,« se je nasmehnila Rudolfina. »Učim se.«\n\nNaslednje dni je slikala vsako popoldne. Ko je dež spet začel padati, se je zatekla v kavarno in slikala skozi okno. Na njenih listih je kopališče počasi zaživelo: zjutraj modro in mirno, opoldne svetlo, zvečer rdeče v soncu. Tudi Rudolfina je zaživela. Hrbet jo je bolel manj in nemirnih dni ni bilo več.\n\nTretji teden so ob njej sedeli že štirje gostje z listi papirja. Vodja zdravilišča ji je ponudil, da bi v dvorani pripravili majhno razstavo. Na zadnji dan je na steni viselo dvajset slik starega kopališča. Rudolfina zdaj enkrat na mesec vodi slikanje za upokojence v svojem kraju. Pravi, da je njena pokojnina zdaj vredna več kot prej, saj ji je prinesla nov način življenja.\n\nVprašanja:\nKje je Rudolfina delala, preden je šla v pokoj?\nTrideset let je delala kot kemičarka v farmacevtski tovarni.\nKaj si je kupila s prvo pokojnino?\nKupila si je škatlo vodenih barv, mapo papirja in tri čopiče.\nKakšna je bila prve dni v zdravilišču?\nBila je zelo nemirna in ni vedela, kaj bi z dnevom.\nKaj je začela risati četrti dan?\nZačela je risati staro kopališče z visokimi okni in rumeno fasado.\nKam se je zatekla, ko je začelo deževati?\nZatekla se je pod streho pred vhodom v kopališče.\nKaj Rudolfina počne zdaj?\nEnkrat na mesec vodi slikanje za upokojence v svojem kraju."
+    },
+    {
+      "title": "Pismo s poti: Stena za zavetišče",
+      "summary": "In a letter to her sister, muralist Miroslava Bizilj describes driving her old van to an animal shelter, a flat tyre and a faulty valve, finding the right wall with a compass, the triple layer of paint, and finishing a forty-metre mural in five days.",
+      "newWords": [
+        "zavetišče",
+        "pnevmatika",
+        "ventil",
+        "registrski",
+        "kompas",
+        "trojen",
+        "podvig"
+      ],
+      "text": "Draga Slavomira,\n\npišem ti iz zavetišča za živali pri Kočevju, kjer že pet dni slikam veliko steno. Ne boš verjela, kaj vse se mi je zgodilo, zato ti pišem pismo in ne le kratkega sporočila.\n\nŽe na poti sem imela težave. Sredi gozda je moj stari kombi začel čudno vleči v desno. Ustavila sem se in videla, da je desna sprednja pnevmatika skoraj prazna. Nimam veliko izkušenj z avtomobili, a rezervno pnevmatiko imam vedno s seboj. Medtem ko sem se trudila z orodjem, se je ustavil mlad kmet s traktorjem. Pogledal je staro pnevmatiko in rekel, da ni luknje, ampak da je pokvarjen ventil. Ventil je majhen, a če ne tesni, gre zrak počasi ven. V bližnjem kraju mi je potem v delavnici zamenjal ventil na obeh sprednjih kolesih.\n\nKo sva čakala, je kmet opazil moje registrske tablice. »Iz Celja ste,« je rekel. »Kaj pa delate tukaj, tako daleč?« Povedala sem mu o zavetišču. Izkazalo se je, da je pred leti od tam vzel psa, ki mu zdaj pomaga na kmetiji. Na registrski tablici imam namreč tudi majhno nalepko s psom, ki mi jo je podarila tvoja hči, in prav ta ga je spodbudila, da me je ogovoril.\n\nLjudje iz zavetišča so me lepo sprejeli. Vodja zavetišča si želi, da bi na zunanji steni nastala slika, ki bi privabila obiskovalce in nove lastnike. Najprej sem morala izbrati steno. Vzela sem kompas, ki ga imam še iz osnovne šole, in pogledala, katera stena gleda proti jugu. Barve na južni steni na soncu hitro postanejo blede, zato sem s kompasom poiskala steno, ki gleda proti vzhodu. Brez kompasa bi izbrala najlepšo steno in čez tri leta bi bila slika bleda.\n\nStena je dolga 40 metrov. Najprej sem dala na steno trojno plast podlage, ker je bila stena stara in slaba. Tudi zaščitni lak bo na koncu trojen. Trojna plast pomeni veliko več dela, a slika bo zdržala vsaj petnajst let. Na steni so zdaj psi, mačke, zajci in en star osel, ki tam živi in me vsako jutro pride pogledat.\n\nZa tako veliko steno sem imela le pet dni. Ko sem včeraj zvečer končala zadnjega psa, sem bila tako utrujena, da sem zaspala v kombiju. Vodja zavetišča pravi, da je bil to pravi podvig. Ne vem, ali je bil podvig, a vem, da še nikoli nisem bila tako ponosna. Jutri se vračam. Upam, da bodo ventili zdržali do doma.\n\nLepo pozdravi vse doma,\ntvoja Miroslava\n\nVprašanja:\nOd kod piše Miroslava pismo?\nPiše iz zavetišča za živali pri Kočevju.\nKaj je bilo narobe s pnevmatiko?\nPokvarjen je bil ventil, zato je zrak počasi šel ven.\nKako je kmet vedel, da je Miroslava iz Celja?\nVidel je njene registrske tablice.\nZakaj je Miroslava vzela kompas?\nS kompasom je poiskala steno, ki gleda proti vzhodu, da barve na soncu ne bi postale blede.\nZakaj je dala na steno trojno plast podlage?\nKer je bila stena stara in slaba, slika pa naj bi zdržala vsaj petnajst let.\nZakaj vodja zavetišča pravi, da je bil to podvig?\nKer je Miroslava steno, dolgo 40 metrov, poslikala v samo petih dneh."
+    },
+    {
+      "title": "Dnevnik: Sprejemni izpit",
+      "summary": "In his diary, Božidar Esih writes his CV and attachments for the art academy, gets a voucher for art supplies from his aunt, draws a still life with lemons at the entrance exam, cannot pronounce a word in the interview, and celebrates with an ice-cream sundae.",
+      "newWords": [
+        "življenjepis",
+        "priloga",
+        "bon",
+        "abeceda",
+        "limona",
+        "izgovoriti",
+        "kupa"
+      ],
+      "text": "Ponedeljek, 3. marca\n\nDanes sem končno začel pisati prijavo na likovno akademijo. Najprej sem moral napisati življenjepis. Mislil sem, da bo to najlažji del, a sem nad njim sedel ves dan. Kaj naj napiše v življenjepis nekdo, ki ima 18 let in je hodil samo v šolo? Na koncu sem v življenjepis zapisal še tečaj risanja v knjižnici in razstavo v šoli. Mama ga je prebrala in rekla, da je kratek, a pošten.\n\nSreda, 5. marca\n\nK prijavi moram dodati tri priloge: kopijo spričevala, kratko pismo, v katerem povem, zakaj želim študirati slikarstvo, in mapo s petnajstimi deli. Najtežja je tretja priloga. Danes sem iz vseh risb izbral petnajst najboljših in jih fotografiral. Vsako prilogo sem shranil posebej, kot piše v navodilih.\n\nSobota, 8. marca\n\nTeta Kristijana je prišla na kosilo in mi podarila bon za trgovino s potrebščinami za slikarje. Z bonom sem si kupil dobro oglje, dva čopiča in velik blok. Bon je bil vreden petdeset evrov, a ostalo mi je še nekaj denarja za kdaj drugič. Teta pravi, da bo bon dobil tudi moj mlajši brat, ko bo šel na akademijo.\n\nPetek, 4. aprila\n\nDanes je bil sprejemni izpit. Na mizi pred nami so bile tri limone, bel prt in modra skodelica. Imeli smo tri ure, da narišemo tihožitje. Najprej me je bilo strah, ker so limone tako preproste. Potem sem se spomnil, kaj nam je na tečaju vedno ponavljala učiteljica: »Svetloba in senca sta abeceda risanja.« Kdor zna abecedo, lahko napiše vsako besedo. Zato sem dolgo gledal, kako pade svetloba na limone in kje so njihove sence. Na koncu sem bil z risbo kar zadovoljen.\n\nPo izpitu je bil še kratek pogovor s tremi profesorji. Bil sem tako živčen, da nisem mogel izgovoriti niti svojega priimka. Ko so me vprašali, kateri slikar mi je najljubši, sem povedal ime, ki ga nikoli nisem znal pravilno izgovoriti. Eden od profesorjev se je nasmehnil in ga izgovoril namesto mene. Potem je šlo lažje.\n\nPo pogovoru sem se dobil s prijateljico Stojano, ki je imela izpit zjutraj. Šla sva v kavarno in vsak si je naročil veliko kupo sladoleda. Moja kupa je imela tri vrste sladoleda, smetano in, seveda, košček limone.\n\nPonedeljek, 21. aprila\n\nPrišlo je pismo z akademije. Sprejet sem! Mama je jokala od sreče, jaz pa sem šel v sobo in narisal tri limone.\n\nVprašanja:\nKaj je Božidar moral napisati najprej?\nNajprej je moral napisati življenjepis.\nKatere tri priloge je dodal prijavi?\nDodal je kopijo spričevala, pismo in mapo s petnajstimi deli.\nKaj si je kupil z bonom tete Kristijane?\nKupil si je oglje, dva čopiča in velik blok.\nKaj so morali narisati na izpitu?\nNarisati so morali tihožitje s tremi limonami, belim prtom in modro skodelico.\nKaj je po besedah učiteljice abeceda risanja?\nAbeceda risanja sta svetloba in senca.\nČesa Božidar na pogovoru ni mogel izgovoriti?\nNi mogel izgovoriti niti svojega priimka."
+    }
+  ]
+}
