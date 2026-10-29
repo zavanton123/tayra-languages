@@ -1,0 +1,205 @@
+{
+  "id": "hr-mini-6700",
+  "rankUpTo": 6700,
+  "level": "C1",
+  "title": "Narječja i krajevi Hrvatske",
+  "description": "Ten stories about Croatia's dialects and regions: mapping the rooster's names at a Zagreb institute, Slavonian food words in an Osijek café, a Split radio presenter learning to read the news, a soap opera filmed near Trogir, a girl's first fish in Komiža, beavers on the Kupa, a Varaždin tailor's German words, a Zagreb mechanic's garage words, an Istrian stone house restored, and an island grandmother's speech recorded in Perth.",
+  "topic": "Dialects and regions of Croatia",
+  "names": [
+    "Radoslavka",
+    "Dobrovit",
+    "Zagreb",
+    "Zagorje",
+    "Dalmacija",
+    "Istra",
+    "Đuka",
+    "Ljepana",
+    "Osijek",
+    "Drava",
+    "Split",
+    "Slavonija",
+    "Snješka",
+    "Ljubidrag",
+    "Čakovec",
+    "Dubrovnik",
+    "Gostislavka",
+    "Mikula",
+    "Trogir",
+    "Fumica",
+    "Tiana",
+    "Bolto",
+    "Komiža",
+    "Vukoslav",
+    "Gorski kotar",
+    "Radinka",
+    "Karlovac",
+    "Sava",
+    "Francek",
+    "Pepica",
+    "Varaždin",
+    "Beč",
+    "Graz",
+    "Tunek",
+    "Darin",
+    "Dubrava",
+    "Bjelovar",
+    "Mihalj",
+    "Dobrinja",
+    "Bepi",
+    "Pazin",
+    "Motovun",
+    "Chloe",
+    "Đurđevka",
+    "Zlarin",
+    "Šibenik",
+    "Perth",
+    "Australija",
+    "Lachlan",
+    "Jandre",
+    "Bepija"
+  ],
+  "lessons": [
+    {
+      "title": "Pijetao s pet imena",
+      "summary": "Radoslavka, who works at a Zagreb institute that studies Croatian speech, shows the student Dobrovit how the rooster's many names are mapped: an old hand-drawn map on a paper roll, a computer program with two axes, and the border villages where two words meet.",
+      "newWords": [
+        "pijetao",
+        "zavod",
+        "raspon",
+        "širina",
+        "povezivati",
+        "računalni",
+        "svitak",
+        "os",
+        "graničan"
+      ],
+      "text": "Radoslavka radi u jednom zavodu u Zagrebu koji proučava hrvatske govore. Zavod ima tri sobe pune knjiga, kutija i starih snimki, a u najvećoj sobi stoji dugačak stol na kojem Radoslavka crta karte. Ove jeseni u zavod je došao Dobrovit, student koji želi naučiti kako se izrađuje takva karta.\n\n— Počet ćemo s jednom riječju — kaže mu Radoslavka prvog dana. — S pijetlom.\n\nPijetao je obična ptica iz dvorišta, ali u Hrvatskoj nema samo jedno ime. U knjigama se zove pijetao, a mnogi kažu i pijevac. U Zagorju se često čuje pevec, u Dalmaciji pivac, a u dijelu Istre i na otocima kokot. Pet imena za istu pticu, a svako ima svoj kraj.\n\nRadoslavka iz ormara vadi dugački svitak papira. Kad ga razvije na stolu, Dobrovit vidi staru kartu koju je netko rukom crtao prije pedeset godina. Na njoj su stotine malih točaka, a uz svaku točku piše riječ koju su ljudi u tom selu rekli za pijetla.\n\n— Ovaj svitak čuvamo kao blago — kaže Radoslavka. — Ali danas su sve naše karte računalne.\n\nZatim na zaslonu otvara računalni program. U njemu svako selo ima svoje mjesto prema širini i dužini. Širina pokazuje koliko je selo daleko prema sjeveru, a dužina koliko prema istoku. Program crta mrežu u kojoj jedna os pokazuje dužinu, a druga os širinu. Kad Dobrovit upiše širinu i dužinu jednog sela iz svitka, na karti se pojavi nova točka.\n\nZatim mu Radoslavka pokazuje kako povezivati točke. Program može povezivati sva sela u kojima se kaže ista riječ, pa se na karti pojave obojena polja: plavo za pevec, zeleno za pivac, žuto za kokot. Između dva polja nema oštre crte, nego široka traka.\n\n— Ovdje je najzanimljivije — kaže Radoslavka i pokazuje traku. — To su granična sela. U graničnom selu jedna baka kaže pevec, a njen susjed pijetao. Neki ljudi koriste obje riječi: jednu kod kuće, a drugu u gradu.\n\nDobrovit pita koliko je široka ta traka. Radoslavka objašnjava da raspon nije svugdje isti. Negdje je traka uska, samo dva ili tri sela, a negdje je raspon i trideset kilometara. Što su sela bila više povezana cestama i sajmovima, to je raspon veći.\n\nNavečer Dobrovit sam unosi trideset sela iz svitka. Kad završi, na zaslonu se vidi uska žuta traka uz more i jedno malo granično selo u kojem se koriste obje riječi.\n\nPitanja:\nGdje radi Radoslavka?\nRadoslavka radi u zavodu u Zagrebu koji proučava hrvatske govore.\nKako se pijetao često zove u Dalmaciji?\nU Dalmaciji se pijetao često zove pivac.\nŠto je Radoslavka izvadila iz ormara?\nIzvadila je dugački svitak papira sa starom kartom koju je netko crtao rukom.\nŠto pokazuju dvije osi u programu?\nJedna os pokazuje dužinu, a druga os širinu.\nŠto je granično selo?\nTo je selo u kojem se miješaju dvije riječi, pa jedni kažu pevec, a drugi pijetao."
+    },
+    {
+      "title": "Kuruza, šnicla i fažol",
+      "summary": "Đuka runs a small café in Osijek that serves a hot dish every day; Ljepana from Split comes in for Tuesday goulash, swaps Slavonian and Dalmatian food words with him, and leaves with his handwritten recipe for sweet semolina.",
+      "newWords": [
+        "kavana",
+        "gulaš",
+        "griz",
+        "rastopiti",
+        "povoljan",
+        "poklanjati",
+        "priličan"
+      ],
+      "text": "Đuka već trideset godina vodi malu kavanu u Osijeku, u ulici blizu Drave. Kavana ima šest stolova unutra i četiri na terasi. U podne se u njoj ne pije samo kava: Đuka svaki dan kuha jedno toplo jelo, a utorkom je to gulaš.\n\nJednog utorka u kavanu ulazi Ljepana, mlada žena iz Splita koja je u Osijek došla raditi na tri mjeseca. Sjeda za stol uz prozor i čita ploču na zidu.\n\n— Gulaš s krumpirom, kuruza s maslacem, za desert griz s jabukama — čita naglas. — Oprostite, što je kuruza?\n\nĐuka se nasmije. — Kukuruz. Ovdje u Slavoniji kažemo kuruza. Imamo i riječi koje su došle iz njemačkog, kao šnicla, a takvih je u našoj kuhinji puno.\n\nLjepana naručuje gulaš. Đuka joj donosi duboki tanjur. Gulaš je gust i crven, a meso je kuhano tri sata, dok nije postalo mekano. Uz tanjur stoji velik komad kruha.\n\n— To je prilična količina jela — kaže Ljepana. — I cijena je povoljna. U Splitu za osam eura dobijem pola ovoga.\n\n— Kod nas su cijene još povoljne — kaže Đuka. — Ljudi dolaze svaki dan, pa ne moram dizati cijene.\n\nPoslije gulaša dolazi griz. Ljepana poznaje griz, ali nikad ga nije jela s jabukama. Đuka joj objašnjava kako ga radi. Na tavi najprije rastopi maslac. U rastopljeni maslac doda griz i miješa dok griz ne postane zlatan. Zatim polako doda toplo mlijeko i šećer i kuha još pet minuta. Na kraju na griz stavi pečene jabuke.\n\n— Možete li mi dati recept? — pita Ljepana.\n\n— Recepte ne prodajem — kaže Đuka. — Ja ih poklanjam. Tko voli kuhati, neka kuha.\n\nOd tog dana Ljepana dolazi u kavanu svakog utorka. Za stolom uz prozor vodi malu bilježnicu. U nju zapisuje riječi iz Slavonije koje čuje: kuruza za kukuruz, šnicla za odrezak. Đuka zauzvrat uči njene riječi. Kad mu kaže da se u Splitu za grah kaže fažol, toliko se smije da mora sjesti.\n\nGosti se brzo naviknu na Ljepanu. Jedan stari profesor joj poklanja knjigu o ulicama Osijeka, a susjeda iz trgovine poklanja joj kolač od jabuka.\n\nZadnjeg utorka Đuka ne kuha gulaš, nego ribu, onako kako je kuhaju u Dalmaciji, samo za nju. Na odlasku joj daje papir presavijen na pola. U njemu je recept za griz, napisan rukom: prilična količina maslaca, griz, mlijeko i jabuke. Na dnu piše: „Rastopi maslac polako. Ne žuri.“\n\nPitanja:\nŠto Đuka kuha utorkom?\nUtorkom Đuka u svojoj kavani kuha gulaš.\nKako se u Splitu kaže grah?\nU Splitu se za grah kaže fažol.\nŠto Ljepana misli o jelu i cijeni?\nMisli da je količina jela prilična, a cijena povoljna.\nKako Đuka radi griz?\nNa tavi rastopi maslac, doda griz, zatim mlijeko i šećer, a na kraju na griz stavi pečene jabuke.\nZašto Đuka ne prodaje recepte?\nĐuka recepte poklanja jer misli da ih treba imati svatko tko voli kuhati."
+    },
+    {
+      "title": "Akcent za vijesti",
+      "summary": "Snješka, a radio presenter from Split, moves to a Zagreb station and practises with the voice coach Ljubidrag to neutralise her accent for the news; she learns to breathe, to soften her voice and to stop rushing, and keeps her own accent for a Saturday show.",
+      "newWords": [
+        "akcent",
+        "neutralizirati",
+        "medijski",
+        "uvježbati",
+        "ispravljati",
+        "konstantno",
+        "prigušiti",
+        "dahtati"
+      ],
+      "text": "Snješka je deset godina vodila jutarnji program na jednom radiju u Splitu. Slušatelji su je voljeli zbog veselog glasa i jakog akcenta iz Splita. Ove godine dobila je posao u Zagrebu, na velikom radiju koji se sluša u cijeloj Hrvatskoj. Njen novi posao je čitati vijesti.\n\nPrvog tjedna urednik joj je rekao da za vijesti mora neutralizirati akcent. — Vijesti slušaju ljudi od Čakovca do Dubrovnika — objasnio je. — Ljudi trebaju čuti što govoriš, a ne odakle si.\n\nZato je Snješka dobila sat s Ljubidragom, starim profesorom govora koji već trideset godina radi s ljudima iz medijskih kuća. U medijskom svijetu svi ga znaju. Ljubidrag je svoj posao opisao jednostavno: — Ja ne mijenjam ljude. Samo im pomažem da za mikrofonom zvuče mirno i jasno.\n\nNa prvom satu Snješka je pročitala kratku vijest. Ljubidrag ju je snimio i pustio. Snješka se iznenadila koliko se njen akcent čuje. Dugi naglasci padali su na drugim mjestima nego u knjigama, a neke je riječi izgovarala onako kako se govore u Splitu.\n\n— Akcent nije greška — rekao je Ljubidrag. — Ali za vijesti ga trebamo neutralizirati. To ćemo uvježbati polako, riječ po riječ.\n\nLjubidrag ju je konstantno ispravljao. Ispravljao je naglaske, duge i kratke glasove, kraj rečenice. Snješka je u početku bila umorna od toga što je netko konstantno sluša i ispravlja. Ali brzo je vidjela da svaki tjedan zvuči drukčije.\n\nNajteže joj je bilo disanje. Kad je čitala brzo, na kraju duge rečenice počela bi dahtati, a mikrofon čuje svaki dah. — Na radiju ne smiješ dahtati — rekao joj je Ljubidrag. — Udahni prije rečenice, a ne usred nje. — Uvježbali su to na stotinama rečenica, dok disanje nije postalo mirno.\n\nZatim su radili na glasu. Snješka je govorila glasno, kao da razgovara s nekim preko ulice. Ljubidrag joj je pokazao kako prigušiti glas, a da ostane jasan. — Mikrofon je blizu — rekao je. — Ne moraš vikati. Prigušeni glas zvuči toplije i ljudi ga radije slušaju.\n\nNakon tri mjeseca Snješka je prvi put čitala vijesti u sedam ujutro. Disala je mirno, nije žurila, a akcent se gotovo nije čuo. Urednik joj je poslao kratku poruku: „Dobro.“\n\nIpak, akcent nije nestao. Subotom Snješka vodi emisiju o glazbi iz Dalmacije. U toj emisiji ne mora ništa neutralizirati. Govori kao kod kuće, a slušatelji joj pišu da je subotom najdraža.\n\nPitanja:\nŠto je Snješka radila u Splitu?\nU Splitu je deset godina vodila jutarnji program na radiju.\nZašto je morala neutralizirati akcent?\nVijesti sluša cijela Hrvatska, a slušatelji trebaju čuti što govori, a ne odakle je.\nZašto Snješka ne smije dahtati?\nMikrofon čuje svaki dah, zato mora udahnuti prije rečenice.\nKako joj je Ljubidrag pomogao s glasom?\nPokazao joj je kako prigušiti glas, a da ostane jasan.\nGdje se još čuje njen akcent?\nNjen akcent čuje se subotom, u emisiji o glazbi iz Dalmacije."
+    },
+    {
+      "title": "Sapunica iz malog mista",
+      "summary": "Gostislavka, an actress from Zagreb, plays a talkative shopkeeper in a TV soap opera filmed in a small Dalmatian town; the dialect coach Mikula helps her with the local speech, she faces a dilemma over how much dialect to use, and the town applauds at the first screening.",
+      "newWords": [
+        "sapunica",
+        "izvođač",
+        "favorit",
+        "preokret",
+        "blebetati",
+        "projekcija",
+        "dilema",
+        "pljeskati"
+      ],
+      "text": "Gostislavka je glumica iz Zagreba. Ovog proljeća dobila je ulogu u novoj sapunici koja se snima u malom mjestu kod Trogira. Sapunica prati nekoliko obitelji iz mjesta: ribara, vlasnicu kafića za mlade, učiteljicu i ženu koja drži trgovinu na rivi. Gostislavka igra tu ženu, Fumicu, koja je uvijek vesela i stalno blebeće.\n\nProblem je bio jezik. U sapunici svi govore kao ljudi iz Dalmacije, a Gostislavka je cijeli život govorila kao u Zagrebu. Zato je produkcija angažirala Mikulu, starog učitelja iz Trogira, da glumcima pomaže s govorom. Svaki izvođač dobio je od njega popis riječi koje mora znati.\n\nMikula je svaki dan dolazio na snimanje. Sjeo bi u hlad pod stablo i slušao. Kad bi netko pogriješio, mirno bi ga zaustavio. — Ne kaže se „mjesto“, nego „misto“. Ne „lijepo“, nego „lipo“. Ne „gdje“, nego „di“. — Mikula je govorio polako, kao u školi, i nikad nije podigao glas. Nijednog izvođača nije pustio pred kameru dok ne bi rekao „misto“ kako treba.\n\nGostislavka je ubrzo upala u dilemu. Ako govori točno kao ljudi iz Trogira, gledatelji u Slavoniji i Zagorju neće razumjeti svaku riječ. Ako govori premalo, ljudi iz Dalmacije reći će da zvuči lažno. S tom dilemom otišla je Mikuli.\n\n— Uloga ti je da blebećeš — rekao je Mikula. — Kad žena blebeće, ne mora svaka riječ biti jasna. Uzmi pet-šest riječi koje se uvijek čuju i nemoj ih nikad ispustiti. Ostalo govori polako. — Tako je dilema bila riješena.\n\nEkipa je snimala tri mjeseca. U svakoj epizodi dogodi se neki preokret: netko kupi brod, netko otvori restoran, nečija kći upiše fakultet u Splitu. Prvi veliki preokret dogodio se Fumici: vlasnik je prodao kuću u kojoj je bila njena trgovina, pa je Fumica svoju trgovinu preselila na stari brod u luci.\n\nNa kraju ljeta mjesto je dobilo poklon. Na rivi je organizirana projekcija prve epizode, na velikom platnu između dvije palme. Došli su glumci, ekipa i gotovo svi stanovnici. Ljudi su sjedili na stolicama iz kafića i na niskim kamenim zidovima.\n\nKad se Fumica prvi put pojavila na platnu i počela blebetati, cijela riva se nasmijala. Ljudi su počeli pljeskati već nakon pet minuta. Pljeskali su i na kraju, dugo, a jedna starija gospođa je rekla Gostislavki da govori kao njena sestra.\n\nNakon nekoliko tjedana na internetu je izašla anketa. Fumica je postala favorit gledatelja, a Mikula je dobio pismo od produkcije: ostaje i za drugu sezonu.\n\nPitanja:\nKoga Gostislavka igra u sapunici?\nIgra Fumicu, ženu koja drži trgovinu na rivi i stalno blebeće.\nKako Mikula pomaže glumcima?\nSvaki izvođač dobije od njega popis riječi, a Mikula ih sluša i ispravlja da zvuče kao ljudi iz Dalmacije.\nKakvu je dilemu imala Gostislavka?\nNije znala koliko treba govoriti kao ljudi iz Trogira, a da je svi u Hrvatskoj razumiju.\nGdje je bila projekcija prve epizode?\nProjekcija je bila na rivi, na velikom platnu između dvije palme.\nTko je postao favorit gledatelja?\nFumica, žena koja blebeće, postala je favorit gledatelja."
+    },
+    {
+      "title": "Prva riba u Komiži",
+      "summary": "Tiana from Zagreb spends a summer week with her grandfather Bolto in Komiža on Vis; he teaches her to fish from a wooden raft and the island's words for fish, a seagull snatches her first catch, and at sunset she catches another.",
+      "newWords": [
+        "upecati",
+        "podučiti",
+        "zalaziti",
+        "splav",
+        "ugrabiti",
+        "iskakati",
+        "žalostan"
+      ],
+      "text": "Tiana ima dvanaest godina i živi u Zagrebu. Svako ljeto provodi tjedan dana kod djeda Bolta u Komiži, na Visu. Djed Bolto je cijeli život bio ribar. Sada je u mirovini, ali svako jutro i svaku večer još uvijek sjedi u luci s udicom.\n\nOve godine Tiana je odlučila da će i ona nešto upecati. Rekla je to djedu prvu večer, za stolom.\n\n— Dobro — rekao je djed. — Sutra ću te podučiti. Ali riba ne dolazi kad ti hoćeš, nego kad ona hoće.\n\nU maloj uvali blizu kuće stoji drveni splav. Splav je vezan za obalu dugim užetom, a na njemu djeca preko dana leže na suncu i skaču u more. Ujutro i navečer splav je prazan. Tamo je djed odveo Tianu.\n\nPrvo ju je podučio kako staviti crva na udicu. Zatim ju je podučio kako baciti udicu daleko, a ne u noge. Usput joj je govorio riječi kojima se na Visu zovu ribe. — Ovo je lokarda — rekao je i pokazao na malu plavu ribu u kanti. — U knjigama piše plavica, ali u Komiži je nitko tako ne zove. — Djed nije rekao „što“, nego „ča“, a Tiana je ubrzo i sama počela govoriti „ča“.\n\nPrvog jutra nisu ništa upecali. Oko splava male su ribe skakale iz vode, kao da im je dosadno. — Vidiš kako iskaču — rekao je djed. — Kad ribe iskaču iz vode, gladne su, ali još nisu blizu.\n\nDrugog jutra Tiana je upecala prvu ribu. Bila je to mala lokarda, sjajna i plava. Tiana ju je spustila na drvene daske splava i potrčala po kantu. U tom trenutku galeb se spustio s krova, ugrabio ribu i odletio s njom na stijenu.\n\nTiana je ostala stajati s praznom kantom. Bila je jako žalosna. — Žalosno je, znam — rekao je djed. — Ali galeb je ovdje bio prije nas. I on mora jesti. — Djed joj je objasnio da galeb uvijek čeka da ribar okrene leđa. Tko ne pazi, njemu galeb ugrabi ribu.\n\nNavečer su se vratili na splav. Sunce je polako zalazilo u more, a more je postalo crveno. Djed je rekao da je ovo najbolje vrijeme, kad sunce zalazi i voda postaje mirna. Male ribe opet su skakale iz vode. — Sad iskaču blizu — rekao je djed tiho.\n\nTiana je bacila udicu i čekala. Nakon dvadeset minuta upecala je još jednu lokardu, a zatim i treću. Ovaj put nije potrčala nikamo. Ribu je odmah stavila u kantu i držala ruku iznad nje. Galeb ju je gledao s krova, ali nije ništa dobio.\n\nTe večeri baka je ribe ispekla na žaru. Tiana više nije bila žalosna. Za stolom je rekla: — Ča je ovo dobro!\n\nPitanja:\nGdje Tiana provodi tjedan dana svako ljeto?\nSvako ljeto provodi tjedan dana kod djeda Bolta u Komiži, na Visu.\nGdje su djed i Tiana pecali?\nPecali su s drvenog splava u maloj uvali blizu kuće.\nKako se u Komiži kaže plavica?\nU Komiži se plavica zove lokarda.\nZašto je Tiana bila žalosna?\nGaleb je ugrabio njenu prvu ribu dok je trčala po kantu.\nKada je djed rekao da je najbolje vrijeme za ribu?\nNajbolje vrijeme je kad sunce zalazi i voda postaje mirna."
+    },
+    {
+      "title": "Dabrovi na Kupi",
+      "summary": "Vukoslav, a ranger in Gorski kotar, takes his niece Radinka along the river Kupa to see beavers; he shows her sinkholes like small craters, a beaver dam under construction and the clean water the animals need, while mosquitoes bite and Radinka keeps falling behind.",
+      "newWords": [
+        "dabar",
+        "mladunče",
+        "gradnja",
+        "zagaditi",
+        "spašavati",
+        "ujesti",
+        "zaostajati",
+        "krater"
+      ],
+      "text": "Vukoslav radi kao čuvar prirode u Gorskom kotaru, uz rijeku Kupu. Uz rijeku su mala sela, šuma i livade. U tim selima ljudi govore na svoj način: u jednom selu čuje se „kaj“, a desetak kilometara dalje već „što“. Vukoslav kaže da se u Gorskom kotaru sastaju sva tri hrvatska narječja.\n\nOvog ljeta došla mu je u posjet nećakinja Radinka iz Karlovca. Radinka ima 14 godina i nikad nije vidjela dabra. Vukoslav joj je obećao da će ga vidjeti.\n\nKrenuli su predvečer, jer dabar danju spava, a navečer izlazi. Put je vodio kroz šumu. Usput je Radinka vidjela duboke rupe u zemlji, okrugle i zarasle travom.\n\n— To su vrtače — rekao je Vukoslav. — Izgledaju kao mali krateri. Ali nije ih napravila nikakva stijena s neba. Voda je tisućama godina otapala kamen ispod zemlje, pa se tlo spustilo.\n\nRadinka je stala na rub jednog kratera i gledala dolje. Vukoslav je hodao brzo, a ona je stalno zaostajala, jer je htjela sve vidjeti. — Ne zaostaji — rekao joj je. — Komarci najviše vole one koji stoje. — I stvarno, komarci su je ujeli po rukama i nogama. Ujeli su i Vukoslava, ali on se nije ni okrenuo.\n\nKad su stigli do rijeke, sjeli su iza grma i šutjeli. Vukoslav joj je šapatom objasnio da dabrova dugo nije bilo u Hrvatskoj. Prije oko 30 godina ljudi su ih donijeli iz drugih zemalja i pustili u rijeke. Danas dabrovi opet žive na Kupi, Savi i Dravi.\n\nNakon pola sata u vodi se pojavila smeđa glava. Za njom je plivao manji dabar. — To je mladunče — šapnuo je Vukoslav. — Ovo je prvo mladunče koje sam ove godine vidio.\n\nDabar je izašao na obalu, odgrizao granu i odnio je u vodu. Malo dalje vidjela se gradnja: brana od grana, blata i kamenja. Gradnja takve brane traje tjednima, a dabrovi je stalno popravljaju.\n\n— Je li dabrovima važna čista voda? — šapnula je Radinka.\n\n— Jako važna — rekao je Vukoslav. — Ako netko zagadi rijeku, dabrovi odu. Dovoljno je da tvornica ili jedno selo zagadi vodu, i nema ih. Naš posao je spašavati rijeku prije nego što bude kasno. Spašavati jednu rijeku znači spašavati i dabra, i ribu, i ljude.\n\nMladunče je zaplivalo za majkom prema brani. Radinka ga je gledala dok nije nestalo u mraku.\n\nNa povratku nije zaostajala. Komarci su je ujeli još desetak puta, ali nije se žalila. Kod kuće je odmah nacrtala dabra i mladunče i rekla da će i ona jednog dana raditi kao čuvar prirode.\n\nPitanja:\nGdje radi Vukoslav?\nVukoslav radi kao čuvar prirode u Gorskom kotaru, uz rijeku Kupu.\nŠto su vrtače?\nVrtače su rupe u zemlji koje izgledaju kao mali krateri, a napravila ih je voda.\nZašto je Radinka zaostajala?\nZaostajala je jer je htjela sve vidjeti.\nŠto su vidjeli na rijeci?\nVidjeli su dabra, njegovo mladunče i gradnju brane.\nŠto se dogodi ako netko zagadi rijeku?\nAko netko zagadi rijeku, dabrovi odu."
+    },
+    {
+      "title": "Šnajder iz Varaždina",
+      "summary": "Pepica spends her holidays in the Varaždin workshop of her grandfather Francek, a tailor who calls himself a šnajder; he explains the German words of his trade, the stiff collar of a suit, the stamp on his labels and why fashion passes, while she knits a scarf.",
+      "newWords": [
+        "krojač",
+        "plesti",
+        "krut",
+        "posuđivati",
+        "djelomičan",
+        "žig",
+        "prolazan"
+      ],
+      "text": "Francek ima 72 godine i još uvijek svako jutro otvara svoju malu radionicu u starom dijelu Varaždina. Na staklu vrata piše „Krojač“, ali on sam za sebe nikad ne kaže krojač. — Ja sam šnajder — kaže. — Tako su govorili moj otac i moj učitelj.\n\nOvih praznika kod njega je unuka Pepica, koja studira u Zagrebu. Pepica sjedi kraj prozora i plete šal od plave vune. Plesti ju je naučila baka kad je imala osam godina. Francek je gleda preko naočala.\n\n— Ti pleteš — kaže on. — A tvoje prijateljice bi rekle da štrikaš.\n\n— Zašto štrikam? — pita Pepica.\n\n— Zato što je ta riječ došla iz njemačkog, kao i pola riječi u ovoj radionici.\n\nFrancek joj zatim pokazuje svoje stvari. Tkanina je za njega štof. Konac je cvirn. Odijelo je gvant. Pepica sve zapisuje u bilježnicu. Neke riječi zna od bake, a neke prvi put čuje.\n\n— Naš kraj je stoljećima bio povezan s Bečom i Grazom — objašnjava Francek. — Ljudi su putovali, radili i trgovali s tim gradovima. Jezik je zato posuđivao riječi kao što susjedi posuđuju šećer. Ali nije sve posuđeno. Posuđivao je riječi za stvari, za alat i za modu, ali riječi za kruh, majku i kuću ostale su naše.\n\n— Znači da je utjecaj njemačkog bio samo djelomičan — kaže Pepica.\n\n— Da, djelomičan. Kao djelomičan popravak: neke dijelove promijeniš, ali odijelo ostane isto.\n\nNa stolu leži sako koji Francek radi za jednog profesora. Ovratnik je krut, gotovo kao karton. Pepica ga dirne i pita zašto je tako krut.\n\n— Ovratnik mora biti krut da drži oblik — kaže Francek. — Unutra je posebno platno. Mekani ovratnik nakon mjesec dana izgleda umorno.\n\nKad je sako gotov, Francek uzima mali žig od drveta i metala. Na žigu piše njegovo ime, ime grada i godina kada je otvorio radionicu: 1976. Žigom stavlja znak na komad tkanine i prišiva ga s unutarnje strane sakoa.\n\n— Moda je prolazna — kaže on dok radi. — Jedne godine su hlače široke, druge uske. Ali dobro napravljeno odijelo nije prolazno. Sako s ovim žigom profesor će nositi dvadeset godina.\n\nNavečer Pepica završava šal. Rubovi nisu savršeni, ali Francek kaže da je za prvi šal ove zime dobro. Dok zatvara vrata radionice, ona ga pita smije li jednog dana i ona imati svoj žig.\n\n— Prvo nauči plesti bez greške — kaže Francek i nasmije se. — Onda ćemo razgovarati o žigu.\n\nPitanja:\nKako Francek sam sebe zove?\nFrancek kaže da nije krojač, nego šnajder.\nŠto radi Pepica dok sjedi kraj prozora?\nPepica plete šal od plave vune.\nZašto u Varaždinu ima toliko riječi iz njemačkog?\nKraj je stoljećima bio povezan s Bečom i Grazom, pa je jezik posuđivao riječi iz njemačkog.\nZašto ovratnik mora biti krut?\nOvratnik mora biti krut da drži oblik.\nŠto Francek kaže o modi?\nKaže da je moda prolazna, ali dobro napravljeno odijelo nije."
+    },
+    {
+      "title": "Hauba, ler i kuplung",
+      "summary": "Darin, a beginner from Bjelovar, starts work at Tunek's old car repair shop in Zagreb and has to learn the German words mechanics use for the bonnet, the gearbox and the clutch; Tunek teaches him to listen to an engine without being disturbed, to brake-test a car, and leaves the electronics to Darin.",
+      "newWords": [
+        "hauba",
+        "mjenjač",
+        "kočiti",
+        "elektronika",
+        "ometati",
+        "šampon"
+      ],
+      "text": "Tunek ima servis za automobile u Dubravi, na istoku Zagreba. U servisu rade tri čovjeka, a ovog mjeseca došao je četvrti: Darin, mladić iz Bjelovara koji je upravo završio školu za mehaničare. Darin je početnik. Zna sve iz knjiga, ali u servisu ne razumije ni pola onoga što Tunek govori.\n\nPrvog jutra Tunek mu kaže: — Digni haubu na onom crvenom. — Darin stoji i ne zna što je hauba. Drugi mehaničar mu pokaže poklopac motora. — To je hauba — kaže. — U školi ste to zvali poklopac, ali ovdje nitko tako ne govori.\n\nTako počinje Darinovo učenje. Ispušna cijev je auspuh. Spojka je kuplung. Prazni hod je ler. Sve su to riječi koje su u Zagreb stigle iz njemačkog, zajedno s prvim automobilima. Darin ih zapisuje na papir i lijepi ga na zid kraj svog ormara.\n\nJednog dana u servis dolazi stari kombi s problemom u mjenjaču. Brzine ulaze teško, a mjenjač škripi. Tunek sjedne za volan, upali motor i stavi auto u ler.\n\n— Sad me nemoj ometati — kaže. — Slušam.\n\nDarin ga želi nešto pitati, ali odustane. Tunek dvije minute sluša motor zatvorenih očiju. Zatim kaže: — Kuplung. Mjenjač je dobar, kuplung je star. — Kasnije, za ručkom, objašnjava Darinu: — Kad slušaš motor, ništa te ne smije ometati. Ni radio, ni mobitel, ni pitanja.\n\nPoslije popravka Tunek vodi Darina na kratku vožnju. Na praznoj ulici iza servisa kaže mu da vozi brzinom od pedeset kilometara na sat, a zatim naglo koči. Darin koči i auto stane ravno. — Dobro — kaže Tunek. — Kad auto pri kočenju ide u stranu, nešto ne valja s kočnicama. Svaki auto koji izlazi iz servisa mora jednom ovako kočiti.\n\nAli postoji jedno područje u kojem početnik zna više od majstora. Novi automobili puni su elektronike. Kad se na zaslonu upali žuto svjetlo, Tunek zove Darina. Darin spoji računalo na auto i pročita grešku. — Elektronika je tvoja — kaže Tunek. — Ja ću ostati kod motora.\n\nPetkom poslijepodne cijeli servis pere aute koje su popravili. Tunek ima svoj šampon za auto, gust i zelen, koji kupuje već dvadeset godina. Darin donese kantu vode, stavi u nju šampon i pere haubu dok ne bude sjajna.\n\nKrajem mjeseca na zidu kraj ormara nema više papira. Darin ga je skinuo jer sve riječi zna napamet. Kad jedan kupac pita što mu je s autom, Darin mu odgovori: — Kuplung vam je gotov. Treba ga promijeniti, pa dođite u ponedjeljak.\n\nTunek je to čuo i samo se nasmijao.\n\nPitanja:\nTko je Darin?\nDarin je početnik iz Bjelovara koji je upravo počeo raditi u Tunekovom servisu.\nŠto je hauba?\nHauba je poklopac motora.\nZašto Tuneka ništa ne smije ometati dok sluša motor?\nTunek mora čuti svaki zvuk motora, pa ga tada ništa ne smije ometati.\nZašto svaki auto mora jednom naglo kočiti?\nTako se vidi jesu li kočnice dobre, jer auto koji pri kočenju ide u stranu ima problem.\nU čemu Darin zna više od Tuneka?\nDarin zna više o elektronici u novim automobilima."
+    },
+    {
+      "title": "Kamena kuća iznad Mirne",
+      "summary": "Mihalj and Dobrinja from Zagreb buy an old stone house above the Mirna valley in Istria; the builder Bepi talks them out of knocking it down, plans an energy-saving reconstruction with copper gutters and the old shutters, and teaches them the Istrian names of its parts.",
+      "newWords": [
+        "rekonstrukcija",
+        "energetski",
+        "bakar",
+        "iskušenje",
+        "odlučnost",
+        "raspršiti"
+      ],
+      "text": "Mihalj i Dobrinja žive u Zagrebu, ali već godinama ljeta provode u Istri. Prošle jeseni kupili su staru kamenu kuću u malom selu iznad doline rijeke Mirne. Kuća je stara oko 200 godina. Krov je star, prozori ne zatvaraju, a u kuhinji je velik otvoreni kamin.\n\nPrvi majstor koji je došao pogledati kuću rekao je da je najjednostavnije srušiti je i sagraditi novu. Novu kuću od betona lako je zagrijati, ne treba je stalno popravljati, a gotova je za godinu dana. To je za Mihalja i Dobrinju bilo veliko iskušenje. Bilo bi brže i jeftinije.\n\nAli onda su upoznali Bepija. Bepi je graditelj iz Pazina koji radi samo sa starim kućama. Kad je ušao u kuhinju, prvo je stavio ruku na kameni zid. — Ovo je dobar kamik — rekao je. — Ova kuća može stajati još 200 godina. Rekonstrukcija je skuplja, ali kuća ostaje ista.\n\nBepi govori kao ljudi iz središnje Istre. Ne kaže „što“, nego „ča“, a kamen je za njega uvijek kamik. Mihalju i Dobrinji pokazao je dijelove kuće i njihova imena. Kamene vanjske stube s malom terasom na vrhu zovu se balatura. Drveni kapci na prozorima su škure. Prostorija s otvorenom vatrom je komin.\n\nRekonstrukcija je trajala godinu dana. Bepi je pazio da sve izgleda kao prije, ali da kuća bude topla zimi i svježa ljeti. Plan je imao i energetski dio: novi krov s debelom izolacijom, nove prozore iza starih škura i sunčane ploče na pomoćnoj zgradi, gdje se ne vide s ceste. Na kraju je kuća dobila dobar energetski razred, što je za tako staru kuću rijetko.\n\nCijevi za kišnicu na krovu Bepi je napravio od bakra. — Bakar je skup — rekao je — ali traje sto godina. Za par godina bit će zelen, kao na starim kućama u Motovunu. — Dobrinja je u početku mislila da je bakar previše, ali kad je vidjela kako sja na suncu, više nije sumnjala.\n\nBilo je i teških trenutaka. Zimi je padala kiša, radovi su kasnili, a račun je rastao. Mihalj je jedne večeri rekao da mu je dosta. Iskušenje da sve prodaju vratilo se. Ali Dobrinja je imala odlučnost za oboje. — Rekli smo da ćemo spasiti ovu kuću — rekla je. — I hoćemo. — Bepi je kasnije rekao da bi bez njene odlučnosti posao stao.\n\nPrvo jutro u gotovoj kući Mihalj i Dobrinja popeli su se na balaturu s kavom. Dolina Mirne bila je puna bijele magle, a iz nje se vidio samo Motovun na brdu. Polako je sunce počelo raspršiti maglu. Kad se magla raspršila, ispod njih su se pojavila polja, šuma i rijeka.\n\n— Vrijedilo je — rekla je Dobrinja i otvorila škure.\n\nPitanja:\nŠto je prvi majstor predložio?\nPredložio je da sruše staru kuću i sagrade novu od betona.\nTko je Bepi?\nBepi je graditelj iz Pazina koji radi samo sa starim kućama i govori kao ljudi iz središnje Istre.\nŠto je balatura?\nBalatura je naziv za kamene vanjske stube s malom terasom na vrhu.\nZašto su cijevi za kišnicu od bakra?\nBakar je skup, ali traje sto godina.\nŠto se dogodilo kad je sunce počelo raspršiti maglu?\nKad se magla raspršila, pojavila su se polja, šuma i rijeka."
+    },
+    {
+      "title": "Bakin govor u Perthu",
+      "summary": "In Perth, in Australia, Chloe writes a biography of her grandmother Đurđevka, who left the island of Zlarin sixty years ago and still speaks its dialect; Chloe records her stories, the wise old Jandre of the Croatian club explains the old words, her brother Lachlan plays cricket for the club's team with its seagull mascot, and at the club's charity evening the recording makes her grandmother cry with joy.",
+      "newWords": [
+        "biografija",
+        "mudrac",
+        "jecati",
+        "humanitaran",
+        "maskota",
+        "kriket"
+      ],
+      "text": "Chloe ima 17 godina i živi u Perthu, u Australiji. Njena baka Đurđevka rođena je na Zlarinu, malom otoku kraj Šibenika. Kad je imala 19 godina, otišla je s mužem u Australiju i ostala. Danas ima 80 godina, ali govori kao da je jučer otišla s otoka.\n\nU školi je Chloe dobila zadatak: napisati biografiju jedne osobe iz obitelji. Odmah je odabrala baku. Odlučila je da biografija neće biti samo na engleskom. Baka će u njoj govoriti svojim jezikom.\n\nSvake subote Chloe dolazi baki s mobitelom i snima. Baka priča o selu, o ribarima, o školi u koju je išla pješice. Naglasci joj padaju drukčije nego na televiziji, a za mnoge stvari ima riječi koje Chloe nikad nije čula. Kad Chloe ne razumije, zapisuje riječ i kasnije pita.\n\nZa teže riječi Chloe ide u hrvatski klub u Perthu. Ondje svake srijede dolazi Jandre, starac kojeg svi zovu mudrac. Jandre je rođen na istom otoku i zna gotovo svaku staru riječ. Kad mu Chloe pusti snimku, on kima glavom i objašnjava. — To je stara riječ za ribarski konop — kaže. — Danas je ni na otoku malo tko zna. — Chloe mu je jednom rekla da je pravi mudrac, a Jandre se nasmijao i rekao da je samo star.\n\nNjen brat Lachlan ima 14 godina i ne govori hrvatski. Ali svake nedjelje igra kriket u momčadi hrvatskog kluba. Maskota momčadi je veliki plišani galeb. Maskota sjedi na klupi za vrijeme svake utakmice, a dječaci je prije igre potapšu po glavi. Lachlan kaže da je kriket lako naučiti, ali teško razumjeti.\n\nU studenom klub organizira humanitarnu večer. Novac od ulaznica ide dječjoj bolnici u Perthu. Na humanitarnoj večeri ima hrane s otoka, pjesme i ples. Ove godine voditelj je pitao Chloe smije li pustiti dio njene snimke.\n\nKad se u dvorani čuo glas njene bake, svi su prestali razgovarati. Baka je pričala o jutru kad su ribari donijeli prvu ribu u luku. Đurđevka je sjedila u prvom redu i slušala svoj glas. Zatim je počela tiho jecati. Chloe se uplašila i sjela kraj nje, ali baka je jecala i smiješila se u isto vrijeme.\n\n— Nisam tužna — rekla je kad se smirila. — 60 godina nisam čula svoj govor ovako glasno, pred toliko ljudi.\n\nLjudi su ustali i dugo pljeskali. Jandre je prišao i rekao baki da govori kao da je jučer došla sa Zlarina. Lachlan je s klupe donio maskotu i stavio je baki u krilo.\n\nChloe je biografiju predala u prosincu. Dobila je najvišu ocjenu, a profesor je tražio kopiju snimke za školsku knjižnicu.\n\nPitanja:\nO kome Chloe piše biografiju?\nChloe piše biografiju svoje bake Đurđevke, koja je rođena na Zlarinu.\nZašto je Jandre poznat kao mudrac?\nZovu ga mudrac jer zna gotovo svaku staru riječ s otoka.\nŠto je maskota momčadi za kriket?\nMaskota je veliki plišani galeb koji sjedi na klupi za vrijeme utakmice.\nZa što služi novac s humanitarne večeri?\nNovac od ulaznica ide dječjoj bolnici u Perthu.\nZašto je baka počela jecati?\nBaka je jecala od sreće jer 60 godina nije čula svoj govor ovako glasno."
+    }
+  ]
+}
