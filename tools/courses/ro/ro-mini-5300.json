@@ -1,0 +1,174 @@
+{
+  "id": "ro-mini-5300",
+  "rankUpTo": 5300,
+  "level": "C1",
+  "title": "Peisaje",
+  "description": "Ten texts about Romanian landscapes: a diary from a mountain pass, a wool weaver in Bucovina, a landscape photographer, a dark-sky village, a diving course at Mangalia, an open-air play in a painter's garden, a rebuilt water mill, guesthouses on a hill, a dentist who paints, and the view from a plane window.",
+  "topic": "Landscapes",
+  "names": [
+    "Cotârlea",
+    "Axenia",
+    "Lăzăroiu",
+    "Bucovina",
+    "Pantazi",
+    "Hoinărescu",
+    "Brașov",
+    "Carpați",
+    "Carpații",
+    "Măndița",
+    "Chiricuță",
+    "Apuseni",
+    "Ilisaveta",
+    "Mangalia",
+    "Comănescu",
+    "Lazarovici",
+    "Sinaiei",
+    "Ichimescu",
+    "Rucăr",
+    "Budișteanu",
+    "Ilinuța",
+    "Hulubaș",
+    "Arieșeni",
+    "Cluj",
+    "Ploscaru",
+    "București",
+    "Iachint",
+    "Ilisavetei",
+    "Bucegii"
+  ],
+  "lessons": [
+    {
+      "title": "Trecătoarea",
+      "summary": "In his diary, a hiker crosses a mountain pass with his friend Cotârlea: a thick vest he soon regrets, a long grassy slope, a break of slope above a stream, sunny and shady sides of the valley, and smoked sausages eaten in the wind at the top.",
+      "newWords": [
+        "trecătoare",
+        "pantă",
+        "sui",
+        "ruptură",
+        "însori",
+        "vestă",
+        "cârnat"
+      ],
+      "text": "Joi, 14 august\n\nAzi am trecut, în sfârșit, trecătoarea despre care îmi vorbește Cotârlea de doi ani. Am plecat din sat la șase dimineața, pe răcoare. Eu purtam o vestă groasă peste cămașă, Cotârlea doar un tricou. „O să-ți fie cald în vestă după primul kilometru”, mi-a spus. Avea dreptate, dar n-am vrut să recunosc.\n\nDrumul spre trecătoare urcă încet printr-o pădure de fagi. Apoi pădurea se termină și începe o pantă lungă, acoperită de iarbă. Pe pantă, poteca face multe ocoluri, ca să nu obosească omul. Ne-am suit fără grabă, cu opriri dese. Cotârlea se suie pe munte ca o capră; eu mă suiam ca un om care stă opt ore pe zi pe scaun, la birou.\n\nPe la jumătatea pantei, Cotârlea mi-a arătat un loc unde terenul se schimbă brusc. Mi-a explicat că specialiștii numesc asta o ruptură de pantă: dealul coboară lin, apoi, deodată, cade aproape vertical. Ruptura se vede de departe, ca o linie dreaptă trasă peste munte. Sub ea curge un pârâu limpede.\n\nVersantul pe care urcam era însorit. Soarele ne bătea în spate și, până la urmă, mi-am scos vesta și am legat-o de rucsac. În partea cealaltă a văii, versantul de nord stătea în umbră. Cotârlea spune că pe versanții însoriți zăpada se topește cu o lună mai devreme și că ciobanii urcă acolo primii cu oile.\n\nLa prânz am ajuns sus. Trecătoarea e o șa largă între două vârfuri, cu un stâlp de lemn și o cabană mică. Vântul bătea tare, așa că mi-am pus din nou vesta. Ne-am așezat la adăpost, lângă peretele cabanei, și am scos din rucsac cârnații și pâinea. Cârnații îi cumpărase Cotârlea de la un om din sat, care îi face singur și îi afumă în pod. Nu știu dacă erau cei mai buni cârnați din lume, dar așa mi s-au părut după cinci ore de mers.\n\nM-am suit pe o piatră mare, lângă stâlp, ca să văd mai bine. De sus se vedeau ambele văi: una verde și însorită, cealaltă albastră, în umbră. Am stat o oră fără să vorbim prea mult. Coborârea a fost mai grea decât urcarea, pentru că la vale genunchii lucrează altfel. Seara, în sat, Cotârlea m-a întrebat dacă mai vin la anul. I-am spus că da, dar că de data asta o să țin vesta în rucsac de la început.\n\nÎntrebări:\nCe purta autorul când a plecat din sat?\nPurta o vestă groasă peste cămașă, iar Cotârlea purta doar un tricou.\nCe este o ruptură de pantă?\nEste un loc unde dealul coboară lin și apoi cade deodată aproape vertical.\nDe ce se topește zăpada mai devreme pe unii versanți?\nPentru că un versant însorit primește mai mult soare, așa că zăpada se topește acolo cu o lună mai devreme.\nCe au mâncat cei doi sus, în trecătoare?\nAu mâncat cârnați afumați și pâine, la adăpost lângă peretele cabanei.\nDe ce a fost coborârea mai grea decât urcarea?\nPentru că la coborâre, pe pantă, genunchii lucrează altfel."
+    },
+    {
+      "title": "Femeia cu lâna",
+      "summary": "A portrait of Axenia Lăzăroiu, who lives in an inherited wooden house in the hills of Bucovina: she milks her sheep into an old bucket with a wooden handle, splits firewood with an axe, washes and dries wool in the wind, and weaves carpets whose inherited patterns hold the colours of the landscape.",
+      "newWords": [
+        "lână",
+        "găleată",
+        "topor",
+        "mâner",
+        "usca",
+        "moștenit",
+        "devotat"
+      ],
+      "text": "Axenia Lăzăroiu are 68 de ani și trăiește într-o casă de lemn la marginea unui sat din Bucovina. De la fereastra ei se văd dealuri rotunde, fânețe și, mai departe, pădurile de brad. Casa e moștenită de la părinți, la fel ca oile din spatele ei și meseria pe care o face de o viață: Axenia lucrează lâna.\n\nZiua ei începe devreme. La cinci dimineața ia găleata și merge la oi. Mulge fiecare oaie cu mâna, iar găleata se umple încet cu lapte cald. Găleata e veche, de tablă, și are un mâner de lemn pe care l-a făcut soțul ei acum treizeci de ani. Mânerul s-a lustruit de atâtea mâini, dar Axenia nu vrea altă găleată.\n\nApoi taie lemne pentru sobă. Toporul ei e greu, cu un mâner lung de frasin. Axenia îl ridică fără efort. „Toporul nu cere forță, cere obicei”, spune ea. Despică lemnele pe un butuc din curte și le așază sub streașină, ca să se usuce până la iarnă. Lemnul ud nu arde bine, iar lemnul care se usucă un an întreg face un foc curat.\n\nPrimăvara, după ce oile sunt tunse, vine partea cea mai grea. Lâna se spală de mai multe ori în apă caldă, în găleți mari, apoi se întinde pe gard. Axenia spune că lâna se usucă cel mai bine în vânt, pe dealul din spatele casei, unde aerul e mereu în mișcare. După ce o usucă, o piaptănă și o toarce, seară de seară, lângă sobă.\n\nDin lâna toarsă țese covoare, cu modele moștenite de la mama și de la bunica ei: romburi, brazi mici, linii în zigzag. Culorile le obține din plante: coaja de nucă dă un maro cald, iar foile de ceapă dau galben. Fiecare covor are un model moștenit, dar niciunul nu seamănă perfect cu altul.\n\nNepoții ei locuiesc la oraș și o vizitează vara. Uneori îi spun că ar putea să cumpere lână gata spălată sau chiar covoare făcute în fabrică. Axenia zâmbește. Este devotată acestei meserii de mai bine de cincizeci de ani. „Nu poți fi devotată pe jumătate”, le spune ea. „Ori faci lucrul cum trebuie, ori nu-l mai faci.”\n\nIarna, când zăpada acoperă dealurile, Axenia țese. Prin fereastră vede pădurea întunecată și fumul din coșurile vecinilor. Pe masa ei de lucru crește încet un covor nou, cu verdele fânețelor și maroul pământului. Așa, spune ea, peisajul din fața casei intră în lâna pe care o țese.\n\nÎntrebări:\nUnde trăiește Axenia Lăzăroiu?\nTrăiește într-o casă de lemn moștenită de la părinți, la marginea unui sat din Bucovina.\nCum arată găleata cu care merge la oi?\nE o găleată veche, de tablă, cu un mâner de lemn făcut de soțul ei.\nDe ce pune lemnele sub streașină?\nLe pune acolo ca să se usuce până la iarnă, pentru că lemnul ud nu arde bine.\nCu ce taie Axenia lemnele pentru sobă?\nLe taie cu un topor greu, cu un mâner lung de frasin.\nUnde se usucă lâna cel mai bine?\nLâna se usucă cel mai bine în vânt, pe dealul din spatele casei.\nDe unde are Axenia modelele covoarelor?\nModelele sunt moștenite de la mama și de la bunica ei.\nDe ce nu cumpără Axenia lână gata spălată?\nPentru că este devotată meseriei ei și vrea să facă lucrul cum trebuie."
+    },
+    {
+      "title": "Fotograful care așteaptă lumina",
+      "summary": "An interview with Pantazi Hoinărescu, who still photographs the Carpathians on film: why fewer frames make him wait, the light that gets him up at four in the morning, how he chose forty prints from his portfolio for an exhibition in Brașov, and his advice to young photographers.",
+      "newWords": [
+        "peliculă",
+        "afișa",
+        "preferință",
+        "motivație",
+        "portofoliu",
+        "inedit"
+      ],
+      "text": "Pantazi Hoinărescu fotografiază peisaje de treizeci de ani. Lucrează și astăzi cu peliculă, iar fotografiile lui din Carpați sunt afișate până la sfârșitul lunii într-o galerie din Brașov. Am vorbit cu el chiar în sala expoziției.\n\n— Domnule Hoinărescu, de ce lucrați încă pe peliculă, când aproape toată lumea folosește aparate digitale?\n\n— E o preferință personală, nu o regulă pe care o impun altora. Cu pelicula fac mult mai puține fotografii. Un film are 36 de cadre, nu o mie. Asta mă obligă să aștept și să mă uit mult înainte să apăs pe buton. Pentru peisaje, răbdarea contează mai mult decât aparatul.\n\n— Ce vă dă motivația să urcați pe munte la patru dimineața?\n\n— Lumina. Motivația mea e foarte simplă: vreau să văd primul soare pe creste. Uneori urc trei ore, iar ceața nu se ridică deloc. Atunci mă întorc acasă fără nicio fotografie. A doua zi urc din nou. Fără o motivație puternică, n-ai face asta de două ori.\n\n— Cum ați ales fotografiile pe care le-ați afișat aici?\n\n— Am un portofoliu de vreo patru sute de imagini bune. Din portofoliu am ales patruzeci. Nu am vrut să afișez doar locurile cunoscute, ci și unghiuri inedite: un lac de munte văzut de jos, din stuf, sau o pădure fotografiată de sus, prin ceață. Oamenii cunosc Carpații din cărțile poștale. Eu încerc să le arăt ceva inedit, deși munții sunt aceiași de mii de ani.\n\n— Aveți o preferință pentru un anumit anotimp?\n\n— Toamna târziu. Frunzele au căzut, iar peisajul devine aproape ca un desen în creion. Am o preferință și pentru vremea urâtă: norii joși și ploaia dau forme peisajului, pe când soarele puternic face totul plat.\n\n— Ce le spuneți tinerilor care vor să facă fotografie de peisaj?\n\n— Să-și construiască un portofoliu încet, fără grabă. Să nu caute doar imagini inedite, ci imagini sincere. Și să încerce măcar o dată pelicula. Când știi că ai doar câteva cadre, te uiți altfel la lume.\n\nÎntrebări:\nCu ce lucrează Pantazi Hoinărescu?\nLucrează și astăzi cu peliculă, nu cu un aparat digital.\nDe ce spune el că pelicula îl obligă să aștepte?\nPentru că un film are doar 36 de cadre, așa că trebuie să se uite mult înainte să apese pe buton.\nCe îi dă motivația să urce pe munte la patru dimineața?\nLumina îi dă motivația, pentru că vrea să vadă primul soare pe creste.\nCâte fotografii a afișat în galeria din Brașov?\nA ales patruzeci de fotografii dintr-un portofoliu de vreo patru sute de imagini.\nCe sfat le dă tinerilor fotografi?\nLe spune să-și construiască încet un portofoliu, să caute imagini sincere și să încerce măcar o dată pelicula."
+    },
+    {
+      "title": "Cerul de deasupra satului",
+      "summary": "In a column, a city dweller spends a summer night in a village in the Apuseni mountains whose people agreed together to limit their lighting: her host Măndița Chiricuță explains the vacuum between the stars, and the author sees how a limit on earth gave back the sky.",
+      "newWords": [
+        "iluminat",
+        "limitare",
+        "solidaritate",
+        "rareori",
+        "veșnicie",
+        "suspin",
+        "vid"
+      ],
+      "text": "Am crescut într-un oraș unde cerul nopții era portocaliu. Iluminatul străzilor, al vitrinelor și al parcărilor se ridica peste blocuri ca o ceață caldă. Vedeam rareori mai mult de zece stele. Abia vara trecută, într-un sat din munții Apuseni, am înțeles ce pierdusem.\n\nSatul are vreo patruzeci de case, împrăștiate pe un deal. Acum câțiva ani, oamenii de acolo au hotărât să schimbe iluminatul de pe drumuri. Lămpile vechi luminau în toate direcțiile, inclusiv în sus, spre cer. Cele noi luminează doar drumul, iar după miezul nopții se sting. Nu a fost o decizie ușoară. Unii vecini se temeau că va fi prea întuneric. S-au adunat la școală, au discutat două seri la rând și, până la urmă, au acceptat limitarea iluminatului.\n\nCeea ce m-a impresionat a fost solidaritatea lor. Fiecare familie a acceptat să stingă și lumina din curte după ora unsprezece. Nimeni nu verifică, nimeni nu cere amenzi. Solidaritatea aceasta nu se vede pe hartă, dar se vede pe cer.\n\nÎn prima noapte am ieșit în curtea casei unde stăteam. Când ochii s-au obișnuit cu întunericul, cerul s-a umplut de stele, iar peste el trecea o dungă albă de lumină: galaxia noastră. Am scos un suspin, ca un copil în fața unui tort. Gazda mea, doamna Măndița Chiricuță, a râs. „Toți oaspeții fac la fel”, mi-a spus. „Mai întâi tac, apoi scot un suspin.”\n\nNe-am așezat pe bancă, iar ea mi-a vorbit despre cer. Mi-a spus că între stele nu e nimic, doar vid, un vid mai gol decât orice vid făcut vreodată într-un laborator. Lumina unor stele traversează acest vid mii de ani până ajunge la noi. De aceea stelele par să stea acolo din veșnicie, deși și ele au un început și un sfârșit. Și munții din jur, cu pădurile lor negre, păreau și ei o mică veșnicie.\n\nM-am gândit atunci altfel la cuvântul limitare. De obicei, o limitare înseamnă că pierzi ceva. Aici, limitarea luminii de pe pământ le-a dat oamenilor înapoi cerul.\n\nAcum, în oraș, ridic rareori ochii spre cer, pentru că știu că nu am ce vedea. Dar păstrez în minte noaptea aceea, banca rece, vocea liniștită a doamnei Chiricuță și suspinul pe care nu l-am putut opri.\n\nÎntrebări:\nCâte stele vedea autoarea pe cerul orașului?\nVedea rareori mai mult de zece stele, din cauza iluminatului.\nCe au hotărât oamenii din satul din munții Apuseni?\nAu hotărât să schimbe iluminatul de pe drumuri și au acceptat limitarea luminii după miezul nopții.\nCum se vede solidaritatea oamenilor din sat?\nFiecare familie stinge și lumina din curte după ora unsprezece, fără ca cineva să verifice.\nCe i-a spus doamna Chiricuță despre spațiul dintre stele?\nI-a spus că între stele e doar vid, mai gol decât orice vid făcut într-un laborator.\nCe înseamnă aici limitarea luminii?\nAici limitarea luminii de pe pământ le-a dat oamenilor înapoi cerul."
+    },
+    {
+      "title": "Delfinii de la Mangalia",
+      "summary": "In an e-mail to her mother, Ilisaveta describes a week at Mangalia: a guesthouse across from the beach, a three-day beginners' course in swimming underwater with a depth gauge on her wrist, a calm underwater world that feels almost exotic, sunscreen for her fair skin, and three dolphins near the shore at dawn.",
+      "newWords": [
+        "delfin",
+        "inițiere",
+        "exotic",
+        "ten",
+        "vizavi",
+        "încheietură"
+      ],
+      "text": "Dragă mamă,\n\nÎți scriu de pe terasa pensiunii din Mangalia, care e chiar vizavi de plajă. Dacă traversez strada, sunt în nisip în zece pași. Vizavi de mine, pe partea cealaltă a mesei, stă o pisică portocalie care așteaptă de jumătate de oră să-i dau ceva din micul dejun.\n\nȘtiu că te temi de apă, dar ascultă: m-am înscris la un curs de inițiere pentru înot sub apă, cu aparat de respirat. Cursul de inițiere durează trei zile. În prima zi am stat doar în apă până la piept și am învățat să respir prin aparat. A doua zi am coborât la patru metri. Instructorul mi-a prins pe încheietură un mic aparat care arată adâncimea și timpul. La fiecare minut mă uitam la încheietură, ca un elev care se uită la ceas înainte de pauză. Instructorul spune că sub apă totul se face încet, fără nicio grabă.\n\nSub apă, Marea Neagră nu seamănă cu ce vedem de pe mal. Nu e un loc exotic, ca insulele din reclame, dar am găsit o lume aproape exotică: stânci acoperite de alge verzi, crabi mici care fug într-o parte, pești argintii care trec în grup, ca o ploaie. A treia zi sub apă a fost cea mai frumoasă. Apa era limpede și soarele cădea în raze lungi până pe nisip.\n\nAcum, cea mai mare veste. Ieri dimineață, la ora șase, am ieșit pe plajă și am văzut delfini, la vreo sută de metri de mal. Erau trei delfini, care săreau pe rând din apă. Un pescar bătrân mi-a spus că delfinii vin aproape de mal dimineața devreme, după pești, și că rareori rămân mult. Au stat zece minute, apoi au plecat spre larg. Am stat pe nisip până n-am mai văzut nimic.\n\nSă nu-ți faci griji pentru tenul meu. Știu că am un ten deschis și că mă ard repede, așa că mă dau cu cremă de trei ori pe zi și stau la umbră la prânz. Instructorul are tenul închis ca al unui pescar, dar el e pe mare din aprilie.\n\nMâine mă întorc acasă cu trenul. Îți aduc o fotografie cu delfinii, chiar dacă se văd doar ca niște puncte negre pe apă.\n\nCu drag,\nIlisaveta\n\nÎntrebări:\nUnde este pensiunea Ilisavetei?\nPensiunea este chiar vizavi de plajă.\nLa ce curs s-a înscris Ilisaveta?\nS-a înscris la un curs de inițiere pentru înot sub apă, care durează trei zile.\nCe i-a prins instructorul pe încheietură?\nI-a prins un mic aparat care arată adâncimea și timpul.\nCe a văzut ea sub apă?\nA văzut o lume aproape exotică, cu stânci acoperite de alge, crabi mici și pești argintii.\nCând vin delfinii aproape de mal?\nDelfinii vin aproape de mal dimineața devreme, după pești."
+    },
+    {
+      "title": "Pictorul din grădină",
+      "summary": "A review of an open-air performance in the garden of a landscape painter's house near Sinaia: the play follows his biography, the actor Lazarovici speaks to the painter's bronze bust, the painter's gentle irony amuses the audience, and his friend, a fairground magician, calls painting a trick that puts a mountain on canvas.",
+      "newWords": [
+        "reprezentație",
+        "actorie",
+        "biografie",
+        "bust",
+        "ironie",
+        "amuza",
+        "magician"
+      ],
+      "text": "Reprezentația de sâmbătă seara nu a avut loc într-o sală de teatru, ci în grădina casei unde a trăit pictorul Comănescu, la marginea Sinaiei. Spectatorii au stat pe scaune pliante, iar în spatele scenei se vedeau Bucegii, exact munții pe care pictorul i-a pictat toată viața.\n\nPiesa urmărește biografia lui Comănescu, așa cum a scris-o nepoata lui într-o carte apărută acum câțiva ani. Biografia e simplă: un copil care desena pe marginea caietelor, un tânăr care a plecat la București să învețe pictura, un om matur care s-a întors la munte și n-a mai plecat. Textul nu încearcă să spună totul. Alege câteva zile din viața pictorului și le lasă să respire.\n\nÎn mijlocul grădinii se află un bust de bronz al pictorului. Regizorul a folosit bustul ca parte a decorului. Actorul Lazarovici, care îl joacă pe Comănescu, vorbește uneori cu bustul, ca și cum ar vorbi cu el însuși la bătrânețe. Ideea putea să pară forțată, dar funcționează: bustul tace, iar tăcerea lui spune mult.\n\nComănescu era, după toate mărturiile, un om cu multă ironie, dar fără răutate. Piesa păstrează această ironie blândă, care nu rănește pe nimeni. Când un vizitator bogat îi cere un tablou „cu un munte mai înalt”, pictorul îi răspunde că munții nu cresc la comandă. Replica i-a amuzat pe spectatori, iar pe mine m-a amuzat și mai mult felul în care Lazarovici a spus-o: încet, aproape cu tristețe.\n\nCel mai bun prieten al pictorului din piesă este un magician care face numere la târguri. Magicianul scoate monede din urechile copiilor și porumbei din pălărie. Într-o scenă frumoasă, el îi spune pictorului că și pictura e un truc de magician: pui pe pânză un munte care nu e acolo și toată lumea îl vede.\n\nActoria lui Lazarovici este sobră. Nu ridică vocea, nu face gesturi mari. Este o lecție de actorie pentru tinerii care cred că pe scenă trebuie să strigi ca să fii auzit. Ceilalți actori sunt corecți, deși unul dintre ei vorbește prea repede.\n\nSpre final, soarele a apus în spatele munților, exact în momentul în care pictorul pune ultima culoare pe pânză. Nu știu dacă regizorul a calculat ora sau a avut noroc. Reprezentația se mai joacă în fiecare sâmbătă până la sfârșitul lui septembrie. Merită să mergeți, dar luați-vă o haină groasă.\n\nÎntrebări:\nUnde a avut loc reprezentația?\nA avut loc în grădina casei unde a trăit pictorul Comănescu, la marginea Sinaiei.\nPe ce se bazează piesa?\nPiesa urmărește biografia pictorului, scrisă de nepoata lui.\nCum folosește regizorul bustul de bronz?\nFolosește bustul ca parte a decorului, iar actorul vorbește uneori cu el.\nCe replică i-a amuzat pe spectatori?\nI-a amuzat răspunsul pictorului, care spune că munții nu cresc la comandă.\nCe îi spune magicianul pictorului?\nÎi spune că și pictura e un truc de magician, pentru că pui pe pânză un munte care nu e acolo.\nCum este actoria lui Lazarovici?\nActoria lui este sobră: nu ridică vocea și nu face gesturi mari."
+    },
+    {
+      "title": "Moara de pe pârâu",
+      "summary": "A report from a valley near Rucăr, where engineer Ichimescu leads the reconstruction of an old water mill: its pond stores water for dry weeks, the works must not muddy the stream, and a teaching trail for schoolchildren shows vascular plants and the succession from meadow to forest.",
+      "newWords": [
+        "reconstrucție",
+        "succesiune",
+        "pedagogic",
+        "vascular",
+        "stoca",
+        "tulbura"
+      ],
+      "text": "Pe valea unui pârâu de lângă Rucăr, o moară de apă veche de peste o sută de ani se învârte din nou. Reconstrucția ei a durat doi ani și a fost condusă de inginerul Ichimescu, care a crescut în satul de alături. „Când eram copil, moara era deja o ruină”, ne spune el. „Acum copiii mei văd cum se învârte roata.”\n\nReconstrucția nu a fost ușoară. Din vechea moară mai rămăseseră doar zidurile de piatră și câteva bucăți de lemn. Echipa a căutat fotografii vechi și i-a întrebat pe bătrânii satului cum arăta roata. Acoperișul l-au făcut din lemn de brad, ca pe vremuri.\n\nLângă moară se află un lac mic. Lacul stochează apa pârâului și o dă roții atunci când e nevoie. Vara, în săptămânile fără ploaie, pârâul scade mult, dar apa pe care o stochează lacul ajunge pentru câteva ore de lucru pe zi. Ichimescu explică și că pământul din jur stochează multă apă, mai ales sub pădure, și o dă înapoi încet, zi după zi.\n\nÎn timpul lucrărilor, echipa a avut o grijă specială. Pământul săpat putea tulbura apa pârâului, iar în pârâu trăiesc mulți pești. Când pământul tulbură apa, peștii pleacă, iar pietrele se acoperă cu un strat de pământ fin. De aceea, lucrările de lângă apă s-au făcut toamna, în doar câteva zile, cu bariere de pânză care opreau pământul. După o săptămână, apa era din nou limpede.\n\nPe lângă moară, satul a amenajat un traseu pedagogic pentru școli. Traseul pedagogic are doi kilometri și zece panouri. Primele panouri vorbesc despre plantele vasculare, adică plantele care au vase prin care urcă apa de la rădăcini până la frunze: ierburile, florile, copacii. Mușchii de pe pietre nu sunt plante vasculare, așa că nu pot crește prea înalți. Copiii ating o frunză de fag, apoi mușchii de pe o piatră, și înțeleg diferența.\n\nUltimele panouri explică o succesiune. Pe o poiană pe care nu mai pasc oile, cresc mai întâi ierburi înalte, apoi tufișuri, apoi copaci tineri și, după câteva zeci de ani, o pădure deasă. Această succesiune se vede chiar de pe traseu: pe aceeași pantă stau unul lângă altul poiana, tufișurile și pădurea tânără.\n\nProfesoara unei clase din Rucăr spune că o oră pe traseu valorează cât trei ore în bancă. Ichimescu speră ca, peste câțiva ani, moara să lucreze din nou pentru tot satul.\n\nÎntrebări:\nCât a durat reconstrucția morii?\nReconstrucția morii a durat doi ani și a fost condusă de inginerul Ichimescu.\nLa ce folosește lacul de lângă moară?\nLacul stochează apa pârâului și o dă roții atunci când e nevoie.\nDe ce a avut echipa grijă să nu tulbure apa?\nPentru că în pârâu trăiesc mulți pești, iar când pământul tulbură apa, peștii pleacă.\nPentru cine este traseul pedagogic?\nTraseul pedagogic este pentru școli și are doi kilometri și zece panouri.\nCe sunt plantele vasculare?\nSunt plantele care au vase prin care urcă apa de la rădăcini până la frunze.\nCe succesiune explică ultimele panouri?\nExplică cum pe o poiană cresc mai întâi ierburi, apoi tufișuri, apoi copaci tineri și, la urmă, o pădure deasă."
+    },
+    {
+      "title": "Pensiuni pe deal",
+      "summary": "A short essay weighs the guesthouses that entrepreneur Budișteanu builds in a mountain village: they stopped the village's decline and gave young people work, but critics see tourism as a pretext for building on meadows, intensive use spoils the view, and brightly painted roofs clash with the hills.",
+      "newWords": [
+        "antreprenor",
+        "pretext",
+        "declin",
+        "intensiv",
+        "vopsit"
+      ],
+      "text": "Acum cincisprezece ani, satul de pe dealul de deasupra râului era în declin. Tinerii plecaseră la oraș sau în străinătate, școala avea doar opt elevi, iar jumătate din case stăteau închise. Declinul se vedea și în peisaj: fânețele nu mai erau cosite, gardurile cădeau, livezile se umpleau de tufe.\n\nApoi a venit Budișteanu, un antreprenor din oraș care își petrecuse copilăria aici, la bunici. A cumpărat trei case vechi, le-a renovat și le-a transformat în pensiuni. Azi are opt pensiuni și dă de lucru la douăzeci de oameni din sat. Unii îl privesc ca pe un salvator. Alții spun că antreprenorul a schimbat satul mai mult decât trebuia.\n\nArgumentele lui sunt ușor de înțeles. Fără turiști, satul ar fi continuat să se golească. Pensiunile cumpără lapte, brânză și miere de la gospodari, iar câțiva tineri s-au întors acasă. Budișteanu spune că oamenii vin pentru peisaj și că el are tot interesul să-l păstreze.\n\nCriticii văd lucrurile altfel. Ei spun că turismul a devenit un pretext pentru construcții pe fânețe. Fiecare casă nouă e prezentată ca „pensiune tradițională”, dar pretextul tradiției ascunde clădiri de trei etaje, cu parcări mari în față. Pe vremuri, dealul era folosit pentru pășunat ușor, câteva vaci și oi. Acum, în weekend, este folosit intensiv: mașini, drumuri noi, zgomot. Un loc folosit atât de intensiv își pierde exact liniștea pentru care venea lumea.\n\nMai e și problema culorilor. Casele vechi aveau pereți albi și acoperișuri de șindrilă, care se înnegreau frumos în timp. Multe pensiuni noi au acoperișuri de tablă vopsită în roșu aprins sau în verde, iar pereții sunt vopsiți în galben sau portocaliu. Văzute de pe dealul de vizavi, acoperișurile vopsite strălucesc în soare ca niște jucării aruncate în iarbă.\n\nCred că ambele părți au dreptate. Satul avea nevoie de bani și de oameni, iar un antreprenor care investește într-un loc uitat merită respect. Dar un peisaj nu este o resursă care se poate folosi la nesfârșit. Poate ar fi util ca satul să aibă câteva reguli clare: înălțimea caselor, culorile acoperișurilor, locurile unde nu se construiește deloc. Regulile nu ar opri turismul; l-ar face să dureze.\n\nÎntrebări:\nCum arăta satul acum cincisprezece ani?\nSatul era în declin: tinerii plecaseră, școala avea opt elevi și multe case stăteau închise.\nCe a făcut antreprenorul Budișteanu?\nA cumpărat case vechi, le-a transformat în pensiuni și dă de lucru la douăzeci de oameni din sat.\nCe spun criticii despre turism?\nSpun că turismul a devenit un pretext pentru construcții pe fânețe și că dealul este folosit prea intensiv.\nDe ce nu se potrivesc acoperișurile noi cu peisajul?\nPentru că sunt din tablă vopsită în roșu aprins sau în verde și strălucesc în soare ca niște jucării.\nCe propune autorul?\nPropune câteva reguli clare pentru înălțimea caselor, culorile acoperișurilor și locurile unde nu se construiește."
+    },
+    {
+      "title": "Doamna doctor cu acuarele",
+      "summary": "A portrait of Ilinuța Hulubaș, who came to a village dental surgery in the Apuseni after a friend's telegram and stayed forty years: now retired, she carries watercolours and a red lipstick in her handbag and paints from her hiding place in a beech clearing, while her nephew, also a dentist, fits implants in Cluj.",
+      "newWords": [
+        "dentist",
+        "dentar",
+        "implant",
+        "poșetă",
+        "ruj",
+        "ascunzătoare",
+        "telegramă"
+      ],
+      "text": "În 1979, Ilinuța Hulubaș avea 26 de ani și terminase facultatea la Cluj. Într-o dimineață a primit o telegramă de la o prietenă: „Cabinetul dentar din Arieșeni caută dentist. Vino repede.” Telegrama avea doar opt cuvinte, dar i-a schimbat viața. A plecat în munții Apuseni cu o valiză și a rămas acolo patruzeci de ani.\n\nCabinetul dentar era o cameră mică, într-o clădire de lemn, cu un scaun vechi și o fereastră spre munte. Pacienții veneau din satele din jur, uneori pe jos, câte două ore. „Pe vremea aceea un dentist făcea de toate”, spune ea. „Nu existau implanturi. Dacă un dinte nu mai putea fi salvat, îl scoteam și gata.”\n\nAstăzi doamna Hulubaș e la pensie, dar s-a întors la o pasiune mai veche: pictura. În poșetă poartă mereu un carnet de schițe, o cutie mică de acuarele, o pensulă și un ruj roșu. De ce rujul? „Un dentist le cere toată viața oamenilor să zâmbească”, spune ea râzând. „Acum zâmbesc eu.” Poșeta e de piele maro, veche, și a însoțit-o și pe vremea cabinetului.\n\nAre și o ascunzătoare. Deasupra satului, între fagi, e o poiană mică de unde se vede toată valea. Acolo urcă aproape în fiecare zi, pe la ora patru, când lumina devine aurie. În ascunzătoarea ei nu vine nimeni, doar uneori o căprioară. Se așază pe o piatră, scoate acuarelele din poșetă și pictează aceeași vale, în alt anotimp și în altă lumină.\n\nNepotul ei, Iachint, e și el dentist, la Cluj. Pune zeci de implanturi pe an și lucrează cu aparate pe care mătușa lui nici nu le-a visat. Uneori îi aduce reviste de medicină dentară. Ea le răsfoiește curioasă și spune că un implant bun e o mică operă de artă. Apoi se întoarce la acuarelele ei.\n\nTelegrama de acum patruzeci de ani o păstrează într-o ramă, pe peretele din bucătărie. Lângă ea a pus prima ei acuarelă cu valea, pictată din ascunzătoarea de sub fagi.\n\nÎntrebări:\nCe i-a scris prietena în telegramă?\nI-a scris că cabinetul dentar din Arieșeni caută dentist și că trebuie să vină repede.\nCât timp a lucrat doamna Hulubaș ca dentist în munți?\nA lucrat acolo patruzeci de ani.\nCe poartă ea mereu în poșetă?\nPoartă un carnet de schițe, o cutie de acuarele, o pensulă și un ruj roșu.\nUnde este ascunzătoarea ei?\nAscunzătoarea ei este o poiană mică între fagi, deasupra satului, de unde se vede toată valea.\nCe face nepotul ei?\nNepotul ei e dentist la Cluj și pune zeci de implanturi pe an."
+    },
+    {
+      "title": "Peisajul de la hublou",
+      "summary": "In his diary, translator Ploscaru flies from Bucharest to Cluj while translating a book on how the brain processes images of landscapes: his suitcase loses a wheel, he sits by the jet engine and watches fields, rivers and mountains below, and the express train home ends the day.",
+      "newWords": [
+        "traducător",
+        "reactor",
+        "procesare",
+        "rotilă",
+        "expres"
+      ],
+      "text": "Marți, 3 octombrie\n\nSunt traducător de cincisprezece ani și traduc mai ales cărți de știință. Acum lucrez la o carte despre procesarea imaginilor în creier: cum transformă ochiul și mintea lumina în copaci, râuri și munți. Autorul scrie că procesarea unui peisaj durează mai puțin de o zecime de secundă și că, în acest timp, creierul alege ce e important și ce poate ignora.\n\nAzi am zburat la Cluj, la o întâlnire cu editura. Dimineața, pe drumul spre aeroport, valiza mea a pierdut o rotilă. Valiza avea patru rotile, iar acum merge strâmb, ca un câine care șchiopătează. Am tras-o așa prin tot aeroportul, cu un zgomot care îi făcea pe oameni să întoarcă privirea.\n\nÎn avion am avut locul la geam, chiar lângă aripă. Prin hublou vedeam reactorul, mare și cenușiu. La decolare, zgomotul reactorului a acoperit tot, apoi s-a transformat într-un zumzet egal. Pentru un traducător obosit, zumzetul acesta e mai bun decât orice muzică.\n\nDupă câteva minute, peisajul de jos a devenit o hartă. Câmpurile erau dreptunghiuri galbene și maro, satele erau puncte albe, iar râurile semănau cu niște fire de argint aruncate pe o masă. M-am gândit la cartea mea. De sus, creierul nu mai vede casa, ci forma; nu mai vede copacul, ci pata de verde. Autorul are dreptate: procesarea unei imagini înseamnă mai ales să alegi.\n\nMai târziu au apărut munții. Norii stăteau pe creste ca o pătură albă, iar printre ei se vedeau văi adânci și întunecate. Am încercat să fac o fotografie, dar pe ecranul telefonului se vedea mai mult reactorul decât munții. Am renunțat și m-am uitat pur și simplu.\n\nÎntâlnirea de la editură a mers bine. Seara m-am întors cu trenul expres, pentru că nu mai voiam alt zbor în aceeași zi. Expresul a mers prin aceleași peisaje pe care le văzusem de sus, dar acum erau aproape, cu oameni, vaci și garduri. Am scris trei pagini de traducere și am adormit cu capul pe valiza fără o rotilă.\n\nÎntrebări:\nCe fel de cărți traduce Ploscaru?\nPloscaru este traducător și traduce mai ales cărți de știință.\nDespre ce este cartea la care lucrează acum?\nEste despre procesarea imaginilor în creier, adică despre felul în care mintea transformă lumina în peisaje.\nCe s-a întâmplat cu valiza lui?\nValiza a pierdut o rotilă și acum merge strâmb.\nCe vedea prin hublou?\nVedea reactorul avionului și, jos, câmpuri, sate, râuri și munți.\nCum s-a întors acasă seara?\nS-a întors cu trenul expres, pentru că nu mai voia alt zbor în aceeași zi."
+    }
+  ]
+}
