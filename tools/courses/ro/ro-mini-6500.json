@@ -1,0 +1,183 @@
+{
+  "id": "ro-mini-6500",
+  "rankUpTo": 6500,
+  "level": "C1",
+  "title": "Inginerie",
+  "description": "Ten texts about engineering: a retired bridge engineer and a new motorway on tall pillars, a snowy night on the railway, a deeper well for a village, hydrogen buses on local TV, a student learning derivatives by tutoring, a penguin house at a zoo, a home-built telescope and a rare aurora, a new school handed over, a plant-based burger lab, and a column on engineers and the people they build for.",
+  "topic": "Engineering",
+  "names": [
+    "Zotica",
+    "Tarcea",
+    "Timeea",
+    "Oltului",
+    "Sibiu",
+    "Antonie",
+    "Jinga",
+    "Predeal",
+    "Sinaia",
+    "București",
+    "România",
+    "Flaviana",
+    "Mănăilă",
+    "Maramureș",
+    "Dalina",
+    "Nanu",
+    "Tâlvan",
+    "Brașov",
+    "Alexandrina",
+    "Agache",
+    "Iași",
+    "Oreste",
+    "Panaite",
+    "Chirața",
+    "Ghețea",
+    "Bacău",
+    "Eda",
+    "Oprișan",
+    "Suceava",
+    "Cluj",
+    "Norvegiei",
+    "Canadei",
+    "Chiraței",
+    "Flavianei",
+    "Edei",
+    "Dalinei",
+    "Alexandrinei"
+  ],
+  "lessons": [
+    {
+      "title": "Podul de pe Valea Oltului",
+      "summary": "Zotica Tarcea, a retired bridge engineer, drives with his granddaughter Timeea to see a new motorway section on tall pillars and the old village bridge he designed, now modernized.",
+      "newWords": [
+        "pensionat",
+        "tronson",
+        "pilon",
+        "anvergură",
+        "gravitate",
+        "învechit",
+        "notabil",
+        "modernizat"
+      ],
+      "text": "Zotica Tarcea a construit poduri timp de patruzeci de ani. De șapte ani e pensionat, dar nu s-a îndepărtat de meserie: citește revistele de specialitate, urmărește șantierele din țară și păstrează pe birou un carnet cu calcule vechi. Când nepoata lui, Timeea, i-a propus o excursie pe Valea Oltului, a acceptat pe loc. Voia să vadă cu ochii lui noul tronson de autostradă de lângă Sibiu, despre care citise atâtea articole.\n\nTimeea conduce, iar bunicul privește pe geam. Șoseaua veche urmează râul, cu toate curbele lui. E îngustă și învechită, făcută pentru mașinile de acum cincizeci de ani, nu pentru camioanele de azi. Mai sus, pe versant, se vede tronsonul nou: o linie aproape dreaptă, sprijinită pe piloni înalți de beton.\n\n— Uită-te la pilonii aceia, spune Zotica. Unii au peste o sută de metri. Pe vremea mea, un singur pilon ca ăsta ar fi fost o lucrare despre care vorbea toată țara.\n\nSe opresc într-o parcare de unde viaductul se vede întreg. Bunicul scoate carnetul și începe să-i explice nepoatei. Un pod de asemenea anvergură, spune el, nu se calculează doar pentru greutatea mașinilor. Inginerii țin seama de vânt, de zăpadă, de felul în care betonul se dilată vara și se strânge iarna. Anvergura unui proiect nu înseamnă numai lungimea lui, ci și numărul de probleme care trebuie rezolvate în același timp.\n\nTimeea îl întreabă de ce pilonii sunt mai groși jos decât sus. Bunicul zâmbește: e vorba de centrul de gravitate. O construcție înaltă rămâne stabilă când centrul ei de gravitate e jos și bine sprijinit. Același lucru le explica, an de an, tinerilor ingineri pe care îi pregătea: întâi gravitatea, apoi restul.\n\nPe drumul de întoarcere trec printr-un sat unde podul peste râu a fost modernizat anul trecut. Zotica îl recunoaște de departe: l-a proiectat el, în 1979. Pe atunci era o lucrare notabilă pentru regiune, primul pod din zonă care trecea râul dintr-o singură deschidere. Acum are trotuare noi, balustrade noi și lumini pe toată lungimea. Podul modernizat arată ca nou, dar bunicul observă imediat că pilonii sunt cei vechi, ai lui.\n\n— Nu e nimic învechit la ei, spune el mulțumit. Au fost doar curățați și întăriți.\n\nTimeea îi face o fotografie în fața podului. Pentru ea, lucrul cel mai notabil din toată ziua nu e viaductul cel mare, ci felul în care bunicul atinge cu palma balustrada podului vechi, ca pe umărul unui prieten.\n\nÎntrebări:\nDe când este pensionat Zotica Tarcea?\nZotica Tarcea este pensionat de șapte ani.\nCe voia să vadă Zotica pe Valea Oltului?\nVoia să vadă noul tronson de autostradă de lângă Sibiu.\nCum arată șoseaua veche?\nȘoseaua veche urmează râul cu toate curbele lui și e îngustă și învechită.\nDe ce sunt pilonii mai groși jos?\nPentru că o construcție înaltă rămâne stabilă când centrul ei de gravitate e jos și bine sprijinit.\nCe a observat bunicul la podul modernizat?\nA observat că pilonii sunt cei vechi, pe care i-a proiectat el."
+    },
+    {
+      "title": "Noapte albă pe calea ferată",
+      "summary": "On a snowy night near Predeal, track supervisor Antonie Jinga and his team clear the rail switches with shovels so the train timetable can stay unchanged.",
+      "newWords": [
+        "șină",
+        "ninge",
+        "lopată",
+        "supraveghetor",
+        "ocol",
+        "neschimbat",
+        "incomod",
+        "măduvă"
+      ],
+      "text": "Antonie Jinga este supraveghetor de linie pe calea ferată dintre Predeal și Sinaia. Are în grijă câțiva kilometri de șine, două stații și o mulțime de macazuri, adică acele bucăți de șină care se mișcă și trimit trenul pe o linie sau pe alta. Vara, munca lui e liniștită. Iarna, când ninge zile întregi, e cu totul altceva.\n\nAzi a început să ningă la prânz. La ora cinci, stratul de zăpadă trecea deja de genunchi. Antonie a primit un telefon de la stația din Predeal: un macaz nu se mai închide bine, iar trenul de noapte spre București trebuie să treacă pe acolo la ora unsprezece.\n\nDrumul obișnuit spre stație era blocat de zăpadă, așa că Antonie a făcut un ocol de aproape douăzeci de kilometri, pe la Sinaia. Ocolul i-a luat o oră. Când a ajuns, ceilalți doi oameni din echipă îl așteptau deja, cu lopețile în mână.\n\nMacazurile moderne au un sistem electric de încălzire, care topește zăpada dintre șine. Unul dintre ele însă nu mai funcționează. Până vine electricianul, zăpada trebuie scoasă cu lopata, iar gheața spartă cu mâna. Lucrează aplecați, într-o poziție incomodă, cu fața în vânt. Geaca groasă de iarnă e caldă, dar incomodă: te încurcă la fiecare mișcare. Frigul le intră până în măduva oaselor.\n\n— Mai ninge mult? întreabă cel mai tânăr dintre ei.\n\n— Toată noaptea, spune Antonie. De asta suntem aici.\n\nLa ora zece vine electricianul. Găsește cablul rupt sub zăpadă și îl înlocuiește în jumătate de oră. Încălzirea pornește, iar zăpada dintre șine începe să se topească. Antonie verifică macazul de trei ori: se închide perfect.\n\nLa ora unsprezece fix, trenul de noapte trece prin stație. Programul trenurilor a rămas neschimbat, iar călătorii, care dorm în vagoane, nu vor afla niciodată ce s-a întâmplat. Pentru Antonie, asta e cea mai bună veste: o noapte de iarnă după care orarul e neschimbat înseamnă că echipa și-a făcut treaba.\n\nSe întorc la stație, își pun lopețile în colț și beau un ceai fierbinte. Frigul din măduva oaselor trece încet. Afară, încă ninge.\n\nÎntrebări:\nCe face Antonie Jinga?\nEste supraveghetor de linie pe calea ferată dintre Predeal și Sinaia.\nDe ce a făcut Antonie un ocol?\nPentru că drumul obișnuit spre stație era blocat de zăpadă.\nCum au scos oamenii zăpada dintre șine?\nAu scos-o cu lopata, iar gheața au spart-o cu mâna.\nDe ce era geaca de iarnă incomodă?\nPentru că îi încurca la fiecare mișcare.\nCe a reparat electricianul?\nA găsit cablul rupt sub zăpadă și l-a înlocuit.\nDe ce e un orar neschimbat o veste bună pentru Antonie?\nPentru că înseamnă că echipa și-a făcut treaba."
+    },
+    {
+      "title": "Apă bună pentru un sat din Maramureș",
+      "summary": "Engineer Flaviana Mănăilă finds that a village's wells are contaminated, drills a deeper well, adds a filter and watches the readings until the water is drinkable.",
+      "newWords": [
+        "potabil",
+        "contaminat",
+        "profunzime",
+        "diminua",
+        "variație",
+        "indicație",
+        "adițional"
+      ],
+      "text": "Flaviana Mănăilă este inginer la compania județeană de apă. Primăvara trecută a fost chemată într-un sat de munte din Maramureș. Oamenii de acolo beau de generații apă din fântâni, dar analizele arătau o problemă: apa din mai multe fântâni era contaminată cu nitrați, substanțe care vin din îngrășămintele folosite pe câmp. Apa contaminată nu se vede și nu are alt gust, de aceea mulți nu credeau că e ceva în neregulă.\n\nFlaviana a explicat la o întâlnire, în sala de la primărie, că apa potabilă nu e doar apa limpede și rece. Apa potabilă e apa care trece toate analizele de laborator. Fântânile satului sunt puțin adânci, așa că apa din ploaie și de pe câmpuri ajunge repede în ele.\n\nSoluția era un puț nou, săpat la o profunzime mult mai mare. La o profunzime de optzeci de metri, sub un strat gros de argilă, apa e protejată de ce se întâmplă la suprafață. Forajul a durat trei săptămâni. Flaviana a venit în fiecare zi și a urmărit indicațiile aparatelor: nivelul apei, temperatura, cantitatea de nitrați.\n\nDupă primele zile de pompare, nivelul de nitrați a început să se diminueze. Nu dintr-odată, ci puțin câte puțin. În a doua săptămână a continuat să se diminueze, iar la sfârșitul celei de-a treia era sub limita admisă. Flaviana a notat totul într-un tabel. A observat și o variație ciudată: dimineața valorile erau mai mici decât seara. Variația venea de la pompă, care trăgea apă mai repede seara, când oamenii foloseau mai multă. După ce a reglat pompa, variația a dispărut aproape complet.\n\nPentru siguranță, Flaviana a propus un filtru adițional, montat la intrarea în rezervor. Filtrul adițional costă puțin, dar oprește orice urmă de nitrați care ar mai putea apărea după ploile mari. Primăria a fost de acord, iar firma care se ocupa de lucrare l-a montat în două zile.\n\nÎn septembrie, laboratorul a trimis rezultatele: apa trece toate analizele. Flaviana a urmat încă o dată indicațiile din protocol, a mai luat o probă și a mai așteptat o săptămână. Apoi a dat vestea. În ziua în care apa potabilă a curs pentru prima dată la robinetele din sat, o bătrână i-a adus Flavianei un pahar din bucătăria ei.\n\n— Acum o pot bea fără grijă? a întrebat ea.\n\n— Fără nicio grijă, a spus Flaviana, și a băut prima.\n\nÎntrebări:\nDe ce a fost chemată Flaviana în sat?\nPentru că apa din mai multe fântâni era contaminată cu nitrați.\nCe este, după Flaviana, apa potabilă?\nApa potabilă e apa care trece toate analizele de laborator.\nLa ce profunzime au săpat puțul nou?\nL-au săpat la o profunzime de optzeci de metri.\nDe unde venea variația valorilor?\nVenea de la pompă, care trăgea apă mai repede seara.\nLa ce folosește filtrul adițional?\nOprește orice urmă de nitrați care ar mai putea apărea după ploile mari."
+    },
+    {
+      "title": "Autobuzul care lasă în urmă doar apă",
+      "summary": "TV producer Dalina Nanu films an episode about Brașov's new hydrogen buses, interviews the engineer who pushed for them and reads the viewers' letters.",
+      "newWords": [
+        "realizator",
+        "telespectator",
+        "informativ",
+        "hidrogen",
+        "comprimat",
+        "mobilitate",
+        "promotor"
+      ],
+      "text": "Dalina Nanu este realizatoare la televiziunea locală din Brașov. Emisiunea se numește „Tehnică pentru toți” și e una informativă: în fiecare săptămână, Dalina explică pe înțelesul tuturor cum funcționează un lucru pe care oamenii îl folosesc fără să se gândească la el. Telespectatorii îi trimit întrebări, iar ea alege câte una pentru fiecare episod.\n\nLuna aceasta, cei mai mulți telespectatori au întrebat același lucru: ce sunt autobuzele noi, albe, care circulă de câteva săptămâni prin oraș și nu scot fum? Sunt autobuze cu hidrogen, primele din regiune. Dalina a hotărât să le dedice un episod întreg.\n\nFilmarea începe în garajul companiei de transport, unde o așteaptă inginerul Tâlvan. El a fost promotorul proiectului: timp de patru ani a convins primăria, a căutat fonduri și a mers să vadă autobuze asemănătoare în alte orașe. Toată lumea din garaj știe că, fără un promotor atât de încăpățânat, proiectul ar fi rămas pe hârtie.\n\nInginerul îi arată Dalinei rezervoarele de pe acoperișul autobuzului. În ele se află hidrogen comprimat, adică un gaz strâns la o presiune foarte mare, ca să încapă mult într-un spațiu mic. Rezervoarele sunt groase și foarte rezistente. În autobuz, hidrogenul comprimat se combină cu oxigenul din aer și produce curent electric. Curentul pune în mișcare motorul, iar din țeava din spate iese doar puțin abur de apă.\n\n— Deci autobuzul lasă în urmă numai apă? întreabă Dalina.\n\n— Numai apă, spune inginerul. Puteți pune mâna, e doar caldă.\n\nAl doilea subiect al episodului e mobilitatea. Inginerul explică faptul că un oraș nu are nevoie doar de autobuze curate, ci și de o mobilitate bună: stații aproape de casă, trasee clare, autobuze care vin la timp. Hidrogenul e o parte a soluției, nu toată soluția. Mobilitatea unui oraș, spune el, se măsoară în minutele pe care oamenii le câștigă în fiecare zi.\n\nEpisodul se difuzează joi seara. A doua zi, Dalina primește zeci de mesaje. Un telespectator pensionat scrie că a mers cu autobuzul nou până la capăt de linie doar ca să vadă dacă e adevărat că nu face zgomot. O elevă întreabă unde poate studia ca să lucreze cu hidrogen. Dalina zâmbește: pentru o realizatoare de emisiuni informative, asta e cea mai bună recompensă.\n\nÎntrebări:\nCe fel de emisiune face Dalina Nanu?\nFace o emisiune informativă despre cum funcționează lucrurile de zi cu zi.\nCe au întrebat telespectatorii luna aceasta?\nAu întrebat ce sunt autobuzele noi, albe, care nu scot fum.\nCe a făcut inginerul Tâlvan ca promotor al proiectului?\nA convins primăria, a căutat fonduri și a mers să vadă autobuze asemănătoare în alte orașe.\nCe este hidrogenul comprimat?\nEste un gaz strâns la o presiune foarte mare, ca să încapă mult într-un spațiu mic.\nCum se măsoară, după inginer, mobilitatea unui oraș?\nSe măsoară în minutele pe care oamenii le câștigă în fiecare zi."
+    },
+    {
+      "title": "Derivatele Alexandrinei",
+      "summary": "First-year engineering student Alexandrina Agache struggles with derivatives, starts tutoring two high-school pupils and discovers that explaining is the best way to learn.",
+      "newWords": [
+        "rector",
+        "egidă",
+        "derivată",
+        "medita",
+        "asimilat",
+        "paradox"
+      ],
+      "text": "Alexandrina Agache a intrat anul acesta la Politehnica din Iași, la facultatea de construcții. În prima zi, în aula mare, rectorul universității le-a vorbit studenților despre cei peste o sută cincizeci de ani de istorie ai școlii. Alexandrina a reținut o singură frază din discursul lui: „Un inginer bun nu e cel care nu greșește, ci cel care își verifică mereu calculele.” Rectorul a spus-o zâmbind, dar ea a scris-o pe prima pagină a caietului.\n\nPrima lună a fost grea. La analiză matematică, profesorul vorbea repede despre derivate, iar Alexandrina nu reușea să țină pasul. Știa să calculeze o derivată simplă, dar nu înțelegea ce înseamnă. De ce avea nevoie un inginer de construcții de derivata unei funcții?\n\nÎn aceeași lună, ca să câștige niște bani, a început să mediteze doi elevi de liceu la matematică. Îi meditează de două ori pe săptămână, în biblioteca de cartier. Unul dintre ei, un băiat din clasa a unsprezecea, o întreabă „de ce?” la fiecare pas.\n\nÎntr-o seară, băiatul a vrut să știe la ce folosește derivata. Alexandrina a căutat un exemplu și l-a găsit pe drum, într-un autobuz. Viteza autobuzului, i-a explicat ea, e derivata distanței: ne spune cât de repede se schimbă distanța în fiecare clipă. Iar pentru o grindă de pod, derivata arată unde se îndoaie mai tare. În timp ce explica, a înțeles și ea, pentru prima dată, ce înseamnă de fapt o derivată.\n\nAcesta e paradoxul pe care l-a descoperit în primul semestru: învață cel mai bine exact atunci când îi învață pe alții. Paradoxul nu e nou; profesorii îl cunosc de mult. Pentru Alexandrina însă a fost o descoperire. Noțiunile asimilate în timp ce meditează rămân mai bine decât cele citite singură, noaptea, înainte de examen. Le simte asimilate, nu doar memorate.\n\nÎn decembrie, universitatea a organizat un concurs de matematică pentru studenții din anul întâi, sub egida Academiei. Concursul s-a ținut în aula unde rectorul vorbise în prima zi. Alexandrina nu a câștigat, dar a rezolvat corect toate problemele cu derivate. Diploma de participare, pe care scrie că concursul s-a ținut sub egida Academiei, stă acum lipită lângă birou.\n\nÎntrebări:\nCe frază a rectorului a scris Alexandrina în caiet?\n„Un inginer bun nu e cel care nu greșește, ci cel care își verifică mereu calculele.”\nDe ce a început Alexandrina să mediteze doi elevi?\nCa să câștige niște bani.\nCum i-a explicat băiatului ce este derivata?\nI-a spus că viteza autobuzului e derivata distanței.\nCare este paradoxul descoperit de Alexandrina?\nÎnvață cel mai bine atunci când îi învață pe alții.\nSub egida cui s-a ținut concursul?\nConcursul s-a ținut sub egida Academiei."
+    },
+    {
+      "title": "Un bazin pentru pinguini",
+      "summary": "Engineer Oreste Panaite designs a new penguin house at the Brașov zoo, with cold filtered water, a quiet glass wall and a boiler only for the visitors' side.",
+      "newWords": [
+        "pinguin",
+        "cazan",
+        "fiziologic",
+        "gălăgie",
+        "decora",
+        "agrement",
+        "problematic"
+      ],
+      "text": "Oreste Panaite este inginer de instalații și a lucrat până acum mai ales la blocuri și la spitale. Anul trecut a primit un proiect neobișnuit: o casă nouă pentru pinguinii grădinii zoologice din Brașov. Grădina face parte dintr-o zonă de agrement mare, cu alei, lac și locuri de joacă, iar pinguinii sunt preferații copiilor. Mulți părinți vin în zona de agrement doar ca să le arate copiilor pinguinii.\n\nPrimul lucru pe care l-a făcut Oreste a fost să stea de vorbă cu medicul veterinar. Pinguinii aduși la Brașov nu vin din zona Polului Sud, ci de pe coastele unor țări mai calde, dar au totuși nevoi fiziologice precise. Apa trebuie să fie rece și foarte curată, aerul nu trebuie să fie prea umed, iar lumina trebuie să urmeze ritmul zilei. Fără aceste condiții fiziologice, pasărea obosește și nu mai mănâncă bine.\n\nPartea cea mai problematică a fost apa. Un bazin pentru pinguini se murdărește repede, pentru că păsările mănâncă pește și își petrec în apă jumătate din zi. Oreste a proiectat un sistem de filtre care curăță toată apa din bazin de câteva ori pe zi. Umiditatea a fost și ea problematică: aerul de deasupra apei se încarcă repede, așa că a adăugat ventilatoare care îl schimbă în permanență.\n\nApoi a venit problema căldurii. Pinguinii nu au nevoie de încălzire, dar vizitatorii, iarna, au. Oreste a împărțit clădirea în două. Pe partea vizitatorilor, un cazan pe gaz încălzește holul și culoarul. Pe partea pinguinilor, cazanul nu ajunge deloc. Între ele e un perete gros de sticlă.\n\nPeretele de sticlă rezolvă și altă problemă: gălăgia. Medicul i-a explicat că zgomotul îi stresează pe pinguini, iar sâmbăta grădina e plină de copii. Gălăgia de pe hol rămâne acum dincolo de sticlă, iar în bazin se aude doar apa.\n\nLa sfârșit, a venit rândul decorului. Echipa grădinii a vrut să decoreze bazinul cu stânci artificiale, dar Oreste a propus pietre adevărate, aduse de pe malul unui râu de munte, pe care pinguinii se pot cățăra. Holul îl decorează copiii: în fiecare lună, o școală din oraș aduce desene noi cu pinguini.\n\nÎn ziua inaugurării, Oreste a stat o oră în fața sticlei. Pinguinii înotau, ieșeau pe pietre și se scuturau. Medicul i-a spus că păsările mănâncă bine din prima săptămână. Pentru un inginer de instalații, a recunoscut Oreste râzând, e cel mai bun certificat de calitate.\n\nÎntrebări:\nCe proiect neobișnuit a primit Oreste Panaite?\nA primit proiectul unei case noi pentru pinguinii grădinii zoologice din Brașov.\nCe nevoi fiziologice au pinguinii?\nAu nevoie de apă rece și curată, de aer nu prea umed și de lumină care urmează ritmul zilei.\nDe ce a fost apa partea cea mai problematică?\nPentru că bazinul se murdărește repede, iar păsările stau în apă jumătate din zi.\nCe încălzește cazanul pe gaz?\nÎncălzește holul și culoarul vizitatorilor.\nCum a rezolvat Oreste problema gălăgiei?\nA pus un perete gros de sticlă între hol și bazin."
+    },
+    {
+      "title": "Aurora de pe dealul cu măceși",
+      "summary": "Engineer Chirața Ghețea, who built her own telescope, drives up a thorny hill outside Bacău to escape city light and photographs a rare aurora over Romania.",
+      "newWords": [
+        "telescop",
+        "auroră",
+        "fracțiune",
+        "sprânceană",
+        "nedorit",
+        "replica",
+        "spin"
+      ],
+      "text": "Chirața Ghețea este inginer mecanic la o fabrică din Bacău. În timpul liber construiește telescoape. Primul telescop l-a făcut acum zece ani, din piese cumpărate pe internet și dintr-o oglindă șlefuită de mână, seri la rând, în garaj. De atunci a mai construit trei. Cel mai nou telescop are un motor mic, care îl rotește încet, odată cu cerul, ca stelele să rămână în imagine.\n\nProblema cea mai mare a Chiraței nu e tehnica, ci lumina orașului. Felinarele, reclamele și ferestrele aprinse produc o lumină nedorită, care acoperă stelele slabe. Astronomii numesc asta „poluare luminoasă”. Ca să scape de lumina nedorită, Chirața urcă de obicei cu mașina pe un deal de lângă oraș, acoperit cu măceși. Măceșii au spini lungi și tari, iar ea și-a cumpărat o geacă groasă doar ca să nu se agațe în spini când își duce trusa pe potecă.\n\nÎntr-o seară de mai, aplicația de pe telefon a anunțat ceva rar: o furtună solară puternică, iar aurora ar putea fi văzută chiar și din România. De obicei, aurora apare doar aproape de poli, în nordul Norvegiei sau al Canadei. Chirața a plecat imediat spre deal.\n\nPe drum s-a oprit la un vecin, să-i spună. Vecinul a ridicat o sprânceană.\n\n— O auroră? La noi? E doar un nor, a spus el.\n\n— Nu e un nor, a replicat Chirața. Vino și vezi.\n\nVecinul a venit, cu sprânceana încă ridicată. Pe la ora zece, cerul spre nord a început să se coloreze în roz și violet. Cu ochiul liber, aurora părea palidă, ca o ceață colorată. În aparatul de fotografiat însă culorile erau puternice. Chirața a făcut sute de fotografii, cu expuneri lungi, dar și cu expuneri de o fracțiune de secundă, ca să prindă mișcarea luminii. Diferența dintre două imagini făcute la o fracțiune de secundă una de alta arăta cum aurora se mișcă pe cer ca o perdea în vânt.\n\nTelescopul nu i-a folosit la nimic în noaptea aceea: aurora era prea mare pentru câmpul lui. Vecinul a observat asta și a râs.\n\n— Ai construit patru telescoape și acum fotografiezi cu telefonul, i-a spus el.\n\n— Am construit patru telescoape ca să știu încotro să mă uit, a replicat ea.\n\nS-au întors acasă după miezul nopții, cu hainele pline de spini și cu telefoanele pline de fotografii.\n\nÎntrebări:\nCe construiește Chirața în timpul liber?\nConstruiește telescoape.\nDe ce urcă Chirața pe deal?\nCa să scape de lumina nedorită a orașului.\nDe ce și-a cumpărat o geacă groasă?\nCa să nu se agațe în spinii măceșilor.\nCe a făcut vecinul când a auzit de auroră?\nA ridicat o sprânceană și a spus că e doar un nor.\nDe ce a făcut Chirața fotografii de o fracțiune de secundă?\nCa să prindă mișcarea luminii pe cer."
+    },
+    {
+      "title": "Ziua în care școala a fost recepționată",
+      "summary": "Site engineer Eda Oprișan shows the commission around a new village school near Suceava, from the gym to the infirmary, until they accept the building.",
+      "newWords": [
+        "recepționa",
+        "infirmerie",
+        "halat",
+        "buchet",
+        "buzna"
+      ],
+      "text": "Eda Oprișan este inginer de șantier și a condus timp de un an și jumătate construcția unei școli noi într-o comună de lângă Suceava. Clădirea e gata: are două etaje, opt săli de clasă, o sală de sport, o bibliotecă și o infirmerie. Azi vine comisia care trebuie să recepționeze lucrarea. Fără recepție, școala nu se poate deschide în septembrie.\n\nComisia ajunge la ora nouă: un reprezentant al primăriei, directoarea școlii, un inginer de la inspectorat și un diriginte de șantier. Eda îi așteaptă la intrare, cu dosarul lucrării sub braț. Știe că o comisie nu recepționează o clădire doar pentru că arată bine. Membrii ei deschid robinete, aprind lumini, verifică ușile de urgență și citesc toate certificatele.\n\nÎncep cu sălile de clasă, apoi coboară la sala de sport. În timp ce inginerul de la inspectorat măsoară înălțimea coșurilor de baschet, ușa se deschide brusc și câțiva copii dau buzna în sală. Sunt elevi din sat care au aflat că vine comisia și voiau să vadă sala cea nouă. Au dat buzna atât de repede încât s-au oprit speriați în mijlocul sălii. Directoarea râde și îi lasă să alerge un tur. Podeaua nouă nu scârțâie nicăieri.\n\nUltima oprire e la infirmerie. E o cameră mică și luminoasă, cu un pat, un dulap pentru medicamente, o chiuvetă și un birou. Asistenta care va lucra aici a venit și ea, îmbrăcată deja într-un halat alb nou, cu numele școlii brodat pe buzunar. Le arată membrilor comisiei de ce are nevoie o infirmerie de școală: apă caldă, o fereastră care se deschide ușor și un acces direct spre curte, ca părinții să poată ajunge repede la copii. Inginerul de la inspectorat verifică totul și dă din cap mulțumit. Asistenta își netezește halatul și zâmbește.\n\nLa prânz, comisia se adună în biblioteca goală. Toate verificările sunt bune, iar procesul-verbal se semnează pe loc: școala a fost recepționată fără nicio observație. Eda respiră ușurată. A participat la multe recepții, dar e prima dată când comisia recepționează o lucrare de-a ei fără să ceară nicio modificare.\n\nCând iese în curte, o așteaptă copiii care dăduseră buzna în sala de sport. Unul dintre ei ține în mână un buchet de flori de câmp, culese chiar din marginea șantierului. Îi dă buchetul Edei și spune repede „mulțumim”, apoi fuge. Eda pune buchetul într-o sticlă cu apă, pe biroul din baraca șantierului, unde rămâne până în ultima zi.\n\nÎntrebări:\nCe trebuie să facă azi comisia?\nComisia trebuie să recepționeze școala nouă.\nCe verifică membrii comisiei?\nDeschid robinete, aprind lumini, verifică ușile de urgență și citesc certificatele.\nCe s-a întâmplat în sala de sport?\nCâțiva copii din sat au dat buzna în sală ca să o vadă.\nCum era îmbrăcată asistenta?\nEra îmbrăcată într-un halat alb nou, cu numele școlii brodat pe buzunar.\nCe a primit Eda de la copii?\nA primit un buchet de flori de câmp."
+    },
+    {
+      "title": "Hamburgerul care nu are carne",
+      "summary": "A food engineer in Cluj tells how her small company developed a plant-based burger, mixed bowl after bowl in the lab, and grew into a prosperous employer.",
+      "newWords": [
+        "hamburger",
+        "bol",
+        "angajator",
+        "chipeș",
+        "prosper"
+      ],
+      "text": "Lucrez de șase ani ca inginer în industria alimentară, la o firmă mică din Cluj. Când am venit aici, firma avea opt oameni și producea doar sosuri. Azi avem peste o sută de angajați, iar produsul nostru cel mai cunoscut este un hamburger fără carne. Mi se cere des să povestesc cum s-a ajuns aici, așa că o fac o dată, pe scurt.\n\nTotul a început cu o întrebare a șefului meu: putem face un hamburger din legume, care să arate, să miroasă și să se frigă ca unul adevărat? Am răspuns că putem încerca. Am primit un laborator mic, un cuptor, o tigaie și un raft plin de boluri de metal.\n\nPrimele luni le-am petrecut amestecând. În fiecare bol puneam altă combinație: mazăre, fasole, ciuperci, ovăz, sfeclă pentru culoare, ulei pentru suculență. Pe fiecare bol lipeam o etichetă cu rețeta și data. Seara, în laborator erau zeci de boluri aliniate, ca într-o expoziție. Cele mai multe rețete se rupeau în tigaie sau aveau gust de carton. Câteva însă erau promițătoare.\n\nProblema cea mai grea a fost textura. Un hamburger adevărat are fibre, iar legumele, odată pisate, devin o pastă moale. Am rezolvat-o cu un aparat care presează amestecul în straturi subțiri, așa cum se suprapun foile într-o carte. După un an, aveam o rețetă bună. După încă unul, aveam o linie de producție.\n\nPentru prima reclamă, firma a angajat un actor chipeș, cu barbă și zâmbet larg, care mușca dintr-un hamburger în fața camerei. Mai târziu, într-un interviu, actorul a povestit că e vegetarian de douăzeci de ani și că produsul chiar îi place. Clienții au râs: actorul chipeș nu mințise deloc. Reclama a mers bine, iar comenzile au crescut.\n\nAcum firma e prosperă. Am construit o hală nouă la marginea orașului și vindem în toată țara. Dar pentru mine contează mai mult altceva: am devenit un angajator bun. Plătim salariile la timp, avem un program flexibil pentru părinți, iar oamenii nu pleacă de la noi. Un angajator nu e prosper cu adevărat, cred eu, dacă oamenii lui nu trăiesc bine.\n\nLaboratorul există și acum. Pe raft sunt tot boluri de metal, cu etichete noi. Lucrăm la un cârnat.\n\nÎntrebări:\nCe producea firma la început?\nFirma producea doar sosuri.\nCe punea autoarea în fiecare bol?\nPunea altă combinație de legume și ingrediente, cu o etichetă cu rețeta și data.\nCum au rezolvat problema texturii?\nCu un aparat care presează amestecul în straturi subțiri.\nCe a povestit actorul chipeș într-un interviu?\nA povestit că e vegetarian de douăzeci de ani și că produsul chiar îi place.\nCe înseamnă, pentru autoare, un angajator bun?\nUnul care plătește salariile la timp, are program flexibil pentru părinți și ai cărui oameni trăiesc bine."
+    },
+    {
+      "title": "Inginerii și semenii lor",
+      "summary": "A column on what engineering is for: counting traffic, listening to the people who use a road, and seeing the inability to listen as an engineer's real handicap.",
+      "newWords": [
+        "recensământ",
+        "semen",
+        "handicap",
+        "incapacitate"
+      ],
+      "text": "Se spune adesea că inginerii lucrează cu cifre, nu cu oameni. Am lucrat treizeci de ani la proiectarea drumurilor și cred că e exact invers: cifrele sunt doar un mod de a-i asculta pe semenii noștri.\n\nSă luăm un exemplu. O dată la câțiva ani, pe toate drumurile importante din țară se face un recensământ al circulației. Echipe de oameni, iar mai nou camere și senzori, numără mașinile, camioanele, bicicletele și pietonii care trec printr-un punct, la fiecare oră, zile la rând. La prima vedere, recensământul e o muncă plictisitoare. În realitate, e cea mai sinceră descriere a vieții unui oraș: arată la ce oră pleacă oamenii la serviciu, pe unde își duc copiii la școală, unde merg sâmbăta. Un drum proiectat fără un recensământ serios e un drum proiectat pentru niște oameni imaginari.\n\nCifrele, totuși, nu spun totul. Recensământul arată câți pietoni trec pe lângă o stație de autobuz, dar nu spune că bordura e prea înaltă pentru un cărucior de copil sau că o bătrână ocolește trecerea pentru că semaforul e prea scurt. Asta afli doar dacă mergi acolo și stai de vorbă cu semenii pentru care lucrezi.\n\nAm cunoscut ingineri foarte buni la calcule care aveau un singur handicap: nu ieșeau din birou. Pentru un proiectant, lipsa contactului cu oamenii e un handicap mai mare decât orice greșeală de calcul, pentru că o greșeală de calcul se vede și se corectează, iar un drum incomod rămâne incomod cincizeci de ani.\n\nNu cred că problema e lipsa de bunăvoință. E mai degrabă o incapacitate de a schimba perspectiva: de a vedea intersecția din înălțimea unui copil sau din scaunul unei persoane care merge greu. Această incapacitate se poate corecta. La noi în birou, fiecare inginer tânăr petrece o zi pe teren înainte să înceapă un proiect: numără el însuși trecătorii, traversează strada cu un cărucior, întreabă vânzătoarea de la chioșc pe unde vin clienții.\n\nIngineria nu e o artă a betonului, ci o formă de grijă față de semenii noștri. Betonul e doar materialul.\n\nÎntrebări:\nCe crede autorul despre cifre?\nCrede că cifrele sunt doar un mod de a-i asculta pe semenii noștri.\nCe se numără la un recensământ al circulației?\nSe numără mașinile, camioanele, bicicletele și pietonii care trec printr-un punct.\nCe nu spune recensământul?\nNu spune că bordura e prea înaltă sau că semaforul e prea scurt.\nCare era handicapul unor ingineri buni la calcule?\nNu ieșeau din birou.\nCum se corectează incapacitatea de a schimba perspectiva?\nFiecare inginer tânăr petrece o zi pe teren înainte să înceapă un proiect."
+    }
+  ]
+}
