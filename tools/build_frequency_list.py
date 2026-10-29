@@ -1358,6 +1358,50 @@ def romanian_kinds(db, lemmas):
     return kinds
 
 
+# Finnish: a word of the dictionary spelled as a commoner word's form (muisti "memory" and muisti "remembered", kerros
+# "floor" and kerro+s, sataa "rains" and sata's partitive, seinä, lähde, tuki) keeps its own forms (muistiin, kerroksen,
+# satoi), and its spelling is shared by how common each word's own forms are when its own are at least this share of it.
+FINNISH_KINDS = {}
+FINNISH_OWN_FORMS = 0.05
+# A word known only as a colloquial or dialectal pronoun (mä, sä, mää), an interjection, or in archaic or rare senses
+# (anne, "gift") never takes the spelling of a word that has senses of its own (musta "black", anteeksi, suksi).
+FINNISH_PLAIN = {}
+FINNISH_MARGINAL_TAGS = {"colloquial", "dialectal", "archaic", "obsolete", "rare", "nonstandard"}
+# A verb's participles and verbal noun (tehtävä, tuleva, tehnyt, tehty, uskomaton, tekeminen) and an adjective's or
+# adverb's comparative and superlative (vanhempi, korkein, enemmän) stay their word's, whatever senses of their own the
+# dictionary gives them.
+FINNISH_VERB_DERIVED = ("va", "vä", "nut", "nyt", "neet", "ttu", "tty", "tu", "ty", "maton", "mätön", "minen")
+FINNISH_GRADED = ("mpi", "mmin", "mmän", "iten")
+
+
+def finnish_kinds(db, lemmas):
+    """Each Finnish word's kinds with a sense that is not glossed as a form of a word its forms rows name, and its kinds
+    (not counting interjections) with such a sense in plain standard use."""
+    own, plain = defaultdict(set), defaultdict(set)
+    kinds = defaultdict(set)
+    for word, p in db.execute("SELECT word_lc, pos FROM entries"):
+        kinds[word].add(p)
+
+    def derived(word, of):
+        return any("verb" in kinds[l] and word[:2] == l[:2] and word.endswith(FINNISH_VERB_DERIVED)
+                   or kinds[l] & {"adj", "adv"} and (word.endswith(FINNISH_GRADED) or word.endswith("in") and word[:2] == l[:2])
+                   for l in of if l != word)
+
+    for word, p, text in db.execute("SELECT word_lc, pos, senses FROM entries"):
+        if p not in WORD_POS:
+            continue
+        of = set(lemmas.get(word, ()))
+        if derived(word, of):
+            continue
+        for sense in json.loads(text):
+            if set(ROMANIAN_FORM_GLOSS.findall(" ".join(sense.get("glosses", [])))) & of:
+                continue
+            own[word].add(p)
+            if p != "intj" and not set(sense.get("tags", [])) & FINNISH_MARGINAL_TAGS:
+                plain[word].add(p)
+    return own, plain
+
+
 def slovene_unstressed(text):
     """A Slovene word without the stress and tone marks dictionaries give it (imẹ́ti, bȋł, səm: imeti, bil, sem)."""
     bare = "".join(c for c in unicodedata.normalize("NFD", text) if unicodedata.category(c) != "Mn" or c == "\u030c")
@@ -1771,6 +1815,10 @@ def load_dictionary(language):
             lemmas[form_lc] = [lemma for lemma in of if macedonian_form_of(form_lc, lemma)]
     if language == "ro":
         ROMANIAN_KINDS.update(romanian_kinds(db, lemmas))
+    if language == "fi":
+        own, plain = finnish_kinds(db, lemmas)
+        FINNISH_KINDS.update(own)
+        FINNISH_PLAIN.update(plain)
     if language == "ar" and ARABIC_FORMS:
         lemmas = defaultdict(list, {form: list(of) for form, of in ARABIC_FORMS.items()})
         for word in ARABIC_LEXEMES - pos.keys():
@@ -2443,7 +2491,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             others = stem_of
         # A form whose only entry is an interjection ("foi", "nossa") is counted for the word it is a form of.
         # Japanese files a set phrase under its variants (ありがとう under ありがと), so there it counts for itself.
-        elif is_word(form) and form not in overrides and not (others and pos[form] & WORD_POS <= {"intj"} and language not in ("ja", "ar")):
+        elif is_word(form) and form not in overrides and not (others and pos[form] & WORD_POS <= {"intj"} and language not in ("ja", "ar")
+                                                              and not (language == "fi" and FINNISH_KINDS.get(form)
+                                                                       and not any(FINNISH_PLAIN.get(l) for l in others))):
             # A form that is a word itself keeps its count ("casa", not "casar") unless [TAKEOVER] says otherwise.
             # Korean's forms tables are full of nouns spelled as some verb's form (사실 of 사다, 우려 of 우리다),
             # so there a word keeps its count, and the few that are a verb's form are overrides (해 of 하다).
@@ -2453,6 +2503,10 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             # "star", not sta's), and a verb spelled as a noun's form shares it (urma, lupta).
             if language == "ro":
                 shares = romanian_shares(form, others)
+                if shares:
+                    return shares
+            if language == "fi":
+                shares = finnish_shares(form, others)
                 if shares:
                     return shares
             if language == "mk":
@@ -2525,6 +2579,48 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         weights = {form: macedonian_own(form), **{l: macedonian_own(l) for l in nouns}}
         whole = sum(weights.values())
         return {l: w / whole for l, w in weights.items()} if whole else None
+
+    finnish_forms = defaultdict(set)
+
+    def finnish_own(word):
+        """How common a Finnish word's forms are that are no other word's nor a word of their own (kerroksen of kerros);
+        a name the form is filed under too (aidan of aita and Aida) is no word."""
+        if not finnish_forms:
+            for form, of in lemmas.items():
+                words = {l for l in of if is_word(l)}
+                if len(words) == 1 and (form in words or not FINNISH_KINDS.get(form)):
+                    finnish_forms[words.pop()].add(form)
+        return sum(count(f) for f in finnish_forms.get(word, ()))
+
+    def finnish_shares(form, others):
+        """
+        The words a Finnish word of the dictionary spelled as other words' forms goes to, or None for the general rule. A
+        word whose own forms are common (sataa: satoi; kerros: kerroksen) shares its spelling with the others by how common
+        each one's own forms are, and one whose own forms are rare (noita "witch", for tuo's noita) goes by the general rule.
+        Words known only as colloquial pronouns or in archaic senses (mä, anne) take no share of a word with senses of its
+        own (musta "black", anteeksi); an uninflected word that plain words would take (tässä of tämä) goes by the general
+        rule.
+        """
+        if not FINNISH_KINDS.get(form):
+            return None
+        # Only the words the general rule would give the spelling to ([TAKEOVER]) share it.
+        inflected, spelled = bool(pos[form] & INFLECTED_KINDS), weight(form)
+        takers = [l for l in others if weight(l) >= TAKEOVER * spelled
+                  or (inflected and pos[l] & INFLECTED_KINDS and weight(l) >= INFLECTED_TAKEOVER * spelled)]
+        if not takers:
+            return None
+        mine = finnish_own(form)
+        inflects = bool(finnish_forms.get(form, set()) - {form})
+        if inflects and mine < FINNISH_OWN_FORMS * count(form):
+            return None
+        kept = [l for l in takers if FINNISH_PLAIN.get(l)]
+        if not kept:
+            return {form: 1.0}
+        if not inflects:
+            return None
+        weights = {form: mine, **{l: finnish_own(l) for l in kept}}
+        whole = sum(weights.values())
+        return {l: w / whole for l, w in weights.items() if w} if whole else None
 
     romanian_forms = defaultdict(set)
 
@@ -2638,6 +2734,10 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         for word, part in shares.items():
             if word != form and depth < 3:
                 onward = targets_of(word, depth + 1)
+                # A Finnish word with senses of its own keeps the forms that are its alone (noidan of noita "witch", whose
+                # spelling is mostly tuo's), though its spelling goes to another word.
+                if language == "fi" and FINNISH_KINDS.get(word) and word not in overrides and {l for l in lemmas.get(form, ()) if is_word(l)} == {word}:
+                    onward = None
                 # An Arabic word spelled as another's verb form keeps its own forms (يتكون of تكون, not of كان), and a verb
                 # spelled as another word keeps its own (لن of لان "to soften", not of لأن); but not one sent to its word by
                 # rule or by hand (تبقى to بقي), whose spellings go with it.

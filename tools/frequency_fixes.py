@@ -1269,6 +1269,11 @@ _OVERRIDES_E = {
         "kulta": ["kulta"], "kultaa": ["kulta"], "kettu": ["kettu"], "ketun": ["kettu"],
         "satama": ["satama"], "satamassa": ["satama"], "satamaan": ["satama"],
         "esim": ["esimerkiksi"],
+        # The colloquial sä's forms, which the dictionary files under sää ("weather"; dialectal "you") too.
+        "sulla": ["sä"], "sua": ["sä"], "sulle": ["sä"], "sut": ["sä"], "susta": ["sä"], "sulta": ["sä"],
+        "sussa": ["sä"], "suhun": ["sä"],
+        # pe, Friday's abbreviation, and no Hebrew letter.
+        "pe": ["perjantai"],
     },
     # Hungarian: vagy ("or") was swallowed by van; postpositions were dropped (szerint, után, között,
     # ... - see the WORD_POS note) or headed by a personal form (szerinte); case-suffix forms of personal
