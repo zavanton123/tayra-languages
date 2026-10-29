@@ -1,0 +1,191 @@
+{
+ "id": "bs-mini-7100",
+ "rankUpTo": 7100,
+ "level": "C1",
+ "title": "Javno zdravstvo",
+ "description": "Columns, reports and stories about public health in everyday life: a family doctor on sugar cravings, a pharmacist's herbal tea talk, a school camp in a heat wave, dust in a crafts workshop, a dentist's picture book, a children's play about the sea, a student sleep study, a radio health show, antenatal classes and a town pool saved by a lease.",
+ "topic": "Public health",
+ "names": [
+  "Fehima",
+  "Gradačac",
+  "Gradačcu",
+  "Almedina",
+  "Kreševo",
+  "Kreševu",
+  "Kreševa",
+  "Sejdo",
+  "Nisvet",
+  "Ediba",
+  "Goražde",
+  "Goraždu",
+  "Drina",
+  "Drini",
+  "Mersudin",
+  "Mersudinove",
+  "Salmira",
+  "Tešanj",
+  "Tešnja",
+  "Zemina",
+  "Zeminina",
+  "Kakanj",
+  "Kakanju",
+  "Ganija",
+  "Seila",
+  "Seilina",
+  "Livno",
+  "Livnu",
+  "Dženisa",
+  "Tuzla",
+  "Tuzli",
+  "Tomo",
+  "Tomi",
+  "Sanda",
+  "Sandu",
+  "Žepče",
+  "Žepču",
+  "Zenica",
+  "Zenice",
+  "Sevlija",
+  "Sevliju",
+  "Sevlijina",
+  "Beisa",
+  "Beisu",
+  "Cazin",
+  "Cazinu",
+  "Ante",
+  "Bugojno",
+  "Bugojnu"
+ ],
+ "lessons": [
+  {
+   "title": "Kolumna: Žudnja za slatkim",
+   "summary": "Fehima, a family doctor in Gradačac, writes in her column about the craving for sweets: why strict bans imposed from outside fail, why limiting sugar works better, how something crunchy helps, why she checks iron in tired patients, and how a pensioner gave up half a box of biscuits a day.",
+   "newWords": [
+    "žudnja",
+    "ograničiti",
+    "nametnuti",
+    "hrskav",
+    "gvožđe",
+    "presudan"
+   ],
+   "text": "Radim kao ljekarka porodične medicine u domu zdravlja u Gradačcu već petnaest godina. Svake sedmice čujem istu rečenicu: „Doktorice, znam da ne bih smio, ali ne mogu bez slatkog.“ Zato ovu kolumnu posvećujem žudnji za slatkim, jednoj od najčešćih tema u mojoj ordinaciji.\n\nŽudnja za šećerom nije znak da je čovjek slab. Tijelo se brzo navikne na slatko. Kad pojedemo kolač, za nekoliko minuta dobijemo mnogo energije, ali ona jednako brzo i nestane. Tada tijelo traži još, i žudnja se vraća, često baš poslije podne, kad smo umorni na poslu.\n\nPacijentima ne kažem da potpuno prestanu jesti slatko. Pravilo koje nam neko nametne izvana rijetko traje duže od dvije sedmice. Ne želim nikome nametnuti svoj jelovnik. Mnogo je bolje da čovjek sam odluči koliko će slatkog jesti. Zato predlažem da slatko ograniče, a ne da ga zabrane. Jedan kolač u nedjelju umjesto kolača svaki dan već je velika promjena. Ko ograniči šećer u kafi i čaju, za mjesec dana obično primijeti da mu kafa bez šećera više nije gorka.\n\nKad se žudnja ipak pojavi, pomaže nešto hrskavo. Hrskava jabuka, mrkva ili šaka oraha žvaću se duže od kolača, a dok žvaćemo, žudnja često prođe sama. Neki moji pacijenti uvijek nose u torbi kutiju s nečim hrskavim, kao što drugi nose kišobran.\n\nKod nekih pacijenata žudnja ima i drugi uzrok. Kad tijelu nedostaje gvožđa, čovjek je stalno umoran, a umoran čovjek poseže za slatkim, jer mu ono brzo daje energiju. Zato kod pacijenata koji se žale na umor uvijek provjerim gvožđe. Mnogo gvožđa ima u mesu, grahu i zelenom povrću, a tijelo ga lakše prima kad uz obrok pojedemo i nešto kiselo, na primjer papriku ili limun.\n\nPresudan je i doručak. Ko ujutro pojede pravi obrok, rjeđe traži slatko poslije podne. Presudno je i spavanje: neispavan čovjek gotovo uvijek pojede više šećera nego odmoran.\n\nProšle zime došao mi je penzioner koji je dnevno jeo pola kutije keksa. Ništa mu nismo zabranili. Ograničili smo keks na dva komada uz kafu, provjerili gvožđe i dodali mu hrskavu jabuku poslije ručka. Nakon tri mjeseca rekao mi je da mu keks više ne nedostaje. Kad žudnja dobije odgovor, prestane vikati.\n\nFehima, ljekarka porodične medicine\n\nPitanja:\nO kojoj žudnji Fehima piše?\nPiše o žudnji za slatkim, jednoj od najčešćih tema u njenoj ordinaciji.\nZašto ne želi pacijentima nametnuti strogo pravilo?\nZato što pravilo koje nam neko nametne izvana rijetko traje duže od dvije sedmice.\nŠta pomaže kad se žudnja pojavi?\nPomaže nešto hrskavo, na primjer jabuka, mrkva ili šaka oraha.\nZašto provjerava gvožđe kod umornih pacijenata?\nZato što je čovjek kojem nedostaje gvožđa stalno umoran i poseže za slatkim.\nŠta je presudno osim doručka?\nPresudno je i spavanje, jer neispavan čovjek pojede više šećera."
+  },
+  {
+   "title": "Kamilica iz Kreševa",
+   "summary": "Almedina, a pharmacist in Kreševo, gives a public talk on herbal tea: chamomile from a small herb plantation, how herbs are dried in the shade, brewing in a glass teapot and pouring through a fine strainer, a reminder that tea does not replace medicine, and honey from her grandfather Sejdo's hives.",
+   "newWords": [
+    "plantaža",
+    "sušiti",
+    "čajnik",
+    "cjedilo",
+    "napomenuti",
+    "košnica"
+   ],
+   "text": "Almedina radi u apoteci u Kreševu. Jednom mjesečno drži u domu zdravlja kratko predavanje za građane. Ovog mjeseca tema su bile biljke za čaj: kako ih brati, kako ih sušiti i kako od njih skuhati dobar čaj.\n\nNa sto je stavila veliki stakleni čajnik, cjedilo i nekoliko papirnih kesa sa suhim biljkama. Kamilicu je dobila s male plantaže iznad grada, gdje jedna porodica već deset godina sadi biljke za čaj. — Na plantaži biljke beru u pravo vrijeme i suše ih u sjeni — objasnila je. — Ako biljke berete sami, birajte mjesta daleko od ceste i od polja koja se prskaju.\n\nZatim je pokazala kako se biljke pravilno suše. — Biljke sušimo u tankom sloju, na papiru ili na drvenom okviru, u sobi s otvorenim prozorom, nikad na jakom suncu — rekla je. — Na suncu se biljke brže osuše, ali izgube i miris i boju. Kamilicu sušimo desetak dana. Kad se list lomi među prstima, biljka je gotova.\n\nOnda je u čajnik stavila dvije kašike kamilice i dodala vrelu vodu. — Kamilica se ne kuha. Samo se doda vrela voda, čajnik se zatvori, i čaj stoji pet do deset minuta. Zatim ga sipamo kroz cjedilo. — Podigla je cjedilo prema svjetlu. — Fino cjedilo je važno, jer sitni dijelovi biljke smetaju u grlu.\n\nKad su svi dobili šoljicu, Almedina je htjela napomenuti nešto važno. — Moram napomenuti da čaj ne može zamijeniti lijek. Ako uzimate lijekove, pitajte ljekara ili nas u apoteci prije nego što počnete piti neki čaj svaki dan, jer neke biljke mijenjaju djelovanje lijekova.\n\nJedna mlada majka je pitala smije li u čaj staviti med. Almedina se nasmijala, jer je med njena omiljena tema. Njen djed Sejdo ima dvadeset košnica na livadi kod Kreševa, a ona mu preko ljeta pomaže. — Med je odličan u čaju, ali ga dodajte kad se čaj malo ohladi, inače gubi svoja dobra svojstva. I još nešto moram napomenuti: djeci mlađoj od godinu dana med se ne daje.\n\nNa kraju je svakom posjetiocu dala malu teglu meda iz košnica svog djeda i kesu kamilice s plantaže. Djed Sejdo sjedio je u zadnjem redu i ponosno slušao. Poslije predavanja rekao je unuci da bi i on mogao jednom održati predavanje, o tome kako pčele u košnici zimi griju jedna drugu. Almedina je odmah zapisala tu ideju.\n\nPitanja:\nOdakle je Almedina dobila kamilicu?\nDobila ju je s male plantaže iznad grada.\nKako se biljke pravilno suše?\nBiljke sušimo u tankom sloju, u sobi s otvorenim prozorom, nikad na jakom suncu.\nZašto je važno fino cjedilo?\nZato što sitni dijelovi biljke smetaju u grlu.\nŠta je Almedina morala napomenuti o lijekovima?\nNapomenula je da čaj ne može zamijeniti lijek i da neke biljke mijenjaju djelovanje lijekova.\nKoliko košnica ima djed Sejdo?\nDjed Sejdo ima dvadeset košnica na livadi kod Kreševa."
+  },
+  {
+   "title": "Kamp na Drini",
+   "summary": "Nisvet, a biology teacher in Goražde, takes sixteen pupils camping on the Drina with Ediba, a nurse from the health centre: an eco-friendly camp, the available drinking water and how its cleanliness is tested, a heat wave on the third day, and a small fridge run off the car battery.",
+   "newWords": [
+    "kampirati",
+    "ekološki",
+    "raspoloživ",
+    "čistoća",
+    "zadesiti",
+    "akumulator"
+   ],
+   "text": "Nisvet je nastavnik biologije u Goraždu. Svakog jula vodi učenike da kampiraju pet dana na Drini. Ove godine prijavilo se 16 učenika, a s njima je pošla i Ediba, medicinska sestra iz doma zdravlja. — Toliko mladih ljudi pet dana u prirodi — rekla je kad je došla. — Neko mora misliti na vodu, hranu i sunce.\n\nKampirali su na livadi uz rijeku, u sjeni velikih stabala. Prvog dana Nisvet je okupio grupu i objasnio pravila. Kamp je ekološki: nema plastičnih tanjira, otpad se odvaja u tri kante, a i toalet je ekološki, bez vode i bez hemikalija. Ništa se ne baca u rijeku.\n\nEdiba je zatim govorila o vodi. — Raspoloživa voda za piće dolazi iz izvora iznad kampa i iz dvadeset velikih flaša u autu — rekla je. — Riječna voda izgleda čisto, ali to ne znači ništa. — Izvadila je male trake za provjeru vode i pokazala kako se provjerava njena čistoća. Čistoća vode iz izvora bila je dobra. Vodu iz rijeke za pranje suđa ipak su kuhali.\n\nTrećeg dana kamp je zadesio val vrućine. Temperatura je u podne prešla 36 stepeni. Takve vrućine rijetko zadese ovaj kraj početkom jula, pa niko nije bio spreman. Ediba je odmah promijenila raspored: od 11 do 17 sati niko ne hoda po suncu, svi nose kape, a svako mora popiti vode svakih sat vremena, čak i kad nije žedan. Vodu za piće sada su dijelili pažljivije, jer raspoloživa voda nije bila bez kraja.\n\nNajveća briga bila je hrana. Meso, mlijeko i jaja na vrućini se brzo pokvare. Nisvet je u autu imao mali frižider koji radi na akumulator. — Ako frižider cijelu noć troši akumulator, ujutro auto neće upaliti — upozorila ga je Ediba. Zato su svako popodne upalili motor na pola sata da se akumulator napuni, a frižider su otvarali samo dvaput dnevno. Hranu koja je stajala izvan frižidera duže od dva sata bacali su bez žaljenja.\n\nUveče, kad je vrućina popustila, Ediba je učenicima održala kratak sat o čistoći ruku. Pokazala im je da sapun i trideset sekundi pranja spriječe više problema nego svi lijekovi u njenoj torbi.\n\nPeti dan bio je svjež i oblačan. Svih 16 učenika vratilo se kući zdravo i zadovoljno. U izvještaju za školu Nisvet je napisao: „Kampirati na Drini nije teško. Teško je misliti na sve. Zato je Ediba dobrodošla i sljedeće godine.“\n\nPitanja:\nGdje su učenici kampirali?\nKampirali su na livadi uz Drinu, u sjeni velikih stabala.\nZašto je kamp ekološki?\nNema plastičnih tanjira, otpad se odvaja, a toalet je bez vode i bez hemikalija.\nOdakle je dolazila raspoloživa voda za piće?\nDolazila je iz izvora iznad kampa i iz velikih flaša u autu.\nŠta je zadesilo kamp trećeg dana?\nKamp je zadesio val vrućine, a temperatura je prešla 36 stepeni.\nKako su punili akumulator?\nSvako popodne su upalili motor na pola sata da se akumulator napuni."
+  },
+  {
+   "title": "Prašina u kući zanata",
+   "summary": "In Tešanj's house of crafts, the carpenter Mersudin and young craftsmen revive old trades; Salmira, an occupational health doctor, inspects the workshops and advises masks and vacuuming for sawdust from the saw, slow practice of the right grip, and keeping clay damp, while a potter shows how a hollow jug rings when it is well fired.",
+   "newWords": [
+    "zanat",
+    "oživljavati",
+    "testera",
+    "uvježbati",
+    "šupalj",
+    "glina"
+   ],
+   "text": "U starom dijelu Tešnja nalazi se kuća zanata. U njoj stolar Mersudin i nekoliko mladih majstora oživljavaju stare zanate: prave drvene kašike i zdjele, pletu korpe i peku posude od gline. — Mi ne oživljavamo samo predmete — kaže Mersudin. — Oživljavamo način rada koji je skoro nestao.\n\nProšlog mjeseca u kuću zanata došla je Salmira, doktorica medicine rada iz doma zdravlja. Općina je tražila da pregleda radionice, jer u njima rade i učenici koji uče zanat. Salmira je obišla sve prostorije i sve zapisivala.\n\nPrvo je stala kod Mersudinove testere. Velika električna testera bila je bez zaštite, a pod je bio pun drvene prašine. — Prašina od testere ide pravo u pluća — rekla je Salmira. — Tvrdo drvo, kao hrast, daje prašinu koja je posebno štetna. Kad radite testerom, nosite masku, a pod čistite usisivačem svaki dan, nemojte ga samo mesti.\n\nZatim je pogledala ruke mladih majstora. Jedan učenik držao je alat tako da mu je zglob bio stalno savijen. Salmira mu je pokazala kako se alat drži pravilno. — Pokret treba uvježbati polako — rekla je. — Kad se pokret jednom uvježba pogrešno, ruka ga ponavlja godinama, a zglob to osjeti. — Mersudin je obećao da će sa svim učenicima uvježbati pravilan položaj ruku prije nego što nastave raditi.\n\nU zadnjoj sobi radila je majstorica koja pravi šuplje posude od gline: lonce, zdjele i vaze. Glina je bila suha, a na policama i stolu ležao je sloj sive prašine. — Suha glina je opasnija nego što izgleda — objasnila je Salmira. — Kad se prašina od gline digne u zrak, udišete je cijeli dan. Glinu držite vlažnom, a stol brišite mokrom krpom.\n\nMajstorica joj je pokazala kako zna da je posuda dobro pečena. Lagano je kucnula prstom po šupljem loncu, i lonac je zvučao čisto. — Ako je zvuk mutan, u glini je pukotina — rekla je. — Šuplja posuda uvijek kaže istinu.\n\nNa kraju posjete Salmira je napisala kratak izvještaj: maske, usisivač, vlažna krpa i sat vremena vježbe za ruke svake sedmice. Ništa skupo. Mersudin je izvještaj objesio na vrata radionice. — Stari majstori nisu znali za maske — rekao je. — Ali zanat ne oživljavamo da bismo ponavljali njihove greške.\n\nPitanja:\nŠta rade majstori u kući zanata?\nOživljavaju stare zanate: prave kašike i zdjele, pletu korpe i peku posude od gline.\nZašto je Salmira došla u kuću zanata?\nOpćina je tražila da pregleda radionice, jer u njima rade i učenici koji uče zanat.\nŠta je savjetovala za rad s testerom?\nSavjetovala je da se nosi maska i da se pod čisti usisivačem svaki dan.\nZašto pokret treba uvježbati polako?\nZato što ruka godinama ponavlja pokret koji je jednom uvježban pogrešno.\nKako majstorica zna da je šuplja posuda od gline dobro pečena?\nKucne po šupljem loncu, i lonac zvuči čisto."
+  },
+  {
+   "title": "Ko pere zube u šumi?",
+   "summary": "Zemina, a dentist in Kakanj, reads her own picture book about teeth to a kindergarten group: a beaver whose teeth never stop growing, a big but peaceful rhino that eats only grass, a zebra that brushes twice a day like its stripes, a puma that never bites pencils, and a mammoth from ancient times.",
+   "newWords": [
+    "dabar",
+    "nosorog",
+    "miroljubiv",
+    "zebra",
+    "puma",
+    "mamut",
+    "davni"
+   ],
+   "text": "Zemina je stomatologinja u domu zdravlja u Kakanju. Svake godine u maju obilazi vrtiće i djeci govori o zubima. Ove godine ponijela je slikovnicu koju je sama napisala, a njena sestra nacrtala. Slikovnica se zove „Ko pere zube u šumi?“\n\nDjeca su sjela u krug, a Zemina je otvorila prvu stranicu. Na njoj je bio dabar s dva velika narandžasta zuba. — Dabar cijeli život grize drvo — čitala je. — Njegovi zubi stalno rastu, a drvo ih troši. Zato dabar nikad nema predugačke zube. — Djeca su se smijala dabru koji drži granu kao olovku.\n\nNa drugoj stranici bio je nosorog. — Nosorog je velik i jak, ali je miroljubiv. Jede samo travu i lišće — čitala je Zemina. — Miroljubiv je i prema svojim zubima: ne jede bombone. — Jedan dječak rekao je da je nosorog na slici tužan. Zemina je objasnila da nije tužan, nego samo ozbiljan, jer razmišlja o travi.\n\nZatim je došla zebra. Zebra je imala crne i bijele pruge, a pored nje stajala je velika četkica za zube. — Zebra pere zube dva puta dnevno, ujutro i uveče — čitala je Zemina. — Isto kao njene pruge: jedna bijela, jedna crna, jedno pranje ujutro, jedno uveče.\n\nNa četvrtoj stranici puma je skakala sa stijene. — Puma ima oštre zube i pazi na njih. Puma ne grize olovke ni plastične igračke, jer se od toga zubi lome.\n\nNa posljednjoj stranici bio je ogroman mamut. — U davna vremena, prije mnogo hiljada godina, mamut je živio u hladnim krajevima. Imao je zube velike kao cigle — čitala je Zemina. Djeca su otvorila usta od čuda. — Mamuti nisu imali četkice. Ali nisu jeli ni čokoladu. — Djeca su se nasmijala.\n\nOnda je Zemina zatvorila slikovnicu i pitala: — Šta jede miroljubiv nosorog? — Travu! — viknula su djeca. — A koliko puta dnevno zebra pere zube? — Dva puta! — Šta puma ne grize? — Olovke! — Svaki odgovor bio je tačan.\n\nNa kraju je svako dijete dobilo četkicu i naljepnicu s jednom životinjom. Najviše djece htjelo je dabra, a jedna djevojčica tražila je mamuta. — Zašto baš mamuta? — pitala je Zemina. — Zato što je iz davnih vremena, a ima zube — rekla je djevojčica ozbiljno.\n\nVaspitačica je poslije javila da djeca tog dana prvi put nisu htjela ići kući dok poslije ručka ne operu zube. Zemina je to zapisala, jer je to za nju najbolja ocjena slikovnice.\n\nPitanja:\nKako se zove Zeminina slikovnica?\nSlikovnica se zove „Ko pere zube u šumi?“\nZašto dabar nikad nema predugačke zube?\nZato što cijeli život grize drvo, a drvo mu troši zube koji stalno rastu.\nKakav je nosorog u slikovnici?\nNosorog je velik i jak, ali miroljubiv, jer jede samo travu i lišće.\nKoliko puta dnevno zebra pere zube?\nZebra pere zube dva puta dnevno, ujutro i uveče.\nŠta puma ne grize?\nPuma ne grize olovke ni plastične igračke.\nKada je živio mamut?\nMamut je živio u davna vremena, prije mnogo hiljada godina."
+  },
+  {
+   "title": "Mudrac i meduza",
+   "summary": "Ganija, who runs a small children's theatre in Livno, makes a play for schools about staying safe in the sun and the sea: an old sage in a blue cloak answers the children's questions in short dialogue, and the costume maker Seila's finest creation, a jellyfish made from an umbrella and silk ribbons, teaches the audience to look but not touch.",
+   "newWords": [
+    "teatar",
+    "mudrac",
+    "dijalog",
+    "plašt",
+    "kreacija",
+    "meduza"
+   ],
+   "text": "Ganija vodi mali dječiji teatar u Livnu. Ovog proljeća zavod za javno zdravstvo zamolio ju je da napravi predstavu za osnovne škole o tome kako se ljeti čuvati na moru i na suncu. — Djeca neće slušati predavanje — rekla je Ganija. — Ali teatar će gledati.\n\nNapisala je kratku predstavu. Glavni lik je stari mudrac koji živi na obali i zna sve o moru. Dvoje djece dolazi na plažu, a mudrac im objašnjava pravila: kapa na glavu, krema prije kupanja, voda u torbi, a u podne hlad.\n\nNajteži dio posla bio je dijalog. U prvoj verziji mudrac je govorio predugo, kao udžbenik. Ganija je dijalog skratila i pretvorila u pitanja: djeca na sceni pitaju, mudrac odgovara jednom rečenicom, a ponekad odgovor viču i djeca iz publike. — Dobar dijalog za djecu je kao lopta — govorila je glumcima. — Mora ići tamo i natrag.\n\nKostime je pravila Seila, kostimografkinja teatra. Za mudraca je sašila dugi plavi plašt. Na plaštu su bile zvijezde i mali srebrni talasi. Kad mudrac podigne ruke, plašt se raširi kao more. Ali najveća Seilina kreacija bila je meduza. Kostim meduze napravila je od providnog kišobrana i dugih traka od svile. Glumica ispod kišobrana polako je hodala po sceni, a trake su se micale kao da plivaju.\n\nMeduza ima važnu ulogu u predstavi. Dijete na sceni hoće je dodirnuti, a mudrac kaže: — Meduzu gledaj, ne diraj! — Zatim objasni da će koža peći nekoliko sati ako se meduza dodirne, i da tada treba izaći iz vode i reći odrasloj osobi.\n\nPremijera je bila u maju, u velikoj sali teatra. Došlo je dvjesto učenika. Kad se meduza pojavila na sceni, sala je utihnula. Kad je mudrac rekao „Meduzu gledaj, ne diraj!“, pola publike to je glasno ponovilo, kao da su znali tekst.\n\nPoslije predstave djeca su čekala da vide kostime izbliza. Svi su htjeli dodirnuti plašt mudraca, ali niko nije dirao meduzu. — To je najbolja moguća reakcija — rekla je Seila smijući se. — Moja kreacija naučila je djecu pravilu.\n\nZavod je naručio još deset predstava po školama u okolini. Ganija kaže da teatar ne može zamijeniti ljekare. Ali pravila o suncu i moru čulo je dvjesto djece, a da nisu ni primijetila da uče.\n\nPitanja:\nKoju predstavu je Ganija napravila?\nNapravila je predstavu o tome kako se ljeti čuvati na moru i na suncu.\nKo je glavni lik predstave?\nGlavni lik je stari mudrac koji živi na obali i zna sve o moru.\nKako je Ganija promijenila dijalog?\nSkratila ga je i pretvorila u pitanja, a mudrac odgovara jednom rečenicom.\nKakav plašt je Seila sašila za mudraca?\nSašila je dugi plavi plašt sa zvijezdama i srebrnim talasima.\nOd čega je napravljena Seilina kreacija?\nMeduza je napravljena od providnog kišobrana i dugih traka od svile.\nŠta mudrac kaže djetetu koje hoće dodirnuti meduzu?\nKaže mu: „Meduzu gledaj, ne diraj!“"
+  },
+  {
+   "title": "Izvještaj: Koliko spavaju studenti",
+   "summary": "A report on the preliminary results of Dženisa's study at the University of Tuzla: students wore sleep bracelets for a month, the team cross-checked the data with exam marks and timetables, short sleep before exams proved as predictable as it was harmful, its effects were subtle, and a small shift in the timetable gave forty more minutes of sleep.",
+   "newWords": [
+    "preliminaran",
+    "studij",
+    "ukrstiti",
+    "predvidljiv",
+    "lišiti",
+    "suptilan",
+    "pomak"
+   ],
+   "text": "Na Univerzitetu u Tuzli ovih su dana predstavljeni preliminarni rezultati istraživanja o tome koliko i kako spavaju studenti. Istraživanje vodi Dženisa, profesorica na Medicinskom fakultetu, a u njemu je učestvovalo tri stotine studenata, od prve do posljednje godine. — Studij je vrijeme kad mladi ljudi najviše uče, a najmanje spavaju — kaže Dženisa.\n\nSvaki student je mjesec dana nosio na ruci narukvicu koja bilježi kada zaspi i kada se probudi. Uveče je u aplikaciju upisivao koliko se osjeća umorno. Dženisa i njen tim zatim su ukrstili te podatke s ocjenama s ispita i s rasporedom predavanja. — Svaki izvor podataka sam za sebe govori malo — objašnjava Dženisa. — Tek kad smo ih ukrstili, dobili smo sliku.\n\nPrvi dio slike bio je predvidljiv. Studenti spavaju premalo: prosječno šest sati, a u ispitnom roku manje od pet. Što je ispit bliži, sna je manje. — Taj rezultat bio je toliko predvidljiv da smo ga mogli napisati prije istraživanja — kaže Dženisa. — Pred ispit mnogi studenti sami sebe liše sna, jer misle da će tako naučiti više. Brojevi pokazuju suprotno. — Studenti koji su noć prije ispita spavali manje od pet sati imali su prosječno lošije ocjene od onih koji su spavali sedam.\n\nDrugi dio slike bio je teže vidljiv. Posljedice kratkog sna su suptilne. Student koji je lišen sna ne osjeća da griješi; osjeća se samo malo sporije. Ta suptilna promjena ne vidi se u ogledalu, nego u testu pažnje, koji su studenti svako jutro rješavali na mobitelu. Nakon dvije kratke noći zaredom broj grešaka na testu porastao je za trećinu.\n\nNajzanimljiviji je bio jedan mali pomak. Na jednom odsjeku prvo predavanje je ovog semestra pomjereno s osam sati na pola deset. Studenti tog odsjeka spavali su prosječno četrdeset minuta duže, a na testu pažnje imali su manje grešaka. — Pomak od sat i po u rasporedu ne košta ništa — kaže Dženisa. — A dao je više nego bilo koji savjet o spavanju.\n\nRezultati su preliminarni, naglašava Dženisa, jer konačni izvještaj stiže tek na proljeće, kad budu obrađeni podaci iz još dva semestra. Ipak, već sada predlaže tri stvari: da jutarnja predavanja na prvoj godini ne počinju prije devet, da se ispiti ne stavljaju dva dana zaredom i da se studentima, čim upišu studij, objasni da je san dio učenja, a ne vrijeme oduzeto od njega. — Studij traje nekoliko godina — kaže ona. — Navike ostaju cijeli život.\n\nPitanja:\nŠta su predstavili na Univerzitetu u Tuzli?\nPredstavili su preliminarne rezultate istraživanja o spavanju studenata.\nŠta su Dženisa i njen tim ukrstili?\nUkrstili su podatke s narukvica s ocjenama s ispita i s rasporedom predavanja.\nKoji rezultat je bio predvidljiv?\nBilo je predvidljivo da studenti spavaju premalo, posebno pred ispit.\nZašto su posljedice kratkog sna suptilne?\nZato što student lišen sna ne osjeća da griješi, nego se osjeća samo malo sporije.\nKakav pomak je donio više sna?\nPomak prvog predavanja s osam sati na pola deset donio je četrdeset minuta sna više."
+  },
+  {
+   "title": "Emisija srijedom u deset",
+   "summary": "Tomo, a journalist at a local radio station in Žepče, runs a live weekly health programme that directs listeners to the right doctor; noticing that even literate listeners cannot read medicine instructions, he asks Sanda, a translator from Zenica, to put a plain English brochure into plain Bosnian, and the show wins the affection of older listeners.",
+   "newWords": [
+    "emitirati",
+    "novinarstvo",
+    "usmjeravati",
+    "pismen",
+    "prevodilac",
+    "naklonost"
+   ],
+   "text": "Tomo je novinar lokalnog radija u Žepču. Prije dvije godine urednici je predložio novu emisiju o zdravlju. Radio je emitira svake srijede u deset sati ujutro, uživo, pa slušaoci mogu nazvati i postaviti pitanje ljekaru koji sjedi pored njega. Isti razgovor radio emitira ponovo u nedjelju uveče, za one koji rade.\n\nTomo je četiri godine na fakultetu učio novinarstvo, ali kaže da je novinarstvo o zdravlju posebna škola. — Ako pogriješim u vijesti o fudbalu, neko će se naljutiti — kaže on. — Ako pogriješim u vijesti o lijeku, neko može uzeti pogrešnu dozu. — Zato ima jedno pravilo: nijedna rečenica o zdravlju ne ide u program dok je ne provjeri stručnjak.\n\nEmisija ne postavlja dijagnoze. Njen cilj je da usmjerava ljude. Ljekari u emisiji ne kažu slušaocu šta mu je, nego ga usmjeravaju: s ovim idite porodičnom ljekaru, s ovim u apoteku, a s ovim odmah na hitnu pomoć.\n\nNakon nekoliko mjeseci Tomo je primijetio nešto neočekivano. Mnogo pitanja nije bilo o bolestima, nego o uputstvima za lijekove. Zvali su i ljudi sa završenim fakultetom, pismeni i obrazovani, a nisu znali šta znači „uzimati na prazan stomak“ ili „najviše tri puta dnevno“. Čovjek može biti potpuno pismen, a ipak ne razumjeti tekst koji je napisan za stručnjake.\n\nTada se Tomo sjetio jedne brošure na engleskom jeziku koju je vidio na internetu. Brošura je jednostavnim riječima objašnjavala kako se čita uputstvo za lijek. Pozvao je Sandu, prevodioca iz Zenice, i pitao je može li prevesti brošuru. Sanda je pristala, ali uz jedan uslov. — Ne želim prevesti svaku riječ — rekla je. — Dobar prevodilac prevodi ono što tekst hoće reći. Ako u originalu piše rečenica od trideset riječi, kod nas će biti dvije kratke.\n\nSanda je prevodila dvije sedmice, a onda je došla u emisiju i čitala dijelove prijevoda. Slušaoci su zvali do kraja emisije. Dom zdravlja je odštampao brošuru i podijelio je u svim apotekama u gradu.\n\nEmisija je tako stekla posebnu naklonost starijih slušalaca. Neki od njih Tomi šalju pisma, a jedna penzionerka svake srijede sluša emisiju s olovkom u ruci. Tomo kaže da tu naklonost ne uzima zdravo za gotovo. — Naklonost slušalaca gubi se brže nego što se stiče — kaže on. — Dovoljna je jedna netačna rečenica.\n\nPitanja:\nKada radio emitira emisiju o zdravlju?\nRadio je emitira svake srijede u deset sati ujutro, a ponovo u nedjelju uveče.\nKoje pravilo ima Tomo u novinarstvu o zdravlju?\nNijedna rečenica o zdravlju ne ide u program dok je ne provjeri stručnjak.\nKako ljekari u emisiji usmjeravaju slušaoce?\nGovore im da li treba ići porodičnom ljekaru, u apoteku ili na hitnu pomoć.\nŠta je Tomo primijetio o pismenim slušaocima?\nPrimijetio je da i pismeni ljudi često ne razumiju uputstva za lijekove.\nŠta je Sanda rekla o svom poslu?\nRekla je da dobar prevodilac prevodi ono što tekst hoće reći, a ne svaku riječ."
+  },
+  {
+   "title": "Škola za trudnice",
+   "summary": "Sevlija, seven months pregnant, is tired of relatives pressing advice on her; her husband talks her into the antenatal classes run by the midwife Beisa at the Cazin health centre, where she learns what childbirth involves and how to breathe instead of getting upset, and her mother recalls her own first birth.",
+   "newWords": [
+    "navaljivati",
+    "nagovarati",
+    "porod",
+    "uzrujavati",
+    "prisjećati"
+   ],
+   "text": "Sevlija je u sedmom mjesecu trudnoće. Prvi put će roditi, i u posljednje vrijeme svi oko nje imaju savjet. Tetka joj govori da jede za dvoje, komšinica da ne diže ruke iznad glave, a svekrva da ne izlazi kad pada kiša. Svi navaljuju, svako sa svojim pravilom. — Ne navaljujte, molim vas — kaže Sevlija sve češće. — Pitat ću babicu.\n\nBabica se zove Beisa i u domu zdravlja u Cazinu vodi školu za trudnice. Sevlija dugo nije htjela ići. Muž ju je nagovarao sedmicama. — Samo jedan sat, jednom sedmično — nagovarao ju je. — Ako ti se ne svidi, nećeš više ići. — Na kraju je pristala, uglavnom zato da on prestane nagovarati.\n\nNa prvom satu bilo je osam trudnica, a neke su došle s muževima. Beisa je objasnila šta ih čeka: kako izgleda porod, koliko obično traje, šta treba ponijeti u bolnicu i kako prepoznati da je vrijeme za polazak. — Porod nije ispit koji možete pasti — rekla je. — Vaše tijelo zna šta radi. Moj posao je da i vi znate šta se dešava.\n\nSevlija je pitala šta da radi sa svim savjetima koji stižu od rodbine. Beisa se nasmijala, jer to pitanje čuje svake sedmice. — Ljudi navaljuju jer vas vole — rekla je. — Saslušajte ih, zahvalite se, a pitajte nas kad niste sigurni. I nemojte se uzrujavati. Ne uzrujava vas savjet, nego osjećaj da morate poslušati svaki.\n\nZatim su vježbali disanje. Beisa je pokazala kako se diše polako, kroz nos, i kako se izdiše dugo. — Kad se počnete uzrujavati, vratite se disanju — rekla je. — Disanje je uvijek s vama.\n\nTe večeri Sevlija je nazvala majku i ispričala joj o školi. Majka je dugo šutjela, a onda se počela prisjećati svog prvog poroda. — Prisjećam se da nisam znala ništa — rekla je. — Niko mi ništa nije objasnio. Bojala sam se svega, i zvuka vrata, i doktorovog pogleda. Drago mi je da ti ideš tamo.\n\nSevlija je išla na svih šest časova. Na posljednjem su obišli bolnicu i vidjeli sobu u kojoj će, kad dođe vrijeme, roditi. Kad je izašla, više se nije osjećala kao da će polagati ispit. Kad je tetka sljedeći put počela navaljivati sa savjetima, Sevlija je mirno rekla: — Hvala, tetka. Pitat ću Beisu. — Tetkini savjeti je više ne uzrujavaju.\n\nPitanja:\nKo sve navaljuje sa savjetima?\nNavaljuju tetka, komšinica i svekrva, svako sa svojim pravilom.\nKo je nagovarao Sevliju da ide u školu za trudnice?\nNagovarao ju je muž, sedmicama.\nŠta je Beisa rekla o porodu?\nRekla je da porod nije ispit koji možete pasti i da tijelo zna šta radi.\nŠta Beisa savjetuje kad se trudnica počne uzrujavati?\nSavjetuje joj da se vrati polaganom disanju.\nČega se prisjećala Sevlijina majka?\nPrisjećala se svog prvog poroda i toga da nije znala ništa."
+  },
+  {
+   "title": "Bazen u zakupu",
+   "summary": "When the company running the town pool in Bugojno goes bankrupt, swimming coach Ante's club takes the pool on a ten-year lease, repairs it with parents' help, keeps its water so clean that the public health institute calls it exemplary, and teaches every third-grade class to swim, so the whole town benefits.",
+   "newWords": [
+    "bankrot",
+    "šesnaest",
+    "zakup",
+    "uzoran",
+    "profitirati"
+   ],
+   "text": "Gradski bazen u Bugojnu otvoren je prije četrdeset godina. Generacije djece tu su naučile plivati. Ali prije pet godina preduzeće koje je vodilo bazen bilo je pred bankrotom. Struja i grijanje vode koštali su više nego što su donosile karte, krov je prokišnjavao, a posjetilaca je bilo sve manje. Kad je preduzeće na kraju otišlo u bankrot, bazen je zatvoren.\n\nAnte je u to vrijeme bio trener u plivačkom klubu. Šesnaest godina učio je djecu plivati u tom bazenu. — Kad su zaključali vrata, imao sam osjećaj da je grad izgubio nešto važnije od zgrade — kaže on.\n\nKlub je općini predložio da bazen uzme u zakup. Ugovor o zakupu potpisan je na deset godina: klub plaća malu sumu svaki mjesec, a zauzvrat mora popraviti krov i održavati bazen. — Zakup je bio rizik — priznaje Ante. — Klub nema mnogo novca. Ali bez bazena ne bi bilo ni kluba.\n\nPrve godine roditelji, treneri i plivači sami su očistili salu i obojili svlačionice. Nove ploče na krovu sada suncem griju dio vode. Ante je posebno pazio na čistoću. Voda se provjerava tri puta dnevno, a rezultati se svako jutro kače na tablu na ulazu. Zavod za javno zdravstvo, koji pregleda sve bazene u regiji, prošle je godine bazen u Bugojnu nazvao uzornim. — Uzoran bazen nije onaj koji je nov — kaže Ante. — Uzoran je onaj u kojem znaš kakva je voda i ko je za nju odgovoran.\n\nOd općine je klub tražio samo jedno: da svi učenici trećeg razreda besplatno uče plivati. Sada svake godine šesnaest razreda iz cijele općine dolazi na deset časova plivanja. Za pet godina oko dvije hiljade djece naučilo je plivati.\n\nKo je profitirao od zakupa? Ante kaže da najviše profitiraju djeca, jer su naučila plivati i više se kreću. Profitiraju i penzioneri, koji ujutro imaju svoj termin za vježbe u vodi, i ljudi s bolovima u leđima, koje ljekari šalju na plivanje. Klub nije bogat, ali više nije ni blizu bankrota. — Bazen ne donosi novac — kaže Ante. — Ali grad od njega profitira svaki dan.\n\nPitanja:\nZašto je bazen u Bugojnu bio zatvoren?\nPreduzeće koje je vodilo bazen otišlo je u bankrot.\nKoliko je godina Ante učio djecu plivati u tom bazenu?\nUčio ih je plivati šesnaest godina.\nNa koliko godina je potpisan ugovor o zakupu?\nUgovor o zakupu potpisan je na deset godina.\nZašto je zavod nazvao bazen uzornim?\nZato što se voda provjerava tri puta dnevno, a rezultati se kače na tablu na ulazu.\nKo najviše profitira od bazena?\nNajviše profitiraju djeca, a zatim penzioneri i ljudi s bolovima u leđima."
+  }
+ ]
+}
