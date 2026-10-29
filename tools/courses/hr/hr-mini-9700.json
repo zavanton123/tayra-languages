@@ -1,0 +1,169 @@
+{
+  "id": "hr-mini-9700",
+  "rankUpTo": 9700,
+  "level": "C2",
+  "title": "Vrtovi i botanika",
+  "description": "Ten stories about gardens and plants: an old cedar with a history, celery after a wet spring, plants on a mountain plateau, a school garden map, a flower bed laid out like embroidery, an early greenhouse, a compost column, a flower show, a city allotment and birdsong in a hornbeam hedge.",
+  "topic": "Gardens and botany",
+  "names": [
+    "Jasibor",
+    "Ljubina",
+    "Zagorje",
+    "Beč",
+    "Rosimir",
+    "Gajoslava",
+    "Osijek",
+    "Brezoslav",
+    "Velebit",
+    "Listomila",
+    "Vedrobor",
+    "Koprivnica",
+    "Vitana",
+    "Sladomira",
+    "Toronto",
+    "Snjeslav",
+    "Varaždin",
+    "Hrastobor",
+    "Krasimila",
+    "Želidar",
+    "Bjelovar",
+    "Sjenomir",
+    "Trnoslav",
+    "Gradislava",
+    "Zagreb",
+    "Svjetloslava",
+    "Samobor"
+  ],
+  "lessons": [
+    {
+      "title": "Cedar pred vilom",
+      "summary": "Jasibor, the gardener of an old villa park in Zagorje, learns from the estate chronicle that Ljubina reads in the museum how his great cedar came from Vienna in a coachman's carriage, spent its first winter in the stable and once stood under a passing zeppelin.",
+      "newWords": [
+        "cedar",
+        "imućan",
+        "kočijaš",
+        "staja",
+        "tadašnji",
+        "kronika",
+        "cepelin"
+      ],
+      "text": "Jasibor je vrtlar u parku oko stare vile u Zagorju. Vilu je krajem devetnaestog stoljeća sagradila imućna obitelj trgovaca drvom, a danas je u njoj mali muzej. Najljepše stablo u parku je cedar pred ulazom. Visok je tridesetak metara, a njegove široke, vodoravne grane spuštaju se gotovo do trave. Posjetitelji se pod cedrom rado odmaraju, a djeca se igraju u njegovoj sjeni.\n\nJasibor je dugo htio znati tko je cedar posadio i kada. U muzeju radi Ljubina, povjesničarka, koja je jedne zime počela čitati kroniku imanja. Kroniku je pisao tadašnji upravitelj imanja. Svaki dan bilježio je što se događa: kakvo je vrijeme, kada počinje berba voća, koliko je sijena spremljeno i koji su gosti stigli.\n\n— Pronašla sam vaš cedar — rekla je Ljubina jednog jutra i donijela kroniku u vrt.\n\nU kronici je pisalo da je imućni vlasnik 1884. godine naručio mladi cedar iz jednog rasadnika u Beču. Sadnica je vlakom stigla do najbliže stanice, a ondje ju je dočekao kočijaš s kočijom. Kočijaš ju je vozio cijeli dan, polako, da se korijen ne bi oštetio. Kad su stigli, već je pao prvi mraz, pa sadnicu nisu odmah posadili. Tadašnji vrtlar smjestio ju je u staju, kraj konja, gdje je bilo toplo. Ondje je cedar prezimio, a u proljeće su ga posadili pred vilom.\n\n— Dakle, moj je cedar prvu zimu proveo u staji — nasmijao se Jasibor. — Kao ždrijebe.\n\nLjubina je čitala dalje. Kočijaš se u kronici spominje još mnogo puta. Upravitelj je zapisao da je upravo on svako ljeto zalijevao mladi cedar vodom iz potoka i da ga je zimi otresao od snijega da mu se grane ne slome.\n\nNajzanimljiviji zapis bio je iz kolovoza 1929. godine. Tog je dana iznad imanja polako preletio cepelin, golem srebrni zračni brod. Svi su izašli iz kuće, iz staje i s polja i gledali u nebo. Kočijaš, tada već star, stajao je pod cedrom i rekao da nikad nije vidio ništa tako veliko. Uz zapis je bila zalijepljena mala fotografija: cepelin, sličan sivoj ribi, lebdi iznad krošnje cedra.\n\nJasibor i Ljubina dugo su gledali fotografiju. Stablo na njoj bilo je mnogo niže, ali oblik grana bio je isti.\n\nTog proljeća postavili su pod cedrom ploču s njegovom pričom. Na njoj piše kako je imućna obitelj naručila sadnicu, kako ju je kočijaš dovezao, kako je prvu zimu provela u staji i kako je iznad nje jednom preletio cepelin. Posjetitelji sada stoje pod cedrom, čitaju ploču i gledaju gore, prema granama.\n\nPitanja:\nKakvo je stablo pred vilom?\nPred vilom je visok cedar čije se široke grane spuštaju gotovo do trave.\nTko je pisao kroniku imanja?\nKroniku je pisao tadašnji upravitelj imanja.\nKako je sadnica stigla do vile?\nSadnica je vlakom stigla do stanice, a ondje ju je dočekao kočijaš i dovezao je kočijom.\nGdje je cedar proveo prvu zimu?\nPrvu zimu proveo je u staji, kraj konja, gdje je bilo toplo.\nŠto se dogodilo u kolovozu 1929. godine?\nIznad imanja preletio je cepelin, a svi su izašli i gledali u nebo."
+    },
+    {
+      "title": "Celer nakon kišnog proljeća",
+      "summary": "After a very wet spring in Slavonia, Rosimir saves his celery from snails and rot with the help of his neighbour Gajoslava's ducks and raised beds, then freezes the autumn harvest for winter soups.",
+      "newWords": [
+        "celer",
+        "suzbiti",
+        "blatnjav",
+        "svlačiti",
+        "zamrzavati",
+        "trulež"
+      ],
+      "text": "Rosimir ima velik povrtnjak iza kuće u jednom selu kraj Osijeka. Svake godine sadi krumpir, grah, luk i mrkvu, ali najviše voli celer. Od celera kuha juhu, dodaje ga u varivo, a lišće suši i čuva za zimu.\n\nProšlo proljeće bilo je neobično kišno. Kiša je padala gotovo svaki dan, a zemlja u vrtu bila je mokra i teška. Kad bi se Rosimir vratio iz povrtnjaka, čizme su mu bile blatnjave do koljena. Na vratima bi ih polako svlačio, jednu pa drugu, da ne unese blato u kuću. Supruga se smijala da ih svlači dulje nego što radi u vrtu.\n\nU vlažnim danima pojavili su se puževi. Noću su izlazili iz trave i jeli mlade listove celera. Rosimir ih je skupljao rukom, uvečer sa svjetiljkom, ali ih je svako jutro bilo više. Nije htio koristiti kemijska sredstva, jer u vrtu žive i žabe, ježevi i ptice.\n\n— Puževe najlakše suzbiti patkama — rekla mu je susjeda Gajoslava. — Moje bi patke pojele sve.\n\nSljedećeg jutra dovela je tri patke. Patke su hodale između gredica, kopale kljunom po blatnjavoj zemlji i jele puža za pužem. Za tjedan dana puževa gotovo više nije bilo. Rosimir je bio zadovoljan: uspio je suzbiti puževe, a da nije upotrijebio ni kap kemijskog sredstva.\n\nAli kiša je donijela i drugu nevolju. Na nekoliko biljaka donji su listovi požutjeli, a korijen je postao mekan i taman. Bila je to trulež. U mokroj zemlji korijen ne dobiva dovoljno zraka i počinje truliti. Rosimir je bolesne biljke izvadio i bacio, da se trulež ne proširi na ostale.\n\nGajoslava mu je savjetovala da napravi povišene gredice. Rosimir je od starih dasaka složio okvire, napunio ih zemljom i kompostom i u njih presadio zdrave biljke. Voda je sada otjecala brže, a korijen je ostao suh. Trulež se više nije pojavila.\n\nU listopadu je Rosimir izvadio celer. Gomolji su bili veliki i čvrsti, a lišće tamnozeleno. Bilo ga je previše za jednu obitelj. Dio je dao Gajoslavi, a ostatak je oprao, narezao na kocke i počeo ga zamrzavati u malim vrećicama. Celer je zamrzavao u obrocima, jedna vrećica za jedan lonac juhe.\n\n— Zašto ga ne zamrzavaš cijelog? — pitala je supruga.\n\n— Zato što onda ne bih mogao uzeti samo onoliko koliko trebam — odgovorio je.\n\nZimi, kad bi uvečer došao iz vrta, svlačio bi blatnjave čizme na vratima i stavljao lonac na štednjak. Iz zamrzivača bi izvadio jednu vrećicu celera, a kuhinja bi uskoro zamirisala na proljeće.\n\nPitanja:\nŠto Rosimir najviše voli saditi?\nRosimir najviše voli saditi celer.\nKako je Rosimir uspio suzbiti puževe?\nPuževe je suzbio patkama koje mu je dovela susjeda Gajoslava.\nZašto je korijen celera počeo truliti?\nU mokroj zemlji korijen nije dobivao dovoljno zraka, pa se pojavila trulež.\nKako je Rosimir spasio zdrave biljke?\nNapravio je povišene gredice i u njih presadio zdrave biljke.\nKako Rosimir čuva celer za zimu?\nCeler pere, reže na kocke i zamrzava u malim vrećicama, jednu za jedan lonac juhe."
+    },
+    {
+      "title": "Biljke na visoravni",
+      "summary": "On a grey, foggy autumn day the botanist Brezoslav drags his heavy pack across a high Velebit plateau to record its low vegetation, works on with numb fingers, and finds a late blue gentian before heading down to the valley.",
+      "newWords": [
+        "visoravan",
+        "vegetacija",
+        "sumoran",
+        "utrnuo",
+        "tegliti",
+        "nadolje"
+      ],
+      "text": "Brezoslav je botaničar. Već deset godina proučava biljke na jednoj visoravni na Velebitu. Visoravan leži na više od tisuću i dvjesto metara, između stjenovitih vrhova, i zimi je mjesecima pod snijegom. Ljeti je ondje puno cvijeća, a jeseni su kratke i hladne.\n\nSvake godine, krajem rujna, Brezoslav popisuje vegetaciju na istim mjestima. Na visoravni je označio dvadeset malih kvadrata, svaki od jednog metra. U svakom kvadratu broji biljke, bilježi koje vrste rastu i fotografira ih. Tako može usporediti kako se vegetacija mijenja iz godine u godinu.\n\nOve godine dan je bio sumoran. Od jutra je nad visoravni ležala gusta siva magla, a sitna kiša padala je bez prestanka. Na takav sumoran dan krajolik izgleda prazan: nema boja, nema daljine, samo kamenje i niska trava.\n\nBrezoslav je na leđima teglio težak ruksak. U njemu je nosio prešu za biljke, papir, mjerne trake, fotoaparat i termosicu s čajem. Teglio ga je od parkirališta dva sata uzbrdo, preko kamenja i korijenja. Na vrhu staze zastao je i odahnuo.\n\nVegetacija na visoravni je niska. Vjetar ovdje puše gotovo uvijek, pa se biljke drže tla. Grmlje raste u zaklonu stijena, trava je kratka i gusta, a cvijeće je sitno. Visokih stabala nema: ona ostaju niže, na padinama.\n\nBrezoslav je počeo s prvim kvadratom. Kleknuo je u mokru travu i brojao listove. Nakon sat vremena prsti su mu bili utrnuli od hladnoće. Olovka mu je klizila iz utrnule ruke, a slova u bilježnici bila su sve kriva. Zastao je, popio malo čaja i protrljao dlanove. Kad su se prsti malo zagrijali, nastavio je.\n\nU sedamnaestom kvadratu, među sivim kamenjem, ugledao je nešto plavo. Bio je to kasni encijan, mali cvijet tamnoplavih latica. Na tom ga mjestu još nikad nije vidio. Fotografirao ga je sa svih strana i pažljivo zapisao gdje raste.\n\nOko četiri sata magla je postala još gušća. Brezoslav je spremio prešu, zatvorio ruksak i krenuo nadolje. Staza je vodila nadolje kroz bukovu šumu, a kamenje je bilo sklisko. Hodao je polako i gledao nadolje, pred noge. Što se više spuštao, to je magla bila rjeđa.\n\nKad je stigao do auta, svukao je mokru jaknu i pogledao fotografije. Encijan je na zaslonu bio jednako plav kao gore. Dan je bio sumoran, a ruke su mu još bile utrnule, ali Brezoslav se vozio kući zadovoljan.\n\nPitanja:\nŠto Brezoslav proučava?\nBrezoslav proučava biljke na jednoj visoravni na Velebitu.\nKako popisuje vegetaciju?\nU dvadeset označenih kvadrata broji biljke, bilježi vrste i fotografira ih.\nKakav je bio dan?\nDan je bio sumoran, s gustom sivom maglom i sitnom kišom.\nZašto su mu prsti bili utrnuli?\nPrsti su mu bili utrnuli od hladnoće, jer je dugo klečao u mokroj travi.\nŠto je pronašao u sedamnaestom kvadratu?\nPronašao je kasni encijan, mali tamnoplavi cvijet."
+    },
+    {
+      "title": "Dječak s globusom",
+      "summary": "When the new term begins, the teacher Listomila puts the clumsy Vedrobor, who would rather read about antimatter and spin the classroom globe, in charge of the school garden's map, and he finds that plants are a kind of physics too.",
+      "newWords": [
+        "polugodište",
+        "globus",
+        "trapav",
+        "kihati",
+        "antimaterija",
+        "jamačno"
+      ],
+      "text": "Listomila je učiteljica u jednoj osnovnoj školi u Koprivnici. Iza škole je mali vrt s desetak gredica, a za njega se svako polugodište brine drugi razred. U drugom polugodištu, u veljači, vrt je dobio njen peti razred.\n\nU razredu je i Vedrobor, visok i mršav dječak. Vedrobor je pomalo trapav: stalno mu nešto ispada iz ruku, spotiče se o torbe i ruši olovke sa stola. Ali najviše od svega voli fiziku. Na odmorima čita knjige o svemiru, a najdraža mu je tema antimaterija. Svakome tko želi slušati objašnjava da je antimaterija poput zrcalne slike obične materije.\n\n— Kad bi se jedna žličica antimaterije susrela s običnom materijom — rekao je jednom razredu — oslobodila bi se ogromna energija.\n\nU učionici stoji stari globus. Vedrobor ga voli vrtjeti i tražiti na njemu mjesta o kojima čita. Kad je čuo da razred mora raditi u vrtu, uzdahnuo je.\n\n— Jamačno ću opet nešto srušiti — rekao je. — A osim toga, od cvijeća kišem.\n\nBilo je istina. Čim bi se približio cvjetovima, počeo bi kihati. Listomila je razmislila i dala mu poseban zadatak: neka nacrta kartu vrta. Mogao ju je crtati za stolom kraj prozora, daleko od cvijeća, a gredice je gledao kroz staklo.\n\nVedrobor je donio globus iz učionice i postavio ga na prozor.\n\n— Vrt je kao mali planet — rekao je. — Sunce ga obasjava s juga, pa su južne gredice toplije.\n\nNa kartu je ucrtao kamo pada sjena škole u devet sati, a kamo u dva. Izmjerio je koliko sunca dobiva svaka gredica i obojio ih: žuto one najsunčanije, plavo one u sjeni. Listomila je bila iznenađena: karta je bila točnija od svih koje je vrt ikad imao.\n\nPrema njegovoj karti razred je posadio rajčice na južnu stranu, a salatu i peršin u sjenu. U svibnju su rajčice već cvale. Vedrobor je jednom izašao u vrt da izbliza pogleda biljke. Kihao je samo dvaput, jer rajčice ne cvjetaju kao ruže. Bio je, istina, trapav kao i uvijek: prevrnuo je kantu s vodom. Ali nitko se nije ljutio, jer je voda pala ravno na gredicu kojoj je trebala.\n\nNa kraju polugodišta Listomila je njegovu kartu objesila na zid, pokraj globusa.\n\n— Jamačno nisi mislio da je i vrt fizika — rekla mu je.\n\n— Nije antimaterija — odgovorio je Vedrobor — ali i on radi po pravilima.\n\nPitanja:\nTko se brine za školski vrt u drugom polugodištu?\nU drugom polugodištu za vrt se brine Listomilin peti razred.\nKakav je Vedrobor?\nVedrobor je visok, mršav i pomalo trapav dječak koji voli fiziku i čita o antimateriji.\nZašto Vedrobor nije htio raditi u vrtu?\nMislio je da će nešto srušiti, a od cvijeća počne kihati.\nŠto je Vedrobor nacrtao?\nNacrtao je kartu vrta i obojio gredice prema tome koliko sunca dobivaju.\nGdje je Listomila objesila kartu?\nObjesila ju je na zid, pokraj globusa."
+    },
+    {
+      "title": "Vrt kao vez",
+      "summary": "Vitana, who grew up in Toronto and speaks Croatian fluently, visits her grandmother Sladomira in Slavonia, learns embroidery on a wooden hoop while her grandmother sings old ballads, and together they plant a flower bed laid out like one of the embroidered patterns.",
+      "newWords": [
+        "vez",
+        "šara",
+        "kolut",
+        "ukrašavati",
+        "balada",
+        "tečno"
+      ],
+      "text": "Vitana je odrasla u Torontu, ali svako ljeto dolazi baki Sladomiri u jedno slavonsko selo. Kod kuće s roditeljima govori hrvatski, pa ga govori tečno, gotovo bez naglaska. Baka kaže da Vitana tečno govori kao da je odrasla u selu.\n\nBaka Sladomira cijeli život izrađuje vez. U ormaru čuva stolnjake, jastučnice i ručnike s crvenim, plavim i zlatnim šarama. Neke je šare naučila od svoje majke, a neke je sama smislila. Najčešće su to cvjetovi: ruže, tulipani, sitne zvjezdice i lišće koje se uvija po rubu tkanine.\n\nOvog ljeta Vitana je zamolila baku da je nauči vesti. Baka je iz ladice izvadila drveni kolut. Kolut se sastoji od dva obruča: tkanina se stavi između njih i zategne, da bude ravna kao bubanj. Sladomira je pokazala kako se igla provlači kroz tkaninu i kako se bod slaže uz bod.\n\nDok su radile, baka je pjevala stare balade. Jedna je balada bila o djevojci koja čeka brod na rijeci, druga o pastiru koji je izgubio ovcu u magli. Vitana je slušala i pokušavala zapamtiti riječi. Neke nije razumjela, pa ih je baka objašnjavala.\n\n— Uz baladu se bolje veze — rekla je baka. — Ruka ide u ritmu pjesme.\n\nVitana je u kolut stavila mali komad platna i počela vesti jednostavnu šaru: crveni cvijet s četiri latice. Prvi dan latice su bile krive, drugi dan bolje, a do kraja tjedna cvijet je bio gotov.\n\nJednog jutra Vitana je sjedila u bakinu vrtu i gledala prazan komad zemlje iza kuće.\n\n— Bako, a da napravimo gredicu kao tvoj vez? — pitala je.\n\nSladomira se nasmijala, ali ideja joj se svidjela. Izabrale su jednu šaru sa stolnjaka: krug u sredini, četiri latice oko njega i rub od sitnih listova. Šaru su konopcem i kolčićima prenijele na zemlju. U sredinu su posadile crvene kadifice, u latice plave potočnice, a za rub nisku zelenu travu.\n\nCijeli mjesec gredica je rasla. Baka je godinama vezom ukrašavala stolnjake i jastučnice, a sada je cvijećem ukrašavala vrt.\n\n— Cijeli život ukrašavam kuću — rekla je Vitani. — Nikad nisam mislila da ću ovako ukrašavati i zemlju. Susjedi su zastajali na putu i gledali.\n\nPosljednjeg dana Vitana je u kolut stavila novi komad platna. Odlučila je izvesti šaru gredice, da je ponese u Toronto. Baka je sjedila pokraj nje i tiho pjevala baladu o djevojci i brodu.\n\nPitanja:\nKako Vitana govori hrvatski?\nVitana govori hrvatski tečno, gotovo bez naglaska.\nŠto baka Sladomira izrađuje cijeli život?\nBaka Sladomira cijeli život izrađuje vez sa šarama cvjetova.\nČemu služi kolut?\nU kolut se stavi tkanina i zategne, da bude ravna dok se veze.\nŠto je baka pjevala dok su radile?\nBaka je pjevala stare balade.\nKakvu su gredicu napravile Vitana i baka?\nNapravile su gredicu prema šari sa stolnjaka: krug u sredini, četiri latice i rub od listova."
+    },
+    {
+      "title": "Prerano proljeće u stakleniku",
+      "summary": "Tempted by a warm February, Snjeslav sows tomatoes too early in his Varaždin greenhouse; when the cold his father warned him about comes true, he keeps the greenhouse heated day and night and learns to soak seeds to soften their coats, and the young plants stay healthy.",
+      "newWords": [
+        "prijevremen",
+        "obistiniti",
+        "danonoćni",
+        "otapati",
+        "odveć",
+        "omotač"
+      ],
+      "text": "Snjeslav ima mali staklenik u dvorištu kuće na rubu Varaždina. Svake godine u njemu iz sjemena uzgaja rajčice i paprike, a u svibnju mlade biljke posadi u vrt.\n\nOve godine veljača je bila neobično topla. Sunce je sjalo danima, a u stakleniku je u podne bilo i dvadeset stupnjeva. Snjeslav nije mogao čekati. Već sredinom veljače posadio je sjeme rajčica, mjesec dana ranije nego inače.\n\n— To je prijevremeno sijanje — rekao mu je otac, koji je cijeli život radio u vrtu. — Odveć je rano. Zima nije gotova. Mraz će se vratiti, sigurno.\n\nSnjeslav je samo slegnuo ramenima. Prognoza je obećavala toplo vrijeme još tjedan dana.\n\nSjeme je, međutim, raslo sporo. Otac mu je objasnio zašto. Svaka sjemenka ima tvrd omotač koji čuva mladu biljku u sebi. Kad je zemlja odveć hladna, omotač ostaje tvrd i biljka ga teško probija. Savjetovao mu je da ostatak sjemena preko noći stavi u toplu vodu. Voda omekša omotač, a biljka tada lakše izađe. Snjeslav je poslušao i drugo je sjeme izašlo iz zemlje za četiri dana.\n\nKrajem veljače očeve su se riječi obistinile. Za samo jednu noć temperatura je pala na minus osam, a ujutro je u dvorištu ležao snijeg. Mlade rajčice, visoke tek nekoliko centimetara, mogle su se smrznuti. Prijevremeno sijanje sada je tražilo mnogo truda.\n\nSnjeslav je u staklenik unio malu električnu peć i pokrio biljke platnom. Sljedećih deset dana njegova je briga bila danonoćna. Ustajao je noću i provjeravao koliko je stupnjeva, a danju je palio i gasio peć. Danonoćno grijanje stajalo ga je dosta struje, ali biljke su ostale zelene.\n\nSnijeg na krovu staklenika polako se otapao. Kad bi sunce izašlo, otapalo bi ga brže, a kapi bi tekle niz staklo. Snjeslav je svako jutro gledao kako se snijeg otapa i brojio dane do toplijeg vremena.\n\nPočetkom ožujka zima je doista otišla. Rajčice su bile malo niže nego inače, ali zdrave. U svibnju ih je posadio u vrt i do kolovoza su dale mnogo ploda.\n\n— Tvoje su se riječi obistinile — rekao je ocu za ručkom. — Ali i moje su rajčice ostale zdrave.\n\n— Jesu — rekao je otac. — Ali sljedeće godine sadi sjeme u ožujku.\n\nSnjeslav je to zapisao na prvu stranicu svoje vrtne bilježnice: „Prijevremeno sijanje znači danonoćni posao. Sjeme staviti u toplu vodu, da omotač omekša. Ne sijati odveć rano.“\n\nPitanja:\nZašto je Snjeslav rano posadio sjeme rajčica?\nVeljača je bila neobično topla, pa nije mogao čekati.\nŠto je otac rekao o prijevremenom sijanju?\nRekao je da je odveć rano i da će se mraz vratiti.\nČemu služi omotač sjemenke?\nOmotač čuva mladu biljku, a kad omekša u vodi, biljka lakše izađe.\nKako su se obistinile očeve riječi?\nKrajem veljače temperatura je pala na minus osam i pao je snijeg.\nKako je Snjeslav spasio mlade biljke?\nDeset dana danonoćno je grijao staklenik i pokrivao biljke platnom."
+    },
+    {
+      "title": "Što se događa u hrpi lišća",
+      "summary": "In a calm gardening column, the gardener Hrastobor explains what goes into a compost heap, why its volume shrinks, how warmth and turning drive its dynamics, and how the finished compost strengthens the soil and the plants.",
+      "newWords": [
+        "sirovina",
+        "volumen",
+        "dinamika",
+        "otpadati",
+        "jačati",
+        "prethoditi"
+      ],
+      "text": "Piše: Hrastobor, vrtlar\n\nSvake jeseni u mom vrtu počnu otpadati listovi. Najprije otpadaju s lipe, zatim s oraha, a na kraju s jabuka. Mnogi susjedi skupljaju lišće i bacaju ga. Ja ga nosim u kut vrta, na hrpu od koje će za godinu dana nastati kompost, prirodno gnojivo. Lišće je, naime, dragocjena sirovina.\n\nTakvo gnojivo nastaje od dvije vrste sirovina. Prva je zelena: trava, ostaci povrća iz kuhinje i kore voća. Ta je sirovina vlažna i bogata dušikom. Druga je smeđa: suho lišće, slama, sitne grane i karton. Ona je suha i bogata ugljikom. Dobra hrpa treba otprilike jedan dio zelene i dva dijela smeđe sirovine.\n\nKad složim novu hrpu, visoka je do pojasa. Za nekoliko mjeseci bit će dvaput niža. Volumen hrpe smanjuje se jer sitni organizmi u njoj, bakterije, gljive i crvi, jedu ostatke i pretvaraju ih u vodu, zrak i tamnu zemlju. Od punih kolica lišća na kraju ostane tek jedna lopata gnojiva. Taj manji volumen, međutim, vrijedi više od cijele hrpe.\n\nHrpa ima svoju dinamiku. U prvim tjednima zagrije se, katkad i do šezdeset stupnjeva. Tada rade bakterije koje vole toplinu. Kad se hrpa ohladi, dolaze gljive i crvi. Toj dinamici pomažem tako što hrpu svaka tri tjedna prevrnem lopatom. Zrak tada uđe u sredinu i sve se ponovno zagrije. Ako hrpu ne prevrćem, dinamika se uspori, a hrpa počne neugodno mirisati.\n\nCijelom tom poslu nešto prethodi: dobar izbor i priprema sirovina. Prije nego što počnem, grane izrežem na kratke komade, a veliko lišće izrežem škarama. Sitniji komadi brže se raspadaju. Poslu prethodi i izbor mjesta: hrpa voli hlad, ne puno sunce, gdje se ne osuši.\n\nZa godinu dana gnojivo je gotovo. Tamno je, meko i miriše na šumu. U proljeće ga rasporedim po vrtu. Zemlja tada počne jačati: postaje mekša, dulje drži vodu i u njoj ima više crva. S njom počinju jačati i biljke. Rajčice imaju deblje stabljike, a salata bolje podnosi vrućinu.\n\nMnogi me pitaju je li to vrijedno truda. Jest. Kompost ne košta ništa, a vrt nikad nije bio zdraviji.\n\nKad u studenome gledam kako lišće opet počinje otpadati, ne vidim smeće. Vidim sirovinu za sljedeće proljeće. Vrt se tako hrani sam sobom: ono što s njega otpada, vraća mu se kao zemlja.\n\nPitanja:\nŠto autor radi s lišćem koje otpada u jesen?\nAutor nosi lišće na hrpu u kutu vrta, jer je ono dragocjena sirovina.\nKoje su dvije vrste sirovina za gnojivo?\nZelena, vlažna sirovina poput trave i ostataka povrća i smeđa, suha poput lišća i slame.\nZašto se volumen hrpe smanjuje?\nBakterije, gljive i crvi jedu ostatke i pretvaraju ih u vodu, zrak i zemlju.\nKako autor pomaže dinamici hrpe?\nSvaka tri tjedna prevrne hrpu lopatom, da zrak uđe u sredinu.\nŠto se događa sa zemljom kad se u nju doda gnojivo?\nZemlja počne jačati: postaje mekša, dulje drži vodu, a s njom jačaju i biljke."
+    },
+    {
+      "title": "Ruža u krivoj kategoriji",
+      "summary": "At a flower show in Bjelovar, Krasimila's shrub rose is disqualified because she entered it among the climbing roses, but the judge Želidar praises its plain qualities, a puppy provides a comic moment, and the rose wins the visitors' vote.",
+      "newWords": [
+        "diskvalificirati",
+        "nepobitan",
+        "isprazan",
+        "aktualan",
+        "komičan",
+        "odlika"
+      ],
+      "text": "Krasimila već dvadeset godina uzgaja ruže u vrtu u Bjelovaru. Ove je godine prvi put odlučila prijaviti jednu na gradsku izložbu cvijeća. Izabrala je ružu svijetlo ružičaste boje, s cvjetovima velikim kao dlan i mirisom koji se osjeća s nekoliko koraka.\n\nPrijavu je ispunjavala navečer, umorna. Pod „kategorija“ zaokružila je „ruže penjačice“, iako je njena ruža grm koji ne raste uz zid. Nije to ni primijetila.\n\nNa izložbi su ocjenjivači pregledavali cvijeće redom. Glavni je ocjenjivač bio Želidar, stariji vrtlar poznat po tome što govori malo, ali točno. Kad je došao do Krasimiline ruže, dugo ju je gledao, a onda pogledao prijavu.\n\n— Žao mi je — rekao je. — Moram vas diskvalificirati iz ove kategorije. Ovo nije penjačica.\n\nKrasimila je pocrvenjela. Pravila su bila jasna: biljku koja je prijavljena u krivu kategoriju ocjenjivači moraju diskvalificirati, makar bila najljepša na izložbi.\n\n— Imate pravo — rekla je. — Pogriješila sam.\n\nU tom je trenutku u šator utrčalo malo štene neke posjetiteljice. Proletjelo je između stolova, zaplelo se u vrpcu s natpisima i dovuklo ju do Krasimiline ruže. Ondje je sjelo i počelo njušiti cvijet, ozbiljno, kao da je i ono ocjenjivač. Prizor je bio toliko komičan da su se nasmijali svi, i Krasimila i Želidar. Komičan trenutak razbio je napetost.\n\nŽelidar je onda još jednom pogledao ružu.\n\n— Diskvalificirana je, ali njene su odlike nepobitne — rekao je. — Zdravi listovi, bez ijedne mrlje. Čvrsti cvjetovi. Miris. Te odlike nisu slučajne, one su rezultat godina rada.\n\nKrasimila je rekla da nisu potrebne velike riječi.\n\n— Nisu to isprazne pohvale — odgovorio je Želidar. — Isprazno bi bilo hvaliti boju. Ja hvalim ono što se ne može izmisliti.\n\nNa izložbi se te godine mnogo govorilo o jednoj temi, aktualnoj u cijeloj zemlji: o vrtovima koji trebaju malo vode. Želidar je rekao da je Krasimilina ruža dobar primjer za tu aktualnu temu, jer je ona nikad ne zalijeva više od jednom tjedno.\n\nNa kraju izložbe posjetitelji su birali svoju najdražu biljku. Pobijedila je ruža koju su ocjenjivači morali diskvalificirati. Zasluga je bila nepobitna: dobila je dvostruko više glasova od druge biljke.\n\nSljedeće godine Krasimila je prijavu ispunjavala ujutro, i dvaput je provjerila kategoriju.\n\nPitanja:\nZašto je Krasimilina ruža diskvalificirana?\nRuža je diskvalificirana jer je prijavljena kao penjačica, a zapravo je grm.\nŠto se komično dogodilo u šatoru?\nMalo štene utrčalo je u šator i ozbiljno njušilo ružu, kao da je ocjenjivač.\nKoje je odlike ruže pohvalio Želidar?\nPohvalio je zdrave listove bez mrlje, čvrste cvjetove i miris.\nZašto Želidarove pohvale nisu bile isprazne?\nHvalio je ono što se ne može izmisliti, nego je rezultat godina rada.\nKoja je tema bila aktualna na izložbi?\nAktualna tema bili su vrtovi koji trebaju malo vode."
+    },
+    {
+      "title": "Frizer i gradski vrt",
+      "summary": "Sjenomir, a Zagreb hairdresser, hears from an acquaintance about city allotments with a reduced fee for those who share them with a school, rents one, gets help from his brother-in-law Trnoslav, and one evening rushes out of the salon to cover his seedlings before a storm.",
+      "newWords": [
+        "frizer",
+        "šurjak",
+        "znanac",
+        "olakšica",
+        "izjuriti",
+        "pobliže"
+      ],
+      "text": "Sjenomir je frizer. Već petnaest godina ima mali salon u jednoj ulici na istoku Zagreba. Ljudi kod njega ne dolaze samo zbog frizure, nego i zbog razgovora, jer Sjenomir zna slušati.\n\nJednog dana na šišanje je došao njegov stari znanac, umirovljeni učitelj koji kod njega dolazi svaki mjesec. Dok ga je Sjenomir šišao, znanac je pričao o gradskim vrtovima. Grad, rekao je, na rubu naselja iznajmljuje male vrtove, po pedeset četvornih metara, za sitnu godišnju naknadu.\n\n— A postoji i olakšica — dodao je znanac. — Tko svoj vrt jednom tjedno otvori za djecu iz susjedne škole, plaća upola manje.\n\nSjenomir je o tome razmišljao cijeli dan. Kao dijete odrastao je uz vrt na selu, a sada godinama nije imao ni teglu s cvijećem. Navečer je na gradskim stranicama pobliže pročitao pravila. Olakšica je bila upravo onakva kakvu je znanac opisao. Prijavio se istog tjedna.\n\nU ožujku je dobio svoj vrt: komad tvrde zemlje, s jednom kantom za vodu i drvenom klupom. Nije znao odakle početi, pa je nazvao šurjaka Trnoslava, brata svoje supruge Gradislave. Trnoslav živi u Zagorju i cijeli život obrađuje zemlju.\n\nŠurjak je došao u subotu ujutro. Najprije je pobliže pogledao zemlju: uzeo je grudu u šaku, stisnuo je i pomirisao.\n\n— Teška je, ali dobra — rekao je. — Treba joj kompost i malo strpljenja.\n\nZajedno su prekopali vrt, napravili gredice i posadili salatu, grašak, luk i nekoliko presadnica rajčica. Šurjak je pokazao Sjenomiru kako se sadi u ravnom redu, a Sjenomir je njemu, za uzvrat, u vrtu na klupi skratio kosu.\n\nDjeca iz škole dolazila su četvrtkom. Sjenomir im je pokazivao kako se zalijeva i kako se čupa korov, a oni su njemu donosili crteže.\n\nJedne večeri u svibnju Sjenomir je u salonu šišao posljednju mušteriju kad je nebo iznad grada postalo tamno. Na radiju su upozorili na jako nevrijeme. Čim je mušterija platila i izašla, Sjenomir je zaključao salon i izjurio na ulicu. Sjeo je na bicikl i za deset minuta bio u vrtu. Ondje je preko rajčica razapeo staru zavjesu.\n\nNevrijeme je stiglo nekoliko minuta kasnije. Sutradan je šurjak nazvao i pitao kako su rajčice.\n\n— Zdrave su — rekao je Sjenomir. — Izjurio sam iz salona kao da gori.\n\n— Tako je i treba — nasmijao se Trnoslav. — Sada si pravi vrtlar, a ne samo frizer.\n\nPitanja:\nTko je Sjenomir?\nSjenomir je frizer koji ima mali salon u Zagrebu.\nOd koga je Sjenomir čuo za gradske vrtove?\nČuo je od starog znanca, umirovljenog učitelja.\nKakva olakšica postoji za gradske vrtove?\nTko jednom tjedno otvori vrt za djecu iz škole, plaća upola manje.\nTko je pomogao Sjenomiru urediti vrt?\nPomogao mu je šurjak Trnoslav, brat njegove supruge.\nZašto je Sjenomir izjurio iz salona?\nIzjurio je jer je stizalo jako nevrijeme, pa je htio pokriti rajčice."
+    },
+    {
+      "title": "Pjev u živici",
+      "summary": "Svjetloslava records birdsong in the old hornbeam hedge around her garden near Samobor, charges her small recorder every evening, dozes off in her chair one May morning and finds that the recorder has caught a blackbird singing from its nest by a round bulge on an old hornbeam trunk.",
+      "newWords": [
+        "grab",
+        "pjev",
+        "zadrijemati",
+        "punjač",
+        "izbočina"
+      ],
+      "text": "Svjetloslava živi u kući s vrtom na rubu Samobora. Vrt je sa svih strana okružen visokom živicom od graba. Grab je stablo koje se lako oblikuje: ako se živica redovito šiša, raste gusto, poput zelenog zida. Živicu je posadio još njen djed, a danas je visoka dva metra.\n\nNa kraju vrta, gdje živica završava, stoji i jedan stari grab koji nitko nikad nije šišao. Njegovo je deblo sivo i glatko, ali na jednoj strani ima veliku izbočinu, okruglu kao lopta. Iznad izbočine grane se šire, a u njihovoj sjeni raste gusto grmlje.\n\nSvjetloslava je u mirovini i voli ptice. Prošle je godine kupila mali uređaj kojim snima pjev ptica u vrtu. Svako jutro postavi ga na stup kraj živice i pusti ga da snima dva sata. Poslije sluša snimke i pokušava prepoznati svaki pjev: kosa, vrapca, goluba.\n\nUređaj troši mnogo baterije. Zato ga svake večeri stavi na punjač u kuhinji. Punjač ima dug kabel, pa ga ponekad nosi i van, do utičnice na terasi, kad snima cijeli dan.\n\nJednog jutra u svibnju sjela je na stolicu pokraj staroga graba. Bilo je toplo i tiho. Pjev ptica bio je blag, a sunce je padalo kroz lišće. Svjetloslava je zatvorila oči samo na trenutak i zadrijemala. Dok je spavala, uređaj je i dalje snimao.\n\nProbudila se tek nakon sat vremena, kad joj je sunce došlo na lice. Odnijela je uređaj u kuću, stavila ga na punjač i stavila slušalice.\n\nU početku je čula samo poznate zvukove: vjetar u lišću, daleki auto, golubove na krovu. A onda, oko pola deset, javio se jasan i bogat pjev, sasvim blizu. Bio je to kos. Pjevao je dugo, s brzim tonovima i kratkim pauzama, kao da priča priču. Nikad prije nije snimila tako lijep pjev, ni tako blizu.\n\nPjev je dolazio od starog graba. Sljedećih je dana Svjetloslava pažljivo promatrala to mjesto. Kos je, kako se pokazalo, imao gnijezdo u gustim granama, odmah iznad izbočine na deblu. Svjetloslava mu se nije približavala. Gledala ga je izdaleka, sa stolice na terasi.\n\nOd tada svako jutro postavi uređaj kraj starog graba, a uvečer ga vrati na punjač. Ponekad, dok sluša pjev iz živice, opet zadrijema. Ne smeta joj: uređaj sluša umjesto nje.\n\nPitanja:\nOd čega je živica oko Svjetloslavina vrta?\nŽivica je od graba, a posadio ju je njen djed.\nKako izgleda stari grab na kraju vrta?\nDeblo mu je sivo i glatko, a na jednoj strani ima veliku okruglu izbočinu.\nŠto Svjetloslava snima?\nSnima pjev ptica u vrtu.\nZašto uređaj svake večeri stavlja na punjač?\nUređaj troši mnogo baterije, pa ga svake večeri stavi na punjač.\nŠto se dogodilo dok je Svjetloslava zadrijemala?\nUređaj je i dalje snimao i snimio lijep pjev kosa.\nGdje je kos imao gnijezdo?\nImao je gnijezdo u gustim granama starog graba, odmah iznad izbočine na deblu."
+    }
+  ]
+}
