@@ -1,0 +1,162 @@
+{
+  "id": "ro-mini-5200",
+  "rankUpTo": 5200,
+  "level": "C1",
+  "title": "Știința gătitului",
+  "description": "Ten texts about the science of cooking: a sourdough starter in a jar, why taste lives in the nose, a chef who listens to the sizzle, a TV audition with an omelette, a food journalist who edits recipes, cheese at a shepherd's hut, jam at a renovated manor, a food truck that switches to induction, bony fish and coral-red crayfish in Tulcea, and an essay on comfort food.",
+  "topic": "The science of cooking",
+  "names": [
+    "Comșa",
+    "Hondru",
+    "Sibiu",
+    "București",
+    "Brănescu",
+    "Cluj",
+    "Clujului",
+    "Strătescu",
+    "Zaharescu",
+    "Podaru",
+    "Onciu",
+    "Maramureș",
+    "Iași",
+    "Sbârcea",
+    "Ciuhat",
+    "Timișoara",
+    "Avădanei",
+    "Tulcea",
+    "Hrișcu"
+  ],
+  "lessons": [
+    {
+      "title": "Pâinea din borcan",
+      "summary": "A retired chemistry teacher in Sibiu gets a jar of sourdough starter from her neighbour, learns why dough rises and repays him with her first good loaf.",
+      "newWords": [
+        "borcan",
+        "spic",
+        "umfla",
+        "verticală",
+        "seta",
+        "revanșa"
+      ],
+      "text": "Doamna Comșa a predat chimie timp de treizeci de ani la un liceu din Sibiu. Abia la pensie a început să facă pâine acasă. Prima ei pâine a ieșit joasă și tare ca o piatră. Vecinul ei, domnul Hondru, face pâine de o viață. A gustat o bucată, a zâmbit și a doua zi i-a adus un borcan mic de sticlă, închis cu un capac.\n\n— În borcan e maia, i-a explicat el. Făină, apă și o lume întreagă de ființe mici pe care nu le vedeți. Hrăniți-o în fiecare zi cu puțină făină și apă, și o să crească.\n\nDoamna Comșa a pus borcanul pe masa din bucătărie și a vrut să înțeleagă ce se întâmplă înăuntru. Ca fostă profesoară, a început cu începutul: cu spicele de grâu. Fiecare bob dintr-un spic păstrează hrană pentru o plantă nouă. Când grâul devine făină, această hrană ajunge în pâine. Ființele mici din borcan se hrănesc cu ea și eliberează un gaz. Gazul formează mii de bule mici. Proteinele din grâu, amestecate cu apă, se leagă într-o rețea care se poate întinde, iar rețeaua ține gazul închis. Așa se umflă pâinea: ca un balon cu mii de camere mici.\n\nCa să vadă cât se umflă amestecul, doamna Comșa a lipit pe borcan o bandă de hârtie, pe verticală, de jos până sus. În fiecare dimineață, după ce o hrănea, făcea un semn cu creionul pe bandă. În prima săptămână, semnul abia se mișca. În a doua săptămână, după cinci ore, amestecul ajungea aproape de capac. Pe verticala de hârtie se vedea clar cum crește puterea ei.\n\nA urmat pâinea. Doamna Comșa a amestecat o parte din maia cu făină, apă și sare și a lăsat totul să se umfle peste noapte, într-un loc rece. Dimineața a setat cuptorul la 250 de grade și a pus înăuntru o oală grea, ca să se încălzească bine. A setat și un ceas: douăzeci de minute cu capac, apoi douăzeci fără.\n\nÎn cuptor, căldura face ultimul lucru. Gazul se încălzește și ocupă mai mult loc, apa devine abur, iar pâinea se mai umflă o dată, în primele minute. Apoi suprafața se întărește și pâinea își păstrează forma. Dacă rețeaua de proteine e slabă, pâinea se întinde pe masă în loc să crească pe verticală. De aceea făina bună vine din spice cu multe proteine.\n\nPâinea a ieșit înaltă și aurie. Doamna Comșa a tăiat-o abia după o oră și i-a dus jumătate vecinului.\n\n— Am vrut să mă revanșez, i-a spus. Fără borcanul dumneavoastră aș fi făcut în continuare pietre.\n\n— Nu trebuie să vă revanșați, a râs domnul Hondru. O maia trăiește mai bine când e împărțită. Dați și dumneavoastră un borcan cuiva.\n\nÎntrebări:\nCe i-a adus domnul Hondru doamnei Comșa?\nI-a adus un borcan mic de sticlă, cu maia.\nDe ce se umflă pâinea?\nPentru că gazul eliberat de ființele din borcan formează bule, iar rețeaua de proteine le ține închise.\nCum a urmărit doamna Comșa cât crește maiaua?\nA lipit pe borcan o bandă de hârtie pe verticală și a făcut în fiecare dimineață un semn cu creionul.\nLa câte grade a setat cuptorul?\nL-a setat la 250 de grade.\nCum a vrut doamna Comșa să se revanșeze?\nI-a dus domnului Hondru jumătate din prima pâine reușită."
+    },
+    {
+      "title": "Gustul stă în nas",
+      "summary": "A short column explains how glands, smell and the brain work together when we taste food, and why salt makes sweets taste sweeter.",
+      "newWords": [
+        "glandă",
+        "difuza",
+        "reieși",
+        "accentuat",
+        "benefic",
+        "dulciuri",
+        "concomitent"
+      ],
+      "text": "Ați observat că, atunci când sunteți răcit, supa preferată pare să nu mai aibă gust? Nu e o impresie. Ceea ce numim de obicei „gust” vine, în cea mai mare parte, din nas.\n\nPe limbă simțim doar câteva gusturi de bază: dulce, sărat, acru și amar. Restul – mirosul de pâine prăjită, de cafea sau de căpșuni – ajunge la noi pe altă cale. Când mestecăm, aerul cald din gură urcă spre nas pe partea din spate a gâtului. Moleculele care dau mirosul se desprind din mâncare și se difuzează în acest aer. Cu cât mâncarea e mai caldă, cu atât ele se difuzează mai repede. De aceea o supă fierbinte miroase mai puternic decât una rece.\n\nTotul începe însă în gură, cu glandele care produc saliva. Glandele intră la lucru chiar înainte de prima înghițitură, uneori doar când ne gândim la mâncare. Saliva dizolvă sarea și zahărul, iar abia dizolvate ele ajung la limbă. O bucată de zahăr pusă pe o limbă complet uscată aproape nu are gust.\n\nCreierul primește concomitent semnalele de la limbă și de la nas și le unește într-o singură impresie. Nu ne dăm seama că sunt două. Un experiment simplu arată acest lucru: țineți-vă nasul și mâncați pe rând o bucată de măr și una de cartof crud. Fără nas, diferența aproape dispare. Când dați drumul nasului, mirosul și gustul revin concomitent, iar mărul devine iar măr.\n\nDin mai multe studii reiese că gusturile se și influențează între ele. Un praf de sare pus în ciocolată sau într-o prăjitură face gustul dulce mai accentuat, pentru că sarea acoperă o parte din amar. Iar o picătură de lămâie face o mâncare grasă să pară mai ușoară. Bucătarii știu asta de mult; știința abia acum explică de ce.\n\nNe e poftă de dulciuri pentru că zahărul a însemnat mereu energie rapidă. Copiii cer dulciuri mai des decât adulții, iar din cercetări reiese că preferința lor pentru gustul dulce scade încet abia spre vârsta de 20 de ani.\n\nPentru oamenii în vârstă, care simt mai slab mirosurile, aceste lucruri au o latură practică. E benefic să mănânce mâncarea caldă, nu călduță, și să folosească mai multe ierburi și condimente, nu mai multă sare. O aromă accentuată de mărar sau de usturoi poate înlocui o parte din sare, iar efectul e benefic și pentru inimă.\n\nData viitoare când gustați ceva bun, gândiți-vă că mâncați și cu nasul.\n\nÎntrebări:\nDe ce nu simțim gustul supei când suntem răciți?\nPentru că cea mai mare parte din ceea ce numim gust vine din nas.\nCe fac glandele din gură?\nGlandele produc saliva, care dizolvă sarea și zahărul.\nDe ce miroase mai puternic o supă fierbinte?\nPentru că moleculele care dau mirosul se difuzează mai repede din mâncarea caldă.\nCe reiese din studiile despre sare și ciocolată?\nReiese că un praf de sare face gustul dulce mai accentuat.\nCe e benefic pentru oamenii în vârstă?\nE benefic să mănânce mâncarea caldă și să folosească mai multe ierburi în loc de sare."
+    },
+    {
+      "title": "Dirijorul din bucătărie",
+      "summary": "A portrait of a Cluj chef who once wanted to be a conductor and now runs his kitchen by ear, listening to the sound of frying.",
+      "newWords": [
+        "dirijor",
+        "subordine",
+        "timbru",
+        "postură",
+        "utilaj"
+      ],
+      "text": "Domnul Brănescu are 48 de ani și conduce bucătăria unui restaurant din centrul Clujului. În tinerețe a studiat violoncelul și visa să devină dirijor. Nu a devenit niciodată dirijor de orchestră, dar colegii lui spun că bucătăria o conduce exact ca un dirijor.\n\nAre în subordine doisprezece bucătari. Fiecare are locul lui, ca muzicienii dintr-o orchestră: unii fac sosurile, alții carnea, alții desertul. Seara, când vin comenzile, domnul Brănescu stă la capătul mesei lungi și dă tonul. Nu strigă niciodată. Vocea lui are un timbru jos și calm, iar bucătarii din subordinea lui spun că un timbru calm îi liniștește mai bine decât orice strigăt.\n\nLucrul cel mai ciudat pentru un vizitator e că domnul Brănescu ascultă mâncarea. Când o bucată de carne cade în tigaia cu ulei, apa de pe suprafața ei se transformă brusc în abur. Bulele de abur fac sfârâitul pe care îl cunoaștem cu toții. Timbrul acestui sunet se schimbă cu temperatura. Un sfârâit ascuțit și puternic înseamnă că uleiul e foarte fierbinte, iar carnea va prinde repede o coajă aurie. Un sunet slab și umed înseamnă că tigaia e prea rece: carnea va fierbe în propria apă și va ieși cenușie.\n\n— Un dirijor aude o vioară falsă din fundul sălii, spune el. Eu aud o tigaie rece de la cinci metri.\n\nBucătăria a fost refăcută anul trecut, iar utilajele sunt moderne: un cuptor cu abur, o mașină care răcește repede mâncarea gătită, un aparat care ține apa la o temperatură exactă ore întregi. Domnul Brănescu le folosește pe toate, dar spune că niciun utilaj nu înlocuiește urechea și nasul unui bucătar.\n\nUn lucru la care ține mult este postura. Un bucătar stă în picioare zece ore pe zi. Cu o postură greșită, cu spatele aplecat peste masă, după un an are dureri mari. De aceea a pus mesele de lucru la înălțimea potrivită pentru fiecare om și le arată tinerilor postura corectă: picioarele depărtate, spatele drept, cuțitul ținut aproape de corp.\n\nȘi mai ține la ordine. Fiecare loc de lucru trebuie să fie îngrijit: cuțitele la locul lor, cârpele curate, nimic pe jos. Comenzile sunt scrise pe o tablă, cu un scris îngrijit, ca să le poată citi oricine dintr-o privire.\n\n— O bucătărie îngrijită e o bucătărie liniștită, spune domnul Brănescu. Iar într-o bucătărie liniștită auzi tot.\n\nÎntrebări:\nCe visa domnul Brănescu în tinerețe?\nVisa să devină dirijor.\nCâți bucătari are în subordine?\nAre în subordine doisprezece bucătari.\nCe arată timbrul sfârâitului?\nTimbrul arată cât de fierbinte e uleiul din tigaie.\nDe ce ține domnul Brănescu la postura corectă?\nPentru că un bucătar stă în picioare zece ore pe zi și, cu o postură greșită, ajunge să aibă dureri mari.\nCe spune el despre utilaje?\nSpune că niciun utilaj nu înlocuiește urechea și nasul unui bucătar."
+    },
+    {
+      "title": "Audiția",
+      "summary": "An amateur cook writes in his diary about his audition for a TV cooking show, where he explains why eggs need low heat.",
+      "newWords": [
+        "audiție",
+        "prezentator",
+        "generic",
+        "faimă",
+        "nostim",
+        "fior",
+        "telecomandă",
+        "leșina"
+      ],
+      "text": "Joi, 14 martie\n\nAzi am fost la audiție. Scriu acum, seara, ca să nu uit nimic.\n\nEmisiunea se numește „Știință în farfurie” și o urmăresc de când eram la liceu. Știu genericul pe de rost: o melodie veselă, o ceapă care se taie singură și un ou care se sparge în aer. Ani la rând, duminică la ora 11, tata căuta telecomanda prin toată casa, iar eu fredonam deja genericul. Telecomanda era mereu sub o pernă.\n\nNu m-am înscris pentru faimă. Nu cred că un om care face omlete are nevoie de faimă. M-am înscris pentru că emisiunea caută oameni obișnuiți care pot explica de ce o rețetă reușește sau nu.\n\nAudiția a avut loc într-un studio mic din București. Am așteptat două ore pe un hol, cu alți treizeci de oameni. Când mi-au strigat numele, am simțit un fior pe spate. Mi s-a părut că voi leșina de emoție, deși nu am leșinat niciodată în viața mea.\n\nÎn studio era chiar prezentatorul emisiunii. La televizor pare serios; în realitate e foarte nostim. Mi-a povestit o întâmplare nostimă cu un tort care a căzut în timpul filmării, și m-am liniștit pe loc.\n\nAm avut zece minute să fac o omletă și să explic ce se întâmplă în tigaie. Am spus că oul e făcut în mare parte din apă și proteine. Proteinele sunt ca niște fire strânse ghem. Căldura le desface, iar firele desfăcute se leagă între ele și prind apa în mijloc. Dacă focul e mic, rețeaua se formează încet și omleta rămâne moale. Dacă focul e prea mare, rețeaua se strânge tare, apa iese afară, iar omleta devine tare și uscată.\n\nPrezentatorul a gustat, a tăcut puțin și a întrebat:\n\n— Și de ce ați pus sarea la început, nu la sfârșit?\n\nAm simțit iar fiorul acela. Dar știam răspunsul: sarea pusă mai devreme ajută proteinele să nu se strângă atât de tare, așa că omleta rămâne mai fragedă.\n\nPrezentatorul a zâmbit și a spus că vor să mă cheme din nou, pentru o probă la cameră. Am ieșit din studio și abia afară mi-am dat seama că îmi tremurau mâinile.\n\nDiseară, acasă, am pus emisiunea și am ascultat genericul cu alte urechi. Telecomanda am ținut-o eu.\n\nÎntrebări:\nCe emisiune urmărește autorul jurnalului de când era la liceu?\nUrmărește emisiunea „Știință în farfurie”.\nDe ce căuta tatăl lui telecomanda?\nO căuta ca să pună emisiunea, duminică la ora 11.\nS-a înscris autorul la audiție pentru faimă?\nNu, s-a înscris pentru că emisiunea caută oameni care pot explica rețetele.\nCum este prezentatorul în realitate?\nÎn realitate prezentatorul este foarte nostim.\nDe ce omleta rămâne moale la foc mic?\nPentru că rețeaua de proteine se formează încet și ține apa în mijloc."
+    },
+    {
+      "title": "Rețeta, propoziție cu propoziție",
+      "summary": "An interview with a food journalist about editing recipes, unofficial tests in her own kitchen and why she refuses sponsors who want their logo on her photos.",
+      "newWords": [
+        "jurnalism",
+        "editare",
+        "propoziție",
+        "neoficial",
+        "sponsor",
+        "logo",
+        "suporter"
+      ],
+      "text": "Doamna Zaharescu scrie despre mâncare de douăzeci de ani: la început în ziare, acum pe un site citit de mii de oameni în fiecare zi. Anul acesta a publicat și o carte de rețete. Am vorbit cu ea despre jurnalismul culinar și despre o muncă pe care cititorii nu o văd: editarea.\n\n— Doamnă Zaharescu, ce este jurnalismul culinar?\n\n— Același lucru ca orice jurnalism: verifici înainte să scrii. Dacă spun că o prăjitură crește în 30 de minute la 180 de grade, trebuie să fiu sigură. Altfel nu e jurnalism, e reclamă.\n\n— Cum arată editarea unei rețete?\n\n— Editarea durează mai mult decât scrisul. Mai întâi fac rețeta exact cum e scrisă, fără să adaug nimic din capul meu. Apoi o face altcineva, care nu a mai gătit-o niciodată. Uneori din acest test neoficial, în bucătăria mea, iese o rețetă cu totul nouă.\n\n— Aveți reguli pentru scris?\n\n— Una singură, foarte strictă: o propoziție, o acțiune. „Topiți untul.” „Adăugați zahărul.” „Amestecați două minute.” Când o propoziție are trei acțiuni, cititorul uită a doua. Și o propoziție nu începe niciodată cu „apoi”: în rețetă, ordinea propozițiilor arată deja ce urmează.\n\n— De ce contează atât de mult?\n\n— Pentru că o rețetă e un mic experiment de chimie. Dacă cititorul pune bicarbonatul după făină, nu înainte, prăjitura nu mai crește. Vina nu e a lui, e a celui care a scris.\n\n— Aveți sponsori pentru site?\n\n— Am avut un singur sponsor, o firmă de ulei. Voia ca logoul ei să apară pe fiecare fotografie. Am refuzat. Dacă un logo stă lângă rețeta mea de cartofi prăjiți, cititorul crede că recomand acel ulei. Acum trăiesc din abonamente mici și din carte. Nu mai caut sponsori.\n\n— Cititorii vă scriu?\n\n— Foarte mult. Și se ceartă ca suporterii a două echipe de fotbal. Unii sunt suporteri ai mămăligii moi, alții ai mămăligii tari. Când am scris că roșiile nu se țin în frigider, am primit sute de mesaje.\n\n— Ce le răspundeți?\n\n— Le explic de ce. Frigul strică moleculele care dau gustul roșiei. După asta, chiar și cei mai înfocați suporteri ai frigiderului încearcă măcar o dată. Rezultatul e un sondaj neoficial: cam jumătate îmi dau dreptate.\n\nÎntrebări:\nDespre ce muncă a vorbit doamna Zaharescu?\nA vorbit despre editarea rețetelor.\nCum arată testul neoficial al unei rețete?\nRețeta este făcută de doamna Zaharescu, apoi de cineva care nu a mai gătit-o niciodată.\nCare este regula ei pentru scris?\nO propoziție, o acțiune.\nDe ce a refuzat sponsorul?\nPentru că firma voia ca logoul ei să apară pe fiecare fotografie.\nCu cine îi compară doamna Zaharescu pe cititorii ei?\nÎi compară cu suporterii a două echipe de fotbal."
+    },
+    {
+      "title": "Brânza de la stână",
+      "summary": "A school group visits a shepherd in Maramureș and learns why the stable walls are painted with lime and how milk becomes cheese.",
+      "newWords": [
+        "păstor",
+        "grajd",
+        "var",
+        "pârâu",
+        "domestic",
+        "însoțitor",
+        "stoic"
+      ],
+      "text": "Într-o dimineață de iunie, douăzeci de elevi dintr-o școală din Maramureș au urcat pe deal, la stâna domnului Podaru. Cu ei a venit doamna Onciu, profesoară de biologie și însoțitoarea grupului. Ca însoțitoare, trebuia să numere copiii la fiecare cot al potecii; ca profesoară, voia să le arate cum se face brânza.\n\nDomnul Podaru este păstor de patruzeci de ani. Are trei sute de oi și doi câini mari și albi. Copiii l-au găsit lângă un grajd lung de lemn, cu pereții albi.\n\n— De ce sunt pereții albi? a întrebat un băiat.\n\n— Sunt dați cu var, a răspuns păstorul. Varul nu lasă bacteriile și ciupercile să crească pe lemn. Iarna oile stau în grajd, iar un grajd curat înseamnă animale sănătoase și lapte curat.\n\nDoamna Onciu a adăugat că varul face asta pentru că este exact opusul unui acid, cum e lămâia. Foarte puține bacterii pot trăi pe un perete dat cu var.\n\nApoi păstorul le-a arătat laptele de dimineață. Vasele mari de metal stăteau în apa rece a unui pârâu care curge chiar pe lângă stână.\n\n— Frigiderul meu e pârâul, a râs domnul Podaru. Apa pârâului are și vara cam zece grade. Laptele rece se strică mai greu.\n\nOaia, le-a explicat doamna Onciu, este unul dintre cele mai vechi animale domestice. Oamenii țin oi de aproape zece mii de ani. Animalele domestice au trăit atât de mult lângă om încât s-au schimbat: oile de azi au mai multă lână și mai mult lapte decât strămoșii lor sălbatici.\n\nPentru brânză, păstorul a încălzit laptele până la temperatura corpului și a pus în el puțin cheag. Cheagul conține o substanță care taie proteinele din lapte într-un anumit loc. Proteinele tăiate nu mai stau separate, ci se leagă între ele și formează o masă albă și moale. După o jumătate de oră, laptele lichid devenise un fel de gel. Păstorul l-a tăiat cu un cuțit lung, l-a strâns într-o pânză și l-a agățat de un cui. Lichidul gălbui care picura din pânză se bea la stână ca o băutură răcoritoare.\n\nÎntre timp a început să plouă. Copiii au fugit în grajd, dar domnul Podaru a rămas în ploaie, stoic, lângă pânza cu brânză, și a continuat să explice. Doamna Onciu le-a spus mai târziu elevilor că un păstor trebuie să fie stoic: stă afară pe orice vreme, de primăvara până toamna.\n\nLa plecare, fiecare elev a primit o bucată de brânză proaspătă. Însoțitoarea a numărat copiii încă o dată. Erau toți douăzeci.\n\nÎntrebări:\nCine era însoțitoarea grupului?\nÎnsoțitoarea grupului era doamna Onciu, profesoară de biologie.\nDe ce sunt pereții grajdului dați cu var?\nPentru că varul nu lasă bacteriile și ciupercile să crească pe lemn.\nUnde ține păstorul laptele de dimineață?\nÎl ține în apa rece a pârâului de lângă stână.\nCum s-au schimbat animalele domestice după mii de ani lângă om?\nOile de azi au mai multă lână și mai mult lapte decât strămoșii lor sălbatici.\nCe a făcut păstorul când a început ploaia?\nA rămas stoic în ploaie și a continuat să explice."
+    },
+    {
+      "title": "Dulceață la conac",
+      "summary": "At a renovated manor near Iași with an orchard on the southern slope, a food engineer explains how jam thickens and why apples turn brown.",
+      "newWords": [
+        "conac",
+        "renovare",
+        "municipalitate",
+        "livadă",
+        "sudic",
+        "carton",
+        "fast"
+      ],
+      "text": "Conacul de pe deal a fost construit acum aproape două sute de ani, la câțiva kilometri de Iași. După ce a stat gol multă vreme, municipalitatea l-a cumpărat și a plătit o renovare care a durat trei ani. Renovarea a păstrat zidurile groase, ferestrele înalte și bucătăria veche de la parter. Acum conacul are o sală de expoziții și un atelier de bucătărie, pe care municipalitatea îl închiriază pentru cursuri.\n\nÎn spatele conacului e o livadă cu meri și peri. Livada stă pe partea sudică a dealului. Pe un deal, partea sudică primește soare de dimineața până seara, așa că fructele adună mai mult zahăr decât cele din livezile de pe partea de nord.\n\nÎntr-o sâmbătă de septembrie, doamna Strătescu, inginer în industria alimentară, a ținut la conac un curs despre dulceață. Participanții au cules mai întâi merele și perele din livadă și le-au pus în cutii de carton. Cutiile de carton sunt mai bune decât pungile de plastic, le-a explicat ea, pentru că lasă aerul să circule și fructele rămân uscate.\n\nApoi a venit partea de știință. Fructele conțin pectină, o substanță care, fiartă cu zahăr și cu puțin acid, formează o rețea fină. Rețeaua ține apa în ea, iar dulceața devine groasă. Merele verzi au multă pectină; perele au mai puțină. De aceea, în dulceața de pere se pune adesea o bucată de măr verde. Zahărul are și el un rol: leagă apa, iar bacteriile nu mai au cu ce să trăiască. Un borcan de dulceață bine închis poate sta un an în casă.\n\nCând au tăiat merele, participanții au observat că bucățile devin repede maro. Doamna Strătescu le-a spus că e o reacție cu oxigenul din aer și că o picătură de lămâie o încetinește.\n\nPe un perete al bucătăriei, în timpul renovării, muncitorii au găsit o listă veche, scrisă de mână, cu mâncărurile unei cine din 1890. Familia care a construit conacul dădea mese cu mult fast: zeci de invitați, muzică și opt feluri de mâncare. Printre ele erau trei feluri de dulceață din livadă. Fastul de atunci a dispărut, dar dulceața de mere se face și azi la fel.\n\nSeara, fiecare participant a plecat cu un borcan de dulceață, pus într-o cutie mică de carton.\n\nÎntrebări:\nCine a plătit renovarea conacului?\nMunicipalitatea a plătit renovarea.\nDe ce au fructele din livadă mult zahăr?\nPentru că livada stă pe partea sudică a dealului, unde soarele bate toată ziua.\nDe ce sunt mai bune cutiile de carton decât pungile de plastic?\nPentru că lasă aerul să circule și fructele rămân uscate.\nDe ce devine groasă dulceața?\nPentru că pectina, fiartă cu zahăr și acid, formează o rețea care ține apa.\nCum erau mesele de pe vremuri de la conac?\nErau mese cu mult fast, cu zeci de invitați și opt feluri de mâncare."
+    },
+    {
+      "title": "Bucătăria pe roți",
+      "summary": "Two former office colleagues in Timișoara register an old van as a food truck, survive a night without power and switch to quiet induction cooking.",
+      "newWords": [
+        "înmatriculare",
+        "poluare",
+        "lanternă",
+        "catastrofă",
+        "insuficient"
+      ],
+      "text": "Doamna Sbârcea și doamna Ciuhat au fost colege de birou timp de zece ani. Anul trecut au renunțat la birou și au cumpărat o dubă veche, pe care au transformat-o într-o bucătărie pe roți. Acum vând clătite și supe la târgurile și festivalurile din Timișoara.\n\nPrimul pas a fost înmatricularea. O bucătărie pe roți este, înainte de toate, o mașină. Duba a trebuit verificată din nou, iar în certificatul de înmatriculare a apărut ca vehicul special. Înmatricularea a durat o lună și a costat mai mult decât credeau.\n\nAl doilea pas a fost curentul. În prima vară au lucrat cu un generator. Generatorul făcea zgomot și mirosea urât, iar oamenii care stăteau la coadă respirau fumul lui. Doamna Sbârcea citise că poluarea aerului din orașe vine în mare parte din motoare. Nu voia ca bucătăria lor să adauge poluare chiar lângă mâncare.\n\nApoi a venit seara pe care o numesc acum „catastrofa”. La un festival de muzică, în august, generatorul s-a oprit de tot. Era întuneric, iar la coadă așteptau treizeci de oameni. Au terminat comenzile la lumina a două lanterne: o lanternă legată de raft și una ținută de doamna Ciuhat deasupra plitei. Catastrofa a avut totuși un final bun: clienții au râs, au așteptat și au primit clătite gratis.\n\nÎn iarnă au schimbat totul. Au pus baterii mari și plite cu inducție. La început, puterea bateriilor a fost insuficientă: nu puteau folosi concomitent două plite și frigiderul. Atunci s-au documentat. Pe o plită cu gaz, mare parte din căldură se pierde în aer, pe lângă oală. O plită cu inducție nu se încălzește ea însăși. Sub suprafața ei este o bobină care creează un câmp magnetic. Câmpul produce un curent chiar în fundul oalei de metal, iar oala se încălzește din interior. Aproape toată energia ajunge în mâncare.\n\nCu această schimbare, aceleași baterii, care fuseseră insuficiente, au ajuns pentru o zi întreagă. Duba nu mai face zgomot, iar poluarea de lângă coadă a dispărut. O singură regulă au păstrat din vara cu generatorul: în sertarul de sub plită stă mereu o lanternă.\n\nÎntrebări:\nCare a fost primul pas pentru bucătăria pe roți?\nPrimul pas a fost înmatricularea dubei.\nDe ce nu voia doamna Sbârcea să folosească generatorul?\nPentru că făcea zgomot, mirosea urât și aducea poluare lângă mâncare.\nCe s-a întâmplat în seara numită „catastrofa”?\nGeneratorul s-a oprit, iar ele au terminat comenzile la lumina a două lanterne.\nDe ce a fost la început puterea bateriilor insuficientă?\nPentru că nu puteau folosi concomitent două plite și frigiderul.\nCum se încălzește o oală pe o plită cu inducție?\nCâmpul magnetic produce un curent în fundul oalei, iar oala se încălzește din interior."
+    },
+    {
+      "title": "Peștele fără teamă",
+      "summary": "A guesthouse cook in Tulcea shows a nervous guest how to deal with bony fish, cooks fish soup by gentle passive heat and explains why shrimp turn coral red.",
+      "newWords": [
+        "osos",
+        "putință",
+        "pasiv",
+        "coral"
+      ],
+      "text": "Doamna Avădanei ține de 15 ani o casă de oaspeți la marginea orașului Tulcea. Oaspeții vin pentru apă, pentru păsări și, mai ales, pentru pește. Mulți au însă aceeași frică: oasele.\n\n— Cei mai mulți oaspeți de la oraș se tem de peștele osos, spune ea. Au mâncat odată un pește plin de oase mici și nu au uitat.\n\nUnul dintre ei a fost domnul Hrișcu, venit din București pentru o săptămână. În prima seară a cerut doar cartofi. A doua zi, doamna Avădanei l-a chemat în bucătărie.\n\nPeștii din râu, i-a explicat ea, sunt adesea pești osoși. Pe lângă coloană, un pește osos are zeci de oase mici și subțiri, ascunse în carne. Nu e cu putință să le scoți pe toate cu mâna. De aceea ea face cu cuțitul tăieturi foarte dese, aproape lipite una de alta, fără să ajungă până la piele. Oasele mici se taie astfel în bucăți atât de scurte încât, după ce peștele e prăjit, nu se mai simt.\n\nPentru supă, doamna Avădanei folosește o metodă pe care o numește „gătit pasiv”. Aduce apa la fiert, pune bucățile de pește, stinge focul și pune capacul. Peștele se face pasiv, doar în căldura apei, în zece minute. Metoda pasivă păstrează carnea întreagă. Proteinele peștelui se strâng la temperaturi mult mai mici decât cele ale cărnii de porc. Dacă supa fierbe tare, carnea se rupe în bucăți mici și devine uscată.\n\nSeara, doamna Avădanei a pregătit creveți cruzi, cumpărați de la piață. I-a pus în apă care fierbea, chiar în fața domnului Hrișcu. În mai puțin de un minut, creveții, gri la început, au devenit de culoarea coralului. Ea i-a explicat de ce. În coaja lor există o substanță roșie. În creveții cruzi, substanța stă legată de o proteină și pare gri. Căldura desface proteina, iar culoarea adevărată iese la suprafață, roșie ca un coral.\n\nLa sfârșitul săptămânii, domnul Hrișcu a mâncat pește prăjit, tăiat des de doamna Avădanei.\n\n— Nu e cu putință, a spus el. Nu simt niciun os.\n\nFrica lui veche dispăruse.\n\nÎntrebări:\nDe ce le e teamă multor oaspeți ai doamnei Avădanei?\nLe e teamă de oasele peștelui osos.\nDe ce taie doamna Avădanei carnea foarte des?\nPentru că așa oasele mici se taie în bucăți scurte, care nu se mai simt după ce peștele e prăjit.\nCe înseamnă „gătit pasiv”?\nPeștele se face doar în căldura apei, după ce focul e stins.\nDe ce au devenit creveții de culoarea coralului?\nPentru că, în apa fierbinte, substanța roșie din coajă s-a desprins de proteină.\nCe a spus domnul Hrișcu la sfârșitul săptămânii?\nA spus că nu e cu putință și că nu simte niciun os."
+    },
+    {
+      "title": "Supa de confort",
+      "summary": "A short essay weighs whether comfort food works through chemistry or through the care of the person who cooks it.",
+      "newWords": [
+        "confort",
+        "filozofic",
+        "șosetă",
+        "nespus",
+        "simpatie"
+      ],
+      "text": "De ce ne face bine o farfurie de supă caldă într-o seară de noiembrie? Întrebarea pare simplă, dar are și o latură aproape filozofică: când mâncăm, hrănim doar corpul sau și altceva?\n\nȘtiința are, mai întâi, câteva explicații clare. O supă caldă încălzește corpul din interior, iar căldura ne relaxează mușchii. Mirosul ajunge foarte repede în părțile creierului care păstrează amintirile și emoțiile. De aceea mirosul unei supe de pui ne poate întoarce, într-o clipă, în bucătăria în care am crescut. Psihologii numesc asemenea feluri „mâncare de confort”. Confortul pe care îl simțim nu e o închipuire: corpul se liniștește, respirăm mai rar și mai adânc.\n\nMâncarea de confort e pentru stomac ce sunt șosetele groase de lână pentru picioare. Nu le admiră nimeni și nu apar în fotografii. Dar într-o seară rece de iarnă nu ai da o pereche de șosete calde pe nimic.\n\nUn prieten de-al meu, profesor de filozofie, nu este de acord că totul ține de chimie. Pentru el, întrebarea e filozofică în sensul strict al cuvântului. O supă de la un automat nu ne dă același confort ca o supă făcută de cineva care s-a gândit la noi. Ingredientele sunt aceleași; diferența e simpatia. Știm că omul acela a stat o oră lângă oală pentru noi, iar această simpatie, spune prietenul meu, se simte în fiecare lingură.\n\nȘi această idee are susținători printre cercetători. Din câteva experimente reiese că oamenii găsesc mai gustoasă o prăjitură când află că a fost făcută cu grijă, de mână, chiar dacă rețeta e aceeași. Simpatia pentru cel care gătește schimbă, se pare, chiar și gustul.\n\nCred că ambele explicații sunt adevărate. Căldura și mirosul fac partea lor, iar povestea din spatele farfuriei o face pe a ei. Bunica mea nu știa nimic despre creier sau despre mușchi. Știa doar că, atunci când veneam la ea înghețat de la școală, trebuia să-mi dea o supă și o pereche de șosete uscate. Bucuria pe care o simțeam atunci era nespusă, adică nu am spus-o niciodată cu voce tare. Poate de aceea mâncarea de confort ne mișcă atât de mult: spune un lucru nespus, pe care nu știm să-l spunem altfel.\n\nÎntrebări:\nCe latură are întrebarea despre supa caldă?\nAre o latură aproape filozofică.\nCum explică știința confortul pe care ni-l dă o supă?\nCăldura ne relaxează mușchii, iar mirosul ajunge repede în părțile creierului care păstrează amintirile.\nCu ce compară autorul mâncarea de confort?\nO compară cu o pereche de șosete groase de lână.\nCe crede prietenul autorului despre supa făcută de cineva drag?\nCrede că diferența o face simpatia celui care a gătit.\nCe i-a dat bunica autorului când venea înghețat de la școală?\nI-a dat o supă și o pereche de șosete uscate."
+    }
+  ]
+}
