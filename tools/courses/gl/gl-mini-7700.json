@@ -1,0 +1,206 @@
+{
+  "id": "gl-mini-7700",
+  "rankUpTo": 7700,
+  "level": "C1",
+  "title": "Inventos e inventores",
+  "description": "Ten texts about inventions and the people behind them: penicillin, a home-made telescope, tungsten filaments, Gutenberg's type, the clapperboard, the skateboard, the steamships of emigration, small everyday inventions, a sawmill's dust extractor and a home cholesterol test.",
+  "topic": "Inventions and inventors",
+  "names": [
+    "Lavinia",
+    "Abeijón",
+    "Santiago",
+    "Alexander",
+    "Fleming",
+    "Londres",
+    "Oxford",
+    "Nobel",
+    "Rosindo",
+    "Ventosela",
+    "Monforte",
+    "Hans",
+    "Lippershey",
+    "Middelburg",
+    "Xúpiter",
+    "Yara",
+    "Courel",
+    "Inocencio",
+    "Brenlla",
+    "Valdeorras",
+    "Thomas",
+    "Edison",
+    "Galicia",
+    "América",
+    "Lugo",
+    "Xenxa",
+    "Candal",
+    "Erasmo",
+    "Iribarren",
+    "Maguncia",
+    "Johannes",
+    "Gutenberg",
+    "Ourense",
+    "Hebe",
+    "Lusquiños",
+    "Zacarías",
+    "Burela",
+    "Tomasiña",
+    "Ferrol",
+    "Canido",
+    "California",
+    "Gorgonio",
+    "Ailén",
+    "Teixugueira",
+    "Montevideo",
+    "Xustás",
+    "Vigo",
+    "Italia",
+    "Europa",
+    "Charles",
+    "Forster",
+    "Boston",
+    "Berlín",
+    "Suramérica",
+    "Tim",
+    "Berners",
+    "Xenebra",
+    "Nunila",
+    "Amarante",
+    "Lalín",
+    "Aldemar",
+    "Xovita",
+    "Ocampo",
+    "Coruña",
+    "Sesinanda"
+  ],
+  "lessons": [
+    {
+      "title": "O prato esquecido",
+      "summary": "A microbiology lecturer in Santiago tells her students every year how Alexander Fleming found penicillin in a dish he had left unwashed.",
+      "newWords": [
+        "penicilina",
+        "involuntariamente",
+        "neglixencia",
+        "lucidez",
+        "elemental",
+        "creto"
+      ],
+      "text": "Lavinia Abeijón dá clases de microbioloxía na universidade de Santiago. Todos os anos, o primeiro día do curso, conta aos seus alumnos a mesma historia: como se descubriu a penicilina. Di que é a mellor lección que coñece sobre a ciencia, porque ensina que un descoido pode ser o comezo dun gran descubrimento, se alguén o sabe mirar.\n\nEn 1928, o médico Alexander Fleming traballaba nun laboratorio de Londres. Estudaba unhas bacterias que causan infeccións na pel e na gorxa, e cultivábaas en pequenos pratos de vidro. En agosto marchou de vacacións e deixou varios pratos enriba da mesa, sen lavar. Non o fixo a propósito: deixounos alí involuntariamente, coa présa da viaxe. Hoxe calquera laboratorio consideraría aquilo unha neglixencia, e Lavinia sempre o di aos seus alumnos: «Non o fagades vós. Unha neglixencia así, nun laboratorio de hoxe, estragaría o traballo de semanas.»\n\nCando Fleming volveu en setembro, viu que nun dos pratos crecera un fungo verde, coma o que sae no pan vello. Arredor do fungo non había bacterias. Outro científico tiraría o prato ao lixo, convencido de que a súa neglixencia lle estragara o experimento. Fleming, en cambio, parou a miralo con lucidez e fixo unha pregunta elemental: por que non crecen as bacterias preto do fungo? A resposta era que o fungo producía unha substancia que lles impedía crecer. Fleming chamoulle penicilina, polo nome latino do fungo.\n\nAo principio, poucos colegas lle deron creto. Fleming publicou o descubrimento en 1929, pero a penicilina era moi difícil de producir en cantidade, e durante dez anos case ninguén lle deu creto á idea de usala como medicamento. Só en 1940 un equipo de Oxford conseguiu purificala e probala con enfermos. Os resultados foron tan claros que xa ninguén lle negou o creto, e en 1945 Fleming e dous dos investigadores de Oxford recibiron o Premio Nobel de Medicina.\n\nLavinia explica que a lucidez de Fleming non foi só sorte. Moitos viran fungos nos seus pratos e tiráranos sen pensar. Fleming fixo a pregunta elemental que ninguén facía. Por iso, ao final da clase, Lavinia pide aos alumnos que traian ao día seguinte unha pregunta elemental sobre algo que viron involuntariamente, sen buscalo. «As preguntas sinxelas», dilles, «son as que levan máis lonxe.»\n\nPreguntas:\nQue conta Lavinia todos os anos?\nConta como se descubriu a penicilina.\nPor que quedaron os pratos sen lavar no laboratorio de Fleming?\nPorque Fleming os deixou alí involuntariamente, coa présa das vacacións.\nQue pregunta elemental fixo Fleming?\nPreguntou por que non crecían as bacterias preto do fungo.\nDéronlle creto axiña os colegas?\nNon. Durante dez anos case ninguén lle deu creto á idea de usar a penicilina como medicamento.\nQue pide Lavinia aos alumnos ao final da clase?\nPídelles que traian unha pregunta elemental sobre algo que viron involuntariamente."
+    },
+    {
+      "title": "Unha noite no Courel",
+      "summary": "A retired teacher takes his niece up a mountain in winter to look at the sky through the telescope he built, and explains what a star's magnitude is.",
+      "newWords": [
+        "telescopio",
+        "magnitude",
+        "invernal",
+        "gabán",
+        "pesimista",
+        "inaccesible"
+      ],
+      "text": "Rosindo Ventosela foi mestre de física en Monforte durante trinta anos. Agora está xubilado e ten un pasatempo que o ocupa case todas as noites claras: a astronomía. Hai dous anos construíu el mesmo un telescopio, cun tubo de cartón grosso, dúas lentes que mercou por internet e un pé de madeira que lle fixo un veciño carpinteiro.\n\nA Rosindo gústalle contar que o telescopio non o inventou un sabio, senón un fabricante de lentes de Middelburg, Hans Lippershey, que en 1608 pediu permiso para vender un tubo que facía ver próximas as cousas afastadas. Poucos meses despois, outros científicos apuntaron os seus telescopios ao ceo e viron por primeira vez as montañas da Lúa e os satélites de Xúpiter.\n\nEste xaneiro, Rosindo convidou a súa sobriña Yara a pasar unha noite con el nunha aldea alta do Courel, lonxe das luces das vilas. No inverno a estrada que sobe á aldea está ás veces cuberta de xeo e queda case inaccesible. Esa tarde, porén, estaba limpa, e subiron no coche de Rosindo con moito coidado.\n\nYara é unha rapaza pesimista. Mentres subían, miraba as nubes e repetía que non ían ver nada. «Para que levas o telescopio, tío? O ceo vai cubrirse», dicía. Rosindo, que xa coñecía o seu carácter pesimista, só sorría.\n\nCando chegaron, facía un frío invernal. Rosindo púxose o seu vello gabán de la, longo ata os xeonllos, e deulle a Yara outro gabán que levaba no maleteiro. As nubes, a pouco e pouco, foron marchando cara ao leste, e o ceo quedou limpo e negro.\n\nAntes de mirar polo telescopio, Rosindo explicoulle que é a magnitude dunha estrela: un número que indica canto brilla vista desde a Terra. Canto menor é o número, máis brilla a estrela. A simple vista, nunha noite escura, pódense ver estrelas ata a magnitude seis. Co seu pequeno telescopio, Rosindo chega a ver estrelas de magnitude once; para os ollos sós, esas estrelas son un mundo inaccesible.\n\nYara mirou Xúpiter e os seus catro satélites máis grandes, catro puntos de luz en liña. Logo mirou unha nebulosa que parecía unha nube de fume moi pequena. Esqueceu o frío invernal e estivo case dúas horas co ollo no telescopio. Cando baixaron, ás dúas da mañá, xa non estaba pesimista: quería volver a semana seguinte.\n\nPreguntas:\nComo construíu Rosindo o seu telescopio?\nConstruíuno cun tubo de cartón, dúas lentes e un pé de madeira.\nQuen inventou o telescopio?\nUn fabricante de lentes de Middelburg, Hans Lippershey, en 1608.\nPor que é ás veces inaccesible a aldea no inverno?\nPorque a estrada está cuberta de xeo.\nPor que se puxo Rosindo o gabán?\nPorque facía un frío invernal.\nQue indica a magnitude dunha estrela?\nIndica canto brilla a estrela vista desde a Terra.\nComo estaba Yara ao final da noite?\nXa non estaba pesimista e quería volver."
+    },
+    {
+      "title": "A luz que veu da mina",
+      "summary": "A guide at a small mining museum explains how tungsten from mines like his gave light bulbs their filament, and how nickel went into Edison's batteries.",
+      "newWords": [
+        "volframio",
+        "níquel",
+        "pirita",
+        "lodo",
+        "industrialización",
+        "modernidade"
+      ],
+      "text": "Inocencio Brenlla traballa de guía nun pequeno museo mineiro de Valdeorras, nunha antiga mina de volframio que pechou nos anos sesenta. O museo abriu hai cinco anos porque unha fundación e os veciños, que querían conservar a memoria do lugar, decidiron financiar as obras. Se ninguén as financiase, a mina sería hoxe só un buraco no monte.\n\nA visita empeza na entrada da galería principal. Inocencio dálles a cada visitante un casco cunha lanterna e unhas botas de auga, porque o chan da galería está cuberto de lodo. «Os mineiros traballaban así todos os días», explica, «co lodo ata os nocelos e a auga pingando do teito.»\n\nNo fondo da galería, Inocencio apunta a lanterna á parede. Entre a pedra escura brillan uns cristais amarelos. Os visitantes cren sempre que é ouro, e Inocencio ri. «É pirita», dilles. «Parece ouro, pero vale moito menos, e engana a quen non a coñece.» A pirita aparece moitas veces xunto ao volframio, e os mineiros aprendían axiña a distinguila.\n\nDespois, xa fóra, no edificio do museo, Inocencio conta por que se buscaba tanto aquel metal gris e pesado. En 1879 Thomas Edison presentou unha lámpada eléctrica cun fío de carbón no interior. Funcionaba, pero o fío duraba pouco. Anos máis tarde, os enxeñeiros descubriron que un fío de volframio resistía moita máis calor e daba unha luz máis branca. Desde entón, durante case un século, as lámpadas do mundo enteiro tiveron un fío de volframio.\n\nEdison inventou tamén unha batería de níquel e ferro, moi resistente, que se usou en coches e en trens. Inocencio ensina unha desas baterías nunha vitrina e explica que o níquel se sacaba doutras minas, lonxe de Galicia.\n\nPara Inocencio, a mina é un exemplo de como a industrialización chegou a un val de labregos. Coa mina veu a primeira estrada asfaltada, o primeiro médico e as primeiras casas con luz eléctrica. A luz da lámpada era o gran símbolo da modernidade, e os veciños vían como saía do seu monte o metal que a facía posible. A industrialización tamén trouxo traballo duro e moito lodo, recoñece Inocencio, pero cambiou a vida do val para sempre.\n\nAo final, cada visitante pode levar un anaco pequeno de pirita. «Para que lembredes que non todo o que brilla é ouro», di Inocencio, «e que a modernidade tamén saíu destes montes.»\n\nPreguntas:\nDe que era a antiga mina de Valdeorras?\nEra unha mina de volframio.\nQuen financiou o museo?\nFinanciárono unha fundación e os veciños do val.\nPor que levan botas os visitantes?\nPorque o chan da galería está cuberto de lodo.\nPor que se buscaba tanto o volframio?\nPorque un fío de volframio resistía moita calor e daba unha luz branca nas lámpadas.\nQue inventou Edison co níquel?\nInventou unha batería de níquel e ferro.\nQue poden levar os visitantes ao final?\nCada un pode levar un anaco pequeno de pirita."
+    },
+    {
+      "title": "Letras de chumbo",
+      "summary": "A travelling exhibition on printing comes to Lugo, and an old typesetter shows pupils how Gutenberg cast letters in a mould and prints them a newspaper masthead.",
+      "newWords": [
+        "itinerante",
+        "matriz",
+        "mistura",
+        "cabeceira",
+        "predisposición"
+      ],
+      "text": "Este outono chegou a Lugo unha exposición itinerante sobre a historia da imprenta. Leva tres anos de viaxe: pasou por once cidades e quedará en Lugo ata decembro, antes de seguir para Ourense. Unha exposición itinerante ten que caber en camións, así que todo, desde as vitrinas ata as máquinas, desmóntase e móntase de novo en cada cidade.\n\nXenxa Candal, unha profesora xubilada, coordina as visitas escolares. Ela fala cos colexios, fai os horarios e busca voluntarios. Coordinar tantas visitas non é fácil: hai días en que chegan catro grupos á vez. O voluntario máis querido polos rapaces é Erasmo Iribarren, que traballou corenta anos de tipógrafo nunha imprenta da cidade.\n\nErasmo empeza sempre pola historia. Cara a 1450, en Maguncia, Johannes Gutenberg tivo unha idea sinxela e xenial: en vez de gravar páxinas enteiras en madeira, fabricar cada letra por separado, en metal, para poder usala moitas veces. Primeiro gravaba a letra en relevo na punta dunha barra de aceiro. Con esa barra golpeaba unha peza de cobre brando, e a letra quedaba marcada en oco: esa peza era a matriz. Logo enchía a matriz cunha mistura de chumbo, estaño e antimonio, quente e líquida. Ao arrefriar, a mistura endurecía e saía unha letra perfecta. Coa mesma matriz podíanse facer centos de letras iguais.\n\nErasmo ensina aos rapaces unha matriz auténtica, pequena coma unha uña, e unha caixa chea de letras de chumbo. Despois colle un compoñedor e, letra a letra, ao revés, compón o nome dun xornal inventado. Cando entinta as letras e preme o papel, aparece unha cabeceira en letras grandes: «O Eco da Muralla». Os rapaces aplauden. Cada un leva unha folla coa cabeceira e debaixo o seu propio nome.\n\nXenxa observa que os alumnos que veñen coa mellor predisposición non son sempre os que máis saben de ordenadores. Algúns rapaces que nas aulas se aburren pasan media hora sen se mover diante da caixa de letras. Erasmo di que para ser tipógrafo cómpre unha predisposición especial: paciencia, boa vista e gusto polas cousas pequenas. «Unha coma mal posta», lembra, «estragaba toda a páxina.»\n\nAo saír, moitos rapaces pregúntanlle a Xenxa onde estará a exposición itinerante o ano que vén, porque queren que a vexan os seus irmáns.\n\nPreguntas:\nPor que se desmonta en cada cidade a exposición?\nPorque é unha exposición itinerante e ten que viaxar en camións.\nQuen coordina as visitas escolares?\nCoordínaas Xenxa Candal, unha profesora xubilada.\nQue era a matriz na imprenta de Gutenberg?\nEra unha peza de cobre coa letra marcada en oco.\nDe que era a mistura que enchía a matriz?\nEra unha mistura de chumbo, estaño e antimonio.\nQue leva cada rapaz ao final?\nLeva unha folla coa cabeceira dun xornal inventado e o seu nome.\nQue predisposición cómpre para ser tipógrafo, segundo Erasmo?\nCómpre paciencia, boa vista e gusto polas cousas pequenas."
+    },
+    {
+      "title": "Primeira toma",
+      "summary": "A young director shows her short film at a film festival in Ourense; she tells how the clapperboard was invented, and her lead actor arrives by hitchhiking.",
+      "newWords": [
+        "festival",
+        "claqueta",
+        "elenco",
+        "melodrama",
+        "realismo",
+        "autostop",
+        "troula"
+      ],
+      "text": "Hebe Lusquiños ten vinte e seis anos e acaba de rodar a súa primeira curtametraxe. Este novembro foi seleccionada para o festival de cine de Ourense, e Hebe está nerviosa: é a primeira vez que vai ver a súa película nunha sala chea de descoñecidos.\n\nO día antes da proxección, o festival organizou un encontro cos novos directores. Hebe levou un obxecto que lle regalou o seu profesor de cine: unha vella claqueta de madeira, coas raias brancas e negras gastadas. Explicou ao público para que serve a claqueta. Cando o cine empezou a ter son, a finais dos anos vinte, a imaxe e o son gravábanse en máquinas distintas. Para xuntalos despois, alguén tiña que dar un sinal que se vise e se oíse á vez. A claqueta fai exactamente iso: no momento en que se pecha, óese un golpe seco e vese o pau baixando. Na montaxe abonda con xuntar ese golpe e esa imaxe. Hoxe as cámaras son dixitais, pero a claqueta segue en todas as rodaxes.\n\nO elenco da curtametraxe é pequeno: tres actores. Hebe quixo un elenco de xente da súa vila, e só o actor principal, Zacarías, é profesional. A película conta un día na vida dun pescador de Burela que ten que vender o seu barco. Hebe explicou que fuxiu do melodrama: non hai música triste nin bágoas longas. Busca o realismo, e por iso rodou no porto de verdade, coa luz da mañá e o ruído das gaivotas. «O melodrama dille ao público o que ten que sentir», dixo. «O realismo déixao sentir pola súa conta.»\n\nO día da proxección, Zacarías tivo un problema: avariouse o seu coche na estrada, a corenta quilómetros de Ourense. Non había autobuses ata a noite, así que fixo autostop. Ninguén parou durante media hora. Despois parou unha furgoneta dunha panadaría, e Zacarías chegou ao festival con cheiro a pan e dez minutos antes de empezar. Ao público fíxolle graza saber que o actor principal viñera en autostop.\n\nA curtametraxe gustou moito. Ao final da semana, o xurado deulle o premio á mellor interpretación a Zacarías, e Hebe recibiu unha mención polo realismo da película. Esa noite houbo troula na praza Maior: un grupo tocou música tradicional, a xente bailou ata a medianoite e os directores repartiron castañas asadas. Na troula, Hebe e Zacarías xa falaban da segunda película.\n\nPreguntas:\nOnde se proxectou a curtametraxe de Hebe?\nNo festival de cine de Ourense.\nPara que serve a claqueta?\nServe para xuntar despois a imaxe e o son dunha toma.\nComo é o elenco da película?\nÉ pequeno: tres actores, e só Zacarías é profesional.\nPor que fuxiu Hebe do melodrama?\nPorque busca o realismo e quere que o público sinta pola súa conta.\nComo chegou Zacarías ao festival?\nFixo autostop e levouno unha furgoneta dunha panadaría.\nQue houbo na praza Maior a noite do premio?\nHoubo troula, con música tradicional, baile e castañas asadas."
+    },
+    {
+      "title": "Unha táboa con rodas",
+      "summary": "A girl in Ferrol builds her own skateboard, ignores her classmates' jokes, gets a helmet from her grandfather and helps get the old skate park repaired.",
+      "newWords": [
+        "monopatín",
+        "mofa",
+        "tolada",
+        "indisciplinado",
+        "inconsciencia",
+        "rehabilitación"
+      ],
+      "text": "Tomasiña ten catorce anos e vive en Ferrol, no barrio de Canido. Na primavera viu nun vídeo a historia do monopatín: nos anos cincuenta, en California, uns surfistas que non tiñan ondas os días de calma colleron táboas de madeira, pegáronlles debaixo as rodas dos patíns e empezaron a baixar polas rúas en pendente. Así naceu o monopatín, como un xeito de facer surf sen mar.\n\nTomasiña decidiu construír o seu propio monopatín. Atopou no faiado unha táboa vella, lixouna durante unha tarde enteira e mercou catro rodas e dous eixes cos cartos do seu aniversario. Cando o levou ao instituto, algúns compañeiros fixeron mofa del: dicían que parecía un caixón con rodas. Tomasiña non lles fixo caso. A mofa durou pouco, porque á semana seguinte xa baixaba a rúa máis rápido ca todos eles.\n\nO seu avó Gorgonio, que vive con eles, ao principio pensou que aquilo era unha tolada. «Na túa idade eu xogaba á pelota, que non ten rodas», dicía. Pero un día viu a neta caer nunha curva e levantarse cun xeonllo raspado, e entendeu que o problema non era o monopatín. «Andar sen casco é unha inconsciencia», díxolle. Ao día seguinte regaloulle un casco e unhas protectoras para os cóbados. Desde entón Tomasiña nunca sae sen eles, e o avó xa non fala de tolada.\n\nNo barrio había unha pista vella para monopatíns, chea de fochancas e de herba. Os veciños de máis idade queixábanse dos rapaces que a usaban: dicían que eran un grupo indisciplinado, que facían ruído e baixaban polas beirarrúas. Tomasiña pensou que, se tivesen unha pista en bo estado, ninguén tería que andar polas beirarrúas. Escribiu cos seus amigos unha carta ao concello pedindo a rehabilitación da pista, e recolleron douscentas sinaturas no mercado.\n\nA rehabilitación levou tres meses. Agora a pista ten o chan novo, bancos e unha norma escrita á entrada: casco obrigatorio. Os mesmos veciños que antes falaban dun grupo indisciplinado van os domingos mirar os rapaces. O avó Gorgonio tamén vai, senta nun banco e aplaude cada vez que a neta dá un salto. Algún dos compañeiros que fixeran mofa do seu monopatín pídelle agora que lle ensine.\n\nPreguntas:\nComo naceu o monopatín, segundo o vídeo?\nNaceu en California, cando uns surfistas puxeron rodas a táboas de madeira para facer surf sen mar.\nQue fixeron algúns compañeiros cando Tomasiña levou o monopatín?\nFixeron mofa del e dicían que parecía un caixón con rodas.\nQue pensaba ao principio o avó Gorgonio?\nPensaba que o monopatín era unha tolada.\nPor que lle regalou o avó un casco?\nPorque andar sen casco é unha inconsciencia.\nQue pediron Tomasiña e os seus amigos ao concello?\nPediron a rehabilitación da pista vella do barrio.\nQue din agora os veciños dos rapaces?\nXa non falan dun grupo indisciplinado e van mirar os rapaces os domingos."
+    },
+    {
+      "title": "O camarote da proa",
+      "summary": "A historian in Montevideo follows the voyage her great-grandfather made from Vigo in 1910 on a steamship, and how he later found work as an engine driver.",
+      "newWords": [
+        "emigración",
+        "inmigración",
+        "camarote",
+        "proa",
+        "lona",
+        "maquinista",
+        "florecente"
+      ],
+      "text": "Ailén Teixugueira é historiadora e vive en Montevideo. Estuda a emigración galega a América, e hai uns anos empezou a investigar a historia da súa propia familia. Na casa da súa nai gardábase unha caixa de lata con papeis do seu bisavó Xustás, que chegou ao porto de Montevideo en 1910, con dezanove anos.\n\nNa caixa había un billete do barco que saíra de Vigo. Ailén explica que a gran emigración galega do século XX non se entendería sen un invento: o barco de vapor. Os vellos veleiros, coas súas grandes velas de lona, dependían do vento e podían tardar dous meses en cruzar o Atlántico. Os vapores facían a viaxe en dúas ou tres semanas, cun horario fixo e prezos máis baixos. Moitos vapores aínda levaban algunha lona, para cubrir as cargas da cuberta, pero xa non necesitaban o vento.\n\nO billete de Xustás era de terceira clase. Ailén atopou nun arquivo os planos do barco e descubriu onde viaxara o seu bisavó: nun camarote da proa, baixo a cuberta, con oito camas e unha soa fiestra redonda. Na proa o movemento das ondas nótase máis, e Xustás contaba que os primeiros días non puido comer nada. No mesmo camarote ían outros mozos da súa comarca, e algúns deles foron amigos seus para sempre.\n\nMontevideo era entón unha cidade florecente. O porto crecía, abríanse fábricas e tendas, e a inmigración chegaba de Galicia, de Italia e doutros países de Europa. A inmigración galega era tan numerosa que nalgúns barrios se oía falar galego en cada esquina. Xustás traballou primeiro nun almacén do porto. Alí coñeceu un mecánico que o levou ao taller dos tranvías, e en cinco anos chegou a ser maquinista. Como maquinista conducía un dos primeiros tranvías eléctricos da cidade, e sempre contaba que desde a súa cabina vía o mar.\n\nAilén conserva a gorra de maquinista do seu bisavó nunha vitrina do seu despacho. Cando dá conferencias sobre a emigración, ensina o billete, os planos do camarote e a gorra. Di que a historia da inmigración está feita de millóns de historias pequenas coma esta: unha viaxe na proa dun vapor, un traballo no porto e unha vida nova nunha cidade florecente.\n\nPreguntas:\nQue estuda Ailén Teixugueira?\nEstuda a emigración galega a América.\nPor que foi tan importante o barco de vapor para a emigración?\nPorque facía a viaxe en dúas ou tres semanas, cun horario fixo e prezos máis baixos.\nPara que servían as velas de lona nos vellos veleiros?\nOs veleiros movíanse co vento nas súas velas de lona.\nOnde viaxou Xustás?\nViaxou nun camarote da proa, con oito camas e unha fiestra redonda.\nComo era Montevideo en 1910?\nEra unha cidade florecente, con moita inmigración de Europa.\nQue traballo chegou a ter Xustás?\nChegou a ser maquinista dos tranvías eléctricos."
+    },
+    {
+      "title": "Eloxio dos inventos pequenos",
+      "summary": "A newspaper columnist confesses that she used to scorn small inventions and now admires the toothpick machine, artificial vanilla and the web.",
+      "newWords": [
+        "cinismo",
+        "escarvadentes",
+        "vainilla",
+        "repulsivo",
+        "web"
+      ],
+      "text": "Durante anos mirei os inventos pequenos con certo cinismo. Pensaba que a historia dos inventos era a historia das grandes máquinas: o tren, o avión, o ordenador. Un escarvadentes, unha pinza da roupa ou un abrelatas parecíanme cousas sen importancia, que calquera podería ter inventado nunha tarde aburrida. Hoxe confeso que me equivocaba, e quero explicar por que.\n\nComecemos polo escarvadentes. A xente limpou os dentes con pauciños desde sempre, pero ata o século XIX cada un facía o seu cun coitelo. Foi un comerciante de Boston, Charles Forster, quen viu como se fabricaban en serie en Suramérica e quixo facer o mesmo cunha máquina. A máquina cortaba miles de escarvadentes de madeira iguais por hora. O difícil non foi fabricalos, senón vendelos: ninguén quería pagar por algo que podía facer na casa. Conta a historia que Forster pagaba a estudantes para que pedisen escarvadentes nos restaurantes e protestasen se non os había. Hai que recoñecer que a idea tiña enxeño.\n\nPensemos agora na vainilla. A vainilla verdadeira vén dunha orquídea tropical, e as súas vainas hai que collelas á man e curalas durante meses. Por iso foi sempre carísima. En 1874, dous químicos de Berlín conseguiron fabricar no laboratorio a substancia que lle dá o aroma, a vainillina. Hoxe a maior parte da vainilla dos xeados e dos biscoitos sae dun laboratorio, e grazas a iso unha nena de calquera aldea pode tomar un xeado de vainilla.\n\nAlgúns costumes de antes parécennos hoxe un pouco noxentos. Durante séculos, nas casas ricas, a familia compartía o mesmo escarvadentes de prata, que pasaba de man en man na mesa. Hoxe isto parécenos repulsivo, e mesmo pensalo resulta repulsivo, pero daquela era un sinal de boa educación. Que un escarvadentes de madeira se use unha soa vez e se tire é tamén un invento, e non dos menores.\n\nPor último, a web. Para moitos, a web é unha cousa enorme, pero naceu como un invento pequeno: en 1989, Tim Berners-Lee, un informático que traballaba nun laboratorio de Xenebra, propuxo un sistema sinxelo para enlazar documentos entre ordenadores. Non o patentou e regalouno ao mundo. Toda a información que consultei para esta columna atopeina na web en menos dunha hora.\n\nAsí que renuncio ao meu cinismo. Os grandes inventos cambian o mundo dun día para outro; os pequenos cámbiano a pouco e pouco, sen que o notemos.\n\nPreguntas:\nComo miraba a autora os inventos pequenos durante anos?\nMirábaos con certo cinismo.\nQue fabricaba a máquina de Charles Forster?\nFabricaba miles de escarvadentes de madeira iguais por hora.\nPor que foi sempre carísima a vainilla verdadeira?\nPorque as vainas hai que collelas á man e curalas durante meses.\nQue costume nos parece hoxe repulsivo?\nQue a familia compartise o mesmo escarvadentes de prata na mesa.\nQuen propuxo a web e onde?\nTim Berners-Lee, nun laboratorio de Xenebra, en 1989."
+    },
+    {
+      "title": "O aire limpo do serradoiro",
+      "summary": "An engineer in Lalín designs a machine that keeps sawdust out of the air of her family's sawmill, and the workers test it during their yearly safety drill.",
+      "newWords": [
+        "serradoiro",
+        "simulacro",
+        "secretaría",
+        "tolerancia",
+        "crueza"
+      ],
+      "text": "Nunila Amarante estudou enxeñaría industrial en Vigo e, ao terminar, volveu a Lalín para traballar no serradoiro da súa familia. O serradoiro funciona desde 1962. O seu avó comezou cunha soa serra movida por un motor de gasóleo; hoxe hai catro máquinas e once traballadores, que cortan táboas de carballo, castiñeiro e piñeiro para carpinterías de toda Galicia.\n\nO que máis preocupaba a Nunila era o serrín. Nun serradoiro o serrín móvese por todas partes: no chan, no aire e na roupa dos traballadores. Respiralo todos os días non é bo, e ademais o serrín seco arde con moita facilidade. Nunila pasou un inverno enteiro deseñando un sistema de aspiración: unha rede de tubos que recolle o serrín xusto onde sae da serra e o leva a un depósito fóra da nave. Ese inverno foi duro: a crueza das xeadas de Lalín obrigábaa a traballar coas luvas postas e a facer os planos na cociña, onde había lume.\n\nDeseñar as pezas foi o máis difícil. Cada tubo tiña que encaixar no seguinte cunha tolerancia de medio milímetro: se o oco era maior, perdíase forza e o serrín escapaba. O ferreiro da vila díxolle que con esa tolerancia tiña que facer as pezas dúas veces. Nunila non se rendeu e, no seu ordenador, calculou de novo as medidas ata que todo encaixou.\n\nO primo de Nunila, Aldemar, leva a secretaría do serradoiro: as facturas, os pedidos e os papeis. Foi el quen preparou desde a secretaría a solicitude da patente do sistema, e quen se encargou de buscar as axudas para pagalo.\n\nTodos os anos, en marzo, o serradoiro fai un simulacro de evacuación: soa unha alarma, paran as máquinas e todos saen á explanada en menos de dous minutos. Este ano Nunila aproveitou o simulacro para probar o novo sistema. Antes do simulacro, as máquinas traballaron unha hora enteira; despois, coa nave baleira, mediron o aire. Había dez veces menos serrín ca o ano anterior.\n\nOs traballadores, que ao principio desconfiaban dos tubos, agora din que xa non levan o serrín para a casa na roupa. O avó de Nunila, que aínda pasa polo serradoiro todas as mañás, di que este inverno, por primeira vez, a nave cheira só a madeira. El lembra ben a crueza dos invernos de antes, cando os homes serraban coas mans xeadas e o aire cheo de po.\n\nPreguntas:\nOnde traballa Nunila Amarante?\nTraballa no serradoiro da súa familia en Lalín.\nQue deseñou Nunila?\nDeseñou un sistema de aspiración que recolle o serrín.\nPor que traballaba coas luvas postas aquel inverno?\nPola crueza das xeadas de Lalín.\nQue tolerancia tiñan que ter os tubos?\nCada tubo tiña que encaixar no seguinte cunha tolerancia de medio milímetro.\nQuen leva a secretaría do serradoiro?\nLévaa Aldemar, o primo de Nunila.\nQue fixeron durante o simulacro de evacuación?\nProbaron o novo sistema e mediron o aire da nave baleira."
+    },
+    {
+      "title": "Un premio para Xovita",
+      "summary": "A retired chemist from A Coruña who invented a cheap home cholesterol test receives an award; a psychoanalyst friend gives the speech and a tenor sings.",
+      "newWords": [
+        "colesterol",
+        "indignación",
+        "unánime",
+        "panexírico",
+        "psicanalista",
+        "tenor"
+      ],
+      "text": "Xovita Ocampo ten oitenta e dous anos, vive na Coruña e ten unha saúde de ferro. Foi química nun laboratorio de análises clínicas durante corenta anos. A finais dos anos oitenta inventou unha tira de papel que permitía medir o colesterol na casa, sen ir ao centro de saúde: abondaba cunha pequena mostra e, en tres minutos, a tira cambiaba de cor. A cor indicaba se o colesterol estaba alto ou baixo. A súa tira era barata e sinxela, e axudou a millóns de persoas a coidar o corazón.\n\nNon foi doado. Cando Xovita presentou a idea por primeira vez, o director do laboratorio díxolle que unha química nova non tiña experiencia para dirixir un proxecto así. Xovita lembra aínda a indignación que sentiu aquela tarde. Pero en vez de deixarse levar pola indignación, traballou pola súa conta, os sábados, durante dous anos, ata que a tira funcionou. Entón ninguén puido dicirlle que non.\n\nEste outono, unha asociación científica galega decidiu darlle o seu premio de honra. A votación do xurado foi unánime: os nove membros escolleron o seu nome. Un dos membros do xurado explicou que unha decisión unánime é moi rara, porque cada ano hai candidatos moi bos.\n\nNa cerimonia, a encargada de facer o panexírico foi a súa amiga Sesinanda, unha psicanalista que a coñece desde o instituto. Sesinanda contou que Xovita, de nena, desmontaba os reloxos da casa para ver como funcionaban. Como psicanalista, dixo, pasou a vida escoitando os problemas dos demais, e poucas persoas coñeceu tan teimudas e tan xenerosas coma a súa amiga. Falou do colesterol, da tira de papel e da indignación daquela tarde, e todo o público riu cando dixo que Xovita convertía cada «non» nun experimento.\n\nXovita escoitou o panexírico vermella coma un tomate. Cando subiu a recoller o premio, dixo: «Un panexírico é unha cousa perigosa, porque ao final un acaba crendo o que din del.» Despois agradeceu ás compañeiras do laboratorio, que traballaran con ela aqueles sábados.\n\nPara pechar a cerimonia, un tenor da orquestra da cidade cantou unha canción tradicional galega. O tenor, que era sobriño dunha das compañeiras de Xovita, tiña unha voz tan potente que non necesitou micrófono. Xovita, emocionada, díxolle á súa amiga psicanalista que aquela canción fora o mellor do día.\n\nPreguntas:\nQue inventou Xovita Ocampo?\nInventou unha tira de papel para medir o colesterol na casa.\nPor que sentiu indignación aquela tarde?\nPorque o director lle dixo que non tiña experiencia para dirixir o proxecto.\nComo foi a votación do xurado?\nFoi unánime: os nove membros escolleron o seu nome.\nQuen fixo o panexírico na cerimonia?\nFíxoo a súa amiga Sesinanda, unha psicanalista.\nQue dixo Xovita do panexírico?\nDixo que un panexírico é perigoso, porque ao final un acaba crendo o que din del.\nQuen cantou ao final?\nCantou un tenor da orquestra da cidade."
+    }
+  ]
+}
