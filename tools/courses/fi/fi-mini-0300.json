@@ -1,0 +1,210 @@
+{
+  "id": "fi-mini-0300",
+  "rankUpTo": 300,
+  "level": "A1",
+  "title": "Ruokaa ja kauppaan",
+  "description": "Ten short, simple stories about food, shopping and eating out in towns across Finland.",
+  "topic": "Food and shopping",
+  "names": [
+    "Esteri",
+    "Hilla",
+    "Vaasa",
+    "Osmo",
+    "Kokkola",
+    "Annika",
+    "Turku",
+    "Mauno",
+    "Juho",
+    "Eevi",
+    "Hämeenlinna",
+    "Tampere",
+    "Irja",
+    "Kajaani",
+    "Nestori",
+    "Aapo",
+    "Lappeenranta",
+    "Arvi",
+    "Kyösti",
+    "Savonlinna",
+    "Tanja",
+    "Joona",
+    "Espoo",
+    "Miro",
+    "Neea",
+    "Aili",
+    "Seinäjoki",
+    "Seinäjoella",
+    "Eljas",
+    "Terttu",
+    "Naantali"
+  ],
+  "lessons": [
+    {
+      "title": "Mitä syömme tänään?",
+      "summary": "Esteri and her daughter Hilla in Vaasa go out for fish, find the big one too dear and take four small ones instead.",
+      "newWords": [
+        "tyttö",
+        "äiti",
+        "tänään",
+        "syödä",
+        "hakea",
+        "euro",
+        "neljä",
+        "viisi",
+        "hinta",
+        "liian"
+      ],
+      "text": "Esteri ja Hilla ovat Vaasasta. Esteri on Hillan äiti, ja Hilla on pieni tyttö.\n\n”Mitä me syömme tänään?” Hilla sanoo.\n\n”Tänään me syömme kalaa”, äiti sanoo. ”Mutta meillä ei ole sitä. Me haemme sitä nyt.”\n\nÄiti ja tyttö menevät kauppaan. Siellä on yksi iso kala. Sen hinta on 30 euroa.\n\n”Hinta on liian suuri”, äiti sanoo. ”30 euroa on liian paljon.”\n\nSiellä on myös pieniä. Yksi pieni maksaa viisi euroa.\n\n”Viisi euroa on hyvä hinta”, äiti sanoo. Hän ottaa neljä pientä, ja ne maksavat 20 euroa. ”Neljä pientä on yhtä hyvä kuin yksi iso.”\n\nHilla hakee myös jotain. Hän hakee pullan. Se maksaa yhden euron.\n\n”Saanko tämän?” tyttö sanoo. ”Se maksaa vain yhden euron.”\n\n”Saat”, äiti sanoo. ”Yksi euro ei ole liian paljon.”\n\nIllalla äiti ja tyttö syövät kalaa. Sitten Hilla syö pullan. ”Tämä on hyvä päivä”, hän sanoo.\n\nKysymykset:\nKuka on Hillan äiti?\nEsteri on Hillan äiti.\nMitä äiti ja tyttö syövät tänään?\nHe syövät tänään kalaa.\nMikä on ison kalan hinta?\nSen hinta on 30 euroa.\nMiksi äiti ei ota sitä?\nHinta on liian suuri.\nKuinka monta pientä äiti ottaa?\nÄiti ottaa neljä pientä, ja yksi maksaa viisi euroa.\nMitä Hilla hakee?\nHilla hakee pullan, ja se maksaa yhden euron."
+    },
+    {
+      "title": "Kauppa on kiinni",
+      "summary": "Osmo in Kokkola finds no coffee at seven, waits an hour at home for the shop to open and keeps coffee in two places from now on.",
+      "newWords": [
+        "kello",
+        "tunti",
+        "odottaa",
+        "kiinni",
+        "heti",
+        "aloittaa",
+        "valmis",
+        "kotona",
+        "jättää",
+        "muistaa"
+      ],
+      "text": "Osmo on Kokkolasta. Hän aloittaa aina päivän kahvilla. Kello 7 hän tekee sitä.\n\nTänään kello on 7, mutta kotona ei ole kahvia. Osmo ei muista, miksi. Hän lähtee heti kauppaan.\n\nKauppa on kiinni. Se on kiinni vielä tunnin. Kello 8 se ei ole enää kiinni.\n\n”Tunti on pitkä aika”, Osmo sanoo. ”En halua odottaa täällä. Minä odotan kotona.”\n\nOsmo menee kotiin ja odottaa siellä. Hän lukee ja katsoo kelloa. Tunti on pitkä.\n\nKello 8 hän lähtee taas. Nyt kauppa ei ole kiinni. Osmo ostaa paljon kahvia.\n\nKotona hän tekee sitä heti. Kello 8.15 kahvi on valmis. Nyt Osmo voi aloittaa päivän.\n\nOsan siitä Osmo jättää kotiin. Osan hän jättää töihin.\n\n”Nyt minä muistan”, Osmo sanoo. ”Kotona ja töissä pitää aina olla kahvia. En halua enää odottaa tuntia.”\n\nKysymykset:\nMistä Osmo on?\nOsmo on Kokkolasta.\nMillä Osmo aloittaa päivän?\nHän aloittaa päivän kahvilla.\nOnko kauppa kiinni kello 7?\nKyllä, se on kiinni vielä tunnin.\nMissä Osmo odottaa?\nHän odottaa kotona.\nMihin aikaan kahvi on valmis?\nSe on valmis kello 8.15.\nMihin Osmo jättää osan?\nHän jättää osan kotiin ja osan töihin."
+    },
+    {
+      "title": "Kirja Maunolle",
+      "summary": "Annika in Turku asks an older shop assistant for help and chooses a big book about old cars for her father.",
+      "newWords": [
+        "kirja",
+        "valita",
+        "päättää",
+        "vaikea",
+        "ajatella",
+        "hieno",
+        "kysyä",
+        "vastata",
+        "auttaa",
+        "te"
+      ],
+      "text": "Annika on Turusta. Hänen isänsä Mauno täyttää pian 60 vuotta. Annika haluaa antaa hänelle kirjan.\n\nAnnika menee kauppaan. Siellä on paljon kirjoja. Annikan on vaikea valita.\n\n”Mikä kirja on hyvä?” hän ajattelee. ”Mitä Mauno haluaa lukea?”\n\nKaupassa on töissä vanhempi nainen. Annika kysyy häneltä: ”Voitteko te auttaa minua? Haluan kirjan isälle.”\n\n”Voin auttaa”, nainen vastaa. ”Mistä teidän isänne pitää?”\n\n”Hän pitää vanhoista autoista”, Annika vastaa.\n\nNainen antaa Annikalle kaksi kirjaa. Toinen kirja on iso, ja siinä on paljon kuvia vanhoista autoista. Toinen kirja on pieni, ja siinä on vain vähän kuvia.\n\n”Ne ovat molemmat hienoja kirjoja”, nainen sanoo.\n\nAnnika ajattelee taas. Valita on vaikeaa. Mauno katsoo mielellään kuvia, ja ison kirjan kuvat ovat hienoja. Annika päättää ottaa sen.\n\n”Minä valitsen tämän”, hän sanoo. ”Kiitos, että autoitte!”\n\nKysymykset:\nKenelle Annika haluaa kirjan?\nHän haluaa kirjan isälle, Maunolle.\nOnko Annikan helppo valita?\nEi, Annikan on vaikea valita.\nMitä Annika kysyy naiselta?\nHän kysyy: ”Voitteko te auttaa minua?”\nMistä Mauno pitää?\nHän pitää vanhoista autoista.\nMinkä kirjan Annika päättää ottaa?\nHän päättää ottaa ison kirjan, koska sen kuvat ovat hienoja."
+    },
+    {
+      "title": "Matka Tampereelle",
+      "summary": "Juho and Eevi drive from Hämeenlinna to the Tampere market, help Juho's mother with her shopping and take her home.",
+      "newWords": [
+        "matka",
+        "ajaa",
+        "kestää",
+        "alle",
+        "välillä",
+        "nousta",
+        "viedä",
+        "samalla",
+        "apu",
+        "seuraava"
+      ],
+      "text": "Juho ja Eevi ovat Hämeenlinnasta. Tänään he lähtevät Tampereelle. Siellä on hyvä tori, ja he haluavat ostaa sieltä kalaa.\n\nHe nousevat autoon kello 8. Juho ajaa. Hämeenlinnan ja Tampereen välillä ei ole pitkä matka. Se kestää alle tunnin.\n\nJuho ja Eevi ostavat kalaa. Juhon äiti on myös torilla. Hän ostaa paljon, ja hän tarvitsee apua.\n\n”Me autamme sinua”, Eevi sanoo. Hän ottaa osan.\n\n”Kiitos avusta!” äiti sanoo. ”Apu on aina hyvä.”\n\nJuho ja Eevi vievät äidin kotiin. He syövät siellä, ja samalla Juho ja äiti puhuvat paljon. Eevi katsoo samalla äidin kuvia.\n\nIllalla Juho ja Eevi ajavat taas Hämeenlinnaan. Juho nousee autosta.\n\n”Tämä oli hyvä matka”, hän sanoo.\n\n”Kyllä”, Eevi sanoo. ”Ja seuraava matka on pian. Seuraavalla kerralla äiti tulee meille.”\n\nKysymykset:\nMihin Juho ja Eevi lähtevät?\nHe lähtevät Tampereelle.\nKuka ajaa?\nJuho ajaa.\nOnko Hämeenlinnan ja Tampereen välillä pitkä matka?\nEi, se kestää alle tunnin.\nMiksi äiti tarvitsee apua?\nHän ostaa paljon.\nMihin Juho ja Eevi vievät äidin?\nHe vievät hänet kotiin.\nMitä seuraavalla kerralla tapahtuu?\nSeuraavalla kerralla äiti tulee heille."
+    },
+    {
+      "title": "Uutinen lehdessä",
+      "summary": "Irja in Kajaani reads in the paper that Nestori, the cook from a TV series, is coming to the market, and she goes to see him with her mother.",
+      "newWords": [
+        "lehti",
+        "uutinen",
+        "huomata",
+        "näkyä",
+        "sarja",
+        "joskus",
+        "koskaan",
+        "kuulla",
+        "elokuva"
+      ],
+      "text": "Irja on Kajaanista. Hän lukee joka päivä lehteä. Tänään hän huomaa lehdessä uutisen.\n\nUutinen on hyvä. Nestori tulee Kajaaniin! Nestori tekee ruokaa tv:ssä. Hänellä on oma sarja, ja hän näkyy tv:ssä joka viikko. Irja katsoo sarjaa joskus.\n\nNestori ei käy koskaan Kajaanissa. Mutta nyt hän tulee. Hän tekee ruokaa torilla kello 12.\n\nLehdessä on myös toinen uutinen. Nestorista on uusi elokuva. Elokuva tulee illalla Kajaanissa.\n\nIrja soittaa äidille. Äiti kuulee uutisen ja haluaa myös tulla.\n\nKello 12 Irja ja äiti ovat torilla. Siellä on paljon ihmisiä. Irja ei näe Nestoria. Sitten hän huomaa hänet. Nyt Nestori näkyy hyvin. Hän tekee ruokaa, ja ihmiset syövät.\n\n”Kuuletko sinä häntä?” Irja kysyy.\n\n”Kuulen”, äiti sanoo. ”Hän sanoo, että ruoka on valmis.”\n\nIllalla he katsovat elokuvan. ”Tämä oli hyvä päivä”, äiti sanoo. ”Joskus lehdessä on hyviä uutisia.”\n\nKysymykset:\nMitä Irja huomaa lehdessä?\nHän huomaa lehdessä uutisen.\nMikä Nestorilla on?\nNestorilla on oma sarja, ja hän näkyy tv:ssä.\nKäykö Nestori usein Kajaanissa?\nEi, hän ei käy koskaan Kajaanissa.\nKuka kuulee uutisen?\nIrjan äiti kuulee uutisen.\nMitä he tekevät illalla?\nHe katsovat elokuvan."
+    },
+    {
+      "title": "Ottelu ja kova nälkä",
+      "summary": "Aapo's school wins its match in Lappeenranta while his father Arvi watches, and then they go and eat.",
+      "newWords": [
+        "koulu",
+        "ottelu",
+        "seurata",
+        "kova",
+        "tukea",
+        "voittaa",
+        "tulos",
+        "käsi",
+        "pää",
+        "jatkaa"
+      ],
+      "text": "Aapo on Lappeenrannasta. Tänään hänen koulunsa pelaa ottelun. Aapon isä Arvi tulee myös. Hän seuraa ottelua.\n\nOttelu on kova. Toinen koulu on hyvä, ja peli on vaikea. Arvi tukee Aapoa koko ottelun. ”Hyvä, Aapo!” hän sanoo.\n\nAapo pelaa hyvin. Aapon koulu voittaa ottelun. Tulos on 3–2.\n\n”Me voitimme!” Aapo sanoo. Hän ottaa Arvia kädestä.\n\n”Hyvä tulos”, Arvi sanoo. ”Minä seurasin koko ottelun. Sinä pelaat hyvin, ja sinulla on hyvä pää.”\n\nArvi pitää kädessä Aapon pipoa. Aapo ottaa sen ja laittaa sen päähän.\n\n”Minulla on kova nälkä”, Aapo sanoo.\n\n”Minullakin”, Arvi sanoo. ”Mennään syömään.”\n\nHe käyvät syömässä. Sitten he jatkavat matkaa kotiin. Aapo kertoo ottelusta koko matkan, ja kotona hän jatkaa vielä. Arvi tukee häntä aina.\n\nKysymykset:\nMitä Aapon koulu tekee tänään?\nSe pelaa ottelun.\nKuka seuraa ottelua?\nAapon isä Arvi seuraa sitä.\nKuka voittaa?\nAapon koulu voittaa.\nMikä on tulos?\nTulos on 3–2.\nMitä Aapo laittaa päähän?\nHän laittaa pipon päähän.\nMiksi he menevät syömään?\nAapolla on kova nälkä."
+    },
+    {
+      "title": "Kyöstin kauppa",
+      "summary": "Kyösti runs the small shop his father built in Savonlinna and decides to build a bigger one close by.",
+      "newWords": [
+        "asua",
+        "johtaa",
+        "toiminta",
+        "rakentaa",
+        "elää",
+        "kasvaa",
+        "nykyinen",
+        "tila",
+        "mahdollisuus",
+        "miljoona"
+      ],
+      "text": "Kyösti asuu Savonlinnassa. Hän johtaa siellä pientä kauppaa.\n\nKauppa on vanha. Sen toiminta alkoi vuonna 1975. Silloin Kyöstin isä rakensi sen. He asuivat sen lähellä, ja he elivät siitä. Isä johti sitä 30 vuotta. Sitten Kyösti alkoi johtaa sitä.\n\nSavonlinna kasvoi, ja toiminta kasvoi myös. Nyt nykyinen kauppa on liian pieni. Siinä ei ole tilaa kaikelle. Siellä ei ole kaikkea, mitä ihmiset haluavat.\n\nSitten Kyöstillä on mahdollisuus. Lähellä on iso tila. Siihen hän voi rakentaa uuden.\n\nSe maksaa miljoona euroa. Miljoona euroa on paljon rahaa. Kyösti ajattelee asiaa kaksi viikkoa.\n\n”Tämä on hyvä mahdollisuus”, hän sanoo. ”Kaupunki kasvaa, ja ihmisiä tulee lisää. Minä rakennan sen.”\n\nKyösti rakentaa uuden kaupan. Siinä on paljon tilaa. Vanhaan tilaan tulee kahvila.\n\nNyt Kyösti elää hyvin, ja hänen toimintansa kasvaa. Hän asuu vielä Savonlinnassa, ja hän johtaa nyt kahta paikkaa.\n\nKysymykset:\nMissä Kyösti asuu?\nHän asuu Savonlinnassa.\nMitä Kyöstin isä teki vuonna 1975?\nHän rakensi kaupan.\nMiksi Kyösti haluaa rakentaa uuden?\nNykyinen kauppa on liian pieni, eikä siinä ole tilaa kaikelle.\nMikä mahdollisuus Kyöstillä on?\nLähellä on iso tila, ja siihen hän voi rakentaa.\nMitä se maksaa?\nSe maksaa miljoona euroa.\nMitä vanhaan tilaan tulee?\nSinne tulee kahvila."
+    },
+    {
+      "title": "Riittääkö ruoka?",
+      "summary": "Tanja and Joona in Espoo cook for ten guests, two more friends join, and there is still enough for everyone.",
+      "newWords": [
+        "henkilö",
+        "usea",
+        "riittää",
+        "liittyä",
+        "tällainen",
+        "vaatia",
+        "kyse",
+        "tapaus",
+        "jokainen"
+      ],
+      "text": "Tanja ja Joona ovat Espoosta. Illalla heille tulee 10 henkilöä.\n\nTanja tekee koko päivän ruokaa. Hän tekee useita ruokia. Joona auttaa häntä.\n\n”Tällainen ilta vaatii paljon työtä”, Tanja sanoo. ”Ja se vaatii myös paljon ruokaa.”\n\n”Miro ja Neea haluavat myös tulla”, Joona sanoo. ”He haluavat liittyä mukaan.”\n\n”Nyt meille tulee 12 henkilöä”, Tanja sanoo. ”Riittääkö ruoka?”\n\n”Kyse on vain kahdesta henkilöstä”, Joona sanoo. ”Kyllä se riittää.”\n\n”Entä jos se ei riitä?” Tanja sanoo.\n\n”Siinä tapauksessa me teemme vielä lisää”, Joona sanoo.\n\nHe tekevät vielä lisää. Illalla tulee 12 henkilöä: Miro ja Neea liittyvät mukaan. Jokainen saa syödä hyvin, ja ruoka riittää. Jokainen on hyvällä mielellä.\n\n”Tällainen ilta on hyvä”, Tanja sanoo. ”Siinä ei ole kyse vain ruoasta.”\n\nKysymykset:\nKuinka monta henkilöä heille tulee illalla?\nHeille tulee 12 henkilöä.\nMitä Tanja tekee koko päivän?\nHän tekee useita ruokia.\nKetkä haluavat liittyä mukaan?\nMiro ja Neea haluavat liittyä mukaan.\nMitä he tekevät, jos ruoka ei riitä?\nSiinä tapauksessa he tekevät vielä lisää.\nRiittääkö ruoka?\nKyllä, ruoka riittää, ja jokainen saa syödä hyvin."
+    },
+    {
+      "title": "Ailin ensimmäinen kakku",
+      "summary": "Aili in Seinäjoki bakes her first cake in an old oven; it comes out a little hard, but her mother likes it.",
+      "newWords": [
+        "pystyä",
+        "varmasti",
+        "taitaa",
+        "takia",
+        "hieman",
+        "huono",
+        "paha",
+        "muuten",
+        "silti",
+        "varmaan"
+      ],
+      "text": "Aili asuu Seinäjoella. Tänään hän tekee kakun. Se on hänen ensimmäinen kakkunsa, ja se on äidille.\n\n”Pystynkö minä tähän?” Aili ajattelee. ”Kyllä, minä pystyn. Se on varmasti hyvä.”\n\nAililla on vanha uuni. Vanhan uunin takia kakku on hieman kova.\n\n”Tämä taitaa olla huono”, Aili sanoo. ”Uuni on varmaan liian vanha.”\n\nÄiti tulee kotiin ja näkee kakun. Hän ottaa sitä ja syö.\n\n”Se on hieman kova”, äiti sanoo. ”Mutta muuten se on hyvä. Se ei ole paha.”\n\n”Sinä sanot niin vain minun takiani”, Aili sanoo.\n\n”Ei”, äiti sanoo. ”Se on hieman kova, mutta se on silti hyvä. Se ei ole huono.”\n\nAili syö myös. Äiti on oikeassa: se ei ole paha. ”Muuten, äiti”, Aili sanoo, ”seuraava on varmaan parempi.”\n\n”Varmasti”, äiti sanoo. ”Mutta minä syön silti tämän.”\n\nKysymykset:\nKenelle kakku on?\nSe on Ailin äidille.\nMiksi kakku on hieman kova?\nVanhan uunin takia se on hieman kova.\nPystyykö Aili siihen?\nKyllä, hän pystyy siihen.\nMitä Aili sanoo kakusta?\nHän sanoo: ”Tämä taitaa olla huono.”\nOnko kakku paha?\nEi, se ei ole paha. Se on hieman kova, mutta muuten se on hyvä.\nSyökö äiti sen?\nKyllä, äiti syö sen silti."
+    },
+    {
+      "title": "Kerran kuukaudessa",
+      "summary": "Eljas and Terttu have eaten at the same Naantali restaurant once a month for twenty years; tonight Terttu asks what a word on the menu means.",
+      "newWords": [
+        "kerran",
+        "kuukausi",
+        "edelleen",
+        "viime",
+        "tärkeä",
+        "kysymys",
+        "sana",
+        "muutama",
+        "päälle"
+      ],
+      "text": "Eljas ja Terttu ovat Naantalista. He käyvät kerran kuukaudessa samassa ravintolassa. He kävivät siellä ensimmäisen kerran 20 vuotta sitten, ja he käyvät siellä edelleen.\n\nViime kuukausi oli pitkä. Eljas ja Terttu tekivät paljon töitä. Mutta tänään on tärkeä päivä: Tertulla on uusi työ. Se on tärkeä asia, joten he ovat taas ravintolassa.\n\nNuori nainen tulee. ”Hyvää iltaa”, hän sanoo. ”Onko teillä kysymyksiä?”\n\nTertulla on yksi kysymys. Listalla on uusi sana. Sana on ”muikku”, ja Terttu ei tiedä sitä.\n\n”Mitä tämä sana tarkoittaa?” Terttu kysyy.\n\n”Se on pieni kala”, nainen vastaa. ”Se on hyvä. Viime kerralla teillä oli jotain muuta. Ottakaa tänään tämä.”\n\nTerttu ja Eljas ottavat sitä. Muutaman hetken päästä ruoka on valmis. Se on hyvää.\n\nRavintola on edelleen hyvä. Kun Eljas ja Terttu lähtevät, siellä on vielä muutama ihminen. Terttu laittaa takin päälle, ja Eljas laittaa myös takin päälle.\n\n”Kiitos”, Terttu sanoo naiselle. ”Tämä oli hyvä ilta. Tulemme taas kuukauden päästä.”\n\nKysymykset:\nKuinka usein Eljas ja Terttu käyvät ravintolassa?\nHe käyvät siellä kerran kuukaudessa.\nOliko viime kuukausi pitkä?\nKyllä, viime kuukausi oli pitkä.\nMiksi tänään on tärkeä päivä?\nTertulla on uusi työ.\nMitä Terttu kysyy?\nHän kysyy: ”Mitä tämä sana tarkoittaa?”\nMitä he laittavat päälle, kun he lähtevät?\nHe laittavat takin päälle."
+    }
+  ]
+}
