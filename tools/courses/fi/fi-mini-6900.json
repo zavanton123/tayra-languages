@@ -1,0 +1,208 @@
+{
+  "id": "fi-mini-6900",
+  "rankUpTo": 6900,
+  "level": "C1",
+  "title": "Luvut ja päättely",
+  "description": "Ten texts about numbers and reasoning: scaling a cake recipe, counting bats, a column on numbers in headlines, a striker's running data, how skating judges' scores are averaged, a trial period spent comparing delivery offers, the first savings bank and compound interest, the cost of renovating a school, how high a kite flies and how researchers test a skin cream.",
+  "topic": "Numbers and reasoning",
+  "names": [
+    "Ahonen",
+    "Alma",
+    "Annikki",
+    "Eila",
+    "Erkki",
+    "Esa",
+    "Haapanen",
+    "Hannekselle",
+    "Hannes",
+    "Hannula",
+    "Hannulan",
+    "Heikki",
+    "Jyväskylä",
+    "Kajaani",
+    "Kiela",
+    "Kivelä",
+    "Kokkola",
+    "Kuopio",
+    "Kähkönen",
+    "Lahtela",
+    "Leevi",
+    "Lehikoinen",
+    "Lehikoiseen",
+    "Leila",
+    "Marttila",
+    "Nella",
+    "Niilo",
+    "Oulu",
+    "Pentti",
+    "Peppi",
+    "Pirhonen",
+    "Pirhosen",
+    "Porvoo",
+    "Raimo",
+    "Reijo",
+    "Riihelä",
+    "Riikka",
+    "Rytkönen",
+    "Saastamoinen",
+    "Saastamoisen",
+    "Savonlinna",
+    "Seinäjoki",
+    "Senja",
+    "Sjöblom",
+    "Taina",
+    "Tampere",
+    "Terttu",
+    "Tuovinen",
+    "Turku",
+    "Vilho",
+    "Ville"
+  ],
+  "lessons": [
+    {
+      "title": "Kakku päiväkodin juhlaan",
+      "summary": "A grandmother in Porvoo bakes a gluten-free cake for a day-care party and works out with pen, paper and a kitchen scale how much she needs.",
+      "newWords": [
+        "pikkulapsi",
+        "gluteeniton",
+        "vaaka",
+        "rasvainen",
+        "oliiviöljy",
+        "ananas",
+        "kolmisen",
+        "puolisen"
+      ],
+      "text": "Annikki Haapanen asuu Porvoossa. Hänen lapsenlapsensa Peppi on neljän vuoden ikäinen ja käy päiväkotia kaupungin keskustassa. Päiväkodissa vietetään perjantaina syksyn juhlaa, ja Annikki on luvannut tuoda sinne kakun. Hän on leiponut koko ikänsä, mutta tällä kertaa tehtävä vaatii myös laskemista.\n\nPäiväkodin johtaja on kertonut, että juhlaan tulee 24 pikkulasta ja kuusi aikuista. Kaksi lapsista ei voi syödä vehnää, joten heidän kakkunsa täytyy olla gluteeniton. Annikki miettii hetken ja päättää, että koko kakku tehdään gluteenittomana. Silloin kenenkään ei tarvitse saada erilaista palaa, eikä yksikään pikkulapsi jää juhlassa ilman.\n\nAnnikin vanha ohje on kirjoitettu kahdeksalle hengelle. Hän istuu keittiön pöydän ääreen kynän ja paperin kanssa. Pikkulapsen pala on noin puolet aikuisen palasta. Kun 24 lasta syö kukin puolikkaan, se vastaa kahtatoista aikuista. Kun siihen lisätään kuusi aikuista, saadaan 18. Se on vähän yli kaksi kertaa kahdeksan. Annikki päättää tehdä ohjeesta kaksinkertaisen ja lisätä vähän päälle, koska joku haluaa varmasti toisen palan.\n\nOhjeessa jauhot on ilmoitettu desilitroina, mutta gluteenittomat jauhot ovat kevyempiä kuin vehnäjauhot. Siksi Annikki ottaa kaapista vaa'an. Hänen kokemuksensa mukaan gluteeniton taikina onnistuu parhaiten, kun aineet punnitaan grammoina. Vaaka on vanha, mutta se näyttää painon tarkasti. Annikki laittaa kulhon vaa'an päälle, nollaa luvun ja lisää jauhoja, kunnes vaaka näyttää oikeaa painoa.\n\nPepin äiti on toivonut, ettei kakku olisi liian rasvainen. Ohjeessa on 200 grammaa voita, ja kaksinkertaisena sitä tulisi 400 grammaa. Annikki korvaa osan voista jogurtilla ja pienellä määrällä oliiviöljyä. Oliiviöljyn maku on vahva, joten sitä ei voi käyttää paljon. Hän punnitsee öljyn suoraan kulhoon vaa'an päällä. Näin taikinasta tulee kevyempi, eikä se ole yhtä rasvainen kuin ennen.\n\nKakun päälle tulee ananasta. Kaupassa tuore ananas maksaa neljä euroa ja purkki euron. Annikki valitsee tuoreen, koska sen maku on parempi. Kuorittuna ananaksesta jää syötävää puolisen kiloa, ja se riittää hyvin. Hän leikkaa ananaksen pieniksi paloiksi, jotta pikkulasten on helppo syödä ne.\n\nLeipominen kestää kolmisen tuntia. Valmis kakku painaa kolmisen kiloa, ja Annikki kantaa sen autoon varovasti. Päiväkodissa kakku leikataan 30 palaan. Puolisen tuntia myöhemmin lautasella on jäljellä vain kolme palaa. Annikin laskelma oli siis lähes oikea.\n\nKysymykset:\nMiksi kakun täytyy olla gluteeniton?\nKaksi lapsista ei voi syödä vehnää, joten Annikki tekee koko kakusta gluteenittoman.\nMiten Annikki laskee, kuinka paljon kakkua tarvitaan?\nHän laskee, että 24 pikkulasta syö yhtä paljon kuin kaksitoista aikuista, ja lisää siihen kuusi aikuista.\nMiksi Annikki käyttää vaakaa?\nGluteenittomat jauhot ovat kevyempiä, joten aineet on parempi punnita.\nMiten Annikki tekee kakusta vähemmän rasvaisen?\nHän korvaa osan voista jogurtilla ja oliiviöljyllä.\nPaljonko kakkua jää jäljelle?\nJäljelle jää vain kolme palaa."
+    },
+    {
+      "title": "Lepakot lasketaan",
+      "summary": "A researcher and a volunteer in Kuopio count bats on a summer night and learn why a cold evening can make the numbers look smaller than they are.",
+      "newWords": [
+        "lepakko",
+        "nauhoittaa",
+        "ohjelmoida",
+        "aleta",
+        "yksityiskohtaisesti",
+        "kurkata",
+        "vähentyä"
+      ],
+      "text": "Kuopion lähellä on vanha kartano, jonka puistossa asuu lepakoita. Riikka Ahonen tutkii lepakoita yliopistossa, ja joka kesä hän kutsuu vapaaehtoisia laskemaan niitä. Tänä vuonna mukaan on tullut eläkkeellä oleva opettaja Reijo Kähkönen. Hän on lukenut lehdestä, että lepakoiden määrä vähentyy monin paikoin, ja hän haluaa tietää, pitääkö se paikkansa myös Kuopiossa.\n\nLepakoita on vaikea laskea pelkillä silmillä, koska ne lentävät nopeasti ja vain pimeällä. Siksi Riikalla on mukanaan pieniä laitteita, jotka nauhoittavat lepakoiden ääniä. Ihminen ei kuule näitä ääniä, mutta laite kuulee. Jokaisen lajin ääni on omanlaisensa, ja tietokone tunnistaa lajin nauhoitetusta äänestä.\n\nEnnen iltaa Riikka ohjelmoi laitteet. Hän ohjelmoi ne käynnistymään kello kymmenen illalla ja sammumaan kello neljä aamulla. Laitteet on ohjelmoitu myös merkitsemään jokaisen äänen kohdalle kellonajan ja lämpötilan. Reijo katsoo vierestä ja kysyy, miksi lämpötila on niin tärkeä.\n\n”Kun lämpötila alenee, hyönteisiä lentää vähemmän”, Riikka selittää. ”Silloin myös lepakot lentävät vähemmän. Jos lämpötila alenee alle kymmenen asteen, moni lepakko jää kokonaan piiloon.”\n\nReijo ymmärtää heti, mitä se tarkoittaa. ”Eli jos jonakin kesänä on kylmempää, laitteet nauhoittavat vähemmän ääniä, vaikka lepakoita olisi yhtä paljon kuin ennen.”\n\n”Juuri niin”, Riikka sanoo. ”Siksi kirjaamme sään yksityiskohtaisesti. Muuten voisimme päätellä, että lepakoiden määrä vähentyi, vaikka vain sää muuttui.”\n\nKun aurinko on laskenut, he kävelevät puiston laidalle vanhan puisen rakennuksen luo. Riikka kertoo, että rakennuksen katon alla asuu joka kesä suuri joukko lepakoita. Hän antaa Reijolle lampun, jossa on punainen valo, koska punainen valo ei häiritse lepakoita. Reijo kurkkaa varovasti katon alle. Siellä roikkuu kymmeniä pieniä ruskeita lepakoita vierekkäin.\n\nPuoli tuntia myöhemmin lepakot alkavat lähteä. Riikka ja Reijo seisovat rakennuksen edessä ja laskevat jokaisen lepakon, joka lentää ulos. Reijo saa tulokseksi 46, Riikka 49. ”Ero on pieni”, Riikka sanoo. ”Kirjaamme molemmat luvut ja niiden keskiarvon.”\n\nViime kesänä rakennuksesta lensi ulos 61 lepakkoa. Reijo laskee nopeasti, että määrä vähentyi vuodessa noin neljänneksellä. Riikka pyytää häntä olemaan varovainen. Viime vuonna ilta oli lämmin, mutta tänä iltana lämpötila alenee koko ajan, ja nyt on jo kuusi astetta kylmempää. Yhden illan perusteella ei voi sanoa, että lepakoiden määrä vähentyy. Siihen tarvitaan monen vuoden tulokset.\n\nSeuraavana päivänä Riikka hakee laitteet puistosta. Yliopistolla Reijo kurkkaa hänen olkansa yli tietokoneen näytölle. Yön aikana laitteet nauhoittivat yli kaksi tuhatta lepakon ääntä. Jokainen ääni on kirjattu yksityiskohtaisesti kellonajasta lämpötilaan, ja Reijo lupaa tulla mukaan myös ensi kesänä.\n\nKysymykset:\nMiksi lepakoita on vaikea laskea silmillä?\nNe lentävät nopeasti ja vain pimeällä.\nMiten Riikka ohjelmoi laitteet?\nHän ohjelmoi ne käynnistymään kello kymmenen illalla ja sammumaan kello neljä aamulla.\nMiksi lämpötila on tärkeä?\nKun lämpötila alenee, hyönteisiä ja lepakoita lentää vähemmän.\nMitä Reijo näkee, kun hän kurkkaa katon alle?\nHän näkee kymmeniä pieniä ruskeita lepakoita.\nMiksi Riikka pyytää Reijoa olemaan varovainen?\nYhden illan perusteella ei voi sanoa, että lepakoiden määrä vähentyi, koska ilta oli kylmempi kuin viime vuonna."
+    },
+    {
+      "title": "Kun otsikko lupaa liikaa",
+      "summary": "A column from Tampere follows a small number about library loans from a press release to a headline and asks readers to look at the numbers behind the words.",
+      "newWords": [
+        "tiedottaja",
+        "uutistoimisto",
+        "radikaalisti",
+        "liioittelu",
+        "ennenaikainen",
+        "päätelmä",
+        "tilastollinen",
+        "ilmaus"
+      ],
+      "text": "Luin viime viikolla otsikon, joka sai minut hetkeksi iloiseksi: ”Nuoret lukevat radikaalisti enemmän kuin ennen.” Uutisen mukaan nuorten lainaamien kirjojen määrä oli kasvanut eräässä pienessä kirjastossa sata prosenttia. Olen lukenut lapsesta asti, joten halusin uskoa uutiseen heti. Sitten tein sen, mitä teen aina, kun luku tuntuu liian hyvältä: etsin, mistä se oli peräisin.\n\nTieto oli lähtenyt liikkeelle kirjaston tiedottajalta. Tiedottaja oli kirjoittanut lyhyen tiedotteen kirjaston uudesta lukupiiristä. Tiedotteessa kerrottiin rehellisesti, että nuoret olivat lainanneet syyskuussa 40 kirjaa ja lokakuussa 80 kirjaa. Tiedottaja ei käyttänyt sanaa radikaalisti, eikä hän väittänyt, että koko maan nuoret lukisivat enemmän.\n\nSeuraavaksi tieto kulki uutistoimistolle. Uutistoimisto välittää uutisia lehdille, radioille ja verkkosivuille, ja sen toimittajilla on usein kiire. Uutistoimiston lyhyessä uutisessa luki jo, että lainojen määrä oli kaksinkertaistunut. Se oli totta. Vasta eräs verkkolehti teki uutistoimiston tekstistä otsikon, jossa puhuttiin radikaalisti kasvaneesta lukemisesta ja kaikista nuorista.\n\nMikään tässä ketjussa ei ollut valhetta. Liioittelu syntyi vähitellen, jokaisessa vaiheessa vähän lisää. Sata prosenttia kuulostaa valtavalta, mutta 40 kirjaa lisää yhdessä kirjastossa on pieni määrä. Jos kaksi innokasta lukijaa lainaa kuukaudessa kaksikymmentä kirjaa kumpikin, he yksin riittävät selittämään koko muutoksen. Prosentti kertoo muutoksen suunnan, mutta ei sitä, kuinka suuresta asiasta on kyse.\n\nTilastollinen ajattelu ei vaadi vaikeaa matematiikkaa. Riittää, että kysyy muutaman kysymyksen. Kuinka monesta ihmisestä on kyse? Mihin lukua verrataan? Onko kyse yhdestä kuukaudesta vai monesta vuodesta? Tilastollinen tulos on luotettava vasta, kun aineistoa on riittävästi ja muutos näkyy pitkään. Yhden kuukauden perusteella tehty päätelmä on lähes aina ennenaikainen.\n\nKiinnitän huomiota myös sanoihin. Ilmaus ”jopa sata prosenttia” kertoo kirjoittajan tunteesta enemmän kuin asiasta. Samoin ilmaus ”yhä useampi” voi tarkoittaa yhtä ihmistä lisää. Kun otsikossa on voimakas ilmaus, kannattaa etsiä tekstistä varsinaiset luvut. Usein ne löytyvät vasta viimeisestä kappaleesta.\n\nEn halua moittia toimittajia, sillä teen itsekin virheitä. Ennenaikainen päätelmä on houkutteleva juuri silloin, kun se vahvistaa sen, mitä haluamme uskoa. Minä halusin uskoa, että nuoret lukevat enemmän, ja siksi otsikko tuntui heti oikealta. Liioittelu toimii, koska se puhuttelee toiveitamme.\n\nSoitin lopulta kirjaston tiedottajalle ja kysyin, mitä hän itse ajatteli otsikosta. Hän nauroi ja sanoi, että lukupiiri on mukava, mutta tärkein päätelmä on vielä tekemättä. Hän lupasi kertoa minulle keväällä, miten lukupiirin kävi. Odotan sitä uutista, vaikka se tuskin päätyy otsikoihin.\n\nTaina Lahtela, Tampere\n\nKysymykset:\nMitä otsikossa väitettiin?\nOtsikossa väitettiin, että nuoret lukevat radikaalisti enemmän kuin ennen.\nMitä kirjaston tiedottaja kertoi tiedotteessa?\nHän kertoi, että nuoret lainasivat syyskuussa 40 kirjaa ja lokakuussa 80 kirjaa.\nMissä vaiheessa liioittelu syntyi?\nLiioittelu syntyi vähitellen, kun tieto kulki uutistoimistolle ja verkkolehteen.\nMilloin tilastollinen tulos on luotettava?\nKun aineistoa on riittävästi ja muutos näkyy pitkään.\nMiksi kirjoittajan mielestä yhden kuukauden perusteella tehty päätelmä on ennenaikainen?\nKoska pieni määrä ihmisiä voi selittää koko muutoksen."
+    },
+    {
+      "title": "Mitä luvut kertovat hyökkääjästä?",
+      "summary": "An analyst at a football club in Seinäjoki uses running data to show the coach that the fans have underestimated their centre forward.",
+      "newWords": [
+        "keskushyökkääjä",
+        "sarjataso",
+        "kommentointi",
+        "aliarvioida",
+        "sprintti",
+        "erotuomari",
+        "vastuuton"
+      ],
+      "text": "Erkki Marttila työskentelee analyytikkona Seinäjoella toimivassa jalkapalloseurassa. Seura pelaa toiseksi korkeimmalla sarjatasolla, ja sen tavoite on nousta ensi kaudella ylimmälle sarjatasolle. Erkin tehtävä on kerätä tietoa otteluista ja kertoa valmentajalle, mitä luvut näyttävät.\n\nTänä syksynä kannattajat ovat olleet tyytymättömiä joukkueen keskushyökkääjään, Ville Lehikoiseen. Hän on tehnyt kauden aikana vain neljä maalia. Seuran verkkosivuilla kommentointi on ollut vilkasta, ja moni on kirjoittanut, ettei keskushyökkääjä juokse tarpeeksi. Kommentointi on niin kovaa, että valmentaja Alma Tuovinen pyytää Erkiltä selvitystä ennen seuraavaa ottelua.\n\nPelaajilla on harjoituksissa ja otteluissa pieni laite, joka mittaa heidän liikkeensä kentällä. Laite kertoo, kuinka pitkän matkan pelaaja juoksee ja kuinka monta sprinttiä hän tekee. Sprintiksi lasketaan juoksu, jossa nopeus nousee yli 25 kilometrin tuntivauhtiin. Erkki kerää kymmenen viimeisen ottelun luvut taulukkoon.\n\nTaulukko näyttää jotain, mitä kannattajat eivät ole nähneet. Keskushyökkääjä juoksee ottelussa keskimäärin vähemmän kuin keskikentän pelaajat, mutta hän tekee joukkueen eniten sprinttejä. Kun joukkue saa pallon, hän lähtee heti nopeaan sprinttiin toisen joukkueen puolustajien selän taakse. Juuri nämä sprintit vetävät puolustajia pois ja avaavat tilaa muille. Kolme joukkueen viimeisestä viidestä maalista on syntynyt tilanteesta, jossa keskushyökkääjä veti kaksi puolustajaa mukaansa.\n\nErkki vertaa lukuja myös toiseen asiaan. Hän on huomannut, että erotuomari juoksee ottelussa usein enemmän kuin moni pelaaja. Tämän sarjatason erotuomari juoksee keskimäärin kymmenen kilometriä ottelua kohden. Erotuomarin tehtävä on kuitenkin aivan toinen kuin hyökkääjän, joten pelkkä juostu matka ei kerro paljon. Erkin mielestä sama koskee pelaajia: pitkä matka ei vielä tarkoita hyvää peliä.\n\nSeuraavana aamuna Erkki näyttää taulukon valmentajalle. Alma katsoo lukuja pitkään ja myöntää, että hänkin on aliarvioinut keskushyökkääjän työn. ”Olemme kaikki katsoneet vain maaleja”, hän sanoo. ”Kannattajat aliarvioivat hänet, koska hänen tärkein työnsä tapahtuu ilman palloa.”\n\nErkki muistuttaa, että hänen lukunsa eivät ole koko totuus. ”Olisi vastuutonta tehdä päätöksiä pelkän laitteen perusteella”, hän sanoo. ”Yhtä vastuutonta olisi kuitenkin vaihtaa pelaaja pelkän verkkosivujen kommentoinnin takia.” Valmentaja on samaa mieltä. Hän päättää pitää keskushyökkääjän joukkueessa.\n\nLauantain ottelussa keskushyökkääjä tekee kaksitoista sprinttiä ja yhden maalin. Seuran verkkosivuilla kommentointi on illalla huomattavasti ystävällisempää kuin viikkoa aiemmin.\n\nKysymykset:\nMillä sarjatasolla seura pelaa?\nSeura pelaa toiseksi korkeimmalla sarjatasolla.\nMiksi kannattajat ovat tyytymättömiä keskushyökkääjään?\nHän on tehnyt vain neljä maalia, ja kannattajien mielestä hän ei juokse tarpeeksi.\nMitä Erkin taulukko näyttää?\nKeskushyökkääjä tekee joukkueen eniten sprinttejä, ja ne avaavat tilaa muille.\nMiksi erotuomarin juoksema matka ei kerro paljon?\nErotuomarin tehtävä on aivan toinen kuin hyökkääjän.\nMitä Erkki pitää vastuuttomana?\nHänen mielestään olisi vastuutonta tehdä päätöksiä pelkän laitteen tai verkkosivujen kommentoinnin perusteella."
+    },
+    {
+      "title": "Aika ja pisteet",
+      "summary": "In Kajaani a skater and her skier brother argue at dinner over whose sport is fairer, and their father explains how judges' scores are made more reliable.",
+      "newWords": [
+        "taitoluistelu",
+        "maastohiihto",
+        "loppusuora",
+        "subjektiivinen",
+        "pidellä",
+        "tasapainoinen",
+        "itseluottamus"
+      ],
+      "text": "Saastamoisen perhe asuu Kajaanissa. Perheen tytär Nella harrastaa taitoluistelua, ja hänen veljensä Leevi harrastaa maastohiihtoa. Sunnuntaina molemmilla oli kilpailut, ja illalla he istuvat väsyneinä keittiön pöydän ääressä isänsä Pentin kanssa.\n\nLeevi oli hiihtänyt kymmenen kilometrin matkan neljänneksi. Hän oli ollut kolmantena vielä viimeisessä mäessä, mutta loppusuoralla toinen hiihtäjä ohitti hänet. Ero oli vain kaksi sekuntia. ”Ainakin maastohiihdossa tulos on selvä”, Leevi sanoo. ”Kello ei ajattele mitään. Se, joka tulee loppusuoralta ensimmäisenä maaliin, voittaa.”\n\nNella pitelee kuumaa teekuppia käsissään eikä sano heti mitään. Hän oli luistellut ohjelmansa melkein ilman virheitä, mutta sijoittunut vasta viidenneksi. ”Taitoluistelussa ei ole kelloa”, hän sanoo lopulta. ”Tuomarit antavat pisteet, ja heidän arvionsa on aina vähän subjektiivinen. Yksi tuomari pitää jostakin liikkeestä, toinen ei.”\n\nPentti on ollut monta vuotta taitoluistelukilpailujen toimitsijana, ja hän tuntee pisteiden laskemisen. Hän ottaa paperia ja kynän. ”Tuomarin arvio voi olla subjektiivinen”, hän sanoo, ”mutta siksi tuomareita on monta. Kuvitellaan, että viisi tuomaria antaa yhdestä hypystä pisteet 4, 4, 4, 5 ja 1.”\n\nLeevi laskee keskiarvon nopeasti: 18 jaettuna viidellä on 3,6. ”Mutta yksi tuomari antoi vain yhden pisteen”, hän huomauttaa. ”Se laskee keskiarvoa paljon.”\n\n”Juuri niin”, Pentti sanoo. ”Siksi taitoluistelussa jätetään pois suurin ja pienin arvio. Jäljelle jäävät kolme nelosta, ja keskiarvo on neljä. Yksi poikkeava tuomari ei silloin voi muuttaa tulosta paljon. Näin subjektiivinen arvio muuttuu tasapainoisemmaksi.”\n\nNella miettii hetken. ”Eli tuomaristo on tasapainoinen, vaikka yksittäinen tuomari ei olisi.” Pentti nyökkää. Hän lisää, että myös maastohiihdossa on paljon sattumaa. Sää, lumen laatu ja suksien voitelu vaikuttavat tulokseen, eikä kello tiedä niistä mitään.\n\nLeevi myöntää, että loppusuoralla hänen suksensa tuntuivat hitailta. ”Ehkä kello ei sittenkään kerro koko totuutta”, hän sanoo. Hän päättää harjoitella ensi viikolla erityisesti loppukirin hiihtämistä.\n\nNella kertoo vielä, että ennen kilpailua hänen itseluottamuksensa oli heikko. Valmentaja oli pidellyt häntä kädestä radan laidalla ja sanonut, että hän osaa ohjelmansa. ”Itseluottamus kasvoi heti, kun ensimmäinen hyppy onnistui”, Nella sanoo. Pentti sanoo, että tasapainoinen suoritus ilman virheitä on tärkeämpää kuin sijoitus. Hänen mielestään molemmat lapset onnistuivat hyvin, ja hän pitelee kuppiaan tyytyväisenä.\n\nKysymykset:\nMiksi Leevi sijoittui neljänneksi?\nToinen hiihtäjä ohitti hänet loppusuoralla.\nMiksi Nellan mielestä taitoluistelun pisteet ovat subjektiivisia?\nTuomarit antavat pisteet, ja jokainen arvioi liikkeitä omalla tavallaan.\nMiten taitoluistelussa estetään, ettei yksi tuomari muuta tulosta paljon?\nSuurin ja pienin arvio jätetään pois, ja keskiarvo lasketaan muista.\nMikä vaikuttaa maastohiihdon tulokseen kellon lisäksi?\nSää, lumen laatu ja suksien voitelu vaikuttavat tulokseen.\nMilloin Nellan itseluottamus kasvoi?\nSe kasvoi, kun ensimmäinen hyppy onnistui."
+    },
+    {
+      "title": "Koeajan ensimmäinen tehtävä",
+      "summary": "A former shop cashier who retrained in bookkeeping starts her trial period at a small sock company in Jyväskylä and shows that the cheapest delivery offer is not the cheapest.",
+      "newWords": [
+        "kouluttautua",
+        "koeaika",
+        "kommandiittiyhtiö",
+        "tavaramerkki",
+        "sanella",
+        "kilpailutus",
+        "asetella",
+        "abstrakti"
+      ],
+      "text": "Leila Riihelä oli työskennellyt kaksikymmentä vuotta kaupan kassalla Jyväskylässä. Hän piti numeroista, ja kassalla hän laski usein päässään nopeammin kuin kone. Neljäkymmentäviisivuotiaana hän päätti kouluttautua uudelleen. Hän opiskeli kaksi vuotta iltaisin kirjanpitoa ja taloushallintoa. Moni ystävä ihmetteli, miksi hän halusi kouluttautua niin myöhään, mutta Leila tiesi, mitä halusi.\n\nSyksyllä Leila sai työpaikan pienestä yrityksestä, joka valmistaa villasukkia. Yritys on kommandiittiyhtiö. Kommandiittiyhtiössä on vähintään kaksi omistajaa: toinen vastaa yhtiön veloista koko omaisuudellaan, toinen on vain sijoittanut yhtiöön rahaa. Tässä kommandiittiyhtiössä vastuussa on Hannes Sjöblom, joka perusti yrityksen 30 vuotta sitten, ja rahaa on sijoittanut hänen sisarensa. Sukkien tavaramerkki on Kiela. Hannes rekisteröi tavaramerkin jo ensimmäisenä vuonna, ja nykyään tavaramerkki tunnetaan ympäri Suomea.\n\nLeilan työsopimuksessa on neljän kuukauden koeaika. Koeajan aikana sekä työnantaja että työntekijä voivat lopettaa työsuhteen heti. Leila tietää, että koeaika on molemmille mahdollisuus tutustua toisiinsa, mutta hän haluaa silti onnistua.\n\nHannes on tottunut sanelemaan. Hän ei kirjoita mielellään, vaan sanelee kirjeet ja sähköpostit puhelimeensa, ja joku kirjoittaa ne puhtaaksi. Ensimmäisenä päivänä hän sanelee Leilalle tehtävän: yritys tarvitsee uuden kuljetusyrityksen, joka vie paketit asiakkaille. Kolme yritystä on lähettänyt tarjouksen, ja Leilan pitää hoitaa kilpailutus loppuun.\n\nLeila lukee tarjoukset. Ensimmäinen yritys pyytää kolme euroa pakettia kohden. Toinen pyytää kaksi euroa pakettia kohden, mutta lisäksi kiinteän maksun, 400 euroa kuukaudessa. Kolmas pyytää 2,50 euroa pakettia kohden, mutta vähintään 1 000 euroa kuukaudessa. Tarjouksia on vaikea verrata, koska luvut ovat abstrakteja. Euron tai puolen euron ero ei kerro mitään, ennen kuin tietää, kuinka monta pakettia lähtee.\n\nLeila hakee kirjanpidosta viime vuoden luvut. Yritys lähetti keskimäärin 250 pakettia kuukaudessa, mutta joulukuussa 900. Hän asettelee luvut taulukkoon niin, että jokaisella kuukaudella on oma rivinsä ja jokaisella tarjouksella oma sarakkeensa. Kun luvut on aseteltu oikein, abstrakti vertailu muuttuu konkreettiseksi. Ensimmäinen tarjous maksaisi vuodessa noin 11 000 euroa, toinen noin 12 100 ja kolmas noin 13 250 euroa.\n\nHalvimmalta näyttänyt tarjous ei siis ollutkaan halvin, koska kiinteä maksu tekee siitä kalliin pienillä määrillä. Kolmannen tarjouksen vähimmäismaksu taas tekee siitä kalleimman. Leila kirjoittaa Hannekselle lyhyen yhteenvedon ja liittää mukaan taulukon. Hannes lukee sen ja sanelee vastauksen: ”Kilpailutus on hoidettu hyvin. Valitaan ensimmäinen.”\n\nNeljän kuukauden päästä koeaika päättyy. Hannes kutsuu Leilan toimistoonsa ja kertoo, että työsuhde jatkuu. Leila on iloinen, että hän uskalsi kouluttautua.\n\nKysymykset:\nMitä Leila teki ennen uutta työtään?\nHän työskenteli kaksikymmentä vuotta kaupan kassalla.\nMikä on kommandiittiyhtiö?\nSe on yhtiö, jossa on vähintään kaksi omistajaa: toinen vastaa veloista koko omaisuudellaan ja toinen on sijoittanut yhtiöön rahaa.\nMiten Hannes kirjoittaa kirjeensä?\nHän sanelee ne puhelimeensa.\nMiksi tarjouksia on vaikea verrata?\nLuvut ovat abstrakteja, ennen kuin tietää, kuinka monta pakettia lähtee.\nMikä tarjous oli lopulta halvin?\nEnsimmäinen tarjous, joka maksaisi noin 11 000 euroa vuodessa."
+    },
+    {
+      "title": "Viitonen viikossa",
+      "summary": "A grandfather and his granddaughter visit a museum in Turku about the first savings bank and work out what saving five euros a week would bring in ten years.",
+      "newWords": [
+        "viitonen",
+        "säästöpankki",
+        "rupla",
+        "halme",
+        "niukka",
+        "langeta",
+        "ahne"
+      ],
+      "text": "Senja on kymmenen vuoden ikäinen ja asuu Turussa. Joka lauantai hän saa isoisältään Vilholta viitosen. Yleensä Senja käyttää rahan heti karkkiin tai lehteen, mutta nyt hän on päättänyt säästää. Vilho ehdottaa, että he käyvät ensin museossa, jossa kerrotaan säästämisen historiasta.\n\nMuseossa on näyttely ensimmäisestä suomalaisesta säästöpankista. Säästöpankki perustettiin Turkuun vuonna 1822. Sen tarkoitus oli auttaa tavallisia ihmisiä säästämään pieniä summia. Siihen aikaan Suomessa ei vielä ollut omaa markkaa. Vitriinissä on vanhoja kolikoita, ja kyltin mukaan käytössä oli muun muassa rupla. Markka otettiin käyttöön vasta vuonna 1860. Senja katsoo ruplan kolikoita tarkasti ja kysyy, paljonko yksi rupla olisi nyt euroina. Vilho myöntää, ettei sitä voi laskea helposti, koska hinnat ja palkat olivat aivan erilaiset.\n\nSeuraavassa huoneessa on kuva maaseudulta. Kuvassa perhe työskentelee halmeella. Kyltissä kerrotaan, että halme oli pelto, joka tehtiin metsään: puut kaadettiin ja poltettiin, ja tuhkaan kylvettiin viljaa. Halmeella vilja kasvoi hyvin pari vuotta, ja sitten perhe raivasi uuden halmeen toiseen paikkaan. Rahaa tällaisilla perheillä oli niukka määrä. Tulot olivat niukat, ja huonona vuonna ruokaakin oli niukasti.\n\nVitriinissä on myös vanha velkakirja. Vilho lukee sen Senjalle ääneen. Talonpoika oli lainannut keväällä rahaa siemeniin, ja laina lankesi maksettavaksi syksyllä, kun vilja oli myyty. Jos sato oli huono, velka lankesi maksettavaksi silti. Säästöpankki halusi, että ihmisillä olisi omia säästöjä pahan päivän varalle, jotta heidän ei tarvitsisi lainata niin usein.\n\nSeinällä on vanha juliste, jossa on orava. Vilho kertoo, että orava on säästöpankkien tunnus. Orava kerää syksyllä käpyjä ja pähkinöitä talveksi. ”Onko orava ahne?” Senja kysyy. ”Ei ole”, Vilho vastaa. ”Ahne ottaa enemmän kuin tarvitsee eikä jätä mitään muille. Orava kerää vain sen, mitä tarvitsee talven yli.” Senja päättää, että hän ei halua olla ahne, mutta haluaa olla yhtä viisas kuin orava.\n\nMuseon kahvilassa Vilho ottaa kynän ja laskee Senjan kanssa. Jos Senja säästää joka viikko viitosen, vuodessa kertyy 52 viitosta eli 260 euroa. Kymmenessä vuodessa summa on 2 600 euroa. Jos pankki maksaa säästöille kaksi prosenttia korkoa vuodessa, korkoa kertyy kymmenessä vuodessa vajaat 250 euroa lisää. Korko kasvaa joka vuosi, koska myös korolle maksetaan korkoa.\n\nSenja ajattelee summaa pitkään. Kymmenen vuoden päästä hän on kaksikymmentävuotias. Silloin rahalla voisi ostaa esimerkiksi oman polkupyörän ja vielä muutakin. Kotimatkalla he käyvät pankissa avaamassa Senjalle oman tilin. Senja antaa ensimmäisen viitosen virkailijalle ylpeänä.\n\nKysymykset:\nMitä Senja saa isoisältään joka lauantai?\nHän saa viitosen.\nMilloin ja minne ensimmäinen säästöpankki perustettiin?\nSe perustettiin Turkuun vuonna 1822.\nMikä halme oli?\nHalme oli pelto, joka tehtiin metsään polttamalla puut.\nMilloin talonpojan laina lankesi maksettavaksi?\nSe lankesi maksettavaksi syksyllä, kun vilja oli myyty.\nMiksi orava ei Vilhon mielestä ole ahne?\nOrava kerää vain sen, mitä tarvitsee talven yli.\nPaljonko Senja säästää vuodessa?\nHän säästää 52 viitosta eli 260 euroa."
+    },
+    {
+      "title": "Korjataanko vai rakennetaanko uusi?",
+      "summary": "The head teacher and the caretaker of an old school in Kokkola walk round the building and compare the cost of a full renovation with that of a new school.",
+      "newWords": [
+        "yhteiskoulu",
+        "peruskorjaus",
+        "vireillä",
+        "laiminlyönti",
+        "kahdestaan",
+        "mätä",
+        "tukahduttaa"
+      ],
+      "text": "Kokkolan vanha yhteiskoulu on rakennettu vuonna 1958. Yhteiskoulussa opiskelee nykyään noin 400 oppilasta, ja rakennus on päässyt huonoon kuntoon. Kaupungissa on keskusteltu jo kahdeksan vuotta, pitäisikö koulu korjata vai rakentaa kokonaan uusi. Koulun peruskorjaus on ollut kaupungin suunnitelmissa vireillä koko sen ajan, mutta päätöstä ei ole tehty.\n\nRehtori Eila Kivelä on saanut tehtäväksi kirjoittaa kaupungille selvityksen koulun kunnosta. Eräänä iltana, kun oppilaat ovat lähteneet, hän kiertää rakennuksen talonmies Raimo Hannulan kanssa. He kulkevat kahdestaan pitkin hiljaisia käytäviä, ja Raimo näyttää paikat, jotka hän tuntee parhaiten.\n\nToisen kerroksen luokissa ikkunoiden puiset karmit ovat mädät. Raimo painaa yhtä karmia ruuvimeisselillä, ja puu antaa periksi kuin sieni. ”Tämä on ollut mätää jo vuosia”, hän sanoo. ”Ikkunat olisi pitänyt maalata kymmenen vuotta sitten, mutta siihen ei ollut rahaa.” Rehtori kirjoittaa muistiin, että mädän puun takia lämpöä karkaa talvella ulos.\n\nKellarissa on kosteaa, ja katossa näkyy vanhoja vesijälkiä. Raimo kertoo, että katto vuoti kolme talvea, ennen kuin se korjattiin. Rehtori ymmärtää, että suuri osa koulun ongelmista johtuu laiminlyönnistä. Pienet korjaukset jäivät vuosi toisensa jälkeen tekemättä, ja nyt edessä on suuri lasku. Laiminlyönti ei ole kenenkään yksittäisen ihmisen syy, vaan monen säästöpäätöksen summa.\n\nSeuraavana päivänä rehtori laskee lukuja. Insinöörin arvion mukaan peruskorjaus maksaisi noin 14 miljoonaa euroa ja uusi koulu noin 20 miljoonaa. Peruskorjaus näyttää halvemmalta, mutta korjattu rakennus kestäisi noin 25 vuotta ja uusi noin 50 vuotta. Rehtori jakaa hinnat vuosilla. Peruskorjaus maksaisi siis vuotta kohden noin 560 000 euroa, uusi koulu 400 000 euroa. Pitkällä aikavälillä uusi koulu olisi edullisempi, vaikka sen hinta on suurempi.\n\nRehtori esittelee laskelmansa kaupungin kokouksessa. Kokous on pitkä, ja salissa on lämmin. Eräs osallistuja tukahduttaa haukotuksen, kun puhe kestää jo toista tuntia. Rehtori itsekin joutuu tukahduttamaan väsymyksensä, mutta hän jatkaa rauhallisesti. Hän muistuttaa, että jos asia on vielä pitkään vireillä, ikkunat ja katto ehtivät mennä yhä huonompaan kuntoon.\n\nKokouksen jälkeen Raimo kysyy, miten kävi. Rehtori kertoo, että päätös tehdään ensi kuussa. Raimo hymyilee ja sanoo, että hän vaihtaa ennen talvea pahimmat mädät karmit väliaikaisesti uusiin. Yhteiskoulun oppilaat saavat ainakin lämpimät luokat.\n\nKysymykset:\nKuinka kauan koulun peruskorjaus on ollut vireillä?\nSe on ollut vireillä kahdeksan vuotta.\nKenen kanssa rehtori kiertää rakennuksen?\nHän kiertää sen kahdestaan talonmies Raimo Hannulan kanssa.\nMitä toisen kerroksen ikkunoissa on vialla?\nIkkunoiden puiset karmit ovat mädät.\nMistä suuri osa koulun ongelmista johtuu?\nNe johtuvat laiminlyönnistä, koska pienet korjaukset jäivät tekemättä.\nMiksi uusi koulu olisi pitkällä aikavälillä edullisempi?\nUusi koulu kestäisi kaksi kertaa niin kauan, joten se maksaisi vähemmän vuotta kohden."
+    },
+    {
+      "title": "Kuinka korkealla leija lentää?",
+      "summary": "On a farm holiday near Savonlinna a grandfather and his grandson fly a kite, work out how high it is, count chicks and watch a film outdoors.",
+      "newWords": [
+        "lomailla",
+        "tipu",
+        "tuulla",
+        "lennättää",
+        "mokoma",
+        "kulkija",
+        "viihdyttää",
+        "valkokangas"
+      ],
+      "text": "Esa ja hänen lapsenlapsensa Niilo lomailevat viikon maatilalla Savonlinnan lähellä. Niilo on yhdeksän vuoden ikäinen, ja hän on ensimmäistä kertaa lomailemassa ilman vanhempiaan. Maatilan emäntä Terttu Rytkönen ottaa joka kesä vastaan vieraita. Hänen mielestään vieraita ei tarvitse viihdyttää koko ajan, koska maatila viihdyttää heitä itse.\n\nEnsimmäisenä aamuna Niilo juoksee katsomaan kanoja. Yksi kanoista on saanut poikasia, ja pienet keltaiset tiput juoksevat emonsa ympärillä. Niilo yrittää laskea niitä, mutta se on vaikeaa, koska tipu ei pysy hetkeäkään paikallaan. Hän saa ensin seitsemän, sitten yhdeksän. Terttu neuvoo häntä laskemaan tipuja silloin, kun ne syövät, koska silloin ne pysyvät paremmin paikallaan. Niin Niilo saa tulokseksi kahdeksan tipua.\n\nIltapäivällä alkaa tuulla. Esa on tuonut mukanaan leijan, ja he menevät pellolle lennättämään sitä. Esa näyttää, miten leijaa lennätetään: naru pidetään kireällä, ja se nostetaan tuulta vasten. Kun tuulee tasaisesti, se nousee nopeasti korkealle.\n\nNiilo haluaa tietää, kuinka korkealla se lentää. Esa kertoo, että narua on 60 metriä. Naru ei kuitenkaan mene suoraan ylös, vaan on vinossa. Esa arvioi, että naru on noin 30 asteen kulmassa maahan nähden. ”Kun kulma on 30 astetta, korkeus on puolet narun pituudesta”, hän selittää. Niilo laskee: puolet 60 metristä on 30 metriä. Se lentää siis suunnilleen yhtä korkealla kuin kymmenen kerroksen talo.\n\nSilloin tuuli yhtäkkiä heikkenee, ja leija alkaa laskeutua. ”Voi sitä mokomaa tuulta!” Esa sanoo nauraen. ”Kun sitä tarvitaan, se lakkaa.” Niilo juoksee narun kanssa pitkin peltoa, ja leija nousee taas hetkeksi. Esa toteaa, että mokoma leija tarvitsee enemmän tuulta kuin he kaksi jaksavat juosta.\n\nPellon vieressä kulkee tie, jota pitkin ihmiset kulkevat jalan ja pyörällä. Moni kulkija pysähtyy katsomaan leijaa. Eräs kulkija kertoo, että hän lennätti lapsena samanlaista leijaa samalla pellolla. Toinen kulkija kysyy, kuinka korkealla leija on, ja Niilo kertoo ylpeänä laskemansa luvun.\n\nIllalla Terttu on pystyttänyt pihalle valkokankaan. Vieraille näytetään vanha suomalainen elokuva, ja kaikki istuvat peittojen alla penkeillä. Valkokangas liikkuu vähän, koska vieläkin tuulee hiukan. Niilon mielestä elokuva valkokankaalla ulkona on hauskempi kuin televisiossa. Ennen kuin Niilo menee nukkumaan, hän käy vielä katsomassa, että jokainen tipu on emonsa vieressä.\n\nKysymykset:\nMissä Esa ja Niilo lomailevat?\nHe lomailevat maatilalla Savonlinnan lähellä.\nMiten Niilo saa tiput laskettua?\nHän laskee ne silloin, kun ne syövät, ja saa tulokseksi kahdeksan tipua.\nMiten Esa laskee, kuinka korkealla leija lentää?\nKun naru on 30 asteen kulmassa, korkeus on puolet narun pituudesta, eli 30 metriä.\nMitä Esa sanoo, kun tuuli heikkenee?\nHän sanoo nauraen: ”Voi sitä mokomaa tuulta!”\nMitä eräs kulkija kertoo?\nHän kertoo lennättäneensä lapsena samanlaista leijaa samalla pellolla.\nMissä vieraat katsovat elokuvaa?\nHe katsovat elokuvaa pihalla valkokankaalta."
+    },
+    {
+      "title": "Toimiiko voide?",
+      "summary": "At a library talk in Oulu a specialist doctor explains how researchers find out whether a skin cream really works, and answers a question about yoga.",
+      "newWords": [
+        "erikoislääkäri",
+        "voide",
+        "selittyä",
+        "efekti",
+        "vaikuttavuus",
+        "ankarasti",
+        "jooga",
+        "vakaumus"
+      ],
+      "text": "Oulun pääkirjastossa järjestettiin tiistaina yleisöluento, jonka aiheena oli kysymys: mistä tiedämme, että hoito toimii? Luennon piti ihotautien erikoislääkäri Heikki Pirhonen. Hän on työskennellyt erikoislääkärinä kaksikymmentä vuotta, ja hänen mukaansa potilaat kysyvät häneltä tätä lähes joka päivä.\n\nPirhonen aloitti esimerkillä. Potilaalla on kuiva ja kutiseva iho, ja hän ostaa apteekista uuden voiteen. Hän levittää voidetta iholle joka ilta, ja kahden viikon päästä iho on parempi. Potilas päättelee, että voide toimi. ”Päätelmä tuntuu luonnolliselta”, Pirhonen sanoi, ”mutta se voi olla väärä.”\n\nHänen mukaansa paraneminen voi selittyä monella muulla tavalla. Moni ihovaiva paranee itsestään parissa viikossa. Paraneminen voi selittyä myös sillä, että samaan aikaan sää muuttui kosteammaksi tai potilas alkoi juoda enemmän vettä. Lisäksi ihminen hoitaa ihoaan huolellisemmin, kun hän on juuri ostanut uuden tuotteen.\n\nErityisen tärkeä on niin sanottu plasebo. Kun ihminen uskoo saavansa hoitoa, hän voi tuntea olonsa paremmaksi, vaikka voiteessa ei olisi mitään vaikuttavaa ainetta. Tämä efekti on todellinen ja usein yllättävän suuri. Siksi kukaan ei voi omien kokemustensa perusteella tietää, johtuuko paraneminen voiteesta vai tästä efektistä.\n\nMiten voiteen vaikuttavuus sitten mitataan? Pirhonen selitti, että tutkimuksessa potilaat jaetaan satunnaisesti kahteen ryhmään. Toinen ryhmä saa oikeaa voidetta, toinen voidetta, joka näyttää ja tuoksuu samalta, mutta jossa ei ole vaikuttavaa ainetta. Potilaat eivät tiedä, kumpaa he saavat, eivätkä tiedä lääkärit, jotka arvioivat ihoa. Jos oikean voiteen ryhmässä iho paranee selvästi useammin, voiteella on vaikuttavuutta. Jos ryhmät paranevat yhtä hyvin, paraneminen selittyy muilla syillä.\n\nPirhosen mukaan tutkimusten laatua arvioidaan ankarasti. Pieni tutkimus, jossa on vain kaksikymmentä potilasta, ei riitä. Myös tutkimuksen rahoittaja tarkistetaan, ja tulosten täytyy toistua useammassa tutkimuksessa. ”Arvioimme ankarasti, koska haluamme, että potilaat saavat hoitoa, joka todella auttaa”, hän sanoi.\n\nLuennon lopussa yleisöstä kysyttiin joogasta. Eräs kuulija kertoi, että hänen selkäkipunsa helpottivat, kun hän aloitti joogan. Pirhonen vastasi, että joogaa on tutkittu paljon ja sillä näyttää olevan hyötyä selkäkipuun. Jooga on kuitenkin vaikea tutkia samalla tavalla kuin voidetta, koska ihminen tietää aina, harrastaako hän joogaa vai ei. Siksi tulokset ovat varovaisempia.\n\nLopuksi Pirhonen kertoi oman vakaumuksensa. ”Vakaumukseni on, että potilaalla on oikeus tietää, mihin hoito perustuu”, hän sanoi. ”Se ei tarkoita, että kokemus olisi turha. Kokemus kertoo, mitä kannattaa tutkia.” Yleisö kiitti erikoislääkäriä pitkillä aplodeilla.\n\nKysymykset:\nKuka piti luennon?\nLuennon piti ihotautien erikoislääkäri Heikki Pirhonen.\nMillä muilla tavoilla ihon paraneminen voi selittyä?\nIho voi parantua itsestään, sää voi muuttua tai potilas voi hoitaa ihoaan huolellisemmin.\nMitä plasebo tarkoittaa?\nSe on efekti, jossa ihminen voi tuntea olonsa paremmaksi, kun hän uskoo saavansa hoitoa, vaikka voiteessa ei olisi vaikuttavaa ainetta.\nMiten voiteen vaikuttavuus mitataan?\nPotilaat jaetaan satunnaisesti kahteen ryhmään, joista toinen saa oikeaa voidetta ja toinen voidetta ilman vaikuttavaa ainetta.\nMiksi joogaa on vaikea tutkia samalla tavalla kuin voidetta?\nIhminen tietää aina, harrastaako hän joogaa vai ei.\nMikä on Pirhosen vakaumus?\nHänen vakaumuksensa on, että potilaalla on oikeus tietää, mihin hoito perustuu."
+    }
+  ]
+}
