@@ -1,0 +1,195 @@
+{
+  "id": "fi-mini-7800",
+  "rankUpTo": 7800,
+  "level": "C1",
+  "title": "Julkiset palvelut",
+  "description": "Ten texts about Finnish public services: library tool lending, a storm and a power cut, a children's story hour, a vehicle inspection, a nutrition group at the health centre, an adult-education physics course, a city's digital services, old water pipes, employment services and a column on a growing municipality.",
+  "topic": "Public services",
+  "names": [
+    "Tarja",
+    "Leskinen",
+    "Kerava",
+    "Jouko",
+    "Kauppila",
+    "Markku",
+    "Peltoniemi",
+    "Kouvola",
+    "Turku",
+    "Iisalmi",
+    "Riitta",
+    "Forsman",
+    "Aatos",
+    "Laura",
+    "Kuitunen",
+    "Lohja",
+    "Jarmo",
+    "Tapio",
+    "Lindström",
+    "Hyvinkää",
+    "Päivi",
+    "Jokipii",
+    "Ester",
+    "Leskelä",
+    "Järvenpää",
+    "Hannu",
+    "Backman",
+    "Espoo",
+    "Niina",
+    "Kiviranta",
+    "Arto",
+    "Halttunen",
+    "Kuopio",
+    "Tuula",
+    "Kyllönen",
+    "Olli",
+    "Mattinen",
+    "Tampere",
+    "Hämeenkatu",
+    "Johanna",
+    "Rautakorpi",
+    "Kangasala"
+  ],
+  "lessons": [
+    {
+      "title": "Porakone kirjastosta",
+      "summary": "Tarja borrows a drill and a sewing machine from the Kerava library and learns why shared tools last so long.",
+      "newWords": [
+        "porata",
+        "tikki",
+        "rautalanka",
+        "painella",
+        "hyväkuntoinen",
+        "käyttöikä",
+        "muovipussi"
+      ],
+      "text": "Tarja Leskinen muutti keväällä Keravalle vanhaan kerrostaloon. Asunnossa oli paljon korjattavaa, mutta Tarja ei halunnut ostaa työkaluja, joita hän tarvitsisi ehkä vain kerran tai kaksi. Naapuri kertoi hänelle, että Keravan kirjastosta voi lainata kirjojen lisäksi myös tavaroita: poran, ompelukoneen ja jopa teltan. Tarja yllättyi. Hän oli aina pitänyt kirjastoa paikkana, jossa luetaan hiljaa, eikä paikkana, josta lähdetään kotiin pora kainalossa.\n\nLauantaina hän meni kirjastoon. Tavaroiden lainaamisesta vastaa kirjaston työntekijä Jouko Kauppila. Hän otti hyllyltä poran ja näytti, miten sitä käytetään. ”Kone on hyväkuntoinen, vaikka sitä on lainattu jo kymmeniä kertoja”, Jouko sanoi. ”Hyväkuntoinen se on siksi, että tarkistamme jokaisen koneen aina, kun se palautetaan.” Jouko kertoi, että kirjaston tavaroiden käyttöikä on yllättävän pitkä. Kun sama kone kulkee monen kodin kautta, sen koko käyttöikä käytetään hyödyksi, eikä se seiso vuosia jonkun kaapissa. Moni kotiin ostettu pora poraa koko elämänsä aikana vain muutaman reiän.\n\nKotona Tarja porasi seinään reiät kahta hyllyä varten. Ensin hän porasi yhden reiän liian lähelle ikkunaa, mutta toisella yrityksellä reiät osuivat kohdalleen. Hyllyjen lisäksi hän halusi ripustaa eteiseen vanhan peilin. Peilin takana oleva vanha koukku oli irronnut, joten Tarja taivutti uuden koukun rautalangasta. Rautalanka oli ohutta mutta vahvaa, ja peili pysyi seinällä hyvin. Jäljelle jääneen rautalangan hän laittoi talteen laatikkoon.\n\nSeuraavalla viikolla Tarja palautti poran ja lainasi ompelukoneen, koska hän halusi lyhentää uusia verhoja. Jouko näytti, mitä koneen napit tekevät. ”Tällä valitaan tikin pituus”, hän sanoi. ”Lyhyt tikki on vahva, ja pitkä tikki on helppo purkaa.” Tarja paineli nappeja hetken ja kokeili kankaan palaan, miltä eri tikit näyttävät. Jouko neuvoi, ettei nappeja kannata painella kesken ompelun vaan vasta silloin, kun kone on pysähtynyt.\n\nKone oli raskas, ja Tarja kantoi sen kotiin isossa muovipussissa. Kotona hän huomasi, että muovipussin pohjaan oli tullut reikä. Kone ei onneksi ollut mennyt rikki. Kun Tarja seuraavan kerran palautti koneen, hän toi mukanaan vahvan kassin. ”Muovipussi ei ole tehty tällaiselle painolle”, hän sanoi Joukolle. Jouko oli samaa mieltä ja kertoi, että kirjasto aikoo hankkia lainattaville koneille omat laukut.\n\nVerhot olivat valmiita illalla. Tarja katsoi niitä tyytyväisenä ja ajatteli, että kirjasto oli antanut hänelle muutakin kuin kirjoja: se oli opettanut, että kaikkea ei tarvitse omistaa itse.\n\nKysymykset:\nMitä Keravan kirjastosta voi lainata kirjojen lisäksi?\nSieltä voi lainata esimerkiksi poran, ompelukoneen ja teltan.\nMiksi kirjaston pora on hyväkuntoinen?\nSe on hyväkuntoinen, koska kirjasto tarkistaa jokaisen koneen aina, kun se palautetaan.\nMiksi kirjaston tavaroiden käyttöikä hyödynnetään paremmin kuin kotona?\nSama kone kulkee monen kodin kautta, eikä se seiso vuosia kaapissa.\nMihin Tarja käytti rautalankaa?\nHän taivutti rautalangasta uuden koukun peilille.\nMillainen tikki on vahva?\nLyhyt tikki on vahva.\nMitä muovipussille tapahtui?\nMuovipussin pohjaan tuli reikä, koska kone oli raskas."
+    },
+    {
+      "title": "Myrskyn jälkeen",
+      "summary": "Markku keeps a diary during a three-day power cut in Kouvola and sees how the city and the power company work together.",
+      "newWords": [
+        "katko",
+        "kopteri",
+        "rankasti",
+        "ylihuomenna",
+        "ymmärrettävästi",
+        "koordinoida",
+        "tyytymättömyys"
+      ],
+      "text": "Markku Peltoniemi asuu yksin vanhassa omakotitalossa Kouvolan lähellä. Eräänä marraskuuna hän kirjoitti päiväkirjaa kolmen päivän ajan.\n\nTiistai 14. marraskuuta\n\nEilen illalla alkoi sataa rankasti, ja yön aikana tuuli voimistui myrskyksi. Kello yhden jälkeen valot sammuivat. Aamulla sähköt olivat yhä poikki, ja talossa oli viileää. Sähköyhtiön sivuilla kerrottiin, että katko koskee yli 3 000 kotia Kouvolan seudulla. Syynä ovat linjoille kaatuneet puut. Yhtiö arvioi, että sähköt palaavat viimeistään ylihuomenna. Ylihuomenna! Se tuntui pitkältä ajalta, kun talossa lämpeni vain takka.\n\nPuhelimen akku oli puolillaan, joten säästin sitä ja kuuntelin uutisia vanhasta paristoradiosta. Radiossa kerrottiin, että kaupunki ja sähköyhtiö koordinoivat työtä yhdessä. Kaupunki avasi kylän koulun liikuntasalin, jossa voi lämmitellä, juoda kahvia ja ladata puhelimen. Joku siis koordinoi kaikkea tätä, vaikka me emme sitä täällä näe.\n\nIltapäivällä talon yli lensi matalalla kopteri. Naapurini kertoi, että sähköyhtiö tarkastaa linjat kopterista, koska metsäteillä on niin paljon kaatuneita puita, ettei autolla pääse joka paikkaan. Kopterista näkee nopeasti, missä vika on, ja asentajat voidaan lähettää suoraan oikeaan paikkaan.\n\nKeskiviikko 15. marraskuuta\n\nYöllä satoi taas rankasti, mutta tuuli tyyntyi. Kävin aamulla koulun liikuntasalissa. Siellä oli kymmeniä ihmisiä, enimmäkseen vanhuksia ja lapsiperheitä. Kaupungin työntekijät jakoivat keittoa ja neuvoivat, mistä saa vettä niille, joiden kaivon pumppu toimii sähköllä.\n\nKaikki eivät olleet tyytyväisiä. Kaupungin keskustelupalstalla näkyi paljon tyytymättömyyttä. Moni kysyi, miksi linjojen lähellä kasvavia puita ei ole kaadettu ajoissa. Tyytymättömyys on ymmärrettävää: katko on jo toinen tänä syksynä. Ymmärrettävästi ihmiset ovat väsyneitä, kun kotona on kylmää ja ruoka pakastimessa sulaa. Silti salissa tunnelma oli rauhallinen, ja ihmiset auttoivat toisiaan.\n\nIllalla sähköyhtiö ilmoitti, että suurin osa kodeista saa sähköt takaisin huomenna. Meidän kylämme kohdalla arvio oli edelleen sama kuin eilen. Ymmärrettävästi ensin korjataan ne linjat, joiden varrella on eniten koteja.\n\nTorstai 16. marraskuuta\n\nKello 11.40 jääkaappi alkoi yhtäkkiä hurista. Sähköt olivat palanneet! Katko kesti lopulta vähän alle kolme vuorokautta. Soitin heti tyttärelleni Turkuun ja kerroin, että kaikki on hyvin.\n\nIltapäivällä kopteri lensi vielä kerran kylän yli. Ajattelin, että sen kyydissä oli joku, joka oli tehnyt töitä koko viikon, jotta me saisimme valot takaisin. Kirjoitan tähän muistiin, mitä opin: talossa pitää olla aina kuivia puita, paristoja ja vettä. Seuraava katko tulee varmasti, mutta silloin olen valmiimpi.\n\nKysymykset:\nMiksi sähköt katkesivat?\nSähköt katkesivat, koska linjoille kaatui puita, kun satoi rankasti ja tuuli voimistui myrskyksi.\nMitä kaupunki ja sähköyhtiö tekivät yhdessä?\nNe koordinoivat työtä, ja kaupunki avasi koulun liikuntasalin, jossa sai lämmitellä ja ladata puhelimen.\nMiksi sähköyhtiö tarkastaa linjat kopterista?\nMetsäteillä on niin paljon kaatuneita puita, ettei autolla pääse joka paikkaan.\nMiksi keskustelupalstalla näkyi tyytymättömyyttä?\nMoni kysyi, miksi linjojen lähellä kasvavia puita ei ole kaadettu ajoissa, ja katko oli jo toinen tänä syksynä.\nMilloin sähköyhtiö arvioi tiistaina sähköjen palaavan?\nYhtiö arvioi, että sähköt palaavat viimeistään ylihuomenna.\nKuinka kauan katko kesti?\nKatko kesti vähän alle kolme vuorokautta.\nMitä Markku oppi katkon aikana?\nHän oppi, että talossa pitää olla aina kuivia puita, paristoja ja vettä."
+    },
+    {
+      "title": "Peikko ja kontio",
+      "summary": "At the Iisalmi library's story hour, shy Aatos listens to a book about a troll and a bear and learns what a synonym is.",
+      "newWords": [
+        "peikko",
+        "kontio",
+        "palikka",
+        "leijua",
+        "synonyymi",
+        "tietämättään",
+        "vaisu"
+      ],
+      "text": "Iisalmen kirjastossa luetaan joka keskiviikko satuja pienille lapsille. Satuja lukee kirjaston työntekijä Riitta Forsman. Kirjaston lasten puolella on nurkka, jossa on pehmeä matto, tyynyjä ja laatikko täynnä puisia palikoita. Lapset istuvat matolle, ja Riitta istuu heidän eteensä matalalle tuolille.\n\nTänä keskiviikkona paikalle tulee uusi poika, viisivuotias Aatos, isänsä kanssa. Aatos on aluksi vaisu. Hän istuu matolla aivan isänsä vieressä eikä vastaa, kun Riitta kysyy hänen nimeään. Riitta ei kiirehdi. Hän tietää, että moni lapsi on ensimmäisellä kerralla vaisu, mutta hyvä tarina saa useimmat unohtamaan, että he ovat ujoja.\n\nRiitta lukee kirjaa pienestä peikosta, joka asuu suuren kuusen juurella. Peikko on ystävällinen, mutta sillä ei ole ystäviä. Eräänä päivänä tuuli nostaa koivun lehden ilmaan, ja lehti leijuu hitaasti peikon eteen. Peikko lähtee seuraamaan leijuvaa lehteä ja tapaa metsässä suuren kontion, joka nukkuu kiven vieressä.\n\nRiitta pysähtyy ja kysyy lapsilta, tietävätkö he, mikä kontio on. Yksi tyttö arvaa, että se on hirvi. Riitta näyttää kuvaa. ”Kontio on karhu”, hän sanoo. ”Vanhat ihmiset käyttivät karhusta monta nimeä. Kontio ja karhu ovat synonyymejä. Synonyymi on sana, joka tarkoittaa samaa kuin toinen sana.” Hän antaa toisenkin esimerkin: iso ja suuri ovat synonyymejä.\n\nKirjassa kontio herää ja on ensin huonolla tuulella. Peikko ei kuitenkaan pelkää, vaan näyttää karhulle lehteä, joka leijuu yhä ilmassa. Kontio nauraa, ja niistä tulee ystävät. Ne rakentavat yhdessä talon kivistä ja kepeistä.\n\nKun kirja on luettu, Riitta antaa lapsille palikat. Jokainen saa rakentaa peikolle ja kontiolle talon. Aatos siirtyy isänsä vierestä palikoiden luo. Hän rakentaa korkean talon ja asettaa sen viereen pienen nallen, joka on kirjaston lelu. ”Tämä on nalle”, hän sanoo hiljaa. ”Se on myös karhu.”\n\nRiitta hymyilee. Aatos on tietämättään keksinyt uuden synonyymin. ”Aivan oikein”, Riitta sanoo. ”Nalle, karhu ja kontio. Sinä löysit kolmannen nimen.” Aatos katsoo isäänsä ylpeänä. Hän ei vielä tiedä, mikä synonyymi on, mutta hän tietää, että hän keksi jotain hyvää. Monesti lapset oppivat tietämättään, kun he leikkivät.\n\nLopuksi Riitta puhaltaa kuplia saippuavedestä. Kuplat leijuvat ikkunan valossa, ja lapset yrittävät saada niitä kiinni. Aatos ei ole enää vaisu. Kotimatkalla hän kysyy isältään, saavatko he tulla taas ensi viikolla.\n\nKysymykset:\nKenelle Iisalmen kirjastossa luetaan satuja keskiviikkoisin?\nSatuja luetaan pienille lapsille.\nMillainen Aatos on aluksi?\nAatos on aluksi vaisu, eikä hän vastaa, kun Riitta kysyy hänen nimeään.\nMiten peikko löytää kontion?\nPeikko seuraa ilmassa leijuvaa lehteä ja tapaa metsässä kontion, joka nukkuu kiven vieressä.\nMikä synonyymi on?\nSynonyymi on sana, joka tarkoittaa samaa kuin toinen sana.\nMitä lapset tekevät palikoilla?\nHe rakentavat peikolle ja kontiolle talon.\nMinkä synonyymin Aatos keksii tietämättään?\nHän keksii, että nalle on karhu."
+    },
+    {
+      "title": "Katsastuksessa",
+      "summary": "Laura takes her old turbo car to its yearly inspection in Lohja, and her father learns that his worry was unfounded.",
+      "newWords": [
+        "katsastus",
+        "turbo",
+        "momentti",
+        "kulkuneuvo",
+        "perusteeton",
+        "maksaja",
+        "huimasti"
+      ],
+      "text": "Laura Kuitunen on 24-vuotias sairaanhoitaja, joka asuu Lohjalla. Keväällä hän osti käytetyn auton, joka on jo viisitoista vuotta vanha. Autossa on pieni moottori ja turbo. Myyjä kehui, että turbo antaa pienelle moottorille huimasti lisää voimaa. Laura ei tiennyt turboista mitään, mutta hänen isänsä Jarmo tietää. Jarmo on korjannut autoja koko ikänsä.\n\nSyyskuussa autolle tuli katsastus. Suomessa katsastus on pakollinen kaikille liikenteessä käytettäville kulkuneuvoille: henkilöautoille, kuorma-autoille, moottoripyörille ja monille perävaunuille. Katsastuksessa tarkistetaan, että kulkuneuvo on turvallinen ja ettei siitä aiheudu liikaa päästöjä. Vanhat autot katsastetaan joka vuosi.\n\nJarmo lupasi tulla mukaan. Hän lupasi myös maksaa katsastuksen, koska se oli hänen lahjansa tyttärelle. Katsastusasemalla virkailija kysyi, kuka on laskun maksaja. ”Minä olen maksaja”, Jarmo sanoi ja otti kortin esiin. Laura nauroi. Hän olisi voinut maksaa itsekin, mutta isä halusi auttaa.\n\nOdottaessaan Jarmo kertoi, että häntä huolestutti turbo. Ajaessaan auton asemalle Laura oli kuullut moottorista hiljaista vihellystä. Jarmo pelkäsi, että turbo on kulunut ja että katsastus menee siksi läpi vain korjauksen jälkeen. ”Vanhoissa autoissa turbo on usein ensimmäinen osa, joka hajoaa”, hän sanoi.\n\nKatsastaja tarkisti jarrut, valot, renkaat ja pohjan. Sitten hän mittasi päästöt ja kuunteli moottoria. Laura kysyi, onko vihellys merkki viasta. Katsastaja hymyili. ”Huolenne on perusteeton”, hän sanoi Jarmolle. ”Turbo viheltää aina vähän, kun se alkaa toimia. Se kuuluu asiaan.” Hän selitti, että turbo puristaa moottoriin enemmän ilmaa, jolloin moottori tuottaa enemmän momenttia. Momentti on se voima, joka saa auton lähtemään liikkeelle ja kiihtymään. ”Pienessä moottorissa ilman turboa momenttia olisi paljon vähemmän”, hän sanoi.\n\nJarmo myönsi, että hänen pelkonsa oli ollut perusteeton. Hän oli tottunut vanhoihin autoihin, joissa turbo oli harvinainen. Nykyään tilanne on muuttunut huimasti: lähes kaikissa uusissa pienissä autoissa on turbo.\n\nAuto meni katsastuksesta läpi. Katsastaja huomautti vain, että toinen jarruvalo oli himmeä, ja neuvoi vaihtamaan lampun pian. Jarmo vaihtoi lampun samana iltana Lauran pihalla. Siihen meni viisi minuuttia.\n\nKotimatkalla Laura kiitti isäänsä. ”Ensi vuonna maksaja olen minä”, hän sanoi. Jarmo lupasi silti tulla mukaan, sillä katsastus on hänen mielestään aina kiinnostava tapahtuma.\n\nKysymykset:\nMillainen auto Lauralla on?\nHänellä on viisitoista vuotta vanha auto, jossa on pieni moottori ja turbo.\nMiksi vanhat autot katsastetaan?\nKatsastuksessa tarkistetaan, että kulkuneuvo on turvallinen ja ettei siitä aiheudu liikaa päästöjä.\nKuka oli laskun maksaja?\nJarmo oli maksaja, koska katsastus oli hänen lahjansa tyttärelle.\nMiksi Jarmo oli huolissaan?\nHän pelkäsi, että turbo on kulunut, koska moottorista kuului vihellystä.\nMitä turbo tekee momentille?\nTurbo puristaa moottoriin enemmän ilmaa, jolloin moottori tuottaa enemmän momenttia.\nMitä katsastaja huomautti?\nHän huomautti, että toinen jarruvalo oli himmeä."
+    },
+    {
+      "title": "Ravitsemusryhmä terveyskeskuksessa",
+      "summary": "In Hyvinkää, Tapio learns about his underactive thyroid and joins a health-centre group where he grates carrots and bakes rolls.",
+      "newWords": [
+        "lihavuus",
+        "vajaatoiminta",
+        "keskiverto",
+        "sisäistää",
+        "houkutus",
+        "raastaa",
+        "sämpylä"
+      ],
+      "text": "Tapio Lindström on 58-vuotias bussin kuljettaja Hyvinkäältä. Syksyllä hän oli koko ajan väsynyt, ja hänen painonsa oli noussut, vaikka hän ei mielestään syönyt aiempaa enempää. Hän varasi ajan terveyskeskuksesta. Lääkäri määräsi hänelle kokeita, ja muutaman päivän päästä Tapio sai tietää syyn: hänellä on kilpirauhasen vajaatoiminta.\n\nLääkäri selitti, että vajaatoiminta tarkoittaa, että kilpirauhanen tuottaa liian vähän hormonia. Silloin elimistö toimii ikään kuin hitaammalla vaihteella. Ihminen väsyy, palelee ja lihoo helpommin. Vajaatoiminta on yleinen, ja sitä hoidetaan tabletilla, joka otetaan joka aamu. Tapio oli helpottunut. Hän oli pelännyt jotain paljon vakavampaa.\n\nLääkäri kertoi myös, että terveyskeskuksessa toimii ravitsemusryhmä. Ryhmä kokoontuu kuusi kertaa, ja sitä ohjaa hoitaja Päivi Jokipii. Ensimmäisellä kerralla Päivi puhui rauhallisesti lihavuudesta. Hänen mukaansa lihavuus on tavallinen terveyteen liittyvä asia eikä kenenkään vika. ”Lihavuus kehittyy yleensä vuosien aikana, ja siksi se ei myöskään häviä viikossa”, hän sanoi. Hän näytti kuvaa, josta näki, mitä keskiverto aikuinen syö päivässä. Keskiverto aikuinen syö kasviksia selvästi vähemmän kuin suositellaan.\n\nPäivin mielestä tärkeintä ei ole tieto vaan tapa. Moni tietää jo, mitä kannattaisi syödä. Vaikeampaa on sisäistää uudet tavat niin, että niitä noudattaa ilman ajattelemista. ”Kun tavan on sisäistänyt, sitä ei tarvitse enää muistaa”, hän sanoi. Tavan sisäistäminen vie hänen mukaansa yleensä muutaman kuukauden.\n\nToisella kerralla puhuttiin houkutuksista. Tapion suurin houkutus on ilta. Kun hän tulee vuorosta kotiin, hän syö usein makeaa television edessä. Päivi neuvoi, että houkutus on helpompi voittaa, kun kotona on valmiina jotain muuta. Hän ei kieltänyt herkkuja, vaan neuvoi syömään niitä harvemmin ja pienempiä annoksia.\n\nKolmannella kerralla ryhmä kokoontui terveyskeskuksen keittiöön. Jokainen sai raastaa porkkanaa ja kaalia salaattiin. Tapio ei ollut raastanut mitään sitten lapsuutensa. Raastettu porkkana oli makeaa, ja hän ihmetteli, miksi hän ei ollut tehnyt tätä aiemmin. Sitten Päivi näytti, miten leivotaan täysjyväsämpylöitä. Taikinaan laitettiin kauraa, siemeniä ja porkkanaa, jonka he olivat itse raastaneet. Kun sämpylät tulivat uunista, keittiö tuoksui leipomolta.\n\nNyt Tapio leipoo sämpylöitä joka sunnuntai ja vie niitä töihin. Ilta on yhä hankala, mutta hän on oppinut syömään sämpylän ja salaattia ennen kuin makean houkutus herää. Kilpirauhasen lääke on alkanut auttaa, ja väsymys on vähentynyt. Paino on laskenut hitaasti, mutta Tapio ei pidä kiirettä.\n\nKysymykset:\nMiksi Tapio meni terveyskeskukseen?\nHän oli koko ajan väsynyt, ja hänen painonsa oli noussut.\nMitä kilpirauhasen vajaatoiminta tarkoittaa?\nSe tarkoittaa, että kilpirauhanen tuottaa liian vähän hormonia, ja elimistö toimii hitaammin.\nMitä Päivi sanoi lihavuudesta?\nHänen mukaansa lihavuus on tavallinen terveyteen liittyvä asia, joka kehittyy vuosien aikana.\nMiksi uusien tapojen sisäistäminen on tärkeää?\nKun tavan on sisäistänyt, sitä ei tarvitse enää muistaa.\nMikä on Tapion suurin houkutus?\nHänen suurin houkutuksensa on syödä makeaa illalla television edessä.\nMitä ryhmä teki terveyskeskuksen keittiössä?\nRyhmä raastoi porkkanaa ja kaalia salaattiin ja leipoi täysjyväsämpylöitä."
+    },
+    {
+      "title": "Fysiikkaa kansalaisopistossa",
+      "summary": "Retired Ester joins an evening physics course at the Järvenpää adult education centre and learns about atoms, vacuum and the eye.",
+      "newWords": [
+        "optinen",
+        "iiris",
+        "atomi",
+        "tyhjiö",
+        "kiintoisa",
+        "verrattavissa",
+        "samantyyppinen"
+      ],
+      "text": "Ester Leskelä jäi eläkkeelle kaupan kassalta kaksi vuotta sitten. Koulussa fysiikka oli hänestä vaikeaa, mutta nyt hän halusi antaa sille uuden mahdollisuuden. Hän ilmoittautui Järvenpään kansalaisopiston kurssille, jonka nimi on ”Fysiikkaa arjessa”. Kurssi kokoontuu joka tiistai illalla koulun luokassa, ja sen opettaja Hannu Backman on lukion fysiikan opettaja.\n\nEnsimmäisenä iltana puhuttiin atomeista. Hannu kertoi, että kaikki ympärillämme on tehty atomeista: pöytä, ilma, vesi ja ihminen itse. Atomi on niin pieni, ettei sitä voi nähdä silmällä eikä tavallisella linssillä. Hannu antoi vertauksen: jos atomi olisi jalkapallokentän kokoinen, sen ydin olisi kooltaan verrattavissa herneeseen, joka on keskellä kenttää. Kaikki muu atomissa on lähes tyhjää tilaa. Ester piti ajatusta kiintoisana. Hänen kätensä ja pöytä tuntuivat kiinteiltä, mutta ne olivat melkein kokonaan tyhjää.\n\nToisena iltana Hannu toi luokkaan suuren lasipurkin ja pumpun. Hän laittoi purkkiin pienen kellon, joka soi. Sitten hän alkoi pumpata ilmaa pois. Vähitellen kellon ääni hiljeni, vaikka kello soi yhä. Kun purkissa oli lähes tyhjiö, ääntä ei kuulunut lainkaan. Hannu selitti, että ääni tarvitsee ilmaa tai jotain muuta ainetta kulkeakseen. Tyhjiössä ääni ei kulje, mutta valo kulkee. Siksi auringon valo pääsee maahan asti, vaikka avaruus on lähes tyhjiö.\n\nKolmantena iltana aiheena oli valo ja silmä. Hannu näytti optisia harhoja: kaksi yhtä pitkää viivaa, joista toinen näytti pidemmältä, ja kuvan, jossa sama harmaa ruutu näytti eri taustoilla eri väriseltä. ”Optinen harha syntyy siitä, että aivot tulkitsevat sen, minkä silmä näkee”, Hannu sanoi. Optinen ei siis tarkoita vain linssejä ja silmälaseja, vaan kaikkea, mikä liittyy valoon ja näkemiseen.\n\nSitten Hannu kertoi iiriksestä. Iiris on silmän värillinen osa, ja sen keskellä on musta aukko. Kirkkaassa valossa iiris pienentää aukkoa, jotta silmään ei pääse liikaa valoa. Hämärässä iiris päästää aukon suureksi. Hannu näytti vanhaa kameraa, jonka linssin edessä on samantyyppinen rakenne. Ohuet metallin palat avautuvat ja sulkeutuvat samaan tapaan kuin iiris. Samantyyppinen ratkaisu toimii siis sekä luonnossa että tekniikassa. Ester katsoi peiliin ja huomasi, että hänen iiriksensä väri oli harmaan ja vihreän välillä.\n\nKurssin lopussa Ester sanoi Hannulle, että hän ei ollut koskaan ajatellut fysiikkaa näin kiintoisana. Hannu vastasi, että hänen mielestään fysiikka on kiintoisaa juuri siksi, että se selittää arkisia asioita. Ester aikoo ilmoittautua keväällä uudelle kurssille.\n\nKysymykset:\nMikä kurssi Esterillä on kansalaisopistossa?\nHän on kurssilla, jonka nimi on ”Fysiikkaa arjessa”.\nMihin Hannu vertasi atomin ydintä?\nHän sanoi, että jos atomi olisi jalkapallokentän kokoinen, sen ydin olisi verrattavissa herneeseen.\nMitä tapahtui kellon äänelle, kun purkissa oli lähes tyhjiö?\nÄäntä ei kuulunut lainkaan, koska ääni ei kulje tyhjiössä.\nMiten optinen harha syntyy?\nSe syntyy siitä, että aivot tulkitsevat sen, minkä silmä näkee.\nMitä iiris tekee kirkkaassa valossa?\nIiris pienentää silmän aukkoa, jotta silmään ei pääse liikaa valoa.\nMissä on samantyyppinen rakenne kuin iiriksessä?\nVanhan kameran linssin edessä on samantyyppinen rakenne."
+    },
+    {
+      "title": "Kaupungin palvelut puhelimessa",
+      "summary": "The Espoo city online magazine interviews Niina, an analyst who works on the city's new app, its open source code and safe old hard drives.",
+      "newWords": [
+        "verkkolehti",
+        "analyytikko",
+        "lähdekoodi",
+        "toiminnallinen",
+        "esto",
+        "sormenjälki",
+        "kovalevy"
+      ],
+      "text": "Espoon kaupungin verkkolehti esittelee joka kuukausi yhden kaupungin työntekijän. Tällä kertaa verkkolehti haastatteli Niina Kivirantaa, joka työskentelee analyytikkona kaupungin digitaalisissa palveluissa.\n\nMitä analyytikko tekee kaupungilla?\n\n”Minä selvitän, miten asukkaat käyttävät kaupungin sähköisiä palveluja. Seuraan esimerkiksi, kuinka moni varaa ajan terveysasemalle puhelimella ja kuinka moni jättää varauksen kesken. Jos jokin vaihe on liian hankala, sen näkee numeroista. Analyytikko ei siis arvaa, vaan katsoo, mitä tiedot kertovat.”\n\nKaupunki julkaisi syksyllä uuden sovelluksen. Mitä siinä on?\n\n”Sovelluksella voi varata ajan terveysasemalle, lainata kirjoja, varata vuoron uimahallista ja ilmoittaa kadulla olevasta viasta, esimerkiksi rikkinäisestä katuvalosta. Sovellukseen kirjaudutaan pankkitunnuksilla vain kerran. Sen jälkeen sen voi avata sormenjäljellä. Sormenjälki ei lähde puhelimesta minnekään, vaan puhelin vain tarkistaa sen. Moni vanhempi käyttäjä on kiittänyt, että sormenjälki on helpompi kuin pitkä salasana.”\n\nLehdessä on kerrottu, että sovelluksen lähdekoodi on avoin. Mitä se tarkoittaa?\n\n”Lähdekoodi on se teksti, jonka ohjelmoijat kirjoittavat ja josta ohjelma syntyy. Kun lähdekoodi on avoin, kuka tahansa voi lukea sen. Muut kunnat voivat käyttää samaa koodia omissa palveluissaan, eikä jokaisen tarvitse maksaa samasta työstä erikseen. Lisäksi avoin koodi lisää luottamusta, koska asiantuntijat voivat tarkistaa, ettei siinä ole virheitä.”\n\nMiten sovellusta on testattu?\n\n”Ennen julkaisua teimme toiminnallisen testauksen. Toiminnallinen testaus tarkoittaa, että katsotaan, toimiiko jokainen toiminto niin kuin pitää: menevätkö varaukset perille ja tuleeko vahvistus oikeaan aikaan. Lisäksi kutsuimme kirjastoon kymmenen asukasta kokeilemaan sovellusta. He löysivät muutaman ongelman, jotka korjattiin.”\n\nOnko sovelluksessa ollut ongelmia käytön alettua?\n\n”Yksi on ollut. Jotkut käyttäjät saivat liikaa ilmoituksia. Lisäsimme asetuksiin eston, jolla voi estää ilmoitukset niistä asioista, jotka eivät kiinnosta. Esto toimii hyvin, ja palaute on ollut myönteistä. Samalla lisättiin roskapostin esto kaupungin sähköpostiin.”\n\nMitä kaupungin vanhoille tietokoneille tapahtuu?\n\n”Ne kierrätetään. Ennen sitä jokaisen koneen kovalevy tyhjennetään niin, ettei sille jää mitään tietoja. Jos kovalevy on rikki eikä sitä voi tyhjentää, se murskataan valvotusti niin, ettei siltä voi enää lukea mitään. Asukkaiden tietojen täytyy olla turvassa myös silloin, kun kone lähtee talosta.”\n\nMikä työssäsi on parasta?\n\n”Se, että näen työni tulokset. Kun jokin palvelu muuttuu helpommaksi, se näkyy heti siinä, että useampi ihminen saa asiansa hoidettua.”\n\nKysymykset:\nMitä Niina Kiviranta tekee työkseen?\nHän työskentelee analyytikkona ja selvittää, miten asukkaat käyttävät kaupungin sähköisiä palveluja.\nMiten sovelluksen voi avata ensimmäisen kirjautumisen jälkeen?\nSen voi avata sormenjäljellä.\nMiksi on hyödyllistä, että lähdekoodi on avoin?\nMuut kunnat voivat käyttää samaa koodia, ja asiantuntijat voivat tarkistaa, ettei siinä ole virheitä.\nMitä toiminnallinen testaus tarkoittaa?\nSiinä katsotaan, toimiiko jokainen toiminto niin kuin pitää.\nMihin esto lisättiin?\nEsto lisättiin sovelluksen asetuksiin, jotta käyttäjä voi estää ilmoitukset, jotka eivät häntä kiinnosta.\nMitä vanhojen tietokoneiden kovalevyille tehdään?\nNe tyhjennetään niin, ettei niille jää mitään tietoja."
+    },
+    {
+      "title": "Kysymys vesilaitokselle",
+      "summary": "Arto, who has just moved into an old two-room flat in Kuopio, asks the water utility whether his pipes contain lead, and gets a clear answer.",
+      "newWords": [
+        "kaksio",
+        "asuinrakennus",
+        "lyijy",
+        "suodattaa",
+        "tuuletin",
+        "loppupeli"
+      ],
+      "text": "Arto Halttunen muutti kesällä Kuopioon. Hän osti kaksion vanhasta asuinrakennuksesta, joka on rakennettu vuonna 1956. Kaksio on valoisa, ja sen ikkunoista näkyy järvi. Eräänä iltana naapuri kertoi Artolle, että vanhoissa taloissa saattaa olla lyijyä veden putkissa. Arto huolestui ja kirjoitti kaupungin vesilaitokselle.\n\nHei,\n\nasun kaksiossa vuonna 1956 rakennetussa asuinrakennuksessa Kuopion keskustassa. Olen kuullut, että vanhoissa taloissa veden putket voivat olla lyijyä. Onko vesi silloin turvallista juoda? Pitäisikö minun suodattaa juomavesi itse? Kaupassa myydään laitteita, jotka myyjän mukaan suodattavat vedestä metallit. Kiitos vastauksesta!\n\nArto Halttunen\n\nMuutaman päivän päästä Arto sai vastauksen laitoksen asiakaspalvelusta.\n\nHyvä Arto Halttunen,\n\nkiitos hyvästä kysymyksestä. Suomessa lyijyä käytettiin veden putkissa hyvin harvoin, eikä sitä ole Kuopiossa löydetty käytössä olevista putkista. Vanhojen talojen putket ovat yleensä rautaa tai kuparia. Lyijyä voi kuitenkin olla pieniä määriä vanhoissa liitoksissa, ja siksi kysymys on aiheellinen.\n\nLaitoksen toimittama vesi on puhdasta. Kuopion vesi otetaan pohjavedestä. Maaperän hiekka suodattaa sen jo luonnossa, ennen kuin vesi tulee laitokselle. Laitoksella vettä vielä tarkkaillaan joka päivä. Kotona vettä ei siis tarvitse suodattaa. Jos kuitenkin haluatte varmistaa asian, voitte tilata laboratoriosta tutkimuksen omasta hanastanne. Neuvoisin myös laskemaan vettä hetken ennen juomista, jos se on seissyt putkissa pitkään, esimerkiksi loman aikana.\n\nTalon sisäiset putket kuuluvat taloyhtiölle. Loppupelissä taloyhtiö siis päättää, milloin putket uusitaan. Kannattaa kysyä isännöitsijältä, milloin putket on viimeksi tarkastettu.\n\nYstävällisin terveisin\nTuula Kyllönen, Kuopion kaupungin vesilaitos\n\nArto soitti isännöitsijälle. Hän kuuli, että taloyhtiössä on suunniteltu putkien remonttia ensi vuodeksi. Remontissa kaikki vanhat putket vaihdetaan uusiin. Samalla jokaisen asunnon kylpyhuoneeseen tulee uusi tuuletin, koska vanhat tuulettimet ovat heikkoja ja äänekkäitä. Artonkin kylpyhuoneessa tuuletin pitää kovaa ääntä mutta vie kosteutta huonosti.\n\nArto tilasi silti tutkimuksen, koska hän halusi tietää varmasti. Kahden viikon päästä tulos tuli: vedessä ei ollut lyijyä. Arto kirjoitti vielä lyhyen viestin Tuulalle ja kiitti neuvoista. Hän ei ostanut laitetta veden suodattamiseen. Loppupelissä paras neuvo oli yksinkertainen: kysy niiltä, jotka tietävät.\n\nKysymykset:\nMillaisen asunnon Arto osti?\nHän osti valoisan kaksion vanhasta asuinrakennuksesta, joka on rakennettu vuonna 1956.\nMiksi Arto kirjoitti vesilaitokselle?\nNaapuri kertoi, että vanhoissa taloissa saattaa olla lyijyä veden putkissa, ja Arto huolestui.\nPitääkö Kuopiossa suodattaa juomavesi kotona?\nEi tarvitse, koska hiekka suodattaa veden jo luonnossa ja laitoksella vettä tarkkaillaan joka päivä.\nKuka loppupelissä päättää, milloin talon putket uusitaan?\nTaloyhtiö päättää siitä.\nMitä putkien remontissa tehdään?\nVanhat putket vaihdetaan uusiin, ja jokaisen asunnon kylpyhuoneeseen tulee uusi tuuletin.\nMitä tutkimus kertoi Arton vedestä?\nVedessä ei ollut lyijyä."
+    },
+    {
+      "title": "Basisti työllisyyspalveluissa",
+      "summary": "When the Tampere music shop where he works closes, bassist Olli visits the city's employment services and finds a way to combine teaching and gigs.",
+      "newWords": [
+        "basisti",
+        "lopetus",
+        "huippuluokka",
+        "tulinen",
+        "kyvyttömyys",
+        "työehto",
+        "työviikko",
+        "neljäkymmentä"
+      ],
+      "text": "Olli Mattinen on 34-vuotias basisti Tampereelta. Hän on soittanut bassoa viidessätoista yhtyeessä ja levyttänyt kolme levyä. Päivisin hän on kuitenkin työskennellyt kymmenen vuotta soittimia myyvässä liikkeessä Hämeenkadulla. Keväällä liikkeen omistaja kertoi, että liike suljetaan kesän lopussa. Omistaja jäi eläkkeelle, eikä kukaan halunnut jatkaa liikettä. Liikkeen lopetus tuli Ollille yllätyksenä, ja hän ei tiennyt, mitä tekisi seuraavaksi.\n\nOlli ilmoittautui työnhakijaksi ja varasi ajan kaupungin työllisyyspalveluihin. Häntä otti vastaan valmentaja Johanna Rautakorpi. Johanna kysyi ensin, mitä Olli osaa. Olli kertoi myyneensä soittimia ja korjanneensa kitaroita, mutta hän ei osannut sanoa muuta. Hän mainitsi soittamisen vain ohimennen, koska hänestä se oli harrastus eikä työ.\n\nJohanna kuunteli ja kysyi lisää. Pian kävi ilmi, että Olli on hyvin taitava muusikko. Hän on soittanut kiertueilla tunnettujen laulajien kanssa, ja yksi lehti oli kerran kutsunut häntä huippuluokan basistiksi. ”Huippuluokka ei ole tavallinen sana hakemuksessa”, Johanna sanoi, ”mutta sinun kohdallasi se näyttää pitävän paikkansa.”\n\nJohannan mielestä Ollin suurin ongelma oli kyvyttömyys kertoa omista taidoistaan. Kyvyttömyys kehua itseään on hänen mukaansa yleistä, ja se näkyy erityisesti taiteilijoilla. He tekevät paljon, mutta eivät osaa kuvata sitä työnantajalle. Johanna ehdotti, että Olli kirjoittaisi ansioluetteloon kaiken: kiertueet, levyt, soitinten korjauksen ja kymmenen vuoden kokemuksen asiakaspalvelusta.\n\nSeuraavalla tapaamisella Johanna kertoi, että musiikkiopisto etsii basson opettajaa. Työtä olisi kolme päivää viikossa. Olli epäröi. Hän oli tottunut siihen, että työviikko on viisi päivää ja palkka tulee joka kuukausi samana päivänä. Johanna kävi hänen kanssaan läpi työehdot. Opettajien työehdot on sovittu tarkasti, ja niissä kerrotaan esimerkiksi palkka tunnilta, lomat ja se, miten tunteja korvataan, jos opettaja sairastuu.\n\nLyhyempi työviikko tarkoittaisi, että Ollille jäisi aikaa keikoille. Musiikkiopistossa hänellä olisi noin neljäkymmentä oppilasta. Neljäkymmentä oppilasta tuntui Ollista paljolta, mutta Johanna muistutti, että hän oli liikkeessä neuvonut joka päivä vielä useampia asiakkaita.\n\nOlli haki paikkaa ja pääsi haastatteluun. Haastattelussa hän soitti lyhyen kappaleen. Hänen soittonsa oli tulinen, ja rehtori hymyili. Myöhemmin rehtori sanoi, että lavalla Olli on tulinen esiintyjä, mutta opettajana hän vaikutti rauhalliselta ja kärsivälliseltä. Olli sai paikan.\n\nNyt Ollin työviikko alkaa tiistaina ja päättyy torstaina. Perjantaisin ja lauantaisin hän soittaa keikoilla. Hän kirjoitti Johannalle kiitokseksi lyhyen viestin: ”Liikkeen lopetus oli loppujen lopuksi uuden alku.”\n\nKysymykset:\nMiksi Olli jäi ilman työtä?\nLiikkeen omistaja jäi eläkkeelle, ja liikkeen lopetus tuli kesän lopussa.\nMikä Johannan mielestä oli Ollin suurin ongelma?\nHänen suurin ongelmansa oli kyvyttömyys kertoa omista taidoistaan.\nMiksi lehti oli kutsunut Ollia huippuluokan basistiksi?\nOlli on hyvin taitava muusikko, joka on soittanut kiertueilla tunnettujen laulajien kanssa.\nMitä työehdoissa kerrotaan?\nNiissä kerrotaan esimerkiksi palkka tunnilta, lomat ja se, miten tunteja korvataan, jos opettaja sairastuu.\nKuinka monta oppilasta Ollilla olisi musiikkiopistossa?\nHänellä olisi noin neljäkymmentä oppilasta.\nMillainen Ollin soitto oli haastattelussa?\nHänen soittonsa oli tulinen."
+    },
+    {
+      "title": "Kolumni: Kun kunta kasvaa",
+      "summary": "A columnist in Kangasala looks at how the growing municipality has changed, from its first settlers to remote work, newcomers and the forest economy.",
+      "newWords": [
+        "asukasluku",
+        "asuttaa",
+        "levittäytyä",
+        "yleistyminen",
+        "sidoksissa",
+        "muukalainen",
+        "biotalous",
+        "uusiutua"
+      ],
+      "text": "Muutin Kangasalle kaksitoista vuotta sitten. Silloin kunnan asukasluku oli vähän yli 30 000. Nyt asukasluku on kasvanut useilla tuhansilla, ja uusia taloja rakennetaan joka vuosi. Kävin viime viikolla kunnan kirjastossa katsomassa näyttelyä, joka kertoo seudun historiasta. Näyttely sai minut ajattelemaan, miten paljon täällä on muuttunut ja miten paljon on pysynyt samana.\n\nKangasalan seutu asutettiin jo kauan sitten. Ensimmäiset asukkaat kalastivat järvillä ja keräsivät metsästä marjoja. Myöhemmin harjuille ja järvien rannoille syntyi kyliä ja peltoja. Näyttelyn kartoista näkee, että ihmiset asuttivat ensin paikat, joissa oli hyvä maa ja vettä lähellä. Sama periaate pätee yhä: nykyisetkin asuinalueet ovat järvien rannoilla tai teiden varsilla.\n\nKunta on levittäytynyt laajalle alueelle. Ennen keskusta oli pieni, mutta nyt asuinalueita on levittäytynyt teiden varsille kymmenien kilometrien matkalle. Tämä tekee palveluista kalliita. Kun ihmiset asuvat kaukana toisistaan, koulukyydit ovat pitkiä ja kotihoidon työntekijät ajavat päivässä paljon.\n\nViime vuosina kasvua on tuonut etätyön yleistyminen. Moni perhe on muuttanut Tampereelta tänne, koska täällä saa isomman talon samalla rahalla ja töitä voi tehdä kotoa. Etätyön yleistyminen on muuttanut myös arkea. Päivisin kylissä on enemmän ihmisiä kuin ennen, ja kahvila, joka oli aiemmin auki vain viikonloppuisin, on nyt auki joka päivä.\n\nKasvu ei kuitenkaan ole pelkästään hyvä asia. Kunnan palvelut ovat tiukasti sidoksissa asukaslukuun. Kun lapsia on enemmän, tarvitaan lisää päiväkoteja ja kouluja. Kunnan tulot taas ovat sidoksissa siihen, kuinka moni asukas käy töissä. Uudet asukkaat tuovat tuloja, mutta myös menoja.\n\nKun muutin tänne, tunsin itseni ensimmäisinä kuukausina muukalaiseksi. En tuntenut ketään, ja naapurit tervehtivät kohteliaasti mutta eivät jääneet juttelemaan. Kirjasto ja kansalaisopisto auttoivat. Ilmoittauduin kuorokurssille, ja vähitellen tutustuin ihmisiin. Nykyään yritän itse tervehtiä uusia naapureita, jotta kukaan ei tuntisi itseään muukalaiseksi omassa kotikunnassaan.\n\nKangasalan ympärillä on paljon metsää, ja metsä antaa monelle työtä. Seudulla toimii yrityksiä, jotka valmistavat puusta rakennuksia, pakkauksia ja energiaa. Tätä kaikkea kutsutaan biotaloudeksi. Biotalous perustuu siihen, että luonnonvarat uusiutuvat. Hyvin hoidettu metsä uusiutuu, kun kaadettujen puiden tilalle istutetaan uusia. Biotalous ei kuitenkaan saa olla vain puun myymistä: metsä on myös ulkoilun ja marjastuksen paikka.\n\nKuntaa ei voi pysäyttää eikä sen kasvua kokonaan suunnitella. Toivon kuitenkin, että Kangasala pysyy paikkana, jossa järvi näkyy, metsään on lyhyt matka ja uusi asukas tuntee itsensä tervetulleeksi.\n\nKysymykset:\nMitä kirjaston näyttely kertoo?\nNäyttely kertoo Kangasalan seudun historiasta.\nMitkä paikat ihmiset asuttivat ensin?\nHe asuttivat ensin paikat, joissa oli hyvä maa ja vettä lähellä.\nMiksi palvelut ovat kalliita, kun kunta on levittäytynyt laajalle?\nIhmiset asuvat kaukana toisistaan, joten koulukyydit ovat pitkiä ja kotihoidon työntekijät ajavat paljon.\nMikä on tuonut kuntaan uusia asukkaita viime vuosina?\nEtätyön yleistyminen on tuonut kuntaan uusia asukkaita.\nMikä auttoi kirjoittajaa, kun hän tunsi itsensä muukalaiseksi?\nKirjasto ja kansalaisopisto auttoivat. Hän ilmoittautui kuorokurssille ja tutustui vähitellen ihmisiin.\nMihin biotalous perustuu?\nBiotalous perustuu siihen, että luonnonvarat uusiutuvat."
+    }
+  ]
+}
