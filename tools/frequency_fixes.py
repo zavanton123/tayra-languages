@@ -1922,3 +1922,39 @@ OVERRIDES["sl"].update({**{f: ["črta"] for f in ("črta", "črto", "črte", "č
                         # s and h are z and k before the consonants that take them (s psom, h kosilu); the pack files s
                         # under a gloss.
                         "s": ["z"], "h": ["k"]})
+
+# Icelandic, with BÍN's forms (build_frequency_list.icelandic_bin). BÍN files the plural pronouns under the singular
+# (við under ég, þeir and þá under hann, þau and því under það) and það under sá, which dictionaries and learners give
+# apart; þeim and þeirra are the plural pronouns' and sá's. The little words spelled as a commoner word's form keep
+# their own (þá "then", því "because", eins "as", nær "near", fyrst "first"), and the adverbs that are mostly a case
+# form go to their word (öllu, allra of allur, miklu of mikill; eigi, the old "not", of eiga; hvert of hver); sér is mostly
+# the reflexive's and sjá's.
+OVERRIDES["is"].update({
+    "það": ["það"], "við": ["við"], "þið": ["þið"], "þær": ["þær"], "þau": ["þau"], "þá": ["þá"], "því": ["því"],
+    "eins": ["eins"], "nær": ["nær", "ná"], "fyrst": ["fyrst"], "sér": ["sig", "sjá"],
+    "þeim": ["þeir", "þær", "þau", "sá"], "þeirra": ["þeir", "þær", "þau", "sá"],
+    "öllu": ["allur"], "allra": ["allur"], "miklu": ["mikill"], "þetta": ["þessi"], "mitt": ["minn"],
+    "sumir": ["sumur"], "eg": ["ég"], "eigi": ["eiga"], "hvert": ["hver"],
+    # The auxiliaries' forms that other verbs share: hef, hefur of hafa (not hefja), myndi of munu (not muna, mynda),
+    # gæti of geta (not gæta).
+    "hef": ["hafa"], "hefur": ["hafa"], "hefurðu": ["hafa"], "hefði": ["hafa"], "hefðu": ["hafa"],
+    "myndi": ["munu"], "myndu": ["munu"], "myndir": ["munu", "mynd"], "myndum": ["munu", "mynd"],
+    "mundi": ["munu", "muna"], "gæti": ["geta"], "gætir": ["geta"], "gætum": ["geta"], "gætu": ["geta"],
+    # Verbs' forms that nouns and adjectives spelled so take too much of: hafi, höfum (haf "sea"), langar (langur), bar
+    # (the noun), þýðir, þýtt (þýður), virkar (virkur), unnið (unna), búin (bú), held (heldur).
+    "hafi": ["hafa"], "höfum": ["hafa"], "langar": ["langa"], "bar": ["bera"], "þýðir": ["þýða"], "þýtt": ["þýða"],
+    "virkar": ["virka"], "unnið": ["vinna"], "búin": ["búa"], "held": ["halda"], "heldur": ["heldur", "halda"],
+    # Words BÍN files under another: föt "clothes" and lög "law" (under fat and lag), hægri "right" (hægur's
+    # comparative), giftur "married" (gifta's participle), síður "last" (síðasti, síðustu; varla's comparative too),
+    # þrátt (þrátt fyrir, not þrár's), mars "March" (not mar's); and lagi (í lagi) and ári, lag's and ár's datives,
+    # not laga's or ári "the devil".
+    "föt": ["föt"], "fötin": ["föt"], "fötum": ["föt"], "fötunum": ["föt"],
+    **{f: ["lög", "lag"] for f in ("lög", "lögin", "lögum", "lögunum", "laganna")},
+    **{f: ["giftur"] for f in ("giftur", "giftir", "giftar")},
+    "hægri": ["hægri"], "síður": ["síður"], "þrátt": ["þrátt"], "mars": ["mars"], "lagi": ["lag"], "ári": ["ár"],
+})
+# BÍN's sumur is sumir, as learners know it.
+DISPLAY["is"] = {**DISPLAY.get("is", {}), "sumur": "sumir"}
+# Old Norse and misread spellings in the subtitles, and names.
+EXCLUDE["is"] = EXCLUDE.get("is", set()) | {"þat", "hon", "mik", "þit", "ér", "pú", "þeira", "jón", "jóns", "jóni", "jóna",
+                                             "ben", "gunnar"}

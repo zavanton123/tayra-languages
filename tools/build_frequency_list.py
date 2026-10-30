@@ -114,6 +114,8 @@ SOURCE_ORDER["sk"] = ["wordfreq", "frequencywords"]
 SOURCE_ORDER["bg"] = ["wordfreq", "frequencywords"]
 # And Slovene, whose shipped list was.
 SOURCE_ORDER["sl"] = ["wordfreq", "frequencywords"]
+# And Icelandic, whose shipped list was.
+SOURCE_ORDER["is"] = ["wordfreq", "frequencywords"]
 # Languages whose sources are all blended, however many forms the first has.
 BLEND = {"ko"}
 # Galician is counted from subtitles alone, as its list was first built (wordfreq has no Galician, and the Wikipedia
@@ -1380,8 +1382,10 @@ FINNISH_GRADED = ("mpi", "mmin", "mmän", "iten")
 # Estonian goes by the same rule (looma "to create" and loom's genitive, hool "care" and hoog's adessive, kanal "channel"
 # and kana's, kuul "bullet", joon "line", varas "thief", alus, vanus, lihas). Its participles and verbal noun (elav,
 # olnud, tehtud, uskumatu, tegemine) and comparatives and superlatives (parem, suurim, kõrgemale) stay their word's, but
-# the comparatives with senses of their own (vanem "parent", enam "anymore") are words.
-FINNIC_OWN_SENSES = ("fi", "et")
+# the comparatives with senses of their own (vanem "parent", enam "anymore") are words. Icelandic keeps a word's own
+# forms by the rule too (sumarið, sumrin of sumar "summer", whose spelling sumir shares), though icelandic_shares shares
+# its spellings.
+FINNIC_OWN_SENSES = ("fi", "et", "is")
 ESTONIAN_VERB_DERIVED = ("v", "nud", "tud", "dud", "nu", "tu", "du", "matu", "mata", "mine")
 ESTONIAN_GRADED = ("m", "mini", "malt")
 ESTONIAN_OWN_GRADED = {"vanem", "enam"}
@@ -1409,6 +1413,80 @@ ESTONIAN_PARTICIPLE_ADJECTIVES = {
 }
 
 
+# Icelandic: the pack's Wiktionary tables give a verb its past and participles only (14 of its 3,399 verbs have a
+# present), so byrjar, hjálpar, leggur and á went to nouns spelled so (byr, hjálp, leggur) or were lost. An Icelandic
+# word's forms come from BÍN instead, the Árni Magnússon Institute's Database of Modern Icelandic Inflection (CC BY-SA
+# 4.0): every form of the words of its core vocabulary (DMII Core), with its grammatical tags, but not names (they are
+# capitalised), the forms it grades obsolete or rare (0) nor the bare imperative (far, kom, ráð, tak: old and literary,
+# and spelled as nouns). A word of the pack that BÍN lacks keeps the pack's forms. A form of several of BÍN's words is
+# shared by how common each word is and how common its tags are in text (icelandic_shares): sumar "summer" against
+# sumir's feminine, gata "street" against geta's dative, borða against borð's genitive, staða against staður's.
+ICELANDIC_BIN_URL = "https://repository.clarin.is/repository/xmlui/bitstream/handle/20.500.12537/162/DMII-comprensive-21.10.zip"
+ICELANDIC_BIN = os.path.join("bin-dmii", "DMII-comprensive-21.10.zip")
+ICELANDIC_BIN_KINDS = {
+    "kk": "noun", "kvk": "noun", "hk": "noun", "lo": "adj", "so": "verb", "ao": "adv", "fs": "prep", "fn": "pron",
+    "pfn": "pron", "afn": "pron", "st": "conj", "uh": "intj", "to": "num", "rt": "adj", "gr": "article", "nhm": "particle",
+}
+ICELANDIC_BIN_WORDS = {}
+# Each form's BÍN words, with the tags it has as each ({form: {word: {(class, tag)}}}), once load_dictionary has
+# placed the middle voice.
+ICELANDIC_TAGS = {}
+# The little words, whose one spelling is all their uses (gegn, milli, vegna, rétt "just"): they keep it.
+ICELANDIC_LITTLE = {"prep", "adv", "conj", "intj", "particle"}
+# FrequencyWords' Icelandic subtitles were read as ISO 8859-4, which puts đ, ū, ķ, ũ where Latin-1 has ð, þ, ó, ý
+# ("ūađ" for "það", "fķlk" for "fólk"): over a quarter of its words.
+ICELANDIC_MOJIBAKE = str.maketrans("đūķũĐŪĶŨ", "ðþóýÐÞÓÝ")
+
+
+def icelandic_bin():
+    """
+    BÍN's core words, lowercase (no names), each with its kinds, its forms with their tags, and for a verb its middle
+    voice's forms by the middle infinitive (gerast: gerist, gerðist of gera):
+    {word: (kinds, {form: {(class, tag)}}, {middle: {form: {(class, tag)}}})}. A tag's variant number is left out.
+    """
+    if ICELANDIC_BIN_WORDS:
+        return ICELANDIC_BIN_WORDS
+    import zipfile
+    os.makedirs(os.path.join(CACHE, os.path.dirname(ICELANDIC_BIN)), exist_ok=True)
+    path = download(ICELANDIC_BIN_URL, ICELANDIC_BIN)
+    if path is None:
+        sys.exit(f"Could not download {ICELANDIC_BIN_URL}")
+    folder = os.path.splitext(os.path.basename(ICELANDIC_BIN))[0]
+    core = {}
+    words = {}
+    with zipfile.ZipFile(path) as z:
+        with z.open(f"{folder}/Storasnid_ord.csv") as f:
+            for line in io.TextIOWrapper(f, encoding="utf-8"):
+                field = line.rstrip("\n").split(";")
+                if len(field) > 8 and field[8] == "K" and field[0] == field[0].lower() and field[2] in ICELANDIC_BIN_KINDS:
+                    core[field[1]] = (field[0], field[2])
+                    words.setdefault(field[0], (set(), {field[0]: set()}, defaultdict(dict)))[0].add(ICELANDIC_BIN_KINDS[field[2]])
+        middle_forms, middle_of = defaultdict(dict), {}
+        with z.open(f"{folder}/Storasnid_beygm.csv") as f:
+            for line in io.TextIOWrapper(f, encoding="utf-8"):
+                field = line.rstrip("\n").split(";")
+                if len(field) <= 5 or field[1] not in core or field[5] == "0" or field[4].endswith("BH-ST"):
+                    continue
+                form = field[3].lower()
+                if not is_wordlike(form):
+                    continue
+                word, word_class = core[field[1]]
+                cell = (word_class, field[4].rstrip("0123456789"))
+                if "MM-" in field[4]:
+                    middle_forms[field[1]].setdefault(form, set()).add(cell)
+                    if field[4] == "MM-NH":
+                        middle_of[field[1]] = form
+                else:
+                    words[word][1].setdefault(form, set()).add(cell)
+    for word_id, forms in middle_forms.items():
+        word = core[word_id][0]
+        middle = words[word][2].setdefault(middle_of.get(word_id, word), {})
+        for form, cells in forms.items():
+            middle.setdefault(form, set()).update(cells)
+    ICELANDIC_BIN_WORDS.update(words)
+    return ICELANDIC_BIN_WORDS
+
+
 def finnish_kinds(db, lemmas, language="fi"):
     """Each Finnish (or Estonian) word's kinds with a sense that is not glossed as a form of a word its forms rows name,
     and its kinds (not counting interjections) with such a sense in plain standard use."""
@@ -1418,6 +1496,9 @@ def finnish_kinds(db, lemmas, language="fi"):
         kinds[word].add(p)
 
     def derived(word, of):
+        # BÍN files an Icelandic word's comparatives, superlatives and participles under it already.
+        if language == "is":
+            return False
         if language == "et":
             return word in ESTONIAN_NOT_OWN or word not in ESTONIAN_OWN_GRADED and any(
                 "verb" in kinds[l] and word[:2] == l[:2] and word.endswith(ESTONIAN_VERB_DERIVED)
@@ -1565,9 +1646,12 @@ def galician_joined(form, verb_of, count):
 
 
 def normalise(language, form):
-    """A form as the reader writes it: Romanian text has ş, ţ turned into ș, ț."""
+    """A form as the reader writes it: Romanian text has ş, ţ turned into ș, ț, and Icelandic subtitles have ð, þ, ó, ý
+    misread (ICELANDIC_MOJIBAKE)."""
     if language == "ro":
         return form.replace("ş", "ș").replace("ţ", "ț")
+    if language == "is":
+        return form.translate(ICELANDIC_MOJIBAKE)
     return form
 
 
@@ -1937,10 +2021,34 @@ def load_dictionary(language):
             if kinds:
                 lemmas[form_lc] = [lemma for lemma in of if lemma == form_lc or not pos.get(lemma, set()) & LITHUANIAN_KINDS
                                    or pos[lemma] & kinds]
+    unlisted = {}
+    if language == "is":
+        # BÍN's words have BÍN's forms only, and a form BÍN has is only its words'; its words the pack lacks are words.
+        # A verb's middle voice is the pack's middle verb where the pack has one (gerist, gerðist of gerast, finnst of
+        # finnast, kynnist of kynnast), as dictionaries give it apart, and else the verb's.
+        bin_words = icelandic_bin()
+        unlisted = {word: kinds for word, (kinds, _, _) in bin_words.items() if word not in pos}
+        middle_verbs = {word for word, kinds in pos.items() if "verb" in kinds and word.endswith("st")}
+        for word, (kinds, word_forms, middle) in bin_words.items():
+            pos[word] |= kinds
+            common.setdefault(word, word)
+            for form_lc, cells in word_forms.items():
+                ICELANDIC_TAGS.setdefault(form_lc, {}).setdefault(word, set()).update(cells)
+            for infinitive, middle_forms in middle.items():
+                verb = infinitive if infinitive in middle_verbs else word
+                for form_lc, cells in middle_forms.items():
+                    ICELANDIC_TAGS.setdefault(form_lc, {}).setdefault(verb, set()).update(cells)
+        for form_lc in list(lemmas):
+            lemmas[form_lc] = [lemma for lemma in lemmas[form_lc] if lemma not in bin_words]
+        for form_lc, of in ICELANDIC_TAGS.items():
+            lemmas[form_lc] = sorted(of)
     if language == "ro":
         ROMANIAN_KINDS.update(romanian_kinds(db, lemmas))
     if language in FINNIC_OWN_SENSES:
         own, plain = finnish_kinds(db, lemmas, language)
+        for word, kinds in unlisted.items():
+            own[word] |= kinds
+            plain[word] |= kinds - {"intj"}
         FINNISH_KINDS.update(own)
         FINNISH_PLAIN.update(plain)
     if language == "ar" and ARABIC_FORMS:
@@ -2687,7 +2795,11 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 shares = romanian_shares(form, others)
                 if shares:
                     return shares
-            if language in FINNIC_OWN_SENSES:
+            if language == "is":
+                shares = icelandic_shares(form, [form] + others)
+                if shares:
+                    return shares
+            elif language in FINNIC_OWN_SENSES:
                 shares = finnish_shares(form, others)
                 if shares:
                     return shares
@@ -2729,6 +2841,10 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             others = near
         if not others:
             return {form: 1.0} if form in JA_ORPHANS else {}
+        if language == "is" and form not in overrides:
+            shares = icelandic_shares(form, others)
+            if shares:
+                return shares
         if language == "ar" and len(others) > 1:
             kinds = ARABIC_FORMS.get(form, {})
             weights = {l: (ARABIC_VERB_MASS.get(l, 0.0) if kinds.get(l) is True else ARABIC_SPELLED.get(form, {}).get(l, 0.0) if kinds.get(l, 0) is None
@@ -2761,6 +2877,57 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         weights = {form: macedonian_own(form), **{l: macedonian_own(l) for l in nouns}}
         whole = sum(weights.values())
         return {l: w / whole for l, w in weights.items()} if whole else None
+
+    icelandic_profile, icelandic_mass = {}, {}
+
+    def icelandic_weights():
+        """
+        How common each tag of BÍN's is in text, as a share of its word class's words, and how common each of BÍN's words
+        is in each class it has (sá the pronoun and sá "to sow"): its forms that are no other word's nor of another class,
+        against how common their tags are (a word seen 100 times in tags that are a tenth of a word's use is a word of
+        1,000). A word with no such forms (búinn, the adjective, has only búa's participles) counts as none.
+        """
+        classes = defaultdict(float)
+        alone = [(form, *next(iter(of.items()))) for form, of in ICELANDIC_TAGS.items() if len(of) == 1]
+        for form, _, cells in alone:
+            if len({c for c, _ in cells}) == 1:
+                for cell in cells:
+                    icelandic_profile[cell] = icelandic_profile.get(cell, 0.0) + count(form) / len(cells)
+                    classes[cell[0]] += count(form) / len(cells)
+        for cell in icelandic_profile:
+            icelandic_profile[cell] = icelandic_profile[cell] / classes[cell[0]] if classes[cell[0]] else 0.0
+        # A form of one word in two classes (annað of annar, the pronoun and the ordinal) is shared between them by
+        # how common its tags are in each.
+        seen, expected = defaultdict(float), defaultdict(float)
+        for form, word, cells in alone:
+            parts = defaultdict(float)
+            for cell in cells:
+                parts[cell[0]] += icelandic_profile.get(cell, 0.0)
+            whole = sum(parts.values())
+            for word_class, part in parts.items():
+                seen[word, word_class] += count(form) * part / whole if whole else 0.0
+                expected[word, word_class] += part
+        for unit, part in expected.items():
+            icelandic_mass[unit] = seen[unit] / part if part else 0.0
+
+    def icelandic_shares(form, words):
+        """
+        The shares of BÍN's words an Icelandic form of several goes to, by how common each word is and how common the
+        tags are that the form has as each (icelandic_weights): sumar "summer" and sumir's feminine plural, staða and
+        staður's genitive plural, verð "price" and verða's first person, daga "dawn" and dagur's plural, sást of sjá and
+        sá "to sow". A little word (gegn, milli, vegna, rétt "just", nú), whose one spelling is all its uses, keeps the
+        form. None when a word is not BÍN's: the general rule takes those.
+        """
+        tags = ICELANDIC_TAGS.get(form, {})
+        if len(words) < 2 or any(word not in tags for word in words):
+            return None
+        if not icelandic_profile:
+            icelandic_weights()
+        weights = {word: count(form) if any(ICELANDIC_BIN_KINDS[c] in ICELANDIC_LITTLE for c, _ in tags[word]) else
+                   sum(icelandic_mass.get((word, c), 0.0) * icelandic_profile.get((c, tag), 0.0) for c, tag in tags[word])
+                   for word in words}
+        whole = sum(weights.values())
+        return {word: w / whole for word, w in weights.items() if w} if whole else None
 
     finnish_forms = defaultdict(set)
 
