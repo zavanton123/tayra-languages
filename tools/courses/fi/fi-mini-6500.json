@@ -1,0 +1,192 @@
+{
+  "id": "fi-mini-6500",
+  "rankUpTo": 6500,
+  "level": "C1",
+  "title": "Insinöörityö",
+  "description": "Ten standalone stories and texts about engineering in everyday Finnish life: heating, a bridge, an entrance exam, a museum, a zoo, a steam engine, a handle, a water plant, a pony stable and a column.",
+  "topic": "Engineering",
+  "names": [
+    "Tampere",
+    "Hervanta",
+    "Camilla",
+    "Huotari",
+    "Göran",
+    "Sundström",
+    "Jyväskylä",
+    "Iia",
+    "Kosonen",
+    "Ulf",
+    "Pitkänen",
+    "Espoo",
+    "Helsinki",
+    "Axel",
+    "Lehtimäki",
+    "Lehtimäelle",
+    "Stina",
+    "Asikainen",
+    "Berliini",
+    "Inari",
+    "Savonlinna",
+    "Hiski",
+    "Kivistö",
+    "Kuopio",
+    "Jessica",
+    "Oksanen",
+    "Jonas",
+    "Heinonen",
+    "Heinoselle",
+    "Moa",
+    "Lappeenranta",
+    "Saimaa",
+    "Barbro",
+    "Ojanen",
+    "Gunnel",
+    "Ylinen",
+    "Seinäjoki",
+    "Björn",
+    "Hirvelä"
+  ],
+  "lessons": [
+    {
+      "title": "Kylmät patterit",
+      "summary": "In a January frost an engineer finds why the radiators in the east wing of an old Tampere block of flats are cold at the bottom, fixes the blocked valves and explains district heating to the residents.",
+      "newWords": [
+        "patteri",
+        "kaukolämpö",
+        "tukossa",
+        "alaosa",
+        "kiireellinen",
+        "naapurusto",
+        "itäpuoli"
+      ],
+      "text": "Tammikuun alussa Tampereella oli kovat pakkaset. Hervannan itäpuolella, metsän reunalla, on vanha kerrostalo, jossa asuu noin 60 ihmistä. Eräänä maanantaina aamulla taloyhtiön isännöitsijä sai monta viestiä. Asukkaiden mukaan talon itäpuolen asunnoissa oli kylmä. Patterit olivat ylhäältä lämpimiä, mutta niiden alaosa oli kylmä.\n\nIsännöitsijä soitti insinööri Camilla Huotarille, joka korjaa lämmitystä ja putkia. ”Asia on kiireellinen”, isännöitsijä sanoi. ”Ulkona on 25 astetta pakkasta, ja talossa asuu vanhuksia ja pieniä lapsia.” Camilla lupasi tulla samana päivänä. Kiireellinen työ meni muiden töiden edelle.\n\nTalo saa lämpönsä kaukolämmöstä. Kaukolämpö tarkoittaa, että lämpöä ei tehdä talossa itsessään vaan kaupungin voimalaitoksessa. Sieltä kuuma vesi kulkee maan alla putkissa koko naapurustoon: kouluille, kaupoille ja kodeille. Talon kellarissa on laite, joka siirtää kaukolämmön lämmön talon omiin putkiin. Lämmin vesi kiertää patterien läpi ja palaa sitten kellariin.\n\nCamilla aloitti kellarista. Kaukolämmön laite toimi hyvin, ja veden lämpötila oli oikea. Vika ei siis ollut kaukolämmössä. Sitten hän meni itäpuolen asuntoihin. Ensimmäisessä asunnossa asui eläkeläinen Göran Sundström, jolla oli villasukat jalassa ja kaksi paksua paitaa päällä. ”Patteri on ollut kylmä jo kolme päivää”, hän sanoi.\n\nCamilla kosketti patteria. Yläosa oli lämmin, alaosa kylmä. Hän avasi patterin yläosassa olevan pienen ruuvin. Sieltä tuli ensin hiukan ilmaa ja sitten vettä, mutta alaosa pysyi kylmänä. Camilla ymmärsi, että patterin venttiili oli tukossa. Vanhassa talossa putkiin kertyy vuosien aikana likaa, ja lika tukkii venttiilin. Kun venttiili on tukossa, vesi ei pääse kulkemaan patterin läpi.\n\nCamilla tarkisti kaikki itäpuolen asunnot. Neljässä asunnossa venttiili oli tukossa. Hän puhdisti venttiilit ja vaihtoi kaksi vanhaa venttiiliä uusiin. Illalla patterit olivat lämpimiä ylhäältä alas asti.\n\nSeuraavalla viikolla taloyhtiö piti kokouksen. Camilla kertoi asukkaille, että samaa vikaa on koko naapurustossa, koska talot on rakennettu samaan aikaan. Hän neuvoi, miten patterin voi tarkistaa itse: jos yläosa on lämmin ja alaosa kylmä, kannattaa soittaa huoltoon heti, ennen kuin asiasta tulee kiireellinen. Göran Sundström kiitti häntä ja sanoi, että nyt hänen paksut paitansa saavat levätä kaapissa.\n\nKysymykset:\nMissä vanha kerrostalo on?\nSe on Hervannan itäpuolella metsän reunalla.\nMiksi isännöitsijän mielestä asia oli kiireellinen?\nKoska ulkona oli 25 astetta pakkasta ja talossa asui vanhuksia ja pieniä lapsia.\nMistä talo saa lämpönsä?\nSe saa lämpönsä kaukolämmöstä eli kuumasta vedestä, joka tulee kaupungin voimalaitokselta.\nMiksi Göran Sundströmin patterin alaosa oli kylmä?\nKoska patterin venttiili oli tukossa liasta, eikä vesi päässyt kulkemaan patterin läpi.\nMitä Camilla neuvoi asukkaille kokouksessa?\nHän neuvoi, että jos patterin yläosa on lämmin ja alaosa kylmä, kannattaa soittaa huoltoon heti."
+    },
+    {
+      "title": "Sillan valu",
+      "summary": "Engineer Iia Kosonen leads the long day when the deck of a new footbridge in Jyväskylä is cast in concrete, from six in the morning until just before midnight.",
+      "newWords": [
+        "valaa",
+        "sivullinen",
+        "koura",
+        "raskaasti",
+        "vuorotellen",
+        "keskiyö",
+        "kaakko"
+      ],
+      "text": "Jyväskylässä rakennetaan uutta siltaa järven rannalle. Silta on tarkoitettu jalankulkijoille ja pyöräilijöille, ja se yhdistää kaksi asuinaluetta. Työtä johtaa insinööri Iia Kosonen. Tänään on työmaan tärkein päivä: sillan kansi valetaan.\n\nKun kansi valetaan, betoni kaadetaan muottiin, jossa se kovettuu. Sillan kansi valetaan yhdellä kertaa, koska betonin täytyy olla yhtä kappaletta. Jos työ keskeytyy, kanteen voi jäädä heikko kohta. Siksi työ alkaa aamulla kello 6 ja jatkuu pitkälle iltaan, ehkä keskiyöhön asti.\n\nAamulla Iia katsoo vielä kerran sään ennusteen. Tuuli puhaltaa kaakosta, ja illaksi kaakosta luvataan sadetta. Heikko sade ei haittaa, mutta kova sade on tuoreelle betonille huono. Iia päättää, että kansi valetaan tänään, mutta valmiiksi tuodaan suuria muovisia suojia, joilla betonin voi peittää.\n\nTyömaan aidassa on iso kyltti: ”Sivullisilta pääsy kielletty.” Sivullisia on silti paljon, koska ihmiset haluavat nähdä, miten silta syntyy. Iia pyytää yhtä työntekijää seisomaan portilla. Hänen tehtävänsä on pitää sivulliset aidan takana, koska työmaalla liikkuu raskaita koneita.\n\nEnsimmäinen betoniauto tulee kello 6.10. Autoja on kaikkiaan kaksikymmentä, ja ne tulevat vuorotellen: kun yksi auto on tyhjä ja lähtee, seuraava ajaa sen paikalle. Raskaasti lastatut autot ajavat hitaasti työmaan pehmeällä tiellä. Pumppu nostaa betonin muottiin, ja kuusi miestä levittää sen tasaiseksi.\n\nKello 11 yksi muotin tuista on päässyt liikkumaan. Koneen kuljettaja Ulf Pitkänen nostaa koneensa kouralla raskaan teräksisen tuen paikalleen, ja muotti pysyy suorana. Iia kiittää Ulfia. Hän tietää, että kokenut kuljettaja liikuttaa kouraa yhtä tarkasti kuin omaa kättään.\n\nIltapäivällä työntekijät pitävät taukoja vuorotellen, jotta työ ei pysähdy hetkeksikään. Kello 20 kaakosta alkaa tulla tummia pilviä. Iia käskee peittää valmiin osan. Viimeinen auto tulee kello 22.40. Vähän ennen keskiyötä kansi on valettu ja peitetty.\n\nIia kävelee vielä kerran sillan ympäri ja istuu sitten raskaasti autonsa penkille. Hän on väsynyt mutta iloinen. Kolmen viikon päästä betoni on kovaa, ja muotit voidaan purkaa. Ensi kesänä sivulliset eivät enää seiso aidan takana. He kävelevät sillan yli.\n\nKysymykset:\nMitä työmaalla tehdään tänään?\nTänään sillan kansi valetaan betonista.\nMiksi kansi valetaan yhdellä kertaa?\nKoska betonin täytyy olla yhtä kappaletta, eikä kanteen saa jäädä heikkoa kohtaa.\nMiksi sivulliset pidetään aidan takana?\nKoska työmaalla liikkuu raskaita koneita.\nMiten betoniautot tulevat työmaalle?\nNe tulevat vuorotellen: kun yksi lähtee tyhjänä, seuraava ajaa sen paikalle.\nMitä Ulf Pitkänen tekee, kun muotin tuki liikkuu?\nHän nostaa koneensa kouralla raskaan tuen takaisin paikalleen.\nMilloin valu on valmis?\nSe on valmis vähän ennen keskiyötä."
+    },
+    {
+      "title": "Pääsykoe",
+      "summary": "In her diary, a young woman from Espoo writes about the spring she prepared for the entrance exam to study engineering, a hopeless-looking physics problem, a visit to the university office about a grant, and the letter in July.",
+      "newWords": [
+        "pääsykoe",
+        "kiintiö",
+        "kunnianhimoinen",
+        "nöyrä",
+        "stipendi",
+        "kanslia",
+        "toivoton"
+      ],
+      "text": "Maanantai 12. toukokuuta\n\nKahden viikon päästä on pääsykoe. Haen opiskelemaan insinööriksi yliopistoon Espooseen. Lukion todistukseni on hyvä, mutta se ei riitä. Yliopisto jakaa paikat kahdessa kiintiössä: suurin osa paikoista menee todistuksen perusteella, ja loput saavat ne, jotka menestyvät pääsykokeessa. Todistukseni ei riitä ensimmäiseen kiintiöön, joten minun tieni kulkee pääsykokeen kautta.\n\nFysiikan opettajani sanoi kerran, että olen kunnianhimoinen. Hän tarkoitti sitä hyvänä asiana. Haluan suunnitella joskus tuulivoimaloita, jotka tuottavat sähköä koko kaupungille. Isäni sanoo kuitenkin aina, että kunnianhimoisen ihmisen täytyy olla myös nöyrä. Nöyrä ihminen tietää, mitä hän ei vielä osaa, ja opettelee sen.\n\nKeskiviikko 14. toukokuuta\n\nLaskin tänään vanhoja koetehtäviä. Yksi fysiikan tehtävä tuntui täysin toivottomalta. Istuin sen kanssa kaksi tuntia, ja paperi oli täynnä vääriä vastauksia. Sitten piirsin kuvan, ja yhtäkkiä näin, mitä tehtävässä kysyttiin. Toivoton tehtävä ei ollutkaan toivoton. Opin tänään, että kuva auttaa usein enemmän kuin kaava.\n\nPerjantai 16. toukokuuta\n\nKävin yliopiston kansliassa. Kanslia on vanhassa rakennuksessa, ja sen ovessa on pieni kyltti. Kysyin kanslian sihteeriltä, millaista tukea opiskelijat voivat saada. Hän kertoi, että eräs yritys antaa joka vuosi stipendin kolmelle ensimmäisen vuoden opiskelijalle. Stipendi on 2 000 euroa. Sitä haetaan syksyllä, ja hakijan täytyy kirjoittaa, miksi hän haluaa insinööriksi. Sihteeri antoi minulle paperin, jossa oli stipendin ohjeet. Laitoin sen kirjani väliin.\n\nTiistai 27. toukokuuta\n\nPääsykoe oli tänään. Salissa istui satoja nuoria, ja kaikki olivat hiljaa. Kokeessa oli kuusi tehtävää. Viides tehtävä näytti ensin toivottomalta, mutta piirsin kuvan, niin kuin harjoittelin kotona. Kolme tuntia meni nopeasti. Kun tulin ulos, aurinko paistoi, ja soitin isälle.\n\nKeskiviikko 9. heinäkuuta\n\nTänään tuli kirje. Pääsin sisään! Pääsykokeen pisteeni riittivät, vaikka en ollut mukana ensimmäisessä kiintiössä. Isä halasi minua ja sanoi: ”Ole nyt nöyrä ja tee töitä.” Äiti sanoi, että saan olla myös vähän ylpeä. Syksyllä haen stipendiä. Paperi on yhä kirjani välissä.\n\nKysymykset:\nMiksi kirjoittaja tarvitsee pääsykoetta?\nKoska hänen todistuksensa ei riitä ensimmäiseen kiintiöön, joka jaetaan todistuksen perusteella.\nMitä isä sanoo kunnianhimoisesta ihmisestä?\nHänen mukaansa kunnianhimoisen ihmisen täytyy olla myös nöyrä.\nMiten kirjoittaja ratkaisi toivottomalta tuntuneen tehtävän?\nHän piirsi kuvan, ja sitten hän näki, mitä tehtävässä kysyttiin.\nMitä kanslian sihteeri kertoi stipendistä?\nHän kertoi, että eräs yritys antaa joka vuosi 2 000 euron stipendin kolmelle uudelle opiskelijalle.\nMitä isä sanoi, kun kirje tuli?\nHän sanoi: ”Ole nyt nöyrä ja tee töitä.”"
+    },
+    {
+      "title": "Dinosaurus katossa",
+      "summary": "A Helsinki museum wants to hang a light copy of a dinosaur skeleton from the ceiling of its hall; engineer Axel Lehtimäki works out where the three steel wires go and why the middle one carries most of the weight.",
+      "newWords": [
+        "dinosaurus",
+        "ripustaa",
+        "koordinaatti",
+        "olka",
+        "hiven",
+        "ihastuttava",
+        "keskimmäinen"
+      ],
+      "text": "Helsingin luonnontieteellinen museo on saanut uuden näyttelyn. Sen tärkein esine on dinosaurus, tai oikeastaan dinosauruksen luuranko. Se ei ole oikea luuranko vaan kopio, joka on tehty kevyestä muovista. Museon johtaja haluaa ripustaa dinosauruksen ison salin kattoon niin, että se näyttää lentävän ihmisten yllä.\n\nTyö annetaan insinööri Axel Lehtimäelle. Hänen täytyy laskea, miten dinosaurus ripustetaan turvallisesti. Kopio on kevyt, mutta se painaa silti yli 300 kiloa. Lisäksi se on yhdeksän metriä pitkä, ja sen paino ei jakaudu tasaisesti: kaula ja pää ovat edessä, pitkä häntä takana.\n\nAxel päättää käyttää kolmea teräsköyttä. Ensimmäinen kiinnitetään dinosauruksen olkiin, toinen sen lantioon ja kolmas häntään. Keskimmäinen köysi on tärkein, koska se kantaa suurimman osan painosta. Axel laskee, että keskimmäinen köysi kantaa noin puolet koko painosta. Siksi hän valitsee keskimmäiseksi köydeksi paksumman kuin kaksi muuta.\n\nSeuraavaksi Axel tarvitsee jokaisen kiinnityskohdan tarkan paikan. Hän mittaa salin laserilla ja tekee tietokoneelle kuvan, jossa jokaisella pisteellä on koordinaatit. Koordinaatit kertovat, kuinka monta senttimetriä piste on salin nurkasta ja kuinka korkealla se on. Kun koordinaatit ovat valmiit, työntekijät voivat porata kattoon reiät juuri oikeisiin kohtiin.\n\nRipustuspäivänä museo on suljettu. Dinosaurus nostetaan hitaasti ylös. Kun se on ilmassa, Axel katsoo sitä alhaalta. Pää on hiven liian alhaalla, ja dinosaurus näyttää siltä kuin se olisi kaatumassa eteenpäin. Axel pyytää nostamaan olkien köyttä vähän. Pieni muutos riittää: kun pää nousee hiven ylemmäs, dinosaurus näyttää yhtäkkiä lentävän.\n\nAxel tarkistaa vielä kerran kaikki kolme köyttä. Olkien köysi ja hännän köysi ovat tiukalla, ja keskimmäinen kantaa painoa niin kuin pitää. Hän merkitsee lopulliset koordinaatit muistiin, jotta dinosauruksen voi joskus ripustaa uudelleen samalla tavalla.\n\nSeuraavana päivänä museoon tulee koululuokka. Lapset seisovat salin keskellä ja katsovat ylös. Eräs pieni tyttö sanoo opettajalle: ”Tämä on ihastuttava! Se näyttää siltä kuin se lentäisi.” Axel kuulee sen ovelta ja hymyilee. Hänen mielestään ihastuttava on paras sana, jonka insinööri voi työstään kuulla.\n\nKysymykset:\nMillainen dinosaurus museoon on tullut?\nSe on kopio dinosauruksen luurangosta, ja se on tehty kevyestä muovista.\nMiksi keskimmäinen köysi on muita paksumpi?\nKoska keskimmäinen köysi kantaa suurimman osan dinosauruksen painosta.\nMihin Axel tarvitsee koordinaatit?\nKoordinaattien avulla työntekijät tietävät, mihin kohtiin kattoon porataan reiät.\nMikä oli vialla, kun dinosaurus oli ilmassa?\nPää oli hiven liian alhaalla, ja dinosaurus näytti kaatuvan eteenpäin.\nMitä tyttö sanoi dinosauruksesta?\nHän sanoi, että se on ihastuttava ja näyttää lentävän."
+    },
+    {
+      "title": "Norsujen uusi talo",
+      "summary": "Stina Asikainen, a Finnish engineer living in Berlin, describes how the zoo's new elephant house was designed around the animals' quality of life: a warm sand floor, a pool and a quarantine area for newcomers.",
+      "newWords": [
+        "norsu",
+        "elinympäristö",
+        "karanteeni",
+        "elämänlaatu",
+        "hurjasti",
+        "painottua",
+        "kolo"
+      ],
+      "text": "Stina Asikainen on asunut Berliinissä kymmenen vuotta. Hän on rakennusinsinööri, ja hänen viimeisin työnsä on ollut kaupungin eläintarhan uusi norsujen talo. Stina kertoo työstään ystävilleen Suomessa usein, koska kukaan heistä ei ole ennen tavannut ihmistä, joka rakentaa taloja norsuille.\n\nVanha talo rakennettiin 1950-luvulla. Silloin ajateltiin lähinnä sitä, että ihmiset näkevät eläimet hyvin. Lattia oli kovaa betonia, ja sen koloihin jäi vettä ja likaa. Koloissa kasvoi bakteereja, ja norsujen jalat kärsivät. Norsu painaa monta tonnia, ja kova lattia on sen jaloille raskas.\n\nUuden talon suunnittelussa kaikki painottui norsujen elämänlaatuun. Suunnittelijat tutkivat ensin norsujen luonnollista elinympäristöä. Luonnossa norsu kävelee joka päivä pitkiä matkoja pehmeällä maalla, kylpee joessa ja on koko ajan lauman kanssa. Uuden talon piti olla mahdollisimman lähellä tätä elinympäristöä, vaikka Berliinin talvi on kylmä.\n\nStina suunnitteli lattian. Siinä on metrin paksuinen kerros hiekkaa, ja hiekan alla kulkevat lämpimän veden putket. Norsut voivat maata lämpimällä hiekalla, ja hiekkaa on helppo vaihtaa. Kovia pintoja ja koloja, joihin vesi jäisi seisomaan, ei ole lainkaan. Talossa on myös iso allas, jossa norsut voivat uida.\n\nNorsut syövät hurjasti. Yksi aikuinen norsu syö noin 150 kiloa ruokaa päivässä ja juo yli 100 litraa vettä. Siksi talon toiseen päähän tehtiin varasto, ja ruoka tuodaan sinne pienellä autolla. Stina sanoo nauraen, että norsujen ruokavarasto on suurempi kuin hänen oma asuntonsa.\n\nTaloon tehtiin myös erillinen karanteeni. Kun uusi norsu tulee toisesta eläintarhasta, se ei mene heti lauman luo. Ensin se on kuukauden karanteenissa, jotta eläinlääkäri voi varmistaa, ettei se tuo mukanaan tauteja. Karanteenista uusi norsu näkee ja haistaa muut, joten ne tutustuvat toisiinsa jo ennen kuin ne tapaavat.\n\nKun talo avattiin, Stina tuli katsomaan norsuja. Vanhin naaras käveli hitaasti hiekalle, kosketti sitä kärsällään ja kävi sitten pitkäkseen. ”Silloin tiesin, että työ oli onnistunut”, Stina sanoo. Hänen mielestään eläimen elämänlaatu on hyvä mittari myös ihmisten talojen suunnittelulle: hyvä talo on sellainen, jossa asukas viihtyy.\n\nKysymykset:\nMikä vanhassa norsujen talossa oli huonoa?\nLattia oli kovaa betonia, ja sen koloihin jäi vettä ja likaa, joten norsujen jalat kärsivät.\nMihin uuden talon suunnittelu painottui?\nSe painottui norsujen elämänlaatuun.\nMillainen on norsun luonnollinen elinympäristö?\nLuonnossa norsu kävelee pitkiä matkoja pehmeällä maalla, kylpee joessa ja elää lauman kanssa.\nPaljonko yksi aikuinen norsu syö?\nSe syö hurjasti, noin 150 kiloa ruokaa päivässä.\nMiksi uusi norsu on ensin karanteenissa?\nJotta eläinlääkäri voi varmistaa, ettei se tuo mukanaan tauteja."
+    },
+    {
+      "title": "Vanha höyrykone",
+      "summary": "A retired engineer tells how a club of volunteers rebuilt a scrapped steam engine for an old sawmill near Savonlinna and ran it again on the village's festive day.",
+      "newWords": [
+        "höyry",
+        "romu",
+        "taitavasti",
+        "juhlapäivä",
+        "ihmeissään",
+        "ehta",
+        "kantti"
+      ],
+      "text": "Olen eläkkeellä oleva insinööri, ja asun Savonlinnan lähellä pienessä kylässä. Kylän rannassa on vanha saha, jossa tehtiin lautoja jo yli sata vuotta sitten. Sahan kone toimi höyryllä. Kun saha suljettiin, kone jäi rakennukseen, ja vuosien mittaan siitä tuli pelkkää romua.\n\nViisi vuotta sitten kylän nuori opettaja kysyi minulta, voisiko koneen korjata. Kävimme yhdessä katsomassa sitä. Kone oli ruskea ruosteesta, ja sen ympärillä oli muuta romua: vanhoja pyöriä, rikki olevia työkaluja ja tyhjiä laatikoita. Opettaja kysyi: ”Onko tämä vain romua?” Vastasin, että ei ole. Se on ehta 1900-luvun alun höyrykone, ja sellaisia on Suomessa jäljellä vain muutama.\n\nPerustimme kerhon, jossa oli kymmenen ihmistä. Teimme töitä joka lauantai. Ensin poistimme romun koneen ympäriltä ja puhdistimme jokaisen osan. Osa osista oli niin huonossa kunnossa, että ne piti tehdä uudelleen. Kylän metallimies Hiski Kivistö teki uudet osat taitavasti vanhojen piirustusten mukaan. Hän työskenteli niin taitavasti, että uutta osaa oli vaikea erottaa vanhasta.\n\nHöyrykone toimii niin, että vesi kuumennetaan suuressa kattilassa. Vedestä tulee höyryä, ja höyryn paine liikuttaa konetta. Paine on vaarallinen, jos kattila ei ole kunnossa. Siksi tarkastaja kävi testaamassa kattilan ennen kuin saimme käyttää sitä.\n\nEnsimmäinen kokeilu oli syyskuun alussa kylän juhlapäivänä. Kylän juhlapäivää vietetään joka vuosi, ja silloin rannassa on tori, musiikkia ja kahvia. Sinä vuonna juhlapäivän tärkein ohjelma oli höyrykone. Sytytimme tulen aamulla kello 7. Kahden tunnin päästä kattilasta nousi ensimmäinen valkoinen höyry, ja kone alkoi liikkua.\n\nSahan terä alkoi pyöriä, ja teimme yhdestä tukista lautoja. Ihmiset seisoivat ympärillä ihmeissään. Eräs vanha mies, joka oli lapsena nähnyt sahan työssä, kosketti lautaa ja oli hetken aivan ihmeissään. Lauta oli ehtaa vanhan ajan työtä, juuri samanlaista kuin sata vuotta sitten.\n\nMyöhemmin näytin lapsille, miten laudan kantti hiotaan. Uuden laudan kantti on terävä, ja siitä voi saada tikun käteen. Hioimme kantit sileiksi ja pyöreiksi. Jokainen lapsi sai viedä kotiin pienen laudanpalan, jonka kantti oli hiottu sileäksi.\n\nNykyään höyrykone käy joka kesä kylän juhlapäivänä. Romu, joka oli seissyt rakennuksessa kymmeniä vuosia, on taas kone.\n\nKysymykset:\nMiksi sahan kone oli muuttunut romuksi?\nKoska se oli jäänyt rakennukseen, kun saha suljettiin, ja seissyt siellä vuosia.\nMiksi kertoja sanoi, että kone ei ole vain romua?\nKoska se on ehta 1900-luvun alun höyrykone, ja sellaisia on Suomessa jäljellä vain muutama.\nMiten höyrykone toimii?\nVesi kuumennetaan kattilassa, ja höyryn paine liikuttaa konetta.\nMitä ihmiset tekivät, kun saha alkoi pyöriä?\nHe seisoivat ympärillä ihmeissään.\nMitä lapset saivat viedä kotiin?\nHe saivat pienen laudanpalan, jonka kantti oli hiottu sileäksi."
+    },
+    {
+      "title": "Kahva, joka sopii käteen",
+      "summary": "At a Kuopio workshop where adults with intellectual disabilities print fabric patterns, a young engineer designs a new handle for the printing tool so that thumbs and shoulders no longer ache.",
+      "newWords": [
+        "kahva",
+        "peukalo",
+        "kehitysvammainen",
+        "oikeanlainen",
+        "vetäjä",
+        "kuosi",
+        "energinen",
+        "fiksusti"
+      ],
+      "text": "Kuopiossa on työpaja, jossa kehitysvammaiset aikuiset painavat kuoseja kankaalle. Työpajassa käy joka päivä kaksitoista ihmistä. He tekevät kankaista laukkuja, liinoja ja tyynyjä, joita myydään kaupungin kaupoissa. Jokaisella kuosilla on oma nimi: yhdessä kuosissa on sinisiä kaloja, toisessa keltaisia kukkia.\n\nTyöpajan vetäjä on Jessica Oksanen. Jessica on energinen nainen, joka ei koskaan istu paikallaan. Hän on huomannut, että monet työntekijät eivät jaksa painaa kauan. Kuosi painetaan kankaalle leveällä työkalulla, jolla väri vedetään kehyksen läpi. Työkalun kahva on ohut ja suora. Sitä täytyy puristaa voimakkaasti, ja peukalo tekee suurimman työn. Moni kehitysvammainen työntekijä valittaa, että peukaloon ja olkaan sattuu.\n\nJessica soittaa ystävälleen Jonas Heinoselle, joka on nuori insinööri. ”Tarvitsemme oikeanlaisen kahvan”, Jessica sanoo. ”Nykyinen kahva on tehty jollekulle muulle kuin meille.” Työpajan vetäjänä hän tietää, että oikeanlainen työkalu voi muuttaa koko päivän.\n\nJonas tulee työpajaan ja katsoo työtä koko päivän. Hän huomaa, että ongelma ei ole voima vaan asento. Kun kahva on suora, ranne kääntyy ja olka nousee ylös. Paino ei mene kehon läpi työkaluun vaan peukaloon. Jonas kysyy jokaiselta työntekijältä, miltä kahva tuntuu. Moa, nuori ja energinen työntekijä, joka tekee eniten kuoseja, joissa on kaloja, näyttää, miten hän pitää työkalua. ”Tässä peukaloon sattuu”, hän sanoo ja osoittaa kohtaa.\n\nJonas tekee kolme erilaista kahvaa ja tulostaa ne muovista. Ensimmäinen on paksu, toisessa on kaari ja kolmas sellainen, että siitä voi pitää kahdella kädellä. Työntekijät kokeilevat niitä viikon ajan. Lähes kaikki valitsevat kahvan, jossa on kaari. Siinä on kohta, johon peukalo asettuu itsestään, ja olka voi pysyä alhaalla.\n\nJonas sanoo, että hän ei keksinyt mitään suurta. Hän vain kysyi ensin niiltä, jotka työtä tekevät. Jessican mielestä Jonas toimi fiksusti: hän katsoi, kuunteli ja vasta sitten piirsi. ”Moni olisi tullut tänne valmiin suunnitelman kanssa”, Jessica sanoo. ”Jonas teki fiksusti, kun antoi meidän päättää.” Vetäjä on iloinen myös siitä, että työntekijät saivat itse valita oman työkalunsa.\n\nNyt jokaisessa työkalussa on uusi kahva. Työntekijät jaksavat painaa pidempään, ja kenenkään peukalo ei ole enää kipeä. Moa on tehnyt uuden kuosin, jossa on sinisiä kaloja ja yksi keltainen kahva. Hän sanoo, että se on hänen paras kuosinsa.\n\nKysymykset:\nMitä työpajassa tehdään?\nSiellä kehitysvammaiset aikuiset painavat kuoseja kankaalle ja tekevät kankaista laukkuja, liinoja ja tyynyjä.\nKuka on työpajan vetäjä?\nTyöpajan vetäjä on Jessica Oksanen, energinen nainen, joka ei koskaan istu paikallaan.\nMiksi työntekijät eivät jaksaneet painaa kauan?\nKoska työkalun kahva oli ohut ja suora, ja peukalo teki suurimman työn.\nMitä Jonas huomasi, kun hän katsoi työtä?\nHän huomasi, että ongelma oli asento, ei voima.\nMinkä kahvan työntekijät valitsivat?\nHe valitsivat kahvan, jossa on kaari ja jossa peukalo asettuu itsestään oikeaan kohtaan.\nMiksi Jessican mielestä Jonas toimi fiksusti?\nKoska hän katsoi ja kuunteli ensin ja antoi työntekijöiden päättää."
+    },
+    {
+      "title": "Limaa putkissa",
+      "summary": "In a warm summer the raw-water pipe of the Lappeenranta water plant fills with slime; engineer Barbro Ojanen finds the cause, has the pipe cleaned and explains why the drinking water was safe all along.",
+      "newWords": [
+        "lima",
+        "puhtaus",
+        "nykytila",
+        "rutkasti",
+        "edellisvuosi",
+        "sisäisesti",
+        "totaalinen"
+      ],
+      "text": "Lappeenrannan vesilaitos ottaa veden Saimaasta. Vesi kulkee järven pohjasta pitkää putkea pitkin laitokselle, jossa se puhdistetaan. Laitoksen insinööri Barbro Ojanen vastaa siitä, että putki ja pumput toimivat.\n\nHeinäkuussa Barbro huomasi, että pumput tekivät enemmän työtä kuin tavallisesti, mutta laitokselle tuli vähemmän vettä. Hän vertasi lukuja edellisvuoteen. Edellisvuonna samaan aikaan pumput olivat tuoneet samalla sähkömäärällä rutkasti enemmän vettä. Jokin oli muuttunut.\n\nBarbro lähetti putkeen pienen kameran. Kuvissa näkyi, että putken seinät olivat paksun liman peitossa. Lima oli vihreää ja ruskeaa, ja sitä oli rutkasti. Se oli kasvanut putkeen, koska kesä oli ollut paljon lämpimämpi kuin edellisvuoden kesä. Lämpimässä vedessä levät ja bakteerit kasvavat nopeasti, ja niistä syntyy limaa. Kun limaa on paljon, putki kapenee ja vesi kulkee hitaammin.\n\nEnsin Barbro kertoi asiasta sisäisesti. Hän kirjoitti raportin putken nykytilasta laitoksen johtajalle ja muille työntekijöille. Raportissa oli kuvat putkesta, luvut pumpuista ja suunnitelma. Barbro halusi, että kaikki laitoksella tiesivät asian, ennen kuin siitä kerrottiin kaupunkilaisille.\n\nJohtaja kysyi, pitääkö veden jakelu katkaista. Barbro vastasi, että totaalinen katko ei ole tarpeen. Laitoksella on kaksi putkea, joten toisen voi puhdistaa, kun toinen on käytössä. Totaalinen katko olisi ollut suuri vaiva tuhansille kodeille, eikä sille ollut syytä.\n\nPutki puhdistettiin elokuun alussa. Sen läpi työnnettiin pehmeä tulppa, joka kaapi liman seiniltä. Limaa tuli ulos useita kuutiometrejä. Puhdistuksen jälkeen pumput toivat taas yhtä paljon vettä kuin edellisvuonna.\n\nMoni kaupunkilainen kysyi, oliko juomavesi ollut vaarallista. Barbro kirjoitti laitoksen sivuille vastauksen. Hänen mukaansa veden puhtaus ei ollut missään vaiheessa vaarassa. Lima oli raakavesiputkessa, ja vesi puhdistetaan laitoksella aina ennen kuin se menee kotien hanoihin. Laitos tutkii veden puhtauden joka päivä, ja kaikki tulokset olivat olleet hyviä.\n\nNyt Barbro tarkistaa putken nykytilan kameralla kaksi kertaa kesässä. Jos limaa alkaa taas kertyä, putki puhdistetaan ennen kuin pumput huomaavat sen.\n\nKysymykset:\nMistä Lappeenrannan vesilaitos ottaa veden?\nSe ottaa veden Saimaasta.\nMitä Barbro huomasi, kun hän vertasi lukuja edellisvuoteen?\nHän huomasi, että pumput toivat samalla sähköllä vähemmän vettä kuin edellisvuonna.\nMiksi putkeen oli kasvanut limaa?\nKoska kesä oli lämmin, ja lämpimässä vedessä levät ja bakteerit kasvavat nopeasti.\nKenelle Barbro kertoi asiasta ensin?\nHän kertoi siitä ensin sisäisesti laitoksen johtajalle ja työntekijöille.\nMiksi totaalinen katko ei ollut tarpeen?\nKoska laitoksella on kaksi putkea, ja toisen voi puhdistaa, kun toinen on käytössä.\nOliko veden puhtaus vaarassa?\nEi ollut, koska vesi puhdistetaan laitoksella aina ennen kuin se menee koteihin."
+    },
+    {
+      "title": "Vettä ponitallille",
+      "summary": "A pony breeder near Seinäjoki is tired of carrying water in winter; her neighbour, an engineer, builds heated drinking bowls and a pipe to the pasture, watches out for ticks in the long grass, and they celebrate with dinner.",
+      "newWords": [
+        "poni",
+        "kasvattaja",
+        "punkki",
+        "päivällinen",
+        "osuuskauppa"
+      ],
+      "text": "Gunnel Ylinen asuu Seinäjoen lähellä vanhalla maatilalla. Hän on ponien kasvattaja. Tallissa on 14 ponia, ja joka kevät syntyy muutama uusi poni. Gunnel on ollut kasvattaja kolmekymmentä vuotta, ja hänen poninsa tunnetaan koko maassa. Hyvä kasvattaja tuntee jokaisen eläimensä luonteen, ja Gunnel tietää, mikä poni on rohkea ja mikä pelkää kovia ääniä.\n\nTalvisin Gunnelin päivät ovat raskaita. Joka aamu ja ilta hän kantaa ponien vedet ämpäreissä talliin. Yksi poni juo päivässä noin 30 litraa vettä, joten ämpäreitä on paljon. Kovilla pakkasilla vesi jäätyy ämpäreihin, ja Gunnel joutuu kantamaan lisää lämmintä vettä talosta.\n\nGunnelin naapuri Björn Hirvelä on insinööri, joka on suunnitellut koneita koko ikänsä. Eräänä tammikuun iltana hän näkee, kuinka Gunnel kantaa ämpäreitä lumessa. ”Tämä täytyy korjata”, Björn sanoo. ”Kasvattaja ei voi kantaa ämpäreitä koko elämäänsä.”\n\nBjörn suunnittelee talliin uudet astiat. Jokaisen ponin paikalle tulee pieni astia, joka täyttyy itsestään, kun poni painaa sen pohjaa nenällään. Astioissa on lämmitys, joten vesi ei jäädy. Björn hakee osat kylän osuuskaupasta. Osuuskaupassa on osasto, jossa myydään työkaluja ja rautaa, ja myyjä tilaa sinne ne osat, joita kaupassa ei ole valmiina.\n\nPonit oppivat käyttämään astioita parissa päivässä. Nuorin poni pelkää ensin astian ääntä. Sitten se näkee, miten vanha poni juo, ja kokeilee itse.\n\nKeväällä Björn vetää putken myös laitumelle, jossa ponit ovat kesällä. Putki kulkee maan alla pitkän ruohon läpi pienen joen vieressä. Gunnel varoittaa häntä: ”Pidä pitkiä housuja. Täällä on paljon punkkeja.” Punkit elävät pitkässä ruohossa, ja ne tarttuvat ihmisiin ja eläimiin. Joka ilta Gunnel tarkistaa ponien jalat ja kaulat, jotta yksikään punkki ei jää niihin. Björn tarkistaa myös omat jalkansa ja löytää yhden punkin sukastaan.\n\nKesäkuussa työ on valmis. Laitumella on oma astia, ja tallissa jokaisella ponilla on omansa. Gunnel kutsuu Björnin ja hänen vaimonsa päivälliselle. Päivälliseksi on lohta, uusia perunoita ja mansikoita. Gunnel on ostanut ruoat samasta osuuskaupasta, josta Björn haki osat, ja myyjä on kysynyt, miten ponien uudet astiat toimivat.\n\nPäivällisen jälkeen he kävelevät ulos. Ponit juovat, ja ilta on lämmin. ”Tänä talvena en kanna yhtään ämpäriä”, Gunnel sanoo. Björn lupaa tulla tarkistamaan astiat lokakuussa, ennen kuin pakkaset alkavat.\n\nKysymykset:\nKuka Gunnel Ylinen on?\nHän on ponien kasvattaja, joka asuu Seinäjoen lähellä vanhalla maatilalla.\nMiksi Gunnelin päivät olivat talvella raskaita?\nKoska hän kantoi joka aamu ja ilta ponien vedet ämpäreissä talliin.\nMiten Björnin suunnittelemat astiat toimivat?\nAstia täyttyy itsestään, kun poni painaa sen pohjaa, ja lämmitys estää vettä jäätymästä.\nMistä Björn haki osat?\nHän haki osat kylän osuuskaupasta.\nMiksi Gunnel varoitti Björnia punkeista?\nKoska pitkässä ruohossa on paljon punkkeja, ja ne tarttuvat ihmisiin ja eläimiin.\nMitä Gunnelin päivällisellä syötiin?\nPäivälliseksi oli lohta, uusia perunoita ja mansikoita."
+    },
+    {
+      "title": "Näkymätön insinöörityö",
+      "summary": "A column by an engineer about the engineering nobody notices in everyday life, from fast network connections and film subtitles to Finland's long distances, and why engineers should talk about their work in plain words.",
+      "newWords": [
+        "tosielämä",
+        "sisäpiiri",
+        "valtavirta",
+        "ekonomisti",
+        "työllisyysaste",
+        "megabitti",
+        "tekstitys",
+        "maantieteellinen",
+        "tahallinen"
+      ],
+      "text": "Kolumni\n\nKun ihmiset kuulevat, että olen insinööri, he kysyvät usein, mitä oikeastaan teen. Vastaan yleensä, että teen asioita, joita kukaan ei huomaa. Se ei ole valitus. Se on mielestäni insinöörin työn paras puoli: kun työ on tehty hyvin, se katoaa näkyvistä.\n\nAjatellaan tavallista iltaa. Katsot kotona elokuvaa netistä. Yhteys toimii, koska joku on rakentanut verkon, joka siirtää sekunnissa satoja megabittejä. Sata megabittiä sekunnissa riittää siihen, että koko perhe voi katsoa eri ohjelmia yhtä aikaa. Kukaan ei mieti megabittejä, ennen kuin kuva pysähtyy.\n\nElokuvassa on tekstitys. Tekstitys ilmestyy ruutuun juuri silloin, kun näyttelijä puhuu. Sekin on insinöörien työtä: joku on tehnyt ohjelman, joka pitää tekstityksen ja äänen samassa tahdissa. Jos tekstitys tulee sekunnin myöhässä, katsoja huomaa sen heti. Kun se tulee ajallaan, kukaan ei kiinnitä siihen huomiota.\n\nSuomessa insinöörin työllä on lisäksi omat maantieteelliset haasteensa. Maa on pitkä, ihmisiä on vähän ja talvi on kylmä. Maantieteellinen asema tarkoittaa, että tiet, sähköverkot ja vesiputket täytyy rakentaa kestämään pakkasta ja lunta, ja niitä täytyy vetää pitkiä matkoja harvoille asukkaille. Inarin pienessä kylässä netin pitää toimia yhtä hyvin kuin Helsingin keskustassa.\n\nMiksi insinöörien työstä sitten puhutaan niin vähän? Yksi syy on se, että me insinöörit puhumme omaa kieltämme. Meillä on sanoja ja lyhenteitä, joita ymmärtää vain alan sisäpiiri. Sisäpiirissä on mukava keskustella, mutta sieltä ei näe, mitä muut ajattelevat. Valtavirran mediassa insinöörit näkyvät harvoin, ja kun näkyvät, juttu kertoo yleensä jostakin, mikä on mennyt rikki.\n\nLuin hiljattain haastattelun, jossa ekonomisti puhui Suomen taloudesta. Hänen mukaansa maan työllisyysaste riippuu paljon siitä, kuinka hyvin yritykset osaavat kehittää uusia tuotteita. Työllisyysaste kertoo, kuinka suuri osa työikäisistä ihmisistä on töissä. Ekonomistin mukaan jokainen uusi tehdas tai verkko luo työtä myös muille kuin insinööreille. Hän sanoi tämän numeroilla. Minä sanoisin sen tarinoilla.\n\nTosielämässä insinöörin työ ei ole yksinäistä laskemista. Se on kokouksia, puheluita, käyntejä työmailla ja paljon kysymyksiä. Tosielämä opettaa sen, mitä koulu ei opeta: parhaat ratkaisut syntyvät usein, kun kysyy neuvoa ihmiseltä, joka käyttää laitetta joka päivä.\n\nHaluan lopuksi tunnustaa yhden asian. Kun kirjoitan tällaisia kolumneja, jätän teknisiä yksityiskohtia pois. Se on tahallinen valinta, ei unohdus. Jos insinöörit haluavat valtavirran ymmärtävän työtään, meidän täytyy puhua niin, että sisäpiirin ulkopuolinenkin ymmärtää. Tahallinen yksinkertaistaminen ei ole virhe vaan kohteliaisuus lukijaa kohtaan.\n\nSeuraavan kerran, kun avaat hanan, sytytät valon tai luet elokuvan tekstitystä, voit muistaa, että joku on suunnitellut sen. Jos et muista, sekin on hyvä merkki. Silloin työ on tehty hyvin.\n\nKysymykset:\nMikä on kirjoittajan mielestä insinöörin työn paras puoli?\nKun työ on tehty hyvin, se katoaa näkyvistä, eikä kukaan huomaa sitä.\nMitä tekstitys vaatii insinööreiltä?\nJoku on tehnyt ohjelman, joka pitää tekstityksen ja äänen samassa tahdissa.\nMitä maantieteellisiä haasteita Suomessa on?\nMaa on pitkä, ihmisiä on vähän ja talvi on kylmä, joten verkot täytyy rakentaa pitkiä matkoja ja kestämään pakkasta.\nMistä työllisyysaste ekonomistin mukaan riippuu?\nSe riippuu paljon siitä, kuinka hyvin yritykset osaavat kehittää uusia tuotteita.\nMiksi kirjoittaja jättää teknisiä yksityiskohtia pois?\nSe on tahallinen valinta, jotta myös sisäpiirin ulkopuoliset ymmärtäisivät tekstin."
+    }
+  ]
+}
