@@ -363,7 +363,7 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
     if code == "id":
         return indonesian_tokens(text, ranks, heads, names)
     if code in FINNIC:
-        return finnic_tokens(text)
+        return finnic_tokens(text, code)
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
@@ -1476,7 +1476,9 @@ def indonesian_tokens(text, ranks, heads, names=frozenset()):
 #   -ksi becomes -kse- (talokseni), and the third person is also a vowel lengthened + n after a case ending in a
 #   vowel (talossaan, taloaan, tehdäkseen);
 # - name_endings: the case endings a name takes (Liisan, Liisalle, Tampereella), after at most two letters of a stem
-#   changed by the ending (Helsinki, Helsingissä; Turku, Turussa; Lahti, Lahdessa).
+#   changed by the ending (Helsinki, Helsingissä; Turku, Turussa; Lahti, Lahdessa);
+# - hyphen_endings: whether an ending is joined to a number or an abbreviation with a hyphen (Estonian 5-le, 1990-ndatel,
+#   EL-i), where it goes with them.
 FINNIC = {
     "fi": {
         "questions": "Kysymykset:",
@@ -1487,6 +1489,16 @@ FINNIC = {
         "name_endings": ("n", "a", "ä", "ta", "tä", "ssa", "ssä", "sta", "stä", "an", "en", "in", "on", "un", "yn", "än",
                          "ön", "seen", "lla", "llä", "lta", "ltä", "lle", "na", "nä", "ksi", "tta", "ttä", "t"),
     },
+    # Estonian has no possessive suffixes; its clitic is -gi/-ki (minagi, sealgi, keegi's kellelgi), and a name takes the
+    # cases on its genitive stem (Mari, Marile, Mariga; Tallinn, Tallinna, Tallinnas; Saaremaa, Saaremaal; Peipus, Peipsil).
+    "et": {
+        "questions": "Küsimused:",
+        "clitics": ("gi", "ki"),
+        "possessives": (),
+        "name_endings": ("a", "e", "i", "u", "d", "t", "de", "te", "id", "sse", "s", "st", "le", "l", "lt", "ks", "ni",
+                         "na", "ta", "ga", "desse", "des", "dest", "dele", "del", "delt", "deks", "dega"),
+        "hyphen_endings": True,
+    },
 }
 FINNIC_VOWELS = "aeiouyäöå"
 # A word with a hyphen (linja-auto, EU-maa) is one word, outside the list unless listed; the ending after digits
@@ -1495,7 +1507,12 @@ FINNIC_VOWELS = "aeiouyäöå"
 FINNIC_WORD = re.compile(r"[^\W\d_]+(?:['’][^\W\d_]+)*(?:-[^\W\d_]+(?:['’][^\W\d_]+)*)*", re.UNICODE)
 
 
-def finnic_tokens(text):
+def finnic_tokens(text, code="fi"):
+    if FINNIC.get(code, {}).get("hyphen_endings"):
+        # An ending after a number (5-le, 1990-ndatel) is the number's; after an abbreviation (EL-i, SMS-iga), the
+        # abbreviation's.
+        text = re.sub(r"(?<=\d)-[^\W\d_]+", "", text)
+        text = re.sub(r"(?<![^\W\d_])([^\W\d_a-zõäöüšž]{2,})-[^\W\d_]+", r"\1", text)
     text = re.sub(r"(?<=[^\W_]):[^\W\d_]+", "", text)
     return [m.group(0) for m in FINNIC_WORD.finditer(text)]
 
