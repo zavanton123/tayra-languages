@@ -1,0 +1,196 @@
+{
+  "id": "fi-mini-4000",
+  "rankUpTo": 4000,
+  "level": "B2",
+  "title": "Kaupunkielämän kolumneja",
+  "description": "Ten columns and stories about city life in Finland: an early morning in Hervanta, a wallet lost on a tram, a water leak, courtyard vegetable boxes, a culture gala, cooking after a diabetes diagnosis, a local journalist at a residents' meeting, rising prices, New Year's Eve at a service home and a city hooked on ice hockey.",
+  "topic": "City life columns",
+  "names": [
+    "Hervanta",
+    "Tampere",
+    "Alice",
+    "Töölö",
+    "Helsinki",
+    "Albin",
+    "Ludvig",
+    "Turku",
+    "Kupittaa",
+    "Doris",
+    "Dorikselta",
+    "Dorikselle",
+    "Ture",
+    "Tikkurila",
+    "Suomi",
+    "Oivi",
+    "Lovisa",
+    "Kontula",
+    "Olof",
+    "Jyväskylä",
+    "Ada",
+    "Kuopio",
+    "Niirala",
+    "Pori",
+    "Alfred",
+    "Gustav",
+    "Oulu",
+    "Toppila",
+    "Adele",
+    "Kuura",
+    "Rovaniemi",
+    "Linus",
+    "Kanada",
+    "Linuksen",
+    "Olofin",
+    "Olofilla",
+    "Alicen"
+  ],
+  "lessons": [
+    {
+      "title": "Kaupunki herää varhain",
+      "summary": "A columnist from Hervanta describes how her neighbourhood wakes up in the early morning and why she likes that hour best.",
+      "newWords": [
+        "varhain",
+        "iltaisin",
+        "kiireinen",
+        "asuinalue",
+        "nurmi",
+        "honka",
+        "mopo",
+        "reppu"
+      ],
+      "text": "Herään joka aamu varhain, yleensä jo ennen kuutta. En tee sitä siksi, että minun pitäisi. Herätyskelloa en ole käyttänyt vuosiin. Keho on vain tottunut siihen, ja olen oppinut pitämään aamun hiljaisista tunneista.\n\nAsun Hervannassa, suurella asuinalueella Tampereen eteläpuolella. Asuinalue rakennettiin 1970-luvulla keskelle metsää, ja metsästä on jäänyt jäljelle paljon. Talomme pihalla kasvaa kolme vanhaa honkaa, jotka ovat varmasti talojakin vanhempia. Kun rakentajat kaatoivat metsää, joku päätti säästää ne. Olen siitä hänelle kiitollinen joka aamu.\n\nVarhain aamulla asuinalue on aivan toinen paikka kuin päivällä. Kun keitän kahvia, katson ikkunasta pihalle. Nurmi on märkä kasteesta, ja korkeimman hongan latvassa istuu orava. Kadulla ei vielä kulje autoja. Ainoa ääni on lehtien jakajan pyörä, joka pysähtyy jokaisen rapun eteen.\n\nKello seitsemän jälkeen kaupunki alkaa liikkua. Ensimmäisinä bussipysäkille tulevat ne, joilla on pitkä työmatka. Heillä on kädessä kahvimuki ja olalla reppu. Sitten pihan halki kulkevat koululaiset. Pienimpien reput ovat niin suuria, että lapset näyttävät reppujen alla vielä pienemmiltä. Viimeisinä lähtevät nuoret, joiden mopot pärisevät parkkipaikalla. Mopo on täällä tärkeä kulkuväline, sillä lukio on kaupunginosan toisella puolella. Moni naapuri valittaa mopojen äänestä, mutta minä en jaksa suuttua. Muistan, kuinka itse 15-vuotiaana säästin rahaa ensimmäiseen mopooni.\n\nPäivän mittaan elämä muuttuu kiireiseksi. Kauppakeskuksen edessä on jonoja, ja kiireiset ihmiset kävelevät nurmen yli, koska se on lyhyempi tie kuin katu. Nurmeen on kulunut ruskea polku, jota kukaan ei ole suunnitellut. Iltaisin pihoilla on lapsia ja koiria, ja parvekkeilla grillataan. Iltaisin asuinalue on kyllä elävä, mutta myös äänekäs.\n\nMonet ystäväni ihmettelevät, miksi en nuku pidempään. Minulla on kiireinen työ, ja he ajattelevat, että tarvitsisin enemmän unta. Menen kuitenkin iltaisin aikaisin nukkumaan, joten unta riittää. Aamun hiljaiset tunnit ovat minulle kuin lahja. Silloin ehdin ajatella rauhassa, ennen kuin päivän kiireiset asiat vievät kaiken huomioni.\n\nSuosittelen kokeilemaan. Herää huomenna varhain, keitä kahvia ja katso ikkunasta, miten oma asuinalueesi herää. Saatat huomata jotain, mitä et ole koskaan ennen nähnyt.\n\nKysymykset:\nMissä kolumnin kirjoittaja asuu?\nHän asuu Hervannassa, suurella asuinalueella Tampereella.\nMitä talon pihalla kasvaa?\nPihalla kasvaa kolme vanhaa honkaa.\nKetkä lähtevät aamulla viimeisinä?\nViimeisinä lähtevät nuoret, jotka ajavat mopoilla lukioon.\nMiksi nurmeen on kulunut polku?\nKiireiset ihmiset kävelevät nurmen yli, koska se on lyhyempi tie.\nMiksi kirjoittaja ei tarvitse enempää unta, vaikka hän herää varhain?\nHän menee iltaisin aikaisin nukkumaan, joten unta riittää."
+    },
+    {
+      "title": "Lompakko bussissa",
+      "summary": "Alice leaves her wallet on a Helsinki bus and starts cancelling her cards, and a kind schoolboy brings it back to her door the same evening.",
+      "newWords": [
+        "lompakko",
+        "kiltti",
+        "pahoitella",
+        "pahoillaan",
+        "hoitua",
+        "vakuutusyhtiö",
+        "varovasti"
+      ],
+      "text": "Alice on 52-vuotias, ja hän asuu Töölössä Helsingissä. Joka aamu hän menee töihin bussilla. Matka kestää vain 12 minuuttia, ja yleensä hän lukee sen aikana uutiset puhelimestaan.\n\nEräänä tiistaina bussi oli täynnä. Alice istui ikkunan viereen ja otti lompakon laukustaan, koska hän halusi katsoa, paljonko kortilla oli vielä rahaa. Sitten hänen puhelimensa soi. Työkaveri kysyi kiireisellä äänellä kokouksen papereista. Alice puhui puhelimeen koko matkan ja hyppäsi ulos bussista viime hetkellä. Lompakko jäi penkille.\n\nVasta toimistolla Alice huomasi, että lompakko puuttui. Hän tyhjensi laukkunsa pöydälle, mutta lompakkoa ei löytynyt. Häntä alkoi pelottaa. Lompakossa olivat hänen pankkikorttinsa, ajokorttinsa ja vähän käteistä rahaa.\n\nAlice meni esimiehensä luo. ”Pahoittelen, mutta tulen kokoukseen vähän myöhässä”, hän sanoi. ”Lompakkoni jäi bussiin.”\n\n”Ei se mitään”, esimies vastasi. ”Hoida ensin asiasi. Kokous voi odottaa.”\n\nAlice soitti pankkiin, ja kortti suljettiin heti. Puhelu hoitui nopeasti, ja pankin työntekijä oli ystävällinen. Sitten Alice soitti vakuutusyhtiöön, koska lompakossa oli myös hänen vakuutuskorttinsa. Vakuutusyhtiön työntekijä kertoi, että uuden kortin voi tilata netistä. Lopuksi Alice ilmoitti kadonneesta lompakosta liikenteen asiakaspalveluun. Asiat hoituivat, mutta mieli oli silti paha. Uuden ajokortin hankkiminen veisi aikaa ja rahaa.\n\nIllalla, kun Alice oli juuri tullut kotiin, joku soitti ovikelloa. Oven takana seisoi noin 12-vuotias poika, jolla oli reppu selässä.\n\n”Hei, olen Albin”, poika sanoi varovasti. ”Asutteko te tässä? Löysin teidän lompakkonne bussista. Siinä oli kirje, jossa oli tämä osoite.”\n\nAlice oli niin iloinen, ettei hän ensin tiennyt, mitä sanoa. Albin antoi lompakon hänelle varovasti, kuin se olisi ollut lasia. Mitään ei puuttunut.\n\n”Olen pahoillani, että tulin näin myöhään”, Albin sanoi. ”Minulla oli ensin jalkapallon harjoitukset.”\n\n”Ei sinun tarvitse pahoitella mitään”, Alice sanoi. ”Olet todella kiltti poika. Kiitos!”\n\nAlice halusi antaa Albinille kymmenen euroa, mutta poika ei ensin halunnut ottaa rahaa. Lopulta hän otti sen ja lupasi ostaa sillä jäätelöä itselleen ja siskolleen.\n\nSeuraavana aamuna Alice kertoi tarinan työkavereilleen. ”Kiltit ihmiset ovat yhä olemassa”, hän sanoi. Nykyään hän pitää lompakkoa aina laukun pohjalla ja sulkee laukun varovasti, ennen kuin hän nousee pois bussista.\n\nKysymykset:\nMihin Alicen lompakko jäi?\nSe jäi bussiin matkalla töihin.\nMiksi Alice soitti vakuutusyhtiöön?\nLompakossa oli myös hänen vakuutuskorttinsa.\nMitä Alice sanoi esimiehelleen?\nHän pahoitteli, että hän tulee myöhässä kokoukseen.\nKuka toi lompakon takaisin?\nKiltti poika nimeltä Albin toi sen Alicen kotiin illalla.\nMiksi Albin oli pahoillaan?\nHän oli pahoillaan, koska hän tuli niin myöhään."
+    },
+    {
+      "title": "Vettä alakerran katossa",
+      "summary": "A loose pipe under Ludvig's kitchen sink leaks into Doris's kitchen downstairs; they catch the water in pots, and Ture from the maintenance company finds and fixes the leak.",
+      "newWords": [
+        "vuoto",
+        "alakerta",
+        "virrata",
+        "kattila",
+        "velvoittaa",
+        "hiki",
+        "kohdistaa",
+        "teknisesti"
+      ],
+      "text": "Ludvig asuu kerrostalon kolmannessa kerroksessa Turun Kupittaalla. Hän on 34-vuotias ja tekee töitä kotoa käsin. Eräänä torstaina iltapäivällä hänen ovellaan seisoi alakerran naapuri Doris, eläkkeellä oleva opettaja.\n\n”Anteeksi, että häiritsen”, Doris sanoi. ”Minun keittiöni katosta tippuu vettä. Voisitko tulla katsomaan?”\n\nLudvig seurasi Dorista alakertaan. Alakerran keittiössä vettä tippui katosta tasaisesti lattialle. Seinää pitkin virtasi vettä, ja seinä oli jo aivan märkä. Doris oli laittanut lattialle vanhan maton, mutta se ei enää riittänyt.\n\n”Tämä on vuoto”, Ludvig sanoi. ”Ja vesi tulee varmaan minun asunnostani.”\n\nHe hakivat kaapista kaksi isoa kattilaa ja asettivat ne tippuvan veden alle. Ensimmäinen kattila täyttyi nopeasti. Ludvig juoksi ylös omaan asuntoonsa ja avasi keittiön altaan alla olevan kaapin. Kaapin pohjalla oli vettä, ja sitä virtasi koko ajan lisää. Hän sulki heti veden. Sitten hän juoksi takaisin alakertaan ja tyhjensi täydet kattilat. Portaissa juostessaan hän oli pian hiessä, ja hiki valui kasvoille.\n\nTaloyhtiön säännöt velvoittavat asukkaan ilmoittamaan vuodosta heti huoltoon. Ne velvoittavat myös päästämään huollon työntekijän asuntoon. Ludvig soitti huoltoon, ja puolen tunnin päästä paikalle tuli huollon työntekijä Ture.\n\nTure otti lampun ja kohdisti valon altaan alle. ”Tuolta se tulee”, hän sanoi ja näytti putkea. ”Putki on irronnut. Teknisesti tämä on pieni vika, mutta vettä on ehtinyt valua paljon.” Ture korjasi putken ja kiristi sen. Sitten hän kohdisti lampun vielä kerran putkeen ja katsoi, tuliko vettä. Putki pysyi kuivana.\n\nSeuraavaksi Ture mittasi alakerran katon kosteuden. ”Katon ja seinän täytyy antaa kuivua koneen avulla”, hän sanoi. ”Se kestää noin viikon. Teknisesti se on helppoa, mutta kone pitää vähän ääntä.”\n\nLudvig pyysi Dorikselta anteeksi monta kertaa. Doris kuitenkin nauroi. ”Tämä oli koko syksyn jännittävin iltapäivä”, hän sanoi. ”Ja sinä olet ihan hiessä. Tule juomaan teetä, niin ehdit levätä.”\n\nViikon ajan kone kävi alakerran keittiössä. Ludvig kävi joka päivä katsomassa, miten katto kuivui, ja vei Dorikselle kukkia. Nyt hän tarkistaa altaan alla olevan putken kerran kuukaudessa. Kattiloita hän ei toivottavasti enää tarvitse samaan tarkoitukseen.\n\nKysymykset:\nMistä Doris huomasi vuodon?\nHänen keittiönsä katosta tippui vettä.\nMihin he keräsivät veden?\nHe keräsivät veden kahteen isoon kattilaan.\nMitä taloyhtiön säännöt velvoittavat asukkaan tekemään?\nNe velvoittavat ilmoittamaan vuodosta heti huoltoon.\nMiksi Ludvig oli hiessä?\nHän juoksi portaissa ja tyhjensi täydet kattilat.\nMistä vuoto johtui?\nKeittiön altaan alla oleva putki oli irronnut."
+    },
+    {
+      "title": "Porkkanoita pihalla",
+      "summary": "A columnist in Tikkurila writes about the vegetable boxes in her block's courtyard, the pleasure of growing carrots and why banana peels no longer go in the compost.",
+      "newWords": [
+        "porkkana",
+        "upottaa",
+        "nautinto",
+        "piristää",
+        "mielenterveys",
+        "yleistyä",
+        "rotta",
+        "banaani"
+      ],
+      "text": "Kun muutin kerrostaloon Tikkurilaan viisi vuotta sitten, talon pihalla oli vain nurmi ja muutama puu. Nyt pihalla on 12 puista laatikkoa, ja niissä kasvaa porkkanoita, salaattia, perunoita ja kukkia. Puutarhan hoitaminen kerrostalojen pihoilla on yleistynyt kaupungeissa koko Suomessa. Vielä kymmenen vuotta sitten harva kerrostalon asukas kasvatti mitään, mutta nyt kaupungin puutarhat ovat täynnä, ja jonot niihin ovat pitkiä. Tapa yleistyy yhä.\n\nAjatus laatikoista tuli naapuriltani Oivilta. Oivi on 70-vuotias ja on kasvattanut kasveja koko ikänsä. Hän kertoi taloyhtiön kokouksessa, että puutarhan hoitaminen piristää mieltä ja tuo naapurit yhteen. Moni epäili ajatusta, mutta lopulta laatikot hyväksyttiin.\n\nMinä sain oman laatikon ensimmäisenä keväänä. En ollut koskaan kasvattanut mitään, joten valitsin porkkanan, koska Oivi sanoi, että porkkana on helppo. Ensimmäisenä kesänä porkkanani jäivät kuitenkin pieniksi ja ruman näköisiksi. Toisena kesänä ne kasvoivat suoriksi ja makeiksi. En ole koskaan syönyt parempia porkkanoita.\n\nPuutarhan hoitamisessa on jotain, mitä on vaikea selittää. Kun tulen töistä ja upotan kädet lämpimään multaan, päivän huolet unohtuvat. Nautinto ei synny vain sadosta vaan itse tekemisestä: veden kantamisesta, laatikon hoitamisesta ja siitä, että näen joka päivä jonkin muuttuvan. Suurin nautinto on istua illalla laatikon reunalla kahvin kanssa.\n\nTutkijatkin ovat huomanneet saman. Lukemani artikkelin mukaan vihreä ympäristö ja kasvien hoitaminen tukevat mielenterveyttä. Ne vähentävät stressiä ja piristävät mieltä. Minulle tämä ei ollut yllätys. Mielenterveys ei ole vain lääkärien asia: siihen vaikuttaa myös se, millaisessa ympäristössä elämme. Harmaa piha ei piristä ketään, mutta vihreä piha piristää.\n\nLaatikoilla on myös haasteensa. Ensimmäisenä syksynä pihan kompostiin ilmestyi rotta. Rotat rakastavat ruokaa, ja kompostissa oli paljon banaanin kuoria ja leivän paloja. Taloyhtiö teki nopeasti päätöksen: kompostiin saa laittaa vain kasvien lehtiä ja multaa, ei ruoan jätteitä. Banaanin kuoret menevät nyt muiden ruoan jätteiden kanssa roskiin, ja rotta on kadonnut.\n\nOivi upottaa kätensä multaan joka toukokuu ensimmäisenä. Kysyin häneltä kerran, mikä puutarhassa on hänelle suurin nautinto. Hän mietti hetken ja sanoi: ”Se, että naapurit puhuvat toisilleen.” Hän on oikeassa. Ennen laatikoita en tuntenut pihan asukkaista ketään. Nyt tiedän, kuka syö porkkanansa sellaisenaan ja kuka laittaa niistä ruokaa. Ehkä pihan suurin sato ei kasvakaan laatikoissa.\n\nKysymykset:\nMitä pihalla oli ennen laatikoita?\nSiellä oli vain nurmi ja muutama puu.\nMiksi kirjoittaja valitsi porkkanan?\nOivi sanoi, että porkkana on helppo kasvattaa.\nMitä tutkijat ovat huomanneet?\nKasvien hoitaminen tukee mielenterveyttä ja piristää mieltä.\nMiksi kompostiin ilmestyi rotta?\nKompostissa oli paljon banaanin kuoria ja leivän paloja.\nMikä on Oiville suurin nautinto?\nSe, että naapurit puhuvat toisilleen."
+    },
+    {
+      "title": "Ilta oopperassa",
+      "summary": "A columnist goes to the city's culture gala at the opera, where many come to be seen, but a shy library worker's short speech becomes the evening's highlight.",
+      "newWords": [
+        "gaala",
+        "ooppera",
+        "koomikko",
+        "puhuja",
+        "päähenkilö",
+        "inspiraatio",
+        "näyttäytyä",
+        "status"
+      ],
+      "text": "Sain viime viikolla elämäni ensimmäisen kutsun gaalaan. Kaupungin kulttuurin gaala pidetään joka vuosi marraskuussa Helsingin oopperassa, ja siellä palkitaan vuoden parhaat kulttuurin tekijät. Lehden päätoimittaja ei päässyt itse, joten hän antoi kutsun minulle.\n\nGaala vaati valmistautumista. Minulla ei ole pitkää juhlamekkoa, joten lainasin sellaisen siskoltani. Mekko oli hieman liian pitkä, ja kävelin koko illan varovasti, etten astuisi sen päälle.\n\nOopperan käytävät olivat täynnä ihmisiä. Huomasin pian, että moni oli tullut gaalaan ennen kaikkea näyttäytymään. Ihmiset seisoivat niin, että valokuvaajat näkivät heidät, ja puhuivat toisilleen kovalla äänellä. Kutsu gaalaan on kaupungissa eräänlainen status: se kertoo, että kuuluu joukkoon. Myönnän, että tunsin itsekin oloni tärkeäksi, kun seisoin pitkässä mekossa suurten valojen alla. Ehkä halusin vähän näyttäytyä.\n\nGaalan juontaja oli tunnettu koomikko, jonka olin nähnyt monta kertaa televisiossa. Koomikko aloitti illan kertomalla oopperan portaista: hänen mukaansa ne on rakennettu niin, että jokainen näyttää niitä noustessaan tärkeältä. Sali nauroi. Hyvä koomikko saa vakavatkin ihmiset rentoutumaan.\n\nSitten lavalle nousi puhuja toisensa jälkeen. Ensimmäinen puhuja kiitti yrityksiä, jotka olivat tukeneet gaalaa, ja toinen kertoi lukuja museoiden kävijöistä. Puheet olivat pitkiä, ja huomasin, että vieressäni istuva mies katsoi puhelintaan. Välillä oopperan laulajat esiintyivät. He lauloivat kaksi tunnettua laulua, ja se oli illan kaunein hetki.\n\nIllan päähenkilö oli kuitenkin Lovisa, 63-vuotias kirjaston työntekijä Kontulasta. Hän sai palkinnon ryhmästä, jota hän on vetänyt kirjastossa jo 25 vuotta Suomeen muuttaneille naisille. Ryhmässä luetaan yhdessä kirjoja ja puhutaan niistä. Lovisa ei ollut tottunut olemaan päähenkilö. Hän nousi lavalle hiljaisena, ja hänen kätensä tärisivät.\n\nLovisa ei ollut kirjoittanut puhetta. Hän kertoi vain, miten yksi ryhmän naisista oli ensin osannut vain vähän suomea ja lukee nyt romaaneja lapsilleen. ”En tehnyt mitään erikoista”, Lovisa sanoi. ”Minä vain avasin oven joka tiistai.” Salissa oli aivan hiljaista. Hänen puheensa oli illan lyhyin, mutta kukaan ei katsonut puhelintaan. Hän oli illan paras puhuja.\n\nKotiin mennessä mietin, mistä ihmiset saavat inspiraatiota. Usein ajatellaan, että inspiraatio syntyy suurista teoista ja kuuluisista nimistä. Lovisa kuitenkin osoitti, että inspiraatio voi syntyä tavallisista tiistain illoista kirjaston pienessä huoneessa. Status ja näyttäytyminen eivät olleet gaalan tärkein asia. Tärkeintä oli tarina, jonka hiljainen päähenkilö kertoi kahdessa minuutissa.\n\nKysymykset:\nMissä kulttuurin gaala pidettiin?\nSe pidettiin Helsingin oopperassa.\nMiksi moni oli tullut gaalaan?\nMoni oli tullut näyttäytymään, koska kutsu gaalaan on status.\nKuka oli gaalan juontaja?\nJuontaja oli tunnettu koomikko.\nKuka oli illan päähenkilö?\nIllan päähenkilö oli Lovisa, kirjaston työntekijä Kontulasta.\nMistä inspiraatio voi kirjoittajan mielestä syntyä?\nSe voi syntyä tavallisista tiistain illoista kirjaston pienessä huoneessa."
+    },
+    {
+      "title": "Uusi harrastus keittiössä",
+      "summary": "After a diabetes diagnosis, the Jyväskylä bus driver Olof gets interested in cooking, learns to make his own pasta and keeps his sugar levels under control.",
+      "newWords": [
+        "diabetes",
+        "kiinnostua",
+        "osio",
+        "pasta",
+        "uutuus",
+        "työstää",
+        "pähkinä",
+        "hallinnassa"
+      ],
+      "text": "Olof on 61-vuotias ja ajaa työkseen bussia Jyväskylässä. Viime keväänä hän kävi työpaikan lääkärillä tavallisessa tarkastuksessa, ja kokeissa näkyi liian paljon sokeria. Lääkäri kertoi, että Olofilla on tyypin 2 diabetes.\n\nOlof pelästyi. Hän oli kuvitellut, että diabetes on sairaus, joka ei koske häntä. Lääkäri kuitenkin rauhoitti häntä. ”Tämä tyyppi on hyvin yleinen”, hän sanoi. ”Kun liikut enemmän ja muutat ruokavaliota, sokeri pysyy usein hallinnassa.”\n\nKotona Olof istui keittiön pöydän ääressä vaimonsa Adan kanssa. Ada oli aina laittanut perheen ruoat, ja Olof oli lähinnä syönyt ne. Nyt Olof päätti, että hän ottaa vastuun omasta ruoastaan. Hän alkoi kiinnostua ruoanlaitosta ensimmäistä kertaa elämässään.\n\nKirjastosta Olof lainasi kirjan terveellisestä ruoasta. Kirjassa oli oma osio niille, joilla on diabetes. Osiossa kerrottiin, miten kasvikset ja tumma vilja hidastavat sokerin nousua ja miksi ne ovat parempia kuin valkoinen leipä. Kirjan toisessa osiossa oli reseptejä. Olof luki kirjaa iltaisin kuin jännittävää romaania.\n\nOlof rakasti pastaa, ja hän pelkäsi, että siitä pitää luopua. Kirjan mukaan pastaa ei tarvinnut jättää kokonaan pois, kunhan annos oli pienempi ja lautasella oli paljon kasviksia. Kaupassa Olof löysi hyllystä uutuuden: tummaa pastaa, joka oli tehty täysjyväjauhoista. Myyjä kertoi, että uutuus oli tullut kauppaan vasta samalla viikolla.\n\nPian Olof halusi tehdä pastan itse. Hän sekoitti jauhoja ja kananmunia ja työsti taikinaa käsin kymmenen minuuttia. Taikinan työstäminen oli raskasta, ja hänen kätensä olivat lopuksi väsyneet. Ada katsoi vierestä ja nauroi. ”30 vuotta minä olen tehnyt ruokaa, ja nyt sinä työstät taikinaa kuin oikea kokki”, hän sanoi.\n\nOlof oppi myös, että pähkinät ovat hyvä välipala. Ennen hän söi työpäivän aikana keksejä ja muuta makeaa. Nyt hänellä on bussissa mukana pieni laatikko, jossa on pähkinöitä ja omena. Pähkinä pitää nälän poissa pitkään eikä nosta sokeria.\n\nPuolen vuoden päästä Olof kävi taas lääkärissä. Sokeria oli kokeissa vähemmän, ja paino oli pudonnut kuusi kiloa. ”Diabetes on nyt hyvin hallinnassa”, lääkäri sanoi. ”Jatka samaan tapaan.” Olof oli ylpeä. Hän ei ollut uskonut, että ruoasta voi kiinnostua vielä tässä iässä.\n\nKysymykset:\nMikä sairaus Olofilla todettiin?\nHänellä todettiin tyypin 2 diabetes.\nMitä kirjan osiossa kerrottiin?\nSiinä kerrottiin, miten kasvikset ja tumma vilja hidastavat sokerin nousua.\nMinkä uutuuden Olof löysi kaupasta?\nHän löysi tummaa pastaa, joka oli tehty täysjyväjauhoista.\nMitä Olof syö nykyään työpäivän aikana?\nHän syö pähkinöitä ja omenan.\nMiten Olofin diabetes oli puolen vuoden päästä?\nSe oli hyvin hallinnassa."
+    },
+    {
+      "title": "Maailma ei ole mustavalkoinen",
+      "summary": "A local journalist in Kuopio reflects on his job while reporting on a residents' meeting where people seem divided over a car park and a playground.",
+      "newWords": [
+        "journalismi",
+        "audiovisuaalinen",
+        "agenda",
+        "jakautua",
+        "kyseenalainen",
+        "josko",
+        "mustavalkoinen",
+        "moraali"
+      ],
+      "text": "Olen tehnyt journalismia Kuopiossa yli 20 vuotta. Aloitin paikallisessa lehdessä silloin, kun uutiset painettiin paperille ja valokuvat kehitettiin pimeässä huoneessa. Nyt lehti tekee myös audiovisuaalista sisältöä: videoita, podcasteja ja suoria lähetyksiä. Audiovisuaalinen journalismi vaatii erilaisia taitoja kuin kirjoittaminen, ja olen joutunut opettelemaan paljon uutta. Tärkein asia ei kuitenkaan ole muuttunut: toimittajan tehtävä on kertoa, mitä tapahtuu, niin tarkasti ja reilusti kuin mahdollista.\n\nViime viikolla seurasin Niiralan asukkaiden kokousta. Kokouksen agendalla oli vain yksi tärkeä asia: mitä tehdään vanhalle hiekkakentälle, joka on ollut vuosia tyhjänä. Osa asukkaista halusi kentälle parkkipaikan, koska alueella on liian vähän paikkoja autoille. Osa taas halusi leikkipuiston, koska lähin puisto on kilometrin päässä.\n\nEnnen kokousta keskustelu oli käynyt kuumana netissä. Asukkaiden ryhmässä mielipiteet jakautuivat jyrkästi kahteen leiriin. Joku kirjoitti, että lapsiperheet eivät välitä muista. Toinen väitti, että autoilijat haluavat asfaltoida koko kaupungin. Osa väitteistä oli kyseenalaisia: yhden kirjoituksen mukaan parkkipaikka maksaisi miljoona euroa, vaikka oikea arvio oli alle sata tuhatta.\n\nKokouksessa tunnelma oli kuitenkin aivan toinen. Ihmiset istuivat samassa huoneessa, joivat kahvia ja kuuntelivat toisiaan. Kävi ilmi, että asukkaat eivät jakautuneetkaan niin selvästi kahteen ryhmään kuin netissä näytti. Moni autoilija oli myös isovanhempi, joka toivoi leikkipuistoa lapsenlapsilleen. Yksi äiti kysyi, josko kentälle mahtuisivat molemmat: pieni parkkipaikka reunalle ja leikkipuisto keskelle. Kukaan ei ollut ajatellut sitä aiemmin.\n\nToimittajana minun on muistettava, että maailma ei ole mustavalkoinen. Olisi helppo kirjoittaa otsikko ”Asukkaat riitelevät kentästä”. Sellainen otsikko saisi paljon lukijoita, mutta se ei olisi totta. Mustavalkoinen kuva syntyy helposti, kun jokainen kirjoittaa omalta koneeltaan eikä kukaan kohtaa toista ihmistä.\n\nJournalismin moraali on minulle yksinkertainen: en kirjoita mitään, minkä tiedän vääräksi, enkä jätä pois mitään tärkeää vain siksi, että se pilaisi hyvän tarinan. Tätä moraalia on joskus vaikea noudattaa, kun kilpailu lukijoista on kovaa. Silti juuri se erottaa journalismin netin huhuista ja kyseenalaisista väitteistä.\n\nKirjoitin kokouksesta jutun, jossa kerroin molempien puolten perustelut ja äidin ehdotuksen. Teimme myös lyhyen videon, jossa kolme asukasta kertoo toiveistaan. Seuraavan kokouksen agendalla on äidin ehdotus. Mietin jo, josko pääsisin kertomaan lukijoille myös siitä, miten tarina päättyy.\n\nKysymykset:\nMillaista sisältöä lehti tekee nykyään?\nSe tekee myös audiovisuaalista sisältöä, kuten videoita ja podcasteja.\nMikä asia oli kokouksen agendalla?\nAgendalla oli kysymys siitä, mitä vanhalle hiekkakentälle tehdään.\nMiten mielipiteet jakautuivat netissä?\nNe jakautuivat jyrkästi kahteen leiriin.\nMitä yksi äiti kysyi?\nHän kysyi, josko kentälle mahtuisivat sekä pieni parkkipaikka että leikkipuisto.\nMikä on kirjoittajan mielestä journalismin moraali?\nToimittaja ei kirjoita mitään väärää eikä jätä pois mitään tärkeää."
+    },
+    {
+      "title": "Kahvin hinta",
+      "summary": "A columnist in Pori writes about rising prices: her café has shortened its hours, her rent follows an index, and an old neighbour remembers the 1970s.",
+      "newWords": [
+        "inflaatio",
+        "lyhentää",
+        "indeksi",
+        "rasittaa",
+        "muuan",
+        "tuommoinen",
+        "saatossa"
+      ],
+      "text": "Aamulla kävin tavalliseen tapaan kahvilassa kotini kulmalla Porissa. Kun maksoin, huomasin, että kupillinen kahvia maksaa nyt 3,60 euroa. Kaksi vuotta sitten se maksoi 2,80. Myyjä näki ilmeeni ja pahoitteli. ”Kaikki on kallistunut, myös kahvipavut ja sähkö”, hän sanoi. Hän kertoi myös, että kahvila oli lyhentänyt aukioloaikojaan. Ennen ovet aukesivat kuudelta, nyt vasta kahdeksalta. Lyhentämällä aukioloaikoja omistaja säästää palkoissa ja sähkössä.\n\nInflaatio on sana, jonka moni oppi kunnolla vasta viime vuosina. Pitkään hinnat nousivat Suomessa niin hitaasti, ettei sitä juuri huomannut. Sitten inflaatio kiihtyi, ja kaupan kassalla näki eron joka viikko. Inflaatio tarkoittaa, että rahan arvo laskee: samalla summalla saa vähemmän kuin ennen.\n\nMinä huomasin inflaation myös vuokrassani. Vuokrasopimukseni on sidottu indeksiin, eli vuokra nousee joka vuosi saman verran kuin hinnat yleensä. Indeksi kertoo, paljonko tavallisen kotitalouden ostosten hinnat ovat nousseet. Kun indeksi nousi seitsemän prosenttia, myös vuokrani nousi seitsemän prosenttia. Palkkani ei noussut yhtä paljon.\n\nHintojen nousu rasittaa erityisesti niitä, joilla on pienet tulot. Minulla on vakituinen työ, joten selviän, vaikka joudun miettimään ostoksiani tarkemmin. Tiedän kuitenkin perheitä, joita jatkuva hintojen nousu rasittaa todella paljon. Kun jokainen euro on laskettava, arki on rasittavaa.\n\nMuuan naapurini, 84-vuotias Alfred, ei ole huolissaan samalla tavalla. Tapasin hänet portaissa, ja hän kysyi, miksi näytin niin vakavalta. Kerroin kahvin hinnasta. Alfred nauroi. ”Tuommoinen nousu ei ole vielä mitään”, hän sanoi. ”Vuonna 1975 hinnat nousivat lähes 18 prosenttia vuodessa. Me ostimme kaiken heti palkkapäivänä, koska seuraavalla viikolla kaikki oli kalliimpaa.”\n\nAlfredin mukaan ihmiset ovat vuosikymmenten saatossa unohtaneet sen ajan. ”Joka sukupolvi luulee, että hinnat pysyvät aina samoina”, hän sanoi. ”Sitten tulee tuommoinen vuosi, ja kaikki ovat yllättyneitä.”\n\nHänen sanansa lohduttivat minua oudolla tavalla. Vuosien saatossa talous kulkee ylös ja alas, ja ihmiset sopeutuvat. Silti ymmärrän, miksi muuan kahvilan vakioasiakas kertoi minulle juovansa nykyään aamukahvinsa kotona.\n\nHuomenna menen silti taas kulman kahvilaan. Kupillinen on kallis, mutta se ei ole pelkkää kahvia: se on aamun paras hetki. Ja jos kaikki jäävät kotiin, kahvilan on lyhennettävä aukioloaikojaan vielä lisää.\n\nKysymykset:\nPaljonko kupillinen kahvia maksaa nyt?\nSe maksaa 3,60 euroa.\nMiksi kahvila lyhensi aukioloaikojaan?\nOmistaja halusi säästää palkoissa ja sähkössä.\nMitä tarkoittaa, että vuokra on sidottu indeksiin?\nVuokra nousee joka vuosi saman verran kuin hinnat yleensä.\nMitä Alfred kertoi vuodesta 1975?\nSilloin hinnat nousivat lähes 18 prosenttia vuodessa.\nKetä hintojen nousu rasittaa eniten?\nSe rasittaa eniten niitä, joilla on pienet tulot."
+    },
+    {
+      "title": "Raketit meren yllä",
+      "summary": "On New Year's Eve, Adele and her little daughter Kuura visit grandfather Gustav at his service home in Oulu, and the three watch the city's fireworks together.",
+      "newWords": [
+        "omainen",
+        "parta",
+        "heilua",
+        "suloinen",
+        "mikäkin",
+        "raketti",
+        "vau",
+        "side"
+      ],
+      "text": "Gustav on 88-vuotias ja asuu palvelutalossa Oulun Toppilassa. Hän on terve ja hyvässä kunnossa, mutta portaat ja suuri piha kävivät hänelle liian raskaiksi, joten hän muutti kaksi vuotta sitten omakotitalosta palvelutaloon. Hänen huoneensa ikkunasta näkyvät meri ja kaupungin valot.\n\nVuoden viimeisenä iltana talo kutsuu asukkaiden omaiset juhlaan. Omaisille katetaan pitkä pöytä, ja tarjolla on kalaa, perunoita ja kakkua. Gustavin tytär Adele tuli juhlaan 4-vuotiaan tyttärensä Kuuran kanssa.\n\nKuura juoksi isoisänsä luo ja kiipesi hänen syliinsä. Gustavilla on pitkä valkoinen parta, ja Kuura rakastaa sitä. Hän kosketti partaa ja sanoi: ”Isoisä, sinun partasi on pehmeä kuin lumi.” Gustav nauroi niin, että parta heilui.\n\n”Onpa suloinen lapsi”, sanoi viereisen pöydän rouva, jonka omaiset olivat tulleet Rovaniemeltä asti. Kuura oli tosiaan suloinen. Hänellä oli punainen mekko ja hiuksissa kaksi nauhaa, jotka heiluivat, kun hän juoksi pöydän ympäri.\n\nIllan aikana omaiset ja asukkaat juttelivat milloin mistäkin. Yksi kertoi tyttärensä uudesta työstä, toinen keväällä tehdystä matkasta, kolmas siitä, miten Oulun tori on muuttunut. Gustav kertoi Kuuralle, miten hän oli nuorena kävellyt talvella meren jäällä saarelta toiselle. Kuura kuunteli ja kysyi milloin mitäkin: oliko isoisällä ollut koira, mitä hän oli syönyt ja oliko ennen ollut enemmän lunta.\n\nKello 12 yöllä kaikki kokoontuivat olohuoneen suurten ikkunoiden eteen. Kaupungin raketit nousivat meren rannalta. Ensimmäinen raketti nousi korkealle taivaalle ja hajosi kultaisiksi tähdiksi.\n\n”Vau!” Kuura huusi. ”Isoisä, katso!”\n\nRaketteja nousi taivaalle yhä enemmän: punaisia, vihreitä ja sinisiä. Joka kerta Kuura sanoi ”vau”, ja pian koko olohuone sanoi sen hänen kanssaan. Ulkona tuuli, ja rannan puut heiluivat, mutta sisällä oli lämmintä.\n\nAdele katsoi isäänsä ja tytärtään, jotka istuivat yhdessä ikkunan edessä. Hän ajatteli, että siteet sukupolvien välillä eivät synny itsestään. Ne syntyvät tällaisista illoista, kun on aikaa istua yhdessä. Adelen siteet isäänsä olivat aina olleet vahvat, ja nyt hän näki, että samanlainen side alkoi kasvaa myös Kuuran ja Gustavin välille.\n\nKun viimeinen raketti oli kadonnut taivaalta, Kuura oli jo unessa isoisänsä sylissä, käsi hänen parrassaan.\n\nKysymykset:\nMissä Gustav asuu?\nHän asuu palvelutalossa Oulun Toppilassa.\nKetkä tulevat talon juhlaan?\nAsukkaiden omaiset tulevat juhlaan.\nMitä Kuura sanoi Gustavin parrasta?\nHän sanoi, että parta on pehmeä kuin lumi.\nMitä Kuura huusi, kun ensimmäinen raketti nousi taivaalle?\nHän huusi ”vau”.\nMitä Adele ajatteli siteistä?\nHän ajatteli, että siteet sukupolvien välillä syntyvät yhteisistä illoista."
+    },
+    {
+      "title": "Kun kaupunki jäi koukkuun",
+      "summary": "A Tampere columnist who never cared for sport describes how she and the whole city got hooked on the ice hockey world championship and how the final felt on the square.",
+      "newWords": [
+        "koukkuun",
+        "komitea",
+        "toistua",
+        "asetelma",
+        "maailmanmestaruus",
+        "sisu",
+        "kymmenes"
+      ],
+      "text": "En ole koskaan ollut urheilun ystävä. Kun kuulin, että jääkiekon maailmanmestaruudesta pelataan keväällä Tampereella, ajattelin lähinnä ruuhkia ja hotellien hintoja. Kahden viikon kuluttua istuin kuitenkin joka ilta katsomassa pelejä. Jäin koukkuun, kuten koko kaupunki.\n\nKisojen järjestelyistä vastasi komitea, jossa oli kaupungin, seurojen ja yritysten väkeä. Komitea oli valmistellut kisoja kolme vuotta. Se oli rakentanut torille keskustaan ison näytön, jolta kuka tahansa sai katsoa pelejä ilmaiseksi. Komitean mukaan torilla kävi kahden viikon aikana yli 100 000 ihmistä.\n\nKoukkuun jääminen tapahtui minulle vähitellen. Ensimmäistä peliä katsoin vain siksi, että ystäväni Linus pyysi minut torille seurakseen. Toisena iltana menin sinne itse. Kolmantena iltana huomasin, että olin ostanut joukkueen paidan. Linus nauroi. ”Nyt sinä olet koukussa”, hän sanoi.\n\nKisojen aikana sama kuvio toistui illasta toiseen. Seitsemältä tori täyttyi ihmisistä, joilla oli siniset paidat, ja kun peli alkoi, kaupungissa oli hiljaista. Kun Suomi teki maalin, huuto kuului kilometrien päähän. Sama toistui niin monta kertaa, että kotonakin osasin päätellä pelin tilanteen kadun äänistä.\n\nFinaalin asetelma oli jännittävä. Suomi pelasi Kanadaa vastaan. Kanada oli voittanut maailmanmestaruuden useammin kuin yksikään muu maa, ja sitä pidettiin suosikkina. Asetelma oli tuttu: pieni Suomi vastaan suuri Kanada. Monen mielestä se oli juuri sellainen asetelma, jossa sisu ratkaisee.\n\nSisu on sana, jota on vaikea kääntää muille kielille. Se tarkoittaa sitkeyttä, kykyä jatkaa, vaikka voimat ovat lopussa. Finaalissa sisua tarvittiin. Kanada johti toisen erän jälkeen 2–1, ja torilla moni oli jo hiljaa. Kolmannessa erässä Suomen joukkue kuitenkin jaksoi yrittää ja teki maalin viisi minuuttia ennen loppua. Tilanne oli nyt 2–2. Jatkoajalla nuori pelaaja teki voittomaalin.\n\nTori huusi yhdellä äänellä. Ihmiset halasivat tuntemattomia, ja joku alkoi laulaa. Suomi oli voittanut maailmanmestaruuden, ja kotimaassa voitto tuntui vielä suuremmalta.\n\nLinus laski, että hän oli katsonut torilla kymmenen peliä. Finaali oli hänen kymmenes pelinsä, ja hänen mielestään kymmenes oli paras. Minä en ollut laskenut. Tiedän vain, että kaupunki oli kahden viikon ajan erilainen: ihmiset juttelivat bussissa tuntemattomien kanssa, ja kaupan kassalla puhuttiin vain jääkiekosta.\n\nNyt kisat ovat ohi, ja kaupunki on palannut arkeen. Koukussa olen kuitenkin yhä. Seuraan nykyään oman kaupungin joukkueen pelejä, ja Linus on luvannut viedä minut halliin. Ehkä tämä on suurten kisojen todellinen hyöty: ne tuovat yhteen ihmisiä, jotka eivät muuten koskaan istuisi samalla torilla.\n\nKysymykset:\nMitä komitea rakensi torille?\nSe rakensi ison näytön, jolta kuka tahansa sai katsoa pelejä.\nMiten kirjoittaja jäi koukkuun?\nHän meni ensin torille Linuksen seuraksi ja alkoi sitten käydä siellä joka ilta.\nMikä toistui illasta toiseen?\nTori täyttyi ihmisistä, ja kaupungissa oli hiljaista, kun peli alkoi.\nMillainen oli finaalin asetelma?\nPieni Suomi pelasi suurta Kanadaa vastaan, ja Kanada oli suosikki.\nKuinka monta peliä Linus katsoi torilla?\nHän katsoi 10 peliä, ja finaali oli hänen kymmenes pelinsä."
+    }
+  ]
+}
