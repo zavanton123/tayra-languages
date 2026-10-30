@@ -2030,3 +2030,27 @@ EXCLUDE["tl"] = EXCLUDE.get("tl", set()) | {
     "mang", "ika", "pinaka", "naka", "igik", "manila", "paris", "baguio", "busan", "day", "page", "are", "en", "sanggunian",
     "kawing", "panlabas", "talaksan", "makapag", "nakapag", "makakapag", "nakakapag", "makaka", "nakaka", "napaka",
 }
+
+# Irish. The copula is (the pack and simplemma make it agus's 's) is a word, as bí is, with bhfuil and níl; ab is mostly
+# the copula too (an rud ab fhearr), not the abbot. im ("butter") is no form of am or um, cáis ("cheese") none of cás,
+# fill ("return") none of feall, beir ("bear") none of bí, tuig ("understand") none of tig; cinneadh ("decision") and
+# teagmháil ("contact") are nouns of their own; tí and tithe are teach's ("house"), not tar's through the dialect tig;
+# dtí, as in go dtí ("until, to"), is a word; earraí ("goods") is earra's; the emphatic pronouns are their pronouns';
+# fhrainc is the name Frainc; dearna (ní dhearna, an ndearna) is déan's, not the palm's; luaite ("mentioned") is
+# luaigh's, not luaidhe's ("lead").
+OVERRIDES["ga"] = {
+    "is": ["is"], "ab": ["is"], "bhfuil": ["bí"], "fhuilim": ["bí"], "bhfuilim": ["bí"],
+    "im": ["im"], "ime": ["im"], "t-im": ["im"], "cáis": ["cáis"], "cháis": ["cáis"], "cáise": ["cáis"],
+    "fill": ["fill"], "beir": ["beir"], "tuig": ["tuig"],
+    "cinneadh": ["cinneadh"], "cinntí": ["cinneadh"], "teagmháil": ["teagmháil"],
+    "tí": ["teach"], "thí": ["teach"], "tithe": ["teach"], "dtithe": ["teach"], "thithe": ["teach"], "dtí": ["dtí"],
+    "earraí": ["earra"], "earra": ["earra"],
+    "mise": ["mé"], "tusa": ["tú"], "seisean": ["sé"], "eisean": ["é"], "sise": ["sí"], "ise": ["í"], "sinne": ["sinn"],
+    "muidne": ["muid"], "sibhse": ["sibh"], "siadsan": ["siad"], "iadsan": ["iad"],
+    "fhrainc": [],
+    "dearna": ["déan"], "ndearna": ["déan"], "dhearna": ["déan"], "luaite": ["luaigh"],
+}
+# English, which Wikipedia quotes ("the" is no lenited te) and the pack files under Irish words (directly under teach,
+# opposition under idir, Thomas under tom).
+EXCLUDE["ga"] = EXCLUDE.get("ga", set()) | {"the", "of", "and", "directly", "opposition", "difference", "munster", "thomas",
+                                             "martha"}

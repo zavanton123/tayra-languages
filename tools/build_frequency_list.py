@@ -12,6 +12,9 @@ blended, counted as whole words that are cut into a word and its particles as th
   4. the language's Wikipedia, counted from its articles dump (for languages none of the others has)
   5. for Ancient Greek, the New Testament's word forms as MorphGNT parses the SBLGNT
 
+For Irish, whose sources are all Wikipedia, everyday sentences (Tatoeba's and Common Voice's) are blended in too, weighted
+by SOURCE_WEIGHTS.
+
 --source forces one of them. The counts are of word forms (in Arabic, of the words left by cutting off the
 letters written onto their front, as the reader cuts them); each form is credited to the dictionary
 words it is a form of, using the forms table of the language's offline dictionary pack
@@ -126,6 +129,14 @@ SOURCE_ORDER["gl"] = ["frequencywords"]
 SOURCE_ORDER["eo"] = ["frequencywords", "leipzig"]
 # Lithuanian is counted from web text, subtitles and news, as its shipped list was, which its courses are pinned to.
 SOURCE_ORDER["lt"] = ["wordfreq", "frequencywords", "leipzig"]
+# Irish has only Wikipedia (its articles, and Leipzig's sentences from them), where everyday words rank far down (cad
+# 1193, inné 6336) and the words of its pages' headings high (tagairt, nasc); everyday sentences are blended in.
+SOURCE_ORDER["ga"] = ["leipzig", "wikipedia", "everyday"]
+# Each source's weight in the blend, where they are not weighted alike. The Irish everyday sentences are 21,000 words
+# against Wikipedia's 11 million: at a quarter of the blend a word they have 25 times (inné, amárach, conas) comes to
+# about the 250th, one they have 6 times (anocht) to about the 1000th, one they have 3 times to about the 3000th, and one
+# they have once not at all (EVERYDAY_DISCOUNT), while Wikipedia's words keep three quarters of their weight.
+SOURCE_WEIGHTS = {"ga": {"leipzig": 0.375, "wikipedia": 0.375, "everyday": 0.25}}
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -146,6 +157,7 @@ SOURCE_LICENCES = {
     "wordfreq": "CC BY-SA 4.0",
     "frequencywords": "CC BY-SA 4.0",
     "leipzig": "terms at https://wortschatz.uni-leipzig.de/en/download",
+    "everyday": "Tatoeba CC BY 2.0 FR, Common Voice CC0 1.0",
 }
 
 # Languages that capitalise their nouns, so a capitalised entry is not taken for a name.
@@ -1537,6 +1549,39 @@ def tagalog_paradigms(root):
     return [paradigm if len(paradigm) == 3 else (*paradigm, None) for paradigm in out]
 
 
+# Irish. The pack has entries for some forms, glossed only as that (tá "present indicative ... of bí", bhí, beidh, táim;
+# ba "past/conditional affirmative of is"; cuir the noun, "vocative/genitive singular of cur"): such an entry is a form of
+# the word its gloss names (IRISH_FORMS_OF) and, without a sense of its own, no word. IRISH_VERBS has the verbs with a
+# sense of their own.
+IRISH_FORM_TERMS = (r"(?:first|second|third)-person|singular|plural|masculine|feminine|present|past|future|conditional|"
+                    r"imperative|indicative|subjunctive|habitual|analytic|synthetic|autonomous|independent|dependent|"
+                    r"relative|direct|indirect|affirmative|negative|interrogative|progressive|genitive|vocative|dative|"
+                    r"nominative|lenited|eclipsed|(?:[th]-)?prothesized|form|emphatic|verbal noun|participle|comparative|"
+                    r"superlative|alternative|dated|superseded|obsolete|archaic|nonstandard|spelling|tense|mood|and|or")
+IRISH_FORM_GLOSS = re.compile(rf"^\s*(?:(?:{IRISH_FORM_TERMS})\b[\s,/;]*)+of ([^\W\d_][\w'-]*)")
+IRISH_FORMS_OF = {}
+IRISH_VERBS = set()
+# The initial mutations, whose form is the word's (bhfear, gcarr, n-am, t-uisce, hÉireann, d'fhan, mo chara): eclipsis
+# and the letters put before a vowel, then lenition.
+IRISH_ECLIPSIS = (("bhf", "f"), ("mb", "b"), ("gc", "c"), ("nd", "d"), ("ng", "g"), ("bp", "p"), ("dt", "t"), ("ts", "s"),
+                  ("n-", ""), ("t-", ""), ("h-", ""), ("d'", ""), ("b'", ""), ("m'", ""))
+IRISH_VOWELS = "aeiouáéíóú"
+
+
+def irish_unmutated(form):
+    """The spellings a form may be of a word with an initial mutation: bhfuil of fuil, chuir of cuir, hiad of iad."""
+    out = set()
+    for prefix, rest in IRISH_ECLIPSIS:
+        if form.startswith(prefix) and len(form) > len(prefix) + 1:
+            out.add(rest + form[len(prefix):])
+    if form[:1] == "h" and form[1:2] in IRISH_VOWELS:
+        out.add(form[1:])
+    for word in list(out) + [form]:
+        if len(word) > 2 and word[1] == "h" and word[0] in "bcdfgmpst":
+            out.add(word[0] + word[2:])
+    return out - {form}
+
+
 def icelandic_bin():
     """
     BÍN's core words, lowercase (no names), each with its kinds, its forms with their tags, and for a verb its middle
@@ -1895,6 +1940,13 @@ WIKI_LINK = re.compile(r"\[\[(?:[^\]|]*\|)?([^\]|]*)\]\]")
 WIKI_LETTER = r"[^\W\d_]|[\u0300-\u036f\u0591-\u05c7\u064b-\u065f\u0670\u0730-\u074a\u0900-\u0dff\u0e31\u0e34-\u0e3a\u0e47-\u0e4e\u0eb1\u0eb4-\u0ebc\u0ec8-\u0ecd\u17b4-\u17d3]"
 WIKI_WORD = re.compile(rf"(?:{WIKI_LETTER})+(?:['’ʻ\u200c-](?:{WIKI_LETTER})+)*")
 
+# A Wikipedia's own word for a redirect page, which is no article ("#athsheoladh [[Baile Átha Cliath]]", 15,000 pages).
+WIKI_REDIRECTS = {"ga": "#athsheoladh"}
+# Wikipedias whose section headings are left out: nearly every Irish page ends "Tagairtí" (references), "Féach
+# freisin" (see also), "Naisc sheachtracha" (external links), which put tagairt, nasc and seachtrach in the first 250.
+WIKI_HEADINGLESS = {"ga"}
+WIKI_HEADING = re.compile(r"^=+[^\n]*=+[ \t]*$", re.M)
+
 
 def strip_templates(text):
     """The text without {{templates}}, which nest."""
@@ -1937,6 +1989,10 @@ def wikipedia_counts(language, limit):
                     page = []
                     if text.lstrip().lower().startswith("#redirect"):
                         continue
+                    if language in WIKI_REDIRECTS and text.lstrip().lower().startswith(WIKI_REDIRECTS[language]):
+                        continue
+                    if language in WIKI_HEADINGLESS:
+                        text = WIKI_HEADING.sub(" ", text)
                     text = html.unescape(strip_templates(text))
                     for noise in WIKI_NOISE:
                         text = noise.sub(" ", text)
@@ -1967,7 +2023,74 @@ def morphgnt_counts(language, limit):
     return dict(top), "MorphGNT parses of the SBLGNT"
 
 
-SOURCES = {"wordfreq": wordfreq_counts, "morphgnt": morphgnt_counts, "frequencywords": frequencywords_counts, "leipzig": leipzig_counts, "wikipedia": wikipedia_counts}
+# Everyday sentences, for a language whose other sources are all Wikipedia: Tatoeba's sentences in it (by Tatoeba's
+# code) and the sentences Common Voice offers its speakers to read (by its locale, at a commit of its repository, whose
+# server/data/<locale> folder has them in these files). Each folder in CACHE has a README with the licence. Of the Irish
+# files, the President's speeches (uachtaran) and the Acts (achtanna) are left out: they are no everyday text, and one
+# file's set phrases (fíorchaoin fáilte, ar an bhfichiú lá) would lift its words alone.
+EVERYDAY = {
+    "ga": {"tatoeba": "gle", "commonvoice": ("ga-IE", "70dde553e48d7d0da452ba4ba070c001f65db88c", [
+        "aesop", "ancomhgar", "anmhathair", "ceisteanna", "freagrai", "graimear_na_gaedhilge", "minimal_pairs",
+        "seananocoistin", "seanfhocail", "sentence-collector"])},
+}
+# What is taken off each word's count in them: a word they have once is no evidence, in so few sentences.
+EVERYDAY_DISCOUNT = 1
+
+
+def everyday_counts(language, limit):
+    """
+    The word counts of a language's everyday sentences (EVERYDAY), each sentence once, or None. A word written only with
+    a capital, and with one inside a sentence (Tom, Máire), is a name and left out; a sentence's first word counts as
+    lowercase.
+    """
+    if language not in EVERYDAY:
+        return None
+    sources = EVERYDAY[language]
+    paths, used = [], []
+    code = sources.get("tatoeba")
+    if code:
+        name = os.path.join(f"tatoeba-{code}", f"{code}_sentences.tsv.bz2")
+        os.makedirs(os.path.join(CACHE, os.path.dirname(name)), exist_ok=True)
+        path = download(f"https://downloads.tatoeba.org/exports/per_language/{code}/{code}_sentences.tsv.bz2", name)
+        if path:
+            paths.append(path)
+            used.append(f"Tatoeba {code}")
+    if "commonvoice" in sources:
+        locale, commit, files = sources["commonvoice"]
+        os.makedirs(os.path.join(CACHE, f"commonvoice-{locale}"), exist_ok=True)
+        got = [download(f"https://raw.githubusercontent.com/common-voice/common-voice/{commit}/server/data/{locale}/{f}.txt",
+                        os.path.join(f"commonvoice-{locale}", f"{f}.txt")) for f in files]
+        if any(got):
+            paths += [p for p in got if p]
+            used.append(f"Common Voice {locale} sentences")
+    if not paths:
+        return None
+    import bz2
+    sentences = {}
+    for path in paths:
+        with (bz2.open(path, "rt", encoding="utf-8") if path.endswith(".bz2") else open(path, encoding="utf-8")) as f:
+            for line in f:
+                text = line.rstrip("\n").split("\t")[-1].strip()
+                if text:
+                    sentences.setdefault(text.replace("’", "'"), None)
+    words, capital, plain = defaultdict(int), set(), set()
+    for text in sentences:
+        for i, word in enumerate(WIKI_WORD.findall(text)):
+            key = lower(language, word)
+            words[key] += 1
+            if word[0] != key[0]:
+                if i:
+                    capital.add(key)
+            else:
+                plain.add(key)
+    counts = {w: n - EVERYDAY_DISCOUNT for w, n in words.items()
+              if n > EVERYDAY_DISCOUNT and not (w in capital and w not in plain)}
+    top = sorted(counts.items(), key=lambda kv: -kv[1])[:limit]
+    return dict(top), " and ".join(used)
+
+
+SOURCES = {"wordfreq": wordfreq_counts, "morphgnt": morphgnt_counts, "frequencywords": frequencywords_counts, "leipzig": leipzig_counts, "wikipedia": wikipedia_counts,
+           "everyday": everyday_counts}
 
 
 class Lemmatizer:
@@ -2004,6 +2127,8 @@ def load_dictionary(language):
     common = {}
     # The Tagalog words with a sense that is no form of another word.
     tagalog_own = set()
+    # And the Irish ones.
+    irish_own = set()
     if language == "ko":
         verbs = {w for (w,) in db.execute("SELECT word_lc FROM entries WHERE pos IN ('verb', 'adj')")}
         KOREAN_GLOSSED.update(korean_glossed(db.execute("SELECT word_lc, pos, senses FROM entries"), verbs))
@@ -2034,6 +2159,15 @@ def load_dictionary(language):
                     TAGALOG_ASPECTS.add(word_lc)
                 else:
                     TAGALOG_LIGATURED[word_lc].add(target)
+        if language == "ga" and p in WORD_POS:
+            for gloss in (g for s in json.loads(senses) for g in s.get("glosses", [])):
+                form_of = IRISH_FORM_GLOSS.match(gloss)
+                if form_of and lower(language, form_of.group(1)) != word_lc:
+                    IRISH_FORMS_OF.setdefault(word_lc, set()).add(lower(language, form_of.group(1)))
+                else:
+                    irish_own.add(word_lc)
+                    if p == "verb":
+                        IRISH_VERBS.add(word_lc)
         pos[word_lc].add(p)
         if p not in WORD_POS and not (language == "ko" and p == "counter"):
             continue
@@ -2199,6 +2333,12 @@ def load_dictionary(language):
             if word not in tagalog_own:
                 common.pop(word, None)
                 lemmas[word] += sorted(t for t in targets if t != word and t not in lemmas[word])
+    if language == "ga":
+        # An Irish entry glossed only as another word's form is that word's form (tá, bhí, beidh of bí).
+        for word, targets in IRISH_FORMS_OF.items():
+            if word not in irish_own:
+                common.pop(word, None)
+                lemmas[word] += sorted(t for t in targets if t not in lemmas[word])
     if language == "ro":
         ROMANIAN_KINDS.update(romanian_kinds(db, lemmas))
     if language in FINNIC_OWN_SENSES:
@@ -2463,8 +2603,14 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     """The list from the sources' counts of the words as the reader cuts them."""
     # Each source's share of its own total, averaged; a form a source does not list counts as 0 there.
     freq = defaultdict(float)
-    for _, counts, _ in found:
+    for name, counts, _ in found:
         total = sum(counts.values())
+        if language in SOURCE_WEIGHTS:
+            # Or by SOURCE_WEIGHTS, made to add up to 1 over the sources found.
+            part = SOURCE_WEIGHTS[language][name] / sum(SOURCE_WEIGHTS[language][n] for n, _, _ in found)
+            for w, c in counts.items():
+                freq[normalise(language, w)] += c / total * part
+            continue
         for w, c in counts.items():
             freq[normalise(language, w)] += c / total / len(found)
     if language == "ro":
@@ -3306,6 +3452,47 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         out[verbs[0]] = out.get(verbs[0], 0.0) + part
         return {l: share for l, share in out.items() if share > 0.0}
 
+    def irish_relink():
+        """
+        Mends the Irish pack's links before they are followed, where simplemma disagrees with it. A word of the pack that
+        simplemma has as a word itself is no other word's form: the pronouns mé, tú, sé, siad are no forms of the article
+        an, nor nathair of athair, cad of gad, bia of bí. A form that is no word goes to simplemma's word for it, where that
+        is a word of the pack: to that one of the pack's words (fuair to faigh, not fuar; rinne to déan, not rinn; chuaigh to
+        téigh), or to it instead (bhfuil to bí, not fuil "blood"; níl to bí; dom to do), unless the pack has it as a plain
+        mutation of its word (gcló of cló) or simplemma names an adjective for a noun's plural (ainmneacha of ainm, not
+        ainmneach). Last, a verb is no form of a noun when texts write its forms (cuireann, chuireadh) more than the noun:
+        cuir is no form of cur (the verbal noun), caill none of call, síl none of síol.
+        """
+        if lemmatizer is None:
+            return
+        for form in list(freq):
+            if form in overrides or form in excluded or not lemmatizer.is_known(form):
+                continue
+            lemma = lower(language, lemmatizer.lemmatize(form))
+            known = [l for l in dict.fromkeys(lemmas.get(form, [])) if l != form]
+            if lemma == form:
+                if known and is_word(form):
+                    lemmas[form] = []
+                continue
+            if is_word(form) or not is_word(lemma) or lemma in excluded:
+                continue
+            if lemma in known:
+                if not (pos[lemma] & WORD_POS <= {"adj"} and any("noun" in pos.get(l, ()) for l in known)):
+                    lemmas[form] = [lemma]
+            elif not irish_unmutated(form) & set(known):
+                lemmas[form] = [lemma]
+        forms_of = defaultdict(set)
+        for form, of in lemmas.items():
+            for lemma in of:
+                if lemma != form:
+                    forms_of[lemma].add(form)
+        for verb in IRISH_VERBS:
+            nouns = [l for l in lemmas.get(verb, []) if "verb" not in pos.get(l, ())]
+            if not nouns or verb in overrides:
+                continue
+            used = sum(count(f) for f in forms_of[verb])
+            lemmas[verb] = [l for l in lemmas[verb] if l not in nouns or count(l) > used]
+
     resolved = {}
 
     def targets_of(form, depth=0):
@@ -3330,6 +3517,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 # ire is eo's, not is's; visitavit visito's and considerabat considero's, not viso's and consido's.
                 if language == "la" and word in LATIN_VERBS:
                     onward = None
+                # So does an Irish verb (chuir, cuireann of cuir, though cuir is also cur's genitive; d'fhan of fan).
+                if language == "ga" and word in IRISH_VERBS:
+                    onward = None
                 # An Arabic word spelled as another's verb form keeps its own forms (يتكون of تكون, not of كان), and a verb
                 # spelled as another word keeps its own (لن of لان "to soften", not of لأن); but not one sent to its word by
                 # rule or by hand (تبقى to بقي), whose spellings go with it.
@@ -3348,6 +3538,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             result[word] += part
         resolved[form] = dict(result)
         return resolved[form]
+
+    if language == "ga":
+        irish_relink()
 
     scores = defaultdict(float)
     forms = defaultdict(dict)
