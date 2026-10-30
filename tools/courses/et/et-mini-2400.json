@@ -1,0 +1,202 @@
+{
+  "id": "et-mini-2400",
+  "rankUpTo": 2400,
+  "level": "B2",
+  "title": "Teadus ja tehnika",
+  "description": "Ten short stories about science and technology: a robot that cleans the floor, a grandfather learning the computer, a thesis on worms, a kite on a cliff, a cat's territory, kitchen chemistry, old bones in a river valley, a bus without a driver, a robot on a dairy farm and a day at a science centre.",
+  "topic": "Science and technology",
+  "names": [
+    "Herta",
+    "Benno",
+    "Tallinn",
+    "Leopold",
+    "Eerika",
+    "Võru",
+    "Stockholm",
+    "Dora",
+    "Ragmar",
+    "Hilje",
+    "Tartu",
+    "Osvald",
+    "Emil",
+    "Saaremaa",
+    "Mailiis",
+    "Paide",
+    "Nurri",
+    "Helvi",
+    "Ruuben",
+    "Rakvere",
+    "Ingvar",
+    "Eliisa",
+    "Ahja",
+    "Linnar",
+    "Malvi",
+    "Johan",
+    "Aldo",
+    "Järvamaa",
+    "Elvira",
+    "Silvo",
+    "AHHAA",
+    "Ilja"
+  ],
+  "lessons": [
+    {
+      "title": "Väike abiline",
+      "summary": "Herta and Benno buy a robot that cleans the floor, and learn that it needs a clear floor: it creeps under the sofa and drags along a scarf, the laundry and a tie.",
+      "newWords": [
+        "tüütama",
+        "abiline",
+        "robot",
+        "teener",
+        "pugema",
+        "tirima",
+        "sall",
+        "vaip",
+        "pesu",
+        "lips"
+      ],
+      "text": "Herta ja Benno elavad Tallinnas koos kahe lapse ja suure koeraga. Mõlemad käivad tööl ja jõuavad koju alles õhtul. Lapsed ja koer käivad kogu aeg sisse ja välja ning põrandad ei ole peaaegu kunagi puhtad.\n\nHertat tüütab, et ta peab iga päev põrandaid pesema. „Mind tüütab, et pärast pikka päeva tööl pean ma veel tund aega põrandat pesema,“ ütleb ta ühel õhtul. „Mul oleks vaja abilist.“\n\nBenno otsib internetist ja leiab väikese roboti, mis puhastab põrandat ise. Robot sõidab toast tuppa, teeb põrandad puhtaks ja läheb siis oma kohale tagasi, et end laadida. Laupäeval ostavad nad sellise roboti. „Nüüd on meil kodus oma teener,“ naerab Benno.\n\nEsmaspäeva hommikul paneb Herta roboti tööle ja läheb ise kontorisse. Õhtul, kui ta koju jõuab, ei ole robot oma kohal. Lõpuks leiab Herta selle suurest toast. Robot on pugenud diivani alla ega pääse enam välja. Koridorist on ta kaasa tirinud Herta salli, mis oli põrandale kukkunud. Sall on jäänud roboti väikese ratta ümber kinni.\n\nHerta tirib roboti diivani alt välja ja võtab salli ära. Siis vaatab ta suure toa vaipa. Vaip on paks ja pehme. Ka vaiba ääres on robot kinni olnud, sest ta ei saa paksu vaiba peale.\n\nTeisel päeval on lugu sama. Seekord on robot tirinud koridori musta pesu, mis oli vannitoa ukse ees, ja Benno lipsu, mis oli tooli pealt maha kukkunud. Lips ei ole enam ilus. Benno ei ole rõõmus. „See lips oli mu parim,“ ütleb ta.\n\nHerta mõtleb natuke ja ütleb siis: „Robot ei ole teener, kes ise aru saab, mida võib puudutada ja mida mitte. Ta on ainult abiline. Enne kui ta tööd alustab, peame meie põranda vabaks tegema.“\n\nNüüdsest teeb pere igal hommikul enne lahkumist väikese ringi. Sall ja lips lähevad kappi ning pesu läheb vannituppa. Väikese vaiba paneb Herta tooli peale. Diivani ette panevad nad madala puust kasti, et robot sinna enam ei poeks.\n\nSellest ajast töötab robot hästi. Kui pere õhtul koju tuleb, on põrandad puhtad ja robot puhkab oma kohal. Põrandate pesemine ei ole Hertale enam tüütav töö, sest suure osa tööst teeb nüüd tema väike abiline.\n\nKüsimused:\nMiks Herta abilist vajab?\nTa jõuab koju alles õhtul ja põrandate pesemine tüütab teda väga.\nMida robot esimesel päeval tegi?\nRobot oli pugenud diivani alla ja tirinud kaasa Herta salli.\nMis juhtus teisel päeval Benno lipsuga?\nRobot oli tirinud lipsu koridori ja lips ei olnud enam ilus.\nKas robot on pere teener?\nEi, Herta sõnul ei ole robot teener, vaid abiline.\nMida pere nüüd igal hommikul teeb?\nEnne kui robot tööd alustab, võtavad nad asjad põrandalt ära."
+    },
+    {
+      "title": "Vanaisa ja ekraan",
+      "summary": "Leopold, 74, learns to use a computer at the library in Võru so that he can see his grandchild, born in Stockholm, on the screen.",
+      "newWords": [
+        "kuupäev",
+        "hiir",
+        "ekraan",
+        "rutem",
+        "konto",
+        "saatja",
+        "kujutlema",
+        "sünnitama",
+        "lapselaps",
+        "oivaline"
+      ],
+      "text": "Leopold on 74-aastane ja elab Võrus. Tema tütar Eerika elab juba kümme aastat Stockholmis ja ootab last. Arst on andnud kuupäeva: laps peaks sündima märtsi keskel. Leopold kirjutab selle kuupäeva paberile ja paneb paberi köögis seinale.\n\nLeopoldil on üks mure. Tal ei ole kunagi olnud arvutit. Eerika tahab, et isa näeks last kohe pärast sündi, aga Stockholm on kaugel ja see on võimalik ainult arvuti kaudu.\n\nJaanuaris läheb Leopold raamatukokku, kus vanematele inimestele õpetatakse tasuta arvutit kasutama. Õpetaja on noor naine, kelle nimi on Dora.\n\nKõigepealt tuleb õppida hiirt kasutama. See on Leopoldi jaoks raske. Kui ta hiirt liigutab, liigub ekraanil väike nool, aga mitte alati sinna, kuhu ta tahab. „Ärge muretsege,“ ütleb Dora. „Mida rohkem te harjutate, seda rutem see läheb.“\n\nTeisel nädalal teevad nad Leopoldile e-posti konto. Dora selgitab, et igal kontol on oma nimi ja salasõna. „Salasõna ei tohi kellelegi öelda,“ ütleb ta. Siis saadab Dora talle esimese kirja. Leopold õpib vaatama, kes on kirja saatja ja mis kuupäeval kiri saadeti. „Kui saatja on teile võõras, ärge kirja avage,“ ütleb Dora.\n\nKolmandal nädalal õpitakse, kuidas arvuti abil teise inimesega nii rääkida, et teineteist on näha. Leopold ei suuda alguses ette kujutleda, et ta näeb oma tütart ekraanil, kuigi tütar on teisel pool merd. „Kujutlege, et ekraan on aken,“ ütleb Dora. „Teisel pool akent istub teie tütar.“\n\nIga nädalaga läheb Leopoldil kõik rutem. Varsti avab ta oma konto ise ja leiab hiirega kohe õige nupu.\n\nMärtsi alguses, neli päeva enne arsti antud kuupäeva, tuleb Leopoldile kiri. Saatja on Eerika mees Ragmar. „Eerika sünnitas täna hommikul tütre. Ema ja laps tunnevad end hästi. Helistame õhtul.“ Leopold loeb kirja kolm korda. Tal on nüüd lapselaps!\n\nÕhtul istub Leopold arvuti ees. Ekraanile ilmub Eerika, kes hoiab süles väikest last. „Isa, see on sinu lapselaps,“ ütleb Eerika. „Ma sünnitasin ta kell kuus hommikul ja kõik läks hästi.“ Leopoldil on pisarad silmis. „Oivaline,“ ütleb ta vaikselt. „Lihtsalt oivaline.“\n\nJärgmisel päeval läheb Leopold raamatukokku ja räägib Dorale kõigest. „Oivaline!“ ütleb Dora. „Nüüd näete oma lapselast nii tihti, kui soovite.“\n\nKüsimused:\nMiks Leopold arvutit õppima läheb?\nTa tahab näha oma lapselast, kes sünnib Stockholmis.\nMis on Leopoldi jaoks alguses raske?\nAlguses on raske hiirt kasutada, sest nool ei lähe ekraanil sinna, kuhu ta tahab.\nMida ütleb Dora võõra saatja kohta?\nKui saatja on võõras, ei tohi kirja avada.\nKes on kirja saatja märtsi alguses?\nSaatja on Eerika mees Ragmar.\nMillal Eerika lapse sünnitas?\nTa sünnitas lapse neli päeva enne arsti antud kuupäeva."
+    },
+    {
+      "title": "Ussid ja lehed",
+      "summary": "Hilje defends her doctoral thesis in Tartu on how worms help fallen leaves break down, and why they break down slowly in sand.",
+      "newWords": [
+        "pühenduma",
+        "lagunema",
+        "uss",
+        "kaitsmine",
+        "taust",
+        "keskkond",
+        "liiv",
+        "järelikult",
+        "põhinema",
+        "erakordne"
+      ],
+      "text": "Hilje on 31-aastane ja töötab Tartu ülikoolis. Neli aastat on ta pühendunud ühele küsimusele: kuidas aitavad ussid metsas langenud lehtedel laguneda? Sügisel kukub maha väga palju lehti. Kui need ei laguneks, oleks mets varsti lehti täis. Täna on Hilje doktoritöö kaitsmine.\n\nHilje taust on lihtne: ta kasvas üles maal vanaisa juures, kellel oli suur aed. Juba lapsena kaevas ta mulda ja vaatas usse. „Ussid on aia parimad töötajad,“ ütles vanaisa. Hilje ei unustanud seda kunagi.\n\nKaitsmine algab kell kaks. Ülikooli väikeses saalis istuvad Hilje pere, sõbrad ja teised teadlased. Hilje on valinud oma piltidele rohelise tausta ning roheline taust on rahulik ja ilus. Ta võtab sügavalt hinge ja alustab.\n\n„Ussid elavad väga erinevas keskkonnas,“ räägib Hilje. „Ühes keskkonnas on muld must ja niiske, teises on peaaegu ainult liiv. Ma tahtsin teada, kas keskkond muudab usside tööd.“\n\nKolme aasta jooksul kogus Hilje proove kümnest metsast. Kõik tema järeldused põhinevad nendel proovidel: neid on kokku 300. Igas proovis loendas ta usse ja mõõtis, kui kiiresti lehed lagunesid. Tema töö põhineb ka katsetel ülikooli laboris.\n\n„Mustas mullas elab usse palju ja lehed lagunevad seal ühe aastaga,“ ütleb Hilje. „Liivas on usse väga vähe. Järelikult lagunevad lehed liivas palju aeglasemalt, mõnikord kolm või neli aastat. Liiv jääb vaeseks ja seal kasvab vähem taimi. Järelikult on ussid metsale väga tähtsad.“\n\nPärast ettekannet esitavad kaks teadlast Hiljele küsimusi. Üks neist küsib, miks Hilje valis just need kümme metsa. Teine küsib, kas soe talv muudab usside tööd. Hilje vastab rahulikult ja selgelt.\n\nKaitsmine kestab kaks tundi. Lõpuks tõuseb vanem teadlane püsti. „See on erakordne töö,“ ütleb ta. „Nii suurt ja hoolikat tööd ei tehta tihti. Hilje on nüüd teaduste doktor.“ Kõik saalis plaksutavad.\n\nÕhtul söövad nad kõik koos kooki. Hilje vanaisa, kes on juba 88-aastane, on samuti tulnud. „Ma ütlesin ju, et ussid on erakordsed,“ ütleb vanaisa naerdes.\n\nKüsimused:\nMillele on Hilje neli aastat pühendunud?\nTa on pühendunud küsimusele, kuidas ussid aitavad lehtedel laguneda.\nKus Hilje kasvas ja mida ta lapsena tegi?\nTa kasvas maal vanaisa juures ning kaevas mulda ja vaatas usse.\nMille peal tema järeldused põhinevad?\nNeed põhinevad 300 proovil kümnest metsast ja katsetel laboris.\nMis juhtub lehtedega liivas?\nLiivas on usse vähe ja lehed lagunevad seal palju aeglasemalt.\nMida ütleb vanem teadlane kaitsmise lõpus?\nTa ütleb, et see on erakordne töö."
+    },
+    {
+      "title": "Lohe kalju peal",
+      "summary": "On Saaremaa, Osvald and his grandson Emil look at a feather, build a kite and fly it from the top of a cliff.",
+      "newWords": [
+        "sulg",
+        "lohe",
+        "nõel",
+        "kalju",
+        "ulatuma",
+        "siitkaudu",
+        "sinnapoole",
+        "kargama",
+        "hüpe"
+      ],
+      "text": "Osvald on pensionil ja elab Saaremaal mere ääres. Suvel tuleb tema juurde nädalaks lapselaps Emil, kes on 9-aastane. Emil tahab kõike teada, eriti seda, kuidas linnud lendavad.\n\nEsimesel hommikul jalutavad nad rannas ja Emil leiab suure valge sule. „Vanaisa, miks see sulg nii kerge on?“ küsib ta. Osvald võtab sule kätte. „Vaata, sule keskel on toru, mis on seest tühi,“ ütleb ta. „Selle sees on õhk. Sulg on kerge, aga tugev. Linnul on tiibades palju sulgi ja tuul kannab neid.“\n\n„Kas inimene võiks ka lennata?“ küsib Emil. „Inimene on liiga raske,“ vastab Osvald. „Aga me võime teha lohe. Lohe lendab peaaegu nagu lind: tuul surub seda alt üles.“\n\nPärast lõunat ehitavad nad lohe. Osvald võtab kaks kerget puutükki ja seob need risti. Siis lõikab ta kergest riidest suure tüki ja kinnitab selle nõela ja niidiga puu külge. Nõel on terav, nii et Emil ainult hoiab riiet. Kui töö on valmis, paneb Osvald nõela tagasi karpi. Lohe sabasse seob Emil oma valge sule.\n\nKüla lähedal on kõrge kalju. Kalju ulatub mere kohal umbes 20 meetri kõrgusele ja selle peal puhub alati tugev tuul. „Siitkaudu läheb rada kalju peale,“ ütleb Osvald ja näitab metsa poole. Rada ei ole lai, aga see ei ole raske.\n\nKalju peal vaatab Osvald, kust tuul tuleb. „Tuul puhub merelt maa poole,“ ütleb ta. „Me laseme lohe lendu sinnapoole, kus on küla. Kalju äär on ohtlik, nii et sinnapoole me ei lähe.“\n\nEmil hoiab nööri ja Osvald tõstab lohe üles. Tuul võtab lohe kaasa ja lohe kargab järsku õhku. Iga kord, kui tuul tugevamaks läheb, teeb lohe hüppe veel kõrgemale. Nöör on 50 meetrit pikk ja varsti ulatub lohe peaaegu pilvedeni. Emil kargab rõõmust ja teeb ise ka paar hüpet. „Vaata, sulg lendab koos lohega!“ hüüab ta.\n\nLohe on õhus terve tunni. Siis võtab Osvald lohe alla ja nad lähevad koju. „Tule siitkaudu,“ ütleb ta, „see tee on lühem.“ Õhtul joonistab Emil pildi linnust, lohest ja kaljust.\n\nKüsimused:\nMida Emil rannas leiab?\nTa leiab suure valge sule.\nMiks sulg nii kerge on?\nSule keskel on toru, mis on seest tühi, ja selle sees on õhk.\nMillega Osvald riide puu külge kinnitab?\nTa kinnitab riide nõela ja niidiga.\nKui kõrgele kalju ulatub?\nKalju ulatub umbes 20 meetri kõrgusele mere kohal.\nMiks nad lasevad lohe lendu sinnapoole, kus on küla?\nKalju äär on ohtlik ja tuul puhub merelt maa poole."
+    },
+    {
+      "title": "Kassi territoorium",
+      "summary": "Mailiis in Paide worries about her cat's nightly disappearances, puts a small tracker on its neck and learns how big a cat's territory is.",
+      "newWords": [
+        "kadumine",
+        "kusagile",
+        "isekas",
+        "kobima",
+        "märkima",
+        "territoorium",
+        "õu",
+        "küüs"
+      ],
+      "text": "Mailiis elab Paides väikeses majas, mille taga on suur õu. Tal on noor kass, kelle nimi on Nurri. Päeval magab Nurri diivanil, aga iga öö kaob ta mitmeks tunniks. See kadumine teeb Mailiisile muret. „Kuhu ta läheb?“ mõtleb ta. „Kas ta läheb kusagile kaugele, linna teise otsa?“\n\nMailiisi meelest on kass isekas. „Sa tuled koju ainult siis, kui tahad süüa,“ ütleb ta Nurrile. „Sa oled isekas loom.“ Nurri vaatab talle otsa ja läheb magama.\n\nÜhel päeval loeb Mailiis ajalehest, et poes müüakse väikesi seadmeid, mida saab kassi kaela panna. Seade näitab telefonis kaardil, kus kass just praegu on. Mailiis ostab sellise seadme ja paneb selle Nurrile kaela.\n\nKell kaks öösel ärkab Mailiis. Toas on pime. Ta hakkab voodi kõrval laual telefoni järele kobima, aga ei leia seda. Tuld ta põlema panna ei taha, nii et ta peab pimedas edasi kobima. Lõpuks leiab ta telefoni prillide kõrvalt. Kaardil on väike punane märk. Nurri on naabri õues, ainult kahe maja kaugusel.\n\nHommikul vaatab Mailiis kaarti lähemalt. Telefon on märkinud kogu tee, mille kass öösel käis. Nurri on käinud neljas õues ja ühes väikeses metsas jõe ääres, aga mitte kusagil kaugemal. Ta on igal ööl käinud samu radu.\n\nMailiis helistab oma õele, kes on loomaarst. „See on kassi territoorium,“ selgitab õde. „Kassid ei ole isekad, vaid hoolitsevad oma territooriumi eest. Iga öö käivad nad selle läbi ja märgivad seda.“\n\n„Kuidas nad seda märgivad?“ küsib Mailiis. „Küüntega,“ vastab õde. „Kass kraabib puid ja aedu. Küünte jäljed on teistele kassidele märk: siin elab juba keegi. Lõhnaga märgivad nad oma territooriumi ka.“\n\nÕhtul läheb Mailiis õue ja vaatab vana puud aia ääres. Puul on palju küünte jälgi. Nüüd saab ta aru, miks Nurri igal õhtul seal puud kraabib.\n\nNurri kadumine ei ole enam mure. Mailiis teab, et kass ei lähe kusagile kaugele. Hommikul tuleb Nurri alati koju tagasi, sööb ja heidab diivanile magama.\n\nKüsimused:\nMis teeb Mailiisile muret?\nTalle teeb muret kassi kadumine öösiti.\nMida Mailiis öösel pimedas teeb?\nTa hakkab pimedas telefoni järele kobima.\nMida telefon kaardil märkis?\nTelefon märkis kogu tee, mille kass öösel käis.\nMis on kassi territoorium?\nSee on ala, mille kass igal ööl läbi käib ja mida ta märgib.\nKuidas kass oma territooriumi märgib?\nTa märgib seda küüntega ja lõhnaga."
+    },
+    {
+      "title": "Köögikeemia",
+      "summary": "Helvi, a retired chemistry teacher in Rakvere, bakes a berry pie with her grandson Ruuben and explains the science of the eggs, the berries, the nuts and the gas flame.",
+      "newWords": [
+        "pirukas",
+        "märge",
+        "eraldi",
+        "määrima",
+        "mari",
+        "pähkel",
+        "närima",
+        "leek",
+        "roos",
+        "palav"
+      ],
+      "text": "Helvi oli 30 aastat Rakvere koolis õpetaja ja õpetas lastele keemiat. Nüüd on ta pensionil, aga ta ütleb ikka, et köök on tema labor. Laupäeval tuleb külla lapselaps Ruuben ja nad otsustavad teha piruka.\n\nHelvi võtab kapist vana raamatu, kuhu ta on aastaid kirjutanud, kuidas toite teha. Iga toidu kõrval on tema märkmed: kui palju suhkrut panna ja kui kaua küpsetada. „Need märkmed on minu katsete tulemused,“ ütleb Helvi naerdes. „Kui märkmeid ei oleks, unustaksin ma pooled asjad.“\n\nKõigepealt teevad nad piruka põhja. Helvi segab kokku jahu, suhkru ja munad. Võid soojendavad nad eraldi väikeses potis. „Miks me võid eraldi soojendame?“ küsib Ruuben. „Kui kuum või läheb kohe munade peale, muutuvad munad kõvaks nagu hommikusöögil,“ vastab Helvi. „Seepärast peab või enne natuke seisma.“\n\nSiis määrib Ruuben piruka vormi võiga. „Määri hästi ka nurgad,“ ütleb Helvi. „Kui sa vormi korralikult ei määri, jääb pirukas vormi külge kinni.“\n\nPõhja peale tulevad marjad. Helvi korjas need suvel metsast ja hoidis neid külmas. Marjad on veel kõvad ja külmad. „Marjades on palju vett,“ selgitab Helvi. „Kui pirukas läheb kuumaks, tuleb vesi marjadest välja. Seepärast panen marjade peale natuke jahu. Jahu võtab vee endasse ja pirukas ei jää märjaks.“\n\nSiis keerab Helvi gaasi lahti ja ilmub sinine leek. „Sinine leek on kuum ja puhas,“ ütleb ta. „Kui leek on kollane, siis gaas ei põle korralikult.“ Helvi paneb panni leegi peale ja pähklid panni peale. Varsti hakkavad pähklid hästi lõhnama. Ruuben võtab ühe pähkli ja närib seda. „Soe pähkel on palju maitsvam,“ ütleb ta ja närib juba teist.\n\nLaual on klaasis kolm punast roosi Helvi aiast. Ruuben vaatab neid ja teeb pähklitest piruka peale suure roosi. „Nüüd on meie pirukas sama ilus kui need roosid,“ ütleb Helvi.\n\nSiis läheb pirukas pooleks tunniks ahju. Köögis on nüüd väga palav. Ruuben teeb akna lahti. „Palav on, sest köögis on palju sooja,“ ütleb Helvi. „Ka see on teadus: soe õhk tõuseb üles ja külm tuleb aknast sisse.“\n\nLõpuks on pirukas valmis. Pähklitest roos on pruun ja marjad on muutunud tumedaks. Helvi kirjutab raamatusse uue märkme: „Ruubeniga, pähklitega, väga hea.“\n\nKüsimused:\nMis on Helvi raamatus iga toidu kõrval?\nSeal on tema märkmed.\nMiks soojendavad nad võid eraldi?\nKuum või muudaks munad kõvaks.\nMiks peab vormi hästi määrima?\nMuidu jääb pirukas vormi külge kinni.\nMis värvi on kuum ja puhas leek?\nKuum ja puhas leek on sinine.\nMida Ruuben piruka peale teeb?\nTa teeb pähklitest piruka peale suure roosi."
+    },
+    {
+      "title": "Kondid jõe orus",
+      "summary": "After a flood, scientists Ingvar and Eliisa dig up very old animal bones in the valley of the Ahja river and work out how they got there.",
+      "newWords": [
+        "kont",
+        "org",
+        "aare",
+        "kahjustama",
+        "konks",
+        "viimne",
+        "mõistatus"
+      ],
+      "text": "Ühel aastal oli Ahja jõe orus väga suur vesi. Kui vesi oli jõkke tagasi läinud, leidis üks mees, kes elab oru lähedal talus, jõe kaldalt suure tumeda kondi. Kont oli pikem kui tema jalg. Mees helistas Tartu ülikooli ja juba järgmisel päeval tulid orgu kaks teadlast: Ingvar ja tema noor kolleeg Eliisa.\n\nIngvar vaatas konti kaua. „See on mammuti kont,“ ütles ta lõpuks. „See loom elas siin umbes 15 000 aastat tagasi, viimse jääaja lõpus. Teadusele on see tõeline aare.“ Mees naeris: „Ma ei teadnudki, et olen aarde leidnud.“\n\nKaldas oli näha veel konte. Teadlased jäid orgu kaheks nädalaks ja hakkasid tööle. Tööd oli palju, sest vanad kondid lähevad kergesti katki. „Vihm ja päike võivad neid kahjustada,“ selgitas Ingvar Eliisale. „Kui kont saab liiga kiiresti kuivaks, läheb see katki. Seepärast katame need iga õhtu.“\n\nSuurt labidat nad ei kasutanud. Eliisa töötas väikese konksuga, millega sai maad kondi juurest ettevaatlikult ära võtta. Konks oli väike ja terav. „Suur labidas kahjustaks konte,“ ütles Ingvar. „Konksuga läheb aeglaselt, aga kindlalt.“\n\nKahe nädalaga leidsid nad 40 konti. Ingvar tahtis, et nad korjaksid üles viimse kui ühe tüki. „Isegi väike tükk võib olla tähtis,“ ütles ta. Iga kondi koht märgiti kaardile ja iga kont pandi eraldi kasti. Nad töötasid iga päev viimse valguseni.\n\nÜks asi oli siiski mõistatus. Kondid ei olnud koos ühes kohas, vaid laiali pikal alal jõe kaldas. Mõnel kondil oli peal peent liiva. „Kuidas need siia said?“ küsis Eliisa. „See on meie mõistatus,“ vastas Ingvar.\n\nÕhtul vaatasid nad autos kaarti ja liiva proove. Lõpuks sai Eliisa aru. „Kui külm aeg lõppes, tuli jääst väga palju vett ja orus voolas suur jõgi,“ ütles ta. „Vesi kandis kondid laiali ja kattis need liivaga.“ Ingvar naeratas. „Õige. Mõistatus on lahendatud.“\n\nAasta lõpus pandi kondid Tartus muuseumisse. Seal saavad lapsed ja täiskasvanud neid vaadata ja lugeda, kuidas need leiti.\n\nKüsimused:\nKes leidis esimese kondi ja kus?\nÜks mees leidis selle Ahja jõe orus jõe kaldalt.\nMiks on see kont teadusele aare?\nSee on väga vana ja selliseid konte leitakse harva.\nMis võib vanu konte kahjustada?\nVihm ja päike võivad neid kahjustada.\nMiks töötas Eliisa konksuga?\nSuur labidas kahjustaks konte, konksuga läheb aeglaselt, aga kindlalt.\nKuidas said kondid jõe kaldale?\nSuur jõgi kandis need laiali ja kattis liivaga."
+    },
+    {
+      "title": "Buss ilma juhita",
+      "summary": "Linnar's small company in Tallinn tests a bus without a driver in the city centre, with a bank loan, a lawyer, an advertising agency and a new version of the software.",
+      "newWords": [
+        "kesklinn",
+        "autojuht",
+        "versioon",
+        "laen",
+        "tagastama",
+        "kasum",
+        "kehtima",
+        "jurist",
+        "agentuur",
+        "sissepääs"
+      ],
+      "text": "Linnar töötab Tallinnas väikeses firmas, mis ehitab isesõitvaid busse. Selline buss sõidab kaamerate ja arvuti abil ega vaja autojuhti. Sel kevadel hakkab firma esimest bussi kesklinnas katsetama.\n\nBuss on väike, sinna mahub kümme inimest. See sõidab aeglaselt ringi kesklinnas: vanalinna väravast sadamasse ja tagasi. Kuigi bussil ei ole autojuhti, istub katse ajal bussis alati üks firma töötaja. Ta ei juhi bussi, aga kui midagi juhtub, saab ta bussi peatada. Mõned inimesed kutsuvad teda ikka autojuhiks.\n\nBussi ehitamine oli kallis. Firma võttis pangast suure laenu. Linnar teab, et laen tuleb viie aasta jooksul pangale tagastada. „Praegu meil kasumit ei ole,“ ütleb ta oma meeskonnale. „Kasum tuleb siis, kui teised linnad hakkavad meie busse ostma.“\n\nEnne katse algust käib Linnar koos firma juristiga linna ametnike juures. Jurist loeb kõik paberid hoolikalt läbi. „Luba kehtib üks aasta,“ ütleb jurist. „See kehtib ainult kesklinnas ja ainult päeval.“ Linnar on rahul: nii oligi plaan.\n\nInimesed peavad bussist teada saama. Selleks palkab firma väikese agentuuri, mis teeb reklaame. Agentuur teeb plakatid ja lühikese video. Videol sõidab buss mööda vanu tänavaid ja hääl ütleb: „Tulge proovima! Sõit on tasuta.“\n\nEsimesel nädalal on üks probleem. Haigla sissepääsu juures peatub buss liiga kaugel. Inimesed peavad kõndima, et sissepääsuni jõuda. Firma programmeerijad kirjutavad programmi uue versiooni. Uues versioonis peatub buss täpselt sissepääsu ees.\n\nFirma oli ühe katsebussi ka teiselt firmalt laenanud. Kui uus versioon töötab, tagastavad nad selle bussi omanikule tänuga.\n\nSuve lõpuks on bussiga sõitnud 8000 inimest. Paljud kirjutavad firmale, et sõit oli rahulik ja turvaline. Linnar loeb kirju ja naeratab. Talvel sõidab buss juba Tartus ka.\n\nKüsimused:\nMille abil buss sõidab?\nBuss sõidab kaamerate ja arvuti abil ja ei vaja autojuhti.\nMida peab firma pangale tagastama?\nFirma peab viie aasta jooksul pangale laenu tagastama.\nKui kaua luba kehtib?\nLuba kehtib üks aasta, ainult kesklinnas ja päeval.\nMida agentuur firmale teeb?\nAgentuur teeb plakatid ja lühikese video.\nMis muutus programmi uues versioonis?\nUues versioonis peatub buss täpselt haigla sissepääsu ees."
+    },
+    {
+      "title": "Robot farmis",
+      "summary": "A school class from Tallinn visits Malvi's dairy farm in Järvamaa, where a robot milks the cows; one boy is sick on the bus and is looked after kindly.",
+      "newWords": [
+        "farm",
+        "oksendama",
+        "kaastunne",
+        "tõug",
+        "tehnika",
+        "kitsas",
+        "isane"
+      ],
+      "text": "Johan on Tallinnas õpetaja. Mais sõidab ta oma klassiga bussiga Järvamaale, et näidata lastele, kuidas töötab tänapäeva farm. Farmi omanik on Malvi, kes käis Johaniga kunagi samas klassis.\n\nTee on pikk ja kõver. Pool tundi enne farmi läheb Aldol paha. Ta oksendab kotti. Johan peatab bussi ja Aldo istub natuke värske õhu käes. „Kas sa oksendasid veel?“ küsib Johan. „Ei, nüüd on parem,“ vastab Aldo vaikselt.\n\nKui buss farmi jõuab, näeb Malvi kohe, et poiss ei tunne end hästi. Ta vaatab Aldot kaastundega. „Bussis läheb paljudel paha,“ ütleb ta. „Ka mul läks lapsena.“ Ta toob Aldole klaasi vett ja tüki leiba. Aldo tunneb Malvi kaastunnet ja tal hakkab kohe parem.\n\nMalvi farmis on 120 lehma. Kõik lehmad on ühte tõugu, mis annab palju piima. „Selle tõu lehmad on suured ja rahulikud,“ ütleb Malvi. „Meie farmis on tõug olnud sama juba 30 aastat.“\n\nSiis näitab Malvi lastele uut tehnikat. Lehmi lüpsab robot. Lehm läheb ise kitsasse käiku, mille lõpus on robot. Käik on nii kitsas, et sinna mahub ainult üks lehm korraga. Robot leiab kaamera abil õige koha ja hakkab tööle. „Lehm tuleb siia siis, kui ta ise tahab,“ ütleb Malvi. „Mõni tuleb kolm korda päevas.“\n\n„Mida see tehnika veel teeb?“ küsib üks tüdruk. „Iga lehma kaelas on väike seade,“ vastab Malvi. „Arvuti teab, kui palju iga lehm sööb ja liigub. Kui lehm on haige, näen ma seda kohe telefonis. Kui seda tehnikat ei oleks, ei saaks ma kõigega hakkama.“\n\nFarmis on ka vasikad. Malvi selgitab, et emased jäävad farmi ja neist saavad kunagi lehmad. Isased müüakse teise farmi. Üks väike isane vasikas lakub Aldo kätt ja Aldo naerab. Nüüd on ta täiesti terve.\n\nÕhtul bussis istub Aldo ees, Johani kõrval. Ta ei oksenda enam ja räägib terve tee robotist.\n\nKüsimused:\nMiks Johan bussi peatab?\nAldol läheb paha ja ta oksendab.\nKuidas Malvi Aldot aitab?\nTa vaatab teda kaastundega ja toob talle vett ja leiba.\nMis tõugu on Malvi lehmad?\nKõik lehmad on ühte tõugu, mis annab palju piima.\nMiks on käik roboti juures kitsas?\nKäik on nii kitsas, et sinna mahub ainult üks lehm korraga.\nMis juhtub isaste loomadega?\nIsased müüakse teise farmi."
+    },
+    {
+      "title": "Päev teaduskeskuses",
+      "summary": "Elvira and her son Silvo spend a day at the AHHAA science centre in Tartu: giant lungs, a guide with a tattoo, a workshop with tin and the stars on the ceiling.",
+      "newWords": [
+        "kops",
+        "lugemine",
+        "sisemine",
+        "tätoveering",
+        "tina",
+        "andekas",
+        "hiilgus"
+      ],
+      "text": "Elvira ja tema 10-aastane poeg Silvo sõidavad laupäeval Tartusse AHHAA keskusesse. Silvo armastab kõike, mis on seotud teaduse ja tehnikaga, ja ta on seda päeva oodanud terve kuu.\n\nEsimeses suures ruumis on kõik inimese kehast. Keset ruumi seisavad hiiglaslikud kopsud, mille sisse saab minna. Kui nuppu vajutada, lähevad kopsud õhku täis ja suureks, siis jälle väikeseks. „Täiskasvanu kopsudes on umbes kuus liitrit õhku,“ loeb Elvira seinalt.\n\nSilvole lugemine eriti ei meeldi. Ta tahab kõike ise proovida. Aga siin on lugemine lihtne, sest tekstid on lühikesed ja iga teksti kõrval on nupp. Silvo hingab sügavalt ja tunneb, kuidas ka tema enda kopsud õhku täis lähevad.\n\nKopsude kõrval on näha keha teised sisemised osad: süda, maks ja kõht. „Sisemine osa on see, mida väljast ei näe,“ selgitab noor mees, kes keskuses töötab. Tema nimi on Ilja. Tal on käe peal tätoveering: väike roheline puu. „Kas tätoveering teeb haiget?“ küsib Silvo. „Natuke,“ naerab Ilja. „Värv läheb naha sisemisse ossa. Seepärast tätoveering ei kao, kuigi naha pind muutub kogu aeg uueks.“\n\nTeisel korrusel saavad lapsed ise midagi ehitada. Täna teevad nad väikese lambi. Juhtmed pannakse plaadi külge tinaga. Tina on pehme ja läheb kuumaga kiiresti vedelaks. Ilja näitab, kuidas kuum ots puudutab tina ja tina voolab nagu vesi. Silvo teeb kõik ise ja varsti põleb tema väike lamp. „Sa oled andekas,“ ütleb Ilja. „Nii kiiresti ei ole täna keegi tinaga töötama õppinud.“ Elvira on uhke. Ta teab, et Silvo on andekas, aga on hea kuulda seda ka teiselt.\n\nPäeva lõpus lähevad nad ruumi, mille lagi on nagu taevas. Nad heidavad pikali ja tuled lähevad ära. Laes on tuhanded tähed. Hääl räägib, kuidas tähed tekivad ja miks nad paistavad. Kogu taevas on täis valgust. Silvo ei ütle pool tundi sõnagi. „Milline hiilgus,“ ütleb Elvira vaikselt. „Seda hiilgust ei näe linnas kunagi, sest linnas on öösel liiga palju tulesid.“\n\nKoju sõites hoiab Silvo käes oma väikest lampi. „Järgmine kord ehitan ma raadio,“ ütleb ta.\n\nKüsimused:\nMis juhtub kopsudega, kui nuppu vajutada?\nKopsud lähevad õhku täis ja suureks.\nMiks on lugemine siin lihtne?\nTekstid on lühikesed ja iga teksti kõrval on nupp.\nMis on sisemine osa?\nSee on keha osa, mida väljast ei näe.\nMiks tätoveering nahalt ei kao?\nVärv läheb naha sisemisse ossa.\nMilleks kasutatakse tina?\nJuhtmed pannakse plaadi külge tinaga.\nMida ütleb Elvira tähtede kohta?\nTa ütleb, et see on hiilgus, mida linnas ei näe."
+    }
+  ]
+}
