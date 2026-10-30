@@ -119,6 +119,9 @@ def fold(code, word):
     # Macedonian writes нѐ ("us") and сѐ ("everything") with the Cyrillic ѐ; a text may have the Latin è in its place.
     if code == "mk":
         return word.replace("è", "ѐ")
+    # The Irish list writes the straight apostrophe (d'fhág, b'fhéidir) and the curly one; texts may use either.
+    if code == "ga":
+        return word.replace("’", "'").replace("ʼ", "'")
     return word
 
 
@@ -364,6 +367,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return indonesian_tokens(text, ranks, heads, names)
     if code == "tl":
         return tagalog_tokens(text, ranks, names)
+    if code == "ga":
+        return irish_tokens(text, ranks, names)
     if code in FINNIC:
         return finnic_tokens(text, code)
     out = []
@@ -1629,6 +1634,76 @@ def tagalog_tokens(text, ranks, names=frozenset()):
     return out
 
 
+# Irish changes the first sound of a word after certain words: lenition (cat, a chat; féach, d'fhéach), eclipsis
+# (bord, ar an mbord; athair, ár n-athair; Gaillimh, i nGaillimh), h before a vowel (aois, a haois; Éire, na hÉireann),
+# t before a vowel or s (uisce, an t-uisce; sráid, an tsráid), and d', b', m' before a vowel or fh (d'ól, b'fhéidir,
+# m'athair). A mutated form the list lacks counts as the word it mutates, and a mutated name as the name; a capital
+# after the mutation's letters (nÉirinn, tUachtarán, bPáras) marks them as a mutation even where the lowercased word
+# is listed (nathair "snake" is not ár nAthair). A word with a hyphen is one word where the list has it (príomh-aire,
+# t-uisce, n-oibreacha), and its parts otherwise. Letters joined to digits (an 3ú lá, sna 1990idí) are the number's.
+IRISH_WORD = re.compile(r"[^\W\d_]+(?:'[^\W\d_]+)*(?:-[^\W\d_]+(?:'[^\W\d_]+)*)*", re.UNICODE)
+IRISH_VOWELS = "aeiouáéíóú"
+IRISH_ECLIPSIS = {"mb": "b", "gc": "c", "nd": "d", "ng": "g", "bp": "p", "dt": "t"}
+IRISH_CAPITAL_MUTATION = re.compile(r"(?:bh|[nthmgdb])(?=[A-ZÁÉÍÓÚ])")
+
+
+def irish_bases(word):
+    """The unmutated words a lowercased Irish word may be, the likeliest first."""
+    m = re.match(r"[dbm]'(.+)", word)
+    if m:
+        return [m.group(1)] + irish_bases(m.group(1))
+    out = []
+    if word[:2] in ("t-", "n-") and word[2:3] in IRISH_VOWELS:
+        out.append(word[2:])
+    if word.startswith("bhf"):
+        out.append("f" + word[3:])
+    elif word[:2] in IRISH_ECLIPSIS and len(word) > 2:
+        out.append(IRISH_ECLIPSIS[word[:2]] + word[2:])
+    if word.startswith("ts") and len(word) > 2:
+        out.append(word[1:])
+    if len(word) > 2 and word[1] == "h" and word[0] in "bcdfgmpst":
+        out.append(word[0] + word[2:])
+    if word[:1] == "h" and word[1:2] in IRISH_VOWELS:
+        out.append(word[1:])
+    return out
+
+
+def irish_word(word, ranks, names=frozenset()):
+    """The list word or name a (not yet lowercased) Irish word is: itself if listed, else the word it mutates."""
+    capital = IRISH_CAPITAL_MUTATION.match(word)
+    if capital and word[:capital.end()].islower():
+        base = word[capital.end():].lower()
+        if base in ranks or base in names:
+            return base
+    word = word.lower()
+    if word in ranks or word in names:
+        return word
+    return next((b for b in irish_bases(word) if b in ranks or b in names), word)
+
+
+def irish_tokens(text, ranks, names=frozenset()):
+    ranks = ranks or {}
+    out = []
+    text = text.replace("’", "'").replace("ʼ", "'")
+    for match in IRISH_WORD.finditer(text):
+        if match.start() > 0 and text[match.start() - 1].isdigit():
+            continue
+        word = match.group(0)
+        whole = irish_word(word, ranks, names)
+        if "-" not in word or whole in ranks or whole in names:
+            out.append(whole)
+            continue
+        out.extend(irish_word(part, ranks, names) for part in word.split("-") if part)
+    return out
+
+
+def irish_name_pattern(name):
+    """A name as the text writes it, also mutated (Baile Átha Cliath, i mBaile Átha Cliath, ó Bhaile Átha Cliath)."""
+    first, rest = name[0], name[1:]
+    lenited = "h?" if first.lower() in "bcdfgmpst" else ""
+    return re.compile(r"(?<![^\W\d_])(?:bh|t-|n-|[nthmgdb])?" + re.escape(first) + lenited + re.escape(rest) + r"(?![^\W\d_])")
+
+
 # The Finnic languages join case endings, possessive suffixes and clitics to a word (taloissammekin, "in our houses
 # too"), more forms than a list can hold. Their rules, per language (an Estonian entry fills in its own):
 # - questions: the header of a lesson's questions, which is layout, not a word;
@@ -1795,6 +1870,10 @@ def check(path, brief=False):
     # So does a Tagalog one (Puerto Princesa, Lapu-Lapu).
     if code == "tl":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
+    # An Irish name of several words (Baile Átha Cliath, Port Láirge) counts as one known word wherever it is written
+    # whole, mutated too (i mBaile Átha Cliath, ó Bhaile Átha Cliath).
+    if code == "ga":
+        long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
     # Hungarian names take their endings unmarked (Annának, Budapestre): each part of a name counts, with its endings.
     if code == "hu":
         names = names | {fold(code, part.lower()) for n in course.get("names", []) for part in n.split()}
@@ -1821,6 +1900,11 @@ def check(path, brief=False):
             if code in ("da", "nl", "no", "sv"):
                 # The genitive of a name of several words goes with it (Maja Holms, Jan de Vries').
                 pattern = re.compile(re.escape(name) + r"(?:['’]s|s|['’])?(?![^\W\d_])")
+                whole_names += len(pattern.findall(text))
+                text = pattern.sub(" ", text)
+                continue
+            if code == "ga":
+                pattern = irish_name_pattern(name)
                 whole_names += len(pattern.findall(text))
                 text = pattern.sub(" ", text)
                 continue
@@ -1888,6 +1972,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Quaestiones:", "", text)
         if code == "tl":
             text = re.sub(r"(?m)^Mga tanong:", "", text)
+        if code == "ga":
+            text = re.sub(r"(?m)^Ceisteanna:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg", "ro", "mk"):
