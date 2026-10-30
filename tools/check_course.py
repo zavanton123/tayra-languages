@@ -717,6 +717,71 @@ def icelandic_name_forms(names):
     return forms
 
 
+def latin_name_forms(names):
+    """
+    The case forms of Latin names, from their regular declension: Marcus, Marci, Marco, Marcum, Marce; Iulius, Iuli,
+    Iulii; Iulia, Iuliae, Iuliam; Thomas, Thomae, Thomam; Londinium, Londinii, Londinio; Neapolis, Neapolim, Neapoli;
+    Athenae, Athenas, Athenis; Delphi, Delphos, Delphis; Olisipo, Olisiponis, Carthago, Carthaginis; Alexander, Alexandri; Felix, Felicis; a name
+    ending in another consonant as the third declension has it (David, Davidis, Davidem).
+    """
+    forms = set()
+    for name in names:
+        for part in re.split(r"[\s-]+", name.lower()):
+            if not part:
+                continue
+            forms.add(part)
+            if part.endswith("us"):
+                stem = part[:-2]
+                forms.update(stem + e for e in ("i", "o", "um", "e"))
+                if stem.endswith("i"):
+                    forms.add(stem)
+            elif part.endswith("as"):
+                forms.update(part[:-2] + e for e in ("ae", "am", "a"))
+            elif part.endswith("ae"):
+                forms.update(part[:-2] + e for e in ("as", "is", "arum"))
+            elif part.endswith("a"):
+                forms.update(part[:-1] + e for e in ("ae", "am"))
+            elif part.endswith("um"):
+                forms.update(part[:-2] + e for e in ("i", "o"))
+            elif part.endswith(("is", "es")):
+                forms.update(part[:-2] + e for e in ("is", "i", "im", "em", "e"))
+            elif part.endswith("i"):
+                forms.update(part[:-1] + e for e in ("os", "is", "orum"))
+            elif part.endswith("o"):
+                forms.update(part + e for e in ("nis", "ni", "nem", "ne"))
+                forms.update(part[:-1] + e for e in ("inis", "ini", "inem", "ine"))
+            elif part.endswith("er"):
+                forms.update(part[:-2] + e for e in ("ri", "ro", "rum"))
+                forms.update(part + e for e in ("i", "o", "um"))
+            elif part.endswith("x"):
+                forms.update(part[:-1] + e for e in ("cis", "ci", "cem", "ce", "gis", "gi", "gem", "ge"))
+            elif not part.endswith(("e", "u")):
+                forms.update(part + e for e in ("is", "i", "em", "e"))
+    return forms
+
+
+# Latin joins the enclitics -que ("and"), -ne (a question) and -ve ("or") to a word: a word the list lacks counts as the
+# word before its enclitic (Marcusque, videsne, plusve), a name's too.
+LATIN_ENCLITICS = ("que", "ne", "ve")
+
+
+def latin_word(word, ranks, names, name_forms):
+    """A Latin word as the checker counts it: itself when listed, else a name's case form, else the word before its
+    enclitic."""
+    if word in ranks or word in names:
+        return word
+    if word in name_forms:
+        return "\u0000name"
+    for clitic in LATIN_ENCLITICS:
+        stem = word[:-len(clitic)]
+        if word.endswith(clitic) and len(stem) > 1:
+            if stem in ranks or stem in names:
+                return stem
+            if stem in name_forms:
+                return "\u0000name"
+    return word
+
+
 # Object pronouns a Spanish verb can carry at its end, longest first so "les" goes before "le".
 SPANISH_CLITICS = ("los", "las", "les", "nos", "os", "lo", "la", "le", "me", "te", "se")
 UNACCENTED = str.maketrans("áéíóú", "aeiou")
@@ -1683,6 +1748,9 @@ def check(path, brief=False):
     if code == "hu":
         names = names | {fold(code, part.lower()) for n in course.get("names", []) for part in n.split()}
         hu_verbs = hungarian_verbs(words)
+    # A Latin word the list lacks counts as a case form of a name (Marcum, Romae) or as the word before its enclitic.
+    if code == "la":
+        la_names = latin_name_forms(course.get("names", []))
     seen_new = set()
     ok = True
     report = []
@@ -1765,6 +1833,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^" + re.escape(FINNIC[code]["questions"]), "", text)
         if code == "is":
             text = re.sub(r"(?m)^Spurningar:", "", text)
+        if code == "la":
+            text = re.sub(r"(?m)^Quaestiones:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg", "ro", "mk"):
@@ -1778,6 +1848,11 @@ def check(path, brief=False):
             whole_names += numerals
         # So is a Polish one (XIX wiek, Jan III Sobieski); a capital I alone is the word i.
         if code == "pl":
+            numerals = sum(1 for t in toks if t != "I" and ROMAN.fullmatch(t))
+            toks = [t for t in toks if t == "I" or not ROMAN.fullmatch(t)]
+            whole_names += numerals
+        # And a Latin one (saeculo XXI); a capital I alone is eo's imperative.
+        if code == "la":
             numerals = sum(1 for t in toks if t != "I" and ROMAN.fullmatch(t))
             toks = [t for t in toks if t == "I" or not ROMAN.fullmatch(t)]
             whole_names += numerals
@@ -1802,6 +1877,8 @@ def check(path, brief=False):
                        for w in lowered]
         if code == "is":
             lowered = [w if w in ranks or w in names or w not in is_names else "\u0000name" for w in lowered]
+        if code == "la":
+            lowered = [latin_word(w, ranks, names, la_names) for w in lowered]
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0
