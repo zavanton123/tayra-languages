@@ -1,0 +1,203 @@
+{
+  "id": "et-mini-6500",
+  "rankUpTo": 6500,
+  "level": "C1",
+  "title": "Insenerikunst",
+  "description": "Ten standalone stories about engineers at work: bridges, prototypes, robots inspired by animals, medical devices, quiet buildings, old manors, food machines and children's robots.",
+  "topic": "Engineering",
+  "names": [
+    "Tiivo",
+    "Hiiesalu",
+    "Haapsalu",
+    "Tanar",
+    "Vilbaste",
+    "Eiri",
+    "Toots",
+    "Edmar",
+    "Põldvee",
+    "Ailen",
+    "Palm",
+    "Tartu",
+    "Otepää",
+    "Tallinn",
+    "Erlend",
+    "Kaljurand",
+    "Leemet",
+    "Treimann",
+    "Hiiumaa",
+    "Allmar",
+    "Lõoke",
+    "Henrietta",
+    "Muldma",
+    "Agnar",
+    "Pärna",
+    "Janari",
+    "Vellerand",
+    "Lahemaa",
+    "Veikko",
+    "Võrumaa",
+    "Asmo",
+    "Kivistu",
+    "Hindrik",
+    "Ketli",
+    "Raidma",
+    "Põlvamaa",
+    "Eesti",
+    "Haidi",
+    "Kärsna",
+    "Rakvere",
+    "Raimar",
+    "Ainar",
+    "Kuldmäe",
+    "Pärnu"
+  ],
+  "lessons": [
+    {
+      "title": "Sild raekoja juures",
+      "summary": "An engineer explains a footbridge repair to the residents at the town hall, and a building crew makes the bridge level again.",
+      "newWords": [
+        "brigaad",
+        "asukas",
+        "suhtlus",
+        "raekoda",
+        "nihutama",
+        "tagaosa",
+        "ajapikku",
+        "tasane"
+      ],
+      "text": "Tiivo Hiiesalu on insener, kes juhib Haapsalus ühe vana jalakäijate silla remonti. Sild ühendab vanalinna ja mere ääres asuvat parki ning seda kasutavad iga päev sajad inimesed. Sild ehitati 1930. aastatel. Ajapikku on selle puust osad niiskusest pehmeks läinud ja ka toed on veidi vajunud. Silla tee ei ole enam tasane: keskel on see madalam kui servades ja vihma ajal jääb sinna seisma suur loik.\n\nRemonti teeb väike brigaad, kuhu kuulub seitse ehitajat. Brigaadi juht on Tanar Vilbaste, kes on parandanud sildu üle kahekümne aasta. Tiivo teeb arvutused ja joonised, Tanar ja tema brigaad teevad töö ära. Nad on koos töötanud juba mitu aastat ja nende suhtlus on lihtne: igal hommikul räägivad nad telefonis, mis eile tehti ja mis täna ees ootab.\n\nKõige raskem polnud aga tehniline töö, vaid suhtlus silla lähedal elavate asukatega. Paljud asukad kartsid, et remont kestab kogu suve, et müra segab neid ja et poodi tuleb hakata käima pika ringiga. Seepärast kutsus Tiivo kõik huvilised raekotta. Haapsalu raekoda asub silla lähedal ja selle saalis on ruumi umbes sajale inimesele.\n\nRaekoja saal oli tol õhtul inimesi täis. Tiivo näitas pilte ja jooniseid ning rääkis aeglaselt ja selgelt. „Kõige halvemas seisus on silla tagaosa, mis jääb pargi poole,“ selgitas ta. „Silla tagaosa all on kaks tuge, mis on aastate jooksul paigast liikunud. Me nihutame need toed umbes pool meetrit kalda poole ja valame nende alla uue betooni. Puu laguneb niiskuses ajapikku, aga betoon peab vastu palju kauem. Pärast seda on silla tee jälle tasane ja vesi voolab sellelt ise ära.“\n\nÜks vanem asukas, Eiri Toots, tõstis käe. „Kas sild on kogu suve kinni?“ küsis ta.\n\n„Ei ole,“ vastas Tiivo. „Brigaad parandab kõigepealt silla esimese poole ja alles siis tagaosa. Pool silda on kogu aeg lahti. Ainult kahel päeval, kui me tugesid nihutame, tuleb minna üle teise silla.“\n\nEiri jäi vastusega rahule, aga palus, et asukaid hoitaks kursis. Tiivo nõustus. Nad leppisid kokku, et suhtlus jätkub kogu remondi aja: igal reedel paneb Tiivo raekoja uksele ja linna kodulehele lühikese ülevaate sellest, mida brigaad on teinud ja mida see järgmisel nädalal teeb. Kes tahab midagi küsida, võib helistada otse talle.\n\nRemont kestis kolm kuud. Tanari brigaad nihutas toed täpselt plaani järgi, valas uue betooni ja pani silla peale uued lauad. Septembri alguses kõndis Eiri Toots üle silla. Ta peatus keskel, vaatas jalge alla ja naeratas. Tee oli tasane nagu toa põrand. Hiljem saatis Eiri Tiivole kirja, kus ta tänas teda hea suhtluse eest. „Ma käin üle selle silla iga päev,“ kirjutas ta. „Nüüd ei pea ma enam üle loikude hüppama.“\n\nKüsimused:\nMiks ei olnud silla tee enam tasane?\nAjapikku olid silla puust osad pehmeks läinud ja toed vajunud, nii et keskel oli tee madalam kui servades.\nKes tegi silla remonti?\nRemonti tegi seitsmest ehitajast koosnev brigaad, mille juht on Tanar Vilbaste.\nMiks kutsus Tiivo asukad raekotta?\nAsukad kartsid, et remont kestab kogu suve ja segab neid, ning Tiivo tahtis neile kõike selgitada.\nMida tehti silla tagaosa all olevate tugedega?\nNeed toed nihutati umbes pool meetrit kalda poole ja nende alla valati uus betoon.\nKuidas jätkus suhtlus asukatega remondi ajal?\nIgal reedel pani Tiivo raekoja uksele ja linna kodulehele lühikese ülevaate tehtud tööst."
+    },
+    {
+      "title": "Elektriline kelk",
+      "summary": "Two engineering students build an electric sled for carrying shopping, learn from a failed first test and try the new version on a frozen lake.",
+      "newWords": [
+        "prototüüp",
+        "kelk",
+        "katsetus",
+        "komponent",
+        "elektroonika",
+        "äparduma",
+        "uisutama",
+        "kleepuma"
+      ],
+      "text": "Edmar Põldvee ja Ailen Palm õpivad Tartu ülikoolis tehnikat. Nende viimase aasta projekt on elektriline kelk, mis aitab vanematel inimestel talvel poest raskeid kotte koju vedada. Kelk peab olema kerge, aga tugev, ja sellel on väike mootor, mis lükkab kelku mäest üles. Kuna linnas on talvel nii lund kui ka jääd, peab kelk liikuma mõlemal.\n\nEsimene prototüüp valmis oktoobris ülikooli töökojas. Enamiku komponente tellisid nad internetist: mootori, aku, juhtmed ja väikese arvuti. Prototüüp oli lihtne, aga kõige keerulisem komponent oli elektroonika, mis juhib mootorit. Elektroonika peab aru saama, millal kelku on vaja lükata ja millal mitte. Kui inimene kelku tõmbab, aitab mootor kaasa. Kui inimene seisab, jääb ka kelk seisma.\n\nEsimene katsetus tehti detsembris, kui maha oli sadanud esimene lumi. See katsetus äpardus kohe alguses. Märg lumi kleepus kelgu põhja alla ja külmus seal kõvaks. Mõne minuti pärast oli kelgu all paks jää ja mootor ei suutnud kelku enam edasi lükata. Ka elektroonika ei töötanud hästi, sest külmas jäi aku kiiresti tühjaks.\n\nEdmar oli pettunud, aga Ailen ütles, et selleks katsetused ongi. „Hea, et katsetus äpardus nüüd, mitte siis, kui kelk on juba poes müügil,“ ütles ta. Nad otsustasid teha kelgu põhja teisest materjalist, mille külge lumi ei kleepu. Ailen leidis plasti, millest tehakse suuskade põhju. Selle külge ei kleepunud isegi märg lumi. Aku panid nad väikesesse sooja kasti ja elektroonika kaitsesid nad niiskuse eest.\n\nTeine prototüüp oli valmis jaanuaris ja selle katsetus toimus Otepääl. Seal on palju mägesid ja lund. Kelk töötas hästi: see liikus kergelt nii lumel kui ka jääl ja mootor aitas mäest üles. Kui nad jõudsid järve äärde, nägid nad, et järv oli kaetud paksu jääga ja selle kaldal olid lapsed uisutamas. Ailen oskab hästi uisutada. Ta pani uisud jalga ja hakkas aeglaselt piki kallast uisutama, kelk nööri otsas järel. Kelk tuli kergelt kaasa. Edmar filmis seda ja ütles, et parem reklaam on raske ette kujutada.\n\nKevadel näitasid Edmar ja Ailen oma kelku ülikoolis. Üks professor küsis, mitu katsetust nad olid teinud. „Kokku kaksteist,“ vastas Edmar. „Kolm neist äpardus täiesti, aga igast äpardunud katsetusest õppisime midagi. Esimene prototüüp oli raske ja aeglane, viimane on kerge ja vaikne.“ Professor naeratas ja ütles, et just nii insenerid töötavadki. Ta soovitas neil kelgu komponendid veel kord üle vaadata ja proovida, kas elektroonika peab vastu ka miinus kahekümne kraadi juures.\n\nKüsimused:\nMilleks on Edmar ja Aileni kelk mõeldud?\nKelk aitab vanematel inimestel talvel poest raskeid kotte koju vedada.\nMis oli kelgu kõige keerulisem komponent?\nKõige keerulisem komponent oli elektroonika, mis juhib mootorit.\nMiks esimene katsetus äpardus?\nMärg lumi kleepus kelgu põhja alla ja külmus kõvaks ning külmas jäi aku kiiresti tühjaks.\nKuidas nad probleemi lahendasid?\nNad tegid kelgu põhja plastist, mille külge lumi ei kleepu, ja panid aku sooja kasti.\nMida tegi Ailen Otepääl järve ääres?\nTa pani uisud jalga ja hakkas piki kallast uisutama, kelk nööri otsas järel."
+    },
+    {
+      "title": "Insener õpib loomadelt",
+      "summary": "In a column, a robot engineer explains what a panther, a reindeer and a seal have taught his team.",
+      "newWords": [
+        "inspireeriv",
+        "panter",
+        "põhjapõder",
+        "hüljes",
+        "mutatsioon",
+        "suuresti",
+        "elujõud"
+      ],
+      "text": "Olen insener ja töötan Tallinnas firmas, mis teeb roboteid. Viimastel aastatel olen märganud, et paljud meie parimad ideed ei ole tulnud raamatutest ega arvutist, vaid loodusest. Loodus on miljoneid aastaid proovinud ja parandanud ning meie saame selle tulemust vaadata ja sellest õppida. Minu jaoks on see väga inspireeriv. Tahan siin rääkida kolmest loomast, kellelt meie meeskond on õppinud.\n\nEsimene neist on panter. Panter jookseb kiiresti ja hüppab kaugele, aga liigub samal ajal peaaegu ilma helita. Kui me ehitasime neljal jalal käivat robotit, vaatasime tunde videoid sellest, kuidas panter oma jalgu paneb ja kuidas ta jooksu ajal oma selga kasutab. Pantri käpad on pehmed ja need teevad maandumise vaikseks. Meie robot sai samasugused pehmed jalad ja selle samm on nüüd palju vaiksem. Robot ei ole muidugi nii ilus kui panter, aga ta ei tee enam nii palju müra.\n\nTeine loom on põhjapõder. Põhjapõder elab kaugel põhjas, kus talvel on lumi sügav ja maa jäine. Tema sõrad on laiad: lumes ei vaju loom nende tõttu sügavale ja jääl ei libise põhjapõder kergesti. Suvel, kui maa on pehme ja märg, on põhjapõdra sõrad pehmemad, talvel aga kõvemad ja teravate servadega. Selline jalg, mis muutub koos aastaajaga, on inseneri jaoks inspireeriv näide. Me proovime praegu teha robotile jalga, mis põhjapõdra sõra moodi kohaneb erinevate pindadega.\n\nKolmas loom on hüljes. Hülge vurrud on nii tundlikud, et hüljes tunneb nendega vee liikumist, mille on jätnud kala, kes ujus mööda mitu sekundit tagasi. Nii leiab hüljes toitu ka pimedas ja sügavas vees, kus silmadest pole kasu. Mõned teadlased teevad hülge vurrude järgi andureid, mis aitavad vee all töötavatel robotitel vee liikumist tunda.\n\nInimesed küsivad mõnikord, miks loomad nii nutikad on. Vastus on suuresti evolutsioon. Iga looma keha on aja jooksul muutunud väikeste juhuslike muutuste ehk mutatsioonide kaudu. Enamik mutatsioone ei too kasu, aga mõni mutatsioon aitab loomal paremini elada ja jääb siis püsima. Nii on pantri käpp, põhjapõdra sõrg ja hülge vurrud suuresti miljonite aastate töö tulemus. Insener aga peab sama asja tegema mõne aastaga, ja selleks on loomade vaatamine suureks abiks.\n\nMind ei inspireeri aga ainult loomade kehad, vaid ka nende elujõud. Põhjapõder elab üle talve, mil temperatuur langeb alla miinus 40 kraadi. Hüljes ujub tunde jääkülmas meres. Kui ma mõtlen, kui palju elujõudu on looduses, tunnen, et meie masinad on veel väga õrnad. Meie robotid kardavad vett, külma ja tolmu. Võib-olla on see järgmine asi, mida peaksime loomadelt õppima: elujõud, mis ei kao ka siis, kui elu on raske.\n\nErlend Kaljurand\n\nKüsimused:\nMiks on loodus Erlendi jaoks inspireeriv?\nLoodus on miljoneid aastaid proovinud ja parandanud ning insenerid saavad selle tulemust vaadata ja sellest õppida.\nMida õppis Erlendi meeskond pantri käest?\nPantri pehmete käppade järgi said robotid pehmed jalad ja nende samm on nüüd palju vaiksem.\nMiks on põhjapõdra sõrad huvitavad?\nNeed on laiad ja muutuvad koos aastaajaga: suvel on need pehmemad, talvel kõvemad.\nMida tunneb hüljes oma vurrudega?\nHüljes tunneb vurrudega vee liikumist, mille on jätnud mööda ujunud kala.\nMiks on loomade kehad nii nutikad?\nNeed on suuresti evolutsiooni tulemus: mõni mutatsioon aitab loomal paremini elada ja jääb püsima."
+    },
+    {
+      "title": "Robot ja vana laev",
+      "summary": "An engineer photographs an old shipwreck with an underwater robot, helped by a careful old sailor and a biologist who studies seals.",
+      "newWords": [
+        "vrakk",
+        "maismaa",
+        "madrus",
+        "valvsus",
+        "süvenema",
+        "tiirutama",
+        "väljaheide",
+        "anum"
+      ],
+      "text": "Leemet Treimann on insener, kes ehitab veealuseid roboteid. Tema robot on umbes kohvri suurune: sellel on neli väikest mootorit, tuled ja kaamera. Robotit juhitakse paadist pika kaabli abil. Sel suvel sai Leemet ülesande pildistada üht vana vrakki, mis asub Hiiumaa lähedal umbes 30 meetri sügavusel.\n\nVrakk on puust kaubalaev, mis jäi 1880. aastal udus madalikule. Laeva meeskond jõudis paatidega rahulikult maismaale, aga laev jäi merre ja vajus hiljem põhja. Muuseum tahab vrakist teha täpse ruumilise pildi, et inimesed saaksid seda näha ka maismaal, ilma et peaks ise vee alla minema.\n\nPaati juhtis vana madrus Allmar Lõoke. Ta on olnud madrus üle neljakümne aasta, alguses suurtel kaubalaevadel, hiljem kalapaatidel. Allmar tunneb seda merd hästi. „Siin on tugevad hoovused,“ ütles ta esimesel hommikul. „Kui ilm muutub, tuleb kiiresti maismaale tagasi minna. Merel on kõige tähtsam valvsus. Iga madrus teab seda.“\n\nLeemet laskis roboti vette ja vaatas paadis ekraani. Peagi ilmus pimedusest vrakk: pikk tume kere, mille peal kasvasid vetikad ja karbid. Leemet süvenes töösse nii, et ei kuulnud enam midagi. Robot tiirutas aeglaselt ümber vraki, tegi tuhandeid pilte ja liikus iga ringiga natuke madalamale. Paadi kohal tiirutasid kajakad. Allmar vaatas samal ajal valvsalt taevast ja vett. Tema valvsus tasus end ära: kui pärastlõunal hakkas tuul tugevnema, märkas ta seda esimesena ja nad jõudsid õigel ajal sadamasse.\n\nTeisel päeval oli paadis ka bioloog Henrietta Muldma. Vraki lähedal on väike saar, kus lebavad kividel hülged. Henrietta uurib, mida hülged söövad. Selleks ei pea hülgeid püüdma: piisab, kui koguda nende väljaheiteid. Väljaheites on kalade luud ja soomused, mille järgi saab öelda, mis kala hüljes sõi. Henrietta pani iga väljaheite eraldi väikesesse anumasse ja kirjutas kaane peale kuupäeva ja koha. Õhtuks oli tal kakskümmend anumat. Anumad pani ta jahedasse kasti, et need jõuaksid laborisse värskena.\n\nLeemet oli algul veidi üllatunud, aga mida rohkem Henrietta rääkis, seda enam tema huvi süvenes. Ta küsis, kas tema robot võiks aidata ka hülgeid uurida. Henrietta arvas, et robot võiks vee all filmida, kuidas hülged kala püüavad. Nad leppisid kokku, et proovivad seda järgmisel suvel.\n\nNädala lõpuks oli Leemetil vrakist üle kümne tuhande pildi. Arvuti tegi neist ruumilise mudeli. Muuseumis saavad külastajad nüüd ekraanil ümber vraki tiirutada, nagu oleksid nad ise robot. Allmar käis muuseumis ka ise vaatamas. Ta ütles, et on terve elu olnud madrus, aga vrakki nii lähedalt pole ta varem näinud.\n\nKüsimused:\nMida pidi Leemet sel suvel tegema?\nTa pidi pildistama vana vrakki, mis asub Hiiumaa lähedal 30 meetri sügavusel.\nMis juhtus laevaga 1880. aastal?\nLaev jäi udus madalikule, meeskond jõudis paatidega maismaale ja laev vajus hiljem põhja.\nMiks on Allmari sõnul merel kõige tähtsam valvsus?\nSeal on tugevad hoovused ja ilm võib kiiresti muutuda.\nKuidas tegi robot vrakist pilte?\nRobot tiirutas aeglaselt ümber vraki ja liikus iga ringiga natuke madalamale.\nMiks pani Henrietta hüljeste väljaheiteid anumasse?\nTa viis need laborisse, sest nendes on kalade luud ja soomused, mille järgi saab öelda, mida hülged sõid."
+    },
+    {
+      "title": "Haigla insener",
+      "summary": "A hospital engineer tests a forehead thermometer, a smart inhaler for children with asthma and printed hand supports for rehabilitation.",
+      "newWords": [
+        "laup",
+        "silmapilkne",
+        "valutu",
+        "astma",
+        "köha",
+        "taastusravi",
+        "printima",
+        "jada"
+      ],
+      "text": "Agnar Pärna on insener, kes töötab Tartu haiglas meditsiinilise tehnika osakonnas. Tema töö on teha arstide ja patsientide elu lihtsamaks. Sel nädalal tegeles ta kolme seadmega.\n\nEsimene oli uus seade, mis mõõdab laste palavikku. Väikesed lapsed ei taha, et neile pannakse midagi suhu või käe alla. Uus seade mõõdab temperatuuri laubalt. Õde hoiab seadet paar sentimeetrit lapse laubast eemal ja vajutab nuppu. Tulemus on silmapilkne ja kõik on täiesti valutu: laps ei pruugi isegi märgata, et tal palavikku mõõdeti. Agnar pidi kontrollima, kas seade näitab õiget temperatuuri ka siis, kui lapse laup on higine või kui laps on just külmast tulnud. Ta mõõtis sadu kordi ja võrdles tulemusi vana seadmega. Silmapilkne tulemus oli peaaegu sama täpne kui vana seadme oma, mis vajas mitu minutit.\n\nTeine seade oli mõeldud astmaga lastele. Kui astma annab tunda, muutub hingamine raskeks, laps hakkab köhima ega saa hästi hingata. Siis aitab ravim, mida hingatakse sisse väikesest pudelist. Paljud lapsed unustavad aga ravimit võtta või ei tea, kas nad on seda juba võtnud. Agnar ehitas pudeli külge väikese anduri, mis loeb, mitu korda on ravimit võetud, ja saadab andmed vanemate telefoni. Kui köha muutub öösiti sagedasemaks ja ravimit võetakse tihti, näeb arst andmetest, et astma vajab teistsugust ravi. Mõnel lapsel on köha selle abil juba paari nädalaga vähenenud.\n\nKolmas töö oli seotud taastusraviga. Patsiendid, kelle käsi on pärast operatsiooni nõrk, harjutavad taastusravis iga päev. Neile on vaja kerget tuge, mis hoiab kätt õiges asendis. Varem tehti selliseid tugesid käsitsi, nüüd prindib Agnar need plastikust. Kõigepealt pildistab ta patsiendi kätt, siis joonistab arvutis toe ja lõpuks prindib selle. Prinditud tugi sobib täpselt ja on kerge. Ühe toe printimiseks kulub umbes neli tundi, nii et Agnar prindib neid tavaliselt öösiti.\n\nTaastusravi terapeut palus Agnaril teha veel üks väike seade: tulede jada, mis on kinnitatud laua külge. Tuled süttivad kindlas järjekorras ja patsient peab sõrmega tulesid samas järjekorras puudutama. Jada muutub iga päevaga pikemaks ja keerulisemaks. Kui patsient puudutab tulesid õigesti, mängib seade lühikese loo. Nii on harjutamine huvitavam ja terapeut näeb, kuidas patsiendi käsi paraneb.\n\nReede õhtul vaatas Agnar oma märkmeid. Palavikku mõõtev seade töötas, ravimipudeli andur saatis andmeid ja masin prindis järgmist tuge. Kõik seadmed olid lihtsad, aga igaüks neist tegi kellegi päeva natuke kergemaks. Agnar mõtles, et tema töö parim osa on see, et ta näeb, kuidas tehnika aitab päris inimesi.\n\nKüsimused:\nKuidas uus seade palavikku mõõdab?\nSeade mõõdab temperatuuri laubalt ning tulemus on silmapilkne ja valutu.\nMis juhtub, kui astma annab tunda?\nHingamine muutub raskeks, laps hakkab köhima ega saa hästi hingata.\nMilleks on ravimipudeli küljes andur?\nAndur loeb, mitu korda on ravimit võetud, ja saadab andmed vanemate telefoni.\nKuidas teeb Agnar taastusravi patsientidele tugesid?\nTa pildistab patsiendi kätt, joonistab arvutis toe ja prindib selle plastikust.\nMilleks on tulede jada?\nPatsient puudutab tulesid samas järjekorras ja nii on käe harjutamine huvitavam."
+    },
+    {
+      "title": "Vaikne öömaja",
+      "summary": "A sound engineer helps a family build a hikers' lodge where nobody hears the neighbour snore.",
+      "newWords": [
+        "öömaja",
+        "norskama",
+        "seespool",
+        "üleliigne",
+        "helin",
+        "kõlar",
+        "sõge",
+        "vaibuma"
+      ],
+      "text": "Janari Vellerand on insener, kes tegeleb sellega, kuidas heli hoonetes liigub. Tavaliselt teeb ta tööd kontserdisaalide ja koolide jaoks, aga sel aastal palus üks pere tal aidata ehitada väike öömaja Lahemaa metsade vahele. Öömaja on mõeldud matkajatele, kes on terve päeva metsas kõndinud ja tahavad öösel hästi magada.\n\nPere vana öömaja oli väike puumaja õhukeste seintega. Kui keegi kõrvaltoas norskas, kuulsid seda kõik. Külalised kirjutasid internetti, et koht on ilus, aga magada on raske, sest keegi norskab alati. Pere isa Veikko ütles Janarile: „Me ei saa keelata inimestel norskata, aga me tahame, et naaber seda ei kuuleks.“\n\nJanari alustas seintest. Ta soovitas teha seinad kahekordsed ja panna nende vahele paksu villa. Seespool, toa poolel, kaeti seinad pehme materjaliga, mis heli neelab. Ka uksed tehti rasked ja tihedad. „Heli on nagu vesi,“ selgitas Janari Veikkole. „See leiab iga prao. Kui seinas on kasvõi väike auk, tuleb heli sealt läbi.“ Seepärast kontrollis ta iga seina nii väljast kui ka seespool.\n\nSiis vaatasid nad, millised helid on öömaja jaoks üleliigsed. Vanas majas oli igas toas kell, mis helises, kui keegi välisukse taga nuppu vajutas. See helin äratas öösel kõiki. Uues majas kõlab helin ainult köögis ja peremehe toas. Ka vana ventilaator tegi palju üleliigset müra. Janari valis uue ja vaikse ventilaatori ning pani selle maja teise otsa, kus keegi ei maga.\n\nKoridori panid nad väikese kõlari, millest hommikul kõlab vaikne muusika, et matkajad ärkaksid õigel ajal. Kõlar on suunatud nii, et heli ei lähe tubadesse. Janari katsetas kõlarit mitu korda: ta seisis toas, pani ukse kinni ja kuulas, kas muusikat on kuulda. Ühel õhtul jättis ta prillid kööki ja ütles Veikkole naerdes: „Ilma prillideta olen ma täiesti sõge, aga kõrvad on mul head. Kõlarit ma toas ei kuule.“\n\nEsimesel ööl, kui öömaja oli valmis, jäi Janari ise sinna magama. Kõrvaltoas magas Veikko, kes ütles, et ta norskab väga valjusti. Õhtul kuulis Janari veel, kuidas maja elas: keegi käis koridoris ja köögis jooksis vesi. Siis hakkasid hääled vaibuma. Ka tuul, mis õhtul oli metsas puhunud, oli keskööks täiesti vaibunud. Janari kuulis ainult oma hingamist. Kui ta öösel vett jooma läks, oli ta pimedas ilma prillideta jälle sõge ja pidi seina mööda edasi minema.\n\nHommikul kõlas kõlarist vaikne muusika. Veikko küsis kohe: „Kas sa kuulsid öösel, kuidas ma norskasin?“\n\n„Mitte midagi,“ vastas Janari. Mõne nädala pärast tulid esimesed matkajad. Nad kirjutasid internetti, et öömaja on kõige vaiksem koht, kus nad on kunagi maganud.\n\nKüsimused:\nMiks oli pere vanas majas raske magada?\nSeinad olid õhukesed ja kui keegi norskas, kuulsid seda kõik.\nMida tegi Janari seintega?\nSeinad tehti kahekordsed, nende vahele pandi paks vill ja seespool kaeti need pehme materjaliga.\nMilliseid helisid pidas Janari üleliigseks?\nÜleliigsed olid kella helin igas toas ja vana ventilaatori müra.\nKuhu pandi kõlar ja milleks?\nKõlar pandi koridori, et hommikul vaikse muusikaga matkajad äratada.\nMida kuulis Janari esimesel ööl, kui hääled ja tuul olid vaibunud?\nTa kuulis ainult oma hingamist ega kuulnud, kuidas Veikko norskas."
+    },
+    {
+      "title": "Vana häärber saab uue südame",
+      "summary": "An engineer plans the heating and water of an old manor turned guesthouse, guided by the old man who has looked after it for fifty years.",
+      "newWords": [
+        "häärber",
+        "taat",
+        "pang",
+        "omamine",
+        "asenduma",
+        "reserv",
+        "viibimine",
+        "väärikalt"
+      ],
+      "text": "Võrumaal, väikese järve kaldal, seisab vana häärber, mis ehitati 1890. aastatel. Häärberi uued omanikud tahavad teha sellest külalistemaja, kus inimesed saaksid veeta nädalavahetuse või puhkuse. Maja on ilus, aga vana ja külm. Omanikud kutsusid appi insener Asmo Kivistu, kes on varem korda teinud mitu vana maja.\n\nEsimesel päeval näitas häärberit Asmole taat nimega Hindrik. Ta elab häärberi kõrval väikeses majas ja on hoolitsenud häärberi eest üle viiekümne aasta. Taat on 82-aastane, aga liigub kiiresti ja teab maja kohta kõike. „Kui ma noor olin, oli siin kool,“ rääkis taat. „Talvel köeti kõiki ahjusid ja vett toodi kaevust pangega. Mina kandsin igal hommikul kaks pange vett kööki.“ Taat näitas Asmole keldris vana puust pange, mis oli seal seisnud aastakümneid. Pang oli kuiv ja hall, aga ikka terve.\n\nAsmo uuris maja kaks nädalat. Ta mõõtis seinte niiskust, vaatas üle katuse ja korstnad ning arvutas, kui palju soojust maja vajab. Siis rääkis ta omanikega ausalt. „Vana maja omamine on kallis,“ ütles ta. „Sellise häärberi omamine tähendab, et iga aasta tuleb midagi parandada. Aga kui remont teha targalt, võib maja seista veel sada aastat.“\n\nAsmo plaan oli selline: vanad ahjud jäävad alles, sest need on ilusad ja nende juures on hea istuda. Põhiline küte asendub aga pumbaga, mis võtab soojust järve kaldal olevast maast. Vanad aknad, mille vahelt tuul läbi puhub, asenduvad uutega, mis näevad välja täpselt nagu vanad. Ka katuse vanad lauad asenduvad uutega, aga katuse kuju jääb samaks. Kõik, mis asendub, tehakse nii, et maja välimus ei muutu.\n\nHäärberis hakkab käima palju külalisi. Külaliste viibimine majas peab olema mugav: kõik tahavad hommikul korraga duši all käia ja õhtul telefone laadida. Seepärast jättis Asmo süsteemi reservi. Elektrit ja sooja vett on rohkem, kui tavaliselt vaja on. Keldrisse pani ta suure paagi, mis on sooja vee reserv. Kui maja on külalisi täis, kasutatakse reservi ja keegi ei pea külma veega pesema. Asmo arvutas ka viibimise kulud: ühe külalise viibimine nädalavahetusel maksab omanikele elektri ja vee eest umbes kümme eurot.\n\nRemont kestis aasta. Kui esimesed külalised saabusid, seisis taat Hindrik pidulikult riides trepil. Ta juhatas külalised sisse ja rääkis neile, milline oli maja vanasti. Keldrist tõi ta välja vana pange ja pani selle köögi nurka, et külalised näeksid, kuidas vett kunagi kanti. Asmo vaatas maja ja mõtles, et häärber vananeb väärikalt: sellel on uus süda, aga vana nägu. Ka taat ise kandis oma vanust väärikalt ja rahulikult, nagu maja, mille eest ta oli nii kaua hoolt kandnud.\n\nKüsimused:\nMida tahavad häärberi uued omanikud teha?\nNad tahavad teha häärberist külalistemaja.\nKes on taat Hindrik?\nTaat Hindrik on 82-aastane mees, kes on hoolitsenud häärberi eest üle viiekümne aasta.\nMida tegi taat noorena igal hommikul?\nTa kandis kaevust kaks pange vett kööki.\nMis asendub häärberis uuega?\nPõhiline küte asendub pumbaga, vanad aknad ja katuse lauad asenduvad uutega.\nMiks jättis Asmo süsteemi reservi?\nKui maja on külalisi täis, on elektrit ja sooja vett rohkem, kui tavaliselt vaja on."
+    },
+    {
+      "title": "Kapsas, siirup ja päris kõrs",
+      "summary": "A food engineer at a small company builds a cabbage-cutting machine and replaces plastic drinking straws with real grain stalks.",
+      "newWords": [
+        "vürtsikas",
+        "kapsas",
+        "tublisti",
+        "see-eest",
+        "siirup",
+        "kõrs",
+        "kaotsi"
+      ],
+      "text": "Ketli Raidma on toiduinsener ja töötab Põlvamaal väikeses firmas, mis teeb mahla, marjasiirupit ja hapukapsast. Firmas töötab ainult kaheksa inimest, aga nende tooteid müüakse üle Eesti. Kõige populaarsem toode on vürtsikas kapsas: valge kapsas, mis on hapuks lastud koos porgandi, küüslaugu ja terava pipraga. Esimestel aastatel tehti vürtsikat kapsast käsitsi, aga kui tellimuste arv tublisti kasvas, pidi Ketli välja mõtlema, kuidas tööd kiiremini teha.\n\nTa joonistas masina, mis lõikab kapsa ühesuguse paksusega ribadeks. Kapsas peab olema täpselt õige paksusega: liiga õhuke kapsas läheb pehmeks, liiga paks ei muutu ühtlaselt hapuks. Ketli tellis masina osad ja pani need töökojas kokku. Masinaga kasvas tootmine tublisti, umbes kolm korda. See-eest pidi Ketli kulutama terve kuu, et masin töötaks täpselt nii, nagu vaja. Ka vürtsikas kapsas maitseb nüüd iga kord ühtemoodi.\n\nTeine Ketli projekt oli seotud siirupiga. Firma teeb mustsõstra- ja astelpajusiirupit, mida segatakse veega ja juuakse kõrrega. Laatadel müüdi siirupit klaasides ja igasse klaasi pandi plastikust kõrs. Kliendid hakkasid küsima, miks siirupiga koos antakse plastikut. Ketli otsustas plastikust loobuda. Ta proovis paberist kõrsi, aga need läksid kiiresti märjaks ja pehmeks. Siis tuli tal idee kasutada päris kõrsi. Vilja kõrs on seest õõnes ja sobib joomiseks väga hästi.\n\nKetli leidis Põlvamaalt talu, kus kasvatatakse vilja. Suvel lõigatakse kõrred põllul käsitsi, puhastatakse, lõigatakse ühepikkuseks ja kuumutatakse, et need oleksid puhtad. Päris kõrred maksavad rohkem kui plastikust kõrred. See-eest on need looduslikud ja neid võib pärast kasutamist visata komposti. Ka kliendid olid nõus siirupi eest natuke rohkem maksma.\n\nAugustis saatis talu firmale suure kasti kõrsi, aga kast läks postis kaotsi. Ketli helistas postkontorisse ja kirjutas mitu kirja. Ta oli mures, sest suur laat oli tulemas ja ilma kõrteta polnud mõtet siirupit müüa. Kolme päeva pärast leiti kast teisest linnast. See oli läinud kaotsi, sest aadressil oli üks number vale. Pärast seda kontrollib Ketli aadressi alati kaks korda, et midagi enam kaotsi ei läheks.\n\nLaadal müüs firma siirupit klaasides, igas klaasis päris kõrs. Inimesed imestasid, et kõrs on päris taim. Üks laps küsis, kas kõrt võib ka süüa. Ketli naeris ja ütles, et parem mitte, aga vürtsikat kapsast võib süüa nii palju, kui tahad. Õhtuks oli müüdud tublisti rohkem siirupit kui eelmisel aastal.\n\nKüsimused:\nMis on firma kõige populaarsem toode?\nKõige populaarsem toode on vürtsikas kapsas.\nMiks pidi Ketli masina välja mõtlema?\nTellimuste arv kasvas tublisti ja käsitsi ei jõutud enam piisavalt teha.\nMiks ei sobinud paberist kõrred?\nPaberist kõrred läksid kiiresti märjaks ja pehmeks.\nMis on päris kõrte juures halba ja mis head?\nNeed maksavad rohkem kui plastikust kõrred, see-eest on need looduslikud.\nMiks läks kast kõrtega kaotsi?\nAadressil oli üks number vale."
+    },
+    {
+      "title": "Mehike, kes toob raamatu",
+      "summary": "In a children's technology club, a team of six small children builds a little robot that fetches a book, and their note-keeper writes it all down.",
+      "newWords": [
+        "põnn",
+        "kuuene",
+        "kirjutaja",
+        "sissekanne",
+        "sündimine",
+        "õiendama",
+        "mehike"
+      ],
+      "text": "Haidi Kärsna on elektriinsener, aga kaks õhtut nädalas juhib ta Rakveres laste tehnikaringi. Ringis käivad 6–9-aastased põnnid, kes tahavad teada, kuidas masinad töötavad. Haidi meelest on põnnid kõige paremad õpilased: nad ei karda küsida ja proovivad kõike kohe ise. Kõige noorem ringi liige hakkas ringis käima kuueselt ja käib nüüd seal juba teist aastat.\n\nSel sügisel oli ringi ülesanne ehitada robot, mis toob kooli raamatukogust raamatu. Ringis on kaksteist last ja Haidi jagas nad kaheks rühmaks. Kumbki kuuene rühm valis endale nime ja kirjutaja. Kirjutaja ülesanne oli pidada rühma päevikut. Pärast iga tundi tegi kirjutaja päevikusse sissekande: mida tehti, mis õnnestus ja mis mitte. Esimese rühma kirjutaja oli kaheksa-aastane Raimar. Tema esimene sissekanne oli lühike: „Täna mõtlesime. Robotit veel ei ole.“\n\nIdee sündimine võttis aega. Põnnid joonistasid paberile igasuguseid roboteid: ühel olid tiivad, teisel kuus jalga, kolmandal pikk käsi nagu kraanal. Haidi ei öelnud kunagi, et mõni idee on halb. Ta küsis ainult: „Kuidas see robot raamatu kätte saab?“ Nii jäid ajapikku alles need ideed, mis võisid töötada. Haidi ütles lastele, et idee sündimine on tihti kõige raskem osa ja et ka täiskasvanud insenerid joonistavad alguses palju pilte, mida keegi kunagi ei ehita.\n\nLõpuks otsustas Raimari rühm ehitada väikese mehikese. Mehike oli umbes 30 sentimeetrit pikk, tal olid jalgade asemel rattad ja kaks kätt, mis said raamatut kinni hoida. Põnnid värvisid mehikese punaseks ja panid talle pähe kollase mütsi. Teine kuuene rühm ehitas roboti, mis nägi välja nagu väike auto.\n\nEnne iga tundi oli Haidil palju õiendada: akud pidid olema laetud, juhtmed lahti harutatud ja tööriistad laual. Ta õiendas need asjad alati enne, kui lapsed tulid, et tunni ajal saaks kohe tööle hakata. Lapsed tulid ringi pärast kooli ja olid näljased, nii et Haidi tõi neile alati õunu.\n\nRaimari sissekanded läksid iga nädalaga pikemaks. Ühel päeval kirjutas ta: „Mehike sõitis ukseni ja kukkus ümber. Ta on liiga pikk. Teeme jalad laiemaks.“ Järgmise nädala sissekanne oli juba rõõmsam: „Mehike ei kuku enam. Ta sõidab nagu päris.“\n\nDetsembris toimus suur katsetus. Mehike sõitis mööda koridori raamatukokku, kus raamatukoguhoidja pani tema kätte õhukese raamatu. Siis sõitis mehike tagasi klassi. Põnnid hüppasid ja plaksutasid. Raimar kirjutas päevikusse viimase sissekande: „Robot töötab. Idee sündimisest kuni valmis robotini kulus kolm kuud.“ Haidi luges seda ja mõtles, et temast võib kunagi saada hea insener või hea kirjutaja. Võib-olla mõlemad.\n\nKüsimused:\nKes käivad Haidi tehnikaringis?\nRingis käivad 6–9-aastased põnnid, kes tahavad teada, kuidas masinad töötavad.\nMida tegi rühma kirjutaja?\nKirjutaja tegi pärast iga tundi päevikusse sissekande sellest, mida tehti.\nKuidas aitas Haidi ideede sündimisele kaasa?\nTa ei öelnud kunagi, et mõni idee on halb, vaid küsis, kuidas robot raamatu kätte saab.\nMilline oli Raimari rühma mehike?\nMehike oli 30 sentimeetrit pikk ja punane, kollase mütsiga, rataste ja kahe käega.\nMida pidi Haidi enne iga tundi õiendama?\nAkud pidid olema laetud, juhtmed lahti harutatud ja tööriistad laual."
+    },
+    {
+      "title": "Insener, kes õppis kuulama",
+      "summary": "An interview with a retired power engineer about responsibility, a hard year that taught him to rest, and his daughter who became an actress.",
+      "newWords": [
+        "lasuma",
+        "käskija",
+        "pärastpoole",
+        "ringiratas",
+        "närvivapustus",
+        "väärtustama",
+        "näitlejanna",
+        "inimolend"
+      ],
+      "text": "Ainar Kuldmäe töötas 45 aastat elektriinsenerina ja ehitas elektrijaamu ning elektriliine üle kogu Eesti. Nüüd on ta 78-aastane ja elab Pärnus mere lähedal. Tema tütar on tuntud näitlejanna. Rääkisime Ainariga tema elust ja tööst.\n\nMis on teie arvates inseneri töös kõige raskem?\n\nVastutus. Kui ehitad elektrijaama, lasub sinu õlgadel tuhandete inimeste valgus ja soojus. Talvel, kui väljas on miinus kakskümmend, ei tohi elekter ära kaduda. Vastutus lasub insenril ka pärast seda, kui töö on valmis, sest kui midagi läheb katki, küsitakse ikka temalt. Noorena ma sellele palju ei mõelnud. Pärastpoole sain aru, kui suur see vastutus on.\n\nKas te olite hea juht?\n\nAlguses mitte. Ma olin käskija. Ütlesin, mida teha, ja ootasin, et kõik teevad nii, nagu ma ütlesin. Käskija ei kuula, ta ainult räägib. Pärastpoole õppisin, et kõige paremad ideed tulevad tihti noorelt töömehelt, kes on terve päeva masina juures seisnud ja teab sellest rohkem kui mina oma kontoris. Kui ma hakkasin inimesi kuulama, läks töö palju paremini.\n\nKas teil oli ka väga raskeid aegu?\n\nOli. 1980. aastate lõpus ehitasime suurt elektrijaama ja tähtaeg oli väga lähedal. Töötasin päeval ja öösel. Mõtted käisid ringiratast: ma mõtlesin kogu aeg samadele probleemidele ega leidnud ühelegi lahendust. Olin närvivapustuse äärel. Mu naine nägi seda ja saatis mu nädalaks maale oma õe juurde. Seal ma magasin, käisin metsas ja ei mõelnud tööle. Kui ma tagasi tulin, ei käinud mõtted enam ringiratast ja ma leidsin lahenduse kahe päevaga. Sellest ajast tean, et väsinud insener teeb vigu ja närvivapustus ei aita kedagi.\n\nMida te noortes insenerides väärtustate?\n\nMa väärtustan, et nad julgevad küsida. Meie ajal arvati, et küsija on nõrk. Tänapäeva noored küsivad julgelt ja see on hea. Ma väärtustan ka seda, et nad mõtlevad loodusele ja sellele, mis saab meie maast saja aasta pärast.\n\nTeie tütar on näitlejanna. Kas ta ei tahtnud inseneriks saada?\n\nLapsena joonistas ta maju ja sildu ja ma arvasin, et temast saab arhitekt. Aga 14-aastaselt nägi ta teatris etendust ja otsustas saada näitlejannaks. Alguses olin veidi pettunud. Pärastpoole sain aru, et näitlejanna ja insener ei ole nii erinevad, kui arvatakse. Mõlemad peavad oma tööd täpselt tegema ja mõlema töö on mõeldud inimestele.\n\nMis on insener teie jaoks?\n\nInsener on inimolend nagu kõik teised: ta eksib, väsib ja õpib. Masinad ei ole tähtsad iseenesest. Tähtis on inimolend, kes neid kasutab. Kui me ehitasime elektriliini kaugele külla, ei mõelnud ma juhtmetele, vaid sellele, et seal saab keegi vanaema õhtul lambi põlema panna ja raamatut lugeda.\n\nKüsimused:\nMis lasub Ainari sõnul inseneri õlgadel?\nInseneri õlgadel lasub tuhandete inimeste valgus ja soojus.\nMilline juht oli Ainar alguses?\nAlguses oli ta käskija, kes ütles, mida teha, ega kuulanud teisi.\nMis juhtus 1980. aastate lõpus?\nAinar töötas päeval ja öösel, tema mõtted käisid ringiratast ja ta oli närvivapustuse äärel, kuni naine saatis ta nädalaks maale.\nMida väärtustab Ainar noortes insenerides?\nTa väärtustab, et nad julgevad küsida ja mõtlevad loodusele.\nMiks ei ole näitlejanna ja insener Ainari arvates väga erinevad?\nMõlemad peavad oma tööd täpselt tegema ja mõlema töö on mõeldud inimestele."
+    }
+  ]
+}
