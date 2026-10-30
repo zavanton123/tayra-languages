@@ -1,0 +1,183 @@
+{
+  "id": "fi-mini-2800",
+  "rankUpTo": 2800,
+  "level": "B2",
+  "title": "Musiikki",
+  "description": "Ten stories about music in everyday Finnish life: choirs and bands, a music shop, a youth festival, the physics of sound, songs of a mining village, jazz and a first gig abroad.",
+  "topic": "Music",
+  "names": [
+    "Pauliina",
+    "Einari",
+    "Ursula",
+    "Jyväskylä",
+    "Paulus",
+    "Frans",
+    "Tampere",
+    "Wilma",
+    "Kokkola",
+    "Gabriel",
+    "Dora",
+    "Lappeenranta",
+    "Cecilia",
+    "Svante",
+    "Nurmes",
+    "Helsinki",
+    "Augusta",
+    "Greta",
+    "Pyhäsalmi",
+    "Oulu",
+    "Klaus",
+    "Fredrika",
+    "Martina",
+    "Rosaliina",
+    "Tallinna",
+    "Lorenz",
+    "Manta",
+    "Turku",
+    "Bror",
+    "Sven",
+    "Kemijärvi",
+    "Rovaniemi",
+    "Nurmekseen"
+  ],
+  "lessons": [
+    {
+      "title": "Kipeä kurkku",
+      "summary": "Pauliina wakes up with a sore throat three days before her choir solo; the pharmacist tells her to rest her voice, and she sings well on Saturday.",
+      "newWords": [
+        "kipeä",
+        "apteekki",
+        "levätä",
+        "terveellinen",
+        "väkisin",
+        "ensisijaisesti"
+      ],
+      "text": "Pauliina laulaa kuorossa Jyväskylässä. Laulajat harjoittelevat kahdesti viikossa, ja lauantaina heillä on tärkeä konsertti. Konsertissa Pauliina laulaa yhden kappaleen yksin, ja hän on harjoitellut sitä koko syksyn.\n\nKeskiviikkona aamulla Pauliina herää, ja hänen kurkkunsa on kipeä. Kun hän yrittää puhua, ääni on matala ja heikko. ”Ei nyt”, hän ajattelee. ”Konserttiin on vain kolme päivää.”\n\nEnnen töitä Pauliina menee apteekkiin. Apteekissa on aamulla hiljaista, ja nuori myyjä kysyy, miten hän voi auttaa.\n\n”Kurkkuni on kipeä, ja minun pitää laulaa lauantaina konsertissa”, Pauliina sanoo.\n\nMyyjä kysyy, onko hän muuten sairas. Pauliina sanoo, ettei ole. ”Tärkeintä on, että ääni saa levätä”, myyjä sanoo. ”Älä laula väkisin, vaikka haluaisit harjoitella. Jos laulat väkisin kipeällä kurkulla, ääni voi kadota kokonaan moneksi päiväksi.”\n\nHän myy Pauliinalle apteekin teetä ja neuvoo juomaan paljon lämmintä. ”Lääkkeet auttavat kuitenkin vain vähän”, hän lisää. ”Ääni paranee ensisijaisesti silloin, kun annat sen levätä. Puhu siis mahdollisimman vähän.”\n\nPauliina soittaa töihin ja ottaa kaksi päivää vapaata. Kotona hän lepää sohvalla, ei puhu puhelimessa ja kirjoittaa miehelleen Einarille viestejä paperille. Einari laittaa ruokaa: kalaa, perunoita ja salaattia. ”Terveellistä ruokaa laulajalle”, hän sanoo. Pauliina juo vettä ja lämmintä teetä.\n\nTorstaina muut harjoittelevat, mutta Pauliina jää kotiin. Kuoroa johtaa Ursula, ja hän lähettää Pauliinalle viestin ja kysyy, miten hän voi. Pauliina vastaa: ”Lepään. Laulan lauantaina, jos ääni on palannut.” Ursula kirjoittaa heti takaisin: ”Hyvä. Älä yritä mitään väkisin. Terveys on ensisijaisesti tärkeämpää kuin yksi kappale.”\n\nPerjantaina kurkku ei ole enää kipeä. Pauliina kokeilee ääntään hiljaa keittiössä. Se kuulostaa taas omalta. Lauantaina hän syö aamulla terveellisesti, juo lämmintä vettä ja lähtee konserttiin levänneenä.\n\nKonsertti menee hyvin. Kun Pauliina laulaa oman kappaleensa, sali on aivan hiljaa. Konsertin jälkeen Ursula tulee kiittämään häntä. ”Kannatti levätä”, hän sanoo.\n\nKysymykset:\nMitä Pauliinalle tapahtuu keskiviikkona aamulla?\nHän herää, ja hänen kurkkunsa on kipeä.\nMitä myyjä neuvoo apteekissa?\nHän neuvoo, että ääni saa levätä ja että Pauliina ei saa laulaa väkisin.\nMikä parantaa äänen ensisijaisesti?\nÄäni paranee ensisijaisesti, kun se saa levätä.\nMitä Einari laittaa ruoaksi?\nHän laittaa terveellistä ruokaa: kalaa, perunoita ja salaattia.\nMiten konsertti menee?\nSe menee hyvin, ja sali on hiljaa, kun Pauliina laulaa."
+    },
+    {
+      "title": "Kitara ikkunassa",
+      "summary": "Every Saturday young Frans admires a copy of a famous guitarist's red guitar in Paulus's small music shop, saves money all summer and finally buys it.",
+      "newWords": [
+        "kauppias",
+        "myymälä",
+        "kauppakeskus",
+        "kopio",
+        "legenda",
+        "ihailla",
+        "tukka"
+      ],
+      "text": "Paulus on kauppias, jolla on pieni myymälä Tampereella. Myymälä on vanhan kauppakeskuksen toisessa kerroksessa, kahvilan ja kukkakaupan välissä. Paulus on myynyt siellä soittimia ja levyjä jo 30 vuotta.\n\nMyymälän ikkunassa on punainen kitara. Se on tarkka kopio, jonka alkuperäistä soitti eräs kuuluisa muusikko 1970-luvulla. Muusikko on nykyään legenda, ja alkuperäinen on museossa Lontoossa. Kopio on kuitenkin tehty hyvin, ja se kuulostaa melkein samalta kuin alkuperäinen.\n\nJoka lauantai kauppakeskukseen tulee nuori mies, jolla on pitkä musta tukka. Hän seisoo pitkään myymälän ikkunan edessä ja ihailee punaista kitaraa. Eräänä lauantaina Paulus avaa oven ja kysyy: ”Haluatko kokeilla sitä?”\n\nNuori mies kertoo, että hänen nimensä on Frans. Hän istuu alas, ja Paulus antaa kopion hänelle. Frans soittaa ensin vähän ja sitten koko kappaleen. Hänen pitkä tukkansa putoaa kasvoille, mutta hän ei huomaa sitä.\n\n”Soitat hyvin”, Paulus sanoo. ”Ihailetko sinäkin tuota legendaa?”\n\n”Ihailen”, Frans vastaa. ”Hän oli ensimmäinen muusikko, jonka kuulin. Isäni soitti hänen levyjään autossa.” Sitten hän katsoo hintaa, eikä sano mitään. Hän on opiskelija, eikä hänellä ole niin paljon rahaa.\n\nPaulus on kauppias, mutta hän on myös muusikko. Hän ymmärtää Fransia. ”Se ei lähde mihinkään”, hän sanoo. ”Säästä rahaa rauhassa. Voit tulla soittamaan sitä joka lauantai.”\n\nKoko kesän Frans tekee töitä kauppakeskuksen kahvilassa. Joka lauantai hän tulee myymälään ja soittaa kopiota puoli tuntia. Joskus kauppakeskuksen asiakkaat pysähtyvät oven eteen kuuntelemaan, ja muutama heistä ostaa levyn tai jotain pientä. Paulus nauraa, että Frans on hänen paras myyjänsä.\n\nElokuun lopussa Frans tulee myymälään rahat taskussa. Niitä on tarpeeksi. Paulus ottaa kopion ikkunasta, puhdistaa sen ja laittaa sen laukkuun. Lisäksi hän antaa Fransille pienen lahjan.\n\n”Nyt sinulla on oma kopio legendan kitarasta”, Paulus sanoo. ”Ehkä sinusta tulee joskus itsekin legenda.”\n\nFrans nauraa ja heittää tukkansa taakse. ”Tulen silti käymään täällä joka lauantai”, hän lupaa.\n\nKysymykset:\nMissä Pauluksen myymälä on?\nSe on vanhan kauppakeskuksen toisessa kerroksessa Tampereella.\nMikä punainen kitara on?\nSe on tarkka kopio, jonka alkuperäistä soitti kuuluisa muusikko.\nMiltä Frans näyttää?\nHän on nuori mies, jolla on pitkä musta tukka.\nMiksi Frans ei voi heti ostaa kopiota?\nHän on opiskelija, eikä hänellä ole tarpeeksi rahaa.\nMitä Frans tekee kesällä?\nHän tekee töitä kahvilassa ja soittaa myymälässä joka lauantai."
+    },
+    {
+      "title": "Nuorten musiikin päivä",
+      "summary": "Wilma, a youth worker in Kokkola, organises a regional music day for young people, writes the press release and the website text, and gets positive feedback.",
+      "newWords": [
+        "nuoriso",
+        "alueellinen",
+        "osallistuja",
+        "tiedote",
+        "verkkosivu",
+        "ilmapiiri",
+        "myönteinen"
+      ],
+      "text": "Wilma tekee työtä Kokkolan kaupungilla. Hän vastaa nuorison harrastuksista: hän järjestää nuorille kursseja ja tapahtumia. Tänä keväänä hän järjestää ensimmäistä kertaa alueellisen tapahtuman, jossa on musiikkia koko päivän. Se on tarkoitettu nuorisolle koko alueelta, ei vain Kokkolasta.\n\nTapahtuman ajatus on yksinkertainen. Nuoret, jotka soittavat tai laulavat, saavat esiintyä yhden lauantain aikana oikealla lavalla. Lisäksi he voivat osallistua kursseille, joilla ammattilaiset neuvovat heitä. Koska tapahtuma on alueellinen, Wilma soittaa myös lähellä olevien kuntien työntekijöille, jotka tekevät työtä nuorten kanssa. Hän pyytää heitä kertomaan tapahtumasta omille nuorilleen.\n\nEnsin Wilma kirjoittaa tiedotteen. Tiedotteessa kerrotaan, milloin ja missä tapahtuma on, kuka voi osallistua ja miten ilmoittaudutaan. Tiedote on lyhyt ja selvä, ja Wilma lähettää sen lehdille ja paikalliselle radiolle. Sitten hän tekee tapahtumalle verkkosivun. Verkkosivulle hän laittaa saman tekstin kuin tiedotteeseen, kuvia viime vuoden kursseilta ja ohjeet, joiden avulla nuoret voivat ilmoittautua.\n\nEnsimmäisellä viikolla ilmoittautuu vain 10 nuorta. Wilma on huolissaan. Toisella viikolla paikallinen lehti julkaisee tiedotteen, ja verkkosivulla käy yhtäkkiä paljon ihmisiä. Viikon lopussa osallistujia on jo yli sata. Nuorin osallistuja on 11 ja vanhin 19 vuotta.\n\nLauantaina koulun suuri sali on täynnä. Lavalla esiintyy yhtyeitä, ryhmiä ja yksin laulavia nuoria. Osaa osallistujista jännittää kovasti, mutta yleisö kannustaa jokaista. Ilmapiiri on lämmin. Kukaan ei naura toisten virheille, vaan kaikki kannustavat toisiaan.\n\nIllalla Wilma kysyy osallistujilta palautetta. Palaute on lähes kokonaan myönteistä. Moni kertoo, että paras asia oli ilmapiiri: oli helppo esiintyä, kun kukaan ei arvostellut. Yksi tyttö kirjoittaa, että hän lauloi ensimmäistä kertaa muiden kuin perheensä edessä.\n\nSeuraavalla viikolla Wilma kirjoittaa uuden tiedotteen. Siinä hän kiittää kaikkia osallistujia ja kertoo, että tapahtuma järjestetään myös ensi vuonna. Hän laittaa tiedotteen verkkosivulle ja lisää sinne kuvia päivästä. Myönteinen palaute saa myös kaupungin innostumaan: ensi vuonna alueellinen tapahtuma saa enemmän rahaa ja isomman salin.\n\nKysymykset:\nMitä Wilma tekee työkseen?\nHän vastaa Kokkolan nuorison harrastuksista ja järjestää kursseja ja tapahtumia.\nMiksi tapahtuma on alueellinen?\nSe on tarkoitettu nuorille koko alueelta, ei vain Kokkolasta.\nMitä Wilma laittaa verkkosivulle?\nHän laittaa sinne tiedotteen tekstin, kuvia ja ohjeet ilmoittautumista varten.\nKuinka monta osallistujaa tapahtumaan tulee?\nOsallistujia on yli sata.\nMillainen ilmapiiri tapahtumassa on?\nIlmapiiri on lämmin, ja kaikki kannustavat toisiaan."
+    },
+    {
+      "title": "Äänen fysiikkaa",
+      "summary": "Physics teacher Gabriel measures the sound of the school band in Lappeenranta, shows his students how noise raises the risk of hearing loss and gets the drummer Dora to protect her ears.",
+      "newWords": [
+        "fysiikka",
+        "todennäköisyys",
+        "suojelu",
+        "menetys",
+        "viiva",
+        "kummallinen"
+      ],
+      "text": "Gabriel opettaa fysiikkaa koulussa Lappeenrannassa. Tällä viikolla fysiikan tunneilla puhutaan äänestä. Gabriel haluaa, että oppilaat näkevät fysiikan omassa arjessaan. Siksi hän vie luokan huoneeseen, jossa koulun yhtye harjoittelee.\n\nDora soittaa yhtyeessä rumpuja. Hän kertoi Gabrielille viime viikolla kummallisesta asiasta: harjoitusten jälkeen hänen korvissaan soi koko illan. Ääni on korkea, eikä se ole musiikkia. ”Se on kummallinen tunne”, Dora sanoi. ”Kuin joku soittaisi pientä kelloa pääni sisällä.”\n\nGabriel laittaa seinälle pienen mittarin ja yhdistää sen tietokoneeseen. Tietokoneen näytöllä näkyy viiva, joka liikkuu ylös ja alas äänen mukaan. Kun luokka on hiljaa, viiva on alhaalla. Kun yhtye alkaa soittaa, viiva nousee nopeasti. Kun Dora soittaa kovaa, viiva nousee melkein näytön yläosaan.\n\n”Fysiikassa ääntä mitataan desibeleinä”, Gabriel selittää. ”Tämä viiva näyttää, että täällä on nyt yli 100 desibeliä. Se on hyvin kova ääni.”\n\nSitten Gabriel puhuu todennäköisyydestä. Hän kertoo, että kova ääni ei aina vahingoita korvaa heti. Mitä kovempi ääni on ja mitä kauemmin sitä kuuntelee, sitä suurempi on kuulon menetyksen todennäköisyys. ”Todennäköisyys kasvaa vähitellen, joka harjoituksessa vähän”, hän sanoo. ”Siksi menetys tulee usein hitaasti. Moni huomaa sen vasta vuosien päästä.”\n\nDora kysyy, tarkoittaako korvien soiminen, että hänen korvansa ovat jo menneet. Gabriel sanoo, ettei hätää ole. Soiminen on varoitus, ja se menee yleensä ohi. Menetystä ei tule, jos korvista pitää huolta ajoissa.\n\nViimeiseksi luokka puhuu korvien suojelusta. Suojelu on helpompaa kuin moni luulee. Muusikko voi käyttää korvatulppia, jotka on tehty juuri muusikoille. Ne pitävät osan äänestä poissa mutta eivät muuta musiikkia. Lisäksi yhtye voi soittaa hiljempaa ja pitää taukoja.\n\nSeuraavalla viikolla Dora tulee harjoituksiin uudet korvatulpat mukanaan. Gabriel tulee taas mittarin kanssa. Kun yhtye soittaa hieman hiljempaa, viiva pysyy selvästi alempana. Dora kertoo, että hänen korvissaan ei soi enää illalla. ”Fysiikka on ensimmäistä kertaa ollut minulle hyödyllistä”, hän sanoo, ja Gabriel nauraa.\n\nKysymykset:\nMitä Gabriel opettaa?\nHän opettaa fysiikkaa koulussa Lappeenrannassa.\nMistä kummallisesta asiasta Dora kertoi?\nHänen korvissaan soi koko illan harjoitusten jälkeen.\nMitä näytön viiva näyttää?\nSe näyttää, kuinka kova ääni on, ja se nousee, kun yhtye soittaa.\nMilloin kuulon menetyksen todennäköisyys kasvaa?\nSe kasvaa, kun ääni on kova ja sitä kuuntelee kauan.\nMiten Dora pitää huolta korvien suojelusta?\nHän käyttää muusikoille tehtyjä korvatulppia, ja yhtye soittaa hiljempaa."
+    },
+    {
+      "title": "Lauluja lampaille",
+      "summary": "Composer Cecilia rents a room on Svante's sheep farm near Nurmes to write songs for children, walks the forest path, picks apples and finds her songs.",
+      "newWords": [
+        "lammas",
+        "polku",
+        "kävely",
+        "poimia",
+        "omena",
+        "herkullinen",
+        "siipi"
+      ],
+      "text": "Cecilia tekee lauluja lapsille Helsingissä. Tänä syksynä uusia lauluja ei kuitenkaan synny. Kaupungissa on liikaa ääniä, ja hän on väsynyt. Siksi hän vuokraa kuukaudeksi huoneen maalta Nurmeksen läheltä.\n\nTalon omistaja on Svante. Hänellä on 40 lammasta, vanha koira ja suuri puu talon edessä. Puussa kasvaa omenoita. Ensimmäisenä aamuna Cecilia herää lampaiden ääniin. Hän katsoo ikkunasta ulos. Svante kulkee pellolle, ja lampaat seuraavat häntä.\n\nTalon takaa lähtee polku metsään. Polku kulkee kuusten välistä järven rantaan ja takaisin. Svante kertoo, että kävely kestää noin tunnin. ”Polku on kaunein aamulla”, hän sanoo. ”Silloin linnut laulavat.”\n\nCecilia alkaa tehdä kävelyn joka aamu. Hän kulkee polkua hitaasti ja kuuntelee. Hän kuulee tuulen kuusissa, veden rannalla ja lintujen siipien äänen, kun ne lähtevät lentoon puista. Joskus suuri lintu nousee järveltä, ja sen siivet koskevat vettä. Cecilia pysähtyy ja kirjoittaa paperille muutaman rivin.\n\nIltapäivällä hän auttaa Svantea. Puu on täynnä omenoita, ja ne pitää poimia ennen pakkasia. Cecilia poimii omenoita korkealta, ja Svante poimii alempaa. Lampaat seisovat lähellä ja odottavat. Svante antaa niille omenat, jotka ovat pudonneet maahan.\n\nIllalla Svante tekee omenoista kakun. Se on herkullinen: lämmin ja makea. ”Tämä on herkullisin kakku, jota olen koskaan syönyt”, Cecilia sanoo. Svante nauraa ja sanoo, että omenat ovat hyviä, koska puu on vanha.\n\nKävelyt, omenat ja lampaat antavat Cecilialle ajatuksia. Kolmannella viikolla hän kirjoittaa ensimmäisen laulun. Se kertoo lampaasta, joka kulkee polkua järvelle ja haluaa lentää kuin lintu. Toinen laulu kertoo omenasta, joka putoaa puusta. Kuukauden lopussa paperilla on seitsemän laulua.\n\nKun Cecilia lähtee, Svante antaa hänelle laatikon omenoita. Keväällä Cecilia lähettää hänelle kirjeen ja kutsun konserttiin. Siellä lapset laulavat lauluja lampaista, polusta ja linnun siivistä.\n\nKysymykset:\nMiksi Cecilia lähtee Nurmekseen?\nKaupungissa on liikaa ääniä, eikä uusia lauluja synny.\nMitä Svantella on?\nHänellä on 40 lammasta, vanha koira ja suuri puu, jossa kasvaa omenoita.\nMitä Cecilia kuulee kävelyllä?\nHän kuulee tuulen, veden ja lintujen siipien äänen.\nMillainen kakku on?\nSe on herkullinen: lämmin ja makea.\nMistä ensimmäinen laulu kertoo?\nSe kertoo lampaasta, joka haluaa lentää kuin lintu."
+    },
+    {
+      "title": "Kaivoksen laulut",
+      "summary": "Augusta, who has sung in the Pyhäsalmi choir for fifty years, and her granddaughter Greta record the old songs of the mining village so that they are kept for the future.",
+      "newWords": [
+        "kaivos",
+        "köyhyys",
+        "identiteetti",
+        "ikuinen",
+        "talteen",
+        "elo"
+      ],
+      "text": "Augusta on 78-vuotias, ja hän asuu Pyhäsalmella. Pyhäsalmella oli pitkään suuri kaivos, josta nostettiin metallia. Kaivos antoi työtä sadoille ihmisille, ja melkein jokaisessa perheessä joku teki töitä kaivoksella. Augustan mieskin oli kaivoksella töissä koko ikänsä.\n\nEnnen kaivosta kylä oli pieni ja köyhä. Augustan äiti kertoi usein köyhyydestä: talossa ei ollut sähköä, ja leipää oli vähän. Kun kaivos avattiin 1960-luvulla, kylä heräsi eloon. Taloja rakennettiin, kauppoja avattiin, ja kylään tuli kouluja ja nuoria perheitä.\n\nSamaan aikaan kylään perustettiin kuoro. Siinä lauloivat kaivoksen miehet ja heidän vaimonsa, ja he lauloivat lauluja, joita kukaan ei ollut kirjoittanut ylös. Laulut kertoivat työstä maan alla, köyhyydestä ennen kaivosta ja ilosta, kun kylään tuli elämää. Jotkin laulut olivat surullisia. Ne kertoivat ikävästä, kun perheet muuttivat pois töiden perässä. Augusta on laulanut kuorossa 50 vuotta.\n\nNyt kaivos on suljettu. Monet nuoret ovat muuttaneet kaupunkeihin, ja ryhmässä laulaa enää 12 ihmistä. Augusta pelkää, että laulut katoavat. ”Nämä laulut ovat meidän identiteettimme”, hän sanoo. ”Ne kertovat, keitä me olemme ja mistä tulemme.”\n\nAugustan nuorin lapsenlapsi Greta opiskelee musiikkia Oulussa. Kesällä hän tulee mummon luo ja ottaa mukaan hyvän puhelimen. ”Otetaan laulut talteen”, hän sanoo. ”Silloin ne eivät katoa, vaikka laulajat joskus lopettaisivat.”\n\nKoko kesän Greta tallentaa kuoron laulua. Augusta ja muut laulavat vanhan koulun salissa, ja Greta kirjoittaa laulujen sanat paperille. Joitakin lauluja vain Augusta osaa enää. Hän laulaa ne yksin, ja Greta tallentaa ne tarkasti. Kun Augusta laulaa laulua ikävästä, kaksi laulajaa itkee hiljaa. Hetki ei ole kuitenkaan raskas. Laulu on muisto, joka yhdistää heitä.\n\nSyksyllä Greta tekee lauluista levyn ja kirjan. Kirjassa on myös kuvia kaivokselta ja tarinoita kylän elosta. Kun kirja esitellään kylän kirjastossa, sali on täynnä. Moni kaivoksen entinen työntekijä tulee paikalle kaukaakin.\n\n”Kaivos ei ollut ikuinen”, Augusta sanoo puheessaan. ”Mutta nyt laulut ovat tallessa. Ehkä ne ovat melkein ikuisia.”\n\nKysymykset:\nMillainen kylä oli ennen kaivosta?\nSe oli pieni ja köyhä.\nMitä tapahtui, kun kaivos avattiin?\nKylä heräsi eloon: taloja rakennettiin ja kylään tuli nuoria perheitä.\nMiksi laulut ovat Augustalle tärkeitä?\nNe ovat kylän identiteetti ja kertovat, keitä he ovat ja mistä he tulevat.\nMiten Greta ottaa laulut talteen?\nHän tallentaa laulua puhelimella ja kirjoittaa sanat paperille.\nMitä Greta tekee lauluista syksyllä?\nHän tekee niistä levyn ja kirjan."
+    },
+    {
+      "title": "Toimiston yhtye",
+      "summary": "Klaus and three colleagues at an Oulu insurance firm play in a band; their manager Fredrika asks them to play at the firm's 50th birthday, and they solve the clash between rehearsals and working hours.",
+      "newWords": [
+        "esimies",
+        "työaika",
+        "bonus",
+        "palkkio",
+        "taloudellisesti",
+        "ristiriita",
+        "meneillään",
+        "vastaanottaa"
+      ],
+      "text": "Klaus tekee töitä Oulussa yhtiössä, joka myy vakuutuksia. Hän ja kolme muuta yhtiön työntekijää soittavat yhdessä pienessä yhtyeessä. Klaus soittaa bassoa, ja muut soittavat ja laulavat. He harjoittelevat kerran viikossa yhden heistä kotona, ja joskus he esiintyvät ystävien juhlissa.\n\nYhtiössä on meneillään suuri vuosi, sillä yhtiö täyttää syksyllä 50 vuotta. Eräänä maanantaina Klausin esimies Fredrika kutsuu hänet huoneeseensa. ”Kuulin, että teillä on yhtye”, Fredrika sanoo. ”Voisitteko soittaa juhlassa? Juhlaan tulee 300 vierasta.”\n\nKlaus on iloinen, mutta hän näkee myös ristiriidan. Juhlaan on vain kuusi viikkoa, ja yhtyeen pitäisi harjoitella paljon enemmän kuin kerran viikossa. Illat ovat kuitenkin jo täynnä: kaikilla on perhe, ja yksi heistä opiskelee illalla. ”Haluaisimme soittaa”, Klaus sanoo, ”mutta emme ehdi harjoitella tarpeeksi.”\n\nFredrika miettii hetken. Hän on hyvä esimies, joka ratkaisee ongelmia mieluummin kuin etsii syyllisiä. ”Entä jos harjoittelette osittain työaikana?” hän ehdottaa. ”Saatte käyttää kaksi tuntia työaikaa viikossa harjoituksiin. Kolmannen kerroksen iso huone on perjantaina tyhjä.”\n\nNäin ristiriita on ratkaistu. Joka perjantai iltapäivällä yhtye harjoittelee kolmannessa kerroksessa. Muut työntekijät kuulevat musiikin käytävällä, ja moni pysähtyy oven taakse kuuntelemaan. Yhtye opettelee kymmenen kappaletta, myös vanhoja lauluja, joita yhtiön ensimmäiset työntekijät aikoinaan kuuntelivat.\n\nFredrika kertoo myös, että yhtye saa esiintymisestä palkkion. Yhtye keskustelee asiasta. Koska he harjoittelevat osittain työaikana, he eivät halua ottaa palkkiota itselleen. He päättävät antaa koko palkkion kaupungin musiikin koululle, jossa lapset voivat lainata soittimia.\n\nJuhlan iltana Fredrika vastaanottaa vieraat ovella, ja yhtye soittaa salissa. Ihmiset tanssivat, ja ilta onnistuu hyvin. Lopuksi koulun rehtori vastaanottaa palkkion lavalla, ja vieraat kiittävät.\n\nJoulukuussa yhtiö kertoo, että vuosi on mennyt taloudellisesti hyvin. Siksi jokainen työntekijä saa vuoden lopussa bonuksen. Klausin yhtye käyttää osan bonuksesta yhteisiin uusiin laitteisiin. ”Taloudellisesti tämä ei ollut meille iso asia”, Klaus sanoo Fredrikalle, ”mutta yhtyeelle se oli paras vuosi.”\n\nKysymykset:\nMitä yhtiössä on meneillään?\nSiellä on meneillään suuri vuosi, koska yhtiö täyttää 50 vuotta.\nMinkä ristiriidan Klaus näkee?\nYhtyeen pitäisi harjoitella enemmän, mutta illat ovat jo täynnä.\nMiten esimies ratkaisee ongelman?\nYhtye saa käyttää kaksi tuntia työaikaa viikossa harjoituksiin.\nMitä yhtye tekee palkkiolla?\nSe antaa koko palkkion kaupungin musiikin koululle.\nMiksi jokainen työntekijä saa bonuksen?\nVuosi on mennyt yhtiölle taloudellisesti hyvin."
+    },
+    {
+      "title": "Keikka Tallinnassa",
+      "summary": "Singer Martina travels from Helsinki to her first gig abroad, at a café in Tallinn's old town, where the guide Rosaliina brings a group of tourists from every continent to listen.",
+      "newWords": [
+        "mekko",
+        "passi",
+        "profiili",
+        "mielikuva",
+        "vasemmalla",
+        "turisti",
+        "manner",
+        "opas"
+      ],
+      "text": "Martina on laulaja Helsingistä. Hän laulaa vanhoja suomalaisia lauluja ja omia kappaleitaan, ja hän soittaa itse pianoa. Eräänä päivänä hän saa viestin kahvilasta Tallinnan vanhasta kaupungista. Kahvilan omistaja on nähnyt Martinan profiilin netissä ja kuunnellut hänen kappaleitaan. Hän kysyy, voisiko Martina tulla laulamaan kahvilaan lauantaina illalla.\n\nMartina suostuu heti. Se on hänen ensimmäinen keikkansa ulkomailla. Hän päivittää profiilinsa: hän lisää sinne uuden kuvan ja kirjoittaa, että hän laulaa lauantaina Tallinnassa.\n\nPerjantaina illalla Martina pakkaa laukkunsa. Hän valitsee esiintymiseen sinisen mekon. Mekko on yksinkertainen mutta kaunis, ja siinä on helppo istua soittamassa. Lopuksi hän ottaa pöydältä passin. Virossa riittäisi henkilökortti, mutta Martina matkustaa mieluiten passi mukanaan.\n\nLauantaina aamulla hän menee laivalla Tallinnaan. Kahvila on vanhassa talossa pienen kadun varrella. Sisällä on lämmin, ja seinillä on vanhoja kuvia. Omistaja näyttää paikat. Lava on pieni: piano on vasemmalla ja laulajan paikka oikealla. Ikkuna on vasemmalla pianon takana, ja siitä näkyy vanhan kaupungin katoja.\n\nIllalla kahvilaan tulee ihmisiä. Kesken ensimmäisen kappaleen ovesta tulee iso ryhmä turisteja. Heidän oppaansa on Rosaliina, joka on syntynyt Tallinnassa mutta asunut nuorena Tampereella. Rosaliina kertoo myöhemmin, että ryhmän turistit tulevat kaikilta mantereilta ja että he puhuvat monia eri kieliä. Opas on tuonut heidät kahvilaan, koska hän haluaa näyttää heille paikallista elämää.\n\nMartinaa jännittää hetken. Monella turistilla on suomalaisesta musiikista mielikuva, että se on hidasta ja surullista. Martina haluaa näyttää myös toisen puolen. Hän laulaa iloisia lauluja, joiden tahdissa voi tanssia, ja kertoo englanniksi, mistä laulut kertovat.\n\nIlmapiiri on lämmin. Turistit kiittävät, ja yksi nainen toiselta mantereelta kysyy erään laulun nimeä. Opas Rosaliina kääntää kysymyksen. Lopuksi monet turistit kysyvät Martinan profiilin nimeä, jotta he voivat kuunnella hänen kappaleitaan kotona omalla mantereellaan.\n\nSunnuntaina Martina palaa laivalla Helsinkiin. Mekko on laukussa, passi on taskussa, ja profiilissa on 30 uutta seuraajaa. Mielikuva suomalaisesta musiikista muuttui ainakin yhden illan ajaksi.\n\nKysymykset:\nMiten kahvilan omistaja löysi Martinan?\nHän näki Martinan profiilin netissä ja kuunteli hänen kappaleitaan.\nMinkä mekon Martina valitsee?\nHän valitsee sinisen, yksinkertaisen mekon.\nMissä piano on lavalla?\nPiano on vasemmalla.\nMistä turistit tulevat?\nHe tulevat kaikilta mantereilta.\nMillainen mielikuva monella turistilla on suomalaisesta musiikista?\nHeidän mielikuvansa on, että se on hidasta ja surullista."
+    },
+    {
+      "title": "Filosofia ja jazz",
+      "summary": "Philosophy student Lorenz drifted into jazz piano as a teenager; short of time and money in Turku, he and his teacher Manta find a balance between his studies and his music.",
+      "newWords": [
+        "filosofia",
+        "tasapaino",
+        "vetäytyä",
+        "ajautua",
+        "seikkailu",
+        "erikoistunut",
+        "pula"
+      ],
+      "text": "Lorenz opiskelee filosofiaa yliopistossa Turussa. Hän pitää filosofiasta, koska siinä saa kysyä suuria kysymyksiä: mitä on hyvä elämä, mitä on totuus, mitä on taide. Lorenzilla on kuitenkin myös toinen rakkaus. Se on jazz.\n\nLorenz ei suunnitellut jazzia. Hän ajautui siihen, kun hän oli 15. Hän soitti pianoa musiikin koulussa ja kuunteli kotona isänsä vanhoja levyjä. Eräänä iltana hän alkoi soittaa levyn mukana, ja siitä hetkestä hän ajautui yhä kauemmas klassisesta musiikista. Vanhat harjoitukset jäivät vähemmälle, ja uusi musiikki vei hänet mukanaan.\n\nNyt Lorenz käy kerran viikossa Mantan tunneilla. Manta on opettaja, joka on soittanut ammatikseen 30 vuotta. Hän on erikoistunut jazziin ja erityisesti siihen, että muusikko keksii musiikkia samalla, kun hän soittaa.\n\nTänä syksynä Lorenzilla on ongelma. Hänellä on pula ajasta. Yliopistossa on paljon luettavaa, ja hän tekee lisäksi töitä kahvilassa, koska hänellä on myös pula rahasta. Harjoitteluun jää vain vähän aikaa. Joskus hän vetäytyy illalla huoneeseensa harjoittelemaan, mutta on niin väsynyt, ettei saa mitään aikaan.\n\nEräällä tunnilla Lorenz kertoo tästä Mantalle. Manta kuuntelee ja sanoo: ”Sinulta puuttuu tasapaino. Yrität tehdä kaiken yhtä aikaa.” Hän ehdottaa, että Lorenz vetäytyy harjoittelemaan joka aamu yhdeksi tunniksi, ennen kuin hän lähtee yliopistolle. Aamulla hän ei ole vielä väsynyt. Illalla hän saa levätä tai lukea.\n\nLisäksi Manta sanoo jotain, mikä yllättää Lorenzin. ”Filosofia ja jazz eivät ole toistensa vastakohtia. Kun keksit musiikkia soittaessasi, se on seikkailu. Et tiedä etukäteen, mihin päädyt, ja sinun pitää kuunnella tarkasti. Eikö filosofiakin ole sellainen seikkailu?”\n\nLorenz miettii tätä koko viikon. Hän alkaa kirjoittaa yliopistolle kirjoitusta, jonka aihe on musiikin filosofia. Kirjoitus yhdistää hänen kaksi rakkauttaan, ja yllättäen opiskelu tuntuu kevyemmältä. Joka aamu hän harjoittelee tunnin, ja harjoitus on joka päivä pieni seikkailu.\n\nKeväällä Lorenz esittää kirjoituksensa seminaarissa ja soittaa lopuksi lyhyen kappaleen, jonka hän keksii siinä hetkessä. Opiskelijat ja opettajat kiittävät häntä. Pula ajasta ei ole kadonnut kokonaan, mutta tasapaino on löytynyt. Lorenz ei enää ajaudu päivästä toiseen, vaan tietää, mitä hän tekee ja miksi.\n\nKysymykset:\nMitä Lorenz opiskelee?\nHän opiskelee filosofiaa yliopistossa Turussa.\nMiten Lorenz ajautui jazziin?\nHän alkoi soittaa isänsä levyjen mukana, kun hän oli 15.\nMihin Manta on erikoistunut?\nHän on erikoistunut jazziin ja siihen, että muusikko keksii musiikkia soittaessaan.\nMistä Lorenzilla on pula?\nHänellä on pula ajasta ja rahasta.\nMiksi Manta sanoo, että musiikin keksiminen soittaessa on seikkailu?\nMuusikko ei tiedä etukäteen, mihin hän päätyy, ja hänen pitää kuunnella tarkasti."
+    },
+    {
+      "title": "Tahtia kentälle",
+      "summary": "Bror, who coaches a junior football team in Kemijärvi, watches his players miss their passes, uses music in training to sharpen their timing, and the seventh match goes well.",
+      "newWords": [
+        "syöttö",
+        "tehostaa",
+        "seitsemäs",
+        "tarkkailla",
+        "täydellisesti",
+        "pätevä"
+      ],
+      "text": "Bror on poikien jalkapallojoukkueen valmentaja Kemijärvellä. Pojat ovat 12 vuotta vanhoja, ja he harjoittelevat kolmesti viikossa. Kesän sarjassa joukkue on pelannut kuusi peliä eikä ole voittanut yhtään. Seitsemäs peli on lauantaina, ja Bror haluaa auttaa poikia.\n\nTiistain harjoituksissa Bror ei puhu paljon. Hän seisoo kentän laidalla ja tarkkailee. Hän tarkkailee erityisesti syöttöjä. Pojat juoksevat hyvin ja jaksavat koko harjoituksen, mutta syötöt menevät usein ohi. Yksi syöttää liian aikaisin, toinen liian myöhään. Pallo menee toisen pelaajan taakse tai liian eteen.\n\nIllalla Bror soittaa vanhalle ystävälleen Svenille, joka on pätevä valmentaja Rovaniemellä. Sven on ollut nuorten valmentaja 20 vuotta, ja hänellä on monta hyvää ajatusta. ”Syötössä tärkeintä on oikea hetki”, Sven sanoo. ”Kokeile musiikkia. Kun pojat syöttävät musiikin tahdissa, he oppivat oikean hetken. Musiikki tehostaa harjoittelua, koska tahti pysyy päässä.”\n\nTorstaina Bror tuo musiikin kentälle. Hän valitsee kappaleen, jossa on selvä ja tasainen tahti. Pojat seisovat pareina, ja jokainen syöttö tehdään samalla hetkellä tahdin kanssa. Aluksi pojat nauravat, ja moni syöttö menee ohi. Vähitellen syötöt alkavat kuitenkin osua oikeaan paikkaan. Bror tarkkailee ja kehuu.\n\nSeuraavaksi Bror valitsee nopeamman kappaleen. Nyt pojat juoksevat ja syöttävät samaan aikaan. Tahti tehostaa sekä syöttöjä että juoksua. Pojat kuuntelevat toisiaan, ja syöttö lähtee juuri silloin, kun toinen on valmis.\n\nPerjantaina harjoitellaan vielä kerran musiikin kanssa. Bror on tyytyväinen. Hän ei ole maailman pätevin valmentaja, mutta hän osaa kuunnella ja kokeilla uutta.\n\nLauantaina on kauden seitsemäs peli. Kentän laidalla ei soi musiikki, mutta pojilla tahti on yhä päässä. Pelin alussa joukkue tekee maalin syötöstä, joka menee täydellisesti juoksevan pelaajan eteen. Pelin lopussa tulee toinen maali. Peli päättyy 2–1.\n\nPelin jälkeen pojat laulavat kappaletta, jonka tahdissa he harjoittelivat. Bror soittaa Svenille ja kertoo, että seitsemäs peli meni melkein täydellisesti. ”Musiikki todella tehosti harjoittelua”, hän sanoo.\n\nKysymykset:\nKuinka monta peliä joukkue on voittanut ennen lauantaita?\nSe ei ole voittanut yhtään peliä.\nMitä Bror tarkkailee harjoituksissa?\nHän tarkkailee erityisesti syöttöjä.\nKuka Sven on?\nHän on pätevä valmentaja Rovaniemellä ja Brorin vanha ystävä.\nMiksi musiikki tehostaa harjoittelua?\nTahti pysyy päässä, ja pojat oppivat oikean hetken.\nMiten seitsemäs peli päättyy?\nJoukkue voittaa 2–1."
+    }
+  ]
+}
