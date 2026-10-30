@@ -362,6 +362,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return arabic_tokens(text, ranks, names)
     if code == "id":
         return indonesian_tokens(text, ranks, heads, names)
+    if code == "tl":
+        return tagalog_tokens(text, ranks, names)
     if code in FINNIC:
         return finnic_tokens(text, code)
     out = []
@@ -1581,6 +1583,52 @@ def indonesian_tokens(text, ranks, heads, names=frozenset()):
     return out
 
 
+# Tagalog: a word with a hyphen (mag-aral, pag-ibig, may-ari) is one word, as the list has it. A fully reduplicated
+# word (araw-araw, bahay-bahay, gustong-gusto, bagong-bago) is one word, its base. The contractions 'y and 't are
+# ay and at joined to the word before (ako'y is ako + ay, iba't is iba + at), except in the words written with 't
+# (ba't for bakit, sapagka't, bagama't, nguni't, subali't, datapuwa't). The linker -ng after a vowel, -g after n, is
+# joined to the word before and counts for it (kapeng of kape, aking of akin) where the list lacks the joined form.
+# A word joined by a hyphen to digits (ika-5) is part of the number.
+TAGALOG_WORD = re.compile(r"[^\W\d_]+(?:'[^\W\d_]+)*(?:-[^\W\d_]+(?:'[^\W\d_]+)*)*", re.UNICODE)
+TAGALOG_WHOLE_T = {"ba't", "sapagka't", "bagama't", "nguni't", "subali't", "datapuwa't", "datapwa't"}
+TAGALOG_VOWELS = "aeiou"
+
+
+def tagalog_linked(word, ranks, names=frozenset()):
+    """The list word a lowercased Tagalog word is: itself if listed, else its base before the linker -ng or -g."""
+    if word in ranks or word in names or not word.endswith("ng") or len(word) < 4:
+        return word
+    if word[-3] in TAGALOG_VOWELS and word[:-2] in ranks:
+        return word[:-2]
+    if word[-3] == "n" and word[:-1] in ranks:
+        return word[:-1]
+    return word
+
+
+def tagalog_tokens(text, ranks, names=frozenset()):
+    out = []
+    text = text.replace("’", "'")
+    for match in TAGALOG_WORD.finditer(text):
+        if text[match.end():match.end() + 1] == "-" and text[match.end() + 1:match.end() + 2].isdigit():
+            continue
+        word = match.group(0).lower()
+        if word in TAGALOG_WHOLE_T:
+            out.append(tagalog_linked(word.replace("'", ""), ranks, names))
+            continue
+        tail = None
+        if word.endswith(("'y", "'t")):
+            word, tail = word[:-2], "ay" if word.endswith("'y") else "at"
+        parts = word.split("-")
+        if len(parts) == 2 and word not in names and parts[0] in (
+                parts[1], parts[1] + "ng" if parts[1][-1] in TAGALOG_VOWELS else None,
+                parts[1] + "g" if parts[1][-1] == "n" else None):
+            word = parts[1]
+        out.append(tagalog_linked(word, ranks, names))
+        if tail:
+            out.append(tail)
+    return out
+
+
 # The Finnic languages join case endings, possessive suffixes and clitics to a word (taloissammekin, "in our houses
 # too"), more forms than a list can hold. Their rules, per language (an Estonian entry fills in its own):
 # - questions: the header of a lesson's questions, which is layout, not a word;
@@ -1744,6 +1792,9 @@ def check(path, brief=False):
     if code == "is":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
         is_names = icelandic_name_forms(course.get("names", []))
+    # So does a Tagalog one (Puerto Princesa, Lapu-Lapu).
+    if code == "tl":
+        long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
     # Hungarian names take their endings unmarked (Annának, Budapestre): each part of a name counts, with its endings.
     if code == "hu":
         names = names | {fold(code, part.lower()) for n in course.get("names", []) for part in n.split()}
@@ -1835,6 +1886,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Spurningar:", "", text)
         if code == "la":
             text = re.sub(r"(?m)^Quaestiones:", "", text)
+        if code == "tl":
+            text = re.sub(r"(?m)^Mga tanong:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg", "ro", "mk"):
