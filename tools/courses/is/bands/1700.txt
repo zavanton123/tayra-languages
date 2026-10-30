@@ -1,0 +1,100 @@
+1	1601	játa	játandi játar játarðu játast játastu játað játaða játaðan játaðar játaði játaðir játaðirðu játaðist játaðistu játaðra játaðrar játaðri játaðs játaðu játaður játi játir játirðu játist játistu játið játum játumst játuð játuðu játuðum játuðumst játuðust játuðuð
+2	1602	tákn	tákna táknanna tákni táknin tákninu táknið tákns táknsins táknum táknunum
+3	1603	samtal	samtala samtalanna samtali samtalinu samtalið samtals samtalsins samtöl samtölin samtölum samtölunum
+4	1604	læsa	læsandi læsast læsi læsir læsirðu læsist læsið læsiði læst læsta læstan læstar læsti læstir læstirðu læstist læstra læstrar læstri læsts læstu læstum læstumst læstur læstust læstuð læsum læsumst
+5	1605	vér	oss
+6	1606	villtur	villt villta villtan villtar villtara villtari villtast villtasta villtastan villtastar villtasti villtastir villtastra villtastrar villtastri villtasts villtastur villti villtir villtra villtrar villtri villts villtu villtum villtust villtustu villtustum
+7	1607	handleggur	handlegg handleggi handleggina handlegginn handleggir handleggirnir handleggja handleggjanna handleggjar handleggjarins handleggjum handleggjunum handleggnum handleggs handleggsins handleggurinn
+8	1608	samvinna	samvinnan samvinnu samvinnuna samvinnunnar samvinnunni
+9	1609	dollar	dollara dollarana dollaranna dollarar dollararnir dollarinn dollarnum dollars dollarsins dollurum dollurunum
+10	1610	ver	vera verana veranna verar verarnir veri verin verinn verinu verið vernum vers versins verum verunum
+11	1611	traustur	traust trausta traustan traustar traustara traustari traustast traustasta traustastan traustastar traustasti traustastir traustastra traustastrar traustastri traustasts traustastur trausti traustir traustra traustrar traustri trausts traustu traustum traustust traustustu traustustum
+12	1612	kínverskur	kínversk kínverska kínverskan kínverskar kínverskara kínverskari kínverskast kínverskasta kínverskastan kínverskastar kínverskasti kínverskastir kínverskastra kínverskastrar kínverskastri kínverskasts kínverskastur kínverski kínverskir kínverskra kínverskrar kínverskri kínversks kínverskt kínversku kínverskum kínverskust kínverskustu kínverskustum
+13	1613	ýmislegur	ýmisleg ýmislega ýmislegan ýmislegar ýmislegi ýmislegir ýmislegra ýmislegrar ýmislegri ýmislegs ýmislegt ýmislegu ýmislegum
+14	1614	sársauki	sársauka sársaukann sársaukans sársaukanum sársaukinn
+15	1615	veröld	veralda veraldanna veraldar veraldarinnar veraldir veraldirnar veröldin veröldina veröldinni veröldum veröldunum
+16	1616	tæpur	tæp tæpa tæpan tæpar tæpara tæpari tæpast tæpasta tæpastan tæpastar tæpasti tæpastir tæpastra tæpastrar tæpastri tæpasts tæpastur tæpi tæpir tæpra tæprar tæpri tæps tæpt tæpu tæpum tæpust tæpustu tæpustum
+17	1617	pund	punda pundanna pundi pundin pundinu pundið punds pundsins pundum pundunum
+18	1618	engill	engil engilinn engillinn engils engilsins engla englana englanna englar englarnir engli englinum englum englunum
+19	1619	gyðingur	gyðing gyðinga gyðingana gyðinganna gyðingar gyðingarnir gyðingi gyðinginn gyðingnum gyðings gyðingsins gyðingum gyðingunum gyðingurinn
+20	1620	sjóður	sjóð sjóða sjóðanna sjóði sjóðina sjóðinn sjóðinum sjóðir sjóðirnir sjóðnum sjóðs sjóðsins sjóðum sjóðunum sjóðurinn
+21	1621	nýlega	nýlegar nýlegast
+22	1622	fáránlegur	fáránleg fáránlega fáránlegan fáránlegar fáránlegast fáránlegasta fáránlegastan fáránlegastar fáránlegasti fáránlegastir fáránlegastra fáránlegastrar fáránlegastri fáránlegasts fáránlegastur fáránlegi fáránlegir fáránlegra fáránlegrar fáránlegri fáránlegs fáránlegt fáránlegu fáránlegum fáránlegust fáránlegustu fáránlegustum
+23	1623	tæplega	tæplegar tæplegast
+24	1624	kross	krossa krossana krossanna krossar krossarnir krossi krossinn krossins krossinum krossum krossunum
+25	1625	sænskur	sænsk sænska sænskan sænskar sænskara sænskari sænskast sænskasta sænskastan sænskastar sænskasti sænskastir sænskastra sænskastrar sænskastri sænskasts sænskastur sænski sænskir sænskra sænskrar sænskri sænsks sænskt sænsku sænskum sænskust sænskustu sænskustum
+26	1626	veðja	veðjandi veðjar veðjast veðjað veðjaða veðjaðan veðjaðar veðjaði veðjaðir veðjaðist veðjaðra veðjaðrar veðjaðri veðjaðs veðjaðu veðjaður veðji veðjir veðjist veðjið veðjum veðjumst veðjuð veðjuðu veðjuðum veðjuðumst veðjuðust veðjuðuð
+27	1627	auli	aula aulana aulann aulanna aulans aulanum aular aularnir aulinn aulum aulunum
+28	1628	grundvöllur	grundvallar grundvallarins grundvelli grundvellinum grundvöll grundvöllinn grundvöllurinn
+29	1629	alvarlega	alvarlegar alvarlegast
+30	1630	lengd	lengda lengdanna lengdar lengdarinnar lengdin lengdina lengdinni lengdir lengdirnar lengdum lengdunum
+31	1631	ferskur	fersk ferska ferskan ferskar ferskara ferskari ferskast ferskasta ferskastan ferskastar ferskasti ferskastir ferskastra ferskastrar ferskastri ferskasts ferskastur ferski ferskir ferskra ferskrar ferskri fersks ferskt fersku ferskum ferskust ferskustu ferskustum
+32	1632	stafa	stafandi stafar stafað stafaði stafaðir stafaðu stafi stafir stafið stöfum stöfuðu stöfuðum stöfuðuð
+33	1633	einfaldlega	einfaldlegar einfaldlegast
+34	1634	uppruni	uppruna upprunann upprunans upprunanum uppruninn
+35	1635	sveinn	svein sveina sveinana sveinanna sveinar sveinarnir sveini sveininn sveininum sveinninn sveins sveinsins sveinum sveinunum
+36	1636	saklaus	saklausa saklausan saklausar saklausara saklausari saklausast saklausasta saklausastan saklausastar saklausasti saklausastir saklausastra saklausastrar saklausastri saklausasts saklausastur saklausi saklausir saklausra saklausrar saklausri saklauss saklaust saklausu saklausum saklausust saklausustu saklausustum
+37	1637	afl	afla aflanna afli aflinu aflið afls aflsins öfl öflin öflum öflunum
+38	1638	gras	grasa grasanna grasi grasinu grasið grass grassins grös grösin grösum grösunum
+39	1639	fimmti	fimmta fimmtu
+40	1640	klippa	klippan klippandi klippanna klippast klippi klippir klippist klippið klippna klippnanna klippst klippt klippta klipptan klipptar klippti klipptir klipptirðu klipptist klipptra klipptrar klipptri klippts klipptu klipptum klipptumst klipptur klipptust klipptuð klippu klippum klippumst klippuna klippunnar klippunni klippunum klippur klippurnar
+41	1641	fæða	fædd fædda fæddan fæddar fæddi fæddir fæddra fæddrar fæddri fædds fæddu fæddum fædduð fætt fæðan fæðandi fæðir fæðið fæðu fæðum fæðuna fæðunnar fæðunni
+42	1642	frumvarp	frumvarpa frumvarpanna frumvarpi frumvarpinu frumvarpið frumvarps frumvarpsins frumvörp frumvörpin frumvörpum frumvörpunum
+43	1643	átök	átaka átakanna átökin átökum átökunum
+44	1644	þiggja	þegin þeginn þeginna þeginnar þeginni þegins þegið þegna þegnar þegni þegnir þegnu þegnum þigg þiggi þiggir þiggirðu þiggið þiggjandi þiggjum þiggur þiggurðu þiggðu þáði þáðir þáðirðu þáðu þáðum þáðuð þægi þægir þægirðu þægju þægjum þægjuð þægjuði þæði þæðirðu
+45	1645	þurrka	þurrkan þurrkandi þurrkar þurrkarðu þurrkast þurrkað þurrkaða þurrkaðan þurrkaðar þurrkaði þurrkaðir þurrkaðirðu þurrkaðist þurrkaðra þurrkaðrar þurrkaðri þurrkaðs þurrkaðu þurrkaður þurrki þurrkir þurrkist þurrkið þurrkna þurrknanna þurrku þurrkum þurrkumst þurrkuna þurrkunnar þurrkunni þurrkunum þurrkur þurrkurnar þurrkuð þurrkuðu þurrkuðum þurrkuðumst þurrkuðust þurrkuðuð
+46	1646	magi	maga magana magann maganna magans maganum magar magarnir maginn mögum mögunum
+47	1647	hátign	hátigna hátignanna hátignar hátignarinnar hátignin hátignina hátigninni hátignir hátignirnar hátignum hátignunum
+48	1648	höll	halla hallanna hallar hallarinnar hallir hallirnar höllin höllina höllinni höllum höllunum
+49	1649	ytri	yst ysta ystan ystar ysti ystir ystra ystrar ystri ysts ystu ystum ystur ytra
+50	1650	lækka	lækkandi lækkar lækkað lækkaði lækkaðir lækkaðu lækki lækkir lækkið lækkiði lækkum lækkuðu lækkuðum lækkuðuð
+51	1651	frásögn	frásagna frásagnanna frásagnar frásagnarinnar frásagnir frásagnirnar frásögnin frásögnina frásögninni frásögnum frásögnunum
+52	1652	enska	enskan ensku enskuna enskunnar enskunni
+53	1653	nægja	nægi nægir nægið nægjandi nægjum nægt nægði nægðir nægðu nægðum nægðuð
+54	1654	vina	vinan vinanna vinu vinum vinuna vinunnar vinunni vinunum vinur vinurnar
+55	1655	fremri	fremra fremsta fremstan fremstar fremsti fremstir fremstra fremstrar fremstri fremsts fremstu fremstum fremstur
+56	1656	kring	
+57	1657	fylki	fylkin fylkinu fylkis fylkisins fylkið fylkja fylkjanna fylkjum fylkjunum
+58	1658	ávallt	
+59	1659	biskup	biskupa biskupana biskupanna biskupar biskuparnir biskupi biskupinn biskupinum biskupnum biskups biskupsins biskupum biskupunum
+60	1660	hádegi	hádega hádeganna hádegin hádeginu hádegis hádegisins hádegið hádegum hádegunum
+61	1661	sárt	sárar sárast
+62	1662	laug	lauga lauganna laugar laugarinnar laugarnar laugin laugina lauginni laugum laugunum
+63	1663	uppgötva	uppgötvandi uppgötvar uppgötvarðu uppgötvast uppgötvað uppgötvaða uppgötvaðan uppgötvaðar uppgötvaði uppgötvaðir uppgötvaðirðu uppgötvaðist uppgötvaðra uppgötvaðrar uppgötvaðri uppgötvaðs uppgötvaðu uppgötvaður uppgötvi uppgötvir uppgötvist uppgötvið uppgötvum uppgötvumst uppgötvuð uppgötvuðu uppgötvuðum uppgötvuðumst uppgötvuðust uppgötvuðuð
+64	1664	sundur	
+65	1665	framhald	framhaldi framhaldinu framhaldið framhalds framhaldsins
+66	1666	hindra	hindrandi hindrar hindrarðu hindrast hindrað hindraða hindraðan hindraðar hindraði hindraðir hindraðirðu hindraðist hindraðra hindraðrar hindraðri hindraðs hindraðu hindraður hindri hindrir hindrist hindrið hindrum hindrumst hindruð hindruðu hindruðum hindruðumst hindruðust hindruðuð
+67	1667	partí	partía partíanna partíi partíin partíinu partíið partís partísins partíum partíunum
+68	1668	jafnt	jafnar jafnast
+69	1669	hlutfall	hlutfalla hlutfallanna hlutfalli hlutfallinu hlutfallið hlutfalls hlutfallsins hlutföll hlutföllin hlutföllum hlutföllunum
+70	1670	nútími	nútíma nútímann nútímans nútímanum nútíminn
+71	1671	blindur	blind blinda blindan blindar blindara blindari blindast blindasta blindastan blindastar blindasti blindastir blindastra blindastrar blindastri blindasts blindastur blindi blindir blindra blindrar blindri blinds blindu blindum blindust blindustu blindustum blint
+72	1672	te	tei teinu teið tes tesins
+73	1673	sending	sendinga sendinganna sendingar sendingarinnar sendingarnar sendingin sendingu sendingum sendinguna sendingunni sendingunum
+74	1674	rafmagn	rafmagni rafmagninu rafmagnið rafmagns rafmagnsins
+75	1675	rugl	rugli ruglinu ruglið rugls ruglsins
+76	1676	mánudagur	mánudag mánudaga mánudagana mánudaganna mánudagar mánudagarnir mánudaginn mánudags mánudagsins mánudagurinn mánudegi mánudeginum mánudögum mánudögunum
+77	1677	notandi	notanda notandann notandans notandanum notandinn notenda notendanna notendum notendunum notendur notendurna notendurnir
+78	1678	ljósmynd	ljósmynda ljósmyndanna ljósmyndar ljósmyndarinnar ljósmyndin ljósmyndina ljósmyndinni ljósmyndir ljósmyndirnar ljósmyndum ljósmyndunum
+79	1679	öskra	öskrandi öskrar öskrarðu öskrast öskrað öskraða öskraðan öskraðar öskraði öskraðir öskraðirðu öskraðist öskraðra öskraðrar öskraðri öskraðs öskraðu öskraður öskri öskrir öskrist öskrið öskriði öskrum öskrumst öskruð öskruðu öskruðum öskruðumst öskruðust öskruðuð
+80	1680	pláneta	plánetan plánetanna plánetna plánetnanna plánetu plánetum plánetuna plánetunnar plánetunni plánetunum plánetur pláneturnar
+81	1681	lemja	lamda lamdar lamdi lamdir lamdirðu lamdist lamin laminn laminna laminnar laminni lamins lamist lamið lem lemdi lemdir lemdist lemdu lemdum lemdumst lemdust lemduð lemjandi lemjast lemji lemjir lemjist lemjið lemjum lemjumst lemst lemur lemurðu lömdu lömdum lömdumst lömdust lömduð
+82	1682	þrýstingur	þrýsting þrýstingi þrýstinginn þrýstingnum þrýstings þrýstingsins þrýstingurinn
+83	1683	óþarfur	óþarfa óþarfan óþarfar óþarfara óþarfari óþarfast óþarfasta óþarfastan óþarfastar óþarfasti óþarfastir óþarfastra óþarfastrar óþarfastri óþarfasts óþarfastur óþarfi óþarfir óþarfra óþarfrar óþarfri óþarfs óþarft óþörf óþörfu óþörfum óþörfust óþörfustu óþörfustum
+84	1684	haga	hagandi hagar hagast hagað hagaði hagaðir hagaðist hagaðu hagi hagir hagist hagið högum högumst höguðu höguðum höguðumst höguðust höguðuð
+85	1685	bæn	bæna bænanna bænar bænarinnar bænin bænina bæninni bænir bænirnar bænum bænunum
+86	1686	mjúkur	mjúk mjúka mjúkan mjúkar mjúki mjúkinn mjúkir mjúkra mjúkrar mjúkri mjúks mjúkt mjúku mjúkum mýkra mýkri mýkst mýksta mýkstan mýkstar mýksti mýkstir mýkstra mýkstrar mýkstri mýksts mýkstu mýkstum mýkstur
+87	1687	nef	nefi nefin nefinu nefið nefja nefjanna nefjum nefjunum nefs nefsins
+88	1688	varðveita	varðveist varðveitandi varðveitast varðveiti varðveitir varðveitist varðveitið varðveitt varðveitta varðveittan varðveittar varðveitti varðveittir varðveittist varðveittra varðveittrar varðveittri varðveitts varðveittu varðveittum varðveittumst varðveittur varðveittust varðveittuð varðveitum varðveitumst
+89	1689	sanngjarn	sanngjarna sanngjarnan sanngjarnar sanngjarnara sanngjarnari sanngjarnast sanngjarnasta sanngjarnastan sanngjarnastar sanngjarnasti sanngjarnastir sanngjarnastra sanngjarnastrar sanngjarnastri sanngjarnasts sanngjarnastur sanngjarni sanngjarnir sanngjarnra sanngjarnrar sanngjarnri sanngjarns sanngjarnt sanngjörn sanngjörnu sanngjörnum sanngjörnust sanngjörnustu sanngjörnustum
+90	1690	skyndilega	skyndilegast
+91	1691	stuðull	stuðla stuðlana stuðlanna stuðlar stuðlarnir stuðlað stuðlaði stuðli stuðlinum stuðlum stuðlunum stuðul stuðulinn stuðullinn stuðuls stuðulsins
+92	1692	fjarri	fjær fjærst
+93	1693	móta	mótandi mótar mótast mótað mótaða mótaðan mótaðar mótaði mótaðir mótaðist mótaðra mótaðrar mótaðri mótaðs mótaðu mótaður móti mótir mótist mótið mótum mótumst mótuð mótuðu mótuðum mótuðumst mótuðust mótuðuð
+94	1694	hægja	hægi hægir hægist hægið hægjandi hægjast hægjum hægjumst hægst hægt hægði hægðir hægðist hægðu hægðum hægðumst hægðust hægðuð
+95	1695	stöðugt	stöðugar stöðugast
+96	1696	fyrrum	
+97	1697	skýring	skýringa skýringanna skýringar skýringarinnar skýringarnar skýringin skýringu skýringum skýringuna skýringunni skýringunum
+98	1698	vísbending	vísbendinga vísbendinganna vísbendingar vísbendingarinnar vísbendingarnar vísbendingin vísbendingu vísbendingum vísbendinguna vísbendingunni vísbendingunum
+99	1699	kleifur	kleif kleifa kleifan kleifar kleifara kleifari kleifast kleifasta kleifastan kleifastar kleifasti kleifastir kleifastra kleifastrar kleifastri kleifasts kleifastur kleifi kleifir kleifra kleifrar kleifri kleifs kleift kleifu kleifum kleifust kleifustu kleifustum
+100	1700	útvarp	útvarpa útvarpanna útvarpi útvarpinu útvarpið útvarps útvarpsins útvörp útvörpin útvörpum útvörpunum

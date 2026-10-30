@@ -1,0 +1,100 @@
+1	1101	menntun	menntunar menntunarinnar menntunin menntunina menntuninni
+2	1102	ástand	ástandi ástandinu ástandið ástands ástandsins
+3	1103	drottning	drottninga drottninganna drottningar drottningarinnar drottningarnar drottningin drottningu drottningum drottninguna drottningunni drottningunum
+4	1104	örn	arna arnanna arnar arnarins erni ernina erninum ernir ernirnir örninn örnum örnunum
+5	1105	mögulegur	möguleg mögulega mögulegan mögulegar mögulegast mögulegasta mögulegastan mögulegastar mögulegasti mögulegastir mögulegastra mögulegastrar mögulegastri mögulegasts mögulegastur mögulegi mögulegir mögulegra mögulegrar mögulegri mögulegs mögulegt mögulegu mögulegum mögulegust mögulegustu mögulegustum
+6	1106	dreifa	dreifandi dreifast dreifi dreifir dreifirðu dreifist dreifið dreifst dreift dreifum dreifumst dreifð dreifða dreifðan dreifðar dreifði dreifðir dreifðirðu dreifðist dreifðra dreifðrar dreifðri dreifðs dreifðu dreifðum dreifðumst dreifður dreifðust dreifðuð
+7	1107	ís	ísa ísana ísanna ísar ísarnir ísi ísinn ísnum íss íssins ísum ísunum
+8	1108	sameiginlegur	sameiginleg sameiginlega sameiginlegan sameiginlegar sameiginlegast sameiginlegasta sameiginlegastan sameiginlegastar sameiginlegasti sameiginlegastir sameiginlegastra sameiginlegastrar sameiginlegastri sameiginlegasts sameiginlegastur sameiginlegi sameiginlegir sameiginlegra sameiginlegrar sameiginlegri sameiginlegs sameiginlegt sameiginlegu sameiginlegum sameiginlegust sameiginlegustu sameiginlegustum
+9	1109	rangur	ranga rangan rangar rangara rangari rangast rangasta rangastan rangastar rangasti rangastir rangastra rangastrar rangastri rangasts rangastur rangi rangir rangra rangrar rangri rangs rangt röng röngu röngum röngust röngustu röngustum
+10	1110	frí	fría fríanna fríi fríin fríinu fríið frís frísins fríum fríunum
+11	1111	ala	alandi alda aldar aldi aldir aldu ali alin alinn alinna alinnar alinni alins alir alirðu alið el elur elurðu æli ælir ælirðu ælu ælum æluð ól ólst ólstu ólu ólum óluð öldu öldum ölum
+12	1112	virkur	virk virka virkan virkar virkara virkari virkast virkasta virkastan virkastar virkasti virkastir virkastra virkastrar virkastri virkasts virkastur virki virkir virkra virkrar virkri virks virkt virku virkum virkust virkustu virkustum
+13	1113	miðja	miðjan miðjanna miðjar miðjast miðjað miðjaða miðjaðan miðjaðar miðjaði miðjaðir miðjaðist miðjaðra miðjaðrar miðjaðri miðjaðs miðjaðu miðjaður miðji miðjir miðjist miðjið miðju miðjum miðjumst miðjuna miðjunnar miðjunni miðjunum miðjur miðjurnar miðjuð miðjuðu miðjuðum miðjuðumst miðjuðust miðjuðuð
+14	1114	stjórnvald	stjórnvalda stjórnvaldanna stjórnvaldi stjórnvaldinu stjórnvaldið stjórnvalds stjórnvaldsins stjórnvöld stjórnvöldin stjórnvöldum stjórnvöldunum
+15	1115	seint	seinast
+16	1116	flugvöllur	flugvalla flugvallanna flugvallar flugvallarins flugvelli flugvellina flugvellinum flugvellir flugvellirnir flugvöll flugvöllinn flugvöllum flugvöllunum flugvöllurinn
+17	1117	listamaður	listamann listamanna listamannanna listamanni listamanninn listamanninum listamanns listamannsins listamaðurinn listamenn listamennina listamennirnir listamönnum listamönnunum
+18	1118	skella	skall skallst skallstu skell skellan skellandi skellanna skellast skelli skellir skellirðu skellist skellið skellna skellnanna skellst skellt skellti skelltir skelltist skelltu skelltum skelltumst skelltust skelltuð skellu skellum skellumst skelluna skellunnar skellunni skellunum skellur skellurnar skellurðu skollin skollinn skollinna skollinnar skollinni skollins skollið skollna skollnar skollni skollnir skollnu skollnum skullu skullum skulluð skylli skyllir skyllirðu skyllu skyllum skylluð
+19	1119	heilagur	heilaga heilagan heilagar heilagara heilagari heilagast heilagasta heilagastan heilagastar heilagasti heilagastir heilagastra heilagastrar heilagastri heilagasts heilagastur heilagi heilagir heilagra heilagrar heilagri heilags heilagt heilög heilögu heilögum heilögust heilögustu heilögustum
+20	1120	algjörlega	
+21	1121	völlur	valla vallanna vallar vallarins velli vellina vellinum vellir vellirnir völl völlinn völlum völlunum völlurinn
+22	1122	hanna	hannandi hannar hannarðu hannast hannað hannaða hannaðan hannaðar hannaði hannaðir hannaðirðu hannaðist hannaðra hannaðrar hannaðri hannaðs hannaðu hannaður hanni hannir hannist hannið hönnum hönnumst hönnuð hönnuðu hönnuðum hönnuðumst hönnuðust hönnuðuð
+23	1123	hraði	hraða hraðana hraðann hraðanna hraðans hraðanum hraðar hraðarnir hraðinn hröðum hröðunum
+24	1124	danskur	danska danskan danskar danskara danskari danskast danskasta danskastan danskastar danskasti danskastir danskastra danskastrar danskastri danskasts danskastur danski danskir danskra danskrar danskri dansks danskt dönsk dönsku dönskum dönskust dönskustu dönskustum
+25	1125	skref	skrefa skrefanna skrefi skrefin skrefinu skrefið skrefs skrefsins skrefum skrefunum
+26	1126	breskur	bresk breska breskan breskar breskara breskari breskast breskasta breskastan breskastar breskasti breskastir breskastra breskastrar breskastri breskasts breskastur breski breskir breskra breskrar breskri bresks breskt bresku breskum breskust breskustu breskustum
+27	1127	minning	minninga minninganna minningar minningarinnar minningarnar minningin minningu minningum minninguna minningunni minningunum
+28	1128	óvinur	óvin óvina óvinanna óvinar óvinarins óvini óvinina óvininn óvininum óvinir óvinirnir óvinum óvinunum óvinurinn
+29	1129	beygja	beygi beygir beygirðu beygist beygið beygjan beygjandi beygjanna beygjast beygju beygjum beygjumst beygjuna beygjunnar beygjunni beygjunum beygjur beygjurnar beygna beygnanna beygst beygt beygð beygða beygðan beygðar beygði beygðir beygðirðu beygðist beygðra beygðrar beygðri beygðs beygðu beygðum beygðumst beygður beygðust beygðuð
+30	1130	fallega	fallegar fallegast
+31	1131	hlæja	hlegið hlæ hlægi hlægir hlægirðu hlægju hlægjum hlægjuð hlæi hlæir hlæirðu hlæið hlæjandi hlæjum hlær hlærð hlærðu hlæðu hló hlógu hlógum hlóguð hlóst hlóstu
+32	1132	borgari	borgara borgarana borgarann borgaranna borgarans borgaranum borgarar borgararnir borgarinn borgurum borgurunum
+33	1133	skógur	skóg skóga skógana skóganna skógar skógarins skógarnir skógi skóginn skóginum skógum skógunum skógurinn
+34	1134	máttur	mátt mátta máttanna máttar máttarins máttinn máttum máttunum mátturinn mætti mættina mættinum mættir mættirnir
+35	1135	ýta	ýst ýstu ýtan ýtandi ýtanna ýtast ýti ýtir ýtirðu ýtist ýtið ýtna ýtnanna ýtt ýtti ýttir ýttirðu ýttist ýttu ýttum ýttumst ýttust ýttuð ýtu ýtum ýtumst ýtuna ýtunnar ýtunni ýtunum ýtur ýturnar
+36	1136	hátíð	hátíða hátíðanna hátíðar hátíðarinnar hátíðarnar hátíðin hátíðina hátíðinni hátíðir hátíðirnar hátíðum hátíðunum
+37	1137	særa	særandi særast særi særir særirðu særist særistu særið særst sært særum særumst særð særða særðan særðar særði særðir særðirðu særðist særðistu særðra særðrar særðri særðs særðu særðum særðumst særður særðust særðuð
+38	1138	lest	lesta lestanna lestar lestarinnar lestin lestina lestinni lestir lestirnar lestum lestunum
+39	1139	morð	morða morðanna morði morðin morðinu morðið morðs morðsins morðum morðunum
+40	1140	sjúklingur	sjúkling sjúklinga sjúklingana sjúklinganna sjúklingar sjúklingarnir sjúklingi sjúklinginn sjúklingnum sjúklings sjúklingsins sjúklingum sjúklingunum sjúklingurinn
+41	1141	hækka	hækkandi hækkar hækkað hækkaða hækkaðan hækkaðar hækkaði hækkaðir hækkaðra hækkaðrar hækkaðri hækkaðs hækkaðu hækkaður hækki hækkir hækkið hækkum hækkuð hækkuðu hækkuðum hækkuðuð
+42	1142	skór	skó skóa skóinn skóm skóna skónna skónum skórinn skórnir skós skósins
+43	1143	æfing	æfinga æfinganna æfingar æfingarinnar æfingarnar æfingin æfingu æfingum æfinguna æfingunni æfingunum
+44	1144	afleiðing	afleiðinga afleiðinganna afleiðingar afleiðingarinnar afleiðingarnar afleiðingin afleiðingu afleiðingum afleiðinguna afleiðingunni afleiðingunum
+45	1145	einkenna	einkennandi einkennast einkennd einkennda einkenndan einkenndar einkenndi einkenndir einkenndist einkenndra einkenndrar einkenndri einkennds einkenndu einkenndum einkenndumst einkenndur einkenndust einkennduð einkenni einkennir einkennist einkennið einkennst einkennt einkennum einkennumst
+46	1146	meirihluti	meirihluta meirihlutana meirihlutann meirihlutanna meirihlutans meirihlutanum meirihlutar meirihlutarnir meirihlutinn meirihlutum meirihlutunum
+47	1147	hræða	hrædd hrædda hræddan hræddar hræddi hræddir hræddirðu hræddist hræddistu hræddra hræddrar hræddri hrædds hræddu hræddum hræddumst hræddur hræddust hrædduð hrætt hræðan hræðandi hræðanna hræðast hræði hræðir hræðirðu hræðist hræðistu hræðið hræðna hræðnanna hræðst hræðu hræðum hræðumst hræðuna hræðunnar hræðunni hræðunum hræður hræðurnar
+48	1148	parís	parísa parísana parísanna parísar parísarnir parísinn parísnum paríss paríssins parísum parísunum
+49	1149	víkja	veik veikst veikstu viki vikin vikinn vikinna vikinnar vikinni vikins vikir vikirðu vikist vikistu vikið vikju vikjum vikjumst vikjust vikjuð vikna viknar vikni viknir viknu viknum viku vikum vikumst vikust vikuð vék vékst vékstu vík víki víkir víkirðu víkist víkistu víkið víkjandi víkjast víkjum víkjumst víkst víkstu víktu víkur víkurðu
+50	1150	sala	salan salanna salna salnanna sölu sölum söluna sölunnar sölunni sölunum sölur sölurnar
+51	1151	laun	launa launanna launar launarinnar launin launina launinni launum laununum
+52	1152	köttur	katta kattanna kattar kattarins ketti kettina kettinum kettir kettirnir kött köttinn köttum köttunum kötturinn
+53	1153	úrslit	úrslita úrslitanna úrslitin úrslitum úrslitunum
+54	1154	klukkustund	klukkustunda klukkustundanna klukkustundar klukkustundarinnar klukkustundin klukkustundina klukkustundinni klukkustundir klukkustundirnar klukkustundum klukkustundunum
+55	1155	embætti	embætta embættanna embættin embættinu embættis embættisins embættið embættum embættunum
+56	1156	meistari	meistara meistarana meistarann meistaranna meistarans meistaranum meistarar meistararnir meistarinn meisturum meisturunum
+57	1157	hljóð	hljóða hljóðanna hljóði hljóðin hljóðinu hljóðið hljóðs hljóðsins hljóðum hljóðunum
+58	1158	stýra	stýrandi stýrast stýri stýrir stýrirðu stýrist stýrið stýrst stýrt stýrum stýrumst stýrð stýrða stýrðan stýrðar stýrði stýrðir stýrðist stýrðra stýrðrar stýrðri stýrðs stýrðu stýrðum stýrðumst stýrður stýrðust stýrðuð
+59	1159	árna	árnandi árnar árnast árnað árnaða árnaðan árnaðar árnaði árnaðir árnaðist árnaðra árnaðrar árnaðri árnaðs árnaðu árnaður árni árnir árnist árnið árnum árnumst árnuð árnuðu árnuðum árnuðumst árnuðust árnuðuð
+60	1160	blessa	blessandi blessar blessast blessað blessaða blessaðan blessaðar blessaði blessaðir blessaðist blessaðra blessaðrar blessaðri blessaðs blessaðu blessaður blessi blessir blessist blessið blessum blessumst blessuð blessuðu blessuðum blessuðumst blessuðust blessuðuð
+61	1161	hræðilegur	hræðileg hræðilega hræðilegan hræðilegar hræðilegast hræðilegasta hræðilegastan hræðilegastar hræðilegasti hræðilegastir hræðilegastra hræðilegastrar hræðilegastri hræðilegasts hræðilegastur hræðilegi hræðilegir hræðilegra hræðilegrar hræðilegri hræðilegs hræðilegt hræðilegu hræðilegum hræðilegust hræðilegustu hræðilegustum
+62	1162	gruna	grunandi grunar grunað grunaða grunaðan grunaðar grunaði grunaðir grunaðra grunaðrar grunaðri grunaðs grunaður gruni grunir grunið grunum grunuð grunuðu grunuðum grunuðuð
+63	1163	minnast	minnist minnst minntist minntumst minntust minnumst
+64	1164	kyssa	kyssandi kyssi kyssir kyssirðu kyssið kysst kyssta kysstan kysstar kyssti kysstir kysstirðu kysstra kysstrar kysstri kyssts kysstu kysstum kysstur kysstuð kyssum
+65	1165	duga	dugandi dugar dugarðu dugað dugaði dugaðirðu dugi dugir dugirðu dugið dugum duguðuði dugði dugðir dugðirðu dugðu dugðum dugðuð dygði dygðir dygðirðu dygðu dygðum dygðuð
+66	1166	taska	taskan taskanna tösku töskum töskuna töskunnar töskunni töskunum töskur töskurnar
+67	1167	barátta	baráttan baráttu baráttuna baráttunnar baráttunni
+68	1168	kassi	kassa kassana kassann kassanna kassans kassanum kassar kassarnir kassinn kössum kössunum
+69	1169	þýskur	þýsk þýska þýskan þýskar þýskara þýskari þýskast þýskasta þýskastan þýskastar þýskasti þýskastir þýskastra þýskastrar þýskastri þýskasts þýskastur þýski þýskir þýskra þýskrar þýskri þýsks þýskt þýsku þýskum þýskust þýskustu þýskustum
+70	1170	þykjast	þykist þykistu þykjumst þættist þættistu þættumst þættust þóst þóttist þóttistu þóttumst þóttust
+71	1171	undirbúa	undirbjuggu undirbjuggum undirbjugguð undirbjó undirbjóst undirbjóstu undirbyggi undirbyggir undirbyggju undirbyggjum undirbyggjuð undirbúandi undirbúi undirbúin undirbúinn undirbúinna undirbúinnar undirbúinni undirbúins undirbúir undirbúið undirbúna undirbúnar undirbúni undirbúnir undirbúnu undirbúnum undirbúum undirbúðu undirbý undirbýr undirbýrð undirbýrðu
+72	1172	reikningur	reikning reikninga reikningana reikninganna reikningar reikningarnir reikningi reikninginn reikningnum reiknings reikningsins reikningum reikningunum reikningurinn
+73	1173	magn	magna magnanna magni magninu magnið magns magnsins mögn mögnin mögnum mögnunum
+74	1174	unna	ann annt anntu unnandi unnast unnað unni unnir unnirðu unnist unnið unnt unntu unnu unnum unnumst unnust unnuð ynni ynnir ynnirðu ynnu ynnum ynnumst ynnust ynnuð
+75	1175	skjal	skjala skjalanna skjali skjalinu skjalið skjals skjalsins skjöl skjölin skjölum skjölunum
+76	1176	hægur	hæg hæga hægan hægar hægara hægari hægast hægasta hægastan hægastar hægasti hægastir hægastra hægastrar hægastri hægasts hægastur hægi hægir hægra hægrar hægs hægt hægu hægum hægust hægustu hægustum
+77	1177	aðallega	
+78	1178	skilgreina	skilgreinandi skilgreinast skilgreind skilgreinda skilgreindan skilgreindar skilgreindi skilgreindir skilgreindist skilgreindra skilgreindrar skilgreindri skilgreinds skilgreindu skilgreindum skilgreindumst skilgreindur skilgreindust skilgreinduð skilgreini skilgreinir skilgreinirðu skilgreinist skilgreinið skilgreinst skilgreint skilgreinum skilgreinumst
+79	1179	pakki	pakka pakkana pakkann pakkanna pakkans pakkanum pakkar pakkarnir pakkinn pökkum pökkunum
+80	1180	prófessor	prófessora prófessorana prófessoranna prófessorar prófessorarnir prófessorinn prófessornum prófessors prófessorsins prófessorum prófessorunum
+81	1181	pólitískur	pólitísk pólitíska pólitískan pólitískar pólitískara pólitískari pólitískast pólitískasta pólitískastan pólitískastar pólitískasti pólitískastir pólitískastra pólitískastrar pólitískastri pólitískasts pólitískastur pólitíski pólitískir pólitískra pólitískrar pólitískri pólitísks pólitískt pólitísku pólitískum pólitískust pólitískustu pólitískustum
+82	1182	springa	sprakk sprakkst sprakkstu spring springandi springdu springi springir springirðu springið springum springur springurðu sprungin sprunginn sprunginna sprunginnar sprunginni sprungins sprungið sprungna sprungnar sprungni sprungnir sprungnu sprungnum sprungu sprungum sprunguð spryngi spryngir spryngirðu spryngju spryngjum spryngjuð
+83	1183	náinn	náin náinna náinnar náinni náins náið nána nánar nánara nánari nánasta nánastan nánastar nánasti nánastir nánastra nánastrar nánastri nánasts nánastur náni nánir nánu nánum nánust nánustu nánustum
+84	1184	heitt	heitar heitast
+85	1185	gull	gulla gullanna gulli gullin gullinu gullið gulls gullsins gullum gullunum
+86	1186	réttindi	réttinda réttindanna réttindin réttindum réttindunum
+87	1187	rekstur	rekstra rekstrana rekstranna rekstrar rekstrarins rekstrarnir rekstri rekstrinum rekstrum rekstrunum reksturinn reksturs rekstursins
+88	1188	asni	asna asnana asnann asnanna asnans asnanum asnar asnarnir asninn ösnum ösnunum
+89	1189	smíða	smíðandi smíðar smíðast smíðað smíðaða smíðaðan smíðaðar smíðaði smíðaðir smíðaðirðu smíðaðist smíðaðra smíðaðrar smíðaðri smíðaðs smíðaðu smíðaður smíði smíðir smíðist smíðið smíðum smíðumst smíðuð smíðuðu smíðuðum smíðuðumst smíðuðust smíðuðuð
+90	1190	vörn	varna varnanna varnar varnarinnar varnir varnirnar vörnin vörnina vörninni vörnum vörnunum
+91	1191	öðruvísi	
+92	1192	lýsing	lýsinga lýsinganna lýsingar lýsingarinnar lýsingarnar lýsingin lýsingu lýsingum lýsinguna lýsingunni lýsingunum
+93	1193	höfn	hafna hafnanna hafnar hafnarinnar hafnir hafnirnar höfnin höfnina höfninni höfnum höfnunum
+94	1194	brjálaður	brjálað brjálaða brjálaðan brjálaðar brjálaðast brjálaðasta brjálaðastan brjálaðastar brjálaðasti brjálaðastir brjálaðastra brjálaðastrar brjálaðastri brjálaðasts brjálaðastur brjálaði brjálaðir brjálaðra brjálaðrar brjálaðri brjálaðs brjáluð brjáluðu brjáluðum brjáluðust brjáluðustu brjáluðustum
+95	1195	reiður	reitt reið reiða reiðan reiðar reiðara reiðari reiðast reiðasta reiðastan reiðastar reiðasti reiðastir reiðastra reiðastrar reiðastri reiðasts reiðastur reiði reiðir reiðra reiðrar reiðri reiðs reiðu reiðum reiðust reiðustu reiðustum
+96	1196	fjölmargur	fjölmarga fjölmargan fjölmargar fjölmargi fjölmargir fjölmargra fjölmargrar fjölmargri fjölmargs fjölmargt fjölmörg fjölmörgu fjölmörgum
+97	1197	hvergi	
+98	1198	týna	týnandi týnd týnda týndan týndar týndi týndir týndra týndrar týndri týnds týndu týndum týndur týnduð týni týnir týnið týnt týnum
+99	1199	þörf	þarfa þarfanna þarfar þarfarinnar þarfir þarfirnar þörfin þörfina þörfinni þörfum þörfunum
+100	1200	dásamlegur	dásamleg dásamlega dásamlegan dásamlegar dásamlegast dásamlegasta dásamlegastan dásamlegastar dásamlegasti dásamlegastir dásamlegastra dásamlegastrar dásamlegastri dásamlegasts dásamlegastur dásamlegi dásamlegir dásamlegra dásamlegrar dásamlegri dásamlegs dásamlegt dásamlegu dásamlegum dásamlegust dásamlegustu dásamlegustum

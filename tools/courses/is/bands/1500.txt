@@ -1,0 +1,100 @@
+1	1401	kalli	kalla kallana kallann kallanna kallans kallanum kallar kallarnir kallinn köllum köllunum
+2	1402	flutningur	flutning flutninga flutningana flutninganna flutningar flutningarnir flutningi flutninginn flutningnum flutnings flutningsins flutningum flutningunum flutningurinn
+3	1403	hjól	hjóla hjólanna hjóli hjólin hjólinu hjólið hjóls hjólsins hjólum hjólunum
+4	1404	afhenda	afhendandi afhendast afhendi afhendir afhendirðu afhendist afhendið afhendum afhendumst afhenst afhent afhenta afhentan afhentar afhenti afhentir afhentist afhentra afhentrar afhentri afhents afhentu afhentum afhentumst afhentur afhentust afhentuð
+5	1405	undanfarinn	undanfarin undanfarinna undanfarinnar undanfarinni undanfarins undanfarið undanfarna undanfarnar undanfarni undanfarnir undanförnu undanförnum
+6	1406	álit	álita álitanna áliti álitin álitinu álitið álits álitsins álitum álitunum
+7	1407	yfirborð	yfirborði yfirborðinu yfirborðið yfirborðs yfirborðsins
+8	1408	tvennur	tvenn tvennan tvennar tvennir tvennra tvennrar tvennri tvenns tvennt tvennu tvennum
+9	1409	ofursti	ofursta ofurstana ofurstann ofurstanna ofurstans ofurstanum ofurstar ofurstarnir ofurstinn ofurstum ofurstunum
+10	1410	búningur	búning búninga búningana búninganna búningar búningarnir búningi búninginn búningnum búnings búningsins búningum búningunum búningurinn
+11	1411	símtal	símtala símtalanna símtali símtalinu símtalið símtals símtalsins símtöl símtölin símtölum símtölunum
+12	1412	stórkostlegur	stórkostleg stórkostlega stórkostlegan stórkostlegar stórkostlegast stórkostlegasta stórkostlegastan stórkostlegastar stórkostlegasti stórkostlegastir stórkostlegastra stórkostlegastrar stórkostlegastri stórkostlegasts stórkostlegastur stórkostlegi stórkostlegir stórkostlegra stórkostlegrar stórkostlegri stórkostlegs stórkostlegt stórkostlegu stórkostlegum stórkostlegust stórkostlegustu stórkostlegustum
+13	1413	reykja	reyki reykir reykirðu reykist reykið reykjandi reykjast reykjum reykjumst reykst reykt reykta reyktan reyktar reykti reyktir reyktirðu reyktist reyktra reyktrar reyktri reykts reyktu reyktum reyktumst reyktur reyktust reyktuð
+14	1414	léttur	létt létta léttan léttar léttara léttari léttast léttasta léttastan léttastar léttasti léttastir léttastra léttastrar léttastri léttasts léttastur létti léttir léttra léttrar léttri létts léttu léttum léttust léttustu léttustum
+15	1415	lifandi	lifanda lifandann lifandans lifandanum lifandinn lifenda lifendanna lifendum lifendunum lifendur lifendurna lifendurnir
+16	1416	framkvæmdastjóri	framkvæmdastjóra framkvæmdastjórana framkvæmdastjórann framkvæmdastjóranna framkvæmdastjórans framkvæmdastjóranum framkvæmdastjórar framkvæmdastjórarnir framkvæmdastjórinn framkvæmdastjórum framkvæmdastjórunum
+17	1417	þjóna	þjónandi þjónar þjónarðu þjónað þjónaða þjónaðan þjónaðar þjónaði þjónaðir þjónaðra þjónaðrar þjónaðri þjónaðs þjónaðu þjónaður þjóni þjónir þjónið þjónum þjónuð þjónuðu þjónuðum þjónuðuð
+18	1418	ótti	ótta óttann óttans óttanum óttinn
+19	1419	rithöfundur	rithöfund rithöfunda rithöfundana rithöfundanna rithöfundar rithöfundarins rithöfundarnir rithöfundi rithöfundinn rithöfundinum rithöfundum rithöfundunum rithöfundurinn
+20	1420	smár	smá smáa smáan smáar smái smáir smárra smárrar smárri smás smátt smáu smáum smærra smærri smæst smæsta smæstan smæstar smæsti smæstir smæstra smæstrar smæstri smæsts smæstu smæstum smæstur
+21	1421	hegðun	hegðunar hegðunarinnar hegðunin hegðunina hegðuninni
+22	1422	útvega	útvegandi útvegar útvegarðu útvegast útvegað útvegaða útvegaðan útvegaðar útvegaði útvegaðir útvegaðist útvegaðra útvegaðrar útvegaðri útvegaðs útvegaðu útvegaður útvegi útvegir útvegist útvegið útvegum útvegumst útveguð útveguðu útveguðum útveguðumst útveguðust útveguðuð
+23	1423	fjölga	fjölgandi fjölgar fjölgað fjölgaði fjölgaðir fjölgaðu fjölgi fjölgir fjölgið fjölgum fjölguðu fjölguðum fjölguðuð
+24	1424	árlega	
+25	1425	hanga	hangandi hangi hangin hanginn hanginna hanginnar hanginni hangins hangir hangirðu hangið hangna hangnar hangni hangnir hangtu hékk hékkst héngi héngir héngju héngjum héngjuð héngu héngum hénguð höngnu höngnum höngum
+26	1426	sunnudagur	sunnudag sunnudaga sunnudagana sunnudaganna sunnudagar sunnudagarnir sunnudaginn sunnudags sunnudagsins sunnudagurinn sunnudegi sunnudeginum sunnudögum sunnudögunum
+27	1427	prinsessa	prinsessan prinsessanna prinsessu prinsessum prinsessuna prinsessunnar prinsessunni prinsessunum prinsessur prinsessurnar
+28	1428	hjónaband	hjónabanda hjónabandanna hjónabandi hjónabandinu hjónabandið hjónabands hjónabandsins hjónabönd hjónaböndin hjónaböndum hjónaböndunum
+29	1429	fjarlægð	fjarlægða fjarlægðanna fjarlægðar fjarlægðarinnar fjarlægðin fjarlægðina fjarlægðinni fjarlægðir fjarlægðirnar fjarlægðum fjarlægðunum
+30	1430	eigna	eignandi eignar eignað eignaða eignaðan eignaðar eignaði eignaðir eignaðistu eignaðra eignaðrar eignaðri eignaðs eignaðu eignaður eigni eignir eignist eignið eignum eignumst eignuð eignuðu eignuðum eignuðumst eignuðust eignuðuð
+31	1431	fingur	fingra fingranna fingri fingrinum fingrum fingrunum fingurinn fingurna fingurnir fingurs fingursins
+32	1432	veður	veðra veðranna veðri veðrin veðrinu veðrið veðrum veðrunum veðurs veðursins
+33	1433	ævintýri	ævintýra ævintýranna ævintýrin ævintýrinu ævintýris ævintýrisins ævintýrið ævintýrum ævintýrunum
+34	1434	stíll	stíl stíla stílana stílanna stílar stílarnir stílinn stíllinn stílnum stíls stílsins stílum stílunum
+35	1435	bjartur	bjart bjarta bjartan bjartar bjartara bjartari bjartast bjartasta bjartastan bjartastar bjartasti bjartastir bjartastra bjartastrar bjartastri bjartasts bjartastur bjarti bjartir bjartra bjartrar bjartri bjarts björt björtu björtum björtust björtustu björtustum
+36	1436	tilfelli	tilfella tilfellanna tilfellin tilfellinu tilfellis tilfellisins tilfellið tilfellum tilfellunum
+37	1437	meðlimur	meðlim meðlima meðlimanna meðlimi meðlimina meðliminn meðlimir meðlimirnir meðlimnum meðlims meðlimsins meðlimum meðlimunum meðlimurinn
+38	1438	framlag	framlaga framlaganna framlagi framlaginu framlagið framlags framlagsins framlög framlögin framlögum framlögunum
+39	1439	blaðamaður	blaðamann blaðamanna blaðamannanna blaðamanni blaðamanninn blaðamanninum blaðamanns blaðamannsins blaðamaðurinn blaðamenn blaðamennina blaðamennirnir blaðamönnum blaðamönnunum
+40	1440	morgunblað	morgunblaða morgunblaðanna morgunblaði morgunblaðinu morgunblaðið morgunblaðs morgunblaðsins morgunblöð morgunblöðin morgunblöðum morgunblöðunum
+41	1441	lána	lánandi lánar lánast lánað lánaða lánaðan lánaðar lánaði lánaðir lánaðist lánaðra lánaðrar lánaðri lánaðs lánaðu lánaður láni lánir lánist lánið lánum lánumst lánuð lánuðu lánuðum lánuðumst lánuðust lánuðuð
+42	1442	tunga	tungan tungna tungnanna tungu tungum tunguna tungunnar tungunni tungunum tungur tungurnar
+43	1443	skiptast	skipst skiptist skiptistu skiptumst skiptust
+44	1444	leyndarmál	leyndarmála leyndarmálanna leyndarmáli leyndarmálin leyndarmálinu leyndarmálið leyndarmáls leyndarmálsins leyndarmálum leyndarmálunum
+45	1445	svangur	svanga svangan svangar svangara svangari svangast svangasta svangastan svangastar svangasti svangastir svangastra svangastrar svangastri svangasts svangastur svangi svanginn svangir svangra svangrar svangri svangs svangt svengra svengri svengst svengsta svengstan svengstar svengsti svengstir svengstra svengstrar svengstri svengsts svengstu svengstum svengstur svöng svöngu svöngum svöngust svöngustu svöngustum
+46	1446	reikna	reiknandi reiknar reiknarðu reiknast reiknastu reiknað reiknaða reiknaðan reiknaðar reiknaði reiknaðir reiknaðirðu reiknaðist reiknaðra reiknaðrar reiknaðri reiknaðs reiknaðu reiknaður reikni reiknir reiknirðu reiknist reiknið reiknum reiknumst reiknuð reiknuðu reiknuðum reiknuðumst reiknuðust reiknuðuð
+47	1447	norskur	norsk norska norskan norskar norskara norskari norskast norskasta norskastan norskastar norskasti norskastir norskastra norskastrar norskastri norskasts norskastur norski norskir norskra norskrar norskri norsks norskt norsku norskum norskust norskustu norskustum
+48	1448	rita	ritandi ritar ritast ritað ritaða ritaðan ritaðar ritaði ritaðir ritaðist ritaðra ritaðrar ritaðri ritaðs ritaðu ritaður riti ritir ritist ritið ritum ritumst rituð rituðu rituðum rituðumst rituðust rituðuð
+49	1449	samkomulag	samkomulagi samkomulaginu samkomulagið samkomulags samkomulagsins
+50	1450	vettvangur	vettvang vettvangi vettvanginn vettvanginum vettvangnum vettvangs vettvangsins vettvangurinn vettvöngum
+51	1451	sætta	sæstu sætt sættan sættandi sættar sætti sættir sættirnar sættirðu sættið sættra sættrar sættri sætts sættu sættum sættur sættuð
+52	1452	hugsanlega	
+53	1453	áætla	áætlandi áætlar áætlast áætlað áætlaða áætlaðan áætlaðar áætlaði áætlaðir áætlaðist áætlaðra áætlaðrar áætlaðri áætlaðs áætlaðu áætlaður áætli áætlir áætlist áætlið áætlum áætlumst áætluð áætluðu áætluðum áætluðumst áætluðust áætluðuð
+54	1454	gröf	grafa grafanna grafar grafarinnar grafir grafirnar gröfin gröfina gröfinni gröfum gröfunum
+55	1455	punktur	punkt punkta punktana punktanna punktar punktarnir punkti punktinn punktinum punkts punktsins punktum punktunum punkturinn
+56	1456	rugla	ruglandi ruglar ruglarðu ruglast ruglastu ruglað ruglaða ruglaðan ruglaðar ruglaði ruglaðir ruglaðirðu ruglaðist ruglaðistu ruglaðra ruglaðrar ruglaðri ruglaðs ruglaðu ruglaður rugli ruglir ruglist ruglið ruglum ruglumst rugluð rugluðu rugluðum rugluðumst rugluðust rugluðuð
+57	1457	áhorfandi	áhorfanda áhorfandann áhorfandans áhorfandanum áhorfandinn áhorfenda áhorfendanna áhorfendum áhorfendunum áhorfendur áhorfendurna áhorfendurnir
+58	1458	skeið	skeiða skeiðanna skeiðar skeiðarinnar skeiðarnar skeiði skeiðin skeiðina skeiðinni skeiðinu skeiðið skeiðs skeiðsins skeiðum skeiðunum
+59	1459	heild	heilda heildanna heildar heildarinnar heildin heildina heildinni heildir heildirnar heildum heildunum
+60	1460	ferill	feril ferilinn ferillinn ferils ferilsins ferla ferlana ferlanna ferlar ferlarnir ferli ferlinum ferlum ferlunum
+61	1461	hjón	hjóna hjónanna hjónin hjónum hjónunum
+62	1462	gagnrýna	gagnrýnandi gagnrýnast gagnrýnd gagnrýnda gagnrýndan gagnrýndar gagnrýndi gagnrýndir gagnrýndirðu gagnrýndra gagnrýndrar gagnrýndri gagnrýnds gagnrýndu gagnrýndum gagnrýndur gagnrýnduð gagnrýni gagnrýnir gagnrýnið gagnrýnst gagnrýnt gagnrýnum
+63	1463	vísindamaður	vísindamann vísindamanna vísindamannanna vísindamanni vísindamanninn vísindamanninum vísindamanns vísindamannsins vísindamaðurinn vísindamenn vísindamennina vísindamennirnir vísindamönnum vísindamönnunum
+64	1464	ljótur	ljót ljóta ljótan ljótar ljótara ljótari ljótast ljótasta ljótastan ljótastar ljótasti ljótastir ljótastra ljótastrar ljótastri ljótasts ljótastur ljóti ljótir ljótra ljótrar ljótri ljóts ljótt ljótu ljótum ljótust ljótustu ljótustum
+65	1465	lof	lofi lofinu lofið lofs lofsins lofum
+66	1466	athöfn	athafna athafnanna athafnar athafnarinnar athafnir athafnirnar athöfnin athöfnina athöfninni athöfnum athöfnunum
+67	1467	brjótast	braust braustu brjóstu brjótist brjótistu brjótumst brotist brutumst brutust brytist brytistu brytumst brytust brýst brýstu
+68	1468	vefsíða	vefsíðan vefsíðna vefsíðnanna vefsíðu vefsíðum vefsíðuna vefsíðunnar vefsíðunni vefsíðunum vefsíður vefsíðurnar
+69	1469	staðsetning	staðsetninga staðsetninganna staðsetningar staðsetningarinnar staðsetningarnar staðsetningin staðsetningu staðsetningum staðsetninguna staðsetningunni staðsetningunum
+70	1470	hlakka	hlakkandi hlakkar hlakkast hlakkað hlakkaði hlakkaðir hlakkaðist hlakkaðu hlakki hlakkir hlakkist hlakkið hlökkum hlökkumst hlökkuðu hlökkuðum hlökkuðumst hlökkuðust hlökkuðuð
+71	1471	spil	spila spilanna spili spilin spilinu spilið spils spilsins spilum spilunum
+72	1472	nauðsynlegur	nauðsynleg nauðsynlega nauðsynlegan nauðsynlegar nauðsynlegast nauðsynlegasta nauðsynlegastan nauðsynlegastar nauðsynlegasti nauðsynlegastir nauðsynlegastra nauðsynlegastrar nauðsynlegastri nauðsynlegasts nauðsynlegastur nauðsynlegi nauðsynlegir nauðsynlegra nauðsynlegrar nauðsynlegri nauðsynlegs nauðsynlegt nauðsynlegu nauðsynlegum nauðsynlegust nauðsynlegustu nauðsynlegustum
+73	1473	þak	þaka þakanna þaki þakinu þakið þaks þaksins þök þökin þökum þökunum
+74	1474	kúla	kúlan kúlna kúlnanna kúlu kúlum kúluna kúlunnar kúlunni kúlunum kúlur kúlurnar
+75	1475	föstudagur	föstudag föstudaga föstudagana föstudaganna föstudagar föstudagarnir föstudaginn föstudags föstudagsins föstudagurinn föstudegi föstudeginum föstudögum föstudögunum
+76	1476	djúpt	dýpra dýpst
+77	1477	þátttaka	þátttakan þátttöku þátttökuna þátttökunnar þátttökunni
+78	1478	piltur	pilt pilta piltana piltanna piltar piltarnir pilti piltinn piltinum pilts piltsins piltum piltunum pilturinn
+79	1479	sekur	sek seka sekan sekar sekara sekari sekast sekasta sekastan sekastar sekasti sekastir sekastra sekastrar sekastri sekasts sekastur seki sekir sekra sekrar sekri seks sekt seku sekum sekust sekustu sekustum
+80	1480	þjálfa	þjálfandi þjálfar þjálfarðu þjálfast þjálfað þjálfaða þjálfaðan þjálfaðar þjálfaði þjálfaðir þjálfaðist þjálfaðra þjálfaðrar þjálfaðri þjálfaðs þjálfaðu þjálfaður þjálfi þjálfir þjálfist þjálfið þjálfum þjálfumst þjálfuð þjálfuðu þjálfuðum þjálfuðumst þjálfuðust þjálfuðuð
+81	1481	hattur	hatt hatta hattana hattanna hattar hattarnir hatti hattinn hattinum hatts hattsins hatturinn höttum höttunum
+82	1482	sjálfsagt	
+83	1483	stöðugur	stöðug stöðuga stöðugan stöðugar stöðugast stöðugasta stöðugastan stöðugastar stöðugasti stöðugastir stöðugastra stöðugastrar stöðugastri stöðugasts stöðugastur stöðugi stöðugir stöðugra stöðugrar stöðugri stöðugs stöðugt stöðugu stöðugum stöðugust stöðugustu stöðugustum
+84	1484	líklegur	líkleg líklega líklegan líklegar líklegast líklegasta líklegastan líklegastar líklegasti líklegastir líklegastra líklegastrar líklegastri líklegasts líklegastur líklegi líklegir líklegra líklegrar líklegri líklegs líklegt líklegu líklegum líklegust líklegustu líklegustum
+85	1485	planta	plantan plantandi plantar plantast plantað plantaða plantaðan plantaðar plantaði plantaðir plantaðirðu plantaðist plantaðra plantaðrar plantaðri plantaðs plantaðu plantaður planti plantir plantist plantið plantna plantnanna plöntu plöntum plöntumst plöntuna plöntunnar plöntunni plöntunum plöntur plönturnar plöntuð plöntuðu plöntuðum plöntuðumst plöntuðust plöntuðuð
+86	1486	rót	rætur ræturnar róta rótanna rótar rótarinnar róti rótin rótina rótinni rótinu rótið róts rótsins rótum rótunum
+87	1487	hreint	hreinast hreinna
+88	1488	örlög	örlaga örlaganna örlögin örlögum örlögunum
+89	1489	háttur	hátt hátta háttanna háttar háttarins háttað háttaði háttaður háttinn háttu háttum háttunum hátturinn hátturnar háttuð hætti hættina hættinum hættir hættirnir
+90	1490	umræða	umræðan umræðanna umræðna umræðnanna umræðu umræðum umræðuna umræðunnar umræðunni umræðunum umræður umræðurnar
+91	1491	högg	högga högganna höggi höggin högginu höggið höggs höggsins höggum höggunum
+92	1492	forðast	forðaðist forðist forðumst forðuðumst forðuðust
+93	1493	tungl	tungla tunglanna tungli tunglin tunglinu tunglið tungls tunglsins tunglum tunglunum
+94	1494	tilefni	tilefna tilefnanna tilefnin tilefninu tilefnis tilefnisins tilefnið tilefnum tilefnunum
+95	1495	elda	eldandi eldar eldarðu eldað eldaða eldaðan eldaðar eldaði eldaðir eldaðirðu eldaðra eldaðrar eldaðri eldaðs eldaðu eldaður eldi eldir eldirðu eldið eldum elduð elduðu elduðum elduðuð elt elta eltan eltar elti eltir eltra eltrar eltri elts eltu eltum eltur eltuð
+96	1496	titill	titil titilinn titillinn titils titilsins titla titlana titlanna titlar titlarnir titli titlinum titlum titlunum
+97	1497	salur	sal sala salanna salar salarins sali salina salinn salir salirnir salnum salurinn sölum sölunum
+98	1498	skamma	skammandi skammar skammarðu skammast skammastu skammað skammaða skammaðan skammaðar skammaði skammaðir skammaðirðu skammaðist skammaðra skammaðrar skammaðri skammaðs skammaðu skammaður skammi skammir skammist skammið skömmum skömmumst skömmuð skömmuðu skömmuðum skömmuðumst skömmuðust skömmuðuð
+99	1499	stefnumót	stefnumóta stefnumótanna stefnumóti stefnumótin stefnumótinu stefnumótið stefnumóts stefnumótsins stefnumótum stefnumótunum
+100	1500	styrkja	styrki styrkir styrkist styrkið styrkjandi styrkjast styrkjum styrkjumst styrkst styrkt styrkta styrktan styrktar styrkti styrktir styrktist styrktra styrktrar styrktri styrkts styrktu styrktum styrktumst styrktur styrktust styrktuð

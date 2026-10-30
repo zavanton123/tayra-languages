@@ -1,0 +1,100 @@
+1	1301	heimsókn	heimsókna heimsóknanna heimsóknar heimsóknarinnar heimsóknin heimsóknina heimsókninni heimsóknir heimsóknirnar heimsóknum heimsóknunum
+2	1302	þýðing	þýðinga þýðinganna þýðingar þýðingarinnar þýðingarnar þýðingin þýðingu þýðingum þýðinguna þýðingunni þýðingunum
+3	1303	fremja	framda framdar framdi framdir framdirðu framin framinn framinna framinnar framinni framins framið frem fremdi fremdir fremdu fremdum fremduð fremjandi fremji fremjir fremjið fremjum fremurðu frömdu frömdum frömduð
+4	1304	lögmaður	lögmann lögmanna lögmannanna lögmanni lögmanninn lögmanninum lögmanns lögmannsins lögmaðurinn lögmenn lögmennina lögmennirnir lögmönnum lögmönnunum
+5	1305	róa	reri rerir rerirðu reru rerum reruð ræ rær rærð rærðu réri rérir rérirðu réru rérum réruð réruði róandi róar róast róað róaða róaðan róaðar róaði róaðir róaðist róaðra róaðrar róaðri róaðs róaðu róaður rói róin róinn róinna róinnar róinni róins róir róirðu róist róið róna rónar róni rónir rónu rónum róum róumst róuð róuðu róuðum róuðumst róuðust róuðuð róðu
+6	1306	framboð	framboða framboðanna framboði framboðin framboðinu framboðið framboðs framboðsins framboðum framboðunum
+7	1307	ljóð	ljóða ljóðanna ljóði ljóðin ljóðinu ljóðið ljóðs ljóðsins ljóðum ljóðunum
+8	1308	öflugur	öflug öfluga öflugan öflugar öflugast öflugasta öflugastan öflugastar öflugasti öflugastir öflugastra öflugastrar öflugastri öflugasts öflugastur öflugi öflugir öflugra öflugrar öflugri öflugs öflugt öflugu öflugum öflugust öflugustu öflugustum
+9	1309	hvetja	hvatt hvatta hvattan hvattar hvatti hvattir hvattirðu hvattra hvattrar hvattri hvatts hvattur hvet hvetjandi hvetji hvetjir hvetjirðu hvetjið hvetjum hvetti hvettir hvettirðu hvettu hvettum hvettuð hvetur hveturðu hvött hvöttu hvöttum hvöttuð
+10	1310	skipstjóri	skipstjóra skipstjórana skipstjórann skipstjóranna skipstjórans skipstjóranum skipstjórar skipstjórarnir skipstjórinn skipstjórum skipstjórunum
+11	1311	fagur	fagra fagran fagrar fagri fagrir fagurra fagurrar fagurri fagurs fagurt fegurra fegurri fegurst fegursta fegurstan fegurstar fegursti fegurstir fegurstra fegurstrar fegurstri fegursts fegurstu fegurstum fegurstur fögru fögrum fögur
+12	1312	feitur	feit feita feitan feitar feitara feitari feitast feitasta feitastan feitastar feitasti feitastir feitastra feitastrar feitastri feitasts feitastur feiti feitir feitra feitrar feitri feits feitt feitu feitum feitust feitustu feitustum
+13	1313	merking	merkinga merkinganna merkingar merkingarinnar merkingarnar merkingin merkingu merkingum merkinguna merkingunni merkingunum
+14	1314	náið	nánar
+15	1315	vindur	vind vinda vindana vindanna vindar vindarnir vindi vindinn vindinum vinds vindsins vindum vindunum vindurinn
+16	1316	undarlegur	undarleg undarlega undarlegan undarlegar undarlegast undarlegasta undarlegastan undarlegastar undarlegasti undarlegastir undarlegastra undarlegastrar undarlegastri undarlegasts undarlegastur undarlegi undarlegir undarlegra undarlegrar undarlegri undarlegs undarlegt undarlegu undarlegum undarlegust undarlegustu undarlegustum
+17	1317	sár	sám sára sáran sáranna sárar sárara sárari sárast sárasta sárastan sárastar sárasti sárastir sárastra sárastrar sárastri sárasts sárastur sári sárin sárinu sárir sárið sárra sárrar sárri sárs sársins sárt sáru sárum sárunum sárust sárustu sárustum
+18	1318	evrópskur	evrópsk evrópska evrópskan evrópskar evrópskara evrópskari evrópskast evrópskasta evrópskastan evrópskastar evrópskasti evrópskastir evrópskastra evrópskastrar evrópskastri evrópskasts evrópskastur evrópski evrópskir evrópskra evrópskrar evrópskri evrópsks evrópskt evrópsku evrópskum evrópskust evrópskustu evrópskustum
+19	1319	gleðja	gladda gladdan gladdar gladdi gladdir gladdirðu gladdra gladdrar gladdri gladds gladdur glatt gleddi gleddir gleddirðu gleddu gleddum gledduð gleð gleðjandi gleðji gleðjir gleðjirðu gleðjið gleðjum gleður gleðurðu glödd glöddu glöddum glödduð
+20	1320	ástfanginn	ástfangin ástfanginna ástfanginnar ástfanginni ástfangins ástfangið ástfangna ástfangnar ástfangnara ástfangnari ástfangnast ástfangnasta ástfangnastan ástfangnastar ástfangnasti ástfangnastir ástfangnastra ástfangnastrar ástfangnastri ástfangnasts ástfangnastur ástfangni ástfangnir ástföngnu ástföngnum ástföngnust ástföngnustu ástföngnustum
+21	1321	munnur	munn munna munnana munnanna munnar munnarnir munni munninn munninum munns munnsins munnum munnunum munnurinn
+22	1322	skilyrði	skilyrt skilyrtur skilyrða skilyrðanna skilyrðin skilyrðinu skilyrðis skilyrðisins skilyrðið skilyrðum skilyrðunum
+23	1323	eilífur	eilíf eilífa eilífan eilífar eilífara eilífari eilífast eilífasta eilífastan eilífastar eilífasti eilífastir eilífastra eilífastrar eilífastri eilífasts eilífastur eilífi eilífir eilífra eilífrar eilífri eilífs eilíft eilífu eilífum eilífust eilífustu eilífustum
+24	1324	fast	fastar fastast
+25	1325	klukkutími	klukkutíma klukkutímana klukkutímann klukkutímanna klukkutímans klukkutímanum klukkutímar klukkutímarnir klukkutíminn klukkutímum klukkutímunum
+26	1326	brúðkaup	brúðkaupa brúðkaupanna brúðkaupi brúðkaupin brúðkaupinu brúðkaupið brúðkaups brúðkaupsins brúðkaupum brúðkaupunum
+27	1327	einbeita	einbeitandi einbeiti einbeitir einbeitirðu einbeitið einbeitt einbeitta einbeittan einbeittar einbeitti einbeittir einbeittra einbeittrar einbeittri einbeitts einbeittu einbeittum einbeittur einbeittuð einbeitum
+28	1328	brosa	brosandi brosað brosi brosir brosirðu brosið brosti brostir brostu brostum brostuð brosum
+29	1329	skepna	skepnan skepnanna skepnu skepnum skepnuna skepnunnar skepnunni skepnunum skepnur skepnurnar
+30	1330	sverja	svarin svarinn svarinna svarinnar svarinni svarins svarist svarið svarna svarnar svarni svarnir sver sverjandi sverjast sverji sverjir sverjist sverjið sverjum sverjumst sverst sverstu sverð sverðu sværi sværir sværist sværu sværum sværumst sværust sværuð svörnu svörnum sór sórst sórstu sóru sórum sórumst sórust sóruð
+31	1331	reisa	reisan reisandi reisanna reisast reisi reisir reisist reisið reist reista reistan reistar reisti reistir reistist reistra reistrar reistri reists reistu reistum reistumst reistur reistust reistuð reisu reisum reisumst reisuna reisunnar reisunni reisunum reisur reisurnar
+32	1332	brjóst	brjósta brjóstanna brjósti brjóstin brjóstinu brjóstið brjósts brjóstsins brjóstum brjóstunum
+33	1333	stofn	stofna stofnana stofnanna stofnar stofnarnir stofni stofninn stofninum stofns stofnsins stofnum stofnunum
+34	1334	fremst	
+35	1335	hugtak	hugtaka hugtakanna hugtaki hugtakinu hugtakið hugtaks hugtaksins hugtök hugtökin hugtökum hugtökunum
+36	1336	stilla	stillan stillandi stillanna stillast stilli stillir stillist stillið stillna stillnanna stillst stillt stillta stilltan stilltar stillti stilltir stilltist stilltra stilltrar stilltri stillts stilltu stilltum stilltumst stilltur stilltust stilltuð stillu stillum stillumst stilluna stillunnar stillunni stillunum stillur stillurnar
+37	1337	hamingjusamur	hamingjusama hamingjusaman hamingjusamar hamingjusamara hamingjusamari hamingjusamast hamingjusamasta hamingjusamastan hamingjusamastar hamingjusamasti hamingjusamastir hamingjusamastra hamingjusamastrar hamingjusamastri hamingjusamasts hamingjusamastur hamingjusami hamingjusamir hamingjusamra hamingjusamrar hamingjusamri hamingjusams hamingjusamt hamingjusöm hamingjusömu hamingjusömum hamingjusömust hamingjusömustu hamingjusömustum
+38	1338	lögfræðingur	lögfræðing lögfræðinga lögfræðingana lögfræðinganna lögfræðingar lögfræðingarnir lögfræðingi lögfræðinginn lögfræðingnum lögfræðings lögfræðingsins lögfræðingum lögfræðingunum lögfræðingurinn
+39	1339	upptaka	upptakan upptakanna upptakna upptaknanna upptöku upptökum upptökuna upptökunnar upptökunni upptökunum upptökur upptökurnar
+40	1340	beina	beinandi beinast beindi beindir beindist beindu beindum beindumst beindust beinduð beini beinir beinirðu beinist beinið beinst beint beinum beinumst
+41	1341	hurð	hurða hurðanna hurðar hurðarinnar hurðin hurðina hurðinni hurðir hurðirnar hurðum hurðunum
+42	1342	henta	hentar hentað hentaði hentaðir henti hentir hentið hentum hentuðu hentuðum hentuðuð
+43	1343	sjúkrahús	sjúkrahúsa sjúkrahúsanna sjúkrahúsi sjúkrahúsin sjúkrahúsinu sjúkrahúsið sjúkrahúss sjúkrahússins sjúkrahúsum sjúkrahúsunum
+44	1344	skipun	skipana skipananna skipanir skipanirnar skipunar skipunarinnar skipunin skipunina skipuninni skipunum skipununum
+45	1345	jafna	jafnan jafnandi jafnanna jafnar jafnarðu jafnast jafnað jafnaða jafnaðan jafnaðar jafnaði jafnaðir jafnaðist jafnaðra jafnaðrar jafnaðri jafnaðs jafnaðu jafnaður jafni jafnir jafnist jafnið jöfnu jöfnum jöfnumst jöfnuna jöfnunnar jöfnunni jöfnunum jöfnur jöfnurnar jöfnuð jöfnuðu jöfnuðum jöfnuðumst jöfnuðust jöfnuðuð
+46	1346	látast	lástu látist látumst læst lést létist létumst létust
+47	1347	par	para paranna pari parinu parið pars parsins pör pörin pörum pörunum
+48	1348	neyða	neydd neydda neyddan neyddar neyddi neyddir neyddist neyddra neyddrar neyddri neydds neyddu neyddum neyddumst neyddur neyddust neydduð neytt neyðandi neyðast neyði neyðir neyðirðu neyðist neyðið neyðst neyðum neyðumst
+49	1349	aumingi	auminginn aumingja aumingjana aumingjann aumingjanna aumingjans aumingjanum aumingjar aumingjarnir aumingjum aumingjunum
+50	1350	tillaga	tillagan tillaganna tillagna tillagnanna tillögu tillögum tillöguna tillögunnar tillögunni tillögunum tillögur tillögurnar
+51	1351	synda	syndandi syndi syndir syndið syndum synt synta syntan syntar synti syntir syntirðu syntra syntrar syntri synts syntu syntum syntur syntuð
+52	1352	stjórnarskrá	stjórnarskráa stjórnarskráin stjórnarskrám stjórnarskrána stjórnarskránna stjórnarskránni stjórnarskránum stjórnarskrár stjórnarskrárinnar stjórnarskrárnar
+53	1353	kaka	kakan kakanna kakna kaknanna köku kökum kökuna kökunnar kökunni kökunum kökur kökurnar
+54	1354	þungur	þung þunga þungan þungar þungi þungir þungra þungrar þungri þungs þungt þungu þungum þyngra þyngri þyngst þyngsta þyngstan þyngstar þyngsti þyngstir þyngstra þyngstrar þyngstri þyngsts þyngstu þyngstum þyngstur
+55	1355	gráða	gráðan gráðanna gráðna gráðnanna gráðu gráðum gráðuna gráðunnar gráðunni gráðunum gráður gráðurnar
+56	1356	fæddur	fædd fædda fæddan fæddar fæddi fæddir fæddra fæddrar fæddri fædds fæddu fæddum fætt
+57	1357	hola	hol holan holandi holanna holar holast holað holaða holaðan holaðar holaði holaðir holaðist holaðra holaðrar holaðri holaðs holaðu holaður holi holir holist holið holna holnanna holu holum holumst holuna holunnar holunni holunum holur holurnar holuð holuðu holuðum holuðumst holuðust holuðuð
+58	1358	málefni	málefna málefnanna málefnin málefninu málefnis málefnisins málefnið málefnum málefnunum
+59	1359	valur	val vala valanna vali valina valinn valir valirnir valnum vals valsins valurinn völum völunum
+60	1360	dót	dóti dótinu dótið dóts dótsins
+61	1361	eign	eigna eignanna eignar eignarinnar eignin eignina eigninni eignir eignirnar eignum eignunum
+62	1362	jákvæður	jákvætt jákvæð jákvæða jákvæðan jákvæðar jákvæðara jákvæðari jákvæðast jákvæðasta jákvæðastan jákvæðastar jákvæðasti jákvæðastir jákvæðastra jákvæðastrar jákvæðastri jákvæðasts jákvæðastur jákvæði jákvæðir jákvæðra jákvæðrar jákvæðri jákvæðs jákvæðu jákvæðum jákvæðust jákvæðustu jákvæðustum
+63	1363	dá	dái dáinu dáir dáirðu dáist dáistu dáið dás dásins dást dáum dáumst dáð dáða dáðan dáðar dáði dáðir dáðist dáðistu dáðra dáðrar dáðri dáðs dáðst dáðstu dáðu dáðum dáðumst dáður dáðust dáðuð
+64	1364	forsætisráðherra	forsætisráðherrana forsætisráðherrann forsætisráðherranna forsætisráðherrans forsætisráðherranum forsætisráðherrar forsætisráðherrarnir forsætisráðherrum forsætisráðherrunum
+65	1365	spítali	spítala spítalana spítalann spítalanna spítalans spítalanum spítalar spítalarnir spítalinn spítölum spítölunum
+66	1366	stynja	stunda stundar stundi stundir stundu stundum stunduð stunin stuninn stuninna stuninnar stuninni stunins stunið styn styndi styndir styndu styndum stynduð stynjandi stynji stynjir stynjið stynjum stynur
+67	1367	ljóst	ljósar ljósast
+68	1368	ömurlegur	ömurleg ömurlega ömurlegan ömurlegar ömurlegast ömurlegasta ömurlegastan ömurlegastar ömurlegasti ömurlegastir ömurlegastra ömurlegastrar ömurlegastri ömurlegasts ömurlegastur ömurlegi ömurlegir ömurlegra ömurlegrar ömurlegri ömurlegs ömurlegt ömurlegu ömurlegum ömurlegust ömurlegustu ömurlegustum
+69	1369	morðingi	morðinginn morðingja morðingjana morðingjann morðingjanna morðingjans morðingjanum morðingjar morðingjarnir morðingjum morðingjunum
+70	1370	brú	brúa brúar brúarinnar brúaðar brúin brúm brúna brúnna brúnni brúnum brýr brýrnar
+71	1371	sömuleiðis	
+72	1372	undirrita	undirritandi undirritar undirritast undirritað undirritaða undirritaðan undirritaðar undirritaði undirritaðir undirritaðist undirritaðra undirritaðrar undirritaðri undirritaðs undirritaðu undirritaður undirriti undirritir undirritist undirritið undirritum undirritumst undirrituð undirrituðu undirrituðum undirrituðumst undirrituðust undirrituðuð
+73	1373	eyra	eyrans eyranu eyrað eyrna eyrnanna eyru eyrum eyrun eyrunum
+74	1374	upptekinn	upptekin upptekinna upptekinnar upptekinni upptekins upptekið upptekna uppteknar uppteknara uppteknari uppteknast uppteknasta uppteknastan uppteknastar uppteknasti uppteknastir uppteknastra uppteknastrar uppteknastri uppteknasts uppteknastur upptekni uppteknir uppteknu uppteknum uppteknust uppteknustu uppteknustum
+75	1375	sýni	sýna sýnanna sýnin sýninu sýnis sýnisins sýnið sýnum sýnunum
+76	1376	rosalega	rosalegar rosalegast
+77	1377	miði	miða miðana miðann miðanna miðans miðanum miðar miðarnir miðinn miðum miðunum
+78	1378	prins	prinsa prinsana prinsanna prinsar prinsarnir prinsi prinsinn prinsins prinsinum prinsum prinsunum
+79	1379	kennsla	kennslan kennslu kennsluna kennslunnar kennslunni
+80	1380	kjaftæði	kjaftæðinu kjaftæðis kjaftæðisins kjaftæðið
+81	1381	pláss	plássa plássanna plássi plássin plássins plássinu plássið plássum plássunum
+82	1382	list	lista listanna listar listarinnar listin listina listinni listir listirnar listum listunum
+83	1383	viðkoma	viðkem viðkemur viðkom viðkoman viðkomandi viðkomi viðkomin viðkominn viðkominna viðkominnar viðkominni viðkomins viðkomir viðkomið viðkomna viðkomnar viðkomni viðkomnir viðkomnu viðkomnum viðkomst viðkomu viðkomum viðkomuna viðkomunnar viðkomunni viðkomuð viðkæmi viðkæmir viðkæmu viðkæmum viðkæmuð
+84	1384	bíta	beist beistu beit biti bitin bitinn bitinna bitinnar bitinni bitins bitir bitirðu bitist bitistu bitið bitna bitnar bitni bitnir bitnu bitnum bitu bitum bitumst bitust bituð bíst bístu bít bítandi bítast bíti bítir bítirðu bítist bítistu bítið bíttu bítum bítumst bítur bíturðu
+85	1385	svíkja	sveik sveikst sveikstu sviki svikin svikinn svikinna svikinnar svikinni svikins svikir svikist svikið svikju svikjum svikjumst svikjust svikjuð svikna sviknar svikni sviknir sviknu sviknum sviku svikum svikumst svikust svikuð svík svíki svíkir svíkirðu svíkist svíkið svíkjandi svíkjast svíkjum svíkjumst svíkst svíkstu svíktu svíkur svíkurðu
+86	1386	stofa	stofan stofanna stofu stofum stofuna stofunnar stofunni stofunum stofur stofurnar
+87	1387	hlaða	hladdu hlaðan hlaðandi hlaðanna hlaðast hlaði hlaðin hlaðinn hlaðinna hlaðinnar hlaðinni hlaðins hlaðir hlaðirðu hlaðist hlaðið hlaðna hlaðnanna hlaðnar hlaðni hlaðnir hleð hleðst hleður hleðurðu hlæði hlæðir hlæðirðu hlæðist hlæðu hlæðum hlæðumst hlæðust hlæðuð hlóð hlóðst hlóðstu hlóðu hlóðum hlóðumst hlóðust hlóðuð hlöðnu hlöðnum hlöðu hlöðum hlöðumst hlöðuna hlöðunnar hlöðunni hlöðunum hlöður hlöðurnar
+88	1388	æðislegur	æðisleg æðislega æðislegan æðislegar æðislegast æðislegasta æðislegastan æðislegastar æðislegasti æðislegastir æðislegastra æðislegastrar æðislegastri æðislegasts æðislegastur æðislegi æðislegir æðislegra æðislegrar æðislegri æðislegs æðislegt æðislegu æðislegum æðislegust æðislegustu æðislegustum
+89	1389	lán	lána lánanna láni lánin láninu lánið láns lánsins lánum lánunum
+90	1390	eldhús	eldhúsa eldhúsanna eldhúsi eldhúsin eldhúsinu eldhúsið eldhúss eldhússins eldhúsum eldhúsunum
+91	1391	leiðtogi	leiðtoga leiðtogana leiðtogann leiðtoganna leiðtogans leiðtoganum leiðtogar leiðtogarnir leiðtoginn leiðtogum leiðtogunum
+92	1392	bila	bilandi bilar bilast bilað bilaða bilaðan bilaðar bilaði bilaðir bilaðist bilaðra bilaðrar bilaðri bilaðs bilaðu bilaður bili bilir bilist bilið bilum bilumst biluð biluðu biluðum biluðumst biluðust biluðuð
+93	1393	stytta	styst stytt styttan styttandi styttanna styttar styttast stytti styttir styttirðu styttist styttið styttna styttnanna styttra styttrar styttri stytts styttu styttum styttumst styttuna styttunnar styttunni styttunum styttur stytturnar styttust styttuð
+94	1394	ey	eyin eyja eyjanna eyjar eyjarinnar eyjarnar eyju eyjum eyjunni eyjunum eyna eynni
+95	1395	tuttugu	
+96	1396	ferli	ferla ferlanna ferlin ferlinu ferlis ferlisins ferlið ferlum ferlunum
+97	1397	ósk	óska óskanna óskar óskarinnar óskin óskina óskinni óskir óskirnar óskum óskunum
+98	1398	skilningur	skilning skilningi skilninginn skilningnum skilnings skilningsins skilningurinn
+99	1399	kílómetri	kílómetra kílómetrana kílómetrann kílómetranna kílómetrans kílómetranum kílómetrar kílómetrarnir kílómetrinn kílómetrum kílómetrunum
+100	1400	vín	vína vínanna víni vínin víninu vínið víns vínsins vínum vínunum

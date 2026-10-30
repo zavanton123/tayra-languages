@@ -1,0 +1,100 @@
+1	5001	frídagur	frídag frídaga frídagana frídaganna frídagar frídagarnir frídaginn frídags frídagsins frídagurinn frídegi frídeginum frídögum frídögunum
+2	5002	fálki	fálka fálkana fálkann fálkanna fálkans fálkanum fálkar fálkarnir fálkinn fálkum fálkunum
+3	5003	teiknimynd	teiknimynda teiknimyndanna teiknimyndar teiknimyndarinnar teiknimyndin teiknimyndina teiknimyndinni teiknimyndir teiknimyndirnar teiknimyndum teiknimyndunum
+4	5004	dögg	dagga dagganna daggar daggarinnar daggir daggirnar döggin döggina dögginni döggum döggunum
+5	5005	lífsstíll	lífsstíl lífsstílinn lífsstíllinn lífsstílnum lífsstíls lífsstílsins
+6	5006	flugbraut	flugbrauta flugbrautanna flugbrautar flugbrautarinnar flugbrautin flugbrautina flugbrautinni flugbrautir flugbrautirnar flugbrautum flugbrautunum
+7	5007	meri	mera meranna merar merarinnar merarnar merin merina merinni merum merunum
+8	5008	undanúrslit	undanúrslita undanúrslitanna undanúrslitin undanúrslitum undanúrslitunum
+9	5009	falur	fal fala falan falanna falar falara falari falast falasta falastan falastar falasti falastir falastra falastrar falastri falasts falastur fali falina falinn falir falirnir falnum falra falrar falri fals falsins falt falurinn föl fölu fölum fölunum fölust fölustu fölustum
+10	5010	fróa	fróandi fróar fróarðu fróast fróað fróaða fróaðan fróaðar fróaði fróaðir fróaðirðu fróaðist fróaðra fróaðrar fróaðri fróaðs fróaðu fróaður frói fróir fróist fróið fróum fróumst fróuð fróuðu fróuðum fróuðumst fróuðust fróuðuð
+11	5011	hjúkka	hjúkkan hjúkkanna hjúkkna hjúkknanna hjúkku hjúkkum hjúkkuna hjúkkunnar hjúkkunni hjúkkunum hjúkkur hjúkkurnar
+12	5012	þvæla	þvælan þvælandi þvælanna þvæld þvælda þvældan þvældar þvældi þvældir þvældra þvældrar þvældri þvælds þvældu þvældum þvældur þvælduð þvæli þvælir þvælið þvælna þvælnanna þvælstu þvælt þvælu þvælum þvæluna þvælunnar þvælunni þvælunum þvælur þvælurnar
+13	5013	tígur	tígra tígrana tígranna tígrar tígrarnir tígri tígrinum tígrum tígrunum tígurinn tígurs tígursins
+14	5014	húsvörður	húsvarða húsvarðanna húsvarðar húsvarðarins húsverði húsverðina húsverðinum húsverðir húsverðirnir húsvörð húsvörðinn húsvörðum húsvörðunum húsvörðurinn
+15	5015	heimildarmynd	heimildarmynda heimildarmyndanna heimildarmyndar heimildarmyndarinnar heimildarmyndin heimildarmyndina heimildarmyndinni heimildarmyndir heimildarmyndirnar heimildarmyndum heimildarmyndunum
+16	5016	einkaleyfi	einkaleyfa einkaleyfanna einkaleyfin einkaleyfinu einkaleyfis einkaleyfisins einkaleyfið einkaleyfum einkaleyfunum
+17	5017	tímasóun	tímasóunar tímasóunarinnar tímasóunin tímasóunina tímasóuninni
+18	5018	mexíkóskur	mexíkósk mexíkóska mexíkóskan mexíkóskar mexíkóski mexíkóskir mexíkóskra mexíkóskrar mexíkóskri mexíkósks mexíkóskt mexíkósku mexíkóskum
+19	5019	efling	eflinga eflinganna eflingar eflingarinnar eflingarnar eflingin eflingu eflingum eflinguna eflingunni eflingunum
+20	5020	vísvitandi	
+21	5021	kaldhæðni	kaldhæðnin kaldhæðnina kaldhæðninnar kaldhæðninni
+22	5022	svima	svimandi svimar svimað svimaði svimi
+23	5023	pínu	
+24	5024	bolla	bollan bollanna bollu bollum bolluna bollunnar bollunni bollunum bollur bollurnar
+25	5025	óformlegur	óformleg óformlega óformlegan óformlegar óformlegast óformlegasta óformlegastan óformlegastar óformlegasti óformlegastir óformlegastra óformlegastrar óformlegastri óformlegasts óformlegastur óformlegi óformlegir óformlegra óformlegrar óformlegri óformlegs óformlegt óformlegu óformlegum óformlegust óformlegustu óformlegustum
+26	5026	hemill	hemil hemilinn hemillinn hemils hemilsins hemla hemlana hemlanna hemlar hemlarnir hemli hemlinum hemlum hemlunum
+27	5027	kvöl	kvala kvalanna kvalar kvalarinnar kvalir kvalirnar kvölin kvölina kvölinni kvölum kvölunum
+28	5028	fokking	fokkíng
+29	5029	hvelfing	hvelfinga hvelfinganna hvelfingar hvelfingarinnar hvelfingarnar hvelfingin hvelfingu hvelfingum hvelfinguna hvelfingunni hvelfingunum
+30	5030	farvegur	farveg farvega farveganna farvegar farvegarins farvegi farvegina farveginn farveginum farvegir farvegirnir farvegs farvegsins farvegum farvegunum farvegurinn
+31	5031	kringla	kringlan kringlanna kringlna kringlnanna kringlu kringlum kringluna kringlunnar kringlunni kringlunum kringlur kringlurnar
+32	5032	grundvallaratriði	grundvallaratriða grundvallaratriðanna grundvallaratriðin grundvallaratriðinu grundvallaratriðis grundvallaratriðisins grundvallaratriðið grundvallaratriðum grundvallaratriðunum
+33	5033	vesalingur	vesaling vesalinga vesalingana vesalinganna vesalingar vesalingarnir vesalingi vesalinginn vesalingnum vesalings vesalingsins vesalingum vesalingunum vesalingurinn
+34	5034	gott	gotti gottinu gottið gotts gottsins
+35	5035	vari	vara varana varann varanna varans varanum varar vararnir varinn vörum vörunum
+36	5036	kolvetni	kolvetna kolvetnanna kolvetnin kolvetninu kolvetnis kolvetnisins kolvetnið kolvetnum kolvetnunum
+37	5037	eftirför	eftirfara eftirfaranna eftirfarar eftirfararinnar eftirfarir eftirfarirnar eftirförin eftirförina eftirförinni eftirförum eftirförunum
+38	5038	tilvonandi	
+39	5039	verð	verðanna verði verðin verðinu verðið verðs verðsins verðum verðunum
+40	5040	lítillega	
+41	5041	stolt	stolti stoltinu stoltið stolts stoltsins
+42	5042	dafna	dafnandi dafnar dafnað dafnaði dafnaðir dafnaðu dafni dafnir dafnið döfnum döfnuðu döfnuðum döfnuðuð
+43	5043	höfði	höfða höfðana höfðann höfðanna höfðans höfðanum höfðar höfðarnir höfðinn höfðum höfðunum
+44	5044	heilbrigðisþjónusta	heilbrigðisþjónustan heilbrigðisþjónustu heilbrigðisþjónustuna heilbrigðisþjónustunnar heilbrigðisþjónustunni
+45	5045	fura	furan furanna furu furum furuna furunnar furunni furunum furur fururnar
+46	5046	dósent	dósenta dósentana dósentanna dósentar dósentarnir dósentinn dósentinum dósents dósentsins dósentum dósentunum
+47	5047	fullgildur	fullgild fullgilda fullgildan fullgildar fullgildi fullgildir fullgildra fullgildrar fullgildri fullgilds fullgildu fullgildum fullgilt
+48	5048	kvika	kvikan kvikandi kvikanna kvikar kvikast kvikað kvikaða kvikaðan kvikaðar kvikaði kvikaðir kvikaðist kvikaðra kvikaðrar kvikaðri kvikaðs kvikaðu kvikaður kviki kvikir kvikist kvikið kvikna kviknanna kviku kvikum kvikumst kvikuna kvikunnar kvikunni kvikunum kvikur kvikurnar kvikuð kvikuðu kvikuðum kvikuðumst kvikuðust kvikuðuð
+49	5049	barr	barri barrinu barrið barrs barrsins
+50	5050	orkugjafi	orkugjafa orkugjafana orkugjafann orkugjafanna orkugjafans orkugjafanum orkugjafar orkugjafarnir orkugjafinn orkugjöfum orkugjöfunum
+51	5051	íbúafjöldi	íbúafjölda íbúafjöldann íbúafjöldans íbúafjöldanum íbúafjöldinn
+52	5052	letur	letra letranna letri letrin letrinu letrið letrum letrunum leturs letursins
+53	5053	hvellur	hvell hvella hvellan hvellanna hvellar hvellara hvellari hvellast hvellasta hvellastan hvellastar hvellasti hvellastir hvellastra hvellastrar hvellastri hvellasts hvellastur hvelli hvellina hvellinn hvellinum hvellir hvellirnir hvellra hvellrar hvellri hvells hvellsins hvellt hvellu hvellum hvellunum hvellurinn hvellust hvellustu hvellustum
+54	5054	andspænis	
+55	5055	líffræði	líffræðin líffræðina líffræðinnar líffræðinni
+56	5056	leiðsögumaður	leiðsögumann leiðsögumanna leiðsögumannanna leiðsögumanni leiðsögumanninn leiðsögumanninum leiðsögumanns leiðsögumannsins leiðsögumaðurinn leiðsögumenn leiðsögumennina leiðsögumennirnir leiðsögumönnum leiðsögumönnunum
+57	5057	sovéskur	sovésk sovéska sovéskan sovéskar sovéskara sovéskari sovéskast sovéskasta sovéskastan sovéskastar sovéskasti sovéskastir sovéskastra sovéskastrar sovéskastri sovéskasts sovéskastur sovéski sovéskir sovéskra sovéskrar sovéskri sovésks sovéskt sovésku sovéskum sovéskust sovéskustu sovéskustum
+58	5058	þrjóskur	þrjósk þrjóska þrjóskan þrjóskar þrjóskara þrjóskari þrjóskast þrjóskasta þrjóskastan þrjóskastar þrjóskasti þrjóskastir þrjóskastra þrjóskastrar þrjóskastri þrjóskasts þrjóskastur þrjóski þrjóskir þrjóskra þrjóskrar þrjóskri þrjósks þrjóskt þrjósku þrjóskum þrjóskust þrjóskustu þrjóskustum
+59	5059	færni	færnin færnina færninnar færninni
+60	5060	asískur	asísk asíska asískan asískar asískara asískari asískast asískasta asískastan asískastar asískasti asískastir asískastra asískastrar asískastri asískasts asískastur asíski asískir asískra asískrar asískri asísks asískt asísku asískum asískust asískustu asískustum
+61	5061	æra	æran ærandi æranna ærast æri ærir ærirðu ærist ærið ærst ært æru ærum ærumst æruna ærunnar ærunni ærunum ærur ærurnar ærð ærða ærðan ærðar ærði ærðir ærðist ærðra ærðrar ærðri ærðs ærðu ærðum ærðumst ærður ærðust ærðuð
+62	5062	daglegt	
+63	5063	sérgrein	sérgreina sérgreinanna sérgreinar sérgreinarinnar sérgreinarnar sérgreinin sérgreinina sérgreininni sérgreinum sérgreinunum
+64	5064	ísbjörn	ísbirni ísbirnina ísbirninum ísbirnir ísbirnirnir ísbjarna ísbjarnanna ísbjarnar ísbjarnarins ísbjörninn ísbjörnum ísbjörnunum
+65	5065	farsæll	farsæl farsæla farsælan farsælar farsælast farsælasta farsælastan farsælastar farsælasti farsælastir farsælastra farsælastrar farsælastri farsælasts farsælastur farsæli farsælir farsælla farsællar farsælli farsæls farsælt farsælu farsælum farsælust farsælustu farsælustum
+66	5066	haugur	haug hauga haugana hauganna haugar haugarnir haugi hauginn haugnum haugs haugsins haugum haugunum haugurinn
+67	5067	hjúkrun	hjúkrunar hjúkrunarinnar hjúkrunin hjúkrunina hjúkruninni
+68	5068	hagstofa	hagstofan hagstofanna hagstofu hagstofum hagstofuna hagstofunnar hagstofunni hagstofunum hagstofur hagstofurnar
+69	5069	dómsmál	dómsmála dómsmálanna dómsmáli dómsmálin dómsmálinu dómsmálið dómsmáls dómsmálsins dómsmálum dómsmálunum
+70	5070	letja	last latt latta lattan lattar latti lattir lattist lattra lattrar lattri latts lattur lest let letjandi letjast letji letjir letjist letjið letjum letjumst letti lettir lettist lettu lettum lettumst lettust lettuð letur lött löttu löttum löttumst löttust löttuð
+71	5071	hugga	huggandi huggar huggast huggað huggaða huggaðan huggaðar huggaði huggaðir huggaðist huggaðra huggaðrar huggaðri huggaðs huggaðu huggaður huggi huggir huggist huggið huggum huggumst hugguð hugguðu hugguðum hugguðumst hugguðust hugguðuð
+72	5072	yfirumsjón	yfirumsjónar yfirumsjónarinnar yfirumsjónin yfirumsjónina yfirumsjóninni
+73	5073	játning	játninga játninganna játningar játningarinnar játningarnar játningin játningu játningum játninguna játningunni játningunum
+74	5074	lögmætur	lögmæt lögmæta lögmætan lögmætar lögmætara lögmætari lögmætast lögmætasta lögmætastan lögmætastar lögmætasti lögmætastir lögmætastra lögmætastrar lögmætastri lögmætasts lögmætastur lögmæti lögmætir lögmætra lögmætrar lögmætri lögmæts lögmætt lögmætu lögmætum lögmætust lögmætustu lögmætustum
+75	5075	banka	bankandi bankar bankarðu bankast bankað bankaða bankaðan bankaðar bankaði bankaðir bankaðist bankaðra bankaðrar bankaðri bankaðs bankaðu bankaður banki bankir bankist bankið bönkum bönkumst bönkuð bönkuðu bönkuðum bönkuðumst bönkuðust bönkuðuð
+76	5076	samviskubit	samviskubiti samviskubitinu samviskubitið samviskubits samviskubitsins
+77	5077	sauðfé	sauðfjár sauðfjárins sauðfénu sauðféð
+78	5078	aðferðafræði	aðferðafræðin aðferðafræðina aðferðafræðinnar aðferðafræðinni
+79	5079	þingflokkur	þingflokk þingflokka þingflokkana þingflokkanna þingflokkar þingflokkarnir þingflokki þingflokkinn þingflokknum þingflokks þingflokksins þingflokkum þingflokkunum þingflokkurinn
+80	5080	kúgun	kúgana kúgananna kúganir kúganirnar kúgunar kúgunarinnar kúgunin kúgunina kúguninni kúgunum kúgununum
+81	5081	prýðilegur	prýðileg prýðilega prýðilegan prýðilegar prýðilegast prýðilegasta prýðilegastan prýðilegastar prýðilegasti prýðilegastir prýðilegastra prýðilegastrar prýðilegastri prýðilegasts prýðilegastur prýðilegi prýðilegir prýðilegra prýðilegrar prýðilegri prýðilegs prýðilegt prýðilegu prýðilegum prýðilegust prýðilegustu prýðilegustum
+82	5082	svigrúm	svigrúmi svigrúminu svigrúmið svigrúms svigrúmsins
+83	5083	rifrildi	rifrilda rifrildanna rifrildin rifrildinu rifrildis rifrildisins rifrildið rifrildum rifrildunum
+84	5084	vafalaust	
+85	5085	útrás	útrása útrásanna útrásar útrásarinnar útrásin útrásina útrásinni útrásir útrásirnar útrásum útrásunum
+86	5086	ergja	ergi ergir ergist ergið ergjandi ergjast ergjum ergjumst ergst ergt ergð ergða ergðan ergðar ergði ergðir ergðist ergðra ergðrar ergðri ergðs ergðu ergðum ergðumst ergður ergðust ergðuð
+87	5087	heimildarmaður	heimildarmann heimildarmanna heimildarmannanna heimildarmanni heimildarmanninn heimildarmanninum heimildarmanns heimildarmannsins heimildarmaðurinn heimildarmenn heimildarmennina heimildarmennirnir heimildarmönnum heimildarmönnunum
+88	5088	klífa	kleif kleifst kleifstu klifi klifin klifinn klifinna klifinnar klifinni klifins klifir klifirðu klifið klifna klifnar klifni klifnir klifnu klifnum klifu klifum klifuð klíf klífandi klífi klífir klífirðu klífið klífum klífur klífurðu klífðu
+89	5089	úreltur	úrelt úrelta úreltan úreltar úreltara úreltari úreltast úreltasta úreltastan úreltastar úreltasti úreltastir úreltastra úreltastrar úreltastri úreltasts úreltastur úrelti úreltir úreltra úreltrar úreltri úrelts úreltu úreltum úreltust úreltustu úreltustum
+90	5090	týpa	týpan týpanna týpna týpnanna týpu týpum týpuna týpunnar týpunni týpunum týpur týpurnar
+91	5091	pæla	pælandi pælast pæld pælda pældan pældar pældi pældir pældist pældra pældrar pældri pælds pældu pældum pældumst pældur pældust pælduð pæli pælir pælist pælið pælst pælt pælum pælumst
+92	5092	pípa	píp pípan pípandi pípanna pípar píparðu pípað pípaða pípaðan pípaðar pípaði pípaðir pípaðirðu pípaðra pípaðrar pípaðri pípaðs pípaður pípi pípir pípirðu pípið pípna pípnanna pípt pípti píptir píptirðu píptu píptum píptuð píptuði pípu pípum pípuna pípunnar pípunni pípunum pípur pípurnar pípuð pípuðu pípuðum
+93	5093	sigti	sigta sigtanna sigtin sigtinu sigtis sigtisins sigtið sigtum sigtunum
+94	5094	gallabuxur	gallabuxna gallabuxnanna gallabuxum gallabuxunum gallabuxurnar
+95	5095	pera	peran peranna peru perum peruna perunnar perunni perunum perur perurnar
+96	5096	brúsi	brúsa brúsana brúsann brúsanna brúsans brúsanum brúsar brúsarnir brúsinn brúsum brúsunum
+97	5097	ílát	íláta ílátanna íláti ílátin ílátinu ílátið íláts ílátsins ílátum ílátunum
+98	5098	trúnaður	trúnað trúnaðar trúnaðarins trúnaði trúnaðinn trúnaðinum trúnaðnum trúnaðurinn
+99	5099	vírus	vírusa vírusana vírusanna vírusar vírusarnir vírusi vírusinn vírusnum víruss vírussins vírusum vírusunum
+100	5100	eyðing	eyðinga eyðinganna eyðingar eyðingarinnar eyðingarnar eyðingin eyðingu eyðingum eyðinguna eyðingunni eyðingunum

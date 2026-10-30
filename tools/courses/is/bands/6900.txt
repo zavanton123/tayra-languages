@@ -1,0 +1,100 @@
+1	6801	uppsala	uppsalan uppsalanna uppsalna uppsalnanna uppsölu uppsölum uppsöluna uppsölunnar uppsölunni uppsölunum uppsölur uppsölurnar
+2	6802	spilun	spilana spilananna spilanir spilanirnar spilunar spilunarinnar spilunin spilunina spiluninni spilunum spilununum
+3	6803	lyklaborð	lyklaborða lyklaborðanna lyklaborði lyklaborðin lyklaborðinu lyklaborðið lyklaborðs lyklaborðsins lyklaborðum lyklaborðunum
+4	6804	mestmegnis	
+5	6805	viðskiptamaður	viðskiptamann viðskiptamanna viðskiptamannanna viðskiptamanni viðskiptamanninn viðskiptamanninum viðskiptamanns viðskiptamannsins viðskiptamaðurinn viðskiptamenn viðskiptamennina viðskiptamennirnir viðskiptamönnum viðskiptamönnunum
+6	6806	minnismerki	minnismerkin minnismerkinu minnismerkis minnismerkisins minnismerkið minnismerkja minnismerkjanna minnismerkjum minnismerkjunum
+7	6807	augnaráð	augnaráða augnaráðanna augnaráði augnaráðin augnaráðinu augnaráðið augnaráðs augnaráðsins augnaráðum augnaráðunum
+8	6808	útræddur	útrædd útrædda útræddan útræddar útræddi útræddir útræddra útræddrar útræddri útrædds útræddu útræddum útrætt
+9	6809	klikkun	klikkunar klikkunarinnar klikkunin klikkunina klikkuninni
+10	6810	aðalfulltrúi	aðalfulltrúa aðalfulltrúana aðalfulltrúann aðalfulltrúanna aðalfulltrúans aðalfulltrúanum aðalfulltrúar aðalfulltrúarnir aðalfulltrúinn aðalfulltrúum aðalfulltrúunum
+11	6811	aðmíráll	aðmírál aðmírála aðmírálana aðmírálanna aðmírálar aðmírálarnir aðmírálinn aðmírállinn aðmírálnum aðmíráls aðmírálsins aðmírálum aðmírálunum
+12	6812	ryðga	ryðgandi ryðgar ryðgarðu ryðgast ryðgað ryðgaða ryðgaðan ryðgaðar ryðgaði ryðgaðir ryðgaðist ryðgaðra ryðgaðrar ryðgaðri ryðgaðs ryðgaðu ryðgaður ryðgi ryðgir ryðgist ryðgið ryðgum ryðgumst ryðguð ryðguðu ryðguðum ryðguðumst ryðguðust ryðguðuð
+13	6813	eiginhandaráritun	eiginhandaráritana eiginhandaráritananna eiginhandaráritanir eiginhandaráritanirnar eiginhandaráritunar eiginhandaráritunarinnar eiginhandaráritunin eiginhandaráritunina eiginhandarárituninni eiginhandaráritunum eiginhandaráritununum
+14	6814	starfsfélagi	starfsfélaga starfsfélagana starfsfélagann starfsfélaganna starfsfélagans starfsfélaganum starfsfélagar starfsfélagarnir starfsfélaginn starfsfélögum starfsfélögunum
+15	6815	marglytta	marglyttan marglyttanna marglyttu marglyttum marglyttuna marglyttunnar marglyttunni marglyttunum marglyttur marglytturnar
+16	6816	landgræðsla	landgræðslan landgræðslu landgræðsluna landgræðslunnar landgræðslunni
+17	6817	eimur	eim eimi eiminn eiminum eimnum eims eimsins eimurinn
+18	6818	mjöll	mjallar mjallarinnar mjöllin mjöllina mjöllinni
+19	6819	ógerlegur	ógerleg ógerlega ógerlegan ógerlegar ógerlegi ógerlegir ógerlegra ógerlegrar ógerlegri ógerlegs ógerlegt ógerlegu ógerlegum
+20	6820	makríll	makríl makríla makrílana makrílanna makrílar makrílarnir makrílinn makríllinn makrílnum makríls makrílsins makrílum makrílunum
+21	6821	búsvæði	búsvæða búsvæðanna búsvæðin búsvæðinu búsvæðis búsvæðisins búsvæðið búsvæðum búsvæðunum
+22	6822	alsæll	alsæl alsæla alsælan alsælar alsæli alsælir alsælla alsællar alsælli alsæls alsælt alsælu alsælum
+23	6823	opinberun	opinberana opinberananna opinberanir opinberanirnar opinberunar opinberunarinnar opinberunin opinberunina opinberuninni opinberunum opinberununum
+24	6824	ófullnægjandi	
+25	6825	arður	arð arði arðinn arðinum arðs arðsins arðurinn
+26	6826	sameind	sameinda sameindanna sameindar sameindarinnar sameindin sameindina sameindinni sameindir sameindirnar sameindum sameindunum
+27	6827	reynir	reyni reyninn reyninum reynirinn reynis reynisins
+28	6828	bjargvættur	bjargvætt bjargvætta bjargvættanna bjargvættar bjargvættarins bjargvætti bjargvættina bjargvættinn bjargvættinum bjargvættir bjargvættirnir bjargvættum bjargvættunum bjargvætturinn
+29	6829	sólgleraugu	sólgleraugna sólgleraugnanna sólgleraugum sólgleraugun sólgleraugunum
+30	6830	kvennaflokkur	kvennaflokk kvennaflokka kvennaflokkana kvennaflokkanna kvennaflokkar kvennaflokkarnir kvennaflokki kvennaflokkinn kvennaflokknum kvennaflokks kvennaflokksins kvennaflokkum kvennaflokkunum kvennaflokkurinn
+31	6831	útsala	útsalan útsalanna útsalna útsalnanna útsölu útsölum útsöluna útsölunnar útsölunni útsölunum útsölur útsölurnar
+32	6832	smala	smalandi smalar smalast smalað smalaða smalaðan smalaðar smalaði smalaðir smalaðist smalaðra smalaðrar smalaðri smalaðs smalaðu smalaður smali smalir smalist smalið smölum smölumst smöluð smöluðu smöluðum smöluðumst smöluðust smöluðuð
+33	6833	plástur	plástra plástrana plástranna plástrar plástrarnir plástri plástrinum plástrum plástrunum plásturinn plásturs plástursins
+34	6834	útvarpsstöð	útvarpsstöðin útvarpsstöðina útvarpsstöðinni útvarpsstöðva útvarpsstöðvanna útvarpsstöðvar útvarpsstöðvarinnar útvarpsstöðvarnar útvarpsstöðvum útvarpsstöðvunum
+35	6835	frátalinn	frátalda frátaldar frátaldi frátaldir frátalin frátalinna frátalinnar frátalinni frátalins frátalið frátöldu frátöldum
+36	6836	frjósemi	frjósemin frjósemina frjóseminnar frjóseminni
+37	6837	norðaustan	
+38	6838	belgískur	belgísk belgíska belgískan belgískar belgískara belgískari belgískast belgískasta belgískastan belgískastar belgískasti belgískastir belgískastra belgískastrar belgískastri belgískasts belgískastur belgíski belgískir belgískra belgískrar belgískri belgísks belgískt belgísku belgískum belgískust belgískustu belgískustum
+39	6839	auðæfi	auðæfa auðæfanna auðæfin auðæfum auðæfunum
+40	6840	hvítvín	hvítvína hvítvínanna hvítvíni hvítvínin hvítvíninu hvítvínið hvítvíns hvítvínsins hvítvínum hvítvínunum
+41	6841	núorðið	
+42	6842	þræla	þrælandi þrælar þrælast þrælað þrælaða þrælaðan þrælaðar þrælaði þrælaðir þrælaðist þrælaðra þrælaðrar þrælaðri þrælaðs þrælaðu þrælaður þræli þrælir þrælist þrælið þrælum þrælumst þræluð þræluðu þræluðum þræluðumst þræluðust þræluðuð
+43	6843	greifynja	greifynjan greifynjanna greifynju greifynjum greifynjuna greifynjunnar greifynjunni greifynjunum greifynjur greifynjurnar
+44	6844	meistaragráða	meistaragráðan meistaragráðanna meistaragráðna meistaragráðnanna meistaragráðu meistaragráðum meistaragráðuna meistaragráðunnar meistaragráðunni meistaragráðunum meistaragráður meistaragráðurnar
+45	6845	sjálfsmynd	sjálfsmynda sjálfsmyndanna sjálfsmyndar sjálfsmyndarinnar sjálfsmyndin sjálfsmyndina sjálfsmyndinni sjálfsmyndir sjálfsmyndirnar sjálfsmyndum sjálfsmyndunum
+46	6846	stöðuvatn	stöðuvatna stöðuvatnanna stöðuvatni stöðuvatninu stöðuvatnið stöðuvatns stöðuvatnsins stöðuvötn stöðuvötnin stöðuvötnum stöðuvötnunum
+47	6847	yfirlýsa	yfirlýsandi yfirlýsast yfirlýsi yfirlýsir yfirlýsist yfirlýsið yfirlýst yfirlýsta yfirlýstan yfirlýstar yfirlýsti yfirlýstir yfirlýstist yfirlýstra yfirlýstrar yfirlýstri yfirlýsts yfirlýstu yfirlýstum yfirlýstumst yfirlýstur yfirlýstust yfirlýstuð yfirlýsum yfirlýsumst
+48	6848	nyrðri	nyrst nyrsta nyrstan nyrstar nyrsti nyrstir nyrstra nyrstrar nyrstri nyrsts nyrstu nyrstum nyrstur nyrðra
+49	6849	sinnep	sinnepi sinnepinu sinnepið sinneps sinnepsins
+50	6850	stuttbuxur	stuttbuxna stuttbuxnanna stuttbuxum stuttbuxunum stuttbuxurnar
+51	6851	skyr	skyri skyrinu skyrið skyrs skyrsins
+52	6852	stjórnvölur	stjórnvala stjórnvalanna stjórnvalar stjórnvalarins stjórnveli stjórnvelina stjórnvelinum stjórnvelir stjórnvelirnir stjórnvöl stjórnvölinn stjórnvölnum stjórnvölum stjórnvölunum stjórnvölurinn
+53	6853	jarðfræðingur	jarðfræðing jarðfræðinga jarðfræðingana jarðfræðinganna jarðfræðingar jarðfræðingarnir jarðfræðingi jarðfræðinginn jarðfræðingnum jarðfræðings jarðfræðingsins jarðfræðingum jarðfræðingunum jarðfræðingurinn
+54	6854	illilega	
+55	6855	þjóðskrá	þjóðskráa þjóðskráin þjóðskrám þjóðskrána þjóðskránna þjóðskránni þjóðskránum þjóðskrár þjóðskrárinnar þjóðskrárnar
+56	6856	salta	saltandi saltar saltast saltað saltaða saltaðan saltaðar saltaði saltaðir saltaðist saltaðra saltaðrar saltaðri saltaðs saltaðu saltaður salti saltir saltist saltið söltum söltumst söltuð söltuðu söltuðum söltuðumst söltuðust söltuðuð
+57	6857	endurgjalda	endurgalst endurgalt endurgeld endurgeldur endurgjaldandi endurgjaldi endurgjaldir endurgjaldið endurgjaltu endurgjöldum endurgoldin endurgoldinn endurgoldinna endurgoldinnar endurgoldinni endurgoldins endurgoldið endurgoldna endurgoldnar endurgoldni endurgoldnir endurgoldnu endurgoldnum endurguldu endurguldum endurgulduð endurgyldi endurgyldir endurgyldu endurgyldum endurgylduð
+58	6858	elskandi	elskanda elskandann elskandans elskandanum elskandinn elskenda elskendanna elskendum elskendunum elskendur elskendurna elskendurnir
+59	6859	hafnarborg	hafnarborga hafnarborganna hafnarborgar hafnarborgarinnar hafnarborgin hafnarborgina hafnarborginni hafnarborgir hafnarborgirnar hafnarborgum hafnarborgunum
+60	6860	skelfiskur	skelfisk skelfiska skelfiskana skelfiskanna skelfiskar skelfiskarnir skelfiski skelfiskinn skelfiskinum skelfisknum skelfisks skelfisksins skelfiskum skelfiskunum skelfiskurinn
+61	6861	snjóa	snjóandi snjóar snjóað snjóaði snjóaðir snjói snjóir snjóið snjóum snjóuðu snjóuðum snjóuðuð
+62	6862	herafli	herafla heraflann heraflans heraflanum heraflinn
+63	6863	sentimetri	sentimetra sentimetrana sentimetrann sentimetranna sentimetrans sentimetranum sentimetrar sentimetrarnir sentimetrinn sentimetrum sentimetrunum
+64	6864	skokka	skokkandi skokkar skokkarðu skokkast skokkað skokkaði skokkaðir skokkaðist skokkaðu skokki skokkir skokkist skokkið skokkum skokkumst skokkuðu skokkuðum skokkuðumst skokkuðust skokkuðuð
+65	6865	bankareikningur	bankareikning bankareikninga bankareikningana bankareikninganna bankareikningar bankareikningarnir bankareikningi bankareikninginn bankareikningnum bankareiknings bankareikningsins bankareikningum bankareikningunum bankareikningurinn
+66	6866	þingsæti	þingsæta þingsætanna þingsætin þingsætinu þingsætis þingsætisins þingsætið þingsætum þingsætunum
+67	6867	ætur	æt æta ætan ætar ætara ætari ætast ætasta ætastan ætastar ætasti ætastir ætastra ætastrar ætastri ætasts ætastur æti ætir ætra ætrar ætri æts ætt ætu ætum ætust ætustu ætustum
+68	6868	tekjuskattur	tekjuskatt tekjuskatta tekjuskattana tekjuskattanna tekjuskattar tekjuskattarnir tekjuskatti tekjuskattinn tekjuskattinum tekjuskatts tekjuskattsins tekjuskatturinn tekjusköttum tekjusköttunum
+69	6869	stappa	stappan stappandi stappanna stappar stappast stappað stappaða stappaðan stappaðar stappaði stappaðir stappaðirðu stappaðist stappaðra stappaðrar stappaðri stappaðs stappaðu stappaður stappi stappir stappist stappið stöppu stöppum stöppumst stöppuna stöppunnar stöppunni stöppunum stöppur stöppurnar stöppuð stöppuðu stöppuðum stöppuðumst stöppuðust stöppuðuð
+70	6870	hungraður	hungrað hungraða hungraðan hungraðar hungraðast hungraðasta hungraðastan hungraðastar hungraðasti hungraðastir hungraðastra hungraðastrar hungraðastri hungraðasts hungraðastur hungraði hungraðir hungraðra hungraðrar hungraðri hungraðs hungruð hungruðu hungruðum hungruðust hungruðustu hungruðustum
+71	6871	ríkissjónvarp	ríkissjónvarpa ríkissjónvarpanna ríkissjónvarpi ríkissjónvarpinu ríkissjónvarpið ríkissjónvarps ríkissjónvarpsins ríkissjónvörp ríkissjónvörpin ríkissjónvörpum ríkissjónvörpunum
+72	6872	smart	
+73	6873	suð	suði suðinu suðið suðs suðsins
+74	6874	smátími	smátíma smátímann smátímans smátímanum smátíminn
+75	6875	geðjast	geðjaðist geðjist
+76	6876	standpína	standpínan standpínu standpínuna standpínunnar standpínunni
+77	6877	koníak	koníaki koníakinu koníakið koníaks koníaksins
+78	6878	smetti	smetta smettanna smettin smettinu smettis smettisins smettið smettum smettunum
+79	6879	hinkra	hinkrandi hinkrar hinkrast hinkrað hinkraða hinkraðan hinkraðar hinkraði hinkraðir hinkraðist hinkraðra hinkraðrar hinkraðri hinkraðs hinkraðu hinkraður hinkri hinkrir hinkrist hinkrið hinkrum hinkrumst hinkruð hinkruðu hinkruðum hinkruðumst hinkruðust hinkruðuð
+80	6880	gómsætur	gómsæt gómsæta gómsætan gómsætar gómsætara gómsætari gómsætast gómsætasta gómsætastan gómsætastar gómsætasti gómsætastir gómsætastra gómsætastrar gómsætastri gómsætasts gómsætastur gómsæti gómsætir gómsætra gómsætrar gómsætri gómsæts gómsætt gómsætu gómsætum gómsætust gómsætustu gómsætustum
+81	6881	afbera	afbar afbarst afber afberi afberir afberið afberum afberð afberðu afborin afborinn afborinna afborinnar afborinni afborins afborið afborna afbornar afborni afbornir afbornu afbornum afbáru afbárum afbáruð afbæri afbærir afbæru afbærum afbæruð
+82	6882	snuðra	snuðrandi snuðrar snuðrast snuðrað snuðraða snuðraðan snuðraðar snuðraði snuðraðir snuðraðist snuðraðra snuðraðrar snuðraðri snuðraðs snuðraðu snuðraður snuðri snuðrir snuðrist snuðrið snuðrum snuðrumst snuðruð snuðruðu snuðruðum snuðruðumst snuðruðust snuðruðuð
+83	6883	rugludallur	rugludall rugludalla rugludallana rugludallanna rugludallar rugludallarnir rugludalli rugludallinn rugludallinum rugludalls rugludallsins rugludallurinn rugludöllum rugludöllunum
+84	6884	hundleiður	hundleitt hundleið hundleiða hundleiðan hundleiðar hundleiði hundleiðir hundleiðra hundleiðrar hundleiðri hundleiðs hundleiðu hundleiðum
+85	6885	hvirfilbylur	hvirfilbyl hvirfilbylinn hvirfilbylja hvirfilbyljanna hvirfilbyljar hvirfilbyljarins hvirfilbylji hvirfilbyljina hvirfilbyljir hvirfilbyljirnir hvirfilbyljum hvirfilbyljunum hvirfilbylnum hvirfilbyls hvirfilbylsins hvirfilbylurinn
+86	6886	símsvari	símsvara símsvarana símsvarann símsvaranna símsvarans símsvaranum símsvarar símsvararnir símsvarinn símsvörum símsvörunum
+87	6887	einkennisbúningur	einkennisbúning einkennisbúninga einkennisbúningana einkennisbúninganna einkennisbúningar einkennisbúningarnir einkennisbúningi einkennisbúninginn einkennisbúningnum einkennisbúnings einkennisbúningsins einkennisbúningum einkennisbúningunum einkennisbúningurinn
+88	6888	stórkostlega	stórkostlegar stórkostlegast
+89	6889	formáli	formála formálana formálann formálanna formálans formálanum formálar formálarnir formálinn formálum formálunum
+90	6890	metan	metani metaninu metanið metans metansins
+91	6891	endurskipulagning	endurskipulagningar endurskipulagningarinnar endurskipulagningin endurskipulagningu endurskipulagninguna endurskipulagningunni
+92	6892	forsaga	forsagan forsögu forsöguna forsögunnar forsögunni
+93	6893	minnisblað	minnisblaða minnisblaðanna minnisblaði minnisblaðinu minnisblaðið minnisblaðs minnisblaðsins minnisblöð minnisblöðin minnisblöðum minnisblöðunum
+94	6894	amínósýra	amínósýran amínósýranna amínósýru amínósýrum amínósýruna amínósýrunnar amínósýrunni amínósýrunum amínósýrur amínósýrurnar
+95	6895	rofna	rofnandi rofnar rofnað rofnaða rofnaðan rofnaðar rofnaði rofnaðir rofnaðra rofnaðrar rofnaðri rofnaðs rofnaðu rofnaður rofni rofnir rofnið rofnum rofnuð rofnuðu rofnuðum rofnuðuð
+96	6896	glaðningur	glaðning glaðningi glaðninginn glaðningnum glaðnings glaðningsins glaðningurinn
+97	6897	rófa	rófan rófanna rófna rófnanna rófu rófum rófuna rófunnar rófunni rófunum rófur rófurnar
+98	6898	landgöngulið	landgönguliða landgönguliðanna landgönguliði landgönguliðin landgönguliðinu landgönguliðið landgönguliðs landgönguliðsins landgönguliðum landgönguliðunum
+99	6899	golfvöllur	golfvalla golfvallanna golfvallar golfvallarins golfvelli golfvellina golfvellinum golfvellir golfvellirnir golfvöll golfvöllinn golfvöllum golfvöllunum golfvöllurinn
+100	6900	hippi	hippa hippana hippann hippanna hippans hippanum hippar hipparnir hippinn hippum hippunum

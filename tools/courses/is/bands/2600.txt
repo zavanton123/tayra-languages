@@ -1,0 +1,100 @@
+1	2501	blæða	blæddi blæddir blæddu blæddum blædduð blætt blæði blæðir blæðið blæðum
+2	2502	athugasemd	athugasemda athugasemdanna athugasemdar athugasemdarinnar athugasemdin athugasemdina athugasemdinni athugasemdir athugasemdirnar athugasemdum athugasemdunum
+3	2503	höggva	hegg heggst heggur heggurðu hjuggu hjuggum hjuggumst hjuggust hjugguð hjó hjóst hjóstu hoggin hogginn hogginna hogginnar hogginni hoggins hoggist hoggið hoggna hoggnar hoggni hoggnir hoggnu hoggnum hyggi hyggir hyggirðu hyggist hyggju hyggjum hyggjumst hyggjust hyggjuð höggin högginn högginna högginnar högginni höggins höggist höggið höggna höggnar höggni höggnir höggnu höggnum höggvandi höggvast höggvi höggvin höggvinn höggvinna höggvinnar höggvinni höggvins höggvir höggvirðu höggvist höggvið höggvum höggvumst höggðu
+4	2504	mannvirki	mannvirkin mannvirkinu mannvirkis mannvirkisins mannvirkið mannvirkja mannvirkjanna mannvirkjum mannvirkjunum
+5	2505	hreinskilinn	hreinskilin hreinskilinna hreinskilinnar hreinskilinni hreinskilins hreinskilið hreinskilna hreinskilnar hreinskilnara hreinskilnari hreinskilnast hreinskilnasta hreinskilnastan hreinskilnastar hreinskilnasti hreinskilnastir hreinskilnastra hreinskilnastrar hreinskilnastri hreinskilnasts hreinskilnastur hreinskilni hreinskilnir hreinskilnu hreinskilnum hreinskilnust hreinskilnustu hreinskilnustum
+6	2506	valkostur	valkost valkosta valkostanna valkostar valkostarins valkosti valkostina valkostinn valkostinum valkostir valkostirnir valkosts valkostsins valkostum valkostunum valkosturinn
+7	2507	meðfram	
+8	2508	mær	mey meyja meyjanna meyjar meyjarinnar meyjarnar meyju meyjum meyjunni meyjunum meyna mærin
+9	2509	ritari	ritara ritarana ritarann ritaranna ritarans ritaranum ritarar ritararnir ritarinn riturum riturunum
+10	2510	einmana	
+11	2511	móttekinn	móttekin móttekinna móttekinnar móttekinni móttekins móttekið móttekna mótteknar móttekni mótteknir mótteknu mótteknum
+12	2512	grófur	gróf grófa grófan grófar grófara grófari grófast grófasta grófastan grófastar grófasti grófastir grófastra grófastrar grófastri grófasts grófastur grófi grófir grófra grófrar grófri grófs gróft grófu grófum grófust grófustu grófustum
+13	2513	landsmaður	landsmann landsmanna landsmannanna landsmanni landsmanninn landsmanninum landsmanns landsmannsins landsmaðurinn landsmenn landsmennina landsmennirnir landsmönnum landsmönnunum
+14	2514	smita	smitandi smitar smitast smitað smitaða smitaðan smitaðar smitaði smitaðir smitaðist smitaðra smitaðrar smitaðri smitaðs smitaðu smitaður smiti smitir smitist smitið smitum smitumst smituð smituðu smituðum smituðumst smituðust smituðuð
+15	2515	þráður	þráð þráða þráðan þráðanna þráðar þráðara þráðari þráðarins þráðast þráðasta þráðastan þráðastar þráðasti þráðastir þráðastra þráðastrar þráðastri þráðasts þráðastur þráði þráðinn þráðir þráðra þráðrar þráðri þráðs þráðu þráðum þráðunum þráðurinn þráðust þráðustu þráðustum þræði þræðina þræðinum þræðir þræðirnir
+16	2516	seðill	seðil seðilinn seðillinn seðils seðilsins seðla seðlana seðlanna seðlar seðlarnir seðli seðlinum seðlum seðlunum
+17	2517	viskí	viskíi viskíinu viskíið viskís viskísins
+18	2518	verðmætur	verðmæt verðmæta verðmætan verðmætar verðmætara verðmætari verðmætast verðmætasta verðmætastan verðmætastar verðmætasti verðmætastir verðmætastra verðmætastrar verðmætastri verðmætasts verðmætastur verðmæti verðmætir verðmætra verðmætrar verðmætri verðmæts verðmætt verðmætu verðmætum verðmætust verðmætustu verðmætustum
+19	2519	alltof	
+20	2520	upplýsa	upplýsandi upplýsast upplýsi upplýsir upplýsist upplýsið upplýst upplýsta upplýstan upplýstar upplýsti upplýstir upplýstist upplýstra upplýstrar upplýstri upplýsts upplýstu upplýstum upplýstumst upplýstur upplýstust upplýstuð upplýsum upplýsumst
+21	2521	óléttur	ólétt ólétta óléttan óléttar óléttara óléttari óléttast óléttasta óléttastan óléttastar óléttasti óléttastir óléttastra óléttastrar óléttastri óléttasts óléttastur ólétti óléttir óléttra óléttrar óléttri ólétts óléttu óléttum óléttust óléttustu óléttustum
+22	2522	krókur	krók króka krókana krókanna krókar krókarnir króki krókinn króknum króks króksins krókum krókunum krókurinn
+23	2523	bensín	bensíni bensíninu bensínið bensíns bensínsins
+24	2524	bakka	bakkandi bakkar bakkarðu bakkað bakkaða bakkaðan bakkaðar bakkaði bakkaðir bakkaðra bakkaðrar bakkaðri bakkaðs bakkaðu bakkaður bakki bakkir bakkið bakkiði bökkum bökkuð bökkuðu bökkuðum bökkuðuð
+25	2525	greindur	greind greinda greindan greindar greindara greindari greindast greindasta greindastan greindastar greindasti greindastir greindastra greindastrar greindastri greindasts greindastur greindi greindir greindra greindrar greindri greinds greindu greindum greindust greindustu greindustum greint
+26	2526	ormur	orm orma ormana ormanna ormar ormarnir ormi orminn orminum orms ormsins ormum ormunum ormurinn
+27	2527	skaði	skaða skaðana skaðann skaðanna skaðans skaðanum skaðar skaðarnir skaðinn sköðum sköðunum
+28	2528	áttundi	áttunda áttundu
+29	2529	fruma	fruman frumanna frumna frumnanna frumu frumum frumuna frumunnar frumunni frumunum frumur frumurnar
+30	2530	stjórnsýsla	stjórnsýslan stjórnsýslu stjórnsýsluna stjórnsýslunnar stjórnsýslunni
+31	2531	eiturlyf	eiturlyfi eiturlyfin eiturlyfinu eiturlyfið eiturlyfja eiturlyfjanna eiturlyfjum eiturlyfjunum eiturlyfs eiturlyfsins
+32	2532	miðstöð	miðstöðin miðstöðina miðstöðinni miðstöðva miðstöðvanna miðstöðvar miðstöðvarinnar miðstöðvarnar miðstöðvum miðstöðvunum
+33	2533	takmark	takmarka takmarkanna takmarki takmarkinu takmarkið takmarks takmarksins takmörk takmörkin takmörkum takmörkunum
+34	2534	hólmur	hólm hólma hólmana hólmanna hólmar hólmarnir hólmi hólminn hólminum hólms hólmsins hólmum hólmunum hólmurinn
+35	2535	barbari	barbara barbarana barbarann barbaranna barbarans barbaranum barbarar barbararnir barbarinn barbörum barbörunum
+36	2536	atvinnulíf	atvinnulífi atvinnulífinu atvinnulífið atvinnulífs atvinnulífsins
+37	2537	knattspyrna	knattspyrnan knattspyrnu knattspyrnuna knattspyrnunnar knattspyrnunni
+38	2538	líkamlegur	líkamleg líkamlega líkamlegan líkamlegar líkamlegast líkamlegasta líkamlegastan líkamlegastar líkamlegasti líkamlegastir líkamlegastra líkamlegastrar líkamlegastri líkamlegasts líkamlegastur líkamlegi líkamlegir líkamlegra líkamlegrar líkamlegri líkamlegs líkamlegt líkamlegu líkamlegum líkamlegust líkamlegustu líkamlegustum
+39	2539	misskilningur	misskilning misskilningi misskilninginn misskilningnum misskilnings misskilningsins misskilningurinn
+40	2540	mæling	mælinga mælinganna mælingar mælingarinnar mælingarnar mælingin mælingu mælingum mælinguna mælingunni mælingunum
+41	2541	collins	
+42	2542	tár	tára táranna tári tárin tárinu tárið társ társins tárum tárunum
+43	2543	þétt	þéttar þéttast
+44	2544	bolli	bolla bollana bollann bollanna bollans bollanum bollar bollarnir bollinn bollum bollunum
+45	2545	kátur	kát káta kátan kátar kátara kátari kátast kátasta kátastan kátastar kátasti kátastir kátastra kátastrar kátastri kátasts kátastur káti kátir kátra kátrar kátri káts kátt kátu kátum kátust kátustu kátustum
+46	2546	knýja	knúin knúinn knúinna knúinnar knúinni knúins knúist knúið knúna knúnar knúni knúnir knúnu knúnum knúði knúðir knúðirðu knúðist knúðu knúðum knúðumst knúðust knúðuð kný knýi knýir knýirðu knýist knýið knýjandi knýjast knýjum knýjumst knýr knýrð knýrðu knýst knýði knýðir knýðirðu knýðist knýðu knýðum knýðumst knýðust knýðuð
+47	2547	slétta	slést slétt sléttan sléttandi sléttanna sléttar sléttarðu sléttast sléttað sléttaða sléttaðan sléttaðar sléttaði sléttaðir sléttaðirðu sléttaðist sléttaðra sléttaðrar sléttaðri sléttaðs sléttaðu sléttaður slétti sléttir sléttirðu sléttist sléttið sléttna sléttnanna sléttra sléttrar sléttri slétts sléttu sléttum sléttumst sléttuna sléttunnar sléttunni sléttunum sléttur slétturnar sléttust sléttuð sléttuði sléttuðu sléttuðum sléttuðumst sléttuðust sléttuðuð
+48	2548	fatlaður	fatlað fatlaða fatlaðan fatlaðar fatlaðast fatlaðasta fatlaðastan fatlaðastar fatlaðasti fatlaðastir fatlaðastra fatlaðastrar fatlaðastri fatlaðasts fatlaðastur fatlaði fatlaðir fatlaðra fatlaðrar fatlaðri fatlaðs fötluð fötluðu fötluðum fötluðust fötluðustu fötluðustum
+49	2549	flugfélag	flugfélaga flugfélaganna flugfélagi flugfélaginu flugfélagið flugfélags flugfélagsins flugfélög flugfélögin flugfélögum flugfélögunum
+50	2550	fleygja	fleygi fleygir fleygist fleygið fleygjandi fleygjast fleygjum fleygjumst fleygst fleygt fleygði fleygðir fleygðist fleygðu fleygðum fleygðumst fleygðust fleygðuð
+51	2551	fet	feta fetanna feti fetin fetinu fetið fets fetsins fetum fetunum
+52	2552	smella	small smallst smallstu smell smellan smellandi smellanna smellast smelli smellir smellirðu smellist smellið smellna smellnanna smellst smellt smellta smelltan smelltar smellti smelltir smelltist smelltra smelltrar smelltri smellts smelltu smelltum smelltumst smelltur smelltust smelltuð smellu smellum smellumst smelluna smellunnar smellunni smellunum smellur smellurnar smellurðu smollin smollinn smollinna smollinnar smollinni smollins smollið smollna smollnar smollni smollnir smollnu smollnum smullu smullum smulluð smylli smyllir smyllirðu smyllu smyllum smylluð
+53	2553	svefnherbergi	svefnherbergin svefnherberginu svefnherbergis svefnherbergisins svefnherbergið svefnherbergja svefnherbergjanna svefnherbergjum svefnherbergjunum
+54	2554	bára	báran bárandi báranna bárar bárast bárað báraða báraðan báraðar báraði báraðir báraðist báraðra báraðrar báraðri báraðs báraðu báraður bári bárir bárist bárið báru bárum bárumst báruna bárunnar bárunni bárunum bárur bárurnar báruð báruðu báruðum báruðumst báruðust báruðuð
+55	2555	kjarkur	kjark kjarki kjarkinn kjarkinum kjarks kjarksins kjarkurinn
+56	2556	rigna	rignandi rigndi rigni rignir rignt
+57	2557	hold	holda holdanna holdi holdin holdinu holdið holds holdsins holdum holdunum
+58	2558	mein	meina meinanna meini meinin meininu meinið meins meinsins meinum meinunum
+59	2559	læti	láta látanna látum látunum lætin
+60	2560	vígja	vígi víginu vígir vígist vígið vígjandi vígjast vígjum vígjumst vígst vígt vígð vígða vígðan vígðar vígði vígðir vígðist vígðra vígðrar vígðri vígðs vígðu vígðum vígðumst vígður vígðust vígðuð
+61	2561	óla	ólar ólað ólaða ólaðan ólaðar ólaði ólaðir ólaðra ólaðrar ólaðri ólaðs ólaðu ólaður óli ólir ólið ólum óluð óluðu óluðum óluðuð
+62	2562	stofnandi	stofnanda stofnandann stofnandans stofnandanum stofnandinn stofnenda stofnendanna stofnendum stofnendunum stofnendur stofnendurna stofnendurnir
+63	2563	hlutabréf	hlutabréfa hlutabréfanna hlutabréfi hlutabréfin hlutabréfinu hlutabréfið hlutabréfs hlutabréfsins hlutabréfum hlutabréfunum
+64	2564	erfa	erfandi erfast erfi erfir erfirðu erfist erfið erfiði erfst erft erfum erfumst erfð erfða erfðan erfðar erfði erfðir erfðist erfðra erfðrar erfðri erfðs erfðu erfðum erfðumst erfður erfðust erfðuð
+65	2565	lögmál	lögmála lögmálanna lögmáli lögmálin lögmálinu lögmálið lögmáls lögmálsins lögmálum lögmálunum
+66	2566	verulegur	veruleg verulega verulegan verulegar verulegast verulegasta verulegastan verulegastar verulegasti verulegastir verulegastra verulegastrar verulegastri verulegasts verulegastur verulegi verulegir verulegra verulegrar verulegri verulegs verulegt verulegu verulegum verulegust verulegustu verulegustum
+67	2567	pylsa	pylsan pylsanna pylsna pylsnanna pylsu pylsum pylsuna pylsunnar pylsunni pylsunum pylsur pylsurnar
+68	2568	tilskipun	tilskipan tilskipana tilskipananna tilskipanir tilskipanirnar tilskipunar tilskipunarinnar tilskipunin tilskipunina tilskipuninni tilskipunum tilskipununum
+69	2569	skrif	skrifa skrifanna skrifi skrifin skrifinu skrifið skrifs skrifsins skrifum skrifunum
+70	2570	hrafn	hrafna hrafnana hrafnanna hrafnar hrafnarnir hrafni hrafninn hrafninum hrafns hrafnsins hröfnum hröfnunum
+71	2571	upphæð	upphæða upphæðanna upphæðar upphæðarinnar upphæðin upphæðina upphæðinni upphæðir upphæðirnar upphæðum upphæðunum
+72	2572	lygari	lygara lygarana lygarann lygaranna lygarans lygaranum lygarar lygararnir lygarinn lygurum lygurunum
+73	2573	slappa	slappandi slappar slapparðu slappast slappað slappaði slappaðir slappaðist slappaðu slappi slappir slappist slappið slappiði slöppum slöppumst slöppuðu slöppuðum slöppuðumst slöppuðust slöppuðuð
+74	2574	samræða	samræðan samræðanna samræðna samræðnanna samræðu samræðum samræðuna samræðunnar samræðunni samræðunum samræður samræðurnar
+75	2575	bragur	brag braga braganna bragar bragarins bragi bragina braginn bragir bragirnir bragnum brags bragsins bragurinn brögum brögunum
+76	2576	risastór	risastóra risastóran risastórar risastóri risastórir risastórra risastórrar risastórri risastórs risastórt risastóru risastórum
+77	2577	gullinn	gullin gullinna gullinnar gullinni gullins gullið gullna gullnar gullni gullnir gullnu gullnum
+78	2578	heilbrigður	heilbrigt heilbrigð heilbrigða heilbrigðan heilbrigðar heilbrigðara heilbrigðari heilbrigðast heilbrigðasta heilbrigðastan heilbrigðastar heilbrigðasti heilbrigðastir heilbrigðastra heilbrigðastrar heilbrigðastri heilbrigðasts heilbrigðastur heilbrigði heilbrigðir heilbrigðra heilbrigðrar heilbrigðri heilbrigðs heilbrigðu heilbrigðum heilbrigðust heilbrigðustu heilbrigðustum
+79	2579	afgreiða	afgreidd afgreidda afgreiddan afgreiddar afgreiddi afgreiddir afgreiddirðu afgreiddist afgreiddra afgreiddrar afgreiddri afgreidds afgreiddu afgreiddum afgreiddumst afgreiddur afgreiddust afgreidduð afgreitt afgreiðandi afgreiðast afgreiði afgreiðir afgreiðist afgreiðið afgreiðst afgreiðum afgreiðumst
+80	2580	gleraugu	gleraugna gleraugnanna gleraugum gleraugun gleraugunum
+81	2581	hrinda	hrast hratt hrindandi hrindi hrindir hrindið hrindum hrint hrinti hrintir hrintirðu hrintu hrintum hrintuð hrundið hrundu hrundum hrunduð hryndi hryndir hryndu hryndum hrynduð
+82	2582	neysla	neyslan neyslna neyslnanna neyslu neyslum neysluna neyslunnar neyslunni neyslunum neyslur neyslurnar
+83	2583	nýting	nýtinga nýtinganna nýtingar nýtingarinnar nýtingarnar nýtingin nýtingu nýtingum nýtinguna nýtingunni nýtingunum
+84	2584	furðulegur	furðuleg furðulega furðulegan furðulegar furðulegast furðulegasta furðulegastan furðulegastar furðulegasti furðulegastir furðulegastra furðulegastrar furðulegastri furðulegasts furðulegastur furðulegi furðulegir furðulegra furðulegrar furðulegri furðulegs furðulegt furðulegu furðulegum furðulegust furðulegustu furðulegustum
+85	2585	hirðir	hirða hirðana hirðanna hirðar hirðarnir hirði hirðinn hirðinum hirðirinn hirðis hirðisins hirðum hirðunum
+86	2586	reglugerð	reglugerða reglugerðanna reglugerðar reglugerðarinnar reglugerðin reglugerðina reglugerðinni reglugerðir reglugerðirnar reglugerðum reglugerðunum
+87	2587	gleði	gleða gleðanna gleðin gleðina gleðinnar gleðinni gleðir gleðirnar gleðum gleðunum
+88	2588	refsa	refsandi refsar refsarðu refsast refsað refsaði refsaðir refsaðist refsaðu refsi refsir refsist refsið refsum refsumst refsuðu refsuðum refsuðumst refsuðust refsuðuð
+89	2589	lauma	laumandi laumar laumast laumastu laumað laumaða laumaðan laumaðar laumaði laumaðir laumaðist laumaðistu laumaðra laumaðrar laumaðri laumaðs laumaðu laumaður laumi laumir laumirðu laumist laumið laumum laumumst laumuð laumuðu laumuðum laumuðumst laumuðust laumuðuð
+90	2590	ræktun	ræktana ræktananna ræktanir ræktanirnar ræktunar ræktunarinnar ræktunin ræktunina ræktuninni ræktunum ræktununum
+91	2591	bjalla	bjallan bjallandi bjallanna bjallar bjallast bjallað bjallaða bjallaðan bjallaðar bjallaði bjallaðir bjallaðist bjallaðra bjallaðrar bjallaðri bjallaðs bjallaðu bjallaður bjalli bjallir bjallist bjallið bjallna bjallnanna bjöllu bjöllum bjöllumst bjölluna bjöllunnar bjöllunni bjöllunum bjöllur bjöllurnar bjölluð bjölluðu bjölluðum bjölluðumst bjölluðust bjölluðuð
+92	2592	foss	fossa fossana fossanna fossar fossarnir fossi fossinn fossins fossinum fossum fossunum
+93	2593	aðdragandi	aðdraganda aðdragandann aðdragandans aðdragandanum aðdragandinn
+94	2594	ketill	katla katlana katlanna katlar katlarnir katli katlinum ketil ketilinn ketillinn ketils ketilsins kötlum kötlunum
+95	2595	sófi	sófa sófana sófann sófanna sófans sófanum sófar sófarnir sófinn sófum sófunum
+96	2596	skilnaður	skilnað skilnaða skilnaðanna skilnaðar skilnaðarins skilnaði skilnaðina skilnaðinn skilnaðinum skilnaðir skilnaðirnir skilnaðurinn skilnuðum skilnuðunum
+97	2597	sýking	sýkinga sýkinganna sýkingar sýkingarinnar sýkingarnar sýkingin sýkingu sýkingum sýkinguna sýkingunni sýkingunum
+98	2598	blettur	blett bletta blettanna bletti blettina blettinn blettinum blettir blettirnir bletts blettsins blettum blettunum bletturinn
+99	2599	saksóknari	saksóknara saksóknarana saksóknarann saksóknaranna saksóknarans saksóknaranum saksóknarar saksóknararnir saksóknarinn saksóknurum saksóknurunum
+100	2600	frábærlega	

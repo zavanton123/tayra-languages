@@ -1,0 +1,100 @@
+1	3501	harmleikur	harmleik harmleiki harmleikina harmleikinn harmleikir harmleikirnir harmleikja harmleikjanna harmleikjum harmleikjunum harmleiknum harmleiks harmleiksins harmleikurinn
+2	3502	segl	segla seglanna segli seglin seglinu seglið segls seglsins seglum seglunum
+3	3503	fjárfestir	fjárfesta fjárfestana fjárfestanna fjárfestar fjárfestarnir fjárfesti fjárfestinn fjárfestinum fjárfestirinn fjárfestis fjárfestisins fjárfestum fjárfestunum
+4	3504	þekja	þakin þakinn þakinna þakinnar þakinni þakins þakist þakið þakta þaktar þakti þaktir þaktist þek þeki þekir þekist þekið þekjan þekjandi þekjanna þekjast þekju þekjum þekjumst þekjuna þekjunnar þekjunni þekjunum þekjur þekjurnar þekst þekti þektir þektist þektu þektum þektumst þektust þektuð þekur þöktu þöktum þöktumst þöktust þöktuð
+5	3505	lás	lása lásana lásanna lásar lásarnir lási lásinn lásnum láss lássins lásum lásunum
+6	3506	kaffihús	kaffihúsa kaffihúsanna kaffihúsi kaffihúsin kaffihúsinu kaffihúsið kaffihúss kaffihússins kaffihúsum kaffihúsunum
+7	3507	framfylgja	framfylgd framfylgda framfylgdan framfylgdar framfylgdi framfylgdir framfylgdra framfylgdrar framfylgdri framfylgds framfylgdu framfylgdum framfylgdur framfylgduð framfylgi framfylgir framfylgið framfylgjandi framfylgjast framfylgjum framfylgst framfylgt
+8	3508	lama	lamandi lamar lamast lamað lamaða lamaðan lamaðar lamaði lamaðir lamaðist lamaðra lamaðrar lamaðri lamaðs lamaðu lamaður lami lamir lamist lamið lömum lömumst lömuð lömuðu lömuðum lömuðumst lömuðust lömuðuð
+9	3509	lykta	lyktandi lyktar lyktast lyktað lyktaða lyktaðan lyktaðar lyktaði lyktaðir lyktaðist lyktaðra lyktaðrar lyktaðri lyktaðs lyktaðu lyktaður lykti lyktir lyktist lyktið lyktum lyktumst lyktuð lyktuðu lyktuðum lyktuðumst lyktuðust lyktuðuð
+10	3510	handklæði	handklæða handklæðanna handklæðin handklæðinu handklæðis handklæðisins handklæðið handklæðum handklæðunum
+11	3511	samruni	samruna samrunann samrunans samrunanum samruninn
+12	3512	au	
+13	3513	samhryggjast	samhryggist samhryggjumst samhryggst samhryggðist samhryggðumst samhryggðust
+14	3514	lón	lóna lónanna lóni lónin lóninu lónið lóns lónsins lónum lónunum
+15	3515	meginland	meginlanda meginlandanna meginlandi meginlandinu meginlandið meginlands meginlandsins meginlönd meginlöndin meginlöndum meginlöndunum
+16	3516	gáfa	gáfan gáfna gáfnanna gáfu gáfum gáfuna gáfunnar gáfunni gáfunum gáfur gáfurnar
+17	3517	frægð	frægðar frægðarinnar frægðin frægðina frægðinni
+18	3518	bóka	bókandi bókar bókast bókað bókaða bókaðan bókaðar bókaði bókaðir bókaðirðu bókaðist bókaðra bókaðrar bókaðri bókaðs bókaðu bókaður bóki bókir bókist bókið bókum bókumst bókuð bókuðu bókuðum bókuðumst bókuðust bókuðuð
+19	3519	salat	salata salatanna salati salatinu salatið salats salatsins salöt salötin salötum salötunum
+20	3520	arkitekt	arkitekta arkitektana arkitektanna arkitektar arkitektarnir arkitektinn arkitektinum arkitekts arkitektsins arkitektum arkitektunum
+21	3521	meistaraflokkur	meistaraflokk meistaraflokka meistaraflokkana meistaraflokkanna meistaraflokkar meistaraflokkarnir meistaraflokki meistaraflokkinn meistaraflokknum meistaraflokks meistaraflokksins meistaraflokkum meistaraflokkunum meistaraflokkurinn
+22	3522	hrikalega	hrikalegar hrikalegast
+23	3523	afkvæmi	afkvæma afkvæmanna afkvæmin afkvæminu afkvæmis afkvæmisins afkvæmið afkvæmum afkvæmunum
+24	3524	öryggisvörður	öryggisvarða öryggisvarðanna öryggisvarðar öryggisvarðarins öryggisverði öryggisverðina öryggisverðinum öryggisverðir öryggisverðirnir öryggisvörð öryggisvörðinn öryggisvörðum öryggisvörðunum öryggisvörðurinn
+25	3525	körfubolti	körfubolta körfuboltana körfuboltann körfuboltanna körfuboltans körfuboltanum körfuboltar körfuboltarnir körfuboltinn körfuboltum körfuboltunum
+26	3526	samstaða	samstaðan samstöðu samstöðuna samstöðunnar samstöðunni
+27	3527	laust	lausar lausast
+28	3528	róttækur	róttæk róttæka róttækan róttækar róttækara róttækari róttækast róttækasta róttækastan róttækastar róttækasti róttækastir róttækastra róttækastrar róttækastri róttækasts róttækastur róttæki róttækir róttækra róttækrar róttækri róttæks róttækt róttæku róttækum róttækust róttækustu róttækustum
+29	3529	bílastæði	bílastæða bílastæðanna bílastæðin bílastæðinu bílastæðis bílastæðisins bílastæðið bílastæðum bílastæðunum
+30	3530	riðla	riðlandi riðlar riðlast riðlastu riðlað riðlaða riðlaðan riðlaðar riðlaði riðlaðir riðlaðist riðlaðistu riðlaðra riðlaðrar riðlaðri riðlaðs riðlaðu riðlaður riðli riðlir riðlist riðlið riðlum riðlumst riðluð riðluðu riðluðum riðluðumst riðluðust riðluðuð
+31	3531	sælgæti	sælgætinu sælgætis sælgætisins sælgætið
+32	3532	sprengiefni	sprengiefna sprengiefnanna sprengiefnin sprengiefninu sprengiefnis sprengiefnisins sprengiefnið sprengiefnum sprengiefnunum
+33	3533	óþokki	óþokka óþokkana óþokkann óþokkanna óþokkans óþokkanum óþokkar óþokkarnir óþokkinn óþokkum óþokkunum
+34	3534	stífur	stíf stífa stífan stífar stífara stífari stífast stífasta stífastan stífastar stífasti stífastir stífastra stífastrar stífastri stífasts stífastur stífi stífir stífra stífrar stífri stífs stíft stífu stífum stífust stífustu stífustum
+35	3535	herferð	herferða herferðanna herferðar herferðarinnar herferðin herferðina herferðinni herferðir herferðirnar herferðum herferðunum
+36	3536	hvíld	hvílda hvíldanna hvíldar hvíldarinnar hvíldin hvíldina hvíldinni hvíldir hvíldirnar hvíldum hvíldunum
+37	3537	afhjúpa	afhjúpandi afhjúpar afhjúpast afhjúpastu afhjúpað afhjúpaða afhjúpaðan afhjúpaðar afhjúpaði afhjúpaðir afhjúpaðist afhjúpaðra afhjúpaðrar afhjúpaðri afhjúpaðs afhjúpaðu afhjúpaður afhjúpi afhjúpir afhjúpist afhjúpið afhjúpum afhjúpumst afhjúpuð afhjúpuðu afhjúpuðum afhjúpuðumst afhjúpuðust afhjúpuðuð
+38	3538	meir	
+39	3539	trúlofa	trúlofandi trúlofar trúlofast trúlofað trúlofaða trúlofaðan trúlofaðar trúlofaði trúlofaðir trúlofaðist trúlofaðistu trúlofaðra trúlofaðrar trúlofaðri trúlofaðs trúlofaðu trúlofaður trúlofi trúlofir trúlofist trúlofið trúlofum trúlofumst trúlofuð trúlofuðu trúlofuðum trúlofuðumst trúlofuðust trúlofuðuð
+40	3540	hollenskur	hollensk hollenska hollenskan hollenskar hollenskara hollenskari hollenskast hollenskasta hollenskastan hollenskastar hollenskasti hollenskastir hollenskastra hollenskastrar hollenskastri hollenskasts hollenskastur hollenski hollenskir hollenskra hollenskrar hollenskri hollensks hollenskt hollensku hollenskum hollenskust hollenskustu hollenskustum
+41	3541	skuldbinding	skuldbindinga skuldbindinganna skuldbindingar skuldbindingarinnar skuldbindingarnar skuldbindingin skuldbindingu skuldbindingum skuldbindinguna skuldbindingunni skuldbindingunum
+42	3542	skrambi	skramba skrambana skrambann skrambanna skrambans skrambanum skrambar skrambarnir skrambinn skrömbum skrömbunum
+43	3543	leki	leka lekana lekann lekanna lekans lekanum lekar lekarnir lekinn lekum lekunum
+44	3544	grennd	grenndar grenndarinnar grenndin grenndina grenndinni
+45	3545	harmur	harm harma harmana harmanna harmar harmarnir harmi harminn harminum harms harmsins harmurinn hörmum hörmunum
+46	3546	búsettur	búsett búsetta búsettan búsettar búsetti búsettir búsettra búsettrar búsettri búsetts búsettu búsettum
+47	3547	frábrugðinn	frábrugðin frábrugðinna frábrugðinnar frábrugðinni frábrugðins frábrugðið frábrugðna frábrugðnar frábrugðnara frábrugðnari frábrugðnast frábrugðnasta frábrugðnastan frábrugðnastar frábrugðnasti frábrugðnastir frábrugðnastra frábrugðnastrar frábrugðnastri frábrugðnasts frábrugðnastur frábrugðni frábrugðnir frábrugðnu frábrugðnum frábrugðnust frábrugðnustu frábrugðnustum
+48	3548	andlega	
+49	3549	nærvera	nærveran nærveru nærveruna nærverunnar nærverunni
+50	3550	arfur	arf arfi arfinn arfinum arfs arfsins arfurinn
+51	3551	selur	sel sela selanna seli selina selinn selir selirnir selnum sels selsins selum selunum selurinn
+52	3552	aur	aura aurana auranna aurar aurarnir auri aurinn aurnum aurs aursins aurum aurunum
+53	3553	vandræðalegur	vandræðaleg vandræðalega vandræðalegan vandræðalegar vandræðalegast vandræðalegasta vandræðalegastan vandræðalegastar vandræðalegasti vandræðalegastir vandræðalegastra vandræðalegastrar vandræðalegastri vandræðalegasts vandræðalegastur vandræðalegi vandræðalegir vandræðalegra vandræðalegrar vandræðalegri vandræðalegs vandræðalegt vandræðalegu vandræðalegum vandræðalegust vandræðalegustu vandræðalegustum
+54	3554	gylltur	gyllt gyllta gylltan gylltar gylltara gylltari gylltast gylltasta gylltastan gylltastar gylltasti gylltastir gylltastra gylltastrar gylltastri gylltasts gylltastur gyllti gylltir gylltra gylltrar gylltri gyllts gylltu gylltum gylltust gylltustu gylltustum
+55	3555	grátbiðja	grátbað grátbaðst grátbeðin grátbeðinn grátbeðinna grátbeðinnar grátbeðinni grátbeðins grátbeðið grátbeðna grátbeðnar grátbeðni grátbeðnir grátbeðnu grátbeðnum grátbiddu grátbið grátbiðjandi grátbiðji grátbiðjir grátbiðjið grátbiðjum grátbiður grátbáðu grátbáðum grátbáðuð grátbæði grátbæðir grátbæðu grátbæðum grátbæðuð
+56	3556	sameiginlega	
+57	3557	setur	setra setranna setri setrin setrinu setrið setrum setrunum seturs setursins
+58	3558	skráning	skráninga skráninganna skráningar skráningarinnar skráningarnar skráningin skráningu skráningum skráninguna skráningunni skráningunum
+59	3559	skjálfa	skalf skalfst skalfstu skelf skelfur skelfurðu skjálfandi skjálfi skjálfir skjálfirðu skjálfið skjálfum skjálfðu skolfin skolfinn skolfinna skolfinnar skolfinni skolfins skolfið skolfna skolfnar skolfni skolfnir skolfnu skolfnum skulfu skulfum skulfuð skylfi skylfir skylfirðu skylfu skylfum skylfuð
+60	3560	náttúrulega	
+61	3561	kind	kinda kindanna kindar kindarinnar kindin kindina kindinni kindum kindunum kindur kindurnar
+62	3562	uppsetning	uppsetninga uppsetninganna uppsetningar uppsetningarinnar uppsetningarnar uppsetningin uppsetningu uppsetningum uppsetninguna uppsetningunni uppsetningunum
+63	3563	útskrift	útskrifta útskriftanna útskriftar útskriftarinnar útskriftin útskriftina útskriftinni útskriftir útskriftirnar útskriftum útskriftunum
+64	3564	kynferðislegur	kynferðisleg kynferðislegan kynferðislegar kynferðislegast kynferðislegasta kynferðislegastan kynferðislegastar kynferðislegasti kynferðislegastir kynferðislegastra kynferðislegastrar kynferðislegastri kynferðislegasts kynferðislegastur kynferðislegi kynferðislegir kynferðislegra kynferðislegrar kynferðislegri kynferðislegs kynferðislegt kynferðislegu kynferðislegum kynferðislegust kynferðislegustu kynferðislegustum
+65	3565	as	ass
+66	3566	hörmung	hörmunga hörmunganna hörmungar hörmungarinnar hörmungarnar hörmungin hörmungina hörmunginni hörmungum hörmungunum
+67	3567	nauðgun	nauðgana nauðgananna nauðganir nauðganirnar nauðgunar nauðgunarinnar nauðgunin nauðgunina nauðguninni nauðgunum nauðgununum
+68	3568	fljót	fljóta fljótanna fljóti fljótin fljótinu fljótið fljóts fljótsins fljótum fljótunum
+69	3569	áramót	áramóta áramótanna áramótin áramótum áramótunum
+70	3570	vægur	væg væga vægan vægar vægara vægari vægast vægasta vægastan vægastar vægasti vægastir vægastra vægastrar vægastri vægasts vægastur vægi vægir vægra vægrar vægri vægs vægt vægu vægum vægust vægustu vægustum
+71	3571	óþarfi	óþarfa óþarfann óþarfans óþarfanum óþarfinn
+72	3572	verðbólga	verðbólgan verðbólgu verðbólguna verðbólgunnar verðbólgunni
+73	3573	kristni	kristnin kristnina kristninnar kristninni
+74	3574	skel	skelin skelina skelinni skelja skeljanna skeljar skeljarinnar skeljarnar skeljum skeljunum
+75	3575	tæknilegur	tæknileg tæknilega tæknilegan tæknilegar tæknilegast tæknilegasta tæknilegastan tæknilegastar tæknilegasti tæknilegastir tæknilegastra tæknilegastrar tæknilegastri tæknilegasts tæknilegastur tæknilegi tæknilegir tæknilegra tæknilegrar tæknilegri tæknilegs tæknilegt tæknilegu tæknilegum tæknilegust tæknilegustu tæknilegustum
+76	3576	áhyggjufullur	áhyggjufull áhyggjufulla áhyggjufullan áhyggjufullar áhyggjufulli áhyggjufullir áhyggjufullra áhyggjufullrar áhyggjufullri áhyggjufulls áhyggjufullt áhyggjufullu áhyggjufullum áhyggjufyllra áhyggjufyllri áhyggjufyllst áhyggjufyllsta áhyggjufyllstan áhyggjufyllstar áhyggjufyllsti áhyggjufyllstir áhyggjufyllstra áhyggjufyllstrar áhyggjufyllstri áhyggjufyllsts áhyggjufyllstu áhyggjufyllstum áhyggjufyllstur
+77	3577	yfirráð	yfirráða yfirráðanna yfirráðin yfirráðum yfirráðunum
+78	3578	viska	viskan visku viskuna viskunnar viskunni
+79	3579	fingrafar	fingrafara fingrafaranna fingrafari fingrafarinu fingrafarið fingrafars fingrafarsins fingraför fingraförin fingraförum fingraförunum
+80	3580	súr	súra súran súrar súrara súrari súrast súrasta súrastan súrastar súrasti súrastir súrastra súrastrar súrastri súrasts súrastur súri súrinn súrir súrnum súrra súrrar súrri súrs súrsins súrt súru súrum súrust súrustu súrustum
+81	3581	býfluga	býflugan býflugna býflugnanna býflugu býflugum býfluguna býflugunnar býflugunni býflugunum býflugur býflugurnar
+82	3582	hilla	hillan hillanna hilli hillir hillna hillnanna hillt hillti hillu hillum hilluna hillunnar hillunni hillunum hillur hillurnar
+83	3583	samsettur	samsett samsetta samsettan samsettar samsetti samsettir samsettra samsettrar samsettri samsetts samsettu samsettum
+84	3584	loðinn	loðin loðinna loðinnar loðinni loðins loðið loðna loðnar loðnara loðnari loðnast loðnasta loðnastan loðnastar loðnasti loðnastir loðnastra loðnastrar loðnastri loðnasts loðnastur loðni loðnir loðnu loðnum loðnust loðnustu loðnustum
+85	3585	dýragarður	dýragarð dýragarða dýragarðana dýragarðanna dýragarðar dýragarðarnir dýragarði dýragarðinn dýragarðinum dýragarðs dýragarðsins dýragarðurinn dýragörðum dýragörðunum
+86	3586	kommúnisti	kommúnista kommúnistana kommúnistann kommúnistanna kommúnistans kommúnistanum kommúnistar kommúnistarnir kommúnistinn kommúnistum kommúnistunum
+87	3587	kafi	
+88	3588	kofi	kofa kofana kofann kofanna kofans kofanum kofar kofarnir kofinn kofum kofunum
+89	3589	ytra	
+90	3590	landspítali	landspítala landspítalana landspítalann landspítalanna landspítalans landspítalanum landspítalar landspítalarnir landspítalinn landspítölum landspítölunum
+91	3591	lending	lendinga lendinganna lendingar lendingarinnar lendingarnar lendingin lendingu lendingum lendinguna lendingunni lendingunum
+92	3592	melur	mel mela melana melanna melar melarnir melinn melnum mels melsins melum melunum melurinn
+93	3593	samfelldur	samfelld samfellda samfelldan samfelldar samfelldara samfelldari samfelldast samfelldasta samfelldastan samfelldastar samfelldasti samfelldastir samfelldastra samfelldastrar samfelldastri samfelldasts samfelldastur samfelldi samfelldir samfelldra samfelldrar samfelldri samfellds samfelldu samfelldum samfelldust samfelldustu samfelldustum samfellt
+94	3594	varðveisla	varðveislan varðveislu varðveisluna varðveislunnar varðveislunni
+95	3595	tankur	tank tanka tankana tankanna tankar tankarnir tanki tankinn tankinum tanknum tanks tanksins tankurinn tönkum tönkunum
+96	3596	hjalt	hjalta hjaltanna hjalti hjaltinu hjaltið hjalts hjaltsins hjölt hjöltin hjöltum hjöltunum
+97	3597	jeminn	
+98	3598	kauphöll	kauphalla kauphallanna kauphallar kauphallarinnar kauphallir kauphallirnar kauphöllin kauphöllina kauphöllinni kauphöllum kauphöllunum
+99	3599	umgangast	umgangist umgangistu umgekkst umgekkstu umgengist umgengistu umgengjumst umgengjust umgengst umgengstu umgengumst umgengust umgöngumst
+100	3600	kaupandi	kaupanda kaupandann kaupandans kaupandanum kaupandinn kaupenda kaupendanna kaupendum kaupendunum kaupendur kaupendurna kaupendurnir

@@ -1,0 +1,100 @@
+1	2001	skýra	skýrandi skýrast skýri skýrir skýrist skýrið skýrst skýrt skýrum skýrumst skýrð skýrða skýrðan skýrðar skýrði skýrðir skýrðist skýrðra skýrðrar skýrðri skýrðs skýrðu skýrðum skýrðumst skýrður skýrðust skýrðuð
+2	2002	tjá	tjái tjáinu tjáir tjáirðu tjáist tjáið tjás tjásins tjást tjáum tjáumst tjáð tjáða tjáðan tjáðar tjáði tjáðir tjáðirðu tjáðist tjáðra tjáðrar tjáðri tjáðs tjáðst tjáðu tjáðum tjáðumst tjáður tjáðust tjáðuð
+3	2003	vesturland	vesturlanda vesturlandanna vesturlandi vesturlandinu vesturlandið vesturlands vesturlandsins vesturlönd vesturlöndin vesturlöndum vesturlöndunum
+4	2004	jafnvægi	jafnvæginu jafnvægis jafnvægisins jafnvægið
+5	2005	skortur	skort skorti skortinn skortinum skorts skortsins skorturinn
+6	2006	vanalega	vanalegast
+7	2007	mennta	menntandi menntar menntast menntað menntaða menntaðan menntaðar menntaði menntaðir menntaðist menntaðra menntaðrar menntaðri menntaðs menntaðu menntaður mennti menntir menntist menntið menntum menntumst menntuð menntuðu menntuðum menntuðumst menntuðust menntuðuð
+8	2008	íhuga	íhugandi íhugar íhugast íhugað íhugaða íhugaðan íhugaðar íhugaði íhugaðir íhugaðirðu íhugaðist íhugaðra íhugaðrar íhugaðri íhugaðs íhugaðu íhugaður íhugi íhugir íhugist íhugið íhugum íhugumst íhuguð íhuguðu íhuguðum íhuguðumst íhuguðust íhuguðuð
+9	2009	skjól	skjóla skjólanna skjóli skjólin skjólinu skjólið skjóls skjólsins skjólum skjólunum
+10	2010	ritstjóri	ritstjóra ritstjórana ritstjórann ritstjóranna ritstjórans ritstjóranum ritstjórar ritstjórarnir ritstjórinn ritstjórum ritstjórunum
+11	2011	hissa	
+12	2012	rússa	rússandi rússar rússað rússaða rússaðan rússaðar rússaði rússaðir rússaðra rússaðrar rússaðri rússaðs rússaðu rússaður rússi rússir rússið rússum rússuð rússuðu rússuðum rússuðuð
+13	2013	samhliða	
+14	2014	vængur	væng vængi vængina vænginn vængir vængirnir vængja vængjanna vængjar vængjarins vængjað vængjaða vængjum vængjunum vængjuð vængjuðum vængnum vængs vængsins vængurinn
+15	2015	lágt	lægra lægst
+16	2016	ávöxtur	ávaxta ávaxtanna ávaxtar ávaxtarins ávexti ávextina ávextinum ávextir ávextirnir ávöxt ávöxtinn ávöxtum ávöxtunum ávöxturinn
+17	2017	ógeðslegur	ógeðsleg ógeðslega ógeðslegan ógeðslegar ógeðslegi ógeðslegir ógeðslegra ógeðslegrar ógeðslegri ógeðslegs ógeðslegt ógeðslegu ógeðslegum
+18	2018	bæjarstjóri	bæjarstjóra bæjarstjórana bæjarstjórann bæjarstjóranna bæjarstjórans bæjarstjóranum bæjarstjórar bæjarstjórarnir bæjarstjórinn bæjarstjórum bæjarstjórunum
+19	2019	reykur	reyk reyki reykina reykinn reykir reykirnir reykja reykjanna reykjar reykjarins reykjum reykjunum reyknum reyks reyksins reykurinn
+20	2020	skotmark	skotmarka skotmarkanna skotmarki skotmarkinu skotmarkið skotmarks skotmarksins skotmörk skotmörkin skotmörkum skotmörkunum
+21	2021	heimilisfang	heimilisfanga heimilisfanganna heimilisfangi heimilisfanginu heimilisfangið heimilisfangs heimilisfangsins heimilisföng heimilisföngin heimilisföngum heimilisföngunum
+22	2022	hámark	hámarka hámarkanna hámarki hámarkinu hámarkið hámarks hámarksins hámörk hámörkin hámörkum hámörkunum
+23	2023	skipting	skiptinga skiptinganna skiptingar skiptingarinnar skiptingarnar skiptingin skiptingu skiptingum skiptinguna skiptingunni skiptingunum
+24	2024	fyrirbæri	fyrirbæra fyrirbæranna fyrirbærin fyrirbærinu fyrirbæris fyrirbærisins fyrirbærið fyrirbærum fyrirbærunum
+25	2025	spegill	spegil spegilinn spegillinn spegils spegilsins spegla speglana speglanna speglar speglarnir spegli speglinum speglum speglunum
+26	2026	majór	majóra majórana majóranna majórar majórarnir majórinn majórnum majórs majórsins majórum majórunum
+27	2027	dýrka	dýrkandi dýrkar dýrkast dýrkað dýrkaða dýrkaðan dýrkaðar dýrkaði dýrkaðir dýrkaðist dýrkaðra dýrkaðrar dýrkaðri dýrkaðs dýrkaðu dýrkaður dýrki dýrkir dýrkist dýrkið dýrkum dýrkumst dýrkuð dýrkuðu dýrkuðum dýrkuðumst dýrkuðust dýrkuðuð
+28	2028	undirbúningur	undirbúning undirbúningi undirbúninginn undirbúningnum undirbúnings undirbúningsins undirbúningurinn
+29	2029	uns	
+30	2030	rými	rýma rýmanna rýmin rýminu rýmis rýmisins rýmið rýmum rýmunum
+31	2031	hellir	hella hellana hellanna hellar hellarnir helli hellinn hellinum hellirinn hellis hellisins hellum hellunum
+32	2032	pissa	pissandi pissar pissarðu pissast pissað pissaða pissaðan pissaðar pissaði pissaðir pissaðirðu pissaðist pissaðra pissaðrar pissaðri pissaðs pissaðu pissaður pissi pissir pissist pissið pissum pissumst pissuð pissuðu pissuðum pissuðumst pissuðust pissuðuð
+33	2033	samkeppni	samkeppna samkeppnanna samkeppnin samkeppnina samkeppninnar samkeppninni samkeppnir samkeppnirnar samkeppnum samkeppnunum
+34	2034	leynilegur	leynileg leynilega leynilegan leynilegar leynilegast leynilegasta leynilegastan leynilegastar leynilegasti leynilegastir leynilegastra leynilegastrar leynilegastri leynilegasts leynilegastur leynilegi leynilegir leynilegra leynilegrar leynilegri leynilegs leynilegt leynilegu leynilegum leynilegust leynilegustu leynilegustum
+35	2035	varpa	varpan varpandi varpanna varpar varpast varpað varpaða varpaðan varpaðar varpaði varpaðir varpaðist varpaðra varpaðrar varpaðri varpaðs varpaðu varpaður varpi varpir varpist varpið varpna varpnanna vörpu vörpum vörpumst vörpuna vörpunnar vörpunni vörpunum vörpur vörpurnar vörpuð vörpuðu vörpuðum vörpuðumst vörpuðust vörpuðuð
+36	2036	áðan	
+37	2037	pottur	pott potta pottana pottanna pottar pottarnir potti pottinn pottinum potts pottsins pottum pottunum potturinn
+38	2038	samhengi	samhenginu samhengis samhengisins samhengið
+39	2039	þora	þorandi þorað þori þorir þorirðu þorið þorum þorði þorðir þorðirðu þorðu þorðum þorðuð þyrði þyrðir þyrðu þyrðum þyrðuð
+40	2040	forsenda	forsendan forsendanna forsendna forsendnanna forsendu forsendum forsenduna forsendunnar forsendunni forsendunum forsendur forsendurnar
+41	2041	frelsa	frelsandi frelsar frelsarðu frelsast frelsað frelsaða frelsaðan frelsaðar frelsaði frelsaðir frelsaðist frelsaðra frelsaðrar frelsaðri frelsaðs frelsaðu frelsaður frelsi frelsir frelsist frelsið frelsum frelsumst frelsuð frelsuðu frelsuðum frelsuðumst frelsuðust frelsuðuð
+42	2042	draugur	draug drauga draugana drauganna draugar draugarnir drauginn draugnum draugs draugsins draugum draugunum draugurinn
+43	2043	tilviljun	tilviljana tilviljananna tilviljanir tilviljanirnar tilviljunar tilviljunarinnar tilviljunin tilviljunina tilviljuninni tilviljunum tilviljununum
+44	2044	skilgreining	skilgreininga skilgreininganna skilgreiningar skilgreiningarinnar skilgreiningarnar skilgreiningin skilgreiningu skilgreiningum skilgreininguna skilgreiningunni skilgreiningunum
+45	2045	skammt	skemmra skemmst skemur
+46	2046	verksmiðja	verksmiðjan verksmiðjanna verksmiðju verksmiðjum verksmiðjuna verksmiðjunnar verksmiðjunni verksmiðjunum verksmiðjur verksmiðjurnar
+47	2047	hvílíkur	hvílík hvílíka hvílíkan hvílíkar hvílíkir hvílíkra hvílíkrar hvílíkri hvílíks hvílíkt hvílíku hvílíkum
+48	2048	alast	alist alstu elst ælist ælumst ælust ólst ólumst ólust ölumst
+49	2049	erfiðleiki	erfiðleika erfiðleikana erfiðleikann erfiðleikanna erfiðleikans erfiðleikanum erfiðleikar erfiðleikarnir erfiðleikinn erfiðleikum erfiðleikunum
+50	2050	hlaup	hlaupa hlaupanna hlaupi hlaupin hlaupinu hlaupið hlaups hlaupsins hlaupum hlaupunum
+51	2051	ráðgjafi	ráðgjafa ráðgjafana ráðgjafann ráðgjafanna ráðgjafans ráðgjafanum ráðgjafar ráðgjafarnir ráðgjafinn ráðgjöfum ráðgjöfunum
+52	2052	oddur	odd odda oddana oddanna oddar oddarnir oddi oddinn oddinum odds oddsins oddum oddunum oddurinn
+53	2053	töluvert	
+54	2054	hraður	hratt hraða hraðan hraðar hraðara hraðari hraðast hraðasta hraðastan hraðastar hraðasti hraðastir hraðastra hraðastrar hraðastri hraðasts hraðastur hraði hraðir hraðra hraðrar hraðri hraðs hröð hröðu hröðum hröðust hröðustu hröðustum
+55	2055	afli	afla aflann aflans aflanum aflinn
+56	2056	skjár	skjá skjáa skjáanna skjái skjáina skjáinn skjáir skjáirnir skjánum skjárinn skjás skjásins skjáum skjáunum
+57	2057	ættingi	ættinginn ættingja ættingjana ættingjann ættingjanna ættingjans ættingjanum ættingjar ættingjarnir ættingjum ættingjunum
+58	2058	tap	tapa tapanna tapi tapinu tapið taps tapsins töp töpin töpum töpunum
+59	2059	doktor	doktora doktorana doktoranna doktorar doktorarnir doktorinn doktornum doktors doktorsins doktorum doktorunum
+60	2060	hagsmunir	hagsmuna hagsmunanna hagsmuni hagsmunina hagsmunirnir hagsmunum hagsmununum
+61	2061	gæði	gæða gæðanna gæðin gæðum gæðunum
+62	2062	réttarhald	réttarhalda réttarhaldanna réttarhaldi réttarhaldinu réttarhaldið réttarhalds réttarhaldsins réttarhöld réttarhöldin réttarhöldum réttarhöldunum
+63	2063	kjallari	kjallara kjallarana kjallarann kjallaranna kjallarans kjallaranum kjallarar kjallararnir kjallarinn kjöllurum kjöllurunum
+64	2064	landbúnaður	landbúnað landbúnaðar landbúnaðarins landbúnaði landbúnaðinn landbúnaðinum landbúnaðnum landbúnaðurinn
+65	2065	ei	
+66	2066	samþykkt	samþykkta samþykktanna samþykktar samþykktarinnar samþykktin samþykktina samþykktinni samþykktir samþykktirnar samþykktum samþykktunum
+67	2067	atvik	atvika atvikanna atviki atvikin atvikinu atvikið atviks atviksins atvikum atvikunum
+68	2068	haldast	haldist halstu helst héldist héldumst héldust hélst höldumst
+69	2069	leigubíll	leigubíl leigubíla leigubílana leigubílanna leigubílar leigubílarnir leigubílinn leigubíllinn leigubílnum leigubíls leigubílsins leigubílum leigubílunum
+70	2070	hrun	hruna hrunanna hruni hrunin hruninu hrunið hruns hrunsins hrunum hrununum
+71	2071	bann	banna bannanna banni banninu bannið banns bannsins bönn bönnin bönnum bönnunum
+72	2072	viðskiptavinur	viðskiptavin viðskiptavina viðskiptavinanna viðskiptavinar viðskiptavinarins viðskiptavini viðskiptavinina viðskiptavininn viðskiptavininum viðskiptavinir viðskiptavinirnir viðskiptavinum viðskiptavinunum viðskiptavinurinn
+73	2073	drepast	drapst drepist drepst drepstu drepumst drápumst drápust dræpist dræpumst dræpust
+74	2074	stafrænn	stafræn stafræna stafrænan stafrænar stafrænast stafrænasta stafrænastan stafrænastar stafrænasti stafrænastir stafrænastra stafrænastrar stafrænastri stafrænasts stafrænastur stafræni stafrænir stafrænna stafrænnar stafrænni stafræns stafrænt stafrænu stafrænum stafrænust stafrænustu stafrænustum
+75	2075	uppfylla	uppfyllandi uppfyllast uppfylli uppfyllir uppfyllist uppfyllið uppfyllst uppfyllt uppfyllta uppfylltan uppfylltar uppfyllti uppfylltir uppfylltist uppfylltra uppfylltrar uppfylltri uppfyllts uppfylltu uppfylltum uppfylltumst uppfylltur uppfylltust uppfylltuð uppfyllum uppfyllumst
+76	2076	veski	veskin veskinu veskis veskisins veskið veskja veskjanna veskjum veskjunum
+77	2077	dómstóll	dómstól dómstóla dómstólana dómstólanna dómstólar dómstólarnir dómstóli dómstólinn dómstóllinn dómstólnum dómstóls dómstólsins dómstólum dómstólunum
+78	2078	ætlast	ætlaðist ætlaðistu ætlist ætlumst ætluðumst ætluðust
+79	2079	liðþjálfi	liðþjálfa liðþjálfana liðþjálfann liðþjálfanna liðþjálfans liðþjálfanum liðþjálfar liðþjálfarnir liðþjálfinn liðþjálfum liðþjálfunum
+80	2080	fegurð	fegurðar fegurðarinnar fegurðin fegurðina fegurðinni
+81	2081	skrímsli	skrímsla skrímslanna skrímslin skrímslinu skrímslis skrímslisins skrímslið skrímslum skrímslunum
+82	2082	snjór	snjó snjóa snjóana snjóanna snjóar snjóarins snjóarnir snjóinn snjónum snjórinn snjós snjósins snjóum snjóunum
+83	2083	taktur	takt takta taktana taktanna taktar taktarnir takti taktinn taktinum takts taktsins takturinn töktum töktunum
+84	2084	sýslumaður	sýslumann sýslumanna sýslumannanna sýslumanni sýslumanninn sýslumanninum sýslumanns sýslumannsins sýslumaðurinn sýslumenn sýslumennina sýslumennirnir sýslumönnum sýslumönnunum
+85	2085	tag	taga taganna tagi taginu tagið tags tagsins tög tögin tögum tögunum
+86	2086	útsending	útsendinga útsendinganna útsendingar útsendingarinnar útsendingarnar útsendingin útsendingu útsendingum útsendinguna útsendingunni útsendingunum
+87	2087	uppnám	uppnámi uppnáminu uppnámið uppnáms uppnámsins
+88	2088	rán	rána ránanna ráni ránin ráninu ránið ráns ránsins ránum ránunum
+89	2089	núll	núlla núllanna núlli núllin núllinu núllið núlls núllsins núllum núllunum
+90	2090	skyn	skyni skyninu skynið skyns skynsins
+91	2091	sorg	sorga sorganna sorgar sorgarinnar sorgin sorgina sorginni sorgir sorgirnar sorgum sorgunum
+92	2092	klósett	klósetta klósettanna klósetti klósettin klósettinu klósettið klósetts klósettsins klósettum klósettunum
+93	2093	villa	villan villandi villi villir villið villna villnanna villt villta villtan villtar villti villtir villtra villtrar villtri villts villtu villtum villtuð villu villum villuna villunnar villunni villunum villur villurnar
+94	2094	míla	mílan mílna mílnanna mílu mílum míluna mílunnar mílunni mílunum mílur mílurnar
+95	2095	hugbúnaður	hugbúnað hugbúnaðar hugbúnaðarins hugbúnaði hugbúnaðinn hugbúnaðinum hugbúnaðnum hugbúnaðurinn
+96	2096	virkni	virknin virknina virkninnar virkninni
+97	2097	vélmenni	vélmenna vélmennanna vélmennin vélmenninu vélmennis vélmennisins vélmennið vélmennum vélmennunum
+98	2098	halla	hallandi hallar hallast hallastu hallað hallaði hallaðir hallaðist hallaðu halli hallir hallist hallið höllum höllumst hölluðu hölluðum hölluðumst hölluðust hölluðuð
+99	2099	títt	tíðar tíðara tíðast
+100	2100	efla	eflandi eflast efld eflda efldan efldar efldi efldir efldist efldra efldrar efldri eflds efldu efldum efldumst efldur efldust eflduð efli eflir eflist eflið eflst eflt eflum eflumst

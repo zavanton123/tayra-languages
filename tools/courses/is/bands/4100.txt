@@ -1,0 +1,100 @@
+1	4001	eðlilega	eðlilegar eðlilegast
+2	4002	orðrómur	orðróm orðróma orðrómana orðrómanna orðrómar orðrómarnir orðrómi orðróminn orðróminum orðrómnum orðróms orðrómsins orðrómum orðrómunum orðrómurinn
+3	4003	endurskoðun	endurskoðana endurskoðananna endurskoðanir endurskoðanirnar endurskoðunar endurskoðunarinnar endurskoðunin endurskoðunina endurskoðuninni endurskoðunum endurskoðununum
+4	4004	sena	senan senanna senu senum senuna senunnar senunni senunum senur senurnar
+5	4005	naumur	naum nauma nauman naumar naumara naumari naumast naumasta naumastan naumastar naumasti naumastir naumastra naumastrar naumastri naumasts naumastur naumi naumir naumra naumrar naumri naums naumt naumu naumum naumust naumustu naumustum
+6	4006	töfra	töfrandi töfrar töfrast töfrað töfraða töfraðan töfraðar töfraði töfraðir töfraðist töfraðra töfraðrar töfraðri töfraðs töfraðu töfraður töfri töfrir töfrist töfrið töfrum töfrumst töfruð töfruðu töfruðum töfruðumst töfruðust töfruðuð
+7	4007	næla	nælan nælandi nælanna nælast næld nælda nældan nældar nældi nældir nældist nældra nældrar nældri nælds nældu nældum nældumst nældur nældust nælduð næli nælir nælist nælið nælna nælnanna nælst nælt nælu nælum nælumst næluna nælunnar nælunni nælunum nælur nælurnar
+8	4008	sjálfkrafa	
+9	4009	fótspor	fótspora fótsporanna fótspori fótsporin fótsporinu fótsporið fótspors fótsporsins fótsporum fótsporunum
+10	4010	holt	holta holtanna holti holtin holtinu holtið holts holtsins holtum holtunum
+11	4011	skáldskapur	skáldskap skáldskapar skáldskaparins skáldskapinn skáldskapnum skáldskapurinn
+12	4012	stígvél	stígvéla stígvélanna stígvéli stígvélin stígvélinu stígvélið stígvéls stígvélsins stígvélum stígvélunum
+13	4013	hluthafi	hluthafa hluthafana hluthafann hluthafanna hluthafans hluthafanum hluthafar hluthafarnir hluthafinn hluthöfum hluthöfunum
+14	4014	art	arta artanna artar artarinnar artin artina artinni artir artirnar örtum örtunum
+15	4015	lávarður	lávarð lávarða lávarðana lávarðanna lávarðar lávarðarins lávarðarnir lávarði lávarðinn lávarðinum lávarðs lávarðsins lávarðurinn lávörðum lávörðunum
+16	4016	kunnugur	kunnug kunnuga kunnugan kunnugar kunnugast kunnugasta kunnugastan kunnugastar kunnugasti kunnugastir kunnugastra kunnugastrar kunnugastri kunnugasts kunnugastur kunnugi kunnugir kunnugra kunnugrar kunnugri kunnugs kunnugt kunnugu kunnugum kunnugust kunnugustu kunnugustum
+17	4017	fjárhagslegur	fjárhagsleg fjárhagslega fjárhagslegan fjárhagslegar fjárhagslegast fjárhagslegasta fjárhagslegastan fjárhagslegastar fjárhagslegasti fjárhagslegastir fjárhagslegastra fjárhagslegastrar fjárhagslegastri fjárhagslegasts fjárhagslegastur fjárhagslegi fjárhagslegir fjárhagslegra fjárhagslegrar fjárhagslegri fjárhagslegs fjárhagslegt fjárhagslegu fjárhagslegum fjárhagslegust fjárhagslegustu fjárhagslegustum
+18	4018	skynsamur	skynsama skynsaman skynsamar skynsamara skynsamari skynsamast skynsamasta skynsamastan skynsamastar skynsamasti skynsamastir skynsamastra skynsamastrar skynsamastri skynsamasts skynsamastur skynsami skynsamir skynsamra skynsamrar skynsamri skynsams skynsamt skynsöm skynsömu skynsömum skynsömust skynsömustu skynsömustum
+19	4019	hagvöxtur	hagvaxtar hagvaxtarins hagvexti hagvextinum hagvöxt hagvöxtinn hagvöxturinn
+20	4020	slasast	slasaðist slasist slösumst slösuðumst slösuðust
+21	4021	höfrungur	höfrung höfrunga höfrungana höfrunganna höfrungar höfrungarnir höfrungi höfrunginn höfrungnum höfrungs höfrungsins höfrungum höfrungunum höfrungurinn
+22	4022	pasta	pastans pastanu pastað
+23	4023	umsjá	umsjáin umsjána umsjánni umsjár umsjárinnar
+24	4024	alþjóða	
+25	4025	birgðir	birgða birgðanna birgðirnar birgðum birgðunum
+26	4026	framandi	
+27	4027	bágur	bág bága bágan bágar bágara bágari bágast bágasta bágastan bágastar bágasti bágastir bágastra bágastrar bágastri bágasts bágastur bági bágir bágra bágrar bágri bágs bágt bágu bágum bágust bágustu bágustum
+28	4028	stúdentspróf	stúdentsprófa stúdentsprófanna stúdentsprófi stúdentsprófin stúdentsprófinu stúdentsprófið stúdentsprófs stúdentsprófsins stúdentsprófum stúdentsprófunum
+29	4029	vafri	vafra vafrana vafrann vafranna vafrans vafranum vafrar vafrarnir vafrinn vöfrum vöfrunum
+30	4030	tilgreina	tilgreinandi tilgreinast tilgreind tilgreinda tilgreindan tilgreindar tilgreindi tilgreindir tilgreindist tilgreindra tilgreindrar tilgreindri tilgreinds tilgreindu tilgreindum tilgreindumst tilgreindur tilgreindust tilgreinduð tilgreini tilgreinir tilgreinist tilgreinið tilgreinst tilgreint tilgreinum tilgreinumst
+31	4031	þyrstur	þyrst þyrsta þyrstan þyrstar þyrstara þyrstari þyrstast þyrstasta þyrstastan þyrstastar þyrstasti þyrstastir þyrstastra þyrstastrar þyrstastri þyrstasts þyrstastur þyrsti þyrstir þyrstra þyrstrar þyrstri þyrsts þyrstu þyrstum þyrstust þyrstustu þyrstustum
+32	4032	kærleikur	kærleik kærleika kærleikana kærleikanna kærleikar kærleikarnir kærleikinn kærleiknum kærleiks kærleiksins kærleikum kærleikunum kærleikurinn
+33	4033	lén	léna lénanna léni lénin léninu lénið léns lénsins lénum lénunum
+34	4034	fóstra	fóstran fóstrandi fóstranna fóstrar fóstrast fóstrað fóstraða fóstraðan fóstraðar fóstraði fóstraðir fóstraðist fóstraðra fóstraðrar fóstraðri fóstraðs fóstraðu fóstraður fóstri fóstrir fóstrist fóstrið fóstru fóstrum fóstrumst fóstruna fóstrunnar fóstrunni fóstrunum fóstrur fóstrurnar fóstruð fóstruðu fóstruðum fóstruðumst fóstruðust fóstruðuð
+35	4035	sía	sían síandi síanna síar síast síað síaða síaðan síaðar síaði síaðir síaðist síaðra síaðrar síaðri síaðs síaðu síaður síi síir síist síið síu síum síumst síuna síunnar síunni síunum síur síurnar síuð síuðu síuðum síuðumst síuðust síuðuð
+36	4036	froskur	frosk froska froskana froskanna froskar froskarnir froski froskinn froskinum frosknum frosks frosksins froskum froskunum froskurinn
+37	4037	spjót	spjóta spjótanna spjóti spjótin spjótinu spjótið spjóts spjótsins spjótum spjótunum
+38	4038	es	esa esanna esi esin esins esinu esið ess essins esum esunum
+39	4039	sær	sæ sæinn sænum særinn sævar sævarins
+40	4040	vinningur	vinning vinninga vinningana vinninganna vinningar vinningarnir vinningi vinninginn vinningnum vinnings vinningsins vinningum vinningunum vinningurinn
+41	4041	óljós	óljósa óljósan óljósar óljósara óljósari óljósast óljósasta óljósastan óljósastar óljósasti óljósastir óljósastra óljósastrar óljósastri óljósasts óljósastur óljósi óljósir óljósra óljósrar óljósri óljóss óljóst óljósu óljósum óljósust óljósustu óljósustum
+42	4042	hrísgrjón	hrísgrjóna hrísgrjónanna hrísgrjóni hrísgrjónin hrísgrjóninu hrísgrjónið hrísgrjóns hrísgrjónsins hrísgrjónum hrísgrjónunum
+43	4043	hálfleikur	hálfleik hálfleiki hálfleikina hálfleikinn hálfleikir hálfleikirnir hálfleikja hálfleikjanna hálfleikjum hálfleikjunum hálfleiknum hálfleiks hálfleiksins hálfleikurinn
+44	4044	fasteign	fasteigna fasteignanna fasteignar fasteignarinnar fasteignin fasteignina fasteigninni fasteignir fasteignirnar fasteignum fasteignunum
+45	4045	gifting	giftinga giftinganna giftingar giftingarinnar giftingarnar giftingin giftingu giftingum giftinguna giftingunni giftingunum
+46	4046	hreinlega	hreinlegar hreinlegast
+47	4047	hagna	hagnast hagnaðist hagnist högnumst högnuðumst högnuðust
+48	4048	slétt	
+49	4049	slagur	slag slaga slaganna slagi slagina slaginn slagir slagirnir slagnum slags slagsins slagurinn slögum slögunum
+50	4050	kappakstur	kappakstri kappakstrinum kappaksturinn kappaksturs kappakstursins
+51	4051	hagfræði	hagfræðin hagfræðina hagfræðinnar hagfræðinni
+52	4052	lundi	lunda lundana lundann lundanna lundans lundanum lundar lundarnir lundinn lundum lundunum
+53	4053	dauðsfall	dauðsfalla dauðsfallanna dauðsfalli dauðsfallinu dauðsfallið dauðsfalls dauðsfallsins dauðsföll dauðsföllin dauðsföllum dauðsföllunum
+54	4054	lýðræðislegur	lýðræðisleg lýðræðislegan lýðræðislegar lýðræðislegast lýðræðislegasta lýðræðislegastan lýðræðislegastar lýðræðislegasti lýðræðislegastir lýðræðislegastra lýðræðislegastrar lýðræðislegastri lýðræðislegasts lýðræðislegastur lýðræðislegi lýðræðislegir lýðræðislegra lýðræðislegrar lýðræðislegri lýðræðislegs lýðræðislegt lýðræðislegu lýðræðislegum lýðræðislegust lýðræðislegustu lýðræðislegustum
+55	4055	fjúka	fauk faukst faukstu fjúkandi fjúki fjúkir fjúkirðu fjúkið fjúktu fjúkum fokin fokinn fokinna fokinnar fokinni fokins fokið fokna foknar fokni foknir foknu foknum fuku fukum fukuð fyki fykir fykirðu fykju fykjum fykjuð fýk fýkur fýkurðu
+56	4056	kanadískur	kanadísk kanadíska kanadískan kanadískar kanadískara kanadískari kanadískast kanadískasta kanadískastan kanadískastar kanadískasti kanadískastir kanadískastra kanadískastrar kanadískastri kanadískasts kanadískastur kanadíski kanadískir kanadískra kanadískrar kanadískri kanadísks kanadískt kanadísku kanadískum kanadískust kanadískustu kanadískustum
+57	4057	sí	
+58	4058	vagga	vaggan vaggandi vagganna vaggar vaggast vaggað vaggaða vaggaðan vaggaðar vaggaði vaggaðir vaggaðist vaggaðra vaggaðrar vaggaðri vaggaðs vaggaðu vaggaður vaggi vaggir vaggist vaggið vöggu vöggum vöggumst vögguna vöggunnar vöggunni vöggunum vöggur vöggurnar vögguð vögguðu vögguðum vögguðumst vögguðust vögguðuð
+59	4059	kvitta	kvittandi kvittar kvittast kvittað kvittaða kvittaðan kvittaðar kvittaði kvittaðir kvittaðist kvittaðra kvittaðrar kvittaðri kvittaðs kvittaðu kvittaður kvitti kvittir kvittist kvittið kvittum kvittumst kvittuð kvittuðu kvittuðum kvittuðumst kvittuðust kvittuðuð
+60	4060	framsetning	framsetningar framsetningarinnar framsetningin framsetningu framsetninguna framsetningunni
+61	4061	innviðir	innviða innviðanna innviði innviðina innviðirnir innviðum innviðunum
+62	4062	nefnilega	
+63	4063	sautján	
+64	4064	fyrirskipa	fyrirskipandi fyrirskipar fyrirskipast fyrirskipað fyrirskipaða fyrirskipaðan fyrirskipaðar fyrirskipaði fyrirskipaðir fyrirskipaðist fyrirskipaðra fyrirskipaðrar fyrirskipaðri fyrirskipaðs fyrirskipaðu fyrirskipaður fyrirskipi fyrirskipir fyrirskipist fyrirskipið fyrirskipum fyrirskipumst fyrirskipuð fyrirskipuðu fyrirskipuðum fyrirskipuðumst fyrirskipuðust fyrirskipuðuð
+65	4065	kvenkyn	kvenkyni kvenkyninu kvenkynið kvenkyns kvenkynsins
+66	4066	kati	kata katana katann katanna katans katanum katar katarnir katinn kötu kötum kötunum
+67	4067	eftirtalinn	eftirtalda eftirtaldar eftirtaldi eftirtaldir eftirtalin eftirtalinna eftirtalinnar eftirtalinni eftirtalins eftirtalið eftirtöldu eftirtöldum
+68	4068	blokk	blokka blokkanna blokkar blokkarinnar blokkin blokkina blokkinni blokkir blokkirnar blokkum blokkunum
+69	4069	skuldabréf	skuldabréfa skuldabréfanna skuldabréfi skuldabréfin skuldabréfinu skuldabréfið skuldabréfs skuldabréfsins skuldabréfum skuldabréfunum
+70	4070	hnefi	hnefa hnefana hnefann hnefanna hnefans hnefanum hnefar hnefarnir hnefinn hnefum hnefunum
+71	4071	pönnukaka	pönnukakan pönnukakanna pönnukakna pönnukaknanna pönnuköku pönnukökum pönnukökuna pönnukökunnar pönnukökunni pönnukökunum pönnukökur pönnukökurnar
+72	4072	stöðuhækkun	stöðuhækkana stöðuhækkananna stöðuhækkanir stöðuhækkanirnar stöðuhækkunar stöðuhækkunarinnar stöðuhækkunin stöðuhækkunina stöðuhækkuninni stöðuhækkunum stöðuhækkununum
+73	4073	landssamband	landssambanda landssambandanna landssambandi landssambandinu landssambandið landssambands landssambandsins landssambönd landssamböndin landssamböndum landssamböndunum
+74	4074	málning	málningar málningarinnar málningin málningu málninguna málningunni
+75	4075	sæði	sæða sæðanna sæðin sæðinu sæðis sæðisins sæðið sæðum sæðunum
+76	4076	samþykkur	samþykk samþykka samþykkan samþykkar samþykkara samþykkari samþykkast samþykkasta samþykkastan samþykkastar samþykkasti samþykkastir samþykkastra samþykkastrar samþykkastri samþykkasts samþykkastur samþykki samþykkir samþykkra samþykkrar samþykkri samþykks samþykkt samþykku samþykkum samþykkust samþykkustu samþykkustum
+77	4077	óviðeigandi	
+78	4078	eik	eika eikanna eikar eikarinnar eikin eikina eikinni eikum eikunum eikur eikurinnar eikurnar
+79	4079	verkalýðsfélag	verkalýðsfélaga verkalýðsfélaganna verkalýðsfélagi verkalýðsfélaginu verkalýðsfélagið verkalýðsfélags verkalýðsfélagsins verkalýðsfélög verkalýðsfélögin verkalýðsfélögum verkalýðsfélögunum
+80	4080	borgarfulltrúi	borgarfulltrúa borgarfulltrúana borgarfulltrúann borgarfulltrúanna borgarfulltrúans borgarfulltrúanum borgarfulltrúar borgarfulltrúarnir borgarfulltrúinn borgarfulltrúum borgarfulltrúunum
+81	4081	verkstæði	verkstæða verkstæðanna verkstæðin verkstæðinu verkstæðis verkstæðisins verkstæðið verkstæðum verkstæðunum
+82	4082	innleiða	innleidd innleidda innleiddan innleiddar innleiddi innleiddir innleiddist innleiddra innleiddrar innleiddri innleidds innleiddu innleiddum innleiddumst innleiddur innleiddust innleidduð innleitt innleiðandi innleiðast innleiði innleiðir innleiðist innleiðið innleiðst innleiðum innleiðumst
+83	4083	fjarvera	fjarveran fjarveru fjarveruna fjarverunnar fjarverunni
+84	4084	innheimta	innheimst innheimt innheimtan innheimtandi innheimtanna innheimtar innheimtast innheimti innheimtir innheimtist innheimtið innheimtna innheimtnanna innheimtra innheimtrar innheimtri innheimts innheimtu innheimtum innheimtumst innheimtuna innheimtunnar innheimtunni innheimtunum innheimtur innheimturnar innheimtust innheimtuð
+85	4085	rota	rotandi rotar rotast rotað rotaða rotaðan rotaðar rotaði rotaðir rotaðirðu rotaðist rotaðra rotaðrar rotaðri rotaðs rotaðu rotaður roti rotir rotist rotið rotum rotumst rotuð rotuðu rotuðum rotuðumst rotuðust rotuðuð
+86	4086	kar	kara karanna kari karinu karið kars karsins kör körin körum körunum
+87	4087	eggert	eggerts
+88	4088	hneyksla	hneykslandi hneykslar hneykslast hneykslað hneykslaða hneykslaðan hneykslaðar hneykslaði hneykslaðir hneykslaðist hneykslaðra hneykslaðrar hneykslaðri hneykslaðs hneykslaðu hneykslaður hneyksli hneykslir hneykslist hneykslið hneykslum hneykslumst hneyksluð hneyksluðu hneyksluðum hneyksluðumst hneyksluðust hneyksluðuð
+89	4089	boðskapur	boðskap boðskapar boðskaparins boðskapinn boðskapnum boðskapurinn
+90	4090	ráðhús	ráðhúsa ráðhúsanna ráðhúsi ráðhúsin ráðhúsinu ráðhúsið ráðhúss ráðhússins ráðhúsum ráðhúsunum
+91	4091	kók	kóki kókinu kókið kóks kóksins
+92	4092	sturla	sturlandi sturlar sturlast sturlað sturlaða sturlaðan sturlaðar sturlaði sturlaðir sturlaðist sturlaðra sturlaðrar sturlaðri sturlaðs sturlaðu sturlaður sturli sturlir sturlist sturlið sturlum sturlumst sturluð sturluðu sturluðum sturluðumst sturluðust sturluðuð
+93	4093	gífurlega	
+94	4094	varningur	varning varningi varninginn varningnum varnings varningsins varningurinn
+95	4095	ilma	ilmandi ilmar ilmað ilmaði ilmaðir ilmaðu ilmi ilmir ilmið ilmum ilmuðu ilmuðum ilmuðuð
+96	4096	oddviti	oddvita oddvitana oddvitann oddvitanna oddvitans oddvitanum oddvitar oddvitarnir oddvitinn oddvitum oddvitunum
+97	4097	lagsi	lagsa lagsana lagsann lagsanna lagsans lagsanum lagsar lagsarnir lagsinn lögsum lögsunum
+98	4098	skiljanlegur	skiljanleg skiljanlega skiljanlegan skiljanlegar skiljanlegast skiljanlegasta skiljanlegastan skiljanlegastar skiljanlegasti skiljanlegastir skiljanlegastra skiljanlegastrar skiljanlegastri skiljanlegasts skiljanlegastur skiljanlegi skiljanlegir skiljanlegra skiljanlegrar skiljanlegri skiljanlegs skiljanlegt skiljanlegu skiljanlegum skiljanlegust skiljanlegustu skiljanlegustum
+99	4099	skjólstæðingur	skjólstæðing skjólstæðinga skjólstæðingana skjólstæðinganna skjólstæðingar skjólstæðingarnir skjólstæðingi skjólstæðinginn skjólstæðingnum skjólstæðings skjólstæðingsins skjólstæðingum skjólstæðingunum skjólstæðingurinn
+100	4100	gír	gíra gírana gíranna gírar gírarnir gírinn gírnum gírs gírsins gírum gírunum

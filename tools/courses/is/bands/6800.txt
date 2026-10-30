@@ -1,0 +1,100 @@
+1	6701	taugaáfall	taugaáfalla taugaáfallanna taugaáfalli taugaáfallinu taugaáfallið taugaáfalls taugaáfallsins taugaáföll taugaáföllin taugaáföllum taugaáföllunum
+2	6702	malli	malla mallana mallann mallanna mallans mallanum mallar mallarnir mallinn möllum möllunum
+3	6703	læs	læsa læsan læsar læsara læsari læsast læsasta læsastan læsastar læsasti læsastir læsastra læsastrar læsastri læsasts læsastur læsi læsir læsra læsrar læsri læss læst læsu læsum læsust læsustu læsustum
+4	6704	hámarkshraði	hámarkshraða hámarkshraðann hámarkshraðans hámarkshraðanum hámarkshraðinn
+5	6705	sjónvarpsefni	sjónvarpsefna sjónvarpsefnanna sjónvarpsefnin sjónvarpsefninu sjónvarpsefnis sjónvarpsefnisins sjónvarpsefnið sjónvarpsefnum sjónvarpsefnunum
+6	6706	raflost	raflosta raflostanna raflosti raflostin raflostinu raflostið raflosts raflostsins raflostum raflostunum
+7	6707	sýkill	sýkil sýkilinn sýkillinn sýkils sýkilsins sýkla sýklana sýklanna sýklar sýklarnir sýkli sýklinum sýklum sýklunum
+8	6708	losti	losta lostann lostans lostanum lostinn
+9	6709	viðamikill	viðameira viðameiri viðamest viðamesta viðamestan viðamestar viðamesti viðamestir viðamestra viðamestrar viðamestri viðamests viðamestu viðamestum viðamestur viðamikil viðamikilla viðamikillar viðamikilli viðamikils viðamikinn viðamikið viðamikla viðamiklar viðamikli viðamiklir viðamiklu viðamiklum
+10	6710	kvarði	kvarða kvarðana kvarðann kvarðanna kvarðans kvarðanum kvarðar kvarðarnir kvarðinn kvörðum kvörðunum
+11	6711	fló	flær flærnar flóa flóar flóarinnar flóin flóm flóna flónna flónni flónum
+12	6712	ljósmóðir	ljósmæðra ljósmæðranna ljósmæðrum ljósmæðrunum ljósmæður ljósmæðurnar ljósmóðirin ljósmóður ljósmóðurina ljósmóðurinnar ljósmóðurinni
+13	6713	strokkur	strokk strokka strokkana strokkanna strokkar strokkarnir strokki strokkinn strokknum strokks strokksins strokkum strokkunum strokkurinn
+14	6714	löggiltur	löggilt löggilta löggiltan löggiltar löggilti löggiltir löggiltra löggiltrar löggiltri löggilts löggiltu löggiltum
+15	6715	arða	arðan arðandi arðanna arðar arðað arðaði arðaðir arðaðu arði arðir arðið arðna arðnanna örðu örðum örðuna örðunnar örðunni örðunum örður örðurnar örðuðu örðuðum örðuðuð
+16	6716	efniviður	efnivið efniviða efniviðanna efniviðar efniviðarins efniviði efniviðina efniviðinn efniviðinum efniviðir efniviðirnir efniviðnum efniviðum efniviðunum efniviðurinn
+17	6717	meistaraverk	meistaraverka meistaraverkanna meistaraverki meistaraverkin meistaraverkinu meistaraverkið meistaraverks meistaraverksins meistaraverkum meistaraverkunum
+18	6718	sífelldur	sífelld sífellda sífelldan sífelldar sífelldi sífelldir sífelldra sífelldrar sífelldri sífellds sífelldu sífelldum sífellt
+19	6719	skilvirkni	skilvirknin skilvirknina skilvirkninnar skilvirkninni
+20	6720	þægindi	þæginda þægindanna þægindin þægindum þægindunum
+21	6721	innsetning	innsetninga innsetninganna innsetningar innsetningarinnar innsetningarnar innsetningin innsetningu innsetningum innsetninguna innsetningunni innsetningunum
+22	6722	skuggalegur	skuggaleg skuggalega skuggalegan skuggalegar skuggalegast skuggalegasta skuggalegastan skuggalegastar skuggalegasti skuggalegastir skuggalegastra skuggalegastrar skuggalegastri skuggalegasts skuggalegastur skuggalegi skuggalegir skuggalegra skuggalegrar skuggalegri skuggalegs skuggalegt skuggalegu skuggalegum skuggalegust skuggalegustu skuggalegustum
+23	6723	sársaukafullur	sársaukafull sársaukafulla sársaukafullan sársaukafullar sársaukafulli sársaukafullir sársaukafullra sársaukafullrar sársaukafullri sársaukafulls sársaukafullt sársaukafullu sársaukafullum sársaukafyllra sársaukafyllri sársaukafyllst sársaukafyllsta sársaukafyllstan sársaukafyllstar sársaukafyllsti sársaukafyllstir sársaukafyllstra sársaukafyllstrar sársaukafyllstri sársaukafyllsts sársaukafyllstu sársaukafyllstum sársaukafyllstur
+24	6724	menntakerfi	menntakerfa menntakerfanna menntakerfin menntakerfinu menntakerfis menntakerfisins menntakerfið menntakerfum menntakerfunum
+25	6725	ægilega	
+26	6726	fíkn	fíknar fíknarinnar fíknin fíknina fíkninni
+27	6727	ólga	ólgan ólgandi ólgar ólgað ólgaði ólgaðir ólgaðu ólgi ólgir ólgið ólgu ólgum ólguna ólgunnar ólgunni ólguðu ólguðum ólguðuð
+28	6728	brúða	brúðan brúðanna brúðna brúðnanna brúðu brúðum brúðuna brúðunnar brúðunni brúðunum brúður brúðurnar
+29	6729	yfirsýn	yfirsýnar yfirsýnarinnar yfirsýnin yfirsýnina yfirsýninni
+30	6730	undrun	undrunar undrunarinnar undrunin undrunina undruninni
+31	6731	brasilískur	brasilísk brasilíska brasilískan brasilískar brasilískara brasilískari brasilískast brasilískasta brasilískastan brasilískastar brasilískasti brasilískastir brasilískastra brasilískastrar brasilískastri brasilískasts brasilískastur brasilíski brasilískir brasilískra brasilískrar brasilískri brasilísks brasilískt brasilísku brasilískum brasilískust brasilískustu brasilískustum
+32	6732	vísundur	vísund vísunda vísundana vísundanna vísundar vísundarins vísundarnir vísundi vísundinn vísundinum vísunds vísundsins vísundum vísundunum vísundurinn
+33	6733	kortleggja	kortlagt kortlagða kortlagðan kortlagðar kortlagði kortlagðir kortlagðra kortlagðrar kortlagðri kortlagðs kortlagður kortlegg kortleggi kortleggir kortleggið kortleggjandi kortleggjum kortleggur kortleggðu kortlegði kortlegðir kortlegðu kortlegðum kortlegðuð kortlögð kortlögðu kortlögðum kortlögðuð
+34	6734	lífshætta	lífshættan lífshættu lífshættuna lífshættunnar lífshættunni
+35	6735	flugstöð	flugstöðin flugstöðina flugstöðinni flugstöðva flugstöðvanna flugstöðvar flugstöðvarinnar flugstöðvarnar flugstöðvum flugstöðvunum
+36	6736	sértækur	sértæk sértæka sértækan sértækar sértækara sértækari sértækast sértækasta sértækastan sértækastar sértækasti sértækastir sértækastra sértækastrar sértækastri sértækasts sértækastur sértæki sértækir sértækra sértækrar sértækri sértæks sértækt sértæku sértækum sértækust sértækustu sértækustum
+37	6737	aðbúnaður	aðbúnað aðbúnaðar aðbúnaðarins aðbúnaði aðbúnaðinn aðbúnaðinum aðbúnaðnum aðbúnaðurinn
+38	6738	líferni	líferninu lífernis lífernisins lífernið
+39	6739	málflutningur	málflutning málflutningi málflutninginn málflutningnum málflutnings málflutningsins málflutningurinn
+40	6740	lager	lagera lagerana lageranna lagerar lagerarnir lagerinn lagernum lagers lagersins lagerum lagerunum
+41	6741	véfrétt	véfrétta véfréttanna véfréttar véfréttarinnar véfréttin véfréttina véfréttinni véfréttir véfréttirnar véfréttum véfréttunum
+42	6742	kjötkveðjuhátíð	kjötkveðjuhátíða kjötkveðjuhátíðanna kjötkveðjuhátíðar kjötkveðjuhátíðarinnar kjötkveðjuhátíðin kjötkveðjuhátíðina kjötkveðjuhátíðinni kjötkveðjuhátíðir kjötkveðjuhátíðirnar kjötkveðjuhátíðum kjötkveðjuhátíðunum
+43	6743	eyrnalokkur	eyrnalokk eyrnalokka eyrnalokkana eyrnalokkanna eyrnalokkar eyrnalokkarnir eyrnalokki eyrnalokkinn eyrnalokknum eyrnalokks eyrnalokksins eyrnalokkum eyrnalokkunum eyrnalokkurinn
+44	6744	tundurskeyti	tundurskeyta tundurskeytanna tundurskeytin tundurskeytinu tundurskeytis tundurskeytisins tundurskeytið tundurskeytum tundurskeytunum
+45	6745	háaloft	háalofta háaloftanna háalofti háaloftin háaloftinu háaloftið háalofts háaloftsins háaloftum háaloftunum
+46	6746	viðvaningur	viðvaning viðvaninga viðvaningana viðvaninganna viðvaningar viðvaningarnir viðvaningi viðvaninginn viðvaningnum viðvanings viðvaningsins viðvaningum viðvaningunum viðvaningurinn
+47	6747	þyrma	þyrmandi þyrmast þyrmd þyrmda þyrmdan þyrmdar þyrmdi þyrmdir þyrmdra þyrmdrar þyrmdri þyrmds þyrmdu þyrmdum þyrmdur þyrmduð þyrmi þyrmir þyrmirðu þyrmið þyrmst þyrmt þyrmum
+48	6748	málaliði	málaliða málaliðana málaliðann málaliðanna málaliðans málaliðanum málaliðar málaliðarnir málaliðinn málaliðum málaliðunum
+49	6749	glænýr	glæný glænýi glænýir glænýja glænýjan glænýjar glænýju glænýjum glænýrra glænýrrar glænýrri glænýs glænýtt
+50	6750	klikkhaus	klikkhausa klikkhausana klikkhausanna klikkhausar klikkhausarnir klikkhausinn klikkhausnum klikkhauss klikkhaussins klikkhausum klikkhausunum
+51	6751	apaköttur	apakatta apakattanna apakattar apakattarins apaketti apakettina apakettinum apakettir apakettirnir apakött apaköttinn apaköttum apaköttunum apakötturinn
+52	6752	sjálfsvörn	sjálfsvarna sjálfsvarnanna sjálfsvarnar sjálfsvarnarinnar sjálfsvarnir sjálfsvarnirnar sjálfsvörnin sjálfsvörnina sjálfsvörninni sjálfsvörnum sjálfsvörnunum
+53	6753	verkstjóri	verkstjóra verkstjórana verkstjórann verkstjóranna verkstjórans verkstjóranum verkstjórar verkstjórarnir verkstjórinn verkstjórum verkstjórunum
+54	6754	heilbrigðismál	heilbrigðismála heilbrigðismálanna heilbrigðismáli heilbrigðismálin heilbrigðismálinu heilbrigðismálið heilbrigðismáls heilbrigðismálsins heilbrigðismálum heilbrigðismálunum
+55	6755	kakó	kakói kakóinu kakóið kakós kakósins
+56	6756	sjóndeildarhringur	sjóndeildarhring sjóndeildarhringinn sjóndeildarhringnum sjóndeildarhrings sjóndeildarhringsins sjóndeildarhringurinn
+57	6757	verkun	verkana verkananna verkanir verkanirnar verkunar verkunarinnar verkunin verkunina verkuninni verkunum verkununum
+58	6758	felustaður	felustað felustaða felustaðanna felustaðar felustaðarins felustaði felustaðina felustaðinn felustaðir felustaðirnir felustaðnum felustaðurinn felustöðum felustöðunum
+59	6759	skarfur	skarf skarfa skarfana skarfanna skarfar skarfarnir skarfi skarfinn skarfinum skarfs skarfsins skarfurinn skörfum skörfunum
+60	6760	ós	ósa ósana ósanna ósannað ósannaðir ósannaðra ósar ósarnir ósi ósinn ósnum óss óssins ósum ósunum
+61	6761	varðberg	varðbergi varðberginu varðbergið varðbergs varðbergsins
+62	6762	þónokkur	þónokkra þónokkrar þónokkrir þónokkru þónokkrum þónokkurn þónokkurra þónokkurrar þónokkurri þónokkurs þónokkurt þónokkuð
+63	6763	ranglæti	ranglætinu ranglætis ranglætisins ranglætið
+64	6764	fern	ferna fernan fernar ferni fernir fernra fernrar fernri ferns fernt fernu fernum
+65	6765	aðfaranótt	aðfaranætur aðfaranæturinnar aðfaranæturnar aðfaranótta aðfaranóttanna aðfaranóttin aðfaranóttina aðfaranóttinni aðfaranóttum aðfaranóttunum
+66	6766	mælitæki	mælitækin mælitækinu mælitækis mælitækisins mælitækið mælitækja mælitækjanna mælitækjum mælitækjunum
+67	6767	búfé	búfjár búfjárins búfénu búféð
+68	6768	vetni	vetninu vetnis vetnisins vetnið
+69	6769	augabrún	augabrúna augabrúnanna augabrúnar augabrúnarinnar augabrúnin augabrúnina augabrúninni augabrúnir augabrúnirnar augabrúnum augabrúnunum augabrýr
+70	6770	vantraust	vantrausti vantraustinu vantraustið vantrausts vantraustsins
+71	6771	keilir	keila keilana keilanna keilar keilarnir keili keilinn keilinum keilirinn keilis keilisins keilum keilunum
+72	6772	snar	snara snaran snarar snarara snarari snarast snarasta snarastan snarastar snarasti snarastir snarastra snarastrar snarastri snarasts snarastur snari snarir snarra snarrar snarri snars snart snör snöru snörum snörust snörustu snörustum
+73	6773	fráskilinn	fráskilda fráskildar fráskildi fráskildir fráskildu fráskildum fráskilin fráskilinna fráskilinnar fráskilinni fráskilins fráskilið
+74	6774	hvel	hvela hvelanna hveli hvelin hvelinu hvelið hvels hvelsins hvelum hvelunum
+75	6775	flakkari	flakkara flakkarana flakkarann flakkaranna flakkarans flakkaranum flakkarar flakkararnir flakkarinn flökkurum flökkurunum
+76	6776	bólusetning	bólusetninga bólusetninganna bólusetningar bólusetningarinnar bólusetningarnar bólusetningin bólusetningu bólusetningum bólusetninguna bólusetningunni bólusetningunum
+77	6777	heimsmeistaratitill	heimsmeistaratitil heimsmeistaratitilinn heimsmeistaratitillinn heimsmeistaratitils heimsmeistaratitilsins heimsmeistaratitla heimsmeistaratitlana heimsmeistaratitlanna heimsmeistaratitlar heimsmeistaratitlarnir heimsmeistaratitli heimsmeistaratitlinum heimsmeistaratitlum heimsmeistaratitlunum
+78	6778	austurhluti	austurhluta austurhlutana austurhlutann austurhlutanna austurhlutans austurhlutanum austurhlutar austurhlutarnir austurhlutinn austurhlutum austurhlutunum
+79	6779	franska	franskan franskanna franskna fransknanna frönsku frönskum frönskuna frönskunnar frönskunni frönskunum frönskur frönskurnar
+80	6780	matvöruverslun	matvöruverslana matvöruverslananna matvöruverslanir matvöruverslanirnar matvöruverslunar matvöruverslunarinnar matvöruverslunin matvöruverslunina matvöruversluninni matvöruverslunum matvöruverslununum
+81	6781	lærlingur	lærling lærlinga lærlingana lærlinganna lærlingar lærlingarnir lærlingi lærlinginn lærlingnum lærlings lærlingsins lærlingum lærlingunum lærlingurinn
+82	6782	slátrun	slátrana slátrananna slátranir slátranirnar slátrunar slátrunarinnar slátrunin slátrunina slátruninni slátrunum slátrununum
+83	6783	liðsfélagi	liðsfélaga liðsfélagana liðsfélagann liðsfélaganna liðsfélagans liðsfélaganum liðsfélagar liðsfélagarnir liðsfélaginn liðsfélögum liðsfélögunum
+84	6784	tjáningarfrelsi	tjáningarfrelsinu tjáningarfrelsis tjáningarfrelsisins tjáningarfrelsið
+85	6785	uppseldur	uppseld uppselda uppseldan uppseldar uppseldi uppseldir uppseldra uppseldrar uppseldri uppselds uppseldu uppseldum uppselt
+86	6786	skemmdarverk	skemmdarverka skemmdarverkanna skemmdarverki skemmdarverkin skemmdarverkinu skemmdarverkið skemmdarverks skemmdarverksins skemmdarverkum skemmdarverkunum
+87	6787	sterklega	sterklegar sterklegast
+88	6788	plötusnúður	plötusnúð plötusnúða plötusnúðana plötusnúðanna plötusnúðar plötusnúðarins plötusnúðarnir plötusnúði plötusnúðinn plötusnúðinum plötusnúðnum plötusnúðs plötusnúðsins plötusnúðum plötusnúðunum plötusnúðurinn
+89	6789	ósvífinn	ósvífin ósvífinna ósvífinnar ósvífinni ósvífins ósvífið ósvífna ósvífnar ósvífnara ósvífnari ósvífnast ósvífnasta ósvífnastan ósvífnastar ósvífnasti ósvífnastir ósvífnastra ósvífnastrar ósvífnastri ósvífnasts ósvífnastur ósvífni ósvífnir ósvífnu ósvífnum ósvífnust ósvífnustu ósvífnustum
+90	6790	hugleiðsla	hugleiðslan hugleiðslu hugleiðsluna hugleiðslunnar hugleiðslunni
+91	6791	hlýðni	hlýðnin hlýðnina hlýðninnar hlýðninni
+92	6792	sjómíla	sjómílan sjómílna sjómílnanna sjómílu sjómílum sjómíluna sjómílunnar sjómílunni sjómílunum sjómílur sjómílurnar
+93	6793	óalgengur	óalgeng óalgenga óalgengan óalgengar óalgengara óalgengari óalgengast óalgengasta óalgengastan óalgengastar óalgengasti óalgengastir óalgengastra óalgengastrar óalgengastri óalgengasts óalgengastur óalgengi óalgengir óalgengra óalgengrar óalgengri óalgengs óalgengt óalgengu óalgengum óalgengust óalgengustu óalgengustum
+94	6794	námsbraut	námsbrauta námsbrautanna námsbrautar námsbrautarinnar námsbrautin námsbrautina námsbrautinni námsbrautir námsbrautirnar námsbrautum námsbrautunum
+95	6795	kjarasamningur	kjarasamning kjarasamninga kjarasamningana kjarasamninganna kjarasamningar kjarasamningarnir kjarasamningi kjarasamninginn kjarasamningnum kjarasamnings kjarasamningsins kjarasamningum kjarasamningunum kjarasamningurinn
+96	6796	matsalur	matsal matsala matsalanna matsalar matsalarins matsali matsalina matsalinn matsalir matsalirnir matsalnum matsalurinn matsölum matsölunum
+97	6797	fangaklefi	fangaklefa fangaklefana fangaklefann fangaklefanna fangaklefans fangaklefanum fangaklefar fangaklefarnir fangaklefinn fangaklefum fangaklefunum
+98	6798	forsætisráðuneyti	forsætisráðuneyta forsætisráðuneytanna forsætisráðuneytin forsætisráðuneytinu forsætisráðuneytis forsætisráðuneytisins forsætisráðuneytið forsætisráðuneytum forsætisráðuneytunum
+99	6799	einkennilega	einkennilegast leinkenniegar
+100	6800	óhjákvæmilegur	óhjákvæmileg óhjákvæmilega óhjákvæmilegan óhjákvæmilegar óhjákvæmilegast óhjákvæmilegasta óhjákvæmilegastan óhjákvæmilegastar óhjákvæmilegasti óhjákvæmilegastir óhjákvæmilegastra óhjákvæmilegastrar óhjákvæmilegastri óhjákvæmilegasts óhjákvæmilegastur óhjákvæmilegi óhjákvæmilegir óhjákvæmilegra óhjákvæmilegrar óhjákvæmilegri óhjákvæmilegs óhjákvæmilegt óhjákvæmilegu óhjákvæmilegum óhjákvæmilegust óhjákvæmilegustu óhjákvæmilegustum

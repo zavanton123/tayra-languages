@@ -1,0 +1,100 @@
+1	9901	aukavinna	aukavinnan aukavinnu aukavinnuna aukavinnunnar aukavinnunni
+2	9902	dínamít	dínamíti dínamítinu dínamítið dínamíts dínamítsins
+3	9903	ríkisskuldabréf	ríkisskuldabréfa ríkisskuldabréfanna ríkisskuldabréfi ríkisskuldabréfin ríkisskuldabréfinu ríkisskuldabréfið ríkisskuldabréfs ríkisskuldabréfsins ríkisskuldabréfum ríkisskuldabréfunum
+4	9904	hrútafjörður	hrútafirði
+5	9905	norðanlands	
+6	9906	afkastageta	afkastagetan afkastagetu afkastagetuna afkastagetunnar afkastagetunni
+7	9907	gljáandi	
+8	9908	ósætti	ósættinu ósættis ósættisins ósættið
+9	9909	hafmeyja	hafmeyjan hafmeyjanna hafmeyju hafmeyjum hafmeyjuna hafmeyjunnar hafmeyjunni hafmeyjunum hafmeyjur hafmeyjurnar
+10	9910	leikrænn	leikræn leikræna leikrænan leikrænar leikrænast leikrænasta leikrænastan leikrænastar leikrænasti leikrænastir leikrænastra leikrænastrar leikrænastri leikrænasts leikrænastur leikræni leikrænir leikrænna leikrænnar leikrænni leikræns leikrænt leikrænu leikrænum leikrænust leikrænustu leikrænustum
+11	9911	einkatími	einkatíma einkatímana einkatímann einkatímanna einkatímans einkatímanum einkatímar einkatímarnir einkatíminn einkatímum einkatímunum
+12	9912	nappa	nappandi nappar nappast nappað nappaða nappaðan nappaðar nappaði nappaðir nappaðist nappaðra nappaðrar nappaðri nappaðs nappaðu nappaður nappi nappir nappist nappið nöppum nöppumst nöppuð nöppuðu nöppuðum nöppuðumst nöppuðust nöppuðuð
+13	9913	sóttkví	sóttkvíar sóttkvíarinnar sóttkvíin sóttkvína sóttkvínni
+14	9914	ástúð	ástúðar ástúðarinnar ástúðin ástúðina ástúðinni
+15	9915	hangsa	hangsandi hangsar hangsarðu hangsast hangsað hangsaði hangsaðir hangsaðirðu hangsaðist hangsaðu hangsi hangsir hangsirðu hangsist hangsið hangsum hangsumst hangsuðu hangsuðum hangsuðumst hangsuðust hangsuðuð höngsum höngsumst höngsuðu höngsuðum höngsuðumst höngsuðust höngsuðuð höngsuðuði
+16	9916	óhollur	óholl óholla óhollan óhollar óhollara óhollari óhollast óhollasta óhollastan óhollastar óhollasti óhollastir óhollastra óhollastrar óhollastri óhollasts óhollastur óholli óhollir óhollra óhollrar óhollri óholls óhollt óhollu óhollum óhollust óhollustu óhollustum
+17	9917	hæfnispróf	hæfnisprófa hæfnisprófanna hæfnisprófi hæfnisprófin hæfnisprófinu hæfnisprófið hæfnisprófs hæfnisprófsins hæfnisprófum hæfnisprófunum
+18	9918	vínflaska	vínflaskan vínflaskna vínflasknanna vínflösku vínflöskum vínflöskuna vínflöskunnar vínflöskunni vínflöskunum vínflöskur vínflöskurnar
+19	9919	mikilmenni	mikilmenna mikilmennanna mikilmennin mikilmenninu mikilmennis mikilmennisins mikilmennið mikilmennum mikilmennunum
+20	9920	verkjatafla	verkjataflan verkjataflanna verkjataflna verkjataflnanna verkjatöflu verkjatöflum verkjatöfluna verkjatöflunnar verkjatöflunni verkjatöflunum verkjatöflur verkjatöflurnar
+21	9921	innkeyrsla	innkeyrslan innkeyrslna innkeyrslnanna innkeyrslu innkeyrslum innkeyrsluna innkeyrslunnar innkeyrslunni innkeyrslunum innkeyrslur innkeyrslurnar
+22	9922	megnugur	megnug megnuga megnugan megnugar megnugast megnugasta megnugastan megnugastar megnugasti megnugastir megnugastra megnugastrar megnugastri megnugasts megnugastur megnugi megnugir megnugra megnugrar megnugri megnugs megnugt megnugu megnugum megnugust megnugustu megnugustum
+23	9923	umhyggjusamur	umhyggjusama umhyggjusaman umhyggjusamar umhyggjusamara umhyggjusamari umhyggjusamast umhyggjusamasta umhyggjusamastan umhyggjusamastar umhyggjusamasti umhyggjusamastir umhyggjusamastra umhyggjusamastrar umhyggjusamastri umhyggjusamasts umhyggjusamastur umhyggjusami umhyggjusamir umhyggjusamra umhyggjusamrar umhyggjusamri umhyggjusams umhyggjusamt umhyggjusöm umhyggjusömu umhyggjusömum umhyggjusömust umhyggjusömustu umhyggjusömustum
+24	9924	sjúkrastofa	sjúkrastofan sjúkrastofanna sjúkrastofu sjúkrastofum sjúkrastofuna sjúkrastofunnar sjúkrastofunni sjúkrastofunum sjúkrastofur sjúkrastofurnar
+25	9925	moskítófluga	moskítóflugan moskítóflugna moskítóflugnanna moskítóflugu moskítóflugum moskítófluguna moskítóflugunnar moskítóflugunni moskítóflugunum moskítóflugur moskítóflugurnar
+26	9926	eldavél	eldavéla eldavélanna eldavélar eldavélarinnar eldavélarnar eldavélin eldavélina eldavélinni eldavélum eldavélunum
+27	9927	nektarmynd	nektarmynda nektarmyndanna nektarmyndar nektarmyndarinnar nektarmyndin nektarmyndina nektarmyndinni nektarmyndir nektarmyndirnar nektarmyndum nektarmyndunum
+28	9928	hossa	hossandi hossar hossast hossað hossaði hossaðir hossaðist hossaðu hossi hossir hossirðu hossist hossið hossum hossumst hossuðu hossuðum hossuðumst hossuðust hossuðuð
+29	9929	sjúkratrygging	sjúkratrygginga sjúkratrygginganna sjúkratryggingar sjúkratryggingarinnar sjúkratryggingarnar sjúkratryggingin sjúkratryggingu sjúkratryggingum sjúkratrygginguna sjúkratryggingunni sjúkratryggingunum
+30	9930	heyrnartól	heyrnartóla heyrnartólanna heyrnartóli heyrnartólin heyrnartólinu heyrnartólið heyrnartóls heyrnartólsins heyrnartólum heyrnartólunum
+31	9931	skilningsríkur	skilningsrík skilningsríka skilningsríkan skilningsríkar skilningsríkara skilningsríkari skilningsríkast skilningsríkasta skilningsríkastan skilningsríkastar skilningsríkasti skilningsríkastir skilningsríkastra skilningsríkastrar skilningsríkastri skilningsríkasts skilningsríkastur skilningsríki skilningsríkir skilningsríkra skilningsríkrar skilningsríkri skilningsríks skilningsríkt skilningsríku skilningsríkum skilningsríkust skilningsríkustu skilningsríkustum
+32	9932	framsæti	framsæta framsætanna framsætin framsætinu framsætis framsætisins framsætið framsætum framsætunum
+33	9933	ráðabrugg	ráðabruggi ráðabrugginu ráðabruggið ráðabruggs ráðabruggsins
+34	9934	varðhundur	varðhund varðhunda varðhundana varðhundanna varðhundar varðhundarnir varðhundi varðhundinn varðhundinum varðhunds varðhundsins varðhundum varðhundunum varðhundurinn
+35	9935	æsingur	æsingi æsinginn æsingnum æsings æsingsins æsingurinn
+36	9936	krossleggja	krosslagst krosslagt krosslagða krosslagðan krosslagðar krosslagði krosslagðir krosslagðist krosslagðra krosslagðrar krosslagðri krosslagðs krosslagður krosslegg krossleggi krossleggir krossleggist krossleggið krossleggjandi krossleggjast krossleggjum krossleggjumst krossleggst krossleggur krossleggðu krosslegði krosslegðir krosslegðist krosslegðu krosslegðum krosslegðumst krosslegðust krosslegðuð krosslögð krosslögðu krosslögðum krosslögðumst krosslögðust krosslögðuð
+37	9937	múlasni	múlasna múlasnana múlasnann múlasnanna múlasnans múlasnanum múlasnar múlasnarnir múlasninn múlösnum múlösnunum
+38	9938	sjitt	
+39	9939	hunskast	hunskaðist hunskist hunskumst hunskuðumst hunskuðust
+40	9940	hundaæði	hundaæðinu hundaæðis hundaæðisins hundaæðið
+41	9941	andagift	andagiftar andagiftarinnar andagiftin andagiftina andagiftinni
+42	9942	eldiviður	eldivið eldiviða eldiviðanna eldiviðar eldiviðarins eldiviði eldiviðina eldiviðinn eldiviðinum eldiviðir eldiviðirnir eldiviðnum eldiviðum eldiviðunum eldiviðurinn
+43	9943	alki	alka alkana alkann alkanna alkans alkanum alkar alkarnir alkinn ölkum ölkunum
+44	9944	ómótstæðilegur	ómótstæðileg ómótstæðilega ómótstæðilegan ómótstæðilegar ómótstæðilegast ómótstæðilegasta ómótstæðilegastan ómótstæðilegastar ómótstæðilegasti ómótstæðilegastir ómótstæðilegastra ómótstæðilegastrar ómótstæðilegastri ómótstæðilegasts ómótstæðilegastur ómótstæðilegi ómótstæðilegir ómótstæðilegra ómótstæðilegrar ómótstæðilegri ómótstæðilegs ómótstæðilegt ómótstæðilegu ómótstæðilegum ómótstæðilegust ómótstæðilegustu ómótstæðilegustum
+45	9945	kamar	kamarinn kamars kamarsins kamra kamrana kamranna kamrar kamrarnir kamri kamrinum kömrum kömrunum
+46	9946	skóladagur	skóladag skóladaga skóladagana skóladaganna skóladagar skóladagarnir skóladaginn skóladags skóladagsins skóladagurinn skóladegi skóladeginum skóladögum skóladögunum
+47	9947	pípari	pípara píparana píparann píparanna píparans píparanum píparar pípararnir píparinn pípurum pípurunum
+48	9948	fábrotinn	fábrotin fábrotinna fábrotinnar fábrotinni fábrotins fábrotið fábrotna fábrotnar fábrotnara fábrotnari fábrotnast fábrotnasta fábrotnastan fábrotnastar fábrotnasti fábrotnastir fábrotnastra fábrotnastrar fábrotnastri fábrotnasts fábrotnastur fábrotni fábrotnir fábrotnu fábrotnum fábrotnust fábrotnustu fábrotnustum
+49	9949	skurðstofa	skurðstofan skurðstofanna skurðstofu skurðstofum skurðstofuna skurðstofunnar skurðstofunni skurðstofunum skurðstofur skurðstofurnar
+50	9950	kústur	kúst kústa kústana kústanna kústar kústarnir kústi kústinn kústinum kústs kústsins kústum kústunum kústurinn
+51	9951	krumla	krumlan krumlanna krumlna krumlnanna krumlu krumlum krumluna krumlunnar krumlunni krumlunum krumlur krumlurnar
+52	9952	snobbaður	snobbað snobbaða snobbaðan snobbaðar snobbaðast snobbaðasta snobbaðastan snobbaðastar snobbaðasti snobbaðastir snobbaðastra snobbaðastrar snobbaðastri snobbaðasts snobbaðastur snobbaði snobbaðir snobbaðra snobbaðrar snobbaðri snobbaðs snobbuð snobbuðu snobbuðum snobbuðust snobbuðustu snobbuðustum
+53	9953	forgangsröð	forgangsraðar forgangsraðarinnar forgangsröðin forgangsröðina forgangsröðinni
+54	9954	hjúkra	hjúkrandi hjúkrar hjúkrað hjúkraði hjúkraðir hjúkraðu hjúkri hjúkrir hjúkrið hjúkrum hjúkruðu hjúkruðum hjúkruðuð
+55	9955	vistmaður	vistmann vistmanna vistmannanna vistmanni vistmanninn vistmanninum vistmanns vistmannsins vistmaðurinn vistmenn vistmennina vistmennirnir vistmönnum vistmönnunum
+56	9956	glampandi	
+57	9957	harla	
+58	9958	menntamaður	menntamann menntamanna menntamannanna menntamanni menntamanninn menntamanninum menntamanns menntamannsins menntamaðurinn menntamenn menntamennina menntamennirnir menntamönnum menntamönnunum
+59	9959	lokkur	lokk lokka lokkana lokkanna lokkar lokkarnir lokki lokkinn lokknum lokks lokksins lokkum lokkunum lokkurinn
+60	9960	innlegg	innleggi innleggin innlegginu innleggið innleggja innleggjanna innleggjum innleggjunum innleggs innleggsins
+61	9961	kría	krían kríandi kríanna kríar kríast kríað kríaða kríaðan kríaðar kríaði kríaðir kríaðist kríaðra kríaðrar kríaðri kríaðs kríaðu kríaður kríi kríir kríist kríið kríu kríum kríumst kríuna kríunnar kríunni kríunum kríur kríurnar kríuð kríuðu kríuðum kríuðumst kríuðust kríuðuð
+62	9962	tilfærsla	tilfærslan tilfærslna tilfærslnanna tilfærslu tilfærslum tilfærsluna tilfærslunnar tilfærslunni tilfærslunum tilfærslur tilfærslurnar
+63	9963	skólafélagi	skólafélaga skólafélagana skólafélagann skólafélaganna skólafélagans skólafélaganum skólafélagar skólafélagarnir skólafélaginn skólafélögum skólafélögunum
+64	9964	loftmynd	loftmynda loftmyndanna loftmyndar loftmyndarinnar loftmyndin loftmyndina loftmyndinni loftmyndir loftmyndirnar loftmyndum loftmyndunum
+65	9965	þjóðþing	þjóðþinga þjóðþinganna þjóðþingi þjóðþingin þjóðþinginu þjóðþingið þjóðþings þjóðþingsins þjóðþingum þjóðþingunum
+66	9966	sigursæll	sigursæl sigursæla sigursælan sigursælar sigursælast sigursælasta sigursælastan sigursælastar sigursælasti sigursælastir sigursælastra sigursælastrar sigursælastri sigursælasts sigursælastur sigursæli sigursælir sigursælla sigursællar sigursælli sigursæls sigursælt sigursælu sigursælum sigursælust sigursælustu sigursælustum
+67	9967	vanrækja	vanræki vanrækir vanrækist vanrækið vanrækjandi vanrækjast vanrækjum vanrækjumst vanrækst vanrækt vanrækta vanræktan vanræktar vanrækti vanræktir vanræktist vanræktra vanræktrar vanræktri vanrækts vanræktu vanræktum vanræktumst vanræktur vanræktust vanræktuð
+68	9968	yfirstíga	yfirsteig yfirsteigst yfirsteigstu yfirstigi yfirstigin yfirstiginn yfirstiginna yfirstiginnar yfirstiginni yfirstigins yfirstigir yfirstigirðu yfirstigið yfirstigju yfirstigjum yfirstigjuð yfirstigna yfirstignar yfirstigni yfirstignir yfirstignu yfirstignum yfirstigu yfirstigum yfirstiguð yfirstíg yfirstígandi yfirstígi yfirstígir yfirstígirðu yfirstígið yfirstígum yfirstígur yfirstígurðu yfirstígðu
+69	9969	ókostur	ókost ókosta ókostanna ókostar ókostarins ókosti ókostina ókostinn ókostinum ókostir ókostirnir ókosts ókostsins ókostum ókostunum ókosturinn
+70	9970	augastaður	augastað
+71	9971	mistilteinn	mistiltein mistilteina mistilteinana mistilteinanna mistilteinar mistilteinarnir mistilteini mistilteininn mistilteininum mistilteinninn mistilteins mistilteinsins mistilteinum mistilteinunum
+72	9972	þvottavél	þvottavéla þvottavélanna þvottavélar þvottavélarinnar þvottavélarnar þvottavélin þvottavélina þvottavélinni þvottavélum þvottavélunum
+73	9973	auglýsingastofa	auglýsingastofan auglýsingastofanna auglýsingastofu auglýsingastofum auglýsingastofuna auglýsingastofunnar auglýsingastofunni auglýsingastofunum auglýsingastofur auglýsingastofurnar
+74	9974	samlíking	samlíkinga samlíkinganna samlíkingar samlíkingarinnar samlíkingarnar samlíkingin samlíkingu samlíkingum samlíkinguna samlíkingunni samlíkingunum
+75	9975	alefli	
+76	9976	heimferð	heimferða heimferðanna heimferðar heimferðarinnar heimferðin heimferðina heimferðinni heimferðir heimferðirnar heimferðum heimferðunum
+77	9977	mismuna	mismunar mismunað mismunaði mismunaðir mismunaðu mismuni mismunir mismunið mismunum mismunuðu mismunuðum mismunuðuð
+78	9978	heimsminjaskrá	heimsminjaskráa heimsminjaskráar heimsminjaskráarinnar heimsminjaskráin heimsminjaskrám heimsminjaskrána heimsminjaskránna heimsminjaskránni heimsminjaskránum heimsminjaskrár heimsminjaskrárinnar heimsminjaskrárnar
+79	9979	kalsíum	kalsíuminu kalsíumið kalsíums kalsíumsins
+80	9980	þumlungur	þumlung þumlunga þumlungana þumlunganna þumlungar þumlungarnir þumlungi þumlunginn þumlungnum þumlungs þumlungsins þumlungum þumlungunum þumlungurinn
+81	9981	danakonungur	danakonungs
+82	9982	gerill	geril gerilinn gerillinn gerils gerilsins gerla gerlana gerlanna gerlar gerlarnir gerli gerlinum gerlum gerlunum
+83	9983	gigt	gigtar gigtarinnar gigtin gigtina gigtinni
+84	9984	tímaröð	tímaraðar tímaraðarinnar tímaröðin tímaröðina tímaröðinni
+85	9985	velferðarkerfi	velferðarkerfa velferðarkerfanna velferðarkerfin velferðarkerfinu velferðarkerfis velferðarkerfisins velferðarkerfið velferðarkerfum velferðarkerfunum
+86	9986	einkageiri	einkageira einkageirann einkageirans einkageiranum einkageirinn
+87	9987	veggfóður	veggfóðri veggfóðrinu veggfóðrið veggfóðurs veggfóðursins
+88	9988	vonleysi	vonleysinu vonleysis vonleysisins vonleysið
+89	9989	pot	poti potinu potið pots potsins
+90	9990	mótherji	mótherja mótherjana mótherjann mótherjanna mótherjans mótherjanum mótherjar mótherjarnir mótherjinn mótherjum mótherjunum
+91	9991	hringvegur	hringveg hringvega hringveganna hringvegar hringvegarins hringvegi hringvegina hringveginn hringveginum hringvegir hringvegirnir hringvegum hringvegunum hringvegurinn
+92	9992	rökhugsun	rökhugsunar rökhugsunarinnar rökhugsunin rökhugsunina rökhugsuninni
+93	9993	bjarndýr	bjarndýra bjarndýranna bjarndýri bjarndýrin bjarndýrinu bjarndýrið bjarndýrs bjarndýrsins bjarndýrum bjarndýrunum
+94	9994	biðröð	biðraða biðraðanna biðraðar biðraðarinnar biðraðir biðraðirnar biðröðin biðröðina biðröðinni biðröðum biðröðunum
+95	9995	krossfari	krossfara krossfarana krossfarann krossfaranna krossfarans krossfaranum krossfarar krossfararnir krossfarinn krossförum krossförunum
+96	9996	bóndabær	bóndabæ bóndabæi bóndabæina bóndabæinn bóndabæir bóndabæirnir bóndabæja bóndabæjanna bóndabæjar bóndabæjarins bóndabæjum bóndabæjunum bóndabænum bóndabærinn
+97	9997	heilsast	heilsastu heilsaðist heilsist heilsumst heilsuðumst heilsuðust
+98	9998	ræma	ræman ræmanna ræmna ræmnanna ræmu ræmum ræmuna ræmunnar ræmunni ræmunum ræmur ræmurnar
+99	9999	gaddavír	gaddavíra gaddavírana gaddavíranna gaddavírar gaddavírarnir gaddavírinn gaddavírnum gaddavírs gaddavírsins gaddavírum gaddavírunum
+100	10000	göngubrú	göngubrúa göngubrúar göngubrúarinnar göngubrúin göngubrúm göngubrúna göngubrúnna göngubrúnni göngubrúnum göngubrýr göngubrýrnar

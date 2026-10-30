@@ -1,0 +1,100 @@
+1	3101	vefja	vafin vafinn vafinna vafinnar vafinni vafins vafist vafið vafða vafðar vafði vafðir vafðist vef vefjan vefjandi vefjanna vefjast vefji vefjir vefjist vefjið vefju vefjum vefjumst vefjuna vefjunnar vefjunni vefjunum vefjur vefjurnar vefst vefur vefði vefðir vefðist vefðu vefðum vefðumst vefðust vefðuð vöfðu vöfðum vöfðumst vöfðust vöfðuð
+2	3102	bindi	binda bindanna bindin bindinu bindis bindisins bindið bindum bindunum
+3	3103	lunga	lungans lunganu lungað lungna lungnanna lungu lungum lungun lungunum
+4	3104	gjald	gjalda gjaldanna gjaldi gjaldinu gjaldið gjalds gjaldsins gjöld gjöldin gjöldum gjöldunum
+5	3105	móttaka	móttakan móttakanna móttakna móttaknanna móttöku móttökum móttökuna móttökunnar móttökunni móttökunum móttökur móttökurnar
+6	3106	svindla	svindlandi svindlar svindlarðu svindlast svindlað svindlaða svindlaðan svindlaðar svindlaði svindlaðir svindlaðist svindlaðra svindlaðrar svindlaðri svindlaðs svindlaðu svindlaður svindli svindlir svindlist svindlið svindlum svindlumst svindluð svindluðu svindluðum svindluðumst svindluðust svindluðuð
+7	3107	æpa	æpandi æpi æpir æpirðu æpið æpt æpti æptir æptirðu æptu æptum æptuð æpum
+8	3108	talsmaður	talsmann talsmanna talsmannanna talsmanni talsmanninn talsmanninum talsmanns talsmannsins talsmaðurinn talsmenn talsmennina talsmennirnir talsmönnum talsmönnunum
+9	3109	hatur	hatri hatrinu hatrið haturs hatursins
+10	3110	afurð	afurða afurðanna afurðar afurðarinnar afurðin afurðina afurðinni afurðir afurðirnar afurðum afurðunum
+11	3111	ekkja	ekkjan ekkju ekkjum ekkjuna ekkjunnar ekkjunni ekkjunum ekkjur ekkjurnar ekkna ekknanna
+12	3112	falskur	falska falskan falskar falskara falskari falskast falskasta falskastan falskastar falskasti falskastir falskastra falskastrar falskastri falskasts falskastur falski falskir falskra falskrar falskri falsks falskt fölsk fölsku fölskum fölskust fölskustu fölskustum
+13	3113	ágæti	ágætinu ágætis ágætisins ágætið
+14	3114	hollur	holl holla hollan hollar hollara hollari hollast hollasta hollastan hollastar hollasti hollastir hollastra hollastrar hollastri hollasts hollastur holli hollir hollra hollrar hollri holls hollt hollu hollum hollust hollustu hollustum
+15	3115	fræða	frædd frædda fræddan fræddar fræddi fræddir fræddist fræddra fræddrar fræddri frædds fræddu fræddum fræddumst fræddur fræddust frædduð frætt fræðandi fræðast fræði fræðir fræðist fræðið fræðst fræðstu fræðum fræðumst
+16	3116	æla	ælan ælandi ælanna æld ælda ældan ældar ældi ældir ældra ældrar ældri ælds ældu ældum ældur ælduð æli ælir ælið ælna ælnanna ælt ælu ælum æluna ælunnar ælunni ælunum ælur ælurnar
+17	3117	hunang	hunangi hunanginu hunangið hunangs hunangsins
+18	3118	hýsa	hýsandi hýsast hýsi hýsir hýsist hýsið hýst hýsta hýstan hýstar hýsti hýstir hýstist hýstra hýstrar hýstri hýsts hýstu hýstum hýstumst hýstur hýstust hýstuð hýsum hýsumst
+19	3119	innihald	innihaldi innihaldinu innihaldið innihalds innihaldsins
+20	3120	fjölmennur	fjölmenn fjölmenna fjölmennan fjölmennar fjölmennara fjölmennari fjölmennast fjölmennasta fjölmennastan fjölmennastar fjölmennasti fjölmennastir fjölmennastra fjölmennastrar fjölmennastri fjölmennasts fjölmennastur fjölmenni fjölmennir fjölmennra fjölmennrar fjölmennri fjölmenns fjölmennt fjölmennu fjölmennum fjölmennust fjölmennustu fjölmennustum
+21	3121	klám	klámi kláminu klámið kláms klámsins
+22	3122	skurður	skurð skurða skurðanna skurðar skurðarins skurði skurðina skurðinn skurðinum skurðir skurðirnir skurðum skurðunum skurðurinn
+23	3123	hentugur	hentug hentuga hentugan hentugar hentugast hentugasta hentugastan hentugastar hentugasti hentugastir hentugastra hentugastrar hentugastri hentugasts hentugastur hentugi hentugir hentugra hentugrar hentugri hentugs hentugt hentugu hentugum hentugust hentugustu hentugustum
+24	3124	vista	vistandi vistar vistast vistað vistaða vistaðan vistaðar vistaði vistaðir vistaðist vistaðra vistaðrar vistaðri vistaðs vistaðu vistaður visti vistir vistist vistið vistum vistumst vistuð vistuðu vistuðum vistuðumst vistuðust vistuðuð
+25	3125	sjálfsmorð	sjálfsmorða sjálfsmorðanna sjálfsmorði sjálfsmorðin sjálfsmorðinu sjálfsmorðið sjálfsmorðs sjálfsmorðsins sjálfsmorðum sjálfsmorðunum
+26	3126	einangrun	einangrunar einangrunarinnar einangrunin einangrunina einangruninni
+27	3127	verkfall	verkfalla verkfallanna verkfalli verkfallinu verkfallið verkfalls verkfallsins verkföll verkföllin verkföllum verkföllunum
+28	3128	eilífð	eilífða eilífðanna eilífðar eilífðarinnar eilífðin eilífðina eilífðinni eilífðir eilífðirnar eilífðum eilífðunum
+29	3129	búseta	búsetan búsetu búsetuna búsetunnar búsetunni
+30	3130	bryggja	bryggjan bryggjanna bryggju bryggjum bryggjuna bryggjunnar bryggjunni bryggjunum bryggjur bryggjurnar bryggna bryggnanna
+31	3131	uppspretta	uppsprettan uppsprettanna uppsprettu uppsprettum uppsprettuna uppsprettunnar uppsprettunni uppsprettunum uppsprettur uppspretturnar
+32	3132	víðtækur	víðtæk víðtæka víðtækan víðtækar víðtækara víðtækari víðtækast víðtækasta víðtækastan víðtækastar víðtækasti víðtækastir víðtækastra víðtækastrar víðtækastri víðtækasts víðtækastur víðtæki víðtækir víðtækra víðtækrar víðtækri víðtæks víðtækt víðtæku víðtækum víðtækust víðtækustu víðtækustum
+33	3133	málstaður	málstað málstaða málstaðanna málstaðar málstaðarins málstaði málstaðina málstaðinn málstaðir málstaðirnir málstaðnum málstaðurinn málstöðum málstöðunum
+34	3134	miðborg	miðborga miðborganna miðborgar miðborgarinnar miðborgin miðborgina miðborginni miðborgir miðborgirnar miðborgum miðborgunum
+35	3135	frumsýna	frumsýnandi frumsýnd frumsýnda frumsýndan frumsýndar frumsýndi frumsýndir frumsýndra frumsýndrar frumsýndri frumsýnds frumsýndu frumsýndum frumsýndur frumsýnduð frumsýni frumsýnir frumsýnið frumsýnt frumsýnum
+36	3136	innflutningur	innflutning innflutningi innflutninginn innflutningnum innflutnings innflutningsins innflutningurinn
+37	3137	rifja	rifjan rifjandi rifjanna rifjar rifjast rifjað rifjaða rifjaðan rifjaðar rifjaði rifjaðir rifjaðist rifjaðra rifjaðrar rifjaðri rifjaðs rifjaðu rifjaður rifji rifjir rifjist rifjið rifju rifjum rifjumst rifjuna rifjunnar rifjunni rifjunum rifjur rifjurnar rifjuð rifjuðu rifjuðum rifjuðumst rifjuðust rifjuðuð
+38	3138	samviska	samviskan samvisku samviskuna samviskunnar samviskunni
+39	3139	tæknilega	
+40	3140	laða	laðandi laðar laðast laðastu laðað laðaða laðaðan laðaðar laðaði laðaðir laðaðist laðaðra laðaðrar laðaðri laðaðs laðaðu laðaður laði laðir laðist laðið löðum löðumst löðuð löðuðu löðuðum löðuðumst löðuðust löðuðuð
+41	3141	ótal	ótali ótalinu ótalið ótals ótalsins
+42	3142	ilmur	ilm ilmi ilminn ilminum ilms ilmsins ilmurinn
+43	3143	næra	nærandi nærast næri nærir nærist næristu nærið nærst nærstu nært nærum nærumst nærð nærða nærðan nærðar nærði nærðir nærðist nærðistu nærðra nærðrar nærðri nærðs nærðu nærðum nærðumst nærður nærðust nærðuð
+44	3144	lauf	laufa laufanna laufi laufin laufinu laufið laufs laufsins laufum laufunum
+45	3145	lögun	lagana lagananna laganir laganirnar lögunar lögunarinnar lögunin lögunina löguninni lögunum lögununum
+46	3146	nagli	nagla naglana naglann naglanna naglans naglanum naglar naglarnir naglinn nöglum nöglunum
+47	3147	velgengni	velgengnin velgengnina velgengninnar velgengninni
+48	3148	umfangsmikill	umfangsmeira umfangsmeiri umfangsmest umfangsmesta umfangsmestan umfangsmestar umfangsmesti umfangsmestir umfangsmestra umfangsmestrar umfangsmestri umfangsmests umfangsmestu umfangsmestum umfangsmestur umfangsmikil umfangsmikilla umfangsmikillar umfangsmikilli umfangsmikils umfangsmikinn umfangsmikið umfangsmikla umfangsmiklar umfangsmikli umfangsmiklir umfangsmiklu umfangsmiklum
+49	3149	faðma	faðmandi faðmar faðmast faðmað faðmaða faðmaðan faðmaðar faðmaði faðmaðir faðmaðist faðmaðra faðmaðrar faðmaðri faðmaðs faðmaðu faðmaður faðmi faðmir faðmist faðmið föðmum föðmumst föðmuð föðmuðu föðmuðum föðmuðumst föðmuðust föðmuðuð
+50	3150	sjávarútvegur	sjávarútveg sjávarútvegar sjávarútvegarins sjávarútvegi sjávarútveginn sjávarútveginum sjávarútvegs sjávarútvegsins sjávarútvegurinn
+51	3151	konungsríki	konungsríkin konungsríkinu konungsríkis konungsríkisins konungsríkið konungsríkja konungsríkjanna konungsríkjum konungsríkjunum
+52	3152	spilling	spillingar spillingarinnar spillingin spillingu spillinguna spillingunni
+53	3153	nes	nesi nesin nesinu nesið nesja nesjanna nesjum nesjunum ness nessins
+54	3154	plús	plúsa plúsana plúsanna plúsar plúsarnir plúsi plúsinn plúss plússins plúsum plúsunum
+55	3155	ýkja	ýki ýkir ýkirðu ýkið ýkjan ýkjandi ýkjanna ýkju ýkjum ýkjuna ýkjunnar ýkjunni ýkjunum ýkjur ýkjurnar ýkna ýknanna ýkt ýkta ýktan ýktar ýkti ýktir ýktra ýktrar ýktri ýkts ýktu ýktum ýktur ýktuð
+56	3156	stéttarfélag	stéttarfélaga stéttarfélaganna stéttarfélagi stéttarfélaginu stéttarfélagið stéttarfélags stéttarfélagsins stéttarfélög stéttarfélögin stéttarfélögum stéttarfélögunum
+57	3157	undirstaða	undirstaðan undirstaðanna undirstaðna undirstaðnanna undirstöðu undirstöðum undirstöðuna undirstöðunnar undirstöðunni undirstöðunum undirstöður undirstöðurnar
+58	3158	uppá	
+59	3159	úrskurður	úrskurð úrskurða úrskurðanna úrskurðar úrskurðarins úrskurði úrskurðina úrskurðinn úrskurðinum úrskurðir úrskurðirnir úrskurðum úrskurðunum úrskurðurinn
+60	3160	krefja	krafin krafinn krafinna krafinnar krafinni krafins krafið krafða krafðar krafði krafðir kref krefjandi krefji krefjir krefjið krefjum krefur krefði krefðir krefðu krefðum krefðuð kröfðu kröfðum kröfðuð
+61	3161	rækt	ræktar ræktarinnar ræktin ræktina ræktinni
+62	3162	tortíma	tortímandi tortímast tortímd tortímda tortímdan tortímdar tortímdi tortímdir tortímdist tortímdra tortímdrar tortímdri tortímds tortímdu tortímdum tortímdumst tortímdur tortímdust tortímduð tortími tortímir tortímist tortímið tortímst tortímstu tortímt tortímum tortímumst
+63	3163	formúla	formúlan formúlanna formúlna formúlnanna formúlu formúlum formúluna formúlunnar formúlunni formúlunum formúlur formúlurnar
+64	3164	flokkun	flokkana flokkananna flokkanir flokkanirnar flokkunar flokkunarinnar flokkunin flokkunina flokkuninni flokkunum flokkununum
+65	3165	hryggur	hrygg hrygga hryggan hryggar hryggara hryggari hryggast hryggasta hryggastan hryggastar hryggasti hryggastir hryggastra hryggastrar hryggastri hryggasts hryggastur hryggi hryggina hrygginn hryggir hryggirnir hryggja hryggjanna hryggjar hryggjarins hryggjum hryggjunum hryggnum hryggra hryggrar hryggri hryggs hryggt hryggu hryggum hryggurinn hryggust hryggustu hryggustum
+66	3166	ósáttur	ósátt ósátta ósáttan ósáttar ósáttara ósáttari ósáttast ósáttasta ósáttastan ósáttastar ósáttasti ósáttastir ósáttastra ósáttastrar ósáttastri ósáttasts ósáttastur ósátti ósáttir ósáttra ósáttrar ósáttri ósátts ósáttu ósáttum ósáttust ósáttustu ósáttustum
+67	3167	hressa	hressandi hressast hressi hressir hressirðu hressist hressistu hressið hresst hressta hresstan hresstar hressti hresstir hresstist hresstra hresstrar hresstri hressts hresstu hresstum hresstumst hresstur hresstust hresstuð hressum hressumst
+68	3168	veikleiki	veikleika veikleikana veikleikann veikleikanna veikleikans veikleikanum veikleikar veikleikarnir veikleikinn veikleikum veikleikunum
+69	3169	fróður	frótt fróð fróða fróðan fróðar fróðara fróðari fróðast fróðasta fróðastan fróðastar fróðasti fróðastir fróðastra fróðastrar fróðastri fróðasts fróðastur fróði fróðir fróðra fróðrar fróðri fróðs fróðu fróðum fróðust fróðustu fróðustum
+70	3170	þýður	þýtt þýð þýða þýðan þýðar þýðara þýðari þýðast þýðasta þýðastan þýðastar þýðasti þýðastir þýðastra þýðastrar þýðastri þýðasts þýðastur þýði þýðir þýðra þýðrar þýðri þýðs þýðu þýðum þýðust þýðustu þýðustum
+71	3171	stórmál	stórmála stórmálanna stórmáli stórmálin stórmálinu stórmálið stórmáls stórmálsins stórmálum stórmálunum
+72	3172	gróa	greri grerir grerirðu greru grerum greruð græ grær grærð grærðu gréri grérir grérirðu gréru grérum gréruð gréruði gróandi grói gróin gróinn gróinna gróinnar gróinni gróins gróir gróirðu gróið gróna grónar gróni grónir grónu grónum gróu gróum
+73	3173	endurnýja	endurnýi endurnýir endurnýist endurnýið endurnýjandi endurnýjar endurnýjast endurnýjað endurnýjaða endurnýjaðan endurnýjaðar endurnýjaði endurnýjaðir endurnýjaðist endurnýjaðra endurnýjaðrar endurnýjaðri endurnýjaðs endurnýjaðu endurnýjaður endurnýjum endurnýjumst endurnýjuð endurnýjuðu endurnýjuðum endurnýjuðumst endurnýjuðust endurnýjuðuð
+74	3174	sósa	sósan sósanna sósu sósum sósuna sósunnar sósunni sósunum sósur sósurnar
+75	3175	bangsi	bangsa bangsana bangsann bangsanna bangsans bangsanum bangsar bangsarnir bangsinn böngsum böngsunum
+76	3176	grikkur	grikk grikki grikkina grikkinn grikkir grikkirnir grikkja grikkjanna grikkjum grikkjunum grikknum grikks grikksins grikkurinn
+77	3177	æð	æða æðanna æðar æðarinnar æðarnar æðin æðina æðinni æðum æðunum
+78	3178	miðla	miðlandi miðlar miðlast miðlað miðlaða miðlaðan miðlaðar miðlaði miðlaðir miðlaðist miðlaðra miðlaðrar miðlaðri miðlaðs miðlaðu miðlaður miðli miðlir miðlist miðlið miðlum miðlumst miðluð miðluðu miðluðum miðluðumst miðluðust miðluðuð
+79	3179	ríkisborgari	ríkisborgara ríkisborgarana ríkisborgarann ríkisborgaranna ríkisborgarans ríkisborgaranum ríkisborgarar ríkisborgararnir ríkisborgarinn ríkisborgurum ríkisborgurunum
+80	3180	útbreiðsla	útbreiðslan útbreiðslu útbreiðsluna útbreiðslunnar útbreiðslunni
+81	3181	landsvirkjun	landsvirkjana landsvirkjananna landsvirkjanir landsvirkjanirnar landsvirkjunar landsvirkjunarinnar landsvirkjunin landsvirkjunina landsvirkjuninni landsvirkjunum landsvirkjununum
+82	3182	flugher	flugheri flugherina flugherinn flugherir flugherirnir flugherja flugherjanna flugherjum flugherjunum flughernum flughers flughersins
+83	3183	jarðarför	jarðarfara jarðarfaranna jarðarfarar jarðarfararinnar jarðarfarir jarðarfarirnar jarðarförin jarðarförina jarðarförinni jarðarförum jarðarförunum
+84	3184	kúnni	kúnna kúnnana kúnnann kúnnanna kúnnans kúnnanum kúnnar kúnnarnir kúnninn kúnnum kúnnunum
+85	3185	stétt	stétta stéttanna stéttar stéttarinnar stéttin stéttina stéttinni stéttir stéttirnar stéttum stéttunum
+86	3186	sver	svera sveran sverar sverara sverari sverast sverasta sverastan sverastar sverasti sverastir sverastra sverastrar sverastri sverasts sverastur sveri sverir sverra sverrar sverri svers svert sveru sverum sverust sverustu sverustum
+87	3187	nóta	nótan nótna nótnanna nótu nótum nótuna nótunnar nótunni nótunum nótur nóturnar
+88	3188	borgarstjórn	borgarstjórna borgarstjórnanna borgarstjórnar borgarstjórnarinnar borgarstjórnin borgarstjórnina borgarstjórninni borgarstjórnir borgarstjórnirnar borgarstjórnum borgarstjórnunum
+89	3189	bylgja	bylgjan bylgjanna bylgju bylgjum bylgjuna bylgjunnar bylgjunni bylgjunum bylgjur bylgjurnar bylgna bylgnanna
+90	3190	nýliði	nýliða nýliðana nýliðann nýliðanna nýliðans nýliðanum nýliðar nýliðarnir nýliðinn nýliðum nýliðunum
+91	3191	star	stari starinu starið stars starsins
+92	3192	umdeildur	umdeild umdeilda umdeildan umdeildar umdeildara umdeildari umdeildast umdeildasta umdeildastan umdeildastar umdeildasti umdeildastir umdeildastra umdeildastrar umdeildastri umdeildasts umdeildastur umdeildi umdeildir umdeildra umdeildrar umdeildri umdeilds umdeildu umdeildum umdeildust umdeildustu umdeildustum umdeilt
+93	3193	vísir	vísa vísana vísanna vísar vísarnir vísi vísinn vísinum vísirinn vísis vísisins vísum vísunum
+94	3194	kóði	kóðana kóðann kóðanna kóðans kóðanum kóðar kóðarnir kóðinn kóðum kóðunum
+95	3195	akur	akra akrana akranna akrar akrarnir akri akrinum akurinn akurs akursins ökrum ökrunum
+96	3196	meðhöndla	meðhöndlandi meðhöndlar meðhöndlast meðhöndlað meðhöndlaða meðhöndlaðan meðhöndlaðar meðhöndlaði meðhöndlaðir meðhöndlaðist meðhöndlaðra meðhöndlaðrar meðhöndlaðri meðhöndlaðs meðhöndlaðu meðhöndlaður meðhöndli meðhöndlir meðhöndlist meðhöndlið meðhöndlum meðhöndlumst meðhöndluð meðhöndluðu meðhöndluðum meðhöndluðumst meðhöndluðust meðhöndluðuð
+97	3197	svipa	svipan svipandi svipanna svipar svipast svipastu svipað svipaði svipaðir svipaðist svipaðu svipi svipir svipist svipið svipna svipnanna svipu svipum svipumst svipuna svipunnar svipunni svipunum svipur svipurnar svipuðu svipuðum svipuðumst svipuðust svipuðuð
+98	3198	sjóræningi	sjóræninginn sjóræningja sjóræningjana sjóræningjann sjóræningjanna sjóræningjans sjóræningjanum sjóræningjar sjóræningjarnir sjóræningjum sjóræningjunum
+99	3199	þáverandi	
+100	3200	nenna	nennan nennandi nenni nennir nennirðu nennið nennt nennti nenntir nenntu nenntum nenntuð nennu nennum nennuna nennunnar nennunni

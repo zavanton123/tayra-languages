@@ -1,0 +1,100 @@
+1	2701	saka	sakandi sakar sakast sakað sakaða sakaðan sakaðar sakaði sakaðir sakaðist sakaðra sakaðrar sakaðri sakaðs sakaðu sakaður saki sakir sakist sakið sökum sökumst sökuð sökuðu sökuðum sökuðumst sökuðust sökuðuð
+2	2702	frammistaða	frammistaðan frammistöðu frammistöðuna frammistöðunnar frammistöðunni
+3	2703	sokkur	sokk sokka sokkana sokkanna sokkar sokkarnir sokkinn sokkinum sokknum sokks sokksins sokkum sokkunum sokkurinn
+4	2704	stjórnun	stjórnunar stjórnunarinnar stjórnunin stjórnunina stjórnuninni
+5	2705	endanlega	endanlegar endanlegast
+6	2706	ótrúlega	ótrúlegar ótrúlegast
+7	2707	bjarg	bjarga bjarganna bjargi bjarginu bjargið bjargs bjargsins björg björgin björgum björgunum
+8	2708	vestrænn	vestræn vestræna vestrænan vestrænar vestrænast vestrænasta vestrænastan vestrænastar vestrænasti vestrænastir vestrænastra vestrænastrar vestrænastri vestrænasts vestrænastur vestræni vestrænir vestrænna vestrænnar vestrænni vestræns vestrænt vestrænu vestrænum vestrænust vestrænustu vestrænustum
+9	2709	bretti	brett bretta brettanna brettin brettinu brettir brettis brettisins brettið brettu brettum brettunum
+10	2710	samtímis	
+11	2711	starfrækja	starfræki starfrækir starfrækist starfrækið starfrækjandi starfrækjast starfrækjum starfrækjumst starfrækst starfrækt starfrækta starfræktan starfræktar starfrækti starfræktir starfræktist starfræktra starfræktrar starfræktri starfrækts starfræktu starfræktum starfræktumst starfræktur starfræktust starfræktuð
+12	2712	mannréttindi	mannréttinda mannréttindanna mannréttindin mannréttindum mannréttindunum
+13	2713	stúdent	stúdenta stúdentana stúdentanna stúdentar stúdentarnir stúdentinn stúdentinum stúdents stúdentsins stúdentum stúdentunum
+14	2714	svífa	sveif sveifst sveifstu svifi svifin svifinn svifinna svifinnar svifinni svifins svifir svifirðu svifist svifið svifna svifnar svifni svifnir svifnu svifnum svifu svifum svifumst svifust svifuð svíf svífandi svífast svífi svífir svífirðu svífist svífið svífst svífstu svífum svífumst svífur svífurðu svífðu
+15	2715	innrás	innrása innrásanna innrásar innrásarinnar innrásin innrásina innrásinni innrásir innrásirnar innrásum innrásunum
+16	2716	fíll	fíl fíla fílana fílanna fílar fílarnir fílinn fíllinn fílnum fíls fílsins fílum fílunum
+17	2717	kjósandi	kjósanda kjósandann kjósandans kjósandanum kjósandinn kjósenda kjósendanna kjósendum kjósendunum kjósendur kjósendurna kjósendurnir
+18	2718	álíta	áleist áleit áliti álitin álitinn álitinna álitinnar álitinni álitins álitir álitið álitna álitnar álitni álitnir álitnu álitnum álitu álitum álituð álít álítandi álíti álítir álítið álíttu álítum álítur álíturðu
+19	2719	álfur	álf álfa álfana álfanna álfar álfarnir álfi álfinn álfinum álfs álfsins álfum álfunum álfurinn
+20	2720	fallast	fallist fallistu fellst fellstu féllist féllistu féllst féllstu féllumst féllust föllumst
+21	2721	hnútur	hnút hnúta hnútana hnútanna hnútar hnútarnir hnútinn hnútnum hnúts hnútsins hnútum hnútunum hnúturinn
+22	2722	hjóla	hjólandi hjólar hjólarðu hjólast hjólað hjólaði hjólaðir hjólaðu hjóli hjólir hjólið hjólum hjóluðu hjóluðum hjóluðuð
+23	2723	lögregluþjónn	lögregluþjón lögregluþjóna lögregluþjónana lögregluþjónanna lögregluþjónar lögregluþjónarnir lögregluþjóni lögregluþjóninn lögregluþjóninum lögregluþjónninn lögregluþjóns lögregluþjónsins lögregluþjónum lögregluþjónunum
+24	2724	dansari	dansara dansarana dansarann dansaranna dansarans dansaranum dansarar dansararnir dansarinn dönsurum dönsurunum
+25	2725	aleinn	alein aleina aleinan aleinar aleinast aleinasta aleinastan aleinastar aleinasti aleinastir aleinastra aleinastrar aleinastri aleinasts aleinastur aleini aleinir aleinna aleinnar aleinni aleins aleinu aleinum aleinust aleinustu aleinustum aleitt
+26	2726	bíó	bíóa bíóanna bíói bíóin bíóinu bíóið bíós bíósins bíóum bíóunum
+27	2727	auðlind	auðlinda auðlindanna auðlindar auðlindarinnar auðlindin auðlindina auðlindinni auðlindir auðlindirnar auðlindum auðlindunum
+28	2728	innblástur	innblásturinn innblásturs innblástursins innblæstri innblæstrinum
+29	2729	söfnuður	safnaða safnaðanna safnaðar safnaðarins söfnuð söfnuði söfnuðina söfnuðinn söfnuðinum söfnuðir söfnuðirnir söfnuðnum söfnuðum söfnuðunum söfnuðurinn
+30	2730	stykki	stykkin stykkinu stykkis stykkisins stykkið stykkja stykkjanna stykkjum stykkjunum
+31	2731	strik	strika strikanna striki strikin strikinu strikið striks striksins strikum strikunum
+32	2732	efnahagslegur	efnahagsleg efnahagslega efnahagslegan efnahagslegar efnahagslegast efnahagslegasta efnahagslegastan efnahagslegastar efnahagslegasti efnahagslegastir efnahagslegastra efnahagslegastrar efnahagslegastri efnahagslegasts efnahagslegastur efnahagslegi efnahagslegir efnahagslegra efnahagslegrar efnahagslegri efnahagslegs efnahagslegt efnahagslegu efnahagslegum efnahagslegust efnahagslegustu efnahagslegustum
+33	2733	heimill	heimil heimila heimilan heimilar heimilir heimilla heimillar heimilli heimils heimilt heimilu heimilum
+34	2734	sjóða	sauð sauðst sauðstu sjóddu sjóðandi sjóði sjóðir sjóðirðu sjóðið sjóðum soðin soðinn soðinna soðinnar soðinni soðins soðið soðna soðnar soðni soðnir soðnu soðnum suðu suðum suðuð syði syðir syðirðu syðu syðum syðuð sýð sýður sýðurðu
+35	2735	ágreiningur	ágreining ágreiningi ágreininginn ágreiningnum ágreinings ágreiningsins ágreiningurinn
+36	2736	vík	víka víkanna víkin víkina víkinni víkum víkunum víkur víkurinnar víkurnar
+37	2737	hríð	hríða hríðanna hríðar hríðarinnar hríðin hríðina hríðinni hríðir hríðirnar hríðum hríðunum
+38	2738	örlítill	örlitla örlitlar örlitli örlitlir örlitlu örlitlum örlítil örlítilla örlítillar örlítilli örlítils örlítinn örlítið
+39	2739	innganga	inngangan inngöngu inngönguna inngöngunnar inngöngunni
+40	2740	slag	slaga slaganna slagi slaginu slagið slags slagsins slög slögin slögum slögunum
+41	2741	stöng	stanga stanganna stangar stangarinnar stangir stangirnar stengur stengurnar stöngin stöngina stönginni stöngum stöngunum
+42	2742	ögn	agna agnanna agnar agnarinnar agnir agnirnar ögnin ögnina ögninni ögnum ögnunum
+43	2743	klifra	klifrandi klifrar klifrast klifrað klifraða klifraðan klifraðar klifraði klifraðir klifraðist klifraðra klifraðrar klifraðri klifraðs klifraðu klifraður klifri klifrir klifrist klifrið klifrum klifrumst klifruð klifruðu klifruðum klifruðumst klifruðust klifruðuð
+44	2744	ökumaður	ökumann ökumanna ökumannanna ökumanni ökumanninn ökumanninum ökumanns ökumannsins ökumaðurinn ökumenn ökumennina ökumennirnir ökumönnum ökumönnunum
+45	2745	lota	lotan lotanna lotna lotnanna lotu lotum lotuna lotunnar lotunni lotunum lotur loturnar
+46	2746	píka	píkan píkanna píkna píknanna píku píkum píkuna píkunnar píkunni píkunum píkur píkurnar
+47	2747	ofn	ofna ofnana ofnanna ofnar ofnarnir ofni ofninn ofninum ofns ofnsins ofnum ofnunum
+48	2748	leikfélag	leikfélaga leikfélaganna leikfélagi leikfélaginu leikfélagið leikfélags leikfélagsins leikfélög leikfélögin leikfélögum leikfélögunum
+49	2749	tileinka	tileinkandi tileinkar tileinkast tileinkað tileinkaða tileinkaðan tileinkaðar tileinkaði tileinkaðir tileinkaðist tileinkaðra tileinkaðrar tileinkaðri tileinkaðs tileinkaðu tileinkaður tileinki tileinkir tileinkist tileinkið tileinkum tileinkumst tileinkuð tileinkuðu tileinkuðum tileinkuðumst tileinkuðust tileinkuðuð
+50	2750	sjúkrabíll	sjúkrabíl sjúkrabíla sjúkrabílana sjúkrabílanna sjúkrabílar sjúkrabílarnir sjúkrabílinn sjúkrabíllinn sjúkrabílnum sjúkrabíls sjúkrabílsins sjúkrabílum sjúkrabílunum
+51	2751	útkoma	útkoman útkomanna útkomna útkomnanna útkomu útkomum útkomuna útkomunnar útkomunni útkomunum útkomur útkomurnar
+52	2752	smekkur	smekk smekka smekkanna smekki smekkina smekkinn smekkir smekkirnir smekkja smekkjanna smekkjum smekkjunum smekknum smekks smekksins smekkum smekkunum smekkurinn
+53	2753	ruglaður	ruglað ruglaða ruglaðan ruglaðar ruglaðast ruglaðasta ruglaðastan ruglaðastar ruglaðasti ruglaðastir ruglaðastra ruglaðastrar ruglaðastri ruglaðasts ruglaðastur ruglaði ruglaðir ruglaðra ruglaðrar ruglaðri ruglaðs rugluð rugluðu rugluðum rugluðust rugluðustu rugluðustum
+54	2754	varanlegur	varanleg varanlega varanlegan varanlegar varanlegast varanlegasta varanlegastan varanlegastar varanlegasti varanlegastir varanlegastra varanlegastrar varanlegastri varanlegasts varanlegastur varanlegi varanlegir varanlegra varanlegrar varanlegri varanlegs varanlegt varanlegu varanlegum varanlegust varanlegustu varanlegustum
+55	2755	níundi	níunda níundu
+56	2756	sleikja	sleiki sleikir sleikirðu sleikist sleikið sleikjan sleikjandi sleikjanna sleikjast sleikju sleikjum sleikjumst sleikjuna sleikjunnar sleikjunni sleikjunum sleikjur sleikjurnar sleikst sleikt sleikta sleiktan sleiktar sleikti sleiktir sleiktist sleiktra sleiktrar sleiktri sleikts sleiktu sleiktum sleiktumst sleiktur sleiktust sleiktuð
+57	2757	skjátla	skjátlar skjátlast skjátlað skjátlaði skjátlaðist skjátli skjátlist
+58	2758	gjaldþrot	gjaldþrota gjaldþrotanna gjaldþroti gjaldþrotin gjaldþrotinu gjaldþrotið gjaldþrots gjaldþrotsins gjaldþrotum gjaldþrotunum
+59	2759	della	dellan dellanna dellna dellnanna dellu dellum delluna dellunnar dellunni dellunum dellur dellurnar
+60	2760	armur	arm arma arman armana armanna armar armara armari armarnir armast armasta armastan armastar armasti armastir armastra armastrar armastri armasts armastur armi arminn arminum armir armra armrar armri arms armsins armt armurinn örm örmu örmum örmunum örmust örmustu örmustum
+61	2761	flóttamaður	flóttamann flóttamanna flóttamannanna flóttamanni flóttamanninn flóttamanninum flóttamanns flóttamannsins flóttamaðurinn flóttamenn flóttamennina flóttamennirnir flóttamönnum flóttamönnunum
+62	2762	för	fara faranna farar fararinnar farir farirnar förin förina förinni förum förunum
+63	2763	tilnefning	tilnefningar tilnefningarinnar tilnefningin tilnefningu tilnefninguna tilnefningunni
+64	2764	blessun	blessana blessananna blessanir blessanirnar blessunar blessunarinnar blessunin blessunina blessuninni blessunum blessununum
+65	2765	messa	messan messandi messanna messar messað messaði messaðir messaðu messi messir messið messu messum messuna messunnar messunni messunum messur messurnar messuðu messuðum messuðuð
+66	2766	kuldi	kulda kuldana kuldann kuldanna kuldans kuldanum kuldar kuldarnir kuldinn kuldum kuldunum
+67	2767	alríkislögregla	alríkislögreglan alríkislögreglu alríkislögregluna alríkislögreglunnar alríkislögreglunni
+68	2768	skutla	skutlan skutlandi skutlar skutlast skutlað skutlaða skutlaðan skutlaðar skutlaði skutlaðir skutlaðist skutlaðra skutlaðrar skutlaðri skutlaðs skutlaðu skutlaður skutli skutlir skutlist skutlið skutlna skutlnanna skutlu skutlum skutlumst skutluna skutlunnar skutlunni skutlunum skutlur skutlurnar skutluð skutluðu skutluðum skutluðumst skutluðust skutluðuð
+69	2769	vítamín	vítamína vítamínanna vítamíni vítamínin vítamíninu vítamínið vítamíns vítamínsins vítamínum vítamínunum
+70	2770	fjármagn	fjármagni fjármagninu fjármagnið fjármagns fjármagnsins
+71	2771	listasafn	listasafna listasafnanna listasafni listasafninu listasafnið listasafns listasafnsins listasöfn listasöfnin listasöfnum listasöfnunum
+72	2772	náma	náman námanna námu námum námuna námunnar námunni námunum námur námurnar
+73	2773	grunur	grun gruninn gruninum gruns grunsins grunurinn
+74	2774	vitaskuld	
+75	2775	dæmigerður	dæmigert dæmigerð dæmigerða dæmigerðan dæmigerðar dæmigerðara dæmigerðari dæmigerðast dæmigerðasta dæmigerðastan dæmigerðastar dæmigerðasti dæmigerðastir dæmigerðastra dæmigerðastrar dæmigerðastri dæmigerðasts dæmigerðastur dæmigerði dæmigerðir dæmigerðra dæmigerðrar dæmigerðri dæmigerðs dæmigerðu dæmigerðum dæmigerðust dæmigerðustu dæmigerðustum
+76	2776	höttur	hatta hattanna hattar hattarins hetti hettina hettinum hettir hettirnir hött höttinn höttum höttunum hötturinn
+77	2777	bakki	bakka bakkana bakkann bakkanna bakkans bakkanum bakkar bakkarnir bakkinn bökkum bökkunum
+78	2778	pallur	pall palla pallana pallanna pallar pallarnir palli pallinn pallinum palls pallsins pallurinn pöllum pöllunum
+79	2779	pirra	pirrandi pirrar pirrast pirrað pirraða pirraðan pirraðar pirraði pirraðir pirraðirðu pirraðist pirraðra pirraðrar pirraðri pirraðs pirraðu pirraður pirri pirrir pirrist pirrið pirrum pirrumst pirruð pirruðu pirruðum pirruðumst pirruðust pirruðuð
+80	2780	yrkja	orst ort orta ortan ortar orti ortir ortirðu ortist ortra ortrar ortri orts ortu ortum ortumst ortur ortust ortuð ortuði yrki yrkir yrkirðu yrkist yrkið yrkjandi yrkjast yrkjum yrkjumst yrkst yrkt yrkta yrktan yrktar yrkti yrktir yrktirðu yrktist yrktra yrktrar yrktri yrkts yrktu yrktum yrktumst yrktur yrktust yrktuð
+81	2781	útsýni	útsýninu útsýnis útsýnisins útsýnið
+82	2782	bandamaður	bandamann bandamanna bandamannanna bandamanni bandamanninn bandamanninum bandamanns bandamannsins bandamaðurinn bandamenn bandamennina bandamennirnir bandamönnum bandamönnunum
+83	2783	heimsstyrjöld	heimsstyrjalda heimsstyrjaldanna heimsstyrjaldar heimsstyrjaldarinnar heimsstyrjaldir heimsstyrjaldirnar heimsstyrjöldin heimsstyrjöldina heimsstyrjöldinni heimsstyrjöldum heimsstyrjöldunum
+84	2784	rammi	ramma rammana rammann rammanna rammans rammanum rammar rammarnir ramminn römmum römmunum
+85	2785	njósnari	njósnara njósnarana njósnarann njósnaranna njósnarans njósnaranum njósnarar njósnararnir njósnarinn njósnurum njósnurunum
+86	2786	skilti	skilta skiltanna skiltin skiltinu skiltis skiltisins skiltið skiltum skiltunum
+87	2787	söngvari	söngvara söngvarana söngvarann söngvaranna söngvarans söngvaranum söngvarar söngvararnir söngvarinn söngvurum söngvurunum
+88	2788	bölva	bölvandi bölvar bölvað bölvaða bölvaðan bölvaðar bölvaði bölvaðir bölvaðra bölvaðrar bölvaðri bölvaðs bölvaðu bölvaður bölvi bölvir bölvið bölvum bölvuð bölvuðu bölvuðum bölvuðuð
+89	2789	gítar	gítara gítarana gítaranna gítarar gítararnir gítarinn gítarnum gítars gítarsins gítörum gítörunum
+90	2790	skipan	skipana skipananna skipanar skipanarinnar skipanin skipanina skipaninni skipanir skipanirnar skipunum skipununum
+91	2791	namm	nammi namminu nammið namms nammsins
+92	2792	svikari	svikara svikarana svikarann svikaranna svikarans svikaranum svikarar svikararnir svikarinn svikurum svikurunum
+93	2793	samþykki	samþykkinu samþykkis samþykkisins samþykkið
+94	2794	reitur	reit reita reitana reitanna reitar reitarnir reiti reitina reitinn reitir reitirnir reitnum reits reitsins reitum reitunum reiturinn
+95	2795	svik	svika svikanna svikin svikum svikunum
+96	2796	hljótt	
+97	2797	varaformaður	varaformann varaformanna varaformannanna varaformanni varaformanninn varaformanninum varaformanns varaformannsins varaformaðurinn varaformenn varaformennina varaformennirnir varaformönnum varaformönnunum
+98	2798	prufa	prufan prufandi prufanna prufar prufast prufað prufaða prufaðan prufaðar prufaði prufaðir prufaðist prufaðra prufaðrar prufaðri prufaðs prufaðu prufaður prufi prufir prufist prufið prufu prufum prufumst prufuna prufunnar prufunni prufunum prufur prufurnar prufuð prufuðu prufuðum prufuðumst prufuðust prufuðuð
+99	2799	tíðni	tíðna tíðnanna tíðnin tíðnina tíðninnar tíðninni tíðnir tíðnirnar tíðnum tíðnunum
+100	2800	elding	eldinga eldinganna eldingar eldingarinnar eldingarnar eldingin eldingu eldingum eldinguna eldingunni eldingunum

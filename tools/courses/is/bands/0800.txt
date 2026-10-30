@@ -1,0 +1,100 @@
+1	701	friður	frið friðar friðarins friði friðinn friðinum friðurinn
+2	702	samfélag	samfélaga samfélaganna samfélagi samfélaginu samfélagið samfélags samfélagsins samfélög samfélögin samfélögum samfélögunum
+3	703	lína	línan línanna línu línum línuna línunnar línunni línunum línur línurnar
+4	704	deila	deilan deilandi deilast deild deilda deildan deildar deildi deildir deildirðu deildist deildra deildrar deildri deilds deildu deildum deildumst deildur deildust deilduð deili deilir deilirðu deilist deilið deilna deilnanna deilst deilt deilu deilum deilumst deiluna deilunnar deilunni deilunum deilur deilurnar
+5	705	sýning	sýninga sýninganna sýningar sýningarinnar sýningarnar sýningin sýningu sýningum sýninguna sýningunni sýningunum
+6	706	texti	texta textana textann textanna textans textanum textar textarnir textinn textum textunum
+7	707	björn	birni birnina birninum birnir birnirnir bjarna bjarnanna bjarnar bjarnarins björninn björnum björnunum
+8	708	fullkominn	fullkomin fullkominna fullkominnar fullkominni fullkomins fullkomið fullkomna fullkomnar fullkomnara fullkomnari fullkomnast fullkomnasta fullkomnastan fullkomnastar fullkomnasti fullkomnastir fullkomnastra fullkomnastrar fullkomnastri fullkomnasts fullkomnastur fullkomni fullkomnir fullkomnu fullkomnum fullkomnust fullkomnustu fullkomnustum
+9	709	nefnd	nefnda nefndanna nefndar nefndarinnar nefndin nefndina nefndinni nefndir nefndirnar nefndum nefndunum
+10	710	garður	garð garða garðana garðanna garðar garðarnir garði garðinn garðinum garðs garðsins garðurinn görðum görðunum
+11	711	binda	bast bastu batt bind bindandi bindi bindir bindirðu bindið bindum bindur bindurðu bittu bundin bundinn bundinna bundinnar bundinni bundins bundið bundna bundnar bundni bundnir bundnu bundnum bundu bundum bunduð byndi byndir byndirðu byndu byndum bynduð
+12	712	vondur	verra verri verst versta verstan verstar versti verstir verstra verstrar verstri versts verstu verstum verstur vond vonda vondan vondar vondi vondir vondra vondrar vondri vonds vondu vondum vont
+13	713	bandarískur	bandarísk bandaríska bandarískan bandarískar bandarískara bandarískari bandarískast bandarískasta bandarískastan bandarískastar bandarískasti bandarískastir bandarískastra bandarískastrar bandarískastri bandarískasts bandarískastur bandaríski bandarískir bandarískra bandarískrar bandarískri bandarísks bandarískt bandarísku bandarískum bandarískust bandarískustu bandarískustum
+14	714	níu	
+15	715	tré	trjáa trjám trjánna trjánum trén trénu trés trésins tréð
+16	716	hægri	hægra
+17	717	niðurstaða	niðurstaðan niðurstaðanna niðurstaðna niðurstaðnanna niðurstöðu niðurstöðum niðurstöðuna niðurstöðunnar niðurstöðunni niðurstöðunum niðurstöður niðurstöðurnar
+18	718	leyfi	leyfa leyfanna leyfin leyfinu leyfis leyfisins leyfið leyfum leyfunum
+19	719	dálítið	
+20	720	kennari	kennara kennarana kennarann kennaranna kennarans kennaranum kennarar kennararnir kennarinn kennurum kennurunum
+21	721	spenna	spennan spennandi spennanna spennast spenni spennir spennist spennið spennst spennt spennta spenntan spenntar spennti spenntir spenntist spenntra spenntrar spenntri spennts spenntu spenntum spenntumst spenntur spenntust spenntuð spennu spennum spennumst spennuna spennunnar spennunni spennunum spennur spennurnar
+22	722	mistök	mistaka mistakanna mistökin mistökum mistökunum
+23	723	megin	megins meginsins megni megninu megnið
+24	724	niðri	neðar neðst
+25	725	hermaður	hermann hermanna hermannanna hermanni hermanninn hermanninum hermanns hermannsins hermaðurinn hermenn hermennina hermennirnir hermönnum hermönnunum
+26	726	geyma	geymandi geymast geymd geymda geymdan geymdar geymdi geymdir geymdirðu geymdist geymdra geymdrar geymdri geymds geymdu geymdum geymdumst geymdur geymdust geymduð geymi geymir geymirðu geymist geymið geymst geymt geymum geymumst
+27	727	sjór	sjávar sjávarins sjó sjóa sjóanna sjóar sjóarins sjói sjóina sjóinn sjóir sjóirnir sjónum sjórinn sjós sjósins sjóum sjóunum sjóvar
+28	728	aðgerð	aðgerða aðgerðanna aðgerðar aðgerðarinnar aðgerðin aðgerðina aðgerðinni aðgerðir aðgerðirnar aðgerðum aðgerðunum
+29	729	árás	árása árásanna árásar árásarinnar árásin árásina árásinni árásir árásirnar árásum árásunum
+30	730	fyndinn	fyndin fyndinna fyndinnar fyndinni fyndins fyndið fyndna fyndnar fyndnara fyndnari fyndnast fyndnasta fyndnastan fyndnastar fyndnasti fyndnastir fyndnastra fyndnastrar fyndnastri fyndnasts fyndnastur fyndni fyndnir fyndnu fyndnum fyndnust fyndnustu fyndnustum
+31	731	athuga	athugandi athugar athugarðu athugast athugað athugaða athugaðan athugaðar athugaði athugaðir athugaðirðu athugaðist athugaðra athugaðrar athugaðri athugaðs athugaðu athugaður athugi athugir athugist athugið athugum athugumst athuguð athuguðu athuguðum athuguðumst athuguðust athuguðuð
+32	732	einstakur	einstaka einstakan einstakar einstakara einstakari einstakast einstakasta einstakastan einstakastar einstakasti einstakastir einstakastra einstakastrar einstakastri einstakasts einstakastur einstaki einstakir einstakra einstakrar einstakri einstaks einstakt einstök einstöku einstökum einstökust einstökustu einstökustum
+33	733	steinn	stein steina steinana steinanna steinar steinarnir steini steininn steininum steinninn steins steinsins steinum steinunum
+34	734	né	
+35	735	gefast	gafst gafstu gefist gefistu gefst gefstu gefumst gáfumst gáfust gæfist gæfistu gæfumst gæfust
+36	736	tengsl	tengsla tengslanna tengslin tengslum tengslunum
+37	737	lögga	löggan lögganna löggu löggum lögguna löggunnar löggunni löggunum löggur löggurnar
+38	738	stjarna	stjarnan stjarnanna stjörnu stjörnum stjörnuna stjörnunnar stjörnunni stjörnunum stjörnur stjörnurnar
+39	739	leikmaður	leikmann leikmanna leikmannanna leikmanni leikmanninn leikmanninum leikmanns leikmannsins leikmaðurinn leikmenn leikmennina leikmennirnir leikmönnum leikmönnunum
+40	740	skot	skota skotanna skoti skotin skotinu skotið skots skotsins skotum skotunum
+41	741	tryggja	tryggi tryggir tryggirðu tryggist tryggið tryggjandi tryggjast tryggjum tryggjumst tryggst tryggt tryggð tryggða tryggðan tryggðar tryggði tryggðir tryggðist tryggðra tryggðrar tryggðri tryggðs tryggðu tryggðum tryggðumst tryggður tryggðust tryggðuð
+42	742	þingmaður	þingmann þingmanna þingmannanna þingmanni þingmanninn þingmanninum þingmanns þingmannsins þingmaðurinn þingmenn þingmennina þingmennirnir þingmönnum þingmönnunum
+43	743	gjöf	gjafa gjafanna gjafar gjafarinnar gjafir gjafirnar gjöfin gjöfina gjöfinni gjöfum gjöfunum
+44	744	gagn	gagna gagnanna gagni gagninu gagnið gagns gagnsins gögn gögnin gögnum gögnunum
+45	745	velta	oltin oltinn oltinna oltinnar oltinni oltins oltið oltna oltnar oltni oltnir oltnu oltnum ultu ultum ultuð valst valt velst velstu velt veltan veltandi veltanna veltast velti veltir veltirðu veltist veltistu veltið veltna veltnanna veltu veltum veltumst veltuna veltunnar veltunni veltunum veltur velturnar veltust veltuð ylti yltir yltu yltum yltuð
+46	746	stinga	stakk stakkst stakkstu sting stingandi stingast stingdu stingi stingir stingirðu stingist stingið stingst stingstu stingum stingumst stingur stingurðu stungin stunginn stunginna stunginnar stunginni stungins stungist stungið stungna stungnar stungni stungnir stungnu stungnum stungu stungum stungumst stungust stunguð styngi styngir styngirðu styngist styngju styngjum styngjumst styngjust styngjuð
+47	747	blanda	blandan blandandi blandanna blandar blandast blandað blandaða blandaðan blandaðar blandaði blandaðir blandaðist blandaðra blandaðrar blandaðri blandaðs blandaðu blandaður blandi blandir blandist blandið blandna blandnanna blöndu blöndum blöndumst blönduna blöndunnar blöndunni blöndunum blöndur blöndurnar blönduð blönduðu blönduðum blönduðumst blönduðust blönduðuð
+48	748	þróun	þróunar þróunarinnar þróunin þróunina þróuninni
+49	749	gjarnan	helst
+50	750	tíð	tíða tíðanna tíðar tíðarinnar tíðin tíðina tíðinni tíðir tíðirnar tíðum tíðunum
+51	751	eyja	eyjan eyjanna eyju eyjum eyjuna eyjunnar eyjunni eyjunum eyjur eyjurnar
+52	752	svolítið	
+53	753	þola	þolandi þolast þolað þoldi þoldir þoldirðu þoldist þoldu þoldum þoldumst þoldust þolduð þoli þolir þolirðu þolist þolið þolum þolumst þyldi þyldir þyldirðu þyldist þyldu þyldum þyldumst þyldust þylduð
+54	754	ólíkur	ólík ólíka ólíkan ólíkar ólíkara ólíkari ólíkast ólíkasta ólíkastan ólíkastar ólíkasti ólíkastir ólíkastra ólíkastrar ólíkastri ólíkasts ólíkastur ólíki ólíkir ólíkra ólíkrar ólíkri ólíks ólíkt ólíku ólíkum ólíkust ólíkustu ólíkustum
+55	755	vernda	verndandi verndar verndarðu verndast verndað verndaða verndaðan verndaðar verndaði verndaðir verndaðist verndaðra verndaðrar verndaðri verndaðs verndaðu verndaður verndi verndir verndist verndið verndum verndumst vernduð vernduðu vernduðum vernduðumst vernduðust vernduðuð
+56	756	yfirleitt	
+57	757	skemmta	skemmt skemmtandi skemmti skemmtir skemmtirðu skemmtið skemmtu skemmtum skemmtuð
+58	758	suður	sunnar suðri suðrinu suðrið suðurs suðursins syðst
+59	759	varlega	varlegar varlegast
+60	760	óska	óskandi óskar óskarðu óskast óskað óskaða óskaðan óskaðar óskaði óskaðir óskaðirðu óskaðist óskaðra óskaðrar óskaðri óskaðs óskaðu óskaður óski óskir óskist óskið óskum óskumst óskuð óskuðu óskuðum óskuðumst óskuðust óskuðuð
+61	761	vörður	varða varðanna varðar varðarins verði verðina verðinum verðir verðirnir vörð vörðinn vörðum vörðunum vörðurinn
+62	762	heili	heila heilana heilann heilanna heilans heilanum heilar heilarnir heilinn heilum heilunum
+63	763	drottinn	drottin drottininn drottinninn drottins drottinsins drottna drottnana drottnanna drottnar drottnarnir drottni drottninum drottnum drottnunum
+64	764	hví	hvía hvíanna hvíi hvíin hvíinu hvíið hvís hvísins hvíum hvíunum
+65	765	föt	fatanna fötin fötum fötunum
+66	766	boð	boða boðanna boði boðin boðinu boðið boðs boðsins boðum boðunum
+67	767	far	fara faranna fari farinu farið fars farsins för förin förum förunum
+68	768	kaffi	kaffinu kaffis kaffisins kaffið
+69	769	vopn	vopna vopnanna vopni vopnin vopninu vopnið vopns vopnsins vopnum vopnunum
+70	770	stuðningur	stuðning stuðningi stuðninginn stuðningnum stuðnings stuðningsins stuðningurinn
+71	771	andlit	andlita andlitanna andliti andlitin andlitinu andlitið andlits andlitsins andlitum andlitunum
+72	772	hundrað	hundraða hundraðanna hundraði hundraðinu hundraðið hundraðs hundraðsins hundruð hundruðin hundruðum hundruðunum
+73	773	hittast	hist hittist hittistu hittumst hittust
+74	774	framtíð	framtíða framtíðanna framtíðar framtíðarinnar framtíðin framtíðina framtíðinni framtíðir framtíðirnar framtíðum framtíðunum
+75	775	berast	barst barstu beraðist berist beristu berst berstu berumst beruðumst beruðust borist bárumst bárust bærist bæristu bærumst bærust
+76	776	gilda	gildandi gildi gildir gildið gildum gilt gilti giltir giltu giltum giltuð
+77	777	ákvörðun	ákvarðana ákvarðananna ákvarðanir ákvarðanirnar ákvörðunar ákvörðunarinnar ákvörðunin ákvörðunina ákvörðuninni ákvörðunum ákvörðununum
+78	778	opinn	opin opinna opinnar opinni opins opið opna opnar opnara opnari opnast opnasta opnastan opnastar opnasti opnastir opnastra opnastrar opnastri opnasts opnastur opni opnir opnu opnum opnust opnustu opnustum
+79	779	henda	hendandi hendast hendi hendir hendirðu hendist hendistu hendið hendum hendumst henst hent henti hentir hentirðu hentist hentistu hentu hentum hentumst hentust hentuð
+80	780	erfiður	erfitt erfið erfiða erfiðan erfiðar erfiðara erfiðari erfiðast erfiðasta erfiðastan erfiðastar erfiðasti erfiðastir erfiðastra erfiðastrar erfiðastri erfiðasts erfiðastur erfiði erfiðir erfiðra erfiðrar erfiðri erfiðs erfiðu erfiðum erfiðust erfiðustu erfiðustum
+81	781	sinni	sinna sinnanna sinnin sinninu sinnis sinnisins sinnið sinnum sinnunum
+82	782	lítt	minnst miður
+83	783	sinna	sinnan sinnandi sinni sinnir sinnirðu sinnið sinnt sinnta sinntan sinntar sinnti sinntir sinntra sinntrar sinntri sinnts sinntu sinntum sinntur sinntuð sinnu sinnum sinnuna sinnunnar sinnunni
+84	784	birta	birstu birt birtan birtandi birtar birti birtir birtirðu birtið birtra birtrar birtri birts birtu birtum birtuna birtunnar birtunni birtur birtuð
+85	785	val	vala valanna vali valinu valið vals valsins völ völin völum völunum
+86	786	ríkur	rík ríka ríkan ríkar ríkara ríkari ríkast ríkasta ríkastan ríkastar ríkasti ríkastir ríkastra ríkastrar ríkastri ríkasts ríkastur ríki ríkir ríkra ríkrar ríkri ríks ríkt ríku ríkum ríkust ríkustu ríkustum
+87	787	ræna	rænan rænandi rænast rænd rænda rændan rændar rændi rændir rændirðu rændist rændra rændrar rændri rænds rændu rændum rændumst rændur rændust rænduð ræni rænir rænirðu rænist rænið rænst rænstu rænt rænu rænum rænumst rænuna rænunnar rænunni
+88	788	sakna	saknandi saknar saknarðu saknað saknaði saknaðir saknaðirðu saknaðu sakni saknir saknið söknum söknuðu söknuðum söknuðuð söknuðuði
+89	789	ennþá	
+90	790	kosning	kosninga kosninganna kosningar kosningarinnar kosningarnar kosningin kosningu kosningum kosninguna kosningunni kosningunum
+91	791	bolti	bolta boltana boltann boltanna boltans boltanum boltar boltarnir boltinn boltum boltunum
+92	792	styðja	studd studda studdan studdar studdi studdir studdirðu studdist studdistu studdra studdrar studdri studds studdu studdum studdumst studdur studdust studduð stutt stuðst styddi styddir styddirðu styddist styddistu styddu styddum styddumst styddust stydduð styð styðjandi styðjast styðji styðjir styðjirðu styðjist styðjistu styðjið styðjum styðjumst styðst styðstu styður styðurðu
+93	793	fugl	fugla fuglana fuglanna fuglar fuglarnir fugli fuglinn fuglinum fugls fuglsins fuglum fuglunum
+94	794	sameina	sameinandi sameinar sameinarðu sameinast sameinastu sameinað sameinaða sameinaðan sameinaðar sameinaði sameinaðir sameinaðist sameinaðra sameinaðrar sameinaðri sameinaðs sameinaðu sameinaður sameini sameinir sameinist sameinið sameinum sameinumst sameinuð sameinuðu sameinuðum sameinuðumst sameinuðust sameinuðuð
+95	795	fár	fá fáa fáan fáar fái fáir fári fárinu fárið fárra fárrar fárri fárs fársins fás fátt fáu fáum færra færri fæst fæsta fæstan fæstar fæsti fæstir fæstra fæstrar fæstri fæsts fæstu fæstum fæstur
+96	796	strönd	stranda strandanna strandar strandarinnar strandað strandaði strandaður strandir strandirnar strendur strendurnar ströndin ströndina ströndinni ströndum ströndunum strönduðum
+97	797	efri	efra efst efsta efstan efstar efsti efstir efstra efstrar efstri efsts efstu efstum efstur
+98	798	blóð	blóði blóðinu blóðið blóðs blóðsins
+99	799	skoðun	skoðana skoðananna skoðanir skoðanirnar skoðunar skoðunarinnar skoðunin skoðunina skoðuninni skoðunum skoðununum
+100	800	burtu	

@@ -1,0 +1,100 @@
+1	1201	áhætta	áhættan áhættu áhættuna áhættunnar áhættunni
+2	1202	blóm	blóma blómanna blómi blómin blóminu blómið blóms blómsins blómum blómunum
+3	1203	flókinn	flókin flókinna flókinnar flókinni flókins flókið flókna flóknar flóknara flóknari flóknast flóknasta flóknastan flóknastar flóknasti flóknastir flóknastra flóknastrar flóknastri flóknasts flóknastur flókni flóknir flóknu flóknum flóknust flóknustu flóknustum
+4	1204	vinsamlega	vinsamlegar vinsamlegast
+5	1205	norrænn	norræn norræna norrænan norrænar norrænast norrænasta norrænastan norrænastar norrænasti norrænastir norrænastra norrænastrar norrænastri norrænasts norrænastur norræni norrænir norrænna norrænnar norrænni norræns norrænt norrænu norrænum norrænust norrænustu norrænustum
+6	1206	bú	búa búanna búi búin búinu búið bús búsi búsins búum búunum
+7	1207	kærasti	kærasta kærastana kærastann kærastanna kærastans kærastanum kærastar kærastarnir kærastinn kærustum kærustunum
+8	1208	atburður	atburð atburða atburðanna atburðar atburðarins atburði atburðina atburðinn atburðinum atburðir atburðirnir atburðum atburðunum atburðurinn
+9	1209	takmarka	takmarkandi takmarkar takmarkast takmarkað takmarkaða takmarkaðan takmarkaðar takmarkaði takmarkaðir takmarkaðist takmarkaðra takmarkaðrar takmarkaðri takmarkaðs takmarkaðu takmarkaður takmarki takmarkir takmarkist takmarkið takmörkum takmörkumst takmörkuð takmörkuðu takmörkuðum takmörkuðumst takmörkuðust takmörkuðuð
+10	1210	panta	pantandi pantar pantarðu pantast pantað pantaða pantaðan pantaðar pantaði pantaðir pantaðirðu pantaðist pantaðra pantaðrar pantaðri pantaðs pantaðu pantaður panti pantir pantirðu pantist pantið pöntum pöntumst pöntuð pöntuðu pöntuðum pöntuðumst pöntuðust pöntuðuð
+11	1211	tungumál	tungumála tungumálanna tungumáli tungumálin tungumálinu tungumálið tungumáls tungumálsins tungumálum tungumálunum
+12	1212	aðgangur	aðgang aðganga aðgangana aðganganna aðgangar aðgangarnir aðgangi aðganginn aðganginum aðgangs aðgangsins aðgangurinn aðgöngum aðgöngunum
+13	1213	kyn	kyni kynin kyninu kynið kynja kynjanna kynjum kynjunum kyns kynsins
+14	1214	óvart	
+15	1215	fella	fellan fellandi fellanna felld fellda felldan felldar felldi felldir felldra felldrar felldri fellds felldu felldum felldur fellduð felli fellir fellið fellna fellnanna fellt fellu fellum felluna fellunnar fellunni fellunum fellur fellurnar
+16	1216	próf	prófa prófanna prófi prófin prófinu prófið prófs prófsins prófum prófunum
+17	1217	meðferð	meðferða meðferðanna meðferðar meðferðarinnar meðferðin meðferðina meðferðinni meðferðir meðferðirnar meðferðum meðferðunum
+18	1218	frænka	frænkan frænkanna frænkna frænknanna frænku frænkum frænkuna frænkunnar frænkunni frænkunum frænkur frænkurnar
+19	1219	áhugaverður	áhugavert áhugaverð áhugaverða áhugaverðan áhugaverðar áhugaverðara áhugaverðari áhugaverðast áhugaverðasta áhugaverðastan áhugaverðastar áhugaverðasti áhugaverðastir áhugaverðastra áhugaverðastrar áhugaverðastri áhugaverðasts áhugaverðastur áhugaverði áhugaverðir áhugaverðra áhugaverðrar áhugaverðri áhugaverðs áhugaverðu áhugaverðum áhugaverðust áhugaverðustu áhugaverðustum
+20	1220	ímynda	ímyndandi ímyndar ímyndarðu ímyndað ímyndaða ímyndaðan ímyndaðar ímyndaði ímyndaðir ímyndaðra ímyndaðrar ímyndaðri ímyndaðs ímyndaðu ímyndaður ímyndi ímyndir ímyndið ímyndum ímynduð ímynduðu ímynduðum ímynduðuð
+21	1221	virðing	virðinga virðinganna virðingar virðingarinnar virðingarnar virðingin virðingu virðingum virðinguna virðingunni virðingunum
+22	1222	ræta	ræst rætandi rætast ræti rætir rætist rætið rætt rætta rættan rættar rætti rættir rættist rættra rættrar rættri rætts rættu rættum rættumst rættur rættust rættuð rætum rætumst
+23	1223	lykt	lykta lyktanna lyktar lyktarinnar lyktin lyktina lyktinni lyktir lyktirnar lyktum lyktunum
+24	1224	tönn	tanna tannanna tannar tannarinnar tennur tennurnar tönnin tönnina tönninni tönnum tönnunum
+25	1225	útlit	útliti útlitinu útlitið útlits útlitsins
+26	1226	atriði	atriða atriðanna atriðin atriðinu atriðis atriðisins atriðið atriðum atriðunum
+27	1227	þekking	þekkingar þekkingarinnar þekkingin þekkingu þekkinguna þekkingunni
+28	1228	band	banda bandanna bandi bandinu bandið bands bandsins bönd böndin böndum böndunum
+29	1229	endurtaka	endurtakandi endurtakast endurtaki endurtakir endurtakist endurtakið endurtaktu endurtek endurtekin endurtekinn endurtekinna endurtekinnar endurtekinni endurtekins endurtekist endurtekið endurtekna endurteknar endurtekni endurteknir endurteknu endurteknum endurtekst endurtekur endurtæki endurtækir endurtækist endurtækju endurtækjum endurtækjumst endurtækjust endurtækjuð endurtók endurtókst endurtóku endurtókum endurtókumst endurtókust endurtókuð endurtökum endurtökumst
+30	1230	milljarður	milljarð milljarða milljarðana milljarðanna milljarðar milljarðarnir milljarði milljarðinn milljarðinum milljarðs milljarðsins milljarðurinn milljörðum milljörðunum
+31	1231	persóna	persónan persónanna persónu persónum persónuna persónunnar persónunni persónunum persónur persónurnar
+32	1232	kynlíf	kynlífi kynlífinu kynlífið kynlífs kynlífsins
+33	1233	glas	glasa glasanna glasi glasinu glasið glass glassins glös glösin glösum glösunum
+34	1234	venjulega	venjulegast
+35	1235	kveðja	kvadda kvaddan kvaddar kvaddi kvaddir kvaddirðu kvaddra kvaddrar kvaddri kvadds kvaddur kvatt kveddi kveddir kveddirðu kveddu kveddum kvedduð kveð kveðjan kveðjandi kveðjanna kveðji kveðjir kveðjirðu kveðjið kveðju kveðjum kveðjuna kveðjunnar kveðjunni kveðjunum kveðjur kveðjurnar kveður kveðurðu kvödd kvöddu kvöddum kvödduð
+36	1236	kærasta	kærastan kærastanna kærastna kærastnanna kærustu kærustum kærustuna kærustunnar kærustunni kærustunum kærustur kærusturnar
+37	1237	kíkja	kíki kíkir kíkirðu kíkið kíkjandi kíkjum kíkt kíkti kíktir kíktirðu kíktu kíktum kíktuð
+38	1238	rífa	reif reifst reifstu rifi rifin rifinn rifinna rifinnar rifinni rifins rifir rifirðu rifið rifna rifnar rifni rifnir rifnu rifnum rifu rifum rifuð ríf rífandi rífi rífir rífirðu rífið rífum rífur rífurðu rífðu
+39	1239	biðjast	baðst baðstu beðist biðjist biðjumst biðst biðstu báðumst báðust bæðist bæðumst bæðust
+40	1240	leit	leita leitanna leitar leitarinnar leitin leitina leitinni leitir leitirnar leitum leitunum
+41	1241	hugsun	hugsana hugsananna hugsanir hugsanirnar hugsunar hugsunarinnar hugsunin hugsunina hugsuninni hugsunum hugsununum
+42	1242	foringi	foringinn foringja foringjana foringjann foringjanna foringjans foringjanum foringjar foringjarnir foringjum foringjunum
+43	1243	lausn	lausna lausnanna lausnar lausnarinnar lausnin lausnina lausninni lausnir lausnirnar lausnum lausnunum
+44	1244	vit	vita vitanna viti vitin vitinu vitið vits vitsins vitum vitunum
+45	1245	glæpur	glæp glæpa glæpanna glæpi glæpina glæpinn glæpir glæpirnir glæpnum glæps glæpsins glæpum glæpunum glæpurinn
+46	1246	innri	innra innst innsta innstan innstar innsti innstir innstra innstrar innstri innsts innstu innstum innstur
+47	1247	sýnast	sýndist sýndumst sýndust sýnist sýnst sýnumst
+48	1248	botn	botna botnana botnanna botnar botnarnir botni botninn botninum botns botnsins botnum botnunum
+49	1249	rísa	reis reist reistu risi risin risinn risinna risinnar risinni risins risir risirðu risið risna risnar risni risnir risnu risnum risu risum risuð rís rísandi rísi rísir rísirðu rísið ríst rístu rísum
+50	1250	leikari	leikara leikarana leikarann leikaranna leikarans leikaranum leikarar leikararnir leikarinn leikurum leikurunum
+51	1251	skrítinn	skrítin skrítinna skrítinnar skrítinni skrítins skrítið skrítna skrítnar skrítnara skrítnari skrítnast skrítnasta skrítnastan skrítnastar skrítnasti skrítnastir skrítnastra skrítnastrar skrítnastri skrítnasts skrítnastur skrítni skrítnir skrítnu skrítnum skrítnust skrítnustu skrítnustum
+52	1252	spá	spáa spái spáin spáir spáirðu spáist spáið spám spána spánna spánni spánum spár spárinnar spárnar spást spáum spáumst spáð spáði spáðir spáðirðu spáðist spáðst spáðu spáðum spáðumst spáðust spáðuð
+53	1253	nægur	næg næga nægan nægar nægara nægari nægast nægasta nægastan nægastar nægasti nægastir nægastra nægastrar nægastri nægasts nægastur nægi nægir nægra nægrar nægri nægs nægt nægu nægum nægust nægustu nægustum
+54	1254	tonn	tonna tonnanna tonni tonnin tonninu tonnið tonns tonnsins tonnum tonnunum
+55	1255	þjálfari	þjálfara þjálfarana þjálfarann þjálfaranna þjálfarans þjálfaranum þjálfarar þjálfararnir þjálfarinn þjálfurum þjálfurunum
+56	1256	ríkja	ríki ríkir ríkið ríkjandi ríkjum ríkt ríkti ríktir ríktu ríktum ríktuð
+57	1257	merkur	merk merka merkan merkar merkara merkari merkast merkasta merkastan merkastar merkasti merkastir merkastra merkastrar merkastri merkasts merkastur merki merkir merkra merkrar merkri merks merkt merku merkum merkust merkustu merkustum
+58	1258	tík	tíka tíkanna tíkar tíkarinnar tíkin tíkina tíkinni tíkum tíkunum tíkur tíkurinnar tíkurnar
+59	1259	hvaðan	
+60	1260	háls	hálsa hálsana hálsanna hálsar hálsarnir hálsi hálsinn hálsins hálsinum hálsum hálsunum
+61	1261	at	ata atanna ati atinu atið ats atsins öt ötin ötum ötunum
+62	1262	los	losa losanna losi losin losinu losið loss lossins losum losunum
+63	1263	veisla	veislan veislna veislnanna veislu veislum veisluna veislunnar veislunni veislunum veislur veislurnar
+64	1264	indæll	indæl indæla indælan indælar indælast indælasta indælastan indælastar indælasti indælastir indælastra indælastrar indælastri indælasts indælastur indæli indælir indælla indællar indælli indæls indælt indælu indælum indælust indælustu indælustum
+65	1265	eðlilegur	eðlileg eðlilega eðlilegan eðlilegar eðlilegast eðlilegasta eðlilegastan eðlilegastar eðlilegasti eðlilegastir eðlilegastra eðlilegastrar eðlilegastri eðlilegasts eðlilegastur eðlilegi eðlilegir eðlilegra eðlilegrar eðlilegri eðlilegs eðlilegt eðlilegu eðlilegum eðlilegust eðlilegustu eðlilegustum
+66	1266	tækni	tæknin tæknina tækninnar tækninni
+67	1267	reynsla	reynslan reynslu reynsluna reynslunnar reynslunni
+68	1268	trufla	truflandi truflar truflarðu truflast truflað truflaða truflaðan truflaðar truflaði truflaðir truflaðirðu truflaðist truflaðra truflaðrar truflaðri truflaðs truflaðu truflaður trufli truflir truflist truflið truflum truflumst trufluð trufluðu trufluðum trufluðumst trufluðust trufluðuð
+69	1269	gift	
+70	1270	fjölmiðill	fjölmiðil fjölmiðilinn fjölmiðillinn fjölmiðils fjölmiðilsins fjölmiðla fjölmiðlana fjölmiðlanna fjölmiðlar fjölmiðlarnir fjölmiðli fjölmiðlinum fjölmiðlum fjölmiðlunum
+71	1271	fullorðinn	fullorðin fullorðinna fullorðinnar fullorðinni fullorðins fullorðið fullorðna fullorðnar fullorðni fullorðnir fullorðnu fullorðnum
+72	1272	hæfileiki	hæfileika hæfileikana hæfileikann hæfileikanna hæfileikans hæfileikanum hæfileikar hæfileikarnir hæfileikinn hæfileikum hæfileikunum
+73	1273	krafa	krafan krafanna krafna krafnanna kröfu kröfum kröfuna kröfunnar kröfunni kröfunum kröfur kröfurnar
+74	1274	stjóri	stjóra stjórana stjórann stjóranna stjórans stjóranum stjórar stjórarnir stjórinn stjórum stjórunum
+75	1275	skrýtinn	skrýtin skrýtinna skrýtinnar skrýtinni skrýtins skrýtið skrýtna skrýtnar skrýtnara skrýtnari skrýtnast skrýtnasta skrýtnastan skrýtnastar skrýtnasti skrýtnastir skrýtnastra skrýtnastrar skrýtnastri skrýtnasts skrýtnastur skrýtni skrýtnir skrýtnu skrýtnum skrýtnust skrýtnustu skrýtnustum
+76	1276	eðli	eðlinu eðlis eðlisins eðlið
+77	1277	ljúfur	ljúf ljúfa ljúfan ljúfana ljúfanna ljúfar ljúfara ljúfari ljúfarnir ljúfast ljúfasta ljúfastan ljúfastar ljúfasti ljúfastir ljúfastra ljúfastrar ljúfastri ljúfasts ljúfastur ljúfi ljúfinn ljúfinum ljúfir ljúfnum ljúfra ljúfrar ljúfri ljúfs ljúfsins ljúft ljúfu ljúfum ljúfunum ljúfurinn ljúfust ljúfustu ljúfustum
+78	1278	frekur	frek freka frekan frekar frekara frekari frekast frekasta frekastan frekastar frekasti frekastir frekastra frekastrar frekastri frekasts frekastur freki frekir frekra frekrar frekri freks frekt freku frekum frekust frekustu frekustum
+79	1279	kenning	kenninga kenninganna kenningar kenningarinnar kenningarnar kenningin kenningu kenningum kenninguna kenningunni kenningunum
+80	1280	vöxtur	vaxta vaxtanna vaxtar vaxtarins vexti vextina vextinum vextir vextirnir vöxt vöxtinn vöxtu vöxtum vöxtunum vöxturinn
+81	1281	íþrótt	íþrótta íþróttanna íþróttar íþróttarinnar íþróttin íþróttina íþróttinni íþróttir íþróttirnar íþróttum íþróttunum
+82	1282	vaka	vakan vakandi vakanna vakað vaki vakir vakirðu vakið vakti vaktir vaktirðu vaktu vekti vektir vektu vektum vektuð vöktu vöktum vöktuð vöku vökum vökuna vökunnar vökunni vökunum vökur vökurnar
+83	1283	alur	al ala alanna ali alina alinn alir alirnir alnum als alsins alurinn ölum ölunum
+84	1284	vanur	vana vanan vanar vanara vanari vanast vanasta vanastan vanastar vanasti vanastir vanastra vanastrar vanastri vanasts vanastur vani vanir vanra vanrar vanri vans vant vön vönu vönum vönust vönustu vönustum
+85	1285	skuld	skulda skuldanna skuldar skuldarinnar skuldin skuldina skuldinni skuldir skuldirnar skuldum skuldunum
+86	1286	sýn	sýna sýnanna sýnar sýnarinnar sýnin sýnina sýninni sýnir sýnirnar sýnum sýnunum
+87	1287	diskur	disk diska diskana diskanna diskar diskarnir diski diskinn diskinum disknum disks disksins diskum diskunum diskurinn
+88	1288	eiginmaður	eiginmann eiginmanna eiginmannanna eiginmanni eiginmanninn eiginmanninum eiginmanns eiginmannsins eiginmaðurinn eiginmenn eiginmennina eiginmennirnir eiginmönnum eiginmönnunum
+89	1289	hreinsa	hreinsandi hreinsar hreinsast hreinsað hreinsaða hreinsaðan hreinsaðar hreinsaði hreinsaðir hreinsaðirðu hreinsaðist hreinsaðra hreinsaðrar hreinsaðri hreinsaðs hreinsaðu hreinsaður hreinsi hreinsir hreinsist hreinsið hreinsum hreinsumst hreinsuð hreinsuðu hreinsuðum hreinsuðumst hreinsuðust hreinsuðuð
+90	1290	framhjá	
+91	1291	greiði	greiða greiðana greiðann greiðanna greiðans greiðanum greiðar greiðarnir greiðinn greiðum greiðunum
+92	1292	yndislegur	yndisleg yndislega yndislegan yndislegar yndislegast yndislegasta yndislegastan yndislegastar yndislegasti yndislegastir yndislegastra yndislegastrar yndislegastri yndislegasts yndislegastur yndislegi yndislegir yndislegra yndislegrar yndislegri yndislegs yndislegt yndislegu yndislegum yndislegust yndislegustu yndislegustum
+93	1293	gjarna	helst
+94	1294	gagnvart	
+95	1295	tólf	tólfa tólfanna tólfin tólfum tólfunum
+96	1296	kafli	kafla kaflana kaflann kaflanna kaflans kaflanum kaflar kaflarnir kaflinn köflum köflunum
+97	1297	sáttur	sátt sátta sáttan sáttar sáttara sáttari sáttast sáttasta sáttastan sáttastar sáttasti sáttastir sáttastra sáttastrar sáttastri sáttasts sáttastur sátti sáttir sáttra sáttrar sáttri sátts sáttu sáttum sáttust sáttustu sáttustum sættirnar
+98	1298	eflaust	
+99	1299	myrkur	myrk myrka myrkan myrkar myrkara myrkari myrkast myrkasta myrkastan myrkastar myrkasti myrkastir myrkastra myrkastrar myrkastri myrkasts myrkastur myrki myrkir myrkra myrkranna myrkrar myrkri myrkrin myrkrinu myrkrið myrkrum myrkrunum myrks myrkt myrku myrkum myrkurs myrkursins myrkust myrkustu myrkustum
+100	1300	spenntur	spennt spennta spenntan spenntar spenntara spenntari spenntast spenntasta spenntastan spenntastar spenntasti spenntastir spenntastra spenntastrar spenntastri spenntasts spenntastur spennti spenntir spenntra spenntrar spenntri spennts spenntu spenntum spenntust spenntustu spenntustum

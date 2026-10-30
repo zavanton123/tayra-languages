@@ -1,0 +1,100 @@
+1	8901	síðdegi	síðdega síðdeganna síðdegin síðdeginu síðdegis síðdegisins síðdegið síðdegum síðdegunum
+2	8902	bel	bela belanna beli belin belinu belið bels belsins belum belunum
+3	8903	atvinnuskyn	atvinnuskyni
+4	8904	mangan	mangani manganinu manganið mangans mangansins
+5	8905	neytendastofa	
+6	8906	þorvarður	
+7	8907	niðurbrotinn	niðurbrotin niðurbrotinna niðurbrotinnar niðurbrotinni niðurbrotins niðurbrotið niðurbrotna niðurbrotnar niðurbrotnara niðurbrotnari niðurbrotnast niðurbrotnasta niðurbrotnastan niðurbrotnastar niðurbrotnasti niðurbrotnastir niðurbrotnastra niðurbrotnastrar niðurbrotnastri niðurbrotnasts niðurbrotnastur niðurbrotni niðurbrotnir niðurbrotnu niðurbrotnum niðurbrotnust niðurbrotnustu niðurbrotnustum
+8	8908	glæpasamtök	glæpasamtaka glæpasamtakanna glæpasamtökin glæpasamtökum glæpasamtökunum
+9	8909	skemmtiatriði	skemmtiatriða skemmtiatriðanna skemmtiatriðin skemmtiatriðinu skemmtiatriðis skemmtiatriðisins skemmtiatriðið skemmtiatriðum skemmtiatriðunum
+10	8910	stjórntæki	stjórntækin stjórntækinu stjórntækis stjórntækisins stjórntækið stjórntækja stjórntækjanna stjórntækjum stjórntækjunum
+11	8911	frestun	frestana frestananna frestanir frestanirnar frestunar frestunarinnar frestunin frestunina frestuninni frestunum frestununum
+12	8912	fjármálastofnun	fjármálastofnana fjármálastofnananna fjármálastofnanir fjármálastofnanirnar fjármálastofnunar fjármálastofnunarinnar fjármálastofnunin fjármálastofnunina fjármálastofnuninni fjármálastofnunum fjármálastofnununum
+13	8913	stærðfræðingur	stærðfræðing stærðfræðinga stærðfræðingana stærðfræðinganna stærðfræðingar stærðfræðingarnir stærðfræðingi stærðfræðinginn stærðfræðingnum stærðfræðings stærðfræðingsins stærðfræðingum stærðfræðingunum stærðfræðingurinn
+14	8914	peli	pela pelana pelann pelanna pelans pelanum pelar pelarnir pelinn pelum pelunum
+15	8915	rafstöð	rafstöðin rafstöðina rafstöðinni rafstöðva rafstöðvanna rafstöðvar rafstöðvarinnar rafstöðvarnar rafstöðvum rafstöðvunum
+16	8916	réttarkerfi	réttarkerfa réttarkerfanna réttarkerfin réttarkerfinu réttarkerfis réttarkerfisins réttarkerfið réttarkerfum réttarkerfunum
+17	8917	skyggni	skyggna skyggnanna skyggnin skyggnina skyggninnar skyggninni skyggninu skyggnis skyggnisins skyggnið skyggnum skyggnunum
+18	8918	smáskífa	smáskífan smáskífanna smáskífna smáskífnanna smáskífu smáskífum smáskífuna smáskífunnar smáskífunni smáskífunum smáskífur smáskífurnar
+19	8919	blindni	blindnin blindnina blindninnar blindninni
+20	8920	náttúruvísindi	náttúruvísinda náttúruvísindanna náttúruvísindin náttúruvísindum náttúruvísindunum
+21	8921	óslitið	
+22	8922	akademískur	akademísk akademíska akademískan akademískar akademískara akademískari akademískast akademískasta akademískastan akademískastar akademískasti akademískastir akademískastra akademískastrar akademískastri akademískasts akademískastur akademíski akademískir akademískra akademískrar akademískri akademísks akademískt akademísku akademískum akademískust akademískustu akademískustum
+23	8923	ferma	fermandi fermast fermd fermda fermdan fermdar fermdi fermdir fermdist fermdra fermdrar fermdri fermds fermdu fermdum fermdumst fermdur fermdust fermduð fermi fermir fermist fermið fermst fermt fermum fermumst
+24	8924	miðhálendi	miðhálendinu miðhálendis miðhálendisins miðhálendið
+25	8925	endurbygging	endurbygginga endurbygginganna endurbyggingar endurbyggingarinnar endurbyggingarnar endurbyggingin endurbyggingu endurbyggingum endurbygginguna endurbyggingunni endurbyggingunum
+26	8926	hlað	hlaða hlaðanna hlaði hlaðinu hlaðið hlaðs hlaðsins hlöð hlöðin hlöðum hlöðunum
+27	8927	brennidepill	brennidepil brennidepilinn brennidepillinn brennidepils brennidepilsins brennidepla brennideplana brennideplanna brennideplar brennideplarnir brennidepli brennideplinum brennideplum brennideplunum
+28	8928	jafnræði	jafnræðinu jafnræðis jafnræðisins jafnræðið
+29	8929	múli	múla múlana múlann múlanna múlans múlanum múlar múlarnir múlinn múlum múlunum
+30	8930	ötull	ötul ötula ötulan ötular ötulast ötulasta ötulastan ötulastar ötulasti ötulastir ötulastra ötulastrar ötulastri ötulasts ötulastur ötuli ötulir ötulla ötullar ötulli ötuls ötult ötulu ötulum ötulust ötulustu ötulustum
+31	8931	tjaldsvæði	tjaldsvæða tjaldsvæðanna tjaldsvæðin tjaldsvæðinu tjaldsvæðis tjaldsvæðisins tjaldsvæðið tjaldsvæðum tjaldsvæðunum
+32	8932	lúður	lúð lúða lúðan lúðar lúðara lúðari lúðast lúðasta lúðastan lúðastar lúðasti lúðastir lúðastra lúðastrar lúðastri lúðasts lúðastur lúðir lúðra lúðrana lúðranna lúðrar lúðrarnir lúðri lúðrinum lúðrum lúðrunum lúðs lúðu lúðum lúðurinn lúðurs lúðursins lúðust lúðustu lúðustum
+33	8933	ryðfrír	ryðfrí ryðfría ryðfrían ryðfríar ryðfríast ryðfríasta ryðfríastan ryðfríastar ryðfríasti ryðfríastir ryðfríastra ryðfríastrar ryðfríastri ryðfríasts ryðfríastur ryðfríi ryðfríir ryðfrírra ryðfrírrar ryðfrírri ryðfrís ryðfrítt ryðfríu ryðfríum ryðfríust ryðfríustu ryðfríustum
+34	8934	endastöð	endastöðin endastöðina endastöðinni endastöðva endastöðvanna endastöðvar endastöðvarinnar endastöðvarnar endastöðvum endastöðvunum
+35	8935	fótgöngulið	fótgönguliða fótgönguliðanna fótgönguliði fótgönguliðin fótgönguliðinu fótgönguliðið fótgönguliðs fótgönguliðsins fótgönguliðum fótgönguliðunum
+36	8936	glóð	glæðum glæðunum glæður glæðurnar glóða glóðanna glóðar glóðarinnar glóðin glóðina glóðinni glóðir glóðirnar glóðum glóðunum
+37	8937	skiptinemi	skiptinema skiptinemana skiptinemann skiptinemanna skiptinemans skiptinemanum skiptinemar skiptinemarnir skiptineminn skiptinemum skiptinemunum
+38	8938	fylginn	fylgin fylginna fylginnar fylginni fylgins fylgið fylgna fylgnar fylgnara fylgnari fylgnast fylgnasta fylgnastan fylgnastar fylgnasti fylgnastir fylgnastra fylgnastrar fylgnastri fylgnasts fylgnastur fylgni fylgnir fylgnu fylgnum fylgnust fylgnustu fylgnustum
+39	8939	gramsa	gramsandi gramsar gramsarðu gramsast gramsað gramsaði gramsaðir gramsaðist gramsaðu gramsi gramsir gramsist gramsið grömsum grömsumst grömsuðu grömsuðum grömsuðumst grömsuðust grömsuðuð
+40	8940	dugnaður	dugnað dugnaðar dugnaðarins dugnaði dugnaðinn dugnaðinum dugnaðnum dugnaðurinn
+41	8941	happdrætti	happdrætta happdrættanna happdrættin happdrættinu happdrættis happdrættisins happdrættið happdrættum happdrættunum
+42	8942	hnýta	hnýst hnýtandi hnýtast hnýti hnýtir hnýtist hnýtið hnýtt hnýtta hnýttan hnýttar hnýtti hnýttir hnýttist hnýttra hnýttrar hnýttri hnýtts hnýttu hnýttum hnýttumst hnýttur hnýttust hnýttuð hnýtum hnýtumst
+43	8943	gjaldeyrir	gjaldeyri gjaldeyrinn gjaldeyrinum gjaldeyririnn gjaldeyris gjaldeyrisins
+44	8944	baráttumaður	baráttumann baráttumanna baráttumannanna baráttumanni baráttumanninn baráttumanninum baráttumanns baráttumannsins baráttumaðurinn baráttumenn baráttumennina baráttumennirnir baráttumönnum baráttumönnunum
+45	8945	leikmynd	leikmynda leikmyndanna leikmyndar leikmyndarinnar leikmyndin leikmyndina leikmyndinni leikmyndir leikmyndirnar leikmyndum leikmyndunum
+46	8946	sjálfsdáðir	sjálfsdáðum
+47	8947	útdeila	útdeilandi útdeilast útdeild útdeilda útdeildan útdeildar útdeildi útdeildir útdeildist útdeildra útdeildrar útdeildri útdeilds útdeildu útdeildum útdeildumst útdeildur útdeildust útdeilduð útdeili útdeilir útdeilist útdeilið útdeilst útdeilt útdeilum útdeilumst
+48	8948	vindátt	vindátta vindáttanna vindáttar vindáttarinnar vindáttin vindáttina vindáttinni vindáttir vindáttirnar vindáttum vindáttunum
+49	8949	leifa	leifandi leifast leifi leifir leifist leifið leifst leift leifum leifumst leifð leifða leifðan leifðar leifði leifðir leifðist leifðra leifðrar leifðri leifðs leifðu leifðum leifðumst leifður leifðust leifðuð
+50	8950	svampur	svamp svampa svampana svampanna svampar svamparnir svampi svampinn svampinum svamps svampsins svampurinn svömpum svömpunum
+51	8951	sement	sementi sementinu sementið sements sementsins
+52	8952	yfirþyrmandi	
+53	8953	tómstundagaman	tómstundagamanið tómstundagamans tómstundagamansins tómstundagamni tómstundagamninu tómstundagamnið
+54	8954	þeta	þetan þetanna þetu þetum þetuna þetunnar þetunni þetunum þetur þeturnar
+55	8955	kjánaskapur	kjánaskap kjánaskapar kjánaskaparins kjánaskapinn kjánaskapnum kjánaskapurinn
+56	8956	draumalið	draumaliða draumaliðanna draumaliði draumaliðin draumaliðinu draumaliðið draumaliðs draumaliðsins draumaliðum draumaliðunum
+57	8957	hænsn	hænsna hænsnanna hænsni hænsnin hænsninu hænsnið hænsns hænsnsins hænsnum hænsnunum
+58	8958	búðingur	búðing búðinga búðingana búðinganna búðingar búðingarnir búðingi búðinginn búðingnum búðings búðingsins búðingum búðingunum búðingurinn
+59	8959	stjúpfaðir	stjúpfaðirinn stjúpfeðra stjúpfeðranna stjúpfeðrum stjúpfeðrunum stjúpfeður stjúpfeðurna stjúpfeðurnir stjúpföður stjúpföðurinn stjúpföðurins stjúpföðurnum
+60	8960	nýgiftur	nýgift nýgifta nýgiftan nýgiftar nýgifti nýgiftir nýgiftra nýgiftrar nýgiftri nýgifts nýgiftu nýgiftum
+61	8961	óraunverulegur	óraunveruleg óraunverulega óraunverulegan óraunverulegar óraunverulegast óraunverulegasta óraunverulegastan óraunverulegastar óraunverulegasti óraunverulegastir óraunverulegastra óraunverulegastrar óraunverulegastri óraunverulegasts óraunverulegastur óraunverulegi óraunverulegir óraunverulegra óraunverulegrar óraunverulegri óraunverulegs óraunverulegt óraunverulegu óraunverulegum óraunverulegust óraunverulegustu óraunverulegustum
+62	8962	viðvörunarkerfi	viðvörunarkerfa viðvörunarkerfanna viðvörunarkerfin viðvörunarkerfinu viðvörunarkerfis viðvörunarkerfisins viðvörunarkerfið viðvörunarkerfum viðvörunarkerfunum
+63	8963	blotna	blotnandi blotnar blotnarðu blotnað blotnaði blotnaðir blotnaðirðu blotnaðu blotni blotnir blotnið blotnum blotnuðu blotnuðum blotnuðuð
+64	8964	persónutöfrar	persónutöfra persónutöfrana persónutöfranna persónutöfrarnir persónutöfrum persónutöfrunum
+65	8965	kaldrifjaður	kaldrifjað kaldrifjaða kaldrifjaðan kaldrifjaðar kaldrifjaðast kaldrifjaðasta kaldrifjaðastan kaldrifjaðastar kaldrifjaðasti kaldrifjaðastir kaldrifjaðastra kaldrifjaðastrar kaldrifjaðastri kaldrifjaðasts kaldrifjaðastur kaldrifjaði kaldrifjaðir kaldrifjaðra kaldrifjaðrar kaldrifjaðri kaldrifjaðs kaldrifjuð kaldrifjuðu kaldrifjuðum kaldrifjuðust kaldrifjuðustu kaldrifjuðustum
+66	8966	kastari	kastara kastarana kastarann kastaranna kastarans kastaranum kastarar kastararnir kastarinn kösturum kösturunum
+67	8967	lyfseðill	lyfseðil lyfseðilinn lyfseðillinn lyfseðils lyfseðilsins lyfseðla lyfseðlana lyfseðlanna lyfseðlar lyfseðlarnir lyfseðli lyfseðlinum lyfseðlum lyfseðlunum
+68	8968	hóa	hóandi hóar hóast hóað hóaða hóaðan hóaðar hóaði hóaðir hóaðist hóaðra hóaðrar hóaðri hóaðs hóaðu hóaður hói hóir hóist hóið hóum hóumst hóuð hóuðu hóuðum hóuðumst hóuðust hóuðuð
+69	8969	æsilegur	æsileg æsilega æsilegan æsilegar æsilegast æsilegasta æsilegastan æsilegastar æsilegasti æsilegastir æsilegastra æsilegastrar æsilegastri æsilegasts æsilegastur æsilegi æsilegir æsilegra æsilegrar æsilegri æsilegs æsilegt æsilegu æsilegum æsilegust æsilegustu æsilegustum
+70	8970	hagræða	hagrædd hagrædda hagræddan hagræddar hagræddi hagræddir hagræddist hagræddra hagræddrar hagræddri hagrædds hagræddu hagræddum hagræddumst hagræddur hagræddust hagrædduð hagrætt hagræðandi hagræðast hagræði hagræðir hagræðist hagræðið hagræðst hagræðum hagræðumst
+71	8971	forstaða	forstaðan forstöðu forstöðuna forstöðunnar forstöðunni
+72	8972	skjaldborg	skjaldborga skjaldborganna skjaldborgar skjaldborgarinnar skjaldborgin skjaldborgina skjaldborginni skjaldborgir skjaldborgirnar skjaldborgum skjaldborgunum
+73	8973	lofthjúpur	lofthjúp lofthjúpa lofthjúpana lofthjúpanna lofthjúpar lofthjúparnir lofthjúpi lofthjúpinn lofthjúpnum lofthjúps lofthjúpsins lofthjúpum lofthjúpunum lofthjúpurinn
+74	8974	lakur	laka lakan lakar lakara lakari lakast lakasta lakastan lakastar lakasti lakastir lakastra lakastrar lakastri lakasts lakastur laki lakir lakra lakrar lakri laks lakt lök löku lökum lökust lökustu lökustum
+75	8975	starfsár	starfsára starfsáranna starfsári starfsárin starfsárinu starfsárið starfsárs starfsársins starfsárum starfsárunum
+76	8976	filippus	
+77	8977	trommuleikari	trommuleikara trommuleikarana trommuleikarann trommuleikaranna trommuleikarans trommuleikaranum trommuleikarar trommuleikararnir trommuleikarinn trommuleikurum trommuleikurunum
+78	8978	heimþrá	heimþráin heimþrána heimþránni heimþrár heimþrárinnar
+79	8979	útvarpa	útvarpandi útvarpar útvarpast útvarpað útvarpaða útvarpaðan útvarpaðar útvarpaði útvarpaðir útvarpaðist útvarpaðra útvarpaðrar útvarpaðri útvarpaðs útvarpaðu útvarpaður útvarpi útvarpir útvarpist útvarpið útvörpum útvörpumst útvörpuð útvörpuðu útvörpuðum útvörpuðumst útvörpuðust útvörpuðuð
+80	8980	óaðskiljanlegur	óaðskiljanleg óaðskiljanlega óaðskiljanlegan óaðskiljanlegar óaðskiljanlegast óaðskiljanlegasta óaðskiljanlegastan óaðskiljanlegastar óaðskiljanlegasti óaðskiljanlegastir óaðskiljanlegastra óaðskiljanlegastrar óaðskiljanlegastri óaðskiljanlegasts óaðskiljanlegastur óaðskiljanlegi óaðskiljanlegir óaðskiljanlegra óaðskiljanlegrar óaðskiljanlegri óaðskiljanlegs óaðskiljanlegt óaðskiljanlegu óaðskiljanlegum óaðskiljanlegust óaðskiljanlegustu óaðskiljanlegustum
+81	8981	flugleið	flugleiða flugleiðanna flugleiðar flugleiðarinnar flugleiðin flugleiðina flugleiðinni flugleiðir flugleiðirnar flugleiðum flugleiðunum
+82	8982	dunda	dundandi dundar dundast dundað dundaða dundaðan dundaðar dundaði dundaðir dundaðist dundaðra dundaðrar dundaðri dundaðs dundaðu dundaður dundi dundir dundist dundið dundum dundumst dunduð dunduðu dunduðum dunduðumst dunduðust dunduðuð
+83	8983	evrusvæði	evrusvæða evrusvæðanna evrusvæðin evrusvæðinu evrusvæðis evrusvæðisins evrusvæðið evrusvæðum evrusvæðunum
+84	8984	réttlætanlegur	réttlætanleg réttlætanlega réttlætanlegan réttlætanlegar réttlætanlegast réttlætanlegasta réttlætanlegastan réttlætanlegastar réttlætanlegasti réttlætanlegastir réttlætanlegastra réttlætanlegastrar réttlætanlegastri réttlætanlegasts réttlætanlegastur réttlætanlegi réttlætanlegir réttlætanlegra réttlætanlegrar réttlætanlegri réttlætanlegs réttlætanlegt réttlætanlegu réttlætanlegum réttlætanlegust réttlætanlegustu réttlætanlegustum
+85	8985	píslarvottur	píslarvott píslarvotta píslarvottana píslarvottanna píslarvottar píslarvottarnir píslarvotti píslarvottinn píslarvottinum píslarvotts píslarvottsins píslarvottum píslarvottunum píslarvotturinn
+86	8986	fangabúðir	fangabúða fangabúðanna fangabúðirnar fangabúðum fangabúðunum
+87	8987	látlaus	látlausa látlausan látlausar látlausara látlausari látlausast látlausasta látlausastan látlausastar látlausasti látlausastir látlausastra látlausastrar látlausastri látlausasts látlausastur látlausi látlausir látlausra látlausrar látlausri látlauss látlaust látlausu látlausum látlausust látlausustu látlausustum
+88	8988	skólagjald	skólagjalda skólagjaldanna skólagjaldi skólagjaldinu skólagjaldið skólagjalds skólagjaldsins skólagjöld skólagjöldin skólagjöldum skólagjöldunum
+89	8989	forleikur	forleik forleiki forleikina forleikinn forleikir forleikirnir forleikja forleikjanna forleikjum forleikjunum forleiknum forleiks forleiksins forleikurinn
+90	8990	töng	tanga tanganna tangar tangarinnar tangir tangirnar tengur tengurnar töngin töngina tönginni töngum töngunum
+91	8991	myndmál	myndmáli myndmálinu myndmálið myndmáls myndmálsins
+92	8992	ofurlið	ofurliði
+93	8993	sálrænn	sálræn sálræna sálrænan sálrænar sálrænast sálrænasta sálrænastan sálrænastar sálrænasti sálrænastir sálrænastra sálrænastrar sálrænastri sálrænasts sálrænastur sálræni sálrænir sálrænna sálrænnar sálrænni sálræns sálrænt sálrænu sálrænum sálrænust sálrænustu sálrænustum
+94	8994	dánartíðni	dánartíðnin dánartíðnina dánartíðninnar dánartíðninni
+95	8995	fjármálastarfsemi	fjármálastarfsemin fjármálastarfsemina fjármálastarfseminnar fjármálastarfseminni
+96	8996	forganga	forgangan forgöngu forgönguna forgöngunnar forgöngunni
+97	8997	hvatamaður	hvatamann hvatamanna hvatamannanna hvatamanni hvatamanninn hvatamanninum hvatamanns hvatamannsins hvatamaðurinn hvatamenn hvatamennina hvatamennirnir hvatamönnum hvatamönnunum
+98	8998	síðsumars	
+99	8999	meistaramót	meistaramóta meistaramótanna meistaramóti meistaramótin meistaramótinu meistaramótið meistaramóts meistaramótsins meistaramótum meistaramótunum
+100	9000	rák	ráka rákanna rákar rákarinnar rákin rákina rákinni rákir rákirnar rákum rákunum

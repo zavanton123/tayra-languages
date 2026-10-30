@@ -1,0 +1,100 @@
+1	8801	ljóðlist	ljóðlistar ljóðlistarinnar ljóðlistin ljóðlistina ljóðlistinni
+2	8802	loftþrýstingur	loftþrýsting loftþrýstingi loftþrýstinginn loftþrýstingnum loftþrýstings loftþrýstingsins loftþrýstingurinn
+3	8803	skyndi	skyndinu skyndis skyndisins skyndið
+4	8804	landi	landa landana landann landanna landans landanum landar landarnir landað landaði landinn löndum löndunum
+5	8805	boði	boða boðana boðann boðanna boðans boðanum boðar boðarnir boðinn boðum boðunum
+6	8806	viðmiðun	viðmiðana viðmiðananna viðmiðanir viðmiðanirnar viðmiðunar viðmiðunarinnar viðmiðunin viðmiðunina viðmiðuninni viðmiðunum viðmiðununum
+7	8807	láki	láka lákana lákann lákanna lákans lákanum lákar lákarnir lákinn lákum lákunum
+8	8808	hljómgrunnur	hljómgrunn
+9	8809	kynþroski	kynþroska kynþroskann kynþroskans kynþroskanum kynþroskinn
+10	8810	hrútur	hrút hrúta hrútana hrútanna hrútar hrútarnir hrúti hrútinn hrútnum hrúts hrútsins hrútum hrútunum hrúturinn
+11	8811	landbúnaðarháskóli	landbúnaðarháskóla landbúnaðarháskólana landbúnaðarháskólann landbúnaðarháskólanna landbúnaðarháskólans landbúnaðarháskólanum landbúnaðarháskólar landbúnaðarháskólarnir landbúnaðarháskólinn landbúnaðarháskólum landbúnaðarháskólunum
+12	8812	fjölhæfur	fjölhæf fjölhæfa fjölhæfan fjölhæfar fjölhæfara fjölhæfari fjölhæfast fjölhæfasta fjölhæfastan fjölhæfastar fjölhæfasti fjölhæfastir fjölhæfastra fjölhæfastrar fjölhæfastri fjölhæfasts fjölhæfastur fjölhæfi fjölhæfir fjölhæfra fjölhæfrar fjölhæfri fjölhæfs fjölhæft fjölhæfu fjölhæfum fjölhæfust fjölhæfustu fjölhæfustum
+13	8813	fréttabréf	fréttabréfa fréttabréfanna fréttabréfi fréttabréfin fréttabréfinu fréttabréfið fréttabréfs fréttabréfsins fréttabréfum fréttabréfunum
+14	8814	erfðafræðilegur	erfðafræðileg erfðafræðilega erfðafræðilegan erfðafræðilegar erfðafræðilegi erfðafræðilegir erfðafræðilegra erfðafræðilegrar erfðafræðilegri erfðafræðilegs erfðafræðilegt erfðafræðilegu erfðafræðilegum
+15	8815	háseti	háseta hásetana hásetann hásetanna hásetans hásetanum hásetar hásetarnir hásetinn hásetum hásetunum
+16	8816	þari	þara þarana þarann þaranna þarans þaranum þarar þararnir þarinn þörum þörunum
+17	8817	riða	riðan riðandi riðar riðast riðað riðaða riðaðan riðaðar riðaði riðaðir riðaðist riðaðra riðaðrar riðaðri riðaðs riðaðu riðaður riði riðir riðist riðið riðu riðum riðumst riðuna riðunnar riðunni riðuð riðuðu riðuðum riðuðumst riðuðust riðuðuð
+18	8818	stórvirkur	stórvirk stórvirka stórvirkan stórvirkar stórvirkara stórvirkari stórvirkast stórvirkasta stórvirkastan stórvirkastar stórvirkasti stórvirkastir stórvirkastra stórvirkastrar stórvirkastri stórvirkasts stórvirkastur stórvirki stórvirkir stórvirkra stórvirkrar stórvirkri stórvirks stórvirkt stórvirku stórvirkum stórvirkust stórvirkustu stórvirkustum
+19	8819	bragðbæta	bragðbæti bragðbætir bragðbætið bragðbætt bragðbætta bragðbættan bragðbættar bragðbætti bragðbættir bragðbættra bragðbættrar bragðbættri bragðbætts bragðbættu bragðbættum bragðbættur bragðbættuð bragðbætum
+20	8820	nafngift	nafngifta nafngiftanna nafngiftar nafngiftarinnar nafngiftin nafngiftina nafngiftinni nafngiftir nafngiftirnar nafngiftum nafngiftunum
+21	8821	leiktími	leiktíma leiktímann leiktímans leiktímanum leiktíminn
+22	8822	fimmtungur	fimmtung fimmtunga fimmtungana fimmtunganna fimmtungar fimmtungarnir fimmtungi fimmtunginn fimmtungnum fimmtungs fimmtungsins fimmtungum fimmtungunum fimmtungurinn
+23	8823	buff	buffa buffanna buffi buffin buffinu buffið buffs buffsins buffum buffunum
+24	8824	eftirlitsmaður	eftirlitsmann eftirlitsmanna eftirlitsmannanna eftirlitsmanni eftirlitsmanninn eftirlitsmanninum eftirlitsmanns eftirlitsmannsins eftirlitsmaðurinn eftirlitsmenn eftirlitsmennina eftirlitsmennirnir eftirlitsmönnum eftirlitsmönnunum
+25	8825	skrapa	skrapan skrapandi skrapanna skrapar skrapast skrapað skrapaða skrapaðan skrapaðar skrapaði skrapaðir skrapaðist skrapaðra skrapaðrar skrapaðri skrapaðs skrapaðu skrapaður skrapi skrapir skrapist skrapið skrapna skrapnanna skröpu skröpum skröpumst skröpuna skröpunnar skröpunni skröpunum skröpur skröpurnar skröpuð skröpuðu skröpuðum skröpuðumst skröpuðust skröpuðuð
+26	8826	samstilla	samstillandi samstillast samstilli samstillir samstillist samstillið samstillst samstillt samstillta samstilltan samstilltar samstillti samstilltir samstilltist samstilltra samstilltrar samstilltri samstillts samstilltu samstilltum samstilltumst samstilltur samstilltust samstilltuð samstillum samstillumst
+27	8827	saltfiskur	saltfisk saltfiska saltfiskana saltfiskanna saltfiskar saltfiskarnir saltfiski saltfiskinn saltfiskinum saltfisknum saltfisks saltfisksins saltfiskum saltfiskunum saltfiskurinn
+28	8828	yfirfara	yfirfarandi yfirfari yfirfarin yfirfarinn yfirfarinna yfirfarinnar yfirfarinni yfirfarins yfirfarir yfirfarið yfirfarna yfirfarnar yfirfarni yfirfarnir yfirfarðu yfirfer yfirferð yfirfæri yfirfærir yfirfæru yfirfærum yfirfæruð yfirfór yfirfórst yfirfóru yfirfórum yfirfóruð yfirförnu yfirförnum yfirförum
+29	8829	freta	fretandi fretar fretast fretað fretaði fretaðir fretaðirðu fretaðist fretaðu freti fretir fretist fretið fretum fretumst fretuðu fretuðum fretuðumst fretuðust fretuðuð
+30	8830	garðabrúða	garðabrúðan garðabrúðanna garðabrúðna garðabrúðnanna garðabrúðu garðabrúðum garðabrúðuna garðabrúðunnar garðabrúðunni garðabrúðunum garðabrúður garðabrúðurnar
+31	8831	viddi	
+32	8832	byssuskot	byssuskota byssuskotanna byssuskoti byssuskotin byssuskotinu byssuskotið byssuskots byssuskotsins byssuskotum byssuskotunum
+33	8833	hvatvís	hvatvísa hvatvísan hvatvísar hvatvísara hvatvísari hvatvísast hvatvísasta hvatvísastan hvatvísastar hvatvísasti hvatvísastir hvatvísastra hvatvísastrar hvatvísastri hvatvísasts hvatvísastur hvatvísi hvatvísir hvatvísra hvatvísrar hvatvísri hvatvíss hvatvíst hvatvísu hvatvísum hvatvísust hvatvísustu hvatvísustum
+34	8834	bragðgóður	bragðbest bragðbesta bragðbestan bragðbestar bragðbesti bragðbestir bragðbestra bragðbestrar bragðbestri bragðbests bragðbestu bragðbestum bragðbestur bragðbetra bragðbetri bragðgott bragðgóð bragðgóða bragðgóðan bragðgóðar bragðgóði bragðgóðir bragðgóðra bragðgóðrar bragðgóðri bragðgóðs bragðgóðu bragðgóðum
+35	8835	eðlisávísun	eðlisávísunar eðlisávísunarinnar eðlisávísunin eðlisávísunina eðlisávísuninni
+36	8836	hreykinn	hreykin hreykinna hreykinnar hreykinni hreykins hreykið hreykna hreyknar hreyknara hreyknari hreyknast hreyknasta hreyknastan hreyknastar hreyknasti hreyknastir hreyknastra hreyknastrar hreyknastri hreyknasts hreyknastur hreykni hreyknir hreyknu hreyknum hreyknust hreyknustu hreyknustum
+37	8837	milljónamæringur	milljónamæring milljónamæringa milljónamæringana milljónamæringanna milljónamæringar milljónamæringarnir milljónamæringi milljónamæringinn milljónamæringnum milljónamærings milljónamæringsins milljónamæringum milljónamæringunum milljónamæringurinn
+38	8838	þýfi	þýfinu þýfis þýfisins þýfið
+39	8839	náðugur	náðug náðuga náðugan náðugar náðugast náðugasta náðugastan náðugastar náðugasti náðugastir náðugastra náðugastrar náðugastri náðugasts náðugastur náðugi náðugir náðugra náðugrar náðugri náðugs náðugt náðugu náðugum náðugust náðugustu náðugustum
+40	8840	gullhamrar	gullhamra gullhamrana gullhamranna gullhamrarnir gullhömrum gullhömrunum
+41	8841	hughreysta	hughreyst hughreystan hughreystandi hughreystar hughreystast hughreysti hughreystir hughreystist hughreystið hughreystra hughreystrar hughreystri hughreysts hughreystu hughreystum hughreystumst hughreystur hughreystust hughreystuð
+42	8842	dauðadómur	dauðadóm dauðadóma dauðadómana dauðadómanna dauðadómar dauðadómarnir dauðadómi dauðadóminn dauðadóminum dauðadómnum dauðadóms dauðadómsins dauðadómum dauðadómunum dauðadómurinn
+43	8843	borðstofa	borðstofan borðstofanna borðstofu borðstofum borðstofuna borðstofunnar borðstofunni borðstofunum borðstofur borðstofurnar
+44	8844	púði	púða púðana púðann púðanna púðans púðanum púðar púðarnir púðinn púðum púðunum
+45	8845	niðurtalning	niðurtalningar niðurtalningarinnar niðurtalningin niðurtalningu niðurtalninguna niðurtalningunni
+46	8846	kókoshneta	kókoshnetan kókoshnetanna kókoshnetu kókoshnetum kókoshnetuna kókoshnetunnar kókoshnetunni kókoshnetunum kókoshnetur kókoshneturnar
+47	8847	blússa	blússan blússandi blússanna blússar blússast blússað blússaða blússaðan blússaðar blússaði blússaðir blússaðist blússaðra blússaðrar blússaðri blússaðs blússaðu blússaður blússi blússir blússist blússið blússna blússnanna blússu blússum blússumst blússuna blússunnar blússunni blússunum blússur blússurnar blússuð blússuðu blússuðum blússuðumst blússuðust blússuðuð
+48	8848	hækja	hækjan hækjanna hækju hækjum hækjuna hækjunnar hækjunni hækjunum hækjur hækjurnar
+49	8849	hommalegur	hommaleg hommalega hommalegan hommalegar hommalegast hommalegasta hommalegastan hommalegastar hommalegasti hommalegastir hommalegastra hommalegastrar hommalegastri hommalegasts hommalegastur hommalegi hommalegir hommalegra hommalegrar hommalegri hommalegs hommalegt hommalegu hommalegum hommalegust hommalegustu hommalegustum
+50	8850	hlunkur	hlunk hlunka hlunkana hlunkanna hlunkar hlunkarnir hlunki hlunkinn hlunkinum hlunknum hlunks hlunksins hlunkum hlunkunum hlunkurinn
+51	8851	kónguló	kóngulær kóngulærnar kóngulóa kóngulóar kóngulóarinnar kóngulóin kóngulóm kóngulóna kóngulónna kóngulónni kóngulónum
+52	8852	varnarmálaráðuneyti	varnarmálaráðuneyta varnarmálaráðuneytanna varnarmálaráðuneytin varnarmálaráðuneytinu varnarmálaráðuneytis varnarmálaráðuneytisins varnarmálaráðuneytið varnarmálaráðuneytum varnarmálaráðuneytunum
+53	8853	naðra	naðran naðranna nöðru nöðrum nöðruna nöðrunnar nöðrunni nöðrunum nöðrur nöðrurnar
+54	8854	blóðflokkur	blóðflokk blóðflokka blóðflokkana blóðflokkanna blóðflokkar blóðflokkarnir blóðflokki blóðflokkinn blóðflokknum blóðflokks blóðflokksins blóðflokkum blóðflokkunum blóðflokkurinn
+55	8855	stjórnklefi	stjórnklefa stjórnklefana stjórnklefann stjórnklefanna stjórnklefans stjórnklefanum stjórnklefar stjórnklefarnir stjórnklefinn stjórnklefum stjórnklefunum
+56	8856	talnaröð	talnaraða talnaraðanna talnaraðar talnaraðarinnar talnaraðir talnaraðirnar talnaröðin talnaröðina talnaröðinni talnaröðum talnaröðunum
+57	8857	taugaveiklaður	taugaveiklað taugaveiklaða taugaveiklaðan taugaveiklaðar taugaveiklaðast taugaveiklaðasta taugaveiklaðastan taugaveiklaðastar taugaveiklaðasti taugaveiklaðastir taugaveiklaðastra taugaveiklaðastrar taugaveiklaðastri taugaveiklaðasts taugaveiklaðastur taugaveiklaði taugaveiklaðir taugaveiklaðra taugaveiklaðrar taugaveiklaðri taugaveiklaðs taugaveikluð taugaveikluðu taugaveikluðum taugaveikluðust taugaveikluðustu taugaveikluðustum
+58	8858	roðna	roðnandi roðnar roðnarðu roðnað roðnaði roðnaðir roðnaðu roðni roðnir roðnið roðnum roðnuðu roðnuðum roðnuðuð
+59	8859	marblettur	marblett marbletta marblettanna marbletti marblettina marblettinn marblettinum marblettir marblettirnir marbletts marblettsins marblettum marblettunum marbletturinn
+60	8860	mannlaus	mannlausa mannlausan mannlausar mannlausara mannlausari mannlausast mannlausasta mannlausastan mannlausastar mannlausasti mannlausastir mannlausastra mannlausastrar mannlausastri mannlausasts mannlausastur mannlausi mannlausir mannlausra mannlausrar mannlausri mannlauss mannlaust mannlausu mannlausum mannlausust mannlausustu mannlausustum
+61	8861	sjóliði	sjóliða sjóliðana sjóliðann sjóliðanna sjóliðans sjóliðanum sjóliðar sjóliðarnir sjóliðinn sjóliðum sjóliðunum
+62	8862	afbrotamaður	afbrotamann afbrotamanna afbrotamannanna afbrotamanni afbrotamanninn afbrotamanninum afbrotamanns afbrotamannsins afbrotamaðurinn afbrotamenn afbrotamennina afbrotamennirnir afbrotamönnum afbrotamönnunum
+63	8863	jafngóður	jafngott jafngóð jafngóða jafngóðan jafngóðar jafngóði jafngóðir jafngóðra jafngóðrar jafngóðri jafngóðs jafngóðu jafngóðum
+64	8864	blóðprufa	blóðprufan blóðprufanna blóðprufu blóðprufum blóðprufuna blóðprufunnar blóðprufunni blóðprufunum blóðprufur blóðprufurnar
+65	8865	gullfiskur	gullfisk gullfiska gullfiskana gullfiskanna gullfiskar gullfiskarnir gullfiski gullfiskinn gullfiskinum gullfisknum gullfisks gullfisksins gullfiskum gullfiskunum gullfiskurinn
+66	8866	vasaklútur	vasaklút vasaklúta vasaklútana vasaklútanna vasaklútar vasaklútarnir vasaklúti vasaklútinn vasaklútnum vasaklúts vasaklútsins vasaklútum vasaklútunum vasaklúturinn
+67	8867	forljótur	forljót forljóta forljótan forljótar forljóti forljótir forljótra forljótrar forljótri forljóts forljótt forljótu forljótum
+68	8868	glæstur	glæst glæsta glæstan glæstar glæstara glæstari glæstast glæstasta glæstastan glæstastar glæstasti glæstastir glæstastra glæstastrar glæstastri glæstasts glæstastur glæsti glæstir glæstra glæstrar glæstri glæsts glæstu glæstum glæstust glæstustu glæstustum
+69	8869	veiðiþjófur	veiðiþjóf veiðiþjófa veiðiþjófana veiðiþjófanna veiðiþjófar veiðiþjófarnir veiðiþjófi veiðiþjófinn veiðiþjófnum veiðiþjófs veiðiþjófsins veiðiþjófum veiðiþjófunum veiðiþjófurinn
+70	8870	krumpa	krumpan krumpandi krumpanna krumpar krumpast krumpað krumpaða krumpaðan krumpaðar krumpaði krumpaðir krumpaðist krumpaðra krumpaðrar krumpaðri krumpaðs krumpaðu krumpaður krumpi krumpir krumpist krumpið krumpna krumpnanna krumpu krumpum krumpumst krumpuna krumpunnar krumpunni krumpunum krumpur krumpurnar krumpuð krumpuðu krumpuðum krumpuðumst krumpuðust krumpuðuð
+71	8871	rokkari	rokkara rokkarana rokkarann rokkaranna rokkarans rokkaranum rokkarar rokkararnir rokkarinn rokkurum rokkurunum
+72	8872	tímasetja	tímaset tímasetjandi tímasetji tímasetjir tímasetjið tímasetjum tímasett tímasetta tímasettan tímasettar tímasetti tímasettir tímasettra tímasettrar tímasettri tímasetts tímasettu tímasettum tímasettur tímasettuð tímasetur tímaseturðu
+73	8873	reiddur	reidd reidda reiddan reiddar reiddara reiddari reiddast reiddasta reiddastan reiddastar reiddasti reiddastir reiddastra reiddastrar reiddastri reiddasts reiddastur reiddi reiddir reiddra reiddrar reiddri reidds reiddu reiddum reiddust reiddustu reiddustum reitt
+74	8874	lalli	lalla lallana lallann lallanna lallans lallanum lallar lallarnir lallinn löllum löllunum
+75	8875	alþjóðastofnun	alþjóðastofnana alþjóðastofnananna alþjóðastofnanir alþjóðastofnanirnar alþjóðastofnunar alþjóðastofnunarinnar alþjóðastofnunin alþjóðastofnunina alþjóðastofnuninni alþjóðastofnunum alþjóðastofnununum
+76	8876	eyrir	aura aurana auranna aurar aurarnir aurum aurunum eyri eyrinn eyrinum eyririnn eyris eyrisins
+77	8877	dreifikerfi	dreifikerfinu dreifikerfis dreifikerfisins dreifikerfið
+78	8878	listsköpun	listsköpunar listsköpunarinnar listsköpunin listsköpunina listsköpuninni
+79	8879	minnkun	minnkunar minnkunarinnar minnkunin minnkunina minnkuninni
+80	8880	brjóstakrabbamein	brjóstakrabbameina brjóstakrabbameinanna brjóstakrabbameini brjóstakrabbameinin brjóstakrabbameininu brjóstakrabbameinið brjóstakrabbameins brjóstakrabbameinsins brjóstakrabbameinum brjóstakrabbameinunum
+81	8881	hljómplata	hljómplatan hljómplatna hljómplatnanna hljómplötu hljómplötum hljómplötuna hljómplötunnar hljómplötunni hljómplötunum hljómplötur hljómplöturnar
+82	8882	lifnaðarháttur	lifnaðarhátt lifnaðarhátta lifnaðarháttanna lifnaðarháttar lifnaðarháttarins lifnaðarháttinn lifnaðarháttum lifnaðarháttunum lifnaðarhátturinn lifnaðarhætti lifnaðarhættina lifnaðarhættinum lifnaðarhættir lifnaðarhættirnir
+83	8883	skekkja	skekki skekkir skekkist skekkið skekkjan skekkjandi skekkjast skekkju skekkjum skekkjumst skekkjuna skekkjunnar skekkjunni skekkjunum skekkjur skekkjurnar skekkna skekknanna skekkst skekkt skekkta skekktan skekktar skekkti skekktir skekktist skekktra skekktrar skekktri skekkts skekktu skekktum skekktumst skekktur skekktust skekktuð
+84	8884	fótboltalið	fótboltaliða fótboltaliðanna fótboltaliði fótboltaliðin fótboltaliðinu fótboltaliðið fótboltaliðs fótboltaliðsins fótboltaliðum fótboltaliðunum
+85	8885	ráðalaus	ráðalausa ráðalausan ráðalausar ráðalausara ráðalausari ráðalausast ráðalausasta ráðalausastan ráðalausastar ráðalausasti ráðalausastir ráðalausastra ráðalausastrar ráðalausastri ráðalausasts ráðalausastur ráðalausi ráðalausir ráðalausra ráðalausrar ráðalausri ráðalauss ráðalaust ráðalausu ráðalausum ráðalausust ráðalausustu ráðalausustum
+86	8886	tjara	tjaran tjöru tjöruna tjörunnar tjörunni
+87	8887	ógnandi	
+88	8888	alþjóðavísa	alþjóðavísu
+89	8889	leikverk	leikverka leikverkanna leikverki leikverkin leikverkinu leikverkið leikverks leikverksins leikverkum leikverkunum
+90	8890	erfiðlega	erfiðlegar erfiðlegast
+91	8891	hreyfigeta	hreyfigetan hreyfigetu hreyfigetuna hreyfigetunnar hreyfigetunni
+92	8892	meðlæti	meðlætinu meðlætis meðlætisins meðlætið
+93	8893	dáma	dámar dámað dámaði dámi
+94	8894	matareitrun	matareitrana matareitrananna matareitranir matareitranirnar matareitrunar matareitrunarinnar matareitrunin matareitrunina matareitruninni matareitrunum matareitrununum
+95	8895	bakari	bakara bakarana bakarann bakaranna bakarans bakaranum bakarar bakararnir bakarinn bökurum bökurunum
+96	8896	ritstörf	ritstarfa ritstarfanna ritstörfin ritstörfum ritstörfunum
+97	8897	gap	gapa gapanna gapi gapinu gapið gaps gapsins göp göpin göpum göpunum
+98	8898	drop	dropi dropinu dropið drops dropsins
+99	8899	samþætting	samþættingar samþættingarinnar samþættingin samþættingu samþættinguna samþættingunni
+100	8900	barnlaus	barnlausa barnlausan barnlausar barnlausara barnlausari barnlausast barnlausasta barnlausastan barnlausastar barnlausasti barnlausastir barnlausastra barnlausastrar barnlausastri barnlausasts barnlausastur barnlausi barnlausir barnlausra barnlausrar barnlausri barnlauss barnlaust barnlausu barnlausum barnlausust barnlausustu barnlausustum

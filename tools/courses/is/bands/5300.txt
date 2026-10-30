@@ -1,0 +1,100 @@
+1	5201	blogg	blogga blogganna bloggi bloggin blogginu bloggið bloggs bloggsins bloggum bloggunum
+2	5202	grænmetisæta	grænmetisætan grænmetisætanna grænmetisætna grænmetisætnanna grænmetisætu grænmetisætum grænmetisætuna grænmetisætunnar grænmetisætunni grænmetisætunum grænmetisætur grænmetisæturnar
+3	5203	neðanjarðar	
+4	5204	fyrirspurn	fyrirspurna fyrirspurnanna fyrirspurnar fyrirspurnarinnar fyrirspurnin fyrirspurnina fyrirspurninni fyrirspurnir fyrirspurnirnar fyrirspurnum fyrirspurnunum
+5	5205	samgleðjast	samgladdist samgladdistu samglaðst samgleddist samgleddistu samgleddumst samgleddust samgleðjist samgleðjistu samgleðjumst samgleðst samgleðstu samglöddumst samglöddust
+6	5206	neyðarlína	neyðarlínan neyðarlínanna neyðarlínu neyðarlínum neyðarlínuna neyðarlínunnar neyðarlínunni neyðarlínunum neyðarlínur neyðarlínurnar
+7	5207	eigingjarn	eigingjarna eigingjarnan eigingjarnar eigingjarnara eigingjarnari eigingjarnast eigingjarnasta eigingjarnastan eigingjarnastar eigingjarnasti eigingjarnastir eigingjarnastra eigingjarnastrar eigingjarnastri eigingjarnasts eigingjarnastur eigingjarni eigingjarnir eigingjarnra eigingjarnrar eigingjarnri eigingjarns eigingjarnt eigingjörn eigingjörnu eigingjörnum eigingjörnust eigingjörnustu eigingjörnustum
+8	5208	afturkalla	afturkallar afturkallast afturkallað afturkallaða afturkallaðan afturkallaðar afturkallaði afturkallaðir afturkallaðist afturkallaðra afturkallaðrar afturkallaðri afturkallaðs afturkallaðu afturkallaður afturkalli afturkallir afturkallist afturkallið afturköllum afturköllumst afturkölluð afturkölluðu afturkölluðum afturkölluðumst afturkölluðust afturkölluðuð
+9	5209	kvef	kvefi kvefinu kvefið kvefs kvefsins
+10	5210	köfun	köfunar köfunarinnar köfunin köfunina köfuninni
+11	5211	síðastliðinn	síðastliðin síðastliðinna síðastliðinnar síðastliðinni síðastliðins síðastliðið síðastliðna síðastliðnar síðastliðni síðastliðnir síðastliðnu síðastliðnum
+12	5212	stórfyrirtæki	stórfyrirtækin stórfyrirtækinu stórfyrirtækis stórfyrirtækisins stórfyrirtækið stórfyrirtækja stórfyrirtækjanna stórfyrirtækjum stórfyrirtækjunum
+13	5213	þorna	þornandi þornar þornað þornaða þornaðan þornaðar þornaði þornaðir þornaðra þornaðrar þornaðri þornaðs þornaðu þornaður þorni þornir þornið þornum þornuð þornuðu þornuðum þornuðuð
+14	5214	foli	fola folana folann folanna folans folanum folar folarnir folinn folum folunum
+15	5215	fjárhæð	fjárhæða fjárhæðanna fjárhæðar fjárhæðarinnar fjárhæðin fjárhæðina fjárhæðinni fjárhæðir fjárhæðirnar fjárhæðum fjárhæðunum
+16	5216	tilfinningalega	
+17	5217	fiðrildi	fiðrilda fiðrildanna fiðrildin fiðrildinu fiðrildis fiðrildisins fiðrildið fiðrildum fiðrildunum
+18	5218	sauður	sauð sauða sauðanna sauðar sauðarins sauði sauðina sauðinn sauðir sauðirnir sauðnum sauðs sauðsins sauðum sauðunum sauðurinn
+19	5219	halli	halla hallana hallann hallanna hallans hallanum hallar hallarnir hallinn höllum höllunum
+20	5220	þyngdarafl	þyngdarafli þyngdaraflinu þyngdaraflið þyngdarafls þyngdaraflsins
+21	5221	meðalhiti	meðalhita meðalhitann meðalhitans meðalhitanum meðalhitinn
+22	5222	kristilegur	kristileg kristilega kristilegan kristilegar kristilegast kristilegasta kristilegastan kristilegastar kristilegasti kristilegastir kristilegastra kristilegastrar kristilegastri kristilegasts kristilegastur kristilegi kristilegir kristilegra kristilegrar kristilegri kristilegs kristilegt kristilegu kristilegum kristilegust kristilegustu kristilegustum
+23	5223	samherji	samherja samherjana samherjann samherjanna samherjans samherjanum samherjar samherjarnir samherjinn samherjum samherjunum
+24	5224	stórfé	stórfjár stórfjárins stórfénu stórféð
+25	5225	táningur	táning táninga táningana táninganna táningar táningarnir táningi táninginn táningnum tánings táningsins táningum táningunum táningurinn
+26	5226	mella	mellan mellanna mellna mellnanna mellu mellum melluna mellunnar mellunni mellunum mellur mellurnar
+27	5227	fjölbrautaskóli	fjölbrautaskóla fjölbrautaskólana fjölbrautaskólann fjölbrautaskólanna fjölbrautaskólans fjölbrautaskólanum fjölbrautaskólar fjölbrautaskólarnir fjölbrautaskólinn fjölbrautaskólum fjölbrautaskólunum
+28	5228	fiskeldi	fiskeldinu fiskeldis fiskeldisins fiskeldið
+29	5229	áhugasamur	áhugasama áhugasaman áhugasamar áhugasamara áhugasamari áhugasamast áhugasamasta áhugasamastan áhugasamastar áhugasamasti áhugasamastir áhugasamastra áhugasamastrar áhugasamastri áhugasamasts áhugasamastur áhugasami áhugasamir áhugasamra áhugasamrar áhugasamri áhugasams áhugasamt áhugasöm áhugasömu áhugasömum áhugasömust áhugasömustu áhugasömustum
+30	5230	ráðning	ráðninga ráðninganna ráðningar ráðningarinnar ráðningarnar ráðningin ráðningu ráðningum ráðninguna ráðningunni ráðningunum
+31	5231	leir	leirinn leirnum leirs leirsins
+32	5232	hestbak	hestbaka hestbakanna hestbaki hestbakinu hestbakið hestbaks hestbaksins hestbök hestbökin hestbökum hestbökunum
+33	5233	valdamikill	valdameira valdameiri valdamest valdamesta valdamestan valdamestar valdamesti valdamestir valdamestra valdamestrar valdamestri valdamests valdamestu valdamestum valdamestur valdamikil valdamikilla valdamikillar valdamikilli valdamikils valdamikinn valdamikið valdamikla valdamiklar valdamikli valdamiklir valdamiklu valdamiklum
+34	5234	þeyta	þeyst þeytandi þeytast þeyti þeytir þeytirðu þeytist þeytið þeytt þeytta þeyttan þeyttar þeytti þeyttir þeyttist þeyttra þeyttrar þeyttri þeytts þeyttu þeyttum þeyttumst þeyttur þeyttust þeyttuð þeytum þeytumst
+35	5235	öfunda	öfundandi öfundar öfundarðu öfundast öfundað öfundaða öfundaðan öfundaðar öfundaði öfundaðir öfundaðist öfundaðra öfundaðrar öfundaðri öfundaðs öfundaðu öfundaður öfundi öfundir öfundist öfundið öfundum öfundumst öfunduð öfunduðu öfunduðum öfunduðumst öfunduðust öfunduðuð
+36	5236	lausnargjald	lausnargjalda lausnargjaldanna lausnargjaldi lausnargjaldinu lausnargjaldið lausnargjalds lausnargjaldsins lausnargjöld lausnargjöldin lausnargjöldum lausnargjöldunum
+37	5237	heppilegur	heppileg heppilega heppilegan heppilegar heppilegast heppilegasta heppilegastan heppilegastar heppilegasti heppilegastir heppilegastra heppilegastrar heppilegastri heppilegasts heppilegastur heppilegi heppilegir heppilegra heppilegrar heppilegri heppilegs heppilegt heppilegu heppilegum heppilegust heppilegustu heppilegustum
+38	5238	högni	högna högnana högnann högnanna högnans högnanum högnar högnarnir högninn högnum högnunum
+39	5239	forsetakosning	forsetakosninga forsetakosninganna forsetakosningar forsetakosningarinnar forsetakosningarnar forsetakosningin forsetakosningu forsetakosningum forsetakosninguna forsetakosningunni forsetakosningunum
+40	5240	gælunafn	gælunafna gælunafnanna gælunafni gælunafninu gælunafnið gælunafns gælunafnsins gælunöfn gælunöfnin gælunöfnum gælunöfnunum
+41	5241	misjafnt	
+42	5242	viðbjóður	viðbjóð viðbjóða viðbjóðanna viðbjóði viðbjóðina viðbjóðinn viðbjóðinum viðbjóðir viðbjóðirnir viðbjóðnum viðbjóðs viðbjóðsins viðbjóðum viðbjóðunum viðbjóðurinn
+43	5243	ritun	ritunar ritunarinnar ritunin ritunina rituninni
+44	5244	ess	essa essanna essi essin essins essinu essið essum essunum
+45	5245	alin	alinin alinina alininni álna álnanna álnar álnarinnar álnir álnirnar álnum álnunum
+46	5246	stemma	stemman stemmandi stemmanna stemmd stemmda stemmdan stemmdar stemmdi stemmdir stemmdra stemmdrar stemmdri stemmds stemmdu stemmdum stemmdur stemmduð stemmi stemmir stemmið stemmt stemmu stemmum stemmuna stemmunnar stemmunni stemmunum stemmur stemmurnar
+47	5247	þáttaröð	þáttaraðar þáttaraðarinnar þáttaröðin þáttaröðina þáttaröðinni
+48	5248	árstíð	árstíða árstíðanna árstíðar árstíðarinnar árstíðin árstíðina árstíðinni árstíðir árstíðirnar árstíðum árstíðunum
+49	5249	lestarstöð	lestarstöðin lestarstöðina lestarstöðinni lestarstöðva lestarstöðvanna lestarstöðvar lestarstöðvarinnar lestarstöðvarnar lestarstöðvum lestarstöðvunum
+50	5250	krútt	krútta krúttanna krútti krúttin krúttinu krúttið krútts krúttsins krúttum krúttunum
+51	5251	súla	súlan súlna súlnanna súlu súlum súluna súlunnar súlunni súlunum súlur súlurnar
+52	5252	sinfóníuhljómsveit	sinfóníuhljómsveita sinfóníuhljómsveitanna sinfóníuhljómsveitar sinfóníuhljómsveitarinnar sinfóníuhljómsveitin sinfóníuhljómsveitina sinfóníuhljómsveitinni sinfóníuhljómsveitir sinfóníuhljómsveitirnar sinfóníuhljómsveitum sinfóníuhljómsveitunum
+53	5253	æða	æddi æddir æddu æddum ædduð ætt æðan æðandi æðanna æði æðir æðirðu æðið æðna æðnanna æðu æðum æðuna æðunnar æðunni æðunum æður æðurnar
+54	5254	dulargervi	dulargerva dulargervanna dulargervin dulargervinu dulargervis dulargervisins dulargervið dulargervum dulargervunum
+55	5255	sæmilega	sæmilegar sæmilegast
+56	5256	forrita	forritandi forritar forritast forritað forritaða forritaðan forritaðar forritaði forritaðir forritaðist forritaðra forritaðrar forritaðri forritaðs forritaðu forritaður forriti forritir forritist forritið forritum forritumst forrituð forrituðu forrituðum forrituðumst forrituðust forrituðuð
+57	5257	lat	lata latanna lati latinu latið lats latsins löt lötin lötum lötunum
+58	5258	kela	kelandi kelar kelað kelaði kelaðir kelaðirðu kelaðu keli kelir kelið kelum keluðu keluðum keluðuð
+59	5259	lífvörður	lífvarða lífvarðanna lífvarðar lífvarðarins lífverði lífverðina lífverðinum lífverðir lífverðirnir lífvörð lífvörðinn lífvörðum lífvörðunum lífvörðurinn
+60	5260	fallhlíf	fallhlífa fallhlífanna fallhlífar fallhlífarinnar fallhlífarnar fallhlífin fallhlífina fallhlífinni fallhlífum fallhlífunum
+61	5261	sögusögn	sögusagna sögusagnanna sögusagnar sögusagnarinnar sögusagnir sögusagnirnar sögusögnin sögusögnina sögusögninni sögusögnum sögusögnunum
+62	5262	ólöglega	
+63	5263	leyndur	leynd leynda leyndan leyndar leyndara leyndari leyndast leyndasta leyndastan leyndastar leyndasti leyndastir leyndastra leyndastrar leyndastri leyndasts leyndastur leyndi leyndir leyndra leyndrar leyndri leynds leyndu leyndum leyndust leyndustu leyndustum leynt
+64	5264	sendir	senda sendana sendanna sendar sendarnir sendi sendinn sendinum sendirinn sendis sendisins sendum sendunum
+65	5265	hobbiti	hobbita hobbitana hobbitann hobbitanna hobbitans hobbitanum hobbitar hobbitarnir hobbitinn hobbitum hobbitunum
+66	5266	bakarí	bakaría bakaríanna bakaríi bakaríin bakaríinu bakaríið bakarís bakarísins bakaríum bakaríunum
+67	5267	ýmist	
+68	5268	sker	skeri skerin skerinu skerið skerja skerjanna skerjum skerjunum skers skersins
+69	5269	grís	grísa grísanna grísi grísina grísinn grísinum grísir grísirnir grísnum gríss gríssins grísum grísunum
+70	5270	skírn	skírna skírnanna skírnar skírnarinnar skírnin skírnina skírninni skírnir skírnirnar skírnum skírnunum
+71	5271	fágaður	fágað fágaða fágaðan fágaðar fágaðast fágaðasta fágaðastan fágaðastar fágaðasti fágaðastir fágaðastra fágaðastrar fágaðastri fágaðasts fágaðastur fágaði fágaðir fágaðra fágaðrar fágaðri fágaðs fáguð fáguðu fáguðum fáguðust fáguðustu fáguðustum
+72	5272	aðgreining	aðgreininga aðgreininganna aðgreiningar aðgreiningarinnar aðgreiningarnar aðgreiningin aðgreiningu aðgreiningum aðgreininguna aðgreiningunni aðgreiningunum
+73	5273	fjörugur	fjörug fjöruga fjörugan fjörugar fjörugast fjörugasta fjörugastan fjörugastar fjörugasti fjörugastir fjörugastra fjörugastrar fjörugastri fjörugasts fjörugastur fjörugi fjörugir fjörugra fjörugrar fjörugri fjörugs fjörugt fjörugu fjörugum fjörugust fjörugustu fjörugustum
+74	5274	áhald	áhalda áhaldanna áhaldi áhaldinu áhaldið áhalds áhaldsins áhöld áhöldin áhöldum áhöldunum
+75	5275	skotbardagi	skotbardaga skotbardagana skotbardagann skotbardaganna skotbardagans skotbardaganum skotbardagar skotbardagarnir skotbardaginn skotbardögum skotbardögunum
+76	5276	blek	bleki blekinu blekið bleks bleksins
+77	5277	aukaverkun	aukaverkana aukaverkananna aukaverkanir aukaverkanirnar aukaverkunar aukaverkunarinnar aukaverkunin aukaverkunina aukaverkuninni aukaverkunum aukaverkununum
+78	5278	aðlögun	aðlagana aðlagananna aðlaganir aðlaganirnar aðlögunar aðlögunarinnar aðlögunin aðlögunina aðlöguninni aðlögunum aðlögununum
+79	5279	almannafæri	almannafæra almannafæranna almannafærin almannafærinu almannafæris almannafærisins almannafærið almannafærum almannafærunum
+80	5280	stórfínn	stórfín stórfína stórfínan stórfínar stórfíni stórfínir stórfínna stórfínnar stórfínni stórfíns stórfínt stórfínu stórfínum
+81	5281	helvískur	helvísk helvíska helvískan helvískar helvískara helvískari helvískast helvískasta helvískastan helvískastar helvískasti helvískastir helvískastra helvískastrar helvískastri helvískasts helvískastur helvíski helvískir helvískra helvískrar helvískri helvísks helvískt helvísku helvískum helvískust helvískustu helvískustum
+82	5282	hektari	hektara hektarana hektarann hektaranna hektarans hektaranum hektarar hektararnir hektarinn hekturum hekturunum
+83	5283	einkaspæjari	einkaspæjara einkaspæjarana einkaspæjarann einkaspæjaranna einkaspæjarans einkaspæjaranum einkaspæjarar einkaspæjararnir einkaspæjarinn einkaspæjurum einkaspæjurunum
+84	5284	frumsýning	frumsýninga frumsýninganna frumsýningar frumsýningarinnar frumsýningarnar frumsýningin frumsýningu frumsýningum frumsýninguna frumsýningunni frumsýningunum
+85	5285	stunga	stungan stungna stungnanna stungu stungum stunguna stungunnar stungunni stungunum stungur stungurnar
+86	5286	temja	tamda tamdar tamdi tamdir tamdist tamin taminn taminna taminnar taminni tamins tamist tamið tem temdi temdir temdist temdu temdum temdumst temdust temduð temjandi temjast temji temjir temjist temjið temjum temjumst temst temur tömdu tömdum tömdumst tömdust tömduð
+87	5287	snarl	snarli snarlinu snarlið snarls snarlsins
+88	5288	vangavelta	vangaveltan vangaveltanna vangaveltna vangaveltnanna vangaveltu vangaveltum vangaveltuna vangaveltunnar vangaveltunni vangaveltunum vangaveltur vangavelturnar
+89	5289	samnefndur	samnefnd samnefnda samnefndan samnefndar samnefndi samnefndir samnefndra samnefndrar samnefndri samnefnds samnefndu samnefndum samnefnt
+90	5290	merja	marin marinn marinna marinnar marinni marins marist marið marða marðar marði marðir marðist marðistu mer merjandi merjast merji merjir merjist merjið merjum merjumst merst merstu merð merði merðir merðist merðu merðum merðumst merðust merðuð mörðu mörðum mörðumst mörðust mörðuð
+91	5291	framarlega	framarlegar framarlegast
+92	5292	þóknast	þóknastu þóknaðist þóknist þóknumst þóknuðumst þóknuðust
+93	5293	formennska	formennskan formennsku formennskuna formennskunnar formennskunni
+94	5294	öndun	öndunar öndunarinnar öndunin öndunina önduninni
+95	5295	óhugsandi	
+96	5296	dimma	dimman dimmandi dimmdi dimmdir dimmdu dimmdum dimmduð dimmi dimmir dimmið dimmt dimmu dimmum dimmuna dimmunnar dimmunni
+97	5297	varanlega	varanlegar varanlegast
+98	5298	andvígur	andvíg andvíga andvígan andvígar andvígara andvígari andvígast andvígasta andvígastan andvígastar andvígasti andvígastir andvígastra andvígastrar andvígastri andvígasts andvígastur andvígi andvígir andvígra andvígrar andvígri andvígs andvígt andvígu andvígum andvígust andvígustu andvígustum
+99	5299	vax	vaxi vaxins vaxinu vaxið
+100	5300	steinefni	steinefna steinefnanna steinefnin steinefninu steinefnis steinefnisins steinefnið steinefnum steinefnunum

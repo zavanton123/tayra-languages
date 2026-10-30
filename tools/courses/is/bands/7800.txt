@@ -1,0 +1,100 @@
+1	7701	tónlistarverðlaun	tónlistarverðlauna tónlistarverðlaunanna tónlistarverðlaunin tónlistarverðlaunum tónlistarverðlaununum
+2	7702	niðurlag	niðurlaga niðurlaganna niðurlagi niðurlaginu niðurlagið niðurlags niðurlagsins niðurlög niðurlögin niðurlögum niðurlögunum
+3	7703	fylgismaður	fylgismann fylgismanna fylgismannanna fylgismanni fylgismanninn fylgismanninum fylgismanns fylgismannsins fylgismaðurinn fylgismenn fylgismennina fylgismennirnir fylgismönnum fylgismönnunum
+4	7704	latneskur	latnesk latneska latneskan latneskar latneskara latneskari latneskast latneskasta latneskastan latneskastar latneskasti latneskastir latneskastra latneskastrar latneskastri latneskasts latneskastur latneski latneskir latneskra latneskrar latneskri latnesks latneskt latnesku latneskum latneskust latneskustu latneskustum
+5	7705	iðkun	iðkana iðkananna iðkanir iðkanirnar iðkunar iðkunarinnar iðkunin iðkunina iðkuninni iðkunum iðkununum
+6	7706	köfnunarefni	köfnunarefna köfnunarefnanna köfnunarefnin köfnunarefninu köfnunarefnis köfnunarefnisins köfnunarefnið köfnunarefnum köfnunarefnunum
+7	7707	baráttumál	baráttumála baráttumálanna baráttumáli baráttumálin baráttumálinu baráttumálið baráttumáls baráttumálsins baráttumálum baráttumálunum
+8	7708	hlutkesti	hlutkestinu hlutkestis hlutkestisins hlutkestið
+9	7709	andvaka	andvakan andvakanna andvöku andvökum andvökuna andvökunnar andvökunni andvökunum andvökur andvökurnar
+10	7710	afskrifa	afskrifandi afskrifar afskrifast afskrifað afskrifaða afskrifaðan afskrifaðar afskrifaði afskrifaðir afskrifaðist afskrifaðra afskrifaðrar afskrifaðri afskrifaðs afskrifaðu afskrifaður afskrifi afskrifir afskrifist afskrifið afskrifum afskrifumst afskrifuð afskrifuðu afskrifuðum afskrifuðumst afskrifuðust afskrifuðuð
+11	7711	hjörleifur	
+12	7712	kvenfélag	kvenfélaga kvenfélaganna kvenfélagi kvenfélaginu kvenfélagið kvenfélags kvenfélagsins kvenfélög kvenfélögin kvenfélögum kvenfélögunum
+13	7713	drif	drifa drifanna drifi drifin drifinu drifið drifs drifsins drifum drifunum
+14	7714	ástríðufullur	ástríðufull ástríðufulla ástríðufullan ástríðufullar ástríðufulli ástríðufullir ástríðufullra ástríðufullrar ástríðufullri ástríðufulls ástríðufullt ástríðufullu ástríðufullum ástríðufyllra ástríðufyllri ástríðufyllst ástríðufyllsta ástríðufyllstan ástríðufyllstar ástríðufyllsti ástríðufyllstir ástríðufyllstra ástríðufyllstrar ástríðufyllstri ástríðufyllsts ástríðufyllstu ástríðufyllstum ástríðufyllstur
+15	7715	sleikur	sleik sleiki sleikina sleikinn sleikir sleikirnir sleikja sleikjanna sleikjum sleikjunum sleiknum sleiks sleiksins sleikurinn
+16	7716	byggingarefni	byggingarefna byggingarefnanna byggingarefnin byggingarefninu byggingarefnis byggingarefnisins byggingarefnið byggingarefnum byggingarefnunum
+17	7717	ölgerð	ölgerða ölgerðanna ölgerðar ölgerðarinnar ölgerðin ölgerðina ölgerðinni ölgerðir ölgerðirnar ölgerðum ölgerðunum
+18	7718	prófastur	prófast prófasta prófastana prófastanna prófastar prófastarnir prófasti prófastinn prófastinum prófasts prófastsins prófasturinn próföstum próföstunum
+19	7719	lúlla	lúllandi lúllar lúllað lúllaði lúllaðir lúllaðu lúlli lúllir lúllið lúllum lúlluðu lúlluðum lúlluðuð
+20	7720	spæjari	spæjara spæjarana spæjarann spæjaranna spæjarans spæjaranum spæjarar spæjararnir spæjarinn spæjurum spæjurunum
+21	7721	geðsjúkur	geðsjúk geðsjúka geðsjúkan geðsjúkar geðsjúkara geðsjúkari geðsjúkast geðsjúkasta geðsjúkastan geðsjúkastar geðsjúkasti geðsjúkastir geðsjúkastra geðsjúkastrar geðsjúkastri geðsjúkasts geðsjúkastur geðsjúki geðsjúkir geðsjúkra geðsjúkrar geðsjúkri geðsjúks geðsjúkt geðsjúku geðsjúkum geðsjúkust geðsjúkustu geðsjúkustum
+22	7722	sjóðheitur	sjóðheit sjóðheita sjóðheitan sjóðheitar sjóðheitara sjóðheitari sjóðheitast sjóðheitasta sjóðheitastan sjóðheitastar sjóðheitasti sjóðheitastir sjóðheitastra sjóðheitastrar sjóðheitastri sjóðheitasts sjóðheitastur sjóðheiti sjóðheitir sjóðheitra sjóðheitrar sjóðheitri sjóðheits sjóðheitt sjóðheitu sjóðheitum sjóðheitust sjóðheitustu sjóðheitustum
+23	7723	tittlingur	tittling tittlinga tittlingana tittlinganna tittlingar tittlingarnir tittlingi tittlinginn tittlingnum tittlings tittlingsins tittlingum tittlingunum tittlingurinn
+24	7724	heilahristingur	heilahristing heilahristingi heilahristinginn heilahristingnum heilahristings heilahristingsins heilahristingurinn
+25	7725	áorka	áorkandi áorkar áorkast áorkað áorkaða áorkaðan áorkaðar áorkaði áorkaðir áorkaðirðu áorkaðist áorkaðra áorkaðrar áorkaðri áorkaðs áorkaðu áorkaður áorki áorkir áorkist áorkið áorkum áorkumst áorkuð áorkuðu áorkuðum áorkuðumst áorkuðust áorkuðuð
+26	7726	slæpast	slæpist slæpst slæptist slæptumst slæptust slæpumst
+27	7727	lúka	lúkan lúkanna lúkna lúknanna lúku lúkum lúkuna lúkunnar lúkunni lúkunum lúkur lúkurnar
+28	7728	hnignun	hnignunar hnignunarinnar hnignunin hnignunina hnignuninni
+29	7729	strandlengja	strandlengjan strandlengjanna strandlengju strandlengjum strandlengjuna strandlengjunnar strandlengjunni strandlengjunum strandlengjur strandlengjurnar
+30	7730	starfsháttur	starfshátt starfshátta starfsháttanna starfsháttar starfsháttarins starfsháttinn starfsháttu starfsháttum starfsháttunum starfshátturinn starfshætti starfshættina starfshættinum starfshættir starfshættirnir
+31	7731	margfaldur	margfalda margfaldan margfaldar margfaldara margfaldari margfaldast margfaldasta margfaldastan margfaldastar margfaldasti margfaldastir margfaldastra margfaldastrar margfaldastri margfaldasts margfaldastur margfaldi margfaldir margfaldra margfaldrar margfaldri margfalds margfalt margföld margföldu margföldum margföldust margföldustu margföldustum
+32	7732	eftirherma	eftirherman eftirhermanna eftirhermu eftirhermum eftirhermuna eftirhermunnar eftirhermunni eftirhermunum eftirhermur eftirhermurnar
+33	7733	útlán	útlána útlánanna útláni útlánin útláninu útlánið útláns útlánsins útlánum útlánunum
+34	7734	rafall	rafal rafala rafalana rafalanna rafalar rafalarnir rafalinn rafallinn rafalnum rafals rafalsins rafölum rafölunum
+35	7735	ófeigur	ófeig ófeiga ófeigan ófeigar ófeigi ófeigir ófeigra ófeigrar ófeigri ófeigs ófeigt ófeigu ófeigum
+36	7736	gosbrunnur	gosbrunn gosbrunna gosbrunnana gosbrunnanna gosbrunnar gosbrunnarnir gosbrunni gosbrunninn gosbrunninum gosbrunns gosbrunnsins gosbrunnum gosbrunnunum gosbrunnurinn
+37	7737	handritshöfundur	handritshöfund handritshöfunda handritshöfundana handritshöfundanna handritshöfundar handritshöfundarins handritshöfundarnir handritshöfundi handritshöfundinn handritshöfundinum handritshöfundum handritshöfundunum handritshöfundurinn
+38	7738	hylma	hylmandi hylmar hylmarðu hylmað hylmaði hylmaðir hylmaðirðu hylmaðu hylmdi hylmdir hylmdirðu hylmdu hylmdum hylmduð hylmi hylmir hylmirðu hylmið hylmt hylmum hylmuði hylmuðu hylmuðum hylmuðuð
+39	7739	utanverða	utanverðan utanverðanna utanverðu utanverðum utanverðuna utanverðunnar utanverðunni utanverðunum utanverður utanverðurnar
+40	7740	gifs	gifsi gifsins gifsinu gifsið
+41	7741	tilbrigði	tilbrigða tilbrigðanna tilbrigðin tilbrigðinu tilbrigðis tilbrigðisins tilbrigðið tilbrigðum tilbrigðunum
+42	7742	handtak	handtaka handtakanna handtaki handtakinu handtakið handtaks handtaksins handtök handtökin handtökum handtökunum
+43	7743	skoðunarferð	skoðunarferða skoðunarferðanna skoðunarferðar skoðunarferðarinnar skoðunarferðin skoðunarferðina skoðunarferðinni skoðunarferðir skoðunarferðirnar skoðunarferðum skoðunarferðunum
+44	7744	ungverskur	ungversk ungverska ungverskan ungverskar ungverski ungverskir ungverskra ungverskrar ungverskri ungversks ungverskt ungversku ungverskum
+45	7745	neðarlega	
+46	7746	dekra	dekrandi dekrar dekrað dekraða dekraðan dekraðar dekraði dekraðir dekraðra dekraðrar dekraðri dekraðs dekraðu dekraður dekri dekrir dekrið dekrum dekruð dekruðu dekruðum dekruðuð
+47	7747	festi	festa festanna festar festarinnar festarnar festin festina festinni festum festunum
+48	7748	festing	festinga festinganna festingar festingarinnar festingarnar festingin festingu festingum festinguna festingunni festingunum
+49	7749	hængur	hæng hænga hængana hænganna hængar hængarnir hængi hængina hænginn hængir hængirnir hængnum hængs hængsins hængum hængunum hængurinn
+50	7750	djass	djassi djassinn djassins djassinum
+51	7751	málsmeðferð	málsmeðferðar málsmeðferðarinnar málsmeðferðin málsmeðferðina málsmeðferðinni
+52	7752	hlægilegur	hlægileg hlægilega hlægilegan hlægilegar hlægilegast hlægilegasta hlægilegastan hlægilegastar hlægilegasti hlægilegastir hlægilegastra hlægilegastrar hlægilegastri hlægilegasts hlægilegastur hlægilegi hlægilegir hlægilegra hlægilegrar hlægilegri hlægilegs hlægilegt hlægilegu hlægilegum hlægilegust hlægilegustu hlægilegustum
+53	7753	herflokkur	herflokk herflokka herflokkana herflokkanna herflokkar herflokkarnir herflokki herflokkinn herflokknum herflokks herflokksins herflokkum herflokkunum herflokkurinn
+54	7754	póstkort	póstkorta póstkortanna póstkorti póstkortin póstkortinu póstkortið póstkorts póstkortsins póstkortum póstkortunum
+55	7755	ásjóna	ásjónan ásjónanna ásjónu ásjónum ásjónuna ásjónunnar ásjónunni ásjónunum ásjónur ásjónurnar
+56	7756	gola	golan golandi golanna golar golað golaði golaðir goli golir golið golu golum goluna golunnar golunni golunum golur golurnar goluðu goluðum goluðuð
+57	7757	brothættur	brothætt brothætta brothættan brothættar brothættara brothættari brothættast brothættasta brothættastan brothættastar brothættasti brothættastir brothættastra brothættastrar brothættastri brothættasts brothættastur brothætti brothættir brothættra brothættrar brothættri brothætts brothættu brothættum brothættust brothættustu brothættustum
+58	7758	ákaft	ákafar ákafast
+59	7759	örmagna	
+60	7760	harðgerður	harðgert harðgerð harðgerða harðgerðan harðgerðar harðgerðara harðgerðari harðgerðast harðgerðasta harðgerðastan harðgerðastar harðgerðasti harðgerðastir harðgerðastra harðgerðastrar harðgerðastri harðgerðasts harðgerðastur harðgerði harðgerðir harðgerðra harðgerðrar harðgerðri harðgerðs harðgerðu harðgerðum harðgerðust harðgerðustu harðgerðustum
+61	7761	örvun	örvana örvananna örvanir örvanirnar örvunar örvunarinnar örvunin örvunina örvuninni örvunum örvununum
+62	7762	prjóna	prjónandi prjónar prjónarðu prjónast prjónað prjónaða prjónaðan prjónaðar prjónaði prjónaðir prjónaðist prjónaðra prjónaðrar prjónaðri prjónaðs prjónaðu prjónaður prjóni prjónir prjónist prjónið prjónum prjónumst prjónuð prjónuðu prjónuðum prjónuðumst prjónuðust prjónuðuð
+63	7763	samson	
+64	7764	trúmál	trúmála trúmálanna trúmálin trúmálum trúmálunum
+65	7765	stjörnufræði	stjörnufræðin stjörnufræðina stjörnufræðinnar stjörnufræðinni
+66	7766	sérstæður	sérstætt sérstæð sérstæða sérstæðan sérstæðar sérstæðara sérstæðari sérstæðast sérstæðasta sérstæðastan sérstæðastar sérstæðasti sérstæðastir sérstæðastra sérstæðastrar sérstæðastri sérstæðasts sérstæðastur sérstæði sérstæðir sérstæðra sérstæðrar sérstæðri sérstæðs sérstæðu sérstæðum sérstæðust sérstæðustu sérstæðustum
+67	7767	spegilmynd	spegilmynda spegilmyndanna spegilmyndar spegilmyndarinnar spegilmyndin spegilmyndina spegilmyndinni spegilmyndir spegilmyndirnar spegilmyndum spegilmyndunum
+68	7768	sambýli	sambýla sambýlanna sambýlin sambýlinu sambýlis sambýlisins sambýlið sambýlum sambýlunum
+69	7769	tog	togi toginu togið togs togsins
+70	7770	gissurarson	
+71	7771	skrifari	skrifara skrifarana skrifarann skrifaranna skrifarans skrifaranum skrifarar skrifararnir skrifarinn skrifurum skrifurunum
+72	7772	endurgera	endurgerandi endurgerast endurgeri endurgerir endurgerið endurgerst endurgert endurgerum endurgerð endurgerða endurgerðan endurgerðar endurgerði endurgerðir endurgerðra endurgerðrar endurgerðri endurgerðs endurgerðu endurgerðum endurgerður endurgerðuð
+73	7773	efinn	efin efinna efinnar efinni efins efið efna efnar efni efnir efnu efnum
+74	7774	alþjóðasamtök	alþjóðasamtaka alþjóðasamtakanna alþjóðasamtökin alþjóðasamtökum alþjóðasamtökunum
+75	7775	viðbygging	viðbygginga viðbygginganna viðbyggingar viðbyggingarinnar viðbyggingarnar viðbyggingin viðbyggingu viðbyggingum viðbygginguna viðbyggingunni viðbyggingunum
+76	7776	sigurmark	sigurmarka sigurmarkanna sigurmarki sigurmarkinu sigurmarkið sigurmarks sigurmarksins sigurmörk sigurmörkin sigurmörkum sigurmörkunum
+77	7777	hýða	hýdd hýdda hýddan hýddar hýddi hýddir hýddist hýddra hýddrar hýddri hýdds hýddu hýddum hýddumst hýddur hýddust hýdduð hýtt hýðandi hýðast hýði hýðir hýðist hýðið hýðst hýðum hýðumst
+78	7778	rannsóknarstofnun	rannsóknarstofnana rannsóknarstofnananna rannsóknarstofnanir rannsóknarstofnanirnar rannsóknarstofnunar rannsóknarstofnunarinnar rannsóknarstofnunin rannsóknarstofnunina rannsóknarstofnuninni rannsóknarstofnunum rannsóknarstofnununum
+79	7779	þjóðsöngur	þjóðsöng þjóðsönginn þjóðsöngnum þjóðsöngs þjóðsöngsins þjóðsöngurinn þjóðsöngva þjóðsöngvana þjóðsöngvanna þjóðsöngvar þjóðsöngvarnir þjóðsöngvum þjóðsöngvunum
+80	7780	gagnkynhneigður	gagnkynhneigt gagnkynhneigð gagnkynhneigða gagnkynhneigðan gagnkynhneigðar gagnkynhneigði gagnkynhneigðir gagnkynhneigðra gagnkynhneigðrar gagnkynhneigðri gagnkynhneigðs gagnkynhneigðu gagnkynhneigðum
+81	7781	doktorsritgerð	doktorsritgerða doktorsritgerðanna doktorsritgerðar doktorsritgerðarinnar doktorsritgerðin doktorsritgerðina doktorsritgerðinni doktorsritgerðir doktorsritgerðirnar doktorsritgerðum doktorsritgerðunum
+82	7782	gersemi	gersema gersemanna gersemar gersemarnar gersemin gersemina gerseminnar gerseminni gersemum gersemunum
+83	7783	sulla	sullandi sullar sullast sullað sullaða sullaðan sullaðar sullaði sullaðir sullaðist sullaðra sullaðrar sullaðri sullaðs sullaðu sullaður sulli sullir sullist sullið sullum sullumst sulluð sulluðu sulluðum sulluðumst sulluðust sulluðuð
+84	7784	innanborðs	
+85	7785	manneldi	manneldinu manneldis manneldisins manneldið
+86	7786	frákast	frákasta frákastanna frákasti frákastinu frákastið frákasts frákastsins fráköst fráköstin fráköstum fráköstunum
+87	7787	dánarorsök	dánarorsaka dánarorsakanna dánarorsakar dánarorsakarinnar dánarorsakir dánarorsakirnar dánarorsökin dánarorsökina dánarorsökinni dánarorsökum dánarorsökunum
+88	7788	sumarbúðir	sumarbúða sumarbúðanna sumarbúðirnar sumarbúðum sumarbúðunum
+89	7789	hryllilega	
+90	7790	plastpoki	plastpoka plastpokana plastpokann plastpokanna plastpokans plastpokanum plastpokar plastpokarnir plastpokinn plastpokum plastpokunum
+91	7791	minningarathöfn	minningarathafna minningarathafnanna minningarathafnar minningarathafnarinnar minningarathafnir minningarathafnirnar minningarathöfnin minningarathöfnina minningarathöfninni minningarathöfnum minningarathöfnunum
+92	7792	vítaspyrna	vítaspyrnan vítaspyrnanna vítaspyrnu vítaspyrnum vítaspyrnuna vítaspyrnunnar vítaspyrnunni vítaspyrnunum vítaspyrnur vítaspyrnurnar
+93	7793	lærdómur	lærdóm lærdóma lærdómana lærdómanna lærdómar lærdómarnir lærdómi lærdóminn lærdóminum lærdómnum lærdóms lærdómsins lærdómum lærdómunum lærdómurinn
+94	7794	fækkun	fækkunar fækkunarinnar fækkunin fækkunina fækkuninni
+95	7795	magdalena	
+96	7796	kortér	kortéra kortéranna kortéri kortérin kortérinu kortérið kortérs kortérsins kortérum kortérunum
+97	7797	könguló	köngulær köngulærnar köngulóa köngulóar köngulóarinnar köngulóin köngulóm köngulóna köngulónna köngulónni köngulónum
+98	7798	ólmur	ólm ólma ólman ólmar ólmara ólmari ólmast ólmasta ólmastan ólmastar ólmasti ólmastir ólmastra ólmastrar ólmastri ólmasts ólmastur ólmi ólmir ólmra ólmrar ólmri ólms ólmt ólmu ólmum ólmust ólmustu ólmustum
+99	7799	auðmaður	auðmann auðmanna auðmannanna auðmanni auðmanninn auðmanninum auðmanns auðmannsins auðmaðurinn auðmenn auðmennina auðmennirnir auðmönnum auðmönnunum
+100	7800	karlalandslið	karlalandsliða karlalandsliðanna karlalandsliði karlalandsliðin karlalandsliðinu karlalandsliðið karlalandsliðs karlalandsliðsins karlalandsliðum karlalandsliðunum

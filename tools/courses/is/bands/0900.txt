@@ -1,0 +1,100 @@
+1	801	vinsæll	vinsæl vinsæla vinsælan vinsælar vinsælast vinsælasta vinsælastan vinsælastar vinsælasti vinsælastir vinsælastra vinsælastrar vinsælastri vinsælasts vinsælastur vinsæli vinsælir vinsælla vinsællar vinsælli vinsæls vinsælt vinsælu vinsælum vinsælust vinsælustu vinsælustum
+2	802	brot	brota brotanna broti brotin brotinu brotið brots brotsins brotum brotunum
+3	803	klára	kláran klárandi kláranna klárar klárast klárað kláraða kláraðan kláraðar kláraði kláraðir kláraðirðu kláraðist kláraðra kláraðrar kláraðri kláraðs kláraðu kláraður klári klárir klárist klárið kláru klárum klárumst kláruna klárunnar klárunni klárunum klárur klárurnar kláruð kláruðu kláruðum kláruðumst kláruðust kláruðuð
+4	804	markaður	markað markaða markaðan markaðanna markaðar markaðarins markaði markaðina markaðinn markaðinum markaðir markaðirnir markaðnum markaðra markaðrar markaðri markaðs markaðsins markaðurinn mörkuð mörkuðu mörkuðum mörkuðunum
+5	805	sveit	sveita sveitanna sveitar sveitarinnar sveitin sveitina sveitinni sveitir sveitirnar sveitum sveitunum
+6	806	augnablik	augnablika augnablikanna augnabliki augnablikin augnablikinu augnablikið augnabliks augnabliksins augnablikum augnablikunum
+7	807	teljast	taldist talist teldist teldistu teldumst teldust teljist teljistu teljumst telst töldumst töldust
+8	808	skemmtilegur	skemmtileg skemmtilega skemmtilegan skemmtilegar skemmtilegast skemmtilegasta skemmtilegastan skemmtilegastar skemmtilegasti skemmtilegastir skemmtilegastra skemmtilegastrar skemmtilegastri skemmtilegasts skemmtilegastur skemmtilegi skemmtilegir skemmtilegra skemmtilegrar skemmtilegri skemmtilegs skemmtilegt skemmtilegu skemmtilegum skemmtilegust skemmtilegustu skemmtilegustum
+9	809	athygli	athyglin athyglina athyglinnar athyglinni
+10	810	nákvæmlega	nákvæmlegar nákvæmlegast
+11	811	sannarlega	
+12	812	viðskipti	viðskipta viðskiptanna viðskiptin viðskiptinu viðskiptis viðskiptisins viðskiptið viðskiptum viðskiptunum
+13	813	blár	blá bláa bláan bláar bláast bláasta bláastan bláastar bláasti bláastir bláastra bláastrar bláastri bláasts bláastur blái bláinn bláir blárra blárrar blárri blás blátt bláu bláum bláust bláustu bláustum
+14	814	veiða	veidd veidda veiddan veiddar veiddi veiddir veiddist veiddra veiddrar veiddri veidds veiddu veiddum veiddumst veiddur veiddust veidduð veitt veiðandi veiðast veiði veiðir veiðist veiðið veiðst veiðum veiðumst
+15	815	gaur	gaura gaurana gauranna gaurar gaurarnir gaurinn gaurnum gaurs gaursins gaurum gaurunum
+16	816	tölva	tölvan tölvanna tölvu tölvum tölvuna tölvunnar tölvunni tölvunum tölvur tölvurnar
+17	817	fjári	fjára fjárana fjárann fjáranna fjárans fjáranum fjárar fjárarnir fjárinn fjárum fjárunum
+18	818	stig	stiga stiganna stigi stigin stiginu stigið stigs stigsins stigum stigunum
+19	819	sigra	sigrandi sigrar sigrarðu sigrast sigrað sigraða sigraðan sigraðar sigraði sigraðir sigraðirðu sigraðist sigraðra sigraðrar sigraðri sigraðs sigraðu sigraður sigri sigrir sigrist sigrið sigrum sigrumst sigruð sigruðu sigruðum sigruðumst sigruðust sigruðuð
+20	820	starfsemi	starfsemin starfsemina starfseminnar starfseminni
+21	821	stunda	stundandi stundar stundarðu stundast stundað stundaða stundaðan stundaðar stundaði stundaðir stundaðirðu stundaðist stundaðra stundaðrar stundaðri stundaðs stundaðu stundaður stundi stundir stundist stundið stundum stundumst stunduð stunduðu stunduðum stunduðumst stunduðust stunduðuð
+22	822	aðili	aðila aðilana aðilann aðilanna aðilans aðilanum aðilar aðilarnir aðilinn aðilja aðiljana aðiljann aðiljanna aðiljans aðiljanum aðiljar aðiljarnir aðiljum aðiljunum aðilum aðilunum
+23	823	stjórna	stjórnandi stjórnar stjórnarðu stjórnast stjórnað stjórnaða stjórnaðan stjórnaðar stjórnaði stjórnaðir stjórnaðist stjórnaðra stjórnaðrar stjórnaðri stjórnaðs stjórnaðu stjórnaður stjórni stjórnir stjórnist stjórnið stjórnum stjórnumst stjórnuð stjórnuðu stjórnuðum stjórnuðumst stjórnuðust stjórnuðuð
+24	824	meta	mast mastu mat mest mestu met metandi metast meti metin metinn metinna metinnar metinni metins metir metist metið metna metnar metni metnir metnu metnum mettu metum metumst metur meturðu mátu mátum mátumst mátust mátuð mæti mætir mætirðu mætist mætu mætum mætumst mætust mætuð
+25	825	lyf	lyfi lyfin lyfinu lyfið lyfja lyfjanna lyfjum lyfjunum lyfs lyfsins
+26	826	lykill	lykil lykilinn lykillinn lykils lykilsins lykla lyklana lyklanna lyklar lyklarnir lykli lyklinum lyklum lyklunum
+27	827	yfirgefa	yfirgaf yfirgafst yfirgafstu yfirgef yfirgefandi yfirgefast yfirgefi yfirgefin yfirgefinn yfirgefinna yfirgefinnar yfirgefinni yfirgefins yfirgefir yfirgefist yfirgefið yfirgefna yfirgefnar yfirgefni yfirgefnir yfirgefnu yfirgefnum yfirgefst yfirgefstu yfirgefum yfirgefumst yfirgefur yfirgefurðu yfirgefðu yfirgáfu yfirgáfum yfirgáfumst yfirgáfust yfirgáfuð yfirgæfi yfirgæfir yfirgæfist yfirgæfu yfirgæfum yfirgæfumst yfirgæfust yfirgæfuð
+28	828	frægur	fræg fræga frægan frægar frægara frægari frægast frægasta frægastan frægastar frægasti frægastir frægastra frægastrar frægastri frægasts frægastur frægi frægir frægra frægrar frægri frægs frægt frægu frægum frægust frægustu frægustum
+29	829	klæða	klædd klædda klæddan klæddar klæddi klæddir klæddirðu klæddist klæddra klæddrar klæddri klædds klæddu klæddum klæddumst klæddur klæddust klædduð klætt klæðandi klæðast klæði klæðir klæðirðu klæðist klæðistu klæðið klæðst klæðstu klæðum klæðumst
+30	830	sko	
+31	831	brjóta	braust braustu braut brjótandi brjóti brjótir brjótirðu brjótið brjóttu brjótum brotin brotinn brotinna brotinnar brotinni brotins brotið brotna brotnar brotni brotnir brotnu brotnum brutu brutum brutuð bryti brytir brytirðu brytu brytum brytuð brýt brýtur brýturðu
+32	832	venjulegur	venjuleg venjulega venjulegan venjulegar venjulegast venjulegasta venjulegastan venjulegastar venjulegasti venjulegastir venjulegastra venjulegastrar venjulegastri venjulegasts venjulegastur venjulegi venjulegir venjulegra venjulegrar venjulegri venjulegs venjulegt venjulegu venjulegum venjulegust venjulegustu venjulegustum
+33	833	nýta	nýst nýtandi nýtast nýti nýtir nýtist nýtið nýtt nýtta nýttan nýttar nýtti nýttir nýttist nýttra nýttrar nýttri nýtts nýttu nýttum nýttumst nýttur nýttust nýttuð nýtum nýtumst
+34	834	möguleiki	möguleika möguleikana möguleikann möguleikanna möguleikans möguleikanum möguleikar möguleikarnir möguleikinn möguleikum möguleikunum
+35	835	flugvél	flugvéla flugvélanna flugvélar flugvélarinnar flugvélarnar flugvélin flugvélina flugvélinni flugvélum flugvélunum
+36	836	dama	daman damanna dömu dömum dömuna dömunnar dömunni dömunum dömur dömurnar
+37	837	verðlaun	verðlauna verðlaunanna verðlaunin verðlaunum verðlaununum
+38	838	hreyfa	hreyfandi hreyfast hreyfi hreyfir hreyfist hreyfið hreyfst hreyft hreyfum hreyfumst hreyfð hreyfða hreyfðan hreyfðar hreyfði hreyfðir hreyfðist hreyfðra hreyfðrar hreyfðri hreyfðs hreyfðu hreyfðum hreyfðumst hreyfður hreyfðust hreyfðuð
+39	839	bil	bila bilanna bili bilin bilinu bilið bils bilsins bilum bilunum
+40	840	jól	jóla jólanna jólin jólum jólunum
+41	841	áhersla	áherslan áherslna áherslnanna áherslu áherslum áhersluna áherslunnar áherslunni áherslunum áherslur áherslurnar
+42	842	alþjóðlegur	alþjóðleg alþjóðlega alþjóðlegan alþjóðlegar alþjóðlegast alþjóðlegasta alþjóðlegastan alþjóðlegastar alþjóðlegasti alþjóðlegastir alþjóðlegastra alþjóðlegastrar alþjóðlegastri alþjóðlegasts alþjóðlegastur alþjóðlegi alþjóðlegir alþjóðlegra alþjóðlegrar alþjóðlegri alþjóðlegs alþjóðlegt alþjóðlegu alþjóðlegum alþjóðlegust alþjóðlegustu alþjóðlegustum
+43	843	form	forma formanna formi formin forminu formið forms formsins formum formunum
+44	844	safn	safna safnanna safni safninu safnið safns safnsins söfn söfnin söfnum söfnunum
+45	845	hata	hatandi hatar hatarðu hatast hatað hataða hataðan hataðar hataði hataðir hataðirðu hataðist hataðra hataðrar hataðri hataðs hataðu hataður hati hatir hatirðu hatist hatið hötum hötumst hötuð hötuðu hötuðum hötuðumst hötuðust hötuðuð
+46	846	nálgast	nálgastu nálgaðist nálgist nálgumst nálguðumst nálguðust
+47	847	beinn	bein beina beinan beinar beinast beinasta beinastan beinastar beinasti beinastir beinastra beinastrar beinastri beinasts beinastur beini beinir beinna beinnar beinni beins beint beinu beinum beinust beinustu beinustum
+48	848	dómur	dóm dóma dómana dómanna dómar dómarnir dómi dóminn dóminum dómnum dóms dómsins dómum dómunum dómurinn
+49	849	byrjun	byrjana byrjananna byrjanir byrjanirnar byrjunar byrjunarinnar byrjunin byrjunina byrjuninni byrjunum byrjununum
+50	850	ansi	ansa ansana ansann ansanna ansans ansanum ansar ansarnir ansinn önsum önsunum
+51	851	hótel	hótela hótelanna hóteli hótelin hótelinu hótelið hótels hótelsins hótelum hótelunum
+52	852	markmið	markmiða markmiðanna markmiði markmiðin markmiðinu markmiðið markmiðs markmiðsins markmiðum markmiðunum
+53	853	kyrr	kjurr kyrran kyrrar kyrrara kyrrari kyrrast kyrrasta kyrrastan kyrrastar kyrrasti kyrrastir kyrrastra kyrrastrar kyrrastri kyrrasts kyrrastur kyrri kyrrir kyrrs kyrrt kyrru kyrrum kyrrust kyrrustu kyrrustum
+54	854	grípa	greip greipst greipstu gripi gripin gripinn gripinna gripinnar gripinni gripins gripir gripirðu gripist gripið gripna gripnar gripni gripnir gripnu gripnum gripu gripum gripumst gripust gripuð gríp grípandi grípast grípi grípir grípirðu grípist grípið grípst gríptu grípum grípumst grípur grípurðu
+55	855	ljúga	laug laugst laugstu ljúgandi ljúgi ljúgir ljúgirðu ljúgið ljúgum ljúgðu login loginn loginna loginnar loginni logins logið logna lognar logni lognir lognu lognum lugu lugum luguð lygi lygir lygirðu lygju lygjum lygjuð lýg lýgur lýgurðu
+56	856	einkum	
+57	857	andi	anda andana andann andanna andans andanum andar andarnir andinn öndum öndunum
+58	858	grínast	grínastu grínaðist grínist grínumst grínuðumst grínuðust
+59	859	ágætur	ágæt ágæta ágætan ágætar ágætara ágætari ágætast ágætasta ágætastan ágætastar ágætasti ágætastir ágætastra ágætastrar ágætastri ágætasts ágætastur ágæti ágætir ágætra ágætrar ágætri ágæts ágætt ágætu ágætum ágætust ágætustu ágætustum
+60	860	höfundur	höfund höfunda höfundana höfundanna höfundar höfundarins höfundarnir höfundi höfundinn höfundinum höfundum höfundunum höfundurinn
+61	861	tilgangur	tilgang tilgangi tilganginn tilganginum tilgangs tilgangsins tilgangurinn
+62	862	hljóma	hljómandi hljómar hljómarðu hljómast hljómað hljómaði hljómaðir hljómaðirðu hljómaðist hljómaðu hljómi hljómir hljómist hljómið hljómum hljómumst hljómuðu hljómuðum hljómuðumst hljómuðust hljómuðuð
+63	863	dansa	dansandi dansar dansarðu dansast dansað dansaða dansaðan dansaðar dansaði dansaðir dansaðirðu dansaðist dansaðra dansaðrar dansaðri dansaðs dansaðu dansaður dansi dansir dansist dansið dönsum dönsumst dönsuð dönsuðu dönsuðum dönsuðumst dönsuðust dönsuðuð
+64	864	stíga	steig steigst steigstu stigi stigin stiginn stiginna stiginnar stiginni stigins stigir stigirðu stigið stigju stigjum stigjuð stigna stignar stigni stignir stignu stignum stigu stigum stiguð sté stíg stígandi stígi stígir stígirðu stígið stígum stígur stígurðu stígðu
+65	865	sjónvarp	sjónvarpa sjónvarpanna sjónvarpi sjónvarpinu sjónvarpið sjónvarps sjónvarpsins sjónvörp sjónvörpin sjónvörpum sjónvörpunum
+66	866	harður	hart harða harðan harðar harðara harðari harðast harðasta harðastan harðastar harðasti harðastir harðastra harðastrar harðastri harðasts harðastur harði harðir harðra harðrar harðri harðs hörð hörðu hörðum hörðust hörðustu hörðustum
+67	867	slaka	slakan slakandi slakanna slakar slakarðu slakast slakað slakaða slakaðan slakaðar slakaði slakaðir slakaðist slakaðra slakaðrar slakaðri slakaðs slakaðu slakaður slaki slakir slakist slakið slakiði slöku slökum slökumst slökuna slökunnar slökunni slökunum slökur slökurnar slökuð slökuðu slökuðum slökuðumst slökuðust slökuðuð
+68	868	skýrsla	skýrslan skýrslna skýrslnanna skýrslu skýrslum skýrsluna skýrslunnar skýrslunni skýrslunum skýrslur skýrslurnar
+69	869	ákveðið	
+70	870	sól	sóla sólanna sólar sólarinnar sólin sólina sólinni sólir sólirnar sólna sólnanna sólum sólunum
+71	871	dómari	dómara dómarana dómarann dómaranna dómarans dómaranum dómarar dómararnir dómarinn dómurum dómurunum
+72	872	fremur	
+73	873	kjölfar	kjölfari kjölfarinu kjölfarið kjölfars kjölfarsins
+74	874	drykkur	drykk drykki drykkina drykkinn drykkir drykkirnir drykkja drykkjanna drykkjar drykkjarins drykkjum drykkjunum drykknum drykkurinn
+75	875	tilkynna	tilkynnandi tilkynnast tilkynni tilkynnir tilkynnirðu tilkynnist tilkynnið tilkynnst tilkynnt tilkynnta tilkynntan tilkynntar tilkynnti tilkynntir tilkynntirðu tilkynntist tilkynntra tilkynntrar tilkynntri tilkynnts tilkynntu tilkynntum tilkynntumst tilkynntur tilkynntust tilkynntuð tilkynnum tilkynnumst
+76	876	nær	
+77	877	stoltur	stolt stolta stoltan stoltar stoltara stoltari stoltast stoltasta stoltastan stoltastar stoltasti stoltastir stoltastra stoltastrar stoltastri stoltasts stoltastur stolti stoltir stoltra stoltrar stoltri stolts stoltu stoltum stoltust stoltustu stoltustum
+78	878	hiti	hita hitana hitann hitanna hitans hitanum hitar hitarnir hitinn hitum hitunum
+79	879	ánægður	ánægt ánægð ánægða ánægðan ánægðar ánægðara ánægðari ánægðast ánægðasta ánægðastan ánægðastar ánægðasti ánægðastir ánægðastra ánægðastrar ánægðastri ánægðasts ánægðastur ánægði ánægðir ánægðra ánægðrar ánægðri ánægðs ánægðu ánægðum ánægðust ánægðustu ánægðustum
+80	880	framleiða	framleidd framleidda framleiddan framleiddar framleiddi framleiddir framleiddist framleiddra framleiddrar framleiddri framleidds framleiddu framleiddum framleiddumst framleiddur framleiddust framleidduð framleitt framleiðandi framleiðast framleiði framleiðir framleiðirðu framleiðist framleiðið framleiðst framleiðum framleiðumst
+81	881	kær	kæra kæran kærar kærara kærari kærast kærasta kærastan kærastar kærasti kærastir kærastra kærastrar kærastri kærasts kærastur kæri kærir kærra kærrar kærri kærs kært kæru kærum kærust kærustu kærustum
+82	882	hljómsveit	hljómsveita hljómsveitanna hljómsveitar hljómsveitarinnar hljómsveitin hljómsveitina hljómsveitinni hljómsveitir hljómsveitirnar hljómsveitum hljómsveitunum
+83	883	tilraun	tilrauna tilraunanna tilraunar tilraunarinnar tilraunin tilraunina tilrauninni tilraunir tilraunirnar tilraunum tilraununum
+84	884	meiða	meidd meidda meiddan meiddar meiddi meiddir meiddirðu meiddist meiddistu meiddra meiddrar meiddri meidds meiddu meiddum meiddumst meiddur meiddust meidduð meitt meiðandi meiðast meiði meiðir meiðist meiðistu meiðið meiðst meiðum meiðumst
+85	885	útskýra	útskýrandi útskýrast útskýri útskýrir útskýrist útskýrið útskýrst útskýrt útskýrum útskýrumst útskýrð útskýrða útskýrðan útskýrðar útskýrði útskýrðir útskýrðist útskýrðra útskýrðrar útskýrðri útskýrðs útskýrðu útskýrðum útskýrðumst útskýrður útskýrðust útskýrðuð
+86	886	eyðileggja	eyðilagst eyðilagt eyðilagða eyðilagðan eyðilagðar eyðilagði eyðilagðir eyðilagðirðu eyðilagðist eyðilagðra eyðilagðrar eyðilagðri eyðilagðs eyðilagður eyðilegg eyðileggi eyðileggir eyðileggist eyðileggið eyðileggjandi eyðileggjast eyðileggjum eyðileggjumst eyðileggst eyðileggur eyðileggurðu eyðileggðu eyðilegði eyðilegðir eyðilegðist eyðilegðu eyðilegðum eyðilegðumst eyðilegðust eyðilegðuð eyðilögð eyðilögðu eyðilögðum eyðilögðumst eyðilögðust eyðilögðuð
+87	887	þökk	þakka þakkanna þakkar þakkarinnar þakkir þakkirnar þökkin þökkina þökkinni þökkum þökkunum
+88	888	yfirmaður	yfirmann yfirmanna yfirmannanna yfirmanni yfirmanninn yfirmanninum yfirmanns yfirmannsins yfirmaðurinn yfirmenn yfirmennina yfirmennirnir yfirmönnum yfirmönnunum
+89	889	staðfesta	staðfest staðfestan staðfestandi staðfestar staðfestast staðfesti staðfestir staðfestirðu staðfestist staðfestið staðfestra staðfestrar staðfestri staðfests staðfestu staðfestum staðfestumst staðfestuna staðfestunnar staðfestunni staðfestur staðfestust staðfestuð
+90	890	kveikja	kveiki kveikir kveikist kveikið kveikjan kveikjandi kveikjanna kveikjast kveikju kveikjum kveikjumst kveikjuna kveikjunnar kveikjunni kveikjunum kveikjur kveikjurnar kveikst kveikt kveikta kveiktan kveiktar kveikti kveiktir kveiktist kveiktra kveiktrar kveiktri kveikts kveiktu kveiktum kveiktumst kveiktur kveiktust kveiktuð
+91	891	þaðan	
+92	892	vænn	væn væna vænan vænar vænast vænasta vænastan vænastar vænasti vænastir vænastra vænastrar vænastri vænasts vænastur vændum væni vænir vænna vænnar vænni væns vænst vænsta vænstan vænstar vænsti vænstir vænstra vænstrar vænstri vænsts vænstu vænstum vænstur vænt vænu vænum vænust vænustu vænustum
+93	893	hleypa	hleypan hleypandi hleypast hleypi hleypir hleypist hleypið hleypst hleypt hleypta hleyptan hleyptar hleypti hleyptir hleyptist hleyptra hleyptrar hleyptri hleypts hleyptu hleyptum hleyptumst hleyptur hleyptust hleyptuð hleypu hleypum hleypumst hleypuna hleypunnar hleypunni
+94	894	ja	
+95	895	vona	vonandi vonar vonarðu vonastu vonað vonaða vonaðan vonaðar vonaði vonaðir vonaðra vonaðrar vonaðri vonaðs vonaðu vonaður voni vonir vonið vonum vonuð vonuðu vonuðum vonuðuð
+96	896	sök	saka sakanna sakar sakarinnar sakir sakirnar sökin sökina sökinni sökum sökunum
+97	897	verslun	verslana verslananna verslanir verslanirnar verslunar verslunarinnar verslunin verslunina versluninni verslunum verslununum
+98	898	algjör	algjöra algjöran algjörar algjöri algjörir algjörra algjörrar algjörri algjörs algjört algjöru algjörum
+99	899	flug	fluga fluganna flugi flugin fluginu flugið flugs flugsins flugum flugunum
+100	900	umferð	umferða umferðanna umferðar umferðarinnar umferðin umferðina umferðinni umferðir umferðirnar umferðum umferðunum

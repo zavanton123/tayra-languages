@@ -1,0 +1,100 @@
+1	2401	amen	amena amenanna ameni amenin ameninu amenið amens amensins amenum amenunum
+2	2402	svipta	svipst svipt sviptan sviptandi sviptar sviptast svipti sviptir sviptist sviptið sviptra sviptrar sviptri svipts sviptu sviptum sviptumst sviptur sviptust sviptuð
+3	2403	símanúmer	símanúmera símanúmeranna símanúmeri símanúmerin símanúmerinu símanúmerið símanúmers símanúmersins símanúmerum símanúmerunum
+4	2404	hrynja	hrunda hrundar hrundi hrundir hrundu hrundum hrunduð hrunin hruninn hruninna hruninnar hruninni hrunins hrunið hryn hryndi hryndir hryndu hryndum hrynduð hrynjandi hrynji hrynjir hrynjið hrynjum hrynur
+5	2405	dimmur	dimm dimma dimman dimmar dimmara dimmari dimmast dimmasta dimmastan dimmastar dimmasti dimmastir dimmastra dimmastrar dimmastri dimmasts dimmastur dimmi dimmir dimmra dimmrar dimmri dimms dimmt dimmu dimmum dimmust dimmustu dimmustum
+6	2406	angra	angrandi angrar angrarðu angrast angrað angraða angraðan angraðar angraði angraðir angraðirðu angraðist angraðra angraðrar angraðri angraðs angraðu angraður angri angrir angrirðu angrist angrið angrum angrumst angruð angruðu angruðum angruðumst angruðust angruðuð öngrum öngrumst öngruð öngruðu öngruðum öngruðumst öngruðust öngruðuð öngruðuði
+7	2407	húf	húfi húfinu húfið húfs húfsins
+8	2408	frambjóðandi	frambjóðanda frambjóðandann frambjóðandans frambjóðandanum frambjóðandinn frambjóðenda frambjóðendanna frambjóðendum frambjóðendunum frambjóðendur frambjóðendurna frambjóðendurnir
+9	2409	árlegur	árleg árlega árlegan árlegar árlegast árlegasta árlegastan árlegastar árlegasti árlegastir árlegastra árlegastrar árlegastri árlegasts árlegastur árlegi árlegir árlegra árlegrar árlegri árlegs árlegt árlegu árlegum árlegust árlegustu árlegustum
+10	2410	perla	perlan perlandi perlanna perlar perlast perlað perlaða perlaðan perlaðar perlaði perlaðir perlaðist perlaðra perlaðrar perlaðri perlaðs perlaðu perlaður perli perlir perlist perlið perlna perlnanna perlu perlum perlumst perluna perlunnar perlunni perlunum perlur perlurnar perluð perluðu perluðum perluðumst perluðust perluðuð
+11	2411	sjaldgæfur	sjaldgæf sjaldgæfa sjaldgæfan sjaldgæfar sjaldgæfara sjaldgæfari sjaldgæfast sjaldgæfasta sjaldgæfastan sjaldgæfastar sjaldgæfasti sjaldgæfastir sjaldgæfastra sjaldgæfastrar sjaldgæfastri sjaldgæfasts sjaldgæfastur sjaldgæfi sjaldgæfir sjaldgæfra sjaldgæfrar sjaldgæfri sjaldgæfs sjaldgæft sjaldgæfu sjaldgæfum sjaldgæfust sjaldgæfustu sjaldgæfustum
+12	2412	beiðni	beiðna beiðnanna beiðnin beiðnina beiðninnar beiðninni beiðnir beiðnirnar beiðnum beiðnunum
+13	2413	labba	labbandi labbar labbarðu labbast labbað labbaða labbaðan labbaðar labbaði labbaðir labbaðirðu labbaðist labbaðra labbaðrar labbaðri labbaðs labbaðu labbaður labbi labbir labbirðu labbist labbið löbbum löbbumst löbbuð löbbuðu löbbuðum löbbuðumst löbbuðust löbbuðuð
+14	2414	hæfa	hæfan hæfandi hæfi hæfir hæfið hæft hæfu hæfum hæfuna hæfunnar hæfunni hæfði hæfðir hæfðu hæfðum hæfðuð
+15	2415	veikindi	veikinda veikindanna veikindin veikindum veikindunum
+16	2416	endurheimta	endurheimst endurheimt endurheimtan endurheimtandi endurheimtar endurheimtast endurheimti endurheimtir endurheimtist endurheimtið endurheimtra endurheimtrar endurheimtri endurheimts endurheimtu endurheimtum endurheimtumst endurheimtur endurheimtust endurheimtuð
+17	2417	hress	hressa hressan hressar hressara hressari hressast hressasta hressastan hressastar hressasti hressastir hressastra hressastrar hressastri hressasts hressastur hressi hressir hressra hressrar hressri hresst hressu hressum hressust hressustu hressustum
+18	2418	bragða	bragðandi bragðar bragðast bragðað bragðaði bragðaðir bragðaðist bragðaðu bragði bragðir bragðist bragðið brögðum brögðumst brögðuðu brögðuðum brögðuðumst brögðuðust brögðuðuð
+19	2419	bið	biða biðanna biðar biðarinnar biðin biðina biðinni biðir biðirnar biðum biðunum
+20	2420	teppi	teppa teppanna teppin teppinu teppis teppisins teppið teppum teppunum
+21	2421	fjárfesting	fjárfestinga fjárfestinganna fjárfestingar fjárfestingarinnar fjárfestingarnar fjárfestingin fjárfestingu fjárfestingum fjárfestinguna fjárfestingunni fjárfestingunum
+22	2422	beinlínis	
+23	2423	hefnd	hefnda hefndanna hefndar hefndarinnar hefndin hefndina hefndinni hefndir hefndirnar hefndum hefndunum
+24	2424	silfur	silfri silfrinu silfrið silfurs silfursins
+25	2425	mús	músa músanna músar músarinnar músin músina músinni músum músunum mýs mýsnar
+26	2426	spretta	sprast spratt sprest sprett sprettan sprettandi sprettanna sprettast spretti sprettir sprettist sprettið sprettu sprettum sprettumst sprettuna sprettunnar sprettunni sprettunum sprettur spretturnar sprettust sprettuð sprottin sprottinn sprottinna sprottinnar sprottinni sprottins sprottið sprottna sprottnar sprottni sprottnir sprottnu sprottnum spruttu spruttum spruttuð sprytti spryttir spryttu spryttum spryttuð
+27	2427	alþjóðlega	
+28	2428	sviss	svissa svissana svissanna svissar svissarnir svissi svissinn svissins svissinum svissum svissunum
+29	2429	landslag	landslagi landslaginu landslagið landslags landslagsins
+30	2430	grand	granda grandanna grandi grandinu grandið grands grandsins grönd gröndin gröndum gröndunum
+31	2431	versna	versnandi versnar versnað versnaði versnaðir versni versnir versnið versnum versnuðu versnuðum versnuðuð
+32	2432	höfðingi	höfðinginn höfðingja höfðingjana höfðingjann höfðingjanna höfðingjans höfðingjanum höfðingjar höfðingjarnir höfðingjum höfðingjunum
+33	2433	ógna	ógnandi ógnar ógnað ógnaði ógnaðir ógnaðu ógni ógnir ógnið ógnum ógnuðu ógnuðum ógnuðuð
+34	2434	sókn	sókna sóknanna sóknar sóknarinnar sóknin sóknina sókninni sóknir sóknirnar sóknum sóknunum
+35	2435	stuðningsmaður	stuðningsmann stuðningsmanna stuðningsmannanna stuðningsmanni stuðningsmanninn stuðningsmanninum stuðningsmanns stuðningsmannsins stuðningsmaðurinn stuðningsmenn stuðningsmennina stuðningsmennirnir stuðningsmönnum stuðningsmönnunum
+36	2436	svolítill	svolitla svolitlar svolitli svolitlir svolitlu svolitlum svolítil svolítilla svolítillar svolítilli svolítils svolítinn svolítið
+37	2437	kanína	kanínan kanínanna kanínu kanínum kanínuna kanínunnar kanínunni kanínunum kanínur kanínurnar
+38	2438	flæða	flædd flædda flæddan flæddar flæddi flæddir flæddra flæddrar flæddri flædds flæddu flæddum flæddur flædduð flætt flæðandi flæði flæðir flæðið flæðum
+39	2439	veikja	veiki veikir veikist veikið veikjandi veikjast veikjum veikjumst veikst veikt veikta veiktan veiktar veikti veiktir veiktist veiktra veiktrar veiktri veikts veiktu veiktum veiktumst veiktur veiktust veiktuð
+40	2440	bros	brosa brosanna brosi brosin brosinu brosið bross brossins brosum brosunum
+41	2441	skák	skáka skákanna skákar skákarinnar skákin skákina skákinni skákir skákirnar skákum skákunum
+42	2442	áfangi	áfanga áfangana áfangann áfanganna áfangans áfanganum áfangar áfangarnir áfanginn áföngum áföngunum
+43	2443	eiður	eið eiða eiðana eiðanna eiðar eiðarnir eiði eiðinn eiðinum eiðs eiðsins eiðum eiðunum eiðurinn
+44	2444	not	nota notanna notin notum notunum
+45	2445	þræll	þræl þræla þrælana þrælanna þrælar þrælarnir þræli þrælinn þrællinn þrælnum þræls þrælsins þrælum þrælunum
+46	2446	súrefni	súrefninu súrefnis súrefnisins súrefnið
+47	2447	smakka	smakkandi smakkar smakkast smakkað smakkaða smakkaðan smakkaðar smakkaði smakkaðir smakkaðist smakkaðra smakkaðrar smakkaðri smakkaðs smakkaðu smakkaður smakki smakkir smakkist smakkið smökkum smökkumst smökkuð smökkuðu smökkuðum smökkuðumst smökkuðust smökkuðuð
+48	2448	kreppa	kreppan kreppandi kreppanna kreppast kreppi kreppir kreppist kreppið kreppna kreppnanna kreppst kreppt kreppta krepptan krepptar kreppti krepptir krepptist krepptra krepptrar krepptri kreppts krepptu krepptum krepptumst krepptur krepptust krepptuð kreppu kreppum kreppumst kreppuna kreppunnar kreppunni kreppunum kreppur kreppurnar
+49	2449	rómantískur	rómantísk rómantíska rómantískan rómantískar rómantískara rómantískari rómantískast rómantískasta rómantískastan rómantískastar rómantískasti rómantískastir rómantískastra rómantískastrar rómantískastri rómantískasts rómantískastur rómantíski rómantískir rómantískra rómantískrar rómantískri rómantísks rómantískt rómantísku rómantískum rómantískust rómantískustu rómantískustum
+50	2450	hóta	hótandi hótar hótarðu hótast hótað hótaða hótaðan hótaðar hótaði hótaðir hótaðirðu hótaðist hótaðra hótaðrar hótaðri hótaðs hótaðu hótaður hóti hótir hótist hótið hótum hótumst hótuð hótuðu hótuðum hótuðumst hótuðust hótuðuð
+51	2451	túlkun	túlkana túlkananna túlkanir túlkanirnar túlkunar túlkunarinnar túlkunin túlkunina túlkuninni túlkunum túlkununum
+52	2452	móðga	móðgandi móðgar móðgarðu móðgast móðgastu móðgað móðgaða móðgaðan móðgaðar móðgaði móðgaðir móðgaðirðu móðgaðist móðgaðistu móðgaðra móðgaðrar móðgaðri móðgaðs móðgaðu móðgaður móðgi móðgir móðgist móðgið móðgum móðgumst móðguð móðguðu móðguðum móðguðumst móðguðust móðguðuð
+53	2453	tæma	tæmandi tæmast tæmd tæmda tæmdan tæmdar tæmdi tæmdir tæmdist tæmdra tæmdrar tæmdri tæmds tæmdu tæmdum tæmdumst tæmdur tæmdust tæmduð tæmi tæmir tæmist tæmið tæmst tæmt tæmum tæmumst
+54	2454	giska	giskandi giskar giskast giskað giskaða giskaðan giskaðar giskaði giskaðir giskaðist giskaðra giskaðrar giskaðri giskaðs giskaðu giskaður giski giskir giskist giskið giskum giskumst giskuð giskuðu giskuðum giskuðumst giskuðust giskuðuð
+55	2455	dökkur	dekkra dekkri dekkst dekksta dekkstan dekkstar dekksti dekkstir dekkstra dekkstrar dekkstri dekksts dekkstu dekkstum dekkstur dökka dökkan dökkar dökki dökkir dökkra dökkrar dökkri dökks dökkt dökku dökkum
+56	2456	negla	neglan neglandi neglanna neglast negld neglda negldan negldar negldi negldir negldirðu negldist negldra negldrar negldri neglds negldu negldum negldumst negldur negldust neglduð negli neglir neglirðu neglist neglið neglna neglnanna neglst neglt neglu neglum neglumst negluna neglunnar neglunni neglunum neglur neglurnar
+57	2457	vinátta	vináttan vináttu vináttuna vináttunnar vináttunni
+58	2458	verkfæri	verkfæra verkfæranna verkfærin verkfærinu verkfæris verkfærisins verkfærið verkfærum verkfærunum
+59	2459	sjúga	saug saugst saugstu sjúgandi sjúgast sjúgi sjúgir sjúgirðu sjúgist sjúgið sjúgstu sjúgum sjúgumst sjúgðu sogin soginn soginna soginnar soginni sogins sogist sogið sogna sognar sogni sognir sognu sognum sugu sugum sugumst sugust suguð sygi sygir sygirðu sygist sygju sygjum sygjumst sygjust sygjuð sýg sýgst sýgur sýgurðu
+60	2460	undantekning	undantekninga undantekninganna undantekningar undantekningarinnar undantekningarnar undantekningin undantekningu undantekningum undantekninguna undantekningunni undantekningunum
+61	2461	hægan	
+62	2462	viður	viða viðanna viðar viðarins viði viðina viðinn viðinum viðir viðirnir viðnum viðum viðunum viðurinn
+63	2463	óvæntur	óvænt óvænta óvæntan óvæntar óvæntara óvæntari óvæntast óvæntasta óvæntastan óvæntastar óvæntasti óvæntastir óvæntastra óvæntastrar óvæntastri óvæntasts óvæntastur óvænti óvæntir óvæntra óvæntrar óvæntri óvænts óvæntu óvæntum óvæntust óvæntustu óvæntustum
+64	2464	raunveruleiki	raunveruleika raunveruleikann raunveruleikans raunveruleikanum raunveruleikinn
+65	2465	könnun	kannana kannananna kannanir kannanirnar könnunar könnunarinnar könnunin könnunina könnuninni könnunum könnununum
+66	2466	sambærilegur	sambærileg sambærilega sambærilegan sambærilegar sambærilegast sambærilegasta sambærilegastan sambærilegastar sambærilegasti sambærilegastir sambærilegastra sambærilegastrar sambærilegastri sambærilegasts sambærilegastur sambærilegi sambærilegir sambærilegra sambærilegrar sambærilegri sambærilegs sambærilegt sambærilegu sambærilegum sambærilegust sambærilegustu sambærilegustum
+67	2467	hellingur	helling hellingi hellinginn hellingnum hellings hellingsins hellingurinn
+68	2468	laukur	lauk lauka laukana laukanna laukar laukarnir lauki laukinn lauknum lauks lauksins laukum laukunum laukurinn
+69	2469	tjón	tjóna tjónanna tjóni tjónin tjóninu tjónið tjóns tjónsins tjónum tjónunum
+70	2470	vaða	vaddu vaðan vaðandi vaðanna vaðast vaði vaðin vaðinn vaðinna vaðinnar vaðinni vaðins vaðir vaðirðu vaðist vaðið vaðna vaðnanna vaðnar vaðni vaðnir veðst veðurðu væði væðir væðirðu væðist væðu væðum væðumst væðust væðuð vöðnu vöðnum vöðu vöðum vöðumst vöðuna vöðunnar vöðunni vöðunum vöður vöðurnar óð óðst óðstu óðu óðum óðumst óðust óðuð
+71	2471	hönnuður	hönnuð hönnuða hönnuðanna hönnuðar hönnuðarins hönnuði hönnuðina hönnuðinn hönnuðinum hönnuðir hönnuðirnir hönnuðum hönnuðunum hönnuðurinn
+72	2472	vítt	víðar víðara víðast
+73	2473	ályktun	ályktana ályktananna ályktanir ályktanirnar ályktunar ályktunarinnar ályktunin ályktunina ályktuninni ályktunum ályktununum
+74	2474	hamar	hamarinn hamars hamarsins hamra hamrana hamranna hamrar hamrarnir hamri hamrinum hömrum hömrunum
+75	2475	fjármál	fjármála fjármálanna fjármálin fjármálum fjármálunum
+76	2476	farast	farist faristu farstu ferst ferstu færist færistu færumst færust fórst fórstu fórumst fórust förumst
+77	2477	listaverk	listaverka listaverkanna listaverki listaverkin listaverkinu listaverkið listaverks listaverksins listaverkum listaverkunum
+78	2478	endalok	endaloka endalokanna endalokin endalokum endalokunum
+79	2479	brún	brúna brúnanna brúnar brúnarinnar brúnin brúnina brúninni brúnir brúnirnar brúnum brúnunum brýnnar brýr brýrnar
+80	2480	marka	markandi markar markast markað markaða markaðan markaðar markaði markaðir markaðist markaðra markaðrar markaðri markaðs markaðu markaður marki markir markist markið mörkum mörkumst mörkuð mörkuðu mörkuðum mörkuðumst mörkuðust mörkuðuð
+81	2481	ógn	ógna ógnanna ógnar ógnarinnar ógnin ógnina ógninni ógnir ógnirnar ógnum ógnunum
+82	2482	samkynhneigður	samkynhneigt samkynhneigð samkynhneigða samkynhneigðan samkynhneigðar samkynhneigði samkynhneigðir samkynhneigðra samkynhneigðrar samkynhneigðri samkynhneigðs samkynhneigðu samkynhneigðum
+83	2483	andrúmsloft	andrúmslofti andrúmsloftinu andrúmsloftið andrúmslofts andrúmsloftsins
+84	2484	hörfa	hörfandi hörfar hörfarðu hörfað hörfaða hörfaðan hörfaðar hörfaði hörfaðir hörfaðra hörfaðrar hörfaðri hörfaðs hörfaðu hörfaður hörfi hörfir hörfið hörfum hörfuð hörfuðu hörfuðum hörfuðuð
+85	2485	viðstaddur	viðstadda viðstaddan viðstaddar viðstaddi viðstaddir viðstaddra viðstaddrar viðstaddri viðstadds viðstatt viðstödd viðstöddu viðstöddum
+86	2486	ræsa	ræsandi ræsast ræsi ræsir ræsist ræsið ræst ræsta ræstan ræstar ræsti ræstir ræstist ræstra ræstrar ræstri ræsts ræstu ræstum ræstumst ræstur ræstust ræstuð ræsum ræsumst
+87	2487	kvikna	kviknandi kviknar kviknað kviknaða kviknaðan kviknaðar kviknaði kviknaðir kviknaðra kviknaðrar kviknaðri kviknaðs kviknaðu kviknaður kvikni kviknir kviknið kviknum kviknuð kviknuðu kviknuðum kviknuðuð
+88	2488	hagkerfi	hagkerfa hagkerfanna hagkerfin hagkerfinu hagkerfis hagkerfisins hagkerfið hagkerfum hagkerfunum
+89	2489	penni	penna pennana pennann pennanna pennans pennanum pennar pennarnir penninn pennum pennunum
+90	2490	árabil	árabili árabilinu árabilið árabils árabilsins
+91	2491	járn	járna járnanna járni járnin járninu járnið járns járnsins járnum járnunum
+92	2492	ávísun	ávísana ávísananna ávísanir ávísanirnar ávísunar ávísunarinnar ávísunin ávísunina ávísuninni ávísunum ávísununum
+93	2493	geymsla	geymslan geymslna geymslnanna geymslu geymslum geymsluna geymslunnar geymslunni geymslunum geymslur geymslurnar
+94	2494	tenging	tenginga tenginganna tengingar tengingarinnar tengingarnar tengingin tengingu tengingum tenginguna tengingunni tengingunum
+95	2495	hugmyndafræði	hugmyndafræðin hugmyndafræðina hugmyndafræðinnar hugmyndafræðinni
+96	2496	baun	bauna baunanna baunar baunarinnar baunin baunina bauninni baunir baunirnar baunum baununum
+97	2497	leiðast	leiddist leiddumst leiddust leiðist leiðst leiðumst
+98	2498	sönnunargagn	sönnunargagna sönnunargagnanna sönnunargagni sönnunargagninu sönnunargagnið sönnunargagns sönnunargagnsins sönnunargögn sönnunargögnin sönnunargögnum sönnunargögnunum
+99	2499	skorta	skort skorti skortir
+100	2500	rústa	rústandi rústar rústarðu rústast rústað rústaða rústaðan rústaðar rústaði rústaðir rústaðist rústaðra rústaðrar rústaðri rústaðs rústaðu rústaður rústi rústir rústist rústið rústum rústumst rústuð rústuðu rústuðum rústuðumst rústuðust rústuðuð

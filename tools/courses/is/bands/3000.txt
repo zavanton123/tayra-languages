@@ -1,0 +1,100 @@
+1	2901	tíundi	tíunda tíundu
+2	2902	skítsama	
+3	2903	freista	freistandi freistar freistast freistað freistaði freistaðir freistaðist freistaðu freisti freistir freistist freistið freistum freistumst freistuðu freistuðum freistuðumst freistuðust freistuðuð
+4	2904	nemi	nema nemana nemann nemanna nemans nemanum nemar nemarnir neminn nemum nemunum
+5	2905	rata	ratandi ratar ratast ratað rataði rataðir rataðist rataðu rati ratir ratist ratið rötum rötuðu rötuðum rötuðuð
+6	2906	hljóðfæri	hljóðfæra hljóðfæranna hljóðfærin hljóðfærinu hljóðfæris hljóðfærisins hljóðfærið hljóðfærum hljóðfærunum
+7	2907	eftirspurn	eftirspurnar eftirspurnarinnar eftirspurnin eftirspurnina eftirspurninni
+8	2908	sómi	sóma sómann sómans sómanum sóminn
+9	2909	fjarlægur	fjarlæg fjarlæga fjarlægan fjarlægar fjarlægara fjarlægari fjarlægast fjarlægasta fjarlægastan fjarlægastar fjarlægasti fjarlægastir fjarlægastra fjarlægastrar fjarlægastri fjarlægasts fjarlægastur fjarlægi fjarlægir fjarlægra fjarlægrar fjarlægri fjarlægs fjarlægt fjarlægu fjarlægum fjarlægust fjarlægustu fjarlægustum
+10	2910	systkini	systkina systkinanna systkinin systkininu systkinis systkinisins systkinið systkinum systkinunum
+11	2911	löpp	lappa lappanna lappar lapparinnar lappir lappirnar löppin löppina löppinni löppum löppunum
+12	2912	viðeigandi	
+13	2913	gagnrýni	gagnrýnin gagnrýnina gagnrýninnar gagnrýninni
+14	2914	ætlun	ætlana ætlananna ætlanir ætlanirnar ætlunar ætlunarinnar ætlunin ætlunina ætluninni ætlunum ætlununum
+15	2915	viti	vita vitana vitann vitanna vitans vitanum vitar vitarnir vitinn vitum vitunum
+16	2916	ákvarða	ákvarðandi ákvarðar ákvarðast ákvarðað ákvarðaða ákvarðaðan ákvarðaðar ákvarðaði ákvarðaðir ákvarðaðist ákvarðaðra ákvarðaðrar ákvarðaðri ákvarðaðs ákvarðaðu ákvarðaður ákvarði ákvarðir ákvarðist ákvarðið ákvörðum ákvörðumst ákvörðuð ákvörðuðu ákvörðuðum ákvörðuðumst ákvörðuðust ákvörðuðuð
+17	2917	einangra	einangrandi einangrar einangrast einangrað einangraða einangraðan einangraðar einangraði einangraðir einangraðist einangraðra einangraðrar einangraðri einangraðs einangraðu einangraður einangri einangrir einangrist einangrið einangrum einangrumst einangruð einangruðu einangruðum einangruðumst einangruðust einangruðuð einöngrum einöngrumst einöngruð einöngruðu einöngruðum einöngruðumst einöngruðust einöngruðuð
+18	2918	karfa	karfan karfanna karfna karfnanna körfu körfum körfuna körfunnar körfunni körfunum körfur körfurnar
+19	2919	barnabarn	barnabarna barnabarnanna barnabarni barnabarninu barnabarnið barnabarns barnabarnsins barnabörn barnabörnin barnabörnum barnabörnunum
+20	2920	seljast	seldist seldumst seldust seljist seljumst selst
+21	2921	vonlaus	vonlausa vonlausan vonlausar vonlausara vonlausari vonlausast vonlausasta vonlausastan vonlausastar vonlausasti vonlausastir vonlausastra vonlausastrar vonlausastri vonlausasts vonlausastur vonlausi vonlausir vonlausra vonlausrar vonlausri vonlauss vonlaust vonlausu vonlausum vonlausust vonlausustu vonlausustum
+22	2922	bifreið	bifreiða bifreiðanna bifreiðar bifreiðarinnar bifreiðarnar bifreiðin bifreiðina bifreiðinni bifreiðir bifreiðirnar bifreiðum bifreiðunum
+23	2923	voga	vogandi vogar vogarðu vogast vogað vogaða vogaðan vogaðar vogaði vogaðir vogaðist vogaðra vogaðrar vogaðri vogaðs vogaðu vogaður vogi vogir vogist vogið vogum vogumst voguð voguðu voguðum voguðumst voguðust voguðuð
+24	2924	kall	kalla kallanna kalli kallinu kallið kalls kallsins köll köllin köllum köllunum
+25	2925	nasisti	nasista nasistana nasistann nasistanna nasistans nasistanum nasistar nasistarnir nasistinn nasistum nasistunum
+26	2926	greiður	greitt greið greiða greiðan greiðar greiðara greiðari greiðast greiðasta greiðastan greiðastar greiðasti greiðastir greiðastra greiðastrar greiðastri greiðasts greiðastur greiði greiðir greiðra greiðrar greiðri greiðs greiðu greiðum greiðust greiðustu greiðustum
+27	2927	þunglyndi	þunglyndinu þunglyndis þunglyndisins þunglyndið
+28	2928	alfarið	
+29	2929	drullusokkur	drullusokk drullusokka drullusokkana drullusokkanna drullusokkar drullusokkarnir drullusokki drullusokkinn drullusokknum drullusokks drullusokksins drullusokkum drullusokkunum drullusokkurinn
+30	2930	þroski	þroska þroskann þroskans þroskanum þroskinn
+31	2931	kínverji	kínverja kínverjana kínverjann kínverjanna kínverjans kínverjanum kínverjar kínverjarnir kínverjinn kínverjum kínverjunum
+32	2932	þjóðaratkvæðagreiðsla	þjóðaratkvæðagreiðslan þjóðaratkvæðagreiðslna þjóðaratkvæðagreiðslnanna þjóðaratkvæðagreiðslu þjóðaratkvæðagreiðslum þjóðaratkvæðagreiðsluna þjóðaratkvæðagreiðslunnar þjóðaratkvæðagreiðslunni þjóðaratkvæðagreiðslunum þjóðaratkvæðagreiðslur þjóðaratkvæðagreiðslurnar
+33	2933	hryðjuverkamaður	hryðjuverkamann hryðjuverkamanna hryðjuverkamannanna hryðjuverkamanni hryðjuverkamanninn hryðjuverkamanninum hryðjuverkamanns hryðjuverkamannsins hryðjuverkamaðurinn hryðjuverkamenn hryðjuverkamennina hryðjuverkamennirnir hryðjuverkamönnum hryðjuverkamönnunum
+34	2934	kló	klær klærnar klóa klóanna klóar klóarinnar klói klóin klóinu klóið klóm klóna klónna klónni klónum klós klósins klóum klóunum
+35	2935	umboð	umboða umboðanna umboði umboðin umboðinu umboðið umboðs umboðsins umboðum umboðunum
+36	2936	eldgos	eldgosa eldgosanna eldgosi eldgosin eldgosinu eldgosið eldgoss eldgossins eldgosum eldgosunum
+37	2937	snerting	snertinga snertinganna snertingar snertingarinnar snertingarnar snertingin snertingu snertingum snertinguna snertingunni snertingunum
+38	2938	tímabundið	
+39	2939	hof	hofa hofanna hofi hofin hofinu hofið hofs hofsins hofum hofunum
+40	2940	bikar	bikara bikarana bikaranna bikarar bikararnir bikarinn bikarnum bikars bikarsins bikurum bikurunum
+41	2941	uppeldi	uppeldinu uppeldis uppeldisins uppeldið
+42	2942	klípa	kleip kleipst kleipstu klipi klipin klipinn klipinna klipinnar klipinni klipins klipir klipirðu klipist klipið klipna klipnar klipni klipnir klipnu klipnum klipu klipum klipumst klipust klipuð klíp klípan klípandi klípanna klípast klípi klípir klípirðu klípist klípið klípna klípnanna klípst klípstu klíptu klípu klípum klípumst klípuna klípunnar klípunni klípunum klípur klípurnar klípurðu
+43	2943	hneta	hnetan hnetanna hnetu hnetum hnetuna hnetunnar hnetunni hnetunum hnetur hneturnar
+44	2944	samúð	samúðar samúðarinnar samúðin samúðina samúðinni
+45	2945	andstaða	andstaðan andstöðu andstöðuna andstöðunnar andstöðunni
+46	2946	atvinna	atvinnan atvinnu atvinnuna atvinnunnar atvinnunni
+47	2947	ættaður	ættað ættaða ættaðan ættaðar ættaðast ættaðasta ættaðastan ættaðastar ættaðasti ættaðastir ættaðastra ættaðastrar ættaðastri ættaðasts ættaðastur ættaði ættaðir ættaðra ættaðrar ættaðri ættaðs ættuð ættuðu ættuðum ættuðust ættuðustu ættuðustum
+48	2948	sauma	saumandi saumar saumast saumað saumaða saumaðan saumaðar saumaði saumaðir saumaðirðu saumaðist saumaðra saumaðrar saumaðri saumaðs saumaðu saumaður saumi saumir saumist saumið saumum saumumst saumuð saumuðu saumuðum saumuðumst saumuðust saumuðuð
+49	2949	páskar	páska páskana páskanna páskarnir páskum páskunum
+50	2950	funda	fundandi fundar fundað fundaði fundaðir fundaðu fundi fundir fundið fundum funduðu funduðum funduðuð
+51	2951	auglýsa	auglýsandi auglýsast auglýsi auglýsir auglýsirðu auglýsist auglýsið auglýst auglýsta auglýstan auglýstar auglýsti auglýstir auglýstist auglýstra auglýstrar auglýstri auglýsts auglýstu auglýstum auglýstumst auglýstur auglýstust auglýstuð auglýsum auglýsumst
+52	2952	árekstur	árekstra árekstrana árekstranna árekstrar árekstrarins árekstrarnir árekstri árekstrinum árekstrum árekstrunum áreksturinn áreksturs árekstursins
+53	2953	húsgagn	húsgagna húsgagnanna húsgagni húsgagninu húsgagnið húsgagns húsgagnsins húsgögn húsgögnin húsgögnum húsgögnunum
+54	2954	líkindi	líkinda líkindanna líkindin líkindum líkindunum
+55	2955	pöntun	pantana pantananna pantanir pantanirnar pöntunar pöntunarinnar pöntunin pöntunina pöntuninni pöntunum pöntununum
+56	2956	jafntefli	jafntefla jafnteflanna jafnteflin jafnteflinu jafnteflis jafnteflisins jafnteflið jafnteflum jafnteflunum
+57	2957	maki	maka makana makann makanna makans makanum makar makarnir makinn mökum mökunum
+58	2958	hérlendis	
+59	2959	horfast	horfist horfistu horfst horfstu horfumst horfðist horfðistu horfðumst horfðust
+60	2960	máti	máta mátana mátann mátanna mátans mátanum mátar mátarnir mátinn mátum mátunum
+61	2961	íþróttamaður	íþróttamann íþróttamanna íþróttamannanna íþróttamanni íþróttamanninn íþróttamanninum íþróttamanns íþróttamannsins íþróttamaðurinn íþróttamenn íþróttamennina íþróttamennirnir íþróttamönnum íþróttamönnunum
+62	2962	gróður	gróðrar gróðrarins gróðri gróðrinum gróðurinn gróðurs gróðursins
+63	2963	horf	horfa horfanna horfi horfin horfinu horfið horfs horfsins horfum horfunum
+64	2964	smátt	smærra smæst
+65	2965	tilkoma	tilkem tilkemur tilkom tilkoman tilkomandi tilkomdu tilkomi tilkomin tilkominn tilkominna tilkominnar tilkominni tilkomins tilkomir tilkomið tilkomna tilkomnar tilkomni tilkomnir tilkomnu tilkomnum tilkomst tilkomu tilkomum tilkomuna tilkomunnar tilkomunni tilkomuð tilkæmi tilkæmir tilkæmu tilkæmum tilkæmuð
+66	2966	nál	nála nálanna nálar nálarinnar nálarnar nálin nálina nálinni nálum nálunum
+67	2967	þjáning	þjáninga þjáninganna þjáningar þjáningarinnar þjáningarnar þjáningin þjáningu þjáningum þjáninguna þjáningunni þjáningunum
+68	2968	löggjöf	löggjafar löggjafarinnar löggjöfin löggjöfina löggjöfinni
+69	2969	andri	andra
+70	2970	endurskoða	endurskoðandi endurskoðar endurskoðast endurskoðað endurskoðaða endurskoðaðan endurskoðaðar endurskoðaði endurskoðaðir endurskoðaðist endurskoðaðra endurskoðaðrar endurskoðaðri endurskoðaðs endurskoðaðu endurskoðaður endurskoði endurskoðir endurskoðist endurskoðið endurskoðum endurskoðumst endurskoðuð endurskoðuðu endurskoðuðum endurskoðuðumst endurskoðuðust endurskoðuðuð
+71	2971	bilun	bilana bilananna bilanir bilanirnar bilunar bilunarinnar bilunin bilunina biluninni bilunum bilununum
+72	2972	múta	mútan mútandi mútanna mútar mútast mútað mútaða mútaðan mútaðar mútaði mútaðir mútaðirðu mútaðist mútaðra mútaðrar mútaðri mútaðs mútaðu mútaður múti mútir mútist mútið mútu mútum mútumst mútuna mútunnar mútunni mútunum mútur múturnar mútuð mútuðu mútuðum mútuðumst mútuðust mútuðuð
+73	2973	létt	léttar léttast
+74	2974	hlíð	hlíða hlíðanna hlíðar hlíðarinnar hlíðarnar hlíðin hlíðina hlíðinni hlíðum hlíðunum
+75	2975	svonefndur	svonefnd svonefnda svonefndan svonefndar svonefndi svonefndir svonefndra svonefndrar svonefndri svonefnds svonefndu svonefndum svonefnt
+76	2976	þinur	þin þina þinanna þini þinina þininn þininum þinir þinirnir þins þinsins þinum þinunum þinurinn
+77	2977	framvegis	
+78	2978	þéttur	þétt þétta þéttan þéttar þéttara þéttari þéttast þéttasta þéttastan þéttastar þéttasti þéttastir þéttastra þéttastrar þéttastri þéttasts þéttastur þétti þéttir þéttra þéttrar þéttri þétts þéttu þéttum þéttust þéttustu þéttustum
+79	2979	smári	smára smárana smárann smáranna smárans smáranum smárar smárarnir smárinn smárum smárunum
+80	2980	alþingismaður	alþingismann alþingismanna alþingismannanna alþingismanni alþingismanninn alþingismanninum alþingismanns alþingismannsins alþingismaðurinn alþingismenn alþingismennina alþingismennirnir alþingismönnum alþingismönnunum
+81	2981	kjafta	kjaftandi kjaftar kjaftast kjaftað kjaftaða kjaftaðan kjaftaðar kjaftaði kjaftaðir kjaftaðist kjaftaðra kjaftaðrar kjaftaðri kjaftaðs kjaftaðu kjaftaður kjafti kjaftir kjaftist kjaftið kjöftum kjöftumst kjöftuð kjöftuðu kjöftuðum kjöftuðumst kjöftuðust kjöftuðuð
+82	2982	snákur	snák snáka snákana snákanna snákar snákarnir snáki snákinn snáknum snáks snáksins snákum snákunum snákurinn
+83	2983	ætíð	
+84	2984	þroskast	þroskaðist þroskist þroskumst þroskuðumst þroskuðust
+85	2985	kúreki	kúreka kúrekana kúrekann kúrekanna kúrekans kúrekanum kúrekar kúrekarnir kúrekinn kúrekum kúrekunum
+86	2986	höfða	höfðandi höfðar höfðast höfðað höfðaða höfðaðan höfðaðar höfðaði höfðaðir höfðaðist höfðaðra höfðaðrar höfðaðri höfðaðs höfðaðu höfðaður höfði höfðir höfðist höfðið höfðum höfðumst höfðuð höfðuðu höfðuðum höfðuðumst höfðuðust höfðuðuð
+87	2987	klikka	klikkandi klikkar klikkast klikkað klikkaða klikkaðan klikkaðar klikkaði klikkaðir klikkaðist klikkaðra klikkaðrar klikkaðri klikkaðs klikkaðu klikkaður klikki klikkir klikkist klikkið klikkum klikkumst klikkuð klikkuðu klikkuðum klikkuðumst klikkuðust klikkuðuð
+88	2988	feiminn	feimin feiminna feiminnar feiminni feimins feimið feimna feimnar feimnara feimnari feimnast feimnasta feimnastan feimnastar feimnasti feimnastir feimnastra feimnastrar feimnastri feimnasts feimnastur feimni feimnir feimnu feimnum feimnust feimnustu feimnustum
+89	2989	þriðjungur	þriðjung þriðjunga þriðjungana þriðjunganna þriðjungar þriðjungarnir þriðjungi þriðjunginn þriðjungnum þriðjungs þriðjungsins þriðjungum þriðjungunum þriðjungurinn
+90	2990	verðskulda	verðskuldandi verðskuldar verðskuldarðu verðskuldast verðskuldað verðskuldaða verðskuldaðan verðskuldaðar verðskuldaði verðskuldaðir verðskuldaðist verðskuldaðra verðskuldaðrar verðskuldaðri verðskuldaðs verðskuldaðu verðskuldaður verðskuldi verðskuldir verðskuldist verðskuldið verðskuldum verðskuldumst verðskulduð verðskulduðu verðskulduðum verðskulduðumst verðskulduðust verðskulduðuð
+91	2991	spilavíti	spilavíta spilavítanna spilavítin spilavítinu spilavítis spilavítisins spilavítið spilavítum spilavítunum
+92	2992	aðlaga	aðlagandi aðlagar aðlagast aðlagað aðlagaða aðlagaðan aðlagaðar aðlagaði aðlagaðir aðlagaðist aðlagaðra aðlagaðrar aðlagaðri aðlagaðs aðlagaðu aðlagaður aðlagi aðlagir aðlagist aðlagið aðlögum aðlögumst aðlöguð aðlöguðu aðlöguðum aðlöguðumst aðlöguðust aðlöguðuð
+93	2993	hugleiða	hugleidd hugleidda hugleiddan hugleiddar hugleiddi hugleiddir hugleiddirðu hugleiddist hugleiddra hugleiddrar hugleiddri hugleidds hugleiddu hugleiddum hugleiddumst hugleiddur hugleiddust hugleidduð hugleitt hugleiðandi hugleiðast hugleiði hugleiðir hugleiðirðu hugleiðist hugleiðið hugleiðst hugleiðum hugleiðumst
+94	2994	aumur	aum auma auman aumar aumara aumari aumast aumasta aumastan aumastar aumasti aumastir aumastra aumastrar aumastri aumasts aumastur aumi aumir aumra aumrar aumri aums aumt aumu aumum aumust aumustu aumustum
+95	2995	kafbátur	kafbát kafbáta kafbátana kafbátanna kafbátar kafbátarnir kafbáti kafbátinn kafbátnum kafbáts kafbátsins kafbátum kafbátunum kafbáturinn
+96	2996	stífla	stíflan stíflandi stíflanna stíflar stíflast stíflað stíflaða stíflaðan stíflaðar stíflaði stíflaðir stíflaðist stíflaðra stíflaðrar stíflaðri stíflaðs stíflaðu stíflaður stífli stíflir stíflist stíflið stíflna stíflnanna stíflu stíflum stíflumst stífluna stíflunnar stíflunni stíflunum stíflur stíflurnar stífluð stífluðu stífluðum stífluðumst stífluðust stífluðuð
+97	2997	tilvist	tilvistar tilvistarinnar tilvistin tilvistina tilvistinni
+98	2998	úrval	úrvali úrvalinu úrvalið úrvals úrvalsins
+99	2999	glápa	glápandi glápi glápir glápirðu glápið glápt glápti gláptir gláptirðu gláptu gláptum gláptuð glápum
+100	3000	fjársjóður	fjársjóð fjársjóða fjársjóðanna fjársjóði fjársjóðina fjársjóðinn fjársjóðinum fjársjóðir fjársjóðirnir fjársjóðnum fjársjóðs fjársjóðsins fjársjóðum fjársjóðunum fjársjóðurinn

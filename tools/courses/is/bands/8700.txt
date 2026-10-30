@@ -1,0 +1,100 @@
+1	8601	veikt	veikar veikast
+2	8602	námundi	námunda
+3	8603	samliggjandi	
+4	8604	mótvægi	mótvæginu mótvægis mótvægisins mótvægið
+5	8605	pistill	pistil pistilinn pistillinn pistils pistilsins pistla pistlana pistlanna pistlar pistlarnir pistli pistlinum pistlum pistlunum
+6	8606	efnavopn	efnavopna efnavopnin efnavopnum
+7	8607	mó	móinu móið mós mósins
+8	8608	mýkja	mýki mýkir mýkist mýkistu mýkið mýkjandi mýkjast mýkjum mýkjumst mýkst mýkt mýkta mýktan mýktar mýkti mýktir mýktist mýktra mýktrar mýktri mýkts mýktu mýktum mýktumst mýktur mýktust mýktuð
+9	8609	austurátt	austuráttar austuráttarinnar austuráttin austuráttina austuráttinni
+10	8610	úff	
+11	8611	forsjá	forsjáin forsjána forsjánni forsjár forsjárinnar
+12	8612	hugsuður	hugsuð hugsuða hugsuðanna hugsuðar hugsuðarins hugsuði hugsuðina hugsuðinn hugsuðinum hugsuðir hugsuðirnir hugsuðum hugsuðunum hugsuðurinn
+13	8613	urra	urrandi urrar urrast urrað urraða urraðan urraðar urraði urraðir urraðist urraðra urraðrar urraðri urraðs urraðu urraður urri urrir urrist urrið urriði urrum urrumst urruð urruðu urruðum urruðumst urruðust urruðuð
+14	8614	flóki	flóka flókana flókann flókanna flókans flókanum flókar flókarnir flókinn flókum flókunum
+15	8615	útidyr	útidyra útidyranna útidyrnar útidyrum útidyrunum
+16	8616	utanríkismálanefnd	utanríkismálanefnda utanríkismálanefndanna utanríkismálanefndar utanríkismálanefndarinnar utanríkismálanefndin utanríkismálanefndina utanríkismálanefndinni utanríkismálanefndir utanríkismálanefndirnar utanríkismálanefndum utanríkismálanefndunum
+17	8617	vinsemd	vinsemdar vinsemdarinnar vinsemdin vinsemdina vinsemdinni
+18	8618	prýðilega	prýðilegar prýðilegast
+19	8619	blaður	blaðri blaðrinu blaðrið blaðurs blaðursins
+20	8620	smásala	smásalan smásalanna smásalna smásalnanna smásölu smásölum smásöluna smásölunnar smásölunni smásölunum smásölur smásölurnar
+21	8621	hróp	hrópa hrópanna hrópi hrópin hrópinu hrópið hróps hrópsins hrópum hrópunum
+22	8622	náttúrlega	
+23	8623	samkeppniseftirlit	samkeppniseftirliti samkeppniseftirlitinu samkeppniseftirlitið samkeppniseftirlits samkeppniseftirlitsins
+24	8624	fjölskyldumaður	fjölskyldumann fjölskyldumanna fjölskyldumannanna fjölskyldumanni fjölskyldumanninn fjölskyldumanninum fjölskyldumanns fjölskyldumannsins fjölskyldumaðurinn fjölskyldumenn fjölskyldumennina fjölskyldumennirnir fjölskyldumönnum fjölskyldumönnunum
+25	8625	næstráðandi	næstráðanda næstráðandann næstráðandans næstráðandanum næstráðandinn næstráðenda næstráðendanna næstráðendum næstráðendunum næstráðendur næstráðendurna næstráðendurnir
+26	8626	barsmíð	barsmíða barsmíðanna barsmíðar barsmíðarinnar barsmíðarnar barsmíðin barsmíðina barsmíðinni barsmíðum barsmíðunum
+27	8627	fuglahræða	fuglahræðan fuglahræðanna fuglahræðna fuglahræðnanna fuglahræðu fuglahræðum fuglahræðuna fuglahræðunnar fuglahræðunni fuglahræðunum fuglahræður fuglahræðurnar
+28	8628	ódauðleiki	ódauðleika ódauðleikann ódauðleikans ódauðleikanum ódauðleikinn
+29	8629	dópaður	dópað dópaða dópaðan dópaðar dópaðast dópaðasta dópaðastan dópaðastar dópaðasti dópaðastir dópaðastra dópaðastrar dópaðastri dópaðasts dópaðastur dópaði dópaðir dópaðra dópaðrar dópaðri dópaðs dópuð dópuðu dópuðum dópuðust dópuðustu dópuðustum
+30	8630	hrasa	hrasandi hrasar hrasast hrasað hrasaða hrasaðan hrasaðar hrasaði hrasaðir hrasaðist hrasaðra hrasaðrar hrasaðri hrasaðs hrasaðu hrasaður hrasi hrasir hrasist hrasið hrösum hrösumst hrösuð hrösuðu hrösuðum hrösuðumst hrösuðust hrösuðuð
+31	8631	ástarævintýri	ástarævintýra ástarævintýranna ástarævintýrin ástarævintýrinu ástarævintýris ástarævintýrisins ástarævintýrið ástarævintýrum ástarævintýrunum
+32	8632	lauslátur	lauslát lausláta lauslátan lauslátar lauslátara lauslátari lauslátast lauslátasta lauslátastan lauslátastar lauslátasti lauslátastir lauslátastra lauslátastrar lauslátastri lauslátasts lauslátastur lausláti lauslátir lauslátra lauslátrar lauslátri lausláts lauslátt lauslátu lauslátum lauslátust lauslátustu lauslátustum
+33	8633	handaband	handabanda handabandanna handabandi handabandinu handabandið handabands handabandsins handabönd handaböndin handaböndum handaböndunum
+34	8634	nískur	nísk níska nískan nískar nískara nískari nískast nískasta nískastan nískastar nískasti nískastir nískastra nískastrar nískastri nískasts nískastur níski nískir nískra nískrar nískri nísks nískt nísku nískum nískust nískustu nískustum
+35	8635	blindfullur	blindfull blindfulla blindfullan blindfullar blindfulli blindfullir blindfullra blindfullrar blindfullri blindfulls blindfullt blindfullu blindfullum
+36	8636	moldvarpa	moldvarpan moldvarpanna moldvarpna moldvarpnanna moldvörpu moldvörpum moldvörpuna moldvörpunnar moldvörpunni moldvörpunum moldvörpur moldvörpurnar
+37	8637	maðkur	maðk maðka maðkana maðkanna maðkar maðkarnir maðki maðkinn maðkinum maðknum maðks maðksins maðkurinn möðkum möðkunum
+38	8638	sírena	sírenan sírenanna sírenu sírenum sírenuna sírenunnar sírenunni sírenunum sírenur sírenurnar
+39	8639	krulla	krullan krullandi krullanna krullar krullast krullað krullaða krullaðan krullaðar krullaði krullaðir krullaðist krullaðra krullaðrar krullaðri krullaðs krullaðu krullaður krulli krullir krullist krullið krullna krullnanna krullu krullum krullumst krulluna krullunnar krullunni krullunum krullur krullurnar krulluð krulluðu krulluðum krulluðumst krulluðust krulluðuð
+40	8640	sennilegur	sennileg sennilega sennilegan sennilegar sennilegast sennilegasta sennilegastan sennilegastar sennilegasti sennilegastir sennilegastra sennilegastrar sennilegastri sennilegasts sennilegastur sennilegi sennilegir sennilegra sennilegrar sennilegri sennilegs sennilegt sennilegu sennilegum sennilegust sennilegustu sennilegustum
+41	8641	næði	næðinu næðis næðisins næðið
+42	8642	algildur	algild algilda algildan algildar algildi algildir algildra algildrar algildri algilds algildu algildum algilt
+43	8643	syndari	syndara syndarana syndarann syndaranna syndarans syndaranum syndarar syndararnir syndarinn syndurum syndurunum
+44	8644	lánstraust	lánstrausti lánstraustinu lánstraustið lánstrausts lánstraustsins
+45	8645	frjálshyggja	frjálshyggjan frjálshyggju frjálshyggjuna frjálshyggjunnar frjálshyggjunni
+46	8646	nægjanlega	
+47	8647	háskólaráð	háskólaráða háskólaráðanna háskólaráði háskólaráðin háskólaráðinu háskólaráðið háskólaráðs háskólaráðsins háskólaráðum háskólaráðunum
+48	8648	jarðskorpa	jarðskorpan jarðskorpu jarðskorpuna jarðskorpunnar jarðskorpunni
+49	8649	andspyrnuhreyfing	andspyrnuhreyfinga andspyrnuhreyfinganna andspyrnuhreyfingar andspyrnuhreyfingarinnar andspyrnuhreyfingarnar andspyrnuhreyfingin andspyrnuhreyfingu andspyrnuhreyfingum andspyrnuhreyfinguna andspyrnuhreyfingunni andspyrnuhreyfingunum
+50	8650	endurlífga	endurlífgandi endurlífgar endurlífgast endurlífgað endurlífgaða endurlífgaðan endurlífgaðar endurlífgaði endurlífgaðir endurlífgaðist endurlífgaðra endurlífgaðrar endurlífgaðri endurlífgaðs endurlífgaðu endurlífgaður endurlífgi endurlífgir endurlífgist endurlífgið endurlífgum endurlífgumst endurlífguð endurlífguðu endurlífguðum endurlífguðumst endurlífguðust endurlífguðuð
+51	8651	endurfundur	endurfund endurfunda endurfundanna endurfundar endurfundarins endurfundi endurfundina endurfundinn endurfundinum endurfundir endurfundirnir endurfundum endurfundunum endurfundurinn
+52	8652	fyrirheitinn	fyrirheitin fyrirheitinna fyrirheitinnar fyrirheitinni fyrirheitins fyrirheitið fyrirheitna fyrirheitnar fyrirheitni fyrirheitnir fyrirheitnu fyrirheitnum
+53	8653	fréttaritari	fréttaritara fréttaritarana fréttaritarann fréttaritaranna fréttaritarans fréttaritaranum fréttaritarar fréttaritararnir fréttaritarinn fréttariturum fréttariturunum
+54	8654	gróska	gróskan grósku gróskuna gróskunnar gróskunni
+55	8655	prýði	prýðin prýðina prýðinnar prýðinni
+56	8656	sögulok	söguloka sögulokanna sögulokin sögulokum sögulokunum
+57	8657	tilbúningur	tilbúning tilbúningi tilbúninginn tilbúningnum tilbúnings tilbúningsins tilbúningurinn
+58	8658	djúpstæður	djúpstætt djúpstæð djúpstæða djúpstæðan djúpstæðar djúpstæðara djúpstæðari djúpstæðast djúpstæðasta djúpstæðastan djúpstæðastar djúpstæðasti djúpstæðastir djúpstæðastra djúpstæðastrar djúpstæðastri djúpstæðasts djúpstæðastur djúpstæði djúpstæðir djúpstæðra djúpstæðrar djúpstæðri djúpstæðs djúpstæðu djúpstæðum djúpstæðust djúpstæðustu djúpstæðustum
+59	8659	allsherjarþing	allsherjarþinga allsherjarþinganna allsherjarþingi allsherjarþingin allsherjarþinginu allsherjarþingið allsherjarþings allsherjarþingsins allsherjarþingum allsherjarþingunum
+60	8660	viðmælandi	viðmælanda viðmælandann viðmælandans viðmælandanum viðmælandinn viðmælenda viðmælendanna viðmælendum viðmælendunum viðmælendur viðmælendurna viðmælendurnir
+61	8661	tengdafaðir	tengdafaðirinn tengdafeðra tengdafeðranna tengdafeðrum tengdafeðrunum tengdafeður tengdafeðurna tengdafeðurnir tengdaföður tengdaföðurinn tengdaföðurins tengdaföðurnum
+62	8662	lífsleið	lífsleiðar lífsleiðarinnar lífsleiðin lífsleiðina lífsleiðinni
+63	8663	nöldra	nöldrandi nöldrar nöldrað nöldraði nöldraðir nöldraðu nöldri nöldrir nöldrið nöldrum nöldruðu nöldruðum nöldruðuð
+64	8664	staðaldur	staðaldri
+65	8665	svohljóðandi	
+66	8666	lokatala	lokatalan lokatalna lokatalnanna lokatölu lokatölum lokatöluna lokatölunnar lokatölunni lokatölunum lokatölur lokatölurnar
+67	8667	járnbraut	járnbrauta járnbrautanna járnbrautar járnbrautarinnar járnbrautin járnbrautina járnbrautinni járnbrautir járnbrautirnar járnbrautum járnbrautunum
+68	8668	tryggingafélag	tryggingafélaga tryggingafélaganna tryggingafélagi tryggingafélaginu tryggingafélagið tryggingafélags tryggingafélagsins tryggingafélög tryggingafélögin tryggingafélögum tryggingafélögunum
+69	8669	veiðiferð	veiðiferða veiðiferðanna veiðiferðar veiðiferðarinnar veiðiferðin veiðiferðina veiðiferðinni veiðiferðir veiðiferðirnar veiðiferðum veiðiferðunum
+70	8670	örsmár	örsmá örsmáa örsmáan örsmáar örsmái örsmáir örsmárra örsmárrar örsmárri örsmás örsmátt örsmáu örsmáum
+71	8671	hrekkur	hrekk hrekki hrekkina hrekkinn hrekkir hrekkirnir hrekkja hrekkjanna hrekkjum hrekkjunum hrekknum hrekks hrekksins hrekkurinn
+72	8672	faraldur	faraldra faraldrana faraldranna faraldrar faraldrarnir faraldri faraldrinum faraldurinn faraldurs faraldursins faröldrum faröldrunum
+73	8673	villutrú	villutrúar villutrúarinnar villutrúin villutrúna villutrúnni
+74	8674	útborgun	útborgana útborgananna útborganir útborganirnar útborgunar útborgunarinnar útborgunin útborgunina útborguninni útborgunum útborgununum
+75	8675	krít	kríta krítanna krítar krítarinnar krítarnar krítin krítina krítinni krítir krítirnar krítum krítunum
+76	8676	fjármálastjóri	fjármálastjóra fjármálastjórana fjármálastjórann fjármálastjóranna fjármálastjórans fjármálastjóranum fjármálastjórar fjármálastjórarnir fjármálastjórinn fjármálastjórum fjármálastjórunum
+77	8677	lífrænt	
+78	8678	munstur	munstra munstranna munstraða munstri munstrin munstrinu munstrið munstrum munstrunum munsturs munstursins
+79	8679	elfur	elfa elfanna elfar elfarinnar elfarnar elfi elfina elfinni elfum elfunum elfurin
+80	8680	lykilmaður	lykilmann lykilmanna lykilmannanna lykilmanni lykilmanninn lykilmanninum lykilmanns lykilmannsins lykilmaðurinn lykilmenn lykilmennina lykilmennirnir lykilmönnum lykilmönnunum
+81	8681	endurminning	endurminninga endurminninganna endurminningar endurminningarinnar endurminningarnar endurminningin endurminningu endurminningum endurminninguna endurminningunni endurminningunum
+82	8682	borgarstjórnarkosningar	borgarstjórnarkosninga borgarstjórnarkosninganna borgarstjórnarkosningarnar borgarstjórnarkosningum borgarstjórnarkosningunum
+83	8683	mola	molandi molar molast molað molaða molaðan molaðar molaði molaðir molaðist molaðra molaðrar molaðri molaðs molaðu molaður moli molir molist molið molum molumst moluð moluðu moluðum moluðumst moluðust moluðuð
+84	8684	ætlunarverk	ætlunarverka ætlunarverkanna ætlunarverki ætlunarverkin ætlunarverkinu ætlunarverkið ætlunarverks ætlunarverksins ætlunarverkum ætlunarverkunum
+85	8685	guðsþjónusta	guðsþjónustan guðsþjónustanna guðsþjónustna guðsþjónustnanna guðsþjónustu guðsþjónustum guðsþjónustuna guðsþjónustunnar guðsþjónustunni guðsþjónustunum guðsþjónustur guðsþjónusturnar
+86	8686	offita	offitan offitu offituna offitunnar offitunni
+87	8687	sull	sulli sullinu sullið sulls sullsins
+88	8688	áhyggjulaus	áhyggjulausa áhyggjulausan áhyggjulausar áhyggjulausara áhyggjulausari áhyggjulausast áhyggjulausasta áhyggjulausastan áhyggjulausastar áhyggjulausasti áhyggjulausastir áhyggjulausastra áhyggjulausastrar áhyggjulausastri áhyggjulausasts áhyggjulausastur áhyggjulausi áhyggjulausir áhyggjulausra áhyggjulausrar áhyggjulausri áhyggjulauss áhyggjulaust áhyggjulausu áhyggjulausum áhyggjulausust áhyggjulausustu áhyggjulausustum
+89	8689	blóðflæði	blóðflæðinu blóðflæðis blóðflæðisins blóðflæðið
+90	8690	núlifandi	
+91	8691	ómaka	ómakandi ómakar ómakast ómakað ómakaða ómakaðan ómakaðar ómakaði ómakaðir ómakaðist ómakaðra ómakaðrar ómakaðri ómakaðs ómakaðu ómakaður ómaki ómakir ómakist ómakið ómökum ómökumst ómökuð ómökuðu ómökuðum ómökuðumst ómökuðust ómökuðuð
+92	8692	borun	borana borananna boranir boranirnar borunar borunarinnar borunin borunina boruninni borunum borununum
+93	8693	strita	stritandi stritar stritast stritað stritaða stritaðan stritaðar stritaði stritaðir stritaðist stritaðra stritaðrar stritaðri stritaðs stritaðu stritaður striti stritir stritist stritið stritum stritumst strituð strituðu strituðum strituðumst strituðust strituðuð
+94	8694	stigur	stig stiga stigana stiganna stigar stigarnir stigi stigina stiginn stigir stigirnir stignum stigs stigsins stigum stigunum stigurinn
+95	8695	rakstur	rakstrar rakstrarins rakstri rakstrinum raksturinn raksturs rakstursins
+96	8696	bankakerfi	bankakerfinu bankakerfis bankakerfisins bankakerfið
+97	8697	vegsemd	vegsemda vegsemdanna vegsemdar vegsemdarinnar vegsemdin vegsemdina vegsemdinni vegsemdir vegsemdirnar vegsemdum vegsemdunum
+98	8698	fárviðri	fárviðra fárviðranna fárviðrin fárviðrinu fárviðris fárviðrisins fárviðrið fárviðrum fárviðrunum
+99	8699	vestari	vestara vestast vestasta vestastan vestastar vestasti vestastir vestastra vestastrar vestastri vestasts vestastur vestust vestustu vestustum
+100	8700	lafa	lafandi lafað lafi lafir lafið lafði lafðir lafðu löfum löfðu löfðum löfðuð

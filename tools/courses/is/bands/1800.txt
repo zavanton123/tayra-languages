@@ -1,0 +1,100 @@
+1	1701	stjórnandi	stjórnanda stjórnandann stjórnandans stjórnandanum stjórnandinn stjórnenda stjórnendanna stjórnendum stjórnendunum stjórnendur stjórnendurna stjórnendurnir
+2	1702	reiði	reiða reiðana reiðann reiðanna reiðans reiðanum reiðar reiðarnir reiðin reiðina reiðinn reiðinnar reiðinni reiðum reiðunum
+3	1703	bókasafn	bókasafna bókasafnanna bókasafni bókasafninu bókasafnið bókasafns bókasafnsins bókasöfn bókasöfnin bókasöfnum bókasöfnunum
+4	1704	sögn	sagna sagnanna sagnar sagnarinnar sagnir sagnirnar sögnin sögnina sögninni sögnum sögnunum
+5	1705	hérað	héraða héraðanna héraði héraðinu héraðið héraðs héraðsins héruð héruðin héruðum héruðunum
+6	1706	setning	setninga setninganna setningar setningarinnar setningarnar setningin setningu setningum setninguna setningunni setningunum
+7	1707	útskrifa	útskrifandi útskrifar útskrifast útskrifastu útskrifað útskrifaða útskrifaðan útskrifaðar útskrifaði útskrifaðir útskrifaðist útskrifaðistu útskrifaðra útskrifaðrar útskrifaðri útskrifaðs útskrifaðu útskrifaður útskrifi útskrifir útskrifist útskrifið útskrifum útskrifumst útskrifuð útskrifuðu útskrifuðum útskrifuðumst útskrifuðust útskrifuðuð
+8	1708	sverð	sverða sverðanna sverði sverðin sverðinu sverðið sverðs sverðsins sverðum sverðunum
+9	1709	viðurkenning	viðurkenninga viðurkenninganna viðurkenningar viðurkenningarinnar viðurkenningarnar viðurkenningin viðurkenningu viðurkenningum viðurkenninguna viðurkenningunni viðurkenningunum
+10	1710	umboðsmaður	umboðsmann umboðsmanna umboðsmannanna umboðsmanni umboðsmanninn umboðsmanninum umboðsmanns umboðsmannsins umboðsmaðurinn umboðsmenn umboðsmennina umboðsmennirnir umboðsmönnum umboðsmönnunum
+11	1711	kjörinn	kjörin kjörinna kjörinnar kjörinni kjörins kjörið kjörna kjörnar kjörni kjörnir kjörnu kjörnum
+12	1712	floti	flota flotana flotann flotanna flotans flotanum flotar flotarnir flotinn flotum flotunum
+13	1713	glaður	glatt glaða glaðan glaðar glaðara glaðari glaðast glaðasta glaðastan glaðastar glaðasti glaðastir glaðastra glaðastrar glaðastri glaðasts glaðastur glaði glaðir glaðra glaðrar glaðri glaðs glöð glöðu glöðum glöðust glöðustu glöðustum
+14	1714	helgur	helg helga helgan helgar helgara helgari helgast helgasta helgastan helgastar helgasti helgastir helgastra helgastrar helgastri helgasts helgastur helgi helgir helgra helgrar helgri helgs helgt helgu helgum helgust helgustu helgustum
+15	1715	bein	beina beinanna beini beinin beininu beinið beins beinsins beinum beinunum
+16	1716	skattur	skatt skatta skattana skattanna skattar skattarnir skatti skattinn skattinum skatts skattsins skatturinn sköttum sköttunum
+17	1717	aðild	aðilda aðildanna aðildar aðildarinnar aðildin aðildina aðildinni aðildir aðildirnar aðildum aðildunum
+18	1718	umfjöllun	umfjallana umfjallananna umfjallanir umfjallanirnar umfjöllunar umfjöllunarinnar umfjöllunin umfjöllunina umfjölluninni umfjöllunum umfjöllununum
+19	1719	ómeiddur	ómeidd ómeidda ómeiddan ómeiddar ómeiddara ómeiddari ómeiddast ómeiddasta ómeiddastan ómeiddastar ómeiddasti ómeiddastir ómeiddastra ómeiddastrar ómeiddastri ómeiddasts ómeiddastur ómeiddi ómeiddir ómeiddra ómeiddrar ómeiddri ómeidds ómeiddu ómeiddum ómeiddust ómeiddustu ómeiddustum ómeitt
+20	1720	félagslegur	félagsleg félagslega félagslegan félagslegar félagslegast félagslegasta félagslegastan félagslegastar félagslegasti félagslegastir félagslegastra félagslegastrar félagslegastri félagslegasts félagslegastur félagslegi félagslegir félagslegra félagslegrar félagslegri félagslegs félagslegt félagslegu félagslegum félagslegust félagslegustu félagslegustum
+21	1721	bráðum	
+22	1722	brúnn	brún brúna brúnan brúnar brúnast brúnasta brúnastan brúnastar brúnasti brúnastir brúnastra brúnastrar brúnastri brúnasts brúnastur brúni brúnir brúnna brúnnar brúnni brúns brúnt brúnu brúnum brúnust brúnustu brúnustum
+23	1723	glata	glatandi glatar glatarðu glatast glatað glataða glataðan glataðar glataði glataðir glataðist glataðra glataðrar glataðri glataðs glataðu glataður glati glatir glatist glatið glötum glötumst glötuð glötuðu glötuðum glötuðumst glötuðust glötuðuð
+24	1724	sönnun	sannana sannananna sannanir sannanirnar sönnunar sönnunarinnar sönnunin sönnunina sönnuninni sönnunum sönnununum
+25	1725	haukur	hauk hauka haukana haukanna haukar haukarnir hauki haukinn hauknum hauks hauksins haukum haukunum haukurinn
+26	1726	ferðamaður	ferðamann ferðamanna ferðamannanna ferðamanni ferðamanninn ferðamanninum ferðamanns ferðamannsins ferðamaðurinn ferðamenn ferðamennina ferðamennirnir ferðamönnum ferðamönnunum
+27	1727	gleðilegur	gleðileg gleðilega gleðilegan gleðilegar gleðilegast gleðilegasta gleðilegastan gleðilegastar gleðilegasti gleðilegastir gleðilegastra gleðilegastrar gleðilegastri gleðilegasts gleðilegastur gleðilegi gleðilegir gleðilegra gleðilegrar gleðilegri gleðilegs gleðilegt gleðilegu gleðilegum gleðilegust gleðilegustu gleðilegustum
+28	1728	neðri	neðra neðst neðsta neðstan neðstar neðsti neðstir neðstra neðstrar neðstri neðsts neðstu neðstum neðstur
+29	1729	uppáhald	uppáhaldi uppáhaldinu uppáhaldið uppáhalds uppáhaldsins
+30	1730	stjórnmálamaður	stjórnmálamann stjórnmálamanna stjórnmálamannanna stjórnmálamanni stjórnmálamanninn stjórnmálamanninum stjórnmálamanns stjórnmálamannsins stjórnmálamaðurinn stjórnmálamenn stjórnmálamennina stjórnmálamennirnir stjórnmálamönnum stjórnmálamönnunum
+31	1731	ferðalag	ferðalaga ferðalaganna ferðalagi ferðalaginu ferðalagið ferðalags ferðalagsins ferðalög ferðalögin ferðalögum ferðalögunum
+32	1732	kærlega	
+33	1733	skulda	skuldandi skuldar skuldarðu skuldast skuldað skuldaða skuldaðan skuldaðar skuldaði skuldaðir skuldaðist skuldaðra skuldaðrar skuldaðri skuldaðs skuldaðu skuldaður skuldi skuldir skuldist skuldið skuldum skuldumst skulduð skulduðu skulduðum skulduðumst skulduðust skulduðuð
+34	1734	áfengi	áfenginu áfengis áfengisins áfengið
+35	1735	yfirlýsing	yfirlýsinga yfirlýsinganna yfirlýsingar yfirlýsingarinnar yfirlýsingarnar yfirlýsingin yfirlýsingu yfirlýsingum yfirlýsinguna yfirlýsingunni yfirlýsingunum
+36	1736	skápur	skáp skápa skápana skápanna skápar skáparnir skápinn skápnum skáps skápsins skápum skápunum skápurinn
+37	1737	göng	ganga ganganna göngin göngum göngunum
+38	1738	söngur	söng sönginn söngnum söngs söngsins söngurinn söngva söngvana söngvanna söngvar söngvarnir söngvum söngvunum
+39	1739	skemma	skemman skemmandi skemmanna skemmd skemmda skemmdan skemmdar skemmdi skemmdir skemmdirðu skemmdra skemmdrar skemmdri skemmds skemmdu skemmdum skemmdur skemmduð skemmi skemmir skemmið skemmt skemmu skemmum skemmuna skemmunnar skemmunni skemmunum skemmur skemmurnar
+40	1740	hart	harðar harðara harðast
+41	1741	kjarni	kjarna kjarnana kjarnann kjarnanna kjarnans kjarnanum kjarnar kjarnarnir kjarninn kjörnum kjörnunum
+42	1742	fórnarlamb	fórnarlamba fórnarlambanna fórnarlambi fórnarlambinu fórnarlambið fórnarlambs fórnarlambsins fórnarlömb fórnarlömbin fórnarlömbum fórnarlömbunum
+43	1743	hæstiréttur	hæstarétt hæstaréttar hæstaréttarins hæstarétti hæstaréttinn hæstaréttinum hæstiréttar hæstirétturinn hæsturétta hæsturéttanna hæsturétti hæsturéttina hæsturéttir hæsturéttirnir hæsturéttum hæsturéttunum
+44	1744	flaska	flaskan flaskandi flaskar flaskast flaskað flaskaði flaskaðir flaskaðist flaskaðu flaski flaskir flaskist flaskið flaskna flasknanna flösku flöskum flöskumst flöskuna flöskunnar flöskunni flöskunum flöskur flöskurnar flöskuðu flöskuðum flöskuðumst flöskuðust flöskuðuð
+45	1745	nákvæmur	nákvæm nákvæma nákvæman nákvæmar nákvæmara nákvæmari nákvæmast nákvæmasta nákvæmastan nákvæmastar nákvæmasti nákvæmastir nákvæmastra nákvæmastrar nákvæmastri nákvæmasts nákvæmastur nákvæmi nákvæmir nákvæmra nákvæmrar nákvæmri nákvæms nákvæmt nákvæmu nákvæmum nákvæmust nákvæmustu nákvæmustum
+46	1746	spara	sparandi sparar spararðu sparast sparað sparaða sparaðan sparaðar sparaði sparaðir sparaðirðu sparaðist sparaðra sparaðrar sparaðri sparaðs sparaðu sparaður spari sparir sparist sparið spörum spörumst spöruð spöruðu spöruðum spöruðumst spöruðust spöruðuð
+47	1747	kór	kóra kórana kóranna kórar kórarnir kórinn kórnum kórs kórsins kórum kórunum
+48	1748	eftirlit	eftirlita eftirlitanna eftirliti eftirlitin eftirlitinu eftirlitið eftirlits eftirlitsins eftirlitum eftirlitunum
+49	1749	kaup	kaupa kaupanna kaupi kaupin kaupinu kaupið kaups kaupsins kaupum kaupunum
+50	1750	klikkaður	klikkað klikkaða klikkaðan klikkaðar klikkaðast klikkaðasta klikkaðastan klikkaðastar klikkaðasti klikkaðastir klikkaðastra klikkaðastrar klikkaðastri klikkaðasts klikkaðastur klikkaði klikkaðir klikkaðra klikkaðrar klikkaðri klikkaðs klikkuð klikkuðu klikkuðum klikkuðust klikkuðustu klikkuðustum
+51	1751	aðstaða	aðstaðan aðstöðu aðstöðuna aðstöðunnar aðstöðunni
+52	1752	sandur	sand sanda sandana sandanna sandar sandarnir sandi sandinn sandinum sands sandsins sandurinn söndum söndunum
+53	1753	sigurvegari	sigurvegara sigurvegarana sigurvegarann sigurvegaranna sigurvegarans sigurvegaranum sigurvegarar sigurvegararnir sigurvegarinn sigurvegurum sigurvegurunum
+54	1754	tafla	taflan taflanna taflna taflnanna töflu töflum töfluna töflunnar töflunni töflunum töflur töflurnar
+55	1755	lygi	lyga lyganna lygar lygarnar lygin lygina lyginnar lyginni lygum lygunum
+56	1756	galli	galla gallana gallann gallanna gallans gallanum gallar gallarnir gallað gallaða gallaðan gallaðri gallaður gallinn gallið göllum göllunum gölluð gölluðu gölluðum
+57	1757	handrit	handrita handritanna handriti handritin handritinu handritið handrits handritsins handritum handritunum
+58	1758	smástund	smástundar smástundarinnar smástundin smástundina smástundinni
+59	1759	áhöfn	áhafna áhafnanna áhafnar áhafnarinnar áhafnir áhafnirnar áhöfnin áhöfnina áhöfninni áhöfnum áhöfnunum
+60	1760	jökull	jökla jöklana jöklanna jöklar jöklarnir jökli jöklinum jöklum jöklunum jökul jökulinn jökullinn jökuls jökulsins
+61	1761	hlé	hléa hléanna hléi hléin hléinu hléið hlés hlésins hléum hléunum
+62	1762	mannlegur	mannleg mannlega mannlegan mannlegar mannlegast mannlegasta mannlegastan mannlegastar mannlegasti mannlegastir mannlegastra mannlegastrar mannlegastri mannlegasts mannlegastur mannlegi mannlegir mannlegra mannlegrar mannlegri mannlegs mannlegt mannlegu mannlegum mannlegust mannlegustu mannlegustum
+63	1763	landslið	landsliða landsliðanna landsliði landsliðin landsliðinu landsliðið landsliðs landsliðsins landsliðum landsliðunum
+64	1764	bull	bulli bullinu bullið bulls bullsins
+65	1765	tilvik	tilvika tilvikanna tilviki tilvikin tilvikinu tilvikið tilviks tilviksins tilvikum tilvikunum
+66	1766	andartak	andartaka andartakanna andartaki andartakinu andartakið andartaks andartaksins andartök andartökin andartökum andartökunum
+67	1767	heimasíða	heimasíðan heimasíðna heimasíðnanna heimasíðu heimasíðum heimasíðuna heimasíðunnar heimasíðunni heimasíðunum heimasíður heimasíðurnar
+68	1768	jarl	jarla jarlana jarlanna jarlar jarlarnir jarli jarlinn jarlinum jarls jarlsins jörlum jörlunum
+69	1769	nágrenni	nágrenninu nágrennis nágrennisins nágrennið
+70	1770	fjölbreyttur	fjölbreytt fjölbreytta fjölbreyttan fjölbreyttar fjölbreyttara fjölbreyttari fjölbreyttast fjölbreyttasta fjölbreyttastan fjölbreyttastar fjölbreyttasti fjölbreyttastir fjölbreyttastra fjölbreyttastrar fjölbreyttastri fjölbreyttasts fjölbreyttastur fjölbreytti fjölbreyttir fjölbreyttra fjölbreyttrar fjölbreyttri fjölbreytts fjölbreyttu fjölbreyttum fjölbreyttust fjölbreyttustu fjölbreyttustum
+71	1771	vasi	vasa vasana vasann vasanna vasans vasanum vasar vasarnir vasinn vösum vösunum
+72	1772	svefn	svefni svefninn svefninum svefns svefnsins
+73	1773	forysta	forystan forystu forystuna forystunnar forystunni
+74	1774	rúta	rútan rútanna rútna rútnanna rútu rútum rútuna rútunnar rútunni rútunum rútur rúturnar
+75	1775	áberandi	
+76	1776	þykkur	þykk þykka þykkan þykkar þykkara þykkari þykkast þykkasta þykkastan þykkastar þykkasti þykkastir þykkastra þykkastrar þykkastri þykkasts þykkastur þykki þykkir þykkra þykkrar þykkri þykks þykkt þykku þykkum þykkust þykkustu þykkustum
+77	1777	viðkvæmur	viðkvæm viðkvæma viðkvæman viðkvæmar viðkvæmara viðkvæmari viðkvæmast viðkvæmasta viðkvæmastan viðkvæmastar viðkvæmasti viðkvæmastir viðkvæmastra viðkvæmastrar viðkvæmastri viðkvæmasts viðkvæmastur viðkvæmi viðkvæmir viðkvæmra viðkvæmrar viðkvæmri viðkvæms viðkvæmt viðkvæmu viðkvæmum viðkvæmust viðkvæmustu viðkvæmustum
+78	1778	ragna	ragnandi ragnar ragnast ragnað ragnaða ragnaðan ragnaðar ragnaði ragnaðir ragnaðist ragnaðra ragnaðrar ragnaðri ragnaðs ragnaðu ragnaður ragni ragnir ragnist ragnið rögnum rögnumst rögnuð rögnuðu rögnuðum rögnuðumst rögnuðust rögnuðuð
+79	1779	sunnan	
+80	1780	ánægjulegur	ánægjuleg ánægjulega ánægjulegan ánægjulegar ánægjulegast ánægjulegasta ánægjulegastan ánægjulegastar ánægjulegasti ánægjulegastir ánægjulegastra ánægjulegastrar ánægjulegastri ánægjulegasts ánægjulegastur ánægjulegi ánægjulegir ánægjulegra ánægjulegrar ánægjulegri ánægjulegs ánægjulegt ánægjulegu ánægjulegum ánægjulegust ánægjulegustu ánægjulegustum
+81	1781	samfylking	samfylkinga samfylkinganna samfylkingar samfylkingarinnar samfylkingarnar samfylkingin samfylkingu samfylkingum samfylkinguna samfylkingunni samfylkingunum
+82	1782	húð	húða húðanna húðar húðarinnar húðað húðin húðina húðinni húðir húðirnar húðum húðunum
+83	1783	aðdáandi	aðdáanda aðdáandann aðdáandans aðdáandanum aðdáandinn aðdáenda aðdáendanna aðdáendum aðdáendunum aðdáendur aðdáendurna aðdáendurnir
+84	1784	andstæðingur	andstæðing andstæðinga andstæðingana andstæðinganna andstæðingar andstæðingarnir andstæðingi andstæðinginn andstæðingnum andstæðings andstæðingsins andstæðingum andstæðingunum andstæðingurinn
+85	1785	skíthæll	skíthæl skíthæla skíthælana skíthælanna skíthælar skíthælarnir skíthælinn skíthællinn skíthælnum skíthæls skíthælsins skíthælum skíthælunum
+86	1786	riddari	riddara riddarana riddarann riddaranna riddarans riddaranum riddarar riddararnir riddarinn riddurum riddurunum
+87	1787	kvænast	kvænist kvænst kvænstu kvænt kvænta kvæntan kvæntar kvænti kvæntir kvæntist kvæntistu kvæntra kvæntrar kvæntri kvænts kvæntu kvæntum kvæntumst kvæntur kvæntust kvænumst
+88	1788	staddur	stadda staddan staddar staddi staddir staddra staddrar staddri stadds statt stödd stöddu stöddum
+89	1789	prósent	prósenta prósentanna prósenti prósentin prósentinu prósentið prósents prósentsins prósentum prósentunum
+90	1790	veiði	veiða veiðanna veiðar veiðarinnar veiðarnar veiðin veiðina veiðinnar veiðinni veiðum veiðunum
+91	1791	sérfræðingur	sérfræðing sérfræðinga sérfræðingana sérfræðinganna sérfræðingar sérfræðingarnir sérfræðingi sérfræðinginn sérfræðingnum sérfræðings sérfræðingsins sérfræðingum sérfræðingunum sérfræðingurinn
+92	1792	turn	turna turnana turnanna turnar turnarnir turni turninn turninum turns turnsins turnum turnunum
+93	1793	morgunmatur	morgunmat morgunmatar morgunmatarins morgunmatinn morgunmatnum morgunmaturinn
+94	1794	veitingastaður	veitingastað veitingastaða veitingastaðanna veitingastaðar veitingastaðarins veitingastaði veitingastaðina veitingastaðinn veitingastaðir veitingastaðirnir veitingastaðnum veitingastaðurinn veitingastöðum veitingastöðunum
+95	1795	kvöldmatur	kvöldmat kvöldmatar kvöldmatarins kvöldmatinn kvöldmatnum kvöldmaturinn
+96	1796	kyrra	kyrran kyrrandi kyrranna kyrrast kyrri kyrrir kyrrist kyrrið kyrrst kyrrt kyrru kyrrum kyrrumst kyrruna kyrrunnar kyrrunni kyrrunum kyrrur kyrrurnar kyrrð kyrrða kyrrðan kyrrðar kyrrði kyrrðir kyrrðist kyrrðra kyrrðrar kyrrðri kyrrðs kyrrðu kyrrðum kyrrðumst kyrrður kyrrðust kyrrðuð
+97	1797	hagur	hag haga hagan haganna hagar hagara hagari hagast hagasta hagastan hagastar hagasti hagastir hagastra hagastrar hagastri hagasts hagastur hagi hagina haginn hagir hagirnir hagnum hagra hagrar hagri hags hagsins hagt hagurinn hög högu högum högunum högust högustu högustum
+98	1798	hyggja	hugði hugðir hugðirðu hugðist hugðistu hugðu hugðum hugðumst hugðust hugðuð hygg hyggi hyggir hyggirðu hyggist hyggistu hyggið hyggjan hyggjandi hyggjanna hyggjast hyggju hyggjum hyggjumst hyggjuna hyggjunnar hyggjunni hyggjunum hyggjur hyggjurnar hyggna hyggnanna hyggst hyggstu hyggur hyggurðu hyggðu hygði hygðir hygðirðu hygðist hygðistu hygðu hygðum hygðumst hygðust hygðuð
+99	1799	fullkomlega	
+100	1800	upplifa	upplifað upplifi upplifir upplifirðu upplifið upplifum upplifði upplifðir upplifðirðu upplifðu upplifðum upplifðuð

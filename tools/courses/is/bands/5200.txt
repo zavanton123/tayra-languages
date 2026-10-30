@@ -1,0 +1,100 @@
+1	5101	akkeri	akkera akkeranna akkerin akkerinu akkeris akkerisins akkerið akkerum akkerunum
+2	5102	áliðinn	áliðin áliðinna áliðinnar áliðinni áliðins áliðið áliðna áliðnar áliðnara áliðnari áliðnast áliðnasta áliðnastan áliðnastar áliðnasti áliðnastir áliðnastra áliðnastrar áliðnastri áliðnasts áliðnastur áliðni áliðnir áliðnu áliðnum áliðnust áliðnustu áliðnustum
+3	5103	heimskingi	heimskinginn heimskingja heimskingjana heimskingjann heimskingjanna heimskingjans heimskingjanum heimskingjar heimskingjarnir heimskingjum heimskingjunum
+4	5104	óstyrkur	óstyrk óstyrka óstyrkan óstyrkar óstyrkara óstyrkari óstyrkast óstyrkasta óstyrkastan óstyrkastar óstyrkasti óstyrkastir óstyrkastra óstyrkastrar óstyrkastri óstyrkasts óstyrkastur óstyrki óstyrkir óstyrkra óstyrkrar óstyrkri óstyrks óstyrkt óstyrku óstyrkum óstyrkust óstyrkustu óstyrkustum
+5	5105	leður	leðra leðranna leðri leðrin leðrinu leðrið leðrum leðrunum leðurs leðursins
+6	5106	hádegisverður	hádegisverð hádegisverða hádegisverðanna hádegisverðar hádegisverðarins hádegisverði hádegisverðina hádegisverðinn hádegisverðinum hádegisverðir hádegisverðirnir hádegisverðum hádegisverðunum hádegisverðurinn
+7	5107	sjálf	sjálfa sjálfanna sjálfi sjálfin sjálfinu sjálfið sjálfs sjálfsins sjálfum sjálfunum
+8	5108	mikilvægi	mikilvæginu mikilvægis mikilvægisins mikilvægið
+9	5109	sviti	svita svitann svitans svitanum svitinn
+10	5110	baugur	baug bauga baugana bauganna baugar baugarnir baugi bauginn bauginum baugnum baugs baugsins baugum baugunum baugurinn
+11	5111	hagkvæmni	hagkvæmnin hagkvæmnina hagkvæmninnar hagkvæmninni
+12	5112	kjörskrá	kjörskráa kjörskráin kjörskrám kjörskrána kjörskránna kjörskránni kjörskránum kjörskrár kjörskrárinnar kjörskrárnar
+13	5113	ból	bóla bólanna bóli bólin bólinu bólið bóls bólsins bólum bólunum
+14	5114	gaffall	gaffal gaffalinn gaffallinn gaffals gaffalsins gaffla gafflana gafflanna gafflar gafflarnir gaffli gafflinum göfflum göfflunum
+15	5115	óþægindi	óþæginda óþægindanna óþægindin óþægindum óþægindunum
+16	5116	þróaður	þróað þróaða þróaðan þróaðar þróaðast þróaðasta þróaðastan þróaðastar þróaðasti þróaðastir þróaðastra þróaðastrar þróaðastri þróaðasts þróaðastur þróaði þróaðir þróaðra þróaðrar þróaðri þróaðs þróuð þróuðu þróuðum þróuðust þróuðustu þróuðustum
+17	5117	fjármálaráðuneyti	fjármálaráðuneyta fjármálaráðuneytanna fjármálaráðuneytin fjármálaráðuneytinu fjármálaráðuneytis fjármálaráðuneytisins fjármálaráðuneytið fjármálaráðuneytum fjármálaráðuneytunum
+18	5118	samfara	
+19	5119	áhyggjuefni	áhyggjuefna áhyggjuefnanna áhyggjuefnin áhyggjuefninu áhyggjuefnis áhyggjuefnisins áhyggjuefnið áhyggjuefnum áhyggjuefnunum
+20	5120	sjónauki	sjónauka sjónaukana sjónaukann sjónaukanna sjónaukans sjónaukanum sjónaukar sjónaukarnir sjónaukinn sjónaukum sjónaukunum
+21	5121	hæna	hænan hænandi hænanna hænast hænd hænda hændan hændar hændi hændir hændist hændra hændrar hændri hænds hændu hændum hændumst hændur hændust hænduð hæni hænir hænist hænið hænst hænt hænu hænum hænumst hænuna hænunnar hænunni hænunum hænur hænurnar
+22	5122	brattur	bratt bratta brattan brattar brattara brattari brattast brattasta brattastan brattastar brattasti brattastir brattastra brattastrar brattastri brattasts brattastur bratti brattir brattra brattrar brattri bratts brött bröttu bröttum bröttust bröttustu bröttustum
+23	5123	höndla	höndlandi höndlar höndlast höndlað höndlaða höndlaðan höndlaðar höndlaði höndlaðir höndlaðist höndlaðra höndlaðrar höndlaðri höndlaðs höndlaðu höndlaður höndli höndlir höndlist höndlið höndlum höndlumst höndluð höndluðu höndluðum höndluðumst höndluðust höndluðuð
+24	5124	peningaskápur	peningaskáp peningaskápa peningaskápana peningaskápanna peningaskápar peningaskáparnir peningaskápinn peningaskápnum peningaskáps peningaskápsins peningaskápum peningaskápunum peningaskápurinn
+25	5125	lífeyrissjóður	lífeyrissjóð lífeyrissjóða lífeyrissjóðanna lífeyrissjóði lífeyrissjóðina lífeyrissjóðinn lífeyrissjóðinum lífeyrissjóðir lífeyrissjóðirnir lífeyrissjóðnum lífeyrissjóðs lífeyrissjóðsins lífeyrissjóðum lífeyrissjóðunum lífeyrissjóðurinn
+26	5126	forritun	forritunar forritunarinnar forritunin forritunina forrituninni
+27	5127	dúr	dúra dúrana dúranna dúrar dúrarnir dúrinn dúrnum dúrs dúrsins dúrum dúrunum
+28	5128	birki	birkinu birkis birkisins birkið
+29	5129	uppræta	uppræst upprætandi upprætast uppræti upprætir upprætist upprætið upprætt upprætta upprættan upprættar upprætti upprættir upprættist upprættra upprættrar upprættri upprætts upprættu upprættum upprættumst upprættur upprættust upprættuð upprætum upprætumst
+30	5130	hitaveita	hitaveitan hitaveitna hitaveitnanna hitaveitu hitaveitum hitaveituna hitaveitunnar hitaveitunni hitaveitunum hitaveitur hitaveiturnar
+31	5131	deildarstjóri	deildarstjóra deildarstjórana deildarstjórann deildarstjóranna deildarstjórans deildarstjóranum deildarstjórar deildarstjórarnir deildarstjórinn deildarstjórum deildarstjórunum
+32	5132	vísun	vísana vísananna vísanir vísanirnar vísunar vísunarinnar vísunin vísunina vísuninni vísunum vísununum
+33	5133	mannfall	mannfalli mannfallinu mannfallið mannfalls mannfallsins
+34	5134	útfæra	útfærandi útfærast útfæri útfærir útfærist útfærið útfærst útfært útfærum útfærumst útfærð útfærða útfærðan útfærðar útfærði útfærðir útfærðist útfærðra útfærðrar útfærðri útfærðs útfærðu útfærðum útfærðumst útfærður útfærðust útfærðuð
+35	5135	sneið	sneiða sneiðanna sneiðar sneiðarinnar sneiðarnar sneiðin sneiðina sneiðinni sneiðum sneiðunum
+36	5136	bóluefni	bóluefna bóluefnanna bóluefnin bóluefninu bóluefnis bóluefnisins bóluefnið bóluefnum bóluefnunum
+37	5137	völundarhús	völundarhúsa völundarhúsanna völundarhúsi völundarhúsin völundarhúsinu völundarhúsið völundarhúss völundarhússins völundarhúsum völundarhúsunum
+38	5138	sjötíu	
+39	5139	tæta	tæst tætandi tætast tæti tætir tætist tætið tætt tætta tættan tættar tætti tættir tættist tættra tættrar tættri tætts tættu tættum tættumst tættur tættust tættuð tætum tætumst
+40	5140	lost	losta lostanna losti lostin lostinu lostið losts lostsins lostum lostunum
+41	5141	talning	talninga talninganna talningar talningarinnar talningarnar talningin talningu talningum talninguna talningunni talningunum
+42	5142	penn	pen pena penan penar penast penasta penastan penastar penasti penastir penastra penastrar penastri penasts penastur peni penir penna pennar penni pens pent penu penum penust penustu penustum
+43	5143	rakki	rakka rakkana rakkann rakkanna rakkans rakkanum rakkar rakkarnir rakkinn rökkum rökkunum
+44	5144	ermi	erma ermanna ermar ermarinnar ermarnar ermin ermina erminni ermum ermunum
+45	5145	nútíð	nútíða nútíðanna nútíðar nútíðarinnar nútíðin nútíðina nútíðinni nútíðir nútíðirnar nútíðum nútíðunum
+46	5146	tilkomumikill	tilkomumeira tilkomumeiri tilkomumest tilkomumesta tilkomumestan tilkomumestar tilkomumesti tilkomumestir tilkomumestra tilkomumestrar tilkomumestri tilkomumests tilkomumestu tilkomumestum tilkomumestur tilkomumikil tilkomumikilla tilkomumikillar tilkomumikilli tilkomumikils tilkomumikinn tilkomumikið tilkomumikla tilkomumiklar tilkomumikli tilkomumiklir tilkomumiklu tilkomumiklum
+47	5147	ról	róla rólanna róli rólin rólinu rólið róls rólsins rólum rólunum
+48	5148	aðgæta	aðgætandi aðgæti aðgætir aðgætið aðgætt aðgætti aðgættir aðgættu aðgættum aðgættuð aðgætum
+49	5149	kaf	kafa kafanna kafinu kafið kafs kafsins köf köfin köfum köfunum
+50	5150	uggi	ugga uggana uggann ugganna uggans ugganum uggar uggarnir ugginn uggum uggunum
+51	5151	ára	áran áranna árar árast árað áraði áraðir áraðist ári árir árist árið áru árum árumst áruna árunnar árunni árunum árur árurnar áruðu áruðum áruðumst áruðust áruðuð
+52	5152	flugstjóri	flugstjóra flugstjórana flugstjórann flugstjóranna flugstjórans flugstjóranum flugstjórar flugstjórarnir flugstjórinn flugstjórum flugstjórunum
+53	5153	kal	kala kali kalinn kalinu kalið kalnir kals kalsins
+54	5154	ragnhildur	ragnhildi
+55	5155	barþjónn	barþjón barþjóna barþjónana barþjónanna barþjónar barþjónarnir barþjóni barþjóninn barþjóninum barþjónninn barþjóns barþjónsins barþjónum barþjónunum
+56	5156	engi	engin enginu engis engisins engið engja engjanna engjum engjunum
+57	5157	nesti	nestinu nestis nestisins nestið
+58	5158	leiðbeinandi	leiðbeinanda leiðbeinandann leiðbeinandans leiðbeinandanum leiðbeinandinn leiðbeinenda leiðbeinendanna leiðbeinendum leiðbeinendunum leiðbeinendur leiðbeinendurna leiðbeinendurnir
+59	5159	hljóða	hljóðandi hljóðar hljóðast hljóðað hljóðaða hljóðaðan hljóðaðar hljóðaði hljóðaðir hljóðaðist hljóðaðra hljóðaðrar hljóðaðri hljóðaðs hljóðaðu hljóðaður hljóði hljóðir hljóðist hljóðið hljóðum hljóðumst hljóðuð hljóðuðu hljóðuðum hljóðuðumst hljóðuðust hljóðuðuð
+60	5160	tækur	tæk tæka tækan tækar tækara tækari tækast tækasta tækastan tækastar tækasti tækastir tækastra tækastrar tækastri tækasts tækastur tæki tækir tækra tækrar tækri tæks tækt tæku tækum tækust tækustu tækustum
+61	5161	prýðir	prýddri prýddu prýddur prýtt prýða prýðana prýðanna prýðar prýðarnir prýði prýðinn prýðinum prýðirinn prýðis prýðisins prýðum prýðunum
+62	5162	vistkerfi	vistkerfa vistkerfanna vistkerfin vistkerfinu vistkerfis vistkerfisins vistkerfið vistkerfum vistkerfunum
+63	5163	framhjáhald	framhjáhaldi framhjáhaldinu framhjáhaldið framhjáhalds framhjáhaldsins
+64	5164	rúða	rúðan rúðanna rúðna rúðnanna rúðu rúðum rúðuna rúðunnar rúðunni rúðunum rúður rúðurnar
+65	5165	rómantík	rómantíkin rómantíkina rómantíkinni rómantíkur rómantíkurinnar
+66	5166	asi	asa asann asans asanum asinn
+67	5167	lagning	lagninga lagninganna lagningar lagningarinnar lagningarnar lagningin lagningu lagningum lagninguna lagningunni lagningunum
+68	5168	hásæti	hásæta hásætanna hásætin hásætinu hásætis hásætisins hásætið hásætum hásætunum
+69	5169	hlera	hlerandi hlerar hlerast hlerað hleraða hleraðan hleraðar hleraði hleraðir hleraðist hleraðra hleraðrar hleraðri hleraðs hleraðu hleraður hleri hlerir hlerist hlerið hlerum hlerumst hleruð hleruðu hleruðum hleruðumst hleruðust hleruðuð
+70	5170	stjórnlaus	stjórnlausa stjórnlausan stjórnlausar stjórnlausara stjórnlausari stjórnlausast stjórnlausasta stjórnlausastan stjórnlausastar stjórnlausasti stjórnlausastir stjórnlausastra stjórnlausastrar stjórnlausastri stjórnlausasts stjórnlausastur stjórnlausi stjórnlausir stjórnlausra stjórnlausrar stjórnlausri stjórnlauss stjórnlaust stjórnlausu stjórnlausum stjórnlausust stjórnlausustu stjórnlausustum
+71	5171	eðla	eðlan eðlandi eðlanna eðlar eðlast eðlað eðlaði eðlaðir eðlaðist eðlaðu eðli eðlir eðlist eðlið eðlu eðlum eðlumst eðluna eðlunnar eðlunni eðlunum eðlur eðlurnar eðluðu eðluðum eðluðumst eðluðust eðluðuð
+72	5172	ógæfa	ógæfan ógæfu ógæfuna ógæfunnar ógæfunni
+73	5173	lífsgæði	lífsgæða lífsgæðanna lífsgæðin lífsgæðum lífsgæðunum
+74	5174	prófkjör	prófkjöra prófkjöranna prófkjöri prófkjörin prófkjörinu prófkjörið prófkjörs prófkjörsins prófkjörum prófkjörunum
+75	5175	hálsmen	hálsmena hálsmenanna hálsmeni hálsmenin hálsmeninu hálsmenið hálsmens hálsmensins hálsmenum hálsmenunum
+76	5176	skraut	skrauta skrautanna skrauti skrautin skrautinu skrautið skrauts skrautsins skrautum skrautunum
+77	5177	svakalegur	svakaleg svakalega svakalegan svakalegar svakalegast svakalegasta svakalegastan svakalegastar svakalegasti svakalegastir svakalegastra svakalegastrar svakalegastri svakalegasts svakalegastur svakalegi svakalegir svakalegra svakalegrar svakalegri svakalegs svakalegt svakalegu svakalegum svakalegust svakalegustu svakalegustum
+78	5178	þrái	þráa þráann þráans þráanum þráinn
+79	5179	veiki	veikin veikina veikinnar veikinni veikir veikirnar veikja veikjanna veikjum veikjunum
+80	5180	endurnýjun	endurnýjana endurnýjananna endurnýjanir endurnýjanirnar endurnýjunar endurnýjunarinnar endurnýjunin endurnýjunina endurnýjuninni endurnýjunum endurnýjununum
+81	5181	hörmulegur	hörmuleg hörmulega hörmulegan hörmulegar hörmulegast hörmulegasta hörmulegastan hörmulegastar hörmulegasti hörmulegastir hörmulegastra hörmulegastrar hörmulegastri hörmulegasts hörmulegastur hörmulegi hörmulegir hörmulegra hörmulegrar hörmulegri hörmulegs hörmulegt hörmulegu hörmulegum hörmulegust hörmulegustu hörmulegustum
+82	5182	sögulega	
+83	5183	aflétta	aflést aflétt afléttan afléttandi afléttar afléttast aflétti afléttir afléttist afléttið afléttra afléttrar afléttri aflétts afléttu afléttum afléttumst afléttur afléttust afléttuð
+84	5184	mannfólk	mannfólki mannfólkinu mannfólkið mannfólks mannfólksins
+85	5185	ruðningur	ruðning ruðninga ruðningana ruðninganna ruðningar ruðningarnir ruðningi ruðninginn ruðningnum ruðnings ruðningsins ruðningum ruðningunum ruðningurinn
+86	5186	skelfa	skelfandi skelfast skelfd skelfda skelfdan skelfdar skelfdi skelfdir skelfdist skelfdra skelfdrar skelfdri skelfds skelfdu skelfdum skelfdumst skelfdur skelfdust skelfduð skelfi skelfir skelfist skelfið skelfst skelft skelfum skelfumst
+87	5187	heimsveldi	heimsvelda heimsveldanna heimsveldin heimsveldinu heimsveldis heimsveldisins heimsveldið heimsveldum heimsveldunum
+88	5188	dýralæknir	dýralækna dýralæknana dýralæknanna dýralæknar dýralæknarnir dýralækni dýralækninn dýralækninum dýralæknirinn dýralæknis dýralæknisins dýralæknum dýralæknunum
+89	5189	nærföt	nærfata nærfatanna nærfötin nærfötum nærfötunum
+90	5190	lófi	lófa lófana lófann lófanna lófans lófanum lófar lófarnir lófinn lófum lófunum
+91	5191	aðalfundur	aðalfund aðalfunda aðalfundanna aðalfundar aðalfundarins aðalfundi aðalfundina aðalfundinn aðalfundinum aðalfundir aðalfundirnir aðalfundum aðalfundunum aðalfundurinn
+92	5192	áheyrandi	áheyranda áheyrandann áheyrandans áheyrandanum áheyrandinn áheyrenda áheyrendanna áheyrendum áheyrendunum áheyrendur áheyrendurna áheyrendurnir
+93	5193	álver	álvera álveranna álveri álverin álverinu álverið álvers álversins álverum álverunum
+94	5194	milliganga	milligangan milligöngu milligönguna milligöngunnar milligöngunni
+95	5195	efnafræði	efnafræðin efnafræðina efnafræðinnar efnafræðinni
+96	5196	svissneskur	svissnesk svissneska svissneskan svissneskar svissneskara svissneskari svissneskast svissneskasta svissneskastan svissneskastar svissneskasti svissneskastir svissneskastra svissneskastrar svissneskastri svissneskasts svissneskastur svissneski svissneskir svissneskra svissneskrar svissneskri svissnesks svissneskt svissnesku svissneskum svissneskust svissneskustu svissneskustum
+97	5197	gæða	gædd gædda gæddan gæddar gæddi gæddir gæddist gæddra gæddrar gæddri gædds gæddu gæddum gæddumst gæddur gæddust gædduð gætt gæðandi gæðast gæði gæðir gæðist gæðið gæðst gæðum gæðumst
+98	5198	neyðarástand	neyðarástandi neyðarástandinu neyðarástandið neyðarástands neyðarástandsins
+99	5199	viðnám	viðnámi viðnáminu viðnámið viðnáms viðnámsins
+100	5200	krani	krana kranana kranann krananna kranans krananum kranar kranarnir kraninn krönum krönunum

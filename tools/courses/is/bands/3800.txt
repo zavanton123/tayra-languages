@@ -1,0 +1,100 @@
+1	3701	slagsmál	slagsmála slagsmálanna slagsmálin slagsmálum slagsmálunum
+2	3702	afsláttur	afslátt afsláttar afsláttarins afsláttinn afsláttum afslátturinn afslætti afslættinum afslættir
+3	3703	bæklingur	bækling bæklinga bæklingana bæklinganna bæklingar bæklingarnir bæklingi bæklinginn bæklingnum bæklings bæklingsins bæklingum bæklingunum bæklingurinn
+4	3704	kaffibolli	kaffibolla kaffibollana kaffibollann kaffibollanna kaffibollans kaffibollanum kaffibollar kaffibollarnir kaffibollinn kaffibollum kaffibollunum
+5	3705	gretta	grest grett grettan grettandi grettar grettast gretti grettir grettist grettið grettna grettnanna grettra grettrar grettri gretts grettu grettum grettumst grettuna grettunnar grettunni grettunum grettur gretturnar grettust grettuð
+6	3706	óvís	óvísa óvísan óvísar óvísara óvísari óvísast óvísasta óvísastan óvísastar óvísasti óvísastir óvísastra óvísastrar óvísastri óvísasts óvísastur óvísi óvísir óvísra óvísrar óvísri óvíss óvíst óvísu óvísum óvísust óvísustu óvísustum
+7	3707	gagnlegur	gagnleg gagnlega gagnlegan gagnlegar gagnlegast gagnlegasta gagnlegastan gagnlegastar gagnlegasti gagnlegastir gagnlegastra gagnlegastrar gagnlegastri gagnlegasts gagnlegastur gagnlegi gagnlegir gagnlegra gagnlegrar gagnlegri gagnlegs gagnlegt gagnlegu gagnlegum gagnlegust gagnlegustu gagnlegustum
+8	3708	vísitala	vísitalan vísitalna vísitalnanna vísitölu vísitölum vísitöluna vísitölunnar vísitölunni vísitölunum vísitölur vísitölurnar
+9	3709	hró	hróa hróanna hrói hróin hróinu hróið hrós hrósins hróum hróunum
+10	3710	hagnýtur	hagnýt hagnýta hagnýtan hagnýtar hagnýtara hagnýtari hagnýtast hagnýtasta hagnýtastan hagnýtastar hagnýtasti hagnýtastir hagnýtastra hagnýtastrar hagnýtastri hagnýtasts hagnýtastur hagnýti hagnýtir hagnýtra hagnýtrar hagnýtri hagnýts hagnýtt hagnýtu hagnýtum hagnýtust hagnýtustu hagnýtustum
+11	3711	kringumstæður	kringumstæðna kringumstæðnanna kringumstæðum kringumstæðunum kringumstæðurnar
+12	3712	sprunga	sprungan sprungna sprungnanna sprungu sprungum sprunguna sprungunnar sprungunni sprungunum sprungur sprungurnar
+13	3713	einhleypur	einhleyp einhleypa einhleypan einhleypar einhleypi einhleypir einhleypra einhleyprar einhleypri einhleyps einhleypt einhleypu einhleypum
+14	3714	feldur	feld felda feldanna feldar feldarins feldi feldina feldinn feldinum feldir feldirnir feldum feldunum feldurinn
+15	3715	göfugur	göfug göfuga göfugan göfugar göfugast göfugasta göfugastan göfugastar göfugasti göfugastir göfugastra göfugastrar göfugastri göfugasts göfugastur göfugi göfugir göfugra göfugrar göfugri göfugs göfugt göfugu göfugum göfugust göfugustu göfugustum
+16	3716	ákvæði	ákvæða ákvæðanna ákvæðin ákvæðinu ákvæðis ákvæðisins ákvæðið ákvæðum ákvæðunum
+17	3717	eitraður	eitrað eitraða eitraðan eitraðar eitraðast eitraðasta eitraðastan eitraðastar eitraðasti eitraðastir eitraðastra eitraðastrar eitraðastri eitraðasts eitraðastur eitraði eitraðir eitraðra eitraðrar eitraðri eitraðs eitruð eitruðu eitruðum eitruðust eitruðustu eitruðustum
+18	3718	vottur	vott votta vottana vottanna vottar vottarnir votti vottinn vottinum votts vottsins vottum vottunum votturinn
+19	3719	næring	næringar næringarinnar næringin næringu næringuna næringunni
+20	3720	hilmir	hilmar
+21	3721	pása	pásan pásanna pásu pásum pásuna pásunnar pásunni pásunum pásur pásurnar
+22	3722	lagfæra	lagfærandi lagfærast lagfæri lagfærir lagfærist lagfærið lagfærst lagfært lagfærum lagfærumst lagfærð lagfærða lagfærðan lagfærðar lagfærði lagfærðir lagfærðist lagfærðra lagfærðrar lagfærðri lagfærðs lagfærðu lagfærðum lagfærðumst lagfærður lagfærðust lagfærðuð
+23	3723	sekt	sekta sektanna sektar sektarinnar sektin sektina sektinni sektir sektirnar sektum sektunum
+24	3724	manna	mannandi mannar mannast mannastu mannað mannaða mannaðan mannaðar mannaði mannaðir mannaðist mannaðra mannaðrar mannaðri mannaðs mannaðu mannaður manni mannir mannist mannið mönnum mönnumst mönnuð mönnuðu mönnuðum mönnuðumst mönnuðust mönnuðuð
+25	3725	áhrifamikill	áhrifameira áhrifameiri áhrifamest áhrifamesta áhrifamestan áhrifamestar áhrifamesti áhrifamestir áhrifamestra áhrifamestrar áhrifamestri áhrifamests áhrifamestu áhrifamestum áhrifamestur áhrifamikil áhrifamikilla áhrifamikillar áhrifamikilli áhrifamikils áhrifamikinn áhrifamikið áhrifamikla áhrifamiklar áhrifamikli áhrifamiklir áhrifamiklu áhrifamiklum
+26	3726	slátra	slátrandi slátrar slátrast slátrað slátraða slátraðan slátraðar slátraði slátraðir slátraðist slátraðra slátraðrar slátraðri slátraðs slátraðu slátraður slátri slátrir slátrist slátrið slátrum slátrumst slátruð slátruðu slátruðum slátruðumst slátruðust slátruðuð
+27	3727	hollusta	hollustan hollustu hollustuna hollustunnar hollustunni
+28	3728	úrgangur	úrgang úrgangi úrganginn úrganginum úrgangs úrgangsins úrgangurinn
+29	3729	líkan	líkana líkananna líkani líkaninu líkanið líkans líkansins líkön líkönin líkönum líkönunum
+30	3730	bulla	bullan bullandi bullanna bullar bullast bullað bullaða bullaðan bullaðar bullaði bullaðir bullaðist bullaðra bullaðrar bullaðri bullaðs bullaðu bullaður bulli bullir bullist bullið bullna bullnanna bullu bullum bullumst bulluna bullunnar bullunni bullunum bullur bullurnar bulluð bulluðu bulluðum bulluðumst bulluðust bulluðuð
+31	3731	útskýring	útskýringa útskýringanna útskýringar útskýringarinnar útskýringarnar útskýringin útskýringu útskýringum útskýringuna útskýringunni útskýringunum
+32	3732	skothríð	skothríða skothríðanna skothríðar skothríðarinnar skothríðin skothríðina skothríðinni skothríðir skothríðirnar skothríðum skothríðunum
+33	3733	skola	skolandi skolar skolast skolað skolaða skolaðan skolaðar skolaði skolaðir skolaðist skolaðra skolaðrar skolaðri skolaðs skolaðu skolaður skoli skolir skolist skolið skolum skolumst skoluð skoluðu skoluðum skoluðumst skoluðust skoluðuð
+34	3734	vænting	væntinga væntinganna væntingar væntingarinnar væntingarnar væntingin væntingu væntingum væntinguna væntingunni væntingunum
+35	3735	túr	túra túrana túranna túrar túrarnir túrinn túrnum túrs túrsins túrum túrunum
+36	3736	erfingi	erfinginn erfingja erfingjana erfingjann erfingjanna erfingjans erfingjanum erfingjar erfingjarnir erfingjum erfingjunum
+37	3737	reipi	reipa reipanna reipin reipinu reipis reipisins reipið reipum reipunum
+38	3738	óljóst	óljósar óljósast
+39	3739	skilmáli	skilmála skilmálana skilmálann skilmálanna skilmálans skilmálanum skilmálar skilmálarnir skilmálinn skilmálum skilmálunum
+40	3740	stæll	stæl stæla stælana stælanna stælar stælarnir stælinn stællinn stælnum stæls stælsins stælt stæltan stæltar stæltir stæltur stælum stælunum
+41	3741	ítarlega	ítarlegar ítarlegast
+42	3742	klandur	klandri klandrinu klandrið klandurs klandursins
+43	3743	færsla	færslan færslna færslnanna færslu færslum færsluna færslunnar færslunni færslunum færslur færslurnar
+44	3744	samtími	samtíma samtímann samtímans samtímanum samtíminn
+45	3745	líffæri	líffæra líffæranna líffærin líffærinu líffæris líffærisins líffærið líffærum líffærunum
+46	3746	valdur	valdan valdar valdi valdir valdra valdrar valdri valds valt völd völdu völdum
+47	3747	geð	geða geðanna geði geðin geðinu geðið geðs geðsins geðum geðunum
+48	3748	rista	rist ristan ristandi ristanna ristar ristast ristað ristaða ristaðan ristaðar ristaði ristaðir ristaðist ristaðra ristaðrar ristaðri ristaðs ristaðu ristaður risti ristir ristist ristið ristra ristrar ristri rists ristu ristum ristumst ristuna ristunnar ristunni ristunum ristur risturnar ristuð ristuðu ristuðum ristuðumst ristuðust ristuðuð
+49	3749	reiðast	reiddist reiddumst reiddust reiðist reiðistu reiðst reiðstu reiðumst
+50	3750	girðing	girðinga girðinganna girðingar girðingarinnar girðingarnar girðingin girðingu girðingum girðinguna girðingunni girðingunum
+51	3751	kvittun	kvittana kvittananna kvittanir kvittanirnar kvittunar kvittunarinnar kvittunin kvittunina kvittuninni kvittunum kvittununum
+52	3752	hvarf	hvarfa hvarfanna hvarfi hvarfinu hvarfið hvarfs hvarfsins hvörf hvörfin hvörfum hvörfunum
+53	3753	afkomandi	afkomanda afkomandann afkomandans afkomandanum afkomandinn afkomenda afkomendanna afkomendum afkomendunum afkomendur afkomendurna afkomendurnir
+54	3754	fatnaður	fatnað fatnaðar fatnaðarins fatnaði fatnaðinn fatnaðinum fatnaðnum fatnaðurinn
+55	3755	svei	
+56	3756	kippa	kippan kippandi kippanna kippast kippi kippir kippist kippið kippna kippnanna kippst kippt kippti kipptir kipptist kipptu kipptum kipptumst kipptust kipptuð kippu kippum kippumst kippuna kippunnar kippunni kippunum kippur kippurnar
+57	3757	mala	malandi malar malast malað malaða malaðan malaðar malaði malaðir malaðist malaðra malaðrar malaðri malaðs malaðu malaður mali malir malist malið mölum mölumst möluð möluðu möluðum möluðumst möluðust möluðuð
+58	3758	sjálfstæðismaður	sjálfstæðismann sjálfstæðismanna sjálfstæðismannanna sjálfstæðismanni sjálfstæðismanninn sjálfstæðismanninum sjálfstæðismanns sjálfstæðismannsins sjálfstæðismaðurinn sjálfstæðismenn sjálfstæðismennina sjálfstæðismennirnir sjálfstæðismönnum sjálfstæðismönnunum
+59	3759	mælikvarði	mælikvarða mælikvarðana mælikvarðann mælikvarðanna mælikvarðans mælikvarðanum mælikvarðar mælikvarðarnir mælikvarðinn mælikvörðum mælikvörðunum
+60	3760	þýðandi	þýðanda þýðandann þýðandans þýðandanum þýðandinn þýðenda þýðendanna þýðendum þýðendunum þýðendur þýðendurna þýðendurnir
+61	3761	sirkus	sirkusa sirkusana sirkusanna sirkusar sirkusarnir sirkusinn sirkusnum sirkuss sirkussins sirkusum sirkusunum
+62	3762	umbreyta	umbreyst umbreytandi umbreytast umbreyti umbreytir umbreytist umbreytið umbreytt umbreytta umbreyttan umbreyttar umbreytti umbreyttir umbreyttist umbreyttra umbreyttrar umbreyttri umbreytts umbreyttu umbreyttum umbreyttumst umbreyttur umbreyttust umbreyttuð umbreytum umbreytumst
+63	3763	undanskilinn	undanskilda undanskildar undanskildi undanskildir undanskildu undanskildum undanskilin undanskilinna undanskilinnar undanskilinni undanskilins undanskilið
+64	3764	sýra	sýran sýranna sýru sýrum sýruna sýrunnar sýrunni sýrunum sýrur sýrurnar
+65	3765	þjóðleikhús	þjóðleikhúsa þjóðleikhúsanna þjóðleikhúsi þjóðleikhúsin þjóðleikhúsinu þjóðleikhúsið þjóðleikhúss þjóðleikhússins þjóðleikhúsum þjóðleikhúsunum
+66	3766	höfuðverkur	höfuðverk höfuðverki höfuðverkina höfuðverkinn höfuðverkir höfuðverkirnir höfuðverkja höfuðverkjanna höfuðverkjar höfuðverkjarins höfuðverkjum höfuðverkjunum höfuðverknum höfuðverkurinn
+67	3767	jakkaföt	jakkafata jakkafatanna jakkafötin jakkafötum jakkafötunum
+68	3768	varðstjóri	varðstjóra varðstjórana varðstjórann varðstjóranna varðstjórans varðstjóranum varðstjórar varðstjórarnir varðstjórinn varðstjórum varðstjórunum
+69	3769	foreldri	foreldrinu foreldris foreldrisins foreldrið
+70	3770	riðill	riðil riðilinn riðillinn riðils riðilsins riðla riðlana riðlanna riðlar riðlarnir riðli riðlinum riðlum riðlunum
+71	3771	forfaðir	forfaðirinn forfeðra forfeðranna forfeðrum forfeðrunum forfeður forfeðurna forfeðurnir forföður forföðurinn forföðurins forföðurnum
+72	3772	stríðsmaður	stríðsmann stríðsmanna stríðsmannanna stríðsmanni stríðsmanninn stríðsmanninum stríðsmanns stríðsmannsins stríðsmaðurinn stríðsmenn stríðsmennina stríðsmennirnir stríðsmönnum stríðsmönnunum
+73	3773	dónalegur	dónaleg dónalega dónalegan dónalegar dónalegast dónalegasta dónalegastan dónalegastar dónalegasti dónalegastir dónalegastra dónalegastrar dónalegastri dónalegasts dónalegastur dónalegi dónalegir dónalegra dónalegrar dónalegri dónalegs dónalegt dónalegu dónalegum dónalegust dónalegustu dónalegustum
+74	3774	yfirheyrsla	yfirheyrslan yfirheyrslanna yfirheyrslu yfirheyrslum yfirheyrsluna yfirheyrslunnar yfirheyrslunni yfirheyrslunum yfirheyrslur yfirheyrslurnar
+75	3775	aukning	aukninga aukninganna aukningar aukningarinnar aukningarnar aukningin aukningu aukningum aukninguna aukningunni aukningunum
+76	3776	patti	patta pattana pattann pattanna pattans pattanum pattar pattarnir pattinn pöttum pöttunum
+77	3777	kunnuglegur	kunnugleg kunnuglega kunnuglegan kunnuglegar kunnuglegast kunnuglegasta kunnuglegastan kunnuglegastar kunnuglegasti kunnuglegastir kunnuglegastra kunnuglegastrar kunnuglegastri kunnuglegasts kunnuglegastur kunnuglegi kunnuglegir kunnuglegra kunnuglegrar kunnuglegri kunnuglegs kunnuglegt kunnuglegu kunnuglegum kunnuglegust kunnuglegustu kunnuglegustum
+78	3778	hjartsláttur	hjartslátt hjartsláttar hjartsláttarins hjartsláttinn hjartslátturinn hjartslætti hjartslættinum
+79	3779	nýsköpun	nýsköpunar nýsköpunarinnar nýsköpunin nýsköpunina nýsköpuninni
+80	3780	totta	tottandi tottar tottast tottað tottaða tottaðan tottaðar tottaði tottaðir tottaðist tottaðra tottaðrar tottaðri tottaðs tottaðu tottaður totti tottir tottist tottið tottum tottumst tottuð tottuðu tottuðum tottuðumst tottuðust tottuðuð
+81	3781	yfirtaka	yfirtakan yfirtakandi yfirtakanna yfirtaki yfirtakir yfirtakið yfirtakna yfirtaknanna yfirtaktu yfirtek yfirtekin yfirtekinn yfirtekinna yfirtekinnar yfirtekinni yfirtekins yfirtekið yfirtekna yfirteknar yfirtekni yfirteknir yfirteknu yfirteknum yfirtekur yfirtæki yfirtækir yfirtækju yfirtækjum yfirtækjuð yfirtók yfirtókst yfirtóku yfirtókum yfirtókuð yfirtöku yfirtökum yfirtökuna yfirtökunnar yfirtökunni yfirtökunum yfirtökur yfirtökurnar
+82	3782	dýrmætur	dýrmæt dýrmæta dýrmætan dýrmætar dýrmætara dýrmætari dýrmætast dýrmætasta dýrmætastan dýrmætastar dýrmætasti dýrmætastir dýrmætastra dýrmætastrar dýrmætastri dýrmætasts dýrmætastur dýrmæti dýrmætir dýrmætra dýrmætrar dýrmætri dýrmæts dýrmætt dýrmætu dýrmætum dýrmætust dýrmætustu dýrmætustum
+83	3783	fús	fúsa fúsan fúsar fúsara fúsari fúsast fúsasta fúsastan fúsastar fúsasti fúsastir fúsastra fúsastrar fúsastri fúsasts fúsastur fúsi fúsir fúsra fúsrar fúsri fúss fúst fúsu fúsum fúsust fúsustu fúsustum
+84	3784	fordæmi	fordæma fordæmanna fordæmin fordæminu fordæmis fordæmisins fordæmið fordæmum fordæmunum
+85	3785	eir	eiri eirinn eirinu eirið eirnum eirs eirsins
+86	3786	úrskurða	úrskurðandi úrskurðar úrskurðast úrskurðað úrskurðaða úrskurðaðan úrskurðaðar úrskurðaði úrskurðaðir úrskurðaðist úrskurðaðra úrskurðaðrar úrskurðaðri úrskurðaðs úrskurðaðu úrskurðaður úrskurði úrskurðir úrskurðist úrskurðið úrskurðum úrskurðumst úrskurðuð úrskurðuðu úrskurðuðum úrskurðuðumst úrskurðuðust úrskurðuðuð
+87	3787	taugaóstyrkur	taugaóstyrk taugaóstyrka taugaóstyrkan taugaóstyrkar taugaóstyrkara taugaóstyrkari taugaóstyrkast taugaóstyrkasta taugaóstyrkastan taugaóstyrkastar taugaóstyrkasti taugaóstyrkastir taugaóstyrkastra taugaóstyrkastrar taugaóstyrkastri taugaóstyrkasts taugaóstyrkastur taugaóstyrki taugaóstyrkir taugaóstyrkra taugaóstyrkrar taugaóstyrkri taugaóstyrks taugaóstyrkt taugaóstyrku taugaóstyrkum taugaóstyrkust taugaóstyrkustu taugaóstyrkustum
+88	3788	gjörsamlega	
+89	3789	ráðamaður	ráðamann ráðamanna ráðamannanna ráðamanni ráðamanninn ráðamanninum ráðamanns ráðamannsins ráðamaðurinn ráðamenn ráðamennina ráðamennirnir ráðamönnum ráðamönnunum
+90	3790	rafrænn	rafræn rafræna rafrænan rafrænar rafræni rafrænir rafrænna rafrænnar rafrænni rafræns rafrænt rafrænu rafrænum
+91	3791	afnema	afnam afnamst afnem afnemandi afnemdu afnemi afnemir afnemið afnemum afnemur afnumda afnumdar afnumdi afnumdir afnumdu afnumdum afnumin afnuminn afnuminna afnuminnar afnuminni afnumins afnumið afnámu afnámum afnámuð afnæmi afnæmir afnæmu afnæmum afnæmuð
+92	3792	þjóta	þaust þaut þjótandi þjóti þjótir þjótið þjóttu þjótum þotin þotinn þotinna þotinnar þotinni þotins þotið þotna þotnar þotni þotnir þotnu þotnum þutu þutum þutuð þyti þytir þytu þytum þytuð þýt þýtur
+93	3793	fjölgun	fjölgana fjölgananna fjölganir fjölganirnar fjölgunar fjölgunarinnar fjölgunin fjölgunina fjölguninni fjölgunum fjölgununum
+94	3794	þéttbýli	þéttbýlinu þéttbýlis þéttbýlisins þéttbýlið
+95	3795	ræningi	ræninginn ræningja ræningjana ræningjann ræningjanna ræningjans ræningjanum ræningjar ræningjarnir ræningjum ræningjunum
+96	3796	miðaldir	miðalda miðaldanna miðaldirnar miðöldum miðöldunum
+97	3797	altari	altara altaranna altarin altarinu altaris altarisins altarið altörum altörunum ölturu ölturum ölturun ölturunum
+98	3798	kápa	kápan kápanna kápna kápnanna kápu kápum kápuna kápunnar kápunni kápunum kápur kápurnar
+99	3799	afgerandi	
+100	3800	mannslíf	mannslífa mannslífanna mannslífi mannslífin mannslífinu mannslífið mannslífs mannslífsins mannslífum mannslífunum

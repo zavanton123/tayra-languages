@@ -1,0 +1,100 @@
+1	4201	dauðhræddur	dauðhrædd dauðhrædda dauðhræddan dauðhræddar dauðhræddi dauðhræddir dauðhræddra dauðhræddrar dauðhræddri dauðhrædds dauðhræddu dauðhræddum dauðhrætt
+2	4202	bófi	bófa bófana bófann bófanna bófans bófanum bófar bófarnir bófinn bófum bófunum
+3	4203	heimsmeistaramót	heimsmeistaramóta heimsmeistaramótanna heimsmeistaramóti heimsmeistaramótin heimsmeistaramótinu heimsmeistaramótið heimsmeistaramóts heimsmeistaramótsins heimsmeistaramótum heimsmeistaramótunum
+4	4204	frumskógur	frumskóg frumskóga frumskógana frumskóganna frumskógar frumskógarins frumskógarnir frumskógi frumskóginn frumskóginum frumskógum frumskógunum frumskógurinn
+5	4205	áburður	áburð áburða áburðanna áburðar áburðarins áburði áburðina áburðinn áburðinum áburðir áburðirnir áburðum áburðunum áburðurinn
+6	4206	flötur	flata flatanna flatar flatarins fleti fletina fletinum fletir fletirnir flöt flötinn flötum flötunum flöturinn
+7	4207	kosningabarátta	kosningabaráttan kosningabaráttu kosningabaráttuna kosningabaráttunnar kosningabaráttunni
+8	4208	meðganga	meðgangan meðgangi meðgangir meðgangirðu meðgangið meðgangna meðgangnanna meðgekk meðgekkst meðgekkstu meðgeng meðgengi meðgengin meðgenginn meðgenginna meðgenginnar meðgenginni meðgengins meðgengir meðgengirðu meðgengið meðgengju meðgengjum meðgengjuð meðgengna meðgengnar meðgengni meðgengnir meðgengnu meðgengnum meðgengu meðgengum meðgengur meðgengurðu meðgenguð meðgöngu meðgöngum meðgönguna meðgöngunnar meðgöngunni meðgöngunum meðgöngur meðgöngurnar
+9	4209	samráð	samráða samráðanna samráði samráðin samráðinu samráðið samráðs samráðsins samráðum samráðunum
+10	4210	fræðsla	fræðslan fræðslu fræðsluna fræðslunnar fræðslunni
+11	4211	grínisti	grínista grínistana grínistann grínistanna grínistans grínistanum grínistar grínistarnir grínistinn grínistum grínistunum
+12	4212	þungt	þyngra þyngst
+13	4213	reiðhjól	reiðhjóla reiðhjólanna reiðhjóli reiðhjólin reiðhjólinu reiðhjólið reiðhjóls reiðhjólsins reiðhjólum reiðhjólunum
+14	4214	nikka	nikkan nikkandi nikkanna nikkar nikkast nikkað nikkaða nikkaðan nikkaðar nikkaði nikkaðir nikkaðist nikkaðra nikkaðrar nikkaðri nikkaðs nikkaðu nikkaður nikki nikkir nikkist nikkið nikkna nikknanna nikku nikkum nikkumst nikkuna nikkunnar nikkunni nikkunum nikkur nikkurnar nikkuð nikkuðu nikkuðum nikkuðumst nikkuðust nikkuðuð
+15	4215	tilgangslaus	tilgangslausa tilgangslausan tilgangslausar tilgangslausara tilgangslausari tilgangslausast tilgangslausasta tilgangslausastan tilgangslausastar tilgangslausasti tilgangslausastir tilgangslausastra tilgangslausastrar tilgangslausastri tilgangslausasts tilgangslausastur tilgangslausi tilgangslausir tilgangslausra tilgangslausrar tilgangslausri tilgangslauss tilgangslaust tilgangslausu tilgangslausum tilgangslausust tilgangslausustu tilgangslausustum
+16	4216	fátækt	fátæktar fátæktarinnar fátæktin fátæktina fátæktinni
+17	4217	spinna	spann spannst spannstu spinn spinnandi spinnast spinni spinnir spinnirðu spinnist spinnið spinnst spinnstu spinnum spinnumst spinnur spinnurðu spunna spunnar spunni spunnin spunninn spunninna spunninnar spunninni spunnins spunnir spunnist spunnið spunnu spunnum spunnumst spunnust spunnuð spynni spynnir spynnirðu spynnist spynnu spynnum spynnumst spynnust spynnuð
+18	4218	fólginn	fólgin fólginna fólginnar fólginni fólgins fólgið fólgna fólgnar fólgnara fólgnari fólgnast fólgnasta fólgnastan fólgnastar fólgnasti fólgnastir fólgnastra fólgnastrar fólgnastri fólgnasts fólgnastur fólgni fólgnir fólgnu fólgnum fólgnust fólgnustu fólgnustum
+19	4219	erkibiskup	erkibiskupa erkibiskupana erkibiskupanna erkibiskupar erkibiskuparnir erkibiskupi erkibiskupinn erkibiskupinum erkibiskupnum erkibiskups erkibiskupsins erkibiskupum erkibiskupunum
+20	4220	minnihluti	minnihluta minnihlutana minnihlutann minnihlutanna minnihlutans minnihlutanum minnihlutar minnihlutarnir minnihlutinn minnihlutum minnihlutunum
+21	4221	vafasamur	vafasama vafasaman vafasamar vafasamara vafasamari vafasamast vafasamasta vafasamastan vafasamastar vafasamasti vafasamastir vafasamastra vafasamastrar vafasamastri vafasamasts vafasamastur vafasami vafasamir vafasamra vafasamrar vafasamri vafasams vafasamt vafasöm vafasömu vafasömum vafasömust vafasömustu vafasömustum
+22	4222	skjálfti	skjálfta skjálftana skjálftann skjálftanna skjálftans skjálftanum skjálftar skjálftarnir skjálftinn skjálftum skjálftunum
+23	4223	leikstýra	leikstýrandi leikstýrast leikstýri leikstýrir leikstýrirðu leikstýrið leikstýrst leikstýrt leikstýrum leikstýrð leikstýrða leikstýrðan leikstýrðar leikstýrði leikstýrðir leikstýrðra leikstýrðrar leikstýrðri leikstýrðs leikstýrðu leikstýrðum leikstýrður leikstýrðuð
+24	4224	barna	barnandi barnar barnað barnaða barnaðan barnaðar barnaði barnaðir barnaðirðu barnaðra barnaðrar barnaðri barnaðs barnaðu barnaður barni barnir barnið börnum börnuð börnuðu börnuðum börnuðuð
+25	4225	matargerð	matargerðar matargerðarinnar matargerðin matargerðina matargerðinni
+26	4226	staðgengill	staðgengil staðgengilinn staðgengillinn staðgengils staðgengilsins staðgengla staðgenglana staðgenglanna staðgenglar staðgenglarnir staðgengli staðgenglinum staðgenglum staðgenglunum
+27	4227	nunna	nunnan nunnanna nunnu nunnum nunnuna nunnunnar nunnunni nunnunum nunnur nunnurnar
+28	4228	landshluti	landshluta landshlutana landshlutann landshlutanna landshlutans landshlutanum landshlutar landshlutarnir landshlutinn landshlutum landshlutunum
+29	4229	framlenging	framlenginga framlenginganna framlengingar framlengingarinnar framlengingarnar framlengingin framlengingu framlengingum framlenginguna framlengingunni framlengingunum
+30	4230	kynferðislega	
+31	4231	lampi	lampa lampana lampann lampanna lampans lampanum lampar lamparnir lampinn lömpum lömpunum
+32	4232	stjórnarandstaða	stjórnarandstaðan stjórnarandstöðu stjórnarandstöðuna stjórnarandstöðunnar stjórnarandstöðunni
+33	4233	settur	sett setta settan settar settara settari settast settasta settastan settastar settasti settastir settastra settastrar settastri settasts settastur setti settir settra settrar settri setts settu settum settust settustu settustum
+34	4234	varkár	varkára varkáran varkárar varkárara varkárari varkárast varkárasta varkárastan varkárastar varkárasti varkárastir varkárastra varkárastrar varkárastri varkárasts varkárastur varkári varkárir varkárra varkárrar varkárri varkárs varkárt varkáru varkárum varkárust varkárustu varkárustum
+35	4235	got	goti gotinu gotið gots gotsins
+36	4236	aftaka	aftakan aftakandi aftakanna aftakast aftaki aftakir aftakirðu aftakist aftakið aftakna aftaknanna aftaktu aftek aftekin aftekinn aftekinna aftekinnar aftekinni aftekins aftekist aftekið aftekna afteknar aftekni afteknir afteknu afteknum aftekst aftekur aftekurðu aftæki aftækir aftækirðu aftækist aftækju aftækjum aftækjumst aftækjust aftækjuð aftók aftókst aftókstu aftóku aftókum aftókumst aftókust aftókuð aftöku aftökum aftökumst aftökuna aftökunnar aftökunni aftökunum aftökur aftökurnar
+37	4237	fyrirvari	fyrirvara fyrirvarana fyrirvarann fyrirvaranna fyrirvarans fyrirvaranum fyrirvarar fyrirvararnir fyrirvarinn fyrirvörum fyrirvörunum
+38	4238	ónáða	ónáðandi ónáðar ónáðast ónáðað ónáðaða ónáðaðan ónáðaðar ónáðaði ónáðaðir ónáðaðist ónáðaðra ónáðaðrar ónáðaðri ónáðaðs ónáðaðu ónáðaður ónáði ónáðir ónáðist ónáðið ónáðum ónáðumst ónáðuð ónáðuðu ónáðuðum ónáðuðumst ónáðuðust ónáðuðuð
+39	4239	bókhald	bókhaldi bókhaldinu bókhaldið bókhalds bókhaldsins
+40	4240	mannvera	mannveran mannveranna mannveru mannverum mannveruna mannverunnar mannverunni mannverunum mannverur mannverurnar
+41	4241	vilji	vilja viljann viljans viljanum viljinn
+42	4242	hliðstæður	hliðstætt hliðstæð hliðstæða hliðstæðan hliðstæðar hliðstæðara hliðstæðari hliðstæðast hliðstæðasta hliðstæðastan hliðstæðastar hliðstæðasti hliðstæðastir hliðstæðastra hliðstæðastrar hliðstæðastri hliðstæðasts hliðstæðastur hliðstæði hliðstæðir hliðstæðra hliðstæðrar hliðstæðri hliðstæðs hliðstæðu hliðstæðum hliðstæðust hliðstæðustu hliðstæðustum
+43	4243	stjórnkerfi	stjórnkerfa stjórnkerfanna stjórnkerfin stjórnkerfinu stjórnkerfis stjórnkerfisins stjórnkerfið stjórnkerfum stjórnkerfunum
+44	4244	dómsmálaráðuneyti	dómsmálaráðuneyta dómsmálaráðuneytanna dómsmálaráðuneytin dómsmálaráðuneytinu dómsmálaráðuneytis dómsmálaráðuneytisins dómsmálaráðuneytið dómsmálaráðuneytum dómsmálaráðuneytunum
+45	4245	port	porta portanna porti portin portinu portið ports portsins portum portunum
+46	4246	töf	tafa tafanna tafar tafarinnar tafir tafirnar töfin töfina töfinni töfum töfunum
+47	4247	innsæi	innsæinu innsæis innsæisins innsæið
+48	4248	geimfari	geimfara geimfarana geimfarann geimfaranna geimfarans geimfaranum geimfarar geimfararnir geimfarinn geimförum geimförunum
+49	4249	lýður	lýð lýða lýðanna lýði lýðina lýðinn lýðir lýðirnir lýðnum lýðs lýðsins lýðum lýðunum lýðurinn
+50	4250	dáti	dáta dátana dátann dátanna dátans dátanum dátar dátarnir dátinn dátum dátunum
+51	4251	sextíu	
+52	4252	tól	tóla tólanna tóli tólin tólinu tólið tóls tólsins tólum tólunum
+53	4253	loftslag	loftslagi loftslaginu loftslagið loftslags loftslagsins
+54	4254	blæðing	blæðinga blæðinganna blæðingar blæðingarinnar blæðingarnar blæðingin blæðingu blæðingum blæðinguna blæðingunni blæðingunum
+55	4255	strá	stráa stráanna strái stráin stráinu stráir stráirðu stráist stráið strás strásins strást stráum stráumst stráunum stráð stráða stráðan stráðar stráði stráðir stráðist stráðra stráðrar stráðri stráðs stráðst stráðu stráðum stráðumst stráður stráðust stráðuð
+56	4256	mágur	mág mága mágana máganna mágar mágarnir mági máginn máginum mágs mágsins mágum mágunum mágurinn
+57	4257	hrár	hrá hráa hráan hráar hráast hráasta hráastan hráastar hráasti hráastir hráastra hráastrar hráastri hráasts hráastur hrái hráir hrárra hrárrar hrárri hrás hrátt hráu hráum hráust hráustu hráustum
+58	4258	heimilislaus	heimilislausa heimilislausan heimilislausar heimilislausi heimilislausir heimilislausra heimilislausrar heimilislausri heimilislauss heimilislaust heimilislausu heimilislausum
+59	4259	fáanlegur	fáanleg fáanlega fáanlegan fáanlegar fáanlegast fáanlegasta fáanlegastan fáanlegastar fáanlegasti fáanlegastir fáanlegastra fáanlegastrar fáanlegastri fáanlegasts fáanlegastur fáanlegi fáanlegir fáanlegra fáanlegrar fáanlegri fáanlegs fáanlegt fáanlegu fáanlegum fáanlegust fáanlegustu fáanlegustum
+60	4260	teiti	teita teitanna teitin teitinu teitis teitisins teitið teitum teitunum
+61	4261	forlag	forlaga forlaganna forlagi forlaginu forlagið forlags forlagsins forlög forlögin forlögum forlögunum
+62	4262	héraðsdómur	héraðsdóm héraðsdóma héraðsdómana héraðsdómanna héraðsdómar héraðsdómarnir héraðsdómi héraðsdóminn héraðsdóminum héraðsdómnum héraðsdóms héraðsdómsins héraðsdómum héraðsdómunum héraðsdómurinn
+63	4263	hólf	hólfa hólfanna hólfi hólfin hólfinu hólfið hólfs hólfsins hólfum hólfunum
+64	4264	goð	goða goðanna goði goðin goðinu goðið goðs goðsins goðum goðunum
+65	4265	fjölbreytni	fjölbreytnin fjölbreytnina fjölbreytninnar fjölbreytninni
+66	4266	ómerkilegur	ómerkileg ómerkilega ómerkilegan ómerkilegar ómerkilegast ómerkilegasta ómerkilegastan ómerkilegastar ómerkilegasti ómerkilegastir ómerkilegastra ómerkilegastrar ómerkilegastri ómerkilegasts ómerkilegastur ómerkilegi ómerkilegir ómerkilegra ómerkilegrar ómerkilegri ómerkilegs ómerkilegt ómerkilegu ómerkilegum ómerkilegust ómerkilegustu ómerkilegustum
+67	4267	kynæsandi	
+68	4268	yfirburður	yfirburð yfirburða yfirburðanna yfirburðar yfirburðarins yfirburði yfirburðina yfirburðinn yfirburðinum yfirburðir yfirburðirnir yfirburðum yfirburðunum yfirburðurinn
+69	4269	væntanlegur	væntanleg væntanlega væntanlegan væntanlegar væntanlegast væntanlegasta væntanlegastan væntanlegastar væntanlegasti væntanlegastir væntanlegastra væntanlegastrar væntanlegastri væntanlegasts væntanlegastur væntanlegi væntanlegir væntanlegra væntanlegrar væntanlegri væntanlegs væntanlegt væntanlegu væntanlegum væntanlegust væntanlegustu væntanlegustum
+70	4270	margoft	
+71	4271	dala	dalandi dalar dalast dalað dalaða dalaðan dalaðar dalaði dalaðir dalaðist dalaðra dalaðrar dalaðri dalaðs dalaðu dalaður dali dalir dalist dalið dölum dölumst döluð döluðu döluðum döluðumst döluðust döluðuð
+72	4272	barmur	barm barma barmana barmanna barmar barmarnir barmi barminn barminum barms barmsins barmurinn börmum börmunum
+73	4273	menningarlegur	menningarleg menningarlega menningarlegan menningarlegar menningarlegast menningarlegasta menningarlegastan menningarlegastar menningarlegasti menningarlegastir menningarlegastra menningarlegastrar menningarlegastri menningarlegasts menningarlegastur menningarlegi menningarlegir menningarlegra menningarlegrar menningarlegri menningarlegs menningarlegt menningarlegu menningarlegum menningarlegust menningarlegustu menningarlegustum
+74	4274	skammbyssa	skammbyssan skammbyssanna skammbyssna skammbyssnanna skammbyssu skammbyssum skammbyssuna skammbyssunnar skammbyssunni skammbyssunum skammbyssur skammbyssurnar
+75	4275	mörgæs	mörgæsa mörgæsanna mörgæsar mörgæsarinnar mörgæsin mörgæsina mörgæsinni mörgæsir mörgæsirnar mörgæsum mörgæsunum
+76	4276	iðra	iðrandi iðrar iðrast iðrastu iðrað iðraði iðraðist iðri iðrist iðrumst iðruðumst iðruðust
+77	4277	dansleikur	dansleik dansleiki dansleikina dansleikinn dansleikir dansleikirnir dansleikja dansleikjanna dansleikjum dansleikjunum dansleiknum dansleiks dansleiksins dansleikurinn
+78	4278	bæjarfulltrúi	bæjarfulltrúa bæjarfulltrúana bæjarfulltrúann bæjarfulltrúanna bæjarfulltrúans bæjarfulltrúanum bæjarfulltrúar bæjarfulltrúarnir bæjarfulltrúinn bæjarfulltrúum bæjarfulltrúunum
+79	4279	handhafi	handhafa handhafana handhafann handhafanna handhafans handhafanum handhafar handhafarnir handhafinn handhöfum handhöfunum
+80	4280	bót	bæturnar bóta bótanna bótar bótarinnar bótin bótina bótinni bótum bótunum
+81	4281	dálkur	dálk dálka dálkana dálkanna dálkar dálkarnir dálki dálkinn dálkinum dálknum dálks dálksins dálkum dálkunum dálkurinn
+82	4282	skáti	skáta skátana skátann skátanna skátans skátanum skátar skátarnir skátinn skátum skátunum
+83	4283	edrú	
+84	4284	ráðstöfun	ráðstafana ráðstafananna ráðstafanir ráðstafanirnar ráðstöfunar ráðstöfunarinnar ráðstöfunin ráðstöfunina ráðstöfuninni ráðstöfunum ráðstöfununum
+85	4285	smyrja	smurst smurt smurð smurða smurðan smurðar smurði smurðir smurðirðu smurðist smurðra smurðrar smurðri smurðs smurðu smurðum smurðumst smurður smurðust smurðuð smyr smyrjandi smyrjast smyrji smyrjir smyrjist smyrjið smyrjum smyrjumst smyrst smyrð smyrði smyrðir smyrðist smyrðu smyrðum smyrðumst smyrðust smyrðuð
+86	4286	leiftur	leiftra leiftrana leiftranna leiftrar leiftrarnir leiftri leiftrin leiftrinu leiftrinum leiftrið leiftrum leiftrunum leifturinn leifturs leiftursins
+87	4287	eystra	
+88	4288	söguþráður	söguþráð söguþráða söguþráðanna söguþráðar söguþráðarins söguþráðinn söguþráðum söguþráðunum söguþráðurinn söguþræði söguþræðina söguþræðinum söguþræðir söguþræðirnir
+89	4289	flugtak	flugtaka flugtakanna flugtaki flugtakinu flugtakið flugtaks flugtaksins flugtök flugtökin flugtökum flugtökunum
+90	4290	kurt	
+91	4291	hálendi	hálendinu hálendis hálendisins hálendið
+92	4292	yndislega	yndislegar yndislegast
+93	4293	álög	álaga álaganna álögin álögum álögunum
+94	4294	næringarefni	næringarefna næringarefnanna næringarefnin næringarefninu næringarefnis næringarefnisins næringarefnið næringarefnum næringarefnunum
+95	4295	vígvöllur	vígvalla vígvallanna vígvallar vígvallarins vígvelli vígvellina vígvellinum vígvellir vígvellirnir vígvöll vígvöllinn vígvöllum vígvöllunum vígvöllurinn
+96	4296	óbeinn	óbein óbeina óbeinan óbeinar óbeinast óbeinasta óbeinastan óbeinastar óbeinasti óbeinastir óbeinastra óbeinastrar óbeinastri óbeinasts óbeinastur óbeini óbeinir óbeinna óbeinnar óbeinni óbeins óbeint óbeinu óbeinum óbeinust óbeinustu óbeinustum
+97	4297	blóðugur	blóðug blóðuga blóðugan blóðugar blóðugast blóðugasta blóðugastan blóðugastar blóðugasti blóðugastir blóðugastra blóðugastrar blóðugastri blóðugasts blóðugastur blóðugi blóðugir blóðugra blóðugrar blóðugri blóðugs blóðugt blóðugu blóðugum blóðugust blóðugustu blóðugustum
+98	4298	efasemd	efasemda efasemdanna efasemdar efasemdarinnar efasemdin efasemdina efasemdinni efasemdir efasemdirnar efasemdum efasemdunum
+99	4299	mök	maka makanna mökin mökum mökunum
+100	4300	stokkur	stokk stokka stokkana stokkanna stokkar stokkarnir stokki stokkinn stokknum stokks stokksins stokkum stokkunum stokkurinn

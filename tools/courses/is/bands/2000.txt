@@ -1,0 +1,100 @@
+1	1901	stóll	stól stóla stólana stólanna stólar stólarnir stólinn stóllinn stólnum stóls stólsins stólum stólunum
+2	1902	sofna	sofnandi sofnar sofnast sofnað sofnaða sofnaðan sofnaðar sofnaði sofnaðir sofnaðist sofnaðra sofnaðrar sofnaðri sofnaðs sofnaðu sofnaður sofni sofnir sofnist sofnið sofnum sofnuð sofnuðu sofnuðum sofnuðuð
+3	1903	reglulega	
+4	1904	ok	oka okanna oki okin okinu okið oks oksins okum okunum
+5	1905	raunar	
+6	1906	spænskur	spænsk spænska spænskan spænskar spænskara spænskari spænskast spænskasta spænskastan spænskastar spænskasti spænskastir spænskastra spænskastrar spænskastri spænskasts spænskastur spænski spænskir spænskra spænskrar spænskri spænsks spænskt spænsku spænskum spænskust spænskustu spænskustum
+7	1907	helga	helgandi helgar helgast helgað helgaða helgaðan helgaðar helgaði helgaðir helgaðist helgaðra helgaðrar helgaðri helgaðs helgaðu helgaður helgi helgir helgist helgið helgum helgumst helguð helguðu helguðum helguðumst helguðust helguðuð
+8	1908	drulla	drullan drullandi drullar drullast drullastu drullað drullaða drullaðan drullaðar drullaði drullaðir drullaðist drullaðra drullaðrar drullaðri drullaðs drullaðu drullaður drulli drullir drullist drullið drullu drullum drullumst drulluna drullunnar drullunni drulluð drulluðu drulluðum drulluðumst drulluðust drulluðuð
+9	1909	brauð	brauða brauðanna brauði brauðin brauðinu brauðið brauðs brauðsins brauðum brauðunum
+10	1910	öðlast	öðlastu öðlaðist öðlist öðlumst öðluðumst öðluðust
+11	1911	tvöfaldur	tvöfalda tvöfaldan tvöfaldar tvöfaldi tvöfaldir tvöfaldra tvöfaldrar tvöfaldri tvöfalds tvöfalt tvöföld tvöföldu tvöföldum
+12	1912	drasl	drasli draslinu draslið drasls draslsins
+13	1913	formlega	
+14	1914	skipulag	skipulagi skipulaginu skipulagið skipulags skipulagsins
+15	1915	óður	ótt óð óða óðan óðar óðara óðari óðarins óðast óðasta óðastan óðastar óðasti óðastir óðastra óðastrar óðastri óðasts óðastur óði óðinn óðinum óðir óðnum óðra óðrar óðri óðs óðsins óðu óðum óðurinn óðust óðustu óðustum
+16	1916	viðhorf	viðhorfa viðhorfanna viðhorfi viðhorfin viðhorfinu viðhorfið viðhorfs viðhorfsins viðhorfum viðhorfunum
+17	1917	háð	háði háðinu háðið háðs háðsins
+18	1918	sprenging	sprenginga sprenginganna sprengingar sprengingarinnar sprengingarnar sprengingin sprengingu sprengingum sprenginguna sprengingunni sprengingunum
+19	1919	versla	verslandi verslar verslað verslaða verslaðan verslaðar verslaði verslaðir verslaðra verslaðrar verslaðri verslaðs verslaðu verslaður versli verslir verslið verslum versluð versluðu versluðum versluðuð
+20	1920	skjöldur	skildi skildina skildinum skildir skildirnir skjalda skjaldanna skjaldar skjaldarins skjöld skjöldinn skjöldum skjöldunum skjöldurinn
+21	1921	frestur	frest fresta frestanna fresti frestina frestinn frestinum frestir frestirnir frests frestsins frestum frestunum fresturinn
+22	1922	fimmtán	
+23	1923	jafnan	
+24	1924	aldeilis	
+25	1925	talsvert	
+26	1926	öxl	axla axlanna axlar axlarinnar axlir axlirnar öxlin öxlina öxlinni öxlum öxlunum
+27	1927	þreyttur	þreytt þreytta þreyttan þreyttar þreyttara þreyttari þreyttast þreyttasta þreyttastan þreyttastar þreyttasti þreyttastir þreyttastra þreyttastrar þreyttastri þreyttasts þreyttastur þreytti þreyttir þreyttra þreyttrar þreyttri þreytts þreyttu þreyttum þreyttust þreyttustu þreyttustum
+28	1928	heilla	heillandi heillar heillast heillað heillaða heillaðan heillaðar heillaði heillaðir heillaðist heillaðra heillaðrar heillaðri heillaðs heillaðu heillaður heilli heillir heillist heillið heillum heillumst heilluð heilluðu heilluðum heilluðumst heilluðust heilluðuð
+29	1929	óbreyttur	óbreytt óbreytta óbreyttan óbreyttar óbreyttara óbreyttari óbreyttast óbreyttasta óbreyttastan óbreyttastar óbreyttasti óbreyttastir óbreyttastra óbreyttastrar óbreyttastri óbreyttasts óbreyttastur óbreytti óbreyttir óbreyttra óbreyttrar óbreyttri óbreytts óbreyttu óbreyttum óbreyttust óbreyttustu óbreyttustum
+30	1930	snöggur	sneggra sneggri sneggst sneggsta sneggstan sneggstar sneggsti sneggstir sneggstra sneggstrar sneggstri sneggsts sneggstu sneggstum sneggstur snögg snögga snöggan snöggar snöggasta snöggi snöggir snöggra snöggrar snöggri snöggs snöggt snöggu snöggum
+31	1931	feginn	fegin feginna feginnar feginni fegins fegið fegna fegnar fegnara fegnari fegnast fegnasta fegnastan fegnastar fegnasti fegnastir fegnastra fegnastrar fegnastri fegnasts fegnastur fegni fegnir fegnu fegnum fegnust fegnustu fegnustum
+32	1932	afgangur	afgang afganga afgangana afganganna afgangar afgangarnir afgangi afganginn afganginum afgangs afgangsins afgangurinn afgöngum afgöngunum
+33	1933	vör	vara varanna varar vararinnar varir varirnar vörin vörina vörinni vörum vörunum
+34	1934	svipur	svip svipa svipanna svipi svipina svipinn svipir svipirnir svipnum svips svipsins svipum svipunum svipurinn
+35	1935	brotna	brotnandi brotnar brotnað brotnaði brotnaðir brotnaðu brotni brotnir brotnið brotnum brotnuðu brotnuðum brotnuðuð
+36	1936	húsnæði	húsnæðinu húsnæðis húsnæðisins húsnæðið
+37	1937	ostur	ost osta ostana ostanna ostar ostarnir osti ostinn ostinum osts ostsins ostum ostunum osturinn
+38	1938	gegna	gegnandi gegndi gegndir gegndu gegndum gegnduð gegni gegnir gegnið gegnt gegnum
+39	1939	endast	endist endumst enst entist entumst entust
+40	1940	fyrirmynd	fyrirmynda fyrirmyndanna fyrirmyndar fyrirmyndarinnar fyrirmyndin fyrirmyndina fyrirmyndinni fyrirmyndir fyrirmyndirnar fyrirmyndum fyrirmyndunum
+41	1941	brott	
+42	1942	stafur	staf stafa stafanna stafi stafina stafinn stafir stafirnir stafnum stafs stafsins stafurinn stöfum stöfunum
+43	1943	hlýða	hlýddi hlýddir hlýddist hlýddu hlýddum hlýddumst hlýddust hlýdduð hlýtt hlýðandi hlýðast hlýði hlýðir hlýðist hlýðið hlýðst hlýðum hlýðumst
+44	1944	greining	greininga greininganna greiningar greiningarinnar greiningarnar greiningin greiningu greiningum greininguna greiningunni greiningunum
+45	1945	teikning	teikninga teikninganna teikningar teikningarinnar teikningarnar teikningin teikningu teikningum teikninguna teikningunni teikningunum
+46	1946	breiður	breitt breið breiða breiðan breiðar breiðara breiðari breiðast breiðasta breiðastan breiðastar breiðasti breiðastir breiðastra breiðastrar breiðastri breiðasts breiðastur breiði breiðir breiðra breiðrar breiðri breiðs breiðu breiðum breiðust breiðustu breiðustum
+47	1947	leigja	leigi leigir leigist leigið leigjandi leigjast leigjum leigjumst leigst leigt leigð leigða leigðan leigðar leigði leigðir leigðirðu leigðist leigðra leigðrar leigðri leigðs leigðu leigðum leigðumst leigður leigðust leigðuð
+48	1948	iðnaður	iðnað iðnaðar iðnaðarins iðnaði iðnaðinn iðnaðinum iðnaðnum iðnaðurinn
+49	1949	gripur	grip gripa gripanna gripi gripina gripinn gripir gripirnir gripnum grips gripsins gripum gripunum gripurinn
+50	1950	slíta	sleist sleistu sleit sliti slitin slitinn slitinna slitinnar slitinni slitins slitir slitist slitið slitna slitnar slitni slitnir slitnu slitnum slitu slitum slitumst slitust slituð slíst slístu slít slítandi slítast slíti slítir slítist slítið slíttu slítum slítumst slítur
+51	1951	höfuðsmaður	höfuðsmann höfuðsmanna höfuðsmannanna höfuðsmanni höfuðsmanninn höfuðsmanninum höfuðsmanns höfuðsmannsins höfuðsmaðurinn höfuðsmenn höfuðsmennina höfuðsmennirnir höfuðsmönnum höfuðsmönnunum
+52	1952	aðstoðarmaður	aðstoðarmann aðstoðarmanna aðstoðarmannanna aðstoðarmanni aðstoðarmanninn aðstoðarmanninum aðstoðarmanns aðstoðarmannsins aðstoðarmaðurinn aðstoðarmenn aðstoðarmennina aðstoðarmennirnir aðstoðarmönnum aðstoðarmönnunum
+53	1953	þjónn	þjón þjóna þjónana þjónanna þjónar þjónarnir þjóni þjóninn þjóninum þjónninn þjóns þjónsins þjónum þjónunum
+54	1954	refsing	refsinga refsinganna refsingar refsingarinnar refsingarnar refsingin refsingu refsingum refsinguna refsingunni refsingunum
+55	1955	leikhús	leikhúsa leikhúsanna leikhúsi leikhúsin leikhúsinu leikhúsið leikhúss leikhússins leikhúsum leikhúsunum
+56	1956	venja	vanda vandar vandi vandir vanin vaninn vaninna vaninnar vaninni vanins vanið ven vendi vendir vendu vendum venduð venjan venjandi venjanna venji venjir venjið venju venjum venjuna venjunnar venjunni venjunum venjur venjurnar venur vöndu vöndum vönduð
+57	1957	prenta	prentandi prentar prentarðu prentast prentað prentaða prentaðan prentaðar prentaði prentaðir prentaðirðu prentaðist prentaðra prentaðrar prentaðri prentaðs prentaðu prentaður prenti prentir prentist prentið prentum prentumst prentuð prentuðu prentuðum prentuðumst prentuðust prentuðuð
+58	1958	sólarhringur	sólarhring sólarhringa sólarhringana sólarhringanna sólarhringar sólarhringarnir sólarhringinn sólarhringnum sólarhrings sólarhringsins sólarhringum sólarhringunum sólarhringurinn
+59	1959	útiloka	útilokandi útilokar útilokarðu útilokast útilokað útilokaða útilokaðan útilokaðar útilokaði útilokaðir útilokaðist útilokaðra útilokaðrar útilokaðri útilokaðs útilokaðu útilokaður útiloki útilokir útilokist útilokið útilokum útilokumst útilokuð útilokuðu útilokuðum útilokuðumst útilokuðust útilokuðuð
+60	1960	svín	svína svínanna svíni svínin svíninu svínið svíns svínsins svínum svínunum
+61	1961	keppandi	keppanda keppandann keppandans keppandanum keppandinn keppenda keppendanna keppendum keppendunum keppendur keppendurna keppendurnir
+62	1962	don	doni dons
+63	1963	seðlabanki	seðlabanka seðlabankana seðlabankann seðlabankanna seðlabankans seðlabankanum seðlabankar seðlabankarnir seðlabankinn seðlabönkum seðlabönkunum
+64	1964	fyrirlestur	fyrirlestra fyrirlestrana fyrirlestranna fyrirlestrar fyrirlestrarins fyrirlestrarnir fyrirlestri fyrirlestrinum fyrirlestrum fyrirlestrunum fyrirlesturinn fyrirlesturs fyrirlestursins
+65	1965	kýr	kú kúa kúm kúna kúnna kúnni kúnum kýrin kýrinnar kýrnar
+66	1966	fáeinir	fáein fáeina fáeinar fáeinna fáeinum
+67	1967	snillingur	snilling snillinga snillingana snillinganna snillingar snillingarnir snillingi snillinginn snillingnum snillings snillingsins snillingum snillingunum snillingurinn
+68	1968	tómur	tóm tóma tóman tómar tómara tómari tómast tómasta tómastan tómastar tómasti tómastir tómastra tómastrar tómastri tómasts tómastur tómi tómir tómra tómrar tómri tóms tómt tómu tómum tómust tómustu tómustum
+69	1969	rífast	reifst rifist rifumst rifust rífist rífst rífstu rífumst
+70	1970	krabbamein	krabbameina krabbameinanna krabbameini krabbameinin krabbameininu krabbameinið krabbameins krabbameinsins krabbameinum krabbameinunum
+71	1971	ritgerð	ritgerða ritgerðanna ritgerðar ritgerðarinnar ritgerðin ritgerðina ritgerðinni ritgerðir ritgerðirnar ritgerðum ritgerðunum
+72	1972	ókeypis	
+73	1973	ítalskur	ítalska ítalskan ítalskar ítalskara ítalskari ítalskast ítalskasta ítalskastan ítalskastar ítalskasti ítalskastir ítalskastra ítalskastrar ítalskastri ítalskasts ítalskastur ítalski ítalskir ítalskra ítalskrar ítalskri ítalsks ítalskt ítölsk ítölsku ítölskum ítölskust ítölskustu ítölskustum
+74	1974	amerískur	amerísk ameríska amerískan amerískar amerískara amerískari amerískast amerískasta amerískastan amerískastar amerískasti amerískastir amerískastra amerískastrar amerískastri amerískasts amerískastur ameríski amerískir amerískra amerískrar amerískri amerísks amerískt amerísku amerískum amerískust amerískustu amerískustum
+75	1975	kraftaverk	kraftaverka kraftaverkanna kraftaverki kraftaverkin kraftaverkinu kraftaverkið kraftaverks kraftaverksins kraftaverkum kraftaverkunum
+76	1976	skáld	skálda skáldanna skáldi skáldin skáldinu skáldið skálds skáldsins skáldum skáldunum
+77	1977	kjúklingur	kjúkling kjúklinga kjúklingana kjúklinganna kjúklingar kjúklingarnir kjúklingi kjúklinginn kjúklingnum kjúklings kjúklingsins kjúklingum kjúklingunum kjúklingurinn
+78	1978	sameining	sameininga sameininganna sameiningar sameiningarinnar sameiningarnar sameiningin sameiningu sameiningum sameininguna sameiningunni sameiningunum
+79	1979	kóngur	kóng kónga kóngana kónganna kóngar kóngarnir kóngi kónginn kónginum kóngs kóngsins kóngum kóngunum kóngurinn
+80	1980	samtals	
+81	1981	api	apa apana apann apanna apans apanum apar aparnir apinn öpum öpunum
+82	1982	leiðandi	leiðanda leiðandann leiðandans leiðandanum leiðandinn leiðenda leiðendanna leiðendum leiðendunum leiðendur leiðendurna leiðendurnir
+83	1983	virki	virkin virkinu virkis virkisins virkið virkja virkjanna virkjum virkjunum
+84	1984	me	
+85	1985	austan	
+86	1986	fótbolti	fótbolta fótboltana fótboltann fótboltanna fótboltans fótboltanum fótboltar fótboltarnir fótboltinn fótboltum fótboltunum
+87	1987	handan	
+88	1988	tölublað	tölublaða tölublaðanna tölublaði tölublaðinu tölublaðið tölublaðs tölublaðsins tölublöð tölublöðin tölublöðum tölublöðunum
+89	1989	grár	grá gráa gráan gráar gráast gráasta gráastan gráastar gráasti gráastir gráastra gráastrar gráastri gráasts gráastur grái gráir grárra grárrar grárri grás grátt gráu gráum gráust gráustu gráustum
+90	1990	blása	blásandi blási blásin blásinn blásinna blásinnar blásinni blásins blásir blásirðu blásið blásna blásnar blásni blásnir blásnu blásnum blástu blásum blæs blæst blæstu blés blési blésir blésirðu blést bléstu blésu blésum blésuð
+91	1991	ráðuneyti	ráðuneyta ráðuneytanna ráðuneytin ráðuneytinu ráðuneytis ráðuneytisins ráðuneytið ráðuneytum ráðuneytunum
+92	1992	mála	málandi málar málarðu málast málað málaða málaðan málaðar málaði málaðir málaðist málaðra málaðrar málaðri málaðs málaðu málaður máli málir málist málið málum málumst máluð máluðu máluðum máluðumst máluðust máluðuð
+93	1993	opnast	opnastu opnaðist opnist opnumst opnuðumst opnuðust
+94	1994	bæjarstjórn	bæjarstjórna bæjarstjórnanna bæjarstjórnar bæjarstjórnarinnar bæjarstjórnin bæjarstjórnina bæjarstjórninni bæjarstjórnir bæjarstjórnirnar bæjarstjórnum bæjarstjórnunum
+95	1995	bleikur	bleik bleika bleikan bleikar bleikara bleikari bleikast bleikasta bleikastan bleikastar bleikasti bleikastir bleikastra bleikastrar bleikastri bleikasts bleikastur bleiki bleikir bleikra bleikrar bleikri bleiks bleikt bleiku bleikum bleikust bleikustu bleikustum
+96	1996	vopna	vopnandi vopnar vopnast vopnað vopnaða vopnaðan vopnaðar vopnaði vopnaðir vopnaðist vopnaðra vopnaðrar vopnaðri vopnaðs vopnaðu vopnaður vopni vopnir vopnist vopnið vopnum vopnumst vopnuð vopnuðu vopnuðum vopnuðumst vopnuðust vopnuðuð
+97	1997	víkingur	víking víkinga víkingana víkinganna víkingar víkingarnir víkingi víkinginn víkingnum víkings víkingsins víkingum víkingunum víkingurinn
+98	1998	matvæli	matvæla matvælanna matvælin matvælum matvælunum
+99	1999	vestan	
+100	2000	slást	slegist sláist sláistu slástu sláumst slægist slægistu slægjumst slægjust slæst slæstu slógumst slógust slóst slóstu

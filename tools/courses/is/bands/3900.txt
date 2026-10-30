@@ -1,0 +1,100 @@
+1	3801	aldraður	aldrað aldraða aldraðan aldraðar aldraðast aldraðasta aldraðastan aldraðastar aldraðasti aldraðastir aldraðastra aldraðastrar aldraðastri aldraðasts aldraðastur aldraði aldraðir aldraðra aldraðrar aldraðri aldraðs öldruð öldruðu öldruðum öldruðust öldruðustu öldruðustum
+2	3802	gullfallegur	gullfalleg gullfallega gullfallegan gullfallegar gullfallegi gullfallegir gullfallegra gullfallegrar gullfallegri gullfallegs gullfallegt gullfallegu gullfallegum
+3	3803	öllsömul	
+4	3804	gæfa	gæfan gæfu gæfuna gæfunnar gæfunni
+5	3805	útland	útlanda útlandanna útlandi útlandinu útlandið útlands útlandsins útlönd útlöndin útlöndum útlöndunum
+6	3806	villur	vill villa villan villar villara villari villast villasta villastan villastar villasti villastir villastra villastrar villastri villasts villastur villi villir villra villrar villri vills villt villu villum villust villustu villustum
+7	3807	framfæri	framfærinu framfæris framfærisins framfærið
+8	3808	nálgun	nálgana nálgananna nálganir nálganirnar nálgunar nálgunarinnar nálgunin nálgunina nálguninni nálgunum nálgununum
+9	3809	fylking	fylkinga fylkinganna fylkingar fylkingarinnar fylkingarnar fylkingin fylkingu fylkingum fylkinguna fylkingunni fylkingunum
+10	3810	vanmeta	vanmast vanmat vanmet vanmetandi vanmeti vanmetin vanmetinn vanmetinna vanmetinnar vanmetinni vanmetins vanmetir vanmetið vanmetna vanmetnar vanmetni vanmetnir vanmetnu vanmetnum vanmettu vanmetum vanmetur vanmátu vanmátum vanmátuð vanmæti vanmætir vanmætu vanmætum vanmætuð
+11	3811	oddsson	oddssonar
+12	3812	úrskeiðis	
+13	3813	pína	pínan pínandi pínanna pínast pínd pínda píndan píndar píndi píndir píndist píndra píndrar píndri pínds píndu píndum píndumst píndur píndust pínduð píni pínir pínirðu pínist pínið pínst pínt pínu pínum pínumst pínuna pínunnar pínunni pínunum pínur pínurnar
+14	3814	tengill	tengil tengilinn tengillinn tengils tengilsins tengla tenglana tenglanna tenglar tenglarnir tengli tenglinum tenglum tenglunum
+15	3815	sígildur	sígild sígilda sígildan sígildar sígildara sígildari sígildast sígildasta sígildastan sígildastar sígildasti sígildastir sígildastra sígildastrar sígildastri sígildasts sígildastur sígildi sígildir sígildra sígildrar sígildri sígilds sígildu sígildum sígildust sígildustu sígildustum sígilt
+16	3816	háður	háða háðan háðar háðara háðari háðast háðasta háðastan háðastar háðasti háðastir háðastra háðastrar háðastri háðasts háðastur háði háðir háðra háðrar háðri háðs háðu háðum háðust háðustu háðustum
+17	3817	hlekkur	hlekk hlekki hlekkina hlekkinn hlekkir hlekkirnir hlekkja hlekkjanna hlekkjar hlekkjarins hlekkjum hlekkjunum hlekknum hlekks hlekksins hlekkurinn
+18	3818	hrikalegur	hrikaleg hrikalega hrikalegan hrikalegar hrikalegast hrikalegasta hrikalegastan hrikalegastar hrikalegasti hrikalegastir hrikalegastra hrikalegastrar hrikalegastri hrikalegasts hrikalegastur hrikalegi hrikalegir hrikalegra hrikalegrar hrikalegri hrikalegs hrikalegt hrikalegu hrikalegum hrikalegust hrikalegustu hrikalegustum
+19	3819	sápa	sápan sápandi sápanna sápar sápast sápað sápaða sápaðan sápaðar sápaði sápaðir sápaðist sápaðra sápaðrar sápaðri sápaðs sápaðu sápaður sápi sápir sápist sápið sápna sápnanna sápu sápum sápumst sápuna sápunnar sápunni sápunum sápur sápurnar sápuð sápuðu sápuðum sápuðumst sápuðust sápuðuð
+20	3820	nýkominn	nýkomin nýkominna nýkominnar nýkominni nýkomins nýkomið nýkomna nýkomnar nýkomni nýkomnir nýkomnu nýkomnum
+21	3821	þéna	þénandi þénar þénarðu þénast þénað þénaða þénaðan þénaðar þénaði þénaðir þénaðist þénaðra þénaðrar þénaðri þénaðs þénaðu þénaður þéni þénir þénist þénið þénum þénumst þénuð þénuðu þénuðum þénuðumst þénuðust þénuðuð
+22	3822	tímabundinn	tímabundin tímabundinna tímabundinnar tímabundinni tímabundins tímabundið tímabundna tímabundnar tímabundnara tímabundnari tímabundnast tímabundnasta tímabundnastan tímabundnastar tímabundnasti tímabundnastir tímabundnastra tímabundnastrar tímabundnastri tímabundnasts tímabundnastur tímabundni tímabundnir tímabundnu tímabundnum tímabundnust tímabundnustu tímabundnustum
+23	3823	lengja	lengd lengda lengdan lengdar lengdi lengdir lengdra lengdrar lengdri lengds lengdu lengdum lengdur lengduð lengi lengir lengið lengjan lengjandi lengjanna lengju lengjum lengjuna lengjunnar lengjunni lengjunum lengjur lengjurnar lengt
+24	3824	fullvissa	fullvissan fullvissandi fullvissar fullvissast fullvissað fullvissaða fullvissaðan fullvissaðar fullvissaði fullvissaðir fullvissaðist fullvissaðra fullvissaðrar fullvissaðri fullvissaðs fullvissaðu fullvissaður fullvissi fullvissir fullvissist fullvissið fullvissu fullvissum fullvissumst fullvissuna fullvissunnar fullvissunni fullvissuð fullvissuðu fullvissuðum fullvissuðumst fullvissuðust fullvissuðuð
+25	3825	hegða	hegðandi hegðar hegðarðu hegðað hegðaða hegðaðan hegðaðar hegðaði hegðaðir hegðaðra hegðaðrar hegðaðri hegðaðs hegðaðu hegðaður hegði hegðir hegðið hegðum hegðuð hegðuðu hegðuðum hegðuðuð
+26	3826	klaustur	klaustra klaustranna klaustri klaustrin klaustrinu klaustrið klaustrum klaustrunum klausturs klaustursins
+27	3827	náttúrufræðistofnun	náttúrufræðistofnana náttúrufræðistofnananna náttúrufræðistofnanir náttúrufræðistofnanirnar náttúrufræðistofnunar náttúrufræðistofnunarinnar náttúrufræðistofnunin náttúrufræðistofnunina náttúrufræðistofnuninni náttúrufræðistofnunum náttúrufræðistofnununum
+28	3828	íþróttafélag	íþróttafélaga íþróttafélaganna íþróttafélagi íþróttafélaginu íþróttafélagið íþróttafélags íþróttafélagsins íþróttafélög íþróttafélögin íþróttafélögum íþróttafélögunum
+29	3829	varaforseti	varaforseta varaforsetana varaforsetann varaforsetanna varaforsetans varaforsetanum varaforsetar varaforsetarnir varaforsetinn varaforsetum varaforsetunum
+30	3830	uppfærsla	uppfærslan uppfærslna uppfærslnanna uppfærslu uppfærslum uppfærsluna uppfærslunnar uppfærslunni uppfærslunum uppfærslur uppfærslurnar
+31	3831	notfæra	notfærandi notfærast notfæri notfærir notfærirðu notfærið notfærst notfært notfærum notfærð notfærða notfærðan notfærðar notfærði notfærðir notfærðra notfærðrar notfærðri notfærðs notfærðu notfærðum notfærður notfærðuð
+32	3832	heitinn	heitin heitinna heitinnar heitinni heitins heitið heitna heitnar heitni heitnir heitnu heitnum
+33	3833	umsjónarmaður	umsjónarmann umsjónarmanna umsjónarmannanna umsjónarmanni umsjónarmanninn umsjónarmanninum umsjónarmanns umsjónarmannsins umsjónarmaðurinn umsjónarmenn umsjónarmennina umsjónarmennirnir umsjónarmönnum umsjónarmönnunum
+34	3834	flatur	flata flatan flatar flatara flatari flatast flatasta flatastan flatastar flatasti flatastir flatastra flatastrar flatastri flatasts flatastur flati flatir flatra flatrar flatri flats flatt flöt flötu flötum flötust flötustu flötustum
+35	3835	borgaralegur	borgaraleg borgaralega borgaralegan borgaralegar borgaralegast borgaralegasta borgaralegastan borgaralegastar borgaralegasti borgaralegastir borgaralegastra borgaralegastrar borgaralegastri borgaralegasts borgaralegastur borgaralegi borgaralegir borgaralegra borgaralegrar borgaralegri borgaralegs borgaralegt borgaralegu borgaralegum borgaralegust borgaralegustu borgaralegustum
+36	3836	hálfgerður	hálfgert hálfgerð hálfgerða hálfgerðan hálfgerðar hálfgerði hálfgerðir hálfgerðra hálfgerðrar hálfgerðri hálfgerðs hálfgerðu hálfgerðum
+37	3837	tollur	toll tolla tollana tollanna tollar tollarnir tolli tollinn tollinum tolls tollsins tollum tollunum tollurinn
+38	3838	jaðar	jaðarinn jaðars jaðarsins jaðra jaðrana jaðranna jaðrar jaðrarnir jaðri jaðrinum jöðrum jöðrunum
+39	3839	tindur	tind tinda tindana tindanna tindar tindarnir tindi tindinn tindinum tinds tindsins tindum tindunum tindurinn
+40	3840	álfa	álfan álfanna álfu álfum álfuna álfunnar álfunni álfunum álfur álfurnar
+41	3841	klappa	klappandi klappar klappast klappað klappaða klappaðan klappaðar klappaði klappaðir klappaðist klappaðra klappaðrar klappaðri klappaðs klappaðu klappaður klappi klappir klappist klappið klöppum klöppumst klöppuð klöppuðu klöppuðum klöppuðumst klöppuðust klöppuðuð
+42	3842	skítt	
+43	3843	greinilegur	greinileg greinilega greinilegan greinilegar greinilegast greinilegasta greinilegastan greinilegastar greinilegasti greinilegastir greinilegastra greinilegastrar greinilegastri greinilegasts greinilegastur greinilegi greinilegir greinilegra greinilegrar greinilegri greinilegs greinilegt greinilegu greinilegum greinilegust greinilegustu greinilegustum
+44	3844	ævilok	æviloka ævilokanna ævilokin ævilokum ævilokunum
+45	3845	fjárhættuspil	fjárhættuspila fjárhættuspilanna fjárhættuspili fjárhættuspilin fjárhættuspilinu fjárhættuspilið fjárhættuspils fjárhættuspilsins fjárhættuspilum fjárhættuspilunum
+46	3846	sólskin	sólskini sólskininu sólskinið sólskins sólskinsins
+47	3847	býli	býla býlanna býlin býlinu býlis býlisins býlið býlum býlunum
+48	3848	rándýr	rándýra rándýran rándýranna rándýrar rándýri rándýrin rándýrinu rándýrir rándýrið rándýrra rándýrrar rándýrri rándýrs rándýrsins rándýrt rándýru rándýrum rándýrunum
+49	3849	dómkirkja	dómkirkjan dómkirkju dómkirkjum dómkirkjuna dómkirkjunnar dómkirkjunni dómkirkjunum dómkirkjur dómkirkjurnar dómkirkna dómkirknanna
+50	3850	þrjótur	þrjót þrjóta þrjótana þrjótanna þrjótar þrjótarnir þrjóti þrjótinn þrjótinum þrjótnum þrjóts þrjótsins þrjótum þrjótunum þrjóturinn
+51	3851	fordæma	fordæmandi fordæmast fordæmd fordæmda fordæmdan fordæmdar fordæmdi fordæmdir fordæmdist fordæmdra fordæmdrar fordæmdri fordæmds fordæmdu fordæmdum fordæmdumst fordæmdur fordæmdust fordæmduð fordæmi fordæmir fordæmist fordæmið fordæmst fordæmt fordæmum fordæmumst
+52	3852	ásaka	ásakandi ásakar ásakarðu ásakast ásakað ásakaða ásakaðan ásakaðar ásakaði ásakaðir ásakaðist ásakaðra ásakaðrar ásakaðri ásakaðs ásakaðu ásakaður ásaki ásakir ásakist ásakið ásökum ásökumst ásökuð ásökuðu ásökuðum ásökuðumst ásökuðust ásökuðuð
+53	3853	hvati	hvata hvatana hvatann hvatanna hvatans hvatanum hvatar hvatarnir hvatinn hvötum hvötunum
+54	3854	heimsvísa	heimsvísu
+55	3855	samstundis	
+56	3856	illska	illskan illsku illskuna illskunnar illskunni
+57	3857	húfa	húfan húfanna húfna húfnanna húfu húfum húfuna húfunnar húfunni húfunum húfur húfurnar
+58	3858	læða	læddi læddir læddist læddistu læddu læddum læddumst læddust lædduð lætt læðan læðandi læðanna læðast læði læðir læðist læðistu læðið læðna læðnanna læðst læðu læðum læðumst læðuna læðunnar læðunni læðunum læður læðurnar
+59	3859	viðureign	viðureigna viðureignanna viðureignar viðureignarinnar viðureignin viðureignina viðureigninni viðureignir viðureignirnar viðureignum viðureignunum
+60	3860	aðsetur	aðsetra aðsetranna aðsetri aðsetrin aðsetrinu aðsetrið aðsetrum aðsetrunum aðseturs aðsetursins
+61	3861	hávær	háværa háværan háværar háværara háværari háværast háværasta háværastan háværastar háværasti háværastir háværastra háværastrar háværastri háværasts háværastur háværi háværir háværra háværrar háværri háværs hávært háværu háværum háværust háværustu háværustum
+62	3862	jeppi	jeppa jeppana jeppann jeppanna jeppans jeppanum jeppar jepparnir jeppinn jeppum jeppunum
+63	3863	frami	frama framann framans framanum framinn
+64	3864	hermir	herma hermana hermanna hermar hermarnir hermi herminn herminum hermirinn hermis hermisins hermum hermunum
+65	3865	nærliggjandi	
+66	3866	voða	
+67	3867	staðla	staðlandi staðlar staðlast staðlað staðlaða staðlaðan staðlaðar staðlaði staðlaðir staðlaðist staðlaðra staðlaðrar staðlaðri staðlaðs staðlaðu staðlaður staðli staðlir staðlist staðlið stöðlum stöðlumst stöðluð stöðluðu stöðluðum stöðluðumst stöðluðust stöðluðuð
+68	3868	fýla	fýlan fýlanna fýlna fýlnanna fýlu fýlum fýluna fýlunnar fýlunni fýlunum fýlur fýlurnar
+69	3869	framkalla	framkallandi framkallar framkallast framkallað framkallaða framkallaðan framkallaðar framkallaði framkallaðir framkallaðist framkallaðra framkallaðrar framkallaðri framkallaðs framkallaðu framkallaður framkalli framkallir framkallist framkallið framköllum framköllumst framkölluð framkölluðu framkölluðum framkölluðumst framkölluðust framkölluðuð
+70	3870	lexía	lexían lexíanna lexíu lexíum lexíuna lexíunnar lexíunni lexíunum lexíur lexíurnar
+71	3871	blíður	blítt blíð blíða blíðan blíðar blíðara blíðari blíðast blíðasta blíðastan blíðastar blíðasti blíðastir blíðastra blíðastrar blíðastri blíðasts blíðastur blíði blíðir blíðra blíðrar blíðri blíðs blíðu blíðum blíðust blíðustu blíðustum
+72	3872	smokkur	smokk smokka smokkana smokkanna smokkar smokkarnir smokki smokkinn smokknum smokks smokksins smokkum smokkunum smokkurinn
+73	3873	listrænn	listræn listræna listrænan listrænar listrænast listrænasta listrænastan listrænastar listrænasti listrænastir listrænastra listrænastrar listrænastri listrænasts listrænastur listræni listrænir listrænna listrænnar listrænni listræns listrænt listrænu listrænum listrænust listrænustu listrænustum
+74	3874	kólna	kólnandi kólnar kólnað kólnaða kólnaðan kólnaðar kólnaði kólnaðir kólnaðra kólnaðrar kólnaðri kólnaðs kólnaðu kólnaður kólni kólnir kólnið kólnum kólnuð kólnuðu kólnuðum kólnuðuð
+75	3875	finnskur	finnsk finnska finnskan finnskar finnskara finnskari finnskast finnskasta finnskastan finnskastar finnskasti finnskastir finnskastra finnskastrar finnskastri finnskasts finnskastur finnski finnskir finnskra finnskrar finnskri finnsks finnskt finnsku finnskum finnskust finnskustu finnskustum
+76	3876	glitnir	glitni glitninn glitninum glitnirinn glitnis glitnisins
+77	3877	ugla	uglan uglanna uglna uglnanna uglu uglum ugluna uglunnar uglunni uglunum uglur uglurnar
+78	3878	ákafur	ákafa ákafan ákafar ákafara ákafari ákafast ákafasta ákafastan ákafastar ákafasti ákafastir ákafastra ákafastrar ákafastri ákafasts ákafastur ákafi ákafir ákafra ákafrar ákafri ákafs ákaft áköf áköfu áköfum áköfust áköfustu áköfustum
+79	3879	yfirheyra	yfirheyrandi yfirheyri yfirheyrir yfirheyrið yfirheyrt yfirheyrum yfirheyrð yfirheyrða yfirheyrðan yfirheyrðar yfirheyrði yfirheyrðir yfirheyrðra yfirheyrðrar yfirheyrðri yfirheyrðs yfirheyrðu yfirheyrðum yfirheyrður yfirheyrðuð
+80	3880	viðauki	viðauka viðaukana viðaukann viðaukanna viðaukans viðaukanum viðaukar viðaukarnir viðaukinn viðaukum viðaukunum
+81	3881	geisladiskur	geisladisk geisladiska geisladiskana geisladiskanna geisladiskar geisladiskarnir geisladiski geisladiskinn geisladiskinum geisladisknum geisladisks geisladisksins geisladiskum geisladiskunum geisladiskurinn
+82	3882	rúma	rúmandi rúmar rúmast rúmað rúmaða rúmaðan rúmaðar rúmaði rúmaðir rúmaðist rúmaðra rúmaðrar rúmaðri rúmaðs rúmaðu rúmaður rúmi rúmir rúmist rúmið rúmum rúmumst rúmuð rúmuðu rúmuðum rúmuðumst rúmuðust rúmuðuð
+83	3883	endurgreiða	endurgreidd endurgreidda endurgreiddan endurgreiddar endurgreiddi endurgreiddir endurgreiddist endurgreiddra endurgreiddrar endurgreiddri endurgreidds endurgreiddu endurgreiddum endurgreiddumst endurgreiddur endurgreiddust endurgreidduð endurgreitt endurgreiðandi endurgreiðast endurgreiði endurgreiðir endurgreiðist endurgreiðið endurgreiðst endurgreiðum endurgreiðumst
+84	3884	skemmtilega	skemmtilegar skemmtilegast
+85	3885	refur	ref refa refanna refi refina refinn refir refirnir refnum refs refsins refum refunum refurinn
+86	3886	sería	serían seríanna seríu seríum seríuna seríunnar seríunni seríunum seríur seríurnar
+87	3887	blekking	blekkinga blekkinganna blekkingar blekkingarinnar blekkingarnar blekkingin blekkingu blekkingum blekkinguna blekkingunni blekkingunum
+88	3888	ósammála	
+89	3889	elskhugi	elskhuga elskhugana elskhugann elskhuganna elskhugans elskhuganum elskhugar elskhugarnir elskhuginn elskhugum elskhugunum
+90	3890	sterkt	sterkar sterkast
+91	3891	farmur	farm farma farmana farmanna farmar farmarnir farmi farminn farminum farms farmsins farmurinn förmum förmunum
+92	3892	forréttindi	forréttinda forréttindanna forréttindin forréttindum forréttindunum
+93	3893	ættbálkur	ættbálk ættbálka ættbálkana ættbálkanna ættbálkar ættbálkarnir ættbálki ættbálkinn ættbálkinum ættbálknum ættbálks ættbálksins ættbálkum ættbálkunum ættbálkurinn
+94	3894	konunglegur	konungleg konunglega konunglegan konunglegar konunglegast konunglegasta konunglegastan konunglegastar konunglegasti konunglegastir konunglegastra konunglegastrar konunglegastri konunglegasts konunglegastur konunglegi konunglegir konunglegra konunglegrar konunglegri konunglegs konunglegt konunglegu konunglegum konunglegust konunglegustu konunglegustum
+95	3895	flétta	fléttan fléttandi fléttanna fléttar fléttast fléttað fléttaða fléttaðan fléttaðar fléttaði fléttaðir fléttaðist fléttaðra fléttaðrar fléttaðri fléttaðs fléttaðu fléttaður flétti fléttir fléttist fléttið fléttna fléttnanna fléttu fléttum fléttumst fléttuna fléttunnar fléttunni fléttunum fléttur flétturnar fléttuð fléttuðu fléttuðum fléttuðumst fléttuðust fléttuðuð
+96	3896	der	dera deranna deri derin derinu derið ders dersins derum derunum
+97	3897	nákvæmni	nákvæmnin nákvæmnina nákvæmninnar nákvæmninni
+98	3898	nudd	nuddi nuddinu nuddið nudds nuddsins
+99	3899	tæfa	tæfan tæfanna tæfna tæfnanna tæfu tæfum tæfuna tæfunnar tæfunni tæfunum tæfur tæfurnar
+100	3900	endurbót	endurbætur endurbæturnar endurbóta endurbótanna endurbótar endurbótarinnar endurbótin endurbótina endurbótinni endurbótum endurbótunum

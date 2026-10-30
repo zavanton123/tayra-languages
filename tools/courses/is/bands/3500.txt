@@ -1,0 +1,100 @@
+1	3401	áreita	áreitandi áreiti áreitir áreitirðu áreitið áreitt áreitta áreittan áreittar áreitti áreittir áreittra áreittrar áreittri áreitts áreittu áreittum áreittur áreittuð áreitum
+2	3402	neytandi	neytanda neytandann neytandans neytandanum neytandinn neytenda neytendanna neytendum neytendunum neytendur neytendurna neytendurnir
+3	3403	sport	sporti sportinu sportið sports sportsins
+4	3404	ástríða	ástríðan ástríðanna ástríðna ástríðnanna ástríðu ástríðum ástríðuna ástríðunnar ástríðunni ástríðunum ástríður ástríðurnar
+5	3405	fjörutíu	
+6	3406	grannur	granna grannan grannar granni grannir grannra grannrar grannri granns grannt grennra grennri grennst grennsta grennstan grennstar grennsti grennstir grennstra grennstrar grennstri grennsts grennstu grennstum grennstur grönn grönnu grönnum
+7	3407	tomma	tomman tommandi tommanna tommar tommast tommað tommaða tommaðan tommaðar tommaði tommaðir tommaðist tommaðra tommaðrar tommaðri tommaðs tommaðu tommaður tommi tommir tommist tommið tommu tommum tommumst tommuna tommunnar tommunni tommunum tommur tommurnar tommuð tommuðu tommuðum tommuðumst tommuðust tommuðuð
+8	3408	rektor	rektora rektorana rektoranna rektorar rektorarnir rektorinn rektornum rektors rektorsins rektorum rektorunum
+9	3409	hefa	hefandi hefar hefast hefað hefaða hefaðan hefaðar hefaði hefaðir hefaðist hefaðra hefaðrar hefaðri hefaðs hefaðu hefaður hefi hefir hefist hefið hefum hefumst hefuð hefuðu hefuðum hefuðumst hefuðust hefuðuð
+10	3410	ráðgjöf	ráðgjafar ráðgjafarinnar ráðgjöfin ráðgjöfina ráðgjöfinni
+11	3411	gen	gena genanna geni genin geninu genið gens gensins genum genunum
+12	3412	tilvalinn	tilvalda tilvaldar tilvaldara tilvaldari tilvaldast tilvaldasta tilvaldastan tilvaldastar tilvaldasti tilvaldastir tilvaldastra tilvaldastrar tilvaldastri tilvaldasts tilvaldastur tilvaldi tilvaldir tilvalin tilvalinna tilvalinnar tilvalinni tilvalins tilvalið tilvöldu tilvöldum tilvöldust tilvöldustu tilvöldustum
+13	3413	víti	víta vítanna vítin vítinu vítis vítisins vítið vítum vítunum
+14	3414	geisli	geisla geislana geislann geislanna geislans geislanum geislar geislarnir geislinn geislum geislunum
+15	3415	snið	sniða sniðanna sniði sniðin sniðinu sniðið sniðs sniðsins sniðum sniðunum
+16	3416	samsæri	samsæra samsæranna samsærin samsærinu samsæris samsærisins samsærið samsærum samsærunum
+17	3417	stríða	stríddi stríddir stríddu stríddum strídduð strítt stríðandi stríði stríðir stríðið stríðum
+18	3418	hinsegin	
+19	3419	tannlæknir	tannlækna tannlæknana tannlæknanna tannlæknar tannlæknarnir tannlækni tannlækninn tannlækninum tannlæknirinn tannlæknis tannlæknisins tannlæknum tannlæknunum
+20	3420	nýlegur	nýleg nýlega nýlegan nýlegar nýlegast nýlegasta nýlegastan nýlegastar nýlegasti nýlegastir nýlegastra nýlegastrar nýlegastri nýlegasts nýlegastur nýlegi nýlegir nýlegra nýlegrar nýlegri nýlegs nýlegt nýlegu nýlegum nýlegust nýlegustu nýlegustum
+21	3421	dásamlega	dásamlegar dásamlegast
+22	3422	strætó	strætóa strætóana strætóanna strætóar strætóarnir strætóinn strætónum strætós strætósins strætóum strætóunum
+23	3423	þvinga	þvingan þvingandi þvinganna þvingar þvingast þvingað þvingaða þvingaðan þvingaðar þvingaði þvingaðir þvingaðist þvingaðra þvingaðrar þvingaðri þvingaðs þvingaðu þvingaður þvingi þvingir þvingist þvingið þvingna þvingnanna þvingu þvingum þvingumst þvinguna þvingunnar þvingunni þvingunum þvingur þvingurnar þvinguð þvinguðu þvinguðum þvinguðumst þvinguðust þvinguðuð
+24	3424	baktería	bakterían bakteríanna bakteríu bakteríum bakteríuna bakteríunnar bakteríunni bakteríunum bakteríur bakteríurnar
+25	3425	kvæði	kvæða kvæðanna kvæðin kvæðinu kvæðis kvæðisins kvæðið kvæðum kvæðunum
+26	3426	pressa	pressan pressandi pressanna pressar pressast pressað pressaða pressaðan pressaðar pressaði pressaðir pressaðist pressaðra pressaðrar pressaðri pressaðs pressaðu pressaður pressi pressir pressist pressið pressu pressum pressumst pressuna pressunnar pressunni pressunum pressur pressurnar pressuð pressuðu pressuðum pressuðumst pressuðust pressuðuð
+27	3427	banvænn	banvæn banvæna banvænan banvænar banvænast banvænasta banvænastan banvænastar banvænasti banvænastir banvænastra banvænastrar banvænastri banvænasts banvænastur banvæni banvænir banvænna banvænnar banvænni banvæns banvænst banvænsta banvænstan banvænstar banvænsti banvænstir banvænstra banvænstrar banvænstri banvænsts banvænstu banvænstum banvænstur banvænt banvænu banvænum banvænust banvænustu banvænustum
+28	3428	tölvuleikur	tölvuleik tölvuleiki tölvuleikina tölvuleikinn tölvuleikir tölvuleikirnir tölvuleikja tölvuleikjanna tölvuleikjum tölvuleikjunum tölvuleiknum tölvuleiks tölvuleiksins tölvuleikurinn
+29	3429	tvöfalda	tvöfaldandi tvöfaldar tvöfaldarðu tvöfaldast tvöfaldað tvöfaldaða tvöfaldaðan tvöfaldaðar tvöfaldaði tvöfaldaðir tvöfaldaðirðu tvöfaldaðist tvöfaldaðra tvöfaldaðrar tvöfaldaðri tvöfaldaðs tvöfaldaðu tvöfaldaður tvöfaldi tvöfaldir tvöfaldist tvöfaldið tvöföldum tvöföldumst tvöfölduð tvöfölduðu tvöfölduðum tvöfölduðumst tvöfölduðust tvöfölduðuð
+30	3430	ógildur	ógild ógilda ógildan ógildar ógildi ógildir ógildra ógildrar ógildri ógilds ógildu ógildum ógilt
+31	3431	stans	stansi stansinn stansins stansinu stansinum stansið
+32	3432	hjörð	hjarða hjarðanna hjarðar hjarðarinnar hjarðir hjarðirnar hjörðin hjörðina hjörðinni hjörðum hjörðunum
+33	3433	sjálfboðaliði	sjálfboðaliða sjálfboðaliðana sjálfboðaliðann sjálfboðaliðanna sjálfboðaliðans sjálfboðaliðanum sjálfboðaliðar sjálfboðaliðarnir sjálfboðaliðinn sjálfboðaliðum sjálfboðaliðunum
+34	3434	fjórtán	
+35	3435	æstur	æst æsta æstan æstar æstara æstari æstast æstasta æstastan æstastar æstasti æstastir æstastra æstastrar æstastri æstasts æstastur æsti æstir æstra æstrar æstri æsts æstu æstum æstust æstustu æstustum
+36	3436	viðtaka	viðtakan viðtakanna viðtakna viðtaknanna viðtöku viðtökum viðtökuna viðtökunnar viðtökunni viðtökunum viðtökur viðtökurnar
+37	3437	sjálfvirkur	sjálfvirk sjálfvirka sjálfvirkan sjálfvirkar sjálfvirkara sjálfvirkari sjálfvirkast sjálfvirkasta sjálfvirkastan sjálfvirkastar sjálfvirkasti sjálfvirkastir sjálfvirkastra sjálfvirkastrar sjálfvirkastri sjálfvirkasts sjálfvirkastur sjálfvirki sjálfvirkir sjálfvirkra sjálfvirkrar sjálfvirkri sjálfvirks sjálfvirkt sjálfvirku sjálfvirkum sjálfvirkust sjálfvirkustu sjálfvirkustum
+38	3438	þegn	þegna þegnana þegnanna þegnar þegnarnir þegni þegninn þegninum þegns þegnsins þegnum þegnunum
+39	3439	ríkissjóður	ríkissjóð ríkissjóða ríkissjóðanna ríkissjóði ríkissjóðina ríkissjóðinn ríkissjóðinum ríkissjóðir ríkissjóðirnir ríkissjóðnum ríkissjóðs ríkissjóðsins ríkissjóðum ríkissjóðunum ríkissjóðurinn
+40	3440	pungur	pung punga pungana punganna pungar pungarnir pungi punginn pungnum pungs pungsins pungum pungunum pungurinn
+41	3441	aðalhlutverk	aðalhlutverka aðalhlutverkanna aðalhlutverki aðalhlutverkin aðalhlutverkinu aðalhlutverkið aðalhlutverks aðalhlutverksins aðalhlutverkum aðalhlutverkunum
+42	3442	vörumerki	vörumerkin vörumerkinu vörumerkis vörumerkisins vörumerkið vörumerkja vörumerkjanna vörumerkjum vörumerkjunum
+43	3443	hjörtur	hirti hirtina hirtinum hirtir hirtirnir hjarta hjartanna hjartar hjartarins hjört hjörtinn hjörtum hjörtunum hjörturinn
+44	3444	sparisjóður	sparisjóð sparisjóða sparisjóðanna sparisjóði sparisjóðina sparisjóðinn sparisjóðinum sparisjóðir sparisjóðirnir sparisjóðnum sparisjóðs sparisjóðsins sparisjóðum sparisjóðunum sparisjóðurinn
+45	3445	stjórnarformaður	stjórnarformann stjórnarformanna stjórnarformannanna stjórnarformanni stjórnarformanninn stjórnarformanninum stjórnarformanns stjórnarformannsins stjórnarformaðurinn stjórnarformenn stjórnarformennina stjórnarformennirnir stjórnarformönnum stjórnarformönnunum
+46	3446	hjúkrunarfræðingur	hjúkrunarfræðing hjúkrunarfræðinga hjúkrunarfræðingana hjúkrunarfræðinganna hjúkrunarfræðingar hjúkrunarfræðingarnir hjúkrunarfræðingi hjúkrunarfræðinginn hjúkrunarfræðingnum hjúkrunarfræðings hjúkrunarfræðingsins hjúkrunarfræðingum hjúkrunarfræðingunum hjúkrunarfræðingurinn
+47	3447	smávegis	
+48	3448	djúp	djúpa djúpanna djúpi djúpin djúpinu djúpið djúps djúpsins djúpum djúpunum
+49	3449	enni	enna ennanna ennin enninu ennis ennisins ennið ennum ennunum
+50	3450	göngutúr	göngutúra göngutúrana göngutúranna göngutúrar göngutúrarnir göngutúrinn göngutúrnum göngutúrs göngutúrsins göngutúrum göngutúrunum
+51	3451	tjörn	tjarna tjarnanna tjarnar tjarnarinnar tjarnir tjarnirnar tjörnin tjörnina tjörninni tjörnum tjörnunum
+52	3452	leiðangur	leiðangra leiðangrana leiðangranna leiðangrar leiðangrarnir leiðangri leiðangrinum leiðangurinn leiðangurs leiðangursins leiðöngrum leiðöngrunum
+53	3453	fatta	fattandi fattar fattast fattað fattaði fattaðir fattaðist fattaðu fatti fattir fattist fattið föttum föttumst föttuðu föttuðum föttuðumst föttuðust föttuðuð
+54	3454	verndari	verndara verndarana verndarann verndaranna verndarans verndaranum verndarar verndararnir verndarinn verndurum verndurunum
+55	3455	sjónarmið	sjónarmiða sjónarmiðanna sjónarmiði sjónarmiðin sjónarmiðinu sjónarmiðið sjónarmiðs sjónarmiðsins sjónarmiðum sjónarmiðunum
+56	3456	set	seta setanna seti setin setinu setið sets setsins setum setunum
+57	3457	jafnrétti	jafnréttinu jafnréttis jafnréttisins jafnréttið
+58	3458	korn	korna kornanna korni kornin korninu kornið korns kornsins kornum kornunum
+59	3459	skaufi	skaufa skaufana skaufann skaufanna skaufans skaufanum skaufar skaufarnir skaufinn skaufum skaufunum
+60	3460	heimta	heimst heimt heimtan heimtandi heimtanna heimtar heimtarðu heimtast heimtað heimtaða heimtaðan heimtaðar heimtaði heimtaðir heimtaðirðu heimtaðist heimtaðra heimtaðrar heimtaðri heimtaðs heimtaðu heimtaður heimti heimtir heimtirðu heimtist heimtið heimtna heimtnanna heimtra heimtrar heimtri heimts heimtu heimtum heimtumst heimtuna heimtunnar heimtunni heimtunum heimtur heimturnar heimtust heimtuð heimtuðu heimtuðum heimtuðumst heimtuðust heimtuðuð
+61	3461	miskunn	miskunnar miskunnarinnar miskunnin miskunnina miskunninni
+62	3462	sýsla	sýslan sýslandi sýslar sýslast sýslað sýslaða sýslaðan sýslaðar sýslaði sýslaðir sýslaðist sýslaðra sýslaðrar sýslaðri sýslaðs sýslaðu sýslaður sýsli sýslir sýslist sýslið sýslna sýslnanna sýslu sýslum sýslumst sýsluna sýslunnar sýslunni sýslunum sýslur sýslurnar sýsluð sýsluðu sýsluðum sýsluðumst sýsluðust sýsluðuð
+63	3463	kirkjugarður	kirkjugarð kirkjugarða kirkjugarðana kirkjugarðanna kirkjugarðar kirkjugarðarnir kirkjugarði kirkjugarðinn kirkjugarðinum kirkjugarðs kirkjugarðsins kirkjugarðurinn kirkjugörðum kirkjugörðunum
+64	3464	hjartaáfall	hjartaáfalla hjartaáfallanna hjartaáfalli hjartaáfallinu hjartaáfallið hjartaáfalls hjartaáfallsins hjartaáföll hjartaáföllin hjartaáföllum hjartaáföllunum
+65	3465	nýjung	nýjunga nýjunganna nýjungar nýjungarinnar nýjungarnar nýjungin nýjungina nýjunginni nýjungum nýjungunum
+66	3466	ástvinur	ástvin ástvina ástvinanna ástvinar ástvinarins ástvini ástvinina ástvininn ástvininum ástvinir ástvinirnir ástvinum ástvinunum ástvinurinn
+67	3467	útfærsla	útfærslan útfærslna útfærslnanna útfærslu útfærslum útfærsluna útfærslunnar útfærslunni útfærslunum útfærslur útfærslurnar
+68	3468	atvinnumaður	atvinnumann atvinnumanna atvinnumannanna atvinnumanni atvinnumanninn atvinnumanninum atvinnumanns atvinnumannsins atvinnumaðurinn atvinnumenn atvinnumennina atvinnumennirnir atvinnumönnum atvinnumönnunum
+69	3469	dögun	dögunar dögunarinnar dögunin dögunina döguninni
+70	3470	drusla	druslan druslna druslnanna druslu druslum drusluna druslunnar druslunni druslunum druslur druslurnar
+71	3471	slanga	slangan slangna slangnanna slöngu slöngum slönguna slöngunnar slöngunni slöngunum slöngur slöngurnar
+72	3472	lágmark	lágmarka lágmarkanna lágmarki lágmarkinu lágmarkið lágmarks lágmarksins lágmörk lágmörkin lágmörkum lágmörkunum
+73	3473	gagnslaus	gagnslausa gagnslausan gagnslausar gagnslausara gagnslausari gagnslausast gagnslausasta gagnslausastan gagnslausastar gagnslausasti gagnslausastir gagnslausastra gagnslausastrar gagnslausastri gagnslausasts gagnslausastur gagnslausi gagnslausir gagnslausra gagnslausrar gagnslausri gagnslauss gagnslaust gagnslausu gagnslausum gagnslausust gagnslausustu gagnslausustum
+74	3474	dagsetning	dagsetninga dagsetninganna dagsetningar dagsetningarinnar dagsetningarnar dagsetningin dagsetningu dagsetningum dagsetninguna dagsetningunni dagsetningunum
+75	3475	ær	á áa ám ána ánna ánni ánum æra æran ærar ærara ærari ærast ærasta ærastan ærastar ærasti ærastir ærastra ærastrar ærastri ærasts ærastur æri ærin ærinnar ærir ærnar ærra ærrar ærri ærs ært æru ærum ærust ærustu ærustum
+76	3476	umsögn	umsagna umsagnanna umsagnar umsagnarinnar umsagnir umsagnirnar umsögnin umsögnina umsögninni umsögnum umsögnunum
+77	3477	kjánalegur	kjánaleg kjánalega kjánalegan kjánalegar kjánalegast kjánalegasta kjánalegastan kjánalegastar kjánalegasti kjánalegastir kjánalegastra kjánalegastrar kjánalegastri kjánalegasts kjánalegastur kjánalegi kjánalegir kjánalegra kjánalegrar kjánalegri kjánalegs kjánalegt kjánalegu kjánalegum kjánalegust kjánalegustu kjánalegustum
+78	3478	síld	sílda síldanna síldar síldarinnar síldarnar síldin síldina síldinni síldir síldirnar síldum síldunum
+79	3479	tær	tæra tæran tærar tærara tærari tærast tærasta tærastan tærastar tærasti tærastir tærastra tærastrar tærastri tærasts tærastur tæri tærir tærra tærrar tærri tærs tært tæru tærum tærust tærustu tærustum
+80	3480	nudda	nuddandi nuddar nuddarðu nuddast nuddað nuddaða nuddaðan nuddaðar nuddaði nuddaðir nuddaðist nuddaðra nuddaðrar nuddaðri nuddaðs nuddaðu nuddaður nuddi nuddir nuddist nuddið nuddum nuddumst nudduð nudduðu nudduðum nudduðumst nudduðust nudduðuð
+81	3481	aftar	aftast
+82	3482	greifi	greifa greifana greifann greifanna greifans greifanum greifar greifarnir greifinn greifum greifunum
+83	3483	stuð	stuði stuðinu stuðið stuðs stuðsins
+84	3484	jafngilda	jafngildandi jafngildi jafngildir jafngildið jafngildum jafngilst jafngilt jafngilta jafngiltan jafngiltar jafngilti jafngiltir jafngiltra jafngiltrar jafngiltri jafngilts jafngiltu jafngiltum jafngiltur jafngiltuð
+85	3485	agi	aga agann agans aganum aginn
+86	3486	græja	græi græir græist græið græjan græjandi græjanna græjar græjast græjað græjaða græjaðan græjaðar græjaði græjaðir græjaðist græjaðra græjaðrar græjaðri græjaðs græjaðu græjaður græju græjum græjumst græjuna græjunnar græjunni græjunum græjur græjurnar græjuð græjuðu græjuðum græjuðumst græjuðust græjuðuð
+87	3487	félagasamtök	félagasamtaka félagasamtakanna félagasamtökin félagasamtökum félagasamtökunum
+88	3488	verðmæti	verðmæta verðmætanna verðmætin verðmætinu verðmætis verðmætisins verðmætið verðmætum verðmætunum
+89	3489	munkur	munk munka munkana munkanna munkar munkarnir munki munkinn munkinum munknum munks munksins munkum munkunum munkurinn
+90	3490	efnahagslíf	efnahagslífi efnahagslífinu efnahagslífið efnahagslífs efnahagslífsins
+91	3491	árslok	ársloka árslokanna árslokin árslokum árslokunum
+92	3492	breiða	breidd breidda breiddan breiddar breiddi breiddir breiddra breiddrar breiddri breidds breiddu breiddum breiddur breidduð breitt breiðan breiðandi breiðanna breiði breiðir breiðirðu breiðið breiðna breiðnanna breiðu breiðum breiðuna breiðunnar breiðunni breiðunum breiðurnar
+93	3493	spóla	spólan spólandi spólanna spólar spólast spólað spólaða spólaðan spólaðar spólaði spólaðir spólaðist spólaðra spólaðrar spólaðri spólaðs spólaðu spólaður spóli spólir spólist spólið spólna spólnanna spólu spólum spólumst spóluna spólunnar spólunni spólunum spólur spólurnar spóluð spóluðu spóluðum spóluðumst spóluðust spóluðuð
+94	3494	fullnægja	fullnægi fullnægir fullnægið fullnægjan fullnægjandi fullnægju fullnægjum fullnægjuna fullnægjunnar fullnægjunni fullnægt fullnægð fullnægða fullnægðan fullnægðar fullnægði fullnægðir fullnægðra fullnægðrar fullnægðri fullnægðs fullnægðu fullnægðum fullnægður fullnægðuð
+95	3495	riffill	riffil riffilinn riffillinn riffils riffilsins riffla rifflana rifflanna rifflar rifflarnir riffli rifflinum rifflum rifflunum
+96	3496	kerling	kerlinga kerlinganna kerlingar kerlingarinnar kerlingarnar kerlingin kerlingu kerlingum kerlinguna kerlingunni kerlingunum
+97	3497	fullyrða	fullyrt fullyrta fullyrtan fullyrtar fullyrti fullyrtir fullyrtra fullyrtrar fullyrtri fullyrts fullyrtu fullyrtum fullyrtur fullyrtuð fullyrðandi fullyrði fullyrðir fullyrðið fullyrðum
+98	3498	filma	filman filmandi filmanna filmar filmast filmað filmaða filmaðan filmaðar filmaði filmaðir filmaðist filmaðra filmaðrar filmaðri filmaðs filmaðu filmaður filmi filmir filmist filmið filmna filmnanna filmu filmum filmumst filmuna filmunnar filmunni filmunum filmur filmurnar filmuð filmuðu filmuðum filmuðumst filmuðust filmuðuð
+99	3499	hæll	hæl hæla hælana hælanna hælar hælarnir hælinn hællinn hælnum hæls hælsins hælum hælunum
+100	3500	bransi	bransa bransann bransans bransanum bransinn

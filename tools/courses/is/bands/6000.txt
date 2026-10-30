@@ -1,0 +1,100 @@
+1	5901	endurvinnsla	endurvinnslan endurvinnslu endurvinnsluna endurvinnslunnar endurvinnslunni
+2	5902	ríkislögreglustjóri	ríkislögreglustjóra ríkislögreglustjórana ríkislögreglustjórann ríkislögreglustjóranna ríkislögreglustjórans ríkislögreglustjóranum ríkislögreglustjórar ríkislögreglustjórarnir ríkislögreglustjórinn ríkislögreglustjórum ríkislögreglustjórunum
+3	5903	efnasamband	efnasambanda efnasambandanna efnasambandi efnasambandinu efnasambandið efnasambands efnasambandsins efnasambönd efnasamböndin efnasamböndum efnasamböndunum
+4	5904	skyggja	skyggi skyggir skyggist skyggið skyggjandi skyggjast skyggjum skyggjumst skyggst skyggt skyggð skyggða skyggðan skyggðar skyggði skyggðir skyggðist skyggðra skyggðrar skyggðri skyggðs skyggðu skyggðum skyggðumst skyggður skyggðust skyggðuð
+5	5905	frameftir	
+6	5906	fögnuður	fagnaða fagnaðanna fagnaðar fagnaðarins fögnuð fögnuðar fögnuði fögnuðina fögnuðinn fögnuðinum fögnuðir fögnuðirnir fögnuðnum fögnuðum fögnuðunum fögnuðurinn
+7	5907	skána	skánandi skánar skánað skánaði skánaðir skáni skánir skánið skánum skánuðu skánuðum skánuðuð
+8	5908	hlynur	hlyn hlyna hlynanna hlyni hlynina hlyninn hlyninum hlynir hlynirnir hlyns hlynsins hlynum hlynunum hlynurinn
+9	5909	ofurhetja	ofurhetjan ofurhetjanna ofurhetju ofurhetjum ofurhetjuna ofurhetjunnar ofurhetjunni ofurhetjunum ofurhetjur ofurhetjurnar
+10	5910	táknrænn	táknræn táknræna táknrænan táknrænar táknrænast táknrænasta táknrænastan táknrænastar táknrænasti táknrænastir táknrænastra táknrænastrar táknrænastri táknrænasts táknrænastur táknræni táknrænir táknrænna táknrænnar táknrænni táknræns táknrænt táknrænu táknrænum táknrænust táknrænustu táknrænustum
+11	5911	tilbreyting	tilbreytingar tilbreytingarinnar tilbreytingin tilbreytingu tilbreytinguna tilbreytingunni
+12	5912	bensínstöð	bensínstöðin bensínstöðina bensínstöðinni bensínstöðva bensínstöðvanna bensínstöðvar bensínstöðvarinnar bensínstöðvarnar bensínstöðvum bensínstöðvunum
+13	5913	saumur	saum sauma saumana saumanna saumar saumarnir saumi sauminn saumnum saums saumsins saumum saumunum saumurinn
+14	5914	kynfæri	kynfæra kynfæranna kynfærin kynfærinu kynfæris kynfærisins kynfærið kynfærum kynfærunum
+15	5915	strangt	
+16	5916	hleri	hlera hlerana hlerann hleranna hlerans hleranum hlerar hlerarnir hlerinn hlerum hlerunum
+17	5917	barð	barða barðanna barði barðinu barðið barðs barðsins börð börðin börðum börðunum
+18	5918	heimavist	heimavista heimavistanna heimavistar heimavistarinnar heimavistin heimavistina heimavistinni heimavistir heimavistirnar heimavistum heimavistunum
+19	5919	hörkutól	hörkutóla hörkutólanna hörkutóli hörkutólin hörkutólinu hörkutólið hörkutóls hörkutólsins hörkutólum hörkutólunum
+20	5920	hýr	hýra hýran hýrar hýrara hýrari hýrast hýrasta hýrastan hýrastar hýrasti hýrastir hýrastra hýrastrar hýrastri hýrasts hýrastur hýri hýrir hýrra hýrrar hýrri hýrs hýrt hýru hýrum hýrust hýrustu hýrustum
+21	5921	rappari	rappara rapparana rapparann rapparanna rapparans rapparanum rapparar rappararnir rapparinn röppurum röppurunum
+22	5922	kapítalismi	kapítalisma kapítalismann kapítalismans kapítalismanum kapítalisminn
+23	5923	hrós	hrósa hrósanna hrósi hrósin hrósinu hrósið hróss hróssins hrósum hrósunum
+24	5924	fjármálaeftirlit	fjármálaeftirlita fjármálaeftirlitanna fjármálaeftirliti fjármálaeftirlitin fjármálaeftirlitinu fjármálaeftirlitið fjármálaeftirlits fjármálaeftirlitsins fjármálaeftirlitum fjármálaeftirlitunum
+25	5925	lindi	linda lindana lindann lindanna lindans lindanum lindar lindarnir lindinn lindum lindunum
+26	5926	fundarstjóri	fundarstjóra fundarstjórana fundarstjórann fundarstjóranna fundarstjórans fundarstjóranum fundarstjórar fundarstjórarnir fundarstjórinn fundarstjórum fundarstjórunum
+27	5927	fíla	fílandi fílar fílast fílað fílaða fílaðan fílaðar fílaði fílaðir fílaðist fílaðra fílaðrar fílaðri fílaðs fílaðu fílaður fíli fílir fílist fílið fílum fílumst fíluð fíluðu fíluðum fíluðumst fíluðust fíluðuð
+28	5928	ferlegur	ferleg ferlega ferlegan ferlegar ferlegast ferlegasta ferlegastan ferlegastar ferlegasti ferlegastir ferlegastra ferlegastrar ferlegastri ferlegasts ferlegastur ferlegi ferlegir ferlegra ferlegrar ferlegri ferlegs ferlegt ferlegu ferlegum ferlegust ferlegustu ferlegustum
+29	5929	auðn	auðna auðnanna auðnar auðnarinnar auðnin auðnina auðninni auðnir auðnirnar auðnum auðnunum
+30	5930	sorgmæddur	sorgmædd sorgmædda sorgmæddan sorgmæddar sorgmæddara sorgmæddari sorgmæddast sorgmæddasta sorgmæddastan sorgmæddastar sorgmæddasti sorgmæddastir sorgmæddastra sorgmæddastrar sorgmæddastri sorgmæddasts sorgmæddastur sorgmæddi sorgmæddir sorgmæddra sorgmæddrar sorgmæddri sorgmædds sorgmæddu sorgmæddum sorgmæddust sorgmæddustu sorgmæddustum sorgmætt
+31	5931	fimmtugur	fimmtug fimmtuga fimmtugan fimmtugar fimmtugi fimmtugir fimmtugra fimmtugrar fimmtugri fimmtugs fimmtugt fimmtugu fimmtugum
+32	5932	fágætur	fágæt fágæta fágætan fágætar fágætara fágætari fágætast fágætasta fágætastan fágætastar fágætasti fágætastir fágætastra fágætastrar fágætastri fágætasts fágætastur fágæti fágætir fágætra fágætrar fágætri fágæts fágætt fágætu fágætum fágætust fágætustu fágætustum
+33	5933	sigg	siggi sigginu siggið siggs siggsins
+34	5934	áferð	áferðar áferðarinnar áferðin áferðina áferðinni
+35	5935	útbreiða	útbreidd útbreidda útbreiddan útbreiddar útbreiddi útbreiddir útbreiddist útbreiddra útbreiddrar útbreiddri útbreidds útbreiddu útbreiddum útbreiddumst útbreiddur útbreiddust útbreidduð útbreitt útbreiðandi útbreiðast útbreiði útbreiðir útbreiðist útbreiðið útbreiðst útbreiðum útbreiðumst
+36	5936	kolefni	kolefna kolefnanna kolefnin kolefninu kolefnis kolefnisins kolefnið kolefnum kolefnunum
+37	5937	þýska	þýskan þýskandi þýskar þýskast þýskað þýskaða þýskaðan þýskaðar þýskaði þýskaðir þýskaðist þýskaðra þýskaðrar þýskaðri þýskaðs þýskaðu þýskaður þýski þýskir þýskist þýskið þýsku þýskum þýskumst þýskuna þýskunnar þýskunni þýskuð þýskuðu þýskuðum þýskuðumst þýskuðust þýskuðuð
+38	5938	andstyggilegur	andstyggileg andstyggilega andstyggilegan andstyggilegar andstyggilegast andstyggilegasta andstyggilegastan andstyggilegastar andstyggilegasti andstyggilegastir andstyggilegastra andstyggilegastrar andstyggilegastri andstyggilegasts andstyggilegastur andstyggilegi andstyggilegir andstyggilegra andstyggilegrar andstyggilegri andstyggilegs andstyggilegt andstyggilegu andstyggilegum andstyggilegust andstyggilegustu andstyggilegustum
+39	5939	útivist	útivistar útivistarinnar útivistin útivistina útivistinni
+40	5940	skírteini	skírteina skírteinanna skírteinin skírteininu skírteinis skírteinisins skírteinið skírteinum skírteinunum
+41	5941	sérkennilegur	sérkennileg sérkennilega sérkennilegan sérkennilegar sérkennilegast sérkennilegasta sérkennilegastan sérkennilegastar sérkennilegasti sérkennilegastir sérkennilegastra sérkennilegastrar sérkennilegastri sérkennilegasts sérkennilegastur sérkennilegi sérkennilegir sérkennilegra sérkennilegrar sérkennilegri sérkennilegs sérkennilegt sérkennilegu sérkennilegum sérkennilegust sérkennilegustu sérkennilegustum
+42	5942	suða	suðan suðandi suðanna suðar suðast suðað suðaða suðaðan suðaðar suðaði suðaðir suðaðist suðaðra suðaðrar suðaðri suðaðs suðaðu suðaður suði suðir suðist suðið suðna suðnanna suðu suðum suðumst suðuna suðunnar suðunni suðunum suður suðurnar suðuð suðuðu suðuðum suðuðumst suðuðust suðuðuð
+43	5943	trúnaðarmál	trúnaðarmála trúnaðarmálanna trúnaðarmáli trúnaðarmálin trúnaðarmálinu trúnaðarmálið trúnaðarmáls trúnaðarmálsins trúnaðarmálum trúnaðarmálunum
+44	5944	nítján	
+45	5945	fræðilega	
+46	5946	einkaaðili	einkaaðila einkaaðilana einkaaðilann einkaaðilanna einkaaðilans einkaaðilanum einkaaðilar einkaaðilarnir einkaaðilinn einkaaðilja einkaaðiljana einkaaðiljann einkaaðiljanna einkaaðiljans einkaaðiljanum einkaaðiljar einkaaðiljarnir einkaaðiljum einkaaðiljunum einkaaðilum einkaaðilunum
+47	5947	námsefni	námsefna námsefnanna námsefnin námsefninu námsefnis námsefnisins námsefnið námsefnum námsefnunum
+48	5948	neyðartilfelli	neyðartilfella neyðartilfellanna neyðartilfellin neyðartilfellinu neyðartilfellis neyðartilfellisins neyðartilfellið neyðartilfellum neyðartilfellunum
+49	5949	fyllibytta	fyllibyttan fyllibyttanna fyllibyttna fyllibyttnanna fyllibyttu fyllibyttum fyllibyttuna fyllibyttunnar fyllibyttunni fyllibyttunum fyllibyttur fyllibytturnar
+50	5950	geitungur	geitung geitunga geitungana geitunganna geitungar geitungarnir geitungi geitunginn geitungnum geitungs geitungsins geitungum geitungunum geitungurinn
+51	5951	þeldökkur	þeldökk þeldökka þeldökkan þeldökkar þeldökki þeldökkir þeldökkra þeldökkrar þeldökkri þeldökks þeldökkt þeldökku þeldökkum
+52	5952	handsprengja	handsprengjan handsprengjanna handsprengju handsprengjum handsprengjuna handsprengjunnar handsprengjunni handsprengjunum handsprengjur handsprengjurnar handsprengna handsprengnanna
+53	5953	barnaskóli	barnaskóla barnaskólana barnaskólann barnaskólanna barnaskólans barnaskólanum barnaskólar barnaskólarnir barnaskólinn barnaskólum barnaskólunum
+54	5954	uppgangur	uppgang uppganga uppgangana uppganganna uppgangar uppgangarnir uppgangi uppganginn uppganginum uppgangs uppgangsins uppgangurinn uppgöngum uppgöngunum
+55	5955	dýna	dýnan dýnanna dýnu dýnum dýnuna dýnunnar dýnunni dýnunum dýnur dýnurnar
+56	5956	orðalag	orðalagi orðalaginu orðalagið orðalags orðalagsins
+57	5957	gærdagur	gærdag gærdaga gærdagana gærdaganna gærdagar gærdagarnir gærdaginn gærdags gærdagsins gærdagurinn gærdegi gærdeginum gærdögum gærdögunum
+58	5958	organisti	organista organistana organistann organistanna organistans organistanum organistar organistarnir organistinn organistum organistunum
+59	5959	flís	flísa flísanna flísar flísarinnar flísarnar flísin flísina flísinni flísum flísunum
+60	5960	handjárn	handjárna handjárnanna handjárni handjárnin handjárninu handjárnið handjárns handjárnsins handjárnum handjárnunum
+61	5961	hugaður	hugað hugaða hugaðan hugaðar hugaðast hugaðasta hugaðastan hugaðastar hugaðasti hugaðastir hugaðastra hugaðastrar hugaðastri hugaðasts hugaðastur hugaði hugaðir hugaðra hugaðrar hugaðri hugaðs huguð huguðu huguðum huguðust huguðustu huguðustum
+62	5962	rannsóknastofa	rannsóknastofan rannsóknastofanna rannsóknastofu rannsóknastofum rannsóknastofuna rannsóknastofunnar rannsóknastofunni rannsóknastofunum rannsóknastofur rannsóknastofurnar
+63	5963	stúta	stútandi stútar stútast stútað stútaða stútaðan stútaðar stútaði stútaðir stútaðirðu stútaðist stútaðra stútaðrar stútaðri stútaðs stútaðu stútaður stúti stútir stútist stútið stútum stútumst stútuð stútuðu stútuðum stútuðumst stútuðust stútuðuð
+64	5964	efnahagslega	
+65	5965	snjóflóð	snjóflóða snjóflóðanna snjóflóði snjóflóðin snjóflóðinu snjóflóðið snjóflóðs snjóflóðsins snjóflóðum snjóflóðunum
+66	5966	veglegur	vegleg veglega veglegan veglegar veglegast veglegasta veglegastan veglegastar veglegasti veglegastir veglegastra veglegastrar veglegastri veglegasts veglegastur veglegi veglegir veglegra veglegrar veglegri veglegs veglegt veglegu veglegum veglegust veglegustu veglegustum
+67	5967	verndarsvæði	verndarsvæða verndarsvæðanna verndarsvæðin verndarsvæðinu verndarsvæðis verndarsvæðisins verndarsvæðið verndarsvæðum verndarsvæðunum
+68	5968	bankarán	bankarána bankaránanna bankaráni bankaránin bankaráninu bankaránið bankaráns bankaránsins bankaránum bankaránunum
+69	5969	verkafólk	verkafólki verkafólkinu verkafólkið verkafólks verkafólksins
+70	5970	orðrétt	
+71	5971	hormón	hormóna hormónanna hormóni hormónin hormóninu hormónið hormóns hormónsins hormónum hormónunum
+72	5972	málfræði	málfræðin málfræðina málfræðinnar málfræðinni
+73	5973	stökkur	stökk stökka stökkan stökkar stökkara stökkari stökkast stökkasta stökkastan stökkastar stökkasti stökkastir stökkastra stökkastrar stökkastri stökkasts stökkastur stökki stökkir stökkra stökkrar stökkri stökks stökkt stökku stökkum stökkust stökkustu stökkustum
+74	5974	allsherjar	
+75	5975	náttföt	náttfata náttfatanna náttfötin náttfötum náttfötunum
+76	5976	karma	karmans karmanu karmað
+77	5977	minnisvarði	minnisvarða minnisvarðana minnisvarðann minnisvarðanna minnisvarðans minnisvarðanum minnisvarðar minnisvarðarnir minnisvarðinn minnisvörðum minnisvörðunum
+78	5978	innsigli	innsigla innsiglanna innsiglin innsiglinu innsiglis innsiglisins innsiglið innsiglum innsiglunum
+79	5979	akrein	akreina akreinanna akreinar akreinarinnar akreinarnar akreinin akreinina akreininni akreinum akreinunum
+80	5980	afsal	afsala afsalanna afsali afsalinu afsalið afsals afsalsins afsöl afsölin afsölum afsölunum
+81	5981	lánsamur	lánsama lánsaman lánsamar lánsamara lánsamari lánsamast lánsamasta lánsamastan lánsamastar lánsamasti lánsamastir lánsamastra lánsamastrar lánsamastri lánsamasts lánsamastur lánsami lánsamir lánsamra lánsamrar lánsamri lánsams lánsamt lánsöm lánsömu lánsömum lánsömust lánsömustu lánsömustum
+82	5982	sólsetur	sólsetra sólsetranna sólsetri sólsetrin sólsetrinu sólsetrið sólsetrum sólsetrunum sólseturs sólsetursins
+83	5983	arinn	arin arininn arinninn arins arinsins arna arnana arnanna arnar arnarnir arni arninum örnum örnunum
+84	5984	seinkun	seinkana seinkananna seinkanir seinkanirnar seinkunar seinkunarinnar seinkunin seinkunina seinkuninni seinkunum seinkununum
+85	5985	mammútur	mammút mammúta mammútana mammútanna mammútar mammútarnir mammúti mammútinn mammútinum mammútnum mammúts mammútsins mammútum mammútunum mammúturinn
+86	5986	málamiðlun	málamiðlana málamiðlananna málamiðlanir málamiðlanirnar málamiðlunar málamiðlunarinnar málamiðlunin málamiðlunina málamiðluninni málamiðlunum málamiðlununum
+87	5987	dramatískur	dramatísk dramatíska dramatískan dramatískar dramatískara dramatískari dramatískast dramatískasta dramatískastan dramatískastar dramatískasti dramatískastir dramatískastra dramatískastrar dramatískastri dramatískasts dramatískastur dramatíski dramatískir dramatískra dramatískrar dramatískri dramatísks dramatískt dramatísku dramatískum dramatískust dramatískustu dramatískustum
+88	5988	efnaskipti	efnaskipta efnaskiptanna efnaskiptin efnaskiptum efnaskiptunum
+89	5989	skali	skala skalana skalann skalanna skalans skalanum skalar skalarnir skalinn skölum skölunum
+90	5990	bindast	bast bastu bindist bindistu bindumst binst binstu bundist bundumst bundust byndist byndistu byndumst byndust
+91	5991	tilstilli	tilstillinu tilstillis tilstillisins tilstillið
+92	5992	viðskiptafræði	viðskiptafræðin viðskiptafræðina viðskiptafræðinnar viðskiptafræðinni
+93	5993	þjónustustúlka	þjónustustúlkan þjónustustúlkna þjónustustúlknanna þjónustustúlku þjónustustúlkum þjónustustúlkuna þjónustustúlkunnar þjónustustúlkunni þjónustustúlkunum þjónustustúlkur þjónustustúlkurnar
+94	5994	skanni	skanna skannana skannann skannanna skannans skannanum skannar skannarnir skanninn skönnum skönnunum
+95	5995	líkamsrækt	líkamsræktar líkamsræktarinnar líkamsræktin líkamsræktina líkamsræktinni
+96	5996	varsla	varslan varslanna vörslu vörslum vörsluna vörslunnar vörslunni vörslunum vörslur vörslurnar
+97	5997	rím	ríma rímanna rími rímin ríminu rímið ríms rímsins rímum rímunum
+98	5998	viðriðinn	viðriðin viðriðinna viðriðinnar viðriðinni viðriðins viðriðið viðriðna viðriðnar viðriðni viðriðnir viðriðnu viðriðnum
+99	5999	tryllast	tryllist tryllst trylltist trylltumst trylltust tryllumst
+100	6000	barón	baróna barónana barónanna barónar barónarnir baróni baróninn baróninum baróns barónsins barónum barónunum

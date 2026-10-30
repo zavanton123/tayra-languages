@@ -1,0 +1,100 @@
+1	7501	drjóli	drjóla drjólana drjólann drjólanna drjólans drjólanum drjólar drjólarnir drjólinn drjóll drjólum drjólunum
+2	7502	hausverkur	hausverk hausverki hausverkina hausverkinn hausverkir hausverkirnir hausverkja hausverkjanna hausverkjar hausverkjarins hausverkjum hausverkjunum hausverknum hausverkurinn
+3	7503	flækingur	flæking flækinga flækingana flækinganna flækingar flækingarnir flækingi flækinginn flækingnum flækings flækingsins flækingum flækingunum flækingurinn
+4	7504	girna	girnast girni girnir girnist girnst girnt girnti girntist girntumst girntust girnumst
+5	7505	leynd	leynda leyndanna leyndar leyndarinnar leyndin leyndina leyndinni leyndir leyndirnar leyndum leyndunum
+6	7506	endurvinna	endurunna endurunnar endurunni endurunnin endurunninn endurunninna endurunninnar endurunninni endurunnins endurunnir endurunnist endurunnið endurunnu endurunnum endurunnumst endurunnust endurunnuð endurvann endurvannst endurvannstu endurvinn endurvinnandi endurvinnast endurvinni endurvinnir endurvinnirðu endurvinnist endurvinnið endurvinnst endurvinnum endurvinnumst endurvinnur endurvinnurðu endurynni endurynnir endurynnirðu endurynnist endurynnu endurynnum endurynnumst endurynnust endurynnuð
+7	7507	spyrna	spyrnan spyrnandi spyrnanna spyrnast spyrni spyrnir spyrnist spyrnið spyrnst spyrnt spyrnta spyrntan spyrntar spyrnti spyrntir spyrntist spyrntra spyrntrar spyrntri spyrnts spyrntu spyrntum spyrntumst spyrntur spyrntust spyrntuð spyrnu spyrnum spyrnumst spyrnuna spyrnunnar spyrnunni spyrnunum spyrnur spyrnurnar
+8	7508	stigahár	stigahá stigaháa stigaháan stigaháar stigahái stigaháir stigahárra stigahárrar stigahárri stigahás stigahátt stigaháu stigaháum stigahærra stigahærri stigahæst stigahæsta stigahæstan stigahæstar stigahæsti stigahæstir stigahæstra stigahæstrar stigahæstri stigahæsts stigahæstu stigahæstum stigahæstur
+9	7509	afturelding	aftureldingar aftureldingarinnar aftureldingin aftureldingu aftureldinguna aftureldingunni
+10	7510	adrenalín	adrenalíni adrenalíninu adrenalínið adrenalíns adrenalínsins
+11	7511	kola	kolan kolanna kolna kolnanna kolu kolum koluna kolunnar kolunni kolunum kolur kolurnar
+12	7512	hegningarlög	hegningarlaga hegningarlaganna hegningarlögin hegningarlögum hegningarlögunum
+13	7513	símaskrá	símaskráa símaskráin símaskrám símaskrána símaskránna símaskránni símaskránum símaskrár símaskrárinnar símaskrárnar
+14	7514	rafeind	rafeinda rafeindanna rafeindar rafeindarinnar rafeindin rafeindina rafeindinni rafeindir rafeindirnar rafeindum rafeindunum
+15	7515	æðislega	
+16	7516	peningaþvætti	peningaþvætta peningaþvættanna peningaþvættin peningaþvættinu peningaþvættis peningaþvættisins peningaþvættið peningaþvættum peningaþvættunum
+17	7517	sýnilega	sýnilegar sýnilegast
+18	7518	auðkenna	auðkennandi auðkennast auðkennd auðkennda auðkenndan auðkenndar auðkenndi auðkenndir auðkenndist auðkenndra auðkenndrar auðkenndri auðkennds auðkenndu auðkenndum auðkenndumst auðkenndur auðkenndust auðkennduð auðkenni auðkennir auðkennist auðkennið auðkennst auðkennt auðkennum auðkennumst
+19	7519	höfuðstaður	höfuðstað höfuðstaða höfuðstaðanna höfuðstaðar höfuðstaðarins höfuðstaði höfuðstaðina höfuðstaðinn höfuðstaðir höfuðstaðirnir höfuðstaðnum höfuðstaðurinn höfuðstöðum höfuðstöðunum
+20	7520	símskeyti	símskeyta símskeytanna símskeytin símskeytinu símskeytis símskeytisins símskeytið símskeytum símskeytunum
+21	7521	fullvalda	
+22	7522	sjávarútvegsráðherra	sjávarútvegsráðherrana sjávarútvegsráðherrann sjávarútvegsráðherranna sjávarútvegsráðherrans sjávarútvegsráðherranum sjávarútvegsráðherrar sjávarútvegsráðherrarnir sjávarútvegsráðherrum sjávarútvegsráðherrunum
+23	7523	gervitungl	gervitungla gervitunglanna gervitungli gervitunglin gervitunglinu gervitunglið gervitungls gervitunglsins gervitunglum gervitunglunum
+24	7524	kláði	kláða kláðann kláðans kláðanum kláðinn
+25	7525	útbúnaður	útbúnað útbúnaðar útbúnaðarins útbúnaði útbúnaðinn útbúnaðinum útbúnaðnum útbúnaðurinn
+26	7526	endurkjör	endurkjöri endurkjörinu endurkjörið endurkjörs endurkjörsins
+27	7527	fólksflutningur	fólksflutning fólksflutninga fólksflutningana fólksflutninganna fólksflutningar fólksflutningarnir fólksflutningi fólksflutninginn fólksflutningnum fólksflutnings fólksflutningsins fólksflutningum fólksflutningunum fólksflutningurinn
+28	7528	svörun	svörunar svörunarinnar svörunin svörunina svöruninni
+29	7529	krufning	krufninga krufninganna krufningar krufningarinnar krufningarnar krufningin krufningu krufningum krufninguna krufningunni krufningunum
+30	7530	smápeningur	smápening smápeninga smápeningana smápeninganna smápeningar smápeningarnir smápeningi smápeninginn smápeningnum smápenings smápeningsins smápeningum smápeningunum smápeningurinn
+31	7531	skífa	skífan skífanna skífna skífnanna skífu skífum skífuna skífunnar skífunni skífunum skífur skífurnar
+32	7532	mótspyrna	mótspyrnan mótspyrnanna mótspyrnu mótspyrnum mótspyrnuna mótspyrnunnar mótspyrnunni mótspyrnunum mótspyrnur mótspyrnurnar
+33	7533	nörd	nörda nördana nördanna nördar nördarnir nördi nördinn nördinum nörds nördsins nördum nördunum
+34	7534	jagúar	jagúara jagúarana jagúaranna jagúarar jagúararnir jagúarinn jagúarnum jagúars jagúarsins jagúarum jagúarunum
+35	7535	hestamaður	hestamann hestamanna hestamannanna hestamanni hestamanninn hestamanninum hestamanns hestamannsins hestamaðurinn hestamenn hestamennina hestamennirnir hestamönnum hestamönnunum
+36	7536	þor	þori þorinu þorið þors þorsins
+37	7537	vök	vaka vakanna vakar vakarinnar vakir vakirnar vökin vökina vökinni vökum vökunum
+38	7538	fjölbýlishús	fjölbýlishúsa fjölbýlishúsanna fjölbýlishúsi fjölbýlishúsin fjölbýlishúsinu fjölbýlishúsið fjölbýlishúss fjölbýlishússins fjölbýlishúsum fjölbýlishúsunum
+39	7539	umsækjandi	umsækjanda umsækjandann umsækjandans umsækjandanum umsækjandinn umsækjenda umsækjendanna umsækjendum umsækjendunum umsækjendur umsækjendurna umsækjendurnir
+40	7540	fjáröflun	fjáraflana fjáraflananna fjáraflanir fjáraflanirnar fjáröflunar fjáröflunarinnar fjáröflunin fjáröflunina fjáröfluninni fjáröflunum fjáröflununum
+41	7541	fríka	fríkandi fríkar fríkað fríkaði fríkaðir fríkaðu fríki fríkir fríkið fríkum fríkuðu fríkuðum fríkuðuð
+42	7542	melta	melst melt meltan meltandi meltar meltast melti meltir meltist meltið meltra meltrar meltri melts meltu meltum meltumst meltuna meltunnar meltunni meltur meltust meltuð
+43	7543	strika	strikandi strikar strikast strikað strikaða strikaðan strikaðar strikaði strikaðir strikaðirðu strikaðist strikaðra strikaðrar strikaðri strikaðs strikaðu strikaður striki strikir strikist strikið strikum strikumst strikuð strikuðu strikuðum strikuðumst strikuðust strikuðuð
+44	7544	knattspyrnufélag	knattspyrnufélaga knattspyrnufélaganna knattspyrnufélagi knattspyrnufélaginu knattspyrnufélagið knattspyrnufélags knattspyrnufélagsins knattspyrnufélög knattspyrnufélögin knattspyrnufélögum knattspyrnufélögunum
+45	7545	táknmynd	táknmynda táknmyndanna táknmyndar táknmyndarinnar táknmyndin táknmyndina táknmyndinni táknmyndir táknmyndirnar táknmyndum táknmyndunum
+46	7546	gerjun	gerjunar gerjunarinnar gerjunin gerjunina gerjuninni
+47	7547	heimsmynd	heimsmynda heimsmyndanna heimsmyndar heimsmyndarinnar heimsmyndin heimsmyndina heimsmyndinni heimsmyndir heimsmyndirnar heimsmyndum heimsmyndunum
+48	7548	samheiti	samheita samheitanna samheitin samheitinu samheitis samheitisins samheitið samheitum samheitunum
+49	7549	tékki	tékka tékkana tékkann tékkanna tékkans tékkanum tékkar tékkarnir tékkinn tékkum tékkunum
+50	7550	langtími	langtíma langtímum
+51	7551	vesturhluti	vesturhluta vesturhlutana vesturhlutann vesturhlutanna vesturhlutans vesturhlutanum vesturhlutar vesturhlutarnir vesturhlutinn vesturhlutum vesturhlutunum
+52	7552	fjarska	
+53	7553	ígildi	ígilda ígildanna ígildin ígildinu ígildis ígildisins ígildið ígildum ígildunum
+54	7554	umburðarlyndi	umburðarlyndinu umburðarlyndis umburðarlyndisins umburðarlyndið
+55	7555	sjálfseignarstofnun	sjálfseignarstofnana sjálfseignarstofnananna sjálfseignarstofnanir sjálfseignarstofnanirnar sjálfseignarstofnunar sjálfseignarstofnunarinnar sjálfseignarstofnunin sjálfseignarstofnunina sjálfseignarstofnuninni sjálfseignarstofnunum sjálfseignarstofnununum
+56	7556	fjárveiting	fjárveitinga fjárveitinganna fjárveitingar fjárveitingarinnar fjárveitingarnar fjárveitingin fjárveitingu fjárveitingum fjárveitinguna fjárveitingunni fjárveitingunum
+57	7557	bræðralag	bræðralaga bræðralaganna bræðralagi bræðralaginu bræðralagið bræðralags bræðralagsins bræðralög bræðralögin bræðralögum bræðralögunum
+58	7558	loftbelgur	loftbelg loftbelgi loftbelgina loftbelginn loftbelgir loftbelgirnir loftbelgja loftbelgjanna loftbelgjar loftbelgjarins loftbelgjum loftbelgjunum loftbelgnum loftbelgs loftbelgsins loftbelgurinn
+59	7559	framherji	framherja framherjana framherjann framherjanna framherjans framherjanum framherjar framherjarnir framherjinn framherjum framherjunum
+60	7560	úthella	úthellandi úthellast úthelli úthellir úthellist úthellið úthellst úthellt úthellti úthelltir úthelltist úthelltu úthelltum úthelltumst úthelltust úthelltuð úthellum úthellumst
+61	7561	trommari	trommara trommarana trommarann trommaranna trommarans trommaranum trommarar trommararnir trommarinn trommurum trommurunum
+62	7562	togstreita	togstreitan togstreitu togstreituna togstreitunnar togstreitunni
+63	7563	tilstuðlan	tilstuðlanar tilstuðlanarinnar tilstuðlanin tilstuðlanina tilstuðlaninni
+64	7564	þvottahús	þvottahúsa þvottahúsanna þvottahúsi þvottahúsin þvottahúsinu þvottahúsið þvottahúss þvottahússins þvottahúsum þvottahúsunum
+65	7565	hættulega	hættulegast lhættuegar
+66	7566	fullorðnast	fullorðnaðist fullorðnist fullorðnumst fullorðnuðumst fullorðnuðust
+67	7567	gengilbeina	gengilbeinan gengilbeinanna gengilbeinu gengilbeinum gengilbeinuna gengilbeinunnar gengilbeinunni gengilbeinunum gengilbeinur gengilbeinurnar
+68	7568	sendill	sendil sendilinn sendillinn sendils sendilsins sendla sendlana sendlanna sendlar sendlarnir sendli sendlinum sendlum sendlunum
+69	7569	baðkar	baðkara baðkaranna baðkari baðkarinu baðkarið baðkars baðkarsins baðkör baðkörin baðkörum baðkörunum
+70	7570	heiðursorða	heiðursorðan heiðursorðanna heiðursorðna heiðursorðnanna heiðursorðu heiðursorðum heiðursorðuna heiðursorðunnar heiðursorðunni heiðursorðunum heiðursorður heiðursorðurnar
+71	7571	þakkarskuld	þakkarskuldar þakkarskuldarinnar þakkarskuldin þakkarskuldina þakkarskuldinni
+72	7572	spagettí	spagettíinu spagettíið spagettís spagettísins spaghettí
+73	7573	þóknun	þóknana þóknananna þóknanir þóknanirnar þóknunar þóknunarinnar þóknunin þóknunina þóknuninni þóknunum þóknununum
+74	7574	bakborði	bakborða bakborðann bakborðans bakborðanum bakborðinn
+75	7575	múldýr	múldýra múldýranna múldýri múldýrin múldýrinu múldýrið múldýrs múldýrsins múldýrum múldýrunum
+76	7576	dyravörður	dyravarða dyravarðanna dyravarðar dyravarðarins dyraverði dyraverðina dyraverðinum dyraverðir dyraverðirnir dyravörð dyravörðinn dyravörðum dyravörðunum dyravörðurinn
+77	7577	ofurmenni	ofurmenna ofurmennanna ofurmennin ofurmenninu ofurmennis ofurmennisins ofurmennið ofurmennum ofurmennunum
+78	7578	páfagaukur	páfagauk páfagauka páfagaukana páfagaukanna páfagaukar páfagaukarnir páfagauki páfagaukinn páfagauknum páfagauks páfagauksins páfagaukum páfagaukunum páfagaukurinn
+79	7579	álma	álman álmanna álmna álmnanna álmu álmum álmuna álmunnar álmunni álmunum álmur álmurnar
+80	7580	mannréttindabrot	mannréttindabrota mannréttindabrotanna mannréttindabroti mannréttindabrotin mannréttindabrotinu mannréttindabrotið mannréttindabrots mannréttindabrotsins mannréttindabrotum mannréttindabrotunum
+81	7581	hor	hori horinn horinu horið hornum hors horsins
+82	7582	söl	sölin sölva sölvanna sölvum sölvunum
+83	7583	mjöl	mjöli mjölinu mjölið mjöls mjölsins
+84	7584	erfðabreyttur	erfðabreytt erfðabreytta erfðabreyttan erfðabreyttar erfðabreytti erfðabreyttir erfðabreyttra erfðabreyttrar erfðabreyttri erfðabreytts erfðabreyttu erfðabreyttum
+85	7585	hreina	
+86	7586	uppástunga	uppástungan uppástungna uppástungnanna uppástungu uppástungum uppástunguna uppástungunnar uppástungunni uppástungunum uppástungur uppástungurnar
+87	7587	árátta	áráttan áráttu áráttuna áráttunnar áráttunni
+88	7588	fyrirsjáanlegur	fyrirsjáanleg fyrirsjáanlega fyrirsjáanlegan fyrirsjáanlegar fyrirsjáanlegast fyrirsjáanlegasta fyrirsjáanlegastan fyrirsjáanlegastar fyrirsjáanlegasti fyrirsjáanlegastir fyrirsjáanlegastra fyrirsjáanlegastrar fyrirsjáanlegastri fyrirsjáanlegasts fyrirsjáanlegastur fyrirsjáanlegi fyrirsjáanlegir fyrirsjáanlegra fyrirsjáanlegrar fyrirsjáanlegri fyrirsjáanlegs fyrirsjáanlegt fyrirsjáanlegu fyrirsjáanlegum fyrirsjáanlegust fyrirsjáanlegustu fyrirsjáanlegustum
+89	7589	milla	millan millanna millna millnanna millu millum milluna millunnar millunni millunum millur millurnar
+90	7590	vísindarannsókn	vísindarannsókna vísindarannsóknanna vísindarannsóknar vísindarannsóknarinnar vísindarannsóknin vísindarannsóknina vísindarannsókninni vísindarannsóknir vísindarannsóknirnar vísindarannsóknum vísindarannsóknunum
+91	7591	ljómi	ljóma ljómann ljómans ljómanum ljóminn
+92	7592	skírnarnafn	skírnarnafna skírnarnafnanna skírnarnafni skírnarnafninu skírnarnafnið skírnarnafns skírnarnafnsins skírnarnöfn skírnarnöfnin skírnarnöfnum skírnarnöfnunum
+93	7593	mjólka	mjólkandi mjólkar mjólkast mjólkað mjólkaða mjólkaðan mjólkaðar mjólkaði mjólkaðir mjólkaðist mjólkaðra mjólkaðrar mjólkaðri mjólkaðs mjólkaðu mjólkaður mjólki mjólkir mjólkist mjólkið mjólkum mjólkumst mjólkuð mjólkuðu mjólkuðum mjólkuðumst mjólkuðust mjólkuðuð
+94	7594	sefa	sefandi sefar sefast sefað sefaða sefaðan sefaðar sefaði sefaðir sefaðist sefaðra sefaðrar sefaðri sefaðs sefaðu sefaður sefi sefir sefist sefið sefum sefumst sefuð sefuðu sefuðum sefuðumst sefuðust sefuðuð
+95	7595	miðpunktur	miðpunkt miðpunkta miðpunktana miðpunktanna miðpunktar miðpunktarnir miðpunkti miðpunktinn miðpunktinum miðpunkts miðpunktsins miðpunktum miðpunktunum miðpunkturinn
+96	7596	nyt	nyta nytanna nytar nytarinnar nytarnar nytin nytina nytinni nytja nytjanna nytjar nytjarinnar nytjarnar nytjum nytjunum nytum nytunum
+97	7597	hebreskur	hebresk hebreska hebreskan hebreskar hebreskara hebreskari hebreskast hebreskasta hebreskastan hebreskastar hebreskasti hebreskastir hebreskastra hebreskastrar hebreskastri hebreskasts hebreskastur hebreski hebreskir hebreskra hebreskrar hebreskri hebresks hebreskt hebresku hebreskum hebreskust hebreskustu hebreskustum
+98	7598	eltingaleikur	eltingaleik eltingaleiki eltingaleikina eltingaleikinn eltingaleikir eltingaleikirnir eltingaleikja eltingaleikjanna eltingaleikjum eltingaleikjunum eltingaleiknum eltingaleiks eltingaleiksins eltingaleikurinn
+99	7599	uppsettur	uppsett uppsetta uppsettan uppsettar uppsetti uppsettir uppsettra uppsettrar uppsettri uppsetts uppsettu uppsettum
+100	7600	fjárkúgun	fjárkúgana fjárkúgananna fjárkúganir fjárkúganirnar fjárkúgunar fjárkúgunarinnar fjárkúgunin fjárkúgunina fjárkúguninni fjárkúgunum fjárkúgununum

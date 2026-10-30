@@ -1,0 +1,100 @@
+1	7801	undirmeðvitund	undirmeðvitundar undirmeðvitundarinnar undirmeðvitundin undirmeðvitundina undirmeðvitundinni
+2	7802	huglaus	huglausa huglausan huglausar huglausara huglausari huglausast huglausasta huglausastan huglausastar huglausasti huglausastir huglausastra huglausastrar huglausastri huglausasts huglausastur huglausi huglausir huglausra huglausrar huglausri huglauss huglaust huglausu huglausum huglausust huglausustu huglausustum
+3	7803	röntgenmynd	röntgenmynda röntgenmyndanna röntgenmyndar röntgenmyndarinnar röntgenmyndin röntgenmyndina röntgenmyndinni röntgenmyndir röntgenmyndirnar röntgenmyndum röntgenmyndunum
+4	7804	hvítingi	hvítinginn hvítingja hvítingjana hvítingjann hvítingjanna hvítingjans hvítingjanum hvítingjar hvítingjarnir hvítingjum hvítingjunum
+5	7805	niðurdreginn	niðurdregin niðurdreginna niðurdreginnar niðurdreginni niðurdregins niðurdregið niðurdregna niðurdregnar niðurdregnara niðurdregnari niðurdregnast niðurdregnasta niðurdregnastan niðurdregnastar niðurdregnasti niðurdregnastir niðurdregnastra niðurdregnastrar niðurdregnastri niðurdregnasts niðurdregnastur niðurdregni niðurdregnir niðurdregnu niðurdregnum niðurdregnust niðurdregnustu niðurdregnustum
+6	7806	stríðshetja	stríðshetjan stríðshetjanna stríðshetju stríðshetjum stríðshetjuna stríðshetjunnar stríðshetjunni stríðshetjunum stríðshetjur stríðshetjurnar
+7	7807	retta	rettan rettanna rettna rettnanna rettu rettum rettuna rettunnar rettunni rettunum rettur retturnar
+8	7808	umbjóðandi	umbjóðanda umbjóðandann umbjóðandans umbjóðandanum umbjóðandinn umbjóðenda umbjóðendanna umbjóðendum umbjóðendunum umbjóðendur umbjóðendurna umbjóðendurnir
+9	7809	hringing	hringinga hringinganna hringingar hringingarinnar hringingarnar hringingin hringingu hringingum hringinguna hringingunni hringingunum
+10	7810	dauðlegur	dauðleg dauðlega dauðlegan dauðlegar dauðlegast dauðlegasta dauðlegastan dauðlegastar dauðlegasti dauðlegastir dauðlegastra dauðlegastrar dauðlegastri dauðlegasts dauðlegastur dauðlegi dauðlegir dauðlegra dauðlegrar dauðlegri dauðlegs dauðlegt dauðlegu dauðlegum dauðlegust dauðlegustu dauðlegustum
+11	7811	stimpla	stimplandi stimplar stimplarðu stimplast stimplað stimplaða stimplaðan stimplaðar stimplaði stimplaðir stimplaðist stimplaðra stimplaðrar stimplaðri stimplaðs stimplaðu stimplaður stimpli stimplir stimplist stimplið stimplum stimplumst stimpluð stimpluðu stimpluðum stimpluðumst stimpluðust stimpluðuð
+12	7812	predikari	predikara predikarana predikarann predikaranna predikarans predikaranum predikarar predikararnir predikarinn predikurum predikurunum
+13	7813	hlutlægur	hlutlæg hlutlæga hlutlægan hlutlægar hlutlægara hlutlægari hlutlægast hlutlægasta hlutlægastan hlutlægastar hlutlægasti hlutlægastir hlutlægastra hlutlægastrar hlutlægastri hlutlægasts hlutlægastur hlutlægi hlutlægir hlutlægra hlutlægrar hlutlægri hlutlægs hlutlægt hlutlægu hlutlægum hlutlægust hlutlægustu hlutlægustum
+14	7814	lokaorð	lokaorða lokaorðanna lokaorði lokaorðin lokaorðinu lokaorðið lokaorðs lokaorðsins lokaorðum lokaorðunum
+15	7815	verðlaunafé	verðlaunafjár verðlaunafjárins verðlaunafénu verðlaunaféð
+16	7816	sveitarstjóri	sveitarstjóra sveitarstjórana sveitarstjórann sveitarstjóranna sveitarstjórans sveitarstjóranum sveitarstjórar sveitarstjórarnir sveitarstjórinn sveitarstjórum sveitarstjórunum
+17	7817	borgarastríð	borgarastríða borgarastríðanna borgarastríði borgarastríðin borgarastríðinu borgarastríðið borgarastríðs borgarastríðsins borgarastríðum borgarastríðunum
+18	7818	allmikill	allmikil allmikilla allmikillar allmikilli allmikils allmikinn allmikið allmikla allmiklar allmikli allmiklir allmiklu allmiklum
+19	7819	jafnóðum	
+20	7820	skuldari	skuldara skuldarana skuldarann skuldaranna skuldarans skuldaranum skuldarar skuldararnir skuldarinn skuldurum skuldurunum
+21	7821	þúfa	þúfan þúfna þúfnanna þúfu þúfum þúfuna þúfunnar þúfunni þúfunum þúfur þúfurnar
+22	7822	upprunninn	upprunna upprunnar upprunni upprunnin upprunninna upprunninnar upprunninni upprunnins upprunnir upprunnið upprunnu upprunnum
+23	7823	forsetaembætti	forsetaembætta forsetaembættanna forsetaembættin forsetaembættinu forsetaembættis forsetaembættisins forsetaembættið forsetaembættum forsetaembættunum
+24	7824	sog	soga soganna sogi sogin soginu sogið sogs sogsins sogum sogunum
+25	7825	vinnutími	vinnutíma vinnutímana vinnutímann vinnutímanna vinnutímans vinnutímanum vinnutímar vinnutímarnir vinnutíminn vinnutímum vinnutímunum
+26	7826	útganga	útgangan útgöngu útgönguna útgöngunnar útgöngunni
+27	7827	aðalpersóna	aðalpersónan aðalpersónanna aðalpersónu aðalpersónum aðalpersónuna aðalpersónunnar aðalpersónunni aðalpersónunum aðalpersónur aðalpersónurnar
+28	7828	valdhafi	valdhafa valdhafana valdhafann valdhafanna valdhafans valdhafanum valdhafar valdhafarnir valdhafinn valdhöfum valdhöfunum
+29	7829	skutur	skut skuta skutana skutanna skutar skutarnir skuti skutina skutinn skutir skutirnir skutnum skuts skutsins skutum skutunum skuturinn
+30	7830	kirkjuþing	kirkjuþinga kirkjuþinganna kirkjuþingi kirkjuþingin kirkjuþinginu kirkjuþingið kirkjuþings kirkjuþingsins kirkjuþingum kirkjuþingunum
+31	7831	leggur	legg leggi leggina legginn leggir leggirnir leggja leggjanna leggjar leggjarins leggjum leggjunum leggnum leggs leggsins leggurinn
+32	7832	stórmeistari	stórmeistara stórmeistarana stórmeistarann stórmeistaranna stórmeistarans stórmeistaranum stórmeistarar stórmeistararnir stórmeistarinn stórmeisturum stórmeisturunum
+33	7833	gosdrykkur	gosdrykk gosdrykki gosdrykkina gosdrykkinn gosdrykkir gosdrykkirnir gosdrykkja gosdrykkjanna gosdrykkjar gosdrykkjarins gosdrykkjum gosdrykkjunum gosdrykknum gosdrykkurinn
+34	7834	pumpa	pumpan pumpandi pumpanna pumpar pumpast pumpað pumpaða pumpaðan pumpaðar pumpaði pumpaðir pumpaðist pumpaðra pumpaðrar pumpaðri pumpaðs pumpaðu pumpaður pumpi pumpir pumpist pumpið pumpna pumpnanna pumpu pumpum pumpumst pumpuna pumpunnar pumpunni pumpunum pumpur pumpurnar pumpuð pumpuðu pumpuðum pumpuðumst pumpuðust pumpuðuð
+35	7835	spölur	spala spalanna spalar spalarins speli spelina spelinum spelir spelirnir spöl spölinn spölnum spölum spölunum spölurinn
+36	7836	heiðingi	heiðinginn heiðingja heiðingjana heiðingjann heiðingjanna heiðingjans heiðingjanum heiðingjar heiðingjarnir heiðingjum heiðingjunum
+37	7837	aðfangadagskvöld	aðfangadagskvölda aðfangadagskvöldanna aðfangadagskvöldi aðfangadagskvöldin aðfangadagskvöldinu aðfangadagskvöldið aðfangadagskvölds aðfangadagskvöldsins aðfangadagskvöldum aðfangadagskvöldunum
+38	7838	klofna	klofnandi klofnar klofnað klofnaða klofnaðan klofnaðar klofnaði klofnaðir klofnaðra klofnaðrar klofnaðri klofnaðs klofnaðu klofnaður klofni klofnir klofnið klofnum klofnuð klofnuðu klofnuðum klofnuðuð
+39	7839	skólahald	skólahaldi skólahaldinu skólahaldið skólahalds skólahaldsins
+40	7840	hugarfar	hugarfari hugarfarinu hugarfarið hugarfars hugarfarsins
+41	7841	dill	dilli dillinu dillið dills dillsins
+42	7842	leyfisleysi	leyfisleysinu leyfisleysis leyfisleysisins leyfisleysið
+43	7843	friðsamlegur	friðsamleg friðsamlega friðsamlegan friðsamlegar friðsamlegast friðsamlegasta friðsamlegastan friðsamlegastar friðsamlegasti friðsamlegastir friðsamlegastra friðsamlegastrar friðsamlegastri friðsamlegasts friðsamlegastur friðsamlegi friðsamlegir friðsamlegra friðsamlegrar friðsamlegri friðsamlegs friðsamlegt friðsamlegu friðsamlegum friðsamlegust friðsamlegustu friðsamlegustum
+44	7844	portúgalskur	portúgalska portúgalskan portúgalskar portúgalskara portúgalskari portúgalskast portúgalskasta portúgalskastan portúgalskastar portúgalskasti portúgalskastir portúgalskastra portúgalskastrar portúgalskastri portúgalskasts portúgalskastur portúgalski portúgalskir portúgalskra portúgalskrar portúgalskri portúgalsks portúgalskt portúgölsk portúgölsku portúgölskum portúgölskust portúgölskustu portúgölskustum
+45	7845	stórslys	stórslysa stórslysanna stórslysi stórslysin stórslysinu stórslysið stórslyss stórslyssins stórslysum stórslysunum
+46	7846	ellegar	
+47	7847	breytileiki	breytileika breytileikann breytileikans breytileikanum breytileikinn
+48	7848	húsakynni	húsakynna húsakynnanna húsakynnin húsakynnum húsakynnunum
+49	7849	munnlegur	munnleg munnlega munnlegan munnlegar munnlegast munnlegasta munnlegastan munnlegastar munnlegasti munnlegastir munnlegastra munnlegastrar munnlegastri munnlegasts munnlegastur munnlegi munnlegir munnlegra munnlegrar munnlegri munnlegs munnlegt munnlegu munnlegum munnlegust munnlegustu munnlegustum
+50	7850	nálgunarbann	nálgunarbanna nálgunarbannanna nálgunarbanni nálgunarbanninu nálgunarbannið nálgunarbanns nálgunarbannsins nálgunarbönn nálgunarbönnin nálgunarbönnum nálgunarbönnunum
+51	7851	verklegur	verkleg verklega verklegan verklegar verklegast verklegasta verklegastan verklegastar verklegasti verklegastir verklegastra verklegastrar verklegastri verklegasts verklegastur verklegi verklegir verklegra verklegrar verklegri verklegs verklegt verklegu verklegum verklegust verklegustu verklegustum
+52	7852	veiðarfæri	veiðarfæra veiðarfæranna veiðarfærin veiðarfærinu veiðarfæris veiðarfærisins veiðarfærið veiðarfærum veiðarfærunum
+53	7853	lofthelgi	lofthelgin lofthelgina lofthelginnar lofthelginni
+54	7854	glötun	glötunar glötunarinnar glötunin glötunina glötuninni
+55	7855	þorsti	þorsta þorstann þorstans þorstanum þorstinn
+56	7856	frumflytja	frumflust frumflutt frumflutta frumfluttan frumfluttar frumflutti frumfluttir frumfluttirðu frumfluttist frumfluttra frumfluttrar frumfluttri frumflutts frumfluttu frumfluttum frumfluttumst frumfluttur frumfluttust frumfluttuð frumflyst frumflyt frumflytjandi frumflytjast frumflytji frumflytjir frumflytjirðu frumflytjist frumflytjið frumflytjum frumflytjumst frumflytti frumflyttir frumflyttirðu frumflyttist frumflyttu frumflyttum frumflyttumst frumflyttust frumflyttuð frumflytur frumflyturðu
+57	7857	hlíðarendi	hlíðarenda hlíðarendana hlíðarendann hlíðarendanna hlíðarendans hlíðarendanum hlíðarendar hlíðarendarnir hlíðarendinn hlíðarendum hlíðarendunum
+58	7858	tölvunarfræði	tölvunarfræðin tölvunarfræðina tölvunarfræðinnar tölvunarfræðinni
+59	7859	útivöllur	útivalla útivallanna útivallar útivallarins útivelli útivellina útivellinum útivellir útivellirnir útivöll útivöllinn útivöllum útivöllunum útivöllurinn
+60	7860	yfirgangur	yfirgang yfirgangi yfirganginn yfirganginum yfirgangs yfirgangsins yfirgangurinn
+61	7861	sloppur	slopp sloppa sloppana sloppanna sloppar slopparnir sloppi sloppinn sloppinum sloppnum slopps sloppsins sloppum sloppunum sloppurinn
+62	7862	stórlega	
+63	7863	sárlega	
+64	7864	gjörbreyta	gjörbreyst gjörbreytandi gjörbreytast gjörbreyti gjörbreytir gjörbreytist gjörbreytið gjörbreytt gjörbreytta gjörbreyttan gjörbreyttar gjörbreytti gjörbreyttir gjörbreyttist gjörbreyttra gjörbreyttrar gjörbreyttri gjörbreytts gjörbreyttu gjörbreyttum gjörbreyttumst gjörbreyttur gjörbreyttust gjörbreyttuð gjörbreytum gjörbreytumst
+65	7865	víetnamskur	víetnamska víetnamskan víetnamskar víetnamski víetnamskir víetnamskra víetnamskrar víetnamskri víetnamsks víetnamskt víetnömsk víetnömsku víetnömskum
+66	7866	undirliggjandi	
+67	7867	byggingarleyfi	byggingarleyfa byggingarleyfanna byggingarleyfin byggingarleyfinu byggingarleyfis byggingarleyfisins byggingarleyfið byggingarleyfum byggingarleyfunum
+68	7868	fúslega	
+69	7869	samkennd	samkenndar samkenndarinnar samkenndin samkenndina samkenndinni
+70	7870	vínber	vínberi vínberin vínberinu vínberið vínberja vínberjanna vínberjum vínberjunum vínbers vínbersins
+71	7871	heilsulind	heilsulinda heilsulindanna heilsulindar heilsulindarinnar heilsulindin heilsulindina heilsulindinni heilsulindir heilsulindirnar heilsulindum heilsulindunum
+72	7872	mátulega	
+73	7873	flugferð	flugferða flugferðanna flugferðar flugferðarinnar flugferðin flugferðina flugferðinni flugferðir flugferðirnar flugferðum flugferðunum
+74	7874	jólalag	jólalaga jólalaganna jólalagi jólalaginu jólalagið jólalags jólalagsins jólalög jólalögin jólalögum jólalögunum
+75	7875	vefsvæði	vefsvæða vefsvæðanna vefsvæðin vefsvæðinu vefsvæðis vefsvæðisins vefsvæðið vefsvæðum vefsvæðunum
+76	7876	pípulögn	pípulagna pípulagnanna pípulagnar pípulagnarinnar pípulagnir pípulagnirnar pípulögnin pípulögnina pípulögninni pípulögnum pípulögnunum
+77	7877	brennisteinn	brennistein brennisteini brennisteininn brennisteininum brennisteinninn brennisteins brennisteinsins
+78	7878	allsráðandi	
+79	7879	aðaldyr	aðaldyra aðaldyranna aðaldyrnar aðaldyrum aðaldyrunum
+80	7880	ógiftur	ógift ógifta ógiftan ógiftar ógifti ógiftir ógiftra ógiftrar ógiftri ógifts ógiftu ógiftum
+81	7881	bleia	bleian bleianna bleiu bleium bleiuna bleiunnar bleiunni bleiunum bleiur bleiurnar
+82	7882	póstmaður	póstmann póstmanna póstmannanna póstmanni póstmanninn póstmanninum póstmanns póstmannsins póstmaðurinn póstmenn póstmennina póstmennirnir póstmönnum póstmönnunum
+83	7883	tittur	titt titta tittanna titti tittina tittinn tittinum tittir tittirnir titts tittsins tittum tittunum titturinn
+84	7884	guðsmóðir	guðsmóðirin guðsmóður guðsmóðurina guðsmóðurinnar guðsmóðurinni
+85	7885	hugboð	hugboða hugboðanna hugboði hugboðin hugboðinu hugboðið hugboðs hugboðsins hugboðum hugboðunum
+86	7886	feigur	feig feiga feigan feigar feigara feigari feigast feigasta feigastan feigastar feigasti feigastir feigastra feigastrar feigastri feigasts feigastur feigi feigir feigra feigrar feigri feigs feigt feigu feigum feigust feigustu feigustum
+87	7887	dólgur	dólg dólga dólgana dólganna dólgar dólgarnir dólgi dólginn dólginum dólgnum dólgs dólgsins dólgum dólgunum dólgurinn
+88	7888	fés	fésa fésanna fési fésin fésinu fésið féss féssins fésum fésunum
+89	7889	hárgreiðsla	hárgreiðslan hárgreiðslna hárgreiðslnanna hárgreiðslu hárgreiðslum hárgreiðsluna hárgreiðslunnar hárgreiðslunni hárgreiðslunum hárgreiðslur hárgreiðslurnar
+90	7890	henging	henginga henginganna hengingar hengingarinnar hengingarnar hengingin hengingu hengingum henginguna hengingunni hengingunum
+91	7891	gerandi	geranda gerandann gerandans gerandanum gerandinn gerenda gerendanna gerendum gerendunum gerendur gerendurna gerendurnir
+92	7892	sambland	samblandi samblandinu samblandið samblands samblandsins
+93	7893	teiknimyndasaga	teiknimyndasagan teiknimyndasagna teiknimyndasagnanna teiknimyndasögu teiknimyndasögum teiknimyndasöguna teiknimyndasögunnar teiknimyndasögunni teiknimyndasögunum teiknimyndasögur teiknimyndasögurnar
+94	7894	upphefja	upphafin upphafinn upphafinna upphafinnar upphafinni upphafins upphafist upphafið upphafna upphafnar upphafni upphafnir upphef upphefjandi upphefjast upphefji upphefjir upphefjist upphefjið upphefjum upphefjumst upphefst upphefstu upphefur upphefðu upphæfi upphæfir upphæfist upphæfu upphæfum upphæfumst upphæfust upphæfuð upphóf upphófst upphófu upphófum upphófumst upphófust upphófuð upphöfnu upphöfnum
+95	7895	syfjaður	syfjað syfjaða syfjaðan syfjaðar syfjaðast syfjaðasta syfjaðastan syfjaðastar syfjaðasti syfjaðastir syfjaðastra syfjaðastrar syfjaðastri syfjaðasts syfjaðastur syfjaði syfjaðir syfjaðra syfjaðrar syfjaðri syfjaðs syfjuð syfjuðu syfjuðum syfjuðust syfjuðustu syfjuðustum
+96	7896	hugrænn	hugræn hugræna hugrænan hugrænar hugrænast hugrænasta hugrænastan hugrænastar hugrænasti hugrænastir hugrænastra hugrænastrar hugrænastri hugrænasts hugrænastur hugræni hugrænir hugrænna hugrænnar hugrænni hugræns hugrænt hugrænu hugrænum hugrænust hugrænustu hugrænustum
+97	7897	skerðing	skerðinga skerðinganna skerðingar skerðingarinnar skerðingarnar skerðingin skerðingu skerðingum skerðinguna skerðingunni skerðingunum
+98	7898	örstuttur	örstutt örstutta örstuttan örstuttar örstutti örstuttir örstuttra örstuttrar örstuttri örstutts örstuttu örstuttum
+99	7899	þungun	þungana þungananna þunganir þunganirnar þungunar þungunarinnar þungunin þungunina þunguninni þungunum þungununum
+100	7900	lífsreynsla	lífsreynslan lífsreynslu lífsreynsluna lífsreynslunnar lífsreynslunni

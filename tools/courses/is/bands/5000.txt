@@ -1,0 +1,100 @@
+1	4901	spámaður	spámann spámanna spámannanna spámanni spámanninn spámanninum spámanns spámannsins spámaðurinn spámenn spámennina spámennirnir spámönnum spámönnunum
+2	4902	flaga	flagan flaganna flagna flagnanna flögu flögum flöguna flögunnar flögunni flögunum flögur flögurnar
+3	4903	inntak	inntaki inntakinu inntakið inntaks inntaksins
+4	4904	galinn	galin galinna galinnar galinni galins galið galna galnar galnara galnari galnast galnasta galnastan galnastar galnasti galnastir galnastra galnastrar galnastri galnasts galnastur galni galnir gölnu gölnum gölnust gölnustu gölnustum
+5	4905	hlýja	hlýi hlýir hlýið hlýjan hlýjandi hlýjar hlýjað hlýjaði hlýjaðir hlýjaðu hlýju hlýjum hlýjuna hlýjunnar hlýjunni hlýjuðu hlýjuðum hlýjuðuð
+6	4906	bralla	brallandi brallar brallað brallaði brallaðir brallaðu bralli brallir brallið bröllum brölluðu brölluðum brölluðuð
+7	4907	dulnefni	dulnefna dulnefnanna dulnefnin dulnefninu dulnefnis dulnefnisins dulnefnið dulnefnum dulnefnunum
+8	4908	skreyttur	skreytt skreytta skreyttan skreyttar skreyttara skreyttari skreyttast skreyttasta skreyttastan skreyttastar skreyttasti skreyttastir skreyttastra skreyttastrar skreyttastri skreyttasts skreyttastur skreytti skreyttir skreyttra skreyttrar skreyttri skreytts skreyttu skreyttum skreyttust skreyttustu skreyttustum
+9	4909	reika	reikandi reikar reikað reikaði reikaðir reikaðu reiki reikir reikið reikum reikuðu reikuðum reikuðuð
+10	4910	akademía	akademían akademíanna akademíu akademíum akademíuna akademíunnar akademíunni akademíunum akademíur akademíurnar
+11	4911	prótein	próteina próteinanna próteini próteinin próteininu próteinið próteins próteinsins próteinum próteinunum
+12	4912	óbyggð	óbyggða óbyggðanna óbyggðar óbyggðarinnar óbyggðin óbyggðina óbyggðinni óbyggðir óbyggðirnar óbyggðum óbyggðunum
+13	4913	tilgáta	tilgátan tilgátanna tilgátna tilgátnanna tilgátu tilgátum tilgátuna tilgátunnar tilgátunni tilgátunum tilgátur tilgáturnar
+14	4914	varúlfur	varúlf varúlfa varúlfana varúlfanna varúlfar varúlfarnir varúlfi varúlfinn varúlfinum varúlfs varúlfsins varúlfum varúlfunum varúlfurinn
+15	4915	hrökkva	hrekk hrekkur hrekkurðu hrokkin hrokkinn hrokkinna hrokkinnar hrokkinni hrokkins hrokkið hrokkna hrokknar hrokkni hrokknir hrokknu hrokknum hrukku hrukkum hrukkuð hrykki hrykkir hrykkirðu hrykkju hrykkjum hrykkjuð hrökk hrökkst hrökkstu hrökktu hrökkvandi hrökkvi hrökkvir hrökkvirðu hrökkvið hrökkvum
+16	4916	mataræði	mataræðinu mataræðis mataræðisins mataræðið
+17	4917	ummerki	ummerkin ummerkja ummerkjanna ummerkjum ummerkjunum
+18	4918	raunsær	raunsæ raunsæi raunsæir raunsæja raunsæjan raunsæjar raunsæjast raunsæjasta raunsæjastan raunsæjastar raunsæjasti raunsæjastir raunsæjastra raunsæjastrar raunsæjastri raunsæjasts raunsæjastur raunsæju raunsæjum raunsæjust raunsæjustu raunsæjustum raunsærra raunsærrar raunsærri raunsæs raunsætt
+19	4919	sendiför	sendifara sendifaranna sendifarar sendifararinnar sendifarir sendifarirnar sendiförin sendiförina sendiförinni sendiförum sendiförunum
+20	4920	sólkerfi	sólkerfa sólkerfanna sólkerfin sólkerfinu sólkerfis sólkerfisins sólkerfið sólkerfum sólkerfunum
+21	4921	leiktíð	leiktíða leiktíðanna leiktíðar leiktíðarinnar leiktíðin leiktíðina leiktíðinni leiktíðir leiktíðirnar leiktíðum leiktíðunum
+22	4922	kyrkja	kyrki kyrkir kyrkist kyrkið kyrkjandi kyrkjast kyrkjum kyrkjumst kyrkst kyrkt kyrkta kyrktan kyrktar kyrkti kyrktir kyrktist kyrktra kyrktrar kyrktri kyrkts kyrktu kyrktum kyrktumst kyrktur kyrktust kyrktuð
+23	4923	börkur	barka barkanna barkar barkarins berki berkina berkinum berkir berkirnir börk börkinn börkum börkunum börkurinn
+24	4924	ljóðabók	ljóðabækur ljóðabækurnar ljóðabóka ljóðabókanna ljóðabókar ljóðabókarinnar ljóðabókin ljóðabókina ljóðabókinni ljóðabókum ljóðabókunum
+25	4925	áróður	áróðri áróðrinum áróðurinn áróðurs áróðursins
+26	4926	guðfræði	guðfræðin guðfræðina guðfræðinnar guðfræðinni
+27	4927	hraða	hraðandi hraðar hraðað hraðaði hraðaðir hraðaðu hraði hraðir hraðið hröðum hröðuðu hröðuðum hröðuðuð
+28	4928	afnot	afnota afnotanna afnotin afnotum afnotunum
+29	4929	viðmið	viðmiða viðmiðanna viðmiði viðmiðin viðmiðinu viðmiðið viðmiðs viðmiðsins viðmiðum viðmiðunum
+30	4930	tengiliður	tengilið tengiliða tengiliðanna tengiliðar tengiliðarins tengiliði tengiliðina tengiliðinn tengiliðir tengiliðirnir tengiliðnum tengiliðs tengiliðsins tengiliðum tengiliðunum tengiliðurinn
+31	4931	tregur	treg trega tregan tregar tregara tregari tregast tregasta tregastan tregastar tregasti tregastir tregastra tregastrar tregastri tregasts tregastur tregi tregir tregra tregrar tregri tregs tregt tregu tregum tregust tregustu tregustum
+32	4932	umsvif	umsvifa umsvifanna umsvifin umsvifum umsvifunum
+33	4933	hjólreið	hjólreiða hjólreiðanna hjólreiðar hjólreiðarinnar hjólreiðarnar hjólreiðin hjólreiðina hjólreiðinni hjólreiðum hjólreiðunum
+34	4934	siðfræði	siðfræðin siðfræðina siðfræðinnar siðfræðinni
+35	4935	hápunktur	hápunkt hápunkta hápunktana hápunktanna hápunktar hápunktarnir hápunkti hápunktinn hápunktinum hápunkts hápunktsins hápunktum hápunktunum hápunkturinn
+36	4936	framgangur	framgang framganga framgangana framganganna framgangar framgangarnir framgangi framganginn framganginum framgangs framgangsins framgangurinn framgöngum framgöngunum
+37	4937	hringbraut	hringbrauta hringbrautanna hringbrautar hringbrautarinnar hringbrautin hringbrautina hringbrautinni hringbrautir hringbrautirnar hringbrautum hringbrautunum
+38	4938	hryllilegur	hryllileg hryllilega hryllilegan hryllilegar hryllilegast hryllilegasta hryllilegastan hryllilegastar hryllilegasti hryllilegastir hryllilegastra hryllilegastrar hryllilegastri hryllilegasts hryllilegastur hryllilegi hryllilegir hryllilegra hryllilegrar hryllilegri hryllilegs hryllilegt hryllilegu hryllilegum hryllilegust hryllilegustu hryllilegustum
+39	4939	anddyri	anddyra anddyranna anddyrin anddyrinu anddyris anddyrisins anddyrið anddyrum anddyrunum
+40	4940	beta	betan betanna betu betum betuna betunnar betunni betunum betur beturnar
+41	4941	óhreinn	óhrein óhreina óhreinan óhreinar óhreinast óhreinasta óhreinastan óhreinastar óhreinasti óhreinastir óhreinastra óhreinastrar óhreinastri óhreinasts óhreinastur óhreini óhreinir óhreinna óhreinnar óhreinni óhreins óhreint óhreinu óhreinum óhreinust óhreinustu óhreinustum
+42	4942	skotvopn	skotvopna skotvopnanna skotvopni skotvopnin skotvopninu skotvopnið skotvopns skotvopnsins skotvopnum skotvopnunum
+43	4943	smiður	smið smiða smiðanna smiði smiðina smiðinn smiðir smiðirnir smiðnum smiðs smiðsins smiðum smiðunum smiðurinn
+44	4944	endurreisn	endurreisnar endurreisnarinnar endurreisnin endurreisnina endurreisninni
+45	4945	litríkur	litrík litríka litríkan litríkar litríkara litríkari litríkast litríkasta litríkastan litríkastar litríkasti litríkastir litríkastra litríkastrar litríkastri litríkasts litríkastur litríki litríkir litríkra litríkrar litríkri litríks litríkt litríku litríkum litríkust litríkustu litríkustum
+46	4946	klínískur	klínísk klíníska klínískan klínískar klínískara klínískari klínískast klínískasta klínískastan klínískastar klínískasti klínískastir klínískastra klínískastrar klínískastri klínískasts klínískastur klíníski klínískir klínískra klínískrar klínískri klínísks klínískt klínísku klínískum klínískust klínískustu klínískustum
+47	4947	sektarkennd	sektarkenndar sektarkenndarinnar sektarkenndin sektarkenndina sektarkenndinni
+48	4948	fordómur	fordóm fordóma fordómana fordómanna fordómar fordómarnir fordómi fordóminn fordóminum fordómnum fordóms fordómsins fordómum fordómunum fordómurinn
+49	4949	gönguferð	gönguferða gönguferðanna gönguferðar gönguferðarinnar gönguferðin gönguferðina gönguferðinni gönguferðir gönguferðirnar gönguferðum gönguferðunum
+50	4950	galdrakarl	galdrakarla galdrakarlana galdrakarlanna galdrakarlar galdrakarlarnir galdrakarli galdrakarlinn galdrakarlinum galdrakarls galdrakarlsins galdrakörlum galdrakörlunum
+51	4951	il	ilin ilina ilinni ilja iljanna iljar iljarinnar iljarnar iljum iljunum
+52	4952	seinka	seinkandi seinkar seinkast seinkað seinkaða seinkaðan seinkaðar seinkaði seinkaðir seinkaðist seinkaðra seinkaðrar seinkaðri seinkaðs seinkaðu seinkaður seinki seinkir seinkist seinkið seinkum seinkumst seinkuð seinkuðu seinkuðum seinkuðumst seinkuðust seinkuðuð
+53	4953	bankastjóri	bankastjóra bankastjórana bankastjórann bankastjóranna bankastjórans bankastjóranum bankastjórar bankastjórarnir bankastjórinn bankastjórum bankastjórunum
+54	4954	melissa	melissan melissanna melissu melissum melissuna melissunnar melissunni melissunum melissur melissurnar
+55	4955	vonsvikinn	vonsvikin vonsvikinna vonsvikinnar vonsvikinni vonsvikins vonsvikið vonsvikna vonsviknar vonsviknara vonsviknari vonsviknast vonsviknasta vonsviknastan vonsviknastar vonsviknasti vonsviknastir vonsviknastra vonsviknastrar vonsviknastri vonsviknasts vonsviknastur vonsvikni vonsviknir vonsviknu vonsviknum vonsviknust vonsviknustu vonsviknustum
+56	4956	lagadeild	lagadeilda lagadeildanna lagadeildar lagadeildarinnar lagadeildin lagadeildina lagadeildinni lagadeildir lagadeildirnar lagadeildum lagadeildunum
+57	4957	kosningaréttur	kosningarétt kosningaréttar kosningaréttarins kosningarétti kosningaréttinn kosningaréttinum kosningarétturinn
+58	4958	óvenjulega	óvenjulegar óvenjulegast
+59	4959	aukalega	
+60	4960	fullveldi	fullvelda fullveldanna fullveldin fullveldinu fullveldis fullveldisins fullveldið fullveldum fullveldunum
+61	4961	bómull	bómullar bómullarinnar bómullin bómullina bómullinni
+62	4962	bráðabirgð	bráðabirgða bráðabirgðanna bráðabirgðar bráðabirgðarinnar bráðabirgðin bráðabirgðina bráðabirgðinni bráðabirgðir bráðabirgðirnar bráðabirgðum bráðabirgðunum
+63	4963	gerpi	gerpa gerpanna gerpin gerpinu gerpis gerpisins gerpið gerpum gerpunum
+64	4964	kleinuhringur	kleinuhring kleinuhringa kleinuhringana kleinuhringanna kleinuhringar kleinuhringarnir kleinuhringi kleinuhringina kleinuhringinn kleinuhringir kleinuhringirnir kleinuhringja kleinuhringjanna kleinuhringjum kleinuhringjunum kleinuhringnum kleinuhrings kleinuhringsins kleinuhringum kleinuhringunum kleinuhringurinn
+65	4965	sveitarstjórnarkosning	sveitarstjórnarkosninga sveitarstjórnarkosninganna sveitarstjórnarkosningar sveitarstjórnarkosningarinnar sveitarstjórnarkosningarnar sveitarstjórnarkosningin sveitarstjórnarkosningu sveitarstjórnarkosningum sveitarstjórnarkosninguna sveitarstjórnarkosningunni sveitarstjórnarkosningunum
+66	4966	hald	halda haldanna haldi haldinu haldið halds haldsins höld höldin höldum höldunum
+67	4967	ví	
+68	4968	öryggisgæsla	öryggisgæslan öryggisgæslu öryggisgæsluna öryggisgæslunnar öryggisgæslunni
+69	4969	gatnamót	gatnamóta gatnamótanna gatnamótin gatnamótum gatnamótunum
+70	4970	félagslega	
+71	4971	hagkvæmur	hagkvæm hagkvæma hagkvæman hagkvæmar hagkvæmara hagkvæmari hagkvæmast hagkvæmasta hagkvæmastan hagkvæmastar hagkvæmasti hagkvæmastir hagkvæmastra hagkvæmastrar hagkvæmastri hagkvæmasts hagkvæmastur hagkvæmi hagkvæmir hagkvæmra hagkvæmrar hagkvæmri hagkvæms hagkvæmt hagkvæmu hagkvæmum hagkvæmust hagkvæmustu hagkvæmustum
+72	4972	erfðaskrá	erfðaskráa erfðaskráin erfðaskrám erfðaskrána erfðaskránna erfðaskránni erfðaskránum erfðaskrár erfðaskrárinnar erfðaskrárnar
+73	4973	mannlíf	mannlífi mannlífinu mannlífið mannlífs mannlífsins
+74	4974	andvirði	andvirðinu andvirðis andvirðisins andvirðið
+75	4975	sóun	sóunar sóunarinnar sóunin sóunina sóuninni
+76	4976	styrjöld	styrjalda styrjaldanna styrjaldar styrjaldarinnar styrjaldir styrjaldirnar styrjöldin styrjöldina styrjöldinni styrjöldum styrjöldunum
+77	4977	bæjarfélag	bæjarfélaga bæjarfélaganna bæjarfélagi bæjarfélaginu bæjarfélagið bæjarfélags bæjarfélagsins bæjarfélög bæjarfélögin bæjarfélögum bæjarfélögunum
+78	4978	nýlenda	nýlendan nýlendanna nýlendna nýlendnanna nýlendu nýlendum nýlenduna nýlendunnar nýlendunni nýlendunum nýlendur nýlendurnar
+79	4979	drykkja	drykkjan drykkjanna drykkju drykkjum drykkjuna drykkjunnar drykkjunni drykkjunum drykkjur drykkjurnar drykkna drykknanna
+80	4980	umheimur	umheim umheimi umheiminn umheiminum umheims umheimsins umheimurinn
+81	4981	beiting	beitinga beitinganna beitingar beitingarinnar beitingarnar beitingin beitingu beitingum beitinguna beitingunni beitingunum
+82	4982	bólga	bólgan bólganna bólgna bólgnanna bólgu bólgum bólguna bólgunnar bólgunni bólgunum bólgur bólgurnar
+83	4983	kisa	kisan kisanna kisu kisum kisuna kisunnar kisunni kisunum kisur kisurnar
+84	4984	ósigur	ósigra ósigrana ósigranna ósigrar ósigrarnir ósigri ósigrinum ósigrum ósigrunum ósigurinn ósigurs ósigursins
+85	4985	minjar	minja minjanna minjarnar minjum minjunum
+86	4986	tott	totti tottinu tottið totts tottsins
+87	4987	trúlofun	trúlofana trúlofananna trúlofanir trúlofanirnar trúlofunar trúlofunarinnar trúlofunin trúlofunina trúlofuninni trúlofunum trúlofununum
+88	4988	þakklæti	þakklætinu þakklætis þakklætisins þakklætið
+89	4989	tígrisdýr	tígrisdýra tígrisdýranna tígrisdýri tígrisdýrin tígrisdýrinu tígrisdýrið tígrisdýrs tígrisdýrsins tígrisdýrum tígrisdýrunum
+90	4990	vændi	vændinu vændis vændisins vændið
+91	4991	rof	rofa rofanna rofi rofin rofinu rofið rofs rofsins rofum rofunum
+92	4992	einblína	einblínandi einblíndi einblíndir einblíndu einblíndum einblínduð einblíni einblínir einblínirðu einblínið einblínt einblínum
+93	4993	skipverji	skipverja skipverjana skipverjann skipverjanna skipverjans skipverjanum skipverjar skipverjarnir skipverjinn skipverjum skipverjunum
+94	4994	fyllilega	
+95	4995	frysta	fryst frystan frystandi frystar frystast frysti frystir frystist frystið frystra frystrar frystri frysts frystu frystum frystumst frystur frystust frystuð
+96	4996	flakka	flakkandi flakkar flakkað flakkaði flakkaðir flakkaðu flakki flakkir flakkið flökkum flökkuðu flökkuðum flökkuðuð
+97	4997	kröftugur	kröftug kröftuga kröftugan kröftugar kröftugast kröftugasta kröftugastan kröftugastar kröftugasti kröftugastir kröftugastra kröftugastrar kröftugastri kröftugasts kröftugastur kröftugi kröftugir kröftugra kröftugrar kröftugri kröftugs kröftugt kröftugu kröftugum kröftugust kröftugustu kröftugustum
+98	4998	einsamall	einsamalla einsamallar einsamalli einsamals einsamalt einsamla einsamlan einsamlar einsamlir einsömlu einsömlum einsömul
+99	4999	verpa	orpin orpinn orpinna orpinnar orpinni orpins orpið orpna orpnar orpni orpnir orpnu orpnum urpu urpum urpuð varp varpst verp verpandi verpast verpi verpir verpist verpið verpst verpt verpta verptan verptar verpti verptir verptist verptra verptrar verptri verpts verptu verptum verptumst verptur verptust verptuð verpum verpumst verpur yrpi yrpir yrpu yrpum yrpuð
+100	5000	landhelgisgæsla	landhelgisgæslan landhelgisgæslu landhelgisgæsluna landhelgisgæslunnar landhelgisgæslunni

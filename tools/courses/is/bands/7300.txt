@@ -1,0 +1,100 @@
+1	7201	skólastarf	skólastarfa skólastarfanna skólastarfi skólastarfinu skólastarfið skólastarfs skólastarfsins skólastörf skólastörfin skólastörfum skólastörfunum
+2	7202	bítill	bítil bítilinn bítillinn bítils bítilsins bítla bítlana bítlanna bítlar bítlarnir bítli bítlinum bítlum bítlunum
+3	7203	landstjóri	landstjóra landstjórana landstjórann landstjóranna landstjórans landstjóranum landstjórar landstjórarnir landstjórinn landstjórum landstjórunum
+4	7204	kelda	keldan keldna keldnanna keldu keldum kelduna keldunnar keldunni keldunum keldur keldurnar
+5	7205	forsvar	forsvari forsvarinu forsvarið forsvars forsvarsins
+6	7206	voðalegur	voðaleg voðalega voðalegan voðalegar voðalegast voðalegasta voðalegastan voðalegastar voðalegasti voðalegastir voðalegastra voðalegastrar voðalegastri voðalegasts voðalegastur voðalegi voðalegir voðalegra voðalegrar voðalegri voðalegs voðalegt voðalegu voðalegum voðalegust voðalegustu voðalegustum
+7	7207	mótstaða	mótstaðan mótstöðu mótstöðuna mótstöðunnar mótstöðunni
+8	7208	fornleifafræði	fornleifafræðin fornleifafræðina fornleifafræðinnar fornleifafræðinni
+9	7209	sög	saga saganna sagar sagarinnar sagir sagirnar sögin sögina söginni sögum sögunum
+10	7210	gámur	gám gáma gámana gámanna gámar gámarnir gámi gáminn gáminum gámnum gáms gámsins gámum gámunum gámurinn
+11	7211	stórmót	stórmóta stórmótanna stórmóti stórmótin stórmótinu stórmótið stórmóts stórmótsins stórmótum stórmótunum
+12	7212	fótfesta	fótfestan fótfestu fótfestuna fótfestunnar fótfestunni
+13	7213	ógeðslega	ógeðslegar ógeðslegast
+14	7214	illgresi	illgresinu illgresis illgresisins illgresið
+15	7215	lesefni	lesefna lesefnanna lesefnin lesefninu lesefnis lesefnisins lesefnið lesefnum lesefnunum
+16	7216	kynferði	kynferðinu kynferðis kynferðisins kynferðið
+17	7217	kennitala	kennitalan kennitalna kennitalnanna kennitölu kennitölum kennitöluna kennitölunnar kennitölunni kennitölunum kennitölur kennitölurnar
+18	7218	undanfari	undanfara undanfarana undanfarann undanfaranna undanfarans undanfaranum undanfarar undanfararnir undanfarinn undanförum undanförunum
+19	7219	yfirferð	yfirferða yfirferðanna yfirferðar yfirferðarinnar yfirferðin yfirferðina yfirferðinni yfirferðir yfirferðirnar yfirferðum yfirferðunum
+20	7220	ólag	ólaga ólaganna ólagi ólaginu ólagið ólags ólagsins ólög ólögin ólögum ólögunum
+21	7221	fnykur	fnyk fnyki fnykina fnykinn fnykir fnykirnir fnykja fnykjanna fnykjum fnykjunum fnyknum fnyks fnyksins fnykurinn
+22	7222	skotsár	skotsára skotsáranna skotsári skotsárin skotsárinu skotsárið skotsárs skotsársins skotsárum skotsárunum
+23	7223	hjólhýsi	hjólhýsa hjólhýsanna hjólhýsin hjólhýsinu hjólhýsis hjólhýsisins hjólhýsið hjólhýsum hjólhýsunum
+24	7224	þorpari	þorpara þorparana þorparann þorparanna þorparans þorparanum þorparar þorpararnir þorparinn þorpurum þorpurunum
+25	7225	vanvirða	vanvirst vanvirt vanvirta vanvirtan vanvirtar vanvirti vanvirtir vanvirtist vanvirtra vanvirtrar vanvirtri vanvirts vanvirtu vanvirtum vanvirtumst vanvirtur vanvirtust vanvirtuð vanvirðan vanvirðandi vanvirðast vanvirði vanvirðir vanvirðist vanvirðið vanvirðu vanvirðum vanvirðumst vanvirðuna vanvirðunnar vanvirðunni
+26	7226	pallbíll	pallbíl pallbíla pallbílana pallbílanna pallbílar pallbílarnir pallbílinn pallbíllinn pallbílnum pallbíls pallbílsins pallbílum pallbílunum
+27	7227	innifela	innifalda innifaldar innifaldi innifaldir innifalin innifalinn innifalinna innifalinnar innifalinni innifalins innifalið innifel innifelandi innifelast innifeli innifelir innifelist innifelið innifelst innifelstu innifelum innifelumst innifelur innifæli innifælir innifælist innifælu innifælum innifælumst innifælust innifæluð innifól innifólst innifólu innifólum innifólumst innifólust innifóluð inniföldu inniföldum
+28	7228	fjárframlag	fjárframlaga fjárframlaganna fjárframlagi fjárframlaginu fjárframlagið fjárframlags fjárframlagsins fjárframlög fjárframlögin fjárframlögum fjárframlögunum
+29	7229	samhljómur	samhljóm samhljóma samhljómana samhljómanna samhljómar samhljómarnir samhljómi samhljóminn samhljóminum samhljómnum samhljóms samhljómsins samhljómum samhljómunum samhljómurinn
+30	7230	ólífuolía	ólífuolían ólífuolíu ólífuolíuna ólífuolíunnar ólífuolíunni
+31	7231	himinlifandi	
+32	7232	skógræktarfélag	skógræktarfélaga skógræktarfélaganna skógræktarfélagi skógræktarfélaginu skógræktarfélagið skógræktarfélags skógræktarfélagsins skógræktarfélög skógræktarfélögin skógræktarfélögum skógræktarfélögunum
+33	7233	strigi	striga strigana strigann striganna strigans striganum strigar strigarnir striginn strigum strigunum
+34	7234	gaumur	gaum gauminn gaumnum gaums gaumsins gaumurinn
+35	7235	megn	megna megnan megnanna megnar megnara megnari megnast megnasta megnastan megnastar megnasti megnastir megnastra megnastrar megnastri megnasts megnastur megni megnin megninu megnir megnið megnra megnrar megnri megns megnsins megnt megnu megnum megnunum megnust megnustu megnustum
+36	7236	bardagamaður	bardagamann bardagamanna bardagamannanna bardagamanni bardagamanninn bardagamanninum bardagamanns bardagamannsins bardagamaðurinn bardagamenn bardagamennina bardagamennirnir bardagamönnum bardagamönnunum
+37	7237	uppréttur	upprétt upprétta uppréttan uppréttar uppréttara uppréttari uppréttast uppréttasta uppréttastan uppréttastar uppréttasti uppréttastir uppréttastra uppréttastrar uppréttastri uppréttasts uppréttastur upprétti uppréttir uppréttra uppréttrar uppréttri upprétts uppréttu uppréttum uppréttust uppréttustu uppréttustum
+38	7238	svekkja	svekki svekkir svekkist svekkið svekkjandi svekkjast svekkjum svekkjumst svekkst svekkt svekkta svekktan svekktar svekkti svekktir svekktist svekktra svekktrar svekktri svekkts svekktu svekktum svekktumst svekktur svekktust svekktuð
+39	7239	grunnskólakennari	grunnskólakennara grunnskólakennarana grunnskólakennarann grunnskólakennaranna grunnskólakennarans grunnskólakennaranum grunnskólakennarar grunnskólakennararnir grunnskólakennarinn grunnskólakennurum grunnskólakennurunum
+40	7240	flagga	flaggandi flaggar flaggað flaggaði flaggaðir flaggaðu flaggi flaggir flaggið flöggum flögguðu flögguðum flögguðuð
+41	7241	smeykur	smeyk smeyka smeykan smeykar smeykara smeykari smeykast smeykasta smeykastan smeykastar smeykasti smeykastir smeykastra smeykastrar smeykastri smeykasts smeykastur smeyki smeykir smeykra smeykrar smeykri smeyks smeykt smeyku smeykum smeykust smeykustu smeykustum
+42	7242	dúsa	dúsan dúsandi dúsanna dúsar dúsað dúsaða dúsaðan dúsaðar dúsaði dúsaðir dúsaðra dúsaðrar dúsaðri dúsaðs dúsaðu dúsaður dúsi dúsir dúsið dúsu dúsum dúsuna dúsunnar dúsunni dúsunum dúsur dúsurnar dúsuð dúsuðu dúsuðum dúsuðuð
+43	7243	miskunnarlaus	miskunnarlausa miskunnarlausan miskunnarlausar miskunnarlausara miskunnarlausari miskunnarlausast miskunnarlausasta miskunnarlausastan miskunnarlausastar miskunnarlausasti miskunnarlausastir miskunnarlausastra miskunnarlausastrar miskunnarlausastri miskunnarlausasts miskunnarlausastur miskunnarlausi miskunnarlausir miskunnarlausra miskunnarlausrar miskunnarlausri miskunnarlauss miskunnarlaust miskunnarlausu miskunnarlausum miskunnarlausust miskunnarlausustu miskunnarlausustum
+44	7244	peð	peða peðanna peði peðin peðinu peðið peðs peðsins peðum peðunum
+45	7245	yfirsjást	yfirsjáist yfirsást yfirsæist yfirsést
+46	7246	tónsmíði	tónsmíða tónsmíðanna tónsmíðar tónsmíðarnar tónsmíðin tónsmíðina tónsmíðinnar tónsmíðinni tónsmíðum tónsmíðunum
+47	7247	eimskip	eimskipa eimskipanna eimskipi eimskipin eimskipinu eimskipið eimskips eimskipsins eimskipum eimskipunum
+48	7248	flík	flíka flíkanna flíkar flíkarinnar flíkin flíkina flíkinni flíkum flíkunum flíkur flíkurnar
+49	7249	bylgjulengd	bylgjulengda bylgjulengdanna bylgjulengdar bylgjulengdarinnar bylgjulengdin bylgjulengdina bylgjulengdinni bylgjulengdir bylgjulengdirnar bylgjulengdum bylgjulengdunum
+50	7250	heimsfrægur	heimsfræg heimsfræga heimsfrægan heimsfrægar heimsfrægara heimsfrægari heimsfrægast heimsfrægasta heimsfrægastan heimsfrægastar heimsfrægasti heimsfrægastir heimsfrægastra heimsfrægastrar heimsfrægastri heimsfrægasts heimsfrægastur heimsfrægi heimsfrægir heimsfrægra heimsfrægrar heimsfrægri heimsfrægs heimsfrægt heimsfrægu heimsfrægum heimsfrægust heimsfrægustu heimsfrægustum
+51	7251	mismikill	mismikil mismikilla mismikillar mismikilli mismikils mismikinn mismikið mismikla mismiklar mismikli mismiklir mismiklu mismiklum
+52	7252	berglind	berglinda berglindanna berglindar berglindarinnar berglindin berglindina berglindinni berglindir berglindirnar berglindum berglindunum
+53	7253	samgönguráðherra	samgönguráðherrana samgönguráðherrann samgönguráðherranna samgönguráðherrans samgönguráðherranum samgönguráðherrar samgönguráðherrarnir samgönguráðherrum samgönguráðherrunum
+54	7254	tvískiptur	tvískipt tvískipta tvískiptan tvískiptar tvískipti tvískiptir tvískiptra tvískiptrar tvískiptri tvískipts tvískiptu tvískiptum
+55	7255	iðnaðarmaður	iðnaðarmann iðnaðarmanna iðnaðarmannanna iðnaðarmanni iðnaðarmanninn iðnaðarmanninum iðnaðarmanns iðnaðarmannsins iðnaðarmaðurinn iðnaðarmenn iðnaðarmennina iðnaðarmennirnir iðnaðarmönnum iðnaðarmönnunum
+56	7256	vellíðan	vellíðanar vellíðanarinnar vellíðanin vellíðanina vellíðaninni
+57	7257	basil	basili basilinu basilið basils basilsins
+58	7258	ævilangt	
+59	7259	læknadeild	læknadeilda læknadeildanna læknadeildar læknadeildarinnar læknadeildin læknadeildina læknadeildinni læknadeildir læknadeildirnar læknadeildum læknadeildunum
+60	7260	yfirbuga	yfirbugandi yfirbugar yfirbugast yfirbugað yfirbugaða yfirbugaðan yfirbugaðar yfirbugaði yfirbugaðir yfirbugaðist yfirbugaðra yfirbugaðrar yfirbugaðri yfirbugaðs yfirbugaðu yfirbugaður yfirbugi yfirbugir yfirbugist yfirbugið yfirbugum yfirbugumst yfirbuguð yfirbuguðu yfirbuguðum yfirbuguðumst yfirbuguðust yfirbuguðuð
+61	7261	ástríkur	ástrík ástríka ástríkan ástríkar ástríkara ástríkari ástríkast ástríkasta ástríkastan ástríkastar ástríkasti ástríkastir ástríkastra ástríkastrar ástríkastri ástríkasts ástríkastur ástríki ástríkir ástríkra ástríkrar ástríkri ástríks ástríkt ástríku ástríkum ástríkust ástríkustu ástríkustum
+62	7262	hjartanlega	hjartanlegar hjartanlegast
+63	7263	edik	ediki edikinu edikið ediks ediksins
+64	7264	mas	masi masinu masið mass massins
+65	7265	ástarsorg	ástarsorga ástarsorganna ástarsorgar ástarsorgarinnar ástarsorgin ástarsorgina ástarsorginni ástarsorgir ástarsorgirnar ástarsorgum ástarsorgunum
+66	7266	panda	pandan pandanna pandna pandnanna pöndu pöndum pönduna pöndunnar pöndunni pöndunum pöndur pöndurnar
+67	7267	skrökva	skrökvandi skrökvar skrökvað skrökvaða skrökvaðan skrökvaðar skrökvaði skrökvaðir skrökvaðra skrökvaðrar skrökvaðri skrökvaðs skrökvaðu skrökvaður skrökvi skrökvir skrökvið skrökvum skrökvuð skrökvuðu skrökvuðum skrökvuðuð
+68	7268	sink	sinki sinkinu sinkið sinks sinksins
+69	7269	úthlutun	úthlutana úthlutananna úthlutanir úthlutanirnar úthlutunar úthlutunarinnar úthlutunin úthlutunina úthlutuninni úthlutunum úthlutununum
+70	7270	samankominn	samankomin samankominna samankominnar samankominni samankomins samankomið samankomna samankomnar samankomni samankomnir samankomnu samankomnum
+71	7271	fjöl	fjala fjalanna fjalar fjalarinnar fjalir fjalirnar fjölin fjölina fjölinni fjölum fjölunum
+72	7272	dagsetja	dagset dagsetjandi dagsetji dagsetjir dagsetjið dagsetjum dagsett dagsetta dagsettan dagsettar dagsetti dagsettir dagsettra dagsettrar dagsettri dagsetts dagsettu dagsettum dagsettur dagsettuð dagsetur
+73	7273	þingsályktunartillaga	þingsályktunartillagan þingsályktunartillaganna þingsályktunartillagna þingsályktunartillagnanna þingsályktunartillögu þingsályktunartillögum þingsályktunartillöguna þingsályktunartillögunnar þingsályktunartillögunni þingsályktunartillögunum þingsályktunartillögur þingsályktunartillögurnar
+74	7274	landsbókasafn	landsbókasafna landsbókasafnanna landsbókasafni landsbókasafninu landsbókasafnið landsbókasafns landsbókasafnsins landsbókasöfn landsbókasöfnin landsbókasöfnum landsbókasöfnunum
+75	7275	gát	gátar gátarinnar gátin gátina gátinni
+76	7276	skurðlæknir	skurðlækna skurðlæknana skurðlæknanna skurðlæknar skurðlæknarnir skurðlækni skurðlækninn skurðlækninum skurðlæknirinn skurðlæknis skurðlæknisins skurðlæknum skurðlæknunum
+77	7277	skúrkur	skúrk skúrka skúrkana skúrkanna skúrkar skúrkarnir skúrki skúrkinn skúrkinum skúrknum skúrks skúrksins skúrkum skúrkunum skúrkurinn
+78	7278	skúta	skútan skútanna skútu skútum skútuna skútunnar skútunni skútunum skútur skúturnar
+79	7279	hvarvetna	
+80	7280	ráðska	ráðskandi ráðskar ráðskast ráðskað ráðskaði ráðskaðir ráðskaðist ráðskaðu ráðski ráðskir ráðskist ráðskið ráðskum ráðskumst ráðskuðu ráðskuðum ráðskuðumst ráðskuðust ráðskuðuð
+81	7281	aðvörun	aðvarana aðvarananna aðvaranir aðvaranirnar aðvörunar aðvörunarinnar aðvörunin aðvörunina aðvöruninni aðvörunum aðvörununum
+82	7282	hugulsamur	hugulsama hugulsaman hugulsamar hugulsamara hugulsamari hugulsamast hugulsamasta hugulsamastan hugulsamastar hugulsamasti hugulsamastir hugulsamastra hugulsamastrar hugulsamastri hugulsamasts hugulsamastur hugulsami hugulsamir hugulsamra hugulsamrar hugulsamri hugulsams hugulsamt hugulsöm hugulsömu hugulsömum hugulsömust hugulsömustu hugulsömustum
+83	7283	rauðhærður	rauðhært rauðhærð rauðhærða rauðhærðan rauðhærðar rauðhærðara rauðhærðari rauðhærðast rauðhærðasta rauðhærðastan rauðhærðastar rauðhærðasti rauðhærðastir rauðhærðastra rauðhærðastrar rauðhærðastri rauðhærðasts rauðhærðastur rauðhærði rauðhærðir rauðhærðra rauðhærðrar rauðhærðri rauðhærðs rauðhærðu rauðhærðum rauðhærðust rauðhærðustu rauðhærðustum
+84	7284	afklæða	afklædd afklædda afklæddan afklæddar afklæddi afklæddir afklæddist afklæddra afklæddrar afklæddri afklædds afklæddu afklæddum afklæddumst afklæddur afklæddust afklædduð afklætt afklæðandi afklæðast afklæði afklæðir afklæðist afklæðið afklæðst afklæðstu afklæðum afklæðumst
+85	7285	líkhús	líkhúsa líkhúsanna líkhúsi líkhúsin líkhúsinu líkhúsið líkhúss líkhússins líkhúsum líkhúsunum
+86	7286	miskunnsamur	miskunnsama miskunnsaman miskunnsamar miskunnsamara miskunnsamari miskunnsamast miskunnsamasta miskunnsamastan miskunnsamastar miskunnsamasti miskunnsamastir miskunnsamastra miskunnsamastrar miskunnsamastri miskunnsamasts miskunnsamastur miskunnsami miskunnsamir miskunnsamra miskunnsamrar miskunnsamri miskunnsams miskunnsamt miskunnsöm miskunnsömu miskunnsömum miskunnsömust miskunnsömustu miskunnsömustum
+87	7287	ökuþór	ökuþóra ökuþórana ökuþóranna ökuþórar ökuþórarnir ökuþórinn ökuþórnum ökuþórs ökuþórsins ökuþórum ökuþórunum
+88	7288	hljóðlátur	hljóðlát hljóðláta hljóðlátan hljóðlátar hljóðlátara hljóðlátari hljóðlátast hljóðlátasta hljóðlátastan hljóðlátastar hljóðlátasti hljóðlátastir hljóðlátastra hljóðlátastrar hljóðlátastri hljóðlátasts hljóðlátastur hljóðláti hljóðlátir hljóðlátra hljóðlátrar hljóðlátri hljóðláts hljóðlátt hljóðlátu hljóðlátum hljóðlátust hljóðlátustu hljóðlátustum
+89	7289	útivistarsvæði	útivistarsvæða útivistarsvæðanna útivistarsvæðin útivistarsvæðinu útivistarsvæðis útivistarsvæðisins útivistarsvæðið útivistarsvæðum útivistarsvæðunum
+90	7290	asnalega	
+91	7291	mjallhvítur	mjallhvít mjallhvíta mjallhvítan mjallhvítar mjallhvíti mjallhvítir mjallhvítra mjallhvítrar mjallhvítri mjallhvíts mjallhvítt mjallhvítu mjallhvítum
+92	7292	einkaeign	einkaeigna einkaeignanna einkaeignar einkaeignarinnar einkaeignin einkaeignina einkaeigninni einkaeignir einkaeignirnar einkaeignum einkaeignunum
+93	7293	úða	úðandi úðar úðast úðað úðaða úðaðan úðaðar úðaði úðaðir úðaðist úðaðra úðaðrar úðaðri úðaðs úðaðu úðaður úði úðir úðist úðið úðum úðumst úðuð úðuðu úðuðum úðuðumst úðuðust úðuðuð
+94	7294	bikarmeistari	bikarmeistara bikarmeistarana bikarmeistarann bikarmeistaranna bikarmeistarans bikarmeistaranum bikarmeistarar bikarmeistararnir bikarmeistarinn bikarmeisturum bikarmeisturunum
+95	7295	lagafrumvarp	lagafrumvarpa lagafrumvarpanna lagafrumvarpi lagafrumvarpinu lagafrumvarpið lagafrumvarps lagafrumvarpsins lagafrumvörp lagafrumvörpin lagafrumvörpum lagafrumvörpunum
+96	7296	ásækja	ásæki ásækir ásækið ásækjandi ásækjum ásækti ásæktir ásæktu ásæktum ásæktuð ásótt ásótta ásóttan ásóttar ásótti ásóttir ásóttra ásóttrar ásóttri ásótts ásóttu ásóttum ásóttur ásóttuð
+97	7297	borgun	borgana borgananna borganir borganirnar borgunar borgunarinnar borgunin borgunina borguninni borgunum borgununum
+98	7298	lykilatriði	lykilatriða lykilatriðanna lykilatriðin lykilatriðinu lykilatriðis lykilatriðisins lykilatriðið lykilatriðum lykilatriðunum
+99	7299	einræðisherra	einræðisherrana einræðisherrann einræðisherranna einræðisherrans einræðisherranum einræðisherrar einræðisherrarnir einræðisherrum einræðisherrunum
+100	7300	glæpastarfsemi	glæpastarfsemin glæpastarfsemina glæpastarfseminnar glæpastarfseminni

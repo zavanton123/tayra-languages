@@ -1,0 +1,100 @@
+1	6301	töff	
+2	6302	stökkbreyting	stökkbreytinga stökkbreytinganna stökkbreytingar stökkbreytingarinnar stökkbreytingarnar stökkbreytingin stökkbreytingu stökkbreytingum stökkbreytinguna stökkbreytingunni stökkbreytingunum
+3	6303	menntastofnun	menntastofnana menntastofnananna menntastofnanir menntastofnanirnar menntastofnunar menntastofnunarinnar menntastofnunin menntastofnunina menntastofnuninni menntastofnunum menntastofnununum
+4	6304	þvælast	þvældist þvældumst þvældust þvælist þvælst þvælumst
+5	6305	lýra	lýran lýranna lýru lýrum lýruna lýrunnar lýrunni lýrunum lýrur lýrurnar
+6	6306	viðbragðsstaða	viðbragðsstaðan viðbragðsstöðu viðbragðsstöðuna viðbragðsstöðunnar viðbragðsstöðunni
+7	6307	kaðall	kaðal kaðalinn kaðallinn kaðals kaðalsins kaðla kaðlana kaðlanna kaðlar kaðlarnir kaðli kaðlinum köðlum köðlunum
+8	6308	mannfjandi	mannfjanda mannfjandana mannfjandann mannfjandanna mannfjandans mannfjandanum mannfjandar mannfjandarnir mannfjandinn mannfjöndum mannfjöndunum
+9	6309	munaðarleysingi	munaðarleysinginn munaðarleysingja munaðarleysingjana munaðarleysingjann munaðarleysingjanna munaðarleysingjans munaðarleysingjanum munaðarleysingjar munaðarleysingjarnir munaðarleysingjum munaðarleysingjunum
+10	6310	tebolli	tebolla tebollana tebollann tebollanna tebollans tebollanum tebollar tebollarnir tebollinn tebollum tebollunum
+11	6311	fleki	fleka flekana flekann flekanna flekans flekanum flekar flekarnir flekinn flekum flekunum
+12	6312	ensím	ensíma ensímanna ensími ensímin ensíminu ensímið ensíms ensímsins ensímum ensímunum
+13	6313	hlekkja	hlekki hlekkir hlekkið hlekkjar hlekkjað hlekkjaða hlekkjaðan hlekkjaðar hlekkjaði hlekkjaðir hlekkjaðra hlekkjaðrar hlekkjaðri hlekkjaðs hlekkjaðu hlekkjaður hlekkjum hlekkjuð hlekkjuðu hlekkjuðum hlekkjuðuð
+14	6314	víg	víga víganna vígi vígin víginu vígið vígs vígsins vígum vígunum
+15	6315	fyrirvaralaust	
+16	6316	agn	agna agnanna agni agninu agnið agns agnsins ögn ögnin ögnum ögnunum
+17	6317	framselja	framsel framseld framselda framseldan framseldar framseldi framseldir framseldirðu framseldist framseldra framseldrar framseldri framselds framseldu framseldum framseldumst framseldur framseldust framselduð framseljandi framseljast framselji framseljir framseljirðu framseljist framseljið framseljum framseljumst framselst framselt framselur framselurðu
+18	6318	dökk	
+19	6319	slefa	slefan slefandi slefanna slefar slefast slefað slefaða slefaðan slefaðar slefaði slefaðir slefaðist slefaðra slefaðrar slefaðri slefaðs slefaðu slefaður slefi slefir slefist slefið slefu slefum slefumst slefuna slefunnar slefunni slefunum slefur slefurnar slefuð slefuðu slefuðum slefuðumst slefuðust slefuðuð
+20	6320	eldsvoði	eldsvoða eldsvoðana eldsvoðann eldsvoðanna eldsvoðans eldsvoðanum eldsvoðar eldsvoðarnir eldsvoðinn eldsvoðum eldsvoðunum
+21	6321	heimsálfa	heimsálfan heimsálfanna heimsálfu heimsálfum heimsálfuna heimsálfunnar heimsálfunni heimsálfunum heimsálfur heimsálfurnar
+22	6322	staldra	staldrandi staldrar staldrarðu staldrast staldrað staldraða staldraðan staldraðar staldraði staldraðir staldraðirðu staldraðist staldraðra staldraðrar staldraðri staldraðs staldraðu staldraður staldri staldrir staldrist staldrið stöldrum stöldrumst stöldruð stöldruðu stöldruðum stöldruðumst stöldruðust stöldruðuð
+23	6323	kál	káli kálinu kálið káls kálsins
+24	6324	jarðefnaeldsneyti	jarðefnaeldsneyta jarðefnaeldsneytanna jarðefnaeldsneytin jarðefnaeldsneytinu jarðefnaeldsneytis jarðefnaeldsneytisins jarðefnaeldsneytið jarðefnaeldsneytum jarðefnaeldsneytunum
+25	6325	yfirvinna	yfirunna yfirunnar yfirunni yfirunnin yfirunninn yfirunninna yfirunninnar yfirunninni yfirunnins yfirunnir yfirunnist yfirunnið yfirunnu yfirunnum yfirunnumst yfirunnust yfirunnuð yfirvann yfirvannst yfirvannstu yfirvinn yfirvinnan yfirvinnandi yfirvinnast yfirvinni yfirvinnir yfirvinnirðu yfirvinnist yfirvinnið yfirvinnst yfirvinnu yfirvinnum yfirvinnumst yfirvinnuna yfirvinnunnar yfirvinnunni yfirvinnur yfirvinnurðu yfirynni yfirynnir yfirynnirðu yfirynnist yfirynnu yfirynnum yfirynnumst yfirynnust yfirynnuð
+26	6326	mislíka	mislíkar mislíkað mislíkaði mislíki
+27	6327	hlaupari	hlaupara hlauparana hlauparann hlauparanna hlauparans hlauparanum hlauparar hlaupararnir hlauparinn hlaupurum hlaupurunum
+28	6328	tappi	tappa tappana tappann tappanna tappans tappanum tappar tapparnir tappinn töppum töppunum
+29	6329	trefill	trefil trefilinn trefillinn trefils trefilsins trefla treflana treflanna treflar treflarnir trefli treflinum treflum treflunum
+30	6330	skildingur	skilding skildinga skildingana skildinganna skildingar skildingarnir skildingi skildinginn skildingnum skildings skildingsins skildingum skildingunum skildingurinn
+31	6331	leggöng	legganga legganganna leggöngin leggöngum leggöngunum
+32	6332	brjálæðislega	
+33	6333	pósthús	pósthúsa pósthúsanna pósthúsi pósthúsin pósthúsinu pósthúsið pósthúss pósthússins pósthúsum pósthúsunum
+34	6334	píanóleikari	píanóleikara píanóleikarana píanóleikarann píanóleikaranna píanóleikarans píanóleikaranum píanóleikarar píanóleikararnir píanóleikarinn píanóleikurum píanóleikurunum
+35	6335	táknmál	táknmála táknmálanna táknmáli táknmálin táknmálinu táknmálið táknmáls táknmálsins táknmálum táknmálunum
+36	6336	kjarnorkuvopn	kjarnorkuvopna kjarnorkuvopnanna kjarnorkuvopni kjarnorkuvopnin kjarnorkuvopninu kjarnorkuvopnið kjarnorkuvopns kjarnorkuvopnsins kjarnorkuvopnum kjarnorkuvopnunum
+37	6337	tengdasonur	tengdason tengdasona tengdasonanna tengdasonar tengdasonarins tengdasoninn tengdasonum tengdasonunum tengdasonurinn tengdasyni tengdasynina tengdasyninum tengdasynir tengdasynirnir
+38	6338	stæði	stæða stæðanna stæðin stæðinu stæðis stæðisins stæðið stæðum stæðunum
+39	6339	kvikmyndastjarna	kvikmyndastjarnan kvikmyndastjarnanna kvikmyndastjörnu kvikmyndastjörnum kvikmyndastjörnuna kvikmyndastjörnunnar kvikmyndastjörnunni kvikmyndastjörnunum kvikmyndastjörnur kvikmyndastjörnurnar
+40	6340	verknaður	verknað verknaða verknaðanna verknaðar verknaðarins verknaði verknaðina verknaðinn verknaðinum verknaðir verknaðirnir verknaðnum verknaðurinn verknuðum verknuðunum
+41	6341	áreitni	áreitnin áreitnina áreitninnar áreitninni
+42	6342	eignarréttur	eignarrétt eignarréttar eignarréttarins eignarrétti eignarréttinn eignarréttinum eignarrétturinn
+43	6343	alnæmi	alnæminu alnæmis alnæmisins alnæmið
+44	6344	slappur	slappa slappan slappar slappara slappari slappast slappasta slappastan slappastar slappasti slappastir slappastra slappastrar slappastri slappasts slappastur slappi slappir slappra slapprar slappri slapps slappt slöpp slöppu slöppum slöppust slöppustu slöppustum
+45	6345	herbúð	herbúða herbúðanna herbúðar herbúðarinnar herbúðin herbúðina herbúðinni herbúðir herbúðirnar herbúðum herbúðunum
+46	6346	hafís	hafísa hafísana hafísanna hafísar hafísarnir hafísi hafísinn hafísnum hafíss hafíssins hafísum hafísunum
+47	6347	árangursríkur	árangursrík árangursríka árangursríkan árangursríkar árangursríkara árangursríkari árangursríkast árangursríkasta árangursríkastan árangursríkastar árangursríkasti árangursríkastir árangursríkastra árangursríkastrar árangursríkastri árangursríkasts árangursríkastur árangursríki árangursríkir árangursríkra árangursríkrar árangursríkri árangursríks árangursríkt árangursríku árangursríkum árangursríkust árangursríkustu árangursríkustum
+48	6348	klekja	klakin klakinn klakinna klakinnar klakinni klakins klakist klakið klakta klaktar klakti klaktir klaktist klek kleki klekir klekist klekið klekjandi klekjast klekjum klekjumst klekst klekstu klekti klektir klektist klektu klektum klektumst klektust klektuð klekur klöktu klöktum klöktumst klöktust klöktuð
+49	6349	afleitur	afleit afleita afleitan afleitar afleitara afleitari afleitast afleitasta afleitastan afleitastar afleitasti afleitastir afleitastra afleitastrar afleitastri afleitasts afleitastur afleiti afleitir afleitra afleitrar afleitri afleits afleitt afleitu afleitum afleitust afleitustu afleitustum
+50	6350	ástarkveðja	ástarkveðjan ástarkveðjanna ástarkveðju ástarkveðjum ástarkveðjuna ástarkveðjunnar ástarkveðjunni ástarkveðjunum ástarkveðjur ástarkveðjurnar
+51	6351	glóra	glóran glóranna glóru glórum glóruna glórunnar glórunni glórunum glórur glórurnar
+52	6352	rýtingur	rýting rýtinga rýtingana rýtinganna rýtingar rýtingarnir rýtingi rýtinginn rýtingnum rýtings rýtingsins rýtingum rýtingunum rýtingurinn
+53	6353	dauðvona	
+54	6354	varðhald	varðhalda varðhaldanna varðhaldi varðhaldinu varðhaldið varðhalds varðhaldsins varðhöld varðhöldin varðhöldum varðhöldunum
+55	6355	væta	væst vætan vætandi vætanna vætast væti vætir vætist vætið vætt vætta vættan vættar vætti vættir vættist vættra vættrar vættri vætts vættu vættum vættumst vættur vættust vættuð vætu vætum vætumst vætuna vætunnar vætunni vætunum vætur væturnar
+56	6356	skemmtistaður	skemmtistað skemmtistaða skemmtistaðanna skemmtistaðar skemmtistaðarins skemmtistaði skemmtistaðina skemmtistaðinn skemmtistaðir skemmtistaðirnir skemmtistaðnum skemmtistaðurinn skemmtistöðum skemmtistöðunum
+57	6357	lagalega	
+58	6358	veldi	velda veldanna veldin veldinu veldis veldisins veldið veldum veldunum
+59	6359	efnislegur	efnisleg efnislega efnislegan efnislegar efnislegast efnislegasta efnislegastan efnislegastar efnislegasti efnislegastir efnislegastra efnislegastrar efnislegastri efnislegasts efnislegastur efnislegi efnislegir efnislegra efnislegrar efnislegri efnislegs efnislegt efnislegu efnislegum efnislegust efnislegustu efnislegustum
+60	6360	kúka	kúkandi kúkar kúkarðu kúkað kúkaði kúkaðir kúkaðu kúki kúkir kúkið kúkum kúkuðu kúkuðum kúkuðuð
+61	6361	eftirminnilegur	eftirminnileg eftirminnilega eftirminnilegan eftirminnilegar eftirminnilegast eftirminnilegasta eftirminnilegastan eftirminnilegastar eftirminnilegasti eftirminnilegastir eftirminnilegastra eftirminnilegastrar eftirminnilegastri eftirminnilegasts eftirminnilegastur eftirminnilegi eftirminnilegir eftirminnilegra eftirminnilegrar eftirminnilegri eftirminnilegs eftirminnilegt eftirminnilegu eftirminnilegum eftirminnilegust eftirminnilegustu eftirminnilegustum
+62	6362	klóna	klónandi klónar klónað klónaða klónaðan klónaðar klónaði klónaðir klónaðra klónaðrar klónaðri klónaðs klónaðu klónaður klóni klónir klónið klónum klónuð klónuðu klónuðum klónuðuð
+63	6363	krem	krema kremanna kremi kremin kreminu kremið krems kremsins kremum kremunum
+64	6364	voldugur	voldug volduga voldugan voldugar voldugast voldugasta voldugastan voldugastar voldugasti voldugastir voldugastra voldugastrar voldugastri voldugasts voldugastur voldugi voldugir voldugra voldugrar voldugri voldugs voldugt voldugu voldugum voldugust voldugustu voldugustum
+65	6365	rumur	rum ruma rumana rumanna rumar rumarnir rumi ruminn ruminum rumnum rums rumsins rumum rumunum rumurinn
+66	6366	gamma	gamman gammanna gammans gammanu gammað gömmu gömmum gömmun gömmuna gömmunnar gömmunni gömmunum gömmur gömmurnar
+67	6367	hagsmunasamtök	hagsmunasamtaka hagsmunasamtakanna hagsmunasamtökin hagsmunasamtökum hagsmunasamtökunum
+68	6368	umhugsun	umhugsana umhugsananna umhugsanir umhugsanirnar umhugsunar umhugsunarinnar umhugsunin umhugsunina umhugsuninni umhugsunum umhugsununum
+69	6369	nothæfur	nothæf nothæfa nothæfan nothæfar nothæfara nothæfari nothæfast nothæfasta nothæfastan nothæfastar nothæfasti nothæfastir nothæfastra nothæfastrar nothæfastri nothæfasts nothæfastur nothæfi nothæfir nothæfra nothæfrar nothæfri nothæfs nothæft nothæfu nothæfum nothæfust nothæfustu nothæfustum
+70	6370	fuglalíf	fuglalífi fuglalífinu fuglalífið fuglalífs fuglalífsins
+71	6371	skipuleggjandi	skipuleggjanda skipuleggjandann skipuleggjandans skipuleggjandanum skipuleggjandinn skipuleggjenda skipuleggjendanna skipuleggjendum skipuleggjendunum skipuleggjendur skipuleggjendurna skipuleggjendurnir
+72	6372	hneigja	hneigi hneigir hneigist hneigið hneigjandi hneigjast hneigjum hneigjumst hneigst hneigt hneigð hneigða hneigðan hneigðar hneigði hneigðir hneigðist hneigðra hneigðrar hneigðri hneigðs hneigðu hneigðum hneigðumst hneigður hneigðust hneigðuð
+73	6373	spuni	spuna spunana spunann spunanna spunans spunanum spunar spunarnir spuninn spunum spununum
+74	6374	verðlauna	verðlaunandi verðlaunar verðlaunast verðlaunað verðlaunaða verðlaunaðan verðlaunaðar verðlaunaði verðlaunaðir verðlaunaðist verðlaunaðra verðlaunaðrar verðlaunaðri verðlaunaðs verðlaunaðu verðlaunaður verðlauni verðlaunir verðlaunist verðlaunið verðlaunum verðlaunumst verðlaunuð verðlaunuðu verðlaunuðum verðlaunuðumst verðlaunuðust verðlaunuðuð
+75	6375	brottflutningur	brottflutning brottflutningi brottflutninginn brottflutningnum brottflutnings brottflutningsins brottflutningurinn
+76	6376	byggðasafn	byggðasafna byggðasafnanna byggðasafni byggðasafninu byggðasafnið byggðasafns byggðasafnsins byggðasöfn byggðasöfnin byggðasöfnum byggðasöfnunum
+77	6377	ráðgera	ráðgerandi ráðgerast ráðgeri ráðgerir ráðgerið ráðgerst ráðgert ráðgerum ráðgerð ráðgerða ráðgerðan ráðgerðar ráðgerði ráðgerðir ráðgerðirðu ráðgerðra ráðgerðrar ráðgerðri ráðgerðs ráðgerðu ráðgerðum ráðgerður ráðgerðuð
+78	6378	óhlýðnast	óhlýðnaðist óhlýðnist óhlýðnumst óhlýðnuðumst óhlýðnuðust
+79	6379	handjárna	handjárnandi handjárnar handjárnast handjárnað handjárnaða handjárnaðan handjárnaðar handjárnaði handjárnaðir handjárnaðist handjárnaðra handjárnaðrar handjárnaðri handjárnaðs handjárnaðu handjárnaður handjárni handjárnir handjárnist handjárnið handjárnum handjárnumst handjárnuð handjárnuðu handjárnuðum handjárnuðumst handjárnuðust handjárnuðuð
+80	6380	armband	armbanda armbandanna armbandi armbandinu armbandið armbands armbandsins armbönd armböndin armböndum armböndunum
+81	6381	undirlag	undirlaga undirlaganna undirlagi undirlaginu undirlagið undirlags undirlagsins undirlög undirlögin undirlögum undirlögunum
+82	6382	bókabúð	bókabúða bókabúðanna bókabúðar bókabúðarinnar bókabúðin bókabúðina bókabúðinni bókabúðir bókabúðirnar bókabúðum bókabúðunum
+83	6383	umsvifalaust	
+84	6384	loftfar	loftfara loftfaranna loftfari loftfarinu loftfarið loftfars loftfarsins loftför loftförin loftförum loftförunum
+85	6385	surtur	surt surta surtana surtanna surtar surtarnir surti surtinn surtinum surts surtsins surtum surtunum surturinn
+86	6386	jökulsá	jökulsáa jökulsáin jökulsám jökulsána jökulsánna jökulsánni jökulsánum jökulsár jökulsárinnar jökulsárnar
+87	6387	samsvörun	samsvarana samsvarananna samsvaranir samsvaranirnar samsvörunar samsvörunarinnar samsvörunin samsvörunina samsvöruninni samsvörunum samsvörununum
+88	6388	samstarfsaðili	samstarfsaðila samstarfsaðilana samstarfsaðilann samstarfsaðilanna samstarfsaðilans samstarfsaðilanum samstarfsaðilar samstarfsaðilarnir samstarfsaðilinn samstarfsaðilja samstarfsaðiljana samstarfsaðiljann samstarfsaðiljanna samstarfsaðiljans samstarfsaðiljanum samstarfsaðiljar samstarfsaðiljarnir samstarfsaðiljum samstarfsaðiljunum samstarfsaðilum samstarfsaðilunum
+89	6389	erfðaefni	erfðaefna erfðaefnanna erfðaefnin erfðaefninu erfðaefnis erfðaefnisins erfðaefnið erfðaefnum erfðaefnunum
+90	6390	hvalveiði	hvalveiða hvalveiðanna hvalveiðar hvalveiðarinnar hvalveiðarnar hvalveiðin hvalveiðina hvalveiðinnar hvalveiðinni hvalveiðum hvalveiðunum
+91	6391	rýma	rýmandi rýmast rýmd rýmda rýmdan rýmdar rýmdi rýmdir rýmdist rýmdra rýmdrar rýmdri rýmds rýmdu rýmdum rýmdumst rýmdur rýmdust rýmduð rými rýmir rýmist rýmið rýmst rýmt rýmum rýmumst
+92	6392	gína	gein geinst gini ginir ginið ginu ginum ginuð gín gínan gínandi gínanna gíndu gíni gínir gínið gínu gínum gínuna gínunnar gínunni gínunum gínur gínurnar
+93	6393	óglaður	óglatt óglaða óglaðan óglaðar óglaðara óglaðari óglaðast óglaðasta óglaðastan óglaðastar óglaðasti óglaðastir óglaðastra óglaðastrar óglaðastri óglaðasts óglaðastur óglaði óglaðir óglaðra óglaðrar óglaðri óglaðs óglöð óglöðu óglöðum óglöðust óglöðustu óglöðustum
+94	6394	álasa	álasandi álasar álasast álasað álasaða álasaðan álasaðar álasaði álasaðir álasaðist álasaðra álasaðrar álasaðri álasaðs álasaðu álasaður álasi álasir álasist álasið álösum álösumst álösuð álösuðu álösuðum álösuðumst álösuðust álösuðuð
+95	6395	kakkalakki	kakkalakka kakkalakkana kakkalakkann kakkalakkanna kakkalakkans kakkalakkanum kakkalakkar kakkalakkarnir kakkalakkinn kakkalökkum kakkalökkunum
+96	6396	slátrari	slátrara slátrarana slátrarann slátraranna slátrarans slátraranum slátrarar slátrararnir slátrarinn slátrurum slátrurunum
+97	6397	leðurblaka	leðurblakan leðurblakanna leðurblakna leðurblaknanna leðurblöku leðurblökum leðurblökuna leðurblökunnar leðurblökunni leðurblökunum leðurblökur leðurblökurnar
+98	6398	skilorð	skilorði skilorðinu skilorðið skilorðs skilorðsins
+99	6399	gumpur	gump gumpa gumpana gumpanna gumpar gumparnir gumpi gumpinn gumpinum gumps gumpsins gumpum gumpunum gumpurinn
+100	6400	björgunarbátur	björgunarbát björgunarbáta björgunarbátana björgunarbátanna björgunarbátar björgunarbátarnir björgunarbáti björgunarbátinn björgunarbátnum björgunarbáts björgunarbátsins björgunarbátum björgunarbátunum björgunarbáturinn

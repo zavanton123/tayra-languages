@@ -1,0 +1,100 @@
+1	6201	réttarsalur	réttarsal réttarsala réttarsalanna réttarsalar réttarsalarins réttarsali réttarsalina réttarsalinn réttarsalir réttarsalirnir réttarsalnum réttarsalurinn réttarsölum réttarsölunum
+2	6202	ódauðlegur	ódauðleg ódauðlega ódauðlegan ódauðlegar ódauðlegast ódauðlegasta ódauðlegastan ódauðlegastar ódauðlegasti ódauðlegastir ódauðlegastra ódauðlegastrar ódauðlegastri ódauðlegasts ódauðlegastur ódauðlegi ódauðlegir ódauðlegra ódauðlegrar ódauðlegri ódauðlegs ódauðlegt ódauðlegu ódauðlegum ódauðlegust ódauðlegustu ódauðlegustum
+3	6203	beygla	beyglan beyglandi beyglanna beyglar beyglast beyglað beyglaða beyglaðan beyglaðar beyglaði beyglaðir beyglaðist beyglaðra beyglaðrar beyglaðri beyglaðs beyglaðu beyglaður beygli beyglir beyglist beyglið beyglna beyglnanna beyglu beyglum beyglumst beygluna beyglunnar beyglunni beyglunum beyglur beyglurnar beygluð beygluðu beygluðum beygluðumst beygluðust beygluðuð
+4	6204	kjálki	kjálka kjálkana kjálkann kjálkanna kjálkans kjálkanum kjálkar kjálkarnir kjálkinn kjálkum kjálkunum
+5	6205	bakstur	bakstra bakstrana bakstranna bakstrar bakstrarnir bakstri bakstrinum baksturinn baksturs bakstursins bökstrum bökstrunum
+6	6206	mát	máta mátanna máti mátin mátinu mátið máts mátsins mátum mátunum
+7	6207	ata	atandi atar atast atastu atað ataða ataðan ataðar ataði ataðir ataðist ataðra ataðrar ataðri ataðs ataðu ataður ati atir atist atið ötum ötumst ötuð ötuðu ötuðum ötuðumst ötuðust ötuðuð
+8	6208	síðastnefndur	síðastnefnd síðastnefnda síðastnefndan síðastnefndar síðastnefndi síðastnefndir síðastnefndra síðastnefndrar síðastnefndri síðastnefnds síðastnefndu síðastnefndum síðastnefnt
+9	6209	neyðarkall	neyðarkalla neyðarkallanna neyðarkalli neyðarkallinu neyðarkallið neyðarkalls neyðarkallsins neyðarköll neyðarköllin neyðarköllum neyðarköllunum
+10	6210	heimspekilegur	heimspekileg heimspekilega heimspekilegan heimspekilegar heimspekilegast heimspekilegasta heimspekilegastan heimspekilegastar heimspekilegasti heimspekilegastir heimspekilegastra heimspekilegastrar heimspekilegastri heimspekilegasts heimspekilegastur heimspekilegi heimspekilegir heimspekilegra heimspekilegrar heimspekilegri heimspekilegs heimspekilegt heimspekilegu heimspekilegum heimspekilegust heimspekilegustu heimspekilegustum
+11	6211	listahátíð	listahátíða listahátíðanna listahátíðar listahátíðarinnar listahátíðin listahátíðina listahátíðinni listahátíðir listahátíðirnar listahátíðum listahátíðunum
+12	6212	flugfreyja	flugfreyjan flugfreyjanna flugfreyju flugfreyjum flugfreyjuna flugfreyjunnar flugfreyjunni flugfreyjunum flugfreyjur flugfreyjurnar
+13	6213	frítími	frítíma frítímana frítímann frítímanna frítímans frítímanum frítímar frítímarnir frítíminn frítímum frítímunum
+14	6214	trans	transa transana transanna transar transarnir transi transinn transins transinum trönsum trönsunum
+15	6215	fornleif	fornleifa fornleifanna fornleifar fornleifarinnar fornleifarnar fornleifin fornleifina fornleifinni fornleifum fornleifunum
+16	6216	skjótur	skjót skjóta skjótan skjótar skjótara skjótari skjótast skjótasta skjótastan skjótastar skjótasti skjótastir skjótastra skjótastrar skjótastri skjótasts skjótastur skjóti skjótir skjótra skjótrar skjótri skjóts skjótt skjótu skjótum skjótust skjótustu skjótustum
+17	6217	karlmennska	karlmennskan karlmennsku karlmennskuna karlmennskunnar karlmennskunni
+18	6218	máttugur	máttug máttuga máttugan máttugar máttugast máttugasta máttugastan máttugastar máttugasti máttugastir máttugastra máttugastrar máttugastri máttugasts máttugastur máttugi máttugir máttugra máttugrar máttugri máttugs máttugt máttugu máttugum máttugust máttugustu máttugustum
+19	6219	titra	titrandi titrar titrað titraði titraðir titraðu titri titrir titrið titrum titruðu titruðum titruðuð
+20	6220	sníkjudýr	sníkjudýra sníkjudýranna sníkjudýri sníkjudýrin sníkjudýrinu sníkjudýrið sníkjudýrs sníkjudýrsins sníkjudýrum sníkjudýrunum
+21	6221	fótgangandi	fótganganda fótgangandann fótgangandans fótgangandanum fótgangandinn fótgangenda fótgangendanna fótgangendum fótgangendunum fótgangendur fótgangendurna fótgangendurnir
+22	6222	gljúfur	gljúfra gljúfranna gljúfri gljúfrin gljúfrinu gljúfrið gljúfrum gljúfrunum gljúfurs gljúfursins
+23	6223	fat	fata fatanna fati fatinu fatið fats fatsins fötin fötum fötunum
+24	6224	knattspyrnudeild	knattspyrnudeilda knattspyrnudeildanna knattspyrnudeildar knattspyrnudeildarinnar knattspyrnudeildin knattspyrnudeildina knattspyrnudeildinni knattspyrnudeildir knattspyrnudeildirnar knattspyrnudeildum knattspyrnudeildunum
+25	6225	girða	girt girta girtan girtar girti girtir girtra girtrar girtri girts girtu girtum girtur girtuð girðandi girði girðir girðið girðum
+26	6226	ástralskur	ástralska ástralskan ástralskar ástralskara ástralskari ástralskast ástralskasta ástralskastan ástralskastar ástralskasti ástralskastir ástralskastra ástralskastrar ástralskastri ástralskasts ástralskastur ástralski ástralskir ástralskra ástralskrar ástralskri ástralsks ástralskt áströlsk áströlsku áströlskum áströlskust áströlskustu áströlskustum
+27	6227	einkar	
+28	6228	útilega	útilegan útileganna útilegna útilegnanna útilegu útilegum útileguna útilegunnar útilegunni útilegunum útilegur útilegurnar
+29	6229	heilindi	heilinda heilindanna heilindin heilindinu heilindis heilindisins heilindið heilindum heilindunum
+30	6230	mannslíkami	mannslíkama mannslíkamana mannslíkamann mannslíkamanna mannslíkamans mannslíkamanum mannslíkamar mannslíkamarnir mannslíkaminn mannslíkömum mannslíkömunum
+31	6231	teitur	teit teita teitan teitar teitara teitari teitast teitasta teitastan teitastar teitasti teitastir teitastra teitastrar teitastri teitasts teitastur teiti teitir teitra teitrar teitri teits teitt teitu teitum teitust teitustu teitustum
+32	6232	laxá	laxáa laxáin laxám laxána laxánna laxánni laxánum laxár laxárinnar laxárnar
+33	6233	virðulegur	virðuleg virðulega virðulegan virðulegar virðulegast virðulegasta virðulegastan virðulegastar virðulegasti virðulegastir virðulegastra virðulegastrar virðulegastri virðulegasts virðulegastur virðulegi virðulegir virðulegra virðulegrar virðulegri virðulegs virðulegt virðulegu virðulegum virðulegust virðulegustu virðulegustum
+34	6234	níða	nídd nídda níddan níddar níddi níddir níddist níddra níddrar níddri nídds níddu níddum níddumst níddur níddust nídduð nítt níðandi níðast níði níðir níðist níðið níðst níðum níðumst
+35	6235	gagnstæður	gagnstætt gagnstæð gagnstæða gagnstæðan gagnstæðar gagnstæðara gagnstæðari gagnstæðast gagnstæðasta gagnstæðastan gagnstæðastar gagnstæðasti gagnstæðastir gagnstæðastra gagnstæðastrar gagnstæðastri gagnstæðasts gagnstæðastur gagnstæði gagnstæðir gagnstæðra gagnstæðrar gagnstæðri gagnstæðs gagnstæðu gagnstæðum gagnstæðust gagnstæðustu gagnstæðustum
+36	6236	handviss	handvissa handvissan handvissar handvissi handvissir handvissra handvissrar handvissri handvisst handvissu handvissum
+37	6237	hugfastur	hugfast hugfasta hugfastan hugfastar hugfastara hugfastari hugfastast hugfastasta hugfastastan hugfastastar hugfastasti hugfastastir hugfastastra hugfastastrar hugfastastri hugfastasts hugfastastur hugfasti hugfastir hugfastra hugfastrar hugfastri hugfasts hugföst hugföstu hugföstum hugföstust hugföstustu hugföstustum
+38	6238	félagslíf	félagslífi félagslífinu félagslífið félagslífs félagslífsins
+39	6239	innsigla	innsiglar innsiglast innsiglað innsiglaða innsiglaðan innsiglaðar innsiglaði innsiglaðir innsiglaðist innsiglaðra innsiglaðrar innsiglaðri innsiglaðs innsiglaðu innsiglaður innsigli innsiglir innsiglist innsiglið innsiglum innsiglumst innsigluð innsigluðu innsigluðum innsigluðumst innsigluðust innsigluðuð
+40	6240	mora	moran morandi moranna morar morað moraði moraðir mori morir morið moru morum moruna morunnar morunni morunum morur morurnar moruðu moruðum moruðuð
+41	6241	aðdráttarafl	aðdráttarafli aðdráttaraflinu aðdráttaraflið aðdráttarafls aðdráttaraflsins
+42	6242	fjárhagur	fjárhag fjárhaga fjárhaganna fjárhagi fjárhagina fjárhaginn fjárhagir fjárhagirnir fjárhagnum fjárhags fjárhagsins fjárhagurinn fjárhögum fjárhögunum
+43	6243	landareign	landareigna landareignanna landareignar landareignarinnar landareignin landareignina landareigninni landareignir landareignirnar landareignum landareignunum
+44	6244	orgel	orgela orgelanna orgeli orgelin orgelinu orgelið orgels orgelsins orgelum orgelunum
+45	6245	spendýr	spendýra spendýranna spendýri spendýrin spendýrinu spendýrið spendýrs spendýrsins spendýrum spendýrunum
+46	6246	mont	monti montinu montið monts montsins
+47	6247	þ.á.m	
+48	6248	mörður	marða marðanna marðar marðarins merði merðina merðinum merðir merðirnir mörð mörðinn mörðum mörðunum mörðurinn
+49	6249	barnæska	barnæskan barnæsku barnæskuna barnæskunnar barnæskunni
+50	6250	krókódíll	krókódíl krókódíla krókódílana krókódílanna krókódílar krókódílarnir krókódílinn krókódíllinn krókódílnum krókódíls krókódílsins krókódílum krókódílunum
+51	6251	lögreglufulltrúi	lögreglufulltrúa lögreglufulltrúana lögreglufulltrúann lögreglufulltrúanna lögreglufulltrúans lögreglufulltrúanum lögreglufulltrúar lögreglufulltrúarnir lögreglufulltrúinn lögreglufulltrúum lögreglufulltrúunum
+52	6252	blóðbað	blóðbaði blóðbaðinu blóðbaðið blóðbaðs blóðbaðsins
+53	6253	barnapía	barnapían barnapíanna barnapíu barnapíum barnapíuna barnapíunnar barnapíunni barnapíunum barnapíur barnapíurnar
+54	6254	doka	dokandi dokar dokarðu dokað dokaða dokaðan dokaðar dokaði dokaðir dokaðra dokaðrar dokaðri dokaðs dokaðu dokaður doki dokir dokið dokum dokuð dokuðu dokuðum dokuðuð
+55	6255	esja	esjan esju esjuna esjunnar esjunni
+56	6256	lasinn	lasin lasinna lasinnar lasinni lasins lasið lasna lasnar lasnara lasnari lasnast lasnasta lasnastan lasnastar lasnasti lasnastir lasnastra lasnastrar lasnastri lasnasts lasnastur lasni lasnir lösnu lösnum lösnust lösnustu lösnustum
+57	6257	kaktus	kaktusa kaktusana kaktusanna kaktusar kaktusarnir kaktusi kaktusinn kaktusnum kaktuss kaktussins kaktusum kaktusunum
+58	6258	gistiheimili	gistiheimila gistiheimilanna gistiheimilin gistiheimilinu gistiheimilis gistiheimilisins gistiheimilið gistiheimilum gistiheimilunum
+59	6259	arkitektúr	arkitektúrinn arkitektúrnum arkitektúrs arkitektúrsins
+60	6260	yfirnáttúrulegur	yfirnáttúruleg yfirnáttúrulega yfirnáttúrulegan yfirnáttúrulegar yfirnáttúrulegast yfirnáttúrulegasta yfirnáttúrulegastan yfirnáttúrulegastar yfirnáttúrulegasti yfirnáttúrulegastir yfirnáttúrulegastra yfirnáttúrulegastrar yfirnáttúrulegastri yfirnáttúrulegasts yfirnáttúrulegastur yfirnáttúrulegi yfirnáttúrulegir yfirnáttúrulegra yfirnáttúrulegrar yfirnáttúrulegri yfirnáttúrulegs yfirnáttúrulegt yfirnáttúrulegu yfirnáttúrulegum yfirnáttúrulegust yfirnáttúrulegustu yfirnáttúrulegustum
+61	6261	panna	pannan pannanna pönnu pönnum pönnuna pönnunnar pönnunni pönnunum pönnur pönnurnar
+62	6262	sjálfselskur	sjálfselsk sjálfselska sjálfselskan sjálfselskar sjálfselskara sjálfselskari sjálfselskast sjálfselskasta sjálfselskastan sjálfselskastar sjálfselskasti sjálfselskastir sjálfselskastra sjálfselskastrar sjálfselskastri sjálfselskasts sjálfselskastur sjálfselski sjálfselskir sjálfselskra sjálfselskrar sjálfselskri sjálfselsks sjálfselskt sjálfselsku sjálfselskum sjálfselskust sjálfselskustu sjálfselskustum
+63	6263	þungi	þunga þungann þungans þunganum þunginn
+64	6264	óviðkomandi	
+65	6265	grip	gripa gripanna gripi gripin gripinu gripið grips gripsins gripum gripunum
+66	6266	óákveðinn	óákveðin óákveðinna óákveðinnar óákveðinni óákveðins óákveðið óákveðna óákveðnar óákveðnara óákveðnari óákveðnast óákveðnasta óákveðnastan óákveðnastar óákveðnasti óákveðnastir óákveðnastra óákveðnastrar óákveðnastri óákveðnasts óákveðnastur óákveðni óákveðnir óákveðnu óákveðnum óákveðnust óákveðnustu óákveðnustum
+67	6267	dúkur	dúk dúka dúkana dúkanna dúkar dúkarnir dúki dúkinn dúknum dúks dúksins dúkum dúkunum dúkurinn
+68	6268	glotta	glott glottandi glotti glottir glottirðu glottið glottu glottum glottuð
+69	6269	hvarfla	hvarflandi hvarflar hvarflað hvarflaði hvarflaðir hvarflaðu hvarfli hvarflir hvarflið hvörflum hvörfluðu hvörfluðum hvörfluðuð
+70	6270	vinsamlegur	vinsamleg vinsamlega vinsamlegan vinsamlegar vinsamlegast vinsamlegasta vinsamlegastan vinsamlegastar vinsamlegasti vinsamlegastir vinsamlegastra vinsamlegastrar vinsamlegastri vinsamlegasts vinsamlegastur vinsamlegi vinsamlegir vinsamlegra vinsamlegrar vinsamlegri vinsamlegs vinsamlegt vinsamlegu vinsamlegum vinsamlegust vinsamlegustu vinsamlegustum
+71	6271	gyðja	gyðjan gyðjanna gyðju gyðjum gyðjuna gyðjunnar gyðjunni gyðjunum gyðjur gyðjurnar
+72	6272	upprisa	upprisan upprisanna upprisu upprisum upprisuna upprisunnar upprisunni upprisunum upprisur upprisurnar
+73	6273	endurnýjanlegur	endurnýjanleg endurnýjanlega endurnýjanlegan endurnýjanlegar endurnýjanlegast endurnýjanlegasta endurnýjanlegastan endurnýjanlegastar endurnýjanlegasti endurnýjanlegastir endurnýjanlegastra endurnýjanlegastrar endurnýjanlegastri endurnýjanlegasts endurnýjanlegastur endurnýjanlegi endurnýjanlegir endurnýjanlegra endurnýjanlegrar endurnýjanlegri endurnýjanlegs endurnýjanlegt endurnýjanlegu endurnýjanlegum endurnýjanlegust endurnýjanlegustu endurnýjanlegustum
+74	6274	kommúnismi	kommúnisma kommúnismann kommúnismans kommúnismanum kommúnisminn
+75	6275	sviðsljós	sviðsljósa sviðsljósanna sviðsljósi sviðsljósin sviðsljósinu sviðsljósið sviðsljóss sviðsljóssins sviðsljósum sviðsljósunum
+76	6276	stuttlega	
+77	6277	siðmenning	siðmenningar siðmenningarinnar siðmenningin siðmenningu siðmenninguna siðmenningunni
+78	6278	fartölva	fartölvan fartölvanna fartölvu fartölvum fartölvuna fartölvunnar fartölvunni fartölvunum fartölvur fartölvurnar
+79	6279	blendingur	blending blendinga blendingana blendinganna blendingar blendingarnir blendingi blendinginn blendingnum blendings blendingsins blendingum blendingunum blendingurinn
+80	6280	höfnun	hafnana hafnananna hafnanir hafnanirnar höfnunar höfnunarinnar höfnunin höfnunina höfnuninni höfnunum höfnununum
+81	6281	samastaður	samastað samastaða samastaðanna samastaðar samastaðarins samastaði samastaðina samastaðinn samastaðir samastaðirnir samastaðnum samastaðurinn samastöðum samastöðunum
+82	6282	morgunkorn	morgunkorna morgunkornanna morgunkorni morgunkornin morgunkorninu morgunkornið morgunkorns morgunkornsins morgunkornum morgunkornunum
+83	6283	elgur	elg elga elganna elgi elgina elginn elgir elgirnir elgja elgjanna elgjar elgjarins elgjum elgjunum elgnum elgs elgsins elgum elgunum elgurinn
+84	6284	stjórnarháttur	stjórnarhátt stjórnarhátta stjórnarháttanna stjórnarháttar stjórnarháttarins stjórnarháttinn stjórnarháttu stjórnarháttum stjórnarháttunum stjórnarhátturinn stjórnarhætti stjórnarhættina stjórnarhættinum stjórnarhættir stjórnarhættirnir
+85	6285	beinagrind	beinagrinda beinagrindanna beinagrindar beinagrindarinnar beinagrindin beinagrindina beinagrindinni beinagrindum beinagrindunum beinagrindur beinagrindurnar
+86	6286	ferðamannastaður	ferðamannastað ferðamannastaða ferðamannastaðanna ferðamannastaðar ferðamannastaðarins ferðamannastaði ferðamannastaðina ferðamannastaðinn ferðamannastaðir ferðamannastaðirnir ferðamannastaðnum ferðamannastaðurinn ferðamannastöðum ferðamannastöðunum
+87	6287	olnbogi	olnboga olnbogana olnbogann olnboganna olnbogans olnboganum olnbogar olnbogarnir olnboginn olnbogum olnbogunum
+88	6288	umhverfisráðherra	umhverfisráðherrana umhverfisráðherrann umhverfisráðherranna umhverfisráðherrans umhverfisráðherranum umhverfisráðherrar umhverfisráðherrarnir umhverfisráðherrum umhverfisráðherrunum
+89	6289	fararbroddur	fararbrodd fararbroddi fararbroddinn fararbroddinum fararbrodds fararbroddsins fararbroddurinn
+90	6290	brugga	bruggandi bruggar bruggast bruggað bruggaða bruggaðan bruggaðar bruggaði bruggaðir bruggaðist bruggaðra bruggaðrar bruggaðri bruggaðs bruggaðu bruggaður bruggi bruggir bruggist bruggið bruggum bruggumst brugguð brugguðu brugguðum brugguðumst brugguðust brugguðuð
+91	6291	útrýmingarhætta	útrýmingarhættan útrýmingarhættu útrýmingarhættuna útrýmingarhættunnar útrýmingarhættunni
+92	6292	niðurgangur	niðurgang niðurgangi niðurganginn niðurganginum niðurgangs niðurgangsins niðurgangurinn
+93	6293	notagildi	notagildinu notagildis notagildisins notagildið
+94	6294	meðstjórnandi	meðstjórnanda meðstjórnandann meðstjórnandans meðstjórnandanum meðstjórnandinn meðstjórnenda meðstjórnendanna meðstjórnendum meðstjórnendunum meðstjórnendur meðstjórnendurna meðstjórnendurnir
+95	6295	blak	blaka blakanna blaki blakinu blakið blaks blaksins blök blökin blökum blökunum
+96	6296	hryllingsmynd	hryllingsmynda hryllingsmyndanna hryllingsmyndar hryllingsmyndarinnar hryllingsmyndin hryllingsmyndina hryllingsmyndinni hryllingsmyndir hryllingsmyndirnar hryllingsmyndum hryllingsmyndunum
+97	6297	vatnsglas	vatnsglasa vatnsglasanna vatnsglasi vatnsglasinu vatnsglasið vatnsglass vatnsglassins vatnsglös vatnsglösin vatnsglösum vatnsglösunum
+98	6298	klæði	klæða klæðanna klæðin klæðinu klæðis klæðisins klæðið klæðum klæðunum
+99	6299	lasanja	lasagna lasanjans lasanjanu lasanjað
+100	6300	umbun	umbunar umbunarinnar umbunin umbunina umbuninni

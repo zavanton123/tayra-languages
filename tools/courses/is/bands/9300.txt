@@ -1,0 +1,100 @@
+1	9201	áforma	áformandi áformar áformast áformað áformaða áformaðan áformaðar áformaði áformaðir áformaðist áformaðra áformaðrar áformaðri áformaðs áformaðu áformaður áformi áformir áformist áformið áformum áformumst áformuð áformuðu áformuðum áformuðumst áformuðust áformuðuð
+2	9202	yfirhöfn	yfirhafna yfirhafnanna yfirhafnar yfirhafnarinnar yfirhafnir yfirhafnirnar yfirhöfnin yfirhöfnina yfirhöfninni yfirhöfnum yfirhöfnunum
+3	9203	sporbaugur	sporbaug sporbauga sporbaugana sporbauganna sporbaugar sporbaugarnir sporbaugi sporbauginn sporbauginum sporbaugnum sporbaugs sporbaugsins sporbaugum sporbaugunum sporbaugurinn
+4	9204	hjálparstarf	hjálparstarfa hjálparstarfanna hjálparstarfi hjálparstarfinu hjálparstarfið hjálparstarfs hjálparstarfsins hjálparstörf hjálparstörfin hjálparstörfum hjálparstörfunum
+5	9205	frískur	frísk fríska frískan frískar frískara frískari frískast frískasta frískastan frískastar frískasti frískastir frískastra frískastrar frískastri frískasts frískastur fríski frískir frískra frískrar frískri frísks frískt frísku frískum frískust frískustu frískustum
+6	9206	skriflega	
+7	9207	messi	messa messana messann messanna messans messanum messar messarnir messinn messum messunum
+8	9208	áreiðanleiki	áreiðanleika áreiðanleikann áreiðanleikans áreiðanleikanum áreiðanleikinn
+9	9209	kauphækkun	kauphækkana kauphækkananna kauphækkanir kauphækkanirnar kauphækkunar kauphækkunarinnar kauphækkunin kauphækkunina kauphækkuninni kauphækkunum kauphækkununum
+10	9210	betla	betlandi betlar betlað betlaða betlaðan betlaðar betlaði betlaðir betlaðra betlaðrar betlaðri betlaðs betlaðu betlaður betli betlir betlið betlum betluð betluðu betluðum betluðuð
+11	9211	lofthræddur	lofthrædd lofthrædda lofthræddan lofthræddar lofthræddara lofthræddari lofthræddast lofthræddasta lofthræddastan lofthræddastar lofthræddasti lofthræddastir lofthræddastra lofthræddastrar lofthræddastri lofthræddasts lofthræddastur lofthræddi lofthræddir lofthræddra lofthræddrar lofthræddri lofthrædds lofthræddu lofthræddum lofthræddust lofthræddustu lofthræddustum lofthrætt
+12	9212	vínglas	vínglasa vínglasanna vínglasi vínglasinu vínglasið vínglass vínglassins vínglös vínglösin vínglösum vínglösunum
+13	9213	óásættanlegur	óásættanleg óásættanlega óásættanlegan óásættanlegar óásættanlegast óásættanlegasta óásættanlegastan óásættanlegastar óásættanlegasti óásættanlegastir óásættanlegastra óásættanlegastrar óásættanlegastri óásættanlegasts óásættanlegastur óásættanlegi óásættanlegir óásættanlegra óásættanlegrar óásættanlegri óásættanlegs óásættanlegt óásættanlegu óásættanlegum óásættanlegust óásættanlegustu óásættanlegustum
+14	9214	nýfluttur	nýflutt nýflutta nýfluttan nýfluttar nýflutti nýfluttir nýfluttra nýfluttrar nýfluttri nýflutts nýfluttu nýfluttum
+15	9215	milljarðamæringur	milljarðamæring milljarðamæringa milljarðamæringana milljarðamæringanna milljarðamæringar milljarðamæringarnir milljarðamæringi milljarðamæringinn milljarðamæringnum milljarðamærings milljarðamæringsins milljarðamæringum milljarðamæringunum milljarðamæringurinn
+16	9216	strandgæsla	strandgæslan strandgæslu strandgæsluna strandgæslunnar strandgæslunni
+17	9217	viðskiptafélagi	viðskiptafélaga viðskiptafélagana viðskiptafélagann viðskiptafélaganna viðskiptafélagans viðskiptafélaganum viðskiptafélagar viðskiptafélagarnir viðskiptafélaginn viðskiptafélögum viðskiptafélögunum
+18	9218	hýsill	hýsil hýsilinn hýsillinn hýsils hýsilsins hýsla hýslana hýslanna hýslar hýslarnir hýsli hýslinum hýslum hýslunum
+19	9219	flugmiði	flugmiða flugmiðana flugmiðann flugmiðanna flugmiðans flugmiðanum flugmiðar flugmiðarnir flugmiðinn flugmiðum flugmiðunum
+20	9220	úrkynjast	úrkynjastu úrkynjað úrkynjaða úrkynjaðan úrkynjaðar úrkynjaði úrkynjaðir úrkynjaðist úrkynjaðra úrkynjaðrar úrkynjaðri úrkynjaðs úrkynjaður úrkynjist úrkynjumst úrkynjuð úrkynjuðu úrkynjuðum úrkynjuðumst úrkynjuðust
+21	9221	hreðjar	hreðja hreðjanna hreðjarnar hreðjum hreðjunum
+22	9222	fjárhættuspilari	fjárhættuspilara fjárhættuspilarana fjárhættuspilarann fjárhættuspilaranna fjárhættuspilarans fjárhættuspilaranum fjárhættuspilarar fjárhættuspilararnir fjárhættuspilarinn fjárhættuspilurum fjárhættuspilurunum
+23	9223	steinþegja	steinþagað steinþagði steinþagðir steinþegi steinþegir steinþegirðu steinþegið steinþegiðu steinþegjandi steinþegjum steinþegði steinþegðir steinþegðu steinþegðum steinþegðuð steinþögðu steinþögðum steinþögðuð
+24	9224	nagdýr	nagdýra nagdýranna nagdýri nagdýrin nagdýrinu nagdýrið nagdýrs nagdýrsins nagdýrum nagdýrunum
+25	9225	ljósaskipti	ljósaskipta ljósaskiptanna ljósaskiptin ljósaskiptum ljósaskiptunum
+26	9226	óheflaður	óheflað óheflaða óheflaðan óheflaðar óheflaðast óheflaðasta óheflaðastan óheflaðastar óheflaðasti óheflaðastir óheflaðastra óheflaðastrar óheflaðastri óheflaðasts óheflaðastur óheflaði óheflaðir óheflaðra óheflaðrar óheflaðri óheflaðs óhefluð óhefluðu óhefluðum óhefluðust óhefluðustu óhefluðustum
+27	9227	sjálfstýring	sjálfstýringar sjálfstýringarinnar sjálfstýringin sjálfstýringu sjálfstýringuna sjálfstýringunni
+28	9228	óséður	óséð óséða óséðan óséðar óséði óséðir óséðra óséðrar óséðri óséðs óséðu óséðum
+29	9229	ráðskona	ráðskonan ráðskonu ráðskonum ráðskonuna ráðskonunnar ráðskonunni ráðskonunum ráðskonur ráðskonurnar ráðskvenna ráðskvennanna
+30	9230	framsýnn	framsýn framsýna framsýnan framsýnar framsýnast framsýnasta framsýnastan framsýnastar framsýnasti framsýnastir framsýnastra framsýnastrar framsýnastri framsýnasts framsýnastur framsýni framsýnir framsýnna framsýnnar framsýnni framsýns framsýnt framsýnu framsýnum framsýnust framsýnustu framsýnustum
+31	9231	helgidómur	helgidóm helgidóma helgidómana helgidómanna helgidómar helgidómarnir helgidómi helgidóminn helgidóminum helgidómnum helgidóms helgidómsins helgidómum helgidómunum helgidómurinn
+32	9232	polki	polka polkana polkann polkanna polkans polkanum polkar polkarnir polkinn polkum polkunum
+33	9233	samferða	
+34	9234	músík	músíkin músíkina músíkinni músíkur músíkurinnar
+35	9235	skönnun	skannana skannananna skannanir skannanirnar skönnunar skönnunarinnar skönnunin skönnunina skönnuninni skönnunum skönnununum
+36	9236	systursonur	systurson systursona systursonanna systursonar systursonarins systursoninn systursonum systursonunum systursonurinn systursyni systursynina systursyninum systursynir systursynirnir
+37	9237	ferskvatn	ferskvatni ferskvatninu ferskvatnið ferskvatns ferskvatnsins
+38	9238	kimi	kima kimana kimann kimanna kimans kimanum kimar kimarnir kiminn kimum kimunum
+39	9239	barneign	barneigna barneignanna barneignar barneignarinnar barneignin barneignina barneigninni barneignir barneignirnar barneignum barneignunum
+40	9240	lyfjafyrirtæki	lyfjafyrirtækin lyfjafyrirtækinu lyfjafyrirtækis lyfjafyrirtækisins lyfjafyrirtækið lyfjafyrirtækja lyfjafyrirtækjanna lyfjafyrirtækjum lyfjafyrirtækjunum
+41	9241	mótlæti	mótlætinu mótlætis mótlætisins mótlætið
+42	9242	radar	radara radarana radaranna radarar radararnir radarinn radarnum radars radarsins radörum radörunum
+43	9243	ójafnvægi	ójafnvæginu ójafnvægis ójafnvægisins ójafnvægið
+44	9244	lýsingarorð	lýsingarorða lýsingarorðanna lýsingarorði lýsingarorðin lýsingarorðinu lýsingarorðið lýsingarorðs lýsingarorðsins lýsingarorðum lýsingarorðunum
+45	9245	happ	happa happanna happi happinu happið happs happsins höpp höppin höppum höppunum
+46	9246	fráfarandi	fráfaranda fráfarandann fráfarandans fráfarandanum fráfarandinn fráfarenda fráfarendanna fráfarendum fráfarendunum fráfarendur fráfarendurna fráfarendurnir
+47	9247	myndasafn	myndasafna myndasafnanna myndasafni myndasafninu myndasafnið myndasafns myndasafnsins myndasöfn myndasöfnin myndasöfnum myndasöfnunum
+48	9248	tvíhliða	
+49	9249	eldvirkni	eldvirknin eldvirknina eldvirkninnar eldvirkninni
+50	9250	rotinn	rotin rotinna rotinnar rotinni rotins rotið rotna rotnar rotnara rotnari rotnast rotnasta rotnastan rotnastar rotnasti rotnastir rotnastra rotnastrar rotnastri rotnasts rotnastur rotni rotnir rotnu rotnum rotnust rotnustu rotnustum
+51	9251	miðgarður	miðgarð miðgarða miðgarðana miðgarðanna miðgarðar miðgarðarnir miðgarði miðgarðinn miðgarðinum miðgarðs miðgarðsins miðgarðurinn miðgörðum miðgörðunum
+52	9252	snigill	snigil snigilinn snigillinn snigils snigilsins snigla sniglana sniglanna sniglar sniglarnir snigli sniglinum sniglum sniglunum
+53	9253	ísjaki	ísjaka ísjakana ísjakann ísjakanna ísjakans ísjakanum ísjakar ísjakarnir ísjakinn ísjökum ísjökunum
+54	9254	sleggja	sleggjan sleggjanna sleggju sleggjum sleggjuna sleggjunnar sleggjunni sleggjunum sleggjur sleggjurnar sleggna sleggnanna
+55	9255	andspyrna	andspyrnan andspyrnu andspyrnuna andspyrnunnar andspyrnunni
+56	9256	náða	náðandi náðar náðast náðað náðaða náðaðan náðaðar náðaði náðaðir náðaðist náðaðra náðaðrar náðaðri náðaðs náðaðu náðaður náði náðir náðirðu náðist náðið náðum náðumst náðuð náðuðu náðuðum náðuðumst náðuðust náðuðuð
+57	9257	vigt	vigta vigtanna vigtar vigtarinnar vigtin vigtina vigtinni vigtir vigtirnar vigtum vigtunum
+58	9258	drungalegur	drungaleg drungalega drungalegan drungalegar drungalegast drungalegasta drungalegastan drungalegastar drungalegasti drungalegastir drungalegastra drungalegastrar drungalegastri drungalegasts drungalegastur drungalegi drungalegir drungalegra drungalegrar drungalegri drungalegs drungalegt drungalegu drungalegum drungalegust drungalegustu drungalegustum
+59	9259	matreiða	matreidd matreidda matreiddan matreiddar matreiddi matreiddir matreiddist matreiddra matreiddrar matreiddri matreidds matreiddu matreiddum matreiddumst matreiddur matreiddust matreidduð matreitt matreiðandi matreiðast matreiði matreiðir matreiðist matreiðið matreiðst matreiðum matreiðumst
+60	9260	óráð	óráði óráðinu óráðið óráðs óráðsins
+61	9261	djamm	djammi djamminu djammið djamms djammsins
+62	9262	lömun	lamana lamananna lamanir lamanirnar lömunar lömunarinnar lömunin lömunina lömuninni lömunum lömununum
+63	9263	nöp	
+64	9264	þokkabót	þokkabótar þokkabótarinnar þokkabótin þokkabótina þokkabótinni
+65	9265	sautjándi	sautjánda sautjándu
+66	9266	flugeldasýning	flugeldasýninga flugeldasýninganna flugeldasýningar flugeldasýningarinnar flugeldasýningarnar flugeldasýningin flugeldasýningu flugeldasýningum flugeldasýninguna flugeldasýningunni flugeldasýningunum
+67	9267	mæðgur	mæðgna mæðgnanna mæðgum mæðgunum mæðgurnar
+68	9268	geislavirkni	geislavirknin geislavirknina geislavirkninnar geislavirkninni
+69	9269	unun	ununar ununarinnar ununin ununina ununinni
+70	9270	hungursneyð	hungursneyða hungursneyðanna hungursneyðar hungursneyðarinnar hungursneyðin hungursneyðina hungursneyðinni hungursneyðir hungursneyðirnar hungursneyðum hungursneyðunum
+71	9271	ölvun	ölvunar ölvunarinnar ölvunin ölvunina ölvuninni
+72	9272	framhaldslíf	framhaldslífi framhaldslífinu framhaldslífið framhaldslífs framhaldslífsins
+73	9273	glósa	glósan glósandi glósanna glósar glósast glósað glósaða glósaðan glósaðar glósaði glósaðir glósaðist glósaðra glósaðrar glósaðri glósaðs glósaðu glósaður glósi glósir glósist glósið glósna glósnanna glósu glósum glósumst glósuna glósunnar glósunni glósunum glósur glósurnar glósuð glósuðu glósuðum glósuðumst glósuðust glósuðuð
+74	9274	skammhlaup	skammhlaupa skammhlaupanna skammhlaupi skammhlaupin skammhlaupinu skammhlaupið skammhlaups skammhlaupsins skammhlaupum skammhlaupunum
+75	9275	heimsbyggð	heimsbyggða heimsbyggðanna heimsbyggðar heimsbyggðarinnar heimsbyggðin heimsbyggðina heimsbyggðinni heimsbyggðir heimsbyggðirnar heimsbyggðum heimsbyggðunum
+76	9276	strympa	strympan strympanna strympna strympnanna strympu strympum strympuna strympunnar strympunni strympunum strympur strympurnar
+77	9277	óvild	óvildar óvildarinnar óvildin óvildina óvildinni
+78	9278	traðka	traðkandi traðkar traðkast traðkað traðkaða traðkaðan traðkaðar traðkaði traðkaðir traðkaðist traðkaðra traðkaðrar traðkaðri traðkaðs traðkaðu traðkaður traðki traðkir traðkist traðkið tröðkum tröðkumst tröðkuð tröðkuðu tröðkuðum tröðkuðumst tröðkuðust tröðkuðuð
+79	9279	athafnamaður	athafnamann athafnamanna athafnamannanna athafnamanni athafnamanninn athafnamanninum athafnamanns athafnamannsins athafnamaðurinn athafnamenn athafnamennina athafnamennirnir athafnamönnum athafnamönnunum
+80	9280	kylfingur	kylfing kylfinga kylfingana kylfinganna kylfingar kylfingarnir kylfingi kylfinginn kylfingnum kylfings kylfingsins kylfingum kylfingunum kylfingurinn
+81	9281	einbýlishús	einbýlishúsa einbýlishúsanna einbýlishúsi einbýlishúsin einbýlishúsinu einbýlishúsið einbýlishúss einbýlishússins einbýlishúsum einbýlishúsunum
+82	9282	ská	skáin skánni skár skárinnar
+83	9283	klauf	klaufa klaufanna klaufar klaufarinnar klaufarnar klaufin klaufina klaufinni klaufir klaufirnar klaufum klaufunum
+84	9284	smygl	smygli smyglinu smyglið smygls smyglsins
+85	9285	fimur	fim fima fiman fimar fimara fimari fimast fimasta fimastan fimastar fimasti fimastir fimastra fimastrar fimastri fimasts fimastur fimi fimir fimra fimrar fimri fims fimt fimu fimum fimust fimustu fimustum
+86	9286	fjórtándi	fjórtánda fjórtándu
+87	9287	gleymska	gleymskan gleymsku gleymskuna gleymskunnar gleymskunni
+88	9288	listakona	listakonan listakonu listakonum listakonuna listakonunnar listakonunni listakonunum listakonur listakonurnar listakvenna listakvennanna
+89	9289	endurlífgun	endurlífgunar endurlífgunarinnar endurlífgunin endurlífgunina endurlífguninni
+90	9290	óheiðarlegur	óheiðarleg óheiðarlega óheiðarlegan óheiðarlegar óheiðarlegast óheiðarlegasta óheiðarlegastan óheiðarlegastar óheiðarlegasti óheiðarlegastir óheiðarlegastra óheiðarlegastrar óheiðarlegastri óheiðarlegasts óheiðarlegastur óheiðarlegi óheiðarlegir óheiðarlegra óheiðarlegrar óheiðarlegri óheiðarlegs óheiðarlegt óheiðarlegu óheiðarlegum óheiðarlegust óheiðarlegustu óheiðarlegustum
+91	9291	íhlutur	íhlut íhluta íhlutanna íhlutar íhlutarins íhluti íhlutina íhlutinn íhlutir íhlutirnir íhlutnum íhlutum íhlutunum íhluturinn
+92	9292	reim	reima reimanna reimar reimarinnar reimarnar reimin reimina reiminni reimum reimunum
+93	9293	ungviði	ungviðinu ungviðis ungviðisins ungviðið
+94	9294	yfirstandandi	
+95	9295	gullverðlaun	gullverðlauna gullverðlaunanna gullverðlaunin gullverðlaunum gullverðlaununum
+96	9296	upplýsingamiðstöð	upplýsingamiðstöðin upplýsingamiðstöðina upplýsingamiðstöðinni upplýsingamiðstöðva upplýsingamiðstöðvanna upplýsingamiðstöðvar upplýsingamiðstöðvarinnar upplýsingamiðstöðvarnar upplýsingamiðstöðvum upplýsingamiðstöðvunum
+97	9297	varaþingmaður	varaþingmann varaþingmanna varaþingmannanna varaþingmanni varaþingmanninn varaþingmanninum varaþingmanns varaþingmannsins varaþingmaðurinn varaþingmenn varaþingmennina varaþingmennirnir varaþingmönnum varaþingmönnunum
+98	9298	dótturfélag	dótturfélaga dótturfélaganna dótturfélagi dótturfélaginu dótturfélagið dótturfélags dótturfélagsins dótturfélög dótturfélögin dótturfélögum dótturfélögunum
+99	9299	fágun	fágunar fágunarinnar fágunin fágunina fáguninni
+100	9300	innrétta	innréttandi innréttar innréttast innréttað innréttaða innréttaðan innréttaðar innréttaði innréttaðir innréttaðist innréttaðra innréttaðrar innréttaðri innréttaðs innréttaðu innréttaður innrétti innréttir innréttist innréttið innréttum innréttumst innréttuð innréttuðu innréttuðum innréttuðumst innréttuðust innréttuðuð

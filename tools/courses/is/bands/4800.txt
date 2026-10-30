@@ -1,0 +1,100 @@
+1	4701	hjólastóll	hjólastól hjólastóla hjólastólana hjólastólanna hjólastólar hjólastólarnir hjólastólinn hjólastóllinn hjólastólnum hjólastóls hjólastólsins hjólastólum hjólastólunum
+2	4702	drukkinn	drukkin drukkinna drukkinnar drukkinni drukkins drukkið drukkna drukknar drukknara drukknari drukknast drukknasta drukknastan drukknastar drukknasti drukknastir drukknastra drukknastrar drukknastri drukknasts drukknastur drukkni drukknir drukknu drukknum drukknust drukknustu drukknustum
+3	4703	einkennilegur	einkennileg einkennilega einkennilegan einkennilegar einkennilegast einkennilegasta einkennilegastan einkennilegastar einkennilegasti einkennilegastir einkennilegastra einkennilegastrar einkennilegastri einkennilegasts einkennilegastur einkennilegi einkennilegir einkennilegra einkennilegrar einkennilegri einkennilegs einkennilegt einkennilegu einkennilegum einkennilegust einkennilegustu einkennilegustum
+4	4704	linsa	linsan linsanna linsu linsum linsuna linsunnar linsunni linsunum linsur linsurnar
+5	4705	lesbía	lesbían lesbíanna lesbíu lesbíum lesbíuna lesbíunnar lesbíunni lesbíunum lesbíur lesbíurnar
+6	4706	innbrot	innbrota innbrotanna innbroti innbrotin innbrotinu innbrotið innbrots innbrotsins innbrotum innbrotunum
+7	4707	umhverfisáhrif	umhverfisáhrifa umhverfisáhrifanna umhverfisáhrifin umhverfisáhrifum umhverfisáhrifunum
+8	4708	óreiða	óreiðan óreiðu óreiðuna óreiðunnar óreiðunni
+9	4709	risaeðla	risaeðlan risaeðlanna risaeðlu risaeðlum risaeðluna risaeðlunnar risaeðlunni risaeðlunum risaeðlur risaeðlurnar
+10	4710	saxa	saxandi saxar saxast saxað saxaða saxaðan saxaðar saxaði saxaðir saxaðist saxaðra saxaðrar saxaðri saxaðs saxaðu saxaður saxi saxir saxist saxið söxum söxumst söxuð söxuðu söxuðum söxuðumst söxuðust söxuðuð
+11	4711	aðkoma	aðkoman aðkomu aðkomuna aðkomunnar aðkomunni
+12	4712	snyrta	snyrt snyrtan snyrtandi snyrtar snyrti snyrtir snyrtirðu snyrtið snyrtra snyrtrar snyrtri snyrts snyrtu snyrtum snyrtur snyrtuð
+13	4713	óeðlilegur	óeðlileg óeðlilega óeðlilegan óeðlilegar óeðlilegast óeðlilegasta óeðlilegastan óeðlilegastar óeðlilegasti óeðlilegastir óeðlilegastra óeðlilegastrar óeðlilegastri óeðlilegasts óeðlilegastur óeðlilegi óeðlilegir óeðlilegra óeðlilegrar óeðlilegri óeðlilegs óeðlilegt óeðlilegu óeðlilegum óeðlilegust óeðlilegustu óeðlilegustum
+14	4714	listaháskóli	listaháskóla listaháskólana listaháskólann listaháskólanna listaháskólans listaháskólanum listaháskólar listaháskólarnir listaháskólinn listaháskólum listaháskólunum
+15	4715	bætur	
+16	4716	sjálfsvíg	sjálfsvíga sjálfsvíganna sjálfsvígi sjálfsvígin sjálfsvíginu sjálfsvígið sjálfsvígs sjálfsvígsins sjálfsvígum sjálfsvígunum
+17	4717	snyrting	snyrtinga snyrtinganna snyrtingar snyrtingarinnar snyrtingarnar snyrtingin snyrtingu snyrtingum snyrtinguna snyrtingunni snyrtingunum
+18	4718	félagsheimili	félagsheimila félagsheimilanna félagsheimilin félagsheimilinu félagsheimilis félagsheimilisins félagsheimilið félagsheimilum félagsheimilunum
+19	4719	allmargur	allmarga allmargan allmargar allmargi allmargir allmargra allmargrar allmargri allmargs allmargt allmörg allmörgu allmörgum
+20	4720	æja	ái áirðu áð áði áðir áðirðu áðu áðum áðuð æi æir æirðu æið æjandi æjar æjað æjaði æjaðir æjaðu æjum æjuðu æjuðum æjuðuð æði æðir æðirðu æðu æðum æðuð
+21	4721	lækkaður	lækkað lækkaða lækkaðan lækkaðar lækkaðast lækkaðasta lækkaðastan lækkaðastar lækkaðasti lækkaðastir lækkaðastra lækkaðastrar lækkaðastri lækkaðasts lækkaðastur lækkaði lækkaðir lækkaðra lækkaðrar lækkaðri lækkaðs lækkuð lækkuðu lækkuðum lækkuðust lækkuðustu lækkuðustum
+22	4722	óánægja	óánægjan óánægju óánægjuna óánægjunnar óánægjunni
+23	4723	launa	launandi launar launarðu launast launað launaða launaðan launaðar launaði launaðir launaðist launaðra launaðrar launaðri launaðs launaðu launaður launi launir launist launið launum launumst launuð launuðu launuðum launuðumst launuðust launuðuð
+24	4724	drekkja	drekki drekkir drekkirðu drekkist drekkið drekkjandi drekkjast drekkjum drekkjumst drekkst drekkt drekkti drekktir drekktist drekktu drekktum drekktumst drekktust drekktuð
+25	4725	bingó	bingóa bingóanna bingói bingóin bingóinu bingóið bingós bingósins bingóum bingóunum
+26	4726	kennslustund	kennslustunda kennslustundanna kennslustundar kennslustundarinnar kennslustundin kennslustundina kennslustundinni kennslustundir kennslustundirnar kennslustundum kennslustundunum
+27	4727	skaðlegur	skaðleg skaðlega skaðlegan skaðlegar skaðlegast skaðlegasta skaðlegastan skaðlegastar skaðlegasti skaðlegastir skaðlegastra skaðlegastrar skaðlegastri skaðlegasts skaðlegastur skaðlegi skaðlegir skaðlegra skaðlegrar skaðlegri skaðlegs skaðlegt skaðlegu skaðlegum skaðlegust skaðlegustu skaðlegustum
+28	4728	norðurslóð	norðurslóða norðurslóðanna norðurslóðar norðurslóðarinnar norðurslóðin norðurslóðina norðurslóðinni norðurslóðir norðurslóðirnar norðurslóðum norðurslóðunum
+29	4729	jamm	
+30	4730	lak	laka lakanna laki lakinu lakið laks laksins lök lökin lökum lökunum
+31	4731	stráksi	stráksa stráksana stráksann stráksanna stráksans stráksanum stráksar stráksarnir stráksinn stráksum stráksunum
+32	4732	hvutti	hvutta hvuttana hvuttann hvuttanna hvuttans hvuttanum hvuttar hvuttarnir hvuttinn hvuttum hvuttunum
+33	4733	pipar	piparinn piparnum pipars piparsins
+34	4734	sæma	sæmandi sæmd sæmda sæmdan sæmdar sæmdi sæmdir sæmdra sæmdrar sæmdri sæmds sæmdu sæmdum sæmdur sæmduð sæmi sæmir sæmið sæmt sæmum
+35	4735	humar	humarinn humars humarsins humra humrana humranna humrar humrarnir humri humrinum humrum humrunum
+36	4736	dropi	dropa dropana dropann dropanna dropans dropanum dropar droparnir dropinn dropum dropunum
+37	4737	hrefna	hrefnan hrefnanna hrefnu hrefnum hrefnuna hrefnunnar hrefnunni hrefnunum hrefnur hrefnurnar
+38	4738	kol	kola kolanna koli kolin kolinu kolið kols kolsins kolum kolunum
+39	4739	menntamálaráðuneyti	menntamálaráðuneyta menntamálaráðuneytanna menntamálaráðuneytin menntamálaráðuneytinu menntamálaráðuneytis menntamálaráðuneytisins menntamálaráðuneytið menntamálaráðuneytum menntamálaráðuneytunum
+40	4740	klaufi	klaufa klaufana klaufann klaufanna klaufans klaufanum klaufar klaufarnir klaufinn klaufum klaufunum
+41	4741	indverskur	indversk indverska indverskan indverskar indverskara indverskari indverskast indverskasta indverskastan indverskastar indverskasti indverskastir indverskastra indverskastrar indverskastri indverskasts indverskastur indverski indverskir indverskra indverskrar indverskri indversks indverskt indversku indverskum indverskust indverskustu indverskustum
+42	4742	stilling	stillinga stillinganna stillingar stillingarinnar stillingarnar stillingin stillingu stillingum stillinguna stillingunni stillingunum
+43	4743	ráðgáta	ráðgátan ráðgátanna ráðgátna ráðgátnanna ráðgátu ráðgátum ráðgátuna ráðgátunnar ráðgátunni ráðgátunum ráðgátur ráðgáturnar
+44	4744	íþróttahús	íþróttahúsa íþróttahúsanna íþróttahúsi íþróttahúsin íþróttahúsinu íþróttahúsið íþróttahúss íþróttahússins íþróttahúsum íþróttahúsunum
+45	4745	lokka	lokkandi lokkar lokkast lokkað lokkaða lokkaðan lokkaðar lokkaði lokkaðir lokkaðirðu lokkaðist lokkaðra lokkaðrar lokkaðri lokkaðs lokkaðu lokkaður lokki lokkir lokkist lokkið lokkum lokkumst lokkuð lokkuðu lokkuðum lokkuðumst lokkuðust lokkuðuð
+46	4746	klemma	klemman klemmandi klemmanna klemmast klemmd klemmda klemmdan klemmdar klemmdi klemmdir klemmdist klemmdra klemmdrar klemmdri klemmds klemmdu klemmdum klemmdumst klemmdur klemmdust klemmduð klemmi klemmir klemmist klemmið klemmst klemmt klemmu klemmum klemmumst klemmuna klemmunnar klemmunni klemmunum klemmur klemmurnar
+47	4747	stóla	stólandi stólar stólast stólað stólaða stólaðan stólaðar stólaði stólaðir stólaðist stólaðra stólaðrar stólaðri stólaðs stólaðu stólaður stóli stólir stólist stólið stólum stólumst stóluð stóluðu stóluðum stóluðumst stóluðust stóluðuð
+48	4748	handbók	handbækur handbækurnar handbóka handbókanna handbókar handbókarinnar handbókin handbókina handbókinni handbókum handbókunum
+49	4749	assa	assan assanna össu össum össuna össunnar össunni össunum össur össurnar
+50	4750	slökkvilið	slökkviliða slökkviliðanna slökkviliði slökkviliðin slökkviliðinu slökkviliðið slökkviliðs slökkviliðsins slökkviliðum slökkviliðunum
+51	4751	skýli	skýla skýlanna skýlin skýlinu skýlis skýlisins skýlið skýlum skýlunum
+52	4752	krækja	kræki krækir krækist krækið krækjan krækjandi krækjanna krækjast krækju krækjum krækjumst krækjuna krækjunnar krækjunni krækjunum krækjur krækjurnar krækna kræknanna krækst krækt krækta kræktan kræktar krækti kræktir kræktirðu kræktist kræktra kræktrar kræktri krækts kræktu kræktum kræktumst kræktur kræktust kræktuð
+53	4753	tiltækur	tiltæk tiltæka tiltækan tiltækar tiltækara tiltækari tiltækast tiltækasta tiltækastan tiltækastar tiltækasti tiltækastir tiltækastra tiltækastrar tiltækastri tiltækasts tiltækastur tiltæki tiltækir tiltækra tiltækrar tiltækri tiltæks tiltækt tiltæku tiltækum tiltækust tiltækustu tiltækustum
+54	4754	silki	silkinu silkis silkisins silkið
+55	4755	kynni	kynna kynnanna kynnin kynnum kynnunum
+56	4756	afskaplega	
+57	4757	heimkynni	heimkynna heimkynnanna heimkynnin heimkynnum heimkynnunum
+58	4758	hliðsjón	hliðsjónar hliðsjónarinnar hliðsjónin hliðsjónina hliðsjóninni
+59	4759	harkalega	harkalegar harkalegast
+60	4760	endurbyggja	endurbyggi endurbyggir endurbyggist endurbyggið endurbyggjandi endurbyggjast endurbyggjum endurbyggjumst endurbyggst endurbyggt endurbyggð endurbyggða endurbyggðan endurbyggðar endurbyggði endurbyggðir endurbyggðist endurbyggðra endurbyggðrar endurbyggðri endurbyggðs endurbyggðu endurbyggðum endurbyggðumst endurbyggður endurbyggðust endurbyggðuð
+61	4761	fóður	fóðra fóðranna fóðri fóðrin fóðrinu fóðrið fóðrum fóðrunum fóðurs fóðursins
+62	4762	grilla	grillan grillandi grillanna grillar grillast grillað grillaða grillaðan grillaðar grillaði grillaðir grillaðist grillaðra grillaðrar grillaðri grillaðs grillaðu grillaður grilli grillir grillist grillið grillna grillnanna grillt grillti grilltir grilltu grilltum grilltuð grillu grillum grillumst grilluna grillunnar grillunni grillunum grillur grillurnar grilluð grilluðu grilluðum grilluðumst grilluðust grilluðuð
+63	4763	byssukúla	byssukúlan byssukúlna byssukúlnanna byssukúlu byssukúlum byssukúluna byssukúlunnar byssukúlunni byssukúlunum byssukúlur byssukúlurnar
+64	4764	meðhöndlun	meðhöndlunar meðhöndlunarinnar meðhöndlunin meðhöndlunina meðhöndluninni
+65	4765	þroskaður	þroskað þroskaða þroskaðan þroskaðar þroskaðast þroskaðasta þroskaðastan þroskaðastar þroskaðasti þroskaðastir þroskaðastra þroskaðastrar þroskaðastri þroskaðasts þroskaðastur þroskaði þroskaðir þroskaðra þroskaðrar þroskaðri þroskaðs þroskuð þroskuðu þroskuðum þroskuðust þroskuðustu þroskuðustum
+66	4766	æfur	æf æfa æfan æfar æfara æfari æfast æfasta æfastan æfastar æfasti æfastir æfastra æfastrar æfastri æfasts æfastur æfi æfir æfra æfrar æfri æfs æft æfu æfum æfust æfustu æfustum
+67	4767	pí	pía píanna píin píinu píið pís písins píum píunum
+68	4768	fullkomna	fullkomnandi fullkomnar fullkomnast fullkomnað fullkomnaða fullkomnaðan fullkomnaðar fullkomnaði fullkomnaðir fullkomnaðist fullkomnaðra fullkomnaðrar fullkomnaðri fullkomnaðs fullkomnaðu fullkomnaður fullkomni fullkomnir fullkomnist fullkomnið fullkomnum fullkomnumst fullkomnuð fullkomnuðu fullkomnuðum fullkomnuðumst fullkomnuðust fullkomnuðuð
+69	4769	míga	meig meigst meigstu migi migin miginn miginna miginnar miginni migins migir migirðu migið migju migjum migjuð migna mignar migni mignir mignu mignum migu migum miguð mé míg mígandi mígi mígir mígirðu mígið mígum mígur mígurðu mígðu
+70	4770	leyniskytta	leyniskyttan leyniskyttanna leyniskyttna leyniskyttnanna leyniskyttu leyniskyttum leyniskyttuna leyniskyttunnar leyniskyttunni leyniskyttunum leyniskyttur leyniskytturnar
+71	4771	lautinant	lautinanta lautinantana lautinantanna lautinantar lautinantarnir lautinantinn lautinantinum lautinants lautinantsins lautinöntum lautinöntunum
+72	4772	bæla	bælandi bælast bæld bælda bældan bældar bældi bældir bældist bældra bældrar bældri bælds bældu bældum bældumst bældur bældust bælduð bæli bælir bælirðu bælist bælið bælst bælt bælum bælumst
+73	4773	afbragð	afbragði afbragðinu afbragðið afbragðs afbragðsins
+74	4774	hræðsla	hræðslan hræðslu hræðsluna hræðslunnar hræðslunni
+75	4775	sífella	sífellan sífellu sífelluna sífellunnar sífellunni
+76	4776	kviðdómur	kviðdóm kviðdóma kviðdómana kviðdómanna kviðdómar kviðdómarnir kviðdómi kviðdóminn kviðdóminum kviðdómnum kviðdóms kviðdómsins kviðdómum kviðdómunum kviðdómurinn
+77	4777	svertingi	svertinginn svertingja svertingjana svertingjann svertingjanna svertingjans svertingjanum svertingjar svertingjarnir svertingjum svertingjunum
+78	4778	viðundur	viðundra viðundranna viðundri viðundrin viðundrinu viðundrið viðundrum viðundrunum viðundurs viðundursins
+79	4779	hryllingur	hrylling hryllingi hryllinginn hryllingnum hryllings hryllingsins hryllingurinn
+80	4780	blikka	blikkandi blikkar blikkarðu blikkað blikkaða blikkaðan blikkaðar blikkaði blikkaðir blikkaðirðu blikkaðra blikkaðrar blikkaðri blikkaðs blikkaðu blikkaður blikki blikkir blikkið blikkum blikkuð blikkuðu blikkuðum blikkuðuð
+81	4781	athvarf	athvarfa athvarfanna athvarfi athvarfinu athvarfið athvarfs athvarfsins athvörf athvörfin athvörfum athvörfunum
+82	4782	latína	latínan latínu latínuna latínunnar latínunni
+83	4783	sála	sálan sálna sálnanna sálu sálum sáluna sálunnar sálunni sálunum sálur sálurnar
+84	4784	siðferði	siðferðinu siðferðis siðferðisins siðferðið
+85	4785	skriða	skriðan skriðanna skriðna skriðnanna skriðs skriðu skriðum skriðuna skriðunnar skriðunni skriðunum skriður skriðurnar
+86	4786	upplausn	upplausna upplausnanna upplausnar upplausnarinnar upplausnin upplausnina upplausninni upplausnir upplausnirnar upplausnum upplausnunum
+87	4787	lögsaga	lögsagan lögsögu lögsöguna lögsögunnar lögsögunni
+88	4788	aftengja	aftengd aftengda aftengdan aftengdar aftengdi aftengdir aftengdirðu aftengdist aftengdra aftengdrar aftengdri aftengds aftengdu aftengdum aftengdumst aftengdur aftengdust aftengduð aftengi aftengir aftengist aftengið aftengjandi aftengjast aftengjum aftengjumst aftengst aftengt
+89	4789	herforingi	herforinginn herforingja herforingjana herforingjann herforingjanna herforingjans herforingjanum herforingjar herforingjarnir herforingjum herforingjunum
+90	4790	eyjafjörður	eyjafirði
+91	4791	orðstír	orðstírinn orðstírnum orðstírs orðstírsins
+92	4792	sin	sina sinanna sinar sinarinnar sinarnar sinin sinina sininni sinum sinunum
+93	4793	deig	deigi deiginu deigið deigs deigsins
+94	4794	tennis	tennisi tennisinn tennisins tennisinum tennisnum tenniss tennissins
+95	4795	gáta	gátan gátandi gátanna gátar gátast gátað gátaða gátaðan gátaðar gátaði gátaðir gátaðist gátaðra gátaðrar gátaðri gátaðs gátaðu gátaður gáti gátir gátist gátið gátna gátnanna gátu gátum gátumst gátuna gátunnar gátunni gátunum gátur gáturnar gátuð gátuðu gátuðum gátuðumst gátuðust gátuðuð
+96	4796	mannskapur	mannskap mannskapar mannskaparins mannskapinn mannskapnum mannskaps mannskapsins mannskapurinn
+97	4797	eðlisfræði	eðlisfræðin eðlisfræðina eðlisfræðinnar eðlisfræðinni
+98	4798	liðsauki	liðsauka liðsaukann liðsaukans liðsaukanum liðsaukinn
+99	4799	hringrás	hringrása hringrásanna hringrásar hringrásarinnar hringrásin hringrásina hringrásinni hringrásir hringrásirnar hringrásum hringrásunum
+100	4800	trappa	trappan trappandi trappanna trappar trappast trappað trappaða trappaðan trappaðar trappaði trappaðir trappaðist trappaðra trappaðrar trappaðri trappaðs trappaðu trappaður trappi trappir trappist trappið tröppu tröppum tröppumst tröppuna tröppunnar tröppunni tröppunum tröppur tröppurnar tröppuð tröppuðu tröppuðum tröppuðumst tröppuðust tröppuðuð

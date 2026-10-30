@@ -1,0 +1,100 @@
+1	2101	leiga	leigan leiganna leigna leignanna leigu leigum leiguna leigunnar leigunni leigunum leigur leigurnar
+2	2102	rúst	rústa rústanna rústar rústarinnar rústin rústina rústinni rústir rústirnar rústum rústunum
+3	2103	kollur	koll kolla kollana kollanna kollar kollarnir kolli kollinn kollinum kolls kollsins kollum kollunum kollurinn
+4	2104	glíma	glíman glímandi glímanna glímdi glímdir glímdirðu glímdu glímdum glímduð glími glímir glímirðu glímið glímna glímnanna glímt glímu glímum glímuna glímunnar glímunni glímunum glímur glímurnar
+5	2105	kíló	kílóa kílóanna kílói kílóin kílóinu kílóið kílós kílósins kílóum kílóunum
+6	2106	gríðarlega	
+7	2107	séns	sénsa sénsana sénsanna sénsar sénsarnir sénsinn sénsins sénsinum sénsum sénsunum
+8	2108	kýla	kýlandi kýlast kýld kýlda kýldan kýldar kýldi kýldir kýldirðu kýldist kýldra kýldrar kýldri kýlds kýldu kýldum kýldumst kýldur kýldust kýlduð kýli kýlir kýlist kýlið kýlst kýlt kýlum kýlumst
+9	2109	sérlega	
+10	2110	sundlaug	sundlauga sundlauganna sundlaugar sundlaugarinnar sundlaugarnar sundlaugin sundlaugina sundlauginni sundlaugum sundlaugunum
+11	2111	hoppa	hoppandi hoppar hopparðu hoppað hoppaði hoppaðir hoppaðu hoppi hoppir hoppið hoppum hoppuðu hoppuðum hoppuðuð
+12	2112	troða	treð treðst treður treðurðu troddu troðandi troðast troði troðin troðinn troðinna troðinnar troðinni troðins troðir troðirðu troðist troðið troðna troðnar troðni troðnir troðnu troðnum troðstu troðum troðumst træði træðir træðirðu træðist træðu træðum træðumst træðust træðuð tróð tróðst tróðstu tróðu tróðum tróðumst tróðust tróðuð
+13	2113	andlegur	andleg andlega andlegan andlegar andlegast andlegasta andlegastan andlegastar andlegasti andlegastir andlegastra andlegastrar andlegastri andlegasts andlegastur andlegi andlegir andlegra andlegrar andlegri andlegs andlegt andlegu andlegum andlegust andlegustu andlegustum
+14	2114	daglegur	dagleg daglega daglegan daglegar daglegast daglegasta daglegastan daglegastar daglegasti daglegastir daglegastra daglegastrar daglegastri daglegasts daglegastur daglegi daglegir daglegra daglegrar daglegri daglegs daglegu daglegum daglegust daglegustu daglegustum
+15	2115	þvert	
+16	2116	batna	batnandi batnar batnað batnaða batnaðan batnaðar batnaði batnaðir batnaðra batnaðrar batnaðri batnaðs batnaður batni batnir batnið bötnum bötnuð bötnuðu bötnuðum bötnuðuð
+17	2117	leikstjóri	leikstjóra leikstjórana leikstjórann leikstjóranna leikstjórans leikstjóranum leikstjórar leikstjórarnir leikstjórinn leikstjórum leikstjórunum
+18	2118	afstaða	afstaðan afstöðu afstöðuna afstöðunnar afstöðunni
+19	2119	koss	kossa kossana kossanna kossar kossarnir kossi kossinn kossins kossinum kossum kossunum
+20	2120	bandalag	bandalaga bandalaganna bandalagi bandalaginu bandalagið bandalags bandalagsins bandalög bandalögin bandalögum bandalögunum
+21	2121	dagblað	dagblaða dagblaðanna dagblaði dagblaðinu dagblaðið dagblaðs dagblaðsins dagblöð dagblöðin dagblöðum dagblöðunum
+22	2122	lind	linda lindanna lindar lindarinnar lindin lindina lindinni lindir lindirnar lindum lindunum
+23	2123	fimmtudagur	fimmtudag fimmtudaga fimmtudagana fimmtudaganna fimmtudagar fimmtudagarnir fimmtudaginn fimmtudags fimmtudagsins fimmtudagurinn fimmtudegi fimmtudeginum fimmtudögum fimmtudögunum
+24	2124	umsjón	umsjónar umsjónarinnar umsjónin umsjónina umsjóninni
+25	2125	margvíslegur	margvísleg margvíslega margvíslegan margvíslegar margvíslegast margvíslegasta margvíslegastan margvíslegastar margvíslegasti margvíslegastir margvíslegastra margvíslegastrar margvíslegastri margvíslegasts margvíslegastur margvíslegi margvíslegir margvíslegra margvíslegrar margvíslegri margvíslegs margvíslegt margvíslegu margvíslegum margvíslegust margvíslegustu margvíslegustum
+26	2126	bana	banandi banar banarðu banað banaði banaðir banaðirðu banaðu bani banir banið bönum bönuðu bönuðum bönuðuð
+27	2127	rólega	rólegar rólegast
+28	2128	partur	part parta partana partanna partar partarnir parti partinn partinum parts partsins parturinn pörtum pörtunum
+29	2129	dagskrá	dagskráa dagskráin dagskrám dagskrána dagskránna dagskránni dagskránum dagskrár dagskrárinnar dagskrárnar
+30	2130	rassgat	rassgata rassgatanna rassgati rassgatinu rassgatið rassgats rassgatsins rassgöt rassgötin rassgötum rassgötunum
+31	2131	skríða	skreið skreiðst skreiðstu skriði skriðin skriðinn skriðinna skriðinnar skriðinni skriðins skriðir skriðirðu skriðið skriðna skriðnar skriðni skriðnir skriðnu skriðnum skriðu skriðum skriðuð skríddu skríð skríðandi skríði skríðir skríðirðu skríðið skríðum skríður skríðurðu
+32	2132	ágætlega	
+33	2133	stakur	staka stakan stakar stakara stakari stakast stakasta stakastan stakastar stakasti stakastir stakastra stakastrar stakastri stakasts stakastur staki stakir stakra stakrar stakri staks stakt stök stöku stökum stökust stökustu stökustum
+34	2134	vökvi	vökva vökvana vökvann vökvanna vökvans vökvanum vökvar vökvarnir vökvinn vökvum vökvunum
+35	2135	hugsanlegur	hugsanleg hugsanlega hugsanlegan hugsanlegar hugsanlegast hugsanlegasta hugsanlegastan hugsanlegastar hugsanlegasti hugsanlegastir hugsanlegastra hugsanlegastrar hugsanlegastri hugsanlegasts hugsanlegastur hugsanlegi hugsanlegir hugsanlegra hugsanlegrar hugsanlegri hugsanlegs hugsanlegt hugsanlegu hugsanlegum hugsanlegust hugsanlegustu hugsanlegustum
+36	2136	hálftími	hálftíma hálftímana hálftímann hálftímanna hálftímans hálftímanum hálftímar hálftímarnir hálftíminn hálftímum hálftímunum
+37	2137	sjálfstæði	sjálfstæðinu sjálfstæðis sjálfstæðisins sjálfstæðið
+38	2138	fáviti	fávita fávitana fávitann fávitanna fávitans fávitanum fávitar fávitarnir fávitinn fávitum fávitunum
+39	2139	þrisvar	
+40	2140	lúta	laust laut lotin lotinn lotinna lotinnar lotinni lotins lotið lotna lotnar lotni lotnir lotnu lotnum lutu lutum lutuð lyti lytir lytu lytum lytuð lútan lútandi lútanna lúti lútir lútið lúttu lútu lútum lútuna lútunnar lútunni lútunum lútur lúturnar lýt lýtur
+41	2141	siður	sið siða siðanna siðar siðarins siði siðina siðinn siðinum siðir siðirnir siðnum siðum siðunum siðurinn
+42	2142	teygja	teygi teygir teygist teygið teygjan teygjandi teygjanna teygjast teygju teygjum teygjumst teygjuna teygjunnar teygjunni teygjunum teygjur teygjurnar teygst teygt teygð teygða teygðan teygðar teygði teygðir teygðist teygðra teygðrar teygðri teygðs teygðu teygðum teygðumst teygður teygðust teygðuð
+43	2143	samanstanda	samanstandandi samanstandi samanstandir samanstandið samanstaðin samanstaðinn samanstaðinna samanstaðinnar samanstaðinni samanstaðins samanstaðið samanstaðna samanstaðnar samanstaðni samanstaðnir samanstend samanstendur samanstæði samanstæðir samanstæðu samanstæðum samanstæðuð samanstóð samanstóðst samanstóðu samanstóðum samanstóðuð samanstöndum samanstöðnu samanstöðnum
+44	2144	kynning	kynninga kynninganna kynningar kynningarinnar kynningarnar kynningin kynningu kynningum kynninguna kynningunni kynningunum
+45	2145	minni	minna minnanna minnin minninu minnis minnisins minnið minnum minnunum
+46	2146	hugrakkur	hugrakka hugrakkan hugrakkar hugrakkara hugrakkari hugrakkast hugrakkasta hugrakkastan hugrakkastar hugrakkasti hugrakkastir hugrakkastra hugrakkastrar hugrakkastri hugrakkasts hugrakkastur hugrakki hugrakkir hugrakkra hugrakkrar hugrakkri hugrakks hugrakkt hugrökk hugrökku hugrökkum hugrökkust hugrökkustu hugrökkustum
+47	2147	hákarl	hákarla hákarlana hákarlanna hákarlar hákarlarnir hákarli hákarlinn hákarlinum hákarls hákarlsins hákörlum hákörlunum
+48	2148	viðfangsefni	viðfangsefna viðfangsefnanna viðfangsefnin viðfangsefninu viðfangsefnis viðfangsefnisins viðfangsefnið viðfangsefnum viðfangsefnunum
+49	2149	þrjátíu	
+50	2150	menntaskóli	menntaskóla menntaskólana menntaskólann menntaskólanna menntaskólans menntaskólanum menntaskólar menntaskólarnir menntaskólinn menntaskólum menntaskólunum
+51	2151	ball	balla ballanna balli ballinu ballið balls ballsins böll böllin böllum böllunum
+52	2152	lögreglustjóri	lögreglustjóra lögreglustjórana lögreglustjórann lögreglustjóranna lögreglustjórans lögreglustjóranum lögreglustjórar lögreglustjórarnir lögreglustjórinn lögreglustjórum lögreglustjórunum
+53	2153	bora	boran borandi boranna borar borast borað boraða boraðan boraðar boraði boraðir boraðist boraðra boraðrar boraðri boraðs boraðu boraður bori borir borist borið boru borum borumst boruna borunnar borunni borunum borur borurnar boruð boruðu boruðum boruðumst boruðust boruðuð
+54	2154	keisari	keisara keisarana keisarann keisaranna keisarans keisaranum keisarar keisararnir keisarinn keisurum keisurunum
+55	2155	redda	reddandi reddar reddað reddaði reddaðir reddaðu reddi reddir reddið reddum redduðu redduðum redduðuð
+56	2156	hrífa	hreif hreifst hreifstu hrifi hrifin hrifinn hrifinna hrifinnar hrifinni hrifins hrifir hrifirðu hrifist hrifið hrifna hrifnar hrifni hrifnir hrifnu hrifnum hrifu hrifum hrifumst hrifust hrifuð hríf hrífan hrífandi hrífanna hrífast hrífi hrífir hrífirðu hrífist hrífið hrífna hrífnanna hrífst hrífstu hrífu hrífum hrífumst hrífuna hrífunnar hrífunni hrífunum hrífur hrífurnar hrífurðu hrífðu
+57	2157	vænta	vænst vænt væntandi væntast vænti væntir væntirðu væntist væntið væntu væntum væntumst væntust væntuð
+58	2158	skýr	skýra skýran skýrar skýrara skýrari skýrast skýrasta skýrastan skýrastar skýrasti skýrastir skýrastra skýrastrar skýrastri skýrasts skýrastur skýri skýrir skýrra skýrrar skýrri skýrs skýrt skýru skýrum skýrust skýrustu skýrustum
+59	2159	athyglisverður	athyglisvert athyglisverð athyglisverða athyglisverðan athyglisverðar athyglisverðara athyglisverðari athyglisverðast athyglisverðasta athyglisverðastan athyglisverðastar athyglisverðasti athyglisverðastir athyglisverðastra athyglisverðastrar athyglisverðastri athyglisverðasts athyglisverðastur athyglisverði athyglisverðir athyglisverðra athyglisverðrar athyglisverðri athyglisverðs athyglisverðu athyglisverðum athyglisverðust athyglisverðustu athyglisverðustum
+60	2160	innra	
+61	2161	tónlistarmaður	tónlistarmann tónlistarmanna tónlistarmannanna tónlistarmanni tónlistarmanninn tónlistarmanninum tónlistarmanns tónlistarmannsins tónlistarmaðurinn tónlistarmenn tónlistarmennina tónlistarmennirnir tónlistarmönnum tónlistarmönnunum
+62	2162	spjall	spjalla spjallanna spjalli spjallinu spjallið spjalls spjallsins spjöll spjöllin spjöllum spjöllunum
+63	2163	formlegur	formleg formlega formlegan formlegar formlegast formlegasta formlegastan formlegastar formlegasti formlegastir formlegastra formlegastrar formlegastri formlegasts formlegastur formlegi formlegir formlegra formlegrar formlegri formlegs formlegt formlegu formlegum formlegust formlegustu formlegustum
+64	2164	internet	interneti internetinu internetið internets internetsins
+65	2165	ás	ása ásana ásanna ásar ásarnir ási ásinn ásnum áss ássins ásum ásunum æsi æsina æsir æsirnir
+66	2166	sóa	sóandi sóar sóarðu sóast sóað sóaða sóaðan sóaðar sóaði sóaðir sóaðirðu sóaðist sóaðra sóaðrar sóaðri sóaðs sóaðu sóaður sói sóir sóist sóið sóum sóumst sóuð sóuðu sóuðum sóuðumst sóuðust sóuðuð
+67	2167	skáli	skála skálana skálann skálanna skálans skálanum skálar skálarnir skálinn skálum skálunum
+68	2168	rás	rása rásanna rásar rásarinnar rási rásin rásina rásinni rásinu rásir rásirnar rásið ráss rássins rásum rásunum
+69	2169	lýðræði	lýðræðinu lýðræðis lýðræðisins lýðræðið
+70	2170	viðburður	viðburð viðburða viðburðanna viðburðar viðburðarins viðburði viðburðina viðburðinn viðburðinum viðburðir viðburðirnir viðburðum viðburðunum viðburðurinn
+71	2171	sjúkur	sjúk sjúka sjúkan sjúkar sjúkara sjúkari sjúkast sjúkasta sjúkastan sjúkastar sjúkasti sjúkastir sjúkastra sjúkastrar sjúkastri sjúkasts sjúkastur sjúki sjúkir sjúkra sjúkrar sjúkri sjúks sjúkt sjúku sjúkum sjúkust sjúkustu sjúkustum
+72	2172	gat	gata gatanna gati gatinu gatið gats gatsins göt götin götum götunum
+73	2173	þjófur	þjóf þjófa þjófana þjófanna þjófar þjófarnir þjófi þjófinn þjófnum þjófs þjófsins þjófum þjófunum þjófurinn
+74	2174	flugmaður	flugmann flugmanna flugmannanna flugmanni flugmanninn flugmanninum flugmanns flugmannsins flugmaðurinn flugmenn flugmennina flugmennirnir flugmönnum flugmönnunum
+75	2175	rigning	rigninga rigninganna rigningar rigningarinnar rigningarnar rigningin rigningu rigningum rigninguna rigningunni rigningunum
+76	2176	óvenjulegur	óvenjuleg óvenjulega óvenjulegan óvenjulegar óvenjulegast óvenjulegasta óvenjulegastan óvenjulegastar óvenjulegasti óvenjulegastir óvenjulegastra óvenjulegastrar óvenjulegastri óvenjulegasts óvenjulegastur óvenjulegi óvenjulegir óvenjulegra óvenjulegrar óvenjulegri óvenjulegs óvenjulegt óvenjulegu óvenjulegum óvenjulegust óvenjulegustu óvenjulegustum
+77	2177	rún	rúna rúnanna rúnar rúnarinnar rúnin rúnina rúninni rúnir rúnirnar rúnum rúnunum
+78	2178	björk	bjarka bjarkanna bjarkar bjarkarinnar bjarkir bjarkirnar björkin björkina björkinni björkum björkunum
+79	2179	framhaldsskóli	framhaldsskóla framhaldsskólana framhaldsskólann framhaldsskólanna framhaldsskólans framhaldsskólanum framhaldsskólar framhaldsskólarnir framhaldsskólinn framhaldsskólum framhaldsskólunum
+80	2180	dreki	dreka drekana drekann drekanna drekans drekanum drekar drekarnir drekinn drekum drekunum
+81	2181	myndarlegur	myndarleg myndarlega myndarlegan myndarlegar myndarlegast myndarlegasta myndarlegastan myndarlegastar myndarlegasti myndarlegastir myndarlegastra myndarlegastrar myndarlegastri myndarlegasts myndarlegastur myndarlegi myndarlegir myndarlegra myndarlegrar myndarlegri myndarlegs myndarlegt myndarlegu myndarlegum myndarlegust myndarlegustu myndarlegustum
+82	2182	hljómur	hljóm hljóma hljómana hljómanna hljómar hljómarnir hljómi hljóminn hljóminum hljómnum hljóms hljómsins hljómum hljómunum hljómurinn
+83	2183	tugur	tug tuga tuganna tugar tugarins tugi tugina tuginn tugir tugirnir tugnum tugum tugunum tugurinn
+84	2184	mistaka	mistakandi mistakast mistaki mistakir mistakist mistakið mistakstu mistaktu mistek mistekin mistekinn mistekinna mistekinnar mistekinni mistekins mistekist mistekið mistekna misteknar mistekni misteknir misteknu misteknum mistekst mistekur mistæki mistækir mistækist mistækju mistækjum mistækjumst mistækjust mistækjuð mistók mistókst mistóku mistókum mistókumst mistókust mistókuð mistökum mistökumst
+85	2185	raunverulega	raunverulegar raunverulegast
+86	2186	sykur	sykri sykrinum sykurinn sykurs sykursins
+87	2187	veruleiki	veruleika veruleikann veruleikans veruleikanum veruleikinn
+88	2188	sjötti	sjötta sjöttu
+89	2189	óvænt	
+90	2190	farsími	farsíma farsímana farsímann farsímanna farsímans farsímanum farsímar farsímarnir farsíminn farsímum farsímunum
+91	2191	greiðsla	greiðslan greiðslna greiðslnanna greiðslu greiðslum greiðsluna greiðslunnar greiðslunni greiðslunum greiðslur greiðslurnar
+92	2192	ryðja	rudd rudda ruddan ruddar ruddi ruddir ruddirðu ruddist ruddistu ruddra ruddrar ruddri rudds ruddu ruddum ruddumst ruddur ruddust rudduð rutt ruðst ryddi ryddir ryddirðu ryddist ryddistu ryddu ryddum ryddumst ryddust rydduð ryð ryðjandi ryðjast ryðji ryðjir ryðjirðu ryðjist ryðjistu ryðjið ryðjum ryðjumst ryðst ryðstu ryður ryðurðu
+93	2193	vonbrigði	vonbrigða vonbrigðanna vonbrigðin vonbrigðum vonbrigðunum
+94	2194	fjör	fjöri fjörinu fjörið fjörs fjörsins
+95	2195	opinberlega	
+96	2196	glæpamaður	glæpamann glæpamanna glæpamannanna glæpamanni glæpamanninn glæpamanninum glæpamanns glæpamannsins glæpamaðurinn glæpamenn glæpamennina glæpamennirnir glæpamönnum glæpamönnunum
+97	2197	höfuðborg	höfuðborga höfuðborganna höfuðborgar höfuðborgarinnar höfuðborgin höfuðborgina höfuðborginni höfuðborgir höfuðborgirnar höfuðborgum höfuðborgunum
+98	2198	greitt	greiðar greiðara greiðast
+99	2199	sjómaður	sjómann sjómanna sjómannanna sjómanni sjómanninn sjómanninum sjómanns sjómannsins sjómaðurinn sjómenn sjómennina sjómennirnir sjómönnum sjómönnunum
+100	2200	búr	búra búranna búri búrin búrinu búrið búrs búrsins búrum búrunum

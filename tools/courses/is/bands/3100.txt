@@ -1,0 +1,100 @@
+1	3001	stressa	stressandi stressar stressast stressað stressaða stressaðan stressaðar stressaði stressaðir stressaðist stressaðra stressaðrar stressaðri stressaðs stressaðu stressaður stressi stressir stressist stressið stressum stressumst stressuð stressuðu stressuðum stressuðumst stressuðust stressuðuð
+2	3002	nærbuxur	nærbuxna nærbuxnanna nærbuxum nærbuxunum nærbuxurnar
+3	3003	vorkenna	vorkennandi vorkenndi vorkenndir vorkenndu vorkenndum vorkennduð vorkenni vorkennir vorkennirðu vorkennið vorkennt vorkennum
+4	3004	brottför	brottfara brottfaranna brottfarar brottfararinnar brottfarir brottfarirnar brottförin brottförina brottförinni brottförum brottförunum
+5	3005	samsetning	samsetninga samsetninganna samsetningar samsetningarinnar samsetningarnar samsetningin samsetningu samsetningum samsetninguna samsetningunni samsetningunum
+6	3006	undarlega	undarlegar undarlegast
+7	3007	skrúfa	skrúfan skrúfandi skrúfanna skrúfar skrúfarðu skrúfast skrúfað skrúfaða skrúfaðan skrúfaðar skrúfaði skrúfaðir skrúfaðirðu skrúfaðist skrúfaðra skrúfaðrar skrúfaðri skrúfaðs skrúfaðu skrúfaður skrúfi skrúfir skrúfist skrúfið skrúfna skrúfnanna skrúfu skrúfum skrúfumst skrúfuna skrúfunnar skrúfunni skrúfunum skrúfur skrúfurnar skrúfuð skrúfuðu skrúfuðum skrúfuðumst skrúfuðust skrúfuðuð
+8	3008	landsvæði	landsvæða landsvæðanna landsvæðin landsvæðinu landsvæðis landsvæðisins landsvæðið landsvæðum landsvæðunum
+9	3009	streyma	streymandi streymast streymd streymda streymdan streymdar streymdi streymdir streymdra streymdrar streymdri streymds streymdu streymdum streymdur streymduð streymi streymir streymið streymst streymt streymum
+10	3010	truflun	truflana truflananna truflanir truflanirnar truflunar truflunarinnar truflunin truflunina trufluninni truflunum truflununum
+11	3011	forskot	forskota forskotanna forskoti forskotin forskotinu forskotið forskots forskotsins forskotum forskotunum
+12	3012	drukkna	drukknandi drukknar drukknarðu drukknað drukknaða drukknaðan drukknaðar drukknaði drukknaðir drukknaðra drukknaðrar drukknaðri drukknaðs drukknaðu drukknaður drukkni drukknir drukknið drukknum drukknuð drukknuðu drukknuðum drukknuðuð
+13	3013	önd	anda andanna andar andarinnar endur endurnar öndin öndina öndinni öndum öndunum
+14	3014	brúður	brúða brúðanna brúðar brúðarinnar brúði brúðina brúðinni brúðir brúðirnar brúðum brúðunum brúðurin
+15	3015	peysa	peysan peysanna peysu peysum peysuna peysunnar peysunni peysunum peysur peysurnar
+16	3016	áfangastaður	áfangastað áfangastaða áfangastaðanna áfangastaðar áfangastaðarins áfangastaði áfangastaðina áfangastaðinn áfangastaðir áfangastaðirnir áfangastaðnum áfangastaðurinn áfangastöðum áfangastöðunum
+17	3017	aska	askan ösku öskuna öskunnar öskunni
+18	3018	leif	leifa leifanna leifar leifarinnar leifarnar leifin leifina leifinni leifum leifunum
+19	3019	sett	setta settanna setti settin settinu settið setts settsins settum settunum
+20	3020	skegg	skeggi skeggin skegginu skeggið skeggja skeggjanna skeggjum skeggjunum skeggs skeggsins
+21	3021	íkorni	íkorna íkornana íkornann íkornanna íkornans íkornanum íkornar íkornarnir íkorninn íkornum íkornunum
+22	3022	snúningur	snúning snúninga snúningana snúninganna snúningar snúningarnir snúningi snúninginn snúningnum snúnings snúningsins snúningum snúningunum snúningurinn
+23	3023	fríður	frítt fríð fríða fríðan fríðar fríðara fríðari fríðast fríðasta fríðastan fríðastar fríðasti fríðastir fríðastra fríðastrar fríðastri fríðasts fríðastur fríði fríðir fríðra fríðrar fríðri fríðs fríðu fríðum fríðust fríðustu fríðustum
+24	3024	gagnast	gagnaðist gagnist gögnumst gögnuðumst gögnuðust
+25	3025	kaþólskur	kaþólsk kaþólska kaþólskan kaþólskar kaþólskara kaþólskari kaþólskast kaþólskasta kaþólskastan kaþólskastar kaþólskasti kaþólskastir kaþólskastra kaþólskastrar kaþólskastri kaþólskasts kaþólskastur kaþólski kaþólskir kaþólskra kaþólskrar kaþólskri kaþólsks kaþólskt kaþólsku kaþólskum kaþólskust kaþólskustu kaþólskustum
+26	3026	hrekja	hrakin hrakinn hrakinna hrakinnar hrakinni hrakins hrakist hrakið hrakta hraktar hrakti hraktir hraktirðu hraktist hraktistu hrek hreki hrekir hrekirðu hrekist hrekistu hrekið hrekjandi hrekjast hrekjum hrekjumst hrekst hrekstu hrekti hrektir hrektirðu hrektist hrektistu hrektu hrektum hrektumst hrektust hrektuð hrekur hrekurðu hröktu hröktum hröktumst hröktust hröktuð
+27	3027	sérsveit	sérsveita sérsveitanna sérsveitar sérsveitarinnar sérsveitin sérsveitina sérsveitinni sérsveitir sérsveitirnar sérsveitum sérsveitunum
+28	3028	rosa	
+29	3029	kvikindi	kvikinda kvikindanna kvikindin kvikindinu kvikindis kvikindisins kvikindið kvikindum kvikindunum
+30	3030	skil	skila skilanna skilin skilum skilunum
+31	3031	undra	undrandi undrar undrast undrastu undrað undraði undraðir undraðist undraðu undri undrir undrist undrið undrum undrumst undruðu undruðum undruðumst undruðust undruðuð
+32	3032	endalaust	
+33	3033	hí	híi híinu híið hís hísins
+34	3034	skott	skotta skottanna skotti skottin skottinu skottið skotts skottsins skottum skottunum
+35	3035	bugur	bug buga bugana buganna bugar bugarnir bugi bugina buginn bugir bugirnir bugnum bugs bugsins bugum bugunum bugurinn
+36	3036	hunsa	hunsandi hunsar hunsast hunsað hunsaða hunsaðan hunsaðar hunsaði hunsaðir hunsaðist hunsaðra hunsaðrar hunsaðri hunsaðs hunsaðu hunsaður hunsi hunsir hunsist hunsið hunsum hunsumst hunsuð hunsuðu hunsuðum hunsuðumst hunsuðust hunsuðuð
+37	3037	síga	seig seigst seigstu sigi sigin siginn siginna siginnar siginni sigins sigir sigirðu sigið sigju sigjum sigjuð signa signar signi signir signu signum sigu sigum siguð síg sígandi sígi sígir sígirðu sígið sígum sígur sígurðu sígðu
+38	3038	dráttur	drátt drátta dráttanna dráttar dráttarins dráttinn dráttum dráttunum drátturinn drætti drættina drættinum drættir drættirnir
+39	3039	múslimi	múslima múslimana múslimann múslimanna múslimans múslimanum múslimar múslimarnir músliminn múslimum múslimunum
+40	3040	strengur	streng strengi strengina strenginn strengir strengirnir strengja strengjanna strengjar strengjarins strengjum strengjunum strengnum strengs strengsins strengurinn
+41	3041	mildur	mild milda mildan mildar mildara mildari mildast mildasta mildastan mildastar mildasti mildastir mildastra mildastrar mildastri mildasts mildastur mildi mildir mildra mildrar mildri milds mildu mildum mildust mildustu mildustum milt
+42	3042	torg	torga torganna torgi torgin torginu torgið torgs torgsins torgum torgunum
+43	3043	uppskrift	uppskrifta uppskriftanna uppskriftar uppskriftarinnar uppskriftin uppskriftina uppskriftinni uppskriftir uppskriftirnar uppskriftum uppskriftunum
+44	3044	atkvæðagreiðsla	atkvæðagreiðslan atkvæðagreiðslna atkvæðagreiðslnanna atkvæðagreiðslu atkvæðagreiðslum atkvæðagreiðsluna atkvæðagreiðslunnar atkvæðagreiðslunni atkvæðagreiðslunum atkvæðagreiðslur atkvæðagreiðslurnar
+45	3045	kjáni	kjána kjánana kjánann kjánanna kjánans kjánanum kjánar kjánarnir kjáninn kjánum kjánunum
+46	3046	mynt	mynta myntanna myntar myntarinnar myntin myntina myntinni myntir myntirnar myntum myntunum
+47	3047	trúlega	trúlegar trúlegast
+48	3048	löngum	
+49	3049	lita	litandi litar litast litastu litað litaða litaðan litaðar litaði litaðir litaðirðu litaðist litaðra litaðrar litaðri litaðs litaðu litaður liti litir litirðu litist litið litum litumst lituð lituðu lituðum lituðumst lituðust lituðuð
+50	3050	ópera	óperan óperanna óperu óperum óperuna óperunnar óperunni óperunum óperur óperurnar
+51	3051	tefla	teflandi teflast tefld teflda tefldan tefldar tefldi tefldir tefldist tefldra tefldrar tefldri teflds tefldu tefldum tefldumst tefldur tefldust teflduð tefli teflir teflirðu teflist teflið teflst teflt teflum teflumst
+52	3052	fita	fitan fitandi fitar fitast fitað fitaða fitaðan fitaðar fitaði fitaðir fitaðist fitaðra fitaðrar fitaðri fitaðs fitaðu fitaður fiti fitir fitist fitið fitu fitum fitumst fituna fitunnar fitunni fituð fituðu fituðum fituðumst fituðust fituðuð
+53	3053	mætast	mæst mætist mættist mættumst mættust mætumst
+54	3054	málmur	málm málma málmana málmanna málmar málmarnir málmi málminn málminum málms málmsins málmum málmunum málmurinn
+55	3055	sveitarstjórn	sveitarstjórna sveitarstjórnanna sveitarstjórnar sveitarstjórnarinnar sveitarstjórnin sveitarstjórnina sveitarstjórninni sveitarstjórnir sveitarstjórnirnar sveitarstjórnum sveitarstjórnunum
+56	3056	þjóðkirkja	þjóðkirkjan þjóðkirkju þjóðkirkjum þjóðkirkjuna þjóðkirkjunnar þjóðkirkjunni þjóðkirkjunum þjóðkirkjur þjóðkirkjurnar þjóðkirkna þjóðkirknanna
+57	3057	blaðra	blaðran blaðrandi blaðranna blaðrar blaðrað blaðraða blaðraðan blaðraðar blaðraði blaðraðir blaðraðra blaðraðrar blaðraðri blaðraðs blaðraðu blaðraður blaðri blaðrir blaðrið blöðru blöðrum blöðruna blöðrunnar blöðrunni blöðrunum blöðrur blöðrurnar blöðruð blöðruðu blöðruðum blöðruðuð
+58	3058	tilvísun	tilvísana tilvísananna tilvísanir tilvísanirnar tilvísunar tilvísunarinnar tilvísunin tilvísunina tilvísuninni tilvísunum tilvísununum
+59	3059	farangur	farangri farangrinum farangurinn farangurs farangursins
+60	3060	fluga	flugan flugna flugnanna flugu flugum fluguna flugunnar flugunni flugunum flugurnar
+61	3061	erla	erlan erlu erluna erlunnar erlunni
+62	3062	heiðra	heiðrandi heiðrar heiðrað heiðraða heiðraðan heiðraðar heiðraði heiðraðir heiðraðra heiðraðrar heiðraðri heiðraðs heiðraðu heiðraður heiðri heiðrir heiðrið heiðrum heiðruð heiðruðu heiðruðum heiðruðuð
+63	3063	hrópa	hrópandi hrópar hróparðu hrópast hrópað hrópaða hrópaðan hrópaðar hrópaði hrópaðir hrópaðist hrópaðra hrópaðrar hrópaðri hrópaðs hrópaðu hrópaður hrópi hrópir hrópist hrópið hrópum hrópumst hrópuð hrópuðu hrópuðum hrópuðumst hrópuðust hrópuðuð
+64	3064	smíð	smíða smíðanna smíðar smíðarinnar smíðarnar smíði smíðin smíðina smíðinni smíðinu smíðið smíðs smíðsins smíðum smíðunum
+65	3065	klessa	klessan klessandi klessanna klessast klessi klessir klessist klessið klesst klessta klesstan klesstar klessti klesstir klesstirðu klesstist klesstra klesstrar klesstri klessts klesstu klesstum klesstumst klesstur klesstust klesstuð klessu klessum klessumst klessuna klessunnar klessunni klessunum klessur klessurnar
+66	3066	tröll	trölla tröllanna trölli tröllin tröllinu tröllið trölls tröllsins tröllum tröllunum
+67	3067	viðgerð	viðgerða viðgerðanna viðgerðar viðgerðarinnar viðgerðin viðgerðina viðgerðinni viðgerðir viðgerðirnar viðgerðum viðgerðunum
+68	3068	upprunalegur	upprunaleg upprunalega upprunalegan upprunalegar upprunalegast upprunalegasta upprunalegastan upprunalegastar upprunalegasti upprunalegastir upprunalegastra upprunalegastrar upprunalegastri upprunalegasts upprunalegastur upprunalegi upprunalegir upprunalegra upprunalegrar upprunalegri upprunalegs upprunalegt upprunalegu upprunalegum upprunalegust upprunalegustu upprunalegustum
+69	3069	farartæki	farartækin farartækinu farartækis farartækisins farartækið farartækja farartækjanna farartækjum farartækjunum
+70	3070	sess	sessa sessana sessanna sessar sessarnir sessi sessinn sessins sessinum sessum sessunum
+71	3071	edda	eddan eddanna eddna eddnanna eddu eddum edduna eddunnar eddunni eddunum eddur eddurnar
+72	3072	lesandi	lesanda lesandann lesandans lesandanum lesandinn lesenda lesendanna lesendum lesendunum lesendur lesendurna lesendurnir
+73	3073	ljómandi	
+74	3074	snorri	
+75	3075	fantur	fant fanta fantana fantanna fantar fantarnir fanti fantinn fantinum fants fantsins fanturinn föntum föntunum
+76	3076	gylfi	gylfa gylfana gylfann gylfanna gylfans gylfanum gylfar gylfarnir gylfinn gylfum gylfunum
+77	3077	fang	fanga fanganna fangi fanginu fangið fangs fangsins föng föngin föngum föngunum
+78	3078	gamaldags	
+79	3079	bruni	bruna brunana brunann brunanna brunans brunanum brunar brunarnir bruninn brunum brununum
+80	3080	staðfesting	staðfestinga staðfestinganna staðfestingar staðfestingarinnar staðfestingarnar staðfestingin staðfestingu staðfestingum staðfestinguna staðfestingunni staðfestingunum
+81	3081	tvöfalt	
+82	3082	hræðilega	
+83	3083	ákaflega	
+84	3084	tíkarsonur	tíkarson tíkarsona tíkarsonanna tíkarsonar tíkarsonarins tíkarsoninn tíkarsonum tíkarsonunum tíkarsonurinn tíkarsyni tíkarsynina tíkarsyninum tíkarsynir tíkarsynirnir
+85	3085	krúna	krúnan krúnanna krúnu krúnum krúnuna krúnunnar krúnunni krúnunum krúnur krúnurnar
+86	3086	ferja	ferjan ferjandi ferjanna ferjar ferjast ferjað ferjaða ferjaðan ferjaðar ferjaði ferjaðir ferjaðist ferjaðra ferjaðrar ferjaðri ferjaðs ferjaðu ferjaður ferji ferjir ferjist ferjið ferju ferjum ferjumst ferjuna ferjunnar ferjunni ferjunum ferjur ferjurnar ferjuð ferjuðu ferjuðum ferjuðumst ferjuðust ferjuðuð
+87	3087	breytilegur	breytileg breytilega breytilegan breytilegar breytilegast breytilegasta breytilegastan breytilegastar breytilegasti breytilegastir breytilegastra breytilegastrar breytilegastri breytilegasts breytilegastur breytilegi breytilegir breytilegra breytilegrar breytilegri breytilegs breytilegt breytilegu breytilegum breytilegust breytilegustu breytilegustum
+88	3088	sjónarhorn	sjónarhorna sjónarhornanna sjónarhorni sjónarhornin sjónarhorninu sjónarhornið sjónarhorns sjónarhornsins sjónarhornum sjónarhornunum
+89	3089	vegu	
+90	3090	ungmenni	ungmenna ungmennanna ungmennin ungmenninu ungmennis ungmennisins ungmennið ungmennum ungmennunum
+91	3091	afrek	afreka afrekanna afreki afrekin afrekinu afrekið afreks afreksins afrekum afrekunum
+92	3092	misskilja	misskil misskilda misskildar misskildi misskildir misskildist misskildu misskildum misskildumst misskildust misskilduð misskilin misskilinn misskilinna misskilinnar misskilinni misskilins misskilist misskilið misskiljandi misskiljast misskilji misskiljir misskiljist misskiljið misskiljum misskiljumst misskilst misskilur
+93	3093	tilvera	tilveran tilveru tilveruna tilverunnar tilverunni
+94	3094	forvitinn	forvitin forvitinna forvitinnar forvitinni forvitins forvitið forvitna forvitnar forvitnara forvitnari forvitnast forvitnasta forvitnastan forvitnastar forvitnasti forvitnastir forvitnastra forvitnastrar forvitnastri forvitnasts forvitnastur forvitnaðist forvitni forvitnir forvitnu forvitnum forvitnust forvitnustu forvitnustum
+95	3095	birna	birnan birnanna birnu birnum birnuna birnunnar birnunni birnunum birnur birnurnar
+96	3096	hagnaður	hagnað hagnaðar hagnaðarins hagnaði hagnaðinn hagnaðinum hagnaðnum hagnaðurinn
+97	3097	sendiherra	sendiherrana sendiherrann sendiherranna sendiherrans sendiherranum sendiherrar sendiherrarnir sendiherrum sendiherrunum
+98	3098	vestra	
+99	3099	orsaka	orsakandi orsakar orsakast orsakað orsakaða orsakaðan orsakaðar orsakaði orsakaðir orsakaðist orsakaðra orsakaðrar orsakaðri orsakaðs orsakaðu orsakaður orsaki orsakir orsakist orsakið orsökum orsökumst orsökuð orsökuðu orsökuðum orsökuðumst orsökuðust orsökuðuð
+100	3100	ál	áli álinu álið áls álsins

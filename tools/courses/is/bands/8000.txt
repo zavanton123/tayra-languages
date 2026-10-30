@@ -1,0 +1,100 @@
+1	7901	lokapróf	lokaprófa lokaprófanna lokaprófi lokaprófin lokaprófinu lokaprófið lokaprófs lokaprófsins lokaprófum lokaprófunum
+2	7902	birtingarmynd	birtingarmynda birtingarmyndanna birtingarmyndar birtingarmyndarinnar birtingarmyndin birtingarmyndina birtingarmyndinni birtingarmyndir birtingarmyndirnar birtingarmyndum birtingarmyndunum
+3	7903	skolli	skolla skollana skollann skollanna skollans skollanum skollar skollarnir skollinn skollum skollunum
+4	7904	merkilega	merkilegar merkilegast
+5	7905	svínakjöt	svínakjöti svínakjötinu svínakjötið svínakjöts svínakjötsins
+6	7906	vitja	vitjandi vitjar vitjast vitjað vitjaða vitjaðan vitjaðar vitjaði vitjaðir vitjaðist vitjaðra vitjaðrar vitjaðri vitjaðs vitjaðu vitjaður vitji vitjir vitjist vitjið vitjum vitjumst vitjuð vitjuðu vitjuðum vitjuðumst vitjuðust vitjuðuð
+7	7907	útgöngubann	útgöngubanni útgöngubanninu útgöngubannið útgöngubanns útgöngubannsins
+8	7908	fjarnám	fjarnámi fjarnáminu fjarnámið fjarnáms fjarnámsins
+9	7909	veigamikill	veigameira veigameiri veigamest veigamesta veigamestan veigamestar veigamesti veigamestir veigamestra veigamestrar veigamestri veigamests veigamestu veigamestum veigamestur veigamikil veigamikilla veigamikillar veigamikilli veigamikils veigamikinn veigamikið veigamikla veigamiklar veigamikli veigamiklir veigamiklu veigamiklum
+10	7910	neðansjávar	
+11	7911	sprengjuárás	sprengjuárása sprengjuárásanna sprengjuárásar sprengjuárásarinnar sprengjuárásin sprengjuárásina sprengjuárásinni sprengjuárásir sprengjuárásirnar sprengjuárásum sprengjuárásunum
+12	7912	ómak	ómaki ómakinu ómakið ómaks ómaksins
+13	7913	gamalmenni	gamalmenna gamalmennanna gamalmennin gamalmenninu gamalmennis gamalmennisins gamalmennið gamalmennum gamalmennunum
+14	7914	fantasía	fantasían fantasíanna fantasíu fantasíum fantasíuna fantasíunnar fantasíunni fantasíunum fantasíur fantasíurnar
+15	7915	bygg	byggi bygginu byggið byggs byggsins
+16	7916	þjóðlag	þjóðlaga þjóðlaganna þjóðlagi þjóðlaginu þjóðlagið þjóðlags þjóðlagsins þjóðlög þjóðlögin þjóðlögum þjóðlögunum
+17	7917	kaffisopi	kaffisopa kaffisopana kaffisopann kaffisopanna kaffisopans kaffisopanum kaffisopar kaffisoparnir kaffisopinn kaffisopum kaffisopunum
+18	7918	veraldarvefur	veraldarvef veraldarvefinn veraldarvefjar veraldarvefjarins veraldarvefnum veraldarvefurinn
+19	7919	niðurskurður	niðurskurð niðurskurðar niðurskurðarins niðurskurði niðurskurðinn niðurskurðinum niðurskurðurinn
+20	7920	hjúskapur	hjúskap hjúskapar hjúskaparins hjúskapinn hjúskapnum hjúskapurinn
+21	7921	sóló	sólóa sólóana sólóanna sólóar sólóarinnar sólóarnir sólói sólóin sólóinn sólóinu sólóinum sólóir sólóirnar sólóið sólóna sólónni sólónum sólós sólósins sólóum sólóunum
+22	7922	ákafi	ákafa ákafann ákafans ákafanum ákafinn
+23	7923	kálfi	kálfa kálfana kálfann kálfanna kálfans kálfanum kálfar kálfarnir kálfinn kálfum kálfunum
+24	7924	heilræði	heilræða heilræðanna heilræðin heilræðinu heilræðis heilræðisins heilræðið heilræðum heilræðunum
+25	7925	tímafrekur	tímafrek tímafreka tímafrekan tímafrekar tímafrekara tímafrekari tímafrekast tímafrekasta tímafrekastan tímafrekastar tímafrekasti tímafrekastir tímafrekastra tímafrekastrar tímafrekastri tímafrekasts tímafrekastur tímafreki tímafrekir tímafrekra tímafrekrar tímafrekri tímafreks tímafrekt tímafreku tímafrekum tímafrekust tímafrekustu tímafrekustum
+26	7926	ókurteis	ókurteisa ókurteisan ókurteisar ókurteisara ókurteisari ókurteisast ókurteisasta ókurteisastan ókurteisastar ókurteisasti ókurteisastir ókurteisastra ókurteisastrar ókurteisastri ókurteisasts ókurteisastur ókurteisi ókurteisir ókurteisra ókurteisrar ókurteisri ókurteiss ókurteist ókurteisu ókurteisum ókurteisust ókurteisustu ókurteisustum
+27	7927	rok	roka rokanna roki rokin rokinu rokið roks roksins rokum rokunum
+28	7928	miðaldra	
+29	7929	skriflegur	skrifleg skriflega skriflegan skriflegar skriflegast skriflegasta skriflegastan skriflegastar skriflegasti skriflegastir skriflegastra skriflegastrar skriflegastri skriflegasts skriflegastur skriflegi skriflegir skriflegra skriflegrar skriflegri skriflegs skriflegt skriflegu skriflegum skriflegust skriflegustu skriflegustum
+30	7930	hjákona	hjákonan hjákonu hjákonum hjákonuna hjákonunnar hjákonunni hjákonunum hjákonur hjákonurnar hjákvenna hjákvennanna
+31	7931	ávalur	ávala ávalan ávalar ávalara ávalari ávalast ávalasta ávalastan ávalastar ávalasti ávalastir ávalastra ávalastrar ávalastri ávalasts ávalastur ávali ávalir ávalra ávalrar ávalri ávals ávalt ávöl ávölu ávölum ávölust ávölustu ávölustum
+32	7932	ráðuneytisstjóri	ráðuneytisstjóra ráðuneytisstjórana ráðuneytisstjórann ráðuneytisstjóranna ráðuneytisstjórans ráðuneytisstjóranum ráðuneytisstjórar ráðuneytisstjórarnir ráðuneytisstjórinn ráðuneytisstjórum ráðuneytisstjórunum
+33	7933	óbærilegur	óbærileg óbærilega óbærilegan óbærilegar óbærilegast óbærilegasta óbærilegastan óbærilegastar óbærilegasti óbærilegastir óbærilegastra óbærilegastrar óbærilegastri óbærilegasts óbærilegastur óbærilegi óbærilegir óbærilegra óbærilegrar óbærilegri óbærilegs óbærilegt óbærilegu óbærilegum óbærilegust óbærilegustu óbærilegustum
+34	7934	bændasamtök	bændasamtaka bændasamtakanna bændasamtökin bændasamtökum bændasamtökunum
+35	7935	blöndun	blöndunar blöndunarinnar blöndunin blöndunina blönduninni
+36	7936	næturlag	næturlagi
+37	7937	bjánalegur	bjánaleg bjánalega bjánalegan bjánalegar bjánalegast bjánalegasta bjánalegastan bjánalegastar bjánalegasti bjánalegastir bjánalegastra bjánalegastrar bjánalegastri bjánalegasts bjánalegastur bjánalegi bjánalegir bjánalegra bjánalegrar bjánalegri bjánalegs bjánalegt bjánalegu bjánalegum bjánalegust bjánalegustu bjánalegustum
+38	7938	femínismi	femínisma femínismann femínismans femínismanum femínisminn
+39	7939	skemmtikraftur	skemmtikraft skemmtikrafta skemmtikraftana skemmtikraftanna skemmtikraftar skemmtikraftarnir skemmtikrafti skemmtikraftinn skemmtikraftinum skemmtikrafts skemmtikraftsins skemmtikrafturinn skemmtikröftum skemmtikröftunum
+40	7940	byggðarlag	byggðarlaga byggðarlaganna byggðarlagi byggðarlaginu byggðarlagið byggðarlags byggðarlagsins byggðarlög byggðarlögin byggðarlögum byggðarlögunum
+41	7941	misjafnlega	
+42	7942	rist	rista ristanna ristar ristarinnar ristarnar ristin ristina ristinni ristir ristum ristunum
+43	7943	ota	otandi otar otast otað otaða otaðan otaðar otaði otaðir otaðist otaðra otaðrar otaðri otaðs otaðu otaður oti otir otist otið otum otumst otuð otuðu otuðum otuðumst otuðust otuðuð
+44	7944	fornöld	fornaldar fornaldarinnar fornöldin fornöldina fornöldinni
+45	7945	fréttnæmur	fréttnæm fréttnæma fréttnæman fréttnæmar fréttnæmara fréttnæmari fréttnæmast fréttnæmasta fréttnæmastan fréttnæmastar fréttnæmasti fréttnæmastir fréttnæmastra fréttnæmastrar fréttnæmastri fréttnæmasts fréttnæmastur fréttnæmi fréttnæmir fréttnæmra fréttnæmrar fréttnæmri fréttnæms fréttnæmt fréttnæmu fréttnæmum fréttnæmust fréttnæmustu fréttnæmustum
+46	7946	aðstoðarþjálfari	aðstoðarþjálfara aðstoðarþjálfarana aðstoðarþjálfarann aðstoðarþjálfaranna aðstoðarþjálfarans aðstoðarþjálfaranum aðstoðarþjálfarar aðstoðarþjálfararnir aðstoðarþjálfarinn aðstoðarþjálfurum aðstoðarþjálfurunum
+47	7947	kleyfur	kleyf kleyfa kleyfan kleyfar kleyfara kleyfari kleyfast kleyfasta kleyfastan kleyfastar kleyfasti kleyfastir kleyfastra kleyfastrar kleyfastri kleyfasts kleyfastur kleyfi kleyfir kleyfra kleyfrar kleyfri kleyfs kleyft kleyfu kleyfum kleyfust kleyfustu kleyfustum
+48	7948	undirleikur	undirleik undirleikinn undirleiknum undirleiks undirleiksins undirleikurinn
+49	7949	steinhalda	steinhaldandi steinhaldi steinhaldin steinhaldinn steinhaldinna steinhaldinnar steinhaldinni steinhaldins steinhaldir steinhaldið steinhaldna steinhaldnar steinhaldni steinhaldnir steinhaltu steinheld steinheldur steinhéldi steinhéldir steinhéldu steinhéldum steinhélduð steinhélst steinhélt steinhöldnu steinhöldnum steinhöldum
+50	7950	ólifaður	ólifað ólifaða ólifaðan ólifaðar ólifaði ólifaðir ólifaðra ólifaðrar ólifaðri ólifaðs ólifuð ólifuðu ólifuðum
+51	7951	skyldustarf	skyldustarfa skyldustarfanna skyldustarfi skyldustarfinu skyldustarfið skyldustarfs skyldustarfsins skyldustörf skyldustörfin skyldustörfum skyldustörfunum
+52	7952	leikstjórnandi	leikstjórnanda leikstjórnandann leikstjórnandans leikstjórnandanum leikstjórnandinn leikstjórnenda leikstjórnendanna leikstjórnendum leikstjórnendunum leikstjórnendur leikstjórnendurna leikstjórnendurnir
+53	7953	allsgáður	allsgáð allsgáða allsgáðan allsgáðar allsgáðara allsgáðari allsgáðast allsgáðasta allsgáðastan allsgáðastar allsgáðasti allsgáðastir allsgáðastra allsgáðastrar allsgáðastri allsgáðasts allsgáðastur allsgáði allsgáðir allsgáðra allsgáðrar allsgáðri allsgáðs allsgáðu allsgáðum allsgáðust allsgáðustu allsgáðustum
+54	7954	öfundsjúkur	öfundsjúk öfundsjúka öfundsjúkan öfundsjúkar öfundsjúkara öfundsjúkari öfundsjúkast öfundsjúkasta öfundsjúkastan öfundsjúkastar öfundsjúkasti öfundsjúkastir öfundsjúkastra öfundsjúkastrar öfundsjúkastri öfundsjúkasts öfundsjúkastur öfundsjúki öfundsjúkir öfundsjúkra öfundsjúkrar öfundsjúkri öfundsjúks öfundsjúkt öfundsjúku öfundsjúkum öfundsjúkust öfundsjúkustu öfundsjúkustum
+55	7955	varalið	varaliða varaliðanna varaliði varaliðin varaliðinu varaliðið varaliðs varaliðsins varaliðum varaliðunum
+56	7956	ráðagerð	ráðagerða ráðagerðanna ráðagerðar ráðagerðarinnar ráðagerðin ráðagerðina ráðagerðinni ráðagerðir ráðagerðirnar ráðagerðum ráðagerðunum
+57	7957	klámmynd	klámmynda klámmyndanna klámmyndar klámmyndarinnar klámmyndin klámmyndina klámmyndinni klámmyndir klámmyndirnar klámmyndum klámmyndunum
+58	7958	póstkassi	póstkassa póstkassana póstkassann póstkassanna póstkassans póstkassanum póstkassar póstkassarnir póstkassinn póstkössum póstkössunum
+59	7959	dráttarbíll	dráttarbíl dráttarbíla dráttarbílana dráttarbílanna dráttarbílar dráttarbílarnir dráttarbílinn dráttarbíllinn dráttarbílnum dráttarbíls dráttarbílsins dráttarbílum dráttarbílunum
+60	7960	innbrotsþjófur	innbrotsþjóf innbrotsþjófa innbrotsþjófana innbrotsþjófanna innbrotsþjófar innbrotsþjófarnir innbrotsþjófi innbrotsþjófinn innbrotsþjófnum innbrotsþjófs innbrotsþjófsins innbrotsþjófum innbrotsþjófunum innbrotsþjófurinn
+61	7961	dauðadæmdur	dauðadæmd dauðadæmda dauðadæmdan dauðadæmdar dauðadæmdi dauðadæmdir dauðadæmdra dauðadæmdrar dauðadæmdri dauðadæmds dauðadæmdu dauðadæmdum dauðadæmt
+62	7962	fangelsisstjóri	fangelsisstjóra fangelsisstjórana fangelsisstjórann fangelsisstjóranna fangelsisstjórans fangelsisstjóranum fangelsisstjórar fangelsisstjórarnir fangelsisstjórinn fangelsisstjórum fangelsisstjórunum
+63	7963	meðtaka	meðtakandi meðtakast meðtaki meðtakir meðtakist meðtakið meðtakstu meðtaktu meðtek meðtekin meðtekinn meðtekinna meðtekinnar meðtekinni meðtekins meðtekist meðtekið meðtekna meðteknar meðtekni meðteknir meðteknu meðteknum meðtekst meðtekur meðtæki meðtækir meðtækist meðtækju meðtækjum meðtækjumst meðtækjust meðtækjuð meðtók meðtókst meðtóku meðtókum meðtókumst meðtókust meðtókuð meðtökum meðtökumst
+64	7964	króm	krómi króminu krómið króms krómsins
+65	7965	kirsuber	kirsuberi kirsuberin kirsuberinu kirsuberið kirsuberja kirsuberjanna kirsuberjum kirsuberjunum kirsubers kirsubersins
+66	7966	ofsækja	ofsæki ofsækir ofsækirðu ofsækið ofsækjandi ofsækjum ofsækti ofsæktir ofsæktu ofsæktum ofsæktuð ofsótt ofsótta ofsóttan ofsóttar ofsótti ofsóttir ofsóttra ofsóttrar ofsóttri ofsótts ofsóttu ofsóttum ofsóttur ofsóttuð
+67	7967	halastjarna	halastjarnan halastjarnanna halastjörnu halastjörnum halastjörnuna halastjörnunnar halastjörnunni halastjörnunum halastjörnur halastjörnurnar
+68	7968	barnshafandi	
+69	7969	endurræsa	endurræsandi endurræsi endurræsir endurræsið endurræst endurræsta endurræstan endurræstar endurræsti endurræstir endurræstra endurræstrar endurræstri endurræsts endurræstu endurræstum endurræstur endurræstuð endurræsum
+70	7970	kvittur	kvitt kvitta kvittan kvittanna kvittar kvittara kvittari kvittast kvittasta kvittastan kvittastar kvittasti kvittastir kvittastra kvittastrar kvittastri kvittasts kvittastur kvitti kvittina kvittinn kvittinum kvittir kvittirnir kvittra kvittrar kvittri kvitts kvittsins kvittu kvittum kvittunum kvitturinn kvittust kvittustu kvittustum
+71	7971	títan	títani títaninu títanið títans títansins
+72	7972	dráttarvél	dráttarvéla dráttarvélanna dráttarvélar dráttarvélarinnar dráttarvélarnar dráttarvélin dráttarvélina dráttarvélinni dráttarvélum dráttarvélunum
+73	7973	læsing	læsinga læsinganna læsingar læsingarinnar læsingarnar læsingin læsingu læsingum læsinguna læsingunni læsingunum
+74	7974	ungabarn	ungabarna ungabarnanna ungabarni ungabarninu ungabarnið ungabarns ungabarnsins ungabörn ungabörnin ungabörnum ungabörnunum
+75	7975	guggna	guggnandi guggnar guggnarðu guggnað guggnaða guggnaðan guggnaðar guggnaði guggnaðir guggnaðirðu guggnaðra guggnaðrar guggnaðri guggnaðs guggnaðu guggnaður guggni guggnir guggnið guggnum guggnuð guggnuðu guggnuðum guggnuðuð
+76	7976	ógerður	ógert ógerð ógerða ógerðan ógerðar ógerði ógerðir ógerðra ógerðrar ógerðri ógerðs ógerðu ógerðum
+77	7977	ölvaður	ölvað ölvaða ölvaðan ölvaðar ölvaðast ölvaðasta ölvaðastan ölvaðastar ölvaðasti ölvaðastir ölvaðastra ölvaðastrar ölvaðastri ölvaðasts ölvaðastur ölvaði ölvaðir ölvaðra ölvaðrar ölvaðri ölvaðs ölvuð ölvuðu ölvuðum ölvuðust ölvuðustu ölvuðustum
+78	7978	samansafn	samansafni samansafninu samansafnið samansafns samansafnsins
+79	7979	naumlega	
+80	7980	smellur	smell smella smellanna smelli smellina smellinn smellinum smellir smellirnir smells smellsins smellum smellunum smellurinn
+81	7981	einkafyrirtæki	einkafyrirtækin einkafyrirtækinu einkafyrirtækis einkafyrirtækisins einkafyrirtækið einkafyrirtækja einkafyrirtækjanna einkafyrirtækjum einkafyrirtækjunum
+82	7982	gegnt	
+83	7983	ofsalega	
+84	7984	nekt	nektar nektarinnar nektin nektina nektinni
+85	7985	áhangandi	áhanganda áhangandann áhangandans áhangandanum áhangandinn áhangenda áhangendanna áhangendum áhangendunum áhangendur áhangendurna áhangendurnir
+86	7986	mótfallinn	mótfallin mótfallinna mótfallinnar mótfallinni mótfallins mótfallið mótfallna mótfallnar mótfallnara mótfallnari mótfallnast mótfallnasta mótfallnastan mótfallnastar mótfallnasti mótfallnastir mótfallnastra mótfallnastrar mótfallnastri mótfallnasts mótfallnastur mótfallni mótfallnir mótföllnu mótföllnum mótföllnust mótföllnustu mótföllnustum
+87	7987	frístund	frístunda frístundanna frístundar frístundarinnar frístundin frístundina frístundinni frístundir frístundirnar frístundum frístundunum
+88	7988	fyrirbrigði	fyrirbrigða fyrirbrigðanna fyrirbrigðin fyrirbrigðinu fyrirbrigðis fyrirbrigðisins fyrirbrigðið fyrirbrigðum fyrirbrigðunum
+89	7989	niðurleið	niðurleiðar niðurleiðarinnar niðurleiðin niðurleiðina niðurleiðinni
+90	7990	líkamshluti	líkamshluta líkamshlutana líkamshlutann líkamshlutanna líkamshlutans líkamshlutanum líkamshlutar líkamshlutarnir líkamshlutinn líkamshlutum líkamshlutunum
+91	7991	tónleikaferð	tónleikaferða tónleikaferðanna tónleikaferðar tónleikaferðarinnar tónleikaferðin tónleikaferðina tónleikaferðinni tónleikaferðir tónleikaferðirnar tónleikaferðum tónleikaferðunum
+92	7992	fölsun	falsana falsananna falsanir falsanirnar fölsunar fölsunarinnar fölsunin fölsunina fölsuninni fölsunum fölsununum
+93	7993	boðorð	boðorða boðorðanna boðorði boðorðin boðorðinu boðorðið boðorðs boðorðsins boðorðum boðorðunum
+94	7994	tómarúm	tómarúmi tómarúminu tómarúmið tómarúms tómarúmsins
+95	7995	sjávarfang	sjávarfanga sjávarfanganna sjávarfangi sjávarfanginu sjávarfangið sjávarfangs sjávarfangsins sjávarföng sjávarföngin sjávarföngum sjávarföngunum
+96	7996	siðgæði	siðgæðinu siðgæðis siðgæðisins siðgæðið
+97	7997	jógúrt	jógúrta jógúrtanna jógúrtar jógúrtarinnar jógúrti jógúrtin jógúrtina jógúrtinni jógúrtinu jógúrtir jógúrtirnar jógúrtið jógúrts jógúrtsins jógúrtum jógúrtunum
+98	7998	ósamræmi	ósamræminu ósamræmis ósamræmisins ósamræmið
+99	7999	reddast	reddaðist reddist reddumst redduðumst redduðust
+100	8000	narta	nartandi nartar nartast nartað nartaða nartaðan nartaðar nartaði nartaðir nartaðist nartaðra nartaðrar nartaðri nartaðs nartaðu nartaður narti nartir nartist nartið nörtum nörtumst nörtuð nörtuðu nörtuðum nörtuðumst nörtuðust nörtuðuð

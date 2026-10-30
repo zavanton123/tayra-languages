@@ -1,0 +1,100 @@
+1	2201	talsverður	talsvert talsverð talsverða talsverðan talsverðar talsverði talsverðir talsverðra talsverðrar talsverðri talsverðs talsverðu talsverðum
+2	2202	skólastjóri	skólastjóra skólastjórana skólastjórann skólastjóranna skólastjórans skólastjóranum skólastjórar skólastjórarnir skólastjórinn skólastjórum skólastjórunum
+3	2203	uppreisn	uppreisna uppreisnanna uppreisnar uppreisnarinnar uppreisnin uppreisnina uppreisninni uppreisnir uppreisnirnar uppreisnum uppreisnunum
+4	2204	beittur	beitt beitta beittan beittar beittara beittari beittast beittasta beittastan beittastar beittasti beittastir beittastra beittastrar beittastri beittasts beittastur beitti beittir beittra beittrar beittri beitts beittu beittum beittust beittustu beittustum
+5	2205	framför	framfara framfaranna framfarar framfararinnar framfarir framfarirnar framförin framförina framförinni framförum framförunum
+6	2206	fletta	flest flett flettan flettandi flettar flettast fletti flettir flettirðu flettist flettið flettna flettnanna flettra flettrar flettri fletts flettu flettum flettumst flettuna flettunnar flettunni flettunum flettur fletturnar flettust flettuð
+7	2207	málverk	málverka málverkanna málverki málverkin málverkinu málverkið málverks málverksins málverkum málverkunum
+8	2208	skyrta	skyrtan skyrtanna skyrtna skyrtnanna skyrtu skyrtum skyrtuna skyrtunnar skyrtunni skyrtunum skyrtur skyrturnar
+9	2209	búnaður	búnað búnaðar búnaðarins búnaði búnaðinn búnaðinum búnaðnum búnaðurinn
+10	2210	liðsforingi	liðsforinginn liðsforingja liðsforingjana liðsforingjann liðsforingjanna liðsforingjans liðsforingjanum liðsforingjar liðsforingjarnir liðsforingjum liðsforingjunum
+11	2211	annaðhvort	
+12	2212	flaug	flauga flauganna flaugar flaugarinnar flaugarnar flaugin flaugina flauginni flaugum flaugunum
+13	2213	taug	tauga tauganna taugar taugarinnar taugarnar taugin taugina tauginni taugum taugunum
+14	2214	blautur	blaut blauta blautan blautar blautara blautari blautast blautasta blautastan blautastar blautasti blautastir blautastra blautastrar blautastri blautasts blautastur blauti blautir blautra blautrar blautri blauts blautt blautu blautum blautust blautustu blautustum
+15	2215	gildra	gildran gildranna gildru gildrum gildruna gildrunnar gildrunni gildrunum gildrur gildrurnar
+16	2216	gríðarlegur	gríðarleg gríðarlega gríðarlegan gríðarlegar gríðarlegast gríðarlegasta gríðarlegastan gríðarlegastar gríðarlegasti gríðarlegastir gríðarlegastra gríðarlegastrar gríðarlegastri gríðarlegasts gríðarlegastur gríðarlegi gríðarlegir gríðarlegra gríðarlegrar gríðarlegri gríðarlegs gríðarlegt gríðarlegu gríðarlegum gríðarlegust gríðarlegustu gríðarlegustum
+17	2217	bolur	bol bola bolanna boli bolina bolinn bolir bolirnir bolnum bols bolsins bolum bolunum bolurinn
+18	2218	blekkja	blekki blekkir blekkirðu blekkist blekkið blekkjandi blekkjast blekkjum blekkjumst blekkst blekkt blekkta blekktan blekktar blekkti blekktir blekktirðu blekktist blekktra blekktrar blekktri blekkts blekktu blekktum blekktumst blekktur blekktust blekktuð
+19	2219	merkja	merki merkir merkist merkið merkjandi merkjast merkjum merkjumst merkst merkt merkta merktan merktar merkti merktir merktirðu merktist merktra merktrar merktri merkts merktu merktum merktumst merktur merktust merktuð
+20	2220	mögulega	mögulegar mögulegast
+21	2221	einkunn	einkunna einkunnanna einkunnar einkunnarinnar einkunnin einkunnina einkunninni einkunnir einkunnirnar einkunnum einkunnunum
+22	2222	loforð	loforða loforðanna loforði loforðin loforðinu loforðið loforðs loforðsins loforðum loforðunum
+23	2223	hvolpur	hvolp hvolpa hvolpana hvolpanna hvolpar hvolparnir hvolpi hvolpinn hvolpinum hvolpnum hvolps hvolpsins hvolpum hvolpunum hvolpurinn
+24	2224	ábyrgur	ábyrg ábyrga ábyrgan ábyrgar ábyrgara ábyrgari ábyrgast ábyrgasta ábyrgastan ábyrgastar ábyrgasti ábyrgastir ábyrgastra ábyrgastrar ábyrgastri ábyrgasts ábyrgastur ábyrgi ábyrgir ábyrgra ábyrgrar ábyrgri ábyrgs ábyrgt ábyrgu ábyrgum ábyrgust ábyrgustu ábyrgustum
+25	2225	raða	raðandi raðar raðast raðað raðaða raðaðan raðaðar raðaði raðaðir raðaðist raðaðra raðaðrar raðaðri raðaðs raðaðu raðaður raði raðir raðist raðið röðum röðumst röðuð röðuðu röðuðum röðuðumst röðuðust röðuðuð
+26	2226	belti	belta beltanna beltin beltinu beltis beltisins beltið beltum beltunum
+27	2227	vafi	vafa vafann vafans vafanum vafinn
+28	2228	tillit	tilliti tillitinu tillitið tillits tillitsins
+29	2229	fræðimaður	fræðimann fræðimanna fræðimannanna fræðimanni fræðimanninn fræðimanninum fræðimanns fræðimannsins fræðimaðurinn fræðimenn fræðimennina fræðimennirnir fræðimönnum fræðimönnunum
+30	2230	fórna	fórnandi fórnar fórnast fórnað fórnaða fórnaðan fórnaðar fórnaði fórnaðir fórnaðirðu fórnaðist fórnaðra fórnaðrar fórnaðri fórnaðs fórnaðu fórnaður fórni fórnir fórnist fórnið fórnum fórnumst fórnuð fórnuðu fórnuðum fórnuðumst fórnuðust fórnuðuð
+31	2231	eitur	eitra eitranna eitri eitrin eitrinu eitrið eitrum eitrunum eiturs eitursins
+32	2232	æska	æskan æsku æskuna æskunnar æskunni
+33	2233	lífrænn	lífræn lífræna lífrænan lífrænar lífrænast lífrænasta lífrænastan lífrænastar lífrænasti lífrænastir lífrænastra lífrænastrar lífrænastri lífrænasts lífrænastur lífræni lífrænir lífrænna lífrænnar lífrænni lífræns lífrænt lífrænu lífrænum lífrænust lífrænustu lífrænustum
+34	2234	skaða	skaðandi skaðar skaðarðu skaðast skaðað skaðaða skaðaðan skaðaðar skaðaði skaðaðir skaðaðist skaðaðra skaðaðrar skaðaðri skaðaðs skaðaðu skaðaður skaði skaðir skaðist skaðið sköðum sköðumst sköðuð sköðuðu sköðuðum sköðuðumst sköðuðust sköðuðuð
+35	2235	venjast	vandist vandistu vanist vendist vendumst vendust venjist venjumst venst venstu vöndumst vöndust
+36	2236	heimspeki	heimspekin heimspekina heimspekinnar heimspekinni
+37	2237	æsa	æsandi æsast æsi æsir æsirðu æsist æsið æst æsta æstan æstar æsti æstir æstist æstra æstrar æstri æsts æstu æstum æstumst æstur æstust æstuð æsum æsumst
+38	2238	orrusta	orrustan orrustanna orrustna orrustnanna orrustu orrustum orrustuna orrustunnar orrustunni orrustunum orrustur orrusturnar
+39	2239	réttlæti	réttlætinu réttlætis réttlætisins réttlætið
+40	2240	skína	skein skeinst skini skinir skinið skinu skinum skinuð skín skínandi skíndu skíni skínir skínið skínum
+41	2241	hóra	hóran hóranna hóru hórum hóruna hórunnar hórunni hórunum hórur hórurnar
+42	2242	tónn	tón tóna tónana tónanna tónar tónarnir tóni tóninn tóninum tónninn tóns tónsins tónum tónunum
+43	2243	virði	virða virðanna virðin virðinu virðis virðisins virðið virðum virðunum
+44	2244	starfsfólk	starfsfólki starfsfólkinu starfsfólkið starfsfólks starfsfólksins
+45	2245	forstöðumaður	forstöðumann forstöðumanna forstöðumannanna forstöðumanni forstöðumanninn forstöðumanninum forstöðumanns forstöðumannsins forstöðumaðurinn forstöðumenn forstöðumennina forstöðumennirnir forstöðumönnum forstöðumönnunum
+46	2246	algerlega	
+47	2247	sígaretta	sígarettan sígarettanna sígarettna sígarettnanna sígarettu sígarettum sígarettuna sígarettunnar sígarettunni sígarettunum sígarettur sígaretturnar
+48	2248	steypa	steypan steypandi steypanna steypast steypi steypir steypist steypið steypna steypnanna steypst steypstu steypt steypta steyptan steyptar steypti steyptir steyptist steyptra steyptrar steyptri steypts steyptu steyptum steyptumst steyptur steyptust steyptuð steypu steypum steypumst steypuna steypunnar steypunni steypunum steypur steypurnar
+49	2249	flækja	flæki flækir flækist flækið flækjan flækjandi flækjanna flækjast flækju flækjum flækjumst flækjuna flækjunnar flækjunni flækjunum flækjur flækjurnar flækst flækt flækta flæktan flæktar flækti flæktir flæktirðu flæktist flæktra flæktrar flæktri flækts flæktu flæktum flæktumst flæktur flæktust flæktuð
+50	2250	ör	öra öran öranna örar örara örari örast örasta örastan örastar örasti örastir örastra örastrar örastri örasts örastur öri örin örina örinni örinu örir örið örra örrar örri örs örsins ört öru örum örunum örust örustu örustum örva örvanna örvar örvarinnar örvarnar örvum örvunum
+51	2251	námskeið	námskeiða námskeiðanna námskeiði námskeiðin námskeiðinu námskeiðið námskeiðs námskeiðsins námskeiðum námskeiðunum
+52	2252	fresta	frestandi frestar frestarðu frestast frestað frestaða frestaðan frestaðar frestaði frestaðir frestaðist frestaðra frestaðrar frestaðri frestaðs frestaðu frestaður fresti frestir frestist frestið frestum frestumst frestuð frestuðu frestuðum frestuðumst frestuðust frestuðuð
+53	2253	þrár	þrá þráa þráan þráar þráast þráasta þráastan þráastar þráasti þráastir þráastra þráastrar þráastri þráasts þráastur þrái þráir þrárra þrárrar þrárri þrás þráu þráum þráust þráustu þráustum
+54	2254	frjósa	fraus fraust fraustu frjósandi frjósi frjósir frjósirðu frjósið frjóstu frjósum frosin frosinn frosinna frosinnar frosinni frosins frosið frosna frosnar frosni frosnir frosnu frosnum frusu frusum frusuð frysi frysir frysirðu frysu frysum frysuð frýs frýsa frýst frýstu
+55	2255	alheimur	alheim alheimar alheimi alheiminn alheiminum alheims alheimsins alheimum alheimurinn
+56	2256	már	má máinn mánum márinn más másins máva mávana mávanna mávar mávarnir mávum mávunum
+57	2257	áfall	áfalla áfallanna áfalli áfallinu áfallið áfalls áfallsins áföll áföllin áföllum áföllunum
+58	2258	hugrekki	hugrekkin hugrekkina hugrekkinnar hugrekkinni hugrekkinu hugrekkis hugrekkisins hugrekkið
+59	2259	fækka	fækkandi fækkar fækkað fækkaði fækkaðir fækkaðu fækki fækkir fækkið fækkum fækkuðu fækkuðum fækkuðuð
+60	2260	klassískur	klassísk klassíska klassískan klassískar klassískara klassískari klassískast klassískasta klassískastan klassískastar klassískasti klassískastir klassískastra klassískastrar klassískastri klassískasts klassískastur klassíski klassískir klassískra klassískrar klassískri klassísks klassískt klassísku klassískum klassískust klassískustu klassískustum
+61	2261	áform	áforma áformanna áformi áformin áforminu áformið áforms áformsins áformum áformunum
+62	2262	skáldsaga	skáldsagan skáldsagna skáldsagnanna skáldsögu skáldsögum skáldsöguna skáldsögunnar skáldsögunni skáldsögunum skáldsögur skáldsögurnar
+63	2263	gin	gina ginanna gini ginin gininu ginið gins ginsins ginum ginunum
+64	2264	orða	orðan orðandi orðanna orðar orðarðu orðast orðað orðaða orðaðan orðaðar orðaði orðaðir orðaðirðu orðaðist orðaðra orðaðrar orðaðri orðaðs orðaðu orðaður orði orðir orðist orðið orðna orðnanna orðu orðum orðumst orðuna orðunnar orðunni orðunum orður orðurnar orðuð orðuðu orðuðum orðuðumst orðuðust orðuðuð
+65	2265	flótti	flótta flóttana flóttann flóttanna flóttans flóttanum flóttar flóttarnir flóttinn flóttum flóttunum
+66	2266	afla	aflandi aflar aflarðu aflast aflað aflaða aflaðan aflaðar aflaði aflaðir aflaðirðu aflaðist aflaðra aflaðrar aflaðri aflaðs aflaðu aflaður afli aflir aflirðu aflist aflið öflum öflumst öfluð öfluðu öfluðum öfluðumst öfluðust öfluðuð
+67	2267	létta	lést létt léttan léttandi léttar léttast létti léttir léttist léttið léttra léttrar léttri létts léttu léttum léttumst léttur léttust léttuð
+68	2268	em	ema emanna emi emin eminu emið ems emsins emum emunum
+69	2269	vandlega	vandlegar vandlegast
+70	2270	sprauta	sprautan sprautandi sprautar sprautarðu sprautast sprautað sprautaða sprautaðan sprautaðar sprautaði sprautaðir sprautaðirðu sprautaðist sprautaðra sprautaðrar sprautaðri sprautaðs sprautaðu sprautaður sprauti sprautir sprautist sprautið sprautna sprautnanna sprautu sprautum sprautumst sprautuna sprautunnar sprautunni sprautunum sprautur sprauturnar sprautuð sprautuðu sprautuðum sprautuðumst sprautuðust sprautuðuð
+71	2271	japanskur	japanska japanskan japanskar japanskara japanskari japanskast japanskasta japanskastan japanskastar japanskasti japanskastir japanskastra japanskastrar japanskastri japanskasts japanskastur japanski japanskir japanskra japanskrar japanskri japansks japanskt japönsk japönsku japönskum japönskust japönskustu japönskustum
+72	2272	rotta	rottan rottandi rottanna rottar rottast rottað rottaða rottaðan rottaðar rottaði rottaðir rottaðist rottaðra rottaðrar rottaðri rottaðs rottaðu rottaður rotti rottir rottist rottið rottna rottnanna rottu rottum rottumst rottuna rottunnar rottunni rottunum rottur rotturnar rottuð rottuðu rottuðum rottuðumst rottuðust rottuðuð
+73	2273	hraun	hrauna hraunanna hrauni hraunin hrauninu hraunið hrauns hraunsins hraunum hraununum
+74	2274	sáttmáli	sáttmála sáttmálana sáttmálann sáttmálanna sáttmálans sáttmálanum sáttmálar sáttmálarnir sáttmálinn sáttmálum sáttmálunum
+75	2275	grískur	grísk gríska grískan grískar grískara grískari grískast grískasta grískastan grískastar grískasti grískastir grískastra grískastrar grískastri grískasts grískastur gríski grískir grískra grískrar grískri grísks grískt grísku grískum grískust grískustu grískustum
+76	2276	orsök	orsaka orsakanna orsakar orsakarinnar orsakir orsakirnar orsökin orsökina orsökinni orsökum orsökunum
+77	2277	gildur	gild gilda gildan gildar gildara gildari gildast gildasta gildastan gildastar gildasti gildastir gildastra gildastrar gildastri gildasts gildastur gildi gildir gildra gildrar gildri gilds gildu gildum gildust gildustu gildustum gilt
+78	2278	hefna	hefnandi hefnast hefndi hefndir hefndist hefndu hefndum hefnduð hefni hefnir hefnist hefnið hefnst hefnt hefnum
+79	2279	fjármagna	fjármagnandi fjármagnar fjármagnast fjármagnað fjármagnaða fjármagnaðan fjármagnaðar fjármagnaði fjármagnaðir fjármagnaðist fjármagnaðra fjármagnaðrar fjármagnaðri fjármagnaðs fjármagnaðu fjármagnaður fjármagni fjármagnir fjármagnist fjármagnið fjármögnum fjármögnumst fjármögnuð fjármögnuðu fjármögnuðum fjármögnuðumst fjármögnuðust fjármögnuðuð
+80	2280	grimmur	grimm grimma grimman grimmar grimmara grimmari grimmast grimmasta grimmastan grimmastar grimmasti grimmastir grimmastra grimmastrar grimmastri grimmasts grimmastur grimmi grimmir grimmra grimmrar grimmri grimms grimmt grimmu grimmum grimmust grimmustu grimmustum
+81	2281	félagsskapur	félagsskap félagsskapar félagsskaparins félagsskapinn félagsskapnum félagsskapurinn
+82	2282	geggjaður	geggjað geggjaða geggjaðan geggjaðar geggjaðast geggjaðasta geggjaðastan geggjaðastar geggjaðasti geggjaðastir geggjaðastra geggjaðastrar geggjaðastri geggjaðasts geggjaðastur geggjaði geggjaðir geggjaðra geggjaðrar geggjaðri geggjaðs geggjuð geggjuðu geggjuðum geggjuðust geggjuðustu geggjuðustum
+83	2283	kastali	kastala kastalana kastalann kastalanna kastalans kastalanum kastalar kastalarnir kastalinn kastölum kastölunum köstulum köstulunum
+84	2284	samræma	samræmandi samræmast samræmd samræmda samræmdan samræmdar samræmdi samræmdir samræmdist samræmdra samræmdrar samræmdri samræmds samræmdu samræmdum samræmdumst samræmdur samræmdust samræmduð samræmi samræmir samræmist samræmið samræmst samræmt samræmum samræmumst
+85	2285	sveifla	sveiflan sveiflandi sveiflanna sveiflar sveiflast sveiflastu sveiflað sveiflaða sveiflaðan sveiflaðar sveiflaði sveiflaðir sveiflaðist sveiflaðra sveiflaðrar sveiflaðri sveiflaðs sveiflaðu sveiflaður sveifli sveiflir sveiflist sveiflið sveiflna sveiflnanna sveiflu sveiflum sveiflumst sveifluna sveiflunnar sveiflunni sveiflunum sveiflur sveiflurnar sveifluð sveifluðu sveifluðum sveifluðumst sveifluðust sveifluðuð
+86	2286	kartafla	kartaflan kartaflanna kartaflna kartaflnanna kartöflu kartöflum kartöfluna kartöflunnar kartöflunni kartöflunum kartöflur kartöflurnar
+87	2287	sjöundi	sjöunda sjöundu
+88	2288	skynja	skynjandi skynjar skynjarðu skynjast skynjað skynjaða skynjaðan skynjaðar skynjaði skynjaðir skynjaðist skynjaðra skynjaðrar skynjaðri skynjaðs skynjaðu skynjaður skynji skynjir skynjist skynjið skynjum skynjumst skynjuð skynjuðu skynjuðum skynjuðumst skynjuðust skynjuðuð
+89	2289	hrista	hrist hristan hristandi hristar hristi hristir hristirðu hristið hristra hristrar hristri hrists hristu hristum hristur hristuð
+90	2290	virtur	virt virta virtan virtar virtara virtari virtast virtasta virtastan virtastar virtasti virtastir virtastra virtastrar virtastri virtasts virtastur virti virtir virtra virtrar virtri virts virtu virtum virtust virtustu virtustum
+91	2291	hjálmur	hjálm hjálma hjálmana hjálmanna hjálmar hjálmarnir hjálmi hjálminn hjálminum hjálms hjálmsins hjálmum hjálmunum hjálmurinn
+92	2292	frost	frosta frostanna frosti frostin frostinu frostið frosts frostsins frostum frostunum
+93	2293	eldsneyti	eldsneyta eldsneytanna eldsneytin eldsneytinu eldsneytis eldsneytisins eldsneytið eldsneytum eldsneytunum
+94	2294	nakinn	nakin nakinna nakinnar nakinni nakins nakið nakta naktar naktara naktari naktast naktasta naktastan naktastar naktasti naktastir naktastra naktastrar naktastri naktasts naktastur nakti naktir naktrar naktri nöktu nöktum nöktust nöktustu nöktustum
+95	2295	inngangur	inngang innganga inngangana innganganna inngangar inngangarnir inngangi innganginn innganginum inngangs inngangsins inngangurinn inngöngum inngöngunum
+96	2296	lóð	lóða lóðanna lóðar lóðarinnar lóði lóðin lóðina lóðinni lóðinu lóðir lóðirnar lóðið lóðs lóðsins lóðum lóðunum
+97	2297	stopp	stoppa stoppanna stoppi stoppin stoppinu stoppið stopps stoppsins stoppum stoppunum
+98	2298	þakklátur	þakklát þakkláta þakklátan þakklátar þakklátara þakklátari þakklátast þakklátasta þakklátastan þakklátastar þakklátasti þakklátastir þakklátastra þakklátastrar þakklátastri þakklátasts þakklátastur þakkláti þakklátir þakklátra þakklátrar þakklátri þakkláts þakklátt þakklátu þakklátum þakklátust þakklátustu þakklátustum
+99	2299	senn	
+100	2300	jess	

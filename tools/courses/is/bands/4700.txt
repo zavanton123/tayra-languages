@@ -1,0 +1,100 @@
+1	4601	töframaður	töframann töframanna töframannanna töframanni töframanninn töframanninum töframanns töframannsins töframaðurinn töframenn töframennina töframennirnir töframönnum töframönnunum
+2	4602	jafnaðarmaður	jafnaðarmann jafnaðarmanna jafnaðarmannanna jafnaðarmanni jafnaðarmanninn jafnaðarmanninum jafnaðarmanns jafnaðarmannsins jafnaðarmaðurinn jafnaðarmenn jafnaðarmennina jafnaðarmennirnir jafnaðarmönnum jafnaðarmönnunum
+3	4603	naga	nagandi nagar nagarðu nagast nagað nagaða nagaðan nagaðar nagaði nagaðir nagaðist nagaðra nagaðrar nagaðri nagaðs nagaðu nagaður nagi nagir nagist nagið nögum nögumst nöguð nöguðu nöguðum nöguðumst nöguðust nöguðuð
+4	4604	skynjun	skynjana skynjananna skynjanir skynjanirnar skynjunar skynjunarinnar skynjunin skynjunina skynjuninni skynjunum skynjununum
+5	4605	skipulagning	skipulagningar skipulagningarinnar skipulagningin skipulagningu skipulagninguna skipulagningunni
+6	4606	undankeppni	undankeppna undankeppnanna undankeppnin undankeppnina undankeppninnar undankeppninni undankeppnir undankeppnirnar undankeppnum undankeppnunum
+7	4607	óánægður	óánægt óánægð óánægða óánægðan óánægðar óánægðara óánægðari óánægðast óánægðasta óánægðastan óánægðastar óánægðasti óánægðastir óánægðastra óánægðastrar óánægðastri óánægðasts óánægðastur óánægði óánægðir óánægðra óánægðrar óánægðri óánægðs óánægðu óánægðum óánægðust óánægðustu óánægðustum
+8	4608	fjarskipti	fjarskipta fjarskiptanna fjarskiptin fjarskiptum fjarskiptunum
+9	4609	öskur	öskra öskranna öskri öskrin öskrinu öskrið öskrum öskrunum öskurs öskursins
+10	4610	afhending	afhendinga afhendinganna afhendingar afhendingarinnar afhendingarnar afhendingin afhendingu afhendingum afhendinguna afhendingunni afhendingunum
+11	4611	fróðleikur	fróðleik fróðleikinn fróðleiknum fróðleiks fróðleiksins fróðleikurinn
+12	4612	sálmur	sálm sálma sálmana sálmanna sálmar sálmarnir sálmi sálminn sálminum sálms sálmsins sálmum sálmunum sálmurinn
+13	4613	næmur	næm næma næman næmar næmara næmari næmast næmasta næmastan næmastar næmasti næmastir næmastra næmastrar næmastri næmasts næmastur næmi næmir næmra næmrar næmri næms næmt næmu næmum næmust næmustu næmustum
+14	4614	varúð	varúðar varúðarinnar varúðin varúðina varúðinni
+15	4615	lilli	lilla lillana lillann lillanna lillans lillanum lillar lillarnir lillinn lillum lillunum
+16	4616	timbur	timbri timbrinu timbrið timburs timbursins
+17	4617	áttaviti	áttavita áttavitana áttavitann áttavitanna áttavitans áttavitanum áttavitar áttavitarnir áttavitinn áttavitum áttavitunum
+18	4618	broddur	brodd brodda broddana broddanna broddar broddarnir broddi broddinn broddinum brodds broddsins broddum broddunum broddurinn
+19	4619	akkúrat	aðkvæða
+20	4620	afmælisgjöf	afmælisgjafa afmælisgjafanna afmælisgjafar afmælisgjafarinnar afmælisgjafir afmælisgjafirnar afmælisgjöfin afmælisgjöfina afmælisgjöfinni afmælisgjöfum afmælisgjöfunum
+21	4621	þolinmóður	þolinmótt þolinmóð þolinmóða þolinmóðan þolinmóðar þolinmóðara þolinmóðari þolinmóðast þolinmóðasta þolinmóðastan þolinmóðastar þolinmóðasti þolinmóðastir þolinmóðastra þolinmóðastrar þolinmóðastri þolinmóðasts þolinmóðastur þolinmóði þolinmóðir þolinmóðra þolinmóðrar þolinmóðri þolinmóðs þolinmóðu þolinmóðum þolinmóðust þolinmóðustu þolinmóðustum
+22	4622	húsmóðir	húsmæðra húsmæðranna húsmæðrum húsmæðrunum húsmæður húsmæðurnar húsmóðirin húsmóður húsmóðurina húsmóðurinnar húsmóðurinni
+23	4623	neyð	neyða neyðanna neyðar neyðarinnar neyðin neyðina neyðinni neyðir neyðirnar neyðum neyðunum
+24	4624	dýpt	dýpta dýptanna dýptar dýptarinnar dýptin dýptina dýptinni dýptir dýptirnar dýptum dýptunum
+25	4625	blóðþrýstingur	blóðþrýsting blóðþrýstingi blóðþrýstinginn blóðþrýstingnum blóðþrýstings blóðþrýstingsins blóðþrýstingurinn
+26	4626	orðaforði	orðaforða orðaforðann orðaforðans orðaforðanum orðaforðinn
+27	4627	grund	grunda grundanna grundar grundarinnar grundi grundin grundina grundinni grundinu grundir grundirnar grundið grunds grundsins grundum grundunum
+28	4628	viðbjóðslegur	viðbjóðsleg viðbjóðslega viðbjóðslegan viðbjóðslegar viðbjóðslegast viðbjóðslegasta viðbjóðslegastan viðbjóðslegastar viðbjóðslegasti viðbjóðslegastir viðbjóðslegastra viðbjóðslegastrar viðbjóðslegastri viðbjóðslegasts viðbjóðslegastur viðbjóðslegi viðbjóðslegir viðbjóðslegra viðbjóðslegrar viðbjóðslegri viðbjóðslegs viðbjóðslegt viðbjóðslegu viðbjóðslegum viðbjóðslegust viðbjóðslegustu viðbjóðslegustum
+29	4629	skrúðganga	skrúðgangan skrúðgangna skrúðgangnanna skrúðgöngu skrúðgöngum skrúðgönguna skrúðgöngunnar skrúðgöngunni skrúðgöngunum skrúðgöngur skrúðgöngurnar
+30	4630	líflegur	lífleg líflega líflegan líflegar líflegast líflegasta líflegastan líflegastar líflegasti líflegastir líflegastra líflegastrar líflegastri líflegasts líflegastur líflegi líflegir líflegra líflegrar líflegri líflegs líflegt líflegu líflegum líflegust líflegustu líflegustum
+31	4631	jarða	jarðandi jarðar jarðast jarðað jarðaða jarðaðan jarðaðar jarðaði jarðaðir jarðaðirðu jarðaðist jarðaðra jarðaðrar jarðaðri jarðaðs jarðaðu jarðaður jarði jarðir jarðist jarðið jörðum jörðumst jörðuð jörðuðu jörðuðum jörðuðumst jörðuðust jörðuðuð
+32	4632	fóstureyðing	fóstureyðinga fóstureyðinganna fóstureyðingar fóstureyðingarinnar fóstureyðingarnar fóstureyðingin fóstureyðingu fóstureyðingum fóstureyðinguna fóstureyðingunni fóstureyðingunum
+33	4633	kurteisi	kurteisin kurteisina kurteisinnar kurteisinni
+34	4634	beikon	beikoni beikoninu beikonið beikons beikonsins
+35	4635	bland	blandi blandinu blandið blands blandsins
+36	4636	byrði	byrða byrðanna byrðar byrðarinnar byrðarnar byrðin byrðina byrðinni byrðinu byrðis byrðisins byrðið byrðum byrðunum
+37	4637	fellibylur	fellibyl fellibylinn fellibylja fellibyljanna fellibyljar fellibyljarins fellibylji fellibyljina fellibyljir fellibyljirnir fellibyljum fellibyljunum fellibylnum fellibyls fellibylsins fellibylurinn
+38	4638	beit	beita beitanna beitar beitarinnar beitin beitina beitinni beitir beitirnar beitum beitunum
+39	4639	vélbúnaður	vélbúnað vélbúnaðar vélbúnaðarins vélbúnaði vélbúnaðinn vélbúnaðinum vélbúnaðnum vélbúnaðurinn
+40	4640	metnaður	metnað metnaðar metnaðarins metnaði metnaðinn metnaðinum metnaðnum metnaðurinn
+41	4641	putti	putta puttana puttann puttanna puttans puttanum puttar puttarnir puttinn puttum puttunum
+42	4642	þjórfé	þjórfjár þjórfjárins þjórfénu þjórféð
+43	4643	op	opa opanna opi opin opinu opið ops opsins opum opunum
+44	4644	hvísla	hvíslandi hvíslar hvíslast hvíslað hvíslaða hvíslaðan hvíslaðar hvíslaði hvíslaðir hvíslaðist hvíslaðra hvíslaðrar hvíslaðri hvíslaðs hvíslaðu hvíslaður hvísli hvíslir hvíslist hvíslið hvíslum hvíslumst hvísluð hvísluðu hvísluðum hvísluðumst hvísluðust hvísluðuð
+45	4645	fjármögnun	fjármögnunar fjármögnunarinnar fjármögnunin fjármögnunina fjármögnuninni
+46	4646	brunnur	brunn brunna brunnana brunnanna brunnar brunnarnir brunni brunninn brunninum brunns brunnsins brunnum brunnunum brunnurinn
+47	4647	líma	límandi límast límd límda límdan límdar límdi límdir límdirðu límdist límdra límdrar límdri límds límdu límdum límdumst límdur límdust límduð lími límir límist límið límst límt límum límumst
+48	4648	sölumaður	sölumann sölumanna sölumannanna sölumanni sölumanninn sölumanninum sölumanns sölumannsins sölumaðurinn sölumenn sölumennina sölumennirnir sölumönnum sölumönnunum
+49	4649	fylgi	fylginu fylgis fylgisins fylgið
+50	4650	svitna	svitnandi svitnar svitnarðu svitnað svitnaða svitnaðan svitnaðar svitnaði svitnaðir svitnaðra svitnaðrar svitnaðri svitnaðs svitnaðu svitnaður svitni svitnir svitnið svitnum svitnuð svitnuðu svitnuðum svitnuðuð
+51	4651	veðurstofa	veðurstofan veðurstofanna veðurstofu veðurstofum veðurstofuna veðurstofunnar veðurstofunni veðurstofunum veðurstofur veðurstofurnar
+52	4652	votta	vottandi vottar vottast vottað vottaða vottaðan vottaðar vottaði vottaðir vottaðist vottaðra vottaðrar vottaðri vottaðs vottaðu vottaður votti vottir vottist vottið vottum vottumst vottuð vottuðu vottuðum vottuðumst vottuðust vottuðuð
+53	4653	meiðsli	meiðsla meiðslanna meiðslin meiðslum meiðslunum
+54	4654	sólarupprás	sólarupprása sólarupprásanna sólarupprásar sólarupprásarinnar sólarupprásin sólarupprásina sólarupprásinni sólarupprásir sólarupprásirnar sólarupprásum sólarupprásunum
+55	4655	fiðla	fiðlan fiðlanna fiðlu fiðlum fiðluna fiðlunnar fiðlunni fiðlunum fiðlur fiðlurnar
+56	4656	ársbyrjun	ársbyrjana ársbyrjananna ársbyrjanir ársbyrjanirnar ársbyrjunar ársbyrjunarinnar ársbyrjunin ársbyrjunina ársbyrjuninni ársbyrjunum ársbyrjununum
+57	4657	þruma	þruman þrumandi þrumanna þrumar þrumast þrumað þrumaða þrumaðan þrumaðar þrumaði þrumaðir þrumaðist þrumaðra þrumaðrar þrumaðri þrumaðs þrumaðu þrumaður þrumi þrumir þrumist þrumið þrumna þrumnanna þrumu þrumum þrumumst þrumuna þrumunnar þrumunni þrumunum þrumur þrumurnar þrumuð þrumuðu þrumuðum þrumuðumst þrumuðust þrumuðuð
+58	4658	fikta	fiktandi fiktar fiktað fiktaði fiktaðir fiktaðu fikti fiktir fiktið fiktum fiktuðu fiktuðum fiktuðuð
+59	4659	unnusti	unnusta unnustana unnustann unnustanna unnustans unnustanum unnustar unnustarnir unnustinn unnustum unnustunum
+60	4660	teningur	tening teninga teningana teninganna teningar teningarnir teningi teninginn teningnum tenings teningsins teningum teningunum teningurinn
+61	4661	tómatur	tómat tómata tómatana tómatanna tómatar tómatarnir tómati tómatinn tómatinum tómats tómatsins tómaturinn tómötum tómötunum
+62	4662	staðhæfing	staðhæfinga staðhæfinganna staðhæfingar staðhæfingarinnar staðhæfingarnar staðhæfingin staðhæfingu staðhæfingum staðhæfinguna staðhæfingunni staðhæfingunum
+63	4663	spanna	spannandi spannar spannast spannað spannaða spannaðan spannaðar spannaði spannaðir spannaðist spannaðra spannaðrar spannaðri spannaðs spannaðu spannaður spanni spannir spannist spannið spönnum spönnumst spönnuð spönnuðu spönnuðum spönnuðumst spönnuðust spönnuðuð
+64	4664	upptækur	upptæk upptæka upptækan upptækar upptæki upptækir upptækra upptækrar upptækri upptæks upptækt upptæku upptækum
+65	4665	mætur	mæt mæta mætan mætar mætara mætari mætast mætasta mætastan mætastar mætasti mætastir mætastra mætastrar mætastri mætasts mætastur mæti mætir mætra mætrar mætri mæts mætt mætu mætum mætust mætustu mætustum
+66	4666	dýrlegur	dýrleg dýrlega dýrlegan dýrlegar dýrlegast dýrlegasta dýrlegastan dýrlegastar dýrlegasti dýrlegastir dýrlegastra dýrlegastrar dýrlegastri dýrlegasts dýrlegastur dýrlegi dýrlegir dýrlegra dýrlegrar dýrlegri dýrlegs dýrlegt dýrlegu dýrlegum dýrlegust dýrlegustu dýrlegustum
+67	4667	kapp	kappa kappanna kappi kappinu kappið kapps kappsins köpp köppin köppum köppunum
+68	4668	uppgjöf	uppgjafa uppgjafanna uppgjafar uppgjafarinnar uppgjafir uppgjafirnar uppgjöfin uppgjöfina uppgjöfinni uppgjöfum uppgjöfunum
+69	4669	vændiskona	vændiskonan vændiskonu vændiskonum vændiskonuna vændiskonunnar vændiskonunni vændiskonunum vændiskonur vændiskonurnar vændiskvenna vændiskvennanna
+70	4670	blaðamannafundur	blaðamannafund blaðamannafunda blaðamannafundanna blaðamannafundar blaðamannafundarins blaðamannafundi blaðamannafundina blaðamannafundinn blaðamannafundinum blaðamannafundir blaðamannafundirnir blaðamannafundum blaðamannafundunum blaðamannafundurinn
+71	4671	uppfinning	uppfinninga uppfinninganna uppfinningar uppfinningarinnar uppfinningarnar uppfinningin uppfinningu uppfinningum uppfinninguna uppfinningunni uppfinningunum
+72	4672	leiðarljós	leiðarljósa leiðarljósanna leiðarljósi leiðarljósin leiðarljósinu leiðarljósið leiðarljóss leiðarljóssins leiðarljósum leiðarljósunum
+73	4673	hekla	heklandi heklar heklast heklað heklaða heklaðan heklaðar heklaði heklaðir heklaðist heklaðra heklaðrar heklaðri heklaðs heklaðu heklaður hekli heklir heklist heklið heklum heklumst hekluð hekluðu hekluðum hekluðumst hekluðust hekluðuð
+74	4674	nálægur	nálæg nálæga nálægan nálægar nálægara nálægari nálægast nálægasta nálægastan nálægastar nálægasti nálægastir nálægastra nálægastrar nálægastri nálægasts nálægastur nálægi nálægir nálægra nálægrar nálægri nálægs nálægt nálægu nálægum nálægust nálægustu nálægustum
+75	4675	hnakki	hnakka hnakkana hnakkann hnakkanna hnakkans hnakkanum hnakkar hnakkarnir hnakkinn hnökkum hnökkunum
+76	4676	barnalegur	barnaleg barnalega barnalegan barnalegar barnalegast barnalegasta barnalegastan barnalegastar barnalegasti barnalegastir barnalegastra barnalegastrar barnalegastri barnalegasts barnalegastur barnalegi barnalegir barnalegra barnalegrar barnalegri barnalegs barnalegt barnalegu barnalegum barnalegust barnalegustu barnalegustum
+77	4677	skúffa	skúffan skúffanna skúffna skúffnanna skúffu skúffum skúffuna skúffunnar skúffunni skúffunum skúffur skúffurnar
+78	4678	flugskeyti	flugskeyta flugskeytanna flugskeytin flugskeytinu flugskeytis flugskeytisins flugskeytið flugskeytum flugskeytunum
+79	4679	fyrirhöfn	fyrirhafnar fyrirhafnarinnar fyrirhöfnin fyrirhöfnina fyrirhöfninni
+80	4680	gramm	gramma grammanna grammi gramminu grammið gramms grammsins grömm grömmin grömmum grömmunum
+81	4681	samningaviðræður	samningaviðræðna samningaviðræðnanna samningaviðræðum samningaviðræðunum samningaviðræðurnar
+82	4682	markaðssetning	markaðssetningar markaðssetningarinnar markaðssetningin markaðssetningu markaðssetninguna markaðssetningunni
+83	4683	unnusta	unnustan unnustanna unnustna unnustnanna unnustu unnustum unnustuna unnustunnar unnustunni unnustunum unnustur unnusturnar
+84	4684	hæða	hædd hædda hæddan hæddar hæddi hæddir hæddist hæddra hæddrar hæddri hædds hæddu hæddum hæddumst hæddur hæddust hædduð hætt hæðandi hæðast hæði hæðir hæðist hæðistu hæðið hæðst hæðstu hæðum hæðumst
+85	4685	gestgjafi	gestgjafa gestgjafana gestgjafann gestgjafanna gestgjafans gestgjafanum gestgjafar gestgjafarnir gestgjafinn gestgjöfum gestgjöfunum
+86	4686	musteri	mustera musteranna musterin musterinu musteris musterisins musterið musterum musterunum
+87	4687	forræði	forræðinu forræðis forræðisins forræðið
+88	4688	úrvalsdeild	úrvalsdeilda úrvalsdeildanna úrvalsdeildar úrvalsdeildarinnar úrvalsdeildin úrvalsdeildina úrvalsdeildinni úrvalsdeildir úrvalsdeildirnar úrvalsdeildum úrvalsdeildunum
+89	4689	breiðast	breiddist breiddumst breiddust breiðist breiðst breiðumst
+90	4690	uppljóstrari	uppljóstrara uppljóstrarana uppljóstrarann uppljóstraranna uppljóstrarans uppljóstraranum uppljóstrarar uppljóstrararnir uppljóstrarinn uppljóstrurum uppljóstrurunum
+91	4691	bravó	
+92	4692	vegalengd	vegalengda vegalengdanna vegalengdar vegalengdarinnar vegalengdin vegalengdina vegalengdinni vegalengdir vegalengdirnar vegalengdum vegalengdunum
+93	4693	vinnustaður	vinnustað vinnustaða vinnustaðanna vinnustaðar vinnustaðarins vinnustaði vinnustaðina vinnustaðinn vinnustaðir vinnustaðirnir vinnustaðnum vinnustaðurinn vinnustöðum vinnustöðunum
+94	4694	skemmast	skemmdist skemmdumst skemmdust skemmist skemmst skemmumst
+95	4695	kvikmyndagerð	kvikmyndagerðar kvikmyndagerðarinnar kvikmyndagerðin kvikmyndagerðina kvikmyndagerðinni
+96	4696	kafari	kafara kafarana kafarann kafaranna kafarans kafaranum kafarar kafararnir kafarinn köfurum köfurunum
+97	4697	skefjar	skefja skefjanna skefjarnar skefjum skefjunum
+98	4698	skálda	skáldandi skáldar skáldarðu skáldast skáldað skáldaða skáldaðan skáldaðar skáldaði skáldaðir skáldaðirðu skáldaðist skáldaðra skáldaðrar skáldaðri skáldaðs skáldaðu skáldaður skáldi skáldir skáldist skáldið skáldum skáldumst skálduð skálduðu skálduðum skálduðumst skálduðust skálduðuð
+99	4699	sóley	sóleyin sóleyja sóleyjanna sóleyjar sóleyjarinnar sóleyjarnar sóleyjum sóleyjunum sóleyna sóleynni
+100	4700	álykta	ályktandi ályktar ályktarðu ályktað ályktaði ályktaðir ályktaðu álykti ályktir ályktið ályktum ályktuðu ályktuðum ályktuðuð

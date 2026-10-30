@@ -1,0 +1,100 @@
+1	8401	gætinn	gætin gætinna gætinnar gætinni gætins gætið gætna gætnar gætnara gætnari gætnast gætnasta gætnastan gætnastar gætnasti gætnastir gætnastra gætnastrar gætnastri gætnasts gætnastur gætni gætnir gætnu gætnum gætnust gætnustu gætnustum
+2	8402	komma	komman kommanna kommu kommum kommuna kommunnar kommunni kommunum kommur kommurnar
+3	8403	haltra	haltrandi haltrar haltrað haltraði haltraðir haltraðu haltri haltrir haltrið höltrum höltruðu höltruðum höltruðuð
+4	8404	síki	síka síkana síkann síkanna síkans síkanum síkar síkarnir síkin síkinn síkinu síkis síkisins síkið síkja síkjanna síkjum síkjunum síkum síkunum
+5	8405	hraka	hrakandi hrakar hrakast hrakað hrakaði hrakaðist hraki hrakist hrökumst hrökuðumst hrökuðust
+6	8406	ruddi	rudda ruddana ruddann ruddanna ruddans ruddanum ruddar ruddarnir ruddinn ruddum ruddunum
+7	8407	sanngirni	sanngirnin sanngirnina sanngirninnar sanngirninni
+8	8408	fljótshlíð	
+9	8409	karlaflokkur	karlaflokk karlaflokka karlaflokkana karlaflokkanna karlaflokkar karlaflokkarnir karlaflokki karlaflokkinn karlaflokknum karlaflokks karlaflokksins karlaflokkum karlaflokkunum karlaflokkurinn
+10	8410	vorkunn	vorkunnar vorkunnarinnar vorkunnin vorkunnina vorkunninni
+11	8411	djöfullegur	djöfulleg djöfullega djöfullegan djöfullegar djöfullegast djöfullegasta djöfullegastan djöfullegastar djöfullegasti djöfullegastir djöfullegastra djöfullegastrar djöfullegastri djöfullegasts djöfullegastur djöfullegi djöfullegir djöfullegra djöfullegrar djöfullegri djöfullegs djöfullegt djöfullegu djöfullegum djöfullegust djöfullegustu djöfullegustum
+12	8412	geðröskun	geðraskana geðraskananna geðraskanir geðraskanirnar geðröskunar geðröskunarinnar geðröskunin geðröskunina geðröskuninni geðröskunum geðröskununum
+13	8413	skái	skáa skáana skáann skáanna skáans skáanum skáar skáarnir skáinn skáum skáunum
+14	8414	kavíar	kavíarinn kavíarnum kavíars kavíarsins
+15	8415	skítseiði	skítseiða skítseiðanna skítseiðin skítseiðinu skítseiðis skítseiðisins skítseiðið skítseiðum skítseiðunum
+16	8416	busi	busa busana busann busanna busans busanum busar busarnir businn busum busunum
+17	8417	óútreiknanlegur	óútreiknanleg óútreiknanlega óútreiknanlegan óútreiknanlegar óútreiknanlegast óútreiknanlegasta óútreiknanlegastan óútreiknanlegastar óútreiknanlegasti óútreiknanlegastir óútreiknanlegastra óútreiknanlegastrar óútreiknanlegastri óútreiknanlegasts óútreiknanlegastur óútreiknanlegi óútreiknanlegir óútreiknanlegra óútreiknanlegrar óútreiknanlegri óútreiknanlegs óútreiknanlegt óútreiknanlegu óútreiknanlegum óútreiknanlegust óútreiknanlegustu óútreiknanlegustum
+18	8418	úrhrak	úrhraka úrhrakanna úrhraki úrhrakinu úrhrakið úrhraks úrhraksins úrhrök úrhrökin úrhrökum úrhrökunum
+19	8419	berskjaldaður	berskjaldað berskjaldaða berskjaldaðan berskjaldaðar berskjaldaðast berskjaldaðasta berskjaldaðastan berskjaldaðastar berskjaldaðasti berskjaldaðastir berskjaldaðastra berskjaldaðastrar berskjaldaðastri berskjaldaðasts berskjaldaðastur berskjaldaði berskjaldaðir berskjaldaðra berskjaldaðrar berskjaldaðri berskjaldaðs berskjölduð berskjölduðu berskjölduðum berskjölduðust berskjölduðustu berskjölduðustum
+20	8420	rimill	rimil rimilinn rimillinn rimils rimilsins rimla rimlana rimlanna rimlar rimlarnir rimli rimlinum rimlum rimlunum
+21	8421	kjarnakljúfur	kjarnakljúf kjarnakljúfa kjarnakljúfana kjarnakljúfanna kjarnakljúfar kjarnakljúfarnir kjarnakljúfi kjarnakljúfinn kjarnakljúfinum kjarnakljúfnum kjarnakljúfs kjarnakljúfsins kjarnakljúfum kjarnakljúfunum kjarnakljúfurinn
+22	8422	árgerð	árgerða árgerðanna árgerðar árgerðarinnar árgerðin árgerðina árgerðinni árgerðir árgerðirnar árgerðum árgerðunum
+23	8423	dagrenning	dagrenninga dagrenninganna dagrenningar dagrenningarinnar dagrenningarnar dagrenningin dagrenningu dagrenningum dagrenninguna dagrenningunni dagrenningunum
+24	8424	einfari	einfara einfarana einfarann einfaranna einfarans einfaranum einfarar einfararnir einfarinn einförum einförunum
+25	8425	lautarferð	lautarferða lautarferðanna lautarferðar lautarferðarinnar lautarferðin lautarferðina lautarferðinni lautarferðir lautarferðirnar lautarferðum lautarferðunum
+26	8426	gagntaka	gagntakandi gagntakast gagntaki gagntakir gagntakist gagntakið gagntek gagntekin gagntekinn gagntekinna gagntekinnar gagntekinni gagntekins gagntekist gagntekið gagntekna gagnteknar gagntekni gagnteknir gagnteknu gagnteknum gagntekst gagntekur gagntæki gagntækir gagntækist gagntækju gagntækjum gagntækjumst gagntækjust gagntækjuð gagntók gagntókst gagntóku gagntókum gagntókumst gagntókust gagntókuð gagntökum gagntökumst
+27	8427	lumbra	lumbrandi lumbrar lumbrast lumbrað lumbraða lumbraðan lumbraðar lumbraði lumbraðir lumbraðist lumbraðra lumbraðrar lumbraðri lumbraðs lumbraðu lumbraður lumbri lumbrir lumbrist lumbrið lumbrum lumbrumst lumbruð lumbruðu lumbruðum lumbruðumst lumbruðust lumbruðuð
+28	8428	snekkja	snekkjan snekkjanna snekkju snekkjum snekkjuna snekkjunnar snekkjunni snekkjunum snekkjur snekkjurnar
+29	8429	giftingarhringur	giftingarhring giftingarhringa giftingarhringana giftingarhringanna giftingarhringar giftingarhringarnir giftingarhringi giftingarhringina giftingarhringinn giftingarhringir giftingarhringirnir giftingarhringja giftingarhringjanna giftingarhringjum giftingarhringjunum giftingarhringnum giftingarhrings giftingarhringsins giftingarhringum giftingarhringunum giftingarhringurinn
+30	8430	hlébarði	hlébarða hlébarðana hlébarðann hlébarðanna hlébarðans hlébarðanum hlébarðar hlébarðarnir hlébarðinn hlébörðum hlébörðunum
+31	8431	eftirmiðdagur	eftirmiðdag eftirmiðdaga eftirmiðdagana eftirmiðdaganna eftirmiðdagar eftirmiðdagarnir eftirmiðdaginn eftirmiðdags eftirmiðdagsins eftirmiðdagurinn eftirmiðdegi eftirmiðdeginum eftirmiðdögum eftirmiðdögunum
+32	8432	nýfæddur	nýfædd nýfædda nýfæddan nýfæddar nýfæddi nýfæddir nýfæddra nýfæddrar nýfæddri nýfædds nýfæddu nýfæddum nýfætt
+33	8433	tæknideild	tæknideilda tæknideildanna tæknideildar tæknideildarinnar tæknideildin tæknideildina tæknideildinni tæknideildir tæknideildirnar tæknideildum tæknideildunum
+34	8434	afsanna	afsannandi afsannar afsannast afsannað afsannaða afsannaðan afsannaðar afsannaði afsannaðir afsannaðist afsannaðra afsannaðrar afsannaðri afsannaðs afsannaðu afsannaður afsanni afsannir afsannist afsannið afsönnum afsönnumst afsönnuð afsönnuðu afsönnuðum afsönnuðumst afsönnuðust afsönnuðuð
+35	8435	upplagður	upplagt upplagða upplagðan upplagðar upplagðara upplagðari upplagðast upplagðasta upplagðastan upplagðastar upplagðasti upplagðastir upplagðastra upplagðastrar upplagðastri upplagðasts upplagðastur upplagði upplagðir upplagðra upplagðrar upplagðri upplagðs upplögð upplögðu upplögðum upplögðust upplögðustu upplögðustum
+36	8436	leikhluti	leikhluta leikhlutana leikhlutann leikhlutanna leikhlutans leikhlutanum leikhlutar leikhlutarnir leikhlutinn leikhlutum leikhlutunum
+37	8437	bursti	bursta burstana burstann burstanna burstans burstanum burstar burstarnir burstinn burstum burstunum
+38	8438	slím	slími slíminu slímið slíms slímsins
+39	8439	ógnun	ógnana ógnananna ógnanir ógnanirnar ógnunar ógnunarinnar ógnunin ógnunina ógnuninni ógnunum ógnununum
+40	8440	staðartími	staðartíma staðartímann staðartímans staðartímanum staðartíminn
+41	8441	ósvipaður	ósvipað ósvipaða ósvipaðan ósvipaðar ósvipaði ósvipaðir ósvipaðra ósvipaðrar ósvipaðri ósvipaðs ósvipuð ósvipuðu ósvipuðum
+42	8442	starta	startandi startar startast startað startaða startaðan startaðar startaði startaðir startaðist startaðra startaðrar startaðri startaðs startaðu startaður starti startir startist startið störtum störtumst störtuð störtuðu störtuðum störtuðumst störtuðust störtuðuð
+43	8443	úps	
+44	8444	bylta	bylst bylt byltan byltandi byltanna byltast bylti byltir byltist byltið byltna byltnanna byltu byltum byltumst byltuna byltunnar byltunni byltunum byltur bylturnar byltust byltuð
+45	8445	þrumuveður	þrumuveðri þrumuveðrinu þrumuveðrið þrumuveðurs þrumuveðursins
+46	8446	uppgerð	uppgerðar uppgerðarinnar uppgerðin uppgerðina uppgerðinni
+47	8447	meltingarvegur	meltingarveg meltingarvegar meltingarvegarins meltingarvegi meltingarveginn meltingarveginum meltingarvegurinn
+48	8448	guðdómlega	
+49	8449	mótþrói	mótþróa mótþróann mótþróans mótþróanum mótþróinn
+50	8450	næstbestur	næstbest næstbesta næstbestan næstbestar næstbesti næstbestir næstbestra næstbestrar næstbestri næstbests næstbestu næstbestum
+51	8451	mjúklega	
+52	8452	ekra	ekran ekranna ekru ekrum ekruna ekrunnar ekrunni ekrunum ekrur ekrurnar
+53	8453	landhelgi	landhelgin landhelgina landhelginnar landhelginni
+54	8454	uppátæki	uppátækin uppátækinu uppátækis uppátækisins uppátækið uppátækja uppátækjanna uppátækjum uppátækjunum
+55	8455	landmæling	landmælinga landmælinganna landmælingar landmælingarinnar landmælingarnar landmælingin landmælingu landmælingum landmælinguna landmælingunni landmælingunum
+56	8456	einkunnarorð	einkunnarorða einkunnarorðanna einkunnarorði einkunnarorðin einkunnarorðinu einkunnarorðið einkunnarorðs einkunnarorðsins einkunnarorðum einkunnarorðunum
+57	8457	ex	exa exanna exin exins exinu exið exum exunum
+58	8458	tortryggni	tortryggnin tortryggnina tortryggninnar tortryggninni
+59	8459	skrópa	skrópandi skrópar skróparðu skrópað skrópaði skrópaðir skrópaðu skrópi skrópir skrópið skrópum skrópuðu skrópuðum skrópuðuð
+60	8460	loftur	
+61	8461	iðn	iðna iðnanna iðnar iðnarinnar iðnin iðnina iðninni iðnir iðnirnar iðnum iðnunum
+62	8462	uppiskroppa	
+63	8463	veðsetja	veðset veðsetjandi veðsetji veðsetjir veðsetjið veðsetjum veðsett veðsetta veðsettan veðsettar veðsetti veðsettir veðsettirðu veðsettra veðsettrar veðsettri veðsetts veðsettu veðsettum veðsettur veðsettuð veðsetur
+64	8464	kortlagning	kortlagningar kortlagningarinnar kortlagningin kortlagningu kortlagninguna kortlagningunni
+65	8465	kurteislega	
+66	8466	fráleitur	fráleit fráleita fráleitan fráleitar fráleitara fráleitari fráleitast fráleitasta fráleitastan fráleitastar fráleitasti fráleitastir fráleitastra fráleitastrar fráleitastri fráleitasts fráleitastur fráleiti fráleitir fráleitra fráleitrar fráleitri fráleits fráleitt fráleitu fráleitum fráleitust fráleitustu fráleitustum
+67	8467	verðleikur	verðleik verðleika verðleikana verðleikanna verðleikar verðleikarnir verðleikinn verðleiknum verðleiks verðleiksins verðleikum verðleikunum verðleikurinn
+68	8468	illvirki	illvirkin illvirkinn illvirkinu illvirkis illvirkisins illvirkið illvirkja illvirkjana illvirkjann illvirkjanna illvirkjans illvirkjanum illvirkjar illvirkjarnir illvirkjum illvirkjunum
+69	8469	útgáfufyrirtæki	útgáfufyrirtækin útgáfufyrirtækinu útgáfufyrirtækis útgáfufyrirtækisins útgáfufyrirtækið útgáfufyrirtækja útgáfufyrirtækjanna útgáfufyrirtækjum útgáfufyrirtækjunum
+70	8470	folald	folalda folaldanna folaldi folaldinu folaldið folalds folaldsins folöld folöldin folöldum folöldunum
+71	8471	hagnýting	hagnýtingar hagnýtingarinnar hagnýtingin hagnýtingu hagnýtinguna hagnýtingunni
+72	8472	sjúklega	
+73	8473	rifta	rift riftandi riftarðu riftaðirðu rifti riftir riftirðu riftið riftu riftum riftuð riftuðuði
+74	8474	niðurrif	niðurrifi niðurrifinu niðurrifið niðurrifs niðurrifsins
+75	8475	eftirtekt	eftirtektar eftirtektarinnar eftirtektin eftirtektina eftirtektinni
+76	8476	samsíða	
+77	8477	ánauð	ánauðar ánauðarinnar ánauðin ánauðina ánauðinni
+78	8478	lyfjameðferð	lyfjameðferða lyfjameðferðanna lyfjameðferðar lyfjameðferðarinnar lyfjameðferðin lyfjameðferðina lyfjameðferðinni lyfjameðferðir lyfjameðferðirnar lyfjameðferðum lyfjameðferðunum
+79	8479	elskaður	elskað elskaða elskaðan elskaðar elskaðast elskaðasta elskaðastan elskaðastar elskaðasti elskaðastir elskaðastra elskaðastrar elskaðastri elskaðasts elskaðastur elskaði elskaðir elskaðra elskaðrar elskaðri elskaðs elskuð elskuðu elskuðum elskuðust elskuðustu elskuðustum
+80	8480	langs	
+81	8481	heimaleikur	heimaleik heimaleiki heimaleikina heimaleikinn heimaleikir heimaleikirnir heimaleikja heimaleikjanna heimaleikjum heimaleikjunum heimaleiknum heimaleiks heimaleiksins heimaleikurinn
+82	8482	landafræði	landafræðin landafræðina landafræðinnar landafræðinni
+83	8483	stjórnmálaskoðun	stjórnmálaskoðana stjórnmálaskoðananna stjórnmálaskoðanir stjórnmálaskoðanirnar stjórnmálaskoðunar stjórnmálaskoðunarinnar stjórnmálaskoðunin stjórnmálaskoðunina stjórnmálaskoðuninni stjórnmálaskoðunum stjórnmálaskoðununum
+84	8484	samleið	
+85	8485	eiturlyfjasali	eiturlyfjasala eiturlyfjasalana eiturlyfjasalann eiturlyfjasalanna eiturlyfjasalans eiturlyfjasalanum eiturlyfjasalar eiturlyfjasalarnir eiturlyfjasalinn eiturlyfjasölum eiturlyfjasölunum
+86	8486	brima	brimandi brimar brimað brimaði brimi
+87	8487	lögfestur	lögfest lögfesta lögfestan lögfestar lögfesti lögfestir lögfestra lögfestrar lögfestri lögfests lögfestu lögfestum
+88	8488	stjörnufræðingur	stjörnufræðing stjörnufræðinga stjörnufræðingana stjörnufræðinganna stjörnufræðingar stjörnufræðingarnir stjörnufræðingi stjörnufræðinginn stjörnufræðingnum stjörnufræðings stjörnufræðingsins stjörnufræðingum stjörnufræðingunum stjörnufræðingurinn
+89	8489	átjándi	átjánda átjándu
+90	8490	menningarlíf	menningarlífi menningarlífinu menningarlífið menningarlífs menningarlífsins
+91	8491	laglega	laglegar laglegast
+92	8492	rýr	rýra rýran rýrar rýrara rýrari rýrast rýrasta rýrastan rýrastar rýrasti rýrastir rýrastra rýrastrar rýrastri rýrasts rýrastur rýri rýrir rýrra rýrrar rýrri rýrs rýrt rýru rýrum rýrust rýrustu rýrustum
+93	8493	sjálfsfróun	sjálfsfróunar sjálfsfróunarinnar sjálfsfróunin sjálfsfróunina sjálfsfróuninni
+94	8494	sambandsríki	sambandsríkin sambandsríkinu sambandsríkis sambandsríkisins sambandsríkið sambandsríkja sambandsríkjanna sambandsríkjum sambandsríkjunum
+95	8495	kjánalega	
+96	8496	sameign	sameigna sameignanna sameignar sameignarinnar sameignin sameignina sameigninni sameignir sameignirnar sameignum sameignunum
+97	8497	rot	rota rotanna roti rotin rotinu rotið rots rotsins rotum rotunum
+98	8498	afturkvæmt	
+99	8499	aflögu	
+100	8500	fleygur	fleyg fleyga fleygan fleygana fleyganna fleygar fleygara fleygari fleygarnir fleygast fleygasta fleygastan fleygastar fleygasti fleygastir fleygastra fleygastrar fleygastri fleygasts fleygastur fleygi fleyginn fleygir fleygnum fleygra fleygrar fleygri fleygs fleygsins fleygt fleygu fleygum fleygunum fleygurinn fleygust fleygustu fleygustum

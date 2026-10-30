@@ -1,0 +1,100 @@
+1	8001	fjölmiðlamaður	fjölmiðlamann fjölmiðlamanna fjölmiðlamannanna fjölmiðlamanni fjölmiðlamanninn fjölmiðlamanninum fjölmiðlamanns fjölmiðlamannsins fjölmiðlamaðurinn fjölmiðlamenn fjölmiðlamennina fjölmiðlamennirnir fjölmiðlamönnum fjölmiðlamönnunum
+2	8002	börur	bara baranna börum börunum börurnar
+3	8003	grimmilegur	grimmileg grimmilega grimmilegan grimmilegar grimmilegast grimmilegasta grimmilegastan grimmilegastar grimmilegasti grimmilegastir grimmilegastra grimmilegastrar grimmilegastri grimmilegasts grimmilegastur grimmilegi grimmilegir grimmilegra grimmilegrar grimmilegri grimmilegs grimmilegt grimmilegu grimmilegum grimmilegust grimmilegustu grimmilegustum
+4	8004	heildsala	heildsalan heildsalanna heildsalna heildsalnanna heildsölu heildsölum heildsöluna heildsölunnar heildsölunni heildsölunum heildsölur heildsölurnar
+5	8005	fyrirheit	fyrirheita fyrirheitanna fyrirheiti fyrirheitin fyrirheitinu fyrirheitið fyrirheits fyrirheitsins fyrirheitum fyrirheitunum
+6	8006	landsliðsþjálfari	landsliðsþjálfara landsliðsþjálfarana landsliðsþjálfarann landsliðsþjálfaranna landsliðsþjálfarans landsliðsþjálfaranum landsliðsþjálfarar landsliðsþjálfararnir landsliðsþjálfarinn landsliðsþjálfurum landsliðsþjálfurunum
+7	8007	flutningaskip	flutningaskipa flutningaskipanna flutningaskipi flutningaskipin flutningaskipinu flutningaskipið flutningaskips flutningaskipsins flutningaskipum flutningaskipunum
+8	8008	heiðursfélagi	heiðursfélaga heiðursfélagana heiðursfélagann heiðursfélaganna heiðursfélagans heiðursfélaganum heiðursfélagar heiðursfélagarnir heiðursfélaginn heiðursfélögum heiðursfélögunum
+9	8009	koja	kojan kojanna koju kojum kojuna kojunnar kojunni kojunum kojur kojurnar
+10	8010	umfjöllunarefni	umfjöllunarefna umfjöllunarefnanna umfjöllunarefnin umfjöllunarefninu umfjöllunarefnis umfjöllunarefnisins umfjöllunarefnið umfjöllunarefnum umfjöllunarefnunum
+11	8011	viðvarandi	
+12	8012	endurkjörinn	endurkjörin endurkjörinna endurkjörinnar endurkjörinni endurkjörins endurkjörið endurkjörna endurkjörnar endurkjörni endurkjörnir endurkjörnu endurkjörnum
+13	8013	netþjónn	netþjón netþjóna netþjónana netþjónanna netþjónar netþjónarnir netþjóni netþjóninn netþjóninum netþjónninn netþjóns netþjónsins netþjónum netþjónunum
+14	8014	skin	skina skinanna skini skinin skininu skinið skins skinsins skinum skinunum
+15	8015	yrða	yrt yrti yrtir yrtu yrtum yrtuð yrðandi yrði yrðir yrðirðu yrðið yrðum
+16	8016	fagurfræði	fagurfræðin fagurfræðina fagurfræðinnar fagurfræðinni
+17	8017	inntaka	inntakan inntakanna inntakna inntaknanna inntöku inntökum inntökuna inntökunnar inntökunni inntökunum inntökur inntökurnar
+18	8018	endurgreiðsla	endurgreiðslan endurgreiðslna endurgreiðslnanna endurgreiðslu endurgreiðslum endurgreiðsluna endurgreiðslunnar endurgreiðslunni endurgreiðslunum endurgreiðslur endurgreiðslurnar
+19	8019	sundföt	sundfata sundfatanna sundfötin sundfötum sundfötunum
+20	8020	rennandi	
+21	8021	þjóðhöfðingi	þjóðhöfðinginn þjóðhöfðingja þjóðhöfðingjana þjóðhöfðingjann þjóðhöfðingjanna þjóðhöfðingjans þjóðhöfðingjanum þjóðhöfðingjar þjóðhöfðingjarnir þjóðhöfðingjum þjóðhöfðingjunum
+22	8022	ruglingur	rugling ruglingi ruglinginn ruglingnum ruglings ruglingsins ruglingurinn
+23	8023	sýrustig	sýrustiga sýrustiganna sýrustigi sýrustigin sýrustiginu sýrustigið sýrustigs sýrustigsins sýrustigum sýrustigunum
+24	8024	menningararfur	menningararf menningararfi menningararfinn menningararfinum menningararfs menningararfsins menningararfurinn
+25	8025	framsal	framsala framsalanna framsali framsalinu framsalið framsals framsalsins framsöl framsölin framsölum framsölunum
+26	8026	garn	garni garninu garnið garns garnsins
+27	8027	útvíkkun	útvíkkunar útvíkkunarinnar útvíkkunin útvíkkunina útvíkkuninni
+28	8028	grasker	graskera graskeranna graskeri graskerin graskerinu graskerið graskerja graskerjanna graskerjum graskerjunum graskers graskersins graskerum graskerunum
+29	8029	guðfræðingur	guðfræðing guðfræðinga guðfræðingana guðfræðinganna guðfræðingar guðfræðingarnir guðfræðingi guðfræðinginn guðfræðingnum guðfræðings guðfræðingsins guðfræðingum guðfræðingunum guðfræðingurinn
+30	8030	undrabarn	undrabarna undrabarnanna undrabarni undrabarninu undrabarnið undrabarns undrabarnsins undrabörn undrabörnin undrabörnum undrabörnunum
+31	8031	framtak	framtaki framtakinu framtakið framtaks framtaksins
+32	8032	selló	sellóa sellóanna sellói sellóin sellóinu sellóið sellós sellósins sellóum sellóunum
+33	8033	ótvírætt	
+34	8034	mannfræði	mannfræðin mannfræðina mannfræðinnar mannfræðinni
+35	8035	efnislega	
+36	8036	uxi	uxa uxana uxann uxanna uxans uxanum uxar uxarnir uxinn uxum uxunum
+37	8037	fjárhagsáætlun	fjárhagsáætlana fjárhagsáætlananna fjárhagsáætlanir fjárhagsáætlanirnar fjárhagsáætlunar fjárhagsáætlunarinnar fjárhagsáætlunin fjárhagsáætlunina fjárhagsáætluninni fjárhagsáætlunum fjárhagsáætlununum
+38	8038	sigmundsson	
+39	8039	djákni	djákna djáknana djáknann djáknanna djáknans djáknanum djáknar djáknarnir djákninn djáknum djáknunum
+40	8040	verðbréfaviðskipti	verðbréfaviðskipta verðbréfaviðskiptanna verðbréfaviðskiptin verðbréfaviðskiptum verðbréfaviðskiptunum
+41	8041	býti	býta býtanna býtin býtum býtunum
+42	8042	fyrirlesari	fyrirlesara fyrirlesarana fyrirlesarann fyrirlesaranna fyrirlesarans fyrirlesaranum fyrirlesarar fyrirlesararnir fyrirlesarinn fyrirlesurum fyrirlesurunum
+43	8043	vinnudagur	vinnudag vinnudaga vinnudagana vinnudaganna vinnudagar vinnudagarnir vinnudaginn vinnudags vinnudagsins vinnudagurinn vinnudegi vinnudeginum vinnudögum vinnudögunum
+44	8044	örgjörvi	örgjörva örgjörvana örgjörvann örgjörvanna örgjörvans örgjörvanum örgjörvar örgjörvarnir örgjörvinn örgjörvum örgjörvunum
+45	8045	kefli	kefla keflanna keflin keflinu keflis keflisins keflið keflum keflunum
+46	8046	kaldhæðinn	kaldhæðin kaldhæðinna kaldhæðinnar kaldhæðinni kaldhæðins kaldhæðið kaldhæðna kaldhæðnar kaldhæðnara kaldhæðnari kaldhæðnast kaldhæðnasta kaldhæðnastan kaldhæðnastar kaldhæðnasti kaldhæðnastir kaldhæðnastra kaldhæðnastrar kaldhæðnastri kaldhæðnasts kaldhæðnastur kaldhæðni kaldhæðnir kaldhæðnu kaldhæðnum kaldhæðnust kaldhæðnustu kaldhæðnustum
+47	8047	lóðrétt	
+48	8048	þorpsbúi	þorpsbúa þorpsbúana þorpsbúann þorpsbúanna þorpsbúans þorpsbúanum þorpsbúar þorpsbúarnir þorpsbúinn þorpsbúum þorpsbúunum
+49	8049	smókingur	smóking smókinga smókingana smókinganna smókingar smókingarnir smókinginn smókingnum smókings smókingsins smókingum smókingunum smókingurinn
+50	8050	dágóður	dágott dágóð dágóða dágóðan dágóðar dágóði dágóðir dágóðra dágóðrar dágóðri dágóðs dágóðu dágóðum
+51	8051	perri	perra perrana perrann perranna perrans perranum perrar perrarnir perrinn perrum perrunum
+52	8052	dauðlanga	dauðlangar dauðlangað dauðlangaði dauðlangi
+53	8053	hræsnari	hræsnara hræsnarana hræsnarann hræsnaranna hræsnarans hræsnaranum hræsnarar hræsnararnir hræsnarinn hræsnurum hræsnurunum
+54	8054	húsverk	húsverka húsverkanna húsverki húsverkin húsverkinu húsverkið húsverks húsverksins húsverkum húsverkunum
+55	8055	bílnúmer	bílnúmera bílnúmeranna bílnúmeri bílnúmerin bílnúmerinu bílnúmerið bílnúmers bílnúmersins bílnúmerum bílnúmerunum
+56	8056	hálfnaður	hálfnað hálfnaða hálfnaðan hálfnaðar hálfnaði hálfnaðir hálfnaðra hálfnaðrar hálfnaðri hálfnaðs hálfnuð hálfnuðu hálfnuðum
+57	8057	óumflýjanlegur	óumflýjanleg óumflýjanlega óumflýjanlegan óumflýjanlegar óumflýjanlegi óumflýjanlegir óumflýjanlegra óumflýjanlegrar óumflýjanlegri óumflýjanlegs óumflýjanlegt óumflýjanlegu óumflýjanlegum
+58	8058	lögreglubíll	lögreglubíl lögreglubíla lögreglubílana lögreglubílanna lögreglubílar lögreglubílarnir lögreglubílinn lögreglubíllinn lögreglubílnum lögreglubíls lögreglubílsins lögreglubílum lögreglubílunum
+59	8059	mikilfenglegur	mikilfengleg mikilfenglega mikilfenglegan mikilfenglegar mikilfenglegast mikilfenglegasta mikilfenglegastan mikilfenglegastar mikilfenglegasti mikilfenglegastir mikilfenglegastra mikilfenglegastrar mikilfenglegastri mikilfenglegasts mikilfenglegastur mikilfenglegi mikilfenglegir mikilfenglegra mikilfenglegrar mikilfenglegri mikilfenglegs mikilfenglegt mikilfenglegu mikilfenglegum mikilfenglegust mikilfenglegustu mikilfenglegustum
+60	8060	aðdáunarverður	aðdáunarvert aðdáunarverð aðdáunarverða aðdáunarverðan aðdáunarverðar aðdáunarverðara aðdáunarverðari aðdáunarverðast aðdáunarverðasta aðdáunarverðastan aðdáunarverðastar aðdáunarverðasti aðdáunarverðastir aðdáunarverðastra aðdáunarverðastrar aðdáunarverðastri aðdáunarverðasts aðdáunarverðastur aðdáunarverði aðdáunarverðir aðdáunarverðra aðdáunarverðrar aðdáunarverðri aðdáunarverðs aðdáunarverðu aðdáunarverðum aðdáunarverðust aðdáunarverðustu aðdáunarverðustum
+61	8061	stía	stían stíandi stíanna stíar stíast stíað stíaða stíaðan stíaðar stíaði stíaðir stíaðist stíaðra stíaðrar stíaðri stíaðs stíaðu stíaður stíi stíir stíist stíið stíu stíum stíumst stíuna stíunnar stíunni stíunum stíur stíurnar stíuð stíuðu stíuðum stíuðumst stíuðust stíuðuð
+62	8062	deli	dela delana delann delanna delans delanum delar delarnir delinn delum delunum
+63	8063	múrsteinn	múrstein múrsteina múrsteinana múrsteinanna múrsteinar múrsteinarnir múrsteini múrsteininn múrsteininum múrsteinninn múrsteins múrsteinsins múrsteinum múrsteinunum
+64	8064	sori	sora sorann sorans soranum sorinn
+65	8065	pollur	poll polla pollana pollanna pollar pollarnir polli pollinn pollinum polls pollsins pollum pollunum pollurinn
+66	8066	afborgun	afborgana afborgananna afborganir afborganirnar afborgunar afborgunarinnar afborgunin afborgunina afborguninni afborgunum afborgununum
+67	8067	félagsmiðstöð	félagsmiðstöðin félagsmiðstöðina félagsmiðstöðinni félagsmiðstöðva félagsmiðstöðvanna félagsmiðstöðvar félagsmiðstöðvarinnar félagsmiðstöðvarnar félagsmiðstöðvum félagsmiðstöðvunum
+68	8068	fyrradagur	fyrradag fyrradags fyrradegi
+69	8069	innvortis	
+70	8070	aflífa	aflífandi aflífar aflífað aflífaða aflífaðan aflífaðar aflífaði aflífaðir aflífaðra aflífaðrar aflífaðri aflífaðs aflífaðu aflífaður aflífi aflífir aflífið aflífum aflífuð aflífuðu aflífuðum aflífuðuð
+71	8071	leikinn	leikin leikinna leikinnar leikinni leikins leikið leikna leiknar leiknara leiknari leiknast leiknasta leiknastan leiknastar leiknasti leiknastir leiknastra leiknastrar leiknastri leiknasts leiknastur leikni leiknir leiknu leiknum leiknust leiknustu leiknustum
+72	8072	spað	spaði spaðinu spaðið spaðs spaðsins
+73	8073	bendill	bendil bendilinn bendillinn bendils bendilsins bendla bendlana bendlanna bendlar bendlarnir bendlað bendlaði bendlaðir bendlaður bendli bendlinum bendlum bendlunum
+74	8074	smávægilegur	smávægileg smávægilega smávægilegan smávægilegar smávægilegast smávægilegasta smávægilegastan smávægilegastar smávægilegasti smávægilegastir smávægilegastra smávægilegastrar smávægilegastri smávægilegasts smávægilegastur smávægilegi smávægilegir smávægilegra smávægilegrar smávægilegri smávægilegs smávægilegt smávægilegu smávægilegum smávægilegust smávægilegustu smávægilegustum
+75	8075	tagl	tagla taglanna tagli taglinu taglið tagls taglsins tögl töglin töglum töglunum
+76	8076	viðkomustaður	viðkomustað viðkomustaða viðkomustaðanna viðkomustaðar viðkomustaðarins viðkomustaði viðkomustaðina viðkomustaðinn viðkomustaðir viðkomustaðirnir viðkomustaðnum viðkomustaðurinn viðkomustöðum viðkomustöðunum
+77	8077	óyggjandi	
+78	8078	óréttlæti	óréttlætinu óréttlætis óréttlætisins óréttlætið
+79	8079	rafbók	rafbækur rafbækurnar rafbóka rafbókanna rafbókar rafbókarinnar rafbókin rafbókina rafbókinni rafbókum rafbókunum
+80	8080	löggjafi	löggjafa löggjafana löggjafann löggjafanna löggjafans löggjafanum löggjafar löggjafarnir löggjafinn löggjöfum löggjöfunum
+81	8081	burtséð	
+82	8082	myndlíking	myndlíkinga myndlíkinganna myndlíkingar myndlíkingarinnar myndlíkingarnar myndlíkingin myndlíkingu myndlíkingum myndlíkinguna myndlíkingunni myndlíkingunum
+83	8083	vifta	viftan viftanna viftu viftum viftuna viftunnar viftunni viftunum viftur vifturnar
+84	8084	lögregluforingi	lögregluforinginn lögregluforingja lögregluforingjana lögregluforingjann lögregluforingjanna lögregluforingjans lögregluforingjanum lögregluforingjar lögregluforingjarnir lögregluforingjum lögregluforingjunum
+85	8085	fornafn	fornafna fornafnanna fornafni fornafninu fornafnið fornafns fornafnsins fornöfn fornöfnin fornöfnum fornöfnunum
+86	8086	flutningabíll	flutningabíl flutningabíla flutningabílana flutningabílanna flutningabílar flutningabílarnir flutningabílinn flutningabíllinn flutningabílnum flutningabíls flutningabílsins flutningabílum flutningabílunum
+87	8087	kolkrabbi	kolkrabba kolkrabbana kolkrabbann kolkrabbanna kolkrabbans kolkrabbanum kolkrabbar kolkrabbarnir kolkrabbinn kolkröbbum kolkröbbunum
+88	8088	úlpa	úlpan úlpna úlpnanna úlpu úlpum úlpuna úlpunnar úlpunni úlpunum úlpur úlpurnar
+89	8089	dýrategund	dýrategunda dýrategundanna dýrategundar dýrategundarinnar dýrategundin dýrategundina dýrategundinni dýrategundir dýrategundirnar dýrategundum dýrategundunum
+90	8090	villigata	villigatan villigatna villigatnanna villigötu villigötum villigötuna villigötunnar villigötunni villigötunum villigötur villigöturnar
+91	8091	rafmagnslaus	rafmagnslausa rafmagnslausan rafmagnslausar rafmagnslausara rafmagnslausari rafmagnslausast rafmagnslausasta rafmagnslausastan rafmagnslausastar rafmagnslausasti rafmagnslausastir rafmagnslausastra rafmagnslausastrar rafmagnslausastri rafmagnslausasts rafmagnslausastur rafmagnslausi rafmagnslausir rafmagnslausra rafmagnslausrar rafmagnslausri rafmagnslauss rafmagnslaust rafmagnslausu rafmagnslausum rafmagnslausust rafmagnslausustu rafmagnslausustum
+92	8092	gervigreind	gervigreindar gervigreindarinnar gervigreindin gervigreindina gervigreindinni
+93	8093	plana	planandi planar planast planað planaða planaðan planaðar planaði planaðir planaðist planaðra planaðrar planaðri planaðs planaðu planaður plani planir planist planið plönum plönumst plönuð plönuðu plönuðum plönuðumst plönuðust plönuðuð
+94	8094	lögaðili	lögaðila lögaðilana lögaðilann lögaðilanna lögaðilans lögaðilanum lögaðilar lögaðilarnir lögaðilinn lögaðilja lögaðiljana lögaðiljann lögaðiljanna lögaðiljans lögaðiljanum lögaðiljar lögaðiljarnir lögaðiljum lögaðiljunum lögaðilum lögaðilunum
+95	8095	ólögmætur	ólögmæt ólögmæta ólögmætan ólögmætar ólögmætara ólögmætari ólögmætast ólögmætasta ólögmætastan ólögmætastar ólögmætasti ólögmætastir ólögmætastra ólögmætastrar ólögmætastri ólögmætasts ólögmætastur ólögmæti ólögmætir ólögmætra ólögmætrar ólögmætri ólögmæts ólögmætt ólögmætu ólögmætum ólögmætust ólögmætustu ólögmætustum
+96	8096	jafnaldri	jafnaldra jafnaldrana jafnaldrann jafnaldranna jafnaldrans jafnaldranum jafnaldrar jafnaldrarnir jafnaldrinn jafnöldrum jafnöldrunum
+97	8097	frjór	frjó frjóa frjóan frjóar frjóast frjóasta frjóastan frjóastar frjóasti frjóastir frjóastra frjóastrar frjóastri frjóasts frjóastur frjói frjóir frjórra frjórrar frjórri frjós frjótt frjóu frjóum frjóust frjóustu frjóustum
+98	8098	hlutskipti	hlutskiptinu hlutskiptis hlutskiptisins hlutskiptið
+99	8099	völ	völin völina völinni
+100	8100	einkasonur	einkason einkasona einkasonanna einkasonar einkasonarins einkasoninn einkasonum einkasonunum einkasonurinn einkasyni einkasynina einkasyninum einkasynir einkasynirnir

@@ -1,0 +1,100 @@
+1	3901	hersveit	hersveita hersveitanna hersveitar hersveitarinnar hersveitin hersveitina hersveitinni hersveitir hersveitirnar hersveitum hersveitunum
+2	3902	iðulega	
+3	3903	birting	birtinga birtinganna birtingar birtingarinnar birtingarnar birtingin birtingu birtingum birtinguna birtingunni birtingunum
+4	3904	hættur	hætt hætta hættan hættar hættara hættari hættast hættasta hættastan hættastar hættasti hættastir hættastra hættastrar hættastri hættasts hættastur hætti hættir hættra hættrar hættri hætts hættu hættum hættust hættustu hættustum
+5	3905	hræra	hræran hrærandi hræranna hrærast hræri hrærir hrærist hrærið hrærst hrært hræru hrærum hrærumst hræruna hrærunnar hrærunni hrærunum hrærur hrærurnar hrærð hrærða hrærðan hrærðar hrærði hrærðir hrærðist hrærðra hrærðrar hrærðri hrærðs hrærðu hrærðum hrærðumst hrærður hrærðust hrærðuð
+6	3906	korter	kortera korteranna korteri korterin korterinu korterið korters kortersins korterum korterunum
+7	3907	réttlátur	réttlát réttláta réttlátan réttlátar réttlátara réttlátari réttlátast réttlátasta réttlátastan réttlátastar réttlátasti réttlátastir réttlátastra réttlátastrar réttlátastri réttlátasts réttlátastur réttláti réttlátir réttlátra réttlátrar réttlátri réttláts réttlátt réttlátu réttlátum réttlátust réttlátustu réttlátustum
+8	3908	væla	vælandi vældi vældir vældu vældum vælduð væli vælir vælið vælt vælum
+9	3909	flói	flóa flóana flóann flóanna flóans flóanum flóar flóarnir flóinn flóum flóunum
+10	3910	leikvangur	leikvang leikvanga leikvangana leikvanganna leikvangar leikvangarnir leikvangi leikvanginn leikvanginum leikvangnum leikvangs leikvangsins leikvangurinn leikvöngum leikvöngunum
+11	3911	hamur	ham hama hamanna hami hamina haminn hamir hamirnir hamnum hams hamsins hamurinn hömum hömunum
+12	3912	framburður	framburð framburða framburðanna framburðar framburðarins framburði framburðina framburðinn framburðinum framburðir framburðirnir framburðum framburðunum framburðurinn
+13	3913	hungur	hungri hungrinu hungrið hungurs hungursins
+14	3914	keppinautur	keppinaut keppinauta keppinautana keppinautanna keppinautar keppinautarins keppinautarnir keppinautinn keppinautnum keppinauts keppinautum keppinautunum keppinauturinn
+15	3915	vild	vildar vildarinnar vildin vildina vildinni
+16	3916	skrifborð	skrifborða skrifborðanna skrifborði skrifborðin skrifborðinu skrifborðið skrifborðs skrifborðsins skrifborðum skrifborðunum
+17	3917	klaki	klaka klakana klakann klakanna klakans klakanum klakar klakarnir klakinn klökum klökunum
+18	3918	einkamál	einkamála einkamálanna einkamáli einkamálin einkamálinu einkamálið einkamáls einkamálsins einkamálum einkamálunum
+19	3919	djarfur	djarfa djarfan djarfar djarfara djarfari djarfast djarfasta djarfastan djarfastar djarfasti djarfastir djarfastra djarfastrar djarfastri djarfasts djarfastur djarfi djarfir djarfra djarfrar djarfri djarfs djarft djörf djörfu djörfum djörfust djörfustu djörfustum
+20	3920	húsfreyja	húsfreyjan húsfreyjanna húsfreyju húsfreyjum húsfreyjuna húsfreyjunnar húsfreyjunni húsfreyjunum húsfreyjur húsfreyjurnar
+21	3921	fyrirsæta	fyrirsætan fyrirsætanna fyrirsætna fyrirsætnanna fyrirsætu fyrirsætum fyrirsætuna fyrirsætunnar fyrirsætunni fyrirsætunum fyrirsætur fyrirsæturnar
+22	3922	kvörtun	kvartana kvartananna kvartanir kvartanirnar kvörtunar kvörtunarinnar kvörtunin kvörtunina kvörtuninni kvörtunum kvörtununum
+23	3923	bókmenntir	
+24	3924	gagnagrunnur	gagnagrunn gagnagrunna gagnagrunnana gagnagrunnanna gagnagrunnar gagnagrunnarnir gagnagrunni gagnagrunninn gagnagrunninum gagnagrunns gagnagrunnsins gagnagrunnum gagnagrunnunum gagnagrunnurinn
+25	3925	gönguleið	gönguleiða gönguleiðanna gönguleiðar gönguleiðarinnar gönguleiðin gönguleiðina gönguleiðinni gönguleiðir gönguleiðirnar gönguleiðum gönguleiðunum
+26	3926	alfa	alfans alfanu alfað
+27	3927	leiðrétta	leiðrést leiðrétt leiðréttan leiðréttandi leiðréttar leiðréttast leiðrétti leiðréttir leiðréttist leiðréttið leiðréttra leiðréttrar leiðréttri leiðrétts leiðréttu leiðréttum leiðréttumst leiðréttur leiðréttust leiðréttuð
+28	3928	kyssast	kyssist kysst kysstist kysstumst kysstust kyssumst
+29	3929	ógnvekjandi	
+30	3930	hinstur	hinst hinsta hinstan hinstar hinsti hinstir hinstra hinstrar hinstri hinsts hinstu hinstum
+31	3931	þorgils	
+32	3932	dúfa	dúfan dúfna dúfnanna dúfu dúfum dúfuna dúfunnar dúfunni dúfunum dúfur dúfurnar
+33	3933	hugsjón	hugsjóna hugsjónanna hugsjónar hugsjónarinnar hugsjónin hugsjónina hugsjóninni hugsjónir hugsjónirnar hugsjónum hugsjónunum
+34	3934	dráp	drápa drápanna drápi drápin drápinu drápið dráps drápsins drápum drápunum
+35	3935	söfnun	safnana safnananna safnanir safnanirnar söfnunar söfnunarinnar söfnunin söfnunina söfnuninni söfnunum söfnununum
+36	3936	meistaradeild	meistaradeilda meistaradeildanna meistaradeildar meistaradeildarinnar meistaradeildin meistaradeildina meistaradeildinni meistaradeildir meistaradeildirnar meistaradeildum meistaradeildunum
+37	3937	forðum	
+38	3938	pápi	pápa pápana pápann pápanna pápans pápanum pápar páparnir pápinn pápum pápunum
+39	3939	ending	endinga endinganna endingar endingarinnar endingarnar endingin endingu endingum endinguna endingunni endingunum
+40	3940	hreyfill	hreyfil hreyfilinn hreyfillinn hreyfils hreyfilsins hreyfla hreyflana hreyflanna hreyflar hreyflarnir hreyfli hreyflinum hreyflum hreyflunum
+41	3941	sjónvarpsstöð	sjónvarpsstöðin sjónvarpsstöðina sjónvarpsstöðinni sjónvarpsstöðva sjónvarpsstöðvanna sjónvarpsstöðvar sjónvarpsstöðvarinnar sjónvarpsstöðvarnar sjónvarpsstöðvum sjónvarpsstöðvunum
+42	3942	orkuveita	orkuveitan orkuveitna orkuveitnanna orkuveitu orkuveitum orkuveituna orkuveitunnar orkuveitunni orkuveitunum orkuveitur orkuveiturnar
+43	3943	forgangur	forgang forgangana forganganna forgangar forgangarnir forgangi forganginn forganginum forgangs forgangsins forgangurinn forgöngum forgöngunum
+44	3944	utanríkisráðuneyti	utanríkisráðuneyta utanríkisráðuneytanna utanríkisráðuneytin utanríkisráðuneytinu utanríkisráðuneytis utanríkisráðuneytisins utanríkisráðuneytið utanríkisráðuneytum utanríkisráðuneytunum
+45	3945	greni	grenin greninu grenis grenisins grenið grenja grenjanna grenjum grenjunum
+46	3946	fyrrnefndur	fyrrnefnd fyrrnefnda fyrrnefndan fyrrnefndar fyrrnefndi fyrrnefndir fyrrnefndra fyrrnefndrar fyrrnefndri fyrrnefnds fyrrnefndu fyrrnefndum fyrrnefnt
+47	3947	lega	legan leganna legna legnanna legu legum leguna legunnar legunni legunum legur legurnar
+48	3948	tónlistarskóli	tónlistarskóla tónlistarskólana tónlistarskólann tónlistarskólanna tónlistarskólans tónlistarskólanum tónlistarskólar tónlistarskólarnir tónlistarskólinn tónlistarskólum tónlistarskólunum
+49	3949	ger	geri gerinu gerið gers gersins
+50	3950	gagnrýnandi	gagnrýnanda gagnrýnandann gagnrýnandans gagnrýnandanum gagnrýnandinn gagnrýnenda gagnrýnendanna gagnrýnendum gagnrýnendunum gagnrýnendur gagnrýnendurna gagnrýnendurnir
+51	3951	máni	mána mánana mánann mánanna mánans mánanum mánar mánarnir máninn mánum mánunum
+52	3952	veð	veða veðanna veði veðin veðinu veðið veðs veðsins veðum veðunum
+53	3953	uppákoma	uppákoman uppákomanna uppákomna uppákomnanna uppákomu uppákomum uppákomuna uppákomunnar uppákomunni uppákomunum uppákomur uppákomurnar
+54	3954	aflýsa	aflýsandi aflýsast aflýsi aflýsir aflýsið aflýst aflýsta aflýstan aflýstar aflýsti aflýstir aflýstra aflýstrar aflýstri aflýsts aflýstu aflýstum aflýstur aflýstuð aflýsum
+55	3955	verndun	verndunar verndunarinnar verndunin verndunina vernduninni
+56	3956	ónæði	ónæðinu ónæðis ónæðisins ónæðið
+57	3957	útsendari	útsendara útsendarana útsendarann útsendaranna útsendarans útsendaranum útsendarar útsendararnir útsendarinn útsendurum útsendurunum
+58	3958	delta	deltan deltanna deltna deltnanna deltu deltum deltuna deltunnar deltunni deltunum deltur delturnar
+59	3959	hjúkrunarkona	hjúkrunarkonan hjúkrunarkonu hjúkrunarkonum hjúkrunarkonuna hjúkrunarkonunnar hjúkrunarkonunni hjúkrunarkonunum hjúkrunarkonur hjúkrunarkonurnar hjúkrunarkvenna hjúkrunarkvennanna
+60	3960	norm	norma normanna normi normin norminu normið norms normsins normum normunum
+61	3961	þvottur	þvott þvotta þvottana þvottanna þvottar þvottarins þvottarnir þvotti þvottinn þvottinum þvotts þvottsins þvottum þvottunum þvotturinn
+62	3962	prjónn	prjón prjóna prjónana prjónanna prjónar prjónarnir prjóni prjóninn prjóninum prjónninn prjóns prjónsins prjónum prjónunum
+63	3963	ítarlegur	ítarleg ítarlega ítarlegan ítarlegar ítarlegast ítarlegasta ítarlegastan ítarlegastar ítarlegasti ítarlegastir ítarlegastra ítarlegastrar ítarlegastri ítarlegasts ítarlegastur ítarlegi ítarlegir ítarlegra ítarlegrar ítarlegri ítarlegs ítarlegt ítarlegu ítarlegum ítarlegust ítarlegustu ítarlegustum
+64	3964	fíkniefni	fíkniefna fíkniefnanna fíkniefnin fíkniefninu fíkniefnis fíkniefnisins fíkniefnið fíkniefnum fíkniefnunum
+65	3965	asnalegur	asnaleg asnalega asnalegan asnalegar asnalegast asnalegasta asnalegastan asnalegastar asnalegasti asnalegastir asnalegastra asnalegastrar asnalegastri asnalegasts asnalegastur asnalegi asnalegir asnalegra asnalegrar asnalegri asnalegs asnalegt asnalegu asnalegum asnalegust asnalegustu asnalegustum
+66	3966	skalli	skalla skallana skallann skallanna skallans skallanum skallar skallarnir skallinn sköllum sköllunum
+67	3967	regn	regni regninu regnið regns regnsins
+68	3968	aðskilnaður	aðskilnað aðskilnaðar aðskilnaðarins aðskilnaði aðskilnaðinn aðskilnaðinum aðskilnaðnum aðskilnaðurinn
+69	3969	innanlands	
+70	3970	húðflúr	húðflúri húðflúrinu húðflúrið húðflúrs húðflúrsins
+71	3971	verjandi	verjanda verjandann verjandans verjandanum verjandinn verjenda verjendanna verjendum verjendunum verjendur verjendurna verjendurnir
+72	3972	brella	brellan brellna brellnanna brellu brellum brelluna brellunnar brellunni brellunum brellur brellurnar
+73	3973	leiklist	leiklistar leiklistarinnar leiklistin leiklistina leiklistinni
+74	3974	man	mana mananna mani maninu manið mans mansins mön mönin mönum mönunum
+75	3975	kolbrúnn	kolbrún kolbrúna kolbrúnan kolbrúnar kolbrúni kolbrúnir kolbrúnna kolbrúnnar kolbrúnni kolbrúns kolbrúnt kolbrúnu kolbrúnum
+76	3976	upprunalega	
+77	3977	týnast	týndist týndumst týndust týnist týnst týnumst
+78	3978	aðgengi	aðgenginu aðgengis aðgengisins aðgengið
+79	3979	velferð	velferðar velferðarinnar velferðin velferðina velferðinni
+80	3980	sérstaða	sérstaðan sérstöðu sérstöðuna sérstöðunnar sérstöðunni
+81	3981	hvatning	hvatninga hvatninganna hvatningar hvatningarinnar hvatningarnar hvatningin hvatningu hvatningum hvatninguna hvatningunni hvatningunum
+82	3982	greip	greipa greipanna greipar greiparinnar greiparnar greipi greipin greipina greipinni greipinu greipið greips greipsins greipum greipunum
+83	3983	smákaka	smákakan smákakanna smákakna smákaknanna smáköku smákökum smákökuna smákökunnar smákökunni smákökunum smákökur smákökurnar
+84	3984	ógeð	ógeða ógeðanna ógeði ógeðin ógeðinu ógeðið ógeðs ógeðsins ógeðum ógeðunum
+85	3985	verkamaður	verkamann verkamanna verkamannanna verkamanni verkamanninn verkamanninum verkamanns verkamannsins verkamaðurinn verkamenn verkamennina verkamennirnir verkamönnum verkamönnunum
+86	3986	ástarsamband	ástarsambanda ástarsambandanna ástarsambandi ástarsambandinu ástarsambandið ástarsambands ástarsambandsins ástarsambönd ástarsamböndin ástarsamböndum ástarsamböndunum
+87	3987	vegagerð	vegagerðar vegagerðarinnar vegagerðin vegagerðina vegagerðinni
+88	3988	hagfræðingur	hagfræðing hagfræðinga hagfræðingana hagfræðinganna hagfræðingar hagfræðingarnir hagfræðingi hagfræðinginn hagfræðingnum hagfræðings hagfræðingsins hagfræðingum hagfræðingunum hagfræðingurinn
+89	3989	viðleitni	viðleitnin viðleitnina viðleitninnar viðleitninni
+90	3990	kunningi	kunninginn kunningja kunningjana kunningjann kunningjanna kunningjans kunningjanum kunningjar kunningjarnir kunningjum kunningjunum
+91	3991	tromma	tromman trommandi trommanna trommar trommast trommað trommaða trommaðan trommaðar trommaði trommaðir trommaðist trommaðra trommaðrar trommaðri trommaðs trommaðu trommaður trommi trommir trommist trommið trommu trommum trommumst trommuna trommunnar trommunni trommunum trommur trommurnar trommuð trommuðu trommuðum trommuðumst trommuðust trommuðuð
+92	3992	laglegur	lagleg laglega laglegan laglegar laglegast laglegasta laglegastan laglegastar laglegasti laglegastir laglegastra laglegastrar laglegastri laglegasts laglegastur laglegi laglegir laglegra laglegrar laglegri laglegs laglegt laglegu laglegum laglegust laglegustu laglegustum
+93	3993	lögfræði	lögfræðin lögfræðina lögfræðinnar lögfræðinni
+94	3994	ökutæki	ökutækin ökutækinu ökutækis ökutækisins ökutækið ökutækja ökutækjanna ökutækjum ökutækjunum
+95	3995	spilltur	spillt spillta spilltan spilltar spilltara spilltari spilltast spilltasta spilltastan spilltastar spilltasti spilltastir spilltastra spilltastrar spilltastri spilltasts spilltastur spillti spilltir spilltra spilltrar spilltri spillts spilltu spilltum spilltust spilltustu spilltustum
+96	3996	hávaxinn	hávaxin hávaxinna hávaxinnar hávaxinni hávaxins hávaxið hávaxna hávaxnar hávaxnara hávaxnari hávaxnast hávaxnasta hávaxnastan hávaxnastar hávaxnasti hávaxnastir hávaxnastra hávaxnastrar hávaxnastri hávaxnasts hávaxnastur hávaxni hávaxnir hávöxnu hávöxnum hávöxnust hávöxnustu hávöxnustum
+97	3997	upplifun	upplifana upplifananna upplifanir upplifanirnar upplifunar upplifunarinnar upplifunin upplifunina upplifuninni upplifunum upplifununum
+98	3998	skíði	skíða skíðanna skíðin skíðinu skíðis skíðisins skíðið skíðum skíðunum
+99	3999	lækur	læk læki lækina lækinn lækir lækirnir lækja lækjanna lækjar lækjarins lækjum lækjunum læknum lækurinn
+100	4000	hanski	hanska hanskana hanskann hanskanna hanskans hanskanum hanskar hanskarnir hanskinn hönskum hönskunum

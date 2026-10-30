@@ -1,0 +1,100 @@
+1	4301	tafarlaust	
+2	4302	hroki	hroka hrokann hrokans hrokanum hrokinn
+3	4303	bit	bita bitanna biti bitin bitinu bitið bits bitsins bitum bitunum
+4	4304	endurkoma	endurkoman endurkomanna endurkomna endurkomnanna endurkomu endurkomum endurkomuna endurkomunnar endurkomunni endurkomunum endurkomur endurkomurnar
+5	4305	kex	kexa kexanna kexi kexin kexins kexinu kexið kexum kexunum
+6	4306	rokka	rokkandi rokkar rokkast rokkað rokkaða rokkaðan rokkaðar rokkaði rokkaðir rokkaðist rokkaðra rokkaðrar rokkaðri rokkaðs rokkaðu rokkaður rokki rokkir rokkist rokkið rokkum rokkumst rokkuð rokkuðu rokkuðum rokkuðumst rokkuðust rokkuðuð
+7	4307	áverki	áverka áverkana áverkann áverkanna áverkans áverkanum áverkar áverkarnir áverkinn áverkum áverkunum
+8	4308	klúður	klúðri klúðrinu klúðrið klúðurs klúðursins
+9	4309	ökuskírteini	ökuskírteina ökuskírteinanna ökuskírteinin ökuskírteininu ökuskírteinis ökuskírteinisins ökuskírteinið ökuskírteinum ökuskírteinunum
+10	4310	jógi	jóga jógana jógann jóganna jógans jóganum jógar jógarnir jóginn jógum jógunum
+11	4311	mótmælandi	mótmælanda mótmælandann mótmælandans mótmælandanum mótmælandinn mótmælenda mótmælendanna mótmælendum mótmælendunum mótmælendur mótmælendurna mótmælendurnir
+12	4312	fallbyssa	fallbyssan fallbyssanna fallbyssna fallbyssnanna fallbyssu fallbyssum fallbyssuna fallbyssunnar fallbyssunni fallbyssunum fallbyssur fallbyssurnar
+13	4313	bræða	brædd brædda bræddan bræddar bræddi bræddir bræddist bræddra bræddrar bræddri brædds bræddu bræddum bræddumst bræddur bræddust brædduð brætt bræðandi bræðast bræði bræðir bræðist bræðið bræðst bræðum bræðumst
+14	4314	vitund	vitundar vitundarinnar vitundin vitundina vitundinni
+15	4315	skrokkur	skrokk skrokka skrokkana skrokkanna skrokkar skrokkarnir skrokki skrokkinn skrokknum skrokks skrokksins skrokkum skrokkunum skrokkurinn
+16	4316	samantekt	samantekta samantektanna samantektar samantektarinnar samantektin samantektina samantektinni samantektir samantektirnar samantektum samantektunum
+17	4317	eftirlíking	eftirlíkinga eftirlíkinganna eftirlíkingar eftirlíkingarinnar eftirlíkingarnar eftirlíkingin eftirlíkingu eftirlíkingum eftirlíkinguna eftirlíkingunni eftirlíkingunum
+18	4318	þögull	þögla þöglan þöglar þöglara þöglari þöglast þöglasta þöglastan þöglastar þöglasti þöglastir þöglastra þöglastrar þöglastri þöglasts þöglastur þögli þöglir þöglu þöglum þöglust þöglustu þöglustum þögul þögula þögulan þögular þögulast þögulasta þögulastan þögulastar þögulasti þögulastir þögulastra þögulastrar þögulastri þögulasts þögulastur þöguli þögulir þögulla þögullar þögulli þöguls þögult þögulu þögulum þögulust þögulustu þögulustum
+19	4319	útlagi	útlaga útlagana útlagann útlaganna útlagans útlaganum útlagar útlagarnir útlaginn útlögum útlögunum
+20	4320	je	jea jeanna jei jein jeinu jeið jes jesins jeum jeunum
+21	4321	fáránlega	fáránlegar fáránlegast
+22	4322	hækkun	hækkana hækkananna hækkanir hækkanirnar hækkunar hækkunarinnar hækkunin hækkunina hækkuninni hækkunum hækkununum
+23	4323	stækkun	stækkana stækkananna stækkanir stækkanirnar stækkunar stækkunarinnar stækkunin stækkunina stækkuninni stækkunum stækkununum
+24	4324	óhugnanlegur	óhugnanleg óhugnanlega óhugnanlegan óhugnanlegar óhugnanlegast óhugnanlegasta óhugnanlegastan óhugnanlegastar óhugnanlegasti óhugnanlegastir óhugnanlegastra óhugnanlegastrar óhugnanlegastri óhugnanlegasts óhugnanlegastur óhugnanlegi óhugnanlegir óhugnanlegra óhugnanlegrar óhugnanlegri óhugnanlegs óhugnanlegt óhugnanlegu óhugnanlegum óhugnanlegust óhugnanlegustu óhugnanlegustum
+25	4325	heyrnarlaus	heyrnarlausa heyrnarlausan heyrnarlausar heyrnarlausara heyrnarlausari heyrnarlausast heyrnarlausasta heyrnarlausastan heyrnarlausastar heyrnarlausasti heyrnarlausastir heyrnarlausastra heyrnarlausastrar heyrnarlausastri heyrnarlausasts heyrnarlausastur heyrnarlausi heyrnarlausir heyrnarlausra heyrnarlausrar heyrnarlausri heyrnarlauss heyrnarlaust heyrnarlausu heyrnarlausum heyrnarlausust heyrnarlausustu heyrnarlausustum
+26	4326	ósvikinn	ósvikin ósvikinna ósvikinnar ósvikinni ósvikins ósvikið ósvikna ósviknar ósvikni ósviknir ósviknu ósviknum
+27	4327	tilhneiging	tilhneiginga tilhneiginganna tilhneigingar tilhneigingarinnar tilhneigingarnar tilhneigingin tilhneigingu tilhneigingum tilhneiginguna tilhneigingunni tilhneigingunum
+28	4328	hlýtt	hlýjast hlýrra
+29	4329	grill	grilla grillanna grilli grillin grillinu grillið grills grillsins grillum grillunum
+30	4330	smábarn	smábarna smábarnanna smábarni smábarninu smábarnið smábarns smábarnsins smábörn smábörnin smábörnum smábörnunum
+31	4331	hlíf	hlífa hlífanna hlífar hlífarinnar hlífarnar hlífin hlífina hlífinni hlífum hlífunum
+32	4332	ónæmiskerfi	ónæmiskerfa ónæmiskerfanna ónæmiskerfin ónæmiskerfinu ónæmiskerfis ónæmiskerfisins ónæmiskerfið ónæmiskerfum ónæmiskerfunum
+33	4333	rjómi	rjóma rjómann rjómans rjómanum rjóminn
+34	4334	vesti	vesta vestanna vestin vestinu vestis vestisins vestið vestum vestunum
+35	4335	læknisfræði	læknisfræðin læknisfræðina læknisfræðinnar læknisfræðinni
+36	4336	tinna	tinnan tinnanna tinnu tinnum tinnuna tinnunnar tinnunni tinnunum tinnur tinnurnar
+37	4337	bráðna	bráðnandi bráðnar bráðnað bráðnaða bráðnaðan bráðnaðar bráðnaði bráðnaðir bráðnaðra bráðnaðrar bráðnaðri bráðnaðs bráðnaðu bráðnaður bráðni bráðnir bráðnið bráðnum bráðnuð bráðnuðu bráðnuðum bráðnuðuð
+38	4338	hleðsla	hleðslan hleðslna hleðslnanna hleðslu hleðslum hleðsluna hleðslunnar hleðslunni hleðslunum hleðslur hleðslurnar
+39	4339	hæfni	hæfnin hæfnina hæfninnar hæfninni
+40	4340	rofi	rofa rofana rofann rofanna rofans rofanum rofar rofarnir rofinn rofum rofunum
+41	4341	kóróna	kórónan kórónandi kórónanna kórónar kórónast kórónað kórónaða kórónaðan kórónaðar kórónaði kórónaðir kórónaðist kórónaðra kórónaðrar kórónaðri kórónaðs kórónaðu kórónaður kóróni kórónir kórónist kórónið kórónu kórónum kórónumst kórónuna kórónunnar kórónunni kórónunum kórónur kórónurnar kórónuð kórónuðu kórónuðum kórónuðumst kórónuðust kórónuðuð
+42	4342	ásetningur	ásetning ásetningi ásetninginn ásetningnum ásetnings ásetningsins ásetningurinn
+43	4343	veðurfar	veðurfari veðurfarinu veðurfarið veðurfars veðurfarsins
+44	4344	móðurmál	móðurmála móðurmálanna móðurmáli móðurmálin móðurmálinu móðurmálið móðurmáls móðurmálsins móðurmálum móðurmálunum
+45	4345	slitna	slitnandi slitnar slitnað slitnaða slitnaðan slitnaðar slitnaði slitnaðir slitnaðra slitnaðrar slitnaðri slitnaðs slitnaður slitni slitnir slitnið slitnum slitnuð slitnuðu slitnuðum slitnuðuð
+46	4346	snær	snæ snæinn snænum snærinn snæs snæsins
+47	4347	meginregla	meginreglan meginreglanna meginreglna meginreglnanna meginreglu meginreglum meginregluna meginreglunnar meginreglunni meginreglunum meginreglur meginreglurnar
+48	4348	tuttugasti	tuttugasta tuttugustu
+49	4349	ræsi	ræsa ræsanna ræsin ræsinu ræsis ræsisins ræsið ræsum ræsunum
+50	4350	hluta	hlutandi hlutar hlutast hlutað hlutaða hlutaðan hlutaðar hlutaði hlutaðir hlutaðist hlutaðra hlutaðrar hlutaðri hlutaðs hlutaðu hlutaður hluti hlutir hlutist hlutið hlutum hlutumst hlutuð hlutuðu hlutuðum hlutuðumst hlutuðust hlutuðuð
+51	4351	tekja	tekjan tekju tekjum tekjuna tekjunnar tekjunni tekjunum tekjurnar tekna teknanna
+52	4352	uppvakningur	uppvakning uppvakninga uppvakningana uppvakninganna uppvakningar uppvakningarnir uppvakningi uppvakninginn uppvakningnum uppvaknings uppvakningsins uppvakningum uppvakningunum uppvakningurinn
+53	4353	heimsendir	heimsendi heimsendinn heimsendinum heimsendirinn heimsendis heimsendisins
+54	4354	þrot	þrota þrotanna þroti þrotin þrotinu þrotið þrots þrotsins þrotum þrotunum
+55	4355	kylfa	kylfan kylfanna kylfna kylfnanna kylfu kylfum kylfuna kylfunnar kylfunni kylfunum kylfur kylfurnar
+56	4356	fífla	fíflandi fíflar fíflast fíflað fíflaða fíflaðan fíflaðar fíflaði fíflaðir fíflaðist fíflaðra fíflaðrar fíflaðri fíflaðs fíflaðu fíflaður fífli fíflir fíflist fíflið fíflum fíflumst fífluð fífluðu fífluðum fífluðumst fífluðust fífluðuð
+57	4357	heimavöllur	heimavalla heimavallanna heimavallar heimavallarins heimavelli heimavellina heimavellinum heimavellir heimavellirnir heimavöll heimavöllinn heimavöllum heimavöllunum heimavöllurinn
+58	4358	popp	poppi poppinu poppið popps poppsins
+59	4359	pírati	pírata píratana píratann píratanna píratans píratanum píratar píratarnir píratinn pírötum pírötunum
+60	4360	skær	skæra skæran skærar skærara skærari skærast skærasta skærastan skærastar skærasti skærastir skærastra skærastrar skærastri skærasts skærastur skæri skærir skærra skærrar skærri skærs skært skæru skærum skærust skærustu skærustum
+61	4361	landlæknir	landlækna landlæknana landlæknanna landlæknar landlæknarnir landlækni landlækninn landlækninum landlæknirinn landlæknis landlæknisins landlæknum landlæknunum
+62	4362	misheppnast	misheppnað misheppnaða misheppnaðan misheppnaðar misheppnaði misheppnaðir misheppnaðist misheppnaðra misheppnaðrar misheppnaðri misheppnaðs misheppnaður misheppnist misheppnumst misheppnuð misheppnuðu misheppnuðum misheppnuðumst misheppnuðust
+63	4363	skakkur	skakka skakkan skakkar skakkara skakkari skakkast skakkasta skakkastan skakkastar skakkasti skakkastir skakkastra skakkastrar skakkastri skakkasts skakkastur skakki skakkir skakkra skakkrar skakkri skakks skakkt skökk skökku skökkum skökkust skökkustu skökkustum
+64	4364	trúfélag	trúfélaga trúfélaganna trúfélagi trúfélaginu trúfélagið trúfélags trúfélagsins trúfélög trúfélögin trúfélögum trúfélögunum
+65	4365	papi	papa papana papann papanna papans papanum papar paparnir papinn pöpum pöpunum
+66	4366	norðaustur	norðaustar norðaustast norðaustri norðaustrinu norðaustrið norðausturs norðaustursins
+67	4367	neyta	neyst neytandi neytast neyti neytir neytist neytið neytt neytta neyttan neyttar neytti neyttir neyttist neyttra neyttrar neyttri neytts neyttu neyttum neyttumst neyttur neyttust neyttuð neytum neytumst
+68	4368	maur	maura maurana mauranna maurar maurarnir maurinn maurnum maurs maursins maurum maurunum
+69	4369	framsókn	framsóknar framsóknarinnar framsóknin framsóknina framsókninni
+70	4370	íbúðarhús	íbúðarhúsa íbúðarhúsanna íbúðarhúsi íbúðarhúsin íbúðarhúsinu íbúðarhúsið íbúðarhúss íbúðarhússins íbúðarhúsum íbúðarhúsunum
+71	4371	hlutfallslega	
+72	4372	hátíðlegur	hátíðleg hátíðlega hátíðlegan hátíðlegar hátíðlegast hátíðlegasta hátíðlegastan hátíðlegastar hátíðlegasti hátíðlegastir hátíðlegastra hátíðlegastrar hátíðlegastri hátíðlegasts hátíðlegastur hátíðlegi hátíðlegir hátíðlegra hátíðlegrar hátíðlegri hátíðlegs hátíðlegt hátíðlegu hátíðlegum hátíðlegust hátíðlegustu hátíðlegustum
+73	4373	eftirmynd	eftirmynda eftirmyndanna eftirmyndar eftirmyndarinnar eftirmyndin eftirmyndina eftirmyndinni eftirmyndir eftirmyndirnar eftirmyndum eftirmyndunum
+74	4374	útibú	útibúa útibúanna útibúi útibúin útibúinu útibúið útibús útibúsins útibúum útibúunum
+75	4375	þolinmæði	þolinmæðin þolinmæðina þolinmæðinnar þolinmæðinni
+76	4376	geymir	geyma geymana geymanna geymar geymarnir geymi geyminn geyminum geymirinn geymis geymisins geymum geymunum
+77	4377	verðbréf	verðbréfa verðbréfanna verðbréfi verðbréfin verðbréfinu verðbréfið verðbréfs verðbréfsins verðbréfum verðbréfunum
+78	4378	alþýða	alþýðan alþýðu alþýðuna alþýðunnar alþýðunni
+79	4379	bremsa	bremsan bremsandi bremsanna bremsar bremsað bremsaði bremsaðir bremsaðu bremsi bremsir bremsið bremsu bremsum bremsuna bremsunnar bremsunni bremsunum bremsur bremsurnar bremsuðu bremsuðum bremsuðuð
+80	4380	lokun	lokana lokananna lokanir lokanirnar lokunar lokunarinnar lokunin lokunina lokuninni lokunum lokununum
+81	4381	aðildarfélag	aðildarfélaga aðildarfélaganna aðildarfélagi aðildarfélaginu aðildarfélagið aðildarfélags aðildarfélagsins aðildarfélög aðildarfélögin aðildarfélögum aðildarfélögunum
+82	4382	þjóðerni	þjóðerna þjóðernanna þjóðernin þjóðerninu þjóðernis þjóðernisins þjóðernið þjóðernum þjóðernunum
+83	4383	blær	blæ blæi blæina blæinn blæir blæirnir blæja blæjanna blæjar blæjarins blæjum blæjunum blænum blærinn blæs blæsins
+84	4384	linur	lin lina linan linar linara linari linast linasta linastan linastar linasti linastir linastra linastrar linastri linasts linastur lini linir linra linrar linri lins lint linu linum linust linustu linustum
+85	4385	tina	tinandi tinar tinað tinaði tinaðir tinaðu tini tinir tinið tinum tinuðu tinuðum tinuðuð
+86	4386	herbergisfélagi	herbergisfélaga herbergisfélagana herbergisfélagann herbergisfélaganna herbergisfélagans herbergisfélaganum herbergisfélagar herbergisfélagarnir herbergisfélaginn herbergisfélögum herbergisfélögunum
+87	4387	senna	sennan sennanna sennu sennum sennuna sennunnar sennunni sennunum sennur sennurnar
+88	4388	hraðbraut	hraðbrauta hraðbrautanna hraðbrautar hraðbrautarinnar hraðbrautin hraðbrautina hraðbrautinni hraðbrautir hraðbrautirnar hraðbrautum hraðbrautunum
+89	4389	rotna	rotnandi rotnar rotnað rotnaða rotnaðan rotnaðar rotnaði rotnaðir rotnaðra rotnaðrar rotnaðri rotnaðs rotnaðu rotnaður rotni rotnir rotnið rotnum rotnuð rotnuðu rotnuðum rotnuðuð
+90	4390	gersamlega	
+91	4391	arfleifð	arfleifðar arfleifðarinnar arfleifðin arfleifðina arfleifðinni
+92	4392	ábyggilega	
+93	4393	tæla	tælandi tælast tæld tælda tældan tældar tældi tældir tældist tældra tældrar tældri tælds tældu tældum tældumst tældur tældust tælduð tæli tælir tælist tælið tælst tælt tælum tælumst
+94	4394	hæfileikaríkur	hæfileikarík hæfileikaríka hæfileikaríkan hæfileikaríkar hæfileikaríkara hæfileikaríkari hæfileikaríkast hæfileikaríkasta hæfileikaríkastan hæfileikaríkastar hæfileikaríkasti hæfileikaríkastir hæfileikaríkastra hæfileikaríkastrar hæfileikaríkastri hæfileikaríkasts hæfileikaríkastur hæfileikaríki hæfileikaríkir hæfileikaríkra hæfileikaríkrar hæfileikaríkri hæfileikaríks hæfileikaríkt hæfileikaríku hæfileikaríkum hæfileikaríkust hæfileikaríkustu hæfileikaríkustum
+95	4395	sjálfbærni	sjálfbærnin sjálfbærnina sjálfbærninnar sjálfbærninni
+96	4396	neisti	neista neistana neistann neistanna neistans neistanum neistar neistarnir neistinn neistum neistunum
+97	4397	leikstjórn	leikstjórnar leikstjórnarinnar leikstjórnin leikstjórnina leikstjórninni
+98	4398	ritstjórn	ritstjórna ritstjórnanna ritstjórnar ritstjórnarinnar ritstjórnin ritstjórnina ritstjórninni ritstjórnir ritstjórnirnar ritstjórnum ritstjórnunum
+99	4399	koddi	kodda koddana koddann koddanna koddans koddanum koddar koddarnir koddinn koddum koddunum
+100	4400	utanaðkomandi	

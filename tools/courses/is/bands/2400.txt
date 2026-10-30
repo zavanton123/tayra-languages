@@ -1,0 +1,100 @@
+1	2301	heiman	
+2	2302	jarðvegur	jarðveg jarðvega jarðveganna jarðvegar jarðvegarins jarðvegi jarðvegina jarðveginn jarðveginum jarðvegir jarðvegirnir jarðvegs jarðvegsins jarðvegum jarðvegunum jarðvegurinn
+3	2303	salt	salta saltanna salti saltinu saltið salts saltsins sölt söltin söltum söltunum
+4	2304	smáatriði	smáatriða smáatriðanna smáatriðin smáatriðinu smáatriðis smáatriðisins smáatriðið smáatriðum smáatriðunum
+5	2305	tiltölulega	
+6	2306	samræmi	samræminu samræmis samræmisins samræmið
+7	2307	súpa	saup saupst saupstu sopin sopinn sopinna sopinnar sopinni sopins sopið sopna sopnar sopni sopnir sopnu sopnum supu supum supuð sypi sypir sypirðu sypu sypum sypuð súpan súpandi súpanna súpi súpir súpirðu súpið súpna súpnanna súptu súpu súpum súpuna súpunnar súpunni súpunum súpur súpurnar sýp sýpur sýpurðu
+8	2308	innilega	innilegar innilegast
+9	2309	miðbær	miðbæ miðbæi miðbæina miðbæinn miðbæir miðbæirnir miðbæja miðbæjanna miðbæjar miðbæjarins miðbæjum miðbæjunum miðbænum miðbærinn
+10	2310	önn	anna annanna annar annarinnar annir annirnar önnin önnina önninni önnum önnunum
+11	2311	sögulegur	söguleg sögulegan sögulegar sögulegast sögulegasta sögulegastan sögulegastar sögulegasti sögulegastir sögulegastra sögulegastrar sögulegastri sögulegasts sögulegastur sögulegi sögulegir sögulegra sögulegrar sögulegri sögulegs sögulegt sögulegu sögulegum sögulegust sögulegustu sögulegustum
+12	2312	traust	trausti traustinu traustið trausts traustsins
+13	2313	skammtur	skammt skammta skammtana skammtanna skammtar skammtarnir skammtað skammtaði skammti skammtinn skammtinum skammts skammtsins skammturinn skömmtum skömmtunum
+14	2314	töluverður	töluvert töluverð töluverða töluverðan töluverðar töluverði töluverðir töluverðra töluverðrar töluverðri töluverðs töluverðu töluverðum
+15	2315	rosalegur	rosaleg rosalega rosalegan rosalegar rosalegast rosalegasta rosalegastan rosalegastar rosalegasti rosalegastir rosalegastra rosalegastrar rosalegastri rosalegasts rosalegastur rosalegi rosalegir rosalegra rosalegrar rosalegri rosalegs rosalegt rosalegu rosalegum rosalegust rosalegustu rosalegustum
+16	2316	innflytjandi	innflytjanda innflytjandann innflytjandans innflytjandanum innflytjandinn innflytjenda innflytjendanna innflytjendum innflytjendunum innflytjendur innflytjendurna innflytjendurnir
+17	2317	rúmur	rúm rúma rúman rúmar rúmi rúmir rúmra rúmrar rúmri rúms rúmt rúmu rúmum rýmra rýmri rýmst rýmsta rýmstan rýmstar rýmsti rýmstir rýmstra rýmstrar rýmstri rýmsts rýmstu rýmstum rýmstur
+18	2318	tilkynning	tilkynninga tilkynninganna tilkynningar tilkynningarinnar tilkynningarnar tilkynningin tilkynningu tilkynningum tilkynninguna tilkynningunni tilkynningunum
+19	2319	vitna	vitnandi vitnar vitnast vitnað vitnaði vitnaðir vitnaðist vitnaðu vitni vitnir vitnist vitnið vitnum vitnumst vitnuðu vitnuðum vitnuðumst vitnuðust vitnuðuð
+20	2320	augljós	augljósa augljósan augljósanna augljósar augljósara augljósari augljósast augljósasta augljósastan augljósastar augljósasti augljósastir augljósastra augljósastrar augljósastri augljósasts augljósastur augljósi augljósin augljósinu augljósir augljósið augljósra augljósrar augljósri augljóss augljóssins augljóst augljósu augljósum augljósunum augljósust augljósustu augljósustum
+21	2321	ekta	
+22	2322	póstur	póst pósta póstana póstanna póstar póstarnir pósti póstinn póstinum pósts póstsins póstum póstunum pósturinn
+23	2323	heillandi	
+24	2324	landsbanki	landsbanka landsbankana landsbankann landsbankanna landsbankans landsbankanum landsbankar landsbankarnir landsbankinn landsbönkum landsbönkunum
+25	2325	höfuðborgarsvæði	höfuðborgarsvæða höfuðborgarsvæðanna höfuðborgarsvæðin höfuðborgarsvæðinu höfuðborgarsvæðis höfuðborgarsvæðisins höfuðborgarsvæðið höfuðborgarsvæðum höfuðborgarsvæðunum
+26	2326	vega	veg vegandi vegast vegi vegin veginn veginna veginnar veginni vegins vegir vegirðu vegist vegið vegna vegnar vegni vegnir vegnu vegnum vegst vegum vegumst vegur vegurðu vegðu vægi vægir vægirðu vægist vægju vægjum vægjumst vægjust vægjuð vó vóg vógstu vógu vógum vógumst vógust vóguð vóst vóstu
+27	2327	örlítið	
+28	2328	tefja	tafin tafinn tafinna tafinnar tafinni tafins tafist tafið tafða tafðar tafði tafðir tafðist tafðistu tef tefjandi tefjast tefji tefjir tefjist tefjið tefjum tefjumst tefst tefstu tefur tefði tefðir tefðist tefðu tefðum tefðumst tefðust tefðuð töfðu töfðum töfðumst töfðust töfðuð
+29	2329	viðhalda	viðhaldandi viðhaldast viðhaldi viðhaldin viðhaldinn viðhaldinna viðhaldinnar viðhaldinni viðhaldins viðhaldir viðhaldist viðhaldið viðhaldna viðhaldnar viðhaldni viðhaldnir viðhalstu viðhaltu viðheld viðheldur viðhelst viðhéldi viðhéldir viðhéldist viðhéldu viðhéldum viðhéldumst viðhéldust viðhélduð viðhélst viðhélt viðhöldnu viðhöldnum viðhöldum viðhöldumst
+30	2330	fréttablað	fréttablaða fréttablaðanna fréttablaði fréttablaðinu fréttablaðið fréttablaðs fréttablaðsins fréttablöð fréttablöðin fréttablöðum fréttablöðunum
+31	2331	stærðfræði	stærðfræðin stærðfræðina stærðfræðinnar stærðfræðinni
+32	2332	aðskilja	aðskil aðskilda aðskildar aðskildi aðskildir aðskildist aðskildu aðskildum aðskildumst aðskildust aðskilduð aðskilin aðskilinn aðskilinna aðskilinnar aðskilinni aðskilins aðskilist aðskilið aðskiljandi aðskiljast aðskilji aðskiljir aðskiljist aðskiljið aðskiljum aðskiljumst aðskilst aðskilur
+33	2333	umdæmi	umdæma umdæmanna umdæmin umdæminu umdæmis umdæmisins umdæmið umdæmum umdæmunum
+34	2334	kapteinn	kaptein kapteina kapteinana kapteinanna kapteinar kapteinarnir kapteini kapteininn kapteininum kapteinninn kapteins kapteinsins kapteinum kapteinunum
+35	2335	geimur	geim geima geimana geimanna geimar geimarnir geimi geiminn geimnum geims geimsins geimum geimunum geimurinn
+36	2336	kjörtímabil	kjörtímabila kjörtímabilanna kjörtímabili kjörtímabilin kjörtímabilinu kjörtímabilið kjörtímabils kjörtímabilsins kjörtímabilum kjörtímabilunum
+37	2337	rjúfa	rauf raufst raufstu rjúfandi rjúfi rjúfir rjúfirðu rjúfið rjúfum rjúfðu rofin rofinn rofinna rofinnar rofinni rofins rofið rofna rofnar rofni rofnir rofnu rofnum rufu rufum rufuð ryfi ryfir ryfirðu ryfu ryfum ryfuð rýf rýfur rýfurðu
+38	2338	súkkulaði	súkkulaðinu súkkulaðis súkkulaðisins súkkulaðið
+39	2339	martröð	martraða martraðanna martraðar martraðarinnar martraðir martraðirnar martröðin martröðina martröðinni martröðum martröðunum
+40	2340	fljóta	flaust flaut fljótandi fljóti fljótir fljótið fljóttu fljótum flotin flotinn flotinna flotinnar flotinni flotins flotið flotna flotnar flotni flotnir flotnu flotnum flutu flutum flutuð flyti flytir flytu flytum flytuð flýt flýtur
+41	2341	skemmd	skemmda skemmdanna skemmdar skemmdarinnar skemmdin skemmdina skemmdinni skemmdir skemmdirnar skemmdum skemmdunum
+42	2342	innlendur	innlend innlenda innlendan innlendar innlendi innlendir innlendra innlendrar innlendri innlends innlendu innlendum innlent
+43	2343	stormur	storm storma stormana stormanna stormar stormarnir stormi storminn storminum storms stormsins stormum stormunum stormurinn
+44	2344	steikja	steiki steikir steikist steikið steikjandi steikjast steikjum steikjumst steikst steikt steikta steiktan steiktar steikti steiktir steiktist steiktra steiktrar steiktri steikts steiktu steiktum steiktumst steiktur steiktust steiktuð
+45	2345	klettur	klett kletta klettana klettanna klettar klettarnir kletti klettinn klettinum kletts klettsins klettum klettunum kletturinn
+46	2346	raka	rakandi rakar rakarðu rakast rakað rakaða rakaðan rakaðar rakaði rakaðir rakaðirðu rakaðist rakaðra rakaðrar rakaðri rakaðs rakaðu rakaður raki rakir rakist rakið rökum rökumst rökuð rökuðu rökuðum rökuðumst rökuðust rökuðuð
+47	2347	lilja	liljan liljanna lilju liljum liljuna liljunnar liljunni liljunum liljur liljurnar
+48	2348	aðildarríki	aðildarríkin aðildarríkinu aðildarríkis aðildarríkisins aðildarríkið aðildarríkja aðildarríkjanna aðildarríkjum aðildarríkjunum
+49	2349	alda	aldan aldanna aldna aldnanna öldu öldum ölduna öldunnar öldunni öldunum öldur öldurnar
+50	2350	birgir	birgi birginn birginum birgirinn birgis birgisins birgja birgjana birgjanna birgjar birgjarnir birgjum birgjunum
+51	2351	félagsmaður	félagsmann félagsmanna félagsmannanna félagsmanni félagsmanninn félagsmanninum félagsmanns félagsmannsins félagsmaðurinn félagsmenn félagsmennina félagsmennirnir félagsmönnum félagsmönnunum
+52	2352	kast	kasta kastanna kasti kastinu kastið kasts kastsins köst köstin köstum köstunum
+53	2353	fjörður	firði firðina firðinum firðir firðirnir fjarða fjarðanna fjarðar fjarðarins fjörð fjörðinn fjörðum fjörðunum fjörðurinn
+54	2354	sigling	siglinga siglinganna siglingar siglingarinnar siglingarnar siglingin siglingu siglingum siglinguna siglingunni siglingunum
+55	2355	rokk	rokki rokkinu rokkið rokks rokksins
+56	2356	óþekktur	óþekkt óþekkta óþekktan óþekktar óþekktara óþekktari óþekktast óþekktasta óþekktastan óþekktastar óþekktasti óþekktastir óþekktastra óþekktastrar óþekktastri óþekktasts óþekktastur óþekkti óþekktir óþekktra óþekktrar óþekktri óþekkts óþekktu óþekktum óþekktust óþekktustu óþekktustum
+57	2357	frír	frí fría frían fríar fríast fríasta fríastan fríastar fríasti fríastir fríastra fríastrar fríastri fríasts fríastur fríi fríir frírra frírrar frírri frís frítt fríu fríum fríust fríustu fríustum
+58	2358	frumkvæði	frumkvæðinu frumkvæðis frumkvæðisins frumkvæðið
+59	2359	spjalla	spjallandi spjallar spjallast spjallað spjallaða spjallaðan spjallaðar spjallaði spjallaðir spjallaðist spjallaðra spjallaðrar spjallaðri spjallaðs spjallaðu spjallaður spjalli spjallir spjallist spjallið spjöllum spjöllumst spjölluð spjölluðu spjölluðum spjölluðumst spjölluðust spjölluðuð
+60	2360	töfrar	töfra töfrana töfranna töfrarnir töfrum töfrunum
+61	2361	vinnsla	vinnslan vinnslanna vinnslna vinnslnanna vinnslu vinnslum vinnsluna vinnslunnar vinnslunni vinnslunum vinnslur vinnslurnar
+62	2362	dularfullur	dularfull dularfulla dularfullan dularfullar dularfulli dularfullir dularfullra dularfullrar dularfullri dularfulls dularfullt dularfullu dularfullum dularfyllra dularfyllri dularfyllst dularfyllsta dularfyllstan dularfyllstar dularfyllsti dularfyllstir dularfyllstra dularfyllstrar dularfyllstri dularfyllsts dularfyllstu dularfyllstum dularfyllstur
+63	2363	strangur	stranga strangan strangar strangara strangari strangast strangasta strangastan strangastar strangasti strangastir strangastra strangastrar strangastri strangasts strangastur strangi strangir strangra strangrar strangri strangs strangt ströng ströngu ströngum ströngust ströngustu ströngustum
+64	2364	dóp	dópi dópinu dópið dóps dópsins
+65	2365	dreifing	dreifinga dreifinganna dreifingar dreifingarinnar dreifingarnar dreifingin dreifingu dreifingum dreifinguna dreifingunni dreifingunum
+66	2366	kjör	kjara kjaranna kjöra kjöranna kjöri kjörin kjörinu kjörið kjörs kjörsins kjörum kjörunum
+67	2367	skelfilegur	skelfileg skelfilega skelfilegan skelfilegar skelfilegast skelfilegasta skelfilegastan skelfilegastar skelfilegasti skelfilegastir skelfilegastra skelfilegastrar skelfilegastri skelfilegasts skelfilegastur skelfilegi skelfilegir skelfilegra skelfilegrar skelfilegri skelfilegs skelfilegt skelfilegu skelfilegum skelfilegust skelfilegustu skelfilegustum
+68	2368	herramaður	herramann herramanna herramannanna herramanni herramanninn herramanninum herramanns herramannsins herramaðurinn herramenn herramennina herramennirnir herramönnum herramönnunum
+69	2369	fúll	fúl fúla fúlan fúlar fúlast fúlasta fúlastan fúlastar fúlasti fúlastir fúlastra fúlastrar fúlastri fúlasts fúlastur fúli fúlir fúlla fúllar fúlli fúls fúlt fúlu fúlum fúlust fúlustu fúlustum
+70	2370	fimmtíu	
+71	2371	þrýsta	þrýst þrýstandi þrýstast þrýsti þrýstir þrýstirðu þrýstist þrýstið þrýstu þrýstum þrýstumst þrýstust þrýstuð
+72	2372	álag	álagi álaginu álagið álags álagsins
+73	2373	endir	enda endana endanna endar endarnir endi endinn endinum endirinn endis endisins endum endunum
+74	2374	klefi	klefa klefana klefann klefanna klefans klefanum klefar klefarnir klefinn klefum klefunum
+75	2375	geimvera	geimveran geimveranna geimveru geimverum geimveruna geimverunnar geimverunni geimverunum geimverur geimverurnar
+76	2376	hvalur	hval hvala hvalanna hvali hvalina hvalinn hvalir hvalirnir hvalnum hvals hvalsins hvalurinn hvölum hvölunum
+77	2377	dekk	dekki dekkin dekkinu dekkið dekkja dekkjanna dekkjum dekkjunum dekks dekksins
+78	2378	umkringja	umkringd umkringda umkringdan umkringdar umkringdi umkringdir umkringdist umkringdra umkringdrar umkringdri umkringds umkringdu umkringdum umkringdumst umkringdur umkringdust umkringduð umkringi umkringir umkringist umkringið umkringjandi umkringjast umkringjum umkringjumst umkringst umkringt
+79	2379	sniðugur	sniðug sniðuga sniðugan sniðugar sniðugast sniðugasta sniðugastan sniðugastar sniðugasti sniðugastir sniðugastra sniðugastrar sniðugastri sniðugasts sniðugastur sniðugi sniðugir sniðugra sniðugrar sniðugri sniðugs sniðugt sniðugu sniðugum sniðugust sniðugustu sniðugustum
+80	2380	skýrt	skýrar skýrast
+81	2381	aðall	aðal aðalinn aðallinn aðals aðalsins aðli aðlinum
+82	2382	leikfang	leikfanga leikfanganna leikfangi leikfanginu leikfangið leikfangs leikfangsins leikföng leikföngin leikföngum leikföngunum
+83	2383	jakki	jakka jakkana jakkann jakkanna jakkans jakkanum jakkar jakkarnir jakkinn jökkum jökkunum
+84	2384	hæfur	hæf hæfa hæfan hæfar hæfara hæfari hæfast hæfasta hæfastan hæfastar hæfasti hæfastir hæfastra hæfastrar hæfastri hæfasts hæfastur hæfi hæfir hæfra hæfrar hæfri hæfs hæft hæfu hæfum hæfust hæfustu hæfustum
+85	2385	auðveldlega	auðveldlegar auðveldlegast
+86	2386	magnaður	magnað magnaða magnaðan magnaðar magnaðast magnaðasta magnaðastan magnaðastar magnaðasti magnaðastir magnaðastra magnaðastrar magnaðastri magnaðasts magnaðastur magnaði magnaðir magnaðra magnaðrar magnaðri magnaðs mögnuð mögnuðu mögnuðum mögnuðust mögnuðustu mögnuðustum
+87	2387	hitastig	hitastiga hitastiganna hitastigi hitastigin hitastiginu hitastigið hitastigs hitastigsins hitastigum hitastigunum
+88	2388	samanburður	samanburð samanburðar samanburðarins samanburði samanburðinn samanburðinum samanburðurinn
+89	2389	staðall	staðal staðalinn staðallinn staðals staðalsins staðla staðlana staðlanna staðlar staðlarnir staðli staðlinum stöðlum stöðlunum
+90	2390	duglegur	dugleg duglega duglegan duglegar duglegast duglegasta duglegastan duglegastar duglegasti duglegastir duglegastra duglegastrar duglegastri duglegasts duglegastur duglegi duglegir duglegra duglegrar duglegri duglegs duglegt duglegu duglegum duglegust duglegustu duglegustum
+91	2391	bylting	byltinga byltinganna byltingar byltingarinnar byltingarnar byltingin byltingu byltingum byltinguna byltingunni byltingunum
+92	2392	hóll	hól hóla hólana hólanna hólar hólarnir hóli hólinn hóllinn hólnum hóls hólsins hólum hólunum
+93	2393	mótmæla	mótmælandi mótmæli mótmælir mótmælið mótmælt mótmælti mótmæltir mótmæltu mótmæltum mótmæltuð mótmælum
+94	2394	akkuru	afhverju
+95	2395	bank	banki bankinu bankið banks banksins
+96	2396	efnahagur	efnahag efnahaga efnahaganna efnahagi efnahagina efnahaginn efnahagir efnahagirnir efnahagnum efnahags efnahagsins efnahagurinn efnahögum efnahögunum
+97	2397	vernd	verndar verndarinnar verndin verndina verndinni
+98	2398	sorglegur	sorgleg sorglega sorglegan sorglegar sorglegast sorglegasta sorglegastan sorglegastar sorglegasti sorglegastir sorglegastra sorglegastrar sorglegastri sorglegasts sorglegastur sorglegi sorglegir sorglegra sorglegrar sorglegri sorglegs sorglegt sorglegu sorglegum sorglegust sorglegustu sorglegustum
+99	2399	trúarbrögð	trúarbragða trúarbragðanna trúarbrögðin trúarbrögðum trúarbrögðunum
+100	2400	norn	norna nornanna nornar nornarinnar nornin nornina norninni nornir nornirnar nornum nornunum

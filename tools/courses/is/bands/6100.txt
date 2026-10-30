@@ -1,0 +1,100 @@
+1	6001	sólarlag	sólarlaga sólarlaganna sólarlagi sólarlaginu sólarlagið sólarlags sólarlagsins sólarlög sólarlögin sólarlögum sólarlögunum
+2	6002	brjálast	brjálastu brjálaðist brjálist brjálumst brjáluðumst brjáluðust
+3	6003	leyndardómur	leyndardóm leyndardóma leyndardómana leyndardómanna leyndardómar leyndardómarnir leyndardómi leyndardóminn leyndardóminum leyndardómnum leyndardóms leyndardómsins leyndardómum leyndardómunum leyndardómurinn
+4	6004	almenningssamgöngur	almenningssamgangna almenningssamgangnanna almenningssamgöngum almenningssamgöngunum almenningssamgöngurnar
+5	6005	skorða	skorðan skorðandi skorðanna skorðar skorðast skorðað skorðaða skorðaðan skorðaðar skorðaði skorðaðir skorðaðist skorðaðra skorðaðrar skorðaðri skorðaðs skorðaðu skorðaður skorði skorðir skorðist skorðið skorðna skorðnanna skorðu skorðum skorðumst skorðuna skorðunnar skorðunni skorðunum skorður skorðurnar skorðuð skorðuðu skorðuðum skorðuðumst skorðuðust skorðuðuð
+6	6006	kafna	kafnandi kafnar kafnarðu kafnað kafnaða kafnaðan kafnaðar kafnaði kafnaðir kafnaðra kafnaðrar kafnaðri kafnaðs kafnaðu kafnaður kafni kafnir kafnið köfnum köfnuð köfnuðu köfnuðum köfnuðuð
+7	6007	dómgreind	dómgreindar dómgreindarinnar dómgreindin dómgreindina dómgreindinni
+8	6008	reita	reitandi reiti reitir reitið reitt reitta reittan reittar reitti reittir reittra reittrar reittri reitts reittu reittum reittur reittuð reitum
+9	6009	hreppur	hrepp hreppa hreppana hreppanna hreppar hrepparnir hreppi hreppina hreppinn hreppir hreppirnir hreppnum hrepps hreppsins hreppum hreppunum hreppurinn
+10	6010	grafík	grafíkin grafíkina grafíkinni grafíkur grafíkurinnar
+11	6011	landsfundur	landsfund landsfunda landsfundanna landsfundar landsfundarins landsfundi landsfundina landsfundinn landsfundinum landsfundir landsfundirnir landsfundum landsfundunum landsfundurinn
+12	6012	náttúruauðlind	náttúruauðlinda náttúruauðlindanna náttúruauðlindar náttúruauðlindarinnar náttúruauðlindin náttúruauðlindina náttúruauðlindinni náttúruauðlindir náttúruauðlindirnar náttúruauðlindum náttúruauðlindunum
+13	6013	ávinna	áunna áunnar áunni áunnin áunninn áunninna áunninnar áunninni áunnins áunnir áunnist áunnið áunnu áunnum áunnumst áunnust áunnuð ávann ávannst ávannstu ávinn ávinnandi ávinnast ávinni ávinnir ávinnirðu ávinnist ávinnið ávinnst ávinnum ávinnumst ávinnur ávinnurðu áynni áynnir áynnirðu áynnist áynnu áynnum áynnumst áynnust áynnuð
+14	6014	galdramaður	galdramann galdramanna galdramannanna galdramanni galdramanninn galdramanninum galdramanns galdramannsins galdramaðurinn galdramenn galdramennina galdramennirnir galdramönnum galdramönnunum
+15	6015	snöggvast	
+16	6016	vanilla	vanillan vanillu vanilluna vanillunnar vanillunni
+17	6017	framlengja	framlengd framlengda framlengdan framlengdar framlengdi framlengdir framlengdist framlengdra framlengdrar framlengdri framlengds framlengdu framlengdum framlengdumst framlengdur framlengdust framlengduð framlengi framlengir framlengist framlengið framlengjandi framlengjast framlengjum framlengjumst framlengst framlengt
+18	6018	stjórnarráð	stjórnarráða stjórnarráðanna stjórnarráði stjórnarráðin stjórnarráðinu stjórnarráðið stjórnarráðs stjórnarráðsins stjórnarráðum stjórnarráðunum
+19	6019	vodka	vodkans vodkanu vodkað
+20	6020	brim	brima brimanna brimi brimin briminu brimið brims brimsins brimum brimunum
+21	6021	andmæla	andmælandi andmæli andmælir andmælirðu andmælið andmælt andmælti andmæltir andmæltu andmæltum andmæltuð andmælum
+22	6022	kvíðinn	kvíðin kvíðinna kvíðinnar kvíðinni kvíðins kvíðið kvíðna kvíðnar kvíðnara kvíðnari kvíðnast kvíðnasta kvíðnastan kvíðnastar kvíðnasti kvíðnastir kvíðnastra kvíðnastrar kvíðnastri kvíðnasts kvíðnastur kvíðni kvíðnir kvíðnu kvíðnum kvíðnust kvíðnustu kvíðnustum
+23	6023	vinnuveitandi	vinnuveitanda vinnuveitandann vinnuveitandans vinnuveitandanum vinnuveitandinn vinnuveitenda vinnuveitendanna vinnuveitendum vinnuveitendunum vinnuveitendur vinnuveitendurna vinnuveitendurnir
+24	6024	glansa	glansandi glansar glansað glansaði glansaðir glansaðu glansi glansir glansið glönsum glönsuðu glönsuðum glönsuðuð
+25	6025	þrefaldur	þrefalda þrefaldan þrefaldar þrefaldi þrefaldir þrefaldra þrefaldrar þrefaldri þrefalds þrefalt þreföld þreföldu þreföldum
+26	6026	mis	
+27	6027	afköst	afkasta afkastanna afköstin afköstum afköstunum
+28	6028	handverk	handverki handverkinu handverkið handverks handverksins
+29	6029	kapphlaup	kapphlaupa kapphlaupanna kapphlaupi kapphlaupin kapphlaupinu kapphlaupið kapphlaups kapphlaupsins kapphlaupum kapphlaupunum
+30	6030	innborgun	innborgana innborgananna innborganir innborganirnar innborgunar innborgunarinnar innborgunin innborgunina innborguninni innborgunum innborgununum
+31	6031	verkjalyf	verkjalyfi verkjalyfin verkjalyfinu verkjalyfið verkjalyfja verkjalyfjanna verkjalyfjum verkjalyfjunum verkjalyfs verkjalyfsins
+32	6032	aftari	aftara aftast aftasta aftastan aftastar aftasti aftastir aftastra aftastrar aftastri aftasts aftastur öftust öftustu öftustum
+33	6033	afneitun	afneitana afneitananna afneitanir afneitanirnar afneitunar afneitunarinnar afneitunin afneitunina afneituninni afneitunum afneitununum
+34	6034	sendiboði	sendiboða sendiboðana sendiboðann sendiboðanna sendiboðans sendiboðanum sendiboðar sendiboðarnir sendiboðinn sendiboðum sendiboðunum
+35	6035	kynhneigð	kynhneigðar kynhneigðarinnar kynhneigðin kynhneigðina kynhneigðinni
+36	6036	nærmynd	nærmynda nærmyndanna nærmyndar nærmyndarinnar nærmyndin nærmyndina nærmyndinni nærmyndir nærmyndirnar nærmyndum nærmyndunum
+37	6037	rölta	rölt röltandi rölti röltir röltirðu röltið röltu röltum röltuð
+38	6038	efnahagssvæði	efnahagssvæða efnahagssvæðanna efnahagssvæðin efnahagssvæðinu efnahagssvæðis efnahagssvæðisins efnahagssvæðið efnahagssvæðum efnahagssvæðunum
+39	6039	grafreitur	grafreit grafreita grafreitanna grafreiti grafreitina grafreitinn grafreitir grafreitirnir grafreitnum grafreits grafreitsins grafreitum grafreitunum grafreiturinn
+40	6040	málari	málara málarana málarann málaranna málarans málaranum málarar málararnir málarinn málurum málurunum
+41	6041	fíkill	fíkil fíkilinn fíkillinn fíkils fíkilsins fíkla fíklana fíklanna fíklar fíklarnir fíkli fíklinum fíklum fíklunum
+42	6042	stórborg	stórborga stórborganna stórborgar stórborgarinnar stórborgin stórborgina stórborginni stórborgir stórborgirnar stórborgum stórborgunum
+43	6043	ratsjá	ratsjáa ratsjáin ratsjám ratsjána ratsjánna ratsjánni ratsjánum ratsjár ratsjárinnar ratsjárnar
+44	6044	héri	héra hérana hérann héranna hérans héranum hérar hérarnir hérinn hérum hérunum
+45	6045	fertugur	fertug fertuga fertugan fertugar fertugi fertugir fertugra fertugrar fertugri fertugs fertugt fertugu fertugum
+46	6046	slatti	slatta slattana slattann slattanna slattans slattanum slattar slattarnir slattinn slöttum slöttunum
+47	6047	kopar	koparinn koparnum kopars koparsins
+48	6048	grunsemd	grunsemda grunsemdanna grunsemdar grunsemdarinnar grunsemdin grunsemdina grunsemdinni grunsemdir grunsemdirnar grunsemdum grunsemdunum
+49	6049	glitra	glitrandi glitrar glitrað glitraði glitraðir glitri glitrir glitrið glitrum glitruðu glitruðum glitruðuð
+50	6050	ris	risa risanna risi risin risinu risið riss rissins rissið risum risunum
+51	6051	hlutastarf	hlutastarfa hlutastarfanna hlutastarfi hlutastarfinu hlutastarfið hlutastarfs hlutastarfsins hlutastörf hlutastörfin hlutastörfum hlutastörfunum
+52	6052	íris	írisar írisarinnar írisin írisina írisinni
+53	6053	hífa	hífandi hífast hífi hífir hífist hífið hífst híft hífum hífumst hífð hífða hífðan hífðar hífði hífðir hífðist hífðra hífðrar hífðri hífðs hífðu hífðum hífðumst hífður hífðust hífðuð
+54	6054	mappa	mappan mappanna möppu möppum möppuna möppunnar möppunni möppunum möppur möppurnar
+55	6055	skerfur	skerf skerfa skerfanna skerfi skerfina skerfinn skerfinum skerfir skerfirnir skerfs skerfsins skerfum skerfunum skerfurinn
+56	6056	heimaslóð	heimaslóða heimaslóðanna heimaslóðar heimaslóðarinnar heimaslóðin heimaslóðina heimaslóðinni heimaslóðir heimaslóðirnar heimaslóðum heimaslóðunum
+57	6057	buga	bugandi bugar bugast bugað bugaða bugaðan bugaðar bugaði bugaðir bugaðist bugaðra bugaðrar bugaðri bugaðs bugaðu bugaður bugi bugir bugist bugið bugum bugumst buguð buguðu buguðum buguðumst buguðust buguðuð
+58	6058	hlægja	hlægi hlægir hlægið hlægjandi hlægjum hlægt hlægði hlægðir hlægðu hlægðum hlægðuð
+59	6059	elliheimili	elliheimila elliheimilanna elliheimilin elliheimilinu elliheimilis elliheimilisins elliheimilið elliheimilum elliheimilunum
+60	6060	kvenmaður	kvenmann kvenmanna kvenmannanna kvenmanni kvenmanninn kvenmanninum kvenmanns kvenmannsins kvenmaðurinn kvenmenn kvenmennina kvenmennirnir kvenmönnum kvenmönnunum
+61	6061	athæfi	athæfinu athæfis athæfisins athæfið
+62	6062	skynjari	skynjara skynjarana skynjarann skynjaranna skynjarans skynjaranum skynjarar skynjararnir skynjarinn skynjurum skynjurunum
+63	6063	vinskapur	vinskap vinskapar vinskaparins vinskapinn vinskapnum vinskapurinn
+64	6064	útbrot	útbrota útbrotanna útbroti útbrotin útbrotinu útbrotið útbrots útbrotsins útbrotum útbrotunum
+65	6065	hægfara	
+66	6066	reisn	reisnar reisnarinnar reisnin reisnina reisninni
+67	6067	kveðjast	kvaddist kvaddistu kvaðst kveddist kveddistu kveddumst kveddust kveðjist kveðjistu kveðjumst kveðst kveðstu kvöddumst kvöddust
+68	6068	stytting	styttinga styttinganna styttingar styttingarinnar styttingarnar styttingin styttingu styttingum styttinguna styttingunni styttingunum
+69	6069	mannasiður	mannasið mannasiða mannasiðanna mannasiðar mannasiðarins mannasiði mannasiðina mannasiðinn mannasiðinum mannasiðir mannasiðirnir mannasiðnum mannasiðum mannasiðunum mannasiðurinn
+70	6070	káfa	káfandi káfar káfast káfað káfaða káfaðan káfaðar káfaði káfaðir káfaðist káfaðra káfaðrar káfaðri káfaðs káfaðu káfaður káfi káfir káfist káfið káfum káfumst káfuð káfuðu káfuðum káfuðumst káfuðust káfuðuð
+71	6071	horaður	horast horað horaða horaðan horaðar horaðast horaðasta horaðastan horaðastar horaðasti horaðastir horaðastra horaðastrar horaðastri horaðasts horaðastur horaði horaðir horaðra horaðrar horaðri horaðs horuð horuðu horuðum horuðust horuðustu horuðustum horði
+72	6072	heiðvirður	heiðvirt heiðvirð heiðvirða heiðvirðan heiðvirðar heiðvirðara heiðvirðari heiðvirðast heiðvirðasta heiðvirðastan heiðvirðastar heiðvirðasti heiðvirðastir heiðvirðastra heiðvirðastrar heiðvirðastri heiðvirðasts heiðvirðastur heiðvirði heiðvirðir heiðvirðra heiðvirðrar heiðvirðri heiðvirðs heiðvirðu heiðvirðum heiðvirðust heiðvirðustu heiðvirðustum
+73	6073	friðsæll	friðsæl friðsæla friðsælan friðsælar friðsælast friðsælasta friðsælastan friðsælastar friðsælasti friðsælastir friðsælastra friðsælastrar friðsælastri friðsælasts friðsælastur friðsæli friðsælir friðsælla friðsællar friðsælli friðsæls friðsælt friðsælu friðsælum friðsælust friðsælustu friðsælustum
+74	6074	kynþokkafullur	kynþokkafull kynþokkafulla kynþokkafullan kynþokkafullar kynþokkafulli kynþokkafullir kynþokkafullra kynþokkafullrar kynþokkafullri kynþokkafulls kynþokkafullt kynþokkafullu kynþokkafullum kynþokkafyllra kynþokkafyllri kynþokkafyllst kynþokkafyllsta kynþokkafyllstan kynþokkafyllstar kynþokkafyllsti kynþokkafyllstir kynþokkafyllstra kynþokkafyllstrar kynþokkafyllstri kynþokkafyllsts kynþokkafyllstu kynþokkafyllstum kynþokkafyllstur
+75	6075	innleiðing	innleiðinga innleiðinganna innleiðingar innleiðingarinnar innleiðingarnar innleiðingin innleiðingu innleiðingum innleiðinguna innleiðingunni innleiðingunum
+76	6076	endurhæfing	endurhæfingar endurhæfingarinnar endurhæfingin endurhæfingu endurhæfinguna endurhæfingunni
+77	6077	sprengur	spreng sprengi sprengina sprenginn sprengir sprengirnir sprengja sprengjanna sprengjum sprengjunum sprengnum sprengs sprengsins sprengurinn
+78	6078	brúðgumi	brúðguma brúðgumana brúðgumann brúðgumanna brúðgumans brúðgumanum brúðgumar brúðgumarnir brúðguminn brúðgumum brúðgumunum
+79	6079	áhættusamur	áhættusama áhættusaman áhættusamar áhættusamara áhættusamari áhættusamast áhættusamasta áhættusamastan áhættusamastar áhættusamasti áhættusamastir áhættusamastra áhættusamastrar áhættusamastri áhættusamasts áhættusamastur áhættusami áhættusamir áhættusamra áhættusamrar áhættusamri áhættusams áhættusamt áhættusöm áhættusömu áhættusömum áhættusömust áhættusömustu áhættusömustum
+80	6080	stress	stressi stressins stressinu stressið
+81	6081	örvera	örveran örveranna örveru örverum örveruna örverunnar örverunni örverunum örverur örverurnar
+82	6082	gúmmí	gúmmíi gúmmíinu gúmmíið gúmmís gúmmísins
+83	6083	kvartett	kvartetta kvartettana kvartettanna kvartettar kvartettarnir kvartetti kvartettinn kvartettinum kvartetts kvartettsins kvartettum kvartettunum
+84	6084	kæta	kæst kætandi kætast kæti kætir kætist kætið kætt kætta kættan kættar kætti kættir kættist kættra kættrar kættri kætts kættu kættum kættumst kættur kættust kættuð kætum kætumst
+85	6085	kímnigáfa	kímnigáfan kímnigáfu kímnigáfuna kímnigáfunnar kímnigáfunni
+86	6086	ótakmarkaður	ótakmarkað ótakmarkaða ótakmarkaðan ótakmarkaðar ótakmarkaðast ótakmarkaðasta ótakmarkaðastan ótakmarkaðastar ótakmarkaðasti ótakmarkaðastir ótakmarkaðastra ótakmarkaðastrar ótakmarkaðastri ótakmarkaðasts ótakmarkaðastur ótakmarkaði ótakmarkaðir ótakmarkaðra ótakmarkaðrar ótakmarkaðri ótakmarkaðs ótakmörkuð ótakmörkuðu ótakmörkuðum ótakmörkuðust ótakmörkuðustu ótakmörkuðustum
+87	6087	maltur	malta maltan maltar maltara maltari maltast maltasta maltastan maltastar maltasti maltastir maltastra maltastrar maltastri maltasts maltastur malti maltir maltra maltrar maltri malts maltu maltum maltust maltustu maltustum möltu
+88	6088	þéttleiki	þéttleika þéttleikann þéttleikans þéttleikanum þéttleikinn
+89	6089	svíða	sveið sveiðst sveiðstu sviði sviðin sviðinn sviðinna sviðinnar sviðinni sviðins sviðir sviðirðu sviðist sviðið sviðna sviðnar sviðni sviðnir sviðnu sviðnum sviðu sviðum sviðumst sviðust sviðuð svíddu svíð svíðandi svíðast svíði svíðir svíðirðu svíðist svíðið svíðst svíðstu svíðum svíðumst svíður svíðurðu
+90	6090	byrjandi	byrjanda byrjandann byrjandans byrjandanum byrjandinn byrjenda byrjendanna byrjendum byrjendunum byrjendur byrjendurna byrjendurnir
+91	6091	hvass	hvassa hvassan hvassar hvassara hvassari hvassast hvassasta hvassastan hvassastar hvassasti hvassastir hvassastra hvassastrar hvassastri hvassasts hvassastur hvassi hvassir hvassra hvassrar hvassri hvasst hvöss hvössu hvössum hvössust hvössustu hvössustum
+92	6092	nálægð	nálægðar nálægðarinnar nálægðin nálægðina nálægðinni
+93	6093	fanginn	fangin fanginna fanginnar fanginni fangins fangið fangna fangnar fangni fangnir föngnu föngnum
+94	6094	pass	passi passins passinu passið
+95	6095	óhreinindi	óhreininda óhreinindanna óhreinindin óhreinindum óhreinindunum
+96	6096	franki	franka frankana frankann frankanna frankans frankanum frankar frankarnir frankinn frönkum frönkunum
+97	6097	kennaraháskóli	kennaraháskóla kennaraháskólana kennaraháskólann kennaraháskólanna kennaraháskólans kennaraháskólanum kennaraháskólar kennaraháskólarnir kennaraháskólinn kennaraháskólum kennaraháskólunum
+98	6098	vísindalega	
+99	6099	stubbur	stubb stubba stubbana stubbanna stubbar stubbarnir stubbi stubbinn stubbnum stubbs stubbsins stubbum stubbunum stubburinn
+100	6100	afplána	afplánandi afplánar afplánarðu afplánast afplánað afplánaða afplánaðan afplánaðar afplánaði afplánaðir afplánaðist afplánaðra afplánaðrar afplánaðri afplánaðs afplánaðu afplánaður afpláni afplánir afplánist afplánið afplánum afplánumst afplánuð afplánuðu afplánuðum afplánuðumst afplánuðust afplánuðuð

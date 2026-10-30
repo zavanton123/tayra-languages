@@ -1,0 +1,100 @@
+1	9801	yfirhöfuð	
+2	9802	desert	deserta desertana desertanna desertar desertarnir deserti desertinn desertinum deserts desertsins desertum desertunum
+3	9803	pönk	pönki pönkinu pönkið pönks pönksins
+4	9804	flagg	flagga flagganna flaggi flagginu flaggið flaggs flaggsins flögg flöggin flöggum flöggunum
+5	9805	frjálslega	
+6	9806	fjölbreytilegur	fjölbreytileg fjölbreytilega fjölbreytilegan fjölbreytilegar fjölbreytilegast fjölbreytilegasta fjölbreytilegastan fjölbreytilegastar fjölbreytilegasti fjölbreytilegastir fjölbreytilegastra fjölbreytilegastrar fjölbreytilegastri fjölbreytilegasts fjölbreytilegastur fjölbreytilegi fjölbreytilegir fjölbreytilegra fjölbreytilegrar fjölbreytilegri fjölbreytilegs fjölbreytilegt fjölbreytilegu fjölbreytilegum fjölbreytilegust fjölbreytilegustu fjölbreytilegustum
+7	9807	stjórnarflokkur	stjórnarflokk stjórnarflokka stjórnarflokkana stjórnarflokkanna stjórnarflokkar stjórnarflokkarnir stjórnarflokki stjórnarflokkinn stjórnarflokknum stjórnarflokks stjórnarflokksins stjórnarflokkum stjórnarflokkunum stjórnarflokkurinn
+8	9808	vopnabúr	vopnabúra vopnabúranna vopnabúri vopnabúrin vopnabúrinu vopnabúrið vopnabúrs vopnabúrsins vopnabúrum vopnabúrunum
+9	9809	fyllerí	fyllería fylleríanna fylleríi fylleríin fylleríinu fylleríið fyllerís fyllerísins fylleríum fylleríunum
+10	9810	syrpa	syrpan syrpanna syrpna syrpnanna syrpu syrpum syrpuna syrpunnar syrpunni syrpunum syrpur syrpurnar
+11	9811	gegnsær	gegnsæ gegnsæi gegnsæir gegnsæja gegnsæjan gegnsæjar gegnsæjast gegnsæjasta gegnsæjastan gegnsæjastar gegnsæjasti gegnsæjastir gegnsæjastra gegnsæjastrar gegnsæjastri gegnsæjasts gegnsæjastur gegnsæju gegnsæjum gegnsæjust gegnsæjustu gegnsæjustum gegnsærra gegnsærrar gegnsærri gegnsæs gegnsætt
+12	9812	óhamingja	óhamingjan óhamingju óhamingjuna óhamingjunnar óhamingjunni
+13	9813	enskumælandi	
+14	9814	vöruflutningur	vöruflutning vöruflutninga vöruflutningana vöruflutninganna vöruflutningar vöruflutningarnir vöruflutningi vöruflutninginn vöruflutningnum vöruflutnings vöruflutningsins vöruflutningum vöruflutningunum vöruflutningurinn
+15	9815	launafólk	launafólki launafólkinu launafólkið launafólks launafólksins
+16	9816	meginmarkmið	meginmarkmiða meginmarkmiðanna meginmarkmiði meginmarkmiðin meginmarkmiðinu meginmarkmiðið meginmarkmiðs meginmarkmiðsins meginmarkmiðum meginmarkmiðunum
+17	9817	ríkisábyrgð	ríkisábyrgða ríkisábyrgðanna ríkisábyrgðar ríkisábyrgðarinnar ríkisábyrgðin ríkisábyrgðina ríkisábyrgðinni ríkisábyrgðir ríkisábyrgðirnar ríkisábyrgðum ríkisábyrgðunum
+18	9818	stundakennari	stundakennara stundakennarana stundakennarann stundakennaranna stundakennarans stundakennaranum stundakennarar stundakennararnir stundakennarinn stundakennurum stundakennurunum
+19	9819	áðurnefndur	áðurnefnd áðurnefnda áðurnefndan áðurnefndar áðurnefndi áðurnefndir áðurnefndra áðurnefndrar áðurnefndri áðurnefnds áðurnefndu áðurnefndum áðurnefnt
+20	9820	afskrift	afskrifta afskriftanna afskriftar afskriftarinnar afskriftin afskriftina afskriftinni afskriftir afskriftirnar afskriftum afskriftunum
+21	9821	ágreiningsmál	ágreiningsmála ágreiningsmálanna ágreiningsmáli ágreiningsmálin ágreiningsmálinu ágreiningsmálið ágreiningsmáls ágreiningsmálsins ágreiningsmálum ágreiningsmálunum
+22	9822	gamanmynd	gamanmynda gamanmyndanna gamanmyndar gamanmyndarinnar gamanmyndin gamanmyndina gamanmyndinni gamanmyndir gamanmyndirnar gamanmyndum gamanmyndunum
+23	9823	meðferðis	
+24	9824	hristast	hrist hristist hristumst hristust
+25	9825	svæðisbundinn	svæðisbundin svæðisbundinna svæðisbundinnar svæðisbundinni svæðisbundins svæðisbundið svæðisbundna svæðisbundnar svæðisbundni svæðisbundnir svæðisbundnu svæðisbundnum
+26	9826	sextándi	sextánda sextándu
+27	9827	pakk	pakki pakkinu pakkið pakks pakksins
+28	9828	ógrynni	ógrynna ógrynnanna ógrynnin ógrynninu ógrynnis ógrynnisins ógrynnið ógrynnum ógrynnunum
+29	9829	náttúrufegurð	náttúrufegurðar náttúrufegurðarinnar náttúrufegurðin náttúrufegurðina náttúrufegurðinni
+30	9830	fylgdarmaður	fylgdarmann fylgdarmanna fylgdarmannanna fylgdarmanni fylgdarmanninn fylgdarmanninum fylgdarmanns fylgdarmannsins fylgdarmaðurinn fylgdarmenn fylgdarmennina fylgdarmennirnir fylgdarmönnum fylgdarmönnunum
+31	9831	kynstofn	kynstofna kynstofnana kynstofnanna kynstofnar kynstofnarnir kynstofni kynstofninn kynstofninum kynstofns kynstofnsins kynstofnum kynstofnunum
+32	9832	slysstaður	slysstað slysstaða slysstaðanna slysstaðar slysstaðarins slysstaði slysstaðina slysstaðinn slysstaðir slysstaðirnir slysstaðnum slysstaðurinn slysstöðum slysstöðunum
+33	9833	formsatriði	formsatriða formsatriðanna formsatriðin formsatriðinu formsatriðis formsatriðisins formsatriðið formsatriðum formsatriðunum
+34	9834	basl	basla baslanna basli baslinu baslið basls baslsins bösl böslin böslum böslunum
+35	9835	bolabítur	bolabít bolabíta bolabítana bolabítanna bolabítar bolabítarnir bolabítinn bolabítnum bolabíts bolabítsins bolabítum bolabítunum bolabíturinn
+36	9836	góna	gónandi góndi góndir góndu góndum gónduð góni gónir gónið gónt gónum
+37	9837	kísill	kísil kísilinn kísillinn kísilnum kísils kísilsins kísli kíslinum
+38	9838	raunvísindi	raunvísinda raunvísindanna raunvísindin raunvísindum raunvísindunum
+39	9839	svæðisskipulag	svæðisskipulagi svæðisskipulaginu svæðisskipulagið svæðisskipulags svæðisskipulagsins
+40	9840	flúor	flúori flúorinn flúorinu flúorið flúornum flúors flúorsins
+41	9841	veðurfræðingur	veðurfræðing veðurfræðinga veðurfræðingana veðurfræðinganna veðurfræðingar veðurfræðingarnir veðurfræðingi veðurfræðinginn veðurfræðingnum veðurfræðings veðurfræðingsins veðurfræðingum veðurfræðingunum veðurfræðingurinn
+42	9842	austurrískur	austurrísk austurríska austurrískan austurrískar austurrískara austurrískari austurrískast austurrískasta austurrískastan austurrískastar austurrískasti austurrískastir austurrískastra austurrískastrar austurrískastri austurrískasts austurrískastur austurríski austurrískir austurrískra austurrískrar austurrískri austurrísks austurrískt austurrísku austurrískum austurrískust austurrískustu austurrískustum
+43	9843	sardína	sardínan sardínanna sardínu sardínum sardínuna sardínunnar sardínunni sardínunum sardínur sardínurnar
+44	9844	þrældómur	þrældóm þrældómi þrældóminn þrældóminum þrældómnum þrældóms þrældómsins þrældómurinn
+45	9845	bakrödd	bakradda bakraddanna bakraddar bakraddarinnar bakraddir bakraddirnar bakröddin bakröddina bakröddinni bakröddum bakröddunum
+46	9846	póló	pólóinu pólóið pólós pólósins
+47	9847	óumdeildur	óumdeild óumdeilda óumdeildan óumdeildar óumdeildara óumdeildari óumdeildast óumdeildasta óumdeildastan óumdeildastar óumdeildasti óumdeildastir óumdeildastra óumdeildastrar óumdeildastri óumdeildasts óumdeildastur óumdeildi óumdeildir óumdeildra óumdeildrar óumdeildri óumdeilds óumdeildu óumdeildum óumdeildust óumdeildustu óumdeildustum óumdeilt
+48	9848	þróunarverkefni	þróunarverkefna þróunarverkefnanna þróunarverkefnin þróunarverkefninu þróunarverkefnis þróunarverkefnisins þróunarverkefnið þróunarverkefnum þróunarverkefnunum
+49	9849	lokaverkefni	lokaverkefna lokaverkefnanna lokaverkefnin lokaverkefninu lokaverkefnis lokaverkefnisins lokaverkefnið lokaverkefnum lokaverkefnunum
+50	9850	lágmarkslaun	lágmarkslauna lágmarkslaunanna lágmarkslaunin lágmarkslaunum lágmarkslaununum
+51	9851	hnotskurn	hnotskurnar
+52	9852	eftirköst	eftirkasta eftirkastanna eftirköstin eftirköstum eftirköstunum
+53	9853	keppnisgrein	keppnisgreina keppnisgreinanna keppnisgreinar keppnisgreinarinnar keppnisgreinarnar keppnisgreinin keppnisgreinina keppnisgreininni keppnisgreinum keppnisgreinunum
+54	9854	náttúrufræðingur	náttúrufræðing náttúrufræðinga náttúrufræðingana náttúrufræðinganna náttúrufræðingar náttúrufræðingarnir náttúrufræðingi náttúrufræðinginn náttúrufræðingnum náttúrufræðings náttúrufræðingsins náttúrufræðingum náttúrufræðingunum náttúrufræðingurinn
+55	9855	verkalýðshreyfing	verkalýðshreyfinga verkalýðshreyfinganna verkalýðshreyfingar verkalýðshreyfingarinnar verkalýðshreyfingarnar verkalýðshreyfingin verkalýðshreyfingu verkalýðshreyfingum verkalýðshreyfinguna verkalýðshreyfingunni verkalýðshreyfingunum
+56	9856	inflúensa	inflúensan inflúensu inflúensuna inflúensunnar inflúensunni
+57	9857	öflun	öflunar öflunarinnar öflunin öflunina öfluninni
+58	9858	böllur	balla ballanna ballar ballarins belli bellina bellinum bellir bellirnir böll böllinn böllum böllunum böllurinn
+59	9859	fimmtándi	fimmtánda fimmtándu
+60	9860	sópran	sóprana sópranana sóprananna sópranar sópranarnir sópraninn sópraninum sóprans sópransins sóprönum sóprönunum
+61	9861	ítala	ítalan ítölu ítöluna ítölunnar ítölunni
+62	9862	hrottalegur	hrottaleg hrottalega hrottalegan hrottalegar hrottalegast hrottalegasta hrottalegastan hrottalegastar hrottalegasti hrottalegastir hrottalegastra hrottalegastrar hrottalegastri hrottalegasts hrottalegastur hrottalegi hrottalegir hrottalegra hrottalegrar hrottalegri hrottalegs hrottalegt hrottalegu hrottalegum hrottalegust hrottalegustu hrottalegustum
+63	9863	hrukka	hrukkan hrukkandi hrukkanna hrukkar hrukkast hrukkað hrukkaða hrukkaðan hrukkaðar hrukkaði hrukkaðir hrukkaðist hrukkaðra hrukkaðrar hrukkaðri hrukkaðs hrukkaðu hrukkaður hrukki hrukkir hrukkist hrukkið hrukkna hrukknanna hrukku hrukkum hrukkumst hrukkuna hrukkunnar hrukkunni hrukkunum hrukkur hrukkurnar hrukkuð hrukkuðu hrukkuðum hrukkuðumst hrukkuðust hrukkuðuð
+64	9864	orkulind	orkulinda orkulindanna orkulindar orkulindarinnar orkulindin orkulindina orkulindinni orkulindir orkulindirnar orkulindum orkulindunum
+65	9865	uppreist	uppreista uppreistanna uppreistar uppreistarinnar uppreistin uppreistina uppreistinni uppreistir uppreistirnar uppreistum uppreistunum
+66	9866	útsetja	útset útsetjandi útsetji útsetjir útsetjið útsetjum útsett útsetta útsettan útsettar útsetti útsettir útsettra útsettrar útsettri útsetts útsettu útsettum útsettur útsettuð útsetur
+67	9867	gaukur	gauk gauka gaukana gaukanna gaukar gaukarnir gauki gaukinn gauknum gauks gauksins gaukum gaukunum gaukurinn
+68	9868	sundmaður	sundmann sundmanna sundmannanna sundmanni sundmanninn sundmanninum sundmanns sundmannsins sundmaðurinn sundmenn sundmennina sundmennirnir sundmönnum sundmönnunum
+69	9869	aðalritari	aðalritara aðalritarana aðalritarann aðalritaranna aðalritarans aðalritaranum aðalritarar aðalritararnir aðalritarinn aðalriturum aðalriturunum
+70	9870	hálfmáni	hálfmána hálfmánana hálfmánann hálfmánanna hálfmánans hálfmánanum hálfmánar hálfmánarnir hálfmáninn hálfmánum hálfmánunum
+71	9871	uppvöxtur	uppvaxtar uppvaxtarins uppvexti uppvextinum uppvöxt uppvöxtinn uppvöxturinn
+72	9872	massa	massandi massar massast massað massaða massaðan massaðar massaði massaðir massaðist massaðra massaðrar massaðri massaðs massaðu massaður massi massir massist massið mössum mössumst mössuð mössuðu mössuðum mössuðumst mössuðust mössuðuð
+73	9873	skóglendi	skóglendinu skóglendis skóglendisins skóglendið
+74	9874	samansettur	samansett samansetta samansettan samansettar samansetti samansettir samansettra samansettrar samansettri samansetts samansettu samansettum
+75	9875	grunnvatn	grunnvatni grunnvatninu grunnvatnið grunnvatns grunnvatnsins
+76	9876	fimma	fimman fimmanna fimmu fimmum fimmuna fimmunnar fimmunni fimmunum fimmur fimmurnar
+77	9877	blik	blika blikanna bliki blikin blikinu blikið bliks bliksins blikum blikunum
+78	9878	löðrunga	löðrungandi löðrungar löðrungað löðrungaða löðrungaðan löðrungaðar löðrungaði löðrungaðir löðrungaðra löðrungaðrar löðrungaðri löðrungaðs löðrungaðu löðrungaður löðrungi löðrungir löðrungið löðrungum löðrunguð löðrunguðu löðrunguðum löðrunguðuð
+79	9879	reiknirit	reiknirita reikniritanna reikniriti reikniritin reikniritinu reikniritið reiknirits reikniritsins reikniritum reikniritunum
+80	9880	aðspurður	aðspurt aðspurð aðspurða aðspurðan aðspurðar aðspurði aðspurðir aðspurðra aðspurðrar aðspurðri aðspurðs aðspurðu aðspurðum
+81	9881	ljósta	laust ljóstandi ljósti ljóstir ljóstið ljóstu ljóstum lostin lostinn lostinna lostinnar lostinni lostins lostið lostna lostnar lostni lostnir lostnu lostnum lustu lustum lustuð lysti lystir lystu lystum lystuð lýst lýstur
+82	9882	búta	bútandi bútar bútast bútað bútaða bútaðan bútaðar bútaði bútaðir bútaðist bútaðra bútaðrar bútaðri bútaðs bútaðu bútaður búti bútir bútist bútið bútum bútumst bútuð bútuðu bútuðum bútuðumst bútuðust bútuðuð
+83	9883	dáleiðsla	dáleiðslan dáleiðslu dáleiðsluna dáleiðslunnar dáleiðslunni
+84	9884	lífeyrir	lífeyri lífeyrinn lífeyrinum lífeyririnn lífeyris lífeyrisins
+85	9885	reykelsi	reykelsa reykelsanna reykelsin reykelsinu reykelsis reykelsisins reykelsið reykelsum reykelsunum
+86	9886	vandkvæði	vandkvæða vandkvæðanna vandkvæðin vandkvæðum vandkvæðunum
+87	9887	útboð	útboða útboðanna útboði útboðin útboðinu útboðið útboðs útboðsins útboðum útboðunum
+88	9888	leysir	leysa leysana leysanna leysar leysarnir leysi leysinn leysinum leysirinn leysis leysisins leysum leysunum
+89	9889	naf	nafa nafanna nafar nafi nafinu nafið nafs nafsins nöf nöfin nöfum nöfunum
+90	9890	hrjóta	hraust hraustu hraut hrjótandi hrjóti hrjótir hrjótirðu hrjótið hrjóttu hrjótum hrotin hrotinn hrotinna hrotinnar hrotinni hrotins hrotið hrotna hrotnar hrotni hrotnir hrotnu hrotnum hrutu hrutum hrutuð hryti hrytir hrytirðu hrytu hrytum hrytuð hrýt hrýtur hrýturðu
+91	9891	óhjákvæmilega	
+92	9892	íhaldsflokkur	íhaldsflokk íhaldsflokka íhaldsflokkana íhaldsflokkanna íhaldsflokkar íhaldsflokkarnir íhaldsflokki íhaldsflokkinn íhaldsflokknum íhaldsflokks íhaldsflokksins íhaldsflokkum íhaldsflokkunum íhaldsflokkurinn
+93	9893	etanól	etanóli etanólinu etanólið etanóls etanólsins
+94	9894	kaldi	kalda kaldann kaldans kaldanum kaldinn
+95	9895	eignarhlutur	eignarhlut eignarhluta eignarhlutanna eignarhlutar eignarhlutarins eignarhluti eignarhlutina eignarhlutinn eignarhlutir eignarhlutirnir eignarhlutnum eignarhlutum eignarhlutunum eignarhluturinn
+96	9896	hlýðinn	hlýðin hlýðinna hlýðinnar hlýðinni hlýðins hlýðið hlýðna hlýðnar hlýðnara hlýðnari hlýðnast hlýðnasta hlýðnastan hlýðnastar hlýðnasti hlýðnastir hlýðnastra hlýðnastrar hlýðnastri hlýðnasts hlýðnastur hlýðni hlýðnir hlýðnu hlýðnum hlýðnust hlýðnustu hlýðnustum
+97	9897	atvinnuleit	atvinnuleitar atvinnuleitarinnar atvinnuleitin atvinnuleitina atvinnuleitinni
+98	9898	málsvörn	málsvarna málsvarnanna málsvarnar málsvarnarinnar málsvarnir málsvarnirnar málsvörnin málsvörnina málsvörninni málsvörnum málsvörnunum
+99	9899	reiprennandi	
+100	9900	hreysti	hreystin hreystina hreystinnar hreystinni

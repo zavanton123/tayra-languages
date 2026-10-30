@@ -1,0 +1,100 @@
+1	6501	metall	metal metalinn metallinn metalnum metals metalsins
+2	6502	knúsa	knúsandi knúsar knúsast knúsað knúsaða knúsaðan knúsaðar knúsaði knúsaðir knúsaðist knúsaðra knúsaðrar knúsaðri knúsaðs knúsaðu knúsaður knúsi knúsir knúsist knúsið knúsum knúsumst knúsuð knúsuðu knúsuðum knúsuðumst knúsuðust knúsuðuð
+3	6503	ávinningur	ávinning ávinningi ávinninginn ávinningnum ávinnings ávinningsins ávinningurinn
+4	6504	langafi	langafa langafana langafann langafanna langafans langafanum langafar langafarnir langafinn langöfum langöfunum
+5	6505	áfrýja	áfrýi áfrýir áfrýist áfrýið áfrýjandi áfrýjar áfrýjast áfrýjað áfrýjaða áfrýjaðan áfrýjaðar áfrýjaði áfrýjaðir áfrýjaðist áfrýjaðra áfrýjaðrar áfrýjaðri áfrýjaðs áfrýjaðu áfrýjaður áfrýjum áfrýjumst áfrýjuð áfrýjuðu áfrýjuðum áfrýjuðumst áfrýjuðust áfrýjuðuð
+6	6506	ferðalangur	ferðalang ferðalanga ferðalangana ferðalanganna ferðalangar ferðalangarnir ferðalanginn ferðalangnum ferðalangs ferðalangsins ferðalangurinn ferðalöngum ferðalöngunum
+7	6507	heiðinn	heiðin heiðinna heiðinnar heiðinni heiðins heiðið heiðna heiðnar heiðnara heiðnari heiðnast heiðnasta heiðnastan heiðnastar heiðnasti heiðnastir heiðnastra heiðnastrar heiðnastri heiðnasts heiðnastur heiðni heiðnir heiðnu heiðnum heiðnust heiðnustu heiðnustum
+8	6508	ungbarn	ungbarna ungbarnanna ungbarni ungbarninu ungbarnið ungbarns ungbarnsins ungbörn ungbörnin ungbörnum ungbörnunum
+9	6509	íþróttagrein	íþróttagreina íþróttagreinanna íþróttagreinar íþróttagreinarinnar íþróttagreinarnar íþróttagreinin íþróttagreinina íþróttagreininni íþróttagreinum íþróttagreinunum
+10	6510	verðgildi	verðgildinu verðgildis verðgildisins verðgildið
+11	6511	afþakka	afþakkandi afþakkar afþakkarðu afþakkast afþakkað afþakkaða afþakkaðan afþakkaðar afþakkaði afþakkaðir afþakkaðist afþakkaðra afþakkaðrar afþakkaðri afþakkaðs afþakkaðu afþakkaður afþakki afþakkir afþakkist afþakkið afþökkum afþökkumst afþökkuð afþökkuðu afþökkuðum afþökkuðumst afþökkuðust afþökkuðuð
+12	6512	mennt	menntanna menntar menntarinnar menntin menntina menntinni menntir menntirnar menntum menntunum
+13	6513	dreifbýli	dreifbýlinu dreifbýlis dreifbýlisins dreifbýlið
+14	6514	uppgefinn	uppgefin uppgefinna uppgefinnar uppgefinni uppgefins uppgefið uppgefna uppgefnar uppgefnara uppgefnari uppgefnast uppgefnasta uppgefnastan uppgefnastar uppgefnasti uppgefnastir uppgefnastra uppgefnastrar uppgefnastri uppgefnasts uppgefnastur uppgefni uppgefnir uppgefnu uppgefnum uppgefnust uppgefnustu uppgefnustum
+15	6515	mótsögn	mótsagna mótsagnanna mótsagnar mótsagnarinnar mótsagnir mótsagnirnar mótsögnin mótsögnina mótsögninni mótsögnum mótsögnunum
+16	6516	falda	faldandi faldar faldast faldað faldaða faldaðan faldaðar faldaði faldaðir faldaðist faldaðra faldaðrar faldaðri faldaðs faldaðu faldaður faldi faldir faldirðu faldist faldið földum földumst földuð földuðu földuðum földuðumst földuðust földuðuð
+17	6517	hátalari	hátalara hátalarana hátalarann hátalaranna hátalarans hátalaranum hátalarar hátalararnir hátalarinn hátölurum hátölurunum
+18	6518	svarthol	svarthola svartholanna svartholi svartholin svartholinu svartholið svarthols svartholsins svartholum svartholunum
+19	6519	myndrænn	myndræn myndræna myndrænan myndrænar myndrænast myndrænasta myndrænastan myndrænastar myndrænasti myndrænastir myndrænastra myndrænastrar myndrænastri myndrænasts myndrænastur myndræni myndrænir myndrænna myndrænnar myndrænni myndræns myndrænt myndrænu myndrænum myndrænust myndrænustu myndrænustum
+20	6520	pynting	pyntinga pyntinganna pyntingar pyntingarinnar pyntingarnar pyntingin pyntingu pyntingum pyntinguna pyntingunni pyntingunum
+21	6521	landsmót	landsmóta landsmótanna landsmóti landsmótin landsmótinu landsmótið landsmóts landsmótsins landsmótum landsmótunum
+22	6522	öfund	öfundar öfundarinnar öfundin öfundina öfundinni
+23	6523	auðga	auðgandi auðgar auðgast auðgað auðgaða auðgaðan auðgaðar auðgaði auðgaðir auðgaðist auðgaðra auðgaðrar auðgaðri auðgaðs auðgaðu auðgaður auðgi auðgir auðgist auðgið auðgum auðgumst auðguð auðguðu auðguðum auðguðumst auðguðust auðguðuð
+24	6524	einelti	eineltinu eineltis eineltisins eineltið
+25	6525	lögbrot	lögbrota lögbrotanna lögbroti lögbrotin lögbrotinu lögbrotið lögbrots lögbrotsins lögbrotum lögbrotunum
+26	6526	ítreka	ítrekandi ítrekar ítrekast ítrekað ítrekaða ítrekaðan ítrekaðar ítrekaði ítrekaðir ítrekaðist ítrekaðra ítrekaðrar ítrekaðri ítrekaðs ítrekaðu ítrekaður ítreki ítrekir ítrekist ítrekið ítrekum ítrekumst ítrekuð ítrekuðu ítrekuðum ítrekuðumst ítrekuðust ítrekuðuð
+27	6527	mannkynssaga	mannkynssagan mannkynssögu mannkynssöguna mannkynssögunnar mannkynssögunni
+28	6528	fæla	fælandi fælast fæld fælda fældan fældar fældi fældir fældist fældra fældrar fældri fælds fældu fældum fældumst fældur fældust fælduð fæli fælir fælist fælið fælst fælt fælum fælumst
+29	6529	doktorspróf	doktorsprófa doktorsprófanna doktorsprófi doktorsprófin doktorsprófinu doktorsprófið doktorsprófs doktorsprófsins doktorsprófum doktorsprófunum
+30	6530	glæsibragur	glæsibrag glæsibragar glæsibragarins glæsibraginn glæsibragnum glæsibrags glæsibragsins glæsibragurinn
+31	6531	samstarfsverkefni	samstarfsverkefna samstarfsverkefnanna samstarfsverkefnin samstarfsverkefninu samstarfsverkefnis samstarfsverkefnisins samstarfsverkefnið samstarfsverkefnum samstarfsverkefnunum
+32	6532	keyrsla	keyrslan keyrslna keyrslnanna keyrslu keyrslum keyrsluna keyrslunnar keyrslunni keyrslunum keyrslur keyrslurnar
+33	6533	þjóðlegur	þjóðleg þjóðlega þjóðlegan þjóðlegar þjóðlegast þjóðlegasta þjóðlegastan þjóðlegastar þjóðlegasti þjóðlegastir þjóðlegastra þjóðlegastrar þjóðlegastri þjóðlegasts þjóðlegastur þjóðlegi þjóðlegir þjóðlegra þjóðlegrar þjóðlegri þjóðlegs þjóðlegt þjóðlegu þjóðlegum þjóðlegust þjóðlegustu þjóðlegustum
+34	6534	sjóðandi	
+35	6535	sýkna	sýknan sýknandi sýknar sýknast sýknað sýknaða sýknaðan sýknaðar sýknaði sýknaðir sýknaðist sýknaðra sýknaðrar sýknaðri sýknaðs sýknaðu sýknaður sýkni sýknir sýknist sýknið sýknu sýknum sýknumst sýknuna sýknunnar sýknunni sýknuð sýknuðu sýknuðum sýknuðumst sýknuðust sýknuðuð
+36	6536	viðurnefni	viðurnefna viðurnefnanna viðurnefnin viðurnefninu viðurnefnis viðurnefnisins viðurnefnið viðurnefnum viðurnefnunum
+37	6537	brói	bróa bróana bróann bróanna bróans bróanum bróar bróarnir bróinn bróum bróunum
+38	6538	klókur	klók klóka klókan klókar klókara klókari klókast klókasta klókastan klókastar klókasti klókastir klókastra klókastrar klókastri klókasts klókastur klóki klókir klókra klókrar klókri klóks klókt klóku klókum klókust klókustu klókustum
+39	6539	húsaröð	húsaraða húsaraðanna húsaraðar húsaraðarinnar húsaraðir húsaraðirnar húsaröðin húsaröðina húsaröðinni húsaröðum húsaröðunum
+40	6540	kveikjari	kveikjara kveikjarana kveikjarann kveikjaranna kveikjarans kveikjaranum kveikjarar kveikjararnir kveikjarinn kveikjurum kveikjurunum
+41	6541	loppa	loppan loppanna loppna loppnanna loppu loppum loppuna loppunnar loppunni loppunum loppur loppurnar
+42	6542	pússa	pússandi pússar pússarðu pússast pússað pússaða pússaðan pússaðar pússaði pússaðir pússaðist pússaðra pússaðrar pússaðri pússaðs pússaðu pússaður pússi pússir pússist pússið pússum pússumst pússuð pússuðu pússuðum pússuðumst pússuðust pússuðuð
+43	6543	sópa	sópandi sópar sópast sópað sópaða sópaðan sópaðar sópaði sópaðir sópaðist sópaðra sópaðrar sópaðri sópaðs sópaðu sópaður sópi sópir sópist sópið sópum sópumst sópuð sópuðu sópuðum sópuðumst sópuðust sópuðuð
+44	6544	sjónarsvið	sjónarsviða sjónarsviðanna sjónarsviði sjónarsviðin sjónarsviðinu sjónarsviðið sjónarsviðs sjónarsviðsins sjónarsviðum sjónarsviðunum
+45	6545	fjármálakerfi	fjármálakerfa fjármálakerfanna fjármálakerfin fjármálakerfinu fjármálakerfis fjármálakerfisins fjármálakerfið fjármálakerfum fjármálakerfunum
+46	6546	kælir	kæla kælana kælanna kælar kælarnir kæli kælinn kælinum kælirinn kælis kælisins kælum kælunum
+47	6547	teinn	tein teina teinana teinanna teinar teinarnir teini teininn teininum teinninn teins teinsins teinum teinunum
+48	6548	ferilskrá	ferilskráa ferilskráin ferilskrám ferilskrána ferilskránna ferilskránni ferilskránum ferilskrár ferilskrárinnar ferilskrárnar
+49	6549	ballett	balletta ballettana ballettanna ballettar ballettarnir balletti ballettinn ballettinum balletts ballettsins ballettum ballettunum
+50	6550	raftæki	raftækin raftækinu raftækis raftækisins raftækið raftækja raftækjanna raftækjum raftækjunum
+51	6551	útgerðarmaður	útgerðarmann útgerðarmanna útgerðarmannanna útgerðarmanni útgerðarmanninn útgerðarmanninum útgerðarmanns útgerðarmannsins útgerðarmaðurinn útgerðarmenn útgerðarmennina útgerðarmennirnir útgerðarmönnum útgerðarmönnunum
+52	6552	grið	griða griðanna griðin griðum griðunum
+53	6553	skrásetja	skrásest skráset skrásetjandi skrásetjast skrásetji skrásetjir skrásetjist skrásetjið skrásetjum skrásetjumst skrásett skrásetta skrásettan skrásettar skrásetti skrásettir skrásettist skrásettra skrásettrar skrásettri skrásetts skrásettu skrásettum skrásettumst skrásettur skrásettust skrásettuð skrásetur
+54	6554	háskólastig	háskólastigi háskólastiginu háskólastigið háskólastigs háskólastigsins
+55	6555	náttúrufræði	náttúrufræðin náttúrufræðina náttúrufræðinnar náttúrufræðinni
+56	6556	stefnuskrá	stefnuskráa stefnuskráin stefnuskrám stefnuskrána stefnuskránna stefnuskránni stefnuskránum stefnuskrár stefnuskrárinnar stefnuskrárnar
+57	6557	ostra	ostran ostranna ostru ostrum ostruna ostrunnar ostrunni ostrunum ostrur ostrurnar
+58	6558	frátekinn	frátekin frátekinna frátekinnar frátekinni frátekins frátekið frátekna fráteknar frátekni fráteknir fráteknu fráteknum
+59	6559	tylft	tylfta tylftanna tylftar tylftarinnar tylftin tylftina tylftinni tylftir tylftirnar tylftum tylftunum
+60	6560	tómatsósa	tómatsósan tómatsósanna tómatsósu tómatsósum tómatsósuna tómatsósunnar tómatsósunni tómatsósunum tómatsósur tómatsósurnar
+61	6561	bón	bóna bónanna bónar bónarinnar bóni bónin bónina bóninni bóninu bónir bónirnar bónið bóns bónsins bónum bónunum
+62	6562	glær	glæ glæinn glænum glæra glæran glærar glærara glærari glærast glærasta glærastan glærastar glærasti glærastir glærastra glærastrar glærastri glærasts glærastur glæri glærinn glærir glærra glærrar glærri glærs glært glæru glærum glærust glærustu glærustum glæs glæsins
+63	6563	blinda	blindan blindandi blindar blindast blindastu blindað blindaða blindaðan blindaðar blindaði blindaðir blindaðist blindaðra blindaðrar blindaðri blindaðs blindaðu blindaður blindi blindir blindist blindið blindu blindum blindumst blinduna blindunnar blindunni blinduð blinduðu blinduðum blinduðumst blinduðust blinduðuð
+64	6564	búkur	búk búka búkana búkanna búkar búkarnir búki búkinn búknum búks búksins búkum búkunum búkurinn
+65	6565	gróðurhúsalofttegund	gróðurhúsalofttegunda gróðurhúsalofttegundanna gróðurhúsalofttegundar gróðurhúsalofttegundarinnar gróðurhúsalofttegundin gróðurhúsalofttegundina gróðurhúsalofttegundinni gróðurhúsalofttegundir gróðurhúsalofttegundirnar gróðurhúsalofttegundum gróðurhúsalofttegundunum
+66	6566	setustofa	setustofan setustofanna setustofu setustofum setustofuna setustofunnar setustofunni setustofunum setustofur setustofurnar
+67	6567	vistarvera	vistarveran vistarveranna vistarveru vistarverum vistarveruna vistarverunnar vistarverunni vistarverunum vistarverur vistarverurnar
+68	6568	yfirgnæfa	yfirgnæfandi yfirgnæfi yfirgnæfir yfirgnæfið yfirgnæft yfirgnæfum yfirgnæfði yfirgnæfðir yfirgnæfðu yfirgnæfðum yfirgnæfðuð
+69	6569	tóm	tómi tóminu tómið tóms tómsins
+70	6570	fullkomnun	fullkomnunar fullkomnunarinnar fullkomnunin fullkomnunina fullkomnuninni
+71	6571	skothylki	skothylkin skothylkinu skothylkis skothylkisins skothylkið skothylkja skothylkjanna skothylkjum skothylkjunum
+72	6572	varnarlaus	varnarlausa varnarlausan varnarlausar varnarlausara varnarlausari varnarlausast varnarlausasta varnarlausastan varnarlausastar varnarlausasti varnarlausastir varnarlausastra varnarlausastrar varnarlausastri varnarlausasts varnarlausastur varnarlausi varnarlausir varnarlausra varnarlausrar varnarlausri varnarlauss varnarlaust varnarlausu varnarlausum varnarlausust varnarlausustu varnarlausustum
+73	6573	óteljandi	
+74	6574	einhverfur	einhverf einhverfa einhverfan einhverfar einhverfi einhverfir einhverfra einhverfrar einhverfri einhverfs einhverft einhverfu einhverfum
+75	6575	heimshluti	heimshluta heimshlutana heimshlutann heimshlutanna heimshlutans heimshlutanum heimshlutar heimshlutarnir heimshlutinn heimshlutum heimshlutunum
+76	6576	útdráttur	útdrátt útdrátta útdráttanna útdráttar útdráttarins útdráttinn útdráttum útdráttunum útdrátturinn útdrætti útdrættina útdrættinum útdrættir útdrættirnir
+77	6577	órói	óróa óróana óróann óróanna óróans óróanum óróar óróarnir óróinn óróum óróunum
+78	6578	athugaverður	athugavert athugaverð athugaverða athugaverðan athugaverðar athugaverðara athugaverðari athugaverðast athugaverðasta athugaverðastan athugaverðastar athugaverðasti athugaverðastir athugaverðastra athugaverðastrar athugaverðastri athugaverðasts athugaverðastur athugaverði athugaverðir athugaverðra athugaverðrar athugaverðri athugaverðs athugaverðu athugaverðum athugaverðust athugaverðustu athugaverðustum
+79	6579	guðbrandur	guðbrands
+80	6580	sonarsonur	sonarson sonarsona sonarsonanna sonarsonar sonarsonarins sonarsoninn sonarsonum sonarsonunum sonarsonurinn sonarsyni sonarsynina sonarsyninum sonarsynir sonarsynirnir
+81	6581	hrifsa	hrifsandi hrifsar hrifsast hrifsað hrifsaða hrifsaðan hrifsaðar hrifsaði hrifsaðir hrifsaðist hrifsaðra hrifsaðrar hrifsaðri hrifsaðs hrifsaðu hrifsaður hrifsi hrifsir hrifsist hrifsið hrifsum hrifsumst hrifsuð hrifsuðu hrifsuðum hrifsuðumst hrifsuðust hrifsuðuð
+82	6582	maraþon	maraþona maraþonanna maraþoni maraþonin maraþoninu maraþonið maraþons maraþonsins maraþonum maraþonunum
+83	6583	manndráp	manndrápa manndrápanna manndrápi manndrápin manndrápinu manndrápið manndráps manndrápsins manndrápum manndrápunum
+84	6584	áminning	áminninga áminninganna áminningar áminningarinnar áminningarnar áminningin áminningu áminningum áminninguna áminningunni áminningunum
+85	6585	trylltur	tryllt tryllta trylltan trylltar trylltara trylltari trylltast trylltasta trylltastan trylltastar trylltasti trylltastir trylltastra trylltastrar trylltastri trylltasts trylltastur tryllti trylltir trylltra trylltrar trylltri tryllts trylltu trylltum trylltust trylltustu trylltustum
+86	6586	gígur	gíg gíga gígana gíganna gígar gígarnir gígi gígina gíginn gígir gígirnir gígnum gígs gígsins gígum gígunum gígurinn
+87	6587	heilbrigðiskerfi	heilbrigðiskerfa heilbrigðiskerfanna heilbrigðiskerfin heilbrigðiskerfinu heilbrigðiskerfis heilbrigðiskerfisins heilbrigðiskerfið heilbrigðiskerfum heilbrigðiskerfunum
+88	6588	sóðalegur	sóðaleg sóðalega sóðalegan sóðalegar sóðalegast sóðalegasta sóðalegastan sóðalegastar sóðalegasti sóðalegastir sóðalegastra sóðalegastrar sóðalegastri sóðalegasts sóðalegastur sóðalegi sóðalegir sóðalegra sóðalegrar sóðalegri sóðalegs sóðalegt sóðalegu sóðalegum sóðalegust sóðalegustu sóðalegustum
+89	6589	ofskynjun	ofskynjana ofskynjananna ofskynjanir ofskynjanirnar ofskynjunar ofskynjunarinnar ofskynjunin ofskynjunina ofskynjuninni ofskynjunum ofskynjununum
+90	6590	snauta	snautandi snautar snautast snautað snautaði snautaðir snautaðist snautaðu snauti snautir snautist snautið snautum snautumst snautuðu snautuðum snautuðumst snautuðust snautuðuð
+91	6591	dýrlingur	dýrling dýrlinga dýrlingana dýrlinganna dýrlingar dýrlingarnir dýrlingi dýrlinginn dýrlingnum dýrlings dýrlingsins dýrlingum dýrlingunum dýrlingurinn
+92	6592	matseðill	matseðil matseðilinn matseðillinn matseðils matseðilsins matseðla matseðlana matseðlanna matseðlar matseðlarnir matseðli matseðlinum matseðlum matseðlunum
+93	6593	djásn	djásna djásnanna djásni djásnin djásninu djásnið djásns djásnsins djásnum djásnunum
+94	6594	harðjaxl	harðjaxla harðjaxlana harðjaxlanna harðjaxlar harðjaxlarnir harðjaxli harðjaxlinn harðjaxlinum harðjaxls harðjaxlsins harðjöxlum harðjöxlunum
+95	6595	úrþvætti	úrþvætta úrþvættanna úrþvættin úrþvættinu úrþvættis úrþvættisins úrþvættið úrþvættum úrþvættunum
+96	6596	runka	runkandi runkar runkarðu runkast runkað runkaða runkaðan runkaðar runkaði runkaðir runkaðirðu runkaðist runkaðra runkaðrar runkaðri runkaðs runkaðu runkaður runki runkir runkist runkið runkum runkumst runkuð runkuðu runkuðum runkuðumst runkuðust runkuðuð
+97	6597	heiðursmaður	heiðursmann heiðursmanna heiðursmannanna heiðursmanni heiðursmanninn heiðursmanninum heiðursmanns heiðursmannsins heiðursmaðurinn heiðursmenn heiðursmennina heiðursmennirnir heiðursmönnum heiðursmönnunum
+98	6598	umbera	umbar umbarst umber umberandi umberi umberir umberið umberum umberð umberðu umborin umborinn umborinna umborinnar umborinni umborins umborið umborna umbornar umborni umbornir umbornu umbornum umbáru umbárum umbáruð umbæri umbærir umbæru umbærum umbæruð
+99	6599	skor	skora skoranna skorar skorarinnar skori skorin skorina skorinni skorinu skorir skorirnar skorið skors skorsins skorum skorunum
+100	6600	hrollur	hroll hrolli hrollinn hrollinum hrolls hrollsins hrollurinn

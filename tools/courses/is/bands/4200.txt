@@ -1,0 +1,100 @@
+1	4101	seta	setan setanna setu setum setuna setunnar setunni setunum setur seturnar
+2	4102	þjófnaður	þjófnað þjófnaða þjófnaðanna þjófnaðar þjófnaðarins þjófnaði þjófnaðina þjófnaðinn þjófnaðinum þjófnaðir þjófnaðirnir þjófnaðnum þjófnaðurinn þjófnuðum þjófnuðunum
+3	4103	fjármunir	fjármuna fjármunanna fjármuni fjármunina fjármunirnir fjármunum fjármununum
+4	4104	tvítugur	tvítug tvítuga tvítugan tvítugar tvítugi tvítugir tvítugra tvítugrar tvítugri tvítugs tvítugt tvítugu tvítugum
+5	4105	dúkka	dúkkan dúkkandi dúkkanna dúkkar dúkkast dúkkað dúkkaða dúkkaðan dúkkaðar dúkkaði dúkkaðir dúkkaðist dúkkaðra dúkkaðrar dúkkaðri dúkkaðs dúkkaðu dúkkaður dúkki dúkkir dúkkist dúkkið dúkkna dúkknanna dúkku dúkkum dúkkumst dúkkuna dúkkunnar dúkkunni dúkkunum dúkkur dúkkurnar dúkkuð dúkkuðu dúkkuðum dúkkuðumst dúkkuðust dúkkuðuð
+6	4106	ört	örar örara örast
+7	4107	örva	örvandi örvar örvast örvað örvaða örvaðan örvaðar örvaði örvaðir örvaðist örvaðra örvaðrar örvaðri örvaðs örvaðu örvaður örvi örvir örvist örvið örvum örvumst örvuð örvuðu örvuðum örvuðumst örvuðust örvuðuð
+8	4108	fermetri	fermetra fermetrana fermetrann fermetranna fermetrans fermetranum fermetrar fermetrarnir fermetrinn fermetrum fermetrunum
+9	4109	tilhugsun	tilhugsunar tilhugsunarinnar tilhugsunin tilhugsunina tilhugsuninni
+10	4110	hafnabolti	hafnabolta hafnaboltana hafnaboltann hafnaboltanna hafnaboltans hafnaboltanum hafnaboltar hafnaboltarnir hafnaboltinn hafnaboltum hafnaboltunum
+11	4111	dýrð	dýrða dýrðanna dýrðar dýrðarinnar dýrðin dýrðina dýrðinni dýrðir dýrðirnar dýrðum dýrðunum
+12	4112	mýri	mýra mýranna mýrar mýrarinnar mýrarnar mýrin mýrina mýrinni mýrum mýrunum
+13	4113	trúaður	trúað trúaða trúaðan trúaðar trúaðast trúaðasta trúaðastan trúaðastar trúaðasti trúaðastir trúaðastra trúaðastrar trúaðastri trúaðasts trúaðastur trúaði trúaðir trúaðra trúaðrar trúaðri trúaðs trúuð trúuðu trúuðum trúuðust trúuðustu trúuðustum
+14	4114	tilvitnun	tilvitnana tilvitnananna tilvitnanir tilvitnanirnar tilvitnunar tilvitnunarinnar tilvitnunin tilvitnunina tilvitnuninni tilvitnunum tilvitnununum
+15	4115	hallur	halla hallan hallar hallara hallari hallast hallasta hallastan hallastar hallasti hallastir hallastra hallastrar hallastri hallasts hallastur halli hallir hallra hallrar hallri halls hallt höll höllu höllum höllust höllustu höllustum
+16	4116	jór	jó jóa jóana jóanna jóar jóarnir jóinn jónum jórinn jós jósins jóum jóunum
+17	4117	þróttur	þrótt þróttar þróttarins þrótti þróttinn þróttinum þrótturinn
+18	4118	krukka	krukkan krukkandi krukkar krukkast krukkað krukkaða krukkaðan krukkaðar krukkaði krukkaðir krukkaðist krukkaðra krukkaðrar krukkaðri krukkaðs krukkaðu krukkaður krukki krukkir krukkist krukkið krukkna krukknanna krukku krukkum krukkumst krukkuna krukkunnar krukkunni krukkunum krukkur krukkurnar krukkuð krukkuðu krukkuðum krukkuðumst krukkuðust krukkuðuð
+19	4119	gervihnöttur	gervihnatta gervihnattanna gervihnattar gervihnattarins gervihnetti gervihnettina gervihnettinum gervihnettir gervihnettirnir gervihnött gervihnöttinn gervihnöttum gervihnöttunum gervihnötturinn
+20	4120	víma	víman vímanna vímna vímnanna vímu vímum vímuna vímunnar vímunni vímunum vímur vímurnar
+21	4121	blasa	blasandi blasað blasi blasir blasið blasti blastir blöstu blöstum blöstuð blösum
+22	4122	hó	
+23	4123	tímapunktur	tímapunkt tímapunkta tímapunktana tímapunktanna tímapunktar tímapunktarnir tímapunkti tímapunktinn tímapunktinum tímapunkts tímapunktsins tímapunktum tímapunktunum tímapunkturinn
+24	4124	huggun	huggana huggananna hugganir hugganirnar huggunar huggunarinnar huggunin huggunina hugguninni huggunum huggununum
+25	4125	huggulegur	hugguleg huggulega huggulegan huggulegar huggulegast huggulegasta huggulegastan huggulegastar huggulegasti huggulegastir huggulegastra huggulegastrar huggulegastri huggulegasts huggulegastur huggulegi huggulegir huggulegra huggulegrar huggulegri huggulegs huggulegt huggulegu huggulegum huggulegust huggulegustu huggulegustum
+26	4126	sýnilegur	sýnileg sýnilega sýnilegan sýnilegar sýnilegast sýnilegasta sýnilegastan sýnilegastar sýnilegasti sýnilegastir sýnilegastra sýnilegastrar sýnilegastri sýnilegasts sýnilegastur sýnilegi sýnilegir sýnilegra sýnilegrar sýnilegri sýnilegs sýnilegt sýnilegu sýnilegum sýnilegust sýnilegustu sýnilegustum
+27	4127	hrósa	hrósandi hrósar hrósarðu hrósast hrósað hrósaði hrósaðir hrósaðist hrósaðu hrósi hrósir hrósist hrósið hrósum hrósumst hrósuðu hrósuðum hrósuðumst hrósuðust hrósuðuð
+28	4128	óþekkur	óþekk óþekka óþekkan óþekkar óþekkara óþekkari óþekkast óþekkasta óþekkastan óþekkastar óþekkasti óþekkastir óþekkastra óþekkastrar óþekkastri óþekkasts óþekkastur óþekki óþekkir óþekkra óþekkrar óþekkri óþekks óþekkt óþekku óþekkum óþekkust óþekkustu óþekkustum
+29	4129	lífríki	lífríkin lífríkinu lífríkis lífríkisins lífríkið lífríkja lífríkjanna lífríkjum lífríkjunum
+30	4130	afnám	afnámi afnáminu afnámið afnáms afnámsins
+31	4131	rannsóknarnefnd	rannsóknarnefnda rannsóknarnefndanna rannsóknarnefndar rannsóknarnefndarinnar rannsóknarnefndin rannsóknarnefndina rannsóknarnefndinni rannsóknarnefndir rannsóknarnefndirnar rannsóknarnefndum rannsóknarnefndunum
+32	4132	orðabók	orðabækur orðabækurnar orðabóka orðabókanna orðabókar orðabókarinnar orðabókin orðabókina orðabókinni orðabókum orðabókunum
+33	4133	skerða	skerst skert skerta skertan skertar skerti skertir skertist skertra skertrar skertri skerts skertu skertum skertumst skertur skertust skertuð skerðandi skerðast skerði skerðir skerðist skerðið skerðum skerðumst
+34	4134	mill	milla millanna milli millin millinu millið mills millsins millum millunum
+35	4135	ískaldur	ískalda ískaldan ískaldar ískaldara ískaldari ískaldast ískaldasta ískaldastan ískaldastar ískaldasti ískaldastir ískaldastra ískaldastrar ískaldastri ískaldasts ískaldastur ískaldi ískaldir ískaldra ískaldrar ískaldri ískalds ískalt ísköld ísköldu ísköldum ísköldust ísköldustu ísköldustum
+36	4136	skeyti	skeyta skeytanna skeytin skeytinu skeytis skeytisins skeytið skeytum skeytunum
+37	4137	losun	losana losananna losanir losanirnar losunar losunarinnar losunin losunina losuninni losunum losununum
+38	4138	þema	þemanna þemans þemanu þemað þemu þemum þemun þemunum
+39	4139	óveður	óveðra óveðranna óveðri óveðrin óveðrinu óveðrið óveðrum óveðrunum óveðurs óveðursins óviðri
+40	4140	einrúm	einrúmi einrúminu einrúmið einrúms einrúmsins
+41	4141	þoka	þokan þokandi þokanna þokar þokast þokað þokaði þokaðir þokaðist þokaðu þoki þokir þokist þokið þokna þoknanna þoku þokum þokumst þokuna þokunnar þokunni þokunum þokur þokurnar þokuðu þokuðum þokuðumst þokuðust þokuðuð
+42	4142	hlutafélag	hlutafélaga hlutafélaganna hlutafélagi hlutafélaginu hlutafélagið hlutafélags hlutafélagsins hlutafélög hlutafélögin hlutafélögum hlutafélögunum
+43	4143	pólitík	pólitíkin pólitíkina pólitíkinni pólitíkur pólitíkurinnar
+44	4144	atlaga	atlagan atlaganna atlagna atlagnanna atlögu atlögum atlöguna atlögunnar atlögunni atlögunum atlögur atlögurnar
+45	4145	blankur	blanka blankan blankar blankara blankari blankast blankasta blankastan blankastar blankasti blankastir blankastra blankastrar blankastri blankasts blankastur blanki blankir blankra blankrar blankri blanks blankt blönk blönku blönkum blönkust blönkustu blönkustum
+46	4146	naut	nauta nautanna nauti nautin nautinu nautið nauts nautsins nautum nautunum
+47	4147	bursta	burstandi burstar burstast burstað burstaða burstaðan burstaðar burstaði burstaðir burstaðirðu burstaðist burstaðra burstaðrar burstaðri burstaðs burstaðu burstaður bursti burstir burstist burstið burstum burstumst burstuð burstuðu burstuðum burstuðumst burstuðust burstuðuð
+48	4148	testamenti	testamenta testamentanna testamentin testamentinu testamentis testamentisins testamentið testamentum testamentunum
+49	4149	forvitni	forvitnin forvitnina forvitninnar forvitninni
+50	4150	tína	tínan tínandi tínanna tínast tínd tínda tíndan tíndar tíndi tíndir tíndist tíndra tíndrar tíndri tínds tíndu tíndum tíndumst tíndur tíndust tínduð tíni tínir tínist tínið tínst tínt tínu tínum tínumst tínuna tínunnar tínunni tínunum tínur tínurnar
+51	4151	heilbrigði	heilbrigðin heilbrigðina heilbrigðinnar heilbrigðinni heilbrigðinu heilbrigðis heilbrigðisins heilbrigðið
+52	4152	geðlæknir	geðlækna geðlæknana geðlæknanna geðlæknar geðlæknarnir geðlækni geðlækninn geðlækninum geðlæknirinn geðlæknis geðlæknisins geðlæknum geðlæknunum
+53	4153	raforka	raforkan raforku raforkuna raforkunnar raforkunni
+54	4154	frystir	frysta frystana frystanna frystar frystarnir frysti frystinn frystinum frystirinn frystis frystisins frystum frystunum
+55	4155	heila	heilandi heilar heilast heilað heilaða heilaðan heilaðar heilaði heilaðir heilaðist heilaðra heilaðrar heilaðri heilaðs heilaðu heilaður heili heilir heilist heilið heilum heilumst heiluð heiluðu heiluðum heiluðumst heiluðust heiluðuð
+56	4156	óhræddur	óhrædd óhrædda óhræddan óhræddar óhræddara óhræddari óhræddast óhræddasta óhræddastan óhræddastar óhræddasti óhræddastir óhræddastra óhræddastrar óhræddastri óhræddasts óhræddastur óhræddi óhræddir óhræddra óhræddrar óhræddri óhrædds óhræddu óhræddum óhræddust óhræddustu óhræddustum óhrætt
+57	4157	alþingiskosning	alþingiskosninga alþingiskosninganna alþingiskosningar alþingiskosningarinnar alþingiskosningarnar alþingiskosningin alþingiskosningu alþingiskosningum alþingiskosninguna alþingiskosningunni alþingiskosningunum
+58	4158	ljósmyndun	ljósmyndana ljósmyndananna ljósmyndanir ljósmyndanirnar ljósmyndunar ljósmyndunarinnar ljósmyndunin ljósmyndunina ljósmynduninni ljósmyndunum ljósmyndununum
+59	4159	afmælisdagur	afmælisdag afmælisdaga afmælisdagana afmælisdaganna afmælisdagar afmælisdagarnir afmælisdaginn afmælisdags afmælisdagsins afmælisdagurinn afmælisdegi afmælisdeginum afmælisdögum afmælisdögunum
+60	4160	sproti	sprota sprotana sprotann sprotanna sprotans sprotanum sprotar sprotarnir sprotinn sprotum sprotunum
+61	4161	ímyndunarafl	ímyndunarafli ímyndunaraflinu ímyndunaraflið ímyndunarafls ímyndunaraflsins
+62	4162	langvarandi	
+63	4163	kreista	kreist kreistan kreistandi kreistar kreistast kreisti kreistir kreistirðu kreistist kreistið kreistra kreistrar kreistri kreists kreistu kreistum kreistumst kreistur kreistust kreistuð
+64	4164	orðspor	orðspori orðsporinu orðsporið orðspors orðsporsins
+65	4165	kúga	kúgandi kúgar kúgast kúgað kúgaða kúgaðan kúgaðar kúgaði kúgaðir kúgaðist kúgaðra kúgaðrar kúgaðri kúgaðs kúgaðu kúgaður kúgi kúgir kúgist kúgið kúgum kúgumst kúguð kúguðu kúguðum kúguðumst kúguðust kúguðuð
+66	4166	hali	hala halana halann halanna halans halanum halar halarnir halinn hölum hölunum
+67	4167	hljóðnemi	hljóðnema hljóðnemana hljóðnemann hljóðnemanna hljóðnemans hljóðnemanum hljóðnemar hljóðnemarnir hljóðneminn hljóðnemum hljóðnemunum
+68	4168	stígur	stíg stíga stígana stíganna stígar stígarnir stígi stígina stíginn stígir stígirnir stígnum stígs stígsins stígum stígunum stígurinn
+69	4169	úrslitakeppni	úrslitakeppna úrslitakeppnanna úrslitakeppnin úrslitakeppnina úrslitakeppninnar úrslitakeppninni úrslitakeppnir úrslitakeppnirnar úrslitakeppnum úrslitakeppnunum
+70	4170	reyndur	reynd reynda reyndan reyndara reyndari reyndast reyndasta reyndastan reyndastar reyndasti reyndastir reyndastra reyndastrar reyndastri reyndasts reyndastur reyndi reyndir reyndra reyndrar reyndri reynds reyndu reyndum reyndust reyndustu reyndustum reynt
+71	4171	kjölur	kili kilina kilinum kilir kilirnir kjala kjalanna kjalar kjalarins kjöl kjölinn kjölum kjölunum kjölurinn
+72	4172	konunglega	
+73	4173	óma	ómandi ómar ómarðu ómað ómaði ómaðir ómaðu ómi ómir ómið ómum ómuðu ómuðum ómuðuð
+74	4174	bassi	bassa bassana bassann bassanna bassans bassanum bassar bassarnir bassinn bössum bössunum
+75	4175	nautgripur	nautgrip nautgripa nautgripanna nautgripi nautgripina nautgripinn nautgripir nautgripirnir nautgripnum nautgrips nautgripsins nautgripum nautgripunum nautgripurinn
+76	4176	fylgjandi	fylgjanda fylgjandann fylgjandans fylgjandanum fylgjandinn fylgjenda fylgjendanna fylgjendum fylgjendunum fylgjendur fylgjendurna fylgjendurnir
+77	4177	verkur	verk verki verkina verkinn verkir verkirnir verkja verkjanna verkjar verkjarins verkjum verkjunum verknum verkurinn
+78	4178	tölfræði	tölfræðin tölfræðina tölfræðinnar tölfræðinni
+79	4179	dapurlegur	dapurleg dapurlega dapurlegan dapurlegar dapurlegast dapurlegasta dapurlegastan dapurlegastar dapurlegasti dapurlegastir dapurlegastra dapurlegastrar dapurlegastri dapurlegasts dapurlegastur dapurlegi dapurlegir dapurlegra dapurlegrar dapurlegri dapurlegs dapurlegt dapurlegu dapurlegum dapurlegust dapurlegustu dapurlegustum
+80	4180	skjaldbaka	skjaldbakan skjaldbakanna skjaldbakna skjaldbaknanna skjaldböku skjaldbökum skjaldbökuna skjaldbökunnar skjaldbökunni skjaldbökunum skjaldbökur skjaldbökurnar
+81	4181	spark	sparka sparkanna sparki sparkinu sparkið sparks sparksins spörk spörkin spörkum spörkunum
+82	4182	varamaður	varamann varamanna varamannanna varamanni varamanninn varamanninum varamanns varamannsins varamaðurinn varamenn varamennina varamennirnir varamönnum varamönnunum
+83	4183	atvinnulaus	atvinnulausa atvinnulausan atvinnulausar atvinnulausara atvinnulausari atvinnulausast atvinnulausasta atvinnulausastan atvinnulausastar atvinnulausasti atvinnulausastir atvinnulausastra atvinnulausastrar atvinnulausastri atvinnulausasts atvinnulausastur atvinnulausi atvinnulausir atvinnulausra atvinnulausrar atvinnulausri atvinnulauss atvinnulaust atvinnulausu atvinnulausum atvinnulausust atvinnulausustu atvinnulausustum
+84	4184	tæpt	tæpar tæpara tæpast
+85	4185	fyrirliði	fyrirliða fyrirliðana fyrirliðann fyrirliðanna fyrirliðans fyrirliðanum fyrirliðar fyrirliðarnir fyrirliðinn fyrirliðum fyrirliðunum
+86	4186	bústaður	bústað bústaða bústaðanna bústaðar bústaðarins bústaði bústaðina bústaðinn bústaðir bústaðirnir bústaðnum bústaðurinn bústöðum bústöðunum
+87	4187	ægir	ægi æginn æginum ægirinn ægis ægisins
+88	4188	einvígi	einvíga einvíganna einvígin einvíginu einvígis einvígisins einvígið einvígja einvígjanna einvígjum einvígjunum einvígum einvígunum
+89	4189	streita	streitan streitu streituna streitunnar streitunni
+90	4190	sulta	sultan sultandi sultanna sultar sultast sultað sultaða sultaðan sultaðar sultaði sultaðir sultaðist sultaðra sultaðrar sultaðri sultaðs sultaðu sultaður sulti sultir sultist sultið sultna sultnanna sultu sultum sultumst sultuna sultunnar sultunni sultunum sultur sulturnar sultuð sultuðu sultuðum sultuðumst sultuðust sultuðuð
+91	4191	tíðindi	tíðinda tíðindanna tíðindin tíðindum tíðindunum
+92	4192	kviður	kvið kviða kviðanna kviðar kviðarins kviði kviðina kviðinn kviðinum kviðir kviðirnir kviðnum kviðum kviðunum kviðurinn
+93	4193	nafnlaus	nafnlausa nafnlausan nafnlausar nafnlausara nafnlausari nafnlausast nafnlausasta nafnlausastan nafnlausastar nafnlausasti nafnlausastir nafnlausastra nafnlausastrar nafnlausastri nafnlausasts nafnlausastur nafnlausi nafnlausir nafnlausra nafnlausrar nafnlausri nafnlauss nafnlaust nafnlausu nafnlausum nafnlausust nafnlausustu nafnlausustum
+94	4194	eyri	eyra eyranna eyrar eyrarinnar eyrarnar eyrin eyrina eyrinni eyrum eyrunum
+95	4195	umhyggja	umhyggjan umhyggju umhyggjuna umhyggjunnar umhyggjunni
+96	4196	þol	þoli þolinu þolið þols þolsins
+97	4197	innfæddur	innfædd innfædda innfæddan innfæddar innfæddi innfæddir innfæddra innfæddrar innfæddri innfædds innfæddu innfæddum innfætt
+98	4198	spilari	spilara spilarana spilarann spilaranna spilarans spilaranum spilarar spilararnir spilarinn spilurum spilurunum
+99	4199	eftirlýstur	eftirlýst eftirlýsta eftirlýstan eftirlýstar eftirlýsti eftirlýstir eftirlýstra eftirlýstrar eftirlýstri eftirlýsts eftirlýstu eftirlýstum
+100	4200	fata	fatan fatanna fatar fatast fatað fataði fataðist fati fatist fatna fatnanna fötu fötum fötuna fötunnar fötunni fötunum fötur föturnar

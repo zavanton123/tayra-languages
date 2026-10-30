@@ -1,0 +1,100 @@
+1	2601	reglulegur	regluleg reglulega reglulegan reglulegar reglulegast reglulegasta reglulegastan reglulegastar reglulegasti reglulegastir reglulegastra reglulegastrar reglulegastri reglulegasts reglulegastur reglulegi reglulegir reglulegra reglulegrar reglulegri reglulegs reglulegt reglulegu reglulegum reglulegust reglulegustu reglulegustum
+2	2602	myndlist	myndlistar myndlistarinnar myndlistin myndlistina myndlistinni
+3	2603	rif	rifa rifanna rifi rifin rifinu rifið rifja rifjanna rifjum rifjunum rifs rifsins rifum rifunum
+4	2604	geðveikur	geðveik geðveika geðveikan geðveikar geðveikara geðveikari geðveikast geðveikasta geðveikastan geðveikastar geðveikasti geðveikastir geðveikastra geðveikastrar geðveikastri geðveikasts geðveikastur geðveiki geðveikir geðveikra geðveikrar geðveikri geðveiks geðveikt geðveiku geðveikum geðveikust geðveikustu geðveikustum
+5	2605	lýðveldi	lýðvelda lýðveldanna lýðveldin lýðveldinu lýðveldis lýðveldisins lýðveldið lýðveldum lýðveldunum
+6	2606	mælir	mæla mælana mælanna mælar mælarnir mæli mælinn mælinum mælirinn mælis mælisins mælum mælunum
+7	2607	afrit	afrita afritanna afriti afritin afritinu afritið afrits afritsins afritum afritunum
+8	2608	gas	gasa gasanna gasi gasinu gasið gass gassins gös gösin gösum gösunum
+9	2609	hnappur	hnapp hnappa hnappana hnappanna hnappar hnapparnir hnappi hnappinn hnappinum hnappnum hnapps hnappsins hnappurinn hnöppum hnöppunum
+10	2610	teymi	teyma teymanna teymin teyminu teymis teymisins teymið teymum teymunum
+11	2611	þunnur	þunn þunna þunnan þunnar þunni þunnir þunnra þunnrar þunnri þunns þunnt þunnu þunnum þynnra þynnri þynnst þynnsta þynnstan þynnstar þynnsti þynnstir þynnstra þynnstrar þynnstri þynnsts þynnstu þynnstum þynnstur
+12	2612	notalegur	notaleg notalega notalegan notalegar notalegast notalegasta notalegastan notalegastar notalegasti notalegastir notalegastra notalegastrar notalegastri notalegasts notalegastur notalegi notalegir notalegra notalegrar notalegri notalegs notalegt notalegu notalegum notalegust notalegustu notalegustum
+13	2613	fjara	fjaran fjarandi fjaranna fjarar fjarað fjaraða fjaraðan fjaraðar fjaraði fjaraðir fjaraðra fjaraðrar fjaraðri fjaraðs fjaraðu fjaraður fjari fjarir fjarið fjöru fjörum fjöruna fjörunnar fjörunni fjörunum fjörur fjörurnar fjöruð fjöruðu fjöruðum fjöruðuð
+14	2614	nauðga	nauðgandi nauðgar nauðgað nauðgaði nauðgaðir nauðgaðu nauðgi nauðgir nauðgið nauðgum nauðguðu nauðguðum nauðguðuð
+15	2615	gler	glera gleranna gleri glerin glerinu glerið glerja glerjanna glerjum glerjunum glers glersins glerum glerunum
+16	2616	tímabær	tímabæra tímabæran tímabærar tímabærara tímabærari tímabærast tímabærasta tímabærastan tímabærastar tímabærasti tímabærastir tímabærastra tímabærastrar tímabærastri tímabærasts tímabærastur tímabæri tímabærir tímabærra tímabærrar tímabærri tímabærs tímabært tímabæru tímabærum tímabærust tímabærustu tímabærustum
+17	2617	gella	gellan gellanna gellu gellum gelluna gellunnar gellunni gellunum gellur gellurnar
+18	2618	talsins	
+19	2619	dvöl	dvala dvalanna dvalar dvalarinnar dvalir dvalirnar dvölin dvölina dvölinni dvölum dvölunum
+20	2620	ókunnugur	ókunnug ókunnuga ókunnugan ókunnugar ókunnugast ókunnugasta ókunnugastan ókunnugastar ókunnugasti ókunnugastir ókunnugastra ókunnugastrar ókunnugastri ókunnugasts ókunnugastur ókunnugi ókunnugir ókunnugra ókunnugrar ókunnugri ókunnugs ókunnugt ókunnugu ókunnugum ókunnugust ókunnugustu ókunnugustum
+21	2621	skap	skapi skapinu skapið skaps skapsins
+22	2622	galdur	galdra galdrana galdranna galdrar galdrarnir galdri galdrinum galdurinn galdurs galdursins göldrum göldrunum
+23	2623	gáfaður	gáfað gáfaða gáfaðan gáfaðar gáfaðast gáfaðasta gáfaðastan gáfaðastar gáfaðasti gáfaðastir gáfaðastra gáfaðastrar gáfaðastri gáfaðasts gáfaðastur gáfaði gáfaðir gáfaðra gáfaðrar gáfaðri gáfaðs gáfuð gáfuðu gáfuðum gáfuðust gáfuðustu gáfuðustum
+24	2624	snilld	snillda snilldanna snilldar snilldarinnar snilldin snilldina snilldinni snilldir snilldirnar snilldum snilldunum
+25	2625	lækning	lækninga lækninganna lækningar lækningarinnar lækningarnar lækningin lækningu lækningum lækninguna lækningunni lækningunum
+26	2626	túlka	túlkandi túlkar túlkast túlkað túlkaða túlkaðan túlkaðar túlkaði túlkaðir túlkaðist túlkaðra túlkaðrar túlkaðri túlkaðs túlkaðu túlkaður túlki túlkir túlkist túlkið túlkum túlkumst túlkuð túlkuðu túlkuðum túlkuðumst túlkuðust túlkuðuð
+27	2627	sálfræðingur	sálfræðing sálfræðinga sálfræðingana sálfræðinganna sálfræðingar sálfræðingarnir sálfræðingi sálfræðinginn sálfræðingnum sálfræðings sálfræðingsins sálfræðingum sálfræðingunum sálfræðingurinn
+28	2628	verka	verkandi verkar verkast verkað verkaða verkaðan verkaðar verkaði verkaðir verkaðist verkaðra verkaðrar verkaðri verkaðs verkaðu verkaður verki verkir verkist verkið verkum verkumst verkuð verkuðu verkuðum verkuðumst verkuðust verkuðuð
+29	2629	þrauka	þraukandi þraukar þraukarðu þraukast þraukað þraukaða þraukaðan þraukaðar þraukaði þraukaðir þraukaðirðu þraukaðist þraukaðra þraukaðrar þraukaðri þraukaðs þraukaðu þraukaður þrauki þraukir þraukist þraukið þraukum þraukumst þraukuð þraukuðu þraukuðum þraukuðumst þraukuðust þraukuðuð
+30	2630	eð	eða eðanna eði eðin eðinu eðið eðs eðsins eðum eðunum
+31	2631	samgöngur	samgangna samgangnanna samgöngum samgöngunum samgöngurnar
+32	2632	virkjun	virkjana virkjananna virkjanir virkjanirnar virkjunar virkjunarinnar virkjunin virkjunina virkjuninni virkjunum virkjununum
+33	2633	stara	staran starandi staranna starað stari starir starirðu starið stariði starði starðir starðu störu störum störuna störunnar störunni störunum störur störurnar störðu störðum störðuð
+34	2634	heiðarlegur	heiðarleg heiðarlega heiðarlegan heiðarlegar heiðarlegast heiðarlegasta heiðarlegastan heiðarlegastar heiðarlegasti heiðarlegastir heiðarlegastra heiðarlegastrar heiðarlegastri heiðarlegasts heiðarlegastur heiðarlegi heiðarlegir heiðarlegra heiðarlegrar heiðarlegri heiðarlegs heiðarlegt heiðarlegu heiðarlegum heiðarlegust heiðarlegustu heiðarlegustum
+35	2635	gjaldmiðill	gjaldmiðil gjaldmiðilinn gjaldmiðillinn gjaldmiðils gjaldmiðilsins gjaldmiðla gjaldmiðlana gjaldmiðlanna gjaldmiðlar gjaldmiðlarnir gjaldmiðli gjaldmiðlinum gjaldmiðlum gjaldmiðlunum
+36	2636	ræfill	ræfil ræfilinn ræfillinn ræfils ræfilsins ræfla ræflana ræflanna ræflar ræflarnir ræfli ræflinum ræflum ræflunum
+37	2637	eyðimörk	eyðimarka eyðimarkanna eyðimerkur eyðimerkurinnar eyðimerkurnar eyðimörkin eyðimörkina eyðimörkinni eyðimörkum eyðimörkunum
+38	2638	hlýr	hlý hlýi hlýir hlýja hlýjan hlýjar hlýjast hlýjasta hlýjastan hlýjastar hlýjasti hlýjastir hlýjastra hlýjastrar hlýjastri hlýjasts hlýjastur hlýju hlýjum hlýjust hlýjustu hlýjustum hlýrra hlýrrar hlýrri hlýs hlýtt
+39	2639	fjárfesta	fjárfest fjárfestandi fjárfesti fjárfestir fjárfestirðu fjárfestið fjárfestu fjárfestum fjárfestuð
+40	2640	höfuðstöðvar	höfuðstöðva höfuðstöðvanna höfuðstöðvarnar höfuðstöðvum höfuðstöðvunum
+41	2641	miðnætti	miðnætta miðnættanna miðnættin miðnættinu miðnættis miðnættisins miðnættið miðnættum miðnættunum
+42	2642	utanríkisráðherra	utanríkisráðherrana utanríkisráðherrann utanríkisráðherranna utanríkisráðherrans utanríkisráðherranum utanríkisráðherrar utanríkisráðherrarnir utanríkisráðherrum utanríkisráðherrunum
+43	2643	logi	loga logana logann loganna logans loganum logar logarnir loginn logum logunum
+44	2644	grænmeti	grænmetinu grænmetis grænmetisins grænmetið
+45	2645	ský	skýi skýin skýinu skýið skýja skýjanna skýjað skýjum skýjunum skýs skýsins
+46	2646	berg	berga berganna bergi bergin berginu bergið bergs bergsins bergum bergunum
+47	2647	almennilega	
+48	2648	krá	kráa kráin krám krána kránna kránni kránum krár krárinnar krárnar
+49	2649	veitingahús	veitingahúsa veitingahúsanna veitingahúsi veitingahúsin veitingahúsinu veitingahúsið veitingahúss veitingahússins veitingahúsum veitingahúsunum
+50	2650	des	desa desanna desi desin desina desinni desinu desið desja desjanna desjar desjarinnar desjarnar desjum desjunum dess dessins desum desunum
+51	2651	þórðarson	þórðarsonar þórðarsyni
+52	2652	tá	táa táar táarinnar táin tám tána tánna tánni tánum tær tærnar
+53	2653	æði	æðinu æðis æðisins æðið
+54	2654	hvorugur	hvorug hvoruga hvorugan hvorugar hvorugir hvorugra hvorugrar hvorugri hvorugs hvorugt hvorugu hvorugum
+55	2655	leikkona	leikkonan leikkonu leikkonum leikkonuna leikkonunnar leikkonunni leikkonunum leikkonur leikkonurnar leikkvenna leikkvennanna
+56	2656	dauðans	
+57	2657	samsvara	samsvarandi samsvarar samsvarast samsvarað samsvaraða samsvaraðan samsvaraðar samsvaraði samsvaraðir samsvaraðist samsvaraðra samsvaraðrar samsvaraðri samsvaraðs samsvaraðu samsvaraður samsvari samsvarir samsvarist samsvarið samsvörum samsvörumst samsvöruð samsvöruðu samsvöruðum samsvöruðumst samsvöruðust samsvöruðuð
+58	2658	hádegismatur	hádegismat hádegismatar hádegismatarins hádegismatinn hádegismatnum hádegismaturinn
+59	2659	dýpi	dýpa dýpanna dýpin dýpinu dýpis dýpisins dýpið dýpum dýpunum
+60	2660	embættismaður	embættismann embættismanna embættismannanna embættismanni embættismanninn embættismanninum embættismanns embættismannsins embættismaðurinn embættismenn embættismennina embættismennirnir embættismönnum embættismönnunum
+61	2661	skilríki	skilríkin skilríkja skilríkjanna skilríkjum skilríkjunum
+62	2662	skíta	skeist skeistu skeit skiti skitin skitinn skitinna skitinnar skitinni skitins skitir skitist skitið skitna skitnar skitni skitnir skitnu skitnum skitu skitum skitumst skitust skituð skíst skístu skít skítandi skítast skíti skítir skítist skítið skítiði skíttu skítum skítumst skítur skíturðu
+63	2663	vart	
+64	2664	heppni	heppnin heppnina heppninnar heppninni
+65	2665	fréttamaður	fréttamann fréttamanna fréttamannanna fréttamanni fréttamanninn fréttamanninum fréttamanns fréttamannsins fréttamaðurinn fréttamenn fréttamennina fréttamennirnir fréttamönnum fréttamönnunum
+66	2666	skytta	skyttan skyttanna skyttna skyttnanna skyttu skyttum skyttuna skyttunnar skyttunni skyttunum skyttur skytturnar
+67	2667	heimila	heimilandi heimilar heimilast heimilað heimilaða heimilaðan heimilaðar heimilaði heimilaðir heimilaðist heimilaðra heimilaðrar heimilaðri heimilaðs heimilaðu heimilaður heimili heimilir heimilist heimilið heimilum heimilumst heimiluð heimiluðu heimiluðum heimiluðumst heimiluðust heimiluðuð
+68	2668	vöðvi	vöðva vöðvana vöðvann vöðvanna vöðvans vöðvanum vöðvar vöðvarnir vöðvinn vöðvum vöðvunum
+69	2669	kvíða	kveið kveiðst kveiðstu kviði kviðir kviðirðu kviðið kviðu kviðum kviðuð kvíddu kvíðandi kvíði kvíðir kvíðirðu kvíðið kvíðum
+70	2670	stál	stála stálanna stáli stálin stálinu stálið stáls stálsins stálum stálunum
+71	2671	jarðskjálfti	jarðskjálfta jarðskjálftana jarðskjálftann jarðskjálftanna jarðskjálftans jarðskjálftanum jarðskjálftar jarðskjálftarnir jarðskjálftinn jarðskjálftum jarðskjálftunum
+72	2672	typpi	typpa typpanna typpin typpinu typpis typpisins typpið typpum typpunum
+73	2673	fóstur	fóstra fóstranna fóstri fóstrin fóstrinu fóstrið fóstrum fóstrunum fósturs fóstursins
+74	2674	pakka	pakkandi pakkar pakkast pakkað pakkaða pakkaðan pakkaðar pakkaði pakkaðir pakkaðirðu pakkaðist pakkaðra pakkaðrar pakkaðri pakkaðs pakkaðu pakkaður pakki pakkir pakkist pakkið pökkum pökkumst pökkuð pökkuðu pökkuðum pökkuðumst pökkuðust pökkuðuð
+75	2675	risi	risa risana risann risanna risans risanum risar risarnir risinn risum risunum
+76	2676	negri	negra negrana negrann negranna negrans negranum negrar negrarnir negrinn negrum negrunum
+77	2677	brandur	brand branda brandana brandanna brandar brandarnir brandi brandinn brandinum brands brandsins brandurinn bröndum bröndunum
+78	2678	samloka	samlokan samlokanna samlokna samloknanna samloku samlokum samlokuna samlokunnar samlokunni samlokunum samlokur samlokurnar
+79	2679	tekjur	
+80	2680	bógur	bóg bóga bógana bóganna bógar bógarnir bógi bóginn bóginum bógnum bógs bógsins bógum bógunum bógurinn
+81	2681	mat	mata matanna mati matinu matið mats matsins möt mötin mötum mötunum
+82	2682	opinbera	opinberar opinberast opinberað opinberaða opinberaðan opinberaðar opinberaði opinberaðir opinberaðist opinberaðra opinberaðrar opinberaðri opinberaðs opinberaðu opinberaður opinberi opinberir opinberist opinberið opinberum opinberumst opinberuð opinberuðu opinberuðum opinberuðumst opinberuðust opinberuðuð
+83	2683	ósköp	óskapa óskapanna ósköpin ósköpum ósköpunum
+84	2684	strjúka	strauk straukst straukstu strjúkandi strjúkast strjúki strjúkir strjúkirðu strjúkist strjúkið strjúkstu strjúktu strjúkum strjúkumst strokin strokinn strokinna strokinnar strokinni strokins strokist strokið strokna stroknar strokni stroknir stroknu stroknum struku strukum strukumst strukust strukuð stryki strykir strykirðu strykist strykju strykjum strykjumst strykjust strykjuð strýk strýkst strýkur strýkurðu
+85	2685	an	ani aninu anið ans ansins
+86	2686	yfirlit	yfirlita yfirlitanna yfirliti yfirlitin yfirlitinu yfirlitið yfirlits yfirlitsins yfirlitum yfirlitunum
+87	2687	þröngur	þrengra þrengri þrengst þrengsta þrengstan þrengstar þrengsti þrengstir þrengstra þrengstrar þrengstri þrengsts þrengstu þrengstum þrengstur þröng þrönga þröngan þröngar þröngi þröngir þröngra þröngrar þröngri þröngs þröngt þröngu þröngum
+88	2688	skynsemi	skynsemin skynsemina skynseminnar skynseminni
+89	2689	kokkur	kokk kokka kokkana kokkanna kokkar kokkarnir kokki kokkinn kokkinum kokknum kokks kokksins kokkum kokkunum kokkurinn
+90	2690	kappi	kappa kappana kappann kappanna kappans kappanum kappar kapparnir kappinn köppum köppunum
+91	2691	gleypa	gleypandi gleypast gleypi gleypir gleypirðu gleypist gleypið gleypst gleypt gleypta gleyptan gleyptar gleypti gleyptir gleyptirðu gleyptist gleyptra gleyptrar gleyptri gleypts gleyptu gleyptum gleyptumst gleyptur gleyptust gleyptuð gleypum gleypumst
+92	2692	stökk	stökka stökkanna stökki stökkin stökkinu stökkið stökks stökksins stökkum stökkunum
+93	2693	tryggur	trygg trygga tryggan tryggar tryggara tryggari tryggast tryggasta tryggastan tryggastar tryggasti tryggastir tryggastra tryggastrar tryggastri tryggasts tryggastur tryggi tryggir tryggra tryggrar tryggri tryggs tryggt tryggu tryggum tryggust tryggustu tryggustum
+94	2694	viðhald	viðhalda viðhaldanna viðhaldi viðhaldinu viðhaldið viðhalds viðhaldsins viðhöld viðhöldin viðhöldum viðhöldunum
+95	2695	pilla	pillan pillandi pillanna pillar pillast pillað pillaða pillaðan pillaðar pillaði pillaðir pillaðist pillaðra pillaðrar pillaðri pillaðs pillaðu pillaður pilli pillir pillist pillið pillna pillu pillum pillumst pilluna pillunnar pillunni pillunum pillur pillurnar pilluð pilluðu pilluðum pilluðumst pilluðust pilluðuð
+96	2696	dæla	dælan dælandi dælanna dælast dældi dældir dældist dældu dældum dældumst dældust dælduð dæli dælir dælist dælið dælna dælnanna dælst dælt dælu dælum dælumst dæluna dælunnar dælunni dælunum dælur dælurnar
+97	2697	kerti	kerta kertanna kertin kertinu kertis kertisins kertið kertum kertunum
+98	2698	eldast	eldaðist eldist eldistu eldumst elduðumst elduðust elst eltist eltistu eltumst eltust
+99	2699	veira	veiran veiranna veiru veirum veiruna veirunnar veirunni veirunum veirur veirurnar
+100	2700	unnur	unna unnanna unnar unnarinnar unni unnina unninni unnir unnirnar unnum unnunum unnurin

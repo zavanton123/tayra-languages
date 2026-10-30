@@ -1,0 +1,100 @@
+1	401	lenda	lendan lendandi lendanna lendast lendi lendir lendist lendið lendna lendnanna lendu lendum lenduna lendunnar lendunni lendunum lendur lendurnar lenst lent lenta lentan lentar lenti lentir lentist lentra lentrar lentri lents lentu lentum lentur lentuð
+2	402	líklega	líklegar líklegast
+3	403	hversu	
+4	404	herbergi	herbergin herberginu herbergis herbergisins herbergið herbergja herbergjanna herbergjum herbergjunum
+5	405	móðir	mæðra mæðranna mæðrum mæðrunum mæður mæðurnar móðirin móður móðurina móðurinnar móðurinni
+6	406	krakki	krakka krakkana krakkann krakkanna krakkans krakkanum krakkar krakkarnir krakkinn krökkum krökkunum
+7	407	frú	frúa frúar frúarinnar frúin frúm frúna frúnna frúnni frúnum frúr frúrnar
+8	408	reyndar	
+9	409	berjast	barist barðist barðistu berjist berjistu berjumst berst berstu berðist berðistu berðumst berðust börðumst börðust
+10	410	smá	smái smáir smáið smáum smáð smáða smáðan smáðar smáði smáðir smáðra smáðrar smáðri smáðs smáðu smáðum smáður smáðuð
+11	411	fyrri	fyrra
+12	412	valda	olli ollir ollirðu ollu ollum olluð valdandi valdar valdast valdað valdaða valdaðan valdaðar valdaði valdaðir valdaðist valdaðra valdaðrar valdaðri valdaðs valdaðu valdaður valdi valdir valdirðu valdist valdið veld veldur veldurðu völdum völdumst völduð völduðu völduðum völduðumst völduðust völduðuð ylli yllir yllirðu yllu yllum ylluð
+13	413	beint	beinast
+14	414	bæta	bæst bætandi bætast bæti bætir bætirðu bætist bætið bætt bætta bættan bættar bætti bættir bættirðu bættist bættra bættrar bættri bætts bættu bættum bættumst bættur bættust bættuð bætum bætumst
+15	415	skipti	skipta skiptanna skiptin skiptinu skiptis skiptisins skiptið skiptum skiptunum
+16	416	her	heri herina herinn herir herirnir herja herjanna herjum herjunum hernum hers hersins
+17	417	kynna	kynnandi kynni kynnir kynnið kynnstu kynnt kynnta kynntan kynntar kynnti kynntir kynntra kynntrar kynntri kynnts kynntu kynntum kynntur kynntuð kynnum
+18	418	líkt	líkar líkast
+19	419	vara	varan varandi varanna varar varast varastu varað varaða varaðan varaðar varaði varaðir varaðist varaðra varaðrar varaðri varaðs varaðu varaður vari varir varist varið varði varðir vöru vörum vörumst vöruna vörunnar vörunni vörunum vörur vörurnar vöruð vöruðu vöruðum vöruðumst vöruðust vöruðuð vörðu vörðum vörðuð
+20	420	heima	
+21	421	fótur	fæti fætinum fætur fæturna fæturnir fót fóta fótanna fótar fótarins fótinn fótum fótunum fóturinn
+22	422	tíu	
+23	423	móti	
+24	424	þúsund	þúsunda þúsundanna þúsundi þúsundin þúsundinu þúsundið þúsunds þúsundsins þúsundum þúsundunum
+25	425	foreldrar	foreldra foreldrana foreldranna foreldrarnir foreldrum foreldrunum
+26	426	þjóð	þjóða þjóðanna þjóðar þjóðarinnar þjóðin þjóðina þjóðinni þjóðir þjóðirnar þjóðum þjóðunum
+27	427	segjast	sagst sagðist segist segjumst segðist segðumst segðust sögðumst sögðust
+28	428	seinn	sein seina seinan seinar seinast seinasta seinastan seinastar seinasti seinastir seinastra seinastrar seinastri seinasts seinastur seini seinir seinnar seinni seins seint seinu seinum seinust seinustu seinustum
+29	429	seinna	
+30	430	endi	enda endana endann endanna endans endanum endar endarnir endinn endum endunum
+31	431	tækifæri	tækifæra tækifæranna tækifærin tækifærinu tækifæris tækifærisins tækifærið tækifærum tækifærunum
+32	432	burt	
+33	433	þriðji	þriðja þriðju
+34	434	kirkja	kirkjan kirkju kirkjum kirkjuna kirkjunnar kirkjunni kirkjunum kirkjur kirkjurnar kirkna kirknanna
+35	435	treysta	treyst treystan treystandi treystar treystast treysti treystir treystirðu treystist treystið treystiði treystra treystrar treystri treysts treystu treystum treystumst treystur treystust treystuð
+36	436	félagi	félaga félagana félagann félaganna félagans félaganum félagar félagarnir félaginn félögum félögunum
+37	437	stund	stunda stundanna stundar stundarinnar stundin stundina stundinni stundir stundirnar stundum stundunum
+38	438	drekka	drakk drakkst drakkstu drekk drekkandi drekki drekkir drekkirðu drekkið drekktu drekkum drekkur drekkurðu drukkin drukkinn drukkinna drukkinnar drukkinni drukkins drukkið drukkna drukknar drukkni drukknir drukknu drukknum drukku drukkum drukkuð drykki drykkir drykkirðu drykkju drykkjum drykkjuð
+39	439	deild	deilda deildanna deildar deildarinnar deildin deildina deildinni deildir deildirnar deildum deildunum
+40	440	hjálp	hjálpa hjálpanna hjálpar hjálparinnar hjálpin hjálpina hjálpinni hjálpir hjálpirnar hjálpum hjálpunum
+41	441	upplýsing	upplýsinga upplýsinganna upplýsingar upplýsingarinnar upplýsingarnar upplýsingin upplýsingu upplýsingum upplýsinguna upplýsingunni upplýsingunum
+42	442	borða	borðandi borðar borðarðu borðast borðað borðaða borðaðan borðaðar borðaði borðaðir borðaðirðu borðaðist borðaðra borðaðrar borðaðri borðaðs borðaðu borðaður borði borðir borðist borðið borðiði borðum borðumst borðuð borðuðu borðuðum borðuðumst borðuðust borðuðuð
+43	443	takast	takist takistu takstu tekist tekst tekstu tækist tækistu tækjumst tækjust tókst tókstu tókumst tókust tökumst
+44	444	ástæða	ástæðan ástæðna ástæðnanna ástæðu ástæðum ástæðuna ástæðunnar ástæðunni ástæðunum ástæður ástæðurnar
+45	445	sími	síma símana símann símanna símans símanum símar símarnir síminn símum símunum
+46	446	jörð	jarða jarðanna jarðar jarðarinnar jarðir jarðirnar jörðin jörðina jörðinni jörðum jörðunum
+47	447	fundur	fund funda fundanna fundar fundarins fundi fundina fundinn fundinum fundir fundirnir fundum fundunum fundurinn
+48	448	hve	
+49	449	lögregla	lögreglan lögreglanna lögreglna lögreglnanna lögreglu lögreglum lögregluna lögreglunnar lögreglunni lögreglunum lögreglur lögreglurnar
+50	450	handa	
+51	451	regla	reglan reglanna reglna reglnanna reglu reglum regluna reglunnar reglunni reglunum reglur reglurnar
+52	452	nóg	
+53	453	karl	karla karlana karlanna karlar karlarnir karli karlinn karlinum karls karlsins körlum körlunum
+54	454	öld	alda aldanna aldar aldarinnar aldir aldirnar öldin öldina öldinni öldum öldunum
+55	455	skrá	skráa skráar skráarinnar skrái skráin skráir skráirðu skráist skráið skrám skrána skránna skránni skránum skrár skrárinnar skrárnar skrást skráum skráumst skráð skráða skráðan skráðar skráði skráðir skráðirðu skráðist skráðra skráðrar skráðri skráðs skráðst skráðu skráðum skráðumst skráður skráðust skráðuð
+56	456	detta	dast dastu datt dett dettandi detti dettir dettirðu dettið dettu dettum dettur detturðu dottin dottinn dottinna dottinnar dottinni dottins dottið dottna dottnar dottni dottnir dottnu dottnum duttu duttum duttuð dytti dyttir dyttirðu dyttu dyttum dyttuð
+57	457	frétt	frétta fréttanna fréttar fréttarinnar fréttin fréttina fréttinni fréttir fréttirnar fréttum fréttunum
+58	458	konungur	konung konunga konungana konunganna konungar konungarnir konungi konunginn konunginum konungnum konungs konungsins konungum konungunum konungurinn
+59	459	systir	systirin systra systranna systrum systrunum systur systurina systurinnar systurinni systurnar
+60	460	hlið	hliða hliðanna hliðar hliðarinnar hliðarnar hliði hliðin hliðina hliðinni hliðinu hliðið hliðs hliðsins hliðum hliðunum
+61	461	svartur	svart svarta svartan svartar svartara svartari svartast svartasta svartastan svartastar svartasti svartastir svartastra svartastrar svartastri svartasts svartastur svarti svartir svartra svartrar svartri svarts svört svörtu svörtum svörtust svörtustu svörtustum
+62	462	hundur	hund hunda hundana hundanna hundar hundarnir hundi hundinn hundinum hunds hundsins hundum hundunum hundurinn
+63	463	hlaupa	hlaupandi hlaupast hlaupi hlaupin hlaupinn hlaupinna hlaupinnar hlaupinni hlaupins hlaupir hlaupirðu hlaupist hlaupið hlaupiði hlaupna hlaupnar hlaupni hlaupnir hlaupnu hlaupnum hlaupstu hlauptu hlaupum hlaupumst hleyp hleypst hleypur hleypurðu hljóp hljópst hljópstu hlupu hlupum hlupumst hlupust hlupuð hlypi hlypir hlypirðu hlypist hlypu hlypum hlypumst hlypust hlypuð
+64	464	vél	véla vélanna vélar vélarinnar vélarnar vélin vélina vélinni vélum vélunum
+65	465	hugur	hug huga huganna hugar hugarins hugi hugina huginn hugir hugirnir hugum hugunum hugurinn
+66	466	hlutverk	hlutverka hlutverkanna hlutverki hlutverkin hlutverkinu hlutverkið hlutverks hlutverksins hlutverkum hlutverkunum
+67	467	raun	rauna raunanna raunar raunarinnar raunin raunina rauninni raunir raunirnar raunum raununum
+68	468	helgi	helga helganna helgar helgarinnar helgarnar helgin helgina helginnar helginni helgum helgunum
+69	469	dóttir	dætra dætranna dætrum dætrunum dætur dæturnar dóttirin dóttur dótturina dótturinnar dótturinni
+70	470	sumar	sumarið sumars sumarsins sumra sumranna sumri sumrin sumrinu sumrum sumrunum sumur sumurin
+71	471	gifta	gifst gifstu giftan giftandi giftar giftast gifti giftir giftirðu giftist giftistu giftið giftra giftrar giftri gifts giftstu giftu giftum giftumst giftuna giftunnar giftunni giftust giftuð
+72	472	heldri	heldra helst helsta helstan helstar helsti helstir helstra helstrar helstri helsts helstu helstum helstur
+73	473	samningur	samning samninga samningana samninganna samningar samningarnir samningi samninginn samninginum samningnum samnings samningsins samningum samningunum samningurinn
+74	474	miður	mitt mið miðja miðjan miðjar miðjir miðju miðjum miðra miðrar miðri miðs
+75	475	drengur	dreng drengi drengina drenginn drengir drengirnir drengja drengjanna drengjum drengjunum drengnum drengs drengsins drengurinn
+76	476	byssa	byssan byssanna byssna byssnanna byssu byssum byssuna byssunnar byssunni byssunum byssur byssurnar
+77	477	héðan	
+78	478	verkefni	verkefna verkefnanna verkefnin verkefninu verkefnis verkefnisins verkefnið verkefnum verkefnunum
+79	479	jafn	jafna jafnan jafnar jafnara jafnari jafnast jafnasta jafnastan jafnastar jafnasti jafnastir jafnastra jafnastrar jafnastri jafnasts jafnastur jafni jafnir jafnra jafnrar jafnri jafns jafnt jöfn jöfnu jöfnum jöfnust jöfnustu jöfnustum
+80	480	stofnun	stofnana stofnananna stofnanir stofnanirnar stofnunar stofnunarinnar stofnunin stofnunina stofnuninni stofnunum stofnununum
+81	481	dýr	dýra dýran dýranna dýrar dýrara dýrari dýrast dýrasta dýrastan dýrastar dýrasti dýrastir dýrastra dýrastrar dýrastri dýrasts dýrastur dýri dýrin dýrinu dýrir dýrið dýrra dýrrar dýrri dýrs dýrsins dýrt dýru dýrum dýrunum dýrust dýrustu dýrustum
+82	482	ofan	
+83	483	sterkur	sterk sterka sterkan sterkar sterkara sterkari sterkast sterkasta sterkastan sterkastar sterkasti sterkastir sterkastra sterkastrar sterkastri sterkasts sterkastur sterki sterkir sterkra sterkrar sterkri sterks sterkt sterku sterkum sterkust sterkustu sterkustum
+84	484	hálfur	hálf hálfa hálfan hálfar hálfi hálfir hálfra hálfrar hálfri hálfs hálft hálfu hálfum
+85	485	konar	
+86	486	ást	ásta ástanna ástar ástarinnar ástin ástina ástinni ástir ástirnar ástum ástunum
+87	487	alls	
+88	488	fjalla	fjallar fjallað fjallaða fjallaðan fjallaðar fjallaði fjallaðir fjallaðra fjallaðrar fjallaðri fjallaðs fjallaðu fjallaður fjalli fjallir fjallið fjöllum fjölluð fjölluðu fjölluðum fjölluðuð
+89	489	borga	borgandi borgar borgarðu borgast borgað borgaða borgaðan borgaðar borgaði borgaðir borgaðirðu borgaðist borgaðra borgaðrar borgaðri borgaðs borgaðu borgaður borgi borgir borgist borgið borgum borgumst borguð borguðu borguðum borguðumst borguðust borguðuð
+90	490	kynnast	kynnist kynnst kynntist kynntumst kynntust kynnumst
+91	491	skila	skilandi skilar skilast skilað skilaði skilaðir skilaðist skilaðu skili skilir skilist skilið skilum skilumst skiluðu skiluðum skiluðumst skiluðust skiluðuð
+92	492	nám	námi náminu námið náms námsins
+93	493	hverfa	horfin horfinn horfinna horfinnar horfinni horfins horfið horfna horfnar horfni horfnir horfnu horfnum hurfu hurfum hurfuð hvarf hvarfst hvarfstu hverf hverfandi hverfi hverfir hverfirðu hverfið hverfum hverfur hverfurðu hverfðu hyrfi hyrfir hyrfirðu hyrfu hyrfum hyrfuð
+94	494	sjö	sjöa sjöanna sjöi sjöin sjöinu sjöið sjös sjösins sjöum sjöunum
+95	495	vandamál	vandamála vandamálanna vandamáli vandamálin vandamálinu vandamálið vandamáls vandamálsins vandamálum vandamálunum
+96	496	sætur	sæt sæta sætan sætar sætara sætari sætast sætasta sætastan sætastar sætasti sætastir sætastra sætastrar sætastri sætasts sætastur sæti sætir sætra sætrar sætri sæts sætt sættirnar sætu sætum sætust sætustu sætustum
+97	497	höfuð	höfuðin höfuðið höfuðs höfuðsins höfða höfðanna höfði höfðinu höfðum höfðunum
+98	498	maí	
+99	499	syngja	sungin sunginn sunginna sunginnar sunginni sungins sungið sungna sungnar sungni sungnir sungnu sungnum sungu sungum sunguð syng syngdu syngi syngir syngið syngjandi syngju syngjum syngjuð syngur syngurðu söng söngst söngstu
+100	500	fulltrúi	fulltrúa fulltrúana fulltrúann fulltrúanna fulltrúans fulltrúanum fulltrúar fulltrúarnir fulltrúinn fulltrúum fulltrúunum

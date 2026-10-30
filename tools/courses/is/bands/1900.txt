@@ -1,0 +1,100 @@
+1	1801	auki	auka aukana aukann aukanna aukans aukanum aukar aukarnir aukinn aukinnar aukum aukunum
+2	1802	sund	sunda sundanna sundi sundin sundinu sundið sunds sundsins sundum sundunum
+3	1803	forða	forðandi forðar forðastu forðað forðaða forðaðan forðaðar forðaði forðaðir forðaðra forðaðrar forðaðri forðaðs forðaðu forðaður forði forðir forðið forðum forðuð forðuðu forðuðum forðuðuð
+4	1804	alger	algera algeran algerar algeri algerir algerra algerrar algerri algers algert algeru algerum
+5	1805	andskotans	
+6	1806	útbúa	útbjuggu útbjuggum útbjugguð útbjó útbjóst útbjóstu útbyggi útbyggir útbyggju útbyggjum útbyggjuð útbúandi útbúi útbúin útbúinn útbúinna útbúinnar útbúinni útbúins útbúir útbúið útbúna útbúnar útbúni útbúnir útbúnu útbúnum útbúum útbúðu útbý útbýr útbýrð útbýrðu
+7	1807	mótmæli	mótmæla mótmælanna mótmælin mótmælum mótmælunum
+8	1808	verulega	
+9	1809	fyrramálið	
+10	1810	borgarstjóri	borgarstjóra borgarstjórana borgarstjórann borgarstjóranna borgarstjórans borgarstjóranum borgarstjórar borgarstjórarnir borgarstjórinn borgarstjórum borgarstjórunum
+11	1811	synd	synda syndanna syndar syndarinnar syndin syndina syndinni syndir syndirnar syndum syndunum
+12	1812	rit	rita ritanna riti ritin ritinu ritið rits ritsins ritum ritunum
+13	1813	sökkva	sekk sekkur sekkurðu sokkin sokkinn sokkinna sokkinnar sokkinni sokkins sokkið sokkna sokknar sokkni sokknir sokknu sokknum sukku sukkum sukkuð sykki sykkir sykkirðu sykkju sykkjum sykkjuð sökk sökkst sökkstu sökkt sökkti sökktir sökktirðu sökktu sökktum sökktuð sökkvandi sökkvi sökkvir sökkvirðu sökkvið sökkvum
+14	1814	sjálfsagður	sjálfsagt sjálfsagða sjálfsagðan sjálfsagðar sjálfsagðara sjálfsagðari sjálfsagðast sjálfsagðasta sjálfsagðastan sjálfsagðastar sjálfsagðasti sjálfsagðastir sjálfsagðastra sjálfsagðastrar sjálfsagðastri sjálfsagðasts sjálfsagðastur sjálfsagði sjálfsagðir sjálfsagðra sjálfsagðrar sjálfsagðri sjálfsagðs sjálfsögð sjálfsögðu sjálfsögðum sjálfsögðust sjálfsögðustu sjálfsögðustum
+15	1815	hella	hellan hellandi hellanna hellast helli hellir hellist hellið hellna hellnanna hellst hellt hellta helltan helltar hellti helltir helltist helltra helltrar helltri hellts helltu helltum helltumst helltur helltust helltuð hellu hellum hellumst helluna hellunnar hellunni hellunum hellur hellurnar
+16	1816	þvílíkur	þvílík þvílíka þvílíkan þvílíkar þvílíki þvílíkir þvílíkra þvílíkrar þvílíkri þvílíks þvílíkt þvílíku þvílíkum
+17	1817	kvarta	kvartandi kvartar kvartarðu kvartast kvartað kvartaði kvartaðir kvartaðist kvartaðu kvarti kvartir kvartist kvartið kvörtum kvörtumst kvörtuðu kvörtuðum kvörtuðumst kvörtuðust kvörtuðuð
+18	1818	leikrit	leikrita leikritanna leikriti leikritin leikritinu leikritið leikrits leikritsins leikritum leikritunum
+19	1819	þyrla	þyrlan þyrlandi þyrlanna þyrlar þyrlast þyrlað þyrlaða þyrlaðan þyrlaðar þyrlaði þyrlaðir þyrlaðist þyrlaðra þyrlaðrar þyrlaðri þyrlaðs þyrlaðu þyrlaður þyrli þyrlir þyrlist þyrlið þyrlna þyrlnanna þyrlu þyrlum þyrlumst þyrluna þyrlunnar þyrlunni þyrlunum þyrlur þyrlurnar þyrluð þyrluðu þyrluðum þyrluðumst þyrluðust þyrluðuð
+20	1820	sérhver	sérhvað sérhverja sérhverjar sérhverjir sérhverju sérhverjum sérhvern sérhverra sérhverrar sérhverri sérhvers sérhvert
+21	1821	pappír	pappíra pappírana pappíranna pappírar pappírarnir pappírinn pappírnum pappírs pappírsins pappírum pappírunum
+22	1822	uppbygging	uppbyggingar uppbyggingarinnar uppbyggingin uppbyggingu uppbygginguna uppbyggingunni
+23	1823	dálítill	dálitla dálitlar dálitli dálitlir dálitlu dálitlum dálítil dálítilla dálítillar dálítilli dálítils dálítinn dálítið
+24	1824	ungi	unga ungana ungann unganna ungans unganum ungar ungarnir unginn ungum ungunum
+25	1825	heimskulegur	heimskuleg heimskulega heimskulegan heimskulegar heimskulegast heimskulegasta heimskulegastan heimskulegastar heimskulegasti heimskulegastir heimskulegastra heimskulegastrar heimskulegastri heimskulegasts heimskulegastur heimskulegi heimskulegir heimskulegra heimskulegrar heimskulegri heimskulegs heimskulegt heimskulegu heimskulegum heimskulegust heimskulegustu heimskulegustum
+26	1826	gá	gái gáin gáir gáið gána gánni gár gárinnar gáum gáð gáði gáðir gáðirðu gáðu gáðum gáðuð
+27	1827	þátttakandi	þátttakanda þátttakandann þátttakandans þátttakandanum þátttakandinn þátttakenda þátttakendanna þátttakendum þátttakendunum þátttakendur þátttakendurna þátttakendurnir
+28	1828	sparka	sparkandi sparkar sparkarðu sparkast sparkað sparkaða sparkaðan sparkaðar sparkaði sparkaðir sparkaðirðu sparkaðist sparkaðra sparkaðrar sparkaðri sparkaðs sparkaðu sparkaður sparki sparkir sparkist sparkið spörkum spörkumst spörkuð spörkuðu spörkuðum spörkuðumst spörkuðust spörkuðuð
+29	1829	mjólk	mjólkin mjólkina mjólkinni mjólkur mjólkurinnar
+30	1830	eining	eininga eininganna einingar einingarinnar einingarnar einingin einingu einingum eininguna einingunni einingunum
+31	1831	lík	líka líkanna líki líkin líkinu líkið líks líksins líkum líkunum
+32	1832	rækta	ræktandi ræktar ræktarðu ræktast ræktað ræktaða ræktaðan ræktaðar ræktaði ræktaðir ræktaðist ræktaðra ræktaðrar ræktaðri ræktaðs ræktaðu ræktaður rækti ræktir ræktist ræktið ræktum ræktumst ræktuð ræktuðu ræktuðum ræktuðumst ræktuðust ræktuðuð
+33	1833	gísl	gísla gíslana gíslanna gíslar gíslarnir gíslinn gíslinum gísls gíslsins gíslum gíslunum
+34	1834	heill	heilla heillanna heillar heillarinnar heillin heillina heillinni heillir heillirnar heillum heillunum
+35	1835	boða	boðandi boðar boðarðu boðast boðað boðaða boðaðan boðaðar boðaði boðaðir boðaðirðu boðaðist boðaðra boðaðrar boðaðri boðaðs boðaðu boðaður boði boðir boðist boðið boðum boðumst boðuð boðuðu boðuðum boðuðumst boðuðust boðuðuð
+36	1836	teikna	teiknandi teiknar teiknarðu teiknast teiknað teiknaða teiknaðan teiknaðar teiknaði teiknaðir teiknaðirðu teiknaðist teiknaðra teiknaðrar teiknaðri teiknaðs teiknaðu teiknaður teikni teiknir teiknist teiknið teiknum teiknumst teiknuð teiknuðu teiknuðum teiknuðumst teiknuðust teiknuðuð
+37	1837	þögn	þagna þagnanna þagnar þagnarinnar þagnir þagnirnar þögnin þögnina þögninni þögnum þögnunum
+38	1838	geir	geira geirana geiranna geirar geirarnir geiri geirinn geirnum geirs geirsins geirum geirunum
+39	1839	efna	efnandi efnar efnast efnað efnaða efnaðan efnaðar efnaði efnaðir efnaðist efnaðra efnaðrar efnaðri efnaðs efnaðu efnaður efnd efnda efndan efndar efndi efndir efndist efndra efndrar efndri efnds efndu efndum efndumst efndur efndust efnduð efni efnir efnist efnið efnst efnt efnum efnumst efnuð efnuðu efnuðum efnuðumst efnuðust efnuðuð
+40	1840	óhætt	
+41	1841	þyngd	þyngda þyngdanna þyngdar þyngdarinnar þyngdin þyngdina þyngdinni þyngdir þyngdirnar þyngdum þyngdunum
+42	1842	stórum	
+43	1843	fæðing	fæðinga fæðinganna fæðingar fæðingarinnar fæðingarnar fæðingin fæðingu fæðingum fæðinguna fæðingunni fæðingunum
+44	1844	bregða	bregð bregðandi bregði bregðir bregðirðu bregðið bregðum bregður bregðurðu brugðin brugðinn brugðinna brugðinnar brugðinni brugðins brugðið brugðna brugðnar brugðni brugðnir brugðnu brugðnum brugðu brugðum brugðuð brygði brygðir brygðirðu brygðu brygðum brygðuð brá brást brástu
+45	1845	frakki	frakka frakkana frakkann frakkanna frakkans frakkanum frakkar frakkarnir frakkinn frökkum frökkunum
+46	1846	ólöglegur	ólögleg ólöglega ólöglegan ólöglegar ólöglegast ólöglegasta ólöglegastan ólöglegastar ólöglegasti ólöglegastir ólöglegastra ólöglegastrar ólöglegastri ólöglegasts ólöglegastur ólöglegi ólöglegir ólöglegra ólöglegrar ólöglegri ólöglegs ólöglegt ólöglegu ólöglegum ólöglegust ólöglegustu ólöglegustum
+47	1847	náttúrulegur	náttúruleg náttúrulega náttúrulegan náttúrulegar náttúrulegast náttúrulegasta náttúrulegastan náttúrulegastar náttúrulegasti náttúrulegastir náttúrulegastra náttúrulegastrar náttúrulegastri náttúrulegasts náttúrulegastur náttúrulegi náttúrulegir náttúrulegra náttúrulegrar náttúrulegri náttúrulegs náttúrulegt náttúrulegu náttúrulegum náttúrulegust náttúrulegustu náttúrulegustum
+48	1848	tjald	tjalda tjaldanna tjaldi tjaldinu tjaldið tjalds tjaldsins tjöld tjöldin tjöldum tjöldunum
+49	1849	met	meta metanna meti metin metinu metið mets metsins metum metunum
+50	1850	sjón	sjóna sjónanna sjónar sjónarinnar sjónin sjónina sjóninni sjónir sjónirnar sjónum sjónunum
+51	1851	gos	gosa gosanna gosi gosin gosinu gosið goss gossins gosum gosunum
+52	1852	sökum	
+53	1853	tilboð	tilboða tilboðanna tilboði tilboðin tilboðinu tilboðið tilboðs tilboðsins tilboðum tilboðunum
+54	1854	lát	láta látanna láti látin látinu látið láts látsins látum látunum
+55	1855	straumur	straum strauma straumana straumanna straumar straumarnir straumi strauminn straumnum straums straumsins straumum straumunum straumurinn
+56	1856	stansa	stansandi stansar stansað stansaða stansaðan stansaðar stansaði stansaðir stansaðra stansaðrar stansaðri stansaðs stansaðu stansaður stansi stansir stansið stönsum stönsuð stönsuðu stönsuðum stönsuðuð
+57	1857	tilnefna	tilnefnandi tilnefnast tilnefnd tilnefnda tilnefndan tilnefndar tilnefndi tilnefndir tilnefndist tilnefndra tilnefndrar tilnefndri tilnefnds tilnefndu tilnefndum tilnefndumst tilnefndur tilnefndust tilnefnduð tilnefni tilnefnir tilnefnist tilnefnið tilnefnst tilnefnt tilnefnum tilnefnumst
+58	1858	fáni	fána fánana fánann fánanna fánans fánanum fánar fánarnir fáninn fánum fánunum
+59	1859	brandari	brandara brandarana brandarann brandaranna brandarans brandaranum brandarar brandararnir brandarinn bröndurum bröndurunum
+60	1860	evra	evran evranna evru evrum evruna evrunnar evrunni evrunum evrur evrurnar
+61	1861	ar	ara aranna arinu arið ars arsins ör örin örum örunum
+62	1862	þjá	þjái þjáir þjáist þjáið þjást þjáum þjáumst þjáð þjáða þjáðan þjáðar þjáði þjáðir þjáðist þjáðra þjáðrar þjáðri þjáðs þjáðst þjáðu þjáðum þjáðumst þjáður þjáðust þjáðuð
+63	1863	úlfur	úlf úlfa úlfana úlfanna úlfar úlfarnir úlfi úlfinn úlfinum úlfs úlfsins úlfum úlfunum úlfurinn
+64	1864	ómögulegur	ómöguleg ómögulega ómögulegan ómögulegar ómögulegast ómögulegasta ómögulegastan ómögulegastar ómögulegasti ómögulegastir ómögulegastra ómögulegastrar ómögulegastri ómögulegasts ómögulegastur ómögulegi ómögulegir ómögulegra ómögulegrar ómögulegri ómögulegs ómögulegt ómögulegu ómögulegum ómögulegust ómögulegustu ómögulegustum
+65	1865	viðbúinn	viðbúin viðbúinna viðbúinnar viðbúinni viðbúins viðbúið viðbúna viðbúnar viðbúnara viðbúnari viðbúnast viðbúnasta viðbúnastan viðbúnastar viðbúnasti viðbúnastir viðbúnastra viðbúnastrar viðbúnastri viðbúnasts viðbúnastur viðbúni viðbúnir viðbúnu viðbúnum viðbúnust viðbúnustu viðbúnustum
+66	1866	nágranni	nágranna nágrannana nágrannann nágrannanna nágrannans nágrannanum nágrannar nágrannarnir nágranninn nágrönnum nágrönnunum
+67	1867	meðaltal	meðaltala meðaltalanna meðaltali meðaltalinu meðaltalið meðaltals meðaltalsins meðaltöl meðaltölin meðaltölum meðaltölunum
+68	1868	hálfviti	hálfvita hálfvitana hálfvitann hálfvitanna hálfvitans hálfvitanum hálfvitar hálfvitarnir hálfvitinn hálfvitum hálfvitunum
+69	1869	fortíð	fortíða fortíðanna fortíðar fortíðarinnar fortíðin fortíðina fortíðinni fortíðir fortíðirnar fortíðum fortíðunum
+70	1870	biblía	biblían biblíanna biblíu biblíum biblíuna biblíunnar biblíunni biblíunum biblíur biblíurnar
+71	1871	gríma	gríman grímanna grímna grímnanna grímu grímum grímuna grímunnar grímunni grímunum grímur grímurnar
+72	1872	annt	annara annast
+73	1873	dollari	dollara dollarana dollarann dollaranna dollarans dollaranum dollarar dollararnir dollarinn dollurum dollurunum
+74	1874	hommi	homma hommana hommann hommanna hommans hommanum hommar hommarnir homminn hommum hommunum
+75	1875	rós	rósa rósanna rósar rósarinnar rósin rósina rósinni rósir rósirnar rósum rósunum
+76	1876	þurr	þurra þurran þurrar þurrara þurrari þurrast þurrasta þurrastan þurrastar þurrasti þurrastir þurrastra þurrastrar þurrastri þurrasts þurrastur þurri þurrir þurrs þurrt þurru þurrum þurrust þurrustu þurrustum
+77	1877	ódýr	ódýra ódýran ódýrar ódýrara ódýrari ódýrast ódýrasta ódýrastan ódýrastar ódýrasti ódýrastir ódýrastra ódýrastrar ódýrastri ódýrasts ódýrastur ódýri ódýrir ódýrra ódýrrar ódýrri ódýrs ódýrt ódýru ódýrum ódýrust ódýrustu ódýrustum
+78	1878	upphaflega	
+79	1879	svoleiðis	
+80	1880	þjálfun	þjálfana þjálfananna þjálfanir þjálfanirnar þjálfunar þjálfunarinnar þjálfunin þjálfunina þjálfuninni þjálfunum þjálfununum
+81	1881	indíáni	indíána indíánana indíánann indíánanna indíánans indíánanum indíánar indíánarnir indíáninn indíánum indíánunum
+82	1882	eintak	eintaka eintakanna eintaki eintakinu eintakið eintaks eintaksins eintök eintökin eintökum eintökunum
+83	1883	unglingur	ungling unglinga unglingana unglinganna unglingar unglingarnir unglingi unglinginn unglingnum unglings unglingsins unglingum unglingunum unglingurinn
+84	1884	hné	hnjáa hnjám hnjánna hnjánum hnén hnénu hnés hnésins hnéð
+85	1885	fógeti	fógeta fógetana fógetann fógetanna fógetans fógetanum fógetar fógetarnir fógetinn fógetum fógetunum
+86	1886	þvo	þvegin þveginn þveginna þveginnar þveginni þvegins þvegist þvegið þvegna þvegnar þvegni þvegnir þvegnu þvegnum þvoi þvoir þvoist þvoið þvost þvoum þvoumst þvoði þvoðir þvoðirðu þvoðist þvoðu þvoðum þvoðumst þvoðust þvoðuð þvæ þvægi þvægir þvægist þvægju þvægjum þvægjumst þvægjust þvægjuð þvær þværð þværðu þvæst
+87	1887	trygging	trygginga trygginganna tryggingar tryggingarinnar tryggingarnar tryggingin tryggingu tryggingum trygginguna tryggingunni tryggingunum
+88	1888	jersey	jerseyi jerseyinu jerseyið jerseys jerseysins
+89	1889	þága	þágu
+90	1890	jólasveinn	jólasvein jólasveina jólasveinana jólasveinanna jólasveinar jólasveinarnir jólasveini jólasveininn jólasveininum jólasveinninn jólasveins jólasveinsins jólasveinum jólasveinunum
+91	1891	ellefu	
+92	1892	óháður	óháð óháða óháðan óháðar óháðara óháðari óháðast óháðasta óháðastan óháðastar óháðasti óháðastir óháðastra óháðastrar óháðastri óháðasts óháðastur óháði óháðir óháðra óháðrar óháðri óháðs óháðu óháðum óháðust óháðustu óháðustum
+93	1893	vonast	vonaðist vonaðistu vonist vonumst vonuðumst vonuðust
+94	1894	grunnskóli	grunnskóla grunnskólana grunnskólann grunnskólanna grunnskólans grunnskólanum grunnskólar grunnskólarnir grunnskólinn grunnskólum grunnskólunum
+95	1895	mannkyn	mannkyni mannkyninu mannkynið mannkyns mannkynsins
+96	1896	snjall	snjalla snjallan snjallar snjallara snjallari snjallast snjallasta snjallastan snjallastar snjallasti snjallastir snjallastra snjallastrar snjallastri snjallasts snjallastur snjalli snjallir snjallra snjallrar snjallri snjalls snjallt snjöll snjöllu snjöllum snjöllust snjöllustu snjöllustum
+97	1897	bjáni	bjána bjánana bjánann bjánanna bjánans bjánanum bjánar bjánarnir bjáninn bjánum bjánunum
+98	1898	rusl	rusli ruslinu ruslið rusls ruslsins
+99	1899	biti	bita bitana bitann bitanna bitans bitanum bitar bitarnir bitinn bitum bitunum
+100	1900	víður	vítt víð víða víðan víðar víðara víðari víðast víðasta víðastan víðastar víðasti víðastir víðastra víðastrar víðastri víðasts víðastur víði víðir víðra víðrar víðri víðs víðu víðum víðust víðustu víðustum

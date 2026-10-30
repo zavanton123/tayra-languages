@@ -1,0 +1,100 @@
+1	8701	storka	storkan storkandi storkanna storkar storkast storkað storkaða storkaðan storkaðar storkaði storkaðir storkaðist storkaðra storkaðrar storkaðri storkaðs storkaðu storkaður storki storkir storkist storkið storkna storknanna storknar storknað storku storkum storkumst storkuna storkunnar storkunni storkunum storkur storkurnar storkuð storkuðu storkuðum storkuðumst storkuðust storkuðuð
+2	8702	þræða	þrædd þrædda þræddan þræddar þræddi þræddir þræddist þræddra þræddrar þræddri þrædds þræddu þræddum þræddumst þræddur þræddust þrædduð þrætt þræðandi þræðast þræði þræðir þræðist þræðið þræðst þræðum þræðumst
+3	8703	herklæði	herklæða herklæðanna herklæðin herklæðum herklæðunum
+4	8704	einsdæmi	einsdæma einsdæmanna einsdæmin einsdæminu einsdæmis einsdæmisins einsdæmið einsdæmum einsdæmunum
+5	8705	samheldinn	samheldin samheldinna samheldinnar samheldinni samheldins samheldið samheldna samheldnar samheldnara samheldnari samheldnast samheldnasta samheldnastan samheldnastar samheldnasti samheldnastir samheldnastra samheldnastrar samheldnastri samheldnasts samheldnastur samheldni samheldnir samheldnu samheldnum samheldnust samheldnustu samheldnustum
+6	8706	marmari	marmara marmarann marmarans marmaranum marmarinn
+7	8707	einokun	einokunar einokunarinnar einokunin einokunina einokuninni
+8	8708	endurskipuleggja	endurskipulagst endurskipulagt endurskipulagða endurskipulagðan endurskipulagðar endurskipulagði endurskipulagðir endurskipulagðist endurskipulagðra endurskipulagðrar endurskipulagðri endurskipulagðs endurskipulagður endurskipulegg endurskipuleggi endurskipuleggir endurskipuleggist endurskipuleggið endurskipuleggjandi endurskipuleggjast endurskipuleggjum endurskipuleggjumst endurskipuleggst endurskipuleggur endurskipuleggðu endurskipulegði endurskipulegðir endurskipulegðist endurskipulegðu endurskipulegðum endurskipulegðumst endurskipulegðust endurskipulegðuð endurskipulögð endurskipulögðu endurskipulögðum endurskipulögðumst endurskipulögðust endurskipulögðuð
+9	8709	gosi	gosa gosana gosann gosanna gosans gosanum gosar gosarnir gosinn gosum gosunum
+10	8710	getnaðarvörn	getnaðarvarna getnaðarvarnanna getnaðarvarnar getnaðarvarnarinnar getnaðarvarnir getnaðarvarnirnar getnaðarvörnin getnaðarvörnina getnaðarvörninni getnaðarvörnum getnaðarvörnunum
+11	8711	rjúpa	rjúpan rjúpna rjúpnanna rjúpu rjúpum rjúpuna rjúpunnar rjúpunni rjúpunum rjúpur rjúpurnar
+12	8712	sérsvið	sérsviða sérsviðanna sérsviði sérsviðin sérsviðinu sérsviðið sérsviðs sérsviðsins sérsviðum sérsviðunum
+13	8713	dýrkeyptur	dýrkeypt dýrkeypta dýrkeyptan dýrkeyptar dýrkeyptara dýrkeyptari dýrkeyptast dýrkeyptasta dýrkeyptastan dýrkeyptastar dýrkeyptasti dýrkeyptastir dýrkeyptastra dýrkeyptastrar dýrkeyptastri dýrkeyptasts dýrkeyptastur dýrkeypti dýrkeyptir dýrkeyptra dýrkeyptrar dýrkeyptri dýrkeypts dýrkeyptu dýrkeyptum dýrkeyptust dýrkeyptustu dýrkeyptustum
+14	8714	undirmaður	undirmann undirmanna undirmannanna undirmanni undirmanninn undirmanninum undirmanns undirmannsins undirmaðurinn undirmenn undirmennina undirmennirnir undirmönnum undirmönnunum
+15	8715	barnsaldur	barnsaldra barnsaldrana barnsaldranna barnsaldrar barnsaldrarnir barnsaldri barnsaldrinum barnsaldurinn barnsaldurs barnsaldursins barnsöldrum barnsöldrunum
+16	8716	útvarpsþáttur	útvarpsþátt útvarpsþátta útvarpsþáttanna útvarpsþáttar útvarpsþáttarins útvarpsþáttinn útvarpsþáttum útvarpsþáttunum útvarpsþátturinn útvarpsþætti útvarpsþættina útvarpsþættinum útvarpsþættir útvarpsþættirnir
+17	8717	austanverður	austanvert austanverð austanverða austanverðan austanverðar austanverði austanverðir austanverðra austanverðrar austanverðri austanverðs austanverðu austanverðum
+18	8718	eldsnemma	
+19	8719	leti	letin letina letinnar letinni
+20	8720	spes	
+21	8721	starfslok	starfsloka starfslokanna starfslokin starfslokum starfslokunum
+22	8722	næturvakt	næturvakta næturvaktanna næturvaktar næturvaktarinnar næturvaktin næturvaktina næturvaktinni næturvaktir næturvaktirnar næturvöktum næturvöktunum
+23	8723	stjórnskipun	stjórnskipana stjórnskipananna stjórnskipanir stjórnskipanirnar stjórnskipunar stjórnskipunarinnar stjórnskipunin stjórnskipunina stjórnskipuninni stjórnskipunum stjórnskipununum
+24	8724	tortíming	tortímingar tortímingarinnar tortímingin tortímingu tortíminguna tortímingunni
+25	8725	steindauður	steindautt steindauð steindauða steindauðan steindauðar steindauði steindauðir steindauðra steindauðrar steindauðri steindauðs steindauðu steindauðum
+26	8726	hóruhús	hóruhúsa hóruhúsanna hóruhúsi hóruhúsin hóruhúsinu hóruhúsið hóruhúss hóruhússins hóruhúsum hóruhúsunum
+27	8727	mannavillt	
+28	8728	poppkorn	poppkorna poppkornanna poppkorni poppkornin poppkorninu poppkornið poppkorns poppkornsins poppkornum poppkornunum
+29	8729	umsemja	umsamda umsamdar umsamdi umsamdir umsamdist umsamin umsaminn umsaminna umsaminnar umsaminni umsamins umsamist umsamið umsem umsemdi umsemdir umsemdist umsemdu umsemdum umsemdumst umsemdust umsemduð umsemjandi umsemjast umsemji umsemjir umsemjist umsemjið umsemjum umsemjumst umsemst umsemur umsömdu umsömdum umsömdumst umsömdust umsömduð
+30	8730	aðkomumaður	aðkomumann aðkomumanna aðkomumannanna aðkomumanni aðkomumanninn aðkomumanninum aðkomumanns aðkomumannsins aðkomumaðurinn aðkomumenn aðkomumennina aðkomumennirnir aðkomumönnum aðkomumönnunum
+31	8731	dansgólf	dansgólfa dansgólfanna dansgólfi dansgólfin dansgólfinu dansgólfið dansgólfs dansgólfsins dansgólfum dansgólfunum
+32	8732	bastarður	bastarð bastarða bastarðana bastarðanna bastarðar bastarðarnir bastarði bastarðinn bastarðinum bastarðs bastarðsins bastarðurinn bastörðum bastörðunum
+33	8733	dökkhærður	dökkhært dökkhærð dökkhærða dökkhærðan dökkhærðar dökkhærðara dökkhærðari dökkhærðast dökkhærðasta dökkhærðastan dökkhærðastar dökkhærðasti dökkhærðastir dökkhærðastra dökkhærðastrar dökkhærðastri dökkhærðasts dökkhærðastur dökkhærði dökkhærðir dökkhærðra dökkhærðrar dökkhærðri dökkhærðs dökkhærðu dökkhærðum dökkhærðust dökkhærðustu dökkhærðustum
+34	8734	fatafella	fatafellan fatafellanna fatafellna fatafellnanna fatafellu fatafellum fatafelluna fatafellunnar fatafellunni fatafellunum fatafellur fatafellurnar
+35	8735	sleipur	sleip sleipa sleipan sleipar sleipara sleipari sleipast sleipasta sleipastan sleipastar sleipasti sleipastir sleipastra sleipastrar sleipastri sleipasts sleipastur sleipi sleipir sleipra sleiprar sleipri sleips sleipt sleipu sleipum sleipust sleipustu sleipustum
+36	8736	aðgangsorð	aðgangsorða aðgangsorðanna aðgangsorði aðgangsorðin aðgangsorðinu aðgangsorðið aðgangsorðs aðgangsorðsins aðgangsorðum aðgangsorðunum
+37	8737	ógeðfelldur	ógeðfelld ógeðfellda ógeðfelldan ógeðfelldar ógeðfelldara ógeðfelldari ógeðfelldast ógeðfelldasta ógeðfelldastan ógeðfelldastar ógeðfelldasti ógeðfelldastir ógeðfelldastra ógeðfelldastrar ógeðfelldastri ógeðfelldasts ógeðfelldastur ógeðfelldi ógeðfelldir ógeðfelldra ógeðfelldrar ógeðfelldri ógeðfellds ógeðfelldu ógeðfelldum ógeðfelldust ógeðfelldustu ógeðfelldustum ógeðfellt
+38	8738	böðull	böðla böðlana böðlanna böðlar böðlarnir böðli böðlinum böðlum böðlunum böðul böðulinn böðullinn böðuls böðulsins
+39	8739	sökudólgur	sökudólg sökudólga sökudólgana sökudólganna sökudólgar sökudólgarnir sökudólginn sökudólginum sökudólgnum sökudólgs sökudólgsins sökudólgum sökudólgunum sökudólgurinn
+40	8740	heilsuhæli	heilsuhæla heilsuhælanna heilsuhælin heilsuhælinu heilsuhælis heilsuhælisins heilsuhælið heilsuhælum heilsuhælunum
+41	8741	mannheimur	mannheim mannheima mannheimana mannheimanna mannheimar mannheimarnir mannheimi mannheiminn mannheiminum mannheims mannheimsins mannheimum mannheimunum mannheimurinn
+42	8742	eldborg	eldborga eldborganna eldborgar eldborgarinnar eldborgin eldborgina eldborginni eldborgir eldborgirnar eldborgum eldborgunum
+43	8743	fæðingarorlof	fæðingarorlofa fæðingarorlofanna fæðingarorlofi fæðingarorlofin fæðingarorlofinu fæðingarorlofið fæðingarorlofs fæðingarorlofsins fæðingarorlofum fæðingarorlofunum
+44	8744	ítalska	ítalskan ítölsku ítölskuna ítölskunnar ítölskunni
+45	8745	hátíðlega	
+46	8746	lyftiduft	lyftidufti lyftiduftinu lyftiduftið lyftidufts lyftiduftsins
+47	8747	tau	taua tauanna taui tauin tauinu tauið taus tausins tauum tauunum
+48	8748	búningsklefi	búningsklefa búningsklefana búningsklefann búningsklefanna búningsklefans búningsklefanum búningsklefar búningsklefarnir búningsklefinn búningsklefum búningsklefunum
+49	8749	myndasaga	myndasagan myndasagna myndasagnanna myndasögu myndasögum myndasöguna myndasögunnar myndasögunni myndasögunum myndasögur myndasögurnar
+50	8750	afkastamikill	afkastameira afkastameiri afkastamest afkastamesta afkastamestan afkastamestar afkastamesti afkastamestir afkastamestra afkastamestrar afkastamestri afkastamests afkastamestu afkastamestum afkastamestur afkastamikil afkastamikilla afkastamikillar afkastamikilli afkastamikils afkastamikinn afkastamikið afkastamikla afkastamiklar afkastamikli afkastamiklir afkastamiklu afkastamiklum
+51	8751	lesning	lesninga lesninganna lesningar lesningarinnar lesningarnar lesningin lesningu lesningum lesninguna lesningunni lesningunum
+52	8752	mastur	mastra mastranna mastri mastrinu mastrið masturs mastursins möstrin möstrum möstrunum möstur
+53	8753	nafli	nafla naflana naflann naflanna naflans naflanum naflar naflarnir naflinn nöflum nöflunum
+54	8754	upplestur	upplestra upplestrana upplestranna upplestrar upplestrarins upplestrarnir upplestri upplestrinum upplestrum upplestrunum upplesturinn upplesturs upplestursins
+55	8755	miðjumaður	miðjumann miðjumanna miðjumannanna miðjumanni miðjumanninn miðjumanninum miðjumanns miðjumannsins miðjumaðurinn miðjumenn miðjumennina miðjumennirnir miðjumönnum miðjumönnunum
+56	8756	smásjá	smásjáa smásjáin smásjám smásjána smásjánna smásjánni smásjánum smásjár smásjárinnar smásjárnar
+57	8757	svala	svalan svalandi svalanna svalar svalað svalaði svalaðir svalaðu svali svalir svalið svalna svalnanna svölu svölum svöluna svölunnar svölunni svölunum svölur svölurnar svöluðu svöluðum svöluðuð
+58	8758	regluverk	regluverka regluverkanna regluverki regluverkin regluverkinu regluverkið regluverks regluverksins regluverkum regluverkunum
+59	8759	bingur	bing bingi bingina binginn bingir bingirnir bingja bingjanna bingjum bingjunum bingnum bings bingsins bingurinn
+60	8760	þrefalt	
+61	8761	hræsni	hræsnin hræsnina hræsninnar hræsninni
+62	8762	verkalýður	verkalýð verkalýðinn verkalýðnum verkalýðs verkalýðsins verkalýðurinn
+63	8763	atvinnuvegur	atvinnuveg atvinnuvega atvinnuveganna atvinnuvegar atvinnuvegarins atvinnuvegi atvinnuvegina atvinnuveginn atvinnuveginum atvinnuvegir atvinnuvegirnir atvinnuvegum atvinnuvegunum atvinnuvegurinn
+64	8764	pálmatré	pálmatrjáa pálmatrjám pálmatrjánna pálmatrjánum pálmatrén pálmatrénu pálmatrés pálmatrésins pálmatréð
+65	8765	höggmynd	höggmynda höggmyndanna höggmyndar höggmyndarinnar höggmyndin höggmyndina höggmyndinni höggmyndir höggmyndirnar höggmyndum höggmyndunum
+66	8766	merkingarlaus	merkingarlausa merkingarlausan merkingarlausar merkingarlausara merkingarlausari merkingarlausast merkingarlausasta merkingarlausastan merkingarlausastar merkingarlausasti merkingarlausastir merkingarlausastra merkingarlausastrar merkingarlausastri merkingarlausasts merkingarlausastur merkingarlausi merkingarlausir merkingarlausra merkingarlausrar merkingarlausri merkingarlauss merkingarlaust merkingarlausu merkingarlausum merkingarlausust merkingarlausustu merkingarlausustum
+67	8767	viðvart	
+68	8768	fit	fitin fitina fitinni fitja fitjanna fitjar fitjarinnar fitjarnar fitjum fitjunum
+69	8769	skrúbba	skrúbban skrúbbandi skrúbbanna skrúbbar skrúbbast skrúbbað skrúbbaða skrúbbaðan skrúbbaðar skrúbbaði skrúbbaðir skrúbbaðist skrúbbaðra skrúbbaðrar skrúbbaðri skrúbbaðs skrúbbaðu skrúbbaður skrúbbi skrúbbir skrúbbist skrúbbið skrúbbu skrúbbum skrúbbumst skrúbbuna skrúbbunnar skrúbbunni skrúbbunum skrúbbur skrúbburnar skrúbbuð skrúbbuðu skrúbbuðum skrúbbuðumst skrúbbuðust skrúbbuðuð
+70	8770	hernaðarlegur	hernaðarleg hernaðarlega hernaðarlegan hernaðarlegar hernaðarlegast hernaðarlegasta hernaðarlegastan hernaðarlegastar hernaðarlegasti hernaðarlegastir hernaðarlegastra hernaðarlegastrar hernaðarlegastri hernaðarlegasts hernaðarlegastur hernaðarlegi hernaðarlegir hernaðarlegra hernaðarlegrar hernaðarlegri hernaðarlegs hernaðarlegt hernaðarlegu hernaðarlegum hernaðarlegust hernaðarlegustu hernaðarlegustum
+71	8771	kæruleysi	kæruleysinu kæruleysis kæruleysisins kæruleysið
+72	8772	lúxus	lúxusinn lúxusinum lúxusnum lúxuss lúxussins
+73	8773	íhugun	íhugana íhugananna íhuganir íhuganirnar íhugunar íhugunarinnar íhugunin íhugunina íhuguninni íhugunum íhugununum
+74	8774	útlína	útlínan útlínanna útlínu útlínum útlínuna útlínunnar útlínunni útlínunum útlínur útlínurnar
+75	8775	ráðsmaður	ráðsmann ráðsmanna ráðsmannanna ráðsmanni ráðsmanninn ráðsmanninum ráðsmanns ráðsmannsins ráðsmaðurinn ráðsmenn ráðsmennina ráðsmennirnir ráðsmönnum ráðsmönnunum
+76	8776	einmanaleiki	einmanaleika einmanaleikann einmanaleikans einmanaleikanum einmanaleikinn
+77	8777	hörmulega	
+78	8778	reynslulausn	reynslulausna reynslulausnanna reynslulausnar reynslulausnarinnar reynslulausnin reynslulausnina reynslulausninni reynslulausnir reynslulausnirnar reynslulausnum reynslulausnunum
+79	8779	óra	órandi órar órað óraði óraðu óri órið
+80	8780	sjötugur	sjötug sjötuga sjötugan sjötugar sjötugi sjötugir sjötugra sjötugrar sjötugri sjötugs sjötugt sjötugu sjötugum
+81	8781	heiðarlega	
+82	8782	körfuknattleikur	körfuknattleik körfuknattleiki körfuknattleikina körfuknattleikinn körfuknattleikir körfuknattleikirnir körfuknattleikja körfuknattleikjanna körfuknattleikjum körfuknattleikjunum körfuknattleiknum körfuknattleiks körfuknattleiksins körfuknattleikurinn
+83	8783	sighvatur	
+84	8784	þorrablót	þorrablóta þorrablótanna þorrablóti þorrablótin þorrablótinu þorrablótið þorrablóts þorrablótsins þorrablótum þorrablótunum
+85	8785	eilíft	
+86	8786	erfðafræði	erfðafræðin erfðafræðina erfðafræðinnar erfðafræðinni
+87	8787	kveðjustund	kveðjustunda kveðjustundanna kveðjustundar kveðjustundarinnar kveðjustundin kveðjustundina kveðjustundinni kveðjustundir kveðjustundirnar kveðjustundum kveðjustundunum
+88	8788	lyfting	lyftinga lyftinganna lyftingar lyftingarinnar lyftingarnar lyftingin lyftingu lyftingum lyftinguna lyftingunni lyftingunum
+89	8789	vals	valsa valsana valsanna valsar valsarnir valsi valsinn valsins valsinum völsum völsunum
+90	8790	malt	malti maltinu maltið malts maltsins
+91	8791	launahækkun	launahækkana launahækkananna launahækkanir launahækkanirnar launahækkunar launahækkunarinnar launahækkunin launahækkunina launahækkuninni launahækkunum launahækkununum
+92	8792	predika	predikandi predikar predikast predikað predikaða predikaðan predikaðar predikaði predikaðir predikaðist predikaðra predikaðrar predikaðri predikaðs predikaðu predikaður prediki predikir predikist predikið predikum predikumst predikuð predikuðu predikuðum predikuðumst predikuðust predikuðuð
+93	8793	varnarlið	varnarliða varnarliðanna varnarliði varnarliðin varnarliðinu varnarliðið varnarliðs varnarliðsins varnarliðum varnarliðunum
+94	8794	skilningarvit	skilningarvita skilningarvitanna skilningarviti skilningarvitin skilningarvitinu skilningarvitið skilningarvits skilningarvitsins skilningarvitum skilningarvitunum
+95	8795	töffari	töffara töffarana töffarann töffaranna töffarans töffaranum töffarar töffararnir töffarinn töffurum töffurunum
+96	8796	seiða	seiddi seiddir seiddist seiddu seiddum seiddumst seiddust seidduð seitt seiðandi seiðast seiði seiðir seiðist seiðið seiðst seiðum seiðumst
+97	8797	hopa	hopandi hopar hopað hopaði hopaðir hopaðirðu hopaðu hopi hopir hopið hopum hopuðu hopuðum hopuðuð
+98	8798	byrjunarreitur	byrjunarreit byrjunarreita byrjunarreitanna byrjunarreiti byrjunarreitina byrjunarreitinn byrjunarreitir byrjunarreitirnir byrjunarreitnum byrjunarreits byrjunarreitsins byrjunarreitum byrjunarreitunum byrjunarreiturinn
+99	8799	eldfimur	eldfim eldfima eldfiman eldfimar eldfimara eldfimari eldfimast eldfimasta eldfimastan eldfimastar eldfimasti eldfimastir eldfimastra eldfimastrar eldfimastri eldfimasts eldfimastur eldfimi eldfimir eldfimra eldfimrar eldfimri eldfims eldfimt eldfimu eldfimum eldfimust eldfimustu eldfimustum
+100	8800	gagna	gagnar gagnað gagnaði gagni gögnuðu

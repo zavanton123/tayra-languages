@@ -1,0 +1,100 @@
+1	9101	dáleiða	dáleidd dáleidda dáleiddan dáleiddar dáleiddi dáleiddir dáleiddist dáleiddra dáleiddrar dáleiddri dáleidds dáleiddu dáleiddum dáleiddumst dáleiddur dáleiddust dáleidduð dáleitt dáleiðandi dáleiðast dáleiði dáleiðir dáleiðist dáleiðið dáleiðst dáleiðstu dáleiðum dáleiðumst
+2	9102	vélrita	vélritandi vélritar vélritast vélritað vélritaða vélritaðan vélritaðar vélritaði vélritaðir vélritaðist vélritaðra vélritaðrar vélritaðri vélritaðs vélritaðu vélritaður vélriti vélritir vélritist vélritið vélritum vélritumst vélrituð vélrituðu vélrituðum vélrituðumst vélrituðust vélrituðuð
+3	9103	svívirðilegur	svívirðileg svívirðilega svívirðilegan svívirðilegar svívirðilegast svívirðilegasta svívirðilegastan svívirðilegastar svívirðilegasti svívirðilegastir svívirðilegastra svívirðilegastrar svívirðilegastri svívirðilegasts svívirðilegastur svívirðilegi svívirðilegir svívirðilegra svívirðilegrar svívirðilegri svívirðilegs svívirðilegt svívirðilegu svívirðilegum svívirðilegust svívirðilegustu svívirðilegustum
+4	9104	rannsóknarmaður	rannsóknarmann rannsóknarmanna rannsóknarmannanna rannsóknarmanni rannsóknarmanninn rannsóknarmanninum rannsóknarmanns rannsóknarmannsins rannsóknarmaðurinn rannsóknarmenn rannsóknarmennina rannsóknarmennirnir rannsóknarmönnum rannsóknarmönnunum
+5	9105	norðanmaður	norðanmann norðanmanna norðanmannanna norðanmanni norðanmanninn norðanmanninum norðanmanns norðanmannsins norðanmaðurinn norðanmenn norðanmennina norðanmennirnir norðanmönnum norðanmönnunum
+6	9106	svartklæddur	svartklædd svartklædda svartklæddan svartklæddar svartklæddara svartklæddari svartklæddast svartklæddasta svartklæddastan svartklæddastar svartklæddasti svartklæddastir svartklæddastra svartklæddastrar svartklæddastri svartklæddasts svartklæddastur svartklæddi svartklæddir svartklæddra svartklæddrar svartklæddri svartklædds svartklæddu svartklæddum svartklæddust svartklæddustu svartklæddustum svartklætt
+7	9107	veðmangari	veðmangara veðmangarana veðmangarann veðmangaranna veðmangarans veðmangaranum veðmangarar veðmangararnir veðmangarinn veðmöngurum veðmöngurunum
+8	9108	raddband	raddbanda raddbandanna raddbandi raddbandinu raddbandið raddbands raddbandsins raddbönd raddböndin raddböndum raddböndunum
+9	9109	ógurlegur	ógurleg ógurlega ógurlegan ógurlegar ógurlegast ógurlegasta ógurlegastan ógurlegastar ógurlegasti ógurlegastir ógurlegastra ógurlegastrar ógurlegastri ógurlegasts ógurlegastur ógurlegi ógurlegir ógurlegra ógurlegrar ógurlegri ógurlegs ógurlegt ógurlegu ógurlegum ógurlegust ógurlegustu ógurlegustum
+10	9110	atferlismeðferð	atferlismeðferða atferlismeðferðanna atferlismeðferðar atferlismeðferðarinnar atferlismeðferðin atferlismeðferðina atferlismeðferðinni atferlismeðferðir atferlismeðferðirnar atferlismeðferðum atferlismeðferðunum
+11	9111	fræðiheiti	fræðiheita fræðiheitanna fræðiheitin fræðiheitinu fræðiheitis fræðiheitisins fræðiheitið fræðiheitum fræðiheitunum
+12	9112	heiðursverðlaun	heiðursverðlauna heiðursverðlaunanna heiðursverðlaunin heiðursverðlaunum heiðursverðlaununum
+13	9113	náttúrufar	náttúrufari náttúrufarinu náttúrufarið náttúrufars náttúrufarsins
+14	9114	ambátt	ambátta ambáttanna ambáttar ambáttarinnar ambáttin ambáttina ambáttinni ambáttir ambáttirnar ambáttum ambáttunum
+15	9115	vígstöð	vígstöðin vígstöðina vígstöðinni vígstöðva vígstöðvanna vígstöðvar vígstöðvarinnar vígstöðvarnar vígstöðvum vígstöðvunum
+16	9116	ásigkomulag	ásigkomulagi ásigkomulaginu ásigkomulagið ásigkomulags ásigkomulagsins
+17	9117	sendinefnd	sendinefnda sendinefndanna sendinefndar sendinefndarinnar sendinefndin sendinefndina sendinefndinni sendinefndir sendinefndirnar sendinefndum sendinefndunum
+18	9118	fagmannlegur	fagmannleg fagmannlega fagmannlegan fagmannlegar fagmannlegast fagmannlegasta fagmannlegastan fagmannlegastar fagmannlegasti fagmannlegastir fagmannlegastra fagmannlegastrar fagmannlegastri fagmannlegasts fagmannlegastur fagmannlegi fagmannlegir fagmannlegra fagmannlegrar fagmannlegri fagmannlegs fagmannlegt fagmannlegu fagmannlegum fagmannlegust fagmannlegustu fagmannlegustum
+19	9119	liðhlaupi	liðhlaupa liðhlaupana liðhlaupann liðhlaupanna liðhlaupans liðhlaupanum liðhlaupar liðhlauparnir liðhlaupinn liðhlaupum liðhlaupunum
+20	9120	ötullega	ötullegar ötullegast
+21	9121	sjávarafurð	sjávarafurða sjávarafurðanna sjávarafurðar sjávarafurðarinnar sjávarafurðin sjávarafurðina sjávarafurðinni sjávarafurðir sjávarafurðirnar sjávarafurðum sjávarafurðunum
+22	9122	fylgdarlið	fylgdarliða fylgdarliðanna fylgdarliði fylgdarliðin fylgdarliðinu fylgdarliðið fylgdarliðs fylgdarliðsins fylgdarliðum fylgdarliðunum
+23	9123	auðmýkt	auðmýktar auðmýktarinnar auðmýktin auðmýktina auðmýktinni
+24	9124	nett	nettar nettast
+25	9125	nýlistasafn	nýlistasafna nýlistasafnanna nýlistasafni nýlistasafninu nýlistasafnið nýlistasafns nýlistasafnsins nýlistasöfn nýlistasöfnin nýlistasöfnum nýlistasöfnunum
+26	9126	stórmenni	stórmenna stórmennanna stórmennin stórmenninu stórmennis stórmennisins stórmennið stórmennum stórmennunum
+27	9127	stýring	stýringar stýringarinnar stýringin stýringu stýringuna stýringunni
+28	9128	stimpill	stimpil stimpilinn stimpillinn stimpils stimpilsins stimpla stimplana stimplanna stimplar stimplarnir stimpli stimplinum stimplum stimplunum
+29	9129	æs	æsa æsanna æsar æsarinnar æsarnar æsin æsina æsinni æsum æsunum
+30	9130	vanhæfni	vanhæfnin vanhæfnina vanhæfninnar vanhæfninni
+31	9131	hressilega	
+32	9132	guðlast	guðlasti guðlastinu guðlastið guðlasts guðlastsins
+33	9133	kyrrð	kyrrðar kyrrðarinnar kyrrðin kyrrðina kyrrðinni
+34	9134	klink	klinki klinkinu klinkið klinks klinksins
+35	9135	verðlaunahafi	verðlaunahafa verðlaunahafana verðlaunahafann verðlaunahafanna verðlaunahafans verðlaunahafanum verðlaunahafar verðlaunahafarnir verðlaunahafinn verðlaunahöfum verðlaunahöfunum
+36	9136	vað	vaðanna vaði vaðinu vaðið vaðs vaðsins vöð vöðin vöðum vöðunum
+37	9137	alba	alban albanna ölbu ölbum ölbuna ölbunnar ölbunni ölbunum ölbur ölburnar
+38	9138	þjóðríki	þjóðríkin þjóðríkinu þjóðríkis þjóðríkisins þjóðríkið þjóðríkja þjóðríkjanna þjóðríkjum þjóðríkjunum
+39	9139	ótengdur	ótengd ótengda ótengdan ótengdar ótengdi ótengdir ótengdra ótengdrar ótengdri ótengds ótengdu ótengdum ótengt
+40	9140	sparnaður	sparnað sparnaðar sparnaðarins sparnaði sparnaðinn sparnaðinum sparnaðnum sparnaðurinn
+41	9141	hjálparlaust	
+42	9142	metsölubók	metsölubækur metsölubækurnar metsölubóka metsölubókanna metsölubókar metsölubókarinnar metsölubókin metsölubókina metsölubókinni metsölubókum metsölubókunum
+43	9143	bali	bala balana balann balanna balans balanum balar balarnir balinn bölum bölunum
+44	9144	landfræðilegur	landfræðileg landfræðilega landfræðilegan landfræðilegar landfræðilegast landfræðilegasta landfræðilegastan landfræðilegastar landfræðilegasti landfræðilegastir landfræðilegastra landfræðilegastrar landfræðilegastri landfræðilegasts landfræðilegastur landfræðilegi landfræðilegir landfræðilegra landfræðilegrar landfræðilegri landfræðilegs landfræðilegt landfræðilegu landfræðilegum landfræðilegust landfræðilegustu landfræðilegustum
+45	9145	erfðagreining	erfðagreiningar erfðagreiningarinnar erfðagreiningin erfðagreiningu erfðagreininguna erfðagreiningunni
+46	9146	dómskerfi	dómskerfa dómskerfanna dómskerfin dómskerfinu dómskerfis dómskerfisins dómskerfið dómskerfum dómskerfunum
+47	9147	lengjast	lengdist lengdumst lengdust lengist lengjumst lengst
+48	9148	símenntun	símenntunar símenntunarinnar símenntunin símenntunina símenntuninni
+49	9149	könnuður	könnuð könnuða könnuðanna könnuðar könnuðarins könnuði könnuðina könnuðinn könnuðinum könnuðir könnuðirnir könnuðum könnuðunum könnuðurinn
+50	9150	samdægurs	
+51	9151	sjálfboðavinna	sjálfboðavinnan sjálfboðavinnu sjálfboðavinnuna sjálfboðavinnunnar sjálfboðavinnunni
+52	9152	óreglulegur	óregluleg óreglulega óreglulegan óreglulegar óreglulegast óreglulegasta óreglulegastan óreglulegastar óreglulegasti óreglulegastir óreglulegastra óreglulegastrar óreglulegastri óreglulegasts óreglulegastur óreglulegi óreglulegir óreglulegra óreglulegrar óreglulegri óreglulegs óreglulegt óreglulegu óreglulegum óreglulegust óreglulegustu óreglulegustum
+53	9153	uppörva	uppörvandi uppörvar uppörvast uppörvað uppörvaða uppörvaðan uppörvaðar uppörvaði uppörvaðir uppörvaðist uppörvaðra uppörvaðrar uppörvaðri uppörvaðs uppörvaðu uppörvaður uppörvi uppörvir uppörvist uppörvið uppörvum uppörvumst uppörvuð uppörvuðu uppörvuðum uppörvuðumst uppörvuðust uppörvuðuð
+54	9154	bryti	bryta brytana brytann brytanna brytans brytanum brytar brytarnir brytinn brytum brytunum
+55	9155	vogur	vog voga vogana voganna vogar vogarnir vogi voginn voginum vogs vogsins vogum vogunum vogurinn
+56	9156	landsliðsmaður	landsliðsmann landsliðsmanna landsliðsmannanna landsliðsmanni landsliðsmanninn landsliðsmanninum landsliðsmanns landsliðsmannsins landsliðsmaðurinn landsliðsmenn landsliðsmennina landsliðsmennirnir landsliðsmönnum landsliðsmönnunum
+57	9157	móða	móðan móðanna móðna móðnanna móðu móðum móðuna móðunnar móðunni móðunum móður móðurnar
+58	9158	blómlegur	blómleg blómlega blómlegan blómlegar blómlegast blómlegasta blómlegastan blómlegastar blómlegasti blómlegastir blómlegastra blómlegastrar blómlegastri blómlegasts blómlegastur blómlegi blómlegir blómlegra blómlegrar blómlegri blómlegs blómlegt blómlegu blómlegum blómlegust blómlegustu blómlegustum
+59	9159	tvenna	tvennan tvennanna tvennu tvennum tvennuna tvennunnar tvennunni tvennunum tvennurnar
+60	9160	ulla	ullandi ullar ullast ullað ullaða ullaðan ullaðar ullaði ullaðir ullaðist ullaðra ullaðrar ullaðri ullaðs ullaðu ullaður ulli ullir ullist ullið ullum ullumst ulluð ulluðu ulluðum ulluðumst ulluðust ulluðuð
+61	9161	kaldhæðnislegur	kaldhæðnisleg kaldhæðnislega kaldhæðnislegan kaldhæðnislegar kaldhæðnislegast kaldhæðnislegasta kaldhæðnislegastan kaldhæðnislegastar kaldhæðnislegasti kaldhæðnislegastir kaldhæðnislegastra kaldhæðnislegastrar kaldhæðnislegastri kaldhæðnislegasts kaldhæðnislegastur kaldhæðnislegi kaldhæðnislegir kaldhæðnislegra kaldhæðnislegrar kaldhæðnislegri kaldhæðnislegs kaldhæðnislegt kaldhæðnislegu kaldhæðnislegum kaldhæðnislegust kaldhæðnislegustu kaldhæðnislegustum
+62	9162	viðskiptanefnd	viðskiptanefnda viðskiptanefndanna viðskiptanefndar viðskiptanefndarinnar viðskiptanefndin viðskiptanefndina viðskiptanefndinni viðskiptanefndir viðskiptanefndirnar viðskiptanefndum viðskiptanefndunum
+63	9163	viturlegur	viturleg viturlega viturlegan viturlegar viturlegast viturlegasta viturlegastan viturlegastar viturlegasti viturlegastir viturlegastra viturlegastrar viturlegastri viturlegasts viturlegastur viturlegi viturlegir viturlegra viturlegrar viturlegri viturlegs viturlegt viturlegu viturlegum viturlegust viturlegustu viturlegustum
+64	9164	smjaðra	smjaðrandi smjaðrar smjaðrarðu smjaðrast smjaðrað smjaðraða smjaðraðan smjaðraðar smjaðraði smjaðraðir smjaðraðirðu smjaðraðist smjaðraðra smjaðraðrar smjaðraðri smjaðraðs smjaðraðu smjaðraður smjaðri smjaðrir smjaðrist smjaðrið smjöðrum smjöðrumst smjöðruð smjöðruðu smjöðruðum smjöðruðumst smjöðruðust smjöðruðuð
+65	9165	skipulagsmál	skipulagsmála skipulagsmálanna skipulagsmáli skipulagsmálin skipulagsmálinu skipulagsmálið skipulagsmáls skipulagsmálsins skipulagsmálum skipulagsmálunum
+66	9166	liðsinni	liðsinninu liðsinnis liðsinnisins liðsinnið
+67	9167	spori	spora sporana sporann sporanna sporans sporanum sporar sporarnir sporinn sporum sporunum
+68	9168	landvernd	landverndar landverndarinnar landverndin landverndina landverndinni
+69	9169	taxi	taxa taxana taxann taxanna taxans taxanum taxar taxarnir taxinn töxum töxunum
+70	9170	fleirtala	fleirtalan fleirtölu fleirtöluna fleirtölunnar fleirtölunni
+71	9171	frumherji	frumherja frumherjana frumherjann frumherjanna frumherjans frumherjanum frumherjar frumherjarnir frumherjinn frumherjum frumherjunum
+72	9172	krummi	krumma krummana krummann krummanna krummans krummanum krummar krummarnir krumminn krummum krummunum
+73	9173	ylja	yljandi yljar yljast yljað yljaða yljaðan yljaðar yljaði yljaðir yljaðist yljaðra yljaðrar yljaðri yljaðs yljaðu yljaður ylji yljir yljist yljið yljum yljumst yljuð yljuðu yljuðum yljuðumst yljuðust yljuðuð
+74	9174	dramatík	dramatíkin dramatíkina dramatíkinni dramatíkur dramatíkurinnar
+75	9175	viðskila	
+76	9176	jötunn	jötna jötnana jötnanna jötnar jötnarnir jötni jötninum jötnum jötnunum jötun jötuninn jötunninn jötuns jötunsins
+77	9177	riðlakeppni	riðlakeppna riðlakeppnanna riðlakeppnin riðlakeppnina riðlakeppninnar riðlakeppninni riðlakeppnir riðlakeppnirnar riðlakeppnum riðlakeppnunum
+78	9178	uppfylling	uppfyllinga uppfyllinganna uppfyllingar uppfyllingarinnar uppfyllingarnar uppfyllingin uppfyllingu uppfyllingum uppfyllinguna uppfyllingunni uppfyllingunum
+79	9179	þver	þvera þveran þverar þverara þverari þverast þverasta þverastan þverastar þverasti þverastir þverastra þverastrar þverastri þverasts þverastur þveri þverir þverra þverrar þverri þvers þvert þveru þverum þverust þverustu þverustum
+80	9180	boðberi	boðbera boðberana boðberann boðberanna boðberans boðberanum boðberar boðberarnir boðberinn boðberum boðberunum
+81	9181	krossgötur	krossgatna krossgatnanna krossgötum krossgötunum krossgöturnar
+82	9182	mor	mori morinu morið mors morsins
+83	9183	liðsinna	liðsinnandi liðsinni liðsinnir liðsinnið liðsinnt liðsinnti liðsinntir liðsinntu liðsinntum liðsinntuð liðsinnum
+84	9184	óþægilega	óþægilegar óþægilegast
+85	9185	suðurströnd	suðurstranda suðurstrandanna suðurstrandar suðurstrandarinnar suðurstrandir suðurstrandirnar suðurstrendur suðurstrendurnar suðurströndin suðurströndina suðurströndinni suðurströndum suðurströndunum
+86	9186	fullbúinn	fullbúin fullbúinna fullbúinnar fullbúinni fullbúins fullbúið fullbúna fullbúnar fullbúni fullbúnir fullbúnu fullbúnum
+87	9187	skammstafa	skammstafandi skammstafar skammstafast skammstafað skammstafaða skammstafaðan skammstafaðar skammstafaði skammstafaðir skammstafaðist skammstafaðra skammstafaðrar skammstafaðri skammstafaðs skammstafaðu skammstafaður skammstafi skammstafir skammstafist skammstafið skammstöfum skammstöfumst skammstöfuð skammstöfuðu skammstöfuðum skammstöfuðumst skammstöfuðust skammstöfuðuð
+88	9188	fjárhagsaðstoð	fjárhagsaðstoðar fjárhagsaðstoðarinnar fjárhagsaðstoðin fjárhagsaðstoðina fjárhagsaðstoðinni
+89	9189	langmest	
+90	9190	meðalaldur	meðalaldra meðalaldrana meðalaldranna meðalaldrar meðalaldrarnir meðalaldri meðalaldrinum meðalaldurinn meðalaldurs meðalaldursins meðalöldrum meðalöldrunum
+91	9191	runólfur	
+92	9192	klæðaburður	klæðaburð klæðaburðar klæðaburðarins klæðaburði klæðaburðinn klæðaburðinum klæðaburðurinn
+93	9193	svigi	sviga svigana svigann sviganna svigans sviganum svigar svigarnir sviginn svigum svigunum
+94	9194	extra	
+95	9195	umgjörð	umgjarðar umgjarðarinnar umgjörðin umgjörðina umgjörðinni
+96	9196	gremja	gramdi gramdir gramdist gramist gramið grem gremdi gremdir gremdist gremdu gremdum gremduð gremjan gremjast gremji gremjir gremjist gremjið gremju gremjum gremjuna gremjunnar gremjunni gremst gremur grömdu grömdum grömduð
+97	9197	ættleiðing	ættleiðinga ættleiðinganna ættleiðingar ættleiðingarinnar ættleiðingarnar ættleiðingin ættleiðingu ættleiðingum ættleiðinguna ættleiðingunni ættleiðingunum
+98	9198	heimshorn	heimshorna heimshornanna heimshorni heimshornin heimshorninu heimshornið heimshorns heimshornsins heimshornum heimshornunum
+99	9199	smokkfiskur	smokkfisk smokkfiska smokkfiskana smokkfiskanna smokkfiskar smokkfiskarnir smokkfiski smokkfiskinn smokkfiskinum smokkfisknum smokkfisks smokkfisksins smokkfiskum smokkfiskunum smokkfiskurinn
+100	9200	skammstöfun	skammstafana skammstafananna skammstafanir skammstafanirnar skammstöfunar skammstöfunarinnar skammstöfunin skammstöfunina skammstöfuninni skammstöfunum skammstöfununum

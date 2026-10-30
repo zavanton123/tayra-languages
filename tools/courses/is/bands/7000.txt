@@ -1,0 +1,100 @@
+1	6901	spádómur	spádóm spádóma spádómana spádómanna spádómar spádómarnir spádómi spádóminn spádóminum spádómnum spádóms spádómsins spádómum spádómunum spádómurinn
+2	6902	iðnaðarráðherra	iðnaðarráðherrana iðnaðarráðherrann iðnaðarráðherranna iðnaðarráðherrans iðnaðarráðherranum iðnaðarráðherrar iðnaðarráðherrarnir iðnaðarráðherrum iðnaðarráðherrunum
+3	6903	vegamót	vegamóta vegamótanna vegamótin vegamótum vegamótunum
+4	6904	innblásinn	innblásin innblásinna innblásinnar innblásinni innblásins innblásið innblásna innblásnar innblásnara innblásnari innblásnast innblásnasta innblásnastan innblásnastar innblásnasti innblásnastir innblásnastra innblásnastrar innblásnastri innblásnasts innblásnastur innblásni innblásnir innblásnu innblásnum innblásnust innblásnustu innblásnustum
+5	6905	uppsögn	uppsagna uppsagnanna uppsagnar uppsagnarinnar uppsagnir uppsagnirnar uppsögnin uppsögnina uppsögninni uppsögnum uppsögnunum
+6	6906	ósvífni	ósvífnin ósvífnina ósvífninnar ósvífninni
+7	6907	púður	púðri púðrinu púðrið púðurs púðursins
+8	6908	yfirlæknir	yfirlækna yfirlæknana yfirlæknanna yfirlæknar yfirlæknarnir yfirlækni yfirlækninn yfirlækninum yfirlæknirinn yfirlæknis yfirlæknisins yfirlæknum yfirlæknunum
+9	6909	bakhlið	bakhliða bakhliðanna bakhliðar bakhliðarinnar bakhliðarnar bakhliðin bakhliðina bakhliðinni bakhliðum bakhliðunum
+10	6910	öl	öla ölanna öli ölin ölinu ölið öls ölsins ölum ölunum
+11	6911	skondinn	skondin skondinna skondinnar skondinni skondins skondið skondna skondnar skondnara skondnari skondnast skondnasta skondnastan skondnastar skondnasti skondnastir skondnastra skondnastrar skondnastri skondnasts skondnastur skondni skondnir skondnu skondnum skondnust skondnustu skondnustum
+12	6912	glæpsamlegur	glæpsamleg glæpsamlega glæpsamlegan glæpsamlegar glæpsamlegast glæpsamlegasta glæpsamlegastan glæpsamlegastar glæpsamlegasti glæpsamlegastir glæpsamlegastra glæpsamlegastrar glæpsamlegastri glæpsamlegasts glæpsamlegastur glæpsamlegi glæpsamlegir glæpsamlegra glæpsamlegrar glæpsamlegri glæpsamlegs glæpsamlegt glæpsamlegu glæpsamlegum glæpsamlegust glæpsamlegustu glæpsamlegustum
+13	6913	lærimeistari	lærimeistara lærimeistarana lærimeistarann lærimeistaranna lærimeistarans lærimeistaranum lærimeistarar lærimeistararnir lærimeistarinn lærimeisturum lærimeisturunum
+14	6914	hlunnindi	hlunninda hlunnindanna hlunnindin hlunnindum hlunnindunum
+15	6915	boxari	boxara boxarana boxarann boxaranna boxarans boxaranum boxarar boxararnir boxarinn boxurum boxurunum
+16	6916	arftaki	arftaka arftakana arftakann arftakanna arftakans arftakanum arftakar arftakarnir arftakinn arftökum arftökunum
+17	6917	forsvarsmaður	forsvarsmann forsvarsmanna forsvarsmannanna forsvarsmanni forsvarsmanninn forsvarsmanninum forsvarsmanns forsvarsmannsins forsvarsmaðurinn forsvarsmenn forsvarsmennina forsvarsmennirnir forsvarsmönnum forsvarsmönnunum
+18	6918	tölvukerfi	tölvukerfa tölvukerfanna tölvukerfin tölvukerfinu tölvukerfis tölvukerfisins tölvukerfið tölvukerfum tölvukerfunum
+19	6919	krýna	krýnandi krýnast krýnd krýnda krýndan krýndar krýndi krýndir krýndist krýndra krýndrar krýndri krýnds krýndu krýndum krýndumst krýndur krýndust krýnduð krýni krýnir krýnist krýnið krýnst krýnt krýnum krýnumst
+20	6920	þríhyrningur	þríhyrning þríhyrninga þríhyrningana þríhyrninganna þríhyrningar þríhyrningarnir þríhyrningi þríhyrninginn þríhyrningnum þríhyrnings þríhyrningsins þríhyrningum þríhyrningunum þríhyrningurinn
+21	6921	útjaðar	útjaðarinn útjaðars útjaðarsins útjaðra útjaðrana útjaðranna útjaðrar útjaðrarnir útjaðri útjaðrinum útjöðrum útjöðrunum
+22	6922	almannatengsl	almannatengsla almannatengslanna almannatengsli almannatengslin almannatengslinu almannatengslið almannatengsls almannatengslsins almannatengslum almannatengslunum
+23	6923	snakk	snakki snakkinu snakkið snakks snakksins
+24	6924	valdarán	valdarána valdaránanna valdaráni valdaránin valdaráninu valdaránið valdaráns valdaránsins valdaránum valdaránunum
+25	6925	öndverður	öndvert öndverð öndverða öndverðan öndverðar öndverði öndverðir öndverðra öndverðrar öndverðri öndverðs öndverðu öndverðum
+26	6926	undirtekt	undirtekta undirtektanna undirtektar undirtektarinnar undirtektin undirtektina undirtektinni undirtektir undirtektirnar undirtektum undirtektunum
+27	6927	gagnfræðaskóli	gagnfræðaskóla gagnfræðaskólana gagnfræðaskólann gagnfræðaskólanna gagnfræðaskólans gagnfræðaskólanum gagnfræðaskólar gagnfræðaskólarnir gagnfræðaskólinn gagnfræðaskólum gagnfræðaskólunum
+28	6928	grafískur	grafísk grafíska grafískan grafískar grafískara grafískari grafískast grafískasta grafískastan grafískastar grafískasti grafískastir grafískastra grafískastrar grafískastri grafískasts grafískastur grafíski grafískir grafískra grafískrar grafískri grafísks grafískt grafísku grafískum grafískust grafískustu grafískustum
+29	6929	angi	anga angana angann anganna angans anganum angar angarnir anginn öngum öngunum
+30	6930	fjöldamorð	fjöldamorða fjöldamorðanna fjöldamorði fjöldamorðin fjöldamorðinu fjöldamorðið fjöldamorðs fjöldamorðsins fjöldamorðum fjöldamorðunum
+31	6931	útlimur	útlim útlima útlimanna útlimi útlimina útliminn útlimir útlimirnir útlimnum útlims útlimsins útlimum útlimunum útlimurinn
+32	6932	fönn	fanna fannanna fannar fannarinnar fannir fannirnar fönnin fönnina fönninni fönnum fönnunum
+33	6933	fen	feni fenin feninu fenið fenja fenjanna fenjum fenjunum fens fensins
+34	6934	dúlla	dúllan dúllandi dúllanna dúllar dúllast dúllað dúllaði dúllaðir dúllaðist dúllaðu dúlli dúllir dúllist dúllið dúllu dúllum dúllumst dúlluna dúllunnar dúllunni dúllunum dúllur dúllurnar dúlluðu dúlluðum dúlluðumst dúlluðust dúlluðuð
+35	6935	flóttafólk	flóttafólki flóttafólkinu flóttafólkið flóttafólks flóttafólksins
+36	6936	örvænta	örvænt örvæntandi örvænti örvæntir örvæntið örvæntu örvæntum örvæntuð
+37	6937	þörungur	þörung þörunga þörungana þörunganna þörungar þörungarnir þörungi þörunginn þörungnum þörungs þörungsins þörungum þörungunum þörungurinn
+38	6938	ferkílómetri	ferkílómetra ferkílómetrana ferkílómetrann ferkílómetranna ferkílómetrans ferkílómetranum ferkílómetrar ferkílómetrarnir ferkílómetrinn ferkílómetrum ferkílómetrunum
+39	6939	varnarmál	varnarmála varnarmálanna varnarmálin varnarmálum varnarmálunum
+40	6940	leg	lega leganna legi legin leginu legið legs legsins legum legunum
+41	6941	útkall	útkalla útkallanna útkalli útkallinu útkallið útkalls útkallsins útköll útköllin útköllum útköllunum
+42	6942	ellefti	ellefta elleftu
+43	6943	návígi	návíginu návígis návígisins návígið
+44	6944	fæðingardagur	fæðingardag fæðingardaga fæðingardagana fæðingardaganna fæðingardagar fæðingardagarnir fæðingardaginn fæðingardags fæðingardagsins fæðingardagurinn fæðingardegi fæðingardeginum fæðingardögum fæðingardögunum
+45	6945	vanhæfur	vanhæf vanhæfa vanhæfan vanhæfar vanhæfara vanhæfari vanhæfast vanhæfasta vanhæfastan vanhæfastar vanhæfasti vanhæfastir vanhæfastra vanhæfastrar vanhæfastri vanhæfasts vanhæfastur vanhæfi vanhæfir vanhæfra vanhæfrar vanhæfri vanhæfs vanhæft vanhæfu vanhæfum vanhæfust vanhæfustu vanhæfustum
+46	6946	ofangreindur	ofangreind ofangreinda ofangreindan ofangreindar ofangreindi ofangreindir ofangreindra ofangreindrar ofangreindri ofangreinds ofangreindu ofangreindum ofangreint
+47	6947	hindúi	hindúa hindúana hindúann hindúanna hindúans hindúanum hindúar hindúarnir hindúinn hindúum hindúunum
+48	6948	neðra	
+49	6949	húsbíll	húsbíl húsbíla húsbílana húsbílanna húsbílar húsbílarnir húsbílinn húsbíllinn húsbílnum húsbíls húsbílsins húsbílum húsbílunum
+50	6950	skógarvörður	skógarvarða skógarvarðanna skógarvarðar skógarvarðarins skógarverði skógarverðina skógarverðinum skógarverðir skógarverðirnir skógarvörð skógarvörðinn skógarvörðum skógarvörðunum skógarvörðurinn
+51	6951	skvísa	skvísan skvísanna skvísna skvísnanna skvísu skvísum skvísuna skvísunnar skvísunni skvísunum skvísur skvísurnar
+52	6952	háttatími	háttatíma háttatímana háttatímann háttatímanna háttatímans háttatímanum háttatímar háttatímarnir háttatíminn háttatímum háttatímunum
+53	6953	þvættingur	þvætting þvættingi þvættinginn þvættingnum þvættings þvættingsins þvættingurinn
+54	6954	faðmlag	faðmlaga faðmlaganna faðmlagi faðmlaginu faðmlagið faðmlags faðmlagsins faðmlög faðmlögin faðmlögum faðmlögunum
+55	6955	bakgarður	bakgarð bakgarða bakgarðana bakgarðanna bakgarðar bakgarðarnir bakgarði bakgarðinn bakgarðinum bakgarðs bakgarðsins bakgarðurinn bakgörðum bakgörðunum
+56	6956	dónaskapur	dónaskap dónaskapar dónaskaparins dónaskapinn dónaskapnum dónaskapurinn
+57	6957	vasaljós	vasaljósa vasaljósanna vasaljósi vasaljósin vasaljósinu vasaljósið vasaljóss vasaljóssins vasaljósum vasaljósunum
+58	6958	dópisti	dópista dópistana dópistann dópistanna dópistans dópistanum dópistar dópistarnir dópistinn dópistum dópistunum
+59	6959	staur	staura staurana stauranna staurar staurarnir staurinn staurnum staurs staursins staurum staurunum
+60	6960	ölmusa	ölmusan ölmusanna ölmusu ölmusum ölmusuna ölmusunnar ölmusunni ölmusunum ölmusur ölmusurnar
+61	6961	fursti	fursta furstana furstann furstanna furstans furstanum furstar furstarnir furstinn furstum furstunum
+62	6962	ágrip	ágripa ágripanna ágripi ágripin ágripinu ágripið ágrips ágripsins ágripum ágripunum
+63	6963	fyrirfara	fyrirfarandi fyrirfarast fyrirfari fyrirfarin fyrirfarinn fyrirfarinna fyrirfarinnar fyrirfarinni fyrirfarins fyrirfarir fyrirfarist fyrirfarið fyrirfarna fyrirfarnar fyrirfarni fyrirfarnir fyrirfarðu fyrirfer fyrirferst fyrirferð fyrirfæri fyrirfærir fyrirfærist fyrirfæru fyrirfærum fyrirfærumst fyrirfærust fyrirfæruð fyrirfór fyrirfórst fyrirfóru fyrirfórum fyrirfórumst fyrirfórust fyrirfóruð fyrirförnu fyrirförnum fyrirförum fyrirförumst
+64	6964	útrýming	útrýmingar útrýmingarinnar útrýmingin útrýmingu útrýminguna útrýmingunni
+65	6965	inna	innandi innast inni innir innið innst innt innta inntan inntar innti inntir inntra inntrar inntri innts inntu inntum inntur inntuð innum
+66	6966	sjálfsálit	sjálfsáliti sjálfsálitinu sjálfsálitið sjálfsálits sjálfsálitsins
+67	6967	möl	mala malanna malar malarinnar malir malirnar mölin mölina mölinni mölum mölunum
+68	6968	státa	státandi státar státast státað státaði státaðir státaðu státi státir státið státum státuðu státuðum státuðuð
+69	6969	ókyrrð	ókyrrðar ókyrrðarinnar ókyrrðin ókyrrðina ókyrrðinni
+70	6970	málfrelsi	málfrelsinu málfrelsis málfrelsisins málfrelsið
+71	6971	kreditkort	kreditkorta kreditkortanna kreditkorti kreditkortin kreditkortinu kreditkortið kreditkorts kreditkortsins kreditkortum kreditkortunum
+72	6972	kynda	kyndandi kyndi kyndir kyndið kyndum kynt kynta kyntan kyntar kynti kyntir kyntra kyntrar kyntri kynts kyntu kyntum kyntur kyntuð
+73	6973	egna	egnandi egnast egnd egnda egndan egndar egndi egndir egndist egndra egndrar egndri egnds egndu egndum egndumst egndur egndust egnduð egni egnir egnist egnið egnst egnt egnum egnumst
+74	6974	vaffla	vafflan vafflanna vafflna vafflnanna vöfflu vöfflum vöffluna vöfflunnar vöfflunni vöfflunum vöfflur vöfflurnar
+75	6975	hakka	hakkandi hakkar hakkast hakkað hakkaða hakkaðan hakkaðar hakkaði hakkaðir hakkaðist hakkaðra hakkaðrar hakkaðri hakkaðs hakkaðu hakkaður hakki hakkir hakkist hakkið hökkum hökkumst hökkuð hökkuðu hökkuðum hökkuðumst hökkuðust hökkuðuð
+76	6976	hlotnast	hlotnaðist hlotnist
+77	6977	tónverk	tónverka tónverkanna tónverki tónverkin tónverkinu tónverkið tónverks tónverksins tónverkum tónverkunum
+78	6978	rannsakandi	rannsakanda rannsakandann rannsakandans rannsakandanum rannsakandinn rannsakenda rannsakendanna rannsakendum rannsakendunum rannsakendur rannsakendurna rannsakendurnir
+79	6979	iðja	iðjan iðjandi iðjanna iðjar iðjað iðjaði iðjaðir iðjaðu iðji iðjir iðjið iðju iðjum iðjuna iðjunnar iðjunni iðjunum iðjur iðjurnar iðjuðu iðjuðum iðjuðuð
+80	6980	aðdáun	aðdáunar aðdáunarinnar aðdáunin aðdáunina aðdáuninni
+81	6981	innyfli	innyfla innyflanna innyflin innyflum innyflunum
+82	6982	hvíta	hvítan hvítandi hvítanna hvítar hvítað hvítaða hvítaðan hvítaðar hvítaði hvítaðir hvítaðra hvítaðrar hvítaðri hvítaðs hvítaðu hvítaður hvíti hvítir hvítið hvítu hvítum hvítuna hvítunnar hvítunni hvítunum hvítur hvíturnar hvítuð hvítuðu hvítuðum hvítuðuð
+83	6983	votlendi	votlendinu votlendis votlendisins votlendið
+84	6984	tortrygginn	tortryggin tortrygginna tortrygginnar tortrygginni tortryggins tortryggið tortryggna tortryggnar tortryggnara tortryggnari tortryggnast tortryggnasta tortryggnastan tortryggnastar tortryggnasti tortryggnastir tortryggnastra tortryggnastrar tortryggnastri tortryggnasts tortryggnastur tortryggni tortryggnir tortryggnu tortryggnum tortryggnust tortryggnustu tortryggnustum
+85	6985	túlkur	túlk túlka túlkana túlkanna túlkar túlkarnir túlki túlkinn túlkinum túlknum túlks túlksins túlkum túlkunum túlkurinn
+86	6986	ananas	ananasa ananasana ananasanna ananasar ananasarnir ananasinn ananasinum ananasnum ananass ananassins ananösum ananösunum
+87	6987	flokksmaður	flokksmann flokksmanna flokksmannanna flokksmanni flokksmanninn flokksmanninum flokksmanns flokksmannsins flokksmaðurinn flokksmenn flokksmennina flokksmennirnir flokksmönnum flokksmönnunum
+88	6988	alþjóðasamfélag	alþjóðasamfélaga alþjóðasamfélaganna alþjóðasamfélagi alþjóðasamfélaginu alþjóðasamfélagið alþjóðasamfélags alþjóðasamfélagsins alþjóðasamfélög alþjóðasamfélögin alþjóðasamfélögum alþjóðasamfélögunum
+89	6989	bleikja	bleiki bleikir bleikist bleikið bleikjan bleikjandi bleikjanna bleikjast bleikju bleikjum bleikjumst bleikjuna bleikjunnar bleikjunni bleikjunum bleikjur bleikjurnar bleikst bleikt bleikta bleiktan bleiktar bleikti bleiktir bleiktist bleiktra bleiktrar bleiktri bleikts bleiktu bleiktum bleiktumst bleiktur bleiktust bleiktuð
+90	6990	ævistarf	ævistarfa ævistarfanna ævistarfi ævistarfinu ævistarfið ævistarfs ævistarfsins ævistörf ævistörfin ævistörfum ævistörfunum
+91	6991	drama	dramanna dramans dramanu dramað drömu drömum drömun drömunum
+92	6992	flotaforingi	flotaforinginn flotaforingja flotaforingjana flotaforingjann flotaforingjanna flotaforingjans flotaforingjanum flotaforingjar flotaforingjarnir flotaforingjum flotaforingjunum
+93	6993	hressing	hressinga hressinganna hressingar hressingarinnar hressingarnar hressingin hressingu hressingum hressinguna hressingunni hressingunum
+94	6994	afrískur	afrísk afríska afrískan afrískar afrískara afrískari afrískast afrískasta afrískastan afrískastar afrískasti afrískastir afrískastra afrískastrar afrískastri afrískasts afrískastur afríski afrískir afrískra afrískrar afrískri afrísks afrískt afrísku afrískum afrískust afrískustu afrískustum
+95	6995	dugur	dug duginn dugnum dugs dugsins dugurinn
+96	6996	landráð	landráða landráðanna landráðin landráðum landráðunum
+97	6997	heildstæður	heildstætt heildstæð heildstæða heildstæðan heildstæðar heildstæðara heildstæðari heildstæðast heildstæðasta heildstæðastan heildstæðastar heildstæðasti heildstæðastir heildstæðastra heildstæðastrar heildstæðastri heildstæðasts heildstæðastur heildstæði heildstæðir heildstæðra heildstæðrar heildstæðri heildstæðs heildstæðu heildstæðum heildstæðust heildstæðustu heildstæðustum
+98	6998	kristall	kristal kristala kristalana kristalanna kristalar kristalarnir kristalinn kristallinn kristalnum kristals kristalsins kristölum kristölunum
+99	6999	kanslari	kanslara kanslarana kanslarann kanslaranna kanslarans kanslaranum kanslarar kanslararnir kanslarinn könslurum könslurunum
+100	7000	krossfesta	krossfest krossfestan krossfestandi krossfestar krossfestast krossfesti krossfestir krossfestist krossfestið krossfestra krossfestrar krossfestri krossfests krossfestu krossfestum krossfestumst krossfestur krossfestust krossfestuð

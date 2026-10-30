@@ -1,0 +1,100 @@
+1	1	vera	er ert ertu eru erum eruð eruði sé sért sértu séu séum séuð var varst varstu veran verandi veranna verið vert vertu veru verum veruna verunnar verunni verunum verur verurnar voru vorum voruð voruði váru væri værir værirðu væru værum væruð
+2	2	í	
+3	3	og	
+4	4	að	
+5	5	ég	eg mig mér mín okkar okkur
+6	6	á	áa áin ám ána ánna ánni ánum ár árinnar árnar
+7	7	þú	ykkar ykkur yðar yður þig þér þín
+8	8	við	okkar okkur
+9	9	það	þeim þeirra þess
+10	10	ekki	ekka ekkana ekkann ekkanna ekkans ekkanum ekkar ekkarnir ekkinn ekkum ekkunum
+11	11	sem	
+12	12	hann	hans honum þeim þeirra
+13	13	þessi	þennan þessa þessar þessara þessarar þessari þessir þessu þessum þetta
+14	14	til	
+15	15	hafa	hafandi hafast hafi hafir hafirðu hafist hafistu hafið hafiði hafst hafstu haft hafða hafðan hafðar hafði hafðir hafðirðu hafðist hafðistu hafðra hafðrar hafðri hafðs hafðu hafður hef hefst hefstu hefur hefurðu hefði hefðir hefðirðu hefðist hefðistu hefðu hefðum hefðumst hefðust hefðuð höfum höfumst höfð höfðu höfðum höfðumst höfðust höfðuð
+16	16	en	
+17	17	með	
+18	18	af	
+19	19	um	
+20	20	fyrir	fyr
+21	21	hún	hana hennar henni þeim þeirra
+22	22	koma	kem kemur kemurðu kom koman komandi komanna komdu komi komin kominn kominna kominnar kominni komins komir komirðu komið komiði komna komnanna komnar komni komnir komnu komnum komst komstu komu komum komuna komunnar komunni komunum komur komurnar komuð kæmi kæmir kæmirðu kæmu kæmum kæmuð
+23	23	fara	farandi fari farin farinn farinna farinnar farinni farins farir farirðu farið fariði farna farnar farni farnir farðu fer ferð ferðu færi færir færirðu færu færum færuð fór fórst fórstu fóru fórum fóruð förnu förnum förum
+24	24	hvað	
+25	25	gera	gerandi geri gerir gerirðu gerið geriði gerstu gert gerum gerð gerða gerðan gerðar gerði gerðir gerðirðu gerðra gerðrar gerðri gerðs gerðu gerðum gerður gerðuð gerðuði
+26	26	geta	gast gastu gat gest gestu get getan getandi getanna getast getað geti getin getinn getinna getinnar getinni getins getir getirðu getist getið getiði getna getnar getni getnir getnu getnum gettu getu getum getumst getuna getunnar getunni getunum getur geturnar geturðu gátu gátum gátumst gátust gátuð gæti gætir gætirðu gætist gætu gætum gætumst gætust gætuð gætuði
+27	27	því	
+28	28	verða	orðin orðinn orðinna orðinnar orðinni orðins orðið orðna orðnar orðni orðnir orðnu orðnum urðu urðum urðuð varð varðst varðstu vert verð verðandi verðar verði verðir verðirðu verðið verðiði verðs verðu verðum verður verðurðu verðustu yrði yrðir yrðirðu yrðu yrðum yrðuð
+29	29	segja	sagt sagða sagðan sagðar sagði sagðir sagðirðu sagðra sagðrar sagðri sagðs sagður seg segi segir segirðu segið segiði segjandi segjum segði segðir segðirðu segðu segðum segðuð sögð sögðu sögðum sögðuð
+30	30	sjá	sjáa sjáandi sjái sjáin sjáir sjáirðu sjáið sjáiði sjám sjána sjánna sjánni sjánum sjár sjárinnar sjárnar sjáum sjáðu sá sást sástu sáu sáum sáuð sáuði sæi sæir sæirðu sæju sæjum sæjuð sé sér sérð sérðu séð séða séðan séðar séði séðir séðra séðrar séðri séðs séðu séðum séður
+31	31	frá	
+32	32	allur	alla allan allar allir allra allrar allri alls öll öllu öllum
+33	33	vilja	vil vilda vildi vildir vildirðu vildu vildum vilduð vilduði viljandi viljað vilji viljir viljirðu viljið viljiði viljum vill vilt viltu
+34	34	svo	
+35	35	hver	hvera hveranna hveri hverina hverinn hverir hverirnir hverja hverjar hverjir hverju hverjum hvern hvernum hverra hverrar hverri hvers hversins hvert hverum hverunum hvur
+36	36	þeir	þeim þeirra
+37	37	minn	minna minnar minni mitt mín mína mínar mínir míns mínu mínum
+38	38	þá	
+39	39	einn	ein eina einan einar einasta einasti eini einir einna einnar einni einu einum einustu eitt
+40	40	eftir	eptir
+41	41	vita	veist veistu veit vissi vissir vissirðu vissu vissum vissuð vitandi vitað viti vitir vitirðu vitið vitiði vittu vitum
+42	42	góður	best besta bestan bestar besti bestir bestra bestrar bestri bests bestu bestum bestur betra betri beztu gott góð góða góðan góðar góði góðir góðra góðrar góðri góðs góðu góðum
+43	43	halda	haldan haldandi haldanna haldi haldin haldinn haldinna haldinnar haldinni haldins haldir haldirðu haldið haldiði haldna haldnanna haldnar haldni haldnir haltu held heldur heldurðu héldi héldir héldirðu héldu héldum hélduð hélst hélstu hélt höldnu höldnum höldu höldum hölduna höldunnar höldunni höldunum höldur höldurnar
+44	44	fá	fekk fengi fengin fenginn fenginna fenginnar fenginni fengins fengir fengirðu fengið fengju fengjum fengjuð fengna fengnar fengni fengnir fengnu fengnum fengu fengum fenguð fáandi fái fáir fáirðu fáið fáiði fáum fáðu fæ fær færð færðu fékk fékkst fékkstu
+45	45	þar	
+46	46	ár	ára árana árann áranna árans árar árarinnar árarnar árarnir ári árin árina árinn árinni árinu árið árs ársins árum árunum
+47	47	eða	
+48	48	enginn	einskis ekkert enga engan engar engin engir engra engrar engri engu engum
+49	49	sinn	sinna sinnanna sinnar sinni sinnin sinninu sinnið sinns sinnsins sinnum sinnunum sitt sín sína sínar sínir síns sínu sínum
+50	50	ef	
+51	51	allt	
+52	52	þið	ykkar ykkur
+53	53	eiga	eigan eigandi eigast eigi eigir eigirðu eigist eigið eigiði eigna eignanna eigu eigum eigumst eiguna eigunnar eigunni eigunum eigur eigurnar eigðu á átt átti áttir áttirðu áttu áttum áttumst áttust áttuð ætti ættir ættirðu ættu ættum ættumst ættust ættuð
+54	54	taka	takan takandi takanna taki takir takirðu takið takiði takna taknanna taktu tek tekin tekinn tekinna tekinnar tekinni tekins tekið tekna teknar tekni teknir teknu teknum tekur tekurðu tæki tækir tækirðu tækju tækjum tækjuð tók tókst tókstu tóku tókum tókuð töku tökum tökuna tökunnar tökunni tökunum tökur tökurnar
+55	55	annar	annan annarra annarrar annarri annars annað aðra aðrar aðrir önnur öðru öðrum
+56	56	maður	mann manna mannanna manni manninn manninum manns mannsins maðurinn menn mennina mennirnir mönnum mönnunum
+57	57	þegar	
+58	58	já	jáa jáanna jái jáin jáinu jáið jás jásins jáum jáunum
+59	59	eins	
+60	60	þinn	þinna þinnar þinni þitt þín þína þínar þínir þíns þínu þínum
+61	61	bara	
+62	62	nú	núi núinu núið nús núsins
+63	63	út	
+64	64	hér	
+65	65	vel	best betur vela velanna veli velin velinu velið vels velsins velum velunum
+66	66	upp	
+67	67	nei	
+68	68	einhver	einhverja einhverjar einhverjir einhverju einhverjum einhvern einhverra einhverrar einhverri einhvers eitthvað eitthvert
+69	69	úr	úra úranna úri úrin úrinu úrið úrs úrsins úrum úrunum
+70	70	þau	þeim þeirra
+71	71	dagur	dag daga dagana daganna dagar dagarnir daginn dags dagsins dagurinn degi deginum dögum dögunum
+72	72	sig	siga siganna sigi sigin siginu sigið sigs sigsins sigum sigunum sér sín
+73	73	margur	fleira fleiri fleiru fleirum flest flesta flestan flestar flestir flestra flestrar flestri flests flestu flestum flestur marga margan margar margir margra margrar margri margs margt mörg mörgu mörgum
+74	74	lag	laga laganna lagi laginu lagið lags lagsins lög lögin lögum lögunum
+75	75	mikill	meira meiri mest mesta mestan mestar mesti mestir mestra mestrar mestri mests mestu mestum mestur mikil mikilla mikillar mikilli mikils mikinn mikið mikla miklar mikli miklir miklu miklum
+76	76	sá	sái sáir sáist sáið sást sáum sáumst sáð sáða sáðan sáðar sáði sáðir sáðist sáðra sáðrar sáðri sáðs sáðst sáðu sáðum sáðumst sáður sáðust sáðuð sú þann þeim þeirra þeirrar þeirri þess
+77	77	þurfa	þarf þarft þarftu þurfandi þurfi þurfir þurfirðu þurfið þurfiði þurft þurfti þurftir þurftirðu þurftu þurftum þurftuð þurfu þurfum þyrfti þyrftir þyrftirðu þyrftu þyrftum þyrftuð
+78	78	láta	látandi láti látin látinn látinna látinnar látinni látins látir látirðu látið látiði látna látnar látni látnir látnu látnum láttu látum læt lætur læturðu lést léstu lét léti létir létirðu létu létum létuð
+79	79	hjá	
+80	80	hinn	enu hin hina hinar hinir hinna hinnar hinni hins hinu hinum hitt hið ina inu inum
+81	81	mjög	meir meira mest
+82	82	hvernig	
+83	83	aftur	
+84	84	munu	mun mundi mundir mundirðu mundu mundum munduð muni munir munirðu munið muniði munt muntu munum munuð myndi myndir myndirðu myndu myndum mynduð mynduði myni
+85	85	ætla	ætlandi ætlar ætlarðu ætlastu ætlað ætlaða ætlaðan ætlaðar ætlaði ætlaðir ætlaðirðu ætlaðra ætlaðrar ætlaðri ætlaðs ætlaðu ætlaður ætli ætlir ætlirðu ætlið ætliði ætlum ætluð ætluðu ætluðum ætluðuð
+86	86	tveir	tveggja tveim tveimur tvo tvær tvö
+87	87	vinna	unna unnar unni unnin unninn unninna unninnar unninni unnins unnir unnist unnið unnu unnum unnumst unnust unnuð vann vannst vannstu vinn vinnan vinnandi vinnast vinndu vinni vinnir vinnirðu vinnist vinnið vinnst vinnu vinnum vinnumst vinnuna vinnunnar vinnunni vinnur vinnurðu ynni ynnir ynnirðu ynnist ynnu ynnum ynnumst ynnust ynnuð
+88	88	fram	
+89	89	tala	talan talandi talar talarðu talað talaða talaðan talaðar talaði talaðir talaðirðu talaðra talaðrar talaðri talaðs talaðu talaður tali talir talirðu talið talna talnanna tölu tölum töluna tölunnar tölunni tölunum tölur tölurnar töluð töluðu töluðum töluðuð
+90	90	mega	megandi megi megir megirðu megið megiði megum má mái mátt mátti máttir máttirðu máttu máttum máttuð máum máð máðst máðu máður mætti mættir mættirðu mættu mættum mættuð
+91	91	yfir	
+92	92	tími	tíma tímana tímann tímanna tímans tímanum tímar tímarnir tímdi tíminn tímum tímunum
+93	93	inn	
+94	94	finna	fann fannst fannstu finn finnandi finndu finni finnir finnirðu finnið finniði finnum finnur finnurðu finst fundin fundinn fundinna fundinnar fundinni fundins fundið fundna fundnar fundni fundnir fundnu fundnum fundu fundum funduð fyndi fyndir fyndirðu fyndu fyndum fynduð
+95	95	skulu	skal skalt skuli skulir skulið skulum skuluð skyldi skyldir skyldu skyldum skylduð
+96	96	staður	statt stað staða staðan staðanna staðar staðara staðari staðarins staðast staðasta staðastan staðastar staðasti staðastir staðastra staðastrar staðastri staðasts staðastur staði staðina staðinn staðir staðirnir staðnum staðra staðrar staðri staðs staðurinn stöð stöðu stöðum stöðunum stöðust stöðustu stöðustum
+97	97	svona	
+98	98	þær	þeim þeirra
+99	99	búa	bjuggu bjuggum bjugguð bjó bjóst bjóstu byggi byggir byggirðu byggju byggjum byggjuð búandi búi búin búinn búinna búinnar búinni búins búir búirðu búið búna búnar búni búnir búnu búnum búum búðu bý býr býrð býrðu
+100	100	ganga	gakk gakktu gangan gangandi gangi gangir gangirðu gangið gangna gangnanna gekk gekkst gekkstu geng gengi gengin genginn genginna genginnar genginni gengins gengir gengirðu gengið gengju gengjum gengjuð gengna gengnar gengni gengnir gengnu gengnum gengt gengu gengum gengur gengurðu gengust genguð gingu göngu göngum gönguna göngunnar göngunni göngunum göngur göngurnar

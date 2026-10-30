@@ -1,0 +1,100 @@
+1	301	lok	loka lokanna loki lokin lokinu lokið lokum lokunum
+2	302	auk	
+3	303	tilbúinn	tilbúin tilbúinna tilbúinnar tilbúinni tilbúins tilbúið tilbúna tilbúnar tilbúni tilbúnir tilbúnu tilbúnum
+4	304	faðir	faðirinn feðra feðranna feðraði feðraður feðrum feðrunum feðruð feður feðurna feðurnir föður föðurinn föðurins föðurnum
+5	305	gleyma	gleymandi gleymast gleymd gleymda gleymdan gleymdar gleymdi gleymdir gleymdirðu gleymdist gleymdra gleymdrar gleymdri gleymds gleymdu gleymdum gleymdumst gleymdur gleymdust gleymduð gleymi gleymir gleymirðu gleymist gleymið gleymst gleymt gleymum gleymumst
+6	306	næstur	næst næsta næstan næstar næsti næstir næstra næstrar næstri næsts næstu næstum
+7	307	samkvæmt	
+8	308	leika	leik leikandi leikast leiki leikin leikinn leikinna leikinnar leikinni leikins leikir leikirðu leikist leikið leikna leiknar leikni leiknir leiknu leiknum leiktu leikum leikumst leikur leikurðu lék léki lékir lékirðu lékju lékjum lékjumst lékjust lékjuð lékst lékstu léku lékum lékumst lékust lékuð
+9	309	illa	verr verst
+10	310	mikilvægur	mikilvæg mikilvæga mikilvægan mikilvægar mikilvægara mikilvægari mikilvægast mikilvægasta mikilvægastan mikilvægastar mikilvægasti mikilvægastir mikilvægastra mikilvægastrar mikilvægastri mikilvægasts mikilvægastur mikilvægi mikilvægir mikilvægra mikilvægrar mikilvægri mikilvægs mikilvægt mikilvægu mikilvægum mikilvægust mikilvægustu mikilvægustum
+11	311	falla	fallandi falli fallin fallinn fallinna fallinnar fallinni fallins fallir fallirðu fallið fallna fallnar fallni fallnir fell felli fellið fellur fellurðu féll félli féllir féllirðu féllst féllstu féllu féllum félluð föllnu föllnum föllum
+12	312	utan	
+13	313	slæmur	slæm slæma slæman slæmar slæmi slæmir slæmra slæmrar slæmri slæms slæmt slæmu slæmum verra verri verst versta verstan verstar versti verstir verstra verstrar verstri versts verstu verstum verstur
+14	314	mánuður	mánaða mánaðanna mánaðar mánaðarins mánuð mánuði mánuðina mánuðinn mánuðinum mánuðir mánuðirnir mánuðum mánuðunum mánuðurinn
+15	315	reka	rak rakst rakstu rek rekan rekandi rekanna rekast reki rekin rekinn rekinna rekinnar rekinni rekins rekir rekirðu rekist rekið rekna reknanna reknar rekni reknir reknu reknum rekst rekstu rektu reku rekum rekumst rekuna rekunnar rekunni rekunum rekur rekurnar rekurðu ráku rákum rákumst rákust rákuð ræki rækir rækirðu rækist rækju rækjum rækjumst rækjust rækjuð rökin
+16	316	færa	færan færandi færanna færast færi færir færirðu færist færistu færið færna færnanna færst fært færu færum færumst færuna færunnar færunni færunum færur færurnar færð færða færðan færðar færði færðir færðirðu færðist færðistu færðra færðrar færðri færðs færðu færðum færðumst færður færðust færðuð færðuði
+17	317	snúa	sneri snerir snerirðu sneru snerum sneruð snéri snérir snérirðu snéru snérum snéruð snéruði snú snúandi snúi snúin snúinn snúinna snúinnar snúinni snúins snúir snúirðu snúið snúna snúnar snúni snúnir snúnu snúnum snúum snúðu sný snýr snýrð snýrðu
+18	318	byggja	byggi byggir byggirðu byggist byggið byggjandi byggjast byggjum byggjumst byggst byggt byggð byggða byggðan byggðar byggði byggðir byggðirðu byggðist byggðra byggðrar byggðri byggðs byggðu byggðum byggðumst byggður byggðust byggðuð
+19	319	stelpa	stelpan stelpna stelpnanna stelpu stelpum stelpuna stelpunnar stelpunni stelpunum stelpur stelpurnar
+20	320	réttur	rétt rétta réttan réttanna réttar réttara réttari réttarins réttast réttasta réttastan réttastar réttasti réttastir réttastra réttastrar réttastri réttasts réttastur rétti réttina réttinn réttinum réttir réttirnir réttra réttrar réttri rétts réttu réttum réttunum rétturinn réttust réttustu réttustum
+21	321	auðvitað	
+22	322	spila	spilandi spilar spilarðu spilast spilað spilaða spilaðan spilaðar spilaði spilaðir spilaðirðu spilaðist spilaðra spilaðrar spilaðri spilaðs spilaðu spilaður spili spilir spilist spilið spilum spilumst spiluð spiluðu spiluðum spiluðumst spiluðust spiluðuð
+23	323	átt	áttanna áttar áttarinnar áttin áttina áttinni áttir áttirnar áttum áttunum
+24	324	matur	mat mata matana matanna matar matarins matarnir matinn matnum maturinn mötum mötunum
+25	325	þangað	
+26	326	von	vona vonanna vonar vonarinnar vonin vonina voninni vonir vonirnar vonum vonunum
+27	327	auka	aukandi aukast auki aukin aukinn aukinna aukinnar aukinni aukins aukir aukirðu aukist aukið aukna auknar aukni auknir auknu auknum aukstu auktu aukum aukumst eyk eykst eykur eykurðu juku jukum jukumst jukust jukuð jók jókst jókstu yki ykir ykirðu ykist ykju ykjum ykjumst ykjust ykjuð
+28	328	einmitt	
+29	329	stundum	
+30	330	tengja	tengd tengda tengdan tengdar tengdi tengdir tengdist tengdra tengdrar tengdri tengds tengdu tengdum tengdumst tengdur tengdust tengduð tengi tengir tengirðu tengist tengistu tengið tengjandi tengjast tengjum tengjumst tengst tengt
+31	331	viss	vissa vissan vissar vissara vissari vissast vissasta vissastan vissastar vissasti vissastir vissastra vissastrar vissastri vissasts vissastur vissi vissir vissra vissrar vissri visst vissu vissum vissust vissustu vissustum
+32	332	sex	sexa sexanna sexi sexin sexins sexinu sexið sexum sexunum
+33	333	báðir	beggja báða báðar báðum bæði
+34	334	ljúka	lauk laukst laukstu ljúkandi ljúkast ljúki ljúkir ljúkirðu ljúkist ljúkið ljúkstu ljúktu ljúkum ljúkumst lokin lokinn lokinna lokinnar lokinni lokins lokist lokið lokna loknar lokni loknir loknu loknum luku lukum lukumst lukust lukuð lyki lykir lykirðu lykist lykju lykjum lykjumst lykjust lykjuð lýk lýkst lýkur lýkurðu
+35	335	langur	langa langan langar langi langir langra langrar langri langs langt lengra lengri lengst lengsta lengstan lengstar lengsti lengstir lengstra lengstrar lengstri lengsts lengstu lengstum lengstur löng löngu löngum
+36	336	ákveða	ákvað ákvaðst ákvaðstu ákveddu ákveð ákveðandi ákveði ákveðin ákveðinn ákveðinna ákveðinnar ákveðinni ákveðins ákveðir ákveðið ákveðna ákveðnar ákveðni ákveðnir ákveðnu ákveðnum ákveðum ákveður ákveðurðu ákváðu ákváðum ákváðuð ákvæði ákvæðir ákvæðu ákvæðum ákvæðuð
+37	337	fínn	fín fína fínan fínar fínast fínasta fínastan fínastar fínasti fínastir fínastra fínastrar fínastri fínasts fínastur fíni fínir fínna fínnar fínni fíns fínt fínu fínum fínust fínustu fínustum
+38	338	inni	innanna innar innin inninu innis innisins innið innst innum innunum
+39	339	starfa	starfandi starfar starfarðu starfast starfað starfaða starfaðan starfaðar starfaði starfaðir starfaðirðu starfaðist starfaðra starfaðrar starfaðri starfaðs starfaðu starfaður starfi starfir starfist starfið störfum störfumst störfuð störfuðu störfuðum störfuðumst störfuðust störfuðuð
+40	340	leiður	leidd leiddar leiddi leiddir leiddu leiddur leitt leið leiða leiðan leiðar leiðara leiðari leiðast leiðasta leiðastan leiðastar leiðasti leiðastir leiðastra leiðastrar leiðastri leiðasts leiðastur leiði leiðir leiðis leiðið leiðra leiðrar leiðri leiðs leiðu leiðum leiðust leiðustu leiðustum
+41	341	ljós	ljósa ljósan ljósanna ljósar ljósara ljósari ljósast ljósasta ljósastan ljósastar ljósasti ljósastir ljósastra ljósastrar ljósastri ljósasts ljósastur ljósi ljósin ljósinu ljósir ljósið ljósra ljósrar ljósri ljóss ljóssins ljóst ljósu ljósum ljósunum ljósust ljósustu ljósustum
+42	342	gegnum	
+43	343	selja	sel seld selda seldan seldar seldi seldir seldirðu seldra seldrar seldri selds seldu seldum seldur selduð seljan seljandi seljanna selji seljir seljirðu seljið seljiði selju seljum seljuna seljunnar seljunni seljunum seljur seljurnar selt selur selurðu
+44	344	munur	mun muna munanna munar munarins muni munina muninn muninum munir munirnir munum mununum munurinn
+45	345	afsaka	afsakandi afsakar afsakast afsakað afsakaða afsakaðan afsakaðar afsakaði afsakaðir afsakaðirðu afsakaðist afsakaðra afsakaðrar afsakaðri afsakaðs afsakaðu afsakaður afsaki afsakir afsakist afsakið afsökum afsökumst afsökuð afsökuðu afsökuðum afsökuðumst afsökuðust afsökuðuð
+46	346	hátt	hærra hæst
+47	347	loka	lokan lokandi lokanna lokar lokarðu lokast lokastu lokað lokaða lokaðan lokaðar lokaði lokaðir lokaðirðu lokaðist lokaðra lokaðrar lokaðri lokaðs lokaðu lokaður loki lokir lokirðu lokist lokið lokiði lokna loknanna loku lokum lokumst lokuna lokunnar lokunni lokunum lokur lokurnar lokuð lokuðu lokuðum lokuðumst lokuðust lokuðuð
+48	348	halló	
+49	349	hæ	
+50	350	bak	baka bakanna baki bakinu bakið baks baksins bök bökin bökum bökunum
+51	351	skip	skipa skipanna skipi skipin skipinu skipið skips skipsins skipum skipunum
+52	352	nótt	nátta náttanna nætur næturinnar næturnar nótta nóttanna nóttin nóttina nóttinni nóttum nóttunum
+53	353	flokkur	flokk flokka flokkana flokkanna flokkar flokkarnir flokki flokkinn flokknum flokks flokksins flokkum flokkunum flokkurinn
+54	354	milljón	milljóna milljónanna milljónar milljónarinnar milljónin milljónina milljóninni milljónir milljónirnar milljónum milljónunum
+55	355	erfitt	erfiðar erfiðast
+56	356	sjást	sjáist sjáistu sjástu sjáumst sást sástu sáumst sáust sæist sæistu sæjumst sæjust sést séstu
+57	357	læra	lærandi lærast læri lærir lærirðu lærist lærið lærst lært lærum lærumst lærð lærða lærðan lærðar lærði lærðir lærðirðu lærðist lærðra lærðrar lærðri lærðs lærðu lærðum lærðumst lærður lærðust lærðuð
+58	358	eiginn	eigin eigið
+59	359	velja	valdar valdi valdir valdirðu valdist valin valinn valinna valinnar valinni valins valist valið vel veldi veldir veldirðu veldist veldu veldum veldumst veldust velduð veljandi veljast velji veljir veljist veljið veljum veljumst velst velur velurðu völdu völdum völdumst völdust völduð
+60	360	rannsókn	rannsókna rannsóknanna rannsóknar rannsóknarinnar rannsóknin rannsóknina rannsókninni rannsóknir rannsóknirnar rannsóknum rannsóknunum
+61	361	svara	svarandi svarar svararðu svarast svarað svaraða svaraðan svaraðar svaraði svaraðir svaraðirðu svaraðist svaraðra svaraðrar svaraðri svaraðs svaraðu svaraður svari svarir svarirðu svarist svarið svariði svörum svörumst svöruð svöruðu svöruðum svöruðumst svöruðust svöruðuð
+62	362	ætt	ætta ættanna ættar ættarinnar ættin ættina ættinni ættir ættirnar ættum ættunum
+63	363	lítið	minna minnst
+64	364	flottur	flott flotta flottan flottar flottara flottari flottast flottasta flottastan flottastar flottasti flottastir flottastra flottastrar flottastri flottasts flottastur flotti flottir flottra flottrar flottri flotts flottu flottum flottust flottustu flottustum
+65	365	fela	falda faldar faldi faldir faldist falin falinn falinna falinnar falinni falins falist falið fel felan felandi felanna felast feldi feldir feldist feldu feldum feldumst feldust felduð feli felir felist felið felna felnanna felst felstu felu felum felumst feluna felunnar felunni felunum felur felurnar fæli fælir fælist fælu fælum fælumst fælust fæluð fól fólst fólu fólum fólumst fólust fóluð földu földum földumst földust földuð
+66	366	bjarga	bjargandi bjargar bjargarðu bjargast bjargað bjargaða bjargaðan bjargaðar bjargaði bjargaðir bjargaðirðu bjargaðist bjargaðra bjargaðrar bjargaðri bjargaðs bjargaðu bjargaður bjargi bjargir bjargist bjargið björgum björgumst björguð björguðu björguðum björguðumst björguðust björguðuð
+67	367	háskóli	háskóla háskólana háskólann háskólanna háskólans háskólanum háskólar háskólarnir háskólinn háskólum háskólunum
+68	368	veita	veist veitan veitandi veitast veiti veitir veitist veitið veitna veitnanna veitt veitta veittan veittar veitti veittir veittist veittra veittrar veittri veitts veittu veittum veittumst veittur veittust veittuð veitu veitum veitumst veituna veitunnar veitunni veitunum veitur veiturnar
+69	369	þótt	
+70	370	nefna	nefnan nefnandi nefnanna nefnast nefnd nefnda nefndan nefndar nefndi nefndir nefndirðu nefndist nefndra nefndrar nefndri nefnds nefndu nefndum nefndumst nefndur nefndust nefnduð nefni nefnir nefnirðu nefnist nefnið nefnst nefnt nefnu nefnum nefnumst nefnuna nefnunnar nefnunni nefnunum nefnur nefnurnar
+71	371	jafnvel	
+72	372	sofa	sef sefur sefurðu sofandi sofi sofin sofinn sofinna sofinnar sofinni sofins sofir sofirðu sofið sofna sofnar sofni sofnir sofnu sofnum sofum sofðu svaf svafst svafstu sváfu sváfum sváfuð svæfi svæfir svæfirðu svæfu svæfum svæfuð
+73	373	borð	borða borðanna borði borðin borðinu borðið borðs borðsins borðum borðunum
+74	374	mæta	mætandi mæti mætir mætirðu mætið mætt mætta mættan mættar mætti mættir mættirðu mættra mættrar mættri mætts mættu mættum mættur mættuð mætum
+75	375	uppi	efst ofar uppa uppana uppann uppanna uppans uppanum uppar upparnir uppinn uppum uppunum
+76	376	bróðir	bræðra bræðranna bræðrum bræðrunum bræður bræðurna bræðurnir bróðirinn bróður bróðurinn bróðurins bróðurnum
+77	377	sérstakur	sérstaka sérstakan sérstakar sérstakara sérstakari sérstakast sérstakasta sérstakastan sérstakastar sérstakasti sérstakastir sérstakastra sérstakastrar sérstakastri sérstakasts sérstakastur sérstaki sérstakir sérstakra sérstakrar sérstakri sérstaks sérstakt sérstök sérstöku sérstökum sérstökust sérstökustu sérstökustum
+78	378	enda	endandi endar endarðu endað endaði endaðir endaðirðu endaðu endi endir endið endum enduðu enduðum enduðuð
+79	379	frekar	frekast
+80	380	lög	laganna lögin lögum lögunum
+81	381	jú	
+82	382	dalur	dal dala dalanna dali dalina dalinn dalir dalirnir dalnum dals dalsins dalurinn dölum dölunum
+83	383	læknir	lækna læknana læknanna læknar læknarnir lækni lækninn lækninum læknirinn læknis læknisins læknum læknunum
+84	384	mark	marka markanna marki markinu markið marks marksins mörk mörkin mörkum mörkunum
+85	385	hvenær	
+86	386	meina	meinandi meinar meinarðu meinast meinað meinaða meinaðan meinaðar meinaði meinaðir meinaðist meinaðra meinaðrar meinaðri meinaðs meinaðu meinaður meini meinir meinist meinið meint meinta meintan meintar meinti meintir meintirðu meintra meintrar meintri meints meintu meintum meintur meintuð meinum meinumst meinuð meinuðu meinuðum meinuðumst meinuðust meinuðuð
+87	387	hvítur	hvít hvíta hvítan hvítar hvítara hvítari hvítast hvítasta hvítastan hvítastar hvítasti hvítastir hvítastra hvítastrar hvítastri hvítasts hvítastur hvíti hvítir hvítra hvítrar hvítri hvíts hvítt hvítu hvítum hvítust hvítustu hvítustum
+88	388	stúlka	stúlkan stúlkna stúlknanna stúlku stúlkum stúlkuna stúlkunnar stúlkunni stúlkunum stúlkur stúlkurnar
+89	389	þýða	þýdd þýdda þýddan þýddar þýddi þýddir þýddist þýddra þýddrar þýddri þýdds þýddu þýddum þýddumst þýddur þýddust þýdduð þýtt þýðandi þýðast þýði þýðir þýðist þýðið þýðst þýðum þýðumst
+90	390	klukka	klukkan klukkna klukknanna klukku klukkum klukkuna klukkunnar klukkunni klukkunum klukkur klukkurnar
+91	391	forseti	forseta forsetana forsetann forsetanna forsetans forsetanum forsetar forsetarnir forsetinn forsetum forsetunum
+92	392	lýsa	lýsan lýsandi lýsanna lýsast lýsi lýsir lýsist lýsið lýst lýsta lýstan lýstar lýsti lýstir lýstist lýstra lýstrar lýstri lýsts lýstu lýstum lýstumst lýstur lýstust lýstuð lýsu lýsum lýsumst lýsuna lýsunnar lýsunni lýsunum lýsur lýsurnar
+93	393	áhyggja	áhyggjan áhyggjanna áhyggju áhyggjum áhyggjuna áhyggjunnar áhyggjunni áhyggjunum áhyggjur áhyggjurnar áhyggna áhyggnanna
+94	394	átta	áttan áttandi áttanna áttar áttarðu áttað áttaði áttaðir áttaðirðu áttaðu átti áttir áttirðu áttið áttu áttum áttuna áttunnar áttunni áttunum áttur átturnar áttuðu áttuðum áttuðuð
+95	395	stefna	stefnan stefnandi stefnanna stefnd stefnda stefndan stefndar stefndi stefndir stefndra stefndrar stefndri stefnds stefndu stefndum stefndur stefnduð stefni stefnir stefnið stefnt stefnu stefnum stefnuna stefnunnar stefnunni stefnunum stefnur stefnurnar
+96	396	vanta	vantandi vantar vantað vantaði vanti
+97	397	undan	
+98	398	fjöldi	fjölda fjöldann fjöldans fjöldanum fjöldinn
+99	399	úti	utar yst
+100	400	víst	vísast

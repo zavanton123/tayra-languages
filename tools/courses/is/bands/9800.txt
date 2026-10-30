@@ -1,0 +1,100 @@
+1	9701	hvalaskoðun	hvalaskoðana hvalaskoðananna hvalaskoðanir hvalaskoðanirnar hvalaskoðunar hvalaskoðunarinnar hvalaskoðunin hvalaskoðunina hvalaskoðuninni hvalaskoðunum hvalaskoðununum
+2	9702	mix	mixa mixanna mixi mixin mixins mixinu mixið mixum mixunum
+3	9703	ítarefni	ítarefna ítarefnanna ítarefnin ítarefninu ítarefnis ítarefnisins ítarefnið ítarefnum ítarefnunum
+4	9704	ríkulegur	ríkuleg ríkulega ríkulegan ríkulegar ríkulegast ríkulegasta ríkulegastan ríkulegastar ríkulegasti ríkulegastir ríkulegastra ríkulegastrar ríkulegastri ríkulegasts ríkulegastur ríkulegi ríkulegir ríkulegra ríkulegrar ríkulegri ríkulegs ríkulegt ríkulegu ríkulegum ríkulegust ríkulegustu ríkulegustum
+5	9705	bærilega	bærilegar bærilegast
+6	9706	góði	góða góðana góðann góðanna góðans góðanum góðar góðarnir góðinn góðum góðunum
+7	9707	herfang	herfanga herfanganna herfangi herfanginu herfangið herfangs herfangsins herföng herföngin herföngum herföngunum
+8	9708	nafnorð	nafnorða nafnorðanna nafnorði nafnorðin nafnorðinu nafnorðið nafnorðs nafnorðsins nafnorðum nafnorðunum
+9	9709	almannaheill	almannaheillar almannaheillarinnar almannaheillin almannaheillina almannaheillinni
+10	9710	ufsi	ufsa ufsana ufsann ufsanna ufsans ufsanum ufsar ufsarnir ufsinn ufsum ufsunum
+11	9711	markviss	markvissa markvissan markvissar markvissara markvissari markvissast markvissasta markvissastan markvissastar markvissasti markvissastir markvissastra markvissastrar markvissastri markvissasts markvissastur markvissi markvissir markvissra markvissrar markvissri markvisst markvissu markvissum markvissust markvissustu markvissustum
+12	9712	kröftuglega	
+13	9713	steðji	steðja steðjana steðjann steðjanna steðjans steðjanum steðjar steðjarnir steðjinn steðjum steðjunum
+14	9714	gilli	gilla gillanna gillin gillinu gillis gillisins gillið gillum gillunum
+15	9715	grýta	grýst grýtandi grýtast grýti grýtir grýtist grýtið grýtt grýtta grýttan grýttar grýtti grýttir grýttist grýttra grýttrar grýttri grýtts grýttu grýttum grýttumst grýttur grýttust grýttuð grýtum grýtumst
+16	9716	uppnefna	uppnefnandi uppnefnast uppnefnd uppnefnda uppnefndan uppnefndar uppnefndi uppnefndir uppnefndra uppnefndrar uppnefndri uppnefnds uppnefndu uppnefndum uppnefndur uppnefnduð uppnefni uppnefnir uppnefnið uppnefnst uppnefnt uppnefnum
+17	9717	erindagjörð	erindagjörða erindagjörðanna erindagjörðar erindagjörðarinnar erindagjörðin erindagjörðina erindagjörðinni erindagjörðir erindagjörðirnar erindagjörðum erindagjörðunum
+18	9718	skipulegur	skipuleg skipulega skipulegan skipulegar skipulegast skipulegasta skipulegastan skipulegastar skipulegasti skipulegastir skipulegastra skipulegastrar skipulegastri skipulegasts skipulegastur skipulegi skipulegir skipulegra skipulegrar skipulegri skipulegs skipulegt skipulegu skipulegum skipulegust skipulegustu skipulegustum
+19	9719	björgunarmaður	björgunarmann björgunarmanna björgunarmannanna björgunarmanni björgunarmanninn björgunarmanninum björgunarmanns björgunarmannsins björgunarmaðurinn björgunarmenn björgunarmennina björgunarmennirnir björgunarmönnum björgunarmönnunum
+20	9720	hrossagaukur	hrossagauk hrossagauka hrossagaukana hrossagaukanna hrossagaukar hrossagaukarnir hrossagauki hrossagaukinn hrossagauknum hrossagauks hrossagauksins hrossagaukum hrossagaukunum hrossagaukurinn
+21	9721	áskrift	áskrifta áskriftanna áskriftar áskriftarinnar áskriftin áskriftina áskriftinni áskriftir áskriftirnar áskriftum áskriftunum
+22	9722	fyrirrúm	fyrirrúmi fyrirrúminu fyrirrúmið fyrirrúms fyrirrúmsins
+23	9723	sprotafyrirtæki	sprotafyrirtækin sprotafyrirtækinu sprotafyrirtækis sprotafyrirtækisins sprotafyrirtækið sprotafyrirtækja sprotafyrirtækjanna sprotafyrirtækjum sprotafyrirtækjunum
+24	9724	æsispennandi	
+25	9725	ruddalegur	ruddaleg ruddalega ruddalegan ruddalegar ruddalegast ruddalegasta ruddalegastan ruddalegastar ruddalegasti ruddalegastir ruddalegastra ruddalegastrar ruddalegastri ruddalegasts ruddalegastur ruddalegi ruddalegir ruddalegra ruddalegrar ruddalegri ruddalegs ruddalegt ruddalegu ruddalegum ruddalegust ruddalegustu ruddalegustum
+26	9726	kuldalegur	kuldaleg kuldalega kuldalegan kuldalegar kuldalegast kuldalegasta kuldalegastan kuldalegastar kuldalegasti kuldalegastir kuldalegastra kuldalegastrar kuldalegastri kuldalegasts kuldalegastur kuldalegi kuldalegir kuldalegra kuldalegrar kuldalegri kuldalegs kuldalegt kuldalegu kuldalegum kuldalegust kuldalegustu kuldalegustum
+27	9727	villisvín	villisvína villisvínanna villisvíni villisvínin villisvíninu villisvínið villisvíns villisvínsins villisvínum villisvínunum
+28	9728	bé	béa béanna béi béin béinu béið bés bésins béum béunum
+29	9729	hiklaust	
+30	9730	hjólbarði	hjólbarða hjólbarðana hjólbarðann hjólbarðanna hjólbarðans hjólbarðanum hjólbarðar hjólbarðarnir hjólbarðinn hjólbörðum hjólbörðunum
+31	9731	klárlega	
+32	9732	klassík	klassíkin klassíkina klassíkinni klassíkur klassíkurinnar
+33	9733	hlutaðeigandi	hlutaðeiganda hlutaðeigandann hlutaðeigandans hlutaðeigandanum hlutaðeigandinn hlutaðeigenda hlutaðeigendanna hlutaðeigendum hlutaðeigendunum hlutaðeigendur hlutaðeigendurna hlutaðeigendurnir
+34	9734	kynhvöt	kynhvata kynhvatanna kynhvatar kynhvatarinnar kynhvatir kynhvatirnar kynhvötin kynhvötina kynhvötinni kynhvötum kynhvötunum
+35	9735	þrívídd	þrívíddar þrívíddarinnar þrívíddin þrívíddina þrívíddinni
+36	9736	hvítblæði	hvítblæðinu hvítblæðis hvítblæðisins hvítblæðið
+37	9737	rani	rana ranana ranann rananna ranans rananum ranar ranarnir raninn rönum rönunum
+38	9738	sjarmi	sjarma sjarmann sjarmans sjarmanum sjarminn
+39	9739	byggingarlist	byggingarlistar byggingarlistarinnar byggingarlistin byggingarlistina byggingarlistinni
+40	9740	andmæli	andmæla andmælanna andmælin andmælum andmælunum
+41	9741	farsæld	farsældar farsældarinnar farsældin farsældina farsældinni
+42	9742	mask	maski maskinu maskið masks masksins
+43	9743	götuhorn	götuhorna götuhornanna götuhorni götuhornin götuhorninu götuhornið götuhorns götuhornsins götuhornum götuhornunum
+44	9744	slúður	slúðri slúðrinu slúðrið slúðurs slúðursins
+45	9745	bakvörður	bakvarða bakvarðanna bakvarðar bakvarðarins bakverði bakverðina bakverðinum bakverðir bakverðirnir bakvörð bakvörðinn bakvörðum bakvörðunum bakvörðurinn
+46	9746	skemmtiferðaskip	skemmtiferðaskipa skemmtiferðaskipanna skemmtiferðaskipi skemmtiferðaskipin skemmtiferðaskipinu skemmtiferðaskipið skemmtiferðaskips skemmtiferðaskipsins skemmtiferðaskipum skemmtiferðaskipunum
+47	9747	berfættur	berfætt berfætta berfættan berfættar berfætti berfættir berfættra berfættrar berfættri berfætts berfættu berfættum
+48	9748	kaffivél	kaffivéla kaffivélanna kaffivélar kaffivélarinnar kaffivélarnar kaffivélin kaffivélina kaffivélinni kaffivélum kaffivélunum
+49	9749	eðlisfræðingur	eðlisfræðing eðlisfræðinga eðlisfræðingana eðlisfræðinganna eðlisfræðingar eðlisfræðingarnir eðlisfræðingi eðlisfræðinginn eðlisfræðingnum eðlisfræðings eðlisfræðingsins eðlisfræðingum eðlisfræðingunum eðlisfræðingurinn
+50	9750	hreppstjóri	hreppstjóra hreppstjórana hreppstjórann hreppstjóranna hreppstjórans hreppstjóranum hreppstjórar hreppstjórarnir hreppstjórinn hreppstjórum hreppstjórunum
+51	9751	mállaus	mállausa mállausan mállausar mállausara mállausari mállausast mállausasta mállausastan mállausastar mállausasti mállausastir mállausastra mállausastrar mállausastri mállausasts mállausastur mállausi mállausir mállausra mállausrar mállausri mállauss mállaust mállausu mállausum mállausust mállausustu mállausustum
+52	9752	hrotti	hrotta hrottana hrottann hrottanna hrottans hrottanum hrottar hrottarnir hrottinn hrottum hrottunum
+53	9753	ótrúr	ótrú ótrúa ótrúan ótrúar ótrúast ótrúasta ótrúastan ótrúastar ótrúasti ótrúastir ótrúastra ótrúastrar ótrúastri ótrúasts ótrúastur ótrúi ótrúir ótrúrra ótrúrrar ótrúrri ótrús ótrútt ótrúu ótrúum ótrúust ótrúustu ótrúustum
+54	9754	vitnaleiðsla	vitnaleiðslan vitnaleiðslanna vitnaleiðslna vitnaleiðslnanna vitnaleiðslu vitnaleiðslum vitnaleiðsluna vitnaleiðslunnar vitnaleiðslunni vitnaleiðslunum vitnaleiðslur vitnaleiðslurnar
+55	9755	óábyrgur	óábyrg óábyrga óábyrgan óábyrgar óábyrgara óábyrgari óábyrgast óábyrgasta óábyrgastan óábyrgastar óábyrgasti óábyrgastir óábyrgastra óábyrgastrar óábyrgastri óábyrgasts óábyrgastur óábyrgi óábyrgir óábyrgra óábyrgrar óábyrgri óábyrgs óábyrgt óábyrgu óábyrgum óábyrgust óábyrgustu óábyrgustum
+56	9756	pólitíkus	pólitíkusa pólitíkusana pólitíkusanna pólitíkusar pólitíkusarnir pólitíkusi pólitíkusinn pólitíkusnum pólitíkuss pólitíkussins pólitíkusum pólitíkusunum
+57	9757	karlmenni	karlmenna karlmennanna karlmennin karlmenninu karlmennis karlmennisins karlmennið karlmennum karlmennunum
+58	9758	handtökuskipun	handtökuskipana handtökuskipananna handtökuskipanir handtökuskipanirnar handtökuskipunar handtökuskipunarinnar handtökuskipunin handtökuskipunina handtökuskipuninni handtökuskipunum handtökuskipununum
+59	9759	moldríkur	moldrík moldríka moldríkan moldríkar moldríkara moldríkari moldríkast moldríkasta moldríkastan moldríkastar moldríkasti moldríkastir moldríkastra moldríkastrar moldríkastri moldríkasts moldríkastur moldríki moldríkir moldríkra moldríkrar moldríkri moldríks moldríkt moldríku moldríkum moldríkust moldríkustu moldríkustum
+60	9760	óvirðing	óvirðingar óvirðingarinnar óvirðingin óvirðingu óvirðinguna óvirðingunni
+61	9761	túrtappi	túrtappa túrtappana túrtappann túrtappanna túrtappans túrtappanum túrtappar túrtapparnir túrtappinn túrtöppum túrtöppunum
+62	9762	einoka	einokandi einokar einokast einokað einokaða einokaðan einokaðar einokaði einokaðir einokaðist einokaðra einokaðrar einokaðri einokaðs einokaðu einokaður einoki einokir einokist einokið einokum einokumst einokuð einokuðu einokuðum einokuðumst einokuðust einokuðuð
+63	9763	lukkudýr	lukkudýra lukkudýranna lukkudýri lukkudýrin lukkudýrinu lukkudýrið lukkudýrs lukkudýrsins lukkudýrum lukkudýrunum
+64	9764	húdd	húdda húddanna húddi húddin húddinu húddið húdds húddsins húddum húddunum
+65	9765	flugdreki	flugdreka flugdrekana flugdrekann flugdrekanna flugdrekans flugdrekanum flugdrekar flugdrekarnir flugdrekinn flugdrekum flugdrekunum
+66	9766	föðurlandsvinur	föðurlandsvin föðurlandsvina föðurlandsvinanna föðurlandsvinar föðurlandsvinarins föðurlandsvini föðurlandsvinina föðurlandsvininn föðurlandsvininum föðurlandsvinir föðurlandsvinirnir föðurlandsvinum föðurlandsvinunum föðurlandsvinurinn
+67	9767	bráðsnjall	bráðsnjalla bráðsnjallan bráðsnjallar bráðsnjalli bráðsnjallir bráðsnjallra bráðsnjallrar bráðsnjallri bráðsnjalls bráðsnjallt bráðsnjöll bráðsnjöllu bráðsnjöllum
+68	9768	löggæslumaður	löggæslumann löggæslumanna löggæslumannanna löggæslumanni löggæslumanninn löggæslumanninum löggæslumanns löggæslumannsins löggæslumaðurinn löggæslumenn löggæslumennina löggæslumennirnir löggæslumönnum löggæslumönnunum
+69	9769	ofbeldishneigður	ofbeldishneigt ofbeldishneigð ofbeldishneigða ofbeldishneigðan ofbeldishneigðar ofbeldishneigðara ofbeldishneigðari ofbeldishneigðast ofbeldishneigðasta ofbeldishneigðastan ofbeldishneigðastar ofbeldishneigðasti ofbeldishneigðastir ofbeldishneigðastra ofbeldishneigðastrar ofbeldishneigðastri ofbeldishneigðasts ofbeldishneigðastur ofbeldishneigði ofbeldishneigðir ofbeldishneigðra ofbeldishneigðrar ofbeldishneigðri ofbeldishneigðs ofbeldishneigðu ofbeldishneigðum ofbeldishneigðust ofbeldishneigðustu ofbeldishneigðustum
+70	9770	meðfæddur	meðfædd meðfædda meðfæddan meðfæddar meðfæddara meðfæddari meðfæddast meðfæddasta meðfæddastan meðfæddastar meðfæddasti meðfæddastir meðfæddastra meðfæddastrar meðfæddastri meðfæddasts meðfæddastur meðfæddi meðfæddir meðfæddra meðfæddrar meðfæddri meðfædds meðfæddu meðfæddum meðfæddust meðfæddustu meðfæddustum meðfætt
+71	9771	siðlaus	siðlausa siðlausan siðlausar siðlausara siðlausari siðlausast siðlausasta siðlausastan siðlausastar siðlausasti siðlausastir siðlausastra siðlausastrar siðlausastri siðlausasts siðlausastur siðlausi siðlausir siðlausra siðlausrar siðlausri siðlauss siðlaust siðlausu siðlausum siðlausust siðlausustu siðlausustum
+72	9772	kengúra	kengúran kengúranna kengúru kengúrum kengúruna kengúrunnar kengúrunni kengúrunum kengúrur kengúrurnar
+73	9773	fangavörður	fangavarða fangavarðanna fangavarðar fangavarðarins fangaverði fangaverðina fangaverðinum fangaverðir fangaverðirnir fangavörð fangavörðinn fangavörðum fangavörðunum fangavörðurinn
+74	9774	þybbinn	þybbin þybbinna þybbinnar þybbinni þybbins þybbið þybbna þybbnar þybbnara þybbnari þybbnast þybbnasta þybbnastan þybbnastar þybbnasti þybbnastir þybbnastra þybbnastrar þybbnastri þybbnasts þybbnastur þybbni þybbnir þybbnu þybbnum þybbnust þybbnustu þybbnustum
+75	9775	hnúi	hnúa hnúana hnúann hnúanna hnúans hnúanum hnúar hnúarnir hnúinn hnúum hnúunum
+76	9776	siðmenntaður	siðmenntað siðmenntaða siðmenntaðan siðmenntaðar siðmenntaðast siðmenntaðasta siðmenntaðastan siðmenntaðastar siðmenntaðasti siðmenntaðastir siðmenntaðastra siðmenntaðastrar siðmenntaðastri siðmenntaðasts siðmenntaðastur siðmenntaði siðmenntaðir siðmenntaðra siðmenntaðrar siðmenntaðri siðmenntaðs siðmenntuð siðmenntuðu siðmenntuðum siðmenntuðust siðmenntuðustu siðmenntuðustum
+77	9777	bilt	
+78	9778	himnalag	himnalagi
+79	9779	armbeygja	armbeygjan armbeygjanna armbeygju armbeygjum armbeygjuna armbeygjunnar armbeygjunni armbeygjunum armbeygjur armbeygjurnar armbeygna armbeygnanna
+80	9780	ofviða	
+81	9781	augabragð	augabragði augabragðinu augabragðið augabragðs augabragðsins
+82	9782	óratími	óratíma óratímann óratímans óratímanum óratíminn
+83	9783	bílpróf	bílprófa bílprófanna bílprófi bílprófin bílprófinu bílprófið bílprófs bílprófsins bílprófum bílprófunum
+84	9784	garri	garra garrana garrann garranna garrans garranum garrar garrarnir garrinn görrum görrunum
+85	9785	límband	límbanda límbandanna límbandi límbandinu límbandið límbands límbandsins límbönd límböndin límböndum límböndunum
+86	9786	öryggismyndavél	öryggismyndavéla öryggismyndavélanna öryggismyndavélar öryggismyndavélarinnar öryggismyndavélarnar öryggismyndavélin öryggismyndavélina öryggismyndavélinni öryggismyndavélum öryggismyndavélunum
+87	9787	eggjakaka	eggjakakan eggjakakanna eggjakakna eggjakaknanna eggjaköku eggjakökum eggjakökuna eggjakökunnar eggjakökunni eggjakökunum eggjakökur eggjakökurnar
+88	9788	kelling	kellinga kellinganna kellingar kellingarinnar kellingarnar kellingin kellingu kellingum kellinguna kellingunni kellingunum
+89	9789	heilaþvo	heilaþvegin heilaþveginn heilaþveginna heilaþveginnar heilaþveginni heilaþvegins heilaþvegist heilaþvegið heilaþvegna heilaþvegnar heilaþvegni heilaþvegnir heilaþvegnu heilaþvegnum heilaþvoi heilaþvoir heilaþvoist heilaþvoið heilaþvost heilaþvoum heilaþvoumst heilaþvoði heilaþvoðir heilaþvoðist heilaþvoðu heilaþvoðum heilaþvoðumst heilaþvoðust heilaþvoðuð heilaþvæ heilaþvægi heilaþvægir heilaþvægist heilaþvægju heilaþvægjum heilaþvægjumst heilaþvægjust heilaþvægjuð heilaþvær heilaþværð heilaþvæst
+90	9790	launmorðingi	launmorðinginn launmorðingja launmorðingjana launmorðingjann launmorðingjanna launmorðingjans launmorðingjanum launmorðingjar launmorðingjarnir launmorðingjum launmorðingjunum
+91	9791	afhjúpun	afhjúpana afhjúpananna afhjúpanir afhjúpanirnar afhjúpunar afhjúpunarinnar afhjúpunin afhjúpunina afhjúpuninni afhjúpunum afhjúpununum
+92	9792	bægja	bægi bægir bægist bægið bægjandi bægjast bægjum bægjumst bægst bægt bægð bægða bægðan bægðar bægði bægðir bægðist bægðra bægðrar bægðri bægðs bægðu bægðum bægðumst bægður bægðust bægðuð
+93	9793	heimahöfn	heimahafna heimahafnanna heimahafnar heimahafnarinnar heimahafnir heimahafnirnar heimahöfnin heimahöfnina heimahöfninni heimahöfnum heimahöfnunum
+94	9794	félagsliði	félagsliða félagsliðana félagsliðann félagsliðanna félagsliðans félagsliðanum félagsliðar félagsliðarnir félagsliðinn félagsliðum félagsliðunum
+95	9795	náttfari	náttfara náttfarana náttfarann náttfaranna náttfarans náttfaranum náttfarar náttfararnir náttfarinn náttförum náttförunum
+96	9796	ádeila	ádeilan ádeilna ádeilnanna ádeilu ádeilum ádeiluna ádeilunnar ádeilunni ádeilunum ádeilur ádeilurnar
+97	9797	hrókur	hrók hróka hrókana hrókanna hrókar hrókarnir hróki hrókinn hróknum hróks hróksins hrókum hrókunum hrókurinn
+98	9798	lín	líni líninu línið líns línsins
+99	9799	auðlegð	auðlegðar auðlegðarinnar auðlegðin auðlegðina auðlegðinni
+100	9800	rannsóknarefni	rannsóknarefna rannsóknarefnanna rannsóknarefnin rannsóknarefninu rannsóknarefnis rannsóknarefnisins rannsóknarefnið rannsóknarefnum rannsóknarefnunum

@@ -1,0 +1,100 @@
+1	901	amma	amman ammanna ömmu ömmum ömmuna ömmunnar ömmunni ömmunum ömmur ömmurnar
+2	902	svipaður	svipað svipaða svipaðan svipaðar svipaðast svipaðasta svipaðastan svipaðastar svipaðasti svipaðastir svipaðastra svipaðastrar svipaðastri svipaðasts svipaðastur svipaði svipaðir svipaðra svipaðrar svipaðri svipaðs svipuð svipuðu svipuðum svipuðust svipuðustu svipuðustum
+3	903	eftirfarandi	
+4	904	styrkur	styrk styrka styrkan styrkar styrkara styrkari styrkast styrkasta styrkastan styrkastar styrkasti styrkastir styrkastra styrkastrar styrkastri styrkasts styrkastur styrki styrkina styrkinn styrkir styrkirnir styrkja styrkjanna styrkjum styrkjunum styrknum styrkra styrkrar styrkri styrks styrksins styrkt styrku styrkum styrkurinn styrkust styrkustu styrkustum
+5	905	vandræði	vandræða vandræðanna vandræðin vandræðum vandræðunum
+6	906	árangur	árangri árangrinum árangurinn árangurs árangursins
+7	907	enskur	ensk enska enskan enskar enskara enskari enskast enskasta enskastan enskastar enskasti enskastir enskastra enskastrar enskastri enskasts enskastur enski enskir enskra enskrar enskri ensks enskt ensku enskum enskust enskustu enskustum
+8	908	þarfnast	þarfnaðist þarfnist þörfnumst þörfnuðumst þörfnuðust
+9	909	kort	korta kortanna korti kortin kortinu kortið korts kortsins kortum kortunum
+10	910	bóndi	bænda bændanna bændum bændunum bændur bændurna bændurnir bónda bóndann bóndans bóndanum bóndinn
+11	911	fé	fjár fjárins féið fénu féð
+12	912	haf	hafa hafanna hafi hafinu hafið hafs hafsins höf höfin höfum höfunum
+13	913	þjónusta	þjónustan þjónustandi þjónustanna þjónustar þjónustað þjónustaða þjónustaðan þjónustaðar þjónustaði þjónustaðir þjónustaðra þjónustaðrar þjónustaðri þjónustaðs þjónustaðu þjónustaður þjónusti þjónustir þjónustið þjónustna þjónustnanna þjónustu þjónustum þjónustuna þjónustunnar þjónustunni þjónustunum þjónustur þjónusturnar þjónustuð þjónustuðu þjónustuðum þjónustuðuð
+14	914	vetur	vetra vetranna vetrar vetrarins vetri vetrinum vetrum vetrunum veturinn veturna veturnir
+15	915	innihalda	innihaldandi innihaldi innihaldin innihaldinn innihaldinna innihaldinnar innihaldinni innihaldins innihaldir innihaldið innihaldna innihaldnar innihaldni innihaldnir inniheld inniheldur innihéldi innihéldir innihéldu innihéldum innihélduð innihélst innihélt innihöldnu innihöldnum innihöldum
+16	916	fylla	fyllan fyllandi fyllanna fyllast fylli fyllir fyllist fyllið fyllna fyllnanna fyllst fyllstu fyllt fyllta fylltan fylltar fyllti fylltir fylltist fylltra fylltrar fylltri fyllts fylltu fylltum fylltumst fylltur fylltust fylltuð fyllu fyllum fyllumst fylluna fyllunnar fyllunni fyllunum fyllur fyllurnar
+17	917	skammur	skamma skamman skammar skammi skammir skammra skammrar skammri skamms skammt skemmra skemmri skemmst skemmsta skemmstan skemmstar skemmsti skemmstir skemmstra skemmstrar skemmstri skemmsts skemmstu skemmstum skemmstur skömm skömmu skömmum
+18	918	vinkona	vinkonan vinkonu vinkonum vinkonuna vinkonunnar vinkonunni vinkonunum vinkonur vinkonurnar vinkvenna vinkvennanna
+19	919	franskur	franska franskan franskar franskara franskari franskast franskasta franskastan franskastar franskasti franskastir franskastra franskastrar franskastri franskasts franskastur franski franskir franskra franskrar franskri fransks franskt frönsk frönsku frönskum frönskust frönskustu frönskustum
+20	920	gluggi	glugga gluggana gluggann glugganna gluggans glugganum gluggar gluggarnir glugginn gluggum gluggunum
+21	921	frammi	framar
+22	922	algengur	algeng algenga algengan algengar algengara algengari algengast algengasta algengastan algengastar algengasti algengastir algengastra algengastrar algengastri algengasts algengastur algengi algengir algengra algengrar algengri algengs algengt algengu algengum algengust algengustu algengustum
+23	923	hættulegur	hættuleg hættulega hættulegan hættulegar hættulegast hættulegasta hættulegastan hættulegastar hættulegasti hættulegastir hættulegastra hættulegastrar hættulegastri hættulegasts hættulegastur hættulegi hættulegir hættulegra hættulegrar hættulegri hættulegs hættulegt hættulegu hættulegum hættulegust hættulegustu hættulegustum
+24	924	fljótt	fljótar fljótast
+25	925	prestur	prest presta prestana prestanna prestar prestarnir presti prestinn prestinum prests prestsins prestum prestunum presturinn
+26	926	eingöngu	
+27	927	lyfta	lyfst lyft lyftan lyftandi lyftanna lyftast lyfti lyftir lyftirðu lyftist lyftið lyftu lyftum lyftumst lyftuna lyftunnar lyftunni lyftunum lyftur lyfturnar lyftust lyftuð
+28	928	helmingur	helming helminga helmingana helminganna helmingar helmingarnir helmingi helminginn helmingnum helmings helmingsins helmingum helmingunum helmingurinn
+29	929	framkvæmd	framkvæmda framkvæmdanna framkvæmdar framkvæmdarinnar framkvæmdin framkvæmdina framkvæmdinni framkvæmdir framkvæmdirnar framkvæmdum framkvæmdunum
+30	930	eignast	eignaðist eignist eignumst eignuðumst eignuðust
+31	931	viðurkenna	viðurkennandi viðurkennast viðurkennd viðurkennda viðurkenndan viðurkenndar viðurkenndi viðurkenndir viðurkenndist viðurkenndra viðurkenndrar viðurkenndri viðurkennds viðurkenndu viðurkenndum viðurkenndumst viðurkenndur viðurkenndust viðurkennduð viðurkenni viðurkennir viðurkennirðu viðurkennist viðurkennið viðurkennst viðurkennt viðurkennum viðurkennumst
+32	932	afi	afa afana afann afanna afans afanum afar afarnir afinn öfum öfunum
+33	933	sekúnda	sekúndan sekúndna sekúndnanna sekúndu sekúndum sekúnduna sekúndunnar sekúndunni sekúndunum sekúndur sekúndurnar
+34	934	hreyfing	hreyfinga hreyfinganna hreyfingar hreyfingarinnar hreyfingarnar hreyfingin hreyfingu hreyfingum hreyfinguna hreyfingunni hreyfingunum
+35	935	krefjast	krafist krafðist krafðistu krefjist krefjistu krefjumst krefst krefstu krefðist krefðistu krefðumst krefðust kröfðumst kröfðust
+36	936	keppa	keppandi keppast keppi keppir keppirðu keppist keppið keppst keppstu keppt keppti kepptir kepptist kepptu kepptum kepptumst kepptust kepptuð keppum keppumst
+37	937	endilega	
+38	938	kasta	kastandi kastar kastast kastað kastaði kastaðir kastaðist kastaðu kasti kastir kastist kastið köstum köstumst köstuðu köstuðum köstuðumst köstuðust köstuðuð
+39	939	neita	neitandi neitar neitað neitaði neitaðir neitaðu neiti neitir neitið neitum neituðu neituðum neituðuð
+40	940	sammála	
+41	941	haus	hausana hausanna hausar hausarnir hausinn hausnum hauss haussins hausum hausunum
+42	942	loksins	
+43	943	prófa	prófandi prófar prófarðu prófast prófað prófaða prófaðan prófaðar prófaði prófaðir prófaðirðu prófaðist prófaðra prófaðrar prófaðri prófaðs prófaðu prófaður prófi prófir prófist prófið prófiði prófum prófumst prófuð prófuðu prófuðum prófuðumst prófuðust prófuðuð
+44	944	stöð	stöðin stöðina stöðinni stöðva stöðvanna stöðvar stöðvarinnar stöðvarnar stöðvum stöðvunum
+45	945	greiða	greidd greidda greiddan greiddar greiddi greiddir greiddist greiddra greiddrar greiddri greidds greiddu greiddum greiddumst greiddur greiddust greidduð greitt greiðan greiðandi greiðanna greiðast greiði greiðir greiðist greiðið greiðna greiðnanna greiðst greiðu greiðum greiðumst greiðuna greiðunnar greiðunni greiðunum greiðurnar
+46	946	skaltu	
+47	947	núverandi	
+48	948	flýta	flýst flýtandi flýtast flýti flýtir flýtið flýtt flýtta flýttan flýttar flýtti flýttir flýttirðu flýttra flýttrar flýttri flýtts flýttu flýttum flýttur flýttuð flýtum
+49	949	samstarf	samstarfi samstarfinu samstarfið samstarfs samstarfsins
+50	950	raunverulegur	raunveruleg raunverulega raunverulegan raunverulegar raunverulegast raunverulegasta raunverulegastan raunverulegastar raunverulegasti raunverulegastir raunverulegastra raunverulegastrar raunverulegastri raunverulegasts raunverulegastur raunverulegi raunverulegir raunverulegra raunverulegrar raunverulegri raunverulegs raunverulegt raunverulegu raunverulegum raunverulegust raunverulegustu raunverulegustum
+51	951	almenningur	almenning almenningi almenninginn almenningnum almennings almenningsins almenningurinn
+52	952	íbúð	íbúða íbúðanna íbúðar íbúðarinnar íbúðin íbúðina íbúðinni íbúðir íbúðirnar íbúðum íbúðunum
+53	953	hafna	hafnandi hafnar hafnað hafnaði hafnaðir hafnaðirðu hafnaðu hafni hafnir hafnið höfnum höfnuðu höfnuðum höfnuðuð
+54	954	gildi	gilda gildanna gildin gildinu gildis gildisins gildið gildum gildunum
+55	955	flýja	flúin flúinn flúinna flúinnar flúinni flúins flúið flúna flúnar flúni flúnir flúnu flúnum flúði flúðir flúðirðu flúðu flúðum flúðuð flý flýi flýir flýirðu flýið flýjandi flýjum flýr flýrð flýrðu flýði flýðir flýðirðu flýðu flýðum flýðuð flýðuði
+56	956	vá	váar váarinnar váin vána vánni vár várinnar
+57	957	ánægja	ánægjan ánægju ánægjuna ánægjunnar ánægjunni
+58	958	stigi	stiga stigana stigann stiganna stigans stiganum stigar stigarnir stiginn stigum stigunum
+59	959	rangt	
+60	960	kristinn	kristin kristinna kristinnar kristinni kristins kristið kristna kristnar kristni kristnir kristnu kristnum
+61	961	beita	beist beitan beitandi beitanna beitast beiti beitir beitirðu beitist beitið beitt beitta beittan beittar beitti beittir beittirðu beittist beittra beittrar beittri beitts beittu beittum beittumst beittur beittust beittuð beitu beitum beitumst beituna beitunnar beitunni beitunum beitur beiturnar
+62	962	framleiðsla	framleiðslan framleiðslu framleiðsluna framleiðslunnar framleiðslunni
+63	963	efa	efandi efar efast efastu efað efaða efaðan efaðar efaði efaðir efaðist efaðra efaðrar efaðri efaðs efaðu efaður efi efir efist efið efum efumst efuð efuðu efuðum efuðumst efuðust efuðuð
+64	964	löngu	
+65	965	banna	bannandi bannar bannast bannað bannaða bannaðan bannaðar bannaði bannaðir bannaðist bannaðra bannaðrar bannaðri bannaðs bannaðu bannaður banni bannir bannist bannið bönnum bönnumst bönnuð bönnuðu bönnuðum bönnuðumst bönnuðust bönnuðuð
+66	966	stoppa	stoppandi stoppar stopparðu stoppast stoppað stoppaða stoppaðan stoppaðar stoppaði stoppaðir stoppaðirðu stoppaðist stoppaðra stoppaðrar stoppaðri stoppaðs stoppaðu stoppaður stoppi stoppir stoppist stoppið stoppiði stoppum stoppumst stoppuð stoppuðu stoppuðum stoppuðumst stoppuðust stoppuðuð
+67	967	fjall	fjalla fjallanna fjalli fjallinu fjallið fjalls fjallsins fjöll fjöllin fjöllum fjöllunum
+68	968	grafa	grafan grafandi grafanna grafast grafi grafin grafinn grafinna grafinnar grafinni grafins grafir grafirðu grafist grafistu grafið grafna grafnar grafni grafnir grafstu grafðu gref grefst grefstu grefur grefurðu græfi græfir græfirðu græfist græfistu græfu græfum græfumst græfust græfuð gróf grófst grófstu grófu grófum grófumst grófust grófuð gröfnu gröfnum gröfu gröfum gröfumst gröfuna gröfunnar gröfunni gröfunum gröfur gröfurnar
+69	969	aðstoð	aðstoðar aðstoðarinnar aðstoðin aðstoðina aðstoðinni
+70	970	klár	klára kláran klárana kláranna klárar klárara klárari klárarnir klárast klárasta klárastan klárastar klárasti klárastir klárastra klárastrar klárastri klárasts klárastur klári klárinn klárir klárnum klárra klárrar klárri klárs klársins klárt kláru klárum klárunum klárust klárustu klárustum
+71	971	tónleikar	tónleika tónleikana tónleikanna tónleikarnir tónleikum tónleikunum
+72	972	starfsmaður	starfsmann starfsmanna starfsmannanna starfsmanni starfsmanninn starfsmanninum starfsmanns starfsmannsins starfsmaðurinn starfsmenn starfsmennina starfsmennirnir starfsmönnum starfsmönnunum
+73	973	djöfull	djöfla djöflana djöflanna djöflar djöflarnir djöfli djöflinum djöflum djöflunum djöful djöfulinn djöfullinn djöfuls djöfulsins
+74	974	rödd	radda raddanna raddar raddarinnar raddir raddirnar röddin röddina röddinni röddu röddum röddunum rödduðum
+75	975	byggð	byggða byggðanna byggðar byggðarinnar byggðin byggðina byggðinni byggðir byggðirnar byggðum byggðunum
+76	976	viðbót	viðbætur viðbæturnar viðbóta viðbótanna viðbótar viðbótarinnar viðbótin viðbótina viðbótinni viðbótum viðbótunum
+77	977	sennilega	sennilegar sennilegast
+78	978	næst	
+79	979	tiltaka	tiltakandi tiltakast tiltaki tiltakir tiltakist tiltakið tiltakstu tiltaktu tiltek tiltekin tiltekinn tiltekinna tiltekinnar tiltekinni tiltekins tiltekist tiltekið tiltekna tilteknar tiltekni tilteknir tilteknu tilteknum tiltekst tiltekur tiltæki tiltækir tiltækist tiltækju tiltækjum tiltækjumst tiltækjust tiltækjuð tiltók tiltókst tiltóku tiltókum tiltókumst tiltókust tiltókuð tiltökum tiltökumst
+80	980	veggur	vegg veggi veggina vegginn veggir veggirnir veggja veggjanna veggjar veggjarins veggjum veggjunum veggnum veggs veggsins veggurinn
+81	981	karlmaður	karlmann karlmanna karlmannanna karlmanni karlmanninn karlmanninum karlmanns karlmannsins karlmaðurinn karlmenn karlmennina karlmennirnir karlmönnum karlmönnunum
+82	982	sanna	sannandi sannar sannarðu sannast sannað sannaða sannaðan sannaðar sannaði sannaðir sannaðirðu sannaðist sannaðra sannaðrar sannaðri sannaðs sannaðu sannaður sanni sannir sannist sannið sönnum sönnumst sönnur sönnuð sönnuðu sönnuðum sönnuðumst sönnuðust sönnuðuð
+83	983	afmæli	afmæla afmælanna afmælin afmælinu afmælis afmælisins afmælið afmælum afmælunum
+84	984	fæðast	fæddist fæddumst fæddust fæðist fæðst fæðumst
+85	985	króna	krónan krónanna krónu krónum krónuna krónunnar krónunni krónunum krónur krónurnar
+86	986	menning	menninga menninganna menningar menningarinnar menningarnar menningin menningu menningum menninguna menningunni menningunum
+87	987	fröken	frökena frökenanna frökenar frökenarinnar frökenarnar frökenin frökenina frökeninni frökenum frökenunum
+88	988	tvisvar	
+89	989	eiginkona	eiginkonan eiginkonu eiginkonum eiginkonuna eiginkonunnar eiginkonunni eiginkonunum eiginkonur eiginkonurnar eiginkvenna eiginkvennanna
+90	990	heppinn	heppin heppinna heppinnar heppinni heppins heppið heppna heppnar heppnara heppnari heppnast heppnasta heppnastan heppnastar heppnasti heppnastir heppnastra heppnastrar heppnastri heppnasts heppnastur heppni heppnir heppnu heppnum heppnust heppnustu heppnustum
+91	991	aðstæður	aðstæðna aðstæðnanna aðstæðum aðstæðunum aðstæðurnar
+92	992	mót	móta mótanna móti mótin mótinu mótið móts mótsins mótum mótunum
+93	993	vestur	vestar vestast vestri vestrinu vestrið vesturs vestursins
+94	994	atkvæði	atkvæða atkvæðanna atkvæðin atkvæðinu atkvæðis atkvæðisins atkvæðið atkvæðum atkvæðunum
+95	995	kraftur	kraft krafta kraftana kraftanna kraftar kraftarnir krafti kraftinn kraftinum krafts kraftsins krafturinn kröftum kröftunum
+96	996	heitur	heit heitan heitar heitara heitari heitast heitasta heitastan heitastar heitasti heitastir heitastra heitastrar heitastri heitasts heitastur heiti heitinu heitir heitra heitrar heitri heits heitt heitu heitum heitunum heitust heitustu heitustum
+97	997	sannleiki	sannleika sannleikann sannleikans sannleikanum sannleikinn
+98	998	hefðbundinn	hefðbundin hefðbundinna hefðbundinnar hefðbundinni hefðbundins hefðbundið hefðbundna hefðbundnar hefðbundnara hefðbundnari hefðbundnast hefðbundnasta hefðbundnastan hefðbundnastar hefðbundnasti hefðbundnastir hefðbundnastra hefðbundnastrar hefðbundnastri hefðbundnasts hefðbundnastur hefðbundni hefðbundnir hefðbundnu hefðbundnum hefðbundnust hefðbundnustu hefðbundnustum
+99	999	anda	andandi andar andað andaði andaðir andaðu andi andir andið öndum önduðu önduðum önduðuð
+100	1000	tilheyra	tilheyrandi tilheyri tilheyrir tilheyrið tilheyrt tilheyrum tilheyrði tilheyrðir tilheyrðu tilheyrðum tilheyrðuð

@@ -1,0 +1,100 @@
+1	601	næstum	
+2	602	opinber	opinbera opinberan opinberar opinberara opinberari opinberast opinberasta opinberastan opinberastar opinberasti opinberastir opinberastra opinberastrar opinberastri opinberasts opinberastur opinberi opinberir opinberra opinberrar opinberri opinbers opinbert opinberu opinberum opinberust opinberustu opinberustum
+3	603	einfaldur	einfalda einfaldan einfaldar einfaldara einfaldari einfaldast einfaldasta einfaldastan einfaldastar einfaldasti einfaldastir einfaldastra einfaldastrar einfaldastri einfaldasts einfaldastur einfaldi einfaldir einfaldra einfaldrar einfaldri einfalds einfalt einföld einföldu einföldum einföldust einföldustu einföldustum
+4	604	ókei	
+5	605	bless	
+6	606	tegund	tegunda tegundanna tegundar tegundarinnar tegundin tegundina tegundinni tegundir tegundirnar tegundum tegundunum
+7	607	skera	skar skarst skarstu sker skerandi skerast skeri skerir skerist skerið skerst skerstu skerum skerumst skerð skerðu skorin skorinn skorinna skorinnar skorinni skorins skorist skorið skorna skornar skorni skornir skornu skornum skáru skárum skárumst skárust skáruð skæri skærir skærist skæru skærum skærumst skærust skæruð skör
+8	608	öruggur	örugg örugga öruggan öruggar öruggara öruggari öruggast öruggasta öruggastan öruggastar öruggasti öruggastir öruggastra öruggastrar öruggastri öruggasts öruggastur öruggi öruggir öruggra öruggrar öruggri öruggs öruggt öruggu öruggum öruggust öruggustu öruggustum
+9	609	jafnframt	
+10	610	trú	trúa trúar trúarinnar trúin trúm trúna trúnna trúnni trúnum trúr trúrnar
+11	611	stela	stal stalst stalstu stel stelandi stelast steldu steli stelir stelirðu stelist stelið stelst stelstu stelum stelumst stelur stelurðu stolin stolinn stolinna stolinnar stolinni stolins stolist stolið stolna stolnar stolni stolnir stolnu stolnum stálu stálum stálumst stálust stáluð stæli stælir stælirðu stælist stælu stælum stælumst stælust stæluð
+12	612	stöðva	stöðvandi stöðvar stöðvast stöðvað stöðvaða stöðvaðan stöðvaðar stöðvaði stöðvaðir stöðvaðist stöðvaðra stöðvaðrar stöðvaðri stöðvaðs stöðvaðu stöðvaður stöðvi stöðvir stöðvist stöðvið stöðvum stöðvumst stöðvuð stöðvuðu stöðvuðum stöðvuðumst stöðvuðust stöðvuðuð
+13	613	hringur	hring hringa hringana hringanna hringar hringarnir hringað hringi hringina hringinn hringir hringirnir hringja hringjanna hringjum hringjunum hringnum hrings hringsins hringum hringunum hringurinn
+14	614	hefð	hefða hefðanna hefðar hefðarinnar hefðin hefðina hefðinni hefðir hefðirnar hefðum hefðunum
+15	615	kerfi	kerfa kerfanna kerfin kerfinu kerfis kerfisins kerfið kerfum kerfunum
+16	616	gata	gatan gatandi gatar gatast gatað gataða gataðan gataðar gataði gataðir gataðist gataðra gataðrar gataðri gataðs gataðu gataður gati gatir gatist gatið gatna gatnanna götu götum götumst götuna götunnar götunni götunum götur göturnar götuð götuðu götuðum götuðumst götuðust götuðuð
+17	617	röð	raða raðanna raðar raðarinnar raðir raðirnar röðin röðina röðinni röðum röðunum
+18	618	dyr	dyra dyranna dyrnar dyrum dyrunum
+19	619	banki	banka bankana bankann bankanna bankans bankanum bankar bankarnir bankinn bönkum bönkunum
+20	620	númer	númera númeranna númeraðar númeri númerin númerinu númerið númers númersins númerum númerunum númeruð
+21	621	íbúi	íbúa íbúana íbúann íbúanna íbúans íbúanum íbúar íbúarnir íbúinn íbúum íbúunum
+22	622	vonandi	
+23	623	hratt	hraðar hraðara hraðast
+24	624	vor	vora voranna vorar vori vorin vorinu vorir vorið vorn vorra vorrar vorri vors vorsins vort voru vorum vorunum
+25	625	kjósa	kaus kaust kaustu kjósandi kjósi kjósir kjósirðu kjósið kjóstu kjósum kosin kosinn kosinna kosinnar kosinni kosins kosið kosna kosnar kosni kosnir kosnu kosnum kusu kusum kusuð kysi kysir kysirðu kysu kysum kysuð kýs kýst kýstu
+26	626	rúm	rúma rúmanna rúmi rúmin rúminu rúmið rúms rúmsins rúmum rúmunum
+27	627	manneskja	manneskjan manneskjanna manneskju manneskjum manneskjuna manneskjunnar manneskjunni manneskjunum manneskjur manneskjurnar
+28	628	örugglega	örugglegar örugglegast
+29	629	bréf	bréfa bréfanna bréfi bréfin bréfinu bréfið bréfs bréfsins bréfum bréfunum
+30	630	birtast	birst birtist birtistu birtumst birtust
+31	631	draumur	draum drauma draumana draumanna draumar draumarnir draumi drauminn drauminum draumnum draums draumsins draumum draumunum draumurinn
+32	632	vandi	vanda vandann vandans vandanum vandinn
+33	633	fást	fengist fengistu fengjumst fengjust fengumst fengust fáist fáistu fástu fáumst fæst fæstu fékkst fékkstu
+34	634	snerta	snerst snert snertan snertandi snertar snertast snerti snertir snertirðu snertist snertið snertra snertrar snertri snerts snertu snertum snertumst snertur snertust snertuð snortin snortinn snortinna snortinnar snortinni snortins snortið snortna snortnar snortni snortnir snortnu snortnum
+35	635	tilfinning	tilfinninga tilfinninganna tilfinningar tilfinningarinnar tilfinningarnar tilfinningin tilfinningu tilfinningum tilfinninguna tilfinningunni tilfinningunum
+36	636	vakna	vaknandi vaknar vaknað vaknaða vaknaðan vaknaðar vaknaði vaknaðir vaknaðra vaknaðrar vaknaðri vaknaðs vaknaðu vaknaður vakni vaknir vaknið vöknum vöknuð vöknuðu vöknuðum vöknuðuð
+37	637	plata	platan platandi platar platarðu platast platað plataða plataðan plataðar plataði plataðir plataðist plataðra plataðrar plataðri plataðs plataðu plataður plati platir platist platið platna platnanna plötu plötum plötumst plötuna plötunnar plötunni plötunum plötur plöturnar plötuð plötuðu plötuðum plötuðumst plötuðust plötuðuð
+38	638	fljúga	flaug flaugst flaugstu fljúgandi fljúgast fljúgi fljúgir fljúgirðu fljúgist fljúgið fljúgstu fljúgum fljúgumst fljúgðu flogin floginn floginna floginnar floginni flogins flogist flogið flogna flognar flogni flognir flognu flognum flugu flugum flugumst flugust fluguð flygi flygir flygirðu flygist flygju flygjum flygjumst flygjust flygjuð flýg flýgst flýgur flýgurðu
+39	639	fljótur	fljót fljóta fljótan fljótar fljótara fljótari fljótast fljótasta fljótastan fljótastar fljótasti fljótastir fljótastra fljótastrar fljótastri fljótasts fljótastur fljóti fljótir fljótra fljótrar fljótri fljóts fljótt fljótu fljótum fljótust fljótustu fljótustum
+40	640	safna	safnandi safnar safnarðu safnast safnað safnaða safnaðan safnaðar safnaði safnaðir safnaðist safnaðra safnaðrar safnaðri safnaðs safnaðu safnaður safni safnir safnist safnið söfnum söfnumst söfnuð söfnuðu söfnuðum söfnuðumst söfnuðust söfnuðuð
+41	641	fastur	fast fasta fastan fastar fastara fastari fastast fastasta fastastan fastastar fastasti fastastir fastastra fastastrar fastastri fastasts fastastur fasti fastir fastra fastrar fastri fasts föst föstu föstum föstust föstustu föstustum
+42	642	hrifinn	hrifin hrifinna hrifinnar hrifinni hrifins hrifið hrifna hrifnar hrifnara hrifnari hrifnast hrifnasta hrifnastan hrifnastar hrifnasti hrifnastir hrifnastra hrifnastrar hrifnastri hrifnasts hrifnastur hrifni hrifnir hrifnu hrifnum hrifnust hrifnustu hrifnustum
+43	643	ríða	reið reiðst reiðstu riði riðin riðinn riðinna riðinnar riðinni riðins riðir riðirðu riðið riðna riðnar riðni riðnir riðnu riðnum riðu riðum riðuð ríddu ríð ríðandi ríði ríðir ríðirðu ríðið ríðum ríður ríðurðu
+44	644	hreinn	hrein hreina hreinan hreinana hreinanna hreinar hreinarnir hreinast hreinasta hreinastan hreinastar hreinasti hreinastir hreinastra hreinastrar hreinastri hreinasts hreinastur hreini hreininn hreininum hreinir hreinna hreinnar hreinni hreinninn hreins hreinsins hreint hreinu hreinum hreinunum hreinust hreinustu hreinustum
+45	645	hugi	huga hugana hugann huganna hugans huganum hugar hugarnir huginn hugum hugunum
+46	646	kringum	
+47	647	einungis	
+48	648	illur	ill illa illan illar illi illir illra illrar illri ills illt illu illum verra verri verst versta verstan verstar versti verstir verstra verstrar verstri versts verstu verstum verstur
+49	649	rétta	rést rétt réttan réttandi réttar réttast réttað réttaða réttaðan réttaðar réttaði réttaðir réttaðist réttaðra réttaðrar réttaðri réttaðs réttaðu réttaður rétti réttir réttist réttið réttra réttrar réttri rétts réttu réttum réttumst réttuna réttunnar réttunni réttur réttust réttuð réttuðu réttuðum réttuðumst réttuðust réttuðuð
+50	650	kosta	kostandi kostar kostarðu kostast kostað kostaða kostaðan kostaðar kostaði kostaðir kostaðist kostaðra kostaðrar kostaðri kostaðs kostaðu kostaður kosti kostir kostist kostið kostum kostumst kostuð kostuðu kostuðum kostuðumst kostuðust kostuðuð
+51	651	fiskur	fisk fiska fiskana fiskanna fiskar fiskarnir fiski fiskinn fiskinum fisknum fisks fisksins fiskum fiskunum fiskurinn
+52	652	desember	
+53	653	mismunandi	
+54	654	áratugur	áratug áratuga áratuganna áratugar áratugarins áratugi áratugina áratuginn áratugir áratugirnir áratugnum áratugum áratugunum áratugurinn
+55	655	útgáfa	útgáfan útgáfna útgáfnanna útgáfu útgáfum útgáfuna útgáfunnar útgáfunni útgáfunum útgáfur útgáfurnar
+56	656	auðveldur	auðveld auðvelda auðveldan auðveldar auðveldara auðveldari auðveldast auðveldasta auðveldastan auðveldastar auðveldasti auðveldastir auðveldastra auðveldastrar auðveldastri auðveldasts auðveldastur auðveldi auðveldir auðveldra auðveldrar auðveldri auðvelds auðveldu auðveldum auðveldust auðveldustu auðveldustum auðvelt
+57	657	grænn	græn græna grænan grænar grænast grænasta grænastan grænastar grænasti grænastir grænastra grænastrar grænastri grænasts grænastur græni grænir grænna grænnar grænni græns grænt grænu grænum grænust grænustu grænustum
+58	658	norður	norðar norðri norðrinu norðrið norðurs norðursins nyrst
+59	659	júlí	
+60	660	náungi	náunga náungana náungann náunganna náungans náunganum náungar náungarnir náunginn náungum náungunum
+61	661	elta	elst elt eltan eltandi eltar eltast elti eltir eltirðu eltist eltið eltra eltrar eltri elts eltu eltum eltumst eltur eltust eltuð
+62	662	febrúar	
+63	663	eldur	eld elda eldana eldanna eldar eldarnir eldi eldinn eldinum elds eldsins eldum eldunum eldurinn
+64	664	baka	bakan bakandi bakanna bakar bakarðu bakast bakað bakaða bakaðan bakaðar bakaði bakaðir bakaðirðu bakaðist bakaðra bakaðrar bakaðri bakaðs bakaðu bakaður baki bakir bakist bakið bakna baknanna böku bökum bökumst bökuna bökunnar bökunni bökunum bökur bökurnar bökuð bökuðu bökuðum bökuðumst bökuðust bökuðuð
+65	665	dauði	dauða dauðann dauðanum dauðinn
+66	666	líkami	líkama líkamana líkamann líkamanna líkamans líkamanum líkamar líkamarnir líkaminn líkams líkömum líkömunum
+67	667	svar	svara svaranna svari svarinu svarið svars svarsins svör svörin svörum svörunum
+68	668	handtaka	handtakan handtakandi handtakanna handtaki handtakir handtakið handtakna handtaknanna handtaktu handtek handtekin handtekinn handtekinna handtekinnar handtekinni handtekins handtekið handtekna handteknar handtekni handteknir handteknu handteknum handtekur handtekurðu handtæki handtækir handtækju handtækjum handtækjuð handtók handtókst handtókstu handtóku handtókum handtókuð handtöku handtökum handtökuna handtökunnar handtökunni handtökunum handtökur handtökurnar
+69	669	andskoti	andskota andskotana andskotann andskotanna andskotans andskotanum andskotar andskotarnir andskotinn andskotum andskotunum
+70	670	sprengja	sprengd sprengda sprengdan sprengdar sprengdi sprengdir sprengdirðu sprengdra sprengdrar sprengdri sprengds sprengdu sprengdum sprengdur sprengduð sprengi sprengir sprengirðu sprengið sprengjan sprengjandi sprengjanna sprengju sprengjum sprengjuna sprengjunnar sprengjunni sprengjunum sprengjur sprengjurnar sprengna sprengnanna sprengt
+71	671	benda	bendan bendandi bendanna bendast bendi bendir bendið bendna bendnanna bendu bendum benduna bendunnar bendunni bendunum bendur bendurnar benst bent benta bentan bentar benti bentir bentirðu bentra bentrar bentri bents bentu bentum bentur bentuð
+72	672	nógu	
+73	673	éta	ást ástu át átu átum átumst átust átuð æti ætir ætirðu ætist ætu ætum ætumst ætust ætuð ést ét étandi étast éti étin étinn étinna étinnar étinni étins étir étirðu étist étið étiði étna étnar étni étnir étnu étnum éttu étum étumst étur éturðu
+74	674	stofna	stofnandi stofnar stofnast stofnað stofnaða stofnaðan stofnaðar stofnaði stofnaðir stofnaðirðu stofnaðist stofnaðra stofnaðrar stofnaðri stofnaðs stofnaðu stofnaður stofni stofnir stofnirðu stofnist stofnið stofnum stofnumst stofnuð stofnuðu stofnuðum stofnuðumst stofnuðust stofnuðuð
+75	675	laga	lagandi lagar lagarðu lagast lagað lagaða lagaðan lagaðar lagaði lagaðir lagaðirðu lagaðist lagaðra lagaðrar lagaðri lagaðs lagaðu lagaður lagi lagir lagist lagið lögum lögumst löguð löguðu löguðum löguðumst löguðust löguðuð
+76	676	metri	metra metrana metrann metranna metrans metranum metrar metrarnir metrinn metrum metrunum
+77	677	bygging	bygginga bygginganna byggingar byggingarinnar byggingarnar byggingin byggingu byggingum bygginguna byggingunni byggingunum
+78	678	laus	lausa lausan lausar lausara lausari lausast lausasta lausastan lausastar lausasti lausastir lausastra lausastrar lausastri lausasts lausastur lausi lausir lausra lausrar lausri lauss laust lausu lausum lausust lausustu lausustum
+79	679	sveitarfélag	sveitarfélaga sveitarfélaganna sveitarfélagi sveitarfélaginu sveitarfélagið sveitarfélags sveitarfélagsins sveitarfélög sveitarfélögin sveitarfélögum sveitarfélögunum
+80	680	frjáls	frjálsa frjálsan frjálsar frjálsara frjálsari frjálsast frjálsasta frjálsastan frjálsastar frjálsasti frjálsastir frjálsastra frjálsastrar frjálsastri frjálsasts frjálsastur frjálsi frjálsir frjálsra frjálsrar frjálsri frjálst frjálsu frjálsum frjálsust frjálsustu frjálsustum
+81	681	vaxa	uxu uxum uxuð vaxandi vaxar vaxað vaxaða vaxaðan vaxaðar vaxaði vaxaðir vaxaðra vaxaðrar vaxaðri vaxaðs vaxaðu vaxaður vaxi vaxin vaxinn vaxinna vaxinnar vaxinni vaxins vaxir vaxirðu vaxið vaxna vaxnar vaxni vaxnir vex vext vextu vöxnu vöxnum vöxum vöxuð vöxuðu vöxuðum vöxuðuð yxi yxir yxirðu yxu yxum yxuð óx óxt óxtu
+82	682	gestur	gest gesta gestanna gesti gestina gestinn gestinum gestir gestirnir gests gestsins gestum gestunum gesturinn
+83	683	aðferð	aðferða aðferðanna aðferðar aðferðarinnar aðferðin aðferðina aðferðinni aðferðir aðferðirnar aðferðum aðferðunum
+84	684	erlendur	erlend erlenda erlendan erlendar erlendi erlendir erlendra erlendrar erlendri erlends erlendu erlendum erlent
+85	685	myrða	myrt myrta myrtan myrtar myrti myrtir myrtirðu myrtra myrtrar myrtri myrts myrtu myrtum myrtur myrtuð myrðandi myrði myrðir myrðið myrðum
+86	686	stærð	stærða stærðanna stærðar stærðarinnar stærðin stærðina stærðinni stærðir stærðirnar stærðum stærðunum
+87	687	aka	akandi akast aki akir akirðu akist akið aktu ek ekin ekinn ekinna ekinnar ekinni ekins ekist ekið ekna eknar ekni eknir eknu eknum ekst ekur ekurðu æki ækir ækirðu ækist ækju ækjum ækjumst ækjust ækjuð ók ókst ókstu óku ókum ókumst ókust ókuð ökum ökumst
+88	688	afar	
+89	689	greina	greinandi greinast greind greinda greindan greindar greindi greindir greindist greindra greindrar greindri greinds greindu greindum greindumst greindur greindust greinduð greini greinir greinist greinið greinst greint greinum greinumst
+90	690	kaldur	kalda kaldan kaldar kaldara kaldari kaldast kaldasta kaldastan kaldastar kaldasti kaldastir kaldastra kaldastrar kaldastri kaldasts kaldastur kaldi kaldir kaldra kaldrar kaldri kalds kalt köld köldu köldum köldust köldustu köldustum
+91	691	líkja	líki líkir líkist líkistu líkið líkjandi líkjast líkjum líkjumst líkst líkt líkta líktan líktar líkti líktir líktist líktra líktrar líktri líkts líktu líktum líktumst líktur líktust líktuð
+92	692	brenna	brann brannst brannstu brenn brennan brennandi brennanna brennast brennd brennda brenndan brenndar brenndi brenndir brenndist brenndra brenndrar brenndri brennds brenndu brenndum brenndumst brenndur brenndust brennduð brenni brennir brennirðu brennist brennið brennst brennt brennu brennum brennumst brennuna brennunnar brennunni brennunum brennur brennurnar brennurðu brunna brunnar brunni brunnin brunninn brunninna brunninnar brunninni brunnins brunnir brunnið brunnu brunnum brunnuð brynni brynnir brynnirðu brynnu brynnum brynnuð
+93	693	anna	annandi annar annast annastu annað annaði annaðir annaðist annaðu anni annir annist annið önnum önnumst önnuðu önnuðum önnuðumst önnuðust önnuðuð
+94	694	skrifstofa	skrifstofan skrifstofanna skrifstofu skrifstofum skrifstofuna skrifstofunnar skrifstofunni skrifstofunum skrifstofur skrifstofurnar
+95	695	ótrúlegur	ótrúleg ótrúlega ótrúlegan ótrúlegar ótrúlegast ótrúlegasta ótrúlegastan ótrúlegastar ótrúlegasti ótrúlegastir ótrúlegastra ótrúlegastrar ótrúlegastri ótrúlegasts ótrúlegastur ótrúlegi ótrúlegir ótrúlegra ótrúlegrar ótrúlegri ótrúlegs ótrúlegt ótrúlegu ótrúlegum ótrúlegust ótrúlegustu ótrúlegustum
+96	696	litur	lit lita litan litanna litar litara litari litarins litast litasta litastan litastar litasti litastir litastra litastrar litastri litasts litastur liti litina litinn litir litirnir litnum litra litrar litri lits litt litu litum litunum liturinn litust litustu litustum
+97	697	búast	bjuggumst bjuggust bjóst bjóstu byggist byggistu byggjumst byggjust búist búistu bústu búumst býst býstu
+98	698	ævi	æva ævanna ævin ævina ævinnar ævinni ævir ævirnar ævum ævunum
+99	699	víða	víðar víðast
+100	700	þing	þinga þinganna þingi þingin þinginu þingið þings þingsins þingum þingunum

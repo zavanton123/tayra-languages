@@ -1,0 +1,100 @@
+1	8201	lárétt	
+2	8202	gutti	gutta guttana guttann guttanna guttans guttanum guttar guttarnir guttinn guttum guttunum
+3	8203	stundaskrá	stundaskráa stundaskráin stundaskrám stundaskrána stundaskránna stundaskránni stundaskránum stundaskrár stundaskrárinnar stundaskrárnar
+4	8204	sögusvið	sögusviða sögusviðanna sögusviði sögusviðin sögusviðinu sögusviðið sögusviðs sögusviðsins sögusviðum sögusviðunum
+5	8205	starfsregla	starfsreglan starfsreglanna starfsreglna starfsreglnanna starfsreglu starfsreglum starfsregluna starfsreglunnar starfsreglunni starfsreglunum starfsreglur starfsreglurnar
+6	8206	sláandi	
+7	8207	betlehem	
+8	8208	uppistand	uppistandi uppistandinu uppistandið uppistands uppistandsins
+9	8209	kvíði	kvíða kvíðann kvíðans kvíðanum kvíðinn
+10	8210	þátttökuréttur	þátttökurétt þátttökuréttar þátttökuréttarins þátttökurétti þátttökuréttinn þátttökuréttinum þátttökurétturinn
+11	8211	sviðsetja	sviðset sviðsetjandi sviðsetji sviðsetjir sviðsetjið sviðsetjum sviðsett sviðsetta sviðsettan sviðsettar sviðsetti sviðsettir sviðsettra sviðsettrar sviðsettri sviðsetts sviðsettu sviðsettum sviðsettur sviðsettuð sviðsetur
+12	8212	bani	bana banana banann bananna banans bananum banar banarnir baninn bönum bönunum
+13	8213	handknattleikur	handknattleik handknattleiki handknattleikina handknattleikinn handknattleikir handknattleikirnir handknattleikja handknattleikjanna handknattleikjum handknattleikjunum handknattleiknum handknattleiks handknattleiksins handknattleikurinn
+14	8214	kennslufræði	kennslufræðin kennslufræðina kennslufræðinnar kennslufræðinni
+15	8215	kjós	kjósanna kjósar kjósarinnar kjósin kjósina kjósinni kjósir kjósirnar kjósum kjósunum
+16	8216	teikn	teikna teiknanna teikni teiknin teikninu teiknið teikns teiknsins teiknum teiknunum
+17	8217	útblástur	útblásturinn útblásturs útblástursins útblæstri útblæstrinum
+18	8218	láréttur	lárétt lárétta láréttan láréttar láréttara láréttari láréttast láréttasta láréttastan láréttastar láréttasti láréttastir láréttastra láréttastrar láréttastri láréttasts láréttastur lárétti láréttir láréttra láréttrar láréttri lárétts láréttu láréttum láréttust láréttustu láréttustum
+19	8219	stórglæsilegur	stórglæsileg stórglæsilega stórglæsilegan stórglæsilegar stórglæsilegast stórglæsilegasta stórglæsilegastan stórglæsilegastar stórglæsilegasti stórglæsilegastir stórglæsilegastra stórglæsilegastrar stórglæsilegastri stórglæsilegasts stórglæsilegastur stórglæsilegi stórglæsilegir stórglæsilegra stórglæsilegrar stórglæsilegri stórglæsilegs stórglæsilegt stórglæsilegu stórglæsilegum stórglæsilegust stórglæsilegustu stórglæsilegustum
+20	8220	afstaðinn	afstaðin afstaðinna afstaðinnar afstaðinni afstaðins afstaðið afstaðna afstaðnar afstaðni afstaðnir afstöðnu afstöðnum
+21	8221	fríðindi	fríðinda fríðindanna fríðindin fríðindum fríðindunum
+22	8222	stinnur	stinn stinna stinnan stinnar stinnara stinnari stinnast stinnasta stinnastan stinnastar stinnasti stinnastir stinnastra stinnastrar stinnastri stinnasts stinnastur stinni stinnir stinnra stinnrar stinnri stinns stinnt stinnu stinnum stinnust stinnustu stinnustum
+23	8223	stórhrifinn	stórhrifin stórhrifinna stórhrifinnar stórhrifinni stórhrifins stórhrifið stórhrifna stórhrifnar stórhrifni stórhrifnir stórhrifnu stórhrifnum
+24	8224	einslega	
+25	8225	líftóra	líftóran líftóru líftóruna líftórunnar líftórunni
+26	8226	veðurdagur	veðurdag veðurdaginn veðurdags veðurdagsins veðurdagurinn veðurdegi veðurdeginum
+27	8227	sveindómur	sveindóm sveindómi sveindóminn sveindóminum sveindómnum sveindóms sveindómsins sveindómurinn
+28	8228	gáfnaljós	gáfnaljósa gáfnaljósanna gáfnaljósi gáfnaljósin gáfnaljósinu gáfnaljósið gáfnaljóss gáfnaljóssins gáfnaljósum gáfnaljósunum
+29	8229	kjaftaskur	kjaftask kjaftaska kjaftaskana kjaftaskanna kjaftaskar kjaftaskarnir kjaftaski kjaftaskinn kjaftaskinum kjaftasks kjaftasksins kjaftaskurinn kjaftöskum kjaftöskunum
+30	8230	skítverk	skítverka skítverkanna skítverki skítverkin skítverkinu skítverkið skítverks skítverksins skítverkum skítverkunum
+31	8231	sjóari	sjóara sjóarana sjóarann sjóaranna sjóarans sjóaranum sjóarar sjóararnir sjóarinn sjóurum sjóurunum
+32	8232	hyldýpi	hyldýpinu hyldýpis hyldýpisins hyldýpið
+33	8233	nisti	nista nistanna nistin nistinu nistis nistisins nistið nistum nistunum
+34	8234	þakíbúð	þakíbúða þakíbúðanna þakíbúðar þakíbúðarinnar þakíbúðin þakíbúðina þakíbúðinni þakíbúðir þakíbúðirnar þakíbúðum þakíbúðunum
+35	8235	sjálfsöruggur	sjálfsörugg sjálfsörugga sjálfsöruggan sjálfsöruggar sjálfsöruggara sjálfsöruggari sjálfsöruggast sjálfsöruggasta sjálfsöruggastan sjálfsöruggastar sjálfsöruggasti sjálfsöruggastir sjálfsöruggastra sjálfsöruggastrar sjálfsöruggastri sjálfsöruggasts sjálfsöruggastur sjálfsöruggi sjálfsöruggir sjálfsöruggra sjálfsöruggrar sjálfsöruggri sjálfsöruggs sjálfsöruggt sjálfsöruggu sjálfsöruggum sjálfsöruggust sjálfsöruggustu sjálfsöruggustum
+36	8236	regin	regina reginanna reginin reginum reginunum
+37	8237	soldán	soldána soldánana soldánanna soldánar soldánarnir soldáninn soldáninum soldáns soldánsins soldánum soldánunum
+38	8238	gæla	gælan gælandi gældi gældir gældu gældum gælduð gæli gælir gælið gælna gælnanna gælt gælu gælum gæluna gælunnar gælunni gælunum gælur gælurnar
+39	8239	ávani	ávana ávanana ávanann ávananna ávanans ávananum ávanar ávanarnir ávaninn ávönum ávönunum
+40	8240	slátur	slátra slátranna slátri slátrin slátrinu slátrið slátrum slátrunum sláturs slátursins
+41	8241	háll	hál hála hálan hálar hálara hálari hálast hálasta hálastan hálastar hálasti hálastir hálastra hálastrar hálastri hálasts hálastur háli hálir hálla hállar hálli háls hált hálu hálum hálust hálustu hálustum
+42	8242	hörund	hörundi hörundinu hörundið hörunds hörundsins
+43	8243	bæli	bæla bælanna bælin bælinu bælis bælisins bælið bælum bælunum
+44	8244	frostmark	frostmarki frostmarkinu frostmarkið frostmarks frostmarksins
+45	8245	kostnaðarsamur	kostnaðarsama kostnaðarsaman kostnaðarsamar kostnaðarsamara kostnaðarsamari kostnaðarsamast kostnaðarsamasta kostnaðarsamastan kostnaðarsamastar kostnaðarsamasti kostnaðarsamastir kostnaðarsamastra kostnaðarsamastrar kostnaðarsamastri kostnaðarsamasts kostnaðarsamastur kostnaðarsami kostnaðarsamir kostnaðarsamra kostnaðarsamrar kostnaðarsamri kostnaðarsams kostnaðarsamt kostnaðarsöm kostnaðarsömu kostnaðarsömum kostnaðarsömust kostnaðarsömustu kostnaðarsömustum
+46	8246	bomba	bomban bombanna bombna bombnanna bombu bombum bombuna bombunnar bombunni bombunum bombur bomburnar
+47	8247	fyrirstaða	fyrirstaðan fyrirstaðanna fyrirstaðna fyrirstaðnanna fyrirstöðu fyrirstöðum fyrirstöðuna fyrirstöðunnar fyrirstöðunni fyrirstöðunum fyrirstöður fyrirstöðurnar
+48	8248	gró	gróa gróanna grói gróin gróinu gróið grós grósins gróum gróunum
+49	8249	klór	klóri klórinn klórinu klórið klórnum klórs klórsins
+50	8250	hnattrænn	hnattræn hnattræna hnattrænan hnattrænar hnattrænast hnattrænasta hnattrænastan hnattrænastar hnattrænasti hnattrænastir hnattrænastra hnattrænastrar hnattrænastri hnattrænasts hnattrænastur hnattræni hnattrænir hnattrænna hnattrænnar hnattrænni hnattræns hnattrænt hnattrænu hnattrænum hnattrænust hnattrænustu hnattrænustum
+51	8251	kvennalið	kvennaliða kvennaliðanna kvennaliði kvennaliðin kvennaliðinu kvennaliðið kvennaliðs kvennaliðsins kvennaliðum kvennaliðunum
+52	8252	hrund	hrunda hrundanna hrundar hrundarinnar hrundin hrundina hrundinni hrundir hrundirnar hrundum hrundunum
+53	8253	förðun	farðana farðananna farðanir farðanirnar förðunar förðunarinnar förðunin förðunina förðuninni förðunum förðununum
+54	8254	fyrirboði	fyrirboða fyrirboðana fyrirboðann fyrirboðanna fyrirboðans fyrirboðanum fyrirboðar fyrirboðarnir fyrirboðinn fyrirboðum fyrirboðunum
+55	8255	úrlausn	úrlausna úrlausnanna úrlausnar úrlausnarinnar úrlausnin úrlausnina úrlausninni úrlausnir úrlausnirnar úrlausnum úrlausnunum
+56	8256	burður	burð burða burðanna burðar burðarins burði burðina burðinn burðinum burðir burðirnir burðum burðunum burðurinn
+57	8257	aðildarviðræður	aðildarviðræðna aðildarviðræðnanna aðildarviðræðum aðildarviðræðunum aðildarviðræðurnar
+58	8258	persónuvernd	persónuverndar persónuverndarinnar persónuverndin persónuverndina persónuverndinni
+59	8259	starfsframi	starfsframa starfsframann starfsframans starfsframanum starfsframinn
+60	8260	dilla	dillan dillandi dillanna dillar dillað dillaða dillaðan dillaðar dillaði dillaðir dillaðra dillaðrar dillaðri dillaðs dillaðu dillaður dilli dillir dillið dillna dillnanna dillu dillum dilluna dillunnar dillunni dillunum dillur dillurnar dilluð dilluðu dilluðum dilluðuð
+61	8261	bókun	bókana bókananna bókanir bókanirnar bókunar bókunarinnar bókunin bókunina bókuninni bókunum bókununum
+62	8262	kóralrif	kóralrifa kóralrifanna kóralrifi kóralrifin kóralrifinu kóralrifið kóralrifja kóralrifjanna kóralrifjum kóralrifjunum kóralrifs kóralrifsins kóralrifum kóralrifunum
+63	8263	stólpi	stólpa stólpana stólpann stólpanna stólpans stólpanum stólpar stólparnir stólpinn stólpum stólpunum
+64	8264	miðlægur	miðlæg miðlæga miðlægan miðlægar miðlægi miðlægir miðlægra miðlægrar miðlægri miðlægs miðlægt miðlægu miðlægum
+65	8265	heimssýn	heimssýnar heimssýnarinnar heimssýnin heimssýnina heimssýninni
+66	8266	ábúandi	ábúanda ábúandann ábúandans ábúandanum ábúandinn ábúenda ábúendanna ábúendum ábúendunum ábúendur ábúendurna ábúendurnir
+67	8267	skellur	skell skella skellanna skelli skellina skellinn skellinum skellir skellirnir skells skellsins skellum skellunum skellurinn
+68	8268	jarðhæð	jarðhæða jarðhæðanna jarðhæðar jarðhæðarinnar jarðhæðin jarðhæðina jarðhæðinni jarðhæðir jarðhæðirnar jarðhæðum jarðhæðunum
+69	8269	iðrun	iðrunar iðrunarinnar iðrunin iðrunina iðruninni
+70	8270	kokteill	kokteil kokteila kokteilana kokteilanna kokteilar kokteilarnir kokteilinn kokteillinn kokteilnum kokteils kokteilsins kokteilum kokteilunum
+71	8271	endurskrifa	endurskrifandi endurskrifar endurskrifast endurskrifað endurskrifaða endurskrifaðan endurskrifaðar endurskrifaði endurskrifaðir endurskrifaðist endurskrifaðra endurskrifaðrar endurskrifaðri endurskrifaðs endurskrifaðu endurskrifaður endurskrifi endurskrifir endurskrifist endurskrifið endurskrifum endurskrifumst endurskrifuð endurskrifuðu endurskrifuðum endurskrifuðumst endurskrifuðust endurskrifuðuð
+72	8272	rafbíll	rafbíl rafbíla rafbílana rafbílanna rafbílar rafbílarnir rafbílinn rafbíllinn rafbílnum rafbíls rafbílsins rafbílum rafbílunum
+73	8273	listgrein	listgreina listgreinanna listgreinar listgreinarinnar listgreinarnar listgreinin listgreinina listgreininni listgreinum listgreinunum
+74	8274	grýla	grýlan grýlanna grýlna grýlnanna grýlu grýlum grýluna grýlunnar grýlunni grýlunum grýlur grýlurnar
+75	8275	rappa	rappandi rappar rappast rappað rappaða rappaðan rappaðar rappaði rappaðir rappaðist rappaðra rappaðrar rappaðri rappaðs rappaðu rappaður rappi rappir rappist rappið röppum röppumst röppuð röppuðu röppuðum röppuðumst röppuðust röppuðuð
+76	8276	mæða	mædd mædda mæddan mæddar mæddi mæddir mæddist mæddra mæddrar mæddri mædds mæddu mæddum mæddumst mæddur mæddust mædduð mætt mæðan mæðandi mæðast mæði mæðinni mæðir mæðist mæðið mæðst mæðu mæðum mæðumst mæðuna mæðunnar mæðunni
+77	8277	óendanlegur	óendanleg óendanlega óendanlegan óendanlegar óendanlegast óendanlegasta óendanlegastan óendanlegastar óendanlegasti óendanlegastir óendanlegastra óendanlegastrar óendanlegastri óendanlegasts óendanlegastur óendanlegi óendanlegir óendanlegra óendanlegrar óendanlegri óendanlegs óendanlegt óendanlegu óendanlegum óendanlegust óendanlegustu óendanlegustum
+78	8278	fontur	font fonta fontana fontanna fontar fontarnir fonti fontinn fontinum fonts fontsins fontum fontunum fonturinn
+79	8279	fagnaður	fagnað fagnaða fagnaðanna fagnaðar fagnaðarins fagnaði fagnaðina fagnaðinn fagnaðinum fagnaðir fagnaðirnir fagnaðnum fagnaðurinn fögnuðum fögnuðunum
+80	8280	dálæti	dálætinu dálætis dálætisins dálætið
+81	8281	kommi	komma kommana kommann kommanna kommans kommanum kommar kommarnir komminn kommum kommunum
+82	8282	upprennandi	
+83	8283	vala	valan valanna valna valnanna völu völum völuna völunnar völunni völunum völur völurnar
+84	8284	skapgerð	skapgerðar skapgerðarinnar skapgerðin skapgerðina skapgerðinni
+85	8285	aðför	aðfara aðfaranna aðfarar aðfararinnar aðfarir aðfarirnar aðförin aðförina aðförinni aðförum aðförunum
+86	8286	forskeyti	forskeyta forskeytanna forskeytin forskeytinu forskeytis forskeytisins forskeytið forskeytum forskeytunum
+87	8287	verkefnisstjóri	verkefnisstjóra verkefnisstjórana verkefnisstjórann verkefnisstjóranna verkefnisstjórans verkefnisstjóranum verkefnisstjórar verkefnisstjórarnir verkefnisstjórinn verkefnisstjórum verkefnisstjórunum
+88	8288	stjörnumerki	stjörnumerkin stjörnumerkinu stjörnumerkis stjörnumerkisins stjörnumerkið stjörnumerkja stjörnumerkjanna stjörnumerkjum stjörnumerkjunum
+89	8289	umsátur	umsátra umsátranna umsátri umsátrin umsátrinu umsátrið umsátrum umsátrunum umsáturs umsátursins
+90	8290	hættuástand	hættuástandi hættuástandinu hættuástandið hættuástands hættuástandsins
+91	8291	markvisst	
+92	8292	tónleikaferðalag	tónleikaferðalaga tónleikaferðalaganna tónleikaferðalagi tónleikaferðalaginu tónleikaferðalagið tónleikaferðalags tónleikaferðalagsins tónleikaferðalög tónleikaferðalögin tónleikaferðalögum tónleikaferðalögunum
+93	8293	opinskátt	
+94	8294	vottorð	vottorða vottorðanna vottorði vottorðin vottorðinu vottorðið vottorðs vottorðsins vottorðum vottorðunum
+95	8295	postulín	postulíni postulíninu postulínið postulíns postulínsins
+96	8296	huga	hugandi hugar hugast hugað hugaða hugaðan hugaðar hugaði hugaðir hugaðist hugaðra hugaðrar hugaðri hugaðs hugaðu hugaður hugi hugir hugist hugið hugum hugumst huguð huguðu huguðum huguðumst huguðust huguðuð
+97	8297	brons	bronsi bronsins bronsinu bronsið
+98	8298	hornsteinn	hornstein hornsteina hornsteinana hornsteinanna hornsteinar hornsteinarnir hornsteini hornsteininn hornsteininum hornsteinninn hornsteins hornsteinsins hornsteinum hornsteinunum
+99	8299	skafa	skafan skafandi skafanna skafast skafi skafin skafinn skafinna skafinnar skafinni skafins skafir skafirðu skafist skafið skafna skafnar skafni skafnir skafstu skafðu skef skefst skefur skefurðu skæfi skæfir skæfirðu skæfist skæfu skæfum skæfumst skæfust skæfuð skóf skófst skófstu skófu skófum skófumst skófust skófuð sköfnu sköfnum sköfu sköfum sköfumst sköfuna sköfunnar sköfunni sköfunum sköfur sköfurnar
+100	8300	breytni	breytnin breytnina breytninnar breytninni

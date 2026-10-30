@@ -1,0 +1,100 @@
+1	9301	afrita	afritandi afritar afritast afritastu afritað afritaða afritaðan afritaðar afritaði afritaðir afritaðist afritaðra afritaðrar afritaðri afritaðs afritaðu afritaður afriti afritir afritist afritið afritum afritumst afrituð afrituðu afrituðum afrituðumst afrituðust afrituðuð
+2	9302	spjör	spjara spjaranna spjarar spjararinnar spjarir spjarirnar spjörin spjörina spjörinni spjörum spjörunum
+3	9303	kvótakerfi	kvótakerfa kvótakerfanna kvótakerfin kvótakerfinu kvótakerfis kvótakerfisins kvótakerfið kvótakerfum kvótakerfunum
+4	9304	fleyta	fleyst fleytan fleytandi fleytanna fleytast fleyti fleytir fleytist fleytið fleytna fleytnanna fleytt fleytta fleyttan fleyttar fleytti fleyttir fleyttist fleyttra fleyttrar fleyttri fleytts fleyttu fleyttum fleyttumst fleyttur fleyttust fleyttuð fleytu fleytum fleytumst fleytuna fleytunnar fleytunni fleytunum fleytur fleyturnar
+5	9305	skólabarn	skólabarna skólabarnanna skólabarni skólabarninu skólabarnið skólabarns skólabarnsins skólabörn skólabörnin skólabörnum skólabörnunum
+6	9306	rúinn	rúin rúinna rúinnar rúinni rúins rúið rúna rúnar rúni rúnir rúnu rúnum
+7	9307	úrbót	úrbætur úrbæturnar úrbóta úrbótanna úrbótar úrbótarinnar úrbótin úrbótina úrbótinni úrbótum úrbótunum
+8	9308	astmi	astma astmann astmans astmanum astminn
+9	9309	hávegur	hávegum
+10	9310	magnesíum	magnesíuminu magnesíumið magnesíums magnesíumsins
+11	9311	timburhús	timburhúsa timburhúsanna timburhúsi timburhúsin timburhúsinu timburhúsið timburhúss timburhússins timburhúsum timburhúsunum
+12	9312	lofttegund	lofttegunda lofttegundanna lofttegundar lofttegundarinnar lofttegundin lofttegundina lofttegundinni lofttegundir lofttegundirnar lofttegundum lofttegundunum
+13	9313	deildarforseti	deildarforseta deildarforsetana deildarforsetann deildarforsetanna deildarforsetans deildarforsetanum deildarforsetar deildarforsetarnir deildarforsetinn deildarforsetum deildarforsetunum
+14	9314	byggðastofnun	byggðastofnunar byggðastofnunarinnar byggðastofnunin byggðastofnunina byggðastofnuninni
+15	9315	starfsstöð	starfsstöðin starfsstöðina starfsstöðinni starfsstöðva starfsstöðvanna starfsstöðvar starfsstöðvarinnar starfsstöðvarnar starfsstöðvum starfsstöðvunum
+16	9316	brotajárn	brotajárni brotajárninu brotajárnið brotajárns brotajárnsins
+17	9317	sögubók	sögubækur sögubækurnar sögubóka sögubókanna sögubókar sögubókarinnar sögubókin sögubókina sögubókinni sögubókum sögubókunum
+18	9318	grillveisla	grillveislan grillveislna grillveislnanna grillveislu grillveislum grillveisluna grillveislunnar grillveislunni grillveislunum grillveislur grillveislurnar
+19	9319	dáður	dáð dáða dáðan dáðar dáðara dáðari dáðast dáðasta dáðastan dáðastar dáðasti dáðastir dáðastra dáðastrar dáðastri dáðasts dáðastur dáði dáðir dáðra dáðrar dáðri dáðs dáðu dáðum dáðust dáðustu dáðustum
+20	9320	vísindafélag	vísindafélaga vísindafélaganna vísindafélagi vísindafélaginu vísindafélagið vísindafélags vísindafélagsins vísindafélög vísindafélögin vísindafélögum vísindafélögunum
+21	9321	röksemdafærsla	röksemdafærslan röksemdafærslu röksemdafærsluna röksemdafærslunnar röksemdafærslunni
+22	9322	milda	mildandi mildar mildast mildað mildaða mildaðan mildaðar mildaði mildaðir mildaðist mildaðra mildaðrar mildaðri mildaðs mildaðu mildaður mildi mildir mildist mildið mildum mildumst milduð milduðu milduðum milduðumst milduðust milduðuð
+23	9323	ábreiða	ábreiðan ábreiðanna ábreiðna ábreiðnanna ábreiðu ábreiðum ábreiðuna ábreiðunnar ábreiðunni ábreiðunum ábreiður ábreiðurnar
+24	9324	stjórnlaust	
+25	9325	millifæra	millifærandi millifærast millifæri millifærir millifærist millifærið millifærst millifært millifærum millifærumst millifærð millifærða millifærðan millifærðar millifærði millifærðir millifærðist millifærðra millifærðrar millifærðri millifærðs millifærðu millifærðum millifærðumst millifærður millifærðust millifærðuð
+26	9326	áheyrnarprufa	áheyrnarprufan áheyrnarprufanna áheyrnarprufu áheyrnarprufum áheyrnarprufuna áheyrnarprufunnar áheyrnarprufunni áheyrnarprufunum áheyrnarprufur áheyrnarprufurnar
+27	9327	landnemi	landnema landnemana landnemann landnemanna landnemans landnemanum landnemar landnemarnir landneminn landnemum landnemunum
+28	9328	splæsa	splæsandi splæsast splæsi splæsir splæsist splæsið splæst splæsta splæstan splæstar splæsti splæstir splæstist splæstra splæstrar splæstri splæsts splæstu splæstum splæstumst splæstur splæstust splæstuð splæsum splæsumst
+29	9329	ærlega	
+30	9330	trúlegur	trúleg trúlega trúlegan trúlegar trúlegast trúlegasta trúlegastan trúlegastar trúlegasti trúlegastir trúlegastra trúlegastrar trúlegastri trúlegasts trúlegastur trúlegi trúlegir trúlegra trúlegrar trúlegri trúlegs trúlegt trúlegu trúlegum trúlegust trúlegustu trúlegustum
+31	9331	smitsjúkdómur	smitsjúkdóm smitsjúkdóma smitsjúkdómana smitsjúkdómanna smitsjúkdómar smitsjúkdómarnir smitsjúkdómi smitsjúkdóminn smitsjúkdóminum smitsjúkdómnum smitsjúkdóms smitsjúkdómsins smitsjúkdómum smitsjúkdómunum smitsjúkdómurinn
+32	9332	blítt	blíðar blíðara blíðast
+33	9333	þreytulegur	þreytuleg þreytulega þreytulegan þreytulegar þreytulegast þreytulegasta þreytulegastan þreytulegastar þreytulegasti þreytulegastir þreytulegastra þreytulegastrar þreytulegastri þreytulegasts þreytulegastur þreytulegi þreytulegir þreytulegra þreytulegrar þreytulegri þreytulegs þreytulegt þreytulegu þreytulegum þreytulegust þreytulegustu þreytulegustum
+34	9334	eftirlitsferð	eftirlitsferða eftirlitsferðanna eftirlitsferðar eftirlitsferðarinnar eftirlitsferðin eftirlitsferðina eftirlitsferðinni eftirlitsferðir eftirlitsferðirnar eftirlitsferðum eftirlitsferðunum
+35	9335	banhungraður	banhungrað banhungraða banhungraðan banhungraðar banhungraði banhungraðir banhungraðra banhungraðrar banhungraðri banhungraðs banhungruð banhungruðu banhungruðum
+36	9336	hugleysingi	hugleysinginn hugleysingja hugleysingjana hugleysingjann hugleysingjanna hugleysingjans hugleysingjanum hugleysingjar hugleysingjarnir hugleysingjum hugleysingjunum
+37	9337	ólífa	ólífan ólífanna ólífu ólífum ólífuna ólífunnar ólífunni ólífunum ólífur ólífurnar
+38	9338	snípur	sníp snípa snípanna snípi snípina snípinn snípir snípirnir snípnum sníps snípsins snípum snípunum snípurinn
+39	9339	óttasleginn	óttaslegin óttasleginna óttasleginnar óttasleginni óttaslegins óttaslegið óttaslegna óttaslegnar óttaslegnara óttaslegnari óttaslegnast óttaslegnasta óttaslegnastan óttaslegnastar óttaslegnasti óttaslegnastir óttaslegnastra óttaslegnastrar óttaslegnastri óttaslegnasts óttaslegnastur óttaslegni óttaslegnir óttaslegnu óttaslegnum óttaslegnust óttaslegnustu óttaslegnustum
+40	9340	háþróaður	háþróað háþróaða háþróaðan háþróaðar háþróaðast háþróaðasta háþróaðastan háþróaðastar háþróaðasti háþróaðastir háþróaðastra háþróaðastrar háþróaðastri háþróaðasts háþróaðastur háþróaði háþróaðir háþróaðra háþróaðrar háþróaðri háþróaðs háþróuð háþróuðu háþróuðum háþróuðust háþróuðustu háþróuðustum
+41	9341	hólkur	hólk hólka hólkana hólkanna hólkar hólkarnir hólki hólkinn hólkinum hólknum hólks hólksins hólkum hólkunum hólkurinn
+42	9342	skýstrókur	skýstrók skýstróka skýstrókana skýstrókanna skýstrókar skýstrókarnir skýstróki skýstrókinn skýstróknum skýstróks skýstróksins skýstrókum skýstrókunum skýstrókurinn
+43	9343	tannlaus	tannlausa tannlausan tannlausar tannlausara tannlausari tannlausast tannlausasta tannlausastan tannlausastar tannlausasti tannlausastir tannlausastra tannlausastrar tannlausastri tannlausasts tannlausastur tannlausi tannlausir tannlausra tannlausrar tannlausri tannlauss tannlaust tannlausu tannlausum tannlausust tannlausustu tannlausustum
+44	9344	vægð	vægða vægðanna vægðar vægðarinnar vægðin vægðina vægðinni vægðir vægðirnar vægðum vægðunum
+45	9345	stórfrétt	stórfrétta stórfréttanna stórfréttar stórfréttarinnar stórfréttin stórfréttina stórfréttinni stórfréttir stórfréttirnar stórfréttum stórfréttunum
+46	9346	fegurðarsamkeppni	fegurðarsamkeppna fegurðarsamkeppnanna fegurðarsamkeppnin fegurðarsamkeppnina fegurðarsamkeppninnar fegurðarsamkeppninni fegurðarsamkeppnir fegurðarsamkeppnirnar fegurðarsamkeppnum fegurðarsamkeppnunum
+47	9347	piparúði	piparúða piparúðann piparúðans piparúðanum piparúðinn
+48	9348	rúpía	rúpían rúpíanna rúpíu rúpíum rúpíuna rúpíunnar rúpíunni rúpíunum rúpíur rúpíurnar
+49	9349	fárveikur	fárveik fárveika fárveikan fárveikar fárveiki fárveikir fárveikra fárveikrar fárveikri fárveiks fárveikt fárveiku fárveikum
+50	9350	baðker	baðkera baðkeranna baðkeri baðkerin baðkerinu baðkerið baðkerja baðkerjanna baðkerjum baðkerjunum baðkers baðkersins baðkerum baðkerunum
+51	9351	mannæta	mannætan mannætanna mannætna mannætnanna mannætu mannætum mannætuna mannætunnar mannætunni mannætunum mannætur mannæturnar
+52	9352	dyrabjalla	dyrabjallan dyrabjallanna dyrabjallna dyrabjallnanna dyrabjöllu dyrabjöllum dyrabjölluna dyrabjöllunnar dyrabjöllunni dyrabjöllunum dyrabjöllur dyrabjöllurnar
+53	9353	vanþakklátur	vanþakklát vanþakkláta vanþakklátan vanþakklátar vanþakklátara vanþakklátari vanþakklátast vanþakklátasta vanþakklátastan vanþakklátastar vanþakklátasti vanþakklátastir vanþakklátastra vanþakklátastrar vanþakklátastri vanþakklátasts vanþakklátastur vanþakkláti vanþakklátir vanþakklátra vanþakklátrar vanþakklátri vanþakkláts vanþakklátt vanþakklátu vanþakklátum vanþakklátust vanþakklátustu vanþakklátustum
+54	9354	flóttaleið	flóttaleiða flóttaleiðanna flóttaleiðar flóttaleiðarinnar flóttaleiðin flóttaleiðina flóttaleiðinni flóttaleiðir flóttaleiðirnar flóttaleiðum flóttaleiðunum
+55	9355	óviðunandi	
+56	9356	hitaeining	hitaeininga hitaeininganna hitaeiningar hitaeiningarinnar hitaeiningarnar hitaeiningin hitaeiningu hitaeiningum hitaeininguna hitaeiningunni hitaeiningunum
+57	9357	skyggn	skyggna skyggnan skyggnar skyggnara skyggnari skyggnast skyggnasta skyggnastan skyggnastar skyggnasti skyggnastir skyggnastra skyggnastrar skyggnastri skyggnasts skyggnastur skyggni skyggnir skyggnra skyggnrar skyggnri skyggns skyggnt skyggnu skyggnum skyggnust skyggnustu skyggnustum
+58	9358	markahár	markahá markaháa markaháan markaháar markahái markaháir markahárra markahárrar markahárri markahás markahátt markaháu markaháum markahærra markahærri markahæst markahæsta markahæstan markahæstar markahæsti markahæstir markahæstra markahæstrar markahæstri markahæsts markahæstu markahæstum markahæstur
+59	9359	laganám	laganámi laganáminu laganámið laganáms laganámsins
+60	9360	einkaeiga	einkaeigan einkaeiganna einkaeigu einkaeigum einkaeiguna einkaeigunnar einkaeigunni einkaeigunum einkaeigur einkaeigurnar
+61	9361	ritskoðun	ritskoðunar ritskoðunarinnar ritskoðunin ritskoðunina ritskoðuninni
+62	9362	prímati	prímata prímatana prímatann prímatanna prímatans prímatanum prímatar prímatarnir prímatinn prímötum prímötunum
+63	9363	tvistur	tvist tvista tvistana tvistanna tvistar tvistarnir tvisti tvistinn tvistinum tvists tvistsins tvistum tvistunum tvisturinn
+64	9364	stórauka	stóraukandi stóraukast stórauki stóraukin stóraukinn stóraukinna stóraukinnar stóraukinni stóraukins stóraukir stóraukist stóraukið stóraukna stórauknar stóraukni stórauknir stórauknu stórauknum stóraukstu stórauktu stóraukum stóraukumst stóreyk stóreykst stóreykur stórjuku stórjukum stórjukumst stórjukust stórjukuð stórjók stórjókst stóryki stórykir stórykist stórykju stórykjum stórykjumst stórykjust stórykjuð
+65	9365	deyða	deydd deydda deyddan deyddar deyddi deyddir deyddra deyddrar deyddri deydds deyddu deyddum deyddur deydduð deytt deyðandi deyði deyðir deyðirðu deyðið deyðum
+66	9366	góðgæti	góðgætinu góðgætis góðgætisins góðgætið
+67	9367	varnarkerfi	varnarkerfa varnarkerfanna varnarkerfin varnarkerfinu varnarkerfis varnarkerfisins varnarkerfið varnarkerfum varnarkerfunum
+68	9368	útreið	útreiða útreiðanna útreiðar útreiðarinnar útreiðarnar útreiðin útreiðina útreiðinni útreiðum útreiðunum
+69	9369	segulsvið	segulsviða segulsviðanna segulsviði segulsviðin segulsviðinu segulsviðið segulsviðs segulsviðsins segulsviðum segulsviðunum
+70	9370	stjórnleysi	stjórnleysinu stjórnleysis stjórnleysisins stjórnleysið
+71	9371	valdsvið	valdsviða valdsviðanna valdsviði valdsviðin valdsviðinu valdsviðið valdsviðs valdsviðsins valdsviðum valdsviðunum
+72	9372	hagsmunaaðili	hagsmunaaðila hagsmunaaðilana hagsmunaaðilann hagsmunaaðilanna hagsmunaaðilans hagsmunaaðilanum hagsmunaaðilar hagsmunaaðilarnir hagsmunaaðilinn hagsmunaaðilja hagsmunaaðiljana hagsmunaaðiljann hagsmunaaðiljanna hagsmunaaðiljans hagsmunaaðiljanum hagsmunaaðiljar hagsmunaaðiljarnir hagsmunaaðiljum hagsmunaaðiljunum hagsmunaaðilum hagsmunaaðilunum
+73	9373	siðanefnd	siðanefnda siðanefndanna siðanefndar siðanefndarinnar siðanefndin siðanefndina siðanefndinni siðanefndir siðanefndirnar siðanefndum siðanefndunum
+74	9374	árásargirni	árásargirnin árásargirnina árásargirninnar árásargirninni
+75	9375	áskilja	áskil áskilda áskildar áskildi áskildir áskildu áskildum áskilduð áskilin áskilinn áskilinna áskilinnar áskilinni áskilins áskilið áskiljandi áskilji áskiljir áskiljið áskiljum áskilur
+76	9376	draumaland	draumalanda draumalandanna draumalandi draumalandinu draumalandið draumalands draumalandsins draumalönd draumalöndin draumalöndum draumalöndunum
+77	9377	íhlutun	íhlutana íhlutananna íhlutanir íhlutanirnar íhlutunar íhlutunarinnar íhlutunin íhlutunina íhlutuninni íhlutunum íhlutununum
+78	9378	vatnsveita	vatnsveitan vatnsveitna vatnsveitnanna vatnsveitu vatnsveitum vatnsveituna vatnsveitunnar vatnsveitunni vatnsveitunum vatnsveitur vatnsveiturnar
+79	9379	hjúkrunarfræði	hjúkrunarfræðin hjúkrunarfræðina hjúkrunarfræðinnar hjúkrunarfræðinni
+80	9380	þurrkari	þurrkara þurrkarana þurrkarann þurrkaranna þurrkarans þurrkaranum þurrkarar þurrkararnir þurrkarinn þurrkurum þurrkurunum
+81	9381	geðrænn	geðræn geðræna geðrænan geðrænar geðrænast geðrænasta geðrænastan geðrænastar geðrænasti geðrænastir geðrænastra geðrænastrar geðrænastri geðrænasts geðrænastur geðræni geðrænir geðrænna geðrænnar geðrænni geðræns geðrænt geðrænu geðrænum geðrænust geðrænustu geðrænustum
+82	9382	hógværð	hógværðar hógværðarinnar hógværðin hógværðina hógværðinni
+83	9383	málsókn	málsókna málsóknanna málsóknar málsóknarinnar málsóknin málsóknina málsókninni málsóknir málsóknirnar málsóknum málsóknunum
+84	9384	sólarorka	sólarorkan sólarorku sólarorkuna sólarorkunnar sólarorkunni
+85	9385	viðskiptablað	viðskiptablaða viðskiptablaðanna viðskiptablaði viðskiptablaðinu viðskiptablaðið viðskiptablaðs viðskiptablaðsins viðskiptablöð viðskiptablöðin viðskiptablöðum viðskiptablöðunum
+86	9386	agndofa	
+87	9387	fylgsni	fylgsna fylgsnanna fylgsnin fylgsninu fylgsnis fylgsnisins fylgsnið fylgsnum fylgsnunum
+88	9388	glæsileiki	glæsileika glæsileikann glæsileikans glæsileikanum glæsileikinn
+89	9389	tilraunastofa	tilraunastofan tilraunastofanna tilraunastofu tilraunastofum tilraunastofuna tilraunastofunnar tilraunastofunni tilraunastofunum tilraunastofur tilraunastofurnar
+90	9390	atvinnumennska	atvinnumennskan atvinnumennsku atvinnumennskuna atvinnumennskunnar atvinnumennskunni
+91	9391	fókus	fókusar fókusarins fókusinn fókusnum fókuss fókussins
+92	9392	þversögn	þversagna þversagnanna þversagnar þversagnarinnar þversagnir þversagnirnar þversögnin þversögnina þversögninni þversögnum þversögnunum
+93	9393	friðsamlega	friðsamlegar friðsamlegast
+94	9394	alsæla	alsælan alsælu alsæluna alsælunnar alsælunni
+95	9395	dótturfyrirtæki	dótturfyrirtækin dótturfyrirtækinu dótturfyrirtækis dótturfyrirtækisins dótturfyrirtækið dótturfyrirtækja dótturfyrirtækjanna dótturfyrirtækjum dótturfyrirtækjunum
+96	9396	forföll	forfalla forfallanna forfallaður forföllin forföllum forföllunum
+97	9397	rauntími	rauntíma rauntímann rauntímans rauntímanum rauntíminn
+98	9398	öryrki	öryrkinn öryrkja öryrkjana öryrkjann öryrkjanna öryrkjans öryrkjanum öryrkjar öryrkjarnir öryrkjum öryrkjunum
+99	9399	hetjulega	
+100	9400	veðurspá	veðurspáa veðurspáin veðurspám veðurspána veðurspánna veðurspánni veðurspánum veðurspár veðurspárinnar veðurspárnar

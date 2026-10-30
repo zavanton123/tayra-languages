@@ -1,0 +1,100 @@
+1	7101	áletrun	áletrana áletrananna áletranir áletranirnar áletrunar áletrunarinnar áletrunin áletrunina áletruninni áletrunum áletrununum
+2	7102	loðna	loðnan loðnanna loðnu loðnum loðnuna loðnunnar loðnunni loðnunum loðnur loðnurnar
+3	7103	stranglega	
+4	7104	smásaga	smásagan smásagna smásagnanna smásögu smásögum smásöguna smásögunnar smásögunni smásögunum smásögur smásögurnar
+5	7105	landsdómur	landsdóm landsdóma landsdómana landsdómanna landsdómar landsdómarnir landsdómi landsdóminn landsdóminum landsdómnum landsdóms landsdómsins landsdómum landsdómunum landsdómurinn
+6	7106	seljandi	seljanda seljandann seljandans seljandanum seljandinn seljenda seljendanna seljendum seljendunum seljendur seljendurna seljendurnir
+7	7107	lungnabólga	lungnabólgan lungnabólgu lungnabólguna lungnabólgunnar lungnabólgunni
+8	7108	gróflega	gróflegar gróflegast
+9	7109	aðliggjandi	
+10	7110	tylla	tyllandi tyllast tylli tyllir tyllist tyllið tyllst tyllt tyllta tylltan tylltar tyllti tylltir tylltist tylltra tylltrar tylltri tyllts tylltu tylltum tylltumst tylltur tylltust tylltuð tyllum tyllumst
+11	7111	ágangur	ágang ágangi áganginn áganginum ágangs ágangsins ágangurinn
+12	7112	fiskvinnsla	fiskvinnslan fiskvinnslanna fiskvinnslna fiskvinnslnanna fiskvinnslu fiskvinnslum fiskvinnsluna fiskvinnslunnar fiskvinnslunni fiskvinnslunum fiskvinnslur fiskvinnslurnar
+13	7113	rauðvín	rauðvína rauðvínanna rauðvíni rauðvínin rauðvíninu rauðvínið rauðvíns rauðvínsins rauðvínum rauðvínunum
+14	7114	hex	hexa hexanna hexi hexin hexins hexinu hexið hexum hexunum
+15	7115	þokki	þokka þokkann þokkans þokkanum þokkinn
+16	7116	prentari	prentara prentarana prentarann prentaranna prentarans prentaranum prentarar prentararnir prentarinn prenturum prenturunum
+17	7117	greind	greindar greindarinnar greindin greindina greindinni
+18	7118	þurrkur	þurrk þurrka þurrkana þurrkanna þurrkar þurrkarnir þurrki þurrkinn þurrkinum þurrks þurrksins þurrkum þurrkunum þurrkurinn
+19	7119	kjötbolla	kjötbollan kjötbollanna kjötbollu kjötbollum kjötbolluna kjötbollunnar kjötbollunni kjötbollunum kjötbollur kjötbollurnar
+20	7120	karakter	karaktera karakterana karakteranna karakterar karakterarnir karakterinn karakternum karakters karaktersins karakterum karakterunum
+21	7121	hafsvæði	hafsvæða hafsvæðanna hafsvæðin hafsvæðinu hafsvæðis hafsvæðisins hafsvæðið hafsvæðum hafsvæðunum
+22	7122	standur	stand standa standana standanna standar standarnir standi standinn standinum stands standsins standurinn stöndum stöndunum
+23	7123	nýbúinn	nýbúin nýbúinna nýbúinnar nýbúinni nýbúins nýbúið nýbúna nýbúnar nýbúni nýbúnir nýbúnu nýbúnum
+24	7124	viðtakandi	viðtakanda viðtakandann viðtakandans viðtakandanum viðtakandinn viðtakenda viðtakendanna viðtakendum viðtakendunum viðtakendur viðtakendurna viðtakendurnir
+25	7125	stoðsending	stoðsendinga stoðsendinganna stoðsendingar stoðsendingarinnar stoðsendingarnar stoðsendingin stoðsendingu stoðsendingum stoðsendinguna stoðsendingunni stoðsendingunum
+26	7126	hreppa	hreppandi hreppast hreppi hreppir hreppið hreppst hreppt hreppta hrepptan hrepptar hreppti hrepptir hrepptra hrepptrar hrepptri hreppts hrepptu hrepptum hrepptur hrepptuð hreppum
+27	7127	heimsmeistarakeppni	heimsmeistarakeppnin heimsmeistarakeppnina heimsmeistarakeppninnar heimsmeistarakeppninni
+28	7128	samfleytt	
+29	7129	heilsufar	heilsufari heilsufarinu heilsufarið heilsufars heilsufarsins
+30	7130	stafrófsröð	stafrófsraðar stafrófsraðarinnar stafrófsröðin stafrófsröðina stafrófsröðinni
+31	7131	fjötur	fjötra fjötrana fjötranna fjötrar fjötrarnir fjötri fjötrinum fjötrum fjötrunum fjöturinn fjöturs fjötursins
+32	7132	treyja	treyjan treyjanna treyju treyjum treyjuna treyjunnar treyjunni treyjunum treyjur treyjurnar
+33	7133	sjúklegur	sjúkleg sjúklega sjúklegan sjúklegar sjúklegast sjúklegasta sjúklegastan sjúklegastar sjúklegasti sjúklegastir sjúklegastra sjúklegastrar sjúklegastri sjúklegasts sjúklegastur sjúklegi sjúklegir sjúklegra sjúklegrar sjúklegri sjúklegs sjúklegt sjúklegu sjúklegum sjúklegust sjúklegustu sjúklegustum
+34	7134	föruneyti	föruneyta föruneytanna föruneytin föruneytinu föruneytis föruneytisins föruneytið föruneytum föruneytunum
+35	7135	kné	knjáa knjám knjánna knjánum knén knénu knés knésins knéð
+36	7136	röðun	röðunar röðunarinnar röðunin röðunina röðuninni
+37	7137	hlutdeild	hlutdeildar hlutdeildarinnar hlutdeildin hlutdeildina hlutdeildinni
+38	7138	rannsóknarverkefni	rannsóknarverkefna rannsóknarverkefnanna rannsóknarverkefnin rannsóknarverkefninu rannsóknarverkefnis rannsóknarverkefnisins rannsóknarverkefnið rannsóknarverkefnum rannsóknarverkefnunum
+39	7139	handahóf	handahófi handahófinu handahófið handahófs handahófsins
+40	7140	frímerki	frímerkin frímerkinu frímerkis frímerkisins frímerkið frímerkja frímerkjanna frímerkjum frímerkjunum
+41	7141	margfalt	
+42	7142	markaðssetja	markaðsset markaðssetjandi markaðssetji markaðssetjir markaðssetjið markaðssetjum markaðssett markaðssetta markaðssettan markaðssettar markaðssetti markaðssettir markaðssettra markaðssettrar markaðssettri markaðssetts markaðssettu markaðssettum markaðssettur markaðssettuð markaðssetur
+43	7143	kvikmynda	kvikmyndandi kvikmyndar kvikmyndast kvikmyndað kvikmyndaða kvikmyndaðan kvikmyndaðar kvikmyndaði kvikmyndaðir kvikmyndaðist kvikmyndaðra kvikmyndaðrar kvikmyndaðri kvikmyndaðs kvikmyndaðu kvikmyndaður kvikmyndi kvikmyndir kvikmyndist kvikmyndið kvikmyndum kvikmyndumst kvikmynduð kvikmynduðu kvikmynduðum kvikmynduðumst kvikmynduðust kvikmynduðuð
+44	7144	innkoma	innkoman innkomu innkomuna innkomunnar innkomunni
+45	7145	sunna	sunnan sunnanna sunnu sunnum sunnuna sunnunnar sunnunni sunnunum sunnur sunnurnar
+46	7146	hræ	hræi hræin hræinu hræið hræja hræjanna hræjum hræjunum hræs hræsins
+47	7147	ásetja	áset ásetjandi ásetji ásetjir ásetjirðu ásetjið ásetjum ásett ásetta ásettan ásettar ásetti ásettir ásettirðu ásettra ásettrar ásettri ásetts ásettu ásettum ásettur ásettuð ásetur áseturðu
+48	7148	námsgrein	námsgreina námsgreinanna námsgreinar námsgreinarinnar námsgreinarnar námsgreinin námsgreinina námsgreininni námsgreinum námsgreinunum
+49	7149	grautur	graut grauta grautana grautanna grautar grautarins grautarnir grauti grautinn grautnum grautum grautunum grauturinn
+50	7150	væminn	væmin væminna væminnar væminni væmins væmið væmna væmnar væmnara væmnari væmnast væmnasta væmnastan væmnastar væmnasti væmnastir væmnastra væmnastrar væmnastri væmnasts væmnastur væmni væmnir væmnu væmnum væmnust væmnustu væmnustum
+51	7151	réttstaða	réttstaðan réttstöðu réttstöðuna réttstöðunnar réttstöðunni
+52	7152	sköllóttur	sköllótt sköllótta sköllóttan sköllóttar sköllóttara sköllóttari sköllóttast sköllóttasta sköllóttastan sköllóttastar sköllóttasti sköllóttastir sköllóttastra sköllóttastrar sköllóttastri sköllóttasts sköllóttastur sköllótti sköllóttir sköllóttra sköllóttrar sköllóttri sköllótts sköllóttu sköllóttum sköllóttust sköllóttustu sköllóttustum
+53	7153	ræðismaður	ræðismann ræðismanna ræðismannanna ræðismanni ræðismanninn ræðismanninum ræðismanns ræðismannsins ræðismaðurinn ræðismenn ræðismennina ræðismennirnir ræðismönnum ræðismönnunum
+54	7154	holræsi	holræsa holræsanna holræsin holræsinu holræsis holræsisins holræsið holræsum holræsunum
+55	7155	aðalsmaður	aðalsmann aðalsmanna aðalsmannanna aðalsmanni aðalsmanninn aðalsmanninum aðalsmanns aðalsmannsins aðalsmaðurinn aðalsmenn aðalsmennina aðalsmennirnir aðalsmönnum aðalsmönnunum
+56	7156	skeina	skeinan skeinandi skeinanna skeinast skeind skeinda skeindan skeindar skeindi skeindir skeindist skeindra skeindrar skeindri skeinds skeindu skeindum skeindumst skeindur skeindust skeinduð skeini skeinir skeinist skeinið skeinst skeint skeinu skeinum skeinumst skeinuna skeinunnar skeinunni skeinunum skeinur skeinurnar
+57	7157	geislavirkur	geislavirk geislavirka geislavirkan geislavirkar geislavirkara geislavirkari geislavirkast geislavirkasta geislavirkastan geislavirkastar geislavirkasti geislavirkastir geislavirkastra geislavirkastrar geislavirkastri geislavirkasts geislavirkastur geislavirki geislavirkir geislavirkra geislavirkrar geislavirkri geislavirks geislavirkt geislavirku geislavirkum geislavirkust geislavirkustu geislavirkustum
+58	7158	tímaspursmál	tímaspursmála tímaspursmálanna tímaspursmáli tímaspursmálin tímaspursmálinu tímaspursmálið tímaspursmáls tímaspursmálsins tímaspursmálum tímaspursmálunum
+59	7159	trúr	trú trúa trúan trúar trúast trúasta trúastan trúastar trúasti trúastir trúastra trúastrar trúastri trúasts trúastur trúi trúir trúrra trúrrar trúrri trús trútt trúu trúum trúust trúustu trúustum
+60	7160	mynni	mynna mynnanna mynnin mynninu mynnis mynnisins mynnið mynnum mynnunum
+61	7161	lina	linandi linar linast linað linaða linaðan linaðar linaði linaðir linaðist linaðra linaðrar linaðri linaðs linaðu linaður lini linir linist linið linum linumst linuð linuðu linuðum linuðumst linuðust linuðuð
+62	7162	geimflaug	geimflauga geimflauganna geimflaugar geimflaugarinnar geimflaugarnar geimflaugin geimflaugina geimflauginni geimflaugum geimflaugunum
+63	7163	úlfaldi	úlfalda úlfaldana úlfaldann úlfaldanna úlfaldans úlfaldanum úlfaldar úlfaldarnir úlfaldinn úlföldum úlföldunum
+64	7164	bikarkeppni	bikarkeppnin bikarkeppnina bikarkeppninnar bikarkeppninni
+65	7165	vé	véa véanna véi véin véinu véið vés vésins véum véunum
+66	7166	lifna	lifnandi lifnar lifnað lifnaða lifnaðan lifnaðar lifnaði lifnaðir lifnaðra lifnaðrar lifnaðri lifnaðs lifnaðu lifnaður lifni lifnir lifnið lifnum lifnuð lifnuðu lifnuðum lifnuðuð
+67	7167	rúntur	rúnt rúnti rúntinn rúntinum rúnts rúntsins rúnturinn
+68	7168	löggjafarþing	löggjafarþinga löggjafarþinganna löggjafarþingi löggjafarþingin löggjafarþinginu löggjafarþingið löggjafarþings löggjafarþingsins löggjafarþingum löggjafarþingunum
+69	7169	hátíðarhald	hátíðarhalda hátíðarhaldanna hátíðarhaldi hátíðarhaldinu hátíðarhaldið hátíðarhalds hátíðarhaldsins hátíðarhöld hátíðarhöldin hátíðarhöldum hátíðarhöldunum
+70	7170	tamur	tama taman tamar tamara tamari tamast tamasta tamastan tamastar tamasti tamastir tamastra tamastrar tamastri tamasts tamastur tami tamir tamra tamrar tamri tams tamt töm tömu tömum tömust tömustu tömustum
+71	7171	ógleði	ógleðin ógleðina ógleðinnar ógleðinni
+72	7172	umbúðir	
+73	7173	daufur	dauf daufa daufan daufar daufara daufari daufast daufasta daufastan daufastar daufasti daufastir daufastra daufastrar daufastri daufasts daufastur daufi daufir daufra daufrar daufri daufs dauft daufu daufum daufust daufustu daufustum
+74	7174	gildistaka	gildistakan gildistakanna gildistakna gildistaknanna gildistöku gildistökum gildistökuna gildistökunnar gildistökunni gildistökunum gildistökur gildistökurnar
+75	7175	þröngt	þrengra þrengst
+76	7176	forréttur	forrétt forrétta forréttanna forréttar forréttarins forrétti forréttina forréttinn forréttinum forréttir forréttirnir forréttum forréttunum forrétturinn
+77	7177	flykkja	flykki flykkir flykkist flykkið flykkjandi flykkjast flykkjum flykkjumst flykkst flykkt flykkti flykktir flykktist flykktu flykktum flykktumst flykktust flykktuð
+78	7178	friðland	friðlanda friðlandanna friðlandi friðlandinu friðlandið friðlands friðlandsins friðlönd friðlöndin friðlöndum friðlöndunum
+79	7179	staðráðinn	staðráðin staðráðinna staðráðinnar staðráðinni staðráðins staðráðið staðráðna staðráðnar staðráðnara staðráðnari staðráðnast staðráðnasta staðráðnastan staðráðnastar staðráðnasti staðráðnastir staðráðnastra staðráðnastrar staðráðnastri staðráðnasts staðráðnastur staðráðni staðráðnir staðráðnu staðráðnum staðráðnust staðráðnustu staðráðnustum
+80	7180	flá	flegin fleginn fleginna fleginnar fleginni flegins flegið flegna flegnar flegni flegnir flegnu flegnum fláa flái fláin fláir fláið flám flána flánna flánni flánum flár flárinnar flárnar fláum fláð fláða fláðan fláðar fláði fláðinna fláðir fláðra fláðrar fláðri fláðs fláðu fláðum fláður flæ flægi flægir flægju flægjum flægjuð flær flærð fló flógu flógum flóguð flóst
+81	7181	sumardagur	sumardag sumardaga sumardagana sumardaganna sumardagar sumardagarnir sumardaginn sumardags sumardagsins sumardagurinn sumardegi sumardeginum sumardögum sumardögunum
+82	7182	félagsfræði	félagsfræðin félagsfræðina félagsfræðinnar félagsfræðinni
+83	7183	helíum	helíuminu helíumið helíums helíumsins
+84	7184	áhrifavaldur	áhrifavald áhrifavalda áhrifavaldana áhrifavaldanna áhrifavaldar áhrifavaldarnir áhrifavaldi áhrifavaldinn áhrifavaldinum áhrifavalds áhrifavaldsins áhrifavaldurinn áhrifavöldum áhrifavöldunum
+85	7185	ísöld	ísalda ísaldanna ísaldar ísaldarinnar ísaldir ísaldirnar ísöldin ísöldina ísöldinni ísöldum ísöldunum
+86	7186	stríður	strítt stríð stríða stríðan stríðar stríðara stríðari stríðast stríðasta stríðastan stríðastar stríðasti stríðastir stríðastra stríðastrar stríðastri stríðasts stríðastur stríði stríðir stríðra stríðrar stríðri stríðs stríðu stríðum stríðust stríðustu stríðustum
+87	7187	snögglega	
+88	7188	árbók	árbækur árbækurnar árbóka árbókanna árbókar árbókarinnar árbókin árbókina árbókinni árbókum árbókunum
+89	7189	ættarnafn	ættarnafna ættarnafnanna ættarnafni ættarnafninu ættarnafnið ættarnafns ættarnafnsins ættarnöfn ættarnöfnin ættarnöfnum ættarnöfnunum
+90	7190	kjarr	kjarra kjarranna kjarri kjarrinu kjarrið kjarrs kjarrsins kjörr kjörrin kjörrum kjörrunum
+91	7191	yfirskrift	yfirskrifta yfirskriftanna yfirskriftar yfirskriftarinnar yfirskriftin yfirskriftina yfirskriftinni yfirskriftir yfirskriftirnar yfirskriftum yfirskriftunum
+92	7192	úrvinda	
+93	7193	húmor	húmorinn húmornum húmors húmorsins
+94	7194	fyrirfinnast	fyrirfannst fyrirfinnist fyrirfinnst fyrirfinnumst fyrirfundist fyrirfundumst fyrirfundust fyrirfyndist fyrirfyndumst fyrirfyndust
+95	7195	tímatal	tímatala tímatalanna tímatali tímatalinu tímatalið tímatals tímatalsins tímatöl tímatölin tímatölum tímatölunum
+96	7196	salómon	
+97	7197	lífskjör	lífskjara lífskjaranna lífskjörin lífskjörum lífskjörunum
+98	7198	miðsvæðis	
+99	7199	þokkalegur	þokkaleg þokkalega þokkalegan þokkalegar þokkalegast þokkalegasta þokkalegastan þokkalegastar þokkalegasti þokkalegastir þokkalegastra þokkalegastrar þokkalegastri þokkalegasts þokkalegastur þokkalegi þokkalegir þokkalegra þokkalegrar þokkalegri þokkalegs þokkalegt þokkalegu þokkalegum þokkalegust þokkalegustu þokkalegustum
+100	7200	námsstyrkur	námsstyrk námsstyrki námsstyrkina námsstyrkinn námsstyrkir námsstyrkirnir námsstyrkja námsstyrkjanna námsstyrkjum námsstyrkjunum námsstyrknum námsstyrks námsstyrksins námsstyrkurinn

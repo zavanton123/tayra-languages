@@ -1,0 +1,100 @@
+1	8501	leikskáld	leikskálda leikskáldanna leikskáldi leikskáldin leikskáldinu leikskáldið leikskálds leikskáldsins leikskáldum leikskáldunum
+2	8502	virðisaukaskattur	virðisaukaskatt virðisaukaskatti virðisaukaskattinn virðisaukaskattinum virðisaukaskatts virðisaukaskattsins virðisaukaskatturinn
+3	8503	varnarmálaráðherra	varnarmálaráðherrana varnarmálaráðherrann varnarmálaráðherranna varnarmálaráðherrans varnarmálaráðherranum varnarmálaráðherrar varnarmálaráðherrarnir varnarmálaráðherrum varnarmálaráðherrunum
+4	8504	gistihús	gistihúsa gistihúsanna gistihúsi gistihúsin gistihúsinu gistihúsið gistihúss gistihússins gistihúsum gistihúsunum
+5	8505	heimilistæki	heimilistækin heimilistækinu heimilistækis heimilistækisins heimilistækið heimilistækja heimilistækjanna heimilistækjum heimilistækjunum
+6	8506	undangenginn	undangengin undangenginna undangenginnar undangenginni undangengins undangengið undangengna undangengnar undangengni undangengnir undangengnu undangengnum
+7	8507	sent	senta sentanna senti sentin sentinu sentið sents sentsins sentum sentunum
+8	8508	rugga	ruggan ruggandi rugganna ruggar ruggast ruggað ruggaða ruggaðan ruggaðar ruggaði ruggaðir ruggaðist ruggaðra ruggaðrar ruggaðri ruggaðs ruggaðu ruggaður ruggi ruggir ruggist ruggið ruggu ruggum ruggumst rugguna ruggunnar ruggunni ruggunum ruggur ruggurnar rugguð rugguðu rugguðum rugguðumst rugguðust rugguðuð
+9	8509	stofufangelsi	stofufangelsa stofufangelsanna stofufangelsin stofufangelsinu stofufangelsis stofufangelsisins stofufangelsið stofufangelsum stofufangelsunum
+10	8510	ævarandi	
+11	8511	verkahringur	verkahring verkahringinn verkahringnum verkahrings verkahringsins verkahringurinn
+12	8512	safnari	safnara safnarana safnarann safnaranna safnarans safnaranum safnarar safnararnir safnarinn söfnurum söfnurunum
+13	8513	veiklyndur	veiklynd veiklynda veiklyndan veiklyndar veiklyndara veiklyndari veiklyndast veiklyndasta veiklyndastan veiklyndastar veiklyndasti veiklyndastir veiklyndastra veiklyndastrar veiklyndastri veiklyndasts veiklyndastur veiklyndi veiklyndir veiklyndra veiklyndrar veiklyndri veiklynds veiklyndu veiklyndum veiklyndust veiklyndustu veiklyndustum veiklynt
+14	8514	ættkvísl	ættkvísla ættkvíslanna ættkvíslar ættkvíslarinnar ættkvíslin ættkvíslina ættkvíslinni ættkvíslir ættkvíslirnar ættkvíslum ættkvíslunum
+15	8515	kanill	kanil kanilinn kanillinn kanilnum kanils kanilsins
+16	8516	undirfat	undirfata undirfatanna undirfati undirfatinu undirfatið undirfats undirfatsins undirföt undirfötin undirfötum undirfötunum
+17	8517	pitsa	pitsan pitsanna pitsu pitsum pitsuna pitsunnar pitsunni pitsunum pitsur pitsurnar
+18	8518	morðmál	morðmála morðmálanna morðmáli morðmálin morðmálinu morðmálið morðmáls morðmálsins morðmálum morðmálunum
+19	8519	jarðsprengja	jarðsprengjan jarðsprengjanna jarðsprengju jarðsprengjum jarðsprengjuna jarðsprengjunnar jarðsprengjunni jarðsprengjunum jarðsprengjur jarðsprengjurnar jarðsprengna jarðsprengnanna
+20	8520	raðmorðingi	raðmorðinginn raðmorðingja raðmorðingjana raðmorðingjann raðmorðingjanna raðmorðingjans raðmorðingjanum raðmorðingjar raðmorðingjarnir raðmorðingjum raðmorðingjunum
+21	8521	klæja	klæi klæjandi klæjar klæjað klæjaði
+22	8522	breiðgata	breiðgatan breiðgatna breiðgatnanna breiðgötu breiðgötum breiðgötuna breiðgötunnar breiðgötunni breiðgötunum breiðgötur breiðgöturnar
+23	8523	hjartnæmur	hjartnæm hjartnæma hjartnæman hjartnæmar hjartnæmara hjartnæmari hjartnæmast hjartnæmasta hjartnæmastan hjartnæmastar hjartnæmasti hjartnæmastir hjartnæmastra hjartnæmastrar hjartnæmastri hjartnæmasts hjartnæmastur hjartnæmi hjartnæmir hjartnæmra hjartnæmrar hjartnæmri hjartnæms hjartnæmt hjartnæmu hjartnæmum hjartnæmust hjartnæmustu hjartnæmustum
+24	8524	ferlíki	ferlíkin ferlíkinu ferlíkis ferlíkisins ferlíkið ferlíkja ferlíkjanna ferlíkjum ferlíkjunum
+25	8525	klósettpappír	klósettpappírinn klósettpappírnum klósettpappírs klósettpappírsins
+26	8526	bleyða	bleyðan bleyðanna bleyðna bleyðnanna bleyðu bleyðum bleyðuna bleyðunnar bleyðunni bleyðunum bleyður bleyðurnar
+27	8527	hetjudáð	hetjudáða hetjudáðanna hetjudáðar hetjudáðarinnar hetjudáðin hetjudáðina hetjudáðinni hetjudáðir hetjudáðirnar hetjudáðum hetjudáðunum
+28	8528	illgjarn	illgjarna illgjarnan illgjarnar illgjarnara illgjarnari illgjarnast illgjarnasta illgjarnastan illgjarnastar illgjarnasti illgjarnastir illgjarnastra illgjarnastrar illgjarnastri illgjarnasts illgjarnastur illgjarni illgjarnir illgjarnra illgjarnrar illgjarnri illgjarns illgjarnt illgjörn illgjörnu illgjörnum illgjörnust illgjörnustu illgjörnustum
+29	8529	ferðbúinn	ferðbúin ferðbúinna ferðbúinnar ferðbúinni ferðbúins ferðbúið ferðbúna ferðbúnar ferðbúni ferðbúnir ferðbúnu ferðbúnum
+30	8530	búningsherbergi	búningsherbergin búningsherberginu búningsherbergis búningsherbergisins búningsherbergið búningsherbergja búningsherbergjanna búningsherbergjum búningsherbergjunum
+31	8531	hólpinn	hólpin hólpinna hólpinnar hólpinni hólpins hólpið hólpna hólpnar hólpnara hólpnari hólpnast hólpnasta hólpnastan hólpnastar hólpnasti hólpnastir hólpnastra hólpnastrar hólpnastri hólpnasts hólpnastur hólpni hólpnir hólpnu hólpnum hólpnust hólpnustu hólpnustum
+32	8532	morðóður	morðótt morðóð morðóða morðóðan morðóðar morðóðara morðóðari morðóðast morðóðasta morðóðastan morðóðastar morðóðasti morðóðastir morðóðastra morðóðastrar morðóðastri morðóðasts morðóðastur morðóði morðóðir morðóðra morðóðrar morðóðri morðóðs morðóðu morðóðum morðóðust morðóðustu morðóðustum
+33	8533	stúfur	stúf stúfa stúfana stúfanna stúfar stúfarnir stúfi stúfinn stúfnum stúfs stúfsins stúfum stúfunum stúfurinn
+34	8534	summa	summan summanna summu summum summuna summunnar summunni summunum summur summurnar
+35	8535	goðafræði	goðafræðin goðafræðina goðafræðinnar goðafræðinni
+36	8536	bláber	bláberi bláberin bláberinu bláberið bláberja bláberjanna bláberjum bláberjunum blábers blábersins
+37	8537	tónlistarlíf	tónlistarlífi tónlistarlífinu tónlistarlífið tónlistarlífs tónlistarlífsins
+38	8538	orkuver	orkuvera orkuveranna orkuveri orkuverin orkuverinu orkuverið orkuvers orkuversins orkuverum orkuverunum
+39	8539	eigingirni	eigingirnin eigingirnina eigingirninnar eigingirninni
+40	8540	reglubundinn	reglubundin reglubundinna reglubundinnar reglubundinni reglubundins reglubundið reglubundna reglubundnar reglubundnara reglubundnari reglubundnast reglubundnasta reglubundnastan reglubundnastar reglubundnasti reglubundnastir reglubundnastra reglubundnastrar reglubundnastri reglubundnasts reglubundnastur reglubundni reglubundnir reglubundnu reglubundnum reglubundnust reglubundnustu reglubundnustum
+41	8541	hraðbanki	hraðbanka hraðbankana hraðbankann hraðbankanna hraðbankans hraðbankanum hraðbankar hraðbankarnir hraðbankinn hraðbönkum hraðbönkunum
+42	8542	visinn	visin visinna visinnar visinni visins visið visna visnar visnara visnari visnast visnasta visnastan visnastar visnasti visnastir visnastra visnastrar visnastri visnasts visnastur visnaða visnaði visnaðs visni visnir visnu visnum visnust visnustu visnustum visnuðu visnuðum
+43	8543	hestvagn	hestvagna hestvagnana hestvagnanna hestvagnar hestvagnarnir hestvagni hestvagninn hestvagninum hestvagns hestvagnsins hestvögnum hestvögnunum
+44	8544	undirforingi	undirforinginn undirforingja undirforingjana undirforingjann undirforingjanna undirforingjans undirforingjanum undirforingjar undirforingjarnir undirforingjum undirforingjunum
+45	8545	þjónustufólk	þjónustufólki þjónustufólkinu þjónustufólkið þjónustufólks þjónustufólksins
+46	8546	rafvirki	rafvirkinn rafvirkja rafvirkjana rafvirkjann rafvirkjanna rafvirkjans rafvirkjanum rafvirkjar rafvirkjarnir rafvirkjum rafvirkjunum
+47	8547	tékkneskur	tékknesk tékkneska tékkneskan tékkneskar tékkneskara tékkneskari tékkneskast tékkneskasta tékkneskastan tékkneskastar tékkneskasti tékkneskastir tékkneskastra tékkneskastrar tékkneskastri tékkneskasts tékkneskastur tékkneski tékkneskir tékkneskra tékkneskrar tékkneskri tékknesks tékkneskt tékknesku tékkneskum tékkneskust tékkneskustu tékkneskustum
+48	8548	leiðarendi	leiðarenda leiðarendana leiðarendann leiðarendanna leiðarendans leiðarendanum leiðarendar leiðarendarnir leiðarendinn leiðarendum leiðarendunum
+49	8549	heimsendur	heimsend heimsenda heimsendan heimsendar heimsendi heimsendir heimsendra heimsendrar heimsendri heimsends heimsendu heimsendum heimsent
+50	8550	föðurbróðir	föðurbræðra föðurbræðranna föðurbræðrum föðurbræðrunum föðurbræður föðurbræðurna föðurbræðurnir föðurbróðirinn föðurbróður föðurbróðurinn föðurbróðurins föðurbróðurnum
+51	8551	faglega	
+52	8552	votur	vot vota votan votar votara votari votast votasta votastan votastar votasti votastir votastra votastrar votastri votasts votastur voti votir votra votrar votri vots vott votu votum votust votustu votustum
+53	8553	kvikasilfur	kvikasilfri kvikasilfrinu kvikasilfrið kvikasilfurs kvikasilfursins
+54	8554	þarmur	þarm þarma þarmana þarmanna þarmar þarmarnir þarmi þarminn þarminum þarms þarmsins þarmurinn þörmum þörmunum
+55	8555	verkaskipting	verkaskiptingar verkaskiptingarinnar verkaskiptingin verkaskiptingu verkaskiptinguna verkaskiptingunni
+56	8556	hjólabretti	hjólabretta hjólabrettanna hjólabrettin hjólabrettinu hjólabrettis hjólabrettisins hjólabrettið hjólabrettum hjólabrettunum
+57	8557	öræfi	öræfa öræfanna öræfin öræfum öræfunum
+58	8558	aftra	aftrandi aftrar aftrast aftrað aftraða aftraðan aftraðar aftraði aftraðir aftraðist aftraðra aftraðrar aftraðri aftraðs aftraðu aftraður aftri aftrir aftrist aftrið öftrum öftrumst öftruð öftruðu öftruðum öftruðumst öftruðust öftruðuð
+59	8559	óskaplega	
+60	8560	réttlæting	réttlætingar réttlætingarinnar réttlætingin réttlætingu réttlætinguna réttlætingunni
+61	8561	klútur	klút klúta klútana klútanna klútar klútarnir klúti klútinn klútnum klúts klútsins klútum klútunum klúturinn
+62	8562	skerpa	skerpan skerpandi skerpast skerpi skerpir skerpist skerpið skerpst skerpt skerpta skerptan skerptar skerpti skerptir skerptist skerptra skerptrar skerptri skerpts skerptu skerptum skerptumst skerptur skerptust skerptuð skerpu skerpum skerpumst skerpuna skerpunnar skerpunni
+63	8563	hugarástand	hugarástandi hugarástandinu hugarástandið hugarástands hugarástandsins
+64	8564	viðurvist	viðurvistar viðurvistarinnar viðurvistin viðurvistina viðurvistinni
+65	8565	mæna	mænan mænandi mænanna mændi mændir mændu mændum mænduð mæni mænir mænið mænt mænu mænum mænuna mænunnar mænunni mænunum mænur mænurnar
+66	8566	fóstbróðir	fóstbræðra fóstbræðranna fóstbræðrum fóstbræðrunum fóstbræður fóstbræðurna fóstbræðurnir fóstbróðirinn fóstbróður fóstbróðurinn fóstbróðurins fóstbróðurnum
+67	8567	mannafli	mannafla mannaflann mannaflans mannaflanum mannaflinn
+68	8568	borhola	borholan borholanna borholna borholnanna borholu borholum borholuna borholunnar borholunni borholunum borholur borholurnar
+69	8569	fullnusta	fullnustan fullnustandi fullnustar fullnustast fullnustað fullnustaða fullnustaðan fullnustaðar fullnustaði fullnustaðir fullnustaðist fullnustaðra fullnustaðrar fullnustaðri fullnustaðs fullnustaðu fullnustaður fullnusti fullnustir fullnustist fullnustið fullnustu fullnustum fullnustumst fullnustuna fullnustunnar fullnustunni fullnustuð fullnustuðu fullnustuðum fullnustuðumst fullnustuðust fullnustuðuð
+70	8570	blús	blúsa blúsana blúsanna blúsar blúsarnir blúsi blúsinn blúsins blúsinum blúsnum blúss blússins blúsum blúsunum
+71	8571	loftleið	loftleiða loftleiðanna loftleiðar loftleiðarinnar loftleiðin loftleiðina loftleiðinni loftleiðir loftleiðirnar loftleiðum loftleiðunum
+72	8572	göngustígur	göngustíg göngustíga göngustígana göngustíganna göngustígar göngustígarnir göngustígi göngustígina göngustíginn göngustígir göngustígirnir göngustígnum göngustígs göngustígsins göngustígum göngustígunum göngustígurinn
+73	8573	fljótlegur	fljótleg fljótlega fljótlegan fljótlegar fljótlegast fljótlegasta fljótlegastan fljótlegastar fljótlegasti fljótlegastir fljótlegastra fljótlegastrar fljótlegastri fljótlegasts fljótlegastur fljótlegi fljótlegir fljótlegra fljótlegrar fljótlegri fljótlegs fljótlegt fljótlegu fljótlegum fljótlegust fljótlegustu fljótlegustum
+74	8574	skíðasvæði	skíðasvæða skíðasvæðanna skíðasvæðin skíðasvæðinu skíðasvæðis skíðasvæðisins skíðasvæðið skíðasvæðum skíðasvæðunum
+75	8575	lögbann	lögbanni lögbanninu lögbannið lögbanns lögbannsins
+76	8576	fullorðinsár	fullorðinsára fullorðinsáranna fullorðinsári fullorðinsárin fullorðinsárinu fullorðinsárið fullorðinsárs fullorðinsársins fullorðinsárum fullorðinsárunum
+77	8577	dúett	dúetta dúettana dúettanna dúettar dúettarnir dúetti dúettinn dúettinum dúetts dúettsins dúettum dúettunum
+78	8578	leðja	leðjan leðju leðjuna leðjunnar leðjunni
+79	8579	háttvirtur	háttvirt háttvirta háttvirtan háttvirtar háttvirti háttvirtir háttvirtra háttvirtrar háttvirtri háttvirts háttvirtu háttvirtum
+80	8580	hausa	hausandi hausar hausast hausað hausaða hausaðan hausaðar hausaði hausaðir hausaðist hausaðra hausaðrar hausaðri hausaðs hausaðu hausaður hausi hausir hausist hausið hausum hausumst hausuð hausuðu hausuðum hausuðumst hausuðust hausuðuð
+81	8581	átakanlegur	átakanleg átakanlega átakanlegan átakanlegar átakanlegast átakanlegasta átakanlegastan átakanlegastar átakanlegasti átakanlegastir átakanlegastra átakanlegastrar átakanlegastri átakanlegasts átakanlegastur átakanlegi átakanlegir átakanlegra átakanlegrar átakanlegri átakanlegs átakanlegt átakanlegu átakanlegum átakanlegust átakanlegustu átakanlegustum
+82	8582	niðji	niðja niðjana niðjann niðjanna niðjans niðjanum niðjar niðjarnir niðjinn niðjum niðjunum
+83	8583	nafnbót	nafnbætur nafnbæturnar nafnbóta nafnbótanna nafnbótar nafnbótarinnar nafnbótin nafnbótina nafnbótinni nafnbótum nafnbótunum
+84	8584	höfuðstóll	höfuðstól höfuðstólinn höfuðstóllinn höfuðstólnum höfuðstóls höfuðstólsins
+85	8585	suðaustan	
+86	8586	júl	júla júlanna júli júlin júlinu júlið júls júlsins júlum júlunum
+87	8587	viðskiptalíf	viðskiptalífi viðskiptalífinu viðskiptalífið viðskiptalífs viðskiptalífsins
+88	8588	óheppni	óheppnin óheppnina óheppninnar óheppninni
+89	8589	faðmur	faðm faðma faðmana faðmanna faðmar faðmarnir faðmi faðminn faðminum faðms faðmsins faðmurinn föðmum föðmunum
+90	8590	þyngja	þyngd þyngda þyngdan þyngdar þyngdi þyngdir þyngdist þyngdra þyngdrar þyngdri þyngds þyngdu þyngdum þyngdumst þyngdur þyngdust þyngduð þyngi þyngir þyngist þyngið þyngjandi þyngjast þyngjum þyngjumst þyngst þyngt
+91	8591	sextugur	sextug sextuga sextugan sextugar sextugi sextugir sextugra sextugrar sextugri sextugs sextugt sextugu sextugum
+92	8592	sjónrænn	sjónræn sjónræna sjónrænan sjónrænar sjónrænast sjónrænasta sjónrænastan sjónrænastar sjónrænasti sjónrænastir sjónrænastra sjónrænastrar sjónrænastri sjónrænasts sjónrænastur sjónræni sjónrænir sjónrænna sjónrænnar sjónrænni sjónræns sjónrænt sjónrænu sjónrænum sjónrænust sjónrænustu sjónrænustum
+93	8593	kvikur	kvik kvika kvikan kvikar kvikara kvikari kvikast kvikasta kvikastan kvikastar kvikasti kvikastir kvikastra kvikastrar kvikastri kvikasts kvikastur kviki kvikir kvikra kvikrar kvikri kviks kvikt kviku kvikum kvikust kvikustu kvikustum
+94	8594	siða	siðandi siðar siðast siðað siðaða siðaðan siðaðar siðaði siðaðir siðaðist siðaðra siðaðrar siðaðri siðaðs siðaðu siðaður siði siðir siðist siðið siðum siðumst siðuð siðuðu siðuðum siðuðumst siðuðust siðuðuð
+95	8595	skírskotun	skírskotana skírskotananna skírskotanir skírskotanirnar skírskotunar skírskotunarinnar skírskotunin skírskotunina skírskotuninni skírskotunum skírskotununum
+96	8596	guðdómlegur	guðdómleg guðdómlega guðdómlegan guðdómlegar guðdómlegast guðdómlegasta guðdómlegastan guðdómlegastar guðdómlegasti guðdómlegastir guðdómlegastra guðdómlegastrar guðdómlegastri guðdómlegasts guðdómlegastur guðdómlegi guðdómlegir guðdómlegra guðdómlegrar guðdómlegri guðdómlegs guðdómlegt guðdómlegu guðdómlegum guðdómlegust guðdómlegustu guðdómlegustum
+97	8597	óhlýðinn	óhlýðin óhlýðinna óhlýðinnar óhlýðinni óhlýðins óhlýðið óhlýðna óhlýðnar óhlýðnara óhlýðnari óhlýðnast óhlýðnasta óhlýðnastan óhlýðnastar óhlýðnasti óhlýðnastir óhlýðnastra óhlýðnastrar óhlýðnastri óhlýðnasts óhlýðnastur óhlýðni óhlýðnir óhlýðnu óhlýðnum óhlýðnust óhlýðnustu óhlýðnustum
+98	8598	vantrú	vantrúar vantrúarinnar vantrúin vantrúna vantrúnni
+99	8599	flinkur	flink flinka flinkan flinkar flinkara flinkari flinkast flinkasta flinkastan flinkastar flinkasti flinkastir flinkastra flinkastrar flinkastri flinkasts flinkastur flinki flinkir flinkra flinkrar flinkri flinks flinkt flinku flinkum flinkust flinkustu flinkustum
+100	8600	ritstýra	ritstýrandi ritstýrast ritstýri ritstýrir ritstýrið ritstýrst ritstýrt ritstýrum ritstýrð ritstýrða ritstýrðan ritstýrðar ritstýrði ritstýrðir ritstýrðra ritstýrðrar ritstýrðri ritstýrðs ritstýrðu ritstýrðum ritstýrður ritstýrðuð

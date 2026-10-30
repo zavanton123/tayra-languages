@@ -1,0 +1,100 @@
+1	5601	háttsettur	háttsett háttsetta háttsettan háttsettar háttsettara háttsettari háttsettast háttsettasta háttsettastan háttsettastar háttsettasti háttsettastir háttsettastra háttsettastrar háttsettastri háttsettasts háttsettastur háttsetti háttsettir háttsettra háttsettrar háttsettri háttsetts háttsettu háttsettum háttsettust háttsettustu háttsettustum
+2	5602	kynmök	kynmaka kynmakanna kynmökin kynmökum kynmökunum
+3	5603	rúsína	rúsínan rúsínanna rúsínu rúsínum rúsínuna rúsínunnar rúsínunni rúsínunum rúsínur rúsínurnar
+4	5604	flugur	
+5	5605	nánd	nánda nándanna nándar nándarinnar nándin nándina nándinni nándir nándirnar nándum nándunum
+6	5606	tja	
+7	5607	kapella	kapellan kapellanna kapellna kapellnanna kapellu kapellum kapelluna kapellunnar kapellunni kapellunum kapellur kapellurnar
+8	5608	tilbiðja	tilbað tilbaðst tilbeðin tilbeðinn tilbeðinna tilbeðinnar tilbeðinni tilbeðins tilbeðist tilbeðið tilbeðna tilbeðnar tilbeðni tilbeðnir tilbeðnu tilbeðnum tilbiddu tilbið tilbiðjandi tilbiðji tilbiðjir tilbiðjið tilbiðjum tilbiður tilbáðu tilbáðum tilbáðuð tilbæði tilbæðir tilbæðu tilbæðum tilbæðuð
+9	5609	matvara	matvaran matvaranna matvöru matvörum matvöruna matvörunnar matvörunni matvörunum matvörur matvörurnar
+10	5610	markvörður	markvarða markvarðanna markvarðar markvarðarins markverði markverðina markverðinum markverðir markverðirnir markvörð markvörðinn markvörðum markvörðunum markvörðurinn
+11	5611	ferlega	
+12	5612	steri	stera sterana sterann steranna sterans steranum sterar sterarnir sterinn sterum sterunum
+13	5613	fjólublár	fjólublá fjólubláa fjólubláan fjólubláar fjólubláast fjólubláasta fjólubláastan fjólubláastar fjólubláasti fjólubláastir fjólubláastra fjólubláastrar fjólubláastri fjólubláasts fjólubláastur fjólublái fjólubláir fjólublárra fjólublárrar fjólublárri fjólublás fjólublátt fjólubláu fjólubláum fjólubláust fjólubláustu fjólubláustum
+14	5614	fjölbreytileiki	fjölbreytileika fjölbreytileikann fjölbreytileikans fjölbreytileikanum fjölbreytileikinn
+15	5615	afgreiðsla	afgreiðslan afgreiðslna afgreiðslnanna afgreiðslu afgreiðslum afgreiðsluna afgreiðslunnar afgreiðslunni afgreiðslunum afgreiðslur afgreiðslurnar
+16	5616	gubba	gubbandi gubbar gubbast gubbað gubbaða gubbaðan gubbaðar gubbaði gubbaðir gubbaðirðu gubbaðist gubbaðra gubbaðrar gubbaðri gubbaðs gubbaðu gubbaður gubbi gubbir gubbist gubbið gubbum gubbumst gubbuð gubbuðu gubbuðum gubbuðumst gubbuðust gubbuðuð
+17	5617	bandaríkjadalur	bandaríkjadal bandaríkjadala bandaríkjadalanna bandaríkjadali bandaríkjadalina bandaríkjadalinn bandaríkjadalir bandaríkjadalirnir bandaríkjadalnum bandaríkjadals bandaríkjadalsins bandaríkjadalurinn bandaríkjadölum bandaríkjadölunum
+18	5618	landgönguliði	landgönguliða landgönguliðana landgönguliðann landgönguliðanna landgönguliðans landgönguliðanum landgönguliðar landgönguliðarnir landgönguliðinn landgönguliðum landgönguliðunum
+19	5619	árstími	árstíma árstímann árstímans árstímanum árstíminn
+20	5620	margfalda	margfaldandi margfaldar margfaldast margfaldað margfaldaða margfaldaðan margfaldaðar margfaldaði margfaldaðir margfaldaðist margfaldaðra margfaldaðrar margfaldaðri margfaldaðs margfaldaðu margfaldaður margfaldi margfaldir margfaldist margfaldið margföldum margföldumst margfölduð margfölduðu margfölduðum margfölduðumst margfölduðust margfölduðuð
+21	5621	málsgrein	málsgreina málsgreinanna málsgreinar málsgreinarinnar málsgreinarnar málsgreinin málsgreinina málsgreininni málsgreinum málsgreinunum
+22	5622	graf	grafa grafanna grafi grafinu grafið grafs grafsins gröf gröfin gröfum gröfunum
+23	5623	sexí	
+24	5624	skíthræddur	skíthrædd skíthrædda skíthræddan skíthræddar skíthræddi skíthræddir skíthræddra skíthræddrar skíthræddri skíthrædds skíthræddu skíthræddum skíthrætt
+25	5625	fjarstýring	fjarstýringa fjarstýringanna fjarstýringar fjarstýringarinnar fjarstýringarnar fjarstýringin fjarstýringu fjarstýringum fjarstýringuna fjarstýringunni fjarstýringunum
+26	5626	heigull	heigla heiglana heiglanna heiglar heiglarnir heigli heiglinum heiglum heiglunum heigul heigulinn heigullinn heiguls heigulsins
+27	5627	skarta	skartandi skartar skartað skartaði skartaðir skartaðu skarti skartir skartið skörtum skörtuðu skörtuðum skörtuðuð
+28	5628	menntavísindasvið	menntavísindasviða menntavísindasviðanna menntavísindasviði menntavísindasviðin menntavísindasviðinu menntavísindasviðið menntavísindasviðs menntavísindasviðsins menntavísindasviðum menntavísindasviðunum
+29	5629	lægð	lægða lægðanna lægðar lægðarinnar lægðin lægðina lægðinni lægðir lægðirnar lægðum lægðunum
+30	5630	varnarmaður	varnarmann varnarmanna varnarmannanna varnarmanni varnarmanninn varnarmanninum varnarmanns varnarmannsins varnarmaðurinn varnarmenn varnarmennina varnarmennirnir varnarmönnum varnarmönnunum
+31	5631	snertimark	snertimarka snertimarkanna snertimarki snertimarkinu snertimarkið snertimarks snertimarksins snertimörk snertimörkin snertimörkum snertimörkunum
+32	5632	ilmvatn	ilmvatna ilmvatnanna ilmvatni ilmvatninu ilmvatnið ilmvatns ilmvatnsins ilmvötn ilmvötnin ilmvötnum ilmvötnunum
+33	5633	samfarir	samfaranna samfarirnar samförum samförunum
+34	5634	víglína	víglínan víglínanna víglínu víglínum víglínuna víglínunnar víglínunni víglínunum víglínur víglínurnar
+35	5635	jafnmargur	jafnmarga jafnmargan jafnmargar jafnmargi jafnmargir jafnmargra jafnmargrar jafnmargri jafnmargs jafnmargt jafnmörg jafnmörgu jafnmörgum
+36	5636	klíka	klíkan klíkanna klíkna klíknanna klíku klíkum klíkuna klíkunnar klíkunni klíkunum klíkur klíkurnar
+37	5637	prik	prika prikanna priki prikin prikinu prikið priks priksins prikum prikunum
+38	5638	dulmál	dulmála dulmálanna dulmáli dulmálin dulmálinu dulmálið dulmáls dulmálsins dulmálum dulmálunum
+39	5639	umtalsvert	
+40	5640	kyngja	kyngdi kyngdir kyngdist kyngdu kyngdum kyngdumst kyngdust kyngduð kyngi kyngir kyngist kyngið kyngjandi kyngjast kyngjum kyngjumst kyngst kyngt
+41	5641	femínisti	femínista femínistana femínistann femínistanna femínistans femínistanum femínistar femínistarnir femínistinn femínistum femínistunum
+42	5642	hnetusmjör	hnetusmjöri hnetusmjörinu hnetusmjörið hnetusmjörs hnetusmjörsins
+43	5643	samkvæmi	samkvæma samkvæmanna samkvæmin samkvæminu samkvæmis samkvæmisins samkvæmið samkvæmum samkvæmunum
+44	5644	raf	rafa rafanna rafi rafinu rafið rafs rafsins röf röfin röfum röfunum
+45	5645	póker	pókerinn pókernum pókers pókersins
+46	5646	auglit	augliti auglitinu auglitið auglits auglitsins
+47	5647	líðan	líðanar líðanarinnar líðanin líðanina líðaninni
+48	5648	verðlag	verðlagi verðlaginu verðlagið verðlags verðlagsins
+49	5649	friðlýsa	friðlýsandi friðlýsast friðlýsi friðlýsir friðlýsist friðlýsið friðlýst friðlýsta friðlýstan friðlýstar friðlýsti friðlýstir friðlýstist friðlýstra friðlýstrar friðlýstri friðlýsts friðlýstu friðlýstum friðlýstumst friðlýstur friðlýstust friðlýstuð friðlýsum friðlýsumst
+50	5650	þroskaheftur	þroskaheft þroskahefta þroskaheftan þroskaheftar þroskaheftara þroskaheftari þroskaheftast þroskaheftasta þroskaheftastan þroskaheftastar þroskaheftasti þroskaheftastir þroskaheftastra þroskaheftastrar þroskaheftastri þroskaheftasts þroskaheftastur þroskahefti þroskaheftir þroskaheftra þroskaheftrar þroskaheftri þroskahefts þroskaheftu þroskaheftum þroskaheftust þroskaheftustu þroskaheftustum
+51	5651	ráðvilltur	ráðvillt ráðvillta ráðvilltan ráðvilltar ráðvilltara ráðvilltari ráðvilltast ráðvilltasta ráðvilltastan ráðvilltastar ráðvilltasti ráðvilltastir ráðvilltastra ráðvilltastrar ráðvilltastri ráðvilltasts ráðvilltastur ráðvillti ráðvilltir ráðvilltra ráðvilltrar ráðvilltri ráðvillts ráðvilltu ráðvilltum ráðvilltust ráðvilltustu ráðvilltustum
+52	5652	elskast	elskastu elskaðist elskaðistu elskist elskistu elskumst elskuðumst elskuðust
+53	5653	kvóti	kvóta kvótana kvótann kvótanna kvótans kvótanum kvótar kvótarnir kvótinn kvótum kvótunum
+54	5654	útsetning	útsetninga útsetninganna útsetningar útsetningarinnar útsetningarnar útsetningin útsetningu útsetningum útsetninguna útsetningunni útsetningunum
+55	5655	réttvísi	réttvísin réttvísina réttvísinnar réttvísinni
+56	5656	tíðum	
+57	5657	gáfulegur	gáfuleg gáfulega gáfulegan gáfulegar gáfulegast gáfulegasta gáfulegastan gáfulegastar gáfulegasti gáfulegastir gáfulegastra gáfulegastrar gáfulegastri gáfulegasts gáfulegastur gáfulegi gáfulegir gáfulegra gáfulegrar gáfulegri gáfulegs gáfulegt gáfulegu gáfulegum gáfulegust gáfulegustu gáfulegustum
+58	5658	gjörð	gjarða gjarðanna gjarðar gjarðarinnar gjarðir gjarðirnar gjörða gjörðanna gjörðar gjörðarinnar gjörðin gjörðina gjörðinni gjörðir gjörðirnar gjörðum gjörðunum
+59	5659	þröstur	þrasta þrastanna þrastar þrastarins þresti þrestina þrestinum þrestir þrestirnir þröst þröstinn þröstum þröstunum þrösturinn
+60	5660	dylja	dulda duldar duldi duldir duldist duldu duldum duldumst duldust dulduð dulin dulinn dulinna dulinnar dulinni dulins dulist dulið dyl dyldi dyldir dyldist dyldistu dyldu dyldum dyldumst dyldust dylduð dyljandi dyljast dylji dyljir dyljist dyljistu dyljið dyljum dyljumst dylst dylur
+61	5661	skinka	skinkan skinkanna skinku skinkum skinkuna skinkunnar skinkunni skinkunum skinkur skinkurnar
+62	5662	kippur	kipp kippa kippanna kippi kippina kippinn kippir kippirnir kippnum kipps kippsins kippum kippunum kippurinn
+63	5663	brýnn	brýn brýna brýnan brýnar brýnast brýnasta brýnastan brýnastar brýnasti brýnastir brýnastra brýnastrar brýnastri brýnasts brýnastur brýni brýnir brýnna brýnnar brýnni brýns brýnt brýnu brýnum brýnust brýnustu brýnustum
+64	5664	varalitur	varalit varalita varalitanna varalitar varalitarins varaliti varalitina varalitinn varalitir varalitirnir varalitnum varalitum varalitunum varaliturinn
+65	5665	kútur	kút kúta kútana kútanna kútar kútarnir kúti kútinn kútnum kúts kútsins kútum kútunum kúturinn
+66	5666	skrifstofustjóri	skrifstofustjóra skrifstofustjórana skrifstofustjórann skrifstofustjóranna skrifstofustjórans skrifstofustjóranum skrifstofustjórar skrifstofustjórarnir skrifstofustjórinn skrifstofustjórum skrifstofustjórunum
+67	5667	spjaldtölva	spjaldtölvan spjaldtölvanna spjaldtölvu spjaldtölvum spjaldtölvuna spjaldtölvunnar spjaldtölvunni spjaldtölvunum spjaldtölvur spjaldtölvurnar
+68	5668	meistaranám	meistaranámi meistaranáminu meistaranámið meistaranáms meistaranámsins
+69	5669	koltvísýringur	koltvísýring koltvísýringa koltvísýringana koltvísýringanna koltvísýringar koltvísýringarnir koltvísýringi koltvísýringinn koltvísýringnum koltvísýrings koltvísýringsins koltvísýringum koltvísýringunum koltvísýringurinn
+70	5670	óstöðugur	óstöðug óstöðuga óstöðugan óstöðugar óstöðugast óstöðugasta óstöðugastan óstöðugastar óstöðugasti óstöðugastir óstöðugastra óstöðugastrar óstöðugastri óstöðugasts óstöðugastur óstöðugi óstöðugir óstöðugra óstöðugrar óstöðugri óstöðugs óstöðugt óstöðugu óstöðugum óstöðugust óstöðugustu óstöðugustum
+71	5671	einhliða	
+72	5672	ýr	ý ýinn ýnum ýrinn ýs ýsins
+73	5673	samhljóði	samhljóða samhljóðana samhljóðann samhljóðanna samhljóðans samhljóðanum samhljóðar samhljóðarnir samhljóðinn samhljóðum samhljóðunum
+74	5674	gestrisni	gestrisnin gestrisnina gestrisninnar gestrisninni
+75	5675	baggi	bagga baggana baggann bagganna baggans bagganum baggar baggarnir bagginn böggum böggunum
+76	5676	sunnanverður	sunnanvert sunnanverð sunnanverða sunnanverðan sunnanverðar sunnanverði sunnanverðir sunnanverðra sunnanverðrar sunnanverðri sunnanverðs sunnanverðu sunnanverðum
+77	5677	hallærislegur	hallærisleg hallærislega hallærislegan hallærislegar hallærislegast hallærislegasta hallærislegastan hallærislegastar hallærislegasti hallærislegastir hallærislegastra hallærislegastrar hallærislegastri hallærislegasts hallærislegastur hallærislegi hallærislegir hallærislegra hallærislegrar hallærislegri hallærislegs hallærislegt hallærislegu hallærislegum hallærislegust hallærislegustu hallærislegustum
+78	5678	golfklúbbur	golfklúbb golfklúbba golfklúbbana golfklúbbanna golfklúbbar golfklúbbarnir golfklúbbi golfklúbbinn golfklúbbnum golfklúbbs golfklúbbsins golfklúbbum golfklúbbunum golfklúbburinn
+79	5679	óbeint	
+80	5680	herfylki	herfylkin herfylkinu herfylkis herfylkisins herfylkið herfylkja herfylkjanna herfylkjum herfylkjunum
+81	5681	vesturbær	vesturbæ vesturbæi vesturbæina vesturbæinn vesturbæir vesturbæirnir vesturbæja vesturbæjanna vesturbæjar vesturbæjarins vesturbæjum vesturbæjunum vesturbænum vesturbærinn
+82	5682	þarfur	þarfa þarfan þarfar þarfara þarfari þarfast þarfasta þarfastan þarfastar þarfasti þarfastir þarfastra þarfastrar þarfastri þarfasts þarfastur þarfi þarfir þarfra þarfrar þarfri þarfs þarft þörf þörfu þörfum þörfust þörfustu þörfustum
+83	5683	forvitnilegur	forvitnileg forvitnilega forvitnilegan forvitnilegar forvitnilegast forvitnilegasta forvitnilegastan forvitnilegastar forvitnilegasti forvitnilegastir forvitnilegastra forvitnilegastrar forvitnilegastri forvitnilegasts forvitnilegastur forvitnilegi forvitnilegir forvitnilegra forvitnilegrar forvitnilegri forvitnilegs forvitnilegt forvitnilegu forvitnilegum forvitnilegust forvitnilegustu forvitnilegustum
+84	5684	áhlaup	áhlaupa áhlaupanna áhlaupi áhlaupin áhlaupinu áhlaupið áhlaups áhlaupsins áhlaupum áhlaupunum
+85	5685	vansæll	vansæl vansæla vansælan vansælar vansælast vansælasta vansælastan vansælastar vansælasti vansælastir vansælastra vansælastrar vansælastri vansælasts vansælastur vansæli vansælir vansælla vansællar vansælli vansæls vansælt vansælu vansælum vansælust vansælustu vansælustum
+86	5686	tyrkneskur	tyrknesk tyrkneska tyrkneskan tyrkneskar tyrkneskara tyrkneskari tyrkneskast tyrkneskasta tyrkneskastan tyrkneskastar tyrkneskasti tyrkneskastir tyrkneskastra tyrkneskastrar tyrkneskastri tyrkneskasts tyrkneskastur tyrkneski tyrkneskir tyrkneskra tyrkneskrar tyrkneskri tyrknesks tyrkneskt tyrknesku tyrkneskum tyrkneskust tyrkneskustu tyrkneskustum
+87	5687	afsala	afsalandi afsalar afsalarðu afsalast afsalað afsalaða afsalaðan afsalaðar afsalaði afsalaðir afsalaðist afsalaðra afsalaðrar afsalaðri afsalaðs afsalaðu afsalaður afsali afsalir afsalist afsalið afsölum afsölumst afsöluð afsöluðu afsöluðum afsöluðumst afsöluðust afsöluðuð
+88	5688	leikvöllur	leikvalla leikvallanna leikvallar leikvallarins leikvelli leikvellina leikvellinum leikvellir leikvellirnir leikvöll leikvöllinn leikvöllum leikvöllunum leikvöllurinn
+89	5689	slagorð	slagorða slagorðanna slagorði slagorðin slagorðinu slagorðið slagorðs slagorðsins slagorðum slagorðunum
+90	5690	orðræða	orðræðan orðræðanna orðræðna orðræðnanna orðræðu orðræðum orðræðuna orðræðunnar orðræðunni orðræðunum orðræður orðræðurnar
+91	5691	sjeik	sjeika sjeikana sjeikanna sjeikar sjeikarnir sjeikinn sjeiknum sjeiks sjeiksins sjeikum sjeikunum
+92	5692	tónlistarhátíð	tónlistarhátíða tónlistarhátíðanna tónlistarhátíðar tónlistarhátíðarinnar tónlistarhátíðin tónlistarhátíðina tónlistarhátíðinni tónlistarhátíðir tónlistarhátíðirnar tónlistarhátíðum tónlistarhátíðunum
+93	5693	gæs	gæsa gæsanna gæsar gæsarinnar gæsin gæsina gæsinni gæsir gæsirnar gæsum gæsunum
+94	5694	stef	stefi stefin stefinu stefið stefja stefjanna stefjum stefjunum stefs stefsins
+95	5695	hringlaga	
+96	5696	einfalda	einfaldandi einfaldar einfaldast einfaldað einfaldaða einfaldaðan einfaldaðar einfaldaði einfaldaðir einfaldaðist einfaldaðra einfaldaðrar einfaldaðri einfaldaðs einfaldaðu einfaldaður einfaldi einfaldir einfaldist einfaldið einföldum einföldumst einfölduð einfölduðu einfölduðum einfölduðumst einfölduðust einfölduðuð
+97	5697	ágóði	ágóða ágóðann ágóðans ágóðanum ágóðinn
+98	5698	manngerð	manngerða manngerðanna manngerðar manngerðarinnar manngerðin manngerðina manngerðinni manngerðir manngerðirnar manngerðum manngerðunum
+99	5699	varmur	varma varman varmar varmara varmari varmast varmasta varmastan varmastar varmasti varmastir varmastra varmastrar varmastri varmasts varmastur varmi varmir varmra varmrar varmri varms varmt vörm vörmu vörmum vörmust vörmustu vörmustum
+100	5700	myndataka	myndatakan myndatakanna myndatakna myndataknanna myndatöku myndatökum myndatökuna myndatökunnar myndatökunni myndatökunum myndatökur myndatökurnar

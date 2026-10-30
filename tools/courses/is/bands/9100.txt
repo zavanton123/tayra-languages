@@ -1,0 +1,100 @@
+1	9001	ógilding	ógildinga ógildinganna ógildingar ógildingarinnar ógildingarnar ógildingin ógildingu ógildingum ógildinguna ógildingunni ógildingunum
+2	9002	leikskólakennari	leikskólakennara leikskólakennarana leikskólakennarann leikskólakennaranna leikskólakennarans leikskólakennaranum leikskólakennarar leikskólakennararnir leikskólakennarinn leikskólakennurum leikskólakennurunum
+3	9003	garpur	garp garpa garpana garpanna garpar garparnir garpi garpinn garpinum garps garpsins garpurinn görpum görpunum
+4	9004	mangó	mangóa mangóanna mangói mangóin mangóinu mangóið mangós mangósins mangóum mangóunum
+5	9005	drifkraftur	drifkraft drifkrafta drifkraftana drifkraftanna drifkraftar drifkraftarnir drifkrafti drifkraftinn drifkraftinum drifkrafts drifkraftsins drifkrafturinn drifkröftum drifkröftunum
+6	9006	fulltrúaráð	fulltrúaráða fulltrúaráðanna fulltrúaráði fulltrúaráðin fulltrúaráðinu fulltrúaráðið fulltrúaráðs fulltrúaráðsins fulltrúaráðum fulltrúaráðunum
+7	9007	skauta	skautandi skautar skautast skautað skautaða skautaðan skautaðar skautaði skautaðir skautaðist skautaðra skautaðrar skautaðri skautaðs skautaðu skautaður skauti skautir skautist skautið skautum skautumst skautuð skautuðu skautuðum skautuðumst skautuðust skautuðuð
+8	9008	grænlenska	grænlenskan grænlensku grænlenskuna grænlenskunnar grænlenskunni
+9	9009	ruglingslegur	ruglingsleg ruglingslega ruglingslegan ruglingslegar ruglingslegast ruglingslegasta ruglingslegastan ruglingslegastar ruglingslegasti ruglingslegastir ruglingslegastra ruglingslegastrar ruglingslegastri ruglingslegasts ruglingslegastur ruglingslegi ruglingslegir ruglingslegra ruglingslegrar ruglingslegri ruglingslegs ruglingslegt ruglingslegu ruglingslegum ruglingslegust ruglingslegustu ruglingslegustum
+10	9010	prédika	prédikandi prédikar prédikast prédikastu prédikað prédikaða prédikaðan prédikaðar prédikaði prédikaðir prédikaðist prédikaðra prédikaðrar prédikaðri prédikaðs prédikaðu prédikaður prédiki prédikir prédikist prédikið prédikum prédikumst prédikuð prédikuðu prédikuðum prédikuðumst prédikuðust prédikuðuð
+11	9011	hampa	hampandi hampar hampað hampaði hampaðir hampaðu hampi hampir hampið hömpum hömpuðu hömpuðum hömpuðuð
+12	9012	allavegana	
+13	9013	maja	
+14	9014	rannsóknarvinna	rannsóknarvinnan rannsóknarvinnu rannsóknarvinnuna rannsóknarvinnunnar rannsóknarvinnunni
+15	9015	vindmylla	vindmyllan vindmyllanna vindmyllna vindmyllnanna vindmyllu vindmyllum vindmylluna vindmyllunnar vindmyllunni vindmyllunum vindmyllur vindmyllurnar
+16	9016	verkamannaflokkur	verkamannaflokk verkamannaflokka verkamannaflokkana verkamannaflokkanna verkamannaflokkar verkamannaflokkarnir verkamannaflokki verkamannaflokkinn verkamannaflokknum verkamannaflokks verkamannaflokksins verkamannaflokkum verkamannaflokkunum verkamannaflokkurinn
+17	9017	glampi	glampa glampana glampann glampanna glampans glampanum glampar glamparnir glampinn glömpum glömpunum
+18	9018	netfang	netfanga netfanganna netfangi netfanginu netfangið netfangs netfangsins netföng netföngin netföngum netföngunum
+19	9019	heiðursgestur	heiðursgest heiðursgesta heiðursgestanna heiðursgesti heiðursgestina heiðursgestinn heiðursgestinum heiðursgestir heiðursgestirnir heiðursgests heiðursgestsins heiðursgestum heiðursgestunum heiðursgesturinn
+20	9020	einsemd	einsemdar einsemdarinnar einsemdin einsemdina einsemdinni
+21	9021	meistarakeppni	meistarakeppna meistarakeppnanna meistarakeppnin meistarakeppnina meistarakeppninnar meistarakeppninni meistarakeppnir meistarakeppnirnar meistarakeppnum meistarakeppnunum
+22	9022	bat	bata batanna bati batinu batið bats batsins böt bötin bötum bötunum
+23	9023	framgengt	
+24	9024	seiling	seilingar
+25	9025	sláturhús	sláturhúsa sláturhúsanna sláturhúsi sláturhúsin sláturhúsinu sláturhúsið sláturhúss sláturhússins sláturhúsum sláturhúsunum
+26	9026	sóði	sóða sóðana sóðann sóðanna sóðans sóðanum sóðar sóðarnir sóðinn sóðum sóðunum
+27	9027	góa	góan góu góuna góunnar góunni
+28	9028	mánudagsmorgunn	mánudagsmorgna mánudagsmorgnana mánudagsmorgnanna mánudagsmorgnar mánudagsmorgnarnir mánudagsmorgni mánudagsmorgninum mánudagsmorgnum mánudagsmorgnunum mánudagsmorgun mánudagsmorguninn mánudagsmorgunninn mánudagsmorguns mánudagsmorgunsins
+29	9029	landsteinar	landsteina landsteinana landsteinanna landsteinarnir landsteinum landsteinunum
+30	9030	réttarstaða	réttarstaðan réttarstöðu réttarstöðuna réttarstöðunnar réttarstöðunni
+31	9031	hósti	hósta hóstana hóstann hóstanna hóstans hóstanum hóstar hóstarnir hóstinn hóstum hóstunum
+32	9032	blaðagrein	blaðagreina blaðagreinanna blaðagreinar blaðagreinarinnar blaðagreinarnar blaðagreinin blaðagreinina blaðagreininni blaðagreinum blaðagreinunum
+33	9033	undursamlegur	undursamleg undursamlega undursamlegan undursamlegar undursamlegast undursamlegasta undursamlegastan undursamlegastar undursamlegasti undursamlegastir undursamlegastra undursamlegastrar undursamlegastri undursamlegasts undursamlegastur undursamlegi undursamlegir undursamlegra undursamlegrar undursamlegri undursamlegs undursamlegt undursamlegu undursamlegum undursamlegust undursamlegustu undursamlegustum
+34	9034	hernám	hernámi hernáminu hernámið hernáms hernámsins
+35	9035	manngerður	manngert manngerð manngerða manngerðan manngerðar manngerði manngerðir manngerðra manngerðrar manngerðri manngerðs manngerðu manngerðum
+36	9036	hnakkur	hnakk hnakka hnakkana hnakkanna hnakkar hnakkarnir hnakki hnakkinn hnakkinum hnakknum hnakks hnakksins hnakkurinn hnökkum hnökkunum
+37	9037	stórsigur	stórsigra stórsigrana stórsigranna stórsigrar stórsigrarnir stórsigri stórsigrinum stórsigrum stórsigrunum stórsigurinn stórsigurs stórsigursins
+38	9038	aðventa	aðventan aðventu aðventuna aðventunnar aðventunni
+39	9039	þingsályktun	þingsályktana þingsályktananna þingsályktanir þingsályktanirnar þingsályktunar þingsályktunarinnar þingsályktunin þingsályktunina þingsályktuninni þingsályktunum þingsályktununum
+40	9040	trúnaðarmaður	trúnaðarmann trúnaðarmanna trúnaðarmannanna trúnaðarmanni trúnaðarmanninn trúnaðarmanninum trúnaðarmanns trúnaðarmannsins trúnaðarmaðurinn trúnaðarmenn trúnaðarmennina trúnaðarmennirnir trúnaðarmönnum trúnaðarmönnunum
+41	9041	íslamskur	íslamska íslamskan íslamskar íslamski íslamskir íslamskra íslamskrar íslamskri íslamsks íslamskt íslömsk íslömsku íslömskum
+42	9042	einfaldleiki	einfaldleika einfaldleikann einfaldleikans einfaldleikanum einfaldleikinn
+43	9043	skyldmenni	skyldmenna skyldmennanna skyldmennin skyldmenninu skyldmennis skyldmennisins skyldmennið skyldmennum skyldmennunum
+44	9044	ártal	ártala ártalanna ártali ártalinu ártalið ártals ártalsins ártöl ártölin ártölum ártölunum
+45	9045	aðhald	aðhalda aðhaldi aðhaldinu aðhaldið aðhalds aðhaldsins
+46	9046	áætlunarflug	áætlunarfluga áætlunarfluganna áætlunarflugi áætlunarflugin áætlunarfluginu áætlunarflugið áætlunarflugs áætlunarflugsins áætlunarflugum áætlunarflugunum
+47	9047	rannsóknastofnun	rannsóknastofnana rannsóknastofnananna rannsóknastofnanir rannsóknastofnanirnar rannsóknastofnunar rannsóknastofnunarinnar rannsóknastofnunin rannsóknastofnunina rannsóknastofnuninni rannsóknastofnunum rannsóknastofnununum
+48	9048	rabba	rabbandi rabbar rabbað rabbaði rabbaðir rabbaðu rabbi rabbir rabbið röbbum röbbuðu röbbuðum röbbuðuð
+49	9049	tenór	tenóra tenórana tenóranna tenórar tenórarnir tenórinn tenórnum tenórs tenórsins tenórum tenórunum
+50	9050	líkamshiti	líkamshita líkamshitann líkamshitans líkamshitanum líkamshitinn
+51	9051	samba	samban sambanna sambna sambnanna sömbu sömbum sömbuna sömbunnar sömbunni sömbunum sömbur sömburnar
+52	9052	skeljungur	skeljung skeljunga skeljungana skeljunganna skeljungar skeljungarnir skeljungi skeljunginn skeljungnum skeljungs skeljungsins skeljungum skeljungunum skeljungurinn
+53	9053	milliliður	millilið milliliða milliliðanna milliliðar milliliðarins milliliði milliliðina milliliðinn milliliðir milliliðirnir milliliðnum milliliðs milliliðsins milliliðum milliliðunum milliliðurinn
+54	9054	kragi	kraga kragana kragann kraganna kragans kraganum kragar kragarnir kraginn krögum krögunum
+55	9055	bruna	brunandi brunar brunað brunaða brunaðan brunaðar brunaði brunaðir brunaðra brunaðrar brunaðri brunaðs brunaðu brunaður bruni brunir brunið brunum brunuð brunuðu brunuðum brunuðuð
+56	9056	stikna	stiknandi stiknar stiknað stiknaða stiknaðan stiknaðar stiknaði stiknaðir stiknaðra stiknaðrar stiknaðri stiknaðs stiknaðu stiknaður stikni stiknir stiknið stiknum stiknuð stiknuðu stiknuðum stiknuðuð
+57	9057	öngull	öngla önglana önglanna önglar önglarnir öngli önglinum önglum önglunum öngul öngulinn öngullinn önguls öngulsins
+58	9058	hnoða	hnoðandi hnoðanna hnoðans hnoðanu hnoðar hnoðarðu hnoðast hnoðað hnoðaða hnoðaðan hnoðaðar hnoðaði hnoðaðir hnoðaðist hnoðaðra hnoðaðrar hnoðaðri hnoðaðs hnoðaðu hnoðaður hnoði hnoðir hnoðist hnoðið hnoðu hnoðum hnoðumst hnoðun hnoðunum hnoðuð hnoðuðu hnoðuðum hnoðuðumst hnoðuðust hnoðuðuð
+59	9059	lagfæring	lagfæringa lagfæringanna lagfæringar lagfæringarinnar lagfæringarnar lagfæringin lagfæringu lagfæringum lagfæringuna lagfæringunni lagfæringunum
+60	9060	kringlóttur	kringlótt kringlótta kringlóttan kringlóttar kringlóttara kringlóttari kringlóttast kringlóttasta kringlóttastan kringlóttastar kringlóttasti kringlóttastir kringlóttastra kringlóttastrar kringlóttastri kringlóttasts kringlóttastur kringlótti kringlóttir kringlóttra kringlóttrar kringlóttri kringlótts kringlóttu kringlóttum kringlóttust kringlóttustu kringlóttustum
+61	9061	frakkur	frakka frakkan frakkar frakkara frakkari frakkast frakkasta frakkastan frakkastar frakkasti frakkastir frakkastra frakkastrar frakkastri frakkasts frakkastur frakki frakkir frakkra frakkrar frakkri frakks frakkt frökk frökku frökkum frökkust frökkustu frökkustum
+62	9062	mannamál	mannamála mannamálanna mannamáli mannamálin mannamálinu mannamálið mannamáls mannamálsins mannamálum mannamálunum
+63	9063	samneyti	samneyta samneytanna samneytin samneytinu samneytis samneytisins samneytið samneytum samneytunum
+64	9064	víxl	víxla víxlanna víxli víxlin víxlinu víxlið víxls víxlsins víxlum víxlunum
+65	9065	kaþólikki	kaþólikka kaþólikkana kaþólikkann kaþólikkanna kaþólikkans kaþólikkanum kaþólikkar kaþólikkarnir kaþólikkinn kaþólikkum kaþólikkunum
+66	9066	landslög	landslaga landslaganna landslögin landslögum landslögunum
+67	9067	myndskreyta	myndskreyst myndskreytandi myndskreytast myndskreyti myndskreytir myndskreytist myndskreytið myndskreytt myndskreytta myndskreyttan myndskreyttar myndskreytti myndskreyttir myndskreyttist myndskreyttra myndskreyttrar myndskreyttri myndskreytts myndskreyttu myndskreyttum myndskreyttumst myndskreyttur myndskreyttust myndskreyttuð myndskreytum myndskreytumst
+68	9068	markaðsverð	markaðsverði markaðsverðinu markaðsverðið markaðsverðs markaðsverðsins
+69	9069	skóflustunga	skóflustungan skóflustungna skóflustungnanna skóflustungu skóflustungum skóflustunguna skóflustungunnar skóflustungunni skóflustungunum skóflustungur skóflustungurnar
+70	9070	usli	usla uslana uslann uslanna uslans uslanum uslar uslarnir uslinn uslum uslunum
+71	9071	þurrkun	þurrkana þurrkananna þurrkanir þurrkanirnar þurrkunar þurrkunarinnar þurrkunin þurrkunina þurrkuninni þurrkunum þurrkununum
+72	9072	gamna	gamnandi gamnar gamnarðu gamnast gamnað gamnaða gamnaðan gamnaðar gamnaði gamnaðir gamnaðist gamnaðra gamnaðrar gamnaðri gamnaðs gamnaðu gamnaður gamni gamnir gamnist gamnið gömnum gömnumst gömnuð gömnuðu gömnuðum gömnuðumst gömnuðust gömnuðuð
+73	9073	ítak	ítaka ítakanna ítaki ítakinu ítakið ítaks ítaksins ítök ítökin ítökum ítökunum
+74	9074	fjöldamargur	fjöldamarga fjöldamargan fjöldamargar fjöldamargi fjöldamargir fjöldamargra fjöldamargrar fjöldamargri fjöldamargs fjöldamargt fjöldamörg fjöldamörgu fjöldamörgum
+75	9075	hrörnun	hrörnunar hrörnunarinnar hrörnunin hrörnunina hrörnuninni
+76	9076	orðasamband	orðasambanda orðasambandanna orðasambandi orðasambandinu orðasambandið orðasambands orðasambandsins orðasambönd orðasamböndin orðasamböndum orðasamböndunum
+77	9077	millifærsla	millifærslan millifærslna millifærslnanna millifærslu millifærslum millifærsluna millifærslunnar millifærslunni millifærslunum millifærslur millifærslurnar
+78	9078	íhaldsmaður	íhaldsmann íhaldsmanna íhaldsmannanna íhaldsmanni íhaldsmanninn íhaldsmanninum íhaldsmanns íhaldsmannsins íhaldsmaðurinn íhaldsmenn íhaldsmennina íhaldsmennirnir íhaldsmönnum íhaldsmönnunum
+79	9079	forval	forvali forvalinu forvalið forvals forvalsins
+80	9080	galdra	galdrandi galdrar galdrast galdrað galdraða galdraðan galdraðar galdraði galdraðir galdraðist galdraðra galdraðrar galdraðri galdraðs galdraðu galdraður galdri galdrir galdrist galdrið göldrum göldrumst göldruð göldruðu göldruðum göldruðumst göldruðust göldruðuð
+81	9081	ofsjón	ofsjóna ofsjónanna ofsjónar ofsjónarinnar ofsjónin ofsjónina ofsjóninni ofsjónir ofsjónirnar ofsjónum ofsjónunum
+82	9082	handtaska	handtaskan handtaskanna handtösku handtöskum handtöskuna handtöskunnar handtöskunni handtöskunum handtöskur handtöskurnar
+83	9083	flökurt	
+84	9084	tilfinningalaus	tilfinningalausa tilfinningalausan tilfinningalausar tilfinningalausara tilfinningalausari tilfinningalausast tilfinningalausasta tilfinningalausastan tilfinningalausastar tilfinningalausasti tilfinningalausastir tilfinningalausastra tilfinningalausastrar tilfinningalausastri tilfinningalausasts tilfinningalausastur tilfinningalausi tilfinningalausir tilfinningalausra tilfinningalausrar tilfinningalausri tilfinningalauss tilfinningalaust tilfinningalausu tilfinningalausum tilfinningalausust tilfinningalausustu tilfinningalausustum
+85	9085	geðveikrahæli	geðveikrahæla geðveikrahælanna geðveikrahælin geðveikrahælinu geðveikrahælis geðveikrahælisins geðveikrahælið geðveikrahælum geðveikrahælunum
+86	9086	yggla	ygglandi ygglast yggld ygglda yggldan yggldar yggldi yggldir yggldist yggldra yggldrar yggldri ygglds yggldu yggldum yggldumst yggldur yggldust ygglduð yggli ygglir ygglist ygglið ygglst ygglt ygglum ygglumst
+87	9087	dádýr	dádýra dádýranna dádýri dádýrin dádýrinu dádýrið dádýrs dádýrsins dádýrum dádýrunum
+88	9088	hland	hlandi hlandinu hlandið hlands hlandsins
+89	9089	pappírsvinna	pappírsvinnan pappírsvinnu pappírsvinnuna pappírsvinnunnar pappírsvinnunni
+90	9090	snotur	snotra snotran snotrar snotrara snotrari snotrast snotrasta snotrastan snotrastar snotrasti snotrastir snotrastra snotrastrar snotrastri snotrasts snotrastur snotri snotrir snotru snotrum snotrust snotrustu snotrustum snoturra snoturrar snoturri snoturs snoturt
+91	9091	snaróður	snarótt snaróð snaróða snaróðan snaróðar snaróðara snaróðari snaróðast snaróðasta snaróðastan snaróðastar snaróðasti snaróðastir snaróðastra snaróðastrar snaróðastri snaróðasts snaróðastur snaróði snaróðir snaróðra snaróðrar snaróðri snaróðs snaróðu snaróðum snaróðust snaróðustu snaróðustum
+92	9092	glæpon	glæpona glæponana glæponanna glæponar glæponarnir glæponi glæponinn glæponinum glæpons glæponsins glæponum glæponunum
+93	9093	ranka	rankandi rankar rankað rankaði rankaðir rankaðu ranki rankir rankið rönkum rönkuðu rönkuðum rönkuðuð
+94	9094	leigumorðingi	leigumorðinginn leigumorðingja leigumorðingjana leigumorðingjann leigumorðingjanna leigumorðingjans leigumorðingjanum leigumorðingjar leigumorðingjarnir leigumorðingjum leigumorðingjunum
+95	9095	kjöthleifur	kjöthleif kjöthleifa kjöthleifana kjöthleifanna kjöthleifar kjöthleifarnir kjöthleifi kjöthleifinn kjöthleifnum kjöthleifs kjöthleifsins kjöthleifum kjöthleifunum kjöthleifurinn
+96	9096	jarfi	jarfa jarfana jarfann jarfanna jarfans jarfanum jarfar jarfarnir jarfinn jörfum jörfunum
+97	9097	sporður	sporð sporða sporðana sporðanna sporðar sporðarnir sporði sporðinn sporðinum sporðs sporðsins sporðum sporðunum sporðurinn
+98	9098	fótboltaleikur	fótboltaleik fótboltaleiki fótboltaleikina fótboltaleikinn fótboltaleikir fótboltaleikirnir fótboltaleikja fótboltaleikjanna fótboltaleikjum fótboltaleikjunum fótboltaleiknum fótboltaleiks fótboltaleiksins fótboltaleikurinn
+99	9099	sjálfumglaður	sjálfumglatt sjálfumglaða sjálfumglaðan sjálfumglaðar sjálfumglaðara sjálfumglaðari sjálfumglaðast sjálfumglaðasta sjálfumglaðastan sjálfumglaðastar sjálfumglaðasti sjálfumglaðastir sjálfumglaðastra sjálfumglaðastrar sjálfumglaðastri sjálfumglaðasts sjálfumglaðastur sjálfumglaði sjálfumglaðir sjálfumglaðra sjálfumglaðrar sjálfumglaðri sjálfumglaðs sjálfumglöð sjálfumglöðu sjálfumglöðum sjálfumglöðust sjálfumglöðustu sjálfumglöðustum
+100	9100	þakkargjörðarhátíð	þakkargjörðarhátíða þakkargjörðarhátíðanna þakkargjörðarhátíðar þakkargjörðarhátíðarinnar þakkargjörðarhátíðin þakkargjörðarhátíðina þakkargjörðarhátíðinni þakkargjörðarhátíðir þakkargjörðarhátíðirnar þakkargjörðarhátíðum þakkargjörðarhátíðunum

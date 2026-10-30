@@ -1,0 +1,100 @@
+1	201	lið	liða liðanna liði liðin liðinu liðið liðs liðsins liðum liðunum
+2	202	bíll	bíl bíla bílana bílanna bílar bílarnir bílinn bíllinn bílnum bíls bílsins bílum bílunum
+3	203	skipta	skipt skiptan skiptandi skiptar skipti skiptir skiptirðu skiptið skiptra skiptrar skiptri skipts skiptu skiptum skiptur skiptuð
+4	204	hringja	hringd hringda hringdan hringdar hringdi hringdir hringdirðu hringdist hringdra hringdrar hringdri hringds hringdu hringdum hringdumst hringdur hringdust hringduð hringi hringir hringirðu hringist hringið hringjandi hringjast hringjum hringjumst hringst hringt
+5	205	snemma	fyrr
+6	206	sonur	son sona sonanna sonar sonarins soninn sonum sonunum sonurinn syni synina syninum synir synirnir
+7	207	vika	vikan vikna viknanna viku vikum vikuna vikunnar vikunni vikunum vikur vikurnar
+8	208	leita	leitandi leitar leitað leitaða leitaðan leitaðar leitaði leitaðir leitaðra leitaðrar leitaðri leitaðs leitaðu leitaður leiti leitir leitið leitum leituð leituðu leituðum leituðuð
+9	209	hægt	hægar hægara hægast
+10	210	fyrst	
+11	211	ásamt	
+12	212	sækja	sæki sækir sækirðu sækist sækistu sækið sækjandi sækjast sækjum sækjumst sækti sæktir sæktirðu sæktist sæktistu sæktu sæktum sæktumst sæktust sæktuð sóst sótt sótta sóttan sóttar sótti sóttir sóttirðu sóttist sóttistu sóttra sóttrar sóttri sótts sóttu sóttum sóttumst sóttur sóttust sóttuð
+13	213	sannur	sann sanna sannan sannar sannara sannari sannast sannasta sannastan sannastar sannasti sannastir sannastra sannastrar sannastri sannasts sannastur sanni sannir sannra sannrar sannri sanns satt sönn sönnu sönnum sönnust sönnustu sönnustum
+14	214	fyrirgefa	fyrirgaf fyrirgafst fyrirgafstu fyrirgef fyrirgefandi fyrirgefast fyrirgefi fyrirgefin fyrirgefinn fyrirgefinna fyrirgefinnar fyrirgefinni fyrirgefins fyrirgefir fyrirgefist fyrirgefið fyrirgefiði fyrirgefna fyrirgefnar fyrirgefni fyrirgefnir fyrirgefnu fyrirgefnum fyrirgefst fyrirgefum fyrirgefumst fyrirgefur fyrirgefurðu fyrirgefðu fyrirgáfu fyrirgáfum fyrirgáfumst fyrirgáfust fyrirgáfuð fyrirgæfi fyrirgæfir fyrirgæfist fyrirgæfu fyrirgæfum fyrirgæfumst fyrirgæfust fyrirgæfuð
+15	215	bók	bækur bækurnar bóka bókanna bókar bókarinnar bókin bókina bókinni bókum bókunum
+16	216	skrifa	skrifandi skrifar skrifarðu skrifast skrifað skrifaða skrifaðan skrifaðar skrifaði skrifaðir skrifaðirðu skrifaðist skrifaðra skrifaðrar skrifaðri skrifaðs skrifaðu skrifaður skrifi skrifir skrifist skrifið skrifum skrifumst skrifuð skrifuðu skrifuðum skrifuðumst skrifuðust skrifuðuð
+17	217	þakka	þakkandi þakkar þakkarðu þakkast þakkað þakkaða þakkaðan þakkaðar þakkaði þakkaðir þakkaðist þakkaðra þakkaðrar þakkaðri þakkaðs þakkaðu þakkaður þakki þakkir þakkist þakkið þökkum þökkumst þökkuð þökkuðu þökkuðum þökkuðumst þökkuðust þökkuðuð
+18	218	starf	starfa starfanna starfi starfinu starfið starfs starfsins störf störfin störfum störfunum
+19	219	félag	félaga félaganna félagi félaginu félagið félags félagsins félög félögin félögum félögunum
+20	220	þekkja	þekki þekkir þekkirðu þekkist þekkistu þekkið þekkiði þekkjandi þekkjast þekkjum þekkjumst þekkst þekkt þekkta þekktan þekktar þekkti þekktir þekktirðu þekktist þekktistu þekktra þekktrar þekktri þekkts þekktu þekktum þekktumst þekktur þekktust þekktuð
+21	221	hingað	
+22	222	nema	nam namst nem nemandi nemdu nemi nemir nemið nemum nemur numda numdar numdi numdir numdu numdum numin numinn numinna numinnar numinni numins numið námu námum námuð næmi næmir næmu næmum næmuð
+23	223	borg	borga borganna borgar borgarinnar borgin borgina borginni borgir borgirnar borgum borgunum
+24	224	spyrja	spurst spurt spurð spurða spurðan spurðar spurði spurðir spurðirðu spurðist spurðistu spurðra spurðrar spurðri spurðs spurðu spurðum spurðumst spurður spurðust spurðuð spyr spyrjandi spyrjast spyrji spyrjir spyrjirðu spyrjist spyrjið spyrjum spyrjumst spyrst spyrstu spyrð spyrði spyrðir spyrðist spyrðu spyrðum spyrðumst spyrðust spyrðuð
+25	225	stjórn	stjórna stjórnanna stjórnar stjórnarinnar stjórnin stjórnina stjórninni stjórnir stjórnirnar stjórnum stjórnunum
+26	226	orð	orða orðanna orði orðin orðinu orðið orðs orðsins orðum orðunum
+27	227	meðal	meðala meðalanna meðali meðalinu meðalið meðals meðalsins meðul meðulin meðulum meðulunum meðöl meðölin
+28	228	lifa	lifandi lifað lifi lifir lifirðu lifið lifum lifði lifðir lifðirðu lifðu lifðum lifðuð
+29	229	morgunn	morgna morgnana morgnanna morgnar morgnarnir morgni morgninum morgnum morgnunum morgun morguninn morgunninn morguns morgunsins
+30	230	skjóta	skaust skaustu skaut skjóstu skjótandi skjótast skjóti skjótir skjótist skjótið skjótiði skjóttu skjótum skjótumst skotin skotinn skotinna skotinnar skotinni skotins skotist skotið skotna skotnar skotni skotnir skotnu skotnum skutu skutum skutumst skutust skutuð skyti skytir skytirðu skytist skytu skytum skytumst skytust skytuð skýst skýstu skýt skýtur skýturðu
+31	231	langa	langan langanna langar langað langaði langi langna langnanna löngu löngum lönguna löngunnar löngunni löngunum löngur löngurnar
+32	232	fimm	fimma fimmanna fimmi fimmin fimminu fimmið fimms fimmsins fimmum fimmunum
+33	233	ráða	ráddu ráðandi ráðast ráði ráðin ráðinn ráðinna ráðinnar ráðinni ráðins ráðir ráðirðu ráðist ráðið ráðna ráðnar ráðni ráðnir ráðnu ráðnum ráðstu ráðum ráðumst ræð ræðari ræðst ræður ræðurðu réð réði réðir réðirðu réðist réðst réðu réðum réðumst réðust réðuð
+34	234	hluti	hluta hlutana hlutann hlutanna hlutans hlutanum hlutar hlutarnir hlutinn hlutum hlutunum
+35	235	horfa	horfan horfandi horfanna horfi horfir horfirðu horfið horft horfu horfum horfuna horfunnar horfunni horfunum horfur horfurnar horfði horfðir horfðirðu horfðu horfðum horfðuð
+36	236	flytja	flust flutt flutta fluttan fluttar flutti fluttir fluttirðu fluttist fluttra fluttrar fluttri flutts fluttu fluttum fluttumst fluttur fluttust fluttuð flyst flystu flyt flytjandi flytjast flytji flytjir flytjirðu flytjist flytjið flytjum flytjumst flytti flyttir flyttirðu flyttist flyttu flyttum flyttumst flyttust flyttuð flytur flyturðu
+37	237	ungur	ung unga ungan ungar ungi ungir ungra ungrar ungri ungs ungt ungu ungum yngra yngri yngst yngsta yngstan yngstar yngsti yngstir yngstra yngstrar yngstri yngsts yngstu yngstum yngstur
+38	238	kaupa	kaupandi kaupi kaupir kaupirðu kaupið kauptu kaupum keypt keypta keyptan keyptar keypti keyptir keyptirðu keyptra keyptrar keyptri keypts keyptu keyptum keyptur keyptuð
+39	239	hitta	hitt hittan hittandi hittar hitti hittir hittirðu hittið hittra hittrar hittri hitts hittu hittum hittur hittuð
+40	240	gaman	gamanið gamans gamansins gamni gamninu gamnið
+41	241	svæði	svæða svæðanna svæðin svæðinu svæðis svæðisins svæðið svæðum svæðunum
+42	242	trúa	tryði tryðir tryðirðu tryðu tryðum tryðuð trúandi trúað trúi trúir trúirðu trúið trúiði trúum trúði trúðir trúðirðu trúðu trúðum trúðuð
+43	243	efni	efna efnanna efnin efninu efnis efnisins efnið efnum efnunum
+44	244	síðar	síðast
+45	245	kunna	kann kannt kanntu kunnandi kunnað kunni kunnir kunnirðu kunnið kunnu kunnum kunnuð kynni kynnir kynnirðu kynnu kynnum kynnuð
+46	246	skóli	skóla skólana skólann skólanna skólans skólanum skólar skólarnir skólinn skólum skólunum
+47	247	bæði	
+48	248	grein	greina greinanna greinar greinarinnar greinarnar greinin greinina greininni greinir greinum greinunum
+49	249	virðast	virst virtist virtistu virtumst virtust virðist virðistu virðumst
+50	250	fjórir	fjóra fjórar fjórum fjögra fjögur fjögurra
+51	251	lesa	las last lastu les lesandi lesi lesin lesinn lesinna lesinnar lesinni lesins lesir lesirðu lesið lesna lesnar lesni lesnir lesnu lesnum lest lestu lesum lásu lásum lásuð læsi læsir læsirðu læsu læsum læsuð
+52	252	strákur	strák stráka strákana strákanna strákar strákarnir stráki strákinn stráknum stráks stráksins strákum strákunum strákurinn
+53	253	sitja	sast sastu sat setin setinn setinna setinnar setinni setins setið setna setnar setni setnir setnu setnum sit sitjandi sitji sitjir sitjið sitjum sittu situr siturðu sátu sátum sátuð sæti sætir sætirðu sætu sætum sætuð
+54	254	ýmis	ýmiss ýmissa ýmissar ýmissi ýmist ýmsa ýmsan ýmsar ýmsir ýmsu ýmsum
+55	255	innan	
+56	256	peningur	pening peninga peningana peninganna peningar peningarnir peningi peninginn peningnum penings peningsins peningum peningunum peningurinn
+57	257	bjóða	bauð bauðst bauðstu bjóddu bjóðandi bjóði bjóðir bjóðirðu bjóðið bjóðum boðin boðinn boðinna boðinnar boðinni boðins boðið boðna boðnar boðni boðnir boðnu boðnum buðu buðum buðuð byði byðir byðirðu byðu byðum byðuð býð býður býðurðu
+58	258	verk	verka verkanna verki verkin verkinu verkið verks verksins verkum verkunum
+59	259	bær	bæ bæi bæina bæinn bæir bæirnir bæja bæjanna bæjar bæjarins bæjum bæjunum bænum bæra bæran bærar bærara bærari bærast bærasta bærastan bærastar bærasti bærastir bærastra bærastrar bærastri bærasts bærastur bæri bærinn bærir bærra bærrar bærri bærs bært bæru bærum bærust bærustu bærustum
+60	260	þykja	þyki þykir þykirðu þykið þykjandi þykjum þætti þættir þættirðu þættu þættum þættuð þótt þótti þóttir þóttirðu þóttu þóttum þóttuð
+61	261	ríki	ríkin ríkinu ríkis ríkisins ríkið ríkja ríkjanna ríkjum ríkjunum
+62	262	leyfa	leyfandi leyfast leyfi leyfir leyfist leyfið leyfst leyft leyfum leyfð leyfða leyfðan leyfðar leyfði leyfðir leyfðist leyfðra leyfðrar leyfðri leyfðs leyfðu leyfðum leyfður leyfðuð
+63	263	samband	sambanda sambandanna sambandi sambandinu sambandið sambands sambandsins sambönd samböndin samböndum samböndunum
+64	264	fallegur	falleg fallega fallegan fallegar fallegast fallegasta fallegastan fallegastar fallegasti fallegastir fallegastra fallegastrar fallegastri fallegasts fallegastur fallegi fallegir fallegra fallegrar fallegri fallegs fallegt fallegu fallegum fallegust fallegustu fallegustum
+65	265	fjölskylda	fjölskyldan fjölskyldna fjölskyldnanna fjölskyldu fjölskyldum fjölskylduna fjölskyldunnar fjölskyldunni fjölskyldunum fjölskyldur fjölskyldurnar
+66	266	jæja	
+67	267	sumir	sum suma suman sumar sumra sumrar sumri sums sumt sumu sumum sumur
+68	268	sleppa	slapp slappst slappstu slepp sleppan sleppandi sleppanna sleppi sleppir sleppirðu sleppið sleppiði sleppna sleppnanna sleppt sleppti slepptir slepptu slepptum slepptuð sleppu sleppum sleppuna sleppunnar sleppunni sleppunum sleppur sleppurnar sleppurðu sloppin sloppinn sloppinna sloppinnar sloppinni sloppins sloppið sloppna sloppnar sloppni sloppnir sloppnu sloppnum sluppu sluppum sluppuð slyppi slyppir slyppirðu slyppu slyppum slyppuð
+69	269	fullur	full fulla fullan fullar fulli fullir fullra fullrar fullri fulls fullt fullu fullum fyllra fyllri fyllst fyllsta fyllstan fyllstar fyllsti fyllstir fyllstra fyllstrar fyllstri fyllsts fyllstu fyllstum fyllstur
+70	270	hljóta	hlaust hlaustu hlaut hljóstu hljótandi hljótast hljóti hljótir hljótist hljótið hljóttu hljótum hljótumst hlotin hlotinn hlotinna hlotinnar hlotinni hlotins hlotist hlotið hlotna hlotnar hlotni hlotnir hlotnu hlotnum hlutu hlutum hlutumst hlutust hlutuð hlyti hlytir hlytist hlytu hlytum hlytumst hlytust hlytuð hlýst hlýt hlýtur hlýturðu
+71	271	hugmynd	hugmynda hugmyndanna hugmyndar hugmyndarinnar hugmyndin hugmyndina hugmyndinni hugmyndir hugmyndirnar hugmyndum hugmyndunum
+72	272	langt	lengra lengst
+73	273	missa	missandi missast missi missir missist missið misst missti misstir misstist misstu misstum misstumst misstust misstuð missum missumst
+74	274	opna	opnan opnandi opnanna opnar opnað opnaða opnaðan opnaðar opnaði opnaðir opnaðra opnaðrar opnaðri opnaðs opnaðu opnaður opni opnir opnið opniði opnu opnum opnuna opnunnar opnunni opnunum opnur opnurnar opnuð opnuðu opnuðum opnuðuð
+75	275	sæll	sæl sæla sælan sælar sælast sælasta sælastan sælastar sælasti sælastir sælastra sælastrar sælastri sælasts sælastur sæli sælir sælla sællar sælli sæls sælt sælu sælum sælust sælustu sælustum
+76	276	liggja	legin leginn leginna leginnar leginni legins legið legna legnar legni legnir legnu legnum ligg liggi liggir liggirðu liggið liggjandi liggjum liggur liggurðu liggðu lá lágu lágum láguð lást lástu lægi lægir lægirðu lægja lægju lægjum lægjuð lægt
+77	277	dæmi	dæma dæmanna dæmin dæminu dæmis dæmisins dæmið dæmum dæmunum
+78	278	hár	há háa háan háar hái háir hára háranna hári hárin hárinu hárið hárra hárrar hárri hárs hársins hárum hárunum hás hátt háu háum háði háðir háðu hærra hærri hæst hæsta hæstan hæstar hæsti hæstir hæstra hæstrar hæstri hæsts hæstu hæstum hæstur
+79	279	fyrirtæki	fyrirtækin fyrirtækinu fyrirtækis fyrirtækisins fyrirtækið fyrirtækja fyrirtækjanna fyrirtækjum fyrirtækjunum
+80	280	hvaða	
+81	281	meðan	
+82	282	draga	dragan dragandi draganna dragast dragi dragir dragirðu dragist dragistu dragið dragðu dreg dregin dreginn dreginna dreginnar dreginni dregins dregist dregið dregna dregnar dregni dregnir dregnu dregnum dregst dregstu dregur dregurðu drægi drægir drægirðu drægist drægistu drægju drægjum drægjumst drægjust drægjuð dró drógu drógum drógumst drógust dróguð dróst dróstu drögu drögum drögumst dröguna drögunnar drögunni drögunum drögur drögurnar
+83	283	líða	leið leiðst leiðstu liði liðin liðinn liðinna liðinnar liðinni liðins liðir liðirðu liðist liðið liðna liðnar liðni liðnir liðnu liðnum liðu liðum liðumst liðust liðuð líddu líð líðandi líðast líði líðir líðirðu líðist líðið líðst líðum líðumst líður líðurðu
+84	284	kenna	kennandi kennd kennda kenndan kenndar kenndi kenndir kenndra kenndrar kenndri kennds kenndu kenndum kenndur kennduð kenni kennir kennið kennt kennum
+85	285	mínúta	mínútan mínútna mínútnanna mínútu mínútum mínútuna mínútunnar mínútunni mínútunum mínútur mínúturnar
+86	286	hefja	hafin hafinn hafinna hafinnar hafinni hafins hafist hafið hafna hafnar hafni hafnir hef hefjandi hefjast hefji hefjir hefjist hefjið hefjum hefjumst hefst hefstu hefur hefðu hæfi hæfir hæfist hæfu hæfum hæfumst hæfust hæfuð hóf hófst hófstu hófu hófum hófumst hófust hófuð höfnu höfnum
+87	287	vatn	vatna vatnanna vatni vatninu vatnið vatns vatnsins vötn vötnin vötnum vötnunum
+88	288	áhrif	áhrifa áhrifanna áhrifi áhrifin áhrifinu áhrifið áhrifs áhrifsins áhrifum áhrifunum
+89	289	biðja	bað baðst baðstu beðin beðinn beðinna beðinnar beðinni beðins beðið beðna beðnar beðni beðnir beðnu beðnum biddu bið biðjandi biðji biðjir biðjið biðjum biður biðurðu báðu báðum báðuð bæði bæðir bæðu bæðum bæðuð
+90	290	sæti	sæta sætanna sætin sætinu sætis sætisins sætið sætum sætunum
+91	291	slíkur	slík slíka slíkan slíkar slíkir slíkra slíkrar slíkri slíks slíkt slíku slíkum
+92	292	ræða	rædd rædda ræddan ræddar ræddi ræddir ræddirðu ræddist ræddra ræddrar ræddri rædds ræddu ræddum ræddumst ræddur ræddust rædduð rætt ræðan ræðandi ræðanna ræðari ræðast ræði ræðir ræðirðu ræðist ræðið ræðna ræðnanna ræðst ræðu ræðum ræðumst ræðuna ræðunnar ræðunni ræðunum ræður ræðurnar
+93	293	hlusta	hlustandi hlustar hlustarðu hlustast hlustað hlustaða hlustaðan hlustaðar hlustaði hlustaðir hlustaðirðu hlustaðist hlustaðra hlustaðrar hlustaðri hlustaðs hlustaðu hlustaður hlusti hlustir hlustirðu hlustist hlustið hlustiði hlustum hlustumst hlustuð hlustuðu hlustuðum hlustuðumst hlustuðust hlustuðuð
+94	294	samt	
+95	295	auga	augans auganu augað augna augnanna augu augum augun augunum
+96	296	strax	
+97	297	alvara	alvaran alvöru alvöruna alvörunnar alvörunni
+98	298	hópur	hóp hópa hópana hópanna hópar hóparnir hópi hópinn hópnum hóps hópsins hópum hópunum hópurinn
+99	299	spurning	spurninga spurninganna spurningar spurningarinnar spurningarnar spurningin spurningu spurningum spurninguna spurningunni spurningunum
+100	300	annars	

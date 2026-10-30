@@ -1,0 +1,100 @@
+1	4801	kraftmikill	kraftmeira kraftmeiri kraftmest kraftmesta kraftmestan kraftmestar kraftmesti kraftmestir kraftmestra kraftmestrar kraftmestri kraftmests kraftmestu kraftmestum kraftmestur kraftmikil kraftmikilla kraftmikillar kraftmikilli kraftmikils kraftmikinn kraftmikið kraftmikla kraftmiklar kraftmikli kraftmiklir kraftmiklu kraftmiklum
+2	4802	áritun	áritana áritananna áritanir áritanirnar áritunar áritunarinnar áritunin áritunina árituninni áritunum áritununum
+3	4803	stjórnarmaður	stjórnarmann stjórnarmanna stjórnarmannanna stjórnarmanni stjórnarmanninn stjórnarmanninum stjórnarmanns stjórnarmannsins stjórnarmaðurinn stjórnarmenn stjórnarmennina stjórnarmennirnir stjórnarmönnum stjórnarmönnunum
+4	4804	askja	askjan askjanna öskju öskjum öskjuna öskjunnar öskjunni öskjunum öskjur öskjurnar
+5	4805	alt	alta altana altanna altar altarnir altinn altinum alts altsins öltum öltunum
+6	4806	sopi	sopa sopana sopann sopanna sopans sopanum sopar soparnir sopinn sopum sopunum
+7	4807	morfín	morfíni morfíninu morfínið morfíns morfínsins
+8	4808	kunnátta	kunnáttan kunnáttu kunnáttuna kunnáttunnar kunnáttunni
+9	4809	hneppa	hneppandi hneppast hneppi hneppir hneppist hneppið hneppst hneppt hneppta hnepptan hnepptar hneppti hnepptir hnepptist hnepptra hnepptrar hnepptri hneppts hnepptu hnepptum hnepptumst hnepptur hnepptust hnepptuð hneppum hneppumst
+10	4810	sagnfræði	sagnfræðin sagnfræðina sagnfræðinnar sagnfræðinni
+11	4811	gítarleikari	gítarleikara gítarleikarana gítarleikarann gítarleikaranna gítarleikarans gítarleikaranum gítarleikarar gítarleikararnir gítarleikarinn gítarleikurum gítarleikurunum
+12	4812	upphátt	
+13	4813	iða	iðan iðandi iðanna iðar iðað iðaði iðaðir iðaðu iði iðir iðið iðna iðnanna iðu iðum iðuna iðunnar iðunni iðunum iður iðurnar iðuðu iðuðum iðuðuð
+14	4814	mótorhjól	mótorhjóla mótorhjólanna mótorhjóli mótorhjólin mótorhjólinu mótorhjólið mótorhjóls mótorhjólsins mótorhjólum mótorhjólunum
+15	4815	ske	skeð skeða skeðan skeðar skeði skeðir skeðra skeðrar skeðri skeðs skeðu skeðum skeður
+16	4816	aðalatriði	aðalatriða aðalatriðanna aðalatriðin aðalatriðinu aðalatriðis aðalatriðisins aðalatriðið aðalatriðum aðalatriðunum
+17	4817	handbolti	handbolta handboltana handboltann handboltanna handboltans handboltanum handboltar handboltarnir handboltinn handboltum handboltunum
+18	4818	svindl	svindli svindlinu svindlið svindls svindlsins
+19	4819	ítrekað	
+20	4820	logandi	
+21	4821	bankahrun	bankahruna bankahrunanna bankahruni bankahrunin bankahruninu bankahrunið bankahruns bankahrunsins bankahrunum bankahrununum
+22	4822	sæmd	sæmda sæmdanna sæmdar sæmdarinnar sæmdin sæmdina sæmdinni sæmdir sæmdirnar sæmdum sæmdunum
+23	4823	greinarmunur	greinarmun greinarmunar greinarmunarins greinarmuninn greinarmuninum greinarmunurinn
+24	4824	samfellt	
+25	4825	klæðnaður	klæðnað klæðnaðar klæðnaðarins klæðnaði klæðnaðinn klæðnaðinum klæðnaðnum klæðnaðurinn
+26	4826	veitandi	veitanda veitandann veitandans veitandanum veitandinn veitenda veitendanna veitendum veitendunum veitendur veitendurna veitendurnir
+27	4827	herja	herjandi herjar herjað herjaða herjaðan herjaðar herjaði herjaðir herjaðra herjaðrar herjaðri herjaðs herjaðu herjaður herji herjir herjið herjum herjuð herjuðu herjuðum herjuðuð
+28	4828	náð	náða náðanna náðar náðarinnar náðin náðina náðinni náðir náðirnar náðum náðunum
+29	4829	gróði	gróða gróðann gróðans gróðanum gróðinn
+30	4830	óendanlega	
+31	4831	hnit	hnita hnitanna hnitar hnitarinnar hnitarnar hniti hnitin hnitina hnitinni hnitinu hnitið hnits hnitsins hnitum hnitunum
+32	4832	skordýr	skordýra skordýranna skordýri skordýrin skordýrinu skordýrið skordýrs skordýrsins skordýrum skordýrunum
+33	4833	gallerí	gallería galleríanna galleríi galleríin galleríinu galleríið gallerís gallerísins galleríum galleríunum
+34	4834	sakir	
+35	4835	skapari	skapara skaparana skaparann skaparanna skaparans skaparanum skaparar skapararnir skaparinn sköpurum sköpurunum
+36	4836	þorri	þorra þorrann þorrans þorranum þorrinn
+37	4837	sagnfræðingur	sagnfræðing sagnfræðinga sagnfræðingana sagnfræðinganna sagnfræðingar sagnfræðingarnir sagnfræðingi sagnfræðinginn sagnfræðingnum sagnfræðings sagnfræðingsins sagnfræðingum sagnfræðingunum sagnfræðingurinn
+38	4838	skauti	skauta skautana skautann skautanna skautans skautanum skautar skautarnir skautinn skautum skautunum
+39	4839	gervi	gerva gervanna gervin gervinu gervis gervisins gervið gervum gervunum
+40	4840	anga	angandi angar angarðu angað angaði angaðir angaðu angi angir angið öngum önguðu önguðum önguðuð
+41	4841	herma	hermandi hermast hermd hermda hermdan hermdar hermdi hermdir hermdirðu hermdist hermdra hermdrar hermdri hermds hermdu hermdum hermdumst hermdur hermdust hermduð hermi hermir hermist hermið hermst hermt hermum hermumst
+42	4842	búgarður	búgarð búgarða búgarðana búgarðanna búgarðar búgarðarnir búgarði búgarðinn búgarðinum búgarðs búgarðsins búgarðurinn búgörðum búgörðunum
+43	4843	feðgar	feðga feðgana feðganna feðgarnir feðgum feðgunum
+44	4844	vopnahlé	vopnahléa vopnahléanna vopnahléi vopnahléin vopnahléinu vopnahléið vopnahlés vopnahlésins vopnahléum vopnahléunum
+45	4845	endurreisa	endurreisandi endurreisast endurreisi endurreisir endurreisist endurreisið endurreist endurreista endurreistan endurreistar endurreisti endurreistir endurreistist endurreistra endurreistrar endurreistri endurreists endurreistu endurreistum endurreistumst endurreistur endurreistust endurreistuð endurreisum endurreisumst
+46	4846	afþreying	afþreyingar afþreyingarinnar afþreyingin afþreyingu afþreyinguna afþreyingunni
+47	4847	laginn	lagin laginna laginnar laginni lagins lagið lagna lagnar lagnara lagnari lagnast lagnasta lagnastan lagnastar lagnasti lagnastir lagnastra lagnastrar lagnastri lagnasts lagnastur lagni lagnir lögnu lögnum lögnust lögnustu lögnustum
+48	4848	hárrétt	
+49	4849	dómnefnd	dómnefnda dómnefndanna dómnefndar dómnefndarinnar dómnefndin dómnefndina dómnefndinni dómnefndir dómnefndirnar dómnefndum dómnefndunum
+50	4850	flón	flóna flónanna flóni flónin flóninu flónið flóns flónsins flónum flónunum
+51	4851	skæri	skæra skæranna skærin skærum skærunum
+52	4852	undur	undra undranna undri undrin undrinu undrið undrum undrunum undurs undursins
+53	4853	vingjarnlegur	vingjarnleg vingjarnlega vingjarnlegan vingjarnlegar vingjarnlegast vingjarnlegasta vingjarnlegastan vingjarnlegastar vingjarnlegasti vingjarnlegastir vingjarnlegastra vingjarnlegastrar vingjarnlegastri vingjarnlegasts vingjarnlegastur vingjarnlegi vingjarnlegir vingjarnlegra vingjarnlegrar vingjarnlegri vingjarnlegs vingjarnlegt vingjarnlegu vingjarnlegum vingjarnlegust vingjarnlegustu vingjarnlegustum
+54	4854	smygla	smyglandi smyglar smyglarðu smyglast smyglað smyglaða smyglaðan smyglaðar smyglaði smyglaðir smyglaðirðu smyglaðist smyglaðra smyglaðrar smyglaðri smyglaðs smyglaðu smyglaður smygli smyglir smyglist smyglið smyglum smyglumst smygluð smygluðu smygluðum smygluðumst smygluðust smygluðuð
+55	4855	fagmaður	fagmann fagmanna fagmannanna fagmanni fagmanninn fagmanninum fagmanns fagmannsins fagmaðurinn fagmenn fagmennina fagmennirnir fagmönnum fagmönnunum
+56	4856	ástkær	ástkæra ástkæran ástkærar ástkærara ástkærari ástkærast ástkærasta ástkærastan ástkærastar ástkærasti ástkærastir ástkærastra ástkærastrar ástkærastri ástkærasts ástkærastur ástkæri ástkærir ástkærra ástkærrar ástkærri ástkærs ástkært ástkæru ástkærum ástkærust ástkærustu ástkærustum
+57	4857	skýla	skýlan skýlandi skýlanna skýlast skýld skýlda skýldan skýldar skýldi skýldir skýldist skýldra skýldrar skýldri skýlds skýldu skýldum skýldumst skýldur skýldust skýlduð skýli skýlir skýlist skýlið skýlna skýlnanna skýlst skýlt skýlu skýlum skýlumst skýluna skýlunnar skýlunni skýlunum skýlur skýlurnar
+58	4858	öfuguggi	öfugugga öfuguggana öfuguggann öfugugganna öfuguggans öfugugganum öfuguggar öfuguggarnir öfugugginn öfuguggum öfuguggunum
+59	4859	skræfa	skræfan skræfanna skræfna skræfnanna skræfu skræfum skræfuna skræfunnar skræfunni skræfunum skræfur skræfurnar
+60	4860	heróín	heróíni heróíninu heróínið heróíns heróínsins
+61	4861	friða	friðandi friðar friðast friðað friðaða friðaðan friðaðar friðaði friðaðir friðaðist friðaðra friðaðrar friðaðri friðaðs friðaðu friðaður friði friðir friðist friðið friðum friðumst friðuð friðuðu friðuðum friðuðumst friðuðust friðuðuð
+62	4862	himneskur	himnesk himneska himneskan himneskar himneskara himneskari himneskast himneskasta himneskastan himneskastar himneskasti himneskastir himneskastra himneskastrar himneskastri himneskasts himneskastur himneski himneskir himneskra himneskrar himneskri himnesks himneskt himnesku himneskum himneskust himneskustu himneskustum
+63	4863	fyrirsögn	fyrirsagna fyrirsagnanna fyrirsagnar fyrirsagnarinnar fyrirsagnir fyrirsagnirnar fyrirsögnin fyrirsögnina fyrirsögninni fyrirsögnum fyrirsögnunum
+64	4864	kvelja	kvalda kvaldar kvaldi kvaldir kvaldist kvaldistu kvalin kvalinn kvalinna kvalinnar kvalinni kvalins kvalist kvalið kvel kveldi kveldir kveldist kveldu kveldum kveldumst kveldust kvelduð kveljandi kveljast kvelji kveljir kveljist kveljið kveljum kveljumst kvelst kvelstu kvelur kvelurðu kvöldu kvöldum kvöldumst kvöldust kvölduð
+65	4865	strumpur	strump strumpa strumpana strumpanna strumpar strumparnir strumpi strumpinn strumpinum strumpnum strumps strumpsins strumpum strumpunum strumpurinn
+66	4866	hvolf	hvolfa hvolfanna hvolfi hvolfin hvolfinu hvolfið hvolfs hvolfsins hvolfum hvolfunum
+67	4867	skólameistari	skólameistara skólameistarana skólameistarann skólameistaranna skólameistarans skólameistaranum skólameistarar skólameistararnir skólameistarinn skólameisturum skólameisturunum
+68	4868	yfirstjórn	yfirstjórna yfirstjórnanna yfirstjórnar yfirstjórnarinnar yfirstjórnin yfirstjórnina yfirstjórninni yfirstjórnir yfirstjórnirnar yfirstjórnum yfirstjórnunum
+69	4869	stanslaust	
+70	4870	syðri	syðra syðst syðsta syðstan syðstar syðsti syðstir syðstra syðstrar syðstri syðsts syðstu syðstum syðstur
+71	4871	sæng	sænga sænganna sængin sængina sænginni sængum sængunum sængur sængurinnar sængurnar
+72	4872	atburðarás	atburðarásar atburðarásarinnar atburðarásin atburðarásina atburðarásinni
+73	4873	hopp	hoppa hoppanna hoppi hoppin hoppinu hoppið hopps hoppsins hoppum hoppunum
+74	4874	innanríkisráðherra	innanríkisráðherrana innanríkisráðherrann innanríkisráðherranna innanríkisráðherrans innanríkisráðherranum innanríkisráðherrar innanríkisráðherrarnir innanríkisráðherrum innanríkisráðherrunum
+75	4875	nafnspjald	nafnspjalda nafnspjaldanna nafnspjaldi nafnspjaldinu nafnspjaldið nafnspjalds nafnspjaldsins nafnspjöld nafnspjöldin nafnspjöldum nafnspjöldunum
+76	4876	rör	röra röranna röri rörin rörinu rörið rörs rörsins rörum rörunum
+77	4877	landnám	landnámi landnáminu landnámið landnáms landnámsins
+78	4878	keila	keilan keilanna keilna keilnanna keilu keilum keiluna keilunnar keilunni keilunum keilur keilurnar
+79	4879	kubbur	kubb kubba kubbana kubbanna kubbar kubbarnir kubbi kubbinn kubbnum kubbs kubbsins kubbum kubbunum kubburinn
+80	4880	skömm	skamma skammanna skammar skammarinnar skammir skammirnar skömmin skömmina skömminni skömmum skömmunum
+81	4881	hylla	hyllandi hyllast hylli hyllir hyllist hyllið hyllst hyllt hyllta hylltan hylltar hyllti hylltir hylltist hylltra hylltrar hylltri hyllts hylltu hylltum hylltumst hylltur hylltust hylltuð hyllum hyllumst
+82	4882	vinnuafl	vinnuafli vinnuaflinu vinnuaflið vinnuafls vinnuaflsins
+83	4883	skákmaður	skákmann skákmanna skákmannanna skákmanni skákmanninn skákmanninum skákmanns skákmannsins skákmaðurinn skákmenn skákmennina skákmennirnir skákmönnum skákmönnunum
+84	4884	verönd	veranda verandanna verandar verandarinnar verandir verandirnar veröndin veröndina veröndinni veröndum veröndunum
+85	4885	þagga	þaggandi þaggar þaggast þaggað þaggaða þaggaðan þaggaðar þaggaði þaggaðir þaggaðist þaggaðra þaggaðrar þaggaðri þaggaðs þaggaðu þaggaður þaggi þaggir þaggist þaggið þöggum þöggumst þögguð þögguðu þögguðum þögguðumst þögguðust þögguðuð
+86	4886	snæða	snædd snædda snæddan snæddar snæddi snæddir snæddirðu snæddra snæddrar snæddri snædds snæddu snæddum snæddur snædduð snætt snæðandi snæði snæðir snæðið snæðum
+87	4887	lektor	lektora lektorana lektoranna lektorar lektorarnir lektorinn lektornum lektors lektorsins lektorum lektorunum
+88	4888	skínandi	
+89	4889	sakleysi	sakleysinu sakleysis sakleysisins sakleysið
+90	4890	ern	erna ernan ernar ernara ernari ernast ernasta ernastan ernastar ernasti ernastir ernastra ernastrar ernastri ernasts ernastur erni ernir ernra ernrar ernri erns ernt ernu ernum ernust ernustu ernustum
+91	4891	hvolfa	hvolfast hvolfdi hvolfdir hvolfdist hvolfdu hvolfdum hvolfdumst hvolfdust hvolfduð hvolfi hvolfir hvolfist hvolfið hvolfst hvolft hvolfum hvolfumst
+92	4892	gikkur	gikk gikki gikkina gikkinn gikkir gikkirnir gikkja gikkjanna gikkjum gikkjunum gikknum gikks gikksins gikkurinn
+93	4893	skuldbinda	skuldbast skuldbatt skuldbind skuldbindandi skuldbindi skuldbindir skuldbindið skuldbindum skuldbindur skuldbittu skuldbundin skuldbundinn skuldbundinna skuldbundinnar skuldbundinni skuldbundins skuldbundið skuldbundna skuldbundnar skuldbundni skuldbundnir skuldbundnu skuldbundnum skuldbundu skuldbundum skuldbunduð skuldbyndi skuldbyndir skuldbyndu skuldbyndum skuldbynduð
+94	4894	frumlegur	frumleg frumlega frumlegan frumlegar frumlegast frumlegasta frumlegastan frumlegastar frumlegasti frumlegastir frumlegastra frumlegastrar frumlegastri frumlegasts frumlegastur frumlegi frumlegir frumlegra frumlegrar frumlegri frumlegs frumlegt frumlegu frumlegum frumlegust frumlegustu frumlegustum
+95	4895	gangstétt	gangstétta gangstéttanna gangstéttar gangstéttarinnar gangstéttin gangstéttina gangstéttinni gangstéttir gangstéttirnar gangstéttum gangstéttunum
+96	4896	bráðlega	
+97	4897	liða	liðandi liðar liðast liðað liðaða liðaðan liðaðar liðaði liðaðir liðaðist liðaðra liðaðrar liðaðri liðaðs liðaðu liðaður liði liðir liðist liðið liðum liðumst liðuð liðuðu liðuðum liðuðumst liðuðust liðuðuð
+98	4898	norðanverður	norðanvert norðanverð norðanverða norðanverðan norðanverðar norðanverði norðanverðir norðanverðra norðanverðrar norðanverðri norðanverðs norðanverðu norðanverðum
+99	4899	haft	hafta haftanna hafti haftinu haftið hafts haftsins höft höftin höftum höftunum
+100	4900	ægilegur	ægileg ægilega ægilegan ægilegar ægilegast ægilegasta ægilegastan ægilegastar ægilegasti ægilegastir ægilegastra ægilegastrar ægilegastri ægilegasts ægilegastur ægilegi ægilegir ægilegra ægilegrar ægilegri ægilegs ægilegt ægilegu ægilegum ægilegust ægilegustu ægilegustum

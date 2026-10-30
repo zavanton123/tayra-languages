@@ -1,0 +1,100 @@
+1	5701	fyrirlíta	fyrirleist fyrirleit fyrirliti fyrirlitin fyrirlitinn fyrirlitinna fyrirlitinnar fyrirlitinni fyrirlitins fyrirlitir fyrirlitið fyrirlitna fyrirlitnar fyrirlitni fyrirlitnir fyrirlitnu fyrirlitnum fyrirlitu fyrirlitum fyrirlituð fyrirlít fyrirlítandi fyrirlíti fyrirlítir fyrirlítið fyrirlíttu fyrirlítum fyrirlítur
+2	5702	örlátur	örlát örláta örlátan örlátar örlátara örlátari örlátast örlátasta örlátastan örlátastar örlátasti örlátastir örlátastra örlátastrar örlátastri örlátasts örlátastur örláti örlátir örlátra örlátrar örlátri örláts örlátt örlátu örlátum örlátust örlátustu örlátustum
+3	5703	einstæður	einstætt einstæð einstæða einstæðan einstæðar einstæðara einstæðari einstæðast einstæðasta einstæðastan einstæðastar einstæðasti einstæðastir einstæðastra einstæðastrar einstæðastri einstæðasts einstæðastur einstæði einstæðir einstæðra einstæðrar einstæðri einstæðs einstæðu einstæðum einstæðust einstæðustu einstæðustum
+4	5704	afmælisveisla	afmælisveislan afmælisveislna afmælisveislnanna afmælisveislu afmælisveislum afmælisveisluna afmælisveislunnar afmælisveislunni afmælisveislunum afmælisveislur afmælisveislurnar
+5	5705	einlægni	einlægnin einlægnina einlægninnar einlægninni
+6	5706	flöt	flata flatanna flatar flatarinnar flatir flatirnar flötin flötina flötinni flötum flötunum
+7	5707	belgur	belg belgi belgina belginn belgir belgirnir belgja belgjanna belgjar belgjarins belgjum belgjunum belgnum belgs belgsins belgurinn
+8	5708	bernska	bernskan bernsku bernskuna bernskunnar bernskunni
+9	5709	granda	grandandi grandar grandarðu grandast grandað grandaða grandaðan grandaðar grandaði grandaðir grandaðist grandaðra grandaðrar grandaðri grandaðs grandaðu grandaður grandi grandir grandist grandið gröndum gröndumst grönduð grönduðu grönduðum grönduðumst grönduðust grönduðuð
+10	5710	alræmdur	alræmd alræmda alræmdan alræmdar alræmdara alræmdari alræmdast alræmdasta alræmdastan alræmdastar alræmdasti alræmdastir alræmdastra alræmdastrar alræmdastri alræmdasts alræmdastur alræmdi alræmdir alræmdra alræmdrar alræmdri alræmds alræmdu alræmdum alræmdust alræmdustu alræmdustum alræmt
+11	5711	regnbogi	regnboga regnbogana regnbogann regnboganna regnbogans regnboganum regnbogar regnbogarnir regnboginn regnbogum regnbogunum
+12	5712	sjúkraliði	sjúkraliða sjúkraliðana sjúkraliðann sjúkraliðanna sjúkraliðans sjúkraliðanum sjúkraliðar sjúkraliðarnir sjúkraliðinn sjúkraliðum sjúkraliðunum
+13	5713	vakta	vaktandi vaktar vaktast vaktað vaktaða vaktaðan vaktaðar vaktaði vaktaðir vaktaðirðu vaktaðist vaktaðra vaktaðrar vaktaðri vaktaðs vaktaðu vaktaður vakti vaktir vaktirðu vaktist vaktið vöktum vöktumst vöktuð vöktuðu vöktuðum vöktuðumst vöktuðust vöktuðuð
+14	5714	terta	tertan tertanna tertna tertnanna tertu tertum tertuna tertunnar tertunni tertunum tertur terturnar
+15	5715	fyrirætlun	fyrirætlana fyrirætlananna fyrirætlanir fyrirætlanirnar fyrirætlunar fyrirætlunarinnar fyrirætlunin fyrirætlunina fyrirætluninni fyrirætlunum fyrirætlununum
+16	5716	lyst	lysta lystanna lystar lystarinnar lystin lystina lystinni lystir lystirnar lystum lystunum
+17	5717	illmenni	illmenna illmennanna illmennin illmenninu illmennis illmennisins illmennið illmennum illmennunum
+18	5718	rennsli	rennsla rennslanna rennslin rennslinu rennslis rennslisins rennslið rennslum rennslunum
+19	5719	þilfar	þilfara þilfaranna þilfari þilfarinu þilfarið þilfars þilfarsins þilför þilförin þilförum þilförunum
+20	5720	heyrn	heyrna heyrnanna heyrnar heyrnarinnar heyrnin heyrnina heyrninni heyrnir heyrnirnar heyrnum heyrnunum
+21	5721	vægt	vægar vægast
+22	5722	geysa	geysast geysi geysir geysist geysið geyst geysti geystir geystist geystu geystum geystumst geystust geystuð geysum geysumst
+23	5723	lirfa	lirfan lirfanna lirfna lirfnanna lirfu lirfum lirfuna lirfunnar lirfunni lirfunum lirfur lirfurnar
+24	5724	norðurpóll	norðurpól norðurpólinn norðurpóllinn norðurpólnum norðurpóls norðurpólsins
+25	5725	skjalataska	skjalataskan skjalataskanna skjalatösku skjalatöskum skjalatöskuna skjalatöskunnar skjalatöskunni skjalatöskunum skjalatöskur skjalatöskurnar
+26	5726	hrækja	hræki hrækir hrækið hrækjandi hrækjast hrækjum hrækst hrækt hrækta hræktan hræktar hrækti hræktir hræktirðu hræktra hræktrar hræktri hrækts hræktu hræktum hræktur hræktuð
+27	5727	flog	floga floganna flogi flogin floginu flogið flogs flogsins flogum flogunum
+28	5728	endurbæta	endurbæst endurbætandi endurbætast endurbæti endurbætir endurbætist endurbætið endurbætt endurbætta endurbættan endurbættar endurbætti endurbættir endurbættist endurbættra endurbættrar endurbættri endurbætts endurbættu endurbættum endurbættumst endurbættur endurbættust endurbættuð endurbætum endurbætumst
+29	5729	alþjóðavettvangur	alþjóðavettvang alþjóðavettvangi alþjóðavettvanginn alþjóðavettvanginum alþjóðavettvangnum alþjóðavettvangs alþjóðavettvangsins alþjóðavettvangurinn
+30	5730	heilkenni	heilkenna heilkennanna heilkennin heilkenninu heilkennis heilkennisins heilkennið heilkennum heilkennunum
+31	5731	afkoma	afkoman afkomu afkomuna afkomunnar afkomunni
+32	5732	fornleifafræðingur	fornleifafræðing fornleifafræðinga fornleifafræðingana fornleifafræðinganna fornleifafræðingar fornleifafræðingarnir fornleifafræðingi fornleifafræðinginn fornleifafræðingnum fornleifafræðings fornleifafræðingsins fornleifafræðingum fornleifafræðingunum fornleifafræðingurinn
+33	5733	landbúnaðarráðherra	landbúnaðarráðherrana landbúnaðarráðherrann landbúnaðarráðherranna landbúnaðarráðherrans landbúnaðarráðherranum landbúnaðarráðherrar landbúnaðarráðherrarnir landbúnaðarráðherrum landbúnaðarráðherrunum
+34	5734	app	appa appanna appi appinu appið apps appsins öpp öppin öppum öppunum
+35	5735	vesturströnd	vesturstranda vesturstrandanna vesturstrandar vesturstrandarinnar vesturstrandir vesturstrandirnar vesturstrendur vesturstrendurnar vesturströndin vesturströndina vesturströndinni vesturströndum vesturströndunum
+36	5736	trefjar	trefja trefjanna trefjarnar trefjum trefjunum
+37	5737	ana	anandi anar anað anaði anaðir anaðu ani anir anið önum önuðu önuðum önuðuð
+38	5738	bíltúr	bíltúra bíltúrana bíltúranna bíltúrar bíltúrarnir bíltúrinn bíltúrnum bíltúrs bíltúrsins bíltúrum bíltúrunum
+39	5739	chili	chilia chilianna chiliin chiliinu chiliið chilis chilisins chilium chiliunum
+40	5740	knapi	knapa knapana knapann knapanna knapans knapanum knapar knaparnir knapinn knöpum knöpunum
+41	5741	verktaki	verktaka verktakana verktakann verktakanna verktakans verktakanum verktakar verktakarnir verktakinn verktökum verktökunum
+42	5742	sjáanlegur	sjáanleg sjáanlega sjáanlegan sjáanlegar sjáanlegast sjáanlegasta sjáanlegastan sjáanlegastar sjáanlegasti sjáanlegastir sjáanlegastra sjáanlegastrar sjáanlegastri sjáanlegasts sjáanlegastur sjáanlegi sjáanlegir sjáanlegra sjáanlegrar sjáanlegri sjáanlegs sjáanlegt sjáanlegu sjáanlegum sjáanlegust sjáanlegustu sjáanlegustum
+43	5743	þægur	þæg þæga þægan þægar þægara þægari þægast þægasta þægastan þægastar þægasti þægastir þægastra þægastrar þægastri þægasts þægastur þægi þægir þægra þægrar þægri þægs þægt þægu þægum þægust þægustu þægustum
+44	5744	sveittur	sveitt sveitta sveittan sveittar sveittara sveittari sveittast sveittasta sveittastan sveittastar sveittasti sveittastir sveittastra sveittastrar sveittastri sveittasts sveittastur sveitti sveittir sveittra sveittrar sveittri sveitts sveittu sveittum sveittust sveittustu sveittustum
+45	5745	hreinlæti	hreinlætinu hreinlætis hreinlætisins hreinlætið
+46	5746	gafl	gafla gaflana gaflanna gaflar gaflarnir gafli gaflinn gaflinum gafls gaflsins göflum göflunum
+47	5747	leiði	leidd leiddar leiddi leiddir leiddu leiddur leiða leiðann leiðanna leiðans leiðanum leiðin leiðinn leiðinu leiðis leiðisins leiðið leiðum leiðunum
+48	5748	líkamsárás	líkamsárása líkamsárásanna líkamsárásar líkamsárásarinnar líkamsárásin líkamsárásina líkamsárásinni líkamsárásir líkamsárásirnar líkamsárásum líkamsárásunum
+49	5749	geisla	geislandi geislar geislast geislað geislaða geislaðan geislaðar geislaði geislaðir geislaðist geislaðra geislaðrar geislaðri geislaðs geislaðu geislaður geisli geislir geislist geislið geislum geislumst geisluð geisluðu geisluðum geisluðumst geisluðust geisluðuð
+50	5750	víkka	víkkandi víkkar víkkast víkkað víkkaða víkkaðan víkkaðar víkkaði víkkaðir víkkaðist víkkaðra víkkaðrar víkkaðri víkkaðs víkkaðu víkkaður víkki víkkir víkkist víkkið víkkum víkkumst víkkuð víkkuðu víkkuðum víkkuðumst víkkuðust víkkuðuð
+51	5751	ungmennafélag	ungmennafélaga ungmennafélaganna ungmennafélagi ungmennafélaginu ungmennafélagið ungmennafélags ungmennafélagsins ungmennafélög ungmennafélögin ungmennafélögum ungmennafélögunum
+52	5752	stelling	stellinga stellinganna stellingar stellingarinnar stellingarnar stellingin stellingu stellingum stellinguna stellingunni stellingunum
+53	5753	ranga	rangan rangandi rangar rangast rangað rangaða rangaðan rangaðar rangaði rangaðir rangaðist rangaðra rangaðrar rangaðri rangaðs rangaðu rangaður rangi rangir rangist rangið röngu röngum röngumst rönguna röngunnar röngunni rönguð rönguðu rönguðum rönguðumst rönguðust rönguðuð
+54	5754	eilítið	
+55	5755	framganga	framgangan framgöngu framgönguna framgöngunnar framgöngunni
+56	5756	færeyskur	færeysk færeyska færeyskan færeyskar færeyskara færeyskari færeyskast færeyskasta færeyskastan færeyskastar færeyskasti færeyskastir færeyskastra færeyskastrar færeyskastri færeyskasts færeyskastur færeyski færeyskir færeyskra færeyskrar færeyskri færeysks færeyskt færeysku færeyskum færeyskust færeyskustu færeyskustum
+57	5757	ömurlega	
+58	5758	tvímælalaust	
+59	5759	skólaár	skólaára skólaáranna skólaári skólaárin skólaárinu skólaárið skólaárs skólaársins skólaárum skólaárunum
+60	5760	vinga	vingast vingaðist vingist vingumst vinguðumst vinguðust
+61	5761	bitna	bitnandi bitnar bitnað bitnaði bitnaðir bitnaðu bitni bitnir bitnið bitnum bitnuðu bitnuðum bitnuðuð
+62	5762	samfélagsmiðill	samfélagsmiðil samfélagsmiðilinn samfélagsmiðillinn samfélagsmiðils samfélagsmiðilsins samfélagsmiðla samfélagsmiðlana samfélagsmiðlanna samfélagsmiðlar samfélagsmiðlarnir samfélagsmiðli samfélagsmiðlinum samfélagsmiðlum samfélagsmiðlunum
+63	5763	málaferli	málaferla málaferlanna málaferlin málaferlum málaferlunum
+64	5764	ofbeldisfullur	ofbeldisfull ofbeldisfulla ofbeldisfullan ofbeldisfullar ofbeldisfulli ofbeldisfullir ofbeldisfullra ofbeldisfullrar ofbeldisfullri ofbeldisfulls ofbeldisfullt ofbeldisfullu ofbeldisfullum ofbeldisfyllra ofbeldisfyllri ofbeldisfyllst ofbeldisfyllsta ofbeldisfyllstan ofbeldisfyllstar ofbeldisfyllsti ofbeldisfyllstir ofbeldisfyllstra ofbeldisfyllstrar ofbeldisfyllstri ofbeldisfyllsts ofbeldisfyllstu ofbeldisfyllstum ofbeldisfyllstur
+65	5765	afrakstur	afrakstrar afrakstrarins afrakstri afrakstrinum afraksturinn afraksturs afrakstursins
+66	5766	volgur	volg volga volgan volgar volgara volgari volgast volgasta volgastan volgastar volgasti volgastir volgastra volgastrar volgastri volgasts volgastur volgi volgir volgra volgrar volgri volgs volgt volgu volgum volgust volgustu volgustum
+67	5767	gisting	gistinga gistinganna gistingar gistingarinnar gistingarnar gistingin gistingu gistingum gistinguna gistingunni gistingunum
+68	5768	skaft	skafta skaftanna skafti skaftinu skaftið skafts skaftsins sköft sköftin sköftum sköftunum
+69	5769	endurvekja	endurvakin endurvakinn endurvakinna endurvakinnar endurvakinni endurvakins endurvakið endurvakta endurvaktar endurvakti endurvaktir endurvek endurveki endurvekir endurvekið endurvekjandi endurvekjum endurvekti endurvektir endurvektu endurvektum endurvektuð endurvekur endurvöktu endurvöktum endurvöktuð
+70	5770	megrun	megrana megrananna megranir megranirnar megrunar megrunarinnar megrunin megrunina megruninni megrunum megrununum
+71	5771	abbast	abbastu abbaðist abbaðistu abbist abbistu öbbumst öbbuðumst öbbuðust
+72	5772	örvæntingarfullur	örvæntingarfull örvæntingarfulla örvæntingarfullan örvæntingarfullar örvæntingarfulli örvæntingarfullir örvæntingarfullra örvæntingarfullrar örvæntingarfullri örvæntingarfulls örvæntingarfullt örvæntingarfullu örvæntingarfullum örvæntingarfyllra örvæntingarfyllri örvæntingarfyllst örvæntingarfyllsta örvæntingarfyllstan örvæntingarfyllstar örvæntingarfyllsti örvæntingarfyllstir örvæntingarfyllstra örvæntingarfyllstrar örvæntingarfyllstri örvæntingarfyllsts örvæntingarfyllstu örvæntingarfyllstum örvæntingarfyllstur
+73	5773	byssumaður	byssumann byssumanna byssumannanna byssumanni byssumanninn byssumanninum byssumanns byssumannsins byssumaðurinn byssumenn byssumennina byssumennirnir byssumönnum byssumönnunum
+74	5774	skvetta	skvest skvett skvettan skvettandi skvettanna skvettast skvetti skvettir skvettist skvettið skvettu skvettum skvettumst skvettuna skvettunnar skvettunni skvettunum skvettur skvetturnar skvettust skvettuð
+75	5775	mitti	mitta mittanna mittin mittinu mittis mittisins mittið mittum mittunum
+76	5776	orðbragð	orðbragði orðbragðinu orðbragðið orðbragðs orðbragðsins
+77	5777	sleði	sleða sleðana sleðann sleðanna sleðans sleðanum sleðar sleðarnir sleðinn sleðum sleðunum
+78	5778	einkavæðing	einkavæðingar einkavæðingarinnar einkavæðingin einkavæðingu einkavæðinguna einkavæðingunni
+79	5779	gleðjast	gladdist gladdistu glaðst gleddist gleddistu gleddumst gleddust gleðjist gleðjistu gleðjumst gleðst gleðstu glöddumst glöddust
+80	5780	móðgun	móðgana móðgananna móðganir móðganirnar móðgunar móðgunarinnar móðgunin móðgunina móðguninni móðgunum móðgununum
+81	5781	pynta	pyntandi pyntar pyntast pyntað pyntaða pyntaðan pyntaðar pyntaði pyntaðir pyntaðist pyntaðra pyntaðrar pyntaðri pyntaðs pyntaðu pyntaður pynti pyntir pyntist pyntið pyntum pyntumst pyntuð pyntuðu pyntuðum pyntuðumst pyntuðust pyntuðuð
+82	5782	monta	montandi montar montast montastu montað montaði montaðir montaðist montaðu monti montir montist montið montum montumst montuðu montuðum montuðumst montuðust montuðuð
+83	5783	barnabók	barnabækur barnabækurnar barnabóka barnabókanna barnabókar barnabókarinnar barnabókin barnabókina barnabókinni barnabókum barnabókunum
+84	5784	áhrifaríkur	áhrifarík áhrifaríka áhrifaríkan áhrifaríkar áhrifaríkara áhrifaríkari áhrifaríkast áhrifaríkasta áhrifaríkastan áhrifaríkastar áhrifaríkasti áhrifaríkastir áhrifaríkastra áhrifaríkastrar áhrifaríkastri áhrifaríkasts áhrifaríkastur áhrifaríki áhrifaríkir áhrifaríkra áhrifaríkrar áhrifaríkri áhrifaríks áhrifaríkt áhrifaríku áhrifaríkum áhrifaríkust áhrifaríkustu áhrifaríkustum
+85	5785	sítróna	sítrónan sítrónanna sítrónu sítrónum sítrónuna sítrónunnar sítrónunni sítrónunum sítrónur sítrónurnar
+86	5786	græðgi	græðgin græðgina græðginnar græðginni
+87	5787	meining	meininga meininganna meiningar meiningarinnar meiningarnar meiningin meiningu meiningum meininguna meiningunni meiningunum
+88	5788	tólfti	tólfta tólftu
+89	5789	kráka	krákan krákanna krákna kráknanna kráku krákum krákuna krákunnar krákunni krákunum krákur krákurnar
+90	5790	ómissandi	
+91	5791	forystumaður	forystumann forystumanna forystumannanna forystumanni forystumanninn forystumanninum forystumanns forystumannsins forystumaðurinn forystumenn forystumennina forystumennirnir forystumönnum forystumönnunum
+92	5792	grenja	grenjandi grenjar grenjað grenjaði grenjaðir grenjaðu grenji grenjir grenjið grenjum grenjuðu grenjuðum grenjuðuð
+93	5793	smit	smita smitanna smiti smitin smitinu smitið smits smitsins smitum smitunum
+94	5794	uppkast	uppkasta uppkastanna uppkasti uppkastinu uppkastið uppkasts uppkastsins uppköst uppköstin uppköstum uppköstunum
+95	5795	blaðamennska	blaðamennskan blaðamennsku blaðamennskuna blaðamennskunnar blaðamennskunni
+96	5796	yfirhönd	yfirhandar yfirhandarinnar yfirhendi yfirhendinni yfirhöndin yfirhöndina yfirhöndinni
+97	5797	forkeppni	forkeppna forkeppnanna forkeppnin forkeppnina forkeppninnar forkeppninni forkeppnir forkeppnirnar forkeppnum forkeppnunum
+98	5798	hugsunarháttur	hugsunarhátt hugsunarháttar hugsunarháttarins hugsunarháttinn hugsunarhátturinn hugsunarhætti hugsunarhættinum
+99	5799	óæskilegur	óæskileg óæskilega óæskilegan óæskilegar óæskilegast óæskilegasta óæskilegastan óæskilegastar óæskilegasti óæskilegastir óæskilegastra óæskilegastrar óæskilegastri óæskilegasts óæskilegastur óæskilegi óæskilegir óæskilegra óæskilegrar óæskilegri óæskilegs óæskilegt óæskilegu óæskilegum óæskilegust óæskilegustu óæskilegustum
+100	5800	norðvestur	norðvestar norðvestast norðvestri norðvestrinu norðvestrið norðvesturs norðvestursins

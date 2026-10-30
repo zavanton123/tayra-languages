@@ -1,0 +1,100 @@
+1	4501	umræðuefni	umræðuefna umræðuefnanna umræðuefnin umræðuefninu umræðuefnis umræðuefnisins umræðuefnið umræðuefnum umræðuefnunum
+2	4502	myndlistarmaður	myndlistarmann myndlistarmanna myndlistarmannanna myndlistarmanni myndlistarmanninn myndlistarmanninum myndlistarmanns myndlistarmannsins myndlistarmaðurinn myndlistarmenn myndlistarmennina myndlistarmennirnir myndlistarmönnum myndlistarmönnunum
+3	4503	ringlaður	ringlað ringlaða ringlaðan ringlaðar ringlaðast ringlaðasta ringlaðastan ringlaðastar ringlaðasti ringlaðastir ringlaðastra ringlaðastrar ringlaðastri ringlaðasts ringlaðastur ringlaði ringlaðir ringlaðra ringlaðrar ringlaðri ringlaðs ringluð ringluðu ringluðum ringluðust ringluðustu ringluðustum
+4	4504	myndefni	myndefna myndefnanna myndefnin myndefninu myndefnis myndefnisins myndefnið myndefnum myndefnunum
+5	4505	tímamót	tímamóta tímamótanna tímamótin tímamótum tímamótunum
+6	4506	kisi	kisa kisana kisann kisanna kisans kisanum kisar kisarnir kisinn kisum kisunum
+7	4507	moli	mola molana molann molanna molans molanum molar molarnir molinn molum molunum
+8	4508	föstudagskvöld	föstudagskvölda föstudagskvöldanna föstudagskvöldi föstudagskvöldin föstudagskvöldinu föstudagskvöldið föstudagskvölds föstudagskvöldsins föstudagskvöldum föstudagskvöldunum
+9	4509	tætla	tætlan tætlna tætlnanna tætlu tætlum tætluna tætlunnar tætlunni tætlunum tætlur tætlurnar
+10	4510	skoðanakönnun	skoðanakannana skoðanakannananna skoðanakannanir skoðanakannanirnar skoðanakönnunar skoðanakönnunarinnar skoðanakönnunin skoðanakönnunina skoðanakönnuninni skoðanakönnunum skoðanakönnununum
+11	4511	dynja	dundi dundir dundu dundum dunduð dunið dyn dyndi dyndir dyndu dyndum dynduð dynjandi dynji dynjir dynjið dynjum dynur
+12	4512	mal	mali malinu malið mals malsins
+13	4513	krjúpa	kraup kraupst krjúpandi krjúpi krjúpir krjúpið krjúptu krjúpum kropin kropinn kropinna kropinnar kropinni kropins kropið kropna kropnar kropni kropnir kropnu kropnum krupu krupum krupuð krypi krypir krypu krypum krypuð krýp krýpur
+14	4514	geimskip	geimskipa geimskipanna geimskipi geimskipin geimskipinu geimskipið geimskips geimskipsins geimskipum geimskipunum
+15	4515	ið	iði iðinu iðið iðs iðsins
+16	4516	eftirlæti	eftirlætinu eftirlætis eftirlætisins eftirlætið
+17	4517	rukka	rukkandi rukkar rukkast rukkað rukkaða rukkaðan rukkaðar rukkaði rukkaðir rukkaðist rukkaðra rukkaðrar rukkaðri rukkaðs rukkaðu rukkaður rukki rukkir rukkist rukkið rukkum rukkumst rukkuð rukkuðu rukkuðum rukkuðumst rukkuðust rukkuðuð
+18	4518	duft	dufti duftinu duftið dufts duftsins
+19	4519	líffræðilegur	líffræðileg líffræðilega líffræðilegan líffræðilegar líffræðilegast líffræðilegasta líffræðilegastan líffræðilegastar líffræðilegasti líffræðilegastir líffræðilegastra líffræðilegastrar líffræðilegastri líffræðilegasts líffræðilegastur líffræðilegi líffræðilegir líffræðilegra líffræðilegrar líffræðilegri líffræðilegs líffræðilegt líffræðilegu líffræðilegum líffræðilegust líffræðilegustu líffræðilegustum
+20	4520	mótun	mótunar mótunarinnar mótunin mótunina mótuninni
+21	4521	misnota	misnotandi misnotar misnotast misnotað misnotaða misnotaðan misnotaðar misnotaði misnotaðir misnotaðist misnotaðra misnotaðrar misnotaðri misnotaðs misnotaðu misnotaður misnoti misnotir misnotist misnotið misnotum misnotumst misnotuð misnotuðu misnotuðum misnotuðumst misnotuðust misnotuðuð
+22	4522	skálholt	skálholti
+23	4523	yfirvofandi	
+24	4524	viðreisn	viðreisnar viðreisnarinnar viðreisnin viðreisnina viðreisninni
+25	4525	latur	lata latan latar latara latari latast latasta latastan latastar latasti latastir latastra latastrar latastri latasts latastur lati latir latra latrar latri lats latt löt lötu lötum lötust lötustu lötustum
+26	4526	lykkja	lykkjan lykkjanna lykkju lykkjum lykkjuna lykkjunnar lykkjunni lykkjunum lykkjur lykkjurnar lykkna lykknanna
+27	4527	þvermál	þvermála þvermálanna þvermáli þvermálin þvermálinu þvermálið þvermáls þvermálsins þvermálum þvermálunum
+28	4528	þorskur	þorsk þorska þorskana þorskanna þorskar þorskarnir þorski þorskinn þorskinum þorsknum þorsks þorsksins þorskum þorskunum þorskurinn
+29	4529	eignarhald	eignarhaldi eignarhaldinu eignarhaldið eignarhalds eignarhaldsins
+30	4530	bati	bata batana batann batanna batans batanum batar batarnir batinn bötum bötunum
+31	4531	örk	arka arkanna arkar arkarinnar arkir arkirnar örkin örkina örkinni örkum örkunum
+32	4532	þota	þotan þotanna þotna þotnanna þotu þotum þotuna þotunnar þotunni þotunum þotur þoturnar
+33	4533	gabba	gabbandi gabbar gabbast gabbað gabbaða gabbaðan gabbaðar gabbaði gabbaðir gabbaðirðu gabbaðist gabbaðra gabbaðrar gabbaðri gabbaðs gabbaðu gabbaður gabbi gabbir gabbist gabbið göbbum göbbumst göbbuð göbbuðu göbbuðum göbbuðumst göbbuðust göbbuðuð
+34	4534	geislun	geislana geislananna geislanir geislanirnar geislunar geislunarinnar geislunin geislunina geisluninni geislunum geislununum
+35	4535	árgangur	árgang árganga árgangana árganganna árgangar árgangarnir árgangi árganginn árganginum árgangs árgangsins árgangurinn árgöngum árgöngunum
+36	4536	flugeldur	flugeld flugelda flugeldana flugeldanna flugeldar flugeldarnir flugeldi flugeldinn flugeldinum flugelds flugeldsins flugeldum flugeldunum flugeldurinn
+37	4537	skagi	skaga skagana skagann skaganna skagans skaganum skagar skagarnir skaginn skögum skögunum
+38	4538	appelsínugulur	appelsínugul appelsínugula appelsínugulan appelsínugular appelsínugulara appelsínugulari appelsínugulast appelsínugulasta appelsínugulastan appelsínugulastar appelsínugulasti appelsínugulastir appelsínugulastra appelsínugulastrar appelsínugulastri appelsínugulasts appelsínugulastur appelsínuguli appelsínugulir appelsínugulra appelsínugulrar appelsínugulri appelsínuguls appelsínugult appelsínugulu appelsínugulum appelsínugulust appelsínugulustu appelsínugulustum
+39	4539	leiðbeina	leiðbeinandi leiðbeinast leiðbeindi leiðbeindir leiðbeindu leiðbeindum leiðbeinduð leiðbeini leiðbeinir leiðbeinið leiðbeinst leiðbeint leiðbeinum
+40	4540	landsvísa	landsvísu
+41	4541	ævisaga	ævisagan ævisagna ævisagnanna ævisögu ævisögum ævisöguna ævisögunnar ævisögunni ævisögunum ævisögur ævisögurnar
+42	4542	orri	orra orrana orrann orranna orrans orranum orrar orrarnir orrinn orrum orrunum
+43	4543	gulrót	gulrætur gulræturnar gulróta gulrótanna gulrótar gulrótarinnar gulrótin gulrótina gulrótinni gulrótum gulrótunum
+44	4544	gagnkvæmur	gagnkvæm gagnkvæma gagnkvæman gagnkvæmar gagnkvæmara gagnkvæmari gagnkvæmast gagnkvæmasta gagnkvæmastan gagnkvæmastar gagnkvæmasti gagnkvæmastir gagnkvæmastra gagnkvæmastrar gagnkvæmastri gagnkvæmasts gagnkvæmastur gagnkvæmi gagnkvæmir gagnkvæmra gagnkvæmrar gagnkvæmri gagnkvæms gagnkvæmt gagnkvæmu gagnkvæmum gagnkvæmust gagnkvæmustu gagnkvæmustum
+45	4545	hitna	hitnandi hitnar hitnað hitnaði hitnaðir hitni hitnir hitnið hitnum hitnuðu hitnuðum hitnuðuð
+46	4546	örvænting	örvæntingar örvæntingarinnar örvæntingin örvæntingu örvæntinguna örvæntingunni
+47	4547	hirð	hirða hirðanna hirðar hirðarinnar hirðin hirðina hirðinni hirðir hirðirnar hirðum hirðunum
+48	4548	klóra	klóran klórandi klóranna klórar klórast klórað klóraða klóraðan klóraðar klóraði klóraðir klóraðist klóraðra klóraðrar klóraðri klóraðs klóraðu klóraður klóri klórir klórist klórið klóru klórum klórumst klóruna klórunnar klórunni klórunum klórur klórurnar klóruð klóruðu klóruðum klóruðumst klóruðust klóruðuð
+49	4549	rökrétt	
+50	4550	vélbyssa	vélbyssan vélbyssanna vélbyssna vélbyssnanna vélbyssu vélbyssum vélbyssuna vélbyssunnar vélbyssunni vélbyssunum vélbyssur vélbyssurnar
+51	4551	meðvitaður	meðvitað meðvitaða meðvitaðan meðvitaðar meðvitaðast meðvitaðasta meðvitaðastan meðvitaðastar meðvitaðasti meðvitaðastir meðvitaðastra meðvitaðastrar meðvitaðastri meðvitaðasts meðvitaðastur meðvitaði meðvitaðir meðvitaðra meðvitaðrar meðvitaðri meðvitaðs meðvituð meðvituðu meðvituðum meðvituðust meðvituðustu meðvituðustum
+52	4552	stýrikerfi	stýrikerfa stýrikerfanna stýrikerfin stýrikerfinu stýrikerfis stýrikerfisins stýrikerfið stýrikerfum stýrikerfunum
+53	4553	hótun	hótana hótananna hótanir hótanirnar hótunar hótunarinnar hótunin hótunina hótuninni hótunum hótununum
+54	4554	kunnur	kunn kunna kunnan kunnar kunnara kunnari kunnast kunnasta kunnastan kunnastar kunnasti kunnastir kunnastra kunnastrar kunnastri kunnasts kunnastur kunni kunnir kunnra kunnrar kunnri kunns kunnu kunnum kunnust kunnustu kunnustum
+55	4555	hreiður	hreiðra hreiðranna hreiðri hreiðrin hreiðrinu hreiðrið hreiðrum hreiðrunum hreiðurs hreiðursins
+56	4556	spauga	spaugandi spaugar spaugarðu spaugast spaugað spaugaða spaugaðan spaugaðar spaugaði spaugaðir spaugaðist spaugaðra spaugaðrar spaugaðri spaugaðs spaugaðu spaugaður spaugi spaugir spaugist spaugið spaugum spaugumst spauguð spauguðu spauguðum spauguðumst spauguðust spauguðuð
+57	4557	kitla	kitlandi kitlar kitlað kitlaða kitlaðan kitlaðar kitlaði kitlaðir kitlaðra kitlaðrar kitlaðri kitlaðs kitlaðu kitlaður kitli kitlir kitlið kitlum kitluð kitluðu kitluðum kitluðuð
+58	4558	brennandi	
+59	4559	pínulítill	pínulitla pínulitlar pínulitli pínulitlir pínulitlu pínulitlum pínulítil pínulítilla pínulítillar pínulítilli pínulítils pínulítinn pínulítið
+60	4560	sjálfstraust	sjálfstrausti sjálfstraustinu sjálfstraustið sjálfstrausts sjálfstraustsins
+61	4561	snemmt	
+62	4562	gjaldkeri	gjaldkera gjaldkerana gjaldkerann gjaldkeranna gjaldkerans gjaldkeranum gjaldkerar gjaldkerarnir gjaldkerinn gjaldkerum gjaldkerunum
+63	4563	eftirlifandi	eftirlifanda eftirlifandann eftirlifandans eftirlifandanum eftirlifandinn eftirlifenda eftirlifendanna eftirlifendum eftirlifendunum eftirlifendur eftirlifendurna eftirlifendurnir
+64	4564	byr	byri byrina byrinn byrir byrirnir byrja byrjanna byrjar byrjarins byrjum byrjunum byrnum byrs byrsins
+65	4565	bál	bála bálanna báli bálin bálinu bálið báls bálsins bálum bálunum
+66	4566	gæi	gæinn gæja gæjana gæjann gæjanna gæjans gæjanum gæjar gæjarnir gæjum gæjunum
+67	4567	innbyrðis	
+68	4568	taumur	taum tauma taumana taumanna taumar taumarnir taumi tauminn taumnum taums taumsins taumum taumunum taumurinn
+69	4569	hamla	hamlan hamlandi hamlanna hamlar hamlast hamlað hamlaða hamlaðan hamlaðar hamlaði hamlaðir hamlaðist hamlaðra hamlaðrar hamlaðri hamlaðs hamlaðu hamlaður hamli hamlir hamlist hamlið hömlu hömlum hömlumst hömluna hömlunnar hömlunni hömlunum hömlur hömlurnar hömluð hömluðu hömluðum hömluðumst hömluðust hömluðuð
+70	4570	byrgi	byrgin byrginu byrgis byrgisins byrgið byrgja byrgjanna byrgjum byrgjunum
+71	4571	lagalegur	lagaleg lagalega lagalegan lagalegar lagalegast lagalegasta lagalegastan lagalegastar lagalegasti lagalegastir lagalegastra lagalegastrar lagalegastri lagalegasts lagalegastur lagalegi lagalegir lagalegra lagalegrar lagalegri lagalegs lagalegt lagalegu lagalegum lagalegust lagalegustu lagalegustum
+72	4572	hernaður	hernað hernaðar hernaðarins hernaði hernaðinn hernaðinum hernaðnum hernaðurinn
+73	4573	efnilegur	efnileg efnilega efnilegan efnilegar efnilegast efnilegasta efnilegastan efnilegastar efnilegasti efnilegastir efnilegastra efnilegastrar efnilegastri efnilegasts efnilegastur efnilegi efnilegir efnilegra efnilegrar efnilegri efnilegs efnilegt efnilegu efnilegum efnilegust efnilegustu efnilegustum
+74	4574	sambúð	sambúða sambúðanna sambúðar sambúðarinnar sambúðin sambúðina sambúðinni sambúðir sambúðirnar sambúðum sambúðunum
+75	4575	ósannur	ósanna ósannan ósannar ósannara ósannari ósannast ósannasta ósannastan ósannastar ósannasti ósannastir ósannastra ósannastrar ósannastri ósannasts ósannastur ósannað ósannaðir ósannaðra ósanni ósannir ósannra ósannrar ósannri ósanns ósatt ósönn ósönnu ósönnum ósönnust ósönnustu ósönnustum
+76	4576	kæfa	kæfan kæfandi kæfast kæfi kæfir kæfist kæfið kæfst kæft kæfu kæfum kæfumst kæfuna kæfunnar kæfunni kæfð kæfða kæfðan kæfðar kæfði kæfðir kæfðist kæfðra kæfðrar kæfðri kæfðs kæfðu kæfðum kæfðumst kæfður kæfðust kæfðuð
+77	4577	skarpur	skarpa skarpan skarpar skarpara skarpari skarpast skarpasta skarpastan skarpastar skarpasti skarpastir skarpastra skarpastrar skarpastri skarpasts skarpastur skarpi skarpir skarpra skarprar skarpri skarps skarpt skörp skörpu skörpum skörpust skörpustu skörpustum
+78	4578	haka	hakan hakandi hakanna hakar hakast hakað hakaða hakaðan hakaðar hakaði hakaðir hakaðist hakaðra hakaðrar hakaðri hakaðs hakaðu hakaður haki hakir hakist hakið höku hökum hökumst hökuna hökunnar hökunni hökunum hökur hökurnar hökuð hökuðu hökuðum hökuðumst hökuðust hökuðuð
+79	4579	glæta	glætan glætanna glætu glætum glætuna glætunnar glætunni glætunum glætur glæturnar
+80	4580	slasa	slasandi slasar slasað slasaða slasaðan slasaðar slasaði slasaðir slasaðra slasaðrar slasaðri slasaðs slasaðu slasaður slasi slasir slasið slösum slösuð slösuðu slösuðum slösuðuð
+81	4581	umfang	umfanga umfanganna umfangi umfanginu umfangið umfangs umfangsins umföng umföngin umföngum umföngunum
+82	4582	miðskóli	miðskóla miðskólana miðskólann miðskólanna miðskólans miðskólanum miðskólar miðskólarnir miðskólinn miðskólum miðskólunum
+83	4583	búskapur	búskap búskapar búskaparins búskapinn búskapnum búskapurinn
+84	4584	fjöður	fjaðra fjaðranna fjaðrar fjaðrarinnar fjaðraði fjaðrir fjaðrirnar fjöðrin fjöðrina fjöðrinni fjöðrum fjöðrunum fjöðruðu
+85	4585	herdeild	herdeilda herdeildanna herdeildar herdeildarinnar herdeildin herdeildina herdeildinni herdeildir herdeildirnar herdeildum herdeildunum
+86	4586	skrift	skrifta skriftanna skriftar skriftarinnar skriftin skriftina skriftinni skriftir skriftirnar skriftum skriftunum
+87	4587	öxi	axa axanna axar axarinnar axir axirnar öxin öxina öxinni öxum öxunum
+88	4588	landeigandi	landeiganda landeigandann landeigandans landeigandanum landeigandinn landeigenda landeigendanna landeigendum landeigendunum landeigendur landeigendurna landeigendurnir
+89	4589	hrekkjavaka	hrekkjavakan hrekkjavakanna hrekkjavöku hrekkjavökum hrekkjavökuna hrekkjavökunnar hrekkjavökunni hrekkjavökunum hrekkjavökur hrekkjavökurnar
+90	4590	verslunarmiðstöð	verslunarmiðstöðin verslunarmiðstöðina verslunarmiðstöðinni verslunarmiðstöðva verslunarmiðstöðvanna verslunarmiðstöðvar verslunarmiðstöðvarinnar verslunarmiðstöðvarnar verslunarmiðstöðvum verslunarmiðstöðvunum
+91	4591	mínus	mínusa mínusana mínusanna mínusar mínusarnir mínusinn mínusnum mínuss mínussins mínusum mínusunum
+92	4592	landsframleiðsla	landsframleiðslan landsframleiðslu landsframleiðsluna landsframleiðslunnar landsframleiðslunni
+93	4593	lögreglustöð	lögreglustöðin lögreglustöðina lögreglustöðinni lögreglustöðva lögreglustöðvanna lögreglustöðvar lögreglustöðvarinnar lögreglustöðvarnar lögreglustöðvum lögreglustöðvunum
+94	4594	harðlega	
+95	4595	stúka	stúkan stúkandi stúkanna stúkar stúkast stúkað stúkaða stúkaðan stúkaðar stúkaði stúkaðir stúkaðist stúkaðra stúkaðrar stúkaðri stúkaðs stúkaðu stúkaður stúki stúkir stúkist stúkið stúkna stúknanna stúku stúkum stúkumst stúkuna stúkunnar stúkunni stúkunum stúkur stúkurnar stúkuð stúkuðu stúkuðum stúkuðumst stúkuðust stúkuðuð
+96	4596	ófær	ófæra ófæran ófærar ófærara ófærari ófærast ófærasta ófærastan ófærastar ófærasti ófærastir ófærastra ófærastrar ófærastri ófærasts ófærastur ófæri ófærir ófærra ófærrar ófærri ófærs ófært ófæru ófærum ófærust ófærustu ófærustum
+97	4597	vörubíll	vörubíl vörubíla vörubílana vörubílanna vörubílar vörubílarnir vörubílinn vörubíllinn vörubílnum vörubíls vörubílsins vörubílum vörubílunum
+98	4598	lund	lunda lundanna lundar lundarinnar lundin lundina lundinni lundir lundirnar lundum lundunum
+99	4599	suðvestur	suðvestar suðvestast suðvestri suðvestrinu suðvestrið suðvesturs suðvestursins
+100	4600	hraustur	hraust hrausta hraustan hraustar hraustara hraustari hraustast hraustasta hraustastan hraustastar hraustasti hraustastir hraustastra hraustastrar hraustastri hraustasts hraustastur hrausti hraustir hraustra hraustrar hraustri hrausts hraustu hraustum hraustust hraustustu hraustustum

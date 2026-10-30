@@ -1,0 +1,100 @@
+1	1001	orka	orkan orkandi orkar orkast orkað orkaða orkaðan orkaðar orkaði orkaðir orkaðist orkaðra orkaðrar orkaðri orkaðs orkaðu orkaður orki orkir orkist orkið orku orkum orkumst orkuna orkunnar orkunni orkuð orkuðu orkuðum orkuðumst orkuðust orkuðuð
+2	1002	haust	hausta haustanna hausti haustin haustinu haustið hausts haustsins haustum haustunum
+3	1003	þróa	þróandi þróar þróast þróað þróaða þróaðan þróaðar þróaði þróaðir þróaðist þróaðra þróaðrar þróaðri þróaðs þróaðu þróaður þrói þróir þróist þróið þróum þróumst þróuð þróuðu þróuðum þróuðumst þróuðust þróuðuð
+4	1004	fyrrverandi	
+5	1005	greinilega	greinilegar greinilegast
+6	1006	losa	losandi losar losarðu losast losað losaða losaðan losaðar losaði losaðir losaðirðu losaðist losaðra losaðrar losaðri losaðs losaðu losaður losi losir losist losið losum losumst losuð losuðu losuðum losuðumst losuðust losuðuð
+7	1007	fífl	fífla fíflanna fífli fíflin fíflinu fíflið fífls fíflsins fíflum fíflunum
+8	1008	fangi	fanga fangana fangann fanganna fangans fanganum fangar fangarnir fanginn föngum föngunum
+9	1009	æfa	æfandi æfast æfi æfir æfirðu æfist æfið æfst æft æfum æfumst æfð æfða æfðan æfðar æfði æfðir æfðirðu æfðist æfðra æfðrar æfðri æfðs æfðu æfðum æfðumst æfður æfðust æfðuð
+10	1010	neðan	
+11	1011	heilsa	heilsan heilsandi heilsar heilsað heilsaði heilsaðir heilsaðu heilsi heilsir heilsið heilsiði heilsu heilsum heilsuna heilsunnar heilsunni heilsuðu heilsuðum heilsuðuð
+12	1012	slökkva	slekk slekkti slekktir slekktu slekktum slekktuð slekkur slekkurðu slökkt slökkta slökktan slökktar slökkti slökktir slökktirðu slökktra slökktrar slökktri slökkts slökktu slökktum slökktur slökktuð slökkvandi slökkvi slökkvir slökkvið slökkviði slökkvum
+13	1013	páll	pál pála pálana pálanna pálar pálarnir páli pálinn pállinn pálnum páls pálsins pálum pálunum
+14	1014	fagna	fagnandi fagnar fagnarðu fagnað fagnaði fagnaðir fagnaðu fagni fagnir fagnið fögnum fögnuðu fögnuðum fögnuðuð
+15	1015	fljótlega	fljótlegar fljótlegast
+16	1016	veikur	veik veika veikan veikar veikara veikari veikast veikasta veikastan veikastar veikasti veikastir veikastra veikastrar veikastri veikasts veikastur veiki veikir veikra veikrar veikri veiks veikt veiku veikum veikust veikustu veikustum
+17	1017	skora	skoran skorandi skoranna skorar skorarðu skorast skorað skoraða skoraðan skoraðar skoraði skoraðir skoraðirðu skoraðist skoraðra skoraðrar skoraðri skoraðs skoraðu skoraður skori skorir skorist skorið skoru skorum skorumst skoruna skorunnar skorunni skorunum skorur skorurnar skoruð skoruðu skoruðum skoruðumst skoruðust skoruðuð
+18	1018	net	neta netanna neti netin netinu netið nets netsins netum netunum
+19	1019	óttast	óttastu óttaðist óttist óttumst óttuðumst óttuðust
+20	1020	losna	losnandi losnar losnarðu losnað losnaða losnaðan losnaðar losnaði losnaðir losnaðirðu losnaðra losnaðrar losnaðri losnaðs losnaðu losnaður losni losnir losnið losnum losnuð losnuðu losnuðum losnuðuð
+21	1021	skyldur	skyld skylda skyldan skyldar skyldara skyldari skyldast skyldasta skyldastan skyldastar skyldasti skyldastir skyldastra skyldastrar skyldastri skyldasts skyldastur skyldi skyldir skyldra skyldrar skyldri skylds skyldu skyldum skyldust skyldustu skyldustum skylt
+22	1022	samskipti	samskipta samskiptanna samskiptin samskiptum samskiptunum
+23	1023	vissulega	
+24	1024	ferðast	ferðastu ferðaðist ferðist ferðumst ferðuðumst ferðuðust
+25	1025	skipuleggja	skipulagst skipulagt skipulagða skipulagðan skipulagðar skipulagði skipulagðir skipulagðist skipulagðra skipulagðrar skipulagðri skipulagðs skipulagður skipulegg skipuleggi skipuleggir skipuleggist skipuleggið skipuleggjandi skipuleggjast skipuleggjum skipuleggjumst skipuleggst skipuleggur skipuleggðu skipulegði skipulegðir skipulegðist skipulegðu skipulegðum skipulegðumst skipulegðust skipulegðuð skipulögð skipulögðu skipulögðum skipulögðumst skipulögðust skipulögðuð
+26	1026	slys	slysa slysanna slysi slysin slysinu slysið slyss slyssins slysum slysunum
+27	1027	alvarlegur	alvarleg alvarlega alvarlegan alvarlegar alvarlegast alvarlegasta alvarlegastan alvarlegastar alvarlegasti alvarlegastir alvarlegastra alvarlegastrar alvarlegastri alvarlegasts alvarlegastur alvarlegi alvarlegir alvarlegra alvarlegrar alvarlegri alvarlegs alvarlegt alvarlegu alvarlegum alvarlegust alvarlegustu alvarlegustum
+28	1028	gærkvöld	gærkvöldi gærkvöldinu gærkvöldið gærkvölds gærkvöldsins
+29	1029	bjór	bjóra bjórana bjóranna bjórar bjórarnir bjórinn bjórnum bjórs bjórsins bjórum bjórunum
+30	1030	almennt	almennara almennast
+31	1031	ungfrú	ungfrúa ungfrúar ungfrúarinnar ungfrúin ungfrúm ungfrúna ungfrúnna ungfrúnni ungfrúnum ungfrúr ungfrúrnar
+32	1032	rúmlega	rúmlegan rúmleganna rúmlegna rúmlegnanna rúmlegu rúmlegum rúmleguna rúmlegunnar rúmlegunni rúmlegunum rúmlegur rúmlegurnar
+33	1033	dæma	dæmandi dæmast dæmd dæmda dæmdan dæmdar dæmdi dæmdir dæmdist dæmdra dæmdrar dæmdri dæmds dæmdu dæmdum dæmdumst dæmdur dæmdust dæmduð dæmi dæmir dæmirðu dæmist dæmistu dæmið dæmst dæmt dæmum dæmumst
+34	1034	fjórði	fjórða fjórðu
+35	1035	sjálfstæður	sjálfstætt sjálfstæð sjálfstæða sjálfstæðan sjálfstæðar sjálfstæðara sjálfstæðari sjálfstæðast sjálfstæðasta sjálfstæðastan sjálfstæðastar sjálfstæðasti sjálfstæðastir sjálfstæðastra sjálfstæðastrar sjálfstæðastri sjálfstæðasts sjálfstæðastur sjálfstæði sjálfstæðir sjálfstæðra sjálfstæðrar sjálfstæðri sjálfstæðs sjálfstæðu sjálfstæðum sjálfstæðust sjálfstæðustu sjálfstæðustum
+36	1036	rekja	rakin rakinn rakinna rakinnar rakinni rakins rakist rakið rakta raktar rakti raktir raktist rek reki rekir rekirðu rekist rekið rekjan rekjandi rekjast rekju rekjum rekjumst rekjuna rekjunnar rekjunni rekst rekti rektir rektist rektu rektum rektumst rektust rektuð rekur rekurðu röktu röktum röktumst röktust röktuð
+37	1037	bregðast	bregst bregstu bregðist bregðumst brugðist brugðumst brugðust brygðist brygðumst brygðust brást
+38	1038	öryggi	öryggin örygginu öryggis öryggisins öryggið öryggja öryggjanna öryggjum öryggjunum
+39	1039	himinn	himin himininn himinninn himins himinsins himna himnana himnanna himnar himnarnir himni himninum himnum himnunum
+40	1040	svokallaður	svokallað svokallaða svokallaðan svokallaðar svokallaði svokallaðir svokallaðra svokallaðrar svokallaðri svokallaðs svokölluð svokölluðu svokölluðum
+41	1041	glæsilegur	glæsileg glæsilega glæsilegan glæsilegar glæsilegast glæsilegasta glæsilegastan glæsilegastar glæsilegasti glæsilegastir glæsilegastra glæsilegastrar glæsilegastri glæsilegasts glæsilegastur glæsilegi glæsilegir glæsilegra glæsilegrar glæsilegri glæsilegs glæsilegt glæsilegu glæsilegum glæsilegust glæsilegustu glæsilegustum
+42	1042	sjúkdómur	sjúkdóm sjúkdóma sjúkdómana sjúkdómanna sjúkdómar sjúkdómarnir sjúkdómi sjúkdóminn sjúkdóminum sjúkdómnum sjúkdóms sjúkdómsins sjúkdómum sjúkdómunum sjúkdómurinn
+43	1043	aðstoða	aðstoðandi aðstoðar aðstoðarðu aðstoðað aðstoðaði aðstoðaðir aðstoðaðu aðstoði aðstoðir aðstoðið aðstoðum aðstoðuðu aðstoðuðum aðstoðuðuð
+44	1044	skilaboð	skilaboða skilaboðanna skilaboðin skilaboðum skilaboðunum
+45	1045	afsökun	afsakana afsakananna afsakanir afsakanirnar afsökunar afsökunarinnar afsökunin afsökunina afsökuninni afsökunum afsökununum
+46	1046	grunnur	grunn grunna grunnan grunnana grunnanna grunnar grunnarnir grunni grunninn grunninum grunnir grunnra grunnrar grunnri grunns grunnsins grunnt grunnu grunnum grunnunum grunnurinn grynnra grynnri grynnst grynnsta grynnstan grynnstar grynnsti grynnstir grynnstra grynnstrar grynnstri grynnsts grynnstu grynnstum grynnstur
+47	1047	braut	brauta brautanna brautar brautarinnar brautin brautina brautinni brautir brautirnar brautum brautunum
+48	1048	bardagi	bardaga bardagana bardagann bardaganna bardagans bardaganum bardagar bardagarnir bardaginn bardögum bardögunum
+49	1049	sál	sála sálanna sálar sálarinnar sálarnar sálin sálina sálinni sálir sálirnar sálum sálunum
+50	1050	vefur	vef vefi vefina vefinn vefir vefirnir vefja vefjanna vefjar vefjarins vefjum vefjunum vefnum vefs vefsins vefurinn
+51	1051	hverfi	hverfa hverfanna hverfin hverfinu hverfis hverfisins hverfið hverfum hverfunum
+52	1052	hvorki	
+53	1053	festa	fest festan festandi festar festast festi festir festirðu festist festistu festið festra festrar festri fests festu festum festumst festuna festunnar festunni festur festust festuð
+54	1054	umhverfi	umhverfinu umhverfis umhverfisins umhverfið
+55	1055	frelsi	frelsinu frelsis frelsisins frelsið
+56	1056	gengi	gengin genginu gengis gengisins gengið gengja gengjanna gengjum gengjunum
+57	1057	hvíla	hvílan hvílandi hvílanna hvílast hvíld hvílda hvíldan hvíldar hvíldi hvíldir hvíldist hvíldra hvíldrar hvíldri hvílds hvíldu hvíldum hvíldumst hvíldur hvíldust hvílduð hvíli hvílir hvílist hvílið hvílna hvílnanna hvílst hvílstu hvílt hvílu hvílum hvílumst hvíluna hvílunnar hvílunni hvílunum hvílur hvílurnar
+58	1058	tæki	tækin tækinu tækis tækisins tækið tækja tækjanna tækjum tækjunum
+59	1059	gjöra	gjörandi gjörast gjöri gjörir gjörist gjörið gjörst gjört gjörum gjörumst gjörð gjörða gjörðan gjörðar gjörði gjörðir gjörðist gjörðra gjörðrar gjörðri gjörðs gjörðu gjörðum gjörðumst gjörður gjörðust gjörðuð
+60	1060	rannsaka	rannsakandi rannsakar rannsakarðu rannsakast rannsakað rannsakaða rannsakaðan rannsakaðar rannsakaði rannsakaðir rannsakaðist rannsakaðra rannsakaðrar rannsakaðri rannsakaðs rannsakaðu rannsakaður rannsaki rannsakir rannsakist rannsakið rannsökum rannsökumst rannsökuð rannsökuðu rannsökuðum rannsökuðumst rannsökuðust rannsökuðuð
+61	1061	horn	horna hornanna horni hornin horninu hornið horns hornsins hornum hornunum
+62	1062	austur	austar austast austra austrana austranna austrar austrarnir austri austrinu austrinum austrið austrum austrunum austurinn austurs austursins
+63	1063	aftan	
+64	1064	egg	eggi eggin eggina egginni egginu eggið eggja eggjanna eggjar eggjarinnar eggjarnar eggjum eggjunum eggs eggsins
+65	1065	stökkva	stekk stekkur stekkurðu stokkin stokkinn stokkinna stokkinnar stokkinni stokkins stokkið stokkna stokknar stokkni stokknir stokknu stokknum stukku stukkum stukkuð stykki stykkir stykkirðu stykkju stykkjum stykkjuð stökk stökkst stökkstu stökkt stökkti stökktir stökktu stökktum stökktuð stökkvandi stökkvi stökkvir stökkvirðu stökkvið stökkviði stökkvum
+66	1066	viðtal	viðtala viðtalanna viðtali viðtalinu viðtalið viðtals viðtalsins viðtöl viðtölin viðtölum viðtölunum
+67	1067	bekkur	bekk bekki bekkina bekkinn bekkir bekkirnir bekkja bekkjanna bekkjar bekkjarins bekkjum bekkjunum bekknum bekks bekksins bekkurinn
+68	1068	rass	rassa rassana rassanna rassar rassarnir rassi rassinn rassins rassinum rössum rössunum
+69	1069	ráðherra	ráðherrana ráðherrann ráðherranna ráðherrans ráðherranum ráðherrar ráðherrarnir ráðherrum ráðherrunum
+70	1070	varða	varðan varðandi varðanna varðar varðað varðaða varðaðan varðaðar varðaði varðaðir varðaðra varðaðrar varðaðri varðaðs varðaðu varðaður varði varðir varðið varðna varðnanna vörðu vörðum vörðuna vörðunnar vörðunni vörðunum vörður vörðurnar vörðuð vörðuðu vörðuðum vörðuðuð
+71	1071	virða	virt virti virtir virtirðu virtu virtum virtuð virðandi virði virðir virðirðu virðið virðum
+72	1072	náttúra	náttúran náttúranna náttúru náttúrum náttúruna náttúrunnar náttúrunni náttúrunum náttúrur náttúrurnar
+73	1073	gráta	grátandi gráti grátin grátinn grátinna grátinnar grátinni grátins grátir grátið grátna grátnar grátni grátnir grátnu grátnum gráttu grátum græt grætur græturðu grést gréstu grét gréti grétir grétu grétum grétuð
+74	1074	sigla	siglan siglandi sigld siglda sigldan sigldar sigldi sigldir sigldra sigldrar sigldri siglds sigldu sigldum sigldur siglduð sigli siglir siglið siglna siglnanna siglt siglu siglum sigluna siglunnar siglunni siglunum siglur siglurnar
+75	1075	almáttugur	almáttug almáttuga almáttugan almáttugar almáttugi almáttugir almáttugra almáttugrar almáttugri almáttugs almáttugt almáttugu almáttugum
+76	1076	kæra	kæran kærandi kæranna kæri kærir kærið kært kæru kærum kæruna kærunnar kærunni kærunum kærur kærurnar kærð kærða kærðan kærðar kærði kærðir kærðirðu kærðra kærðrar kærðri kærðs kærðu kærðum kærður kærðuð
+77	1077	eigandi	eiganda eigandann eigandans eigandanum eigandinn eigenda eigendanna eigendum eigendunum eigendur eigendurna eigendurnir
+78	1078	heimskur	heimsk heimska heimskan heimskar heimskara heimskari heimskast heimskasta heimskastan heimskastar heimskasti heimskastir heimskastra heimskastrar heimskastri heimskasts heimskastur heimski heimskir heimskra heimskrar heimskri heimsks heimskt heimsku heimskum heimskust heimskustu heimskustum
+79	1079	minnka	minnkandi minnkar minnkast minnkað minnkaða minnkaðan minnkaðar minnkaði minnkaðir minnkaðirðu minnkaðist minnkaðra minnkaðrar minnkaðri minnkaðs minnkaðu minnkaður minnki minnkir minnkist minnkið minnkum minnkumst minnkuð minnkuðu minnkuðum minnkuðumst minnkuðust minnkuðuð
+80	1080	heiður	heið heiða heiðan heiðar heiðara heiðari heiðast heiðasta heiðastan heiðastar heiðasti heiðastir heiðastra heiðastrar heiðastri heiðasts heiðastur heiði heiðir heiðra heiðrar heiðri heiðrinum heiðs heiðu heiðum heiðurinn heiðurs heiðursins heiðust heiðustu heiðustum
+81	1081	dans	dansa dansana dansanna dansar dansarnir dansi dansinn dansins dansinum dönsum dönsunum
+82	1082	kveða	kvað kvaðst kvaðstu kveddu kveð kveðan kveðandi kveðanna kveði kveðin kveðinn kveðinna kveðinnar kveðinni kveðins kveðir kveðirðu kveðið kveðna kveðnanna kveðnar kveðni kveðnir kveðnu kveðnum kveðu kveðum kveðuna kveðunnar kveðunni kveðunum kveður kveðurnar kveðurðu kváðu kváðum kváðuð kvæði kvæðir kvæðirðu kvæðu kvæðum kvæðuð
+83	1083	dreyma	dreymandi dreymdi dreymi dreymir dreymt
+84	1084	berja	barin barinn barinna barinnar barinni barins barið barða barðar barði barðir barðirðu ber berjan berjandi berjanna berji berjir berjið berju berjum berjuna berjunnar berjunni berjunum berjur berjurnar berð berði berðir berðu berðum berðuð börðu börðum börðuð
+85	1085	kvikmynd	kvikmynda kvikmyndanna kvikmyndar kvikmyndarinnar kvikmyndin kvikmyndina kvikmyndinni kvikmyndir kvikmyndirnar kvikmyndum kvikmyndunum
+86	1086	vitni	vitna vitnanna vitnin vitninu vitnis vitnisins vitnið vitnum vitnunum
+87	1087	svalur	svala svalan svalar svalara svalari svalast svalasta svalastan svalastar svalasti svalastir svalastra svalastrar svalastri svalasts svalastur svali svalir svalra svalrar svalri svals svalt svöl svölu svölum svölust svölustu svölustum
+88	1088	nánast	
+89	1089	loks	
+90	1090	erlendis	
+91	1091	síða	síðan síðna síðnanna síðu síðum síðuna síðunnar síðunni síðunum síðurnar
+92	1092	heimsækja	heimsæki heimsækir heimsækirðu heimsækið heimsækjandi heimsækjum heimsækti heimsæktir heimsæktu heimsæktum heimsæktuð heimsótt heimsótta heimsóttan heimsóttar heimsótti heimsóttir heimsóttirðu heimsóttra heimsóttrar heimsóttri heimsótts heimsóttu heimsóttum heimsóttur heimsóttuð
+93	1093	búð	búða búðanna búðar búðarinnar búðin búðina búðinni búðir búðirnar búðum búðunum
+94	1094	ábyrgð	ábyrgða ábyrgðanna ábyrgðar ábyrgðarinnar ábyrgðin ábyrgðina ábyrgðinni ábyrgðir ábyrgðirnar ábyrgðum ábyrgðunum
+95	1095	lágur	lág lága lágan lágar lági lágir lágra lágrar lágri lágs lágt lágu lágum lægra lægri lægst lægsta lægstan lægstar lægsti lægstir lægstra lægstrar lægstri lægsts lægstu lægstum lægstur
+96	1096	hetja	hetjan hetjanna hetju hetjum hetjuna hetjunnar hetjunni hetjunum hetjur hetjurnar
+97	1097	skál	skála skálanna skálar skálarinnar skálarnar skálin skálina skálinni skálir skálum skálunum
+98	1098	staðsetja	staðset staðsetjandi staðsetji staðsetjir staðsetjið staðsetjum staðsett staðsetta staðsettan staðsettar staðsetti staðsettir staðsettra staðsettrar staðsettri staðsetts staðsettu staðsettum staðsettur staðsettuð staðsetur
+99	1099	myndavél	myndavéla myndavélanna myndavélar myndavélarinnar myndavélarnar myndavélin myndavélina myndavélinni myndavélum myndavélunum
+100	1100	ákveðinn	ákveðin ákveðinna ákveðinnar ákveðinni ákveðins ákveðið ákveðna ákveðnar ákveðnara ákveðnari ákveðnast ákveðnasta ákveðnastan ákveðnastar ákveðnasti ákveðnastir ákveðnastra ákveðnastrar ákveðnastri ákveðnasts ákveðnastur ákveðni ákveðnir ákveðnu ákveðnum ákveðnust ákveðnustu ákveðnustum

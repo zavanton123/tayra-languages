@@ -1,0 +1,100 @@
+1	101	ná	náandi nái náir náirðu náist náistu náið náiði nást náum náumst náð náða náðan náðar náði náðir náðirðu náðist náðistu náðra náðrar náðri náðs náðst náðu náðum náðumst náður náðust náðuð næ nær nærð nærðu næst næstu næði næðir næðirðu næðist næðistu næðu næðum næðumst næðust næðuð
+2	102	nýr	ný nýi nýir nýja nýjan nýjar nýjast nýjasta nýjastan nýjastar nýjasti nýjastir nýjastra nýjastrar nýjastri nýjasts nýjastur nýju nýjum nýjust nýjustu nýjustum nýrra nýrrar nýrri nýs nýtt
+3	103	vegna	vegnandi vegnar vegnað vegnaði vegni
+4	104	mál	mála málanna máli málin málinu málið máls málsins málum málunum
+5	105	gefa	gaf gafst gafstu gef gefandi gefi gefin gefinn gefinna gefinnar gefinni gefins gefir gefirðu gefið gefna gefnar gefni gefnir gefnu gefnum gefum gefur gefurðu gefðu gáfu gáfum gáfuð gæfi gæfir gæfirðu gæfu gæfum gæfuð
+6	106	nokkur	nokkra nokkrar nokkrir nokkru nokkrum nokkura nokkurar nokkurn nokkurra nokkurrar nokkurri nokkurs nokkurt nokkuð
+7	107	saman	
+8	108	kona	konan konu konum konuna konunnar konunni konunum konur konurnar kvenna kvennanna
+9	109	samur	sama saman samar sami samir samra samrar samri sams samt söm sömu sömum
+10	110	reyna	reynandi reynast reynd reynda reyndan reyndi reyndir reyndist reyndra reyndrar reyndri reynds reyndu reyndum reyndumst reyndur reyndust reynduð reyni reynir reynist reynið reynst reynt reynum reynumst
+11	111	líka	líkar líkað líkaði líki
+12	112	aldrei	
+13	113	hætta	hætt hættan hættandi hættanna hættar hætti hættir hættirðu hættið hættiði hættra hættrar hættri hætts hættu hættum hættuna hættunnar hættunni hættunum hættur hætturnar hættuð
+14	114	lítill	litla litlar litli litlir litlu litlum lítil lítilla lítillar lítilli lítils lítinn lítið minna minni minnst minnsta minnstan minnstar minnsti minnstir minnstra minnstrar minnstri minnsts minnstu minnstum minnstur
+15	115	of	ofi ofinu ofið ofs ofsins
+16	116	skilja	skil skilda skildar skildi skildir skildirðu skildist skildistu skildu skildum skildumst skildust skilduð skilin skilinn skilinna skilinnar skilinni skilins skilist skilið skiljan skiljandi skiljanna skiljast skilji skiljir skiljirðu skiljist skiljistu skiljið skiljiði skilju skiljum skiljumst skiljuna skiljunnar skiljunni skiljunum skiljur skiljurnar skilst skilur skilurðu
+17	117	fyrstur	fyrsta fyrstan fyrstar fyrsti fyrstir fyrstra fyrstrar fyrstri fyrsts fyrstu fyrstum
+18	118	heyra	heyrandi heyrast heyri heyrir heyrirðu heyrist heyristu heyrið heyriði heyrst heyrt heyrum heyrumst heyrð heyrða heyrðan heyrðar heyrði heyrðir heyrðirðu heyrðist heyrðistu heyrðra heyrðrar heyrðri heyrðs heyrðu heyrðum heyrðumst heyrður heyrðust heyrðuð heyrðuði
+19	119	mikið	meir meira mest
+20	120	land	landa landanna landað landaði landi landinu landið lands landsins lönd löndin löndum löndunum
+21	121	standa	standandi standast standi standir standirðu standist standistu standið standiði stattu staðin staðinn staðinna staðinnar staðinni staðins staðist staðið staðna staðnar staðnað staðni staðnir stend stendur stendurðu stenst stenstu stæði stæðir stæðirðu stæðist stæðistu stæðu stæðum stæðumst stæðust stæðuð stóð stóðst stóðstu stóðu stóðum stóðumst stóðust stóðuð stöndum stöndumst stöðnu stöðnum stöðnuðu
+22	122	einnig	
+23	123	enn	
+24	124	stór	stærra stærri stærst stærsta stærstan stærstar stærsti stærstir stærstra stærstrar stærstri stærsts stærstu stærstum stærstur stóra stóran stórar stóri stórir stórra stórrar stórri stórs stórt stóru stórum
+25	125	barn	barna barnanna barni barninu barnið barns barnsins börn börnin börnum börnunum
+26	126	fólk	fólki fólkinu fólkið fólks fólksins
+27	127	áður	
+28	128	nota	notandi notar notarðu notast notastu notað notaða notaðan notaðar notaði notaðir notaðirðu notaðist notaðra notaðrar notaðri notaðs notaðu notaður noti notir notirðu notist notið notiði notum notumst notuð notuðu notuðum notuðumst notuðust notuðuð
+29	129	finnast	fannst fanst finnist finnst finnstu finnumst fundist fundumst fundust fyndist fyndumst fyndust
+30	130	undir	
+31	131	þó	
+32	132	rétt	rétta réttanna réttar réttarinnar réttast réttin réttina réttinni réttir réttirnar réttum réttunum
+33	133	komast	kemst kemstu komist komistu komst komstu komumst komust kæmist kæmistu kæmumst kæmust
+34	134	gamall	eldra eldri elst elsta elstan elstar elsti elstir elstra elstrar elstri elsts elstu elstum elstur gamalla gamallar gamalli gamals gamalt gamla gamlan gamlar gamli gamlir gömlu gömlum gömul
+35	135	setja	set setjandi setji setjir setjirðu setjið setjum sett setta settan settar setti settir settirðu settra settrar settri setts settu settum settur settuð setur seturðu
+36	136	hérna	
+37	137	líf	lífa lífi lífin lífinu lífið lífs lífsins lífum
+38	138	núna	
+39	139	hvar	
+40	140	leið	leidd leiddar leiddi leiddir leiddu leiddur leiða leiðanna leiðar leiðarinnar leiðin leiðina leiðinni leiðir leiðirnar leiðis leiðið leiðum leiðunum
+41	141	kannski	kannske
+42	142	áfram	
+43	143	bíða	beið beiðst beiðstu beðin beðinn beðinna beðinnar beðinni beðins beðið beðna beðnar beðni beðnir beðnu beðnum biði biðir biðirðu biðu biðum biðuð bíddu bíð bíðandi bíði bíðir bíðirðu bíðið bíðiði bíðum bíður bíðurðu
+44	144	síðan	
+45	145	alltaf	
+46	146	elska	elskan elskandi elskanna elskar elskarðu elskað elskaða elskaðan elskaðar elskaði elskaðir elskaðirðu elskaðra elskaðrar elskaðri elskaðs elskaðu elskaður elski elskir elskirðu elskið elskna elsknanna elsku elskum elskuna elskunnar elskunni elskunum elskur elskurnar elskuð elskuðu elskuðum elskuðuð
+47	147	þarna	
+48	148	leggja	lagst lagt lagða lagðan lagðar lagði lagðir lagðirðu lagðist lagðistu lagðra lagðrar lagðri lagðs lagður legg leggi leggir leggirðu leggist leggistu leggið leggjandi leggjast leggjum leggjumst leggst leggstu leggur leggurðu leggðu legði legðir legðirðu legðist legðistu legðu legðum legðumst legðust legðuð lögð lögðu lögðum lögðumst lögðust lögðuð
+49	149	aðeins	
+50	150	þrír	þrem þremur þriggja þrjá þrjár þrjú
+51	151	niður	nið niðar niðarins niði niðinn niðinum niðnum niðurinn
+52	152	heita	heitan heitandi heitanna heitað heiti heitinu heitir heitirðu heitið heitiði heittu heitu heitum heituna heitunnar heitunni heitunum heiturnar hést héstu hét héti hétir hétirðu hétu hétum hétuð
+53	153	sjálfur	sjálf sjálfa sjálfan sjálfar sjálfir sjálfra sjálfrar sjálfri sjálfs sjálft sjálfu sjálfum
+54	154	íslenskur	íslensk íslenska íslenskan íslenskar íslenskara íslenskari íslenskast íslenskasta íslenskastan íslenskastar íslenskasti íslenskastir íslenskastra íslenskastrar íslenskastri íslenskasts íslenskastur íslenski íslenskir íslenskra íslenskrar íslenskri íslensks íslenskt íslensku íslenskum íslenskust íslenskustu íslenskustum íslenzkum
+55	155	gerast	gerist geristu gerst gerumst gerðist gerðistu gerðumst gerðust
+56	156	líta	leist leistu leit liti litin litinn litinna litinnar litinni litins litir litirðu litist litið litna litnar litni litnir litnu litnum litu litum litumst litust lituð líst lít lítandi lítast líti lítir lítirðu lítist lítið líttu lítum lítumst lítur líturðu
+57	157	herra	herrana herrann herranna herrans herranum herrar herrarnir herrum herrunum
+58	158	vinur	vin vina vinanna vinar vinarins vini vinina vininn vininum vinir vinirnir vinum vinunum vinurinn
+59	159	takk	
+60	160	drepa	drap drapst drapstu drep drepandi drepi drepin drepinn drepinna drepinnar drepinni drepins drepir drepirðu drepið drepna drepnar drepni drepnir drepnu drepnum dreptu drepum drepur drepurðu drápu drápum drápuð dræpi dræpir dræpirðu dræpu dræpum dræpuð
+61	161	mynd	mynda myndanna myndar myndarinnar myndin myndina myndinni myndir myndirnar myndum myndunum
+62	162	vegur	veg vega veganna vegar vegarins vegi vegina veginn veginum vegir vegirnir vegs vegsins vegum vegunum vegurinn
+63	163	muna	man manst manstu munandi munar munað munaði mundi mundir mundirðu mundu mundum munduð muni munir munirðu munið muniði munum myndi myndir myndirðu myndu myndum mynduð
+64	164	lengi	lengst lengur
+65	165	hvort	
+66	166	guð	guða guðanna guði guðina guðinn guðinum guðir guðirnir guðs guðsins guðum guðunum
+67	167	heimur	heim heima heimana heimanna heimar heimarnir heimi heiminn heiminum heims heimsins heimum heimunum heimurinn
+68	168	síður	sítt síð síða síðan síðar síðara síðari síðast síðasta síðastan síðastar síðasti síðastir síðastra síðastrar síðastri síðasts síðastur síði síðir síðra síðrar síðri síðs síðu síðum síðust síðustu síðustum
+69	169	senda	send sendan sendandi sendar sendast sendi sendir sendirðu sendist sendistu sendið sendra sendrar sendri sends sendu sendum sendumst sendur sendust senduð senst sent
+70	170	kalla	kallandi kallar kallarðu kallast kallað kallaða kallaðan kallaðar kallaði kallaðir kallaðirðu kallaðist kallaðra kallaðrar kallaðri kallaðs kallaðu kallaður kalli kallir kallist kallið kalliði köllum köllumst kölluð kölluðu kölluðum kölluðumst kölluðust kölluðuð
+71	171	mamma	mamman mammanna mömmu mömmum mömmuna mömmunnar mömmunni mömmunum mömmur mömmurnar
+72	172	neinn	nein neina neinar neinir neinna neinnar neinni neins neinu neinum neitt
+73	173	alveg	
+74	174	milli	millana millann millanna millans millanum millar millarnir millinn millum millunum
+75	175	byrja	byrjandi byrjar byrjarðu byrjast byrjað byrjaða byrjaðan byrjaðar byrjaði byrjaðir byrjaðirðu byrjaðist byrjaðra byrjaðrar byrjaðri byrjaðs byrjaðu byrjaður byrji byrjir byrjirðu byrjist byrjið byrjum byrjumst byrjuð byrjuðu byrjuðum byrjuðumst byrjuðust byrjuðuð
+76	176	hús	húsa húsanna húsi húsin húsinu húsið húss hússins húsum húsunum
+77	177	pabbi	pabba pabbana pabbann pabbanna pabbans pabbanum pabbar pabbarnir pabbinn pöbbum pöbbunum
+78	178	fjandi	fjanda fjandana fjandann fjandanna fjandans fjandanum fjandar fjandarnir fjandinn fjenda fjendanna fjendum fjendunum fjendur fjendurna fjendurnir fjöndum fjöndunum
+79	179	þannig	
+80	180	kvöld	kvölda kvöldanna kvöldi kvöldin kvöldinu kvöldið kvölds kvöldsins kvöldum kvöldunum
+81	181	telja	talda taldar taldi taldir taldirðu talin talinn talinna talinnar talinni talins talið tel teldi teldir teldu teldum telduð teljandi telji teljir teljirðu teljið teljum telur telurðu töldu töldum tölduð
+82	182	saga	sagan sagandi sagar sagast sagað sagaða sagaðan sagaðar sagaði sagaðir sagaðist sagaðra sagaðrar sagaðri sagaðs sagaðu sagaður sagi sagir sagirðu sagist sagið sagna sagnanna sögu sögum sögumst söguna sögunnar sögunni sögunum sögur sögurnar söguð söguðu söguðum söguðumst söguðust söguðuð
+83	183	nafn	nafna nafnanna nafni nafninu nafnið nafns nafnsins nöfn nöfnin nöfnum nöfnunum
+84	184	deyja	dey deyi deyir deyið deyjandi deyjum deyr deyrð deyðu dáin dáinn dáinna dáinnar dáinni dáins dáið dána dánar dáni dánir dánu dánum dæi dæir dæju dæjum dæjuð dó dóst dóu dóum dóuð
+85	185	fylgja	fylg fylgd fylgda fylgdan fylgdar fylgdi fylgdir fylgdist fylgdra fylgdrar fylgdri fylgds fylgdu fylgdum fylgdumst fylgdur fylgdust fylgduð fylgi fylgir fylgist fylgið fylgjan fylgjandi fylgjast fylgju fylgjum fylgjumst fylgjuna fylgjunnar fylgjunni fylgjunum fylgjur fylgjurnar fylgna fylgnanna fylgst fylgstu fylgt
+86	186	sýna	sýnandi sýnd sýnda sýndan sýndar sýndi sýndir sýndra sýndrar sýndri sýnds sýndu sýndum sýndur sýnduð sýni sýnir sýnið sýnt sýnum
+87	187	hjálpa	hjálpandi hjálpar hjálparðu hjálpast hjálpað hjálpaði hjálpaðir hjálpaðirðu hjálpaðist hjálpaðu hjálpi hjálpir hjálpist hjálpið hjálpum hjálpumst hjálpuðu hjálpuðum hjálpuðumst hjálpuðust hjálpuðuð
+88	188	hönd	handa handanna handar handarinnar hendi hendinni hendur hendurnar höndin höndina höndinni höndum höndunum
+89	189	leikur	leik leika leikan leikana leikanna leikar leikara leikari leikarnir leikast leikasta leikastan leikastar leikasti leikastir leikastra leikastrar leikastri leikasts leikastur leiki leikina leikinn leikir leikirnir leikja leikjanna leikjum leikjunum leiknum leikra leikrar leikri leiks leiksins leikt leiku leikum leikunum leikurinn leikust leikustu leikustum
+90	190	hugsa	hugsandi hugsar hugsarðu hugsast hugsað hugsaða hugsaðan hugsaðar hugsaði hugsaðir hugsaðirðu hugsaðist hugsaðra hugsaðrar hugsaðri hugsaðs hugsaðu hugsaður hugsi hugsir hugsirðu hugsist hugsið hugsum hugsuð hugsuðu hugsuðum hugsuðuð
+91	191	gegn	gegna gegnan gegnar gegnara gegnari gegnast gegnasta gegnastan gegnastar gegnasti gegnastir gegnastra gegnastrar gegnastri gegnasts gegnastur gegni gegnir gegnra gegnrar gegnri gegns gegnt gegnu gegnum gegnust gegnustu gegnustum
+92	192	frábær	frábæra frábæran frábærar frábærara frábærari frábærast frábærasta frábærastan frábærastar frábærasti frábærastir frábærastra frábærastrar frábærastri frábærasts frábærastur frábæri frábærir frábærra frábærrar frábærri frábærs frábært frábæru frábærum frábærust frábærustu frábærustum
+93	193	þáttur	þátt þátta þáttanna þáttar þáttarins þáttinn þáttum þáttunum þátturinn þætti þættina þættinum þættir þættirnir
+94	194	bera	bar bara bari barina barinn barir barið barnum bars barsins barst barstu ber beran berandi berar berað beraða beraðan beraðar beraði beraðir beraðra beraðrar beraðri beraðs beraðu beraður beri berin berir berirðu berið berjum berri bert beru berum beruð beruðu beruðum beruðuð berð berðu borin borinn borinna borinnar borinni borins borið borna bornar borni bornir bornu bornum báru bárum báruð bæri bærir bærirðu bæru bærum bæruð börum börunum
+95	195	breyta	breyst breystu breytan breytandi breytanna breytast breyti breytir breytirðu breytist breytistu breytið breytna breytnanna breytt breytta breyttan breyttar breytti breyttir breyttirðu breyttist breyttra breyttrar breyttri breytts breyttu breyttum breyttumst breyttur breyttust breyttuð breytu breytum breytumst breytuna breytunnar breytunni breytunum breytur breyturnar
+96	196	án	
+97	197	hlutur	hlut hluta hlutanna hlutar hlutarins hluti hlutina hlutinn hlutir hlutirnir hlutnum hlutum hlutunum hluturinn
+98	198	oft	oftar oftast
+99	199	heldur	held helda heldan heldar heldara heldari heldast heldasta heldastan heldastar heldasti heldastir heldastra heldastrar heldastri heldasts heldastur heldi heldir heldra heldrar heldri helds heldu heldum heldust heldustu heldustum helt
+100	200	heim	

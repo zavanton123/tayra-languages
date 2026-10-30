@@ -1,0 +1,100 @@
+1	9601	vitorðsmaður	vitorðsmann vitorðsmanna vitorðsmannanna vitorðsmanni vitorðsmanninn vitorðsmanninum vitorðsmanns vitorðsmannsins vitorðsmaðurinn vitorðsmenn vitorðsmennina vitorðsmennirnir vitorðsmönnum vitorðsmönnunum
+2	9602	dýflissa	dýflissan dýflissanna dýflissu dýflissum dýflissuna dýflissunnar dýflissunni dýflissunum dýflissur dýflissurnar
+3	9603	símhringing	símhringinga símhringinganna símhringingar símhringingarinnar símhringingarnar símhringingin símhringingu símhringingum símhringinguna símhringingunni símhringingunum
+4	9604	gæra	gæran gæranna gæru gærum gæruna gærunnar gærunni gærunum gærur gærurnar
+5	9605	herskóli	herskóla herskólana herskólann herskólanna herskólans herskólanum herskólar herskólarnir herskólinn herskólum herskólunum
+6	9606	lukt	lukta luktanna luktar luktarinnar luktin luktina luktinni luktir luktirnar luktum luktunum
+7	9607	marijúana	marijúanans marijúananu marijúanað
+8	9608	hnýsast	hnýsist hnýst hnýstist hnýstumst hnýstust hnýsumst
+9	9609	barnaleikur	barnaleik barnaleiki barnaleikina barnaleikinn barnaleikir barnaleikirnir barnaleikja barnaleikjanna barnaleikjum barnaleikjunum barnaleiknum barnaleiks barnaleiksins barnaleikurinn
+10	9610	raggeit	raggeita raggeitanna raggeitar raggeitarinnar raggeitin raggeitina raggeitinni raggeitum raggeitunum raggeitur raggeiturnar
+11	9611	gálgi	gálga gálgana gálgann gálganna gálgans gálganum gálgar gálgarnir gálginn gálgum gálgunum
+12	9612	piparsveinn	piparsvein piparsveina piparsveinana piparsveinanna piparsveinar piparsveinarnir piparsveini piparsveininn piparsveininum piparsveinninn piparsveins piparsveinsins piparsveinum piparsveinunum
+13	9613	óvanur	óvana óvanan óvanar óvanara óvanari óvanast óvanasta óvanastan óvanastar óvanasti óvanastir óvanastra óvanastrar óvanastri óvanasts óvanastur óvani óvanir óvanra óvanrar óvanri óvans óvant óvön óvönu óvönum óvönust óvönustu óvönustum
+14	9614	kuti	kuta kutana kutann kutanna kutans kutanum kutar kutarnir kutinn kutum kutunum
+15	9615	hálsfesti	hálsfesta hálsfestanna hálsfestar hálsfestarinnar hálsfestarnar hálsfestin hálsfestina hálsfestinni hálsfestum hálsfestunum
+16	9616	melludólgur	melludólg melludólga melludólgana melludólganna melludólgar melludólgarnir melludólginn melludólgnum melludólgs melludólgsins melludólgum melludólgunum melludólgurinn
+17	9617	ritvél	ritvéla ritvélanna ritvélar ritvélarinnar ritvélarnar ritvélin ritvélina ritvélinni ritvélum ritvélunum
+18	9618	upptökuvél	upptökuvéla upptökuvélanna upptökuvélar upptökuvélarinnar upptökuvélarnar upptökuvélin upptökuvélina upptökuvélinni upptökuvélum upptökuvélunum
+19	9619	brotlending	brotlendinga brotlendinganna brotlendingar brotlendingarinnar brotlendingarnar brotlendingin brotlendingu brotlendingum brotlendinguna brotlendingunni brotlendingunum
+20	9620	geðsjúkrahús	geðsjúkrahúsa geðsjúkrahúsanna geðsjúkrahúsi geðsjúkrahúsin geðsjúkrahúsinu geðsjúkrahúsið geðsjúkrahúss geðsjúkrahússins geðsjúkrahúsum geðsjúkrahúsunum
+21	9621	bleyja	bleyjan bleyjanna bleyju bleyjum bleyjuna bleyjunnar bleyjunni bleyjunum bleyjur bleyjurnar
+22	9622	talhólf	talhólfa talhólfanna talhólfi talhólfin talhólfinu talhólfið talhólfs talhólfsins talhólfum talhólfunum
+23	9623	sendiferðabíll	sendiferðabíl sendiferðabíla sendiferðabílana sendiferðabílanna sendiferðabílar sendiferðabílarnir sendiferðabílinn sendiferðabíllinn sendiferðabílnum sendiferðabíls sendiferðabílsins sendiferðabílum sendiferðabílunum
+24	9624	strekkja	strekki strekkir strekkist strekkið strekkjandi strekkjast strekkjum strekkjumst strekkst strekkt strekkta strekktan strekktar strekkti strekktir strekktist strekktra strekktrar strekktri strekkts strekktu strekktum strekktumst strekktur strekktust strekktuð
+25	9625	hommatittur	hommatitt hommatitta hommatittanna hommatitti hommatittina hommatittinn hommatittinum hommatittir hommatittirnir hommatitts hommatittsins hommatittum hommatittunum hommatitturinn
+26	9626	bíllykill	bíllykil bíllykilinn bíllykillinn bíllykils bíllykilsins bíllykla bíllyklana bíllyklanna bíllyklar bíllyklarnir bíllykli bíllyklinum bíllyklum bíllyklunum
+27	9627	glerbrot	glerbrota glerbrotanna glerbroti glerbrotin glerbrotinu glerbrotið glerbrots glerbrotsins glerbrotum glerbrotunum
+28	9628	kvöldverðarboð	kvöldverðarboða kvöldverðarboðanna kvöldverðarboði kvöldverðarboðin kvöldverðarboðinu kvöldverðarboðið kvöldverðarboðs kvöldverðarboðsins kvöldverðarboðum kvöldverðarboðunum
+29	9629	rannsóknarlögregla	rannsóknarlögreglan rannsóknarlögreglanna rannsóknarlögreglna rannsóknarlögreglnanna rannsóknarlögreglu rannsóknarlögreglum rannsóknarlögregluna rannsóknarlögreglunnar rannsóknarlögreglunni rannsóknarlögreglunum rannsóknarlögreglur rannsóknarlögreglurnar
+30	9630	bjálfi	bjálfa bjálfana bjálfann bjálfanna bjálfans bjálfanum bjálfar bjálfarnir bjálfinn bjálfum bjálfunum
+31	9631	draumórar	draumóra draumórana draumóranna draumórarnir draumórum draumórunum
+32	9632	grímuklæddur	grímuklædd grímuklædda grímuklæddan grímuklæddar grímuklæddi grímuklæddir grímuklæddra grímuklæddrar grímuklæddri grímuklædds grímuklæddu grímuklæddum grímuklætt
+33	9633	aðstoðarforstjóri	aðstoðarforstjóra aðstoðarforstjórana aðstoðarforstjórann aðstoðarforstjóranna aðstoðarforstjórans aðstoðarforstjóranum aðstoðarforstjórar aðstoðarforstjórarnir aðstoðarforstjórinn aðstoðarforstjórum aðstoðarforstjórunum
+34	9634	silfurfat	silfurfata silfurfatanna silfurfati silfurfatinu silfurfatið silfurfats silfurfatsins silfurföt silfurfötin silfurfötum silfurfötunum
+35	9635	heimilislegur	heimilisleg heimilislega heimilislegan heimilislegar heimilislegast heimilislegasta heimilislegastan heimilislegastar heimilislegasti heimilislegastir heimilislegastra heimilislegastrar heimilislegastri heimilislegasts heimilislegastur heimilislegi heimilislegir heimilislegra heimilislegrar heimilislegri heimilislegs heimilislegt heimilislegu heimilislegum heimilislegust heimilislegustu heimilislegustum
+36	9636	sneiða	sneidd sneidda sneiddan sneiddar sneiddi sneiddir sneiddist sneiddra sneiddrar sneiddri sneidds sneiddu sneiddum sneiddumst sneiddur sneiddust sneidduð sneitt sneiðandi sneiðast sneiði sneiðir sneiðist sneiðið sneiðst sneiðum sneiðumst
+37	9637	lagabreyting	lagabreytinga lagabreytinganna lagabreytingar lagabreytingarinnar lagabreytingarnar lagabreytingin lagabreytingu lagabreytingum lagabreytinguna lagabreytingunni lagabreytingunum
+38	9638	nýstárlegur	nýstárleg nýstárlega nýstárlegan nýstárlegar nýstárlegast nýstárlegasta nýstárlegastan nýstárlegastar nýstárlegasti nýstárlegastir nýstárlegastra nýstárlegastrar nýstárlegastri nýstárlegasts nýstárlegastur nýstárlegi nýstárlegir nýstárlegra nýstárlegrar nýstárlegri nýstárlegs nýstárlegt nýstárlegu nýstárlegum nýstárlegust nýstárlegustu nýstárlegustum
+39	9639	íhaldssamur	íhaldssama íhaldssaman íhaldssamar íhaldssamara íhaldssamari íhaldssamast íhaldssamasta íhaldssamastan íhaldssamastar íhaldssamasti íhaldssamastir íhaldssamastra íhaldssamastrar íhaldssamastri íhaldssamasts íhaldssamastur íhaldssami íhaldssamir íhaldssamra íhaldssamrar íhaldssamri íhaldssams íhaldssamt íhaldssöm íhaldssömu íhaldssömum íhaldssömust íhaldssömustu íhaldssömustum
+40	9640	sérsveitarmaður	sérsveitarmann sérsveitarmanna sérsveitarmannanna sérsveitarmanni sérsveitarmanninn sérsveitarmanninum sérsveitarmanns sérsveitarmannsins sérsveitarmaðurinn sérsveitarmenn sérsveitarmennina sérsveitarmennirnir sérsveitarmönnum sérsveitarmönnunum
+41	9641	umvefja	umvafin umvafinn umvafinna umvafinnar umvafinni umvafins umvafist umvafið umvafða umvafðar umvafði umvafðir umvafðist umvef umvefjandi umvefjast umvefji umvefjir umvefjist umvefjið umvefjum umvefjumst umvefst umvefur umvefði umvefðir umvefðist umvefðu umvefðum umvefðumst umvefðust umvefðuð umvöfðu umvöfðum umvöfðumst umvöfðust umvöfðuð
+42	9642	forviða	
+43	9643	stél	stéla stélanna stéli stélin stélinu stélið stéls stélsins stélum stélunum
+44	9644	inntökupróf	inntökuprófa inntökuprófanna inntökuprófi inntökuprófin inntökuprófinu inntökuprófið inntökuprófs inntökuprófsins inntökuprófum inntökuprófunum
+45	9645	náttúrulögmál	náttúrulögmála náttúrulögmálanna náttúrulögmáli náttúrulögmálin náttúrulögmálinu náttúrulögmálið náttúrulögmáls náttúrulögmálsins náttúrulögmálum náttúrulögmálunum
+46	9646	vitrun	vitrana vitrananna vitranir vitranirnar vitrunar vitrunarinnar vitrunin vitrunina vitruninni vitrunum vitrununum
+47	9647	aflausn	aflausnar aflausnarinnar aflausnin aflausnina aflausninni
+48	9648	aðföng	aðfanga aðfanganna aðföngin aðföngum aðföngunum
+49	9649	innilegur	innileg innilega innilegan innilegar innilegast innilegasta innilegastan innilegastar innilegasti innilegastir innilegastra innilegastrar innilegastri innilegasts innilegastur innilegi innilegir innilegra innilegrar innilegri innilegs innilegt innilegu innilegum innilegust innilegustu innilegustum
+50	9650	göngulag	göngulagi göngulaginu göngulagið göngulags göngulagsins
+51	9651	liðugur	liðug liðuga liðugan liðugar liðugast liðugasta liðugastan liðugastar liðugasti liðugastir liðugastra liðugastrar liðugastri liðugasts liðugastur liðugi liðugir liðugra liðugrar liðugri liðugs liðugt liðugu liðugum liðugust liðugustu liðugustum
+52	9652	þukla	þuklandi þuklar þuklast þuklað þuklaða þuklaðan þuklaðar þuklaði þuklaðir þuklaðist þuklaðra þuklaðrar þuklaðri þuklaðs þuklaðu þuklaður þukli þuklir þuklist þuklið þuklum þuklumst þukluð þukluðu þukluðum þukluðumst þukluðust þukluðuð
+53	9653	gagnsemi	gagnsemin gagnsemina gagnseminnar gagnseminni
+54	9654	kynferðisbrot	kynferðisbrota kynferðisbrotanna kynferðisbroti kynferðisbrotin kynferðisbrotinu kynferðisbrotið kynferðisbrots kynferðisbrotsins kynferðisbrotum kynferðisbrotunum
+55	9655	gjalddagi	gjalddaga gjalddagana gjalddagann gjalddaganna gjalddagans gjalddaganum gjalddagar gjalddagarnir gjalddaginn gjalddögum gjalddögunum
+56	9656	höfundarréttur	höfundarrétt höfundarréttar höfundarréttarins höfundarrétti höfundarréttinn höfundarréttinum höfundarrétturinn
+57	9657	mígreni	mígrena mígrenanna mígrenin mígreninu mígrenis mígrenisins mígrenið mígrenum mígrenunum
+58	9658	vinnumaður	vinnumann vinnumanna vinnumannanna vinnumanni vinnumanninn vinnumanninum vinnumanns vinnumannsins vinnumaðurinn vinnumenn vinnumennina vinnumennirnir vinnumönnum vinnumönnunum
+59	9659	bakhjarl	bakhjarla bakhjarlana bakhjarlanna bakhjarlar bakhjarlarnir bakhjarli bakhjarlinn bakhjarlinum bakhjarls bakhjarlsins bakhjörlum bakhjörlunum
+60	9660	yfirsterkari	yfirsterkara
+61	9661	teiknari	teiknara teiknarana teiknarann teiknaranna teiknarans teiknaranum teiknarar teiknararnir teiknarinn teiknurum teiknurunum
+62	9662	kvennaskóli	kvennaskóla kvennaskólana kvennaskólann kvennaskólanna kvennaskólans kvennaskólanum kvennaskólar kvennaskólarnir kvennaskólinn kvennaskólum kvennaskólunum
+63	9663	skólakerfi	skólakerfa skólakerfanna skólakerfin skólakerfinu skólakerfis skólakerfisins skólakerfið skólakerfum skólakerfunum
+64	9664	boli	bola bolana bolann bolanna bolans bolanum bolar bolarnir bolinn bolum bolunum
+65	9665	samstarfsfólk	samstarfsfólki samstarfsfólkinu samstarfsfólkið samstarfsfólks samstarfsfólksins
+66	9666	þjóðlíf	þjóðlífi þjóðlífinu þjóðlífið þjóðlífs þjóðlífsins
+67	9667	eitrun	eitrana eitrananna eitranir eitranirnar eitrunar eitrunarinnar eitrunin eitrunina eitruninni eitrunum eitrununum
+68	9668	hljóðkerfi	hljóðkerfa hljóðkerfanna hljóðkerfin hljóðkerfinu hljóðkerfis hljóðkerfisins hljóðkerfið hljóðkerfum hljóðkerfunum
+69	9669	duglega	
+70	9670	vitsmunir	vitsmuna vitsmunanna vitsmuni vitsmunina vitsmunirnir vitsmunum vitsmununum
+71	9671	þröskuldur	þröskuld þröskulda þröskuldana þröskuldanna þröskuldar þröskuldarins þröskuldarnir þröskuldi þröskuldina þröskuldinn þröskuldinum þröskuldir þröskuldirnir þröskulds þröskuldsins þröskuldum þröskuldunum þröskuldurinn
+72	9672	vatnsból	vatnsbóla vatnsbólanna vatnsbóli vatnsbólin vatnsbólinu vatnsbólið vatnsbóls vatnsbólsins vatnsbólum vatnsbólunum
+73	9673	brottnám	brottnámi brottnáminu brottnámið brottnáms brottnámsins
+74	9674	lokakeppni	lokakeppna lokakeppnanna lokakeppnin lokakeppnina lokakeppninnar lokakeppninni lokakeppnir lokakeppnirnar lokakeppnum lokakeppnunum
+75	9675	verslunarmannahelgi	verslunarmannahelga verslunarmannahelganna verslunarmannahelgar verslunarmannahelgarinnar verslunarmannahelgarnar verslunarmannahelgin verslunarmannahelgina verslunarmannahelginni verslunarmannahelgum verslunarmannahelgunum
+76	9676	bólginn	bólgin bólginna bólginnar bólginni bólgins bólgið bólgna bólgnar bólgnara bólgnari bólgnast bólgnasta bólgnastan bólgnastar bólgnasti bólgnastir bólgnastra bólgnastrar bólgnastri bólgnasts bólgnastur bólgni bólgnir bólgnu bólgnum bólgnust bólgnustu bólgnustum
+77	9677	grafhvelfing	grafhvelfinga grafhvelfinganna grafhvelfingar grafhvelfingarinnar grafhvelfingarnar grafhvelfingin grafhvelfingu grafhvelfingum grafhvelfinguna grafhvelfingunni grafhvelfingunum
+78	9678	konungdæmi	konungdæma konungdæmanna konungdæmin konungdæminu konungdæmis konungdæmisins konungdæmið konungdæmum konungdæmunum
+79	9679	plægja	plægi plægir plægið plægjandi plægjast plægjum plægst plægt plægð plægða plægðan plægðar plægði plægðir plægðra plægðrar plægðri plægðs plægðu plægðum plægður plægðuð
+80	9680	fjölskyldufyrirtæki	fjölskyldufyrirtækin fjölskyldufyrirtækinu fjölskyldufyrirtækis fjölskyldufyrirtækisins fjölskyldufyrirtækið fjölskyldufyrirtækja fjölskyldufyrirtækjanna fjölskyldufyrirtækjum fjölskyldufyrirtækjunum
+81	9681	stinning	stinninga stinninganna stinningar stinningarinnar stinningarnar stinningin stinningu stinningum stinninguna stinningunni stinningunum
+82	9682	prentsmiðja	prentsmiðjan prentsmiðjanna prentsmiðju prentsmiðjum prentsmiðjuna prentsmiðjunnar prentsmiðjunni prentsmiðjunum prentsmiðjur prentsmiðjurnar
+83	9683	fangelsisdómur	fangelsisdóm fangelsisdóma fangelsisdómana fangelsisdómanna fangelsisdómar fangelsisdómarnir fangelsisdómi fangelsisdóminn fangelsisdóminum fangelsisdómnum fangelsisdóms fangelsisdómsins fangelsisdómum fangelsisdómunum fangelsisdómurinn
+84	9684	lokaritgerð	lokaritgerða lokaritgerðanna lokaritgerðar lokaritgerðarinnar lokaritgerðin lokaritgerðina lokaritgerðinni lokaritgerðir lokaritgerðirnar lokaritgerðum lokaritgerðunum
+85	9685	ísraelskur	ísraelsk ísraelska ísraelskan ísraelskar ísraelskara ísraelskari ísraelskast ísraelskasta ísraelskastan ísraelskastar ísraelskasti ísraelskastir ísraelskastra ísraelskastrar ísraelskastri ísraelskasts ísraelskastur ísraelski ísraelskir ísraelskra ísraelskrar ísraelskri ísraelsks ísraelskt ísraelsku ísraelskum ísraelskust ísraelskustu ísraelskustum
+86	9686	þrándur	þránd þrándar þrándi
+87	9687	málnefnd	málnefnda málnefndanna málnefndar málnefndarinnar málnefndin málnefndina málnefndinni málnefndir málnefndirnar málnefndum málnefndunum
+88	9688	hljómborð	hljómborða hljómborðanna hljómborði hljómborðin hljómborðinu hljómborðið hljómborðs hljómborðsins hljómborðum hljómborðunum
+89	9689	ávöxtun	ávöxtunar ávöxtunarinnar ávöxtunin ávöxtunina ávöxtuninni
+90	9690	sankti	
+91	9691	bankaráð	bankaráða bankaráðanna bankaráði bankaráðin bankaráðinu bankaráðið bankaráðs bankaráðsins bankaráðum bankaráðunum
+92	9692	skanna	skannandi skannar skannast skannað skannaða skannaðan skannaðar skannaði skannaðir skannaðist skannaðra skannaðrar skannaðri skannaðs skannaðu skannaður skanni skannir skannist skannið skönnum skönnumst skönnuð skönnuðu skönnuðum skönnuðumst skönnuðust skönnuðuð
+93	9693	kjörsókn	kjörsóknar kjörsóknarinnar kjörsóknin kjörsóknina kjörsókninni
+94	9694	saurbær	saurbæ
+95	9695	ívaf	ívafi ívafinu ívafið ívafs ívafsins
+96	9696	bráðinn	bráðin bráðinna bráðinnar bráðinni bráðins bráðið bráðna bráðnar bráðni bráðnir bráðnu bráðnum
+97	9697	göltur	galta galtanna galtar galtarins gelti geltina geltinum geltir geltirnir gölt göltinn göltri göltrinu göltrið göltum göltunum gölturinn gölturs göltursins
+98	9698	bólusetja	bóluset bólusetjandi bólusetji bólusetjir bólusetjið bólusetjum bólusett bólusetta bólusettan bólusettar bólusetti bólusettir bólusettra bólusettrar bólusettri bólusetts bólusettu bólusettum bólusettur bólusettuð bólusetur
+99	9699	mynta	myntan myntanna myntu myntum myntuna myntunnar myntunni myntunum myntur mynturnar
+100	9700	fjölnota	

@@ -1,0 +1,100 @@
+1	7601	tækla	tæklandi tæklar tæklað tæklaða tæklaðan tæklaðar tæklaði tæklaðir tæklaðra tæklaðrar tæklaðri tæklaðs tæklaðu tæklaður tækli tæklir tæklið tæklum tækluð tækluðu tækluðum tækluðuð
+2	7602	markaðshlutdeild	markaðshlutdeildar markaðshlutdeildarinnar markaðshlutdeildin markaðshlutdeildina markaðshlutdeildinni
+3	7603	víðidalur	víðidal
+4	7604	málfar	málfari málfarinu málfarið málfars málfarsins
+5	7605	borgarastyrjöld	borgarastyrjalda borgarastyrjaldanna borgarastyrjaldar borgarastyrjaldarinnar borgarastyrjaldir borgarastyrjaldirnar borgarastyrjöldin borgarastyrjöldina borgarastyrjöldinni borgarastyrjöldum borgarastyrjöldunum
+6	7606	þula	þulan þulanna þulna þulnanna þulu þulum þuluna þulunnar þulunni þulunum þulur þulurnar
+7	7607	brautryðjandi	brautryðjanda brautryðjandann brautryðjandans brautryðjandanum brautryðjandinn brautryðjenda brautryðjendanna brautryðjendum brautryðjendunum brautryðjendur brautryðjendurna brautryðjendurnir
+8	7608	sporlaust	
+9	7609	böðvar	
+10	7610	stofuhiti	stofuhita stofuhitann stofuhitans stofuhitanum stofuhitinn
+11	7611	látlaust	
+12	7612	samtíð	samtíðar samtíðarinnar samtíðin samtíðina samtíðinni
+13	7613	hæstaréttardómari	hæstaréttardómara hæstaréttardómarana hæstaréttardómarann hæstaréttardómaranna hæstaréttardómarans hæstaréttardómaranum hæstaréttardómarar hæstaréttardómararnir hæstaréttardómarinn hæstaréttardómurum hæstaréttardómurunum
+14	7614	stóriðja	stóriðjan stóriðju stóriðjuna stóriðjunnar stóriðjunni
+15	7615	snælda	snældan snældanna snældna snældnanna snældu snældum snælduna snældunnar snældunni snældunum snældur snældurnar
+16	7616	miðlari	miðlara miðlarana miðlarann miðlaranna miðlarans miðlaranum miðlarar miðlararnir miðlarinn miðlurum miðlurunum
+17	7617	flatt	
+18	7618	umhugað	
+19	7619	skattheimta	skattheimtan skattheimtanna skattheimtna skattheimtnanna skattheimtu skattheimtum skattheimtuna skattheimtunnar skattheimtunni skattheimtunum skattheimtur skattheimturnar
+20	7620	tækjabúnaður	tækjabúnað tækjabúnaðar tækjabúnaðarins tækjabúnaði tækjabúnaðinn tækjabúnaðinum tækjabúnaðnum tækjabúnaðurinn
+21	7621	fimleikar	fimleika fimleikana fimleikanna fimleikarnir fimleikum fimleikunum
+22	7622	nýverið	
+23	7623	viðskiptaráð	viðskiptaráða viðskiptaráðanna viðskiptaráði viðskiptaráðin viðskiptaráðinu viðskiptaráðið viðskiptaráðs viðskiptaráðsins viðskiptaráðum viðskiptaráðunum
+24	7624	sálfræðilegur	sálfræðileg sálfræðilega sálfræðilegan sálfræðilegar sálfræðilegast sálfræðilegasta sálfræðilegastan sálfræðilegastar sálfræðilegasti sálfræðilegastir sálfræðilegastra sálfræðilegastrar sálfræðilegastri sálfræðilegasts sálfræðilegastur sálfræðilegi sálfræðilegir sálfræðilegra sálfræðilegrar sálfræðilegri sálfræðilegs sálfræðilegt sálfræðilegu sálfræðilegum sálfræðilegust sálfræðilegustu sálfræðilegustum
+25	7625	vanskil	vanskila vanskilanna vanskilin vanskilum vanskilunum
+26	7626	styrktaraðili	styrktaraðila styrktaraðilana styrktaraðilann styrktaraðilanna styrktaraðilans styrktaraðilanum styrktaraðilar styrktaraðilarnir styrktaraðilinn styrktaraðilja styrktaraðiljana styrktaraðiljann styrktaraðiljanna styrktaraðiljans styrktaraðiljanum styrktaraðiljar styrktaraðiljarnir styrktaraðiljum styrktaraðiljunum styrktaraðilum styrktaraðilunum
+27	7627	dauðadagur	dauðadag dauðadaga dauðadagana dauðadaganna dauðadagar dauðadagarnir dauðadaginn dauðadags dauðadagsins dauðadagurinn dauðadegi dauðadeginum dauðadögum dauðadögunum
+28	7628	munnmök	munnmaka munnmakanna munnmökin munnmökum munnmökunum
+29	7629	rifa	rifan rifandi rifanna rifar rifað rifaða rifaðan rifaðar rifaði rifaðir rifaðra rifaðrar rifaðri rifaðs rifaðu rifaður rifi rifir rifið rifna rifnanna rifu rifum rifuna rifunnar rifunni rifunum rifur rifurnar rifuð rifuðu rifuðum rifuðuð
+30	7630	sannindi	sanninda sannindanna sannindin sannindum sannindunum
+31	7631	ösp	aspa aspanna aspar asparinnar aspir aspirnar öspin öspina öspinni öspum öspunum
+32	7632	nágrannaland	nágrannalanda nágrannalandanna nágrannalandi nágrannalandinu nágrannalandið nágrannalands nágrannalandsins nágrannalönd nágrannalöndin nágrannalöndum nágrannalöndunum
+33	7633	skrið	skriði skriðinu skriðið skriðs skriðsins
+34	7634	hálsbrjóta	hálsbraust hálsbraut hálsbrjótandi hálsbrjóti hálsbrjótir hálsbrjótið hálsbrjóttu hálsbrjótum hálsbrotin hálsbrotinn hálsbrotinna hálsbrotinnar hálsbrotinni hálsbrotins hálsbrotið hálsbrotna hálsbrotnar hálsbrotni hálsbrotnir hálsbrotnu hálsbrotnum hálsbrutu hálsbrutum hálsbrutuð hálsbryti hálsbrytir hálsbrytu hálsbrytum hálsbrytuð hálsbrýt hálsbrýtur
+35	7635	samhæfa	samhæfandi samhæfast samhæfi samhæfir samhæfist samhæfið samhæfst samhæft samhæfum samhæfumst samhæfð samhæfða samhæfðan samhæfðar samhæfði samhæfðir samhæfðist samhæfðra samhæfðrar samhæfðri samhæfðs samhæfðu samhæfðum samhæfðumst samhæfður samhæfðust samhæfðuð
+36	7636	hvíldarstaða	hvíldarstaðan hvíldarstöðu hvíldarstöðuna hvíldarstöðunnar hvíldarstöðunni
+37	7637	forlát	forláti forlátinu forlátið forláts forlátsins
+38	7638	neibb	
+39	7639	augsýn	augsýnar augsýnarinnar augsýnin augsýnina augsýninni
+40	7640	framorðið	framorðnara
+41	7641	fjarvistarsönnun	fjarvistarsannana fjarvistarsannananna fjarvistarsannanir fjarvistarsannanirnar fjarvistarsönnunar fjarvistarsönnunarinnar fjarvistarsönnunin fjarvistarsönnunina fjarvistarsönnuninni fjarvistarsönnunum fjarvistarsönnununum
+42	7642	óöruggur	óörugg óörugga óöruggan óöruggar óöruggara óöruggari óöruggast óöruggasta óöruggastan óöruggastar óöruggasti óöruggastir óöruggastra óöruggastrar óöruggastri óöruggasts óöruggastur óöruggi óöruggir óöruggra óöruggrar óöruggri óöruggs óöruggt óöruggu óöruggum óöruggust óöruggustu óöruggustum
+43	7643	eðlishvöt	eðlishvata eðlishvatanna eðlishvatar eðlishvatarinnar eðlishvatir eðlishvatirnar eðlishvötin eðlishvötina eðlishvötinni eðlishvötum eðlishvötunum
+44	7644	aðstoðarkona	aðstoðarkonan aðstoðarkonu aðstoðarkonum aðstoðarkonuna aðstoðarkonunnar aðstoðarkonunni aðstoðarkonunum aðstoðarkonur aðstoðarkonurnar aðstoðarkvenna aðstoðarkvennanna
+45	7645	neðanjarðarlest	neðanjarðarlesta neðanjarðarlestanna neðanjarðarlestar neðanjarðarlestarinnar neðanjarðarlestin neðanjarðarlestina neðanjarðarlestinni neðanjarðarlestir neðanjarðarlestirnar neðanjarðarlestum neðanjarðarlestunum
+46	7646	óréttlátur	óréttlát óréttláta óréttlátan óréttlátar óréttlátara óréttlátari óréttlátast óréttlátasta óréttlátastan óréttlátastar óréttlátasti óréttlátastir óréttlátastra óréttlátastrar óréttlátastri óréttlátasts óréttlátastur óréttláti óréttlátir óréttlátra óréttlátrar óréttlátri óréttláts óréttlátt óréttlátu óréttlátum óréttlátust óréttlátustu óréttlátustum
+47	7647	hellisbúi	hellisbúa hellisbúana hellisbúann hellisbúanna hellisbúans hellisbúanum hellisbúar hellisbúarnir hellisbúinn hellisbúum hellisbúunum
+48	7648	brynvarinn	brynvarin brynvarinna brynvarinnar brynvarinni brynvarins brynvarið brynvarða brynvarðar brynvarði brynvarðir brynvörðu brynvörðum
+49	7649	baukur	bauk bauka baukana baukanna baukar baukarnir bauki baukinn bauknum bauks bauksins baukum baukunum baukurinn
+50	7650	rifbein	rifbeina rifbeinanna rifbeini rifbeinin rifbeininu rifbeinið rifbeins rifbeinsins rifbeinum rifbeinunum
+51	7651	rökstyðja	rökstudd rökstudda rökstuddan rökstuddar rökstuddi rökstuddir rökstuddirðu rökstuddra rökstuddrar rökstuddri rökstudds rökstuddu rökstuddum rökstuddur rökstudduð rökstutt rökstyddi rökstyddir rökstyddirðu rökstyddu rökstyddum rökstydduð rökstyð rökstyðjandi rökstyðji rökstyðjir rökstyðjirðu rökstyðjið rökstyðjum rökstyður rökstyðurðu
+52	7652	óleystur	óleyst óleysta óleystan óleystar óleysti óleystir óleystra óleystrar óleystri óleysts óleystu óleystum
+53	7653	vinnumarkaður	vinnumarkað vinnumarkaða vinnumarkaðanna vinnumarkaðar vinnumarkaðarins vinnumarkaði vinnumarkaðina vinnumarkaðinn vinnumarkaðinum vinnumarkaðir vinnumarkaðirnir vinnumarkaðnum vinnumarkaðs vinnumarkaðsins vinnumarkaðurinn vinnumörkuðum vinnumörkuðunum
+54	7654	fangelsa	fangelsandi fangelsar fangelsast fangelsað fangelsaða fangelsaðan fangelsaðar fangelsaði fangelsaðir fangelsaðist fangelsaðra fangelsaðrar fangelsaðri fangelsaðs fangelsaðu fangelsaður fangelsi fangelsir fangelsist fangelsið fangelsum fangelsumst fangelsuð fangelsuðu fangelsuðum fangelsuðumst fangelsuðust fangelsuðuð
+55	7655	varúðarráðstöfun	varúðarráðstafana varúðarráðstafananna varúðarráðstafanir varúðarráðstafanirnar varúðarráðstöfunar varúðarráðstöfunarinnar varúðarráðstöfunin varúðarráðstöfunina varúðarráðstöfuninni varúðarráðstöfunum varúðarráðstöfununum
+56	7656	óeirð	óeirða óeirðanna óeirðar óeirðarinnar óeirðin óeirðina óeirðinni óeirðir óeirðirnar óeirðum óeirðunum
+57	7657	boginn	bogin boginna boginnar boginni bogins bogið bogna bognar bognara bognari bognast bognasta bognastan bognastar bognasti bognastir bognastra bognastrar bognastri bognasts bognastur bogni bognir bognu bognum bognust bognustu bognustum
+58	7658	iðkandi	iðkanda iðkandann iðkandans iðkandanum iðkandinn iðkenda iðkendanna iðkendum iðkendunum iðkendur iðkendurna iðkendurnir
+59	7659	dómsvald	dómsvaldi dómsvaldinu dómsvaldið dómsvalds dómsvaldsins
+60	7660	þinghús	þinghúsa þinghúsanna þinghúsi þinghúsin þinghúsinu þinghúsið þinghúss þinghússins þinghúsum þinghúsunum
+61	7661	silungur	silung silunga silungana silunganna silungar silungarnir silungi silunginn silungnum silungs silungsins silungum silungunum silungurinn
+62	7662	gluggatjald	gluggatjalda gluggatjaldanna gluggatjaldi gluggatjaldinu gluggatjaldið gluggatjalds gluggatjaldsins gluggatjöld gluggatjöldin gluggatjöldum gluggatjöldunum
+63	7663	blossi	blossa blossana blossann blossanna blossans blossanum blossar blossarnir blossinn blossum blossunum
+64	7664	lögsækja	lögsæki lögsækir lögsækið lögsækjandi lögsækjum lögsækti lögsæktir lögsæktu lögsæktum lögsæktuð lögsótt lögsótta lögsóttan lögsóttar lögsótti lögsóttir lögsóttra lögsóttrar lögsóttri lögsótts lögsóttu lögsóttum lögsóttur lögsóttuð
+65	7665	þverá	þveráa þveráin þverám þverána þveránna þveránni þveránum þverár þverárinnar þverárnar
+66	7666	víðir	víði víðinn víðinum víðirinn víðis víðisins
+67	7667	billjón	billjóna billjónanna billjónar billjónarinnar billjónin billjónina billjóninni billjónir billjónirnar billjónum billjónunum
+68	7668	stíft	stífar stífast
+69	7669	andvari	andvara andvarann andvarans andvaranum andvarinn
+70	7670	brugghús	brugghúsa brugghúsanna brugghúsi brugghúsin brugghúsinu brugghúsið brugghúss brugghússins brugghúsum brugghúsunum
+71	7671	innkaup	innkaupa innkaupanna innkaupin innkaupum innkaupunum
+72	7672	geimfar	geimfara geimfaranna geimfari geimfarinu geimfarið geimfars geimfarsins geimför geimförin geimförum geimförunum
+73	7673	einnota	
+74	7674	ólán	óláni óláninu ólánið óláns ólánsins
+75	7675	fjölmiðlun	fjölmiðlana fjölmiðlananna fjölmiðlanir fjölmiðlanirnar fjölmiðlunar fjölmiðlunarinnar fjölmiðlunin fjölmiðlunina fjölmiðluninni fjölmiðlunum fjölmiðlununum
+76	7676	áfrýjun	áfrýjana áfrýjananna áfrýjanir áfrýjanirnar áfrýjunar áfrýjunarinnar áfrýjunin áfrýjunina áfrýjuninni áfrýjunum áfrýjununum
+77	7677	vefa	ofin ofinn ofinna ofinnar ofinni ofins ofist ofið ofna ofnar ofni ofnir ofnu ofnum vef vefandi vefast vefaðu vefi vefir vefirðu vefist vefið vefst vefum vefumst vefur vefurðu væfi væfir væfirðu væfist væfu væfum væfumst væfust væfuð óf ófst ófstu ófu ófum ófumst ófust ófuð
+78	7678	brottrekstur	brottrekstrar brottrekstrarins brottrekstri brottrekstrinum brottreksturinn brottreksturs brottrekstursins
+79	7679	hlúa	hlúandi hlúi hlúir hlúið hlúum hlúð hlúði hlúðir hlúðu hlúðum hlúðuð
+80	7680	geðheilsa	geðheilsan geðheilsu geðheilsuna geðheilsunnar geðheilsunni
+81	7681	metta	mettandi mettar mettast mettað mettaða mettaðan mettaðar mettaði mettaðir mettaðist mettaðra mettaðrar mettaðri mettaðs mettaðu mettaður metti mettir mettist mettið mettum mettumst mettuð mettuðu mettuðum mettuðumst mettuðust mettuðuð
+82	7682	þungaður	þungað þungaða þungaðan þungaðar þungaðast þungaðasta þungaðastan þungaðastar þungaðasti þungaðastir þungaðastra þungaðastrar þungaðastri þungaðasts þungaðastur þungaði þungaðir þungaðra þungaðrar þungaðri þungaðs þunguð þunguðu þunguðum þunguðust þunguðustu þunguðustum
+83	7683	hafur	hafra hafrana hafranna hafrar hafrarnir hafri hafrinum hafurinn hafurs hafursins höfrum höfrunum
+84	7684	gerlegur	gerleg gerlega gerlegan gerlegar gerlegast gerlegasta gerlegastan gerlegastar gerlegasti gerlegastir gerlegastra gerlegastrar gerlegastri gerlegasts gerlegastur gerlegi gerlegir gerlegra gerlegrar gerlegri gerlegs gerlegt gerlegu gerlegum gerlegust gerlegustu gerlegustum
+85	7685	starfsleyfi	starfsleyfa starfsleyfanna starfsleyfin starfsleyfinu starfsleyfis starfsleyfisins starfsleyfið starfsleyfum starfsleyfunum
+86	7686	stundvíslega	
+87	7687	hvammur	hvamm hvamma hvammana hvammanna hvammar hvammarnir hvammi hvamminn hvamminum hvamms hvammsins hvammurinn hvömmum hvömmunum
+88	7688	kjörgengi	kjörgenginu kjörgengis kjörgengisins kjörgengið
+89	7689	þorláksson	
+90	7690	voðalega	
+91	7691	nærgætinn	nærgætin nærgætinna nærgætinnar nærgætinni nærgætins nærgætið nærgætna nærgætnar nærgætnara nærgætnari nærgætnast nærgætnasta nærgætnastan nærgætnastar nærgætnasti nærgætnastir nærgætnastra nærgætnastrar nærgætnastri nærgætnasts nærgætnastur nærgætni nærgætnir nærgætnu nærgætnum nærgætnust nærgætnustu nærgætnustum
+92	7692	vergur	verg verga vergan vergar vergara vergari vergast vergasta vergastan vergastar vergasti vergastir vergastra vergastrar vergastri vergasts vergastur vergi vergir vergra vergrar vergri vergs vergt vergu vergum vergust vergustu vergustum
+93	7693	heimskulega	
+94	7694	hnekkja	hnekki hnekkir hnekkist hnekkið hnekkjandi hnekkjast hnekkjum hnekkjumst hnekkst hnekkt hnekkta hnekktan hnekktar hnekkti hnekktir hnekktist hnekktra hnekktrar hnekktri hnekkts hnekktu hnekktum hnekktumst hnekktur hnekktust hnekktuð
+95	7695	eldmóður	eldmóð eldmóði eldmóðinn eldmóðnum eldmóðs eldmóðsins eldmóðurinn
+96	7696	góur	gó gói góinn góinum gós gósins góurinn
+97	7697	fjölskyldumeðlimur	fjölskyldumeðlim fjölskyldumeðlima fjölskyldumeðlimanna fjölskyldumeðlimi fjölskyldumeðlimina fjölskyldumeðliminn fjölskyldumeðlimir fjölskyldumeðlimirnir fjölskyldumeðlimnum fjölskyldumeðlims fjölskyldumeðlimsins fjölskyldumeðlimum fjölskyldumeðlimunum fjölskyldumeðlimurinn
+98	7698	heift	heifta heiftanna heiftar heiftarinnar heiftin heiftina heiftinni heiftir heiftirnar heiftum heiftunum
+99	7699	kjörorð	kjörorða kjörorðanna kjörorði kjörorðin kjörorðinu kjörorðið kjörorðs kjörorðsins kjörorðum kjörorðunum
+100	7700	þrælahald	þrælahaldi þrælahaldinu þrælahaldið þrælahalds þrælahaldsins

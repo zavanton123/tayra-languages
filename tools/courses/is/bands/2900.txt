@@ -1,0 +1,100 @@
+1	2801	útgefandi	útgefanda útgefandann útgefandans útgefandanum útgefandinn útgefenda útgefendanna útgefendum útgefendunum útgefendur útgefendurna útgefendurnir
+2	2802	bor	bora borana boranna borar borarnir borinn bornum bors borsins borum borunum
+3	2803	hæli	hæla hælanna hælin hælinu hælis hælisins hælið hælum hælunum
+4	2804	þriðjudagur	þriðjudag þriðjudaga þriðjudagana þriðjudaganna þriðjudagar þriðjudagarnir þriðjudaginn þriðjudags þriðjudagsins þriðjudagurinn þriðjudegi þriðjudeginum þriðjudögum þriðjudögunum
+5	2805	óhultur	óhult óhulta óhultan óhultar óhultara óhultari óhultast óhultasta óhultastan óhultastar óhultasti óhultastir óhultastra óhultastrar óhultastri óhultasts óhultastur óhulti óhultir óhultra óhultrar óhultri óhults óhultu óhultum óhultust óhultustu óhultustum
+6	2806	útlendingur	útlending útlendinga útlendingana útlendinganna útlendingar útlendingarnir útlendingi útlendinginn útlendingnum útlendings útlendingsins útlendingum útlendingunum útlendingurinn
+7	2807	rómur	róm róma rómana rómanna rómar rómarnir rómi róminn róminum rómnum róms rómsins rómum rómunum rómurinn
+8	2808	bíómynd	bíómynda bíómyndanna bíómyndar bíómyndarinnar bíómyndin bíómyndina bíómyndinni bíómyndir bíómyndirnar bíómyndum bíómyndunum
+9	2809	þorsteinsson	þorsteinssonar
+10	2810	sestur	sest sesta sestan sestar sesti sestir sestra sestrar sestri sests sestu sestum
+11	2811	smjör	smjöri smjörinu smjörið smjörs smjörsins
+12	2812	bresta	brast brest brestandi bresti brestir brestið brestu brestum brestur brostin brostinn brostinna brostinnar brostinni brostins brostið brostna brostnar brostni brostnir brostnu brostnum brustu brustum brustuð brysti brystir brystu brystum brystuð
+13	2813	andstæður	andstætt andstæð andstæða andstæðan andstæðar andstæðara andstæðari andstæðast andstæðasta andstæðastan andstæðastar andstæðasti andstæðastir andstæðastra andstæðastrar andstæðastri andstæðasts andstæðastur andstæði andstæðir andstæðra andstæðrar andstæðri andstæðs andstæðu andstæðum andstæðust andstæðustu andstæðustum
+14	2814	bókstaflega	
+15	2815	sveppur	svepp sveppa sveppanna sveppi sveppina sveppinn sveppir sveppirnir sveppnum svepps sveppsins sveppum sveppunum sveppurinn
+16	2816	rafhlaða	rafhlaðan rafhlaðanna rafhlaðna rafhlaðnanna rafhlöðu rafhlöðum rafhlöðuna rafhlöðunnar rafhlöðunni rafhlöðunum rafhlöður rafhlöðurnar
+17	2817	ríkisútvarp	ríkisútvarpa ríkisútvarpanna ríkisútvarpi ríkisútvarpinu ríkisútvarpið ríkisútvarps ríkisútvarpsins ríkisútvörp ríkisútvörpin ríkisútvörpum ríkisútvörpunum
+18	2818	pottþéttur	pottþétt pottþétta pottþéttan pottþéttar pottþéttara pottþéttari pottþéttast pottþéttasta pottþéttastan pottþéttastar pottþéttasti pottþéttastir pottþéttastra pottþéttastrar pottþéttastri pottþéttasts pottþéttastur pottþétti pottþéttir pottþéttra pottþéttrar pottþéttri pottþétts pottþéttu pottþéttum pottþéttust pottþéttustu pottþéttustum
+19	2819	plan	plana plananna plani planinu planið plans plansins plön plönin plönum plönunum
+20	2820	reiðubúinn	reiðubúin reiðubúinna reiðubúinnar reiðubúinni reiðubúins reiðubúið reiðubúna reiðubúnar reiðubúnara reiðubúnari reiðubúnast reiðubúnasta reiðubúnastan reiðubúnastar reiðubúnasti reiðubúnastir reiðubúnastra reiðubúnastrar reiðubúnastri reiðubúnasts reiðubúnastur reiðubúni reiðubúnir reiðubúnu reiðubúnum reiðubúnust reiðubúnustu reiðubúnustum
+21	2821	upptök	upptaka upptakanna upptökin upptökum upptökunum
+22	2822	bílstjóri	bílstjóra bílstjórana bílstjórann bílstjóranna bílstjórans bílstjóranum bílstjórar bílstjórarnir bílstjórinn bílstjórum bílstjórunum
+23	2823	hika	hikandi hikar hikarðu hikað hikaði hikaðir hikaðirðu hikaðu hiki hikir hikið hikum hikuðu hikuðum hikuðuð
+24	2824	viðræða	viðræðan viðræðanna viðræðna viðræðnanna viðræðu viðræðum viðræðuna viðræðunnar viðræðunni viðræðunum viðræður viðræðurnar
+25	2825	skara	skarandi skarar skarast skarað skaraða skaraðan skaraðar skaraði skaraðir skaraðist skaraðra skaraðrar skaraðri skaraðs skaraðu skaraður skari skarir skarist skarið skörum skörumst sköruð sköruðu sköruðum sköruðumst sköruðust sköruðuð
+26	2826	öfugt	öfugar öfugast
+27	2827	sérhæfa	sérhæfandi sérhæfast sérhæfi sérhæfir sérhæfist sérhæfið sérhæfst sérhæft sérhæfum sérhæfumst sérhæfð sérhæfða sérhæfðan sérhæfðar sérhæfði sérhæfðir sérhæfðist sérhæfðra sérhæfðrar sérhæfðri sérhæfðs sérhæfðu sérhæfðum sérhæfðumst sérhæfður sérhæfðust sérhæfðuð
+28	2828	mar	mara marana maranna marar mararins mararnir mari marina marinn marinu marinum marir marirnir marið marnum marsins mörum mörunum
+29	2829	goðsögn	goðsagna goðsagnanna goðsagnar goðsagnarinnar goðsagnir goðsagnirnar goðsögnin goðsögnina goðsögninni goðsögnum goðsögnunum
+30	2830	svalir	svala svalanna svalirnar svölum svölunum
+31	2831	takki	takka takkana takkann takkanna takkans takkanum takkar takkarnir takkinn tökkum tökkunum
+32	2832	sjálfbær	sjálfbæra sjálfbæran sjálfbærar sjálfbærara sjálfbærari sjálfbærast sjálfbærasta sjálfbærastan sjálfbærastar sjálfbærasti sjálfbærastir sjálfbærastra sjálfbærastrar sjálfbærastri sjálfbærasts sjálfbærastur sjálfbæri sjálfbærir sjálfbærra sjálfbærrar sjálfbærri sjálfbærs sjálfbært sjálfbæru sjálfbærum sjálfbærust sjálfbærustu sjálfbærustum
+33	2833	stjórnmálaflokkur	stjórnmálaflokk stjórnmálaflokka stjórnmálaflokkana stjórnmálaflokkanna stjórnmálaflokkar stjórnmálaflokkarnir stjórnmálaflokki stjórnmálaflokkinn stjórnmálaflokknum stjórnmálaflokks stjórnmálaflokksins stjórnmálaflokkum stjórnmálaflokkunum stjórnmálaflokkurinn
+34	2834	athugun	athugana athugananna athuganir athuganirnar athugunar athugunarinnar athugunin athugunina athuguninni athugunum athugununum
+35	2835	skítugur	skítug skítuga skítugan skítugar skítugast skítugasta skítugastan skítugastar skítugasti skítugastir skítugastra skítugastrar skítugastri skítugasts skítugastur skítugi skítugir skítugra skítugrar skítugri skítugs skítugt skítugu skítugum skítugust skítugustu skítugustum
+36	2836	demantur	demant demanta demantana demantanna demantar demantarnir demanti demantinn demantinum demants demantsins demanturinn demöntum demöntunum
+37	2837	stjórnstöð	stjórnstöðin stjórnstöðina stjórnstöðinni stjórnstöðva stjórnstöðvanna stjórnstöðvar stjórnstöðvarinnar stjórnstöðvarnar stjórnstöðvum stjórnstöðvunum
+38	2838	kista	kistan kistanna kistna kistnanna kistu kistum kistuna kistunnar kistunni kistunum kistur kisturnar
+39	2839	hávaði	hávaða hávaðana hávaðann hávaðanna hávaðans hávaðanum hávaðar hávaðarnir hávaðinn hávöðum hávöðunum
+40	2840	una	unandi unað undi undir undu undum unduð uni unir unið unum yndi yndir yndu yndum ynduð
+41	2841	afmarka	afmarkandi afmarkar afmarkast afmarkað afmarkaða afmarkaðan afmarkaðar afmarkaði afmarkaðir afmarkaðist afmarkaðra afmarkaðrar afmarkaðri afmarkaðs afmarkaðu afmarkaður afmarki afmarkir afmarkist afmarkið afmörkum afmörkumst afmörkuð afmörkuðu afmörkuðum afmörkuðumst afmörkuðust afmörkuðuð
+42	2842	pat	pati patinu patið pats patsins
+43	2843	hirða	hirst hirt hirta hirtan hirtar hirti hirtir hirtist hirtra hirtrar hirtri hirts hirtu hirtum hirtumst hirtur hirtust hirtuð hirðan hirðandi hirðast hirði hirðir hirðirðu hirðist hirðið hirðu hirðum hirðumst hirðuna hirðunnar hirðunni
+44	2844	grey	greyi greyin greyinu greyið greyja greyjanna greyjum greyjunum greys greysins
+45	2845	heimamaður	heimamann heimamanna heimamannanna heimamanni heimamanninn heimamanninum heimamanns heimamannsins heimamaðurinn heimamenn heimamennina heimamennirnir heimamönnum heimamönnunum
+46	2846	ímynd	ímynda ímyndanna ímyndar ímyndarinnar ímyndin ímyndina ímyndinni ímyndir ímyndirnar ímyndum ímyndunum
+47	2847	baðherbergi	baðherbergin baðherberginu baðherbergis baðherbergisins baðherbergið baðherbergja baðherbergjanna baðherbergjum baðherbergjunum
+48	2848	men	mena menanna meni menin meninu menið mens mensins menum menunum
+49	2849	ferðaþjónusta	ferðaþjónustan ferðaþjónustu ferðaþjónustuna ferðaþjónustunnar ferðaþjónustunni
+50	2850	úthluta	úthlutandi úthlutar úthlutast úthlutað úthlutaða úthlutaðan úthlutaðar úthlutaði úthlutaðir úthlutaðist úthlutaðra úthlutaðrar úthlutaðri úthlutaðs úthlutaðu úthlutaður úthluti úthlutir úthlutist úthlutið úthlutum úthlutumst úthlutuð úthlutuðu úthlutuðum úthlutuðumst úthlutuðust úthlutuðuð
+51	2851	krydd	krydda kryddanna kryddað kryddaða kryddaðan kryddaðar kryddaðir kryddaður kryddi kryddin kryddinu kryddið krydds kryddsins kryddum kryddunum krydduð krydduðu krydduðum
+52	2852	etja	att atti attir attirðu attist est et etjandi etjast etji etjir etjirðu etjist etjið etjum etjumst etti ettir ettirðu ettist ettu ettum ettumst ettust ettuð etur eturðu öttu öttum öttumst öttust öttuð
+53	2853	halur	hal hala halanna hali halina halinn halir halirnir halnum hals halsins halurinn hölum hölunum
+54	2854	vísindalegur	vísindaleg vísindalega vísindalegan vísindalegar vísindalegast vísindalegasta vísindalegastan vísindalegastar vísindalegasti vísindalegastir vísindalegastra vísindalegastrar vísindalegastri vísindalegasts vísindalegastur vísindalegi vísindalegir vísindalegra vísindalegrar vísindalegri vísindalegs vísindalegt vísindalegu vísindalegum vísindalegust vísindalegustu vísindalegustum
+55	2855	brjálæðingur	brjálæðing brjálæðinga brjálæðingana brjálæðinganna brjálæðingar brjálæðingarnir brjálæðingi brjálæðinginn brjálæðingnum brjálæðings brjálæðingsins brjálæðingum brjálæðingunum brjálæðingurinn
+56	2856	vitlaust	
+57	2857	örfár	örfá örfáa örfáan örfáar örfái örfáir örfárra örfárrar örfárri örfás örfátt örfáu örfáum
+58	2858	þjóðvegur	þjóðveg þjóðvega þjóðveganna þjóðvegar þjóðvegarins þjóðvegi þjóðvegina þjóðveginn þjóðveginum þjóðvegir þjóðvegirnir þjóðvegum þjóðvegunum þjóðvegurinn
+59	2859	rúlla	rúllan rúllandi rúllanna rúllar rúllast rúllað rúllaða rúllaðan rúllaðar rúllaði rúllaðir rúllaðist rúllaðra rúllaðrar rúllaðri rúllaðs rúllaðu rúllaður rúlli rúllir rúllist rúllið rúllna rúllnanna rúllu rúllum rúllumst rúlluna rúllunnar rúllunni rúllunum rúllur rúllurnar rúlluð rúlluðu rúlluðum rúlluðumst rúlluðust rúlluðuð
+60	2860	salerni	salerna salernanna salernin salerninu salernis salernisins salernið salernum salernunum
+61	2861	ljósmyndari	ljósmyndara ljósmyndarana ljósmyndarann ljósmyndaranna ljósmyndarans ljósmyndaranum ljósmyndarar ljósmyndararnir ljósmyndarinn ljósmyndurum ljósmyndurunum
+62	2862	dvergur	dverg dverga dvergana dverganna dvergar dvergarnir dverginn dvergnum dvergs dvergsins dvergum dvergunum dvergurinn
+63	2863	löglegur	lögleg löglega löglegan löglegar löglegast löglegasta löglegastan löglegastar löglegasti löglegastir löglegastra löglegastrar löglegastri löglegasts löglegastur löglegi löglegir löglegra löglegrar löglegri löglegs löglegt löglegu löglegum löglegust löglegustu löglegustum
+64	2864	dagbók	dagbækur dagbækurnar dagbóka dagbókanna dagbókar dagbókarinnar dagbókin dagbókina dagbókinni dagbókum dagbókunum
+65	2865	rækja	ræki rækir rækið rækjan rækjandi rækjanna rækju rækjum rækjuna rækjunnar rækjunni rækjunum rækjur rækjurnar rækna ræknanna rækt rækta ræktan ræktar rækti ræktir ræktra ræktrar ræktri rækts ræktu ræktum ræktur ræktuð
+66	2866	ró	rær rærnar róa róar róarinnar róin róm róna rónna rónni rónum
+67	2867	skynsamlegur	skynsamleg skynsamlega skynsamlegan skynsamlegar skynsamlegast skynsamlegasta skynsamlegastan skynsamlegastar skynsamlegasti skynsamlegastir skynsamlegastra skynsamlegastrar skynsamlegastri skynsamlegasts skynsamlegastur skynsamlegi skynsamlegir skynsamlegra skynsamlegrar skynsamlegri skynsamlegs skynsamlegt skynsamlegu skynsamlegum skynsamlegust skynsamlegustu skynsamlegustum
+68	2868	kvöldverður	kvöldverð kvöldverða kvöldverðanna kvöldverðar kvöldverðarins kvöldverði kvöldverðina kvöldverðinn kvöldverðinum kvöldverðir kvöldverðirnir kvöldverðum kvöldverðunum kvöldverðurinn
+69	2869	lamb	lamba lambanna lambi lambinu lambið lambs lambsins lömb lömbin lömbum lömbunum
+70	2870	viðvörun	viðvarana viðvarananna viðvaranir viðvaranirnar viðvörunar viðvörunarinnar viðvörunin viðvörunina viðvöruninni viðvörunum viðvörununum
+71	2871	rest	resta restanna restar restarinnar restarnar restin restina restinni restum restunum
+72	2872	ljón	ljóna ljónanna ljóni ljónin ljóninu ljónið ljóns ljónsins ljónum ljónunum
+73	2873	paradís	paradísa paradísanna paradísar paradísarinnar paradísin paradísina paradísinni paradísir paradísirnar paradísum paradísunum
+74	2874	vist	vista vistanna vistar vistarinnar vistin vistina vistinni vistir vistirnar vistum vistunum
+75	2875	emm	emma emmanna emmi emmin emminu emmið emms emmsins emmum emmunum
+76	2876	aðgengilegur	aðgengileg aðgengilega aðgengilegan aðgengilegar aðgengilegast aðgengilegasta aðgengilegastan aðgengilegastar aðgengilegasti aðgengilegastir aðgengilegastra aðgengilegastrar aðgengilegastri aðgengilegasts aðgengilegastur aðgengilegi aðgengilegir aðgengilegra aðgengilegrar aðgengilegri aðgengilegs aðgengilegt aðgengilegu aðgengilegum aðgengilegust aðgengilegustu aðgengilegustum
+77	2877	tíska	tískan tískanna tísku tískum tískuna tískunnar tískunni tískunum tískur tískurnar
+78	2878	epli	epla eplanna eplin eplinu eplis eplisins eplið eplum eplunum
+79	2879	persónulega	
+80	2880	ísskápur	ísskáp ísskápa ísskápana ísskápanna ísskápar ísskáparnir ísskápinn ísskápnum ísskáps ísskápsins ísskápum ísskápunum ísskápurinn
+81	2881	lax	laxa laxana laxanna laxar laxarnir laxi laxinn laxins laxinum löxum löxunum
+82	2882	þjóðfélag	þjóðfélaga þjóðfélaganna þjóðfélagi þjóðfélaginu þjóðfélagið þjóðfélags þjóðfélagsins þjóðfélög þjóðfélögin þjóðfélögum þjóðfélögunum
+83	2883	umfram	
+84	2884	stræti	stræta strætanna strætin strætinu strætis strætisins strætið strætum strætunum
+85	2885	kafa	kafandi kafar kafast kafað kafaði kafaðir kafaðist kafaðu kafir kafist kafið köfum köfumst köfuðu köfuðum köfuðumst köfuðust köfuðuð
+86	2886	heiði	heiða heiðanna heiðar heiðarinnar heiðarnar heiðin heiðina heiðinni heiðum heiðunum
+87	2887	leka	lak lakst lek lekandi leki lekin lekinn lekinna lekinnar lekinni lekins lekir lekið lekna leknar lekni leknir leknu leknum lektu lekum lekur láku lákum lákuð læki lækir lækju lækjum lækjuð
+88	2888	vinsæld	vinsælda vinsældanna vinsældar vinsældarinnar vinsældin vinsældina vinsældinni vinsældirnar vinsældum vinsældunum
+89	2889	harka	harkan harkandi harkanna harkar harkað harkaði harkaðir harkaðu harki harkir harkið harkna harknanna hörku hörkum hörkuna hörkunnar hörkunni hörkunum hörkur hörkurnar hörkuðu hörkuðum hörkuðuð
+90	2890	fræði	fræða fræðanna fræðin fræðina fræðinnar fræðinni fræðum fræðunum
+91	2891	veiðimaður	veiðimann veiðimanna veiðimannanna veiðimanni veiðimanninn veiðimanninum veiðimanns veiðimannsins veiðimaðurinn veiðimenn veiðimennina veiðimennirnir veiðimönnum veiðimönnunum
+92	2892	augljóslega	
+93	2893	harpa	harpan harpandi harpanna harpar harpast harpað harpaða harpaðan harpaðar harpaði harpaðir harpaðist harpaðra harpaðrar harpaðri harpaðs harpaðu harpaður harpi harpir harpist harpið harpna harpnanna hörpu hörpum hörpumst hörpuna hörpunnar hörpunni hörpunum hörpur hörpurnar hörpuð hörpuðu hörpuðum hörpuðumst hörpuðust hörpuðuð
+94	2894	skíra	skírandi skírast skíri skírir skírist skírið skírst skírt skírum skírumst skírð skírða skírðan skírðar skírði skírðir skírðist skírðra skírðrar skírðri skírðs skírðu skírðum skírðumst skírður skírðust skírðuð
+95	2895	almennilegur	almennileg almennilega almennilegan almennilegar almennilegast almennilegasta almennilegastan almennilegastar almennilegasti almennilegastir almennilegastra almennilegastrar almennilegastri almennilegasts almennilegastur almennilegi almennilegir almennilegra almennilegrar almennilegri almennilegs almennilegt almennilegu almennilegum almennilegust almennilegustu almennilegustum
+96	2896	vís	vísa vísan vísar vísara vísari vísast vísasta vísastan vísastar vísasti vísastir vísastra vísastrar vísastri vísasts vísastur vísi vísir vísra vísrar vísri víss víst vísu vísum vísust vísustu vísustum
+97	2897	sendiráð	sendiráða sendiráðanna sendiráði sendiráðin sendiráðinu sendiráðið sendiráðs sendiráðsins sendiráðum sendiráðunum
+98	2898	fjármálaráðherra	fjármálaráðherrana fjármálaráðherrann fjármálaráðherranna fjármálaráðherrans fjármálaráðherranum fjármálaráðherrar fjármálaráðherrarnir fjármálaráðherrum fjármálaráðherrunum
+99	2899	fræ	fræi fræin fræinu fræið fræja fræjanna fræjum fræjunum fræs fræsins
+100	2900	kampavín	kampavína kampavínanna kampavíni kampavínin kampavíninu kampavínið kampavíns kampavínsins kampavínum kampavínunum

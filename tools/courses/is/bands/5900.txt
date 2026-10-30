@@ -1,0 +1,100 @@
+1	5801	meginatriði	meginatriða meginatriðanna meginatriðin meginatriðinu meginatriðis meginatriðisins meginatriðið meginatriðum meginatriðunum
+2	5802	landsbyggð	landsbyggðar landsbyggðarinnar landsbyggðin landsbyggðina landsbyggðinni
+3	5803	ferskja	ferskjan ferskjanna ferskju ferskjum ferskjuna ferskjunnar ferskjunni ferskjunum ferskjur ferskjurnar ferskna fersknanna
+4	5804	tilli	tilla tillana tillann tillanna tillans tillanum tillar tillarnir tillinn tillum tillunum
+5	5805	lúberja	lúbarin lúbarinn lúbarinna lúbarinnar lúbarinni lúbarins lúbarið lúbarða lúbarðar lúbarði lúbarðir lúber lúberjandi lúberji lúberjir lúberjið lúberjum lúberð lúberði lúberðir lúberðu lúberðum lúberðuð lúbörðu lúbörðum lúbörðuð
+6	5806	aumkunarverður	aumkunarvert aumkunarverð aumkunarverða aumkunarverðan aumkunarverðar aumkunarverðara aumkunarverðari aumkunarverðast aumkunarverðasta aumkunarverðastan aumkunarverðastar aumkunarverðasti aumkunarverðastir aumkunarverðastra aumkunarverðastrar aumkunarverðastri aumkunarverðasts aumkunarverðastur aumkunarverði aumkunarverðir aumkunarverðra aumkunarverðrar aumkunarverðri aumkunarverðs aumkunarverðu aumkunarverðum aumkunarverðust aumkunarverðustu aumkunarverðustum
+7	5807	gamlingi	gamlinginn gamlingja gamlingjana gamlingjann gamlingjanna gamlingjans gamlingjanum gamlingjar gamlingjarnir gamlingjum gamlingjunum
+8	5808	stefnumál	stefnumála stefnumálanna stefnumáli stefnumálin stefnumálinu stefnumálið stefnumáls stefnumálsins stefnumálum stefnumálunum
+9	5809	félagsmálaráðherra	félagsmálaráðherrana félagsmálaráðherrann félagsmálaráðherranna félagsmálaráðherrans félagsmálaráðherranum félagsmálaráðherrar félagsmálaráðherrarnir félagsmálaráðherrum félagsmálaráðherrunum
+10	5810	sannreyna	sannreynandi sannreynast sannreynd sannreynda sannreyndan sannreyndar sannreyndi sannreyndir sannreyndist sannreyndra sannreyndrar sannreyndri sannreynds sannreyndu sannreyndum sannreyndumst sannreyndur sannreyndust sannreynduð sannreyni sannreynir sannreynist sannreynið sannreynst sannreynt sannreynum sannreynumst
+11	5811	gamlárskvöld	gamlárskvölda gamlárskvöldanna gamlárskvöldi gamlárskvöldin gamlárskvöldinu gamlárskvöldið gamlárskvölds gamlárskvöldsins gamlárskvöldum gamlárskvöldunum
+12	5812	geðveiki	geðveikin geðveikina geðveikinnar geðveikinni
+13	5813	auðugur	auðug auðuga auðugan auðugar auðugast auðugasta auðugastan auðugastar auðugasti auðugastir auðugastra auðugastrar auðugastri auðugasts auðugastur auðugi auðugir auðugra auðugrar auðugri auðugs auðugt auðugu auðugum auðugust auðugustu auðugustum
+14	5814	skófla	skóflan skóflandi skóflanna skóflar skóflast skóflað skóflaði skóflaðir skóflaðist skóflaðu skófli skóflir skóflist skóflið skóflna skóflnanna skóflu skóflum skóflumst skófluna skóflunnar skóflunni skóflunum skóflur skóflurnar skófluðu skófluðum skófluðumst skófluðust skófluðuð
+15	5815	afturendi	afturenda afturendana afturendann afturendanna afturendans afturendanum afturendar afturendarnir afturendinn afturendum afturendunum
+16	5816	soga	sogandi sogar sogast sogað sogaða sogaðan sogaðar sogaði sogaðir sogaðist sogaðra sogaðrar sogaðri sogaðs sogaðu sogaður sogi sogir sogist sogið sogum sogumst soguð soguðu soguðum soguðumst soguðust soguðuð
+17	5817	innanhúss	
+18	5818	samdráttur	samdrátt samdrátta samdráttanna samdráttar samdráttarins samdráttinn samdráttum samdráttunum samdrátturinn samdrætti samdrættina samdrættinum samdrættir samdrættirnir
+19	5819	nítjándi	nítjánda nítjándu
+20	5820	leynt	
+21	5821	fax	faxa faxanna faxi faxins faxinu faxið föx föxin föxum föxunum
+22	5822	sokkabuxur	sokkabuxna sokkabuxnanna sokkabuxum sokkabuxunum sokkabuxurnar
+23	5823	rokkstjarna	rokkstjarnan rokkstjarnanna rokkstjörnu rokkstjörnum rokkstjörnuna rokkstjörnunnar rokkstjörnunni rokkstjörnunum rokkstjörnur rokkstjörnurnar
+24	5824	jafningi	jafninginn jafningja jafningjana jafningjann jafningjanna jafningjans jafningjanum jafningjar jafningjarnir jafningjum jafningjunum
+25	5825	sannkallaður	sannkallað sannkallaða sannkallaðan sannkallaðar sannkallaði sannkallaðir sannkallaðra sannkallaðrar sannkallaðri sannkallaðs sannkölluð sannkölluðu sannkölluðum
+26	5826	smábær	smábæ smábæi smábæina smábæinn smábæir smábæirnir smábæja smábæjanna smábæjar smábæjarins smábæjum smábæjunum smábænum smábærinn
+27	5827	gæsla	gæslan gæslu gæsluna gæslunnar gæslunni
+28	5828	sólarljós	sólarljósa sólarljósanna sólarljósi sólarljósin sólarljósinu sólarljósið sólarljóss sólarljóssins sólarljósum sólarljósunum
+29	5829	áhorf	áhorfi áhorfinu áhorfið áhorfs áhorfsins
+30	5830	ljóma	ljómandi ljómar ljómast ljómað ljómaða ljómaðan ljómaðar ljómaði ljómaðir ljómaðist ljómaðra ljómaðrar ljómaðri ljómaðs ljómaðu ljómaður ljómi ljómir ljómist ljómið ljómum ljómumst ljómuð ljómuðu ljómuðum ljómuðumst ljómuðust ljómuðuð
+31	5831	pota	potandi potar potast potað potaða potaðan potaðar potaði potaðir potaðist potaðra potaðrar potaðri potaðs potaðu potaður poti potir potist potið potum potumst potuð potuðu potuðum potuðumst potuðust potuðuð
+32	5832	þokkalega	
+33	5833	innbyggður	innbyggt innbyggð innbyggða innbyggðan innbyggðar innbyggðara innbyggðari innbyggðast innbyggðasta innbyggðastan innbyggðastar innbyggðasti innbyggðastir innbyggðastra innbyggðastrar innbyggðastri innbyggðasts innbyggðastur innbyggði innbyggðir innbyggðra innbyggðrar innbyggðri innbyggðs innbyggðu innbyggðum innbyggðust innbyggðustu innbyggðustum
+34	5834	málsvari	málsvara málsvarana málsvarann málsvaranna málsvarans málsvaranum málsvarar málsvararnir málsvarinn málsvörum málsvörunum
+35	5835	fremi	
+36	5836	heimkoma	heimkoman heimkomu heimkomuna heimkomunnar heimkomunni
+37	5837	afneita	afneitandi afneitar afneitað afneitaði afneitaðir afneitaðu afneiti afneitir afneitið afneitum afneituðu afneituðum afneituðuð
+38	5838	gætilega	
+39	5839	krúttlegur	krúttleg krúttlega krúttlegan krúttlegar krúttlegast krúttlegasta krúttlegastan krúttlegastar krúttlegasti krúttlegastir krúttlegastra krúttlegastrar krúttlegastri krúttlegasts krúttlegastur krúttlegi krúttlegir krúttlegra krúttlegrar krúttlegri krúttlegs krúttlegt krúttlegu krúttlegum krúttlegust krúttlegustu krúttlegustum
+40	5840	millitíð	millitíðinni
+41	5841	stjórnborði	stjórnborða stjórnborðana stjórnborðann stjórnborðanna stjórnborðans stjórnborðanum stjórnborðar stjórnborðarnir stjórnborðinn stjórnborðum stjórnborðunum
+42	5842	miðstjórn	miðstjórna miðstjórnanna miðstjórnar miðstjórnarinnar miðstjórnin miðstjórnina miðstjórninni miðstjórnir miðstjórnirnar miðstjórnum miðstjórnunum
+43	5843	suðurhluti	suðurhluta suðurhlutana suðurhlutann suðurhlutanna suðurhlutans suðurhlutanum suðurhlutar suðurhlutarnir suðurhlutinn suðurhlutum suðurhlutunum
+44	5844	furðufugl	furðufugla furðufuglana furðufuglanna furðufuglar furðufuglarnir furðufugli furðufuglinn furðufuglinum furðufugls furðufuglsins furðufuglum furðufuglunum
+45	5845	dræsa	dræsan dræsanna dræsu dræsum dræsuna dræsunnar dræsunni dræsunum dræsur dræsurnar
+46	5846	svíta	svítan svítanna svítu svítum svítuna svítunnar svítunni svítunum svítur svíturnar
+47	5847	þumall	þumal þumalinn þumallinn þumals þumalsins þumla þumlana þumlanna þumlar þumlarnir þumli þumlinum þumlum þumlunum
+48	5848	geðklofi	geðklofa geðklofann geðklofans geðklofanum geðklofinn
+49	5849	hljóðlega	
+50	5850	sýnishorn	sýnishorna sýnishornanna sýnishorni sýnishornin sýnishorninu sýnishornið sýnishorns sýnishornsins sýnishornum sýnishornunum
+51	5851	fylkja	fylki fylkir fylkist fylkið fylkjandi fylkjast fylkjum fylkjumst fylkst fylkt fylkta fylktan fylktar fylkti fylktir fylktist fylktra fylktrar fylktri fylkts fylktu fylktum fylktumst fylktur fylktust fylktuð
+52	5852	hrokafullur	hrokafull hrokafulla hrokafullan hrokafullar hrokafulli hrokafullir hrokafullra hrokafullrar hrokafullri hrokafulls hrokafullt hrokafullu hrokafullum hrokafyllra hrokafyllri hrokafyllst hrokafyllsta hrokafyllstan hrokafyllstar hrokafyllsti hrokafyllstir hrokafyllstra hrokafyllstrar hrokafyllstri hrokafyllsts hrokafyllstu hrokafyllstum hrokafyllstur
+53	5853	brak	braki brakinu brakið braks braksins
+54	5854	mund	
+55	5855	jólagjöf	jólagjafa jólagjafanna jólagjafar jólagjafarinnar jólagjafir jólagjafirnar jólagjöfin jólagjöfina jólagjöfinni jólagjöfum jólagjöfunum
+56	5856	grátur	grát gráti grátinn grátinum grátna grátnanna gráts grátsins grátum grátunum gráturinn gráturnar
+57	5857	óviss	óvissa óvissan óvissar óvissara óvissari óvissast óvissasta óvissastan óvissastar óvissasti óvissastir óvissastra óvissastrar óvissastri óvissasts óvissastur óvissi óvissir óvissra óvissrar óvissri óvisst óvissu óvissum óvissust óvissustu óvissustum
+58	5858	ferðamennska	ferðamennskan ferðamennsku ferðamennskuna ferðamennskunnar ferðamennskunni
+59	5859	samning	samninga samninganna samningar samningarinnar samningarnar samningin samningu samningum samninguna samningunni samningunum
+60	5860	kettlingur	kettling kettlinga kettlingana kettlinganna kettlingar kettlingarnir kettlingi kettlinginn kettlingnum kettlings kettlingsins kettlingum kettlingunum kettlingurinn
+61	5861	myndver	myndvera myndveranna myndveri myndverin myndverinu myndverið myndvers myndversins myndverum myndverunum
+62	5862	leiðsla	leiðslan leiðslanna leiðslna leiðslnanna leiðslu leiðslum leiðsluna leiðslunnar leiðslunni leiðslunum leiðslur leiðslurnar
+63	5863	skólaganga	skólagangan skólagöngu skólagönguna skólagöngunnar skólagöngunni
+64	5864	túnfiskur	túnfisk túnfiska túnfiskana túnfiskanna túnfiskar túnfiskarnir túnfiski túnfiskinn túnfiskinum túnfisknum túnfisks túnfisksins túnfiskum túnfiskunum túnfiskurinn
+65	5865	und	
+66	5866	bambi	bamba bambana bambann bambanna bambans bambanum bambar bambarnir bambinn bömbum bömbunum
+67	5867	hafsbotn	hafsbotna hafsbotnana hafsbotnanna hafsbotnar hafsbotnarnir hafsbotni hafsbotninn hafsbotninum hafsbotns hafsbotnsins hafsbotnum hafsbotnunum
+68	5868	ágiskun	ágiskana ágiskananna ágiskanir ágiskanirnar ágiskunar ágiskunarinnar ágiskunin ágiskunina ágiskuninni ágiskunum ágiskununum
+69	5869	úthverfi	úthverfa úthverfanna úthverfin úthverfinu úthverfis úthverfisins úthverfið úthverfum úthverfunum
+70	5870	fréttatilkynning	fréttatilkynninga fréttatilkynninganna fréttatilkynningar fréttatilkynningarinnar fréttatilkynningarnar fréttatilkynningin fréttatilkynningu fréttatilkynningum fréttatilkynninguna fréttatilkynningunni fréttatilkynningunum
+71	5871	gjörningur	gjörning gjörninga gjörningana gjörninganna gjörningar gjörningarnir gjörningi gjörninginn gjörningnum gjörnings gjörningsins gjörningum gjörningunum gjörningurinn
+72	5872	ímyndun	ímyndana ímyndananna ímyndanir ímyndanirnar ímyndunar ímyndunarinnar ímyndunin ímyndunina ímynduninni ímyndunum ímyndununum
+73	5873	heilbrigðisráðherra	heilbrigðisráðherrana heilbrigðisráðherrann heilbrigðisráðherranna heilbrigðisráðherrans heilbrigðisráðherranum heilbrigðisráðherrar heilbrigðisráðherrarnir heilbrigðisráðherrum heilbrigðisráðherrunum
+74	5874	landsleikur	landsleik landsleiki landsleikina landsleikinn landsleikir landsleikirnir landsleikja landsleikjanna landsleikjum landsleikjunum landsleiknum landsleiks landsleiksins landsleikurinn
+75	5875	meðtalinn	meðtalda meðtaldar meðtaldi meðtaldir meðtalin meðtalinna meðtalinnar meðtalinni meðtalins meðtalið meðtöldu meðtöldum
+76	5876	innsýn	innsýnar innsýnarinnar innsýnin innsýnina innsýninni
+77	5877	fylling	fyllinga fyllinganna fyllingar fyllingarinnar fyllingarnar fyllingin fyllingu fyllingum fyllinguna fyllingunni fyllingunum
+78	5878	eystri	eystast eystasta eystastan eystastar eystasti eystastir eystastra eystastrar eystastri eystasts eystastur eystra eystust eystustu eystustum
+79	5879	hnefaleikur	hnefaleik hnefaleika hnefaleikana hnefaleikanna hnefaleikar hnefaleikarnir hnefaleikinn hnefaleiknum hnefaleiks hnefaleiksins hnefaleikum hnefaleikunum hnefaleikurinn
+80	5880	sumarhús	sumarhúsa sumarhúsanna sumarhúsi sumarhúsin sumarhúsinu sumarhúsið sumarhúss sumarhússins sumarhúsum sumarhúsunum
+81	5881	bergur	
+82	5882	upplýsingatækni	upplýsingatæknin upplýsingatæknina upplýsingatækninnar upplýsingatækninni
+83	5883	verðugur	verðug verðuga verðugan verðugar verðugast verðugasta verðugastan verðugastar verðugasti verðugastir verðugastra verðugastrar verðugastri verðugasts verðugastur verðugi verðugir verðugra verðugrar verðugri verðugs verðugt verðugu verðugum verðugust verðugustu verðugustum
+84	5884	úlnliður	úlnlið úlnliða úlnliðanna úlnliðar úlnliðarins úlnliði úlnliðina úlnliðinn úlnliðir úlnliðirnir úlnliðnum úlnliðs úlnliðsins úlnliðum úlnliðunum úlnliðurinn
+85	5885	slokkna	slokknandi slokknar slokknað slokknaða slokknaðan slokknaðar slokknaði slokknaðir slokknaðra slokknaðrar slokknaðri slokknaðs slokknaðu slokknaður slokkni slokknir slokknið slokknum slokknuð slokknuðu slokknuðum slokknuðuð
+86	5886	bráðfyndinn	bráðfyndin bráðfyndinna bráðfyndinnar bráðfyndinni bráðfyndins bráðfyndið bráðfyndna bráðfyndnar bráðfyndni bráðfyndnir bráðfyndnu bráðfyndnum
+87	5887	leikhlé	leikhléa leikhléanna leikhléi leikhléin leikhléinu leikhléið leikhlés leikhlésins leikhléum leikhléunum
+88	5888	fámennur	fámenn fámenna fámennan fámennar fámennara fámennari fámennast fámennasta fámennastan fámennastar fámennasti fámennastir fámennastra fámennastrar fámennastri fámennasts fámennastur fámenni fámennir fámennra fámennrar fámennri fámenns fámennt fámennu fámennum fámennust fámennustu fámennustum
+89	5889	eiturefni	eiturefna eiturefnanna eiturefnin eiturefninu eiturefnis eiturefnisins eiturefnið eiturefnum eiturefnunum
+90	5890	kerfisbundinn	kerfisbundin kerfisbundinna kerfisbundinnar kerfisbundinni kerfisbundins kerfisbundið kerfisbundna kerfisbundnar kerfisbundnara kerfisbundnari kerfisbundnast kerfisbundnasta kerfisbundnastan kerfisbundnastar kerfisbundnasti kerfisbundnastir kerfisbundnastra kerfisbundnastrar kerfisbundnastri kerfisbundnasts kerfisbundnastur kerfisbundni kerfisbundnir kerfisbundnu kerfisbundnum kerfisbundnust kerfisbundnustu kerfisbundnustum
+91	5891	yfirráðasvæði	yfirráðasvæða yfirráðasvæðanna yfirráðasvæðin yfirráðasvæðinu yfirráðasvæðis yfirráðasvæðisins yfirráðasvæðið yfirráðasvæðum yfirráðasvæðunum
+92	5892	tékka	tékkandi tékkar tékkast tékkað tékkaða tékkaðan tékkaðar tékkaði tékkaðir tékkaðist tékkaðra tékkaðrar tékkaðri tékkaðs tékkaðu tékkaður tékki tékkir tékkist tékkið tékkum tékkumst tékkuð tékkuðu tékkuðum tékkuðumst tékkuðust tékkuðuð
+93	5893	bútur	bút búta bútana bútanna bútar bútarnir bútinn bútnum búts bútsins bútum bútunum búturinn
+94	5894	ríkissaksóknari	ríkissaksóknara ríkissaksóknarana ríkissaksóknarann ríkissaksóknaranna ríkissaksóknarans ríkissaksóknaranum ríkissaksóknarar ríkissaksóknararnir ríkissaksóknarinn ríkissaksóknurum ríkissaksóknurunum
+95	5895	les	lesa lesanna lesi lesin lesinu lesið less lessins lesum lesunum
+96	5896	orðatiltæki	orðatiltækin orðatiltækinu orðatiltækis orðatiltækisins orðatiltækið orðatiltækja orðatiltækjanna orðatiltækjum orðatiltækjunum
+97	5897	skelfilega	skelfilegar skelfilegast
+98	5898	bassaleikari	bassaleikara bassaleikarana bassaleikarann bassaleikaranna bassaleikarans bassaleikaranum bassaleikarar bassaleikararnir bassaleikarinn bassaleikurum bassaleikurunum
+99	5899	góðverk	góðverka góðverkanna góðverki góðverkin góðverkinu góðverkið góðverks góðverksins góðverkum góðverkunum
+100	5900	samsteypa	samsteypan samsteypanna samsteypna samsteypnanna samsteypu samsteypum samsteypuna samsteypunnar samsteypunni samsteypunum samsteypur samsteypurnar

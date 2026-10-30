@@ -1,0 +1,100 @@
+1	1501	skemmtun	skemmtana skemmtananna skemmtanir skemmtanirnar skemmtunar skemmtunarinnar skemmtunin skemmtunina skemmtuninni skemmtunum skemmtununum
+2	1502	æðri	æðra æðst æðsta æðstan æðstar æðsti æðstir æðstra æðstrar æðstri æðsts æðstu æðstum æðstur
+3	1503	olía	olían olíanna olíu olíum olíuna olíunnar olíunni olíunum olíur olíurnar
+4	1504	gista	gist gistandi gisti gistir gistirðu gistið gistu gistum gistuð
+5	1505	umhverfis	
+6	1506	leyna	leynandi leynast leynd leynda leyndan leyndar leyndi leyndir leyndirðu leyndist leyndra leyndrar leyndri leynds leyndu leyndum leyndumst leyndur leyndust leynduð leyni leynir leynirðu leynist leynið leynst leynt leynum leynumst
+7	1507	hnífur	hníf hnífa hnífana hnífanna hnífar hnífarnir hnífi hnífinn hnífnum hnífs hnífsins hnífum hnífunum hnífurinn
+8	1508	dvelja	dvaldi dvaldir dvaldirðu dvaldist dvalist dvalið dvel dveldi dveldir dveldist dveldistu dveldu dveldum dveldumst dveldust dvelduð dveljandi dveljast dvelji dveljir dveljist dveljistu dveljið dveljum dveljumst dvelst dvelur dvelurðu dvöldu dvöldum dvöldumst dvöldust dvölduð
+9	1509	forstjóri	forstjóra forstjórana forstjórann forstjóranna forstjórans forstjóranum forstjórar forstjórarnir forstjórinn forstjórum forstjórunum
+10	1510	auður	autt auð auða auðan auðar auðara auðari auðast auðasta auðastan auðastar auðasti auðastir auðastra auðastrar auðastri auðasts auðastur auði auðinn auðir auðnum auðra auðrar auðri auðs auðsins auðu auðum auðurinn auðust auðustu auðustum
+11	1511	seyða	seydd seydda seyddan seyddar seyddi seyddir seyddist seyddra seyddrar seyddri seydds seyddu seyddum seyddumst seyddur seyddust seydduð seytt seyðandi seyðast seyði seyðir seyðist seyðið seyðst seyðum seyðumst
+12	1512	for	fora foranna forar forarinnar forin forina forinni forir forirnar forum forunum
+13	1513	kjöt	kjöti kjötinu kjötið kjöts kjötsins
+14	1514	skuggi	skugga skuggana skuggann skugganna skuggans skugganum skuggar skuggarnir skugginn skuggum skuggunum
+15	1515	sífellt	
+16	1516	kjóll	kjól kjóla kjólana kjólanna kjólar kjólarnir kjólinn kjóllinn kjólnum kjóls kjólsins kjólum kjólunum
+17	1517	poki	poka pokana pokann pokanna pokans pokanum pokar pokarnir pokinn pokum pokunum
+18	1518	hönnun	hönnunar hönnunarinnar hönnunin hönnunina hönnuninni
+19	1519	norðan	
+20	1520	lélegur	léleg lélega lélegan lélegar lélegast lélegasta lélegastan lélegastar lélegasti lélegastir lélegastra lélegastrar lélegastri lélegasts lélegastur lélegi lélegir lélegra lélegrar lélegri lélegs lélegt lélegu lélegum lélegust lélegustu lélegustum
+21	1521	vitleysa	vitleysan vitleysanna vitleysu vitleysum vitleysuna vitleysunnar vitleysunni vitleysunum vitleysur vitleysurnar
+22	1522	slóð	slóða slóðanna slóðar slóðarinnar slóðin slóðina slóðinni slóðir slóðirnar slóðum slóðunum
+23	1523	fall	falla fallanna falli fallinu fallið falls fallsins föll föllin föllum föllunum
+24	1524	sannfæra	sannfærandi sannfærast sannfæri sannfærir sannfærist sannfærið sannfærst sannfært sannfærum sannfærumst sannfærð sannfærða sannfærðan sannfærðar sannfærði sannfærðir sannfærðirðu sannfærðist sannfærðra sannfærðrar sannfærðri sannfærðs sannfærðu sannfærðum sannfærðumst sannfærður sannfærðust sannfærðuð
+25	1525	kostnaður	kostnað kostnaðar kostnaðarins kostnaði kostnaðinn kostnaðinum kostnaðnum kostnaðurinn
+26	1526	gulur	gul gula gulan gular gulara gulari gulast gulasta gulastan gulastar gulasti gulastir gulastra gulastrar gulastri gulasts gulastur guli gulir gulra gulrar gulri guls gult gulu gulum gulust gulustu gulustum
+27	1527	kynslóð	kynslóða kynslóðanna kynslóðar kynslóðarinnar kynslóðin kynslóðina kynslóðinni kynslóðir kynslóðirnar kynslóðum kynslóðunum
+28	1528	giftur	giftan giftar gifti giftir giftra giftrar giftri gifts giftu giftum
+29	1529	tákna	táknandi táknar táknast táknað táknaða táknaðan táknaðar táknaði táknaðir táknaðist táknaðra táknaðrar táknaðri táknaðs táknaðu táknaður tákni táknir táknist táknið táknum táknumst táknuð táknuðu táknuðum táknuðumst táknuðust táknuðuð
+30	1530	sjaldan	sjaldnar sjaldnast
+31	1531	stækka	stækkandi stækkar stækkast stækkað stækkaða stækkaðan stækkaðar stækkaði stækkaðir stækkaðist stækkaðra stækkaðrar stækkaðri stækkaðs stækkaðu stækkaður stækki stækkir stækkist stækkið stækkum stækkumst stækkuð stækkuðu stækkuðum stækkuðumst stækkuðust stækkuðuð
+32	1532	blaðsíða	blaðsíðan blaðsíðna blaðsíðnanna blaðsíðu blaðsíðum blaðsíðuna blaðsíðunnar blaðsíðunni blaðsíðunum blaðsíður blaðsíðurnar
+33	1533	liður	lið liða liðanna liðar liðarins liði liðina liðinn liðinnar liðir liðirnir liðnum liðs liðsins liðum liðunum liðurinn
+34	1534	þorp	þorpa þorpanna þorpi þorpin þorpinu þorpið þorps þorpsins þorpum þorpunum
+35	1535	sturta	sturtan sturtandi sturtanna sturtar sturtast sturtað sturtaða sturtaðan sturtaðar sturtaði sturtaðir sturtaðist sturtaðra sturtaðrar sturtaðri sturtaðs sturtaðu sturtaður sturti sturtir sturtist sturtið sturtna sturtnanna sturtu sturtum sturtumst sturtuna sturtunnar sturtunni sturtunum sturtur sturturnar sturtuð sturtuðu sturtuðum sturtuðumst sturtuðust sturtuðuð
+36	1536	grín	gríni gríninu grínið gríns grínsins
+37	1537	klúðra	klúðrandi klúðrar klúðrarðu klúðrast klúðrað klúðraða klúðraðan klúðraðar klúðraði klúðraðir klúðraðirðu klúðraðist klúðraðra klúðraðrar klúðraðri klúðraðs klúðraðu klúðraður klúðri klúðrir klúðrist klúðrið klúðrum klúðrumst klúðruð klúðruðu klúðruðum klúðruðumst klúðruðust klúðruðuð
+38	1538	stjórnmál	stjórnmála stjórnmálanna stjórnmálin stjórnmálum stjórnmálunum
+39	1539	fær	færa færan færar færara færari færast færasta færastan færastar færasti færastir færastra færastrar færastri færasts færastur færi færir færra færrar færri færs fært færu færum færust færustu færustum
+40	1540	þreyta	þreyst þreytan þreytandi þreytast þreyti þreytir þreytist þreytistu þreytið þreytt þreytta þreyttan þreyttar þreytti þreyttir þreyttist þreyttra þreyttrar þreyttri þreytts þreyttu þreyttum þreyttumst þreyttur þreyttust þreyttuð þreytu þreytum þreytumst þreytuna þreytunnar þreytunni
+41	1541	spor	spora sporanna spori sporin sporinu sporið spors sporsins sporum sporunum
+42	1542	tímarit	tímarita tímaritanna tímariti tímaritin tímaritinu tímaritið tímarits tímaritsins tímaritum tímaritunum
+43	1543	myndband	myndbanda myndbandanna myndbandi myndbandinu myndbandið myndbands myndbandsins myndbönd myndböndin myndböndum myndböndunum
+44	1544	vagn	vagna vagnana vagnanna vagnar vagnarnir vagni vagninn vagninum vagns vagnsins vögnum vögnunum
+45	1545	fyrirmæli	fyrirmæla fyrirmælanna fyrirmælin fyrirmælum fyrirmælunum
+46	1546	tak	taka takanna taki takinu takið taks taksins tök tökin tökum tökunum
+47	1547	landamæri	landamæra landamæranna landamærin landamærum landamærunum
+48	1548	kjaftur	kjaft kjafta kjaftana kjaftanna kjaftar kjaftarnir kjafti kjaftinn kjaftinum kjafts kjaftsins kjafturinn kjöftum kjöftunum
+49	1549	forrit	forrita forritanna forriti forritin forritinu forritið forrits forritsins forritum forritunum
+50	1550	van	vani vans
+51	1551	tal	tala talanna tali talinu talið tals talsins töl tölin tölum tölunum
+52	1552	ólafsson	ólafssonar ólafssyni
+53	1553	flokka	flokkandi flokkar flokkast flokkað flokkaða flokkaðan flokkaðar flokkaði flokkaðir flokkaðist flokkaðra flokkaðrar flokkaðri flokkaðs flokkaðu flokkaður flokki flokkir flokkist flokkið flokkum flokkumst flokkuð flokkuðu flokkuðum flokkuðumst flokkuðust flokkuðuð
+54	1554	farþegi	farþega farþegana farþegann farþeganna farþegans farþeganum farþegar farþegarnir farþeginn farþegum farþegunum
+55	1555	vitlaus	vitlausa vitlausan vitlausar vitlausara vitlausari vitlausast vitlausasta vitlausastan vitlausastar vitlausasti vitlausastir vitlausastra vitlausastrar vitlausastri vitlausasts vitlausastur vitlausi vitlausir vitlausra vitlausrar vitlausri vitlauss vitlaust vitlausu vitlausum vitlausust vitlausustu vitlausustum
+56	1556	bragð	bragða bragðanna bragði bragðinu bragðið bragðs bragðsins brögð brögðin brögðum brögðunum
+57	1557	fjarlægja	fjarlægi fjarlægir fjarlægist fjarlægið fjarlægjandi fjarlægjast fjarlægjum fjarlægjumst fjarlægst fjarlægt fjarlægð fjarlægða fjarlægðan fjarlægðar fjarlægði fjarlægðir fjarlægðirðu fjarlægðist fjarlægðra fjarlægðrar fjarlægðri fjarlægðs fjarlægðu fjarlægðum fjarlægðumst fjarlægður fjarlægðust fjarlægðuð
+58	1558	toga	togandi togar togarðu togast togað togaða togaðan togaðar togaði togaðir togaðirðu togaðist togaðra togaðrar togaðri togaðs togaðu togaður togi togir togist togið togum togumst toguð toguðu toguðum toguðumst toguðust toguðuð
+59	1559	yfirvald	yfirvalda yfirvaldanna yfirvaldi yfirvaldinu yfirvaldið yfirvalds yfirvaldsins yfirvöld yfirvöldin yfirvöldum yfirvöldunum
+60	1560	græða	grædd grædda græddan græddar græddi græddir græddirðu græddist græddra græddrar græddri grædds græddu græddum græddumst græddur græddust grædduð grætt græðan græðandi græðanna græðast græði græðir græðirðu græðist græðið græðna græðnanna græðst græðu græðum græðumst græðuna græðunnar græðunni græðunum græður græðurnar
+61	1561	einkenni	einkenna einkennanna einkennin einkenninu einkennis einkennisins einkennið einkennum einkennunum
+62	1562	laugardagur	laugardag laugardaga laugardagana laugardaganna laugardagar laugardagarnir laugardaginn laugardags laugardagsins laugardagurinn laugardegi laugardeginum laugardögum laugardögunum
+63	1563	neikvæður	neikvætt neikvæð neikvæða neikvæðan neikvæðar neikvæðara neikvæðari neikvæðast neikvæðasta neikvæðastan neikvæðastar neikvæðasti neikvæðastir neikvæðastra neikvæðastrar neikvæðastri neikvæðasts neikvæðastur neikvæði neikvæðir neikvæðra neikvæðrar neikvæðri neikvæðs neikvæðu neikvæðum neikvæðust neikvæðustu neikvæðustum
+64	1564	eiginleiki	eiginleika eiginleikana eiginleikann eiginleikanna eiginleikans eiginleikanum eiginleikar eiginleikarnir eiginleikinn eiginleikum eiginleikunum
+65	1565	ráðstefna	ráðstefnan ráðstefnanna ráðstefnu ráðstefnum ráðstefnuna ráðstefnunnar ráðstefnunni ráðstefnunum ráðstefnur ráðstefnurnar
+66	1566	mattur	matt matta mattan mattar mattara mattari mattast mattasta mattastan mattastar mattasti mattastir mattastra mattastrar mattastri mattasts mattastur matti mattir mattra mattrar mattri matts mött möttu möttum möttust möttustu möttustum
+67	1567	viðbragð	viðbragða viðbragðanna viðbragði viðbragðinu viðbragðið viðbragðs viðbragðsins viðbrögð viðbrögðin viðbrögðum viðbrögðunum
+68	1568	ofbeldi	ofbeldinu ofbeldis ofbeldisins ofbeldið
+69	1569	þrífa	þreif þreifst þreifstu þrifi þrifin þrifinn þrifinna þrifinnar þrifinni þrifins þrifir þrifirðu þrifist þrifistu þrifið þrifna þrifnar þrifni þrifnir þrifnu þrifnum þrifu þrifum þrifumst þrifust þrifuð þríf þrífandi þrífast þrífi þrífir þrífirðu þrífist þrífistu þrífið þrífst þrífstu þrífum þrífumst þrífur þrífurðu þrífðu
+70	1570	persónulegur	persónuleg persónulega persónulegan persónulegar persónulegast persónulegasta persónulegastan persónulegastar persónulegasti persónulegastir persónulegastra persónulegastrar persónulegastri persónulegasts persónulegastur persónulegi persónulegir persónulegra persónulegrar persónulegri persónulegs persónulegt persónulegu persónulegum persónulegust persónulegustu persónulegustum
+71	1571	lögreglumaður	lögreglumann lögreglumanna lögreglumannanna lögreglumanni lögreglumanninn lögreglumanninum lögreglumanns lögreglumannsins lögreglumaðurinn lögreglumenn lögreglumennina lögreglumennirnir lögreglumönnum lögreglumönnunum
+72	1572	erindi	erinda erindanna erindin erindinu erindis erindisins erindið erindum erindunum
+73	1573	merkilegur	merkileg merkilega merkilegan merkilegar merkilegast merkilegasta merkilegastan merkilegastar merkilegasti merkilegastir merkilegastra merkilegastrar merkilegastri merkilegasts merkilegastur merkilegi merkilegir merkilegra merkilegrar merkilegri merkilegs merkilegt merkilegu merkilegum merkilegust merkilegustu merkilegustum
+74	1574	buxur	buxna buxnanna buxum buxunum buxurnar
+75	1575	vakt	vakta vaktanna vaktar vaktarinnar vaktin vaktina vaktinni vaktir vaktirnar vöktum vöktunum
+76	1576	forn	forna fornan fornar fornara fornari fornast fornasta fornastan fornastar fornasti fornastir fornastra fornastrar fornastri fornasts fornastur forni fornir fornra fornrar fornri forns fornt fornu fornum fornust fornustu fornustum
+77	1577	mikinn	
+78	1578	skítur	skít skíta skítanna skíti skítina skítinn skítir skítirnir skítnum skíts skítsins skítum skítunum skíturinn
+79	1579	djúpur	djúp djúpa djúpan djúpar djúpi djúpir djúpra djúprar djúpri djúps djúpt djúpu djúpum dýpra dýpri dýpst dýpsta dýpstan dýpstar dýpsti dýpstir dýpstra dýpstrar dýpstri dýpsts dýpstu dýpstum dýpstur
+80	1580	daglega	
+81	1581	toppur	topp toppa toppana toppanna toppar topparnir toppi toppinn toppinum toppnum topps toppsins toppum toppunum toppurinn
+82	1582	stutt	styst styttra
+83	1583	hershöfðingi	hershöfðinginn hershöfðingja hershöfðingjana hershöfðingjann hershöfðingjanna hershöfðingjans hershöfðingjanum hershöfðingjar hershöfðingjarnir hershöfðingjum hershöfðingjunum
+84	1584	brátt	bráðar bráðara bráðast
+85	1585	séra	sera sérana sérann séranna sérans séranum sérar sérarnir sérum sérunum
+86	1586	hengja	hengd hengda hengdan hengdar hengdi hengdir hengdirðu hengdist hengdra hengdrar hengdri hengds hengdu hengdum hengdumst hengdur hengdust hengduð hengi hengir hengirðu hengist hengið hengjan hengjandi hengjanna hengjast hengju hengjum hengjumst hengjuna hengjunnar hengjunni hengjunum hengjur hengjurnar hengna hengnanna hengst hengt
+87	1587	leiðinlegur	leiðinleg leiðinlega leiðinlegan leiðinlegar leiðinlegast leiðinlegasta leiðinlegastan leiðinlegastar leiðinlegasti leiðinlegastir leiðinlegastra leiðinlegastrar leiðinlegastri leiðinlegasts leiðinlegastur leiðinlegi leiðinlegir leiðinlegra leiðinlegrar leiðinlegri leiðinlegs leiðinlegt leiðinlegu leiðinlegum leiðinlegust leiðinlegustu leiðinlegustum
+88	1588	vísindi	vísinda vísindanna vísindin vísindum vísindunum
+89	1589	staðreynd	staðreynda staðreyndanna staðreyndar staðreyndarinnar staðreyndin staðreyndina staðreyndinni staðreyndir staðreyndirnar staðreyndum staðreyndunum
+90	1590	fátækur	fátæk fátæka fátækan fátækar fátækara fátækari fátækast fátækasta fátækastan fátækastar fátækasti fátækastir fátækastra fátækastrar fátækastri fátækasts fátækastur fátæki fátækir fátækra fátækrar fátækri fátæks fátækt fátæku fátækum fátækust fátækustu fátækustum
+91	1591	rakur	raka rakan rakar rakara rakari rakast rakasta rakastan rakastar rakasti rakastir rakastra rakastrar rakastri rakasts rakastur raki rakir rakra rakrar rakri raks rakt rök rökin röku rökum rökust rökustu rökustum
+92	1592	framkvæma	framkvæmandi framkvæmast framkvæmd framkvæmda framkvæmdan framkvæmdar framkvæmdi framkvæmdir framkvæmdist framkvæmdra framkvæmdrar framkvæmdri framkvæmds framkvæmdu framkvæmdum framkvæmdumst framkvæmdur framkvæmdust framkvæmduð framkvæmi framkvæmir framkvæmirðu framkvæmist framkvæmið framkvæmst framkvæmt framkvæmum framkvæmumst
+93	1593	rússneskur	rússnesk rússneska rússneskan rússneskar rússneskara rússneskari rússneskast rússneskasta rússneskastan rússneskastar rússneskasti rússneskastir rússneskastra rússneskastrar rússneskastri rússneskasts rússneskastur rússneski rússneskir rússneskra rússneskrar rússneskri rússnesks rússneskt rússnesku rússneskum rússneskust rússneskustu rússneskustum
+94	1594	framleiðandi	framleiðanda framleiðandann framleiðandans framleiðandanum framleiðandinn framleiðenda framleiðendanna framleiðendum framleiðendunum framleiðendur framleiðendurna framleiðendurnir
+95	1595	klúbbur	klúbb klúbba klúbbana klúbbanna klúbbar klúbbarnir klúbbi klúbbinn klúbbnum klúbbs klúbbsins klúbbum klúbbunum klúbburinn
+96	1596	sannleikur	sannleik sannleikinn sannleiknum sannleiks sannleiksins sannleikurinn
+97	1597	auglýsing	auglýsinga auglýsinganna auglýsingar auglýsingarinnar auglýsingarnar auglýsingin auglýsingu auglýsingum auglýsinguna auglýsingunni auglýsingunum
+98	1598	hylja	hulda huldar huldi huldir huldist huldu huldum huldumst huldust hulduð hulin hulinn hulinna hulinnar hulinni hulins hulist hulið hyl hyldi hyldir hyldist hyldu hyldum hyldumst hyldust hylduð hyljandi hyljast hylji hyljir hyljist hyljið hyljum hyljumst hylst hylur
+99	1599	ákæra	ákæran ákærandi ákæranna ákærast ákæri ákærir ákærirðu ákærist ákærið ákærst ákært ákæru ákærum ákærumst ákæruna ákærunnar ákærunni ákærunum ákærur ákærurnar ákærð ákærða ákærðan ákærðar ákærði ákærðir ákærðist ákærðra ákærðrar ákærðri ákærðs ákærðu ákærðum ákærðumst ákærður ákærðust ákærðuð
+100	1600	gólf	gólfa gólfanna gólfi gólfin gólfinu gólfið gólfs gólfsins gólfum gólfunum

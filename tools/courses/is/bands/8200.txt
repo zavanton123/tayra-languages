@@ -1,0 +1,100 @@
+1	8101	afmá	afmáandi afmái afmáir afmáist afmáið afmást afmáum afmáumst afmáð afmáða afmáðan afmáðar afmáði afmáðir afmáðist afmáðra afmáðrar afmáðri afmáðs afmáðst afmáðu afmáðum afmáðumst afmáður afmáðust afmáðuð
+2	8102	skúlptúr	skúlptúra skúlptúrana skúlptúranna skúlptúrar skúlptúrarnir skúlptúrinn skúlptúrnum skúlptúrs skúlptúrsins skúlptúrum skúlptúrunum
+3	8103	brenglaður	brenglað brenglaða brenglaðan brenglaðar brenglaðast brenglaðasta brenglaðastan brenglaðastar brenglaðasti brenglaðastir brenglaðastra brenglaðastrar brenglaðastri brenglaðasts brenglaðastur brenglaði brenglaðir brenglaðra brenglaðrar brenglaðri brenglaðs brengluð brengluðu brengluðum brengluðust brengluðustu brengluðustum
+4	8104	gigg	gigga gigganna giggi giggin gigginu giggið giggs giggsins giggum giggunum
+5	8105	óbeit	óbeitar óbeitarinnar óbeitin óbeitina óbeitinni
+6	8106	rúmmetri	rúmmetra rúmmetrana rúmmetrann rúmmetranna rúmmetrans rúmmetranum rúmmetrar rúmmetrarnir rúmmetrinn rúmmetrum rúmmetrunum
+7	8107	sköpunarverk	sköpunarverka sköpunarverkanna sköpunarverki sköpunarverkin sköpunarverkinu sköpunarverkið sköpunarverks sköpunarverksins sköpunarverkum sköpunarverkunum
+8	8108	strauja	straui strauir strauist strauið straujandi straujar straujast straujað straujaða straujaðan straujaðar straujaði straujaðir straujaðist straujaðra straujaðrar straujaðri straujaðs straujaðu straujaður straujum straujumst straujuð straujuðu straujuðum straujuðumst straujuðust straujuðuð
+9	8109	geiri	geira geirana geirann geiranna geirans geiranum geirar geirarnir geirinn geirum geirunum
+10	8110	guðlegur	guðleg guðlega guðlegan guðlegar guðlegast guðlegasta guðlegastan guðlegastar guðlegasti guðlegastir guðlegastra guðlegastrar guðlegastri guðlegasts guðlegastur guðlegi guðlegir guðlegra guðlegrar guðlegri guðlegs guðlegt guðlegu guðlegum guðlegust guðlegustu guðlegustum
+11	8111	dauðarefsing	dauðarefsinga dauðarefsinganna dauðarefsingar dauðarefsingarinnar dauðarefsingarnar dauðarefsingin dauðarefsingu dauðarefsingum dauðarefsinguna dauðarefsingunni dauðarefsingunum
+12	8112	steðja	steðjandi steðjar steðjað steðjaði steðjaðir steðjaðu steðji steðjir steðjið steðjum steðjuðu steðjuðum steðjuðuð
+13	8113	hljóðfæraleikari	hljóðfæraleikara hljóðfæraleikarana hljóðfæraleikarann hljóðfæraleikaranna hljóðfæraleikarans hljóðfæraleikaranum hljóðfæraleikarar hljóðfæraleikararnir hljóðfæraleikarinn hljóðfæraleikurum hljóðfæraleikurunum
+14	8114	vímuefni	vímuefna vímuefnanna vímuefnin vímuefninu vímuefnis vímuefnisins vímuefnið vímuefnum vímuefnunum
+15	8115	meginhluti	meginhluta meginhlutana meginhlutann meginhlutanna meginhlutans meginhlutanum meginhlutar meginhlutarnir meginhlutinn meginhlutum meginhlutunum
+16	8116	upptalning	upptalninga upptalninganna upptalningar upptalningarinnar upptalningarnar upptalningin upptalningu upptalningum upptalninguna upptalningunni upptalningunum
+17	8117	uppfullur	uppfull uppfulla uppfullan uppfullar uppfulli uppfullir uppfullra uppfullrar uppfullri uppfulls uppfullt uppfullu uppfullum
+18	8118	naumt	naumar naumast
+19	8119	endurstilla	endurstillandi endurstillast endurstilli endurstillir endurstillið endurstillst endurstillt endurstillta endurstilltan endurstilltar endurstillti endurstilltir endurstilltra endurstilltrar endurstilltri endurstillts endurstilltu endurstilltum endurstilltur endurstilltuð endurstillum
+20	8120	rökfræði	rökfræðin rökfræðina rökfræðinnar rökfræðinni
+21	8121	ákvarðanataka	ákvarðanatakan ákvarðanatöku ákvarðanatökuna ákvarðanatökunnar ákvarðanatökunni
+22	8122	lúmskur	lúmsk lúmska lúmskan lúmskar lúmskara lúmskari lúmskast lúmskasta lúmskastan lúmskastar lúmskasti lúmskastir lúmskastra lúmskastrar lúmskastri lúmskasts lúmskastur lúmski lúmskir lúmskra lúmskrar lúmskri lúmsks lúmskt lúmsku lúmskum lúmskust lúmskustu lúmskustum
+23	8123	ryksuga	ryksugan ryksugandi ryksugar ryksugast ryksugað ryksugaða ryksugaðan ryksugaðar ryksugaði ryksugaðir ryksugaðist ryksugaðra ryksugaðrar ryksugaðri ryksugaðs ryksugaðu ryksugaður ryksugi ryksugir ryksugist ryksugið ryksugna ryksugnanna ryksugu ryksugum ryksugumst ryksuguna ryksugunnar ryksugunni ryksugunum ryksugur ryksugurnar ryksuguð ryksuguðu ryksuguðum ryksuguðumst ryksuguðust ryksuguðuð
+24	8124	viðskiptafræðingur	viðskiptafræðing viðskiptafræðinga viðskiptafræðingana viðskiptafræðinganna viðskiptafræðingar viðskiptafræðingarnir viðskiptafræðingi viðskiptafræðinginn viðskiptafræðingnum viðskiptafræðings viðskiptafræðingsins viðskiptafræðingum viðskiptafræðingunum viðskiptafræðingurinn
+25	8125	afbrigðilegur	afbrigðileg afbrigðilega afbrigðilegan afbrigðilegar afbrigðilegast afbrigðilegasta afbrigðilegastan afbrigðilegastar afbrigðilegasti afbrigðilegastir afbrigðilegastra afbrigðilegastrar afbrigðilegastri afbrigðilegasts afbrigðilegastur afbrigðilegi afbrigðilegir afbrigðilegra afbrigðilegrar afbrigðilegri afbrigðilegs afbrigðilegt afbrigðilegu afbrigðilegum afbrigðilegust afbrigðilegustu afbrigðilegustum
+26	8126	kvenlegur	kvenleg kvenlega kvenlegan kvenlegar kvenlegast kvenlegasta kvenlegastan kvenlegastar kvenlegasti kvenlegastir kvenlegastra kvenlegastrar kvenlegastri kvenlegasts kvenlegastur kvenlegi kvenlegir kvenlegra kvenlegrar kvenlegri kvenlegs kvenlegt kvenlegu kvenlegum kvenlegust kvenlegustu kvenlegustum
+27	8127	planki	planka plankana plankann plankanna plankans plankanum plankar plankarnir plankinn plönkum plönkunum
+28	8128	systa	systan systu systuna systunnar systunni
+29	8129	dauðþreyttur	dauðþreytt dauðþreytta dauðþreyttan dauðþreyttar dauðþreytti dauðþreyttir dauðþreyttra dauðþreyttrar dauðþreyttri dauðþreytts dauðþreyttu dauðþreyttum
+30	8130	sálufélagi	sálufélaga sálufélagana sálufélagann sálufélaganna sálufélagans sálufélaganum sálufélagar sálufélagarnir sálufélaginn sálufélögum sálufélögunum
+31	8131	óboðinn	óboðin óboðinna óboðinnar óboðinni óboðins óboðið óboðna óboðnar óboðni óboðnir óboðnu óboðnum
+32	8132	grenjuskjóða	grenjuskjóðan grenjuskjóðanna grenjuskjóðna grenjuskjóðnanna grenjuskjóðu grenjuskjóðum grenjuskjóðuna grenjuskjóðunnar grenjuskjóðunni grenjuskjóðunum grenjuskjóður grenjuskjóðurnar
+33	8133	brimbretti	brimbretta brimbrettanna brimbrettin brimbrettinu brimbrettis brimbrettisins brimbrettið brimbrettum brimbrettunum
+34	8134	kauði	kauða kauðana kauðann kauðanna kauðans kauðanum kauðar kauðarnir kauðinn kauðum kauðunum
+35	8135	hamstur	hamstra hamstrana hamstranna hamstrar hamstrarnir hamstri hamstrinu hamstrinum hamstrið hamsturinn hamsturs hamstursins hömstrum hömstrunum
+36	8136	ógnvænlegur	ógnvænleg ógnvænlega ógnvænlegan ógnvænlegar ógnvænlegast ógnvænlegasta ógnvænlegastan ógnvænlegastar ógnvænlegasti ógnvænlegastir ógnvænlegastra ógnvænlegastrar ógnvænlegastri ógnvænlegasts ógnvænlegastur ógnvænlegi ógnvænlegir ógnvænlegra ógnvænlegrar ógnvænlegri ógnvænlegs ógnvænlegt ógnvænlegu ógnvænlegum ógnvænlegust ógnvænlegustu ógnvænlegustum
+37	8137	lessa	lessan lessanna lessu lessum lessuna lessunnar lessunni lessunum lessur lessurnar
+38	8138	höfuðkúpa	höfuðkúpan höfuðkúpanna höfuðkúpna höfuðkúpnanna höfuðkúpu höfuðkúpum höfuðkúpuna höfuðkúpunnar höfuðkúpunni höfuðkúpunum höfuðkúpur höfuðkúpurnar
+39	8139	öryggishólf	öryggishólfa öryggishólfanna öryggishólfi öryggishólfin öryggishólfinu öryggishólfið öryggishólfs öryggishólfsins öryggishólfum öryggishólfunum
+40	8140	dulbúa	dulbjuggu dulbjuggum dulbjuggumst dulbjuggust dulbjugguð dulbjó dulbjóst dulbjóstu dulbyggi dulbyggir dulbyggirðu dulbyggist dulbyggistu dulbyggju dulbyggjum dulbyggjumst dulbyggjust dulbyggjuð dulbúandi dulbúast dulbúi dulbúin dulbúinn dulbúinna dulbúinnar dulbúinni dulbúins dulbúir dulbúirðu dulbúist dulbúistu dulbúið dulbúna dulbúnar dulbúni dulbúnir dulbúnu dulbúnum dulbústu dulbúum dulbúumst dulbúðu dulbý dulbýr dulbýrð dulbýrðu dulbýst dulbýstu
+41	8141	stjórnlagaráð	stjórnlagaráða stjórnlagaráðanna stjórnlagaráði stjórnlagaráðin stjórnlagaráðinu stjórnlagaráðið stjórnlagaráðs stjórnlagaráðsins stjórnlagaráðum stjórnlagaráðunum
+42	8142	hæfileikakeppni	hæfileikakeppna hæfileikakeppnanna hæfileikakeppnin hæfileikakeppnina hæfileikakeppninnar hæfileikakeppninni hæfileikakeppnir hæfileikakeppnirnar hæfileikakeppnum hæfileikakeppnunum
+43	8143	lágvaxinn	lágvaxin lágvaxinna lágvaxinnar lágvaxinni lágvaxins lágvaxið lágvaxna lágvaxnar lágvaxnara lágvaxnari lágvaxnast lágvaxnasta lágvaxnastan lágvaxnastar lágvaxnasti lágvaxnastir lágvaxnastra lágvaxnastrar lágvaxnastri lágvaxnasts lágvaxnastur lágvaxni lágvaxnir lágvöxnu lágvöxnum lágvöxnust lágvöxnustu lágvöxnustum
+44	8144	hrollvekjandi	
+45	8145	liðsstjóri	liðsstjóra liðsstjórana liðsstjórann liðsstjóranna liðsstjórans liðsstjóranum liðsstjórar liðsstjórarnir liðsstjórinn liðsstjórum liðsstjórunum
+46	8146	deiliskipulag	deiliskipulagi deiliskipulaginu deiliskipulagið deiliskipulags deiliskipulagsins
+47	8147	landsréttur	landsrétt landsréttar landsréttarins landsrétti landsréttinn landsréttinum landsrétturinn
+48	8148	fullvaxta	
+49	8149	hugarlund	hugarlundar hugarlundarinnar hugarlundin hugarlundina hugarlundinni
+50	8150	kennslustofa	kennslustofan kennslustofanna kennslustofu kennslustofum kennslustofuna kennslustofunnar kennslustofunni kennslustofunum kennslustofur kennslustofurnar
+51	8151	stofnfundur	stofnfund stofnfunda stofnfundanna stofnfundar stofnfundarins stofnfundi stofnfundina stofnfundinn stofnfundinum stofnfundir stofnfundirnir stofnfundum stofnfundunum stofnfundurinn
+52	8152	eftirmaður	eftirmann eftirmanna eftirmannanna eftirmanni eftirmanninn eftirmanninum eftirmanns eftirmannsins eftirmaðurinn eftirmenn eftirmennina eftirmennirnir eftirmönnum eftirmönnunum
+53	8153	glundroði	glundroða glundroðana glundroðann glundroðanna glundroðans glundroðanum glundroðar glundroðarnir glundroðinn glundroðum glundroðunum
+54	8154	stórbrotinn	stórbrotin stórbrotinna stórbrotinnar stórbrotinni stórbrotins stórbrotið stórbrotna stórbrotnar stórbrotnara stórbrotnari stórbrotnast stórbrotnasta stórbrotnastan stórbrotnastar stórbrotnasti stórbrotnastir stórbrotnastra stórbrotnastrar stórbrotnastri stórbrotnasts stórbrotnastur stórbrotni stórbrotnir stórbrotnu stórbrotnum stórbrotnust stórbrotnustu stórbrotnustum
+55	8155	volt	volta voltanna volti voltin voltinu voltið volts voltsins voltum voltunum
+56	8156	hógvær	hógværa hógværan hógværar hógværara hógværari hógværast hógværasta hógværastan hógværastar hógværasti hógværastir hógværastra hógværastrar hógværastri hógværasts hógværastur hógværi hógværir hógværra hógværrar hógværri hógværs hógvært hógværu hógværum hógværust hógværustu hógværustum
+57	8157	fótbrjóta	fótbraust fótbraut fótbrjótandi fótbrjóti fótbrjótir fótbrjótið fótbrjóttu fótbrjótum fótbrotin fótbrotinn fótbrotinna fótbrotinnar fótbrotinni fótbrotins fótbrotið fótbrotna fótbrotnar fótbrotni fótbrotnir fótbrotnu fótbrotnum fótbrutu fótbrutum fótbrutuð fótbryti fótbrytir fótbrytu fótbrytum fótbrytuð fótbrýt fótbrýtur
+58	8158	getgáta	getgátan getgátanna getgátna getgátnanna getgátu getgátum getgátuna getgátunnar getgátunni getgátunum getgátur getgáturnar
+59	8159	sís	
+60	8160	roð	roða roðanna roði roðin roðinu roðið roðs roðsins roðum roðunum
+61	8161	menningarheimur	menningarheim menningarheima menningarheimana menningarheimanna menningarheimar menningarheimarnir menningarheimi menningarheiminn menningarheiminum menningarheims menningarheimsins menningarheimum menningarheimunum menningarheimurinn
+62	8162	skart	skarti skartinu skartið skarts skartsins
+63	8163	tangó	tangóa tangóana tangóanna tangóar tangóarnir tangói tangóinn tangóinum tangónum tangós tangósins tangóum tangóunum
+64	8164	sætindi	sætinda sætindanna sætindin sætindum sætindunum
+65	8165	hremming	hremminga hremminganna hremmingar hremmingarinnar hremmingarnar hremmingin hremmingu hremmingum hremminguna hremmingunni hremmingunum
+66	8166	ljúfa	ljúfan ljúfanna ljúfu ljúfum ljúfuna ljúfunnar ljúfunni ljúfunum ljúfur ljúfurnar
+67	8167	beiskur	beisk beiska beiskan beiskar beiskara beiskari beiskast beiskasta beiskastan beiskastar beiskasti beiskastir beiskastra beiskastrar beiskastri beiskasts beiskastur beiski beiskir beiskra beiskrar beiskri beisks beiskt beisku beiskum beiskust beiskustu beiskustum
+68	8168	lostætur	lostæt lostæta lostætan lostætar lostætara lostætari lostætast lostætasta lostætastan lostætastar lostætasti lostætastir lostætastra lostætastrar lostætastri lostætasts lostætastur lostæti lostætir lostætra lostætrar lostætri lostæts lostætt lostætu lostætum lostætust lostætustu lostætustum
+69	8169	einkabarn	einkabarna einkabarnanna einkabarni einkabarninu einkabarnið einkabarns einkabarnsins einkabörn einkabörnin einkabörnum einkabörnunum
+70	8170	útistaða	útistaðan útistaðanna útistaðna útistaðnanna útistöðu útistöðum útistöðuna útistöðunnar útistöðunni útistöðunum útistöður útistöðurnar
+71	8171	gróðurhús	gróðurhúsa gróðurhúsanna gróðurhúsi gróðurhúsin gróðurhúsinu gróðurhúsið gróðurhúss gróðurhússins gróðurhúsum gróðurhúsunum
+72	8172	sorglega	sorglegar sorglegast
+73	8173	afskiptur	afskipt afskipta afskiptan afskiptar afskiptara afskiptari afskiptast afskiptasta afskiptastan afskiptastar afskiptasti afskiptastir afskiptastra afskiptastrar afskiptastri afskiptasts afskiptastur afskipti afskiptir afskiptra afskiptrar afskiptri afskipts afskiptu afskiptum afskiptust afskiptustu afskiptustum
+74	8174	insúlín	insúlíni insúlíninu insúlínið insúlíns insúlínsins
+75	8175	tækniþróun	tækniþróunar tækniþróunarinnar tækniþróunin tækniþróunina tækniþróuninni
+76	8176	dofinn	dofin dofinna dofinnar dofinni dofins dofið dofna dofnar dofnara dofnari dofnast dofnasta dofnastan dofnastar dofnasti dofnastir dofnastra dofnastrar dofnastri dofnasts dofnastur dofni dofnir dofnu dofnum dofnust dofnustu dofnustum
+77	8177	klína	klínandi klínast klínd klínda klíndan klíndar klíndi klíndir klíndist klíndra klíndrar klíndri klínds klíndu klíndum klíndumst klíndur klíndust klínduð klíni klínir klínist klínið klínst klínt klínum klínumst
+78	8178	lúðrasveit	lúðrasveita lúðrasveitanna lúðrasveitar lúðrasveitarinnar lúðrasveitin lúðrasveitina lúðrasveitinni lúðrasveitir lúðrasveitirnar lúðrasveitum lúðrasveitunum
+79	8179	málþing	málþinga málþinganna málþingi málþingin málþinginu málþingið málþings málþingsins málþingum málþingunum
+80	8180	malbik	malbiki malbikinu malbikið malbiks malbiksins
+81	8181	jarðgöng	jarðganga jarðganganna jarðgöngin jarðgöngum jarðgöngunum
+82	8182	skringilega	
+83	8183	gunnur	gunnar gunnarinnar gunni gunnina gunninni gunnurin
+84	8184	landssamtök	landssamtaka landssamtakanna landssamtökin landssamtökum landssamtökunum
+85	8185	sívaxandi	
+86	8186	háski	háska háskana háskann háskanna háskans háskanum háskar háskarnir háskinn háskum háskunum
+87	8187	vers	versa versanna versi versin versins versinu versið versum versunum
+88	8188	loftbóla	loftbólan loftbólanna loftbólna loftbólnanna loftbólu loftbólum loftbóluna loftbólunnar loftbólunni loftbólunum loftbólur loftbólurnar
+89	8189	útrunninn	útrunna útrunnar útrunni útrunnin útrunninna útrunninnar útrunninni útrunnins útrunnir útrunnið útrunnu útrunnum
+90	8190	klisja	klisjan klisjanna klisju klisjum klisjuna klisjunnar klisjunni klisjunum klisjur klisjurnar
+91	8191	þræta	þrætan þrætandi þrætanna þræti þrætir þrætið þrætt þrætti þrættir þrættu þrættum þrættuð þrætu þrætum þrætuna þrætunnar þrætunni þrætunum þrætur þræturnar
+92	8192	einatt	
+93	8193	snúra	snúran snúranna snúru snúrum snúruna snúrunnar snúrunni snúrunum snúrur snúrurnar
+94	8194	tannkrem	tannkrema tannkremanna tannkremi tannkremin tannkreminu tannkremið tannkrems tannkremsins tannkremum tannkremunum
+95	8195	nefndarmaður	nefndarmann nefndarmanna nefndarmannanna nefndarmanni nefndarmanninn nefndarmanninum nefndarmanns nefndarmannsins nefndarmaðurinn nefndarmenn nefndarmennina nefndarmennirnir nefndarmönnum nefndarmönnunum
+96	8196	kveðskapur	kveðskap kveðskapar kveðskaparins kveðskapinn kveðskapnum kveðskapurinn
+97	8197	réttilega	
+98	8198	stafróf	stafrófa stafrófanna stafrófi stafrófin stafrófinu stafrófið stafrófs stafrófsins stafrófum stafrófunum
+99	8199	undanhald	undanhaldi undanhaldinu undanhaldið undanhalds undanhaldsins
+100	8200	miskunna	miskunnandi miskunnar miskunnast miskunnað miskunnaða miskunnaðan miskunnaðar miskunnaði miskunnaðir miskunnaðist miskunnaðra miskunnaðrar miskunnaðri miskunnaðs miskunnaðu miskunnaður miskunni miskunnir miskunnist miskunnið miskunnum miskunnumst miskunnuð miskunnuðu miskunnuðum miskunnuðumst miskunnuðust miskunnuðuð

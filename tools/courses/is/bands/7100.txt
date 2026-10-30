@@ -1,0 +1,100 @@
+1	7001	sniðganga	sniðgakktu sniðgangandi sniðgangi sniðgangir sniðgangið sniðgekk sniðgekkst sniðgeng sniðgengi sniðgengin sniðgenginn sniðgenginna sniðgenginnar sniðgenginni sniðgengins sniðgengir sniðgengið sniðgengju sniðgengjum sniðgengjuð sniðgengna sniðgengnar sniðgengni sniðgengnir sniðgengnu sniðgengnum sniðgengu sniðgengum sniðgengur sniðgenguð sniðgöngum
+2	7002	snjallsími	snjallsíma snjallsímana snjallsímann snjallsímanna snjallsímans snjallsímanum snjallsímar snjallsímarnir snjallsíminn snjallsímum snjallsímunum
+3	7003	segulband	segulbanda segulbandanna segulbandi segulbandinu segulbandið segulbands segulbandsins segulbönd segulböndin segulböndum segulböndunum
+4	7004	kok	koki kokinu kokið koks koksins
+5	7005	freisting	freistinga freistinganna freistingar freistingarinnar freistingarnar freistingin freistingu freistingum freistinguna freistingunni freistingunum
+6	7006	sporbraut	sporbrauta sporbrautanna sporbrautar sporbrautarinnar sporbrautin sporbrautina sporbrautinni sporbrautir sporbrautirnar sporbrautum sporbrautunum
+7	7007	kvöldstund	kvöldstunda kvöldstundanna kvöldstundar kvöldstundarinnar kvöldstundin kvöldstundina kvöldstundinni kvöldstundir kvöldstundirnar kvöldstundum kvöldstundunum
+8	7008	afstýra	afstýrandi afstýrast afstýri afstýrir afstýrið afstýrst afstýrt afstýrum afstýrð afstýrða afstýrðan afstýrðar afstýrði afstýrðir afstýrðra afstýrðrar afstýrðri afstýrðs afstýrðu afstýrðum afstýrður afstýrðuð
+9	7009	hjálplegur	hjálpleg hjálplega hjálplegan hjálplegar hjálplegast hjálplegasta hjálplegastan hjálplegastar hjálplegasti hjálplegastir hjálplegastra hjálplegastrar hjálplegastri hjálplegasts hjálplegastur hjálplegi hjálplegir hjálplegra hjálplegrar hjálplegri hjálplegs hjálplegt hjálplegu hjálplegum hjálplegust hjálplegustu hjálplegustum
+10	7010	ákæruvald	ákæruvalda ákæruvaldanna ákæruvaldi ákæruvaldinu ákæruvaldið ákæruvalds ákæruvaldsins ákæruvöld ákæruvöldin ákæruvöldum ákæruvöldunum
+11	7011	tímamark	tímamarka tímamarkanna tímamarki tímamarkinu tímamarkið tímamarks tímamarksins tímamörk tímamörkin tímamörkum tímamörkunum
+12	7012	reikistjarna	reikistjarnan reikistjarnanna reikistjörnu reikistjörnum reikistjörnuna reikistjörnunnar reikistjörnunni reikistjörnunum reikistjörnur reikistjörnurnar
+13	7013	einkaréttur	einkarétt einkaréttar einkaréttarins einkarétti einkaréttinn einkaréttinum einkarétturinn
+14	7014	dvína	dvín dvínandi dvínar dvínað dvínaða dvínaðan dvínaðar dvínaði dvínaðir dvínaðra dvínaðrar dvínaðri dvínaðs dvínaðu dvínaður dvíni dvínir dvínið dvínum dvínuð dvínuðu dvínuðum dvínuðuð
+15	7015	sakamál	sakamála sakamálanna sakamáli sakamálin sakamálinu sakamálið sakamáls sakamálsins sakamálum sakamálunum
+16	7016	róni	róna rónana rónann rónanna rónans rónanum rónar rónarnir róninn rónum rónunum
+17	7017	barnfóstra	barnfóstran barnfóstranna barnfóstru barnfóstrum barnfóstruna barnfóstrunnar barnfóstrunni barnfóstrunum barnfóstrur barnfóstrurnar
+18	7018	sjónmál	sjónmáli sjónmáls
+19	7019	skellibjalla	skellibjallan skellibjallanna skellibjallna skellibjallnanna skellibjöllu skellibjöllum skellibjölluna skellibjöllunnar skellibjöllunni skellibjöllunum skellibjöllur skellibjöllurnar
+20	7020	viðrini	viðrina viðrinanna viðrinin viðrininu viðrinis viðrinisins viðrinið viðrinum viðrinunum
+21	7021	óhamingjusamur	óhamingjusama óhamingjusaman óhamingjusamar óhamingjusamara óhamingjusamari óhamingjusamast óhamingjusamasta óhamingjusamastan óhamingjusamastar óhamingjusamasti óhamingjusamastir óhamingjusamastra óhamingjusamastrar óhamingjusamastri óhamingjusamasts óhamingjusamastur óhamingjusami óhamingjusamir óhamingjusamra óhamingjusamrar óhamingjusamri óhamingjusams óhamingjusamt óhamingjusöm óhamingjusömu óhamingjusömum óhamingjusömust óhamingjusömustu óhamingjusömustum
+22	7022	gunga	gungan gunganna gungna gungnanna gungu gungum gunguna gungunnar gungunni gungunum gungur gungurnar
+23	7023	svindlari	svindlara svindlarana svindlarann svindlaranna svindlarans svindlaranum svindlarar svindlararnir svindlarinn svindlurum svindlurunum
+24	7024	vélhjól	vélhjóla vélhjólanna vélhjóli vélhjólin vélhjólinu vélhjólið vélhjóls vélhjólsins vélhjólum vélhjólunum
+25	7025	vesæll	vesæl vesæla vesælan vesælar vesælast vesælasta vesælastan vesælastar vesælasti vesælastir vesælastra vesælastrar vesælastri vesælasts vesælastur vesæli vesælir vesælla vesællar vesælli vesæls vesælt vesælu vesælum vesælust vesælustu vesælustum
+26	7026	aðfangadagur	aðfangadag aðfangadaga aðfangadagana aðfangadaganna aðfangadagar aðfangadagarnir aðfangadaginn aðfangadags aðfangadagsins aðfangadagurinn aðfangadegi aðfangadeginum aðfangadögum aðfangadögunum
+27	7027	félagsmál	félagsmála félagsmálanna félagsmálin félagsmálum félagsmálunum
+28	7028	hasar	hasarinn hasarnum hasars hasarsins
+29	7029	ómögulega	
+30	7030	tannbursti	tannbursta tannburstana tannburstann tannburstanna tannburstans tannburstanum tannburstar tannburstarnir tannburstinn tannburstum tannburstunum
+31	7031	flakk	flakki flakkinu flakkið flakks flakksins
+32	7032	hljóðver	hljóðvera hljóðveranna hljóðveri hljóðverin hljóðverinu hljóðverið hljóðvers hljóðversins hljóðverum hljóðverunum
+33	7033	öldungur	öldung öldunga öldungana öldunganna öldungar öldungarnir öldungi öldunginn öldungnum öldungs öldungsins öldungum öldungunum öldungurinn
+34	7034	bækistöð	bækistöðin bækistöðina bækistöðinni bækistöðva bækistöðvanna bækistöðvar bækistöðvarinnar bækistöðvarnar bækistöðvum bækistöðvunum
+35	7035	framkvæmdavald	framkvæmdavaldi framkvæmdavaldinu framkvæmdavaldið framkvæmdavalds framkvæmdavaldsins
+36	7036	spotti	spotta spottana spottann spottanna spottans spottanum spottar spottarnir spottinn spottum spottunum
+37	7037	tifa	tifandi tifar tifast tifað tifaða tifaðan tifaðar tifaði tifaðir tifaðist tifaðra tifaðrar tifaðri tifaðs tifaðu tifaður tifi tifir tifist tifið tifum tifumst tifuð tifuðu tifuðum tifuðumst tifuðust tifuðuð
+38	7038	innanríkisráðuneyti	innanríkisráðuneyta innanríkisráðuneytanna innanríkisráðuneytin innanríkisráðuneytinu innanríkisráðuneytis innanríkisráðuneytisins innanríkisráðuneytið innanríkisráðuneytum innanríkisráðuneytunum
+39	7039	öldungadeild	öldungadeilda öldungadeildanna öldungadeildar öldungadeildarinnar öldungadeildin öldungadeildina öldungadeildinni öldungadeildir öldungadeildirnar öldungadeildum öldungadeildunum
+40	7040	vani	vana vanana vanann vananna vanans vananum vanar vanarnir vaninn vönum vönunum
+41	7041	frumbyggi	frumbygginn frumbyggja frumbyggjana frumbyggjann frumbyggjanna frumbyggjans frumbyggjanum frumbyggjar frumbyggjarnir frumbyggjum frumbyggjunum
+42	7042	veggspjald	veggspjalda veggspjaldanna veggspjaldi veggspjaldinu veggspjaldið veggspjalds veggspjaldsins veggspjöld veggspjöldin veggspjöldum veggspjöldunum
+43	7043	kannabis	kannabisi kannabisins kannabisinu kannabisið kannabiss kannabissins
+44	7044	snjókoma	snjókoman snjókomu snjókomuna snjókomunnar snjókomunni
+45	7045	brennsla	brennslan brennslanna brennslna brennslnanna brennslu brennslum brennsluna brennslunnar brennslunni brennslunum brennslur brennslurnar
+46	7046	baksviðs	
+47	7047	misseri	missera misseranna misserin misserinu misseris misserisins misserið misserum misserunum
+48	7048	iður	iðra iðranna iðri iðrin iðrinu iðrið iðrum iðrunum iðurs iðursins
+49	7049	harkalegur	harkaleg harkalega harkalegan harkalegar harkalegast harkalegasta harkalegastan harkalegastar harkalegasti harkalegastir harkalegastra harkalegastrar harkalegastri harkalegasts harkalegastur harkalegi harkalegir harkalegra harkalegrar harkalegri harkalegs harkalegt harkalegu harkalegum harkalegust harkalegustu harkalegustum
+50	7050	bókaútgáfa	bókaútgáfan bókaútgáfna bókaútgáfnanna bókaútgáfu bókaútgáfum bókaútgáfuna bókaútgáfunnar bókaútgáfunni bókaútgáfunum bókaútgáfur bókaútgáfurnar
+51	7051	litarefni	litarefna litarefnanna litarefnin litarefninu litarefnis litarefnisins litarefnið litarefnum litarefnunum
+52	7052	samsýning	samsýninga samsýninganna samsýningar samsýningarinnar samsýningarnar samsýningin samsýningu samsýningum samsýninguna samsýningunni samsýningunum
+53	7053	sérkenni	sérkenna sérkennanna sérkennin sérkenninu sérkennis sérkennisins sérkennið sérkennum sérkennunum
+54	7054	kvikmyndagerðarmaður	kvikmyndagerðarmann kvikmyndagerðarmanna kvikmyndagerðarmannanna kvikmyndagerðarmanni kvikmyndagerðarmanninn kvikmyndagerðarmanninum kvikmyndagerðarmanns kvikmyndagerðarmannsins kvikmyndagerðarmaðurinn kvikmyndagerðarmenn kvikmyndagerðarmennina kvikmyndagerðarmennirnir kvikmyndagerðarmönnum kvikmyndagerðarmönnunum
+55	7055	kraka	krakandi krakar krakast krakað krakaða krakaðan krakaðar krakaði krakaðir krakaðist krakaðra krakaðrar krakaðri krakaðs krakaðu krakaður kraki krakir krakist krakið krökum krökumst krökuð krökuðu krökuðum krökuðumst krökuðust krökuðuð
+56	7056	forsetafrú	forsetafrúa forsetafrúar forsetafrúarinnar forsetafrúin forsetafrúm forsetafrúna forsetafrúnna forsetafrúnni forsetafrúnum forsetafrúr forsetafrúrnar
+57	7057	kúra	kúrandi kúrað kúri kúrir kúrið kúrt kúrum kúrði kúrðir kúrðu kúrðum kúrðuð
+58	7058	askur	ask aska askana askanna askar askarnir aski askinn askinum asks asksins askurinn öskum öskunum
+59	7059	skipulagsstofnun	skipulagsstofnana skipulagsstofnananna skipulagsstofnanir skipulagsstofnanirnar skipulagsstofnunar skipulagsstofnunarinnar skipulagsstofnunin skipulagsstofnunina skipulagsstofnuninni skipulagsstofnunum skipulagsstofnununum
+60	7060	hestafl	hestafla hestaflanna hestafli hestaflinu hestaflið hestafls hestaflsins hestöfl hestöflin hestöflum hestöflunum
+61	7061	fangelsisvist	fangelsisvistar fangelsisvistarinnar fangelsisvistin fangelsisvistina fangelsisvistinni
+62	7062	tilmæli	tilmæla tilmælanna tilmælin tilmælum tilmælunum
+63	7063	mannavöld	mannavöldum
+64	7064	mið	miða miðanna miði miðin miðinu miðið miðs miðsins miðum miðunum
+65	7065	margsinnis	
+66	7066	handleiðsla	handleiðslan handleiðslu handleiðsluna handleiðslunnar handleiðslunni
+67	7067	javi	java javann javans javanum javinn
+68	7068	heimabær	heimabæ heimabæi heimabæina heimabæinn heimabæir heimabæirnir heimabæja heimabæjanna heimabæjar heimabæjarins heimabæjum heimabæjunum heimabænum heimabærinn
+69	7069	rapp	rappi rappinu rappið rapps rappsins
+70	7070	hjör	hjara hjaranna hjarar hjararinnar hjari hjarir hjarirnar hjörin hjörina hjörinni hjörum hjörunum
+71	7071	lífláta	líflátandi lífláti líflátin líflátinn líflátinna líflátinnar líflátinni líflátins líflátir líflátið líflátna líflátnar líflátni líflátnir líflátnu líflátnum lífláttu líflátum líflæt líflætur líflést líflét lífléti líflétir líflétu líflétum líflétuð
+72	7072	þrettándi	þrettánda þrettándann þrettándans þrettándanum þrettándinn þrettándu
+73	7073	slaufa	slaufan slaufandi slaufanna slaufar slaufast slaufað slaufaða slaufaðan slaufaðar slaufaði slaufaðir slaufaðist slaufaðra slaufaðrar slaufaðri slaufaðs slaufaðu slaufaður slaufi slaufir slaufist slaufið slaufu slaufum slaufumst slaufuna slaufunnar slaufunni slaufunum slaufur slaufurnar slaufuð slaufuðu slaufuðum slaufuðumst slaufuðust slaufuðuð
+74	7074	heildarfjöldi	heildarfjölda heildarfjöldann heildarfjöldans heildarfjöldanum heildarfjöldinn
+75	7075	reynd	reynda reyndanna reyndarinnar reyndin reyndina reyndinni reyndir reyndirnar reyndum reyndunum
+76	7076	fasteignasali	fasteignasala fasteignasalana fasteignasalann fasteignasalanna fasteignasalans fasteignasalanum fasteignasalar fasteignasalarnir fasteignasalinn fasteignasölum fasteignasölunum
+77	7077	ómur	óm óma ómana ómanna ómar ómarnir ómi óminn óminum ómnum óms ómsins ómum ómunum ómurinn
+78	7078	auðmjúkur	auðmjúk auðmjúka auðmjúkan auðmjúkar auðmjúkara auðmjúkari auðmjúkast auðmjúkasta auðmjúkastan auðmjúkastar auðmjúkasti auðmjúkastir auðmjúkastra auðmjúkastrar auðmjúkastri auðmjúkasts auðmjúkastur auðmjúki auðmjúkir auðmjúkra auðmjúkrar auðmjúkri auðmjúks auðmjúkt auðmjúku auðmjúkum auðmjúkust auðmjúkustu auðmjúkustum auðmýkra auðmýkri auðmýkst auðmýksta auðmýkstan auðmýkstar auðmýksti auðmýkstir auðmýkstra auðmýkstrar auðmýkstri auðmýksts auðmýkstu auðmýkstum auðmýkstur
+79	7079	þerna	þernan þernanna þernu þernum þernuna þernunnar þernunni þernunum þernur þernurnar
+80	7080	glorhungraður	glorhungrað glorhungraða glorhungraðan glorhungraðar glorhungraði glorhungraðir glorhungraðra glorhungraðrar glorhungraðri glorhungraðs glorhungruð glorhungruðu glorhungruðum
+81	7081	áfellast	áfelldist áfelldumst áfelldust áfellist áfellst áfellstu áfellumst
+82	7082	boðskort	boðskorta boðskortanna boðskorti boðskortin boðskortinu boðskortið boðskorts boðskortsins boðskortum boðskortunum
+83	7083	brúðkaupsafmæli	brúðkaupsafmæla brúðkaupsafmælanna brúðkaupsafmælin brúðkaupsafmælinu brúðkaupsafmælis brúðkaupsafmælisins brúðkaupsafmælið brúðkaupsafmælum brúðkaupsafmælunum
+84	7084	bannsettur	bannsett bannsetta bannsettan bannsettar bannsetti bannsettir bannsettra bannsettrar bannsettri bannsetts bannsettu bannsettum
+85	7085	sletta	slest slett slettan slettandi slettanna slettast sletti slettir slettist slettið slettna slettnanna slettu slettum slettumst slettuna slettunnar slettunni slettunum slettur sletturnar slettust slettuð
+86	7086	framhlið	framhliða framhliðanna framhliðar framhliðarinnar framhliðarnar framhliðin framhliðina framhliðinni framhliðum framhliðunum
+87	7087	gríðarstór	gríðarstóra gríðarstóran gríðarstórar gríðarstóri gríðarstórir gríðarstórra gríðarstórrar gríðarstórri gríðarstórs gríðarstórt gríðarstóru gríðarstórum
+88	7088	tríó	tríóa tríóanna tríói tríóin tríóinu tríóið tríós tríósins tríóum tríóunum
+89	7089	forsæti	forsæta forsætanna forsætin forsætinu forsætis forsætisins forsætið forsætum forsætunum
+90	7090	fitna	fitnandi fitnar fitnað fitnaði fitnaðir fitnaðu fitni fitnir fitnið fitnum fitnuðu fitnuðum fitnuðuð
+91	7091	lausafé	lausafjár lausafjárins lausafénu lausaféð
+92	7092	faraó	faraóa faraóana faraóanna faraóar faraóarnir faraóinn faraónum faraós faraósins faraóum faraóunum faró
+93	7093	áframhald	áframhaldi áframhaldinu áframhaldið áframhalds áframhaldsins
+94	7094	snyrtivara	snyrtivaran snyrtivaranna snyrtivöru snyrtivörum snyrtivöruna snyrtivörunnar snyrtivörunni snyrtivörunum snyrtivörur snyrtivörurnar
+95	7095	óstöðvandi	
+96	7096	síðkastið	
+97	7097	viðra	viðrandi viðrar viðrast viðrað viðraða viðraðan viðraðar viðraði viðraðir viðraðist viðraðra viðraðrar viðraðri viðraðs viðraðu viðraður viðri viðrir viðrist viðrið viðrum viðrumst viðruð viðruðu viðruðum viðruðumst viðruðust viðruðuð
+98	7098	vos	vosa vosanna vosi vosin vosinu vosið voss vossins vosum vosunum
+99	7099	leiðarvísir	leiðarvísa leiðarvísana leiðarvísanna leiðarvísar leiðarvísarnir leiðarvísi leiðarvísinn leiðarvísinum leiðarvísirinn leiðarvísis leiðarvísisins leiðarvísum leiðarvísunum
+100	7100	ráðstafa	ráðstafandi ráðstafar ráðstafast ráðstafað ráðstafaði ráðstafaðir ráðstafaðist ráðstafaðu ráðstafi ráðstafir ráðstafist ráðstafið ráðstöfum ráðstöfumst ráðstöfuðu ráðstöfuðum ráðstöfuðumst ráðstöfuðust ráðstöfuðuð
