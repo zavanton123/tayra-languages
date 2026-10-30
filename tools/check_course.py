@@ -668,6 +668,55 @@ def slovene_name_forms(names):
     return forms
 
 
+def _is_umlaut(stem):
+    """An Icelandic stem with its last a made ö, as the u of an ending makes it (Anna, Önnu; Katla, Kötlu)."""
+    i = stem.rfind("a")
+    return stem[:i] + "ö" + stem[i + 1:] if i >= 0 else stem
+
+
+def icelandic_name_forms(names):
+    """
+    The case forms of Icelandic names, from their regular declension: Jón, Jóni, Jóns; Guðrún, Guðrúnu, Guðrúnar;
+    Reykjavík, Reykjavíkur; Sigurður, Sigurð, Sigurði, Sigurðar; Noregur, Noregi, Noregs; Pétur, Pétri; Anna, Önnu;
+    Bjarni, Bjarna; Akureyri, Akureyrar; Páll, Pál, Páls; Steinunn, Steinunni, Steinunnar; Þórir, Þóris; Egilsstaðir,
+    Egilsstöðum; Hrísey, Hríseyjar; Vestmannaeyjar, Vestmannaeyjum; Jónsdóttir, Jónsdóttur; Jónsson, Jónssyni. A name
+    of several words or with a hyphen gives the forms of each part. A name whose stem changes more (Hafnarfjörður,
+    Hafnarfirði; Danmörk, Danmerkur) is listed by its forms.
+    """
+    forms = set()
+    for name in names:
+        for part in re.split(r"[\s-]+", name.lower()):
+            if not part:
+                continue
+            forms.add(part)
+            if part.endswith("dóttir"):
+                forms.add(part[:-2] + "ur")
+            elif part.endswith("son"):
+                forms.update((part[:-3] + "syni", part + "ar"))
+            elif part.endswith("ur"):
+                stem = part[:-2]
+                forms.update(stem + e for e in ("", "i", "ar", "s", "ri"))
+                forms.add(part + "s")
+            elif part.endswith("ir"):
+                stem = part[:-2]
+                forms.update(stem + e for e in ("i", "is", "a", "um"))
+                forms.add(_is_umlaut(stem) + "um")
+            elif part.endswith("ey"):
+                forms.update(part + e for e in ("ju", "jar"))
+            elif part.endswith("i"):
+                forms.update(part[:-1] + e for e in ("a", "ar"))
+            elif part.endswith("a"):
+                stem = part[:-1]
+                forms.update((stem + "u", _is_umlaut(stem) + "u"))
+            else:
+                forms.update(part + e for e in ("i", "s", "u", "ar", "ur"))
+                if part.endswith(("ll", "nn")):
+                    forms.update(part[:-1] + e for e in ("", "i", "s"))
+                if part.endswith("ar"):
+                    forms.update(part[:-2] + e for e in ("um", "a"))
+    return forms
+
+
 # Object pronouns a Spanish verb can carry at its end, longest first so "les" goes before "le".
 SPANISH_CLITICS = ("los", "las", "les", "nos", "os", "lo", "la", "le", "me", "te", "se")
 UNACCENTED = str.maketrans("áéíóú", "aeiou")
@@ -1625,6 +1674,11 @@ def check(path, brief=False):
     if code in FINNIC:
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
         names = names | {fold(code, part.lower()) for n in course.get("names", []) for part in re.split(r"[\s-]+", n) if part}
+    # An Icelandic name of several words or with a hyphen (Bláa lónið, Anna-María) counts as one known word wherever it is
+    # written whole; a word the list lacks counts as a name when it is a case form of a name's part (Önnu, Reykjavíkur).
+    if code == "is":
+        long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
+        is_names = icelandic_name_forms(course.get("names", []))
     # Hungarian names take their endings unmarked (Annának, Budapestre): each part of a name counts, with its endings.
     if code == "hu":
         names = names | {fold(code, part.lower()) for n in course.get("names", []) for part in n.split()}
@@ -1709,6 +1763,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Întrebări:", "", text)
         if code in FINNIC:
             text = re.sub(r"(?m)^" + re.escape(FINNIC[code]["questions"]), "", text)
+        if code == "is":
+            text = re.sub(r"(?m)^Spurningar:", "", text)
         toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
         if code in ("es", "ru", "it", "sr", "uk", "ca", "hr", "bs", "bg", "ro", "mk"):
@@ -1744,6 +1800,8 @@ def check(path, brief=False):
         if code in FINNIC:
             lowered = [w if w in ranks or w in names else finnic_base(w, code, ranks) or ("\u0000name" if finnic_name(w, code, names) else w)
                        for w in lowered]
+        if code == "is":
+            lowered = [w if w in ranks or w in names or w not in is_names else "\u0000name" for w in lowered]
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0
