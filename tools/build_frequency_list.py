@@ -1377,17 +1377,51 @@ FINNISH_MARGINAL_TAGS = {"colloquial", "dialectal", "archaic", "obsolete", "rare
 # dictionary gives them.
 FINNISH_VERB_DERIVED = ("va", "vä", "nut", "nyt", "neet", "ttu", "tty", "tu", "ty", "maton", "mätön", "minen")
 FINNISH_GRADED = ("mpi", "mmin", "mmän", "iten")
+# Estonian goes by the same rule (looma "to create" and loom's genitive, hool "care" and hoog's adessive, kanal "channel"
+# and kana's, kuul "bullet", joon "line", varas "thief", alus, vanus, lihas). Its participles and verbal noun (elav,
+# olnud, tehtud, uskumatu, tegemine) and comparatives and superlatives (parem, suurim, kõrgemale) stay their word's, but
+# the comparatives with senses of their own (vanem "parent", enam "anymore") are words.
+FINNIC_OWN_SENSES = ("fi", "et")
+ESTONIAN_VERB_DERIVED = ("v", "nud", "tud", "dud", "nu", "tu", "du", "matu", "mata", "mine")
+ESTONIAN_GRADED = ("m", "mini", "malt")
+ESTONIAN_OWN_GRADED = {"vanem", "enam"}
+# The reflexive pronoun's stems the pack has as nouns of their own (enda, enese) are ise's, with their forms; surnu "a
+# dead person" is surnud's, and tõtt ("a hurry" to the pack) tõsi's partitive.
+ESTONIAN_NOT_OWN = {"enda", "enese", "surnu", "tõtt"}
+# simplemma gives an Estonian participle the pack lacks (lõppenud, relvastatud) as a noun in -nu or -tu (lõppenu,
+# relvastatu): it is its verb's (lõppema, relvastama), found by the regular stem or, for these, by hand.
+ESTONIAN_PARTICIPLE_VERBS = {
+    "neetu": "needma", "kaetu": "katma", "laetu": "laadima", "praetu": "praadima", "pakitu": "pakkima",
+    "topitu": "toppima", "kästu": "käskima", "lõhutu": "lõhkuma", "töödeldu": "töötlema", "taibanu": "taipama",
+    "puhanu": "puhkama", "vestelnu": "vestlema", "suhelnu": "suhtlema", "tüüdanu": "tüütama", "lakanu": "lakkama",
+    "kistu": "kiskuma",
+}
+# Caritive adjectives in -tu that the regular stem would take for a verb's participle (armutu "merciless", not armuma's;
+# kohatu, valutu, piiritu).
+ESTONIAN_CARITIVES = {
+    "kohatu", "hambutu", "valutu", "vallatu", "piiritu", "armutu", "vääritu", "nurjatu", "sõnatu", "riivatu",
+    "maitsetu", "kaitsetu", "värvitu",
+}
+# A participle of a verb written as two words (lugu pidama, maha jätma) is its adjective in -nud or -tud (lugupeetud).
+ESTONIAN_PARTICIPLE_ADJECTIVES = {
+    "lugupeetu", "väljaarvatu", "mahajäetu", "kokkulepitu", "allesjäänu", "järelejäänu", "tõestisündinu", "esmasündinu",
+    "ülestõusnu", "väljasurnu", "isehakanu", "vastuvõetu", "ettevalmistatu",
+}
 
 
-def finnish_kinds(db, lemmas):
-    """Each Finnish word's kinds with a sense that is not glossed as a form of a word its forms rows name, and its kinds
-    (not counting interjections) with such a sense in plain standard use."""
+def finnish_kinds(db, lemmas, language="fi"):
+    """Each Finnish (or Estonian) word's kinds with a sense that is not glossed as a form of a word its forms rows name,
+    and its kinds (not counting interjections) with such a sense in plain standard use."""
     own, plain = defaultdict(set), defaultdict(set)
     kinds = defaultdict(set)
     for word, p in db.execute("SELECT word_lc, pos FROM entries"):
         kinds[word].add(p)
 
     def derived(word, of):
+        if language == "et":
+            return word in ESTONIAN_NOT_OWN or word not in ESTONIAN_OWN_GRADED and any(
+                "verb" in kinds[l] and word[:2] == l[:2] and word.endswith(ESTONIAN_VERB_DERIVED)
+                or kinds[l] & {"adj", "adv"} and word.endswith(ESTONIAN_GRADED) for l in of if l != word)
         return any("verb" in kinds[l] and word[:2] == l[:2] and word.endswith(FINNISH_VERB_DERIVED)
                    or kinds[l] & {"adj", "adv"} and (word.endswith(FINNISH_GRADED) or word.endswith("in") and word[:2] == l[:2])
                    for l in of if l != word)
@@ -1905,8 +1939,8 @@ def load_dictionary(language):
                                    or pos[lemma] & kinds]
     if language == "ro":
         ROMANIAN_KINDS.update(romanian_kinds(db, lemmas))
-    if language == "fi":
-        own, plain = finnish_kinds(db, lemmas)
+    if language in FINNIC_OWN_SENSES:
+        own, plain = finnish_kinds(db, lemmas, language)
         FINNISH_KINDS.update(own)
         FINNISH_PLAIN.update(plain)
     if language == "ar" and ARABIC_FORMS:
@@ -2252,6 +2286,12 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 return nominal
             if key not in pos and not count(key) and key not in overrides:
                 return None
+        if language == "et" and not pos.get(key) and key not in overrides:
+            verb = estonian_participle_verb(key)
+            if verb:
+                if not pos.get(verb):
+                    guessed.setdefault(verb, verb)
+                return verb
         if (lemma != key and language not in CAPITALISED_NOUNS) or (key in pos and key not in common) or key in excluded:
             return None
         # simplemma gives a negated Slovak verb as a word of its own (neurobil of neurobiť).
@@ -2259,6 +2299,27 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             return slovak_positive(key)
         guessed.setdefault(key, lemma)
         return key
+
+    def estonian_participle_verb(word):
+        """The verb an Estonian participle simplemma gives as a noun (lõppenu, relvastatu) is a form of, or None; a
+        caritive adjective in -tu (kasutu, abitu, võimatu) is a word."""
+        if word in ESTONIAN_CARITIVES:
+            return None
+        if word in ESTONIAN_PARTICIPLE_ADJECTIVES:
+            return word + "d"
+        if word in ESTONIAN_PARTICIPLE_VERBS:
+            verb = ESTONIAN_PARTICIPLE_VERBS[word]
+        elif word.endswith(("nu", "tu", "du")) and not word.endswith(("matu", "mata")) and len(word) > 4:
+            verb = word[:-2] + "ma"
+        else:
+            return None
+        if verb in excluded:
+            return None
+        if "verb" in pos.get(verb, set()) and verb in common:
+            return verb
+        if not pos.get(verb) and lemmatizer.is_known(verb) and lower(language, lemmatizer.lemmatize(verb)) == verb:
+            return verb
+        return None
 
     def lithuanian_nominal(form):
         """The commonest noun or adjective of the pack a Lithuanian form is a regular case form of, or None."""
@@ -2613,7 +2674,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         # A form whose only entry is an interjection ("foi", "nossa") is counted for the word it is a form of.
         # Japanese files a set phrase under its variants (ありがとう under ありがと), so there it counts for itself.
         elif is_word(form) and form not in overrides and not (others and pos[form] & WORD_POS <= {"intj"} and language not in ("ja", "ar")
-                                                              and not (language == "fi" and FINNISH_KINDS.get(form)
+                                                              and not (language in FINNIC_OWN_SENSES and FINNISH_KINDS.get(form)
                                                                        and not any(FINNISH_PLAIN.get(l) for l in others))):
             # A form that is a word itself keeps its count ("casa", not "casar") unless [TAKEOVER] says otherwise.
             # Korean's forms tables are full of nouns spelled as some verb's form (사실 of 사다, 우려 of 우리다),
@@ -2626,7 +2687,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 shares = romanian_shares(form, others)
                 if shares:
                     return shares
-            if language == "fi":
+            if language in FINNIC_OWN_SENSES:
                 shares = finnish_shares(form, others)
                 if shares:
                     return shares
@@ -2857,7 +2918,10 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 onward = targets_of(word, depth + 1)
                 # A Finnish word with senses of its own keeps the forms that are its alone (noidan of noita "witch", whose
                 # spelling is mostly tuo's), though its spelling goes to another word.
-                if language == "fi" and FINNISH_KINDS.get(word) and word not in overrides and {l for l in lemmas.get(form, ()) if is_word(l)} == {word}:
+                # So does an Estonian one whose spelling is sent to another word by hand (tuld of tuli "fire", whose spelling is
+                # mostly tulema's).
+                if language in FINNIC_OWN_SENSES and FINNISH_KINDS.get(word) and (word not in overrides or language == "et") and {
+                        l for l in lemmas.get(form, ()) if is_word(l)} == {word}:
                     onward = None
                 # An Arabic word spelled as another's verb form keeps its own forms (يتكون of تكون, not of كان), and a verb
                 # spelled as another word keeps its own (لن of لان "to soften", not of لأن); but not one sent to its word by

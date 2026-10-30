@@ -1245,6 +1245,27 @@ _OVERRIDES_D = {
         "ees": ["ees"], "peal": ["peal"], "sisse": ["sisse"], "jaoks": ["jaoks"], "jooksul": ["jooksul"],
         "tõttu": ["tõttu"], "kohta": ["kohta"], "puhul": ["puhul"], "no": ["no"], "öösel": ["öösel"],
         "pärit": ["pärit"],
+        # Words the pack files as a commoner word's form or has not: kokku ("together", not kogu's), enam ("anymore",
+        # not palju's), tunnel (not tund's), juhus ("chance", not juht's); rünnaku is rünnak's, not ründama's.
+        "kokku": ["kokku"], "enam": ["enam"],
+        **{f: ["tunnel"] for f in ("tunnel", "tunneli", "tunnelit", "tunnelis", "tunnelisse", "tunnelist", "tunnelid",
+                                   "tunneleid", "tunnelite", "tunnelites", "tunnelitesse", "tunnelitest", "tunnelile",
+                                   "tunnelil", "tunnelilt", "tunneliga", "tunneliks", "tunnelini")},
+        **{f: ["juhus"] for f in ("juhus", "juhuse", "juhust", "juhuseid", "juhusel", "juhuseks", "juhusest", "juhused",
+                                  "juhusi", "juhuste")},
+        "rünnaku": ["rünnak"],
+        # raskus "difficulty", which simplemma gives as a verb raskuma; härrased "gentlemen" is härra's plural.
+        **{f: ["raskus"] for f in ("raskus", "raskusi", "raskused", "raskust", "raskustes", "raskuse", "raskuste",
+                                   "raskustest", "raskustega", "raskusega", "raskuseid", "raskustesse")},
+        "härrased": ["härra"], "härraste": ["härra"], "härraseid": ["härra"], "sinagi": ["sina"],
+        # Verbs in -tama spelled as another verb's impersonal supine (hävitama "to destroy", not hävima's), as kasvatama.
+        **{v: [v] for v in ("hävitama", "langetama", "kulutama", "riputama", "kukutama", "ilmutama", "istutama",
+                            "paugutama", "sobitama", "sulatama", "ujutama", "mahutama", "eksitama", "kiigutama")},
+        # Verb forms spelled as forms of rarer nouns: kutsu ("call!", not "puppy"), raisata (raiskama, not raisk);
+        # neidu is neiu's.
+        **{f: ["kutsuma"] for f in ("kutsu", "kutsus", "kutsusid", "kutsud", "kutsuks", "kutsudes")},
+        **{f: ["raiskama"] for f in ("raisata", "raiska", "raiskasid")},
+        "neidu": ["neiu"],
     },
 }
 
@@ -1260,7 +1281,12 @@ _EXCLUDE_D = {
     # Abbreviations
     "lt": {"mln", "proc", "tūkst", "kt", "kt.", "mėn", "mėn.", "tolia", "toliai", "tolių", "tolui", "galį", "galio", "galis"},
     "lv": set(),
-    "et": set(),
+    # Estonian: names and English in the subtitles (and, kate, frank, pete are also rare Estonian words, which keep their
+    # other forms), and simplemma's guesses ist (of istus) and ühendriik (Ühendriigid, a name).
+    "et": {"and", "kate", "frank", "pete", "don", "morgan", "morgana", "morgani", "morganit", "morganiga", "morganile",
+           "morganil", "morganist", "morganite", "morganilt", "morganis", "la", "lana", "lanat", "lanaga", "lanale",
+           "lanal", "leo", "ist", "ühendriikide", "ühendriikides", "ühendriikidesse", "ühendriike", "ühendriikidest",
+           "ühendriikidele", "ühendriikidega"},
 }
 
 # ---- Reviewed group E ----
