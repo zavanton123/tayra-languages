@@ -1,0 +1,100 @@
+1	1501	adiungo	adiunctum adiungat adiungatur adiungebant adiungebantur adiungenda adiungendae adiungendam adiungendas adiungendi adiungendis adiungendum adiungens adiungere adiungerentur adiungeretur adiunget adiungi adiungit adiungitur adiunguntur adiunxerat adiunxerunt adiunximus adiunxit
+2	1502	cornu	corni cornibus cornorum cornua cornum cornus cornuum
+3	1503	activus	activa activae activam activarum activas active activi activis activo activorum activos activum
+4	1504	tantummodo	
+5	1505	namque	
+6	1506	quamobrem	
+7	1507	erga	
+8	1508	vexillum	vexilla vexilli vexillis vexillo vexillorum
+9	1509	directio	directione directionem directiones directioni directionibus directionis
+10	1510	coreanus	coreana coreanae coreanam coreanarum coreane coreani coreanis coreano coreanorum coreanos coreanum
+11	1511	praedico	praedicabant praedicanda praedicandas praedicandi praedicando praedicans praedicant praedicare praedicarent praedicat praedicato praedicavit praedicebat praedicendi praedicens praedicere praediceret praedici praedicit praedictis praedictorum praedictus praedicuntur praedixerant praedixerat praedixere praedixerunt praediximus praedixisse praedixit predictum
+12	1512	binus	bina binae binarum binas bini binis binorum binos
+13	1513	divitiae	divitiarum divitias divitiis
+14	1514	impero	impera imperabant imperabat imperandi imperando imperandum imperant imperantur imperare imperaret imperasti imperat imperatis imperato imperatur imperaverunt imperavisse imperavisset imperavit imperet
+15	1515	colloco	collocabant collocabantur collocabo collocandi collocandum collocans collocant collocantur collocare collocarent collocarentur collocari collocat collocatis collocator collocatum collocatur collocaverant collocavere collocaverunt collocavisse collocavit collocent collocet
+16	1516	lupus	lupa lupae lupam luparum lupi lupis lupo luporum lupos lupulo lupum
+17	1517	sexaginta	
+18	1518	abbas	abbate abbatem abbates abbati abbatibus abbatis abbatissa abbatissae abbatissam abbatum
+19	1519	circuitus	circuitibus circuitu circuitum circuituum circumitus
+20	1520	grandis	grande grandem grandes grandi grandibus grandissimus grandium
+21	1521	pastor	pastore pastorem pastores pastori pastoribus pastoris pastorum
+22	1522	transitus	transita transitis transito transitu transitum
+23	1523	hymnus	hymne hymni hymnis hymno hymnorum hymnos hymnum
+24	1524	colloquium	colloqui colloquia colloquii colloquiis colloquio colloquiorum conloquium
+25	1525	capitalis	capitale capitalem capitales capitali capitalia capitalium
+26	1526	plenus	plena plenae plenam plenas pleni plenior plenis plenissime plenissimus plenius pleno plenos
+27	1527	durus	dura durae duram duras dure duri durior duris durissime durissimus duriter durius duro durorum duros durum
+28	1528	mathematica	mathematicae mathematicam mathematicarum mathematicas mathematicis
+29	1529	iugum	iuga iugi iugis iugo iugorum
+30	1530	paco	pacare pacaret pacata pacate pacatis pacatum pacavit pace pacem pacent paces paci pacis pako pepigerant pepigerat pepigisset pepigit
+31	1531	honoro	honorabant honorandi honorando honorandum honorans honorant honorantur honorare honoraret honoraretur honorat honorato honoratum honoratur honoratus honoraverunt honoravit honorem honorentur honores honoretur
+32	1532	attribuo	attribuamus attribuat attribuatur attribuebant attribuendi attribuendum attribuere attribuerentur attribuerunt attribui attribuimus attribuit attribuitur attributum attribuunt attribuuntur
+33	1533	foedero	foedera foederari foederat foederatis foederatum foederatus foederem
+34	1534	impleo	impleant implebant implebantur implebat implendi implendum implens implent implentur implere implerentur impleret impleri implet implete impleto impletum impletur impleturus impletus impleverat impleverunt implevisset implevit
+35	1535	commuto	commutabantur commutandi commutando commutandum commutans commutant commutantur commutare commutarent commutaret commutari commutat commutatis commutato commutator commutatum commutatur commutatus commutaverunt commutavisse commutavit commutentur commuter commutet commutetur
+36	1536	leo	leone leonem leones leoni leonis leonum
+37	1537	globus	globe globi globis globo globorum globos globuli globulis globulorum globulos globulus globum
+38	1538	experientia	experientiae experientiam experientiarum experientias experientiis
+39	1539	ficticius	ficticia ficticiae ficticiam ficticiarum ficticias ficticii ficticiis ficticio ficticium
+40	1540	secum	
+41	1541	conversio	conversione conversionem conversiones conversioni conversionibus conversionis conversionum
+42	1542	caro	carne carnem carnes carni carnibus carnis carnium
+43	1543	idoneus	idonea idoneae idoneam idonearum idoneas idonei idoneis idoneo idoneos idoneum
+44	1544	caedes	caede caedem caedi caedibus caedis caedium
+45	1545	nuptiae	nuptiarum nuptias nuptiis
+46	1546	infero	illatum infer inferam inferamus inferas inferebant inferebat inferendi inferendum inferimus inferre inferrent inferret inferri infert infertur inferunt intulerant intulerunt intulisse intulisset intulit
+47	1547	receptus	recepta receptae receptam recepti receptis recepto receptorum receptos receptum
+48	1548	paratus	parata paratae paratam parate parati paratis parato paratos paratu paratum
+49	1549	axis	assis axe axem axes axi axibus axium axum
+50	1550	vinculum	vinclum vincula vinculi vinculis vinculo vinculorum
+51	1551	nequeo	nequeamus nequeat nequeunt nequibant nequid nequiebant nequiebat nequiens nequiit nequimus nequire nequirent nequiret nequisse nequisset nequit nequivere nequiverunt nequivit
+52	1552	exhibeo	exhibeant exhibeat exhibebant exhibebat exhibens exhibent exhibentur exhibere exhiberentur exhiberet exhiberi exhibet exhibetur exhibitum exhibiturus exhibitus exhibui exhibuisse exhibuit
+53	1553	proclamo	proclamandum proclamantur proclamare proclamaret proclamarunt proclamat proclamato proclamatum proclamatur proclamatus proclamaverat proclamavere proclamaverunt proclamavisset proclamavit
+54	1554	affirmo	affirmabant affirmabat affirmabatur affirmans affirmant affirmare affirmaret affirmasse affirmat affirmatur affirmavere affirmaverit affirmaverunt affirmavit affirment affirmet affirmetur
+55	1555	enumero	enumerabant enumerando enumerans enumerant enumerantur enumerare enumerari enumerat enumeratis enumeratur enumeratus enumeraverunt enumeravimus enumeravit enumerentur
+56	1556	ecce	
+57	1557	apostolicus	apostolica apostolicae apostolicam apostolici apostolico apostolicorum apostolicum
+58	1558	thema	themata themate thematibus thematis thematum
+59	1559	obsidio	obsidione obsidionem obsidiones obsidioni obsidionibus obsidionis
+60	1560	poeticus	poetica poeticae poeticam poetice poetici poeticis poetico poeticum
+61	1561	nox	noctem noctes noctibus noctis
+62	1562	inopia	inopiae inopiam
+63	1563	conscriptus	conscripta conscriptae conscriptam conscripti conscriptis conscripto conscriptos conscriptum
+64	1564	electricus	electrica electricae electricam electricas electrice electrici electricis electrico electricorum electricos electricum
+65	1565	tabulatum	tabulata tabulati tabulatis tabulato tabulatorum
+66	1566	beatus	beata beatae beatam beate beati beatius beato beatorum beatos beatum
+67	1567	fundus	fundi fundis fundorum fundos fundum
+68	1568	accepta	acceptae acceptam acceptarum acceptas acceptis
+69	1569	tractatus	tractata tractatae tractati tractatos tractatu tractatum tractatuum
+70	1570	barbarus	barbarae barbaram barbaras barbare barbari barbaris barbaro barbarorum barbaros barbarum
+71	1571	considero	considera considerabant considerabantur considerabat considerabatur consideramus considerandi considerandum considerandus considerant considerantur considerare considerari considerat consideratis consideratum consideratur consideraverunt consideravisse consideravit consideretur
+72	1572	tego	tectus tegant tegat tegebant tegebantur tegebat tegendi tegendo tegendum tegens tegere tegeret tegeretur teget tegi tegit tegitur tegunt teguntur texerunt texit
+73	1573	tempto	temptabant temptabat temptando temptandum temptans temptant temptare temptarentur temptasset temptat temptato temptatur temptaturus temptaverat temptaverint temptaverit temptaverunt temptavissent temptavisset temptavit temptent temptetur
+74	1574	iulianus	iuliana iulianae iulianam iuliani iuliano iulianos iulianum julianus
+75	1575	praeditus	praedita praeditae praeditam praeditarum praediti praeditis praedito praeditos praeditum
+76	1576	vivere	
+77	1577	variatio	variatione variationem variationes variationi variationibus variationis variationum
+78	1578	theologicus	theologica theologicae theologicam theologicas theologice theologici theologicis theologico theologicorum theologicos theologicum
+79	1579	pulchritudo	pulchritudine pulchritudinem pulchritudines pulchritudinis pulchritudinum
+80	1580	tomus	tomi tomis tomo tomorum tomos tomum
+81	1581	tragoedia	tragoediae tragoediam tragoediarum tragoedias tragoediis
+82	1582	maurus	maura mauri mauris mauro maurorum mauros
+83	1583	argenteus	argentea argenteae argenteam argenteas argentei argenteis argenteo argenteos argenteum
+84	1584	benedictus	benedicta benedictae benedictam benedicte benedicti benedictis benedicto benedictorum benedictum
+85	1585	defunctus	defuncta defunctae defunctam defunctarum defuncti defuncto defunctorum defunctos defunctum
+86	1586	nexus	nexa nexae nexi nexibus nexis nexu nexum nexuum
+87	1587	dulcis	dulce dulcem dulces dulci dulcia dulcibus dulciis dulcior dulcissimae dulcissimam dulcium dulcius
+88	1588	moles	mole molem moli molibus molis molium
+89	1589	physica	physicae physicam physicarum physicas physicis
+90	1590	mathematicus	mathematicae mathematicam mathematicarum mathematicas mathematice mathematici mathematicis mathematico mathematicorum mathematicos mathematicum
+91	1591	productum	producta producti productis producto productorum
+92	1592	fluo	fluctum fluebat fluendo fluens fluent fluere fluit fluunt fluxi fluxit fluxu fluxum
+93	1593	adopto	adoptandi adoptantur adoptare adoptarentur adoptaret adoptaretur adoptari adoptat adoptatis adoptato adoptator adoptatorem adoptatum adoptatus adoptaverat adoptavere adoptaverunt adoptavit adoptetur
+94	1594	sufficio	suffecerunt suffecisse suffecit suffectum suffectus suffice sufficere suffici sufficiant sufficiat sufficiebant sufficiebat sufficiens sufficiente sufficientes sufficientibus sufficiet sufficit sufficiunt sufficiuntur
+95	1595	praefatio	praefatione praefationem praefationes praefationibus praefationis
+96	1596	acidus	acida acidae acidas acidi acidis acido acidorum acidum
+97	1597	quidquid	quicquid quiqui quisquis quoquo
+98	1598	consonans	consonante consonantem consonantes consonantia consonantiae consonantibus consonantis consonantium
+99	1599	dominicus	dominica dominicae dominicam dominici dominicis dominicum
+100	1600	egregius	egregia egregiae egregiam egregias egregie egregii egregiis egregio egregiorum egregium

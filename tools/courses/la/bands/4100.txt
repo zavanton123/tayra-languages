@@ -1,0 +1,100 @@
+1	4001	planetarium	planetaria planetarii planetariis planetario planetariorum
+2	4002	profligo	profligando profligare profligat profligaturus profligaverat profligaverunt profligavit
+3	4003	compendiarius	compendiariam compendiarias compendiarie compendiariis compendiario compendiarium
+4	4004	profiteor	profitebantur profitebar profitebatur profitentur profiterentur profiteretur profitetur
+5	4005	poenalis	poenalem poenales poenali poenalia poenalium
+6	4006	annotatio	annotatione annotationes annotationibus annotationis
+7	4007	tartarum	tartari tartaris tartaro tartarorum
+8	4008	competitor	competitore competitorem competitores competitoribus competitrix
+9	4009	icon	iconem icones iconibus iconum
+10	4010	hexameter	hexametri hexametris hexametrorum hexametros
+11	4011	opportunitas	opportunitate opportunitatem opportunitates opportunitati opportunitatibus opportunitatis
+12	4012	collatio	collatione collationem collationes conlatio
+13	4013	sagittarius	sagittariam sagittarii sagittariis sagittario sagittariorum sagittarios
+14	4014	crystallum	crystalla crystalli crystallis crystallo crystallorum
+15	4015	cognatio	cognatione cognationem cognationes cognationibus cognationis cognationum
+16	4016	extollo	extollebat extollendum extollere extolleret extolli extollit extollitur
+17	4017	lemma	lemmata lemmate lemmatibus lemmatis lemmatum
+18	4018	extensio	extensione extensionem extensiones extensioni extensionis
+19	4019	assector	adsectator adsectatores assectatores assectatoribus assectatoris assectatorum
+20	4020	iuvenilis	iuvenilem iuvenili iuvenilia iuvenilibus
+21	4021	processio	processione processionem processiones processionibus processionis processionum
+22	4022	atomicus	atomica atomicae atomici atomicis atomico atomicorum
+23	4023	cloaca	cloacae cloacam cloacarum cloacas
+24	4024	typographus	typographi typographo typographorum typographum
+25	4025	pastoralis	pastorale pastoralem pastorales pastorali pastoralium
+26	4026	glans	glande glandem glandes glandibus glandium
+27	4027	publicatio	publicationem publicationes publicationibus publicationis
+28	4028	fabulosus	fabulosa fabulosae fabulosam fabulosas fabulosi fabulosis fabuloso fabulosum
+29	4029	innumerus	innumera innumerae innumeras innumeri innumeris innumeros
+30	4030	circumscriptio	circumscriptione circumscriptionem circumscriptiones circumscriptionibus circumscriptionis
+31	4031	ferratus	ferrata ferratae ferratam ferratarum ferratis ferratum
+32	4032	mythologicus	mythologica mythologicae mythologicas mythologici mythologicis mythologico mythologicum
+33	4033	aegritudo	aegritudine aegritudinem aegritudines aegritudini aegritudinis
+34	4034	correctio	correctione correctionem correctiones correctionibus correctionis
+35	4035	symphoniacus	symphoniacae symphoniaci symphoniacis symphoniacorum symphoniacos symphoniacum
+36	4036	pistor	pistore pistores pistori pistoris pistorum pistrices
+37	4037	fortuitus	fortuita fortuitam fortuite fortuiti fortuitorum fortuitos fortuitum
+38	4038	ultio	ultione ultionem ultioni ultionibus ultionis
+39	4039	inspiratio	inspiratione inspirationem inspirationes inspirationi inspirationum
+40	4040	insulanus	insulanarum insulani insulanis insulano insulanorum insulanos
+41	4041	montuosus	montuosa montuosae montuosam montuosis montuoso
+42	4042	bursa	bursae bursam bursarum bursis
+43	4043	instrumentalis	instrumentalem instrumentales instrumentali instrumentalia
+44	4044	barbatus	barbata barbatam barbati barbatorum barbatula barbatum
+45	4045	limen	limina limine limini liminis liminum
+46	4046	anser	ansere anseres anseri anseribus anseris anserum
+47	4047	indagatio	indagationem indagationes indagationi indagationibus indagationis indagationum
+48	4048	phrasis	phrase phrases phrasi phrasibus phrasim phrasin phrasium
+49	4049	indignus	indigna indignae indignam indignas indigne indigni indignum
+50	4050	antepono	anteponebantur anteponendum anteponi anteponit anteponitur anteponunt antepositum antepositus anteposuerant anteposuit
+51	4051	affigo	affigatur affigere affigi affigit affigitur affiguntur affixerunt affixit affixum affixus
+52	4052	liturgicus	liturgica liturgicae liturgicas liturgice liturgici liturgicis liturgico liturgicorum liturgicos liturgicum
+53	4053	exclamo	exclamabant exclamabat exclamandi exclamasse exclamat exclamatus exclamaverunt exclamavisse exclamavit
+54	4054	alligo	alligantur alligari alligasset alligat alligatis alligatorum alligatur alligaturus alligatus alligavit
+55	4055	fugitivus	fugitiva fugitivas fugitivi fugitivis fugitivorum fugitivos fugitivum
+56	4056	transcribo	transcribe transcribendo transcribendum transcribitur transcribunt transcribuntur transcripserit transcripserunt transcripsit transcriptum
+57	4057	architectonicus	architectonica architectonicae architectonicam architectonicarum architectonice architectonices architectonici architectonicum
+58	4058	percurro	percucurrit percurrebant percurrebat percurrebatur percurrere percurrit percurritur percurruntur
+59	4059	incorporo	incorporabantur incorporabit incorporantur incorporare incorporarent incorporat incorporatur incorporatus incorporavisset incorporavit
+60	4060	resurgo	resurgat resurgebant resurgentur resurgere resurgit resurgunt resurrectum resurrexerunt resurrexit
+61	4061	meditor	meditabatur meditabuntur meditanda meditandi meditandum meditans meditaret meditaretur meditari meditatur meditatus meditemur
+62	4062	obruo	obruat obruebantur obruens obruentur obruerent obrueretur obruit obruitur obrutum obrutus obruunt
+63	4063	effodio	effodere effoderunt effodi effodiebantur effodiendi effodiendo effodit effoditis effoditur effodiuntur effossum effossus
+64	4064	collabor	collabebant collabebantur collabens collaberetur collabi collabitur collabuntur collapsu collapsum collapsus
+65	4065	pertracto	pertractandum pertractans pertractantur pertractare pertractat pertractate pertractatis pertractatur pertractatus pertractaverunt pertractavit
+66	4066	trucido	trucidant trucidare trucidarentur trucidaret trucidari trucidato trucidatum trucidatus trucidaverit trucidaverunt trucidavit
+67	4067	sacrifico	sacrificabant sacrificabat sacrificabatur sacrificabitur sacrificandum sacrificare sacrificaretur sacrificasse sacrificat sacrificaverat sacrificaverit sacrificavisse sacrificavissent
+68	4068	evito	evitabant evitabat evitabo evitandum evitare evitarent evitari evitat evitato evitavit evitent evitentur evitetur
+69	4069	consularis	consularem consulares consulari consularia consularibus consularium
+70	4070	robur	robo robora robore robori roboris robus
+71	4071	nutrix	nutrice nutricem nutricibus nutricum
+72	4072	cervicalis	cervicale cervicalem cervicales cervicali cervicalia cervicalium
+73	4073	insularis	insulare insularem insulares insulari insularibus insularium
+74	4074	ausus	ausae ausi ausis ausu
+75	4075	oratoria	oratoriae oratoriam
+76	4076	procella	procellae procellarum procellas procellis
+77	4077	inopinatus	inopinata inopinatae inopinatas inopinatis inopinato inopinatum
+78	4078	superbus	superba superbe superbi superbis superbo superbos superbum
+79	4079	locuples	locuplete locupletem locupletes locupletior locupletis locupletissimus
+80	4080	desperatus	desperata desperatae desperate desperati desperatis desperato desperatorum desperatum
+81	4081	birota	birotae birotam birotarum birotis
+82	4082	intentus	intenta intentae intenti intentissimus intentum
+83	4083	nominandus	nominanda nominandam nominandi nominando nominandorum nominandos nominandum
+84	4084	iuro	iura iurabant iurandi iurando iurans iurare iurarent iuratis iuratore iuratorum iuratus iuraverint iuraverit iuraverunt iuravit
+85	4085	limus	limae limam lime limi limo limum
+86	4086	salio	sali saliendi saliendum salientem salientes salire saliri salis salit salitur saliunt saltum
+87	4087	aestivus	aestivae aestivam aestivi aestivis aestivorum aestivum
+88	4088	canus	cana canae canas cane cani canorum canos canum
+89	4089	praeceps	praecipite praecipitem praecipites praecipiti praecipitia praecipitibus praecipitii praecipitium
+90	4090	merum	mera meri meris mero
+91	4091	pelagius	pelagi pelagii pelagio pelagium
+92	4092	colon	cola cole coli colorum colos colum colus
+93	4093	recipero	reciperandi reciperare reciperaret reciperasse reciperatis reciperatum reciperavit reciperent reciperet reciperetur
+94	4094	traduco	traducatur traducendo traducendum traducere traducerent traduci traducit traducitur traducunt traducuntur traduxerunt traduxit
+95	4095	vesper	vespere vesperibus vesperis vespero vesperum
+96	4096	acerbus	acerba acerbae acerbam acerbi acerbis acerbo acerbos
+97	4097	mutuus	mutuae mutuam mutui mutuis mutuorum mutuos
+98	4098	ode	odae odarum odas odis
+99	4099	reformator	reformatore reformatorem reformatores reformatoribus reformatorum
+100	4100	praecipio	praeceperunt praecepisset praecepit praecipere praeciperet praecipiendum praecipit praecipite praecipiunt

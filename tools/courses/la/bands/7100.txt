@@ -1,0 +1,100 @@
+1	7001	clavichordium	clavichordio
+2	7002	topiarius	topiaria topiariae
+3	7003	hallus	halle
+4	7004	primoris	primorem primores
+5	7005	pervigilium	pervigilio
+6	7006	consummatio	consummationem
+7	7007	michiganensis	michiganensem
+8	7008	obscuritas	obscuritate obscuritatem
+9	7009	canonizo	canonizatus canonizavit
+10	7010	pugillares	pugillare pugillaribus
+11	7011	herodius	herodi herodii herodionis
+12	7012	tarsus	tarsi tarso tarsorum
+13	7013	allusio	allusione allusionem
+14	7014	revivisco	reviviscere revivisceret reviviscit revixi revixisse revixit
+15	7015	frontispicium	frontispiciis frontispicio
+16	7016	corrector	correctorem correctori
+17	7017	dilectio	dilectione dilectionem
+18	7018	obtendo	obtenderent obtenta obtentae obtentas obtenti obtentis optentus
+19	7019	ilico	illico
+20	7020	epitonium	epitonia
+21	7021	insectatio	insectationem insectationes
+22	7022	condylus	condylo condylorum
+23	7023	depositio	depositionem depositionis
+24	7024	finitimi	finitimis finitimorum
+25	7025	caium	caii
+26	7026	consuo	consu consuere consuuntur
+27	7027	interfluo	interfluant interfluit interfluunt
+28	7028	capito	capitone capitonis
+29	7029	noxius	noxii noxiorum noxium
+30	7030	nongentesimus	nongentesimi nongentesimo nongentesimos
+31	7031	pumilus	pumili pumilis pumilorum
+32	7032	ardenter	ardentius
+33	7033	simia	simiarum
+34	7034	martyrologium	martyrologia
+35	7035	aspis	aspidas aspidis
+36	7036	ruta	rutae rutam
+37	7037	finitor	finitorem finitorum
+38	7038	repercussus	repercussa repercussam
+39	7039	extrinsecus	extrinseca
+40	7040	minatio	minatione minationem minationibus
+41	7041	subrideo	subridebat subridens subrisit
+42	7042	deformis	deforme deformi deformior
+43	7043	trecentesimus	trecentesimo trecentesimum
+44	7044	firmamentum	firmamenti
+45	7045	merenda	merendam
+46	7046	ordinator	ordinatores ordinatoribus
+47	7047	dithyrambus	dithyrambo dithyrambum
+48	7048	feritas	feritate feritatem feritati
+49	7049	sclerosis	sclerosem sclerosi
+50	7050	confraternitas	confraternitatem confraternitatis confraternitatum
+51	7051	atrociter	atrocius
+52	7052	emancipatio	emancipatione emancipationis
+53	7053	novalis	novale novali
+54	7054	occisor	occisores occisorum
+55	7055	carceralis	carceralia carceralibus carceralium
+56	7056	clipeo	clipea
+57	7057	interregnum	interregni interregno
+58	7058	credulus	credulis credulum
+59	7059	apricus	aprici apricos apricum
+60	7060	poetria	poetriae poetrias
+61	7061	concurrentia	concurrentiae concurrentiis
+62	7062	parietalis	parietales parietalia
+63	7063	acraeus	acraea acraeae
+64	7064	transfluo	transfluens transfluit
+65	7065	isthmus	isthmo isthmum
+66	7066	iusiurandum	iureiurando
+67	7067	portucalensis	portucalense portugalensis
+68	7068	proscriptio	proscriptiones proscriptionibus
+69	7069	fermentatio	fermentatione fermentationibus fermentationis
+70	7070	dynamicus	dynamice dynamicorum
+71	7071	exponentialis	exponentialem
+72	7072	imitator	imitatores
+73	7073	perdix	perdicem perdicis
+74	7074	permixtio	permixtionem permixtionis
+75	7075	inclusio	inclusiones inclusionis
+76	7076	pergula	pergulae pergulam pergulis
+77	7077	blanditia	blanditiae blanditiarum blanditias blanditiis
+78	7078	culcita	culcitae culcitam
+79	7079	rectoratus	rectoratu rectoratui rectoratum
+80	7080	ampulla	ampullae ampullis
+81	7081	dilemma	dilemmata
+82	7082	abdomen	abdomini abdominis
+83	7083	praecipitatio	praecipitatione praecipitationes praecipitationibus
+84	7084	legislatio	legislatione legislationem legislationum
+85	7085	impatiens	impatienter impatientes
+86	7086	patrioticus	patriotica patrioticae patrioticorum patrioticum
+87	7087	pressura	pressurae pressuram
+88	7088	spatiosus	spatiosa spatiosae spatiosior spatioso
+89	7089	aemulator	aemulatorem aemulatores aemulatori
+90	7090	furca	furcam furcas
+91	7091	falco	falconem falcones falconis
+92	7092	subclassis	subclassem subclasses
+93	7093	laudabilis	laudabile laudabilibus laudabiliter
+94	7094	diluo	diluere diluitur dilutum
+95	7095	polluo	polluerunt polluisse polluit pollutus
+96	7096	capulum	capulo
+97	7097	iliacus	iliaca iliacae iliaci
+98	7098	refrigeratio	refrigeratione refrigerationem refrigerationis
+99	7099	carnosus	carnosa carnosi carnoso carnosum
+100	7100	alascus	alasca alascae alascam

@@ -1,0 +1,100 @@
+1	5401	tabernarius	tabernaria tabernariam tabernariarum tabernarii tabernariorum tabernarium
+2	5402	sollemnitas	sollemnitate sollemnitatem sollemnitatibus sollemnitatis
+3	5403	chronologicus	chronologica chronologicam chronologicas chronologico chronologicum
+4	5404	incredibilis	incredibile incredibilem incredibiles incredibili incredibilia incredibiliter incredibilium
+5	5405	luctor	luctandi luctando luctans luctantur luctari luctatur luctatus
+6	5406	ingenuus	ingenua ingenuam ingenuarum ingenuo ingenuos ingenuum
+7	5407	modalis	modale modalem modales modali modalibus
+8	5408	proiectio	proiectionem proiectiones proiectionibus proiectionum projectio
+9	5409	emigro	emigrandi emigrare emigratis emigravere emigraverunt emigravit
+10	5410	gusto	gustabit gustandi gustandum gustant gustavi gustavisse gustavit gustet
+11	5411	edoceo	edocebantur edocendi edoceret edoceri edocet edocetur edoctus edocuit
+12	5412	obstruo	obstruantur obstructum obstructus obstruebat obstruere obstrueretur obstruitur obstruuntur obstruxit
+13	5413	macer	macra macrae macram macri macris macro macrum
+14	5414	igneus	ignea igneam ignei igneis igneo igneorum igneos
+15	5415	exporto	exportabant exportabantur exportandum exportant exportatis exportatum exportatur exportavisset exportentur
+16	5416	calefacio	calefaciant calefaciat calefaciendi calefacit calefacitur calefactus calefiat calefit
+17	5417	subiectivus	subiectiva subiectivae subiectivas subiectivis subiectivo subiectivorum subiectivum
+18	5418	diiudico	diiudicandi diiudicandum diiudicandus diiudicant diiudicare diiudicarent diiudicaret diiudicatur diiudicavit
+19	5419	scepticus	sceptici scepticis sceptico scepticorum scepticos scepticum
+20	5420	fumo	fumabant fumabat fumando fumans fumare fumata fumato fument
+21	5421	ambitiosus	ambitiosa ambitiose ambitiosi ambitiosior ambitiosorum ambitiosos ambitiosum
+22	5422	pallidus	pallida pallidae pallidas pallidi pallidior pallido pallidum
+23	5423	scindo	sciderunt scidisse scinderet scindi scindit scinditur scindunt scissum scissus
+24	5424	glorifico	glorificabant glorificandum glorificantur glorificari glorificat glorificatur glorificatus glorificaverit glorificavit glorificent glorificetur
+25	5425	memor	memores memoriter
+26	5426	sollicitus	sollicita solliciti sollicitum
+27	5427	hortatus	hortata hortato hortatos hortatu
+28	5428	clava	clavae clavam clavas
+29	5429	lancea	lanceae lanceam lanceas lanceis lancia
+30	5430	cos	coi coo cotis
+31	5431	fovea	foveam foveas foveis
+32	5432	maleficium	maleficia maleficii maleficiis maleficio
+33	5433	bracae	bracas bracis
+34	5434	vanitas	vanitate vanitatem
+35	5435	ostentum	ostenta ostenti ostentis
+36	5436	hiatus	hiatu hiatum hiatuum
+37	5437	fossatum	fossati
+38	5438	vinea	vineae vinearum vineas vineis
+39	5439	adipatum	adipata adipati adipatis adipatorum
+40	5440	alatus	alata alatae alati alatis alatum
+41	5441	sudo	suda sudamus sudant sudare sudetis
+42	5442	tenendus	tenendae tenendam tenendi tenendis tenendo tenendum
+43	5443	produx	produci
+44	5444	adiectivus	adiectiva adiectivae adiectivi adiectivis adiectivo adiectivorum adiectivos
+45	5445	crusta	crustae crustis crustula crustulas
+46	5446	producto	producta productas productor productores productoribus productorum
+47	5447	aquarius	aquari aquaria aquariae aquarii aquariis aquario aquariorum
+48	5448	amens	amentem amenti amentia amentium
+49	5449	archetypum	archetypi archetypis archetypo archetyporum
+50	5450	amasia	amasiae amasiam amasiis
+51	5451	posticus	postica posticae posticam posticas postice postici postico
+52	5452	quadragesimus	quadragesimae quadragesimo quadragesimum
+53	5453	coniugo	coniuga coniugantur coniugatum coniugatus coniugem coniugere coniuges
+54	5454	stratus	stratae stratam stratas strati stratibus stratis strato stratorum stratos stratu stratuum
+55	5455	trunco	trunca truncatis truncavit
+56	5456	exardesco	exardesceret exardescit exarserat exarserunt exarsisse exarsisset exarsit
+57	5457	converro	conversum
+58	5458	ren	rene renem renes renibus renis renium renum
+59	5459	pavimentum	pavimenta pavimenti pavimento
+60	5460	insisto	insistant insistebat insistere insisteret insistit institit
+61	5461	redimo	redemerat redemisse redemit redimat redimere redimeret redimi redimisse redimit
+62	5462	insto	instant instantem instantes instantur instare instat instent instet institit
+63	5463	frigo	fricta frictae fricti frictis fricto frictum frigas frigendi frigendo frigere frigitur friguntur frixa
+64	5464	bino	bina binares binas
+65	5465	scalaris	scalare scalarem scalaria scalariis
+66	5466	longinquo	longinqua longinquas longinquius
+67	5467	cavo	cavatoribus cavatu cavatum cavaverunt cavent cavere caves cavet
+68	5468	peccator	peccatorem peccatores peccatoris peccatorum
+69	5469	recepto	recepta receptor
+70	5470	praedicatum	praedicata praedicato praedicatorum
+71	5471	carina	carinae carinam
+72	5472	regredior	regrederetur regredi regrediant regrediantur regrediens regredit regreditur regressu regressum
+73	5473	varus	vara vare vari varis varum
+74	5474	lacuno	lacunare lacunarem lacunaria lacunaribus lacunaris lacunas
+75	5475	morus	morae moram moras more mori moris mororum
+76	5476	angusto	angusta
+77	5477	arduus	ardua arduae arduam arduas ardui arduis arduo arduorum
+78	5478	archetypus	archetypae archetypi archetypis archetypo archetyporum archetypos
+79	5479	dimidio	dimidia dimidias dimidiato dimidiatur
+80	5480	gena	genam genarum genas genis
+81	5481	rhetoricus	rhetoricae rhetoricam rhetoricarum rhetoricas rhetorico rhetoricum
+82	5482	armo	armando armandus armantur armare armas armat armatis armato armatur armavit
+83	5483	industrius	industriae industriam industriarum industrias industrii industriis industrio industrium
+84	5484	lator	latores latoribus latoris latorum
+85	5485	pareo	pare pareant pareat parendorum parendum parent parere parerent pareret paret paruerunt paruisse paruit
+86	5486	milliarius	miliaria miliariarum miliarii miliario miliarium milliaria milliariae milliarias
+87	5487	despero	desperabat desperans desperant desperarent desperasset desperat desperate desperatis desperato desperatum
+88	5488	abscondo	abscondat abscondendo abscondens abscondere abscondidisse abscondidit abscondit absconditis abscondito absconditum
+89	5489	cremo	crema cremarentur cremasse crematis crematum crematus cremavit
+90	5490	auxilior	auxiliabantur auxiliabatur auxiliantur auxiliarentur auxiliari auxiliatores auxiliatoribus auxilio
+91	5491	convinco	convicerit convicit convictu convincat convincendam convincendos convincere convincerem convincuntur
+92	5492	arcesso	arcessat arcessere arcesserent arcessit arcessito arcessitum arcessiverunt arcessivit
+93	5493	pudeo	pudendi pudentes pudentis pudere puderet pudet puduisse puduit
+94	5494	privo	privandum privare privaretur privasset privat private privato privatum privatur privaverunt privavit
+95	5495	saepio	saepem saepia saepiam saepibus saepior saepiri saepit saepiunt saepiuntur saepserunt
+96	5496	coniuro	coniurabant coniurandum coniurans coniurasse coniuratis coniuravere coniuravissent coniuravit
+97	5497	compello	compellere compellet compellit compellunt compelluntur compulit compulsum
+98	5498	sterno	sternat sternebantur sternebat sternebatur sternitur sternunt sternuntur stratu
+99	5499	texo	texas texier texit texor textu textum texuit texunt texuntur
+100	5500	senus	sena senae senam sene seni senis senorum senum

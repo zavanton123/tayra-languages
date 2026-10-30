@@ -1,0 +1,100 @@
+1	4401	accendo	accendant accendebant accendens accendere accenderet accenderunt accendi accendit accenditur accendunt accenduntur
+2	4402	dimidius	dimidia dimidiae dimidiam dimidiarum dimidias dimidii
+3	4403	genetrix	genetricem genetricis genitorem genitores genitoribus genitoris
+4	4404	tubus	tube tubis tubo tubos tubum
+5	4405	libo	liba libant libare libentur liberis libet libonis libor
+6	4406	honestum	honesti honesto
+7	4407	asper	aspera asperam asperas asperi asperior asperis aspero asperrimus
+8	4408	mystica	mysticis mysticorum
+9	4409	solido	solida solidando solidas solidatus solidavit solidor
+10	4410	nupta	nuptae nuptam
+11	4411	palo	palantur palari palaria palati palato palatum pales palis
+12	4412	vitreus	vitrea vitreae vitream vitreas vitreis vitreorum vitreum
+13	4413	incedo	incedebant incedebat incedens incedere incedit incedunt incessere incessisse incessisset incessit incessu incessum
+14	4414	persono	personabat personando personans personant personaret personas personat personatum personaverunt personavit
+15	4415	effundo	effundantur effundebant effundebatur effundere effunderet effunderetur effundit effunditur effundunt effunduntur effusum
+16	4416	vireo	vire virebat virebit virens virent virente virentem vires viret viretis
+17	4417	informo	informabat informaberis informando informantur informare informarentur informaretur informat informatur informes
+18	4418	mordeo	momordit mordeant mordeat mordebatur mordens mordent mordere mordet mordetur morsu
+19	4419	insignio	insigni insigniebant insigniens insignit insignitum insignitus insigniunt insigniuntur insignivit
+20	4420	velociter	velocissime velocius
+21	4421	discrepantia	discrepantiae discrepantiam discrepantiarum discrepantias
+22	4422	flexio	flexione flexionem flexiones flexionibus flexionis
+23	4423	excellens	excellentes excellenti excellentibus excellentissimus excellentius
+24	4424	necat	
+25	4425	nonne	
+26	4426	quatenus	
+27	4427	necato	
+28	4428	tanquam	
+29	4429	octarius	octavius
+30	4430	forsan	
+31	4431	neue	
+32	4432	quocirca	
+33	4433	retrorsum	
+34	4434	aliquatenus	
+35	4435	excretio	excretionis
+36	4436	caesius	caesi caesia caesii caesiis
+37	4437	coopto	cooptabant cooptantur cooptatus cooptaverunt
+38	4438	basilium	basilia basilii basilio
+39	4439	reverentia	reverentiae reverentiam
+40	4440	scacci	scaccis scaccorum
+41	4441	crypta	cryptae cryptam
+42	4442	protocollum	protocolli protocollo protocollorum
+43	4443	profectio	profectione profectionem profectionis
+44	4444	nomenclatura	nomenclaturae nomenclaturam
+45	4445	consaeptum	consaepti consaepto consaeptorum
+46	4446	innumerabilis	innumerabiles innumerabilia innumerabilibus
+47	4447	archaeologia	archaeologiae archaeologiam
+48	4448	cera	cerae ceram cerum
+49	4449	conicus	conica conicae conicam conici conicis conicorum
+50	4450	fumus	fumi fumo fumum
+51	4451	harpastum	harpasti harpasto
+52	4452	proavus	proavi proavo proavorum proavum
+53	4453	aequinoctialis	aequinoctiale aequinoctialem aequinoctiali
+54	4454	praecursor	praecursorem praecursores praecursoribus praecursoris praecursorum
+55	4455	cautio	cautione cautionem cautionibus cautionis cautionum
+56	4456	cassis	cassida cassidae cassidem cassium
+57	4457	vocativus	vocativi vocativo vocativum
+58	4458	flaccus	flacci flacco flaccum
+59	4459	antiquarius	antiquarii antiquario antiquariorum antiquarios antiquarium
+60	4460	dissolutio	dissolutione dissolutionem dissolutioni dissolutionis dissolutionium
+61	4461	multiplicatio	multiplicatione multiplicationem multiplicationes multiplicationis
+62	4462	rogatio	rogatione rogationem rogationes rogationibus
+63	4463	canna	cannae cannam cannarum cannas cannis
+64	4464	minusculus	minuscula minusculae minusculam minuscularum minusculis minusculorum
+65	4465	diffusio	diffusione diffusionem diffusionis diffusionum
+66	4466	maorianus	maoriana maoriane maoriani maorianum
+67	4467	innovatio	innovationem innovationes innovationibus innovationis innovationum
+68	4468	irregularis	irregulare irregulares irregularia irregularibus
+69	4469	culter	cultri cultris cultro cultrum
+70	4470	praescriptum	praescripta praescriptis
+71	4471	amphitheatrum	amphiteatrum amphitheatri amphitheatris amphitheatro
+72	4472	machinalis	machinale machinalem machinales machinali
+73	4473	memorabilis	memorabile memorabili memorabilia memorabilibus memorabilium
+74	4474	splendor	splendore splendorem splendorum
+75	4475	telephonum	telephona telephoni telephonis telephono telephonorum
+76	4476	emptio	emptione emptionem emptionis
+77	4477	pronus	prona pronam proni pronis pronius pronum
+78	4478	aedilis	aedilem aediles aedilibus aedilium aedilum
+79	4479	funis	fune funem funes funi funibus
+80	4480	viarius	viaria viariae viarii viario viariorum viarium
+81	4481	immensus	immensa immensae immensam immensas immensi immenso immensum
+82	4482	derivativus	derivativa derivativi derivativis derivativo derivativorum derivativos derivativum
+83	4483	disertus	disertam diserte diserti
+84	4484	propugnator	propugnatorem propugnatores propugnatoris
+85	4485	mansio	mansionem mansiones mansionibus mansionis
+86	4486	congruentia	congruentiae congruentiam congruentiarum congruentias congruentiis
+87	4487	subdivisio	subdivisione subdivisionem subdivisiones subdivisionibus subdivisionis subdivisionum
+88	4488	adiumentum	adiumenta adiumenti adiumentis adiumento
+89	4489	argentinus	argentina argentinae argentinam argentini argentinorum argentinum
+90	4490	correspondeo	correspondebat correspondens correspondent correspondet correspondit
+91	4491	involucrum	involucra involucri involucris involucro involucrorum
+92	4492	perutilis	perutile perutilem perutiles perutilia
+93	4493	passivus	passiva passivae passivam passivi passivis passivo passivum
+94	4494	tapes	tapetarum tapetia tapetibus tapeto tapetorum tapetum
+95	4495	veteranus	veteranae veterani veteranis veteranorum veteranos
+96	4496	decisio	decisionem decisiones decisionis decisionum
+97	4497	quaternus	quaterna quaternas quaterni quaternis quaternorum quaternos
+98	4498	omnipotens	omnipotentem omnipotentia omnipotentiae omnipotentiam omnipotentis
+99	4499	repugno	repugnabant repugnabat repugnans repugnant repugnare repugnavisset repugnavit
+100	4500	flandricus	flandrica flandricae flandricarum flandrice flandrici flandrico flandricum

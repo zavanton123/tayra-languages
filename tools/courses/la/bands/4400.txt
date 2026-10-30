@@ -1,0 +1,100 @@
+1	4301	rhetor	rhetore rhetorem rhetores rhetoribus rhetoris
+2	4302	rostrum	rostra rostris rostro rostrorum
+3	4303	aestus	aestu aestum aestuum
+4	4304	nilus	nili nilo nilum
+5	4305	ignorantia	ignorantiae ignorantiam
+6	4306	simplicitas	simplicitate simplicitatem simplicitatis
+7	4307	conus	coni cono conorum conos conum
+8	4308	inspectio	inspectione inspectionem inspectiones inspectionis inspectionum
+9	4309	lucubratio	lucubratione lucubrationem lucubrationes lucubrationibus lucubrationis
+10	4310	pensio	pensione pensionem pensiones pensionibus pensionis pensionum
+11	4311	fictio	fictione fictionem fictiones fictionibus fictionis
+12	4312	geometricus	geometrica geometricae geometricam geometricas geometricis geometricorum geometricum
+13	4313	anceps	ancipitem ancipiti ancipitia ancipitibus
+14	4314	affinis	adfinis affinem affines affinibus affinum
+15	4315	maioritas	maioritate maioritatem maioritatis
+16	4316	socialista	socialistae socialistarum socialistas socialistis
+17	4317	alienigenus	alienigenae alienigenarum alienigenas alienigenis alienigenum
+18	4318	anxietas	anxietate anxietatem anxietates anxietatis anxietatum
+19	4319	venditio	venditione venditionem venditiones venditionibus venditionis venditionum
+20	4320	sclopetum	sclopeta sclopeti sclopetis sclopeto
+21	4321	ambulans	ambulante ambulantem ambulantes ambulanti ambulantibus ambulantis
+22	4322	astrum	astra astri astris astro astrorum
+23	4323	sarcophagus	sarcophagi sarcophagis sarcophago sarcophagorum sarcophagos
+24	4324	amabilis	amabile amabilem amabilia amabilibus amabiliter amabilium
+25	4325	consolatio	consolatione consolationem consolationi consolationis
+26	4326	calleo	callebat callendo callens callent callere callet calluit
+27	4327	involvo	involutum involutus involvebatur involveret involvi involvit involvitur involvuntur
+28	4328	vilis	vile viles vili vilia vilibus vilium
+29	4329	iurgium	iurgi iurgia iurgii iurgiis iurgio iurgiorum
+30	4330	uva	uvae uvam uvarum uvas uvis
+31	4331	mundialis	mundiale mundialem mundiales mundiali mundialia mundialibus
+32	4332	inservio	inserviant inserviebat inserviens inservire inservirent inserviret inserviunt inservivit
+33	4333	festivitas	festivitate festivitatem festivitates festivitatibus festivitatis festivitatum
+34	4334	nominalis	nominale nominalem nominales nominali nominalia
+35	4335	consobrina	consobrinam consobrini consobrino consobrinos consobrinum consobrinus
+36	4336	servilis	servile serviles servilibus servilium servilius
+37	4337	radio	radiandum radians radiat radiatum
+38	4338	nux	nuce nuces nucis nucum
+39	4339	peloponnesia	peloponnesi peloponnesiis peloponnesio peloponnesiorum peloponnesios peloponnesium
+40	4340	secessio	secessione secessionem secessiones secessioni secessionibus secessionis
+41	4341	expulso	expulsa expulsabatur expulsatur expulsaverunt
+42	4342	extractum	extracta extracti extractis extracto
+43	4343	sanctio	sanctione sanctionem sanctiones sanctioni sanctionis sanctionum
+44	4344	alternativus	alternativa alternativae alternativam alternativas alternativi alternativis alternativum
+45	4345	specus	specibus specu specui specum specuum
+46	4346	dogmaticus	dogmatica dogmaticae dogmaticam dogmatici dogmaticorum dogmaticos dogmaticum
+47	4347	plasticus	plastica plasticae plasticarum plasticas plastici plasticis plastico plasticum
+48	4348	ignifer	ignifera igniferarum igniferi ignifero igniferorum igniferos
+49	4349	cosmicus	cosmica cosmicae cosmice cosmici cosmico cosmicum
+50	4350	mutabilis	mutabile mutabilem mutabili mutabilia mutabilibus mutabilium mutabilum
+51	4351	ascribo	ascribent ascribi ascribit ascribitur ascribunt ascribuntur ascripsit ascriptum ascriptus
+52	4352	confluo	confluebant confluit confluunt confluxere confluxerunt confluxisse confluxissent confluxit
+53	4353	amatorius	amatoria amatoriam amatoriarum amatorias amatorii amatoriis amatorio amatoriorum amatorium
+54	4354	avidus	avida avide avidi avidior avidius avido avidos avidum
+55	4355	erumpo	erumpat erumpatur erumpebat erumpens erumpere erumpit erumpitur erumpunt eruperunt erupit
+56	4356	aemulor	aemulabantur aemulabatur aemulandi aemulandum aemulantur aemularetur aemulari aemulatae aemulatur aemulentur
+57	4357	edico	edicantur edicere ediceret edicit edictus edixerant edixerat edixerit edixerunt edixisse edixit
+58	4358	velox	velocem veloces veloci velocia velocibus velocior velocis velocissimus
+59	4359	dispergo	dispergam dispergens dispergere dispergetur dispergitur dispergunt disperguntur dispersi dispersit dispersum dispersus
+60	4360	reconcilio	reconciliare reconciliaret reconciliaretur reconciliari reconciliat reconciliatores reconciliatum reconciliatus reconciliavit reconcilietur
+61	4361	vibro	vibrabat vibrans vibrant vibrantur vibrare vibrari vibrata vibratae vibratis vibrato
+62	4362	supprimo	suppresserunt suppressisse suppressit suppressum suppressus supprimant supprimens supprimere supprimerentur supprimi supprimuntur
+63	4363	diripio	diripere diriperetur diripiebant diripiebat diripiere diripit diripitur diripuerant diripuerunt diripuisset diripuit
+64	4364	diminuo	diminuat diminuebant diminuendo diminueretur diminuerit diminuerunt diminui diminuisse diminuit diminutus diminuunt
+65	4365	purpureus	purpurea purpureae purpuream purpureas purpuree purpurei purpureis purpureo purpureum
+66	4366	mongolicus	mongolica mongolicae mongolicam mongolicas mongolice mongolici mongolicis mongolico mongolicos mongolicum
+67	4367	laedo	laedantur laedens laedent laedere laederent laederetur laedi laedunt laeserunt laesit laesum laesus
+68	4368	articulo	articula articulandi articulari articularis articulatae articulatam articulatas articulator articulatorum articulatur
+69	4369	interpono	interponat interponendus interponere interponeret interponetur interponitur interpositus interposuerant interposuerat interposuerunt interposuisset interposuit
+70	4370	porrigo	porrexerit porrexisset porrexit porrigat porrigebat porrigens porrigit porrigitur porrigunt porriguntur
+71	4371	accumulo	accumulabantur accumulant accumulare accumulari accumulat accumulatis accumulato accumulatus accumulavit accumulent accumuletur
+72	4372	indulgeo	indulgeas indulgeat indulgebat indulgens indulgent indulgere indulgerent indulget indulgetur indulserat indulserit indulsisse indulsit indultum
+73	4373	amoveo	amotum amotus amovebat amovebitur amovendi amovendum amovere amoverentur amoveri amovet amovetur amovit
+74	4374	incarceratus	incarcerato incarceratos
+75	4375	proventus	proventum
+76	4376	obsequium	obsequi obsequio
+77	4377	fultus	fulta fultae fultam fulti fultum
+78	4378	campania	campanea campaniae campaniam
+79	4379	coquina	coquinae coquinam coquinis
+80	4380	stagnum	stagna stagni stagnis
+81	4381	aequitas	aequitate aequitatem aequitatis equitas
+82	4382	interitus	interitu interitui interitum
+83	4383	descensus	descensu descensum
+84	4384	addictus	addicta addicti addictis addictorum addictum
+85	4385	consideratus	considerata considerate considerati consideratis consideratius consideratum
+86	4386	vectis	vecta vecte vectem vectes vecti
+87	4387	memoratus	memorata memorati memoratis memoratos memoratum
+88	4388	saccharum	sacchari saccharis saccharo
+89	4389	vastum	vasta vastis vastorum
+90	4390	persicum	persici persicis persico persicorum
+91	4391	stuprum	stupra stupri stupris stupro
+92	4392	balneum	balnei balneis balneo balneorum
+93	4393	ferraria	ferrariae ferrariam ferrariarum ferrarias ferrariis
+94	4394	operatus	operata operatae operati operatorum operatum
+95	4395	maestus	maesta maestam maestas maeste maestis maesto maestum
+96	4396	solidus	solida solidae solidam solidas solide solidi solidior solidis solidorum solidos
+97	4397	mentum	mentam menti mentis mento mentoni
+98	4398	poto	potabant potabis potandi potando potandum potare potasset potato potatores potatoris potatorum potatum potent potere poteris potes potet potu potum
+99	4399	risus	risi risu risui risum risuum
+100	4400	dito	ditabant ditabatur ditare ditari ditat ditaturus ditatus ditaverit ditavit ditem

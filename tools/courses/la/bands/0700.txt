@@ -1,0 +1,100 @@
+1	601	pagina	paginae paginam paginarum paginas paginis
+2	602	definio	defini definiamus definiant definiantur definiatur definiebant definiebantur definiebat definiendo definiens definierunt definimus definire definiret definiri definit definitis definito definitor definitu definitum definitur definitus definiunt definiuntur definiverant definiverunt definivit
+3	603	statim	
+4	604	extra	exterius
+5	605	cito	cita citanda citandam citandas citandi citandis citandum citans citant citantur citare citaret citari citat citata citatae citatam citatas citati citatis citato citatorum citatu citatum citatur citatus citaverunt citavimus citavit citemus citentur citerior cites citet citetur citratum citri citro citrorum
+6	606	verum	veri veris verorum
+7	607	refero	refer referam referant referantur referat referatur referebant referebantur referebat referebatur referenda referendae referendam referendarum referendis referendo referendos referendum referens referetur referre referremur referrent referrentur referret referri refers refertur referunt referuntur relatu relatum rettulerunt rettulisse rettulit retulerant retulerint retulerunt retulissent retulit
+8	608	modernus	moderna modernae modernam modernarum modernas moderne moderni modernis moderno modernorum modernos modernum
+9	609	insuper	
+10	610	nonnumquam	nonnunquam
+11	611	monumentum	monumenta monumenti monumentis monumento monumentorum monumentus
+12	612	verso	versa versabant versabantur versabatur versando versans versant versantur versare versaretur versari versas versat versatis versato versatum versatur versatus verses verset versetur
+13	613	potius	
+14	614	cresco	crescant crescas crescat crescebant crescebat crescendi crescendo crescens crescent crescere crescerent cresceret crescet crescit crescite crescitur crescuntur cretu creturus creverit creverunt crevisse crevissent crevisset crevit
+15	615	sinus	sina sini sinibus sinis sino sinu sinui sinum sinuum
+16	616	figura	figurae figuram figurarum figuras figuris
+17	617	compositum	composita compositi compositis composito compositorum
+18	618	facile	facilius facillime
+19	619	aedifico	aedifica aedificabant aedificabantur aedificabat aedificabatur aedificabo aedificanda aedificandam aedificandas aedificandi aedificandis aedificando aedificandorum aedificandos aedificandum aedificans aedificant aedificantur aedificarat aedificare aedificarent aedificarentur aedificaret aedificaretur aedificari aedificarunt aedificasse aedificatis aedificato aedificatum aedificatur aedificatus aedificaverant aedificavere aedificaverunt aedificavit aedificent aedificet
+20	620	litus	litora litore litori litoribus litoris litorum littus
+21	621	ignotus	ignota ignotae ignotam ignotarum ignotas ignoti ignotis ignoto ignotorum ignotos ignotum
+22	622	converto	conversum conversurus conversus convertant convertat convertatur convertebant convertebat convertemini convertendi convertendo convertendum convertens converterat convertere converterentur converteret converterunt convertet converti convertisse convertissent convertit convertitur convertunt convertuntur
+23	623	centesima	centesimae centesimam centesimarum centesimas centesimis
+24	624	musicus	musicae musicam musicarum musicas musice musicen musici musicis musico musicorum musicos musicum
+25	625	functio	functione functionem functiones functioni functionibus functionis functionum
+26	626	designo	designabant designabantur designabat designabatur designandum designant designantur designare designaret designat designatis designato designatum designatur designatus designaverant designavere designaverunt designavisse designavit designent designentur designet designetur
+27	627	ruber	rubra rubrae rubram rubrarum rubras rubri rubris rubro rubrorum rubros rubrum rubrus
+28	628	missus	missa missae missam missarum missas missi missis misso missorum missum misus
+29	629	servus	serva servae servam servi servis servorum servos servum
+30	630	hora	horae horam horarum horas horis
+31	631	regia	regiae regiam regiarum regias regiis
+32	632	uterque	utraeque utramque utrarumque utrasque utrique utrisque utriusque utroque utrorumque utrosque utrumque
+33	633	cellula	cellulae cellulam cellularum cellulas cellulis
+34	634	celebro	celebra celebrabant celebrabantur celebrabat celebrabatur celebrabitis celebrabitur celebramus celebrandi celebrando celebrandum celebrans celebrant celebrantur celebrare celebrarentur celebraret celebraretur celebrari celebrat celebratis celebrato celebratum celebratur celebraturus celebratus celebravere celebraverunt celebravit celebrem celebrent celebrentur celebres celebret
+35	635	puella	puellae puellam puellarum puellas puellis puellula
+36	636	numero	numera numerabant numerabantur numerabat numerabatur numerabuntur numerandi numerando numerandum numerandus numerans numerant numerantur numerare numerari numerat numeratis numerator numeratore numeratores numeratum numeratur numeratus numeraverunt numeravit numerem numeremus numerent numeretur
+37	637	habitus	habita habitae habitam habitarum habitas habiti habitibus habitis habitorum habitos habitu habitui habitum habituum
+38	638	octo	octiens
+39	639	caelum	cael caela caeli caelis caelo caelorum caelos caelus celorum coelum cælum
+40	640	consisto	consistant consistat consistebant consistebat consistendi consistendo consistent consistere consisterent consisteret consistet consistit consistunt constiterit constiterunt constitisse constitit constitum constiturus
+41	641	machina	machinae machinam machinarum machinas machinis
+42	642	conventus	conventa conventi conventibus conventis convento conventos conventu conventui conventum conventuum
+43	643	confero	collatum collatus confer conferamus conferant conferat conferatur conferebant conferebantur conferebat conferendas conferendi conferens conferre conferrent conferret conferri confert confertis confertur conferunt conferuntur contulerat contulerint contuleris contulerit contulerunt contulisse contulissent contulisset contulit
+44	644	infra	inferiorum inferius
+45	645	comitatus	comitata comitatae comitatam comitate comitati comitatibus comitatis comitatu comitatui comitatum comitatuum
+46	646	iudaeus	iudaea iudaeae iudaeam iudaei iudaeis iudaeo iudaeorum iudaeos iudaeum
+47	647	theatrum	theatra theatri theatris theatro theatrorum
+48	648	pons	ponte pontem pontes ponti pontibus pontis pontium
+49	649	longitudo	longitudine longitudinem longitudines longitudini longitudinibus longitudinis longitudinum
+50	650	victus	victa victae victam victarum victi victis victo victos victu victui victum
+51	651	aedis	aede aedem aedes aedi aedibus aedium
+52	652	recipio	receperant receperat receperunt recepimus recepisse recepissent recepisset recepit receptum recepturus recipere reciperent reciperet reciperetur recipi recipiant recipias recipiat recipiebant recipiebantur recipiebat recipienda recipiendam recipiendi recipiendis recipiendo recipiendos recipiendum recipiens recipient recipiet recipis recipit recipitur recipiunt recipiuntur
+53	653	ductus	ducta ductae ductam ductas ducti ductibus ductis ducto ductorum ductos ductu ductum ductuum
+54	654	os	ore ori oribus oris orum ossa osse ossibus ossis ossium ossua
+55	655	differo	differant differantur differat differebant differebat differebatur differens different differente differre differrent differretur differt differtur differunt differuntur dilatus distulerit distulit
+56	656	nego	negabant negabat negamus negandi negando negandum negans negant negantur negare negaret negaretur negari negarint negasset negat negatis negatur negaturus negatus negaverant negaverat negaveris negaverit negaverunt negavisset negavit negem negent neget
+57	657	quomodo	como
+58	658	fungor	functum functurus functus fungar fungatur fungebant fungebantur fungebat fungebatur fungendo fungendum fungens fungerentur fungeretur fungetur fungi fungit fungitur funguntur
+59	659	rego	rectu recturus regant regatur rege regebant regebat regebatur regenda regendae regendam regendi regendos regendum regens regent regere regerent regeret regeretur reges regi regis regit regitur regunt rexerat rexere rexerit rexerunt rexisse rexit
+60	660	divisio	divisione divisionem divisiones divisioni divisionibus divisionis divisionum
+61	661	punctum	puncta puncti punctis puncto punctorum
+62	662	condicio	condicione condicionem condiciones condicioni condicionibus condicionis condicionum
+63	663	censeo	censeant censeantur censeatur censebant censebantur censebat censebatur censemus censenda censendo censendum censent censentur censere censerent censeret censeri censet censetur censu censuerant censuerat censuerunt censui censuisse censuit censum
+64	664	instituo	instituant instituat instituatur instituebant instituebantur instituebat instituebatur instituendi instituendo instituendus instituens instituentur instituerant instituerat instituere instituerent instituerentur institueret institueretur instituerit instituerunt institui instituisse instituit instituitur institutus instituunt instituuntur
+65	665	demonstro	demonstrabant demonstrabat demonstrabatur demonstrabitur demonstranda demonstrandae demonstrandam demonstrandas demonstrandi demonstrando demonstrandos demonstrandum demonstrans demonstrant demonstrantur demonstrarat demonstrare demonstrarem demonstraret demonstrari demonstrasse demonstrat demonstratum demonstratur demonstratus demonstravere demonstraverunt demonstravit demonstrent demonstrentur demonstret demonstretur
+66	666	alumnus	alumna alumnae alumni alumnis alumno alumnorum alumnos alumnum
+67	667	programma	programmata programmate programmati programmatibus programmatis programmatum
+68	668	adversus	adversa adversae adversam adversarum adversas adversi adversis adverso adversorum adversos adversum
+69	669	significatio	significatione significationem significationes significationibus significationis significationum
+70	670	usitatus	usitata usitatae usitatam usitatarum usitatas usitate usitati usitatis usitatissimus usitato usitatorum usitatos usitatum
+71	671	arma	armam armarum armas armis armorum
+72	672	quaero	quaeramus quaerant quaeras quaerat quaeratur quaerebant quaerebantur quaerebat quaerebatur quaerenda quaerendae quaerendam quaerendas quaerendi quaerendis quaerendo quaerendos quaerendum quaerendus quaerent quaerere quaererem quaererent quaereret quaereretur quaeres quaeret quaeri quaerimus quaeris quaerit quaeritis quaeritur quaerunt quaeruntur quaesit quaesitum quaesiverunt quaesivit
+73	673	paro	para parabant parabantur parabat parabatur parabo paranda parandae parandam parandas parandis parando parandorum parandos parandum parans parant parantur parare pararent pararentur pararet pararetur parari pararunt parat paratum paratur paraverat paraverit paraverunt paravisse paravissent paravisset paravit parent parentur parere paret
+74	674	defendo	defendam defendantur defendat defendatur defendebat defendebatur defendenda defendendae defendendam defendendas defendendi defendendis defendendo defendendorum defendendos defendendum defendens defenderat defendere defenderent defenderentur defenderet defenderetur defenderit defenderunt defendi defendis defendisse defendisset defendit defenditur defendunt defensu defensum defensus
+75	675	intersum	intererant intererat intererit interesse interessent interesset interest interfuerat interfuerint interfuerit interfuerunt interfuisse interfuissent interfuit intersimus intersint intersit intersunt
+76	676	occido	occasu occasum occidant occidantur occidat occidatur occidendum occiderant occiderat occidere occiderent occiderentur occideret occiderit occiderunt occidi occidimus occidisse occidisset occidit occiditur occidunt occiduntur occisis occisit occiso occisum occisus
+77	677	pagus	page pagi pagis pago pagorum pagos pagum
+78	678	disciplina	disciplinae disciplinam disciplinarum disciplinas disciplinis discipulina
+79	679	inscriptio	inscriptione inscriptionem inscriptiones inscriptionibus inscriptionis inscriptionum
+80	680	antequam	
+81	681	dubium	dubia dubii dubiis dubio
+82	682	propono	proponamus proponebant proponebantur proponebatur proponendum proponens proponent proponere proponerent proponerentur proponeret proponet proponi proponit proponitur proponunt proponuntur proposit propositus proposuerant proposuerat proposuerint proposuerit proposuerunt proposuisse proposuisset proposuit
+83	683	magnitudo	magnitudine magnitudinem magnitudines magnitudini magnitudinibus magnitudinis magnitudinum
+84	684	quamvis	
+85	685	pictura	picturae picturam picturarum picturas picturis
+86	686	constitutio	constitutione constitutionem constitutiones constitutioni constitutionibus constitutionis constitutionum
+87	687	poema	poemata poemate poematibus poematis poematum
+88	688	parens	parente parentem parentes parentibus parentis parentium parentum
+89	689	planta	plantae plantam plantarum plantas plantis
+90	690	perfectus	perfecta perfectae perfectam perfectas perfecte perfecti perfectior perfectis perfecto perfectos perfectum
+91	691	palatium	palati palatia palatii palatiis palatio palatiorum
+92	692	folium	folia foliarum folias folii foliis folio foliorum
+93	693	imprimis	inprimis
+94	694	externus	externa externae externam externarum externas externe externi externis externo externorum externos externum
+95	695	narratio	narratione narrationem narrationes narrationi narrationibus narrationis narrationum narratiuncula narratiunculae narratiunculam narratiuncularum narratiunculas narratiunculis
+96	696	conficio	confecerat confecere confecerint confecerit confecerunt confecisse confecisset confecit confectum confecturam confecturum conficere conficerent conficeret confici conficiant conficiantur conficiat conficiebant conficiebantur conficiebat conficiebatur conficienda conficiendam conficiendarum conficiendas conficiendi conficiendis conficiendo conficiendorum conficiendos conficiendum conficit conficitur conficiunt conficiuntur
+97	697	interficio	interfecerant interfecerat interfecerim interfecerint interfecerunt interfeci interfecisse interfecisset interfecit interfectum interfectus interficere interficerentur interficeret interfici interficiant interficiat interficiebantur interficiebat interficiendae interficiendam interficiendi interficiendis interficiendo interficiendorum interficiendos interficiendum interficientur interficiere interficiet interficit interficitur interficiunt interficiuntur
+98	698	oculus	ocelli ocellis ocellus oculi oculis oculo oculorum oculos oculum
+99	699	valor	valore valorem valores valori valoribus valoris valorum
+100	700	impetus	impetibus impetos impetu impetui impetum impetuum

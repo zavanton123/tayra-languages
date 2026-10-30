@@ -1,0 +1,100 @@
+1	6901	illicio	illexit illici illicis illicit illicite illicitis
+2	6902	claustra	claustris
+3	6903	tardo	tarda tardant tardare tardaret tardasse tardavisse
+4	6904	classiarii	classiariorum classiarios
+5	6905	rubor	rubore ruborem rubores ruborum
+6	6906	hamus	hami hamis hamo hamorum
+7	6907	pythia	pythiam
+8	6908	compingo	compacta compactarum compacti compacto compactorum compegit compingeretur
+9	6909	claudeo	claude claudebantur claudendi claudens claudere clauderetur
+10	6910	vernus	vernae verne vernum
+11	6911	caleo	cale calentes calentis calere caletis
+12	6912	stupeo	stupebat stupens stupent stupet stupuerunt
+13	6913	plango	plange plangebatur plangens plangitur planxit
+14	6914	verno	vernae verner
+15	6915	concesso	concessa concessas concesseris
+16	6916	caeco	caeca caecabitur caecaret caecas caecatum caecatus caecavit
+17	6917	obiecto	obiecta
+18	6918	uterum	uteri uteris utero
+19	6919	odio	odi odiat odiendum odis odivi
+20	6920	offensa	offensam offensas offensis
+21	6921	flatus	flatibus flatu flatum
+22	6922	stupro	stupra stupratorem stupraverunt stupravisse stupravit
+23	6923	pugnus	pugni pugnis pugnos pugnum
+24	6924	iugerum	iugera iugeris
+25	6925	sagum	sagae sagarum sage sagi sagis sagulo sagulum
+26	6926	beo	beat beato beer bees
+27	6927	baca	bacae bacam bacca bacis bacula
+28	6928	stello	stellares stellari stellas stellatae stellatam stellati steller
+29	6929	polio	poli poliatur poliebat poliebatur polis politis polito politum
+30	6930	plaudo	plaudebant plaudendi plaudere plauderetur plaudunt plausu plausum
+31	6931	calco	calcare calcaris calcatur calcaverit calcaverunt calcem calces
+32	6932	plico	plicantur plicare plicari plicas plicato
+33	6933	promo	prome promebatur promere promit promitur promptu promptum promuntur
+34	6934	alternus	alterna alternae alternas alterni alternum
+35	6935	cometes	cometae cometarum cometas cometis
+36	6936	vagor	vagabitur vagans vagari vagatur vagatus vagentur
+37	6937	germino	germina germinant germinare germinato germinavit
+38	6938	horrendus	horrenda horrendam horrendas horrendos horrendum
+39	6939	lenio	leni leniantur leniatur lenior lenire leniret leniri leniverunt
+40	6940	maturo	matura maturari maturat maturatur maturatus
+41	6941	iocor	iocandi iocando iocantur iocari ioco
+42	6942	cieo	ciebant ciebat ciebatur ciens ciere citum civi civit
+43	6943	gemo	gemas gemebat gemens gemit gemitum gemuit
+44	6944	commeo	commeabant commeare commeatu commeatum commeaveram
+45	6945	impingo	impactu impactum impegit impingebat impingendum impingens
+46	6946	bullo	bullas bullatur buller bulles
+47	6947	mollio	molli molliebat molliens mollior molliretur mollit
+48	6948	saturo	saturas saturatis saturatum
+49	6949	irascor	irasceretur irasci irascitur irascuntur iratum
+50	6950	adultero	adulteram adulteraret adulterasse adulteraverit adulteraverunt adulteravisse adulteris
+51	6951	clavus	clave clavi clavorum clavos
+52	6952	cossus	
+53	6953	necant	
+54	6954	facete	
+55	6955	vane	
+56	6956	dubitanter	
+57	6957	psalmista	
+58	6958	totaliter	
+59	6959	miserere	
+60	6960	quandoquidem	
+61	6961	alicubi	
+62	6962	essentialiter	
+63	6963	subsequenter	
+64	6964	coordinatus	coordinatorum
+65	6965	emblema	
+66	6966	habena	habenas
+67	6967	quibuscum	
+68	6968	danice	
+69	6969	necavisse	
+70	6970	gaudent	
+71	6971	aliunde	
+72	6972	crypton	krypton
+73	6973	caute	
+74	6974	pridem	
+75	6975	alternis	
+76	6976	harmonica	
+77	6977	posteaquam	
+78	6978	situs interretialis	interretialis situs
+79	6979	dubie	
+80	6980	ordinatim	
+81	6981	quanto	
+82	6982	collegialis	
+83	6983	obiter	
+84	6984	epos	
+85	6985	subsellium	subsellia
+86	6986	gelu	
+87	6987	nedum	
+88	6988	por	
+89	6989	ample	
+90	6990	bromus	brome bromum
+91	6991	miltos	miltis milton
+92	6992	demolitio	demolitionem demolitionibus
+93	6993	temptatio	temptationes
+94	6994	oedema	oedemate
+95	6995	perducto	perducta perductas
+96	6996	obstetrix	obstetricum
+97	6997	apotheosis	apotheosi
+98	6998	confidenter	confidentius
+99	6999	zincum	zinci
+100	7000	copiose	copiosius

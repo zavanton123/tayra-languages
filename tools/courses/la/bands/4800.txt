@@ -1,0 +1,100 @@
+1	4701	uo	uas ue uero ui uit uite utu
+2	4702	detineo	detentum detentus detineatur detinebant detinebat detinebatur detinent detinentur detineri detinet
+3	4703	praetorianus	praetorianae praetorianam praetoriani praetorianis praetorianorum praetorianos
+4	4704	concito	concitandum concitantur concitare concitat concitato concitatus concitaverunt concitavit
+5	4705	georgicus	georgica georgicae georgicam georgicarum georgice georgicis georgicorum georgicum
+6	4706	gemellus	gemella gemellae gemellarum gemelli gemellis gemellos gemellum
+7	4707	effluo	effluant effluat effluebant effluens effluere effluit effluunt effluxerunt
+8	4708	pertinax	pertinace pertinacem pertinaces pertinaci pertinacia pertinaciae pertinaciam pertinaciter
+9	4709	libido	libidine libidinem libidines libidini libidinibus libidinis libidinum
+10	4710	norvegicus	norvegica norvegicae norvegicarum norvegici norvegicis norvegico norvegicorum norvegicum
+11	4711	flagito	flagitabant flagitabat flagitandi flagitans flagitare flagitaret flagitatae flagitaverunt flagitavit
+12	4712	islandicus	islandica islandicae islandicam islandicarum islandice islandico islandicorum islandicos islandicum
+13	4713	immitto	immiserit immisit immissus immittat immittens immittere immittit immittitur immittuntur
+14	4714	binarius	binaria binariae binariam binarias binarii binariis binario binarium
+15	4715	dissimulo	dissimulabat dissimulandi dissimulans dissimulant dissimulare dissimulat dissimulatis dissimulatum dissimulaverunt dissimulavisse dissimulavit
+16	4716	congero	congerebat congerendo congerere congererent congeri congeritur congerunt congeruntur congesserat congessi congessit congestus congestuum
+17	4717	biennium	biennia biennii biennio
+18	4718	epitome	epitomen epitomes epitomis
+19	4719	costa	costae costis
+20	4720	cunae	cunarum cunas cunis
+21	4721	appositus	apposita appositam appositis apposito appositum
+22	4722	fascia	fasciae fasciam fascias fasciis
+23	4723	cibaria	cibariis cibariorum
+24	4724	diadema	diademata diademate diadematibus diadematis
+25	4725	manica	manicae manicam manicarum manicas manicis
+26	4726	elegia	elegiae elegiam elegiarum elegiis
+27	4727	porcus	porci porcis porco porcorum porcos
+28	4728	augur	augurem augures auguribus augurum
+29	4729	salutare	salutarem salutares salutari salutaribus salutaris
+30	4730	maleficus	malefica maleficarum maleficas maleficis maleficorum maleficos maleficum
+31	4731	uber	ubera ubere uberes uberibus uberis uberius uberrime uberrimus ubertim
+32	4732	ascensus	ascensa ascensae ascensam ascensu ascensum
+33	4733	facilitas	facilitate facilitatem facilitati facilitatis
+34	4734	rudus	rudera rudere ruderibus ruderis
+35	4735	subditus	subdita subditae subditarum subditi subditis subdito subditorum subditum
+36	4736	prohibendus	prohibenda prohibendam prohibendas prohibendi prohibendis prohibendo prohibendos prohibendum
+37	4737	adiutus	adiutae adiuti adiutorum adiutum
+38	4738	paedagogus	paedagoga paedagogi paedagogo paedagogos pedagogus
+39	4739	saga	sagae sagarum sagis
+40	4740	vado	vada vadam vade vadem vader vadere vades vadis vadit vadunt
+41	4741	pello	pelle pellendi pellere pelleret pelles pelli pellit pepulere pepulerunt pepulit pulsu pulsum
+42	4742	incepto	incepta inceptavit inceptorum
+43	4743	longinquus	longinqua longinquae longinquam longinquas longinque longinquis longinquius longinquos longinquum
+44	4744	laevus	laevae laevam laevi laevis laevo laevum
+45	4745	torreo	torre torrent torrere torreret torres torretur tosto
+46	4746	remano	remanent remanere remanet remanetur
+47	4747	culinarius	culinaria culinariam culinariis culinario culinariorum culinarium
+48	4748	gasium	gasi gasii gasiis
+49	4749	exsilio	exilio exsili exsiliret exsiluerunt
+50	4750	serenus	serena serenam serenis serenissime serenissimo serenissimus serenius sereno
+51	4751	monitus	monita monitae monitam monito monitorum monitu monitum
+52	4752	honorificus	honorifica honorificae honorifici honorificis honorificum
+53	4753	subsum	suberant subere suberis subesse subest subfuit subsit subsunt
+54	4754	conscisco	conscii consciscat consciscere consciscerent conscisceret consciscit consciturus consciverunt conscivisse conscivit
+55	4755	obsido	obside obsidebant obsidebat obsident obsidere obsiderent obsideret obsides obsidet obsidunt
+56	4756	denso	densa densabat densandum densantur densas densatur densavit
+57	4757	elevo	elevabat elevabis elevantur elevare elevari elevat elevatis elevato elevatum elevatur elevavit
+58	4758	exstinguo	exstinctum exstinguatur exstinguebant exstinguendum exstinguens exstinguere exstinguetur exstingui exstinguitur exstinguuntur exstinxit
+59	4759	traicio	traicere traicerent traiceret traiciens traicit traiecerunt traiecisset traiecit traiectu traiectum traiecturus
+60	4760	inficio	infecit infectum inficere infici inficiant inficiatur inficiens inficitur inficiunt inficiuntur
+61	4761	vestio	vesti vestiebantur vestiebat vestiendi vestiret vestit vestitis vestitu vestitum vestitur vestiuntur vestivit
+62	4762	stringo	strictu strictum stringat stringere stringunt
+63	4763	delego	delegabant delegant delegare delegas delegat delegatis delegato delegatum delegatur delegaverunt
+64	4764	saevio	saeviebant saeviebat saeviendi saevierat saeviere saeviit saevire saevis saevisse saevit
+65	4765	abduco	abducat abducendi abducere abducerentur abducimur abducit abducitur abductum abduxerunt abduxit
+66	4766	deligo	delectum delegerant delegerunt delegi deligebant deligendum deligens deligere deligi deligit deligitur deligunt
+67	4767	praepono	praeponendum praeponere praeponi praeponitur praepositum praeposuerunt praeposuisse praeposuissent praeposuit
+68	4768	primatus	primatibus primatu primatum
+69	4769	utrimque	utrinque
+70	4770	lepidopterus	lepidoptera lepidopterorum
+71	4771	dumtaxat	duntaxat
+72	4772	cannabis	cannabi cannabim
+73	4773	breviarium	breviarii breviario
+74	4774	patientia	patientiae patientiam
+75	4775	noverca	novercae novercam
+76	4776	statura	staturae staturam
+77	4777	nimbus	nimbis nimbo
+78	4778	renascentia	renascentiae renascentiam
+79	4779	crista	cristae cristam
+80	4780	fatalis	fatale fatalem fatali
+81	4781	gravitatio	gravitatione gravitationem gravitationis
+82	4782	aequalitas	aequalitate aequalitatem
+83	4783	patrocinium	patrocinii patrocinio
+84	4784	navigium	navigia navigii navigio
+85	4785	derivatio	derivationem derivationes derivationibus
+86	4786	lorica	loricae loricam loricis
+87	4787	pluteus	plutei pluteis pluteo pluteum
+88	4788	nex	nece neces neci necis
+89	4789	quamlibet	
+90	4790	penes	
+91	4791	agat	
+92	4792	perperam	
+93	4793	necne	
+94	4794	fu	
+95	4795	sinistrorsum	
+96	4796	pondo	
+97	4797	itidem	
+98	4798	genesis	geneseos genesi
+99	4799	pessimo	pessima pessimas
+100	4800	perduellio	perduellione perduellionem perduellionis

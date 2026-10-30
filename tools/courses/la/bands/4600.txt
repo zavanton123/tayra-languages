@@ -1,0 +1,100 @@
+1	4501	absurdus	absurda absurdam absurdas absurdi absurdior absurdis absurdum
+2	4502	inundatio	inundatione inundationem inundationes inundationibus inundationis inundationum
+3	4503	appropinquatio	appropinquatione appropinquationem appropinquationes appropinquationibus appropinquationis appropinquationum
+4	4504	litteratus	litterata litteratas litterati litteratis litteratissimus litterato litteratorum litteratos litteratum
+5	4505	moribundus	moribunda moribundae moribundam moribundi moribundis moribundo moribundum
+6	4506	iniquitas	iniquitate iniquitatem iniquitates iniquitatibus iniquitatis
+7	4507	parasitus	parasitae parasite parasiti parasitorum parasitos parasitum
+8	4508	irrumpo	irrumpat irrumpendum irrumpere irrumpit irrumpitur irruperunt irrupit
+9	4509	ucrainicus	ucrainica ucrainicae ucrainicam ucrainice ucrainicis ucrainicorum ucrainicum
+10	4510	mortifer	mortifera mortiferae mortiferam mortifero mortiferum mortiferus
+11	4511	galacticus	galactica galacticam galacticis galactico galacticum
+12	4512	algorithmus	algorithmi algorithmis algorithmo algorithmos algorithmum
+13	4513	exhibitio	exhibitione exhibitiones exhibitioni exhibitionis exhibitionium exhibitionum
+14	4514	cooperor	cooperabatur cooperandi cooperandum cooperans cooperari cooperatores cooperatur cooperatus
+15	4515	choralis	chorale choralem chorales choralia choralibus choralium choralum
+16	4516	refuto	refutandi refutandum refutans refutantur refutare refutari refutarunt refutat refutavit
+17	4517	tessello	tessellata tessellatas tessellati tessellatis tessellato tessellatorum tessellatum tessellis
+18	4518	sublevo	sublevando sublevans sublevant sublevantur sublevare sublevato sublevaverit sublevaverunt sublevavit
+19	4519	brunus	bruna brunae brunas brune bruni bruno brunum
+20	4520	abnuo	abnuebant abnuere abnuerunt abnuisset abnuit abnuitur abnuunt
+21	4521	transgredior	transgredi transgrediebantur transgrediebatur transgrediendi transgrediens transgreditur transgrediuntur transgressurus transgressus
+22	4522	detraho	detrahere detraheremus detraheret detrahetur detrahimus detrahitur detrahuntur detraxerunt detraxisse detraxit
+23	4523	metuo	metuas metuebant metuebat metuebatur metuens metuerunt metuit
+24	4524	invoco	invocabatur invocans invocarem invocaret invocaretur invocari invocat invocatis invocato invocatum invocatus
+25	4525	piscatorius	piscatoria piscatoriae piscatoriam piscatoriarum piscatorii piscatoriis piscatorio piscatorium
+26	4526	robustus	robusta robustae robustam robusti robustior robustis robustum
+27	4527	cycnus	cigno cycni cycno cycnorum cycnos cycnum cygnus
+28	4528	corripio	correptum correptus corripiant corripiat corripit corripiunt corripiuntur corripuisse corripuit
+29	4529	corroboro	corroborabat corroborandum corroborans corroborant corroborantur corroborare corroboraretur corroborari corroborat corroboravit
+30	4530	prehendo	prehendat prehendendi prehendendum prehendens prehendere prehendet prehendi prehendit prehenditur prehenduntur prendiderunt
+31	4531	abicio	abicere abiceret abiciamus abiciatur abicit abicitur abiecerat abiecissent abiecit abiectum abiectus
+32	4532	circulo	circulabantur circulans circulare circularem circulares circulari circularia circularis circulatoribus circulatur
+33	4533	auriga	aurigae aurigas aurigis
+34	4534	fistula	fistulae fistularum fistulas fistulis
+35	4535	exhaustus	exhausta exhaustae exhaustas exhaustis exhausto exhaustum
+36	4536	insania	insaniae insaniam
+37	4537	cruciatus	cruciata cruciatae cruciatam cruciati cruciatibus cruciatorum cruciatu cruciatum
+38	4538	lepidus	lepida lepidae lepidam lepidi lepidum
+39	4539	cubo	cuba cubare cubat cubavit cubuit
+40	4540	funus	funera funere
+41	4541	uro	urebat uri urit urunt usserunt ussit ustus
+42	4542	traiectus	traiecta traiectae traiecti traiecto traiectu traiectum
+43	4543	mirandus	miranda mirandae mirandum
+44	4544	plausus	plausibus plausu plausum
+45	4545	demos	demi demis demorum
+46	4546	novella	novellae novellarum novellas novellis
+47	4547	haereticus	haereticam haereticarum haereticas haeretici haereticis haeretico haereticorum haereticos haereticum
+48	4548	volatus	volatu volatui volatum volatuum
+49	4549	tenus	tenore tenoris
+50	4550	elementaris	elementares elementari elementaria elementaribus elementarium
+51	4551	honesto	honesta honestas honestate honestatem honestatis honestatus
+52	4552	conductor	conductores conductoribus conductoris conductorum
+53	4553	digno	digna dignas dignatur dignatus dignavit
+54	4554	meto	metam metantur metas metatur mete metebat metendum metere meti metis metitur
+55	4555	torqueo	torque torqueatur torquebatur torquendum torquens torquere torqueri torques torquetur tortas tortis torto
+56	4556	apparo	apparabant apparabat apparandum apparantur apparare apparat apparatis apparator apparatu apparatum apparavit apparentur apparetur
+57	4557	trago	tractu traxerunt traxit
+58	4558	consequus	consequi
+59	4559	conviva	convivae convivarum convivas convivis
+60	4560	iurandum	iuranda iurandi iurando
+61	4561	thracius	thracia thraciae thraciam thraciis thracium
+62	4562	expers	expertes experti expertibus expertis expertium
+63	4563	merus	mera merae meram meras meri meris mero meros
+64	4564	balnea	balneis
+65	4565	elementarius	elementaria elementariae elementariam elementariarum elementariis elementario elementarium
+66	4566	erratum	errata errati erratis errato erratorum
+67	4567	curvus	curva curvae curvam curvi curvis curvo
+68	4568	posticum	postica postici postico
+69	4569	lima	limae limam
+70	4570	moror	morabantur morabat morabatur morans morantur moraretur moratores moratum moratur moretur
+71	4571	ignosco	ignoramus ignorant ignorat ignoscat ignosce ignoscendum ignosceretur ignoscit ignoscunt ignotum ignoverunt ignovimus ignovisset ignovit
+72	4572	equito	equitabat equitandi equitandum equitare equitas equitat equitate equitatu equitatum equitatur equitavit equitem equites
+73	4573	secedo	secedebat secedere secedit secesserant secesserunt secessisse secessissent secessisset secessit secessu secessum
+74	4574	debilito	debilitabatur debilitantur debilitare debilitari debilitate debilitatis debilitato debilitatum debilitatur debilitatus debilitavit
+75	4575	incurro	incurrant incurrat incurrebant incurrere incurrerent incurrerunt incurrisset incurrit incurrunt incursu incursum
+76	4576	adoro	adora adorabatur adorandum adorant adorantur adorare adorat
+77	4577	concurro	concurrant concurrebant concurrendum concurrent concurrere concurrerunt concurret concurri concurrit concurrunt concursu concursum
+78	4578	operio	operi operiebat operiebatur operient operis operit operitur operiunt opertus operuit
+79	4579	stabilio	stabiliens stabilietur stabilior stabilire stabiliret stabiliri stabilit stabilito stabilitum stabiliverant stabiliverunt
+80	4580	subter	
+81	4581	haudquaquam	
+82	4582	humi	
+83	4583	benigne	
+84	4584	primitus	
+85	4585	ideoque	
+86	4586	quacum	
+87	4587	quandoque	
+88	4588	necaverunt	
+89	4589	funditus	
+90	4590	octavum	
+91	4591	absolutorius	absolutorio absolutorium
+92	4592	sententiola	sententiolam
+93	4593	catacumba	catacumbae catacumbarum catacumbas catacumbis
+94	4594	cappella	cappellae cappellam
+95	4595	usura	usuram usuris
+96	4596	insomnia	insomniae
+97	4597	hemisphaerium	hemisphaeria hemisphaerii hemisphaerio
+98	4598	relativitas	relativitatis
+99	4599	oxygenium	oxygenii oxygenio
+100	4600	oxoniensis	oxonienses oxoniensi

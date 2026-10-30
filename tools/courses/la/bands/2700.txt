@@ -1,0 +1,100 @@
+1	2601	musicalis	musicale musicalem musicales musicali musicalia musicalibus musicalium
+2	2602	heroicus	heroica heroicae heroicam heroicarum heroicas heroicis heroico heroicorum heroicos heroicum
+3	2603	splendidus	splendida splendidae splendidam splendidas splendide splendidi splendidior splendidis splendido splendidos splendidum
+4	2604	venetus	veneta venetae venetam venete veneti venetis veneto venetorum venetos venetum
+5	2605	navigatio	navigatione navigationem navigationes navigationi navigationis
+6	2606	realis	reale realem reales reali realia realibus realium
+7	2607	persecutus	persecuta persecutae persecuti persecutis persecuto persecutorum
+8	2608	apex	apice apicem apices apici apicibus apicis apicum
+9	2609	flamma	flammae flammam flammarum flammas flammis
+10	2610	examen	examina examine examinis examinum
+11	2611	satura	satira saturae saturam saturarum saturas saturis
+12	2612	mysterium	mysteria mysterii mysteriis mysterio mysteriorum
+13	2613	ater	atra atrae atram atri atrior atris atro atrus
+14	2614	subiectus	subiecta subiectae subiectam subiectas subiecti subiectis subiecto subiectorum subiectos
+15	2615	obscurus	obscura obscurae obscuram obscurarum obscuras obscure obscuri obscurior obscuris obscurorum obscuros
+16	2616	vallum	valla valle valli vallo
+17	2617	arbitro	arbitrabantur arbitrabatur arbitrandum arbitrantur arbitraretur arbitrari arbitraris arbitrat arbitratu arbitratur arbitrentur arbitretur arbitris arbitror
+18	2618	iucundus	iucunda iucundae iucundam iucundas iucunde iucundi iucundis iucundo iucundorum iucundum
+19	2619	fractus	fracta fractae fractam fractarum fracti fractis fracto fractum
+20	2620	desidero	desiderabant desiderabat desiderabatur desiderandi desiderans desiderant desiderantur desiderare desiderarent desideraretur desiderat desiderato desideratum desideratur desideratus desideraverant desideraverunt desideravisse desideravit desideremus desiderent desideret
+21	2621	divino	divina divinandi divinare divinas divinat divinatoribus divinavit
+22	2622	barbara	barbarae barbaram barbaras barbaris
+23	2623	neutrum	neutra neutri neutro
+24	2624	aggredior	aggrederentur aggrederetur aggredi aggrediebantur aggrediebatur aggrediendi aggrediendum aggredietur aggreditur aggrediuntur aggressum aggressurus
+25	2625	milito	militabant militabat militandi militans militare militarem militares militari militasse militat militatis militaverunt militavisse militavit militem militer milites
+26	2626	navo	nava navabant navabat navando navans navant navare navarent navaret navavisse navavit navem naves
+27	2627	confundo	confuderunt confundas confundebant confundebantur confundendum confundendus confundens confundere confunderentur confunderetur confundi confundit confunditur confundunt confunduntur confusum
+28	2628	sapio	sape sapere sapiat sapiendi sapiens sapiit sapis sapit sapitur sapiunt
+29	2629	declino	declinamus declinandi declinandum declinant declinantur declinare declinari declinatis declinato declinatur declinaverunt declinavi declinent declinentur
+30	2630	matrix	matricem matrices matricibus matricis matricium
+31	2631	tramen	tramina tramine tramini traminibus traminis traminum
+32	2632	terror	terrore terrorem terrores terrori terroribus terroris
+33	2633	incoho	incohabantur incohabatur incohantur incohat incohato incohatum incohatur incohatus incohaverat incohavit
+34	2634	notatio	notatione notationem notationes notationibus notationis notationum
+35	2635	sessio	sessione sessionem sessiones sessioni sessionibus sessionis
+36	2636	excipio	exceperant excepit exceptum exceptus excipere exciperet excipiant excipiat excipiebant excipiebantur excipiebat excipiendis excipiendum excipiens excipit excipitur excipiuntur
+37	2637	veneror	venerabantur venerabatur venerabor venerando venerandum venerans venerantur venerarentur veneraretur venerari venerator veneratur veneratus venerentur
+38	2638	crescunt	
+39	2639	aliquanto	
+40	2640	virtute	
+41	2641	huc	
+42	2642	etiamnunc	
+43	2643	respectivus	respectivae respectivas respective respectivi respectivis respectivos
+44	2644	congeries	congerie congeriebus congeriei congeriem congerierum
+45	2645	brasiliensis	brasiliense brasiliensem brasilienses brasiliensi brasiliensibus brasiliensium
+46	2646	marchio	marchione marchionem marchiones marchioni marchionibus marchionis marchionum
+47	2647	magia	magiae magiam magias magiis
+48	2648	elaboro	elaborabant elaborabat elaborandi elaborando elaborare elaborari elaborat elaboratum elaboratur elaboraturus elaboratus elaboraverat elaboraverunt elaboravisse elaboravit
+49	2649	focus	foci focis foco focorum focos focum
+50	2650	pronuntiatio	pronuntiatione pronuntiationem pronuntiationis
+51	2651	ethnicus	ethnica ethnicae ethnicam ethnicas ethnice ethnici ethnicis ethnicorum ethnicos
+52	2652	sursum	susum
+53	2653	immunitas	immunitate immunitatem immunitatis
+54	2654	hypothesis	hypothesem hypotheses hypothesi hypothesibus hypothesim hypothesin
+55	2655	ruralis	ruralem rurales rurali ruralibus ruralium
+56	2656	axioma	axiomata axiomate axiomatibus axiomatis axiomatum
+57	2657	venatio	venatione venationem venationes venationi venationibus venationis
+58	2658	sculptor	sculptore sculptorem sculptores sculptoribus sculptoris sculptorium sculptorum
+59	2659	humo	humabatur humandi humatum humatus humeris humor humore humores humori humoris
+60	2660	papyrus	papyri papyris papyro papyrorum papyros papyrum
+61	2661	pulmo	pulmonem pulmones pulmoni pulmonibus pulmonis pulmonum
+62	2662	gemma	gemmae gemmam gemmarum gemmas gemmis
+63	2663	sponsa	sponsae sponsam sponsarum sponsi sponsis sponso sponsum sponsus
+64	2664	accessus	accessa accessae accessu accessum
+65	2665	umbra	umbrae umbram umbrarum umbras umbris
+66	2666	otium	otii otio
+67	2667	promptus	prompta promptae promptam promptarum promptas prompte promptis promptissime promptissimus promptius promptos promptu promptum
+68	2668	electronica	electronicae electronicam electronicarum electronicas electronicis
+69	2669	aggressus	aggressa aggressae aggressam aggressi aggressum
+70	2670	claudo	claudat claude claudebantur claudendi claudens claudere clauderetur claudi claudit clauditur claudunt clauserunt clausi clausisse clausit
+71	2671	placo	placa placabatur placando placandum placare placarentur placaret placaretur placari placatum placatus placavit placent places placet
+72	2672	gesto	gestabant gestabat gestandum gestas gestat gestatoris gestaverit gestetur gestorum
+73	2673	as	affuerunt asse assem asses assi assibus assis assum
+74	2674	experior	experiamur experiantur experiebantur experiebatur experiendi experiendum experientur experimur experiri experitur experiunt experiuntur expertum
+75	2675	carus	carae caram care carior caris carissimae carissimam carissimarum carissimis carissimo carissimus carius caron carorum caros carum
+76	2676	aufero	ablatum abstulerat abstulerunt abstulit auferantur auferat auferendi auferendo auferens auferet auferetur auferre auferrentur auferri aufert aufertur auferuntur
+77	2677	illustro	illustrabant illustrabat illustrabit illustrandum illustrans illustrant illustrantur illustrare illustraret illustrasse illustrat illustratores illustratorum illustratum illustratur illustratus illustravit illustrem illustrentur illustres
+78	2678	subicio	subic subicere subicerentur subiceret subiceretur subiciebat subiciendi subiciens subicit subicitur subiciunt subiecerat subiecerunt subiecisse subiecit subiicitur subiiciuntur
+79	2679	opto	optabant optabat optandi optandum optant optare optaret optas optasse optat optatis optato optatum optatur optatus optaverunt optavi optavisset optavit optet
+80	2680	defensor	defensorem defensores defensoribus defensoris defensorum defenstrice defenstrix
+81	2681	enuntio	enuntiandi enuntiantur enuntiare enuntiaretur enuntiari enuntiat enuntiato enuntiatorum enuntiatum enuntiatur enuntiaverunt enuntiavisse enuntiavit
+82	2682	purgo	purgabat purganda purgandae purgandam purgandi purgandis purgans purgare purgaretur purgari purgas purgat purgator purgatur purgatus purgavisse purgavit purges
+83	2683	memini	memento mementote meminerint meminerunt meminimus meminisse meminisset meminit
+84	2684	epicus	epica epicae epicam epici epicis epico epicorum epicum
+85	2685	fimbriae	fimbria fimbriarum fimbrias fimbriis
+86	2686	restauratio	restauratione restaurationem restaurationes restaurationi restaurationibus restaurationum
+87	2687	optio	optione optionem optiones optionibus optionis optionum
+88	2688	criminalis	criminale criminales criminali criminalia criminalibus criminalium
+89	2689	consocio	consociabantur consocians consociant consociantur consociare consociari consociarunt consociat consociatum consociatur consociatus consociaverunt consociavit consocietur
+90	2690	septuaginta	septaginta
+91	2691	philippinus	philippinae philippinarum philippinas philippinis philippinos
+92	2692	fastigium	fastigia fastigii fastigiis fastigio
+93	2693	vulpes	volpes vulpe vulpecula vulpeculae vulpeculam vulpem vulpibus vulpis vulpium vulpum
+94	2694	phaenomenon	phaenomena phaenomeni phaenomenis phaenomeno phaenomenorum
+95	2695	martyrium	martyrii martyrio martyriorum
+96	2696	vena	venae venam venarum venas venis
+97	2697	impressio	impressione impressionem impressiones impressionibus impressionis impressionum
+98	2698	genu	genibus genua genum
+99	2699	aedificatio	aedificatione aedificationem aedificationes aedificationi aedificationibus aedificationis aedificationum
+100	2700	contractio	contractione contractionem contractiones contractionibus contractionis

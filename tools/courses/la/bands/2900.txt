@@ -1,0 +1,100 @@
+1	2801	saxonicus	saxonica saxonicae saxonicam saxonicarum saxonice saxonici saxonicis saxonicos
+2	2802	remitto	remiserat remiserunt remisit remissum remissurus remissus remittat remittebat remittens remittere remittetur remittit remittitur remittuntur
+3	2803	migratio	migratione migrationem migrationes migrationibus migrationis migrationum
+4	2804	assidue	adsidue assiduissime
+5	2805	iaculator	iaculatorem iaculatores iaculatori iaculatoribus iaculatoris iaculatorum
+6	2806	pelvis	pelve pelvem pelves pelvi pelvium
+7	2807	liturgia	liturgiae liturgiam liturgias
+8	2808	licentia	licentiae licentiam licentiarum licentias
+9	2809	finitimus	finitima finitimae finitimam finitimarum finitimas finitimis finitimo finitimorum finitimum
+10	2810	propheta	prophetae prophetam prophetarum prophetis
+11	2811	sollertia	solertia sollertiae sollertiam sollertiarum sollertias sollertiis
+12	2812	danicus	danica danicae danicam danicarum danici danicis danicum
+13	2813	mulus	mule muli mulo mulos mulum
+14	2814	hostilis	hostiles hostili hostilia hostilibus hostilius
+15	2815	incursio	incursione incursionem incursiones incursionibus incursionis incursionum
+16	2816	vestitus	vestita vestitae vestiti vestitis vestitos vestitu vestitum
+17	2817	celer	celere celerem celeres celeri celeria celeribus celerior celeris
+18	2818	assero	asserant asserebat asserere assereret asseris asserit asseruerunt asseruit asserunt asseverant asseverat
+19	2819	alto	alta altarem altares altari altaris altas alteris altes altetis altor altorum
+20	2820	reformatus	reformata reformatae reformatam reformatarum reformati reformatis reformato reformatorum reformatum
+21	2821	praeconium	praeconi praeconia praeconii praeconiis praeconio
+22	2822	proficio	profecisse profecisset profecit profectu profectum profecturus proficere proficeret proficiam proficiant proficiat proficiebat proficient proficiet proficit proficitur proficiunt
+23	2823	decresco	decrescat decrescebant decrescebat decrescere decrescerent decresceret decrescet decrescis decrescit decrescitur decrescunt decretu decretus
+24	2824	meo	mea means meare meari meas meat meata meatu meatum meatur meatus meent meer
+25	2825	manifesto	manifesta manifestabit manifestans manifestant manifestantur manifestari manifestas manifestat manifestato manifestatur manifestavit
+26	2826	zeus	dia diam die dii dios
+27	2827	lentus	lenta lentae lentam lentarum lentior lentis lentissimus lento lentulus lentum
+28	2828	amplus	amplae amplam amplarum amplas ampli amplior amplis amplissimus ampliter amplo amplos amplum
+29	2829	magistro	magistra magistrae magistram magistratis magistrato magistratu magistratum magistrem magistris
+30	2830	dissolvo	dissolutum dissolvant dissolvantur dissolvebant dissolvebat dissolvebatur dissolvendi dissolvendus dissolventur dissolvere dissolverent dissolverentur dissolveretur dissolverunt dissolvi dissolvit dissolvitur dissolvuntur
+31	2831	multiplico	multiplica multiplicabantur multiplicabatur multiplicabis multiplicamus multiplicandi multiplicando multiplicandum multiplicantur multiplicare multiplicarentur multiplicari multiplicas multiplicasse multiplicatis multiplicato multiplicatorem multiplicatum multiplicatur multiplicere multiplices multiplicetur
+32	2832	praesideo	praesederunt praesedit praeside praesidebat praesidebatur praesidendi praesidendum praesidens praesidentur praesidere praesideri praesides praesidet praesidetur
+33	2833	hortor	hortabantur hortabatur hortans hortantur hortarentur hortari hortatu hortatur
+34	2834	impetro	impetrans impetrant impetrare impetrarent impetraret impetrassent impetrat impetratis impetrato impetratum impetravere impetraverint impetraverunt impetravit impetret
+35	2835	spargo	spargant spargebant spargebantur spargebat spargebatur spargendum spargens spargentur sparget spargit spargitur spargunt sparguntur sparsi sparsisset sparsit sparsus
+36	2836	theorema	theoremata theoremati theorematis
+37	2837	almus	alma almae almam almas almum
+38	2838	renascor	renascatur renascentur renasceretur renasci renascitur renascuntur renatum renatus
+39	2839	admoneo	admoneant admonebant admonens admonent admonet admonetur admonitibus admonitum admonitus admonuit ammonitus
+40	2840	rumor	rumore rumorem rumores rumori rumoribus rumorum
+41	2841	deminutio	deminutione deminutionem deminutiones deminutionibus deminutionis diminutio
+42	2842	bohemicus	bohemica bohemicae bohemicam bohemicas bohemice bohemicis bohemicorum bohemicum
+43	2843	capra	caper caprae capram caprarum capras capri caprorum capros caprum
+44	2844	spiritalis	spiritale spiritalem spiritales spiritali spiritalia spiritaliter spiritualis
+45	2845	excolo	excolat excole excolebat excolebatur excolere excoli excolitur excoluerunt excoluisse excoluit excoluntur excultum excultus
+46	2846	sustento	sustenta sustentabant sustentabatur sustentandi sustentandus sustentans sustentantur sustentare sustentaret sustentari sustentatis sustentato sustentatur sustentavit
+47	2847	expleo	explendam explendas explendum explent explere expleri explet expletis expleto expletu expletum expletus expleverunt explevit
+48	2848	fas	
+49	2849	ferme	
+50	2850	intus	
+51	2851	carbonium	carbonia carbonii carboniis
+52	2852	sculptura	sculpturae sculpturam sculpturarum sculpturas sculpturis
+53	2853	myrtus	myrti myrtis myrto myrtos myrtum
+54	2854	admiratio	admiratione admirationem admirationi admirationis
+55	2855	occulto	occulta occultando occultans occultant occultare occultarent occultasse occultat occultatur occultaverat occultaverunt occultavit
+56	2856	patruus	patrui patruis patruo patruos patruum
+57	2857	impedimentum	impedimenta impedimentis impedimento
+58	2858	inclinatio	inclinatione inclinationem inclinationes inclinationibus inclinationis inclinationum
+59	2859	exceptio	exceptione exceptiones exceptioni exceptionibus exceptionis exceptionum
+60	2860	theologus	theologi theologis theologo theologorum theologos theologum
+61	2861	theoreticus	theoretica theoreticae theoreticam theoreticas theoretice theoreticis theoretico theoreticum
+62	2862	modestus	modesta modestae modestam modestas modesti modestis modesto modestorum modestum
+63	2863	tumor	tumore tumorem tumores tumoribus tumoris tumorum
+64	2864	dimissio	dimissione dimissionem dimissionis
+65	2865	therapia	therapiae therapiam therapiarum therapias
+66	2866	proverbium	proverbia proverbii proverbiis proverbio proverbiorum
+67	2867	discordia	discordiae discordiam discordias discordiis
+68	2868	archipelagus	archipelagi archipelagis archipelago archipelagum
+69	2869	silvester	silvestre silvestres silvestri silvestria silvestribus silvestris
+70	2870	conecto	conectas conectere conecti conectis conectit conectitur conectunt conectuntur
+71	2871	efficax	efficace efficacem efficaces efficaci efficacia efficaciae efficaciam efficacibus efficacis
+72	2872	renovatio	renovatione renovationem renovationes renovationi renovationibus renovationis
+73	2873	liquor	liquatur liquere liquore liquorem liquores liquoribus liquoris liquorum
+74	2874	sublatus	sublata sublatae sublatarum sublati sublatis sublato sublatum
+75	2875	interna	internorum
+76	2876	neuter	neutra neutram neutras neutri neutrius
+77	2877	chronicon	chronica chronicis chronico chronicorum
+78	2878	dato	data datas datatur dator datorem datoribus datorum
+79	2879	prosperus	prosper prospera prosperae prosperam prosperarum prosperas prosperi prosperis prosperos prosperrimus prosperum
+80	2880	corrigo	correctum correctus correxerunt correxit corrigantur corrigat corrigatur corrigebat corrigendi corrigendis corrigens corrigere corrigerent corrigi corrigit corriguntur
+81	2881	profundo	profudit profundam profundas profunde profundis profundit profusas profusum
+82	2882	integro	integra integrabat integrandi integrando integrantur integrare integrari integras integrat integratis integrato integratum integratur integratus integraverunt integravit integrentur
+83	2883	occasus	occaso occasu occasum
+84	2884	mirus	mira mirae miram miras miri miris mirissimus miro
+85	2885	aspicio	aspectu aspectum aspexerat aspexerunt aspexit aspicere aspiceret aspici aspiciam aspiciebantur aspiciendo aspiciens aspicit aspicitur aspiciunt
+86	2886	recenseo	recensebant recensebat recensendi recensent recensentur recensere recenserentur recenseret recenseri recenset recensetur recensu recensuerunt recensuit recensum recensus
+87	2887	attraho	attracti attractorum attrahant attrahat attrahendi attrahendum attrahens attrahere attrahi attrahit attrahunt attrahuntur attraxerunt attraxisse attraxit
+88	2888	dependeo	dependeant dependeat dependebat dependebuntur dependendum dependens dependent dependere dependerunt dependet dependisse dependit
+89	2889	septendecim	septemdecim
+90	2890	absentia	absentiae absentiam
+91	2891	triumpho	triumphans triumphare triumphasse triumphasset triumphator triumphatum triumphaverunt triumphavit
+92	2892	episcopatus	episcopati episcopatibus episcopatu episcopatum episcopatuum
+93	2893	aequilibrium	aequilibrii aequilibrio aequilibriorum
+94	2894	ianus	iani iano ianos ianum jano janos janus
+95	2895	senectus	senectam senecto senectute senectutem senectuti senectutis
+96	2896	catalogus	catalogi catalogis catalogo catalogos catalogum
+97	2897	piscator	piscatore piscatores piscatori piscatoribus piscatoris piscatorum
+98	2898	sacramentum	sacramenta sacramenti sacramentis sacramento sacramentorum
+99	2899	professio	professione professionem professiones professioni professionibus professionis professionum
+100	2900	posthac	

@@ -1,0 +1,100 @@
+1	5701	ascisco	asciscimus ascitus asciverat asciverunt ascivit
+2	5702	aspernor	aspernabantur aspernans aspernantur aspernatur aspernaturus aspernatus
+3	5703	marginalis	marginalem marginales marginali marginalia marginalium
+4	5704	libidinosus	libidinosae libidinosam libidinosarum libidinose libidinosos libidinosum
+5	5705	fornax	fornace fornacem fornaces fornacis fornaculae
+6	5706	configuratio	configuratione configurationem configurationes
+7	5707	strategus	strategi strategis stratego strategos strategum
+8	5708	sensibilis	sensibile sensibilem sensibiles sensibilibus sensibilium
+9	5709	animadversio	animadversione animadversionem animadversiones animadversionis
+10	5710	commoratio	commoratione commorationem commorationi commorationibus commorationis
+11	5711	satio	satiandi satiaret satiari satiat satiati satiatus sationibus sationis
+12	5712	philologicus	philologica philologicae philologicas philologici philologicis philologicorum philologicum
+13	5713	collectivus	collectiva collectivam collective collectivi collectivo collectivorum collectivum
+14	5714	comburo	comburatur comburerent combureretur comburi comburuntur combussisse combussisset combussit
+15	5715	perfero	perferat perferenda perferendas perferendum perferre perferri perferuntur pertulerunt pertulit
+16	5716	hebraeus	hebraea hebraeae hebraeam hebraei hebraeis hebraeo hebraeorum hebraeos
+17	5717	refello	refellantur refellendus refellere refelli refellit refellitur refellunt
+18	5718	delico	delicatae delicatas delicate delicati delicato delicatum delicatus
+19	5719	circumago	circumagebant circumagebat circumagendo circumagi circumagit circumagitur circumagunt
+20	5720	voluptarius	voluptaria voluptarii voluptariis voluptario voluptarium
+21	5721	aggrego	aggregarentur aggregarunt aggregat aggregatis aggregatum aggregatur aggregaverunt aggregavit
+22	5722	vividus	vivida vividae vividas vivide vividis vivido vividos vividum
+23	5723	respuo	respuant respuat respuebat respuendi respuens respueret respuisset respuit
+24	5724	suffoco	suffocabuntur suffocantur suffocaretur suffocas suffocatis suffocatum suffocatus suffocavit
+25	5725	irrideo	irridebat irridebatur irridens irriderent irridet irriserunt irrisit irrisu
+26	5726	ferveo	ferveat fervendo fervens fervent fervere ferveret fervet fervetur
+27	5727	relaxo	relaxamus relaxandi relaxando relaxantur relaxare relaxari relaxat relaxato
+28	5728	subtraho	subtractum subtrahantur subtrahatur subtrahe subtrahendum subtrahere subtrahimus subtrahitur subtrahuntur
+29	5729	sutor	sutorem sutores sutoris sutorum
+30	5730	scandalum	scandala scandalis scandalo scandalorum
+31	5731	ieiuno	ieiuna ieiunabunt ieiunare ieiunarent ieiunato
+32	5732	venustas	venustate venustatem venustatis
+33	5733	personatus	personata personatae personatas personati personatorum personatos personatum
+34	5734	obvius	obvia obvias obvie obviis obvium
+35	5735	suggestus	suggestibus suggestu suggestui
+36	5736	penna	pennae pennam pennas
+37	5737	incursus	incursibus incursos incursu incursum
+38	5738	admirandus	admiranda admirandis admirandos admirandum
+39	5739	authenticus	authentica authenticae authenticam authenticas authenticum
+40	5740	claudus	clauda claude claudi claudos
+41	5741	venatus	venati venatu venatum
+42	5742	lar	lares lari laris
+43	5743	laxo	laxa laxabo laxare laxatis laxet
+44	5744	bubulo	bubula bubulae bubulam bubulis
+45	5745	medio	mediabat medians mediantur mediare mediarent mediator mediatore mediatoris mediatrix
+46	5746	amita	amitae amitas amitis
+47	5747	moratus	morati moratis moratum
+48	5748	pontus	ponte ponti pontis pontum
+49	5749	nasus	nasi naso
+50	5750	cara	carae caram caris
+51	5751	infesto	infesta infestabant infestant infestare infestarent infestari infestentur
+52	5752	linum	lina lini lino
+53	5753	fontana	fontanae fontanis
+54	5754	supinum	supina supino
+55	5755	herbarium	herbarii herbariis herbariorum
+56	5756	mutuum	mutui mutuis mutuorum
+57	5757	lucus	luci lucis luco lucos lucum
+58	5758	abscido	abscidens abscidere abscidit abscisa abscisae abscisis abscisum
+59	5759	torris	torre torres torri
+60	5760	resono	resona resonans resonant resonare resonaret resonat resonavit resonet
+61	5761	mergo	mergebantur mergebatur mergendum mergerentur mergitur merserat mersere mersi mersit
+62	5762	demolior	demoliar demoliebantur demolietur demoliretur demoliri demolitum demolitus
+63	5763	imperatum	imperata imperatis imperato imperatorum
+64	5764	pelagus	pelagi pelago
+65	5765	barba	barbae barbam barbarum
+66	5766	curvum	curva curvi curvis curvo
+67	5767	intimo	intima
+68	5768	illex	illicem illici illicis
+69	5769	benevolus	benevola benevolam benevolentior benevoli benevolis
+70	5770	mobilia	mobilibus mobilium
+71	5771	laurus	laure lauri lauris lauro lauros laurum
+72	5772	nubilum	nubila nubili nubilis nubilo
+73	5773	refugio	refugerat refugerunt refugi refugit
+74	5774	exilis	exile exilem exiles exilior exilium
+75	5775	sura	surae suram suras suris
+76	5776	motor	motore motorem motorum
+77	5777	cubus	cubi cubo cubos cubum
+78	5778	fio	factu fi fiam fiant fiat fiebant fiebantur fiebar fiebat fiebatur fiendi fiendum fient fierent fieret fieri fierit fiet fimus fis fit fite fiunt
+79	5779	limito	limitandi limitans limitare limitares limitat limitato limitatum limitatur limitatus limitem limites
+80	5780	pontificius	pontificia pontificiae pontificiam pontificii pontificiis pontificio
+81	5781	profanus	profana profanae profanas profani profanis profanum
+82	5782	concordo	concordabant concordant concordare concordat concordatu concordatum concordes
+83	5783	profugio	profugerant profugerat profugere profugerunt profugi profugis profugit
+84	5784	lito	litabant litem literis lites
+85	5785	introeo	introi introibant introibo introirent introissent introistis introit introite introitu introitum
+86	5786	prospicio	prospectu prospectum prospicere prospici prospicias prospiciat prospiciendum prospiciens prospicit
+87	5787	obicio	obice obicere obiciatur obiciebant obiciebat obicitur obiciunt obiecit
+88	5788	mensuro	mensurantur mensurare mensuras mensuratum mensuratur mensuratus mensuravit
+89	5789	pando	panda panderet panderunt pandet pandit panditur passu
+90	5790	benedico	benedicere benedici benedicit benedictum benedicunt benedicuntur benedixit
+91	5791	sinistre	
+92	5792	pernecesse	
+93	5793	adusque	
+94	5794	moleste	
+95	5795	quodsi	
+96	5796	contrarie	
+97	5797	spartum	sparta
+98	5798	principaliter	
+99	5799	absolute	
+100	5800	false	

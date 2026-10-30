@@ -1,0 +1,100 @@
+1	9201	sororcula	sororculae sororculam
+2	9202	choriambus	choriambo choriambos
+3	9203	tomaculum	tomaculorum
+4	9204	spiculum	spicula spiculis
+5	9205	crepido	crepidine crepidinum
+6	9206	sedatio	sedationis
+7	9207	fabularis	fabularem
+8	9208	bifidus	bifida bifidae
+9	9209	casteria	casteriae
+10	9210	captura	capturis
+11	9211	pessulus	pessuli pessulorum
+12	9212	fluentum	fluenti fluentis
+13	9213	convertus	converta
+14	9214	transluceo	translucentia translucet
+15	9215	gula	gulas
+16	9216	methodicus	methodica
+17	9217	strophium	strophii
+18	9218	superscriptio	superscriptionem
+19	9219	ornithologia	ornithologiae
+20	9220	spongiosus	spongiosa spongioso
+21	9221	paralysis	paralyse paralysi
+22	9222	squamosus	squamoso squamosum
+23	9223	complodo	complosisse complosit
+24	9224	griseus	grisea
+25	9225	tabacum	tabaci tabaco
+26	9226	corusco	coruscant coruscat
+27	9227	incompletus	incompleti
+28	9228	symphysis	symphysem
+29	9229	septenus	septenis septenum
+30	9230	pagella	pagellis
+31	9231	acroama	acroamata
+32	9232	prodigus	prodiga
+33	9233	acetabulum	acetabuli
+34	9234	ioculator	ioculatoribus
+35	9235	candor	candoris
+36	9236	basileus	basilea
+37	9237	pervado	pervadet pervasit
+38	9238	percolo	percolatum percolatur
+39	9239	insecticida	insecticidae insecticidas
+40	9240	ermina	armerina arminia
+41	9241	curulis	curules
+42	9242	parallelismus	parallelismo
+43	9243	duodecennis	duodecenni duodennis
+44	9244	caliginosus	caliginosa caliginosi
+45	9245	acanthius	acanthias acanthios
+46	9246	consumptor	consumptores consumptorum
+47	9247	rotarius	rotarii rotariorum
+48	9248	periclitatio	periclitatione periclitationibus
+49	9249	obolus	oboli obolis
+50	9250	plagula	plagulae plagulas
+51	9251	adnominatio	adnominationem
+52	9252	turpitudo	turpitudinem turpitudines
+53	9253	rhus	rhoi
+54	9254	claviformis	claviformi claviformia
+55	9255	praetura	praeturam
+56	9256	mamilla	mammilla
+57	9257	gilvus	gilvae
+58	9258	canthus	canthos
+59	9259	solstitium	solstitio
+60	9260	interruptio	interruptione
+61	9261	doctrinalis	doctrinalem doctrinalia
+62	9262	impeditio	impeditione impeditionis
+63	9263	comprehensibilis	comprehensibilia
+64	9264	pronepos	pronepotem
+65	9265	rapax	rapaces rapacibus
+66	9266	gratulor	gratulatur gratulemur
+67	9267	annexio	annexionem
+68	9268	dispendium	dispendiis dispendio
+69	9269	anabathrum	anabathro
+70	9270	figuratio	figurationibus
+71	9271	etas	etate etatis
+72	9272	probrus	probris probro
+73	9273	convivor	convivabantur convivari convivere
+74	9274	concoquo	concoquit concoquitur
+75	9275	moeror	moerore moerorem
+76	9276	contemplor	contemplamur contemplaretur contemplari contemplatur
+77	9277	encomium	encomiis
+78	9278	infarctus	infarctum
+79	9279	caurus	corus
+80	9280	leprosus	leprosis leprosum
+81	9281	concertatio	concertationes concertationis
+82	9282	crocus	croci croco
+83	9283	phaselus	phaseli phaselum
+84	9284	australiensis	australiense
+85	9285	haedus	haedum
+86	9286	oxyrhynchus	oxyrhynchi oxyrhynchum
+87	9287	invulnerabilis	invulnerabilibus
+88	9288	alga	algarum
+89	9289	caementarius	caementari
+90	9290	iamiam	jamjam
+91	9291	elativus	elativo
+92	9292	esox	esocem esocis
+93	9293	smaragdinus	smaragdina smaragdinum
+94	9294	feretrum	feretri feretro
+95	9295	ratiocinativus	ratiocinativa ratiocinativo
+96	9296	sicanus	sicanis sicanorum
+97	9297	praelongus	praelonga praelongis
+98	9298	armistitium	armistitio
+99	9299	telegraphia	telegraphiae
+100	9300	convexitas	convexitate convexitatem

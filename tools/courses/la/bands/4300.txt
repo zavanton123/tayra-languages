@@ -1,0 +1,100 @@
+1	4201	perduco	perducant perducebant perducendo perduceret perduci perducit perducitur perductus perduxerunt perduxit
+2	4202	corporeus	corporea corporeae corpoream corporearum corporeas corporei corporeorum corporeos corporeum
+3	4203	satisfacio	satisfacere satisfacerent satisfaceret satisfaciant satisfaciendum satisfacit satisfaciunt satisfaciuntur satisfactus satisfecit
+4	4204	conflo	conflabant conflabantur conflabatur conflabunt conflantur conflare conflari conflatus conflaverant conflaverit conflaverunt conflavit conflet
+5	4205	obligo	obligamur obligans obligantur obligare obligaris obligat obligatum obligatur obligaverant obligaverat obligaverunt obligavit
+6	4206	suffrago	suffraga suffragandi suffragarentur suffragari suffragatores suffragatoribus suffragatorum suffragatur suffragatus suffragere suffragetur
+7	4207	retracto	retractabantur retractantur retractarat retractare retractari retractasse retractat retractatur retractatus retractaverunt retractavisse retractavisset retractavit
+8	4208	delectus	delecta delectae delectis delectorum delectos delectum
+9	4209	galba	galbae galbam
+10	4210	zerum	zeri zero zerorum
+11	4211	synonymum	synonyma synonymis synonymo
+12	4212	devotus	devota devotae devote devoti devotis devotorum devotos
+13	4213	infamis	infame infamem infames infami infamia infamiae infamiam
+14	4214	dispar	dispare dispares dispari disparia disparibus
+15	4215	resina	resinam resinas retina retinae
+16	4216	laurea	lauream laureas laureis
+17	4217	caesum	caesa caesi caesis caeso caesorum
+18	4218	attentus	attenta attentae attentas attente attentis attentos attentum
+19	4219	acetum	aceta aceti aceto acetorum
+20	4220	accommodatus	accommodata accommodatae accommodatam accommodatarum accommodati accommodatis accommodato accommodatorum accommodatum
+21	4221	narrator	narratore narratores narratoribus narratoris narratorum
+22	4222	sanus	sana sanam sanas sani sanis sanum
+23	4223	armeniacus	armeniacae armeniacam armeniace armeniaci armeniacis armeniaco armeniacorum armeniacos armeniacum
+24	4224	arduum	ardua ardui arduis arduo arduorum
+25	4225	metricus	metricae metricam metricarum metricas metricis metrico metricorum metricos metricum
+26	4226	conexus	conexa conexae conexarum conexas conexi conexis conexos connexuum
+27	4227	veneno	venena venenat venenata venenatae venenatam venenati venenatis venenatorum venenatos venenatum venenatus
+28	4228	medico	medicandi medicans medicantur medicas medicatis medicato medicatum medicatur medicatus medices
+29	4229	fax	face facem faces faci facibus facis
+30	4230	centesimo	centesimas
+31	4231	amico	amica amicae amicam amicarum amicas amicavit amicis
+32	4232	oleo	oleam oleat oleatis olebant olens olent olenti olentia olet ulturus
+33	4233	flaminius	flamini flaminia flaminii flaminio flaminium flamonium
+34	4234	lateo	lateant lateat latebat latent latere laterem laterent lateres latet latuerunt latuit
+35	4235	persisto	persistant persistebant persistens persisteret persistet persistit perstitit
+36	4236	propior	propiorem propiores propioribus propius
+37	4237	iudicatus	iudicata iudicatam iudicati iudicatorum iudicatum
+38	4238	flamen	flamine flaminem flamines flamini flaminibus flaminis flaminum
+39	4239	luceo	luceat lucens lucent lucere lucerent luces lucet lucu luxit
+40	4240	praedictum	praedicta praedicti praedictis praedicto praedictorum
+41	4241	violentus	violenta violentae violentam violenti violentis violento violentos
+42	4242	prospero	prospera prosperabatur prosperas prosperat
+43	4243	nocturnus	nocturnae nocturnam nocturnas nocturni nocturnis nocturno nocturnos nocturnum
+44	4244	obliquus	obliqua obliquae obliquam obliquas obliqui obliquis obliquum
+45	4245	flo	flamini flando flans flant flat flator flatu flatum flavi flavit flentur flere flor
+46	4246	comprimo	compressi compressit compressum comprimantur comprime comprimendo comprimens comprimere comprimet comprimetur comprimi comprimit
+47	4247	perpaucus	perpauca perpaucae perpaucas perpaucis perpaucos perpaucum
+48	4248	reformo	reforma reformabant reformando reformare reformaret reformari reformas reformatis reformato reformatum reformavit
+49	4249	memoror	memorabatur memorandi memorandus memorans memorantur memoraretur memoratu memoratum memoratur
+50	4250	diffundo	diffuderunt diffundebatur diffundens diffundere diffunderent diffundi diffundit diffunditur diffusum
+51	4251	onero	onera onerabat onerantur onerare onerarentur oneraretur onerat oneratis onerato oneratum oneratur oneratus oneravit
+52	4252	roto	rotabatur rotandi rotans rotant rotantur rotare rotas rotat rotatur rotavit roter rotor
+53	4253	ultro	
+54	4254	econtra	
+55	4255	quocum	
+56	4256	pridie	
+57	4257	nefas	
+58	4258	tametsi	
+59	4259	turner	
+60	4260	necem	
+61	4261	secretaria	secretariam
+62	4262	diligentia	diligentiam
+63	4263	basipila	basipilae basipilam
+64	4264	bibliothecarius	bibliothecarii bibliothecario
+65	4265	petroleum	petrolei petroleo
+66	4266	exitium	exitii exitio
+67	4267	iniustus	iniusta iniustam iniustum
+68	4268	christifidelis	christifideles christifidelibus christifidelium
+69	4269	litteratura	litteraturae litteraturam
+70	4270	chiliogramma	chiliogrammata chiliogrammatis chiliogrammatum
+71	4271	communismus	communismi communismo communismum
+72	4272	familiaritas	familiaritate familiaritatem familiaritates
+73	4273	idus	idibus idu
+74	4274	perdor	perdebatur perdendi perdens perdere perderentur perderetur perditorum perditum perditur perditus
+75	4275	sacellum	sacella sacelli sacello
+76	4276	fraternitas	fraternitate fraternitatem fraternitatibus fraternitatis
+77	4277	comprehensio	comprehensione comprehensionem comprehensionis
+78	4278	strategia	strategiae strategiam
+79	4279	egoismus	egoismi egoismo egoismum
+80	4280	angiportus	angiporti angiportibus angiportu angiportum
+81	4281	rapina	rapinae rapinam rapinas rapinis
+82	4282	castellanus	castellana castellanae castellanis castellano castellanorum castellanum
+83	4283	metellus	metelli metello metellum
+84	4284	athenaeus	athenaei athenaeo athenaeorum athenaeum
+85	4285	horizontalis	horizontale horizontalem horizontales horizontali
+86	4286	proinde	proin
+87	4287	californium	california californio
+88	4288	intrinsecus	intrinsecas intrinsecum
+89	4289	incunabula	incunabulorum incunabulum
+90	4290	encyclicus	encyclica encyclicae encyclicis
+91	4291	reducto	reducta reductas
+92	4292	solium	solii solio
+93	4293	ientaculum	ientaculi ientaculo
+94	4294	blancus	blanca blancae blanci blanco blancum
+95	4295	eremita	eremitae eremitarum
+96	4296	farina	farinae farinam farinum
+97	4297	incubo	incubabat incubantur incubonum incubuerat incubuerunt incubuit
+98	4298	piper	pipere piperes piperis piperium
+99	4299	aquaeductus	aquaeductibus aquaeductu aquaeductum
+100	4300	dativus	dativi dativo dativum

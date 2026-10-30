@@ -1,0 +1,100 @@
+1	3601	abundo	abunda abundabant abundabat abundans abundant abundat abundaverunt abundent
+2	3602	ferrarius	ferrari ferrariae ferrariam ferrariarum ferrarias ferrarii ferrariis ferrario ferrariorum ferrarios ferrarium
+3	3603	sincerus	sincera sinceram sincere sinceri sincero sincerum
+4	3604	arbitratus	arbitrata arbitratae arbitrati arbitratu
+5	3605	infernum	inferna inferni infernis inferno infernorum
+6	3606	transversus	transversa transversae transversam transversarum transversi transversis transversorum
+7	3607	adverso	adversabatur adversandi adversandum adversant adversantur adversari adversas adversatis adversatur adversatus adversentur
+8	3608	miror	mirabantur mirabatur mirabuntur mirandum mirans mirarentur miraretur mirari miraris miratur miratus mireris miretur miro
+9	3609	decurro	decucurrit decurrebant decurrendum decurrens decurrere decurrerint decurrit decurrunt decursu decursum
+10	3610	coeo	coeant coeunt coi coibant coiere coierunt coiit coire coirent coiret coisse coit coitum coiverit
+11	3611	cesso	cessa cessabat cessabunt cessandi cessant cessare cessat cessaverunt cessavit cessere
+12	3612	sancio	sanciat sanciebant sanciendi sancire sancirent sanciret sanciri sancit sancitur sanctum sanxerat sanxerunt sanxit
+13	3613	pulso	pulsa pulsabit pulsando pulsandum pulsans pulsant pulsantur pulsare pulsari pulsat pulsatu
+14	3614	deicio	deicere deiceret deiciam deicienda deicit deicitur deiciunt deiecerunt deieci deiecit deiectu deiectum
+15	3615	aeternus	aeterna aeternae aeternam aeternas aeterni
+16	3616	langobardus	langobardae langobardarum langobardi langobardorum
+17	3617	apparens	apparente apparentem apparentes apparenti apparentia apparentiae apparentiam apparentium
+18	3618	oralis	orale oralem orales orali oralia oralibus
+19	3619	tremor	tremore tremorem tremores tremori tremoribus tremoris tremorum
+20	3620	pinus	pine pini pinis pino pinorum pinos pinum pinuum
+21	3621	alpha	
+22	3622	relative	
+23	3623	septimum	
+24	3624	aguntur	
+25	3625	nimirum	
+26	3626	lutetium	lutetia lutetiis
+27	3627	causidicus	causidici causidicorum causidicum
+28	3628	edisco	edidicerunt edidicit ediscere ediscitur
+29	3629	io	ion ionis
+30	3630	transitio	transitione transitionem transitiones transitioni transitionis
+31	3631	famulus	famul famula famulis famulorum famulos famulum
+32	3632	continuatio	continuatione continuationem continuationes continuationis
+33	3633	hippocampus	hippocampi hippocampo hippocampum
+34	3634	omen	omina ominibus
+35	3635	testa	testae testam testarum
+36	3636	oppositus	opposita oppositam oppositas opposite oppositi oppositis opposito oppositorum
+37	3637	carbo	carbone carbonem carbones carboni carbonibus carbonis
+38	3638	territorialis	territorialem territoriales territorialia territorialibus territorialium
+39	3639	transmissio	transmissione transmissionem transmissiones transmissionis transmissionum
+40	3640	astronomia	astronomiae astronomiam
+41	3641	epulum	epula epulae epulam epulas epuli
+42	3642	contradictio	contradictione contradictionem contradictiones contradictionibus
+43	3643	cohaereo	cohaereant cohaereat cohaerent cohaerere cohaeret
+44	3644	vehemens	vehementem vehementes vehementi vehementiae vehementibus vehementis
+45	3645	cylindrus	cylindri cylindris cylindro cylindros cylindrum
+46	3646	muralis	murale murales murali muralia muralibus
+47	3647	alludo	alludebat alludens alludere alluderent alludit alluditur alludunt alluserunt allusit
+48	3648	progressio	progressione progressionem progressiones progressioni progressionibus progressionis
+49	3649	creatura	creaturae creaturarum creaturas creaturis
+50	3650	glacialis	glaciale glaciales glaciali glacialia glacialibus
+51	3651	missile	missiles missili missilia missilibus missilis missilium
+52	3652	accusativus	accusativi accusativo accusativos accusativum
+53	3653	disceptatio	disceptatione disceptationem disceptationes disceptationibus disceptationis
+54	3654	educativus	educativa educativas educativi educativis educativo educativum
+55	3655	superficialis	superficiale superficialem superficiales superficiali superficialia superficialibus
+56	3656	innitor	innitebatur innitens innitetur inniti innititur innituntur innixum innixus
+57	3657	portio	portione portionem portiones portioni portionis
+58	3658	fictilis	fictile fictiles fictili fictilia fictilibus fictilium
+59	3659	contumelia	contumeliae contumeliam contumelias contumeliis
+60	3660	baptismum	baptisma baptismate baptismatis baptismatum baptismi baptismis baptismo
+61	3661	aethiopicus	aethiopica aethiopicae aethiopice aethiopici aethiopicis aethiopico aethiopicorum aethiopicos aethiopicum
+62	3662	exorior	exoriatur exoriretur exoriri exoritur exortu exortum exortus
+63	3663	ambiguitas	ambiguitate ambiguitatem ambiguitates ambiguitatis
+64	3664	dictio	dictione dictionem dictiones dictionibus dictionis dictionum
+65	3665	conceptio	conceptione conceptionem conceptiones conceptionis
+66	3666	spelunca	speluncae speluncam speluncarum speluncas speluncis
+67	3667	sulcus	sulci sulcis sulcorum sulcos sulcum
+68	3668	inquisitio	inquisitione inquisitionem inquisitiones inquisitionibus inquisitionis inquisitionum
+69	3669	primitivus	primitiva primitivae primitivam primitivarum primitive primitivis primitivo primitivorum primitivum
+70	3670	conservativus	conservativa conservativae conservativam conservative conservativi conservativos
+71	3671	vasconicus	vasconica vasconicae vasconicam vasconice vasconici vasconicis vasconico vasconicorum vasconicum
+72	3672	tento	tenta tentabat tentabitis tentant tentantur tentas tentat tentatum tentatus tentaverunt tentavit tentere
+73	3673	institor	institore institorem institores institori institoribus institoris institorum
+74	3674	technologicus	technologica technologicae technologicas technologice technologici technologicorum technologicum
+75	3675	donatio	donatione donationem donationes donationibus donationis donationum
+76	3676	agrestis	agrestem agrestes agresti agrestia agrestibus agrestium
+77	3677	punio	puniebantur puniendi punieris punire punirentur puniret puniri punit punitur punitus puniuntur punivit
+78	3678	antecedo	antecedebat antecedens antecedere antecedetur antecedit antecedunt antecesserant antecessit antecessum
+79	3679	contemno	contemnebatur contemnendum contemnens contemnere contemneretur contemni contemnit contempsit contempta contemptu contemptui contemptum
+80	3680	gelidus	gelida gelidae gelidam gelidarum gelidi gelidis gelidissima gelido gelidorum gelidum
+81	3681	reflecto	reflectantur reflecteretur reflecti reflectit reflectitur reflexum reflexus
+82	3682	procreo	procreabimus procreandi procreando procreandum procreant procreantur procreare procreasset procreat procreatur procreatus procreavit
+83	3683	inquiro	inquirant inquirendi inquirendo inquirere inquireret inquiri inquiris inquirit inquiritur inquirunt inquiruntur inquisivimus inquisivit
+84	3684	tolero	tolerabant tolerabo tolerandi tolerando tolerans tolerant tolerare toleraret tolerari toleratis toleraverant toleravisse toleravit toleret toleretur
+85	3685	inanis	inane inanem inanes inani inania inanibus
+86	3686	coitus	coitum
+87	3687	caverna	cavernae cavernam cavernarum cavernas cavernis
+88	3688	lena	lenarum lene lenem lenes leni lenia lenior lenis leniter lenius
+89	3689	elevatus	elevata elevatae elevatas elevatis elevato elevatos elevatum
+90	3690	significatus	significata significatas significati significatibus significatis significatu significatum
+91	3691	urina	urinae urinam urinas
+92	3692	obses	obside obsidem obsides obsidibus obsidum
+93	3693	malignus	maligna malignae malignam malignas maligne maligni malignis maligno malignos malignum
+94	3694	fluctus	fluctibus fluctum fluctuum
+95	3695	regularis	regularem regulares regulari regularia regulariter regularium
+96	3696	refugium	refugi refugia refugii refugio
+97	3697	ebrius	ebria ebriam ebrii ebriis ebrio ebrium
+98	3698	mobilis	mobile mobilem mobiles mobili mobilibus mobilium
+99	3699	inceptus	incepta inceptae inceptam incepti inceptibus inceptis inceptorum inceptu
+100	3700	coniugium	coniugi coniugia coniugii coniugiis coniugio

@@ -1,0 +1,100 @@
+1	2301	vidua	viduae viduam viduarum viduas
+2	2302	communio	communi communione communionem communionis communior communitum
+3	2303	arbitrium	arbitri arbitria arbitrio
+4	2304	votum	vota votantur votis voto votorum votuerunt votuit
+5	2305	vasto	vasta vastabant vastabat vastabatur vastandi vastans vastant vastantur vastare vastarent vastaret vastari vastas vastat vastatis vastatores vastatum vastavere vastaverunt vastavisse vastavit
+6	2306	infirmus	infirma infirmam infirmarum infirmas infirmi infirmior infirmis infirmo infirmorum infirmos infirmum
+7	2307	venenum	venena veneni venenis veneno
+8	2308	tela	telae telam telarum telas teli telis
+9	2309	sano	sana sanabant sanabatur sanandi sanandum sanare sanarentur sanaret sanaretur sanari sanas sanasse sanat sanator sanatur sanatus sanavit sanet
+10	2310	validus	valida validae validam validarum valide validi validis valido validorum validos validum
+11	2311	oratorius	oratoriae oratoriam oratoriarum oratorii oratoriis oratorio oratoriorum oratorios oratorium
+12	2312	acquiro	acquiratur acquirebant acquirendi acquirendum acquirentur acquirere acquireret acquirit acquiritur acquirunt acquisiverant acquisivere acquisiverit acquisiverunt acquisivit
+13	2313	mechanicus	mechanica mechanicae mechanicam mechanicarum mechanici mechanicis mechanicorum mechanicum
+14	2314	sacrificium	sacrificia sacrificii sacrificiis sacrificio sacrificiorum
+15	2315	admitto	admiserit admisit admissum admissurus admissus admittantur admittat admittebant admittendam admittendos admittendum admittere admitterentur admitteret admittetur admitti admittit admittitur admittunt admittuntur
+16	2316	antiquitus	
+17	2317	sin	
+18	2318	tirocinium	tirocinia tirocinii tirocinio
+19	2319	sequentia	sequentiae sequentiam sequentias sequentiis
+20	2320	diligenter	diligentissime diligentius
+21	2321	equester	equestre equestrem equestres equestri equestria equestribus equestris equestrium
+22	2322	inusitatus	inusitata inusitatae inusitatas inusitate inusitati inusitatis inusitato inusitatos inusitatum
+23	2323	televisio	televisione televisionem televisiones televisioni televisionis
+24	2324	gubernium	gubernia gubernii guberniis gubernio
+25	2325	artificialis	artificiale artificialem artificiales artificiali artificialia artificialibus
+26	2326	diversitas	diversitate diversitatem diversitates diversitati diversitatibus diversitatis
+27	2327	militia	militiae militiam militiis
+28	2328	subfamilia	subfamiliae subfamiliam subfamiliarum subfamilias subfamiliis
+29	2329	incognitus	incognita incognitae incognitarum incognitas incogniti incognitis incognito incognitum
+30	2330	autonomus	autonoma autonomae autonomam autonomarum autonomas autonomi autonomis autonomo autonomos autonomum
+31	2331	virilis	virile virilem viriles virili virilia virilibus viriliter virilium
+32	2332	herba	herbae herbam herbarum herbas herbis
+33	2333	nucleo	nuclea nucleare nuclearem nucleares nucleari nuclearia nuclearibus nuclearis nuclearium
+34	2334	vehiculum	vehicula vehiculi vehiculis vehiculo vehiculorum
+35	2335	legatio	legatione legationem legationes legationi legationibus legationis legationum
+36	2336	cooperatio	cooperatione cooperationem cooperationes cooperationi cooperationis
+37	2337	determino	determinabit determinandi determinando determinans determinant determinare determinari determinat determinatis determinato determinatu determinatum determinatur determinaverunt determinavit determinet
+38	2338	tumulus	tumuli tumulis tumulo tumulorum tumulos tumulum
+39	2339	repello	repellebant repellendum repellens repellere repellerentur repelleret repelli repellit repellitur repellunt repelluntur reppulerat reppulerunt reppulit repulerunt repulit repulsus
+40	2340	catena	catenae catenam catenarum catenas catenis
+41	2341	neglectus	neglecta neglectae neglecti neglectis neglecto neglectos neglectum
+42	2342	aquila	aquilae aquilam aquilarum aquilas
+43	2343	advocatus	advocata advocatae advocate advocati advocatis advocato advocatorum advocatum
+44	2344	potio	potione potionem potiones potioni potionibus potionis potionum
+45	2345	mixtus	mixta mixtae mixtam mixtarum mixti mixtis mixto mixtos mixtum
+46	2346	tendo	tendam tendat tendebant tendebatur tendens tendent tendere tenderet tendet tendi tendines tendinum tendit tenditur tendunt tensae tenso tentum tetenderunt tetendit
+47	2347	aegrotus	aegrotas aegroti aegrotis aegroto aegrotorum aegrotos aegrotum
+48	2348	viso	visam visas visebant visebat visendi visendus visens visent visere viseret visi visis visit visitur visu visuntur visurus
+49	2349	quietus	quies quieta quietae quietam quiete quietem quieti quietior quietis quieto
+50	2350	redigo	redactum redegerunt redegisse redegit redigatur redigebantur redigebat redigere redigerent redigerentur redigeret redigeretur redigi redigit redigitur redigunt rediguntur
+51	2351	consido	consederant consederat consederit consederunt consedissent consedit consessu consessum considant considat considebant consident consideramus considerant considerat consideratis considere consideretur considerunt considit considunt
+52	2352	decedo	decedebant decedens decedere decederet decedit decedunt decesserit decesserunt decessi decessisse decessisset decessit decessum
+53	2353	maturitas	maturitate maturitatem maturitati maturitatis
+54	2354	ambulo	ambulabant ambulabas ambulabat ambulandi ambulando ambulandum ambulant ambulare ambularem ambulasse ambulat ambulatis ambulatores ambulaverunt ambulavisse ambulavit ambulemus ambulent ambules ambulet
+55	2355	gallium	gallia galliis gallio
+56	2356	septemtrionalis	septemtrionalem septemtrionales
+57	2357	dynastia	dynastiae dynastiam dynastiarum dynastiis
+58	2358	frequenter	frequentissime frequentius
+59	2359	procurator	procuratore procuratorem procuratores procuratoribus procuratoris procuratorum procuratrix
+60	2360	cancer	cancere cancri cancro cancrorum cancrum
+61	2361	sanctuarium	sanctuarii sanctuario sanctuariorum
+62	2362	perhibeo	perhibeant perhibeat perhibendum perhibent perhibentur perhibere perhiberi perhibet perhibetur perhibuisse perhibuit
+63	2363	rosa	rosae rosam rosarum rosas rosis
+64	2364	curator	curatore curatorem curatores curatori curatoribus curatoris curatorum
+65	2365	brutus	bruta brute bruti bruto brutorum brutum
+66	2366	designatio	designatione designationem designationes designationibus designationis
+67	2367	timor	timore timorem timores timori timoris timorum
+68	2368	crassus	crassa crassae crassas crassi crassior crassis crasso crassos crassum
+69	2369	athleticus	athletica athleticae athleticam athleticarum athleticas athletici athleticis athleticorum athleticos athleticum
+70	2370	venator	venatore venatorem venatores venatori venatoribus venatoris venatorum venatrix
+71	2371	mediterraneus	mediterranea mediterraneae mediterraneam mediterranei mediterraneis mediterraneo mediterraneum
+72	2372	permagnus	permagna permagnae permagnam permagnarum permagni permagnis permagno permagnorum permagnos permagnum
+73	2373	taurus	tauri tauris tauro taurorum tauros taurulus taurum
+74	2374	paradoxum	paradoxa paradoxi paradoxis paradoxo
+75	2375	salvus	salva salvam salve salvi salvis salvo salvos salvum
+76	2376	contractus	contracta contractae contractam contractior contractis contracto contractu contractum
+77	2377	auxiliaris	auxiliare auxiliarem auxiliares auxiliari auxiliaria auxiliaribus auxiliarium
+78	2378	praeda	praedae praedam praedas praedis preda
+79	2379	perpetuus	perpetua perpetuae perpetuam perpetuas perpetue perpetui perpetuis perpetuorum
+80	2380	coniectus	coniecta coniecti coniectis coniectos coniectu coniectum conjectus
+81	2381	collum	colla colli collo collorum
+82	2382	partus	parta partae partam parte parti partibus parto partu partui partuum
+83	2383	indicus	indica indicae indicam indicarum indicas indice indici indicis indicorum indicos indicum
+84	2384	appeto	appetant appetat appetebant appetebat appetendi appetens appetente appetentem appetere appeteret appetiit appetimus appetisse appetit appetitis appetitu appetitum appetiverunt appetivissent appetivit appetunt
+85	2385	effero	effer efferant efferantur efferato efferatur efferebant efferebat efferebatur efferendi efferens efferre efferretur efferri effert effertur efferunt efferuntur elatum elatus extulerunt extulit
+86	2386	celo	celabant celabat celabatur celandi celans celantur celare celaret celari celat celatis celato celatum celatur celatus celaveritis celaverunt celavit celere celeris celet celetur
+87	2387	provenio	provenerit provenerunt proveniat proveniebant provenire provenisse provenit proveniunt proventum
+88	2388	tribuo	tribuant tribuat tribuatur tribuebant tribuebat tribuebatur tribuendo tribuendum tribuendus tribuere tribueret tribueretur tribuerunt tribuetur tribui tribuit tribuitur tribuuntur
+89	2389	evanesco	evanescant evanescat evanescebant evanescebat evanescere evanesceret evanescit evanescitur evanescunt evanuerat evanuerint evanuerunt evanuisse evanuit
+90	2390	genetivus	genetivi genetivo genetivum genitivus
+91	2391	reapse	
+92	2392	duodeviginti	duodevicies
+93	2393	trinitas	trinitate trinitatem trinitatis
+94	2394	certioro	certiorem certiores
+95	2395	subspecies	subspecie subspeciebus subspeciei subspeciem subspecierum
+96	2396	fronto	frontone frontonem frontoni frontonis
+97	2397	atmosphaera	atmosphaerae atmosphaeram atmosphaerarum atmosphaeras atmosphaeris
+98	2398	densitas	densitate densitatem densitates densitati densitatis
+99	2399	campana	campanae campanam campanarum campanas campanella campanis
+100	2400	proles	prole prolem proli prolis prolium prolum

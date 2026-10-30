@@ -1,0 +1,100 @@
+1	3101	conformo	conformabant conformabat conformandum conformans conformant conformantur conformare conformari conformasse conformat conformatum conformatur conformatus conformaverunt conformavit conforment conformentur
+2	3102	clamo	clamabant clamabit clamabitis clamans clamant clamare clamat clamavero clamaverunt clamavit clamem
+3	3103	propago	propagandi propagant propagantur propagare propagarent propagari propagat propagator propagatum propagatur propagavit propagetur propagine propaginibus
+4	3104	undique	
+5	3105	septentriones	
+6	3106	coniunctim	conjunctim
+7	3107	prospere	prosperissime prosperius
+8	3108	itemque	idemque
+9	3109	monachium	monachii monachio
+10	3110	oblivio	oblivione oblivionem oblivioni oblivionis
+11	3111	ludibrium	ludibria ludibriis ludibrio
+12	3112	attentio	attentione attentionem attentioni attentionis attentionum
+13	3113	anthropologia	anthropologiae anthropologiam
+14	3114	intellegentia	intellegentiae intellegentiam intelligentia
+15	3115	canticum	cantica cantici canticis cantico canticorum
+16	3116	alea	aleae aleam alearum aleas
+17	3117	marmor	marmora marmore marmoribus marmoris
+18	3118	adamo	adamante adamantem adamantibus adamare adamas adamat adamavit
+19	3119	passio	passione passionem passiones passionibus passionis passionum
+20	3120	currens	currente currentem currentes currentia currentibus currentis
+21	3121	tympanum	tympana tympani tympanis tympano tympanorum
+22	3122	molecula	moleculae moleculam molecularum moleculas moleculis
+23	3123	affectio	affectione affectionem affectiones affectionibus affectionis affectionum
+24	3124	defluo	defluens defluere defluit defluunt defluxerunt defluxit
+25	3125	seditiosus	seditiosam seditiosas seditiosi seditiosis seditiosorum seditiosos seditiosum
+26	3126	restauro	restaurabatur restaurando restaurandum restaurantur restaurare restauraret restaurator restauratum restauratus restauravit
+27	3127	trabs	trabes trabibus trabis
+28	3128	administrator	administratore administratorem administratores administratoribus administratoris
+29	3129	solitudo	solitudine solitudinem solitudines solitudinibus solitudinis
+30	3130	muscularis	musculare muscularem musculares musculari muscularium
+31	3131	cambricus	cambrica cambricae cambricam cambricarum cambrice cambrici cambrico cambricum
+32	3132	contio	concionibus contione contionem contiones contioni contionibus contionis
+33	3133	ursus	ursi urso ursorum ursos ursum
+34	3134	spina	spinae spinam spinas spinis
+35	3135	miser	misellus misera miseram miseri miseris miserorum miseros miserrimus miserum
+36	3136	decursus	decursibus decursu decursui decursum
+37	3137	laetus	laeta laetae laetam laetas laete laeti laetior laetissimus laetum
+38	3138	bombus	bomba bombae bombam bombarum bombis
+39	3139	nundinae	nundinarum nundinas nundinis
+40	3140	vitrum	vitra vitrea vitri vitris vitro vitrorum
+41	3141	pomum	poma pomi pomis pomo pomorum
+42	3142	lyricus	lyricae lyricam lyricas lyrice lyrici lyricis lyrico lyricorum lyricos lyricum
+43	3143	annuus	annu annua annuae annuam annuas annue annui annuis annuo
+44	3144	scholaris	scholare scholarem scholares scholari scholaria scholaribus scholarium
+45	3145	meretrix	meretor meretrice meretricem meretrices meretrici meretricibus meretricis meretricula meretricum
+46	3146	dominatus	dominata dominatam dominatas dominato dominatorum dominatu dominatum
+47	3147	probus	proba probae probam probas probe probi probissime probo probum
+48	3148	gas	gasa gasi gasis gaso gasorum
+49	3149	pullus	pulla pullas pulli pullis pullo pullos pullum
+50	3150	coquus	coco cocus coqua coque coqui coquis coquo coquos
+51	3151	dictionarium	dictionarii dictionario dictionariorum
+52	3152	pupa	pupae pupam puparum pupas pupis
+53	3153	condio	condi condiatur condiendorum condiendos condiendum condirentur condiri condit conditis condito conditur condiunt condiuntur
+54	3154	annuum	annu annua annui annuis annuo
+55	3155	obscuro	obscura obscurabant obscurabit obscurarent obscuras obscurat obscuratum obscuratur obscuravissent obscuravit obscuretur
+56	3156	saluto	saluta salutabantur salutamus salutant salutarem salutarent salutares salutari salutat salutate salutatis salutatum salutatur salutatus salutaverunt salutavit salutem
+57	3157	suspendo	suspendebantur suspendendi suspenderat suspendere suspenderunt suspendetur suspendi suspendit suspenditur suspendunt suspensum suspensus
+58	3158	examino	examina examinabat examinando examinandum examinandus examinantur examinare examinari examinat examinator examinatorem examinatus examinaverant examinavit examinem examinentur examines
+59	3159	iacto	iacta iactabant iactabat iactabit iactandi iactando iactant iactantur iactare iactarentur iactaret iactat iactatis iactatus iactaverat iactavit
+60	3160	apto	apta aptandi aptandum aptantur aptare aptarentur aptaret aptari aptas aptat aptatis aptato aptatur aptavit aptem aptent
+61	3161	quaestor	quaestorem quaestoribus quaestoris quaestorum
+62	3162	metropolis	metropoleis metropolem metropoleos metropoles metropoli metropolibus metropolim metropolin
+63	3163	ingeniosus	ingeniosa ingeniosam ingeniose ingeniosis ingeniosissimus ingenioso ingeniosorum ingeniosos ingeniosum
+64	3164	adicio	adice adici adiciamus adiciantur adiciendum adiciere adicit adicitur adiecerunt adiecimus adiecit adiectum adiectus
+65	3165	desisto	desistamus desistat desistebat desistens desistere desisterent desisteret desisti desistit desistunt destiterat destitit
+66	3166	ducalis	ducale ducalem ducales ducali ducalibus ducalium
+67	3167	diuturnus	diuturna diuturnae diuturnam diuturnas diuturne diuturnis diuturnissime diuturno diuturnum
+68	3168	abhorreo	abhorreat abhorrebat abhorremus abhorrent abhorrere abhorreret abhorreri abhorret abhorruisse abhorruit
+69	3169	suppedito	suppeditabat suppeditandi suppeditandum suppeditant suppeditare suppeditaret suppeditari suppeditat suppeditatum suppeditatur suppeditaverunt suppeditavit suppeditet
+70	3170	suspicor	suspicabantur suspicabatur suspicandas suspicantur suspicari suspicatum suspicatur suspicatus suspicentur
+71	3171	opulentus	opulenta opulentae opulentam opulentas opulenti opulentior opulentis opulentissimus opulento opulentos opulentum
+72	3172	consuesco	consuescat consuescebant consuescebat consuescimus consuesset consuesti consueta consuetae consuetas consueti consueto consuetum consueverant consueverat consueverunt consuevit
+73	3173	adaequo	adaequabat adaequans adaequant adaequantur adaequare adaequarent adaequaretur adaequarunt adaequat adaequata adaequatae adaequatam adaequatum adaequatur adaequaverit adaequavit adaequetur
+74	3174	lacteus	lactea lacteae lacteo lacteum
+75	3175	impossibilis	impossibile impossibilem impossibiles impossibili impossibilia impossibilibus
+76	3176	crescentus	crescente crescenti crescentis
+77	3177	impar	imparem impares imparibus imparum
+78	3178	gentilicius	gentiliciae gentiliciam gentilicii gentiliciis gentilicio gentilicium
+79	3179	assequor	assecutum assecutus assequendam assequentur assequeretur assequetur assequi assequitur assequuntur
+80	3180	cadens	cadente cadentes cadenti cadentia cadentibus cadentis
+81	3181	testor	testant testantur testari testatum testatur testentur
+82	3182	baptizo	baptizandi baptizandum baptizandus baptizans baptizare baptizarentur baptizaret baptizari baptizatus baptizaverunt baptizavisse baptizavit
+83	3183	lacrimo	lacrimae lacrimans lacrimarum lacrimas lacrimavit lacrimis
+84	3184	appendix	appendice appendices appendicibus appendicis appendiculis appendicum
+85	3185	probabilis	probabile probabilem probabiles probabili probabilia probabilior probabilium
+86	3186	tensio	tensione tensionem tensiones tensionibus tensionis tensionum
+87	3187	inhibeo	inhibeant inhibendi inhibens inhibent inhibere inhiberent inhiberet inhiberi inhibet inhibitum inhibitus
+88	3188	didacticus	didactica didacticae didacticam didacticas didactice didactici didacticis didactico didacticum
+89	3189	ridiculus	ridicula ridiculae ridiculam ridicularum ridicule ridiculi ridiculis ridiculum
+90	3190	perscribo	perscribebat perscribens perscribet perscribi perscribit perscribitur perscribuntur perscripsit perscriptum
+91	3191	clivus	clive clivi clivis clivo clivorum clivos clivum
+92	3192	cognitivus	cognitiva cognitivae cognitivam cognitivarum cognitivas cognitive cognitivis cognitivum
+93	3193	separatim	
+94	3194	iacebat	
+95	3195	hactenus	
+96	3196	perpetuum	
+97	3197	cathedra	cathedrae cathedram cathedras cathedris
+98	3198	apte	aptissime aptius
+99	3199	coenobium	coenobii coenobiis coenobio
+100	3200	oryza	oryzae oryzam

@@ -1,0 +1,100 @@
+1	3401	solito	solita solitas
+2	3402	cursor	cursorem cursores cursoribus cursoris cursorum
+3	3403	chronicus	chronica chronicae chronicam chronicas chronicis chronico chronicorum
+4	3404	dextera	dexterae dexteram
+5	3405	femur	femine femini feminibus feminis femore femoris
+6	3406	rare	rarissime rarius
+7	3407	suggero	suggerebat suggerens suggerere suggeret suggerit suggerunt suggessere suggesserunt suggessit suggestu
+8	3408	ulterior	ulteriore ulteriorem ulteriores ulterioribus ulterioris ulteriorum ulterius
+9	3409	interrumpo	interrumpat interrumpebant interrumpens interrumpere interrumpit interrumpitur interrumpunt interrumpuntur interruperit interrupit interruptum interruptus
+10	3410	comprobo	comprobabat comprobant comprobare comprobari comprobat comprobatis comprobatum comprobatur comprobaverunt comprobavit comprobentur
+11	3411	beta	betae betam betas
+12	3412	rapide	rapidissime
+13	3413	inflammo	inflammabat inflammare inflammarentur inflammaretur inflammatis inflammatum inflammatus inflammavit
+14	3414	epocha	epochae epocham epochas epochis
+15	3415	strenuus	strenua strenuam strenui strenuis strenuo
+16	3416	ruo	rue ruebant ruere rui ruit rutus ruunt
+17	3417	dissimilitudo	dissimilitudine dissimilitudinem dissimilitudines dissimilitudinis dissimilitudinum
+18	3418	consequentia	consequentiae consequentiam consequentiis
+19	3419	collector	collectore collectorem collectores collectoribus collectoris collectorum
+20	3420	canadensis	canadense canadensem canadenses canadensi canadensibus canadensium
+21	3421	promulgo	promulgantur promulgaret promulgari promulgarit promulgato promulgatum promulgatur promulgatus promulgaverunt promulgavit
+22	3422	imminuo	imminuat imminuebantur imminuerit imminuerunt imminui imminuissent imminuit imminuitur imminutum imminutus
+23	3423	puerilis	puerilem pueriles puerili puerilibus pueriliter puerilium
+24	3424	immortalis	immortale immortalem immortales immortalia immortalibus immortalium
+25	3425	pumilio	pumilione pumilionem pumiliones pumilioni pumilionis pumilionum
+26	3426	hormon	hormonta hormonti hormontis hormontum hormonum
+27	3427	gallaicus	gallaica gallaicae gallaicarum gallaici gallaicis gallaico gallaicorum gallaicum
+28	3428	alveus	alvea alvei alveis alveo alveorum alveum
+29	3429	terminalis	terminale terminalem terminales terminali terminalia
+30	3430	veneratio	veneratione venerationem venerationi venerationis
+31	3431	vanus	vana vanam vani vanis vano vanos vanum
+32	3432	condimentum	condimenta condimenti condimentis condimento condimentorum
+33	3433	controversus	controversa controversae controversam controversas controverse controversi controversis controverso controversum
+34	3434	laicus	laica laici laicis laico laicorum laicos laicum
+35	3435	gentilis	gentile gentilem gentiles gentili gentilibus gentilium
+36	3436	exorno	exornant exornantur exornare exornat exornatum exornatur exornatus exornaverunt exornavit exornent
+37	3437	machinatio	machinatione machinationem machinationes machinationibus machinationis machinationum
+38	3438	georgianus	georgiana georgianae georgianam georgiane georgiani georgianis georgiano georgianorum georgianum
+39	3439	permanens	permanentem permanentes permanenti permanentia permanentibus permanentis permanentium
+40	3440	senatorius	senatoria senatoriae senatoriam senatorias senatorii senatoriis senatorio senatorium
+41	3441	evoco	evocabatur evocandi evocandum evocantur evocare evocari evocarunt evocat evocatur evocavit
+42	3442	restitutio	restitutione restitutionem restitutiones restitutioni restitutionis restitutionum
+43	3443	emano	emanant emanare emanaret emanat emanavisse emanavit emanet
+44	3444	indago	indagabant indagabantur indagabat indagans indagant indagantur indagare indagari indagat indagatis indagaverunt indagavit indaget
+45	3445	creber	creberrimus crebrae crebrarum crebras crebri crebrior crebris crebros crebrum
+46	3446	saltatrix	saltator saltatorem saltatores saltatori saltatoribus saltatoris saltatorum saltatricem
+47	3447	realitas	realitate realitatem realitatis realitatum
+48	3448	meditatio	meditatione meditationem meditationes meditationi meditationibus meditationis meditationum
+49	3449	australianus	australiana australianae australianarum australiani australiano australianos australianum
+50	3450	imperatorius	imperatoria imperatoriae imperatoriam imperatorii imperatoriis imperatorio imperatorium
+51	3451	infectio	infectione infectionem infectiones infectionis infectionum
+52	3452	practicus	practica practicae practicam practicarum practicas practice practici practicis practico practicorum practicum
+53	3453	penetro	penetrabant penetrandum penetrans penetrant penetrare penetrat penetrato penetratur penetraverunt penetravissent penetravit penetrent penetret
+54	3454	retro	
+55	3455	nonaginta	
+56	3456	tenere	
+57	3457	decanus	decani decano decanorum
+58	3458	perfectio	perfectione perfectionem perfectionis
+59	3459	anniversarius	anniversaria anniversariae anniversarii anniversario anniversarium
+60	3460	habitaculum	habitacula habitaculis habitaculo habitaculorum
+61	3461	millennium	millennia millennii millenniis millennio
+62	3462	sanctitas	sanctitate sanctitatem sanctitatis
+63	3463	fossilis	fossile fossiles fossilia fossilibus fossilium
+64	3464	cupiditas	cupiditate cupiditatem cupiditates
+65	3465	bonitas	bonitate bonitatem bonitatis
+66	3466	separatio	separatione separationem separationis
+67	3467	iniquus	iniqua iniquam inique iniquis iniquo iniquorum iniquum
+68	3468	assigno	assignabitur assignabuntur assignant assignantur assignare assignarentur assignat assignatum assignatur assignatus assignaverunt assignavit
+69	3469	delineatio	delineatione delineationem delineationes delineationibus delineationum
+70	3470	discepto	discepta disceptabant disceptabat disceptandum disceptans disceptant disceptare disceptari disceptatis disceptatum disceptatur disceptaverat disceptavit disceptentur
+71	3471	persuasio	persuasione persuasionem persuasiones persuasionibus persuasionis persuasionum
+72	3472	aquaticus	aquatica aquaticae aquaticam aquaticarum aquatici aquaticis aquatico aquaticum
+73	3473	inclino	inclinabat inclinans inclinant inclinantur inclinaret inclinari inclinat inclinatis inclinato inclinatum inclinatur inclinatus inclinaverunt inclinavit
+74	3474	insanus	insana insanas insane insanior insanis insano insanorum insanos insanum
+75	3475	triplex	triplice triplicem triplices triplici tripliciter triplicium
+76	3476	sidus	sidera sidere sideribus sideris siderum
+77	3477	subtilis	subtilem subtiles subtili subtilibus subtilior
+78	3478	dolo	dola dolent dolet doletur
+79	3479	conflictus	conflicti conflictibus conflictu conflictum conflictuum
+80	3480	cudo	cudantur cudebant cudebantur cudebat cudebatur cudendi cudere cuderunt cudi cudit cuduntur cusum cusus
+81	3481	superbia	superbiae superbiam
+82	3482	tener	tenera tenerae teneri teneris tenero tenerorum tenerum
+83	3483	plica	plicae plicam plicarum plicas plicis
+84	3484	explicatus	explicata explicatae explicatam explicatarum explicatas explicatorum explicatu explicatum explicitus
+85	3485	obsoletus	obsoleta obsoletae obsoletas obsoletis obsoleto obsoletum
+86	3486	vinculo	vincula vinculas vinculatus
+87	3487	incommodum	incommoda incommodi incommodis incommodo incommodorum
+88	3488	fretus	freta fretam freti freto
+89	3489	vacua	vacuae vacuam vacuas
+90	3490	coma	comae comam comas come comi comibus comis
+91	3491	mysticus	mysticae mysticam mysticas mystici mysticis mystico mysticorum mysticos mysticum
+92	3492	tranquillus	tranquilla tranquillam tranquille tranquilli tranquillo tranquillum
+93	3493	tutum	tuta tutant tuti tutis tutissime tutius tuto tutorum
+94	3494	audeo	aude audeat audebant audebat audebunt audendo audens audent audentur audere auderent auderet audet ausi ausis ausu
+95	3495	praedicator	praedicatorem praedicatores praedicatori praedicatoribus praedicatoris praedicatorum
+96	3496	siculus	sicula siculae siculi siculo siculorum siculos siculum
+97	3497	florus	flora florae floram flore floris florum
+98	3498	emereo	emere emerendi emerent emeret emeritum emeritus
+99	3499	ardeo	ardebat ardendo ardens ardent ardere arderent ardet arsisse arsit arsus
+100	3500	defectus	defecta defectibus defectis defecto defectorum defectu defectum

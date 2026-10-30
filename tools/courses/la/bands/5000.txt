@@ -1,0 +1,100 @@
+1	4901	venenosus	venenosa venenosae venenosam venenose venenosi venenosum
+2	4902	devoro	devorabat devorabit devorandi devorando devorant devorare devoraret devoraverit devoravit devoret
+3	4903	certatio	certatione certationem certationes certationi certationis certationum
+4	4904	genuinus	genuina genuini genuinis genuino genuinum
+5	4905	inhabito	inhabitabant inhabitabantur inhabitant inhabitare inhabitatores inhabitatum inhabitatur inhabitatus
+6	4906	facetus	faceta facetae faceti facetis facetissimus facetum
+7	4907	instigo	instigabat instigandi instigans instigare instigari instigaverant instigaverunt instigavisse instigavit
+8	4908	quiesco	quiescas quiescebat quiescendi quiescendo quiescendum quiescere quiescit quieverunt quievit
+9	4909	labyrinthus	labyrinthi labyrinthis labyrintho labyrinthorum labyrinthos labyrinthum
+10	4910	barbaricus	barbarica barbarici barbaricis barbarico barbaricorum barbaricos barbaricum
+11	4911	excuso	excusa excusabit excusandum excusans excusare excusatum excusaverunt excusavit
+12	4912	transfigo	transfigens transfigere transfigeret transfigit transfixerunt transfixi transfixit transfixus
+13	4913	praescribo	praescribatur praescribere praescriberet praescribit praescribitur praescribuntur praescripsisse praescripsit
+14	4914	castigo	castigant castigare castigarent castigaret castigat castigato castigatur castigatus castigavit
+15	4915	agitatio	agitatione agitationem agitationes agitationibus agitationis agitationum
+16	4916	suppleo	supplebant supplebat supplendi supplent supplerent suppleri supplet suppletum suppleverit suppleverunt supplevit
+17	4917	eximo	exemere exemit exemptum eximeretur eximit eximitur eximuntur
+18	4918	dentatus	dentata dentatarum dentatas dentatis dentato dentatum
+19	4919	sector	sectando sectantur sectore sectorem sectores sectoribus sectoris
+20	4920	imber	imbre imbrem imbres imbribus imbris imbrium
+21	4921	nebulosus	nebulosa nebulosae nebulosas nebulosi nebulosis nebuloso nebulosum
+22	4922	propello	propellantur propellat propelli propellunt propulit propulsu propulsum propulsus
+23	4923	debello	debellandi debellandum debellandus debellare debellaret debellatis debellatus debellavisse debellavit debellent
+24	4924	exaudio	exaudi exaudiet exaudisset exauditis exaudito exauditum exauditus exaudivit
+25	4925	autumo	autumabant autumabat autumabatur autumamus autumant autumarent autumat
+26	4926	immolo	immolabantur immolabat immolando immolantur immolare immolaret immolaretur immolari immolavit
+27	4927	gluten	glutina glutine glutinis glutinum
+28	4928	vigor	vigore vigorem vigoris
+29	4929	verres	verre verrem verris
+30	4930	luctus	luctu luctum
+31	4931	strepitus	strepitat strepito strepitu strepitui strepitum
+32	4932	cubitum	cubita cubitis cubitorum cubitos
+33	4933	impius	impia impiam impias impie impiis impiorum impios impium
+34	4934	debilitas	debilitate debilitatem debilitates debilitatibus debilitatis debilitatum
+35	4935	redux	reduce reduces reduci
+36	4936	vindex	vindicem vindices vindici vindicis
+37	4937	absconditus	abscondita absconditam absconditi absconditis abscondito absconditum
+38	4938	fur	fures furibus furis furum
+39	4939	discessus	discessa discessis discessu discessum
+40	4940	fortunatus	fortunata fortunatam fortunati fortunatissimus fortunato fortunatorum fortunatos fortunatum
+41	4941	laborandum	laborandi laborando
+42	4942	decoro	decora decorabant decoras decoratis decorato decoratum decoratur decoratus decoraverunt decoravit
+43	4943	laura	laurae lauram lauris
+44	4944	patrona	patronae patronam patronis
+45	4945	insidia	insidiam insidiarum insidias insidiis insidium
+46	4946	orcus	orci orcis orco orcorum
+47	4947	ponendus	ponenda ponendae ponendam ponendi ponendo ponendum
+48	4948	minae	minarum minas
+49	4949	intestinum	intestini intestinis intestino intestinorum
+50	4950	liquidus	liquida liquidae liquidam liquidi liquidis liquido
+51	4951	er	ere eri eris erum
+52	4952	commodo	commoda commodans commodant commodare commodaverat commodaverit commodet
+53	4953	ver	veri veribus veris
+54	4954	nisus	nisa nisum
+55	4955	spolium	spolia spoliis spoliorum
+56	4956	thrax	thracem thracia thracium thracum
+57	4957	linquo	linquant linquendi linquendo linquens linquere linquunt liquerunt liquit
+58	4958	verbero	verbera verberando verberantur verberare verberatur verberaverunt verberavisse verberavit verberonem
+59	4959	tenor	tenore tenorem tenores tenoris
+60	4960	sacro	sacra sacras sacratus
+61	4961	infestus	infesta infestae infestis infestissimus infestos infestum
+62	4962	intestinus	intestinae intestinam intestinarum intestinas intestini intestinis intestino intestinorum
+63	4963	spatio	spatia spatiabatur spatias spatietur
+64	4964	superus	supera superam superis supero superum
+65	4965	effector	effectorem effectores effectoribus effectorum effectrix
+66	4966	initus	initae initam initi initibus initis inito initum
+67	4967	pango	pangatur pangebat pangens pangere pangeret panxerit panxit pepigerant pepigerat pepigisset pepigit
+68	4968	saevus	saeva saevam saevior saevis saevissime saevo saevos
+69	4969	obsequor	obsecutus obsequatur obsequendum obsequens obsequerentur obsequeretur obsequi obsequitur obsequuntur
+70	4970	quamdiu	
+71	4971	ubicumque	
+72	4972	saepenumero	
+73	4973	superaverunt	
+74	4974	atqui	
+75	4975	adamussim	
+76	4976	sensim	
+77	4977	siquidem	
+78	4978	nominatim	
+79	4979	quocumque	
+80	4980	persaepe	
+81	4981	nil	
+82	4982	temere	
+83	4983	dextrorsus	dextrorsum
+84	4984	mutuo	mutuat
+85	4985	segnis	segni segnia
+86	4986	occulte	occulto
+87	4987	triennium	triennio
+88	4988	vicies	viciens
+89	4989	enchiridion	enchiridia enchiridium
+90	4990	neve	neu
+91	4991	taedium	taedii taedio
+92	4992	insufficientia	insufficientiae insufficientiam
+93	4993	greek.expression	καὶ τὸ
+94	4994	adagium	adagii adagio
+95	4995	intermissio	intermissione intermissionem
+96	4996	garum	gara gari
+97	4997	tinctura	tincturae tincturam
+98	4998	geometria	geometriae geometriam
+99	4999	metropolita	metropolitae metropolitas
+100	5000	mortalitas	mortalitatem mortalitatis

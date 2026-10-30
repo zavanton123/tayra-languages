@@ -1,0 +1,100 @@
+1	6201	sutura	suturam suturas
+2	6202	armenus	armeni armeno armenorum armenos
+3	6203	farrago	farragine farraginem farragines farraginis
+4	6204	physicalis	physicale physicales physicalia
+5	6205	cratio	crate cratibus cratum
+6	6206	spontaneus	spontaneam spontanearum spontanee spontaneum
+7	6207	decimalis	decimale decimalem decimales
+8	6208	faex	faeces faecibus
+9	6209	viola	violae violis
+10	6210	tuber	tubera tuberes tuberis
+11	6211	latrocinium	latrocinia latrocinio
+12	6212	phantasma	phantasmate phantasmatibus phantasmatis
+13	6213	rito	rita rites
+14	6214	narcissus	narcisse narcissi narcissum
+15	6215	confluentia	confluentiae confluentiam
+16	6216	oliva	olivae olivam olivarum
+17	6217	commentor	commentabantur commentabatur commentatum commentatur commentatus
+18	6218	oppressio	oppressione oppressionem oppressionis
+19	6219	folliculus	folliculi folliculorum folliculum
+20	6220	credibilis	credibile credibilia credibiliter
+21	6221	denominator	denominatorem denominatores denominatorum
+22	6222	squama	squamae squamarum
+23	6223	lutum	luta lutis luto
+24	6224	venalis	venale venales venalia venalium
+25	6225	parma	parmae
+26	6226	baccalaureus	baccalaureorum baccalaureum
+27	6227	destinatio	destinatione destinationem destinationis
+28	6228	tegimen	tegimine tegmen tegumen
+29	6229	monumentalis	monumentale monumentalem monumentales monumentalia
+30	6230	ubertus	ubertate ubertatem ubertatis
+31	6231	procreatio	procreatione procreationem procreationis
+32	6232	atrioventricularis	atrioventricularem
+33	6233	banana	bananam bananas
+34	6234	syntaxis	syntaxin
+35	6235	dilatio	dilationem dilationis
+36	6236	taxo	taxa taxando taxat taxone taxonis
+37	6237	infidelis	infidelem infideles infideliter
+38	6238	descriptivus	descriptiva descriptivae descriptivas descriptivum
+39	6239	indigeo	indigeatur indigent indigere indiget
+40	6240	proletarius	proletariae proletariam proletarii proletariorum proletarios
+41	6241	translator	translatore translatori translatoris translatrix
+42	6242	promineo	promineat prominens prominere prominet
+43	6243	musivum	musiva musivi musivis
+44	6244	adeptio	adeptione adeptionem adeptionis
+45	6245	distichon	distichi distichis
+46	6246	convexus	convexa convexam convexis convexum
+47	6247	lavatio	lavatione lavationem
+48	6248	nutrio	nutriendum nutriens nutrit nutrito nutriuntur
+49	6249	pugnantia	pugnantibus pugnantium
+50	6250	lusitanicus	lusitanica lusitanicam lusitanice lusitanico lusitanicos
+51	6251	ianthinus	ianthina ianthinam ianthinum janthina
+52	6252	viscus	viscera viscere visceribus viscerum
+53	6253	ferula	ferulae ferulam ferulis
+54	6254	inventarium	inventarii inventario
+55	6255	supercilium	supercilia superciliis superciliorum
+56	6256	martellus	martelli martello
+57	6257	castus	casta castae castam castibus castos
+58	6258	convenientia	convenientiae convenientiam convenientiis
+59	6259	stola	stolae stolam
+60	6260	rivalis	rivalem rivales
+61	6261	aedificator	aedificatore aedificatores aedificatoribus aedificatorum
+62	6262	deliberatio	deliberatione deliberationes deliberationis deliberationum
+63	6263	curvatura	curvaturam curvaturas
+64	6264	ignominia	ignominiae ignominiam ignominiis
+65	6265	ianitor	ianitore ianitorem ianitori ianitoris
+66	6266	vivacitas	vivacitate vivacitatem
+67	6267	exquiro	exquirebat exquirere exquiruntur exquisiverunt exquisivit
+68	6268	competentia	competentiae competentiam competentiis
+69	6269	asceticus	asceticae ascetici asceticis asceticorum
+70	6270	alcoholicus	alcoholica alcoholicae alcoholicarum alcoholicorum alcoholicos
+71	6271	machinamentum	machinamenta machinamenti machinamentis machinamentorum
+72	6272	computus	computo computorum computum
+73	6273	trias	triade triadibus triadis
+74	6274	largitio	largitione largitiones largitionum
+75	6275	relativisticus	relativistica relativisticae relativisticam relativisticas relativistici
+76	6276	cucurbita	cucurbitae cucurbitam
+77	6277	eucharistia	eucharistiae eucharistiam
+78	6278	compensatio	compensatione compensationem
+79	6279	elido	elide elidere elidis elisum
+80	6280	birmanicus	birmanica birmanice birmanicis birmanico birmanicum
+81	6281	mappa	mappae mappam mappas mappis
+82	6282	inclitus	inclita inclitae inclutus
+83	6283	gallinaceus	gallinacea gallinaceae gallinaceis gallinaceo gallinaceum
+84	6284	latens	latente latentem latentibus
+85	6285	commotio	commotione commotionem commotionibus commotionis commotionum
+86	6286	barbaria	barbariae barbariam barbariem barbariis
+87	6287	remunero	remunerabatur remunerabit remunerans remunerantur remuneratus remunerer
+88	6288	magisterium	magisterii magisterio
+89	6289	corporatio	corporationem corporationes corporationi corporationibus corporationis corporationum
+90	6290	holus	holera holeribus holeris holerum
+91	6291	praetermitto	praetermisit praetermittendum praetermittimus praetermittit praetermittunt
+92	6292	psalterium	psalterii psalterio
+93	6293	excellentia	excellentiae excellentiam
+94	6294	versipellis	versipelles versipellibus versipellium
+95	6295	competitio	competitione competitionem competitioni competitionis
+96	6296	ligusticus	ligustica ligusticae ligustici
+97	6297	tranquillitas	tranquillitate tranquillitatem tranquillitatis
+98	6298	presso	pressa pressas presser presses
+99	6299	pyxis	pyxide pyxidem pyxides
+100	6300	oblectamentum	oblectamenta oblectamenti oblectamentis

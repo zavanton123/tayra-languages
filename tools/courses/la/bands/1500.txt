@@ -1,0 +1,100 @@
+1	1401	consiliarius	consiliaria consiliarii consiliariis consiliario consiliariorum consiliarios consiliarium
+2	1402	fide	
+3	1403	etiamsi	
+4	1404	conclave	conclavi conclavia conclavibus conclavis conclavium
+5	1405	indigena	indigenae indigenam indigenarum indigenas indigenis
+6	1406	falso	falsa falsas
+7	1407	coniunctus	coniunctae coniunctam coniunctarum coniunctas coniuncte coniuncti coniunctibus coniunctos conjuncte
+8	1408	medicamentum	medicamenta medicamenti medicamentis medicamento medicamentorum
+9	1409	armatus	armata armatae armatam armatarum armatas armati armatis armato armatorum armatos
+10	1410	accurate	accuratissime accuratius
+11	1411	ducatus	ducati ducatibus ducatu ducatum ducatuum
+12	1412	archiepiscopus	archiepiscopi archiepiscopis archiepiscopo archiepiscoporum archiepiscopum
+13	1413	variabilis	variabile variabilem variabiles variabili variabilia variabilibus variabilium
+14	1414	positio	positione positionem positiones positionibus positionis positionum
+15	1415	secundarius	secundaria secundariae secundariam secundariarum secundarias secundarie secundarii secundariis secundario secundariorum secundarios secundarium
+16	1416	contrarium	contraria contrarii contrariis contrario contrariorum
+17	1417	malo	malam malebant malebat malint malit malle mallent mallet maluerat maluerim maluerint malueris maluerunt maluisset maluit malumus malunt mavis mavult
+18	1418	administer	administra administrae administri administris administrorum administros administrum
+19	1419	iacio	iacere iacerent iacerentur iaceret iaceretur iaci iaciat iaciatur iaciebant iaciebantur iaciebat iacienda iaciendi iaciendo iaciendum iaciens iacietur iacit iacitur iaciunt iaciuntur iactu iactum iecerat iecerit iecerunt iecisset iecit jac
+20	1420	arcus	arcos arcu arcubus arcum arcuum
+21	1421	francium	francia
+22	1422	generatim	
+23	1423	illic	illac illoc illuc
+24	1424	candidatus	candidata candidatam candidati candidatis candidatorum candidatos candidatum
+25	1425	intervallum	intervalla intervalli intervallis intervallo intervallorum
+26	1426	constructio	constructione constructionem constructiones constructioni constructionibus constructionis constructionum
+27	1427	acies	acie aciebus aciei aciem acierum
+28	1428	sors	sorte sortem sortes sorti sortibus sortis sortium
+29	1429	missio	missione missionem missiones missioni missionibus missionis missionum
+30	1430	apparatus	apparatibus apparatis apparatu apparatui apparatum apparatuum
+31	1431	veto	veta vetabant vetabantur vetabat vetabitur vetandi vetant vetantur vetare vetarent vetaret vetari vetas vetat vetatur vetaverunt vetavit vetent vetere veteris vetet vetitum vetitus vetuerat vetuisse vetuisset vetuit votantur voto votuerunt votuit
+32	1432	obiectum	obiecta obiecti obiectis obiecto obiectorum
+33	1433	morior	mor moreretur mori moriamur moriantur moriar moriatur moriebantur moriebatur moriendi moriendum moriens morietur moriretur moriri moritur moriturus moriuntur mortuum
+34	1434	mando	mandabant mandabantur mandabat mandabatur mandando mandandum mandandus mandant mandantur mandare mandaret mandaretur mandasse mandat mandate mandatis mandato mandatoris mandatorum mandatur mandatus mandaverant mandaverat mandaverunt mandavit mande mandendum mandet mandit mansurus
+35	1435	ascendo	ascendat ascende ascendebant ascendebat ascendendi ascendendum ascendens ascendere ascenderet ascenderit ascenderunt ascendisse ascendisset ascendit ascendunt ascensu ascensum
+36	1436	excello	excellat excellebant excellebat excellendi excellent excellere excellerent excellit excelluisse excelluit excellunt excelsum
+37	1437	controversia	controversiae controversiam controversias controversiis
+38	1438	perdo	perdebatur perdendi perdens perdere perderentur perderet perderetur perdet perdiderat perdiderint perdiderunt perdidimus perdidissent perdidisset perdidit perdit perditis perdito perditorum perditum perditur perditus perdunt
+39	1439	navalis	navale navalem navales navali navalia navalibus navalium
+40	1440	nauta	nautae nautam nautarum nautas nautis
+41	1441	poesis	poeseis poesi poesim poësis
+42	1442	dignitas	dignitate dignitatem dignitates dignitati dignitatis dignitatum
+43	1443	interretialis	interretiale interretialem interretiales interretiali interretialia interretialibus interretialium
+44	1444	liberalis	liberalem liberales liberali liberalia liberalibus liberaliter liberalium liberalum
+45	1445	propositio	propositione propositionem propositiones propositionibus propositionis propositionium propositionum
+46	1446	expositio	expositione expositionem expositiones expositioni expositionibus expositionis expositionum
+47	1447	burgus	burgi burgis burgo burgorum burgos burgum
+48	1448	tractatio	tractatione tractationem tractationes tractationibus tractationis tractationum
+49	1449	paulum	paululum
+50	1450	orator	oratore oratorem oratores oratori oratoribus oratoris oratorum
+51	1451	genero	genera generabantur generabat generabit generandi generandum generans generant generantur generare generaretur generari generat generatis generator generatorem generatores generatorum generatrice generatum generatur generatus generaverunt generavisse generavit generentur generet generetur
+52	1452	curro	cucurrisse cucurrit currant currebat currendae currendi currendo current currere currerent curret currier currit currunt cursu cursum
+53	1453	desino	desierant desierat desiere desierit desierunt desiit desinam desinat desine desinebant desinebat desinens desinere desinet desini desinit desinunt desit desitum desitus desiverat desivit
+54	1454	ira	irae iram iras ire iri iridem iridi iridis irin iris
+55	1455	unda	undae undam undarum undas undis
+56	1456	publico	publicabant publicabantur publicando publicandum publicant publicarat publicare publicaret publicari publicat publicato publicatores publicatum publicatus publicaverat publicaverunt publicavi publicavit publicetur
+57	1457	existimo	existimabant existimabantur existimabat existimabatur existimamus existimandi existimandum existimans existimant existimantur existimare existimarent existimaretur existimari existimarit existimas existimasse existimat existimatores existimatoribus existimatorum existimatum existimatur existimatus existimavere existimaverunt existimavi existimavisse existimavit existiment existimet
+58	1458	exaro	exarabat exarando exarare exararet exarasse exarat exaratis exarato exaratum exaratur exaratus exaraverant exaraverat exaravi exaravit
+59	1459	concludo	concludas concludat concludatur concludebat concludendi concludendum concludens concludentur concludere concluderent concluderetur concludet concludi concludit concluditur concludunt concluduntur concluserat conclusit conclusum conclusus
+60	1460	abbatia	abbatiae abbatiam abbatiarum abbatias abbatiis
+61	1461	praefectura	praefecturae praefecturam praefecturarum praefecturas praefecturis
+62	1462	cantor	cantore cantorem cantores cantori cantoribus cantorum cantrice cantricem cantrices cantricibus cantricis cantrix
+63	1463	tigris	tigrem tigres tigri tigribus tigride tigridem tigridi tigridis tigridum tigrim tigrin
+64	1464	cotidianus	cotidiana cotidianae cotidianam cotidianas cotidiane cotidianis cotidiano cotidianos cotidianum cottidianus quotidianus
+65	1465	motio	motione motionem motiones motioni motionibus motionis motionum
+66	1466	tempestas	tempestate tempestatem tempestates tempestati tempestatibus tempestatis tempestatum
+67	1467	necessitas	necessitate necessitatem necessitates necessitatibus necessitatis necessitatum
+68	1468	cena	cenae cenam cenarum cenas cenis coena
+69	1469	conspectus	conspecta conspectam conspectas conspectibus conspectis conspecto conspectu conspectum
+70	1470	celeber	celeberrimus celebre celebrem celebres celebri celebria celebribus celebris celebrium
+71	1471	aer	aera aerae aeram aere aerem aeri aeribus aeris
+72	1472	iudico	iudicabant iudicabantur iudicabat iudicabatur iudicabunt iudicandi iudicandum iudicans iudicant iudicare iudicarent iudicaret iudicari iudicasti iudicastis iudicat iudicata iudicati iudicatorum iudicatum iudicatur iudicaturus iudicaverat iudicaverint iudicaverunt iudicavit iudicem iudicemus iudices iudicet iudicetur
+73	1473	sal	sale salem sales sali salibus salis salo salum
+74	1474	hospes	hospite hospitem hospites hospiti hospitibus hospitis hospitum
+75	1475	posco	poposcere poposcerunt poposcisse poposcisset poposcit poscantur poscat poscebant poscebat poscendam poscendi poscens poscere poscerent posceret poscis poscit poscitur poscunt poscuntur
+76	1476	secretarius	secretarii secretario secretarios secretarium
+77	1477	calendarium	calendaria calendarii calendariis calendario calendariorum
+78	1478	canalis	canale canalem canales canali canalibus canalium
+79	1479	ornamentum	ornamenta ornamenti ornamentis ornamento ornamentorum
+80	1480	contextus	contexta contexti contextibus contextis contextu contextui contextum
+81	1481	porto	portabant portabantur portabat portanda portandas portandi portando portans portant portantur portare portaret portari portarunt portas portat portator portatorum portatu portatum portatus portaverat portaverunt portavi portavit porter portet
+82	1482	rarus	rara rarae raram raras rari rarior raris rarissime rarissimus rarius rarorum raros rarum
+83	1483	expugno	expugnabant expugnabat expugnabitur expugnando expugnant expugnare expugnarent expugnari expugnasse expugnat expugnatis expugnato expugnatum expugnaturus expugnatus expugnaverat expugnaverint expugnaverunt expugnavissent expugnavisset expugnavit
+84	1484	excogito	excogitabant excogitabantur excogitandi excogitandum excogitans excogitantur excogitare excogitarent excogitaret excogitari excogitarunt excogitat excogitato excogitator excogitatum excogitatur excogitatus excogitaverant excogitaverat excogitaverunt excogitavisse excogitavit excogitent
+85	1485	cognitio	cognitione cognitionem cognitiones cognitionibus cognitionis cognitionum
+86	1486	satelles	satellite satellitem satellites satellitibus satellitis satellitum
+87	1487	paganus	pagana paganam paganas pagane pagani paganis paganorum paganos paganum
+88	1488	interpretor	interpretabantur interpretabatur interpretandi interpretando interpretandum interpretans interpretantur interpretaretur interpretari interpretatores interpretatoris interpretatum interpretatur interpretatus interpretentur interpreteris
+89	1489	spero	sperabant sperabat speramus sperandum sperans sperant sperarat sperare sperarent speraret sperari sperasset sperat speratum speratur speraverat speraverunt speravit
+90	1490	el	
+91	1491	quindecim	
+92	1492	parum	
+93	1493	hebraicus	hebraica hebraicae hebraicam hebraicarum hebraicas hebraice hebraici hebraicis hebraicum
+94	1494	voluptas	voluptate voluptatem voluptates voluptati voluptatibus voluptatis voluptatum
+95	1495	digitus	digiti digitis digito digitorum digitos digitum
+96	1496	paries	pariete parietem parietes parieti parietibus parietis parietum
+97	1497	virus	vira vire viri viris viro virorum virum
+98	1498	reliquus	reliquae reliquam reliquarum reliquas reliqui reliquis reliquo reliquorum reliquos reliquum
+99	1499	mas	marem mares mari maria maribus maris marium maro marum
+100	1500	paucus	paucae paucam paucarum paucas paucior paucis pauco paucorum paucos paucum

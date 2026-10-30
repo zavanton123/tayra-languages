@@ -1,0 +1,100 @@
+1	2001	compleo	compleat compleatur complebant complebit complendum complens complent complentur complere compleret compleri complet complete completis completo completum compleverat compleverunt complevisse complevit
+2	2002	vindico	vindicabant vindicabat vindicanda vindicandae vindicandam vindicandum vindicant vindicare vindicaret vindicaretur vindicari vindicarunt vindicat vindicatum vindicatus vindicaverunt vindicavit vindicem vindicent vindices vindicet
+3	2003	vaco	vacabat vacans vacant vacare vacaret vacat vacaturus vacaverunt vacavisse vacavit vacet vacuerit vacui vacuit
+4	2004	simulo	simulabant simulabat simulans simulant simulare simularet simulari simulasse simulat simulato simulatum simulatus simulaverat simulavisse simulavit
+5	2005	potior	potiebantur potiebatur potiorem potiores potirentur potiretur potiri potitum potitur potiturus potitus potiuntur
+6	2006	clemens	clemente clementem clementer clementes clementi clementia clementiae clementiam clementibus clementior clementis
+7	2007	sexualis	sexualem sexuales sexuali sexualia sexualium
+8	2008	promitto	promiserat promiserunt promisisti promisit promittebat promittens promittere promitteret promittet promittit promittitur promittunt promittuntur
+9	2009	termino	termina terminabantur terminabit terminabitur terminandum terminans terminant terminantur terminare terminarentur terminari terminat terminatis terminato terminatoris terminatum terminatur terminaturus terminatus terminaverunt terminavit terminet
+10	2010	commentatio	commentatione commentationem commentationes commentationi commentationibus commentationis commentationium commentationum
+11	2011	desiderium	desideria desiderii desideriis desiderio
+12	2012	pacificus	pacifica pacificae pacificam pacificarum pacificas pacifice pacifici pacificis pacificum
+13	2013	exploro	explorabant explorabat explorabatur explorandi explorandum explorant explorantur explorare explorarent explorarentur exploraret explorari explorasse explorassent explorat exploratum exploratur exploratus exploraverunt exploravit explorent explorentur explorer exploret
+14	2014	meridie	
+15	2015	deorsum	dorsa dorsi dorso dorsum
+16	2016	miraculum	miracula miraculis miraculo miraculorum
+17	2017	fabricor	fabricabantur fabricandi fabricando fabricandum fabricantur fabricare fabricarentur fabricari fabricatum fabricatur fabricatus
+18	2018	metallicus	metallica metallicae metallicam metallicarum metallicas metallici metallicis metallico metallicorum metallicum
+19	2019	polonicus	polonica polonicae polonicam polonicarum polonice polonici polonicis polonico polonicos polonicum
+20	2020	servitium	serviti servitia servitii servitiis servitio servitiorum
+21	2021	plaga	plagae plagam plagarum plagas plagis
+22	2022	sapor	sapore saporem sapores saporis saporum
+23	2023	rhetorica	rhetoricae rhetoricam rhetorice
+24	2024	legenda	legendae legendam legendarum legendas legendis
+25	2025	scalae	scalarum scalas scalis
+26	2026	destruo	destruam destruantur destruatur destructum destructus destruebantur destruere destruerent destrueretur destruetur destrui destruit destruxerat destruxerunt destruxisse destruxisset destruxit
+27	2027	quadrum	quadra quadrae quadri quadris quadro quadrorum
+28	2028	animadverto	animadversum animadvertant animadvertas animadvertat animadvertatur animadverte animadvertendi animadvertendo animadvertendum animadvertendus animadvertens animadverterat animadvertere animadverteret animadverterunt animadverti animadvertimus animadvertisse animadvertissent animadvertisset animadvertit animadvertitur
+29	2029	removeo	remotu remotum remoturus remove removeatur removebat removendum removent removerat removere removeret removeretur removeri removerunt removet removetur removisse removisset removit
+30	2030	delecto	delecta delectabant delectabantur delectabat delectabatur delectandi delectandis delectandum delectant delectantur delectare delectarentur delectaret delectasse delectat delectato delectatur delectatus delectaverunt delectent delectentur delectet
+31	2031	veho	vectum vectus veh vehantur vehatur vehebant vehebantur vehebat vehebatur vehendi vehens vehere vehi vehit vehitur vehuntur vexerunt
+32	2032	protego	protectum protectus protegantur protegat protegebant protegebantur protegebat protegendi protegendo protegendum protegendus protegens protegere protegerentur protegeretur protegi protegit protegitur protegunt proteguntur protexerunt protexit
+33	2033	puta	
+34	2034	tredecim	
+35	2035	verisimilis	verisimile verisimilem verisimiles verisimili verisimilia verisimilior
+36	2036	therma	thermae thermarum thermas thermis
+37	2037	evangelium	evangelia evangelii evangeliis evangelio evangeliorum
+38	2038	ens	ente entem entes entia entibus entis entium
+39	2039	horologium	horologia horologii horologiis horologio horologiorum
+40	2040	provincialis	provinciale provincialem provinciales provinciali provincialia provincialibus provincialium
+41	2041	explicatio	explicatione explicationem explicationes explicationi explicationibus explicationis
+42	2042	reactio	reactione reactionem reactiones reactioni reactionis reactionum
+43	2043	tyrannus	tyranni tyrannide tyrannidem tyrannidi tyrannidis tyrannis tyranno tyrannorum tyrannos tyrannum
+44	2044	operatio	operatione operationem operationes operationibus operationis operationum
+45	2045	curatio	curatione curationem curationes curationi curationibus curationis curationum
+46	2046	praepositus	praeposita praepositae praepositi praepositis praeposito praepositorum praepositos praepositum
+47	2047	seminarium	seminaria seminarii seminario seminariorum
+48	2048	chorda	chordae chordam chordarum chordas chordis
+49	2049	redactus	redacta redactae redacti redactis redacto redactorum redactos redactum
+50	2050	saltus	saltibus salto saltu saltum saltuum
+51	2051	coquo	coco coctum coctus coquatur coque coquebantur coquebat coquebatur coquendi coquendo coquendum coquere coquerent coqueret coques coquet coqui coquis coquit coquitur coquuntur
+52	2052	firmus	firmae firmam firmas firme firmi firmior firmis firmissimus firmiter firmo firmorum firmos firmum
+53	2053	reduco	reducant reducat reducatur reduce reducendi reducendo reducendum reducens reducere reducerentur reduceret reduces reducetur reduci reducit reducite reducitur reductum reductus reducunt reducuntur reduxisse reduxit
+54	2054	desero	deserebant deserendi deserendum deserens deserere desererent desereret deserit desertus deseruerunt deseruisse deseruit deserunt
+55	2055	arguo	arguatur arguebat arguebatur arguendo arguendum arguens arguere argueretur arguerunt arguit arguitur arguunt
+56	2056	phantasia	phantasiae phantasiam phantasias
+57	2057	quaestus	quaestibus quaestos quaestu quaestui quaestum quaestuum
+58	2058	provoco	provocabat provocabatur provocando provocans provocant provocantur provocare provocari provocarunt provocat provocatis provocato provocatur provocatus provocavere provocaverit provocaverunt provocavisse provocavit
+59	2059	commendo	commenda commendabantur commendabat commendam commendandi commendans commendant commendantur commendare commendaret commendaretur commendari commendat commendatis commendatum commendatur commendaverant commendaverat commendavit commendet commendetur
+60	2060	quivis	cuiusvis cuivis quaevis quanvis quavis quemvis quibusvis quidvis quisvis quodvis quorumvis quosvis quovis
+61	2061	sexto	
+62	2062	petro	
+63	2063	domicilium	domicilia domicilii domiciliis domicilio domiciliorum
+64	2064	prelum	prela preli prelis prelo prelorum
+65	2065	conscientia	conscientiae conscientiam conscientias
+66	2066	agmen	agmina agmine agmini agminibus agminis
+67	2067	vultus	voltus vultibus vultu vultum
+68	2068	facilis	facilem faciles facili facilia facilibus facilior facillimus
+69	2069	arteria	arteriae arteriarum arterias arteriis
+70	2070	caupona	caupo cauponae cauponam cauponas caupone cauponem caupones cauponibus cauponis
+71	2071	convivium	convivia convivii conviviis convivio conviviorum
+72	2072	reicio	reicere reicerent reici reiciamus reiciebant reiciebat reicienda reiciendas reiciendos reiciendum reicit reicitur reiciunt reiecerunt reiecisse reiecit reiectum reiectus
+73	2073	africanus	africana africanae africanam africanarum africani africanis africano africanorum africanos africanum
+74	2074	calidus	calida calidae calidam calidas calidi calidior calidis calidissimus calido calidum
+75	2075	palma	palmae palmam palmarum palmas palmis palmula
+76	2076	scelus	scelera scelere sceleri sceleribus sceleris scelerum
+77	2077	infinitus	infinita infinitae infinitam infinitarum infinitas infinitate infinitatem infinitates infinitatis infinite infiniti infinitis infinito infinitorum infinitos
+78	2078	stipendium	stipendia stipendii stipendiis stipendio stipendiorum
+79	2079	damno	damna damnabatur damnabit damnandi damnandum damnans damnantur damnare damnarentur damnaretur damnari damnas damnat damnato damnatorum damnatum damnatur damnaverunt damnavisse damnavit
+80	2080	praetor	praetore praetorem praetores praetori praetoribus praetoris
+81	2081	alo	alam alant alantur alari alas alat alatis ale alebantur alebat alenda alendi alendis alendo alendos alent alere alerent aleret ali alimus alis alit alitum alitur alitus alor aluerint aluerit aluit alunt aluntur
+82	2082	scriba	scribae scribam scribarum scribas scribis
+83	2083	pulchrum	pulchra pulchri pulchris pulchro pulchrorum
+84	2084	firmo	firmabant firmabantur firmabat firmabatur firmando firmandum firmandus firmant firmantur firmare firmarent firmas firmat firmatum firmatur firmaverunt firmavisse firmavit firment firmentur firmet
+85	2085	obscurum	obscura obscuri obscuris obscuro obscurorum
+86	2086	oriundus	oriunda oriundae oriundam oriundas oriundi oriundis oriundo oriundorum oriundos oriundum
+87	2087	ostento	ostenta ostentabat ostentamini ostentandi ostentans ostentant ostentantur ostentare ostentaret ostentaris ostentat ostentatis ostentatore ostentatores ostentatur ostentatus ostentaverimus ostentaverunt ostentavit ostentes
+88	2088	centurio	centuria centuriae centuriam centuriarum centurias centuriatae centuriatis centurione centurionem centuriones centurioni centurionibus centurionis centurionum
+89	2089	probabiliter	probabilissime probabilius
+90	2090	creator	creatore creatorem creatores creatoribus creatoris creatrice creatricem creatrices creatrix
+91	2091	bos	bobus boum bove bovem boves bovis bovum bubus
+92	2092	relativus	relativa relativae relativam relativas relativi relativis relativo relativorum relativos relativum
+93	2093	quartum	
+94	2094	martes	marte martem marti martis martium
+95	2095	platea	plateae plateam plateas
+96	2096	episcopalis	episcopale episcopalem episcopales episcopali episcopalia
+97	2097	interpres	interprete interpretem interpretes interpretibus interpretis interpretum
+98	2098	diaconia	diaconiae diaconiam diaconiarum diaconias diaconiis
+99	2099	domnus	domna domnae domne domni domno domnum
+100	2100	aulicus	aulica aulicam aulici aulicis aulico aulicos aulicum

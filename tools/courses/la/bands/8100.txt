@@ -1,0 +1,100 @@
+1	8001	obex	obice obices
+2	8002	hibernum	hiberni hibernis hiberno hibernorum
+3	8003	fastidio	fastidii
+4	8004	calcaria	calcarias calcariis
+5	8005	frenum	frena
+6	8006	plantarium	plantari plantarii plantariis
+7	8007	caudex	caudice caudices caudici caudicis
+8	8008	venustus	venusta venustam venuste venustum
+9	8009	mannus	mannis mannorum
+10	8010	molesto	molesta
+11	8011	polygonum	polygonis polygonorum
+12	8012	pugilatus	pugilatu pugilatum
+13	8013	glaber	glabra glabri
+14	8014	posca	poscae poscarum poscis
+15	8015	sapa	sapae sapis
+16	8016	germen	germina germinis germinum
+17	8017	lustrum	lustra lustris
+18	8018	discursus	discursibus discursu discursum
+19	8019	appetitus	appetita appetitu appetitum
+20	8020	secessus	secessae secessu secessum
+21	8021	argon	argi argo
+22	8022	batis	bates bati
+23	8023	milliarium	miliarium milliaria
+24	8024	refectorium	refectoria refectorii refectorio
+25	8025	clamito	clamitans clamitant clamitat
+26	8026	comito	comitans comitarentur comitate comitatis comitatu comitatum comitavit comitem comites
+27	8027	transversum	transversi
+28	8028	infernus	infernae infernas infernis inferno infernorum
+29	8029	pallio	pallia palliatarum palliati
+30	8030	pio	pia piaretur pias
+31	8031	benevolens	benevolentior
+32	8032	compaciscor	compacta compactarum compacti compacto compactorum
+33	8033	miseror	miserando miseratus misereris miseretur
+34	8034	frigido	frigida frigidas
+35	8035	automaton	automata
+36	8036	assus	affuerunt assae asse assi assis assorum assum
+37	8037	uso	usa usant usas user uses
+38	8038	diverto	diversum divertebant
+39	8039	subedo	subesse subest
+40	8040	persto	perstabat perstarent perstitit
+41	8041	revivo	revictum revivere revixi revixisse revixit
+42	8042	remigo	remigantur remigaverunt remigem remiges
+43	8043	etymologicus	etymologica etymologice etymologico
+44	8044	abscindo	abscidere abscidit abscissum
+45	8045	merso	mersa mersere
+46	8046	consolo	consola consolari consolatur consolatus consolentur
+47	8047	desido	desiderant desiderat desideremus desiderent desideret
+48	8048	vacuo	vacuabat vacuarent vacuas vacuaverunt
+49	8049	cerva	cervam cervis
+50	8050	desertor	desertorem desertores desertorum
+51	8051	laquear	laqueare laquearia laquearibus laquearum
+52	8052	iucundo	iucunda iucundas
+53	8053	classiarius	classiarias classiariorum classiarios
+54	8054	orca	orcae orcam orcis
+55	8055	satrapa	satrapae satraparum satrapas satrapis
+56	8056	talio	talia talionis
+57	8057	tabularius	tabularii tabulario tabularios
+58	8058	meretricium	meretrici meretricii meretriciis meretricio
+59	8059	plumo	plumas plumatis
+60	8060	viduus	viduae viduam viduarum viduas
+61	8061	fors	fortem fortes forti fortibus fortium
+62	8062	coepto	coepta coeptat coeptem
+63	8063	empirica	empiricae empiricis
+64	8064	novellus	novellarum novellas novellis novello
+65	8065	fidus	fidi fidis fidum
+66	8066	empirice	empiricae empiricarum empiricas empiricis
+67	8067	proximo	proximas
+68	8068	penis	pene penem
+69	8069	comitium	comiti comitiis comitiorum
+70	8070	conditorium	conditori conditoria conditorio
+71	8071	textor	textorem textores textorum textrices
+72	8072	centesimus	centesimae centesimam centesimarum centesimas centesimi centesimis centesimum
+73	8073	bato	bata batavi bates batonem batto
+74	8074	sudus	suda sudae sudam sudibus sudium
+75	8075	laxus	laxa laxae laxum
+76	8076	acusticus	acusticae acusticam acusticas acustice acustici acusticis acusticum
+77	8077	herus	hera heris hero herum
+78	8078	irrito	irrita irritantur irritat irritatur irritavit
+79	8079	fosso	fossas fossati fossores fossorum
+80	8080	asso	assantur assatum assatur assem asseribus asseris asses
+81	8081	tergeo	tergebatur tergo tersa tersit
+82	8082	melum	mela meli melis
+83	8083	nobilito	nobilitabant nobilitat nobilitate nobilitatis nobilitatus
+84	8084	plecto	plecteret plecti plectit plexu plexum
+85	8085	planto	plantarem plantari plantas plantat plantavit
+86	8086	infamo	infamandi infamare infamato infamem infames
+87	8087	verro	verre verrere verrier verris versu versum
+88	8088	praetorius	praetoria praetoriam praetoriarum praetorias praetorii praetorio praetorios
+89	8089	papo	papas papato papatu papatum papavere papaveris paper
+90	8090	advoco	advocat advocate advocatis advocato advocatorum advocatum advocavisse advocavit
+91	8091	matutinus	matutina matutinae matutinam matutine matutini
+92	8092	auxiliarius	auxiliari auxiliarii auxiliario auxiliarios auxiliarium
+93	8093	fimum	fimi fimis fimus
+94	8094	indecorus	indecora indecori indecorum
+95	8095	gradior	gradi gradiens gradientur graditur gressum
+96	8096	copio	copiandi copiare copias copiavit
+97	8097	insanio	insaniam insaniat insanire insanis insanit
+98	8098	freno	frena frenant frenare frenaret frenas
+99	8099	cibarius	cibariam cibariarum cibariis cibariorum cibarium
+100	8100	insulo	insulare insularem insulares insulari insulas insulatae insulatam insulatis

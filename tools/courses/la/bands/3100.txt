@@ -1,0 +1,100 @@
+1	3001	parlamentarius	parlamentari parlamentaria parlamentariae parlamentariam parlamentarii parlamentariis parlamentarium
+2	3002	quinquennium	quinquenni quinquennii quinquennio
+3	3003	impulsus	impulsa impulsi impulsibus impulsis impulsu impulsum impulsuum
+4	3004	circus	circe circi circo
+5	3005	rebellis	rebellatricis rebellem rebelles rebellibus rebellium rebellum
+6	3006	obitus	obitu obitui obitum obituum
+7	3007	insectum	insecta insectis insecto insectorum
+8	3008	feria	feriam feriarum ferias feriis
+9	3009	commodus	commoda commodae commodam commodarum commode commodi commodior commodis commodius commodorum
+10	3010	solitum	solita soliti solitis
+11	3011	alieno	aliena alienaret alienari alienas alienat alienato alienatus alienavit
+12	3012	acus	acere aceris acibus acu acubus acum acuum
+13	3013	vester	vestra vestrae vestram vestras vestri vestris vestro vestrorum vestros vestrum
+14	3014	partio	parti partiant partiebantur partiendi parties partiri partis partit partitis partito partitur partiunt partiuntur
+15	3015	conspicio	conspectu conspectum conspexerat conspexerit conspicere conspicerent conspici conspiciamus conspiciatur conspicimus conspicit conspicitur conspiciunt conspiciuntur
+16	3016	satiricus	satirica satiricae satiricam satiricas satirice satirici satiricis satirico satiricorum satiricum
+17	3017	stimulo	stimulans stimulant stimulantur stimulare stimularet stimulari stimulat stimulata stimulati stimulator stimulatum stimulatur stimulatus stimulet
+18	3018	corrumpo	corrumpat corrumpebantur corrumpebat corrumpendi corrumpendum corrumpens corrumpere corrumpi corrumpit corrumpunt corrupisse corrupit corruptum corruptus
+19	3019	fallo	fallant fallat fallendum fallere falli fallit fallitur falluntur fefellerat fefellerunt fefellisse fefellisset fefellit
+20	3020	allicio	adlectus allecti allectum allexit allicere alliceret alliciant alliciebant alliciebantur alliciebat alliciendo alliciens allicit allicitur alliciunt
+21	3021	abrogo	abrogabitur abrogandi abrogando abrogant abrogare abrogaret abrogarunt abrogat abrogata abrogatae abrogati abrogato abrogatum abrogaverat abrogaverunt abrogavisse abrogavit
+22	3022	extraho	extractus extrahatur extrahendi extrahendum extrahere extraheret extrahet extrahi extrahimus extrahit extrahitur extrahunt extrahuntur extraxere extraxerunt
+23	3023	rumpo	rumpatur rumpe rumpebant rumpebatur rumpendum rumpere rumperet rumpi rumpit rumpitur rumpunt rumpuntur ruperunt rupit rupsit ruptum ruptus
+24	3024	itero	iterabant iterabantur iterandum iterant iterantur iterare iteraretur iterari iterat iteratis iterato iteratur iteraverat iteravisse iteravit iteremus iterentur
+25	3025	dependo	dependat dependebat dependendum dependens dependent dependere dependerunt dependet dependisse dependit dependunt
+26	3026	coquinarius	coquinaria coquinariae coquinariam coquinarias coquinariis coquinario coquinariorum
+27	3027	lineamentum	lineamenta lineamenti lineamentis lineamentorum
+28	3028	fraternus	fraterna fraternae fraternam fraterne fraterno fraternorum
+29	3029	musa	musae musam musarum musas musis
+30	3030	vitalis	vitale vitalem vitales vitali vitalia vitalibus vitalium
+31	3031	paternus	paterna paternae paternam paterni paterno paternum
+32	3032	quater	
+33	3033	profunditas	profunditate profunditatem profunditatis
+34	3034	principissa	principissae principissam principissarum
+35	3035	alioqui	alioquin
+36	3036	deditio	deditione deditionem deditiones deditionis
+37	3037	basalis	basale basales basali basalia basalibus basalium
+38	3038	cuprum	cupri cupro
+39	3039	glossarium	glossaria glossarii glossariis glossario glossariorum
+40	3040	distans	distante distantem distantes distantibus
+41	3041	circumiacens	circumiacentes circumiacentia circumiacentibus circumiacentium
+42	3042	rima	rimae rimam rimarum rimas rimis
+43	3043	cyprus	cypri cypris cypro cypros cyprum
+44	3044	cinematographicus	cinematographici cinematographicis cinematographico cinematographicorum cinematographicum
+45	3045	pulvis	pulvere pulverem pulveribus pulveris
+46	3046	accusatio	accusatione accusationem accusationes accusationi accusationibus accusationis
+47	3047	humus	hume humis humos humum
+48	3048	decurio	decuria decuriae decuriam decuriarum decurias decuriones decurionibus decurionis decurionum
+49	3049	monasticus	monastica monasticae monasticam monasticas monasticis monastico monasticorum monasticum
+50	3050	cantilena	cantilenae cantilenarum cantilenas cantilenis
+51	3051	parallelus	parallela parallelae parallelam parallelas paralleli parallelis parallelo parallelos
+52	3052	calix	calice calicem calices calicis
+53	3053	typographicus	typographica typographicae typographicam typographicas typographice typographici typographicis typographico typographicorum typographicum
+54	3054	unguis	ungue unguem ungues ungui unguibus
+55	3055	invidia	invidiae invidiam
+56	3056	catalanus	catalana catalanam catalane catalani catalanis catalano catalanorum catalanos
+57	3057	gyrus	gyri gyro gyros gyrum
+58	3058	instructio	instructionem instructiones instructioni instructionis
+59	3059	athleta	athletae athletam athletarum athletas athletis
+60	3060	additio	additione additionem additiones additionibus additionis
+61	3061	hieroglyphicus	hieroglyphica hieroglyphicae hieroglyphicam hieroglyphicarum hieroglyphicas hieroglyphice hieroglyphici hieroglyphicis hieroglyphicorum hieroglyphicum
+62	3062	immineo	immineat imminebant imminebat imminens imminent imminere immineret imminet imminuerit imminuerunt imminui imminuissent imminuit
+63	3063	cinis	cinere cinerem cineres cineribus cineris cinerum
+64	3064	parvulus	parvula parvulae parvulas parvuli parvulis parvulo parvulos parvulum
+65	3065	aliquantum	aliquanta
+66	3066	nubes	nube nubem nubibus nubis nubium
+67	3067	demissus	demissa demissae demisse demissi demisso demissos demissum
+68	3068	vapor	vapore vaporem vapores vaporibus vaporis
+69	3069	rixa	rixae rixam rixarum rixas rixis
+70	3070	infectus	infecta infectae infecti infectis infecto infectorum infectos infectum
+71	3071	mel	melle melli mellis
+72	3072	doctoratus	doctoratu doctoratum
+73	3073	conscio	consciebat conscire consciturus consciunt consciverunt conscivisse conscivit
+74	3074	telum	teli telis telo telorum
+75	3075	tuba	tubae tubam tubarum tubis
+76	3076	artus	arcta arctas arcto arctos arta artam arti artis arto artos artubus artum artuum
+77	3077	talus	tale tali talo taloni talonum talorum talos talum
+78	3078	pallium	pallia pallii palliis pallio
+79	3079	sacerdotium	sacerdoti sacerdotia sacerdotii sacerdotiis sacerdotio
+80	3080	elector	electore electores electoribus electoris electorum electrice electrici electricis electricum
+81	3081	expedio	expediant expediendi expedierunt expediit expedire expediret expediretur expediri expedit expeditis expedito expediuntur expedivit
+82	3082	levo	levabat levamini levandum levans levant levantur levare levarent levaretur levat levatum levatur levavit levem levemus levent leventur lever leves
+83	3083	ingredior	ingredi ingrediantur ingrediar ingrediaris ingrediatur ingrediebantur ingrediebatur ingrediendum ingredit ingreditur ingressum ingressurus
+84	3084	reputo	reputabantur reputabat reputabatur reputabitur reputans reputant reputare reputaret reputat reputatur reputatus
+85	3085	exsequor	exsecutum exsecutus exsequatur exsequebantur exsequendam exsequendas exsequendis exsequendo exsequi exsequitur exsequuntur
+86	3086	inicio	inicere inici iniciendi iniciendo iniciendum inicit iniciunt iniecerat iniecerunt inieci iniecisset iniecit iniectus iniicere
+87	3087	revelo	revelabantur revelabat revelant revelantur revelare revelaretur revelari revelat revelatum revelatur revelatus revelavere revelavit reveletur
+88	3088	decipio	decepit deceptum deceptus decipere deciperet decipi decipiamur decipiat decipiendum decipiens decipimur decipit
+89	3089	terreo	terre terreat terrebat terrendos terrendum terrent terrentur terrere terreret terres terretur territum territus terruisse terruit
+90	3090	salto	saltabant saltabat saltandi saltando saltandum saltans saltant saltantur saltare saltat saltate saltatu saltaturus saltatus saltavit saltent
+91	3091	emergo	emergant emergat emergens emergent emergere emergerent emergeret emergit emergitur emergunt emerserat emerserunt emersit emersus
+92	3092	transformo	transformabunt transformandi transformando transformandum transformant transformantur transformare transformaret transformari transformarunt transformat transformatum transformatur transformatus transformaverat transformavit transformet
+93	3093	suffigo	suffigere suffigi suffiguntur suffixi suffixu suffixum suffixus
+94	3094	fetus	fetibus fetos fetui fetum foetus
+95	3095	saeptum	saepta saepti saeptis saepto septum sæptum
+96	3096	ensis	ense ensem ensi
+97	3097	quingenti	quingenta quingentarum quingentas quingentis quingentorum quingentos
+98	3098	volvo	volutu volvebatur volvendi volvens volvere volvisset volvit volvitur volvunt volvuntur
+99	3099	muliebris	muliebre muliebrem muliebres muliebri muliebria muliebribus muliebriter muliebrium muliebrum
+100	3100	callidus	callida callidae callidam callide callidi callidissimus callido callidos callidum

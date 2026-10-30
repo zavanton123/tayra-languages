@@ -1,0 +1,100 @@
+1	6801	atheismus	atheismi atheismo atheismum
+2	6802	defectivus	defectiva defectivam defectivi defectivum
+3	6803	praevideo	praevidebat praevident praevideret praevidet praevisum praevisus
+4	6804	obstructio	obstructione obstructionem obstructionis
+5	6805	frico	fricare fricatu fricta frictae fricti frictis fricto frictum
+6	6806	toreuma	toreumata toreumate toreumatis
+7	6807	insurgo	insurgebat insurgerent insurgeret insurgit insurrexerunt
+8	6808	cuneiformis	cuneiformem cuneiformes cuneiformi cuneiformia cuneiformibus
+9	6809	conspiro	conspirabant conspirare conspirarent conspiraverunt conspiravit
+10	6810	impudens	impudentem impudentes impudenti impudentiam inpudens
+11	6811	ferramentum	ferramenta ferramenti ferramentis
+12	6812	tonstrix	tonsorem tonsores tonsoribus tonsoris tonsorum
+13	6813	flagro	flagrabat flagrans flagrant flagrare flagraret flagratum
+14	6814	iumentum	iumenta iumentis iumentorum
+15	6815	cetus	cete ceti cetorum cetum
+16	6816	damnosus	damnosa damnosae damnosam damnosi
+17	6817	cardo	cardine cardines cardinibus cardinis cardonem
+18	6818	amphora	amphorae amphoram amphorarum
+19	6819	pulvinus	pulvillus pulvini pulvinis pulvino pulvinum
+20	6820	formidulosus	formidolosus formidulosae formidulosam formidulose formidulosum
+21	6821	socer	soceri soceris socero socerum
+22	6822	pharmacopola	pharmacopolae pharmacopolarum pharmacopolis
+23	6823	texanus	texana texanae texani texanis texano
+24	6824	ruthenicus	ruthenica ruthenicae ruthenice ruthenici ruthenicis ruthenico
+25	6825	movimentum	movimenti movimentis movimento
+26	6826	infligo	infligi infligit infligunt inflixerit inflixit
+27	6827	reclamatio	reclamationem reclamationes reclamationibus reclamationis
+28	6828	substitutio	substitutione substitutionem substitutiones substitutionis substitutionum
+29	6829	lettonicus	lettonica lettonice lettonici lettonicum
+30	6830	peragro	peragrabat peragrans peragrant peragrantur peragrare peragravit
+31	6831	chirurgus	chirurgi chirurgis chirurgorum chirurgum
+32	6832	secretio	secretionem secretionibus secretionis
+33	6833	praedictio	praedictione praedictionem praedictiones praedictionibus praedictionis
+34	6834	aberro	aberrabant aberrans aberrant aberrat aberratur aberravit
+35	6835	sciscitor	sciscitabatur sciscitantur sciscitari sciscitatum sciscitatur
+36	6836	dissipo	dissipa dissipamus dissipari dissipat dissipaverunt dissipet
+37	6837	iurgo	iurgabant iurgabat iurgarent iurgaverant iurgaverunt iurgavit
+38	6838	adnoto	adnotabat adnotandum adnotare adnotari adnotatum adnotavit
+39	6839	permoveo	permotus permovendi permovere permovet permovit
+40	6840	imputo	imputabatur imputabit imputandum imputant imputat imputent
+41	6841	purgatio	purgatione purgationem purgationes purgationis
+42	6842	scando	scandendi scanderit scandi scandit scandunt
+43	6843	semiticus	semitica semiticae semiticarum semiticas semiticis semitico
+44	6844	fluctuo	fluctuabat fluctuant fluctuari fluctuat fluctuavere fluctuet
+45	6845	productivus	productiva productivae productivam productive productivum
+46	6846	primordialis	primordiale primordialem primordiales primordiali primordialibus
+47	6847	productivitas	productivitate productivitatem productivitatis
+48	6848	gravitudo	gravitudine gravitudinem gravitudines gravitudinis
+49	6849	dioecesanus	dioecesani dioecesanis dioecesano dioecesanum
+50	6850	oculo	oculares oculari ocularia oculariorum ocularis ocularium
+51	6851	perforo	perforare perforari perforatis perforatum perforavit perforetur
+52	6852	pubes	puberem puberes puberi puberibus pubis
+53	6853	confringo	confregerant confregerunt confregisse confringentur confringeret confringetur
+54	6854	obsecro	obsecrat obsecraverint obsecravisse obsecravit
+55	6855	sortitus	sortita sortitam sortiti sortito
+56	6856	rado	radar rasa rasae rasam rasit rasum
+57	6857	libycus	libyca libyce libyci libyco libycorum libycum
+58	6858	prostaticus	prostatica prostaticae prostatici prostatico prostaticum
+59	6859	concelebro	concelebramus concelebrant concelebraret concelebratur concelebraverunt concelebravit
+60	6860	accio	acci acciri acciti accitum accivere accivit
+61	6861	macto	mactabatur mactabuntur mactandus mactaret mactat mactatur mactatus
+62	6862	sanctifico	sanctificandi sanctificandum sanctificaret sanctificatum sanctificatur sanctificatus sanctificavit
+63	6863	disiungo	disiunctus disiungantur disiungendus disiungere disiungerentur disiungit disiunguntur
+64	6864	procurro	procucurrit procurrat procurrebat procurrere procurreret procurrit procurrunt
+65	6865	regillus	regilla regillae regillam regilli regillis regillum
+66	6866	dirimo	diremerunt diremi dirimere dirimerentur dirimi dirimunt dirimuntur
+67	6867	amanuensis	amanuense amanuensem amanuenses amanuensi amanuensibus amanuensium
+68	6868	allego	adlectus allecti allectum allegant allegare allegere
+69	6869	ieiunium	ieiuni ieiunia ieiunii
+70	6870	pollen	pollini pollinis
+71	6871	parabola	parabolae parabolarum parabolas
+72	6872	mima	mimae mimas mimis
+73	6873	hebes	hebetem hebeti hebetibus hebetior hebetum
+74	6874	impactus	impacta impactu impactum
+75	6875	consessus	consessibus consessu consessum
+76	6876	saepes	saepem saepia saepibus
+77	6877	hilariter	hilarius
+78	6878	purgatorium	purgatoria purgatorii purgatorio
+79	6879	dialectica	dialecticae dialecticis
+80	6880	torta	tortas tortis
+81	6881	accipiter	accipitres accipitris accipitrum
+82	6882	effusus	effusa effusas effusis effuso effusum
+83	6883	odoratus	odoratas odoratis odoratui odoratum
+84	6884	vellus	vellere velleribus velleris
+85	6885	citrus	citri citro citrorum citros
+86	6886	lotus	loti lotis loto lotorum lotum
+87	6887	tussis	tussem tussi tussim
+88	6888	immutatus	immutata immutati immutatum
+89	6889	cruentus	cruenta cruentam cruentarum cruentas cruentum
+90	6890	amictus	amicta amictu amictum
+91	6891	strues	strue strui struibus struis
+92	6892	perpauci	perpaucis perpaucos
+93	6893	iaculum	iaculi iaculis iaculo
+94	6894	ecliptica	eclipticae eclipticam
+95	6895	concors	concorde concordes concordis
+96	6896	armarium	armariis armario armariorum
+97	6897	rectangulum	rectangula rectanguli rectangulis rectangulo rectangulorum
+98	6898	posteri	posterorum
+99	6899	puro	pura puras
+100	6900	comitas	comitate comitatem comitati comitatibus comitatis comitatum

@@ -1,0 +1,100 @@
+1	7801	aratrum	aratri aratris aratro
+2	7802	caprinus	caprina caprinis caprino
+3	7803	ingravesco	ingravescat ingravescens ingravescere ingravescit
+4	7804	inermis	inermem inermes inermi
+5	7805	assensio	assensione assensionem
+6	7806	tropus	tropis tropo tropos
+7	7807	ignarus	ignari ignaris ignarum
+8	7808	evangelista	evangelistae evangelistam evangelistarum
+9	7809	adeps	adipe adipibus adipis adipum
+10	7810	deputatio	deputatione deputationes deputationis
+11	7811	confuto	confutare confutat confutata confutavit
+12	7812	libramentum	libramenta libramentis libramentorum
+13	7813	notula	notulae notularum notulis
+14	7814	demigro	demigrans demigrant demigrasse demigravit
+15	7815	resilio	resiliens resiliet resiliri resiluit
+16	7816	concutio	concussit concussum concussus concutiebat
+17	7817	archiepiscopatus	archiepiscopatu archiepiscopatum
+18	7818	ebrietas	ebrietate ebrietatem ebrietatis
+19	7819	melicus	melica melici melicum
+20	7820	praeacutus	praeacutae praeacutam praeacutas praeacutis
+21	7821	fatua	fatuas fatuos fatuum
+22	7822	primitia	primitiae primitias primitiis
+23	7823	ultrix	ultorem ultores ultoris
+24	7824	bryonia	bryoniae bryoniam
+25	7825	alveolus	alveoli alveolis alveolo
+26	7826	iudaismus	iudaismi iudaismo
+27	7827	arteriosus	arteriosa arteriosam arteriosum
+28	7828	fissio	fissione fissiones fissionis
+29	7829	heidelbergensis	heidelbergensem heidelbergensi
+30	7830	manufactus	manufacta manufactarum manufactum
+31	7831	ratifico	ratificatum ratificaverunt ratificavit ratificent
+32	7832	patulus	patulae patule patuli
+33	7833	tortuosus	tortuosa tortuosae tortuosi tortuoso
+34	7834	restrictio	restrictione restrictiones
+35	7835	millenus	millena milleno millenorum millenos
+36	7836	despondeo	despondebat despondet despondit desponsus
+37	7837	mania	maniae maniam
+38	7838	anellus	anellis anello
+39	7839	associo	associatum associatus associavit
+40	7840	plenarius	plenaria plenariam plenarium
+41	7841	agglutino	agglutinandi agglutinantur agglutinatus agglutinentur
+42	7842	protoindoeuropaeus	protoindoeuropaea protoindoeuropaeae protoindoeuropaeam protoindoeuropaei
+43	7843	conversatio	conversatione conversationes
+44	7844	tundo	tundant tundatur tundere tunditur
+45	7845	offa	offarum offas
+46	7846	pirus	pira pire piris piro
+47	7847	tonitrus	tonitru tonitrua
+48	7848	usualis	usuale usualiter usualium
+49	7849	pudicus	pudica pudicam pudicum
+50	7850	edibilis	edibilem edibiles
+51	7851	abies	abietem abietes abietis
+52	7852	plaustrum	plaustris plaustro plaustrorum
+53	7853	osseus	ossea osseae osseis
+54	7854	profestus	profesti profestis
+55	7855	quadrupes	quadrupeda quadrupede quadrupedem
+56	7856	consideratio	consideratione considerationes considerationibus
+57	7857	laneus	lanea laneas laneis laneo
+58	7858	vagina	vaginae vaginam
+59	7859	traditor	traditorem traditores traditoribus
+60	7860	substantialis	substantialem substantiales substantiali substantialium
+61	7861	dissonans	dissonantes dissonantiae dissonantiis
+62	7862	speculatio	speculationem speculationis
+63	7863	biocolyta	biocolytarum biocolytas
+64	7864	vipera	viperae viperam
+65	7865	dimetior	dimensus dimetiendi dimetientes dimetiretur
+66	7866	longinquitas	longinquitate longinquitates longinquitatis
+67	7867	expeto	expetendo expetit expetitus expetiverunt
+68	7868	plancus	planca planci planco
+69	7869	interpello	interpellans interpellat interpellatus interpellavit
+70	7870	zythum	zythi zytho zythorum
+71	7871	cardinalitas	cardinalitatem cardinalitatum
+72	7872	restrictus	restricta restrictae
+73	7873	claresco	clarescat clarescunt claruerunt claruit
+74	7874	carruca	carrucae carrucarum carrucis
+75	7875	opprobrium	opprobria opprobriis opprobrio
+76	7876	diabetes	diabetae diabeten diabetis
+77	7877	convolvo	convolutum convolutus convolvitur
+78	7878	soccus	soccis soccos soccum
+79	7879	cochlear	cochleare cochlearia cochlearibus
+80	7880	submurmuro	submurmurans submurmurant submurmurat
+81	7881	lutetianus	lutetiana lutetianae lutetianam
+82	7882	morosus	morosa morosi morosum
+83	7883	occipitalis	occipitale occipitali occipitalibus
+84	7884	mobilitas	mobilitate mobilitatem mobilitates
+85	7885	hastile	hastili hastilibus hastilis
+86	7886	transitivus	transitiva transitivi transitivis transitivum
+87	7887	operativus	operativa operativae operativis operativum
+88	7888	palla	pallae pallam pallis
+89	7889	silicium	silicii silicio
+90	7890	armentum	armenti armentis armentorum
+91	7891	deprimo	depresserit deprimant deprimens deprimere
+92	7892	amasiunculus	amasiuncula amasiunculam amasiunculis
+93	7893	tunna	tonna tunnae tunnarum
+94	7894	tilia	tiliam tiliarum tilias
+95	7895	contagiosus	contagiosa contagiosae contagiosi contagiosum
+96	7896	pharetra	pharetrae pharetram
+97	7897	sagacitas	sagacitate sagacitatem
+98	7898	logarithmus	logarithmorum logarithmos logarithmum
+99	7899	filiolus	filiola filiolam filiolas
+100	7900	modifico	modificant modificare modificatur modificavit

@@ -1,0 +1,100 @@
+1	8301	digressus	digressi
+2	8302	sepalum	sepala sepalorum
+3	8303	deliciosus	deliciosae deliciosam
+4	8304	caseolus	caseoli caseolos
+5	8305	pulvereus	pulverea pulvereas
+6	8306	vicanus	vicani vicanorum
+7	8307	conciliabulum	conciliabulo
+8	8308	millenarius	millenario millenarium
+9	8309	sicera	sicerae
+10	8310	scalpellum	scalpellorum
+11	8311	psaltes	psaltis
+12	8312	resigno	resignare resignavit
+13	8313	cento	centone
+14	8314	melo	melones
+15	8315	deviatio	deviationes
+16	8316	ductito	ductitavisset ductitavit
+17	8317	perna	pernae
+18	8318	prioritas	prioritatem prioritates
+19	8319	horologicus	horologico
+20	8320	pythonissa	pythonem pythonis
+21	8321	ureter	ureteres ureterum
+22	8322	dolosus	dolosi
+23	8323	gratulatio	gratulationem gratulationis
+24	8324	uir	uiri
+25	8325	ditis	ditem ditior ditissimus
+26	8326	supplicatio	supplicationem supplicationibus supplicationis
+27	8327	arabilis	arabilem arabilium
+28	8328	oeconomus	oeconomi oeconomum
+29	8329	deformitas	deformitatem deformitates deformitatum
+30	8330	rasorium	rasorii
+31	8331	deses	desidiae desidiam
+32	8332	letum	lete leto
+33	8333	purificatio	purificationem purificationis
+34	8334	caesaries	caesariem caesarii
+35	8335	impostor	impostorem impostoris
+36	8336	tintinnabulum	tintinnabula tintinnabulo
+37	8337	hara	harad haras
+38	8338	intellegibilis	intellegibilem intellegibilia
+39	8339	castro	castrabant castras castrati
+40	8340	leucocytus	leucocyti leucocytorum
+41	8341	rhinoceros	rhinocerotem
+42	8342	reservatio	reservationem reservationum
+43	8343	prolabor	prolabi prolabitur prolapsus
+44	8344	additivus	additiva additivam additivi
+45	8345	subitaneus	subitanea subitaneam
+46	8346	provisio	provisioni provisionibus provisionum
+47	8347	frictio	frictione frictionis
+48	8348	macropus	macropode macropodes
+49	8349	oecologia	oecologiae oecologiam
+50	8350	uncus	unci uncos
+51	8351	manerium	maneria manerii manerio
+52	8352	coeliacus	coeliaci coeliaco
+53	8353	conflagratio	conflagratione conflagrationem
+54	8354	proximitas	proximitate proximitatem
+55	8355	modificatio	modificatione modificationes modificationi
+56	8356	comoedus	comoedo comoedos
+57	8357	habilis	habiles
+58	8358	disponibilis	disponibilem disponibiles
+59	8359	bicornis	bicorne
+60	8360	halo	hales
+61	8361	elatio	elationem
+62	8362	biologus	biologi biologis
+63	8363	haesito	haesitabat haesitant haesitaverunt
+64	8364	turmalis	turmales turmalium
+65	8365	hagiographicus	hagiographica hagiographicas hagiographicis
+66	8366	temperamentum	temperamento temperamentorum
+67	8367	digitabulum	digitabula digitabulorum
+68	8368	levatio	levatione levationem
+69	8369	congenitus	congenita congenitae congenitarum
+70	8370	chartularius	chartulario chartularium
+71	8371	creativus	creativam creative creativis
+72	8372	cultellus	cultelli cultello cultellum
+73	8373	trinus	trinae trinis trinorum
+74	8374	collocutio	collocutiones
+75	8375	culpatio	culpatione culpationis
+76	8376	insultus	insultos
+77	8377	equitatio	equitatione equitationis
+78	8378	larynx	larynge laryngis
+79	8379	stupor	stupore stuporem
+80	8380	sempervirens	sempervirentes
+81	8381	pristis	pistribus priste
+82	8382	abnormis	abnormes abnormi
+83	8383	volito	volitant volitasset volitat
+84	8384	racemus	racemis
+85	8385	pulsatio	pulsationis pulsationum
+86	8386	bes	besis besse
+87	8387	paetus	paeti paeto
+88	8388	nivatus	nivata nivatae
+89	8389	fidiculae	fidicula fidicularum
+90	8390	convocatio	convocatione convocationem
+91	8391	amicula	amiculo
+92	8392	resistendus	resistendae resistendam resistendas resistendi
+93	8393	faenus	faenore faenoribus fenus
+94	8394	artemisia	artemisiae artemisiam
+95	8395	subscriptor	subscriptores subscriptoribus
+96	8396	licentiatus	licentiatu licentiatum
+97	8397	ballivus	ballivi ballivo
+98	8398	diphthongus	diphthongos diphthongum
+99	8399	cuppedium	cuppedio cuppediorum
+100	8400	transmuto	transmutari transmutatum transmutavit

@@ -1,0 +1,100 @@
+1	3301	pilus	pili pilis pilo pilorum pilos pilum
+2	3302	respectus	respecti respectis respectu respectui respectum
+3	3303	persica	persicae persicam persicarum persicis
+4	3304	nudo	nuda nudarentur nudari nudas nudatis nudato nudaverunt nudavisset
+5	3305	rogatus	rogata rogatam rogatu rogatum
+6	3306	cervus	cervi cervis cervo cervon cervorum cervos cervum
+7	3307	molo	molam molare molaris molas mole molebatur moli molis molitor molitum molitur molitus moluntur
+8	3308	fastus	fasta fastae faste fasti fastis fastorum fastos fastu
+9	3309	nato	natandi natando natans natant natare natas natat natator natatum natavit nates natet
+10	3310	pontificium	pontifici pontificia pontificii pontificiis pontificio
+11	3311	ministro	ministra ministrabant ministrae ministrandi ministrando ministrandum ministrans ministrant ministrare ministrarent ministrarum ministrat ministratum ministratur ministravit ministrem ministres ministris
+12	3312	usor	usore usores usori usoribus usoris usorum
+13	3313	vacuum	vacui vacuo vacuorum
+14	3314	cingo	cinctum cingebantur cingebas cingebatur cingens cingere cingerent cingeret cingeretur cinget cingi cingit cingitur cinguntur cinxit
+15	3315	incendo	incendebant incenderat incendere incenderent incenderentur incenderet incenderetur incenderunt incendit incendunt incenduntur incensis incenso incensum
+16	3316	praecipito	praecipitabantur praecipitabat praecipitando praecipitant praecipitare praecipitarunt praecipitasse praecipitat praecipitatus praecipitaverit praecipitavit praecipitem praecipiter praecipites
+17	3317	ulciscor	ulciscantur ulciscatur ulciscendi ulciscens ulcisceretur ulcisci ulciscitur ulturus ultus
+18	3318	expando	expandebantur expandebat expandens expandere expandet expandi expandit expanditur expandunt expanduntur expansum
+19	3319	reporto	reportabant reportans reportant reportantur reportare reportaret reportarunt reportat reportatis reportaverunt reportavit reporter
+20	3320	capax	capacem capaces capaci capacia capacis capacium
+21	3321	peregrinator	peregrinatorem peregrinatores peregrinatoribus peregrinatorum
+22	3322	supplementum	supplementa supplementi supplementis supplemento supplementorum
+23	3323	exploratio	exploratione explorationem explorationes explorationi explorationibus explorationis explorationum
+24	3324	latro	latrare latratibus latrone latronem latrones latroni latronibus latronum
+25	3325	coalitio	coalitione coalitionem coalitionis coalitionum
+26	3326	inveho	invectum invectus invehebatur inveherentur inveheretur invehi invehit invehitur invehunt invehuntur invexit
+27	3327	computatio	computatione computationem computationes computationi computationibus computationis computationum
+28	3328	peruvianus	peruviana peruvianae peruvianam peruviani peruvianis peruviano peruvianum
+29	3329	repono	reponebat reponemus reponere reponerent reponeret reponis reponit reponitur reponunt reponuntur reposuerunt reposuit
+30	3330	condemno	condemnabatur condemnabitur condemnant condemnantur condemnat condemnatis condemnatorum condemnatum condemnatus condemnaverunt condemnavisset condemnavit condemnetur
+31	3331	tropicus	tropica tropicae tropicarum tropicas tropici tropicis tropico tropicum
+32	3332	placidus	placida placidae placide placidi placidius placido placidum
+33	3333	aenigma	aenigmata aenigmate aenigmatem aenigmatibus aenigmatis aenigmatum enigma
+34	3334	chartula	cartulam cartulas chartulae chartulam chartularum chartulas chartulis
+35	3335	abdo	abdendo abdens abdere abderentur abderet abdiderat abdiderit abdiderunt abdidit abdito abditus
+36	3336	delibero	deliberabant deliberabat deliberanda deliberando deliberandum deliberaret deliberat deliberate deliberatum deliberatus deliberaverunt deliberavit
+37	3337	illumino	illuminabantur illuminans illuminantur illuminare illuminat illuminate illuminatis illuminatores illuminatorum illuminatum illuminatur illuminatus illuminent illuminet illuminetur
+38	3338	dehinc	
+39	3339	verumtamen	
+40	3340	tanto	
+41	3341	superare	
+42	3342	aperte	
+43	3343	pinacotheca	pinacothecam
+44	3344	efflo	efflaret efflato efflaverint efflavisset efflavit
+45	3345	vicinia	viciniae viciniam vicinias vicinium
+46	3346	elegantia	elegantiae elegantiam elegantiarum
+47	3347	captivitas	captivitate captivitatem captivitatis
+48	3348	bacterium	bacteria bacteriis bacteriorum
+49	3349	silentium	silentii silentio
+50	3350	spectrum	spectra spectri spectro spectrorum
+51	3351	enumeratio	enumeratione enumerationem enumerationes enumerationis
+52	3352	modulus	module moduli modulis modulo modulorum modulos modulum
+53	3353	patriarcha	patriarchae patriarcham patriarche patriarchum
+54	3354	alphabetum	alphabeta alphabete alphabeti alphabeto alphabetorum
+55	3355	pestis	peste pestem pestes pestibus pestium
+56	3356	enzymum	enzyma enzymi enzymis enzymo enzymorum
+57	3357	compages	compage compagem compagi compagibus compagis compagium
+58	3358	ascensio	ascensione ascensionem ascensionibus ascensionis
+59	3359	millies	miliens milies milliens
+60	3360	proconsul	proconsule proconsulem proconsules proconsuli proconsulibus proconsulis
+61	3361	aroma	aromata aromate aromatibus aromatis aromatum
+62	3362	nebula	nebulae nebulam nebularum nebulas nebulis
+63	3363	abbrevio	abbreviantur abbreviato abbreviatores abbreviatum abbreviatur abbreviatus abbreviavit
+64	3364	apis	apes apia apiae apibus apii apio apium
+65	3365	interfector	interfectorem interfectores interfectori interfectoribus interfectoris interfectorum
+66	3366	scopulus	scopuli scopulis scopulo scopulorum scopulos scopulum
+67	3367	exsecutivus	exsecutiva exsecutivam exsecutivis exsecutivo exsecutivum
+68	3368	anonymus	anonyma anonymae anonymi anonymis anonymo anonymum
+69	3369	terminatio	terminatione terminationem terminationes terminationibus terminationis
+70	3370	organicus	organica organicae organicam organicarum organicas organici organicorum organicum
+71	3371	expressio	expressione expressionem expressiones expressionibus expressionis expressionum
+72	3372	acroasis	acroaseis acroasem acroases acroasi acroasibus acroasin acroasium
+73	3373	verticalis	verticale verticalem verticales verticali verticalia verticalibus verticaliter
+74	3374	sicarius	sicarii sicariis sicario sicarios sicarium
+75	3375	emptor	emptore emptorem emptores emptori emptoribus emptorum
+76	3376	polaris	polare polarem polares polari polaria polaribus
+77	3377	rigidus	rigida rigidae rigidam rigidarum rigide rigidi rigidis rigidum
+78	3378	cursualis	cursuale cursualem cursuales cursuali cursualia cursualibus cursualium
+79	3379	quadringenti	quadringenta quadringentas quadringentis quadringentorum quadringentos
+80	3380	maiestas	maiestate maiestatem maiestatis
+81	3381	stropha	strophae stropharum strophas strophis
+82	3382	rana	ranae ranam ranarum ranas ranis
+83	3383	prosa	prosae prosam prosas prosis
+84	3384	crisis	crisem crisim crisin
+85	3385	calvus	calva calvarum calvi calvo calvos calvum
+86	3386	deiectus	deiecta deiectibus deiectis deiecto deiectu deiectum
+87	3387	delictum	delicta delicti delictis delicto delictorum
+88	3388	bulla	bullae bullam bullarum bullas bullis
+89	3389	afflictus	adflictus afflicta afflictae afflicti afflictis afflicto afflictos afflictum
+90	3390	odor	odore odores odoris olor olores olorum
+91	3391	profugus	profuga profugi profugis profugo profugorum profugos
+92	3392	mutandus	mutanda mutandae mutandam mutandarum mutandas mutandi mutandis mutando mutandum
+93	3393	deliciae	deliciarum delicias deliciis
+94	3394	ductor	ductore ductores ductori ductoribus ductoris ductorum
+95	3395	divitia	divitiam divitiarum divitias divitiis
+96	3396	foro	fora foras foratis fores
+97	3397	fuscus	fusca fuscae fuscarum fuscas fusci fuscis fusco fuscum
+98	3398	rideo	ride ridebat ridendi ridendo ridendum ridens rident ridere ridet riserit risi risisse risit risu risum
+99	3399	cultor	cultores cultoribus cultorum
+100	3400	neo	near neas nebant nemora nemore nemoribus nemoris nemorum nemus nendi nendo nent neri nes net netas netum netus

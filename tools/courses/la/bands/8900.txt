@@ -1,0 +1,100 @@
+1	8801	aquosus	aquosa aquosis aquoso aquosum
+2	8802	lictor	lictores lictoribus lictorum
+3	8803	aborigineus	aborigineis aborigineorum aborigineos aborigineum
+4	8804	praeservo	praeservandum praeservare praeservatur praeservetur
+5	8805	aegypticus	aegyptica aegyptici aegypticis aegyptico
+6	8806	mensualis	mensuale mensuales mensuali
+7	8807	nutrimentum	nutrimenta nutrimentis nutrimentorum
+8	8808	defatigo	defatigant defatigare defatigatus defatigavisse
+9	8809	agon	agone agonem agonibus
+10	8810	stater	statere stateres stateribus staterum
+11	8811	pellicio	pellexit pellicere pelliceret pelliciant
+12	8812	compendiosus	compendiosa compendiosam compendiosas
+13	8813	erodo	erodens erodere erodit erosum
+14	8814	percussio	percussionem percussiones percussionis
+15	8815	delusio	delusione delusiones delusionis
+16	8816	devasto	devastabat devastarent devastatus devastavit
+17	8817	papilla	papillae papillarum papillas
+18	8818	parthenon	parthenone parthenonem parthenonis
+19	8819	coriaceus	coriacea coriaceae coriaceis coriaceo
+20	8820	conquiro	conquisiverat conquisivere conquisiverint conquisiverunt
+21	8821	cynicus	cynica cynicae cynicam cynicum
+22	8822	ovinus	ovinae ovino ovinum
+23	8823	quaesitio	quaesitione quaesitiones quaesitionis
+24	8824	fessus	fessa fessis fessum
+25	8825	redivivus	rediviva redivivae redivivam redivivum
+26	8826	tepidus	tepidas tepidi tepidis tepido
+27	8827	floridensis	floridense floridensem floridensia
+28	8828	magnanimus	magnanime magnanimo magnanimos
+29	8829	subiugo	subiugandum subiugari subiugat subiugavit
+30	8830	hamaxostichus	hamaxostichi hamaxosticho hamaxostichorum
+31	8831	attenuo	attenuat attenuatur attenuavit attenuet
+32	8832	exaequo	exaequans exaequari exaequat exaequaverunt
+33	8833	graphium	graphia graphii graphio
+34	8834	semicirculus	semicirculi semicirculo semicirculum
+35	8835	figulus	figuli figulo figulorum figulos
+36	8836	cultivo	cultivarent cultivari cultivatis cultivatur
+37	8837	impudicus	impudica impudicae impudicam impudicis
+38	8838	fumosus	fumosi fumosis fumoso
+39	8839	nescioquis	nesciocui nescioqua nescioquam nescioquos
+40	8840	tropicalis	tropicale tropicalem tropicalium
+41	8841	murarius	muraria murariae murarii
+42	8842	cutaneus	cutanea cutanei cutaneorum
+43	8843	neutron	neutroni neutronibus neutronis neutronum
+44	8844	valedico	valedicebant valedicendi valedicens valedixit
+45	8845	heredium	heredia heredii heredio
+46	8846	synchronus	synchrona synchronas synchrone synchronis
+47	8847	serpentinus	serpentina serpentinae serpentinam serpentinum
+48	8848	conglutino	conglutinans conglutinatis conglutinatus conglutinaverunt
+49	8849	octonus	octona octonorum octonos octonum
+50	8850	sabbatarius	sabbatariarum sabbatarias sabbatariis sabbatarium
+51	8851	hibernalis	hibernalem hibernales hibernalibus
+52	8852	diaeresis	diaerese diaeresi diaeresin
+53	8853	despolio	despoliare despoliaverit despoliaverunt despolient
+54	8854	paluster	palustre palustri palustribus palustris
+55	8855	advolo	advolans advolasset advolat advolet
+56	8856	raritas	raritate raritatem raritates
+57	8857	innecto	innectunt innectuntur innexuit innexum
+58	8858	resarcio	resarciebantur resarciendo resartum resartus
+59	8859	negotiatorius	negotiatoriae negotiatorii negotiatoriis negotiatorios
+60	8860	virago	viragine viraginem viraginis viraginum
+61	8861	praetervehor	praetervectum praetervectus praeterveheretur praetervehitur
+62	8862	pharmaceuticus	pharmaceutica pharmaceuticas pharmaceuticis pharmaceuticum
+63	8863	stipulor	stipulat stipulatu stipulatur stipulatus
+64	8864	extorqueo	extorserat extorserit extorsisset extorsit
+65	8865	deverto	devertat devertebat devertit devertuntur
+66	8866	negotialis	negotiales negotialia negotialibus
+67	8867	erubesco	erubescens erubescunt erubuit
+68	8868	oblatio	oblatione oblationem oblationes oblationi
+69	8869	coacervo	coacervandum coacervatis coacervatur coacervaverat
+70	8870	confessor	confessore confessorem confessores confessori
+71	8871	cardiacus	cardiaca cardiacis cardiaco cardiacum
+72	8872	dispertio	dispertiri dispertit dispertitum dispertivit
+73	8873	crematorium	crematoriis
+74	8874	intercalaris	intercalarium
+75	8875	levamen	levamini levaminis
+76	8876	delirium	deliri delirio
+77	8877	unctus	uncta uncti
+78	8878	eloquium	eloqui eloquii
+79	8879	ador	adora adori
+80	8880	apotheca	apothecam apothecarum apothecas
+81	8881	funiculus	funiculis funiculorum funiculos
+82	8882	transportandus	transportanda transportandas transportandum
+83	8883	elixo	elixa elixatur elixer
+84	8884	hastati	hastatorum hastatos
+85	8885	barrio	barri
+86	8886	orichalcum	orichalci orichalco
+87	8887	chanis	chane chanum
+88	8888	nutus	nutu
+89	8889	piget	pigebat pigendo
+90	8890	craticula	craticulae craticulas
+91	8891	papatus	papatu papatum
+92	8892	frutex	frutices
+93	8893	trigonum	trigoni trigono
+94	8894	afflatus	afflatibus afflatu
+95	8895	consimilis	consimiles consimilium
+96	8896	sospes	sospita sospite
+97	8897	perfusus	perfusis perfusum
+98	8898	lapidarius	lapidariorum lapidarium
+99	8899	invidus	invidi invidum
+100	8900	meles	mele meli melis

@@ -1,0 +1,100 @@
+1	9301	concavus	concava concavam concavum
+2	9302	velamentum	velamento
+3	9303	titubo	titubans titubant
+4	9304	plumbum	plumbo
+5	9305	sorites	soritas
+6	9306	moderamen	moderaminis
+7	9307	nutritio	nutritionem nutritionis
+8	9308	descisco	desciverunt descivit
+9	9309	litteralis	litteraliter
+10	9310	mauritianus	mauritiana mauritiani
+11	9311	croceus	crocei croceo
+12	9312	paenultimus	paenultimo
+13	9313	progigno	progenitus progenuit
+14	9314	sustentatio	sustentationi sustentationis
+15	9315	torno	torner
+16	9316	iusculum	iuscellum iuscula
+17	9317	cimeliarchium	cimeliarchio
+18	9318	reveho	revectus revehuntur
+19	9319	lada	leda
+20	9320	hepar	hepatis
+21	9321	minium	mini minio
+22	9322	nubecula	nubeculis
+23	9323	fagus	fagis
+24	9324	praenuntio	praenuntiare praenuntiavit
+25	9325	paenula	paenulam
+26	9326	abilitas	abilitatem
+27	9327	convergo	convergantur converguntur
+28	9328	ganglion	ganglia gangliorum
+29	9329	archiater	archiatri
+30	9330	aranicus	aranicae aranicam
+31	9331	pancratium	pancratii
+32	9332	viriditas	viriditate
+33	9333	deflagro	deflagrando deflagraverunt
+34	9334	pravitas	pravitatem pravitati
+35	9335	commendaticius	commendaticia commendaticiis
+36	9336	ocrea	ocreas
+37	9337	siccatio	siccatione siccationis
+38	9338	cophinus	cophinum
+39	9339	pharus	pharo pharum
+40	9340	ruma	rumis
+41	9341	clymenos	clymene clymeno
+42	9342	sublimitas	sublimitate sublimitatis
+43	9343	atypicus	atypicos atypicum
+44	9344	semetipse	semetipsam semetipsos
+45	9345	pellico	pellicebat pellicier
+46	9346	glaeba	glaebae gleba
+47	9347	accumulatio	accumulatione
+48	9348	plur	pluriens
+49	9349	ursa	ursae ursam
+50	9350	rostratus	rostrata rostratae
+51	9351	costalis	costalem costalia
+52	9352	dispensator	dispensatrix
+53	9353	mastico	masticandi masticare
+54	9354	absinthium	absinthii absinthio
+55	9355	archidiaconus	archidiaconorum
+56	9356	retractatio	retractationem retractationes
+57	9357	percussor	percussorum
+58	9358	sonoritas	sonoritatis
+59	9359	hindicus	hindica hindicarum
+60	9360	fictor	fictores fictorum
+61	9361	catechumenus	catechumeni
+62	9362	adsuetudo	adsuetudine
+63	9363	exactio	exactionem
+64	9364	introrsum	introrsus
+65	9365	harmonicus	harmonici
+66	9366	volutatio	volutationem
+67	9367	convito	convitare convitat
+68	9368	gossypium	gossypio
+69	9369	apocha	apocham
+70	9370	lava	lavae
+71	9371	albicolor	albicolores albicolorum
+72	9372	sucidus	sucida
+73	9373	anisum	aniso
+74	9374	caucasicus	caucasica caucasicarum
+75	9375	isagoge	isagogen
+76	9376	circumcingo	circumcingens circumcingit
+77	9377	lichen	lichenes
+78	9378	calvitium	calvitii
+79	9379	cordialis	cordialem cordialibus
+80	9380	puniceus	puniceo puniceum
+81	9381	edax	edaces edacibus
+82	9382	exsiccatio	exsiccationem exsiccationis
+83	9383	olfacio	olfacere olfaciendi
+84	9384	vindicta	vindictae
+85	9385	quebecensis	quebecenses
+86	9386	abra	abrae abram
+87	9387	umbraticus	umbratico
+88	9388	tablinum	tablini
+89	9389	cyma	cymae cymam
+90	9390	maccus	macco
+91	9391	consilior	consiliaretur consiliatus
+92	9392	mensula	mensulas
+93	9393	hirnea	hirneae hirneam
+94	9394	fissura	fissuram
+95	9395	infreno	infrenatis infrenato
+96	9396	nosocomus	nosocomorum
+97	9397	eno	ena
+98	9398	facundus	facunde
+99	9399	concresco	concrescit concretum concretus
+100	9400	dignatio	dignationem

@@ -1,0 +1,100 @@
+1	7601	sollicitudo	sollicitudine sollicitudinem
+2	7602	praesumptio	praesumptionem praesumptionis
+3	7603	salubritas	salubritate salubritatem salubritati
+4	7604	calcareus	calcarea calcareum
+5	7605	tertianus	tertiana tertianorum tertianos
+6	7606	globalizatio	globalizationem globalizationis
+7	7607	smaragdus	smaragdi smaragdum
+8	7608	internodium	internodia internodiis
+9	7609	hantoniensis	hantoniensi
+10	7610	conscriptio	conscriptionem conscriptiones conscriptionis
+11	7611	zoologia	zoologiae
+12	7612	retentio	retentione retentionem
+13	7613	determinatio	determinatione determinationem determinationes
+14	7614	percontatio	percontationem percontationes
+15	7615	conlocatio	conlocationes conlocationibus
+16	7616	penelops	penelope penelopes
+17	7617	atheos	athei atheis atheum
+18	7618	perduro	perdurat perduravit
+19	7619	excitatio	excitationes excitationis
+20	7620	biodiversitas	biodiversitate biodiversitatis
+21	7621	superpono	superponit superponuntur superpositum
+22	7622	zelotes	zelotarum zelotas
+23	7623	aequaevus	aequaevi aequaevo
+24	7624	exscribo	exscripsisse exscripsit exscriptus
+25	7625	emphasis	emphasi emphasibus
+26	7626	cisterna	cisternae cisternas
+27	7627	praefor	praefatum praefatus prefatum
+28	7628	massiliensis	massiliensi
+29	7629	indivisus	indivisa indivisi indivisum
+30	7630	matricula	matriculae matriculis
+31	7631	harundo	harundines
+32	7632	consanguinitas	consanguinitate consanguinitatem consanguinitatis
+33	7633	scintillo	scintillans scintillant
+34	7634	lama	lamas
+35	7635	deformatio	deformationes
+36	7636	dispersio	dispersionem dispersiones
+37	7637	pavo	pavones pavonum
+38	7638	sulphur	sulpur
+39	7639	resonantia	resonantiae resonantiam
+40	7640	vascus	vasci
+41	7641	cenaculum	cenaculo coenaculis
+42	7642	regeneratio	regenerationis
+43	7643	cantatio	cantatione cantationem cantationis
+44	7644	callosus	callosi callosum
+45	7645	aduno	adunabantur adunabatur adunentur
+46	7646	incisor	incisores incisorum
+47	7647	quadrangularis	quadrangularem quadrangularibus
+48	7648	perfluo	perfluens perfluit perfluitur
+49	7649	scintilla	scintillam
+50	7650	mississippiensis	mississippiense
+51	7651	dictito	dictitabat dictitans dictitat
+52	7652	aggressio	aggressione aggressionem aggressionibus
+53	7653	butyrum	butyro
+54	7654	lucta	luctam
+55	7655	comminor	comminabatur comminatum comminatus
+56	7656	peioro	peiorem peiores
+57	7657	temetum	temeti temetorum
+58	7658	insons	insontem insontium
+59	7659	praeiudicium	praeiudicia praeiudicii
+60	7660	haruspex	haruspice haruspicibus haruspicum
+61	7661	beneficus	benefica benefico
+62	7662	suppressio	suppressionem suppressionis
+63	7663	obsisto	obsistebant obsisteret obsistit obstiterunt obstitit
+64	7664	expectatio	expectationem expectationes expectationibus
+65	7665	casula	casulam casulis
+66	7666	expergefacio	expergefactus expergefecit expergefieri
+67	7667	triremis	triremes triremi
+68	7668	filtrum	filtra filtris
+69	7669	innoxius	innoxiam innoxios innoxium
+70	7670	contabulatio	contabulatione contabulationis contabulationum
+71	7671	cinemateum	cinematea cinemateo
+72	7672	amoeba	amoebae amoebarum
+73	7673	accuratio	accuratione accurationem
+74	7674	lynx	lynces lyncis
+75	7675	antesignanus	antesignani antesignanis
+76	7676	immotus	immota immotae immoti
+77	7677	nivarius	nivaria nivariae nivario
+78	7678	lampas	lampades lampadibus
+79	7679	inhibitio	inhibitione inhibitionem
+80	7680	plantatio	plantationes
+81	7681	consensio	consensione consensionis
+82	7682	pollutio	pollutione pollutionis
+83	7683	causalis	causales causali
+84	7684	gaza	gazas gazis
+85	7685	gazella	gazellae gazellas
+86	7686	cydonius	cydonia cydoniae cydoniam
+87	7687	doris	doride doridis
+88	7688	refercio	refertum refertus
+89	7689	pleura	pleurae pleuram
+90	7690	heroina	heroinae heroinas
+91	7691	exprobro	exprobrabat exprobrare exprobraverunt
+92	7692	hierarchicus	hierarchica hierarchicam hierarchico
+93	7693	caespes	caespite caespites
+94	7694	emphaticus	emphatica emphaticis emphaticum
+95	7695	elegi	elegos
+96	7696	horridus	horrida horridum
+97	7697	cylindricus	cylindrica cylindricas
+98	7698	trucidatio	trucidationem trucidationes
+99	7699	liquefacio	liquefactum liquefieri liquefiunt
+100	7700	mutabilitas	mutabilitate mutabilitatis

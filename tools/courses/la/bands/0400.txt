@@ -1,0 +1,100 @@
+1	301	civis	cive civem cives civi civibus civium civum
+2	302	cursus	cursi cursibus curso cursorum cursu cursui cursum cursuum
+3	303	tam	
+4	304	quisque	cuique cuiusque quaeque quamque quaque quasque quemque quibusque quicque quidque quique quodque quorumque quosque
+5	305	princeps	principe principem principes principi principibus principis principum
+6	306	iter	itere itinera itinere itineri itineribus itineris itinerum
+7	307	legatus	legata legati legatis legato legatorum legatos legatum
+8	308	nihil	
+9	309	noster	nostra nostrae nostram nostrarum nostras nostratis nostre nostri nostris nostro nostrorum nostros nostrum
+10	310	igitur	
+11	311	singulus	singula singulae singulam singularum singulas singuli singulis singulo singulorum singulos singulum
+12	312	orbis	orbe orbem orbes orbi orbibus orbium
+13	313	servo	serva servabant servabantur servabat servabatur servanda servandae servandam servandas servandi servandis servando servandorum servandum servans servant servantur servare servarent servarentur servaret servaretur servari servat servatis servato servator servatores servatorum servatum servatur servatus servaverat servaverunt servavisse servavit servent servet servetur
+14	314	velut	veluti
+15	315	indico	indica indicabant indicabat indicabit indicandam indicandas indicandum indicans indicant indicantur indicare indicaret indicas indicat indicatis indicato indicator indicatori indicatum indicatur indicatus indicaverunt indicavit indice indicem indicens indicent indicentur indicere indiceret indices indicet indicetur indicit indicta indicto indictum indixerunt indixit
+16	316	lego	lectis lectos lectu lectus lega legantur legas legat legatur legaverat legavit lege legebant legebantur legebat legebatur legem legemus legendi legendo legendos legendum legentem legentes legentibus legerat legere legeris legerit legerunt legi legimus legis legisse legissent legit legitur legunt leguntur
+17	317	orientalis	orientale orientalem orientales orientali orientalia orientalibus orientalium
+18	318	aedificium	aedifici aedificia aedificii aedificiis aedificio aedificiorum
+19	319	super	summe superius supreme
+20	320	potestas	potestate potestatem potestates potestati potestatibus potestatis potestatium potestatum
+21	321	circiter	
+22	322	eo	eamus eat eundi eundo eundum eunt ibant ibat ibis ibit iebant iens ierunt ies iissent iit ima imae imam imas imis imus ire irent iret iri isse isset isti istis it ite itis ito itum itur iturus iverunt ivi ivit
+23	323	incipio	inceperant inceperat inceperint inceperit inceperunt incepisse incepissent incepisset incepit inceptu incipere inciperent inciperet incipi incipiam incipiant incipiantur incipiatur incipiebant incipiebat incipienda incipiendam incipiendi incipiendo incipiendum incipiens incipies incipiet incipimus incipis incipit incipitur incipiunt incipiuntur
+24	324	habito	habita habitabant habitabat habitabatur habitabit habitabo habitandi habitando habitandum habitans habitant habitantur habitarat habitare habitarent habitaret habitari habitas habitasse habitat habitatis habitato habitator habitatores habitatoris habitatrix habitatu habitatum habitatur habitaturus habitatus habitaverat habitaverint habitaverit habitaverunt habitavisse habitavit habitent
+25	325	anglicus	anglica anglicae anglicam anglicarum anglicas anglici anglicis anglico anglicorum anglicos anglicum
+26	326	latus	lata latae latam latas latera latere lateri lateribus lateris laterum lati latior latis latissimus lato latorum latos latum
+27	327	magis	mage
+28	328	vero	verò
+29	329	institutum	instituta instituti institutis instituto institutorum
+30	330	ortus	orta ortae ortam ortarum ortas orti ortis orto ortorum ortos ortu ortum ortuum
+31	331	castrum	castra castrae castram castre castri castris castro castrorum
+32	332	pellicula	pelliculae pelliculam pellicularum pelliculas pelliculis
+33	333	clarus	clara clarae claram clararum claras clare clari clarior claris clarissima clarissimae clarissimarum clarissimas clarissime clarissimi clarissimis clarissimo clarissimorum clarissimos clarissimum clarissimus clarius claro clarorum claros clarum
+34	334	minister	ministra ministrae ministrarum ministri ministris ministro ministrorum ministros ministrum
+35	335	numquam	nunquam
+36	336	inde	
+37	337	ambo	ambabus ambae ambarum ambas ambobus ambone ambonem ambonis amborum ambos
+38	338	museum	musea musei museis museo museorum
+39	339	textus	texta texte texti textibus textis texto textorum textos textu textui textum textuum
+40	340	diversus	diversa diversae diversam diversarum diversas diversi diversis diversissimus diverso diversorum diversos diversum
+41	341	vetus	vetera vetere veterem veteres veteri veteribus veteris veterium veterrimus veterum vetustior vetustissimus
+42	342	vox	voce vocem voces voci vocibus vocis vocium vocum
+43	343	discipulus	discipuli discipulis discipulo discipulorum discipulos discipulum
+44	344	divido	dividam dividamus dividantur dividas dividatur dividebant dividebantur dividebat dividebatur dividendi dividendo dividendum dividens divident dividentur dividere dividerent divideret divideretur divides dividetur dividi dividit dividito dividitur dividunt dividuntur diviserat diviserunt divisi divisimus divisisse divisisset divisit divisum divisus
+45	345	at	
+46	346	efficio	effecerant effecerit effecerunt effeci effecisse effecissent effecisset effecit effectu effectum efficere efficerent efficerentur efficeret efficeretur effici efficiant efficiantur efficiat efficiatur efficiebant efficiebantur efficiebat efficiebatur efficienda efficiendam efficiendarum efficiendas efficiendi efficiendis efficiendo efficiendorum efficiendum efficiens efficies efficiet efficit efficitur efficiunt efficiuntur
+47	347	praecipue	
+48	348	minus	
+49	349	femina	feminae feminam feminarum feminas feminis
+50	350	studeo	studeam studeant studeat studebant studebat studebit studendi studendo studendum studens student studentur studere studeret studeri studet studeto studetur studio studuerat studuerint studuerunt studuisse studuissent studuit
+51	351	collegium	collegi collegia collegii collegiis collegio collegiorum
+52	352	describo	describant describat describatur describebant describebat describemus describendi describendo describendum describens describere describerent describerentur describeret describeretur describi describit describitur describunt describuntur descripserant descripserat descripserint descripserit descripserunt descripsi descripsimus descripsisse descripsisset descripsit descriptu descriptum
+53	353	scio	sciam sciamus sciant sciat sciatur sciebam sciebant sciebat scienda sciendi sciendum sciens scient sciet sciit scimus scire sciremus scirent sciret sciri scis scit scitae sciti scitis scito scitorum scitote scitu scitum scitur sciunt sciuntur sciverit sciverunt scivi scivisse scivit
+54	354	prope	propius proxime
+55	355	relinquo	relictum relicturus relinquamus relinquant relinquat relinquatur relinquebant relinquebantur relinquebat relinquebatur relinquenda relinquendam relinquendi relinquendo relinquendum relinquens relinquent relinquere relinquerent relinqueret relinquet relinquetur relinqui relinquit relinquitur relinquunt relinquuntur reliquerant reliquerat reliquere reliquerint reliquerit reliquerunt reliqui reliquisse reliquisset reliquit
+56	356	sensus	sense sensi sensibus sensis sensu sensui sensum sensuum
+57	357	socius	socia sociae sociam sociarum socias socii sociis socio sociorum socios socium
+58	358	praebeo	praebe praebeant praebeantur praebeat praebeatur praebebant praebebat praebebatur praebendi praebendum praebens praebent praebentur praebere praeberent praeberentur praeberet praeberetur praeberi praebet praebetur praebiturus praebuerant praebuerint praebuerit praebuerunt praebuisse praebuissent praebuisset praebuit
+59	359	sex	sexiens
+60	360	quintus	quinta quintae quintam quintarum quintas quinti quintis quinto quintum
+61	361	occidentalis	occidentale occidentalem occidentales occidentali occidentalia occidentalibus occidentalium occidentalum
+62	362	germanicus	germanica germanicae germanicam germanicarum germanicas germanice germanici germanicis germanico germanicorum germanicos germanicum
+63	363	ego	eco me mei mihi nostri
+64	364	praeter	preter
+65	365	gero	gerant gerat geratur gere gerebant gerebantur gerebat gerebatur gerenda gerendae gerendam gerendarum gerendas gerendi gerendis gerendo gerendorum gerendum gerens gerentur gerere gererent gereret geres geret geri geris gerit geritur gerunt geruntur gesserant gesserat gesserit gesserunt gessisse gessissent gessisset gessit
+66	366	vinco	vicerant vicerat vicere vicerit vicerunt vici vicisse vicissent vicisset vicisti vicit victum victurus vincant vincantur vincare vincas vincat vincebant vincebantur vincebat vincebatur vincenda vincendam vincendi vincendo vincendos vincendum vincens vincent vincere vincerem vincerent vinceret vincet vinci vincit vincitur vincunt vincuntur
+67	367	turma	turmae turmam turmarum turmas turmis
+68	368	iuvenis	iunior iuvene iuvenem iuvenes iuveni iuvenibus iuvenior iuvenissimus iuvenium iuvenum
+69	369	circulus	circuli circulis circulo circulorum circulos circulum
+70	370	anglice	
+71	371	septentrionalis	septentrionale septentrionalem septentrionales septentrionali septentrionalia septentrionalibus septentrionalium
+72	372	amicus	amica amicae amicam amicarum amicas amice amici amicis amico amicorum amicos amicum
+73	373	pecunia	pecuniae pecuniam pecuniarum pecunias pecuniis
+74	374	index	indice indicem indices indici indicibus indicis indicum
+75	375	humanus	humana humanae humanam humanarum humanas humane humani humanior humanis humanissimus humanius humano humanorum humanos humanum
+76	376	proelium	proeli proelia proelii proeliis proelio proeliorum
+77	377	generalis	generale generalem generales generali generalia generalibus generaliter generalium
+78	378	peto	petam petant petat petatur pete petebant petebat petebatur petenda petendae petendi petendis petendo petendos petendum petens petent petere peterent peteret peteretur peti petierunt petiit petimus petis petistis petit petite petito petitum petitur petiverant petiverat petiverit petiverunt petivisse petivit petunt petuntur
+79	379	campus	campe campi campis campo camporum campos campum
+80	380	loquor	locutu locutum locutus loquantur loquar loquatur loquebamur loquebant loquebantur loquebar loquebatur loquendi loquendo loquendum loquens loquerentur loqueretur loqueris loqui loquimur loquitur loquuntur
+81	381	templum	templa templi templis templo templorum
+82	382	notio	notione notionem notiones notioni notionibus notionis notionum
+83	383	hispanicus	hispanica hispanicae hispanicam hispanicarum hispanicas hispanice hispanici hispanicis hispanico hispanicorum hispanicos hispanicum
+84	384	appareo	appareant appareat apparebant apparebat apparebit apparebunt apparendi apparendo apparent apparentur apparerent appareret appareri apparet apparetur apparuerant apparuerat apparuere apparuerit apparuerunt apparuisse apparuisset apparuit
+85	385	certus	certa certae certam certarum certas certi certior certis certissimus certo certorum certos certum
+86	386	postquam	
+87	387	morbus	morbi morbis morbo morborum morbos morbum
+88	388	linea	lineae lineam linearum lineas lineis lineola
+89	389	laboro	labora laborabant laborabat laborabatur laborabo laborabunt laborandi laborando laborans laborant laborare laborarent laboraret laboras laborasse laborat laboratores laboratoribus laboratorum laboratu laboratum laboraverant laboraverat laboraverunt laboravisse laboravit laborem laborent labores laboret laboretur
+90	390	omnino	
+91	391	effectus	effecta effectae effectam effectarum effectas effecti effectibus effectis effecto effectorum effectos effectu effectui effectum effectuum
+92	392	cognosco	cognitum cognoscant cognoscantur cognoscat cognoscebant cognoscebat cognoscebatur cognoscemus cognoscenda cognoscendae cognoscendam cognoscendarum cognoscendas cognoscendi cognoscendo cognoscendum cognoscens cognoscere cognosceret cognosces cognoscet cognoscetur cognosci cognoscimus cognoscis cognoscit cognoscitur cognoscunt cognoscuntur cognosset cognoverant cognoverat cognoverimus cognoverint cognoverunt cognovi cognovimus cognovisse cognovisset cognovit
+93	393	hostis	hoste hostem hostes hosti hostibus hostium
+94	394	certamen	certamina certamine certamini certaminibus certaminis certaminum
+95	395	compono	componant componantur componatur compone componebant componebat componebatur componendi componendo componendum componens component componere componerent componerentur componeret componetur componi componit componitur componunt componuntur composit compositu compostum composuerat composuerint composueris composuerit composuerunt composui composuisse composuisset composuit
+96	396	versio	versione versionem versiones versioni versionibus versionis versionum
+97	397	puer	pueri pueris puero puerorum pueros puerum
+98	398	sermo	sermone sermonem sermones sermoni sermonibus sermonis sermonum
+99	399	honor	honorarum honore honorem honores honori honoribus honoris honorum honos
+100	400	sequor	secutum secuturus sequamur sequaris sequatur seque sequebant sequebantur sequebatur sequemur sequendi sequendo sequendum sequens sequentur sequere sequerentur sequerere sequeretur sequetur sequi sequimur sequit sequitur sequuntur

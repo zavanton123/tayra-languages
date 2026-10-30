@@ -1,0 +1,100 @@
+1	7201	intercipio	interceperat interceptus intercipiendo intercipiendum
+2	7202	patronymicus	patronymica patronymico patronymicum
+3	7203	argutus	arguta argute arguti
+4	7204	subdolus	subdola subdolae subdolam
+5	7205	archivium	archivia archivii archivio
+6	7206	ferax	ferace feraces feracis
+7	7207	lucerna	lucernae lucernam
+8	7208	incolumitas	incolumitate incolumitatem
+9	7209	linter	lintrem lintres lintribus
+10	7210	consterno	consternans consternatus constratum
+11	7211	ava	avae avam
+12	7212	fermento	fermentans fermentantur fermentetur
+13	7213	artemon	artemonem artemonis
+14	7214	porcellanus	porcellana porcellanis porcellanorum porcellanum
+15	7215	siquis	siqui siquid siquo
+16	7216	surculus	surculi surculo surculorum surculos
+17	7217	vespertilio	vespertiliones vespertilionibus vespertilionis vespertilionum
+18	7218	reflexivus	reflexiva reflexivas reflexivis reflexivo reflexivum
+19	7219	malevolens	malevolentem malevolentes malevolentiam
+20	7220	cubicularius	cubiculariam cubiculariis cubiculario
+21	7221	rescisco	rescierunt resciit rescivere rescivit
+22	7222	armiger	armigeri armigerorum armigeros
+23	7223	violaceus	violaceam violaceas violacei
+24	7224	iconicus	iconica iconicam iconicas iconicis
+25	7225	psallo	psallendi psallere psallit psallunt
+26	7226	hortulus	hortuli hortulo hortulorum hortulos
+27	7227	protendo	protendebant protendebatur protenderat protenderunt protendit
+28	7228	trivium	trivia trivii trivio triviorum
+29	7229	regnatrix	regnatricem regnatrices regnatricis
+30	7230	silvaticus	silvatica silvaticas silvatici silvaticis sylvaticus
+31	7231	apicalis	apicali apicalia apicalibus
+32	7232	reconciliatio	reconciliatione reconciliationem reconciliationis
+33	7233	discerpo	discerpere discerpet discerpserunt discerpsit discerptum
+34	7234	quinarius	quinarii quinariis quinario
+35	7235	scapula	scapulae scapulas scapulis
+36	7236	grammaticalis	grammaticale grammaticales grammaticali grammaticalium
+37	7237	leoninus	leoninas leonini leoninum
+38	7238	gerundium	gerundi gerundia gerundio
+39	7239	actuosus	actuosam actuosas actuosorum
+40	7240	cartilago	cartilagine cartilaginis cartilaginum
+41	7241	depravo	depravabant depravare depravari depravavisse depravavit
+42	7242	graduatus	graduata graduati graduatorum graduatos graduatum
+43	7243	clientela	clientelae clientelam
+44	7244	minoritas	minoritatem minoritates minoritatis
+45	7245	turritus	turrita turritam turritum
+46	7246	patheticus	patheticae pathetici patheticis patheticum
+47	7247	instabilitas	instabilitatem instabilitati instabilitatis
+48	7248	sagax	sagaci sagaciter sagacium
+49	7249	dilabor	dilabatur dilabi dilabitur dilapsum
+50	7250	iucunditas	iucunditatem iucunditati iucunditatis
+51	7251	incarnatio	incarnatione incarnationes incarnationi
+52	7252	triclinium	triclinii tricliniis triclinio
+53	7253	nazarenus	nazarenae nazareni nazarenum
+54	7254	oscillatio	oscillatione oscillationem oscillationum
+55	7255	armenicus	armenica armenicae armenice armenicum
+56	7256	electrum	electra electris electro electrorum
+57	7257	praestigium	praestigiae praestigiarum praestigias praestigiis
+58	7258	proveniens	proveniente provenientes provenientis
+59	7259	baptisterium	baptisteria baptisterii baptisterio
+60	7260	commemoratio	commemoratione commemorationem commemorationes commemorationibus commemorationis
+61	7261	implicitus	implicita implicitas implicite impliciti
+62	7262	iniuriosus	iniuriosa iniuriosas iniuriose iniuriosum
+63	7263	astrologicus	astrologica astrologicas astrologicis astrologicos astrologicum
+64	7264	exsecutor	exsecutorem exsecutores
+65	7265	capesso	capessere capesseret capesset capessivit
+66	7266	lividus	lividis lividos lividum
+67	7267	coriarius	coriaria coriariam coriariorum coriarium
+68	7268	calceus	calcei calceis calceorum calceos calceum
+69	7269	prolixus	prolixa prolixae prolixis prolixius
+70	7270	maturatio	maturatione maturationem
+71	7271	quasso	quassans quassat quassatus quassavit
+72	7272	transveho	transvectum transvectus transvehi transvexerunt transvexit
+73	7273	puppis	puppem puppes puppi
+74	7274	immoderatus	immoderata immoderatae immoderatam immoderatas immoderatum
+75	7275	aurifex	aurifices aurificibus aurificis aurificum
+76	7276	volubilitas	volubilitate volubilitatem volubilitatis
+77	7277	teutonicus	teutonici teutonico teutonicum
+78	7278	cyaneus	cyanea cyaneae cyaneo cyaneum
+79	7279	catillus	catillis catillo catillos
+80	7280	transvectio	transvectione transvectionem transvectionis
+81	7281	persolvo	persolutum persolvat persolventur persolvere persolvit
+82	7282	inaccessus	inaccessas inaccessi inaccessos inaccessum
+83	7283	adiposus	adiposi adiposo adiposum
+84	7284	cornubicus	cornubica cornubicam cornubice cornubicum
+85	7285	invectio	invectione invectiones invectionibus
+86	7286	algebraicus	algebraica algebraicae algebraicam
+87	7287	subduco	subducere subducit subducitur subduxit
+88	7288	monomachia	monomachiam monomachias
+89	7289	coniecturalis	coniecturale coniecturalem coniecturali
+90	7290	guineensis	guineensem guineenses guineensi
+91	7291	incitatio	incitatione incitationem incitationis
+92	7292	abripio	abreptus abripit abripitur abripuerat abripuit
+93	7293	animosus	animosa animosae animose animosi
+94	7294	vesicula	vesiculae vesiculam vesiculas vesiculis
+95	7295	drachma	drachmam drachmas drachmis
+96	7296	umor	umorem umoris
+97	7297	perrumpo	perrumpendi perrumpit perrumpunt perruperunt perrupissent
+98	7298	fructuosus	fructuosa fructuosam fructuosi fructuoso
+99	7299	sumericus	sumerica sumericae sumerice sumerico sumericum
+100	7300	insinuo	insinuare insinuaret insinuat insinuavit

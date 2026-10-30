@@ -1,0 +1,100 @@
+1	2101	exercitatio	exercitatione exercitationem exercitationes exercitationi exercitationibus exercitationis exercitationum
+2	2102	caterva	catervae catervam catervarum catervas catervis
+3	2103	aeque	aequissime
+4	2104	cacumen	cacumina cacumine cacuminibus cacuminis
+5	2105	contentus	contenta contentae contentam contentas contente contenti contentis contento contentos contentum
+6	2106	domesticus	domesticae domesticam domesticarum domesticas domestici domesticis domestico domesticorum domesticos domesticum
+7	2107	patrius	patriae patriam patrii patriis patrio patrium
+8	2108	erro	erra errabant errabat erramus errans errant errare erraret errasse errat erratis errato erratorum erratu erraverit erraverunt erravi erravisse erravit errem errent erret errones
+9	2109	conduco	conduc conducat conducebantur conducebat conducebatur conducendorum conducendos conducendum conducere conduceret conduci conducit conducitur conductu conducunt conducuntur conduxerat conduxerit conduxerunt conduxisset conduxit
+10	2110	tardus	tarda tarde tardi tardior tardis tardissime tardius tardo
+11	2111	insidiae	insidiarum insidias insidiis
+12	2112	aerarium	aerari aeraria aerarii aerariis aerario
+13	2113	descendo	descendendo descendens descendere descenderem descenderint descenderunt descendet descendi descendisse descendissent descendit descendunt descensu descensum
+14	2114	participo	participabat participabunt participandi participans participant participare participat participaverat participaverunt participavit participem participes
+15	2115	corono	coronabantur coronando coronandum coronantur coronare coronari coronas coronasti coronat coronato coronatum coronatur coronatus coronavisset coronavit
+16	2116	pendeo	pende pendeat pendebant pendebat pendendi pendendum pendens pendent pendere penderent penderet penderi pendet pependerunt pependit
+17	2117	vernaculus	vernacula vernaculae vernaculam vernacularum vernaculas vernacule vernaculi vernaculis vernaculo vernaculos vernaculum
+18	2118	tumultus	tumulti tumultibus tumultu tumultum
+19	2119	carolinus	carolina carolinae carolinam carolinas caroline carolini carolinis carolinorum
+20	2120	postulatio	postulationem postulationes postulationi postulationibus postulationis postulationum
+21	2121	recensio	recensione recensionem recensiones recensioni recensionibus recensionis recensionum
+22	2122	cyclus	cycli cyclis cyclo cyclorum cyclos cyclum
+23	2123	pressio	pressione pressionem pressiones pressioni pressionibus pressionis
+24	2124	rivus	rius rivi rivis rivo rivom rivorum rivos rivum
+25	2125	infelix	infelicem infelices infelici infelicia infelicibus infelicior infelicis infeliciter
+26	2126	saecularis	saeculare saecularem saeculares saeculari saecularia saecularibus saecularium
+27	2127	sedecim	
+28	2128	iacent	
+29	2129	plane	planius
+30	2130	moene	moenis moenum
+31	2131	autumnus	autumni autumno autumnorum autumnum
+32	2132	sigillum	sigilla sigilli sigillis sigillo
+33	2133	progenies	progenie progeniebus progeniei progeniem progenierum
+34	2134	ordinatio	ordinatione ordinationem ordinationes ordinationibus ordinationis
+35	2135	triumphus	triumphi triumphis triumpho triumphorum triumphos triumphum
+36	2136	apostolus	apostoli apostolis apostolo apostolorum apostolos apostolum
+37	2137	migro	migrabant migrabat migrando migrans migrant migrare migraret migrat migratus migraverat migravere migraverunt migravisse migravit
+38	2138	visio	visione visionem visiones visionibus visionis visionum
+39	2139	crus	crura crure cruribus cruris crurum
+40	2140	lusitanus	lusitana lusitanae lusitanam lusitane lusitani lusitanis lusitano lusitanorum lusitanos
+41	2141	subsidium	subsidia subsidii subsidiis subsidio subsidiorum
+42	2142	generatio	generatione generationem generationes generationibus generationis generationum
+43	2143	omitto	omiserat omisit omissum omissus omittat omittatis omittebantur omittebatur omittendo omittendum omittens omittere omitteret omitti omittis omittit omittitur omittunt omittuntur
+44	2144	follis	folle follem folles folli
+45	2145	occupatus	occupata occupatae occupatam occupati occupatis occupatissimus occupato occupatorum occupatos occupatum
+46	2146	deversorium	deversoria deversorii deversoriis deversorio deversoriorum diversorium
+47	2147	tergum	terga tergi tergis tergo
+48	2148	hospitium	hospiti hospitia hospitii hospitio
+49	2149	altare	altar altari altaria altaribus altariis altaris
+50	2150	prodo	prodat prodatur prodenda prodendam prodendas prodendum prodere proderent proderet prodet prodiderant prodiderat prodiderit prodiderunt prodidisse prodidit prodit proditis prodito proditum proditur proditus produnt
+51	2151	bibo	bibam bibat bibe bibendi bibendum bibens biberant biberat bibere biberunt bibi bibit bibite bibitis bibito bibitorem bibitur bibone bibunt
+52	2152	concessus	concessa concessae concessam concessas concessis concesso concessum
+53	2153	concilio	concilia concilianda conciliandae conciliandi conciliandis conciliandos conciliandus conciliare conciliaret conciliaretur conciliari conciliarit conciliat conciliator conciliatore conciliatoris conciliatrix conciliatum conciliaturus conciliaverat conciliaverit conciliavisse conciliavit concilient concilientur
+54	2154	rectum	recti rectis recto rectorum
+55	2155	moneo	mone moneamus monebant monebat monebatur monendum monens monent monentur monere monerentur moneret moneretur monet monete monetis monetur monitu monitum monuerat monuerunt monuit
+56	2156	perpetuo	perpetua perpetuabat perpetuare perpetuas
+57	2157	discrepo	discrepabant discrepabat discrepans discrepant discrepare discrepat discrepaverunt discrepavit discrepent discrepet discrepuisse discrepuit
+58	2158	munio	muni muniantur muniebantur muniendo munire munirent muniret muniri munit munite munitis munito munitum munitur munitus munivit
+59	2159	pariter	parius
+60	2160	curriculum	curricula curriculi curriculis curriculo
+61	2161	effugio	effugerat effugere effugerent effugerunt effugiant effugiebant effugiebat effugiens effugiet effugisse effugit effugiunt
+62	2162	margarita	margaritae margaritam margaritarum margaritas margaritis
+63	2163	perceptio	perceptione perceptionem perceptiones perceptioni perceptionis perceptionum
+64	2164	declaratio	declaratione declarationem declarationes declarationi declarationibus declarationis declarationium
+65	2165	idioma	idiomata idiomate idiomatibus idiomatis idiomatum
+66	2166	abstineo	abstineant abstinebant abstinebat abstinendo abstinens abstinent abstinere abstinerent abstineret abstineri abstinet abstinuere abstinuerunt abstinuit
+67	2167	rebellio	rebellione rebellionem rebelliones rebellionis rebellionum
+68	2168	viator	viatore viatorem viatores viatoribus viatoris viatorum
+69	2169	opprimo	oppressi oppressit oppressum oppressus opprimat opprimebat opprimebatur opprimendam opprimendas opprimendum opprimens opprimere opprimerent opprimerentur opprimeret opprimeretur opprimi opprimit opprimunt opprimuntur
+70	2170	quattuordecim	
+71	2171	varie	
+72	2172	ix	
+73	2173	us	ae
+74	2174	geographia	geographiae geographiam
+75	2175	excepto	excepta
+76	2176	rus	rura rure ruri ruribus ruris rurum
+77	2177	peregrinatio	peregrinatione peregrinationem peregrinationes peregrinationibus peregrinationis peregrinationum
+78	2178	testis	teste testem testes testibus testium
+79	2179	onus	onera onere oneribus oneris onerum
+80	2180	ignoro	ignorabant ignorabantur ignorabat ignorabimus ignorabit ignoramus ignorandum ignorans ignorant ignorare ignorarent ignorasse ignorat ignoratote ignoratur ignoratus ignoraverunt ignoravit ignorent ignoret
+81	2181	loco	locabat locando locandum locant locantur locare locari locasset locatis locatoris locatum locatur locatus locaverunt locavit locentur
+82	2182	plana	planae planam planarum planas planis
+83	2183	pulsus	pulsa pulsi pulsibus pulsis pulsos pulsu pulsum
+84	2184	fungus	fungi fungis fungo fungorum fungum
+85	2185	radiophonicus	radiophonica radiophonicae radiophonicam radiophonicarum radiophonicas radiophonici radiophonicis radiophonico radiophonicos radiophonicum
+86	2186	romanicus	romanica romanicae romanicam romanicarum romanicas romanice romanici romanicis romanico romanicorum romanicum
+87	2187	sectator	sectatore sectatorem sectatores sectatoribus sectatorum
+88	2188	cutis	cute cutem cutes cuti
+89	2189	distinctio	distinctione distinctionem distinctiones distinctionibus
+90	2190	investigator	investigatore investigatorem investigatores investigatoribus investigatoris investigatorum investigatrix
+91	2191	nimius	nimia nimiae nimiam nimias nimie nimiis nimios
+92	2192	repudio	repudiabat repudiandi repudians repudiant repudiare repudiaret repudiaretur repudiari repudiat repudiatis repudiato repudiatum repudiatur repudiaverat repudiaverit repudiaverunt repudiavisse repudiavisset repudiavit repudiemus repudient
+93	2193	lapideus	lapidea lapideae lapideam lapidearum lapidei lapideis lapideo lapideum
+94	2194	positivus	positiva positivam positivarum positivas positive positivi positivis positivo positivorum positivum
+95	2195	calamitas	calamitate calamitatem calamitates calamitatibus calamitatis calamitatum
+96	2196	textilis	textile textilem textiles textili textilia textilibus textilium
+97	2197	oppugno	oppugnabant oppugnabat oppugnabatur oppugnandam oppugnandum oppugnans oppugnant oppugnare oppugnarent oppugnaretur oppugnasset oppugnat oppugnatum oppugnatur oppugnaverit oppugnaverunt oppugnavisse oppugnavissent oppugnavit
+98	2198	incito	incitabant incitabat incitando incitandum incitans incitant incitantur incitare incitarent incitarentur incitas incitasse incitat incitatum incitatur incitatus incitaverit incitaverunt incitavisse incitavit incitentur incitet
+99	2199	priusquam	
+100	2200	vicissim	

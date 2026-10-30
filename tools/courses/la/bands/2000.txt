@@ -1,0 +1,100 @@
+1	1901	acceptum	accepti acceptis accepto acceptorum
+2	1902	legitimus	legitima legitimae legitimam legitimarum legitime legitimi legitimis legitimo legitimos legitimum
+3	1903	facto	factor factore factorem factores factoribus factoris factorum
+4	1904	meritum	merita meriti meritis merito meritorum
+5	1905	poculum	pocula poculi poculis poculo poculorum
+6	1906	dormio	dormiat dormiebant dormiebat dormiendi dormiendo dormiens dormire dormirent dormit dormitu dormitum dormiturus dormiunt dormivisset dormivit
+7	1907	iuvo	iutus iuvabat iuvandas iuvandis iuvando iuvandos iuvandum iuvant iuvantur iuvare iuvaret iuvat iuvatur iuvent iuventur iuverat iuverit iuverunt iuvit
+8	1908	notitia	notitiae notitiam notitiarum notitias notitiis
+9	1909	siccus	sicca siccae siccam siccarum siccas sicci siccis sicco siccorum siccos siccum
+10	1910	atomus	atoma atomarum atomi atomis atomo atomorum atomos atomum
+11	1911	voluntarius	voluntaria voluntariae voluntariam voluntariarum voluntarie voluntarii voluntariis voluntario voluntariorum voluntarios voluntarium
+12	1912	cauda	caudae caudam caudas coda
+13	1913	prorsus	prorsa prorsum prose prosus
+14	1914	paeninsula	paeninsulae paeninsulam peninsula
+15	1915	probatio	probatione probationem probationes probationi probationibus probationis probationum
+16	1916	clericus	clerici clericis clericorum clericos clericum
+17	1917	velocitas	velocitate velocitatem velocitates velocitatibus velocitatis velocitatum
+18	1918	peculiaris	peculiare peculiarem peculiares peculiari peculiaria peculiaribus peculiariter peculiarium
+19	1919	typicus	typica typicae typicam typicas typice typici typicis typicum
+20	1920	custodia	custodiae custodiam custodiarum
+21	1921	congrego	congrega congregabantur congregabat congregandi congregans congregant congregantur congregare congregari congregat congregatis congregato congregatum congregatur congregatus congregaverant congregaverit congregaveritis congregaverunt congregavisse congregavit congregentur
+22	1922	auditus	audita auditam audite auditis audito auditorum auditu auditum
+23	1923	frigidus	frigida frigidae frigidam frigidarum frigidas frigide frigidi frigidior frigidis frigidissimus frigidius frigido frigidorum frigidum
+24	1924	quadratus	quadrata quadratae quadratam quadratas quadrate quadrati quadratis quadrato quadratorum quadratos
+25	1925	complector	complectantur complectatur complectens complecteretur complectetur complecti complectitur complecto complectuntur complexu complexum
+26	1926	mexicanus	mexicana mexicanae mexicanam mexicanas mexicani mexicanis mexicano mexicanorum mexicanos mexicanum
+27	1927	computo	computandi computando computandum computant computantur computare computari computat computatis computator computatoris computatum computatur computatus computavisse computavisset computavit computent computet computetur
+28	1928	subeo	subeat subeunda subeundae subeundos subeunt subi subibant subibat subibit subiebant subiere subierit subierunt subiit subire subiri subit subita subitae subitam subitos subitum subitur subiturus subivit
+29	1929	valetudo	valetudine valetudinem valetudinis valitudo
+30	1930	liberatio	liberatione liberationem liberationi liberationis
+31	1931	turcicus	turcica turcicae turcicam turcicas turcice turcici turcicis turcico turcicorum turcicos turcicum
+32	1932	pecuniarius	pecuniaria pecuniariae pecuniariam pecuniariarum pecuniarias pecuniarie pecuniarii pecuniariis pecuniariorum pecuniarios pecuniarium
+33	1933	prudens	prudentem prudenter prudentes prudenti prudentia prudentiae prudentiam prudentibus prudentior prudentis prudentissime prudentissimus
+34	1934	eiusmodi	
+35	1935	subito	
+36	1936	foramen	foramina foramine foraminibus foraminis foraminum
+37	1937	ferculum	fercula ferculi ferculis ferculo ferculorum fericulum
+38	1938	formatio	formatione formationem formationes formationis
+39	1939	fundamentalis	fundamentale fundamentalem fundamentales fundamentali fundamentalia fundamentalibus fundamentalium
+40	1940	activitas	activitate activitatem activitates activitati activitatibus activitatis activitatum
+41	1941	serpens	serpente serpentem serpentes serpenti serpentibus serpentis serpentium
+42	1942	nodus	nodi nodis nodo nodorum nodos nodum
+43	1943	cedo	cedant cedar cedat cedebant cedebat cedendae cedendum cedere cederent cederentur cederet cedet cedit ceditur cedunt cessere cesserunt cessisse cessissent cessit cessum cette
+44	1944	quicumque	cuiuscumque quacumque quaecumque quamcumque quarumcumque quascumque quemcumque quibuscumque quicunque quodcumque quorumcumque
+45	1945	coniunx	coniuge coniugem coniuges coniugi coniugibus coniugis coniugum coniux
+46	1946	nonus	nonae nonam nonas noni nonis nono nonorum nonum
+47	1947	magnificus	magnifica magnificae magnificam magnificas magnifice magnificentior magnifici magnificis magnifico magnificos magnificum
+48	1948	consentio	consenserunt consensisse consensissent consensit consensu consensum consentias consentiat consentiebat consentiente consentientem consentientibus consentire consentirent consentiret consentit consentitis consentiunt
+49	1949	feriae	feriarum ferias feriis
+50	1950	bello	bella bellabat bellandi bellando bellans bellare bellares bellas bellat bellaverant bellavit belles
+51	1951	conicio	conicere conicerentur coniceret conici coniciebatur coniciendo conicis conicit conicitur coniciunt coniciuntur coniecerant coniecerat coniecerunt coniecit coniectu coniectum
+52	1952	pretiosus	pretiosa pretiosae pretiosam pretiosarum pretiosas pretiosi pretiosior pretiosis pretiosissimus pretiosius pretioso pretiosorum pretiosos pretiosum
+53	1953	communico	communicabant communicabat communicamus communicanda communicandi communicandum communicans communicant communicare communicarent communicaret communicari communicat communicaturus communicatus communicaverit communicent communicentur communicetur
+54	1954	invado	invadebant invadendi invadendo invadens invadere invaderent invaderet invadit invadunt invaserant invaserat invaserint invaserunt invasisse invasissent invasisset invasit invasum invasurus
+55	1955	distribuo	distribuantur distribuat distribuatur distribuebatur distribuendi distribuendum distribuens distribuentur distribuere distribuerent distribui distribuit distribuitur distributum distributus distribuuntur
+56	1956	tiro	tirone tironem tirones tironi tironibus tironis tironum
+57	1957	etc.	
+58	1958	instar	
+59	1959	hinc	
+60	1960	sexus	sexi sexo sexu sexum sexuum sexuus
+61	1961	mediocris	mediocre mediocrem mediocres mediocri mediocria mediocribus mediocriter
+62	1962	detrimentum	detrimenta detrimenti detrimentis detrimento
+63	1963	computatrum	computatra computatri computatris computatro computatrorum
+64	1964	traditionalis	traditionale traditionalem traditionales traditionali traditionalia traditionalibus traditionalium
+65	1965	palus	pales pali palis palos palude paludem paludes paludi paludibus paludis paludum palum
+66	1966	fatum	fata fatae fatam fati fatis fato fatorum
+67	1967	orbita	orbitae orbitam orbitarum orbitas orbitis
+68	1968	flavus	flava flavae flavam flavarum flave flavi flavis flavo flavos flavum
+69	1969	iurisprudentia	iurisprudentiae iurisprudentiam iurisprudentis
+70	1970	peccatum	peccata peccati peccatis peccato peccatorum
+71	1971	turba	turbae turbam turbarum turbas
+72	1972	prodeo	prodeat prodeunt prodibant prodibat prodiens prodierat prodierunt prodiit prodire prodisse prodit proditis prodito proditum proditur
+73	1973	fluxus	fluxi fluxorum fluxu fluxum fluxuum
+74	1974	sinister	sinistrae sinistram sinistrarum sinistras sinistri sinistris sinistro sinistrorum sinistros sinistrum
+75	1975	moderor	moderabantur moderabatur moderandi moderandus moderans moderantur moderarentur moderaretur moderari moderatum moderatur
+76	1976	promoveo	promotum promoturus promoveantur promovear promoveat promovebant promovebantur promovebat promovebatur promovendo promovendum promovent promovere promoverentur promoveret promoveri promoverunt promovet promovetur promovisse promovit
+77	1977	audax	audace audacem audaces audacia audaciae audaciam audacibus audacissimus audaciter audacius audacter
+78	1978	percutio	percusserit percussi percussisse percussit percussum percussus percute percutere percuti percutiat percutiebantur percutiebat percutiebatur percutiet percutit percutitur percutiunt
+79	1979	logicus	logica logicae logicam logicarum logicas logice logicis logico logicum
+80	1980	discerno	discernamus discernantur discernat discernatur discernemus discernens discernere discernerentur discerneres discernetis discerni discernit discernitur discernunt discernuntur discreta discretam discretarum discretis discretos discrevit
+81	1981	exspecto	expecto exspecta exspectabant exspectabat exspectandi exspectandum exspectandus exspectans exspectant exspectantur exspectare exspectat exspectato exspectatum exspectatur exspectatus exspectaverunt exspectavissent exspectavit exspectem exspector
+82	1982	tutela	tutelae tutelam
+83	1983	viridarium	viridaria viridarii viridariis viridario viridariorum
+84	1984	locutor	locutore locutorem locutores locutori locutoribus locutoris locutorum
+85	1985	temporalis	temporale temporalem temporales temporali temporalibus temporalium
+86	1986	denarius	denari denarias denarii denariis denario denariorum denarios denarium
+87	1987	notabilis	notabile notabilem notabiles notabili notabilia notabilibus notabiliter notabilium
+88	1988	negativus	negativa negativae negativam negativas negative negativi negativo negativorum negativos negativum
+89	1989	praeparo	praeparabat praeparanda praeparandam praeparandi praeparandis praeparando praeparandorum praeparandos praeparandum praeparans praeparant praeparare praepararet praeparat praeparatis praeparato praeparatum praeparatur praeparatus praeparaverat praeparaverunt praeparavisse praeparavit
+90	1990	undecim	
+91	1991	utique	
+92	1992	productio	productione productionem productiones productionis productionum
+93	1993	dimensio	dimensione dimensionem dimensiones dimensionibus dimensionis dimensionum
+94	1994	vaticanus	vaticana vaticanae vaticanam vaticanas vaticani vaticanis vaticano vaticanum
+95	1995	angustia	angustiae angustiam angustiarum angustias angustiis
+96	1996	attributus	attributa attributae attributam attributi attributis attributo attributum
+97	1997	humilis	humile humilem humiles humili humilia humilibus humilior humiliter humilium humilius humillimus
+98	1998	custos	custode custodem custodes custodi custodibus custodis custodum
+99	1999	amata	amatae amatam amatas amati amatis amato amatorum amatum amatus
+100	2000	ara	arabus arae aram aras aride aridi aridis aris

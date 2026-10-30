@@ -1,0 +1,100 @@
+1	3701	intereo	intereat intereunt interibit interierit interierunt interiisset interiit interire interisse interit interitis interito interitu interitum interivisse
+2	3702	tueo	tueantur tuebantur tuebatur tuendi tuendo tuendum tuentur tuerentur tueretur tueri tuetur tutu
+3	3703	confugio	confugerant confugerat confugere confugerint confugerunt confugiebant confugiendum confugit confugiunt
+4	3704	incumbo	incumbas incumbebant incumbebat incumbendo incumbens incumbent incumbere incumbit incumbuit incumbunt
+5	3705	operator	operatores operatoribus operatoris operatorum
+6	3706	liquidum	liquida liquidi liquidis liquido
+7	3707	arbiter	arbitri arbitris arbitro arbitros
+8	3708	persicus	persicae persicam persicarum persice persici persicis persico persicorum
+9	3709	hebdomada	hebdomadae hebdomadam hebdomadas hebdomadis
+10	3710	stellaris	stellares stellari stellaria stellaribus
+11	3711	censor	censore censorem censores censori censoribus censoris censorum
+12	3712	mendacium	mendacia mendacii mendaciis mendacio mendaciorum
+13	3713	ferus	ferae feram ferarum feras feri feris ferorum feros ferum
+14	3714	socio	socia sociandum sociant sociantur sociare socias sociat sociatis sociatum sociatur sociaverunt sociavit
+15	3715	indo	indare indedit indes indi indidit indis inditis inditum inditus induntur
+16	3716	struo	struam struant struantur structum structus strue struebantur struendi struere strui struis struuntur struxit
+17	3717	ambio	ambi ambiebatur ambiens ambiit ambire ambiret ambis ambito ambitu ambitum ambitur ambiunt ambivit
+18	3718	colloquor	colloquatur colloquebatur colloquemur colloquendi colloqueretur colloqueris colloqui colloquitur colloquuntur
+19	3719	lavo	lautum lavabantur lavabatur lavabo lavandi lavandum lavare lavat lavate lavatur lavet lavi lotum
+20	3720	appono	apponat apponebantur apponebatur apponere apponi apponit apponitur apponuntur appositum apposuit
+21	3721	cognomino	cognomina cognominabatur cognominantur cognominatum cognominatur cognominatus
+22	3722	deinceps	
+23	3723	quum	
+24	3724	postridie	
+25	3725	delta	
+26	3726	sollerter	
+27	3727	sicilio	siciliam sicilias
+28	3728	casalis	casale casali
+29	3729	vomo	vom vomebant vomerem vomeres vomit vomitu vomunt
+30	3730	scorpio	scorpione scorpiones scorpionibus scorpionis
+31	3731	hierarchia	hierarchiae hierarchiam hierarchias hierarchiis
+32	3732	diaconus	diaconi diaconis diaconissa diaconum
+33	3733	gremium	gremiis gremio
+34	3734	dementia	dementiae dementiam dementiarum dementias
+35	3735	angelicus	angelica angelicae angelicam angelicum
+36	3736	millesimus	millesimi millesimis millesimo millesimos millesimum
+37	3737	inspector	inspectore inspectorem inspectores inspectoris
+38	3738	patens	patente patentem patenti patentia patentibus patentis
+39	3739	functionalis	functionale functionalem functionales functionali functionalia
+40	3740	annona	annonae annonam annonarum annonas
+41	3741	acuo	acuendi acuere acuit acuitur acutum acutus acuunt
+42	3742	scheda	schedae schedam schedas schedis
+43	3743	consistens	consistente consistentem consistentes consistentia consistentis
+44	3744	biographia	biographiae biographiam biographias
+45	3745	aedicula	aediculam aedicularum aediculas aediculis aediculum
+46	3746	vicissitudo	vicissitudinem vicissitudines vicissitudinibus vicissitudinis vicissitudinum
+47	3747	fauces	faucibus faucium
+48	3748	thesis	theses thesi thesim
+49	3749	frontalis	frontale frontalem frontales frontali frontalibus
+50	3750	neograecus	neograeca neograecae neograece neograeco neograecum
+51	3751	adoptio	adoptione adoptionem adoptioni adoptionibus adoptionis
+52	3752	possibilitas	possibilitate possibilitatem possibilitates possibilitatis
+53	3753	explanatio	explanatione explanationem explanationes explanationibus explanationis explanationum
+54	3754	autochthon	autochthonem autochthones autochthonibus autochthonum
+55	3755	moralitas	moralitate moralitatem moralitati moralitatis
+56	3756	odi	oderam oderant oderat odere oderunt odisset odisti odit
+57	3757	extraordinarius	extraordinaria extraordinariam extraordinariarum extraordinarias extraordinarii extraordinariis extraordinario extraordinarium
+58	3758	vocabularium	vocabularii vocabulario vocabulariorum
+59	3759	unicornis	unicorne unicornem unicornes unicornium
+60	3760	alcohol	alcohole alcoholi alcoholibus alcoholis
+61	3761	vertex	vertice verticem vertices verticibus verticum
+62	3762	theatralis	theatrale theatralem theatrales theatrali theatralibus
+63	3763	dedicatio	dedicatione dedicationem dedicationes dedicationis
+64	3764	xystus	xysti xystis xysto xystorum xystum
+65	3765	emolumentum	emolumenta emolumenti emolumentis emolumento emolumentorum
+66	3766	remus	remi remis remo remorum remum
+67	3767	sepultura	sepulturae sepulturam sepulturarum sepulturas sepulturis
+68	3768	clamor	clamore clamorem clamores clamoribus
+69	3769	zoologicus	zoologica zoologicae zoologicas zoologici zoologicis zoologico zoologicum
+70	3770	pigmentum	pigmenta pigmenti pigmentis pigmento pigmentorum
+71	3771	vicinitas	vicinitate vicinitatem vicinitatibus vicinitatum
+72	3772	demonstratio	demonstratione demonstrationem demonstrationes demonstrationi demonstrationibus demonstrationum
+73	3773	augesco	augescant augescebant augescens augescere augescerent augescet augescit augescunt
+74	3774	copticus	coptica copticae copticarum coptice coptico copticos copticum
+75	3775	orbitalis	orbitalem orbitales orbitali orbitalia orbitalibus
+76	3776	hibernicus	hibernica hibernicae hibernicam hibernici hibernicis hibernicorum hibernicum
+77	3777	particularis	particulare particulares particulari particularia
+78	3778	mutus	muta mutae mutarum mutas mute muti mutis mutorum
+79	3779	tentorium	tentoria tentorii tentoriis tentorio tentoriorum
+80	3780	pratum	prata prati pratis prato pratorum
+81	3781	invictus	invicta invictae invictam invicti invictis invictissimus invictos invictum
+82	3782	scriptio	scriptione scriptionem scriptiones scriptioni scriptionis
+83	3783	medicinalis	medicinale medicinalem medicinales medicinali medicinalia medicinalibus medicinalium
+84	3784	generosus	generosa generosam generosas generose generosi generosis generosius generosum
+85	3785	administratorius	administratoria administratoriae administratoriam administratorias administratoriis administratorio administratorium
+86	3786	accessio	accessione accessionem accessiones accessionibus accessionis
+87	3787	eurus	euro eurone eurones euronis euronum euros eurum
+88	3788	scoticus	scotica scoticae scoticam scoticas scotice scotici scoticis scotico scoticum
+89	3789	mentalis	mentalem mentales mentali mentalia mentalibus mentalium
+90	3790	invasio	invasione invasionem invasiones invasionibus invasionis invasionum
+91	3791	libertus	liberta libertad liberti libertis libertorum libertos libertum
+92	3792	caminus	caminas camini camino caminorum caminos caminum
+93	3793	funebris	funebre funebrem funebres funebri funebria funebribus
+94	3794	opticus	optica opticae opticam opticas optici opticis opticorum opticum
+95	3795	aemulus	aemula aemulam aemulavit aemuli aemulis aemulo aemulorum aemulos aemulum
+96	3796	atropatenicus	atropatenica atropatenicae atropatenice atropatenici atropatenico atropatenicos atropatenicum
+97	3797	manipulus	manipuli manipulis manipulo manipulorum manipulos manipulum
+98	3798	symbolicus	symbolica symbolicae symbolicam symbolicas symbolice symbolici symbolico symbolicos symbolicum
+99	3799	clandestinus	clandestina clandestinae clandestine clandestini clandestinis clandestino clandestinorum clandestinos clandestinum
+100	3800	impugno	impugnabant impugnabantur impugnabat impugnans impugnant impugnarat impugnare impugnarent impugnaret impugnat impugnatur impugnavit

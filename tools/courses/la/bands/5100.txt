@@ -1,0 +1,100 @@
+1	5001	feudum	feudi feudorum
+2	5002	agnitio	agnitione agnitionem agnitionis
+3	5003	conrado	conradi
+4	5004	patella	patellae patellam
+5	5005	cero	ceratus cereris ceres
+6	5006	efficientia	efficientiae efficientiam
+7	5007	proditor	proditorem proditores
+8	5008	cervesa	cerevisia cervesia cervisia
+9	5009	aestheticus	aesthetica aestheticam aesthetice aestheticis
+10	5010	acclamo	acclamatum acclamatur acclamatus acclamaverunt
+11	5011	commoror	commorans commorari commoratur commoratus
+12	5012	abolitio	abolitione abolitionem abolitioni
+13	5013	uncia	unciae unciarum uncias
+14	5014	spissitudo	spissitudine spissitudinem
+15	5015	purpura	purpurae purpuram
+16	5016	pisum	pisa pisi pisis
+17	5017	invitatio	invitatione invitationem invitationes
+18	5018	tiara	tiarae tiaram tiararum
+19	5019	contributio	contributione contributionem contributiones
+20	5020	entheus	enthei entheo entheos entheum
+21	5021	faba	fabae fabis
+22	5022	lacinia	laciniae laciniam lacinium
+23	5023	rhythmicus	rhythmica rhythmicae rhythmicam rhythmicum
+24	5024	mancus	manca mancis mancorum mancos
+25	5025	participatio	participatione participationem participationis
+26	5026	adortus	adortae adortam adorti
+27	5027	consecratio	consecratione consecrationem consecrationes
+28	5028	motrum	motri motro motrorum
+29	5029	quinus	quinas quine quini quinis quinos
+30	5030	neglegentia	neglegentiae neglegentiam
+31	5031	raeda	raedae raedam raedas raedis
+32	5032	cista	cistae cistam cistas cistis
+33	5033	hoplites	hoplitae hoplitarum hoplitas
+34	5034	elephantus	elephante elephanti elephantis elephanto elephantorum elephantos
+35	5035	integralis	integrale integrali integralia integralium
+36	5036	revelatio	revelatione revelationem revelationis revelationum
+37	5037	conventiculum	conventicula conventiculis conventiculo
+38	5038	polleo	pollebant pollebat pollere pollet
+39	5039	neutralitas	neutralitate neutralitatem neutralitatis
+40	5040	piscina	piscinae piscinam piscinas piscinis
+41	5041	reticulum	reticuli reticulis reticulo reticulorum
+42	5042	vitricus	vitrici vitrico vitricum
+43	5043	hydra	hydrae hydram hydri hydro hydrus
+44	5044	roseus	rosea roseae roseas roseo
+45	5045	mercenarius	mercenarii mercenariorum mercenarios mercennarius
+46	5046	mendicus	mendici mendicis mendicorum mendicos mendicum
+47	5047	lipsiensis	lipsiensem lipsiensi
+48	5048	venerabilis	venerabilem venerabili
+49	5049	commigro	commigrant commigraverat commigraverunt commigravit
+50	5050	mutuor	mutuabatur mutuari mutuatum mutuatur
+51	5051	pulpitum	pulpita pulpiti pulpitis pulpito
+52	5052	demarchus	demarchi demarcho demarchum
+53	5053	pullulo	pullulant pullulare pullularent pullulat
+54	5054	citharista	citharistae citharistam citharistis
+55	5055	abdicatio	abdicatione abdicationem abdicationi
+56	5056	eccentricitas	eccentricitate eccentricitatem eccentricitatis
+57	5057	fluctuatio	fluctuatione fluctuationem fluctuationes
+58	5058	consentaneus	consentanea consentaneae consentanei consentaneos consentaneum
+59	5059	contumax	contumaces contumacia contumaciam contumacis contumaciter
+60	5060	admirator	admiratorem admiratores admiratoribus admiratorum
+61	5061	paradigma	paradigmata paradigmate paradigmati paradigmatum
+62	5062	requies	requie requiei requiem requietem
+63	5063	frux	fruges frugibus frugis frugum
+64	5064	numeratio	numeratione numerationem numerationis
+65	5065	nidus	nido nidos nidum
+66	5066	periclitor	periclitabatur periclitans periclitaretur periclitatur periclitatus
+67	5067	celsus	celsa celsi celso celsum
+68	5068	relego	relegare relegatus relegavit relegi relegit
+69	5069	thermopolium	thermopolia thermopolii thermopoliis thermopoliorum
+70	5070	nixus	nixa nixi nixis
+71	5071	luctator	luctatore luctatores luctatori luctatorium
+72	5072	dualis	dualem duales duali dualium
+73	5073	iteratio	iteratione iterationes iterationibus iterationis
+74	5074	circumvenio	circumveniendos circumveniretur circumvenit circumventus
+75	5075	cancellus	cancelli cancellis cancellorum cancellos cancellum
+76	5076	coronatio	coronatione coronationem coronationibus coronationis
+77	5077	laophorium	laophoria laophoriis laophoriorum
+78	5078	maenianum	maeniana maenianis maeniano maenianorum
+79	5079	scholium	scholia scholiis scholio
+80	5080	imperitus	imperitae imperiti imperitis imperitum
+81	5081	immaturus	immatura immaturam immature immaturo immaturos immaturum
+82	5082	argumentor	argumentandi argumentando argumentantur argumentari argumentatur argumentatus
+83	5083	accuro	accurans accurantur accuratis accurato accuratum accuratus
+84	5084	responsio	responsione responsionem responsiones responsionis responsionum
+85	5085	pinguis	pinguem pingues pingui pinguibus
+86	5086	pluviosus	pluviosa pluviosis pluvioso pluviosum
+87	5087	immobilis	immobile immobiles immobilia immobilibus
+88	5088	fiducia	fiduciae fiduciam fiducium
+89	5089	ansa	ansae ansam ansas ansis
+90	5090	allium	alli allia allii allio alliorum
+91	5091	paeniteo	paenitebat paenitendis paenitet paenituisse paenituit
+92	5092	archidux	archiducem archiduces archiduci archiducis
+93	5093	sabbatum	sabbati sabbatis sabbato sabbatorum
+94	5094	saucio	sauciabantur sauciat sauciatis sauciato sauciatur sauciatus sauciaverunt sauciavit
+95	5095	imperativus	imperativa imperativam imperativis imperativo imperativum
+96	5096	clerus	cleri clero clerorum
+97	5097	adverto	advertebat advertere adverterent adverterunt advertit
+98	5098	imaginarius	imaginaria imaginariae imaginariam imaginariis imaginario
+99	5099	oecumenicus	oecumenica oecumenici oecumenicis oecumenico oecumenicum
+100	5100	sestertius	sestertii sestertiis sestertiorum sestertios sestertium

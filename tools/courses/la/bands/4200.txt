@@ -1,0 +1,100 @@
+1	4101	consulto	consulta consultandi consultandum consultans consultant consultare consultarent consultatum consultavit consultor consultoris consultorum
+2	4102	nasum	nasa nasi naso
+3	4103	profundum	profunda profundis profundorum
+4	4104	aquarium	aquari aquaria aquarii aquariis aquario aquariorum
+5	4105	indigenus	indigenae indigenam indigenarum indigenas indigeni indigenis indigenos indigenum
+6	4106	claro	clara clarabat clarant claras claraverunt clarere claret
+7	4107	gener	generi generis genero generorum generum
+8	4108	praeteritus	praeterita praeteritae praeteritam praeteritarum praeteritas praeteriti praeteritis praeterito praeteritorum
+9	4109	intervenio	intervenerunt interveniebat interveniendi intervenire intervenirent intervenisset intervenit interveniunt interventu interventum
+10	4110	pecco	peccant peccare peccarent peccarentur peccari peccat peccatis peccato peccatus peccaverit peccavisset peccavit
+11	4111	patro	patrabit patrandum patrare patratis patratum patratus patravisse patravit patrem patret
+12	4112	haereo	haereat haerebat haerent haerere haeres haeret haeserunt haesisse haesit
+13	4113	praestantia	praestantiae praestantiam
+14	4114	eloquentia	eloquentiae eloquentiam
+15	4115	sacerdotalis	sacerdotale sacerdotalem sacerdotali
+16	4116	gratis	
+17	4117	aliquantulum	
+18	4118	circumcirca	
+19	4119	quolibet	
+20	4120	apparere	
+21	4121	sollemniter	
+22	4122	mutua	
+23	4123	secus	
+24	4124	potissimum	
+25	4125	strenue	strenuissime
+26	4126	subgenus	subgenera
+27	4127	puritas	puritate puritatem
+28	4128	alucinatio	halucinatio halucinationes
+29	4129	graphicus	graphica graphicam graphici graphicorum
+30	4130	protector	protectorem protectores protectorium protectrix
+31	4131	resistentia	resistentiae resistentiam
+32	4132	placitum	placita placiti placitis placitorum
+33	4133	calliditas	calliditate calliditatem calliditates
+34	4134	consumptio	consumptione consumptionem consumptionis
+35	4135	immortalitas	immortalitate immortalitatem immortalitati immortalitatis
+36	4136	paenitentia	paenitentiae paenitentiam poenitentia
+37	4137	ligamentum	ligamenta ligamenti ligamentis ligamento ligamentorum
+38	4138	proditio	proditione proditionem proditionis
+39	4139	invisibilis	invisibile invisibilem invisibiles invisibili invisibilium
+40	4140	expansio	expansione expansionem expansionis
+41	4141	approbatio	approbatione approbationem approbationi
+42	4142	eroticus	erotica eroticae eroticarum eroticas erotici eroticis
+43	4143	adulterium	adulteria adulterii adulteriis adulterio
+44	4144	radiatio	radiatione radiationem radiationis
+45	4145	torrens	torrente torrentem torrentes torrenti torrentis
+46	4146	ratiocinatio	ratiocinatione ratiocinationem ratiocinationi ratiocinationis ratiocinationum
+47	4147	atrox	atroce atrocem atroces atroci atrocia atrocibus
+48	4148	dollarium	dollaria dollarii dollariis dollariorum
+49	4149	uniformis	uniforme uniformem uniformi uniformia uniformiter
+50	4150	dubitatio	dubitatione dubitationem dubitationes dubitationibus dubitationis
+51	4151	antrum	antra antri antris antro
+52	4152	malleus	mallei malleis malleo malleum
+53	4153	synodus	synodi synodo synodorum synodos synodum
+54	4154	primigenius	primigenia primigeniae primigeniam primigeniis primigenio primigenios primigenium
+55	4155	cippus	cippi cippis cippo cipporum cippos
+56	4156	expugnatio	expugnatione expugnationem expugnationis expugnationum
+57	4157	confirmatio	confirmatione confirmationem confirmationes confirmationi confirmationibus confirmationis
+58	4158	serra	serrae serram
+59	4159	pestilentia	pestilentiae pestilentiam pestilentias pestilentiis
+60	4160	fractura	fracturae fracturam fracturarum fracturas
+61	4161	podium	podia podii podio podiorum
+62	4162	clipeus	clipei clipeorum clipeos clipeum clypeorum clypeus
+63	4163	quercus	quercibus querco quercu quercuum
+64	4164	consortium	consortii consortio consortioni consortionis consortionum
+65	4165	inverto	inversum inversus invertebant invertere inverti invertit
+66	4166	salutatio	salutatione salutationem salutationes salutationis salutationum
+67	4167	existimatio	existimatione existimationem existimationes existimationi existumatio
+68	4168	cerebralis	cerebrale cerebralem cerebrales cerebrali cerebralia cerebralibus
+69	4169	consecutio	consecutione consecutionem consecutiones consecutionibus consecutionum
+70	4170	displiceo	displiceam displicebant displicebat displicent displicere displicet displicuerat displicuit
+71	4171	annexus	annexa annexis annexo annexorum annexu annexum
+72	4172	promotio	promotione promotionem promotiones promotionis
+73	4173	proveho	provectum provectus provehantur provehere proveherent provehit
+74	4174	dogma	dogmata dogmati dogmatibus dogmatis dogmatum
+75	4175	inflammatio	inflammatione inflammationem inflammationes inflammationibus inflammationis
+76	4176	sphaera	sphaerae sphaeram sphaerarum sphaeras sphaeris
+77	4177	facetia	facetiae facetiarum facetias facetiis facetium
+78	4178	partitio	partitione partitionem partitiones partitionibus partitionis
+79	4179	locativus	locativa locativam locativas locativi locativo locativum
+80	4180	anus	ani ano anos anui anum
+81	4181	dominicanus	dominicana dominicanae dominicanam dominicani dominicanis dominicano dominicanorum dominicanos
+82	4182	everto	eversum eversus evertebant evertendi evertendum evertere everterentur everterunt everti evertisse evertit
+83	4183	angulo	angula angulare angularem angulares angularibus angularis
+84	4184	pacifico	pacifica pacificas pacificatis pacificavit
+85	4185	agnus	agni agnis agnorum agnos agnum
+86	4186	rivulus	rivuli rivulis rivulo rivulorum rivulum
+87	4187	propero	properans properant properare properaret properat properator properavisse properavit
+88	4188	precor	precabatur precandi precando precandum precantur precari precatum precatur
+89	4189	collaboro	collaborabant collaborabat collaborabunt collaborant collaborare collaboraret collaboraverunt collaboravit
+90	4190	sculpo	sculpendi sculpi sculpit sculpitur sculpserat sculpsit sculptum sculptus
+91	4191	samoanus	samoana samoanae samoane samoani samoanis samoano samoanorum samoanum
+92	4192	devinco	devicere devicerit devicerunt devicit devictum devictus devincendi devincere devincerent
+93	4193	incuso	incusa incusabant incusarunt incusat incusatum incusatus incusaverunt incusavit incuset
+94	4194	neutralis	neutrale neutralem neutrales neutrali neutralia neutralibus neutralium
+95	4195	onerarius	oneraria onerariae onerariam onerariarum onerarias onerarii onerariis onerariorum onerarios onerarium
+96	4196	fallax	fallacem fallaces fallaci fallacia fallaciam fallacias fallacibus fallaciis fallaciter
+97	4197	obtempero	obtemperandum obtemperandus obtemperans obtemperant obtemperare obtemperaret obtemperaretur obtemperat obtemperaturus obtemperavit
+98	4198	retraho	retractum retrahere retraheret retrahi retrahis retrahit retrahitur retrahunt retraxerunt retraxit
+99	4199	spolio	spolia spoliabant spoliabantur spoliandus spoliare spoliarent spoliarentur spolias spoliat spoliatoribus spoliatum spoliatur spoliatus spoliaverunt
+100	4200	depello	depellatur depellere depelleretur depellit depelluntur depulerat depulit depulsum depulsus

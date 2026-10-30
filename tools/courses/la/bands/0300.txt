@@ -1,0 +1,100 @@
+1	201	aqua	aquae aquam aquarum aquas aque aquis
+2	202	multum	plurima plurimi plurimis plurimo plurimorum plurimum
+3	203	pono	ponamus ponantur ponatur ponebant ponebantur ponebat ponendum ponens ponent ponere ponerentur poneret ponet poni ponimus ponit ponitur ponunt ponuntur posimus posit posita positae positam positas positi positis posito positos positum positus posivit posuerant posuerat posuerit posuerunt posui posuisse posuissent posuit
+4	204	studium	studi studia studii studiis studio studiorum
+5	205	modus	modi modis modorum modos modum
+6	206	plerumque	pleraque plerique plerisque pleroque plerorumque plerosque
+7	207	ludus	ludi ludis ludo ludorum ludos ludum
+8	208	vivo	victu victum victurus vivam vivamus vivant vivas vivat vivatis vive vivebant vivebantur vivebat vivendi vivendo vivendum vivens vivent viverent viveret vivet vivi vivimus vivis vivit vivunt vixerant vixerat vixerit vixerunt vixisse vixissem vixisset vixit
+9	209	adhuc	adhoc
+10	210	mille	mili milia milibus milii miliis milio miliorum milium millia millibus millium
+11	211	minor	minabantur minando minans minantur minarentur minari minatum minatur minaturus minatus minentur minetur minora minore minorem minores minori minoribus minoris minorum
+12	212	tabula	tabulae tabulam tabularum tabulas tabulis
+13	213	parvus	minimus parva parvae parvam parvarum parvas parve parvi parviora parviores parvioribus parvis parvius parvo parvorum parvos parvum
+14	214	secundus	secunda secundae secundam secundarum secundas secunde secundi secundis secundorum secundos
+15	215	bene	melius optime
+16	216	eodem	
+17	217	bonus	bona bonae bonam bonarum bonas bone boni bonis bono bonorum bonos bonum melior optimus
+18	218	maxime	maximi
+19	219	praeterea	preterea
+20	220	soleo	soleant soleat solebant solebantur solebat solebatur solemus solens solent solere solerent soleret solet solitus
+21	221	iterum	
+22	222	munus	munera munere muneri muneribus muneris munerum
+23	223	solus	sola solae solam solas sole soli solis solius solo solorum solos
+24	224	olim	
+25	225	persona	personae personam personarum personas personis
+26	226	proprius	propria propriae propriam propriarum proprias proprii propriis proprio propriorum proprios proprium
+27	227	frater	fratre fratrem fratres fratri fratribus fratris fratrum
+28	228	consto	constabant constabat constabit constandum constant constare constaret constat constent constet constetur constiterit constiterunt constitisse constitit
+29	229	quando	
+30	230	adhibeo	adhibeant adhibeantur adhibeat adhibeatur adhibebant adhibebantur adhibebat adhibebatur adhibebitur adhibebo adhibemus adhibenda adhibendae adhibendam adhibendas adhibendis adhibendo adhibendos adhibendum adhibens adhibent adhibentur adhibere adhiberent adhiberentur adhiberetur adhiberi adhibet adhibetur adhibitum adhibitus adhibuerat adhibuerunt adhibuisse adhibuit
+31	231	systema	systemata systemate systematem systemati systematibus systematis systematum
+32	232	vulgo	vulgabant vulgabat vulgabatur vulgans vulgant vulgare vulgarem vulgares vulgaret vulgaretur vulgari vulgaria vulgaribus vulgaris vulgariter vulgarium vulgarius vulgarum vulgasse vulgat vulgata vulgatae vulgatam vulgatarum vulgato vulgatum vulgatur vulgatus vulgavere vulgavisse vulgavisset vulgavit vulges
+33	233	copia	copiae copiam copiarum copias copiis
+34	234	sedes	sede sedem sedi sedibus sedis sedium sedum
+35	235	capio	cap cape capere caperent caperet caperetur capi capiant capiat capiebant capiebantur capiebat capienda capiendam capiendarum capiendas capiendi capiendis capiendo capiendorum capiendos capiendum capiens capietur capit capitur capiunt capiuntur capturus ceperant ceperat cepere ceperis ceperit ceperunt cepi cepimus cepisse cepit
+36	236	dominus	domina dominabant dominae dominam dominarum domine dominent domines domini dominis domino dominorum dominos dominum
+37	237	nescio	nesciam nesciant nesciat nesciatur nesciebam nesciebant nesciebat nesciens nesciet nescii nescimus nescire nescirent nesciret nescis nescit nescitis nescitur nesciunt nesciuntur nesciverunt nescivit
+38	238	momentum	momenta momenti momentis momento momentorum
+39	239	animus	anime animi animis animo animorum animos animum
+40	240	musica	musicae musicam musicarum musicas musicis
+41	241	manus	mana manae manam manas mane mani manibus mano manora manos manu manui manum manuum
+42	242	ergo	
+43	243	venio	venerant venerat venere venerint veneris venerit venerunt veni veniam veniamus veniant venias veniat veniebant veniebat veniebatis veniendo veniens venient venies veniet venimus venire venirent veniret venisse venissemus venissent venisset venit venite veniunt ventum
+44	244	fero	fer ferant ferantur ferat feratur ferebant ferebantur ferebat ferebatur ferenda ferendae ferendam ferendarum ferendas ferendi ferendo ferendum ferens ferent feret ferre ferrem ferrent ferrer ferret ferri ferrier fert fertur ferunt feruntur latum tulerat tulerit tulerunt tuli tulisse tulistis tulit
+45	245	versus	versa versae versam versarum versas verse versi versibus versis verso versorum versos versu versui versum versuum
+46	246	exercitus	exerciti exercitibus exercitos exercitu exercitui exercitum exercituum
+47	247	superior	superiora superiore superiorem superiores superiori superioribus superioris superiorum superius suprema supremae supremam supreme supremi supremis supremo supremos supremum supremus
+48	248	gratia	gratiae gratiam gratiarum gratias gratiis
+49	249	gens	gente gentem gentes genti gentibus gentis gentium gentum
+50	250	augustus	aug augusta augustae augustam augustas auguste augusti augustis augusto augustorum augustum
+51	251	edo	edantur edat edatur edebant edebantur edebat edebatur edenda edendas edendi edendis edendo edendorum edendos edendum edens edentur ederat edere ederent ederentur ederet ederetur edet edi ediderat ediderunt edidisse edidisset edidit edisset edisti edit editur editurus edunt eduntur essent esu
+52	252	iste	ista istae istam istarum istas isti istis istius isto istorum istos istud istum
+53	253	debeo	debeamus debeant debeas debeat debebant debebat debebatur debebimus debebit debebunt debemus debent debentur debere deberent deberet deberi debes debet debetis debetur debuerant debuerat debuere debuerint debuerit debuerunt debui debuisse debuisset debuit
+54	254	fons	fonte fontem fontes fonti fontibus fontis fontium
+55	255	motus	mota motae motas moti motibus motis moto motorum motos motu motui motum motuum motuus
+56	256	ludo	lud ludamus ludant ludat ludatur ludebant ludebantur ludebat ludendi ludendo ludendum ludendus ludens ludent ludere luderent luderet ludet ludi ludis ludit luditur ludunt luduntur lusa luse luserat luserunt lusi lusibus lusisset lusit luso lusorum lusos lusu lusui lusum lusus lusuum
+57	257	scriptor	scriptore scriptorem scriptores scriptori scriptoribus scriptoris scriptorum scriptrice scriptricem scriptricis scriptrix
+58	258	gradus	gradibus gradu gradui gradum graduum graduus
+59	259	mater	matercula materculam matre matrem matres matri matribus matris matrium matrum
+60	260	latine	
+61	261	magister	magistra magistrae magistram magistri magistris magistro magistrorum magistros magistrum
+62	262	fortasse	
+63	263	notus	notae notam notarum notas note noti notior notis notissimus noto notorum notos notum
+64	264	politicus	politica politicae politicam politicarum politicas politice politici politicis politico politicorum politicos politicum
+65	265	hodiernus	hodierna hodiernae hodiernam hodiernarum hodiernas hodierne hodierni hodiernis hodierno hodiernorum hodiernos hodiernum
+66	266	navis	nave navem naves navi navibus navicula naviculam naviculum navium
+67	267	natio	natione nationem nationes nationi nationibus nationis nationum
+68	268	doceo	doceant doceat doceatur docebant docebantur docebat docebatur docebo docebunt docemur docenda docendam docendas docendi docendis docendo docendorum docendos docendum docens docent docentur docere docerent docerentur doceret doceri docet docete docetur doctum doctus docuerant docuerat docuerint docuerunt docuisse docuisset docuit
+69	269	origo	origine originem origines origini originibus originis originum
+70	270	nationalis	nationale nationalem nationales nationali nationalia nationalibus nationalium
+71	271	tunc	
+72	272	mox	
+73	273	maneo	maneam maneant maneas maneat manebant manebat manebimus manebit manebo manebunt manendi manendos manendum manens manent manere manerent maneret manet manserant manserat mansere manserit manserunt mansi mansisse mansissent mansisset mansit mansurus
+74	274	eligo	electu electum electus elegerat elegere elegerit elegerunt elegisse elegisset elegit eligant eligantur eligat eligatis eligatur elige eligebant eligebantur eligebat eligebatur eligendi eligendo eligendum eligendus eligens eligere eligerent eligerentur eligeret eligeretur eliget eligi eligimus eligit eligitur eligunt eliguntur
+75	275	series	serie seriebus seriei seriem serierum
+76	276	senator	senatore senatorem senatores senatori senatoribus senatoris senatorum senatricis senatrix
+77	277	talis	tale talem tales tali talia talibus taliter talium
+78	278	credo	credamus credant credas credat crede credebant credebantur credebat credebatur credenda credendum credens credent credere crederent crederes crederet credetur credi crediderant crediderit crediderunt credidisse credidisti credidit credimus credis credit credita crediti credito creditor creditores creditori creditum creditur creditus credunt creduntur
+79	279	neque	
+80	280	ultimus	ultima ultimae ultimam ultimarum ultimas ultime ultimi ultimis ultimo ultimorum ultimos ultimum
+81	281	historicus	historica historicae historicam historicarum historicas historice historici historicis historicissime historico historicorum historicos historicum
+82	282	scientia	scientiae scientiam scientiarum scientias scientiis
+83	283	status	stata statam state stati statibus statis stato statu statui statum statuum
+84	284	initium	initi initia initii initiis initio
+85	285	reperio	reperi reperiantur reperiat reperiatur reperiebat reperiebatur reperiendi reperiendum reperies reperimus reperire reperiretur reperiri reperis reperit reperitur reperiunt reperiuntur repertu repertum repertus reppereram reppererant reppererat reppereris reppererunt repperi repperimus repperisse repperisset repperit
+86	286	natura	naturae naturam naturarum naturas naturis
+87	287	quinque	cinque
+88	288	dum	
+89	289	ne	nei
+90	290	signum	signa signe signi signis signo signorum
+91	291	nota	notae notam notarum notas notis
+92	292	verus	vera verae veram veras veri verior veris verorum veros
+93	293	coepi	coeperant coeperat coepere coeperint coeperit coeperunt coepisse coepissent coepisset coepisti coepit
+94	294	valde	valdissime
+95	295	officium	offici officia officii officiis officio officiorum
+96	296	longus	longa longae longam longarum longas longi longior longis longissime longissimus longius longo longorum longos longum
+97	297	nisi	
+98	298	haud	au
+99	299	condo	condat conde condebant condebantur condebat condebatur condendi condendo condendum condens condere conderent conderet conderetur condes condi condiderant condiderat condiderunt condidisse condidisset condidit condit conditis condito conditum conditur conditus condor condunt conduntur
+100	300	muto	muta mutabant mutabantur mutabat mutabatur mutandi mutando mutandum mutans mutant mutantur mutare mutarent mutarentur mutaret mutaretur mutari mutas mutasse mutassent mutat mutatis mutato mutatu mutatum mutatur mutaturus mutatus mutaverit mutaverunt mutavisse mutavit mutent mutet mutetur

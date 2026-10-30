@@ -1,0 +1,100 @@
+1	8901	compar	comparem compares comparibus
+2	8902	exsequiae	exsequiis
+3	8903	sudarium	sudaria sudario
+4	8904	interventus	interventu interventum
+5	8905	castanea	castaneam castaneis
+6	8906	caldaria	caldariis calidaria
+7	8907	poculo	pocula
+8	8908	valido	valida validare valides
+9	8909	scopo	scopa scopi scopis scopula
+10	8910	cautus	cauti
+11	8911	accensi	accensis
+12	8912	alus	ale ali alis
+13	8913	caducus	caducae caducas caducis
+14	8914	demonstrativus	demonstrativae demonstrativam demonstrativo demonstrativorum
+15	8915	pensus	pensae pense pensi penso
+16	8916	misereo	misereatur miserebatur misereberis misereris miseretur miseritus misertus
+17	8917	misereor	misereatur miserebatur misereberis misereris miseretur miseritus misertus
+18	8918	coniuratus	coniuratis coniuratos
+19	8919	satrapes	satrapi satrapis
+20	8920	hama	ama amas hamae hamam hamis
+21	8921	tuor	tuore tuoris tuorum
+22	8922	procerus	procera procerior proceris procero procerum
+23	8923	detexo	detexit
+24	8924	praeexigo	exactum
+25	8925	ardesco	arsisse arsit
+26	8926	remex	remige remigem remiges
+27	8927	consolor	consolari consolatur consolatus consolentur
+28	8928	deliro	delirant deliras
+29	8929	nubilo	nubila nubilare nubilaris
+30	8930	harpe	harpae harpen
+31	8931	taedeo	taedebat taederet taeduit
+32	8932	torquis	torque torques torquibus
+33	8933	coercendus	coercendis coercendos coercendum
+34	8934	lubricus	lubricae lubricam lubricas lubricum
+35	8935	ile	ileum ili ilis ilium
+36	8936	sentus	sentam sentibus sento
+37	8937	calumnior	calumniat calumniatores calumniatur calumniatus
+38	8938	sator	satores satori satorum
+39	8939	navus	nava nave navi
+40	8940	fontanus	fontanae fontane fontanis
+41	8941	luno	lunare lunarem lunares lunari lunas lunato
+42	8942	mendum	mendi mendis mendorum
+43	8943	vetula	vetulae vetulis
+44	8944	iurisprudens	iurisprudentes iurisprudentis
+45	8945	demonstrativum	demonstrativo demonstrativorum
+46	8946	quadragesima	quadragesimae
+47	8947	caducum	caducis
+48	8948	corrigendum	corrigendi
+49	8949	frigor	frigore frigorem frigori
+50	8950	cautes	cauti cautibus
+51	8951	veru	veribus
+52	8952	dominator	dominatores dominatorum
+53	8953	aspero	aspera asperas
+54	8954	arto	arcto arta artem artes
+55	8955	condus	conde condi
+56	8956	amento	amenta amentem
+57	8957	lecto	lecta
+58	8958	figlinus	figlinae figlinam figlinas
+59	8959	nescius	nescia nesciam nescii nescium
+60	8960	lens	lentis
+61	8961	institutor	institutorem institutores institutorum
+62	8962	cognitor	cognitores cognitoribus cognitorum
+63	8963	capital	capitali capitalia capitalium
+64	8964	usitor	usita usitabat usitatum usitatur
+65	8965	assevero	asseverabat asseverant asseverantur asseverat asseveravit
+66	8966	rudo	rude rudentis rudentum rudere ruderes ruderis rudi
+67	8967	voveo	vota votantur votis voto votorum votuerunt votuit vovendi vovit
+68	8968	medicinus	medicinae medicinam medicinarum medicinas medicine medicinis
+69	8969	sericus	sericae sericam sericarum sericas serici sericis serico sericorum sericos
+70	8970	lustro	lustra lustrare lustratus lustravit
+71	8971	collino	collin collinam collineret collinis
+72	8972	hio	hiat hiatu hiatum hier
+73	8973	vecto	vecta vectaretur vectatus vectem vectes
+74	8974	necto	nectant nectare nectaris nectat nectere nexi nexu
+75	8975	valetudinarius	valetudinaria valetudinariae valetudinarii valetudinariis valetudinario
+76	8976	cohorto	cohortabatur cohortando cohortaretur cohortari cohortata cohortatur cohortem cohortes
+77	8977	opacus	opaca opacam opacis opacum
+78	8978	decusso	decussant decussatis decussatum decusses
+79	8979	incesso	incessere incessisse incessisset incessit incessu incessum
+80	8980	auditorius	auditoria auditoriae auditoriis auditorio auditorios
+81	8981	palmo	palmarem palmari palmas palmata palmer palmites
+82	8982	orbitus	orbitae orbitam orbitarum orbiti orbitis orbitum
+83	8983	gravo	gravatis gravatur gravatus gravem graver graves
+84	8984	sororius	sorori sororia sororium
+85	8985	auguro	augurantur augurare augurat augurem augures
+86	8986	attento	attempto attenta attentare attentas
+87	8987	ieiunus	ieiuna ieiune ieiuni ieiunum
+88	8988	carrus	carri carris carrorum carros carrum
+89	8989	inopinor	inopinatu inopinatum
+90	8990	magnesius	magnesiae magnesio
+91	8991	anxie	anxia anxii
+92	8992	murmuro	murmura murmurabam murmurare murmurat
+93	8993	duplus	duplam dupli duplis duplum
+94	8994	crispo	crispa crispant crispat crispatum
+95	8995	favus	favi favo favos favum
+96	8996	compareo	comparebat comparere compares comparet comparuerunt
+97	8997	gemmo	gemmas gemmatis gemmato gemmatum
+98	8998	glacio	glaciant glaciatur glaciavit glaciem
+99	8999	monitor	monitore monitoris monitorum
+100	9000	hebeto	hebetantur hebetavit hebetem

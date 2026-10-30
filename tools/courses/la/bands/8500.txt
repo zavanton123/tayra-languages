@@ -1,0 +1,100 @@
+1	8401	concubina	concubinae concubinas
+2	8402	turtur	turture turturi
+3	8403	ambascio	ambascians ambasciata ambassiator
+4	8404	confoedero	confoederate confoederatum confoederaverunt
+5	8405	squalus	squalis
+6	8406	comprobatio	comprobatione comprobationem
+7	8407	fervidus	fervidae fervide
+8	8408	transactio	transactiones transactionibus
+9	8409	officiarius	officiarii officiariorum
+10	8410	erinaceus	erinacei erinaceum
+11	8411	excessivus	excessiva excessivam excessivum
+12	8412	mathesis	matheseos mathesi
+13	8413	vacuitas	vacuitate vacuitatem vacuitatis
+14	8414	immisericors	immisericordibus immisericorditer
+15	8415	soter	sotera soterum
+16	8416	menstrualis	menstrualem menstruali
+17	8417	fabrilis	fabrile fabrilibus
+18	8418	guianensis	guianensem guianensium
+19	8419	tataricus	tatarica tataricum
+20	8420	tigrinus	tigrinis tigrino tigrinum
+21	8421	trulleum	trullei trulleo
+22	8422	coccinella	coccinellae coccinellam
+23	8423	bucca	buccae buccas
+24	8424	rodo	rodentia rodentium
+25	8425	diuturnitas	diuturnitate diuturnitatem
+26	8426	fraudator	fraudatores fraudatoris
+27	8427	longaevitas	longaevitatem longaevitatis
+28	8428	disserto	disserta dissertantur dissertari
+29	8429	scissura	scissuram scissuris
+30	8430	dissipatio	dissipationem dissipationis
+31	8431	reaedifico	reaedificantur reaedificari reaedificatum
+32	8432	coniurator	coniuratores coniuratoribus
+33	8433	rationarium	rationaria rationarii
+34	8434	absimilis	absimile absimiles
+35	8435	semivocalis	semivocales semivocalibus semivocalium
+36	8436	invincibilis	invincibilem invincibili
+37	8437	languor	languore languorem languores
+38	8438	musso	mussare mussat musset
+39	8439	banus	bane bani
+40	8440	latinizo	latinizandum latinizantur latinizatum
+41	8441	innuo	innuat innuit innuitur
+42	8442	caurinus	caurina caurinae
+43	8443	caduceator	caduceatores
+44	8444	calceamentum	calceamenta
+45	8445	caledonius	caledonia caledoniae caledonios
+46	8446	desuetus	desueta
+47	8447	senesco	senescerent senescunt senueris
+48	8448	flexibilitas	flexibilitate flexibilitatem flexibilitatis
+49	8449	melitensis	melitense melitensi
+50	8450	marsupium	marsupio marsuppium
+51	8451	nuntiatio	nuntiatione nuntiationem
+52	8452	quisquilia	quisquiliae quisquiliarum quisquilias
+53	8453	impiger	impigre
+54	8454	traductor	traductore traductorum
+55	8455	turgidus	turgida turgidi turgidum
+56	8456	esculentus	esculenta esculentas esculentum
+57	8457	nemesis	nemesi nemesin
+58	8458	scaturigo	scaturigine scaturigini
+59	8459	exsupero	exsuperabat exsuperare exsuperent
+60	8460	metor	metandum metantur metarent metatur metere
+61	8461	litigium	litigia litigiis
+62	8462	proclivitas	proclivitate proclivitatem
+63	8463	navita	navitate navitatibus navitatis
+64	8464	epistylium	epistylii epistylio
+65	8465	porcarius	porcarii porcarium
+66	8466	baeticus	baetica baeticae baeticam
+67	8467	frugalitas	frugalitatem frugalitatis
+68	8468	excurro	excurrens excurrere excurrit
+69	8469	versura	versurae versuras
+70	8470	carex	caricium carix
+71	8471	blasphemia	blasphemiae blasphemiam
+72	8472	verecundia	verecundiae verecundiam
+73	8473	unicellularis	unicellulare unicellulares unicellularium
+74	8474	praetexta	praetextae praetextam
+75	8475	malignitas	malignitate malignitatem malignitatis
+76	8476	coleopteron	coleoptera coleopterorum
+77	8477	eluvio	eluviones eluvionis
+78	8478	amnestia	amnestiae amnestiam
+79	8479	ballistarius	ballistarii ballistarium
+80	8480	paedagogium	paedagogii paedagogio
+81	8481	agnomino	agnominata agnominato agnominatus
+82	8482	murex	murice muricis muricum
+83	8483	mutilatio	mutilationem mutilationi
+84	8484	ovatio	ovatione ovationibus
+85	8485	obeliscus	obelisci obelisco
+86	8486	pluralitas	pluralitate pluralitatem
+87	8487	detrudo	detrude detruderemus detrudunt
+88	8488	encytus	encyti encyto
+89	8489	parabilis	parabilibus
+90	8490	adulterinus	adulterinae adulterinam adulterini
+91	8491	inordinatus	inordinata inordinatae inordinatos
+92	8492	nasica	nasicae nasicam
+93	8493	inefficax	inefficacia
+94	8494	decemvir	decemviri decemviris
+95	8495	vicariatus	vicariatui vicariatum
+96	8496	trustis	trustem trustes
+97	8497	indigestus	indigesta indigeste indigestis
+98	8498	supersto	superstant superstat supersteti
+99	8499	turbulentus	turbulenta turbulentam turbulentis
+100	8500	austeritas	austeritate austeritatis

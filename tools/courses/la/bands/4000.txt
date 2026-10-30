@@ -1,0 +1,100 @@
+1	3901	civilitas	civilitate civilitatem civilitati civilitatibus civilitatis
+2	3902	exstinctio	exstinctione exstinctionem exstinctioni exstinctionis exstinctionum
+3	3903	furtum	furta furti furtis furto furtus
+4	3904	averto	avertat avertebatur avertendi avertens avertere averti avertisse avertit
+5	3905	popina	popinae popinam popinas popinis
+6	3906	calculo	calculandi calculandorum calculantur calculare calculat calculator calculavit calculetur
+7	3907	exsecutio	executio executione executionem exsecutione exsecutionem exsecutiones exsecutionis
+8	3908	obligatio	obligatione obligationem obligationes obligationibus obligationis obligationum
+9	3909	protectio	protectione protectionem protectioni protectionis
+10	3910	corpusculum	corpuscula corpusculi corpusculis corpusculo corpusculorum
+11	3911	neolatinus	neolatina neolatinae neolatinas neolatine neolatinis neolatino neolatinum
+12	3912	excursio	excursione excursiones excursioni excursionibus excursionum
+13	3913	auster	austri austris austro austrorum austrum
+14	3914	resolutio	resolutione resolutionem resolutiones resolutioni resolutionis
+15	3915	adapto	adaptabat adaptant adaptantur adaptare adaptatum adaptatus adaptaverunt adaptavit
+16	3916	avarus	avara avarae avare avari avaris avaro avarorum avaros
+17	3917	pravus	prava pravas prave pravi pravis pravo pravum
+18	3918	praefigo	praefigit praefixerunt praefixit praefixum praefixus
+19	3919	extraneus	extraneas extranei extraneis extraneo extraneorum extraneos extraneum
+20	3920	imbuo	imbuebat imbuebatur imbuentur imbuere imbueretur imbuerit imbuit imbutum imbutus
+21	3921	permuto	permuta permutabant permutabat permutant permutare permutari permutat permutato permutatum permutatur
+22	3922	messis	messe messem messes messi messibus messim messium
+23	3923	inspiro	inspirabat inspirarent inspirat inspiratis inspiratum inspiratus inspiraverunt inspiravit
+24	3924	nederlandicus	nederlandica nederlandicae nederlandicam nederlandicarum nederlandice nederlandici nederlandico nederlandicum
+25	3925	terrenus	terrena terrenae terrenam terrenas terreni terrenis terreno terrenos terrenum
+26	3926	specificus	specifica specificae specificam specificarum specifice specifici specificis specifico specificos specificum
+27	3927	lucidus	lucida lucidae lucide lucidi lucidior lucidis lucidos lucidum
+28	3928	peregrinor	peregrinabant peregrinabantur peregrinabatur peregrinandi peregrinandum peregrinans peregrinantur peregrinaretur peregrinari peregrinaris peregrinatus
+29	3929	daemon	daemone daemonem daemones daemoni daemonia daemonibus daemonii daemonis daemonium daemonum
+30	3930	intercedo	intercedant intercedat intercedendi intercedere intercederent intercederet intercedit intercedunt intercesserit intercesserunt intercessit
+31	3931	definitivus	definitiva definitivam definitive definitivi definitivis definitivo definitivos definitivum
+32	3932	persevero	perseverabat perseverabunt perseverandum perseverans perseverare perseverat perseveratum perseveraverunt perseveravit perseverent perseveret
+33	3933	importo	importa importabantur importabat importans importantur importare importarent importarentur importaretur importari importat importato importaverunt
+34	3934	denuntio	denuntiandi denuntiando denuntians denuntiantur denuntiare denuntiat denuntiatum denuntiaverat denuntiavissent denuntiavit
+35	3935	dilato	dilata dilatabant dilatando dilatans dilatant dilatantur dilatare dilatarent dilatarunt dilatat dilatatur dilatatus dilatavere dilatavit dilatet
+36	3936	crudeliter	crudelissime crudelius
+37	3937	aurora	aurorae auroram auroras
+38	3938	galea	galeae galeam galearum galeis
+39	3939	amplexus	amplexa amplexae amplexam amplexarum amplexu amplexum
+40	3940	turpis	turpe turpem turpes turpi turpia turpibus turpiter
+41	3941	matutinum	matutina matutini matutino
+42	3942	arithmetica	arithmeticae arithmeticam arithmeticarum arithmeticas arithmeticis
+43	3943	excelsus	excelsa excelsae excelsarum excelsior excelsis excelsissimus excelsum
+44	3944	alterno	alterna alternabantur alternans alternant alternarent alternas alternat alternavere alternaverunt
+45	3945	individuum	individua individui individuis individuorum
+46	3946	improbus	improba improbam improbe improbi improbos improbum
+47	3947	picea	piceae picearum piceas piceis
+48	3948	fera	ferae feram ferarum feras feris
+49	3949	nocturna	nocturnae nocturnam nocturnas nocturnis
+50	3950	coeptum	coepta coepti coepto coeptorum
+51	3951	amoenus	amoena amoenae amoenam amoenas amoeni amoenior amoenis amoeno amoenorum amoenum
+52	3952	dubius	dubia dubiae dubiam dubias dubii dubiis dubio dubios
+53	3953	faciliter	facilius
+54	3954	aboleo	abolebuntur abolent abolere abolet aboleverunt abolevit abolitum abolitus
+55	3955	sileo	sileantur sileatur silebant silent silentum silerentur sileri silet siletur siluisse
+56	3956	partum	parta parti partis parto
+57	3957	monacha	monachae monacham monacharum monachis
+58	3958	conductus	conducta conductam conducti conductis conducto conductorum conductu conductum
+59	3959	aro	arabam arabis arabo arando arari aras arat aratore aratus ares
+60	3960	serica	sericae sericam sericis sericorum
+61	3961	ferio	feri feriam feriant ferias feriatis feriebat feriendo ferii ferire feriret feriri feris ferit feriunt
+62	3962	profundus	profunda profundae profundam profundarum profundas profunde profundior profundis profundissimus profundorum profundos
+63	3963	orbus	orba orbam orbe orbi orbum
+64	3964	flexus	flexas flexis flexo flexorum flexum flexuum
+65	3965	dium	dii diis dio dion
+66	3966	mano	mana manabat manaret manaro manas manasse manat manati manatis manatos manatum manavit manor
+67	3967	gestio	gesti gestiamus gestione gestionem gestiones gestioni gestionis gestis
+68	3968	rebello	rebellabat rebellandum rebellant rebellare rebellarent rebellaverant rebellavere rebellaverunt rebellavit rebellem rebellent rebelles
+69	3969	coloro	colora colorare coloratis colorato colorator coloratum colorem colores
+70	3970	figuro	figurabant figurabit figurandum figurant figurantur figuras figurat figuratis figuratum figuratur figuraverant figuravere figurent figures
+71	3971	praetereo	praetereat praetereunda praetereundo praetereundum praeteribat praeteribit praeterierunt praeteriissent praeterire praeterisse praeterit praeteritis praeterito
+72	3972	congredior	congrederetur congredi congrediendo congreditur congrediuntur congressu congressum
+73	3973	stricte	
+74	3974	utcumque	
+75	3975	propemodum	
+76	3976	eugeneus	eugenius
+77	3977	sophistes	sophista sophistae sophistarum sophistas
+78	3978	mature	maturius
+79	3979	adiaceo	adiacens adiacent adiacet
+80	3980	prostata	prostatae prostatam
+81	3981	nervosus	nervosa nervosae nervosi nervoso nervosum
+82	3982	indutiae	indutiarum indutias indutiis
+83	3983	pegasus	pegasi pegaso
+84	3984	influentia	influentiae influentiam
+85	3985	interdictum	interdicta interdicti interdictis interdicto
+86	3986	educator	educatorem educatores educatorium educatorum
+87	3987	dido	didon didone didonem didoni didonis
+88	3988	antenna	antemna antennae antennarum antennas antennis
+89	3989	consors	consorte consortem consortes consortibus consortis
+90	3990	locatio	locatione locationem locationibus locationis
+91	3991	perspicuus	perspicua perspicuae perspicuam perspicui perspicuo perspicuum
+92	3992	bruchus	bruce bruche
+93	3993	abbreviatura	abbreviaturas abbreviaturis
+94	3994	neptis	nepte neptem nepti
+95	3995	epitheton	epitheta epitheti epitheto
+96	3996	pistrinum	pistrina pistrinae pistrinas pistrinis pistrino
+97	3997	apologia	apologiae apologiam
+98	3998	socialismus	socialismi socialismo socialismum
+99	3999	resurrectio	resurrectione resurrectionem resurrectionis
+100	4000	ducissa	ducissae ducissam

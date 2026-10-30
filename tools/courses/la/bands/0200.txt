@@ -1,0 +1,100 @@
+1	101	deinde	dein
+2	102	insula	insulae insulam insularum insulas insulis
+3	103	ago	actum agant agantur agas agatur age agebant agebantur agebat agebatur agenda agendae agendam agendarum agendas agendi agendis agendo agendum agens agent agentur agere agerent ageret ageretur agetur agi agimus agis agit agitur agunt egerat egere egerunt egisse egisset egit
+4	104	maior	maiora maiore maiorem maiores maiori maioribus maioris maiorum maius major
+5	105	situs	sita sitae sitam sitarum sitas site siti sitibus sitim sitis sito sitorum sitos situ situm situum
+6	106	primum	
+7	107	medius	media mediae mediam mediarum medias medii mediis medio mediorum medios
+8	108	solum	solo
+9	109	latinus	latina latinae latinas latini latino latinum
+10	110	quia	
+11	111	ibi	
+12	112	enim	
+13	113	vicus	vice vicem vices vici vicibus vicis vico vicorum vicos vicum
+14	114	ars	arte artem artes arti artibus artis artissime artium artius
+15	115	contra	
+16	116	universitas	universitate universitatem universitates universitati universitatibus universitatis universitatium universitatum
+17	117	forma	formae formam formarum formas formis
+18	118	totus	tota totae totam totarum totas tote toti totis totius toto totorum totos totum
+19	119	nunc	
+20	120	schola	scholae scholam scholarum scholas scholis
+21	121	imperium	imperi imperia imperii imperiis imperio imperiorum inperium
+22	122	ante	anterius
+23	123	una	
+24	124	ratio	ratione rationem rationes rationi rationibus rationis rationum
+25	125	accipio	acceperant acceperat accepere acceperit acceperunt accepimus accepisse accepissent accepistis accepit accepturus acceptus accipe accipere acciperent acciperentur acciperet acciperetur accipi accipiant accipias accipiat accipiatur accipiebant accipiebantur accipiebat accipienda accipiendas accipiendi accipiendis accipiendo accipiendum accipiens accipient accipiet accipimus accipit accipitur accipiunt accipiuntur
+26	126	dux	duce ducem duces duci ducibus ducis ducium ducum
+27	127	ius	ium iura iure iuri iuribus iuris iurum juribus juris jurium jurum jus
+28	128	sub	
+29	129	mons	monte montem montes monti montibus monticuli monticulo monticulos monticulum monticulus montis montium
+30	130	itaque	
+31	131	caput	capita capite capitelli capitellum capiti capitibus capitis capitum
+32	132	vir	viri viris viro virorum viros virum
+33	133	fere	
+34	134	mensis	mense mensem menses mensi mensibus mensium mensum
+35	135	modo	
+36	136	regnum	regna regni regnis regno regnorum
+37	137	historia	historiae historiam historiarum historias historiis
+38	138	finis	fine finem fines fini finibus finium finum
+39	139	consilium	consili consilia consilii consiliis consilio consiliorum
+40	140	duco	duc ducant ducantur ducas ducat ducatur ducebant ducebantur ducebat ducebatur ducenda ducendam ducendis ducendo ducendum ducens ducent ducere ducerent ducerentur duceret duceretur duces ducet ducit ducitur ductum ducturus ducunt ducuntur duxerant duxerat duxerint duxerit duxerunt duxi duxisse duxissent duxisset duxit
+41	141	circa	circae
+42	142	miles	milite militem milites militi militibus militis militum
+43	143	ordo	ordine ordinem ordines ordini ordinibus ordinis ordinum
+44	144	species	formarum formis specie speciebus speciei speciem specierum
+45	145	tum	
+46	146	mors	morte mortem mortes morti mortibus mortis mortium
+47	147	oppidum	oppida oppidi oppidis oppido oppidorum
+48	148	volo	velim velimus velint velis velit velle vellent vellet volabat volandi volans volant volare volaret volat volatu volatum volebant volebas volebat volens volet volt voluerant voluerat voluerimus voluerint volueris voluerit voluerunt voluisse voluissem voluissent voluisset voluit volumus volunt vult vultis
+49	149	nomino	nomina nominabant nominabantur nominabat nominabatur nominabit nominabitur nominabuntur nominamus nominandi nominando nominandum nominans nominant nominantur nominare nominarentur nominaret nominaretur nominari nominasse nominat nominatis nominato nominatore nominatorum nominatum nominatur nominatus nominaverant nominavere nominaverint nominaverunt nominavisse nominavisset nominavit nominemus nominent nominentur nominetur
+50	150	familia	familiae familiam familiarum familias familiis
+51	151	carmen	carmina carmine carmini carminibus carminis carminorum carminum
+52	152	populus	populi populis populo populorum populos populum
+53	153	exemplum	exempla exempli exemplis exemplo exemplorum
+54	154	alter	altera alterae alteram alterarum alteras alteri alteris alterius altero alterorum alteros alterum altri
+55	155	sine	
+56	156	nec	
+57	157	imperator	imperatore imperatorem imperatores imperatori imperatoribus imperatoris imperatorum imperatrice imperatricem imperatricis imperatricum imperatrix
+58	158	scriptum	scripta scriptari scripti scriptis scripto scriptorum
+59	159	titulus	tituli titulis titulo titulorum titulos titulum
+60	160	fabula	fabella fabellae fabellam fabellarum fabellas fabellis fabulae fabulam fabularum fabulas fabulis
+61	161	vis	vi vim virem vires viribus viris virium
+62	162	via	viae viam viarum vias viis
+63	163	communis	commune communem communes communi communia communibus communior communissime communiter communium communius
+64	164	aetas	aetate aetatem aetates aetati aetatibus aetatis aetatium aetatum aevitas aevitatem aevitatis
+65	165	sicut	
+66	166	lex	lege legem leges legi legibus legis legium legum
+67	167	puto	putabamus putabant putabantur putabat putabatur putamur putamus putandus putans putant putantur putare putarent putarentur putares putaret putaretur putari putas putasse putat putatis putato putatum putatur putatus putaverant putaverat putavere putaverit putaverunt putavisse putavissent putavit putemus putent putes putet putetur
+68	168	imago	imagine imaginem imagines imagini imaginibus imaginis imaginum
+69	169	quamquam	quanquam
+70	170	ob	
+71	171	voco	voca vocabant vocabantur vocabat vocabatur vocabis vocabit vocabitur vocabuntur vocamus vocandae vocandis vocando vocans vocant vocantur vocare vocarent vocaret vocaretur vocari vocarunt vocasset vocat vocatis vocato vocatum vocatur vocatus vocaverimus vocaverunt vocavi vocavisse vocavisset vocavit vocem vocemus vocent vocentur vocetur
+72	172	propter	
+73	173	nam	
+74	174	tantum	
+75	175	aliqui	alicui alicuius alicujus aliqua aliquae aliquam aliquarum aliquas aliquem aliquibus aliquis aliquo aliquod aliquorum aliquos
+76	176	utor	usu usum utamur utantur utar utaris utatur utebantur utebar utebatur utemur utendi utendo utendum utens utentur utere uterentur uteretur uteris utetur utimur utitur utuntur
+77	177	corpus	corpora corpore corpori corporibus corporis corporum
+78	178	grex	grege gregem greges gregi gregibus gregis gregium gregum
+79	179	praeses	praeside praesidem praesides praesidi praesidibus praesidis praesidum
+80	180	provincia	provinciae provinciam provinciarum provincias provinciis
+81	181	uxor	uxore uxorem uxores uxori uxoribus uxoris uxorum
+82	182	quidem	
+83	183	creo	crea creabant creabantur creabat creabatur creabit creandi creando creandum creans creant creantur creare crearent crearentur crearet crearetur creari creas creasse creat create creatis creato creatum creatur creaturus creatus creavere creaverint creaverit creaverunt creavisse creavit creent creentur creer creet creetur
+84	184	editio	editione editionem editiones editioni editionibus editionis editionum
+85	185	quattuor	quattor quatuor
+86	186	pertineo	pertineant pertineat pertinebam pertinebant pertinebat pertinebit pertinebunt pertinens pertinent pertinere pertinerent pertineret pertinet pertinuerat pertinuerunt pertinuisse pertinuit
+87	187	semper	
+88	188	seu	
+89	189	factio	factione factionem factiones factioni factionibus factionis factionum
+90	190	significo	significa significabant significabat significabatur significabimus significabit significamus significandi significandum significans significant significantur significare significarent significaret significari significasse significasset significat significatis significatu significatum significatur significaverit significavit significent significere significet significetur
+91	191	sententia	sententiae sententiam sententiarum sententias sententiis
+92	192	sic	
+93	193	mundus	munda mundae munde mundi mundior mundis mundo mundorum mundos mundum
+94	194	auctor	auctore auctorem auctores auctori auctoribus auctoris auctorum auctrice auctricem auctrices auctrici auctricis auctrix author autor
+95	195	mare	mari maria maribus maris marium maro marum
+96	196	similis	simile similem similes simili similia similibus similior similiter similium simillimus
+97	197	tertius	tertia tertiae tertiam tertiarum tertias tertii tertiis tertio tertios
+98	198	flumen	flumina flumine flumini fluminibus fluminis fluminum
+99	199	mos	mora morae moram moras more morem mores mori moribus moris mororum morum
+100	200	nullus	nulla nullae nullam nullarum nullas nulli nullis nullius nullo nullorum nullos nullum

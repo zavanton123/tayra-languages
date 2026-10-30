@@ -1,0 +1,100 @@
+1	501	francogallicus	francogallica francogallicae francogallicam francogallicarum francogallicas francogallice francogallici francogallicis francogallico francogallicorum francogallicos francogallicum
+2	502	specto	spectabant spectabat spectabit spectamus spectandi spectandum spectandus spectans spectant spectantur spectare spectarent spectarentur spectaret spectari spectas spectasse spectasti spectat spectato spectatu spectatur spectaverat spectaveris spectaverit spectaverunt spectavit spectent spectentur spectes spectet spectetur
+3	503	facultas	facultate facultatem facultates facultati facultatibus facultatis facultatium facultatum
+4	504	theoria	theoriae theoriam theoriarum theorias theoriis
+5	505	disco	didicerat didicerint didiceris didicerit didicerunt didici didicimus didicisse didicissent didicisset didicisti didicit discant discantur discat discebant discebat discenda discendae discendam discendas discendi discendis discendo discendum discens discentur discere discerent disceret discet disci discimus discis discit discite discitum discunt discuntur
+6	506	scilicet	silicet
+7	507	italicus	italica italicae italicam italicarum italicas italice italici italicis italico italicorum italicos italicum
+8	508	inventum	inventa inventi inventis invento inventorum
+9	509	fortis	forte fortem fortes forti fortia fortiarum fortibus fortior fortissime fortissimus fortiter fortium fortius
+10	510	praefectus	praefecta praefectam praefecti praefectis praefecto praefectorum praefectos praefectum
+11	511	monasterium	monasteria monasterii monasteriis monasterio monasteriorum
+12	512	territorium	territori territoria territorii territoriis territorio territoriorum
+13	513	antea	
+14	514	urbanus	urbana urbanae urbanam urbanarum urbanas urbani urbanis urbano urbanorum urbanos urbanum
+15	515	opinio	opinione opinionem opiniones opinioni opinionibus opinionis opinionum
+16	516	nummus	nummi nummis nummo nummorum nummos nummum
+17	517	fundo	fudit funda fundabantur fundae fundam fundandae fundant fundantur fundare fundaretur fundatis fundato fundator fundatore fundatores fundatoris fundatorum fundatum fundatur fundatus fundaverant fundaverat fundaverunt fundavit fundere fundi fundis fundit funditores funditoribus funditur fusa fuse fusius fuso fusorum fusos fusum fusus
+18	518	forum	fora fores fori foribus foris forium foro fororum
+19	519	portus	porti portibus portos portu portui portum portuum
+20	520	fanum	fana fani fanis fano
+21	521	oriens	oriente orientem orientes orienti orientibus orientis orientium
+22	522	confectus	confecta confectae confectam confectarum confectas confecti confectis confecto confectorum confectos confectum
+23	523	actus	actae actam actarum actas acte acti actibus actis acto actorum actos actu actui actum actuum
+24	524	redeo	redeant redeat redeundi redeundum redeunt redibant redibat redibit redibitis rediens redierat redierit redierunt rediissent rediisset rediit redire redirent rediret redisse redissent redisset redit redito reditu reditum rediturus redivere rediverit rediverunt redivisse redivisset redivit
+25	525	unde	
+26	526	viginti	vigenti
+27	527	instrumentum	instrumenta instrumenti instrumentis instrumento instrumentorum
+28	528	colo	colant colantur colari colatur cole colebant colebantur colebat colebatur colenda colendae colendam colendarum colendas colendi colendis colendo colendos colendum colendus colens colere colerent colerentur coleret colet coli colit colitis colitur coluerant coluerit coluerunt coluisse coluit colunt coluntur cultu cultum
+29	529	pauci	paucis paucorum paucos
+30	530	porta	portae portam portarum portas portis
+31	531	augeo	auctu auctum auge augeant augeat augeatur augebant augebantur augebat augebatur augebit augebitur augendi augendo augendum augendus augens augent augentur augere augerent augerentur augeret augeretur augeri auget augetur auxerant auxerat auxere auxerint auxerit auxerunt auxisse auxit
+32	532	exsto	exstabant exstabat exstans exstant exstare exstaret exstat exstent exstet
+33	533	adeo	adeantur adeundi adeundum adeunt adeuntur adibat adibatur adierat adierit adierunt adiit adire adirent adiret adiri adis adisse adit aditibus adito aditu aditum aditur aditus adivit
+34	534	victoria	victoriae victoriam victoriarum victorias victoriis
+35	535	ager	agri agris agro agrorum agros agrum
+36	536	colonia	coloniae coloniam coloniarum colonias coloniis
+37	537	lusor	lusore lusorem lusores lusori lusoribus lusoris lusorum
+38	538	cultus	culta cultae cultarum cultas culti cultibus cultis cultissimus culto cultorum cultos cultu cultui cultum cultuum
+39	539	diu	diutissime diutius
+40	540	auxilium	auxilia auxilii auxiliis auxilio auxiliorum
+41	541	teneo	tene teneamus teneant teneantur teneas teneat teneatur tenebant tenebantur tenebat tenebatur tenebunt tenemus tenendi tenendo tenendum tenens tenent tenentur tenerent tenerentur teneres teneret teneretur teneri teneris tenes tenet tenete tenetis tenetur tentum tenuere tenuerint tenuerunt tenui tenuisse tenuit
+42	542	nuncupo	nuncupabant nuncupabantur nuncupabat nuncupabatur nuncupamus nuncupant nuncupantur nuncupare nuncuparent nuncuparet nuncupari nuncuparunt nuncupat nuncupatis nuncupato nuncupatum nuncupatur nuncupatus nuncupaverunt nuncupavimus nuncupavit nuncupetur
+43	543	brevis	breve brevem breves brevia brevibus brevior brevissimus brevium
+44	544	privatus	privata privatae privatam privatarum privatas private privati privatis privato privatorum privatos privatum
+45	545	captus	capta captae captam captarum captas capti captis capto captorum captos captum
+46	546	pictus	picta pictae pictam pictarum pictas picti pictis pictorum pictos pictum pinctus
+47	547	magistratus	magistrati magistratibus magistratos magistratu magistratubus magistratui magistratum magistratuum
+48	548	sto	sta stabant stabat stabit stamus standi standum stans stant stare staret stari stat state statis stato stator statu statum stent steterant steterat steterunt steti stetisse stetit stetur
+49	549	infans	infante infantem infantes infanti infantia infantiae infantiam infantibus infantis infantium infantum
+50	550	tu	te ted tibi tui vestrum
+51	551	finio	fini finiat finiatur finiebat finiebatur finiendo finiendum finiens finierunt finiet finietur finire finirent finirentur finiret finiretur finiri finit finitis finito finitum finitur finitus finiunt finiuntur finiverant finiverat finiverit finiverunt finivisse finivit
+52	552	praemium	praemia praemii praemiis praemio praemiorum
+53	553	villa	villae villam villarum villas villis
+54	554	alias	
+55	555	tandem	
+56	556	iudicium	iudici iudicia iudicii iudiciis iudicio iudiciorum
+57	557	insigne	insignem insignes insigni insignia insignibus insignis insigniter insignium
+58	558	intellego	intellectu intellegamus intellegant intellegantur intellegat intellegatur intellegebant intellegebat intellegebatur intellegenda intellegendam intellegendarum intellegendi intellegendis intellegendo intellegendum intellegens intellegere intellegerent intellegerentur intellegeret intellegeretur intelleget intellegi intellegimus intellegis intellegit intellegitur intellegunt intelleguntur intellexerat intellexerint intellexerunt intellexi intellexisse intellexissent intellexisset intellexit intelligo
+59	559	socialis	sociale socialem sociales sociali socialia socialibus socialiter socialium socialum
+60	560	posterior	posteriora posteriore posteriorem posteriores posteriori posterioribus posterioris posteriorum
+61	561	pondus	pondera pondere ponderi ponderibus ponderis ponderum
+62	562	professor	professore professorem professores professori professoribus professoris professorum profestrix
+63	563	necesse	
+64	564	medicus	medica medicae medicam medicarum medicas medice medici medicis medico medicorum medicos medicum
+65	565	quaestio	quaestione quaestionem quaestiones quaestioni quaestionibus quaestionis quaestionum questio
+66	566	comprehendo	comprehendantur comprehendat comprehendebant comprehendebantur comprehendebat comprehendendi comprehendendum comprehendens comprehendent comprehendere comprehenderetur comprehenderint comprehenderit comprehenderunt comprehendi comprehendit comprehenditur comprehendunt comprehenduntur comprehensum comprehensus
+67	567	respublica	reipublicae rempublicam republica rerumpublicarum respublicae respublicas
+68	568	membrum	membra membri membris membro membrorum
+69	569	philosophia	philosophiae philosophiam philosophias philosophiis
+70	570	consul	consule consulem consules consuli consulibus consulis consulum
+71	571	communitas	communitate communitatem communitates communitati communitatibus communitatis communitatum
+72	572	memoria	memoriae memoriam memoriarum memorias memorie memoriis
+73	573	auctoritas	auctoritate auctoritatem auctoritates auctoritati auctoritatibus auctoritatis auctoritatum
+74	574	aestimo	aestima aestimabant aestimabantur aestimabat aestimabatur aestimabitur aestimanda aestimandam aestimandas aestimandi aestimandis aestimando aestimandorum aestimandum aestimant aestimantur aestimare aestimarent aestimaret aestimaretur aestimari aestimarit aestimarunt aestimas aestimasse aestimat aestimatori aestimatum aestimatur aestimaturus aestimatus aestimaverunt aestimavisse aestimavit aestimemus aestiment aestimentur aestimet aestimetur
+75	575	decimus	decima decimae decimam decimarum decimas decimi decimis decimo decimos decimum
+76	576	gravis	grave gravem graves gravi gravia gravibus gravior graviora graviore graviorem graviores graviori gravioribus graviorum gravissimus gravium gravius
+77	577	reddo	redd reddant reddantur reddat reddatur redde reddebant reddebantur reddebat reddebatur reddendi reddendo reddens reddere redderent redderentur redderet redderetur reddet reddi reddiderat reddiderit reddiderunt reddidimus reddidisse reddidit reddit reddito redditu redditum redditur redditus reddunt redduntur
+78	578	editum	edita editi editis edito editorum
+79	579	gubernatio	gubernatione gubernationem gubernationes gubernationi gubernationibus gubernationis gubernationum
+80	580	aliquando	
+81	581	silva	silvae silvam silvarum silvas silvis sylva
+82	582	administratio	administratione administrationem administrationes administrationi administrationis administrationum
+83	583	mens	mente mentem mentes menti mentibus mentis mentium
+84	584	parlamentum	parlamenta parlamenti parlamentis parlamento parlamentorum
+85	585	materia	materiae materiam materiarum materias materies materiis
+86	586	soror	sorore sororem sorores sorori sororibus sororis sororum
+87	587	editus	edita editae editam editarum edite editi editior editis edito editorum editos
+88	588	maritus	maritam mariti maritis marito maritorum maritos maritum
+89	589	comes	comite comitem comites comiti comitibus comitis comitum
+90	590	animal	animalculum animale animalem animali animalia animalibus animalis animalium
+91	591	denuo	
+92	592	proprietas	proprietate proprietatem proprietates proprietati proprietatibus proprietatis proprietatum
+93	593	commentarius	commentaria commentarii commentariis commentario commentariorum commentarios commentarium
+94	594	proximus	proxima proximae proximam proximarum proximas proxime proximi proximis proximo proximorum proximos
+95	595	tamquam	
+96	596	planeta	planetae planetam planetarum planetas planetis
+97	597	exemplar	examplaribus exemplare exemplarem exemplares exemplari exemplaria exemplaribus exemplariorum exemplaris exemplarium exemplarum
+98	598	tracto	tractabant tractabantur tractabat tractabatur tractabimus tractamus tractandi tractando tractandum tractans tractant tractantur tractare tractaret tractaretur tractari tractas tractasse tractat tractatis tractato tractatores tractatu tractatum tractatur tractaverat tractaverint tractaverit tractaverunt tractavisse tractavissent tractavit tractemus tractent tractentur tractet tractetur tractor
+99	599	secundo	
+100	600	exter	extera exterae exteram exterarum exteras exteri exterior exteris exterorum exterus extimus extrema extremae extremam extremarum extremas extreme extremi extremis extremo extremorum extremos extremum extremus

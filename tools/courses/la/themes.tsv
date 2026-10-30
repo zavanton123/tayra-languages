@@ -1,0 +1,101 @@
+# id	rankUpTo	level	topic (English)	title (Latin)
+la-mini-0100	100	A1	Home and family	Domi cum familia
+la-mini-0200	200	A1	Everyday life	Dies cotidianus
+la-mini-0300	300	A1	Food and shopping	Cibus et emptio
+la-mini-0400	400	A2	In the city	In urbe
+la-mini-0500	500	A2	School and work	Schola et labor
+la-mini-0600	600	A2	Free time and hobbies	Otium et studia
+la-mini-0700	700	A2	Health and the body	Valetudo et corpus
+la-mini-0800	800	A2	Travel and holidays	Itinera et feriae
+la-mini-0900	900	A2	Nature and the seasons	Natura et anni tempora
+la-mini-1000	1000	A2	Birthdays, parties and friends	Dies natales, convivia, amici
+la-mini-1100	1100	B1	Living and housing	Domum quaerimus
+la-mini-1200	1200	B1	Memories	Memoriae
+la-mini-1300	1300	B1	Jobs and training	Artes et studia
+la-mini-1400	1400	B1	Getting around	Quomodo eo pervenitur?
+la-mini-1500	1500	B1	Money and shopping	Pecunia et emptiones
+la-mini-1600	1600	B1	Experiencing culture	Artes et cultura
+la-mini-1700	1700	B1	Sport and exercise	Ludi et exercitatio
+la-mini-1800	1800	B1	The environment in daily life	Natura in vita cotidiana
+la-mini-1900	1900	B1	Letters, messages and media	Epistolae, nuntii, instrumenta communicationis
+la-mini-2000	2000	B1	Neighbourhood	Vicinia
+la-mini-2100	2100	B2	Cooking and food	Ars coquendi et cibus
+la-mini-2200	2200	B2	Body and mind	Corpus et animus
+la-mini-2300	2300	B2	The world of work	Mundus laboris
+la-mini-2400	2400	B2	Science and technology	Scientia et technologia
+la-mini-2500	2500	B2	History you can touch	Historia quae tangi potest
+la-mini-2600	2600	B2	Travelling in Italy	Iter per Italiam
+la-mini-2700	2700	B2	Generations	Aetates
+la-mini-2800	2800	B2	Music	Musica
+la-mini-2900	2900	B2	Society and living together	Societas et vita communis
+la-mini-3000	3000	B2	Small columns	Breves commentarioli
+la-mini-3100	3100	B2	Home and decoration	Domus et ornatus
+la-mini-3200	3200	B2	Fashion and clothes	Vestis et mos vestiendi
+la-mini-3300	3300	B2	The great outdoors	Sub divo
+la-mini-3400	3400	B2	Traditional crafts	Artes antiquae
+la-mini-3500	3500	B2	Technology and society	Technologia et societas
+la-mini-3600	3600	B2	Rivers, lakes and the sea	Flumina, lacus, mare
+la-mini-3700	3700	B2	Books and language	Libri et sermo
+la-mini-3800	3800	B2	Everyday economics	Res familiaris
+la-mini-3900	3900	B2	Village life	Vita in vico
+la-mini-4000	4000	B2	City life columns	Commentarioli de vita urbana
+la-mini-4100	4100	C1	Body and mind in daily life	Corpus et animus cotidie
+la-mini-4200	4200	C1	Architecture and heritage	Architectura et monumenta
+la-mini-4300	4300	C1	Climate and energy	Caelum et energia
+la-mini-4400	4400	C1	Everyday paperwork	Chartae et negotia cotidiana
+la-mini-4500	4500	C1	Film and television	Pelliculae et televisio
+la-mini-4600	4600	C1	Research and discovery	Investigatio et inventa
+la-mini-4700	4700	C1	Living far from home	Procul a patria
+la-mini-4800	4800	C1	The mind in daily life	Mens in vita cotidiana
+la-mini-4900	4900	C1	Sport and society	Ludi et societas
+la-mini-5000	5000	C1	Short essays	Brevia scripta
+la-mini-5100	5100	C1	Archaeology and the past	Archaeologia et antiquitas
+la-mini-5200	5200	C1	The science of cooking	Scientia coquendi
+la-mini-5300	5300	C1	Landscapes	Regiones et prospectus
+la-mini-5400	5400	C1	Caring for others	Cura aliorum
+la-mini-5500	5500	C1	Visual arts	Artes visuales
+la-mini-5600	5600	C1	Journalism and media	Diurnaria et instrumenta communicationis
+la-mini-5700	5700	C1	Transport and mobility	Vectura et itinera
+la-mini-5800	5800	C1	The Latin language	Lingua Latina
+la-mini-5900	5900	C1	Starting a business	Negotium incipere
+la-mini-6000	6000	C1	Memoirs	Commentarii de vita
+la-mini-6100	6100	C1	The universe and the stars	Universum et stellae
+la-mini-6200	6200	C1	Mining and natural resources	Metalla et opes naturae
+la-mini-6300	6300	C1	Food and health	Victus et valetudo
+la-mini-6400	6400	C1	Theatre and stage	Theatrum et scaena
+la-mini-6500	6500	C1	Engineering	Ars machinalis
+la-mini-6600	6600	C1	Farm to table	Ab agro ad mensam
+la-mini-6700	6700	C1	Words and where they come from	Verba et origines
+la-mini-6800	6800	C1	Latin literature	Litterae Latinae
+la-mini-6900	6900	C1	Numbers and reasoning	Numeri et ratiocinatio
+la-mini-7000	7000	C1	Travel columns	Commentarioli de itineribus
+la-mini-7100	7100	C1	Public health	Salus publica
+la-mini-7200	7200	C1	Everyday philosophy	Philosophia cotidiana
+la-mini-7300	7300	C1	Folk festivals and fairs	Festa popularia et nundinae
+la-mini-7400	7400	C1	Animal behaviour	Mores animalium
+la-mini-7500	7500	C1	Work and the labour market	Labor et forum laboris
+la-mini-7600	7600	C1	Cities of the world	Urbes orbis terrarum
+la-mini-7700	7700	C1	Inventions and inventors	Inventa et inventores
+la-mini-7800	7800	C1	Public services	Officia publica
+la-mini-7900	7900	C1	Mountains and hills	Montes et colles
+la-mini-8000	8000	C1	Family columns	Commentarioli de familia
+la-mini-8100	8100	C2	The human body	Corpus humanum
+la-mini-8200	8200	C2	Prevention and resilience	Providentia et firmitas
+la-mini-8300	8300	C2	Design and craft	Forma et artificium
+la-mini-8400	8400	C2	Emotions and relationships	Affectus et necessitudines
+la-mini-8500	8500	C2	Explorers and travellers	Exploratores et peregrinatores
+la-mini-8600	8600	C2	The forest	Silva
+la-mini-8700	8700	C2	Advertising and communication	Praeconium et communicatio
+la-mini-8800	8800	C2	Food culture in Italy	Cultura cibi in Italia
+la-mini-8900	8900	C2	Traditional and classical music	Musica popularis et classica
+la-mini-9000	9000	C2	Essays on time	Scripta de tempore
+la-mini-9100	9100	C2	Chemistry and materials	Chemia et materiae
+la-mini-9200	9200	C2	Maps and finding the way	Tabulae geographicae et via invenienda
+la-mini-9300	9300	C2	Tales and legends	Fabulae et narrationes
+la-mini-9400	9400	C2	Rare professions	Artes rarae
+la-mini-9500	9500	C2	Urban planning	Urbium ordinatio
+la-mini-9600	9600	C2	Everyday physics	Physica cotidiana
+la-mini-9700	9700	C2	Gardens and botany	Horti et res herbaria
+la-mini-9800	9800	C2	Folk art and customs	Ars et mores populares
+la-mini-9900	9900	C2	Ethics and living together	Ethica et vita communis
+la-mini-10000	10000	C2	Learning and language	Discere et sermo

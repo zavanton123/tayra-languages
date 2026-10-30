@@ -1,0 +1,100 @@
+1	901	centralis	centrale centralem centrales centrali centralia centralibus centraliter centralium
+2	902	sextus	sexta sextae sextam sextarum sextas sexti sextis sextorum sextos sextum
+3	903	unitas	unitate unitatem unitates unitati unitatibus unitatis unitatium unitatum
+4	904	includo	includantur includat includatur includebat includendo includendum includens includere includi includit includitur includunt includuntur inclusere incluserunt inclusi inclusit inclusum inclusus
+5	905	crux	cruce crucem cruces cruci crucibus crucis
+6	906	luna	lunae lunam lunas lune lunis
+7	907	cogito	cogitabant cogitabat cogitabatur cogitamus cogitanda cogitandi cogitandis cogitando cogitandum cogitandus cogitans cogitant cogitantur cogitare cogitarent cogitari cogitas cogitasse cogitat cogitata cogitatas cogitatis cogitatum cogitatur cogitaverat cogitaverint cogitaverit cogitaverunt cogitavisset cogitavit cogitent cogitet
+8	908	cathedralis	cathedrale cathedralem cathedrales cathedrali cathedralibus cathedralium
+9	909	vocalis	vocale vocalem vocales vocali vocalia vocalibus vocalium
+10	910	aliquot	
+11	911	cognomen	cognomina cognomine cognomini cognominibus cognominis cognominum
+12	912	complures	complura compluria compluribus compluriens compluries complurium
+13	913	obeo	obeat obeunda obeunt obibat obibit obierit obierunt obiisse obiisset obiit obire obirent obiret obisse obisset obit obito obitu obitum obiturus obivisset
+14	914	vestigium	vestigia vestigiis vestigio vestigiorum
+15	915	ramus	rame rami ramis ramo ramorum ramos ramum
+16	916	nondum	
+17	917	revertor	reversum reversurus reversus revertantur revertaris revertebatur revertendi revertendum revertens revertere reverteretur reverti revertitur reverto revertuntur
+18	918	appellatio	appellatione appellationem appellationes appellationi appellationibus appellationis appellationum
+19	919	libellus	libelli libellis libello libellorum libellos libellum
+20	920	cantus	canti cantibus cantis canto cantos cantu cantui cantum cantuum
+21	921	operarius	operari operaria operariae operariam operariarum operarias operarii operariis operario operariorum operarios operarium
+22	922	lector	lectorem lectores lectori lectoribus lectoris lectorium lectorum lectrices lectrix
+23	923	advenio	advenerant advenerat advenerint advenerit advenerunt adveniant advenias adveniat adveniebant adveniebat adveniens advenient advenire advenirent adveniret advenis advenisse advenissent advenisset advenit advenitur adveniunt adventu adventum adventurae adventuras adventure adventuris
+24	924	succedo	succedebantur succedebat succedens succedere succederent succederet succedit succedunt successerat successerint successerit successerunt successisse successisset successit successu successum successurus
+25	925	accuso	accusabant accusabantur accusabat accusabatur accusandum accusant accusantur accusarant accusarat accusare accusarent accusarentur accusaretur accusari accusarunt accusat accusato accusatum accusatur accusatus accusaverant accusaverint accusaverunt accusavisse accusavisset accusavit
+26	926	suffragium	suffragia suffragii suffragiis suffragio suffragiorum
+27	927	multitudo	multitudine multitudinem multitudines multitudini multitudinis multitudinum
+28	928	affectus	adfectus affectae affectam affecti affectibus affectis affecto affectorum affectos affectu affectum affectuum
+29	929	grammatica	grammaticae grammaticam grammaticarum grammaticas grammaticis grammaticorum
+30	930	flos	flore florem flores floribus floris florum flosculi
+31	931	coniunctum	coniuncta coniuncti coniunctis coniuncto coniunctorum conjunctum
+32	932	septimus	septima septimae septimam septimarum septimi septimo
+33	933	ecclesiasticus	ecclesiastica ecclesiasticae ecclesiasticam ecclesiasticarum ecclesiasticas ecclesiastici ecclesiasticis ecclesiastico ecclesiasticorum ecclesiasticos ecclesiasticum
+34	934	interpretatio	interpretatione interpretationem interpretationes interpretationi interpretationibus interpretationis interpretationum
+35	935	investigatio	investigatione investigationem investigationes investigationi investigationibus investigationis investigationum
+36	936	profectus	profecta profectae profectam profectas profecti profectis profecto profectos profectu profectum
+37	937	reditus	rediti reditibus reditu reditui reditum redituum
+38	938	limes	limite limitem limites limiti limitibus limitis limitium limitum
+39	939	verto	versu versum vertam vertamus vertantur vertare vertat vertatur verte vertebant vertebantur vertebat vertebatur vertendis vertendo vertens vertent verterat vertere verteris verterit verterunt vertet verti vertis vertit vertitur vertunt vertuntur
+40	940	vicarius	vicari vicaria vicariae vicariam vicarias vicarii vicariis vicario vicariorum vicarios vicarium
+41	941	virgo	virgine virginem virgines virgini virginibus virginis virginum
+42	942	avis	ave avem aves avi avia aviae aviam avibus avii aviis avium have
+43	943	aureus	aureae auream aurearum aureas aurei aureis aureo aureorum aureos aureum
+44	944	decerno	decernant decernantur decernatur decernebant decernebantur decernebat decernendi decernendo decernendum decernens decernere decernerentur decerneret decerneretur decernet decerni decernimus decernit decernitur decernunt decernuntur decretu decretus decreverant decreverat decreverunt decrevi decrevisse decrevissent decrevisset decrevit
+45	945	occupo	occupabant occupabat occupabatur occupabit occupandis occupando occupandum occupans occupant occupantur occupare occuparent occuparentur occupari occupasse occupat occupatis occupato occupatum occupatur occupaverant occupaverat occupavere occupaverunt occupavisse occupavissent occupavit occupet
+46	946	definitio	definitione definitionem definitiones definitionibus definitionis definitionum
+47	947	visus	visa visae visam visarum visas visi visis viso visos visu visuum
+48	948	incolo	incolabant incolabat incolabatur incolant incolare incolaret incolas incolat incolaverant incolaverunt incolavissent incolebant incolebat incolebatur incolens incolere incolerent incolis incolit incolitur incoluerunt incoluisse incoluit incolunt incoluntur
+49	949	antiquitas	antiquitate antiquitatem antiquitates antiquitatibus antiquitatis antiquitatum
+50	950	passus	passa passae passas passi passibus passis passo passu passum passuum
+51	951	cetera	ceteris ceterorum
+52	952	nolo	nolebant nolebat nolens noli nolim nolimus nolint nolit nolite nolle nollent nollet noluerant noluerat noluerit noluerunt nolui noluisse noluisset noluit nolumus nolunt
+53	953	peregrinus	peregrina peregrinae peregrinam peregrinarum peregrinas peregrini peregrinis peregrino peregrinorum peregrinos peregrinum
+54	954	ministerium	ministeria ministerii ministeriis ministerio ministeriorum
+55	955	minime	
+56	956	asia	asiae asiam
+57	957	emo	emant emat eme emebant emebantur emebat emendi emendum ement emerant emerat emere emerent emeret emerunt emet emi emisse emisset emit emitur empsit emptum empturus emptus emunt emuntur
+58	958	orior	ori oriantur oriatur oriebantur oriebatur orietur orirentur oriretur oriri oritur oriundi oriundo oriundum oriuntur ortu ortum
+59	959	exprimo	expresserat expressere expressi expressit expressum expressus exprimant exprimantur exprimat exprimatur exprimebat exprimebatur exprimendi exprimendum exprimens expriment exprimere exprimerentur exprimi exprimimus exprimit exprimitur exprimunt exprimuntur
+60	960	oportet	oporteat oportebat oportere oporteret oportuerit oportuit
+61	961	vas	vada vade vadem vades vadis vado vadum vasa vase vases vasibus vasis vaso vasorum vasum
+62	962	aperio	aperiant aperiat aperiebantur aperiebatur aperiendas aperiendi aperiendis aperiendo aperiendorum aperiendum aperiens aperiet aperietur aperire aperirent aperiret aperiretur aperiri aperis aperit aperitur aperiunt aperiuntur apertus aperuerant aperuerunt aperuisse aperuisset aperuit
+63	963	accedo	accedant accedat accede accedebant accedebat accedendum accedens accedere accederent accederet accedimus accedit acceditur accedunt accesserant accessere accesserit accesserunt accessi accessisse accessisset accessisti accessit accessu accessum
+64	964	energia	energiae energiam energiarum energias
+65	965	dignus	digna dignae dignam dignarum dignas digne digni dignior dignis digno dignorum dignos dignum
+66	966	permitto	permiserit permiserunt permisisset permisit permissu permissum permissus permittantur permittas permittat permitte permittebant permittebat permittebatur permittendo permittens permittent permittere permitterent permitterentur permitteret permittet permittis permittit permittitur permittunt permittuntur
+67	967	educatio	educatione educationem educationi educationis
+68	968	quin	
+69	969	regimen	regimina regimine regimini regiminibus regiminis regiminum
+70	970	vendo	vendant vendantur vendat vende vendebantur vendebat vendebatur vendendi vendendo vendere venderentur venderet venderetur vendi vendiderat vendiderunt vendidisse vendidisset vendidit vendit venditis venditum venditur venditus venduntur
+71	971	profero	proferantur proferas proferat proferebant proferebantur proferebat proferebatur proferendi proferendo proferendum proferens proferre proferret proferri profers profert profertur proferunt proferuntur prolatum prolatus protulerat protulere protulerunt protulisse protulissent protulit
+72	972	praesto	praestabant praestabat praestandum praestandus praestans praestant praestantur praestare praestarent praestaret praestat praestatis praestato praestatur praestavisse praestes praestet praestiterat praestiterit praestiterunt praestiti praestitis praestitissent praestitit praestitum
+73	973	fautor	fautore fautorem fautores fautori fautoribus fautorum fautricem fautrices fautrix
+74	974	linguisticus	linguistica linguisticae linguisticam linguisticarum linguisticas linguistice linguistici linguisticis linguistico linguisticorum linguisticos linguisticum
+75	975	alio	
+76	976	error	errore errorem errores errori erroribus erroris errorium errorum
+77	977	patricius	patrici patricia patriciae patriciam patricii patriciis patricio patriciolus patriciorum patricios patricium
+78	978	camera	camara camerae cameram camerarum cameras cameris
+79	979	pedes	pedite peditem pedites peditibus peditis peditorum peditum
+80	980	geno	genam genas gene genere generentur generet generetur generis genes genesim genis genita genitae genitam geniti genito genitorem genitores genitoribus genitoris genitum genitur genitus genuerat genuere genuerint genuerunt genuisse genuissent genuit genuntur
+81	981	produco	producamus producant producantur producat producatur producebantur producebat producendi producendum producens producent producentur producere producerentur produceret produceretur producet produci producit producite producitur productus producunt producuntur produxerant produxere produxerunt produxisse produxissent produxit
+82	982	possideo	possedere possederit possedit possessum possessus possideat possidebant possidebat possidemus possidendi possidens possident possidere possideret possideri possides possidet possidetur
+83	983	disputo	disputabant disputabantur disputabat disputabatur disputamus disputandi disputando disputandum disputant disputantur disputare disputaret disputaretur disputat disputatis disputato disputatum disputatur disputatus disputaverunt disputavit disputetur
+84	984	deleo	delebant delebat delebatur delebunt delebuntur delenda delendam delendas delendi delendo delendum delens delent delentur delere delerent deleret deleretur deleri delerunt deletis deleto deletum deletur deletus deleverant deleverat deleverunt delevi delevisse delevit
+85	985	studiosus	studiosa studiosae studiosam studiose studiosi studiosis studiosissime studiosissimus studiosius studioso studiosorum studiosos studiosum
+86	986	sovieticus	sovietica sovieticae sovieticam sovieticarum sovieticas sovietici sovieticis sovietico sovieticorum sovieticos sovieticum
+87	987	methodus	methodi methodis methodo methodorum methodos methodum
+88	988	saltem	saltim
+89	989	angulus	angello anglus anguli angulis angulo angulorum angulos angulum
+90	990	plebs	plebe plebeis plebem plebes plebi plebibus plebis
+91	991	sinistra	sinistrae sinistram sinistrarum sinistras sinistris
+92	992	vivus	viva vivae vivam vivarum vivas vive vivi vivis vivorum vivos vivum
+93	993	quare	
+94	994	negotium	negoti negotia negotiabant negotii negotiis negotio negotiorum
+95	995	dissimilis	dissimile dissimilem dissimiles dissimili dissimilia dissimilibus dissimiliter dissimilium
+96	996	gloria	gloriae gloriam gloriis
+97	997	dextra	dexteram dextrae dextram dextras dextris
+98	998	concedo	concedamus concedat concedatur concede concedebant concedebantur concedebat concedebatur concedendam concedendo concedendorum concedendum concedens concedere concederent concederetur concedetur concedi concedimus concedit conceditur concedunt conceduntur concesserant concesserat concesseris concesserit concesserunt concessi concessisset concessit concessum
+99	999	iaponicus	iaponica iaponicae iaponicam iaponicarum iaponicas iaponice iaponici iaponicis iaponico iaponicorum iaponicos iaponicum japonicus
+100	1000	recte	rectissime rectius

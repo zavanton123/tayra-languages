@@ -1,0 +1,100 @@
+1	3801	admirabilis	admirabile admirabilem admirabili admirabilia admirabiliter admirabilius
+2	3802	praetendo	praetendebant praetendebat praetendens praetenderat praetenderunt praetendit praetenditur praetendunt praetentum
+3	3803	dissentio	dissenserunt dissensis dissensum dissensus dissentiant dissentiebant dissentiret dissentit dissentitur dissentiunt
+4	3804	perspicio	perspectum perspexerat perspexerunt perspexisset perspexit perspicere perspiceret perspici perspiciens perspicies perspicit perspicitur perspiciuntur
+5	3805	exercito	exercitabantur exercitans exercitant exercitantur exercitare exercitatis exercitator exercitatur exercitent exercitor exercitores
+6	3806	proicio	proicere proicerent proici proiciebantur proiciebat proicis proiciuntur proiecerat proiecisse proiecit proiectu proiectum proiectus
+7	3807	egressus	egressa egressi egressu
+8	3808	morsus	morse morsibus morso morsu morsum morsuum
+9	3809	ingratus	ingrata ingratam ingratis ingratissimus ingrato ingratorum ingratos ingratum
+10	3810	postulatus	postulata postulatae postulatam postulatas postulati postulato postulatorum postulatum
+11	3811	praelatus	praelata praelatae praelatam praelati praelatis praelato praelatorum praelatum
+12	3812	lobus	lobi lobis lobo lobos
+13	3813	abusus	abusi abusis abuso abusorum abusos abusu abusum
+14	3814	gravida	gravidam gravidarum gravidis
+15	3815	prospectus	prospectu prospectum
+16	3816	obnoxius	obnoxia obnoxiae obnoxiam obnoxii obnoxiorum obnoxios obnoxium
+17	3817	ablatus	ablata ablatae ablatam ablatas ablatis ablato ablatum
+18	3818	confusus	confusa confusae confusam confusas confuse confusi confusis confusum
+19	3819	necandus	necandi necandis necando necandos necandum
+20	3820	confinium	confini confinia confiniis confinio
+21	3821	impendo	impendat impendebant impendebat impendendi impendens impendent impendere impenderet impenderetur impenderunt impendet impendisse impendit impendunt impensum
+22	3822	capsa	capsae capsam capsella capsis capsula
+23	3823	ovo	ova ovans ovata ovati ovatis oves
+24	3824	cavum	cava cave cavi cavis cavo cavorum cavos
+25	3825	mola	molae molam molarum molas molis
+26	3826	curtus	curtas curti curtis curtum
+27	3827	tutus	tuta tutam tutant tute tuti tutior tutis tutissime tutius tuto tutorum
+28	3828	augusto	augusta augustas augustor
+29	3829	tactus	tacta tacto tactos tactu tactuum
+30	3830	tueor	tueantur tuebantur tuebatur tuendi tuendo tuendum tuentur tuerentur tueretur tueri tuetur
+31	3831	calx	calce calcem calces calcibus calcio calcis calcium
+32	3832	aegroto	aegrotabant aegrotabat aegrotando aegrotans aegrotare aegrotaret aegrotas aegrotasse aegrotaverunt aegrotavit
+33	3833	eluceo	eluce elucebantur elucebat elucent eluceret elucet eluxit
+34	3834	nanus	nani nanis nano nanorum nanos
+35	3835	tero	teratur terebant terebat terendi terendo terendum terere tererentur tereretur teret teretis tritum tritus trivisse trivit
+36	3836	regulo	regulant regulantur regularem regulares regulari regulas regulatur regulentur
+37	3837	puteo	pute putemur putemus putent putentur putere putes putet putetur
+38	3838	coeptus	coepta coeptae coeptam coepti coepto coeptorum coeptos
+39	3839	arbitror	arbitrabantur arbitrabatur arbitrandum arbitrantur arbitraretur arbitrari arbitraris arbitratu arbitratur arbitrentur arbitretur
+40	3840	exercitium	exerciti exercitia exercitii exercitiis exercitio exercitiorum
+41	3841	citus	cita citior citissime citius citum
+42	3842	punctus	puncta puncti punctis puncto punctorum punctos
+43	3843	sonorus	sonora sonorae sonoram sonorarum sonoras sonoris sonorum
+44	3844	commisceo	commiscebantur commiscebatur commiscens commiscent commiscentur commiscere commisceri commiscet commiscetur commiscuit commixtum
+45	3845	arceo	arce arceant arceantur arcebant arcendi arcendum arcentur arcere arcerent arceret arces arcet arcuit
+46	3846	attendo	attendant attendebant attendebat attendendum attendere attenderet attenderunt attendit attenditur attendunt attentum
+47	3847	distringo	districtu districtum
+48	3848	monialis	moniales monialibus monialium
+49	3849	strabo	strabone strabonem straboni strabonis
+50	3850	integritas	integritate integritatem integritatis
+51	3851	undeviginti	
+52	3852	quot	
+53	3853	que	
+54	3854	necari	
+55	3855	cerrus	cerri cerro
+56	3856	autobiographia	autobiographiae autobiographiam
+57	3857	aethiopius	aethiopia aethiopiae aethiopiam
+58	3858	laetitia	laetitiae laetitiam
+59	3859	chemia	chemiae chemiam chymia
+60	3860	inauguro	inaugurabatur inaugurare inauguratum inauguratus inauguravit
+61	3861	medicamen	medicamina medicamine medicaminibus medicaminum
+62	3862	auspicium	auspicia auspiciis auspicio auspiciorum
+63	3863	meschita	meschitae meschitam meschitarum
+64	3864	sepulcretum	sepulcreti sepulcretis sepulcreto
+65	3865	incolumis	incolume incolumem incolumes
+66	3866	indefessus	indefessa indefessae indefesse indefesso
+67	3867	amplificatio	amplificatione amplificationem amplificationis
+68	3868	hegemonia	hegemoniae hegemoniam
+69	3869	pontificatus	pontificatu pontificatum
+70	3870	membrana	membranae membranam membranarum membranis
+71	3871	entitas	entitate entitatem entitates entitatis entitatum
+72	3872	selectio	selectione selectionem selectionis
+73	3873	thuringiensis	thuringiense thuringienses thuringiensi thuringiensium
+74	3874	memorialis	memoriale memorialem memoriales memoriali memorialia memorialibus
+75	3875	spurius	spuriam spurii spurio spurios spurium
+76	3876	inimicitia	inimicitiae inimicitiam inimicitiarum inimicitias inimicitiis
+77	3877	quadrans	quadrante quadrantem quadrantes quadrantis
+78	3878	inops	inopes inopi inopibus inopium
+79	3879	fidelitas	fidelitate fidelitatem fidelitatibus fidelitatis
+80	3880	antecessor	antecessore antecessores antecessoribus antecessoris antecessorum
+81	3881	metaphysica	metaphysicae metaphysicam metaphysicas metaphysicis
+82	3882	coordinata	coordinatae coordinatarum coordinatas coordinatis
+83	3883	labrum	labra labris labro lavabro
+84	3884	fiscus	fisci fiscis fisco fiscos fiscum
+85	3885	secerno	secernebat secernendus secernere secerni secernunt secernuntur secretus
+86	3886	genius	genii geniis genio genium
+87	3887	caulis	caule caulem caules cauli caulibus
+88	3888	sicco	sicca siccandi siccando siccans siccantur siccas siccat siccato siccatur
+89	3889	fertilitas	fertilitate fertilitatem fertilitatis
+90	3890	medulla	medullae medullam
+91	3891	antarcticus	antarctica antarcticae antarcticam antarctico antarcticorum antarcticum
+92	3892	ambrosius	ambrosia ambrosii ambrosio ambrosium
+93	3893	cellularis	cellularem cellulares cellulari cellularibus cellularium
+94	3894	telescopium	telescopia telescopii telescopiis telescopio telescopiorum
+95	3895	sella	sellae sellam sellarum sellas sellis
+96	3896	nasalis	nasale nasalem nasales nasalibus nasalium
+97	3897	sucus	suci suco sucorum sucum
+98	3898	diabolus	diaboli diabolis diabolo diabolos diabolum
+99	3899	vivarium	vivaria vivarii vivariis vivario
+100	3900	viculus	viculi viculis viculo viculos viculum

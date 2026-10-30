@@ -1,0 +1,100 @@
+1	1301	differentia	differentiae differentiam differentiarum differentias differentiis
+2	1302	incendium	incendia incendii incendiis incendio incendiorum
+3	1303	agricola	agricolae agricolam agricolarum agricolas agricolis
+4	1304	adultus	adulta adultae adultam adultarum adultas adulti adultis adulto adultorum adultos adultum
+5	1305	affero	affer afferam afferantur afferat afferebat afferendo afferendum afferens afferet afferre afferri affert afferte affertur afferunt afferuntur allatum allatus attulerant attulerat attulerunt attulisse attulit
+6	1306	congruo	congruam congruant congruat congruatur congruebant congruebat congruendum congruens congruent congruere congruerent congrueret congruet congruisse congruit congruunt congruuntur
+7	1307	duro	dura durabant durabat durabit durans durant durare durarent duraret duras durasse durat duraverit duraverunt duravisse duravit duret
+8	1308	pila	pilae pilam pilarum pilas pilis
+9	1309	attineo	attentum attineant attineantur attinebat attinendo attinent attinere attinerent attineret attinet attinuerat
+10	1310	biologicus	biologica biologicae biologicam biologicas biologici biologicis biologico biologicos biologicum
+11	1311	quilibet	cuilibet cuiuslibet quaelibet qualibet quarumlibet quaslibet quemlibet quibuslibet quidlibet quodlibet quorumlibet quoslibet
+12	1312	finalis	finale finalem finales finali finalia finalibus finalium
+13	1313	remaneo	remaneant remaneat remanebant remanebat remanebit remanendum remanens remanent remanere remaneret remanet remanserant remanserat remanserint remanserit remanserunt remansi remansisse remansit
+14	1314	chemicus	chemica chemicae chemicam chemicarum chemicas chemici chemicis chemico chemicorum chemicos chemicum
+15	1315	thesaurus	thesauri thesauris thesauro thesaurorum thesauros thesaurum
+16	1316	iudaicus	iudaica iudaicae iudaicam iudaicarum iudaicas iudaici iudaicis iudaico iudaicos iudaicum
+17	1317	oceanus	oceani oceanis oceano oceanorum oceanos oceanum
+18	1318	qualitas	qualitate qualitatem qualitates qualitatibus qualitatis qualitatum
+19	1319	investigo	investigabant investigabat investigamus investigandi investigando investigandum investigans investigant investigantur investigare investigari investigat investigatis investigatum investigatur investigatus investigaverunt investigavit investigent investiget
+20	1320	institutio	institutione institutionem institutiones institutioni institutionibus institutionis institutionum
+21	1321	complexus	complexa complexae complexi complexibus complexis complexorum complexos complexu complexui complexum complexuum
+22	1322	exitus	exitibus exitu exitum exituum
+23	1323	mirum	mira miri miris miro
+24	1324	exsilium	exilium exsili exsilii exsilio
+25	1325	dimidium	dimidia dimidii dimidio
+26	1326	anterior	anteriora anteriore anteriorem anteriores anteriori anterioribus anterioris anteriorum anterius
+27	1327	patior	passu patere paterentur pateretur pati patiantur patiatur patiebantur patiebatur patienda patiendo patiens patiente patienti patientibus patientis patientium patio patis patitur patiuntur
+28	1328	excito	excitabant excitabat excitabatur excitans excitant excitare excitaret excitaretur excitari excitarunt excitasse excitat excitatis excitatum excitatur excitatus excitaverunt excitavisset excitavit excitent excitet
+29	1329	cognata	cognatae cognatas cognati cognatis cognato cognatorum cognatos cognatum cognatus
+30	1330	abhinc	
+31	1331	districtus	districti districtis districtorum districtos districtum
+32	1332	crimen	crimina crimine crimini criminibus criminis criminum
+33	1333	pius	pi pia piae piam piarum pias pie pientissime pii piis pio piorum pios pium
+34	1334	comparo	comparabat comparandi comparando comparandum comparans comparant comparantur comparare compararet comparari comparasse comparasti comparat comparate comparatis comparato comparatu comparatum comparatur comparaturus comparatus comparaveris comparaverunt comparavit comparem comparentur comparere compares comparet comparetur
+35	1335	exeo	exeat exeundum exeunt exi exibant exiebant exiens exierit exierunt exiisse exiit exire exirent exiret exisse exissem exisset exit exitu exitum exivit
+36	1336	conscribo	conscribantur conscribebat conscribendi conscribendo conscribere conscriberent conscribi conscribit conscribitur conscribuntur conscripserat conscripserint conscripserit conscripserunt conscripsisse conscripsisset conscripsit conscriptum
+37	1337	casa	casae casai casam casarum casas casis
+38	1338	commemoro	commemorabatur commemorandam commemorandi commemorandum commemorans commemorant commemorantur commemorare commemorarent commemorari commemorat commemoratis commemoratum commemoratur commemoratus commemoraverit commemoravit commemoretur
+39	1339	litterarius	litteraria litterariae litterariam litterariarum litterarias litterarie litterarii litterariis litterario litterariorum litterarios litterarium
+40	1340	requiro	requiram requirant requirat requirebam requirebantur requirebat requirendum requirent requirere requires requiret requiri requiris requirit requiritur requirunt requiruntur requisiit requisitum requisiverat requisivere requisivit
+41	1341	evolvo	evolutum evolutus evolvantur evolvat evolvatur evolvebantur evolvebat evolvebatur evolvendi evolvendo evolvendum evolvens evolvent evolvere evolverentur evolveret evolverit evolverunt evolvi evolvisse evolvit evolvitur evolvunt evolvuntur
+42	1342	num	
+43	1343	cerebrum	cerebra cerebri cerebro cerebrorum
+44	1344	theologia	theologiae theologiam
+45	1345	gladius	gladii gladiis gladio gladiorum gladios gladium
+46	1346	angelus	angeli angelis angelo angelorum angelos angelum
+47	1347	progressus	progressa progressae progressi progressis progresso progressos progressu progressui progressum
+48	1348	multiplex	multiplicem multiplices multiplici multiplicia multiplicibus multiplicis multipliciter multiplicium
+49	1349	minutus	minimus minuta minutae minutam minutarum minutas minute minuti minutim minutis minutos minutum
+50	1350	difficilis	difficilem difficiles difficili difficilia difficilibus difficilior difficiliter difficilius difficillime difficillimus difficulter
+51	1351	comitia	comitiis comitiorum
+52	1352	adduco	adducant adducat adducatur adducendi adducere adducet adduci adducimur adducit adducitur adductum adductus adducuntur adduxerant adduxerat adduxerunt adduxisse adduxit
+53	1353	iussu	
+54	1354	semel	
+55	1355	millio	millionem milliones millioni millionibus millionis millionium
+56	1356	vehementer	vehementissime vehementius
+57	1357	agricultura	agriculturae agriculturam
+58	1358	scholasticus	scholastica scholasticae scholasticam scholasticarum scholasticas scholastici scholasticis scholastico scholasticorum scholasticos scholasticum
+59	1359	gratus	grata gratae gratam gratarum gratas grate grati gratior gratissime gratissimus gratius grato gratos gratum
+60	1360	aegyptius	aegyptia aegyptiae aegyptiam aegyptiarum aegyptias aegyptie aegyptii aegyptiis aegyptio aegyptiorum aegyptios aegyptium
+61	1361	difficultas	difficultate difficultatem difficultates difficultatibus difficultatis difficultatium difficultatum
+62	1362	ventus	venti ventis vento ventorum ventos ventum
+63	1363	vigil	vigile vigilem vigiles vigilia vigiliae vigiliarum vigilias vigilibus vigiliis vigilis vigilium vigilum
+64	1364	responsum	responsa responsi responsis responso responsorum
+65	1365	aurum	auri auro orum
+66	1366	gesta	gestis gestorum
+67	1367	damnatus	damnata damnatam damnatas damnati damnato damnatorum damnatos damnatum
+68	1368	futurum	futuri futuris futuro futurorum
+69	1369	fruor	fru fruantur fruaris fruatur fructu fructum fructurus fruebantur fruebatur fruemur fruenda fruendo fruendos fruendum fruens fruentur fruerentur frueretur frueris frui fruitur fruitus fruuntur
+70	1370	melioro	meliora meliorandum meliorare meliorarentur melioraretur meliorari meliorat melioratis melioratum melioravisse meliorem meliorentur meliores
+71	1371	admodum	
+72	1372	diurnarius	diurnarii diurnariis diurnario diurnariorum diurnarios diurnarium
+73	1373	octavus	octava octavae octavam octavi octavis octavo octavos
+74	1374	articulus	articuli articulis articulo articulorum articulos articulum
+75	1375	tectum	tecta tecti tectis tecto tectorum
+76	1376	solaris	solare solarem solares solari solaria solaribus solario solarium
+77	1377	tributum	tributa tributi tributis tributo tributorum
+78	1378	rectus	rectae rectam rectas recti rectior rectis recto rectorum rectos
+79	1379	tractus	tracta tractae tractas tracti tractibus tractis tractos tractu tractum tractuum
+80	1380	sero	satam sati sato satorum satu satum satus sera serae seram seras seratur serendae serendi serere sereres seres seri seris serissime seritur sertae sertis serto sertum seruntur set severam severas severat severe severis severo sevisset
+81	1381	basilica	basilicae basilicam basilicarum basilicas basilicis
+82	1382	vito	vitabant vitabantur vitabat vitamini vitanda vitandam vitandas vitandi vitando vitandorum vitandum vitant vitantes vitare vitarent vitarentur vitaret vitaretur vitari vitas vitat vitatis vitatum vitatur vitaverunt vitavisse vitavit vitem vitemus vitentur vites vitet vitetur
+83	1383	ovum	ova ove oves ovi ovibus ovis ovium ovo ovorum
+84	1384	introduco	introduc introducantur introducebant introducebat introducebatur introducendi introducens introducere introduceret introduceretur introduci introducit introducitur introductum introductus introducunt introducuntur introduxerat introduxere introduxerunt introduxisse introduxit
+85	1385	dimitto	dimiserunt dimisisse dimisit dimissum dimissus dimittant dimittar dimittat dimitte dimittebatur dimittendum dimittere dimitteret dimitteretur dimitti dimittimus dimittit dimittitur dimittunt dimittuntur
+86	1386	praenomen	praenomina praenomine praenomini praenominibus praenominis praenominum
+87	1387	opusculum	opuscula opusculi opusculis opusculo
+88	1388	eruditio	eruditione eruditionem eruditiones eruditionis
+89	1389	associatio	associatione associationem associationes associationi associationis associationum
+90	1390	femininus	feminina femininae femininam femininas feminini femininis feminino femininorum femininum
+91	1391	saxum	saxa saxi saxis saxo saxorum
+92	1392	idea	ideae ideam idearum ideas ideis
+93	1393	rete	reti retia retibus retis retium retum
+94	1394	clausus	clausa clausae clausam clausarum clausas clausi clausis clauso clausos clausum
+95	1395	canis	cane canem canes cani canibus canicula caniculam canum
+96	1396	difficile	difficilissime difficilius difficillime
+97	1397	regius	regiae regiam regiarum regias regii regiis regiorum regios regium
+98	1398	invito	invita invitabantur invitabat invitans invitant invitantur invitare invitaret invitaretur invitari invitasse invitat invitatis invitatur invitatus invitaverat invitaverunt invitavit invitet
+99	1399	subiectum	subiecta subiecti subiectis subiecto subiectorum
+100	1400	depono	deponant deponatur deponebantur deponebat deponenda deponendae deponendam deponendas deponendi deponendo deponendum deponere deponerent deponeret deponit deponitur deponunt deponuntur depositurus depositus deposuerant deposuerat deposuere deposuerunt deposuit

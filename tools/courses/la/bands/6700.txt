@@ -1,0 +1,100 @@
+1	6601	suavitas	suavitate suavitatem suavitatis
+2	6602	vestibulum	vestibulo
+3	6603	portentum	portenta portento
+4	6604	incarceratio	incarceratione incarcerationem incarcerationis
+5	6605	aspere	asperius asperrime
+6	6606	aeolicus	aeolica aeolicis
+7	6607	acceleratio	accelerationem accelerationes accelerationis
+8	6608	corrado	corradere corradi
+9	6609	abstraho	abstractum abstrahat abstrahi
+10	6610	delectatio	delectatione delectationes
+11	6611	arista	aristae aristis
+12	6612	suspiciosus	suspiciosae suspiciosas suspiciose
+13	6613	castrensis	castrenses castrensia castrensibus
+14	6614	perpendicularis	perpendicularem perpendiculares
+15	6615	pervagor	pervagantur pervagatur pervagentur
+16	6616	liquefactio	liquefactionem liquefactionis
+17	6617	parietina	parietinae parietinas parietinis
+18	6618	iudiciarius	iudiciaria iudiciariis iudiciario iudiciarios
+19	6619	sion	sia sionis
+20	6620	resumo	resumens resumerent resumpsit resumunt
+21	6621	legumen	legumina legumine leguminibus leguminum
+22	6622	recusatio	recusationem recusationes recusationis
+23	6623	implicatio	implicatione implicationes implicationibus implicationis
+24	6624	praematurus	praematura praematurae praemature
+25	6625	febris	febre febrem febrim
+26	6626	refectio	refectionem refectionis
+27	6627	iactura	iacturae iacturam iacturis
+28	6628	innato	innata innatant innatas innatat
+29	6629	fictitius	fictitiae fictitiarum fictitias fictitii
+30	6630	impotens	impotentem impotentia inpotens
+31	6631	interventio	interventionem interventiones
+32	6632	necator	necatore necatorum
+33	6633	abunde	abundius
+34	6634	eludo	eludat eludebant eludet eludit
+35	6635	curialis	curialem curiales
+36	6636	exordior	exorditur exordiuntur exorsum exorsus
+37	6637	vituperatio	vituperatione vituperationem vituperationes vituperationibus
+38	6638	lucror	lucrandi lucrandum lucratur lucratus lucretur
+39	6639	pedester	pedestres pedestri pedestris
+40	6640	dispensatio	dispensationem dispensationis
+41	6641	modestia	modestiae modestiam
+42	6642	lacero	laceratis laceratum laceratus laceravit
+43	6643	rattus	ratte ratti rattorum rattos
+44	6644	semitonus	semitoni semitono
+45	6645	tentamen	tentamina tentaminibus
+46	6646	duplicatio	duplicatione duplicationis
+47	6647	magnificentia	magnificentiae magnificentiam
+48	6648	spintria	spintriae spintrias spintriis
+49	6649	disquisitio	disquisitiones disquisitionibus disquisitionum
+50	6650	homilia	homiliae homiliam
+51	6651	multicolor	multicolores multicolori multicoloria multicoloris
+52	6652	crocodilus	crocodili crocodilis crocodilorum crocodilos
+53	6653	medalia	medaliam medalias
+54	6654	imbecillitas	imbecillitate imbecillitates imbecillitatis
+55	6655	prorogo	prorogant prorogat prorogato prorogatum prorogavit
+56	6656	calumnia	calumniae calumniam calumniarum calumnias calumniis
+57	6657	scaurus	scauri scauro
+58	6658	onustus	onusta onustam onusti onustum
+59	6659	praedecessor	praedecessores praedecessoris
+60	6660	accretio	accretionem accretionis
+61	6661	tunicula	tuniculae tuniculam tuniculas tuniculis
+62	6662	gymnasticus	gymnastica gymnasticae gymnasticum
+63	6663	abacus	abaci abaco
+64	6664	armamentum	armamenta armamentis
+65	6665	praedator	praedatores praedatori praedatoribus praedatoris
+66	6666	gratiosus	gratiosa gratiosae gratiosarum gratiosum
+67	6667	dirus	diris diro dirorum dirum
+68	6668	metamorphosis	metamorphoseos metamorphoses
+69	6669	absorptio	absorptione absorptionem absorptionis
+70	6670	simultas	simultatem simultates simultatis
+71	6671	depso	depsendi depsens depsent
+72	6672	pistolium	pistolia pistoliis pistolio
+73	6673	caprea	capreae caprearum capreas capreis
+74	6674	vertebratus	vertebrata vertebrate vertebrati vertebratorum vertebratum
+75	6675	dolorosus	dolorosa dolorose dolorosis
+76	6676	tabellarius	tabellaria tabellarii
+77	6677	divinatio	divinatione divinationis
+78	6678	aphorismus	aphorismi aphorismis aphorismo aphorismorum
+79	6679	planetula	planetulae planetularum
+80	6680	speculatorius	speculatoria speculatoriae speculatorias
+81	6681	exoticus	exotica exoticis exoticorum
+82	6682	radiophonum	radiophona radiophoni radiophono
+83	6683	patina	patinae patinam patinarum patinas
+84	6684	rocca	roccae roccam
+85	6685	maronitus	maronita maronitae maronitarum maronitis
+86	6686	coniunctivus	coniunctivae coniunctivo coniunctivum
+87	6687	exsecror	exsecrabantur exsecratur exsecratus exsecretur
+88	6688	numeralis	numerali numeralia numeralibus
+89	6689	quaestuosus	quaestuosa quaestuosarum quaestuosum
+90	6690	gutta	guttae guttis
+91	6691	imminutio	imminutione imminutionem imminutiones
+92	6692	symmetricus	symmetrica symmetricae symmetrice symmetricis symmetricos
+93	6693	ruptura	rupturae rupturam
+94	6694	novitius	novitii novitiorum novitium
+95	6695	helicopterum	helicoptera helicopteri helicoptero
+96	6696	adorior	adoriebantur adoriri adoritur adoriuntur
+97	6697	oblectatio	oblectatione oblectationes oblectationis
+98	6698	replicatio	replicationi replicationis
+99	6699	pornographia	pornographiae pornographiam
+100	6700	impendium	impendia impendio

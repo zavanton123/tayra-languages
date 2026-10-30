@@ -1,0 +1,100 @@
+1	9401	aurantiacus	aurantiaca aurantiaco
+2	9402	multiplus	multipla multiplas
+3	9403	coadiutor	coadiutori
+4	9404	respiro	respirandum respirare
+5	9405	versicolor	versicolores
+6	9406	baco	baconi
+7	9407	vaporarium	vaporaria
+8	9408	archipresbyter	archipresbyteri
+9	9409	pluvialis	pluvialium
+10	9410	spirituosus	spirituosa
+11	9411	expugnator	expugnatoris
+12	9412	werra	guerra
+13	9413	infundibulum	infundibuli
+14	9414	tructa	tructae
+15	9415	obsequiosus	obsequioso
+16	9416	propola	propolae propolarum
+17	9417	impurus	impuri impurum
+18	9418	delectabilis	delectabile
+19	9419	lassus	lasso
+20	9420	sanabilis	sanabili
+21	9421	trivialis	trivialibus
+22	9422	israeliticus	israelitica israeliticae
+23	9423	alteratio	alterationes alterationum
+24	9424	calculatorius	calculatoria calculatoriam
+25	9425	inspecto	inspecta
+26	9426	dulcedo	dulcedinem
+27	9427	aristotelicus	aristotelica aristotelicis
+28	9428	excrucio	excruciari excruciatum
+29	9429	notesco	notescit notuerunt notuit
+30	9430	mediocritas	mediocritatis
+31	9431	sindon	sindone sindonis
+32	9432	repugnantia	repugnantiam
+33	9433	tremebundus	tremebunda tremebundi
+34	9434	contradictorius	contradictorias contradictorium
+35	9435	versifico	versificandi versificatum
+36	9436	didascalicus	didascalicos didascalicum
+37	9437	residentia	residentiae residentiam
+38	9438	anilis	anilem anili
+39	9439	habitualis	habituale
+40	9440	retardatio	retardatione retardationem
+41	9441	austerus	austera austeram
+42	9442	amstelodamensis	amstelodamense
+43	9443	invidiosus	invidiosi invidiosis
+44	9444	monoceros	monocerotis
+45	9445	promiscuus	promiscua promiscuum
+46	9446	analphabetismus	analphabetismi
+47	9447	inconcussus	inconcussa inconcussum
+48	9448	jubilaeus	jubilaeum
+49	9449	circumfinio	circumfinire circumfinit
+50	9450	quaerito	quaeritaret quaeritat
+51	9451	semitalis	semitalem semitales
+52	9452	orbiculatus	orbiculata orbiculatis
+53	9453	conflagro	conflagraverunt conflagravit
+54	9454	occaeco	occaecat occaecatus
+55	9455	petiolus	petioli petiolis
+56	9456	brigantes	brigantum
+57	9457	floccus	flocci floccos
+58	9458	pedetemptim	pedetentim
+59	9459	buto	butones
+60	9460	declivitas	declivitate declivitatis
+61	9461	syrtis	syrtem
+62	9462	lupinus	lupinum
+63	9463	parvitas	parvitatem
+64	9464	negotiosus	negotiosi
+65	9465	sartago	sartagine sartaginem
+66	9466	diuersus	diuersarum diuersorum
+67	9467	helcium	helcii
+68	9468	nederlandus	nederlanda nederlando
+69	9469	hallux	hallucem hallucis
+70	9470	pantherinus	pantherina pantherino
+71	9471	chartarius	chartaria chartariae
+72	9472	praeripio	praereptum praereptus
+73	9473	fluminensis	fluminensi
+74	9474	homologo	homologatum
+75	9475	isotopium	isotopia
+76	9476	carbonicus	carbonica carbonici
+77	9477	excerno	excernebant excernunt excrevit
+78	9478	irrigatio	irrigatione irrigationis
+79	9479	secretariatus	secretariatum
+80	9480	paternitas	paternitate paternitatem
+81	9481	suesco	sueverat suevi
+82	9482	displodo	displodendo disploditur
+83	9483	solivagus	solivagum
+84	9484	comatus	comata comatae
+85	9485	atavus	atavis
+86	9486	trabecula	trabeculae trabecularum
+87	9487	coronensis	coronensi
+88	9488	wallus	walle wallis
+89	9489	adhaeresco	adhaeresceret adhaeserat adhaeserunt adhaesit
+90	9490	ingestio	ingestione ingestionem
+91	9491	propino	propinaturus propinavit
+92	9492	helium	helia helii
+93	9493	lembus	lembo lemborum
+94	9494	obelus	obeli
+95	9495	testum	testo
+96	9496	genocidium	genocidii
+97	9497	omnisciens	omniscientem
+98	9498	casella	casellarum
+99	9499	exstirpo	exstirpare exstirpavit
+100	9500	merula	merulae merulam

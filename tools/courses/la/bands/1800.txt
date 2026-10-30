@@ -1,0 +1,100 @@
+1	1701	repeto	repetamus repetat repete repetebant repetebat repetebatur repetendum repetendus repetere repeteret repeti repetis repetisse repetisset repetit repetite repetitis repetitur repetitus repetiverunt repetivisse repetivit repetunt repetuntur
+2	1702	montanus	montana montanae montanam montanarum montanas montani montanis montano montanorum montanos montanum
+3	1703	somnium	somni somnia somnii somniis somniorum
+4	1704	futura	futuris futurorum
+5	1705	damnum	damna damni damnis damno damnorum
+6	1706	queo	curis queamus queant queat queunt quimus quire quiret quirites quiritium quiritum quit quiverunt quivit
+7	1707	diligo	dilectu dilectum dilexerant dilexerat dilexi dilexisse dilexit diligam diligant diligebant diligebat diligebatur diligendis diligendum diligens diligent diligere diligeret diligeretur diliges diliget diligi diligis diligit diligitur diligunt diliguntur
+8	1708	usurpo	usurpabant usurpabantur usurpabat usurpabatur usurpandi usurpando usurpandum usurpant usurpantur usurpare usurparet usurparetur usurpari usurparunt usurpat usurpatis usurpato usurpator usurpatum usurpatur usurpaverat usurpaverunt usurpavit
+9	1709	consulo	consulant consulas consulat consule consulebant consulebantur consulebat consulebatur consulendi consulens consulere consulerentur consuleret consules consuli consulis consulit consultu consuluerit consuluerunt consuluisset consuluit consulunt
+10	1710	induco	inducam inducas inducat inducebant inducebatur inducens inducere induceret inducetur induci inducit inducitur inductum inductus inducunt inducuntur induxerant induxerunt induxi induxit
+11	1711	director	directore directores directoribus directoris directorum directrix
+12	1712	ethicus	ethica ethicae ethicam ethicarum ethicas ethice ethicis ethico ethicorum ethicum
+13	1713	colonus	colone coloni colonis colono colonorum colonos
+14	1714	libenter	libentissime libentius
+15	1715	clima	climata climate climati climatibus climatis climatum
+16	1716	thronus	throni throno thronum
+17	1717	visibilis	visibile visibilem visibiles visibilia visibilibus visibilium
+18	1718	lectio	lectione lectionem lectiones lectionibus lectionis lectionum
+19	1719	translatio	translatione translationem translationes translationi translationibus translationis translationum
+20	1720	organismus	organismi organismis organismo organismorum organismos organismum
+21	1721	solutio	solutione solutionem solutiones solutioni solutionibus solutionis solutionum
+22	1722	merx	marca marcae marcarum marcas marcha marchia merce mercem mercibus mercis mercium
+23	1723	duplex	duplice duplicem duplices duplici duplicia duplicibus duplicis dupliciter duplicium
+24	1724	decennium	decennia decennii decenniis decennio decenniorum
+25	1725	physicus	physicae physicam physicarum physicas physicen physici physicis physico physicorum physicos physicum
+26	1726	ultimo	ultima ultimas ultimate ultimatum
+27	1727	exemplo	exempla exemplare exemplarem exemplares exemplari exemplaria exemplaribus exemplaris exemplarum
+28	1728	discedo	discedant discedat discedebant discedebat discedere discederent discedit disceditur discedunt discesserat discesserunt discessissent discessit discessu discessum
+29	1729	occurro	occurrant occurras occurrebant occurrebat occurrens occurrent occurrere occurreret occurrerint occurrerunt occurret occurrisse occurrit occurrunt occurruntur occursu occursum
+30	1730	extendo	extendebant extendebantur extendebat extendebatur extendendi extendere extenderet extenderetur extendes extendi extendisse extendit extenditur extendunt extenduntur extentus
+31	1731	encyclopaedia	encyclopaediae encyclopaediam encyclopaediarum encyclopaediis encyclopedia
+32	1732	orthodoxus	orthodoxa orthodoxae orthodoxam orthodoxas orthodoxi orthodoxis orthodoxo orthodoxorum orthodoxos orthodoxum
+33	1733	cupidus	cupida cupidae cupidam cupide cupidi cupidine cupidinem cupidini cupidinibus cupidinis cupidinum cupidis cupido cupidos cupidum
+34	1734	st	
+35	1735	septemtrio	septemtrione septemtrionem septemtriones septemtrionibus septemtrionis
+36	1736	servitus	servitute servitutem servitutes servituti servitutis
+37	1737	autocinetum	autocineta autocineti autocinetis autocineto autocinetorum
+38	1738	gothicus	gothica gothicae gothicam gothicas gothice gothici gothicis gothico gothicorum gothicum
+39	1739	mercatorius	mercatoria mercatoriae mercatoriam mercatoriarum mercatorias mercatorii mercatoriis mercatorio mercatorios mercatorium
+40	1740	declinatio	declinatione declinationem declinationes declinationi declinationibus declinationis
+41	1741	histrio	histrione histrionem histriones histrioni histrionibus histrionis histrionum
+42	1742	periculosus	periculosa periculosae periculosas periculose periculosi periculosis periculosissimus periculosius periculoso periculosum
+43	1743	caseus	casei caseis caseo caseorum caseum
+44	1744	sollemnis	solemnis sollemne sollemnem sollemnes sollemni sollemnia sollemnibus sollemnium
+45	1745	patronus	patrone patroni patronis patrono patronorum patronos patronum
+46	1746	odium	odi odii odiis odio
+47	1747	grammaticus	grammaticae grammaticam grammaticarum grammaticas grammatice grammatici grammaticis grammatico grammaticorum grammaticos grammaticum
+48	1748	serius	seria seriae serias serie seriis serio seriorum serium
+49	1749	byzantinus	byzantina byzantinae byzantinam byzantini byzantinis byzantino byzantinorum byzantinos byzantinum
+50	1750	pendo	pendant pendat pende pendebant pendebat pendendi pendendum pendens pendent pendere penderent penderet pendet pendit pendunt penduntur pependerunt pependit
+51	1751	privilegium	privilegia privilegii privilegiis privilegio privilegiorum
+52	1752	annalis	annales annalia annalibus annalium
+53	1753	prex	prece precem preces precibus precis precum
+54	1754	absolvo	absolutum absolutus absolvebant absolvendus absolvent absolverant absolvere absolverunt absolvi absolvit absolvitur
+55	1755	aestimatio	aestimatione aestimationem aestimationes aestimationibus aestimationis aestimationum
+56	1756	similitudo	similitudine similitudinem similitudines similitudini similitudinibus similitudinis
+57	1757	etenim	
+58	1758	opifex	opifice opificem opifices opificibus opificis opificum
+59	1759	communicatio	communicatione communicationem communicationes communicationi communicationibus communicationis communicationum
+60	1760	currus	curribus curros curru currui currum curruum
+61	1761	philologus	philologa philologarum philologi philologis philologo philologorum philologos philologum
+62	1762	continuus	continua continuae continuam continuas continue continui continuis continuos continuum
+63	1763	solutus	soluta solutae solutam solutas soluti solutior solutis soluto solutorum solutum
+64	1764	circumiectus	circumiecta circumiectae circumiectam circumiectas circumiecti circumiectis circumiecto circumiectorum circumiectum
+65	1765	amator	amatore amatorem amatores amatoribus amatoris amatorum amatrice amatricem amatricis amatrix
+66	1766	vicinus	vicinae vicinam vicinarum vicinas vicini vicinis vicino vicinorum vicinos vicinum
+67	1767	oleum	olea oleae oleam olearum olei oleis oleo
+68	1768	pure	pura purae puram puras puri puris puriter purius puro purorum purum purus
+69	1769	laeva	laevae laevam laevis
+70	1770	minuo	minuant minuantur minuat minuatur minuebat minuebatur minuendum minuendus minuens minuerat minuere minuerent minuerentur minueretur minuerunt minui minuit minuitur minutum minuunt minuuntur
+71	1771	ligo	liga ligabant ligabatur ligandi ligando ligantur ligare ligari ligas ligasset ligat ligatis ligato ligatum ligatur ligaverunt ligavit liger ligeris ligones ligonibus
+72	1772	inspicio	inspectum inspectus inspexerat inspexeris inspexerit inspexerunt inspexit inspice inspicere inspicerent inspicerentur inspiceret inspiceretur inspici inspiciantur inspiciat inspiciatur inspiciebat inspiciendi inspiciendo inspiciendum inspiciere inspicimus inspicit inspicitur inspiciunt inspiciuntur
+73	1773	navigo	navigabant navigabat navigandi navigando navigandum navigans navigant navigare navigarent navigat navigatur navigaverat navigaverunt navigavisset navigavit naviget
+74	1774	revenio	revenerunt reveniat reveniebant reveniens revenire reveniret revenisse revenisset revenit reveniunt
+75	1775	archaeologicus	archaeologica archaeologicae archaeologicam archaeologicarum archaeologicas archaeologici archaeologicis archaeologico archaeologicos archaeologicum
+76	1776	merces	mercede mercedem mercedes mercedis mercedulis
+77	1777	character	charactere characterem characteres characteribus characteris characterum
+78	1778	archivum	archiva archivi archivis archivo archivorum
+79	1779	recta	
+80	1780	interea	
+81	1781	videlicet	
+82	1782	sicuti	
+83	1783	frequentia	frequentiae frequentiam frequentiarum frequentias
+84	1784	sapientia	sapientiae sapientiam sapientiarum sapientias
+85	1785	utilitas	utilitate utilitatem utilitates utilitati utilitatis
+86	1786	saltatio	saltatione saltationem saltationes saltationi saltationibus saltationis saltationum
+87	1787	bestia	bestiae bestiam bestiarum bestias bestiis bestiola bestiolam bestiolarum bestiolis
+88	1788	ablativus	ablativa ablativi ablativo ablativum
+89	1789	diaeta	diaetae diaetam diaetarum diaetas diaetis dieta
+90	1790	terrestris	terrestre terrestrem terrestres terrestri terrestria terrestribus terrestrium
+91	1791	imperfectus	imperfecta imperfectae imperfectam imperfectas imperfecte imperfecti imperfectis imperfecto imperfectorum imperfectos imperfectum
+92	1792	lateralis	laterale lateralem laterales laterali lateralia lateralibus lateralium
+93	1793	mensa	mensae mensam mensas mesa
+94	1794	argentum	argenta argenti argentis argento
+95	1795	hereditas	hereditate hereditatem hereditates hereditati hereditatibus hereditatis
+96	1796	donum	dona doni donis donorum
+97	1797	meum	mea mei meis meo meorum
+98	1798	deficio	defecerant defecerat defecero defecerunt defecisse defecisset defecit defectu defectum deficere defici deficiant deficiat deficiebant deficiebat deficiendi deficiendo deficiens deficiet deficit deficiunt
+99	1799	dexter	dexterae dexteram dextero dexterum dextrae dextram dextras dextri dextris dextro dextros dextrum
+100	1800	respicio	respectu respectum respexerint respexerunt respexit respice respicere respiceret respici respiciamus respiciant respiciantur respicias respiciat respiciatur respiciebat respiciebatur respiciendum respiciens respicientur respicit respicitur respiciunt

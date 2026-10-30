@@ -1,0 +1,100 @@
+1	6001	ratiocinator	ratiocinatore ratiocinatores ratiocinatoribus ratiocinatoris ratiocinatorum ratiocinatrix
+2	6002	revereor	reverendi reverendo reverendum reverendus revereri reveritus
+3	6003	negotior	negotiabatur negotiandi negotiando negotiari negotiatu negotiatus
+4	6004	diacriticus	diacritica diacriticis diacriticum
+5	6005	fecunditas	fecunditate fecunditatem fecunditatis
+6	6006	coaevus	coaeva coaevam coaevi coaevis coaevorum coaevos
+7	6007	effectivus	effectiva effectivae effective effectivis effectivorum effectivum
+8	6008	decerto	decertabatur decertant decertat decertaverunt decertavit
+9	6009	alimentarius	alimentaria alimentariae alimentariam alimentario alimentariorum alimentarium
+10	6010	harenosus	harenosa harenosae harenosam harenosi harenosis harenosum
+11	6011	gregalis	gregales gregalibus gregalium
+12	6012	strages	strage stragem stragis
+13	6013	saltatorius	saltatoria saltatoriam saltatoriis saltatorio saltatoriorum saltatorios saltatorium
+14	6014	vitiensis	vitienses vitiensi vitiensibus vitiensium
+15	6015	chirurgicus	chirurgica chirurgicae chirurgicam chirurgicarum chirurgicas chirurgici chirurgicorum
+16	6016	effingo	effictus effingat effingendo effingere effingi effingit effingunt
+17	6017	reductio	reductione reductionem reductiones reductionibus reductionis reductionum
+18	6018	transcendo	transcendat transcendebat transcendendi transcendens transcendere transcenderunt transcendit
+19	6019	vaticinor	vaticinabantur vaticinandi vaticinantur vaticinaretur vaticinari vaticinatur vaticinatus vaticinetur
+20	6020	striga	striae striarum strias strigae strigam strigarum
+21	6021	revolvo	revolutum revolvam revolvatur revolvens revolvere revolvitur revolvuntur
+22	6022	madefacio	madefacere madefacta madefactae madefacti madefacto madefiat madefit
+23	6023	consanguineus	consanguinea consanguinei consanguineorum consanguineos
+24	6024	interimo	interemerunt interemit interemptus interimendum interimere interimitur
+25	6025	aequivaleo	aequivaleat aequivalebant aequivalebat aequivalens aequivalent aequivalere aequivalet
+26	6026	vilicus	vilica vilicarum vilici vilicis vilicorum
+27	6027	apporto	apporta apportandi apportant apportaret apportatis apportatum apportaverunt apportavit
+28	6028	transmarinus	transmarina transmarini transmarinis transmarino transmarinorum transmarinos
+29	6029	extinguo	extinctu extinctum extinctus extinguendo extinguere extinguerentur extinguit extinxerit
+30	6030	retardo	retarda retardandum retardare retardarentur retardaretur retardat retardatur retardaverunt
+31	6031	frumentarius	frumentaria frumentariae frumentariam frumentariarum frumentarii frumentariorum frumentarios frumentarium
+32	6032	cereus	cerea cereae cerei cereis cereos cereum
+33	6033	segrego	segregant segregare segregaretur segregari segregatum segregatur segregaverunt
+34	6034	adoptivus	adoptiva adoptivae adoptivam adoptive adoptivo adoptivum
+35	6035	saltuarius	saltuarii saltuariis saltuario saltuariorum saltuarios saltuarium
+36	6036	refreno	refrenabat refrenare refrenarentur refrenaret refrenat refrenavit
+37	6037	redintegro	redintegrabit redintegrare redintegraret redintegrato redintegratus redintegraverunt redintegravisse redintegretur
+38	6038	pungo	pungat pungens pungent pungerentur pungeretur pungi pungit pupugisse
+39	6039	fluidus	fluida fluidae fluidi fluidis fluido fluidorum fluidum
+40	6040	respiratorius	respiratoriae respiratoriam respiratorii respiratoriorum respiratorios respiratorium
+41	6041	transitorius	transitoria transitoriae transitoriam transitorii transitoriis transitorio transitorium
+42	6042	veterinarius	veterinaria veterinariae veterinariam veterinarii veterinario veterinariorum
+43	6043	diffindo	diffidere diffidissent diffindens diffinderetur diffindi diffinditur diffinduntur diffissum diffissus
+44	6044	fatigo	fatigabat fatigans fatigare fatigaret fatigatum fatigatus fatigaverunt fatigavit
+45	6045	bulbus	bulbis bulbo bulborum bulbos bulbum
+46	6046	medeor	medendi medendis medendo mederi medes medet medetur
+47	6047	concha	conca conchae concham concharum conchas conche conchis
+48	6048	inhumanus	inhumana inhumanae inhumane inhumanissime inhumaniter inhumanum
+49	6049	insulto	insultans insultasse insultato insultaverant insultavisse insultavit insultet
+50	6050	excido	excidat exciderat excidere exciderit exciderunt excidit exciduntur excisus
+51	6051	infundo	infundatur infunde infundere infundi infundit infunditur infundunt infunduntur
+52	6052	fascino	fascinabatur fascinans fascinant fascinat fascinato fascinator fascinatus fascinaverunt fascinavit
+53	6053	comitissa	comitissae comitissam
+54	6054	logos	loge logo
+55	6055	instabilis	instabiles instabilibus
+56	6056	deductio	deductione deductionibus
+57	6057	compressio	compressione compressionem compressionis
+58	6058	deputo	deputantur deputatis deputatus
+59	6059	posthu	posthuma posthume posthumum
+60	6060	suggestum	suggesta suggesti
+61	6061	infortunium	infortunii infortunio
+62	6062	certitudo	certitudine certitudinem
+63	6063	cincinnatus	cincinnati cincinnato
+64	6064	cunctor	cunctabatur cunctari cunctatus
+65	6065	gramma	grammata grammatum
+66	6066	complex	complicem complicibus
+67	6067	aborigines	aboriginum
+68	6068	deterior	deteriorem deterioribus deterius deterrimus
+69	6069	hiberna	hibernis hibernorum
+70	6070	pico	pica picae picatis picem
+71	6071	traiectoria	traiectoriae traiectoriam traiectoriarum traiectorias traiectoriis
+72	6072	quadriennium	quadrienni quadriennia quadriennii quadrienniis quadriennio
+73	6073	sublimus	sublime sublimem sublimi sublimia sublimis
+74	6074	plexus	plexas plexu plexum
+75	6075	figuratus	figurata figuratae figurati figuratis figuratum
+76	6076	illicitus	illicita illicitam illicitas illicite illicitis illicitum
+77	6077	gerundivum	gerundiva gerundivi gerundivo
+78	6078	calcar	calcaribus calcaris calcarium calcarum
+79	6079	spissus	spissa spisse spississime spissum
+80	6080	glaucus	glauci glaucum
+81	6081	frusto	frusta
+82	6082	acustica	acusticae acusticam acusticas acusticis
+83	6083	profano	profana profanas profanatum profanaverunt profanavit
+84	6084	aerarius	aerari aeraria aerariarum aerarias aerarii aerariis aerario
+85	6085	symbolus	symboli symbolis symbolo symbolorum
+86	6086	pupus	pupi pupis pupo pupuli pupulis pupum
+87	6087	opium	opi
+88	6088	pluma	plumae plumarum plumas
+89	6089	ducto	ducta ductas ductavit
+90	6090	duellum	duella duello
+91	6091	officio	offecit office officere offici officiebat officier officis
+92	6092	manes	manibus manium
+93	6093	naufragium	naufragi naufragia naufragio
+94	6094	modicum	modica modicis modico
+95	6095	evocatus	evocata evocatae evocati evocatorum
+96	6096	dispareo	dispare disparent dispares disparuerunt disparuit
+97	6097	effloresco	efflorescebat efflorescere efflorescerent effloresceret effloruit
+98	6098	exardeo	exarserat exarserunt exarsisse exarsisset exarsit
+99	6099	lepos	lepor lepore leporem leporis leporum
+100	6100	resideo	resedissent resessus resideat residebant residebat resident residere

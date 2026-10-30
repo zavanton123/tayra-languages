@@ -1,0 +1,100 @@
+1	2201	huiusmodi	
+2	2202	dissertatio	dissertatione dissertationem dissertationes dissertationis
+3	2203	oraculum	oraclum oracula oraculi oraculo oraculorum
+4	2204	baptista	baptistae baptistam baptistarum baptistum
+5	2205	segmentum	segmenta segmenti segmentis segmento segmentorum
+6	2206	dictatura	dictaturae dictaturam dictaturas
+7	2207	proportio	proportione proportionem proportiones proportionibus proportionis proportionum
+8	2208	perago	peractum peragatur peragebant peragebantur peragebat peragebatur peragere peragerent peragerentur perageret peragi peragit peragitur peragunt peraguntur peregerat peregit
+9	2209	clavis	clave clavem claves clavi claviculae clavium
+10	2210	iniuria	iniuriae iniuriam iniurias iniuriis injuria
+11	2211	completus	completa completae completam completas complete completi completis completo completorum completum
+12	2212	pluvia	pluviae pluviam pluviarum pluvias pluviis
+13	2213	resto	restabant restabat restabit restans restant restaret restat restiterit restiterunt restitisse restitit
+14	2214	pellis	pelle pellem pelles pelli pellibus pellium
+15	2215	amplifico	amplifica amplificabant amplificabatur amplificabit amplificandi amplificandum amplificans amplificant amplificantur amplificare amplificarent amplificarentur amplificaretur amplificari amplificat amplificatum amplificatur amplificatus amplificaverunt amplificavit amplificet amplificetur
+16	2216	caveo	camus caram caris cat cave caveat cavebat cavendi cavendum cavens cavent caverat cavere caveret caves cavet cavete caveto cavetote cavi cavit
+17	2217	turbo	turbabatur turbabit turbabuntur turbantur turbarat turbare turbarentur turbaretur turbari turbas turbat turbatis turbato turbator turbatore turbatum turbatur turbatus turbavisse turbavit turbent turbetur turbine turbines turbinis turbinum turbonis turbor turboris
+18	2218	quaeso	quaesierit quaesierunt quaesiit quaesit quaesiti quaesitis quaesitor quaesitores quaesitum quaesitus quaesiverat quaesiverunt quaesivimus quaesivisse quaesivisset quaesivit queso
+19	2219	lac	lacte lactibus lactis
+20	2220	infinitum	infinita infiniti infinitis infinito infinitorum
+21	2221	edictum	edicta edicti edictis edicto edictorum
+22	2222	pes	pede pedem pedi pedibus
+23	2223	admiror	admira admirabatur admirandum admirans admirari admirat admiratum admiratur admiratus admiremur
+24	2224	demoticus	demotica demoticae demoticam demoticas demotice demotici demoticis demotico demoticos
+25	2225	gothus	gotha gotham gotharum gothi gothis gotho gothorum gothos
+26	2226	draco	dracone draconem dracones draconibus draconis draconum dracunculus
+27	2227	clam	
+28	2228	mythologia	mythologiae mythologiam mythologiis
+29	2229	abdico	abdicare abdicaret abdicat abdicaturus abdicaverat abdicavere abdicaverunt abdicavisset abdicavit abdicere abdicit abdixerat
+30	2230	lignum	ligna ligni lignis ligno lignorum
+31	2231	triangulum	triangula trianguli triangulis triangulo triangulus
+32	2232	cotidie	cottidie quotidie
+33	2233	quantus	quanta quantae quantam quantas quanti quantis quantorum quantos
+34	2234	persequor	persecutu persequantur persequatur persequebantur persequebatur persequens persequerentur persequeretur persequeris persequi persequit persequitur persequunt persequuntur
+35	2235	commissum	commissa commissi commissis commisso commissorum
+36	2236	borealis	boreale borealem boreali borealia borealibus
+37	2237	personalis	personale personalem personales personali personalia personalibus personalium
+38	2238	amans	amante amantem amantes amanti amantibus amantis amantium
+39	2239	faustus	fausta faustae faustam faustas fauste fausti fausto faustos faustum
+40	2240	iuridicus	iuridica iuridicae iuridicam iuridicarum iuridicas iuridici iuridicis iuridico iuridicorum iuridicos iuridicum
+41	2241	conclusio	conclusione conclusionem conclusiones conclusionis conclusionum
+42	2242	rupes	rupe rupem rupibus rupis rupium
+43	2243	coniuratio	coniuratione coniurationem coniurationes coniurationi coniurationibus coniurationis
+44	2244	psalmus	psalmi psalmis psalmo psalmorum psalmos psalmum
+45	2245	vexo	vexabant vexabantur vexabat vexabatur vexantur vexare vexarent vexari vexarunt vexat vexatis vexatores vexatoribus vexatum vexatur vexatus vexaverant vexaverunt vexavit vexes
+46	2246	insero	inserantur inseratur inserebant inserebantur inserendo inserendum inserere inseretur inserit inserito inseritur insertum inseruerat inseruisset inseruit inserunt inseruntur insevisse insevit insitum insitus
+47	2247	lumen	lumina lumine lumini luminibus luminis luminum
+48	2248	glacies	glacie glaciebus glaciei glaciem
+49	2249	commeatus	commeatibus commeatu commeatui commeatum
+50	2250	nobilitas	nobilitate nobilitatem nobilitates nobilitati nobilitatis
+51	2251	dissolutus	dissoluta dissolutae dissolutas dissoluti dissolutis dissoluto dissolutorum dissolutos dissolutum
+52	2252	exstinctus	exstincta exstinctae exstinctam exstinctas exstincti exstinctis exstinctum
+53	2253	oro	orabat orandi orando orandum orans orant orante orantes orantis orantium orare orarent oraret orari oras orat oratae oratorum oratum oratus oraverunt oravit oretur
+54	2254	dictator	dictatore dictatorem dictatores dictatoribus dictatoris dictatorum
+55	2255	acer	acere aceris acerrimus acre acrem acres acri acria acribus acrior acris acrium
+56	2256	manifestus	manifesta manifestam manifestas manifestior manifestis manifestos manifestum
+57	2257	somnio	somnia somnians somniant somniare somniat somniaverat
+58	2258	detego	detectum detectus detegat detegatur detege detegebant detegendi detegendum detegere detegeret detegeretur detegit detegitur detegunt deteguntur detexerat detexerunt detexisse detexit
+59	2259	egeo	ege egebant egebat egendi egens egent egentur egere egerem egeret eget
+60	2260	scala	scalam scalarum scalas scalis
+61	2261	contrarius	contraria contrariae contrariam contrariarum contrarias contrarii contrariis contrario contrariorum
+62	2262	monstrum	monstra monstri monstris monstrorum
+63	2263	misceo	misceas misceat miscebantur miscebat miscebatur miscendi miscendo miscens miscent miscentur miscere miscerentur misceri miscet miscetur miscuere miscuisse miscuit mixtum
+64	2264	memoro	memorabat memorabatur memorandi memorandus memorans memorant memorantur memoraretur memorarunt memorat memoratis memoratu memoratum memoratur memoraverunt memoravimus memoravit memoremus memores memoret
+65	2265	contraho	contractu contractum contrahat contrahendi contrahens contrahere contrahi contrahit contrahitur contrahunt contrahuntur contraxerant contraxerat contraxit
+66	2266	neglego	neglectum neglegatur neglegebant neglegendum neglegens neglegere neglegerent neglegeret neglegi neglegit neglegitur neglexerunt neglexisse neglexissent neglexisset neglexit
+67	2267	revoco	revocandi revocando revocandum revocans revocant revocare revocaret revocaretur revocari revocat revocatis revocato revocatur revocatus revocaverunt revocavit
+68	2268	necavit	
+69	2269	idcirco	
+70	2270	simulacrum	simulacra simulacris simulacro simulacrorum
+71	2271	concordia	concordiae concordiam concordiarum
+72	2272	optimas	optimatem optimates optimatibus optimatis optimatium optimatum
+73	2273	debilis	debile debilem debiles debili debilia debilibus debilior
+74	2274	dicio	dicione dicionem dicioni dicionis
+75	2275	gaudium	gau gaudi gaudia gaudiis gaudio gaudiorum
+76	2276	diametros	diameter diametri diametro diametron diametrum diametrus
+77	2277	phonema	phonemata phonemate phonematibus phonematis phonematum
+78	2278	commissio	commissione commissionem commissiones commissioni commissionis commissionum
+79	2279	celeritas	celeritate celeritatem celeritates celeritatibus celeritatis
+80	2280	vendito	vendita venditabant venditabantur venditabat venditant venditantur venditaret venditas venditatur venditaverit venditavit
+81	2281	civicus	civica civicae civicam civici civico civicorum civicum
+82	2282	identitas	identitate identitatem identitates identitatis identitatum
+83	2283	litoralis	litorale litoralem litorales litorali litoralibus litoralium
+84	2284	observatio	observatione observationem observationes observationibus observationis observationum
+85	2285	taceo	tace taceam taceant taceat taceatur tacebat tacebo tacenda tacendi tacendum tacent tacere taceret tacet tacitum tacitus tacuerint tacuisse tacuit
+86	2286	cuniculus	cunicula cuniculi cuniculis cuniculo cuniculorum cuniculos cuniculum
+87	2287	delineo	delineabat delineandi delineando delineant delineare delineari delineasse delineat delineatis delineator delineatum delineatur delineatus delineavit
+88	2288	emendo	emenda emendabant emendandi emendando emendandum emendare emendaret emendaretur emendari emendas emendasse emendat emendatis emendatius emendator emendatum emendatus emendavisse emendavit emendent emendet emendetur
+89	2289	pactio	pacio pactione pactionem pactiones pactionibus pactionis
+90	2290	renovo	renovabantur renovabatur renovabis renovandi renovando renovandum renovare renovaret renovaretur renovari renovarunt renovat renovatis renovato renovator renovatum renovatur renovaturus renovatus renovaverunt renovavit
+91	2291	premo	premebant premebantur premebat premendo premens premere premerem premerentur premi premit premitur premunt premuntur presserant presserunt pressi pressit pressu pressum pressus
+92	2292	stabilis	stabile stabilem stabiles stabilia stabilior stabiliter stabilium
+93	2293	macula	maculae maculam macularum maculas maculis
+94	2294	concentus	concentibus concentu concentum concentuum
+95	2295	mollis	molle mollem molles molli mollia mollibus mollior mollissime molliter
+96	2296	dens	dente dentem dentes dentibus denticulus dentis dentium dentum
+97	2297	strictus	stricta strictae strictam strictas stricti strictim stricto strictum
+98	2298	valetudinarium	valetudinaria valetudinarii valetudinariis valetudinario
+99	2299	rudis	rude rudem rudi rudibus rudium
+100	2300	ampla	amplae amplam amplarum amplas amplis

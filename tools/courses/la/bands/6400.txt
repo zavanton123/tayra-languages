@@ -1,0 +1,100 @@
+1	6301	scortum	scorta scorti scorto scortorum
+2	6302	portoricensis	portoricensem portoricenses portoricensi
+3	6303	acerbitas	acerbitate acerbitatem acerbitates acerbitatibus acerbitatis
+4	6304	transfugio	transfugere transfugerent transfugerunt transfugiendi transfugit
+5	6305	horror	horrore horrores horroris horrorum
+6	6306	contemplativus	contemplativa contemplativae contemplativam contemplativum
+7	6307	hierosolymitanus	hierosolymitana hierosolymitano hierosolymitanorum hierosolymitanum
+8	6308	repositus	reposita repositae repositum
+9	6309	furio	furiae furiam furiatu furiis
+10	6310	praeliminaris	praeliminare praeliminari praeliminaria praeliminaribus praeliminarium
+11	6311	saxosus	saxosae saxosam saxosis saxosos saxosum
+12	6312	permeo	permeabat permeabit permeans permeat permeaverunt
+13	6313	dispositor	dispositore dispositoris dispositorum
+14	6314	publicanus	publicani publicanis publicanorum
+15	6315	compitum	compita compito compitus
+16	6316	rationalitas	rationalitate rationalitatem rationalitati rationalitatis
+17	6317	obsessio	obsessione obsessionem obsessionis
+18	6318	arrogans	arroganti arrogantia arrogantiam
+19	6319	sepulcralis	sepulcrales sepulcralia sepulcralibus
+20	6320	accidens	accidente accidentem accidentes accidentibus accidentium
+21	6321	eburneus	eburnea eburneam eburneas eburneis eburneum
+22	6322	contumeliosus	contumeliosa contumeliose contumeliosis contumelioso contumeliosum
+23	6323	percenseo	percensebat percensendo percenset percensuerunt percensuit
+24	6324	leuga	leuca leugarum leugas
+25	6325	virgula	virgulam virgulas virgulis
+26	6326	serratus	serrata serratae serrati
+27	6327	repetitio	repetitione repetitionem repetitiones repetitionibus
+28	6328	consurgo	consurgere consurgit consurgunt consurrexerunt consurreximus consurrexit
+29	6329	sentimentum	sentimenta sentimentis sentimento
+30	6330	comprehensivus	comprehensiva comprehensivae comprehensivas comprehensive comprehensivo
+31	6331	temerarius	temeraria temerarias temerario temerarios
+32	6332	sexualitas	sexualitate sexualitatem sexualitates sexualitatis
+33	6333	comarchus	comarchi comarcho comarchum
+34	6334	praeparatorius	praeparatoria praeparatoriam praeparatoriis praeparatorium
+35	6335	renalis	renale renalem renalia renalibus renalium
+36	6336	ululo	ululae ululando ululandum ululans ululas ululat
+37	6337	rescribo	rescribere rescriberent rescribunt rescripsissent rescripsit rescriptus
+38	6338	placenta	placentae placentam placentas placentis
+39	6339	immergo	immergendus immergere immergit immergunt immersit
+40	6340	interrogativus	interrogativa interrogativam interrogativo interrogativum
+41	6341	contemplatio	contemplatione contemplationem contemplationes contemplationum
+42	6342	consero	conseremus conserere conseruerunt conseruit conseruntur consitus
+43	6343	imprudens	imprudente imprudenti imprudentia inprudens
+44	6344	agriculturalis	agriculturalem agriculturali agriculturalia agriculturalibus agriculturalium
+45	6345	asperitas	asperitate asperitatem asperitates asperitatis
+46	6346	visitatio	visitationem visitationes visitationibus visitationis
+47	6347	suavis	suaves suavi suavia suavibus suavior
+48	6348	denego	denegabantur denegabat denegabatur denegaret denegatum denegatur denegavit
+49	6349	colonicus	colonicae colonicam colonicarum colonici colonico colonicum
+50	6350	immodicus	immodica immodicam immodice
+51	6351	assecuratio	assecuratione assecurationem assecurationibus assecurationis assecurationum
+52	6352	tumultuosus	tumultuosa tumultuosae tumultuosas tumultuosi tumultuosis tumultuosos
+53	6353	euripus	euripi euripis euripo euripum
+54	6354	demergo	demergendum demergens demergere demergit demerguntur demersit demersum
+55	6355	avitus	avita avitam aviti avitis avito avitum
+56	6356	superstitio	superstitione superstitionem superstitiones superstitionibus superstitionis
+57	6357	cumulo	cumulabantur cumulabat cumulatis cumulatur cumulatus cumulaverunt cumulavit
+58	6358	modulor	modulandi modularis modulata modulate modulatos modulatur
+59	6359	octingenti	octingenta octingentis octingentorum octingentos
+60	6360	reparo	reparandum reparari reparato reparatur reparaverunt reparavit reparet
+61	6361	increbresco	increbrescant increbrescebat increbrescere increbrescit increbruerunt increbruit
+62	6362	praevenio	praevenerat praeveniendo praevenire praevenit praevenitur praeventus
+63	6363	cupa	cupam cuparum cupellam cupis cupum
+64	6364	stativus	stativa stativae stativis stativo stativos stativum
+65	6365	aspiratio	adspiratio aspiratione aspirationis
+66	6366	restringo	restringens restringere restringetur restringitur restringuntur
+67	6367	congelo	congelantur congelare congelata congelato congelatum
+68	6368	arripio	arripere arripiens arripit arripitur arripuerit
+69	6369	praemoneo	praemonendum praemonens praemonere praemonet praemonitus praemonuisse
+70	6370	circumspicio	circumspectum circumspexerunt circumspice circumspiceret circumspiciendo circumspiciens circumspicit
+71	6371	exsecratio	exsecratione exsecrationem exsecrationibus exsecrationis
+72	6372	phalanx	phalangem phalanges phalangis phalangum
+73	6373	abscedo	abscedi abscedit abscesserunt abscessu abscessum abscessus
+74	6374	enuntiatio	enuntiatione enuntiationem enuntiationibus enuntiationis enuntiationum
+75	6375	iugulo	iugulare iugulares iugulari iugulat iugulatur iugulatus iugulavit
+76	6376	calcitro	calcitrabitur calcitrando calcitrans calcitratibus calcitratu calcitratus calcitraverit
+77	6377	condiscipulus	condiscipuli condiscipulis condiscipulo condiscipulum
+78	6378	physiologicus	physiologica physiologicae physiologicas physiologicis physiologico physiologicorum physiologicum
+79	6379	globosus	globosa globosi globosis globosorum globosum
+80	6380	exsicco	exsiccabatur exsiccabitur exsiccans exsiccantur exsiccari exsiccatum exsiccatus
+81	6381	phylum	phyla phyli phylis phylo
+82	6382	recuperandus	recuperanda recuperandae recuperandam recuperandas recuperandi recuperandorum recuperandos
+83	6383	admisceo	admiscent admiscet admiscetur admixti admixto admixtum
+84	6384	declamatio	declamatione declamationem declamationes declamationibus declamationis
+85	6385	perpetro	perpetrando perpetrare perpetraret perpetrato perpetravit perpetret perpetretur
+86	6386	parcus	parca parcae parcam parcis parco parcos
+87	6387	sugo	sugar sugendi sugendum sugens sugere sugi
+88	6388	camelus	camelis camelo camelorum camelos camelum
+89	6389	lucrativus	lucrativa lucrativae lucrativis lucrativo lucrativorum lucrativum
+90	6390	propagatio	propagatione propagationem propagationes propagationi propagationis
+91	6391	matrimonialis	matrimoniale matrimonialem matrimoniales matrimoniali matrimonialia
+92	6392	blandus	blanda blandam blande blandi blandis blandos
+93	6393	interludium	interludia interludii interludiis interludio
+94	6394	persimilis	persimile persimiles persimili persimilia persimilium
+95	6395	pathologicus	pathologica pathologicae pathologicas pathologici pathologicis pathologicorum pathologicum
+96	6396	orphanus	orphana orphani orphanis orphano orphanorum
+97	6397	crystallinus	crystallina crystallini crystallinis crystallinos
+98	6398	copulo	copulant copulantur copulare copulari copulatis copulato copulet
+99	6399	compenso	compensabatur compensare compensat compensaverunt compensavit compenset compensetur
+100	6400	inundo	inundans inundaretur inundari inundatis inundatus inundet inundetur

@@ -1,0 +1,100 @@
+1	1001	universus	universa universae universam universarum universe universis universo universorum universos universum
+2	1002	quotannis	
+3	1003	aliquid	
+4	1004	arabicus	arabica arabicae arabicam arabicarum arabice arabici arabicis arabico arabicorum arabicos arabicum
+5	1005	salus	salute salutem saluti salutibus salutis
+6	1006	tuus	tua tuae tuam tuarum tuas tui tuis tuo tuorum tuos tuum
+7	1007	sumo	sumamus sumat sumebant sumebat sumendi sumendo sumendum sumens sumere sumerent sumerentur sumeret sumetur sumi sumimus sumit sumite sumitur sumpserat sumpserit sumpserunt sumpsisse sumpsisset sumpsit sumptu sumptum sumpturus sumunt sumuntur
+8	1008	astronomus	astronomi astronomis astronomo astronomorum astronomos astronomum
+9	1009	documentum	documenta documenti documentis documento documentorum
+10	1010	nimis	
+11	1011	moralis	morale moralem morales morali moralia moralibus moralium moralum
+12	1012	intimus	interior interiora interiore interiorem interiores interiori interioribus interioris interiorum interius intima intimae intimam intime intimi intimis
+13	1013	chorus	chori choris choro chororum choros chorum
+14	1014	actor	actore actorem actores actori actoribus actoris actorum actrice actricem actrices actricibus actricis actricum actrix
+15	1015	dominium	domini dominia dominii dominiis dominio dominiorum
+16	1016	pario	pare parere parerent pareret paria pariam pariat pariebat parienda pariendo pariet parietis parit parito pariunt partu pepererat pepererunt peperisse peperisset peperit
+17	1017	supersum	supererant supererat supererit superesse superessent superesset superest superfuere superfuerunt superfuisse superfuisset superfuit supersint supersit supersunt
+18	1018	utrum	
+19	1019	minima	minimae minimam minimarum minimas minimis
+20	1020	spectaculum	spectacula spectaculi spectaculis spectaculo spectaculorum
+21	1021	stirps	stirpe stirpem stirpes stirpi stirpibus stirpis stirpium
+22	1022	particeps	participem participes participia participibus participii participio participis participium participum
+23	1023	mandatum	mandata mandati mandatis mandato mandatorum
+24	1024	placeo	place placeant placeat placebant placebat placens placent placeres placeret places placet placuerant placuerat placuerunt placuisse placuit
+25	1025	desum	deerant deerat deere deerit deesse deessent deesset deest defuerant defuerint defuerunt defuisse defuisset defuit desint desit desunt
+26	1026	insum	inerant inerat inesse inesset inest infuisse insint insit insunt insunto
+27	1027	inscribo	inscribebant inscribebantur inscribebat inscribebatur inscribendum inscribere inscriberentur inscribi inscribitur inscribunt inscribuntur inscripserat inscripserit inscripserunt inscripsit inscriptum inscriptus
+28	1028	dialectos	dialecti dialectis dialecto dialectorum dialectus
+29	1029	clades	clade cladem cladibus cladis cladum
+30	1030	mediaevalis	mediaevale mediaevalem mediaevales mediaevali mediaevalia mediaevalibus mediaevalium
+31	1031	corona	corolla coronae coronam coronarum coronas coronis
+32	1032	exerceo	exerceant exerceantur exerceas exerceat exercebant exercebantur exercebat exercebatur exercebit exercendi exercendo exercendum exercens exercent exercentur exercere exercerent exercerentur exerceret exerceretur exerceri exercet exercetur exercitu exercitum exercuerant exercuerit exercuerunt exercuisse exercuit
+33	1033	aio	ai aiebant aiebat aiens ais ait aiunt
+34	1034	voluntas	voluntate voluntatem voluntates voluntati voluntatibus voluntatis voluntatum
+35	1035	attamen	
+36	1036	culturalis	culturale culturalem culturales culturali culturalia culturalibus culturalium
+37	1037	heros	heroa heroas heroe heroem heroes heroibus heroidas heroides heroidis heroidum herois heroum
+38	1038	aequo	aequa aequabant aequandi aequando aequandum aequant aequare aequarent aequaret aequari aequas aequat aequatis aequator aequatore aequatores aequatoris aequatum aequatur aequatus aequavit aequent aequet aequetur aequor aequora aequore aequoribus aequoris aequorum
+39	1039	statuo	statuam statuas statuat statuebant statuebat statuendi statuendum statuens statuerat statuere statuerent statuerentur statueretur statuerunt statuet statui statuimus statuis statuisse statuit statuitur statutum statuunt statuuntur
+40	1040	separo	separabant separabantur separabat separabatur separamus separandi separandum separandus separans separant separantur separare separari separasse separat separatis separato separatorem separatorum separatum separatur separatus separaverit separaverunt separavi separavit separentur separetur
+41	1041	felix	felice felicem felices felici felicia felicibus felicior felicis felicissimus
+42	1042	utilis	utile utilem utiles utili utilia utilibus utilissime utilissimus utiliter utilium utilius
+43	1043	demum	
+44	1044	spiritus	spiritibus spiritu spiritui spiritum spirituum
+45	1045	congressus	congressa congressi congressibus congressis congresso congressos congressu congressui congressum congressuum
+46	1046	sanguis	sanguem sanguine sanguinem sanguini sanguinis
+47	1047	levis	laevis leve levem leves levi levia levibus levior levissimus leviter levium levius
+48	1048	zona	sona zonae zonam zonarum zonas zonis
+49	1049	noto	notabantur notabat notabatur notamus notandi notandum notandus notans notant notantur notaras notare notari notas notat notate notatis notato notatu notatum notatur notatus notaverat notaverit notaverunt notavit notes notetur notorum
+50	1050	adiectivum	adiectiva adiectivi adiectivis adiectivo adiectivorum
+51	1051	nosco	nomus norat norimus noris norunt nosce noscebantur noscebatur noscendum noscere nosci noscimus noscit noscite noscitur noscunt noscuntur nosse nossent nosti nostis not notum noverant noverat noverimus noverint noverit noverunt novi novimus novisse novissent novisset novit
+52	1052	postulo	postulabant postulabat postulabatur postulamus postulans postulant postulantur postulare postularent postularet postulari postulat postulato postulatur postulaverat postulaverunt postulavisset postulavit postulemus postulent postulet
+53	1053	dioecesis	diocesis dioecese dioeceseis dioecesem dioeceseos dioeceses dioecesi dioecesibus dioecesim
+54	1054	fluvius	fluvii fluviis fluvio fluviorum fluvios fluvium
+55	1055	mercator	mercatore mercatorem mercatores mercatori mercatoribus mercatoris mercatorum
+56	1056	brevi	
+57	1057	spes	ispes spe spebus spei spem
+58	1058	cor	corda corde cordi cordibus cordis cordium cordum
+59	1059	praeceptum	praecepta praecepti praeceptis praecepto praeceptorum
+60	1060	certo	certabant certabat certamini certandi certando certandum certans certant certare certarent certaret certarunt certas certat certata certatum certatur certatus certaverunt certavisse certavit certissime certius
+61	1061	ala	alae alam alarum alas alis
+62	1062	sino	sinam sinant sinas sinat sinatur sinebant sinebat sinebatur sinendo sinens sinent sinere sinerent sineret sineretur sinet sini sinis sinit sinite sinitur sinunt sinuntur sisti situ situm siverant siverunt sivisset sivit
+63	1063	nubo	nube nubendi nubere nuberent nuberet nubis nubit nubunt nupserat nupserunt nupsisse nupsisset nupsit nuptum
+64	1064	suscipio	susceperat susceperit susceperunt suscepisse suscepisset suscepit susceptum suscepturus susciperet suscipi suscipiant suscipiat suscipiebant suscipiebat suscipiendis suscipiendum suscipiens suscipit suscipitur suscipiunt suscipiuntur
+65	1065	pergo	pergam pergat pergebant pergebat pergendo pergendum pergens pergere pergerent pergeret perget pergimus pergit pergite pergunt perrexere perrexerit perrexerunt perrexisse perrexit
+66	1066	technicus	technica technicae technicam technicarum technicas technice technici technicis technico technicorum technicos technicum
+67	1067	nocte	noctu
+68	1068	reliquiae	reliquia reliquiam reliquiarum reliquias reliquiis reliquium
+69	1069	priscus	prisca priscae priscam priscarum priscas prisce prisci priscis prisco priscorum priscum
+70	1070	erigo	erectum erectus erexerat erexere erexerunt erexi erexit erigantur erigat erigebant erigendi erigendo erigendum erigere erigerent erigeretur erigi erigit erigitur erigunt eriguntur
+71	1071	impono	imponantur imponat imponatur imponebant imponebatur imponendo imponendum imponens imponere imponeret imponet imponi imponis imponit imponitur imponunt imponuntur impositu impositum impositus impostum imposuere imposuerit imposuerunt imposuisset imposuit
+72	1072	pauca	
+73	1073	amplius	
+74	1074	epistola	epistolae epistolam epistolarum epistolas epistolis epistula
+75	1075	expeditio	expeditione expeditionem expeditiones expeditioni expeditionibus expeditionis expeditionum
+76	1076	primarius	primaria primariae primariam primariarum primarias primarie primarii primariis primario primariorum primarios primarium
+77	1077	aequalis	aequale aequalem aequales aequali aequalia aequalibus aequaliter aequalium
+78	1078	fortuna	fortunae fortunam fortunarum fortunas fortunis
+79	1079	constitutum	constituta constituti constitutis constituto
+80	1080	sacer	sacra sacrae sacram sacrarum sacras sacri sacris sacro sacrorum sacros
+81	1081	quadratum	quadrata quadrati quadratis quadrato quadratorum
+82	1082	integer	integerrimus integra integrae integram integrarum integras integri integris integro integrorum integros integrum
+83	1083	iustitia	iustitiae iustitiam justicia justitia
+84	1084	regalis	regale regalem regales regali regalia regalibus
+85	1085	philosophicus	philosophica philosophicae philosophicam philosophicarum philosophicas philosophici philosophicis philosophico philosophicorum philosophicos philosophicum
+86	1086	porro	
+87	1087	ripa	ripae ripam riparum ripas ripis
+88	1088	originalis	originale originalem originales originali originalia originalibus originaliter originalium
+89	1089	quantitas	quantitate quantitatem quantitates quantitati quantitatibus quantitatis quantitatium quantitatum
+90	1090	ora	orae oram orarum oras oris
+91	1091	probo	proba probabat probabatur probabuntur probae probam probandi probando probandum probans probant probantur probare probarent probaret probaretur probari probarunt probas probasset probat probatis probato probatorium probatu probatum probatur probatus probaverat probavere probaverunt probavit probent probet
+92	1092	intellectus	intellecta intellectae intellectam intellectas intellectis intellecto intellectu intellectui intellectum
+93	1093	ingens	ingente ingentem ingentes ingenti ingentia ingentibus ingentis ingentissimus ingentium
+94	1094	ideo	
+95	1095	quippe	
+96	1096	breviter	brevissime brevius
+97	1097	facies	facia facie faciebus faciei faciem
+98	1098	regionalis	regionale regionalem regionales regionali regionalia regionalibus regionalium
+99	1099	relatio	relatione relationem relationes relationibus relationis relationium relationum
+100	1100	familiaris	familiare familiarem familiares familiari familiaria familiaribus familiarior familiarissimus familiariter familiarium

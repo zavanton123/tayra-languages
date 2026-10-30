@@ -1,0 +1,100 @@
+1	4601	vasco	vascones vasconum
+2	4602	triumphalis	triumphale triumphali triumphalia triumphalibus
+3	4603	inertia	inertiae inertiam
+4	4604	circumstantia	circumstantiae circumstantias circumstantiis
+5	4605	quisnam	quidnam
+6	4606	propinquitas	propinquitate propinquitatem propinquitatibus propinquitatis
+7	4607	luxuria	luxuriae luxuriam
+8	4608	apertura	aperturae aperturam
+9	4609	astrologus	astrologi astrologos astrologum
+10	4610	habitabilis	habitabilem habitabiles habitabilium
+11	4611	redintegratio	redintegratione redintegrationem redintegrationi redintegrationis
+12	4612	cingulum	cingula cinguli cingulo
+13	4613	redemptio	redemptione redemptionem redemptionis
+14	4614	scapha	scaphae scapham scaphis
+15	4615	crudelitas	crudelitate crudelitatem crudelitates crudelitatis
+16	4616	liberalismus	liberalismi liberalismo liberalismum
+17	4617	matrona	matronae matronarum matronas matronis
+18	4618	phoenix	phoenice phoenices phoenicis phoenicum
+19	4619	individualis	individualem individuales individuali individualia individualium
+20	4620	molestia	molestiae molestiam molestias molestiis
+21	4621	ignavus	ignava ignavam ignave ignavi ignavis
+22	4622	tullius	tulli tullii tullio tullium
+23	4623	permano	permanant permanat permanent permanere permanes permanet
+24	4624	vieo	vie vies vietum
+25	4625	efficaciter	efficacissime efficacius
+26	4626	criterion	criteria criteriis criterio criteriorum
+27	4627	aeterno	aeterna aeternabat aeternas aeternaverunt
+28	4628	synthesis	synthesi synthesin
+29	4629	aversus	aversa aversae averso
+30	4630	taurinus	taurinas taurini taurinorum taurinum
+31	4631	essentia	essentiae essentiam
+32	4632	chronologia	chronologiae chronologiam
+33	4633	boo	boas boat boer bois boor
+34	4634	benedictio	benedictione benedictiones benedictionis benedictionum
+35	4635	loquela	loquelae loquelam loquelarum loquella
+36	4636	fertilis	fertile fertilem fertiles fertili fertilissimus
+37	4637	moretum	moreti moreto moretorum
+38	4638	paedagogia	paedagogiae paedagogiam
+39	4639	capitaneus	capitanei capitaneo capitaneum
+40	4640	gratuitus	gratuitae gratuitam gratuitarum gratuiti gratuitum
+41	4641	improvisus	improvisa improvisae improvisas improvise improviso
+42	4642	penuria	penuriae penuriam penurias
+43	4643	fragilis	fragile fragilem fragiles fragilia
+44	4644	undevicensim	undevicensimi undevicensimo undevicensimorum undevicensimos
+45	4645	prologus	prologi prologis prologo prologum
+46	4646	columbianus	columbiana columbianae columbiani columbiano columbianum
+47	4647	aemulatio	aemulatione aemulationem aemulationi aemulationis aemulationum
+48	4648	caecilia	caeciliae caeciliam caecilias caecilius
+49	4649	perpulcher	perpulchra perpulchrae perpulchram perpulchris perpulchrum
+50	4650	corium	coria coriis corio coriorum
+51	4651	valentianus	valentiana valentianae valentianam valentiane valentianis valentianum
+52	4652	tristitia	tristitiae tristitiam tristities
+53	4653	bilinguis	bilingue bilinguem bilingues bilingui bilinguia
+54	4654	elephas	elephante elephantes elephanti elephantibus elephantis
+55	4655	manualis	manuale manualem manuali manualia manualibus
+56	4656	corvus	corvi corvis corvo corvos corvum
+57	4657	differentialis	differentiale differentiales differentiali differentialibus differentialium
+58	4658	alternatio	alternatione alternationem alternationibus alternationis alternationum
+59	4659	textura	texturae texturam texturas texturis
+60	4660	capacitas	capacitate capacitatem capacitates capacitatibus capacitatis
+61	4661	devotio	devotione devotioni devotionibus devotionis
+62	4662	aerumna	aerumnae aerumnam aerumnarum aerumnas aerumnis
+63	4663	sumptuosus	sumptuosa sumptuosae sumptuosam sumptuosarum sumptuose sumptuosum
+64	4664	operculum	opercula operculi operculis operculo
+65	4665	celebritas	celebritate celebritatem celebritatis
+66	4666	collegiatus	collegiata collegiatae collegiate collegiatis collegiatos collegiatum
+67	4667	praecedo	praecedendi praecedens praecedere praecedit praecedunt praecessum
+68	4668	citatio	citatione citationem citationes citationis citationum
+69	4669	interrogatio	interrogatione interrogationem interrogationes interrogationibus interrogationis
+70	4670	impubes	impuberem impuberes impuberibus impuberum impubibus
+71	4671	simulatio	simulatione simulationes simulationibus simulationis
+72	4672	denotatio	denotatione denotationem denotationes denotationis denotationum
+73	4673	virtualis	virtuale virtualem virtuales virtuali virtualibus
+74	4674	ruinosus	ruinosa ruinosae ruinosam ruinosi ruinosis ruinosum
+75	4675	prodigium	prodigia prodigii prodigiis prodigiorum
+76	4676	coniugatio	coniugatione coniugationem coniugationes coniugationi coniugationibus coniugationis
+77	4677	macedonicus	macedonica macedonicae macedonicam macedonici macedonicis macedonico macedonicum
+78	4678	caeremonia	caeremoniae caeremoniarum caeremonias caeremoniis
+79	4679	radicalis	radicale radicalem radicales radicali radicalium
+80	4680	imaginatio	imaginatione imaginationem imaginationes imaginationibus imaginationis
+81	4681	constringo	constricta constricti constrictum constringit constringitur constringunt constringuntur constrinxit
+82	4682	vigilans	vigilantem vigilantia vigilantibus vigilantis vigilantissime vigilantium
+83	4683	insequor	insecutus insequebantur insequebatur insequens insequi insequitur insequuntur
+84	4684	abbreviatio	abbreviatione abbreviationem abbreviationibus abbreviationis abbreviationum
+85	4685	pusillus	pusilla pusillae pusillarum pusillas pusillo pusillum
+86	4686	ficus	fici ficis fico ficos ficu
+87	4687	lagoena	lagena lagoenae lagoenam lagoenas lagoenis laguna laguncula
+88	4688	obsigno	obsignaretur obsignat obsignato obsignatum obsignavere obsignavit
+89	4689	eruo	eru eruantur eruendum eruentur eruere erui eruisse eruissem eruuntur
+90	4690	farcio	farciantur farciret farcitur farciunt farsi farta fartae farti fartis fartum
+91	4691	subvenio	subvenerunt subveni subveniendum subveniens subvenire subvenirent subvenit subveniunt
+92	4692	dacoromanicus	dacoromanica dacoromanicae dacoromanicam dacoromanicas dacoromanice dacoromanicis dacoromanicum
+93	4693	conservator	conservatorem conservatores conservatori conservatoribus conservatorum conservatricem
+94	4694	umidus	umida umidae umidi umidis umido umidorum umidos umidum
+95	4695	questus	questa questam questi questibus questo
+96	4696	nefastus	nefasta nefastam nefastas nefasto nefastos nefastum
+97	4697	luteus	lutea luteae luteam luteas lutei luteis luteorum luteum
+98	4698	fateor	fassus fatebatur fatemur faterentur fateri fatetur
+99	4699	syrus	syra syram syras syri syro syrorum syros
+100	4700	identifico	identificandum identificant identificare identificarentur identificaretur identificari identificatur identificavit

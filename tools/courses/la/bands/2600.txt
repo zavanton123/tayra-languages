@@ -1,0 +1,100 @@
+1	2501	meta	metae metam metarum metas metis
+2	2502	contactus	contactas contacti contactis contactu contactui contactum contactuum
+3	2503	rotundum	rotunda rotundi rotundis rotundo rotundorum
+4	2504	libro	libra librae libram librando librantur librari librarum libras librate libratis librato libratur libris
+5	2505	suspicio	suspecta suspectae suspectam suspectas suspecti suspecto suspectorum suspectos suspectum suspectus suspexerunt suspicione suspicionem suspiciones
+6	2506	exigo	exactum exactus exegerunt exegi exegisset exegit exigant exigat exigatur exigebant exigendum exigere exigerent exigerentur exiges exigit exigunt
+7	2507	adedo	adesse adessent adesset adest
+8	2508	imito	imitabantur imitabat imitabatur imitandi imitandum imitans imitant imitantur imitarentur imitaretur imitari imitatur imitatus imitaverunt imitavisse
+9	2509	nudus	nuda nudae nudam nudas nudi nudis nudum
+10	2510	diploma	diplomata diplomate diplomatibus diplomatis
+11	2511	rapio	rape rapere raperent rapiant rapiebant rapiendas rapis rapit rapiunt raptu rapuerant rapuerint rapuerunt rapuisse rapuit
+12	2512	fames	fame famem fami famibus famis
+13	2513	lis	lite litem lites litibus litis litium litum
+14	2514	operor	operabatur operaberis operandi operandum operans operantur operari operatum operatur operemur operentur
+15	2515	cattus	cata catam cate catis cato catti catto cattorum cattum catus
+16	2516	facinus	facinora facinore facinori facinoribus facinoris facinorum
+17	2517	repraesentatio	repraesentatione repraesentationem repraesentationes repraesentationi repraesentationibus repraesentationis repraesentationum
+18	2518	oppositio	oppositione oppositionem oppositiones oppositionibus oppositionis
+19	2519	denoto	denotabant denotabat denotabatur denotandum denotans denotant denotantur denotare denotari denotat denotatis denotatur denotavit denotentur
+20	2520	obsto	obstabant obstabat obstabit obstandi obstando obstans obstant obstare obstaret obstat obstet obstiterunt obstitit
+21	2521	quapropter	
+22	2522	lucrum	lucra lucri lucris lucro
+23	2523	russus	russi russis russo russorum russos russum
+24	2524	speculum	specula speculae speculam specularum speculas speculi speculis speculo
+25	2525	reficio	refecerunt refecisse refecit refectus reficere reficeret reficeretur refici reficiant reficiat reficiebant reficiendi reficit reficitur
+26	2526	depositum	deposita depositi depositis deposito depositorum
+27	2527	fasciculus	fasciculi fasciculis fasciculo fasciculorum fasciculos fasciculum
+28	2528	substituo	substituantur substituendo substituere substituerentur substitueret substitui substituit substituitur substitutum substitutus substituunt substituuntur
+29	2529	femineus	feminea femineae femineam femineas feminei femineis femineo femineum
+30	2530	opinor	opinabant opinabantur opinabatur opinamur opinandi opinando opinans opinantur opinari opinat opinatum opinatur opinatus opinentur
+31	2531	conspicuus	conspicua conspicuae conspicuam conspicuas conspicue conspicui conspicuis conspicuo conspicuum
+32	2532	hungaricus	hungarica hungaricae hungaricam hungaricarum hungarice hungarici hungarico hungaricorum hungaricum
+33	2533	pompa	pompae pompam pomparum pompas pompis
+34	2534	conditio	conditione conditionem conditiones conditionibus conditionis conditionum
+35	2535	alimentum	alimenta alimenti alimentis alimentorum
+36	2536	gestum	gesti gestis gesto gestorum
+37	2537	plerusque	pleraeque pleramque plerarumque plerasque plerisque pleroque plerorumque plerosque
+38	2538	secretum	secreti secretis secreto secretorum
+39	2539	presbyter	presbiter presbyteri presbyteris presbytero presbyterorum presbyteros presbyterum
+40	2540	dedo	dede dedebat dedebatur dedere dederent dederet dederetur dedi dediderit dedidisse dedidisset dedidit dedit dedito deditum deditur deditus dedunt deduntur
+41	2541	obsideo	obsederunt obsedit obsessum obsessus obside obsidebant obsidebantur obsidebat obsidebatur obsidebunt obsident obsidentur obsidere obsiderent obsideret obsideri obsides obsidet
+42	2542	haurio	hauriatur hauriebant hauriendum hauriri haurit haurite hauritur hauriunt hauserit hauserunt hausisse hausisset hausit hausta haustae haustam haustas hausti haustis hausto haustu haustum
+43	2543	interrogo	interrogabat interrogabo interrogandi interrogando interrogare interrogarent interrogaret interrogasse interrogat interrogate interrogatis interrogator interrogatori interrogatum interrogatur interrogatus interrogavisse interrogavit interroges interroget
+44	2544	vulgus	volgus vulgi vulgis vulgum
+45	2545	deperdo	deperdidit deperditis deperdito deperditum deperditur deperditus
+46	2546	octoginta	
+47	2547	quondam	
+48	2548	porticus	portici porticibus porticu porticum porticuum
+49	2549	canadus	canada canadae canadam
+50	2550	visitator	visitatore visitatorem visitatores visitatori visitatoribus visitatoris visitatorum
+51	2551	sophia	sophiae sophiam sophias
+52	2552	approbo	approbandum approbans approbant approbare approbari approbat approbato approbatum approbatur approbatus approbaverunt approbavisse approbavisset approbavit approbent
+53	2553	canon	canona canone canonem canones canonis canonum
+54	2554	contentio	contentione contentionem contentiones contentionibus contentionis
+55	2555	capillus	capilli capillis capillo capillorum capillos capillum
+56	2556	crater	cratera crateras cratere craterem crateres crateribus crateris craterum
+57	2557	praevaleo	praevaleat praevalebant praevalebat praevalens praevalent praevalere praevalerent praevaleret praevalet praevaluerunt praevaluit
+58	2558	organizatio	organisatio organizatione organizationem organizationes organizationi organizationibus organizationis organizationum
+59	2559	iocosus	iocosa iocosam iocose iocosi iocosis iocosum
+60	2560	tragicus	tragica tragicae tragicam tragice tragici tragicis tragico tragicorum tragicos tragicum
+61	2561	praepositio	praepositione praepositionem praepositiones praepositionibus praepositionis
+62	2562	mortalis	mortale mortalem mortales mortali mortalia mortalibus mortalium
+63	2563	superstes	superstite superstitem superstites superstitibus superstitium superstitum
+64	2564	creandus	creanda creandae creandam creandas creandi creandis creando creandos creandum
+65	2565	adiutor	adiutore adiutorem adiutores adiutori adiutoribus adiutoris adiutorum
+66	2566	emissus	emissa emissae emissam emissi emissis emisso emissorum emissos emissum
+67	2567	regressus	regressa regressae regressi regressu regressui regressum
+68	2568	auro	aura auram auras aurata auratae auratam auratis auratus aurem aures oratae oratorum oratum oratus
+69	2569	fugo	fugabat fugandi fugant fugare fugari fugarunt fugas fugat fugatis fugato fugatorum fugatum fugatur fugatus fugavit fugent fugere
+70	2570	vincio	vinci vinciet vincit vincitur vinciunt vinctus vinxerunt vinxit
+71	2571	demo	demas demat demens dementem dementes dementium demeret demi demis demito dempsisset dempsit demptus
+72	2572	lyrica	lyricis lyricorum
+73	2573	resisto	resistat resistebant resistebat resistendi resistens resistere resisteret resistet resisti resistit resistitur resistunt restiterit restiterunt restitisse restitit
+74	2574	concipio	conceperat conceperit conceperunt concepisse concepit conceptu conceptum concipe concipere concipi concipit concipitur concipiunt concipiuntur
+75	2575	excludo	excludantur excludat excludebat excludebatur excludendi excludendo excludens excludere excludi excludit excludunt excluduntur excluserunt exclusi exclusit exclusum exclusus
+76	2576	famosus	famosa famosae famosam famose famosi famosis famosissimus famoso famosum
+77	2577	bellator	bellatore bellatorem bellatores bellatoribus bellatoris bellatorum bellatrice bellatrices bellatrix
+78	2578	fortitudo	fortitudine fortitudinem fortitudines fortitudinis fortitudinum
+79	2579	decido	decidamus decidat decidebant decidendi decidendo decidens decident deciderunt decidet decidisse decidisset decidit decidunt
+80	2580	deminuo	deminuant deminuat deminuatur deminuebant deminuendo deminuendum deminuere deminuerentur deminueretur deminuet deminui deminuit deminuitur deminutum deminutus
+81	2581	proprie	
+82	2582	aegre	
+83	2583	penitus	penitum
+84	2584	nativitas	nativitate nativitatem nativitatis
+85	2585	harena	arena harenae harenam harenis
+86	2586	ancilla	ancillae ancillam ancillarum ancillas ancillis ancillula
+87	2587	salvator	salvatorem salvatori salvatoris
+88	2588	monarchia	monarchiae monarchiam monarchias
+89	2589	rotatio	rotatione rotationem rotationi rotationis
+90	2590	petra	petrae petram petrarum petras petris
+91	2591	explorator	exploratorem exploratores exploratoribus exploratoris exploratorum
+92	2592	successio	successione successionem successioni successionibus successionis
+93	2593	bracchium	bracchia bracchii bracchiis bracchio bracchiorum brachium
+94	2594	monetarius	mo monetaria monetariae monetariam monetarias monetarii monetariis monetario monetariorum monetarium
+95	2595	collocatio	collocatione collocationem collocationes collocationi collocationis collocationum
+96	2596	hasta	hastae hastam hastarum hastas hastis
+97	2597	tenebrae	tenebra tenebrarum tenebras tenebris
+98	2598	fractio	fractione fractionem fractiones fractionibus fractionis fractionum
+99	2599	persecutio	persecutione persecutionem persecutiones persecutioni persecutionibus persecutionis persecutionum
+100	2600	artificiosus	artificiosa artificiosae artificiosam artificiosarum artificiose artificiosi artificiosis artificioso artificiosum

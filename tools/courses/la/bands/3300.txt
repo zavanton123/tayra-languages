@@ -1,0 +1,100 @@
+1	3201	florilegium	florilegia florilegii florilegio
+2	3202	maternus	materna maternae maternam maternarum maternis materno maternum
+3	3203	sanitas	sanitate sanitatem sanitatis
+4	3204	prosperitas	prosperitate prosperitatem prosperitatis
+5	3205	tabella	tabellae tabellam tabellarum tabellas tabellis
+6	3206	burgensis	burgense burgensem burgenses burgensi burgensibus burgensium
+7	3207	bulgaricus	bulgarica bulgaricae bulgaricam bulgarice bulgarici bulgaricis bulgaricum
+8	3208	stimulus	stimuli stimulis stimulorum stimulos stimulum
+9	3209	contagio	contagione contagionem contagiones contagionibus contagionis contagionum
+10	3210	papalis	papale papalem papales papali papalia papalibus papalium
+11	3211	virga	virgae virgam virgarum virgas virgis
+12	3212	calculus	calculi calculis calculo calculorum calculos calculum
+13	3213	corruptio	corruptione corruptionem corruptiones corruptionis
+14	3214	evangelicus	evangelica evangelicae evangelicam evangelicas evangelici evangelicis evangelicorum evangelicum
+15	3215	pirata	piratae piratarum piratas piratis
+16	3216	materialis	materiale materialem materiales materiali materialia materialibus
+17	3217	formosus	formosa formosae formosam formosas formosi formosior formosis formosum
+18	3218	aeroplanum	aeroplana aeroplani aeroplanis aeroplano aeroplanorum
+19	3219	serbicus	serbica serbicae serbicam serbicas serbice serbici serbicis serbico serbicum
+20	3220	quispiam	cuipiam cuiuspiam quaepiam quampiam quempiam quodpiam quopiam
+21	3221	asiaticus	asiatica asiaticae asiaticam asiaticarum asiatici asiaticis asiatico asiaticos asiaticum
+22	3222	bassus	bassa bassae bassi basso bassum
+23	3223	slavicus	slavica slavicae slavicarum slavicas slavice slavicis slavico slavicum
+24	3224	tunica	tunicae tunicam tunicarum tunicas tunicis
+25	3225	repente	repentes repenti repentis
+26	3226	larva	larvae larvam larvarum larvas larvis
+27	3227	fibra	fibrae fibrarum fibras fibris
+28	3228	fulmen	fulmina fulmine fulminis
+29	3229	mamma	mammae mammam mammarum mammas mammis
+30	3230	ferociter	ferocem feroces feroci ferocia ferocior ferocissimus ferox
+31	3231	salarium	salaria salarii salariis salario salariorum
+32	3232	equitatus	equitatibus equitatu equitatui equitatum
+33	3233	temperatus	temperata temperatae temperatam temperatas temperate temperati temperatis temperato temperatorum temperatum
+34	3234	carpo	carpebat carpendi carpendus carpere carperet carperetur carpes carpi carpis carpit carpsit carptum carpunt
+35	3235	aequus	aequa aequae aequam aequas aequi aequis aequissime aequorum aequos
+36	3236	discipula	discipulae discipulam discipularum discipulis
+37	3237	dilectus	dilecta dilectae dilectam dilecti dilectissimus dilectos dilectu dilectum
+38	3238	nona	nonae nonam nonas nonis
+39	3239	mus	murem mures muri muribus muris murum
+40	3240	librarius	librari libraria librariae librariam librariarum librarias librarii librario librariorum librarium
+41	3241	sedo	sedandum sedare sedarentur sedarit sedatis sedem sedemus sedent sedere sedet
+42	3242	progredior	progrederentur progredi progrediar progrediatur progrediendam progrediens progreditur progrediuntur progressu progressum
+43	3243	interdico	interdicant interdicebantur interdicere interdicerentur interdicit interdictus interdicuntur interdixerat interdixerunt interdixisse interdixit
+44	3244	confusio	confusione confusionem confusiones confusionibus confusionis confusionum
+45	3245	analyticus	analytica analyticae analyticam analyticarum analyticas analytici analyticis
+46	3246	pectus	pectora pectore pectori pectoribus pectoris
+47	3247	nummarius	nummaria nummariae nummariam nummariarum nummarias nummariis nummarium
+48	3248	subscribo	subscribendo subscribens subscribent subscribere subscribimus subscribit subscribitur subscribunt subscripserat subscripserunt subscripsit subscriptum
+49	3249	intactus	intacta intactae intactam intactarum intacte intacti intactis intactos intactum
+50	3250	provideo	provideat provideatur providebat providebatur providebunt providendum providenti providere provideretur providet providetur providisse providit
+51	3251	perturbo	perturbabat perturbabit perturbant perturbantur perturbare perturbaretur perturbari perturbat perturbatis perturbato perturbatum perturbatur perturbatus perturbetur
+52	3252	exinde	
+53	3253	pone	
+54	3254	dummodo	
+55	3255	affabre	
+56	3256	aeternum	
+57	3257	polonium	polonia
+58	3258	scotia	scotiae scotiam scotiarum
+59	3259	vectura	vecturae vecturam vecturas
+60	3260	patrimonium	patrimonia patrimonii patrimonio
+61	3261	medialis	mediale medialem mediales mediali
+62	3262	undevicesimus	undevicesimi undevicesimo undevicesimum
+63	3263	emporium	emporia emporiis emporio
+64	3264	gloriosus	gloriosa gloriosae gloriosam gloriose gloriosi gloriosissimus gloriosum
+65	3265	nosocomium	nosocomia nosocomii nosocomiis nosocomio
+66	3266	misericors	misericordi misericordia misericordiae misericordiam
+67	3267	indagator	indagatore indagatores indagatoribus indagatoris indagatorum indagatrix
+68	3268	inutilis	inutile inutilem inutiles inutili inutiliter inutilium
+69	3269	trames	tramite tramitem tramites tramiti tramitibus tramitis tramitum
+70	3270	obligatorius	obligatoria obligatoriae obligatoriam obligatorii obligatoriis obligatorio obligatorium
+71	3271	caerimonia	caerimoniae caerimoniam caerimoniarum caerimonias caerimoniis
+72	3272	sperno	spernebant spernebat spernendum spernendus spernens spernere sperneret spernit sprevit
+73	3273	adverbium	adverbia adverbii adverbiis adverbio adverbiorum
+74	3274	croaticus	croatica croaticae croaticam croaticarum croaticas croatice croaticis croatico
+75	3275	mammal	mammale mammali mammalia mammalibus mammalis mammalium
+76	3276	solitarius	solitaria solitariae solitariam solitarii solitario solitarium
+77	3277	stultus	stultae stulte stulti stulto stultorum stultos stultum
+78	3278	comitialis	comitialem comitiales comitiali comitialia comitialibus comitialium
+79	3279	negotiatio	negotiatione negotiationem negotiationes negotiationibus negotiationis negotiationum
+80	3280	benignus	benigna benignae benignam benignas benigni benignis benigno benignos benignum
+81	3281	arcticus	arctica arcticae arcticam arcticas arctici arcticis arctico arcticum
+82	3282	eicio	eicere eicerent eicerentur eiceret eici eiciatur eiciendis eiciere eicit eicitur eiciunt eiecerunt eiecit eiectum eiectus
+83	3283	epistularis	epistulare epistularem epistulares epistulari epistularium
+84	3284	remedium	remedia remedii remediis remedio remediorum
+85	3285	electricitas	electricitate electricitatem electricitati electricitatis
+86	3286	benevolentia	benevolentiae benevolentiam
+87	3287	cithara	citharae citharam cithararum citharas
+88	3288	negotiator	negotiatores negotiatoribus negotiatoris negotiatorum
+89	3289	delubrum	delubra delubri delubris delubro
+90	3290	glandula	glandulae glandulam glandularum glandulas glandulis
+91	3291	immanis	immane immanem immanes immani immania immanibus immanium
+92	3292	dos	dotem dotes dotibus dotis
+93	3293	salsus	salsa salsae salsam salsarum salsi salsis salsorum salsum
+94	3294	haeresis	haereseis haeresem haereseos haereses haeresi haeresibus haeresim haeresin
+95	3295	linearis	lineare linearem lineares lineari linearia lineariter
+96	3296	exiguum	exigua exigui exiguis exiguo
+97	3297	agger	aggere aggerem aggeres aggeribus aggeris
+98	3298	septimana	septimanae septimanam septimanas septimanis
+99	3299	movendus	movenda movendarum movendas movendi movendis movendo movendum
+100	3300	flecto	flectant flectat flectatur flectens flectere flecteret flecteretur flecti flectit flectitur flector flectunt flectuntur flexerunt flexi flexit flexum

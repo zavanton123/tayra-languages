@@ -1,0 +1,100 @@
+1	801	criticus	critica criticae criticam criticarum criticas critice critici criticis critico criticorum criticos criticum
+2	802	traditus	tradita traditae traditam traditas traditi traditis tradito traditos traditum
+3	803	par	pare parem pares pari paria paribus paris parium
+4	804	adipiscor	adeptu adeptum adeptus adipiscantur adipiscatur adipiscebatur adipiscenda adipiscendae adipiscendam adipiscendas adipiscendi adipiscendo adipiscendum adipiscens adipiscere adipiscerentur adipisceret adipisceretur adipiscetur adipisci adipiscitur adipiscuntur
+5	805	longe	longissime longius
+6	806	posterus	postera posterae posterarum posteris postero posterorum posteros posterum postrema postremae postremam postremas postreme postremi postremis postremorum postremos postremum postremus postuma postumam postumarum postumi postumo postumum postumus
+7	807	obtineo	obtenta obtentae obtentas obtenti obtentis obtineant obtineat obtineatur obtinebant obtinebat obtinemus obtinenda obtinendam obtinendi obtinendo obtinendum obtinent obtinentur obtinere obtineremus obtinerent obtineret obtineretur obtineri obtinet obtinetur obtinuerant obtinuerat obtinuere obtinuerit obtinuerunt obtinuisse obtinuisset obtinuit optentus
+8	808	veritas	veritate veritatem veritates veritati veritatibus veritatis veritatum
+9	809	pristinus	pristina pristinae pristinam pristinarum pristinas pristini pristinis pristino pristinorum pristinos pristinum
+10	810	confirmo	confirmabat confirmabatur confirmabit confirmamus confirmanda confirmandae confirmandam confirmandis confirmandos confirmandum confirmans confirmant confirmantur confirmare confirmarent confirmaret confirmaretur confirmari confirmat confirmato confirmatorum confirmatum confirmatur confirmatus confirmaverat confirmaverit confirmaverunt confirmavisset confirmavit confirment confirmet confirmetur
+11	811	centum	
+12	812	testimonium	testimonia testimonii testimoniis testimonio testimoniorum
+13	813	feles	fele felem feli felibus felis felium
+14	814	raro	rarissime rarius
+15	815	viridis	viride viridem virides viridi viridia viridibus viridium viridum
+16	816	distinguo	distinctu distinctum distinguantur distinguat distinguatur distinguebant distinguebantur distinguebatur distinguendi distinguendo distinguendum distinguendus distinguere distingueret distingueretur distinguetur distingui distinguimus distinguit distinguitur distinguunt distinguuntur distinxere distinxerit distinxerunt distinximus distinxit
+17	817	intro	intrabant intrabat intrabit intrabo intrandi intrando intrandum intrans intrant intrare intrarent intraret intras intrasse intrasset intrat intratur intraverant intraverat intravere intraverit intraverunt intravi intravisse intravissent intravisset intravit intrem intremus intrent intres intret
+18	818	praesum	praeerant praeerat praeerit praeesse praeessent praeesset praeest praefore praefuerant praefuerat praefuerunt praefuisset praefuit praesis praesit praesumus praesunt
+19	819	collis	colle collem colles colli collibus collium
+20	820	coactus	coacta coactae coactam coactas coacte coacti coacto coactorum coactos coactum
+21	821	offero	oblatum oblatus obtulerat obtulerunt obtulisse obtulisset obtulit offer offerant offerantur offeratur offerebant offerebantur offerebat offerendum offerens offerent offeret offerre offerrem offerrent offerret offerri offert offerto offertorum offertur offerunt offeruntur optulit
+22	822	codex	codice codicem codices codicibus codicis codicum
+23	823	administro	administra administrabant administrabantur administrabat administrabatur administrae administranda administrandae administrandam administrandarum administrandas administrandi administrandis administrando administrandum administrans administrant administrantur administrare administrarentur administraret administraretur administrari administrasse administrat administratum administratur administratus administraverat administraverit administraverunt administravisset administravit administrentur administris
+24	824	ops	ope opem opes opi opibus opum
+25	825	observo	observa observabant observabantur observabat observabatur observabuntur observandi observando observandum observans observant observantur observare observarent observaret observari observasse observat observatis observator observatu observatum observatur observaverat observaverunt observavisse observavissent observavit observem observent observentur observer
+26	826	frequento	frequenta frequentabant frequentabantur frequentabat frequentabatur frequentabunt frequentandi frequentans frequentant frequentantur frequentare frequentarent frequentaret frequentari frequentasse frequentat frequentato frequentatum frequentatur frequentaturus frequentatus frequentaverant frequentaverat frequentaverunt frequentavisse frequentavissent frequentavit frequentem frequentent frequentes frequentetur
+27	827	amitto	amiserant amiserat amiserit amiserunt amisisse amisissent amisisset amisit amissis amisso amissum amissus amittant amittantur amittat amittebant amittebat amittenda amittendas amittendo amittere amitterent amitterentur amitteret amitteretur amitti amittit amittitur amittunt amittuntur
+28	828	vario	variabat variamus variando varians variant variantur variare variari variasse variat variatis variatum variatur variaverit variaverunt variavisse variavit varient
+29	829	permultus	permulta permultae permultas permulti permultis permulto permultorum permultos permultum
+30	830	etsi	
+31	831	scaena	scaenae scaenam scaenarum scaenas scaenis scena
+32	832	murus	muri muris muro murorum muros murum
+33	833	cura	curae curam curarum curas curis
+34	834	regno	regna regnabant regnabantur regnabat regnabatur regnabit regnabuntur regnandi regnandum regnans regnant regnare regnarent regnaret regnasse regnat regnatore regnatur regnaturus regnaverat regnavere regnaverit regnaverunt regnavisse regnavisset regnavit regnent regnet
+35	835	statua	statuae statuam statuarum statuas statuis
+36	836	sacrum	sacra sacri sacris sacro sacrorum
+37	837	amo	ama amabant amabat amabatur amabo amanda amandi amando amandum amandus amant amaras amarent amaret amari amaris amaro amas amat amatis amato amatum amatur amaverunt amavi amavisse amavit ames amet amite amites amitis amitum
+38	838	sacerdos	sacerdote sacerdotem sacerdotes sacerdoti sacerdotibus sacerdotis sacerdotum
+39	839	altero	altera alterare alteras alteratum
+40	840	accido	accidant accidat accidebat acciderat accidere acciderent accideret acciderint acciderit acciderunt accidet accidisse accidisset accidit accidunt
+41	841	centrum	centra centri centris centro centrorum
+42	842	cibus	cibi cibis cibo ciborum cibos cibum
+43	843	officina	officinae officinam officinarum officinas officinis
+44	844	terminus	termini terminis termino terminorum terminos terminum
+45	845	laudo	lauda laudabant laudabantur laudabat laudabatur laudanda laudandae laudandarum laudandas laudandis laudandum laudans laudant laudantur laudare laudarent laudaret laudaretur laudat laudate laudatis laudato laudator laudatorum laudatrix laudatum laudatur laudatus laudaverunt laudavimus laudavisse laudavit laudem laudes laudetur
+46	846	sol	sole solem soli solis
+47	847	circum	
+48	848	aula	aulae aulam aulas aulis
+49	849	lapis	lapide lapidem lapides lapidi lapidibus lapidis lapidium lapidum
+50	850	cano	canant canas cane canebant canebantur canebat canebatur canendi canendo canens canent canente canentur canere canerent canerentur caneret canes canet cani canimus canit canitur canorum cantu cantum canunt canuntur cecinerant cecinerat cecinerunt cecini cecinisse cecinit
+51	851	summum	summi summis summo summorum
+52	852	fugio	fuge fugerant fugerat fugere fugerent fugeret fugerunt fugiant fugias fugiat fugiebant fugiebat fugiendo fugiendum fugiens fugient fugiet fugis fugisse fugit fugitorum fugitur fugiunt
+53	853	item	
+54	854	industria	industriae industriam industriarum industrias industriis
+55	855	praesidium	praesidi praesidia praesidii praesidiis praesidio praesidiorum
+56	856	dictum	dictorum
+57	857	fragmentum	fragmenta fragmenti fragmentis fragmento fragmentorum
+58	858	exsisto	existare exsistant exsistat exsistebant exsistebat exsistere exsisteret exsistet exsistit exsistunt exstiterant exstiterat exstitere exstiterint exstiterit exstiterunt exstitisse exstitissent exstitit
+59	859	coniunctio	coniunctione coniunctionem coniunctiones coniunctioni coniunctionibus coniunctionis coniunctionum
+60	860	varietas	varietate varietatem varietates varietatibus varietatis varietatum
+61	861	medium	medi
+62	862	anima	animae animam animarum animas animis
+63	863	iudex	iudice iudicem iudices iudici iudicibus iudicis iudicum
+64	864	secutus	secuta secutae secutam secutas secuti secutis secuto secutorum secutos secutum
+65	865	faveo	fasti fastis fat fautus faveant faveat favebant favebat favebatur favendum favens favent faverant faverat favere faverent faveret faverit faverunt favet favete favetur favi favisse favissent favit
+66	866	sentio	sensere senserint senserit senserunt sensi sensisse sensisset sensit sensu sensum sentiam sentiamus sentiant sentias sentiat sentiatur sentibus sentiebant sentiebat sentiebatur sentiendam sentiendi sentiens sentient sentiet sentimus sentire sentirent sentiret sentiri sentit sentito sentitur sentiunt sentiuntur
+67	867	neco	necandi necando necandum necans necare necatum necaturus necatus necere
+68	868	repraesento	repraesentabat repraesentabatur repraesentandum repraesentans repraesentant repraesentantur repraesentare repraesentaret repraesentari repraesentat repraesentatum repraesentatur repraesentaturus repraesentatus repraesentaverunt repraesentavisse repraesentavit repraesentent repraesentes repraesentet repraesentetur
+69	869	nuper	nuperius nuperrime
+70	870	descriptio	descriptione descriptionem descriptiones descriptioni descriptionibus descriptionis
+71	871	africus	africa africae africam africas africis africo africorum
+72	872	declaro	declarabant declarabat declarans declarant declarare declararent declararentur declararetur declarari declararunt declarasse declarat declarato declaratum declaratur declaratus declaraverant declaravere declaraverunt declaravit declaret declaretur
+73	873	legio	legione legionem legiones legioni legionibus legionis legionum
+74	874	radix	radice radicem radices radici radicibus radicis radicium radicum
+75	875	alba	albae albam albarum albas albis
+76	876	late	latii latio latione latiorum latios latissime latium latius
+77	877	traditio	traditione traditionem traditiones traditioni traditionibus traditionis traditionum
+78	878	specialis	speciale specialem speciales speciali specialia specialibus specialiter specialium
+79	879	construo	construant construat constructum constructus construebant construebat construebatur construendi construendo construendum construens construere construerent construeretur construetur construi construit construitur construunt construuntur construxerat construxerunt construxisse construxit
+80	880	vix	
+81	881	charta	carta chartae chartam chartarum chartas chartis
+82	882	nucleus	nuclei nucleis nucleo nucleorum nucleos nucleum
+83	883	arx	arce arcem arces arcibus arcis arcium
+84	884	summus	summae summam summarum summas summe summi summis summo summorum summos
+85	885	aliter	
+86	886	duodecim	duodeciens
+87	887	consuetudo	consuetudine consuetudinem consuetudines consuetudinibus consuetudinis consuetudinum
+88	888	officialis	officiala officiale officialem officiales officiali officialia officialibus officialiter officialium
+89	889	fidelis	fidele fidelem fideles fideli fidelia fidelibus fidelissimus fideliter fidelium
+90	890	aspectus	adspectus aspectibus aspectis aspectos aspectu aspectui aspectum aspectuum
+91	891	inimicus	inimica inimicae inimicam inimicas inimici inimicis inimicissimus inimico inimicorum inimicos inimicum
+92	892	ceterum	ceteri ceteris cetero ceterorum
+93	893	successor	successore successorem successores successori successoribus successoris successorum
+94	894	absum	aberant aberat abero abesse abesset abest abesto abfuit absens absidem absint absit absunt afuerunt afuisse afuit
+95	895	datus	data datae datam datas date dati datis dato datorum datos
+96	896	rector	rectore rectorem rectores rectori rectoribus rectoris rectorum rectrix
+97	897	classicus	classica classicae classicam classicarum classicas classici classicis classico classicorum classicos
+98	898	relictus	relicta relictae relictam relictarum relictas relicti relictis relicto relictorum relictos relictum
+99	899	attingo	attactu attactum attigerat attigerint attigerunt attigisse attigit attingant attingantur attingat attingendum attingens attingere attingerent attingeret attingerint attingetur attingi attingit attingitur attingunt attinguntur attinxerunt attinxit
+100	900	rusticus	rustica rusticae rusticam rusticarum rusticas rustici rusticis rustico rusticorum rusticos rusticulus rusticum

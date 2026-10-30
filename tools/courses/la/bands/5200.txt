@@ -1,0 +1,100 @@
+1	5101	rescindo	rescidere rescidit rescindere rescinderetur rescindi rescindit rescissum
+2	5102	surdus	surda surdam surde surdi surdis surdorum surdos
+3	5103	frugifer	frugifera frugiferae frugiferam frugiferas frugiferi frugiferum
+4	5104	explosio	explosione explosionem explosiones explosionis explosionum
+5	5105	partialis	partiale partialem partiales partialia partialibus partialium
+6	5106	pyrobolus	pyroboli pyrobolis pyrobolo pyrobolorum pyrobolum
+7	5107	exportatio	exportationem exportationes exportationi exportationis exportationum
+8	5108	opportunus	opportuna opportunam opportune opportuni opportunis opportunissimus opportunum
+9	5109	vereor	verebantur verenda verendum verentur vererentur vereri veretur veritus
+10	5110	anthropologicus	anthropologicae anthropologice anthropologici anthropologicis anthropologico
+11	5111	vocatio	vocatione vocationem vocationi vocationis
+12	5112	otiosus	otiosa otiosam otiosis otiosorum
+13	5113	praedicatio	praedicatione praedicationem praedicationibus praedicationis praedicationum
+14	5114	septingenti	septingenta septingentis septingentorum septingentos
+15	5115	indicatio	indicatione indicationem indicationes indicationibus indicationis indicationum
+16	5116	transmissus	transmissa transmissae transmissi transmissis transmisso
+17	5117	monarcha	monarchae monarcharum monarchas monarchis
+18	5118	applicatio	applicatione applicationes applicationi applicationis applicationum
+19	5119	infinitivus	infinitiva infinitivi infinitivo infinitivum
+20	5120	clinicus	clinice clinici clinicis clinico clinicos clinicum
+21	5121	admoveo	admoveat admoveatur admovent admovet admovetur admovit
+22	5122	sescenti	sescentae sescentis sescentorum sescentos sexcenti
+23	5123	estonicus	estonica estonicae estonici estonicis estonicos estonicum
+24	5124	incultus	inculta incultae inculti incultis incultum
+25	5125	hereditarius	hereditaria hereditariae hereditariam hereditariis hereditariorum hereditarium
+26	5126	masculus	masculam mascularum masculi masculos masculum
+27	5127	essentialis	essentiale essentiales essentiali essentialia essentialibus essentialium
+28	5128	spiralis	spirale spiralem spirales spirali spiralia
+29	5129	contritus	contrita contritae contritarum contrito contritorum
+30	5130	automatarius	automataria automatariae automatariam automatariarum automatarii automatariis
+31	5131	ausculto	auscultandi auscultare auscultator auscultatores auscultatoribus auscultatorum auscultaveritis
+32	5132	oppugnatio	oppugnatione oppugnationem oppugnationes oppugnationibus oppugnationis
+33	5133	deploro	deplorabant deplorabat deplorandum deplorans deplorat deploratus deploraverunt deploravit
+34	5134	requiesco	requiescat requiescere requiescit requiescite requiescunt requievit
+35	5135	denus	dena denas deni denis denorum denos denum
+36	5136	praedor	praedandi praedari praedatum praedone praedones praedonis praedonum
+37	5137	caligo	caliga caligas caligine caliginem caliginis
+38	5138	recreo	recreabant recreandi recreandum recreare recreari recreatus recreaverunt recreavit
+39	5139	rhodium	rhodia rhodii rhodiis rhodio rhodiorum
+40	5140	saccus	sacci saccis sacco saccorum saccos saccum
+41	5141	borussicus	borussica borussicae borussici borussicis borussico borussicum
+42	5142	saluber	salubre salubrem salubres salubri salubria salubris
+43	5143	scelestus	scelesta scelesti scelestis scelesto scelestorum scelestos scelestum
+44	5144	apparitor	apparitorem apparitores apparitori apparitoribus apparitorum
+45	5145	allegoricus	allegorica allegoricae allegoricam allegoricas allegorice allegorico allegoricum
+46	5146	imploro	implorabatur imploramus implorans implorant implorat implorato imploraverunt imploravit
+47	5147	contradico	contradicebant contradicebat contradicebatur contradicere contradiceret contradicet contradicit contradicunt contradixit
+48	5148	praesumo	praesumant praesumere praesumi praesumimus praesumit praesumitur praesumpserit praesumunt praesumuntur
+49	5149	vespertinus	vespertina vespertinae vespertini vespertinis vespertino vespertinum
+50	5150	commenticius	commenticia commenticiae commenticiam commenticias commenticii commenticiis commenticio commenticium
+51	5151	compilo	compilandi compilantur compilari compilat compilatur compilavisset compilavit compilentur
+52	5152	pyramidalis	pyramidale pyramidalem pyramidales pyramidali pyramidalibus pyramidalium
+53	5153	amputo	amputandus amputare amputarentur amputat amputatis amputatum amputatur amputatus amputavit
+54	5154	adumbro	adumbrandi adumbrantur adumbrare adumbrat adumbratis adumbratum adumbratus adumbravit adumbretur
+55	5155	suppono	supponendum supponere supponerentur supponi supponit supponitur suppositum supposuerat supposuit
+56	5156	largus	larga largae largam largis largissimus largo largum
+57	5157	reprimo	represserunt repressi repressit repressus reprimens reprimere reprimerent reprimi
+58	5158	largior	largietur largiore largiorem largiores largioribus largiri largitores largitoris largitum largitur
+59	5159	refrigero	refrigera refrigerandum refrigerandus refrigerans refrigerant refrigerantur refrigerare refrigerat refrigerato refrigeratur refrigeretur
+60	5160	acumen	acumina acumine
+61	5161	deminutivum	deminutiva deminutivo diminutivum
+62	5162	delegatus	delegata delegati delegatorum delegatum
+63	5163	edulis	edule edules eduli edulia edulium
+64	5164	habilitas	habilitatem habilitates habilitatibus habilitatum
+65	5165	formica	formicae formicam formicarum formicas formicis
+66	5166	recessus	recesso recessu recessum
+67	5167	mittendus	mittenda mittendam mittendas mittendi mittendo mittendos mittendum
+68	5168	horreo	horrendum horrens horrent horreret horruerunt horruit
+69	5169	belua	bellua beluae beluam beluas
+70	5170	tectorium	tectoria tectorii tectoriis tectorio
+71	5171	domo	doma domantur domare domiti domitu domitum domui domuisse domuit
+72	5172	dicto	dictabant dictandum dictanto dictare dictas dictata dictatorum dictatum dictavit dictor
+73	5173	obliquo	obliqua obliquas
+74	5174	accepto	acceptabant acceptant acceptas acceptatur acceptavit acceptor acceptore acceptorem acceptoribus acceptoris acceptorum
+75	5175	sericum	serici sericis serico sericorum
+76	5176	stabulum	stabula stabuli stabulis stabulo
+77	5177	arcanus	arcana arcanam arcanas arcani arcanis arcano arcanorum
+78	5178	surripio	surreptum surripere surriperetur surripitur surripuerat surripuisse surripuisset surripuit
+79	5179	dolium	doli dolia doliis dolio doliorum
+80	5180	coerceo	coercebant coercebantur coercebat coercendum coercere coerceri coercuerunt coercuit coërceri
+81	5181	tabularium	tabularia tabularii tabulario
+82	5182	caelo	caela caelandi caelari caelat caelatis caelatori caelatum caelatus caelitibus caelitum
+83	5183	asperum	aspera asperi asperis aspero
+84	5184	curvo	curva curvantur curvaretur curvatis curvato curvatum curvatur curvatus
+85	5185	notarius	notari notarii notariorum
+86	5186	rubus	rube rubi ruborum rubum
+87	5187	crebriter	crebrissime crebrius
+88	5188	conexum	conexa conexi conexis connexum
+89	5189	suo	sue suere sues suet suetis suit suite sutorum
+90	5190	metrica	metricae metricam metricarum metricas metricis
+91	5191	venefica	veneficae veneficam veneficas
+92	5192	nigro	nigra nigrorum
+93	5193	solemne	solemni solemnia solemnibus solemnis solemnium
+94	5194	coniecto	coniecta coniectandi coniectantur coniectat coniectavit coniectetur coniector
+95	5195	decennis	decennia
+96	5196	pilo	pilares pilas pilati pilatum pilatus
+97	5197	confectrix	confector confectorem confectores confectoribus confectoris confectorum confectrici confectricibus confectricis
+98	5198	planus	planae planam planarum planas plani planior planis plano planos
+99	5199	vigilo	vigila vigilabat vigilandi vigilandum vigilare vigilat vigilem vigilent vigiles
+100	5200	exiguus	exigua exiguae exiguam exiguas exigue exigui exiguis exiguo exiguos

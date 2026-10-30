@@ -1,0 +1,100 @@
+1	701	philosophus	philosopha philosopham philosophas philosophe philosophi philosophis philosopho philosophorum philosophos philosophum
+2	702	conor	conabantur conabatur conabitur conando conans conantur conarentur conaretur conari conatu conatum conatur conentur conetur
+3	703	periculum	pericula periculi periculis periculo periculorum
+4	704	arbor	arbore arborem arbores arbori arboribus arboris arborum
+5	705	periodicus	periodica periodicarum periodici periodicis periodico periodicorum periodicos periodicum
+6	706	niger	nigra nigrae nigram nigrarum nigri nigris nigro nigrorum nigros nigrum nigrus
+7	707	fama	famae famam famas famis
+8	708	respondeo	respondeant respondeat respondebant respondebat respondebatur respondemus respondendo respondendum respondens respondent respondere responderet responderi responderit responderunt respondet respondetur respondi respondisse respondissent respondit responsis responsus
+9	709	altitudo	altitudine altitudinem altitudines altitudini altitudinibus altitudinis
+10	710	auctus	aucta auctae auctam aucti auctior auctis aucto auctorum auctu auctui auctum
+11	711	germanus	germana germanae germanarum germanas germani germanis germano germanorum germanos germanum
+12	712	adsum	aderamus aderant aderat aderit aderunt adesse adessent adesset adest adforent adfuerant adfuerat adfuere adfuerunt adfuisse adfuissent adfuisset adfuit adsint adsit adsunt affuerunt assum
+13	713	careo	care careant careat carebant carebat carebatur caremus carens carent carere careret caret carius caruisset caruit
+14	714	nuntius	nuntia nuntiae nuntii nuntiis nuntio nuntiorum nuntios nuntium
+15	715	incertus	incerta incertae incertam incertas incerte incerti incertis incertissimus incerto incertum
+16	716	quoniam	
+17	717	peritus	perita peritae perite periti peritior peritis peritissimus peritius perito peritorum peritos peritum
+18	718	collectio	collectione collectionem collectiones collectioni collectionibus collectionis collectionum
+19	719	eques	equite equitem equites equiti equitibus equitis equitum
+20	720	multo	molto mulctant multandus multantur multatus multentur multes mutilo
+21	721	rursus	rursum
+22	722	doctor	doctore doctorem doctores doctori doctoribus doctoris doctorum doctrix
+23	723	simplex	simplice simplicem simplices simplici simplicia simplicibus simplicior simplicis simplicissimus simplicium simplicum
+24	724	sonus	soni sonibus sonis sono sonorum sonos sonu sonum
+25	725	conatus	conata conatae conati conatibus conatis conato conatos conatu conatui conatum conatuum
+26	726	mereo	merearis merebant merebat merebatur merens merent merentur mereret meres meret meretur meritus meruerant meruerat meruerint meruerit meruerunt merui meruisse meruisset meruit
+27	727	oeconomia	oeconomiae oeconomiam oeconomiarum oeconomias
+28	728	francus	franca francae francam france franci francis franco francorum francos francum
+29	729	hortus	horte horti hortis horto hortorum hortos hortum
+30	730	pervenio	pervenerant pervenerat pervenerint perveneris pervenerit pervenerunt perveni perveniant perveniat perveniendi perveniens perveniet pervenimus pervenire pervenirent perveniret perveniri pervenisse pervenissent pervenisset pervenit pervenitur perveniunt perventum perventurus
+31	731	australis	australe australem australes australi australia australibus australium
+32	732	potentia	potentiae potentiam potentiarum potentias potentiis
+33	733	concilium	concilia concilii conciliis concilio conciliorum
+34	734	colligo	collectu collectum collectus collegerat collegerunt collegi collegisset collegit collexerit collexit colligant colligantur colligas colligat colligatis colligebant colligebantur colligebat colligenda colligendam colligendarum colligendi colligendis colligendo colligendos colligendum colligens colligere colligerent colligerentur colligi colligis colligit colligitur colligunt colliguntur
+35	735	singularis	singulare singularem singulares singulari singularia singularibus singulariter singularium
+36	736	volumen	volumina volumine voluminem volumines voluminibus voluminis voluminum
+37	737	libero	libera liberabatur liberabitur liberanda liberandae liberandam liberandi liberandorum liberandos liberandum liberandus liberant liberantur liberare liberarent liberaret liberaretur liberari liberaris liberarunt liberasse liberat liberate liberatis liberato liberator liberatorem liberatores liberatorium liberatorum liberatum liberatur liberatus liberaverat liberaverunt liberavisse liberavit liberent liberet liberetur
+38	738	carcer	carcere carcerem carceres carceri carceribus carceris carcerum
+39	739	superficies	superficie superficiebus superficiei superficiem superficierum
+40	740	manuscriptus	manuscripta manuscripte manuscripti manuscriptis manuscripto manuscriptorum manuscriptos manuscriptum
+41	741	religiosus	religiosa religiosae religiosam religiosarum religiosas religiose religiosi religiosis religiosius religioso religiosorum religiosos religiosum
+42	742	transeo	transeant transeas transeat transeundi transeundis transeundum transeunt transibant transibat transiebat transiens transierant transierat transierit transierunt transiet transiisse transiit transire transirent transiret transisse transisset transit transitis transito transitu transitum transitur transiturus transiverat transivere transiverunt transivisse transivit
+43	743	descriptus	descripta descriptae descriptam descriptarum descriptas descripte descripti descriptis descripto descriptorum descriptum
+44	744	explico	explicabant explicabat explicabatur explicabitur explicabuntur explicanda explicandae explicandam explicandas explicandi explicandis explicando explicans explicant explicantur explicare explicarentur explicaret explicari explicat explicatis explicato explicatores explicatorum explicatu explicatum explicatur explicaverit explicavimus explicavit explicentur explicet explicetur explicitum explicitus explicuisse explicuit
+45	745	adiuvo	adiutum adiuva adiuvabant adiuvabat adiuvabatur adiuvabit adiuvandam adiuvandas adiuvandi adiuvando adiuvandos adiuvandum adiuvans adiuvant adiuvantur adiuvare adiuvarent adiuvaret adiuvari adiuvarunt adiuvat adiuvato adiuvatum adiuvatur adiuvatus adiuvaverit adiuvaverunt adiuvavisse adiuvent adiuverat adiuverit adiuverunt adiuvet adiuvisse adiuvisset adiuvit
+46	746	occidens	occidente occidentem occidentes occidenti occidentibus occidentis occidentium
+47	747	ingenium	ingenia ingenii ingeniis ingenio ingeniorum
+48	748	constans	constante constantem constanter constantes constanti constantia constantiae constantiam constantiarum constantis constantium constantius constantum
+49	749	perficio	perfecerant perfecere perfecerunt perfeci perfecisse perfecisset perfecit perfectum perficere perficerent perficeret perficeretur perfici perficiamus perficiantur perficiat perficiatur perficiebantur perficiebatur perficienda perficiendae perficiendam perficiendas perficiendi perficiendis perficiendo perficiendos perficiendum perficiens perficientur perficit perficitur perficiunt perficiuntur
+50	750	convenio	convenerant convenerat convenerit convenerunt conveni conveniant conveniebant conveniebat conveniendi conveniendum conveniens convenire convenirent conveniret conveniri convenisse convenisset convenit conveniunt conventu
+51	751	columna	columella columnae columnam columnarum columnas columnis
+52	752	meridianus	meridiana meridianae meridianam meridianarum meridianas meridiani meridianis meridiano meridianorum meridianos meridianum
+53	753	gestus	gestae gestam gestarum gestas gesti gestibus gestis gestorum gestos gestu gestuum
+54	754	ullus	ulla ullae ullam ullarum ullas ulli ullis ullius ullo ullorum ullos ullum
+55	755	iaceo	iacebant iacendi iacendum iacens iacere iacerent iaceret iacet iacuerunt iacuit
+56	756	pateo	pate pateant pateat patebant patebat patebit patent pateret pateri patet patuerunt patuisse patuit
+57	757	agnosco	agnitu agnitum agnitus agnoscant agnoscantur agnoscat agnoscatur agnoscebant agnoscebat agnoscendi agnoscendum agnoscens agnoscent agnoscentur agnoscere agnosceret agnosceretur agnoscetur agnosci agnoscit agnoscitur agnoscunt agnoscuntur agnoverant agnoverat agnoverunt agnovisse agnovisset agnovit
+58	758	triginta	
+59	759	nemo	nemine neminem nemini
+60	760	mentio	mentione mentionem mentiones mentionibus mentionis
+61	761	equus	equa equabus equae equam eque equi equis equo equorum equos equum
+62	762	acta	actae actam actarum actas actis actorum
+63	763	solvo	solutu solutum solvant solvantur solvat solvatur solve solvebant solvebat solvendi solvendum solvens solvent solventur solverat solvere solverent solverentur solveret solveretur solverunt solvet solvetur solvi solvisse solvisset solvit solvitur solvunt solvuntur
+64	764	conservo	conservabant conservabantur conservabat conservabatur conservabitur conservanda conservandam conservandarum conservandas conservandi conservandis conservando conservandum conservans conservant conservantur conservare conservarent conservarentur conservaret conservaretur conservari conservat conservatis conservato conservatum conservatur conservatus conservaverint conservaverunt conservavimus conservavit conservent conserventur conservet conservetur
+65	765	commercium	commercia commercii commerciis commercio commerciorum
+66	766	victor	victore victorem victores victori victoribus victoris victorium victorum victricem victrices victrici victricis victricium victrix
+67	767	deduco	deducant deducebant deducendam deducendarum deducendas deducendi deducendo deducendum deducere deducerent deduci deducimur deducit deducitur deductum deductus deducunt deducuntur deduxerant deduxerunt deduxisse deduxit
+68	768	vinum	vina vini vinis vino vinorum
+69	769	virtus	virtutem virtutes virtuti virtutibus virtutis virtutium virtutum
+70	770	audio	audi audiant audiatur audiebant audiebantur audiebat audiendi audiendo audiendum audiens audientes audierant audierat audierit audierunt audietis audietur audiisset audiit audimus audire audirent audiri audisse audissent audisset audisti audit audito auditur audiunt audiuntur audiverint audiverit audiverunt audivimus audivisse audivissent audivisset audivit
+71	771	dolor	dole doli dolis dolore dolorem dolores dolori doloribus doloris dolorum dolos dolum dolus
+72	772	cado	cadamus cadant cadat cadebant cadebat cadendi cadendo cadere caderent caderet cades cadet cadetis cadi cadit cadunt casum ceciderant ceciderat ceciderunt cecidi cecidisse cecidit
+73	773	coniungo	coniungant coniungantur coniungat coniungatur coniungebant coniungebantur coniungebat coniungebatur coniungendo coniungens coniungere coniungerentur coniungeret coniunges coniungi coniungit coniungitur coniungunt coniunguntur coniunxerat coniunxerint coniunxerit coniunxerunt coniunximus coniunxit
+74	774	nos	
+75	775	continens	continente continentem continenter continentes continenti continentia continentiae continentiam continentiarum continentibus continentis continentium
+76	776	scriptura	scripturae scripturam scripturarum scripturas scripturis
+77	777	festum	festa festarum festi festis festo festorum
+78	778	album	albi albis albo alborum
+79	779	fundamentum	fundamenta fundamenti fundamentis fundamento fundamentorum
+80	780	fructus	fructa fructi fructibus fructo fructos fructu fructubus fructui fructum fructuum
+81	781	atheniensis	atheniense atheniensem athenienses atheniensi atheniensibus atheniensium
+82	782	refert	referat referebat referendi referendo referendum referens referre referret retulisse retulit
+83	783	curia	curiae curiam curiarum curias curiis
+84	784	regula	regulae regulam regularum regulas regulis
+85	785	novem	
+86	786	vere	verius
+87	787	chiliometrum	chiliometra chiliometri chiliometris chiliometro chiliometrorum
+88	788	certe	certissime certius
+89	789	tellus	tellure tellurem telluri telluris
+90	790	unicus	unica unicae unicam unicas unice unici unicis unico unicos unicum
+91	791	bis	
+92	792	dono	dona donabant donabatur donabit donabunt donamus donans donantur donare donarentur donaret donaretur donarunt donas donat donatis donato donatores donatum donatur donatus donaverat donavere donaverit donavisse donavit dones donor
+93	793	continuo	continua continuabant continuabantur continuabat continuabatur continuabuntur continuandum continuant continuantur continuare continuaret continuaretur continuas continuat continuata continuatae continuatas continuati continuatis continuatos continuatum continuatur continuatus continuaverat continuavere continuaverunt continuavit continuet continuetur
+94	794	recens	recente recentem recentes recenti recentia recentibus recentior recentis recentissimus recentium recentum
+95	795	meridionalis	meridionale meridionalem meridionales meridionali meridionalibus meridionalium
+96	796	ornatus	ornata ornatae ornatam ornatas ornati ornatior ornatis ornato ornatos ornatu ornatum
+97	797	senex	sene senem senes seni senia senibus senio senior seniora seniore seniorem seniores seniori senioribus senioris seniorum senis senium senum
+98	798	pretium	pretia pretii pretiis pretio pretiorum
+99	799	praeclarus	praeclara praeclarae praeclaram praeclaras praeclare praeclari praeclarior praeclaris praeclarissime praeclarissimus praeclaro praeclarorum praeclaros praeclarum
+100	800	scientificus	scientifica scientificae scientificam scientificarum scientificas scientifice scientifici scientificis scientifico scientificorum scientificos scientificum

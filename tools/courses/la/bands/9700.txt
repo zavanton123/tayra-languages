@@ -1,0 +1,100 @@
+1	9601	nanchinensis	nanchinensem
+2	9602	graduatio	graduatione graduationem
+3	9603	cassia	casia
+4	9604	grallator	grallatorem grallatoris
+5	9605	parricida	parricidam
+6	9606	funereus	funerea funereae funereorum
+7	9607	bractea	bracteas bracteis
+8	9608	piscatio	piscatione piscationem
+9	9609	procumbo	procubuit procumbat procumbit
+10	9610	autochthonus	autochthona autochthonae autochthonam
+11	9611	canticulum	canticula canticulo
+12	9612	increpo	increpabant increpans increpat
+13	9613	bipedale	bipedales bipedalis
+14	9614	optativus	optativo optativum
+15	9615	installo	installandum installato installatus
+16	9616	rebellatio	rebellationes rebellationis
+17	9617	accessibilis	accessibile accessibilia
+18	9618	inconsultus	inconsulti inconsulto
+19	9619	mirandicus	mirandicae mirandicam mirandice
+20	9620	miscellus	miscella miscellae miscellum
+21	9621	vindicatio	vindicatione vindicationes
+22	9622	enodo	enodandum enodat enodatum
+23	9623	potenter	potentissime potentius
+24	9624	procax	procacem procaci
+25	9625	subductio	subductione subductionem subductionis
+26	9626	raptrix	raptor raptore raptoris raptrices
+27	9627	pertaesus	pertaesa pertaesi
+28	9628	exta	extis extorum
+29	9629	casmiricus	casmirica casmiricae casmiricam
+30	9630	exfugio	exfugerunt exfugit exfugiunt
+31	9631	laboriosus	laboriosa laboriosissime
+32	9632	puls	pulte pultis
+33	9633	decapito	decapitari decapitato decapitatus
+34	9634	tugurium	tugurii tugurio
+35	9635	claudico	claudicabat claudicasse claudicatum
+36	9636	diatonicus	diatonica diatonici diatonicum
+37	9637	tyrius	tyrii tyrio tyriorum
+38	9638	coronarius	coronaria coronariarum coronarii
+39	9639	repudiatio	repudiatione repudiationem
+40	9640	dissignator	dissignatore dissignatorum
+41	9641	percontor	percontando percontatur percontatus
+42	9642	granulosus	granulosi granuloso granulosum
+43	9643	extimesco	extimescebant extimescens extimuit
+44	9644	urceus	urcei urceum
+45	9645	pekinensis	pekinensem pekinensi
+46	9646	trinitarius	trinitaria trinitariae trinitarii
+47	9647	attollo	attollens attollit attollitur
+48	9648	durabilis	durabilem durabili durabilibus
+49	9649	asteriscus	asterisci asterisco
+50	9650	palimpsestus	palimpsesto palimpsestum
+51	9651	denigro	denigrare denigrari denigratum
+52	9652	effrenatio	effrenationem effrenationibus
+53	9653	pensilis	pensile pensilem
+54	9654	nivosus	nivosa nivosi nivosis
+55	9655	iniustitia	iniustitiae iniustitiam iniustitiarum
+56	9656	ductio	ductione ductionem
+57	9657	versificatio	versificationem versificationis
+58	9658	coccineus	coccinea coccinei
+59	9659	esotericus	esoterica esotericae esotericarum
+60	9660	internalis	internale internalibus
+61	9661	excusatio	excusationem excusationi
+62	9662	caecitas	caecitate caecitatem
+63	9663	alteruter	alterutrae alterutrum
+64	9664	statuarius	statuaria statuarii statuarium
+65	9665	apiarius	apiario apiariorum
+66	9666	dynastes	dynastae dynastarum dynastas
+67	9667	lugubris	lugubre lugubri lugubrium
+68	9668	cohortor	cohortabatur cohortando cohortaretur cohortari cohortata cohortatur
+69	9669	votivus	votivae votivi votivis
+70	9670	indeterminatus	indeterminata indeterminatae
+71	9671	dentarius	dentariae dentariam
+72	9672	telonium	telonii telonio
+73	9673	palmensis	palmense palmensem
+74	9674	axon	axones axonibus
+75	9675	amazonicus	amazonica amazonicam
+76	9676	lanceolatus	lanceolata lanceolatis
+77	9677	expolio	expoliret expolitum expolivit
+78	9678	depasco	depascet depascit depastus
+79	9679	astutia	astutiae astutiam
+80	9680	allec	allex allicum
+81	9681	dilucidus	dilucide dilucidum
+82	9682	indubito	indubitata indubitate indubitato
+83	9683	allocutio	allocutione allocutionis
+84	9684	deficientia	deficientias deficientiis
+85	9685	delinquo	delinquent delinqueret deliquit
+86	9686	serpo	serpent serpsit serpunt
+87	9687	mercedarius	mercedarii mercedariorum mercedarium
+88	9688	pneumaticus	pneumatica pneumaticum
+89	9689	coniectio	coniectionem coniectiones coniectioni
+90	9690	deponens	deponentem deponenti
+91	9691	monopolium	monopolii monopoliorum
+92	9692	virginalis	virginalem virginali
+93	9693	navicularius	navicularii naviculariorum
+94	9694	chelicera	chelicerae cheliceras cheliceris
+95	9695	aestivalis	aestivale aestivales
+96	9696	ulcerosus	ulcerosa ulcerosae ulcerosum
+97	9697	tarditas	tarditate tarditatem
+98	9698	condenso	condensant condensaret condensaverunt
+99	9699	adiuto	adiutabat adiutandum adiutans
+100	9700	barytonus	baritonus barytoni barytonum

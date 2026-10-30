@@ -1,0 +1,100 @@
+1	8601	destituo	destituere destituerunt destituit
+2	8602	aquatilis	aquatiles aquatili
+3	8603	privatio	privatione privationis
+4	8604	machinula	machinulae machinulam
+5	8605	senarius	senaria senariis
+6	8606	solacium	solatium
+7	8607	iuridicialis	iuridicialem iuridiciales
+8	8608	ellipsis	ellipsem ellipsibus
+9	8609	typhon	typhone typhones
+10	8610	confidentia	confidentiae confidentiam
+11	8611	mictio	mictionem
+12	8612	pocillum	pocilla pocillo
+13	8613	homosexualitas	homosexualitatem homosexualitatis
+14	8614	discutio	discussit discussum discutiebant
+15	8615	tumba	tumbae tumbas
+16	8616	decussatio	decussationem decussationes decussationibus
+17	8617	malaccensis	malaccense malaccensia
+18	8618	melioratio	melioratione meliorationem meliorationes
+19	8619	vexillarius	vexillariorum vexillarium
+20	8620	insideo	insederat insedit inside insidebant insident insidet
+21	8621	prolongo	prolongato prolongatur prolongavit
+22	8622	circenses	circensem circensibus
+23	8623	censorinus	censorini censorinum
+24	8624	areola	areolas areolis
+25	8625	insanabilis	insanabiles insanabilibus insanabilium
+26	8626	monitio	monitione monitionem monitiones
+27	8627	ambages	ambagibus
+28	8628	benefactor	benefactorem benefactores
+29	8629	praesul	praesules praesulis
+30	8630	malefacio	malefaciat malefaciendo malefactus
+31	8631	citreus	citrea citream citreum
+32	8632	demissio	demissionem demissionum
+33	8633	vacatio	vacatione vacationem vacationis
+34	8634	meio	meeres meier meit
+35	8635	chorographia	chorographiam
+36	8636	interpunctio	interpunctiones interpunctionis
+37	8637	irritatio	irritationem irritationibus
+38	8638	armamentarium	armamentarii armamentariis
+39	8639	alacritas	alacritate alacritatem
+40	8640	lanius	lani lanii laniorum
+41	8641	capillatus	capillatis capillato
+42	8642	quadrigatus	quadrigatorum quadrigatum
+43	8643	diarius	diariae diarios
+44	8644	pilula	pilulae pilularum
+45	8645	aviditas	aviditate aviditatem
+46	8646	tribunicius	tribunicia tribuniciam tribunicios
+47	8647	agnatus	adgnatus agnati
+48	8648	irrigo	irrigandum irrigant irrigavit
+49	8649	fossio	fossiones fossionis
+50	8650	validitas	validitate validitatem
+51	8651	labefacto	labefacta labefactans labefactare
+52	8652	vermiculus	vermiculis vermiculorum vermiculos
+53	8653	parentalis	parentalia parentalium
+54	8654	ineffabilis	ineffabile ineffabiles ineffabili
+55	8655	arcuo	arcuato arcuatum arcuatus
+56	8656	exclamatio	exclamationes exclamationis
+57	8657	latex	latice laticem
+58	8658	sopio	sopiat sopit sopivit
+59	8659	detractor	detractores detractoribus
+60	8660	auditio	auditionem auditionis auditionum
+61	8661	perditio	perditione perditionem
+62	8662	confodio	confodere confoditur confossus
+63	8663	dexteritas	dexteritate dexteritatis
+64	8664	nefandus	nefanda nefandi nefando
+65	8665	insciens	insciente inscientes inscientibus
+66	8666	sophisticus	sophistica sophisticam
+67	8667	subsigno	subsignans subsignarent subsignavit
+68	8668	malitia	malitiae malitiam
+69	8669	canistrum	canistra canistri canistrorum
+70	8670	caerimonialis	caerimoniale caerimonialibus
+71	8671	pervagatus	pervagatas pervagati
+72	8672	recordatus	recordati recordatis
+73	8673	illaesus	illaesa illaesis
+74	8674	perscriptio	perscriptionem perscriptionis
+75	8675	restinguo	restinctus restingui restinxistis
+76	8676	condemnatio	condemnatione condemnationem
+77	8677	mixticius	mixticia mixticium
+78	8678	gregarius	gregariae gregariam
+79	8679	alchemista	alchemistas alchemistis
+80	8680	conamen	conamina conamine
+81	8681	tripartio	tripartita tripartitis tripartitum
+82	8682	lacerta	lacertae lacertus
+83	8683	brunneus	brunnea brunneum
+84	8684	monasterialis	monasteriali monasterialia
+85	8685	beatificatio	beatificatione beatificationem beatificationis
+86	8686	avocamentum	avocamenti avocamento
+87	8687	incanto	incantando incantat incantatus
+88	8688	penetratio	penetratione penetrationem penetrationis
+89	8689	praeceptio	praeceptiones praeceptionibus praeceptionis
+90	8690	dicax	dicace dicacem
+91	8691	bigatus	bigati bigato bigatum
+92	8692	sibiricus	sibirica sibiricae sibiricum
+93	8693	liburnicus	liburnicae liburnicas liburnicis
+94	8694	clinia	cliniae clinias
+95	8695	iustifico	iustificare iustificat iustificata
+96	8696	portulaca	portulacae portulacam
+97	8697	timiditas	timiditate timiditatis
+98	8698	coacervatio	coacervatione coacervationis
+99	8699	exstructio	exstructionem exstructionis
+100	8700	scapus	scapi scapo scapum

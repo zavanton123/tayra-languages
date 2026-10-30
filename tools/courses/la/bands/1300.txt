@@ -1,0 +1,100 @@
+1	1201	visito	visita visitabant visitabantur visitabat visitandi visitandus visitant visitantur visitare visitarent visitaret visitari visitat visitato visitatum visitatur visitaverit visitaverunt visitavisse visitavissent visitavisset visitavit visitent
+2	1202	unusquisque	unamquamque unaquaeque unaquaque unicuique uniuscuiusque unoquoque unumquemque unumquodque
+3	1203	gallus	galla gallae gallam galle galli gallis gallo gallorum gallos gallum
+4	1204	iungo	iunctum iunctus iungantur iungebantur iungenda iungendum iungere iungeret iungi iungit iungitur iungunt iunguntur iunxerant iunxerat iunxere iunxerit iunxerunt iunxissent iunxit jung
+5	1205	retineo	retentum retentus retineat retineatur retinebant retinebantur retinebat retinebatur retinebit retinebitur retinemus retinenda retinendam retinendas retinendi retinendo retinendum retinent retinentur retinere retinerent retineret retineri retinet retinetur retinuerant retinuerat retinuere retinuerit retinuerunt retinuisset retinuit
+6	1206	male	peius pessime
+7	1207	imperialis	imperiale imperialem imperiales imperiali imperialia imperialibus imperialium
+8	1208	qualis	quale qualem quales quali qualia qualibus qualium
+9	1209	syllaba	syllabae syllabam syllabarum syllabas syllabis
+10	1210	visum	visa visi visis viso
+11	1211	tantus	tanta tantae tantam tantarum tantas tante tanti tantis tantorum tantos
+12	1212	periodus	perihodos periode periodi periodis periodo periodorum periodos periodum
+13	1213	paulatim	paullatim
+14	1214	simpliciter	simplicissime simplicius
+15	1215	incrementum	incrementa incrementi incremento incrementorum
+16	1216	problema	problemata problematibus problematis problematum
+17	1217	maritimus	maritima maritimae maritimam maritimarum maritimas maritime maritimi maritimis maritimo maritimorum maritimum
+18	1218	cupio	cupere cuperent cuperet cupiamus cupiant cupiat cupiebant cupiebat cupiebatur cupiens cupierat cupiisse cupis cupisse cupisset cupit cupiunt cupiuntur cupiverat cupiverit cupiverunt cupivit
+19	1219	dubito	dubitabant dubitabat dubitandi dubitandum dubitans dubitant dubitantur dubitare dubitari dubitarint dubitarit dubitat dubitatur dubitaverat dubitaverint dubitaverunt dubitavit dubitem dubitent dubitet dubitetur
+20	1220	organum	organa organi organis organo organorum
+21	1221	supero	supera superabant superabit superamus superanda superandae superandam superandas superandis superando superandum superandus superans superasset superat superato superatum superatus superaverat superaverit superavisse superavissent superavit superem superentur
+22	1222	ordino	ordinabant ordinabantur ordinabat ordinando ordinandum ordinant ordinantur ordinare ordinarentur ordinaret ordinaretur ordinari ordinat ordinatis ordinato ordinatum ordinatur ordinaturus ordinatus ordinaverat ordinavisse ordinavit ordinem ordinentur ordines
+23	1223	nepos	nepote nepotem nepotes nepoti nepotibus nepotis nepotum
+24	1224	tribunal	tribunale tribunali tribunalia tribunalibus tribunalis tribunalium
+25	1225	typus	type typi typis typo typorum typos typum
+26	1226	sodalitas	sodalitate sodalitatem sodalitates sodalitati sodalitatibus sodalitatis sodalitatum
+27	1227	magicus	magica magicae magicam magicarum magicas magice magici magicis magico magicorum magicos magicum
+28	1228	metallum	metalla metalli metallis metallo metallorum
+29	1229	despectus	despecta despectibus despectu despectui despectum
+30	1230	remotus	remota remotae remotam remote remoti remotis remoto remotum
+31	1231	translatus	translata translatae translatam translatarum translatas translate translati translatis translato translatos translatum
+32	1232	plenum	plena pleni plenis pleno
+33	1233	apertum	aperta aperti apertis aperto
+34	1234	aurea	aureae auream aurearum aureas aureis
+35	1235	propinquus	propinqua propinquae propinquam propinquas propinqui propinquis propinquo propinquorum propinquos propinquum
+36	1236	universalis	universale universalem universales universali universalia universalibus universaliter universalium
+37	1237	amicitia	amicitiae amicitiam amicitiarum amicitias amicitiis
+38	1238	compositio	compositione compositionem compositiones compositioni compositionibus compositionis compositionum
+39	1239	expono	exponant exponat exponatur exponebant exponebat exponendi exponendo exponendum exponens exponentur exponere exponerentur exponeret exponeretur exponet exponi exponit exponitur exponunt exponuntur expositum exposuerat exposuerit exposuimus exposuisset exposuit
+40	1240	ubique	
+41	1241	celeriter	celerius celerrime
+42	1242	ictus	icta icti ictibus ictis ictu ictum ictuum
+43	1243	architectus	architecta architecti architectis architecto architectorum architectos architectum
+44	1244	recuso	recusabat recusando recusans recusant recusarat recusare recusarent recusaret recusari recusarunt recusas recusasse recusasset recusat recusatis recusato recusatum recusatus recusaverunt recusavisse recusavisset recusavit
+45	1245	lexicon	lexica lexici lexicis lexico
+46	1246	frons	fronde frondem frondes frondis fronte frontem frontes frontibus frontis
+47	1247	ruina	ruinae ruinam ruinarum ruinas ruinis
+48	1248	captivus	captiva captivae captivam captivarum captivas captive captivi captivis captivo captivorum captivos captivum
+49	1249	inferus	ima imae imam imas imis imo imum imus infera inferam inferas inferi inferis infero inferorum inferos inferum infima infimae infimam infimarum infime infimi infimis infimo infimos infimum infimus
+50	1250	canto	canta cantabant cantabat cantabitur cantamus cantanda cantandi cantando cantandum cantans cantant cantantur cantare cantarentur cantaret cantari cantat cantate cantatis cantatores cantatoribus cantatu cantatum cantatur cantatus cantaverat cantaverunt cantavisse cantavit cantemus cantent cantet
+51	1251	contingo	contactu contactum contigerat contigerit contigerunt contigisse contigisset contigit contingant contingat contingebant contingebat contingere continget contingit contingitur contingunt
+52	1252	adulescens	adulescente adulescentem adulescentes adulescenti adulescentia adulescentiae adulescentiam adulescentibus adulescentis adulescentium adulescentum
+53	1253	piscis	pisce piscem pisces pisci piscibus piscium
+54	1254	possessio	possessione possessionem possessiones possessionibus possessionis possessionium possessionum
+55	1255	dirigo	directum directus direxisset direxit dirigantur dirigebat dirigebatur dirigendi dirigendum dirigens dirigere dirigeret dirigeretur dirigi dirigit dirigitur dirigunt diriguntur
+56	1256	guberno	gubernabant gubernabantur gubernabat gubernabatur gubernandi gubernandum gubernans gubernant gubernantur gubernare gubernarentur gubernaret gubernari gubernas gubernat gubernatis gubernato gubernatum gubernatur gubernatus gubernavisse gubernavit gubernent gubernet
+57	1257	quinquaginta	
+58	1258	moenia	moenibus moenium
+59	1259	aequatio	aequatione aequationem aequationes aequationibus aequationis aequationum
+60	1260	mercatus	mercatibus mercatu mercatui mercatum mercatuum
+61	1261	illustris	illustre illustrem illustres illustri illustria illustribus illustrior illustrissimus illustrium
+62	1262	traho	tractu trahant trahantur trahat trahebant trahebantur trahebat trahenda trahendam trahendi trahendum trahens trahere traherent traheret trahetur trahi trahit trahitur trahunt trahuntur traxerunt traxit
+63	1263	editor	editore editorem editores editori editoribus editoris editorium editorum
+64	1264	recedo	recedant recedebant recedendum recedens recedente recedere recederet recedit recesserant recesserat recesserit recesserunt recessissent recessit recessu recessum
+65	1265	afficio	affecerat affecerint affecerunt affecisse affecit affectu affectum afficere afficerent afficerentur afficeret afficeretur affici afficiantur afficiat afficiatur afficiebat afficiebatur afficiens afficient afficiet afficietur afficit afficitur afficiunt afficiuntur
+66	1266	impedio	impediantur impediat impediatur impediebant impediebantur impediebat impediebatur impediendum impediens impedierunt impediit impedire impedirent impedirentur impediret impediretur impediri impedit impedito impeditum impeditur impeditus impediunt impediuntur impedivere impediverunt impedivit
+67	1267	aestas	aestate aestatem aestates aestatibus aestatis
+68	1268	municipalis	municipale municipalem municipales municipali municipalia municipalibus
+69	1269	capitulum	capitula capituli capitulis capitulo capitulorum
+70	1270	heres	haeres herede heredem heredes heredibus heredis heredum
+71	1271	meus	mea meae meam mearum meas mei meis meo meorum meos mi mis
+72	1272	transfero	transfer transferant transferatur transferebat transferendi transferendum transferre transferret transferretur transferri transfert transfertur transferunt transferuntur translatum transtulerant transtulerat transtulere transtulerunt transtulisse transtulissent transtulit
+73	1273	instruo	instruamus instruant instruatur instructum instructus instruebantur instruebat instruendi instruendo instruendum instruere instruerentur instrueret instrueretur instrui instruit instruitur instruunt instruuntur instruxerunt instruxisse instruxit
+74	1274	fabrica	fabricae fabricam fabricarum fabricas fabricis
+75	1275	nervus	nervi nervis nervo nervorum nervos nervum
+76	1276	geographicus	geographica geographicae geographicam geographicarum geographicas geographice geographici geographicis geographicorum geographicos geographicum
+77	1277	musculus	musculi musculis musculo musculorum musculos musculum
+78	1278	frustra	
+79	1279	revera	
+80	1280	effigies	effigia effigie effigiebus effigiei effigiem effigierum
+81	1281	no	na nabat nabis namur nando nant narem nares nas nat nate nates natibus natis nato natur navi nem nemora nemore nemoribus nemoris nemorum nemus nent nes net
+82	1282	consequor	consecutum consecutus consequat consequebatur consequemur consequendi consequendum consequens consequerentur consequeretur consequetur consequi consequitur consequuntur
+83	1283	localis	locale localem locales locali localia localibus localiter localium
+84	1284	donec	
+85	1285	feliciter	felicissime felicius
+86	1286	septentrio	septentrione septentrionem septentrionibus septentrionis
+87	1287	vectigal	vectigale vectigalem vectigales vectigali vectigalia vectigalibus vectigalis vectigalium
+88	1288	collega	collegae collegam collegarum collegas collegis
+89	1289	aegyptus	aegypti aegyptis aegypto aegyptos aegyptum
+90	1290	processus	processam processi processibus processorum processu processui processum processuum processuus
+91	1291	praeteritum	praeterita praeteriti praeteritis praeterito praeteritorum
+92	1292	consultus	consulta consulti consultis consulto consultorum consultum
+93	1293	laus	laude laudem laudes laudi laudibus laudis
+94	1294	sepelio	sepeliant sepeliat sepeliendis sepeliendo sepeliendos sepeliendum sepelierunt sepelire sepeliretur sepeliri sepelito sepelitur sepeliuntur sepeliverat sepelivere sepeliverunt sepelivit sepultum sepultus
+95	1295	moderator	moderatore moderatores moderatori moderatoribus moderatoris moderatorium moderatorum moderatrices moderatricis moderatrix
+96	1296	immo	imo
+97	1297	cunctus	cuncta cunctae cunctam cunctarum cunctas cuncti cunctis cunctorum cunctos cunctum
+98	1298	titus	titi tito titum
+99	1299	defensio	defensione defensionem defensiones defensioni defensionis
+100	1300	cardinalis	cardinale cardinalem cardinales cardinali cardinalibus cardinalium

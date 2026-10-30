@@ -1,0 +1,100 @@
+1	5201	vaccinus	vaccina vaccini vaccino vaccinorum vaccinum
+2	5202	amarus	amara amarae amaras amari amaris amarissimus amaro amarum
+3	5203	spondeo	spondebant spondebat spondere sponderunt spondet spondetur sponsis sponsum spoponderit spopondit
+4	5204	hilaris	hilari hilaria hilarior hilarius hilarus
+5	5205	confligo	conflictu conflictum confligat confligebant confligebat confligebatur confligerent confligeret confligit confligunt conflixerunt conflixit
+6	5206	mercor	mercandi mercando mercandum mercantium mercarentur mercatu mercatum mercatur mercaturus
+7	5207	mico	micabat micando micant micare micas micat micuerunt micuit
+8	5208	sollicito	sollicita sollicitabatur sollicitant sollicitare sollicitat sollicitatus sollicitaverit sollicitavit
+9	5209	circumeo	circumeat circumeunt circumiit circumire circumirentur circumiri circumit circumitus circumivit
+10	5210	hominaticum	homagium
+11	5211	postmodo	
+12	5212	equidem	
+13	5213	geni	
+14	5214	amen	
+15	5215	octaginta	
+16	5216	gaudet	
+17	5217	bellum civile	bellum civile
+18	5218	epulis	
+19	5219	verbatim	
+20	5220	interdiu	
+21	5221	fortuito	
+22	5222	nequaquam	
+23	5223	absque	
+24	5224	etiamnum	
+25	5225	repositorium	repositoria
+26	5226	aliquamdiu	aliquandiu
+27	5227	defensa	defensam
+28	5228	inverso	inversa
+29	5229	spacus	space spacorum
+30	5230	singillatim	sigillatim
+31	5231	apocolocyntosis	apocolocyntosi
+32	5232	sons	sontes
+33	5233	venum	veno
+34	5234	largitudo	largitudine largitudinem largitudinis
+35	5235	registrum	registra
+36	5236	infitior	infitiandum infitiatur infitiatus
+37	5237	abundantia	abundantiam
+38	5238	palaestra	palaestrae palaestram
+39	5239	astrologia	astrologiam
+40	5240	reverso	reversa
+41	5241	curiosus	curiosa curiosam curiose
+42	5242	aorta	aortae
+43	5243	baiulus	baiuli
+44	5244	anatomia	anatomiae
+45	5245	carnelevarium	carnelevarii carnelevario
+46	5246	romanticus	romantica
+47	5247	stultitia	stultitiae stultitiam
+48	5248	algebra	algebrae algebram
+49	5249	primordium	primordia primordiis
+50	5250	circulatio	circulationem circulationis
+51	5251	epithelium	epithelii epithelio
+52	5252	elegiacus	elegiaca elegiacis elegiaco elegiacum
+53	5253	nugae	nugarum nugas nugis
+54	5254	fulgeo	fulgeant fulgebat fulgens fulgere fulget fulserunt fulsit
+55	5255	hiemalis	hiemali hiemalia hiemalibus hiemalium
+56	5256	argumentatio	argumentatione argumentationem argumentationes argumentationi
+57	5257	centiens	centies
+58	5258	peregre	peregri
+59	5259	evidenter	evidentius
+60	5260	oblique	obliquius
+61	5261	devenio	deveniat devenire devenit
+62	5262	ambigo	ambigi ambigitur ambigunt
+63	5263	festivalis	festivalia festivalibus
+64	5264	baccha	bacchae baccharum bacchis
+65	5265	permissio	permissione permissionem permissiones permissionis
+66	5266	brevitas	brevitate brevitatem brevitatis
+67	5267	lamia	lamiae lamiam
+68	5268	natrium	natrii natrio
+69	5269	immediatus	immediata immediatam immediate immediatum
+70	5270	tofus	tofi tofis tofum
+71	5271	homicida	homicidae homicidas
+72	5272	socolata	chocolata socolatae socolatam
+73	5273	vertebrum	vertebrae vertebrarum vertebras vertebris
+74	5274	lilium	lili lilia liliorum
+75	5275	satisfactio	satisfactione satisfactionem satisfactioni
+76	5276	diverbium	diverbia diverbii diverbiorum
+77	5277	subscriptio	subscriptione subscriptionem subscriptiones subscriptionibus
+78	5278	elogium	elogiis elogio
+79	5279	nervalis	nervalem nervales nervalibus nervalium
+80	5280	tignum	tigna tignis tigno tignorum
+81	5281	oppidulum	oppidula oppidulo oppidulorum
+82	5282	apocalypsis	apocalypse apocalypsem apocalypsi apocalypsin
+83	5283	novo	novandi novaris novator novatum novavit
+84	5284	munimentum	munimenta munimentis munimento
+85	5285	dormitorium	dormitoria dormitoriis dormitorio
+86	5286	phoca	phocae phocam phocas phocum
+87	5287	vectorius	vectoriam vectorio vectoriorum vectorium
+88	5288	apparitio	apparitione apparitionem apparitiones apparitionum
+89	5289	opinabilis	opinabile opinabilem opinabilibus
+90	5290	volatilis	volatile volatili volatilibus volatilium
+91	5291	lana	lanae lanam lanarum
+92	5292	antagonista	antagonistae antagonistam
+93	5293	typographia	typographiae typographiam
+94	5294	diffidentia	diffidentiae diffidentiam
+95	5295	conflictio	conflictionem conflictiones conflictionum
+96	5296	indulgentia	indulgentiae indulgentiam
+97	5297	denominatio	denominatione denominationes denominationis denominationum
+98	5298	elevatio	elevatione elevationem elevationes elevationis
+99	5299	indianus	indiana indianae indianarum indiani indianos
+100	5300	acervus	acervi acervis acervo acervum

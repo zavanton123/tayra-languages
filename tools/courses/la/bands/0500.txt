@@ -1,0 +1,100 @@
+1	401	licet	liceant liceat licebat licebit licent licentis licere liceret licitum licuisse licuit
+2	402	religio	religione religionem religiones religioni religionibus religionis religionum
+3	403	metrum	metra metri metris metro metrorum
+4	404	municipium	municipi municipia municipii municipiis municipio municipiorum
+5	405	papa	papae papam paparum papas papis pp
+6	406	principalis	principale principalem principales principali principalia principalibus principalium
+7	407	narro	narrabant narrabantur narrabat narrabatur narrandi narrandum narrans narrant narrantur narrarat narrare narrarent narrarentur narraret narrari narras narrasset narrat narratis narratum narratur narraturus narraverant narraverat narraverit narraverunt narravimus narravisse narravit narrent narret narretur
+8	408	catholicus	catholica catholicae catholicam catholicarum catholicas catholice catholici catholicis catholicissimus catholico catholicorum catholicos catholicum
+9	409	monstro	monstra monstrabantur monstrabat monstrabit monstrandi monstrandum monstrans monstrant monstrantur monstrare monstrarent monstraret monstrari monstrat monstratis monstrato monstratorum monstratum monstratur monstratus monstraverant monstraverat monstravere monstraverunt monstravi monstravisse monstravit monstrent monstrentur monstret monstretur
+10	410	spatium	spacium spatia spatii spatiis spatio spatiorum
+11	411	altus	alta altae altam altarum altas alte alti altior altis altissime altissimus altius alto altorum altos altum
+12	412	labor	labantur labatur labendi labens laberetur laberis labitur labore laborem labores labori laboribus laboris laborum lapsa lapsi lapsibus lapsis lapsorum lapsos lapsu lapsum lapsus lapsuum
+13	413	militaris	militare militarem militares militari militaria militariae militarias militaribus militariis militariter militarium
+14	414	satis	sat satius
+15	415	praecipuus	praecipua praecipuae praecipuam praecipuarum praecipuas praecipui praecipuis praecipuo praecipuorum praecipuos praecipuum
+16	416	intra	interius intime
+17	417	pugno	pugnabant pugnabat pugnabatur pugnabimus pugnabo pugnandas pugnandi pugnando pugnandos pugnandum pugnans pugnant pugnantur pugnare pugnarent pugnaret pugnaretur pugnari pugnas pugnassent pugnat pugnato pugnatum pugnatur pugnaverant pugnavere pugnaverint pugnaverit pugnaverunt pugnavisset pugnavit pugnent
+18	418	interdum	
+19	419	summa	summae summam summarum summas summis
+20	420	moveo	momus morit morunt moturus moveam moveant moveantur moveas moveat moveatur movebant movebantur movebat movebatur movebit movebuntur movemur movendi movendo movendum movens movent moventur moverat movere moverent moverentur moveret moveretur moveri moveris moverit moverunt moves movet movetur movi movisse movissent movit
+21	421	constituo	constituam constituant constituantur constituat constituatur constituebant constituebantur constituebat constituebatur constituendi constituendo constituendum constituens constituent constituerant constituerat constituere constitueret constitueretur constituerit constituerunt constitues constituet constitui constituimus constituisse constituissent constituisset constituistis constituit constituitis constituitur constituunt constituuntur
+22	422	malus	mala malae malam malarum malas mali malis malo malorum malos malum peior pessimus
+23	423	mulier	muliere mulierem mulieres mulieri mulieribus mulieris mulierum
+24	424	pax	pace pacem paces paci pacis
+25	425	episcopus	episcopi episcopis episcopo episcoporum episcopos episcopum
+26	426	academia	academiae academiam academiarum academias academiis
+27	427	poeta	poetae poetam poetarum poetas poetis poetum
+28	428	classis	classe classem classes classi classibus classim classium
+29	429	americanus	americana americanae americanam americanarum americanas americani americanis americano americanorum americanos americanum
+30	430	elementum	elementa elementi elementis elemento elementorum
+31	431	theodiscus	theodisca theodiscae theodiscam theodiscas theodisce theodisci theodiscis theodisco theodiscorum theodiscos theodiscum theotiscus
+32	432	argumentum	argumenta argumenti argumentis argumento argumentorum
+33	433	vocabulum	vocabula vocabuli vocabulis vocabulo vocabulorum
+34	434	area	areae aream arearum areas areis
+35	435	oeconomicus	oeconomica oeconomicae oeconomicam oeconomicarum oeconomicas oeconomice oeconomici oeconomicis oeconomico oeconomicorum oeconomicos oeconomicum
+36	436	praesens	praesente praesentem praesentes praesenti praesentia praesentiae praesentiam praesentibus praesentiis praesentis praesentium presens presentia
+37	437	casus	case casi casibus caso casu casui casum casuum
+38	438	contineo	contentum contineant contineantur contineat contineatur continebant continebantur continebat continebatur continebuntur continenda continendae continendam continendas continendi continent continentur continere continerentur contineret contineretur contineri continet continetur continuerat continuerunt continui continuit
+39	439	pugna	pugnae pugnam pugnarum pugnas pugnis
+40	440	iubeo	iube iubeat iubeatur iubebant iubebat iubendum iubent iubentur iubere iuberent iuberet iubet iubetur iusserat iussere iusserim iusserit iusserunt iussi iussis iussisse iussisset iussit iusso iussor iussum
+41	441	naturalis	naturale naturalem naturales naturali naturalia naturalibus naturaliter naturalium
+42	442	valeo	vale valeant valeas valeat valebant valebat valebit valebunt valent valere valerent valeret valeri vales valet valuere valuerint valuerit valuerunt valuisse valuisset valuit
+43	443	iuxta	juxta
+44	444	supra	summe superius supreme
+45	445	inferior	inferiora inferiore inferiorem inferiores inferiori inferioribus inferioris inferiorum inferius
+46	446	statio	statione stationem stationes stationi stationibus stationis stationum
+47	447	lacus	lacibus lacu lacubus lacui lacum lacuum
+48	448	aevum	aeva aevi aevis aevo aevorum
+49	449	simul	
+50	450	praesertim	
+51	451	christus	christe christi christo christum cristi
+52	452	libertas	libertate libertatem libertates libertati libertatibus libertatis libertatium libertatum
+53	453	lux	luce lucem luces luci lucis lucum
+54	454	oratio	oratione orationem orationes orationi orationibus orationis orationum
+55	455	paene	pene
+56	456	vallis	valle vallem valles valli vallibus vallicula vallium
+57	457	septem	
+58	458	denique	
+59	459	esperanticus	esperantica esperanticae esperanticam esperanticarum esperanticas esperantice esperantici esperanticis esperantico esperanticorum esperanticos esperanticum
+60	460	foedus	foeda foedae foede foedera foedere foederi foederibus foederis foederium foederum foedis foedissimus foedos foedum
+61	461	cultura	culturae culturam culturarum culturas culturis
+62	462	matrimonium	matrimonia matrimonii matrimoniis matrimonio matrimoniorum
+63	463	castellum	castella castelli castellis castello castellorum
+64	464	necnon	
+65	465	artifex	artifice artificem artifices artifici artificia artificibus artificii artificiis artificio artificiorum artificis artificium artificum
+66	466	trado	tradant tradat tradatur tradebant tradebantur tradebat trademus tradendae tradendam tradendarum tradendas tradendi tradendum tradens tradere traderent traderet traderetur tradet tradi tradiderat tradidere tradiderint tradiderunt tradidi tradidisse tradidisset tradidit tradit traditis tradito traditum traditur traditurus tradunt traduntur
+67	467	amor	amore amorem amores amori amoribus amoris amorum
+68	468	quartus	quarta quartae quartam quartarum quarti quarto quartos
+69	469	principium	principi principia principii principiis principio principiorum
+70	470	quasi	
+71	471	sodalis	sodalem sodales sodali sodalibus sodalium
+72	472	popularis	populare popularem populares populari popularia popularibus populariter popularium popularum
+73	473	bibliotheca	bibliothecae bibliothecam bibliothecas bibliothecis
+74	474	actio	actione actionem actiones actioni actionibus actionis actionum
+75	475	datum	data dati datis dato datorum
+76	476	an	
+77	477	paulo	paullo paululo
+78	478	color	colore colorem colores coloribus coloris colorum colos
+79	479	unio	uniebantur uniebat uniendi unione unionem uniones unioni unionis unire uniri unis unit unitis unito unitum unitus uniuntur univit
+80	480	addo	addamus addas addat addatur adde addebant addebantur addebat addebatur addendi addendo addendum addendus addens addere addes addi addiderant addiderat addiderit addidero addiderunt addidimus addidisse addidit addimus addit additis addito additum additur additus addunt adduntur
+81	481	civilis	civile civilem civiles civili civilia civilibus civilium civilius
+82	482	mutatio	mutatione mutationem mutationes mutationi mutationibus mutationis mutationum
+83	483	formo	formabant formabatur formamus formandi formando formandum formans formant formantur formare formarent formarentur formaret formaretur formari formas formasset format formatis formato formatorum formatum formatur formatus formavere formaverunt formavimus formavisse formavit forment formentur formet formetur
+84	484	patria	patriae patriam patriis
+85	485	decem	
+86	486	senatus	senati senatu senatui senatum
+87	487	internationalis	internationale internationalem internationales internationali internationalia internationalibus internationalium
+88	488	fides	fidei fidem fiderum fidi fidis fidium
+89	489	ostendo	ostendam ostendant ostendat ostendatur ostendebant ostendebat ostendebatur ostendendi ostendens ostenderat ostendere ostenderent ostenderet ostenderetur ostenderunt ostendet ostendetur ostendi ostendimus ostendit ostenditur ostendunt ostenduntur ostentu ostentus
+90	490	nobilis	nobile nobilem nobiles nobili nobilia nobilibus nobilior nobilissimus nobilium
+91	491	stella	stela stelae stellae stellam stellarum stellas stellis
+92	492	curo	curabant curabantur curabat curabatur curanda curandae curandam curandas curandi curandis curando curandorum curandum curandus curant curantur curare curarent curaret curari curasse curasset curat curatis curato curatum curatur curaturus curatus curaverat curaverunt curavimus curavisse curavit curent curentur cures curet curetur
+93	493	mitto	miseram miserant miserat miseris miserit miseritis miserunt misi misisse misisset misit missit mito mittam mittant mittantur mittas mittat mittatur mitte mittebant mittebantur mittebat mittebatur mittendi mittendo mittendum mittens mittere mitterent mitteret mittetur mitti mittimus mittis mittit mittite mittitur mittunt mittuntur
+94	494	structura	structurae structuram structurarum structuras structuris
+95	495	turris	turre turrem turres turri turribus turrim turrium
+96	496	russicus	russica russicae russicam russicarum russicas russice russici russicis russico russicorum russicos russicum
+97	497	eventus	eventa eventi eventibus eventis evento eventorum eventu eventum eventuum
+98	498	nihilominus	
+99	499	doctrina	doctrinae doctrinam doctrinarum doctrinas doctrinis
+100	500	propositum	proposita propositi propositis proposito propositorum

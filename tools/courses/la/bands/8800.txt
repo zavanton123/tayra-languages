@@ -1,0 +1,100 @@
+1	8701	interpositio	interpositione interpositionem interpositiones
+2	8702	lacustris	lacustri lacustria lacustribus
+3	8703	transfuga	transfugae transfugam transfugum
+4	8704	assiduitas	adsiduitas assiduitate assiduitatem assiduitatis
+5	8705	innovo	innovabatur innovator innovatum innovavit
+6	8706	exscindo	exscindendi exscindendum exscindit exscinduntur
+7	8707	alnus	alni alno alnorum
+8	8708	caninus	caninis caninos caninum
+9	8709	profluo	profluat profluere profluit profluunt
+10	8710	contamino	contaminari contaminasse contaminatus contaminavit
+11	8711	infensus	infensae infensi infensum
+12	8712	sensualis	sensualem sensuales sensualiter
+13	8713	appalachianus	appalachianae appalachianis appalachiano appalachianos
+14	8714	subsisto	subsistant subsistendi subsistens substitit
+15	8715	rheumaticus	rheumatica rheumaticam rheumatici rheumaticorum
+16	8716	verticillus	verticilli verticillis verticillo
+17	8717	falsifico	falsificari falsificatae falsificatas falsificatum
+18	8718	andinus	andinae andinarum andinos andinum
+19	8719	feto	fetabat fetando fetat foetor
+20	8720	unguentarius	unguentaria unguentariam unguentarium
+21	8721	pabulor	pabulabantur pabulantur pabulari pabulatoribus
+22	8722	anatomicus	anatomice anatomicis anatomicorum
+23	8723	iniucundus	iniucunda iniucundi iniucundo iniucundum
+24	8724	fusiformis	fusiforme fusiformes fusiformi fusiformium
+25	8725	immanitas	immanitate immanitatem immanitatis
+26	8726	silicernium	silicernia silicerniis silicerniorum
+27	8727	pediculus	pediculis pediculo pediculum
+28	8728	homogeneus	homogenea homogeneae homogenee homogeneum
+29	8729	transilio	transiliet transilire transiliret transiluerant
+30	8730	prospecto	prospectare prospectat prospectatum prospectatur
+31	8731	resuscito	resuscitant resuscitare resuscitavit resuscitet
+32	8732	adstruo	adstructa adstructas adstructus adstruere
+33	8733	caldus	caldas caldis caldum
+34	8734	vegetabilis	vegetabile vegetabili vegetabilia vegetabilibus
+35	8735	suebicus	suebica suebicam suebico suebicum
+36	8736	mutuatio	mutuationem mutuationes mutuationibus mutuationum
+37	8737	lectulus	lectuli lectulis lectulo lectulum
+38	8738	evacuo	evacuabuntur evacuans evacuant evacuatus
+39	8739	percello	percellat percellere percelluntur perculit
+40	8740	amputatio	amputatione amputationes amputationis
+41	8741	scyphus	scyphi scyphis scypho scyphum
+42	8742	rosaceus	rosacea rosaceae rosaceas rosacei
+43	8743	sedulus	sedule seduli sedulo
+44	8744	necopinatus	necopinata necopinatam necopinati necopinato
+45	8745	clericalis	clericalem clericales clericali
+46	8746	seduco	seducens seducere seducit seduxit
+47	8747	propitius	propitiis propitio propitium
+48	8748	avolo	avolant avolare avolat avolatum
+49	8749	exterreo	exterrent exterritus exterruisset exterruit
+50	8750	pygmaeus	pygmaea pygmaeam pygmaeorum pygmaeos
+51	8751	stipulatio	stipulationi stipulationibus stipulationis stipulationum
+52	8752	claustralis	claustralem claustrales claustrali claustralium
+53	8753	cervisialis	cervisiale cervisialia cervisialibus
+54	8754	ephemerus	ephemera ephemeras ephemere ephemero
+55	8755	raetoromanicus	raetoromanica raetoromanicae raetoromanicarum raetoromanicas
+56	8756	compotatio	compotationem compotationes compotationibus compotationis
+57	8757	patronalis	patronale patronalia patronalium
+58	8758	paludosus	paludosa paludosi paludosis
+59	8759	macellum	macella macelli macellis
+60	8760	conlegium	conlegi conlegii conlegio
+61	8761	transmontanus	transmontanae transmontanam transmontanas transmontani
+62	8762	polemarchus	polemarchi polemarcho polemarchos
+63	8763	circumduco	circumducebat circumducto circumducunt circumduxerunt
+64	8764	complexitas	complexitate complexitates complexitatis
+65	8765	sabulosus	sabulosae sabulosi sabuloso sabulosum
+66	8766	violatio	violatione violationes violationibus violationis
+67	8767	speculativus	speculativa speculative speculativis speculativo
+68	8768	consolido	consolidare consolidarent consolidatorium consolidavit
+69	8769	delitesco	delitescebat delitescerent delituisset delituit
+70	8770	interiectio	interiectionem interiectiones interiectionibus
+71	8771	bilateralis	bilaterale bilaterales bilateralibus bilateralium
+72	8772	terebro	terebrabatur terebrandi terebrantur terebratum
+73	8773	arcarius	arcariae arcario arcarium
+74	8774	cupreus	cupreas cupreo cupreorum cupreum
+75	8775	verecundus	verecunde verecundis verecundum
+76	8776	tingo	tingere tingi tinguntur tinxerunt
+77	8777	itineror	itinerantem itinerantes itinerantis itinerare
+78	8778	commoneo	commoneat commonerent commonetur commonuit
+79	8779	decoquo	decoquendo decoquitur decoquuntur decoxissent
+80	8780	complementarius	complementaria complementariae complementariis complementarium
+81	8781	ango	angebant angebat angerer angitur
+82	8782	obstringo	obstrictum obstringere obstringitur obstringunt
+83	8783	coitio	coitione coitiones coitionis
+84	8784	arrogo	arrogabant arrogatur arrogaverit arrogavit
+85	8785	tibetanus	thibetanus tibetana tibetanis tibetanum
+86	8786	exalto	exaltabitur exaltandum exaltantur exaltat
+87	8787	perspicillum	perspicilla perspicillo perspicillorum
+88	8788	ostensio	ostensione ostensiones ostensionum
+89	8789	bubo	bubi bubonem bubones
+90	8790	iranicus	iranica iranicam iranicis iranicos
+91	8791	irrepo	irrepant irrepere irreperet irrepsit
+92	8792	fructifer	fructifera fructiferae fructiferarum fructiferis
+93	8793	deludo	deludens deludere delusi delusit
+94	8794	giganteus	gigantea giganteas giganteorum
+95	8795	sacrosanctus	sacrosancta sacrosanctas sacrosancto
+96	8796	patriarchalis	patriarchale patriarchalem patriarchales
+97	8797	bubalus	bubali bubalorum bubalum
+98	8798	demoveo	demotus demovendo demoverunt demovit
+99	8799	perdisco	perdidicisse perdidicit perdiscebat perdiscere
+100	8800	dilacero	dilacerat dilaceratum dilaceratur dilacerent

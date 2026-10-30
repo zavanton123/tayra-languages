@@ -1,0 +1,100 @@
+1	2401	democratia	democratiae democratiam
+2	2402	assumo	assumatur assumebat assumendum assumens assumere assumit assumitur assumpserant assumpserat assumpserit assumpserunt assumpsit assumpturus assumptus assumunt
+3	2403	calor	calore calorem calori caloris
+4	2404	implico	implicans implicant implicantur implicare implicarentur implicaret implicari implicat implicatis implicatum implicatus implicavit implicentur
+5	2405	iudicialis	iudiciale iudicialem iudiciales iudiciali iudicialia iudicialibus iudicialiter iudicialium
+6	2406	debitum	debita debiti debitis debito debitorum
+7	2407	granum	grana grani granis grano granorum
+8	2408	pietas	pietate pietatem pietati pietatis
+9	2409	puteus	putei puteis puteo puteorum puteos puteum
+10	2410	circumdo	circumdabant circumdabit circumdans circumdant circumdantur circumdare circumdat circumdatum circumdatur circumdatus circumdedit circumdentur circumdetur
+11	2411	elegans	elegantem eleganter elegantes eleganti elegantibus elegantior elegantissime elegantissimus elegantium elegantius
+12	2412	recognosco	recognitum recognitus recognosce recognoscendum recognosci recognoscitur recognoscunt recognoscuntur recognoverunt recognovisse recognovit
+13	2413	ducenti	ducenta ducentae ducentarum ducentas ducentis ducentorum ducentos ducentum
+14	2414	perturbatio	perturbatione perturbationem perturbationes perturbationibus perturbationis perturbationum
+15	2415	culpa	culpae culpam culpas
+16	2416	interrete	interreti interretis interretium
+17	2417	abecedarium	abecedaria abecedarii abecedariis abecedario abecedariorum
+18	2418	cohors	cohorte cohortem cohortes cohorti cohortibus cohortis cortum
+19	2419	polus	poli polis polo polorum polos polum
+20	2420	falsus	falsa falsae falsam falsas falsi falsis falsorum falsos
+21	2421	hebdomas	hebdomade hebdomadem hebdomades hebdomadibus hebdomadis hebdomados hebdomadum
+22	2422	consecro	consecrabatur consecrantur consecrare consecrari consecrato consecratorum consecratum consecratur consecratus consecraverunt consecravit
+23	2423	argentarius	argentariae argentariam argentariarum argentarias argentarii argentariis argentariorum argentarios argentarium
+24	2424	praeceptor	praeceptore praeceptorem praeceptores praeceptori praeceptoribus praeceptoris praeceptorum
+25	2425	arca	arcae arcam arcarum arcas archa arcis
+26	2426	amplector	amplectantur amplectatur amplectendi amplectendum amplectens amplecterentur amplecti amplectitur amplectuntur amplexu amplexum amplexurus
+27	2427	lente	lentissime lentius
+28	2428	laureatus	laureata laureatae laureati laureatum
+29	2429	itinerarium	itineraria itinerarii itinerariis itinerario
+30	2430	semita	semitae semitam semitarum semitas semitis
+31	2431	coniectura	coniecturae coniecturam coniecturarum coniecturis
+32	2432	amnis	amne amnem amnes amnibus amnium
+33	2433	cadaver	cadavera cadavere cadaveribus cadaveris cadaverum
+34	2434	dominatio	dominatione dominationem dominationes dominationis
+35	2435	metus	metu metum
+36	2436	gigas	gigans gigantem gigantes giganti gigantibus gigantum
+37	2437	nominativus	nominativa nominativae nominativi nominativo nominativum
+38	2438	ferreus	ferrea ferreae ferream ferrearum ferreas ferrei ferreis ferreo ferreos ferreum
+39	2439	ianua	ianuae ianuam ianuarum ianuas ianuis janua
+40	2440	dramaticus	dramatica dramaticae dramaticam dramatici dramaticis dramatico dramaticum
+41	2441	avunculus	avunculi avunculis avunculo avunculorum avunculum
+42	2442	nix	nive nivem nives nivibus nivis nivium nivum
+43	2443	comicus	comica comicae comicam comicas comici comicis comico comicorum comicos comicum
+44	2444	formalis	formale formalem formales formali formalibus formaliter formalium
+45	2445	iurisdictio	iurisdictione iurisdictionem iurisdictiones iurisdictioni iurisdictionibus iurisdictionis jurisdictio
+46	2446	contemporaneus	contemporanea contemporaneae contemporaneam contemporanearum contemporaneas contemporanei contemporaneis contemporaneorum contemporaneos contemporaneum
+47	2447	vitupero	vituperabat vituperabatur vituperant vituperantur vituperare vituperat vituperatores vituperatum vituperatur vituperatus vituperaverat vituperaverunt vituperavisse vituperavit
+48	2448	exstruo	exstructum exstructus exstruendum exstruere exstrueret exstrui exstruit exstruuntur exstruxerunt exstruxit
+49	2449	sagitta	sagittae sagittam sagittarum sagittas sagittis
+50	2450	rufus	rufa rufae rufi rufo ruforum rufum
+51	2451	scaenica	scaenicae scaenicam scaenicarum scaenicas scaenicis scaenicus
+52	2452	victima	victimae victimam victimarum victimas victimis
+53	2453	observatus	observata observatae observatas observati observatis observatorum observatos observatu observatum
+54	2454	festus	festarum festi festis festo festorum festos
+55	2455	regulus	reguli regulis regulo regulorum regulos regulum
+56	2456	caecus	caeca caecae caecam caecas caece caeci caecis caeco caecorum caecos caecum
+57	2457	proficiscor	profectu profectum profecturus proficiscatur proficiscendi proficiscendum proficiscens proficisceretur proficiscetur proficisci proficiscitur proficiscuntur
+58	2458	reus	rea reae rei reis reo reorum reos reum
+59	2459	frango	fractum frangant frangantur frangebat frangenda frangendam frangendarum frangendi frangendo frangendos frangens frangentur frangere franget frangit frangitur frangunt franguntur fregerat fregi fregissent fregit
+60	2460	auris	aure aurem aures auri auribus aurium oris
+61	2461	rotundus	rotunda rotundae rotundam rotundarum rotundas rotundi rotundis rotundo rotundorum rotundos
+62	2462	scopus	scopi scopis scopo scoporum scopos scopum
+63	2463	narratus	narrata narratae narratam narratarum narratas narratis narratorum narratos narratum
+64	2464	atrium	atri atria atrii atriis atrio atriorum
+65	2465	influo	influant influebant influebat influens influent influere influit influunt influxerunt influxisse influxu influxum
+66	2466	dominor	dominabant dominabantur dominabatur dominamini dominandae dominandum dominans dominantur dominarentur dominaretur dominari dominatu dominatum dominatur dominent domines dominetur domino
+67	2467	nanciscor	nactum nactus nancisceretur nancisci nanciscit nanctus
+68	2468	disto	distabant distabat distamus distant distare distarent distat distent distet
+69	2469	reprehendo	reprehendant reprehendebat reprehendens reprehendere reprehenderent reprehenderunt reprehendit reprehenditur reprehendunt reprehenduntur reprehensum reprehensus
+70	2470	promunturium	promontorium promuntorium promunturi promunturia promunturii promunturio
+71	2471	emendatio	emendatione emendationem emendationes emendationibus emendationis emendationum
+72	2472	occupatio	occupatione occupationem occupationes occupationibus occupationis occupationum
+73	2473	renuntio	renuntiandi renuntians renuntiarat renuntiare renuntiaret renuntiaretur renuntiasse renuntiat renuntiato renuntiatur renuntiaturus renuntiatus renuntiaverunt renuntiavit
+74	2474	evado	evadant evadendi evadens evadere evaderet evadit evadunt evaserat evaseris evaserit evaserunt evasisse evasisset evasit
+75	2475	candidus	candida candidae candidam candidat candidi candidior candidis candido candidos candidum
+76	2476	comperio	compererint compererunt comperiant comperiendi comperimur comperimus comperire comperiret comperiri comperissent comperisset comperit compertum compertus
+77	2477	commoveo	commotum commotus commoveat commovebantur commovebat commovendi commovent commovere commoverentur commoveri commoverit commoverunt commovet commovetur commovit
+78	2478	applico	applicabant applicabat applicandum applicans applicantur applicaret applicari applicat applicatis applicato applicatum applicatur applicaverit applicavit applicent applicet applicuimus
+79	2479	subterraneus	subterranea subterraneae subterraneam subterranearum subterraneas subterranei subterraneis subterraneo subterraneorum subterraneos subterraneum
+80	2480	biblicus	biblica biblicae biblicam biblicarum biblicas biblici biblicis biblico biblicorum biblicos biblicum
+81	2481	palam	
+82	2482	gradatim	
+83	2483	prolato	prolata prolatas
+84	2484	iurisconsultus	iurisconsulti iurisconsulto iurisconsultorum iurisconsultos
+85	2485	peritia	peritiae peritiam peritiarum peritias peritiis peritium
+86	2486	possessor	possessore possessorem possessores possessoribus possessoris possessorum
+87	2487	favor	favore favorem favores favoribus favoris
+88	2488	undecimus	undecima undecimae undecimam undecimi undecimo undecimum
+89	2489	baro	barones baroni baronibus baronis baronum varro
+90	2490	galaxias	galaxia galaxiae galaxiarum
+91	2491	fabricatio	fabricatione fabricationem fabricationi fabricationibus fabricationis
+92	2492	tessera	tesserae tesseram tesserarum tesseras tesseris
+93	2493	computatralis	computatrale computatralem computatrales computatrali computatralia computatralibus computatralium
+94	2494	cubiculum	cubicula cubiculi cubiculis cubiculo cubiculorum
+95	2495	atlanticus	atlantica atlanticae atlanticam atlanticas atlantici atlanticis atlantico atlanticum
+96	2496	plebeius	plebei plebeia plebeiae plebeii plebeiis plebeio plebeiorum plebeium
+97	2497	suecicus	suecica suecicae suecicam suecicas suecice suecicis suecico suecicum
+98	2498	noceo	noceant noceat nocebat nocebit nocens nocent nocentur nocere nocerent noceret noceretur nocet nocetur nocitum nocuisse nocuisset nocuit
+99	2499	furor	fura furabatur furari furatur furatus furere furore furorem furori furoris
+100	2500	iocus	ioci iocis ioco iocorum iocos iocum

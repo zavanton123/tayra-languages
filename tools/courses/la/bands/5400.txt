@@ -1,0 +1,100 @@
+1	5301	dorsalis	dorsalem dorsales dorsali dorsalibus
+2	5302	clausura	clausurae clausuram
+3	5303	pervulgo	pervulgabat pervulgat pervulgatum pervulgatus pervulgaverunt pervulgavit
+4	5304	mirificus	mirifica mirificae mirificarum mirificas mirifice mirificis mirifico mirificum
+5	5305	indignor	indignabantur indignabatur indignans indignaretur indignatur indignatus
+6	5306	reminiscor	reminiscebatur reminiscens reminiscitur reminiscuntur
+7	5307	pignus	pignora pignori pignoribus pignoris
+8	5308	urinarius	urinaria urinariae urinariam urinariarum
+9	5309	maxilla	maxillae maxillas maxillis
+10	5310	lignarius	lignaria lignariae lignariam lignarii lignario lignarium
+11	5311	crepusculum	crepusculi crepusculo
+12	5312	salutator	salutatores salutatoribus salutatorum
+13	5313	pontificalis	pontificalem pontificales pontificali pontificalia
+14	5314	thorax	thorace thoracem thoraces thoraci thoracis
+15	5315	severitas	severitate severitatem severitatis
+16	5316	aegaeus	aegaeas aegaei aegaeo aegaeum
+17	5317	helix	helice helices helicis helicum
+18	5318	saevitia	saevitiae saevitiam saevitiis
+19	5319	sponsio	sponsione sponsionem sponsionibus sponsionis
+20	5320	displosio	displosione displosionem displosionibus displosionis displosionum
+21	5321	rotula	rotulae rotulas rotulis
+22	5322	recitatio	recitatione recitationem recitationes recitationis
+23	5323	anglosaxonicus	anglosaxonica anglosaxonicae anglosaxonice anglosaxonici anglosaxonico
+24	5324	evidentia	evidentiae evidentiam evidentias evidentiis
+25	5325	ovarium	ovaria ovarii ovario ovariorum
+26	5326	sempiternus	sempiterna sempiternam sempiterno sempiternum
+27	5327	commilito	commilitonem commilitones commilitoni commilitonibus
+28	5328	singularitas	singularitate singularitatem singularitates singularitatis singularitatum
+29	5329	procuro	procurabat procurandi procurant procurantur procuraret procurat procuratur procuraverat
+30	5330	propensio	propensione propensionem propensionis
+31	5331	geographus	geographi geographis geographorum geographos geographum
+32	5332	cochlea	cochleae cochleam cochleas
+33	5333	inflatio	inflatione inflationem inflationis
+34	5334	vicecomes	vicecomite vicecomites vicecomiti vicecomitis vicecomitum
+35	5335	provocatio	provocatione provocationem provocationes provocationi provocationis
+36	5336	paragraphus	paragraphi paragraphis paragraphos paragraphum
+37	5337	additicius	additiciam additicias additicio additiciorum additicios additicium
+38	5338	resolvo	resolvatur resolventur resolvere resolvi resolvimus resolvit
+39	5339	articulatio	articulatione articulationem articulationes articulationis articulationum
+40	5340	excutio	excussi excussit excusso excussum excutere
+41	5341	legifer	legifera legiferae legiferi legiferis legiferum
+42	5342	duritia	duritiae duritiam duritias
+43	5343	nauticus	nautica nauticae nauticam nautici nauticis
+44	5344	fluvialis	fluviale fluvialem fluviales fluviali
+45	5345	crucifigo	crucifigendum crucifigeretur crucifigi crucifixi crucifixum crucifixus
+46	5346	novitas	novitate novitatem novitates novitatibus
+47	5347	admissio	admissione admissiones admissionis
+48	5348	concido	concidatur conciderat concidere concidit concidunt concisus
+49	5349	doricus	dorica doricae dorici doricis dorico doricum
+50	5350	instauro	instaurandi instaurare instauratum instauratus instauravisse instauravit
+51	5351	politia	politiae politiam politias
+52	5352	elocutio	elocutionem elocutioni elocutionibus elocutionis elocutionum
+53	5353	probabilitas	probabilitate probabilitatem probabilitates probabilitatis
+54	5354	accelero	accelerant accelerat accelerata acceleratae acceleraverat acceleravit
+55	5355	vitiosus	vitiosa vitiosam vitiosas vitioso vitiosos vitiosum
+56	5356	contiguus	contigua contiguae contiguarum contiguas contiguum
+57	5357	hortensis	hortense hortensi hortensia hortensium
+58	5358	quinquagesimus	quinquagesimam quinquagesimas quinquagesimi quinquagesimis quinquagesimo quinquagesimum
+59	5359	laqueus	laquei laqueorum laqueos laqueum
+60	5360	modulatio	modulationes modulationis modulationum
+61	5361	legionarius	legionarii legionariis legionariorum
+62	5362	illuminatio	illuminatione illuminationem illuminationes illuminationis
+63	5363	cervix	cervicem cervices cervici cervicibus cervicis
+64	5364	idealis	idealem ideales idealia idealibus idealiter idealium
+65	5365	hortulanus	hortulani hortulanis hortulano hortulanorum hortulanos
+66	5366	pectoralis	pectoralem pectorales pectoralia pectoralibus pectoralium
+67	5367	archaicus	archaica archaicas archaici archaicis archaico archaicorum
+68	5368	infaustus	infausta infaustae infauste infaustos infaustum
+69	5369	asservo	asservabo asservantur asservare asservarentur asservat asservatum asservatur
+70	5370	detrecto	detracto detrectabat detrectant detrectatores detrectaverunt detrectavit
+71	5371	annualis	annuale annualem annuales annualia
+72	5372	confluens	confluente confluentem confluentes confluentibus
+73	5373	natalicius	natalicia nataliciae nataliciam nataliciarum natalicias nataliciis nataliciorum natalicium
+74	5374	infringo	infregit infringere infringerentur infringeret infringi infringit
+75	5375	adiudico	adiudicabatur adiudicandum adiudicant adiudicat adiudicatum adiudicatur
+76	5376	elicio	elexerunt elexit elicere eliciat eliciendum elicit elicitur
+77	5377	supernaturalis	supernaturale supernaturales supernaturali supernaturalia supernaturalibus
+78	5378	fulvus	fulvae fulvi fulvis fulvo fulvos fulvum
+79	5379	ambitio	ambitione ambitionem ambitiones ambitionis
+80	5380	verbalis	verbale verbalem verbales verbali verbalia verbalibus
+81	5381	infirmitas	infirmitate infirmitatem infirmitates infirmitatis
+82	5382	lacesso	lacessat lacessendi lacessere lacessit lacessitus lacessivit
+83	5383	tricesimus	tricesimam tricesimis tricesimo tricesimum
+84	5384	subiungo	subiunctum subiunctus subiungendus subiungit subiungitur subiungunt subiunxit
+85	5385	philosophor	philosophandi philosophando philosophandum philosophari philosophatur philosophes
+86	5386	immutabilis	immutabile immutabilem immutabiles immutabili immutabilia
+87	5387	agrarius	agraria agrariae agrariam agrarias agrarie agrariis agrarium
+88	5388	iaponensis	iaponenses iaponensi iaponensia iaponensibus iaponensium
+89	5389	cinereus	cinerea cinereae cinerei cinereis cinereo cinereum
+90	5390	alacriter	alacre alacres alacribus alacrior alacris alacrius
+91	5391	extremitas	extremitate extremitatem extremitates extremitati extremitatibus
+92	5392	bardus	barda bardas bardi bardo bardorum bardum
+93	5393	campester	campestre campestrem campestri campestribus campestris campestrium
+94	5394	procuratio	procuratione procurationes procurationibus procurationis
+95	5395	compilatio	compilatione compilationem compilationes compilationibus compilationis
+96	5396	collaboratio	collaboratione collaborationem collaborationi collaborationis
+97	5397	bellicosus	bellicosa bellicosae bellicosam bellicosis bellicosissimus bellicosum
+98	5398	divisor	divisorem divisores divisoris divisorum
+99	5399	leno	lenem lenes lenone lenonem lenones lenoni lenonis lenonum
+100	5400	oblecto	oblectandi oblectans oblectare oblectaret oblectasse oblectator oblectaverunt

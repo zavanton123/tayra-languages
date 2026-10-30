@@ -1,0 +1,100 @@
+1	5901	matertera	materterae materteram
+2	5902	nigritus	nigrita nigritae nigritarum nigriti
+3	5903	intercessio	intercessione intercessionem intercessiones intercessionis
+4	5904	fortificatio	fortificatione fortificationi fortificationibus fortificationis fortificationum
+5	5905	epilogus	epilogo epilogum
+6	5906	identificatio	identificatione identificationem identificationi identificationis
+7	5907	illegalis	illegale illegalem illegales illegalibus
+8	5908	umbilicus	umbilici umbilico umbilicum
+9	5909	negatio	negationem negationis
+10	5910	torus	tori toro
+11	5911	luxus	luxo luxu luxum
+12	5912	tolerantia	tolerantiae tolerantiam
+13	5913	directorium	directoria directorii directorio
+14	5914	analogicus	analogica analogicam analogicas analogice analogicis analogicum
+15	5915	celta	celtae celtarum celtas
+16	5916	campio	campione campiones campionum
+17	5917	mitra	mitrae mitram mitrarum mitris
+18	5918	speciosus	speciosa speciosae speciosam speciosum
+19	5919	salvatio	salvatione salvationem salvationis
+20	5920	conlectio	conlectione conlectionem conlectiones
+21	5921	venosus	venosam venosi venoso venosum
+22	5922	desperatio	desperatione desperationem
+23	5923	subtilitas	subtilitate subtilitatem subtilitatibus
+24	5924	saxeus	saxea saxeae saxeam saxeis saxeo
+25	5925	biologia	biologiae biologiam
+26	5926	aequatorialis	aequatoriale aequatoriales aequatorialium
+27	5927	apsis	apsidibus apsidis
+28	5928	commentum	commenta commentabant commenti
+29	5929	oxidum	oxida oxidi oxidis oxido
+30	5930	remuneratio	remunerationem remunerationibus remunerationis
+31	5931	damnatio	damnatione damnationem damnationis
+32	5932	affirmatio	affirmatione affirmationem affirmationes affirmationis
+33	5933	communitarius	communitariae communitarias communitarii communitarium
+34	5934	inconstans	inconstanter inconstantes inconstantia inconstantiae
+35	5935	illegitimus	illegitimi illegitimis illegitimorum illegitimos illegitimum
+36	5936	acceptio	acceptione acceptionem acceptionis acceptionum
+37	5937	pulmonalis	pulmonale pulmonalem pulmonales pulmonali
+38	5938	prohibitio	prohibitione prohibitionem prohibitionibus prohibitionis prohibitionum
+39	5939	urna	urnae urnas urnis
+40	5940	limitaneus	limitanea limitaneam limitaneis limitaneorum limitaneum
+41	5941	inductio	inductione inductionem inductionis
+42	5942	combinatio	combinatione combinationem combinationi combinationis
+43	5943	fanaticus	fanatica fanatici fanaticis fanatico fanaticos
+44	5944	aestuarium	aestuaria aestuarii aestuario
+45	5945	trudo	trudam trudas trudebantur trudere trudit truserit trusi
+46	5946	voro	vorabat vorans vorant vorare vorat voratus voravit
+47	5947	oecosystema	oecosystemata oecosystematibus oecosystematum
+48	5948	baccalaureatus	baccalaureatu baccalaureatum
+49	5949	labium	labia labii labiis labio
+50	5950	prunus	prunas pruni prunis pruno prunorum
+51	5951	generalitas	generalitate generalitatem generalitates generalitatis
+52	5952	niveus	nivea nivei niveis niveo niveum
+53	5953	vassallus	vassalli vassallorum vassalus
+54	5954	eunuchus	eunuchi eunuchis eunucho eunuchos
+55	5955	epilepsia	epilepsiae epilepsiam epilepsiarum epilepsias epilepsiis
+56	5956	aspectabilis	aspectabile aspectabilem aspectabiles aspectabili aspectabilibus
+57	5957	consultatio	consultatione consultationem consultationes consultationis consultationum
+58	5958	observantia	observantiae observantiam observantiarum
+59	5959	horizon	horizonta horizonte horizontes horizonti
+60	5960	prosto	prostabat prostant prostantur prostare prostat
+61	5961	veneficium	veneficii veneficiis veneficiorum
+62	5962	satyricus	satyrica satyricae satyricam satyricos satyricum
+63	5963	diagonalis	diagonale diagonales diagonalibus diagonalium
+64	5964	fustis	fuste fustem fustes fustibus
+65	5965	alloquor	allocutus alloquens alloqueris alloqui alloquitur
+66	5966	aurantius	aurantia aurantiae aurantium
+67	5967	subsequor	subsecuturus subsecutus subsequens subsequi subsequuntur
+68	5968	succurro	succurrerat succurrere succurrerent succurrerunt succurrit succursum
+69	5969	sexagesimus	sexagesimam sexagesimis sexagesimo sexagesimum
+70	5970	octuplus	octupla octuplis octuplo octuplorum octuplum
+71	5971	calefactio	calefactione calefactionem calefactionis
+72	5972	recordor	recorda recordarentur recordari recordatur recordentur recordetur
+73	5973	flexibilis	flexibile flexibilem flexibiles flexibili
+74	5974	spinalis	spinalem spinales spinali spinalibus spinalium
+75	5975	recordatio	recordatione recordationem recordationes recordationibus
+76	5976	designator	designatore designatores designatoribus designatorum
+77	5977	perlego	perlectum perlegens perlegerent perlegerit perlegi perlegisset perlegit
+78	5978	camerarius	camerarii camerario camerariorum camerarium
+79	5979	decollo	decollandi decollaret decollari decollatum decollatus decollavisse decollavit
+80	5980	temperatio	temperatione temperationem temperationes temperationi temperationis
+81	5981	fornix	fornices fornicibus fornicis fornicum
+82	5982	prosterno	prosternere prosterni prosternimur prosternit prostratus prostravit
+83	5983	vasculum	vascula vasculi vasculis vasculo
+84	5984	intermedius	intermedia intermediae intermediam intermedias intermedii intermediis intermedium
+85	5985	laterculus	latercula laterculi laterculis laterculos
+86	5986	cuneus	cunei cuneorum cuneos cuneum
+87	5987	consummo	consummant consummat consummato consummatum consummatur consummavit consummentur
+88	5988	scola	scolae scolam scolas
+89	5989	umerus	umeri umeris umero umeros umerum
+90	5990	embolus	emboli embolo embolos embolum
+91	5991	additamentum	additamenta additamentis additamento
+92	5992	copiosus	copiosa copiosae copiosam copiosis copiosum
+93	5993	iaculor	iaculabatur iaculantur iacularetur iaculari iaculatur iaculetur
+94	5994	hospitalis	hospitalem hospitali hospitaliter hospitalium
+95	5995	rufinus	rufina rufinae rufino
+96	5996	elabor	elabi elabitur elabuntur elapsum elapsus
+97	5997	gallicanus	gallicana gallicanae gallicani gallicano gallicanorum
+98	5998	altaicus	altaica altaici altaico altaicorum altaicum
+99	5999	recludo	recludebat recludi recludunt recluduntur reclusit reclusus
+100	6000	aegyptiacus	aegyptiaca aegyptiacae aegyptiaci aegyptiaco aegyptiacorum

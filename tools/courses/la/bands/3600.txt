@@ -1,0 +1,100 @@
+1	3501	arcanum	arcana arcani arcanis arcano arcanorum
+2	3502	pensum	pensa pensae pensi penso
+3	3503	luo	lu luam luendum luentur luere lueret luerunt lui luis luit luunt
+4	3504	aestiva	aestivis aestivorum
+5	3505	sus	sue suem sues suris
+6	3506	figo	fictu fictum fictus figat figentur figere figet figit figuntur fixerunt fixi fixit fixum fixus
+7	3507	venor	venabantur venanda venandi venando venans venantur venari venatu venatum venatur venere veneris
+8	3508	tempero	tempera temperabant temperabat temperandi temperant temperantur temperare temperari temperat temperate temperatis temperato temperatorum temperatu temperatum temperatur temperavisse temperavit temperet
+9	3509	accommodo	accommodandum accommodant accommodantur accommodare accommodari accommodat accommodatis accommodato accommodatum accommodaverunt accommodavissent accommodavit accommodent accommodet accommodetur
+10	3510	sisto	sistantur sistat siste sistebant sistendum sistens sistere sisterent sisteret sisti sistit statu statum stiterunt stitit
+11	3511	suffero	sublatum sufferat sufferebat sufferre suffertur sustulerant sustulerat sustulere sustulerit sustulerunt sustulissent sustulisset sustulit
+12	3512	transporto	transportabant transportabuntur transportandum transportantur transportare transportarentur transportaret transportat transportatis transportatu transportatum transportatur transportatus transportaverit transportavit transporter
+13	3513	demitto	demisit demissum demittebant demittens demittentur demittere demitterent demitterentur demitteret demitti demittit demittitur demittunt demittuntur
+14	3514	ceno	cenabimus cenabo cenandi cenando cenant cenare cenarent cenaret cenas cenat cenatum cenatus cenaverant cenaverat cenaverunt cenavisset cenavit coenavit
+15	3515	vergo	verg vergebat vergens vergere vergit vergunt verserunt versi
+16	3516	taenia	taeniae taeniam taeniarum taenias taeniis taenium
+17	3517	confectio	confectione confectionem confectiones confectionibus confectionis confectionum
+18	3518	petasus	petasi petasis petaso petasones petasorum petasos petasum
+19	3519	pannus	panne panni pannis panno pannorum pannum
+20	3520	quemadmodum	
+21	3521	quominus	
+22	3522	tantopere	
+23	3523	amare	
+24	3524	summatim	
+25	3525	quinquies	quinquiens
+26	3526	concinno	concinnabant concinnabat concinnandi concinnantur concinnaret concinnatum concinnavit
+27	3527	schema	schemarum schemata schemate schemati schematibus
+28	3528	providentia	providentiae providentiam
+29	3529	rosarius	rosarii rosario rosarium
+30	3530	orchestra	orchestrae orchestram orchestris
+31	3531	erythraeus	erythraea erythraeae erythraeam erythraeas erythraei erythraeis erythraeum
+32	3532	nympha	nymphae nympham nymphas nymphis
+33	3533	pittacium	pittacia pittaciis pittacio pittaciorum
+34	3534	piso	pisone pisonem pisones pisoni pisonis
+35	3535	uranium	urani urania uranii
+36	3536	coemeterium	coemeteria coemeterii coemeterio
+37	3537	epitaphium	epitaphia epitaphii epitaphio
+38	3538	amissio	amissione amissionem amissiones amissionibus amissionis amissionum
+39	3539	dissensio	dissensione dissensionem dissensiones dissensionibus dissensionis
+40	3540	crudus	cruda crudam crudi crudis crudo crudos crudum
+41	3541	delphinus	delphinam delphine delphines delphini delphino delphinorum delphinum
+42	3542	symphonia	symphoniae symphoniam symphoniarum symphonias symphoniis
+43	3543	gustus	gustibus gustu gustui gustum
+44	3544	conformatio	conformatione conformationem conformationes conformationibus conformationis
+45	3545	munitio	munitione munitiones munitioni munitionibus munitionis munitionum
+46	3546	spatialis	spatiale spatialem spatiales spatiali spatialia spatialibus spatialium
+47	3547	craticius	craticia craticii craticio craticiorum craticium
+48	3548	censura	censurae censuram censurarum
+49	3549	eversio	eversione eversionem eversiones eversioni eversionis
+50	3550	clavile	clavili clavilibus clavilis
+51	3551	oboedio	oboediant oboediendi oboediens oboedimus oboedire oboedit oboediunt
+52	3552	terribilis	terribile terribilem terribiles terribilia
+53	3553	floridus	florida floridae floridam
+54	3554	praxis	praxe praxem praxeos praxi praxim praxin
+55	3555	rapidus	rapida rapidae rapidam rapidas rapidi rapidior rapidis rapido rapidorum rapidum
+56	3556	triumvir	triumviri triumviris triumviro triumvirorum triumviros triumvirum
+57	3557	fodina	fodinae fodinam fodinarum fodinas fodinis
+58	3558	ursinus	ursinae ursini ursinis ursino ursinorum ursinum
+59	3559	asinus	asinae asini asino asinorum asinos
+60	3560	minerale	minerales minerali mineralia mineralibus mineralis mineralium
+61	3561	temporarius	temporaria temporariae temporariam temporariis temporario temporarios temporarium
+62	3562	neapolitanus	neapolitana neapolitanae neapolitani neapolitano neapolitanorum neapolitanum
+63	3563	sanguineus	sanguinea sanguineae sanguineam sanguinearum sanguinei sanguineis sanguineorum sanguineum
+64	3564	incus	inca incae incarum incas incis incude
+65	3565	intellectualis	intellectualem intellectuales intellectuali intellectualia intellectualibus intellectualium
+66	3566	queror	queramus queratur querebantur querebatur querens quererentur queri queritur queruntur
+67	3567	venditor	venditore venditorem venditores venditori venditoris venditorum
+68	3568	conceptualis	conceptuale conceptualem conceptuales conceptuali conceptualia conceptualium
+69	3569	robotum	robota roboti robotis roboto robotorum
+70	3570	dimico	dimicabat dimicans dimicare dimicarent dimicaret dimicat dimicatum dimicaverunt dimicavit dimicet
+71	3571	missionarius	missionaria missionariae missionariam missionariarum missionarii missionariis missionario missionariorum missionarios missionarium
+72	3572	indoeuropaeus	indoeuropaea indoeuropaeae indoeuropaeam indoeuropaearum indoeuropaeas indoeuropaeis indoeuropaeo indoeuropaeorum indoeuropaeum
+73	3573	circumscribo	circumscribatur circumscribent circumscribere circumscribi circumscribit circumscribitur circumscribuntur circumscripserunt circumscripsit circumscriptus
+74	3574	depressio	depressione depressionem depressiones depressionibus depressionis depressionum
+75	3575	diplomaticus	diplomatica diplomaticae diplomaticam diplomaticas diplomatici diplomaticis diplomatico diplomaticorum diplomaticum
+76	3576	adventicius	adventicia adventiciae adventiciarum adventicias adventicii adventiciis adventiciorum adventicium
+77	3577	agito	agitabat agitando agitantur agitare agitarentur agitat agitato agitatur agitatus agitaverunt agitavit agitet agitetur
+78	3578	transmitto	transmisit transmittantur transmittebat transmittendum transmittent transmittere transmitteret transmittet transmittit transmittitur transmittunt transmittuntur
+79	3579	prandium	prandii prandio prandiorum
+80	3580	conservatio	conservatione conservationem conservationi conservationis
+81	3581	claritas	claritate claritatem claritatis
+82	3582	exsistentia	existentia exsistentiae exsistentiam
+83	3583	offendo	offendantur offendebantur offendebat offenderat offendere offenderentur offenderunt offendet offendi offendisse offendit offendunt
+84	3584	cataracta	cataractae cataractam cataractarum cataractas
+85	3585	decas	decade decadem decades decadibus decadis decadum
+86	3586	eruptio	eruptione eruptionem eruptiones eruptionibus eruptionis
+87	3587	eripio	ereptus eripere eriperet eriperetur eripi eripiant eripiat eripit eripiunt eripui eripuisse eripuisset eripuit
+88	3588	derideo	derideatur deridebat deridendo derident deridere deriderentur derideret derideretur derideri deridet deriserat derisere deriserunt derisi derisit
+89	3589	decet	deceant deceat decebat decens decent decere deceret decuit
+90	3590	exsul	exsule exsulem exsules exsulibus exsulis exsulium exsulum exul
+91	3591	concursus	concursi concursibus concursu concursum
+92	3592	incensus	incensa incensae incensam incensi incensis incenso incensos incensum
+93	3593	auditorium	auditoria auditoriis auditorio
+94	3594	salina	salinae salinam salinarum salinas salinis
+95	3595	decus	decora decore decori decoribus decoris decoro decorum
+96	3596	angustus	angusta angustam angustior angustis angustissimus
+97	3597	aperto	aperta apertas
+98	3598	lunaris	lunare lunarem lunares lunari lunaria lunaribus lunarium
+99	3599	firma	firmae firmam firmas firmis
+100	3600	tutor	tutamini tutant tutaretur tutatur tutissime tutius tuto tutore tutorem tutores tutoribus tutoris tutorum tutrice tutricis

@@ -1,0 +1,100 @@
+1	5501	reor	ratum rear reatur rentur rerem reretur reri retur
+2	5502	velo	velant velantur velares velari velasse velato velent velites velitis
+3	5503	medus	medi medis medo medorum medos medum
+4	5504	abstulo	abstulerat abstulerunt abstulit
+5	5505	desuper	
+6	5506	ruthenium	ruthenia
+7	5507	storia	
+8	5508	iugiter	
+9	5509	subinde	
+10	5510	mire	
+11	5511	cumque	
+12	5512	dudum	
+13	5513	privatim	
+14	5514	simulac	
+15	5515	sade	
+16	5516	inibi	
+17	5517	gamba	gambas
+18	5518	ericius	erici ericii
+19	5519	corallium	corallii curalii
+20	5520	inserto	inserta
+21	5521	patera	paterae pateras
+22	5522	ballista	ballistae ballistam
+23	5523	psychologicus	psychologica psychologicum
+24	5524	rutilus	rutilo
+25	5525	crumena	crumina cruminis
+26	5526	penicillum	penicilli penicillo penicillorum
+27	5527	centaurus	centauri centauro
+28	5528	communalis	communales communalibus communalium
+29	5529	liquamen	liquamina liquaminis liquaminum
+30	5530	audientia	audientiae audientiarum audientias
+31	5531	clausula	clausularum clausulis
+32	5532	archangelus	archangeli archangelum
+33	5533	humilitas	humilitatem humilitatis
+34	5534	syllogismus	syllogismi syllogismos
+35	5535	nihilum	nichilum nihili
+36	5536	saucius	sauciae saucii sauciis saucium
+37	5537	ponto	pontone pontonis pontonum
+38	5538	silvanus	silvano sylvanus
+39	5539	commoditas	commoditate commoditatem commoditates commoditatibus commoditatis
+40	5540	superlativus	superlativam superlative superlativis superlativum
+41	5541	anguis	angues anguium
+42	5542	hyacinthus	hyacinthi hyacinthum
+43	5543	thea	theae theam theis
+44	5544	macedonus	macedone macedonis macedonorum macedonum
+45	5545	expergiscor	expergiscebatur expergiscens expergisci expergiscitur experrectus
+46	5546	experimentalis	experimentalem experimentales experimentali
+47	5547	forensis	forenses forensi
+48	5548	sirium	sirii sirio
+49	5549	avaritia	avaritiae avaritiam
+50	5550	curiositas	curiositate curiositatem curiositatum
+51	5551	cymba	cumba cymbae cymbam cymbas
+52	5552	creta	cretae cretam
+53	5553	cerebellum	cerebelli cerebello
+54	5554	egestas	egestate egestatem
+55	5555	praecox	praecoce praecocem praecoci
+56	5556	maeror	maerore maerori maeroris
+57	5557	aliquotiens	aliquoties
+58	5558	tabernaculum	tabernaculo tabernaculorum
+59	5559	opulentia	opulentiae opulentiam
+60	5560	rivo	riva rivas river
+61	5561	abbatialis	abbatiales abbatiali
+62	5562	susceptor	susceptores susceptoribus susceptorum
+63	5563	talentum	talenta talentis
+64	5564	gambius	gambia gambiae gambiam
+65	5565	analogia	analogiae analogiam analogian
+66	5566	residuus	residuae residuis residuorum residuum
+67	5567	pecuarius	pecuaria pecuariae pecuariam pecuarii pecuariis
+68	5568	ordior	ordiendus ordita orditur orsum orsus
+69	5569	conductio	conductionis conductionum
+70	5570	portorium	portoria portorii portoriis
+71	5571	pappus	pappi pappos
+72	5572	alvus	alvi alvo alvorum alvum
+73	5573	ambulatio	ambulationem ambulationes ambulationi ambulationis
+74	5574	sinceritas	sinceritate sinceritatem
+75	5575	methanum	methani methano
+76	5576	divulgatio	divulgatione divulgationem divulgationis
+77	5577	intitulo	intitulat intitulato intitulatum intitulatus
+78	5578	abstinentia	abstinentiae abstinentiam
+79	5579	diruo	diruere diruerunt diruitur dirutum dirutus
+80	5580	delator	delatore delatorem delatores delatorum
+81	5581	focale	focalis
+82	5582	stemma	stemmata stemmate stemmati stemmatum
+83	5583	invasor	invasores invasoribus invasoris
+84	5584	debitor	debitore debitorem debitoribus debitoris debitorum
+85	5585	supernum	superna
+86	5586	commendatio	commendatione commendationes
+87	5587	cornutus	cornuto cornutos cornutum
+88	5588	conlocutor	conlocutore conlocutorem conlocutores conlocutoris
+89	5589	propulso	propulsa propulsandum propulsare propulsarent propulsatum
+90	5590	symmetria	symmetriae symmetriam symmetrias
+91	5591	lustratio	lustratione lustrationem lustrationes lustrationibus
+92	5592	illecebra	illecebrae illecebrarum illecebras illecebris
+93	5593	commissarius	commissarii commissario commissarium
+94	5594	diruptio	diruptionem diruptiones diruptionis
+95	5595	suicidium	suicidii suicidio
+96	5596	splendeo	splendeant splendebat splendens splendent splendet
+97	5597	conubium	connubium conubio
+98	5598	monas	monade monades monadis monadum
+99	5599	aether	aethere aetherem aetheri aetheris
+100	5600	antistita	antistes antistite antistitem antistitum

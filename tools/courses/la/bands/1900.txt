@@ -1,0 +1,100 @@
+1	1801	divus	diva divae divas dive divi divis divo divorum divos divum
+2	1802	praesento	praesentabatur praesentabitur praesentabuntur praesentandi praesentans praesentant praesentantur praesentare praesentarentur praesentari praesentasse praesentat praesentatis praesentator praesentatum praesentatur praesentaturus praesentaverunt praesentavit praesentem praesentent praesententur praesentes
+3	1803	stilus	stile stili stilis stilo stilorum stilos stilum stylus
+4	1804	deciens	decies
+5	1805	communisticus	communistica communisticae communisticam communisticarum communisticas communistici communisticis communisticorum communisticos communisticum
+6	1806	pluralis	plurale pluralem plurales plurali pluralia pluralium
+7	1807	confiteor	confessus confiteatur confitebantur confitebatur confitens confitentur confiteri confiteris confitetur
+8	1808	radius	radii radiis radiorum radios radium
+9	1809	sponte	
+10	1810	utraque	
+11	1811	acriter	acerrime acrius
+12	1812	confoederatio	confoederatione confoederationem confoederationes confoederationi confoederationis confoederationum
+13	1813	vestimentum	vestimenta vestimenti vestimentis vestimento vestimentorum
+14	1814	islamicus	islamica islamicae islamicam islamicarum islamicas islamici islamicis islamico islamicorum islamicos islamicum
+15	1815	tonus	toni tonis tono tonorum tonos tonum
+16	1816	fossa	fossae fossam fossas fossis
+17	1817	scutum	scuta scutellum scuti scutis scuto scutorum
+18	1818	principatus	principatibus principatu principatum
+19	1819	successus	successibus successos successu successum
+20	1820	argentaria	argentariae argentariam argentariarum argentarias argentariis
+21	1821	moneta	monetae monetam monetarum monetas monetis
+22	1822	necessarium	necessarii necessariis necessario necessariorum
+23	1823	nitor	nisum nitantur nitatur nitebantur nitebar nitebatur nitendus nitens nitentur niteretur niti nititur nitore nitorem nitoris nituntur
+24	1824	compositor	compositore compositorem compositores compositori compositoribus compositoris compositorum
+25	1825	falsum	falsa falsi falsis falsorum
+26	1826	vulnero	vulnera vulnerandi vulnerant vulnerantur vulnerare vulneraret vulnerat vulneratis vulnerato vulneratum vulneratur vulneratus vulneravit vulnerent vulnerentur vulneretur
+27	1827	committo	commiserat commiserit commiserunt commisisse commisit commissus committantur committat committendo committendum committere committeret committet committi committit committunt committuntur
+28	1828	patefacio	patefacere patefaceret patefaciant patefaciat patefacienda patefaciendam patefaciendas patefaciendo patefacit patefaciunt patefaciuntur patefactum patefactus patefecerant patefecere patefecerunt patefecit patefiebat patefieri patefit patefiunt
+29	1829	livia	livius
+30	1830	securitas	securitate securitatem securitati securitatibus securitatis
+31	1831	consulatus	consulati consulatu consulatum
+32	1832	distributio	distributione distributionem distributiones distributioni distributionibus distributionis distributionum
+33	1833	mythos	mythi mythis mytho mython mythorum mythum
+34	1834	iactus	iacta iactae iacti iactis iactos iactu iactum iactuum jactus
+35	1835	felicitas	felicitate felicitatem felicitati felicitatis foelicitas
+36	1836	gravitas	gravitate gravitatem gravitatis
+37	1837	tenuis	tenue tenuem tenues tenui tenuia tenuibus tenuior tenuiter tenuius tenuum
+38	1838	batavus	batava batavae batavarum batave batavi batavis batavo batavorum batavos batavum
+39	1839	adventus	adventi adventu adventum
+40	1840	consensus	consenso consensu consensui consensum consensuum
+41	1841	orno	ornabant ornabantur ornabat ornabatur ornandi ornandum ornans ornant ornantur ornare ornarent ornarentur ornari ornat ornatis ornato ornator ornatu ornatum ornatur ornaverint ornaverunt ornavisse ornavit ornent ornetur
+42	1842	domestica	domesticae domesticam domesticarum domesticas domesticis
+43	1843	praefero	praeferant praeferebant praeferebat praeferens praeferetur praeferre praeferrent praeferret praeferri praefert praeferunt praeferuntur praelatum praetulerunt praetulisse praetulisti praetulit
+44	1844	dissero	disserant disserebat disseremus disserendi disserens disserere dissererentur disseret disserit disseritur dissertus disseruerant disseruerint disseruerunt disseruit disserunt
+45	1845	suadeo	suadeant suadeat suadebant suadebat suadent suadere suaderent suaderet suadet suadetur suasa suaserat suaserunt suasisse suasit suasum suasus
+46	1846	pronuntio	pronuntiabat pronuntiandas pronuntiandi pronuntiandum pronuntiant pronuntiantur pronuntiare pronuntiari pronuntiarunt pronuntias pronuntiasse pronuntiat pronuntiatis pronuntiato pronuntiatu pronuntiatum pronuntiatur pronuntiatus pronuntiaverunt pronuntiavit pronuntientur
+47	1847	surgo	surgat surgebant surgens surgere surgit surgitur surgunt surrectum surrectus surrexerat surrexere surrexerunt surrexi surrexisse surrexit
+48	1848	scipio	scipione scipionem scipiones scipioni scipionis scipionum
+49	1849	informatio	informatione informationem informationes informationis informationum
+50	1850	independens	independente independentem independenter independentes independenti independentia independentiae independentiam independentibus independentis independentium
+51	1851	quantum	
+52	1852	coram	
+53	1853	propterea	eapropter
+54	1854	ostium	ostia ostii ostiis ostio ostiolum
+55	1855	rationalis	rationale rationalem rationales rationali rationalia rationalibus rationaliter rationalium
+56	1856	vector	vectore vectorem vectores vectoribus vectoris vectorum
+57	1857	dialogus	dialoge dialogi dialogis dialogo dialogorum dialogos dialogum
+58	1858	verisimiliter	verisimilius
+59	1859	mercurius	mercurii mercurio mercurium
+60	1860	pronomen	pronomina pronomine pronomini pronominibus pronominis pronominum
+61	1861	communista	communistae communistarum communistas communistis
+62	1862	beneficium	beneficia beneficii beneficiis beneficio beneficiorum
+63	1863	mirabile	mirabilem mirabiles mirabili mirabilia mirabilibus mirabilis mirabiliter mirabilium mirabilum
+64	1864	fuga	fugae fugam fugarum fugas fugis
+65	1865	aeger	aegra aegrae aegram aegri aegris aegro aegrorum aegros aegrum
+66	1866	ordinarius	ordinari ordinaria ordinariae ordinariam ordinarii ordinariis ordinario ordinarios ordinarium
+67	1867	faber	fabra fabri fabris fabro fabrorum fabrum
+68	1868	semen	semina semine seminibus seminis seminum
+69	1869	crebro	crebrissime crebrius
+70	1870	custodio	custodi custodiam custodiant custodiat custodiatur custodiebant custodiebantur custodiebat custodiebatur custodienda custodiendae custodiendam custodiendum custodiendus custodiens custodierit custodire custodirent custodirentur custodiret custodiretur custodiri custodis custodit custoditus custodiunt custodiuntur custodiverunt custodivit
+71	1871	constitutus	constituta constitutae constitutam constitutarum constitutas constitutis constituto constitutos
+72	1872	planum	plani planis plano
+73	1873	necessaria	necessariis necessariorum
+74	1874	magus	maga magae magarum magas mage magi mago magorum magos magum
+75	1875	digero	digere digerebat digerebatur digerendi digerere digereret digeretur digeri digerit digeritur digerunt digeruntur digesserit digesserunt digestum digestus
+76	1876	nativus	nativa nativae nativam native nativi nativis nativo nativorum nativos nativum
+77	1877	dispono	disponat disponebantur disponebat disponendum disponens disponere disponi disponit disponitur disponunt disponuntur dispositum disposuerat disposuerunt disposuisse disposuit
+78	1878	consumo	consumant consumantur consumas consumebat consumebatur consumendi consumens consumere consumeremus consumi consumimur consumit consumitur consumpserunt consumpsisse consumpsisset consumpsit consumptum consumptus consumunt consumuntur
+79	1879	collecta	collectae collectam collectarum collectas collectis conlecta
+80	1880	emineo	emineant emineat eminebant eminebat eminent eminentur eminere eminerent emineri eminet eminuere eminuit
+81	1881	caelestis	caeleste caelestem caelestes caelesti caelestia caelestibus caelestium coelestis cælestis
+82	1882	induo	induamur induant induat induebant induebantur induebat induendo induendum induent induere indueret indui induisse induit induitur indutum indutus induunt
+83	1883	sane	
+84	1884	ultra	
+85	1885	nihilo	
+86	1886	culmen	culmina culmine culminibus culminis culminum
+87	1887	cancellarius	cancellaria cancellariae cancellarii cancellario cancellarium
+88	1888	specimen	specimina specimine speciminibus speciminis speciminum
+89	1889	vicesimus	vicensimus vicesima vicesimam vicesimi vicesimis vicesimo vicesimum
+90	1890	discus	disce discis discorum discos disculus discum
+91	1891	recenter	recentissime recentius
+92	1892	normalis	normale normales normali normalibus normaliter normalium
+93	1893	accentus	accentibus accentu accentum accentuum
+94	1894	congregatio	congregatione congregationem congregationes congregationibus congregationis congregationum
+95	1895	praedium	praedia praedii praediis praedio praediorum
+96	1896	categoria	categoriae categoriam categoriarum categorias categoriis
+97	1897	promotus	promota promoti promotum
+98	1898	ingressus	ingressa ingressas ingressi ingressibus ingressis ingressos ingressum
+99	1899	vulnus	vulnera vulnere vulneribus vulneris vulnerum
+100	1900	pulcher	pulcherrime pulcherrimus pulchra pulchrae pulchram pulchrarum pulchras pulchre pulchri pulchrior pulchris pulchrius pulchro pulchrorum

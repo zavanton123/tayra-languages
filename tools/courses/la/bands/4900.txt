@@ -1,0 +1,100 @@
+1	4801	vermis	vermes vermium
+2	4802	murena	murenae murenam
+3	4803	boreus	borea boream
+4	4804	aegis	aegide aegidem
+5	4805	ingeniarius	ingeniarii ingeniariorum
+6	4806	samara	samarae samaras
+7	4807	cubicus	cubica cubicam cubicorum cubicum
+8	4808	libanus	libani libano libanum
+9	4809	conferentia	conferentiae
+10	4810	anas	ana anates anatis
+11	4811	destitutus	destitutam destituti destitutis
+12	4812	petalum	petala petalis petalo petalorum
+13	4813	ironia	ironiae ironiam
+14	4814	chorea	choreae choream choreas
+15	4815	repetundae	repetundarum repetundis
+16	4816	luctatio	luctatione luctationem luctationi luctationis
+17	4817	unguentum	unguenta unguenti unguentis unguento
+18	4818	glaciarium	glaciaria glaciarii glaciario
+19	4819	vetustas	vetustate vetustatem vetustatis
+20	4820	synagoga	synagogae synagogam
+21	4821	flagellum	flagella flagello flagellorum
+22	4822	praesentatio	praesentatione praesentationem praesentationes praesentationis
+23	4823	nuncupatio	nuncupatione nuncupationem
+24	4824	totalis	totale totalem totali totalium
+25	4825	toga	togam togas togis
+26	4826	potentialis	potentiale potentialem potentiales
+27	4827	extractio	extractione extractionem extractiones extractionis
+28	4828	repertor	repertoribus repertoris repertorum
+29	4829	sanatio	sanationem sanationi sanationis
+30	4830	comparabilis	comparabilem comparabiles
+31	4831	crinis	crinem crines crinibus
+32	4832	sultanus	sultani sultano sultanorum
+33	4833	armatura	armaturae armaturam armaturarum armaturas
+34	4834	miseria	miseriae miseriam miserias miseriis
+35	4835	compendium	compendia compendii compendiis compendio
+36	4836	fusio	fusione fusiones fusionis
+37	4837	machinator	machinatore machinatores machinatoris machinatorum
+38	4838	insolens	insolenter insolentia insolentiam
+39	4839	aper	apri apris apro apros aprum
+40	4840	sideralis	siderale siderales sideralia
+41	4841	remissio	remissionem remissiones remissionis remissionum
+42	4842	polynomium	polynomia polynomii polynomiorum
+43	4843	eboracensis	eboracensem eboracenses eboracensi
+44	4844	octogesimus	octogesima octogesimae octogesimis octogesimo octogesimos octogesimum
+45	4845	assisto	assistant assistat assistebat assistens assistere assistunt
+46	4846	infrastructura	infrastructurae infrastructuram infrastructurarum infrastructuras
+47	4847	corporalis	corporalem corporali corporalia corporalium
+48	4848	pharmacum	pharmaca pharmacis pharmacorum
+49	4849	prosequor	prosecutus prosequatur prosequi prosequitur prosequuntur
+50	4850	candela	candelae candelam candelas candelis
+51	4851	rituale	ritualem rituali ritualia ritualibus ritualis
+52	4852	fecundus	fecunda fecundae fecundam fecundis fecundo fecundum
+53	4853	assumptio	adsumptio assumptione assumptiones assumptionis
+54	4854	grossus	grossa grossi grosso grossum
+55	4855	prophetia	prophetiae prophetiam prophetiarum prophetias
+56	4856	parthicus	parthica parthici parthico parthicorum parthicum
+57	4857	sceptrum	sceptra sceptris sceptro
+58	4858	suburbanus	suburbana suburbanae suburbanas suburbanis suburbano
+59	4859	corruo	corrueret corruerit corruerunt corruissent corruit
+60	4860	arbitrarius	arbitraria arbitrariae arbitrarie arbitrarii arbitrariis
+61	4861	procus	proci procis proco procorum procos
+62	4862	obiectivus	obiectiva obiectivae obiectivam obiectivo obiectivorum obiectivum
+63	4863	luxuriosus	luxuriosa luxuriosam luxuriosas luxuriose luxuriosis
+64	4864	ternus	terna ternae ternas terni ternis ternos
+65	4865	laesio	laesione laesionem laesiones laesionibus laesionum
+66	4866	ratiocinor	ratiocinandi ratiocinando ratiocinandum ratiocinantur ratiocinari ratiocinatur ratiocinatus
+67	4867	capellanus	capellani capellanorum capellanum
+68	4868	admonitio	admonitione admonitionem admonitioni admonitionis
+69	4869	marmoreus	marmorea marmoreae marmoream marmoreis marmoreum
+70	4870	granatus	granata granatae granatam granatarum granatas granatorum
+71	4871	hybrida	hybridae hybridam hybridarum hybridas
+72	4872	daedalus	daedala daedali daedalo daedalum
+73	4873	fascinatio	fascinatione fascinationem fascinationes fascinationis fascinationum
+74	4874	chalybs	chalybe chalybem chalybi chalybis
+75	4875	vertebralis	vertebralem vertebrali vertebralia vertebralibus vertebralium
+76	4876	appetitio	appetitione appetitionem appetitionis appetitionum
+77	4877	duratio	duratione durationem durationes durationis
+78	4878	silex	silice silicem silices silicibus silicis
+79	4879	primogenitus	primogenita primogeniti primogenito primogenitorum primogenitum
+80	4880	destructio	destructione destructionem destructioni destructionis
+81	4881	tuscus	tuscam tusce tusci tuscis tuscorum tuscos tuscum
+82	4882	viceregnum	viceregna viceregni viceregnis viceregno
+83	4883	ineditus	inedita ineditae ineditarum ineditas inedite inediti ineditis ineditos ineditum
+84	4884	tralaticius	tralaticia tralaticiis tralaticios tralaticium translaticius
+85	4885	deterreo	deterreant deterrendi deterrere deterrerent deterretur deterritus deterruerunt deterruit
+86	4886	subigo	subactus subegerat subegerit subegissem subegit subigendus subigi subiguntur
+87	4887	glossa	glossae glossam glossarum glossas
+88	4888	intueor	intuearis intueatur intuebere intuens intuentur intueri intuetur intuita
+89	4889	stipes	stipite stipites stipitibus stipitum
+90	4890	attributio	attributione attributionem attributiones attributionibus attributionis attributionum
+91	4891	competo	competant competendi competens competere competeret competet competis competit competiverant
+92	4892	necessitudo	necessitudine necessitudinem necessitudines necessitudinibus necessitudinum
+93	4893	rhythmus	rhythmi rhythmo rhythmorum rhythmos rhythmum
+94	4894	effectio	effectione effectionem effectiones effectionibus effectionis effectionum
+95	4895	deprehendo	deprehendendum deprehenderetur deprehenderunt deprehendi deprehendit deprehenduntur deprehensus
+96	4896	inflo	inflabat inflare inflari inflat inflato inflatur inflatus inflaverit inflavit
+97	4897	phantasticus	phantastica phantasticae phantasticam phantasticarum phantasticas phantastici phantasticis phantastico
+98	4898	indefinitus	indefinitae indefinitam indefiniti indefinitis indefinito indefinitum
+99	4899	electromagneticus	electromagnetica electromagneticae electromagnetici electromagneticis electromagnetico electromagneticorum electromagneticum
+100	4900	immisceo	immiscebant immiscebatur immiscent immiscentur immiscere immiscerent immiscet

@@ -1,0 +1,100 @@
+1	7401	levitas	levitate
+2	7402	suspendium	suspendi suspendii suspendio
+3	7403	impeto	impetent impetere impetis impetit
+4	7404	piscarius	piscari piscaria piscariae
+5	7405	tostus	tosta tostam toste tosti tosto
+6	7406	assensus	adsensus assensi assensu
+7	7407	pascua	pascuis
+8	7408	arcessitus	arcessitae arcessiti arcessito arcessitum
+9	7409	dedecus	dedecore dedecori
+10	7410	fremitus	fremitu fremitum
+11	7411	carbonaria	carbonariae carbonariam
+12	7412	carro	carri carris
+13	7413	antes	antem antis
+14	7414	rubrica	rubricae rubricam rubricis
+15	7415	abitus	abitum
+16	7416	palmaris	palmarem palmari palmaria palmarium
+17	7417	cala	calae calas calis
+18	7418	crispus	crispa crispae crispis crispum
+19	7419	biduum	biduo
+20	7420	refluxus	refluxum
+21	7421	nectar	nectare nectaris
+22	7422	limitaris	limitare limitares
+23	7423	influxus	influxu influxum
+24	7424	sacrarium	sacrarii sacrario
+25	7425	elate	elatae elatis elatus
+26	7426	attactus	attactarum attactas attactu attactum
+27	7427	piscatus	piscatibus piscatu piscatui piscatum
+28	7428	usurpatrix	usurpator usurpatricem
+29	7429	subordo	subordines subordinis
+30	7430	fugiendus	fugienda fugiendo fugiendum
+31	7431	coxa	coxae coxas
+32	7432	hendecasyllabi	hendecasyllabis hendecasyllaborum hendecasyllabos
+33	7433	cantatrix	cantatores cantatoribus cantatricem cantatrici
+34	7434	quota	quotae
+35	7435	obiectus	obiecta obiectae obiectis
+36	7436	nuptus	nuptae nuptam nupti nuptum
+37	7437	vacuus	vacuae vacuam vacuas vacui vacuorum vacuos
+38	7438	cincta	cinctam
+39	7439	offensus	offensam offensas offensi offensis
+40	7440	nana	nanarum nanis
+41	7441	teres	teretes teretis
+42	7442	violens	violentem violenti violentis
+43	7443	scriptorius	scriptoria scriptoriae scriptoriam scriptorias scriptoriis scriptorio
+44	7444	osculo	oscula osculans osculari osculat osculatus
+45	7445	praefectum	praefecti praefecto
+46	7446	iugo	iuga iugeris
+47	7447	alare	alant alantur alari alas alat alatis alatum alent alere alor
+48	7448	sepellio	sepultum
+49	7449	biber	bibere
+50	7450	calceo	calceis calcio
+51	7451	infirmo	infirma infirmarentur infirmas infirmat infirmate infirmatur
+52	7452	effloreo	efflorebant efflorebat effloruit
+53	7453	effor	effabantur effabitur effatus effer effetur
+54	7454	exuo	exuere exueret exuit exussit exuuntur
+55	7455	exuro	exureretur exuri exuruntur exussit exustus
+56	7456	degero	degere degeret degerit degerunt
+57	7457	wadium	wadi wadia
+58	7458	patesco	patescit patuerunt patuisse patuit
+59	7459	invisus	invisi inviso invisum
+60	7460	ossum	ossa ossis osso
+61	7461	scriptorium	scriptori scriptoria scriptoriis scriptorio
+62	7462	automatus	automata automatae automatarum automatas
+63	7463	modicus	modica modicae modicis modico
+64	7464	osculum	oscula osculi osculo
+65	7465	tranquillo	tranquilla tranquillare tranquillari tranquillato
+66	7466	amasius	amasiis amasione amasios amasium
+67	7467	compluria	complura compluribus complurium
+68	7468	aucto	aucta
+69	7469	libum	liba libis liborum
+70	7470	supinus	supina supine supino
+71	7471	futuro	futuras futures
+72	7472	mundo	munda mundabat mundatis
+73	7473	istic	istaec isti istuc
+74	7474	pasco	paramo parant parat paratis parim parit pascantur pascebant pascens pasceret pascit pascuntur pastis pasto pastorum pat
+75	7475	paveo	paramo parant parat paratis parim parit pastis pat pavens pavent
+76	7476	hiemo	hiemabat hiemandi hiemandum hiemant hiemavit hiemem hiemes
+77	7477	revideo	revidendi revidere revidit revisus
+78	7478	margino	marginatae marginatam marginati marginatur marginem margines
+79	7479	carnifico	carnificato carnificatur carnificatus carnificem carnifices
+80	7480	proelior	proeliantes proeliatorum proeliatum proeliatus proelio
+81	7481	piraticus	piraticae piraticam piraticum
+82	7482	eloquor	eloquenda eloquens eloqueret eloqui
+83	7483	doleo	dole dolendum dolens dolent dolet doluit
+84	7484	duplico	duplicare duplicatus duplicaverunt duplicem duplices duplicetur
+85	7485	insigno	insignantur insignatis insignato insignavit insignem insignes
+86	7486	affligo	afflictum affligebatur affligendum afflixit
+87	7487	mimus	mimi mimis mimo mimorum mimum
+88	7488	concino	concentu concentum concinerent concinit concinuit concinunt
+89	7489	assentior	assensu assentiantur assentiebantur assentiretur assentiri assentitur
+90	7490	adnuo	adnuendi adnuens adnuisse adnuit adnuunt annu annuo
+91	7491	findo	fidi findendo findis findit finditur
+92	7492	propinquo	propinqua propinquas
+93	7493	dedux	deduci
+94	7494	amburo	ambustus
+95	7495	glaucoma	
+96	7496	ventosa	
+97	7497	conquestus	
+98	7498	aros	arum
+99	7499	nonnihil	
+100	7500	gregatim	

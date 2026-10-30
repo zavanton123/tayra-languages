@@ -1,0 +1,100 @@
+1	6701	parasiticus	parasitica parasiticae parasiticis parasiticos
+2	6702	initiatio	initiationem initiationibus initiationis
+3	6703	satyrus	satyri satyrorum satyrum
+4	6704	zelus	zelo zelum
+5	6705	aoristus	aoristi aoristo aoristum
+6	6706	cerasus	cerasi cerasorum cerasos
+7	6707	doctoralis	doctoralem doctorali
+8	6708	simplificor	simplificari simplificatum simplificatur simplificetur
+9	6709	perparvus	perparva perparvae perparvo
+10	6710	calvaria	calvariae calvariarum
+11	6711	versatilis	versatilem versatiles versatili versatilibus
+12	6712	tignarius	tignaria tignarii
+13	6713	intestinalis	intestinale intestinalem intestinales intestinalium
+14	6714	vestiarius	vestiarii vestiariorum vestiarios
+15	6715	maledictum	maledicta maledicti maledictis
+16	6716	declive	declivi declivia declivis
+17	6717	aragonicus	aragonica aragonicam aragonice
+18	6718	pausa	pausae pausam
+19	6719	abdominalis	abdominale abdominalem abdominali
+20	6720	pascha	paschae paschatis
+21	6721	siccitas	siccitate siccitates siccitatis
+22	6722	bisulcus	bisulcae bisulcam bisulcas bisulcum
+23	6723	sativus	sativa sativae sativi sativum
+24	6724	vinetum	vineta vinetis vineto vinetorum
+25	6725	prominentia	prominentiae prominentias prominentiis
+26	6726	exsolvo	exsolvendum exsolverat exsolvi exsolvitur
+27	6727	intensitas	intensitate intensitatem intensitatis
+28	6728	repentinus	repentina repentinam repentino
+29	6729	crebritas	crebritate crebritatem crebritatis
+30	6730	spira	spirae spiram
+31	6731	complexio	complexionem complexiones complexionis
+32	6732	auricula	auriculae auricularum auriculas
+33	6733	accadicus	accadica accadicae accadici accadico accadicum
+34	6734	precatio	precatione precationi precationum
+35	6735	incorporatio	incorporationem incorporationibus incorporationis
+36	6736	circumnavigo	circumnavigare circumnavigari circumnavigaturus circumnavigavit
+37	6737	eucharisticus	eucharistica eucharisticis eucharistico eucharisticum
+38	6738	beneventus	beneventi benevento beneventum
+39	6739	antichristus	antichristi antichristo
+40	6740	stomachus	stomachi stomachis stomacho stomachum
+41	6741	atramentum	atramenti atramento
+42	6742	praeludium	praeludia praeludii praeludiorum
+43	6743	scarabaeus	scarabaei scarabaeorum scarabaeos scarabaeum
+44	6744	formido	formidabatur formident formidine
+45	6745	conservatorium	conservatorii conservatorio
+46	6746	deverticulum	deverticula deverticulo diverticulum
+47	6747	allegoria	allegoriae allegoriam allegorias
+48	6748	contero	conterant conteri conterito contriverunt contrivit
+49	6749	traductio	traductione traductionem traductiones
+50	6750	bibliopola	bibliopolae bibliopolas
+51	6751	plenitudo	plenitudine plenitudinem
+52	6752	vicerex	vicerege vicereges viceregum
+53	6753	forfex	forfices forficibus forficum
+54	6754	coniugalis	coniugalem coniugalibus coniugalium
+55	6755	integratio	integrationem integrationi integrationis integrationum
+56	6756	circumcisio	circumcisione circumcisionem circumcisioni circumcisionum
+57	6757	lanx	lance lancem lancium
+58	6758	sterilis	steriles sterili sterilibus
+59	6759	horarium	horaria horarii horariis
+60	6760	repleo	repleatur replens replete repletum repletur replevit
+61	6761	reparatio	reparationem reparationes reparationibus reparationis
+62	6762	frequentatio	frequentatione frequentationem frequentationis
+63	6763	cambrensis	cambrenses cambrensia cambrensibus
+64	6764	accresco	accrescebat accrescendum accreverit accreverunt accrevisse accrevit
+65	6765	computatorius	computatoria computatoriarum computatorias computatorio
+66	6766	deprecor	deprecabantur deprecabatur deprecamur deprecari deprecatur deprecatus
+67	6767	qualiscumque	qualemcumque qualescumque qualicumque qualiumcumque
+68	6768	rocheta	rochetae rochetas rochetis
+69	6769	amphibius	amphibia amphibias amphibiorum amphibium
+70	6770	chartaceus	chartacea chartaceae chartaceam chartaceis chartaceorum chartaceum
+71	6771	rigor	rigore rigorem rigoribus
+72	6772	alluvio	alluvione alluvionem alluviones alluvionibus alluvionis
+73	6773	meritorius	meritoria meritoriam meritorii meritorio meritorium
+74	6774	evangelizo	evangelizandi evangelizare evangelizatores evangelizavisse evangelizavit
+75	6775	minax	minaces minaci minacibus minaciis
+76	6776	aegrotatio	aegrotatione aegrotationem aegrotationibus aegrotationis
+77	6777	opertum	operta operti opertis
+78	6778	ploro	plora plorans plorare plorat ploravisse
+79	6779	furnus	furni furno furnum
+80	6780	praeparatio	praeparatione praeparationem praeparationes praeparationis
+81	6781	paritas	paritate paritatem paritatis
+82	6782	cruor	cruore cruorem cruoris
+83	6783	scrinium	scrinia scrinii scrinio
+84	6784	spiro	spirabat spirando spirans spirare spirat
+85	6785	contemplo	contemplamur contemplaret contemplaretur contemplari contemplat contemplatur contemplavit
+86	6786	mitigo	mitigabat mitigabuntur mitigandum mitigare mitigari mitigatum
+87	6787	praescriptio	praescriptionem praescriptiones praescriptionibus praescriptionis
+88	6788	bononiensis	bononiensem bononienses bononiensi bononiensium
+89	6789	inceptio	inceptione inceptionem inceptiones
+90	6790	propugnaculum	propugnaculi propugnaculis propugnaculo propugnaculorum
+91	6791	novicius	novicias novicio novicios novicium
+92	6792	recondo	recondendi recondit reconditum reconditur recondunt reconduntur
+93	6793	samius	samia samii samiis samiorum
+94	6794	manubrium	manubrii manubriis manubrio manubriorum
+95	6795	excavo	excavandi excavatis excavatum excavatur excavaverunt excavavit
+96	6796	sudor	sudore sudorem sudoris
+97	6797	ignivomus	ignivoma ignivomi ignivomis ignivomos
+98	6798	communicativus	communicativa communicativam communicativas communicativis communicativo
+99	6799	permisceo	permiscent permiscentur permiscere permisceto permixtus
+100	6800	ergastulum	ergastula ergastuli ergastulis ergastulo

@@ -1,0 +1,100 @@
+1	1101	ignis	igne ignem ignes igni ignibus ignium ignum
+2	1102	meridies	meridiei meridiem
+3	1103	pictor	pictore pictorem pictores pictori pictoribus pictoris pictorum
+4	1104	indicium	indici indicia indiciis indicio indiciorum
+5	1105	symbolum	symbola symbolas symboli symbolis symbolo symbolorum
+6	1106	signo	signa signabantur signabat signabatur signabit signandi signandum signans signant signantur signare signari signat signatis signato signator signatori signatum signatur signatus signaverunt signavit signent signetur
+7	1107	faciendum	facienda faciendi faciendis faciendo faciendorum
+8	1108	persuadeo	persuadeat persuadeatur persuadebant persuadebat persuademur persuadendi persuadendum persuadent persuadere persuaderent persuaderi persuadet persuadetur persuaserat persuaseris persuaserit persuaserunt persuasi persuasisset persuasit persuasum persuasus
+9	1109	erudio	erudi erudiantur erudiebat erudiebatur erudiendi erudire erudiri erudit eruditis erudito eruditorum eruditum eruditus erudiuntur erudivit
+10	1110	gubernator	gubernatore gubernatorem gubernatores gubernatori gubernatoribus gubernatoris gubernatorum gubernatrix
+11	1111	cur	
+12	1112	mundanus	mundana mundanae mundanam mundanarum mundanas mundani mundanis mundano mundanorum mundanos mundanum
+13	1113	dives	dis divita divite divitem divites diviti divitibus divitior divitis divitissimus divitum
+14	1114	severus	severa severae severam severas severe severi severior severis severissimus severo severum
+15	1115	depingo	depictum depictus depingatur depingebant depingebat depingens depingent depingere depingeret depingi depingit depingitur depingunt depinguntur depinxerat depinxerunt depinxisse depinxit
+16	1116	dedico	dedicabat dedicabatur dedicans dedicant dedicare dedicarent dedicaret dedicasse dedicat dedicatis dedicato dedicatorum dedicatum dedicatus dedicaverat dedicaverunt dedicavisset dedicavit dedicetur
+17	1117	natalis	natale natalem natales natali natalia natalium
+18	1118	formula	formulae formulam formularum formulas formulis
+19	1119	divinus	divina divinae divinam divinarum divinas divine divini divinis divino divinorum divinos divinum
+20	1120	monachus	monachi monachis monacho monachorum monachos monachum
+21	1121	divulgo	divulgabantur divulgabat divulgabatur divulgabitur divulgandi divulgans divulgantur divulgare divulgarent divulgarentur divulgaretur divulgari divulgat divulgatis divulgato divulgatorum divulgatum divulgatur divulgatus divulgaverat divulgaverit divulgaverunt divulgavit
+22	1122	inceptum	incepta incepti inceptis incepto inceptorum
+23	1123	evenio	evenerat evenere evenerint evenerunt eveniant eveniat eveniebant eveniebat evenire eveniret eveniretur evenisse evenit eveniunt eventu
+24	1124	derivo	derivabatur derivant derivantur derivare derivari derivat derivatis derivato derivatum derivatur derivatus derivavit derivetur
+25	1125	ritus	ritibus ritu ritui ritum rituum
+26	1126	inquam	inque inquies inquiete inquietis inquit inquiunt
+27	1127	nuntio	nuntia nuntiabant nuntiabat nuntiae nuntiamus nuntiandi nuntiandum nuntians nuntiant nuntiantur nuntiare nuntiaret nuntiat nuntiatis nuntiato nuntiator nuntiatum nuntiatur nuntiaturus nuntiatus nuntiavere nuntiavisse nuntiavisset nuntiavit nuntiet nuntiis
+28	1128	stratum	strata stratae stratam stratas strati stratis strato stratorum
+29	1129	scribendum	scribendi scribendo
+30	1130	sumptus	sumpta sumptae sumptas sumpti sumptibus sumptis sumpto sumptorum sumptos sumptu sumptubus sumptum sumptuum
+31	1131	gymnasium	gymnasia gymnasii gymnasiis gymnasio
+32	1132	quadraginta	
+33	1133	seditio	seditione seditionem seditiones seditioni seditionibus seditionis seditionum
+34	1134	poena	poenae poenam poenarum poenas poenis
+35	1135	discrimen	discrimina discrimine discrimini discriminibus discriminis discriminum
+36	1136	pauper	paupera pauperae paupere pauperem pauperes pauperibus pauperis pauperrimus pauperum
+37	1137	rogo	rogabant rogabat rogabatur rogamur rogamus rogandi rogandum rogans rogant rogantur rogare rogarent rogaret rogari rogas rogasse rogasset rogat rogator rogatu rogatum rogatur rogaverat rogaveris rogaverunt rogavisse rogavisset rogavit roger rogetur
+38	1138	aes	aera aerae aeram aere aeri aeribus aeris
+39	1139	internus	internae internam internarum internas interni internis interno internorum internos internum
+40	1140	masculinus	masculina masculinae masculinam masculinarum masculinas masculini masculinis masculino masculinos masculinum
+41	1141	massa	massae massam massarum massas massis
+42	1142	aeneus	aenea aeneae aeneam aenearum aenei aeneis aeneo aeneorum aeneos aeneum
+43	1143	marinus	marina marinae marinam marinarum marinas marini marinis marino marinorum marinos marinum
+44	1144	quoad	
+45	1145	sectio	sectione sectionem sectiones sectioni sectionibus sectionis sectionum
+46	1146	conditor	conditore conditorem conditores conditori conditoribus conditoris conditorum
+47	1147	alienus	aliena alienae alienam alienarum alienas alieni alienis alieno alienorum alienos alienum
+48	1148	educo	educabantur educabatur educandarum educandi educandis educandorum educandos educant educare educaret educaretur educari educat educatis educato educatum educatur educatus educaverunt educavit educent educeret educet educi educit eductum educunt eduxerunt eduxi eduxistis eduxit
+49	1149	centenus	centena centenae centenarum centenas centeni centenis centeno centenorum centenos
+50	1150	postremo	
+51	1151	sepulcrum	sepulchrum sepulcra sepulcri sepulcris sepulcro sepulcrorum
+52	1152	decretum	decreta decreti decretis decreto decretorum
+53	1153	anulus	annula annuli annulis annulum annulus anuli anulis anulo anulorum anulos anulum
+54	1154	pactum	pacta pactae pactam pactas pacte pacti pactis pacto pactorum pactos pactus
+55	1155	basis	base baseis basem baseos bases basi basibus basim basin basium
+56	1156	cognitus	cognita cognitae cognitam cognitarum cogniti cognitis cognito cognitorum cognitu cognitum
+57	1157	adversarius	adversari adversaria adversariae adversariam adversariarum adversarii adversariis adversario adversariorum adversarios adversarium
+58	1158	cogo	coactum coegerat coegere coegerunt coegissent coegit cogant cogantur cogat cogatur cogebant cogebantur cogebat cogemur cogendas cogendi cogens cogentur cogere cogerent cogerentur cogeret cogeretur coget cogetur cogi cogit cogitur cogunt coguntur
+59	1159	academicus	academica academicae academicam academicarum academicas academici academicis academico academicorum academicos academicum
+60	1160	iustus	iusta iustae iustam iustas iuste iusti iustis iusto iustorum iustos iustum justus
+61	1161	temperatura	temperaturae temperaturam temperaturarum temperaturas temperaturis
+62	1162	consociatio	consociatione consociationem consociationes consociationi consociationibus consociationis consociationum
+63	1163	comoedia	comoediae comoediam comoediarum comoedias comoediis
+64	1164	vestis	veste vestem vestes vesti vestibus vestim vestium
+65	1165	medicina	medicinae medicinam medicinarum medicinas medicinis
+66	1166	distinctus	distincta distinctae distinctam distinctarum distinctas distincte distincti distinctior distinctis distincto distinctorum distinctos distinctum
+67	1167	fingo	fictu fictum fictus fingamus finge fingebant fingebantur fingendi fingendo fingere fingerentur fingeret fingimus fingit fingite fingitur fingunt finguntur finxerint finxerit finxerunt finxi finxisse finxit
+68	1168	floreo	flore floream floreat florebant florebat florebuntur florens florent florere floreret flores floret floruerat floruerint floruerunt floruisse
+69	1169	contendo	contendant contendat contendebant contendebat contendebatur contendendum contendens contendent contendere contenderet contenderint contenderit contenderunt contendet contendit contenditur contendunt contenduntur contentum
+70	1170	pereo	pereant pereat pereunt peri peribant peribat peribit perierat periere perierint perierit perierunt periisse periisset periit perire perirent periret perisse perisset perit peritis perito peritum periverunt perivit
+71	1171	timeo	time timeant timebant timebat timebatur timebis timendi timendum timendus timens timent timere timerent timeret timeri times timet timuerant timuerunt timui timuisse timuit
+72	1172	evolutio	evolutione evolutionem evolutiones evolutioni evolutionis
+73	1173	caeruleus	caerulea caeruleae caeruleam caeruleas caerulee caerulei caeruleis caeruleo caeruleos caeruleum
+74	1174	substantia	substantiae substantiam substantiarum substantias substantiis
+75	1175	mensura	mensurae mensuram mensuras mensuris
+76	1176	venus	venere venerem veneri veneribus veneris
+77	1177	ineo	ineant ineundi ineundo ineunt ineunto inibat iniebat inierant inierat inierint inierit inierunt iniisse iniit inire inirent inirentur iniret iniri inis inisse init initis inito initum iniverunt inivit
+78	1178	pingo	pictu pictum pingebat pingebatur pingendi pingendo pingens pingere pingi pingit pingitur pingunt pinguntur pinxerunt pinxi pinxit
+79	1179	quisquam	cuiquam cuiusquam quaequam quaquam quemquam quicquam quidquam quodquam quoquam
+80	1180	drama	dramata dramate dramati dramatibus dramatis dramatum
+81	1181	sustineo	sustentum sustenturus sustineant sustineantur sustineat sustineatur sustinebant sustinebat sustinebatur sustinendi sustinendum sustinens sustinent sustinere sustinerent sustineret sustineri sustinet sustinetur sustinuerunt sustinuit
+82	1182	ibidem	
+83	1183	trans	
+84	1184	procul	
+85	1185	taberna	tabernae tabernam tabernarum tabernas tabernis
+86	1186	aptus	apta aptae aptam aptarum aptas apti aptior aptis aptissimus apto aptorum aptos aptum
+87	1187	sono	sona sonabant sonabat sonandi sonando sonans sonant sonantur sonare sonarent sonaret sonat sonata sonatae sonatam sonatas sonatis sonavit sonent sonet sonetis sonetur sonitibus sonitorum sonitu sonitum sonitus sonituum sonor sonoris sonorum sonuit
+88	1188	tollo	sublatum sustulerant sustulerat sustulere sustulerit sustulerunt sustulissent sustulisset sustulit tollant tollantur tollat tolle tollebant tollebat tollebatur tollenda tollendas tollendi tollendis tollendos tollendum tollens tollere tollerentur tolleret tolleretur tollet tolli tollis tollit tollitur tollunt tolluntur
+89	1189	administrativus	administrativa administrativae administrativam administrativarum administrativas administrative administrativi administrativis administrativo administrativorum administrativum
+90	1190	restituo	restituatur restituebat restituebatur restituendi restituendo restituendum restituendus restituens restituent restituere restituerentur restitueret restitueretur restituerunt restituet restitui restituisse restituisset restituit restituitur restitutum restitutus restituuntur
+91	1191	valens	valente valentem valenter valentes valentia valentiae valentiam valentibus valentis
+92	1192	italianus	italiana italianae italianam italianarum italianas italiane italiani italianis italiano italianos italianum
+93	1193	tertium	
+94	1194	locutio	locutione locutionem locutiones locutionibus locutionis locutionum
+95	1195	cogitatio	cogitatione cogitationem cogitationes cogitationi cogitationibus cogitationis cogitationum
+96	1196	planities	planitia planitie planitiebus planitiei planitiem planitierum
+97	1197	electio	electione electionem electiones electioni electionibus electionis electionum
+98	1198	classicum	classica classici classicis classico classicorum
+99	1199	pedum	pede pedem pedi pedibus pedis pedium pedo
+100	1200	compositus	composita compositae compositam compositarum compositas composite compositi compositis composito compositorum compositos

@@ -1,0 +1,100 @@
+1	9901	remigium	remigii remigio
+2	9902	incautus	incauto incautorum incautum
+3	9903	porcinus	porcina porcino
+4	9904	subiunctivus	subiunctivi subiunctivo
+5	9905	comissor	comissans comissantur comissatum
+6	9906	cartibulum	cartibuli cartibulis
+7	9907	divendo	divendebantur divendere divenditus
+8	9908	demando	demandas demandatum demandavit
+9	9909	intuitivus	intuitivae intuitive intuitivis
+10	9910	polypus	polypi polyporum polypos
+11	9911	bitumino	bituminatae bituminatis bituminatum
+12	9912	attonitus	attonitas attonito
+13	9913	propensus	propensa propensi
+14	9914	conturbo	conturbaretur conturbaris conturbatis
+15	9915	insumo	insumantur insumit insumunt
+16	9916	iurista	iuristae iuristis
+17	9917	pilastrum	pilastra pilastris pilastro
+18	9918	interceptio	interceptione interceptionem
+19	9919	zoophorus	zoophori zoophoro zophorus
+20	9920	praecaveo	praecaveatur praecavendi praecavet
+21	9921	virgineus	virginea virgineae virgineo
+22	9922	rigiditas	rigiditate rigiditatis
+23	9923	importunus	importune inportunus
+24	9924	quindecimvir	quindecimviris quindecimvirorum
+25	9925	octogensim	octogensima octogensimo octogensimos
+26	9926	puteal	puteale puteales
+27	9927	mattus	matti mattum
+28	9928	demarchia	demarchiae demarchium
+29	9929	aurarius	aurarii aurariorum aurarium
+30	9930	quirinalis	quirinalem quirinali
+31	9931	retiarius	retiari retiarium
+32	9932	lixivus	lexivum lixivum
+33	9933	bucina	bucinae bucinam
+34	9934	thallus	thalli thallis thallo
+35	9935	permodestus	permodesta permodeste
+36	9936	microcosmus	microcosmo microcosmum
+37	9937	effectorius	effectoriarum effectorias effectorii
+38	9938	eclipsis	eclipsem eclipses eclipsi
+39	9939	grunnio	grunni grunnitor grunniunt
+40	9940	concupisco	concupiscere concupiscit concupivit
+41	9941	ditesco	ditescant ditescere ditescit
+42	9942	sensilis	sensilem sensiles sensilia
+43	9943	erice	erica ericae erices
+44	9944	conquisitor	conquisitorem conquisitoris
+45	9945	subsidiarius	subsidiari subsidiariae
+46	9946	praesagio	praesagire praesagiverat
+47	9947	rhamnus	rhamno rhamnum
+48	9948	extermino	exterminare exterminatus exterminavit
+49	9949	sagittalis	sagittalem sagittali
+50	9950	adiectio	adiectionem adiectiones adiectionis
+51	9951	devolvo	devolutum devolutus devolvit
+52	9952	pendulus	penduli pendulis pendulum
+53	9953	asymmetricus	asymmetrica asymmetrici
+54	9954	affirmativus	affirmative affirmativo affirmativum
+55	9955	vultur	vulture vultures
+56	9956	inhaereo	inhaerent inhaerere inhaesit
+57	9957	fortifico	fortificaret fortificatus fortificavit
+58	9958	liberalitas	liberalitate liberalitatis
+59	9959	inscitus	inscitam inscite inscito
+60	9960	circumcludo	circumcludit circumclusisset circumclusum
+61	9961	inhabilis	inhabile inhabiles
+62	9962	suebus	sueborum suevus
+63	9963	penso	pensabant pensatis pensatum
+64	9964	libatio	libatione libationem libationi
+65	9965	compesco	compescebantur compescere compescuerunt
+66	9966	nymphaeum	nymphaearum nymphaei nymphaeo
+67	9967	armentarius	arcuario armentarii
+68	9968	praestatio	praestatione praestationem praestationi
+69	9969	privus	privae privam
+70	9970	cupressus	cupressi cupressorum cupressos
+71	9971	reluceo	relucebant relucens relucet
+72	9972	malayanus	malayana malayanae malayani
+73	9973	astragalus	astragalorum astragalum
+74	9974	manuarius	manuaria manuariae manuariam
+75	9975	brumalis	brumale brumalem brumali
+76	9976	retribuo	retribuamus retribuendi retribuere
+77	9977	interpolo	interpolabat interpolasse interpolator
+78	9978	incisio	incisionem incisiones
+79	9979	hebesco	hebescent hebescere hebescit
+80	9980	protrudo	protrudat protrudebat protrudens
+81	9981	subregulus	subreguli subregulum
+82	9982	condicionalis	condicionales conditionalis
+83	9983	elasticus	elastica elasticam elastici
+84	9984	reago	reagebant reaget reagit
+85	9985	schedula	schedulam schedulas
+86	9986	consenesco	consenescant consenuerat consenuit
+87	9987	mehercule	hercle hercule
+88	9988	acroterium	acroteria acroterii
+89	9989	comissatio	comissatione comissationi comissationibus
+90	9990	dissideo	dissidens dissident dissidere
+91	9991	vestinus	vestinis vestinorum
+92	9992	dispenso	dispensant dispensaret dispenset
+93	9993	bubulcus	bubulco bubulcorum
+94	9994	dactylus	dactyli dactylis dactylorum
+95	9995	solubilis	solubilem solubiles
+96	9996	incomprehensibilis	incomprehensibile incomprehensibiles incomprehensibilia
+97	9997	confronto	confrontare confrontaverunt confrontavit
+98	9998	decerpo	decerpebant decerptus decerpunt
+99	9999	theatricus	theatrica theatricae theatricis
+100	10000	hamatus	hamata hamatas hamato

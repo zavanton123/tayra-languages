@@ -1,0 +1,100 @@
+1	7901	incorruptus	incorrupta incorruptae incorruptas incorruptum
+2	7902	sinuosus	sinuosa sinuosae sinuosum
+3	7903	analogus	analoga analogae analogam
+4	7904	obstupefacio	obstupefaciendi obstupefacit obstupefactus obstupefiunt
+5	7905	inaequalitas	inaequalitate inaequalitatem inaequalitatis
+6	7906	cantabrum	cantabri cantabris cantabrorum
+7	7907	decessor	decessore decessoris
+8	7908	narcoticus	narcotica narcoticarum narcotici narcoticorum
+9	7909	recidivus	recidiva recidivi recidivum
+10	7910	canonizatio	canonizatione canonizationi canonizationis
+11	7911	pernocto	pernoctabant pernoctant pernoctare pernoctaverunt
+12	7912	marmotus	marmota marmotae marmotarum
+13	7913	praecello	praecellit praecellunt praecelsa praecelsus
+14	7914	actualis	actuale actualem actuales actualia
+15	7915	degeneratio	degeneratione degenerationem degenerationis
+16	7916	conventionalis	conventionalem conventionales conventionalibus
+17	7917	obiurgo	obiurgant obiurgat obiurgatus obiurgaverunt
+18	7918	mellitus	mellitae melliti mellitum
+19	7919	scalpo	scalpi scalpsit scalptus
+20	7920	limon	limonem limonibus limonis limonum
+21	7921	indistinctus	indistincta indistincte indistincti
+22	7922	continuitas	continuitatem continuitatibus continuitatis
+23	7923	perscrutor	perscrutabantur perscrutabatur perscrutari perscrutatur
+24	7924	inaequalis	inaequalem inaequalibus inaequaliter
+25	7925	thalamus	thalami thalamo thalamum
+26	7926	commetior	commensus commetiendum commetiri commetitur
+27	7927	strangulo	strangulans strangulant strangulat strangulavit
+28	7928	convivator	convivatores convivatoris convivatorum
+29	7929	purpuratus	purpurata purpuratarum purpuratorum
+30	7930	laganum	lagana lagani lagano
+31	7931	discordo	discordabant discordat discordaverunt discordent discordes
+32	7932	latebra	latebrae latebram latebrarum
+33	7933	victoriatus	victoriati victoriatum
+34	7934	reprobo	reprobans reprobaret reprobatum reprobavit
+35	7935	clangor	clangore clangores clangoris
+36	7936	mucro	mucronem mucrones mucronum
+37	7937	adulescentulus	adulescentulo adulescentulorum adulescentulum
+38	7938	versutus	versuta versute versuti
+39	7939	quinquennalis	quinquennale quinquennalem quinquennali quinquennalia
+40	7940	imperitia	imperitiae imperitiam inperitia
+41	7941	discribo	discribas discribuntur discripserunt discriptus
+42	7942	tractorius	tractorii tractoriis tractorios
+43	7943	victoriosus	victoriosa victoriosae victoriosis victoriosum
+44	7944	vocito	vocitant vocitantur vocitatum vocitatur
+45	7945	angor	angore angores angoris
+46	7946	bestiarius	bestiarii bestiario bestiarium
+47	7947	praeopto	praeoptas praeoptat praeoptaverunt praeoptavit praeoptent
+48	7948	lignor	lignandum lignatore lignatorem lignatores lignatoris
+49	7949	terrificus	terrifica terrificas terrificis terrificos
+50	7950	desilio	desiliat desiliendo desiliens desilire desiliret
+51	7951	condico	condicens condicit condicta condicunt condixerant
+52	7952	revocatio	revocatione revocationem revocationis revocationum
+53	7953	tricensimus	tricensima tricensimae tricensimam tricensimi tricensimo
+54	7954	gyro	gyra gyrando gyrant gyrari gyrat
+55	7955	conterminus	contermina conterminae conterminam conterminas
+56	7956	achaicus	achaicae achaici achaico achaicum
+57	7957	apocalypticus	apocalyptica apocalyptici apocalypticis apocalypticorum apocalypticum
+58	7958	contorqueo	contorquendi contorquent contorta contortae contortarum
+59	7959	cubile	cubili cubilia cubilibus cubilis
+60	7960	absorbeo	absorbeat absorbebat absorbere absorbet absorbuit
+61	7961	nugor	nugabantur nugari nugatus nugoris
+62	7962	madidus	madidae madidam madidis madido
+63	7963	perplexus	perplexae perplexi perplexorum perplexum
+64	7964	litigo	litiga litigandi litigant litigatores litigatus
+65	7965	aliquantulus	aliquantula aliquantulae aliquantuli aliquantulo
+66	7966	exopto	exoptandi exoptantur exoptare exoptarent
+67	7967	assurgo	assurgebant assurgere assurgit assurgunt assurrexit
+68	7968	thematicus	thematica thematicae thematicam thematicas
+69	7969	scalenus	scaleni scalenorum scalenos scalenum
+70	7970	olivetum	oliveta oliveti olivetis oliveto
+71	7971	occludo	occluderetur occludi occludit occlusum occlusus
+72	7972	compater	compatre compatrem compatres compatris
+73	7973	denudo	denudant denudatum denudatus denudavisse denudavit
+74	7974	cantharus	cantharidis cantharidum cantharo cantharos cantharum
+75	7975	collido	collidat collidens collidet collidetur collisisse
+76	7976	defensorius	defensoria defensoriae defensoriarum defensorio
+77	7977	coarto	coartant coartat coartatur coartavit coartet
+78	7978	enormis	enorme enormem enormi enormium
+79	7979	momentarius	momentaria momentariae momentarie momentario momentarium
+80	7980	disturbo	disturbabat disturbando disturbare disturbarent disturbet
+81	7981	cirrus	cirri cirris cirrorum cirros
+82	7982	cameralis	cameralem camerali cameralia cameralibus
+83	7983	oppeto	oppetat oppetendum oppetit oppetiverunt oppetunt
+84	7984	secludo	secludunt secluduntur seclusa seclusis seclusos
+85	7985	insuesco	insueta insuetae insueti insuetos insuetum
+86	7986	combino	combinandi combinant combinantur combinare combinatur
+87	7987	attractivus	attractiva attractivam attractivis attractivum
+88	7988	laetifico	laetificando laetificant laetificantur laetificat laetificavit
+89	7989	gratianopolitanus	gratianopolitana gratianopolitanae gratianopolitanis gratianopolitano
+90	7990	derogo	derogatur derogaverat derogavi derogavit derogentur
+91	7991	damma	dama damam damarum dammae
+92	7992	ludicer	ludicra ludicrarum ludicris ludicrum
+93	7993	populo	populantur popularentur popularet populavit
+94	7994	coagulum	coagula
+95	7995	lympha	lymphas lymphis
+96	7996	tripudium	tripudia tripudiis
+97	7997	mensor	mensores mensorum
+98	7998	protervus	proterva proterve protervis
+99	7999	ales	aliti alitium alitum
+100	8000	sponsalia	sponsalibus

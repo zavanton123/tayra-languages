@@ -1,0 +1,100 @@
+1	1601	conceptus	concepta conceptae conceptam conceptas concepti conceptibus conceptis concepto conceptu conceptum conceptuum
+2	1602	statutus	statuta statutam statutas statute statuti statutis statuto statutorum statutum
+3	1603	census	censibus censorum censu censui censum
+4	1604	pontifex	pontifice pontificem pontifices pontifici pontificibus pontificis pontificum
+5	1605	desertum	deserta deserti desertis deserto desertorum
+6	1606	commodum	commoda commodi commodis commodo commodorum
+7	1607	gigno	genitum genuerat genuere genuerint genuerunt genuisse genuissent genuit gignant gignebant gignendi gignens gignere gigneret gigneretur gignet gignit gignitur gignunt gignuntur
+8	1608	avus	aus ave avi avo avorum avum have
+9	1609	ceterus	ceterae ceteram ceterarum ceteras ceteri ceteris cetero ceterorum ceteros
+10	1610	expello	expellebat expellendo expellendum expellens expellent expellere expellerent expelleret expelli expellit expellitur expellunt expelluntur expulerat expulere expulerit expulerunt expulisse expulit expulsum expulsus
+11	1611	imprimo	impressi impressisse impressit impressum impressus imprimat imprimatur imprime imprimebant imprimebantur imprimebatur imprimendi imprimendum imprimere imprimerent imprimi imprimit imprimitur imprimunt
+12	1612	foederatio	foederatione foederationem foederationi foederationibus foederationis
+13	1613	metropolitanus	metropolitana metropolitanae metropolitanam metropolitanarum metropolitani metropolitanis metropolitano metropolitanos metropolitanum
+14	1614	diurnum	diurna diurnae diurnas diurni diurnis diurno diurnorum diurnos diurnus
+15	1615	numerosus	numerosa numerosae numerosam numerosarum numerosas numerose numerosi numerosis numerosius numeroso numerosorum numerosos
+16	1616	ter	
+17	1617	latitudo	latitudine latitudinem latitudines latitudinibus latitudinis
+18	1618	creatio	creatione creationem creationes creationi creationibus creationis creationum
+19	1619	panis	pane panem panes pani panibus panium panum
+20	1620	norma	normae normam normarum normas normis
+21	1621	margo	margine marginem margines margini marginibus marginis
+22	1622	vos	vestri vestrum vobis
+23	1623	supplicium	supplici supplicia supplicii suppliciis supplicio
+24	1624	vicina	vicinae vicinam vicinarum vicinas vicinis
+25	1625	albus	albae albam albarum albas albelli albi albis alborum albos
+26	1626	spectator	spectatore spectatorem spectatores spectatori spectatoribus spectatoris spectatorum
+27	1627	mercatura	mercaturae mercaturam mercaturarum mercaturas mercaturis
+28	1628	lamina	laminae laminam laminarum laminas laminis
+29	1629	televisificus	televisifica televisificae televisificam televisificarum televisificas televisifici televisificis televisifico televisificorum televisificum
+30	1630	rite	
+31	1631	invicem	
+32	1632	possibilis	possibile possibilem possibiles possibili possibilia possibilibus possibilium possibilum
+33	1633	tribunus	tribune tribuni tribunis tribuno tribunorum tribunos tribunum
+34	1634	iuventus	iuventute iuventutem iuventuti iuventutis juventus
+35	1635	ligneus	lignea ligneae ligneam ligneas lignei ligneis ligneo ligneorum ligneum
+36	1636	ambitus	ambita ambitibus ambitu ambitui ambitum ambituum
+37	1637	iussus	iussa iussae iussam iussi iussis iusso iussorum iussum jussus
+38	1638	sedeo	sede sedeat sedebant sedebat sedebit sedebunt sedemus sedendi sedendo sedens sedent sederant sederat sedere sederet sederint sederunt sedet sedi sedisset sedit sessum
+39	1639	tango	tactu tago tangantur tangat tangatur tange tangebat tangebatur tangendi tangendum tangentur tangere tangeret tangi tangis tangit tangitur tangunt tanguntur tetigerit tetigerunt tetigisse tetigisset tetigit
+40	1640	reliqua	reliquis reliquorum
+41	1641	fretum	freta freti freto
+42	1642	ferrum	ferra ferri ferris ferro ferrorum
+43	1643	prohibeo	prohibeantur prohibeatur prohibebant prohibebatur prohibebo prohibendi prohibendo prohibendum prohibens prohibent prohibentur prohibere prohiberent prohiberentur prohiberi prohibet prohibetur prohibitum prohibitus prohibuerat prohibuere prohibuerunt prohibuisse prohibuistis prohibuit
+44	1644	emitto	emiserunt emisisse emisisset emisit emissum emittatur emittebantur emittebat emittendi emittere emitteret emittet emitti emittit emittitur emittunt emittuntur
+45	1645	abeo	abeam abeat abeundi abeundo abeunt abi abibit abibunt abiens abientes abierat abierunt abiisse abiissent abiit abire abirent abiret abisset abit abitatus abito abitum abivit
+46	1646	percipio	perceperint percepisset percepit perceptum perceptus percipe percipere perciperem perciperet perciperetur percipi percipiamus percipiat percipiatur percipiebant percipiebat percipiendi percipiendo percipiendum percipient percipimus percipit percipitur percipiunt percipiuntur
+47	1647	symptoma	symptomata symptomate symptomatibus symptomatis symptomatum
+48	1648	technologia	technologiae technologiam technologiarum technologias technologiis
+49	1649	habitatio	habitatione habitationem habitationes habitationi habitationibus habitationis habitationum
+50	1650	interim	
+51	1651	kalendae	kalendas kalendis
+52	1652	distantia	distantiae distantiam distantiarum distantias distantiis
+53	1653	stadium	stadia stadii stadiis stadio stadiorum
+54	1654	belgicus	belgica belgicae belgicam belgici belgicis belgico belgicos belgicum
+55	1655	occasio	occasione occasionem occasiones occasionibus occasionum
+56	1656	inventio	inventione inventionem inventiones inventioni inventionibus inventionis
+57	1657	testamentum	testamenta testamenti testamento
+58	1658	iratus	irata iratae irati iratis iratissimus irato iratos iratum
+59	1659	ratus	rata ratae ratam ratem rates rati ratibus ratis rato ratorum ratos ratum
+60	1660	adiunctus	adiuncta adiunctae adiunctas adiuncti adiunctis adiuncto adiunctos adiunctum
+61	1661	relatus	relata relatae relatam relatarum relatas relate relati relatis relato relatorum relatos relatu relatum
+62	1662	hiems	hieme hiemem hiemes hiemibus hiemis
+63	1663	indus	inda indae indarum indi indis indorum indos indum
+64	1664	somnus	somni somnis somno somnum
+65	1665	cerno	cernantur cernatur cernebat cernere cernerent cerneret cerneretur cerni cernimus cernis cernit cernitur cernuntur cretu creturus creverit creverunt crevisse crevissent crevisset crevit
+66	1666	dego	degat degebant degebat degens degere degeret degerit degerunt deget degisset degit degunt
+67	1667	graviter	gravissime gravius
+68	1668	electronicus	electronicae electronicam electronicarum electronicas electronici electronicis electronico electronicorum electronicum
+69	1669	procedo	procedatur procedebat procedendi procedendo procedendum procedens procedent procedente procedere procederent procedit procedunt processerant processerunt processi processit processu processum
+70	1670	incido	incidam incidant incidat incidebantur incidebat incidendi incidendum incidens incidere inciderim inciderimus inciderint inciderit inciderunt incidet incidetur incidi incidisse incidit incidunt incisum
+71	1671	experimentum	experimenta experimente experimenti experimentis experimento experimentorum
+72	1672	explano	explanabuntur explanandi explanant explanantur explanare explanaretur explanari explanasse explanat explanatoris explanatu explanatum explanatur explanavit explanet explanetur
+73	1673	destino	destinabantur destinabatur destinabitur destinabuntur destinandi destinant destinantur destinas destinasse destinat destinatis destinato destinatum destinatur destinatus destinaverat destinaverunt destinavit destinent
+74	1674	alibi	aliubi
+75	1675	umquam	unquam
+76	1676	pueritia	pueritiae pueritiam
+77	1677	cella	cellae cellai cellam cellarum cellas cellis
+78	1678	astronomicus	astronomica astronomicae astronomicam astronomicarum astronomicas astronomice astronomicis astronomico astronomicorum astronomicum
+79	1679	cortex	cortice corticem cortices cortici corticibus corticis corticum
+80	1680	forsitan	
+81	1681	humanitas	humanitate humanitatem humanitates humanitati humanitatis humanitatum
+82	1682	rota	rotae rotam rotarum rotas rotis
+83	1683	converso	conversa conversandi conversantur conversas converses
+84	1684	capto	capta captabant captabantur captabat captabatur captandi captans captant captantur captare captarentur captaret captas captasse captat captatur captaverat captaverit captavit captetis captetur captor captore captori captoris captorum
+85	1685	plene	plenissime plenius
+86	1686	necessarie	necessariae necessariam necessariarum necessarias necessarii necessariis necessario necessariorum necessarios necessarius
+87	1687	geminus	gemina geminae geminam geminarum geminas gemine gemini geminis gemino geminorum geminos geminum
+88	1688	servio	servi serviant serviat serviebant serviebat serviendi serviendum servii serviit servire servirent servis servit servitur serviunt serviverint servivit
+89	1689	prosum	proderant proderat prodere proderunt prodesse prodessent prodesset prodest profuere profuerunt profuit prosint prosis prosit prosumus prosunt
+90	1690	permaneo	permane permaneat permanebant permanebat permanebit permanent permanere permanerent permaneret permanes permanet permanserat permanserunt permansisse permansit
+91	1691	canonicus	canonica canonicae canonicam canonicas canonice canonici canonicis canonico canonicorum canonicos canonicum
+92	1692	nempe	
+93	1693	architectura	architecturae architecturam architecturarum
+94	1694	diarium	diaria diarii diariis diario diariorum
+95	1695	disputatio	disputatione disputationem disputationes disputationi disputationibus disputationis disputationum
+96	1696	reformatio	reformatione reformationem reformationes reformationi reformationibus reformationis reformationum
+97	1697	fenestra	fenestrae fenestram fenestrarum fenestras fenestris
+98	1698	ephemeris	ephemeride ephemeridem ephemerides ephemeridibus ephemeridis ephemeridum
+99	1699	commercialis	commerciale commercialem commerciales commerciali commercialia commercialibus commercialium
+100	1700	bellicus	bellica bellicae bellicam bellicarum bellicas bellici bellicis bellico bellicorum bellicos bellicum

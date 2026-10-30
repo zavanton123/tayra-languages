@@ -1,0 +1,100 @@
+1	7701	immemor	immemores immemoris
+2	7702	comitio	comitiatum comitiatus
+3	7703	quincunx	quincunce quincuncem
+4	7704	nonnus	nonnae nonnarum nonnis
+5	7705	confabulatio	confabulationibus confabulationis
+6	7706	fatidicus	fatidica fatidici fatidicorum
+7	7707	volubilis	volubiles volubili
+8	7708	malaria	malariae
+9	7709	confutatio	confutatione
+10	7710	bengalensis	bengalenses bengaliensis benghalensis
+11	7711	hetaeria	hetaeriae
+12	7712	cilium	cilia ciliorum
+13	7713	contristo	contristat contristatus contristavit
+14	7714	prodigiosus	prodigiosa prodigiosam prodigiosi
+15	7715	parricidium	parricidii parricidio
+16	7716	autoraeda	autoraedae autoraedarum
+17	7717	aluminium	aluminii aluminio
+18	7718	ovalis	ovale ovalem ovali
+19	7719	nominatio	nominationem nominationum
+20	7720	praedicativus	praedicativa praedicativo praedicativum
+21	7721	qualificatio	qualificatione qualificationem qualificationis qualificationum
+22	7722	triticeus	triticea triticeo
+23	7723	defugio	defugere defugerentur defugit defugiunt
+24	7724	praerogativus	praerogativae praerogativam praerogativis
+25	7725	assula	assulam assulas
+26	7726	melancholicus	melancholica melancholici melancholico
+27	7727	uterinus	uterinae uterinam uterinum
+28	7728	signale	signali signalibus signalis
+29	7729	fabulor	fabulantur fabulatores fabulatoribus fabulentur
+30	7730	plautus	plauti plautum
+31	7731	olla	ollae ollas ollis
+32	7732	sensorium	sensoria sensoriis sensorio
+33	7733	promissio	promissionem promissionibus
+34	7734	olivarius	olivarii olivario
+35	7735	structilis	structilem structiles
+36	7736	brassica	brassicae brassicarum
+37	7737	corneus	cornea corneis corneo
+38	7738	exhortor	exhortandum exhortantur exhortatur
+39	7739	cifra	cifrae cifras cifris
+40	7740	velifer	velifera veliferarum veliferas veliferis
+41	7741	portabilis	portabile portabiles
+42	7742	carnivorus	carnivora carnivoris
+43	7743	medicamentarius	medicamentaria medicamentarii
+44	7744	unctio	unctione unctionem
+45	7745	sequela	sequelae sequelam
+46	7746	tertiarius	tertiaria tertiariae tertiariis
+47	7747	aestuosus	aestuosam aestuose aestuosis
+48	7748	reprehensio	reprehensionem reprehensioni reprehensionibus
+49	7749	pugio	pugione pugionem pugionibus
+50	7750	tribalis	tribale tribales tribalium
+51	7751	inexspectatus	inexpectatus inexspectatam inexspectate inexspectatum
+52	7752	membranaceus	membranaceae membranaceas
+53	7753	sanatorius	sanatoria sanatorias sanatorium
+54	7754	renuntiatio	renuntiationem renuntiationes renuntiationis
+55	7755	accumbo	accubitis accubuerunt accumbere accumbunt
+56	7756	sorbitium	sorbitiones sorbitioni sorbitionis sorbitionum
+57	7757	speculator	speculatores speculatoris
+58	7758	respecto	respecta respectandi respectant
+59	7759	tectonicus	tectonicae tectonicam tectonicas tectonicis
+60	7760	ligatio	ligatione ligationem ligationes
+61	7761	sordes	sordis sordium
+62	7762	interstellaris	interstellare interstellaria
+63	7763	tonsura	tonsurae tonsuram tonsurarum
+64	7764	confisco	confiscat confiscato confiscaverunt confiscavit
+65	7765	quantitativus	quantitativa quantitativam quantitativas
+66	7766	querimonia	querimoniae querimoniis
+67	7767	inebrio	inebriabuntur inebriare inebriat inebriatus
+68	7768	fibrosus	fibrosis fibroso
+69	7769	defensivus	defensivae defensivam defensivos defensivum
+70	7770	muratus	murata muratam muratis
+71	7771	lithuanicus	lithuanica lithuanicae lithuanicam lithuanicarum
+72	7772	catechismus	catechismi catechismum
+73	7773	umiditas	humiditas umiditate
+74	7774	officinalis	officinale officinali officinalia
+75	7775	proseucha	proseuchae proseucham
+76	7776	pollex	pollice pollices pollicum
+77	7777	interdictio	interdictionem interdictiones
+78	7778	praemitto	praemiserat praemisit praemissum praemissus
+79	7779	perspicuitas	perspicuitate perspicuitatem perspicuitatis
+80	7780	compatriota	compatriotae compatriotarum compatriotis
+81	7781	agonista	agonistae agonistarum agonistis
+82	7782	devincio	devinciebat devinciens devinctus devinxit
+83	7783	mucidus	mucida mucidae mucido mucidorum
+84	7784	consono	consonant consonare consonat consonent
+85	7785	effusio	effusione effusionem effusionis
+86	7786	daucum	dauci dauco
+87	7787	ancora	ancorae ancoram ancoras ancoris
+88	7788	gryllus	grylli gryllis gryllos
+89	7789	fabricatorius	fabricatoria fabricatoriae fabricatoriis fabricatorio
+90	7790	deportatio	deportationem deportationibus deportationis
+91	7791	temperans	temperantia temperantiae
+92	7792	seges	segete segetes segetum
+93	7793	flabellum	flabelli flabellorum
+94	7794	exactor	exactore exactorem exactores exactoris
+95	7795	navigabilis	navigabile navigabilia
+96	7796	hilaritas	hilaritate hilaritatis
+97	7797	inno	innare innate innatum innes
+98	7798	profligatus	profligatae profligati
+99	7799	manumissio	manumissiones manumissionis
+100	7800	repercutio	repercussit repercuti repercutiendo repercutiunt

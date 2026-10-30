@@ -1,0 +1,100 @@
+1	6501	ungo	uncta uncti unge unget unxisti unxit
+2	6502	effugo	effugere
+3	6503	substerno	substratum
+4	6504	extemplo	
+5	6505	setius	
+6	6506	oh	
+7	6507	irregulariter	
+8	6508	merere	
+9	6509	integre	
+10	6510	enimvero	
+11	6511	uel	
+12	6512	apollinaris	
+13	6513	libitum	
+14	6514	sexies	
+15	6515	facialis	
+16	6516	contubernium	
+17	6517	deque	
+18	6518	anatomica	
+19	6519	antehac	
+20	6520	controverto	controvertitur controvertuntur
+21	6521	urethra	urethrae urethram
+22	6522	oblongus	oblonga oblongae oblonge oblongum
+23	6523	caelebs	caelibem
+24	6524	carcinoma	carcinomata
+25	6525	anathema	anathemate
+26	6526	bilis	bilem biles
+27	6527	acerbe	acerbius
+28	6528	tricies	triciens
+29	6529	pluit	pluo
+30	6530	archiepiscopalis	archiepiscopalem
+31	6531	flagello	flagella flagellans flagellare flagellatis flagellavit
+32	6532	causor	causans causatur
+33	6533	ardor	ardore ardoris
+34	6534	perdifficilis	perdifficile perdifficiles perdifficili
+35	6535	perpetior	perpessum perpessus perpetiebatur
+36	6536	enodatio	enodatione enodationem
+37	6537	indeclinabilis	indeclinabile indeclinabilia
+38	6538	platinum	platina
+39	6539	dolabra	dolabella dolabris
+40	6540	syndicatus	syndicatu syndicatum
+41	6541	luminosus	luminosa luminosam luminose
+42	6542	horreum	horrea horreis
+43	6543	psychicus	psychica psychicae psychicas
+44	6544	celtis	celtibus celtium
+45	6545	ravus	rava rave
+46	6546	glottis	glottide glottidis
+47	6547	cilicium	cilicia cilicii cilicio
+48	6548	vexatio	vexationibus vexationis
+49	6549	odiosus	odiosa odiose odiosum
+50	6550	perfidia	perfidiae perfidias
+51	6551	castor	castorem castoris
+52	6552	abalieno	abalienaturus abalienatus abalienavit
+53	6553	dosis	dose doses
+54	6554	protestatio	protestationes protestationibus
+55	6555	significantia	significantiam
+56	6556	lucifer	luciferi
+57	6557	cavea	caveis
+58	6558	approximatio	approximationem
+59	6559	fervor	fervore fervorem fervoris
+60	6560	palladium	palladii palladio
+61	6561	costaricensis	costaricense costaricenses costaricensi
+62	6562	nauarchus	navarchus
+63	6563	molendinum	molendina molendinis
+64	6564	iunctio	iunctione iunctionem iunctionis
+65	6565	pinetum	pineta pinetis pineto
+66	6566	vastatio	vastationem vastationibus vastationum
+67	6567	panegyricus	panegyricarum panegyrici panegyricorum
+68	6568	tridens	tridente tridentum
+69	6569	adigo	adegerat adegerunt adegit adigitur
+70	6570	repulsa	repulsae repulsis
+71	6571	balticus	baltici baltico balticum
+72	6572	calipha	califa caliphae calipharum
+73	6573	tangens	tangentem tangentes
+74	6574	insidior	insidiantur insidiaretur insidiatores insidiatus
+75	6575	miserabilis	miserabilem miserabili miserabilior
+76	6576	prooemium	prooemio
+77	6577	bison	bisonte bisontes bisontis
+78	6578	navigator	navigatori navigatoribus navigatoris
+79	6579	tenax	tenacem tenaces
+80	6580	gravedo	gravedines gravedinis
+81	6581	emissarium	emissaria emissarii
+82	6582	biceps	bicipite bicipitem bicipitibus
+83	6583	scrutinium	scrutinii scrutinio
+84	6584	nonagesimus	nonagesimis nonagesimo nonagesimum
+85	6585	pansa	pansae pansis
+86	6586	asylum	asyla asyli
+87	6587	sarcio	sarcire sartum sartus
+88	6588	hypostasis	hypostases
+89	6589	curio	curionem curiones curionum
+90	6590	caesura	caesuram caesuris
+91	6591	efficacitas	efficacitatem efficacitates efficacitatum
+92	6592	fragor	fragore fragorem
+93	6593	diplomatia	diplomatiae
+94	6594	fulgor	fulgore fulgorem
+95	6595	abyssus	abyssi abysso
+96	6596	parce	parcissime parcius
+97	6597	adaptatio	adaptationem adaptationes adaptationis
+98	6598	radiophonia	radiophoniae radiophoniam
+99	6599	augurium	auguria augurio
+100	6600	arvalis	arvales

@@ -1,0 +1,100 @@
+1	8201	kalium	kalii
+2	8202	aeternitas	aeternitate aeternitatem
+3	8203	congelatio	congelatione congelationis
+4	8204	spectabilis	spectabiles
+5	8205	ventralis	ventralem
+6	8206	destillatio	destillationis
+7	8207	temperies	temperie
+8	8208	intemperans	intemperantiam
+9	8209	guttatus	guttata guttatae
+10	8210	adnuntio	adnuntiaverunt annuntio
+11	8211	macero	maceratur maceraverunt
+12	8212	triumviratus	triumviratum
+13	8213	chirotheca	chirothecae chirothecas
+14	8214	rudimentum	rudimenta rudimentis
+15	8215	callis	callem
+16	8216	ros	roris
+17	8217	redundantia	redundantiam
+18	8218	lorum	loris loro
+19	8219	pudicitia	pudicitiam
+20	8220	campanarium	campanaria
+21	8221	propraetor	propraetore
+22	8222	affluentia	affluentiae
+23	8223	praetexo	praetextu praetextus
+24	8224	riscus	risco
+25	8225	agilis	agiles
+26	8226	consecutivus	consecutiva consecutivorum
+27	8227	antebrachium	antebrachii
+28	8228	coagulatio	coagulationem coagulationis
+29	8229	flagitium	flagitio
+30	8230	negligentia	negligentiam
+31	8231	upsaliensis	upsaliensi
+32	8232	anecdotum	anecdota anecdoto
+33	8233	quadraticus	quadratica quadraticis
+34	8234	quingentesimus	quingentesimi quingentesimo
+35	8235	drepanus	drepani drepanum
+36	8236	gubernum	guberno
+37	8237	tribunatus	tribunatum
+38	8238	spica	spicae spicas
+39	8239	frustratio	frustrationi
+40	8240	manuballista	manuballistas
+41	8241	iodum	iodo
+42	8242	daricus	darici
+43	8243	carpentum	carpenta
+44	8244	scrupulus	scrupulis scrupulo
+45	8245	infantulus	infantuli
+46	8246	cherub	cherubim cherubin
+47	8247	praetextatus	praetextati praetextato
+48	8248	venalicius	venaliciorum venalicium
+49	8249	labeo	labeonis
+50	8250	dependentia	dependentiam
+51	8251	iuba	iubae
+52	8252	hernia	herniae
+53	8253	pelagicus	pelagica pelagici
+54	8254	gestabilis	gestabilia
+55	8255	benefacio	benefacit benefecit
+56	8256	gustatus	gustatui
+57	8257	rabio	rabiem rabit
+58	8258	vexillium	vexillia
+59	8259	visivus	visiva visivas
+60	8260	interpreto	interpretaverunt interpretavit
+61	8261	clusilis	clusiles
+62	8262	abiuro	abiuraverat abiuravit
+63	8263	perculsus	perculsos
+64	8264	vegetalis	vegetale vegetalium
+65	8265	concordantia	concordantiae
+66	8266	sapienter	sapientius
+67	8267	sortior	sortiendo sortitur
+68	8268	reposco	reposcantur reposcit
+69	8269	promotor	promotores
+70	8270	addisco	addiscenda addiscere
+71	8271	motacilla	motacillae
+72	8272	bura	bure burim
+73	8273	cosmos	cosme cosmi
+74	8274	boletus	boleto
+75	8275	defessus	defessos
+76	8276	affatim	adfatim
+77	8277	gluma	glumae glumarum
+78	8278	caementum	caementa caemento
+79	8279	laserpicium	laserpicii
+80	8280	semetipsum	semetipso
+81	8281	langueo	langue langues
+82	8282	dualitas	dualitatem
+83	8283	rectitudo	rectitudinem
+84	8284	multidentatus	multidentata multidentatae
+85	8285	zirconium	zirconii
+86	8286	vitio	vitiare vitiasse
+87	8287	prioratus	prioratum
+88	8288	conglobo	conglobans conglobat
+89	8289	vastitas	vastitatem vastitatis
+90	8290	spatha	spathum
+91	8291	virgultus	virgulta virgultis
+92	8292	citharoedus	citharoedi
+93	8293	semis	semissem
+94	8294	insertio	insertionem insertionum
+95	8295	tetricus	tetricum
+96	8296	scopulosus	scopulosis scopulosum
+97	8297	exsulto	exsultans exsultat
+98	8298	proprietarius	proprietaria proprietarii
+99	8299	pubesco	pubescunt pubuit
+100	8300	iuramentum	iuramento

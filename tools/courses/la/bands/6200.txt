@@ -1,0 +1,100 @@
+1	6101	coalesco	coalescebant coalescere coalescerent coalescit coaluerunt coaluit
+2	6102	inviso	invisendi invisens invisere inviserunt invisi invisit invisum invisunt
+3	6103	compressus	compressa compressae compressas compressi compresso compressum
+4	6104	stipendio	stipendia
+5	6105	praeco	praecones praeconi praeconibus
+6	6106	claustrum	claustri claustris claustro
+7	6107	apio	aperis apo aptum
+8	6108	cinctus	cinctam cincti cinctum
+9	6109	quadro	quadrabat quadrate quadratis quadrato quadratorum quadratu quadravit quadret
+10	6110	accensus	accensa accensae accensam accensis accenso
+11	6111	magnifico	magnifica magnificabant magnificabat magnificas magnificat magnificatur magnificatus
+12	6112	professus	professae professi professorum
+13	6113	argus	argi argo argos argum
+14	6114	improbo	improba improbabant improbabatur improbare improbasset improbatur improbaverunt improbavit
+15	6115	locupleto	locupletabat locupletans locupletat locupletato locupletatum locupletavit locupletem locupletes
+16	6116	orbo	orba orbatis orbatus orbem orbes
+17	6117	molestus	molesta molestae molestam molesti molestissimus molestum
+18	6118	degenero	degenerant degenerat degeneraverant degeneraverunt degeneravit degeneres degeneret
+19	6119	addico	addicebat addiceret addicit addicitur addictum addixerat addixit
+20	6120	amplio	amplia ampliabatur ampliatum ampliatur ampliatus ampliaverunt ampliavit amplior
+21	6121	urgeo	urgebantur urgens urgent urgere urgeretur urget ursi
+22	6122	augmento	augmenta augmentabatur augmentando augmentandum augmentat augmentatus augmentetur
+23	6123	vae	
+24	6124	hucusque	
+25	6125	quantopere	
+26	6126	confestim	
+27	6127	necatur	
+28	6128	cardamomum	
+29	6129	suscipere	
+30	6130	illinc	
+31	6131	totidem	
+32	6132	minis	
+33	6133	insilio	insiliens
+34	6134	munia	
+35	6135	imp.	imp
+36	6136	imprudenter	
+37	6137	rabbi	
+38	6138	vesperi	
+39	6139	utpote	
+40	6140	loquere	
+41	6141	cotta	
+42	6142	omega	
+43	6143	placere	
+44	6144	ni	
+45	6145	nimio	
+46	6146	misere	
+47	6147	quandocumque	
+48	6148	elenchus	elencho
+49	6149	podagra	podagram
+50	6150	subtiliter	subtilius
+51	6151	septies	septiens
+52	6152	comprehenso	comprehensa comprehensas
+53	6153	proculus	proculo
+54	6154	iniuste	iniustius
+55	6155	astrido	astrid astridis
+56	6156	semet	sibimet
+57	6157	acia	acium
+58	6158	incitamentum	incitamenta
+59	6159	patriarchatus	patriarchatibus
+60	6160	sacristia	sacristiae
+61	6161	missale	missalem missalia
+62	6162	synopsis	synopsin
+63	6163	cyclas	cycladas cyclades cycladum
+64	6164	mucosus	mucosa mucosae mucosam
+65	6165	schisma	schismate
+66	6166	socrus	socru socrum
+67	6167	excidium	excidio
+68	6168	silanus	silano
+69	6169	expedite	expeditissime expeditius
+70	6170	aufugio	aufugere aufugit
+71	6171	triduum	triduo
+72	6172	auctio	auctione auctionem auctionis
+73	6173	mandarinicus	mandarinica mandarinicam mandarinice mandarinici
+74	6174	panamensis	panamensi panamensibus panamensium
+75	6175	prognatus	prognati prognatorum
+76	6176	topia	topiis topiorum
+77	6177	festino	festinandum festinare festinaret festinavit
+78	6178	instructor	instructores instructoris
+79	6179	quarcum	quarca quarci quarco
+80	6180	monile	monili monilia monilibus
+81	6181	invalidus	invalida invalidam
+82	6182	plutonium	plutonii plutonio
+83	6183	aquilo	aquilonem aquilonis
+84	6184	cantito	cantitans cantitant cantitatur cantitaverit
+85	6185	palatinatus	palatinatu palatinatum
+86	6186	ignobilis	ignobilem ignobili ignobilia
+87	6187	topographia	topographiae topographiam
+88	6188	hostia	hostiae hostias
+89	6189	far	farra farre
+90	6190	cortina	cortinae cortinam
+91	6191	batavicus	batavica batavice batavico
+92	6192	analis	anales analibus
+93	6193	raphe	raphae raphes
+94	6194	depictio	depictionem depictiones
+95	6195	aequivalentia	aequivalentiae aequivalentiam
+96	6196	deciduus	decidua deciduae decidui deciduorum
+97	6197	consistorium	consistorii consistorio
+98	6198	mannulus	mannuli mannulorum mannulos
+99	6199	discriminatio	discriminatione discriminationes discriminationis
+100	6200	structor	structoris structorium structorum

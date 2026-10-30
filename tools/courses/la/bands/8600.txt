@@ -1,0 +1,100 @@
+1	8501	hymenaeus	hymenaee hymenaei
+2	8502	benignitas	benignitate benignitatem
+3	8503	scandinavicus	scandinavicarum scandinavicos
+4	8504	thyrsus	thyrso thyrsum
+5	8505	attestatio	attestatione attestationes
+6	8506	iudicalis	iudicale iudicales iudicalia
+7	8507	responsabilitas	responsabilitate responsabilitatem responsabilitatis
+8	8508	reclino	reclinator reclinatus reclinavit
+9	8509	indoctus	indoctis indocto indoctum
+10	8510	retinaculum	retinaculis retinaculo
+11	8511	natatio	natatione natationis
+12	8512	adoratio	adoratione adorationem
+13	8513	xanthus	xanthi xanthum
+14	8514	offensio	offensione offensionem offensiones
+15	8515	fragmen	fragmina fragminibus fragminis
+16	8516	cognomentum	cognomento
+17	8517	haesitatio	haesitatione haesitationem
+18	8518	coincido	coincidat coincidebant coincidit
+19	8519	cavillor	cavillantur cavillari cavillatur
+20	8520	vinarium	vinaria
+21	8521	leros	leri lero
+22	8522	gradatus	gradatae gradatas gradatum
+23	8523	suillus	suilla suillam suillum
+24	8524	rescriptum	rescripti rescriptorum
+25	8525	condono	condonat condonavit
+26	8526	cisalpinus	cisalpina cisalpinae cisalpinam
+27	8527	appellativus	appellativa appellativo appellativum
+28	8528	cinematographeum	cinematographeis cinematographeo
+29	8529	praecessor	praecessores praecessorum
+30	8530	intrico	intricato intricatus intricaverunt
+31	8531	adulo	adula adulabatur adulatore adulatores
+32	8532	subiaceo	subiacebant subiacens subiacere
+33	8533	dirumpo	dirumpens dirumpere diruperunt
+34	8534	cunabula	cunabulis cunabulum
+35	8535	normannicus	normannica normannicae
+36	8536	opperior	opperiebatur opperitur opperiuntur
+37	8537	ostrea	ostreae ostrearum
+38	8538	araucanus	araucani araucanis araucanorum
+39	8539	musculosus	musculosas musculosum
+40	8540	conspiratio	conspiratione conspirationem
+41	8541	potabilis	potabilem potabilium
+42	8542	confingo	confingantur confingi confinguntur
+43	8543	nongenti	nongenta nongentis
+44	8544	gestatio	gestationem gestationis
+45	8545	praerumpo	praerupta praeruptis
+46	8546	excerpo	excerpsere excerpsisse excerptum
+47	8547	opimus	opima opimi opimo
+48	8548	imbellis	imbelles
+49	8549	amygdala	amygdalae amygdalarum
+50	8550	gabonensis	gabonensi gabonensium
+51	8551	matrina	matrinae matrinam
+52	8552	pertica	perticae perticas
+53	8553	evidens	evidentes evidenti
+54	8554	tenacitas	tenacitate tenacitatem tenacitati
+55	8555	privignus	privigni privigno
+56	8556	bellaria	bellariis bellariorum
+57	8557	reticularis	reticulare
+58	8558	oscillo	oscillabit oscillant oscillat
+59	8559	armilla	armillae armillas armillis
+60	8560	torquatus	torquati torquatum
+61	8561	cretaceus	cretaceae cretacei cretaceo
+62	8562	chronographus	chronographi chronographis
+63	8563	aetiologia	aetiologiae aetiologiam aetiologiarum
+64	8564	visificus	visifici visifico visificos
+65	8565	derigo	derectius derigat derigitur
+66	8566	exoletus	exoleto exoletorum exoletos
+67	8567	detestor	detestabatur detestatur detestatus
+68	8568	anachronismus	anachronismi anachronismum
+69	8569	tragoedus	tragoedi tragoedis
+70	8570	smyrna	smyrnae smyrnam
+71	8571	catinus	catini catino
+72	8572	squilla	squillae squillarum
+73	8573	approximo	approximat approximent approximet
+74	8574	copulatio	copulatione copulationes
+75	8575	labina	labinam labinis
+76	8576	mollities	mollitie mollitiem
+77	8577	masturbor	masturbantur masturbari masturbentur
+78	8578	aulaeum	aulaeis aulaeo
+79	8579	apothecarius	apothecarii apothecariis
+80	8580	amplificator	amplificatores amplificatorium
+81	8581	circumferentia	circumferentiae circumferentiam
+82	8582	obedo	obesse obesset obesum obesus
+83	8583	credulitas	credulitate credulitatem credulitatis
+84	8584	discidium	discidia discidio
+85	8585	praesidialis	praesidialia
+86	8586	fluviatilis	fluviatilem fluviatiles
+87	8587	eleemosyna	eleemosynae eleemosynam
+88	8588	sorbus	sorba sorbum
+89	8589	incisura	incisurae incisuram incisuras
+90	8590	occitanicus	occitanica occitanicam occitanice
+91	8591	pullinus	pullina pullinae pullini
+92	8592	gazeticus	gazetica gazeticae gazetici
+93	8593	regularitas	regularitate regularitates
+94	8594	affectatio	affectationem affectationibus
+95	8595	floresco	florescat florescere florescunt
+96	8596	cinaedus	cinaeda cinaedorum
+97	8597	pubertas	pubertate pubertatem
+98	8598	alluvius	alluvie alluviorum
+99	8599	boarius	boario boarium
+100	8600	degusto	degustare degustari degustavit

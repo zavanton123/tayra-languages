@@ -1,0 +1,100 @@
+1	7101	iracundia	iracundiae iracundias
+2	7102	probitas	probitate probitatem
+3	7103	speculor	speculandum specularem speculari speculatus
+4	7104	obstaculum	obstacula obstaculis obstaculo
+5	7105	serviens	servientes servientibus
+6	7106	suasor	suasorem suasores
+7	7107	dimicatio	dimicatione dimicationis
+8	7108	sphinx	sphingis
+9	7109	calculatio	calculationes calculationum
+10	7110	advento	adventa
+11	7111	honorabilis	honorabile honorabilem honorabili
+12	7112	fimbriatus	fimbriatas fimbriatis fimbriato fimbriatum
+13	7113	arura	arurae aruram
+14	7114	alvearium	alvearia alvearii alveariorum
+15	7115	graviditas	graviditatem graviditates graviditatis
+16	7116	ecclesiola	ecclesiolae ecclesiolam
+17	7117	recessio	recessione recessionem
+18	7118	triticum	tritici tritico triticorum
+19	7119	aeronauticus	aeronautica aeronauticae aeronauticam
+20	7120	avena	avenae
+21	7121	mortarium	mortaria mortario
+22	7122	terraemotus	terraemotu terraemotum terraemotuum
+23	7123	gaudeo	gaudendo gaudens gavisus
+24	7124	lactarius	lactaria lactariae lactariis lactarios
+25	7125	insimulo	insimulabant insimulabat insimulatum insimulatus
+26	7126	supervacuus	supervacua supervacuam supervacuorum supervacuum
+27	7127	hordeum	hordei hordeo
+28	7128	infula	infulae infulas infulis
+29	7129	exspiro	exspirando exspirare exspirat exspiravit
+30	7130	adfinitas	adfinitate adfinitatis
+31	7131	corvinus	corvini corvinum
+32	7132	lupanar	lupanare lupanari lupanarum
+33	7133	iunctura	iuncturam iuncturis
+34	7134	aequinoctium	aequinoctiis aequinoctio
+35	7135	cyclicus	cyclica cyclicae cyclicarum
+36	7136	liveo	live liveri lives
+37	7137	adrogatio	adrogationem adrogationi adrogationis
+38	7138	onerosus	onerosa onerosam onerose onerosum
+39	7139	turbatio	turbationes turbationibus turbationis
+40	7140	oppugnator	oppugnatorem oppugnatores oppugnatoribus
+41	7141	relaxatio	relaxatione relaxationem relaxationis
+42	7142	grecus	greca grecis greco
+43	7143	gracilis	graciles gracili gracilibus
+44	7144	villaris	villare villarium
+45	7145	piaculum	piacula piaculi
+46	7146	glomus	glomeris
+47	7147	assessor	assessores assessori assessoris
+48	7148	subtractio	subtractione subtractiones subtractionis
+49	7149	abundanter	abundantissime abundantius
+50	7150	anguste	angustius
+51	7151	allus	alle allis allo
+52	7152	arundo	arundine arundines arundinis
+53	7153	commissura	commissuram commissuris
+54	7154	balbus	balbam balbi balbo
+55	7155	tentatio	tentationem tentationes tentationum
+56	7156	redoleo	redolent redolet
+57	7157	animatio	animatione animationem animationibus
+58	7158	fiduciarius	fiduciaria fiduciarii fiduciarium
+59	7159	vorago	voragine voraginum
+60	7160	obtingo	obtigerunt obtigit obtingat obtingit
+61	7161	impietas	impietate impietatem impietatis
+62	7162	identicus	identica identicae identicis identicos
+63	7163	altercatio	altercationem altercationes altercationibus
+64	7164	respiratio	respiratione respirationi respirationis
+65	7165	legionicus	legionica legionicae
+66	7166	expendo	expendatur expendere expendit expensum
+67	7167	corbis	corbe corbes
+68	7168	recolo	recolere recolitur recoluit
+69	7169	camisia	camisiae camisiam camisiarum
+70	7170	impavidus	impavida impavide impavidum
+71	7171	cuminum	cumino cyminum
+72	7172	silus	sila sili silo
+73	7173	ceremonia	ceremoniae ceremoniarum
+74	7174	evinco	evincendo evincere evincit evincitur
+75	7175	paucitas	paucitate paucitatem paucitates
+76	7176	inevitabilis	inevitabile inevitabilem
+77	7177	pilleus	pileos pileus pilleo
+78	7178	sphaericus	sphaerica sphaericae sphaerico
+79	7179	timidus	timida timidi timido
+80	7180	noxa	noxae noxam
+81	7181	maturesco	maturescere maturescit maturescunt maturuit
+82	7182	absolutio	absolutione absolutionem absolutionis
+83	7183	fugax	fugaces fugaciter
+84	7184	porcellus	porcelli porcello porcellorum porcellum
+85	7185	cistophorus	cistophoris cistophoros
+86	7186	excudo	excudebat excudens excuderunt excudit
+87	7187	desiderabilis	desiderabilem desiderabiles
+88	7188	logarithmicus	logarithmica logarithmicae logarithmicam
+89	7189	atrocitas	atrocitate atrocitatem atrocitates
+90	7190	declamo	declamandum declamare declamat declamaverat
+91	7191	convectio	convectionem convectionis
+92	7192	reiectio	reiectione reiectionis
+93	7193	diutinus	diutinam diutine diutini
+94	7194	malleolus	malleoli malleolum
+95	7195	reticulatus	reticulata reticulatis reticulato reticulatum
+96	7196	expulsio	expulsionem expulsiones
+97	7197	olisiponensis	olisiponense olisiponensem olisiponensi
+98	7198	ostentatio	ostentatione ostentationes ostentationis
+99	7199	polytheismus	polytheismi polytheismo polytheismum
+100	7200	gymnicus	gymnica gymnicae gymnicam gymnici

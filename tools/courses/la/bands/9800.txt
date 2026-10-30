@@ -1,0 +1,100 @@
+1	9701	abstractio	abstractione abstractiones abstractionis
+2	9702	reginula	reginulae reginulas
+3	9703	pastio	pastionis pastionum
+4	9704	undetricesimus	undetricesima undetricesimo
+5	9705	caelibatus	caelibatum coelibatum
+6	9706	rutabulum	rutabula rutabulo
+7	9707	tenebrosus	tenebrosa tenebrosior tenebrosum
+8	9708	collyra	collyrida collyridum
+9	9709	conglacio	conglaciat conglaciaverunt conglaciavit
+10	9710	deceptio	deceptione deceptionem
+11	9711	actuarius	actuariae actuario
+12	9712	protraho	protrahere protraherentur protrahuntur
+13	9713	bahamensis	bahamensi bahamensium
+14	9714	coalitus	coalita coalitae
+15	9715	atratus	atrata atratum
+16	9716	domito	domitabatur domitatis
+17	9717	tabulatio	tabulationem tabulationis tabulationum
+18	9718	seiungo	seiunctum seiungendo seiungi
+19	9719	daemonicus	daemonica daemonicas daemonicorum
+20	9720	victualis	victuale victualia victualibus
+21	9721	clarifico	clarificatur clarificavit clarificentur
+22	9722	vinarius	vinariam vinariarum vinarias
+23	9723	safranum	safrana safrani safrano
+24	9724	renuo	renuebat renuendi renuit
+25	9725	decessio	decessione decessionem decessionis
+26	9726	accessorius	accessoria accessoriae accessorias
+27	9727	gurges	gurgite gurgitis
+28	9728	cuparius	cuparii cuparium
+29	9729	docilis	docile docili
+30	9730	sponso	sponsor sponsores sponsoribus
+31	9731	accolo	accolat accolere accolunt
+32	9732	tubarius	tubaria tubarii tubariis
+33	9733	invigilo	invigilare invigilavit invigilet
+34	9734	todus	tode todi todo
+35	9735	comoedicus	comoedica comoedici comoedico
+36	9736	enitor	enisus enititur enixus
+37	9737	anaphoricus	anaphoricam anaphorico anaphoricum
+38	9738	dominula	dominulae dominulis
+39	9739	compromissum	compromissa compromisso
+40	9740	hyacinthinus	hyacinthina hyacinthinam hyacinthinas
+41	9741	intensio	intensione intensiones intensionum
+42	9742	intolerabilis	intolerabile intolerabiles
+43	9743	tinus	tini tino
+44	9744	caprarius	capraria caprarii caprarium
+45	9745	perrarus	perrara perrarae
+46	9746	tendentia	tendentiae tendentias
+47	9747	adnecto	adnexuit adnexum adnexus
+48	9748	hydria	hydriae hydriarum hydrias
+49	9749	albedo	albedinem albedinis
+50	9750	obtrectator	obtrectatores obtrectatorum
+51	9751	depromo	depromere depromi depromptum
+52	9752	abrogatio	abrogatione abrogationem abrogationes
+53	9753	biga	bigae bigas bigis
+54	9754	oxianus	oxiani oxianum
+55	9755	curiatus	curiata curiatae curiatam
+56	9756	andron	androne andronem
+57	9757	uterlibet	utriuslibet utrolibet utrumlibet
+58	9758	occiduus	occidua occiduae occiduo
+59	9759	trilinguis	trilingue trilingues trilingui
+60	9760	instigator	instigatores instigatrix
+61	9761	consocius	consocii consociis
+62	9762	capreolus	capreoli capreolis capreolum
+63	9763	detorqueo	detorqueantur detorquere detorqueret
+64	9764	sorbeo	sorbendi sorbendo sorberetur
+65	9765	temulentus	temulenti temulentis temulentum
+66	9766	evolutivus	evolutiva evolutivo evolutivum
+67	9767	ripensis	ripense ripensi
+68	9768	adveho	advectum advehitur advexerat
+69	9769	temeritas	temeritatem temeritatis
+70	9770	criminatio	criminationem criminationes criminationis
+71	9771	erraticus	erraticae erraticas erraticorum
+72	9772	palaestricus	palaestricae palaestrici palaestricum
+73	9773	operistitium	operistitia operistitio
+74	9774	caccabus	cacabus caccabi caccabis
+75	9775	stipo	stipa stipatore stipatorum
+76	9776	probrosus	probrosas probroso probrosos
+77	9777	labefacio	labefacit labefactum labefecit
+78	9778	conchylium	conchyliis conchyliorum
+79	9779	sufflamino	sufflaminare sufflaminaverunt sufflaminavit
+80	9780	discumbo	discumbebant discumbente discumbentibus
+81	9781	lituanus	lituana lituanorum
+82	9782	restruo	restruendo restrui restruxerunt
+83	9783	mordax	mordaces mordacibus
+84	9784	munificentia	munificentiae munificentiam
+85	9785	pinnaculum	pinnaculi pinnaculis pinnaculo
+86	9786	tepalum	tepala tepali tepalo
+87	9787	demiror	demiratur demiratus demirentur
+88	9788	baianus	baianam baiane baianum
+89	9789	redarguo	redarguens redarguere redarguit
+90	9790	provulgo	provulgare provulgatum provulgaverit
+91	9791	tantulus	tantula tantulo tantulum
+92	9792	hebdomadalis	hebdomadalem hebdomadalium
+93	9793	messor	messores messorum
+94	9794	perpoto	perpotas perpotat
+95	9795	barca	barcae barcum
+96	9796	imperiosus	imperiosa imperiosae imperiosas
+97	9797	strategema	strategemate strategematis
+98	9798	adulatio	adulatione adulationem
+99	9799	brasilianus	brasilianae brasilianam
+100	9800	acritas	acritae acritate acritatis

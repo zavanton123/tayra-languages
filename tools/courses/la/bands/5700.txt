@@ -1,0 +1,100 @@
+1	5601	tegumentum	tegmentum tegumenta tegumento
+2	5602	complementum	complementa complemento complementorum
+3	5603	inscius	inscia insciis inscio
+4	5604	scrutor	scrutans scrutantur scrutari scrutatores scrutatur scrutatus
+5	5605	contubernalis	contubernalem contubernales contubernalibus contubernalium
+6	5606	proplasma	proplasmata proplasmate proplasmatibus
+7	5607	chalcis	chalcide chalcidem chalcides chalcidis
+8	5608	cranium	crania cranii cranio
+9	5609	homosexualis	homosexualem homosexuales homosexuali homosexualibus
+10	5610	medianus	mediana medianae medianam mediani medianis
+11	5611	adhibitio	adhibitionem adhibitiones adhibitionibus adhibitionis
+12	5612	tributarius	tributariam tributarii tributarios
+13	5613	allophylus	allophyli allophylis allophylo allophylorum allophylos allophylum
+14	5614	turicensis	turicenses turicensi turicensibus
+15	5615	mitis	mite mites miti mitior
+16	5616	incantatio	incantatione incantationes incantationibus incantationis incantationum
+17	5617	horribilis	horribilem horribili horribilia horribilibus horribiliter
+18	5618	apprehendo	apprehendebat apprehendendum apprehendere apprehenderunt apprehendi apprehendit apprehensus
+19	5619	vacillo	vacillabant vacillabat vacillans vacillant vacillare vacillaverunt vacillavit
+20	5620	triangularis	triangulare triangularem triangularibus triangularium
+21	5621	subregio	subregione subregionem subregiones
+22	5622	homicidium	homicidia homicidii homicidio homicidiorum
+23	5623	contignatio	contignatione contignationes contignationibus contignationis
+24	5624	conexio	conexione conexionem conexiones connexio
+25	5625	fabricator	fabricatorem fabricatores fabricatoris
+26	5626	irrationalis	irrationalem irrationales irrationalia irrationalium
+27	5627	visualis	visualem visuales visuali
+28	5628	suscito	suscitabant suscitandum suscitare suscitatur suscitaverat suscitavit
+29	5629	genealogia	genealogiae genealogiam genealogiarum genealogiis
+30	5630	oppidanus	oppidani oppidano oppidanorum oppidanos oppidanum
+31	5631	slovacus	slovaca slovacam slovace slovaci slovacorum
+32	5632	disportus	disportibus disportu disportuum
+33	5633	urbanitas	urbanitate urbanitatem urbanitatis
+34	5634	letalis	letale letalem letali letalia
+35	5635	iecur	iecore iecori iecoris
+36	5636	intermitto	intermissu intermissum intermissus intermittens intermittere intermittit intermittuntur
+37	5637	quiescens	quiescentes quiescentia quiescentiae quiescentibus quiescentium
+38	5638	iners	inertem inertes inerti inertis
+39	5639	progenitor	progenitorem progenitores progenitoribus progenitoris
+40	5640	aromaticus	aromatica aromaticam aromaticas aromatici aromaticis
+41	5641	illusio	illusionem illusiones illusioni illusionum
+42	5642	aragonensis	aragonensem aragonenses aragonensi aragonensium
+43	5643	exclusivus	exclusivam exclusive exclusivi
+44	5644	crassitudo	crassitudine crassitudinem crassitudinis
+45	5645	septuagesimus	septuagesima septuagesimae septuagesimis septuagesimo septuagesimum
+46	5646	cafea	cafeis cafeum coffea coffeae coffeum
+47	5647	illustratio	illustratione illustrationem illustrationes illustrationibus
+48	5648	salix	salices salici salicis salicum
+49	5649	commentator	commentatore commentatorem commentatores commentatoribus commentatorum
+50	5650	evolo	evolare evolasse evolavit evolet
+51	5651	manduco	manduca manducandi manducantur manducari manducat manducatur
+52	5652	proportionalis	proportionale proportionalem
+53	5653	sobrietas	sobrietate sobrietatem sobrietati sobrietatis
+54	5654	genitalis	genitalem genitales genitali genitalia genitalibus
+55	5655	chirographum	chirographa chirographo chirographorum
+56	5656	nefarius	nefaria nefarie nefarii nefariorum nefarium
+57	5657	deitas	deitatem deitates deitatibus deitatis
+58	5658	conscendo	conscendamus conscendere conscenderent conscenderet conscendisse conscendit
+59	5659	firmitas	firmitate firmitatem firmitatis
+60	5660	civilizatio	civilizatione civilizationem civilizationis civilizationum
+61	5661	tibialis	tibiale tibialia tibialibus tibialium
+62	5662	imaginor	imaginamus imaginantur imaginaretur imaginari imaginaris imaginatur imaginemur
+63	5663	sollers	solers sollertem sollertes sollerti sollertibus sollertium
+64	5664	cora	coras core cores coris
+65	5665	falx	falce falcem falces falcibus falcis falcium
+66	5666	adimo	ademerant ademit ademptus adimere adimit adimunt
+67	5667	pupilla	pupillae pupillam pupillas
+68	5668	seipse	seipsa seipsam seipso seipsum
+69	5669	loculus	loculi loculis loculo loculos
+70	5670	calamus	calami calamo calamos
+71	5671	possessivus	possessiva possessivi possessivis possessivo possessivorum possessivum
+72	5672	ligamen	ligamina ligaminibus ligaminis
+73	5673	nothus	notha nothi nothos nothum
+74	5674	saeta	saetae saetarum saetas saetis seta
+75	5675	ineptus	inepta ineptam inepte ineptum
+76	5676	cyclops	cyclope cyclopem cyclopibus cyclopis cyclopum
+77	5677	elaboratio	elaborationem elaborationes elaborationibus elaborationis
+78	5678	nuptialis	nuptiale nuptialem nuptiales nuptiali
+79	5679	glorior	gloriabantur gloriabatur gloriaretur gloriari gloriatur gloriatus glorietur
+80	5680	affinitas	affinitate affinitatem affinitates affinitatis
+81	5681	babylonicus	babylonica babylonicis babylonico babylonicum
+82	5682	mentior	mentiebatur mentiri mentiris mentitum mentitur mentitus mentiuntur
+83	5683	capitulare	capitulares capitularia capitularibus capitulariorum capitularis
+84	5684	accommodatio	accommodatione accommodationem accommodationes accommodationis
+85	5685	aculeus	aculeis aculeo aculeorum aculeum
+86	5686	syntheticus	synthetica syntheticae syntheticam syntheticarum syntheticis
+87	5687	furiosus	furiosa furiosae furiosas furiosis furioso furiosum
+88	5688	gubernativus	gubernativa gubernativae gubernativis gubernativorum gubernativum
+89	5689	popularitas	popularitate popularitatem popularitatis
+90	5690	homericus	homerica homericarum homericas homerici homericis homerico homericum
+91	5691	immigro	immigrabat immigraverant immigraverat immigraverit immigraverunt immigravit
+92	5692	triens	triente trientem trientibus trientis trientum
+93	5693	cohibeo	cohibebat cohibent cohibentur cohibere cohiberi cohibetur cohibuisse
+94	5694	nordicus	nordica nordicae nordicas nordice nordici nordicis
+95	5695	asianus	asiana asianae asianam asianas asianis asianorum
+96	5696	tholus	tholi tholo tholos tholum
+97	5697	succumbo	succubuerunt succubuit succumbebat succumbendo succumberet succumbit
+98	5698	sobrius	sobria sobriam sobrio sobrios sobrium
+99	5699	deporto	deportabatur deportans deportantur deportatus deportavit deportes
+100	5700	proscribo	proscribendum proscribens proscriberetur proscribuntur proscripsit proscriptum proscriptus

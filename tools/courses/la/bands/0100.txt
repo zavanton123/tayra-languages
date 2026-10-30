@@ -1,0 +1,100 @@
+1	1	sum	eram erant erat erit erunt es esse essent esset est estis esto fore foret fuerant fuerat fuere fuerint fuerit fuerunt fui fuisse fuissent fuisset fuit futurae futuram future futuros futurus sima simo simus sint sis sit sitis sumus sunt
+2	2	in	en
+3	3	et	ed
+4	4	qui	cui cuiarum cuius cujus qua quae quam quarum quas quem quibus quid quis quo quod quoius quorum quos
+5	5	is	ea eae eam earum eas ei eis eius ejus eo eorum eos eum id ii iis
+6	6	annus	anne anni annis anno annorum annos annum
+7	7	ad	
+8	8	hic	hac hae haec han hanc hari harum has hec hi hii his hoc horum hos huic huius hunc
+9	9	cum	com quom
+10	10	de	
+11	11	facio	facere facerent faceret faciant faciat faciebant faciebat faciendae faciendam faciendas faciens facit faciundis faciunt facta factae factam factas facti factis facto factorum factum factus fecerat fecerit fecerunt fecisse fecisset fecit fiant fiat fiebant fiebat fierent fieret fieri fiet fit fiunt
+12	12	non	
+13	13	ut	uti
+14	14	nomen	nomina nomine nomini nominibus nominis nominum nominus
+15	15	res	re rebus rei rem rerum ris
+16	16	etiam	
+17	17	sed	set
+18	18	habeo	habe habeamus habeant habeantur habeat habeatur habebant habebantur habebat habebatur habebit habebunt habemus habenda habendae habendi habendis habendum habens habent habentur habere haberemus haberent haberet haberetur haberi habes habet habetur habitum habuerat habuere habuerint habuerit habuerunt habuisse habuisset habuit
+19	19	possum	posse possem possemus possent posset possim possimus possint possis possit possumus possunt potens poteram poterant poteras poterat poterimus poterint poteris poterit poterunt potes potesse potest potuerant potuerat potuerimus potuerint potueris potuerit potuerunt potui potuimus potuisse potuissent potuisset potuisti potuit
+20	20	suus	sua suae suam suarum suas sue sui suis suo suorum suos suum
+21	21	ex	
+22	22	inter	
+23	23	se	sese sibi sui
+24	24	alius	ali alia aliae aliam aliarum alii aliis aliorum alios aliud alium alterius
+25	25	ab	abs
+26	26	magnus	magna magnae magnam magnarum magnas magnates magnatium magnatum magne magni magnis magno magnopere magnorum magnos magnum maxima maximae maximam maximarum maximas maximi maximis maximo maximorum maximos maximum maximus
+27	27	pars	parte partem partes parti partibus particula partim partis partium
+28	28	omnis	omne omnem omnes omni omnia omniae omniarum omnibus omnium
+29	29	atque	ac adque
+30	30	primus	prae prima primae primam primarum primas primate primates primatibus primatis prime primi primis primo primorum primos prior priora priore priorem priores priori prioribus prioris priorum prius
+31	31	multus	mulcta multa multae multam multarum multas multi multis multorum multos plurima plurimae plurimam plurimarum plurimas plurime plurimi plurimis plurimo plurimorum plurimos plurimus
+32	32	vel	
+33	33	opus	opera operae operam operarum operas opere operi operibus operis operum opunti
+34	34	urbs	urbe urbem urbes urbi urbibus urbis urbium
+35	35	dico	dicam dicamus dicant dicat dicatum dicatur dicatus dicavit dicebant dicebantur dicebat dicebatur dicendi dicendo dicendum dicens dicere dicerent diceret dici dicimus dicit dicitur dicta dictae dictam dicti dictis dicto dictu dictus dicunt dicuntur dixerat dixerit dixerunt diximus dixisse dixit
+36	36	autem	
+37	37	liber	libera liberae liberam liberarum liberas libere liberi liberis liberius libero liberorum liberos liberum libri libris libro librorum libros librum
+38	38	per	
+39	39	lingua	linguae linguam linguarum linguas linguis
+40	40	tempus	tempora tempore tempori temporibus temporis temporum
+41	41	homo	homine hominem homines homini hominibus hominis hominium hominum homullus
+42	42	novus	nova novae novam novarum novas nove novi novior novis novissima novissimae novissimam novissime novissimi novissimis novissimo novissimos novissimum novissimus noviter novius novo novorum novos novum
+43	43	ille	illa illae illam illarum illas illi illis illius illo illorum illos illud illum olle
+44	44	video	vide videamus videant videantur videas videat videatur videbant videbantur videbat videbatur videbit videbitis videbitur videmus videndi videndum videns vident videntur viderat videre viderentur videret videretur videri videris viderit viderunt vides videt videtur vidi vidimus vidisse vidisset vidisti vidit visu
+45	45	ipse	ipsa ipsae ipsam ipsarum ipsas ipsi ipsis ipsius ipso ipsorum ipsos ipsud ipsum ipsus
+46	46	dies	die diebus diei diem dierum
+47	47	duo	duabus duae duarum duas duobus duorum duos duum
+48	48	post	poste
+49	49	saeculum	saeclum saecula saeculi saeculis saeculo saeculorum
+50	50	filius	fili filia filiabus filiae filiam filiarum filias filii filiis filio filiorum filios filium
+51	51	civitas	civitate civitatem civitates civitati civitatibus civitatis civitatium civitatum
+52	52	locus	loca loci locis loco locorum locos locum
+53	53	aut	
+54	54	pro	proh
+55	55	apud	
+56	56	rex	rege regem reges regi regibus regina reginae reginam reginarum reginis regis regum
+57	57	do	da dabant dabantur dabat dabatur dabit danda dandi dandis dando dandus dans dant dantur dare darent daret daretur dari das dat datis datur dederat dedere dederit dederunt dedi dedisse dedissent dedisti dedit dem demus dent des det detur duas
+58	58	appello	appellabant appellabantur appellabaris appellabat appellabatur appellabitis appellabitur appellamus appellandae appellandas appellandum appellans appellant appellantur appellare appellarent appellaret appellaretur appellari appellarunt appellat appellatis appellato appellatum appellatur appellaturus appellatus appellaverunt appellavit appellent appellentur appellere appelletur appellit appellunt appulerat appulisset appulit appulsa
+59	59	iam	jam
+60	60	unus	unae unam unas une uni unis unius uno unum
+61	61	sanctus	sancta sanctae sanctam sanctarum sanctas sancte sancti sanctis sanctissimus sancto sanctorum sanctos sanctum
+62	62	publicus	pubblica publica publicae publicam publicarum publicas publice publici publicis publico publicorum publicos publicum
+63	63	verbum	verba verbi verbis verbo verborum
+64	64	nascor	gnati gnatos nascantur nascatur nascebantur nascebatur nascens nascentur nasceretur nascet nascetur nasci nascit nascitur nascituro nascuntur nata natae natam natas nate nates nati natibus natis nato natorum natos natu natum natus
+65	65	saepe	saepissime saepius sepe
+66	66	vita	vicium vitae vitam vitarum vitas vite vitem vites viti vitia vitibus vitii vitiis vitio vitiorum vitis vitium
+67	67	genus	genera genere generi generibus generis generum
+68	68	tres	tria tribos tribu tribubus tribui tribum tribus tribuum tris trium
+69	69	terra	terrae terram terrarum terras terris
+70	70	quidam	cuidam cuiusdam quadam quaedam quamdam quandam quarumdam quarundam quasdam quedam quemdam quendam quibusdam quiddam quodam quoddam quorundam quosdam
+71	71	deus	dea deabus deae deam dearum dee dei deis deo deorum deos deum di dii diis dis dive
+72	72	bellum	bella belli bellis bello bellorum
+73	73	regio	regione regionem regiones regioni regionibus regionis regionum
+74	74	si	
+75	75	numerus	numere numeri numeris numero numerorum numeros numerum
+76	76	ubi	cubi
+77	77	causa	causae causam causarum causas causis caussa
+78	78	plus	plura plure plurem plures pluri pluria pluribus pluris plurium plurum
+79	79	idem	eadem eaedem eamdem eandem earumdem earundem easdem eidem eisdem eiusdem ejusdem eorumdem eorundem eosdem eumdem eundem hisdem iidem iisdem isdem
+80	80	usque	
+81	81	ecclesia	ecclesiae ecclesiam ecclesiarum ecclesias ecclesie ecclesiis
+82	82	quoque	
+83	83	sive	
+84	84	domus	domi domibus domis domo domorum domos domu domui domum domuum
+85	85	tamen	
+86	86	nonnullus	nonnulla nonnullae nonnullam nonnullarum nonnullas nonnulli nonnullis nonnullorum nonnullos nonnullum
+87	87	varius	vari varia variae variam variarum varias varii variis variorum varios varium
+88	88	ita	
+89	89	littera	litera litterae litteram litterarum litteras litteris
+90	90	hodie	
+91	91	antiquus	anticus antiqua antiquae antiquam antiquarum antiquas antique antiqui antiquior antiquis antiquissimus antiquo antiquorum antiquos antiquum
+92	92	scribo	scribamus scribantur scribat scribatur scribebant scribebantur scribebat scribebatur scribenda scribendae scribendam scribendarum scribendas scribendi scribendis scribendo scribendos scribendus scribens scribere scriberent scriberet scribet scribi scribimus scribit scribitur scribunt scribuntur scripserant scripserat scripserit scripserunt scripsimus scripsisse scripsisset scripsit scripturus scriptus
+93	93	incola	incolae incolarum incolas incolis
+94	94	postea	
+95	95	societas	societate societatem societates societati societatibus societatis societatum
+96	96	invenio	invenerat invenere invenerint inveneris invenerit invenerunt inveni inveniamus inveniantur invenias inveniat inveniatur inveniebant inveniebantur inveniebat inveniebatur inveniemus invenienda inveniendam inveniendas inveniendi inveniendis inveniendum inveniens invenient invenies invenietur invenimus invenire invenirent inveniret inveniri invenisse invenisset invenit invenitur inveniunt inveniuntur inventurus inventus
+97	97	pater	patre patrem patres patri patribus patris patrum pp
+98	98	secundum	
+99	99	usus	usa usae usam usas use usi usibus usis uso usorum usos usu usubus usui usum usuum
+100	100	mortuus	mortua mortuae mortuam mortuarum mortuas mortui mortuis mortuo mortuorum mortuos mortuum

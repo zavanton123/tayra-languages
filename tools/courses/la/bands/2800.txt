@@ -1,0 +1,100 @@
+1	2701	cantio	cantione cantionem cantiones cantionibus cantionis cantionum
+2	2702	revolutio	revolutione revolutionem revolutiones revolutionibus revolutionis
+3	2703	palatinus	palatina palatinae palatinam palatini palatinis palatino palatinum
+4	2704	paradisus	paradise paradisi paradiso paradisum
+5	2705	uter	utra utram utrem utres utri utriculi utriculum utriculus utris utro
+6	2706	constellatio	constellatione constellationem constellationes constellationibus constellationis constellationum
+7	2707	melodia	melodiae melodiam melodiarum melodias melodiis
+8	2708	innocens	innocentem innocentes innocenti innocentia innocentiae innocentiam innocentibus innocentis innocentium
+9	2709	magneticus	magnetica magneticam magneticarum magneticas magnetici magneticis magnetico magneticorum magneticos magneticum
+10	2710	tibia	tibiae tibiam tibiarum tibias tibiis
+11	2711	emissio	emissione emissionem emissiones emissionibus emissionis emissionum
+12	2712	martyr	martyrem martyres martyribus martyris martyrum
+13	2713	appropinquo	appropinquabant appropinquabat appropinquandi appropinquans appropinquant appropinquare appropinquaret appropinquaretur appropinquat appropinquavit
+14	2714	cubanus	cubana cubanae cubanam cubanarum cubani cubanis cubano cubanorum cubanos cubanum
+15	2715	salvo	salva salvabantur salvantur salvare salvaret salvaretur salvari salvasset salvat salvate salvatis salvatum salvatus salvavit salvere salvet
+16	2716	diffusus	diffusa diffusae diffusam diffusarum diffusas diffusi diffusis diffuso diffusum
+17	2717	frequens	frequente frequentem frequentes frequenti frequentibus frequentis frequentissimus
+18	2718	affecto	affecta affectant affectare affectaret affectas affectatur affectatus affectaverunt
+19	2719	advena	advenae advenam advenarum advenas advenis
+20	2720	conscius	conscia consciae conscii consciis conscio consciorum conscios conscium
+21	2721	venia	veniam venias
+22	2722	secreta	secretae secretam secretarum secretis
+23	2723	moderatus	moderata moderatae moderatam moderatarum moderate moderati moderatior moderatis moderatissimus moderatorum moderatos moderatum
+24	2724	aequum	aequa aequi aequis aequorum
+25	2725	liqueo	licuisse licuit liquebat liquent liquerunt liquet liquit
+26	2726	vigeo	vigeant vigebant vigebat vigens vigent vigere vigeret viget viguit
+27	2727	caedo	caedam caedant caede caedendi caedendum caedere caederent caederetur caedi caedis caedit caedunt caeduntur caesus ceciderant ceciderat ceciderunt cecidi cecidisse cecidit
+28	2728	intendo	intendant intendat intendebant intendebantur intendebat intendens intendere intenderet intenderunt intendisse intendit intenditur intendunt intentum
+29	2729	foveo	foveam foveantur foveas foveat fovebant fovebat fovendo fovendum fovens fovent foverat fovere foveri fovet fovisse fovisset fovit
+30	2730	comedo	comedant comedantur comedatur comedebant comedendi comedendum comederat comedere comederent comederunt comedi comedimus comedisse comedisti comedit comeditur comedunt comeduntur comestoris comesu
+31	2731	aerius	aerea aereae aeream aereas aerei aereis aereo aereorum aereos aereum aeria aeriae aeriarum aerias aerii aerio aerium
+32	2732	reservo	reserva reservamus reservandum reservans reservantur reservare reservat reservatis reservatum reservatur reservatus reservaverat reservaverunt reservavit
+33	2733	supervivo	supervivendi supervivendum supervivens supervivent supervivere superviveret supervivit supervivunt supervixerat supervixerint supervixerit supervixerunt supervixisse supervixit
+34	2734	directe	directius
+35	2735	divortium	divortii divortio
+36	2736	orthographia	orthographiae orthographiam orthographias orthographiis
+37	2737	agnomen	agnomina agnomine agnominibus
+38	2738	ucrainus	ucraina ucrainae ucraini ucrainis ucrainorum
+39	2739	etymologia	etymologiae etymologiam etymologiarum etymologias etymologiis
+40	2740	permutatio	permutatione permutationem permutationes permutationi permutationis permutationum
+41	2741	ambiguus	ambigua ambiguam ambiguas ambiguis ambiguo ambiguos ambiguum
+42	2742	berolinensis	berolinense berolinensem berolinenses berolinensi berolinensibus berolinensium
+43	2743	substantivus	substantiva substantivae substantivarum substantivi substantivis substantivo substantivorum substantivum
+44	2744	secta	sectae sectam sectarum sectas sectis
+45	2745	defectio	defectione defectionem defectiones defectionibus defectionis
+46	2746	exspectatio	exspectatione exspectationem exspectationes exspectationibus exspectationis exspectationum
+47	2747	imitatio	imitatione imitationem imitationes imitationi imitationibus imitationis
+48	2748	latifundium	latifundia latifundii latifundiis latifundio latifundiorum
+49	2749	numen	numina numine numini numinibus numinis numinum
+50	2750	parco	parc parcam parcebat parcebatur parcendi parcens parcere parcerent parceret parcetur parcis parsi pepercerunt pepercisset pepercit
+51	2751	eminens	eminente eminentem eminenter eminentes eminentia eminentiae eminentiam eminentibus eminentis
+52	2752	confido	confidamus confidat confidebant confidebat confidemus confidens confident confidere confiderent confideret confidet confidimus confidit confidunt confisus
+53	2753	nimium	
+54	2754	tot	
+55	2755	identidem	
+56	2756	obviam	
+57	2757	pluries	
+58	2758	archidioecesis	archidioecesem archidioecesi
+59	2759	mixtura	mixturae
+60	2760	epigramma	epigrammata epigrammate epigrammatis epigrammatum
+61	2761	parochia	parochiae parochiam parochiarum parochias parochiis paroecia
+62	2762	legalis	legale legalem legales legali legalia legalibus
+63	2763	violentia	violentiae violentiam violentiarum violentias
+64	2764	indoles	indole indolem indoli indolibus indolis
+65	2765	commutatio	commutatione commutationem commutationes commutationis commutationum
+66	2766	amplitudo	amplitudine amplitudinem amplitudines amplitudinibus amplitudinis
+67	2767	initialis	initiale initialem initiales initiali initialia initialibus initialium
+68	2768	pecus	pecora pecore pecoribus pecorum pecude pecudem pecudes pecudibus pecudis pecudum
+69	2769	duodecimus	duodecima duodecimam duodecimi duodecimo duodecimum
+70	2770	capella	capellae capellam capellas capellis
+71	2771	maturus	matura maturae maturi maturior maturis maturum
+72	2772	densus	densa densam densas dense densi densior densis densissime densius densos
+73	2773	fraus	fraude fraudem fraudes fraudibus fraudis
+74	2774	harmonia	harmoniae harmoniam harmoniis
+75	2775	auditor	auditore auditorem auditores auditoribus auditoris auditorum
+76	2776	lacuna	lacunae lacunam lacunas lacunis
+77	2777	imitor	imitabantur imitabatur imitandi imitandum imitans imitantur imitarentur imitaretur imitari imitatur imitatus
+78	2778	praetorium	praetori praetoria praetorii praetorio
+79	2779	potus	pote potior potis potissimus potos potu potui potum
+80	2780	velum	vela veli velis velo velorum
+81	2781	animo	animabat animando animans animantem animantes animantia animantibus animantium animata animatam animatarum animati animatis animato animatorum animatum animavit animent animet
+82	2782	excedo	excedas excedat excedebant excedendum excedens excedere excederent excederet excedet excedit exceditur excedunt excessisse excessisset excessit excesso
+83	2783	contribuo	contribuebat contribuendum contribuens contribuere contribuerunt contribuissent contribuit contributum contribuunt
+84	2784	italus	itala italam italarum italas itali italis italo italorum italos
+85	2785	oppono	opponebant opponebantur opponebat opponebatur opponens opponere opponet opponi opponit opponitur opponunt opponuntur opposuerit opposuerunt opposuit
+86	2786	pediludium	pediludii pediludiorum
+87	2787	vates	vate vatem vati vatibus vatis
+88	2788	introductio	introductione introductionem introductiones introductionibus introductionis
+89	2789	populatio	populatione populationem populationes populationibus populationis populationum
+90	2790	honorarius	honorarii honorariis honorario honorarios honorarium
+91	2791	querela	querelae querelam querelas querelis
+92	2792	adhaereo	adhaereant adhaereat adhaerebant adhaerebat adhaerendo adhaerens adhaerent adhaerere adhaeret adhaesa adhaeserat adhaeserunt adhaesit
+93	2793	paupertas	paupertate paupertatem paupertatis
+94	2794	supellex	supellectile supellectilem supellectiles supellectilibus supellectilis supellectilum suppellex
+95	2795	adumbratio	adumbratione adumbrationem adumbrationes adumbrationibus adumbrationis adumbrationum
+96	2796	gladio	gladiator gladiatore gladiatorem gladiatores gladiatoribus gladiatoris gladiatorum
+97	2797	pinna	pinnae pinnam pinnarum pinnas pinnis
+98	2798	pugnator	pugnatore pugnatorem pugnatores pugnatoribus pugnatoris pugnatorum pugnatrici pugnatrix
+99	2799	caritas	caritate caritatem caritati caritatis charitas
+100	2800	cliens	cliente clientem clientes clientibus clientis clientium

@@ -1,0 +1,100 @@
+1	9801	bacillum	bacilli bacillis bacillus
+2	9802	sondaicus	sondaica sondaicum
+3	9803	aggregatio	aggregatione aggregationes
+4	9804	tribulatio	tribulatione tribulationem tribulationibus
+5	9805	balbutio	balbutiebat balbutiens balbutire
+6	9806	bosnicus	bosnica bosnicae bosnico
+7	9807	sternuo	sternuendo sternuens sternuere
+8	9808	lanterna	lanternae lanternas
+9	9809	sacralis	sacralem sacrales sacralium
+10	9810	compartimentum	compartimenta compartimento
+11	9811	commentariolum	commentariolis commentariolorum
+12	9812	adiutrix	adiutrice adiutricis
+13	9813	praestigiator	praestigiatores praestigiatoris
+14	9814	cantabricus	cantabricae cantabrici cantabrico
+15	9815	hamiltonianus	hamiltonianae hamiltoniani hamiltoniano
+16	9816	amylum	amulum amylo
+17	9817	erogo	erogant erogare erogatur
+18	9818	affingo	affingi affingitur affinxerunt
+19	9819	marcesco	marcescat marcescentis marcescit
+20	9820	commonefacio	commonefacit commonefaciunt commonefecit
+21	9821	blandior	blandiendi blandiens blandiri
+22	9822	devoveo	devovebant devovent devovit
+23	9823	beatifico	beatificandi beatificandum beatificatus
+24	9824	anthus	anthi anthorum
+25	9825	prosodia	prosodiae prosodiam
+26	9826	pugil	pugilem pugilis
+27	9827	consternatio	consternatione consternationem consternationibus
+28	9828	absumo	absumendus absumit absumptus
+29	9829	sidereus	siderea siderei sidereo
+30	9830	fucosus	fucosae fucosis fucoso
+31	9831	controversiosus	controversiosa controversiosarum controversiosi
+32	9832	proton	protones protonis protonum
+33	9833	castigatio	castigationem castigationes castigationis
+34	9834	chlamydatus	chlamydata chlamydatam
+35	9835	praepondero	praeponderabant praeponderans praeponderat
+36	9836	flagitiosus	flagitiosa flagitiosae flagitiosorum
+37	9837	decumanus	decumani decumano
+38	9838	columnar	columnare columnari columnaribus
+39	9839	regenero	regenerabant regenerant regeneravit
+40	9840	constrictivus	constrictivae constrictivas constrictivis
+41	9841	vitula	vidula viella vitulam
+42	9842	onager	onagris onagrum
+43	9843	tabesco	tabescendi tabescere tabescet
+44	9844	ociter	ociorem ocius
+45	9845	raedarius	raedarii raedarium
+46	9846	conclavo	conclava conclaves
+47	9847	distraho	distractum distraheretur distrahunt
+48	9848	rubrico	rubricatur rubricatus
+49	9849	deductivus	deductiva deductivorum deductivos
+50	9850	lingo	lingam lingunt
+51	9851	duumvir	duumviri duumviris duumviros
+52	9852	pinso	pinsendo pinsens pistum
+53	9853	paralyticus	paralytici paralyticum
+54	9854	exinanio	exinanire exinanirent exinanit
+55	9855	vecors	vecordia vecordiam
+56	9856	furibundus	furibunda furibundis
+57	9857	neglegenter	neglegentissime neglegentius
+58	9858	ballo	balla ballandi
+59	9859	vivax	vivace vivacem
+60	9860	guttur	gutturem gutturibus gutturis
+61	9861	coptus	copti coptorum coptos
+62	9862	thraex	thraece thraecem
+63	9863	horrificus	horrifica horrificam horrificas horrifici
+64	9864	perantiquus	perantiqua perantiquae
+65	9865	thus	thure tus
+66	9866	intono	intonat intonatur intonentur
+67	9867	potatio	potationem potationes potationi
+68	9868	adnumero	adnumeratum adnumeratur adnumeravit
+69	9869	autographus	autographa autographi autographos
+70	9870	exigentia	exigentiae exigentiis
+71	9871	latericius	latericiae latericii latericiis
+72	9872	turbidus	turbida turbido turbidum
+73	9873	glarea	glareae glareis
+74	9874	compassio	compassione compassionem
+75	9875	immeritus	immerita immerito
+76	9876	usuarius	usuarii usuario usuarium
+77	9877	obsum	obesse obesset obfuit obsitis
+78	9878	recurrens	recurrentes recurrentibus
+79	9879	acacia	acaciam acacias
+80	9880	deseco	desecare desecarentur desecuisset
+81	9881	nivalis	nivales nivali
+82	9882	sphincter	sphincterem sphincteres sphincteribus
+83	9883	aspecto	aspecta aspectat aspectaverunt
+84	9884	luscus	lusco luscos
+85	9885	observabilis	observabiles observabilia observabilium
+86	9886	inquisitor	inquisitores inquisitorum
+87	9887	infigo	infigitur infigunt
+88	9888	corporatus	corporatam corporatos
+89	9889	iaponus	iaponi iaponos iaponum
+90	9890	reviresco	revirescit revirescunt revirescuntur
+91	9891	carnalis	carnales carnalia carnalium
+92	9892	apologus	apologi apologo
+93	9893	gibber	gibberem gibberes gibberis
+94	9894	consector	consectantur consectatur consectetur
+95	9895	ingressio	ingressionem ingressionis
+96	9896	vagatio	vagationem vagationes
+97	9897	anarchia	anarchiae anarchiam
+98	9898	longaevus	longaeva longaevis
+99	9899	cyathus	cyathi cyathos
+100	9900	magnanimitas	magnanimitate magnanimitatem

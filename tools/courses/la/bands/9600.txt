@@ -1,0 +1,100 @@
+1	9501	sultanatus	sultanatum
+2	9502	malefactor	malefactores malefactorum
+3	9503	occultatio	occultationem
+4	9504	carduelis	carduelem
+5	9505	gaster	gastro
+6	9506	flaccidus	flaccidam
+7	9507	lixa	lixis
+8	9508	perspicax	perspicacissimus
+9	9509	deambulo	deambulando deambulare
+10	9510	myocardium	myocardii myocardio
+11	9511	denuntiatio	denuntiationem denuntiationibus
+12	9512	contaminatio	contaminatione contaminationis
+13	9513	praedatorius	praedatoria praedatorii
+14	9514	conexivus	conexiva conexivam
+15	9515	gravesco	gravescebat gravescunt
+16	9516	silvosus	silvosae silvosas
+17	9517	gradalis	gradalem gradali
+18	9518	coartatio	coartationem
+19	9519	rusticanus	rusticana
+20	9520	reprehensor	reprehensores reprehensoribus
+21	9521	spadix	spadices spadicibus
+22	9522	resulto	resultant resultat
+23	9523	prisma	prismata prismatum
+24	9524	pegma	pegmata pegmatibus
+25	9525	occo	occae
+26	9526	adimpleo	adimplent adimplevit
+27	9527	contemptor	contemptores
+28	9528	transpono	transponantur transpositus
+29	9529	mimicus	mimicis mimicum
+30	9530	theca	thecae
+31	9531	cosmologia	cosmologiae
+32	9532	agora	agorae
+33	9533	anomalos	anomala anomalas
+34	9534	badius	badia
+35	9535	iaculatio	iaculationem iaculationes
+36	9536	cocina	cocinae
+37	9537	erroneus	erroneae erronee
+38	9538	accumulator	accumulatorem
+39	9539	numerabilis	numerabiles
+40	9540	matara	materis
+41	9541	bipes	bipedibus
+42	9542	trichila	trichilarum
+43	9543	innominatus	innominata innominato
+44	9544	interludo	interludes interludis
+45	9545	castellarius	castellarii castellariis
+46	9546	synodicon	synodica synodici
+47	9547	enthusiasmus	enthusiasmum
+48	9548	diaphragma	diaphragmate
+49	9549	murrum	murrha myrrha
+50	9550	antepaenultimus	antepaenultima antepaenultimo
+51	9551	sarcasmus	sarcasmi sarcasmos
+52	9552	nequitia	nequitiae
+53	9553	inornatus	inornata inornatam
+54	9554	amygdalinus	amygdalini amygdalinum
+55	9555	aestivo	aestivare
+56	9556	hebdomadarius	hebdomadarii hebdomadarium
+57	9557	ipsemet	ipsimet
+58	9558	domitor	domitrix
+59	9559	patronatus	patronatu
+60	9560	lutra	lutrae
+61	9561	tumulosus	tumulosa tumulosae
+62	9562	lira	liram liris
+63	9563	accessibilitas	accessibilitatem
+64	9564	statera	staterae
+65	9565	defugo	defugarum defugere
+66	9566	concitatio	concitatione
+67	9567	scythicus	scythica scythici
+68	9568	vitellus	vitelli vitellum
+69	9569	castitas	castitatem castitatis
+70	9570	pauxillus	pauxillis pauxillum
+71	9571	summitto	summisit summittant
+72	9572	corylus	corylo corylos
+73	9573	aditialis	aditiali aditialium
+74	9574	silesicus	silesica silesicam
+75	9575	concussio	concussionis
+76	9576	depravatio	depravationem
+77	9577	quaestionarius	quaestionariis quaestionariorum
+78	9578	suspirium	suspiriis suspiriorum
+79	9579	septingentesimus	septingentesimo septingentesimum
+80	9580	chilopodus	chilopoda chilopodum
+81	9581	thymbra	thymbram
+82	9582	cuculus	cuculum
+83	9583	plectrum	plectris plectro
+84	9584	palpitatio	palpitatione palpitationes
+85	9585	hydrargyrus	hydrargyri hydrargyro
+86	9586	hemisphaericus	hemisphaerica hemisphaericam
+87	9587	emanatio	emanationibus
+88	9588	aspiro	aspirans aspirare
+89	9589	incapax	incapacem
+90	9590	subdivido	subdividuntur subdivisi
+91	9591	hiberno	hibernant hibernare
+92	9592	necopinans	necopinantem necopinantes
+93	9593	exspiratio	exspiratione
+94	9594	anatolicus	anatolica anatolicae
+95	9595	ribes	ribe
+96	9596	pyra	pyrarum
+97	9597	maledico	maledicens maledicunt
+98	9598	crapula	crapulam
+99	9599	sortitio	sortitionem
+100	9600	vaticinatio	vaticinationibus
