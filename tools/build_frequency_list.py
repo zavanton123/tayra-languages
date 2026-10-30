@@ -1437,6 +1437,11 @@ ICELANDIC_LITTLE = {"prep", "adv", "conj", "intj", "particle"}
 # ("ūađ" for "það", "fķlk" for "fólk"): over a quarter of its words.
 ICELANDIC_MOJIBAKE = str.maketrans("đūķũĐŪĶŨ", "ðþóýÐÞÓÝ")
 
+# Latin: the pack's verbs (not the participles it gives entries of their own, dictus, natus). A verb spelled as a commoner
+# word's form (ludo, the dative of ludus; eo, is's; libero, numero, regno, loco; visito, viso's imperative) gives that word
+# its spelling, but its own forms (ludit, ire, liberavit, numeratur, visitavit) stay its: they are no forms of the other.
+LATIN_VERBS = set()
+
 
 def icelandic_bin():
     """
@@ -1733,6 +1738,10 @@ def leipzig_counts(language, limit):
         if path is None:
             continue
         used.append(corpus)
+        if language in LEIPZIG_DEDUPED:
+            for word, n in leipzig_deduped_counts(language, path).items():
+                counts[word] = counts.get(word, 0) + n
+            continue
         with tarfile.open(path) as tar:
             member = next(m for m in tar.getmembers() if m.name.endswith("-words.txt"))
             for line in io.TextIOWrapper(tar.extractfile(member), encoding="utf-8"):
@@ -1744,6 +1753,38 @@ def leipzig_counts(language, limit):
         return None
     top = sorted(counts.items(), key=lambda kv: -kv[1])[:limit]
     return dict(top), f"Leipzig Corpora Collection {', '.join(used)}"
+
+
+# Corpora counted from their sentences once each, numbers and names aside: Latin Wikipedia's has its asteroid pages' "Qua
+# epocha N per dies circa solem movebatur" 5,686 times, which put epocha, sol and moveo in the first twenty, its towns'
+# "Incolae X appellantur" over 3,000 times (incola) and its footballers' "X inter alia cum turma X lusit" 300 (turma).
+LEIPZIG_DEDUPED = {"la"}
+LEIPZIG_NAME = re.compile(r"[^\W\d_]+")
+
+
+def leipzig_deduped_counts(language, path):
+    """A Leipzig corpus's word counts over its sentences that differ in more than their digits and capitalised words (the
+    first of each), as the corpus cuts them into words (its -inv_w.txt places each of its words in its sentences)."""
+    with tarfile.open(path) as tar:
+        members = {m.name.rsplit("-", 1)[-1]: m for m in tar.getmembers() if m.isfile()}
+        seen, kept = set(), set()
+        for line in io.TextIOWrapper(tar.extractfile(members["sentences.txt"]), encoding="utf-8"):
+            number, _, sentence = line.rstrip("\n").partition("\t")
+            key = re.sub(r"\d", "0", LEIPZIG_NAME.sub(lambda m: m.group() if m.group().islower() else "X", sentence))
+            if key not in seen:
+                seen.add(key)
+                kept.add(int(number))
+        words = {}
+        for line in io.TextIOWrapper(tar.extractfile(members["words.txt"]), encoding="utf-8"):
+            parts = line.rstrip("\n").split("\t")
+            if len(parts) >= 3 and parts[2].isdigit():
+                words[int(parts[0])] = lower(language, parts[1])
+        counts = defaultdict(int)
+        for line in io.TextIOWrapper(tar.extractfile(members["inv_w.txt"]), encoding="utf-8"):
+            word_id, sentence_id, _ = line.split("\t")
+            if int(sentence_id) in kept and int(word_id) in words:
+                counts[words[int(word_id)]] += 1
+    return counts
 
 
 # Wikipedia markup that is not running text: templates, tables, references, files and comments.
@@ -1883,6 +1924,8 @@ def load_dictionary(language):
                 MACEDONIAN_KINDS[word_lc].add(p)
         if language == "lt":
             word, word_lc = lithuanian_unaccented(word), lithuanian_unaccented(word_lc)
+        if language == "la" and p == "verb" and any("participle" not in s.get("tags", []) for s in json.loads(senses)):
+            LATIN_VERBS.add(word_lc)
         pos[word_lc].add(p)
         if p not in WORD_POS and not (language == "ko" and p == "counter"):
             continue
@@ -3089,6 +3132,10 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 # mostly tulema's).
                 if language in FINNIC_OWN_SENSES and FINNISH_KINDS.get(word) and (word not in overrides or language == "et") and {
                         l for l in lemmas.get(form, ()) if is_word(l)} == {word}:
+                    onward = None
+                # A Latin verb keeps its forms though its spelling goes, by rule or by hand, to another word (LATIN_VERBS):
+                # ire is eo's, not is's; visitavit visito's and considerabat considero's, not viso's and consido's.
+                if language == "la" and word in LATIN_VERBS:
                     onward = None
                 # An Arabic word spelled as another's verb form keeps its own forms (يتكون of تكون, not of كان), and a verb
                 # spelled as another word keeps its own (لن of لان "to soften", not of لأن); but not one sent to its word by

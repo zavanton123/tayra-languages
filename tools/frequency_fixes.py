@@ -1958,3 +1958,30 @@ DISPLAY["is"] = {**DISPLAY.get("is", {}), "sumur": "sumir"}
 # Old Norse and misread spellings in the subtitles, and names.
 EXCLUDE["is"] = EXCLUDE.get("is", set()) | {"þat", "hon", "mik", "þit", "ér", "pú", "þeira", "jón", "jóns", "jóni", "jóna",
                                              "ben", "gunnar"}
+
+# Latin. A verb in -o spelled as a commoner noun's or adjective's dative or ablative keeps that spelling, as texts seldom
+# write the noun's nominative (novo, mundo, decimo, proximo, pretio, gladio, odio, oculo, veneno, autumno, alieno, divino),
+# and decimus's forms followed it; and the pack has some forms as rare words of their own (longa "a long note", vocales
+# "singers", folia "a leaf", vici "wiki", proxima "wife", invenit "engraved by", iacet, agitur), or as the commoner word's
+# where texts mean another (arte, solis, sola; commune of communis). venit, apparet and decrevit, spelled as venio's and
+# veneo's, appareo's and apparo's, decerno's and decresco's, are the commoner verb's; suum is suus's, not sus's.
+OVERRIDES["la"].update({
+    **{f: ["decimus"] for f in ("decimo", "decima", "decimus", "decimi", "decimae", "decimam", "decimum", "decimis", "decimos",
+                                "decimas", "decimarum", "decimorum")},
+    "novo": ["novus"], "mundo": ["mundus"], "proximo": ["proximus"], "proxima": ["proximus"], "pretio": ["pretium"],
+    "gladio": ["gladius"], "odio": ["odium"], "oculo": ["oculus"], "veneno": ["venenum"], "autumno": ["autumnus"],
+    "alieno": ["alienus"], "divino": ["divinus"],
+    "longa": ["longus"], "vocales": ["vocalis"], "vocalis": ["vocalis"], "folia": ["folium"], "vici": ["vicus", "vinco"],
+    "invenit": ["invenio"], "iacet": ["iaceo"], "agitur": ["ago"],
+    "arte": ["ars"], "artus": ["artus"], "solis": ["sol", "solus"], "soli": ["solus", "sol"], "sola": ["solus"],
+    "solorum": ["solus"], "commune": ["communis"], "communis": ["communis"], "suum": ["suus"],
+    **{f: ["venio"] for f in ("venit", "venire", "venisse", "veni", "venirent", "venisset", "veniret", "venite", "veniens",
+                              "venimus", "venissent", "venissemus")},
+    "apparet": ["appareo"], "apparent": ["appareo"],
+    **{f: ["decerno"] for f in ("decrevit", "decreverat", "decreverunt", "decrevisset", "decrevisse", "decrevi",
+                                "decrevissent", "decreverant")},
+})
+# English "for" in titles (Latin for "to speak" is rare), and names: Germania and Aeneas, which the pack files under
+# germanium and aeneus, and the praenomina Lucius and Gaius, as Marcus and Paulus.
+EXCLUDE["la"] = EXCLUDE.get("la", set()) | {"for", "germania", "aeneas", "lucius", "lucium", "lucii", "lucio", "gaius", "gaio",
+                                             "gaium", "gaii", "caius"}
