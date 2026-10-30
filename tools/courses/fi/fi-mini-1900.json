@@ -1,0 +1,202 @@
+{
+  "id": "fi-mini-1900",
+  "rankUpTo": 1900,
+  "level": "B1",
+  "title": "Kirjeitä, viestejä ja mediaa",
+  "description": "Ten short stories about a note to the neighbours, e-mails, a letter from a cottage, a new phone, radio, a newsletter and a school paper.",
+  "topic": "Letters, messages and media",
+  "names": [
+    "Sanelma",
+    "Kuopio",
+    "Ahto",
+    "Maiju",
+    "Jyväskylä",
+    "Elna",
+    "Miska",
+    "Tampere",
+    "Aira",
+    "Oulu",
+    "Rovaniemi",
+    "Kiia",
+    "Impi",
+    "Porvoo",
+    "Allan",
+    "Ruut",
+    "Saimaa",
+    "Iita",
+    "Bruno",
+    "Matleena",
+    "Verneri",
+    "Turku",
+    "Hilppa",
+    "Kajaani",
+    "Pomppu",
+    "Ruuni",
+    "Mörri",
+    "Markus",
+    "Kerttuli",
+    "Vaasa",
+    "Alli",
+    "Lappeenranta",
+    "Mikael",
+    "Sylvia",
+    "Hämeenlinna"
+  ],
+  "lessons": [
+    {
+      "title": "Viesti naapureille",
+      "summary": "Sanelma needs to drill in her bathroom, writes a note to her neighbours by hand, and moves the drilling to a day that suits the neighbour who works nights.",
+      "newWords": [
+        "maalata",
+        "vessa",
+        "pora",
+        "käsin",
+        "torstaina",
+        "iltapäivä",
+        "yöllä",
+        "korva",
+        "rauhallinen"
+      ],
+      "text": "Sanelma muutti keväällä vanhaan kerrostaloon Kuopiossa. Asunnossa on kaksi huonetta, keittiö ja pieni vessa. Seinät olivat harmaat, joten Sanelma päätti maalata ne. Hän maalasi ensin keittiön ja sitten molemmat huoneet valkoisiksi. Kahden viikon päästä kaikki seinät oli maalattu.\n\nVessassa on vielä työtä. Sanelma haluaa vessan seinälle peilin ja hyllyn. Seinä on kova, joten siihen tarvitaan pora. Sanelmalla ei ole omaa poraa, mutta hänen isänsä lupaa tuoda poransa torstaina.\n\nSanelma tietää, että poran ääni kuuluu koko taloon. Hän haluaa olla hyvä naapuri, joten hän kirjoittaa naapureille viestin. Hänellä ei ole naapureiden puhelinnumeroita, joten hän kirjoittaa viestin käsin isolle paperille ja vie sen talon oven viereen. Viestissä lukee:\n\n”Hei, naapurit! Olen Sanelma asunnosta 6. Poraan vessassa torstaina iltapäivällä kello 14–15. Ääni on kova, mutta työ kestää vain tunnin. Jos aika ei sovi teille, kirjoittakaa tähän. Kiitos!”\n\nSeuraavana aamuna paperissa on toinen viesti. Joku on kirjoittanut sen käsin Sanelman viestin alle:\n\n”Hei, Sanelma! Kiitos, että kerroit. Teen töitä sairaalassa yöllä. Torstaina nukun koko iltapäivän, koska olen ollut töissä koko yön. Sopisiko perjantai? Ahto, asunto 3.”\n\nLuettuaan viestin Sanelma ymmärtää, että naapurin asunto on suoraan hänen asuntonsa alla. Hän kirjoittaa vastauksen: ”Hei, Ahto! Perjantai sopii hyvin. Poraan perjantaina iltapäivällä, kun olet hereillä. Sanelma.”\n\nHän soittaa isälleen ja kertoo, että pora tarvitaan vasta perjantaina. Perjantaina isä tuo poran, ja he tekevät työn yhdessä. Poran ääni on niin kova, että Sanelman korvissa soi vielä illalla.\n\nIllalla joku koputtaa oveen. Siellä on naapuri Ahto, ja hänellä on kädessään pussi pullaa.\n\n”Halusin kiittää viestistä”, Ahto sanoo. ”Tämä talo on rauhallinen, koska täällä kerrotaan asioista etukäteen. Minun korvani ovat herkät, ja kun olen ollut töissä yöllä, tarvitsen unta.”\n\n”Hyvä, että perjantai sopi”, Sanelma sanoo. ”Nyt peili ja hylly ovat seinällä.”\n\nAhto katsoo maalattuja seiniä. ”Valkoinen on kaunis väri”, hän sanoo. ”Asuntosi näyttää rauhalliselta.”\n\nKysymykset:\nMitä Sanelma teki asunnon seinille?\nHän maalasi ne valkoisiksi.\nMiksi Sanelma tarvitsee poran?\nHän tarvitsee sen, koska hän haluaa vessaan peilin ja hyllyn.\nMiten Sanelma kirjoittaa viestin naapureille?\nHän kirjoittaa sen käsin isolle paperille.\nMiksi naapuri ei halua, että Sanelma poraa torstaina?\nTorstaina hän nukkuu koko iltapäivän, koska hän tekee töitä yöllä.\nMilloin Sanelma ja hänen isänsä poraavat?\nHe poraavat perjantaina iltapäivällä."
+    },
+    {
+      "title": "Sähköposti opettajalle",
+      "summary": "Maiju cannot tell how to read one sentence in her teacher's e-mail, asks around, writes to the teacher and then prepares calmly for her talk.",
+      "newWords": [
+        "opintopiste",
+        "jännittää",
+        "puoliväli",
+        "sähköposti",
+        "lause",
+        "tulkita",
+        "kysellä",
+        "valmistautua",
+        "harjoitella"
+      ],
+      "text": "Maiju opiskelee Jyväskylän yliopistossa. Tänä syksynä hänellä on kurssi, jossa opiskelijat harjoittelevat puhumista muiden ihmisten edessä. Kurssista saa 5 opintopistettä. Maiju tarvitsee ne opintopisteet, koska hän haluaa valmistua keväällä.\n\nKurssin lopussa jokainen opiskelija pitää 10 minuutin esityksen. Maijua jännittää jo nyt. Hän ei pidä siitä, että moni ihminen katsoo häntä samaan aikaan.\n\nSyksyn puolivälissä Maiju saa opettajalta sähköpostin. Sähköpostissa on vain kolme lausetta: ”Hei kaikki! Esitykset pidetään kurssin viimeisellä viikolla. Valmistautukaa hyvin ja tuokaa esitys mukananne.”\n\nMaiju lukee sähköpostin monta kertaa. Ensimmäinen ja toinen lause ovat selviä. Mutta mitä viimeinen lause tarkoittaa? Pitääkö esitys tuoda paperilla vai tietokoneella? Maiju ei tiedä, miten lause pitäisi tulkita.\n\nHän alkaa kysellä muilta opiskelijoilta. Yksi sanoo, että esitys tuodaan paperilla. Toinen tulkitsee lauseen niin, että esitys tuodaan tietokoneella. Kolmas sanoo, ettei hän ole lukenut koko sähköpostia. Kun Maiju on kysellyt koko päivän, hän päättää kirjoittaa opettajalle itse.\n\nHän kirjoittaa lyhyen sähköpostin: ”Hei, Elna! Kiitos viestistä. En ole varma, miten viimeinen lause pitäisi tulkita. Tuodaanko esitys paperilla vai tietokoneella? Terveisin Maiju.”\n\nOpettaja vastaa jo samana iltana: ”Hei, Maiju! Hyvä, että kysyit. Esityksen voi tuoda tietokoneella. Paperia ei tarvita. Lähetän tiedon kaikille.” Seuraavana päivänä kaikki opiskelijat saavat uuden sähköpostin, jossa lause on kirjoitettu selvemmin.\n\nNyt Maiju voi valmistautua rauhassa. Hän harjoittelee esitystä joka ilta. Ensin hän harjoittelee yksin, sitten ystävänsä edessä. Esityksen puolivälissä hän pitää aina pienen tauon ja juo vettä. Viimeisellä viikolla häntä jännittää vähemmän kuin syksyn alussa, koska hän on valmistautunut hyvin.\n\nEsitys menee hyvin. Opettaja sanoo, että Maiju puhui selvästi ja rauhallisesti. Viikon päästä Maiju saa kurssista 5 opintopistettä.\n\nKysymykset:\nKuinka monta opintopistettä kurssista saa?\nKurssista saa 5 opintopistettä.\nMilloin Maiju saa opettajan sähköpostin?\nHän saa sen syksyn puolivälissä.\nMiksi Maiju alkaa kysellä muilta opiskelijoilta?\nHän ei tiedä, miten viimeinen lause pitäisi tulkita.\nMitä opettaja vastaa?\nHän vastaa, että esityksen voi tuoda tietokoneella.\nMiksi Maijua jännittää vähemmän viimeisellä viikolla?\nHäntä jännittää vähemmän, koska hän on valmistautunut hyvin."
+    },
+    {
+      "title": "Bändi studiossa",
+      "summary": "Radio host Miska and producer Aira bring a young band into the studio before its first big concert, and the fans send hundreds of messages.",
+      "newWords": [
+        "studio",
+        "tuottaja",
+        "fani",
+        "konsertti",
+        "hurja",
+        "into",
+        "voimakkaasti"
+      ],
+      "text": "Miska tekee ohjelmaa radioon Tampereella. Joka viikko hän haastattelee studiossa yhden bändin. Ohjelman tuottaja on Aira. Tuottaja päättää, ketkä ohjelmaan tulevat, ja huolehtii siitä, että studiossa kaikki on valmiina.\n\nTällä viikolla studioon tulee nuori bändi Oulusta. Bändi on soittanut vasta kaksi vuotta, mutta sillä on jo paljon faneja. Lauantaina bändi soittaa ensimmäisen ison konserttinsa Tampereella, ja kaikki liput konserttiin on jo myyty.\n\nAamulla Aira lukee Miskalle viestejä, joita fanit ovat lähettäneet radioon. ”Kuuntele tätä”, tuottaja sanoo. ”Yksi fani kirjoittaa, että hän tulee konserttiin Rovaniemeltä asti. Toinen fani kysyy, soittaako bändi lauantaina uuden kappaleen.”\n\n”Hurjaa”, Miska sanoo. ”Fanien into on hurja.”\n\nKello 11 bändi tulee studioon. Laulaja Kiia puhuu nopeasti ja voimakkaasti, ja Miska huomaa heti, että hänellä on suuri into musiikkiin.\n\n”Miltä tuntuu soittaa niin isossa konsertissa?” Miska kysyy.\n\n”Hurjalta”, Kiia vastaa. ”Ensimmäiseen konserttiimme tuli 15 ihmistä. Lauantaina konserttiin tulee 2000 ihmistä.”\n\n”Mistä fanit ovat löytäneet teidät?”\n\n”Netistä”, Kiia sanoo. ”Laitoimme yhden kappaleen nettiin viime keväänä. Fanien määrä kasvoi kesällä voimakkaasti, ja nyt meitä pyydetään soittamaan joka puolelle Suomea.”\n\nLopuksi bändi soittaa studiossa uuden kappaleensa. Kiia laulaa voimakkaasti, ja Aira nostaa ikkunan takana molemmat kädet ylös.\n\nOhjelman jälkeen tuottaja tulee studioon. ”Tuo oli hyvä ohjelma”, Aira sanoo. ”Fanit lähettivät meille 300 viestiä. Moni heistä kirjoitti odottavansa konserttia innolla.”\n\n”Niin minäkin”, Miska sanoo. ”Taidan mennä lauantaina konserttiin itsekin.”\n\nKysymykset:\nMitä Aira tekee radiossa?\nHän on ohjelman tuottaja.\nKuka tulee tällä viikolla studioon?\nStudioon tulee nuori bändi Oulusta.\nMistä yksi fani tulee konserttiin?\nHän tulee konserttiin Rovaniemeltä asti.\nMiten fanien määrä muuttui kesällä?\nFanien määrä kasvoi kesällä voimakkaasti.\nKuinka monta viestiä fanit lähettivät ohjelman aikana?\nFanit lähettivät 300 viestiä."
+    },
+    {
+      "title": "Impin uusi kännykkä",
+      "summary": "Impi's old phone has a weak battery, so her grandson Allan helps her choose a new one, move her photos onto it and share her location.",
+      "newWords": [
+        "kännykkä",
+        "akku",
+        "paljonko",
+        "sormi",
+        "sentti",
+        "varustettu",
+        "valmistaja",
+        "taata",
+        "siirto",
+        "sijainti"
+      ],
+      "text": "Impi on 78-vuotias ja asuu yksin Porvoossa. Hänen kännykkänsä on 10 vuotta vanha. Sen akku kestää enää vain puoli päivää, ja kännykän näyttö on pieni. Impin tyttären poika Allan lupaa auttaa häntä uuden kännykän ostamisessa.\n\nLauantaina he menevät kauppaan. Myyjä näyttää heille kolme kännykkää.\n\n”Paljonko tämä maksaa?” Impi kysyy ja osoittaa sormellaan isointa kännykkää.\n\n”Se maksaa 400 euroa”, myyjä vastaa. ”Sen näyttö on melkein 17 senttiä pitkä.”\n\n”Minun vanhan kännykkäni näyttö on vain 5 senttiä”, Impi sanoo. ”Entä paljonko tuo toinen maksaa?”\n\n”Se maksaa 200 euroa”, myyjä sanoo. ”Se on varustettu hyvällä kameralla ja isolla akulla. Valmistaja on taannut, että akku kestää 2 päivää.”\n\n”Mitä tarkoittaa, että se on taattu?” Impi kysyy.\n\n”Jos kännykkä menee 2 vuoden aikana rikki, valmistaja korjaa sen”, myyjä vastaa. ”Kännykän saa myös auki sormella. Salasanaa ei tarvitse muistaa.”\n\nImpi laittaa sormensa näytölle. Kännykkä toimii heti. Hän ostaa sen.\n\nKotona Allan aloittaa siirron. Hän siirtää Impin vanhasta kännykästä uuteen kaikki valokuvat ja puhelinnumerot. Siirto kestää puoli tuntia. Sillä aikaa Impi keittää kahvia.\n\n”Siirto on valmis”, Allan sanoo. ”Vielä yksi asia. Haluatko jakaa sijaintisi minun ja äidin kanssa? Silloin näemme kännykästä, missä olet, jos tarvitset apua.”\n\n”Hyvä ajatus”, Impi sanoo. ”Kävelen joka päivä pitkän lenkin. Jos jotain tapahtuu, te näette sijaintini.”\n\nAllan näyttää, miten sijainti jaetaan. Sitten Impi kirjoittaa sormellaan ensimmäisen viestin tyttärelleen: ”Minulla on uusi kännykkä!”\n\nKysymykset:\nMiksi Impi tarvitsee uuden kännykän?\nVanhan kännykän akku kestää vain puoli päivää, ja sen näyttö on pieni.\nPaljonko kännykkä maksaa, jonka Impi ostaa?\nSe maksaa 200 euroa.\nMillä kännykkä on varustettu?\nSe on varustettu hyvällä kameralla ja isolla akulla.\nMitä valmistaja on taannut?\nValmistaja on taannut, että akku kestää 2 päivää.\nMitä Allan siirtää uuteen kännykkään?\nHän siirtää kaikki valokuvat ja puhelinnumerot.\nMiksi Impi jakaa sijaintinsa?\nHän jakaa sen, jotta perhe näkee, missä hän on, jos hän tarvitsee apua."
+    },
+    {
+      "title": "Kirje mökiltä",
+      "summary": "Iita writes a real letter to her friend Ruut from a lake cottage with no internet: yellow flowers, a bear far away at the forest's edge, and fried fish.",
+      "newWords": [
+        "mökki",
+        "paistaa",
+        "kasvi",
+        "keltainen",
+        "lasi",
+        "karhu",
+        "nälkä",
+        "turva",
+        "tasainen"
+      ],
+      "text": "Hei, Ruut!\n\nKirjoitan sinulle mökiltä Saimaan rannalta. Täällä ei ole nettiä, joten kirjoitan oikean kirjeen. Vien sen huomenna kylän kauppaan, josta posti lähtee.\n\nOlen ollut mökillä jo viikon. Aurinko paistaa joka päivä, ja järvi on lämmin. Aamulla järven vesi on tasainen kuin lasi. Käyn silloin järvessä ja juon sitten kahvia mökin edessä.\n\nMökin takana kasvaa paljon erilaisia kasveja. Toin kaupungista kirjan, jossa on kuvia Suomen kasveista, ja nyt opettelen niiden nimiä. Eniten täällä on keltaisia kukkia. Pidän keltaisesta väristä eniten, joten olen tyytyväinen. Otin kukkia ja laitoin ne lasiin keittiön pöydälle. Lasissa on myös yksi pieni vihreä kasvi, jota en vielä tunne.\n\nEilen näin karhun. Istuin illalla rannalla, kun metsästä tuli karhu. Se oli kaukana, ehkä 300 metrin päässä. Karhu söi jotain maasta, ehkä marjoja. Menin heti mökkiin ja katsoin sitä ikkunan lasin läpi. Karhu ei katsonut minuun päin. Se söi rauhassa ja käveli sitten takaisin metsään.\n\nNaapuri kertoi tänään, että karhulla oli varmaan nälkä, koska metsässä on nyt paljon marjoja. Hänen mukaansa karhut eivät tule ihmisten luo, ja mökissä olen turvassa. Siitä huolimatta pidän illalla oven kiinni.\n\nNaapuri antoi minulle kaksi kalaa, ja paistoin ne pannulla. Minulla oli kova nälkä, koska olin ollut järvessä koko iltapäivän. Paistettu kala oli hyvää.\n\nMökin piha on tasainen, ja siellä on hyvä pelata pallolla. Tule ensi viikolla käymään! Tie on pieni, joten aja hitaasti. Täällä olet turvassa kaupungin kiireeltä, ja aurinko paistaa varmasti silloinkin.\n\nIita\n\nKysymykset:\nMiksi Iita kirjoittaa oikean kirjeen?\nHän kirjoittaa kirjeen, koska mökillä ei ole nettiä.\nMitä Iita laittoi lasiin?\nHän laittoi lasiin keltaisia kukkia.\nMissä karhu oli?\nKarhu oli metsän vieressä, ehkä 300 metrin päässä.\nMiksi karhulla oli naapurin mukaan nälkä?\nMetsässä on nyt paljon marjoja.\nMitä Iita teki naapurin kaloille?\nHän paistoi ne pannulla."
+    },
+    {
+      "title": "Uusi työpaikka",
+      "summary": "Cook Bruno has been out of work for months; a news item and a job advert lead him to a new hotel restaurant, where he meets the boss and the staff.",
+      "newWords": [
+        "työttömyys",
+        "vähetä",
+        "sektori",
+        "sijoittua",
+        "haku",
+        "liittyen",
+        "pomo",
+        "henkilökunta"
+      ],
+      "text": "Bruno tekee ruokaa ravintoloissa. Hän asuu Oulussa ja on ollut työttömänä 5 kuukautta. Ravintola, jossa hän oli töissä 8 vuotta, suljettiin keväällä.\n\nEräänä aamuna Bruno lukee lehdestä uutisen työttömyydestä. Uutisen mukaan työttömyys väheni Oulussa kesällä. Eniten työttömyys väheni yksityisellä sektorilla, varsinkin ravintoloissa ja hotelleissa. Julkisella sektorilla se väheni vähemmän.\n\n”Ehkä minäkin saan pian töitä”, Bruno ajattelee.\n\nSamana päivänä hän löytää netistä ilmoituksen. Uusi hotelli etsii ravintolansa keittiöön uutta työntekijää. Hotelli sijoittuu kaupungin keskustaan, meren rannalle. Haku on auki perjantaihin asti.\n\nBruno lukee ilmoituksen tarkasti. Hänellä on kysymys liittyen siihen, milloin töitä tehdään, koska hänellä on pieni tytär. Hän kirjoittaa hotelliin sähköpostin: ”Hei! Olen kiinnostunut työpaikasta. Minulla on kysymys liittyen työhön: tehdäänkö ravintolassa töitä myös yöllä?”\n\nVastaus tulee seuraavana päivänä: ”Ravintola on auki kello 22:een asti. Yöllä ei tehdä töitä. Lähetä meille tietoja itsestäsi, ennen kuin haku päättyy. Terveisin Matleena, ravintolan pomo.”\n\nBruno lähettää tiedot itsestään torstaina. Haku päättyy perjantaina, ja seuraavalla viikolla Matleena kutsuu hänet haastatteluun.\n\nHaastattelussa uusi pomo kertoo, että paikkaa haki 40 ihmistä. ”Valitsin heistä 5 haastatteluun”, Matleena sanoo. ”Sinulla on pitkä kokemus, ja se on meille tärkeää.”\n\nSitten pomo näyttää Brunolle keittiön ja esittelee henkilökunnan. Henkilökuntaan kuuluu 12 ihmistä. ”Meidän henkilökuntamme syö aina yhdessä, ennen kuin ravintola avataan”, Matleena kertoo.\n\n”Ravintola on uusi, mutta se sijoittui jo ensimmäisenä vuonna kaupungin parhaiden ravintoloiden listalla kolmanneksi”, Matleena sanoo vielä. ”Haluamme, että seuraavana vuonna sijoitumme ensimmäiseksi.”\n\nKaksi päivää myöhemmin Matleena soittaa ja kertoo, että Bruno saa paikan. Bruno on iloinen. Hänen aikansa työttömänä on ohi.\n\nKysymykset:\nKuinka kauan Bruno on ollut työttömänä?\nHän on ollut työttömänä 5 kuukautta.\nMillä sektorilla työttömyys väheni eniten?\nSe väheni eniten yksityisellä sektorilla.\nMihin hotelli sijoittuu?\nSe sijoittuu kaupungin keskustaan, meren rannalle.\nMihin liittyen Brunolla on kysymys?\nHänellä on kysymys liittyen työhön illalla ja yöllä.\nKuinka monta ihmistä henkilökuntaan kuuluu?\nHenkilökuntaan kuuluu 12 ihmistä."
+    },
+    {
+      "title": "Mummon satu",
+      "summary": "Grandmother Hilppa tells her grandson Verneri, whose new tooth hurts, a fairy tale on the phone about forest animals who help a bear with a sore tooth.",
+      "newWords": [
+        "hammas",
+        "kipu",
+        "satu",
+        "nimetä",
+        "kuvailla",
+        "piirre",
+        "kukin",
+        "komea",
+        "hassu"
+      ],
+      "text": "Verneri on 6-vuotias ja asuu Turussa. Hänen mummonsa Hilppa asuu Kajaanissa, kaukana Turusta. Joka ilta mummo kertoo Vernerille sadun puhelimessa. Verneri katsoo mummoa kännykän näytöltä ja kuuntelee.\n\nTänä iltana Verneri on surullinen. Hänen suussaan kasvaa uusi hammas, ja siinä on kipua.\n\n”Hampaassa on kipua”, Verneri sanoo. ”En saa unta.”\n\n”Kerron sinulle uuden sadun”, mummo sanoo. ”Sinä saat nimetä sadun eläimet.”\n\nSatu alkaa. Metsässä asuu jänis, hirvi ja karhu. Verneri nimeää jäniksen Pompuksi, hirven Ruuniksi ja karhun Mörriksi.\n\n”Kuvaile ne minulle”, Verneri sanoo.\n\nMummo kuvailee eläimet tarkasti. Kukin eläin on erilainen, ja kullakin on oma piirteensä. Pomppu on pieni ja hassu. Sen tärkein piirre on, että se saa kaikki nauramaan. Ruuni on komea ja pitkä, ja sillä on suuret sarvet. Mörri on vahva, mutta sillä on yksi heikko piirre: se pelkää kipua.\n\nEräänä aamuna Mörrin hampaassa on kova kipu, eikä se pysty syömään mitään.\n\nKukin eläin haluaa auttaa. Ruuni tuo karhulle pehmeitä marjoja, joita on helppo syödä. ”Syö näitä”, komea Ruuni sanoo. ”Ne ovat pehmeitä, eikä hammas tarvitse niihin voimaa.” Pomppu kertoo hassuja juttuja, ja Mörri nauraa niin paljon, että se unohtaa kipunsa.\n\nIllalla karhun kipu on pienempi. Seuraavana aamuna hampaassa ei ole enää kipua. Mörri kiittää ystäviään, ja kolme eläintä syövät yhdessä marjoja metsän reunassa.\n\nSatu loppuu. ”Mummo, kerro huomenna lisää Pompusta”, Verneri sanoo. ”Se on niin hassu.” Hän on kuunnellut satua niin tarkasti, että on unohtanut oman hampaansa. Hetken päästä hän nukkuu.\n\nKysymykset:\nMiksi Verneri on surullinen?\nHänen suussaan kasvaa uusi hammas, ja siinä on kipua.\nMitä Verneri saa tehdä sadussa?\nHän saa nimetä sadun eläimet.\nMillainen Pomppu on?\nPomppu on pieni ja hassu jänis.\nMikä on karhun heikko piirre?\nSe pelkää kipua.\nMiten kukin eläin auttaa karhua?\nRuuni tuo karhulle pehmeitä marjoja, ja Pomppu kertoo hassuja juttuja."
+    },
+    {
+      "title": "Seuran uutiskirje",
+      "summary": "Markus and Kerttuli read their dance club's e-mail newsletter: a bigger hall at last, a new couples' course and the spring show tradition.",
+      "newWords": [
+        "tanssia",
+        "harrastus",
+        "tanssi",
+        "odotus",
+        "laajentaa",
+        "seistä",
+        "juoksu",
+        "perinne"
+      ],
+      "text": "Markus ja Kerttuli asuvat Vaasassa. Heillä on yhteinen harrastus: he tanssivat kahdesti viikossa samassa seurassa. Tanssi on heille tärkeä harrastus, koska siellä he näkevät ystäviään ja liikkuvat samalla.\n\nMaanantaina he saavat seuralta sähköpostin. Kerttuli lukee sen ääneen:\n\n”Hei, kaikki tanssijat!\n\nPitkä odotus on ohi: seura laajentaa toimintaansa. Saamme syksyllä uuden, suuremman salin. Vanhassa salissa moni joutui seisomaan seinän vieressä, koska kaikille ei ollut tilaa tanssia samaan aikaan. Uudessa salissa kenenkään ei tarvitse seistä odottamassa.\n\nLaajennamme myös kursseja. Syyskuussa alkaa uusi kurssi pareille. Moni pari on kertonut meille, että yhteinen harrastus on tehnyt hyvää molemmille. Tanssi ei ratkaise kaikkea, mutta se antaa yhteistä aikaa.\n\nMuistakaa myös, että jokainen tunti alkaa lyhyellä juoksulla. Juoksu tekee kehon lämpimäksi, ja sen jälkeen on helpompi tanssia.\n\nLopuksi kevään esitys. Esitys on seuran vanha perinne: se on järjestetty joka vuosi jo 30 vuoden ajan. Tämänkin vuoden esitykseen liittyy suuria odotuksia, sillä esitämme tansseja kaikilta kursseilta.\n\nTervetuloa tanssimaan!”\n\n”Uusi sali”, Markus sanoo. ”Sitä on odotettu kauan. Viime keväänä seisoimme puolet tunnista seinän vieressä.”\n\n”Mennäänkö parien kurssille?” Kerttuli kysyy. ”Tanssimme jo kahdesti viikossa, mutta uusi kurssi olisi hauska.”\n\nMarkus nauraa. ”Mennään. Mutta en pidä juoksusta. Voinko seistä sen ajan?”\n\n”Et voi”, Kerttuli sanoo. ”Juoksu kuuluu seuran perinteeseen.”\n\nSyksyllä he aloittavat uudessa salissa. Siellä on tilaa kaikille, eikä kenenkään tarvitse seistä seinän vieressä. Keväällä he tanssivat esityksessä ensimmäistä kertaa yhdessä.\n\nKysymykset:\nMikä on Markuksen ja Kerttulin yhteinen harrastus?\nHeidän yhteinen harrastuksensa on tanssi.\nMiksi vanhassa salissa moni joutui seisomaan?\nKaikille ei ollut tilaa tanssia samaan aikaan.\nMitä moni pari on kertonut seuralle?\nMoni pari on kertonut, että yhteinen harrastus on tehnyt hyvää molemmille.\nMiten jokainen tunti alkaa?\nJokainen tunti alkaa lyhyellä juoksulla.\nMiksi kevään esitys on perinne?\nSe on järjestetty joka vuosi 30 vuoden ajan."
+    },
+    {
+      "title": "Avain taksissa",
+      "summary": "Alli comes home by taxi late at night with a dead phone and finds her key gone; a neighbour lends her his phone, and the key turns out to be on the taxi floor.",
+      "newWords": [
+        "taksi",
+        "nolla",
+        "avain",
+        "avautua",
+        "ikään",
+        "roska",
+        "vähäinen",
+        "paljastua"
+      ],
+      "text": "Alli asuu Lappeenrannassa kerrostalon toisessa kerroksessa. Perjantaina hän on ystävänsä syntymäpäivillä toisella puolella kaupunkia ja lähtee kotiin vasta yöllä. Viimeinen bussi on jo mennyt, joten hän tilaa taksin.\n\nTaksissa Alli katsoo kännykkäänsä. Akku on melkein tyhjä. Kun taksi pysähtyy hänen talonsa eteen, akussa on nolla prosenttia virtaa, eikä kännykkä enää toimi. ”Ei se mitään”, Alli ajattelee. ”Olen jo kotona.”\n\nHän maksaa taksin kortilla ja nousee autosta. Taksi lähtee. Talon ovella Alli etsii avainta laukustaan. Avainta ei ole. Hän etsii taskuistaan. Ei mitään. Hän kokeilee ovea, mutta se ei tietenkään avaudu.\n\nAlli seisoo oven edessä hetken, ikään kuin ovi avautuisi itsestään. Sitten hän katsoo maahan. Oven edessä on vain roskia: paperia, lehtiä ja tyhjä pullo. Avainta ei ole roskien joukossa.\n\nKännykän akussa on yhä nolla prosenttia, joten Alli ei voi soittaa kenellekään. Kello on 2 yöllä. Mahdollisuus, että joku tulee juuri nyt, tuntuu vähäiseltä.\n\n10 minuutin päästä kadulle kuitenkin tulee nuori mies, joka asuu samassa talossa. ”Unohditko avaimesi?” hän kysyy.\n\nAlli kertoo, mitä on tapahtunut. Naapuri lainaa hänelle kännykkäänsä, ja Alli soittaa taksin numeroon.\n\n”Katson autosta”, kuljettaja sanoo. Hetken päästä paljastuu, että avain on taksin lattialla. ”Se on varmaan pudonnut laukustasi, kun otit kortin esiin”, kuljettaja sanoo. ”Tuon sen heti.”\n\nKun taksi pysähtyy taas talon eteen, kuljettaja antaa avaimen Allille ja hymyilee, ikään kuin tällaista tapahtuisi joka yö. Hän ei halua toisesta matkasta paljon rahaa. ”Maksu on vähäinen”, hän sanoo. ”Vain 10 euroa.”\n\nNyt ovi avautuu. Alli kiittää naapuria ja kuljettajaa. Kotona paljastuu, miksi avain putosi: laukun tasku oli auki. Seuraavana päivänä Alli laittaa avaimen laukussa pieneen taskuun, jonka saa kiinni. Ennen seuraavia juhlia hän lataa kännykkänsä täyteen.\n\nKysymykset:\nMiksi Alli tilaa taksin?\nViimeinen bussi on jo mennyt.\nPaljonko kännykän akussa on virtaa, kun Alli tulee kotiin?\nAkussa on nolla prosenttia virtaa.\nMiksi ovi ei avaudu?\nOvi ei avaudu, koska Allilla ei ole avainta.\nMitä oven edessä on?\nOven edessä on vain roskia: paperia, lehtiä ja tyhjä pullo.\nMissä avain on?\nAvain on taksin lattialla."
+    },
+    {
+      "title": "Koulun lehti",
+      "summary": "Mikael and his classmates make the spring issue of the school paper under their teacher's guidance, ask readers what interests them and choose a tidy cover.",
+      "newWords": [
+        "ohjaus",
+        "kiinnostus",
+        "valtaosa",
+        "useimmiten",
+        "riippuen",
+        "negatiivinen",
+        "kansi",
+        "siisti"
+      ],
+      "text": "Mikael on 15-vuotias ja käy koulua Hämeenlinnassa. Hän tekee koulun lehteä yhdessä 5 muun oppilaan kanssa. Lehti tehdään opettaja Sylvian ohjauksessa, ja se ilmestyy kahdesti vuodessa.\n\nSylvian ohjaus on hyvää, koska hän ei päätä asioita oppilaiden puolesta. ”Lehti on teidän”, hän sanoo usein. ”Minä vain autan.”\n\nEnnen kevään lehteä oppilaat haluavat tietää, mitä lukijat toivovat. He tekevät kyselyn, jossa he kysyvät muiden oppilaiden kiinnostuksesta: mistä aiheista he haluavat lukea ja missä he lukevat lehteä. Kyselyyn vastaa 200 oppilasta.\n\nVastauksista näkyy, että valtaosa oppilaista lukee lehteä kännykästä. Useimmiten he lukevat sitä koulun tauoilla tai bussissa. Vain pieni osa lukee lehteä paperilla.\n\nKiinnostus eri aiheisiin vaihtelee riippuen oppilaiden iästä. Nuoremmat haluavat lukea eniten urheilusta ja eläimistä. Vanhempien oppilaiden kiinnostus kohdistuu musiikkiin ja tuleviin opintoihin. Myös lehden pituudesta tulee erilaisia vastauksia riippuen siitä, lukeeko oppilas lehteä paperilla vai kännykästä.\n\nOsa vastauksista on negatiivisia. ”Lehti on liian pitkä”, yksi kirjoittaa. ”Kannessa on liikaa tekstiä”, kirjoittaa toinen. Mikael ei pidä negatiivisista vastauksista, mutta Sylvia sanoo, että niistä on apua. ”Negatiivinen palaute kertoo, mitä voimme tehdä paremmin”, hän sanoo.\n\nKevään lehden kanteen oppilaat haluavat siistin kuvan ja vähän tekstiä. Mikael ottaa kuvan koulun pihasta aamulla, kun aurinko paistaa. Kansi on siisti: siinä on vain kuva, lehden nimi ja yksi lyhyt lause. Lehti on myös lyhyempi kuin ennen, ja sitä on helppo lukea kännykästä.\n\nKun lehti ilmestyy, valtaosa lukijoista sanoo, että se on hyvä. Useimmiten he puhuvat kannesta. Sylvia on tyytyväinen. ”Te kuuntelitte lukijoita”, hän sanoo. ”Siksi lehti onnistui.”\n\nKysymykset:\nKenen ohjauksessa lehti tehdään?\nLehti tehdään opettaja Sylvian ohjauksessa.\nMiten valtaosa oppilaista lukee lehteä?\nValtaosa oppilaista lukee lehteä kännykästä.\nMistä nuoremmat oppilaat haluavat lukea?\nHe haluavat lukea eniten urheilusta ja eläimistä.\nMiksi Sylvian mielestä negatiivisista vastauksista on apua?\nNegatiivinen palaute kertoo, mitä lehdessä voi tehdä paremmin.\nMillainen kevään lehden kansi on?\nKansi on siisti: siinä on vain kuva, lehden nimi ja yksi lyhyt lause."
+    }
+  ]
+}
