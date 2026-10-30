@@ -1,0 +1,235 @@
+{
+  "id": "is-mini-0100",
+  "rankUpTo": 100,
+  "level": "A1",
+  "title": "Heima með fjölskyldunni",
+  "description": "Ten short, simple stories about home, family and everyday moments in Iceland.",
+  "topic": "Home and family",
+  "names": [
+    "Guðrún",
+    "Jón",
+    "Pétur",
+    "Sara",
+    "Akureyri",
+    "Reykjavík",
+    "Selfoss",
+    "Kristín",
+    "Ólafur",
+    "Jóhann",
+    "Davíð",
+    "Stefán",
+    "Freyja",
+    "Eva",
+    "Kópavogur",
+    "Akranes",
+    "Sigríður",
+    "Magnús",
+    "Tómas",
+    "Inga",
+    "Húsavík",
+    "Mývatn",
+    "Elín",
+    "Kristján",
+    "Katrín",
+    "Daníel",
+    "Þóra",
+    "Borgarnes",
+    "Þórdís",
+    "Guðmundur",
+    "Emil",
+    "Egilsstaðir",
+    "Ásdís",
+    "Sigurður",
+    "Agnes",
+    "Vestmannaeyjar",
+    "Kaupmannahöfn",
+    "Halldóra",
+    "Jónas",
+    "Embla",
+    "Depill",
+    "Ísafjörður",
+    "Ísafirði",
+    "Jóhanna",
+    "Haraldur",
+    "Védís",
+    "Aron",
+    "Hafnarfjörður",
+    "Hafnarfirði",
+    "Sigrún",
+    "Hákon",
+    "Rakel",
+    "Viktor"
+  ],
+  "lessons": [
+    {
+      "title": "Hvar er Pétur?",
+      "summary": "Guðrún phones her son Pétur to find out where he and his wife Sara are.",
+      "newWords": [
+        "vera",
+        "ég",
+        "þú",
+        "hann",
+        "hún",
+        "og",
+        "í",
+        "á",
+        "segja",
+        "ekki",
+        "já",
+        "nei",
+        "hver"
+      ],
+      "text": "Guðrún og Jón eru á Akureyri. Pétur er sonur þeirra. Hann er ekki á Akureyri. Hann er í Reykjavík.\n\nGuðrún er í símanum. „Pétur, ert þú í Reykjavík?“ segir hún.\n\n„Já, ég er í Reykjavík,“ segir Pétur.\n\n„Og Sara? Er hún í Reykjavík?“ segir Guðrún. Sara er kona Péturs.\n\n„Nei, hún er ekki í Reykjavík,“ segir Pétur. „Hún er á Selfossi.“\n\n„Á Selfossi? Er hún ekki í Reykjavík?“ segir Guðrún.\n\n„Nei, hún er á Selfossi og ég er í Reykjavík,“ segir Pétur.\n\nJón segir: „Og ég er á Akureyri, Guðrún. Og þú ert á Akureyri.“\n\n„Já, Jón,“ segir Guðrún. „Ég er ekki í Reykjavík og ég er ekki á Selfossi. Ég er á Akureyri og þú ert á Akureyri.“\n\nSpurningar:\nHvar eru Guðrún og Jón?\nGuðrún og Jón eru á Akureyri.\nEr Pétur á Akureyri?\nNei, hann er ekki á Akureyri. Hann er í Reykjavík.\nHver er Pétur?\nHann er sonur Guðrúnar og Jóns.\nHver er Sara?\nHún er kona Péturs.\nEr Sara í Reykjavík?\nNei, hún er ekki í Reykjavík. Hún er á Selfossi."
+    },
+    {
+      "title": "Hvar eru þær?",
+      "summary": "Kristín cannot find her two daughters and phones her husband, but the girls are at home with her.",
+      "newWords": [
+        "við",
+        "það",
+        "hvað",
+        "þau",
+        "þið",
+        "þeir",
+        "þær",
+        "hér",
+        "þar",
+        "eða",
+        "en",
+        "hjá",
+        "þá"
+      ],
+      "text": "Kristín og Ólafur eru í Kópavogi. Davíð, Stefán, Freyja og Eva eru börn þeirra. Kristín er heima. Ólafur er hjá Jóhanni. Davíð og Stefán eru þar. Þeir eru hjá Jóhanni.\n\nEn hvar eru Freyja og Eva?\n\n„Ólafur, eru Freyja og Eva þar?“ segir Kristín í síma.\n\n„Nei, þær eru ekki hér,“ segir Ólafur. „Davíð og Stefán eru hér. Þeir eru hjá mér og Jóhanni.“\n\n„Hvað? Eru þær ekki þar?“ segir Kristín. „Eru þær í Reykjavík eða á Akranesi?“\n\nÞá segir Ólafur: „Nei, nei. Þær eru í Kópavogi. Eru þær ekki hjá þér?“\n\nÞá segir Freyja: „Það erum við, mamma! Við erum hér!“\n\n„Hvað? Er það þú, Freyja? Þið eruð hér!“ segir Kristín. „Og þið eruð ekki í Reykjavík eða á Akranesi.“\n\n„Nei, við erum hér,“ segir Eva. „En hvar er pabbi?“\n\n„Hann er hjá Jóhanni,“ segir Kristín. „Þeir eru þar og við erum hér.“\n\nSpurningar:\nHvar eru Kristín og Ólafur?\nÞau eru í Kópavogi.\nHvar eru Davíð og Stefán?\nÞeir eru hjá Jóhanni.\nEru Freyja og Eva hjá Jóhanni?\nNei, þær eru ekki þar. Þær eru hjá Kristínu."
+    },
+    {
+      "title": "Tveir staðir",
+      "summary": "Sigríður and Magnús own two places, one in Húsavík and one by Lake Mývatn, and they like both.",
+      "newWords": [
+        "búa",
+        "eiga",
+        "staður",
+        "góður",
+        "mjög",
+        "að",
+        "sem",
+        "þessi",
+        "tveir",
+        "annar",
+        "hinn"
+      ],
+      "text": "Sigríður og Magnús búa á Húsavík. Þau eiga tvo staði. Annar staðurinn er á Húsavík. Hinn staðurinn er við Mývatn.\n\n„Þessi staður er mjög góður,“ segir Sigríður. „Hér búa líka Tómas og Inga.“ Tómas og Inga eru börn þeirra.\n\n„En staðurinn við Mývatn er líka góður,“ segir Magnús. „Staðurinn sem við eigum þar er ekki stór, en það er gott að vera þar.“\n\n„Já, þessi staður er góður og hinn staðurinn er góður,“ segir Sigríður. „Við búum á Húsavík, en við eigum líka staðinn við Mývatn.“\n\n„Það er gott að eiga tvo staði sem eru mjög góðir,“ segir Magnús.\n\n„Já,“ segir Sigríður. „Og þessir tveir staðir eru okkar.“\n\nSpurningar:\nHvar búa Sigríður og Magnús?\nÞau búa á Húsavík.\nEiga þau tvo staði?\nJá, þau eiga tvo staði.\nHvar er annar staðurinn?\nHann er á Húsavík.\nHvar er hinn staðurinn?\nHann er við Mývatn.\nHver býr á Húsavík?\nTómas og Inga búa á Húsavík. Þau eru börn Sigríðar og Magnúsar."
+    },
+    {
+      "title": "Dagur í vinnunni",
+      "summary": "Elín goes to work in Reykjavík every day, and in the evening she and Kristján go out together.",
+      "newWords": [
+        "vinna",
+        "fara",
+        "koma",
+        "dagur",
+        "til",
+        "frá",
+        "út",
+        "inn",
+        "aftur",
+        "þegar",
+        "mikill",
+        "svo",
+        "hvernig"
+      ],
+      "text": "Elín og Kristján búa á Akranesi. Elín vinnur í Reykjavík. Á hverjum degi fer hún til Reykjavíkur.\n\nKristján vinnur á Akranesi. Hann fer ekki til Reykjavíkur. Í Reykjavík er mikil vinna, en það er líka vinna á Akranesi.\n\nÁ daginn er Elín í vinnunni í Reykjavík og Kristján er í vinnunni á Akranesi.\n\nElín kemur heim frá Reykjavík. Kristján er heima. „Hvernig var dagurinn?“ segir hann.\n\n„Hann var góður, en það var mikil vinna,“ segir Elín. „Og hvernig var dagurinn hjá þér?“\n\n„Hann var líka góður,“ segir Kristján. „Eigum við að fara út?“\n\n„Já, förum út,“ segir Elín.\n\nÞau fara út saman. Svo koma þau inn aftur. Þegar þau koma inn er dagurinn búinn.\n\nÁ morgun fer Elín aftur til Reykjavíkur. Og þegar hún kemur heim frá Reykjavík fara þau aftur út.\n\nSpurningar:\nHvar búa Elín og Kristján?\nÞau búa á Akranesi.\nHvar vinnur Elín?\nHún vinnur í Reykjavík.\nFer Kristján til Reykjavíkur?\nNei, hann fer ekki til Reykjavíkur. Hann vinnur á Akranesi.\nFara þau út þegar Elín kemur heim?\nJá, þau fara út saman og koma svo inn aftur."
+    },
+    {
+      "title": "Til Borgarness",
+      "summary": "Katrín and her son Daníel take something to Grandma Þóra in Borgarnes, and she has something for Daníel too.",
+      "newWords": [
+        "hafa",
+        "vilja",
+        "fá",
+        "taka",
+        "sjá",
+        "með",
+        "af",
+        "fyrir",
+        "því",
+        "einhver"
+      ],
+      "text": "Katrín og Daníel búa í Reykjavík. Daníel er sonur Katrínar. Þóra er amma hans. Hún býr í Borgarnesi.\n\nKatrín vill sjá Þóru og Daníel vill líka sjá hana. Þau fara til Borgarness af því að þau vilja sjá Þóru.\n\nKatrín tekur eitthvað með sér. Það er fyrir Þóru.\n\nÞegar þau koma til Borgarness segir Þóra: „Hvað hafið þið með ykkur?“\n\n„Við höfum þetta fyrir þig,“ segir Daníel.\n\nÞóra tekur það og sér hvað það er. „Er þetta fyrir mig?“ segir hún.\n\n„Já, það er fyrir þig,“ segir Katrín. „Þú átt að fá það af því að þú ert góð amma.“\n\n„Takk fyrir,“ segir Þóra. „En ég hef líka eitthvað fyrir Daníel. Viltu sjá það?“\n\n„Já, ég vil sjá það!“ segir Daníel. Hann fær það og tekur það með sér heim.\n\nSpurningar:\nHvar býr Þóra?\nHún býr í Borgarnesi.\nAf hverju fara Katrín og Daníel til Borgarness?\nÞau fara til Borgarness af því að þau vilja sjá Þóru.\nHvað tekur Katrín með sér?\nHún tekur eitthvað fyrir Þóru með sér.\nFær Daníel eitthvað?\nJá, Þóra hefur líka eitthvað fyrir hann."
+    },
+    {
+      "title": "Hvernig var dagurinn?",
+      "summary": "Emil says little to his mother about his day, but he talks a lot when his father asks about football.",
+      "newWords": [
+        "tala",
+        "vita",
+        "geta",
+        "gera",
+        "nú",
+        "bara",
+        "vel",
+        "um"
+      ],
+      "text": "Þórdís og Guðmundur búa á Egilsstöðum. Emil er sonur þeirra.\n\nEmil kemur heim. „Hvernig var dagurinn?“ segir Þórdís.\n\n„Bara góður,“ segir Emil.\n\n„Hvað gerðir þú?“ segir Þórdís.\n\n„Bara eitthvað,“ segir Emil. Hann talar ekki mikið.\n\nÞórdís veit ekki hvað Emil gerði. Hún veit ekki hvernig dagurinn var. Svo kemur Guðmundur heim.\n\n„Guðmundur, getur þú talað við Emil?“ segir Þórdís. „Hann vill ekki tala við mig.“\n\nGuðmundur talar við Emil um fótbolta. Þá talar Emil mikið. „Ég gerði þetta og svo gerði ég þetta,“ segir hann.\n\n„Það var mjög vel gert,“ segir Guðmundur.\n\nNú getur Emil talað um daginn. Og nú veit Þórdís hvernig dagurinn var. Hann var mjög góður.\n\nSpurningar:\nHver er Emil?\nHann er sonur Þórdísar og Guðmundar.\nTalar Emil mikið við Þórdísi?\nNei, hann talar ekki mikið við hana.\nUm hvað talar Guðmundur við Emil?\nHann talar við hann um fótbolta.\nHvað segir Guðmundur við Emil?\nHann segir: „Það var mjög vel gert.“\nVeit Þórdís nú hvernig dagurinn var?\nJá, nú veit hún að hann var mjög góður."
+    },
+    {
+      "title": "Agnes kemur heim",
+      "summary": "After two years in Copenhagen, Agnes is coming home to her parents in the Westman Islands.",
+      "newWords": [
+        "tími",
+        "ár",
+        "ætla",
+        "munu",
+        "skulu",
+        "mega",
+        "þurfa",
+        "eftir",
+        "yfir"
+      ],
+      "text": "Ásdís og Sigurður búa í Vestmannaeyjum. Agnes er dóttir þeirra. Hún hefur verið í Kaupmannahöfn í tvö ár. Nú ætlar hún að koma heim.\n\n„Ég kem eftir tvo daga,“ segir Agnes í síma. „Má ég vera hjá ykkur í einhvern tíma?“\n\n„Já, þú mátt það,“ segir Ásdís. „Við höfum tíma fyrir þig.“\n\n„Ég þarf ekki að fara að vinna,“ segir Agnes. „Ég hef góðan tíma.“\n\nÁsdís og Sigurður eru mjög glöð yfir því. „Við skulum fara til Reykjavíkur og taka á móti henni,“ segir Sigurður.\n\n„Já, við skulum gera það,“ segir Ásdís. „Hún mun koma eftir tvo daga og þú þarft ekki að vinna þá.“\n\nEftir tvo daga kemur Agnes. Hún er glöð yfir því að vera komin heim. „Árin í Kaupmannahöfn voru góð,“ segir hún, „en nú mun ég vera hjá ykkur.“\n\nSpurningar:\nHvar búa Ásdís og Sigurður?\nÞau búa í Vestmannaeyjum.\nMá Agnes vera hjá Ásdísi og Sigurði?\nJá, hún má vera hjá þeim.\nHvað ætlar Sigurður að gera?\nHann ætlar að fara til Reykjavíkur og taka á móti Agnesi."
+    },
+    {
+      "title": "Hvar er Depill?",
+      "summary": "Embla cannot find her cat Depill, looks everywhere outside, and her mother finds him in the house.",
+      "newWords": [
+        "finna",
+        "halda",
+        "láta",
+        "ganga",
+        "upp",
+        "fram",
+        "úr",
+        "lag",
+        "allt",
+        "allur"
+      ],
+      "text": "Halldóra og Jónas búa á Ísafirði. Embla er dóttir þeirra. Embla á kött sem heitir Depill.\n\nÍ dag finnur Embla ekki Depil. „Hvar er Depill?“ segir hún. „Ég finn hann ekki!“\n\n„Ég held að hann hafi farið út,“ segir Jónas.\n\nEmbla fer út og Halldóra fer með henni. Embla gengur fram og aftur, upp og niður. En hún finnur ekki Depil.\n\n„Láttu þetta ekki á þig fá, Embla,“ segir Halldóra. „Þetta er allt í lagi. Ég held að hann sé hér.“\n\nHalldóra gengur inn. „Láttu mig sjá,“ segir hún. Svo tekur hún Depil upp úr kassa.\n\n„Hér er hann!“ segir Halldóra. „Hann var hér allan tímann.“\n\nEmbla tekur Depil og heldur á honum. „Nú er allt í lagi,“ segir hún. „Allir eru hér.“\n\nSpurningar:\nHvar búa Halldóra og Jónas?\nÞau búa á Ísafirði.\nHvað á Embla?\nHún á kött sem heitir Depill.\nHvað gerir Embla þegar hún fer út?\nHún gengur fram og aftur, en hún finnur ekki Depil.\nHvar var Depill?\nHann var hér allan tímann. Halldóra tekur hann upp úr kassa."
+    },
+    {
+      "title": "Margir gestir",
+      "summary": "Many people come to Jóhanna and Haraldur's house, among them their daughter Védís, her husband and little Aron.",
+      "newWords": [
+        "margur",
+        "sá",
+        "sinn",
+        "minn",
+        "þinn",
+        "sig",
+        "maður",
+        "svona"
+      ],
+      "text": "Jóhanna og Haraldur búa í Hafnarfirði. Í dag koma margir til þeirra. Védís, dóttir þeirra, kemur með manninn sinn og Aron, son sinn.\n\n„Hver er þetta?“ segir einhver við Jóhönnu.\n\n„Þetta er Védís, dóttir mín, og maðurinn hennar,“ segir Jóhanna.\n\n„Og hver er sá sem er með þeim?“ segir einhver annar.\n\n„Það er Aron, sonur þeirra,“ segir Jóhanna.\n\nAron talar mjög mikið. Haraldur talar líka mikið.\n\n„Er þetta sonur þinn?“ segir einhver við Védísi.\n\n„Já, þetta er sonur minn,“ segir Védís. „Hann talar mikið og Haraldur talar mikið. Svona eru þeir.“\n\n„Og er þetta maðurinn þinn?“ segir einhver.\n\n„Já, þetta er maðurinn minn,“ segir Védís.\n\nVédís vill hafa Aron hjá sér, en Aron fer út og tekur Harald með sér. Þegar dagurinn er búinn segir Aron: „Má ég koma aftur?“\n\n„Já, sá sem talar svona mikið má koma aftur,“ segir Haraldur.\n\nSpurningar:\nHvar búa Jóhanna og Haraldur?\nÞau búa í Hafnarfirði.\nHverjir koma til þeirra?\nMargir koma til þeirra.\nMeð hverjum kemur Védís?\nHún kemur með manninn sinn og Aron, son sinn."
+    },
+    {
+      "title": "Viktor kemur",
+      "summary": "Rakel hears that a little brother, Viktor, is coming, and in the end he comes.",
+      "newWords": [
+        "verða",
+        "ef",
+        "enginn",
+        "eins",
+        "einn"
+      ],
+      "text": "Sigrún og Hákon búa á Selfossi. Rakel er dóttir þeirra. Hún er 5 ára.\n\nEinn daginn segir Sigrún: „Rakel, nú verður þú ekki ein. Viktor kemur til okkar.“\n\n„Hver er Viktor?“ segir Rakel.\n\n„Hann verður bróðir þinn,“ segir Hákon.\n\n„Hvenær kemur hann?“ segir Rakel.\n\n„Það veit enginn,“ segir Sigrún. „Enginn veit hvenær hann kemur. En hann kemur.“\n\n„Verður hann eins og ég?“ segir Rakel.\n\n„Ef hann verður eins og þú, verður hann góður,“ segir Hákon.\n\n„Og ef hann verður ekki eins og ég, er það líka í lagi,“ segir Rakel.\n\nSvo kemur Viktor. Nú er Rakel ekki ein. Nú eru þau tvö, Rakel og Viktor.\n\nSpurningar:\nHvar búa Sigrún og Hákon?\nÞau búa á Selfossi.\nHver er Viktor?\nHann er bróðir Rakelar.\nVeit einhver hvenær Viktor kemur?\nNei, enginn veit það.\nEr Rakel ein nú?\nNei, hún er ekki ein. Viktor er kominn."
+    }
+  ]
+}
