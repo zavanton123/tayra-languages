@@ -1,0 +1,100 @@
+1	7001	ialok	iaalok iniaalok inialok
+2	7002	bahista	bahistang
+3	7003	lapulapu	
+4	7004	walumpu	walumpu't walumpung
+5	7005	kinahapunan	
+6	7006	panaklong	
+7	7007	rehente	rehenteng
+8	7008	klab	
+9	7009	mabakas	mababakas nababakas
+10	7010	tekstura	teksturang
+11	7011	klaro	klarong
+12	7012	usad	pag-uusad
+13	7013	basil	
+14	7014	suntukin	masuntok sinuntok sinusuntok
+15	7015	humamon	hahamon humahamon paghamon
+16	7016	purgatoryo	
+17	7017	merito	meritong
+18	7018	magbaon	baunin binabaon binaon nababaon nabaon nagbabaon nagbaon pagbabaon pagbaon
+19	7019	mapasukan	mapapasukan napapasukan napasukan
+20	7020	magpagamot	magpapagamot nagpagamot nagpapagamot pagpapagamot
+21	7021	penal	
+22	7022	mikropono	mikroponong
+23	7023	pipino	
+24	7024	ilaya	ilayang
+25	7025	hugas	
+26	7026	botika	butika
+27	7027	balbula	balbulang
+28	7028	buhawi	buhawing
+29	7029	adrenal	
+30	7030	hantungan	hahantungan hantungang
+31	7031	makalakip	nakalakip
+32	7032	manggagamit	
+33	7033	tambangan	tinambangan
+34	7034	likhang-sining	
+35	7035	hagunoy	hagonoy
+36	7036	gumiling	gigiling maggiling paggiling
+37	7037	pandikit	
+38	7038	sumampalataya	pagsampalataya sumasampalataya
+39	7039	karbono	
+40	7040	ikono	ikon ikonong
+41	7041	iskul	skul
+42	7042	bolador	burador
+43	7043	suha	soa sua suhang suwa
+44	7044	kurbada	kurbadang
+45	7045	yabang	
+46	7046	ronda	pagroronda
+47	7047	testigo	testigong
+48	7048	tiyempo	tiyempong
+49	7049	hatimbilang	
+50	7050	buhol	
+51	7051	masaklaw	napakamasaklaw nasaklaw nasasaklaw
+52	7052	umalalay	aalalay pag-alalay umaalalay
+53	7053	umasinta	asintahing inaasinta inaasintang inasinta umaasinta
+54	7054	sumingaw	pagsingaw sumisingaw
+55	7055	kawi	pagkawi
+56	7056	pagsasamahan	
+57	7057	turon	
+58	7058	talapihitan	talapihitang
+59	7059	langoy	paglalangoy
+60	7060	ao	
+61	7061	artesano	artesanong artisano artisanong
+62	7062	nakakatugon	
+63	7063	inahin	inahing iniina
+64	7064	gantihan	gagantihan gagantihin ginantihan iginanti ikaganti
+65	7065	kaladkarin	kinakaladkad kinaladkad pagkaladkad
+66	7066	habag	
+67	7067	masjid	
+68	7068	pintakasi	pagpipintakasi pintacasi pintakasing
+69	7069	ipagkaiba	ipinagkaiba ipinagkakaiba
+70	7070	sipa	
+71	7071	taka	
+72	7072	peras	
+73	7073	nega	neg
+74	7074	maluwang	maluluwang
+75	7075	ermitanyo	ermitanyong
+76	7076	konsorte	konsorteng
+77	7077	dormitoryo	dormitoryong
+78	7078	tagapaglathala	tagapaglathalang
+79	7079	balatan	binabalatan binalatan binalatang
+80	7080	bulbol	
+81	7081	aproksimasyon	aproksimasyong
+82	7082	dumapo	dumadapo dumapong pagdapo
+83	7083	parlamentaryo	parlamentaryong parliyamentaryo parliyamentaryong
+84	7084	kwentahin	kinwenta
+85	7085	mamulat	mamumulat namulat namumulat
+86	7086	kompensasyon	kompensasyong kumpensasyon
+87	7087	bulutong	
+88	7088	liko	likong likô
+89	7089	batubalani	bato-balani batobalani batubalaning
+90	7090	panlikod	
+91	7091	pampribado	pampribadong
+92	7092	kasamahin	kinakasama kinakasamang kinasama
+93	7093	linis	
+94	7094	implasyon	
+95	7095	ateista	ateistang
+96	7096	komentarista	komentaristang
+97	7097	determinasyon	determinasyong
+98	7098	salain	sasalain sinala sinalang sinasala
+99	7099	magrehistro	magrerehistro nagrehistro nagrerehistro pagrehistro pagrerehistro rumehistro
+100	7100	entrada	entradang

@@ -1,0 +1,100 @@
+1	3601	kambing	
+2	3602	tagasuporta	tagasuportang
+3	3603	misis	
+4	3604	pangitain	pangitaing
+5	3605	magpasa	magpapasa nagpapasa nagpasa pagpapasa
+6	3606	libing	
+7	3607	lumigtas	pagligtas
+8	3608	ar	
+9	3609	salamangka	pagsasalamangka salamanca salamangkang
+10	3610	kulog	
+11	3611	salungatan	salungatang
+12	3612	balitang	
+13	3613	pumaslang	pagpaslang pumapaslang
+14	3614	trak	tarak
+15	3615	pigilin	pinigil pinipigil pipigilin
+16	3616	medyas	
+17	3617	pugon	pugong
+18	3618	katiwalian	katiwaliang
+19	3619	alma	
+20	3620	sumabay	nasabay pagsabay sasabay sumasabay
+21	3621	makakilala	makakakilala makakikilala nakakakilala nakakikilala nakakilala
+22	3622	nakainom	
+23	3623	mahiwalay	mahihiwalay nahihiwalay nahiwalay
+24	3624	piyesa	piyesang
+25	3625	suma	pagsusuma pagsusumang soma sumang
+26	3626	elektroniko	elektronikong
+27	3627	kaakit-akit	
+28	3628	eskultura	eskulturang iskulptura iskultura iskulturang
+29	3629	kamiseta	kamisetang
+30	3630	pastor	pastora pastores
+31	3631	masukat	masusukat nasukat nasusukat
+32	3632	magpalagay	nagpalagay nagpapalagay pagpalagay pagpapalagay
+33	3633	mag-ipon	nag-iipon nag-ipon nagipon pag-iipon pag-ipon pagiipon pagipon
+34	3634	teolohiya	teolohiyang
+35	3635	magdemanda	idedemanda idemanda idinedemanda idinemanda magdedemanda maidemanda nagdedemanda nagdemanda
+36	3636	tatsulok	
+37	3637	lehislatura	lehislaturang
+38	3638	matanaw	matatanaw natanaw natatanaw
+39	3639	matawag	matatawag natatawag natawag
+40	3640	umere	eere pag-ere umeere umeereng
+41	3641	payat	pagpapayat pinakapayat
+42	3642	tagaytay	
+43	3643	kampana	kampanang
+44	3644	pagmamahalan	
+45	3645	makapatay	makakapatay makapapatay nakapapatay nakapatay
+46	3646	pagnanasa	pagnanasang
+47	3647	ambisyon	ambisyong pag-ambisyon
+48	3648	panggagahasa	panggagahasang
+49	3649	subukin	sinubok sinusubok subuking susubukin
+50	3650	mamana	namamana namamanang namana namanang
+51	3651	nguni	ngoni nguni't
+52	3652	mithiin	minimithi minimithing minithi mithiing
+53	3653	bathala	badhala bathalang
+54	3654	apartment	
+55	3655	katalinuhan	katalinuhang
+56	3656	manahin	mamanahin minamana minamanang minana minanang
+57	3657	komplikasyon	komplikasyong kumplikasyon kumplikasyong
+58	3658	pinta	pintang
+59	3659	minorya	minoriya minoryang
+60	3660	sungay	
+61	3661	distansiya	distansiyang pagdidistansiya pagdidistansiyang
+62	3662	agawin	aagawin agawa inaagaw inagaw
+63	3663	magharap	maghaharap naghaharap nagharap paghaharap
+64	3664	ubos	obos
+65	3665	hatinggabi	
+66	3666	pusta	pustang
+67	3667	tumutok	pagtutok tumututok tututok
+68	3668	bumanggit	bumabanggit pagbanggit
+69	3669	pabahay	pagpapabahay
+70	3670	palamuti	pagpapalamuti palamuting
+71	3671	tumuon	pagtuon pagtuong tumutuon
+72	3672	soberanya	soberaniya soberaniyang soberanyang soberenya soberenyang
+73	3673	taglagas	
+74	3674	yumaman	pagyaman yayaman yayamang yumayaman yumayamang
+75	3675	isiwalat	isinisiwalat isiniwalat
+76	3676	kumander	komander
+77	3677	akit	
+78	3678	drayber	
+79	3679	katropa	
+80	3680	ginhawa	ginhawang
+81	3681	kapulisan	kapulisang
+82	3682	tina	pagtitina pagtitinang tinang
+83	3683	sumanib	pagsanib sasanib sumasanib
+84	3684	mahinahon	mahinahong
+85	3685	tadhana	tadhanang
+86	3686	tagpo	tagpong
+87	3687	isa-isa	isa-isang
+88	3688	terorismo	terorismong
+89	3689	heometriya	heometriyang
+90	3690	kabatiran	kabatirang
+91	3691	dugong	
+92	3692	sansinukob	
+93	3693	deposito	depositong
+94	3694	panggagamot	
+95	3695	protektado	protektadong
+96	3696	batikusin	binabatikos binatikos ibinatikos nabatikos
+97	3697	buwanan	buwanang
+98	3698	panday	pagpapanday
+99	3699	dengge	dengue
+100	3700	sumobra	sosobra sumobrang sumosobra

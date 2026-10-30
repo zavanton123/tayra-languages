@@ -1,0 +1,100 @@
+1	101	ayon	ayong ayun hayon hayun
+2	102	diyos	dios diosa diyosa diyosang diyós dyos dyosa
+3	103	sige	cge ge geh geng
+4	104	buo	boo boong buong buó
+5	105	pangalan	pangalang papangalan pinangalan pinangalang pinapangalan
+6	106	bahagi	bahaging bahagì
+7	107	doon	do'n don don't dong doong doón dun ron roon roong roón run
+8	108	habang	
+9	109	lungsod	lungsód lunsod pinakalungsod
+10	110	pagkatapos	pagpagkatapos
+11	111	mangyari	mangyaring mangyayari mangyayaring nangyari nangyaring nangyayari nangyayaring pangyari
+12	112	loob	napakaloob pinakaloob
+13	113	kumuha	ikinuha ikuha ikukuha ipapakuha ipinakuha kinukuha kinukuhang kinukunan kukuha kumukuha makuha makuhang makukuha makukuhang mapapagkunan naikuha nakuha nakuhang nakukuha nakukuhang pagkuha pagkuhaan pagkunan pinagkukuhaan pinagkukunan pinagkukunang
+14	114	mundo	mondo mundo't mundo'y mundong mundó munro
+15	115	babae	babae't babaeng babai babaing babaye babayi babaying ᜊᜊᜁ
+16	116	anak	anák nak
+17	117	lugar	lugal
+18	118	sino	cno sino-sino sino-sinong sinong sinu-sino
+19	119	kasi	kase kasi'y kc
+20	120	puwede	pede pedeng puwedeng pwede pwedeng
+21	121	kita	kita'y kitang
+22	122	pangunahin	pangunahing pinakapangunahin pinakapangunahing
+23	123	bayan	bayang pinakabayan sambayanan sambayanang
+24	124	umalis	aalis alis naalis pag-alis pagalis umaalis
+25	125	lalaki	lalake lalakeng lalaki't lalaking
+26	126	magkaroon	magkakaroon magkaron magkaroong nagkakaroon nagkaroon nagkaroong pagkakaroon pagkakaroong
+27	127	kilala	kilalang kilalanin kilalaning kilalá napakakilala napakakilalang pagkikilala pinakakilala pinakakilalang
+28	128	paano	paanong pano panong
+29	129	sarili	sarili'y sariling
+30	130	bata	bata't bata'y batang napakabata napakabatang pinakabata pinakabatang ᜊᜆ
+31	131	bahay	
+32	132	sabi	sabing
+33	133	tawagin	tatawagin tatawaging tawaging tinatawag tinawag
+34	134	dati	dati'y dating datíng rati
+35	135	pumunta	napunta pumuntang pumupunta pumupuntang punta punta't puntang pupunta
+36	136	bagay	pagbabagay
+37	137	huli	huli'y huling hulí paghuhuli pinakahuli pinakahuling
+38	138	tungkol	panunungkulan panunungkulang patungkol tunkol
+39	139	tingnan	pagtitinginan tignan tinginan tingnang tiningnan tinitingnan tinitingnang titingnan
+40	140	inyo	inyo'y inyong inyó
+41	141	sumunod	ipinasunod isinunod isinusunod isunod isusunod masundan masunod masusundan masusunod nakikisunod nasundan nasunod nasusundan nasusunod pagsunod sinundan sinundang sinunod sinusundan sinusundang sinusunod sumusunod sundan sundin sunuran susundan susundin
+42	142	kabila	kabilang
+43	143	bumuo	binubuo binubuong binuo binuong bubuo bubuong bubuuin bubuuing bumubuo bumubuong bumuong buuin ibinubuo ibinuo ibinuong ibubuo ibuo mabubuo mabubuong mabuo maibuo nabubuo nabubuong nabuo nabuong pagbuo pagbuong
+44	144	oras	pag-ooras pagooras uras
+45	145	wika	eka ekang uicang wikang wikà
+46	146	magbigay	binibigyan binibigyang ipagbigay mabibigyan mabibigyang mabigyan mabigyang magbibigay nabibigyan nabibigyang nabigyan nabigyang nagbibigay nagbigay pagbibigay pagbigay pagbigyan pinagbibigyan
+47	147	matapos	matatapos natapos natatapos
+48	148	okey	ok okay oke
+49	149	tatlo	pangatlo pangatlong tatlo't tatlo'y tatlong
+50	150	mukha	mocha mucha mukhang
+51	151	atin	ating
+52	152	tama	pagtatama pinakatama pinakatamang tamang
+53	153	matagpuan	matagpuang matatagpuan matatagpuang natagpuan natagpuang natatagpuan natatagpuang
+54	154	man	
+55	155	pelikula	pagpelikula pelikula't pelikula'y pelikulang
+56	156	ilalim	ilalalim pinakailalim
+57	157	muli	mole moli mule muli't muling mulî nuling uuling
+58	158	ibig	
+59	159	mamatay	mamamatay namamamatay namamatay namatay pinakamamatay
+60	160	magsimula	magsimulang magsisimula magsisimulang nagsimula nagsimula'y nagsimulang nagsisimula nagsisimulang pagsimula pagsisimula pagsisimulang
+61	161	kaibigan	kaibigang
+62	162	bawat	
+63	163	uri	ori oring pag-uuri pag-uuring paguuri paguuring uring urì
+64	164	salita	pananalita pananalitang salita't salita'y salitang salitâ
+65	165	eh	
+66	166	de	deng
+67	167	siguro	pagsisiguro seguro segurong sigurong
+68	168	malaman	malalaman malalamang nalalaman nalalamang nalaman nalamang
+69	169	pareho	parehon parehong
+70	170	sana	pagsasana pinakasana sana'y sanang
+71	171	maliit	maliliit napakaliit pagmamaliit pinakamaliit
+72	172	bumalik	babalik babalikan balikan balikang binabalikan binalikan bumabalik ibabalik ibalik ibinabalik ibinalik maibabalik maibalik nabalikan naibabalik naibalik
+73	173	gabi	gabe gabing gaby gabí
+74	174	salamat	pagsasalamat
+75	175	parang	
+76	176	ha	ah
+77	177	hoy	huy oy uy
+78	178	lalo	lalo't lalong lalu lalung
+79	179	muna	mona monang munang nuna
+80	180	tubig	
+81	181	higit	higít paghihigit
+82	182	totoo	totoong totoó
+83	183	mawala	mawalang mawawala mawawalang nawala nawalang nawawala nawawalang
+84	184	pagitan	pag-itan pagitang pagpapagitan
+85	185	mataas	matataas mataás napakataas nataas pagmamataas pinakamataas
+86	186	pamilya	pagpapamilya pamilyang
+87	187	malapit	malalapit malapít nalalapit nalapit napakalapit pagmalapit pinakamalapit
+88	188	laban	labang lalaban nilaban nilalaban
+89	189	daw	dao rao raw
+90	190	bigyan	bibigyan bibigyang bigyang binibigyan binibigyang binigyan binigyang ipagbigay mabibigyan mabibigyang mabigyan mabigyang nabibigyan nabibigyang nabigyan nabigyang pagbibigyan pagbigyan pinagbibigyan
+91	191	kunin	kinuha kinuhang kinukuha kinukuhang kuha kuhang kuhanin kuhaning kukunin kukuning kuna kuning pagkukuha
+92	192	karaniwan	karaniwang napakakaraniwan napakakaraniwang pinakakaraniwan pinakakaraniwang
+93	193	tapos	tapós tas
+94	194	pala	pala'y
+95	195	ama	ama'y amah amma amá
+96	196	pamahalaan	pamahalaang pamamahalaan pamamahalaang pinamahalaan pinamamahalaan pinamamahalaang
+97	197	kasalukuyan	kasalukuyang
+98	198	amin	amen aming amén pag-aamin pagaamin
+99	199	mabuti	buti buting mabubuti mabubuting mabuti't mabuting napakabuti napakabuting pagbubuti pinakamabuti pinakamabuting
+100	200	pumasok	napasok pagpasok papasok papasók pasok pumapasok

@@ -1,0 +1,100 @@
+1	2201	matangkad	matatangkad pinakamatangkad
+2	2202	rebolusyonaryo	rebolusyonaryong
+3	2203	maramihan	maramihang
+4	2204	usok	
+5	2205	ikasal	ikinakasal ikinasal
+6	2206	alitan	alitang pag-aalitan pag-aalitang pagalitan
+7	2207	palaso	palasong palasô
+8	2208	kapitbahay	
+9	2209	balaan	babalaan binabalaan binabalahan binalaan binalaang
+10	2210	kaayusan	kaayusang
+11	2211	peke	pekeng
+12	2212	matawa	matatawa natatawa natatawang natawa natawang
+13	2213	kahalili	kahaliling
+14	2214	magulo	magugulo magugulong magulong nagugulo nagulo nagulong napakagulong pagkagulo pinakamagulong
+15	2215	magbitiw	magbibitiw nagbibitiw nagbitiw pagbibitiw
+16	2216	bote	boteng pagbobote
+17	2217	makakain	makakaing makakakain nakakain nakakaing nakakakain
+18	2218	protektahan	pinoprotektahan pinoprotektahang pinrotektahan poprotektahan
+19	2219	ritwal	rituwal
+20	2220	sona	pagsosona sonang
+21	2221	binti	
+22	2222	ilibing	ililibing inilibing inililibing
+23	2223	ihatid	ihahatid inihahatid inihatid
+24	2224	hardin	paghahardin
+25	2225	saglit	
+26	2226	magsanib	magsasanib nagsanib nagsasanib pagsasanib
+27	2227	pinanggalingan	pinanggalingang
+28	2228	matanggal	matatanggal natanggal natatanggal
+29	2229	vi	
+30	2230	ligaw	ligao pagliligaw
+31	2231	opera	operang
+32	2232	maghati	maghahati naghahati naghahating naghati paghahati paghahating paghati
+33	2233	entablado	entabladong
+34	2234	malambot	malalambot napakalambot pinakamalambot
+35	2235	tagapagsalita	tagapagsalitang
+36	2236	konsiyerto	konsiyertong konsyerto konsyertong pagkokonsiyerto
+37	2237	liga	ligang
+38	2238	magtanim	magtatanim nagtanim nagtatanim pagtanim pagtatanim
+39	2239	katungkulan	katungkulang
+40	2240	reputasyon	reputasyong
+41	2241	pumutol	ipinaputol ipinuputol ipinutol mapuputol maputol maputulan napuputol naputol naputulan pagputol pinuputol pinutulan pumuputol puputol puputulan putulan
+42	2242	ipahiwatig	ipinahihiwatig ipinahiwatig ipinapahiwatig
+43	2243	binata	binata't binata'y binatang
+44	2244	eme	emi ems
+45	2245	dahan-dahan	dahan-dahang
+46	2246	sekreto	sekretong sikreto sikretong
+47	2247	misteryo	misterio misteryong
+48	2248	gamutin	gagamutin ginagamot ginamot ipagamot ipapagamot magagamot magamot maipagamot nagagamot nagamot paggamutan
+49	2249	manggagamot	mangagamot
+50	2250	etniko	etnikong
+51	2251	katauhan	katauhang
+52	2252	korona	koronang pagkokorona pagkorona
+53	2253	maigi	maiging maiigi napakaigi
+54	2254	lunas	paglulunas paglunas
+55	2255	tuwiran	tuwirang
+56	2256	haligi	haliging
+57	2257	walang-hiya	kawalanghiya walang-hiyang walanghiya
+58	2258	matuwid	matutuwid pagmamatuwid pagtutuwid tuwid tuwíd
+59	2259	potensiyal	potensyal
+60	2260	himala	himalang
+61	2261	ipasok	ipapasok ipinapasok ipinasok
+62	2262	sayang	
+63	2263	umagos	aagos agusan agusang pag-agos umaagos
+64	2264	mapagtanto	mapagtantong napagtanto napagtantong napagtatanto napagtatantong
+65	2265	umiwas	iiwas iniiwas pagiwas umiiwas
+66	2266	linawin	lilinawin nilinaw
+67	2267	sumuri	pagsuri pagsuring sumusuri sumusuring susuri
+68	2268	kawawa	kawawang wawa wawang wawà
+69	2269	pagsasaayos	
+70	2270	bandila	bandilang
+71	2271	magbawas	magbabawas nagbabawas nagbawas pagbabawas
+72	2272	muskulado	maskulado maskuladong
+73	2273	aklatan	aklatang
+74	2274	dila	dilan dilang
+75	2275	akademiko	akademika akademikong pag-akademiko
+76	2276	porma	pormang
+77	2277	pamamahagi	pamamahaging
+78	2278	kromosoma	kromosomang
+79	2279	interpretasyon	interpretasyong
+80	2280	lalagyan	lalagyang lalagyán
+81	2281	saya	
+82	2282	okasyon	okasyong
+83	2283	maghain	maghahain naghahain naghain paghahain paghain
+84	2284	kutsilyo	kutsilyong
+85	2285	tagagamit	
+86	2286	purihin	pinupuri pinupuring pinuri pupurihin puriin
+87	2287	talim	
+88	2288	konteksto	kontekstong
+89	2289	interesado	interesadong
+90	2290	karapat-dapat	
+91	2291	estatwa	estatuwa estatuwang estatwang istatuwa istatuwang istatwa istatwang
+92	2292	takpan	takipan tatakpan tinakpan tinatakpan tinatakpang
+93	2293	kabutihan	kabutihang
+94	2294	ipagtanggol	ipagtatanggol ipinagtanggol ipinagtatanggol
+95	2295	aksiyon	aksiyong aksiyón
+96	2296	sumira	pagsira sisira sumisira
+97	2297	markahan	mamarkahan markahang minamarkahan minarkahan minarkahang namarkahan
+98	2298	maglayo	naglalayo naglalayong naglayo naglayong paglalayo paglalayong
+99	2299	tonelada	toneladang
+100	2300	lagay	

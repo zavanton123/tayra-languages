@@ -1,0 +1,100 @@
+1	1801	luklukan	luklukang
+2	1802	makatulog	makakatulog matulugan matutulugan nakakatulog nakatulog nakatutulog nakitulog tinulugan tinutulugan tulogan tulugan
+3	1803	dalawampu	dalawampu't dalawampung dalwampu't
+4	1804	usapin	usaping
+5	1805	tigilan	tinigilan titigilan
+6	1806	bintana	bintanang
+7	1807	ta	tang
+8	1808	malinis	malilinis pinakamalinis
+9	1809	magsinungaling	magsisinungaling nagsinungaling nagsisinungaling pagsisinungaling
+10	1810	makaalis	makaaalis makakaalis nakaaalis nakaalis
+11	1811	demonyo	demonio demonyong
+12	1812	magkamit	kumamit magkakamit nagkakamit nagkamit pagkamit
+13	1813	guluhin	ginugulo ginugulong ginulo guguluhin
+14	1814	ilaan	ilalaan ilalaang inilaan inilaang inilalaan inilalaang
+15	1815	bili	biling
+16	1816	maibigay	naibigay
+17	1817	mataba	kataba matataba matatabang napakataba pinakamataba
+18	1818	sumamba	pagsamba pagsambang sasamba sumasamba sumasambang
+19	1819	kabaligtaran	kabaligtarang kabaliktaran kabaliktarang
+20	1820	pundasyon	pundasyong
+21	1821	kasali	kasaling pagkakasali pagkasali
+22	1822	madalang	dalang nadalang napakadalang pinakamadalang
+23	1823	maligo	maliligo naligo naliligo
+24	1824	doble	dobleng dubli pagdodoble
+25	1825	deretso	derecho deretsong diretso diretsong
+26	1826	unlad	pag-uunlad
+27	1827	buod	boor pinakabuod
+28	1828	direk	
+29	1829	karunungan	karunungang
+30	1830	timbang	
+31	1831	marka	markang
+32	1832	takutin	natatakot tinakot tinatakot
+33	1833	lumipas	lilipas lumilipas
+34	1834	tumulak	itinulak itinutulak itulak itutulak maitulak naitutulak pagtulak tulakan tumutulak tutulak
+35	1835	hingal	
+36	1836	ipaalam	ipaaalam ipapaalam ipinaaalam ipinaalam ipinapaalam pinapaalam
+37	1837	mag-away	inaaway magaway nag-aaway nag-away nagaaway pag-aaway
+38	1838	sumalakay	pagsalakay sasalakay sumasalakay
+39	1839	makaupo	makakaupo nakaupo nakaupong nakauupo
+40	1840	tsaka	chaka tsakang
+41	1841	pananalapi	pananalaping
+42	1842	saksi	saksing
+43	1843	bartender	
+44	1844	konstitusyon	konstitusyong
+45	1845	mangangalakal	
+46	1846	apostol	apostoles apostól
+47	1847	taksi	taksing taxi
+48	1848	barya	baria bariang baryang
+49	1849	bumoto	boboto bobotong bumoboto bumotong naboto pagboto pagbotong
+50	1850	liwasan	liwasang
+51	1851	manawagan	manawagang nananawagan nananawagang nanawagan panawagan panawagang
+52	1852	itampok	itatampok itinampok itinatampok
+53	1853	talumpati	talumpating
+54	1854	magasin	magasing pag-aasin pagaasin
+55	1855	magtungo	magtutungo nagtungo nagtungong nagtutungo
+56	1856	pangangasiwa	pangangasiwang
+57	1857	disiplina	disiplinang
+58	1858	panauhin	panauhing
+59	1859	gunggong	
+60	1860	daliri	daliring dalirì pagdadaliri
+61	1861	komite	komiteng kumite kumiteng
+62	1862	magbilang	binibilang mabibilang mabilang magbibilang nabibilang nabilang nagbibilang nagbilang nakikibilang pagbibilang
+63	1863	talambuhay	
+64	1864	kamag-anak	kaanak
+65	1865	tupa	pagtitipa tipa tupang
+66	1866	iskolar	
+67	1867	tinapay	
+68	1868	pasukan	papasukan pasukang pinapasukan pinapasukang pinasukan pinasukang
+69	1869	reklamo	reklamong
+70	1870	banta	bantang bantâ
+71	1871	atakihin	aatakihin inaatake inatake naatake
+72	1872	bakas	bakás pagbabakas
+73	1873	pasukin	pasuking pinapasok pinasok
+74	1874	matematika	matematikang
+75	1875	magtala	magtatala nagtala nagtatala pagtala pagtatala
+76	1876	dumalaw	dadalaw dadalawin dalawin dalawing dinadalaw dinalaw dumadalaw ipapadalaw madadalaw nadalaw
+77	1877	ilegal	iligal
+78	1878	sarado	saradong
+79	1879	tag-init	
+80	1880	sumulong	nasulong pagsulong sulong sumusulong susulong
+81	1881	pulgada	pulgadang
+82	1882	maglunsad	lumunsad maglulunsad naglulunsad naglunsad paglulunsad paglunsad
+83	1883	sangkot	kinasasangkutan kinasasangkutang
+84	1884	labindalawa	labindalawang labing-dalawa labing-dalawang labingdalawa labingdalawang
+85	1885	reporma	pagreporma pagrereporma repormang
+86	1886	kawal	pagkawal
+87	1887	luha	luhang pagluluha
+88	1888	bilanggo	bilanggong bilanggô bilango bilangong pagbilanggo
+89	1889	magtaguyod	magtataguyod nagtaguyod nagtataguyod pagtaguyod pagtataguyod
+90	1890	kasamahan	kasamahang
+91	1891	magkaibigan	magkaibigang nagkaibigan
+92	1892	kumportable	komportable komportableng kumportableng
+93	1893	dambana	dambanang lambana
+94	1894	talata	talatang
+95	1895	alinman	alinmang
+96	1896	responsable	responsableng
+97	1897	magtakda	magtatakda nagtakda nagtakdang nagtatakda nagtatakdang pagtakda pagtatakda
+98	1898	buwis	
+99	1899	abo	abong
+100	1900	madaya	daya dayain dinadaya dinaraya dinaya dinayang nadaya pagdaya pandaraya pandarayang raya

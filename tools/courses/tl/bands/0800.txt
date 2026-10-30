@@ -1,0 +1,100 @@
+1	701	maghiwalay	hiniwalayan hiwalayan hiwalayang ihihiwalay ihinihiwalay ihiniwalay ihiwalay inihihiwalay inihiwalay ipaghiwalay maghihiwalay maihiwalay makipaghiwalay naghihiwalay naghiwalay naihiwalay paghihiwalay paghiwalay
+2	702	ministro	ministrong pagmiministro pagmiministrong
+3	703	drama	dramang
+4	704	indibidwal	indibiduwal
+5	705	kalayaan	calayaan kalayaang kalayaán
+6	706	naku	nako nakong nakú
+7	707	operasyon	operasyong
+8	708	espesyal	ispesyal
+9	709	kalikasan	kalikasang pinakakalikasan
+10	710	balita	balita't balità
+11	711	tradisyonal	pinakatradisyonal pinakatradisyunal tradisyunal
+12	712	listahan	listahang
+13	713	relihiyon	pagrelihiyon relihiyong
+14	714	pangako	pagpapangako pangakong pangakò
+15	715	kompanya	kompaniyang kompanyang kumpaniya kumpaniyang
+16	716	magtayo	magtatayo nagtatayo nagtayo pagtatayo
+17	717	uminom	iinom iinuman iniinom ininumang inuman ipainom ipapainom ipinaiinom ipinapainom maiinom mainom maipainom naiinom nainom paginom umiinom
+18	718	paa	paang pinakapaa
+19	719	labis	pinakalabis
+20	720	suri	pagsusuri pagsusuring suring
+21	721	yaon	yao
+22	722	sakop	nasasakupan nasasakupang pagsasakop
+23	723	maglagay	maglalagay naglagay naglalagay paglagay paglalagay
+24	724	malamang	malamáng pinakamalamang
+25	725	ate	ati te teh teng
+26	726	sarap	ansarap
+27	727	bilisan	bibilisan binilisan
+28	728	mainit	maiinit napakainit pinakamainit
+29	729	magbayad	binabayaran binabayarang mababayaran mabayaran magbabayad nababayaran nababayarang nabayaran nabayarang nagbabayad nagbayad pagbabayad pagbayad pagbayaran
+30	730	agham	aghám pag-agham
+31	731	publiko	publikong
+32	732	kumanta	ikanta ikinanta ipakanta kakanta kakantahin kantahan kantahin kantahing kinakanta kinakantahan kinanta kinantahan kumakanta kumakantang makanta nakanta pagkanta pagkanta't
+33	733	magbalik	magbabalik nagbabalik nagbalik pagbalik
+34	734	pamayanan	pamayanang
+35	735	pananaw	pananáw
+36	736	makagawa	makagagawa makakagawa nakagagawa nakagagawang nakagawa nakagawang nakakagawa
+37	737	pandaigdigan	pandaigdigang
+38	738	hawak	pinanghahawakan pinanghahawakang
+39	739	pumayag	pagpapayag pagpayag papayag payag pumapayag
+40	740	masira	masirang masisira masisirang nasira nasirang nasisira nasisirang
+41	741	moderno	modernong pinakamoderno pinakamodernong
+42	742	likhain	lilikhain lilikhaing linikha nilikha nilikhang
+43	743	tunog	tunóg
+44	744	ugnayan	pag-ugnayan pag-uugnayan pag-uugnayang paguugnayan ugnayang uugnayan
+45	745	disenyo	disenyong
+46	746	krus	kruz kurus pagkrus pagkukrus
+47	747	pari	pari't paring
+48	748	punto	pagpupunto ponto punto't puntong
+49	749	pagdiriwang	
+50	750	makasama	makakasama makasasama nakakasama nakakasamang nakasama nakasamang nakasasama nakasasamang
+51	751	magpanatili	ipapanatili magpapanatili mapanatili mapanatiling mapapanatili mapapanatiling nagpanatili nagpapanatili nagpapanatiling napanatili napanatiling napapanatili napapanatiling pagpanatili pagpapanatili pagpapanatiling pinapanatili pinapanatiling
+52	752	kaalaman	kaalamang
+53	753	apoy	
+54	754	organisasyon	org organisasyong
+55	755	makina	
+56	756	matagumpay	matatagumpay napakatagumpay natagumpay pinakamatagumpay
+57	757	magkasama	magkakasama magkakasamang magkasamang nagkakasama nagkasama pagkakasama pagkasama
+58	758	naganap	iginanap
+59	759	mama	mamang
+60	760	mahilig	mahihilig nahihilig nahilig napakahilig pinakamahilig
+61	761	yata	ata yatang ᜀᜆ
+62	762	estilo	estilong istilo istilong
+63	763	katoliko	katolikong
+64	764	pamunuan	pamumunuan pamunuang pinamumunuan pinamumunuang pinamunuan pinamunuang
+65	765	labi	labi't labì labí
+66	766	hintayin	hihintayin hinihintay hinintay hintaying paghihintayin
+67	767	termino	terminong
+68	768	gumalaw	gagalaw gumagalaw nagalaw paggalaw
+69	769	mabigat	bigat mabibigat napakabigat pinakamabigat
+70	770	gayundin	gayunding
+71	771	mang-aawit	
+72	772	kalakihan	kalakhan kalakhang kalakihang kinalakihan kinalakihang
+73	773	kalagayan	kalagayang
+74	774	kumilos	kikilos kumikilos pagkilos
+75	775	magpadala	magpapadala nagpadala nagpadalang nagpapadala nagpapadalang pagpadala pagpapadala pagpapadalang
+76	776	kasunduan	kasunduang pagkakasunduan pagkakasunduang pagkasunduan
+77	777	puwit	puwet pwet
+78	778	makarating	makakarating makararating nakakarating nakararating nakarating
+79	779	tahimik	napakatahimik pinakatahimik
+80	780	tumahimik	natahimik pagtahimik tatahimik tumatahimik
+81	781	payagan	papayagan papayagang payagang pinapayagan pinapayagang pinayagan pinayagang
+82	782	sitwasyon	situwasyon situwasyong sitwasyong
+83	783	baybayin	babaybayin baybaying binabaybay binaybay ibaybay ibinabaybay ibinaybay nababaybay nabaybay
+84	784	gubat	paggugubat
+85	785	kalaban	kalabang
+86	786	numero	numerong
+87	787	maglingkod	maglilingkod naglilingkod naglingkod paglilingkod paglingkod paglingkuran pinaglilingkuran pinaglilingkurang
+88	788	ibon	ibong
+89	789	kahoy	
+90	790	malinaw	malilinaw napakalinaw pinakamalinaw
+91	791	klima	klimang
+92	792	siyudad	syudad
+93	793	kuya	coya koya koyang
+94	794	iligtas	ililigtas iniligtas inililigtas
+95	795	yaman	yamang
+96	796	sagutin	ipasagot isagot isasagot isinagot isinasagot maisagot masagot masasagot nasagot nasagutang nasasagot sagutan sagutang sasagutin sinagot sinasagot sinasagutan
+97	797	magtatag	magtatatag nagtatag nagtatatag natatatag pagtatag pagtatatag tatagin tinatag tinatatag
+98	798	langis	
+99	799	tandaan	tandaang tatandaan tinandaan tinandaang tinatandaan
+100	800	hanay	paghahanay

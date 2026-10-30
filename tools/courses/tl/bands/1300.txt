@@ -1,0 +1,100 @@
+1	1201	maiwan	maiiwan maiiwang maiwang naiiwan naiiwang naiwan naiwang
+2	1202	dinastiya	dinastiyang
+3	1203	park	
+4	1204	kongreso	konggreso konggresong kongresong
+5	1205	kapalit	
+6	1206	hotel	
+7	1207	matuto	matutong matututo matututong natuto natutong natututo natututong
+8	1208	makausap	makakausap nakakausap nakausap
+9	1209	unyon	unyong
+10	1210	pansamantala	pansamantalang
+11	1211	senado	senadong
+12	1212	pader	
+13	1213	leon	leong león liyon liyong
+14	1214	malay	
+15	1215	selula	selulang
+16	1216	bisita	bisita'y bisitang pagbibisita pagbibisitang
+17	1217	lindol	
+18	1218	maabot	maaabot naaabot naabot
+19	1219	paglipas	
+20	1220	alipin	aliping pag-aalipin
+21	1221	impeksiyon	impeksiyong impeksyon impeksyong
+22	1222	ninuno	ninunong pagninuno pinakaninuno
+23	1223	batayan	batayang binabatayan binatayan pagbabatayan pagbabatayang pagbatayan pinakabatayan
+24	1224	milya	milyang pagmimilya
+25	1225	sakupin	sasakupin sinakop sinasakop
+26	1226	mensahe	mensaheng pagmemensahe
+27	1227	kuryente	kuryenteng pagkukuryente
+28	1228	kumagat	kagatan kagatin kakagat kakagatin kinagat kinakagat kinakagatan kumakagat makagat makakagat nakagat nakakagat pagkagat
+29	1229	panukala	panukalang
+30	1230	kapanganakan	kapanganakang
+31	1231	regalo	pagreregalo regalong
+32	1232	bayag	
+33	1233	konseho	konsehong
+34	1234	solusyon	solusyong
+35	1235	tulog	pagtulog
+36	1236	datu	dato datong datung
+37	1237	sumuporta	pagsuporta pagsuportang sumusuporta sumusuportang susuporta
+38	1238	kagubatan	kagubatang
+39	1239	kalendaryo	kalendaryong
+40	1240	gobernador	gobernadora gubernador
+41	1241	sakali	sakaling
+42	1242	mangako	mangangako nangako nangakong nangangako nangangakong
+43	1243	da	
+44	1244	metal	pagmemetal
+45	1245	magluto	magluluto nagluluto nagluto pagluluto pagluto paglutong
+46	1246	ahas	
+47	1247	makapunta	makakapunta makapupunta nakapunta nakapupunta
+48	1248	kategorya	kategoriya kategoryang pagkakategorya pagkategorya
+49	1249	krimen	krimeng
+50	1250	sumabog	pagsabog pagsasabog sabog sasabog sumasabog
+51	1251	magtagumpay	magtatagumpay nagtagumpay nagtatagumpay pagtagumpay pagtatagumpay
+52	1252	ipatupad	ipapatupad ipatutupad ipinapatupad ipinatupad ipinatutupad
+53	1253	bahagya	bahagyang
+54	1254	puta	pucha putang putik putris shuta
+55	1255	padre	padreng
+56	1256	pakainin	pakain pakaing papakainin pinakain pinapakain
+57	1257	habulin	habulan hahabulin hinabol hinahabol inihabol mahabol mahahabol nahabol nakihabol
+58	1258	nag-iisa	nag-iisang
+59	1259	yelo	iyelo yelong
+60	1260	pulisya	polisiya polisiyang polisya polisyang pulisyang
+61	1261	pananampalataya	pananampalatayang
+62	1262	hilingin	hihilingin hihilinging hilinging hinihiling hiniling
+63	1263	tito	tita titong
+64	1264	katunayan	katunayang
+65	1265	aywan	ewan inaayawan inaayawang inayawan
+66	1266	tumugon	pagtugon pagtugong tumutugon tumutugong tutugon
+67	1267	kalagitnaan	kalagitnaang
+68	1268	magpahinga	magpapahinga mamahinga nagpahinga nagpapahinga nagpapahingang namamahinga namamahingang pagpapahinga
+69	1269	mura	mora murang napakamura napakamurang pinakamura pinakamurang
+70	1270	ilong	
+71	1271	pampolitika	pampolitikang
+72	1272	iglesya	iglesia iglesiang iglesiya iglesyang
+73	1273	mag-ingat	mag-iingat magingat nag-iingat nag-ingat nagiingat pag-iingat pag-ingat pagiingat
+74	1274	lansangan	lansangang
+75	1275	ikot	pag-iikot
+76	1276	nakakatawa	nakakatawang
+77	1277	tampok	pinakatampok
+78	1278	lambak	lambac
+79	1279	umakyat	aakyat akyatin akyating iakyat inaakyat inakyat iniaakyat iniakyat maakyat naakyat pag-akyat pagakyat umaakyat
+80	1280	kumpara	ikukumpara
+81	1281	was	waz wis wit wiz
+82	1282	palakihin	palaki pinalaki pinalaking pinalalaki pinalalaking pinapalaki
+83	1283	panloob	pinakapanloob
+84	1284	magkalat	magkakalat nagkakalat nagkalat pagkakalat pagkalat
+85	1285	tipan	pagtitipan tipang tipi tipán
+86	1286	umatake	aatake pag-atake pag-atakeng pagatake umaatake umaatakeng umatakeng
+87	1287	hinaharap	
+88	1288	pista	pagpipista pistang pistá
+89	1289	putulin	pagpuputol pinuputol pinutol puputulin putol
+90	1290	kagandahan	kagandahang
+91	1291	mabaliw	mababaliw nababaliw nabaliw
+92	1292	kaluluwa	kaluluwang
+93	1293	pamagatan	pinamagatan pinamagatang
+94	1294	ilathala	ilalathala ilalathalang inilalathala inilalathalang inilathala inilathalang
+95	1295	internasyonal	
+96	1296	matatag	matatatag natatag natatatag pinakamatatag
+97	1297	katedral	
+98	1298	perpekto	napakaperpekto perpektong
+99	1299	lagyan	ipagpalagay ipinagpapalagay ipinapagpalagay lagayan lalagayan malagyan malalagyan nalagyan nalalagyan nilagayan nilagyan nilalagayan nilalagyan paglagyan paglalagyan pinaglalagyan
+100	1300	matalino	matalinong matatalino matatalinong napakamatalino napakatalino napakatalinong pinakamatalino pinakamatalinong

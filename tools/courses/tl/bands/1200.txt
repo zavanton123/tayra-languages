@@ -1,0 +1,100 @@
+1	1101	timog-silangan	timog-silangang
+2	1102	kahalagahan	kahalagahang
+3	1103	bunga	bonga bungang
+4	1104	salapi	salaping
+5	1105	lubos	pinakalubos
+6	1106	interes	interés
+7	1107	alagad	
+8	1108	pilipino	pilipinong
+9	1109	gastos	
+10	1110	ngipin	ipin ngiping
+11	1111	dantaon	daantaon daantaong dantaong
+12	1112	baboy	pagbababoy
+13	1113	aktibidad	
+14	1114	kilos	pagkikilos
+15	1115	heograpiya	heograpiyang heyograpiya
+16	1116	kakulangan	kakulangang
+17	1117	bida	bidang pinagbibidahan pinagbibidahang pinakabida
+18	1118	puwersa	pagpupuwersa pagpuwersa puwersang
+19	1119	positibo	positibong
+20	1120	sigaw	
+21	1121	manok	manu manók
+22	1122	pondo	pagpopondo pagpopondong pondong
+23	1123	makasaysayan	makakasaysayan makasaysayang pinakamakasaysayan pinakamakasaysayang
+24	1124	damdamin	damdaming daramdamin dinamdam dinaramdam
+25	1125	sangay	pagsasangay
+26	1126	regular	regulár
+27	1127	kaagad	kagad
+28	1128	dayuhan	dayuhang
+29	1129	sira-ulo	sira-ulong siraulo
+30	1130	magwagi	magwawagi nagwagi nagwaging nagwawagi nagwawaging pagwagi pagwawagi pagwawaging
+31	1131	kristo	cristo kristo'y kristong
+32	1132	paglalarawan	paglalarawang
+33	1133	politika	politikang pulitika pulitikang
+34	1134	bola	bolang
+35	1135	utang	
+36	1136	lumayo	lalayo lalayong lumalayo paglayo
+37	1137	manood	nanonood nanood
+38	1138	makaligtas	makakaligtas makaliligtas nakaligtas nakaliligtas
+39	1139	tiyan	tyan
+40	1140	matalo	ikinatalo matatalo matatalong natalo natalong natatalo natatalong
+41	1141	palasyo	palasio palasyong
+42	1142	mag-isa	mag-iisa mag-iisang mag-isang nagiisa nagiisang nagisa pagiisa
+43	1143	malalim	malalalim napakalalim pinakamalalim
+44	1144	mayor	
+45	1145	mapa	mapang pagmamapa pagmamapang pagmapa
+46	1146	kopya	kopyang pagkokopya
+47	1147	kilusan	kilusang
+48	1148	kapayapaan	kapayapaang
+49	1149	pansin	pansing
+50	1150	alaala	ala-ala alaalang alala pag-aalaala pag-alaala pagaalaala
+51	1151	harapan	harapang hinaharapan hinaharapang
+52	1152	suspek	
+53	1153	kalakalan	kalakalang
+54	1154	tema	temang
+55	1155	makahanap	makahahanap makakahanap nakahahanap nakahanap
+56	1156	manloko	linoko lokohin lolokohin maloko maloloko naloko naloloko nanloko nanloloko niloko niloloko
+57	1157	dumalo	dadalo daluhan dinadaluhan dinadaluhang dumadalo dumadalong dumalong dumaló pagdalo
+58	1158	gago	gaga gagong gg
+59	1159	pasahero	pasaherong
+60	1160	pag-asa	pag-asang
+61	1161	espiritu	espirito espiritong espiritung ispirito ispiritu
+62	1162	kunan	kinuhaan kinukunan kinunan kuhaan kuhanan kukuhanan kukunan kuni pagkukunan
+63	1163	gutom	paggutom
+64	1164	heneral	
+65	1165	dahon	dahong
+66	1166	aya	ayang yaya yayang yayo
+67	1167	nakatatakot	nakakatakot pinakanakatatakot
+68	1168	burol	buról
+69	1169	sangkap	
+70	1170	dako	dakong dakò
+71	1171	malamig	malalamig napakalamig pinakamalamig
+72	1172	alamat	
+73	1173	umupo	magupo naupo pag-upo pagupo umuupo umuupong uupo uupong
+74	1174	kalsada	kalsadang karsada
+75	1175	itakda	itatakda itatakdang itinakda itinakdang itinatakda itinatakdang
+76	1176	ituloy	itinuloy itinutuloy itutuloy
+77	1177	panalo	panalong pansalo
+78	1178	magkaisa	magkaisang magkakaisa magkakaisang nagkaisa nagkaisang nagkakaisa nagkakaisang
+79	1179	sala	pagsasala salah salas salà
+80	1180	masaktan	masasaktan masasaktang nasaktan nasaktang nasasaktan
+81	1181	maliwanag	maliliwanag maliuanag napakaliwanag pinakamaliwanag
+82	1182	madilim	dilim madidilim napakadilim pagdidilim pinakamadilim
+83	1183	binago	binagong
+84	1184	paliparan	paliparang
+85	1185	komunikasyon	komunikasyong pagkomunikasyon
+86	1186	hiwalay	pinakahiwalay
+87	1187	ilunsad	ilulunsad inilulunsad inilunsad
+88	1188	magsulat	magsusulat nagsulat nagsusulat
+89	1189	bangko	bangkong pagbabangko pagbabangkong
+90	1190	imungkahi	iminumungkahi iminumungkahing iminungkahi iminungkahing imumungkahi imungkahing
+91	1191	hubad	
+92	1192	aminin	aaminin ikaamin inaamin inamin inaming maamin maaming
+93	1193	el	
+94	1194	dulot	
+95	1195	kurso	kursong
+96	1196	seksuwal	sekswal
+97	1197	ipakilala	ipapakilala ipinakilala ipinakilalang ipinapakilala
+98	1198	taba	
+99	1199	malungkot	malulungkot nalulungkot nalungkot napakalungkot pinakamalungkot
+100	1200	italaga	italagang itatalaga itatalagang itinalaga itinalagang itinatalaga itinatalagang

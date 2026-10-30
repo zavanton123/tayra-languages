@@ -1,0 +1,100 @@
+1	1001	aral	arál pinakaaral
+2	1002	suot	soot
+3	1003	umano	naano umano'y umanong
+4	1004	misyon	misyong
+5	1005	pamantayan	pagpapamantayan pamantayang
+6	1006	suportahan	sinuportahan sinuportahang sinusuportahan sinusuportahang susuportahan
+7	1007	legal	ligal
+8	1008	tirahan	pagtitirahan tinirahan tinitirahan tinitirahang tirahang tirahi tirhan
+9	1009	bayani	bayaning
+10	1010	aniya	aniya'y aniyang
+11	1011	senador	senadora
+12	1012	gumana	gagana gumagana gumaganang paggana pagganang
+13	1013	susi	susing
+14	1014	alak	
+15	1015	sumulat	nasulat sumusulat susulat
+16	1016	sumubok	pagsubok sumusubok susubok
+17	1017	tindahan	tindahang
+18	1018	makapangyarihan	makakapangyarihang makapangyarihang pinakamakapangyarihan pinakamakapangyarihang
+19	1019	kontrata	kontratang
+20	1020	kayamanan	kayamanang
+21	1021	hugis	paghuhugis
+22	1022	sandata	sandatang
+23	1023	titi	tite titing
+24	1024	humanda	hahanda handaan handaang handahan handain hinahanda hinanda hinandang humahanda ihahanda ihahandang ihanda ihinahanda ihinanda ikahahanda inihahanda inihahandang inihanda inihandang ipahanda maihanda manda mapaghandaan nahahandang nahanda napaghahandaan paghandaan pinaghahandaan
+25	1025	ugat	pinakaugat ugát
+26	1026	sintomas	sintoma
+27	1027	malawakan	malawakang
+28	1028	tanda	pinakatandang tandang tandâ
+29	1029	hawakan	hahawakan hawakang hinahawakan hinahawakang hinawakan hinawakang mahahawakan mahahawakang mahawakan nahahawakan nahahawakang nahawakan pinaghahawakan pinaghahawakang
+30	1030	magresulta	magreresulta nagreresulta nagreresultang nagresulta nagresultang
+31	1031	titik	pagtitik pinakatitik
+32	1032	ilipat	ililipat ilinilipat ilinipat inililipat inilipat
+33	1033	agrikultura	agrikulturang
+34	1034	magulat	mag-ulat mag-uulat magugulat nag-ulat nag-uulat nagugulat nagulat naguulat pag-ulat pag-uulat pagulat paguulat
+35	1035	tanggapan	tanggapang
+36	1036	bibig	pinakabibig
+37	1037	kaarawan	kaarawang
+38	1038	lawak	napakalawak pinakalawak
+39	1039	himpilan	himpilang
+40	1040	tulay	pagtutulay
+41	1041	boses	pagboboses pagboses
+42	1042	awtoridad	autoridad otoridad
+43	1043	kamakailan	kamakailang
+44	1044	pansinin	pansining papansinin pinansin pinapansin
+45	1045	kanan	canan kakanan kanang pinakakanan pinakakanang
+46	1046	lumahok	lalahok lumalahok paglahok
+47	1047	reyna	reynang
+48	1048	magtagal	magtatagal nagtagal nagtatagal pagtatagal
+49	1049	lokasyon	lokasyong
+50	1050	barilin	babarilin binabaril binaril ibinaril mabaril nabaril pagbabarilin
+51	1051	ipaliwanag	ipaliliwanag ipapaliwanag ipinaliliwanag ipinaliwanag ipinapaliwanag
+52	1052	temperatura	temperaturang
+53	1053	kalye	kalyeng
+54	1054	pagtatapos	pagtatapós
+55	1055	katayuan	katayuang
+56	1056	dumaloy	dadaloy daluyan daluyang dinadaluyan dinadaluyang dumadaloy pagdaloy
+57	1057	itigil	itinigil itinitigil ititigil
+58	1058	obispo	obispong
+59	1059	hakbang	
+60	1060	residente	residenteng
+61	1061	institusyon	institusyong
+62	1062	direkta	direktang pinakadirekta pinakadirektang
+63	1063	pagsasanay	
+64	1064	siyam	siyám
+65	1065	karanasan	karanasang karanasán
+66	1066	seryoso	seryosong
+67	1067	gas	gaas paggagas
+68	1068	bayaran	babayaran bayarang binabayaran binabayarang binayaran binayarang mababayaran mabayaran nababayaran nababayarang nabayaran nabayarang pagbayaran
+69	1069	pagkaraan	pagkaraang
+70	1070	politiko	politikong pulitiko pulitikong
+71	1071	simbolo	pagsisimbolo simbolong
+72	1072	templo	templong
+73	1073	isipan	iisipan isipang pag-iisipan pag-isipan pag-isipang pagisipan
+74	1074	pag-unlad	
+75	1075	ahensiya	ahensiyang ahensya ahensyang
+76	1076	kondisyon	kondisyong pagkokondisyon
+77	1077	kapitan	capitan capitang kakapitan kapitana kapitang kapitán kinakapitan kinapitan
+78	1078	dokumento	dokumentong pagdodokumento pagdokumento
+79	1079	pwersa	pwersang
+80	1080	kagabi	
+81	1081	propesyonal	
+82	1082	kapanahunan	kapanahunang
+83	1083	boyprend	boypren
+84	1084	ginang	ginoo ginoong guinoo guinoong
+85	1085	panatilihin	pananatilihin pananatilihing panatili panatilihing panatiliin panatiliing pinananatili pinananatiling pinanatili pinanatiling pinapanatili pinapanatiling
+86	1086	nakatayo	nakatayong
+87	1087	magkamali	magkakamali magkamaling nagkakamali nagkakamaling nagkamali nagkamaling
+88	1088	kahapon	kahapong
+89	1089	upuan	inupuan inuupuan upan upuang
+90	1090	korte	korteng
+91	1091	bulaklak	bulaklák pagbulaklak
+92	1092	maghari	maghahari maghaharing naghahari naghaharing naghari nagharing paghahari paghaharing paghari
+93	1093	tipo	tipong
+94	1094	kuwarto	kuwartong
+95	1095	doktor	doktora
+96	1096	butas	
+97	1097	masakit	masaquit masasakit napakasakit pinakamasakit
+98	1098	porsiyento	porsiyentong porsyento porsyentong pursiyento pursyento pursyentong
+99	1099	tapat	napakatapat pinakatapat tapát
+100	1100	edisyon	edisyong

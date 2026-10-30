@@ -1,0 +1,100 @@
+1	6301	katalan	katalang
+2	6302	akayin	inaakay maakay naakay
+3	6303	labingwalo	labing-walo labing-walong labingwalong
+4	6304	pantukoy	
+5	6305	palamigin	palamig palamigang pinalamig pinapalamig
+6	6306	pagkaalipin	
+7	6307	saatin	
+8	6308	salo	salò
+9	6309	magpatrulya	magpatrolya nagpapatrulya nagpapatrulyang pagpapatrulya
+10	6310	kali	kale
+11	6311	galos	
+12	6312	guhitin	ginuguhit ginuhit
+13	6313	plata	
+14	6314	gantimpalaan	gagantimpalaan ginagantimpalaan ginantimpalaan ginantimpalaang
+15	6315	guni	guning
+16	6316	paradahan	paradahang pinaparadahan
+17	6317	karin	karing
+18	6318	balingkinitan	balingkinitang
+19	6319	industriyalisasyon	industrialisasyon industriyalisasyong
+20	6320	lokohan	
+21	6321	asupre	asupreng
+22	6322	barong	
+23	6323	makailang	makakailang nakailang
+24	6324	inagurasyon	inaugurasyon
+25	6325	pangkatin	pangkating pinangkat pinapangkat
+26	6326	gahasain	gagahasain gahasahin ginagahasa ginahasa
+27	6327	kumondena	kumokondena pagkondena pagkondenang
+28	6328	tambak	pagtambak pagtatambak
+29	6329	nakaaalarma	nakakaalarma
+30	6330	nakakatipid	
+31	6331	alkimiya	alkimiyang alkimya
+32	6332	repormasyon	repormasyong
+33	6333	gasgas	
+34	6334	tisa	tisang tiyesa
+35	6335	akuin	inaako inako
+36	6336	tumibok	pagtibok tumitibok
+37	6337	galeon	galeón galyon galyong
+38	6338	magpatala	nagpatala
+39	6339	pamumuo	
+40	6340	matayog	matatayog pinakamatayog
+41	6341	lantaran	lantarang
+42	6342	magiliw	
+43	6343	beki	beking
+44	6344	metapisika	metapisikang
+45	6345	kumubli	kumukubli
+46	6346	lukban	lucban
+47	6347	magpalayas	nagpalayas
+48	6348	mapadala	mapapadala napadala napapadala
+49	6349	tumbas	
+50	6350	teleradyo	
+51	6351	dominyon	dominyong
+52	6352	tadyang	pinakatadyang
+53	6353	pag-aayuno	
+54	6354	panlinis	panglinis
+55	6355	timpalak	
+56	6356	aaban	aabang
+57	6357	magpuyat	nagpupuyat pagpupuyat
+58	6358	magtampo	magtatampo nagtampo nagtatampo
+59	6359	amag	
+60	6360	ibayad	ibabayad ibinabayad ibinayad
+61	6361	bangga	banggang pagbabangga
+62	6362	salansanan	
+63	6363	tumilaok	
+64	6364	pulpol	
+65	6365	amats	amatz
+66	6366	nguso	ngusong
+67	6367	nakakainsulto	nakakainsultong
+68	6368	prekwensiya	prekwensiyang prekwensya
+69	6369	prosa	prosang
+70	6370	ningning	
+71	6371	plema	plemang
+72	6372	tana	tanang
+73	6373	makintab	makikintab napakakintab
+74	6374	martilyo	martilyong pagmamartilyo
+75	6375	maimpluwensya	maimpluwensyang naimpluwensya naimpluwensyang
+76	6376	sindak	
+77	6377	taguri	pagtaguri taguring
+78	6378	interbyu	
+79	6379	malisya	
+80	6380	mabighani	mabibighani nabibighani nabighani
+81	6381	pahiramin	pahihiramin papahiramin pinahiram
+82	6382	resbakan	niresbakan
+83	6383	mabagok	nabagok
+84	6384	magbalikan	nagbalikan
+85	6385	masamain	mamasamain minasama
+86	6386	mapunuan	napunuan napupunuan
+87	6387	malaganap	
+88	6388	magpatawag	nagpatawag
+89	6389	suhestyon	
+90	6390	interogasyon	
+91	6391	saway	
+92	6392	kuwarenta	kwarenta
+93	6393	magsuri	magsusuri nagsuri nagsusuri nagsusuring
+94	6394	tubero	pagtutubero tuberong
+95	6395	pilibusterismo	filibusterismo
+96	6396	amos	
+97	6397	altitud	
+98	6398	kaisahan	kaisahang
+99	6399	magdalo	pagdadalo
+100	6400	manunuri	manunuring

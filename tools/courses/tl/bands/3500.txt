@@ -1,0 +1,100 @@
+1	3401	helmet	
+2	3402	ibahin	iniba inibang iniiba pag-ibahin
+3	3403	nakakaaliw	
+4	3404	iwas	
+5	3405	subaybayan	sinubaybayan sinusubaybayan susubaybayan
+6	3406	labinlima	labing-lima labing-limang labinglima labinglimang labinlimang
+7	3407	pasiya	pasiyang pasya pasyang
+8	3408	bagay-bagay	
+9	3409	saloobin	saloobing
+10	3410	bawang	bauang
+11	3411	moralidad	
+12	3412	atas	
+13	3413	madamay	madadamay nadadamay nadamay
+14	3414	iskedyul	
+15	3415	sulit	
+16	3416	mabangis	mababangis pinakamabangis
+17	3417	pagdaan	pagdaang
+18	3418	asap	
+19	3419	komonwelt	
+20	3420	makasabay	makakasabay nakasabay
+21	3421	pondohan	pinondohan pinopondohan popondohan
+22	3422	makatawid	makakatawid makatatawid nakatatawid nakatawid
+23	3423	etika	etikang
+24	3424	realidad	reyalidad
+25	3425	pabalat	
+26	3426	kumot	
+27	3427	kapkapan	kakapkapan kinapkapan
+28	3428	masimulan	masimulang masisimulan nasimulan nasimulang nasisimulan
+29	3429	mayorya	mayoriya mayoryang
+30	3430	mananakop	
+31	3431	mag-imbak	mag-iimbak magimbak nag-iimbak nag-imbak pag-iimbak pag-imbak pagiimbak
+32	3432	arina	arinang harina harinang
+33	3433	paninigarilyo	
+34	3434	abante	abanteng
+35	3435	sapa	sapà
+36	3436	bandera	banderang
+37	3437	pederasyon	pederasyong
+38	3438	talampas	
+39	3439	balutin	baluting binabalot binalot binalut ibabalot ibalot ibinabalot ibinalot mabalot nababalot nabalot
+40	3440	karbon	karbong karbón
+41	3441	banayad	napakabanayad
+42	3442	misyonero	misyonerong misyunero
+43	3443	gulat	
+44	3444	damuhan	damuhang
+45	3445	albay	
+46	3446	luto	loto lutò
+47	3447	gitarista	gitaristang
+48	3448	matakpan	matatakpan natakpan natatakpan natatakpang
+49	3449	mabini	bini bining mabining
+50	3450	bantayog	
+51	3451	manlalakbay	
+52	3452	konsentrasyon	konsentrasyong
+53	3453	kabalyero	kabalyerong pagkakabalyero
+54	3454	hamak	
+55	3455	publikasyon	publikasyong
+56	3456	makatotohanan	makakatotohanan makakatotohanang makatotohanang pagmakatotohanan
+57	3457	magtulungan	magtutulungan nagtulungan nagtutulungan nagtutulungang pagtulungan pagtulungang
+58	3458	maulit	mauulit nauulit
+59	3459	mantika	mantikang
+60	3460	magpasimula	nagpasimula nagpasimulang
+61	3461	pagbawas	
+62	3462	ilayo	ilalayo inilalayo inilayo
+63	3463	taludtod	
+64	3464	mapalad	mapapalad pinakamapalad
+65	3465	hala	luh
+66	3466	beterano	beteranong
+67	3467	antukin	antok inaantok inantok pag-aantok
+68	3468	mabalitaan	mababalitaan mabalitaang nababalitaan nababalitaang nabalitaan nabalitaang
+69	3469	dumaldal	daldalan pagdaldal
+70	3470	intelektuwal	intelektwal
+71	3471	matikman	matitikman natikman natitikman
+72	3472	kabuluhan	kabuluhang
+73	3473	motibo	motibong
+74	3474	karayom	
+75	3475	kasabihan	kasabihang
+76	3476	kaukulan	kaukulang
+77	3477	abusuhin	aabusuhin inaabuso inaabusong inabuso inabusong maaabuso maabuso naabuso
+78	3478	lumutang	lulutang lumulutang paglutang
+79	3479	kadiri	kadiring pagkadiri
+80	3480	kasaganaan	kasaganaang kasaganahan kasaganahang
+81	3481	ekspresyon	ekspresyong
+82	3482	kampeonato	kampeonatong kampiyonato kampiyonatong
+83	3483	salinlahi	salinglahi salinlahing
+84	3484	palayasin	palalayasin pinalalayas pinalayas pinapalayas
+85	3485	animal	
+86	3486	sentimetro	sentimetrong
+87	3487	agwat	agwát
+88	3488	konsul	konsúl
+89	3489	syota	
+90	3490	ideolohiya	ideolohiyang ideyolohiya ideyolohiyang
+91	3491	upahan	inupahan inuupahan inuupahang upahang
+92	3492	mai	maing
+93	3493	masikip	masisikip pinakamasikip
+94	3494	ulila	ulilang
+95	3495	katatagan	katatagang
+96	3496	magdaos	magdadaos magdaraos nagdadaos nagdaos nagdaraos pagdadaos pagdaos
+97	3497	pagkalooban	pagkaloobang pinagkakalooban pinagkalooban pinagkaloobang
+98	3498	saranggola	saranggolang
+99	3499	galang	
+100	3500	tato	tatu

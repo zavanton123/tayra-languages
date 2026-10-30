@@ -1,0 +1,100 @@
+1	801	patakaran	patakarang
+2	802	natatangi	natatanging
+3	803	balat	balát pagbabalat
+4	804	bersyon	bersyong pagbebersyon
+5	805	pamamahala	pamamahalang pamamahalà
+6	806	mag-isip	mag-iisip magiisip magisip nag-iisip nag-isip nagiisip nagisip pag-iisip pag-isip pagiisip
+7	807	mag-aaral	mag-aarál
+8	808	opo	opong opò
+9	809	karagatan	karagatang
+10	810	katapusan	katapusang
+11	811	magustuhan	magugustuhan nagugustuhan nagustuhan nagustuhang
+12	812	tula	pagtutula tulang
+13	813	matulog	matutulog natulog natutulog
+14	814	normal	
+15	815	alisin	aalisin alisa alising inaalis inalis
+16	816	sumakay	nasakay pagsakay sakay sasakay sumasakay
+17	817	ligtas	pinakaligtas
+18	818	manggagawa	mangagawa mangagawang manggagawang
+19	819	pangalanan	mapangalanan napangalanan napangalanang napapangalanan pangalanang papangalanan papangalanang pinangalanan pinangalanang pinangangalanan pinapangalanan pinapangalanang
+20	820	kaganapan	kagampan kaganapang
+21	821	nilalang	linalang nilaláng
+22	822	ho	hong hô
+23	823	matuwa	matutuwa natutuwa natuwa
+24	824	bumisita	bibisita bibisitahin bibisitahing binibisita binibisitang binisita binisitang bisitahin bisitahing bumibisita bumibisitang bumisitang ibinisita ibisita mabisita nabibisita nabibisitang nabisita pagbisita pagbisitang pinagbibisitahang
+25	825	magtaas	magtataas nagtaas nagtataas pagtaas pagtataas
+26	826	gumising	gigising gising gumigising kagigising nagising
+27	827	ulat	
+28	828	kaugnayan	kaugnayang
+29	829	pakiramdam	
+30	830	puntahan	pinuntahan pinuntahang pinupuntahan pinupuntahang puntahang pupuntahan pupuntahang
+31	831	bagamat	bagama't
+32	832	karne	karneng
+33	833	marahil	
+34	834	koponan	koponang kuponan kuponang kupunan kupunang
+35	835	nood	mapanood mapapanood napanood napapanood noor pinanood
+36	836	kilometro	kilometrong
+37	837	pisikal	
+38	838	palagay	pinalagay pinapalagay
+39	839	direktor	direktora direktorang
+40	840	kama	kamang
+41	841	presyo	pagpepresyo presyong
+42	842	utak	
+43	843	tumama	itama itatama itinama maitama maitatama matamaan matatamaan naitama naitatama natamaan natatamaan pagtama tamaan tatama tatamaan tinamaan tinamaang tinatamaan tinatamaang tumatama
+44	844	libre	libreng paglilibre
+45	845	lumaban	ilaban ilalaban inilaban inilalaban lalaban lumalaban lumalabang makilaban malabanan malalabanan mapaglabanan nakilaban nalabanan nilalabanan paglaban paglabang pinaglalabanan pinaglalabanang
+46	846	lumago	lalago lumagong lumalago lumalagong paglago paglagong
+47	847	sinuman	sinoman sinomang sinumang
+48	848	init	
+49	849	pahina	pahinang
+50	850	biktima	biktimang
+51	851	may-ari	may-aring
+52	852	sabay	pagsasabay
+53	853	kalusugan	kalusugang
+54	854	langit	
+55	855	kailanman	kailanmang
+56	856	elemento	elementong
+57	857	kompetisyon	kompetisyong kumpetisyon kumpetisyong
+58	858	pangarap	
+59	859	panitikan	panitikang
+60	860	isla	
+61	861	niyan	nyan
+62	862	sunod	pagkakasunod pagsusunod
+63	863	telepono	teleponong teléponó
+64	864	itlog	
+65	865	pusa	pusang
+66	866	kulang	pagkukulang
+67	867	hinggil	hinggíl
+68	868	magbukas	magbubukas nagbubukas nagbukas pagbubukas
+69	869	isyu	isyung
+70	870	tayahin	tinataya tinatayang tinaya tinayang
+71	871	akda	akdang
+72	872	lumipad	lilipad lipad lumilipad paglilipad paglipad
+73	873	tumagal	pagtagal tatagal tumatagal
+74	874	dala	dalá
+75	875	umiyak	iiyak iyak naiyak pag-iyak umiiyak
+76	876	radyo	radyong
+77	877	dagdag	
+78	878	opisina	opisinang
+79	879	mahina	mahihina mahihinang mahinang napakahina napakahinang pinakamahina pinakamahinang
+80	880	mangailangan	mangangailangan mangangailangang nangailangan nangailangang nangangailangan nangangailangang
+81	881	kinatawan	kinatawang pinakakinatawan
+82	882	kaguluhan	kaguluhang
+83	883	naturan	naturang
+84	884	kaliwa	kaliwa't kaliwang
+85	885	bus	
+86	886	pagkakaiba	pagkakaiba'y pagkakaibang
+87	887	ugali	pag-uugali pag-uugaling paguugali ugaling
+88	888	walo	walong
+89	889	halalan	halalang
+90	890	retrato	litrato litratong retratong
+91	891	mabait	bait baít mababait napakabait pinakamabait
+92	892	lahi	lahing lahì paglalahi paglalahing
+93	893	emperador	
+94	894	pagmamahal	
+95	895	magtanong	magtatanong nagtanong nagtatanong pagtanong pagtatanong
+96	896	gilid	pinakagilid
+97	897	solo	solong
+98	898	barko	barkong pagbabarko
+99	899	humantong	hahantong humahantong paghantong
+100	900	bituin	bituing bituwin bituwing bituín bitwin butihin butihing

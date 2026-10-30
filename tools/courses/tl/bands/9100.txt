@@ -1,0 +1,100 @@
+1	9001	pag-angkat	
+2	9002	kisap	pagkisap
+3	9003	kubeta	
+4	9004	magayon	pag-aayon
+5	9005	awan	
+6	9006	puwersahan	puwersahang
+7	9007	hawla	
+8	9008	pagilid	
+9	9009	lumbay	
+10	9010	dakot	pagdadakot
+11	9011	lalang	
+12	9012	pabebe	
+13	9013	usong	
+14	9014	tanggi	pagtatanggi pagtatangging
+15	9015	sakitin	sakiting sasakit
+16	9016	letaniya	litanya
+17	9017	mumunti	mumunting
+18	9018	tuko	
+19	9019	maluha	maluluha naluluha
+20	9020	malugmok	nalugmok nalulugmok
+21	9021	magkumpleto	nagkumpleto pagkukumpleto
+22	9022	maghilom	paghihilom paghilom
+23	9023	lahatin	nilahat
+24	9024	basyo	basyong
+25	9025	liwaliwan	liwaliwang
+26	9026	pagdila	
+27	9027	mag-iwas	nag-iiwas pag-iiwas
+28	9028	baldosa	baldosang
+29	9029	osilasyon	osilasyong
+30	9030	tabliya	tablea tableya
+31	9031	kaduda-duda	kaduda-dudang
+32	9032	kisapmata	kisap-mata
+33	9033	pandamdam	
+34	9034	organista	organistang
+35	9035	pagbabalik-tanaw	
+36	9036	imami	
+37	9037	ikalabingwalo	ikalabingwalong
+38	9038	buangan	binuangan
+39	9039	industriyalista	industriyalistang
+40	9040	komadrona	kumadrona
+41	9041	samot-sari	samot-saring samut-sari samut-saring
+42	9042	bakol	
+43	9043	pingga	pinggang
+44	9044	lamon	
+45	9045	maglahok	naglahok naglalahok paglalahok
+46	9046	nepotismo	
+47	9047	hira	
+48	9048	inggo	
+49	9049	tanglad	
+50	9050	damahin	damhin dinarama
+51	9051	himbing	paghimbing
+52	9052	giba	
+53	9053	paupuin	paupo pinaupo pinauupo
+54	9054	masigabo	masigabong
+55	9055	maglikas	naglikas paglilikas
+56	9056	maapula	naapula
+57	9057	kumatha	pagkatha
+58	9058	matrikula	
+59	9059	talukbong	
+60	9060	sulitin	sinulit sinusulit
+61	9061	haykap	
+62	9062	mailantad	nailantad
+63	9063	manananggal	
+64	9064	magtunggali	pagtutunggali pagtutunggaling
+65	9065	makapagpaparami	makapagpaparaming nakapagpaparami
+66	9066	matuklas	natuklas
+67	9067	luwas	
+68	9068	magpaskil	nagpapaskil nagpaskil pagpapaskil
+69	9069	piyer	
+70	9070	episyente	episyenteng
+71	9071	bitbitin	binitbit bitbiting
+72	9072	imbitado	imbitadong
+73	9073	tuod	
+74	9074	komentador	
+75	9075	reorganisasyon	reorganisasyong
+76	9076	depensibo	depensibong
+77	9077	magambala	nagambala
+78	9078	aratiles	datiles ratiles
+79	9079	sikolohista	sikolohistang
+80	9080	haram	
+81	9081	hungkag	
+82	9082	lubang	
+83	9083	asoge	asogeng
+84	9084	kasiraan	
+85	9085	sapantaha	
+86	9086	makasalang	nakasalang
+87	9087	magyaya	nagyaya nagyayang
+88	9088	pangaralan	pinangaralan
+89	9089	magpatulong	nagpatulong
+90	9090	banwa	banua banuang banwang
+91	9091	partida	
+92	9092	qua	quang
+93	9093	presa	
+94	9094	lumpo	lumpong
+95	9095	maghaplos	naghahaplos naghaplos paghahaplos paghaplos
+96	9096	kalaswaan	kalaswaang
+97	9097	mataray	
+98	9098	nakakatanggal	
+99	9099	kaagaw	
+100	9100	depensahan	dedepensahan dinedepensahan dinepensahan

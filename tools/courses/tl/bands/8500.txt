@@ -1,0 +1,100 @@
+1	8401	mamaga	mamamaga namaga
+2	8402	makaimbento	nakaimbento
+3	8403	sisig	
+4	8404	utas	pag-utas
+5	8405	ginataan	ginataang ginatan ginatang
+6	8406	suminta	pagsinta
+7	8407	ampibyan	
+8	8408	pita	pagpipita
+9	8409	tingian	tingiang
+10	8410	baton	
+11	8411	magpaandar	magpapaandar nagpaandar nagpapaandar pagpapaandar
+12	8412	sanhiin	sinanhi sinanhing sinasanhi sinasanhing
+13	8413	pananong	
+14	8414	suson	pagsuson pagsusong
+15	8415	eskrima	esgrima eskrimang
+16	8416	limpa	limpang
+17	8417	sariwain	sinariwa sinariwang sinasariwa
+18	8418	lumba-lumba	lumba-lumbang
+19	8419	aborsyon	
+20	8420	rentahan	nirentahan nirerentahan nirerentahang rerentahan rinentahan
+21	8421	pigi	pigî
+22	8422	persentahe	
+23	8423	kuro-kuro	
+24	8424	umakma	aakma pag-akma umaakma umakmang
+25	8425	magkaribal	
+26	8426	sabansaan	sabansaang
+27	8427	bikaryo	bikaryong
+28	8428	subasta	pagsusubasta subastang
+29	8429	teklado	tekladong tiklado
+30	8430	balde	baldeng baldi
+31	8431	konsumpsiyon	konsumpsiyong
+32	8432	itambal	itinambal itinatambal
+33	8433	mag-angat	mag-aangat nag-aangat nag-angat pag-aangat pagaangat
+34	8434	salansan	
+35	8435	alpombra	
+36	8436	lusak	
+37	8437	umakda	pag-akda
+38	8438	porket	
+39	8439	respirasyon	respirasyong
+40	8440	laglag	paglalaglag
+41	8441	ginaw	
+42	8442	permentasyon	permentasyong
+43	8443	akwedukto	akweduktong
+44	8444	kondensada	kondensadang
+45	8445	menudo	
+46	8446	landasin	landasing
+47	8447	paha	
+48	8448	blusa	blusang
+49	8449	ekwinoks	ekinoks
+50	8450	umugong	pag-ugong umuugong
+51	8451	ruler	
+52	8452	simboloin	simbolohin sinimbolo sinisimbolo
+53	8453	korido	koridong kurido
+54	8454	tutubi	tutubing
+55	8455	tukol	
+56	8456	masunugan	masusunugan nasunugan nasunugang
+57	8457	mitolohikal	
+58	8458	sensura	pagsensura pagsesensura
+59	8459	pagyakap	
+60	8460	iparamdam	
+61	8461	signos	
+62	8462	sosyo-ekonomiko	sosyo-ekonomikong sosyoekonomiko sosyoekonomikong
+63	8463	bumuka	bubuka bumubuka pagbuka
+64	8464	batingaw	
+65	8465	arnis	
+66	8466	malarya	
+67	8467	pinilakan	pinilakang
+68	8468	magmisa	nagmimisa nagmisa pagmimisa
+69	8469	kapat	
+70	8470	kuwaho	kuwahong
+71	8471	mahimala	mahihimalang mahimalang
+72	8472	nakakasawa	
+73	8473	kondominyum	kondo
+74	8474	aksesorya	aksesoryang
+75	8475	maramot	damot madamot ramot
+76	8476	apelasyon	apelasyong apilasyon
+77	8477	koreograpiya	koreograpya
+78	8478	sagisag-panulat	
+79	8479	malimot	malilimot nalimot
+80	8480	granito	granitong
+81	8481	dulog	
+82	8482	halamang-singaw	
+83	8483	balada	baladang
+84	8484	kiskisan	
+85	8485	akumulasyon	
+86	8486	manunubos	
+87	8487	galis	
+88	8488	kumabit	kakabit kumakabit
+89	8489	mamasa	namamasang
+90	8490	kakumpitensya	
+91	8491	apekto	
+92	8492	makadalo	makadadalo nakadalo
+93	8493	pasiglahin	
+94	8494	mahimok	mahihimok nahimok
+95	8495	kopra	
+96	8496	magparehistro	nagparehistro
+97	8497	madaig	nadaig
+98	8498	sigasig	
+99	8499	ilang-ilang	
+100	8500	suplado	suplada

@@ -1,0 +1,100 @@
+1	4201	usig	pag-uusig paguusig
+2	4202	tanim	
+3	4203	katihan	katian katihang kinatihan
+4	4204	tiya	tia tiang
+5	4205	pag-urong	
+6	4206	mambiktima	biktimahin binibiktima mabibiktima mabiktima nabibiktima nabiktima nambiktima
+7	4207	pampook	
+8	4208	panakip	pantakip
+9	4209	kawan	kawang
+10	4210	mapait	mapapait napakapait paet pait
+11	4211	duwende	duende duwendeng dwende dwendeng
+12	4212	debosyon	debosyong pagdedebosyon
+13	4213	mag-alinlangan	magalinlangan nag-aalinlangan nag-alinlangan nagaalinlangan pag-aalinlangan pag-aalinlangang pagaalinlangan
+14	4214	nakasisira	nakakasira nakakasirang nakasisirang
+15	4215	hukay	
+16	4216	mabilanggo	nabibilanggo nabilanggo
+17	4217	des-esperado	desperado desperadong
+18	4218	abilidad	
+19	4219	priyoridad	prayoridad
+20	4220	bayabas	tayabas
+21	4221	insenso	insensong
+22	4222	inisyatiba	inisyatibang inisyatibo inisyatibong
+23	4223	bulong	
+24	4224	lipa	
+25	4225	magkatrabaho	magkakatrabaho nagkatrabaho
+26	4226	ipanalangin	ipapanalangin ipinapanalangin
+27	4227	mapoot	napoot napopoot
+28	4228	gets	
+29	4229	nakakalito	nakakalitong
+30	4230	pagandahin	pagagandahin paganda pagandahang pinagaganda pinaganda pinagandang pinapaganda
+31	4231	masining	masisining
+32	4232	komunismo	komunismong
+33	4233	kumpiskahin	kinukumpiska kinumpiska kinumpiskang kukumpiskahin
+34	4234	santuwaryo	sanktuwaryo santuwaryong santwaryo santwaryong
+35	4235	magrekord	nagrekord nagrerekord pagrekord pagrerekord
+36	4236	binhi	binhing
+37	4237	labing-apat	
+38	4238	ti	
+39	4239	sisidlan	sisidlang
+40	4240	tambol	pagtambol pagtatambol
+41	4241	ube	obi ubeng ubi ubing
+42	4242	bati	bating
+43	4243	makinarya	makinaryang
+44	4244	makasanayan	nakasanayan nakasanayang
+45	4245	kolektibo	kolektibong
+46	4246	tutol	pagtututol
+47	4247	malati	malate malating
+48	4248	humalik	hahalik hinahalikan humahalik mahalikan paghalik
+49	4249	patimog	
+50	4250	maleta	malita
+51	4251	wakasan	wawakasan winakasan winawakasan
+52	4252	magpayo	mapayuhan nagpapayo nagpapayong nagpayo nagpayong napayuhan napayuhang pagpapayo pagpayuhan pinapayuhan pinapayuhang
+53	4253	pitaka	pitakang
+54	4254	isumite	isinumite isinumiteng isinusumite isusumite
+55	4255	hepatitis	hepa
+56	4256	gilas	
+57	4257	maisakatuparan	maisasakatuparan naisakatuparan naisasakatuparan
+58	4258	mapatawad	mapapatawad napapatawad napatawad
+59	4259	pabaya	napakapabaya pabayang
+60	4260	higpitan	hihigpitan hinigpitan hinigpitang hinihigpitan
+61	4261	lohikal	
+62	4262	magpinta	magpipinta magpipintang nagpinta nagpipinta pagpinta puminta
+63	4263	sistematiko	sistematikong
+64	4264	sumpaan	sinumpaan sinumpaang sinusumpaan
+65	4265	magpasok	nagpapasok nagpasok pagpapasok
+66	4266	matulungin	matulunging
+67	4267	pagamutan	pagamutang
+68	4268	patsada	patsadang
+69	4269	alat	
+70	4270	kalbo	kalbong pagkakalbo pagkalbo
+71	4271	pumangalawa	pumapangalawa pumapangalawang
+72	4272	umurong	iniurong inuurong iurong naiuurong naurong pagurong umuurong uurong
+73	4273	historikal	
+74	4274	digmaang pandaigdig	digmaang pandaigdig
+75	4275	alanganin	alanganing pagaalanganin
+76	4276	kamatis	
+77	4277	gumabay	gagabay gumagabay paggabay
+78	4278	maiyak	maiiyak naiiyak
+79	4279	karwahe	karuwahe karuwaheng karwaheng
+80	4280	magapi	magagapi nagagapi nagagaping nagapi nagaping
+81	4281	mamuhunan	namuhunan namumuhunan namumuhunang pamuhunan
+82	4282	prominente	napakaprominente pinakaprominente pinakaprominenteng prominenteng
+83	4283	nakalalason	nakakalason nakakalasong nakalalasong
+84	4284	maakit	naaakit naakit
+85	4285	tumapak	tapakan tinapakan tinatapakan tumatapak
+86	4286	tumugis	itinugis matugis pagtugis tinugis tinutugis tugisin tumutugis tutugisin
+87	4287	sumapi	pagsapi sasapi sumasapi
+88	4288	makipagtalik	makikipagtalik nakikipagtalik nakipagtalik
+89	4289	inunan	inunang
+90	4290	eskwelahan	eskwelahang
+91	4291	mamay	pagmamay
+92	4292	matalas	matatalas
+93	4293	asikasohin	aasikasohin inaasikaso inaasikasong inasikaso
+94	4294	tumulo	pagtulo tumutulo tutulo
+95	4295	panghalip	
+96	4296	maibsan	maiibsan naibsan naiibsan
+97	4297	pasilyo	pasilyong
+98	4298	magpataw	magpapataw nagpapataw nagpataw pagpapataw pagpataw
+99	4299	magpangalan	nagpangalan nagpapangalan pagpangalan pagpapangalan pagpapangalang
+100	4300	sekundarya	sekundaryang

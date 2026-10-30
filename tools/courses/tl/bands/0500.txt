@@ -1,0 +1,100 @@
+1	401	gobyerno	gobyernong gubyerno gubyernong
+2	402	kaunti	kaunting kauntî konte konteng konti konting napakakaunti napakakaunting pinakakaunti pinakakaunting
+3	403	halaman	halamang paghahalaman
+4	404	kulay	
+5	405	maghintay	maghihintay naghihintay naghintay paghihintay paghintay
+6	406	gayon	gayong
+7	407	kabuuan	kabuuang
+8	408	uli	oli ule uling ulî
+9	409	tuwing	
+10	410	buksan	binubuksan binuksan binuksang bubuksan bubuksang ibinukas mabubuksan mabuksan nabubuksan nabubuksang nabuksan nabuksang pagbubuksan pagbuksan
+11	411	lokal	lokál
+12	412	papel	
+13	413	lakas	anlakas
+14	414	luma	lumang lumà napakaluma napakalumang pinakaluma pinakalumang
+15	415	samantala	samantalang
+16	416	hangganan	hangganang hinahangganan hinangganan
+17	417	banggitin	babanggitin banggiting binabanggit binanggit ibinabanggit ibinanggit mababanggit mabanggit nababanggit nabanggit
+18	418	orihinal	
+19	419	patuloy	pinapatuloy pinatuloy
+20	420	tangi	magtangi pagtatangi pagtatanging tangi't tanging
+21	421	matanda	matandang matandâ matatanda matatandang napakatanda napakatandang pinakamatanda pinakamatandang
+22	422	dugo	dugo't
+23	423	ulit	paguulit ulet
+24	424	edad	idad
+25	425	katutubo	katutubo't katutubong pinakakatutubo
+26	426	layunin	layon layong layuning nilalayon nilalayong nilayon nilayong pinakalayon pinakalayunin
+27	427	takot	takót
+28	428	hangin	paghangin
+29	429	bagaman	bagamang bagamán
+30	430	maisip	maiisip naiisip naisip
+31	431	bagyo	bagio bagyong
+32	432	karapatan	karapatang karapatán
+33	433	kahulugan	kahulugang kahulugán pagkahulugan pagkakahulugan pinakakahulugan pinakakahulugang
+34	434	resulta	resultang
+35	435	batay	pagbabatay
+36	436	estasyon	estasyong istasyon istasyong
+37	437	sinauna	napakasinauna napakasinaunang pinakasinauna pinakasinaunang sinaunang
+38	438	tanong	
+39	439	larawan	lalarawan larauan larawang
+40	440	patungo	patungong
+41	441	kakayahan	kakayahang kakayanan kakayanang
+42	442	serbisyo	serbisyo't serbisyong
+43	443	tumakbo	natakbo pagtakbo pagtakbong tatakbo tatakbong tumakbong tumatakbo tumatakbong
+44	444	gaano	gaanong
+45	445	gamot	paggagamot paggamot
+46	446	tawag	
+47	447	katangian	katangiang
+48	448	lumitaw	lilitaw lumilitaw paglitaw
+49	449	likod	likor paglikod
+50	450	pangyayari	pangyayaring
+51	451	kaharian	kahariang kaharián
+52	452	antas	pag-aantas
+53	453	kailan	kailang kelan
+54	454	tanungin	ipagtanong ipatanong matanong matatanong natanong natatanong tanungan tatanungin tinanong tinatanong
+55	455	mamamayan	mamamayang
+56	456	lupain	lupaing lupaín
+57	457	bukod	bukód pagbubukod pinakabukod
+58	458	tanggapin	tanggaping tatanggapin tinanggap tinatanggap
+59	459	sanhi	pinakasanhi sanghi sanhing
+60	460	sumigaw	pagsigaw sisigaw sumisigaw
+61	461	kultura	kultura't kulturang pagkukultura pagkultura
+62	462	sentro	nakasentro nakasentrong pagsesentro pinakasentro pinakasentrong sentro'y sentrong
+63	463	mauna	maunang mauuna mauunang nauna naunang nauuna nauunang
+64	464	impormasyon	impormasyong
+65	465	kailanganin	kailanganing kakailanganin kakailanganing kinailangan kinailangang kinakailangan kinakailangang
+66	466	sulatin	isinulat isinusulat isusulat maisulat masulat masulatan naisulat naisusulat nakisulat nasusulat nasusulatan pinagsulatan sinulat sinulatan sinusulat sinusulatan sulatan sulatang sulating susulatin
+67	467	produkto	produkto'y produktong
+68	468	dekada	dekadang
+69	469	iwan	iiniwan iiwan iniiwan iniiwang iniwan iniwang iwi
+70	470	labanan	labanang labanán labanáng lalabanan nilabanan nilalabanan
+71	471	espada	espadang
+72	472	magbago	magbabago magbabagong magbagong nagbabago nagbabagong nagbago nagbagong pagbago
+73	473	itayo	itatayo itatayong itayong itinatayo itinatayong itinayo itinayong
+74	474	bato	batong bató pambato pambatong
+75	475	aso	aso't asong
+76	476	ganiyan	ganan ganiyang ganyan ganyang
+77	477	magdala	dumalang magdadala magdalang nagdadala nagdadalang nagdala pagdadala pagdadalang pagdala
+78	478	sirain	pagsisira paninira paninirang sinira sinirang sinisira sira sirang sisirain
+79	479	tahanan	tahanang tatahanan tinahanan tinahanang tinatahanan tinatahanang
+80	480	anim	
+81	481	virus	bayrus birus
+82	482	tumawag	itatawag itawag itinatawag itinawag maitawag pagtawag tatawag tumatawag
+83	483	pag-aaral	
+84	484	relasyon	relasyong
+85	485	maglabas	maglalabas naglabas naglalabas paglabas paglalabas
+86	486	piliin	piliing pinili piniling pinipili pinipiling pipiliin pipiliing
+87	487	metro	metrong
+88	488	kalaunan	kalaunang
+89	489	gusali	gusaling
+90	490	makatira	makakatira nakatira nakatirang
+91	491	nais	pinakanais
+92	492	karagdagan	karagdagang
+93	493	tawagan	tatawagan tawagang tawagi'y tinatawagan tinatawagang tinawagan tinawagang
+94	494	duke	dukeng
+95	495	tukuyin	tinukoy tinutukoy tukuying tutukuyin
+96	496	magpatuloy	magpapatuloy nagpapatuloy nagpatuloy pagpatuloy
+97	497	sigurado	segurado seguradong siguradong
+98	498	maganap	gaganapin gaganaping ganapin ginaganap ginanap ipinaganap kinagaganapan magaganap
+99	499	magsilbi	magsilbing magsisilbi magsisilbing nagsilbi nagsilbing nagsisilbi nagsisilbing pagsisilbi pagsisilbing
+100	500	pumili	napili napiling pagpili pagpiling pagpipili pili pilì pilî pipili pumiling pumipili pumipiling

@@ -1,0 +1,100 @@
+1	4801	hunghang	
+2	4802	alalay	pag-aalalay
+3	4803	maghabol	naghabol naghahabol
+4	4804	makatagal	nakatagal
+5	4805	ipabalik	ipinabalik
+6	4806	dugtong	duktong
+7	4807	umimbento	pag-imbento pagimbento umiimbento
+8	4808	umayaw	pag-ayaw umaayaw
+9	4809	lumipol	lumilipol nalipol paglipol
+10	4810	diwang	
+11	4811	luwang	luang
+12	4812	kuting	
+13	4813	isakatuparan	isasakatuparan isinakatuparan isinasakatuparan
+14	4814	magbungkal	magbubungkal nagbubungkal pagbubungkal
+15	4815	maanghang	maaanghang pinakamaanghang
+16	4816	awtor	
+17	4817	reptil	reptilya reptilyang
+18	4818	pagdalaw	
+19	4819	mapailalim	mapapailalim napailalim napapailalim
+20	4820	nasyonalismo	nasyonalismong
+21	4821	makasali	makakasali nakasali nakasaling
+22	4822	moske	moskeng
+23	4823	bolahin	binola binolang bobolahin
+24	4824	lipulin	lilipulin nilipol
+25	4825	mag-ahit	pag-aahit pag-ahit
+26	4826	sumangkot	sumasangkot
+27	4827	dominyo	dominyong
+28	4828	magkulang	magkukulang nagkukulang nagkulang
+29	4829	magluwas	nagluluwas nagluwas pagluluwas pagluwas
+30	4830	abiso	abisong
+31	4831	laan	laang
+32	4832	malaswa	malalaswang malaswang
+33	4833	maitapon	naitapon
+34	4834	palit	
+35	4835	sosyalismo	sosyalismong
+36	4836	kabilugan	kabilugang
+37	4837	pag-awayan	pinag-aawayan pinag-aawayang pinag-awayan
+38	4838	humaba	hahaba humahaba paghaba
+39	4839	pestisidyo	pestisidyong
+40	4840	kural	koral
+41	4841	nananaig	pinakanananaig
+42	4842	lamunin	lalamunin linamon nilamon
+43	4843	ikadalawampu	ikadalawampu't ikadalawampung
+44	4844	tanghalin	tatanghalin tatanghaling tinanghal tinatanghal
+45	4845	awang	
+46	4846	astronomiya	astronomia astronomiyang astronomya
+47	4847	talong	pagtalong pagtatalong
+48	4848	sumimbolo	sumisimbolo
+49	4849	ihian	iihi inihian naihian
+50	4850	tumakip	pagtakip tumatakip
+51	4851	opsiyon	opsiyong opsyon opsyong
+52	4852	malik	babalik nalik
+53	4853	daglatin	dinadaglat dinaglat
+54	4854	umupa	pag-upa pagupa umuupa umuupang uupa
+55	4855	tugma	tugmang
+56	4856	sunggaban	sinunggaban susunggaban
+57	4857	boksingero	boksingerong
+58	4858	tularan	tinularan tinutularan tularang tutularan
+59	4859	langgam	langam
+60	4860	puksain	pinuksa pinupuksa pupuksain
+61	4861	magpadami	nagpadami
+62	4862	personalin	pepersonalin pinersonal
+63	4863	matipid	matitipid napakatipid natitipid pinakamatipid
+64	4864	belen	belén
+65	4865	telenobela	telenobelang
+66	4866	karapatang-sipi	karapatang-siping
+67	4867	pangyarihan	pinangyarihan
+68	4868	asinta	pag-aasinta
+69	4869	magpaumanhin	nagpapaumanhin nagpaumanhin pagpapaumanhin
+70	4870	halayin	halaying hinahalay
+71	4871	tumalilis	pagtalilis
+72	4872	maluto	ipinaluto lutuan lutuang malulutong naluluto naluto nalutong
+73	4873	romansa	pagroromansa romansang
+74	4874	buno	bono bonong pagbubuno
+75	4875	lalagyanan	
+76	4876	umusog	pag-usog
+77	4877	maghikayat	maghihikayat naghihikayat naghikayat paghihikayat
+78	4878	damihan	dinadamihan dinamihan
+79	4879	tamasahin	tinamasa tinatamasa tinatamasang
+80	4880	danasin	dinadanas dinanas
+81	4881	mag-ani	mag-aani nag-aani pag-aani
+82	4882	bitin	biting pagbibitin
+83	4883	isisi	isinisi isinisisi sinisian sinisisihan
+84	4884	karpintero	karpinterong pagkakarpintero
+85	4885	diksyunaryo	diksyunaryong
+86	4886	lumason	lumalason paglason
+87	4887	iligaw	
+88	4888	makasagot	makakasagot makasasagot nakasagot
+89	4889	sapitin	sasapitin sinapit
+90	4890	maglibing	maglilibing naglibing paglibing paglilibing
+91	4891	adhikain	adhikaing
+92	4892	kamuntikan	
+93	4893	abnormal	
+94	4894	hain	ahin haing
+95	4895	mansyon	mansyong
+96	4896	panata	panatang
+97	4897	kolonisasyon	kolonisasyong
+98	4898	masagwa	masagwang
+99	4899	meme	
+100	4900	masinsinan	masinsinang

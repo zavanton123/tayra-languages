@@ -1,0 +1,100 @@
+1	6201	palaban	palabang pinalaban
+2	6202	makumbinsi	nakumbinsi nakumbinsing
+3	6203	barako	barakong
+4	6204	kalamansi	calamansi
+5	6205	milimetro	milimetrong
+6	6206	hilik	
+7	6207	pag-amin	pag-aming
+8	6208	sandaan	sandaang
+9	6209	loro	lorong
+10	6210	makapagsulat	nakapagsulat
+11	6211	magkumahog	nagkukumahog nagkumahog pagkukumahog
+12	6212	mapaslang	napaslang
+13	6213	maralita	maralitang
+14	6214	langhapin	nilanghap
+15	6215	gagapang	
+16	6216	malugi	maluging malulugi nalugi naluging nalulugi naluluging
+17	6217	kato	cato katong
+18	6218	parasito	parasitong
+19	6219	ikagalit	ikinagagalit ikinagalit
+20	6220	sharks	
+21	6221	dedma	deadma
+22	6222	awat	
+23	6223	masagip	nasagip
+24	6224	hilagaan	hilagaang
+25	6225	managot	mananagot nanagot nananagot pagpapanagot panagot
+26	6226	mamayapa	namayapa namayapang
+27	6227	pakikiramay	
+28	6228	ngumuya	ngumunguya nguyain
+29	6229	sambitin	sinambit sinasambit
+30	6230	sumaksak	isinaksak masaksak pagsaksak sasaksak
+31	6231	magpalipad	nagpalipad
+32	6232	hubo	hobo hubo't hubong
+33	6233	putong	pagpuputong pagputong
+34	6234	senyales	
+35	6235	asero	aserong
+36	6236	mapilit	mapipilit napilit
+37	6237	seda	sedang
+38	6238	diskusyon	diskusyong
+39	6239	bunton	buntong
+40	6240	tuna	
+41	6241	bangketa	
+42	6242	pintasan	pinintasan pinipintasan
+43	6243	subok	
+44	6244	abstrakto	abstraktong
+45	6245	iyakin	
+46	6246	interbensiyon	interbensiyong interbensyon interbensyong
+47	6247	putukin	pinutok
+48	6248	deskripsiyon	deskripsiyong deskripsyon
+49	6249	nakakabahala	nakakabahalang
+50	6250	maistorbo	maiistorbo naiistorbo naistorbo
+51	6251	makagaling	makagagaling makakagaling nakagagaling
+52	6252	manhid	
+53	6253	makalampas	nakalampas
+54	6254	mensahero	mensaherong
+55	6255	bandido	bandida bandidong
+56	6256	mag-aklas	nag-aaklas nag-aklas pag-aaklas pag-aklas pagaaklas
+57	6257	sayad	
+58	6258	palaruan	palaruang
+59	6259	satsat	
+60	6260	simuno	simunong
+61	6261	mangomisyon	kinomisyon kinomisyong
+62	6262	magrenta	ipaparenta iparenta nagrerenta nirerentang pagrenta
+63	6263	magpahina	magpapahina nagpahina nagpapahina pagpapahina
+64	6264	bagang	
+65	6265	makakaliwa	makakaliwang
+66	6266	oratoryo	oratoryong
+67	6267	suspensiyon	suspensiyong
+68	6268	pagkamalikhain	
+69	6269	itapat	itinapat itinatapat tapatan tatapatan tinapatan
+70	6270	lira	lirang
+71	6271	balangkasin	babalangkasin binabalangkas binalangkas
+72	6272	pormulasyon	pormulasyong
+73	6273	pumatol	pagpatol papatol pumapatol
+74	6274	pangmaramihan	pangmaramihang
+75	6275	nakakaharap	
+76	6276	lasenggo	lasenggong
+77	6277	makaubos	nakaubos nakauubos
+78	6278	atakehin	aatakehin
+79	6279	sinigang	
+80	6280	pumaroon	naparoon paroon pumaparoon
+81	6281	gugol	gogol
+82	6282	obligado	obligadong
+83	6283	magloko	nagloko nagloloko
+84	6284	magkatunggali	magkakatunggali magkakatunggaling magkatunggaling nagkakatunggali nagkatunggali
+85	6285	pabilisin	papabilisin pinabilis pinapabilis
+86	6286	magpalaganap	magpapalaganap nagpalaganap nagpapalaganap
+87	6287	leslie	
+88	6288	salapang	
+89	6289	ubasan	
+90	6290	tumunaw	pagtunaw tumutunaw
+91	6291	opsiyonal	opsyonal
+92	6292	tuon	tuong
+93	6293	pasayahin	pinasasaya pinasaya
+94	6294	umanib	aanib pag-anib
+95	6295	hinlalaki	hinlalaking
+96	6296	makisali	nakisali
+97	6297	malulong	nalulong
+98	6298	saknong	
+99	6299	magtukoy	magtutukoy nagtukoy nagtutukoy pagtutukoy
+100	6300	hakbangin	hakbanging

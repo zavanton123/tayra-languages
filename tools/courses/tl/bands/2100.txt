@@ -1,0 +1,100 @@
+1	2001	teksas	texas
+2	2002	magpanggap	magpapanggap nagpanggap nagpapanggap pagpanggap
+3	2003	hilahin	hihilahin hilain hinihila hinihilang hinila hinilang
+4	2004	handog	
+5	2005	gabay	paggagabay
+6	2006	singsing	sinsing
+7	2007	alas	
+8	2008	payak	napakapayak pagpapayak pinakapayak
+9	2009	labing	
+10	2010	bubong	
+11	2011	posibilidad	
+12	2012	masakop	masasakop nasakop nasasakop
+13	2013	halik	paghahalik
+14	2014	tela	pagtetela telang
+15	2015	karahasan	karahasang
+16	2016	komersiyal	
+17	2017	pagpapatupad	
+18	2018	lumawak	lalawak lumalawak paglawak
+19	2019	kodigo	kodigong
+20	2020	madagdagan	madadagdagan nadadagdagan nadagdagan nadagdagang
+21	2021	turismo	turismong
+22	2022	respeto	
+23	2023	gitara	gitarang
+24	2024	armado	armadong
+25	2025	pugad	
+26	2026	pawa	pawang pawà
+27	2027	days	dais pagdais
+28	2028	baso	basong
+29	2029	banyo	
+30	2030	nagkataon	nagkataong
+31	2031	likuran	likoran likurang
+32	2032	pagsasalin	pagsasaling
+33	2033	pakpak	
+34	2034	bomba	bombang pagbobomba pagbobombang pagbomba pagbombang
+35	2035	damo	damong ramo
+36	2036	also	
+37	2037	pagbabasa	pagbabasang pagbabasá
+38	2038	tumpak	napakatumpak pinakatumpak
+39	2039	dingding	dindin dinding
+40	2040	probinsya	probinsyang
+41	2041	parirala	pagpaparirala pagpapariralang pariralang
+42	2042	sinungaling	
+43	2043	bukid	
+44	2044	sariwa	sariwang
+45	2045	ibahagi	ibabahagi ibahaging ibinabahagi ibinabahaging ibinahagi ibinahaging
+46	2046	pagkakaisa	pagkakaisang
+47	2047	patinig	
+48	2048	ari-arian	ari-ariang ariarian ariariang
+49	2049	silbi	silbeng silbing
+50	2050	hamunin	hahamunin hamonin hinahamon hinamon mahahamon
+51	2051	palapag	pinalapag
+52	2052	apelyido	apelido apelidong apelyidong
+53	2053	dagdagan	dadagdagan dagdagang daragdagan dinadagdagan dinagdagan dinagdagang dinaragdagan
+54	2054	magbunga	bumunga magbubunga nagbubunga nagbunga nagbungang pagbubunga
+55	2055	halikan	hagkan hahalikan hinahalikan hinalikan mahalikan
+56	2056	gunitain	ginugunita ginunita gunita paggunita paggunitang
+57	2057	panibago	pagpanibago pagpapanibago pagpapanibagong panibagong
+58	2058	probinsiya	probinsia probinsiyang
+59	2059	hita	hitang
+60	2060	matamis	matatamis napakatamis pinakamatamis
+61	2061	saserdote	saserdoteng
+62	2062	gawi	paggawi paggawing
+63	2063	moral	morál
+64	2064	katuwiran	katuwirang katwiran katwirang
+65	2065	kritikal	
+66	2066	hula	hulang paghuhula
+67	2067	dibisyon	dibisyong
+68	2068	teatro	teatrong tiyatro
+69	2069	gumulong	paggulong
+70	2070	baybay	pagbabaybay pagbaybay
+71	2071	pasig	
+72	2072	motor	
+73	2073	mananaliksik	
+74	2074	balakin	balaking binabalak binalak
+75	2075	sumipa	pagsipa sumisipa
+76	2076	alinsunod	pag-aalinsunod pag-alinsunod
+77	2077	bala	
+78	2078	balang	
+79	2079	bigkasin	bibigkasin bibigkasing bigkasing binibigkas binigkas
+80	2080	daga	dagang raga
+81	2081	bakasyon	bakasyong
+82	2082	katibayan	katibayang
+83	2083	tumutol	pagtutol tumututol tututol
+84	2084	magtanggol	magtatanggol nagtanggol nagtatanggol pagtanggol pagtatanggol
+85	2085	maitim	maiitim napakaitim
+86	2086	kapakanan	kapakanang
+87	2087	matamo	matamong matatamo natamo natamong natatamo natatamong
+88	2088	sumipsip	masipsip masisipsip nasipsip nasisipsip pagsipsip sinipsip sinisipsip sinisipsipan sipsipin sipsiping sumisipsip
+89	2089	magpatunay	magpapatunay nagpapatunay nagpatunay pagpapatunay pagpatunay
+90	2090	kliyente	kliente kliyenteng
+91	2091	kamalayan	kamalayang
+92	2092	balangkas	
+93	2093	logo	logong
+94	2094	katalo	pagkakatalo pagkatalo pagkatalong
+95	2095	aktuwal	aktwal
+96	2096	maawa	maaawa naaawa naawa
+97	2097	mambabatas	
+98	2098	tropikal	
+99	2099	kapuso	
+100	2100	buntis	

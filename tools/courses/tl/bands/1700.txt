@@ -1,0 +1,100 @@
+1	1601	aralin	aaralin araling inaaral inaral maaral mapag-aralan mapag-aralang mapagaralan napag-aaralan napapag-aralan pag-aaralin pagaralan pagaralin pinagaaralan pinagaaralang
+2	1602	iilan	iilang
+3	1603	kalangitan	kalangitang kalangitán
+4	1604	may-akda	may-akdang
+5	1605	mapatunayan	mapapatunayan mapapatunayang mapatunayang napapatunayan napapatunayang napatunayan napatunayang
+6	1606	arkitektura	arkitekturang
+7	1607	magpalabas	magpapalabas nagpalabas nagpapalabas pagpalabas pagpapalabas
+8	1608	birhen	birheng
+9	1609	asukal	
+10	1610	umawit	aawit inaawit iniawit maaawit maawit nakiawit pag-awit pagawit umaawit
+11	1611	lasunin	lalasunin lasona lasuna nilalason nilason
+12	1612	aksidente	aksidenteng
+13	1613	salin	magsalin pagsalin
+14	1614	total	tutal
+15	1615	kritiko	kritikong
+16	1616	basagin	babasagin babasaging basagan binabasag binasag binasagan mababasag mabasag nababasag nabasag
+17	1617	ranggo	pagraranggo pagraranggong ranggong
+18	1618	alaga	alagang
+19	1619	maghatid	maghahatid naghahatid naghatid paghahatid paghatid
+20	1620	salaysay	
+21	1621	laptop	
+22	1622	nabasa	nabasang
+23	1623	prutas	
+24	1624	magpalit	magpapalit nagpalit nagpapalit pagpapalit
+25	1625	lason	lasong paglalason
+26	1626	aksyon	aksyong
+27	1627	palatandaan	palatandaang
+28	1628	norte	
+29	1629	pangunahan	pangunahang papangunahan pinangunahan pinangunahang pinapangunahan
+30	1630	magpakilala	magpapakilala magpapakilalang nagpakilala nagpakilalang nagpapakilala nagpapakilalang pagpakilala pagpapakilala pagpapakilalang
+31	1631	prinsesa	prinsesang
+32	1632	giyera	gera gerang giyerang guerra
+33	1633	away	
+34	1634	basura	basurang pagbasura
+35	1635	administrasyon	administrasiyon administrasyong
+36	1636	magpakasal	magpapakasal nagpakasal nagpapakasal
+37	1637	pinsan	insan pinsang
+38	1638	kanluranin	kanluraning
+39	1639	merkado	merkadong pagmemerkado pagmemerkadong
+40	1640	liham	
+41	1641	atake	atakeng
+42	1642	harapin	haharapin haharaping hinarap
+43	1643	mainam	maiinam napakainam pinakamainam
+44	1644	basa	basang basâ pinakabasa pinakabasang
+45	1645	makasakay	nakasakay
+46	1646	presyon	presyong
+47	1647	kuneho	kunehong
+48	1648	kulungan	kulungang
+49	1649	gibain	gigibain giniba ginibang ginigiba mag-iba mag-iiba magiba magibang magigiba nag-iba nag-ibang nag-iiba nag-iiba't nag-iibang nagiba nagibang nagigiba nagiiba pag-iba pag-iiba pag-iibang pagiba pagibang pagiiba
+50	1650	gatas	
+51	1651	alagaan	aalagaan alagaang inaalagaan inaalagaang inalagaan
+52	1652	watawat	
+53	1653	mall	
+54	1654	tuktok	pinakatuktok
+55	1655	balanse	balanseng pagbabalanse pagbalanse
+56	1656	bihira	bihirang napakabihira napakabihirang
+57	1657	droga	drogang
+58	1658	key	
+59	1659	nakakatuwa	
+60	1660	puntos	
+61	1661	maglinis	maglilinis naglilinis naglinis paglilinis paglinis
+62	1662	kasamaan	kasamaang
+63	1663	mahiya	mahihiya mahihiyang mahiyang mahya nahihiya nahihiyang nahiya
+64	1664	unahan	inunahan inuunahan unahang uunahan
+65	1665	pumalit	pagpalit papalit pumapalit
+66	1666	nakaiinis	kainis nakakainis
+67	1667	makatakas	makakatakas nakatakas nakatatakas
+68	1668	kanin	kakanin kakaning kaning kinain kinaing kinakain kinakaing
+69	1669	propeta	propetang
+70	1670	suso	susong susô
+71	1671	gulong	
+72	1672	imbestigasyon	imbestigasyong
+73	1673	huminahon	
+74	1674	apo	apong
+75	1675	gulay	
+76	1676	masunog	masusunog nasunog nasusunog
+77	1677	sahod	
+78	1678	tainga	taingang taynga tenga tengang
+79	1679	kasiyahan	kasiyahang
+80	1680	relihiyoso	relihiyosa relihiyosang relihiyosong
+81	1681	makabalik	makababalik makakabalik nakababalik nakabalik
+82	1682	itapon	itapong itatapon itatapong itinapon itinapong itinatapon itinatapong tapunan tapunang
+83	1683	pagka	pagka't
+84	1684	magdagdag	magdadagdag magdaragdag nagdadagdag nagdagdag nagdaragdag pagdadagdag pagdagdag
+85	1685	magpasalamat	magpapasalamat nagpapasalamat nagpasalamat pagpapasalamat
+86	1686	munisipyo	munisipyong
+87	1687	tinig	ting̃ig
+88	1688	sahig	pinakasahig
+89	1689	hulihin	hinuhuli hinuhuling hinuli hinuling huhulihin huliin
+90	1690	toto	natutunan natutunang pagtuto pagtututo totong
+91	1691	kapalaran	capalaran kapalarang
+92	1692	paghahanda	paghahandang
+93	1693	lalamunan	lalamunang
+94	1694	berde	berdeng pagbeberde
+95	1695	baha	bahang pagbabaha
+96	1696	leeg	liig
+97	1697	butil	
+98	1698	marating	mararating nararating narating
+99	1699	talento	talentong
+100	1700	paningin	paninging

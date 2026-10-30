@@ -1,0 +1,100 @@
+1	4901	sirena	sirenang
+2	4902	paghanga	paghangang
+3	4903	dili	
+4	4904	tigre	tigreng
+5	4905	umusod	
+6	4906	lumaklak	lumalaklak
+7	4907	beinte	beinteng
+8	4908	sermonan	sermunan sinesermonan
+9	4909	sumalisi	salising sumasalisi
+10	4910	magsilang	magsisilang nagsilang pagsisilang
+11	4911	masahol	pinakamasahol
+12	4912	pukawin	pinukaw pinupukaw
+13	4913	globalisasyon	globalisasyong
+14	4914	tumindig	pagtindig titindig tumitindig
+15	4915	dahas	
+16	4916	hinuha	hinuhang
+17	4917	hirit	
+18	4918	daglat	pagdadaglat
+19	4919	estratehiko	estratehikong
+20	4920	lugaw	
+21	4921	mangkukulam	
+22	4922	pabulaanan	pinabubulaanan pinabulaanan pinapabulaanan
+23	4923	panganurin	panganorin
+24	4924	primo	primong
+25	4925	tulisan	tulisang
+26	4926	mandato	mandatong
+27	4927	litid	
+28	4928	abadiya	abadia abadiang
+29	4929	kasiguraduhan	kasiguraduhang
+30	4930	pugutan	pinugutan pugutang pupugutan
+31	4931	sakramento	sakramentong
+32	4932	bumuti	bubuti bumubuti bumuting pagbuti
+33	4933	siyanga	
+34	4934	batugan	batugang
+35	4935	ahon	pag-ahon pagahon umahon umahong
+36	4936	talisay	
+37	4937	bir	
+38	4938	konsiyumer	konsumer konsyumer
+39	4939	pangangalagaan	pinangangalagaan pinangangalagaang
+40	4940	paniki	paniking
+41	4941	tinggil	
+42	4942	uwak	
+43	4943	makabawi	makababawi makakabawi nakababawi nakabawi
+44	4944	mangitlog	nangingitlog nangitlog
+45	4945	pu	poo poong pu't pung puo
+46	4946	demograpiya	
+47	4947	biruin	binibiro biniro
+48	4948	sakristan	pagsasakristan
+49	4949	akawnt	
+50	4950	mapakinggan	mapapakinggan napakinggan napakinggang napapakinggan
+51	4951	olibo	olibong
+52	4952	pating	
+53	4953	kumumpleto	kukumpleto kumukumpleto pagkumpleto
+54	4954	indikasyon	indikasyong
+55	4955	magpantalon	
+56	4956	bundat	
+57	4957	ows	
+58	4958	iregalo	
+59	4959	pumalakat	
+60	4960	tokador	tukador
+61	4961	ligpitin	ipinaligpit maligpit
+62	4962	makakaputol	nakakaputol
+63	4963	koryentehin	kinuryente kuryentehin
+64	4964	mangaral	nangangaral nangaral
+65	4965	tumambay	pagtambay tumatambay
+66	4966	abay	
+67	4967	identidad	
+68	4968	dayo	dayong rayo rayong
+69	4969	manahan	mananahan nanahan nanahang nananahan nananahang
+70	4970	makalaban	makakalaban nakakalaban nakalaban
+71	4971	iboto	ibinoboto ibinoto ibinotong iboboto
+72	4972	kaban	caban cabang kabang
+73	4973	matiis	matitiis natiis natitiis
+74	4974	mahilo	nahihilo nahilo
+75	4975	magnegosyo	magnenegosyo nagnegosyo nagnenegosyo pagnegosyo pagnenegosyo
+76	4976	agresibo	agresibong
+77	4977	umugnay	umuugnay uugnay
+78	4978	pumukaw	pagpukaw pumupukaw pupukaw
+79	4979	magsiwalat	nagsisiwalat nagsiwalat pagsisiwalat pagsiwalat
+80	4980	mikroskopyo	mikroskopyong
+81	4981	makunan	nakunan
+82	4982	pagkalito	
+83	4983	iipon	
+84	4984	magliwanag	magliliwanag nagliliwanag nagliwanag pagliliwanag
+85	4985	kaliwanagan	kaliwanagang
+86	4986	almoranas	almuranas
+87	4987	poot	puot
+88	4988	magpababa	magpapababa nagpababa nagpapababa pagpapababa
+89	4989	batsilyer	
+90	4990	humusga	huhusga humuhusga paghusga
+91	4991	otel	
+92	4992	tulin	tuling
+93	4993	soberano	soberanong
+94	4994	nakakasakit	
+95	4995	kubaw	cubao
+96	4996	diyamante	diamante diamanteng diyamanteng dyamante
+97	4997	magkakaibigan	magkakaibigang
+98	4998	maipit	maiipit naiipit naipit
+99	4999	taon-taon	taon-taong taón-taón
+100	5000	ikalat	ikakalat ikinakalat ikinalat kakalatan kalatan

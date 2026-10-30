@@ -1,0 +1,100 @@
+1	901	nandiyan	andiyan andyan anjan nandyan nanjan naririyan nariyan nariyang
+2	902	basahin	babasahin babasahing basahan basahang basahing binasa binasang mababasa mababasang mabasa mabasang nababasa nababasang
+3	903	materyal	materyales
+4	904	magnakaw	manakaw manakawan mananakaw mananakawan nagnakaw nagnanakaw nakaw nakawan nakawin nakawing nanakaw nanakawan nanakawin nananakaw ninakaw ninakawan ninanakaw ninanakawan pagnakaw pagnakawan pinagnanakawan
+5	905	ruta	pagruruta pagrurutang rutang
+6	906	ituro	itinuro itinurong itinuturo itinuturong ituturo ituturong
+7	907	magtago	itinatago itinatagong magtatago maitago maitagong nagtago nagtatago nagtatagong naitago naitagong naitatago pagtago pagtaguan pagtatago
+8	908	ulan	
+9	909	komunidad	
+10	910	titulo	titulong
+11	911	magbenta	binebenta binebentang binenta binentang ipabenta ipinabenta mabebenta mabenta mabentang magbebenta nabebenta nabebentang nabenta nabentang nagbebenta nagbenta pagbebenta pagbenta pinagbebentahan
+12	912	bakla	baklang
+13	913	kumatawan	kakatawan kumakatawan kumakatawang pagkatawan
+14	914	humigit-kumulang	
+15	915	ebidensiya	ebidensiyang ebidensya ebidensyang
+16	916	gumastos	gagastos gagastusan gagastusin gastosin gastusan gastusin gastusing ginagastos ginastos ginastusan gumagastos iginastos magagastos magastos nagagastos nagastos napakamagastos paggastos paggastusan pinakamagastos
+17	917	petsa	pagpepetsa pagpepetsang petsang
+18	918	pangkaraniwan	pangkaraniwang pinakapangkaraniwan pinakapangkaraniwang
+19	919	kagamitan	kagamitang
+20	920	tila	tila'y tilang
+21	921	panlipunan	panlipunang
+22	922	utos	
+23	923	pribado	pribadong
+24	924	katumbas	
+25	925	teknolohiya	teknolohiyang
+26	926	importante	importanteng napakaimportante napakaimportanteng pinakaimportante pinakaimportanteng
+27	927	makabago	makabagong
+28	928	grabe	grabeng napakagrabe pinakagrabe
+29	929	pag-ibig	
+30	930	kampanya	kampanyang pangangampanya pangangampanyang
+31	931	tradisyon	tradisyong
+32	932	makamit	nakakamit nakamit
+33	933	desisyon	desisiyong desisyong disisyon
+34	934	suporta	pagsusuporta pinakasuporta suportang
+35	935	datos	
+36	936	estruktura	estrukturang istraktura istrakturang istruktura istrukturang
+37	937	pakialam	pakielam
+38	938	kumalat	kakalat kalat kumakalat nakalat pinakakalat
+39	939	tuluyan	tinuluyan tinuluyang tinutuluyan tuluyang
+40	940	magbasa	basaan basahan basahang binabasa binabasang binasa binasang mababasa mababasang mabasa mabasang magbabasa magbasá nababasa nababasang nagbabasa nagbasa pagbasa pagbasa't pagbasang
+41	941	imahen	imahe imaheng
+42	942	pasyente	pasyenteng
+43	943	masarap	masasarap napakasarap pinakamasarap
+44	944	panig	
+45	945	dragon	dragong
+46	946	tumayo	natayo pagtayo tatayo tatayong tumatayo tumatayong tumayong tumayô
+47	947	ipahayag	ipapahayag ipinahayag ipinapahayag
+48	948	ipalabas	ipapalabas ipinalabas ipinapalabas
+49	949	popular	napakapopular pinakapopular populár
+50	950	paniniwalaan	paniniwalaang pinaniniwalaan pinaniniwalaang
+51	951	lola	lola't lolang
+52	952	puwesto	pagpupuwesto pinupuwesto puwestong pwesto pwestong
+53	953	pagpatay	
+54	954	kalokohan	kalokohang
+55	955	pigilan	pigilang pinigilan pinigilang pinipigilan pinipigilang pipigilan
+56	956	layo	layong
+57	957	kandidato	kandidata kandidatang kandidatong pagkakandidato
+58	958	tumakas	pagtakas tatakas tumatakas
+59	959	tanyag	napakatanyag pinakatanyag tanyág
+60	960	pandaigdig	
+61	961	pamagat	pagpapamagat pamagát
+62	962	anime	animeng
+63	963	bahala	bahalang
+64	964	magpahayag	magpapahayag nagpahayag nagpapahayag pagpahayag pagpapahayag
+65	965	konsepto	konseptong
+66	966	tigil	
+67	967	magtanghal	magtatanghal nagtanghal nagtatanghal pagtanghal pagtatanghal
+68	968	tala	talà talâ
+69	969	ospital	
+70	970	kalimutan	kalilimutan kalilimutang kalimutang kinalilimutan kinalimutan kinalimutang
+71	971	maupo	mauupo nauupo
+72	972	parte	parteng
+73	973	lumapit	ilalapit ilapit inilalapit inilapit lalapit lalapitan lapitan lumalapit mailapit malapitan malapitang nilalapitan paglapit
+74	974	aba	aba'y abá
+75	975	buto	buto't butong
+76	976	aktibo	aktibong napakaaktibo pag-aktibo pinakaaktibo pinakaaktibong
+77	977	makapasok	makakapasok makapapasok nakapapasok nakapasok
+78	978	tungo	tungong
+79	979	sumagot	ipasagot isagot isasagot isinagot isinasagot maisagot masagot masasagot nasagot nasagutang nasasagot sasagot sinasagot sinasagutan sumasagot
+80	980	impluwensiya	impluwensiyang impluwensya impluwensyang pag-impluwensya pinakaimpluwensiya
+81	981	maitala	maitalang naiitala naiitalang naitala naitalang
+82	982	tanawin	pagtatanaw tanao tanaw tanawing tatanawin tinanaw tinatanaw
+83	983	sumuko	pagsuko sumusuko susuko
+84	984	ihayag	ihahayag ihinahayag ihinayag inihahayag inihayag
+85	985	tiwala	tiwalang
+86	986	mahulog	mahuhulog nahuhulog nahulog
+87	987	paborito	paboritong pinakapaborito pinakapaboritong
+88	988	pamantasan	pamantasang
+89	989	magsama	magsasama nagsama nagsamang nagsasama nagsasamang
+90	990	tumira	itinira itira ititira matirhan nakikitira nakitira natitirhan natitirhang pagtira pinagtitirahan pinagtitirhan tinira tinitira tinitirhan tinitirhang tirahin tirhan titira titirahin tumirang tumirá tumitira tumitirang
+91	991	pagod	pagpapagod
+92	992	teksto	tekstong
+93	993	nobela	nobela'y nobelang
+94	994	saka	saca saká
+95	995	magalit	magagalit nagagalit nagalit pagalit
+96	996	lihim	
+97	997	pinsala	pagpipinsala pinakapinsala pinsalang
+98	998	anghel	angel anghél
+99	999	pabayaan	mapabayaan napabayaan napabayaang napapabayaan napapabayaang pabayaang papabayaan pinabayaan pinabayaang pinapabayaan
+100	1000	baril	pagbabaril

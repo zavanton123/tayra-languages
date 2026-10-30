@@ -1,0 +1,100 @@
+1	5101	paksiyon	paksiyong paksyon paksyong
+2	5102	direktoryo	direktoryong
+3	5103	maykapal	maykapál
+4	5104	kamalasan	
+5	5105	nene	neneng nini nining
+6	5106	makatawag	makatatawag nakatatawag nakatawag
+7	5107	ibasura	ibinasura
+8	5108	lahad	lahar
+9	5109	maga	magang pagmaga ᜋᜄ
+10	5110	palikpik	
+11	5111	makapinsala	makapipinsala nakapinsala
+12	5112	manghingi	hihingan hihingian hingan hingian hinihingan hiningan ihiningi inihingi mahihingan maihingi manghihingi nanghihingi nanghingi
+13	5113	kayabangan	
+14	5114	mestisa	mestisang mestiso mestisong mestiza mestizo mestizong mistiso mistisong
+15	5115	pulot	pagpulot pagpupulot polot
+16	5116	pagtutulungan	pagtutulungang
+17	5117	maasim	maaasim napakaasim
+18	5118	gawa-gawa	gawa-gawang
+19	5119	mangwika	pangwika pangwikang
+20	5120	galugarin	galugad galugaring ginagalugad ginalugad
+21	5121	dala-dala	dala-dalang
+22	5122	magkwento	nagkekwento nagkwento
+23	5123	alhebra	alhebrang
+24	5124	arkeolohiya	arkeolohiyang arkeyolohiya arkeyolohiyang
+25	5125	kumpiyansa	kompiyansa kompiyansang kompyansa kumpiyansang kumpyansa kumpyansang
+26	5126	sus	
+27	5127	bihis	
+28	5128	salt	
+29	5129	tutuli	magtutuli pagtutuli totoli
+30	5130	matauhan	natauhan
+31	5131	bibe	bibi bibing
+32	5132	maghabi	naghabi naghahabi paghabi paghahabi
+33	5133	awtonomiya	autonomia awtonomiyang awtonomya otonomiya
+34	5134	sang-ayunan	sang-ayunang sasang-ayunan sinang-ayunan sinang-ayunang sinangayunan sinasang-ayunan
+35	5135	magsamantala	nagsamantala nagsasamantala pagsamantala pagsamantalang pagsasamantala pagsasamantalang
+36	5136	por	
+37	5137	huwad	
+38	5138	weyt	wet
+39	5139	magpatakbo	nagpatakbo
+40	5140	tensiyon	tensiyong
+41	5141	magtakip	nagtakip nagtatakip pagtatakip
+42	5142	mayabang	mayayabang
+43	5143	diskurso	diskursong
+44	5144	transpormasyon	transpormasyong
+45	5145	kaparangan	kaparangang
+46	5146	bingi	binging
+47	5147	bulto	bultong pagbubulto
+48	5148	luya	luyang
+49	5149	salawal	
+50	5150	karampatan	karampatang
+51	5151	tumaya	pagtaya tataya tumataya tumatayang
+52	5152	atang	
+53	5153	talaarawan	talaarawang
+54	5154	bilihin	bilihing
+55	5155	hugasan	hinugasan hinuhugasan hugasang huhugasan
+56	5156	bara	barang pagbabara
+57	5157	maggawad	maggagawad naggagawad naggawad paggagawad paggawad
+58	5158	serbesa	serbesang
+59	5159	desente	desenteng disente disenteng
+60	5160	kanya-kanya	kanya-kanyang
+61	5161	inmigrasyon	imigrasyon imigrasyong
+62	5162	'no	no noh nong
+63	5163	kababaan	kababaang
+64	5164	tiktik	
+65	5165	sulo	
+66	5166	kalansay	
+67	5167	tripulante	tripulanteng
+68	5168	balakid	
+69	5169	susog	pagsusog pagsususog
+70	5170	takas	pagtatakas
+71	5171	lungti	lunti lunting
+72	5172	delegasyon	delegasyong
+73	5173	analisa	pag-aanalisa pag-analisa pagaanalisa
+74	5174	mag-asikaso	nag-aasikaso nag-aasikasong nag-asikaso pag-aasikaso pag-asikaso pagaasikaso
+75	5175	kinakapatid	
+76	5176	salmo	salmong
+77	5177	imam	iman imang
+78	5178	umapekto	aapekto pag-apekto pagapekto umaapekto
+79	5179	demanda	demandang
+80	5180	kandado	kandadong pagkakandado pagkandado
+81	5181	monopolyo	monopolyong
+82	5182	hulapi	hulaping paghuhulapi
+83	5183	tuberkulosis	
+84	5184	adbokasiya	adbokasiyang
+85	5185	alingawngaw	
+86	5186	masaker	pagmamasaker pagmasaker
+87	5187	boro	borong
+88	5188	kalbaryo	kalbaryong
+89	5189	maghubad	naghubad paghubad paghuhubad
+90	5190	pagpapatiwakal	
+91	5191	atraksiyon	atraksiyong atraksiyón
+92	5192	magprotekta	magpoprotekta nagpoprotekta nagprotekta pagpoprotekta pagprotekta
+93	5193	magtahi	nagtahi nagtatahi pagtahi pagtatahi tahian tahiin tinahi tinahian tinatahi tinatahing
+94	5194	magtustos	nagtustos nagtutustos pagtustos pagtutustos
+95	5195	umakto	aakto pag-akto pag-aktong pagakto umaakto umaaktong umaktong
+96	5196	palaman	palamang pinalaman pinapalaman
+97	5197	magmura	magmumura nagmumura nagmumurang nagmura pagmumura pagmumurang pagmura
+98	5198	tukoy	
+99	5199	ibukod	ibinubukod ibinukod
+100	5200	salitang-ugat	

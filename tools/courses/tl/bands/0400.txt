@@ -1,0 +1,100 @@
+1	301	barangay	baranggay
+2	302	madalas	dalas madadalas nadadalas napakadalas pinakadalas pinakamadalas
+3	303	lima	lima't limang limá panlima panlimang
+4	304	timog	pinakatimog
+5	305	masama	masamang masamâ masasama masasamang napakasama napakasamang pinakamasama pinakamasamang
+6	306	planeta	planetang
+7	307	malakas	malalakas napakalakas pinakamalakas
+8	308	anuman	anumang
+9	309	mabuhay	mabubuhay nabubuhay nabuhay
+10	310	digmaan	digmaang
+11	311	mata	mata'y matang matá
+12	312	heto	eto etong hetong
+13	313	ayusin	aayusin ayosin ayusing inaayos inayos ipaayos ipinaayos maaayos maayos makipag-ayos makipagayos naaayos naayos nakikipag-ayos napakaayos pinakamaayos
+14	314	ilog	pag-ilog
+15	315	hayop	auf
+16	316	silangan	pinakasilangan pinakasilangang silangang sinilangan sinilangang
+17	317	maniwala	maniniwala maniniwalang maniwalang naniniwala naniniwalang naniwala naniwalang paniwala paniwalang
+18	318	pagkakataon	pagkakataong
+19	319	magpakita	magpakitang magpapakita nagpakita nagpakitang nagpapakita nagpapakitang pagpakita pagpapakita pagpapakitang
+20	320	hapon	hapong
+21	321	magsalita	magsalitâ magsasalita nagasalita nagsalita nagsasalita nagsasalitang pagsalita pagsasalita pagsasalitang
+22	322	sandali	sandaling
+23	323	mahusay	mahuhusay pinakamahusay
+24	324	dagat	ragat
+25	325	paaralan	paaralang
+26	326	susunod	
+27	327	tingin	tinging
+28	328	sobra	sobrang
+29	329	samahan	ikasasama isama isamang isasama isinama isinamang isinasama isinasamang maisama makisama naisama naisasama nakikisama nakisama nasamahan nasamahang nasasamahan samaan samahang samahán samaháng sasamahan sinamahan sinasamahan
+30	330	programa	programang
+31	331	maghanap	maghahanap naghahanap naghanap paghahanap paghanap
+32	332	kapangyarihan	kapangyarihang
+33	333	ikalawa	icalaua ikadalawa ikalawa'y ikalawang ikalwang
+34	334	isipin	iisipin iisiping iniisip inisip isiping
+35	335	pagbabago	pagbabagong
+36	336	unibersidad	
+37	337	masaya	masasaya masasayang masayang napakasaya nasasayang pinakamasaya pinakamasayang
+38	338	pulis	pagpupulis polis
+39	339	maglaro	laruin maglalaro makipaglaro malalaro malalarong malaro naglalaro naglalarong naglaro naglarong nakikilaro nakikipaglaro nalalaro nalalarong nalaro nilalaro nilalarong paglalaro paglalarong paglaro paglaruan pinaglalaruan
+40	340	pare	par pareng pre
+41	341	umaga	aga agang umaga't umagang
+42	342	subalit	
+43	343	video	bidyo bidyong videong
+44	344	magsagawa	inasagawa isagawa isasagawa isasagawang isinagawa isinagawang isinasagawa isinasagawang magsagawâ magsasagawa maisagawa nagsagawa nagsasagawa nagsasagawang naisagawa naisagawang naisasagawa
+45	345	palitan	ipagpalit ipagpapalit ipalit ipapalit ipinalit ipinapalit maipagpalit maipagpapalit maipalit makipagpalit mapalitan mapapalitan naipalit naipapalit nakikipagpalit napagpapalitang napalitan napapalitan pagpalitan palitang palitán papalitan pinalitan pinalitang pinapalitan
+46	346	halaga	halagang halagá
+47	347	subukan	isinubok masubukan masusubukan nasubukan nasubukang nasusubukan sinubukan sinubukang sinusubukan sinusubukang subukang susubukan susubukang
+48	348	magaling	magagaling napakagaling pinakamagaling
+49	349	ilabas	ilalabas inilabas inilalabas
+50	350	sa'yo	sayo sayo'y sayong
+51	351	mismo	mismo'y mismong
+52	352	masyado	masyadong
+53	353	dumaan	daanan daanang daanin dadaanan daraan daraanan dinaan dinaanan dinaanang dinadaan dinadaanan dinadaanang dinaraan dinaraanan dumadaan dumadaang dumaraan dumaraang idaan idadaan idinaan idinadaan ipinadaan madaan madaanan madadaan madadaanan nadaanan nadadaan nadadaanan nadadaanang nakikidaan pagdaanan pagdadaanan pinagdaanan pinagdaanang pinagdadaanan
+54	354	medyo	medyong mej mejo
+55	355	sikat	napakasikat pagsisikat pinakasikat sicat sikát
+56	356	beses	
+57	357	lagi	laging lagì lgi
+58	358	nakaraan	nakaraang
+59	359	pera	perang
+60	360	magsabi	ipagsabi ipinapasabi ipinasasabi magsabing magsasabi magsasabing masabihan nagsabi nagsabing nagsasabi nagsasabing nasabihan nasasabi nasasabihan nasasabing pagsabi pagsabihan pagsabing pagsasabihan pinagsabihan pinagsasabihan sinasabi sinasabihan sinasabihang sinasabing
+61	361	pumatay	napatay papatay pumapatay
+62	362	miyembro	miyembrong myembro myembrong pagmimiyembro
+63	363	itatag	itatatag itinatag itinatatag
+64	364	maintindihan	maiintindihan maintindihang naiintindihan naiintindihang naintindihan
+65	365	bukas	bucas bukás pinakabukas
+66	366	mabilis	mabibilis mabilís napakabilis napakamabilis pinakamabilis
+67	367	linya	linea linyang
+68	368	ituring	itinuring itinuturing ituturing
+69	369	tulungan	tinulungan tinulungang tinutulungan tinutulungang tulungang tutulungan
+70	370	kamatayan	kamatayang
+71	371	kundi	
+72	372	pinuno	pinakapinuno pinuno't pinunong pinunò
+73	373	matagal	matatagal pinakamatagal
+74	374	lumikha	likha likhang lilikha lumilikha lumilikhang nalikha nalikhang paglikha paglikhang
+75	375	kumusta	kamusta kumustang musta
+76	376	serye	seryeng
+77	377	anyo	anyong anyô pag-aanyo
+78	378	kasalanan	kasalanang
+79	379	magtrabaho	magtatrabaho nagtatrabaho nagtatrabahong nagtrabaho nagtrabahong pagtatrabaho pagtrabaho
+80	380	halika	hika lika
+81	381	manirahan	maninirahan maninirahang naninirahan naninirahang nanirahan nanirahang
+82	382	kapuwa	kapwa kapwang
+83	383	lumaki	lumaking lumalaki lumalaking nalaki paglaki paglaking
+84	384	bumaba	babaan bababa bababaan binaba binabaan binababa binababaan bumababa bumababang bumabang bumabà bumabâ ibababa ibinaba ibinababa ibinabang ikabababa ipinababa ipinabababa maibaba naibaba pagbaba
+85	385	papunta	papuntang pinapapunta pinapunta
+86	386	aklat	aklát
+87	387	makinig	makikinig nakikinig nakinig
+88	388	bundok	
+89	389	pangalawa	pangalawang pangalwa pangalwang
+90	390	umabot	aabot pag-abot pagabot umaabot
+91	391	tumulong	itinulong itinutulong itulong itutulong maitulong makitulong matulungan matulungang matutulungan matutulungang naitutulong natulungan natutulungan natutulungang pagtulong pagtulungan pagtulungang pinagtutulungan tinutulungan tinutulungang tumutulong tutulong
+92	392	akala	akalang kala pag-aakala pag-aakalang pag-akala
+93	393	tumukoy	pagtukoy tumutukoy tutukoy
+94	394	parati	parating
+95	395	pangkat	pagpangkat pagpapangkat pangkát
+96	396	kanluran	kanlurang pinakakanluran pinakakanlurang
+97	397	maalala	maaalala maaalalang maalalang naaalala naaalalang naalala naalalang
+98	398	hayaan	hahayaan hahayaang hayaang hinahayaan hinahayaang hinayaan hinayaang
+99	399	gayumpaman	gayunpaman
+100	400	klase	clase klaseng

@@ -1,0 +1,100 @@
+1	7801	laksa	laksâ
+2	7802	pisbol	
+3	7803	ipakalat	ipapakalat ipinakalat ipinapakalat
+4	7804	laryo	lario laryong
+5	7805	agraryo	agraryong
+6	7806	dinamita	
+7	7807	panaderya	panaderyang
+8	7808	beatipikasyon	
+9	7809	kanonisasyon	
+10	7810	liya	lia liyang
+11	7811	pailaw	pagpapailaw
+12	7812	astro	
+13	7813	tenor	
+14	7814	segunda	pagsegunda
+15	7815	pagtatapat	
+16	7816	higa	
+17	7817	oasis	
+18	7818	ilawan	ilawang ilawán iniilawan inilawan
+19	7819	dagli	dagling
+20	7820	reno	
+21	7821	dilis	
+22	7822	mandarambong	
+23	7823	maiuwi	naiuwi naiuwing
+24	7824	karo	karong
+25	7825	pumawi	pagpawi
+26	7826	humampas	paghampas
+27	7827	ipares	ipinapares ipinares
+28	7828	mamahayag	namamahayag
+29	7829	magpanalo	nagpanalo nagpapanalo pagpanalo pagpapanalo
+30	7830	mag-akusa	nag-aakusa nag-akusa nagakusa pag-aakusa
+31	7831	anormalidad	abnormalidad
+32	7832	siwang	
+33	7833	aktibidades	
+34	7834	krusipiho	krusipihong
+35	7835	kurakot	pinakakurakot
+36	7836	limutin	lilimutin
+37	7837	bangon	bangong
+38	7838	testamento	testamentong
+39	7839	dumalisay	dadalisayin dalisayin dinalisay dumadalisay nadalisay pagdalisay pagdalisayan
+40	7840	kabado	
+41	7841	lapag	
+42	7842	makahingi	makahihingi nakahingi
+43	7843	biseksuwal	bisekswal
+44	7844	plota	plotang
+45	7845	sosyo	pagsososyo pagsosyo sosyong
+46	7846	biyas	
+47	7847	iluwal	iniluluwal iniluwal
+48	7848	ops	
+49	7849	ampalaya	ampalayang
+50	7850	sipnayan	
+51	7851	makatuwid	nakatuwid
+52	7852	antala	pag-aantala pagaantala
+53	7853	minatamis	
+54	7854	mikroorganismo	mikroorganismong
+55	7855	idugtong	idinudugtong idinugtong idudugtong
+56	7856	tugtugan	tinutugtugan tugtugang
+57	7857	tibo	
+58	7858	presko	preskong
+59	7859	sawi	
+60	7860	sablay	
+61	7861	maantig	maaantig naaantig naantig
+62	7862	tipanan	
+63	7863	tikbalang	tigbalang
+64	7864	makabawas	makababawas makakabawas nakababawas nakabawas
+65	7865	maggawa	maggagawa maggawang naggagawa naggawa naggawang paggagawa
+66	7866	makalahok	makakalahok makalalahok nakalahok
+67	7867	lagnatin	lalagnatin nilagnat nilalagnat
+68	7868	anyaya	anyayang
+69	7869	sabunin	sabunang sinabon
+70	7870	punerarya	
+71	7871	mag-abuso	inaabuso inaabusong maaabuso maabuso naabuso pag-aabuso pag-abuso pagaabuso
+72	7872	sulat-kamay	
+73	7873	sumala	pagsala sumasala
+74	7874	dasalan	dasalang
+75	7875	gangster	
+76	7876	palos	
+77	7877	ateismo	
+78	7878	makibaka	makibakang nakibaka
+79	7879	nagparamdam	
+80	7880	bakasyunan	bakasyonan bakasyunang
+81	7881	kometa	kometang
+82	7882	indayog	pag-indayog
+83	7883	mahapdi	mahahapding mahapding napakahapdi
+84	7884	magpamalas	nagpamalas
+85	7885	makamandag	
+86	7886	malanghap	malalanghap nalalanghap nalanghap
+87	7887	magpamahagi	nagpamahagi nagpapamahagi pagpapamahagi pagpapamahaging
+88	7888	bahag	
+89	7889	lati	lating
+90	7890	magbalik-loob	magbabalik-loob nagbabalik-loob nagbalik-loob
+91	7891	inspektor	
+92	7892	magwasak	nagwasak nagwawasak
+93	7893	lumusot	lumulusot paglusot
+94	7894	lupit	
+95	7895	sumpong	pagsumpong sompong
+96	7896	ambisyoso	ambisyosong
+97	7897	areglo	areglong pag-aareglo
+98	7898	dalandan	
+99	7899	insulares	insular
+100	7900	serbidor	serbidora serbidorang

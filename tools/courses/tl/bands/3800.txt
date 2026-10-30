@@ -1,0 +1,100 @@
+1	3701	tahasan	tahasang
+2	3702	retirado	retiradong
+3	3703	koalisyon	koalisyong
+4	3704	sirkulasyon	sirkulasyong
+5	3705	alisan	aalisan inaalisan inalisan pag-aalisan
+6	3706	madulas	dulas madudulas nadudulas nadulas pagkadulas
+7	3707	panggatong	
+8	3708	tantiyahin	tantyahin tinantiya tinantiyang tinantya tinantyang tinatantiya tinatantiyang tinatantya tinatantyang
+9	3709	bra	
+10	3710	bakante	bakanteng
+11	3711	magkahawig	magkakahawig nagkakahawig pagkahawig pagkakahawig
+12	3712	matagalan	matagalang
+13	3713	bumilang	bibilang bumibilang
+14	3714	raha	rajah
+15	3715	pasanin	papasanin papasaning pasan pasaning pinapasan pinasan pinasang
+16	3716	pila	pilang
+17	3717	mapuksa	mapupuksa napuksa napupuksa
+18	3718	konde	kondeng kondesa kondesang
+19	3719	rekomendasyon	rekomendasyong
+20	3720	kinalabasan	kinalabasang
+21	3721	karibal	
+22	3722	sukdulan	pinakasukdulan pinakasukdulang sukdulang
+23	3723	bansag	
+24	3724	tanikala	tanikalang
+25	3725	matanto	matantong matatanto natanto natantong natatanto natatantong
+26	3726	magising	magigising nagigising pagising
+27	3727	paliitin	pinaliit pinapaliit
+28	3728	nabubulok	
+29	3729	kumbinsihin	kinukumbinsi kinumbinsi kukumbinsihin
+30	3730	tabako	
+31	3731	harang	paghaharang
+32	3732	kumausap	kakausap kumakausap
+33	3733	magsulong	magsusulong nagsulong nagsusulong pagsusulong
+34	3734	apatnapu	apatnapu't apatnapung
+35	3735	anito	anitong pag-aanito pag-anito paganito
+36	3736	matematiko	matematikong
+37	3737	hati	hatî
+38	3738	integral	
+39	3739	analisis	
+40	3740	maglibang	naglilibang paglibang paglilibang
+41	3741	pabango	pabangong pagpapabango
+42	3742	kumiling	kikiling kumikiling pagkiling
+43	3743	lingguhan	lingguhang
+44	3744	isali	isaling isasali isasaling isinali isinaling isinasali isinasaling
+45	3745	patawanin	patawa pinatatawa
+46	3746	itoy	
+47	3747	kuno	
+48	3748	lata	latang paglalata
+49	3749	pagkukunwari	
+50	3750	tunggalian	tunggaliang
+51	3751	pilat	
+52	3752	palaboy	
+53	3753	sakahan	sakahang
+54	3754	ipaalala	ipaalalang ipapaalala ipinaalala ipinapaalala
+55	3755	sangandaan	sangandaang sangang-daan sangangdaan
+56	3756	lumaktaw	laktawan lalaktawan lumalaktaw paglaktaw
+57	3757	palayok	pagpapalayok
+58	3758	umulit	naulit pag-ulit umuulit uulit
+59	3759	sipsip	
+60	3760	kapitolyo	kapitolyong
+61	3761	poste	posteng
+62	3762	punong ministro	ministro punong
+63	3763	ke	keng
+64	3764	gumugol	gugugol gumugugol paggugol
+65	3765	instituto	institutong istituto
+66	3766	umandar	aandar andar pag-aandar pag-andar umaandar
+67	3767	konserbatibo	konserbatibong
+68	3768	masipag	masisipag napakasipag pinakamasipag
+69	3769	pamamahayag	
+70	3770	tindero	tindera tinderang
+71	3771	puke	poqui puki
+72	3772	moog	muog
+73	3773	maghandog	maghahandog naghahandog naghandog paghahandog
+74	3774	magpaputok	magpapaputok nagpapaputok nagpaputok pagpapaputok pagpaputok
+75	3775	sabik	
+76	3776	siyasatin	sinisiyasat siniyasat sisiyasatin
+77	3777	mag-imbita	nag-imbita pag-iimbita pag-imbita umimbita
+78	3778	inodoro	inidoro
+79	3779	aray	aruy
+80	3780	nars	narses
+81	3781	milenyo	milenyong
+82	3782	kasiya	kasya
+83	3783	samba	
+84	3784	loko	loco loka lokong
+85	3785	deklarasyon	deklarasyong
+86	3786	mansanas	
+87	3787	umakit	aakit pag-akit umaakit
+88	3788	kabute	kabuteng kabuti kabuting
+89	3789	pagalingin	pagaling papagalingin pinagaling
+90	3790	hipon	hipong
+91	3791	malasin	malasing mamalasin minalas minamalas nalalasing nalasing
+92	3792	masuri	masusuri masusuring nasuri nasuring nasusuri nasusuring
+93	3793	agila	agilang
+94	3794	magkuwento	nagkukuwento nagkuwento pagkukuwento pagkukuwentong pagkuwento
+95	3795	butiki	butiking
+96	3796	humuli	humuhuli paghuli
+97	3797	magbabala	nagbababala nagbababalang nagbabala nagbabalang pagbabala
+98	3798	maimpluwensiya	maimpluwensiyang naiimpluwensiya naimpluwensiya napakamaimpluwensiya pinakamaimpluwensiya pinakamaimpluwensiyang
+99	3799	mapisa	mapipisa napisa napisang
+100	3800	mapadpad	mapapadpad napadpad napapadpad

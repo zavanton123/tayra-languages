@@ -1,0 +1,100 @@
+1	201	nandito	andito nandirito naririto narito
+2	202	lalawigan	lalawigang
+3	203	mahalaga	mahahalaga mahahalagang mahalagang nahalaga napakahalaga napakahalagang pinakamahalaga pinakamahalagang
+4	204	hari	haring harì pinakahari
+5	205	sakit	pananakit saket sakít
+6	206	kumain	cain ipakain ipapakain ipinakain ipinapakain kain kainin kaining kakain kakainin kakaining kinain kinaing kinakain kinakainang kinakaing kumaing kumakain kumakaing makain makainan makakainan makanan nakain nakaing nakakain nakakaing nakikikain pagkakain pinagkainan pinakakain
+7	207	dumating	darating dumadating dumarating dumatíng
+8	208	pangulo	pangulong pinakapangulo
+9	209	paraan	paraang parahan paraán
+10	210	hanapin	hahanapan hahanapin hanapan hinahanap hinahanapan hinanap hinanapan ihanap ipinahanap mahahanap mahanap mahanapan nahahanap nahanap
+11	211	kasaysayan	kasaysayang
+12	212	pagkain	pagkaing
+13	213	baka	bakang baká bakâ pagbabaka pagbabakang pagbaka
+14	214	patayin	ipapapatay ipapatay ipinapapatay ipinapatay ipinatay maipatay mapapatay mapatay naipatay napapatay napatay pagpapatayin papatayin pataying pinapatay pinatay
+15	215	nasaan	asan asang nasaang nasan
+16	216	dalhin	dadalhin dalahin dalhan dalin dinadala dinadalang dinala dinalang ipadala ipadalang ipapadala ipapapadala ipinadadala ipinadadalang ipinadala ipinadalang ipinagpapadala ipinapadala ipinapadalang madadala madala madalhan maipadala nadadala nadadalhan nadala naipadala naipadalang naipapadala padala padalang papadala pinadala pinadalang pinagdadalhan pinapadala
+17	217	simbahan	simbahang
+18	218	mahirap	hirap mahihirap napakahirap pinakamahirap
+19	219	kapatid	kapatíd
+20	220	ibigay	bigayan binibigayan ibibigay ibinibigay ibinigay pagibigay
+21	221	daan	daang makaraan makaraang raan raang
+22	222	halos	napakahalos
+23	223	problema	poblema poblemang problemang
+24	224	ganoon	ganern gano'n ganon ganong ganoong ganun ganung ganuon ganuong
+25	225	halimbawa	hal halimbawa'y halimbawang
+26	226	palabas	palabás papalabas pinalabas pinapalabas
+27	227	batas	batás pagbabatas pagbatas
+28	228	dahilan	dahilang dinadahilan dinahilan pagdadahilan pagdadahilang
+29	229	ganito	ganitong ganto gantong gento
+30	230	katulad	pinakakatulad
+31	231	kaysa	kesa keysa
+32	232	puno	pagpupuno pinakapuno pinakapunong puno't punong punò
+33	233	rehiyon	rehiyong
+34	234	gamit	pinakagamit
+35	235	lumabas	lalabas lumalabas
+36	236	kuwento	kuwentong kwento kwentong naikuwento
+37	237	opisyal	opisyales
+38	238	katawan	katawang pagkakatawan pagkakatawang pinakakatawan pinakakatawang
+39	239	galing	
+40	240	ninyo	niniyo ninyo'y ninyong
+41	241	ayaw	pag-aayaw pinakaayaw
+42	242	buwan	bouan buwán bwan
+43	243	puso	pinakapuso poso posong puso't puso'y
+44	244	karamihan	karamihang
+45	245	diyan	dian dyaan dyan jan jang riyan riyang
+46	246	kaso	kasong kinasuhan makasuhan
+47	247	taas	itaas itataas itinaas itinataas mataasan mataasang nataasan pinakaitaas pinakataas taasan taasang tataasan tinaasan
+48	248	lupa	lupa't lupa'y lupang lupà
+49	249	trabaho	trabahong
+50	250	populasyon	populasyong
+51	251	milyon	milyong
+52	252	hilaga	hilaga't hilagang pinakahilaga pinakahilagang
+53	253	ipakita	ipakitang ipapakita ipapakitang ipinakita ipinakitang ipinapakita ipinapakitang ipinapapakita maipakita maipakitang naipakita naipakitang pinapakita pinapakitang
+54	254	labas	pinakalabas
+55	255	laro	daro larong larô
+56	256	minsan	minsan'y minsang
+57	257	manatili	mananatili mananatiling manatiling nananatili nananatiling nanatili nanatiling panatili
+58	258	gaya	
+59	259	siglo	siglong
+60	260	teka	
+61	261	tunay	pinakatunay
+62	262	mahaba	haba habà kasinghaba mahabang mahahaba mahahabang napakahaba napakahabang paghahaba pagkahaba pagkahaba-haba pinakamahaba pinakamahabang
+63	263	mahal	mahál napakamahal pinakamahal
+64	264	papa	papang
+65	265	kamay	camay
+66	266	mababa	baba babang babà mabababa mabababang mababang nababa napakababa napakababang pagkababa pinakababa pinakamababa pinakamababang
+67	267	asawa	asaua asawa'y asawang
+68	268	madali	andali dale dali daling dalì kasindali madadaling madaling napakadali napakadaling napakamadaling pinakamadali pinakamadaling
+69	269	simula	pinakasimula pinakasimulang simula't simula'y simulang
+70	270	sistema	pagsisistema sistemang
+71	271	apat	apat't
+72	272	linggo	dinggo dingo lin ling linggong lingo
+73	273	grupo	grupo'y grupong paggrupo paggugrupo
+74	274	pati	pate pateng
+75	275	santo	item san santa santang santong
+76	276	banda	banda'y bandang bandá
+77	277	gawa	gawang gawâ
+78	278	pambansa	pambansang pambansâ
+79	279	marinig	madidinig madinig maririnig nadidinig nadinig narinig naririnig
+80	280	patay	pagpapakamatay pamatay
+81	281	artista	artistang
+82	282	kanta	kanta'y kantang pagkakanta
+83	283	gumanap	gagampanan gaganap gampanan ginagampanan ginagampanang ginampanan ginampanang gumaganap iginanap kagampanan magampanan nagagampanan pagganap
+84	284	ina	ina'y iná yna ynang
+85	285	ulo	ulo'y ulong
+86	286	gitna	gitnang gitnâ pinakagitna pinakagitnang
+87	287	tumanggap	ipatanggap matanggap matatanggap natanggap natatanggap pagtanggap tatanggap tatanggapin tinatanggap tumatanggap
+88	288	mali	maling pagkakamali pagkakamaling
+89	289	makakuha	makakakuha makakuhang makakukuha nakakakuha nakakuha nakakukuha
+90	290	magmula	magmumula nagmula nagmulang nagmumula nagmumulang pagmumula
+91	291	bilis	
+92	292	estado	estadong
+93	293	manalo	ipanalo ipinanalo mananalo mananalong mapapanalunan mapapanalunang nanalo nanalong nananalo
+94	294	bumili	bibilhan bibilhin bibilhing bibili bilhan bilhin bilihan bilin biling binibilhan binibili binibiling binilhan binili biniling bumibili ibibili ibili ibinibili ibinili ipabili ipinabibili kabibili mabibili mabibiling mabili mabiling maibili nabibili nabibiling nabilhan nabili nabiling naibili pagbilhan
+95	295	sumama	nasama nasamang nasasama pagsama sama samang samâ sasama sumasama
+96	296	makilala	makikilala makikilalang makilalala makilalang nakikilala nakikilalang nakilala nakilala't nakilalang
+97	297	agad	agar
+98	298	ipanganak	ipapanganak ipinanganak ipinapanganak
+99	299	tulong	naitulong
+100	300	ayos	aus ays

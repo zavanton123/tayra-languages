@@ -1,0 +1,100 @@
+1	2701	malusog	malulusog napakalusog pinakamalusog
+2	2702	hiramin	hihiramin hinihiram hiniram
+3	2703	himukin	hihimukin hinihimok hinimok
+4	2704	lumisan	lumilisan paglisan
+5	2705	damdam	pagdamdam ramdam
+6	2706	kalungkutan	kalungkutang
+7	2707	panuntunan	panuntunang
+8	2708	obra	obrang ubra
+9	2709	patong	pagpapatong
+10	2710	makatarungan	makakatarungan makatarungang
+11	2711	emosyon	emosyong
+12	2712	arko	arco arka arkong
+13	2713	dalampasigan	dalampasigang
+14	2714	magsarili	nagsarili nagsariling nagsasarili nagsasariling pagsasarili pagsasariling
+15	2715	argumento	argumentong
+16	2716	katuruan	katuruang
+17	2717	makatagpo	makakatagpo nakatagpo
+18	2718	kompositor	
+19	2719	tuyong	pinakatuyong
+20	2720	patag	pagpapatag
+21	2721	hiling	paghihiling
+22	2722	humiling	hihiling humihiling paghiling
+23	2723	rebulto	rebultong
+24	2724	ikulong	ikinukulong ikinulong ikukulong
+25	2725	ambag	
+26	2726	eksperto	ekspertong
+27	2727	kapani-paniwala	kapani-paniwalang
+28	2728	detalyado	detalyadong
+29	2729	manong	manang mano pagmamanang
+30	2730	kalamnan	kalamnang
+31	2731	lamesa	lamesang
+32	2732	atensyon	atensyong
+33	2733	kumulang	kukulang pagkulang
+34	2734	pambata	pambatang
+35	2735	mani	maning
+36	2736	intindihin	iintindi iintindihin iniintindi inintindi ipaintindi
+37	2737	putbol	futbol
+38	2738	salakayin	masalakay nasalakay salakaying sasalakayin sinalakay sinasalakay
+39	2739	makaya	makakaya makakayang makayang nakakaya nakakayang nakaya nakayang
+40	2740	konektado	konektadong
+41	2741	mag-alay	mag-aalay nag-aalay nag-alay nagaalay pag-aalay pag-alay pagaalay
+42	2742	espiya	espia espiyang ispiya ispya pag-eespiya pag-espiya
+43	2743	kongkreto	kongkretong konkreto konkretong
+44	2744	ungol	
+45	2745	umayon	aayon pag-ayon umaayon umaayong umayong
+46	2746	magdesisyon	magdedesisyon magdesisyong nagdedesisyon nagdesisyon nagdesisyong pagdedesisyon pagdesisyon
+47	2747	husgahan	hinuhusgahan hinusgahan huhusgahan
+48	2748	martir	pagmamartir
+49	2749	magwala	magwawala nagwala nagwawala nagwawalang pagwala pagwalang pagwawala pagwawalang
+50	2750	lapit	nilapitan paglalapit
+51	2751	suprema	supremang
+52	2752	gumuhit	gumuguhit pagguhit
+53	2753	maghangad	maghahangad naghahangad naghangad paghahangad paghangad
+54	2754	akademya	akademiya akademiyang akademyang
+55	2755	ipatapon	ipapatapon ipinatapon ipinatapong ipinatatapon maipatapon matapong matatapon naipatapon natapon natapong natatapon tapunan tapunang tinapon tinatapon tinatapong
+56	2756	magkakilala	magkakakilala magkakilalang nagkakakilala nagkakilala pagkakakilala pagkakilala
+57	2757	pagkatiwalaan	pagkakatiwalaan pinagkakatiwalaan pinagkakatiwalaang pinagkatiwalaan
+58	2758	bilib	
+59	2759	ipalagay	ipapalagay ipinalagay ipinapalagay
+60	2760	pumayat	pagpayat papayat
+61	2761	pakikipag-usap	
+62	2762	humabol	hahabol humahabol paghabol
+63	2763	makamatay	nakamamatay nakamatay
+64	2764	maglibot	maglilibot naglibot naglilibot paglilibot
+65	2765	hero	hiro
+66	2766	lathalain	lathalaing nilathala nilathalang
+67	2767	bunso	bunsong pinakabunso
+68	2768	sumpain	sinumpa sinumpang sinusumpa
+69	2769	manggulo	manggugulo nanggugulo nanggulo panggulo panggulong
+70	2770	salik	pagsasalik
+71	2771	managinip	nanaginip nananaginip
+72	2772	maunlad	mauunlad napakaunlad pinakamaunlad
+73	2773	kitain	kikitain kinita kinitang
+74	2774	lumala	lalala lumalala paglala
+75	2775	kabuhayan	kabuhayang pagkakabuhayan
+76	2776	iuwi	iniuuwing iniuwi iuuwi uuwian uwian
+77	2777	bading	
+78	2778	tagpuan	tagpuang
+79	2779	bunganga	bungangang
+80	2780	pagurin	ikinapapagod kapaguran kapagurang mapagod mapapagod napagod napapagod pinagod pinapagod
+81	2781	bukal	bokal
+82	2782	sityo	sitio sityong
+83	2783	buwang	buang
+84	2784	kanayunan	kanayunang
+85	2785	digri	degri degring digring digrí
+86	2786	umangat	aangat pag-angat pagangat umaangat
+87	2787	bakuran	bakurang binabakuran
+88	2788	eksklusibo	eksklusibong esklusibong
+89	2789	kamera	kamerang
+90	2790	kainan	cainan kainang kinainan kinakainang
+91	2791	maisipan	maiisipan naiisipan naisipan naisipang
+92	2792	tamod	tamud
+93	2793	hatol	
+94	2794	kuwadrado	kuwadradong
+95	2795	tanghali	tanghaling
+96	2796	bulwagan	bulwagang
+97	2797	seksiyon	seksiyong
+98	2798	nakalaan	nakalaang
+99	2799	orasan	inoorasan inorasan orasang
+100	2800	tambalan	pagtatambalan tambalang tinatambalan

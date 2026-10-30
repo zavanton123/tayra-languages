@@ -1,0 +1,100 @@
+1	3901	akyat	pag-aakyat
+2	3902	angat	
+3	3903	prusisyon	pagpuprusisyon prusisyong
+4	3904	pantog	
+5	3905	tukso	tuksong
+6	3906	kantidad	
+7	3907	makalaya	makakalaya nakalalaya nakalalayang nakalaya
+8	3908	pinal	
+9	3909	iharap	ihaharap ihinaharap ihinarap inihaharap iniharap
+10	3910	itali	itinali itinaling itinatali talian tatalian tinalian
+11	3911	ubas	
+12	3912	patpat	
+13	3913	nobya	nobyang nobyo nobyong
+14	3914	inskripsiyon	inskripsiyong inskripsyon inskripsyong
+15	3915	pasalamat	
+16	3916	lubog	paglulubog
+17	3917	ialis	iniaalis inialis
+18	3918	klasikal	
+19	3919	makaipon	nakaiipon nakaipon
+20	3920	mandaragit	
+21	3921	maghiganti	maghihiganti naghiganti naghihiganti paghiganti
+22	3922	makasalubong	makakasalubong makasasalubong nakasalubong
+23	3923	humuni	humuhuni humuhuning paghuni
+24	3924	bubuyog	pagbububuyog
+25	3925	petisyon	petisyong
+26	3926	pasumala	pasumalang
+27	3927	panunumpa	panunumpang
+28	3928	isalaysay	isinalaysay isinasalaysay
+29	3929	salbahe	salbaheng
+30	3930	madakip	nadadakip nadakip
+31	3931	mamahagi	mamamahagi namahagi namamahagi pagmamahagi pamahagi pamahaging
+32	3932	sigay	
+33	3933	bisig	
+34	3934	pulmonya	pulmonyang pulmunya
+35	3935	galitin	gagalitin ginagalit ginalit
+36	3936	surian	pagsurian suriang surián
+37	3937	propaganda	propagandang
+38	3938	bisyo	bisio bisyong
+39	3939	pasabugin	papasabog pasabog pinapasabog pinasabog
+40	3940	tawidin	tinatawid tinawid
+41	3941	bulalas	
+42	3942	hinto	hintong
+43	3943	sampalok	sampaloc
+44	3944	patnubay	
+45	3945	baryante	baryanteng
+46	3946	humukay	humuhukay paghukay
+47	3947	puna	pona punang
+48	3948	estrikto	estriktong istrikto istriktong strikto striktong
+49	3949	nakakatanggap	
+50	3950	pirata	piratang
+51	3951	imno	himno himnong imnong
+52	3952	piyudal	peudal pyudal
+53	3953	atraksyon	atraksyong
+54	3954	lumiko	inililiko likuan liliko lumikong lumiliko pagliko paglikong
+55	3955	obserbatoryo	obserbatoryong
+56	3956	pagbabahagi	
+57	3957	tagubilin	pagtatagubilin tagubiling
+58	3958	pampalasa	pampalasang
+59	3959	kaanib	
+60	3960	sampagita	sampagitang sampaguita sampaguitang
+61	3961	labintatlo	labing-tatlo labing-tatlong labingtatlo labingtatlong labintatlong
+62	3962	puyat	
+63	3963	makipagsapalaran	nakikipagsapalaran nakipagsapalaran
+64	3964	akusasyon	akusasyong
+65	3965	magahasa	magagahasa nagahasa
+66	3966	sakto	napakasakto pinakasakto saktong
+67	3967	paham	pahang
+68	3968	pagdinig	
+69	3969	impormal	
+70	3970	pag-iisa	pag-iisang
+71	3971	bodega	bodegang
+72	3972	tira	tirang
+73	3973	sumangguni	pagsangguni pagsangguning sumasangguni
+74	3974	tipon	tipong
+75	3975	botante	botanteng
+76	3976	unawa	pag-uunawa paguunawa
+77	3977	tol	
+78	3978	magprotesta	nagpoprotesta nagpoprotestang nagprotesta pagpoprotesta pagprotesta
+79	3979	puri	pagpupuri puring
+80	3980	wari	pagwari pagwawari waring
+81	3981	tomo	tomong
+82	3982	silanganin	silanganing
+83	3983	patalim	
+84	3984	balo	balong bao baong pagbabao
+85	3985	lumibot	lumilibot paglibot
+86	3986	pag-unawa	pag-unawang
+87	3987	magbura	bumura magbubura nagbura pagbubura pagbura pagburang
+88	3988	maswerte	maswerteng napakaswerte
+89	3989	kasa-kasama	
+90	3990	humirang	hihirang humihirang maghirang paghirang
+91	3991	barkada	barkada'y barkadang
+92	3992	pabigat	pinakapabigat
+93	3993	sulpot	sumulpot
+94	3994	bukol	
+95	3995	imahinasyon	imahinasyong
+96	3996	liwayway	
+97	3997	yumabong	pagyabong yabong yumayabong
+98	3998	lumihis	lihis lilihis lumilihis nalihis paglihis paglilihis
+99	3999	amor	
+100	4000	kargamento	kargamentong

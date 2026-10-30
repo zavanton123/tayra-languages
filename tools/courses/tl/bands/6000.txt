@@ -1,0 +1,100 @@
+1	5901	kulelat	
+2	5902	salmon	salmong
+3	5903	tagos	pagtagos tumagos
+4	5904	mapalagay	napalagay
+5	5905	pirma	pagpipirma
+6	5906	marupok	marurupok
+7	5907	pasabi	pinapasabi
+8	5908	pastulan	
+9	5909	utol	
+10	5910	kantutin	kinakantot kinantot
+11	5911	habi	habing
+12	5912	magmahalan	
+13	5913	nakakabaliw	
+14	5914	umungol	umuungol
+15	5915	kimiko	kimikong
+16	5916	dumaong	dadaong dumadaong pagdaong
+17	5917	tawiran	tawirang tinatawiran tinawiran
+18	5918	ladrilyo	ladrilyong
+19	5919	gawang-kamay	
+20	5920	mauri	mauuri nauri nauring nauuri
+21	5921	sumipi	pagsipi sumisipi
+22	5922	arkanghel	
+23	5923	de-koryente	de-koryenteng de-kuryente de-kuryenteng dekuryente dekuryenteng
+24	5924	kolumnista	kolumnistang
+25	5925	lumamon	lumalamon paglamon
+26	5926	balbal	
+27	5927	musiko	musikong
+28	5928	sunod-sunuran	sunod-sunurang sunud-sunuran sunud-sunurang
+29	5929	katamaran	catamaran
+30	5930	dentista	dentistang pagdedentista
+31	5931	emerhensiya	emerhensiyang emerhensya emerhensyang
+32	5932	kalagan	kinalagan
+33	5933	aksis	
+34	5934	katiwala	katiwalang pagkakatiwala
+35	5935	suhulan	masusuhulan sinuhulan sinuhulang suhulang susuhulan
+36	5936	puwes	pwes
+37	5937	sumugpo	pagsugpo sumusugpo
+38	5938	nami	lami laming nami'y
+39	5939	lingid	
+40	5940	palda	paldang
+41	5941	lumawig	lumalawig paglawig
+42	5942	hibang	
+43	5943	baging	binag
+44	5944	lapastangan	lapastangang
+45	5945	ipamalas	ipinamalas ipinapamalas
+46	5946	humagupit	paghagupit
+47	5947	makatugon	makakatugon makatutugon nakatugon nakatutugon
+48	5948	iprito	ipiniprito
+49	5949	pagkakasakit	
+50	5950	makasira	makakasira makasisira nakasira
+51	5951	tuklasin	tinuklas tinutuklas
+52	5952	pasas	
+53	5953	kutis	
+54	5954	nakakawala	nakakawalang
+55	5955	laitin	lait lalaitin nilait nilalait
+56	5956	suwayin	sinusuway sinuway
+57	5957	bosing	bossing
+58	5958	konsiderasyon	konsiderasyong kunsiderasyon
+59	5959	animnapu	animnapu't animnapung
+60	5960	hulugan	hinulugan hinulugang
+61	5961	masayahin	masayahing
+62	5962	ipamukha	ipinamukha ipinamumukha
+63	5963	magpasigla	nagpasigla
+64	5964	aparisyon	
+65	5965	simpatiya	simpatiyang simpatya simpatyang
+66	5966	akusado	akusadong
+67	5967	espesipiko	espesipikong
+68	5968	kuro	
+69	5969	hanep	
+70	5970	bangis	
+71	5971	sipit	
+72	5972	bela	belang
+73	5973	matigilan	matitigilan natigilan
+74	5974	ganti	ganting pinakaganti
+75	5975	indeks	pag-iindeks
+76	5976	karpet	
+77	5977	alisto	
+78	5978	kagitingan	kagitingang
+79	5979	maparami	naparami
+80	5980	mangahas	mangangahas nangahas nangangahas
+81	5981	separatista	separatistang
+82	5982	pintig	
+83	5983	matikas	matitikas
+84	5984	talukap	talukab
+85	5985	hawig	paghahawig
+86	5986	lilok	paglililok
+87	5987	kamakalawa	kamakalwa
+88	5988	disipulo	disipulong
+89	5989	teknik	
+90	5990	makabasa	makababasa makakabasa nakababasa nakabasa
+91	5991	istorbo	istorbong
+92	5992	humugot	huhugot humuhugot paghugot
+93	5993	samaritano	samaritanong
+94	5994	tumalima	pagtalima tatalima tumatalima
+95	5995	makaimpluwensiya	makaiimpluwensiya makakaimpluwensiya nakaiimpluwensiya nakaimpluwensiya
+96	5996	mailap	maiilap
+97	5997	madagdag	madadagdag
+98	5998	puto	
+99	5999	kabigha-bighani	kabigha-bighaning
+100	6000	hene	heneng

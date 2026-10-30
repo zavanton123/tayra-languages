@@ -1,0 +1,100 @@
+1	6901	planado	planadong
+2	6902	maisaayos	naisaayos
+3	6903	ada	adang
+4	6904	masungkit	masusungkit nasungkit
+5	6905	litisin	nilitis
+6	6906	sakahin	sasakahin sinasaka sinasakang
+7	6907	semestre	semestreng
+8	6908	magkagalit	nagkagalit pagkagalit
+9	6909	matupok	matutupok natupok natutupok
+10	6910	mapunit	napunit napupunit
+11	6911	tatakan	tatatakan tinatakan tinatakang tinatatakan
+12	6912	karot	kerot kerots
+13	6913	sisi	
+14	6914	magpaunlad	nagpaunlad
+15	6915	simoy	
+16	6916	lathala	lathalang lathalà
+17	6917	saliksikin	sinaliksik sinasaliksik
+18	6918	pumikit	pagpikit
+19	6919	tumunog	pagtunog tumutunog
+20	6920	madikit	nadikit
+21	6921	nagpahintulot	
+22	6922	kagisnan	kinagisnan kinagisnang
+23	6923	paglathala	
+24	6924	galak	
+25	6925	matatas	
+26	6926	protokol	
+27	6927	litaw	litáw paglilitaw pinakalitaw
+28	6928	peklat	pagpeklat
+29	6929	makapili	makakapili makapipili nakapili nakapipili
+30	6930	baluti	baluting
+31	6931	mamunga	mamumunga namumunga namumungang namunga
+32	6932	papet	
+33	6933	restorasyon	restorasyong
+34	6934	coke	kok
+35	6935	asim	acm
+36	6936	ponema	ponemang
+37	6937	maipasok	naipasok
+38	6938	panulukan	panulukang
+39	6939	manghimasok	nanghihimasok nanghimasok
+40	6940	magpasabog	nagpapasabog nagpasabog pagpapasabog pagpasabog
+41	6941	lagom	paglalagom
+42	6942	inda	indang pag-inda
+43	6943	kababata	kababatang
+44	6944	kaha	kahang
+45	6945	singko	singkong
+46	6946	hapis	paghahapis
+47	6947	tributo	tributong
+48	6948	hugutin	hinugot hinuhugot
+49	6949	umalsa	aalsa umaalsa umaalsang
+50	6950	bantas	pagbabantas
+51	6951	yumanig	nayanig yanig yumayanig
+52	6952	ampunan	ampunang
+53	6953	pakiusapan	pinakiusapan pinakiusapang
+54	6954	rebisyon	rebisyong revisyon
+55	6955	lingguwistiko	lingguwistikong linggwistiko linggwistikong
+56	6956	ribyu	rebyu
+57	6957	putukan	pinutukan putokan
+58	6958	hikaw	
+59	6959	reperendum	
+60	6960	masungit	
+61	6961	dumagat	pagdagat
+62	6962	sabwatan	sabuwatan sabwatang
+63	6963	pagkit	
+64	6964	arawan	arawang arawi inarawan
+65	6965	ihalintulad	ihahalintulad ihinalintulad inahalintulad inihahalintulad inihalintulad
+66	6966	alang-alang	
+67	6967	tumitig	pagtitig tumititig
+68	6968	piyano	piyanong pyano
+69	6969	malapot	napakalapot
+70	6970	magpabaya	nagpabaya nagpapabaya pagpapabaya
+71	6971	tubigan	tinubigang tinutubigan tubigang
+72	6972	topograpiya	topograpiyang
+73	6973	magdebate	nagdebate nagdedebate nakikipagdebate pagdebate pagdebatihan pagdedebate pinagdedebatihan
+74	6974	balitaan	balitaang binabalitaang binalitaan
+75	6975	halaya	halayang halea haleya
+76	6976	taning	
+77	6977	rayuma	reuma
+78	6978	sumalang	sasalang
+79	6979	barilan	barilang pagbabarilan
+80	6980	matamasa	matatamasa natamasa natatamasa
+81	6981	sumasang	
+82	6982	maulap	
+83	6983	makatiyak	makakatiyak nakatitiyak nakatiyak
+84	6984	magpaliban	nagpapaliban pagpapaliban pagpapalibang
+85	6985	manghuhula	manghuhulang
+86	6986	makabangon	makababangon makabangong makakabangon nakabangon
+87	6987	ikutin	iikutin iniikot inikot
+88	6988	tumangis	pagtangis tatangisan tinangisan tumatangis
+89	6989	huweteng	jueteng
+90	6990	takasan	tatakasan tinakasan
+91	6991	guhitan	ginuhitan guhitang
+92	6992	suklay	
+93	6993	limos	limós paglilimos
+94	6994	patotot	patutot
+95	6995	neptuno	
+96	6996	abuloy	
+97	6997	magpalipas	nagpalipas
+98	6998	lumalim	lalalim lumalalim paglalim
+99	6999	magarbo	magagarbo magagarbong magarbong
+100	7000	sirkunstansiya	sirkumstansiya sirkumstansiyang sirkunstansiyang

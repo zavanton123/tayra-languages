@@ -1,0 +1,100 @@
+1	6001	administrador	
+2	6002	kasuklam-suklam	
+3	6003	pagkabilanggo	
+4	6004	baras	
+5	6005	ehersito	ejercito
+6	6006	idirek	ididirek idinidirek idinirek
+7	6007	kapsula	kapsulang
+8	6008	balkonahe	balkonaheng balkunahe
+9	6009	komunyon	komunyong kumunyon kumunyong
+10	6010	bansot	
+11	6011	maghulog	naghuhulog naghulog paghulog
+12	6012	anunsiyo	anunsiyong
+13	6013	kagutuman	
+14	6014	suhol	pagsuhol
+15	6015	idahilan	idadahilan idinadahilan idinahilan
+16	6016	hebreo	hebreong
+17	6017	bangag	
+18	6018	hapag-kainan	hapagkainan
+19	6019	ilikas	ililikas inilikas inililikas
+20	6020	tumila	tumitila
+21	6021	prostitusyon	
+22	6022	magtitinda	
+23	6023	garahe	
+24	6024	timplahin	tinimpla tinimplang tinitimpla tinitimplang
+25	6025	etnisidad	
+26	6026	asignatura	asignaturang
+27	6027	magbuod	nagbubuod pagbubuod
+28	6028	bumuhos	bubuhos bumubuhos
+29	6029	sagad	
+30	6030	basbasan	babasbasan binabasbasan binasbasan mabasbasan nababasbasan nabasbasan
+31	6031	maglihi	maglilihi naglihi naglilihi paglilihi paglilihing
+32	6032	dumakip	pagdakip
+33	6033	absoluto	absolutong
+34	6034	filipino	filipinong
+35	6035	talasalitaan	talasalitaang
+36	6036	irigasyon	irigasyong
+37	6037	mag-almusal	nag-aalmusal nag-almusal
+38	6038	magdalang-tao	magdadalang-tao nagdadalang-tao nagdadalangtao nagdadalangtaong pagdadalangtao pagdadalangtaong
+39	6039	bakbakan	bakbakang
+40	6040	tumatak	pagtatak tumatatak
+41	6041	tuyain	tinutuya tinuya
+42	6042	apuyan	aapuyan inapuyan
+43	6043	bisi	bising
+44	6044	kamandag	camandag
+45	6045	pangkat-etniko	pangkat-etnikong
+46	6046	ebanghelista	ebanghelistang
+47	6047	kahilagaan	kahilagaang
+48	6048	magkodigo	nagkokodigo nagkokodigong pagkodigo pagkokodigo
+49	6049	batikos	
+50	6050	mapasa	mapapasa napapasa napasa
+51	6051	poon	poong puhon
+52	6052	haw	caw hao hau jao
+53	6053	palaganapin	pinalaganap pinalalaganap pinapalaganap
+54	6054	hukbong-dagat	
+55	6055	malibog	malilibog
+56	6056	paraanin	padaanin pinaraan
+57	6057	pagkamalan	pagkamalang pinagkakamalang pinagkamalan pinagkamalang
+58	6058	bumuga	bumubuga
+59	6059	baler	
+60	6060	tanan	tanang
+61	6061	buka	bukang
+62	6062	kapote	capote
+63	6063	makaakit	nakaaakit nakaakit
+64	6064	karaoke	karaokeng
+65	6065	mangagat	nangangagat
+66	6066	lupigin	linupig nilupig
+67	6067	magtugma	nagtugma nagtutugma pagtutugma pagtutugmang
+68	6068	lebadura	lebadurang
+69	6069	pusit	
+70	6070	matyagan	mamatyagan matyagang minamatyagan minatyagan
+71	6071	mapagmatyag	
+72	6072	sagipin	sagiping sinagip sinasagip
+73	6073	mabiyak	mabibiyak nabibiyak nabiyak
+74	6074	imbak	
+75	6075	dikit	
+76	6076	grasa	
+77	6077	bakulaw	
+78	6078	banghay	pagbabanghay pagbanghay
+79	6079	proposisyon	proposisyong
+80	6080	maputla	maputlang
+81	6081	kapihan	kapehan kapihang
+82	6082	mahumaling	nahuhumaling nahumaling
+83	6083	emisperyo	emisperyong hemisperyo
+84	6084	pumailalim	pumapailalim
+85	6085	magpaligsahan	magpapaligsahan nagpaligsahan nagpapaligsahan nagpapaligsahang
+86	6086	silid-aklatan	silid-aklatang
+87	6087	lampa	lampang
+88	6088	peregrino	peregrinong
+89	6089	matalim	matatalim
+90	6090	mabalutan	mababalutan nababalutan nabalutan
+91	6091	plais	plays
+92	6092	masuka	nasuka
+93	6093	luwagan	luluwagan
+94	6094	turnilyo	
+95	6095	kumalaban	kumakalaban pagkalaban
+96	6096	sopistikado	sopistikadong
+97	6097	siyampu	shampoo
+98	6098	malipat	malilipat nalilipat nalipat
+99	6099	representante	representanteng
+100	6100	limitahan	lilimitahan linilimitahan

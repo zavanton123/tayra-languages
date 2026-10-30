@@ -1,0 +1,100 @@
+1	2101	talampakan	talampakang
+2	2102	palayaw	pinalayaw
+3	2103	paghihiganti	paghihiganting
+4	2104	kemikal	
+5	2105	puwang	
+6	2106	burahin	binubura binura binurang buburahin buraan mabubura mabuburang mabura nabubura nabura naburang
+7	2107	sibilyan	sibilyang
+8	2108	umpisa	umpisa'y umpisang
+9	2109	alon	
+10	2110	kumpirmahin	kinukumpirma kinumpirma kinumpirmang
+11	2111	mabisa	mabibisang mabisang napakabisa napakabisang napakamabisang pagkabisa pinakamabisa pinakamabisang
+12	2112	gana	ganang
+13	2113	himagsikan	himagsikang
+14	2114	kahon	kahong pagkakahon
+15	2115	upo	
+16	2116	imbes	imbis
+17	2117	washington	
+18	2118	kambal	
+19	2119	kontra	
+20	2120	mandirigma	mandirigmang
+21	2121	demokratiko	demokratikong
+22	2122	ipunin	iniipon inipon inipong maiipon maipon naiipon naipon naipong pinag-iipunan pinag-iipunang
+23	2123	mapuno	kapunuan kapunuang mapunong mapupuno mapupunong napuno napunong napupuno pinupuno punuin
+24	2124	rekord	
+25	2125	tagapamahala	tagapamahalang
+26	2126	magtanggal	magtatanggal nagtanggal nagtatanggal pagtanggal pagtatanggal
+27	2127	pisika	pisikang
+28	2128	pisa	pagpipisa pagpisa pitsa pitsang pizza
+29	2129	sagisag	pagsasagisag
+30	2130	mamuhay	namumuhay pamuhay
+31	2131	kwenta	kwentang
+32	2132	gutumin	ginugutom ginutom magugutom magutom nagugutom nagutom
+33	2133	dela	
+34	2134	tropa	tropang
+35	2135	lakad	
+36	2136	kadiliman	kadilimang karimlan
+37	2137	suplay	
+38	2138	pinansiyal	pinansyal
+39	2139	naglalakad	
+40	2140	mare	mareng mars
+41	2141	dahan	dahang
+42	2142	uniporme	unipormeng
+43	2143	magbati	babatiin batiin binabati binati binating mabati nababati nabati nagbati nakipagbati pagbabati
+44	2144	tawanan	ikinatatawa pagtatawanan pagtawanan pinagtatawanan pinagtawanan pinakatawanan tatawanan tinatawanan tinawanan
+45	2145	guhit	
+46	2146	mawasak	mawawasak nawasak nawawasak
+47	2147	bangin	banging
+48	2148	umamoy	amuyin inaamoy inamoy ipaamoy maaamoy maamoy naaamoy naamoy
+49	2149	halata	halatang pinakahalata pinakahalatang
+50	2150	itanghal	itatanghal itinanghal itinatanghal
+51	2151	trapiko	pagtatrapiko trapikong
+52	2152	madla	madlang
+53	2153	protesta	protestang
+54	2154	pampang	pampáng pangpang
+55	2155	aralan	aaralan pag-aaralan pag-aaralang pagaaralan
+56	2156	humina	hihina hina humihina humihinang huminang paghihina paghina paghinang
+57	2157	manipis	maninipis napakanipis pinakamanipis
+58	2158	lumangoy	languyan languyang languyin lumalangoy malalangoy nilalangoy paglangoy
+59	2159	asal	pag-aasal
+60	2160	sorpresa	sorpresang surpresa surpresang
+61	2161	basehan	babasihan basehang basihan binasehan pinakabasehan
+62	2162	panalangin	panalanging
+63	2163	bagsak	pagbabagsak
+64	2164	maitatag	naitatag
+65	2165	pumutok	pagpuputok pumuputok puputok putok
+66	2166	independiyente	independiyenteng independyente independyenteng
+67	2167	anibersaryo	anibersaryong
+68	2168	atasan	aatasan atasang inaatasan inaatasang inatasan inatasang
+69	2169	mamamahayag	
+70	2170	magkabila	magkabilang
+71	2171	parusahan	paparusahan parurusahan pinaparusahan pinarurusahan pinarusahan pinarusahang
+72	2172	anino	aninong
+73	2173	makalabas	makakalabas makalalabas nakalabas nakalalabas
+74	2174	itaguyod	itataguyod itinaguyod itinataguyod
+75	2175	asido	asidong pag-aasido
+76	2176	pilosopo	pilosopong
+77	2177	tawad	
+78	2178	tagamasid	
+79	2179	doktrina	doktrinang
+80	2180	sagrado	napakasagrado sagrada sagradong
+81	2181	atleta	atletang
+82	2182	matiyak	matitiyak napakatiyak natitiyak natiyak
+83	2183	premyo	premyong
+84	2184	gamitan	gagamitan gamitang ginagamitan ginamitan paggagamitan
+85	2185	palad	
+86	2186	aparato	aparatong
+87	2187	kawani	kawaning pagkakawani
+88	2188	lumabag	labagin lalabag lumalabag malabag malalabag nalabag nalalabag nilabag nilalabag
+89	2189	tangina	taena tanginang
+90	2190	oso	osa osang osong
+91	2191	talino	
+92	2192	naisin	nanaisin ninais ninanais
+93	2193	magsaliksik	nagsaliksik nagsasaliksik pagsaliksik pagsasaliksik
+94	2194	malutas	malulutas nalulutas nalutas
+95	2195	ngiti	ngiti'y ngiting pagngiti
+96	2196	alukin	aalokin aalukin inaalok inalok
+97	2197	parlamento	parlamentong parliyamento parliyamentong parlyamento parlyamentong
+98	2198	talababa	
+99	2199	laganap	napakalaganap pinakalaganap
+100	2200	katanungan	katanungang

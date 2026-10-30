@@ -1,0 +1,100 @@
+1	9901	mapatid	napapatid napatid
+2	9902	kulam	
+3	9903	magtira	nagtira pagtitira
+4	9904	maharot	mahaharot
+5	9905	libutan	
+6	9906	matalab	
+7	9907	pakikipag-away	
+8	9908	silog	
+9	9909	palapa	
+10	9910	karumal-dumal	
+11	9911	maggisa	paggigisa paggisa
+12	9912	mahasa	nahasa
+13	9913	bawasin	binabawas binawas
+14	9914	bumaligtad	bumabaligtad
+15	9915	pumatong	pagpatong pumapatong
+16	9916	maghikahos	naghihikahos paghihikahos
+17	9917	manginsulto	iniinsulto insultuhin mang-insulto nainsulto
+18	9918	aroma	
+19	9919	initin	iinitin iniinit
+20	9920	aditibo	aditibong
+21	9921	sapatero	
+22	9922	nakakaimpluwensya	nakakaimpluwensyang
+23	9923	paisahe	paisaheng paysahe
+24	9924	mahalo	mahahalo nahahalo nahalo
+25	9925	mililitro	mililitrong
+26	9926	makatukoy	makakatukoy nakatukoy
+27	9927	onorable	honorable
+28	9928	laktosa	
+29	9929	mapang-akit	
+30	9930	pag-aatubili	pag-aatubiling
+31	9931	presas	
+32	9932	rali	
+33	9933	oryental	
+34	9934	penitensiya	pagpepenitensiya
+35	9935	ineng	
+36	9936	sumabi	sasabi sasabing sumasabi
+37	9937	biyoteknolohiya	
+38	9938	repositoryo	repositoryong
+39	9939	kamayin	kinakamay kinamay
+40	9940	tagaroon	
+41	9941	respiratoryo	respiratoryong
+42	9942	betlog	
+43	9943	masok	
+44	9944	sanggano	sanggano't
+45	9945	miso	misong
+46	9946	bulusan	bubulusan bulosan
+47	9947	dumeretso	dumederetso
+48	9948	salabat	
+49	9949	magkaila	magkailang pagkaila pagkailang
+50	9950	ene	
+51	9951	hiyaw	
+52	9952	malago	malalago
+53	9953	galon	
+54	9954	humataw	humahataw paghataw
+55	9955	walang-awa	walang-awang
+56	9956	bungangkahoy	bungang-kahoy
+57	9957	panimbang	
+58	9958	pundahan	
+59	9959	mangabayo	nangangabayo
+60	9960	manmanan	minamanmanan
+61	9961	mabalanse	nababalanse nabalanse
+62	9962	magpakilos	nagpakilos
+63	9963	matagpo	matagpong matatagpo natagpo natatagpo
+64	9964	isilbi	isinilbi isinilbing isinisilbi isinisilbing
+65	9965	magsalang	masalang masasalang nasalang nasasalang pagsalang
+66	9966	masalubong	nasalubong nasasalubong
+67	9967	pumapel	pagpapel pumapapel
+68	9968	paimbabaw	pagpapaimbabaw
+69	9969	tayog	
+70	9970	libot	
+71	9971	dayagram	
+72	9972	maipagkaiba	
+73	9973	magdugtong	pagdudugtong
+74	9974	tasik	
+75	9975	tubig-baha	
+76	9976	magkatuwang	magkakatuwang
+77	9977	anowd	anor pag-anod pagaanod
+78	9978	palayukan	palayukang
+79	9979	sangguniin	sinangguni sinasangguni sinasangguning
+80	9980	magpapailalim	nagpapailalim
+81	9981	makapangyayari	nakapangyayari nakapangyayaring
+82	9982	likaw	
+83	9983	tambok	
+84	9984	bumigo	nabigo nabigong
+85	9985	pinpin	
+86	9986	luglog	
+87	9987	sopbol	
+88	9988	superintendente	
+89	9989	bislig	
+90	9990	kasamaang-palad	
+91	9991	indibidwalismo	indibiduwalismo
+92	9992	dumugtong	dumudugtong pagdugtong
+93	9993	asimilasyon	asimilasyong
+94	9994	mamundok	namumundok namundok
+95	9995	barat	
+96	9996	dramatista	dramatistang
+97	9997	makaprotekta	nakaprotekta nakaprotektang
+98	9998	balbon	
+99	9999	matador	
+100	10000	lamuymoy	

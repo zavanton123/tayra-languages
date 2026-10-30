@@ -1,0 +1,100 @@
+1	3001	kuweba	kuwebang kweba kwebang
+2	3002	maglaban	maglalaban naglaban naglalaban naglalabang paglalaban paglalabang
+3	3003	dokumentaryo	dokumentaryong dokyumentaryo dokyumentaryong
+4	3004	kalinga	pagkalinga pagkalingang
+5	3005	siyensiya	siyensiyang siyensya syensya
+6	3006	mina	minang pagmina
+7	3007	polusyon	polusyong
+8	3008	tisyu	tisyung
+9	3009	pagkabalisa	pagkabalisang
+10	3010	gabinete	gabineteng
+11	3011	selyo	pagseselyo selyong
+12	3012	peste	pesteng
+13	3013	amerikana	amerikanang
+14	3014	lisensya	lisensyang paglilisensya paglilisensyang
+15	3015	diwata	diuata divata diwatang diwatà pagdiwata
+16	3016	sementeryo	sementeryong simenteryo
+17	3017	gasolina	gasolinang gasulina
+18	3018	makalat	nakakalat napakakalat
+19	3019	madam	mam
+20	3020	kunwari	kunwa kunwaring kunya kunyari
+21	3021	marahas	pinakamarahas
+22	3022	makitid	makikitid napakakitid pinakamakitid
+23	3023	mekanismo	mekanismong
+24	3024	palagian	palagiang
+25	3025	sibilisasyon	sibilisasyong
+26	3026	obserbasyon	obserbasyong
+27	3027	ulam	
+28	3028	makontak	makokontak nakokontak nakontak
+29	3029	kalma	
+30	3030	kalaro	pagkalaro
+31	3031	sustansiya	sustansiyang sustansya sustansyang
+32	3032	pagkakaiba-iba	pagkakaiba-ibang
+33	3033	manganak	manganganak nanganak nanganganak panganak
+34	3034	magpatupad	magpapatupad nagpapatupad nagpatupad nagpatutupad
+35	3035	malabo	malabong
+36	3036	panandalian	panandaliang
+37	3037	umaa	aaa naaa
+38	3038	paraon	faraon paraong
+39	3039	magmakaawa	magmakaawang magmamakaawa nagmakaawa nagmamakaawa nagmamakaawang
+40	3040	lagusan	lagusang nilalagusan
+41	3041	gabayan	gagabayan ginabayan ginagabayan ginagabayang
+42	3042	tumugma	pagtugma tumutugma tumutugmang tutugma
+43	3043	palabasin	palabasa palalabasin pinalabas pinalalabas pinapalabas
+44	3044	talakayan	talakayang
+45	3045	uniberso	unibersong
+46	3046	uno	unong
+47	3047	basilika	basilikang
+48	3048	iho	iha
+49	3049	pagbawalan	pinagbabawalan pinagbabawalang pinagbawalan pinagbawalang
+50	3050	ardilya	
+51	3051	tabla	tablang tablá
+52	3052	bughaw	
+53	3053	inmigrante	imigrante imigranteng inmigranteng
+54	3054	koneksyon	koneksyong
+55	3055	lingkod	
+56	3056	patuluyin	patuloyin
+57	3057	pasword	password
+58	3058	makaalam	makaaalam makakaalam nakaaalam nakaalam
+59	3059	ipa	ipang
+60	3060	ibunyag	ibinubunyag ibinunyag ibubunyag
+61	3061	tagapayo	tagapayong
+62	3062	kamukha	kamukhang
+63	3063	alyas	
+64	3064	panrelihiyon	panrelihiyong
+65	3065	moreno	morena morenong
+66	3066	luko-luko	luko-lukong
+67	3067	ehekutibo	ehekutibong
+68	3068	magkunwari	magkukunwari magkukunwaring nagkukunwari nagkukunwaring nagkunwari nagkunwaring
+69	3069	talahanayan	talahanayang
+70	3070	sunday	
+71	3071	komersiyo	komersiyong komersyo komersyong
+72	3072	manligaw	ligawan liligawan nanligaw nanliligaw nililigawan nililigawang
+73	3073	magbuhat	magbubuhat nagbubuhat nagbuhat pagbubuhat pagbuhat
+74	3074	makulay	makukulay nakulay pinakamakulay
+75	3075	maluwag	maluluwag napakaluwag
+76	3076	kasalan	kasalang
+77	3077	kabihasnan	kabihasanang kabihasnang
+78	3078	kongresista	konggresista kongresistang
+79	3079	humiwalay	hihiwalay humihiwalay
+80	3080	halikayo	
+81	3081	nuklear	nukleyar
+82	3082	palatuntunan	palatuntunang
+83	3083	aa	aang
+84	3084	tipunin	tinipon tinipong tinitipon titipunin
+85	3085	agos	
+86	3086	malaglag	malalaglag nalaglag nalalaglag
+87	3087	maimbento	maiimbento maimbentong naiimbento naimbento naimbentong
+88	3088	basketbol	
+89	3089	mahistrado	mahistradong
+90	3090	artipisyal	
+91	3091	kuwenta	kuwentang
+92	3092	mapahiya	hiyain ikahihiya ikahiya ikinahihiya ikinahiya ipahiya ipinahiya nahihiya nahihiyang napahiya
+93	3093	himig	
+94	3094	taal	taál
+95	3095	ra	
+96	3096	pusod	pinakapusod
+97	3097	magdasal	nagdadasal nagdarasal nagdasal pagdadasal pagdasal
+98	3098	karatig	
+99	3099	trahedya	trahedyang
+100	3100	lipi	liping lipì

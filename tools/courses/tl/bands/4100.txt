@@ -1,0 +1,100 @@
+1	4001	este	
+2	4002	siksik	pinakasiksik
+3	4003	kabit	
+4	4004	aminado	aminadong
+5	4005	tangkilikin	tatangkilikin tinangkilik tinatangkilik
+6	4006	bula	bulang
+7	4007	tuta	tutang
+8	4008	belo	
+9	4009	umabuso	aabuso aabusong umaabuso
+10	4010	baskagan	baskagang bastagan
+11	4011	katunggali	katunggaling katunggalî
+12	4012	pumalo	pagpalo papalo pumapalo
+13	4013	lumamig	lalamig lumalamig paglamig
+14	4014	palugit	
+15	4015	kailaliman	kailalimang
+16	4016	umapaw	aapaw apaw pag-apaw pagapaw papaw umaapaw
+17	4017	ipahuli	ipinahuli
+18	4018	said	
+19	4019	abad	
+20	4020	negosasyon	negosasyong
+21	4021	gumapang	gapangan gapangin ginapang gumagapang iginagapang iginapang paggapang
+22	4022	trabahador	
+23	4023	radar	
+24	4024	patok	pinakapatok
+25	4025	mahika	mahikang
+26	4026	pamamaril	
+27	4027	bumasa	babasa basaan basahan basahang binabasa binabasang binasa binasang bumabasa bumabasang bumasa't
+28	4028	masusi	masusing masusì
+29	4029	postmaster	
+30	4030	kumilala	kikilala kumikilala kumikilalang kumilalang
+31	4031	imbentuhin	iniimbento inimbento inimbentong
+32	4032	tanghalian	tanghaliang
+33	4033	purok	purók
+34	4034	tisoy	tisay
+35	4035	batid	
+36	4036	guwardiya	guwardiyang gwardiya gwardiyang gwardya
+37	4037	tindi	
+38	4038	ogag	
+39	4039	buko	bukong
+40	4040	pagkakasundo	pagkakasundong
+41	4041	matino	matinong matitino matitinong
+42	4042	pakahulugan	pakahulugang
+43	4043	silay	pagsilay
+44	4044	pagsasamahin	pinagsasama pinagsasamang
+45	4045	bayanihan	bayanihang
+46	4046	susmaryosep	
+47	4047	tsupain	
+48	4048	antayin	aantayin inaantay inantay
+49	4049	kalasag	calasag
+50	4050	mapagbigay	
+51	4051	hangad	hangar
+52	4052	anatomiya	anatomiyang anatomya
+53	4053	inis	
+54	4054	pataba	patabang
+55	4055	magpigil	magpipigil nagpigil nagpipigil pagpipigil
+56	4056	konsensya	konsensyang
+57	4057	lulan	lulang
+58	4058	diktadura	diktadurang diktadurya diktaduryang
+59	4059	hiram	
+60	4060	bulebar	bulebard
+61	4061	pain	paing
+62	4062	makababa	makabababa nakababa nakabababa nakabababang nakababang
+63	4063	pagtatae	pagtataeng
+64	4064	totoy	
+65	4065	iluwas	iluluwas iniluluwas iniluwas
+66	4066	sukatan	sukatang
+67	4067	dekreto	dekretong
+68	4068	mamataan	namataan namataang
+69	4069	makatuwiran	makatuwirang
+70	4070	patulan	papatulan patulang pinapatulan pinatulan
+71	4071	pagsasabi	pagsasabing
+72	4072	pi	
+73	4073	magpabago	nagpabago
+74	4074	sanlibutan	sanglibutan sanlibutang
+75	4075	kalinisan	kalinisang
+76	4076	panitik	
+77	4077	romero	dumero
+78	4078	binyag	pagbibinyag
+79	4079	permiso	permisong
+80	4080	dekorasyon	dekorasyong pagdedekorasyon
+81	4081	mikrobyo	mikrobyong
+82	4082	pagong	
+83	4083	singil	pagsingil
+84	4084	kontento	kontentong kuntento
+85	4085	organisado	organisadong
+86	4086	petrolyo	petrolyong
+87	4087	sentimo	sentimong sentimos
+88	4088	ipataw	ipapataw ipinapataw ipinataw
+89	4089	kampon	campong kampong
+90	4090	magkaintindihan	magkakaintindihan nagkaintindihan nagkakaintindihan
+91	4091	ekonomiks	
+92	4092	malas	pagmamalas pinakamalas
+93	4093	isampa	isasampa isinampa isinampang
+94	4094	longganisa	langgonisa langgonisang langgunisa longanisa longaniza longganisang
+95	4095	prestihiyoso	pinakaprestihiyoso pinakaprestihiyosong prestihiyosong prestiyosong
+96	4096	bugtong	bogtong
+97	4097	mongol	
+98	4098	pulbos	
+99	4099	tagapagturo	tagapagturong
+100	4100	bibliyograpiya	bibliograpiya

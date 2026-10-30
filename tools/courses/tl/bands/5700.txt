@@ -1,0 +1,100 @@
+1	5601	pawikan	pawikang
+2	5602	gasolinahan	gasolinahang
+3	5603	konsulado	konsuladong
+4	5604	mahalay	mahahalay
+5	5605	hudikatura	hudikaturang
+6	5606	opensiba	opensibang
+7	5607	testimonyo	testimonya testimonyang
+8	5608	anila	anilang
+9	5609	makalakad	makakalakad nakalakad
+10	5610	sauna	saona saunang
+11	5611	tamis	
+12	5612	lakan	lakang
+13	5613	traydor	traidor
+14	5614	kalakalin	kinakalakal kinalakal
+15	5615	nakakapasok	
+16	5616	ambulansiya	ambulansiyang
+17	5617	umikli	iikli pag-ikli pagikli umiikli umikling
+18	5618	tibok	pagtitibok
+19	5619	nakakabasa	nakakabasang
+20	5620	haka-haka	haka-hakang
+21	5621	masalanta	nasalanta nasalantang nasasalanta
+22	5622	tumestigo	pagtestigo
+23	5623	mangangaral	
+24	5624	bumangga	bumabangga bumanggang pagbangga pagbanggang
+25	5625	gramatika	gramatikang
+26	5626	sumagip	pagsagip
+27	5627	sima	simang
+28	5628	gumaan	gumagaan gumagaang
+29	5629	mamula	mamulang namula namumula namumulang
+30	5630	kondom	
+31	5631	pag-aangkop	
+32	5632	itangi	itinangi itinatangi itinatanging
+33	5633	mabundok	mabubundok
+34	5634	baliwag	baliuag
+35	5635	mataong	matataong nataong
+36	5636	saksak	pagsasaksak pananaksak
+37	5637	sinagoga	sinagogang
+38	5638	eskultor	iskultor
+39	5639	mamumuhunan	
+40	5640	mananalita	mananalitang
+41	5641	trio	triong
+42	5642	bahura	bahurang
+43	5643	charot	char
+44	5644	dramatiko	dramatikong pinakadramatiko
+45	5645	mangha	manghang
+46	5646	kolum	
+47	5647	sumaya	nasayang sasaya sasayang
+48	5648	ensayo	
+49	5649	malikot	
+50	5650	lumalang	lumalalang maglalang paglalang
+51	5651	sibika	sibiko sibikong
+52	5652	diyanitor	janitor
+53	5653	bentilador	
+54	5654	prediksiyon	prediksiyong prediksyon
+55	5655	kooperatiba	kooperatibang
+56	5656	admiral	
+57	5657	otso	ocho
+58	5658	nasyonalidad	
+59	5659	maipamahagi	naipamahagi naipamahaging
+60	5660	sumuway	sumusuway susuway
+61	5661	magalang	magagalang
+62	5662	kumaway	kumakaway
+63	5663	palipat	pagpapalipat palilipat pinalipat
+64	5664	sultanato	sultanatong
+65	5665	plebisito	plebisitong
+66	5666	agam	
+67	5667	talinghaga	talinghagang talinhaga
+68	5668	alhebrayko	alhebraiko alhebraikong
+69	5669	i-post	ipino-post ipinost ipo-post ipopost
+70	5670	kuwentong-bayan	kuwentong-bayang
+71	5671	dabaw	
+72	5672	unlapi	pag-uunlapi unlaping
+73	5673	kumubkob	pagkubkob
+74	5674	silindro	silindrong
+75	5675	makipot	makikipot napakakipot pinakamakipot
+76	5676	submarino	submarinong
+77	5677	upa	opa pag-uupa
+78	5678	maguluhan	naguguluhan naguluhan
+79	5679	kaibuturan	kaibuturang
+80	5680	pet	magpet
+81	5681	pitumpu	pitumpu't pitumpung
+82	5682	manghawa	hawaan hawaang hawahan hinahawaan hinahawahan mahawaan nahahawaan nanghawa
+83	5683	retratista	litratista litratistang retratistang ritratista
+84	5684	kakaw	
+85	5685	biyenan	biyenang
+86	5686	transaksiyon	transaksiyong
+87	5687	asarin	inaasar
+88	5688	panyo	panyong
+89	5689	humula	humuhula paghula paghulang
+90	5690	mapurol	mapupurol
+91	5691	bumulag	binulag bubulagin bulagan mabulag nabubulag nabulag
+92	5692	magna	
+93	5693	matakaw	matatakaw
+94	5694	dekano	dekana dekanang dekanong
+95	5695	masustansiya	masustansiyang masustansya masusustansiyang
+96	5696	kapitalista	kapitalistang
+97	5697	kampante	
+98	5698	taggutom	
+99	5699	plorera	plorerang
+100	5700	ampon	ampong

@@ -1,0 +1,100 @@
+1	1901	kuta	cota kutang kutà
+2	1902	humanap	hahanap humahanap
+3	1903	banyaga	banyagang
+4	1904	tumungo	pagtungo pagtungong tumungong tumutungo tutungo
+5	1905	magkatulad	magkakatulad nagkakatulad pagkakatulad pagkatulad
+6	1906	pares	
+7	1907	saysay	magsaysay sisay
+8	1908	mag-ayos	mag-aayos magayos nag-aayos nag-ayos nagaayos pag-aayos pagaayos
+9	1909	utot	
+10	1910	responsabilidad	responsibilidad
+11	1911	tanso	tansong
+12	1912	aplikasyon	aplikasyong
+13	1913	papasukin	papapasukin pinapapasok pinapasok
+14	1914	terminal	
+15	1915	makabuo	makabubuo makakabuo nakabubuo nakabubuong nakabuo
+16	1916	noo	noo'y
+17	1917	matupad	matutupad natupad natutupad
+18	1918	seguridad	
+19	1919	lasing	
+20	1920	ingay	
+21	1921	proteksiyon	proteksiyong proteksyon proteksyong
+22	1922	kusa	cosa kusang kusà
+23	1923	kontinente	kontinenteng
+24	1924	gang	
+25	1925	kasintahan	kasintahang
+26	1926	daungan	daungang doongan
+27	1927	makapal	makakapal makapál napakakapal pinakamakapal
+28	1928	wasakin	pinakawasak wasak wasaking wawasakin winasak winawasak
+29	1929	panayam	pagpapanayam
+30	1930	hamon	hamong
+31	1931	magtalaga	magtatalaga nagtalaga nagtatalaga pagtalaga pagtatalaga pagtatalagang tumalaga
+32	1932	propesor	propesora propesorang
+33	1933	kasuotan	kasuotang kasuutan
+34	1934	bakuna	bakunang pagbabakuna
+35	1935	ikalima	ikalimang
+36	1936	komposisyon	komposisyong
+37	1937	pilyo	pilya pilyang pilyong
+38	1938	miki	mike
+39	1939	pogi	poging
+40	1940	pahintulot	pahintolot papahintulot pinahintulot pinapahintulot
+41	1941	braso	baraso brasong
+42	1942	liberal	pinakaliberal
+43	1943	punsiyon	punsiyong punsyon punsyong
+44	1944	magmungkahi	magmumungkahi nagmumungkahi nagmumungkahing nagmungkahi nagmungkahing pagmumungkahi pagmungkahi
+45	1945	mitolohiya	mitolohiyang
+46	1946	rebelde	rebeldeng
+47	1947	dasal	desal pagdarasal
+48	1948	magplano	magpaplano magplanong nagpaplano nagpaplanong nagplano nagplanong pagpaplano pagpaplanong pagplano
+49	1949	protina	protinang
+50	1950	makiusap	makikiusap nakikiusap nakiusap
+51	1951	talakayin	talakaying tatalakayin tatalakaying tinalakay tinatalakay
+52	1952	magsisi	magsisisi nagsisi nagsisisi nagsisising pagsisi pagsisihan pinagsisihan pinagsisisihan sumisi
+53	1953	muntik	
+54	1954	bumukas	bubukas bumubukas pagbukas
+55	1955	departamento	departamentong
+56	1956	ref	rep
+57	1957	testing	
+58	1958	tagasunod	tagasunód
+59	1959	hango	hangong hangò paghahango paghahangong
+60	1960	gayahin	gagayahin ginagaya ginagayang ginaya ginayang
+61	1961	eksperimento	eksperimentong
+62	1962	salitain	pagsalitain sinalita sinalitang sinasalita sinasalitang
+63	1963	magpakailanman	magpakailanmang
+64	1964	industriyal	industrial
+65	1965	eksakto	eksaktong
+66	1966	gisingin	gigisingin ginigising ginising
+67	1967	konstruksiyon	konstruksiyong konstruksyon konstruksyong
+68	1968	pagkabuhay	
+69	1969	mamimili	mamimiling mamimilì
+70	1970	asul	napakaasul
+71	1971	awa	aua awa't
+72	1972	keso	kesong kiso
+73	1973	direksiyon	direksiyong
+74	1974	pilit	pagpipilit pilít
+75	1975	hulaan	hinuhulaan hinuhulaang hinulaan hinulaang huhulaan
+76	1976	unti-unti	unti-unting
+77	1977	monumento	monumentong
+78	1978	bakterya	bakteryang
+79	1979	tiyakin	tinitiyak tiniyak titiyakin tiyaking
+80	1980	babala	babalang
+81	1981	abot	abót pag-aabot pagaabot
+82	1982	magaan	gaan gaang magaang magagaan magagaang napakagaan napakagaang pinakamagaan pinakamagaang
+83	1983	medisina	medisinang
+84	1984	sisihin	masisi masisisi nasisisi sinisi sinisisi sisisihin
+85	1985	ingatan	iingatan ingatang iniingatan iningatan iningatang
+86	1986	katipunan	katipunang kkk
+87	1987	ektarya	ektaryang hektarya hektaryang
+88	1988	ngalan	ngalang
+89	1989	bariles	
+90	1990	musikero	musikerong
+91	1991	sarsa	salsa sarsang
+92	1992	magwakas	magwawakas nagwakas nagwawakas pagwakas pagwawakas
+93	1993	websayt	
+94	1994	humigit	higitan hihigit hihigitan hinigitan humihigit mahigitan nahihigitan
+95	1995	malala	lala malalalang malalang napakalala pagkalalang pinakamalala pinakamalalang
+96	1996	mag-alsa	mag-aalsa nag-aalsa nag-aalsang nag-alsa pag-aalsa pag-aalsang pag-alsa pagaalsa pagaalsang
+97	1997	pambihira	napakapambihira napakapambihirang pambihirang
+98	1998	isipol	
+99	1999	husto	hustong
+100	2000	pumigil	pagpigil pipigil pumipigil

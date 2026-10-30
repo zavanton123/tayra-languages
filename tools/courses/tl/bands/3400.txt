@@ -1,0 +1,100 @@
+1	3301	kongregasyon	konggregasyon kongregasyong
+2	3302	embahada	embahadang
+3	3303	trigo	trigong
+4	3304	klasipikasyon	klasipikasyong
+5	3305	putahe	potahe putaheng
+6	3306	linangin	linang linanging lininang nililinang nilinang paglilinang
+7	3307	sara	
+8	3308	paraiso	paraisong
+9	3309	laiwan	layuan
+10	3310	prayle	fraile fraileng prayleng
+11	3311	hukayin	hinuhukay hinukay ipinahukay mahuhukay nahuhukay nahukay
+12	3312	representasyon	representasyong
+13	3313	hulihan	hulian huliang hulihang
+14	3314	magdamag	
+15	3315	kulto	kultong
+16	3316	makumpirma	makukumpirma makumpirmang nakukumpirma nakumpirma nakumpirmang
+17	3317	tahakin	tahaking tatahakin tinahak tinatahak
+18	3318	tagsibol	
+19	3319	makahinga	makakahinga nakahinga
+20	3320	paliguan	paliguang paligui pinaliguan pinaliliguan pinapaliguan
+21	3321	makatapos	makakatapos makatatapos nakatapos
+22	3322	lumutas	lulutas lumulutas paglutas
+23	3323	awtomatiko	awtomatikong otomatiko otomatikong
+24	3324	bise	
+25	3325	motorsiklo	motorsiklong
+26	3326	kanlungan	kanlungang
+27	3327	trato	pagtatrato pagtatratong pagtrato pagtratong tarato tumrato
+28	3328	ipatawag	ipapatawag ipinapatawag ipinatawag
+29	3329	asamblea	asambleang asambleya asambleyang asemblea asembleang asembleya asembleyang asembliya
+30	3330	payuhan	pinapayuhan pinapayuhang pinayuhan pinayuhang
+31	3331	baterya	bateria bateryang batirya
+32	3332	pormula	pormulang
+33	3333	matulad	matutulad
+34	3334	kamalian	kamaliang
+35	3335	sibat	pagsisibat
+36	3336	kayanin	kakayanin kakayaning
+37	3337	kalapati	kalapating
+38	3338	igalang	igagalang iginagalang iginalang
+39	3339	mamalagi	namalagi namamalagi namamalaging
+40	3340	tigas	
+41	3341	biyolohiya	biolohiya biolohiyang biyolohiyang
+42	3342	makipag-away	nakikipag-away nakipag-away
+43	3343	malakihan	malakihang malalakihang
+44	3344	malupit	malulupit napakalupit pinakamalupit
+45	3345	isaayos	isasaayos isinaayos isinasaayos
+46	3346	okra	
+47	3347	maligaw	maliligaw naligaw naliligaw
+48	3348	marangal	mararangal pinakamarangal
+49	3349	kolesterol	
+50	3350	mapuntahan	mapupuntahan napuntahan napuntahang napupuntahan napupuntahang
+51	3351	pareha	kapareha kaparehang parehang
+52	3352	sero	serong
+53	3353	historyador	istoryador
+54	3354	maghapon	maghapong paghapon
+55	3355	tabang	tabáng
+56	3356	puwera	
+57	3357	salot	
+58	3358	baywang	baiwang bewang beywang
+59	3359	matawagan	matatawagan natatawagan natawagan
+60	3360	pagbubuntis	
+61	3361	lawin	
+62	3362	kumpol	kumpól
+63	3363	boluntaryo	boluntaryong buluntaryo
+64	3364	magbigay-daan	magbibigay-daan nagbibigay-daan nagbigay-daan nagbigaydaan
+65	3365	kuwintas	cuentas kwintas
+66	3366	monghe	mongheng
+67	3367	pindutin	pinindot pinipindot pipindutin
+68	3368	usigin	inusig inuusig uusigin
+69	3369	opis	
+70	3370	preso	presong
+71	3371	koneksiyon	koneksiyong kuneksyong
+72	3372	sipi	pagsisipi
+73	3373	magtalik	magtatalik nagtalik nagtatalik pagtalik
+74	3374	supot	supót
+75	3375	tutulan	tinutulan tinutulang tinututulan
+76	3376	lutasin	lulutasin nilutas
+77	3377	rehiyonal	
+78	3378	ligaya	ligayang
+79	3379	looban	loobang
+80	3380	tsokolate	sikulate tsokolateng
+81	3381	manakal	nasasakal sakalin sinakal sinasakal
+82	3382	ikawalo	ikawalong
+83	3383	pasa	pasâ
+84	3384	astig	
+85	3385	mainip	naiinip nainip
+86	3386	hop	
+87	3387	diyaryo	diario diariong diyaryong dyaryo dyaryong
+88	3388	sumakit	pagsakit sasakit sumakít sumasakit
+89	3389	magkasiya	magkasya
+90	3390	nana	
+91	3391	bunsod	bunsód
+92	3392	sumahimpapawid	sumasahimpapawid
+93	3393	pagkabigo	pagkabigong
+94	3394	sermon	sermong
+95	3395	lawrel	laurel
+96	3396	hilaw	hilao
+97	3397	ikabit	ikakabit ikinabit ikinakabit kabitan kakabitan kinabitan kinakabitan
+98	3398	kabiguan	kabiguang
+99	3399	sawa	sawang sawá
+100	3400	pagkakaibigan	pagkakaibigang

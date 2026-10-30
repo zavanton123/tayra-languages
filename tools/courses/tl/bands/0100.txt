@@ -1,0 +1,100 @@
+1	1	sa	sa'kin sa'min sang
+2	2	ng	ng̃ n͠g ñg
+3	3	ang	
+4	4	na	na't na'y
+5	5	mga	mananga manga mangang mañga mg̃a nanga
+6	6	at	
+7	7	ay	hay y
+8	8	isa	isa't isa'y isang issa isá
+9	9	hindi	di dî hinde hinding hindî indi pinakahindi
+10	10	ito	ito't ito'y itong itó to
+11	11	ko	co cong kho khong ko't ko'y kong
+12	12	mo	mo't mo'y mong
+13	13	siya	pagsisiya sha shang siya't siya'y siyang siyá sya sya'y syang xa xang
+14	14	si	sina sinang siná
+15	15	ako	aco acong aketch ako't ako'y akong akó aq
+16	16	ni	nina ning
+17	17	may	me mee mey mi ming
+18	18	ka	ca cang ka't kang
+19	19	kung	cun kun
+20	20	para	
+21	21	noon	non nong noon'y noong nu'ng nun nung
+22	22	kaniya	caniya kaniya'y kaniyang kanya kanya'y kanyang
+23	23	pa	pa't pa'y pang
+24	24	din	den ding ren rin ring
+25	25	o	ow
+26	26	niya	niya'y niyang niyá nya nyang
+27	27	lang	lg lng nalang
+28	28	ano	ano't ano-ano ano-anong anong anu anuna anung no nong
+29	29	ba	ba'y bang beng diba dibang
+30	30	wala	ala alang mawalan mawalang mawawalan mawawalang nawalan nawalang nawawalan nawawalang pagkawala pagkawalang pinakawala pinakawalang uala ula walang walâ wla wlang
+31	31	iyon	ion iong iyong iyun iyung iyón iyóng un yon yong yun yung ‘yung
+32	32	mula	mola molang mula't mulang mulà mulâ nula
+33	33	bilang	kinabibilangan kinabibilangang
+34	34	iba	iba't iba'y ibang ibá
+35	35	maging	magiging magin maguing magíng nagiging naging pagiging
+36	36	naman	nama nama'y namang namán nman nmn
+37	37	lahat	lahát paglalahat
+38	38	sabihin	ipagsabi ipinapasabi ipinasasabi masabi masabihan masabing masasabi masasabing nasabi nasabihan nasabing nasasabi nasasabihan nasasabing pagsabihan pagsasabihan pinagsabihan pinagsasabihan sabihan sabihang sabihing sasabihan sasabihin sasabihing sinabi sinabihan sinabihang sinabing sinasabi sinasabihan sinasabihang sinasabing
+39	39	tao	pagtatao tao't tao'y taong tau tauong tawo tawong
+40	40	nito	neto netong nito't nito'y nitong nitó
+41	41	gawin	gagawain gagawan gagawin gagawing gawaan gawain gawaing gawan gawing ginagawa ginagawan ginagawang ginawa ginawaan ginawan ginawang igawa iginawa inagawan ipagagawa ipagawa ipapagawa ipinagagawa ipinagawa ipinapagawa magagawa magagawan magagawang magawa magawan magawang maipagawa nagagawa nagagawang nagawa nagawan nagawang pagawa paggawaan
+42	42	dito	dito'y ditong rito rito'y ritong
+43	43	dahil	
+44	44	sila	cla sila't sila'y silang silá siláng
+45	45	kapag	pag
+46	46	nang	
+47	47	kayo	cayo kau kaung kayo'y kayong kayó
+48	48	kaya	kaya't kaya'y kayang kayat kayâ pagkaya
+49	49	saan	saan-saan saan-saang saang san saán
+50	50	ngayon	ngaun ngayon'y ngayong ngayón
+51	51	pero	pero'y
+52	52	upang	upan
+53	53	akin	aki aki'y aking aqn aquin kin sakin saking
+54	54	kanila	canila kanila'y kanilang
+55	55	tayo	tayo'y tayong
+56	56	nila	nila'y nilang nilá
+57	57	natin	nati nati'y nating
+58	58	alam	pag-aalam pag-alam pagalam pagkakaalam
+59	59	nga	nga't nga'y ngang
+60	60	bago	bago't bagong baguhin pinakabago pinakabagong
+61	61	marami	andami andaming dae dai dami daming kasindami kasindaming madami madaming maraming mararami mararaming napakadami napakadaming napakarami napakaraming pinakamarami pinakamaraming rae rai rami raming
+62	62	niyo	niyong nyo nyong
+63	63	gumamit	gagamit gagamitin gagamiting gamitin gamiting ginagamit ginamit gumagamit iginagamit iginamit inagamit ipagamit ipinagagamit ipinagamit magagamit magamit maigamit nagagamit nagamit nakikigamit paggamit pinaggagamitan
+64	64	maari	maaari maaaring maaring naaari
+65	65	mas	
+66	66	nasa	asa asang nasang pinakanasa
+67	67	gusto	gugustuhin gugustuhing gustong pinakagusto
+68	68	taon	taong taun taung taón taóng
+69	69	kay	cay
+70	70	kami	cami cami'y caming kami'y kaming kmi
+71	71	kailangan	kailanga kailangang kaylangan kelangan kelangang pagkakailangan pinakakailangan
+72	72	makita	makikita makikitang makita'y makitang nakikita nakikitang nakita nakita't nakitang
+73	73	iyan	iyang iyán yan yang yarn
+74	74	mayroon	mayro'n mayron mayrong mayroong mayruong meron merong meroong miron pagmamayroon pagmimiron
+75	75	namin	namen naming
+76	76	una	pinakauna pinakaunang una't una'y unang
+77	77	talaga	talagang talga talgang tlaga tlagang tlg tlga tlgang
+78	78	ilan	ila ilang iláng pagilan
+79	79	araw	arao
+80	80	dalawa	alawa alua dalawa't dalawa'y dalawang dalwa dalwang
+81	81	panahon	pagpapanahon panahong panahón panahóng
+82	82	huwag	huag wag
+83	83	po	po'y pong pô
+84	84	bakit	ba't baket bat bkit bkt
+85	85	hanggang	
+86	86	malaki	kasinlaki laki laking maipagmamalaki malaking malalaki malalaking napakalaki napakalaking napakalalaki napakalalaking napakamalaking napakamalalaking pagkalaki paglalaki pinakamalaki pinakamalaking
+87	87	buhay	buháy pagbubuhay
+88	88	lamang	
+89	89	kasama	kasamang kasamá
+90	90	ngunit	
+91	91	iyo	iyo'y iyong yo
+92	92	oo	huo huong onga oong uo uong uu
+93	93	kahit	cahit ket
+94	94	dapat	dat
+95	95	bansa	bansa'y bansang bansâ
+96	96	gumawa	gagawa gagawan gawaan gawan ginagawa ginagawan ginagawang ginawaan ginawan gumagawa gumagawang gumawang gumawâ igawa iginawa inagawan ipagagawa ipagawa ipapagawa ipinagagawa ipinagawa ipinapagawa magagawa magagawan magagawang magawa magawan magawang maigawa maipagawa nagagawa nagagawang nagawa nagawan nagawang pagawa paggawa paggawaan paggawang
+97	97	ikaw	icao ika ika'y ikaw'y kaw
+98	98	pamamagitan	pamamagitang
+99	99	tulad	pagtutulad
+100	100	maganda	ganda gandang kasingganda magaganda magagandang magandang napakaganda napakagandang pinakamaganda pinakamagandang

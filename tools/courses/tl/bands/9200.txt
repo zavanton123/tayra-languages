@@ -1,0 +1,100 @@
+1	9101	langisan	langisang
+2	9102	pilipit	
+3	9103	pribatisasyon	
+4	9104	puspos	
+5	9105	bira	
+6	9106	ulupong	
+7	9107	kakawate	
+8	9108	pataksil	
+9	9109	dyumologs	jologs
+10	9110	retiro	retirong
+11	9111	lambingan	
+12	9112	ipalimbag	ipinalimbag
+13	9113	magpraktis	nagpapraktis nagpraktis
+14	9114	maglagi	naglagi naglalagi paglagi paglalagi
+15	9115	maglagak	lumagak naglagak naglalagak paglagak paglalagak
+16	9116	umimpluwensiya	pag-impluwensiya umiimpluwensiya
+17	9117	banaag	
+18	9118	nakakalikha	
+19	9119	haribon	
+20	9120	alusinasyon	halusinasyon halusinasyong
+21	9121	punglo	punglong punlo punlong
+22	9122	matago	natatago natatagong
+23	9123	rentas	
+24	9124	balamban	balambang
+25	9125	putakti	putakte putakteng putakting
+26	9126	trilohiya	trilohiyang
+27	9127	notaryo	notaryong
+28	9128	salu-salo	salu-salong
+29	9129	pook-sapot	
+30	9130	de-motor	demotor
+31	9131	maalab	maaalab
+32	9132	balakubak	
+33	9133	umalipin	aalipin
+34	9134	bagito	bagitong
+35	9135	karang	pagkarang
+36	9136	magresponde	nagreresponde nagresponde nagrespondeng
+37	9137	anas	
+38	9138	busabos	
+39	9139	perhuwisyo	perhuwisyong perwisyo
+40	9140	pakakak	
+41	9141	bendisyon	bendisyong
+42	9142	yantok	
+43	9143	ispeling	
+44	9144	umalingawngaw	umaalingawngaw
+45	9145	tanto	pagtanto pagtantong pagtatanto
+46	9146	sumiksik	pagsiksik sumisiksik
+47	9147	layaw	
+48	9148	mabagsakan	nabagsakan
+49	9149	magkaaway	
+50	9150	malinta	
+51	9151	iskeyting	isketing pag-iiskeyting
+52	9152	lungos	longos
+53	9153	dies	
+54	9154	ketsap	
+55	9155	malaka	malakang
+56	9156	awiting-bayan	awiting-bayang
+57	9157	maghambing	naghahambing naghambing paghambing
+58	9158	esensiyal	esensyal
+59	9159	puminsala	pagpinsala pumipinsala
+60	9160	suwail	
+61	9161	prelado	preladong
+62	9162	hagdan-hagdan	hagdan-hagdang
+63	9163	asinan	inaasinan inasinan inasinang pag-asinan pagasinan
+64	9164	taling	
+65	9165	dadalawa	dadalawang
+66	9166	animismo	
+67	9167	kabag	
+68	9168	sumuso	pagsuso pagsusong sumususo
+69	9169	malansa	malansang
+70	9170	potosintesis	
+71	9171	leopardo	leopardong
+72	9172	manghahabi	manghahabing
+73	9173	tampalasan	
+74	9174	pasahan	
+75	9175	laba	
+76	9176	manman	pagmamanman pagmanman
+77	9177	torta	tortang
+78	9178	panakot	panacot
+79	9179	tosino	tocino tusino
+80	9180	oks	
+81	9181	kuwit	
+82	9182	pisi	
+83	9183	lintik	
+84	9184	nakakakilig	
+85	9185	kuripot	
+86	9186	kumuwestiyon	kumukuwestiyon pagkuwestiyon
+87	9187	matangos	
+88	9188	hopya	hopia hopiang
+89	9189	pasang	
+90	9190	talipapa	
+91	9191	opensibo	opensibong
+92	9192	okupasyon	okupasyong
+93	9193	nanometro	nanometrong
+94	9194	sarian	sariang
+95	9195	intelihente	intelihenteng
+96	9196	pamalagian	pamalagiang pinamamalagian
+97	9197	mag-araro	magararo nag-aararo pag-aararo pag-araro
+98	9198	orkidyas	orkidya orkidyang
+99	9199	aikido	
+100	9200	konsultahin	kinokonsulta kinonsulta kokonsultahin

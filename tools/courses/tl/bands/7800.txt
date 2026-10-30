@@ -1,0 +1,100 @@
+1	7701	bokasyon	bokasyong
+2	7702	inutil	
+3	7703	zumba	
+4	7704	analogo	analogong
+5	7705	maluklok	maluluklok naluluklok
+6	7706	makabansa	makabansang
+7	7707	belhika	belhikang
+8	7708	dalag	dumalag
+9	7709	pilolohiya	pilolohiyang
+10	7710	magpahid	nagpahid nagpapahid pagpahid pagpapahid
+11	7711	isubo	isinubo isinusubo isusubo
+12	7712	adapsiyon	adapsiyong
+13	7713	kandungan	
+14	7714	rekording	
+15	7715	nuwes	
+16	7716	makakalikasan	makakalikasang
+17	7717	itik	
+18	7718	palamanan	pinalamanan pinalamanang pinapalamanan
+19	7719	makaahon	makakaahon nakaahon
+20	7720	aristokrasya	aristokrasiya aristokrasyang
+21	7721	bakawan	
+22	7722	mananahi	
+23	7723	umingay	iingay
+24	7724	amonya	
+25	7725	tistis	pagtistis pagtitistis
+26	7726	latak	
+27	7727	ambasador	
+28	7728	baduy	badoy
+29	7729	umokupa	pag-okupa umookupa
+30	7730	tapa	pagtatapa
+31	7731	magpakulo	nagpapakulo pagpapakulo pagpapakulong
+32	7732	bahay-bata	
+33	7733	karit	
+34	7734	lumindol	lumilindol paglindol
+35	7735	magandahan	nagagandahan nagandahan
+36	7736	umilaw	iilaw pag-ilaw pagilaw umiilaw
+37	7737	punyal	
+38	7738	loyalista	loyalistang
+39	7739	wagi	
+40	7740	pagluluksa	
+41	7741	pahingahan	pahingaan pahingahang
+42	7742	ikalabintatlo	ikalabintatlong
+43	7743	sunna	suna sunnah
+44	7744	aspirin	
+45	7745	tumaob	pagtaob
+46	7746	tumalab	pagtalab talab tatalab tumatalab
+47	7747	iatas	iaatas iniaatas iniatas
+48	7748	kuliglig	
+49	7749	ayain	inaya inayang
+50	7750	magkasal	nagkasal pagkakasal pagkasal
+51	7751	bes	
+52	7752	varyant	baryant
+53	7753	luwag	pagluluwag
+54	7754	amnistiya	amnestia amnestiya amnestiyang
+55	7755	piyudalismo	peudalismo pyudalismo
+56	7756	mapikon	mapipikon napikon napipikon
+57	7757	lapya	lapyang
+58	7758	kredensiyal	kredensyal
+59	7759	kumibo	kumikibo
+60	7760	pawisan	pinapawisan pinawisan pusan
+61	7761	magsaka	nagsaka nagsasaka
+62	7762	ninuman	ninoman
+63	7763	berdugo	berdugong
+64	7764	ipagsama	ipagsasama ipinagsama ipinagsasama
+65	7765	jihad	
+66	7766	kumpunihin	kinukumpuni kinukumpuning kinumpuni kinumpuning
+67	7767	magtiyaga	nagtitiyaga nagtiyaga pagtitiyaga
+68	7768	tumango	pagtango
+69	7769	paksiw	
+70	7770	kuwaderno	kwaderno
+71	7771	tok	
+72	7772	problemahin	pinoproblema poproblemahin
+73	7773	mag-apela	mag-aapela nag-apela pag-aapela
+74	7774	tapyas	pagtapyas pagtatapyas
+75	7775	sabat	
+76	7776	maawain	maawaín napakamaawain
+77	7777	sapiro	
+78	7778	reserbasyon	reserbasyong
+79	7779	puwersahin	pinupuwersa pinupuwersang pinuwersa pinuwersang pupuwersahin
+80	7780	balikbayan	balikbayang
+81	7781	kar	
+82	7782	apa	apang
+83	7783	nakakadagdag	
+84	7784	mabitin	nabitin
+85	7785	itiwalag	itinitiwalag itiniwalag
+86	7786	makahoy	makakahoy
+87	7787	pulbura	pulburang
+88	7788	maikalat	naikalat
+89	7789	kalalang	
+90	7790	espesya	espesyang
+91	7791	pulutan	polotan
+92	7792	sumubo	pagsubo
+93	7793	dalit	
+94	7794	matyag	pagmamatyag
+95	7795	magdetalye	nagdedetalye nagdetalye pagdedetalye
+96	7796	maharang	mahaharang nahaharang naharang
+97	7797	mapakita	napakita napapakita
+98	7798	siklista	pagsisiklista siklistang
+99	7799	haj	hajj
+100	7800	bukang-bibig	bukambibig

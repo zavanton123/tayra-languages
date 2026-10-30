@@ -1,0 +1,100 @@
+1	501	edukasyon	edukasyong
+2	502	halip	paghalip
+3	503	pangkalahatan	pangkalahatang
+4	504	tumawa	ikinatatawa pagtatawanan pagtawa pagtawanan pinagtatawanan pinagtawanan tatawa tinatawanan tumatawa tumatawang
+5	505	minuto	minutong minutos
+6	506	tren	treng
+7	507	nandoon	andon andong andoon handong nandon nandoroon nandun naroon naroong naroroon naroroong
+8	508	telebisyon	telebisyong telebisyón
+9	509	malawak	malalawak pinakamalawak
+10	510	musika	musikang
+11	511	tumingin	itiningin magtingin pagtingin pagtinging pagtitinginan pinagtitinginan tinginan titingin tumitingin
+12	512	lumipat	lilipat lumilipat paglipat
+13	513	ari	aring pag-aari pag-aaring pagaari
+14	514	mag-aral	magaaral magaral nag-aaral nag-aral nagaaral nagaral pag-aral pagaaral pagaral
+15	515	pagdating	pagdatíng
+16	516	kausapin	kakausapin kausap kinakausap kinausap
+17	517	harap	kinakaharap pinakaharap
+18	518	dakila	dakila't dakilang napakadakila napakadakilang pagdakila pinakadakila pinakadakilang
+19	519	tauhan	tauhang tinauhan
+20	520	matakot	matatakot natakot natatakot
+21	521	simple	napakasimple napakasimpleng pinakasimple pinakasimpleng simpleng
+22	522	mahigit	mahihigit napakahigit
+23	523	hatiin	hahatiin hatian hinahati hinahatian hinahating hinati hinatian hinating mahahati mahahating mahati makihati nahahati nahahating nahati nahating nakikihati pinaghahatian pinaghahatiang
+24	524	distrito	distritong
+25	525	pulo	polo polong pulong pulô
+26	526	basta	basta't bastang
+27	527	sumali	pagsali sasali sumasali
+28	528	kakaiba	kakaibang pinakakakaiba
+29	529	base	baseng nakabase nakabaseng
+30	530	ilagay	ilalagay inalagay inilagay inilalagay lagayan lalagayan nilagayan nilalagayan
+31	531	ekonomiya	ekonomiyang ekonomya ekonomyang
+32	532	katao	kataong pagkakatao pagkatao pagkataong
+33	533	teritoryo	teritoryong
+34	534	asahan	aasahan aasahang asahang iaasa iasa inaasahan inaasahang inasahan inasahang maasahan maasahang
+35	535	eksena	eksenang
+36	536	sining	
+37	537	partido	partidong
+38	538	maaga	maaaga maaagang maaga't maagang napakaaga napakaagang pinakamaaga pinakamaagang
+39	539	ibabaw	ibabao pinakaibabaw
+40	540	tuloy	ipagpatuloy
+41	541	katotohanan	katotohanang katutuhanan
+42	542	bumagsak	babagsak bagsakan binabagsak binagsak binagsakan bumabagsak ibabagsak ibagsak ibinabagsak ibinagsak nababagsak nabagsak naibagsak pagbagsak
+43	543	sundalo	pagsusundalo sondalo sundalong
+44	544	kasapi	kasaping kasapì pagkakasapi pagkasapi
+45	545	ugnay	kaugnay
+46	546	aktor	
+47	547	maglaman	maglalaman naglalaman naglaman paglalaman
+48	548	proseso	prosesong
+49	549	banal	banál pinakabanal
+50	550	gulang	
+51	551	mag-alala	mag-aalala magalala nag-aalala nag-aalalang nag-alala nagaalala pag-aalala pag-aalalang pag-alala pag-alalang pagaalala pagalala
+52	552	lipunan	lipunang
+53	553	siyempre	syempre
+54	554	proyekto	proyektong
+55	555	bigla	biglang
+56	556	plano	planong
+57	557	kalahati	kalahating
+58	558	guwapo	guapo guwapong gwapo gwapong napakaguwapo napakaguwapong napakagwapo
+59	559	manlalaro	manglalaro manlalaro'y manlalarong
+60	560	pinto	pintong
+61	561	tatay	
+62	562	tumigil	pagtigil titigil tumitigil
+63	563	isip	
+64	564	pakiusap	
+65	565	puti	pagpuputi puti't puting
+66	566	maglakbay	maglalakbay naglakbay naglalakbay paglakbay paglalakbay
+67	567	umasa	aasa magasa pag-uumasa pagasa umaasa umaasang umasang
+68	568	maliban	malibang nalibang nalilibang
+69	569	liwanag	
+70	570	sampu	sampo sampong sampung
+71	571	hukbo	hukbo'y hukbong hukbô pinakahukbo
+72	572	matindi	matinding matitindi matitinding napakatindi napakatinding pinakamatindi pinakamatinding
+73	573	enerhiya	enerhiyang
+74	574	ayoko	ayokong
+75	575	pinagmulan	pinagmulang
+76	576	militar	
+77	577	bilyon	bilyong
+78	578	maramdaman	maramdamang mararamdaman naramdaman naramdamang nararamdaman nararamdamang
+79	579	mesa	mesang
+80	580	magturo	magtuturo magtuturong nagturo nagturong nagtuturo nagtuturong pagturo pagtuturo
+81	581	sapat	pagsasapat
+82	582	posisyon	pagpoposisyon pagpoposisyong pagposisyon posisyong pusisyon pusisyong
+83	583	republika	republikang
+84	584	pasensiya	pasensya
+85	585	malaya	malalaya malalayang malayang
+86	586	magtapos	magtatapos nagtapos nagtatapos pagtapos
+87	587	idea	ideang ideya ideyang
+88	588	maikli	maiikli maiikling maikling napakaikli napakaikling
+89	589	simulan	simulang sinimulan sinimulang sinisimulan sinisimulang sisimulan sisimulang
+90	590	tagumpay	
+91	591	negosyo	negosyong
+92	592	galit	galít
+93	593	malayo	malalayo malalayong malayong nalalayo nalalayong napakalayo napakalayong pinakamalayo pinakamalayong
+94	594	iisa	iisang
+95	595	korea	koreang koreya kurya kuryang
+96	596	magulang	pag-ulang
+97	597	mahuli	mahuhuli mahuhuling mahuling nahuhuli nahuhuling nahuli nahuling
+98	598	umiral	iiral pag-iral pagiral umiiral
+99	599	kada	
+100	600	artikulo	artikulong

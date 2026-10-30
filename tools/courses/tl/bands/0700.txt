@@ -1,0 +1,100 @@
+1	601	kababaihan	kababaihang
+2	602	nanay	
+3	603	epekto	epektong
+4	604	kotse	kotseng
+5	605	umuwi	nauwi oui pag-uuwi paguwi umuuwi umuuwing umuwing uuwi uuwing uwi
+6	606	handa	handang handâ
+7	607	wakas	pinakawakas vacas
+8	608	tungkulin	tinungkol tungkuling
+9	609	estudyante	estudiyante estudyanteng istudyante
+10	610	itim	
+11	611	bawal	ipinagbabawal pagbabawal pinakabawal
+12	612	mayaman	mayamang mayayaman mayayamang napakamayaman napakayaman napakayamang pinakamayaman pinakamayamang
+13	613	karera	karerang
+14	614	dulo	dulong pinakadulo pinakadulong
+15	615	ya	yah yang
+16	616	kasal	
+17	617	isulat	isinulat isinusulat isusulat maisulat masulat masulatan naisulat naisusulat nakisulat nasusulat nasusulatan pinagsulatan sinulatan sinusulat sinusulatan sulatan sulatang
+18	618	libo	libo't libong
+19	619	sasakyan	sasakyang
+20	620	modelo	modelong
+21	621	talaan	talaang tinalaan
+22	622	ikatlo	icatlo ikatatlo ikatatlong ikatlo't ikatlong
+23	623	damit	
+24	624	makatanggap	makakatanggap makatatanggap nakatanggap nakatatanggap
+25	625	tara	
+26	626	panganib	pagpapanganib
+27	627	ganap	
+28	628	huminto	hihinto hihintuan hinintuan hintuan hintuang humihinto humihintong ihihinto ihininto ihinto inihinto ipahinto ipinahinto mahihinto mahinto maipahinto nahinto nahintong
+29	629	makatulong	makakatulong makatutulong nakakatulong nakatulong nakatutulong
+30	630	humingi	hihingan hihingi hihingian hihingin hingan hingian hingiin hingin hinihingan hinihingi hinihinging hiningan hiningi hininging humihingi ihiningi inihingi mahihingan mahihingi maihingi nahihingi paghingi paghinging
+31	631	panginoon	panginoong panginoón panginoóng
+32	632	makalipas	nakalilipas nakalipas
+33	633	inumin	iinom iinuman iinumin iniinom ininom ininumang inuman inuming ipainom ipapainom ipinaiinom ipinapainom maiinom mainom maipainom naiinom nainom
+34	634	makalimutan	makakalimutan makakalimutang makalimutang nakakalimutan nakalimutan nakalimutang
+35	635	pook	pooc puok
+36	636	larangan	larangang
+37	637	pahayag	pinahayag pinapahayag
+38	638	guro	gurong
+39	639	takbo	pagtatakbo takbong
+40	640	matira	matirang matitira matitirang natira natirang natitira natitirang
+41	641	paniniwala	paniniwalang
+42	642	buhok	
+43	643	ilarawan	ilalarawan ilarawang ilinarawan inilalarawan inilalarawang inilarawan inilarawang
+44	644	tiyak	pagtitiyak pinakatiyak tiyák
+45	645	tanggalin	tanggal tanggaling tanggál tatanggalin tinanggal tinatanggal
+46	646	nayon	nayong
+47	647	usapan	pag-uusapan pagusapan pinakausapan usapang uusapan uusapang
+48	648	sukat	pagsusukat sucat
+49	649	paksa	pagpapaksa paksang
+50	650	daigdig	daigdíg
+51	651	kabataan	kabataang kabatahan
+52	652	imperyo	emperyo emperyong imperyong
+53	653	mamaya	mamayang
+54	654	likas	likás pinakalikas
+55	655	kanina	canina kaninang
+56	656	sulat	
+57	657	ibaba	babaan bababaan binabaan binababaan ibababa ibabang ibabâ ibinaba ibinababa ibinabang ikabababa maibaba naibaba
+58	658	aktris	aktres
+59	659	kolehiyo	kolehiyong kolehyo kolehyong
+60	660	personal	napakapersonal
+61	661	tanga	napakatanga tangang
+62	662	yugto	yugtong yugtô
+63	663	kabesera	kabeserang kabisera kabiserang
+64	664	ginto	ginto't gintong guinto
+65	665	manunulat	
+66	666	kumpanya	kumpanyang
+67	667	magdulot	dinudulot dinulot madudulot madulot magdudulot nadudulot nadulot nagdudulot nagdulot pagdudulot pagdulot
+68	668	posible	posibleng
+69	669	pito	pagpito pitong pitó
+70	670	natural	
+71	671	mahalin	mahala mamahalin mamahaling minahal minamahal
+72	672	lawa	laua lawang lawà
+73	673	awitin	aawitan aawitin awitan awiting inaawit inaawitan inawit iniawit nakiawit
+74	674	laman	lamán pinakalaman
+75	675	palagi	palaging pinalagi
+76	676	itsura	hitsura hitsurang itsurang
+77	677	sapagkat	
+78	678	tabi	tabí
+79	679	puro	pinakapuro purong
+80	680	magkita	magkikita nagkikita nagkikitang nagkita pagkikita pagkikitang
+81	681	tumaas	tataas tumataas
+82	682	pampubliko	pampublikong
+83	683	makakita	makakakita makakikita makakikitang nakakakita nakakikita nakakita nakakitang
+84	684	magpunta	magpupunta nagpunta nagpupunta pagpunta pagpupunta
+85	685	industriya	industria industriyang
+86	686	sagot	
+87	687	mapansin	mapansing mapapansin mapapansing napansin napansing napapansin napapansing
+88	688	taga	
+89	689	libro	librong libró
+90	690	pangangailangan	pangangailangang
+91	691	tumanggi	itanggi itangging itatanggi itinaggi itinanggi itinangging itinatanggi itinatangging maitanggi matanggihan pagtanggi pagtangging tanggihan tanggihang tatanggi tatanggihan tatangging tinanggihan tinanggihang tinatanggihan tumangging tumatanggi tumatangging
+92	692	teorya	teoria teoriya teoriyang teoryang
+93	693	isda	isdang isdâ isra ista
+94	694	manguna	mangunguna mangungunang nanguna nangunang nangunguna nangungunang panguna pangunang
+95	695	kawalan	kawalaan kawalang pagkawalan pinakakawalan
+96	696	pula	pagpupula pula't pulang
+97	697	awit	pag-aawit pagaawit
+98	698	karakter	
+99	699	ukol	
+100	700	tapusin	ipinatatapos natatapos tapusing tatapusin tinapos tinatapos

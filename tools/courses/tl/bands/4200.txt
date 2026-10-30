@@ -1,0 +1,100 @@
+1	4101	matigil	matitigil natigil
+2	4102	tsunami	tsunaming
+3	4103	renta	rentang
+4	4104	pag-inom	
+5	4105	malambing	napakalambing
+6	4106	paktor	
+7	4107	datapwat	datapuwa't datapuwat datapwa datapwa't
+8	4108	halina	halina't
+9	4109	pumatak	pagpatak papatak pumapatak
+10	4110	siko	chico sico sumiko tsiko
+11	4111	kaliskis	
+12	4112	palikuran	
+13	4113	pagsisisi	
+14	4114	elektrisidad	
+15	4115	unawain	inunawa inuunawa uunawain
+16	4116	pagsagot	
+17	4117	nutrisyon	nutrisyong
+18	4118	kurba	kurbang
+19	4119	bokabularyo	bokabularyong
+20	4120	tuwang	
+21	4121	sim	pagsim pinakasim sink
+22	4122	bumagal	babagal bagal bumabagal pagbagal
+23	4123	balot	balut
+24	4124	initan	iinitan mainitan mainitang naiinitan naiinitang nainitan
+25	4125	amihan	
+26	4126	boltahe	boltaheng
+27	4127	pindutan	pindutang
+28	4128	probinsyano	probinsyanong
+29	4129	magselos	magseselos nagselos nagseselos pagseselos
+30	4130	magtapat	ipagtapat ipagtatapat ipinagtapat magtatapat nagtapat naipagtapat natatapat pagtapat pagtapatin tinapat
+31	4131	ihandog	ihahandog ihinandog inihahandog inihandog
+32	4132	tuwalya	tuwalyang twalya
+33	4133	libog	
+34	4134	tiisin	tiis tiniis tinitiis titiisin
+35	4135	magsampa	magsasampa nagsampa pagsampa pagsasampa
+36	4136	agimat	
+37	4137	baon	baong
+38	4138	makabenta	nakabenta
+39	4139	sampalin	masampal nasampal sasampalin sinampal sinasampal
+40	4140	bigo	bigong
+41	4141	mabaho	mababahong mabahong
+42	4142	kiligin	kikiligin kinikilig kinilig
+43	4143	binatilyo	binatillo binatilyong
+44	4144	glandula	glandulang
+45	4145	mag-udyok	maguudyok nag-udyok nag-uudyok nagudyok pag-udyok pag-uudyok pagudyok
+46	4146	uhaw	
+47	4147	mangga	mangga't manggang
+48	4148	pasyalan	pasyalang pinapasyalan
+49	4149	mag-utos	mag-uutos nag-utos nag-uutos nagutos naguutos pag-utos pag-uutos paguutos
+50	4150	hubog	paghuhubog
+51	4151	pasikat	pinasikat
+52	4152	dumagdag	dadagdag daragdag dumadagdag dumaragdag nadagdag
+53	4153	saad	saar
+54	4154	makaugnay	makauugnay nakaugnay
+55	4155	kirot	
+56	4156	libra	librang
+57	4157	sura	surah surang
+58	4158	pamasahe	
+59	4159	panulaan	panulaang
+60	4160	tagapaglingkod	
+61	4161	nababagay	
+62	4162	abandonahin	inabandona inabandonang
+63	4163	diyabetes	diabetes diyabetis
+64	4164	makoto	
+65	4165	paskuwa	pascua paskuwas paskwa pasqua
+66	4166	masunurin	masunuring
+67	4167	buhusan	binubuhusan binuhusan bubuhusan pagbuhusan
+68	4168	kabesado	kabisado
+69	4169	maghalal	maghahalal naghahalal naghalal paghahalal paghalal
+70	4170	magkaka	nagkaka pagkaka
+71	4171	tinta	tintang
+72	4172	puson	pusón
+73	4173	humarang	humaharang pagharang
+74	4174	ibuhos	ibinubuhos ibinuhos ibubuhos
+75	4175	mamagitan	ipamagitan ipinagitan namagitan namamagitan namamagitang pagmamagitan
+76	4176	laway	
+77	4177	titig	
+78	4178	sakripisyo	sakripisyong
+79	4179	organiko	organikong
+80	4180	lito	litong paglilito
+81	4181	dosis	
+82	4182	manghula	nanghuhula nanghula paula
+83	4183	lakbayin	lalakbayin nilakbay
+84	4184	pasaporte	pasaporteng
+85	4185	apela	apelang apila
+86	4186	maipaliwanag	naipaliwanag
+87	4187	letse	leche
+88	4188	makinis	makikinis
+89	4189	kronolohiya	kronolohiyang
+90	4190	magsindi	magsisindi masindihan nagsindi nagsisindi pagsindi pagsisindi sindihan sinindihan sinindihang sinisindihan sisindihan
+91	4191	alinlangan	alinlangang
+92	4192	malathala	nalalathala nalalathalang nalathala nalathalang
+93	4193	liblib	napakaliblib pinakaliblib
+94	4194	maglantad	naglalantad naglantad paglalantad
+95	4195	perlas	
+96	4196	maprotektahan	mapoprotektahan napoprotektahan naprotektahan
+97	4197	mabalik	mababalik nabalik
+98	4198	patalsik	pinapatalsik pinatalsik
+99	4199	altapresyon	
+100	4200	kaaya-aya	kaaya-aya't kaaya-ayang

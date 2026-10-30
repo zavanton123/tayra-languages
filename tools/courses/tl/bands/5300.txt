@@ -1,0 +1,100 @@
+1	5201	bet	
+2	5202	tagiliran	tagilirang
+3	5203	sagupaan	sagupaang
+4	5204	matabunan	natabunan natabunang natatabunan
+5	5205	balagtasan	balagtasang
+6	5206	koronel	
+7	5207	makulit	makukulit
+8	5208	panggalingan	panggagalingan pinanggagalingan pinanggagalingang
+9	5209	pakulo	pakulong pinakulo pinakulong pinapakulo
+10	5210	sando	
+11	5211	talamak	pinakatalamak
+12	5212	ampunin	aampunin inampon inampong
+13	5213	saro	
+14	5214	pumabor	pagpabor papabor pumapabor
+15	5215	dokumentasyon	dokumentasyong
+16	5216	magtambal	nagtambal nagtatambal pagtatambal
+17	5217	maligamgam	
+18	5218	presentasyon	presentasyong
+19	5219	margarita	
+20	5220	tribunal	
+21	5221	makaluma	makalumang
+22	5222	mamigay	mamimigay namigay namimigay pamigay
+23	5223	obserbahan	inobserbahan inoobserbahan inoobserbahang oobserbahan
+24	5224	sapi	saping
+25	5225	gulod	
+26	5226	pornograpiya	pornograpiyang
+27	5227	magpakahulugan	nagpakahulugan nagpapakahulugan pagpapakahulugan pagpapakahulugang
+28	5228	isahin	iisahing iniisa inisa isahing pag-iisahin pag-iisahing pag-isahin pagisahin
+29	5229	tambay	
+30	5230	mirasol	
+31	5231	teleskopyo	teleskopyong
+32	5232	lisanin	lilisanin
+33	5233	mag-aksaya	aksayahin inaksaya maaaksaya maaksaya maaksayang nag-aaksaya nag-aksaya pag-aaksaya
+34	5234	muwang	muang
+35	5235	regla	pagregla pagreregla
+36	5236	lahok	lahók nilahukan nilahukang
+37	5237	maaliwalas	
+38	5238	magpalitaw	magpapalitaw nagpalitaw nagpapalitaw pagpapalitaw
+39	5239	integrasyon	integrasyong
+40	5240	adobe	
+41	5241	sardinas	
+42	5242	bombilya	bumbilya bumbilyang
+43	5243	paggising	
+44	5244	kalis	cris
+45	5245	milyonaryo	milyonarya milyonaryong
+46	5246	sinulid	
+47	5247	magpasaya	magpapasaya nagpapasaya nagpasaya
+48	5248	lara	
+49	5249	gulugod	
+50	5250	paramihin	paparamihin paramihing pinaparami pinarami
+51	5251	pumindot	pagpindot pumipindot
+52	5252	paghuhukom	
+53	5253	mabuntis	mabubuntis nabubuntis nabuntis
+54	5254	abogasya	abogasiya abogasyang abugasya
+55	5255	mapanglaw	pinakamapanglaw
+56	5256	dolphy	
+57	5257	makaagham	
+58	5258	habilin	
+59	5259	bruha	bruhang
+60	5260	alperes	
+61	5261	iangat	iaangat iniaangat iniangat
+62	5262	alalayan	inaalalayan inalalayan
+63	5263	mangangaso	mangangasong
+64	5264	umiba	iiba iibang umiiba
+65	5265	alta	altang
+66	5266	suko	soco
+67	5267	bastusin	binabastos binastos napakabastos
+68	5268	kanyon	kanyong kanyón
+69	5269	dagta	dagtang
+70	5270	bitay	bistay bithay pagbibitay pagbitay
+71	5271	talaban	tablan talabang tatablan tinablan tinablang tinatablan tinatalaban
+72	5272	inday	
+73	5273	brodkaster	
+74	5274	hiwain	hihiwain hinihiwa hinihiwang hiniwa hiniwang
+75	5275	tumindi	pagtindi titindi tumitindi tumitinding
+76	5276	mapagkamalan	mapagkakamalan mapagkakamalang mapagkamalang napagkakamalan napagkakamalang napagkamalan napagkamalang
+77	5277	sumalo	pagsalo sasalo sumasalo
+78	5278	bulalakaw	bulalacao
+79	5279	pakilala	pinakilala pinakilalang
+80	5280	pagtataksil	
+81	5281	tungkod	
+82	5282	ekis	equis
+83	5283	maghagis	humagis naghagis naghahagis paghagis paghahagis
+84	5284	duwal	dual pagduduwal pagduwal
+85	5285	masilayan	masisilayan nasilayan nasisilayan
+86	5286	madilaw	marilao marilaw pagkadilaw
+87	5287	ipilit	ipinilit ipinipilit ipipilit
+88	5288	senyas	pagsesenyas
+89	5289	heolohiya	heolohiyang
+90	5290	makalapit	makakalapit makalalapit nakalapit
+91	5291	pababain	papababain
+92	5292	bumatikos	bumabatikos pagbatikos
+93	5293	makalimot	makakalimot makalilimot nakakalimot nakalilimot nakalimot
+94	5294	madaliin	minadali minamadali minamadaling
+95	5295	insulto	insultong
+96	5296	pumanig	pagpanig panigan papanig pinanigan pinapanigan pinapanigang pumapanig
+97	5297	umaresto	pag-aresto pag-arestong
+98	5298	adobo	adobong
+99	5299	peryodiko	periyodiko periyodikong peryodikong
+100	5300	maaksidente	naaksidente naaksidenteng
