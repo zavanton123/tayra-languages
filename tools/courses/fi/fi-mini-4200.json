@@ -1,0 +1,179 @@
+{
+  "id": "fi-mini-4200",
+  "rankUpTo": 4200,
+  "level": "C1",
+  "title": "Arkkitehtuuri ja kulttuuriperintö",
+  "description": "Ten texts on buildings and heritage: restoring a seaside villa, a review of a library in an old factory, a column on the houses along a commute, a portrait of a young restoration carpenter, charging points at a converted shipyard, an architect who skis to work in the Arctic, an anonymous gift to a village school, siblings keeping their family farmhouse, a protected health centre under repair and a marathon at a renovated stadium.",
+  "topic": "Architecture and heritage",
+  "names": [
+    "Riikka",
+    "Torvald",
+    "Loviisa",
+    "Helsinki",
+    "Kuusankoski",
+    "Ingeborg",
+    "Turku",
+    "Rinja",
+    "Heikki",
+    "Jyväskylä",
+    "Kalervo",
+    "Liv",
+    "Oulu",
+    "Pikisaari",
+    "Erkki",
+    "Inari",
+    "Venny",
+    "Hossa",
+    "Untamo",
+    "Josefina",
+    "Ilmajoki",
+    "Seinäjoki",
+    "Teodora",
+    "Valkeakoski",
+    "Lauha",
+    "Birger",
+    "Eurooppa"
+  ],
+  "lessons": [
+    {
+      "title": "Huvila meren rannalla",
+      "summary": "Riikka buys a neglected wooden villa from 1894 in Loviisa, and the old carpenter Torvald teaches her that careful measuring, patience and thought save an old house.",
+      "newWords": [
+        "huvila",
+        "harkinta",
+        "mittaus",
+        "leveys",
+        "ehjä",
+        "sisäpuoli",
+        "kuivua"
+      ],
+      "text": "Loviisan vanhan kaupungin laidalla, aivan meren rannalla, seisoo keltainen puinen huvila. Se rakennettiin vuonna 1894, jolloin rikkaat perheet tulivat Helsingistä viettämään kesäänsä meren äärelle. Nykyään huvilan omistaa Riikka, joka osti sen kolme vuotta sitten. Hän on ammatiltaan opettaja, eikä hänellä ollut aiempaa kokemusta vanhoista taloista.\n\n”Kun näin huvilan ensimmäisen kerran, se oli huonossa kunnossa”, Riikka kertoo. ”Katto vuoti, ja monet ikkunat näyttivät olevan rikki. Silti tunsin heti, että tämä on minun taloni.”\n\nRiikka ei kuitenkaan halunnut tehdä mitään kiireessä. Hän tiesi, että vanhan talon voi pilata nopeasti, jos sitä korjaa ilman harkintaa. Siksi hän pyysi apua Torvaldilta, joka on korjannut vanhoja taloja Loviisassa yli 40 vuotta.\n\nTorvald aloitti mittauksella. Hän mittasi huoneiden pituuden ja leveyden, ikkunoiden koon ja lattian jokaisen laudan leveyden. Tulokset hän kirjoitti pieneen kirjaan, jota hän on käyttänyt koko uransa ajan.\n\n”Vanhassa talossa mikään ei ole aivan suorassa”, Torvald selittää. ”Ilman tarkkaa mittausta uusi lauta ei sovi vanhan viereen.”\n\nMittauksen jälkeen Torvald kävi läpi jokaisen ikkunan. Riikan yllätykseksi suurin osa vanhoista laseista oli ehjiä. Rikki olivat lähinnä ikkunoiden puuosat. Torvald korjasi ne ja asensi ehjät lasit takaisin paikoilleen. Vanha lasi ei ole aivan tasaista, ja siksi valo näyttää huoneissa pehmeältä.\n\nSuurin työ tehtiin kuitenkin seinien sisäpuolella. Kun Torvald avasi yhden seinän, sen sisäpuoli oli märkä. Vesi oli valunut katosta seinään monena talvena. Ennen kuin seinää voitiin korjata, puun piti kuivua. Torvald ei halunnut käyttää koneita, vaan antoi sen kuivua hitaasti koko kesän ajan.\n\n”Aika on tärkein työkalu”, hän sanoo. ”Jos puu ei ehdi kuivua kunnolla, ongelmat palaavat muutamassa vuodessa.”\n\nSyksyllä seinän sisäpuoli oli kuiva, ja Torvald pystyi jatkamaan työtä. Hän vaihtoi vain ne laudat, jotka olivat pilalla, ja jätti ehjät paikoilleen. Uudet laudat hän teki samanlaisiksi kuin vanhat, myös leveydeltään.\n\nNyt huvila on taas asuttava. Riikka viettää siellä kesät ja usein myös viikonloput. Hän sanoo oppineensa vanhasta talosta paljon, ennen kaikkea sen, että kiire on vanhan talon pahin vihollinen.\n\n”Opin, että harkinta kannattaa aina. Ensin mitataan ja mietitään, vasta sitten tehdään. Jos vanhaa taloa kohtelee hyvin, se kestää vielä toiset sata vuotta.”\n\nKysymykset:\nMilloin huvila rakennettiin?\nSe rakennettiin vuonna 1894.\nMiksi Riikka pyysi apua Torvaldilta?\nKoska hän ei halunnut korjata taloa ilman harkintaa, ja Torvald on korjannut vanhoja taloja yli 40 vuotta.\nMitä Torvald teki ensimmäiseksi?\nHän aloitti mittauksella ja mittasi muun muassa lattian jokaisen laudan leveyden.\nMillaisia ikkunoiden vanhat lasit olivat?\nSuurin osa niistä oli ehjiä, ja vain puuosat olivat rikki.\nMiksi seinän piti kuivua koko kesän?\nKoska seinän sisäpuoli oli märkä, ja puun piti kuivua kunnolla ennen korjausta."
+    },
+    {
+      "title": "Arvio: kirjasto vanhassa tehtaassa",
+      "summary": "A reviewer visits the new library in an old factory hall in Kuusankoski, praises its preserved character and its café, and finds the reading rooms upstairs too cramped.",
+      "newWords": [
+        "vaikutelma",
+        "näkyviin",
+        "erinomaisesti",
+        "olemus",
+        "muotoinen",
+        "ahdas",
+        "ylistää"
+      ],
+      "text": "Kuusankosken joen rannalla on seissyt suuri punainen tiilirakennus yli sata vuotta. Ensin se oli tehdas, sitten pitkään tyhjä varasto. Tänä syksynä siihen avattiin kaupungin uusi pääkirjasto. Kävin tutustumassa siihen jo ensimmäisellä viikolla.\n\nEnsimmäinen vaikutelma on vahva. Kun astuu sisään, edessä on valtava sali, jonka katto on kymmenen metrin korkeudella. Vanhat rautapalkit on jätetty näkyviin, samoin seinien tiilet. Arkkitehti Ingeborg on halunnut, että rakennuksen historia jää näkyviin eikä katoa uusien pintojen alle. Tämä ratkaisu toimii erinomaisesti. Talon alkuperäinen olemus on säilynyt, vaikka sen käyttö on täysin muuttunut.\n\nSalin keskellä on suuri pyöreä taso, jolla lapset voivat istua ja lukea. Sen ympärille on rakennettu kaaren muotoisia hyllyjä. Myös katosta roikkuvat valaisimet ovat pyöreän muotoisia, ja ne muistuttavat tehtaan vanhoja lamppuja. Samat muodot toistuvat koko talossa, mikä tekee kokonaisuudesta rauhallisen.\n\nKaikki ei kuitenkaan ole yhtä onnistunutta. Toisen kerroksen lukusalit ovat pieniä ja ahtaita. Kun niissä on kymmenen ihmistä, tilaa ei juuri jää. Ahtaassa huoneessa on vaikea keskittyä, varsinkin kun ilma on lämmin. Ymmärrän, että vanhan rakennuksen seinät rajoittavat suunnittelua, mutta olisin toivonut lukusaleihin enemmän tilaa.\n\nKahvila sen sijaan on onnistunut erinomaisesti. Se sijaitsee rannan puolella, ja sen suurista ikkunoista näkyy joki. Istuin siellä tunnin ja katselin, kuinka vesi virtasi koskessa. Vaikutelma oli kuin olisin istunut keskellä luontoa.\n\nPaikalliset asukkaat ovat ottaneet kirjaston hyvin vastaan. Moni kävijä, jonka kanssa juttelin, ylisti erityisesti valoisaa salia. Eräs vanha mies kertoi työskennelleensä tehtaassa nuorena. Hän ylisti sitä, että rakennuksen olemus on pysynyt samana. ”Täällä tuntuu yhä samalta kuin silloin”, hän sanoi.\n\nKokonaisuutena kirjasto on erinomainen esimerkki siitä, miten vanhaa rakennusta voi käyttää uudella tavalla. Sitä voi ylistää ilman suurta liioittelua. Ahtaat lukusalit ovat pieni virhe hyvässä kokonaisuudessa, ja ne voidaan ehkä myöhemmin korjata. Suosittelen käyntiä kaikille, jotka ovat kiinnostuneita arkkitehtuurista – tai vain hyvistä kirjoista.\n\nKysymykset:\nMitä rakennuksessa oli ennen kirjastoa?\nEnsin se oli tehdas ja sitten pitkään tyhjä varasto.\nMillainen on kirjoittajan ensimmäinen vaikutelma?\nSe on vahva, koska edessä on valtava sali, jonka katto on korkealla.\nMitä arkkitehti halusi jättää näkyviin?\nHän halusi jättää näkyviin vanhat rautapalkit ja tiilet, jotta rakennuksen historia ei katoaisi.\nMikä kirjastossa ei kirjoittajan mielestä onnistunut?\nToisen kerroksen lukusalit ovat pieniä ja ahtaita.\nMitä vanha mies ylisti?\nHän ylisti sitä, että rakennuksen olemus on pysynyt samana."
+    },
+    {
+      "title": "Kolumni: talot työmatkan varrella",
+      "summary": "A columnist in Turku, whose phone battery dies at a bus stop, starts to notice the old houses along her daily commute and now walks to work more slowly and with open eyes.",
+      "newWords": [
+        "työmatka",
+        "pysäkki",
+        "takainen",
+        "yksilöllinen",
+        "jokunen",
+        "jälkeenpäin",
+        "rennosti"
+      ],
+      "text": "Olen kulkenut samaa työmatkaa Turussa jo kahdeksan vuotta. Kävelen ensin kotoa pysäkille, ajan bussilla keskustaan ja kävelen loput. Pitkään en ajatellut työmatkaa lainkaan. Se oli vain aika, joka piti jotenkin kuluttaa. Tuijotin puhelinta tai mietin päivän töitä.\n\nViime keväänä puhelimeni akku loppui eräänä aamuna, kun odotin bussia pysäkillä. Muuta tekemistä ei ollut, joten katselin ympärilleni. Pysäkin vieressä on vanha puutalo, jota en ollut koskaan oikeastaan nähnyt, vaikka olin seissyt sen edessä satoja kertoja. Talon seinässä oli pieni kyltti: ”Rakennettu 1903.” Talo oli siis yli sadan vuoden takainen. Mietin, kuinka moni ihminen oli kulkenut sen ohi ennen minua.\n\nSiitä päivästä alkaen olen katsellut työmatkani taloja eri silmin. Huomasin, että lähes jokaisessa talossa on jotain yksilöllistä: erikoinen ovi, koristeltu ikkuna tai tavallisesta poikkeava väri. Yhden kerrostalon parvekkeet ovat pyöreitä, toisen talon katolla on pieni torni. Nämä yksilölliset yksityiskohdat jäävät helposti huomaamatta, kun kulkee pää alas painettuna.\n\nJokunen talo on myös kadonnut. Kaksi vuotta sitten keskustan laidalta purettiin vanha kivitalo, ja tilalle rakennettiin lasinen toimistotalo. Jälkeenpäin olen ajatellut, että en edes huomannut purkamista. Talo oli osa työmatkaani, mutta en tiennyt siitä mitään. Vasta jälkeenpäin luin, että talossa oli aikanaan toiminut kaupungin ensimmäinen elokuvateatteri.\n\nNykyään lähden kotoa jokusen minuutin aikaisemmin. Kävelen rennosti enkä kiirehdi pysäkille. Bussissa katson ulos ikkunasta enkä puhelinta. Keskustassa valitsen joskus eri kadun kuin ennen, jotta näkisin uusia taloja. Työmatka ei ole enää hukkaan heitettyä aikaa, vaan päivän rauhallisin hetki.\n\nJoku voi pitää tätä turhana. Mitä väliä on sillä, minkä näköisiä taloja matkan varrella on? Minusta sillä on paljon väliä. Kaupunki ei ole vain paikka, jossa asutaan ja tehdään töitä. Se on myös kaupungin muisti, joka on rakennettu kivestä ja puusta. Jokainen talo on yksilöllinen, ja jokaisella on oma tarinansa. Kun kulkee rennosti ja katsoo ympärilleen, tuo muisti alkaa kertoa tarinaansa.\n\nKysymykset:\nMiten kirjoittaja kulkee työmatkansa?\nHän kävelee pysäkille, ajaa bussilla keskustaan ja kävelee loput.\nMiksi kirjoittaja alkoi katsella taloja?\nKoska hänen puhelimensa akku loppui, kun hän odotti bussia pysäkillä.\nKuinka vanha pysäkin vieressä oleva talo on?\nSe on yli sadan vuoden takainen, sillä se rakennettiin vuonna 1903.\nMitä yksilöllistä kirjoittaja on huomannut taloissa?\nHän on huomannut erikoisia ovia, koristeltuja ikkunoita, pyöreitä parvekkeita ja pienen tornin.\nMiten kirjoittajan työmatka on muuttunut?\nHän lähtee jokusen minuutin aikaisemmin, kävelee rennosti ja katsoo ympärilleen eikä puhelinta."
+    },
+    {
+      "title": "Henkilökuva: vanhojen talojen korjaaja",
+      "summary": "Rinja left a permanent office job to restore old buildings; after lean years of study she now works independently for Heikki's firm on the windows of an old wooden school in Jyväskylä.",
+      "newWords": [
+        "työmaa",
+        "tatuointi",
+        "vakituinen",
+        "toimeentulo",
+        "perehtyä",
+        "itsenäisesti",
+        "elinkeino"
+      ],
+      "text": "On harmaa lokakuun aamu Jyväskylässä. Vanhan puisen koulun pihalla on työmaa: rakennuksen ympärillä on telineet, ja pihalla on pinoja uutta puuta. Rinja on ollut työmaalla jo kello seitsemästä. Hän korjaa koulun ikkunoita yhdessä esimiehensä Heikin kanssa. Rinjan käsivarressa on tatuointi: pieni punainen talo, jonka ikkunoista loistaa valoa.\n\n”Tatuointi esittää isoisäni taloa”, Rinja kertoo. ”Hän oli puuseppä, ja minä vietin lapsena kesät hänen verstaallaan. Siellä opin, että vanhaa kannattaa korjata.”\n\nRinja opiskeli ensin kaupallista alaa ja työskenteli muutaman vuoden toimistossa. Työ oli turvallista, mutta hän ei viihtynyt. Viisi vuotta sitten hän päätti vaihtaa alaa ja aloitti rakennusalan opinnot.\n\n”Moni ihmetteli, miksi jätin vakituisen työn. Vakituinen työpaikka on monelle tärkeä asia, ja ymmärrän sen hyvin. Minulle oli kuitenkin tärkeämpää tehdä jotain omilla käsilläni.”\n\nEnsimmäiset vuodet olivat vaikeita. Rinja teki lyhyitä töitä eri työmailla, eikä toimeentulo ollut aina varma. Talvella töitä oli vähemmän, ja silloin hän eli säästöillään. Hän käytti hiljaiset kuukaudet hyödyksi ja perehtyi vanhoihin rakennustapoihin. Hän luki kirjoja, kävi kursseilla ja kyseli neuvoja vanhemmilta kollegoilta.\n\nViime keväänä Heikin yritys tarjosi hänelle vakituista paikkaa. Heikki on korjannut vanhoja rakennuksia kolmekymmentä vuotta.\n\n”Rinja on perehtynyt näihin asioihin paremmin kuin moni, joka on tehnyt tätä kauan”, Heikki sanoo. ”Hän osaa myös työskennellä itsenäisesti. Voin antaa hänelle kokonaisen huoneen, ja tiedän, että työ tehdään oikein.”\n\nRinja pitää siitä, että saa työskennellä itsenäisesti. Hän suunnittelee itse, missä järjestyksessä työt tehdään. Tänään hän irrottaa vanhat ikkunat, jotka viedään verstaalle korjattaviksi. Talvella ne palaavat paikoilleen.\n\nPerinteinen rakentaminen oli pitkään hiipuva elinkeino. Monet ammattilaiset jäivät eläkkeelle, eikä nuoria tullut tilalle. Nyt tilanne on muuttumassa. Yhä useampi omistaja haluaa korjata vanhan talonsa sen alkuperäisillä menetelmillä, ja osaajille on kysyntää.\n\n”Tästä elinkeinosta saa nykyään hyvän toimeentulon”, Rinja sanoo. ”Raha ei silti ole pääasia. Kun ikkuna on korjattu ja se on taas paikallaan, tunnen, että olen jatkanut isoisäni työtä.”\n\nHän katsoo hetken käsivartensa tatuointia ja palaa sitten työmaalle.\n\nKysymykset:\nMitä Rinjan tatuointi esittää?\nSe esittää pientä punaista taloa, joka on hänen isoisänsä talo.\nMiksi Rinja jätti vakituisen työn toimistossa?\nKoska hänelle oli tärkeämpää tehdä jotain omilla käsillään.\nMitä Rinja teki, kun töitä oli vähän?\nHän perehtyi vanhoihin rakennustapoihin, luki kirjoja ja kävi kursseilla.\nMiksi Heikki arvostaa Rinjaa?\nKoska Rinja on perehtynyt asioihin hyvin ja osaa työskennellä itsenäisesti.\nMillainen elinkeino perinteinen rakentaminen on nykyään?\nSiitä saa nykyään hyvän toimeentulon, ja osaajille on kysyntää."
+    },
+    {
+      "title": "Vanhan telakan uusi elämä",
+      "summary": "The shareholders of a housing company in an old shipyard hall on Pikisaari in Oulu want car charging points; the old wiring cannot take the load, so the engineer Liv proposes building readiness for ten points and starting with four.",
+      "newWords": [
+        "telakka",
+        "osakas",
+        "lataus",
+        "jännite",
+        "valmius",
+        "kestävyys",
+        "odotettavissa"
+      ],
+      "text": "Oulun Pikisaaressa toimi yli sata vuotta telakka, jossa rakennettiin puisia laivoja ja veneitä. Telakka lopetti toimintansa jo kauan sitten, mutta sen suuri puinen halli jäi paikalleen. Kymmenen vuotta sitten halli muutettiin asuintaloksi, jossa on nyt 24 asuntoa.\n\nAsunnot kuuluvat taloyhtiölle, ja jokainen asukas on taloyhtiön osakas. Osakkaat päättävät yhdessä talon suurista asioista. Taloyhtiön puheenjohtaja on Kalervo, joka on asunut talossa alusta asti. Hän oli nuorena töissä telakalla, ja hänelle rakennus on erityisen tärkeä.\n\nViime keväänä osakkaat kokoontuivat vuosikokoukseen. Esityslistalla oli sähköautojen lataus. Yhä useammalla osakkaalla on sähköauto, ja he toivoivat, että pihalle saataisiin paikkoja autojen lataukselle.\n\nAsiaa selvitettiin huolellisesti. Taloyhtiö tilasi asiantuntijalta selvityksen, ja siitä kävi ilmi ongelma. Talon vanha sähköverkko ei kestä usean auton latausta samanaikaisesti. Jos monta autoa ladataan yhtä aikaa, jännite voi laskea. Liian matala jännite taas voi vahingoittaa talon muita laitteita. Asukkaat eivät halunneet, että jääkaapit ja tietokoneet alkaisivat oireilla.\n\nOsakas Liv, joka on ammatiltaan insinööri, ehdotti ratkaisua. Pihalle rakennettaisiin heti valmius kymmenelle autolle, mutta aluksi käyttöön otettaisiin vain neljä paikkaa. Kun sähköverkkoa myöhemmin vahvistetaan, loput voidaan ottaa käyttöön helposti.\n\n”Valmius on tässä tärkein sana”, Liv sanoi kokouksessa. ”Jos valmius rakennetaan nyt, maata ei tarvitse kaivaa myöhemmin uudelleen. Silloin myös jännite pysyy hallinnassa.”\n\nKaikki eivät aluksi innostuneet. Osa osakkaista pelkäsi, että työt vahingoittavat vanhaa rakennusta. Kalervo puolestaan muistutti, että hallin kestävyys on aina ollut taloyhtiön tärkein periaate. Talon puiset rakenteet ovat kestäneet yli sata vuotta, ja niiden kestävyys halutaan turvata myös tulevaisuudessa. Siksi kaapelit päätettiin vetää maan alle eikä rakennuksen seinille.\n\nKestävyydellä tarkoitetaan taloyhtiössä myös ympäristöä. Kun yhä useampi osakas voi ladata autonsa kotona, polttoainetta kuluu vähemmän.\n\nLopulta osakkaat hyväksyivät suunnitelman yksimielisesti. Työt alkavat ensi keväänä. Suurta remonttia ei ole odotettavissa, vaan työt tehdään noin kahdessa viikossa. Myöskään suuria kustannuksia ei ole odotettavissa, sillä kaapelit vedetään samaan aikaan pihan muiden töiden kanssa.\n\nKalervo on tyytyväinen. ”Täällä rakennettiin ennen laivoja, jotka kulkivat tuulen voimalla. Nyt pihalla ladataan autoja, jotka kulkevat sähköllä. Telakka on aina katsonut tulevaisuuteen.”\n\nKysymykset:\nMitä vanhalla telakalla rakennettiin?\nSiellä rakennettiin puisia laivoja ja veneitä.\nKuka päättää talon suurista asioista?\nTaloyhtiön osakkaat päättävät niistä yhdessä.\nMiksi kaikkia autoja ei voi ladata yhtä aikaa?\nKoska talon vanha sähköverkko ei kestä usean auton latausta, ja jännite voi laskea liian matalaksi.\nMitä Liv ehdotti?\nHän ehdotti, että pihalle rakennetaan valmius kymmenelle autolle, mutta aluksi käyttöön otetaan vain neljä paikkaa.\nMiksi kaapelit vedetään maan alle?\nKoska hallin kestävyys halutaan turvata, eikä vanhaa rakennusta haluta vahingoittaa."
+    },
+    {
+      "title": "Haastattelu: arkkitehti, joka hiihtää töihin",
+      "summary": "Erkki, an architect in Inari, skis across the frozen lake to his office and explains how arctic houses are built and how the warming climate is changing his work.",
+      "newWords": [
+        "hiihtää",
+        "arktinen",
+        "korpi",
+        "maailmanlaajuisesti",
+        "ilmakehä",
+        "vesistö",
+        "vahvistua"
+      ],
+      "text": "Inarissa on talvella usein yli kolmenkymmenen asteen pakkasta, eikä keskitalvella aurinko nouse lainkaan moneen viikkoon. Arkkitehti Erkki on asunut täällä koko ikänsä. Talvisin hän hiihtää joka aamu kotoaan toimistolleen, joka on kolmen kilometrin päässä järven toisella puolella.\n\n”Hiihdän töihin, koska se on nopeinta”, Erkki nauraa. ”Tie kiertää järven, mutta jään yli matka on lyhyt.”\n\nErkki suunnittelee taloja arktisiin oloihin. Hänen mukaansa arktinen rakentaminen on aivan oma taitonsa.\n\n”Arktinen ilmasto asettaa talolle kovat vaatimukset. Seinien on pidettävä lämpö sisällä kuukausien ajan, ja katon on kestettävä raskas lumi. Ikkunat ovat pienempiä kuin etelässä, mutta ne sijoitetaan niin, että kevään valo pääsee sisään.”\n\nErkki oppi ammattinsa perusteet isältään, joka rakensi taloja Inarin korpeen jo 1960-luvulla. Korvessa ei ollut teitä, ja tarvikkeet kuljetettiin talvella jään yli.\n\n”Isäni opetti, että korvessa talon on oltava yksinkertainen. Jos jokin rikkoutuu, se on pystyttävä korjaamaan itse, sillä apua ei saa nopeasti.”\n\nViime vuosina Erkin työ on muuttunut. Ilmasto lämpenee maailmanlaajuisesti, mutta arktisilla alueilla muutos on nopeampaa kuin muualla. Ilmakehän lämpeneminen näkyy Inarissa selvästi. Talvet ovat lyhyempiä, ja vesistöt jäätyvät myöhemmin kuin ennen.\n\n”Kun olin poika, järvi jäätyi lokakuussa. Nyt pääsen hiihtämään jäällä usein vasta marraskuun lopussa.”\n\nMuutos koskee myös rakennuksia. Lämpimämpi ja kosteampi ilma rasittaa puisia rakenteita, ja syksyn sateet ovat vahvistuneet. Erkki suunnittelee nyt kattoja, jotka kestävät sekä raskaan lumen että rankat sateet.\n\n”Ongelma on maailmanlaajuisesti sama, mutta täällä sen huomaa nopeammin”, hän sanoo. ”Pohjoisen vesistöt ja korvet ovat herkkiä. Ilmakehän muutokset näkyvät niissä ensimmäisinä.”\n\nErkin mielestä vanhoista taloista voi oppia paljon. Ne rakennettiin paikallisesta puusta ja kivestä, ja ne kestivät, koska rakentajat tunsivat ympäristönsä. Hän toivoo, että myös nuorten arkkitehtien kiinnostus perinteiseen rakentamiseen vahvistuu.\n\n”Moni nuori haluaa suunnitella suuria lasitaloja. Ymmärrän sen, mutta pohjoisessa yksinkertainen ratkaisu on usein paras.”\n\nHaastattelun jälkeen Erkki laittaa sukset jalkaansa ja lähtee hiihtämään kotiin järven yli. Pakkasta on lähes kolmekymmentä astetta, mutta hän hiihtää rennosti, kuin kylmä ei haittaisi häntä lainkaan.\n\nKysymykset:\nMiksi Erkki hiihtää töihin?\nKoska se on nopeinta: tie kiertää järven, mutta jään yli matka on lyhyt.\nMitä arktinen ilmasto vaatii taloilta?\nSeinien on pidettävä lämpö sisällä kuukausien ajan, ja katon on kestettävä raskas lumi.\nMitä Erkin isä opetti hänelle?\nHän opetti, että korvessa talon on oltava yksinkertainen, jotta sen voi korjata itse.\nMiten ilmakehän lämpeneminen näkyy Inarissa?\nTalvet ovat lyhyempiä, ja vesistöt jäätyvät myöhemmin kuin ennen.\nMitä Erkki toivoo nuorilta arkkitehdeilta?\nHän toivoo, että heidän kiinnostuksensa perinteiseen rakentamiseen vahvistuu."
+    },
+    {
+      "title": "Lahjoitus kirjekuoressa",
+      "summary": "The village choir of Hossa cannot pay for a new roof on the old school where it sings, until an envelope of banknotes arrives from an anonymous former pupil.",
+      "newWords": [
+        "kuoro",
+        "lahjoitus",
+        "seteli",
+        "nimetön",
+        "päivämäärä",
+        "hyvästi",
+        "muistutus"
+      ],
+      "text": "Hossan kylän vanha koulu suljettiin jo vuonna 1975, mutta talo ei ole jäänyt tyhjäksi. Kylän yhdistys osti sen kunnalta, ja nykyään siellä kokoontuvat kylän kerhot. Joka tiistai kylän kuoro harjoittelee illalla koulun entisessä luokassa. Kuoron johtaja on Venny, joka on laulanut kuorossa nuoresta asti.\n\nKuorossa on 15 laulajaa. Moni heistä kävi aikanaan samaa koulua, jossa he nyt laulavat. Vennyn mielestä talo sopii kuorolle erinomaisesti, sillä vanhassa talossa ääni kuulostaa lämpimältä.\n\nViime syksynä ongelmaksi tuli katto. Se vuoti, eikä yhdistyksellä ollut rahaa korjaukseen. Kuoro päätti järjestää konsertin ja kerätä lahjoituksia. Konsertti onnistui hyvin, mutta lahjoituksia kertyi vain pieni osa siitä, mitä korjaus maksaisi.\n\nPari viikkoa konsertin jälkeen Vennyn ovella oli paksu kirjekuori. Siinä ei ollut nimeä eikä osoitetta. Kuoren sisällä oli paljon seteleitä ja käsin kirjoitettu kirje. Venny laski setelit keittiön pöydällä kahteen kertaan. Rahaa oli juuri sen verran kuin katon korjaus maksaisi.\n\nKirje oli lyhyt. Sen alkuun oli kirjoitettu päivämäärä, ja lopussa luki vain: ”Entinen oppilas.” Kirjoittaja halusi siis pysyä nimettömänä.\n\n”Kävin tätä koulua 1950-luvulla”, kirjeessä luki. ”Kun muutin kaupunkiin, sanoin hyvästit koululle ja ystävilleni. Koulu on minulle muistutus onnellisesta lapsuudesta, ja haluan, että se säilyy. Toivon, että kuoro laulaa sen seinien sisällä vielä monta vuotta.”\n\nVenny luki kirjeen kuorolle seuraavissa harjoituksissa. Kirje kosketti monia laulajia. Kaikki yrittivät arvata, kuka nimetön kirjoittaja oli, mutta kukaan ei tiennyt sitä varmasti. Joku muisti, että eräs vanha ystävä oli muuttanut Helsinkiin, mutta hänen nimeään ei ollut kirjeessä.\n\nKatto korjattiin keväällä. Kuoro järjesti korjauksen kunniaksi uuden konsertin, ja koulu oli täynnä ihmisiä. Konsertin lopuksi kuoro lauloi vanhan laulun, jota koulun oppilaat olivat laulaneet aina keväällä ennen kesälomaa. Moni yleisössä lauloi mukana.\n\nKonsertin jälkeen Venny laittoi kirjeen lasin alle ja kiinnitti sen luokan seinälle. Kirjeen päivämäärä näkyy siinä selvästi. Kirje on kuorolle muistutus siitä, että vanha talo merkitsee monelle enemmän kuin pelkät seinät. Ja jos nimetön kirjoittaja joskus tulee käymään kylässä, hän näkee, että hänen koulunsa on yhä pystyssä ja täynnä laulua.\n\nKysymykset:\nMissä kylän kuoro harjoittelee?\nSe harjoittelee vanhan koulun entisessä luokassa.\nMiksi kuoro keräsi lahjoituksia?\nKoska koulun katto vuoti, eikä yhdistyksellä ollut rahaa korjaukseen.\nMitä kirjekuoressa oli?\nSiinä oli paljon seteleitä ja käsin kirjoitettu kirje.\nMiksi kirjeen kirjoittajan nimeä ei tiedetä?\nKoska hän halusi pysyä nimettömänä ja kirjoitti kirjeen loppuun vain sanat ”Entinen oppilas”.\nMitä kirjoittaja kertoi kirjeessään?\nHän kertoi, että hän sanoi hyvästit koululle muuttaessaan kaupunkiin ja että koulu on hänelle muistutus lapsuudesta."
+    },
+    {
+      "title": "Sisarukset ja vanha talo",
+      "summary": "When their parents move to a flat in Seinäjoki, the siblings Untamo and Josefina spend a summer in the family farmhouse in Ilmajoki, clean out the mice, bake buns and decide to keep it.",
+      "newWords": [
+        "sisarus",
+        "hyi",
+        "pulla",
+        "kaksikymmentä",
+        "viljellä",
+        "kaikkensa",
+        "koitua"
+      ],
+      "text": "Ilmajoella, laajojen peltojen keskellä, seisoo korkea punainen talo, jossa on kaksi kerrosta. Se rakennettiin 1870-luvulla, ja siinä on asunut sama suku yli sata vuotta. Viimeksi siellä asuivat Untamon ja Josefinan vanhemmat. Kaksi vuotta sitten he muuttivat pieneen asuntoon Seinäjoelle, koska iso talo ja pihan työt kävivät heille liian raskaiksi. Talo siirtyi sisaruksille.\n\nSisarukset asuvat kumpikin Helsingissä. Untamo on insinööri ja Josefina sairaanhoitaja. Aluksi he eivät tienneet, mitä talolle pitäisi tehdä. Myydäkö se vai pitää? Kumpikaan ei halunnut muuttaa takaisin maalle.\n\n”Meillä sisaruksilla oli monta pitkää puhelua”, Josefina kertoo. ”Lopulta päätimme viettää talossa yhden kesän ja vasta sitten päättää.”\n\nKesäkuussa sisarukset ajoivat Ilmajoelle. Ensimmäisenä päivänä he kävivät läpi koko talon. Toisessa kerroksessa oli vanhoja huonekaluja, kirjeitä ja valokuvia. Erään kaapin takaa Untamo löysi hiirten jälkiä.\n\n”Hyi!” hän huudahti. ”Täällä ovat hiiret asuneet koko talven.”\n\n”Hyi tosiaan”, Josefina sanoi. ”Tämä täytyy siivota heti.”\n\nSiivous vei kaksi viikkoa. Sen jälkeen Josefina lämmitti keittiön vanhan uunin ja leipoi pullaa äitinsä ohjeen mukaan. Pullan tuoksu levisi koko taloon. Untamo söi kolme pullaa peräkkäin.\n\n”Tämä maistuu samalta kuin lapsena”, hän sanoi. ”Äiti leipoi pullaa joka lauantai.”\n\nTalolla on kaksikymmentä hehtaaria peltoa. Vanhemmat lopettivat pellon viljelemisen jo vuosia sitten, ja nyt naapuri on vuokrannut sen. Hän viljelee pellolla viljaa. Eräänä iltana naapuri tuli kahville ja kertoi, että haluaisi viljellä peltoa myös tulevina vuosina.\n\nKesän aikana sisarukset huomasivat, etteivät he halunneet luopua talosta. He päättivät tehdä kaikkensa, jotta talo säilyisi suvulla. Untamo korjasi kuistin portaat, ja Josefina maalasi ikkunat. Vuokra, jonka naapuri maksaa pellosta, riittää talon vakuutukseen ja sähköön.\n\nPäätöksestä koitui iloa koko suvulle. Vanhemmat tulivat Seinäjoelta käymään lähes joka viikonloppu. Elokuussa talossa vietettiin suvun kesäjuhlaa, johon tuli kaksikymmentä sukulaista. Josefina leipoi taas pullaa, ja kaikki söivät pitkän pöydän ääressä pihalla.\n\n”Teimme kaikkemme talon eteen, ja se kannatti”, Untamo sanoo. ”Pelkäsin, että talosta koituisi meille vain kuluja ja huolta. Nyt se on paikka, jossa koko suku voi kokoontua.”\n\nKysymykset:\nMiksi vanhemmat muuttivat Seinäjoelle?\nKoska iso talo ja pihan työt kävivät heille liian raskaiksi.\nMitä Untamo sanoi, kun hän löysi hiirten jäljet?\nHän huudahti ”Hyi!” ja sanoi, että hiiret ovat asuneet siellä koko talven.\nKuka viljelee talon peltoa?\nNaapuri viljelee sitä ja maksaa siitä vuokraa.\nKuinka paljon peltoa talolla on?\nTalolla on kaksikymmentä hehtaaria peltoa.\nMitä sisarukset päättivät kesän aikana?\nHe päättivät tehdä kaikkensa, jotta talo säilyisi suvulla."
+    },
+    {
+      "title": "Uutinen: terveyskeskuksen vanha osa suljetaan",
+      "summary": "A news report: the protected 1960s wing of the Valkeakoski health centre is locked after a ventilation fault, patients are sent to the new wing, and the chief physician Teodora explains what happens to their medication.",
+      "newWords": [
+        "terveyskeskus",
+        "pikaisesti",
+        "lukita",
+        "lievästi",
+        "ohjeistus",
+        "lääkitys",
+        "palautua"
+      ],
+      "text": "Valkeakosken terveyskeskuksen vanhin osa suljettiin maanantaina pikaisesti, kun rakennuksen ilmanvaihdossa havaittiin vakava vika. Ovet lukittiin aamupäivällä, ja potilaat ohjattiin terveyskeskuksen uudempaan osaan.\n\nTerveyskeskuksen vanha osa valmistui vuonna 1964. Se tunnetaan arkkitehtuuristaan: rakennuksen pitkät valkoiset siivet ja suuret ikkunat edustavat aikansa modernia tyyliä. Rakennus on suojeltu, eikä sitä saa purkaa eikä muuttaa ilman lupaa.\n\nHenkilökunta huomasi ongelman jo viime viikolla. Ilma tuntui huoneissa raskaalta, ja pari työntekijää kertoi voineensa lievästi pahoin. Mittausten mukaan ilmanvaihto ei toiminut kunnolla, ja sisäilma oli huonoa.\n\n”Oireet olivat lieviä, mutta emme halunneet ottaa riskiä”, kertoo johtava lääkäri Teodora. ”Siksi päätimme toimia pikaisesti. Kun tilanne on epäselvä, on parempi sulkea tilat kuin odottaa.”\n\nTeodoran mukaan muutos vaikuttaa potilaiden palveluihin vain lievästi. Vastaanotot pidetään tavalliseen aikaan, mutta uudessa osassa. Potilaille on annettu selkeä ohjeistus, ja henkilökunta neuvoo kävijöitä aulassa. Kävijöitä pyydetään saapumaan paikalle hieman tavallista aikaisemmin, sillä uuden osan odotustilat ovat pienemmät. Ohjeistus on luettavissa myös kaupungin verkkosivuilla.\n\nErityisesti ne potilaat, joiden lääkitys vaatii säännöllisiä käyntejä, ovat olleet huolissaan. Teodora vakuuttaa, ettei kenenkään lääkitys keskeydy.\n\n”Jos lääkitys pitää uusia, sen voi tehdä puhelimessa tai käymällä uudessa osassa normaalisti. Kenenkään ei tarvitse jäädä ilman lääkkeitä.”\n\nKorjaus aloitetaan pikaisesti. Vanha ilmanvaihtokone vaihdetaan uuteen, ja samalla tarkistetaan rakennuksen muut järjestelmät. Työn arvioidaan kestävän kuusi viikkoa. Koska rakennus on suojeltu, korjaus tehdään asiantuntijoiden ohjeistuksen mukaan. Alkuperäiset ikkunat ja ovet säilytetään, ja uudet laitteet sijoitetaan niin, etteivät ne näy ulos.\n\nVanha osa pysyy lukittuna koko korjauksen ajan. Paikalle on tuotu kylttejä, jotka ohjaavat kävijät uuden osan ovelle.\n\nKun työt ovat valmiit, palvelut palautuvat vanhaan osaan. Teodora toivoo, että arki palautuu normaaliksi jo ennen kesää.\n\nVanhan osan sulkeminen on herättänyt kaupungissa paljon keskustelua. Moni asukas pitää rakennusta tärkeänä osana kaupungin historiaa, ja moni on itse käynyt siellä lapsena lääkärissä.\n\n”Tämä talo on palvellut kaupunkia yli 60 vuotta”, Teodora sanoo. ”Haluamme, että se palvelee vielä pitkään, ja siksi korjaus tehdään huolella.”\n\nKysymykset:\nMiksi terveyskeskuksen vanha osa suljettiin?\nKoska rakennuksen ilmanvaihdossa havaittiin vakava vika.\nMitä vanhan osan oville tehtiin?\nNe lukittiin, ja potilaat ohjattiin terveyskeskuksen uuteen osaan.\nMiten vika vaikutti työntekijöihin?\nPari työntekijää voi lievästi pahoin, koska sisäilma oli huonoa.\nMitä tapahtuu potilaille, joiden lääkitys pitää uusia?\nHe voivat uusia lääkityksen puhelimessa tai terveyskeskuksen uudessa osassa.\nMilloin palvelut palautuvat vanhaan osaan?\nNe palautuvat, kun korjaus on valmis noin kuuden viikon kuluttua."
+    },
+    {
+      "title": "Maraton vanhalla stadionilla",
+      "summary": "A sports journalist reports on a marathon that starts and ends at Helsinki's renovated 1938 stadium, interviews the runner Lauha and her manager Birger, and wishes the coverage spoke more of the athletes.",
+      "newWords": [
+        "maraton",
+        "osakilpailu",
+        "journalisti",
+        "manageri",
+        "näkyvyyttä",
+        "vaikeasti",
+        "uutisointi"
+      ],
+      "text": "Olen työskennellyt journalistina 15 vuotta ja kirjoittanut urheilusta lähes koko sen ajan. Silti harva tapahtuma on jännittänyt minua yhtä paljon kuin viime lauantain maraton. Kilpailu alkoi ja päättyi Helsingin stadionilla, joka avattiin uudelleen pitkän remontin jälkeen.\n\nStadion valmistui alun perin vuonna 1938. Sen valkoinen torni on yksi kaupungin tunnetuimmista maamerkeistä. Remontissa rakennuksen vanha ilme säilytettiin, mutta katsomot ja käytävät uusittiin. Ennen remonttia käytävät olivat ahtaita, ja osa tiloista oli vaikeasti löydettävissä. Nyt kaikki on valoisampaa ja selkeämpää.\n\nMaraton oli tänä vuonna Euroopan juoksusarjan osakilpailu. Sarjaan kuuluu kuusi osakilpailua eri kaupungeissa, ja Helsinki oli niistä neljäs.\n\nEnnen lähtöä haastattelin juoksija Lauhaa ja hänen manageriaan Birgeriä. Lauha on yksi maan parhaista pitkän matkan juoksijoista, ja hän on voittanut tämän sarjan kaksi osakilpailua.\n\n”Juoksen ensimmäistä kertaa maratonin kotikaupungissani”, Lauha kertoi. ”On hieno tunne lähteä matkaan ja tulla maaliin näin kauniissa rakennuksessa.”\n\nManageri Birger korosti, että kilpailu on urheilijoille tärkeä myös muilla tavoin. ”Tällainen tapahtuma antaa juoksijoille näkyvyyttä. Kun moni katsoo kilpailua televisiosta, myös yhteistyökumppanit kiinnostuvat. Managerin tehtävä on huolehtia siitä, että Lauha voi keskittyä pelkkään juoksemiseen.”\n\nMyös kaupunki toivoi saavansa tapahtumasta näkyvyyttä. Remontti kesti useita vuosia ja maksoi paljon, ja sitä arvosteltiin. Kilpailun avulla haluttiin näyttää, että stadion on taas kaikkien käytössä.\n\nItse kilpailu oli raskas. Päivä oli kuuma, ja viimeiset kilometrit sujuivat monelta vaikeasti. Lauha juoksi pitkään kärjen mukana, mutta jäi lopussa kolmanneksi. Maaliin tultuaan hän kuitenkin hymyili.\n\n”Kolmas sija on hyvä tulos tällaisessa säässä. Ja kun juoksin stadionin portista sisään ja kuulin yleisön, unohdin hetkeksi, kuinka väsynyt olin.”\n\nTapahtuman uutisointi oli seuraavana päivänä laajaa. Moni journalisti kirjoitti kuitenkin enemmän stadionista kuin juoksijoista. Ymmärrän sen, sillä rakennus oli todella upea. Silti toivon, että uutisointi muistaa jatkossa myös urheilijat. He ovat ne, jotka tekevät kilpailusta elävän. Myös Birger oli samaa mieltä. Hänen mukaansa journalistien kannattaa kertoa sekä talosta että ihmisistä, jotka sen täyttävät.\n\nKysymykset:\nMissä maraton alkoi ja päättyi?\nSe alkoi ja päättyi Helsingin stadionilla, joka oli juuri remontoitu.\nKuinka monta osakilpailua sarjassa on?\nSarjassa on kuusi osakilpailua eri kaupungeissa.\nMikä on managerin tehtävä Birgerin mukaan?\nHänen tehtävänsä on huolehtia siitä, että Lauha voi keskittyä pelkkään juoksemiseen.\nMiksi kaupunki halusi tapahtumasta näkyvyyttä?\nKoska remontti kesti kauan ja maksoi paljon, ja kaupunki halusi näyttää, että stadion on taas käytössä.\nMillaista uutisointi oli kilpailun jälkeen?\nSe oli laajaa, ja moni journalisti kirjoitti enemmän stadionista kuin juoksijoista."
+    }
+  ]
+}
