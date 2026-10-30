@@ -1,0 +1,205 @@
+{
+  "id": "fi-mini-8600",
+  "rankUpTo": 8600,
+  "level": "C2",
+  "title": "Metsä",
+  "description": "Ten stories and columns about the Finnish forest: wildlife cameras, winter birds, research, forest owners, hikes, books, orienteering, a concert and the health of spruce stands.",
+  "topic": "The forest",
+  "names": [
+    "Ismo",
+    "Koistinen",
+    "Aili",
+    "Kuhmo",
+    "Kainuu",
+    "Kirsti",
+    "Ronkainen",
+    "Ruovesi",
+    "Elias",
+    "Eliaksen",
+    "Eliasta",
+    "Vauhkonen",
+    "Oulu",
+    "Kuusamo",
+    "Oulanka",
+    "Afrikka",
+    "Leena",
+    "Sipilä",
+    "Asko",
+    "Hartikainen",
+    "Kuopio",
+    "Helsinki",
+    "Tampere",
+    "Tiina",
+    "Hyttinen",
+    "Selma",
+    "Juvonen",
+    "Sipoonkorpi",
+    "Timo",
+    "Roope",
+    "Peppi",
+    "Lyyli",
+    "Vepsäläinen",
+    "Vepsäläisen",
+    "Konnevesi",
+    "Ilpo",
+    "Kangasala",
+    "Niko",
+    "Hyvinkää",
+    "Etelämanner",
+    "Etelämantereelle",
+    "Kanariansaaret",
+    "Linnea",
+    "Savonlinna",
+    "Punkaharju",
+    "Vilho",
+    "Aulis",
+    "Pitkäranta",
+    "Sylvi",
+    "Hämeenlinna"
+  ],
+  "lessons": [
+    {
+      "title": "Kamera kuusen kyljessä",
+      "summary": "A retired electrical engineer in Kuhmo sets up a wildlife camera with a sensor, a solar panel and an online log, and watches a fox stalking a vole under the snow.",
+      "newWords": [
+        "anturi",
+        "sensori",
+        "aurinkopaneeli",
+        "hyötysuhde",
+        "käyttäjätunnus",
+        "loki",
+        "maanantaiaamu",
+        "vaania"
+      ],
+      "text": "Ismo Koistinen jäi viime keväänä eläkkeelle sähköinsinöörin työstä ja muutti vaimonsa Ailin kanssa Kuhmoon, vanhalle kotitilalleen. Tilaan kuuluu kolmisenkymmentä hehtaaria metsää: kuusikkoa, suon reunoja ja kapea harju, jonka rinteellä kasvaa vanhoja mäntyjä. Ismo on kulkenut näissä metsissä lapsesta asti, mutta vasta nyt hänellä on aikaa selvittää, keitä muita niissä liikkuu.\n\nSyksyllä hän kiinnitti riistakameran polun varrella kasvavan kuusen kylkeen. Kamerassa on anturi, joka havaitsee lämpimän ja liikkuvan kohteen ja käynnistää kuvauksen. Insinöörinä Ismo halusi ymmärtää laitteen toiminnan tarkasti, joten hän luki ohjeet kahteen kertaan ja vertasi niitä valmistajan sivuihin. Valmistaja puhuu sensorista, ohjekirja anturista, mutta kyse on samasta osasta: pienestä silmästä, joka reagoi lämpösäteilyn muutokseen. Sensori ei näe väriä eikä muotoa, vain lämmön, joka liikkuu.\n\nEnsimmäinen ongelma oli virta. Paristot loppuivat pakkasella viikossa, ja Ismosta tuntui turhalta kävellä metsään joka maanantaiaamu vaihtamaan niitä. Hän osti kameraa varten pienen aurinkopaneelin ja kiinnitti sen puun eteläpuolelle. Marraskuussa aurinkopaneelin hyötysuhde on Kainuussa heikko, koska aurinko nousee vain vähän taivaanrannan yläpuolelle. Ismo laski kuitenkin, että vaikka hyötysuhde talvella putoaa, energiaa riittää, sillä kamera on lepotilassa suurimman osan vuorokaudesta. Hän oli oikeassa: aurinkopaneeli on pitänyt akun ladattuna koko talven.\n\nKamera lähettää kuvat verkkopalveluun, johon Ismo kirjautuu käyttäjätunnuksella ja salasanalla. Hän unohti käyttäjätunnuksensa jo ensimmäisellä viikolla, ja nyt käyttäjätunnus on kirjoitettu keittiön kalenterin taakse. Palvelussa on myös loki, johon jokainen tapahtuma tallentuu: kellonaika, lämpötila, akun varaus ja tieto siitä, kuinka kauan anturi havaitsi liikettä. Ismo lukee lokia joka maanantaiaamu kahvikupin ääressä, samaan tapaan kuin toiset lukevat sanomalehteä.\n\nLokista näkee, että metsä on yöllä vilkkaampi kuin päivällä. Kello kahden ja neljän välillä kamera käynnistyy usein: hirvi kulkee polkua pitkin, jänis pysähtyy kuusen juurelle, ja kerran ruudulla näkyy ilves. Eräänä tammikuun aamuna lokiin oli tallentunut kolmetoista tapahtumaa saman tunnin aikana. Kuvissa kettu vaanii jotakin lumen alla. Se seisoo liikkumatta, kallistaa päätään, hyppää lopulta korkealle ja painaa kuononsa hankeen. Ismo katsoi kuvasarjaa monta kertaa. Kellonajoista hän päätteli, että kettu oli vaaninut myyrää lähes puoli tuntia.\n\nAili ei ole yhtä innostunut lokin numeroista, mutta kettua hänkin katsoo mielellään. Ismo on luvannut, että keväällä he kävelevät yhdessä kameran luo ja siirtävät sen lammen rannalle. Ehkä siellä jokin muu eläin vaanii saalistaan, ja ehkä sensori huomaa sen ennen heitä.\n\nKysymykset:\nMihin Ismo Koistinen kiinnitti riistakameran?\nHän kiinnitti sen polun varrella kasvavan kuusen kylkeen.\nMitä kameran anturi tekee?\nAnturi havaitsee lämpimän ja liikkuvan kohteen ja käynnistää kuvauksen.\nMiksi aurinkopaneelin hyötysuhde on marraskuussa heikko?\nAurinko nousee Kainuussa silloin vain vähän taivaanrannan yläpuolelle.\nMitä palvelun lokiin tallentuu?\nLokiin tallentuu kellonaika, lämpötila, akun varaus ja tieto siitä, kuinka kauan anturi havaitsi liikettä.\nMitä kettu teki kuvissa?\nKettu vaani myyrää lumen alla lähes puoli tuntia ja hyppäsi lopulta hankeen."
+    },
+    {
+      "title": "Talipallot ikkunan edessä",
+      "summary": "A woman in Ruovesi feeds the winter birds at the forest edge with suet balls, learns the tits by their colouring and watches them escape a hawk in the sunshine.",
+      "newWords": [
+        "tali",
+        "hintainen",
+        "lennellä",
+        "väritys",
+        "kerkeä",
+        "auringonpaiste",
+        "takaapäin"
+      ],
+      "text": "Tammikuun alussa Kirsti Ronkainen ripusti keittiön ikkunan eteen talven ensimmäiset talipallot. Hän asuu Ruovedellä pienessä punaisessa talossa, jonka takana metsä alkaa heti pihan reunasta, ja talvisin linnut ovat hänen tärkeintä seuraansa. Palloissa on sulatettua talia ja siemeniä. Tali on eläimen kovaa rasvaa, ja pakkasella pienet linnut tarvitsevat juuri rasvaa, koska ne kuluttavat pitkän yön aikana suuren osan energiastaan pysyäkseen lämpiminä.\n\nKaupassa palloja on monenlaisia. Halvat pallot myydään pusseissa, joiden ympärillä on muovinen verkko, mutta Kirsti on lukenut, että linnun jalka voi tarttua verkkoon. Siksi hän ostaa pallot ilman verkkoa ja ripustaa ne naruun. Ne ovat vähän kalliimpia, mutta Kirstin mielestä silti kohtuullisen hintaisia. Kerran hän teki pallot itse: hän sulatti talia kattilassa, sekoitti joukkoon siemeniä ja kaatoi seoksen pieniin purkkeihin. Itse tehdyt pallot eivät tulleet yhtään halvemmiksi kuin kaupan kohtuullisen hintaiset, ja keittiössä tuoksui rasva vielä seuraavana päivänä.\n\nAamuisin pallojen ympärillä lentelee pieniä lintuja. Talitiaiset tulevat ensimmäisinä, ja niiden perässä lentelevät sinitiaiset. Kirsti on oppinut tunnistamaan lajit värityksestä. Talitiaisen väritys on voimakas: keltainen vatsa, musta pää ja valkoiset posket. Sinitiaisen värityksessä on sinistä ja vaaleaa keltaista. Joskus paikalle tulee myös pieni lintu, jonka väritys on ruskea ja harmaa. Se sulautuu kuusen oksiin niin hyvin, että Kirsti huomaa sen vasta, kun se liikkuu.\n\nLinnut ovat kerkeitä. Ne ottavat siemenen ja istuvat jo seuraavalla oksalla, ennen kuin Kirsti ehtii kunnolla katsoa niitä. Yksi kerkeä lintu voi käydä pallolla kymmeniä kertoja tunnissa, ja kerkeän linnun liikkeet näyttävät ikkunan takaa katsottuna pieniltä hypyiltä ilmassa.\n\nEräänä helmikuun aamuna oli kirkas ja kylmä sää. Auringonpaiste osui lumeen, ja koko piha hohti. Auringonpaisteessa linnut liikkuivat enemmän kuin harmaina päivinä, ja Kirsti istui ikkunan ääressä pitkään. Silloin hän näki, kuinka haukka lähestyi palloja takaapäin, matalalla kuusten välistä. Linnut huomasivat sen kuitenkin ajoissa ja katosivat tiheään kuuseen. Haukka istui hetken aidan päällä ja lensi sitten metsään.\n\nKirsti tietää, että haukka tulee usein takaapäin, sieltä, mistä pienet linnut eivät sitä odota. Siksi hän on ripustanut pallot lähelle tiheää kuusta, jonka oksien suojaan linnut ehtivät piiloutua. Maaliskuussa auringonpaiste lämmittää jo talon seinää, ja lintujen laulu kuuluu metsästä. Huhtikuussa Kirsti lopettaa lintujen ruokkimisen, sillä silloin metsässä on taas linnuille omaa ruokaa.\n\nKysymykset:\nMiksi pienet linnut tarvitsevat talia pakkasella?\nNe kuluttavat pitkän yön aikana suuren osan energiastaan pysyäkseen lämpiminä.\nMiksi Kirsti ostaa pallot ilman verkkoa?\nLinnun jalka voi tarttua verkkoon.\nMiten Kirsti tunnistaa linnut toisistaan?\nHän tunnistaa ne värityksestä, esimerkiksi keltaisesta vatsasta ja mustasta päästä.\nMistä suunnasta haukka lähestyi palloja?\nSe lähestyi takaapäin, matalalla kuusten välistä.\nMilloin Kirsti lopettaa lintujen ruokkimisen?\nHän lopettaa sen huhtikuussa, kun metsässä on taas linnuille omaa ruokaa."
+    },
+    {
+      "title": "Kirjosiepon kompassi",
+      "summary": "A doctoral student at a university research station in Kuusamo studies how pied flycatchers find their way back by the Earth's magnetic field and why they choose their nest boxes.",
+      "newWords": [
+        "yliopistollinen",
+        "munia",
+        "magneettikenttä",
+        "magneetti",
+        "luokittelu",
+        "variaatio",
+        "näennäisesti",
+        "ratkaisevasti"
+      ],
+      "text": "Elias Vauhkonen tekee väitöskirjaa Oulun yliopistossa, ja kesät hän asuu Kuusamossa Oulangan asemalla. Asema on yliopistollinen tutkimuslaitos keskellä metsiä ja jokien laaksoja, ja siellä tutkijat ovat tutkineet pohjoista luontoa jo vuosikymmeniä. Yliopistollinen tausta näkyy arjessa: aamupalalla keskustellaan tilastoista, ja illalla saunassa vertaillaan päivän havaintoja.\n\nEliaksen tutkimuksen kohde on kirjosieppo, pieni mustavalkoinen lintu, joka viettää talven Afrikassa ja palaa keväällä Suomen metsiin. Toukokuun lopussa koiras saapuu ensin ja valitsee pöntön. Naaras tulee perässä, rakentaa pesän ja alkaa munia. Kirjosieppo munii yleensä kuudesta kahdeksaan munaa, yhden päivässä, ja istuu niiden päällä noin kaksi viikkoa.\n\nEliasta kiinnostaa, miten näin pieni lintu löytää tuhansien kilometrien matkan jälkeen takaisin samaan metsään. Yksi vastaus on maapallon magneettikenttä. Monet linnut aistivat magneettikentän suunnan, ja ne käyttävät sitä samaan tapaan kuin ihminen käyttää kompassia, jonka neula on pieni magneetti. Laboratoriossa magneettikenttää voi muuttaa sähkön avulla, ja silloin lintu lähtee väärään suuntaan, vaikka kaikki muu sen ympärillä pysyy ennallaan. Elias ei tee kokeita itse, vaan seuraa lintuja luonnossa: hän merkitsee poikaset pienellä renkaalla ja kirjaa, mihin pönttöön ne palaavat seuraavana keväänä. Maastossa hänen on oltava tarkka, sillä puhelimen kotelon magneetti voi sekoittaa kompassin, kun hän kulkee pöntöltä toiselle.\n\nEliaksen aineistossa on yli 300 pönttöä. Niiden luokittelu oli ensimmäisen kesän suurin työ. Hän jakoi pöntöt neljään luokkaan sen mukaan, kasvaako niiden ympärillä enimmäkseen kuusta, mäntyä, koivua vai kaikkia kolmea. Luokittelu kuulostaa yksinkertaiselta, mutta raja on usein epäselvä, ja Eliaksen ohjaaja Leena Sipilä kävi luokittelun läpi hänen kanssaan pönttö pöntöltä.\n\nAineistossa on paljon variaatiota. Joissakin pöntöissä naaras alkaa munia jo toukokuun lopussa, toisissa vasta kesäkuun puolivälissä. Osa variaatiosta selittyy säällä: kylmänä keväänä linnut munivat myöhemmin. Osa variaatiosta liittyy kuitenkin metsään itseensä.\n\nNäennäisesti kaikki pöntöt ovat samanlaisia: samaa puuta, samaa kokoa ja samalla korkeudella. Silti linnut eivät valitse niitä sattumalta. Koivujen keskellä olevat pöntöt täyttyvät ensin, ja niissä poikasia on eniten. Näennäisesti pieni ero, muutama koivu enemmän pöntön lähellä, voi vaikuttaa ratkaisevasti siihen, kuinka paljon hyönteisiä emot löytävät poikasilleen.\n\nKolmantena kesänä Elias teki havainnon, joka muutti hänen tutkimuksensa suuntaa ratkaisevasti. Koivujen keskellä syntyneet linnut palasivat seuraavana keväänä useimmiten samanlaiseen metsään. Magneettikenttä näyttää ohjaavan ne oikealle alueelle, mutta viimeiset kilometrit ne valitsevat sen mukaan, millaisessa metsässä ne ovat kasvaneet. Leena Sipilä sanoi, että tulos on lupaava mutta vaatii vielä kahden kesän aineiston. Elias tilasi saman tien kaksikymmentä uutta pönttöä.\n\nKysymykset:\nMillainen laitos Oulangan asema on?\nSe on yliopistollinen tutkimuslaitos keskellä metsiä ja jokien laaksoja.\nKuinka monta munaa kirjosieppo yleensä munii?\nSe munii yleensä kuudesta kahdeksaan munaa, yhden päivässä.\nMiten linnut käyttävät magneettikenttää?\nNe aistivat magneettikentän suunnan ja käyttävät sitä samaan tapaan kuin ihminen kompassia.\nMiten Elias luokitteli pöntöt?\nHän jakoi ne neljään luokkaan sen mukaan, mitä puita niiden ympärillä kasvaa.\nMiksi koivujen keskellä olevissa pöntöissä on eniten poikasia?\nKoivut pöntön lähellä voivat vaikuttaa ratkaisevasti siihen, kuinka paljon hyönteisiä emot löytävät."
+    },
+    {
+      "title": "Vuosikokous ja kotitarvepuu",
+      "summary": "A forest owner from Kuopio attends his forest management association's annual meeting, where the finance director reports and the members make the queue for harvesting work fairer.",
+      "newWords": [
+        "jäsenistö",
+        "muodollinen",
+        "talousjohtaja",
+        "taloushallinto",
+        "alihankkija",
+        "tasapuolinen",
+        "täytäntöön",
+        "veroton"
+      ],
+      "text": "Asko Hartikainen on käynyt metsänhoitoyhdistyksen vuosikokouksessa lähes joka kevät siitä asti, kun hän osti isänsä metsän Kuopion läheltä. Metsää on neljäkymmentä hehtaaria, enimmäkseen kuusta ja mäntyä. Yhdistyksessä on noin 2000 jäsentä, ja jäsenistö on vuosien varrella muuttunut. Ennen jäsenistö oli lähinnä maanviljelijöitä, jotka asuivat omalla tilallaan. Nykyään moni jäsen asuu Helsingissä tai Tampereella ja käy metsässään vain kesälomalla.\n\nKokouksen alku on muodollinen. Valitaan puheenjohtaja ja sihteeri, todetaan kokous päätösvaltaiseksi ja hyväksytään esityslista. Asko on aina pitänyt muodollista osuutta tarpeellisena, vaikka se vie puoli tuntia. Muodollinen järjestys takaa, että jokainen päätös tehdään samalla tavalla ja että jokaisella jäsenellä on sama oikeus käyttää puheenvuoroa.\n\nSitten talousjohtaja Tiina Hyttinen esittelee tilinpäätöksen. Hän kertoo, että yhdistyksen taloushallinto siirrettiin viime vuonna tilitoimistolle. Ennen taloushallinto vei kahden työntekijän koko työajan, ja nyt he voivat neuvoa metsänomistajia maastossa. Talousjohtajan mukaan muutos on säästänyt rahaa, ja hän näyttää kuvan, jossa kulut ovat laskeneet kahtena vuonna peräkkäin.\n\nEniten keskustelua herättävät puunkorjuun alihankkijat. Yhdistys ei omista metsäkoneita, vaan hakkuut tekevät alihankkijat, paikalliset koneyrittäjät, joiden kanssa yhdistys tekee sopimukset. Hyvinä talvina, kun maa on jäässä, alihankkijoilla on töitä enemmän kuin he ehtivät tehdä, ja silloin syntyy jono. Moni jäsen on kokenut, että jono ei ole ollut tasapuolinen: suuret leimikot ovat päässeet ensin, ja pienet ovat odottaneet seuraavaan talveen.\n\nAsko pyytää puheenvuoron ja ehdottaa, että työt tehtäisiin ilmoitusjärjestyksessä eikä leimikon koon mukaan. ”Tasapuolinen järjestelmä on sellainen, jonka jokainen jäsen voi itse tarkistaa”, hän sanoo. Tiina Hyttinen vastaa, että alihankkijoille pienet leimikot ovat kalliita, koska koneen siirto paikasta toiseen vie aikaa. Hän ehdottaa, että saman alueen pienet työt yhdistetään yhdeksi urakaksi. Kokous hyväksyy molemmat ehdotukset, ja toiminnanjohtaja lupaa, että päätös saatetaan täytäntöön jo ensi talvena. Täytäntöön saattamisesta hän kertoo syksyllä kirjeessä, joka lähetetään kaikille jäsenille.\n\nLopuksi joku kysyy kotitarvepuusta. Talousjohtaja muistuttaa, että metsänomistaja saa ottaa omasta metsästään puuta oman taloutensa tarpeisiin ja että tällainen kotitarvepuu on veroton. Verotonta on esimerkiksi polttopuu oman talon tai mökin saunaan. Jos puut myy naapurille, ne eivät enää ole verottomia. Asko on tyytyväinen, sillä hänen saunansa puut ovat aina tulleet omasta metsästä.\n\nKotimatkalla Asko ajattelee, että kokous oli hyödyllinen. Muodollinen alku oli pitkä, mutta päätös oli hyvä ja tasapuolinen. Hän aikoo syksyllä lukea kirjeestä, onko se saatettu täytäntöön lupauksen mukaisesti.\n\nKysymykset:\nMiten yhdistyksen jäsenistö on muuttunut?\nEnnen jäsenistö oli lähinnä maanviljelijöitä, nykyään moni jäsen asuu kaupungissa.\nMiksi Asko pitää kokouksen muodollista osuutta tarpeellisena?\nSe takaa, että päätökset tehdään samalla tavalla ja jokaisella on sama oikeus puhua.\nMitä talousjohtaja kertoi taloushallinnosta?\nTaloushallinto siirrettiin tilitoimistolle, ja muutos on säästänyt rahaa.\nMiksi jäsenet ovat pitäneet jonoa epäreiluna?\nSuuret leimikot ovat päässeet ensin, ja pienet ovat odottaneet seuraavaan talveen.\nMilloin kotitarvepuu on veroton?\nSe on veroton, kun metsänomistaja käyttää puun oman taloutensa tarpeisiin."
+    },
+    {
+      "title": "Neljäntoista kilometrin lenkki",
+      "summary": "A family hikes a fourteen-kilometre trail in Sipoonkorpi, meets piglets in a forest pasture, comforts the younger child after a fall and eats tuna sandwiches on a rock.",
+      "newWords": [
+        "tonnikala",
+        "majoneesi",
+        "rapea",
+        "neljätoista",
+        "porsas",
+        "mustelma",
+        "halaus",
+        "hellästi"
+      ],
+      "text": "Lauantaina aamulla Selma Juvonen tekee eväitä. Perhe lähtee Sipoonkorpeen pitkälle retkelle, ja Selma on luvannut lapsille leipiä, joita he toivovat jokaiselle retkelle: tonnikalaa ja majoneesia. Hän sekoittaa kulhossa purkin tonnikalaa, kaksi lusikkaa majoneesia ja vähän hienoksi leikattua sipulia. Majoneesi tekee tonnikalasta pehmeää, ja sipuli antaa siihen makua. Leiväksi hän valitsee rapean ruisleivän, koska pehmeä leipä painuu repussa kasaan. Timo pakkaa kuumaa vettä pulloon ja kurkun omaan rasiaansa, sillä rapea kurkku pysyy rapeana vain, jos sen laittaa leivän päälle vasta tauolla.\n\nRoope täytti keväällä neljätoista vuotta, ja hän on itse valinnut reitin kartalta. Lenkki on neljätoista kilometriä pitkä ja kulkee kallioiden, suon ja vanhojen kuusien kautta. Roopen pikkusisko Peppi käy toista luokkaa, ja hänen mielestään neljätoista kilometriä on aivan liian pitkä matka. Roope lupaa kantaa hänen reppuaan, jos hän väsyy.\n\nPolku alkaa pienen maatilan laidalta. Metsän reunassa on aita, jonka takana porsaiden emo makaa varjossa, ja sen ympärillä juoksee kahdeksan porsasta. Porsaat juoksevat aidan luo ja kaivavat kärsällään maata ja juuria. Tilan isäntä kertoo, että hänen porsaansa saavat kesällä kulkea metsässä, ja hänen mukaansa ne ovat siellä rauhallisempia kuin navetassa. Peppi seisoo aidan vieressä pitkään ja antaa jokaiselle porsaalle nimen.\n\nKolmen kilometrin jälkeen polku laskeutuu jyrkkää rinnettä. Peppi kaatuu kuusen juureen, ja hänen jalkansa osuu kiveen. Hän alkaa itkeä, ja Selma nostaa hänet syliinsä. Pitkä halaus rauhoittaa Peppiä, ja itku loppuu pian. Jalkaan alkaa tulla pieni sininen mustelma. Selma kastelee huivin purossa ja painaa sitä hellästi jalkaa vasten. ”Mustelma on huomenna vihreä ja ensi viikolla keltainen”, hän sanoo. Pepistä ajatus on kiinnostava, ja hän haluaa katsoa mustelmaa vielä monta kertaa matkan aikana.\n\nPuolivälissä perhe pysähtyy auringon lämmittämälle kalliolle. Timo kaataa kuumaa vettä mukeihin, ja Selma jakaa leivät. Ulkona rapea leipä tonnikalan ja majoneesin kanssa maistuu paremmalta kuin kotona. Roope syö kolme leipää ja sanoo, että tämä on hänen mielestään retken paras hetki.\n\nMatkan lopussa Peppi väsyy, ja Roope kantaa hänen reppuaan kuten oli luvannut. Viimeisellä kilometrillä Timo pitää Peppiä kädestä ja auttaa häntä hellästi juurten yli. Kun he palaavat maatilan luo, porsaat nukkuvat kasassa puun alla. Auton luona Peppi antaa isoveljelleen halauksen kiitokseksi repun kantamisesta, ja Roope näyttää siltä, että hän on asiasta salaa ylpeä.\n\nKysymykset:\nMitä Selma laittaa leipiin?\nHän laittaa niihin tonnikalaa, majoneesia ja sipulia rapean ruisleivän päälle.\nKuinka pitkä lenkki on?\nLenkki on neljätoista kilometriä pitkä.\nMitä porsaat tekevät aidan takana?\nNe juoksevat aidan luo ja kaivavat kärsällään maata ja juuria.\nMiten Selma hoitaa Pepin mustelmaa?\nHän painaa märkää huivia hellästi jalkaa vasten.\nMiksi Peppi antaa Roopelle halauksen?\nHän kiittää Roopea siitä, että tämä kantoi hänen reppuaan."
+    },
+    {
+      "title": "Hidas metsä",
+      "summary": "A non-fiction author in Jyväskylä writes a book for laypeople about fallen trees and dead wood, inspired by her grandmother, and the critics welcome it.",
+      "newWords": [
+        "tietokirjailija",
+        "innoittaa",
+        "kirjahylly",
+        "maallikko",
+        "mukailla",
+        "arvostelija",
+        "täysosuma"
+      ],
+      "text": "Lyyli Vepsäläinen on tietokirjailija, joka on kirjoittanut jo viisitoista vuotta luonnosta lukijoille, jotka eivät ole tutkijoita. Hänen uusin kirjansa kertoo lahopuusta: myrskyn kaatamista rungoista, pystyyn kuivuneista männyistä ja kannoista, joista metsän sienet, kovakuoriaiset ja linnut saavat kodin. Tietokirjailijana hän on tottunut siihen, että aihe ensin näyttää kapealta ja laajenee sitten kirjoittaessa.\n\nKirjan idea syntyi jo lapsuudessa. Lyylin isoäiti vei hänet usein metsään Konnevedelle ja näytti, miten sammaloituneen rungon päällä kasvaa rivissä pieniä kuusentaimia. Isoäidin tapa katsoa metsää innoitti häntä jo silloin, vaikka hän ymmärsi sen vasta aikuisena. ”Hän innoitti minua katsomaan maahan eikä vain puiden latvoihin”, Lyyli sanoo.\n\nHänen työhuoneensa kirjahylly on täynnä kirjoja sienistä, hyönteisistä ja linnuista. Kirjahyllyn alimmalla hyllyllä on isoäidin muistikirja, johon tämä kirjoitti havaintojaan kynällä. Tietokirjailijalle oma kirjahylly on työkalu: Lyyli tarkistaa sieltä jokaisen lajin nimen, ennen kuin lähettää tekstin kustantajalle.\n\nLyyli kirjoittaa maallikoille. Lukijaksi hän kuvittelee maallikon, joka kävelee mielellään metsässä mutta ei tiedä, mikä kääpä kasvaa koivulla ja mikä kuusella. Maallikko ei tarvitse lajien tieteellisiä nimiä, mutta hän haluaa ymmärtää, miksi kaatunutta puuta ei kannata viedä metsästä pois. Lyylin mielestä maallikon kysymykset ovat usein parempia kuin tutkijoiden, koska ne ovat yksinkertaisia.\n\nKirjan rakenne mukailee yhden kuusen pitkää elämää. Ensin myrsky kaataa puun, sitten sen kuoren alle tulevat kovakuoriaiset ja niiden perässä tikat. Muutaman vuoden kuluttua rungolle nousevat käävät, ja vuosikymmenten kuluttua jäljellä on pehmeää maata, jossa uudet taimet kasvavat. Kirjan nimi, Hidas metsä, mukailee lausetta, jonka isoäiti toisti usein: ”Metsä ei kiirehdi.”\n\nKirja ilmestyi syksyllä, ja arvostelijat ottivat sen hyvin vastaan. Eräs arvostelija kirjoitti, että kirja on täysosuma: tarkka mutta silti helppo lukea. Toinen arvostelija toivoi, että kirjassa olisi ollut enemmän kuvia ja kartta niistä metsistä, joissa Lyyli oli kulkenut. Lyyli pitää molempia arvioita tarpeellisina. Hänen mielestään hyvä arvostelija lukee tarkasti ja kertoo lukijoille rehellisesti, kenelle kirja sopii.\n\nMyös kirjan kansi on saanut kiitosta. Kustantajan mielestä kannen kuva, sammaleinen runko aamun valossa, oli täysosuma, sillä se kertoo kirjan aiheen heti.\n\nLukijoilta on tullut paljon kirjeitä. Eräs eläkkeellä oleva opettaja kirjoitti, että kirja innoitti hänet jättämään pihansa reunalle kaatuneen koivun paikalleen. Nyt hän seuraa, mitä rungolla kasvaa, ja kirjoittaa havaintojaan muistiin samaan tapaan kuin Lyylin isoäiti aikoinaan.\n\nKysymykset:\nMistä Lyyli Vepsäläisen uusin kirja kertoo?\nSe kertoo lahopuusta eli kaatuneista rungoista, kuivuneista männyistä ja kannoista.\nKuka innoitti Lyyliä katsomaan metsää tarkemmin?\nHänen isoäitinsä innoitti häntä katsomaan maahan eikä vain puiden latvoihin.\nMitä Lyylin kirjahyllyssä on?\nSiellä on kirjoja sienistä, hyönteisistä ja linnuista sekä isoäidin muistikirja.\nMillaiselle lukijalle Lyyli kirjoittaa?\nHän kirjoittaa maallikolle, joka kävelee mielellään metsässä mutta ei ole tutkija.\nMitä arvostelijat sanoivat kirjasta?\nYksi arvostelija sanoi kirjaa täysosumaksi, ja toinen toivoi siihen enemmän kuvia."
+    },
+    {
+      "title": "Rastilta rastille",
+      "summary": "An assistant coach of an orienteering club in Kangasala trains a young runner who grew up in the club, and patient work pays off at a big relay.",
+      "newWords": [
+        "apuvalmentaja",
+        "kasvatti",
+        "pitkäjänteinen",
+        "koetus",
+        "korkeimmillaan",
+        "loputtomasti",
+        "huutelu",
+        "kohteliaasti"
+      ],
+      "text": "Ilpo on toiminut viisi vuotta Kangasalan suunnistusseuran apuvalmentajana. Päävalmentaja suunnittelee kauden harjoitukset, mutta apuvalmentaja on se, joka seisoo tiistaisin illalla metsän laidassa kartat kainalossa ja odottaa nuoria takaisin rasteilta. Ilpo on itse kilpaillut lajissa kolmekymmentä vuotta, ja hän voisi puhua kartoista ja maastosta loputtomasti.\n\nNiko on seuran kasvatti. Hän tuli seuraan kahdeksan vuoden ikäisenä, ja nyt hän on 19-vuotias ja juoksee seuran ensimmäisessä joukkueessa suuressa kesäviestissä. Seura on ylpeä kasvateistaan, sillä kymmenkunta seuran kasvattia kilpailee nykyään aikuisten kärkisarjoissa. Ilpo on valmentanut Nikoa siitä asti, kun tämä oppi lukemaan karttaa.\n\nIlpo uskoo pitkäjänteiseen harjoitteluun. Hänen mielestään lajissa ei opi mitään nopeasti: kartan lukeminen, suunnan pitäminen ja maaston muotojen hahmottaminen kehittyvät vain vuosien pitkäjänteisellä työllä. Nuorena Niko olisi halunnut juosta loputtomasti ja niin kovaa kuin pystyi, eikä hän jaksanut pysähtyä katsomaan karttaa. Ilpo opetti hänet hidastamaan ennen jokaista rastia.\n\nViime kesänä Ilpon kärsivällisyys joutui koetukselle. Niko teki kilpailuissa yhä samoja virheitä: hän lähti rastilta liian nopeasti ja valitsi väärän polun. Kerran hän kulki tiheässä metsässä puoli tuntia väärään suuntaan, vaikka rasti oli vain 200 metrin päässä. Kilpailun jälkeen Ilpo ei moittinut häntä, vaan he kävivät reitin läpi kartalta rasti rastilta. Ilpon mielestä tällainen koetus kuuluu jokaisen nuoren urheilijan elämään.\n\nKilpailun aikana metsässä ei saa auttaa ketään, ja huutelu rastien lähellä on kielletty. Huutelu voisi kertoa muille, missä rasti on. Maalin lähellä kannustava huutelu on sen sijaan tavallista, ja siellä Ilpon ääni kuuluu kauas.\n\nKesäkuussa tuli kauden tärkein koetus: suuri viesti, johon osallistuu tuhansia kilpailijoita. Niko juoksi kolmannen osuuden yöllä. Jännitys oli korkeimmillaan vaihdossa, kun hän otti kartan vastaan ja lähti lampun valossa metsään. Hänen sykkeensä oli korkeimmillaan pitkässä nousussa kuudennen rastin jälkeen, mutta hän muisti Ilpon neuvon ja hidasti ennen rastia. Hän ei tehnyt yhtään suurta virhettä ja ohitti seitsemän joukkuetta.\n\nMaalissa Niko kiitti kohteliaasti kilpailun järjestäjiä ja radan suunnittelijaa. Sitten hän etsi Ilpon joukosta ja kertoi, että oli ensimmäistä kertaa malttanut hidastaa joka rastilla. Ilpo pyysi kohteliaasti vierestä katsovaa valokuvaajaa ottamaan heistä kuvan. Hänen mielestään se oli pitkäjänteisen työn paras palkinto.\n\nKysymykset:\nMitä Ilpo tekee seurassa?\nHän toimii seuran apuvalmentajana ja ohjaa nuorten harjoituksia.\nMiksi Nikoa sanotaan seuran kasvatiksi?\nHän tuli seuraan kahdeksan vuoden ikäisenä ja on kasvanut siellä aikuiseksi urheilijaksi.\nMillaiseen harjoitteluun Ilpo uskoo?\nHän uskoo pitkäjänteiseen harjoitteluun, koska lajin taidot kehittyvät vuosien työllä.\nMiksi huutelu on kielletty rastien lähellä?\nHuutelu voisi kertoa muille kilpailijoille, missä rasti on.\nMilloin Nikon syke oli korkeimmillaan?\nSe oli korkeimmillaan pitkässä nousussa kuudennen rastin jälkeen."
+    },
+    {
+      "title": "Pingviini on tutumpi kuin orava",
+      "summary": "A nature school teacher in Hyvinkää writes a column on why children know penguins and camels from screens and holiday trips better than the forest behind their school.",
+      "newWords": [
+        "pingviini",
+        "kameli",
+        "kaukosäädin",
+        "lomamatka",
+        "virtuaalinen",
+        "simpukka",
+        "aikakone",
+        "moraalisesti"
+      ],
+      "text": "Olen opettanut luontokoulussa Hyvinkäällä kahdeksan vuotta, ja jokaisen uuden ryhmän kanssa teen saman pienen kokeen. Pyydän lapsia kertomaan niin monta eläintä kuin he muistavat. Kolmannen luokan oppilaat mainitsevat pingviinin, kamelin, jääkarhun ja delfiinin, ennen kuin kukaan sanoo oravan tai jäniksen.\n\nPingviini on lapsille tuttu luonnosta kertovista dokumenteista, joita katsotaan kotona sohvalta kaukosäädin kädessä. Kaukosäädin on kätevä laite: yhdellä napilla pääsee Etelämantereelle, toisella aavikolle. Kameli taas on monelle tuttu lomamatkalta. Joka ryhmässä on joku, joka on ratsastanut kamelilla Kanariansaarilla tai Egyptissä, ja hän kertoo mielellään, miten korkealla kamelin selässä istutaan.\n\nMyös koulussa luonto tulee usein ruudun kautta. Meillä on lasit, joilla lapset voivat sukeltaa virtuaaliseen mereen. Virtuaalinen sukellus on hieno kokemus, enkä halua vähätellä sitä. Lapset näkevät kaloja ja kilpikonnia, joita he eivät muuten koskaan näkisi. Silti virtuaalinen meri ei tuoksu eikä kastele.\n\nLomamatka jättää lapsiin jälkensä. Monen kotona kirjahyllyssä on rannalta tuotu simpukka, ja lapset tietävät, että kun simpukan nostaa korvalle, kuulee meren äänen. Kysyin kerran ryhmältä, mitä metsässä kuulee, jos pysähtyy hiljaa paikalleen. Kukaan ei osannut vastata.\n\nSitten lähdimme koulun takana olevaan metsään. Istuimme kymmenen minuuttia hiljaa kuusten alla. Lapset kuulivat pienen linnun laulun, tikan koputuksen, tuulen puiden latvoissa ja jonkun kaukaisen koiran. Yksi tyttö sanoi, että metsä kuulostaa samalta kuin simpukka, vain hiljaisemmalta.\n\nLapset kysyvät usein, voisiko aikakoneella mennä katsomaan dinosauruksia. Vastaan, että aikakonetta ei aina tarvita. Näytän heille metsän pieniä vihreitä kasveja, joiden sukulaiset kasvoivat maapallolla jo kauan ennen dinosauruksia. Kun lapsi katsoo tällaista kasvia läheltä, hän katsoo samalla satojen miljoonien vuosien taakse. Metsä on hänen ensimmäinen aikakone.\n\nEn väitä, että lomamatka pingviinien luo olisi moraalisesti väärin tai että dokumentin katsominen olisi huonompaa kuin metsässä kävely. Moraalisesti koko kysymys ei ole kovin kiinnostava, eikä kenenkään tarvitse hävetä sohvaansa. Tärkeämpää on, mitä lapsi oppii, kun hän saa likaiset kädet ja löytää itse muurahaisten pesän.\n\nPingviini voi olla lapselle tutumpi kuin orava, ja se on ymmärrettävää. Mutta orava on lähempänä: sen voi nähdä tänään, kun kaukosäädin jää pöydälle ja ovi avautuu metsään.\n\nKysymykset:\nMitä eläimiä kolmannen luokan oppilaat mainitsevat ensimmäisinä?\nHe mainitsevat pingviinin, kamelin, jääkarhun ja delfiinin.\nMistä lapset tuntevat kamelin?\nMoni tuntee kamelin lomamatkalta, jolla on ratsastanut kamelilla.\nMitä virtuaalinen sukellus ei kirjoittajan mukaan anna?\nVirtuaalinen meri ei tuoksu eikä kastele.\nMitä lapset kuulivat metsässä?\nHe kuulivat linnun laulun, tikan koputuksen, tuulen puiden latvoissa ja kaukaisen koiran.\nMiksi metsä on kirjoittajan mukaan aikakone?\nMetsän pienten kasvien sukulaiset kasvoivat maapallolla jo ennen dinosauruksia."
+    },
+    {
+      "title": "Viola harjun laella",
+      "summary": "A viola player prepares a small summer concert on the Punkaharju ridge, cleans her cottage for the guests and learns to loosen her grip on the bow.",
+      "newWords": [
+        "viola",
+        "imuri",
+        "puristus",
+        "antaja",
+        "kiitollisuus"
+      ],
+      "text": "Linnea soittaa violaa Savonlinnan orkesterissa, ja kesät hän viettää mökillä Punkaharjulla. Mökki on kapean harjun rinteessä, ja ikkunasta näkyy mäntyjen välistä kaksi järveä, yksi kummallakin puolella. Linnea on soittanut violaa kaksitoista vuotta. Hänen mielestään violan ääni sopii metsään paremmin kuin viulun, koska se on tummempi ja pehmeämpi, vähän kuin tuuli männyissä.\n\nJoka elokuu Linnea soittaa kolmen ystävänsä kanssa pienen konsertin harjun laella. Neljän soittajan jousikvartetti istuu mäntyjen alla, ja kuulijat tuovat omat istuinalustansa. Konsertti on ilmainen, mutta paikallinen säätiö maksaa soittajien matkat. Säätiö on ollut tukena jo viitenä kesänä, ja Linnea lähettää joka syksy rahan antajalle kiitoskirjeen ja kuvia konsertista. Maa harjun laella kuuluu vanhalle metsänomistajalle, joka antoi luvan ensimmäiseen konserttiin, ja luvan antaja istuu joka vuosi kuulijoiden eturivissä.\n\nKonsertin aamuna mökillä on kiire. Vilho, Linnean mies, kantaa tuoleja pihalle, ja Linnea ottaa esiin imurin. Mäntymetsässä mökin lattialle kulkee joka päivä neulasia, hiekkaa ja kävyn suomuja, ja ilman imuria ne leviäisivät joka nurkkaan. Imurin ääni peittää hetkeksi lintujen laulun. Kun lattia on puhdas, Linnea vie imurin varastoon ja ottaa violan kotelostaan.\n\nEnnen konserttia hän harjoittelee vielä tunnin. Hänen vanha opettajansa sanoi aina, että jousen puristus ratkaisee äänen. Liian kova puristus tekee äänestä kovan ja kapean, ja käsi väsyy nopeasti. Kevyt puristus antaa jousen painon tehdä työn, ja ääni hengittää. Linnea tietää, että jännitys saa hänen sormensa puristamaan jousta, joten hän pysähtyy välillä, ravistelee kättään ja aloittaa alusta.\n\nIllalla harjulle tulee noin kuusikymmentä kuulijaa. Aurinko laskee järven taakse, ja mäntyjen rungot hehkuvat punaisina. Kvartetti soittaa vanhaa kansanmusiikkia ja yhden uuden kappaleen, jonka sävellys mukailee lintujen ääniä. Kesken kappaleen läheinen rastas alkaa laulaa, ja moni kuulija hymyilee.\n\nKonsertin jälkeen vanha mies tulee kiittämään soittajia. Hän kertoo käyneensä kuulemassa jokaisen konsertin ja sanoo, että tänä vuonna violan ääni oli kaunein. Linnea tuntee suurta kiitollisuutta. Kiitollisuus ei koske vain kuulijoita vaan myös säätiötä, ystäviä ja metsää, joka antaa konsertille paikan. Kotona hän kirjoittaa vihkoonsa, että puristus oli tänään kevyt alusta loppuun.\n\nKysymykset:\nMiksi violan ääni sopii Linnean mielestä metsään?\nViolan ääni on tummempi ja pehmeämpi kuin viulun, vähän kuin tuuli männyissä.\nKuka maksaa soittajien matkat?\nPaikallinen säätiö maksaa soittajien matkat.\nMiksi Linnea tarvitsee mökillä imuria?\nLattialle kulkee joka päivä neulasia, hiekkaa ja kävyn suomuja.\nMitä Linnean opettaja sanoi jousen puristuksesta?\nHän sanoi, että puristus ratkaisee äänen ja että liian kova puristus tekee äänestä kovan.\nMitä Linnea tuntee konsertin jälkeen?\nHän tuntee suurta kiitollisuutta kuulijoita, säätiötä, ystäviä ja metsää kohtaan."
+    },
+    {
+      "title": "Metsä, joka näytti terveeltä",
+      "summary": "A forest researcher examines a spruce forest near Hämeenlinna that looks healthy from the road and explains the signs and causes of its decline to the owner.",
+      "newWords": [
+        "näennäinen",
+        "huonokuntoinen",
+        "indikaattori",
+        "syndrooma",
+        "negatiivisesti",
+        "sylki"
+      ],
+      "text": "Kesäkuun alussa tutkija Aulis Pitkäranta saa puhelun Sylviltä, joka omistaa kuusimetsän Hämeenlinnan lähellä. Tieltä katsottuna metsä näyttää terveeltä: puut ovat pitkiä, ja niiden latvat ovat vihreät. Sylvi on kuitenkin huomannut, että maassa on enemmän pudonneita neulasia kuin ennen ja että muutaman kuusen rungossa on valkoisia pihkan jälkiä. Hän pyytää Aulista katsomaan metsää.\n\nAulis ajaa paikalle seuraavana aamuna. Metsässä on kosteaa, ja hyttyset ovat jo liikkeellä. Aulis vetää hihat alas ja kertoo Sylville, että hyttysen purema kutisee, koska hyttysen syljessä on aineita, joihin elimistö reagoi. ”Kutina ei siis johdu itse puremasta vaan syljestä”, hän sanoo. Sylvi nauraa ja sanoo, että tieto ei paljon lohduta.\n\nMetsän terveys osoittautuu näennäiseksi. Kun Aulis katsoo latvoja tarkemmin, hän näkee, että monen kuusen latva on harva: neulaset ovat jäljellä vain nuorimmissa oksissa. Harva latva on yksi metsän terveyden tärkeimmistä indikaattoreista, ja sen avulla voi arvioida puun kuntoa jo ennen kuin ongelma näkyy tielle. Toinen indikaattori on rungon pihka: kuusi yrittää sillä estää hyönteisiä pääsemästä kuoren alle.\n\nAulis näyttää Sylville myös puiden oksilla roikkuvaa harmaata naavaa. Naava on puhtaan ilman indikaattori, ja sitä on tässä metsässä paljon. ”Ilma ei siis ole ongelma”, Aulis sanoo. ”Ongelma on maan alla ja kuoren alla.”\n\nHän ottaa muutamasta puusta näytteen poralla ja löytää rungon alaosasta pehmeää, ruskeaa puuta. Sieni on levinnyt puusta toiseen juuria pitkin. Lisäksi kahden huonokuntoisen kuusen kuoressa on pieniä reikiä, jotka kertovat, että kirjanpainaja on jo päässyt sisään. Aulis selittää, että tutkijat puhuvat joskus kuusen heikkenemisen syndroomasta. Syndrooma tarkoittaa, että yhtä syytä ei ole, vaan monta tekijää vaikuttaa yhdessä: kuivat kesät, juurien sieni ja hyönteiset. Kuivuus vaikuttaa kuuseen negatiivisesti, koska kuusen juuret ovat lähellä maan pintaa, ja heikko puu houkuttelee hyönteisiä.\n\nSylvi suhtautui aluksi negatiivisesti ajatukseen, että terveeltä näyttävää metsää pitäisi kaataa. Aulis ei ehdota kaikkien puiden kaatamista. Hän neuvoo poistamaan huonokuntoiset kuuset ennen heinäkuuta, jolloin hyönteisten uusi sukupolvi lähtee lentoon. Tilalle hän suosittelee istuttamaan koivua ja mäntyä, joihin sieni ei tartu yhtä helposti.\n\nKotimatkalla Aulis ajattelee, että moni metsä on samanlainen: sen terveys on näennäinen, kunnes joku katsoo tarkemmin. Indikaattorit ovat näkyvissä, kun tietää, mistä niitä etsii. Hyttysten puremat kutisevat vielä illalla, mutta päivä oli hänen mielestään hyvin käytetty.\n\nKysymykset:\nMiltä Sylvin metsä näyttää tieltä katsottuna?\nSe näyttää terveeltä, koska puut ovat pitkiä ja latvat vihreät.\nMiksi hyttysen purema kutisee?\nHyttysen syljessä on aineita, joihin elimistö reagoi.\nMitä naava kertoo metsästä?\nNaava on puhtaan ilman indikaattori.\nMitä tutkijat tarkoittavat kuusen heikkenemisen syndroomalla?\nYhtä syytä ei ole, vaan kuivat kesät, juurien sieni ja hyönteiset vaikuttavat yhdessä.\nMitä Aulis neuvoo Sylviä tekemään?\nHän neuvoo poistamaan huonokuntoiset kuuset ennen heinäkuuta ja istuttamaan koivua ja mäntyä."
+    }
+  ]
+}
