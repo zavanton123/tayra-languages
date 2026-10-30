@@ -1442,6 +1442,100 @@ ICELANDIC_MOJIBAKE = str.maketrans("đūķũĐŪĶŨ", "ðþóýÐÞÓÝ")
 # its spelling, but its own forms (ludit, ire, liberavit, numeratur, visitavit) stay its: they are no forms of the other.
 LATIN_VERBS = set()
 
+# Tagalog. The pack gives a verb's aspect forms (naging, nangyari, gumagamit, ibinigay) and a word's ligatured forms
+# (ating, iyong) entries of their own, glossed only as that ("complete aspect of maging", "ligatured form of atin"):
+# they are forms of the word the gloss names (TAGALOG_FORMS_OF), not words. TAGALOG_LIGATURED has every entry's
+# "ligatured form" words, TAGALOG_ASPECTS the words with an aspect gloss.
+TAGALOG_FORM_GLOSS = re.compile(r"^(?:((?:complete|progressive|contemplative|recently complete) aspect)|ligatured form) of ([^\W\d_][\w'-]*)")
+TAGALOG_FORMS_OF = {}
+TAGALOG_LIGATURED = defaultdict(set)
+TAGALOG_ASPECTS = set()
+# The linker -ng (-g after n) is written onto the word before it (isang, walang, kanyang, akong; taong of tao and of
+# taon, ating of atin), and counts for that word; but these, spelled so, are words of their own ("only", "while",
+# "like", "probably", "to become", "as ... as").
+TAGALOG_LINKER_OWN = {"lamang", "habang", "parang", "malamang", "maging", "kasing"}
+# And these, which the pack has as rare words (batang "log", kang and pong mahjong sets, silang "birth", bang the
+# sound), are mostly the linked word in texts.
+TAGALOG_LINKER_FORMS = {"batang", "bang", "kang", "pong", "silang"}
+TAGALOG_LINKER_SHARE = 0.1
+TAGALOG_VOWELS = "aeiou"
+# The words a verb missing from the pack may be made from (sigaw for sumigaw, sumisigaw, sisigaw).
+TAGALOG_ROOT_KINDS = {"noun", "adj", "verb", "adv"}
+# An infinitive the pack lacks heads its verb only if texts write it as often as this share of its forms (sumigaw, not
+# maggawa, which paggawa "making" would take).
+TAGALOG_INFINITIVE_SHARE = 0.02
+
+
+def tagalog_reduplicated(root):
+    """The first syllable a Tagalog verb repeats for its progressive and contemplative aspects (si of sigaw, a of
+    alis, ta of trabaho), or None."""
+    if root[0] in TAGALOG_VOWELS:
+        return root[0]
+    if root[1] in TAGALOG_VOWELS:
+        return root[:2]
+    if len(root) > 2 and root[2] in TAGALOG_VOWELS:
+        return root[0] + root[2]
+    return None
+
+
+def tagalog_infixed(infix, stem):
+    """-um- or -in- put after a stem's first consonant (sumigaw, ginamit), or before it begins with a vowel (umalis)."""
+    return infix + stem if stem[0] in TAGALOG_VOWELS else stem[0] + infix + stem[1:]
+
+
+def tagalog_suffixed(root, suffix):
+    """A root's spellings with -in or -an: after a vowel also with h (basahin, but piliin), and with its last o as u
+    before a final consonant (tukuyin of tukoy)."""
+    stems = [root]
+    if root[-1] not in TAGALOG_VOWELS and root[-2:-1] == "o":
+        stems.append(root[:-2] + "u" + root[-1])
+    out = []
+    for stem in stems:
+        out.append(stem + suffix)
+        if stem[-1] in TAGALOG_VOWELS:
+            out.append(stem + "h" + suffix)
+    return out
+
+
+def tagalog_paradigms(root):
+    """
+    A Tagalog root's verbs by their affixes, each as its infinitive's spellings, its other aspect forms and the word they
+    are without a verb (or None): -um- (sumigaw, sumisigaw, sisigaw), mag- (nagsimula, nagsisimula, magsisimula), ma-,
+    maka-, magpa-, maki-, -in (ginamit, ginagamit, gagamitin of gamitin), -an (tinandaan of tandaan), i- (ibinigay,
+    ibinibigay, ibibigay) and ipa-; the adjectives in nakaka- (nakakatawa "funny"), which are words; the root's
+    superlative (pinakamahusay) and its adjective's intensive (napakahusay of mahusay); and its noun in pag- (paggamit,
+    pagsisimula), its verb's. Where two take a form alike, the earlier.
+    """
+    again = tagalog_reduplicated(root)
+    if not again:
+        return []
+    twice = again + root
+    vowel = root[0] in TAGALOG_VOWELS
+    hyphen = ["-", ""] if vowel else [""]
+    out = [([tagalog_infixed("um", root)], [tagalog_infixed("um", twice), twice])]
+    for prefix in ("mag", "ma", "maka", "magpa", "maki"):
+        done = "n" + prefix[1:]
+        # mag- is written with a hyphen before a vowel (mag-aral, nag-aaral), and often without.
+        joins = hyphen if prefix == "mag" else [""]
+        out.append(([prefix + j + root for j in joins], [f for j in joins for f in (done + j + root, done + j + twice, prefix + j + twice)]
+                    + ([prefix + "ka" + root] if prefix == "maka" else []) + (["napaka" + root] if prefix == "ma" else [])))
+    out.append((["nakaka" + root], []))
+    infinitives = tagalog_suffixed(root, "in")
+    done = [tagalog_infixed("in", root)] + (["ni" + root] if root[0] in "lyw" else [])
+    out.append((infinitives, done + [tagalog_infixed("in", twice)] + [again + f for f in infinitives]))
+    infinitives = tagalog_suffixed(root, "an")
+    out.append((infinitives, [f for i in infinitives for f in (tagalog_infixed("in", i), tagalog_infixed("in", again + i), again + i)]))
+    done = ["i" + tagalog_infixed("in", root)] + (["ini" + root] if vowel or root[0] in "hlyw" else [])
+    out.append((["i" + root], done + ["i" + tagalog_infixed("in", twice), "i" + twice]
+                + (["ini" + twice] if vowel or root[0] in "hlyw" else [])))
+    out.append((["ipa" + root], ["ipina" + root, "ipinapa" + root, "ipapa" + root]))
+    out.append(([root], ["pinaka" + root, "napaka" + root]))
+    # The noun in pag- is its verb's: with the first syllable twice, mag-'s (pagtatayo of magtayo), and else mag-'s or
+    # -um-'s (pagbuo of bumuo); without a verb, the root's.
+    out.append((["mag" + j + root for j in hyphen], ["pag" + j + twice for j in hyphen], root))
+    out.append((["mag" + j + root for j in hyphen] + [tagalog_infixed("um", root)], ["pag" + j + root for j in hyphen], root))
+    return [paradigm if len(paradigm) == 3 else (*paradigm, None) for paradigm in out]
+
 
 def icelandic_bin():
     """
@@ -1908,6 +2002,8 @@ def load_dictionary(language):
     # Words whose common-word entries are all capitalised ("China", the noun) are names too,
     # except the nouns of a language that capitalises them; those keep their capital ("Haus").
     common = {}
+    # The Tagalog words with a sense that is no form of another word.
+    tagalog_own = set()
     if language == "ko":
         verbs = {w for (w,) in db.execute("SELECT word_lc FROM entries WHERE pos IN ('verb', 'adj')")}
         KOREAN_GLOSSED.update(korean_glossed(db.execute("SELECT word_lc, pos, senses FROM entries"), verbs))
@@ -1926,6 +2022,18 @@ def load_dictionary(language):
             word, word_lc = lithuanian_unaccented(word), lithuanian_unaccented(word_lc)
         if language == "la" and p == "verb" and any("participle" not in s.get("tags", []) for s in json.loads(senses)):
             LATIN_VERBS.add(word_lc)
+        if language == "tl" and p in WORD_POS:
+            for gloss in (g for s in json.loads(senses) for g in s.get("glosses", [])):
+                form_of = TAGALOG_FORM_GLOSS.match(gloss)
+                if not form_of:
+                    tagalog_own.add(word_lc)
+                    continue
+                target = lower(language, form_of.group(2))
+                TAGALOG_FORMS_OF.setdefault(word_lc, set()).add(target)
+                if form_of.group(1):
+                    TAGALOG_ASPECTS.add(word_lc)
+                else:
+                    TAGALOG_LIGATURED[word_lc].add(target)
         pos[word_lc].add(p)
         if p not in WORD_POS and not (language == "ko" and p == "counter"):
             continue
@@ -2085,6 +2193,12 @@ def load_dictionary(language):
             lemmas[form_lc] = [lemma for lemma in lemmas[form_lc] if lemma not in bin_words]
         for form_lc, of in ICELANDIC_TAGS.items():
             lemmas[form_lc] = sorted(of)
+    if language == "tl":
+        # A Tagalog entry glossed only as another word's aspect or ligatured form is that word's form (naging of maging).
+        for word, targets in TAGALOG_FORMS_OF.items():
+            if word not in tagalog_own:
+                common.pop(word, None)
+                lemmas[word] += sorted(t for t in targets if t != word and t not in lemmas[word])
     if language == "ro":
         ROMANIAN_KINDS.update(romanian_kinds(db, lemmas))
     if language in FINNIC_OWN_SENSES:
@@ -2451,6 +2565,69 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         guessed.setdefault(key, lemma)
         return key
 
+    def tagalog_pack_word(word):
+        """Whether a Tagalog word is a word of the pack (as is_word, but not counting simplemma's or tagalog_verb's)."""
+        return bool(pos.get(word, set()) & WORD_POS) and word in common and word not in excluded and len(word) > 1
+
+    def tagalog_linked(form):
+        """
+        The words a Tagalog form is with the linker joined to them (isang of isa, kanyang of kanya, ating of atin, taong
+        of tao and taon), with their shares, or None: the word before -ng after a vowel, or before -g after n, that is
+        a word or a form, shared by how common each is. A form the pack has as a word is linked only if it is glossed
+        as a ligatured form (or is in TAGALOG_LINKER_FORMS); an aspect form (magiging) is its verb's.
+        """
+        if not form.endswith("ng") or len(form) < 4 or form in TAGALOG_LINKER_OWN or form in TAGALOG_ASPECTS:
+            return None
+        if tagalog_pack_word(form) and form not in TAGALOG_LIGATURED and form not in TAGALOG_LINKER_FORMS:
+            return None
+        if english_share(form) >= count(form):
+            return None
+        bases = [form[:-1]] + ([form[:-2]] if form[-3] in TAGALOG_VOWELS else [])
+        # A base that is a word or form only by its affixes or simplemma is taken only for a form that is nothing else: a
+        # verb's form in -ng (tumutulong of tumulong) is no tumutulo + ng.
+        unknown = not tagalog_pack_word(form) and not lemmas.get(form) and not tagalog_verb(form)
+        bases = [b for b in bases if b not in excluded and (tagalog_pack_word(b) or lemmas.get(b) or unknown and targets_of(b))]
+        if not bases:
+            return None
+        # Not a base a tenth as common as the other (ati, not of ating; isan, not of isang).
+        weights = {b: count(b) or 1e-12 for b in bases}
+        weights = {b: w for b, w in weights.items() if w >= TAGALOG_LINKER_SHARE * max(weights.values())}
+        return {b: w / sum(weights.values()) for b, w in weights.items()}
+
+    tagalog_verbs = {}
+
+    def tagalog_verb(form):
+        """
+        The verb a Tagalog form the pack lacks is, by tagalog_paradigms, or None: of a root that is a word of the pack,
+        by an affix whose infinitive texts write (or the pack has) and whose forms are commonest in all. The infinitive
+        is the pack's word or form where it has it, and else a word of its own.
+        """
+        if not tagalog_verbs:
+            tagalog_verbs[None] = None
+            found = defaultdict(list)
+            roots = [w for w in pos if tagalog_pack_word(w) and pos[w] & TAGALOG_ROOT_KINDS and len(w) > 2 and w.isalpha()]
+            for root in sorted(roots):
+                for order, (infinitives, aspects, fallback) in enumerate(tagalog_paradigms(root)):
+                    known = [i for i in infinitives if tagalog_pack_word(i) or lemmas.get(i)]
+                    group = [f for f in dict.fromkeys(infinitives + aspects)
+                             if count(f) and not tagalog_pack_word(f) and not lemmas.get(f) and f not in excluded]
+                    mass = sum(count(f) for f in group)
+                    written = [i for i in infinitives if count(i) >= TAGALOG_INFINITIVE_SHARE * mass and i not in pos and i not in excluded]
+                    if not known and not written and not fallback:
+                        continue
+                    head = known[0] if known else max(written, key=count) if written else fallback
+                    for f in group:
+                        found[f].append((mass, -order, head))
+            for f, heads in found.items():
+                tagalog_verbs[f] = max(heads)[2]
+            # An infinitive texts write is its own verb's.
+            for head in set(tagalog_verbs.values()):
+                if head in tagalog_verbs:
+                    tagalog_verbs[head] = head
+        if english_share(form) >= count(form):
+            return None
+        return tagalog_verbs.get(form)
+
     def estonian_participle_verb(word):
         """The verb an Estonian participle simplemma gives as a noun (lõppenu, relvastatu) is a form of, or None; a
         caritive adjective in -tu (kasutu, abitu, võimatu) is a word."""
@@ -2761,6 +2938,22 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 if verbs:
                     weights = {v: count(v) or 1e-12 for v in verbs}
                     return {v: w / sum(weights.values()) for v, w in weights.items()}
+            if language == "tl":
+                # A word with ay or at written onto it ('y, 't: iba't, isa't, ako'y) is that word.
+                if form[-2:] in ("'y", "'t") and len(form) > 3 and not tagalog_pack_word(form) and not lemmas.get(form):
+                    base = form[:-2]
+                    if base not in excluded and (tagalog_pack_word(base) or lemmas.get(base) or targets_of(base)):
+                        return {base: 1.0}
+                linked = tagalog_linked(form)
+                if linked:
+                    return linked
+                # A verb's form the pack has not (sumigaw, ginamit, tinutukoy, natagpuan) is its verb's, by the affixes.
+                if not tagalog_pack_word(form) and not lemmas.get(form):
+                    verb = tagalog_verb(form)
+                    if verb:
+                        if verb not in pos and not lemmas.get(verb):
+                            guessed.setdefault(verb, verb)
+                        return {verb: 1.0}
             if not known and language == "gl" and not guess(form):
                 # A verb with its pronouns joined (díxolle, chámase) is the verb's, unless simplemma knows the word (dano
                 # "harm", not dan + o); an adverb in -mente the pack lacks (realmente, seguramente) is a word of its own,

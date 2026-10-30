@@ -1985,3 +1985,48 @@ OVERRIDES["la"].update({
 # germanium and aeneus, and the praenomina Lucius and Gaius, as Marcus and Paulus.
 EXCLUDE["la"] = EXCLUDE.get("la", set()) | {"for", "germania", "aeneas", "lucius", "lucium", "lucii", "lucio", "gaius", "gaio",
                                              "gaium", "gaii", "caius"}
+
+# Tagalog. The pronoun kaniya (kanya, the pack's "menstruation", and the linked kanyang, kaniyang) is no form of kaya;
+# natalo and matalo ("lost") are matalo's and tinalo talunin's ("defeated"), not manalo's ("to win"); malaya ("free"),
+# pari ("priest"), opo ("yes", polite), oo ("yes"), boto ("vote"), lolo ("grandfather"), upo ("sitting") and ewan
+# ("dunno", as aywan) are words, not forms of malayo, pare, upo and opo, umoo, buto, lola, iwan; natira and natitira
+# ("left over") are matira's, not tumira's ("to live"), nasama sumama's, not masama's ("bad"); ginagampanan and
+# magampanan gumanap's, not naganap's; dating before a noun is dati's ("former"), and makarating ("to reach") a word,
+# not dating's; maipakita is ipakita's, not kita's; yung is iyon's ("that"), not iyong's; kainan ("eatery") and
+# naturan ("the said") are words. The colloquial ang + adjective (ansarap, andami) is the adjective's, not ang's.
+OVERRIDES["tl"] = {
+    "kanya": ["kaniya"], "kaniya": ["kaniya"],
+    **{f: ["matalo"] for f in ("natalo", "matalo", "matatalo", "natatalo")},
+    **{f: ["talunin"] for f in ("tinalo", "talunin", "tatalunin", "tinatalo")},
+    "malaya": ["malaya"], "pari": ["pari"], "opo": ["opo"], "upo": ["upo"], "oo": ["oo"], "boto": ["boto"],
+    "ewan": ["aywan"], "aywan": ["aywan"], "lolo": ["lolo"],
+    **{f: ["matira"] for f in ("natira", "natitira", "matira", "matitira")},
+    "nasama": ["sumama"], "nasasama": ["sumama"],
+    **{f: ["gumanap"] for f in ("ginagampanan", "gampanan", "ginampanan", "gagampanan", "magampanan", "nagagampanan",
+                                 "kagampanan")},
+    "dating": ["dati"], "rating": [],
+    **{f: ["makarating"] for f in ("makarating", "nakarating", "nakakarating", "makakarating")},
+    "maipakita": ["ipakita"], "yung": ["iyon"], "‘yung": ["iyon"], "kainan": ["kainan"], "naturan": ["naturan"],
+    "naturang": ["naturan"],
+    "ansarap": ["sarap"], "anlakas": ["lakas"], "ambango": ["bango"], "antagal": ["tagal"], "andali": ["dali"],
+    "andami": ["dami"],
+    # ding is din's (rin) with the linker, not di's (hindi); natatangi ("unique") is a word, not a verb's form.
+    "ding": ["din"], "natatangi": ["natatangi"], "natatanging": ["natatangi"],
+    # pagiging ("being") is maging's and pagkakaroon ("having") magkaroon's; ipinanganak ("was born") is ipanganak's,
+    # which the pack lacks (its affixes are too many for tagalog_paradigms). Spoken run-together spellings: yong (iyon),
+    # nalang (na lang), diba (di ba), sakin (sa akin), ba't (bakit), ika'y (ikaw ay).
+    "pagiging": ["maging"], "pagkakaroon": ["magkaroon"], "pagkakaroong": ["magkaroon"],
+    **{f: ["ipanganak"] for f in ("ipinanganak", "ipanganak", "ipinapanganak", "ipapanganak")},
+    "yong": ["iyon"], "nalang": ["lang"], "diba": ["ba"], "sakin": ["akin"], "ba't": ["bakit"],
+    "ika'y": ["ikaw"],
+    # kina's spellings: kila, not kana, kano, kino.
+    "kana": [], "kano": [], "kino": [],
+}
+# English, names (Manila, Paris, Baguio, Busan) and the noise of Wikipedia: its headings "Mga sanggunian" (references)
+# and "Mga kawing panlabas" (external links), its "Talaksan:" (file) links, Roman numerals; the prefixes ika-, mang-,
+# pinaka-, napaka-, naka-, makapag- cut off at their hyphens; and the subtitles' sound tags (igik).
+EXCLUDE["tl"] = EXCLUDE.get("tl", set()) | {
+    "bar", "on", "is", "so", "be", "boy", "order", "album", "am", "he", "aam", "kinda", "la", "wa", "ii", "iii", "ce", "ma",
+    "mang", "ika", "pinaka", "naka", "igik", "manila", "paris", "baguio", "busan", "day", "page", "are", "en", "sanggunian",
+    "kawing", "panlabas", "talaksan", "makapag", "nakapag", "makakapag", "nakakapag", "makaka", "nakaka", "napaka",
+}
