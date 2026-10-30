@@ -1,0 +1,183 @@
+{
+  "id": "fi-mini-3500",
+  "rankUpTo": 3500,
+  "level": "B2",
+  "title": "Tekniikka ja yhteiskunta",
+  "description": "Ten stories about technology in everyday Finnish life: a phone map in a national park, a bakery app, a new job, a touch screen at the health centre, data in floorball, e-scooters in a district, a museum treasure in 3D, a school grade app, a column on cash and a concert streamed to a balcony.",
+  "topic": "Technology and society",
+  "names": [
+    "Johannes",
+    "Lina",
+    "Kouvola",
+    "Repovesi",
+    "Klara",
+    "Erkko",
+    "Kokkola",
+    "Evelina",
+    "Leon",
+    "Tampere",
+    "Vilhelm",
+    "Mona",
+    "Kuopio",
+    "Robin",
+    "Lukas",
+    "Oulu",
+    "Herttoniemi",
+    "Helsinki",
+    "Vera",
+    "Gerda",
+    "Carita",
+    "Turku",
+    "Kanada",
+    "Amelia",
+    "Marita",
+    "Vaasa",
+    "Alva",
+    "Tukholma",
+    "Ruotsi",
+    "Olivia",
+    "Elvira",
+    "Kajaani",
+    "Jyväskylä",
+    "Janika",
+    "Joanna",
+    "Lukakselle"
+  ],
+  "lessons": [
+    {
+      "title": "Kun puhelin sammuu",
+      "summary": "Johannes trusts his phone map on a hike in Repovesi National Park; when the battery dies, his daughter Lina, who downloaded the map in advance, gets them back to the car park.",
+      "newWords": [
+        "eksyä",
+        "kansallispuisto",
+        "retki",
+        "karu",
+        "ympäröivä",
+        "parkkipaikka",
+        "turvallisesti",
+        "ennalta",
+        "reipas"
+      ],
+      "text": "Johannes asuu Kouvolassa ja käyttää puhelintaan lähes kaikkeen. Puhelimella hän maksaa ostoksensa, lukee uutiset ja etsii tien, kun hän ajaa vieraaseen paikkaan. Paperista karttaa hän ei ole avannut vuosiin.\n\nEräänä syyskuun lauantaina Johannes lähti tyttärensä Linan kanssa retkelle Repoveden kansallispuistoon. Lina on 14-vuotias ja luonteeltaan reipas: hän kävelee nopeasti eikä valita, vaikka matka olisi pitkä. Kansallispuisto on noin 30 kilometrin päässä Kouvolasta. He jättivät auton parkkipaikalle, joka oli jo melkein täynnä. Parkkipaikan reunalla oli suuri kartta, jossa näkyivät kaikki polut.\n\n”Otetaanko kuva kartasta?” Lina kysyi.\n\n”Ei tarvitse”, Johannes sanoi. ”Puhelimessa on kartta, ja se näyttää koko ajan, missä olemme.”\n\nKansallispuiston maisema on karu mutta kaunis. Polku kulkee kallioiden yli, ja ympäröivä metsä on täynnä mäntyjä ja sammalta. Järvien vesi on tummaa ja kirkasta. Retken ensimmäiset tunnit menivät hyvin. He söivät eväät kalliolla ja katselivat ympäröiviä järviä, jotka kimaltelivat auringossa.\n\nIltapäivällä Johannes huomasi, että puhelimen akku oli lähes tyhjä. Kylmä tuuli ja kartan jatkuva käyttö olivat kuluttaneet sen nopeasti. Pian puhelin sammui kokonaan. Johannes katsoi ympärilleen. Polku jakautui kahteen suuntaan, eikä hän muistanut, kummalta puolelta he olivat tulleet.\n\n”Olemmeko me eksyneet?” Lina kysyi.\n\n”Emme ole vielä eksyneet”, Johannes vastasi. ”Mutta nyt täytyy miettiä rauhassa.”\n\nLina oli valmistautunut retkeen paremmin kuin isänsä. Hän oli ladannut kartan ennalta omaan puhelimeensa, joten se toimi myös ilman verkkoa. Lisäksi hänen puhelimensa akku oli melkein täynnä. Hän näytti isälleen, että he olivat oikealla polulla. Parkkipaikalle oli matkaa vain kolme kilometriä.\n\nReippaan kävelyn jälkeen he olivat autolla ennen pimeää. Johannes oli helpottunut. ”Olisimme voineet eksyä pahasti”, hän sanoi. ”Karussa maastossa kaikki kalliot näyttävät samalta.”\n\nKotona Johannes luki kansallispuiston verkkosivuilta, miten luonnossa liikutaan turvallisesti. Siellä neuvottiin kertomaan jollekin ennalta, mihin on menossa, ottamaan mukaan vettä ja lämmintä vaatetta ja olemaan luottamatta vain yhteen laitteeseen.\n\nJohannes teki päätöksen. Ennen seuraavaa retkeä hän suunnittelee reitin ennalta ja ottaa mukaan myös paperisen kartan ja kompassin. Puhelin on hyvä apu, mutta se ei korvaa omaa harkintaa. Lina lupasi opettaa isälleen, miten kartta ladataan puhelimeen. ”Sitten voimme liikkua turvallisesti, vaikka verkko ei toimisi”, hän sanoi.\n\nKysymykset:\nMihin Johannes ja Lina lähtivät retkelle?\nHe lähtivät retkelle Repoveden kansallispuistoon.\nMillainen kansallispuiston maisema on?\nMaisema on karu mutta kaunis, ja ympäröivä metsä on täynnä mäntyjä.\nMiksi Johanneksen puhelin sammui?\nKylmä tuuli ja kartan jatkuva käyttö kuluttivat akun tyhjäksi.\nMiten Lina auttoi isäänsä?\nHän oli ladannut kartan ennalta omaan puhelimeensa, joten he eivät eksyneet.\nMitä Johannes ottaa mukaan seuraavalle retkelle?\nHän ottaa mukaan paperisen kartan ja kompassin."
+    },
+    {
+      "title": "Tilaus puhelimella",
+      "summary": "Klara's bakery in Kokkola starts taking orders through an app with confirmations and cancellations; after a snowstorm her regular customer Erkko helps her sell the extra bread.",
+      "newWords": [
+        "leipoa",
+        "vilja",
+        "sipuli",
+        "veitsi",
+        "kuppi",
+        "vahvistus",
+        "peruuttaa"
+      ],
+      "text": "Klara omistaa pienen leipomon Kokkolan keskustassa. Hän leipoo joka aamu kello neljästä alkaen. Hyllyillä on tummaa ja vaaleaa leipää, pullaa ja piirakoita, joissa on sipulia ja juustoa. Sipulit Klara ostaa torilta, ja viljan hän hankkii läheisiltä tiloilta. ”Kun vilja kasvaa lähellä, leipä maistuu paremmalta”, hän sanoo usein asiakkailleen.\n\nLeipomon nurkassa on kaksi pientä pöytää. Siellä asiakkaat voivat juoda kupin kahvia ja syödä tuoretta pullaa. Joka aamu ensimmäisenä tulee Erkko, eläkkeellä oleva opettaja. Hän juo aina kaksi kuppia kahvia ja lukee lehden.\n\nEnnen tilaukset tulivat puhelimella. Klara kirjoitti ne paperille, mutta kiireessä osa unohtui. Kerran hän unohti kokonaisen kakun, ja asiakas oli pettynyt. Siksi Klara otti viime keväänä käyttöön sovelluksen, jolla leipomosta voi tilata. Asiakas valitsee sovelluksessa tuotteet ja päivän, jolloin hän hakee ne, ja maksaa ennalta. Heti tilauksen jälkeen hän saa sähköpostiin vahvistuksen. Vahvistuksessa näkyvät tuotteet, hinta ja aika, jolloin tilauksen voi hakea. Tilauksen voi peruuttaa edellisenä iltana kello kahdeksaan asti, ja silloin rahat palautetaan.\n\nSovellus helpotti Klaran työtä. Illalla hän näkee, montako leipää ja piirakkaa hänen täytyy leipoa seuraavana aamuna. Hukkaan ei mene enää yhtä paljon ruokaa kuin ennen.\n\nErkko ei kuitenkaan halunnut käyttää sovellusta. ”Minä haluan tilata ihmiseltä enkä koneelta”, hän sanoi. Klara ymmärsi häntä. Hän päätti, että puhelimella saa yhä tilata, ja hän kirjoittaa nämä tilaukset itse sovellukseen. Näin kaikki tilaukset ovat samassa paikassa, ja jokainen asiakas saa vahvistuksen.\n\nEräänä aamuna talvella tuli kova myrsky, ja lunta satoi koko yön. Moni asiakas peruutti tilauksensa jo yöllä, koska tiet olivat huonossa kunnossa. Klara oli kuitenkin alkanut leipoa jo kello neljä eikä ollut katsonut puhelintaan. Aamulla hänellä oli kymmeniä ylimääräisiä leipiä.\n\nErkko tuli tavalliseen aikaan lumen läpi ja joi ensimmäisen kupin kahvia. Hän kuuli Klaran huolen ja keksi ratkaisun. ”Kirjoita leipomon sivulle, että tänään leipä on puoleen hintaan”, hän ehdotti. Klara teki niin. Iltapäivällä kaikki leivät oli myyty.\n\nSiitä lähtien Klara katsoo aina ennen työn aloittamista, onko joku peruuttanut tilauksensa. Erkko puolestaan oppi lopulta käyttämään sovellusta, mutta kahvinsa hän juo yhä leipomossa. Klara leikkaa hänelle leipää isolla veitsellä ja kertoo, mitä hän aikoo seuraavaksi leipoa. Veitsen hän pitää aina terävänä, sillä huonolla veitsellä tuoretta leipää ei voi leikata kauniisti. Leivän päälle hän laittaa usein vähän paistettua sipulia.\n\nKysymykset:\nMistä Klara hankkii viljan?\nHän hankkii sen läheisiltä tiloilta.\nMitä Erkko tekee joka aamu leipomossa?\nHän juo kaksi kuppia kahvia ja lukee lehden.\nMitä asiakas saa tilauksen jälkeen?\nHän saa sähköpostiin vahvistuksen.\nMihin asti tilauksen voi peruuttaa?\nSen voi peruuttaa edellisenä iltana kello kahdeksaan asti.\nMiksi Klaralla oli myrskyn jälkeen liikaa leipää?\nMoni asiakas peruutti tilauksensa yöllä, mutta Klara oli jo alkanut leipoa."
+    },
+    {
+      "title": "Urakoista vakituiseen työhön",
+      "summary": "After three years of short contracts, the app developer Evelina is offered a permanent job in Tampere; she sets herself a goal and agrees with the director Leon on a realistic pay rise.",
+      "newWords": [
+        "työsuhde",
+        "korotus",
+        "toimiala",
+        "urakka",
+        "potentiaali",
+        "realistinen",
+        "päämäärä"
+      ],
+      "text": "Evelina on 29-vuotias ja tekee sovelluksia puhelimiin. Kolme vuotta hän on työskennellyt yrittäjänä kotonaan Tampereella. Hän on tehnyt urakoita eri yrityksille: yksi urakka on kestänyt kuukauden, toinen puoli vuotta. Urakan lopussa hän on aina joutunut etsimään uuden asiakkaan.\n\nVapaus on ollut Evelinalle tärkeää. Hän on saanut itse päättää, milloin hän tekee töitä ja milloin pitää lomaa. Toisaalta tulot ovat vaihdelleet paljon. Joskus hänellä on ollut kaksi urakkaa yhtä aikaa, joskus ei yhtään. Silloin hän on miettinyt, riittävätkö rahat vuokraan.\n\nViime syksynä Evelina teki urakan pienelle yritykselle, joka tekee sovelluksia terveyskeskuksille. Yrityksen toimitusjohtaja Leon oli tyytyväinen hänen työhönsä. Kun urakka oli valmis, Leon kutsui hänet kahville.\n\n”Meidän toimialamme kasvaa nopeasti”, Leon sanoi. ”Terveyspalvelut siirtyvät yhä enemmän verkkoon, ja tarvitsemme hyviä tekijöitä. Sinussa on paljon potentiaalia. Haluaisitko meille vakituiseen työsuhteeseen?”\n\nEvelina pyysi viikon miettimisaikaa. Hän kirjoitti paperille, mitä työsuhde toisi ja mitä hän menettäisi. Työsuhteessa hän saisi joka kuukausi saman palkan, lomat ja työterveyshuollon. Hänellä olisi myös kollegoita, joilta oppia. Toisaalta hän ei voisi enää valita urakoitaan itse.\n\nSitten Evelina mietti, mikä on hänen päämääränsä. Hän huomasi, ettei hän halua tehdä yksin pieniä urakoita koko elämäänsä. Hänen päämääränsä on oppia johtamaan tiimiä ja tehdä sovelluksia, joista on hyötyä monelle ihmiselle. Pieni mutta kasvava yritys tällä toimialalla voisi olla hyvä paikka siihen.\n\nViikon päästä Evelina tapasi Leonin uudelleen. Hän kertoi haluavansa työsuhteen, mutta hän pyysi suurempaa palkkaa kuin Leon oli tarjonnut.\n\nLeon mietti hetken. ”Toiveesi ymmärrän, mutta se ei ole realistinen heti alussa”, hän sanoi. ”Yrityksemme on vielä pieni. Ehdotan, että aloitat tarjoamallani palkalla ja keskustelemme puolen vuoden päästä uudelleen. Jos kaikki menee hyvin, saat silloin korotuksen.”\n\nEvelinan mielestä ehdotus oli realistinen ja reilu. He kirjoittivat korotuksen myös työsopimukseen, jotta kumpikaan ei unohtaisi sitä.\n\nNyt Evelina on ollut yrityksessä viisi kuukautta. Hän on oppinut paljon kollegoiltaan, ja hän saa jo neuvoa kahta uutta työntekijää. Ensi kuussa hän ja Leon keskustelevat palkasta. Evelina uskoo, että hän saa luvatun korotuksen. Vielä tärkeämpää hänelle on kuitenkin se, että hän on lähempänä päämääräänsä.\n\nKysymykset:\nMillaisia töitä Evelina teki ennen?\nHän teki urakoita eri yrityksille yrittäjänä kotonaan.\nMitä Leonin yritys tekee?\nSe tekee sovelluksia terveyskeskuksille.\nMitä Leon sanoi Evelinan potentiaalista?\nHän sanoi, että Evelinassa on paljon potentiaalia.\nMikä on Evelinan päämäärä?\nHänen päämääränsä on oppia johtamaan tiimiä ja tehdä hyödyllisiä sovelluksia.\nMiksi Evelinan toive suuremmasta palkasta ei ollut realistinen?\nYritys on vielä pieni, joten Leon ehdotti korotusta puolen vuoden päästä."
+    },
+    {
+      "title": "Kosketusnäyttö terveyskeskuksessa",
+      "summary": "Vilhelm, 78, books his flu vaccine online after a long illness last winter, struggles with the touch screen at the Kuopio health centre and is surprised how easy it is once the nurse Mona shows him.",
+      "newWords": [
+        "rokote",
+        "sairastaa",
+        "kosketus",
+        "parikymmentä",
+        "omituinen",
+        "yllättyä"
+      ],
+      "text": "Vilhelm on 78-vuotias ja asuu yksin Kuopiossa. Viime talvena hän sairasti pahaa tautia lähes kuukauden. Hänellä oli korkea lämpö ja kipeä kurkku, eikä hän jaksanut käydä edes kaupassa. Naapuri toi hänelle ruokaa. ”En halua sairastaa noin pitkään enää koskaan”, Vilhelm sanoi silloin.\n\nSyksyllä lääkäri suositteli hänelle rokotetta talven tautia vastaan. ”Rokote ei estä kaikkia tauteja”, lääkäri sanoi, ”mutta jos sairastat taudin rokotteen jälkeen, se on yleensä lievempi.” Rokotteen sai terveyskeskuksesta ilmaiseksi, mutta ajan sai varata vain verkossa tai puhelimella.\n\nVilhelm soitti ensin terveyskeskukseen. Puhelimessa kerrottiin, että ennen häntä odotti parikymmentä ihmistä. Hän päätti kokeilla tietokonetta. Ajan varaaminen verkossa tuntui ensin omituiselta: sivulla oli paljon tekstiä, ja hänen piti tunnistautua pankin tunnuksilla. Hän eteni kuitenkin rauhassa vaihe vaiheelta. Parikymmentä minuuttia myöhemmin hänellä oli aika torstaille kello 10. Vilhelm yllättyi siitä, kuinka paljon nopeampaa se oli kuin odottaminen puhelimessa.\n\nTorstaina Vilhelm meni terveyskeskukseen. Ovella ei ollut ketään, jolle ilmoittautua. Ovien vieressä oli vain suuri laite, jossa oli näyttö. Näytön yläpuolella luki: ”Ilmoittaudu tässä.”\n\nVilhelm painoi näyttöä sormellaan, mutta mitään ei tapahtunut. Hän painoi kovempaa, ja silloin aukesi väärä sivu. ”Onpa omituinen kone”, hän sanoi hiljaa.\n\nSairaanhoitaja Mona huomasi hänet ja tuli auttamaan. ”Tämä näyttö toimii kosketuksella, sitä ei tarvitse painaa”, Mona sanoi. ”Kevyt kosketus riittää. Kokeillaanko yhdessä?”\n\nMona näytti, missä kohdassa ilmoittaudutaan. Vilhelm kosketti näyttöä sormellaan, ja laite pyysi häntä laittamaan korttinsa koneeseen. Hetken päästä näytölle tuli hänen nimensä ja huoneen numero. Vilhelm yllättyi taas: koko ilmoittautuminen kesti alle minuutin.\n\nRokottaminen oli vielä nopeampaa. Mona kysyi, oliko Vilhelm sairastanut viime aikoina, ja antoi rokotteen käsivarteen. ”Odota vielä parikymmentä minuuttia täällä, ennen kuin lähdet kotiin”, hän sanoi. ”Se on tavallista jokaisen rokotteen jälkeen.”\n\nOdotellessaan Vilhelm katsoi, kun muut tulivat ilmoittautumaan. Eräs vanha nainen seisoi laitteen edessä samalla tavalla kuin Vilhelm hetkeä aiemmin. Vilhelm nousi ja meni hänen luokseen. ”Kevyt kosketus riittää”, hän sanoi ja hymyili. Nainen yllättyi, kun näyttö toimi heti.\n\nKotona Vilhelm soitti tyttärelleen ja kertoi päivästä. ”Kuvittelin, että nämä laitteet ovat vain nuorille”, hän sanoi. ”Mutta kun joku näyttää kerran, niitä osaa käyttää.”\n\nKysymykset:\nKuinka kauan Vilhelm sairasti viime talvena?\nHän sairasti lähes kuukauden.\nMiksi lääkäri suositteli rokotetta?\nRokotteen jälkeen tauti on yleensä lievempi.\nMiksi Vilhelm ei varannut aikaa puhelimella?\nPuhelimessa ennen häntä odotti parikymmentä ihmistä.\nMiten laitteen näyttö toimii?\nSe toimii kosketuksella, eikä sitä tarvitse painaa.\nMiten Vilhelm auttoi vanhaa naista?\nHän sanoi naiselle, että kevyt kosketus riittää."
+    },
+    {
+      "title": "Video ja valmentaja",
+      "summary": "Robin coaches a junior floorball team in Oulu and starts filming the matches; by analysing the videos with the players, the shy Lukas learns to use his body better and the team ends the regular season well.",
+      "newWords": [
+        "valmentaa",
+        "vartalo",
+        "analysoida",
+        "loistavasti",
+        "onnekas",
+        "runkosarja"
+      ],
+      "text": "Robin on 35-vuotias insinööri, joka valmentaa vapaa-ajallaan poikien salibandyjoukkuetta Oulussa. Joukkueessa on viisitoista 13-vuotiasta poikaa. He harjoittelevat kolme kertaa viikossa ja pelaavat viikonloppuisin otteluita muita Oulun seudun joukkueita vastaan.\n\nKun Robin alkoi valmentaa joukkuetta, hän huomasi, että pojat eivät muistaneet otteluiden jälkeen, mitä kentällä oli tapahtunut. Kaikilla oli oma käsityksensä, eikä keskustelusta tullut mitään. Siksi Robin päätti kokeilla videota. Hän osti pienen kameran ja pyysi erään isän kuvaamaan jokaisen ottelun.\n\nEnsimmäisessä harjoituksessa ottelun jälkeen pojat istuivat salin lattialla ja katsoivat videota suurelta näytöltä. ”Nyt analysoimme peliä yhdessä”, Robin sanoi. ”Etsimme sekä hyviä että huonoja hetkiä. Kukaan ei saa nauraa toisille.”\n\nAnalysoiminen oli pojista aluksi hankalaa, mutta pian he alkoivat huomata asioita itse. He näkivät, että puolustajat seisoivat usein liian lähellä toisiaan ja että syöttöjä annettiin liian hitaasti.\n\nJoukkueen hiljaisin pelaaja oli Lukas. Hän oli nopea ja taitava, mutta kun toisen joukkueen pelaaja tuli lähelle, hän menetti pallon usein. Videolta Robin näki syyn. ”Katso vartaloasi”, hän sanoi Lukakselle. ”Seisot aivan suorana, ja pallo on edessäsi. Kun vartalo on pallon ja toisen pelaajan välissä, pallo on paljon paremmassa turvassa.”\n\nLukas harjoitteli asiaa monta viikkoa. Robin näytti hänelle videolta, miten ammattilaiset käyttävät vartaloaan, ja pojat analysoivat myös omia harjoituksiaan. Vähitellen Lukas oppi pitämään polvet koukussa ja vartalon pallon suojana.\n\nRunkosarjan viimeisessä ottelussa joukkue pelasi vahvaa joukkuetta vastaan. Peli oli tasainen, ja vain minuutti ennen loppua tilanne oli 3–3. Silloin Lukas sai pallon. Kaksi toisen joukkueen pelaajaa tuli häntä kohti, mutta hän käänsi vartalonsa, piti pallon ja syötti sen vapaalle pelaajalle, joka teki maalin.\n\nOttelun jälkeen pojat olivat innoissaan. ”Pelasit loistavasti”, Robin sanoi Lukakselle. ”Olit onnekas, kun pallo meni maaliin, mutta tuo syöttö ei ollut onnea. Sinä harjoittelit sen.”\n\nJoukkue sijoittui runkosarjassa kolmanneksi, mikä oli sen paras tulos moneen vuoteen. Robin ei silti ajatellut, että joukkue olisi ollut vain onnekas. Hänen mielestään pojat olivat oppineet katsomaan peliä ja itseään uudella tavalla. Seuraavalla kaudella hän aikoo valmentaa joukkuetta samalla tavalla. Lisäksi pojat ovat pyytäneet, että he saisivat itse kuvata ja leikata videot. Robin on samaa mieltä: pojat ovat oppineet analysoimaan peliä loistavasti.\n\nKysymykset:\nKetä Robin valmentaa?\nHän valmentaa poikien salibandyjoukkuetta Oulussa.\nMiksi Robin alkoi kuvata otteluita?\nPojat eivät muistaneet otteluiden jälkeen, mitä kentällä oli tapahtunut.\nMitä Lukas oppi tekemään vartalollaan?\nHän oppi pitämään vartalon pallon ja toisen pelaajan välissä.\nMitä tapahtui runkosarjan viimeisessä ottelussa?\nLukas piti pallon ja syötti sen vapaalle pelaajalle, joka teki maalin.\nMiten joukkue sijoittui runkosarjassa?\nSe sijoittui kolmanneksi, mikä oli sen paras tulos moneen vuoteen."
+    },
+    {
+      "title": "Pyörät metroaseman edessä",
+      "summary": "Rental e-bikes cause chaos at the metro station in Herttoniemi; on the district's online forum the residents complain, and the board of the residents' association, led by Vera, agrees with the rental company on parking areas, lower speeds and helmets.",
+      "newWords": [
+        "kaupunginosa",
+        "foorumi",
+        "kypärä",
+        "johtokunta",
+        "kaaos",
+        "hillitä"
+      ],
+      "text": "Herttoniemi on rauhallinen kaupunginosa Helsingissä lähellä merta. Kaupunginosassa on metroasema, kauppoja, kouluja ja paljon kerrostaloja. Asukkailla on oma yhdistys, ja yhdistyksellä on verkossa foorumi, jossa asukkaat keskustelevat kaupunginosan asioista. Foorumilla myydään käytettyjä tuoleja ja pöytiä, etsitään kadonneita kissoja ja kerrotaan tapahtumista.\n\nViime keväänä kaupunginosaan tuli sähköllä kulkevia pyöriä, joita voi vuokrata puhelimen sovelluksella. Pyörä otetaan käyttöön, kun sen koodi luetaan puhelimella, ja matkan lopussa sen voi jättää melkein minne tahansa. Moni nuori ja moni, joka kulkee töihin metrolla, innostui niistä heti.\n\nPian foorumille alkoi kuitenkin tulla valituksia. Gerda, joka on asunut Herttoniemessä 40 vuotta, kirjoitti: ”Metroaseman edessä on joka aamu täysi kaaos. Pyörät ovat keskellä katua, eikä vaunujen kanssa pääse ohi. Eilen eräs pyörä ajoi suurella nopeudella jalkakäytävällä aivan vierestäni.” Hänen kirjoitukseensa vastasi kymmeniä asukkaita. Monella oli samanlainen kokemus.\n\nAsukkaiden yhdistyksen johtokunta päätti ottaa asian käsittelyyn. Johtokunnassa on seitsemän asukasta, ja sen puheenjohtaja on Vera, joka käyttää itsekin vuokrapyörää joskus töihin. ”Pyörät ovat hyvä asia, mutta tällainen kaaos ei voi jatkua”, Vera sanoi kokouksessa. ”Meidän täytyy löytää keino hillitä ongelmia ilman, että pyörät kielletään.”\n\nJohtokunta kysyi foorumilla asukkaiden ehdotuksia. Ehdotuksia tuli yli sata. Sitten Vera ja kaksi muuta johtokunnan jäsentä tapasivat pyöriä vuokraavan yrityksen työntekijöitä. Tapaamisessa sovittiin kolmesta asiasta.\n\nEnsinnäkin aseman lähelle merkittiin maalilla alueita, joille pyörät pitää jättää. Jos käyttäjä jättää pyörän muualle, matka ei pääty, ja hän joutuu maksamaan lisää. Toiseksi yritys hillitsi pyörien nopeutta: kaupunginosan keskustassa pyörät kulkevat moottorin avulla enintään 15 kilometriä tunnissa. Kolmanneksi yritys alkoi muistuttaa sovelluksessa kypärästä. Ennen jokaista matkaa näytölle tulee teksti: ”Muista kypärä!” Lisäksi yritys antoi yhdistykselle 50 kypärää, joita jaettiin ilmaiseksi koulun pihalla.\n\nVera kertoi päätöksistä foorumilla. Gerda vastasi ensimmäisenä: ”Hyvä, että asiasta keskusteltiin eikä vain valitettu. Katsotaan, auttaako tämä.”\n\nKuukauden päästä aseman edessä oli paljon siistimpää. Pyörät seisoivat riveissä niille merkityillä alueilla, ja kadulla pystyi taas kävelemään rauhassa. Gerda kirjoitti foorumille, että kaaos oli ohi. Hän kertoi myös, että oli itse kokeillut vuokrapyörää kypärä päässä. ”Hauskempaa kuin luulin”, hän kirjoitti.\n\nKysymykset:\nMitä asukkaat tekevät kaupunginosan foorumilla?\nHe keskustelevat kaupunginosan asioista, myyvät tavaroita ja kertovat tapahtumista.\nMistä Gerda valitti foorumilla?\nHän valitti, että metroaseman edessä oli joka aamu täysi kaaos.\nKuka on johtokunnan puheenjohtaja?\nVera on johtokunnan puheenjohtaja.\nMiten yritys hillitsi pyörien nopeutta?\nKaupunginosan keskustassa pyörät kulkevat nyt enintään 15 kilometriä tunnissa.\nMitä yritys antoi yhdistykselle?\nSe antoi 50 kypärää, joita jaettiin ilmaiseksi."
+    },
+    {
+      "title": "Aarre näytöllä",
+      "summary": "At a Turku museum, the conservator Carita scans an ancient treasure of jewellery and coins in 3D, and her vision of a colourful online exhibition comes true, though she knows digital files do not last forever by themselves.",
+      "newWords": [
+        "muinainen",
+        "aarre",
+        "värikäs",
+        "nykyaikainen",
+        "ikuisesti",
+        "visio"
+      ],
+      "text": "Carita työskentelee museossa Turussa. Hänen työnsä on hoitaa vanhoja esineitä niin, että ne säilyvät pitkään. Museon varastossa on tuhansia esineitä, mutta vain pieni osa niistä on esillä. Monet esineet ovat niin hauraita, ettei niitä voi lainkaan ottaa pois laatikoistaan.\n\nMuseon tärkein esine on muinainen aarre, jonka eräs maanviljelijä löysi pellostaan 1960-luvulla. Aarteessa on hopeisia koruja, helmiä ja satoja kolikoita. Se on noin tuhat vuotta vanha. Asiantuntijoiden mukaan aarre kertoo, että alueella käytiin jo silloin kauppaa kaukaisten maiden kanssa.\n\nAarre on ollut esillä lasin takana vuosikymmeniä. Kävijät näkevät sen kuitenkin vain yhdeltä puolelta, eivätkä he voi katsoa pieniä yksityiskohtia lähempää. Caritalla oli visio: kuka tahansa voisi katsella aarretta omalta näytöltään kaikilta puolilta, missä päin maailmaa tahansa.\n\nMuseo sai rahaa nykyaikaiseen laitteeseen, joka kuvaa esineitä kolmessa ulottuvuudessa. Laite ottaa esineestä satoja kuvia eri suunnista, ja tietokone yhdistää ne malliksi. Carita kuvasi jokaisen korun ja kolikon erikseen. Työ kesti puoli vuotta.\n\nKuvauksen aikana Carita teki yllättävän havainnon. Tarkoissa kuvissa näkyi, että korujen pinnalla oli pieniä jälkiä väreistä. Muinainen koru ei ollut ollut harmaa, vaan värikäs: punainen, sininen ja keltainen. Tietokoneella Carita ja hänen kollegansa tekivät koruista myös malleja, joissa värit näkyvät sellaisina kuin ne olivat tuhat vuotta sitten. Värikäs koru näytti aivan erilaiselta kuin lasin takana oleva harmaa esine.\n\nKun näyttely avattiin verkossa, Caritan visio toteutui. Ensimmäisen kuukauden aikana näyttelyssä kävi yli 30 000 ihmistä, myös Japanista ja Kanadasta. Opettajat käyttivät sitä historian tunneilla, ja eräs luokka teki paperista värikkäitä kopioita koruista.\n\nCarita tietää silti, että työ ei ole koskaan valmis. ”Monet luulevat, että tiedosto säilyy ikuisesti”, hän sanoo. ”Niin ei ole. Tiedostojen muodot ja laitteet vanhenevat, ja kymmenen vuoden päästä nykyaikainen ohjelma voi olla jo vanha. Siksi meidän täytyy siirtää tiedostot säännöllisesti uusiin muotoihin.”\n\nHänen mielestään sama koskee itse esineitä. Mikään ei säily ikuisesti, ellei siitä pidetä huolta. Muinainen aarre on säilynyt tuhat vuotta, koska se oli maan alla suojassa. Nyt sen säilyminen on museon työntekijöiden vastuulla, sekä museossa että verkossa.\n\nKysymykset:\nMitä Carita tekee työkseen?\nHän hoitaa museon vanhoja esineitä, jotta ne säilyisivät pitkään.\nMistä muinainen aarre löytyi?\nEräs maanviljelijä löysi sen pellostaan 1960-luvulla.\nMikä oli Caritan visio?\nKuka tahansa voisi katsella aarretta omalta näytöltään kaikilta puolilta.\nMitä Carita huomasi tarkoista kuvista?\nHän huomasi, että korut olivat alun perin olleet värikkäitä.\nMiksi tiedostot eivät säily ikuisesti?\nTiedostojen muodot ja laitteet vanhenevat, joten tiedostot täytyy siirtää uusiin muotoihin."
+    },
+    {
+      "title": "Arvosanat sovelluksessa",
+      "summary": "In Vaasa, Marita checks her daughter Amelia's grades in the school app every evening; when Amelia, busy with athletics and riding, gets a weak grade, they agree on a calmer way to follow school.",
+      "newWords": [
+        "arvosana",
+        "kunnollinen",
+        "sekava",
+        "yleisurheilu",
+        "ratsastaa",
+        "elämäntapa"
+      ],
+      "text": "Amelia on 15-vuotias ja käy yhdeksättä luokkaa Vaasassa. Hänen koulussaan käytetään sovellusta, josta oppilaat ja vanhemmat näkevät läksyt, poissaolot ja kokeiden arvosanat. Kun opettaja kirjaa uuden arvosanan, vanhempien puhelimeen tulee heti ilmoitus.\n\nAmelian äiti Marita katsoi sovellusta joka ilta. Hän halusi tietää, miten tyttärellä menee, mutta sovelluksessa oli niin paljon tietoa, että kokonaisuus tuntui sekavalta. Siellä oli viestejä kaikilta opettajilta, muistutuksia retkistä ja ilmoituksia unohtuneista kirjoista. Sekava näkymä sai Maritan usein huolestumaan turhaan.\n\nAmelialla on kaksi rakasta harrastusta. Kolme kertaa viikossa hän käy yleisurheilun harjoituksissa, ja hänen lajinsa ovat pituushyppy ja 400 metrin juoksu. Lauantaisin hän ratsastaa tallilla kaupungin laidalla. Ratsastaminen on hänelle tärkeää, koska hevosen kanssa hän unohtaa koulun ja puhelimen. Lisäksi hän auttaa tallilla hevosten hoidossa, ja siitä hän saa ratsastaa ilmaiseksi.\n\nEräänä torstai-iltana Maritan puhelimeen tuli ilmoitus: Amelia oli saanut kemian kokeesta arvosanan 6. Marita odotti tytärtään keittiössä.\n\n”Kuutonen”, Marita sanoi heti, kun Amelia tuli ovesta. ”Miksi et kertonut, että koe oli huono? Ehkä yleisurheilu ja ratsastaminen vievät liikaa aikaa.”\n\nAmelia oli väsynyt harjoitusten jälkeen ja suuttui. ”Minä en ehdi edes kertoa mitään, kun sinä tiedät jo kaiken sovelluksesta”, hän sanoi. ”Ja kemia on vain yksi aine. Muut arvosanat ovat hyviä.”\n\nSeuraavana päivänä he istuivat alas ja keskustelivat rauhassa. Amelia kertoi, että kemian koe oli ollut vaikea koko luokalle. Hän lupasi kysyä opettajalta apua ja harjoitella kokeen asiat uudelleen. Marita puolestaan myönsi, että hän oli katsonut sovellusta liian usein.\n\nHe tekivät sopimuksen. Marita katsoo sovellusta vain sunnuntaisin, ja silloin he käyvät viikon yhdessä läpi. Amelia kertoo itse, jos jokin koe menee huonosti. Harrastuksista ei luovuta, koska ne ovat osa hyvää elämäntapaa. Marita tietää, että liikunta, kunnollinen uni ja säännöllinen ruoka auttavat myös koulussa. Kunnollinen elämäntapa ei tarkoita, että jokaisen arvosanan pitää olla 10.\n\nKevään lopussa Amelian arvosanojen keskiarvo oli hyvä. Kemian arvosana oli noussut kahdeksaan. Samana viikonloppuna hän hyppäsi yleisurheilun kilpailuissa uuden ennätyksensä. Marita oli katsomossa, eikä hän katsonut puhelintaan kertaakaan.\n\nKysymykset:\nMitä sovelluksesta näkee?\nSiitä näkee läksyt, poissaolot ja kokeiden arvosanat.\nMiksi Marita huolestui usein turhaan?\nSovelluksessa oli niin paljon tietoa, että näkymä tuntui sekavalta.\nMitä harrastuksia Amelialla on?\nHän harrastaa yleisurheilua ja ratsastaa lauantaisin.\nMitä Marita ja Amelia sopivat?\nMarita katsoo sovellusta vain sunnuntaisin, ja Amelia kertoo itse, jos koe menee huonosti.\nMikä on Maritan mielestä hyvää elämäntapaa?\nLiikunta, kunnollinen uni ja säännöllinen ruoka."
+    },
+    {
+      "title": "Kolumni: Kolikoiden puolesta",
+      "summary": "A newspaper column: the writer pays almost everything by card, but after a trip to Stockholm and a talk with a neighbour who lives on social assistance, she weighs the arguments for keeping cash.",
+      "newWords": [
+        "valuutta",
+        "argumentti",
+        "julki",
+        "puhtaasti",
+        "kolmannes",
+        "toimeentulotuki"
+      ],
+      "text": "Myönnän sen heti alussa: minä maksan lähes kaiken kortilla tai puhelimella. Lompakossani on harvoin muuta kuin kortteja ja kuitteja. Kun kävin viime kesänä Tukholmassa, en vaihtanut euroja Ruotsin valuuttaan lainkaan. Ennen matkaa oli tapana käydä pankissa ja ostaa vierasta valuuttaa, ja kotiin palatessa taskuun jäi aina kolikoita, joille ei ollut käyttöä. Nyt kortti toimii kaikkialla, eikä valuutan vaihtamista tarvitse miettiä.\n\nTukholmassa huomasin kuitenkin, että monessa kahvilassa ja jopa torilla käteistä ei hyväksytty enää ollenkaan. Ovissa luki selvästi: ”Vain kortti.” Minulle se ei ollut ongelma, mutta jäin miettimään, miten käy niille, joilla korttia ei ole.\n\nKotona Suomessa juttelin asiasta naapurini Alvan kanssa. Hän on yksinhuoltaja ja on saanut jonkin aikaa toimeentulotukea. Toimeentulotuki haetaan nykyään yleensä verkossa, ja rahat tulevat tilille. Alva kuitenkin nostaa joka kuun alussa osan rahoista käteisenä ja jakaa ne kirjekuoriin: yksi kuori ruokaan, toinen lasten harrastuksiin, kolmas muihin menoihin. ”Kun näen setelit, tiedän tarkasti, paljonko on jäljellä”, hän sanoi. ”Kortilla raha katoaa huomaamatta.”\n\nHänen argumenttinsa jäi mieleeni. Usein käteisestä keskustellaan puhtaasti tekniikan kannalta: kortti on nopea, eikä kassaa tarvitse laskea illalla. Ne ovat hyviä argumentteja, mutta ne eivät kerro koko totuutta. Moni vanha ihminen ei osaa tai halua käyttää verkkopankkia. Joillakin ei ole älypuhelinta. Lapsi oppii rahan arvon helpommin, kun hän saa viikkorahansa kolikkoina.\n\nLuin myös tutkimuksen, joka tuotiin julki viime viikolla. Sen mukaan noin kolmannes suomalaisista maksaa ostoksensa yhä joskus käteisellä. Yli 75-vuotiaista käteistä käyttää säännöllisesti yli puolet. Se ei ole pieni joukko. Kun kauppa tuo julki, ettei se enää ota vastaan käteistä, se sulkee oven monelta asiakkaalta.\n\nEn halua palata aikaan, jolloin kaikki maksettiin seteleillä. Kortti on minulle kätevä, ja jatkan sen käyttöä. Mutta kysymys ei ole puhtaasti minun mukavuudestani. Hyvä yhteiskunta toimii myös niille, jotka elävät toimeentulotuella, niille, jotka eivät näe näyttöä kunnolla, ja niille, jotka haluavat pitää rahansa kirjekuoressa.\n\nSiksi ehdotan pientä asiaa: jos omistat kahvilan tai kaupan, ota käteinen vastaan vielä jonkin aikaa. Kassassa ei tarvitse olla paljon kolikoita. Riittää, että ovessa ei lue ”Vain kortti”.\n\nKysymykset:\nMiksi kirjoittaja ei vaihtanut rahaa Ruotsin valuuttaan?\nKortti toimi kaikkialla, eikä valuutan vaihtamista tarvinnut miettiä.\nMitä kirjoittaja huomasi Tukholmassa?\nMonessa kahvilassa ja torilla käteistä ei hyväksytty enää ollenkaan.\nMitä Alva tekee toimeentulotuen rahoilla?\nHän nostaa osan käteisenä ja jakaa rahat kirjekuoriin.\nMikä oli Alvan argumentti käteisen puolesta?\nKun hän näkee setelit, hän tietää tarkasti, paljonko rahaa on jäljellä.\nKuinka suuri osa suomalaisista maksaa yhä joskus käteisellä?\nNoin kolmannes suomalaisista maksaa yhä joskus käteisellä."
+    },
+    {
+      "title": "Konsertti parvekkeella",
+      "summary": "Olivia plays the cello in the Jyväskylä orchestra; she sends her grandmother Elvira in Kajaani an invitation to the online broadcast of a legendary conductor's farewell concert, and Elvira and her neighbours watch it on their balconies.",
+      "newWords": [
+        "orkesteri",
+        "parveke",
+        "kutsu",
+        "nauru",
+        "kyynel",
+        "legendaarinen"
+      ],
+      "text": "Olivia soittaa selloa Jyväskylän orkesterissa. Orkesterissa on noin 40 muusikkoa, ja se antaa konsertteja koko vuoden. Elokuun lopussa orkesterilla oli tärkeä konsertti: sen kapellimestari, legendaarinen Joanna, johti orkesteria viimeistä kertaa ennen eläkkeelle jäämistään. Joanna oli johtanut orkesteria 30 vuotta, ja hänen konserttinsa olivat aina täynnä.\n\nOlivian mummo Elvira asuu Kajaanissa. Hän on kuunnellut Olivian soittoa siitä asti, kun Olivia oli pieni tyttö. Nyt Elvira ei kuitenkaan pystynyt matkustamaan, koska hänen polvensa oli kipeä. Olivia oli pahoillaan. Sitten hän kuuli, että orkesteri lähettäisi konsertin suorana verkossa.\n\nOlivia lähetti mummolleen sähköpostiin kutsun. Kutsussa oli linkki, jota painamalla konsertin pääsi katsomaan tabletilta. ”Kutsu on henkilökohtainen, mutta voit katsoa konserttia kenen kanssa haluat”, Olivia kirjoitti. Hän soitti vielä mummolleen ja neuvoi, miten linkki avataan. Elvira ilahtui kutsusta ja vastasi kutsuun heti: ”Tulen katsomaan!” He kokeilivat linkkiä yhdessä kaksi päivää ennen konserttia.\n\nKonsertin ilta oli lämmin. Elvira kantoi tabletin, tyynyn ja kupin kahvia parvekkeelle ja istui tuoliin. Parvekkeelta näkyi talon piha ja vanhat koivut. Naapurin parvekkeella istui Janika, joka kysyi, mitä Elvira oli katsomassa. Kun Elvira kertoi, Janika toi oman tuolinsa lähemmäs aitaa, ja he katsoivat konserttia yhdessä.\n\nKonsertin alussa legendaarinen Joanna piti lyhyen puheen. Hän kertoi, että kun hän johti orkesteria ensimmäistä kertaa, hän unohti hotelliin kenkänsä ja johti konsertin villasukissa. Salista kuului naurua, ja myös Elviran parvekkeella kuului naurua.\n\nSitten orkesteri alkoi soittaa. Konsertin toisessa osassa oli soolo sellolle, ja Olivia soitti sen. Kamera näytti hänen kasvonsa läheltä. Elvira tunsi kyyneleen poskellaan. Se oli ilon ja ylpeyden kyynel. Janika otti häntä kädestä, ja myös Janikan silmissä oli kyyneleitä.\n\nKun konsertti loppui, yleisö nousi salissa seisomaan. Talon pihalla tapahtui jotain samanlaista: muutamalla muullakin parvekkeella oli kuunneltu konserttia, ja naapurit taputtivat käsiään parvekkeillaan.\n\nMyöhemmin illalla Olivia soitti mummolleen. ”Näitkö soolon?” hän kysyi.\n\n”Näin, ja koko talo näki”, Elvira sanoi. ”Naapurit seisoivat parvekkeilla ja kiittivät. Tämä oli paras kutsu, jonka olen koskaan saanut.”\n\nOlivia nauroi. Hänen naurunsa kuului puhelimesta iloisena. ”Ensi kerralla tulen soittamaan selloa sinun parvekkeellesi”, hän lupasi.\n\nKysymykset:\nMissä orkesterissa Olivia soittaa?\nHän soittaa selloa Jyväskylän orkesterissa.\nMiksi konsertti oli tärkeä?\nLegendaarinen kapellimestari johti orkesteria viimeistä kertaa.\nMitä Olivia lähetti mummolleen?\nHän lähetti sähköpostiin kutsun, jossa oli linkki konserttiin.\nMissä Elvira katsoi konsertin?\nHän katsoi sen tabletilta parvekkeellaan naapurinsa Janikan kanssa.\nMiksi Elviralla oli kyynel poskella?\nHän oli iloinen ja ylpeä, kun Olivia soitti soolon."
+    }
+  ]
+}
