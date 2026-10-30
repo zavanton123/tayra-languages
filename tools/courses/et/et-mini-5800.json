@@ -1,0 +1,200 @@
+{
+  "id": "et-mini-5800",
+  "rankUpTo": 5800,
+  "level": "C1",
+  "title": "Eesti keel",
+  "description": "Ten stories about the Estonian language: learning it as a newcomer, recording old speech, a child's first words, reading research, translating, new words, a word game, old papers, plain medical language and a language walk.",
+  "topic": "The Estonian language",
+  "names": [
+    "Ana",
+    "Lissabon",
+    "Tartu",
+    "Heiko",
+    "Mariken",
+    "Elbe",
+    "Hiiumaa",
+    "Emmaste",
+    "Kätrin",
+    "Pärnu",
+    "Andre",
+    "Karolin",
+    "Ille",
+    "Kuressaare",
+    "Ida-Virumaa",
+    "Jõhvi",
+    "Vootele",
+    "Põhjameri",
+    "Eveliis",
+    "Erkki",
+    "Rakvere",
+    "Tallinn",
+    "Johan",
+    "Aksel",
+    "Viljandi",
+    "Arvid",
+    "Praha",
+    "Liivika",
+    "Paide",
+    "Taavet",
+    "Ragne",
+    "Mikael",
+    "Helsinki",
+    "Helsingi",
+    "Emajõgi"
+  ],
+  "lessons": [
+    {
+      "title": "Esimene aasta eesti keelega",
+      "summary": "A biologist from Lisbon describes her first year in Tartu: a textbook that did not prepare her for the post office, her new ID card, e-mails in Estonian from a colleague, tiring months and slow progress.",
+      "newWords": [
+        "siiatulek",
+        "õpik",
+        "postkontor",
+        "rikkis",
+        "isikutunnistus",
+        "e-kiri",
+        "väsitama",
+        "ruttama",
+        "tasapisi"
+      ],
+      "text": "Ana on bioloog. Ta kasvas üles Lissabonis ja töötab nüüd Tartu ülikoolis. Eelmise aasta augustis kolis ta Tartusse ja hakkas õppima eesti keelt. Siin kirjutab ta oma esimesest aastast.\n\nEnne siiatulekut ei teadnud ma eesti keelest peaaegu midagi. Olin kuulnud, et see on raske keel, milles on palju käändeid ja väga pikki sõnu. Lissabonis ostsin endale õpiku ja õppisin terve suve igal õhtul tund aega. Õpikus olid lihtsad dialoogid: kuidas poes leiba osta, kuidas teed küsida, kuidas ennast tutvustada. Augustis tundus mulle, et olen siiatulekuks hästi valmis.\n\nEsimene päris kohtumine eesti keelega toimus aga postkontoris. Ema oli saatnud mulle paki ja ma pidin selle ise kätte saama. Tavaliselt võetakse pakid Eestis välja automaadist, kuid meie maja juures olev automaat oli rikkis. Nii läksin postkontorisse. Ootasin järjekorras, valmis lause peas. Kui ametnik minult midagi küsis, ei saanud ma aru ühestki sõnast. Ta rääkis kiiresti ja hoopis teisiti kui mu õpiku dialoogid. Lõpuks näitas ta näpuga mu rahakotti ja ma sain aru: ta tahab näha mu isikutunnistust. Isikutunnistust mul veel ei olnud, aga ta võttis vastu ka passi.\n\nIsikutunnistuse sain kätte oktoobris. See on väike plastkaart, millega saab Eestis teha peaaegu kõike: arsti juures käia, pangas asju ajada ja internetis dokumentidele alla kirjutada. Kui ma kaardi esimest korda kätte võtsin, tundsin, et nüüd elan ma tõesti siin.\n\nTööl kirjutasid kolleegid mulle alguses inglise keeles. Ühel päeval palusin Heikot, kellega me jagame tööruumi, et ta kirjutaks mulle oma e-kirjad eesti keeles. Heiko oli üllatunud, kuid nõustus. Esimesi e-kirju lugesin sõnaraamatu abiga ja ühe lühikese e-kirja peale kulus mul pool tundi. Vastuseid kirjutasin aeglaselt ja kontrollisin iga lauset mitu korda. Heiko ei parandanud mu vigu, vaid vastas lihtsalt, nagu oleks kõik korras. See andis mulle julgust.\n\nEsimesed kuud väsitasid mind rohkem, kui olin arvanud. Võõras keel väsitab, sest kogu aeg tuleb kuulata ja mõelda. Hommikuti ruttasin tööle, õhtuti ruttasin eesti keele kursusele, mis toimus kaks korda nädalas. Õhtuks oli pea täiesti tühi ja vahel väsitas mind isegi raadio kuulamine.\n\nTasapisi hakkas aga midagi muutuma. Novembris märkasin, et saan raadiost aru, milline ilm homme tuleb. Detsembris rääkisin naabriga trepil viis minutit ega mõelnud sealjuures ühelegi käändele. Tasapisi tulid sõnad ise. Kevadel läksin uuesti postkontorisse, sest automaat oli jälle rikkis, ja ajasin seal kõik asjad eesti keeles. Ametnik ei läinud kordagi inglise keelele üle.\n\nNüüd ma enam ei rutta. Ma tean, et keel tuleb tasapisi ja et iga päev on natuke lihtsam kui eelmine.\n\nKüsimused:\nMida tegi Ana enne siiatulekut, et eesti keelt õppida?\nTa ostis Lissabonis õpiku ja õppis terve suve igal õhtul tund aega.\nMiks pidi Ana minema postkontorisse?\nEma oli saatnud talle paki ja maja juures olev automaat oli rikkis.\nMida saab Eestis isikutunnistuse abil teha?\nSellega saab käia arsti juures, ajada pangas asju ja kirjutada internetis dokumentidele alla.\nMida palus Ana Heikolt?\nTa palus, et Heiko kirjutaks talle oma e-kirjad eesti keeles.\nMiks väsitasid esimesed kuud Anat nii palju?\nVõõras keel väsitab, sest kogu aeg tuleb kuulata ja mõelda.\nMis juhtus kevadel postkontoris?\nAna ajas seal kõik asjad eesti keeles ja ametnik ei läinud kordagi inglise keelele üle."
+    },
+    {
+      "title": "Vanaema hääl korpuses",
+      "summary": "A language student records her grandmother on Hiiumaa for the university's speech corpus: the old woman tends her sheep at dawn and talks about her strict mother-in-law and a long-ago winter.",
+      "newWords": [
+        "korpus",
+        "omapärane",
+        "koitma",
+        "talitama",
+        "generatsioon",
+        "ämm",
+        "ammune",
+        "kostuma"
+      ],
+      "text": "Mariken õpib Tartu ülikoolis eesti keelt. Sel kevadel kogub tema kursus materjali suure korpuse jaoks. Korpus on arvutisse kogutud tekstide ja salvestuste kogu, mille abil uurijad näevad, kuidas inimesed päriselt räägivad. Iga tudeng pidi salvestama mõne vanema inimese juttu. See pidi olema inimene, kes räägib oma kodukandi keelt.\n\nMariken teadis kohe, kelle juurde ta sõidab. Tema vanaema Elbe on 84-aastane ja elab Hiiumaal, Emmaste lähedal väikeses talus. Vanaema keel on omapärane: tema laused on lühikesed, ta kasutab vanu sõnu ja tema hääl tõuseb ja langeb nagu lained rannas. Linnas ei räägi enam keegi nii omapäraselt.\n\nMariken jõudis Hiiumaale reede õhtul. Järgmisel hommikul oli vanaema juba üleval, kui väljas alles koitis. Ta on terve elu niimoodi ärganud: kui päev koidab, tuleb loomad ära talitada. Praegu on tal ainult kolm lammast ja mõned kanad, kuid ta talitab neid iga hommik ise. Mariken läks temaga kaasa ja pani telefoni salvestama.\n\nAlguses oli vanaema häbelik. „Kes seda minu juttu ikka kuulata tahab,“ ütles ta. Mariken selgitas, et korpusesse kogutakse just selliseid lugusid, sest iga generatsioon räägib natuke teisiti kui eelmine. Vanaema generatsioon on viimane, kes on kodukandi keele lapsena kodus selgeks saanud. Järgmine generatsioon räägib juba peamiselt nii, nagu räägitakse raadios ja koolis.\n\nSiis hakkas vanaema rääkima. Ta rääkis ammustest aegadest, kui ta tuli noore naisena mehe koju. Talus elas ka tema ämm, kes oli range, kuid õiglane naine. Ämm õpetas talle, kuidas loomi talitada, kuidas leiba küpsetada ja kuidas ilma ennustada. „Mu ämm ütles alati, et koit ei oota kedagi,“ rääkis vanaema naerdes. Ämmalt oli ta õppinud ka palju vanu sõnu ilma, mere ja kalapüügi kohta.\n\nÜhel õhtul rääkis vanaema ühest ammusest talvest. Meri oli siis nii kauaks jääs, et inimesed sõitsid hobustega üle jää mandrile ja tagasi. See talv oli külm, kuid vanaema mäletab seda rõõmuga, sest kogu küla käis siis koos mandril poes ja sõitis õhtul laulu saatel koju.\n\nSalvestamise ajal oli majas vaikne. Kostus ainult lammaste hääl ja vanaema jutt. Ühel hommikul kostus õuest ka kukk. Mariken kartis, et need hääled rikuvad salvestuse. Tartus ütles tema õpetaja aga, et see ei ole viga: korpus ei kogu ainult sõnu, vaid ka elu, mis neid sõnu ümbritses.\n\nKolme päevaga salvestas Mariken üle viie tunni juttu. Tartus kirjutas ta iga sõna täpselt üles. Seda tehes märkas ta, kui omapärane on vanaema keel isegi paberil.\n\nSuvel sõitis Mariken jälle Hiiumaale ja mängis vanaemale tema enda hääle arvutist ette. Vanaema kuulas ja naeris. „Kas ma tõesti nii räägin?“ küsis ta. „Täpselt nii,“ vastas Mariken. Nüüd on vanaema lood korpuses ja neid saavad kuulata ka järgmised generatsioonid.\n\nKüsimused:\nMis on korpus?\nKorpus on arvutisse kogutud tekstide ja salvestuste kogu, mille abil uurijad näevad, kuidas inimesed päriselt räägivad.\nMilline on vanaema Elbe keel?\nTema keel on omapärane: laused on lühikesed, ta kasutab vanu sõnu ja tema hääl tõuseb ja langeb nagu lained.\nMida teeb vanaema iga hommik, kui päev koidab?\nTa talitab ise oma lambaid ja kanu.\nKes õpetas vanaemale talu tööd?\nTema ämm, kes oli range, kuid õiglane naine.\nMillest rääkis vanaema ühel õhtul?\nTa rääkis ühest ammusest talvest, kui inimesed sõitsid hobustega üle jää mandrile.\nMiks ei olnud viga, et salvestusel kostus ka lammaste ja kuke hääl?\nSest korpus ei kogu ainult sõnu, vaid ka elu, mis neid sõnu ümbritses."
+    },
+    {
+      "title": "Väike jäljendaja",
+      "summary": "A mother in Pärnu writes a column about how her two-year-old son learns words by imitating the adults: a swan in a bedtime book, a giant cup of cocoa, a vase and squatting by the sandpit.",
+      "newWords": [
+        "jäljendama",
+        "kasvatus",
+        "lelu",
+        "kakao",
+        "hiigelsuur",
+        "uneaeg",
+        "luik",
+        "kükitama",
+        "vaas"
+      ],
+      "text": "Kätrin elab Pärnus ja kirjutab ühele ajakirjale lugusid laste kasvatusest. Seekord kirjutab ta sellest, kuidas tema poeg Andre keelt õpib.\n\nMinu poeg Andre on kaks ja pool aastat vana ja ta jäljendab kõike. Kui ma räägin telefoniga, võtab ta mõne lelu, paneb selle kõrva äärde ja ütleb tõsise häälega: „Jah, jah. Hästi. Head aega.“ Kui isa köögis köhatab, köhatab ka Andre. Kui vanaema ohkab, ohkab Andre veel sügavamalt. Ta jäljendab meie sõnu, meie häält ja isegi meie näoilmet.\n\nVarem arvasin, et keelt tuleb lapsele õpetada. Nüüd näen, et laps õpib peamiselt jäljendades. Minu ülesanne ei ole talle sõnu selgeks teha, vaid temaga palju rääkida. Kasvatus algab sellest, kuidas me ise räägime, sest just meie sõnad jõuavad tema suhu.\n\nKõige rohkem räägime uneajal. Igal õhtul kell kaheksa on meil uneaeg ja enne seda loeme pildiraamatut. Andre lemmikraamat räägib valgest luigest, kes otsib järvelt oma pesa. Esimestel õhtutel näitas Andre lihtsalt näpuga pilti. Siis hakkas ta ütlema „luik“ ja nüüd ütleb ta terve lause: „Luik ujub koju.“ Kui me suvel jõe ääres jalutasime ja nägime päris luike, hüüdis Andre nii valjusti, et luik ujus eemale.\n\nAndre lemmiksõna on praegu „hiigelsuur“. Selle sõna õppis ta vanaisalt, kes ütleb seda tihti. Nüüd on Andre jaoks kõik hiigelsuur: koer, buss, isegi hommikune tass kakaod. „Ema, mul on hiigelsuur kakao!“ hüüab ta iga hommik, kuigi tass on väike. Kakao on tema lemmikjook ja sõna „kakao“ oli üks tema esimesi sõnu.\n\nPaljud sõnad õpib laps tegevuse kaudu. Kui me käime õues mängimas, kükitab Andre liivakasti ääres ja vaatab sipelgaid. Kord ütlesin talle: „Sa kükitad nagu vanaisa marjametsas.“ Järgmisel päeval kükitas ta toas keset põrandat ja teatas: „Ma kükitan!“ Nii jäi sõna meelde.\n\nMõnikord õpib laps sõnu ka väikestest õnnetustest. Ühel päeval lükkas Andre laualt vaasi, milles olid lilled. Vaas õnneks katki ei läinud, aga vesi voolas põrandale. Me korjasime koos lilled üles ja ma ütlesin mitu korda: „Vaas. See on vaas.“ Nüüd näitab Andre igal hommikul laua poole ja ütleb: „Vaas. Ettevaatust!“\n\nÕhtul, kui uneaeg läheneb, korjab Andre lelud kasti. Ka seda teeb ta minu järel. „Lelud lähevad magama,“ ütleb ta täpselt minu häälega. Siis on aeg luige raamatu jaoks. Ma tean, et peagi jäljendab ta mitte ainult minu sõnu, vaid ka minu harjumusi. Seepärast püüan ise rääkida nii, nagu tahaksin, et tema räägiks.\n\nKüsimused:\nKuidas Andre keelt õpib?\nTa jäljendab kõike: täiskasvanute sõnu, häält ja isegi näoilmet.\nMillest Kätrini sõnul kasvatus algab?\nKasvatus algab sellest, kuidas me ise räägime.\nMida teevad ema ja poeg enne uneaega?\nNad loevad pildiraamatut valgest luigest, kes otsib oma pesa.\nMiks on Andre jaoks kõik hiigelsuur?\nTa õppis selle sõna vanaisalt ja nüüd on see tema lemmiksõna.\nKuidas õppis Andre sõna „kükitama“?\nÕues kükitas ta liivakasti ääres, ema ütles talle selle sõna ja järgmisel päeval kükitas ta toas ja ütles: „Ma kükitan!“\nMis juhtus vaasiga?\nAndre lükkas vaasi laualt, see ei läinud katki, aga vesi voolas põrandale."
+    },
+    {
+      "title": "Kuidas me loeme pikki sõnu",
+      "summary": "An interview with a Tartu researcher who tracks readers' eyes and brain activity to learn how long compound words are read, and why distorted words slow the eye down.",
+      "newWords": [
+        "mehhanism",
+        "katsealune",
+        "aktiivsus",
+        "moonutama",
+        "hindamine",
+        "valmisolek",
+        "piirduma",
+        "lüli",
+        "regulaarselt"
+      ],
+      "text": "Eesti keeles on palju pikki sõnu, näiteks „raamatukogu“, „pühapäev“ või „hommikusöök“. Kuidas lugeja selliseid sõnu nii kiiresti mõistab? Seda uurib Tartu ülikoolis keeleteadlane Karolin. Küsisime temalt, kuidas tema töö käib.\n\nMida te täpsemalt uurite?\n\n„Meid huvitab, mis toimub lugeja silmade ja ajuga, kui ta näeb pikka sõna. Inimene ei loe sõna täht tähe haaval, vaid tunneb selle ära tervikuna või suuremate osadena. Tahame teada, milline mehhanism selle taga on. Kui me seda mehhanismi paremini mõistame, saab ka lugemist paremini õpetada.“\n\nKuidas katse välja näeb?\n\n„Katsealune istub arvuti ees ja loeb ekraanilt lauseid. Väike kaamera jälgib tema silmi ja näeb täpselt, kui kaua silm ühel sõnal peatub. Mõne katsealuse puhul mõõdame ka aju aktiivsust. Selleks pannakse talle pähe pehme müts, mis mõõdab aju elektrilist aktiivsust. See ei tee haiget ja enamik katsealuseid unustab mütsi mõne minutiga.“\n\nMillised laused katsealused loevad?\n\n„Enamik lauseid on täiesti tavalised. Mõnes lauses on aga üks sõna meelega moonutatud: kaks tähte on vahetatud või üks täht on puudu. Kui sõna on moonutatud, peatub silm sellel kauem ja aju aktiivsus kasvab. Huvitav on see, et kui moonutatud on sõna keskmine osa, märkab lugeja viga hiljem kui siis, kui moonutatud on sõna algus. Sõna algus on lugejale kõige tähtsam.“\n\nKuidas te tulemusi hindate?\n\n„Andmeid on palju, nii et hindamine võtab kaua aega. Lisaks silmade ja aju andmetele palume pärast igat lauset katsealust ise hinnata, kui raske lause oli. Selline hindamine on muidugi isiklik, kuid see näitab, kas inimese enda tunne langeb kokku sellega, mida näitavad masinad.“\n\nKas katsealuseid on raske leida?\n\n„Õnneks mitte. Inimeste valmisolek teadust aidata on suur. Paljud tulevad lihtsalt huvi pärast. Mõni katsealune käib meil regulaarselt, igal aastal uue katse jaoks. Selline valmisolek on meile väga väärtuslik.“\n\nKas teie uurimus piirdub ainult nendega, kelle emakeel on eesti keel?\n\n„Ei, uurimus ei ole kunagi piirdunud ainult nendega. Uurime ka neid, kes õpivad eesti keelt võõrkeelena. Nemad loevad pikki sõnu teisiti: nende silm peatub sõnal kauem ja hüppab sageli tagasi. Kui aga inimene loeb eesti keeles regulaarselt, muutub tema lugemine aasta või paari jooksul peaaegu samasuguseks kui neil, kes on eesti keelt rääkinud lapsest saati.“\n\nMida olete lugemise kohta kõige rohkem õppinud?\n\n„Seda, et lugemine on nagu kett, mille iga lüli on tähtis. Üks lüli on silm, teine tähelepanu, kolmas mälu ja neljas see, kui palju sõnu inimene teab. Kui üks lüli on nõrk, muutub kogu lugemine aeglaseks. Hea uudis on aga see, et iga lüli saab harjutada. Minu soovitus on lihtne: lugege regulaarselt, iga päev natuke.“\n\nKüsimused:\nMida Karolin uurib?\nTa uurib, kuidas lugeja pikki sõnu loeb ja milline mehhanism selle taga on.\nKuidas katse käib?\nKatsealune loeb ekraanilt lauseid, kaamera jälgib tema silmi ja mõne katsealuse puhul mõõdetakse ka aju aktiivsust.\nMis juhtub, kui sõna on moonutatud?\nSilm peatub sellel kauem ja aju aktiivsus kasvab.\nMiks on hindamine pikk töö?\nAndmeid on palju ja lisaks masinate andmetele hindavad katsealused ka ise, kui raske lause oli.\nKas Karolin uurimus piirdub ainult nendega, kelle emakeel on eesti keel?\nEi, uurimus ei ole nendega piirdunud: Karolin uurib ka neid, kes õpivad eesti keelt võõrkeelena.\nMida soovitab Karolin lugejatele?\nTa soovitab lugeda regulaarselt, iga päev natuke, sest iga lüli saab harjutada."
+    },
+    {
+      "title": "Tõlkija ja meremehe raamat",
+      "summary": "A translator in Kuressaare translates a true-life memoir of a miner who became a sailor and an aircraft mechanic, and a retired sailor next door helps her with the sea words.",
+      "newWords": [
+        "tõsijutt",
+        "kaevur",
+        "kaarik",
+        "karakter",
+        "tüürpoord",
+        "raevukas",
+        "manööver",
+        "angaar",
+        "korvama"
+      ],
+      "text": "Ille on tõlkija ja elab Kuressaares. Praegu tõlgib ta inglise keelest raamatut, mis on tõsijutt: üks mees kirjutab selles oma pikast ja vaheldusrikkast elust. Kirjastus palus raamatu tõlkida aasta lõpuks.\n\nRaamatu autor oli nooruses kaevur. Ta töötas kümme aastat kaevanduses sügaval maa all. Esimesed peatükid kirjeldavad kaevurite tööd: pimedust, tolmu, raskeid masinaid ja sõprust, mis tekib, kui kõik sõltuvad üksteisest. Ille ei teadnud kaevurite tööst peaaegu midagi. Ta luges Ida-Virumaa kaevandustest ja helistas ühele vanale kaevurile Jõhvis, kes selgitas talle hea meelega, mida iga masin teeb.\n\nJuba raamatu alguses tuli ette üks raske sõna. Autor kirjutab, et tema vanaisa sõitis igal pühapäeval hobusega linna. Originaalis on selle sõiduki jaoks sõna, millel eesti keeles täpset vastet ei ole. Ille mõtles kaua, kas kirjutada „vanker“ või „kaarik“. Lõpuks valis ta kaariku, sest kaarik on kerge ja ilus sõiduk, millega ei veetud koormat, vaid sõideti külla. Nii sobis kaarik ka vanaisa karakteriga, keda autor kirjeldab rahuliku ja uhke mehena. Ille arvab, et tõlkija peab tundma iga inimese karakterit, mitte ainult tema sõnu.\n\nKolmekümne aasta vanuselt läks autor merele ja töötas kaksteist aastat madrusena. Meresõnadega oli Illel kõige rohkem tegemist. Õnneks elab tema naaber Vootele, kes sõitis ise kolmkümmend aastat laevadel. Vootele selgitas, et tüürpoord on laeva parem pool, kui seista ja vaadata ette, ja pakpoord on vasak pool. „Laeval ei öelda „paremal“, vaid „tüürpoordis“,“ ütles ta. „Siis ei tule kunagi segadust.“\n\nÜhes peatükis kirjeldab autor raevukat tormi Põhjamerel. Raevukas tuul viis laeva kursilt kõrvale ja kapten pidi tegema järsu manöövri, et laine ei tabaks laeva külje pealt. Ille tõlkis selle peatüki kolm korda. Vootele luges tõlke läbi ja ütles, et manööver on kirjeldatud õigesti, kuid üks sõna oli vale: laev ei pööranud vasakule, vaid tüürpoordi poole. Torm vaibus hommikuks ja kõik jõudsid terve nahaga sadamasse.\n\nRaamatu viimases osas töötab autor lennujaamas ja parandab lennukeid. Tema töökoht on suur angaar, kuhu mahub korraga kolm lennukit. Talvel on angaaris külm ja autor kirjeldab, kuidas mehed jõid seal kuuma teed. Angaari sõnadega oli Illel lihtsam, sest tema vend on lennukimehaanik.\n\nÜkski tõlge ei ole täpselt sama mis originaal. Mõni nali või sõnamäng ei lähe teise keelde üle. Sellisel juhul püüab Ille kaotust korvata mujal: ta leiab samas peatükis teise koha, kus eesti keel lubab midagi sarnast teha. Kirjastus korvas talle ka sõidukulud, kui ta käis Jõhvis kaevuriga rääkimas.\n\nKui raamat oli valmis, kinkis Ille ühe eksemplari Vootelele. Vootele luges selle ühe nädalaga läbi. „See on tõsijutt,“ ütles ta, „ja tõlge on ka tõsine töö.“\n\nKüsimused:\nMillest Ille tõlgitav raamat räägib?\nSee on tõsijutt mehest, kes oli kaevur, madrus ja lennukite parandaja.\nMiks valis Ille sõna „kaarik“?\nSest kaarik on kerge ja ilus sõiduk, millega sõideti külla, ja see sobis vanaisa karakteriga.\nMis on tüürpoord?\nTüürpoord on laeva parem pool, kui seista ja vaadata ette.\nMis juhtus raevuka tormi ajal?\nKapten pidi tegema järsu manöövri, et laine ei tabaks laeva külje pealt.\nKus töötas autor raamatu viimases osas?\nTa parandas lennukeid suures angaaris, kuhu mahub korraga kolm lennukit.\nKuidas püüab Ille korvata seda, mis tõlkes kaduma läheb?\nTa leiab samas peatükis teise koha, kus eesti keel lubab midagi sarnast teha."
+    },
+    {
+      "title": "Laenata või luua?",
+      "summary": "A column on whether a new thing should get a borrowed international word or a home-made one: both sides argue well, words look for their own kind, and a word only exists while people use it.",
+      "newWords": [
+        "ümbritsev",
+        "põhjendama",
+        "omasugune",
+        "rohke",
+        "radikaalne",
+        "siinkohal",
+        "paremus",
+        "eksistents"
+      ],
+      "text": "Uus asi vajab nime. Eveliis kirjutab oma kolumnis sellest, kas uue asja jaoks tuleks sõna laenata või ise luua.\n\nÜmbritsev maailm muutub kiiremini kui keel. Igal aastal tuleb meie ellu uusi asju, uusi ameteid ja uusi tegevusi, ja kõik need vajavad nime. Kui uus asi ilmub, on nimi tavaliselt juba olemas, ainult et teises keeles. Siis tuleb otsustada: kas võtame selle sõna üle või loome oma?\n\nMõlemal poolel on oma pooldajad ja mõlemad oskavad oma seisukohta hästi põhjendada. Laenamise pooldajad põhjendavad oma valikut sellega, et rahvusvaheline sõna on kõigile kohe arusaadav. Kui ümbritsev maailm räägib samade sõnadega, on lihtsam õppida, reisida ja koos töötada. Pealegi on laenamine täiesti tavaline: eesti keel on sajandeid laenanud sõnu oma naabritelt ja need sõnad on ammu omaks võetud.\n\nTeine pool põhjendab oma seisukohta teisiti. Nende meelest on omaloodud sõna parem, sest see sobib keelde ja selle tähendus on arusaadav ka siis, kui sa seda sõna varem kuulnud ei ole. Hea näide on „arvuti“: sõna on tehtud verbist „arvutama“ ja igaüks saab aru, et tegemist on masinaga, mis arvutab.\n\nSõnad on selles mõttes nagu inimesed: nad otsivad omasuguseid. Uus sõna jääb kergemini keelde, kui see sarnaneb omasugustega, kui see kõlab nagu eesti sõna ja seda on lihtne käänata. Sõna, mis jääb keeles võõraks, ununeb sageli kiiresti, isegi kui seda alguses kasutati rohkelt.\n\nSada aastat tagasi tehti eesti keele jaoks väga radikaalseid ettepanekuid. Mõned uuendajad tahtsid muuta palju sõnu ja isegi grammatikat. Paljud radikaalsed ideed ei läinud keelde, kuid mõned uued sõnad on nüüd nii tavalised, et keegi ei mäleta enam, kui uued need kunagi olid. Ka tänapäeval tuleb keelde igal aastal rohkelt uusi sõnu. Mõni neist jääb püsima, mõni kaob vaikselt.\n\nSiinkohal pean tunnistama, et minul ei ole selget vastust. Ma ei usu, et ühel teel oleks teise ees selge paremus. Laenatud sõna paremus on selles, et see on kiire ja täpne. Omaloodud sõna paremus on selles, et see on keelele loomulik. Mõnikord sobib üks, mõnikord teine.\n\nÜks asi on minu meelest siiski kindel. Sõna eksistents sõltub inimestest. Sõna elab ainult siis, kui seda kasutatakse: kõneldes, kirjutades, e-kirjades, poes ja köögis. Ka iga keele eksistents sõltub samast. Keel püsib elus, kui sellega saab rääkida kõigest, mida meie ümbritsev elu pakub.\n\nSiinkohal lõpetan ja annan sõna lugejatele. Millise sõna te ise viimati välja mõtlesite?\n\nKüsimused:\nMiks tuleb meil pidevalt otsustada, kas sõna laenata või ise luua?\nÜmbritsev maailm muutub kiiresti ja igal aastal tuleb uusi asju, mis vajavad nime.\nKuidas põhjendavad laenamise pooldajad oma valikut?\nNad põhjendavad seda sellega, et rahvusvaheline sõna on kõigile kohe arusaadav.\nMiks on sõna „arvuti“ hea näide?\nSõna on tehtud verbist „arvutama“ ja igaüks saab aru, et see on masin, mis arvutab.\nMida tähendab, et sõnad otsivad omasuguseid?\nUus sõna jääb kergemini keelde, kui see sarnaneb omasugustega ja kõlab nagu eesti sõna.\nKas Eveliisi meelest on ühel teel teise ees selge paremus?\nEi, tema meelest on mõlemal oma paremus ja mõnikord sobib üks, mõnikord teine.\nMillest sõltub Eveliisi sõnul sõna eksistents?\nSõna eksistents sõltub inimestest: sõna elab ainult siis, kui seda kasutatakse."
+    },
+    {
+      "title": "Täringud ja sõnad",
+      "summary": "A teacher from Rakvere takes his pupils and the school's cheer squad to a word game tournament in Tallinn, where a nervous boy outwits a higher-rated player and the world champion is guest of honour.",
+      "newWords": [
+        "täring",
+        "kisakoor",
+        "garderoob",
+        "tualettruum",
+        "sponsor",
+        "reiting",
+        "brünett",
+        "maailmameister",
+        "kavaldama"
+      ],
+      "text": "Erkki on Rakveres eesti keele õpetaja. Igal kevadel viib ta oma õpilased Tallinnasse sõnamängu turniirile. Mäng on lihtne: karbis on kuusteist täringut ja iga täringu igal küljel on üks täht. Mängija raputab karpi, täringud kukuvad laual oma kohale ja kolme minutiga tuleb leida võimalikult palju sõnu. Sõna tähed peavad laual olema kõrvuti. Mida pikem sõna, seda rohkem punkte see annab.\n\nSel aastal sõitis Tallinnasse viis õpilast. Nendega tuli kaasa ka kooli kisakoor, kuus tüdrukut ja kaks poissi. Erkki ei olnud kindel, kas sõnamängu turniiril on kisakoorile kohta, sest mängu ajal peab saalis olema vaikus. Korraldajad lubasid aga, et kisakoor võib esineda vaheaegadel.\n\nTurniir toimus suures saalis Tallinna kesklinnas. Kõigepealt viisid õpilased oma jakid garderoobi. Garderoobis töötas lahke vanem naine, kes andis igaühele numbri ja soovis edu. Noorim õpilane, 12-aastane Johan, oli nii närvis, et käis enne algust kolm korda tualettruumis. „Tualettruum on koridori lõpus,“ ütles garderoobi naine talle naeratades, kui ta esimest korda teed küsis.\n\nTurniiri sponsor oli üks raamatupood. Sponsor andis auhindadeks raamatuid ja iga mängija sai kingituseks pliiatsi ja vihiku. Saali seinal oli suur ekraan, kus näidati iga mängija reitingut. Reiting arvutatakse kõigi varasemate mängude põhjal: mida kõrgem reiting, seda tugevam mängija. Erkki õpilastel oli reiting veel madal, sest nad mängisid alles teist aastat.\n\nTurniiri aukülaline oli pikk brünett, kes on selle mängu maailmameister. Internetis mängivad seda eesti keeles inimesed üle kogu maailma ja eelmisel aastal tuli maailmameistriks just tema. Maailmameister rääkis enne turniiri, kuidas ta harjutab. „Ma loen palju,“ ütles brünett. „Mida rohkem sõnu sa tead, seda rohkem sa laual näed.“\n\nEsimeses voorus mängis Johan ühe tugeva mängija vastu, kelle reiting oli palju kõrgem. Johan ei püüdnudki leida rohkem lühikesi sõnu kui vastane. Selle asemel otsis ta pikki sõnu laua nurkadest, kuhu teised harva vaatavad. Nii kavaldas ta vastase üle: ta leidis sõnad „raamatukogu“ ja „ülikool“ ning võitis vooru. Vastane surus pärast tema kätt ja küsis, kuidas ta nii pikad sõnad leidis. „Ma teadsin, et kiiruses ma teda ei võida, nii et püüdsin teda üle kavaldada,“ selgitas Johan hiljem Erkkile.\n\nVaheajal esines kisakoor. Nad hüüdsid Rakvere nime ja tegid sõnadest ja tähtedest lühikese etenduse. Saal plaksutas ja isegi maailmameister naeris.\n\nLõpuks tuli Rakvere võistkond seitsmendaks. Johan võitis kolm vooru viiest ja tema reiting tõusis. Kodu poole sõites raputas ta bussis mõttes täringuid ja otsis sõnu igalt sildilt.\n\nKüsimused:\nKuidas sõnamäng käib?\nMängija raputab karpi, milles on kuusteist täringut, ja kolme minutiga tuleb leida võimalikult palju sõnu.\nMillal võis kisakoor esineda?\nKisakoor võis esineda vaheaegadel, sest mängu ajal peab saalis olema vaikus.\nMida andis turniiri sponsor?\nSponsor andis auhindadeks raamatuid ja igale mängijale pliiatsi ja vihiku.\nMida näitab mängija reiting?\nReiting näitab, kui tugev on mängija: mida kõrgem reiting, seda tugevam mängija.\nKes oli turniiri aukülaline ja mida ta soovitas?\nAukülaline oli pikk brünett, mängu maailmameister, ja ta soovitas palju lugeda.\nKuidas kavaldas Johan tugevama vastase üle?\nTa otsis pikki sõnu laua nurkadest, kuhu teised harva vaatavad."
+    },
+    {
+      "title": "Vanaisa portfell",
+      "summary": "A student helps his grandfather, a retired engineer in Viljandi, tidy his study and finds an old building agreement, bent paper clips and a heller coin with an old saying behind it.",
+      "newWords": [
+        "korrastama",
+        "portfell",
+        "elamu",
+        "lepe",
+        "kokkulepitud",
+        "painutama",
+        "heller"
+      ],
+      "text": "Aksel õpib Tallinnas ajalugu. Ühel nädalavahetusel sõitis ta Viljandisse oma vanaisa Arvidi juurde, sest vanaisa oli palunud abi. Arvid on 88-aastane, aga tal on selge pea ja kindel käsi. Ta tahtis oma kabinetti korrastada ja vanad paberid läbi vaadata.\n\nKorrastamist alustasid nad riiulist. Riiuli kõige ülemises osas oli vana pruun portfell. Portfelli nahk oli kulunud ja lukk käis raskelt. „Selle portfelliga käisin ma kolmkümmend aastat tööl,“ ütles vanaisa. Arvid oli insener ja ehitas Viljandisse mitu elamut.\n\nPortfellis olid joonised, kirjad ja üks paks paberipakk. Kõige peal oli lepe, mis oli kirjutatud kirjutusmasinal 1964. aastal. Leppes oli kirjas, et vanaisa firma ehitab Viljandi servale uue elamu, kus on 24 korterit. Aksel luges lepet kaua ja märkas, et keel oli hoopis teistsugune kui tänapäeval. Laused olid pikad ja ametlikud ning paljusid sõnu ei kasutata enam üldse.\n\n„Mis siin kirjas on?“ küsis Aksel ja näitas üht lauset. Vanaisa naeris. „See tähendab lihtsalt, et töö peab olema valmis kokkulepitud ajal,“ ütles ta. „Ja kokkulepitud hinnaga. Need kaks asja olid kirjas igas leppes.“ Ta rääkis, et elamu sai valmis kaks kuud varem, kui oli kokku lepitud, ja ehitajad said selle eest preemia.\n\nPaberite vahel olid ka vanad kirjaklambrid. Mõned klambrid olid ajaga kõveraks läinud. Vanaisa painutas ühe klambri sõrmedega sirgeks ja pani lehed uuesti kokku. „Vanasti ei visatud midagi ära,“ ütles ta. „Kui klamber läks kõveraks, siis painutati see lihtsalt sirgeks.“\n\nPortfelli põhjast leidis Aksel väikese vasest mündi. Mündil oli tundmatu kiri. „See on heller,“ selgitas vanaisa. „Käisin 1972. aastal Prahas ehitajate kokkutulekul. Heller oli seal kõige väiksem münt, sada hellerit oli üks kroon.“ Ta rääkis, et heller oli nii väike raha, et selle eest ei saanud midagi osta. „Kui me ütlesime, et miski ei maksa hellerit, tähendas see, et see ei maksa üldse midagi.“ Aksel kirjutas selle väljendi oma märkmikku.\n\nÕhtuks oli kabinet korrastatud. Joonised olid kaustades, kirjad kastis ja lepe läks tagasi portfelli. Aksel tegi kõigist paberitest pildid, et need oleksid alles ka arvutis. Vanaisa vaatas oma korrastatud riiulit ja oli rahul.\n\nJärgmisel päeval jalutasid nad koos linna serva ja vaatasid seda elamut. Maja oli värvitud ja seal elasid nüüd noored pered. „Maja on ikka veel terve,“ ütles vanaisa uhkusega. „Kokkulepitud ajal valmis ja seisab ikka.“\n\nKüsimused:\nMiks sõitis Aksel Viljandisse?\nVanaisa Arvid tahtis oma kabinetti korrastada ja oli palunud Akselilt abi.\nMis oli vanaisa portfellis?\nSeal olid joonised, kirjad, vana lepe ja väike münt.\nMis oli leppes kirjas?\nLeppes oli kirjas, et vanaisa firma ehitab Viljandi servale uue elamu, kus on 24 korterit.\nMida tegi vanaisa kõverate klambritega?\nTa painutas need sõrmedega sirgeks ja pani lehed uuesti kokku.\nMis on heller?\nHeller oli väike münt, mida vanaisa nägi Prahas: sada hellerit oli üks kroon.\nMilline oli elamu järgmisel päeval?\nMaja oli värvitud, seal elasid noored pered ja see oli ikka veel terve."
+    },
+    {
+      "title": "Selge keel tervisekeskuses",
+      "summary": "An editor at the Paide health centre rewrites patient leaflets with a doctor: a check-up, side effects, a medicine that neutralises stomach acid, a pain patch, premature babies and cheaper prices.",
+      "newWords": [
+        "arstiabi",
+        "läbivaatus",
+        "kõrvalmõju",
+        "neutraliseerima",
+        "plaaster",
+        "enneaegne",
+        "soodne"
+      ],
+      "text": "Liivika on toimetaja. Ta töötab Paide tervisekeskuses ja tema ülesanne on teha arstide tekstid patsientidele arusaadavaks. Sel kuul kirjutab ta koos arst Taavetiga ümber kõik lehed, mida patsiendid kaasa saavad.\n\n„Arstid kirjutavad sageli nii, nagu nad ülikoolis õppisid,“ ütleb Liivika. „Tekstis on ladina termineid, pikki lauseid ja sõnu, mida tavaline inimene ei tunne. Hea arstiabi ei ole ainult hea ravi. Hea arstiabi tähendab ka seda, et patsient saab aru, mida arst ütleb.“\n\nEsimesena võtsid nad ette lehe, mis kirjeldab iga-aastast läbivaatust. Vana tekst algas pika lausega, milles oli neli võõrsõna. Liivika kirjutas selle ümber: „Läbivaatus võtab umbes pool tundi. Arst mõõdab teie vererõhku, kuulab südant ja kopse ning küsib, kuidas te end tunnete. Kaks tundi enne läbivaatust ärge enam sööge.“ Taavet luges teksti läbi ja ütles, et see on lühem ja täpsem kui vana.\n\nKõige rohkem tööd oli ravimite lehtedega. Iga ravimi juures tuleb kirjeldada, millised kõrvalmõjud sellel võivad olla. Vanas tekstis olid kõrvalmõjud ühes pikas nimekirjas, nii et patsient ei saanud aru, mis on tavaline ja mis ohtlik. Liivika jagas kõrvalmõjud kahte rühma: need, mis on sagedased ja mööduvad ise, ning need, mille korral tuleb kohe arstiga ühendust võtta.\n\nÜhel lehel kirjeldati ravimit, mis aitab, kui maos on liiga palju hapet. Vanas tekstis oli kirjas, et ravim neutraliseerib maohappe. Liivika küsis, kas iga patsient teab, mida tähendab „neutraliseerima“. Taavet arvas, et ei tea. Nii kirjutasid nad: „Ravim neutraliseerib maos liigse happe, see tähendab, et ravim teeb happe nõrgemaks ja kõht ei valuta enam.“ Nõnda jäi sõna alles, kuid selle kõrval on lihtne seletus.\n\nTeine leht oli plaastri kohta, mis aitab valu korral. Patsiendid olid küsinud, kui kaua plaastrit võib kanda. Uues tekstis on kirjas: „Kandke plaastrit kuni kolm päeva. Pange iga uus plaaster naha teise kohta.“\n\nLiivika ja Taavet kirjutasid ümber ka lehe, mis on mõeldud vanematele, kelle laps sündis enneaegselt. Enneaegne laps vajab esimestel kuudel rohkem tähelepanu ja tihedamat läbivaatust. Vanas tekstis olid sõnad, mis tegid vanematele rohkem muret kui vaja. Uus tekst on rahulik ja selgitab samm-sammult, mida vanemad saavad ise teha.\n\nLõpuks kontrollisid nad, kas iga leht annab teada ka sellest, kuidas ravimeid soodsalt osta. Paljudele ravimitele on olemas soodne hind, kui arst kirjutab need retseptiga välja. Liivika kirjutas igale lehele lühikese lause, kust soodsa hinna kohta rohkem teada saab.\n\nKui uued lehed olid valmis, andsid nad need lugeda kümnele patsiendile. Kõik said tekstidest aru. Üks vanem mees ütles: „Esimest korda saan ma aru, mida mu ravim teeb.“ Liivika ütleb, et paremat kiitust ei saagi olla.\n\nKüsimused:\nMis on Liivika ülesanne tervisekeskuses?\nTa teeb arstide tekstid patsientidele arusaadavaks.\nMida tähendab Liivika sõnul hea arstiabi?\nHea arstiabi tähendab ka seda, et patsient saab aru, mida arst ütleb.\nMida teeb arst läbivaatuse ajal?\nArst mõõdab vererõhku, kuulab südant ja kopse ning küsib, kuidas patsient end tunneb.\nKuidas jagas Liivika kõrvalmõjud?\nTa jagas need kahte rühma: sagedased ja mööduvad ning need, mille korral tuleb kohe arstiga ühendust võtta.\nKuidas selgitati uues tekstis sõna „neutraliseerima“?\nRavim teeb happe nõrgemaks ja kõht ei valuta enam.\nMida vajab enneaegne laps?\nEnneaegne laps vajab esimestel kuudel rohkem tähelepanu ja tihedamat läbivaatust."
+    },
+    {
+      "title": "Keelejalutuskäik Tartus",
+      "summary": "A Tartu guide leads Estonian learners from the university campus to the town centre: directions at a crossroads, crossing the river, a market near the town hall and an omelette with chopped dill.",
+      "newWords": [
+        "teejuht",
+        "linnak",
+        "ristmik",
+        "ületamine",
+        "laat",
+        "lähistel",
+        "omlett",
+        "hakkima"
+      ],
+      "text": "Ragne on teejuht Tartus. Tavaliselt näitab ta linna turistidele, kuid kord kuus viib ta jalutuskäigule ka neid, kes õpivad eesti keelt. Selle jalutuskäigu ajal räägitakse ainult eesti keelt. Teejuht räägib aeglaselt ja selgelt ning igaüks võib küsida, kui ta mõnest sõnast aru ei saa.\n\nLaupäeva hommikul kogunes ülikooli linnaku juurde üheksa inimest. Linnak asub kesklinnast paari kilomeetri kaugusel. Seal on uued majad, kus õpitakse loodusteadusi ja arstiteadust, ning nende vahel on suur roheline park. Mikael, kes on pärit Helsingist ja töötab Tartus, oli kaasas esimest korda. „Miks öeldakse „linnak“?“ küsis ta. Ragne selgitas, et linnak on nagu väike linn suure linna sees: mitu maja, mis kuuluvad kokku.\n\nLinnakust läksid nad jala kesklinna poole. Esimesel suurel ristmikul jäi Ragne seisma. „Ristmik on koht, kus kaks tänavat ristuvad,“ ütles ta. „Siin harjutame suundi.“ Igaüks pidi ütlema, kuhu ta ristmikul läheks: otse, paremale või vasakule. Mikael ütles, et läheks vasakule, sest seal on kohvik. Kõik naersid, sest tal oli õigus: kohvik oli tõesti seal.\n\nKesklinnas viis Ragne rühma Emajõe äärde ja nad läksid üle silla teisele kaldale. Jõe ületamine käis kiiresti, kuid silla keskel jäi Ragne seisma ja rääkis, et sajandeid tagasi, kui silda veel polnud, oli jõe ületamine keeruline ja inimesed sõitsid üle paadiga. Sõna „ületamine“ võib tähendada ka raskuste ületamist. „Kui te räägite eesti keeles esimest korda poes, on see ka omamoodi ületamine,“ ütles Ragne. Siis tulid nad sama silla kaudu tagasi.\n\nRaekoja platsil oli sel päeval laat. Talunikud müüsid mett, leiba, juustu ja villaseid kindaid. Ragne ütles, et laadal tuleb kõike küsida eesti keeles. Mikael ostis meepurgi ja küsis müüjalt, kust mesi pärit on. Müüja vastas, et tema talu asub Tartu lähistel, umbes kahekümne kilomeetri kaugusel. „Lähistel tähendab lähedal,“ selgitas Ragne. Laadal oli palju rahvast ja müüjad olid rõõmsad, et keegi tahab nendega eesti keeles rääkida.\n\nLõunaks läksid nad laada lähistel olevasse väikesse kohvikusse. Menüüs oli omlett, mida tehakse kohapeal. Kõik tellisid omleti. Kokk hakkis köögis sibulat ja tilli ning Ragne kasutas juhust, et õpetada uut verbi. „Hakkima tähendab väga väikesteks tükkideks lõikama,“ ütles ta. „Kokk hakib praegu tilli.“ Kui omlett lauale toodi, oli selle peal tõesti peeneks hakitud till.\n\nPärast lõunat jalutasid nad tagasi jõe äärde. Ragne küsis, mida igaüks sel päeval õppis. Mikael ütles, et nüüd teab ta sõnu „linnak“, „ristmik“ ja „laat“ ning oskab tellida omletti. Ragne oli rahul. Tema meelest on teejuhi töö parim osa just see hetk, kui võõras sõna saab tuttavaks.\n\nKüsimused:\nKes käivad Ragnega jalutuskäigul kord kuus?\nKord kuus viib teejuht Ragne jalutuskäigule neid, kes õpivad eesti keelt.\nMis on linnak?\nLinnak on nagu väike linn suure linna sees: mitu maja, mis kuuluvad kokku.\nMida harjutati ristmikul?\nRistmikul harjutati suundi: otse, paremale ja vasakule.\nMida võib sõna „ületamine“ veel tähendada?\nSee võib tähendada ka raskuste ületamist, näiteks esimest vestlust eesti keeles.\nKus asub müüja talu?\nMüüja talu asub Tartu lähistel, umbes kahekümne kilomeetri kaugusel.\nMida tegi kokk köögis, kui Ragne õpetas uut verbi?\nKokk hakkis sibulat ja tilli omleti jaoks."
+    }
+  ]
+}
