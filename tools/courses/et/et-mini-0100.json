@@ -1,0 +1,207 @@
+{
+  "id": "et-mini-0100",
+  "rankUpTo": 100,
+  "level": "A1",
+  "title": "Kodus ja perega",
+  "description": "Ten short, simple stories about home, family and everyday moments in Estonia.",
+  "topic": "Home and family",
+  "names": [
+    "Kati",
+    "Siim",
+    "Liis",
+    "Tartu",
+    "Pärnu",
+    "Mart",
+    "Kadri",
+    "Kertu",
+    "Viljandi",
+    "Priit",
+    "Laura",
+    "Narva",
+    "Ülle",
+    "Tõnu",
+    "Kuressaare",
+    "Hendrik",
+    "Rakvere",
+    "Maarja",
+    "Saaremaa",
+    "Kärt",
+    "Haapsalu",
+    "Oskar",
+    "Andres",
+    "Tallinn",
+    "Robin",
+    "Mia",
+    "Võru"
+  ],
+  "lessons": [
+    {
+      "title": "Uus maja",
+      "summary": "Kati and Siim have a house in Tartu; Kati's mother asks about it.",
+      "newWords": [
+        "olema",
+        "see",
+        "ei",
+        "tema",
+        "ja",
+        "mis",
+        "kas",
+        "hea",
+        "jah",
+        "suur",
+        "ema",
+        "ütlema",
+        "nemad",
+        "tulema"
+      ],
+      "text": "Kati ja Siim on Tartus. Neil on maja. See ei ole suur, aga see on hea.\n\nLiis on Kati ema. Liis on Pärnus. Ta ei ole Tartus.\n\n„Ema, meil on maja!“ ütleb Kati telefonis.\n\n„Mis? Teil on maja?“ ütleb ema. „Kas see on suur maja?“\n\n„Ei, see ei ole suur,“ ütleb Kati. „Aga see on hea.“\n\n„Kas see on hea maja?“ ütleb Liis.\n\n„Jah, see on hea maja,“ ütleb Siim.\n\n„Hea!“ ütleb Liis. „Jah, ma tulen Tartusse!“\n\nKüsimused:\nKus on Kati ja Siim?\nNad on Tartus.\nMis neil on?\nNeil on maja.\nKas maja on suur?\nEi, see ei ole suur, aga see on hea.\nKes on Liis?\nLiis on Kati ema.\nKas Liis tuleb Tartusse?\nJah, ta tuleb Tartusse."
+    },
+    {
+      "title": "Tere, Mart!",
+      "summary": "Kadri goes to see Mart at his work in Pärnu.",
+      "newWords": [
+        "mina",
+        "sina",
+        "meie",
+        "minema",
+        "kus",
+        "siin",
+        "seal",
+        "töö",
+        "päev",
+        "tere"
+      ],
+      "text": "Mart ja Kadri on Pärnus. Mardi töö on ka Pärnus. Päeval on Mart tööl.\n\nKadri ei ole tööl. Täna on tal vaba päev.\n\n„Tere, Mart!“ ütleb Kadri telefonis. „Kus sa oled?“\n\n„Tere! Ma olen tööl,“ ütleb Mart. „Kus sina oled?“\n\n„Mina olen kodus,“ ütleb Kadri. „Kas ma tulen sinu juurde tööle?“\n\n„Jah, tule!“ ütleb Mart. „Ma olen siin.“\n\nKadri läheb Mardi tööle. Mart on seal.\n\n„Tere!“ ütleb Mart. „Sa tulid!“\n\n„Jah, ma tulin,“ ütleb Kadri. „Kas see on sinu töö?“\n\n„Jah, see on meie töö,“ ütleb Mart. „Siin on hea.“\n\n„Ja nüüd läheme meie koju,“ ütleb Kadri. Mart ja Kadri lähevad koju.\n\nKüsimused:\nKus on Mart?\nMart on tööl.\nKas Kadri on tööl?\nEi, Kadri ei ole tööl. Tal on vaba päev.\nKuhu Kadri läheb?\nKadri läheb Mardi tööle.\nKas Mart on seal?\nJah, Mart on seal."
+    },
+    {
+      "title": "Ema teeb tööd",
+      "summary": "Kertu wants to know why her mother is working on a free day, and helps her.",
+      "newWords": [
+        "tegema",
+        "tahtma",
+        "teadma",
+        "kõik",
+        "aga",
+        "nüüd",
+        "kui",
+        "miks",
+        "siis"
+      ],
+      "text": "Kertu ja ema on Viljandis. Täna on vaba päev, aga ema teeb tööd. Kertu tahab teada, miks.\n\n„Ema, miks sa nüüd tööd teed?“ ütleb Kertu.\n\n„Ma tean, et täna on vaba päev,“ ütleb ema. „Aga see töö on suur. Ma tahan kõik täna teha.“\n\n„Kas mina teen ka?“ ütleb Kertu.\n\n„Jah, kui sa tahad,“ ütleb ema.\n\n„Ma tahan!“ ütleb Kertu.\n\nNüüd teevad Kertu ja ema tööd. Siis on kõik tehtud.\n\n„Kui töö on tehtud, siis on meil vaba päev,“ ütleb ema. „Mis sa nüüd tahad teha?“\n\n„Ma tean!“ ütleb Kertu. „Nüüd me läheme Tartusse.“\n\nKüsimused:\nKus on Kertu ja ema?\nNad on Viljandis.\nMis ema teeb?\nEma teeb tööd.\nMiks ema tööd teeb?\nTöö on suur. Ema tahab kõik täna teha.\nKas Kertu teeb ka tööd?\nJah, Kertu teeb ka tööd.\nMis on siis, kui töö on tehtud?\nSiis on neil vaba päev."
+    },
+    {
+      "title": "Kaks asja",
+      "summary": "Priit has two things from their mother and gives one to Laura.",
+      "newWords": [
+        "saama",
+        "pidama",
+        "andma",
+        "võtma",
+        "üks",
+        "kaks",
+        "asi",
+        "ka",
+        "mitte"
+      ],
+      "text": "Priit ja Laura on Narvas. Priidul on kaks asja. Ema andis need talle. Laura tahab ka üht asja.\n\n„Mul on kaks asja,“ ütleb Priit. „Üks on minu ja üks on sinu.“\n\n„Mis asjad need on?“ ütleb Laura.\n\n„Ma ei tea,“ ütleb Priit. „Ema ütles, et üks asi on sinu.“\n\nLaura võtab ühe asja. „Kas ma saan selle?“ ütleb ta.\n\n„Jah, sa saad,“ ütleb Priit. „Aga mitte see! See on minu. Võta see.“\n\n„Hea,“ ütleb Laura. Nüüd on tal tema asi. „Aga kas ma pean sulle ka midagi andma?“\n\n„Ei, sa ei pea mitte midagi andma,“ ütleb Priit. „Ema andis kaks asja. Nüüd on sul üks ja mul ka üks.“\n\nKüsimused:\nMis Priidul on?\nPriidul on kaks asja.\nKes andis need asjad?\nEma andis need asjad.\nKas Laura saab ühe asja?\nJah, Laura saab ühe asja.\nKas Laura peab Priidule midagi andma?\nEi, ta ei pea Priidule midagi andma."
+    },
+    {
+      "title": "Mees teel",
+      "summary": "On the road to Kuressaare, Ülle meets a man who talks with everybody.",
+      "newWords": [
+        "teie",
+        "oma",
+        "kes",
+        "nägema",
+        "rääkima",
+        "mees",
+        "inimene",
+        "tee",
+        "nagu",
+        "küll"
+      ],
+      "text": "Ülle on teel Kuressaarde. Ta läheb oma ema juurde. Teel näeb ta üht meest. Mees räägib inimestega.\n\n„Tere!“ ütleb mees. „Kes teie olete?“\n\n„Mina olen Ülle,“ ütleb Ülle. „Ma lähen Kuressaarde oma ema juurde. Aga kes teie olete?“\n\n„Mina olen Tõnu,“ ütleb mees. „Ma olen siin teel ja ma näen palju inimesi. Ma räägin nendega.“\n\n„Miks te nendega räägite?“ ütleb Ülle.\n\n„Ma tahan rääkida,“ ütleb Tõnu. „Inimesed on nagu raamatud. Kui sa nendega räägid, siis sa tead, kes nad on.“\n\n„See on küll hea,“ ütleb Ülle. Nüüd räägib ka Ülle palju, nagu Tõnu.\n\n„Te räägite küll palju!“ ütleb Ülle.\n\n„Head teed!“ ütleb Tõnu. Ülle läheb oma teed.\n\nKüsimused:\nKuhu Ülle läheb?\nÜlle läheb Kuressaarde oma ema juurde.\nKeda Ülle teel näeb?\nTa näeb teel üht meest.\nKes see mees on?\nSee mees on Tõnu.\nMis Tõnu teeb?\nTõnu räägib inimestega."
+    },
+    {
+      "title": "Isa ootab",
+      "summary": "Hendrik asks his father to help him; the father waits for him and helps.",
+      "newWords": [
+        "võima",
+        "aitama",
+        "paluma",
+        "tänama",
+        "ootama",
+        "kuulma",
+        "vaatama",
+        "isa",
+        "ainult",
+        "juba",
+        "käsi"
+      ],
+      "text": "Hendrik on Rakveres. Tal on suur töö. Ta ei saa seda üksi teha. Ainult isa saab aidata. Hendrik palub isalt abi.\n\n„Isa, kas sa saad mind aidata?“ ütleb Hendrik. „Palun!“\n\n„Jah, ma võin sind aidata,“ ütleb isa. „Ma tulen. Oota mind!“\n\nHendrik ootab. Ta vaatab teed. Siis ta kuuleb autot. Ta kuuleb isa häält. Isa on juba siin.\n\n„Tere, isa!“ ütleb Hendrik. „Ma tänan sind, et sa tulid.“\n\n„Sa võid mind alati paluda,“ ütleb isa. „Vaata, mul on ainult kaks kätt, aga need on head käed.“\n\nIsa vaatab tööd. „See ei ole suur töö,“ ütleb ta. „Tee nii, nagu ma ütlen.“\n\nHendrik teeb nii, nagu isa ütleb. Nad teevad tööd ja juba ongi töö tehtud.\n\n„Ma tänan sind, isa!“ ütleb Hendrik.\n\nKüsimused:\nMida Hendrik isalt palub?\nTa palub, et isa teda aitaks.\nMida Hendrik teeb, kui ta isa ootab?\nTa vaatab teed.\nKas isa tuleb?\nJah, isa tuleb ja aitab Hendrikut.\nKas töö on suur?\nEi, see ei ole suur töö."
+    },
+    {
+      "title": "Ema tuleb tagasi",
+      "summary": "Maarja's mother comes back to Tartu after a year away and thinks about her life.",
+      "newWords": [
+        "aeg",
+        "aasta",
+        "elu",
+        "mõtlema",
+        "arvama",
+        "ise",
+        "teine",
+        "hästi",
+        "siia",
+        "tagasi"
+      ],
+      "text": "Maarja ema oli üks aasta Saaremaal. Nüüd tuleb ta tagasi Tartusse.\n\n„Tere, ema!“ ütleb Maarja. „Kas sul on kõik hästi?“\n\n„Jah, mul on hästi,“ ütleb ema. „Aga aeg läks nii kiiresti. Üks aasta on juba läinud.“\n\n„Mis sa arvad, kas sa tuled nüüd siia tagasi?“ ütleb Maarja.\n\n„Ma mõtlen,“ ütleb ema. „Ma ei tea seda veel ise. Saaremaal on teine elu. Seal on aega. Aga siin on minu elu ka. Siin oled sina.“\n\nEma mõtleb. Siis ta ütleb: „Ma arvan, et ma tulen siia tagasi. Ma tahan ise näha, kuidas teil läheb.“\n\n„Hea!“ ütleb Maarja. „Siis on meil aega. Sa näed ise, et meil on siin hästi.“\n\nKüsimused:\nKus oli Maarja ema?\nTa oli üks aasta Saaremaal.\nKuhu ema nüüd tuleb?\nTa tuleb tagasi Tartusse.\nMis on Saaremaal?\nSaaremaal on teine elu. Seal on aega.\nMis ema arvab?\nTa arvab, et ta tuleb siia tagasi."
+    },
+    {
+      "title": "Kus see on?",
+      "summary": "Kärt cannot find a thing; nobody knows where it is, then she finds it where she left it.",
+      "newWords": [
+        "leidma",
+        "panema",
+        "jääma",
+        "jätma",
+        "välja",
+        "pea",
+        "miski",
+        "keegi",
+        "et",
+        "kuidas"
+      ],
+      "text": "Kärt on Haapsalus. Ta tahab minna välja, aga ta ei leia ühte asja.\n\n„Kus see on?“ ütleb Kärt. „Ma ei tea, kuhu ma selle panin.“\n\nTa vaatab siin ja seal. Ta ei leia midagi.\n\n„Kas keegi teab, kus see on?“ ütleb ta.\n\nKeegi ei tea. Kärt mõtleb. „Mis mu peaga on?“ ütleb ta. „Kuidas see nii on? Kuidas ma selle leian?“\n\nSiis ta teab. Ta jättis selle tööle. Asi jäi tööle.\n\n„See jäi tööle!“ ütleb Kärt. „Ma tean, et see on seal. Ma jätsin selle sinna. Mul ei olnud seda peas.“\n\nKärt läheb tööle. Asi on seal, kuhu ta selle jättis. Nüüd ta leiab selle. „Siia ma selle panin!“ ütleb ta. Ta on nii rõõmus, et läheb kohe välja.\n\nKüsimused:\nMida Kärt teha tahab?\nTa tahab minna välja.\nKas Kärt leiab oma asja?\nEi, ta ei leia midagi.\nKas keegi teab, kus asi on?\nEi, keegi ei tea.\nKuhu jättis Kärt selle asja?\nTa jättis selle tööle."
+    },
+    {
+      "title": "Vana tuttav",
+      "summary": "After work Oskar meets a man he knows from Pärnu; they shake hands and talk.",
+      "newWords": [
+        "tundma",
+        "hakkama",
+        "lihtsalt",
+        "kord",
+        "peale",
+        "pärast",
+        "eest",
+        "ju"
+      ],
+      "text": "Pärast tööd läheb Oskar Pärnus välja. Teel näeb ta üht meest. Oskar tunneb seda meest. See on Andres.\n\n„Tere, Andres!“ ütleb Oskar. „Kas sa tunned mind?“\n\n„Oskar! Muidugi ma tunnen sind,“ ütleb Andres. Ta annab Oskarile käe. „Ma olin siin üks kord, aga see oli ammu.“\n\n„Mis sa nüüd teed?“ ütleb Oskar.\n\n„Ma hakkan siin tööle,“ ütleb Andres. „Pärast seda, kui ma Tallinnast tulin, ootasin ma lihtsalt. Nüüd hakkab mul uus elu.“\n\n„See on ju hea!“ ütleb Oskar. „Aitäh, et sa mulle ütlesid. Tule peale tööd minu juurde.“\n\n„Hea küll,“ ütleb Andres. „Ma tulen. Aitäh sulle selle eest. Sa oled ju vana sõber.“\n\n„Mis sa tänad?“ ütleb Oskar. „Selle eest ei pea tänama. Lihtsalt tule. Me ootame sind.“\n\nKüsimused:\nKeda Oskar teel näeb?\nTa näeb Andrest.\nKas Oskar tunneb Andrest?\nJah, Oskar tunneb Andrest.\nMis Andres hakkab tegema?\nTa hakkab Pärnus tööle.\nMitu korda oli Andres Pärnus?\nTa oli Pärnus üks kord.\nMillal Andres Oskari juurde tuleb?\nTa tuleb peale tööd."
+    },
+    {
+      "title": "Veel natuke",
+      "summary": "Robin and Mia ask their mother to let them stay outside a little longer.",
+      "newWords": [
+        "laskma",
+        "või",
+        "kuid",
+        "palju",
+        "veel",
+        "nii",
+        "väga"
+      ],
+      "text": "Robin ja Mia on Võrus. Nad on väljas ja neil on väga hea.\n\nEma tuleb. „Nüüd on aeg tulla,“ ütleb ta.\n\n„Ema, lase meil veel siin olla!“ ütleb Mia. „Palun! Veel natuke!“\n\n„Teil oli palju aega,“ ütleb ema. „Kuid hea küll. Kas te tulete nüüd või pärast?“\n\n„Pärast!“ ütleb Robin. „Palun, lase meil olla!“\n\n„Te tahate siin nii palju olla?“ ütleb ema. „Hea küll, ma lasen teil veel olla. Aga siis te tulete. Kas jah või ei?“\n\n„Jah!“ ütlevad Robin ja Mia. „Sa oled väga hea ema!“\n\nEma laseb neil olla. Pärast seda tulevad Robin ja Mia koju. Neil oli väga hea päev, kuid nad tahavad veel.\n\n„Nii see on,“ ütleb ema. „Homme on teine päev.“\n\nKüsimused:\nKus on Robin ja Mia?\nNad on Võrus. Nad on väljas.\nMida Mia emalt palub?\nTa palub, et ema laseks neil veel olla.\nKas ema laseb neil olla?\nJah, ema laseb neil veel olla.\nKas Robin ja Mia tahavad veel?\nJah, neil oli väga hea päev, kuid nad tahavad veel."
+    }
+  ]
+}
