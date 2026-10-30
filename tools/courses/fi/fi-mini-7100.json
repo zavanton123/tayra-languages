@@ -1,0 +1,195 @@
+{
+  "id": "fi-mini-7100",
+  "rankUpTo": 7100,
+  "level": "C1",
+  "title": "Kansanterveys",
+  "description": "Ten stories about public health in Finland: a health-centre visit, seniors' dance, a home study, sleep in the dark season, an emergency centre, a school nurse, a clinic's history, a swimming hall, music therapy and a swimming school.",
+  "topic": "Public health",
+  "names": [
+    "Anneli",
+    "Ruuskanen",
+    "Kuopio",
+    "Ilkka",
+    "Okkonen",
+    "Pori",
+    "Irmeli",
+    "Purhonen",
+    "Olavi",
+    "Rissanen",
+    "Espoo",
+    "Jouni",
+    "Lehtola",
+    "Hertta",
+    "Granström",
+    "Helsinki",
+    "Inari",
+    "Inarijärvi",
+    "Vaasa",
+    "Noora",
+    "Loikkanen",
+    "Seinäjoki",
+    "Eevi",
+    "Taskinen",
+    "Joonas",
+    "Turku",
+    "Tuukka",
+    "Söderholm",
+    "Imatra",
+    "Sakari",
+    "Moilanen",
+    "Tampere",
+    "Väinö",
+    "Pursiainen",
+    "Turre",
+    "Imatrankoski",
+    "Lappeenranta",
+    "Mirja",
+    "Jokela",
+    "Iivo",
+    "Kristiina"
+  ],
+  "lessons": [
+    {
+      "title": "Kutina terveysasemalla",
+      "summary": "A bookkeeper in Kuopio books a health-centre visit online for an itchy rash, and a careful doctor traces it to new cosmetics.",
+      "newWords": [
+        "terveysasema",
+        "kutina",
+        "kosmetiikka",
+        "millimetri",
+        "huolellinen",
+        "muistiinpano",
+        "sähköisesti"
+      ],
+      "text": "Anneli Ruuskanen on 46-vuotias kirjanpitäjä, joka asuu Kuopiossa. Lokakuun alussa hänen käsivarsiinsa ja kaulaansa tuli pieniä punaisia pilkkuja. Ensin hän ei välittänyt niistä, mutta muutaman päivän kuluttua alkoi kutina. Kutina oli pahimmillaan illalla, kun hän yritti nukahtaa. Hän raapi ihoaan, vaikka tiesi, ettei se auta.\n\nLopulta Anneli varasi ajan terveysasemalta. Hän teki sen sähköisesti kaupungin verkkosivuilla, eikä hänen tarvinnut odottaa puhelimessa. Samalla hän vastasi sähköisesti lyhyeen kyselyyn: missä pilkut ovat, milloin ne tulivat ja onko hänellä allergioita. Kahden päivän päästä hän istui terveysaseman odotustilassa.\n\nLääkäri Ilkka Okkonen oli rauhallinen ja huolellinen. Hän pyysi Annelia kertomaan kaiken alusta asti ja kirjoitti samalla muistiinpanoja. Sitten hän katsoi pilkut tarkasti kirkkaassa valossa. Suurin pilkku oli noin 8 millimetriä leveä, pienimmät vain pari millimetriä. Okkonen mittasi ne ja kirjoitti luvut muistiinpanoihinsa, koska hän halusi verrata niitä myöhemmin. ”Huolellinen mittaus auttaa meitä näkemään, paraneeko iho”, hän selitti.\n\nSitten lääkäri kysyi kosmetiikasta. Anneli muisti, että hän oli syyskuussa ostanut uuden kasvovoiteen ja uuden hajuveden. Hän käytti molempia joka aamu. Okkonen nyökkäsi. Hänen mukaansa kosmetiikka on yleinen syy tällaiseen ihottumaan. Monissa tuotteissa on tuoksuja ja muita aineita, jotka voivat ärsyttää herkkää ihoa. Kutina ja punaiset pilkut juuri niissä kohdissa, joihin tuotetta laitetaan, ovat tyypillinen merkki.\n\nLääkäri antoi selkeät ohjeet. Annelin piti lopettaa uusien tuotteiden käyttö kokonaan kahdeksi viikoksi. Kutinaan hän sai miedon voiteen, jota voi ostaa apteekista ilman reseptiä. Lisäksi Okkonen neuvoi häntä pitämään omia muistiinpanoja: joka ilta lyhyt merkintä siitä, miltä iho näyttää ja kuinka paljon se kutisee. ”Teidän muistiinpanonne kertovat minulle enemmän kuin yksi käynti”, hän sanoi.\n\nAnneli noudatti ohjeita huolellisesti. Jo viikon kuluttua kutina helpotti, ja pilkut vaalenivat. Kahden viikon päästä hän lähetti lääkärille viestin terveysaseman palvelussa ja liitti mukaan valokuvan. Suurin pilkku oli enää 2 millimetriä. Okkonen vastasi seuraavana päivänä, että hoito toimii eikä uutta käyntiä tarvita. Uuden kosmetiikan Anneli antoi pois. Nyt hän tarkistaa aina pakkauksesta, mitä tuote sisältää, ennen kuin hän ostaa mitään.\n\nKysymykset:\nMiksi Anneli Ruuskanen varasi ajan terveysasemalta?\nHänen iholleen tuli punaisia pilkkuja, ja hänellä oli kova kutina, joka oli pahimmillaan illalla.\nMiten Anneli varasi ajan?\nHän varasi ajan sähköisesti kaupungin verkkosivuilla eikä joutunut odottamaan puhelimessa.\nMiksi lääkäri mittasi pilkut millimetrin tarkkuudella?\nHän halusi verrata niitä myöhemmin ja nähdä, paraneeko iho.\nMikä oli lääkärin mukaan todennäköinen syy ihottumaan?\nSyy oli todennäköisesti uusi kosmetiikka, jossa on tuoksuja ja muita aineita, jotka ärsyttävät ihoa.\nMitä Annelin piti kirjoittaa muistiinpanoihinsa?\nHänen piti kirjoittaa joka ilta, miltä iho näyttää ja kuinka paljon se kutisee."
+    },
+    {
+      "title": "Rumbaa senioreille",
+      "summary": "A 79-year-old man with fragile bones joins a seniors' rumba class in Pori and becomes stronger and more sociable.",
+      "newWords": [
+        "seniori",
+        "rumba",
+        "hauras",
+        "taivuttaa",
+        "tanko",
+        "hikinen",
+        "sosiaalisesti"
+      ],
+      "text": "Porin kaupunki järjestää joka tiistaiaamu tanssitunnin senioreille. Tunti pidetään liikuntahallin pienessä salissa, ja sinne saa tulla kuka tahansa yli 65-vuotias. Ohjaaja Irmeli Purhonen on tanssinut nuorena kilpaa, ja nyt hän opettaa senioreille paritansseja. Tänä syksynä vuorossa on rumba.\n\nOlavi Rissanen tuli tunnille ensimmäistä kertaa syyskuussa. Hän on 79-vuotias, ja hänen luunsa ovat hauraat. Lääkäri oli kertonut hänelle, että hauraat luut vahvistuvat, kun ihminen liikkuu säännöllisesti ja kantaa omaa painoaan. Samalla lääkäri oli kysynyt, tapaako Olavi muita ihmisiä. Olavi asuu yksin, ja joskus hän ei puhunut kenenkään kanssa koko päivänä. ”Liikunta tekee hyvää myös mielelle, varsinkin jos sitä harrastaa yhdessä muiden kanssa”, lääkäri oli sanonut.\n\nTunti alkaa aina samalla tavalla. Jokainen seniori ottaa nurkasta kevyen puisen tangon. Tankoa pidetään molemmin käsin pään yläpuolella, ja vartaloa taivutetaan hitaasti ensin oikealle ja sitten vasemmalle. Sen jälkeen tanko lasketaan lattialle, ja polvia taivutetaan varovasti. Irmeli muistuttaa, ettei mitään saa taivuttaa väkisin. ”Hauras selkä ei pidä nopeista liikkeistä. Taivuta vain niin paljon kuin hyvältä tuntuu”, hän sanoo. Tangosta on apua myös tasapainoon: kun sen nojaa lattiaan, sitä voi käyttää tukena.\n\nSitten soi musiikki, ja rumba alkaa. Rumba on hidas ja pehmeä tanssi, jossa paino siirtyy jalalta toiselle ja lantio liikkuu rauhallisesti. Irmeli näyttää askeleet ensin yksin ja sitten parin kanssa. Ensimmäisellä kerralla Olavi tanssi Irmelin kanssa, koska hän ei vielä tuntenut ketään. Ensimmäisen rumban jälkeen hän oli hikinen ja vähän hengästynyt, mutta hän hymyili.\n\nPuolessa vuodessa moni asia on muuttunut. Olavi osaa rumban perusaskeleen, ja hänen tasapainonsa on parempi. Tunnin jälkeen hänen paitansa on aina hikinen, ja hän on oppinut ottamaan mukaan toisen paidan. Ennen kaikkea hän on nyt sosiaalisesti aktiivisempi. Tunnin jälkeen ryhmä juo kahvia hallin kahviossa, ja Olavi on alkanut käydä kahden muun tanssijan kanssa myös kävelyllä. Irmelin mukaan juuri tämä on tuntien tärkein tavoite. ”Monelle seniorille tämä on viikon ainoa paikka, jossa tavataan muita. Sosiaalisesti se on yhtä tärkeää kuin fyysisesti. Hikinen paita on hyvä merkki, mutta iloinen ilme on vielä parempi.”\n\nKysymykset:\nKenelle Porin tanssitunti on tarkoitettu?\nSe on tarkoitettu senioreille eli yli 65-vuotiaille.\nMiksi lääkäri suositteli Olaville liikuntaa?\nOlavin luut ovat hauraat, ja hauraat luut vahvistuvat säännöllisellä liikunnalla. Lääkäri ajatteli myös, että Olavi tarvitsee muiden ihmisten seuraa.\nMitä tangolla tehdään tunnin alussa?\nTankoa pidetään pään yläpuolella, ja vartaloa taivutetaan hitaasti sivulle.\nMillainen tanssi rumba on?\nRumba on hidas ja pehmeä tanssi, jossa paino siirtyy jalalta toiselle.\nMiten Olavin elämä on muuttunut puolessa vuodessa?\nHänen tasapainonsa on parempi, ja hän on sosiaalisesti aktiivisempi: hän juo kahvia ryhmän kanssa ja käy kävelyllä muiden tanssijoiden kanssa."
+    },
+    {
+      "title": "Työhuone vai keittiön pöytä?",
+      "summary": "An office worker in Espoo writes a column on how a proper home study ended his neck pain and his overtime.",
+      "newWords": [
+        "työhyvinvointi",
+        "työhuone",
+        "toimihenkilö",
+        "epämukava",
+        "mukavuus",
+        "pino",
+        "ylitys",
+        "korkeakoulututkinto"
+      ],
+      "text": "Työhuone vai keittiön pöytä?\n\nOlen toimihenkilö vakuutusyhtiössä Espoossa. Minulla on korkeakoulututkinto kauppatieteistä, ja työni on enimmäkseen sähköpostia, taulukoita ja kokouksia. Kolme vuotta sitten yhtiö antoi meille mahdollisuuden tehdä töitä kotona kahtena päivänä viikossa. Ajattelin silloin, että kotona työskentely on pelkkää mukavuutta: ei ruuhkia, ei toimiston melua, kahvi omasta keittimestä.\n\nEnsimmäisenä vuonna tein töitä keittiön pöydän ääressä. Tuoli oli epämukava, näyttö liian matalalla ja valo väärästä suunnasta. Paperit kasautuivat pinoon leipälaatikon viereen, ja illalla pino piti siirtää pois, jotta perhe pääsi syömään. Iltapäivisin niskaani särki. Huomasin myös, että työpäivä venyi. Kun työpaikka oli keittiössä, työ ei loppunut koskaan kunnolla. Esimieheni huomautti minulle useamman kerran työajan ylityksestä, ja ylitys oli aina oma syyni.\n\nSitten yhtiö järjesti meille iltapäivän, jonka aiheena oli työhyvinvointi. Työterveyshuollon hoitaja kertoi, että työhyvinvointi ei ole vain hyvää ilmapiiriä toimistolla. Siihen kuuluu myös se, millaisessa paikassa työtä tehdään kotona. Epämukava asento päivästä toiseen tuntuu ensin vain väsymyksenä, mutta vuosien kuluttua se voi tuntua selässä ja niskassa. Hän muistutti myös, että työn ja vapaa-ajan raja on tärkeä osa työhyvinvointia. Moni toimihenkilö ei huomaa, kuinka paljon kotona tehty työ syö iltoja.\n\nPäätin tehdä muutoksen. Vanhasta vierashuoneesta tuli työhuone. Ostin pöydän, jonka korkeutta voi säätää, ja hyvän tuolin. Nostin näytön silmien korkeudelle. Työhuone on pieni, mutta siinä on ikkuna ja ovi. Ovi on tärkein: kun päivä on ohi, suljen sen. Paperipinot ovat nyt hyllyssä eivätkä keittiön pöydällä.\n\nTyöhuoneen mukavuus ei ole ylellisyyttä vaan terveyttä. Monet kollegani ovat tehneet saman muutoksen, ja moni kertoo samaa: niska ei enää särje, ja työpäivä loppuu ajallaan. Minulla ei ole ollut ylityksiä kuuteen kuukauteen. Toki kaikilla ei ole ylimääräistä huonetta. Silloinkin voi miettiä, mikä tekee päivästä vähemmän epämukavan: kunnon tuoli, tauot ja hyvä valo. Korkeakoulututkinto opetti minulle paljon taulukoista mutta ei sitä, miten istutaan. Sen opin vasta keittiön pöydän ääressä, epämukavalla tuolilla ja paperipinon vieressä.\n\nJouni Lehtola\n\nKysymykset:\nMissä Jouni Lehtola työskentelee?\nHän on toimihenkilö vakuutusyhtiössä Espoossa.\nMiksi työskentely keittiön pöydän ääressä oli hankalaa?\nTuoli oli epämukava, näyttö oli liian matalalla, ja paperipino piti siirtää pois joka ilta. Lisäksi työpäivä venyi.\nMitä hoitaja kertoi työhyvinvoinnista?\nHän kertoi, että työhyvinvointiin kuuluu myös työpaikka kotona ja raja työn ja vapaa-ajan välillä.\nMitä Jouni teki vierashuoneelle?\nHän teki siitä työhuoneen, jossa on hyvä pöytä, hyvä tuoli ja ovi, jonka voi sulkea.\nMiten muutos on vaikuttanut Jounin työaikaan?\nTyöajan ylityksiä ei ole ollut kuuteen kuukauteen, ja työpäivä loppuu ajallaan."
+    },
+    {
+      "title": "Uni pimeänä vuodenaikana",
+      "summary": "A librarian who lies awake every autumn follows her doctor's sleep advice at a winter cottage in Inari and sees the northern lights.",
+      "newWords": [
+        "vuode",
+        "valve",
+        "myöhä",
+        "sateinen",
+        "lumisade",
+        "revontulet",
+        "kesämökki"
+      ],
+      "text": "Hertta Granström asuu Helsingissä ja työskentelee kirjastossa. Joka syksy hänen unensa menee sekaisin. Lokakuu on usein sateinen ja harmaa, ja aamulla on vielä pimeää, kun hän lähtee töihin. Illalla hän ei saa unta. Hän menee vuoteeseen kello 23, mutta on valveilla vielä kello kahdelta. Kun on jo myöhä, hän alkaa laskea, montako tuntia on jäljellä ennen kuin kello soi, ja silloin uni karkaa vielä kauemmas.\n\nTänä syksynä Hertta kävi lääkärin vastaanotolla. Lääkäri kertoi, että huono uni on pimeänä vuodenaikana hyvin yleistä. Elimistö tarvitsee valoa aamulla, jotta se tietää illalla, milloin on aika nukkua. Sateinen ja pilvinen sää vähentää valoa entisestään. Lääkärin ohjeet olivat yksinkertaisia. Ylös samaan aikaan joka aamu, myös viikonloppuna. Ulos valoon heti aamulla. Ei puhelinta vuoteessa. Jos on valveilla yli puoli tuntia, on parempi nousta hetkeksi ylös ja palata vuoteeseen vasta, kun väsyttää.\n\nHertta päätti myös pitää lomaa. Hänen vanhemmillaan on kesämökki Inarijärven rannalla, ja mökki on rakennettu niin, että siellä voi asua talvellakin. Joulukuun alussa hän matkusti sinne viikoksi. Ensimmäisenä päivänä satoi lunta aamusta iltaan. Lumisade oli niin tiheä, ettei järven toista rantaa näkynyt. Hertta oli toivonut näkevänsä revontulet, mutta lumisateen aikana taivas on pilvessä, eikä revontulia näe.\n\nKesämökillä Hertta noudatti lääkärin ohjeita. Hän nousi joka aamu kello 8, vaikka ulkona oli vielä pimeää, ja lähti kävelylle heti, kun valoa oli vähänkin. Iltaisin hän luki kirjaa takan ääressä eikä katsonut puhelinta. Kolmantena iltana lumisade loppui, ja taivas kirkastui. Kello yhdeksältä taivaalle ilmestyivät vihreät revontulet. Ne liikkuivat hitaasti kuin valoisa verho tuulessa. Hertta katseli niitä pihalla puolen tunnin ajan. Sitten hän meni sisään ja suoraan vuoteeseen. Hän ajatteli, että revontulia voi katsoa huomennakin eikä niiden takia tarvitse valvoa.\n\nSinä yönä Hertta nukahti ennen kuin oli myöhä, eikä hän ollut valveilla keskellä yötä. Loppuviikon hän eli kesämökillä samassa rytmissä: aamulla valoa, illalla kirja ja vuode ajoissa. Kotiin palattuaan hän jatkoi samoja tapoja. Tammikuu oli Helsingissä sateinen ja pimeä, mutta Hertan uni pysyi hyvänä.\n\nKysymykset:\nMiksi Hertan uni menee syksyisin sekaisin?\nSyksy on sateinen ja pimeä, eikä hänen elimistönsä saa aamulla tarpeeksi valoa.\nMitä lääkäri neuvoi tekemään, jos on valveilla vuoteessa yli puoli tuntia?\nSilloin kannattaa nousta hetkeksi ylös ja palata vuoteeseen vasta, kun väsyttää.\nMissä Hertta vietti lomaviikkonsa?\nHän vietti sen vanhempiensa kesämökillä Inarijärven rannalla.\nMiksi Hertta ei nähnyt revontulia ensimmäisenä päivänä?\nLumisade oli tiheä, ja taivas oli pilvessä.\nMitä Hertta teki, kun hän oli katsellut revontulia puoli tuntia?\nHän meni sisään ja suoraan vuoteeseen, koska hän ei halunnut valvoa myöhään."
+    },
+    {
+      "title": "Ääni hätänumerossa",
+      "summary": "An emergency-centre operator in Vaasa talks about expertise, sincere compassion and the busy nights of autumn storms.",
+      "newWords": [
+        "hätäkeskus",
+        "asiantuntemus",
+        "myötätunto",
+        "vilpitön",
+        "kolminkertainen",
+        "vitsailla",
+        "kymmenkunta"
+      ],
+      "text": "Kun joku soittaa hätänumeroon 112, puheluun vastaa hätäkeskus. Noora Loikkanen on työskennellyt Vaasan hätäkeskuksessa yhdeksän vuotta. Kysyimme häneltä, millaista työ on ja mitä jokaisen kannattaa siitä tietää.\n\nMillainen on tavallinen työvuoro?\n\n”Vuoro kestää 12 tuntia. Tavallisena iltana minulle tulee kymmenkunta puhelua tunnissa. Osa on kiireellisiä, osa ei. Iäkäs ihminen on kaatunut kotonaan eikä pääse ylös, jollakulla on kova kipu rinnassa, tai pienellä lapsella on korkea kuume eikä vanhempi tiedä, mitä tehdä. Jokaisen puhelun jälkeen tulee heti seuraava. Kymmenkunta puhelua tunnissa ei kuulosta paljolta, mutta jokainen niistä vaatii täyden huomion.”\n\nMitä työssä tarvitaan?\n\n”Ensin asiantuntemus. Koulutus kestää puolitoista vuotta, ja sen jälkeen oppii vielä joka päivä. Asiantuntemus tarkoittaa sitä, että osaan kysyä oikeat kysymykset oikeassa järjestyksessä. Missä olet? Hengittääkö hän? Onko hän hereillä? Vastausten perusteella päätän, kuinka kiireesti apua lähetetään. Soittaja ei näe minua, mutta hän luottaa asiantuntemukseeni.”\n\n”Toinen asia on myötätunto. Soittaja on usein peloissaan. Hän kuulee äänestäni, välitänkö hänestä. Myötätunto ei tarkoita sitä, että itken soittajan kanssa. Se tarkoittaa rauhallista ääntä ja selviä ohjeita. Ihmiset kuulevat heti, onko myötätunto vilpitöntä vai pelkkää kohteliaisuutta. Vilpitön kiinnostus toisen hätään auttaa häntä jaksamaan siihen asti, kunnes apu tulee.”\n\nOnko työssä kiireisempiä aikoja?\n\n”Syysmyrskyt ovat meille vaikeita. Kun tuuli kaataa puita teille ja sähköt katkeavat, puheluiden määrä voi olla kolminkertainen tavalliseen iltaan verrattuna. Silloin moni soittaa vain kysyäkseen, milloin sähköt palaavat. Kolminkertainen määrä puheluita tarkoittaa, että todellinen hätä joutuu jonoon.”\n\nMiten jaksat?\n\n”Työkaverit ovat tärkeitä. Tauolla vitsailemme paljon, ja nauru auttaa. Puhelimessa emme vitsaile koskaan, mutta taukotilassa saa nauraa. Joskus vaikean puhelun jälkeen puhumme asiasta yhdessä. Se on osa työtä.”\n\nMitä haluaisit sanoa kaikille?\n\n”Soita 112:een, kun kyse on hädästä: kun ihmisen terveys tai omaisuus on vaarassa. Jos haluat neuvoja flunssaan tai kysyt sähkökatkosta, soita muualle. Terveysasioissa voi soittaa päivystysavun numeroon 116117. Kun hätänumero on vapaa, apu ehtii sinne, missä sitä tarvitaan eniten.”\n\nKysymykset:\nKuinka monta puhelua Nooralle tulee tavallisena iltana?\nHänelle tulee kymmenkunta puhelua tunnissa.\nMitä asiantuntemus tarkoittaa Nooran työssä?\nSe tarkoittaa, että hän osaa kysyä oikeat kysymykset oikeassa järjestyksessä ja päättää, kuinka kiireesti apua lähetetään.\nMiten myötätunto kuuluu puhelussa?\nSe kuuluu rauhallisena äänenä ja selvinä ohjeina, ja soittaja kuulee, onko se vilpitöntä.\nMilloin puheluiden määrä voi olla kolminkertainen?\nSyysmyrskyjen aikana, kun puita kaatuu ja sähköt katkeavat.\nMissä työntekijät vitsailevat?\nHe vitsailevat tauolla taukotilassa, mutta eivät koskaan puhelimessa."
+    },
+    {
+      "title": "Terveydenhoitajan kasvimaa",
+      "summary": "A school nurse in Seinäjoki helps a sporty boy who skips proper lunches and drinks meal replacements, and takes him to the school garden.",
+      "newWords": [
+        "koulupäivä",
+        "ketsuppi",
+        "korvike",
+        "ihanne",
+        "kitkeä",
+        "tasoinen",
+        "kookas",
+        "urheilullinen"
+      ],
+      "text": "Eevi Taskinen on terveydenhoitaja yläkoulussa Seinäjoella. Hoitajan huone on koulun käytävän päässä, ja ovi on auki aina, kun hän ei ole tapaamassa oppilasta. Lokakuussa hänen luokseen tuli 13-vuotias Joonas, joka oli ollut väsynyt koko syksyn.\n\nJoonas on urheilullinen poika. Hän pelaa jalkapalloa neljä kertaa viikossa ja käy lisäksi kuntosalilla. Koulupäivä alkaa kello 8, ja harjoitukset ovat illalla. Silti hän melkein nukahti iltapäivän tunneilla, ja viimeiset tunnit tuntuivat pitkiltä. Eevi kysyi, mitä hän syö koulupäivän aikana.\n\nVastaus oli lyhyt. Aamulla Joonas juo pullosta juoman, jota mainostetaan aterian korvikkeena. Lounaalla hän ottaa lautaselle vain perunoita ja paljon ketsuppia. Salaattia hän ei syö. Illalla harjoitusten jälkeen hänellä on kova nälkä, ja hän syö mitä löytää.\n\nEevi kysyi, mistä ajatus korvikkeesta oli tullut. Joonas näytti puhelimestaan kuvia. Hänen ihanteensa ovat aikuisia urheilijoita, joilla on vahva ja kaunis vartalo. He mainostavat juomia, joiden mukaan korvike on parempi kuin tavallinen ruoka. Eevi katsoi kuvia rauhassa. Sitten hän selitti, että kuvien vartalot ovat ammattilaisten, jotka harjoittelevat työkseen. 13-vuotiaan kasvavan nuoren ei tarvitse olla ammattilaisen tasoinen. Kasvava elimistö tarvitsee monipuolista ruokaa, ei korviketta. Ketsupissa on myös paljon sokeria, eikä perunoista ja ketsupista saa kaikkea, mitä urheilullinen nuori tarvitsee.\n\nIhanteet eivät ole huono asia, Eevi sanoi, mutta niitä kannattaa katsoa tarkasti. Hän ehdotti yksinkertaista kokeilua: kaksi viikkoa kunnon aamupala, lounaalla myös salaattia ja leipää ja koulupäivän jälkeen välipala ennen harjoituksia.\n\nLisäksi Eevi kutsui Joonaksen koulun puutarhaan. Koulun pihan takana on pieni puutarha, jota oppilaat hoitavat syksyllä ja keväällä. Siellä kasvaa porkkanaa ja perunaa. Seuraavana päivänä Joonas oli puutarhassa kitkemässä ruohoa muiden oppilaiden kanssa. Ruoho piti kitkeä huolellisesti, jotta porkkanat eivät lähteneet sen mukana. Kun ruoho oli kitketty, oppilaat nostivat maasta porkkanat. Yksi porkkana oli niin kookas, että kaikki halusivat ottaa siitä kuvan. Kookkaista porkkanoista tehtiin keittoa koulun keittiössä, ja Joonas söi kaksi lautasta.\n\nKahden viikon kuluttua Joonas tuli taas Eevin huoneeseen. Hän kertoi, ettei hän ollut enää väsynyt iltapäivällä. Korvikkeen hän oli jättänyt pois, ja ketsuppia hän otti enää vähän. Harjoituksissa hän jaksoi paremmin, ja valmentaja oli sanonut, että hänen taitonsa ovat jo hyvän harrastajan tasoiset.\n\nKysymykset:\nMiksi Joonas tuli hoitajan luo?\nHän oli ollut väsynyt koko syksyn, ja hän melkein nukahti iltapäivän tunneilla.\nMitä Joonas söi koulupäivän aikana?\nAamulla hän joi korvikkeen, ja lounaalla hän söi vain perunoita ja paljon ketsuppia.\nKeitä Joonaksen ihanteet ovat?\nHe ovat aikuisia urheilijoita, jotka mainostavat juomia ja harjoittelevat työkseen.\nMitä oppilaat tekivät puutarhassa?\nHe kitkivät ruohoa ja nostivat maasta kookkaita porkkanoita.\nMiten Joonaksen olo muuttui kahdessa viikossa?\nHän ei ollut enää väsynyt iltapäivällä, ja hän jaksoi paremmin harjoituksissa."
+    },
+    {
+      "title": "Sata vuotta neuvolaa",
+      "summary": "A Turku author writes a non-fiction book for a child health clinic's centenary from old record sheets and many interviews.",
+      "newWords": [
+        "tietokirja",
+        "fiktio",
+        "ikivanha",
+        "arkki",
+        "lukuinen",
+        "jatkuvuus",
+        "elinkaari",
+        "vuotisjuhla"
+      ],
+      "text": "Tuukka Söderholm on kirjailija, joka asuu Turussa. Hän on kirjoittanut tietokirjoja kaupungin historiasta, vanhoista taloista ja satamasta. Kaksi vuotta sitten hän sai uuden tehtävän. Kaupungin vanhin neuvola täyttää sata vuotta, ja sen 100-vuotisjuhlaa varten haluttiin kirja. Neuvola on paikka, jossa hoitaja seuraa odottavan äidin ja pienen lapsen terveyttä. Melkein jokainen suomalainen on käynyt siellä lapsena.\n\nKustantaja ehdotti ensin, että kirja voisi olla fiktiota: tarina yhdestä perheestä, jonka elämää seurataan sadan vuoden ajan. Tuukka mietti asiaa, mutta päätti toisin. Hänen mielestään todelliset ihmiset ja todelliset tapahtumat olivat kiinnostavia, ja ne riittivät hänelle. ”Fiktio olisi helpompi kirjoittaa, mutta tietokirja on tässä rehellisempi”, hän sanoi kustantajalle.\n\nTyö alkoi arkistosta. Neuvolan vanhimmat tiedot oli kirjoitettu käsin suurille arkeille. Jokaisella arkilla oli yhden lapsen tiedot: paino, pituus ja hoitajan lyhyet huomiot. Joissakin arkeissa oli myös äidin kysymyksiä, esimerkiksi siitä, miten vauvaa pestään tai mitä lapselle annetaan syödä talvella. Tuukka luki satoja arkkeja ja teki niistä muistiinpanoja.\n\nArkiston lisäksi hän teki lukuisia haastatteluja. Hän tapasi entisiä hoitajia, äitejä ja isiä sekä ihmisiä, jotka olivat itse käyneet neuvolassa 1950-luvulla. Lukuisissa haastatteluissa toistui sama asia: neuvolassa oli joku, joka tunsi perheen ja muisti, mitä edellisellä kerralla oli puhuttu. Tuukan mielestä tämä jatkuvuus on koko työn tärkein piirre. Kun sama hoitaja tapaa perheen vuodesta toiseen, hän huomaa pienetkin muutokset. Jatkuvuus luo luottamusta.\n\nKirjassa on myös ikivanha esine. Varastosta löytyi vaaka, jolla vauvoja oli punnittu 1920-luvulta asti. Ikivanha vaaka oli puuta ja metallia, ja se toimi yhä. Kirjan kanteen tuli kuva siitä.\n\nKirjan viimeinen luku käsittelee ihmisen elinkaarta. Neuvola on vain alku. Sen jälkeen tulevat koulun terveydenhuolto, työpaikan terveydenhuolto ja lopulta palvelut senioreille. Tuukka kirjoittaa, että hyvä terveydenhuolto seuraa ihmistä koko elinkaaren ajan, ja lapsen ensimmäiset käynnit ovat sen ensimmäinen askel.\n\nKirja julkaistiin 100-vuotisjuhlassa keväällä. Juhlaan tuli lukuisia vieraita, myös kolme sukupolvea samasta perheestä. Isoäiti, äiti ja pieni poika olivat kaikki käyneet samassa paikassa lapsena. Juhlan lopuksi poika punnittiin vielä vanhalla vaa'alla, ja kaikki nauroivat iloisesti.\n\nKysymykset:\nMiksi Tuukka Söderholm kirjoitti kirjan?\nKaupungin vanhin neuvola täytti sata vuotta, ja 100-vuotisjuhlaa varten haluttiin kirja.\nMiksi Tuukka ei halunnut kirjoittaa fiktiota?\nHänen mielestään todelliset ihmiset ja tapahtumat olivat kiinnostavia, ja tietokirja oli rehellisempi.\nMitä neuvolan vanhoilla arkeilla oli?\nJokaisella arkilla oli yhden lapsen paino, pituus ja terveydenhoitajan huomiot.\nMikä toistui lukuisissa haastatteluissa?\nNiissä toistui se, että neuvolassa oli joku, joka tunsi perheen. Tuukka kutsuu tätä jatkuvuudeksi.\nMitä kirjan viimeinen luku käsittelee?\nSe käsittelee ihmisen elinkaarta ja sitä, miten terveydenhuolto seuraa ihmistä koko elinkaaren ajan."
+    },
+    {
+      "title": "Uimahallin remontti",
+      "summary": "A residents' committee in Imatra keeps the swimming-hall repair alive through a setback, online comments and help from a hydropower company.",
+      "newWords": [
+        "toimikunta",
+        "taloustilanne",
+        "takaisku",
+        "kommentoija",
+        "yhteenlaskettu",
+        "vesivoima",
+        "hyytyä"
+      ],
+      "text": "Imatran uimahalli on rakennettu 1970-luvulla, ja se on kaupungin suosituimpia liikuntapaikkoja. Siellä uivat koululaiset, eläkeläiset, urheiluseurat ja tavalliset kuntoilijat. Kaikkien ryhmien yhteenlaskettu kävijämäärä on noin 150 000 käyntiä vuodessa. Viime vuosina halli on kuitenkin alkanut näyttää vanhalta. Katossa on kosteutta, ja altaan laatat irtoavat.\n\nKaksi vuotta sitten asukkaat perustivat toimikunnan, jonka tehtävä on puhua uimahallin puolesta. Toimikunnan puheenjohtaja on Sakari Moilanen, eläkkeellä oleva opettaja, joka on uinut hallissa joka aamu kolmekymmentä vuotta. Toimikunnassa on yhdeksän jäsentä: vanhempia, uimaseuran valmentaja ja kaksi fysioterapeuttia. Toimikunta keräsi tietoa siitä, kuinka paljon uiminen tekee hyvää terveydelle. Uiminen sopii myös ihmisille, joiden polvet tai selkä eivät kestä juoksemista.\n\nToimikunnan suunnitelma oli selvä: halli korjataan perusteellisesti eikä uutta hallia rakenneta. Remontti maksaisi arviolta 9 miljoonaa euroa. Kaupungin taloustilanne ei kuitenkaan ollut hyvä. Kun talousarviota tehtiin, remontti siirrettiin kahdella vuodella eteenpäin. Se oli toimikunnalle iso takaisku. Moilanen kertoo, että monen jäsenen into oli vähällä hyytyä. ”Olimme tehneet töitä kaksi vuotta, ja sitten kuulimme, että kaikki odottaa. Takaisku tuntui raskaalta.”\n\nPaikallisen lehden verkkosivuilla asia sai satoja kommentteja. Osa kommentoijista oli harmissaan, osa ymmärsi kaupungin vaikean taloustilanteen. Yksi kommentoija kirjoitti, että uimahalli on halvempaa terveydenhoitoa kuin mikään lääke. Toinen kommentoija kysyi, eikö kaupungissa ole yrityksiä, jotka voisivat auttaa. Tämä kysymys antoi toimikunnalle uuden ajatuksen.\n\nImatralla tuotetaan paljon vesivoimaa. Imatrankosken voimalaitos on yksi maan suurimmista, ja vesivoima on kaupungille tärkeä asia. Toimikunta otti yhteyttä paikalliseen energiayhtiöön. Yhtiö lupasi tukea remonttia ja myydä uimahallille sähköä edullisesti. Kun sähkön kulut pienenivät, remontin kokonaishinta laski. Kaupunki pystyi siirtämään remontin takaisin alkuperäiseen aikatauluun.\n\nToimikunnan into ei siis hyytynyt. Remontti alkaa ensi keväänä, ja halli avataan uudelleen puolentoista vuoden kuluttua. Moilanen aikoo olla ensimmäinen uimari uudessa altaassa. ”Vesivoima pyörittää kaupunkia, ja nyt se auttaa lämmittämään myös uimahallin vettä”, hän sanoo ja nauraa.\n\nKysymykset:\nKuinka monta käyntiä uimahallissa on vuodessa?\nKaikkien ryhmien yhteenlaskettu kävijämäärä on noin 150 000 käyntiä vuodessa.\nMiksi asukkaat perustivat toimikunnan?\nHe halusivat puhua uimahallin puolesta, koska halli oli huonossa kunnossa.\nMikä oli toimikunnalle iso takaisku?\nKaupungin huonon taloustilanteen vuoksi remontti siirrettiin kahdella vuodella eteenpäin.\nMitä kommentoijat kirjoittivat lehden verkkosivuilla?\nOsa oli harmissaan, osa ymmärsi kaupunkia. Yksi kommentoija kysyi, voisivatko yritykset auttaa.\nMiten vesivoima auttoi uimahallia?\nVesivoimaa tuottava energiayhtiö lupasi tukea remonttia ja myydä uimahallille sähköä edullisesti."
+    },
+    {
+      "title": "Musiikkia ja koira",
+      "summary": "A music therapist at a psychiatric outpatient clinic in Tampere composes short pieces with his clients, helped by his calm dog.",
+      "newWords": [
+        "psykiatria",
+        "sävellys",
+        "tunnusmerkki",
+        "loukku",
+        "puoleinen",
+        "seuralainen"
+      ],
+      "text": "Väinö Pursiainen on musiikkiterapeutti. Hän työskentelee Tampereella psykiatrian poliklinikalla, jossa hoidetaan aikuisia, joilla on esimerkiksi jännitystä, unihäiriöitä tai pitkään jatkunutta stressiä. Moni ajattelee, että psykiatrian keinot ovat vain lääkkeitä ja keskusteluja, mutta Väinön mukaan musiikki on myös tärkeä osa hoitoa. Psykiatrian ammattilaiset tekevät poliklinikalla töitä yhdessä: lääkäri, hoitajat, psykologi ja hän.\n\nVäinön huone on rakennuksen pihan puoleinen huone. Kadun puoleiset huoneet ovat meluisia, mutta pihan puoleisessa huoneessa on hiljaista, ja ikkunasta näkyy vanha vaahtera. Huoneessa on piano, kitara, rumpuja ja pehmeä sohva. Sohvan vieressä makaa yleensä Turre, Väinön rauhallinen koira. Turre on koulutettu työskentelemään ihmisten kanssa. Monelle asiakkaalle koira on tärkeä seuralainen: sen silittäminen rauhoittaa, ja sen kanssa on helppo olla hiljaa.\n\nVäinö kertoo, että pitkän stressin tunnusmerkki on usein se, että ihminen ei pysty lopettamaan ajattelemista. Samat huolet pyörivät mielessä aamusta iltaan. Ihminen tuntee olevansa loukussa omien ajatustensa kanssa. Hän tietää, että huolet eivät auta, mutta ei pääse niistä irti. Toinen tunnusmerkki on se, ettei mikään enää tunnu hauskalta.\n\nMusiikki voi auttaa pääsemään ulos tästä loukusta. Väinön työn tärkein osa on sävellys. Hän tekee asiakkaan kanssa yhdessä lyhyen sävellyksen, usein vain muutaman minuutin mittaisen. Kukaan ei tarvitse aiempaa taitoa. Asiakas valitsee soittimen ja kokeilee ääniä, ja Väinö auttaa rakentamaan niistä kappaleen. Joskus sävellys on surullinen, joskus iloinen. Väinön mielestä tärkeintä on, että asiakas saa itse päättää.\n\nSävellyksen aikana ajatukset siirtyvät hetkeksi muualle. Kun ihminen keskittyy rytmiin ja ääniin, huolet jäävät taustalle. Moni asiakas sanoo, että hän unohti ajan kokonaan. Kun sävellys on valmis, Väinö nauhoittaa sen, ja asiakas saa sen mukaansa. Kotona sitä voi kuunnella, kun huolet tuntuvat taas suurilta.\n\nTurre on usein mukana myös tässä. Se nostaa päätään, kun rumpu soi, ja asettuu taas makaamaan, kun musiikki hiljenee. Eräs asiakas sanoi, että Turre oli hänen paras seuralaisensa koko hoidon aikana, koska se ei koskaan kysynyt mitään.\n\nKysymykset:\nMissä Väinö Pursiainen työskentelee?\nHän työskentelee musiikkiterapeuttina psykiatrian poliklinikalla Tampereella.\nMiksi Väinön huone on hiljainen?\nSe on pihan puoleinen huone, ja kadun puoleiset huoneet ovat meluisia.\nMikä on pitkän stressin tunnusmerkki Väinön mukaan?\nIhminen ei pysty lopettamaan ajattelemista ja tuntee olevansa loukussa omien ajatustensa kanssa.\nMiten sävellys tehdään?\nAsiakas valitsee soittimen ja kokeilee ääniä, ja Väinö auttaa rakentamaan niistä lyhyen sävellyksen.\nMiksi Turre on tärkeä seuralainen?\nSen silittäminen rauhoittaa, sen kanssa on helppo olla hiljaa, eikä se koskaan kysy mitään."
+    },
+    {
+      "title": "Uimakoulun viimeinen tunti",
+      "summary": "A shy seven-year-old in Lappeenranta nearly gives up swimming school but finishes the course with a small head-start race.",
+      "newWords": [
+        "delfiini",
+        "panda",
+        "kadoksissa",
+        "sikseen",
+        "vähäsen",
+        "kotityö",
+        "tasoitus"
+      ],
+      "text": "Lappeenrannan uimahallissa alkaa joka syksy uimakoulu 7-vuotiaille. Kaupunki pitää uimataitoa tärkeänä, koska Suomessa on paljon järviä ja melkein jokainen lapsi viettää kesän veden äärellä. Uimakoulua opettaa Mirja Jokela, joka on opettanut lapsia uimaan yli kaksikymmentä vuotta.\n\nIivo tuli uimakouluun äitinsä Kristiinan kanssa. Iivo on ujo poika, eikä hän ole koskaan pitänyt vedestä. Ensimmäisellä kerralla hän seisoi altaan reunalla pitkään. ”Pelottaako?” Mirja kysyi. ”Vähäsen”, Iivo vastasi hiljaa. Mirja sanoi, että vähäsen saa pelottaa. Hän antoi Iivolle kellukkeet ja lupasi, että vesi on matalaa.\n\nHallin seinällä on suuri kuva, jossa kolme delfiiniä hyppää aaltojen yli. Mirja kertoi lapsille, että delfiini on meren paras uimari. Delfiini liikuttaa koko vartaloaan yhtenä aaltona. Lapset saivat kokeilla samaa liikettä altaassa ja kuvitella olevansa delfiinejä. Iivo kokeili vähäsen, mutta pysyi lähellä reunaa.\n\nKristiina istui ensimmäisillä kerroilla kahviossa ja teki puhelimellaan kauppalistaa. Kotityöt odottivat aina, ja hän ajatteli, että tunnin aikana ehtii suunnitella illan. Ennen viidettä kertaa Iivo ei halunnut lähteä uimakouluun ollenkaan. Hänen uimalasinsa olivat kadoksissa, ja hän sanoi, että voisi jättää koko uimisen sikseen. Kristiina etsi laseja koko illan. Ne olivat kadoksissa vielä seuraavana aamuna, kunnes ne löytyivät Iivon pyyhkeen sisältä. Pyyhkeessä on iso panda, ja Iivo pitää siitä enemmän kuin mistään muusta. Panda oli pitänyt lasit tallessa.\n\nKristiina päätti, ettei asiaa jätetä sikseen. Hän sanoi Iivolle, että kotityöt saavat odottaa ja että hän tulee tästä lähtien katsomaan tunteja altaan reunalle. Sen jälkeen Iivo uskalsi enemmän. Hän kastoi kasvonsa veteen, ja pian hän ui muutaman metrin ilman kellukkeita.\n\nViimeisellä tunnilla oli pieni kilpailu. Kaikki uivat altaan poikki, mutta nuorimmat ja ne, jotka olivat oppineet uimaan vasta syksyn aikana, saivat tasoituksen. Tasoitus tarkoitti, että he lähtivät 3 metriä lähempää. Iivo sai tasoituksen ja lähti uimaan, kun Mirja vihelsi. Hän ei voittanut, mutta hän ui koko matkan itse. Altaan reunalla Kristiina piti kädessään pandapyyhettä. ”Uit kuin delfiini”, hän sanoi. Iivo kertoi, että ensi syksynä hän ei tarvitse tasoitusta.\n\nKysymykset:\nMiksi kaupunki pitää uimataitoa tärkeänä?\nSuomessa on paljon järviä, ja melkein jokainen lapsi viettää kesän veden äärellä.\nMitä Iivo vastasi, kun Mirja kysyi, pelottaako häntä?\nHän vastasi, että vähäsen.\nMitä lapset oppivat delfiinistä?\nHe oppivat, että delfiini liikuttaa koko vartaloaan yhtenä aaltona, ja kokeilivat samaa liikettä.\nMistä Iivon uimalasit löytyivät?\nNe löytyivät hänen pyyhkeensä sisältä. Pyyhkeessä on iso panda.\nMitä tasoitus tarkoitti kilpailussa?\nSe tarkoitti, että nuorimmat ja juuri uimaan oppineet lähtivät 3 metriä lähempää."
+    }
+  ]
+}
