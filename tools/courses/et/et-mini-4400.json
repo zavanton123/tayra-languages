@@ -1,0 +1,196 @@
+{
+  "id": "et-mini-4400",
+  "rankUpTo": 4400,
+  "level": "C1",
+  "title": "Igapäevane asjaajamine",
+  "description": "Columns, portraits, an interview and short reports about everyday paperwork in Estonia: passwords, renting a flat, a town survey, a blood test, a scientist's reports, a town office, a residents' meeting, a hike sign-up, an organic farm and a boat register.",
+  "topic": "Everyday paperwork",
+  "names": [
+    "Tartu",
+    "Pärnu",
+    "Karlova",
+    "Tallinn",
+    "Kreeta",
+    "Viirand",
+    "Heiti",
+    "Mölder",
+    "Valga",
+    "Mall",
+    "Tooming",
+    "Rakvere",
+    "Hannele",
+    "Kõiv",
+    "Karlo",
+    "Tõravere",
+    "Teodor",
+    "Sults",
+    "Halley",
+    "Haapsalu",
+    "Edda",
+    "Kivisild",
+    "Adeele",
+    "Soome",
+    "Paide",
+    "Ando",
+    "Lasn",
+    "Orvi",
+    "Paju",
+    "Soomaa",
+    "Tiido",
+    "Ilp",
+    "Muhu",
+    "Luisa",
+    "Õunap",
+    "Kuressaare",
+    "Kärdla",
+    "Ferdinand",
+    "Talts",
+    "Konrad"
+  ],
+  "lessons": [
+    {
+      "title": "Unustatud salasõna",
+      "summary": "A columnist is locked out of her bank account after a software update, goes to the bank office and finds out her mistake was a silly one.",
+      "newWords": [
+        "salasõna",
+        "tarkvara",
+        "platvorm",
+        "kohene",
+        "meeleheitlikult",
+        "ehmuma",
+        "totakas",
+        "huumorimeel",
+        "pääs"
+      ],
+      "text": "Igal hommikul alustan päeva ühtemoodi: keedan kohvi, avan arvuti ja vaatan, mis mu pangakontol toimub. Eelmisel esmaspäeval aga ei lasknud pank mind sisse. Ekraanile ilmus punane kiri: „Vale salasõna.“ Proovisin uuesti ja jälle oli salasõna vale. Kolmandal korral ehmusin päriselt, sest ekraanile ilmus teade, et pääs kontole on ajutiselt suletud. Ehmusin nii, et kohvitass oleks peaaegu ümber läinud.\n\nPaar nädalat varem oli pank uuendanud oma tarkvara. Uus platvorm oli ilusam ja kiirem, kuid nõudis uut salasõna, mis pidi olema vähemalt kaksteist märki pikk ning sisaldama numbreid, suuri ja väikesi tähti. Olin uue salasõna kuhugi kirja pannud, aga kuhu? Otsisin meeleheitlikult märkmikust, telefonist ja külmkapi uksel olevate paberite vahelt. Otsisin meeleheitlikult ka vanadelt ümbrikutelt, kuhu ma mõnikord numbreid kirjutan. Mitte midagi.\n\nHelistasin panga infotelefonile. Sõbralik noormees kuulas mu loo ära ja ütles, et kohene abi on võimalik ainult kontoris, sest seal saab ametnik kontrollida minu dokumenti. Kohese abi asemel ootas mind seega bussisõit linna teise otsa.\n\nKontoris oli pikk järjekord. Minu ees seisis vanem härra, kes oli samuti oma salasõna unustanud. „Vanasti oli mul üks võti ja üks rahakott,“ ütles ta naerdes. „Nüüd on mul kakskümmend salasõna ja ühtegi neist ma ei mäleta.“ Tal oli tõesti hea huumorimeel ja tänu temale ei tundunud järjekord enam nii pikk.\n\nKui minu kord kätte jõudis, selgus, et viga oli täiesti totakas: olin salasõna sisse kirjutades kogemata vajutanud klahvi, mis teeb kõik tähed suureks. Ametnik naeratas ja ütles, et see on üks kõige tavalisemaid vigu. „Paljud kliendid on samamoodi ehmunud,“ lisas ta. „Totakas viga, aga väga inimlik.“ Ta avas minu konto ja ma sain oma kontole jälle pääsu.\n\nKoju sõites mõtlesin, kui palju salasõnu on tänapäeva elus vaja: pangas, postis, poe kodulehel ja lapse kooli lehel. Iga uus platvorm tahab oma salasõna ning iga tarkvara uuendus muudab midagi. Nüüd hoian kodus sahtlis väikest märkmikku, kuhu kirjutan vihjed, mitte salasõnad ise. Ja kui midagi jälle juhtub, loodan, et mul jätkub huumorimeelt nagu sellel härral järjekorras.\n\nKüsimused:\nMis juhtus eelmise esmaspäeva hommikul?\nPank ei lasknud autorit sisse, sest salasõna oli vale ja pääs kontole suleti ajutiselt.\nMiks oli autoril uus salasõna?\nPank oli uuendanud oma tarkvara ja uus platvorm nõudis uut salasõna.\nKust autor oma salasõna otsis?\nTa otsis meeleheitlikult märkmikust, telefonist, külmkapi uksel olevate paberite vahelt ja vanadelt ümbrikutelt.\nMiks ei saanud autor telefoni teel kohest abi?\nKohene abi oli võimalik ainult kontoris, kus ametnik sai kontrollida tema dokumenti.\nKuidas aitas vanem härra järjekorras?\nTal oli hea huumorimeel ja tänu temale ei tundunud järjekord enam nii pikk.\nMilline viga autor oli teinud?\nTa oli kogemata vajutanud klahvi, mis teeb kõik tähed suureks."
+    },
+    {
+      "title": "Korter Karlovas",
+      "summary": "Kreeta rents a flat in Tartu, measures the wall for her sofa, reads the contract and moves in with the essentials in the boot of her car.",
+      "newWords": [
+        "üürima",
+        "voolik",
+        "pärandus",
+        "mõõt",
+        "rahaline",
+        "postkast",
+        "pakiruum",
+        "hädavajalik"
+      ],
+      "text": "Kreeta Viirand sai sügisel uue töö Tartus ja pidi Pärnust ära kolima. Ta otsis internetist korterit, mida üürida, ja leidis lõpuks kahe toaga korteri Karlovas, vana puust maja teisel korrusel. Korteri omanik Heiti Mölder ütles telefonis, et ta üürib korterit välja vähemalt üheks aastaks ja et üür on 450 eurot kuus.\n\nEsmaspäeva õhtul läks Kreeta korterit vaatama. Heiti näitas talle tube, kööki ja vannituba. Vannitoas märkas Kreeta, et duši voolik lekib. „Jah, see voolik on vana,“ ütles Heiti. „Ma vahetan vooliku välja enne, kui te sisse kolite. Uus voolik on juba ostetud.“\n\nElutoas seisis vana tool, nurgas oli potis suur lill ja akna all kast raamatutega. „See on eelmise üürniku pärandus,“ naeris Heiti. „Ta kolis Tallinnasse ja jättis need asjad siia. Kui teil neid vaja ei ole, vean need ära.“ Kreeta otsustas, et lill võib jääda. Tooli ja raamatud vedas Heiti hiljem maale, nii et eelmise elaniku pärandusest jäi korterisse ainult lill.\n\nKreeta tahtis teada, kas tema diivan mahub elutoa seina äärde. Diivani mõõdud teadis ta peast: pikkus veidi üle kahe meetri. Ta võttis seina mõõdud ja kirjutas need telefoni. Sein oli diivanist peaaegu pool meetrit pikem, nii et diivan mahub. Igaks juhuks võttis ta ka magamistoa akna mõõdud, sest kardinad tuli osta uued.\n\nSiis istusid nad köögis laua taha ja lugesid lepingu läbi. Lepingus oli kirjas üüri suurus, päev, millal üür tuleb maksta, ja summa, mille Kreeta pidi kohe maksma ja mille ta saab tagasi, kui ta välja kolib ja korter on korras. Vee ja elektri eest tuli maksta lisaks. „Kas on veel mingeid rahalisi kohustusi?“ küsis Kreeta. „Ei, muid rahalisi kohustusi ei ole,“ vastas Heiti. „Kogu rahaline pool on lepingus kirjas.“\n\nLõpuks andis Heiti talle võtmed: ühe ukse, teise keldri ja kolmanda, väikese võtme postkasti jaoks. Postkastid olid all maja ukse kõrval seinal. Heiti lubas, et kirjutab Kreeta nime postkastile juba samal nädalal. „Siis jõuavad kirjad kohe õigesse postkasti,“ ütles ta.\n\nLaupäeval sõitis Kreeta Pärnust Tartusse oma väikese autoga. Pakiruumis olid ainult asjad, mida ta kohe vajas: riided, paar potti, arvuti ja kohvimasin. „Kohvimasin on hädavajalik,“ ütles ta hiljem telefonis oma õele ja naeris. Õde arvas, et hädavajalik on hoopis voodi. Diivan, voodi ja ülejäänud mööbel tulid järgmisel nädalal suure autoga, sest need ei mahu ühegi tavalise auto pakiruumi.\n\nÕhtul istus Kreeta tühjas elutoas põrandal, jõi kohvi ja vaatas lille. Korter oli veel peaaegu tühi, aga postkastil oli juba tema nimi.\n\nKüsimused:\nMiks pidi Kreeta Tartusse kolima?\nTa sai sügisel uue töö Tartus.\nMis oli vannitoas valesti?\nDuši voolik lekkis, aga Heiti lubas vooliku välja vahetada enne, kui Kreeta sisse kolib.\nMida nimetas Heiti eelmise üürniku päranduseks?\nTa nimetas nii vana tooli, suurt lille ja kasti raamatutega.\nMiks võttis Kreeta elutoa seina mõõdud?\nTa tahtis teada, kas tema diivan mahub seina äärde.\nMis oli Kreeta auto pakiruumis?\nPakiruumis olid asjad, mida ta kohe vajas: riided, paar potti, arvuti ja kohvimasin.\nMis oli Kreeta arvates hädavajalik?\nTema arvates oli kohvimasin hädavajalik."
+    },
+    {
+      "title": "Küsitlus Valgas",
+      "summary": "Mall, who runs a small culture centre in Valga, asks the town in a survey which new hobby groups it wants and starts chess and violin.",
+      "newWords": [
+        "küsitlus",
+        "valikuvõimalus",
+        "male",
+        "viiul",
+        "seostama",
+        "eitav"
+      ],
+      "text": "Mall Tooming juhib Valgas väikest keskust, kus inimesed saavad pärast tööd ja kooli koos aega veeta. Seal laulab koor, tantsivad lapsed ja vanemad inimesed käivad arvuti kursusel. Möödunud kevadel sai keskus linnalt raha, et alustada kahe uue ringiga. Mall ei tahtnud ise otsustada, milliseid ringe linnas vaja on. Ta otsustas teha küsitluse.\n\nKüsitluses oli kolm küsimust. Esimene oli: „Millise uue ringiga tahaksite teie või teie lapsed liituda?“ Valikuvõimalusi oli kuus: male, viiul, kunst, laulmine, teater ja käsitöö. Lisaks oli seitsmes valikuvõimalus „Midagi muud“, mille kõrvale sai oma mõtte kirja panna. Teine küsimus oli, kas inimesed oleksid valmis ringi eest maksma. Kolmandas küsimuses küsiti, millised päevad neile kõige paremini sobiksid.\n\nKüsitlust sai täita internetis, aga Mall teadis, et kõik linna elanikud ei kasuta arvutit. Seepärast trükkis ta küsitluse ka paberile ja pani selle koos vabatahtlikega 200 maja postkasti. Täidetud lehe sai tuua keskusse või panna raamatukogu ees olevasse kasti.\n\nKahe nädala pärast oli Mallil laual üle 300 vastuse. Tulemused üllatasid teda. Mall oli malet alati seostanud vanade meestega, kes istuvad pargis pingil ja mõtlevad tund aega ühe käigu üle. Tegelikult tahtsid malet mängida peamiselt lapsed ja nende vanemad. Viiulit seostas Mall aga lastega, kuid viiulit tahtsid õppida hoopis täiskasvanud. Mitu inimest kirjutas, et nad unistasid lapsena viiulist, kuid kodus polnud selleks raha.\n\nTeisele küsimusele vastas umbes pool inimestest eitavalt. Eitav vastus ei tähendanud siiski, et ringe ei taheta. Paljud kirjutasid eitava vastuse kõrvale, et nad maksaksid hea meelega natuke, aga mitte palju. Mall seostas need vastused sellega, et linnas elab palju vanemaid inimesi ja noori peresid, kelle eelarve on väike.\n\nSügisel alustas keskuses kaks uut ringi. Malet õpetab endine matemaatika õpetaja ja tema juures käib igal teisipäeval kaksteist last ja viis vanemat. Laudu ja nuppe kinkis keskusele üks kohalik pood. Viiulit õpetab noor muusik, kes kolis hiljuti Tartust Valka. Esimesse rühma tuli kümme täiskasvanut, kellest vanim on 74-aastane. Ringid on odavad, sest linn maksab suurema osa.\n\nMall plaanib teha küsitluse igal aastal. „Kui inimestelt küsida, siis nad vastavad,“ ütleb ta. „Ja nende vastused on alati targemad kui minu oletused.“\n\nKüsimused:\nMiks otsustas Mall teha küsitluse?\nTa ei tahtnud ise otsustada, milliseid ringe linnas vaja on.\nMilliseid valikuvõimalusi küsitluses oli?\nValikuvõimalusi oli kuus: male, viiul, kunst, laulmine, teater ja käsitöö, ning lisaks „Midagi muud“.\nKuidas said vastata need, kes arvutit ei kasuta?\nNad said täita paberil küsitluse, mis pandi nende postkasti.\nKellega seostas Mall malet ja kes tahtis seda tegelikult mängida?\nTa seostas malet vanade meestega pargis, kuid malet tahtsid mängida peamiselt lapsed ja nende vanemad.\nMida tähendasid paljud eitavad vastused?\nNeed tähendasid, et inimesed maksaksid ringi eest natuke, aga mitte palju.\nKes õpetab viiulit?\nViiulit õpetab noor muusik, kes kolis hiljuti Tartust Valka."
+    },
+    {
+      "title": "Vereproov ja šokolaad",
+      "summary": "Hannele takes her tired seven-year-old son Karlo for a blood test in Rakvere; a numbing cream and a bar of chocolate make it easy.",
+      "newWords": [
+        "nigel",
+        "vereproov",
+        "kellaaeg",
+        "vinguma",
+        "kreem",
+        "leevendama",
+        "kohmakas",
+        "šokolaad"
+      ],
+      "text": "Hannele Kõiv märkas, et tema seitsmeaastane poeg Karlo on viimasel ajal väga väsinud. Karlo magas kaua, kuid oli hommikul ikka unine, ja tema isu oli nigel: hommikusöögist sõi ta paar lusikat ja õhtusöögist jättis pool taldrikule. Hannele helistas Rakveresse oma arsti juurde ja kirjeldas olukorda. Õde kuulas ta ära ja ütles, et kõigepealt tuleb teha vereproov.\n\nVereproovi andmiseks tuli aeg kinni panna. Hannele avas arvutis haigla lehe ja otsis vaba kellaaega. Vabu kellaaegu oli palju, aga peaaegu kõik olid hommikul kella 8 ja 10 vahel, sest proov tuleb anda tühja kõhuga. Hannele valis neljapäeva ja kellaaja 8.15. Ta sai telefonile sõnumi, kus oli kirjas kuupäev, kellaaeg ja kabineti number.\n\nNeljapäeva hommikul ei tohtinud Karlo süüa. Ta vingus kogu tee: „Ma olen nii näljane. Miks ma ei tohi süüa?“ Hannele selgitas, et toit muudab vereproovi tulemusi ja pärast proovi saab ta kohe süüa. Karlo vingus siiski edasi, kuni nad jõudsid kabineti ukseni.\n\nÕde oli rahulik ja sõbralik naine. Ta nägi, et Karlo kardab nõela, ja määris tema käele kreemi. „See kreem teeb naha tuimaks,“ selgitas ta. „Kreem leevendab valu nii palju, et sa tunned ainult väikest torget, nagu sääsk hammustaks.“ Kreem pidi mõjuma veerand tundi. Selle aja jooksul luges Hannele Karlole raamatut ja õde rääkis, et ka tema kartis lapsena nõela. See jutt leevendas Karlo hirmu veel rohkem.\n\nHannele ise oli närvis ja kohmakas: ta pillas maha oma koti, siis telefoni ja lõpuks Karlo mütsi. Õde naeris ja ütles, et vanemad on sageli närvilisemad kui lapsed. Karlo naeris ka, sest ema oli tõesti kohmakas, ja unustas hetkeks kartmise. Proov võeti kiiresti ja Karlo ütles pärast imestades, et see ei teinudki haiget.\n\nKabinetist välja tulles andis Hannele pojale šokolaadi, mille ta oli hommikul kotti pannud. Karlo sõi šokolaadi autos ära ja ütles, et vereproov oli tegelikult lihtne. Hommikusööki sõid nad kohvikus.\n\nKahe päeva pärast tulid tulemused. Arst kirjutas, et Karlo kehas on rauda veidi vähe ja see võib olla tema väsimuse ja nigela isu põhjus. Ta soovitas süüa rohkem liha, kala, ube ja rohelisi köögivilju ning teha kolme kuu pärast uus vereproov. Karlo küsis kohe, kas pärast järgmist vereproovi saab ta jälle šokolaadi.\n\nKüsimused:\nMiks oli Hannele mures?\nKarlo oli väga väsinud ja tema isu oli nigel.\nMiks olid peaaegu kõik vabad kellaajad hommikul?\nVereproov tuleb anda tühja kõhuga.\nMiks Karlo vingus?\nTa oli näljane ega tohtinud enne proovi süüa.\nKuidas aitas õde Karlot?\nTa määris tema käele kreemi, mis leevendab valu.\nMiks Karlo naeris?\nEma oli närvis ja kohmakas ning pillas maha oma koti, telefoni ja Karlo mütsi.\nMida küsis Karlo lõpus?\nTa küsis, kas pärast järgmist vereproovi saab ta jälle šokolaadi."
+    },
+    {
+      "title": "Komeedid ja aruanded",
+      "summary": "An interview with Teodor Sults, a physicist at an institute in Tõravere, about comets, paperwork and why not knowing is a scientist's friend.",
+      "newWords": [
+        "instituut",
+        "füüsika",
+        "komeet",
+        "tegelikkus",
+        "läbimurre",
+        "ennustus",
+        "teadmatus",
+        "intelligentne"
+      ],
+      "text": "Teodor Sults on füüsik, kes uurib komeete. Ta töötab Tõraveres instituudis, mis asub Tartust umbes 20 kilomeetri kaugusel, metsade ja põldude keskel. Rääkisime temaga sellest, kuidas näeb välja teadlase tavaline tööpäev.\n\nKuidas te jõudsite füüsika juurde?\nLapsena vaatasin isaga öösiti tähti. Kui olin 12-aastane, nägin esimest korda komeeti. See oli hele udune täpp, millel oli pikk saba. Sellest õhtust alates teadsin, et tahan aru saada, kuidas maailm toimib. Koolis oli füüsika minu lemmik ja ülikoolis valisin samuti füüsika.\n\nMis on komeet?\nKomeet on nagu suur must lumepall, mis koosneb jääst, tolmust ja kividest. Kui komeet tuleb päikesele lähemale, hakkab jää sulama ja tekib saba, mida võib näha ka maalt. Me tahame teada, millest komeedid täpselt koosnevad, sest need on meie päikesesüsteemi kõige vanemad tükid.\n\nKuidas teie tööpäev välja näeb?\nInimesed arvavad, et teadlane istub kogu öö teleskoobi juures. Tegelikkus on palju igapäevasem. Ma istun peamiselt arvuti taga, loen andmeid ja kirjutan. Suur osa ajast läheb paberitööle: taotlused, aruanded, eelarved, lepingud. Kui instituut tahab osta uue seadme, tuleb kirjutada pikk taotlus ja selgitada, miks seda vaja on. Kord arvutasin, et kolmandik minu tööajast läheb paberitele.\n\nKas see ei häiri teid?\nAlguses häiris. Nüüd olen leppinud. Aruanne sunnib mõtlema, mida ma aasta jooksul tegelikult tegin. Mõnikord avastan aruannet kirjutades, et mul on uus idee.\n\nKas teaduses tuleb sageli ette suuri läbimurdeid?\nLäbimurre on harv. Ajalehed kirjutavad läbimurretest, aga tegelikkuses koosneb teadus väikestest sammudest. Iga väike samm on kellegi aastatepikkune töö. Kui ühel päeval toimub läbimurre, seisab see tuhandete väikeste sammude peal.\n\nKas te oskate ennustada, millal on taevas näha järgmine komeet?\nMõne komeedi kohta saab teha täpse ennustuse, sest selle tee on teada. Näiteks Halley komeet tuleb tagasi 2061. aastal ja see ennustus on üsna kindel. Paljud komeedid tulevad aga ootamatult ja neid ei oska keegi ennustada. Kui ilmub uus hele komeet, saame sellest teada vaid mõni nädal varem.\n\nMis teid teadlasena kõige rohkem huvitab?\nTeadmatus. See võib kõlada imelikult, aga teadmatus on teadlase parim sõber. Iga küsimus, millele me veel vastust ei tea, on põhjus tööle tulla. Kui kõik oleks teada, poleks teadust vaja.\n\nKas teadlane peab olema väga intelligentne?\nArvan, et intelligentne inimene ei ole see, kes kõike teab, vaid see, kes oskab küsida. Minu kõige intelligentsemad kolleegid ütlevad kõige sagedamini: „Ma ei tea, aga uurime.“ Ja kannatlikkus on teaduses sama tähtis kui mõistus.\n\nKüsimused:\nKus asub instituut, kus Teodor töötab?\nInstituut asub Tõraveres, Tartust umbes 20 kilomeetri kaugusel.\nMillal hakkas Teodor füüsika vastu huvi tundma?\nTa hakkas huvi tundma lapsena, kui nägi 12-aastasena esimest korda komeeti.\nMilline on teadlase tööpäeva tegelikkus?\nTeadlane istub peamiselt arvuti taga ning suur osa ajast läheb taotlustele, aruannetele ja muule paberitööle.\nMiks on läbimurre teaduses harv?\nTeadus koosneb väikestest sammudest ja läbimurre seisab tuhandete väikeste sammude peal.\nMiks ütleb Teodor, et teadmatus on teadlase parim sõber?\nIga küsimus, millele vastust veel ei teata, on põhjus tööle tulla."
+    },
+    {
+      "title": "Edda esimene ametikoht",
+      "summary": "A portrait of Edda Kivisild, who has worked at the Haapsalu town office for thirty years and learned politeness from her elegant desk partner.",
+      "newWords": [
+        "ametikoht",
+        "tookord",
+        "kollanokk",
+        "paariline",
+        "elegantne",
+        "viisakus",
+        "valdama",
+        "siiras"
+      ],
+      "text": "Edda Kivisild töötab Haapsalu linna kontoris juba peaaegu kolmkümmend aastat. Kui keegi tuleb sinna oma aadressi muutma, lapse sündi registreerima või küsima, kuidas saada toetust maja remondiks, istub laua taga sageli just tema. Edda on 52-aastane ja tunneb peaaegu iga linna elanikku nimepidi.\n\nOma esimesele ametikohale tuli Edda 1996. aastal, kui ta oli 22-aastane. Tookord oli ta alles kollanokk, nagu ta ise naerdes ütleb. „Ma ei teadnud midagi. Ma ei teadnud isegi, kus on paberite kapp,“ meenutab ta. Tookord tehti kõike paberil: iga avaldus kirjutati käsitsi, iga dokument pandi kausta ja kaust kappi.\n\nKollanokalt küsiti sageli asju, millele ta vastust ei teadnud. Teda aitas paariline, vanem kolleeg Adeele, kellega nad istusid kümme aastat ühe laua taga. „Adeele oli minu paariline ja minu õpetaja,“ ütleb Edda. „Ta oli väga elegantne naine: alati triigitud pluus, ilus käekiri ja rahulik hääl. Isegi kõige vihasema kliendiga rääkis ta elegantselt ja rahulikult.“ Adeele on nüüd pensionil, aga nad joovad ikka iga kuu koos kohvi.\n\nAdeele õpetas Eddale kõige tähtsamat: viisakust. „Viisakus ei maksa midagi,“ ütles ta tookord. Edda kordab seda lauset nüüd ise noortele kolleegidele. Tema arvates ei tähenda viisakus ainult „tere“ ja „aitäh“ ütlemist. Viisakus tähendab, et kuulad inimese lõpuni ära, isegi kui tead juba esimese lause järel, mida ta tahab.\n\nEdda valdab kolme keelt. Eesti keel on tema emakeel, soome keele õppis ta ära lapsena Soome telekanaleid vaadates ja inglise keelt hakkas ta õppima hiljem, sest Haapsallu tuleb suviti palju turiste. „Inglise keelt ma ei valda nii hästi kui soome keelt,“ ütleb ta, „aga turistile tee juhatamiseks piisab.“\n\nTänapäeval tehakse peaaegu kõike arvutis ja paljud inimesed ajavad oma asju internetis. Ometi tuleb kontorisse iga päev kümneid inimesi. Edda arvab, et inimesed tahavad näha siirast naeratust ja kuulda siirast vastust. „Arvuti ei naerata,“ ütleb ta. „Inimene vajab mõnikord lihtsalt kedagi, kes ütleb talle siiralt, et pole vaja muretseda ja et nad lahendavad asja koos.“\n\nKui noored kolleegid tulevad oma esimesele ametikohale, ütleb Edda neile alati: „Ära karda küsida. Kõik on kord olnud kollanokad.“\n\nKüsimused:\nKus töötab Edda Kivisild?\nTa töötab Haapsalu linna kontoris, kus inimesed ajavad oma igapäevaseid asju.\nMilline oli Edda tookord, kui ta oma esimesele ametikohale tuli?\nTa oli alles kollanokk, kes ei teadnud isegi, kus on paberite kapp.\nKes oli Adeele?\nAdeele oli Edda paariline ja õpetaja, väga elegantne ja rahulik naine.\nMida tähendab Edda arvates viisakus?\nViisakus tähendab, et kuulad inimese lõpuni ära.\nMilliseid keeli Edda valdab?\nTa valdab eesti, soome ja inglise keelt.\nMiks tulevad inimesed ikka veel kontorisse?\nEdda arvates tahavad nad näha siirast naeratust ja kuulda siirast vastust."
+    },
+    {
+      "title": "Tuvid, torud ja pime trepp",
+      "summary": "Ando, who heads the residents of an old block of flats in Paide, holds a tense evening meeting about pigeons, old pipes and stairway lights.",
+      "newWords": [
+        "õhtuti",
+        "peletama",
+        "vananema",
+        "jäme",
+        "skeem",
+        "süttima",
+        "ping",
+        "säde"
+      ],
+      "text": "Ando Lasn on viis aastat juhtinud Paides ühe vana viiekorruselise maja elanike ühingut. Majas on 40 korterit ja selle ehitamisest on möödas üle 50 aasta. Ando käib õhtuti koeraga jalutamas ja kuuleb siis naabritelt kõiki muresid. Sel kevadel kuulis ta õhtuti peamiselt kolmest asjast: tuvidest, torudest ja pimedast trepist.\n\nKõigepealt tuvid. Pööningul elas juba mitu aastat suur parv tuvisid. Nad tegid katusel lärmi ja jätsid rõdudele mustust. Elanikud olid proovinud tuvisid ära peletada mitut moodi: katusele pandi plastist öökull, aknale riputati vanu plaate ja üks naaber mängis raadiost kullide hääli. Ükski nõks ei peletanud tuvisid kauemaks kui nädalaks.\n\nTeiseks torud. Maja vananeb ja koos majaga vananevad ka torud. Keldris on jämedad torud, mis on roostes. Kahel korral oli üks jäme toru juba lekkinud ja vesi oli jooksnud keldri põrandale. Ando kutsus kohale inseneri, kes vaatas keldri läbi ja joonistas skeemi: kuhu tulevad uued torud ja millised vanad tuleb välja vahetada.\n\nKolmandaks pime trepp. Vanad lambid põlesid kas kogu öö või ei põlenud üldse. Ando leidis pakkumise uutele lampidele, mis süttivad ise, kui keegi trepile astub, ja kustuvad mõne minuti pärast.\n\nKoosolek toimus aprillis ühel õhtul kooli saalis. Kohale tuli 31 inimest. Seinal rippus inseneri skeem. Kui insener skeemi selgitas ja ütles hinna, läks saalis vaikseks. Närvid olid pingul. Üks noor isa ütles, et tal ei ole nii palju raha. Üks vanem härra küsis, miks peab maksma tema, kui leke oli maja teises otsas. Õhkkond oli nii pingul, et Ando kartis, et koosolek lõpeb ilma otsuseta.\n\nSiis tõusis püsti Orvi Paju, pensionil raamatupidaja, kes on majas elanud kõige kauem. Tema silmis oli säde. Ta pakkus, et töö tehakse kahes osas: sel aastal vahetatakse keldri kõige vanemad torud ja järgmisel aastal ülejäänud. Nii ei pea keegi maksma kõike korraga. Orvi mõtte säde süttis ka teistes: keegi pakkus, et lambid vahetavad elanikud ise ühel laupäeval, ja keegi teine, et tuvide vastu pannakse pööningu akendele võrk.\n\nHääletamine läks kiiresti. Plaan võeti vastu 28 poolthäälega. Ando kirjutas protokolli ja kõik kohalolijad panid sellele oma allkirja. Kui elanikud koju läksid, ütles Orvi Andole: „Vaata, inimesed ei ole halvad. Nad lihtsalt kardavad suuri summasid.“\n\nMais vahetati keldris torud. Juunis pandi pööningu akendele võrk ja tuvid kolisid naabermaja katusele. Ja nüüd, kui Ando tuleb õhtuti koeraga jalutamast, süttib trepil lamp kohe, kui ta ukse avab.\n\nKüsimused:\nMillal kuuleb Ando naabrite muresid?\nTa kuuleb neid õhtuti, kui ta käib koeraga jalutamas.\nKuidas olid elanikud proovinud tuvisid ära peletada?\nNad olid pannud katusele plastist öökulli, riputanud aknale vanu plaate ja mänginud raadiost kullide hääli.\nMis oli keldris valesti?\nKeldris olid vanad jämedad torud, mis olid roostes.\nMiks olid närvid koosolekul pingul?\nInsener ütles hinna ja paljud kartsid, et neil ei ole nii palju raha.\nMida pakkus Orvi Paju?\nTa pakkus, et töö tehakse kahes osas, nii et keegi ei pea maksma kõike korraga.\nMis juhtub nüüd, kui Ando ukse avab?\nTrepil süttib lamp kohe ise."
+    },
+    {
+      "title": "Rännak rabas",
+      "summary": "A reporter signs up for a guided day hike in the Soomaa bogs and learns about compasses, trail stripes and old ditches from a legendary guide.",
+      "newWords": [
+        "rännak",
+        "jaguma",
+        "legendaarne",
+        "kompass",
+        "triip",
+        "raba",
+        "kraav",
+        "album"
+      ],
+      "text": "Juba aastaid olin tahtnud minna rabasse. Sel suvel leidsin internetist Soomaa ühe talu lehe, kus pakuti ühe päeva pikkust rännakut koos juhiga. Et rännakule pääseda, tuli täita vorm: nimi, vanus, telefoninumber, kingade suurus ja küsimus, kas olen varem rabas käinud. Kingade suurust oli vaja, sest talu annab igaühele rabas kõndimiseks laiad kingad. Kohti jagus ainult kaheteistkümnele inimesele, nii et registreerisin end kohe.\n\nRännaku juht oli Tiido Ilp, kelle nimi on Soomaal legendaarne. Ta on käinud nendes rabades üle 40 aasta ja tunneb seal peaaegu iga puud. Räägitakse, et ta pole kordagi ära eksinud. Legendaarne mees osutus väikeseks ja vaikseks hallide vuntsidega vanameheks.\n\nHommikul andis Tiido igaühele kompassi. „Telefoni aku võib rabas tühjaks saada, aga kompass töötab alati,“ ütles ta. Ta näitas, kuidas kompassiga põhja leida ja suunda hoida. Esimese tunni kõndisime metsas, kus rada oli märgitud puudele maalitud punaste triipudega. „Kui punast triipu enam ei näe, peatuge ja vaadake tagasi,“ õpetas Tiido.\n\nSiis algas raba. Panime laiad kingad jalga ja astusime pehmele maale. Iga samm oli, nagu kõnniksime madratsil. Raba keskel oli väike järv ja selle ümber kasvasid madalad puud. Tiido rääkis, et vanasti kaevati rabadesse kraave, et vesi ära juhtida ja turvast välja võtta. Nüüd on paljud kraavid kinni pandud, et raba saaks jälle märjaks muutuda. Ühe vana kraavi ääres näitas ta, kuidas rohi ja taimed on kraavi aeglaselt täitnud.\n\nLõunat sõime raba serval väikesel kuival saarel. Tiido võttis kotist vana albumi. Albumis olid vanad fotod: noor Tiido rabas, tema esimesed grupid ja üks väga külm talv, kui raba oli lund täis. „Selle albumi panin kokku oma esimese 20 aasta piltidest,“ ütles ta. Aega jagus kõigile: igaüks sai albumit vaadata ja küsimusi esitada.\n\nÕhtul jõudsime tagasi talu juurde. Kõigil olid märjad jalad ja õnnelik nägu. Järgmisel päeval saatis Tiido meile meiliga meie rännaku pildid, nagu väikese albumi internetis. Kompassi andsin tagasi, aga punaste triipude järgi oskan nüüd ka üksi metsas teed leida.\n\nKüsimused:\nMida tuli teha, et rännakule pääseda?\nTuli täita vorm, kus küsiti nime, vanust, telefoninumbrit, kingade suurust ja seda, kas inimene on varem rabas käinud.\nMiks registreeris autor end kohe?\nKohti jagus ainult kaheteistkümnele inimesele.\nKes oli Tiido Ilp?\nTa oli Soomaa legendaarne rännakute juht, kes on käinud nendes rabades üle 40 aasta.\nMiks andis Tiido igaühele kompassi?\nTelefoni aku võib rabas tühjaks saada, aga kompass töötab alati.\nMilleks kaevati vanasti rabadesse kraave?\nKraave kaevati, et vesi ära juhtida ja turvast välja võtta.\nMis oli Tiido vanas albumis?\nAlbumis olid vanad fotod tema esimese 20 aasta rännakutest."
+    },
+    {
+      "title": "Maasikad Muhul",
+      "summary": "Luisa grows organic strawberries and carrots on Muhu, fills in the paperwork for her organic farm and protects the blossoms on cold nights.",
+      "newWords": [
+        "maasikas",
+        "porgand",
+        "orgaaniline",
+        "tootmine",
+        "õis",
+        "tarve"
+      ],
+      "text": "Luisa Õunap kasvatab Muhu saarel maasikaid ja porgandeid. Tema talu on väike: kaks põldu, aed ja vana ait. Kümme aastat tagasi otsustas Luisa, et kasvatab ainult orgaanilisi marju ja porgandeid, mürke kasutamata.\n\nOrgaaniline tootmine tähendab palju tööd paberitega. Igal kevadel peab Luisa esitama plaani: mida ta kasvatab, kui suurel põllul ja mida ta mulda paneb. Iga kord, kui ta põldu toidab või rohtu välja tõmbab, paneb ta selle kirja. Tootmise kohta peab ta ka päevikut: millal külvati, millal korjati ja kui palju saaki tuli. Suvel tuleb tallu inspektor, kes kontrollib üle põllud, aida ja paberid. Ainult siis võib Luisa oma maasikaid ja porgandeid müüa orgaanilise kaubana. „Orgaanilise tootmise juures on paberid sama tähtsad kui põld,“ ütleb ta.\n\nKõige rohkem muretseb Luisa kevadel, kui maasikad õitsevad. Valged õied on väga õrnad. Kui mai lõpus tuleb öösel külm, võivad õied ühe ööga mustaks minna ja siis ei tule ka marju. Külmadel öödel katab Luisa maasikad valge riidega, et õisi kaitsta. Mõnikord tõuseb ta kell kolm öösel, et vaadata, kas riie on õite peal paigal.\n\nPorgandiga on teised mured. Porgand kasvab aeglaselt, aga muu rohi kasvab kiiresti. Kui talu on orgaaniline, ei tohi rohu vastu keemiat kasutada, nii et Luisa tõmbab seda käega välja. Suvel aitavad teda kaks õpilast, kes teenivad nii natuke raha. Porgandi juures on kõige tähtsam kannatus, ütleb Luisa.\n\nLuisa müüb maasikaid ja porgandeid Kuressaare turul ja kahele Tallinna restoranile. Turul küsivad ostjad sageli, mida tähendab orgaaniline. Luisa selgitab siis, et tema põldudel ei kasutata mürke ja et igal aastal kontrollib seda keegi. Mõni ostja tahab näha ka paberit ja Luisal on see alati kaasas.\n\nVäike osa saagist jääb pere enda tarbeks. Talvel on keldris alati kast porgandeid pere tarbeks ja külmkapis on maasikad, millest Luisa teeb moosi. Pere tarbeks läheb neid palju, sest peres on viis inimest ja kõik armastavad moosi.\n\n„Paberid võtavad aega,“ ütleb Luisa, „aga ostjad usaldavad orgaanilist kaupa just seetõttu, et keegi kontrollib seda.“ Kui inspektor sel suvel lahkus, oli kõik korras. Luisa istus aida trepil, sõi kausist maasikaid ja kirjutas oma märkmikku: „Kontroll tehtud.“\n\nKüsimused:\nMida Luisa Õunap kasvatab?\nTa kasvatab Muhu saarel maasikaid ja porgandeid.\nMiks tähendab orgaaniline tootmine palju tööd paberitega?\nLuisa peab igal kevadel esitama plaani ja kõik tööd kirja panema ning suvel kontrollib inspektor põllud ja paberid üle.\nMiks muretseb Luisa kevadel?\nKui maasikad õitsevad, võib öine külm õied ühe ööga mustaks muuta.\nKuidas kaitseb Luisa õisi?\nKülmadel öödel katab ta maasikad valge riidega.\nMida vastab Luisa turul, kui ostjad küsivad, mida tähendab orgaaniline?\nTa selgitab, et tema põldudel ei kasutata mürke ja et igal aastal kontrollib seda keegi.\nKuhu läheb väike osa saagist?\nVäike osa saagist jääb pere enda tarbeks."
+    },
+    {
+      "title": "Hõbedane paat",
+      "summary": "Ferdinand buys an old silver boat in Kärdla, registers it, gets a new anchor and promises his wife to be careful at sea.",
+      "newWords": [
+        "hõbedane",
+        "ankur",
+        "rõngas",
+        "emalaev",
+        "tõotus"
+      ],
+      "text": "Ferdinand Talts ostis kevadel Kärdlas oma esimese paadi. See oli vana hõbedane paat, mille küljel oli sinine triip. Eelmine omanik oli paati 15 aastat kasutanud ja hoidnud seda talvel kuuri all. Päikese käes säras hõbedane paat nagu suur kala.\n\nKõigepealt tuli paat registreerida. Ferdinand ei teadnud, et ka väike paat tuleb kanda registrisse, kui sellel on piisavalt võimas mootor. Ta täitis internetis avalduse, lisas ostu lepingu, paadi pildid ja mootori andmed. Kahe nädala pärast sai ta teate, et paat on registreeritud. Paadi küljele tuli kleepida number.\n\nSiis oli vaja varustust: vest igale inimesele, kes paadis on, aerud, köis ja ankur. Paadiga oli kaasas ka vana ankur, aga see oli nii väike, et tugeva tuulega ei hoidnud see paati paigal. Ferdinand ostis uue ankru. Uus ankur oli nii raske, et ta pidi selle paati tõstmiseks appi kutsuma oma pojapoja Konradi.\n\nKärdla sadamas sai Ferdinand koha kai ääres. Kai serval olid suured raudsed rõngad. Sadama töötaja näitas, kuidas jäme köis rõnga külge siduda, nii et see tugeva tuulega lahti ei tule. Konrad harjutas sõlme nii kaua, kuni sai köie rõngast kiiresti kinni ja lahti.\n\nSadamas seisis samal ajal suur valge laev, mis uurib merd. Selle kõrval tundusid väikesed paadid nagu mänguasjad. „Vaata, emalaev!“ ütles Konrad. Ferdinand naeris, sest tõesti: suure laeva ümber olid väikesed paadid nagu pojad ema ümber. Nädala jooksul hakkasid kõik sadamas seda laeva kutsuma lihtsalt nii: emalaev.\n\nEnne esimest sõitu andis Ferdinand oma naisele tõotuse. Ta paneb alati vesti selga, ei lähe tugeva tuulega merele ja ütleb enne igat sõitu, kuhu ta läheb ja millal tagasi tuleb. See tõotus ei olnud raske, sest ta tahtis ise ka turvaliselt sõita. Tõotust on ta seni pidanud. Iga kord, kui ta kai äärde tagasi jõuab, saadab ta naisele sõnumi: „Paat on rõnga küljes, kõik on korras.“\n\nEsimesel sõidul viskas Ferdinand ankru vette väikese saare juures, sõi võileiba ja vaatas, kuidas emalaev kaugel sadamast välja sõitis.\n\nKüsimused:\nMilline oli Ferdinandi paat?\nSee oli vana hõbedane paat, mille küljel oli sinine triip.\nMida pidi Ferdinand tegema, et paati registreerida?\nTa täitis internetis avalduse ning lisas ostu lepingu, paadi pildid ja mootori andmed.\nMiks ostis Ferdinand uue ankru?\nVana ankur oli nii väike, et tugeva tuulega ei hoidnud see paati paigal.\nMida õppis Konrad sadamas?\nTa õppis siduma köit kai raudse rõnga külge.\nMiks ütles Konrad suure laeva kohta „emalaev“?\nSelle ümber olid väikesed paadid nagu pojad ema ümber.\nMillise tõotuse andis Ferdinand oma naisele?\nTa lubas alati vesti selga panna, mitte minna tugeva tuulega merele ja öelda enne igat sõitu, kuhu ta läheb."
+    }
+  ]
+}
