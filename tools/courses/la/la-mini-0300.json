@@ -1,0 +1,200 @@
+{
+  "id": "la-mini-0300",
+  "rankUpTo": 300,
+  "level": "A1",
+  "title": "Cibus et emptio",
+  "description": "Ten short stories about water, meals, cooking, shops, gifts and markets in modern towns.",
+  "topic": "Food and shopping",
+  "names": [
+    "Fannia",
+    "Neapolis",
+    "Appius",
+    "Volumnia",
+    "Florentia",
+    "Herennius",
+    "Plautia",
+    "Verona",
+    "Lollius",
+    "Manlius",
+    "Patavium",
+    "Vettius",
+    "Sulpicia",
+    "Tibur",
+    "Sergius",
+    "Mettius",
+    "Turicum",
+    "Pinaria",
+    "Brundisium",
+    "Petronia",
+    "Vindobona",
+    "Sempronia",
+    "Minucius",
+    "Tarentum",
+    "Postumia",
+    "Cloelia",
+    "Venetiae"
+  ],
+  "lessons": [
+    {
+      "title": "Aqua bona",
+      "summary": "On a hot day Fannia and her mother find no water at home and fetch good water from a shop in the village.",
+      "newWords": [
+        "mater",
+        "aqua",
+        "debeo",
+        "multum",
+        "valde",
+        "bonus",
+        "bene",
+        "mox",
+        "venio"
+      ],
+      "text": "Haec est Fannia. Fannia cum matre Neapoli est. Hodie sol valde magnus est.\n\nMater Fanniae aquam in domo non invenit.\n\n«Aquam non habemus», dicit mater. «Sed hodie multum aquae bibere debemus.»\n\n«Ubi est aqua bona?» dicit Fannia.\n\n«In vico est taberna bona», dicit mater. «Ibi aqua bona est. Ad tabernam venire debemus.»\n\nFannia et mater ad tabernam veniunt. Ibi multa aqua est. Mater aquam bonam emit. Fannia partem aquae habet, et mater partem.\n\n«Multa aqua est», dicit Fannia. «Sed bene est.»\n\nFannia et mater domum veniunt. Fannia multum bibit. «Haec aqua valde bona est!» dicit Fannia.\n\n«Bene, Fannia», dicit mater. «Aqua bona est. Hodie omnes multum aquae habere debent.»\n\nMox pater domum venit. Pater quoque multum aquae bibit. «Bona aqua!» dicit pater. «Hodie aqua valde bona est.»\n\n«Iam multam aquam habemus», dicit Fannia. «Et aqua bona est!»\n\nMox omnes in domo sunt, et aqua bona in domo est.\n\nQuaestiones:\nUbi est Fannia?\nFannia cum matre Neapoli est.\nQuid mater in domo non invenit?\nMater in domo aquam non invenit.\nQuo veniunt Fannia et mater?\nFannia et mater ad tabernam veniunt.\nQuid dicit mater de aqua?\nMater dicit: «Hodie multum aquae bibere debemus.»\nQuis mox domum venit?\nPater mox domum venit."
+    },
+    {
+      "title": "Quinque personae",
+      "summary": "Appius, his wife Volumnia and their three children eat out, choose seats and dishes, and come back a month later.",
+      "newWords": [
+        "persona",
+        "quinque",
+        "sedes",
+        "eligo",
+        "edo",
+        "secundus",
+        "talis",
+        "gratia",
+        "iterum"
+      ],
+      "text": "Hic est Appius. Appius et uxor Volumnia cum tribus liberis Florentiae sunt. Hodie familia Appii non domi edit, sed in taberna.\n\nFamilia in tabernam venit. «Quinque personae sumus», dicit Appius. «Habesne quinque sedes?»\n\n«Quinque sedes habeo», dicit vir. «Hic est locus quinque personarum. Sedes eligere potestis.»\n\nOmnis persona sedem eligit. Volumnia sedem primam eligit. Liberi sedes inter patrem et matrem eligunt.\n\nVir eis librum dat. In libro multae res sunt, quas homines in taberna edunt. Primum familia panem edit. Deinde omnis persona rem secundam eligit. Appius piscem eligit, Volumnia et liberi aliam rem.\n\nRes secunda valde bona est. «Talem rem domi non edimus!» dicit filia Appii.\n\n«Talis res domi non fit», dicit Volumnia. «Sed hic bene fit.»\n\nPost rem secundam Appius viro gratias agit. «Gratias agimus», dicit Volumnia. «Iterum venire volumus.»\n\nPost mensem familia iterum in hanc tabernam venit. Iterum quinque personae sunt, et iterum quinque sedes eligunt.\n\nQuaestiones:\nQui sunt in familia Appii?\nIn familia Appii sunt quinque personae: Appius, Volumnia et tres liberi.\nQuam sedem eligit Volumnia?\nVolumnia sedem primam eligit.\nQuid familia primum edit?\nPrimum familia panem edit.\nQuid dicit filia Appii de re secunda?\nFilia dicit: «Talem rem domi non edimus!»\nQuis viro gratias agit?\nAppius viro gratias agit."
+    },
+    {
+      "title": "Cibus matris",
+      "summary": "Herennius cooks his mother's dish with his daughter Plautia, changes the recipe a little and puts the rest away.",
+      "newWords": [
+        "capio",
+        "pono",
+        "modus",
+        "eodem",
+        "dum",
+        "adhibeo",
+        "muto",
+        "coepi",
+        "condo"
+      ],
+      "text": "Herennius Veronae cum filia Plautia est. Hodie Herennius cenam facit. Mater Herennii hanc rem saepe fecit, et Herennius eodem modo facit. Hic modus antiquus est.\n\nPrimum Herennius vas magnum capit et aquam in eo ponit. Deinde ova capit et in aqua ponit.\n\nDum ova in aqua sunt, Plautia sedes ponit. Dum Plautia hoc facit, Herennius salem adhibet.\n\n«Eodemne modo hoc fit, pater?» dicit Plautia.\n\n«Eodem modo», dicit Herennius. «Sed hodie modum muto: oleum quoque adhibeo.»\n\nHerennius oleum adhibet. Deinde omnia ponit. Pater filiaque edere coeperunt.\n\n«Bonum est, pater!» dicit Plautia. «Hic modus bonus est. Modum bene mutavisti. Hunc modum quoque habere volo.»\n\n«Mater mea quoque modum saepe mutavit», dicit Herennius. «Nunc eodem modo ego muto. Postea tu quoque modum mutare potes.»\n\nPater filiaque non omnia edunt. Herennius partem capit et in vase altero condit. Plautia quoque partem capit et condit. Deinde pater filiaque omnia in locum suum ponere coeperunt.\n\nPater filiaque partem postea iterum edere volunt.\n\nQuaestiones:\nQuid Herennius hodie facit?\nHerennius cenam facit, eodem modo quo mater eius.\nQuid Herennius in aqua ponit?\nHerennius ova in aqua ponit.\nQuid facit Plautia, dum pater hoc facit?\nPlautia sedes ponit.\nQuid Herennius hodie mutat?\nHerennius modum mutat.\nQuid Herennius cum parte facit?\nHerennius partem capit et in vase altero condit."
+    },
+    {
+      "title": "Ludus tabernae",
+      "summary": "Two brothers stay home and play a shop game with little stones as coins, and their mother joins in.",
+      "newWords": [
+        "frater",
+        "minor",
+        "parvus",
+        "ludus",
+        "ludo",
+        "manus",
+        "solus",
+        "maneo",
+        "iste"
+      ],
+      "text": "Lollius et Manlius fratres sunt. Domus eorum Patavii est. Lollius est frater maior, Manlius frater minor.\n\nHodie mater in schola est. Fratres domi manent. Manlius solus ludere non vult. «Solus ludere non volo», dicit Manlius. «Ludum novum ludere volo.»\n\n«Ludum tabernae ludimus», dicit Lollius. Lollius parvos libros et parvas res ponit. Lollius est vir tabernae et ibi manet.\n\nFrater minor parvos lapides in manu habet. In ludo hi lapides pecunia sunt.\n\n«Quid est istud?» dicit Manlius.\n\n«Istud est liber parvus», dicit Lollius. «Pro libro duos lapides das.»\n\nManlius duos lapides ex manu fratri dat. Lollius librum in manum fratris minoris ponit.\n\n«Isti libri parvi sunt», dicit Manlius. «Sed boni sunt.»\n\nFratres multum ludunt. Deinde mater domum venit et filios videt. «Quem ludum luditis?» dicit mater.\n\n«Ludum tabernae», dicit Manlius. «Ludisne quoque, mater?»\n\nMater quoque ludere vult. Mater domi manet et ludit. Iam fratres et mater una ludunt.\n\nQuaestiones:\nQuis est frater minor?\nManlius est frater minor.\nUbi manent fratres?\nFratres domi manent.\nQuem ludum ludunt fratres?\nFratres ludum tabernae ludunt.\nQuid Manlius in manu habet?\nManlius parvos lapides in manu habet.\nQuis postea quoque ludere vult?\nMater quoque ludere vult."
+    },
+    {
+      "title": "Systema novum",
+      "summary": "Shop owner Vettius has a new system of signs, and when the cheese has none he finds its price on the board upstairs.",
+      "newWords": [
+        "dominus",
+        "systema",
+        "signum",
+        "consto",
+        "quando",
+        "momentum",
+        "gradus",
+        "superior",
+        "tabula",
+        "nota"
+      ],
+      "text": "Vettius est dominus tabernae Tiburi. Hic dominus multas res habet: aquam, libros, caseum.\n\nVettius novum systema habet. In hoc systemate omnis res signum habet, et in omni signo est numerus. Signum dicit, exempli causa: «Haec res 3 nummis constat.»\n\nSulpicia ad Vettium venit. Caseum videt, sed signum non videt.\n\n«Hic caseus signum non habet», dicit Sulpicia. «Numerum non video.»\n\n«Unum momentum», dicit dominus. «Systema novum est.»\n\nVettius per gradus in partem superiorem domus venit. In parte superiore est tabula magna. In tabula sunt omnes res, et omnis res numerum habet. Ibi est nota de caseo. Nota dicit: «Caseus 4 nummis constat.»\n\nPost unum momentum dominus iterum per gradus venit. «Constat 4 nummis», dicit Vettius. «Nota in tabula hoc dicit.»\n\n«Bene», dicit Sulpicia. «Sed quando signum novum fit?»\n\n«Hodie», dicit dominus. Vettius signum novum facit et ponit.\n\n«Quando hoc systema novum coepit?» dicit Sulpicia.\n\n«Hoc mense», dicit Vettius. «Sed tabula in parte superiore etiam nunc opus est.»\n\nQuaestiones:\nQuis est Vettius?\nVettius est dominus tabernae Tiburi.\nQuid habet omnis res in systemate novo?\nOmnis res signum habet, et in signo est numerus.\nQuid non videt Sulpicia?\nSulpicia signum non videt.\nUbi est tabula magna?\nTabula magna est in parte superiore domus.\nQuid dicit nota de caseo?\nNota dicit: «Caseus 4 nummis constat.»\nQuando systema novum coepit?\nSystema novum hoc mense coepit."
+    },
+    {
+      "title": "Munus matri",
+      "summary": "Brothers Sergius and Mettius find no good birthday present for their mother in the shops, so they make her a picture of the family.",
+      "newWords": [
+        "munus",
+        "nescio",
+        "fortasse",
+        "neque",
+        "haud",
+        "ergo",
+        "proprius",
+        "animus",
+        "verus",
+        "credo"
+      ],
+      "text": "Sergius et frater Mettius Turici sunt. Hodie est dies natalis matris. Fratres munus matri dare volunt.\n\n«Quod munus matri damus?» dicit Mettius.\n\n«Nescio», dicit Sergius. «Fortasse librum?»\n\n«Mater multos libros habet», dicit Mettius. «Neque librum neque aliam rem novam vult.»\n\nFratres in vicum veniunt et multa munera vident. Sed munera haud parva pecunia constant. Fratres munus bonum non inveniunt.\n\n«Nescio!» dicit Mettius. «Fortasse nullum munus matri damus.»\n\n«Ergo munus proprium facimus», dicit Sergius. «Mater imagines familiae habere vult. Ergo imaginem familiae facimus. Hoc munus ex animo est.»\n\n«Vera dicis», dicit Mettius. «Ita credo.»\n\nFratres domum veniunt et imaginem faciunt. Hoc opus haud parvum est, sed fratres bono animo sunt. In imagine sunt pater, mater et fratres.\n\nPost multum tempus mater domum venit et imaginem videt. «Munus proprium fecistis?» dicit mater. «Credere non possum! Haec est imago vera familiae. Hoc munus ex animo est.»\n\nQuaestiones:\nQuid fratres matri dare volunt?\nFratres munus matri dare volunt.\nQuid dicit Sergius de libro?\nSergius dicit: «Fortasse librum?»\nSuntne munera in vico parva pecunia?\nNon, munera haud parva pecunia constant.\nQuid dicit Sergius, ubi munus bonum non inveniunt?\nSergius dicit: «Ergo munus proprium facimus.»\nQuod munus fratres faciunt?\nFratres imaginem familiae faciunt.\nQuid dicit mater?\nMater dicit: «Haec est imago vera familiae.»"
+    },
+    {
+      "title": "Navis ad insulam",
+      "summary": "Pinaria lives on a small island where a ship usually brings everything; when the sea keeps it in port she has only fountain water until it comes.",
+      "newWords": [
+        "vivo",
+        "navis",
+        "plerumque",
+        "fero",
+        "copia",
+        "fons",
+        "nisi",
+        "soleo",
+        "adhuc",
+        "tunc"
+      ],
+      "text": "Pinaria in parva insula prope Brundisium vivit. In insula non multi homines vivunt, et taberna non est.\n\nNavis plerumque omnes res ex Brundisio ad insulam fert. Navis omni tertio die venire solet. Plerumque Pinaria res suas ex navi capit.\n\nIn insula est fons. Pinaria aquam e fonte capere solet. Aqua fontis bona est.\n\nHodie copia rerum in domo Pinariae parva est. Pinaria nihil nisi aquam e fonte habet.\n\nSed hodie mare non bonum est, et navis Brundisii manet. Navis adhuc non venit. Pinaria navem adhuc non videt.\n\n«Nullam rem nisi aquam habeo», dicit Pinaria. «Sed fons bonus est.»\n\nPostea mare bonum est. Tunc navis ad insulam venit. Navis magnam copiam rerum fert: panem, caseum et multas res alias. Homines insulae ad navem veniunt et res suas domum ferunt.\n\nTunc Pinaria quoque res suas domum fert. Iam magna copia rerum in domo est.\n\nQuaestiones:\nUbi vivit Pinaria?\nPinaria in parva insula prope Brundisium vivit.\nQuid navis plerumque ad insulam fert?\nNavis plerumque omnes res ad insulam fert.\nUbi Pinaria aquam capere solet?\nPinaria aquam e fonte capere solet.\nQuid hodie habet Pinaria?\nPinaria nihil nisi aquam e fonte habet.\nVenitne navis hodie?\nNon, navis adhuc non venit.\nQuando navis venit?\nUbi mare bonum est, navis ad insulam venit."
+    },
+    {
+      "title": "Origo panis",
+      "summary": "Petronia, a known writer in Vienna, writes a series of books on where foods come from, starting with bread.",
+      "newWords": [
+        "scriptor",
+        "notus",
+        "series",
+        "origo",
+        "initium",
+        "olim",
+        "natura",
+        "historicus",
+        "scientia",
+        "vulgo"
+      ],
+      "text": "Petronia scriptrix est. Vindobonae vivit. Petronia libros de rebus quas homines edunt scribit. Libri eius noti sunt, et Petronia scriptrix nota est.\n\nNunc Petronia seriem librorum scribit. In hac serie omnis liber de origine unius rei est. Liber primus seriei de origine panis est.\n\nPetronia multos libros historicos habet. Ex libris historicis multum de scientia invenit: de scientia naturae et de scientia hominum.\n\nIn initio libri Petronia scribit: «Olim homines panem non habuerunt. Natura eis terram et aquam dedit, et homines olim panem facere coeperunt. Origo panis antiqua est.»\n\nLiber secundus seriei de aqua et fontibus est. In initio libri secundi Petronia de natura aquae scribit.\n\nEtiam alii scriptores libros de his rebus scribunt, et multi noti sunt. Sed series Petroniae haud similis aliis est: Petronia scientiam et historiam una scribit.\n\nIn libro primo est genus panis antiquum. Hic panis vulgo «panis antiquus» appellatur. Etiam hodie hic panis vulgo editur.\n\nQuaestiones:\nQuis est Petronia?\nPetronia est scriptrix nota.\nQuos libros habet Petronia?\nPetronia multos libros historicos habet.\nQuid nunc scribit Petronia?\nPetronia seriem librorum scribit.\nDe qua re est liber primus seriei?\nLiber primus de origine panis est.\nQuid scribit Petronia in initio libri?\nPetronia scribit: «Olim homines panem non habuerunt.»\nQuod nomen vulgo habet panis antiquus?\nHic panis vulgo «panis antiquus» appellatur."
+    },
+    {
+      "title": "Magistra Sempronia",
+      "summary": "Sempronia teaches cooking in Tarentum; Minucius, new to her school, cannot even make bread, but with eagerness he makes a good loaf.",
+      "newWords": [
+        "magister",
+        "doceo",
+        "mille",
+        "studium",
+        "ne",
+        "hodiernus",
+        "officium",
+        "praeterea"
+      ],
+      "text": "Sempronia magistra est. Tarenti docet. Sempronia non litteras docet, sed homines panem facere docet. Iam mille homines docuit.\n\nHodie Minucius primum ad magistram venit. Minucius ne panem quidem facere potest. Sed magno studio venit.\n\n«Opus hodiernum est panis», dicit magistra. «Omnis homo hic officium suum habet.»\n\nOfficium Minucii est aquam in vase ponere. Praeterea Minucius salem adhibet. Praeterea panem in loco suo ponit.\n\nMinucius omnia magno studio facit. Magistra Minucium docet: «Hic est modus bonus.» Minucius officium suum bene facit.\n\nPost multum tempus panis hodiernus factus est. Panis bonus est, et omnes partem eius edunt.\n\n«Ne magistra quidem talem panem facit!» dicit alia persona.\n\n«Non ita est», dicit magistra. «Sed studium Minucii magnum est. Studium est initium omnis artis.»\n\nMinucius gratias agit. Postea iterum ad magistram venire vult. Mille homines Sempronia docuit, et nunc Minucium quoque docet.\n\nQuaestiones:\nQuis est Sempronia?\nSempronia magistra est et Tarenti docet.\nQuid Sempronia docet?\nSempronia homines panem facere docet. Iam mille homines docuit.\nQuid est opus hodiernum?\nOpus hodiernum est panis.\nQuod est officium Minucii?\nOfficium Minucii est aquam in vase ponere.\nQuo modo Minucius omnia facit?\nMinucius omnia magno studio facit."
+    },
+    {
+      "title": "Carmina in vico",
+      "summary": "Postumia finds a spot by a fountain in a busy Venice street and sings a long song about bread, water and ships, and little Cloelia likes it most.",
+      "newWords": [
+        "musica",
+        "reperio",
+        "longus",
+        "versus",
+        "motus",
+        "maxime",
+        "ultimus"
+      ],
+      "text": "Postumia musicam facit. Postumia carmina in vico Venetiis dicit. Hodie locum bonum non statim invenit, sed tandem prope fontem locum reperit.\n\nIn vico est magnus motus hominum. Homines res varias habent et per vicum veniunt.\n\nPostumia carmen longum dicit. Carmen longum multos versus habet. Versus primus de pane est, versus secundus de aqua, versus tertius de navibus.\n\nDum Postumia carmen dicit, parva Cloelia cum matre venit. Cloelia musicam audit. «Mater, hoc carmen maxime bonum est!» dicit Cloelia.\n\nMater Cloeliae pecuniam quaerit et reperit. Pecuniam in manu Postumiae ponit. Postumia gratias agit.\n\nPost multum tempus motus hominum in vico minor est. Postumia carmen ultimum dicit. Carmen ultimum non longum est: tres versus habet. Hoc carmen Cloelia maxime laudat.\n\n«Musica bona est», dicit mater Cloeliae. «Iterum venire volumus.»\n\nQuaestiones:\nUbi carmina dicit Postumia?\nPostumia carmina in vico Venetiis dicit.\nUbi locum reperit Postumia?\nPostumia prope fontem locum reperit.\nEstne magnus motus hominum in vico?\nIta, in vico est magnus motus hominum.\nQuot versus habet carmen ultimum?\nCarmen ultimum tres versus habet.\nQuid dicit Cloelia?\nCloelia dicit: «Mater, hoc carmen maxime bonum est!»\nQuid mater Cloeliae Postumiae dat?\nMater Cloeliae Postumiae pecuniam dat."
+    }
+  ]
+}
