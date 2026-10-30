@@ -1,0 +1,196 @@
+{
+  "id": "fi-mini-4300",
+  "rankUpTo": 4300,
+  "level": "C1",
+  "title": "Ilmasto ja energia",
+  "description": "Ten texts about climate and energy in everyday Finnish life: a wind farm tour, a first week installing solar panels, a restaurant menu with less meat, a summer play about bees, a school project on a century of temperatures, an electric car in winter, a storm without power, a heat wave, a battery laboratory and a column on flight shame.",
+  "topic": "Climate and energy",
+  "names": [
+    "Lestijärvi",
+    "Pohjanmaa",
+    "Helsinki",
+    "Maire",
+    "Launo",
+    "Seinäjoki",
+    "Jimi",
+    "Hanni",
+    "Turku",
+    "Leea",
+    "Mortti",
+    "Savonlinna",
+    "Jatta",
+    "Vili",
+    "Jyväskylä",
+    "Kerli",
+    "Iiri",
+    "Jami",
+    "Nikke",
+    "Meea",
+    "Inari",
+    "Kemijärvi",
+    "Nauvo",
+    "Vesku",
+    "Tuuve",
+    "Tampere",
+    "Näsijärvi",
+    "Ritu",
+    "Pietu",
+    "Vaasa",
+    "Elea",
+    "Mattias",
+    "Berliini",
+    "Nelina",
+    "Pirta"
+  ],
+  "lessons": [
+    {
+      "title": "Tuulta lakeudella",
+      "summary": "Maire visits the village of her grandparents, where a local farmer guides visitors around a large wind farm and explains what it has meant for the small municipality.",
+      "newWords": [
+        "tuulivoima",
+        "vierailija",
+        "opastaa",
+        "mittava",
+        "väkiluku",
+        "murre",
+        "karja",
+        "tyydyttää"
+      ],
+      "text": "Lestijärvi on pieni kunta Pohjanmaalla. Sen väkiluku on vain noin 700, ja väkiluku on laskenut jo vuosikymmenten ajan, kun nuoret ovat muuttaneet kaupunkeihin. Kunnan metsiin on kuitenkin rakennettu mittava määrä tuulivoimaa: kymmeniä valkoisia voimaloita, joista jokainen on korkeampi kuin kaupungin korkein kerrostalo.\n\nMaire asuu Helsingissä, mutta hänen äitinsä vanhemmat asuivat aikoinaan Lestijärvellä. Eräänä kesänä hän päätti lähteä katsomaan, miltä kylä näyttää nyt, kun tuulivoima on muuttanut maisemaa. Hän ilmoittautui kierrokselle, jolla vierailijoita opastetaan voimaloiden alueella kerran viikossa.\n\nKierrosta opasti Launo, joka on syntynyt kylässä ja tehnyt koko ikänsä töitä omalla maatilallaan. Hän puhui vahvaa Pohjanmaan murretta, ja aluksi Maire ymmärsi hänestä vain puolet. Launo huomasi sen ja nauroi. ”Osaan minä puhua myös niin, että kaikki ymmärtävät, kun vierailija sitä tarvitsee”, hän sanoi. Sen jälkeen hän puhui hitaammin, mutta murre kuului silti jokaisessa lauseessa, ja Maire alkoi pitää siitä. Samalla tavalla oli puhunut Mairen isoisä.\n\nVierailijoita oli ryhmässä kaksitoista. Launo opasti heidät ensin aidan viereen, josta näki lähimmän voimalan juuren. ”Yksi voimala tuottaa vuodessa sähköä noin tuhannelle kodille”, hän kertoi. ”Kun tuuli on hyvä, kaikki nämä voimalat yhdessä voisivat tyydyttää monen kaupungin sähkön tarpeen. Täällä tuotetaan paljon enemmän sähköä kuin koko kunta käyttää.” Hänen mukaansa tuulivoima sopii seudulle hyvin, sillä talvella tuuli on usein kova juuri silloin, kun sähköä tarvitaan eniten.\n\nEräs vierailija kysyi, mitä kyläläiset hankkeesta aluksi ajattelivat. Launo kertoi, että mielipiteitä oli monenlaisia. Osa pelkäsi voimaloiden ääntä, ja osa uskoi, ettei karja viihtyisi enää pelloilla. ”Minullakin on karjaa, 30 lehmää”, Launo sanoi. ”Lehmät ovat kesällä pellolla aivan voimaloiden vieressä, eikä karja välitä niistä lainkaan.” Vähitellen moni muukin oli tyytyväinen, sillä kunta saa voimaloista mittavia tuloja. Rahoilla on korjattu koulu ja kirjasto. Sähkö, jota kylässä tuotetaan, riittää tyydyttämään monen kaukaisen kaupungin tarpeet, ja kylä saa siitä osansa.\n\nLopuksi Launo vei ryhmän mäelle, josta näkyivät kaikki voimalat. Maire katseli, miten siivet kääntyivät hitaasti. Mairen isoisän aikaan pellot olivat samat, mutta taivaalla oli vain pilviä. Nyt maisema oli toinen, mutta kylä eli yhä. Illalla Maire päätti tulla takaisin ensi kesänä ja tuoda mukanaan tyttärensä, jotta tämäkin kuulisi Launon murretta.\n\nKysymykset:\nKuinka suuri Lestijärven väkiluku on?\nLestijärven väkiluku on noin 700, ja se on laskenut jo pitkään.\nMiksi Maire lähti Lestijärvelle?\nHänen äitinsä vanhemmat asuivat siellä, ja hän halusi nähdä, miltä seutu näyttää nyt, kun tuulivoima on muuttanut maisemaa.\nKuka opasti vierailijoita?\nVierailijoita opasti Launo, joka on tehnyt koko ikänsä töitä maatilalla ja puhuu kylän murretta.\nMitä Launo kertoi karjasta?\nHänen karjansa on kesällä pellolla voimaloiden vieressä, eikä se välitä voimaloista lainkaan.\nMitä kunta on tehnyt voimaloiden tuloilla?\nKunta on korjannut koulun ja kirjaston."
+    },
+    {
+      "title": "Ensimmäinen viikko katoilla",
+      "summary": "Jimi starts work at a small solar company in Seinäjoki; his experienced colleague Hanni shows him the work, a loose cable and a slippery roof teach him why skill matters.",
+      "newWords": [
+        "tulokas",
+        "ammattitaito",
+        "työllistyminen",
+        "työtehtävä",
+        "käyttöönotto",
+        "salkku",
+        "löysä",
+        "liukas"
+      ],
+      "text": "Jimi valmistui keväällä Seinäjoella sähköasentajaksi. Hän oli pelännyt, että työn löytäminen olisi vaikeaa, mutta hänen työllistymisensä kävi nopeasti. Auringon energia on Pohjanmaalla kasvava ala, ja pieni yritys, joka asentaa aurinkopaneeleja omakotitalojen katoille, tarvitsi lisää väkeä. Opettajan mukaan alan työllistyminen on nyt parempi kuin koskaan, sillä yhä useampi perhe haluaa tuottaa osan sähköstään itse.\n\nEnsimmäisenä aamuna Jimi oli varastolla jo puoli tuntia ennen sovittua aikaa. Siellä häntä odotti Hanni, joka on tehnyt alan töitä yli 15 vuotta. Hannilla oli kädessään vanha ruskea salkku. Jimi ihmetteli sitä, sillä hän oli kuvitellut, että kaikki tieto on nykyään tabletilla. ”Salkussa ovat paperit, joita asiakas haluaa pitää kädessään”, Hanni selitti. ”Moni asiakas luottaa paperiin enemmän kuin puhelimeen.”\n\nHanni kertoi, millaisia työtehtäviä tulokkaalla on ensimmäisellä viikolla. Tulokas kantaa paneeleja, auttaa kaapeleiden kanssa ja katsoo tarkasti, miten kokeneempi työntekijä toimii. Vaikeammat työtehtävät tulevat myöhemmin, kun ammattitaito kasvaa. ”Ammattitaito ei synny koulussa”, Hanni sanoi. ”Se syntyy siitä, että tekee saman asian sata kertaa oikein.”\n\nEnsimmäinen kohde oli omakotitalo kaupungin laidalla. Yöllä oli satanut, ja katto oli märkä ja liukas. Hanni näytti, miten köysi kiinnitetään ja miten liukkaalla katolla liikutaan. Jimi oli koulussa harjoitellut samaa, mutta oikealla katolla, kahdeksan metrin korkeudessa, kaikki tuntui toiselta.\n\nKun paneelit olivat paikallaan, Hanni pyysi Jimiä tarkistamaan kaapelit. Yksi kaapelin pää oli löysä. Jimi ei ollut huomannut sitä, vaikka oli itse ollut mukana sitä tekemässä. Hanni ei suuttunut. Hän selitti, että löysä kaapeli voi tulla kuumaksi ja aiheuttaa vaaran vuosien päästä. ”Siksi tarkistamme jokaisen kaapelin kaksi kertaa”, hän sanoi. Jimi kiristi kaapelin ja tarkisti sen vielä uudelleen.\n\nIltapäivällä oli järjestelmän käyttöönotto. Talon omistajat, eläkkeellä oleva pariskunta, istuivat keittiön pöydän ääressä, ja Hanni otti salkusta paperit. Käyttöönotto kesti tunnin. Hanni näytti, miten sovelluksesta näkee, paljonko sähköä katolla tuotetaan, ja Jimi sai selittää, mitä numerot tarkoittavat. Kun aurinko tuli pilven takaa, luku nousi heti, ja talon emäntä nauroi iloisesti.\n\nIllalla Jimi oli väsynyt mutta tyytyväinen. Hän tiesi, että hänen ammattitaitonsa oli vasta alussa, mutta ensimmäinen päivä oli opettanut paljon.\n\nKysymykset:\nMiksi Jimin työllistyminen kävi nopeasti?\nAuringon energia on kasvava ala, ja yritys tarvitsi lisää väkeä.\nMitä Hannin salkussa oli?\nSalkussa olivat paperit, joita asiakas haluaa pitää kädessään.\nMillaisia työtehtäviä tulokkaalla on?\nTulokas kantaa paneeleja, auttaa kaapeleiden kanssa ja katsoo, miten kokeneempi työntekijä toimii.\nMiksi katolla piti olla varovainen?\nYöllä oli satanut, ja katto oli liukas.\nMitä Jimi löysi kaapeleista?\nYksi kaapeli oli löysä, ja hän kiristi sen.\nMitä käyttöönotossa tapahtui?\nHanni näytti asiakkaille, miten sovelluksesta näkee, paljonko sähköä katolla tuotetaan."
+    },
+    {
+      "title": "Uusi lista",
+      "summary": "In a Turku restaurant, the cook Mortti cuts the climate cost of the menu: fewer steaks, more soups from organic local produce, and the breakfast leftovers go to a charity.",
+      "newWords": [
+        "tarjoilija",
+        "pihvi",
+        "keitto",
+        "luomu",
+        "aamupala",
+        "tiiviisti",
+        "hyväntekeväisyys",
+        "luonnonvara"
+      ],
+      "text": "Leea on ollut tarjoilijana pienessä ravintolassa Turun keskustassa jo kolme vuotta. Ravintola on auki aamusta iltaan: aamulla tarjotaan aamupala, keskipäivällä lounas ja illalla ruokaa listalta. Keittiössä työskentelee Mortti, joka omistaa ravintolan yhdessä siskonsa kanssa.\n\nEräänä syksynä Mortti kutsui koko henkilökunnan keittiöön. Hän oli laskenut, kuinka paljon päästöjä ravintolan ruoasta syntyy. Suurin osa päästöistä tuli lihasta, ja eniten myytiin pihviä. ”Emme poista pihviä kokonaan”, Mortti sanoi, ”mutta haluan, että pihvi on erikoinen ruoka eikä joka päivän valinta.”\n\nUuteen listaan tuli enemmän keittoja. Mortti teki keiton joka päivä eri kasviksista: maanantaina oli porkkanaa, tiistaina sieniä, keskiviikkona perunaa ja kalaa. Keittoon hän käytti luomua aina, kun se oli mahdollista. Luomu maksaa enemmän, mutta Mortti oli löytänyt lähiseudulta kaksi tilaa, joiden kanssa hän tekee tiiviisti yhteistyötä. Tilat kertovat hänelle viikoittain, mitä pelloilta on tulossa, ja Mortti suunnittelee listan sen mukaan. Koska yhteistyö on tiivistä, kasvikset tulevat keittiöön tuoreina samana päivänä, kun ne on nostettu maasta.\n\nLeea oli ensin huolissaan. Hän tunsi ravintolan vakiasiakkaat, ja moni heistä tilasi pihvin joka viikko. Kun uusi lista otettiin käyttöön, eräs vanha herra kysyi häneltä hämmästyneenä, missä hänen pihvinsä on. Leea kertoi, että pihviä saa nyt perjantaisin, ja suositteli päivän keittoa. Herra maistoi sitä epäillen, mutta tilasi seuraavalla viikolla saman keiton uudelleen.\n\nMortti halusi myös vähentää sitä ruokaa, joka jää syömättä. Aamupala oli ollut ongelma, sillä aamulla tarjolla oli paljon leipää, puuroa ja hedelmiä, ja puolet jäi usein jäljelle. ”Ruoka on luonnonvara”, Mortti sanoi. ”Jokaisen porkkanan kasvattamiseen on käytetty vettä, maata ja työtä. Luonnonvara ei saa päätyä roskiin.” Nyt aamupalan ruoka, jota ei syödä, viedään iltapäivällä hyväntekeväisyyteen. Lähellä toimii yhdistys, joka jakaa ruokaa niille, joilla on vähän rahaa. Hyväntekeväisyys ei ollut Mortille uusi asia, sillä hän oli itse nuorena ollut yhdistyksen vapaaehtoisena.\n\nPuolen vuoden kuluttua ravintolan päästöt olivat laskeneet lähes kolmanneksen. Rahaa ei mennyt enempää kuin ennen, sillä keitto on halvempi tehdä kuin pihvi. Leea huomasi, että hän puhui asiakkaiden kanssa nyt enemmän kuin ennen. Moni halusi tietää, miltä tilalta päivän kasvikset olivat peräisin.\n\nKysymykset:\nMissä Leea työskentelee?\nLeea on tarjoilijana pienessä ravintolassa Turun keskustassa.\nMiksi Mortti muutti listaa?\nSuurin osa ravintolan päästöistä tuli lihasta, ja eniten myytiin pihviä.\nMistä Mortti saa kasvikset keittoon?\nHän saa ne kahdelta lähiseudun tilalta, joiden kanssa hän tekee tiiviisti yhteistyötä.\nMilloin pihviä saa uudelta listalta?\nPihviä saa nyt perjantaisin.\nMitä aamupalan ruoalle tapahtuu, jos sitä ei syödä?\nSe viedään iltapäivällä hyväntekeväisyyteen yhdistykselle, joka jakaa ruokaa."
+    },
+    {
+      "title": "Mehiläisten kesä",
+      "summary": "At a summer theatre in Savonlinna, Jatta plays a young bee in a family play about a spring that comes too early; her son Vili watches from the front row and is moved by the ending.",
+      "newWords": [
+        "mehiläinen",
+        "näyttämö",
+        "taru",
+        "liikuttaa",
+        "aasi",
+        "nokka",
+        "jälkeläinen",
+        "jalo"
+      ],
+      "text": "Jatta on näyttelijä, ja kesäisin hän esiintyy pienessä teatterissa Savonlinnassa. Tänä kesänä teatterissa esitetään lapsille ja aikuisille tehty näytelmä ”Mehiläisten kesä”. Jatta näyttelee siinä nuorta mehiläistä, jolla on keltainen ja musta puku ja kaksi ohutta siipeä selässä.\n\nNäytelmä on kuin vanha taru, mutta sen aihe on tämän päivän maailmasta. Se kertoo metsän reunalla asuvista eläimistä, joiden kevät tulee joka vuosi aikaisemmin. Lumi sulaa jo maaliskuussa, kukat avautuvat liian aikaisin, ja sitten tulee vielä yksi kylmä yö. Kun nuori mehiläinen lähtee pesästä etsimään ruokaa, kukat ovat jo ruskeita, eikä niissä ole mitään syötävää.\n\nNäyttämöllä on vain muutama puu, iso kivi ja vanha aasi. Aasia näyttelee teatterin vanhin näyttelijä, joka on ollut näyttämöllä yli 40 vuotta. Aasi muistelee aikaa, jolloin talvi oli pitkä ja kevät tuli vasta toukokuussa. ”Tämä on tosi tarina eikä taru”, aasi sanoo lapsille, ja yleisö nauraa, kun aasi heiluttaa korviaan.\n\nToinen tärkeä hahmo on lintu, jolla on pitkä punainen nokka. Lintu lentää kaikkialla ja näkee, mitä metsässä tapahtuu. Se osoittaa nokallaan niitä paikkoja, joissa kasvaa vielä kukkia. Ilman lintua nuori mehiläinen ei löytäisi ruokaa pesän emolle ja tämän jälkeläisille.\n\nNäytelmän keskellä mehiläinen kertoo yleisölle, miksi sen työ on niin tärkeää. Mehiläiset kuljettavat siitepölyä kukasta toiseen, ja ilman niitä monet marjat ja hedelmät eivät kasvaisi. ”Minun tehtäväni on jalo”, mehiläinen sanoo ja liikuttaa siipiään niin nopeasti, että ne kuulostavat oikealta mehiläiseltä. Jatta harjoitteli tätä kohtausta viikkoja. Hän liikuttaa käsiään puvun alla, ja siivet liikkuvat niiden mukana.\n\nLopussa eläimet auttavat toisiaan. Aasi kantaa selässään pieniä kukkivia kasveja, lintu näyttää nokallaan tietä, ja mehiläinen vie ruokaa pesään. Pesän emo kiittää nuorta mehiläistä, ja sen jälkeläiset tulevat ensimmäistä kertaa ulos auringonvaloon. Kaikki eläimet laulavat yhdessä jalosta tehtävästä, jonka jokainen voi löytää.\n\nJatan poika Vili istui ensi-illassa eturivissä. Kun valot syttyivät, hän taputti pitkään, ja hänen silmissään oli kyyneleitä. Loppu oli liikuttanut häntä enemmän kuin hän oli odottanut. Kotimatkalla hän kysyi äidiltään, voisivatko he istuttaa pihalle kukkia, joista mehiläiset pitävät.\n\nKysymykset:\nMitä Jatta näyttelee näytelmässä?\nHän näyttelee nuorta mehiläistä, jolla on keltainen ja musta puku ja kaksi siipeä.\nMitä aasi muistelee?\nAasi muistelee aikaa, jolloin talvi oli pitkä ja kevät tuli vasta toukokuussa.\nMiten lintu auttaa mehiläistä?\nLintu osoittaa nokallaan paikkoja, joissa kasvaa vielä kukkia.\nMiksi mehiläisen työ on tärkeää?\nMehiläiset kuljettavat siitepölyä kukasta toiseen, ja ilman niitä monet marjat ja hedelmät eivät kasvaisi.\nMitä Vili halusi tehdä esityksen jälkeen?\nHän halusi istuttaa pihalle kukkia, joista mehiläiset pitävät."
+    },
+    {
+      "title": "Sata vuotta lämpötiloja",
+      "summary": "Ninth-graders in Jyväskylä turn a century of temperature measurements into a function graph, test a tweet against the data and present their results with stripes of colour.",
+      "newWords": [
+        "yläaste",
+        "aktiivisuus",
+        "luovuus",
+        "tekoäly",
+        "funktio",
+        "twiitti",
+        "uskottavuus",
+        "herätys"
+      ],
+      "text": "Kerli opettaa matematiikkaa ja fysiikkaa yläasteella Jyväskylässä. Joka syksy hänen yhdeksäs luokkansa tekee projektin, jossa matematiikka, fysiikka ja biologia yhdistyvät. Tänä vuonna aiheena oli ilmasto. Oppilaat saivat aineiston, jossa oli Jyväskylän lämpötila jokaiselta vuodelta noin sadan vuoden ajalta.\n\nEnsimmäisellä tunnilla Kerli piirsi taululle akselit. ”Vuodet merkitään tälle akselille ja lämpötilat tälle”, hän selitti. ”Kun jokaiseen vuoteen liittyy yksi lämpötila, voimme puhua funktiosta.” Oppilaat merkitsivät pisteet koneelle, ja koneen näytölle syntyi kuvaaja. Se nousi ja laski vuodesta toiseen, mutta pitkällä aikavälillä suunta oli selvä: ylöspäin. Kerli näytti, miten pisteiden läpi voi piirtää suoran, ja kertoi, että suoran funktio kertoo, kuinka paljon lämpötila on keskimäärin noussut vuosikymmenessä.\n\nIiri halusi kirjoittaa ryhmän raportin tekoälyn avulla. Kerli ei kieltänyt sitä, mutta hän asetti ehdon. ”Tekoäly saa auttaa teitä löytämään tietoa”, hän sanoi, ”mutta jokainen luku pitää tarkistaa alkuperäisestä lähteestä. Tekoäly voi kirjoittaa kauniisti asioita, jotka eivät pidä paikkaansa.” Iiri kokeili, ja tekoäly antoi hänelle muutaman väärän luvun. Siitä hän oppi, ettei tekstin uskottavuus riipu siitä, kuinka varmalta ja kauniilta se kuulostaa.\n\nJami puolestaan löysi verkosta twiitin, jonka mukaan talvet eivät Suomessa ole lainkaan tulleet lämpimämmiksi. Twiitti oli jaettu tuhansia kertoja. Ryhmä päätti tutkia sen uskottavuutta. He katsoivat omasta aineistostaan pelkät talven kuukaudet ja laskivat niiden keskiarvon jokaiselta vuosikymmeneltä. Tulos oli aivan toinen kuin twiitissä: talvien lämpötila oli noussut jopa enemmän kuin kesien.\n\nEsityksen tekemisessä tarvittiin luovuutta. Jami ehdotti, että he tekisivät lämpötiloista värikkään kuvan. Jokainen vuosi oli yksi raita: kylmät vuodet sinisiä ja lämpimät punaisia. Kun kaikki raidat olivat samassa kuvassa, kaukaakin näki, että kuvan oikea reuna oli lähes kokonaan punainen. Kerli kehui ryhmän luovuutta ja sanoi, että hyvä kuva voi joskus kertoa enemmän kuin pitkä teksti.\n\nProjektin aikana Kerli huomasi, että oppilaiden aktiivisuus oli tavallista suurempaa. Hiljaisetkin oppilaat esittivät kysymyksiä, ja moni jäi tunnin jälkeen luokkaan jatkamaan työtä. Kerli kirjoitti muistiin, että todellinen aineisto lisää aktiivisuutta enemmän kuin kirjan valmiit tehtävät.\n\nKotona Jami näytti kuvaa isälleen. Isä katsoi sitä pitkään ja sanoi, että kuva oli hänelle herätys. Hän oli aina ajatellut, että ilmaston muutos koskee vain maita, jotka ovat kaukana. Herätys sai hänet lupaamaan, että perhe kulkisi kesällä mökille junalla.\n\nKysymykset:\nMitä Kerli opettaa?\nKerli opettaa matematiikkaa ja fysiikkaa yläasteella Jyväskylässä.\nMitä funktio kertoi oppilaille?\nFunktio kertoi, kuinka paljon lämpötila on keskimäärin noussut vuosikymmenessä.\nMiksi Iirin piti tarkistaa tekoälyn antamat luvut?\nTekoäly voi kirjoittaa kauniisti asioita, jotka eivät pidä paikkaansa.\nMitä twiitissä väitettiin, ja mitä aineisto näytti?\nTwiitin mukaan talvet eivät ole tulleet lämpimämmiksi, mutta aineiston mukaan niiden lämpötila oli noussut jopa enemmän kuin kesien.\nMillainen kuva ryhmällä oli?\nJokainen vuosi oli raita, kylmät vuodet sinisiä ja lämpimät punaisia.\nMitä Jamin isä sanoi kuvasta?\nHän sanoi, että kuva oli hänelle herätys."
+    },
+    {
+      "title": "Sähköautolla pohjoiseen",
+      "summary": "Nikke drives his new electric car from Helsinki to Inari in winter with his daughter Meea; the cold lowers the battery's performance, and a calmer driving style makes the range longer.",
+      "newWords": [
+        "suorituskyky",
+        "vääntö",
+        "pidentää",
+        "luottokortti",
+        "nalle",
+        "kettu",
+        "toisinpäin",
+        "aggressiivinen"
+      ],
+      "text": "Nikke osti syksyllä ensimmäisen sähköautonsa. Helmikuussa hän päätti ajaa sillä tyttärensä Meean kanssa Helsingistä Inariin, jossa Meean isoäiti ja isoisä asuvat. Matkaa on yli 1 100 kilometriä, ja moni Nikken ystävä epäili, että sähköauto ei selviäisi siitä talvella.\n\nEnnen lähtöä Nikke luki paljon akun suorituskyvystä. Hän tiesi, että pakkanen heikentää akun suorituskykyä: kylmässä akku ei anna yhtä paljon energiaa kuin kesällä, ja osa sähköstä kuluu auton lämmittämiseen. Siksi hän suunnitteli matkan niin, että he pysähtyisivät lataamaan noin kolmen tunnin välein.\n\nMeea oli vielä pieni, ja hänellä oli takapenkillä mukanaan vanha nalle. Nalle oli ollut hänen mukanaan kaikilla matkoilla siitä asti, kun hän oli vauva. Meea istutti nallen ikkunan viereen, jotta sekin näkisi metsät ja lumen.\n\nEnsimmäisinä tunteina Nikke ajoi samalla tavalla kuin vanhalla autollaan. Sähköauton vääntö yllätti hänet: kun hän painoi kaasua, auto lähti liikkeelle nopeasti ja hiljaa. Vääntö teki ohittamisesta helppoa, ja Nikke painoi kaasua usein. Ensimmäisellä tauolla hän kuitenkin huomasi, että akussa oli jäljellä paljon vähemmän energiaa kuin hän oli laskenut.\n\nKahvilassa eräs mies, jolla oli myös sähköauto, neuvoi häntä. ”Aggressiivinen ajaminen kuluttaa akkua nopeasti”, mies sanoi. ”Jos painat kaasua ja jarrua koko ajan, energiaa menee hukkaan. Rauhallinen ajo pidentää matkaa, jonka voit ajaa yhdellä latauksella.” Nikke oli luullut, että nopea ajo säästää aikaa, mutta asia oli toisinpäin: kun akusta loppui energia nopeasti, he joutuivat pysähtymään useammin ja odottamaan pidempään.\n\nLataus maksettiin luottokortilla. Nikke oli varannut mukaan myös toisen luottokortin, sillä hän oli lukenut, että kaikki laitteet eivät aina hyväksy jokaista korttia. Pohjoisessa yksi laite ei hyväksynytkään hänen ensimmäistä luottokorttiaan, ja toinen kortti pelasti tilanteen.\n\nLopun matkaa Nikke ajoi rauhallisemmin. Hän lopetti aggressiivisen ajamisen ja antoi auton liikkua tasaisesti. Se pidensi matkaa, jonka auto jaksoi yhdellä latauksella, lähes 100 kilometrillä. Meea huomasi myös, että rauhallisella vauhdilla ehti nähdä enemmän. Kemijärven jälkeen tien vieressä seisoi kettu, jonka punainen turkki näkyi selvästi valkoista lunta vasten. Meea nosti nallen ikkunaan, jotta sekin näkisi ketun. Kettu katsoi autoa hetken ja juoksi sitten metsään.\n\nInarissa isoäiti ja isoisä odottivat pihalla. Matkaan oli mennyt kaksi päivää, ja Nikke oli oppinut, että talvella sähköautolla ajetaan eri tavalla kuin vanhalla autolla. Meea kertoi isoäidilleen, että nalle oli nähnyt ketun.\n\nKysymykset:\nMiksi pakkanen on sähköautolle ongelma?\nPakkanen heikentää akun suorituskykyä, ja osa sähköstä kuluu auton lämmittämiseen.\nMikä yllätti Nikken matkan alussa?\nSähköauton vääntö yllätti hänet, sillä auto lähti liikkeelle nopeasti ja hiljaa.\nMitä kahvilan mies neuvoi?\nHän sanoi, että aggressiivinen ajaminen kuluttaa akkua ja rauhallinen ajo pidentää matkaa yhdellä latauksella.\nSäästikö nopea ajo aikaa?\nEi säästänyt. Asia oli toisinpäin, sillä akku tyhjeni nopeasti ja he joutuivat pysähtymään useammin.\nMiksi Nikkellä oli mukana kaksi luottokorttia?\nKaikki laitteet eivät aina hyväksy jokaista korttia.\nMitä Meea ja hänen nallensa näkivät Kemijärven jälkeen?\nHe näkivät tien vieressä ketun, joka juoksi sitten metsään."
+    },
+    {
+      "title": "Kaksi päivää ilman sähköä",
+      "summary": "A summer storm with hail as big as a fist cuts the power on Vesku and Tuuve's island in Nauvo; they light the house with candles, wash in the sauna and clear up the mess with their neighbours.",
+      "newWords": [
+        "vaurio",
+        "sotku",
+        "valaista",
+        "kylpyhuone",
+        "pesu",
+        "elektroniikka",
+        "nyrkki"
+      ],
+      "text": "Vesku ja Tuuve asuvat ympäri vuoden pienellä saarella Nauvossa, Turun saaristossa. Elokuun lopussa radiossa varoitettiin voimakkaasta myrskystä. Tutkijoiden mukaan tällaiset myrskyt ovat tulleet viime vuosina tavallisemmiksi, kun meri ja ilma ovat lämpimämpiä kuin ennen.\n\nMyrsky tuli illalla. Taivas muuttui ensin keltaiseksi ja sitten aivan mustaksi. Tuuli kaatoi pihan pieniä puita, ja sitten alkoi sataa jäätä. Jääpalat olivat suuria, jotkut lähes nyrkin kokoisia. Tuuve oli nähnyt tällaista ennenkin, mutta ei koskaan näin suuria paloja. Hän otti yhden pihalta käteensä, ja se täytti melkein koko hänen nyrkkinsä.\n\nVähän ennen yhdeksää talosta katkesi sähkö. Vesku oli jo aiemmin irrottanut tietokoneen ja television seinästä, sillä salama voi rikkoa elektroniikan, jos se osuu lähelle. Kaikki muu elektroniikka oli nyt turhaa: jääkaappi oli hiljaa, eikä puhelimia voinut ladata. Onneksi heillä oli kaapissa kynttilöitä. Tuuve sytytti niitä keittiön pöydälle, ja kynttilät valaisivat huoneen yllättävän hyvin. Vesku valaisi puhelimen valolla tietä kellariin, josta hän haki lisää kynttilöitä.\n\nSeuraavana aamuna he näkivät, millaisen sotkun myrsky oli jättänyt. Pihalla oli oksia, lehtiä ja naapurin tuoli, joka oli mennyt rikki. Auton katossa oli pieniä kuoppia jäästä, ja pienen varaston katosta oli irronnut pelti. Vauriot eivät olleet suuria, mutta niitä oli paljon. Vesku otti kuvia jokaisesta vauriosta vakuutusyhtiötä varten. Iltapäivällä naapurit tulivat auttamaan, ja sotku siivottiin yhdessä. Yksi naapuri toi kahvia, toinen kantoi oksia veneeseen.\n\nSaarella talon vesi tulee kaivosta pumpun avulla, ja pumppu toimii sähköllä. Kun sähköä ei ollut, kylpyhuoneeseen ei tullut vettä. Kylpyhuoneessa ei voinut käydä suihkussa. Vesku kantoi vettä merestä, jotta vessan sai toimimaan. Illalla he lämmittivät saunan puilla, ja pesu hoitui saunassa vanhaan tapaan. Myös astioiden pesu tehtiin saunan lämpimällä vedellä. Tuuve sanoi nauraen, että hänen isoäitinsä oli pessyt kaiken juuri näin. Yhtiön työntekijät korjasivat kaapelin vasta toisena iltana. Kun lamput syttyivät, Tuuve huomasi, että hän oli melkein tottunut kynttilöihin.\n\nMyrskyn jälkeen Vesku ja Tuuve päättivät hankkia katolle aurinkopaneelit ja akun. Seuraavalla kerralla talossa olisi edes vähän sähköä, vaikka kaapeli olisi taas poikki.\n\nKysymykset:\nKuinka suuria jääpalat olivat?\nJotkut jääpalat olivat lähes nyrkin kokoisia.\nMiksi Vesku oli irrottanut tietokoneen ja television?\nSalama voi rikkoa elektroniikan, jos se osuu lähelle.\nMillä talo valaistiin, kun sähkö katkesi?\nTalo valaistiin kynttilöillä ja puhelimen valolla.\nMiksi kylpyhuone ei toiminut?\nVesi tulee kaivosta pumpun avulla, eikä pumppu toiminut ilman sähköä.\nMissä pesu hoitui?\nPesu hoitui saunassa vanhaan tapaan.\nMillaisia vaurioita myrsky aiheutti?\nAuton katossa oli kuoppia, ja pienen varaston katosta oli irronnut pelti."
+    },
+    {
+      "title": "Helleviikot Tampereella",
+      "summary": "During a long heat wave in Tampere, Ritu, who has high blood pressure, follows the health services' advice, swims indoors when algae close the lake beach, and spends a hot afternoon in a cool cinema with her grandson Pietu.",
+      "newWords": [
+        "verenpaine",
+        "terveyspalvelu",
+        "uinti",
+        "puoliaika",
+        "äärimmäinen",
+        "elokuvateatteri",
+        "myrkyllinen"
+      ],
+      "text": "Heinäkuussa Tampereella oli helle kolme viikkoa putkeen. Lämpötila nousi lähes joka päivä yli 30 asteen, eikä yöllä ollut juuri viileämpää. Tutkijoiden mukaan näin pitkät helteet olivat ennen harvinaisia, mutta ilmaston muuttuessa äärimmäinen sää on tullut tavallisemmaksi. Äärimmäinen helle on vaarallinen erityisesti vanhoille ihmisille ja niille, joilla on sydämen ongelmia.\n\nRitu on 78-vuotias, ja hänellä on ollut korkea verenpaine jo pitkään. Hän syö verenpaineeseen lääkettä joka aamu. Helteen alussa kaupungin terveyspalvelut lähettivät vanhoille ihmisille ohjeet: juo vettä usein, pysy päivällä viileässä ja kysy hoitajalta, jos lääkkeet tuntuvat vaikuttavan eri tavalla kuin ennen. Ritu soitti terveyspalvelujen numeroon, ja hoitaja kertoi, että helle voi laskea verenpainetta liikaa, jos ihminen ei juo tarpeeksi. Hoitaja neuvoi häntä mittaamaan verenpaineen kotona aamulla ja illalla ja kirjoittamaan luvut ylös.\n\nRitu on uinut koko ikänsä. Uinti on hänelle tärkein tapa liikkua, ja kesällä hän käy joka aamu uimassa Näsijärvessä. Tällä kertaa rannalla oli kuitenkin kyltti: vedessä oli sinilevää. Kyltissä luki, että sinilevä voi olla myrkyllinen, eikä vedessä saanut uida. Lämmin vesi saa sen kasvamaan nopeasti, ja myrkyllinen vesi on vaarallinen erityisesti lapsille ja koirille. Ritu meni sen sijaan uimahalliin, jossa uinti onnistui viileässä vedessä. Hän ui siellä joka toinen päivä niin kauan kuin helle jatkui.\n\nRitun tyttären poika Pietu pelaa jalkapalloa. Helteen keskellä hänen joukkueellaan oli ottelu, ja Ritu meni katsomaan sitä varjoon hatun kanssa. Helteen vuoksi tuomari pysäytti pelin kerran kummallakin puoliajalla, jotta pelaajat saisivat juoda. Puoliaika oli tavallista pidempi, ja pelaajat istuivat sen ajan puiden alla.\n\nOttelun jälkeen Pietu ehdotti, että he menisivät elokuviin. ”Elokuvateatterissa on ilmastointi”, hän sanoi. ”Siellä on viileämpää kuin missään muualla.” Ritu nauroi, mutta oli samaa mieltä. Elokuvateatteri oli melkein täynnä, ja moni muukin näytti tulleen sinne pakoon hellettä. He katsoivat kaksi tuntia pitkän elokuvan, ja Ritu sanoi jälkeenpäin, että se oli koko viikon paras iltapäivä.\n\nKun helle viimein päättyi, Ritu näytti hoitajalle luvut, jotka hän oli kirjoittanut ylös. Hänen verenpaineensa oli pysynyt hyvänä. Hoitaja kehui häntä siitä, että hän oli juonut tarpeeksi ja pysynyt viileässä.\n\nKysymykset:\nMiksi äärimmäinen helle on vaarallinen?\nSe on vaarallinen erityisesti vanhoille ihmisille ja niille, joilla on sydämen ongelmia.\nMitä terveyspalvelut neuvoivat vanhoille ihmisille?\nNe neuvoivat juomaan vettä usein, pysymään päivällä viileässä ja kysymään hoitajalta, jos lääkkeet vaikuttavat eri tavalla kuin ennen.\nMiksi Ritu ei voinut uida Näsijärvessä?\nVedessä oli sinilevää, joka voi olla myrkyllinen.\nMitä ottelussa tehtiin helteen vuoksi?\nTuomari pysäytti pelin kerran kummallakin puoliajalla, ja puoliaika oli tavallista pidempi.\nMiksi Pietu halusi mennä elokuvateatteriin?\nElokuvateatterissa on ilmastointi, ja siellä on viileämpää kuin muualla."
+    },
+    {
+      "title": "Akkujen toinen elämä",
+      "summary": "Elea, a high-school student, visits the university in Vaasa on an open day, where the scientist Mattias shows her how old car batteries are tested and given a second life.",
+      "newWords": [
+        "tiedemies",
+        "tiedekunta",
+        "kehittäjä",
+        "vakio",
+        "rakentua",
+        "henkilöllisyys",
+        "palautus",
+        "tarkastelu"
+      ],
+      "text": "Elea käy lukion viimeistä vuotta Vaasassa. Hän pitää fysiikasta ja kemiasta, mutta ei vielä tiedä, mitä haluaisi opiskella. Keväällä hän meni yliopiston avoimiin oviin, joissa tekniikan tiedekunta esitteli tutkimustaan. Tiedekunnan aulassa oli kymmeniä pöytiä, ja jokaisen pöydän takana opiskelijat ja tutkijat kertoivat työstään.\n\nEniten Eleaa kiinnosti akkujen tutkimus. Vaasan seudulla on paljon yrityksiä, jotka valmistavat tai käyttävät akkuja, ja tiedekunnan tutkimus rakentuu tiiviille yhteistyölle niiden kanssa. Yhden pöydän takana seisoi Mattias, harmaatukkainen tiedemies, joka on tutkinut akkuja yli 20 vuotta. Hän kysyi, haluaisiko Elea nähdä laboratorion.\n\nLaboratorioon ei päässyt kuka tahansa. Ovella työntekijä pyysi Eleaa todistamaan henkilöllisyytensä, ja Elea näytti passinsa. Mattias selitti, että laboratoriossa on kalliita laitteita ja yritysten aineistoja, joten jokaisen vierailijan henkilöllisyys tarkistetaan ja nimi kirjoitetaan ylös.\n\nLaboratoriossa oli pitkiä hyllyjä, joilla oli käytettyjä sähköautojen akkuja. Mattias kertoi, että ne olivat tulleet tänne palautuksen kautta. Kun auton akku vanhenee, se ei enää riitä pitkille matkoille, mutta siinä on yleensä jäljellä vielä suuri osa alkuperäisestä voimasta. Akkujen palautus on siksi tärkeää. Jos palautus toimii hyvin, akut eivät päädy roskiin, vaan niille löydetään uusi käyttö.\n\n”Akku rakentuu pienistä osista”, Mattias sanoi ja näytti avattua akkua. ”Ennen kuin tiedämme, mihin akku vielä kelpaa, tarvitaan huolellinen tarkastelu. Tarkastelu kertoo, mitkä osat ovat yhä hyviä ja mitkä täytyy vaihtaa.” Akkuja testattiin kaapeissa, joissa lämpötila pidettiin vakiona. Elea kysyi, miksi lämpötilan piti olla vakio. Mattias vastasi, että muuten tulokset eivät olisi vertailukelpoisia: lämpötila vaikuttaa akkuun niin paljon, että se täytyy pitää vakiona, jotta näkee, miten akku itse muuttuu.\n\nLaboratoriossa työskenteli myös kaksi nuorta kehittäjää yrityksestä, joka rakentaa vanhoista akuista sähkövarastoja. Kehittäjät kertoivat, että yksi tällainen varasto voi varastoida aurinkopaneelien sähköä päivällä ja antaa sitä illalla, kun sähköä tarvitaan eniten. Toinen kehittäjä oli itse valmistunut samasta tiedekunnasta vain kolme vuotta aiemmin.\n\nKotimatkalla Elea ajatteli, että tiedemies ja kehittäjät tekivät samaa työtä eri puolilta: toiset tutkivat, toiset rakensivat. Hän päätti hakea seuraavana keväänä tekniikan tiedekuntaan.\n\nKysymykset:\nMissä Elea kävi keväällä?\nHän kävi yliopiston avoimissa ovissa, joissa tekniikan tiedekunta esitteli tutkimustaan.\nKuka Mattias on?\nMattias on tiedemies, joka on tutkinut akkuja yli 20 vuotta.\nMiksi Elean henkilöllisyys tarkistettiin?\nLaboratoriossa on kalliita laitteita ja yritysten aineistoja.\nMiksi akkujen palautus on tärkeää?\nVanhoissa akuissa on jäljellä vielä paljon voimaa, ja palautuksen ansiosta niille löydetään uusi käyttö.\nMiksi lämpötila pidettiin vakiona?\nMuuten tulokset eivät olisi vertailukelpoisia, koska lämpötila vaikuttaa akkuun paljon.\nMitä kehittäjät tekivät?\nHe rakensivat vanhoista akuista sähkövarastoja."
+    },
+    {
+      "title": "Kolumni: Pitäisikö lentämistä hävetä?",
+      "summary": "A columnist weighs whether one should be ashamed of flying, after her own train journey to visit her sister in Berlin; she concludes that knowledge and better choices help more than shame.",
+      "newWords": [
+        "hävetä",
+        "jokseenkin",
+        "äskettäin",
+        "viisaus",
+        "kohtalaisen",
+        "kummasti",
+        "tuntemus",
+        "lähipiiri",
+        "epämääräinen"
+      ],
+      "text": "Äskettäin minun piti päättää, miten matkustan Berliiniin siskoni Nelinan luo. Lentokoneella matka olisi kestänyt kaksi tuntia ja maksanut kohtalaisen vähän. Junalla ja laivalla matkaan menisi lähes kaksi päivää. Kun katsoin lentolippujen hintoja, minulla oli epämääräinen tuntemus, jota en ensin osannut nimetä. Vasta myöhemmin ymmärsin, mikä se oli: häpesin jo etukäteen.\n\nRuotsissa keksittiin muutama vuosi sitten sana, joka tarkoittaa lentämisen häpeää. Sana levisi nopeasti myös Suomeen. Moni lähipiirini ihminen on kertonut minulle samasta tuntemuksesta. Ystäväni Pirta sanoo, ettei hän enää kehtaa kertoa töissä lomamatkoistaan, jos hän on lentänyt. Hän ei ole lopettanut lentämistä, mutta hän häpeää sitä.\n\nKysymys siitä, pitäisikö lentämistä hävetä, on jokseenkin vaikea. Yhtäältä häpeä voi olla hyödyllinen tunne. Se kertoo, että teko on ristiriidassa omien arvojen kanssa. Jos ihminen tietää, että yksi lento Berliiniin ja takaisin tuottaa yhtä paljon päästöjä kuin kuukausien autoilu, on kohtalaisen luonnollista, että hänen omatuntonsa herää.\n\nToisaalta häpeä on kummasti tehoton tunne. Se saa ihmisen piilottamaan tekojaan eikä välttämättä muuttamaan niitä. Pirta lentää edelleen, mutta ei puhu siitä. Hänen lähipiirinsä ei siis koskaan kuule, että hänkin miettii asiaa. Häpeä jää yksityiseksi, ja keskustelu, josta muut voisivat oppia, jää käymättä.\n\nLisäksi häpeä osuu usein vääriin ihmisiin. Kummasti juuri ne, jotka jo valmiiksi elävät säästeliäästi, kokevat syyllisyyttä eniten. Ne taas, jotka lentävät joka kuukausi, eivät näytä häpeävän lainkaan. Jos tavoitteena on vähentää päästöjä, yksittäisen ihmisen huono omatunto on jokseenkin heikko keino verrattuna esimerkiksi siihen, että junamatkat tehdään halvemmiksi ja helpommiksi.\n\nValitsin lopulta junan ja laivan. Matka oli pitkä, mutta kohtalaisen mukava: luin kaksi kirjaa, katselin maisemia ja söin laivalla aamupalan merinäköalalla. En tuntenut itseäni paremmaksi kuin muut. Päätös tuntui vain omalta, eikä siihen liittynyt sitä epämääräistä tuntemusta, joka oli vaivannut minua ennen.\n\nVanha viisaus sanoo, ettei tärkeitä päätöksiä kannata tehdä kiireessä. Ilmaston kohdalla se pitää mielestäni paikkansa: kun ottaa aikaa ja etsii tietoa, syntyy valinta, ja valinta on parempi kuin häpeä. Jos jokin viisaus tästä jää käteen, se on tämä: hävetä ei tarvitse, mutta miettiä kannattaa.\n\nKysymykset:\nMitä kirjoittajan piti äskettäin päättää?\nHänen piti äskettäin päättää, miten hän matkustaa Berliiniin siskonsa luo.\nMitä kirjoittaja tunsi, kun hän katsoi lentolippujen hintoja?\nHänellä oli epämääräinen tuntemus, ja myöhemmin hän ymmärsi häpeävänsä jo etukäteen.\nMitä Pirta tekee lentämisen suhteen?\nPirta lentää edelleen, mutta hän häpeää sitä eikä kerro siitä töissä.\nMiksi kirjoittajan mielestä häpeä on kummasti tehoton tunne?\nHäpeä saa ihmisen piilottamaan tekojaan eikä välttämättä muuttamaan niitä.\nMiten kirjoittaja lopulta matkusti Berliiniin?\nHän matkusti junalla ja laivalla, ja matka oli kohtalaisen mukava.\nMikä viisaus kolumnista jää käteen?\nHävetä ei tarvitse, mutta miettiä kannattaa."
+    }
+  ]
+}
