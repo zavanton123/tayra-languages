@@ -1,0 +1,195 @@
+{
+  "id": "et-mini-0500",
+  "rankUpTo": 500,
+  "level": "A2",
+  "title": "Kool ja töö",
+  "description": "Ten short stories about school, lessons and everyday work in Estonia.",
+  "topic": "School and work",
+  "names": [
+    "Kask",
+    "Mattias",
+    "Tartu",
+    "Eesti",
+    "Kerli",
+    "Tallinn",
+    "Pärnu",
+    "Marek",
+    "Reet",
+    "Liisa",
+    "Marta",
+    "Kristjan",
+    "Tiiu",
+    "Viljandi",
+    "Kaarin",
+    "Stockholm",
+    "Margus",
+    "Pontu",
+    "Elina",
+    "Tõnis",
+    "Ilves",
+    "Lauri",
+    "Võru",
+    "Ameerika",
+    "Indrek",
+    "Ants",
+    "Rakvere"
+  ],
+  "lessons": [
+    {
+      "title": "Proua Kase tund",
+      "summary": "Mrs Kask starts the school year with a funny picture, and her pupils want to see more.",
+      "newWords": [
+        "proua",
+        "õpetama",
+        "keel",
+        "vait",
+        "mitu",
+        "raamat",
+        "pilt",
+        "naljakas",
+        "huvi"
+      ],
+      "text": "Proua Kask töötab Tartus ühes koolis. Ta õpetab lastele eesti keelt. Täna on aasta esimene tund. Klassis on 20 last.\n\nLapsed räägivad palju ja kõik korraga. Proua Kask ootab natuke. Siis ütleb ta: „Lapsed, olge nüüd vait!“ Kõik lapsed jäävad vait.\n\n„Täna õpetan ma teile uusi sõnu,“ ütleb proua Kask. „Mitu raamatut teil kaasas on?“\n\n„Mul on kaks raamatut,“ ütleb Mattias.\n\n„Hea,“ ütleb proua Kask. „Täna on meil vaja ainult üht raamatut.“\n\nProua Kask võtab oma raamatu ja näitab lastele pilti. Pildil on mees. Mees seisab pea peal ja loeb raamatut.\n\n„Mis sellel pildil on?“ küsib proua Kask.\n\n„Mees loeb pea peal raamatut!“ ütleb Mattias. „See on väga naljakas pilt.“\n\n„Jah, see pilt on naljakas,“ ütleb proua Kask. „Nüüd kirjutage midagi selle pildi kohta.“\n\nLastel on nüüd suur huvi. Nad vaatavad pilti ja kirjutavad. Mattias kirjutab: „Mees seisab pea peal. Ta loeb raamatut. Tal on hea meel.“\n\n„Kas selles raamatus on veel naljakaid pilte?“ küsib Mattias.\n\n„Jah, väga palju,“ vastab proua Kask. „Me loeme seda raamatut terve aasta. Selle raamatuga õpetan ma teile eesti keelt.“\n\nMattiasel on suur huvi. Ta tahab kohe järgmist pilti näha.\n\nKüsimused:\nMida proua Kask õpetab?\nTa õpetab lastele eesti keelt.\nMitu last on klassis?\nKlassis on 20 last.\nMida ütleb proua Kask, kui lapsed räägivad palju?\nTa ütleb lastele: olge nüüd vait!\nMis on pildil?\nPildil on mees, kes seisab pea peal ja loeb raamatut.\nKas Mattiasel on huvi?\nJah, Mattiasel on suur huvi."
+    },
+    {
+      "title": "Hea uudis",
+      "summary": "Kerli talks to a man in Tallinn about a new job and waits for his call.",
+      "newWords": [
+        "eile",
+        "jutt",
+        "telefon",
+        "number",
+        "varsti",
+        "sealt",
+        "veidi",
+        "uudis"
+      ],
+      "text": "Kerli elab Pärnus. Ta tahab uut tööd. Eile käis ta Tallinnas. Seal rääkis ta ühe mehega uuest tööst. Jutt oli pikk, aga hea.\n\nPärast seda küsis mees Kerli telefoni numbrit. Kerli andis talle oma numbri. „Ma helistan teile varsti,“ ütles mees.\n\nEile õhtul sõitis Kerli Tallinnast koju. Sealt Pärnusse on pikk tee.\n\nTäna on Kerli kodus. Telefon on tal käes. Ta ootab ja mõtleb ainult sellele tööle. Ta on veidi närvis.\n\nKell 11 helistab keegi. Kerli ei tea seda numbrit.\n\n„Tere! Kas see on Kerli?“ küsib mees.\n\n„Jah, see olen mina,“ ütleb Kerli.\n\n„Me rääkisime eile Tallinnas. Mul on teile hea uudis. Te saate selle töö!“\n\nKerli jääb veidi vait. Siis ütleb ta: „Aitäh! Millal ma alustan?“\n\n„Varsti. Kahe nädala pärast,“ vastab mees.\n\n„Kas ma pean iga päev Tallinnasse sõitma ja sealt tagasi?“ küsib Kerli.\n\n„Ei, te saate ka kodus töötada,“ ütleb mees.\n\nKerli helistab kohe emale. „Ema, mul on uudis!“ ütleb ta telefonis.\n\n„Mis uudis?“ küsib ema.\n\n„Ma sain uue töö! Ma käisin eile Tallinnas ja täna helistasid nad mulle.“\n\n„See on väga hea uudis!“ ütleb ema. „Räägi mulle kõik!“ Ema ja Kerli jutt on pikk.\n\nKüsimused:\nKus Kerli eile käis?\nEile käis Kerli Tallinnas.\nMida mees Kerlilt küsis?\nMees küsis Kerli telefoni numbrit.\nMis uudis mehel on?\nKerli saab selle töö.\nMillal Kerli alustab?\nTa alustab varsti, kahe nädala pärast.\nKellele Kerli siis helistab?\nKerli helistab emale."
+    },
+    {
+      "title": "Arsti juures",
+      "summary": "Marek has an earache, so his mother takes him to the doctor instead of school.",
+      "newWords": [
+        "paha",
+        "kõrv",
+        "mure",
+        "voodi",
+        "arst",
+        "suu",
+        "rahunema",
+        "puhas",
+        "hoolitsema"
+      ],
+      "text": "Täna hommikul on Marekil paha olla. Tema kõrv teeb haiget. Marek ei saa täna kooli minna.\n\nMareki ema Reet on mures. „Mis sul on?“ küsib ta.\n\n„Mul on paha olla. Ja kõrv teeb haiget,“ ütleb Marek.\n\nEma paneb Mareki voodisse. Siis helistab ta arstile.\n\nKell 10 lähevad nad arsti juurde. Arst on noor naine. Ta vaatab Mareki kõrva. Siis ütleb ta: „Tee suu lahti!“ Marek teeb suu lahti. Arst vaatab ka tema suhu.\n\nMarek kardab. „Rahune, Marek,“ ütleb arst. „See ei ole midagi hullu.“ Marek rahuneb natuke.\n\n„Kas see on suur mure?“ küsib Reet.\n\n„Ei, mure ei ole suur,“ ütleb arst. „Marek peab kolm päeva voodis olema. Ta peab palju puhast vett jooma. Ja hoolitsege tema eest hästi.“\n\nNüüd rahuneb ka Reet.\n\nKodus läheb Marek kohe voodisse. Ema hoolitseb tema eest. Ta toob Marekile klaasi puhast vett ja ühe raamatu. Marek loeb voodis raamatut.\n\nKolm päeva hiljem on Mareki kõrv terve. Tal ei ole enam paha olla. Ta läheb jälle kooli.\n\nKüsimused:\nMiks Marek ei saa kooli minna?\nTal on paha olla ja tema kõrv teeb haiget.\nKuhu Reet Marekiga läheb?\nNad lähevad arsti juurde.\nMida arst vaatab?\nArst vaatab Mareki kõrva ja suhu.\nKas see on suur mure?\nEi, mure ei ole suur.\nMida Marek peab jooma?\nTa peab palju puhast vett jooma.\nKes hoolitseb Mareki eest?\nEma hoolitseb tema eest."
+    },
+    {
+      "title": "Liisa töötab poes",
+      "summary": "On her free days Liisa sells clothes in a shop in Tartu and helps a woman choose a black dress.",
+      "newWords": [
+        "müüma",
+        "riie",
+        "valik",
+        "teenima",
+        "umbes",
+        "must",
+        "mood",
+        "kuus",
+        "pisut"
+      ],
+      "text": "Liisa on 16 aastat vana. Ta käib Tartus koolis. Aga vabadel päevadel töötab ta ühes poes. Seal müüb ta riideid.\n\nPoes on suur valik riideid. Liisa teenib seal oma raha. Ühe päevaga teenib ta umbes 50 eurot.\n\nTäna tuleb poodi üks naine. „Tere! Ma otsin midagi musta,“ ütleb naine.\n\n„Must on praegu väga moes,“ ütleb Liisa. „Meil on suur valik.“\n\nLiisa toob naisele kuus musta asja. Naine vaatab neid kuut asja kaua.\n\n„See on pisut liiga pikk,“ ütleb naine. „Ja see on pisut liiga suur.“\n\n„Proovige seda,“ ütleb Liisa. „See on uus mood.“\n\nNaine proovib. „Jah, see on hea,“ ütleb ta. „Mis see maksab?“\n\n„40 eurot,“ vastab Liisa.\n\n„Ma võtan selle,“ ütleb naine. „Te oskate hästi riideid müüa.“\n\nLiisa on rahul. Ta müüb täna veel kuus asja.\n\nÕhtul läheb Liisa koju. Täna teenis ta jälle umbes 50 eurot. Ta sööb pisut ja on õnnelik. Ta mõtleb: „Ma tahan kunagi ise riideid teha. Siis müün ma oma riideid.“\n\nKüsimused:\nKus Liisa vabadel päevadel töötab?\nTa töötab ühes poes Tartus.\nMida Liisa poes müüb?\nTa müüb riideid.\nKui palju Liisa ühe päevaga teenib?\nTa teenib umbes 50 eurot.\nMida naine otsib?\nNaine otsib midagi musta.\nMitu asja Liisa naisele toob?\nTa toob naisele kuus musta asja.\nMida Liisa tahab kunagi teha?\nTa tahab ise riideid teha ja neid müüa."
+    },
+    {
+      "title": "Pidu tööl",
+      "summary": "Marta's friends at work give her a small party the day before she marries Kristjan.",
+      "newWords": [
+        "abielluma",
+        "pidu",
+        "armas",
+        "abikaasa",
+        "pere",
+        "perekond",
+        "meeldiv",
+        "lõpuks"
+      ],
+      "text": "Marta töötab Viljandis. Tööl on tal palju häid sõpru. Homme abiellub Marta Kristjaniga.\n\nTäna on tööl väike pidu. Marta sõbrad teevad selle peo tema jaoks. Nad toovad palju head süüa.\n\nKell 4 tuleb Marta tuppa. „Palju õnne!“ ütlevad kõik. Marta on väga õnnelik. „Te olete nii armsad!“ ütleb ta.\n\nVarsti tuleb peole ka Kristjan. „Tere! Ma olen Kristjan,“ ütleb ta. „Homme olen ma Marta abikaasa.“\n\nMarta sõber Tiiu küsib: „Kas teie pered tulevad homme ka?“\n\n„Jah,“ ütleb Kristjan. „Minu perekond on suur. Mul on neli venda ja kaks õde.“\n\n„Minu pere on väike,“ ütleb Marta. „Ainult ema, isa ja mina.“\n\n„Homme on teil üks suur perekond,“ ütleb Tiiu.\n\nPidu on väga meeldiv. Kõik räägivad, naeravad ja söövad. Lõpuks on kell 7 ja pidu saab läbi.\n\n„Aitäh teile!“ ütleb Marta. „See oli väga meeldiv pidu. Te olete armsad inimesed.“\n\nJärgmisel päeval abielluvad Marta ja Kristjan.\n\nKolm päeva hiljem tuleb Marta lõpuks jälle tööle. „Tere!“ ütleb ta. „Nüüd on mul abikaasa.“\n\nKüsimused:\nKus Marta töötab?\nMarta töötab Viljandis.\nKellega Marta abiellub?\nMarta abiellub Kristjaniga.\nKes teevad peo Marta jaoks?\nMarta sõbrad tööl teevad peo.\nKas Kristjani perekond on suur?\nJah, tal on neli venda ja kaks õde.\nKas Marta pere on ka suur?\nEi, Marta pere on väike.\nMilline pidu on?\nPidu on väga meeldiv."
+    },
+    {
+      "title": "Üksi Stockholmi",
+      "summary": "Kaarin flies alone to Stockholm for work and walks around the town in the evening.",
+      "newWords": [
+        "lendama",
+        "üksi",
+        "tõusma",
+        "kiire",
+        "otse",
+        "sees",
+        "ringi",
+        "mööda"
+      ],
+      "text": "Kaarin töötab Tallinnas. Homme peab ta töö pärast Stockholmi minema. Ta lendab sinna üksi. Kaarin lendab esimest korda üksi.\n\nHommikul tõuseb Kaarin juba kell 5. Tal on kiire. Ta paneb asjad kokku ja läheb kodust välja.\n\nKell 7 lendab Kaarin Tallinnast otse Stockholmi. Tunni pärast on ta juba Stockholmis.\n\nStockholmis on Kaarinil kiire päev. Ta on terve päeva ühe suure maja sees. Seal räägib ta paljude inimestega. Maja sees on hea, aga Kaarin tahab välja minna.\n\nÕhtul on tal lõpuks vaba aeg. Ta läheb välja ja käib linnas ringi. Ta läheb mööda vana teed vee juurde. Seal läheb ta mööda teist teed edasi. Ta vaatab vanu maju ja käib kaua ringi.\n\nKell 10 läheb Kaarin magama. Ta on õnnelik.\n\nJärgmisel hommikul tõuseb ta jälle kell 5. Ta lendab otse koju. Nüüd ei ole tal enam kiire.\n\n„Ma sain üksi hästi hakkama,“ mõtleb Kaarin. „Järgmine kord ma enam ei karda.“\n\nKüsimused:\nKuhu Kaarin lendab?\nTa lendab Stockholmi.\nKas Kaarin lendab koos kellegagi?\nEi, ta lendab üksi.\nMis kell Kaarin hommikul tõuseb?\nTa tõuseb kell 5.\nKus on Kaarin terve päeva?\nTa on terve päeva ühe suure maja sees.\nMida Kaarin õhtul teeb?\nTa käib linnas ringi ja läheb mööda vana teed vee juurde.\nKuidas Kaarin koju tuleb?\nTa lendab otse koju."
+    },
+    {
+      "title": "Tugev Pontu",
+      "summary": "Margus trains dogs; a big strong new dog pulls him over and runs off, then slowly learns.",
+      "newWords": [
+        "koer",
+        "tugev",
+        "jõud",
+        "siduma",
+        "vedama",
+        "kukkuma",
+        "põgenema",
+        "keerama",
+        "liigutama"
+      ],
+      "text": "Margus töötab koertega. Ta õpetab koeri. Täna tuleb tema juurde uus koer. Koera nimi on Pontu. Pontu on suur ja tugev. Tal on palju jõudu.\n\nMargus seob Pontu ukse juurde kinni. Siis räägib ta Pontu perega.\n\nPärast seda lähevad Margus ja Pontu välja. Pontu veab Margust. Ta veab väga tugevalt. Margus on ka tugev mees, aga koeral on rohkem jõudu.\n\nÄkki näeb Pontu teist koera. Ta tõmbab ja Margus kukub maha. Pontu põgeneb.\n\nMargus tõuseb kiiresti. „Pontu, tule tagasi!“ kutsub ta.\n\nPontu jääb seisma. Ta keerab pead ja vaatab Margust. Siis liigutab ta kõrvu. Lõpuks tuleb ta tagasi.\n\n„Hea koer,“ ütleb Margus. Nüüd seob ta koera hästi kinni.\n\nJärgmistel päevadel õpetab Margus Pontut. „Istu!“ ütleb Margus. Pontu istub ega liiguta ennast. „Tule!“ ütleb Margus. Pontu tuleb.\n\nKahe nädala pärast ei põgene Pontu enam. Ta ei vea enam Margust ja Margus ei kuku enam maha. Pontu keerab pead Marguse poole ja ootab. Pontu on ikka suur ja tugev, aga nüüd on ta ka hea koer.\n\nKüsimused:\nMida Margus teeb?\nTa töötab koertega ja õpetab koeri.\nMilline koer on Pontu?\nPontu on suur ja tugev koer.\nKuhu Margus Pontu kinni seob?\nTa seob Pontu ukse juurde kinni.\nMis juhtub, kui Pontu näeb teist koera?\nPontu tõmbab, Margus kukub maha ja Pontu põgeneb.\nKas Pontu tuleb tagasi?\nJah, lõpuks tuleb ta tagasi.\nKas Pontu põgeneb kahe nädala pärast veel?\nEi, ta ei põgene enam."
+    },
+    {
+      "title": "Aus vastus",
+      "summary": "Elina has not done her homework and asks her brother for advice before she sees her teacher.",
+      "newWords": [
+        "vihkama",
+        "olukord",
+        "nõu",
+        "valetama",
+        "aus",
+        "hoolima",
+        "suhe",
+        "täielik"
+      ],
+      "text": "Elina on 12 aastat vana. Ta käib koolis ja vihkab kodutöid.\n\nEile õhtul ei teinud Elina oma kodutööd. Ta mängis terve õhtu. Täna hommikul on tal halb tunne. Olukord ei ole hea.\n\n„Ma ütlen proua Ilvesele, et mu töö jäi koju,“ mõtleb Elina.\n\nElinal on vanem vend. Venna nimi on Tõnis. Elina küsib vennalt nõu.\n\n„Tõnis, mul on vaja sinu nõu,“ ütleb Elina. Ta räägib vennale kõik.\n\n„Ära valeta,“ ütleb Tõnis. „Ole aus. Valetada ei ole hea.“\n\n„Aga proua Ilves ei hooli sellest,“ ütleb Elina.\n\n„Ta hoolib küll,“ ütleb Tõnis. „Ta hoolib kõigist oma lastest. Ja teil on hea suhe.“\n\n„Selles suhtes on sul õigus,“ ütleb Elina. „Meil on tõesti hea suhe.“\n\n„Ma vihkan seda olukorda,“ ütleb Elina veel. „Aga sul on täielik õigus. Ma ei valeta.“\n\nKoolis läheb Elina proua Ilvese juurde. „Ma ei teinud eile oma tööd,“ ütleb ta. „Ma ei taha valetada. Ma mängisin terve õhtu.“\n\nProua Ilves vaatab Elinat. „Aitäh, et sa oled aus,“ ütleb ta. „Too oma töö homme.“\n\nÕhtul teeb Elina kodutöö valmis. Järgmisel päeval on proua Ilves täielikult rahul. Ka Elina on rahul. Tõnis andis talle hea nõu.\n\nKüsimused:\nMida Elina vihkab?\nElina vihkab kodutöid.\nMida Elina eile õhtul tegi?\nTa mängis terve õhtu ja ei teinud kodutööd.\nKellelt Elina nõu küsib?\nTa küsib nõu oma vennalt.\nMida Tõnis ütleb?\nTõnis ütleb: ära valeta, ole aus.\nKas proua Ilves hoolib oma lastest?\nJah, ta hoolib kõigist oma lastest.\nMida ütleb proua Ilves, kui Elina räägib tõtt?\nTa ütleb aitäh, et Elina on aus."
+    },
+    {
+      "title": "Lauri film",
+      "summary": "Lauri makes short films with his phone; his film about his old school wins a prize.",
+      "newWords": [
+        "komme",
+        "film",
+        "üsna",
+        "miljon",
+        "dollar",
+        "niimoodi",
+        "endine",
+        "võit",
+        "jätkama"
+      ],
+      "text": "Lauri on 17 aastat vana. Ta elab Võrus ja käib seal koolis. Lauril on üks komme: igal õhtul teeb ta telefoniga filme. See on tema vana komme.\n\nLauri filmid on üsna lihtsad. Need on ka üsna lühikesed, umbes 5 minutit.\n\nAmeerikas teevad inimesed filme miljonite dollaritega. Ühe filmi peale läheb mõnikord 100 miljonit dollarit. Lauril on ainult telefon.\n\n„Aga niimoodi saab ka head filmi teha,“ ütleb Lauri. „Ma teen niimoodi juba 3 aastat.“\n\nSel aastal teeb Lauri filmi oma endisest koolist. Endine kool on väike vana maja. Seal ei ole enam ühtegi last. Lauri endine õpetaja räägib filmis elust selles koolis.\n\nLauri saadab filmi Tallinna. Seal on noorte filmide päev.\n\nKuu aja pärast helistab Laurile üks naine Tallinnast. „Teie film võitis!“ ütleb ta. See on Lauri esimene võit. Võit on suur ja Lauri on väga õnnelik.\n\nSiis helistab Laurile üks mees Ameerikast. Ta tahab filmi osta. Ta pakub 1000 dollarit.\n\n„Miljonit dollarit ma ei saa,“ ütleb Lauri isale. „Aga 1000 dollarit on ka palju raha.“\n\nLauri jätkab oma tööd. Ta jätkab ka oma vana kommet: igal õhtul teeb ta uue filmi.\n\nKüsimused:\nMis komme Lauril on?\nIgal õhtul teeb ta telefoniga filme.\nMillised on Lauri filmid?\nNeed on üsna lihtsad ja lühikesed.\nMillest Lauri sel aastal filmi teeb?\nTa teeb filmi oma endisest koolist.\nKas Lauri film võitis?\nJah, see on tema esimene võit.\nKui palju mees Ameerikast pakub?\nTa pakub 1000 dollarit.\nMida Lauri pärast võitu teeb?\nTa jätkab oma tööd ja teeb igal õhtul uue filmi."
+    },
+    {
+      "title": "Indrek õpib autot juhtima",
+      "summary": "Indrek learns to drive with his teacher Ants and finally gets his licence.",
+      "newWords": [
+        "juhtima",
+        "luba",
+        "armastus",
+        "vähe",
+        "tüüp",
+        "selg",
+        "paik",
+        "murdma",
+        "iganes"
+      ],
+      "text": "Indrek on 18 aastat vana. Ta tahab autot juhtida. Aga autot võib juhtida ainult see, kellel on luba. Indrekul ei ole veel luba.\n\nIndreku isal on suur armastus autode vastu. See armastus on nüüd ka Indrekul. Aga Indrek teab autodest veel vähe.\n\nIndrek õpib Rakveres autot juhtima. Tema õpetaja on Ants. Esimesel päeval ootab Ants Indrekut auto juures.\n\n„Mis tüüpi auto see on?“ küsib Indrek.\n\n„See on väike ja lihtne auto,“ ütleb Ants. „Seda tüüpi autot on lihtne juhtida.“\n\nIndrek istub autosse. „Istu hästi,“ ütleb Ants. „Selg peab olema sirge.“ Indrek ajab selja sirgu.\n\nAnts näitab Indrekule üht paika linnast väljas. Seal on vähe autosid. „See on hea paik, et õppida,“ ütleb Ants.\n\nSiis peab Indrek auto väikesesse paika panema. Indrek murrab kaua pead, kuidas seda teha. Auto ei taha paigale jääda. Ta murrab veel natuke pead ja lõpuks saab ta sellega hakkama.\n\nIndrek õpib kaks kuud. Siis saab ta loa.\n\n„Nüüd on sul luba,“ ütleb Ants. „Nüüd võid sa sõita, kuhu iganes sa tahad.“\n\n„Kuhu iganes?“ küsib Indrek. „Siis sõidan ma kohe isa juurde!“\n\nKüsimused:\nMida Indrek tahab teha?\nTa tahab autot juhtida.\nKellel on suur armastus autode vastu?\nIndreku isal on suur armastus autode vastu.\nMis tüüpi auto see on?\nSee on väike ja lihtne auto.\nKus on Indrekul hea õppida?\nPaigas, kus on vähe autosid.\nMillal saab Indrek loa?\nTa saab loa kahe kuu pärast.\nKuhu Indrek kohe sõita tahab?\nTa tahab kohe isa juurde sõita."
+    }
+  ]
+}
