@@ -1,0 +1,194 @@
+{
+  "id": "fi-mini-2300",
+  "rankUpTo": 2300,
+  "level": "B2",
+  "title": "Työelämä",
+  "description": "Ten short stories about everyday working life in Finland: a plumber, an engineer, a touring band, an editor, a wedding caterer, IT support, a comic artist, a bus driver, a team leader and a film make-up artist.",
+  "topic": "The world of work",
+  "names": [
+    "Alvari",
+    "Tuulikki",
+    "Tampere",
+    "Juhana",
+    "Annastiina",
+    "Kokkola",
+    "Ida",
+    "Jasper",
+    "Tukholma",
+    "Tallinna",
+    "Berliini",
+    "Hannamari",
+    "Paavali",
+    "Savonlinna",
+    "Helsinki",
+    "Reija",
+    "Aleksanteri",
+    "Ruusa",
+    "Jyväskylä",
+    "Eemu",
+    "Minja",
+    "Oulu",
+    "Erik",
+    "Turku",
+    "Albert",
+    "Miia",
+    "Mirjami",
+    "Jaakob",
+    "Ines",
+    "Vaasa",
+    "Silva",
+    "Aaron",
+    "Merita",
+    "Porvoo"
+  ],
+  "lessons": [
+    {
+      "title": "Vettä olohuoneessa",
+      "summary": "The plumber Alvari finds a leaking old pipe in Tuulikki's living room, shuts off the water and replaces the worn piece.",
+      "newWords": [
+        "putki",
+        "olohuone",
+        "polvi",
+        "mittari",
+        "katkaista",
+        "varautua",
+        "litra",
+        "kulunut"
+      ],
+      "text": "Alvari korjaa putkia työkseen Tampereella. Hänellä on oma pieni yritys, ja hän ajaa asiakkaiden luo autolla, jossa on kaikki työkalut. Työ on vaihtelevaa: joskus hän vaihtaa keittiöön uuden putken, joskus hän etsii suihkusta reikää, josta vesi tulee lattialle.\n\nEräänä maanantaina aamulla hänelle soittaa Tuulikki, joka asuu vanhassa talossa keskustassa.\n\n”Olohuoneen lattialla on vettä”, Tuulikki sanoo. ”En tiedä, mistä se tulee.”\n\n”Tulen heti”, Alvari vastaa.\n\nPuolen tunnin kuluttua Alvari on paikalla. Olohuone on suuri ja kaunis, mutta ikkunan alla lattialla on vettä. Alvari laittaa polvien alle pehmeän tyynyn ja tutkii seinän viereistä lattiaa. Seinän vieressä kulkee vanha putki, joka vie lämmintä vettä keittiöön.\n\n”Tämä putki on 1960-luvulta”, Alvari sanoo. ”Sen pinta on kulunut, ja nyt siinä on pieni reikä.”\n\nEnnen kuin putken voi korjata, vesi täytyy katkaista. Asunnossa on oma mittari keittiön kaapissa. Mittarin vieressä on kahva, jolla vesi katkaistaan koko asunnosta. Alvari kääntää kahvaa, ja vesi on katkaistu.\n\n”Mittarin mukaan asunnossa on kuluneen viikon aikana mennyt paljon tavallista enemmän vettä”, Alvari kertoo Tuulikille. ”Putkesta on siis tullut vettä jo monta päivää.”\n\nAlvari laittaa lattialle ison astian ja vanhoja vaatteita. Hän on varautunut tällaiseen, sillä vanhoissa taloissa putket menevät usein rikki. Astiaan mahtuu kymmenen litraa, ja putkesta tulee siihen vielä pari litraa vettä. Sitten Alvari leikkaa kuluneen kohdan pois ja laittaa tilalle palan uutta putkea.\n\nTyö vie kaksi tuntia. Lopuksi Alvari nousee ylös. Hänen polvensa ovat kipeät. ”Polvet eivät tykkää tästä työstä”, hän sanoo nauraen.\n\nSitten hän avaa veden ja seuraa mittaria muutaman minuutin. Kun kukaan ei käytä vettä, mittari ei liiku, joten putki on taas kunnossa.\n\n”Teidän kannattaa varautua siihen, että muutkin talon putket ovat yhtä kuluneita”, Alvari sanoo Tuulikille. ”Taloon pitää varmasti pian vaihtaa uudet putket.”\n\n”Hyvä tietää”, Tuulikki sanoo. ”Kerron tästä talon kokouksessa, niin voimme varautua siihen ajoissa.”\n\nAlvari kirjoittaa laskun ja lähtee seuraavan asiakkaan luo. Matkalla hän ajattelee, että tässä ammatissa tarvitaan hyvien työkalujen lisäksi hyvät polvet.\n\nKysymykset:\nMissä Tuulikin olohuoneessa on vettä?\nVettä on ikkunan alla lattialla.\nMiksi putkessa on reikä?\nPutki on vanha, ja sen pinta on kulunut.\nMitä Alvari tekee ennen kuin hän korjaa putken?\nHän katkaisee veden kahvasta, joka on mittarin vieressä.\nPaljonko vettä putkesta tulee astiaan?\nPutkesta tulee astiaan pari litraa vettä.\nMistä Alvari tietää, että putki on taas kunnossa?\nMittari ei liiku, kun kukaan ei käytä vettä.\nMihin talon asukkaiden kannattaa varautua?\nHeidän kannattaa varautua siihen, että taloon pitää vaihtaa uudet putket."
+    },
+    {
+      "title": "Kuukausi tehtaalla",
+      "summary": "In an e-mail to his former teacher, the young engineer Juhana tells how his first month at a factory in Kokkola has gone.",
+      "newWords": [
+        "insinööri",
+        "ammattikorkeakoulu",
+        "soveltaa",
+        "määrittää",
+        "mitta",
+        "tosiasia",
+        "edellytys",
+        "synnyttää"
+      ],
+      "text": "Hei Annastiina,\n\nlupasin kirjoittaa sinulle, kun olen ollut uudessa työpaikassa kuukauden. Nyt kuukausi on täynnä, joten tässä kuulumisia Kokkolasta.\n\nKuten tiedät, valmistuin keväällä ammattikorkeakoulusta insinööriksi. Kesällä hain töitä monesta paikasta, ja elokuussa sain paikan tehtaalta, joka tekee metallisia osia veneisiin. Tehdas on uusi. Kun se avattiin viime vuonna, se synnytti kaupunkiin yli sata uutta työpaikkaa. Täällä sanotaan, että tehdas on synnyttänyt koko alueelle uutta elämää.\n\nTyössäni määritän, millaisia osia tehtaassa tehdään. Asiakas kertoo, mitä hän tarvitsee, ja minä määritän osan mitat ja materiaalin. Mittojen täytyy olla tarkat: jos yksikin mitta on väärä, osa ei sovi paikalleen. Ensimmäisellä viikolla laskin yhden osan mitat väärin, mutta onneksi vanhempi insinööri huomasi virheen ajoissa. Hän neuvoi minua tarkistamaan mitat aina kahteen kertaan.\n\nMoni asia, jonka opin ammattikorkeakoulussa, on ollut hyödyllinen. Sovellan joka päivä sitä, mitä opimme materiaaleista sinun tunneillasi. Koulussa en aina ymmärtänyt, miksi teoriaa piti lukea niin paljon. Nyt huomaan, että teoriaa on helppo soveltaa, kun sen osaa hyvin. Ilman sitä en voisi tehdä tätä työtä.\n\nYksi tosiasia on kuitenkin tullut minulle yllätyksenä: insinöörin työssä puhutaan paljon. Suuri osa päivästä menee kokouksiin ja sähköposteihin. Tosiasia on, että hyvä insinööri osaa myös selittää asiat selvästi muille.\n\nEsimieheni sanoi ensimmäisenä päivänä, että hyvän työn edellytys on kysyä, kun ei tiedä. Olen kysynyt paljon. Toinen edellytys on hänen mukaansa se, että ihminen jaksaa. Siksi lähden töistä ajoissa ja käyn illalla lenkillä meren rannalla. Työn ja vapaa-ajan pitää olla tasapainossa, jotta jaksaa.\n\nKerro terveisiä opiskelijoille! Tulen mielelläni keväällä ammattikorkeakouluun kertomaan heille, millaista insinöörin työ on käytännössä.\n\nYstävällisin terveisin\nJuhana\n\nKysymykset:\nMistä Juhana valmistui keväällä?\nHän valmistui ammattikorkeakoulusta insinööriksi.\nMitä uusi tehdas synnytti kaupunkiin?\nSe synnytti kaupunkiin yli sata uutta työpaikkaa.\nMitä Juhana tekee työssään?\nHän määrittää osien mitat ja materiaalin.\nMiksi Juhanan pitää tarkistaa mitat kahteen kertaan?\nJos yksikin mitta on väärä, osa ei sovi paikalleen.\nMikä tosiasia on tullut Juhanalle yllätyksenä?\nInsinöörin työssä puhutaan paljon.\nMikä on esimiehen mukaan hyvän työn edellytys?\nHyvän työn edellytys on kysyä, kun ei tiedä."
+    },
+    {
+      "title": "Kiertueen päiväkirja",
+      "summary": "The singer Ida keeps a diary of her band's first tour abroad, from the nervous start in Stockholm to a happy last concert in Berlin.",
+      "newWords": [
+        "kiertue",
+        "ulkomaille",
+        "laskeutua",
+        "stressi",
+        "viihtyä",
+        "hattu",
+        "vierailu"
+      ],
+      "text": "Maanantai\n\nKiertue alkaa huomenna. Lähdemme yhtyeen kanssa ensimmäistä kertaa ulkomaille: soitamme kahden viikon aikana Tukholmassa, Tallinnassa ja Berliinissä. Olen pakannut laukkuni jo kolme kertaa. Tunnen stressiä, koska en ole koskaan ollut näin pitkällä kiertueella. Jasper, joka soittaa yhtyeessä rumpuja, sanoi, että stressi menee ohi, kun ensimmäinen konsertti on soitettu.\n\nPakkasin mukaan myös vanhan mustan hattuni. Olen pitänyt sitä päässäni jokaisessa konsertissa viiden vuoden ajan. Ilman hattua en lähde lavalle.\n\nTiistai\n\nLento Tukholmaan kesti tunnin. Kun kone laskeutui, satoi lunta. Klubi, jossa soitimme, oli pieni, mutta paikka oli täynnä. Ennen konserttia stressi oli niin kova, etten pystynyt syömään. Kun aloimme soittaa, stressi katosi. Jasper oli oikeassa.\n\nTorstai\n\nAamulla lähdimme laivalla Tallinnaan. Iltapäivällä meillä oli vierailu koulussa, jossa lapset opiskelevat musiikkia. Soitimme lapsille ja kerroimme heille, millaista työmme on. Vierailu oli kiertueen paras hetki tähän asti. Lapset kysyivät paljon, ja yksi pieni tyttö halusi kokeilla hattuani. Annoin hänen pitää sitä koko tunnin.\n\nIllalla huomasin hotellissa, että hattu puuttui. Olin jättänyt sen kouluun! Opettaja toi sen hotelliin vielä samana iltana. Olin hänelle todella kiitollinen.\n\nLauantai\n\nViihdyn kiertueella paremmin kuin uskoin. Koko yhtye viihtyy hyvin yhdessä, vaikka matkustamme, syömme ja asumme koko ajan samoissa paikoissa. Toki kaipaan välillä omaa rauhaa. Silloin käyn yksin kävelyllä ja kuuntelen kaupungin ääniä.\n\nKeskiviikko\n\nLensimme Berliiniin. Kone laskeutui myöhään illalla, ja olimme hotellissa vasta yöllä. Laskeuduin hotellin portaita alas aamiaiselle niin väsyneenä, että Jasper nauroi minulle.\n\nPerjantai\n\nKiertueen viimeinen konsertti oli eilen. Sali oli täynnä, ja yleisö lauloi kanssamme. Laulun jälkeen nostin hattuani yleisölle. En ole koskaan viihtynyt lavalla niin hyvin.\n\nHuomenna lennämme kotiin. Suomessa on varmasti kylmä, mutta odotan omaa sänkyäni. Ensi vuonna haluan lähteä uudestaan ulkomaille.\n\nKysymykset:\nMihin kaupunkeihin yhtye lähtee kiertueelle?\nYhtye lähtee Tukholmaan, Tallinnaan ja Berliiniin.\nMiksi Idalla on stressiä ennen kiertuetta?\nHän ei ole koskaan ollut näin pitkällä kiertueella.\nMitä yhtye tekee Tallinnassa iltapäivällä?\nSillä on vierailu koulussa, jossa se soittaa lapsille.\nMitä Idan hatulle tapahtuu Tallinnassa?\nIda jättää hatun kouluun, ja opettaja tuo sen hotelliin.\nMiten yhtye viihtyy kiertueella?\nYhtye viihtyy yhdessä hyvin.\nMilloin kone laskeutuu Berliiniin?\nKone laskeutuu myöhään illalla."
+    },
+    {
+      "title": "Ensimmäinen romaani",
+      "summary": "Hannamari, an editor at a small publisher, reads a retired teacher's first novel about his childhood, points out what is unclear, and the book comes out in autumn.",
+      "newWords": [
+        "romaani",
+        "runo",
+        "kokoelma",
+        "lapsuus",
+        "kritisoida",
+        "kriittinen",
+        "epäselvä",
+        "viisas"
+      ],
+      "text": "Nimeni on Hannamari. Olen työskennellyt toimittajana pienessä kirjojen kustantajassa Helsingissä kymmenen vuotta. Työssäni luen tekstejä, joita kirjailijat lähettävät meille, ja autan heitä tekemään niistä parempia. Joka vuosi saamme satoja tekstejä, mutta julkaisemme vain noin 20 kirjaa.\n\nViime keväänä sain luettavaksi romaanin, jonka oli kirjoittanut Paavali. Hän on eläkkeellä oleva opettaja Savonlinnasta. Paavali oli julkaissut aikaisemmin yhden kokoelman runoja, mutta tämä oli hänen ensimmäinen romaaninsa.\n\nRomaani kertoi pojan lapsuudesta pienessä kylässä järven rannalla 1950-luvulla. Luin sen yhdessä illassa. Lapsuuden kesät, isän vene ja äidin keittiö tuntuivat todelta. Huomasin, että Paavali osaa kirjoittaa kauniisti, sillä hän on kirjoittanut runoja koko ikänsä.\n\nKustantajan toimittajan täytyy kuitenkin olla kriittinen. Romaanin toinen puolisko oli epäselvä: siinä oli liikaa hahmoja, ja lukijan oli vaikea seurata, kuka teki mitä. Myös loppu oli epäselvä. En tiennyt, miten Paavali ottaisi palautteen vastaan. Moni kirjailija ei pidä siitä, että hänen tekstiään kritisoidaan.\n\nKirjoitin hänelle pitkän viestin. Kerroin ensin, mikä romaanissa oli hyvää: lapsuuden kuvaus oli upea, ja monessa luvussa oli runon tunnelma. Sitten kerroin, mitkä kohdat olivat mielestäni epäselviä. Kritisoin vain tekstiä, en Paavalia itseään, ja ehdotin, miten hän voisi korjata ne.\n\nPaavali vastasi jo seuraavana päivänä. ”Kiitos kriittisestä palautteesta”, hän kirjoitti. ”Olet oikeassa. Kun on lukenut omaa tekstiään sata kertaa, ei enää näe sitä selvästi.”\n\nHän oli viisas mies. Hän ymmärsi, että hyvä palaute auttaa kirjailijaa. Kesän aikana hän kirjoitti romaanin toisen puoliskon uudestaan. Uusi versio oli lyhyempi ja selvempi, ja siinä oli vähemmän hahmoja.\n\nRomaani julkaistiin lokakuussa. Kirjan kansi oli sininen kuin järvi. Lehdet kirjoittivat siitä hyvin, ja yksi toimittaja kutsui Paavalia viisaaksi kertojaksi, joka muistaa lapsuuden tunteet tarkasti.\n\nNyt Paavali kirjoittaa runoja uuteen kokoelmaan. Hän lupasi lähettää sen minulle ensimmäisenä. Odotan sitä jo.\n\nKysymykset:\nMistä Paavalin romaani kertoo?\nSe kertoo pojan lapsuudesta pienessä kylässä järven rannalla.\nMitä Paavali oli julkaissut aikaisemmin?\nHän oli julkaissut yhden kokoelman runoja.\nMikä romaanissa oli epäselvä?\nToinen puolisko ja loppu olivat epäselviä, ja hahmoja oli liikaa.\nMiten Hannamari kritisoi Paavalin tekstiä?\nHän kertoi ensin, mikä oli hyvää, ja kritisoi vain tekstiä, ei Paavalia itseään.\nMiksi Paavali on Hannamarin mielestä viisas?\nHän ymmärtää, että kriittinen palaute auttaa kirjailijaa.\nMitä Paavali kirjoittaa nyt?\nHän kirjoittaa runoja uuteen kokoelmaan."
+    },
+    {
+      "title": "Ruokaa häihin",
+      "summary": "Reija's small catering firm cooks for a summer wedding by a lake; she plans the menu with the host, takes care of every special diet, and the day goes well.",
+      "newWords": [
+        "häät",
+        "ruokavalio",
+        "isäntä",
+        "kultainen",
+        "plus",
+        "luonnollisesti",
+        "tarpeellinen",
+        "perinteisesti"
+      ],
+      "text": "Reijalla on Jyväskylässä pieni yritys, joka tekee ruokaa juhliin. Kesällä työtä on eniten, sillä silloin vietetään paljon häitä. Reija tekee kesän aikana ruoat ainakin kymmeniin häihin.\n\nHuhtikuussa Reijalle soitti Aleksanteri. Hänen tyttärensä Ruusa aikoi mennä naimisiin heinäkuussa, ja häät pidettäisiin perheen mökillä järven rannalla. Aleksanteri kertoi, että hän on juhlan isäntä ja maksaa ruoat.\n\nReija ja Aleksanteri tapasivat toukokuussa. Reija kysyi ensin, kuinka paljon vieraita tulee.\n\n”Aikuisia on 80, plus noin 10 lasta”, Aleksanteri sanoi.\n\nReija laski nopeasti: 80 plus 10 on 90 vierasta.\n\nSitten he puhuivat ruoasta. Häissä tarjotaan perinteisesti kalaa ja perunoita, ja lopuksi juodaan kahvia ja syödään kakkua. Aleksanteri halusi pitää kiinni perinteistä. ”Meidän suvussamme on aina syöty häissä perinteisesti”, hän sanoi.\n\n”Luonnollisesti”, Reija vastasi. ”Mutta minun täytyy tietää myös vieraiden ruokavaliot.”\n\nReija selitti, että nykyään monella vieraalla on erityinen ruokavalio. Jotkut eivät syö lihaa eivätkä kalaa, ja joillakin on allergia. Siksi Reija pyytää aina listan vieraiden ruokavalioista. Lista on tarpeellinen, jotta jokainen vieras saa syötävää. Luonnollisesti Reija ei halua, että kenellekään tulee huono olo.\n\nAleksanteri lähetti listan kesäkuussa. Siinä oli 12 nimeä: neljä vierasta ei syönyt lihaa eikä kalaa, kolme ei voinut juoda maitoa, ja yksi lapsi ei voinut syödä munia. Reija teki jokaiselle ruokavaliolle oman ruoan, ja hän merkitsi pöytiin, mikä ruoka sopii kenellekin.\n\nRuusa halusi juhliin kultaiset värit. Pöydillä oli valkoisia kukkia, ja jokaisen vieraan paikalla oli pieni kultainen kortti, jossa oli hänen nimensä. Reija toi mukanaan kaiken tarpeellisen: ruoan, astiat ja kolme työntekijää.\n\nHäät pidettiin kauniina päivänä heinäkuun lopussa. Ruoka riitti kaikille, ja sitä jäi vielä seuraavaksi päiväksi. Illalla isäntä piti puheen ja kiitti kaikkia. Lopuksi hän kiitti myös Reijaa.\n\n”Ruoka oli erinomaista”, Aleksanteri sanoi. ”Ja jokainen sai syödä oman ruokavalionsa mukaan.”\n\nReija oli iloinen. Tällaisina päivinä hän tietää, miksi hän tekee tätä työtä.\n\nKysymykset:\nKuka on häiden isäntä?\nHäiden isäntä on Aleksanteri, Ruusan isä.\nKuinka paljon vieraita häihin tulee?\nHäihin tulee 80 aikuista plus noin 10 lasta.\nMitä häissä tarjotaan perinteisesti?\nHäissä tarjotaan perinteisesti kalaa, perunoita, kakkua ja kahvia.\nMiksi vieraiden ruokavalioiden lista on tarpeellinen?\nSe on tarpeellinen, jotta jokainen vieras saa syötävää.\nMitä kultaista pöydillä oli?\nJokaisen vieraan paikalla oli pieni kultainen kortti, jossa oli hänen nimensä.\nMitä isäntä teki illalla?\nHän piti puheen ja kiitti kaikkia, myös Reijaa."
+    },
+    {
+      "title": "Maanantai ilman verkkoa",
+      "summary": "On a Monday morning in an Oulu office, Eemu from IT support deals with virus warnings and a card terminal that does not work; both come from a wrong setting in Sunday's update.",
+      "newWords": [
+        "virus",
+        "asetus",
+        "häiriö",
+        "pääte",
+        "varoitus",
+        "kehottaa",
+        "pieleen",
+        "osoittautua"
+      ],
+      "text": "Eemu työskentelee IT-tuessa yrityksessä, jolla on toimisto Oulun keskustassa. Toimistossa on 40 työntekijää, ja Eemun tehtävä on huolehtia siitä, että heidän tietokoneensa ja verkkonsa toimivat.\n\nSunnuntaina kaikkiin koneisiin asennettiin päivitys. Eemu oli tehnyt saman monta kertaa ennenkin, eikä hän odottanut ongelmia. Maanantaina kello 8 aamulla hänelle kuitenkin soitettiin.\n\n”Koneeni näyttää varoitusta”, sanoi Minja, joka työskentelee myynnissä. ”Siinä lukee, että tiedostossa on virus.”\n\nPian soitti toinen työntekijä ja sitten kolmas. Kaikki kertoivat samasta varoituksesta. Eemu lähetti heti kaikille viestin: ”Tiedostoja, joista tulee varoitus, ei saa avata. Selvitän asiaa.” Hän kehotti työntekijöitä myös olemaan rauhallisia ja odottamaan hänen ohjeitaan.\n\nSamaan aikaan vastaanotosta tuli toinen viesti. Siellä on pääte, jolla asiakkaat maksavat kortilla. Pääte ei toiminut, koska verkossa oli häiriö. Asiakkaat joutuivat odottamaan, ja yksi heistä lähti pois maksamatta.\n\nEemu tutki ensin varoitusta. Hän avasi yhden tiedoston turvallisella koneella, jossa ei ollut verkkoa. Tiedostossa ei ollut mitään vaarallista. Ohjelma oli antanut varoituksen syyttä.\n\nSitten hän katsoi päivityksen asetuksia. Vika osoittautui yksinkertaiseksi: päivityksessä yksi asetus oli mennyt pieleen. Sen vuoksi ohjelma piti vaarallisena jokaista tiedostoa, joka oli tehty ennen sunnuntaita, ja väitti, että niissä on virus. Saman asetuksen vuoksi pääte ei päässyt verkkoon, ja siitä häiriö johtui.\n\nEemu korjasi asetuksen ja käynnisti koneet uudelleen. Puolen tunnin kuluttua kaikki toimi taas. Varoitukset loppuivat, häiriö oli ohi, ja vastaanoton pääte hyväksyi kortit.\n\nPäivän päätteeksi Eemu kirjoitti esimiehelleen lyhyen raportin. Hän kertoi, mikä oli mennyt pieleen ja miten vika oli korjattu. Hän kehotti myös testaamaan päivitykset jatkossa ensin muutamalla koneella. ”Näin väärät asetukset eivät pysäytä koko toimistoa”, hän kirjoitti.\n\nEsimies oli samaa mieltä. Hän kiitti Eemua nopeasta työstä, ja päivän päätteeksi Eemu lähti kotiin tyytyväisenä.\n\nKysymykset:\nMitä työntekijöiden koneet näyttivät maanantaina aamulla?\nNe näyttivät varoitusta, jonka mukaan tiedostossa oli virus.\nMihin Eemu kehotti työntekijöitä?\nHän kehotti heitä olemaan avaamatta tiedostoja ja odottamaan ohjeita.\nMiksi vastaanoton pääte ei toiminut?\nVerkossa oli häiriö.\nOliko tiedostoissa virus?\nEi ollut. Ohjelma antoi varoituksen syyttä.\nMikä osoittautui ongelman syyksi?\nSyyksi osoittautui yksi päivityksen asetuksista, joka oli mennyt pieleen.\nMitä Eemu teki päivän päätteeksi?\nHän kirjoitti esimiehelleen raportin."
+    },
+    {
+      "title": "Huone kahvilan yläpuolella",
+      "summary": "In a newspaper column, the comic artist Erik writes about leaving his kitchen table at home and renting a small, plain room above a café in Turku.",
+      "newWords": [
+        "sarjakuva",
+        "vuokrata",
+        "varjo",
+        "ruma",
+        "ihmeellinen",
+        "kumma",
+        "juurikaan",
+        "yläpuoli"
+      ],
+      "text": "Nimeni on Erik. Olen piirtänyt sarjakuvia työkseni 15 vuotta. Koko sen ajan tein töitä kotona keittiön pöydän ääressä. Se oli halpaa ja helppoa, mutta ei aina hyvää. Kun lapset tulivat koulusta, keittiössä ei ollut rauhaa. Kun puolisoni teki ruokaa, kaikki työni piti siirtää pois pöydältä.\n\nViime syksynä päätin vuokrata oman huoneen. Etsin pitkään, sillä vuokrat ovat Turussa korkeita. Lopulta löysin pienen huoneen kahvilan yläpuolelta. Vuokrasin sen heti, vaikka se ei ollut kaunis. Suoraan sanottuna se oli ruma.\n\nHuoneen seinät olivat harmaat, ja lattialla oli vanha ruma matto. Ikkunoita oli vain yksi, ja se oli pohjoiseen. Ystäväni ihmetteli, miksi vuokrasin niin ruman paikan. Minulle tärkeintä oli kuitenkin valo. Pohjoisen ikkunan valo on tasaista koko päivän, eikä aurinko tee paperille teräviä varjoja. Sarjakuvien tekijälle se on ihmeellinen asia.\n\nVarjoja piirrän kyllä itse. Sarjakuvissani varjot ovat tärkeitä: niillä kerron, onko hetki iloinen vai synkkä, aamu vai ilta. Mutta en halua, että oikean auringon varjot liikkuvat paperilla, kun työskentelen.\n\nKumma kyllä, olen nyt tehnyt enemmän töitä kuin koskaan ennen. Ehkä se johtuu siitä, että huoneessa ei ole juurikaan mitään muuta kuin pöytä, tuoli ja paperia. En ole juurikaan kaivannut keittiön pöytää. Ei mikään kumma, että työ etenee, kun kukaan ei keskeytä.\n\nKaikkein ihmeellisin asia on kuitenkin tuoksu. Joka aamu kahvilan yläpuolella tuoksuu kahvi ja tuore leipä. Kun tulen töihin, käyn ensin kahvilassa. Kahvilan omistaja tietää jo, millaisen kahvin haluan.\n\nViime kuussa piirsin sarjakuvan, jossa kahvilan yläpuolella asuu pieni lintu. Se elää kahvilan leivän paloista ja katselee ikkunasta ihmisiä. Kahvilan omistaja pyysi saada sen seinälleen. Nyt se on siellä kaikkien nähtävänä.\n\nRuma huone on muuttunut minulle rakkaaksi. Seinät ovat yhä harmaat, mutta niillä on nyt sarjakuvieni kuvia.\n\nKysymykset:\nMissä Erik piirsi sarjakuvia ennen?\nHän piirsi niitä kotona keittiön pöydän ääressä.\nMistä Erik vuokrasi huoneen?\nHän vuokrasi huoneen kahvilan yläpuolelta.\nMiksi huone oli ruma?\nSen seinät olivat harmaat, ja lattialla oli vanha ruma matto.\nMiksi pohjoisen ikkunan valo on Erikille tärkeää?\nValo on tasaista, eikä aurinko tee paperille varjoja.\nMitä huoneessa on?\nSiellä ei ole juurikaan muuta kuin pöytä, tuoli ja paperia.\nMistä Erikin uusi sarjakuva kertoo?\nSe kertoo linnusta, joka asuu kahvilan yläpuolella."
+    },
+    {
+      "title": "Mäkiä ja lunta",
+      "summary": "On a snowy winter morning in Jyväskylä, the experienced bus driver Albert teaches the new driver Miia to drive calmly up and down the hills and to save fuel.",
+      "newWords": [
+        "kaasu",
+        "ohittaa",
+        "mäki",
+        "kuluttaa",
+        "sallittu",
+        "alhainen",
+        "keskimääräinen",
+        "selviytyä"
+      ],
+      "text": "Albert on ajanut bussia Jyväskylässä 25 vuotta. Tänä talvena hän opettaa uusia kuljettajia. Hänen ensimmäinen oppilaansa on Miia, joka aloitti työn kuljettajana viime viikolla.\n\nJyväskylä on kaupunki, jossa on paljon mäkiä. Talvella mäet ovat kuljettajalle vaikeita, sillä tiellä on lunta ja jäätä. Eräänä tammikuun yönä satoi paljon lunta. Seuraavana aamuna Miia lähti ajamaan ensimmäistä kertaa Albertin kanssa.\n\n”Paina kaasua rauhallisesti”, Albert sanoi, kun bussi lähti liikkeelle. ”Jos painat kaasua liian kovaa, pyörät pyörivät tyhjää lumessa.”\n\nEnsimmäinen mäki tuli vastaan heti keskustan jälkeen. Miia ajoi sen ylös alhaisella nopeudella, ja bussi selviytyi siitä hyvin. Alas tultaessa hän ajoi vielä hitaammin. Sallittu nopeus kadulla oli 50 kilometriä tunnissa, mutta lumen takia Miia ajoi vain 30.\n\n”Sallittu nopeus ei tarkoita, että sillä pitää ajaa”, Albert sanoi. ”Huonolla säällä alhainen nopeus on paras.”\n\nMatkan aikana he ohittivat pyöräilijän, joka ajoi tien reunassa. Miia ohitti hänet hitaasti ja kaukaa. Muutaman pysäkin he ohittivat pysähtymättä, koska kukaan ei odottanut niillä eikä kukaan halunnut jäädä pois.\n\nPuolivälissä Albert kertoi, kuinka paljon bussi kuluttaa polttoainetta. ”Keskimääräinen bussi kuluttaa noin 40 litraa sadalla kilometrillä”, hän sanoi. ”Mutta kuljettaja voi vaikuttaa siihen paljon. Kun painaa kaasua tasaisesti eikä jarruta turhaan, bussi kuluttaa vähemmän.”\n\nLinjan vaikein kohta oli pitkä mäki sairaalan lähellä. Mäen alla Miia oli hiljaa. Hän muisti Albertin neuvon ja painoi kaasua tasaisesti. Bussi nousi hitaasti mutta varmasti ylös, ja matkustajat eivät huomanneet mitään erityistä.\n\n”Hyvin selviydyit”, Albert sanoi mäen päällä. ”Se on tämän linjan vaikein mäki.”\n\nPäivän lopussa Albert katsoi koneelta, paljonko Miian bussi oli kuluttanut. Kulutus oli alhaisempi kuin keskimääräinen kulutus linjalla.\n\n”Ajat jo nyt rauhallisemmin kuin moni vanha kuljettaja”, Albert sanoi. Miia oli tyytyväinen. Hän tiesi, että selviytyisi talvesta.\n\nKysymykset:\nMiksi mäet ovat talvella kuljettajalle vaikeita?\nTiellä on lunta ja jäätä.\nMitä Albert sanoo kaasusta?\nKaasua pitää painaa rauhallisesti, muuten pyörät pyörivät tyhjää lumessa.\nMikä oli kadun sallittu nopeus, ja kuinka kovaa Miia ajoi?\nSallittu nopeus oli 50 kilometriä tunnissa, mutta Miia ajoi vain 30.\nMiten Miia ohitti pyöräilijän?\nHän ohitti hänet hitaasti ja kaukaa.\nPaljonko keskimääräinen bussi kuluttaa polttoainetta?\nSe kuluttaa noin 40 litraa sadalla kilometrillä.\nMiten Miia selviytyi linjan vaikeimmasta mäestä?\nHän painoi kaasua tasaisesti, ja bussi nousi hitaasti mutta varmasti ylös."
+    },
+    {
+      "title": "Uusi esimies ja kesälomat",
+      "summary": "Mirjami, the new team leader in a Vaasa customer service team, has to share out the summer holidays fairly when two people both want July.",
+      "newWords": [
+        "kokoontua",
+        "kehä",
+        "vedota",
+        "lupaus",
+        "velvollisuus",
+        "kohdella",
+        "suosia",
+        "päinvastoin"
+      ],
+      "text": "Mirjami aloitti helmikuussa uutena esimiehenä suuressa yhtiössä Vaasassa. Hänen tiimissään on kahdeksan työntekijää, jotka vastaavat asiakkaiden puheluihin ja viesteihin.\n\nTiimi kokoontuu joka maanantai kello 9. Kokouksessa kukaan ei istu, vaan kaikki seisovat kehässä toimiston keskellä. Kehässä jokainen näkee toisensa, ja kokous kestää vain 15 minuuttia. Mirjamin mielestä on hyvä, että tiimi kokoontuu lyhyesti mutta usein.\n\nEnsimmäisessä kokouksessa Mirjami antoi tiimille lupauksen. ”Kohtelen kaikkia samalla tavalla”, hän sanoi. ”En suosi ketään. Jos olen jostain asiasta eri mieltä, sanon sen teille suoraan.” Tiimi kuunteli hiljaa. Moni oli kuullut lupauksia ennenkin.\n\nMaaliskuussa tuli ensimmäinen vaikea asia: kesälomat. Asiakkaiden puheluihin täytyy vastata koko kesän, joten kaikki eivät voi olla lomalla yhtä aikaa. Heinäkuu on suosittu kuukausi, ja kaksi työntekijää halusi lomansa juuri silloin.\n\nJaakob vetosi siihen, että hänen lapsensa ovat koulusta lomalla ja perhe haluaa matkustaa yhdessä. Ines vetosi siihen, että hän oli ollut lomalla kesäkuussa jo kolme vuotta. Molemmat olivat oikeassa.\n\nMirjami mietti asiaa koko viikon. Hän tiesi, että päätös oli hänen velvollisuutensa. Esimiehen velvollisuus on päättää, vaikka päätös ei miellytä kaikkia.\n\nSeuraavana maanantaina tiimi kokoontui taas kehään. Mirjami kertoi päätöksensä: tänä vuonna Ines saa heinäkuun, ja Jaakob saa kaksi viikkoa kesäkuun lopussa ja yhden viikon elokuussa. Ensi vuonna järjestys on päinvastoin.\n\n”Suosit siis Inesiä”, Jaakob sanoi.\n\n”En suosi”, Mirjami vastasi. ”Päinvastoin, yritän kohdella teitä molempia reilusti. Ines on ollut lomalla kesäkuussa kolme vuotta, joten nyt on hänen vuoronsa. Ensi vuonna on sinun vuorosi, ja se on minun lupaukseni sinulle.”\n\nJaakob mietti hetken. ”Se on reilua”, hän sanoi.\n\nKokouksen jälkeen Ines tuli kiittämään Mirjamia. Mirjami oli iloinen, että oli pitänyt ensimmäisen lupauksensa.\n\nKysymykset:\nMissä tiimi kokoontuu joka maanantai?\nTiimi kokoontuu kehässä toimiston keskellä.\nMinkä lupauksen Mirjami antoi tiimille?\nHän lupasi kohdella kaikkia samalla tavalla eikä suosia ketään.\nMihin Jaakob vetosi?\nHän vetosi siihen, että hänen lapsensa ovat lomalla ja perhe haluaa matkustaa yhdessä.\nMihin Ines vetosi?\nHän vetosi siihen, että hän oli ollut lomalla kesäkuussa jo kolme vuotta.\nMikä on esimiehen velvollisuus?\nEsimiehen velvollisuus on päättää, vaikka päätös ei miellytä kaikkia.\nMiten lomat menevät ensi vuonna?\nEnsi vuonna järjestys on päinvastoin."
+    },
+    {
+      "title": "Sadepäivä kuvauksissa",
+      "summary": "Silva does the make-up on a film set in Porvoo; on a cold, rainy day she keeps the actors' faces right while a scene from the day before is shot again.",
+      "newWords": [
+        "kohtaus",
+        "nenä",
+        "tyttöystävä",
+        "virallisesti",
+        "pitkälti",
+        "eilinen",
+        "surkea"
+      ],
+      "text": "Silva tekee työkseen näyttelijöiden meikit elokuvissa ja televisiossa. Tänä syksynä hän on mukana tekemässä elokuvaa, jota kuvataan Porvoossa. Elokuva kertoo nuoresta miehestä, joka palaa kaupunkiin, jossa hän asui lapsena, ja tapaa vanhan ystävänsä.\n\nKuvaukset alkavat virallisesti kello 7, mutta Silva on paikalla jo kello 6. Hänen täytyy saada näyttelijöiden kasvot ja hiukset valmiiksi ennen kuin kamera käy. Tänään sää on surkea: on kylmä, ja sataa koko ajan. Surkeasta säästä huolimatta kuvaukset jatkuvat, sillä elokuva kuvataan pitkälti ulkona.\n\nAamun ensimmäinen asia on eilinen kohtaus. Ohjaaja ei ollut tyytyväinen eiliseen kohtaukseen, joten se kuvataan uudelleen. Kohtauksessa nuori mies odottaa tyttöystäväänsä joen rannalla. Miehen roolissa on Aaron, ja tyttöystävän roolissa on Merita. Tyttöystävä tulee, ja he kävelevät yhdessä vanhan kaupungin kaduilla.\n\nKohtauksen ongelma on se, että sen täytyy näyttää samalta kuin eilen. Eilen ei satanut, ja nyt sataa. Silva tarkistaa eilisen päivän kuvat puhelimestaan ja tekee näyttelijöille aivan samat meikit.\n\nKylmässä Aaronin nenä muuttuu nopeasti punaiseksi. Silva seisoo kameran vieressä ja katsoo kasvoja tarkasti. Aina kun kamera pysähtyy, hän käy laittamassa Aaronin nenään vähän meikkiä, jotta nenä ei näytä punaiselta. ”Sinun nenäsi on taas punainen”, hän sanoo nauraen. ”Pysy hetki paikallasi.”\n\nMerita on ollut sateessa tunnin, ja hänen hiuksensa ovat menneet huonoon kuntoon. Silva laittaa ne tauolla nopeasti kuntoon. Tyttöystävän roolissa hänen hiustensa täytyy näyttää kauniilta, vaikka sää on surkea.\n\nLopulta kohtaus on valmis. Ohjaaja on tyytyväinen, ja kaikki pääsevät sisälle juomaan kuumaa kahvia. Virallisesti päivä loppuu kello 17, mutta Silva pesee vielä tunnin näyttelijöiden meikit pois.\n\nElokuva tehdään pitkälti pienellä rahalla, ja päivät ovat pitkiä. Silti Silva pitää työstään. Hänestä on hienoa nähdä valmiissa elokuvassa kasvot, joiden parissa hän on tehnyt töitä.\n\nKysymykset:\nMilloin kuvaukset alkavat virallisesti?\nNe alkavat virallisesti kello 7.\nMillainen sää on tänään?\nSää on surkea: on kylmä, ja sataa koko ajan.\nMiksi eilinen kohtaus kuvataan uudelleen?\nOhjaaja ei ollut tyytyväinen eiliseen kohtaukseen.\nKetä nuori mies odottaa kohtauksessa?\nHän odottaa tyttöystäväänsä joen rannalla.\nMitä kylmä tekee Aaronin nenälle?\nNenä muuttuu nopeasti punaiseksi.\nMissä elokuva kuvataan?\nSe kuvataan pitkälti ulkona Porvoossa."
+    }
+  ]
+}
